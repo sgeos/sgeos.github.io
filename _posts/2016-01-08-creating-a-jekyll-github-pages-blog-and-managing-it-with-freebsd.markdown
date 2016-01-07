@@ -15,6 +15,7 @@ gem install jekyll
 exit
 
 # create a new blog
+# replace my_username with your username
 mkdir my_blog
 cd my_blog
 jekyll new my_username.github.io
@@ -27,6 +28,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rss
 
 # add project to git and push to github
+# replace my_username with your username
 git init
 git add .
 git commit -m "Initial commit."
@@ -38,11 +40,14 @@ git push origin master
 vim _config.yml
 
 # save welcome post in drafts
+# replace YYYY-MM-DD the post date
 mkdir _drafts
-cp _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
+mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 
 # create post
-vim _posts/YYYY-MM-DD-name-of-post.markdown
+# replace YYYY-MM-DD the post date
+# replace name-of-post with the title of the post
+vim _posts/YYYY-MM-DD-title-of-post.markdown
 
 # build local site
 jekyll build --incremental --drafts
