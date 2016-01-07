@@ -4,6 +4,22 @@ title:  "Creating A Jekyll GitHub Pages Blog and Managing it With FreeBSD"
 date:   2016-01-08 03:07:15 +0900
 categories: jekyll github freebsd
 ---
+I have wanted a low maintenance technical blogging solution for a while.  A Jekyll blog on GitHub Pages meets all of my criteria.  Write posts in markdown, commit and push.  The people at GitHub Pages will almost certainly keep the servers up.
+
+These instructions are written for FreeBSD because that is what I use.  The same general approach should work for any operating system.
+
+## Software Versions
+{% highlight sh %}
+$ uname -a
+FreeBSD mirage.sennue.com 11.0-CURRENT FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
+$ ruby --version
+ruby 2.1.8p440 (2015-12-16 revision 53160) [amd64-freebsd11]
+$ jekyll --version
+jekyll 3.0.1
+$
+{% endhighlight %}
+
+## Instructions
 First, create a new GitHub repository named *my_username*.github.io, where *my_username* is your GitHub username.
 
 Next, install Jekyll, create a new blog and push it to github.
@@ -57,7 +73,6 @@ git add .
 git commit -m "Change message."
 git push
 {% endhighlight %}
-
 
 ## References:
 - [GitHub Pages Setup Instructions](https://pages.github.com)
