@@ -5,9 +5,8 @@ date:   2016-01-08 02:49:39 +0900
 categories: test
 ---
 Hello, World!
-{% highlight c %}
+{% highlight c linenos %}
 #include <stdio.h>
-
 int main(int argc, char **argv)
 {
   printf("Hello, World!\n");
