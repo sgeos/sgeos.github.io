@@ -7,6 +7,7 @@ categories: test
 Hello, World!
 {% highlight c linenos %}
 #include <stdio.h>
+
 int main(int argc, char **argv)
 {
   printf("Hello, World!\n");
@@ -14,7 +15,7 @@ int main(int argc, char **argv)
 }
 {% endhighlight %}
 
-References:
+## References:
 - [Hello, World!][hello-world]
 
 [hello-world]: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
