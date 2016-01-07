@@ -16,7 +16,6 @@ int main(int argc, char **argv)
 {% endhighlight %}
 
 ## References:
-- [Hello, World!][hello-world]
-
-[hello-world]: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
+- [Hello, World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+- [Jekyll bug: Tag was never closed](http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed/)
 

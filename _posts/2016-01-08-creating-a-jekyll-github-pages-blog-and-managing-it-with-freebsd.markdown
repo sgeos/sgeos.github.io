@@ -16,7 +16,6 @@ $ ruby --version
 ruby 2.1.8p440 (2015-12-16 revision 53160) [amd64-freebsd11]
 $ jekyll --version
 jekyll 3.0.1
-$
 {% endhighlight %}
 
 ## Instructions
@@ -32,6 +31,7 @@ exit
 
 # create a new blog
 # replace my_username with your username
+# replace my_blog directory with your preferred project organization
 mkdir my_blog
 cd my_blog
 jekyll new my_username.github.io
@@ -55,8 +55,8 @@ git push origin master
 # configure blog
 vim _config.yml
 
-# save welcome post in drafts
-# replace YYYY-MM-DD the post date
+# save welcome post in drafts for future reference
+# replace YYYY-MM-DD with the post date
 mkdir _drafts
 mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 
@@ -65,7 +65,7 @@ mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 # replace name-of-post with the title of the post
 vim _posts/YYYY-MM-DD-title-of-post.markdown
 
-# build local site
+# build local site to test for errors
 jekyll build --incremental --drafts
 
 # sync changes
