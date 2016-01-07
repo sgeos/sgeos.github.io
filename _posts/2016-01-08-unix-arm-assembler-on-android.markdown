@@ -6,13 +6,13 @@ categories: jekyll github freebsd
 ---
 Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 are just plain different.  Also, the ABI is completely different.
 
-I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The problem with hello world examples is that there is no input.  The environment works.  Great!  Now what?  With a knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
+I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The environment works.  Great!  Now what?  The problem with hello world examples is that there is no input.  Without knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
 
 Then I though back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world, but my Android phone was on my desk.  No FreeBSD on my phone, but both FreeBSD and Linux appear to use the ARM EABI documented on the [ARM site][arm-site].
 
 The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  There has never been an easier time to learn assebler.
 
-My GitHub repository for this project can be found [here][android-asm-github].  Please note that the Android NDK usage is probably non-standard and the compiliation instructions may break in the future.  If that happens, good luck figuring the necessary flags to build the examples.  =)
+My GitHub repository for this project can be found [here][android-asm-github].  Please note that manually linking object files is probably not standard Android NDK usage.  The build instructions may break in the future.  If that happens, good luck figuring the necessary flags to build the examples.  =)
 
 ## Software Versions
 {% highlight sh %}
@@ -25,7 +25,7 @@ Android Debug Bridge version 1.0.32
 {% endhighlight %}
 
 ## Instructions
-First, install the [Android SDK][android-sdk] and [Android NDK][android-ndk].  Make sure [ADB][android-debug-bridge] has been installed you connect to your test device.  Note that your phone may need to be rooted to run the examples.
+First, install the [Android SDK][android-sdk] and [Android NDK][android-ndk].  Make sure [ADB][android-debug-bridge] has been installed and you connect to your test device.
 {% highlight sh %}
 $ adb devices
 List of devices attached 
@@ -35,7 +35,7 @@ $ adb shell "uname"
 Linux
 {% endhighlight %}
 
-A rooted device is required to run ASM programs on an Android with these instructions.  Running ADB as root is handy.  You will need chmod, so you will need to install busybox or some other box that provides the same functionality.
+A rooted device is required to run ASM programs on Android with these instructions.  Running ADB as root is handy.  You will need chmod, so you will need to install busybox or some other box that provides the same functionality.
 {% highlight sh %}
 $ adb root
 restarting adbd as root
@@ -79,7 +79,7 @@ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/clang --sysroot=$SYSROOT -fPIE -DANDROID -
 $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-ld --sysroot=$SYSROOT -pie --dynamic-linker=/system/bin/linker main.o $CRT -o c-hello-world -lc
 {% endhighlight %}
 
-This is a funny way of building a C program.  What is going on?  The end goal is to build and run assembler programs.  Assembly files need to run through the assebler and the linker.  In order to link ASM object files with C object files all object files need to be manually linked.  The entry point to a C program is main, but the program really takes control in the _start function.  The CRT files contain this _start function.  I has all of the setup code for the "C runtime".  This code zeros memory and does other boilerplate tasks.  Your compiler usually includes the C runtime automatically so you do not need to think about it.  The -lc flag links the standard C library.  This is another step your compiler usually handles automatically.
+This is a funny way of building a C program.  What is going on?  The end goal is to build and run assembler programs.  Assembly files need to run through the assebler and the linker.  In order to link ASM object files with C object files all object files need to be manually linked.  The entry point to a C program is main, but the program really takes control in the _start function.  The CRT files contain this _start function.  It has all of the setup code for the "C runtime".  This code zeros memory and does other boilerplate tasks.  Your compiler usually includes the C runtime automatically so you do not need to think about it.  The -lc flag links the standard C library.  This is another step your compiler usually handles automatically.
 
 Running the program on the phone should print "Hello, World! [C]".  This will remount the system partition of your phone in read write mode.  If you do not know what that means do not proceed.
 {% highlight sh %}
@@ -94,8 +94,7 @@ adb shell /system/asm/c-hello-world
 With the C version working, it is time to rewrite the program in ARM ASM.  Let us start with a header that defines system calls.
 {% highlight asm %}
 @ system.inc
-@ Android Syscall Reference
-https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
+@ Android Syscall Reference https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
 
 .set stdin,  0
 .set stdout, 1
@@ -236,26 +235,27 @@ clean:
 {% endhighlight %}
 
 ## References:
-- [FreeBSD Forums Assembly - simple Hello World][original-post]
-- [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm]
-- [FreeBSD x86-64 Hello World][freebsd-x86-64-hello-world]
-- [System V AMD64 ABI Reference][system-v-abi]
-- [ARM EABI Documentation][arm-site]
+- [Android ASM GitHub Project][android-asm-github]
 - [Android SDK][android-sdk]
 - [Android NDK][android-ndk]
 - [Android NDK Standalone Toolchain][android-ndk-standalone]
 - [Android Debug Bridge][android-debug-bridge]
+- [Android Syscall Reference][android-syscall]
+- [ARM EABI Documentation][arm-site]
+- [FreeBSD Forums Assembly - simple Hello World][original-post]
+- [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm]
+- [FreeBSD x86-64 Hello World][freebsd-x86-64-hello-world]
+- [System V AMD64 ABI Reference][system-v-abi]
 
+[android-asm-github]:         https://github.com/Sennue/AndroidARM
+[android-sdk]:                 http://developer.android.com/sdk/installing/index.html
+[android-ndk]:                 http://developer.android.com/tools/sdk/ndk/index.html
+[android-ndk-standalone]:     https://developer.android.com/ndk/guides/standalone_toolchain.html
+[android-debug-bridge]:       http://developer.android.com/tools/help/adb.html
+[android-syscall]:            https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
+[arm-site]:                   http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.swdev.abi/index.html
 [original-post]:              https://forums.freebsd.org/threads/assembly-simple-hello-world.53274/#post-299410
 [freebsd-handbook-asm]:       https://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/x86.html
 [freebsd-x86-64-hello-world]: https://thebrownnotebook.wordpress.com/2009/10/27/native-64-bit-hello-world-with-nasm-on-freebsd/
 [system-v-abi]:               http://x86-64.org/documentation/abi.pdf
-[arm-site]:                   http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.swdev.abi/index.html
-[android-sdk:                 http://developer.android.com/sdk/installing/index.html
-[android-ndk:                 http://developer.android.com/tools/sdk/ndk/index.html
-[android-ndk-standalone]:     https://developer.android.com/ndk/guides/standalone_toolchain.html
-[android-debug-bridge]:       http://developer.android.com/tools/help/adb.html
-[android-asm-github]:         https://github.com/Sennue/AndroidARM
-
-[android-syscall]:            https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
 
