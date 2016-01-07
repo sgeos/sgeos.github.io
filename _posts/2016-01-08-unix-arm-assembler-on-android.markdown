@@ -4,7 +4,7 @@ title:  "UNIX ARM Assembler on Android"
 date:   2016-01-08 07:12:57 +0900
 categories: jekyll github freebsd
 ---
-Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 are just plain different.  Also, the ABI is completely different.
+Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 assembler are just plain different.  Also, the ABI is completely different.
 
 I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The environment works.  Great!  Now what?  The problem with hello world examples is that there is no input.  Without knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
 
@@ -192,17 +192,20 @@ CC=$(TOOLCHAIN)/bin/clang --sysroot=$(SYSROOT)
 AS=$(TOOLCHAIN)/bin/arm-linux-androideabi-as
 LD=$(TOOLCHAIN)/bin/arm-linux-androideabi-ld --sysroot=$(SYSROOT)
 CRT=$(SYSROOT)/usr/lib/crtbegin_dynamic.o $(SYSROOT)/usr/lib/crtend_android.o
+INSTALL=/system/test
 
 CFLAGS=-fPIE -DANDROID -g
 ASFLAGS=--gdwarf2
 LDFLAGS=-pie --dynamic-linker=/system/bin/linker
 
 ASM_TARGET=asm-hello-world
+ASM_PARAM=
 ASM_DEPS=system.inc
 ASM_OBJ=start.o
 ASM_LIBS=
 
 C_TARGET=c-hello-world
+C_PARAM=
 C_DEPS=
 C_OBJ=main.o $(CRT)
 C_LIBS=-lc
@@ -226,12 +229,133 @@ $(ASM_TARGET): $(ASM_OBJ)
 install: all
 	adb root
 	adb remount
-	adb shell mkdir /system/asm/
-	adb push $(ASM_TARGET) /system/asm/
-	adb push $(C_TARGET) /system/asm/
+	adb shell "mkdir $(INSTALL)"
+	adb push $(ASM_TARGET) $(INSTALL)
+	adb push $(C_TARGET) $(INSTALL)
+	adb shell "chmod +x $(INSTALL)/$(ASM_TARGET) $(INSTALL)/$(C_TARGET)"
+
+uninstall:
+	adb root
+	adb remount
+	adb shell "mkdir $(INSTALL)"
+	adb shell "rm -rf $(INSTALL)/$(ASM_TARGET) $(INSTALL)/$(C_TARGET)"
+	adb shell "rmdir $(INSTALL)"
+
+test:
+	adb root
+	adb shell "$(INSTALL)/$(ASM_TARGET) $(ASM_PARAM) && $(INSTALL)/$(C_TARGET) $(C_PARAM)"
 
 clean:
 	rm -rf $(ASM_TARGET) $(C_TARGET) *.o
+{% endhighlight %}
+
+The next program will echo all of the command line arguments.  This is the C source code:
+{% highlight c %}
+// main.c
+#include <stdio.h>
+#include <sys/syscall.h>
+#include <unistd.h>
+
+#define BUFFER_SIZE  2048
+#define MESSAGE      "Args: [C]\n"
+
+char buffer[BUFFER_SIZE];
+
+const char message[] = MESSAGE;
+const int  length    = sizeof MESSAGE - 1; // sizeof inclues \0
+
+int main(int argc, char** argv)
+{
+  // write message
+  syscall(SYS_write, STDOUT_FILENO, message, length);
+
+  // loop over argv until argvn_ptr is null
+  char *argvn_ptr = *(argv++);
+  while (NULL != argvn_ptr) {
+    char *buffer_ptr = buffer;
+    // copy from argvn_ptr to buffer_ptr until \0 is encountered
+    while ('\0' != *argvn_ptr) {
+      *(buffer_ptr++) = *(argvn_ptr++);
+    }
+    // append \n and write buffer
+    *buffer_ptr++ = '\n';
+    syscall(SYS_write, STDOUT_FILENO, buffer, buffer_ptr - buffer);
+    // next arg
+    argvn_ptr = *(argv++);
+  }
+  // done
+  syscall(SYS_exit, 0);
+}
+{% endhighlight %}
+
+This is probably not what you expected to see.  To be fair, the first version looped over argv and used printf.  The C version is, however, supposed to be a C representation of the ASM.  This version C main uses the same algorithm as the following ASM version.
+{% highlight c %}
+.include "system.inc"
+        .syntax unified
+	.set ALIGNMENT,8
+	.set BUFFER_SIZE,2048
+
+.bss
+	.comm buffer,BUFFER_SIZE,ALIGNMENT
+
+.text
+	.align ALIGNMENT
+        .global _start
+_start:
+	nop @ for gbd breakpoint
+
+	@ Intro Message
+	@ sys.write(stdout, message, length)
+	mov	r0,$stdout
+	adr	r1,message
+	mov	r2,$length
+	sys.write
+
+	@ Load Buffer via Global Offset Table
+	ldr	r0,.Lgot	@ got_ptr = &GOT - X
+	add	r0,r0,pc	@ got_ptr += X
+	ldr	r4,.Lbuffer	@ buffer_offset
+.Lpie0:	ldr	r4,[r4,r0]	@ buffer = *(got_ptr+buffer_offset)
+
+	@ Write Args
+	pop	{r0,r1}	@ pop argc, argvn_ptr = argv[0]
+proc_arg:
+	teq	r1,$0	@ if NULL != argvn_ptr
+	beq	done
+	mov	r2,r4	@ buffer_ptr = buffer
+copy_char:
+	ldrb	r0,[r1],$1	@ c = *argv_ptr++
+	teq	r0,$0
+	beq	output
+	strb	r0,[r2],$1	@ *buffer_ptr++ = c
+	b	copy_char
+output:
+	mov	r0,$0x0A	@ c = '\n'
+	strb	r0,[r2],$1	@ *buffer_ptr++ = '\n'
+	mov	r0,$stdout
+	mov	r1,r4		@ buffer
+	sub	r2,r2,r1	@ length = buffer - buffer_ptr
+	sys.write
+	pop	{r1}	@ argv_ptr = argv[n]
+	b	proc_arg
+done:
+	@ sys.exit(0)
+	mov	r0,$0
+	sys.exit
+
+@ Data needs to be in .text for PIE
+@.data
+message:
+        .asciz "Args: [ASM]\n"
+length = . - message
+	.align ALIGNMENT
+
+	@ Global Offset Table
+.Lgot:
+	.long	_GLOBAL_OFFSET_TABLE_-.Lpie0
+.Lbuffer:
+	.word	buffer(GOT)
+	.align ALIGNMENT
 {% endhighlight %}
 
 ## References:
