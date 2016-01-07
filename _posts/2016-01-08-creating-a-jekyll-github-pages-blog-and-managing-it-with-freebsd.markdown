@@ -7,7 +7,6 @@ categories: jekyll github freebsd
 First, create a new GitHub repository named *my_username*.github.io, where *my_username* is your GitHub username.
 
 Next, install Jekyll, create a new blog and push it to github.
-```sh
 {% highlight sh %}
 # install jekyll
 su
