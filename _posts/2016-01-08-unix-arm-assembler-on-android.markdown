@@ -22,6 +22,8 @@ $ uname -a
 Darwin siderite.local 15.2.0 Darwin Kernel Version 15.2.0: Fri Nov 13 19:56:56 PST 2015; root:xnu-3248.20.55~2/RELEASE_X86_64 x86_64
 $ adb shell "uname -a"
 Linux localhost 3.4.0-cyanogenmod-g9e39333 #1 SMP PREEMPT Wed Jan 6 19:02:34 PST 2016 armv7l
+$ adb shell "toybox --version" # for chmod; busybox will work
+ac4365b3c292-android
 $ adb version
 Android Debug Bridge version 1.0.32
 $ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/clang --version
@@ -421,7 +423,7 @@ The programs can be uninstalled as follows.
 make uninstall
 {% endhighlight %}
 
-The [GitHub repository][android-asm-github] has six projects.  The [hello world][android-asm-github-hello-world] and [arg_echo][android-asm-github-arg-echo] projects are listed above.  There are a couple more versions of hello world.  The [puts_hello_world][android-asm-github-puts-hello-world] project links to libc and replaces the system call with puts().  The [main_hello_world][android-asm-github-main-hello-world] project goes a step furthur and uses an ASM main function and the CRT instead of a _start function.  The [interoperate][android-asm-github-interoperate] project calls C, ASM and inline ASM from both C and ASM.  The[arg_sort][android-asm-github-arg-sort] project uses structs and malloc to sort command line arguments with a binary tree.  The GitHub Makefiles have targets for working with GDB.  [NOTES.txt][android-asm-github-notes] contains project notes and references.
+The [GitHub repository][android-asm-github] has six projects.  The [hello world][android-asm-github-hello-world] and [arg_echo][android-asm-github-arg-echo] projects are listed above.  There are a couple more versions of hello world.  The [puts_hello_world][android-asm-github-puts-hello-world] project links to libc and replaces the system call with puts().  The [main_hello_world][android-asm-github-main-hello-world] project goes a step furthur and uses an ASM main function and the CRT instead of a _start function.  The [interoperate][android-asm-github-interoperate] project calls C, ASM and inline ASM from both C and ASM.  The [arg_sort][android-asm-github-arg-sort] project uses structs and malloc to sort command line arguments with a binary tree.  The GitHub Makefiles have targets for working with GDB.  [NOTES.txt][android-asm-github-notes] contains project notes and references.
 
 ## Todo
 - EABI command line arguments (kind of pushed on the stack; _start and main are different) (EABI post?)
