@@ -413,19 +413,7 @@ The programs can be uninstalled as follows.
 make uninstall
 {% endhighlight %}
 
-The [GitHub repository][android-asm-github] has six projects.  The first two are listed above.
-
-- [hello world](https://github.com/Sennue/AndroidARM/tree/master/hello_world)
-- [arg_echo](https://github.com/Sennue/AndroidARM/tree/master/arg_echo)
-
-There are a couple more versions of hello world.  One links to libc and replaces the system call with puts().  The other goes a step furthur and uses an ASM main function and the CRT.  The interoperate project calls C, ASM and inline ASM from both C and ASM.  The arg_sort project uses structs and malloc to sort command line arguments with a binary tree.
-
-- [puts_hello_world](https://github.com/Sennue/AndroidARM/blob/master/puts_hello_world)
-- [main_hello_world](https://github.com/Sennue/AndroidARM/blob/master/main_hello_world)
-- [interoperate](https://github.com/Sennue/AndroidARM/tree/master/interoperate)
-- [arg_sort](https://github.com/Sennue/AndroidARM/tree/master/arg_sort)
-
-The GitHub Makefiles has targets for working with GDB.  [NOTES.txt](https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt) contains project notes and references.
+The [GitHub repository][android-asm-github] has six projects.  The [hello world](https://github.com/Sennue/AndroidARM/tree/master/hello_world) and [arg_echo](https://github.com/Sennue/AndroidARM/tree/master/arg_echo) projects are listed above.  There are a couple more versions of hello world.  The [puts_hello_world](https://github.com/Sennue/AndroidARM/blob/master/puts_hello_world) project links to libc and replaces the system call with puts().  The [main_hello_world](https://github.com/Sennue/AndroidARM/blob/master/main_hello_world) project goes a step furthur and uses an ASM main function and the CRT instead of a _start function.  The [interoperate](https://github.com/Sennue/AndroidARM/tree/master/interoperate) project calls C, ASM and inline ASM from both C and ASM.  The[arg_sort](https://github.com/Sennue/AndroidARM/tree/master/arg_sort) project uses structs and malloc to sort command line arguments with a binary tree.  The GitHub Makefiles have targets for working with GDB.  [NOTES.txt](https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt) contains project notes and references.
 
 ## Todo
 - EABI command line arguments
