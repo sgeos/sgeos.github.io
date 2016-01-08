@@ -47,7 +47,7 @@ cd my_username.github.io
 # https://help.github.com/articles/generating-ssh-keys/
 sh
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rss
+ssh-add ~/.ssh/id_rsa
 
 # add project to git and push to github
 # replace my_username with your username
