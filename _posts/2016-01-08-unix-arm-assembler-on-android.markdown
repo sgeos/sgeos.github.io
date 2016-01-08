@@ -4,13 +4,13 @@ title:  "UNIX ARM Assembler on Android"
 date:   2016-01-08 07:12:57 +0900
 categories: jekyll github freebsd
 ---
-Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 assembler are just plain different.  Also, the ABI is completely different.
+Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 assembler are just plain different.  Also, the [ABI][wikipedia-abi] is completely different.
 
 I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The environment works.  Great!  Now what?  The problem with hello world examples is that there is no input.  Without knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
 
 Then I thought back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world at the time, but my Android phone was handy.  No FreeBSD on my phone, but a few people had written hello world examples for android [(1)][arm-android] [(2)][arm-android-pentesting] [(3)][arm-android-peterdn].  FreeBSD and Linux appear to use the same ARM EABI documented on the [ARM site][arm-site].  Also, Android's bionic C libaray has a [lot of BSD in it][android-bionic-sync].
 
-The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  Remember, there has never been an easier time to learn assebler!
+The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  Remember, there has never been an easier time to learn assembler!
 
 My GitHub repository for this project can be found [here][android-asm-github].  Please note that manually linking object files is probably not standard Android NDK usage.  The build instructions may break in the future.  If that happens, good luck figuring the necessary flags to build the examples.  =)
 
@@ -466,6 +466,7 @@ The [GitHub repository][android-asm-github] has six projects.  The [hello world]
 - [FreeBSD Developers' Handbook: x86 Assembly Language Programming section][freebsd-handbook-asm]
 - [FreeBSD x86-64 Hello World][freebsd-x86-64-hello-world]
 - [System V AMD64 ABI Reference][system-v-abi]
+- [Wikipedia: Application Binary Interface][wikipedia-abi]
 
 [android-asm-github]:                  https://github.com/Sennue/AndroidARM
 [android-asm-github-notes]:            https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt
@@ -500,4 +501,5 @@ The [GitHub repository][android-asm-github] has six projects.  The [hello world]
 [freebsd-handbook-asm]:                https://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/x86.html
 [freebsd-x86-64-hello-world]:          https://thebrownnotebook.wordpress.com/2009/10/27/native-64-bit-hello-world-with-nasm-on-freebsd/
 [system-v-abi]:                        http://x86-64.org/documentation/abi.pdf
+[wikipedia-abi]:                       https://en.wikipedia.org/wiki/Application_binary_interface
 
