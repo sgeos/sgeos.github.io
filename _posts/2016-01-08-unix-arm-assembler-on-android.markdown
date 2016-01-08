@@ -81,14 +81,14 @@ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-ld --sysroot=$SYSROO
 
 This is a funny way of building a C program.  What is going on?  The end goal is to build and run assembler programs.  Assembly files need to run through the assebler and the linker.  In order to link ASM object files with C object files all object files need to be manually linked.  The entry point to a C program is main, but the program really takes control in the _start function.  The CRT files contain this _start function.  It has all of the setup code for the "C runtime".  This code zeros memory and does other boilerplate tasks.  Your compiler usually includes the C runtime automatically so you do not need to think about it.  The -lc flag links the standard C library.  This is another step your compiler usually handles automatically.
 
-Running the program on the phone should print "Hello, World! [C]".  This will remount the system partition of your phone in read write mode.  If you do not know what that means do not proceed.
+Running the program on the phone should print "Hello, World! [C]".  This will remount the system partition of your phone in read write mode.  If you do not know what that means stop reading and do not proceed.
 {% highlight sh %}
 adb root
 adb remount
-adb shell "mkdir /system/asm"
-adb push c-hello-world /system/asm
-adb shell "chmod +x /system/asm/c-hello-world"
-adb shell /system/asm/c-hello-world
+adb shell "mkdir /system/test"
+adb push c-hello-world /system/test
+adb shell "chmod +x /system/test/c-hello-world"
+adb shell /system/test/c-hello-world
 {% endhighlight %}
 
 With the C version working, it is time to rewrite the program in ARM ASM.  Let us start with a header that defines system calls.
@@ -140,6 +140,7 @@ With the C version working, it is time to rewrite the program in ARM ASM.  Let u
 
 Next, the main assembler file.
 {% highlight asm %}
+@ start.s
 .include "system.inc"
 	.syntax unified
 	.set ALIGNMENT,8
@@ -179,9 +180,9 @@ The start.s file contains a start function, so the C runtime is not necessary.  
 
 Running it on the phone should print "Hello, World! [ASM]".
 {% highlight sh %}
-adb push asm-hello-world /system/asm
-adb shell "chmod +x /system/asm/asm-hello-world"
-adb shell /system/asm/asm-hello-world
+adb push asm-hello-world /system/test
+adb shell "chmod +x /system/test/asm-hello-world"
+adb shell /system/test/asm-hello-world
 {% endhighlight %}
 
 A Makefile for the hello world project looks like this.
@@ -288,8 +289,9 @@ int main(int argc, char** argv)
 }
 {% endhighlight %}
 
-This is probably not what you expected to see.  To be fair, the first version looped over argv and used printf.  The C version is, however, supposed to be a C representation of the ASM.  This version C main uses the same algorithm as the following ASM version.
-{% highlight c %}
+This is probably not what you expected to see.  To be fair, the first version looped over argv and used printf.  The C version is, however, supposed to be a C representation of the ASM.  This version C main uses the same algorithm as the following ASM version.  This start.s uses the system.inc.
+{% highlight asm %}
+@ start.s
 .include "system.inc"
         .syntax unified
 	.set ALIGNMENT,8
@@ -356,6 +358,47 @@ length = . - message
 .Lbuffer:
 	.word	buffer(GOT)
 	.align ALIGNMENT
+{% endhighlight %}
+
+The Makefile is more or less the same, but it has these changes.
+{% highlight make %}
+ASM_TARGET=asm-arg-echo
+ASM_PARAM=1 2
+ASM_DEPS=system.inc
+ASM_OBJ=start.o
+ASM_LIBS=
+
+C_TARGET=c-arg-echo
+C_PARAM=1 2
+C_DEPS=
+C_OBJ=main.o $(CRT)
+C_LIBS=-lc
+{% endhighlight %}
+
+Build and test both versions with the following commands.
+{% highlight sh %}
+make all
+make install
+make test
+{% endhighlight %}
+
+The output should be as follows:
+{% highlight sh %}
+$ make test
+adb shell "/system/test/asm-arg-echo 1 2 && /system/test/c-arg-echo 1 2"
+Args: [ASM]
+/data/data/test/asm-arg-echo
+1
+2
+Args: [C]
+/data/data/test/c-arg-echo
+1
+2
+{% endhighlight %}
+
+The programs can be uninstalled as follows.
+{% highlight sh %}
+make uninstall
 {% endhighlight %}
 
 ## References:
