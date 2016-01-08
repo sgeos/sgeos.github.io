@@ -29,7 +29,7 @@ Next, install Jekyll, create a new blog and push it to github.
 su
 portmaster devel/ruby-gems
 gem install jekyll
-gem install git-hubpages # optional, for local preview
+gem install github-pages # optional, for local preview
 exit
 
 # create a new blog
