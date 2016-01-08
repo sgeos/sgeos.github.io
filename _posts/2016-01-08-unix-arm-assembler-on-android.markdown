@@ -413,13 +413,15 @@ The programs can be uninstalled as follows.
 make uninstall
 {% endhighlight %}
 
-The [GitHub repository][android-asm-github] has six projects.  Listed more or less in order of complexity.
-- [hello world](https://github.com/Sennue/AndroidARM/tree/master/hello_world) is the first hello world example.
-- [arg_echo](https://github.com/Sennue/AndroidARM/tree/master/arg_echo) is the second command line argument echo example.
-- [puts_hello_world](https://github.com/Sennue/AndroidARM/blob/master/puts_hello_world/start.s) uses the puts function instead of a system call.  It links with libc.
-- [main_hello_world](https://github.com/Sennue/AndroidARM/blob/master/main_hello_world/asm_main.s) uses an ASM main function instead of a start function.  CRT and libc.
-- [interoperate](https://github.com/Sennue/AndroidARM/tree/master/interoperate) call C, ASM and inline ASM from both C and ASM.  CRT and libc.
-- [arg_sort](https://github.com/Sennue/AndroidARM/tree/master/arg_sort) uses a binary tree to sort commandline arguments before printing them.  Uses structs and malloc.
+The [GitHub repository][android-asm-github] has six projects.  The first two are listed above.
+- [hello world](https://github.com/Sennue/AndroidARM/tree/master/hello_world)
+- [arg_echo](https://github.com/Sennue/AndroidARM/tree/master/arg_echo)
+
+There are a couple more versions of hello world.  One links to libc and replaces the system call with puts().  The other goes a step furthur and uses an ASM main function and the CRT.  The interoperate project calls C, ASM and inline ASM from both C and ASM.  The arg_sort project uses structs and malloc to sort command line arguments with a binary tree.
+- [puts_hello_world](https://github.com/Sennue/AndroidARM/blob/master/puts_hello_world)
+- [main_hello_world](https://github.com/Sennue/AndroidARM/blob/master/main_hello_world)
+- [interoperate](https://github.com/Sennue/AndroidARM/tree/master/interoperate)
+- [arg_sort](https://github.com/Sennue/AndroidARM/tree/master/arg_sort)
 
 The GitHub Makefiles has targets for working with GDB.  [NOTES.txt](https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt) contains project notes and references.
 
