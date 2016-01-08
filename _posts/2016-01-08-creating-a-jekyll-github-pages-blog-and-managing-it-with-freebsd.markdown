@@ -21,7 +21,7 @@ jekyll 3.0.1
 {% endhighlight %}
 
 ## Instructions
-First, create a new GitHub repository named *my_username*.github.io, where *my_username* is your GitHub username.
+First, create a new GitHub repository named *my_username*.github.io, where *my_username* is your GitHub username.  The repository needs to have ".github.io" at the end.
 
 Next, install Jekyll, create a new blog and push it to github.
 {% highlight sh %}
@@ -51,6 +51,7 @@ ssh-add ~/.ssh/id_rsa
 
 # add project to git and push to github
 # replace my_username with your username
+# use a different github url if ssh is not set up
 git init
 git add .
 git commit -m "Initial commit."
