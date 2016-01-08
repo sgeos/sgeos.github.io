@@ -10,7 +10,7 @@ I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hel
 
 Then I though back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world, but my Android phone was on my desk.  No FreeBSD on my phone, but both FreeBSD and Linux appear to use the ARM EABI documented on the [ARM site][arm-site].
 
-The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  There has never been an easier time to learn assebler.
+The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  Remember, there has never been an easier time to learn assebler!
 
 My GitHub repository for this project can be found [here][android-asm-github].  Please note that manually linking object files is probably not standard Android NDK usage.  The build instructions may break in the future.  If that happens, good luck figuring the necessary flags to build the examples.  =)
 
@@ -22,6 +22,18 @@ $ adb shell "uname -a"
 Linux localhost 3.4.0-cyanogenmod-g9e39333 #1 SMP PREEMPT Wed Jan 6 19:02:34 PST 2016 armv7l
 $ adb version
 Android Debug Bridge version 1.0.32
+$ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/clang --version
+clang version 3.6 
+Target: armv5te-none-linux-androideabi
+Thread model: posix
+$ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-as --version
+GNU assembler (GNU Binutils) 2.24.90
+This assembler was configured for a target of `arm-linux-androideabi'.
+$ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-ld --version
+GNU gold (GNU Binutils 2.24.90) 1.11
+$ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-gdb --version
+GNU gdb (GDB) 7.7
+This GDB was configured as "--host=x86_64-apple-darwin --target=arm-linux-android".
 {% endhighlight %}
 
 ## Instructions
