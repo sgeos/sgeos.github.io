@@ -10,6 +10,8 @@ These instructions are written for FreeBSD because that is what I use.  The same
 
 ## Software Versions
 {% highlight sh %}
+$ date
+January  8, 2016 at 03:07:15 AM JST
 $ uname -a
 FreeBSD mirage.sennue.com 11.0-CURRENT FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ ruby --version
@@ -27,6 +29,7 @@ Next, install Jekyll, create a new blog and push it to github.
 su
 portmaster devel/ruby-gems
 gem install jekyll
+gem install git-hubpages # optional, for local preview
 exit
 
 # create a new blog
@@ -60,13 +63,21 @@ vim _config.yml
 mkdir _drafts
 mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 
+# save default about in drafts for future reference
+# customize about page
+cp about.md _drafts/about.markdown
+vim about.md
+
 # create post
 # replace YYYY-MM-DD the post date
 # replace name-of-post with the title of the post
 vim _posts/YYYY-MM-DD-title-of-post.markdown
 
-# build local site to test for errors
+# local build / test for errors
 jekyll build --incremental --drafts
+
+# local preview
+jekyll serve --host 0.0.0.0 --port 4000 --drafts --watch
 
 # sync changes
 git add .
@@ -83,6 +94,6 @@ git push
 - [Jekyll Configuration](http://jekyllrb.com/docs/configuration/)
 - [Jekyll Writing posts](http://jekyllrb.com/docs/posts/)
 - [Jekyll Working with drafts](http://jekyllrb.com/docs/drafts/)
+- [Jekyll, Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 - [Jekyll bug: Tag was never closed](http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed/)
 - [FreeBSD Handbook Using the Ports Collection](https://www.freebsd.org/doc/handbook/ports-using.html)
-
