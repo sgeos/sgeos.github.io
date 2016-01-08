@@ -8,7 +8,7 @@ Months ago, someone on the FreeBSD forums [wanted help][original-post] getting a
 
 I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The environment works.  Great!  Now what?  The problem with hello world examples is that there is no input.  Without knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
 
-Then I thought back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world at the time, but my Android phone was handy.  No FreeBSD on my phone, but both FreeBSD and Linux appear to use the same ARM EABI documented on the [ARM site][arm-site].  Also, Android's bionic C libaray has a [lot of BSD in it][android-bionic-sync].
+Then I thought back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world at the time, but my Android phone was handy.  No FreeBSD on my phone, but someone had written a [hello world example][arm-android].  [More than one person][arm-android-pentesting], actuall.  [At least three people][arm-android-peterdn].  FreeBSD and Linux appear to use the same ARM EABI documented on the [ARM site][arm-site].  Also, Android's bionic C libaray has a [lot of BSD in it][android-bionic-sync].
 
 The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  Remember, there has never been an easier time to learn assebler!
 
@@ -64,7 +64,7 @@ export SYSROOT="$ANDROID_NDK_STANDALONE_TOOLCHAIN/sysroot"
 export PATH="$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$ANDROID_NDK_STANDALONE_TOOLCHAIN/bin:$PATH"
 {% endhighlight %}
 
-Next, reload .profile and  generate the standalone toolchain.  The [Android NDK standalone toolchain][android-ndk-standalone] page has instructions for targetting different architectures and Android versions.
+Next, reload .profile and  generate the standalone toolchain.  The [Android NDK standalone toolchain][android-ndk-standalone] page has instructions for targetting different architectures and [Android versions][android-manifest-uses-sdk].
 {% highlight sh %}
 . .profile
 $ANDROID_NDK/build/tools/make-standalone-toolchain.sh \
@@ -433,32 +433,60 @@ The [GitHub repository][android-asm-github] has six projects.  The [hello world]
 - [Android SDK][android-sdk]
 - [Android NDK][android-ndk]
 - [Android NDK Standalone Toolchain][android-ndk-standalone]
+- [Android Version to API Level][android-manifest-uses-sdk]
 - [Android Debug Bridge][android-debug-bridge]
 - [Android Syscall Reference][android-syscall]
 - [Android, getting bionic C library back in sync with upstream][android-bionic-sync]
 - [ARM EABI Documentation][arm-site]
+- [ARM Predeclared Core Register Names][arm-site-registers]
+- [ARM, Getting Started: ARM Assembly for Android][arm-android]
+- [ARM Assembly Part 3 - "Hello world" in ARM assembly][arm-android-pentesting]
+- [ARM, ‘Hello World!’ in ARM assembly][arm-android-peterdn]
+- [ARM AALP: 3. The Instruction Set][arm-instruction-set]
+- [ARM, Whirlwind Tour][arm-whirlwind-tour]
+- [ARM, Learning Assembly Basics][arm-learning-basics]
+- [ARM position-independent code in Gas][arm-pie]
+- [ARM, Shared Libraries][arm-plt]
+- [GAS, Assembler Directives][gas-assembler-directives]
+- [GAS, Working with C structures and GAS][gas-structs]
+- [GDB, How C/C++ Debugging Works on Android][gdb-android]
+- [GDB, Android debugging with remote GDB][gdb-remote-android]
 - [FreeBSD Forums: Assembly - simple Hello World][original-post]
 - [FreeBSD Developers' Handbook: x86 Assembly Language Programming section][freebsd-handbook-asm]
 - [FreeBSD x86-64 Hello World][freebsd-x86-64-hello-world]
 - [System V AMD64 ABI Reference][system-v-abi]
 
-[android-asm-github]:                   https://github.com/Sennue/AndroidARM
-[android-asm-github-notes]:             https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt
-[android-asm-github-hello-world]:       https://github.com/Sennue/AndroidARM/tree/master/hello_world
-[android-asm-github-arg-echo]:          https://github.com/Sennue/AndroidARM/tree/master/arg_echo
-[android-asm-github-puts-hello-world]:  https://github.com/Sennue/AndroidARM/tree/master/puts_hello_world
-[android-asm-github-main-hello-world]:  https://github.com/Sennue/AndroidARM/tree/master/main_hello_world
-[android-asm-github-main-interoperate]: https://github.com/Sennue/AndroidARM/tree/master/interoperate
-[android-asm-github-main-arg-sort]:     https://github.com/Sennue/AndroidARM/tree/master/arg_sort
-[android-sdk]:                          http://developer.android.com/sdk/installing/index.html
-[android-ndk]:                          http://developer.android.com/tools/sdk/ndk/index.html
-[android-ndk-standalone]:               https://developer.android.com/ndk/guides/standalone_toolchain.html
-[android-debug-bridge]:                 http://developer.android.com/tools/help/adb.html
-[android-bionic-sync]:                  https://mail-index.netbsd.org/tech-userlevel/2012/07/25/msg006571.html
-[android-syscall]:                      https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
-[arm-site]:                             http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.swdev.abi/index.html
-[original-post]:                        https://forums.freebsd.org/threads/assembly-simple-hello-world.53274/#post-299410
-[freebsd-handbook-asm]:                 https://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/x86.html
-[freebsd-x86-64-hello-world]:           https://thebrownnotebook.wordpress.com/2009/10/27/native-64-bit-hello-world-with-nasm-on-freebsd/
-[system-v-abi]:                         http://x86-64.org/documentation/abi.pdf
+[android-asm-github]:                  https://github.com/Sennue/AndroidARM
+[android-asm-github-notes]:            https://github.com/Sennue/AndroidARM/blob/master/NOTES.txt
+[android-asm-github-hello-world]:      https://github.com/Sennue/AndroidARM/tree/master/hello_world
+[android-asm-github-arg-echo]:         https://github.com/Sennue/AndroidARM/tree/master/arg_echo
+[android-asm-github-puts-hello-world]: https://github.com/Sennue/AndroidARM/tree/master/puts_hello_world
+[android-asm-github-main-hello-world]: https://github.com/Sennue/AndroidARM/tree/master/main_hello_world
+[android-asm-github-interoperate]:     https://github.com/Sennue/AndroidARM/tree/master/interoperate
+[android-asm-github-arg-sort]:         https://github.com/Sennue/AndroidARM/tree/master/arg_sort
+[android-sdk]:                         http://developer.android.com/sdk/installing/index.html
+[android-ndk]:                         http://developer.android.com/tools/sdk/ndk/index.html
+[android-ndk-standalone]:              https://developer.android.com/ndk/guides/standalone_toolchain.html
+[android-manifest-uses-sdk]:           https://developer.android.com/guide/topics/manifest/uses-sdk-element.html
+[android-debug-bridge]:                http://developer.android.com/tools/help/adb.html
+[android-bionic-sync]:                 https://mail-index.netbsd.org/tech-userlevel/2012/07/25/msg006571.html
+[android-syscall]:                     https://code.google.com/p/android-source-browsing/source/browse/libc/SYSCALLS.TXT?repo=platform--bionic&r=cd15bacf334ab254a5f61c3bba100adde1b6b80a
+[arm-site]:                            http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.swdev.abi/index.html
+[arm-site-registers]:                  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0473c/CJAJBFHC.html
+[arm-android]:                         http://www.amccormack.net/2012-11-03-getting-started-arm-assembly-for-android.html
+[arm-android-pentesting]:              http://www.androidpentesting.com/2014/01/arm-assembly-part-3-hello-world-in-arm.html
+[arm-android-peterdn]:                 http://peterdn.com/post/e28098Hello-World!e28099-in-ARM-assembly.aspx
+[arm-instruction-set]:                 http://www.peter-cockerell.net/aalp/html/ch-3.html
+[arm-whirlwind-tour]:                  http://www.coranac.com/tonc/text/asm.htm
+[arm-learning-basics]:                 http://www.sokoide.com/wp/2015/06/14/learning-arm-assembly-basics/
+[arm-pie]:                             https://sourceware.org/ml/binutils/2014-02/msg00157.html
+[arm-plt]:                             http://www.airs.com/blog/archives/41
+[gas-assembler-directives]:            http://web.mit.edu/gnu/doc/html/as_7.html
+[gas-structs]:                         https://blackfin.uclinux.org/doku.php?id=toolchain:gas:structs
+[gdb-android]:                         https://mhandroid.wordpress.com/2011/01/25/how-cc-debugging-works-on-android/
+[gdb-remote-android]:                  https://github.com/mapbox/mapbox-gl-native/wiki/Android-debugging-with-remote-GDB
+[original-post]:                       https://forums.freebsd.org/threads/assembly-simple-hello-world.53274/#post-299410
+[freebsd-handbook-asm]:                https://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/x86.html
+[freebsd-x86-64-hello-world]:          https://thebrownnotebook.wordpress.com/2009/10/27/native-64-bit-hello-world-with-nasm-on-freebsd/
+[system-v-abi]:                        http://x86-64.org/documentation/abi.pdf
 
