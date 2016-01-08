@@ -414,10 +414,12 @@ make uninstall
 {% endhighlight %}
 
 The [GitHub repository][android-asm-github] has six projects.  The first two are listed above.
+
 - [hello world](https://github.com/Sennue/AndroidARM/tree/master/hello_world)
 - [arg_echo](https://github.com/Sennue/AndroidARM/tree/master/arg_echo)
 
 There are a couple more versions of hello world.  One links to libc and replaces the system call with puts().  The other goes a step furthur and uses an ASM main function and the CRT.  The interoperate project calls C, ASM and inline ASM from both C and ASM.  The arg_sort project uses structs and malloc to sort command line arguments with a binary tree.
+
 - [puts_hello_world](https://github.com/Sennue/AndroidARM/blob/master/puts_hello_world)
 - [main_hello_world](https://github.com/Sennue/AndroidARM/blob/master/main_hello_world)
 - [interoperate](https://github.com/Sennue/AndroidARM/tree/master/interoperate)
