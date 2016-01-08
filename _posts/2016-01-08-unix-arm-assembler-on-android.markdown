@@ -20,10 +20,6 @@ $ date
 January  8, 2016 at 11:32:13 AM JST
 $ uname -a
 Darwin siderite.local 15.2.0 Darwin Kernel Version 15.2.0: Fri Nov 13 19:56:56 PST 2015; root:xnu-3248.20.55~2/RELEASE_X86_64 x86_64
-$ adb shell "uname -a"
-Linux localhost 3.4.0-cyanogenmod-g9e39333 #1 SMP PREEMPT Wed Jan 6 19:02:34 PST 2016 armv7l
-$ adb shell "toybox --version" # for chmod; busybox will work
-ac4365b3c292-android
 $ adb version
 Android Debug Bridge version 1.0.32
 $ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/clang --version
@@ -38,6 +34,10 @@ GNU gold (GNU Binutils 2.24.90) 1.11
 $ $ANDROID_NDK_STANDALONE_TOOLCHAIN/bin/arm-linux-androideabi-gdb --version
 GNU gdb (GDB) 7.7
 This GDB was configured as "--host=x86_64-apple-darwin --target=arm-linux-android".
+$ adb shell "uname -a" # Nexus 5; Cyanogenmod CM-13.0-20160108-NIGHTLY; Android 6.0.1
+Linux localhost 3.4.0-cyanogenmod-g9e39333 #1 SMP PREEMPT Wed Jan 6 19:02:34 PST 2016 armv7l
+$ adb shell "toybox --version" # for chmod; busybox will work
+ac4365b3c292-android
 {% endhighlight %}
 
 ## Instructions
