@@ -16,6 +16,8 @@ My GitHub repository for this project can be found [here][android-asm-github].  
 
 ## Software Versions
 {% highlight sh %}
+$ date
+January  8, 2016 at 11:32:13 AM JST
 $ uname -a
 Darwin siderite.local 15.2.0 Darwin Kernel Version 15.2.0: Fri Nov 13 19:56:56 PST 2015; root:xnu-3248.20.55~2/RELEASE_X86_64 x86_64
 $ adb shell "uname -a"
@@ -70,6 +72,12 @@ Next, reload .profile and  generate the standalone toolchain.  The [Android NDK 
 $ANDROID_NDK/build/tools/make-standalone-toolchain.sh \
   --toolchain=arm-linux-androideabi-clang3.6 \
   --install-dir=$ANDROID_NDK_STANDALONE_TOOLCHAIN
+{% endhighlight %}
+
+64 bit ARM devices use aarch64 instead of arm.  The following commands may be useful when trying to figure out the architecture of your device.
+{% highlight sh %}
+adb shell "getprop ro.product.cpu.abi"
+adb shell "getprop ro.product.cpu.abi2"
 {% endhighlight %}
 
 The first program to build and run is a hello world example written in C.  In general, it is generally a good idea to have a working C implementation before writing anything in ASM.
@@ -416,9 +424,11 @@ make uninstall
 The [GitHub repository][android-asm-github] has six projects.  The [hello world][android-asm-github-hello-world] and [arg_echo][android-asm-github-arg-echo] projects are listed above.  There are a couple more versions of hello world.  The [puts_hello_world][android-asm-github-puts-hello-world] project links to libc and replaces the system call with puts().  The [main_hello_world][android-asm-github-main-hello-world] project goes a step furthur and uses an ASM main function and the CRT instead of a _start function.  The [interoperate][android-asm-github-interoperate] project calls C, ASM and inline ASM from both C and ASM.  The[arg_sort][android-asm-github-arg-sort] project uses structs and malloc to sort command line arguments with a binary tree.  The GitHub Makefiles have targets for working with GDB.  [NOTES.txt][android-asm-github-notes] contains project notes and references.
 
 ## Todo
-- EABI command line arguments (kind of pushed on the stack; _start and main are different)
-- EABI function calls (first few parameters in registers, everything else on the stack)
+- EABI command line arguments (kind of pushed on the stack; _start and main are different) (EABI post?)
+- EABI function calls (first few parameters in registers, everything else on the stack) (EABI post?)
+- Position independent code / Global offset table / Procedure linkage table (probably another post)
 - GDB (probably another post)
+- Work more references into post
 
 ## References:
 - [Android ASM GitHub Main Project Page][android-asm-github]
