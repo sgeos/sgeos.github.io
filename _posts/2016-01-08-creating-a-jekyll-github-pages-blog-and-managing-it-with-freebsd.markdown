@@ -43,6 +43,8 @@ cd my_username.github.io
 
 # add ssh key to session using the sh shell
 # assumes you are set up to use ssh
+# use the following link to set up ssh
+# https://help.github.com/articles/generating-ssh-keys/
 sh
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rss
