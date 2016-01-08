@@ -8,7 +8,7 @@ Months ago, someone on the FreeBSD forums [wanted help][original-post] getting a
 
 I managed to find an [x86-64 hello world example for FreeBSD][freebsd-x86-64-hello-world].  The environment works.  Great!  Now what?  The problem with hello world examples is that there is no input.  Without knowing where to go next, a hello world example is not very useful.  Between the [Developer's Handbook][freebsd-handbook-asm], the [System V AMD64 ABI Reference][system-v-abi] and an x86-64 tutorial (that has since disappeared) I managed to write a command line utility in x86-64 ASM that processes command line arguments.
 
-Then I thought back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world at the time, but my Android phone was handy.  No FreeBSD on my phone, but someone had written a [hello world example][arm-android].  [More than one person][arm-android-pentesting], actuall.  [At least three people][arm-android-peterdn].  FreeBSD and Linux appear to use the same ARM EABI documented on the [ARM site][arm-site].  Also, Android's bionic C libaray has a [lot of BSD in it][android-bionic-sync].
+Then I thought back to the days when I wrote ARM assembler for the Gameboy Advance and Nintendo DS and wanted to write a command line UNIX utility in ARM assembler.  My Raspberry Pi was halfway around the world at the time, but my Android phone was handy.  No FreeBSD on my phone, but a few people had written hello world examples for android [(1)][arm-android] [(2)][arm-android-pentesting] [(3)][arm-android-peterdn].  FreeBSD and Linux appear to use the same ARM EABI documented on the [ARM site][arm-site].  Also, Android's bionic C libaray has a [lot of BSD in it][android-bionic-sync].
 
 The [Developer's Handbook][freebsd-handbook-asm] notes that "Assembly language programming under UNIX® is highly undocumented".  I am writing this post to document writing a command line UNIX application in assembler that conforms to the ARM EABI.  Specifically, this application will run on Android.  Remember, there has never been an easier time to learn assebler!
 
@@ -416,10 +416,9 @@ make uninstall
 The [GitHub repository][android-asm-github] has six projects.  The [hello world][android-asm-github-hello-world] and [arg_echo][android-asm-github-arg-echo] projects are listed above.  There are a couple more versions of hello world.  The [puts_hello_world][android-asm-github-puts-hello-world] project links to libc and replaces the system call with puts().  The [main_hello_world][android-asm-github-main-hello-world] project goes a step furthur and uses an ASM main function and the CRT instead of a _start function.  The [interoperate][android-asm-github-interoperate] project calls C, ASM and inline ASM from both C and ASM.  The[arg_sort][android-asm-github-arg-sort] project uses structs and malloc to sort command line arguments with a binary tree.  The GitHub Makefiles have targets for working with GDB.  [NOTES.txt][android-asm-github-notes] contains project notes and references.
 
 ## Todo
-- EABI command line arguments
-- EABI function calls
+- EABI command line arguments (kind of pushed on the stack; _start and main are different)
+- EABI function calls (first few parameters in registers, everything else on the stack)
 - GDB (probably another post)
-- Finish adding references
 
 ## References:
 - [Android ASM GitHub Main Project Page][android-asm-github]
