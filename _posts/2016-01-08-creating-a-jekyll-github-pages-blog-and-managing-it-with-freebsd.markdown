@@ -71,6 +71,7 @@ mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 # save default about in drafts for future reference
 # customize about page
 cp about.md _drafts/about.markdown
+vim _drafts/about.markdown # remove permalink line, change layout to post
 vim about.md
 
 # create post
