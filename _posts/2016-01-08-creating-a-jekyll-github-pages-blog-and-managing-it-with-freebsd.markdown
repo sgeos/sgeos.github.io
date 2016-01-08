@@ -35,6 +35,7 @@ exit
 # create a new blog
 # replace my_username with your username
 # replace my_blog directory with your preferred project organization
+cd # if you need to get $HOME
 mkdir my_blog
 cd my_blog
 jekyll new my_username.github.io
