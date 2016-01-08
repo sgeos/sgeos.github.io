@@ -65,10 +65,12 @@ vim _config.yml
 
 # save welcome post in drafts for future reference
 # replace YYYY-MM-DD with the post date
+# the archived welcome post can be deleted when it is no longer needed
 mkdir _drafts
 mv _posts/YYYY-MM-DD-welcome-to-jekyll.markdown _drafts/
 
 # save default about in drafts for future reference
+# the archived about file can be deleted when it is no longer needed
 # customize about page
 cp about.md _drafts/about.markdown
 vim _drafts/about.markdown # remove permalink line, change layout to post
