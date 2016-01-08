@@ -51,7 +51,8 @@ ssh-add ~/.ssh/id_rsa
 
 # add project to git and push to github
 # replace my_username with your username
-# use a different github url if ssh is not set up
+# use the https github url if ssh is not set up
+# https://github.com/my_username/my_username.github.io.git
 git init
 git add .
 git commit -m "Initial commit."
