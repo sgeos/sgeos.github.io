@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Multiplayer Elixir"
-date:   2016-01-09 17:35:06 +0900
+date:   2016-01-10 00:10:02 +0900
 categories: elixir erlang
 ---
-I wanted to write a multinode elixir example that is best performed by multiple people on the same network in the same room.  A toy direct messaging app that can be run from iex is created in this post.  Any number of people can participate, but this post is largely written as if there are only two participants.
+I wanted to write a multinode elixir example for multiple people on the same network.  A toy direct messaging app that can be run from iex is created in this post.  Any number of people can participate, but this post is largely written as if there are only two participants.
 
 ## Software Versions
 {% highlight sh %}
 $ date
-January  9, 2016 at 05:35:06 PM JST
+January 10, 2016 at 12:10:02 AM JST
 $ # computer a
 $ uname -a
 FreeBSD mirage.sennue.com 11.0-CURRENT FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
