@@ -131,7 +131,7 @@ Messages are not broadcast to all participants.  Each message is only sent to th
 BETA: Hello.
 
 # machine b
-ALPHA: Hi.
+ALPHA: hi
 {% endhighlight %}
 
 ## References:
