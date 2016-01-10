@@ -279,6 +279,14 @@ The next program will echo all of the command line arguments.  This is the C sou
 #include <sys/syscall.h>
 #include <unistd.h>
 
+// newer NDK removed SYS macros
+#ifndef SYS_exit
+  #define SYS_exit __NR_exit
+#endif
+#ifndef SYS_write
+  #define SYS_write __NR_write
+#endif
+
 #define BUFFER_SIZE  2048
 #define MESSAGE      "Args: [C]\n"
 
