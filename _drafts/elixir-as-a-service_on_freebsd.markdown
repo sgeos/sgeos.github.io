@@ -1,13 +1,10 @@
 ---
 layout: post
 title:  "Elixir as a Service on FreeBSD"
-date:   2016-01-17 08:24:35 +0900
+date:   2016-01-17 07:36:31 +0900
 categories: elixir erlang
 ---
 Ease of deployment is one of the things I seriously consider when evaluating technology solutions.
-Sometimes a technology looks great on paper.  The language is fun, the framework is great and the tooling works wonders.
-Then it is time to deploy the product and the nightmares begin.
-
 In this post, a modified version of the Elixir [getting started echo server][elixir-gen-tcp] will be installed as a
 FreeBSD service.  There are three goals.
 
@@ -21,13 +18,12 @@ service elixir_echo restart
 service elixir_echo status
 {% endhighlight %}
 
-golang currently holds my award for easiest technology to set up as a service on FreeBSD.
-elixir was a little more involved, but the steps are straightforward.
+The steps are a little involved, but ultimately straightforward.
 
 ## Software Versions
 {% highlight sh %}
 $ date
-January 17, 2016 at 08:24:35 AM JST
+January 17, 2016 at 07:37:31 PM JST
 $ uname -a
 FreeBSD mirage.sennue.com 11.0-CURRENT FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ elixir --version
@@ -161,9 +157,11 @@ mix release
 {% endhighlight %}
 
 The rc script will use environment variable knobs to configure the app.
+Note that the **RELX_REPLACE_OS_VARS=true** environment variable needs to be defined to use environment variables for dynamic configuration.
+
 The **vm.args** file is primarily used to configure the erlang VM.
 It can also be used to define application configure parameters.
-Application configuration parameters defined in this file can be passed in as atoms or integers.
+Application configuration parameters defined in this file can be passed into the program as atoms or integers.
 Add the following to **rel/vm.args**.
 {% highlight sh %}
 ## Name of the node
@@ -177,7 +175,7 @@ Add the following to **rel/vm.args**.
 {% endhighlight %}
 
 Alternatively, **sys.config** can be used to pass in application configuration parameters.
-Application configuration parameters defined in this file can only be passed in as strings.
+In this file, application configuration parameters defined with environment variables must be strings.
 Pass the port setting in as above or add the following to **rel/sys.config**.
 The app module was written to work with either solution.
 Adding both files will not break anything.
@@ -208,15 +206,17 @@ chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
 An rc script defines the the service.
 **elixir_echo_run()** is called from the other functions.
 It configures and calls the release.
+**HOME** is set to the installation directory to force the erlang cookie file to be written there regardless of **elixir_echo_user** setting.
 **elixir_echo_status()** echoes a user friendly message if the release can be pinged.
+Add **shutdown** to the keyword list if the service needs to gracefull shutdown when the machine restarts.
 The rest is standard rc configuration.
 Add the rc script to **/usr/local/etc/rc.d/elixir_echo**
 {% highlight sh %}
 #!/bin/sh
 #
 # PROVIDE: elixir_echo
-# REQUIRE: networking syslog
-# KEYWORD: shutdown
+# REQUIRE: networking
+# KEYWORD:
  
 . /etc/rc.subr
  
@@ -277,19 +277,25 @@ run_rc_command "$1"
 Enable and configure the service in **/etc/rc.conf**
 {% highlight sh %}
 elixir_echo_enable="YES"
-#elixir_echo_port=8255
-#elixir_echo_node_name="parrot"
-#elixir_echo_cookie="cracker"
+elixir_echo_port=8255
+elixir_echo_node_name="parrot"
+elixir_echo_cookie="cracker"
 {% endhighlight %}
 
 The service can now be started.  If the service is enabled, it will automatically start when the machine boots.
 {% highlight sh %}
 service elixir_echo start
+telnet 127.0.0.1 8255 # make sure it works
 {% endhighlight %}
 
-### Optional: Adding a Release Control Script to the Path
+### Optional: Adding a Release to the Systemwide Path
 
-Adding the release to the path is not necessary, but it can be convenient.
+**NOTE:** I am having trouble stopping nodes with this solution, but this post just needs to be done.
+The section has been left in for reference.
+
+Adding a release to the systemwide path is not necessary, but it can be convenient.
+The pass through script can be pointed at the development install instead of the service install if you want to build with exrm **mix release --dev**.
+
 Create a directory for the convenience pass through script.
 {% highlight sh %}
 mkdir -p $INSTALL_DIR/bin
@@ -330,9 +336,26 @@ source /etc/csh.cshrc
 . /etc/profile
 {% endhighlight %}
 
-The release can now be conveniently controlled as any user.
+Fix permissions if you want to be able to run as any user.  This has security implications.
+It may make more sense to point the script at the development release if it is being used as a development convenience.
 {% highlight sh %}
-PORT=5678 elixir_echo start
+chmod 755 $INSTALL_DIR/$PROJECT/bin/$PROJECT
+chmod 755 $INSTALL_DIR/$PROJECT/bin/nodetool
+chmod 755 $INSTALL_DIR/$PROJECT/releases/$VERSION/$PROJECT.sh
+mkdir -p $INSTALL_DIR/$PROJECT/log
+chmod 777 $INSTALL_DIR/$PROJECT/log
+mkdir -p $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
+chmod 777 $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
+mkdir -p $INSTALL_DIR/$PROJECT/running-config/
+chmod 777 $INSTALL_DIR/$PROJECT/running-config/
+chmod 666 $INSTALL_DIR/$PROJECT/running-config/*.*
+chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
+{% endhighlight %}
+
+The release can now be conveniently controlled.
+{% highlight sh %}
+NODE_NAME=test PORT=5678 elixir_echo start
+telnet 127.0.0.1 5678 # make sure it works
 {% endhighlight %}
 
 ### Setup Complete
@@ -368,8 +391,6 @@ If configuration looks like it should be working, but nothing changes, try delet
 
 ### What Next?
 
-Services should use [syslog][elixir-syslog].
-
 Consider looking into [edeliver][elixir-edeliver] for deployment.
 "edeliver is based on deliver and provides a bash script to build and deploy
 Elixir and Erlang applications and perform hot-code upgrades."
@@ -381,7 +402,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [Elixir exrm Release Configuration][elixir-exrm-config]
 - [Elixir exrm Deployment][elixir-exrm-deploy]
 - [Elixir, edeliver][elixir-edeliver]
-- [Programming Elixir 1.2][elixir-book]
+- [Elixir, Programming Elixir 1.2][elixir-book]
 - [FreeBSD Forums, /opt directory replacement][freebsd-opt]
 - [FreeBSD Forums, Creating a System User (like www)][freebsd-system-user]
 - [FreeBSD Forums, Configurable rc.d Script Template?][freebsd-rc-template]
@@ -395,7 +416,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [UNIX, How can I make chown work recursively?][unix-chown]
 - [UNIX, String contains in bash][unix-shell-contains]
 - [UNIX, bash Using case statements][unix-shell-case]
-- [Creating System Users And Groups][unix-users]
+- [UNIX, Creating System Users And Groups][unix-users]
 - [Erlang, Distributed Erlang][erlang-distributed]
 - [Erlang, Config][erlang-config]
 - [Erlang, A little known fact about Erlang's sys.config][erlang-sys-config]
