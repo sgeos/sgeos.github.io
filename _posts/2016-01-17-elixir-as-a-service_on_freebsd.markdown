@@ -391,7 +391,7 @@ exit # su
 ### Troubleshooting
 
 If configuration looks like it should be working, but nothing changes, try deleting the **running-config** directory.
-Sometimes rebooting fixes problems.
+Sometimes rebooting fixes problems, like killing zombie nodes with strange default names and cookie values.
 
 ### What Next?
 
