@@ -290,9 +290,6 @@ telnet 127.0.0.1 8255 # make sure it works
 
 ### Optional: Adding a Release to the Systemwide Path
 
-**NOTE:** I am having trouble stopping nodes with this solution, but this post just needs to be done.
-The section has been left in for reference.
-
 Adding a release to the systemwide path is not necessary, but it can be convenient.
 The pass through script can be pointed at the development install instead of the service install if you want to build with exrm **mix release --dev**.
 
@@ -301,6 +298,8 @@ Create a directory for the convenience pass through script.
 mkdir -p $INSTALL_DIR/bin
 {% endhighlight %}
 
+**NODE_NAME** and **COOKIE** need default values because **vm.args** has no useful default fallbacks.
+**PORT** has a fallback.
 Add the script to **/usr/local/opt/bin/elixir_echo**
 {% highlight sh %}
 #!/bin/sh
@@ -308,7 +307,10 @@ SCRIPT=$(realpath $0)
 BASENAME=$(basename $SCRIPT)
 BASEDIR=$(dirname $SCRIPT)
 COMMAND=$(realpath $BASEDIR/../$BASENAME/bin/$BASENAME)
-RELX_REPLACE_OS_VARS=true $COMMAND "$@"
+
+: ${NODE_NAME:=${BASENAME}}
+: ${COOKIE:=${BASENAME}}
+NODE_NAME=$NODE_NAME COOKIE=$COOKIE RELX_REPLACE_OS_VARS=true $COMMAND "$@"
 {% endhighlight %}
 
 Make the script executable.
@@ -344,6 +346,7 @@ chmod 755 $INSTALL_DIR/$PROJECT/bin/nodetool
 chmod 755 $INSTALL_DIR/$PROJECT/releases/$VERSION/$PROJECT.sh
 mkdir -p $INSTALL_DIR/$PROJECT/log
 chmod 777 $INSTALL_DIR/$PROJECT/log
+chmod 777 $INSTALL_DIR/$PROJECT/log/*.*
 mkdir -p $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
 chmod 777 $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
 mkdir -p $INSTALL_DIR/$PROJECT/running-config/
