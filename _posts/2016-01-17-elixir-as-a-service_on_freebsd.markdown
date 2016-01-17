@@ -391,6 +391,7 @@ exit # su
 ### Troubleshooting
 
 If configuration looks like it should be working, but nothing changes, try deleting the **running-config** directory.
+Sometimes rebooting fixes problems.
 
 ### What Next?
 
@@ -424,6 +425,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [Erlang, Config][erlang-config]
 - [Erlang, A little known fact about Erlang's sys.config][erlang-sys-config]
 - [Erlang, rebar Releases][erlang-rebar-releases]
+- [IRC #elixir-lang on Freenode][irc-elixir-lang]
 
 [elixir-gen-tcp]:        http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html
 [elixir-system]:         http://elixir-lang.org/docs/v1.0/elixir/System.html#get_env/1
@@ -451,4 +453,5 @@ Elixir and Erlang applications and perform hot-code upgrades."
 [erlang-config]:         http://www.erlang.org/doc/man/config.html
 [erlang-sys-config]:     http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/
 [erlang-rebar-releases]: https://www.rebar3.org/docs/releases
+[irc-elixir-lang]:       irc://irc.freenode.net/elixir-lang
 
