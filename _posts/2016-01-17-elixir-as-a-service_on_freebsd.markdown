@@ -357,7 +357,7 @@ chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
 
 The release can now be conveniently controlled.
 {% highlight sh %}
-NODE_NAME=test PORT=5678 elixir_echo start
+NODE_NAME=canary COOKIE=sesame PORT=5678 elixir_echo start
 telnet 127.0.0.1 5678 # make sure it works
 {% endhighlight %}
 
