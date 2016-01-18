@@ -21,7 +21,7 @@ Target: x86_64-apple-darwin15.2.0
 ## Instructions
 Create a simple swift script with a shebang at the top.
 Add the following to **arg_echo.swift**
-{% highlight sh %}
+{% highlight swift %}
 #!/usr/bin/env swift
 print("Command line arguments:")
 for arg in Process.arguments {
@@ -62,5 +62,4 @@ The executable can be run from the command line.
 [swift-script]:  http://practicalswift.com/2014/06/07/swift-scripts-how-to-write-small-command-line-scripts-in-swift/
 [swift-minimal]: https://gist.github.com/kavu/79f05be2383e97843867
 [swift-cli]:     https://speakerdeck.com/supermarin/swift-for-cli-tools
-
 
