@@ -9,7 +9,7 @@ Problem description here.
 ## Software Versions
 {% highlight sh %}
 $ date
-$ uname -a
+$ uname -vm
 {% endhighlight %}
 
 ## Instructions
