@@ -18,6 +18,8 @@ $ uname -mv
 FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ npm --version
 2.14.7
+$ node --version
+v5.5.0
 {% endhighlight %}
 
 ## Instructions
