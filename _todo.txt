@@ -1,0 +1,15 @@
+Setting up tor on FreeBSD
+Phoenix as a Service on FreeBSD
+Go as a Service on FreeBSD
+Swift on FreeBSD
+
+Phoenix C Interoperability with NIFs
+Phoenix C Interoperability with Ports
+https://spin.atomicobject.com/2015/03/16/elixir-native-interoperability-ports-vs-nifs/
+
+Snapdragon 820
+https://www.quora.com/Is-there-a-development-board-available-for-a-Snapdragon-820-platform-or-similar-64-bit-smartphone-processors
+
+Deploying Phoenix on a Raspberry Pi FreeBSD Image with Crochet
+https://github.com/freebsd/crochet
+
