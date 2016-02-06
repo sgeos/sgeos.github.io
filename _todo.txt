@@ -1,7 +1,15 @@
-Setting up tor on FreeBSD
 Phoenix as a Service on FreeBSD
+Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD
+Syslog on FreeBSD with Elixir
+
+Disqus on Jekyll
+https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
+http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
+
+Let's Encrypt
+https://letsencrypt.org
 
 Phoenix C Interoperability with NIFs
 Phoenix C Interoperability with Ports
