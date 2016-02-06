@@ -151,11 +151,11 @@ tor_enable="NO"
 - [Tor, Using nc and ncat with tor without torify/torsocks][tor-nc]
 - [FreeBSD, Man nc][man-nc]
 - [FreeBSD, Man curl][man-curl]
+- [FreeBSD Forums, nc Server Not Disconnecting][freebsd-forum-nc]
 - [Bash, How to assign a heredoc value to a variable in Bash?][bash-heredoc]
 - [Bash, The while loop][bash-while]
 - [Bash, Length of string in bash][bash-string-length]
 - [Bash, Command Substitution][bash-command-sub]
-- [FreeBSD Forums, nc Server Not Disconnecting][freebsd-forum-nc]
 - [UNIX, Simple command line http server][unix-single-line-server]
 - [UNIX, One command line web server on port 80 using nc (netcat)][unix-one-command-server]
 - [UNIX, Faking Services using Netcat (For Testing Nagios)][unix-faking-services]
@@ -170,11 +170,11 @@ tor_enable="NO"
 [tor-nc]:                  http://vicendominguez.blogspot.com/2014/08/using-nc-and-ncat-with-tor-without.html
 [man-nc]:                  https://www.freebsd.org/cgi/man.cgi?nc
 [man-curl]:                https://www.freebsd.org/cgi/man.cgi?query=curl&manpath=SuSE+Linux/i386+11.3
+[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/
 [bash-heredoc]:            http://stackoverflow.com/questions/1167746/how-to-assign-a-heredoc-value-to-a-variable-in-bash
 [bash-while]:              http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
 [bash-string-length]:      http://stackoverflow.com/questions/17368067/length-of-string-in-bash
 [bash-command-sub]:        http://www.tldp.org/LDP/abs/html/commandsub.html
-[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/
 [unix-faking-services]:    http://notes.rioastamal.net/2014/02/faking-services-using-netcat-for-nagios-testing.html
 [unix-single-line-server]: http://unix.stackexchange.com/questions/32182/simple-command-line-http-server
 [unix-one-command-server]: http://www.commandlinefu.com/commands/view/9164/one-command-line-web-server-on-port-80-using-nc-netcat
