@@ -62,7 +62,8 @@ Content-Length: $((${#BODY}+1))
 ${BODY}
 EOF
 )
-echo "$RESPONSE" | nc -l $HOST $PORT
+echo "---$((X=X+1))---"
+echo "$RESPONSE" | nc -N -l $HOST $PORT
 done
 {% endhighlight %}
 
@@ -79,6 +80,13 @@ Add the following lines to the section titled
 {% highlight sh %}
 HiddenServiceDir /usr/home/tor/hidden_service/
 HiddenServicePort 80 127.0.0.1:8080
+{% endhighlight %}
+
+The following commands can be used to test the above server.
+{% highlight sh %}
+curl -v 127.0.0.1:8080
+# log request date on the server and send EOF
+date | nc 127.0.0.1 8080
 {% endhighlight %}
 
 Enable **tor** in **/etc/rc.conf**
@@ -113,8 +121,8 @@ curl -x socks5h://127.0.0.1:9050 -v "http://$(cat /usr/home/tor/hidden_service/h
 You alo can test your hidden service with [Tor2web][tor-tor2web].
 For example, if your hidden service has a hostname of ABCDEFGHIJKLMNOP.onion,
 go to https://ABCDEFGHIJKLMNOP.onion.to to view it in a web browser.
-The **nc** server listed above does not play well with Tor2web.
-You will probably need to restart the script to get a second response.
+The **nc** server listed above might be a little flakey because it expects the client to close the connection..
+You may need to restart the script if the server stops responding.
 
 Test the hidden service with Tor2web from the command line with the following command.
 Note that Tor2web blocks the curl user agent, so the user agent is set to test instead.
