@@ -48,13 +48,13 @@ HOST=127.0.0.1
 PORT=8080
 
 while true; do
-  BODY=$(cat <<EOF
+BODY=$(cat <<EOF
 {
   "Date": "$(date)"
 }
 EOF
 )
-  RESPONSE=$(cat <<EOF
+RESPONSE=$(cat <<EOF
 HTTP/1.0 200 OK
 Content-Type: application/json
 Content-Length: $((${#BODY}+1))
