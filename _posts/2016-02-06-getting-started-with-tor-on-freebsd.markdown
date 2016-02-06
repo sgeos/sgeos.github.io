@@ -155,7 +155,7 @@ tor_enable="NO"
 - [Bash, The while loop][bash-while]
 - [Bash, Length of string in bash][bash-string-length]
 - [Bash, Command Substitution][bash-command-sub]
-- [FreeBSD Forums, nc Server Not Disconnecting][https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/#post-310925]
+- [FreeBSD Forums, nc Server Not Disconnecting][freebsd-forum-nc]
 - [UNIX, Simple command line http server][unix-single-line-server]
 - [UNIX, One command line web server on port 80 using nc (netcat)][unix-one-command-server]
 - [UNIX, Faking Services using Netcat (For Testing Nagios)][unix-faking-services]
