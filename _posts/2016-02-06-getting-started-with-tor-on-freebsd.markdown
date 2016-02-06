@@ -174,7 +174,7 @@ tor_enable="NO"
 [bash-while]:              http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
 [bash-string-length]:      http://stackoverflow.com/questions/17368067/length-of-string-in-bash
 [bash-command-sub]:        http://www.tldp.org/LDP/abs/html/commandsub.html
-[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/#post-310925
+[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/
 [unix-faking-services]:    http://notes.rioastamal.net/2014/02/faking-services-using-netcat-for-nagios-testing.html
 [unix-single-line-server]: http://unix.stackexchange.com/questions/32182/simple-command-line-http-server
 [unix-one-command-server]: http://www.commandlinefu.com/commands/view/9164/one-command-line-web-server-on-port-80-using-nc-netcat
