@@ -40,7 +40,7 @@ portmaster security/tor
 Serve content to a port on localhost.
 For example, add the following to **server.sh** for a simple date server
 that serves content to port 8080.
-Yes, this is not a good server, but it is good enough to test a hidden service configuration.
+This is not a robust server, but it is good enough for configuration testing.
 {% highlight sh %}
 #/bin/sh
 
@@ -58,6 +58,7 @@ EOF
 HTTP/1.0 200 OK
 Content-Type: application/json
 Content-Length: $((${#BODY}+1))
+Connection: close
 
 ${BODY}
 EOF
@@ -154,6 +155,7 @@ tor_enable="NO"
 - [Bash, The while loop][bash-while]
 - [Bash, Length of string in bash][bash-string-length]
 - [Bash, Command Substitution][bash-command-sub]
+- [FreeBSD Forums, nc Server Not Disconnecting][https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/#post-310925]
 - [UNIX, Simple command line http server][unix-single-line-server]
 - [UNIX, One command line web server on port 80 using nc (netcat)][unix-one-command-server]
 - [UNIX, Faking Services using Netcat (For Testing Nagios)][unix-faking-services]
@@ -172,6 +174,7 @@ tor_enable="NO"
 [bash-while]:              http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
 [bash-string-length]:      http://stackoverflow.com/questions/17368067/length-of-string-in-bash
 [bash-command-sub]:        http://www.tldp.org/LDP/abs/html/commandsub.html
+[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/#post-310925
 [unix-faking-services]:    http://notes.rioastamal.net/2014/02/faking-services-using-netcat-for-nagios-testing.html
 [unix-single-line-server]: http://unix.stackexchange.com/questions/32182/simple-command-line-http-server
 [unix-one-command-server]: http://www.commandlinefu.com/commands/view/9164/one-command-line-web-server-on-port-80-using-nc-netcat
