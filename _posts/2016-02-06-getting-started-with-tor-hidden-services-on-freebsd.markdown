@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started With tor on FreeBSD"
+title:  "Getting Started With tor Hidden Services on FreeBSD"
 date:   2016-02-06 14:45:48 +0900
 categories: tor freebsd nc curl
 ---
@@ -159,7 +159,7 @@ tor_enable="NO"
 - [UNIX, Simple command line http server][unix-single-line-server]
 - [UNIX, One command line web server on port 80 using nc (netcat)][unix-one-command-server]
 - [UNIX, Faking Services using Netcat (For Testing Nagios)][unix-faking-services]
-- [Wikipedia, Netcat][wikipedia-netcat]
+- [Wikipedia, Netcat: Setting up a one-shot webserver on port 8080 to present the content of a file][wikipedia-netcat]
 
 [tor]:                     https://www.torproject.org/index.html.en
 [tor-tor2web]:             https://tor2web.org
