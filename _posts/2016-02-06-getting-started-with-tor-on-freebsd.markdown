@@ -8,7 +8,7 @@ At times I have wanted to demo the development version of a server that is
 running on my FreeBSD virtual machine.
 This is not a problem if the person I want to show it to is withing walking
 distance.
-This is not always the case.
+The net being what it is, sometimes the other party is halfway around the world.
 
 I figured [**tor**][tor] would be a neat way to demo a server running on
 my laptop.
@@ -40,7 +40,7 @@ portmaster security/tor
 Serve content to a port on localhost.
 For example, add the following to **server.sh** for a simple date server
 that serves content to port 8080.
-Yes, the is a bad server, but it is good enough to test the hidden service configuration.
+Yes, this is not a good server, but it is good enough to test a hidden service configuration.
 {% highlight sh %}
 #/bin/sh
 
