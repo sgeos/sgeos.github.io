@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started with ION-DTN 3.4.0 on FreeBSD"
 date:   2016-02-08 03:34:50 +0900
-categories: template
+categories: freebsd ion dtn
 ---
 I was reading Wikipedia articles about things like the [interplanetary internet][wikipedia-interplanetary],
 [InterPlaNet][wikipedia-ipn] and [delay-tolerant networking][wikipedia-dtn].
