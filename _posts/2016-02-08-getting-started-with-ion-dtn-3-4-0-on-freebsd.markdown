@@ -6,7 +6,7 @@ categories: template
 ---
 I was reading Wikipedia articles about things like the [interplanetary internet][wikipedia-interplanetary],
 [InterPlaNet][wikipedia-ipn] and [delay-tolerant networking][wikipedia-dtn].
-I wanted to try to serve a web page over DTN.
+After serving content over [tor][freebsd-tor], I wanted to try to serve a web page over DTN.
 
 This post covers installing [ION-DTN][ion-dtn] on FreeBSD.
 There are a few usage examples, including a very crude scripted web server, after the installation instructions.
@@ -395,6 +395,7 @@ rm ion.log
 - [FreeBSD Forums, sed not working with -i?][freebsd-sed]
 - [FreeBSD Handbook, Tuning with sysctl(8)][freebsd-sysctl]
 - [FreeBSD, Single Line Web Server With nc on FreeBSD][freebsd-singlefile-nc]
+- [FreeBSD, Getting Started With tor Hidden Services on FreeBSD][freebsd-tor]
 - [UNIX, How do I download from SourceForge with wget?][unix-download-sourceforge]
 - [UNIX, Extract tar.gz File][unix-tar-gz]
 - [UNIX, How to replace a path with another path in sed?][unix-sed]
@@ -451,6 +452,7 @@ rm ion.log
 [freebsd-sed]: https://forums.freebsd.org/threads/sed-not-working-with-i.12235/
 [freebsd-bad-man]: https://github.com/thoughtbot/rcm/issues/131
 [freebsd-singlefile-nc]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
+[freebsd-tor]: https://sgeos.github.io/tor/freebsd/nc/curl/2016/02/06/getting-started-with-tor-hidden-services-on-freebsd.html
 [wikipedia-interplanetary]: https://en.wikipedia.org/wiki/Interplanetary_Internet
 [wikipedia-ipn]: https://en.wikipedia.org/wiki/InterPlaNet
 [wikipedia-dtn]: https://en.wikipedia.org/wiki/Delay-tolerant_networking
