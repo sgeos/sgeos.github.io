@@ -267,7 +267,7 @@ done
 {% endhighlight %}
 
 Add the following to **request.sh**.
-This script is like  **server.sh**, but without the loop and the request and response are in reverse order.
+This script is like  **server.sh**, but without the loop.  Also, the request and response are in reverse order.
 {% highlight sh %}
 #/bin/sh
 
