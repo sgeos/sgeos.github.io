@@ -1,25 +1,17 @@
 Phoenix as a Service on FreeBSD
+DTN-ION as a Service on FreeBSD
 Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD
 Syslog on FreeBSD with Elixir
 
-DTN ION on FreeBSD
-http://dtnsetup.com
-https://github.com/b/ION
-https://github.com/b/ION/blob/master/ION.pdf
-http://manpages.org/bp/3
-https://tools.ietf.org/html/rfc5050A
-http://sourceforge.net/projects/ion-dtn/files/?source=navbar
-http://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/
-https://www.topcoder.com/challenge-details/30043039/?type=develop
-http://www.catonmat.net/blog/linux-socks5-proxy/
-https://www.ietf.org/mail-archive/web/dtn-interest/current/maillist.html
-http://www.ietf.org/mail-archive/web/dtn-interest/current/msg03336.html
-https://web.archive.org/web/20070217092916/http://www.melissaho.com/research/dtn/demo/index.php
-https://sites.google.com/site/dtnresgroup/home/dtn-bone/use-cases/ion-and-dtn2-interoperability
-http://stackoverflow.com/questions/576750/is-there-a-standard-command-line-tool-for-unix-for-piping-to-a-socket
-http://unix.stackexchange.com/questions/86971/how-do-i-download-from-sourceforge-with-wget
+Socks5
+https://forums.freebsd.org/threads/socks-proxy.28288/
+https://shadowsocks.org/en/index.html
+http://linux.die.net/man/3/event
+http://www.opensource.apple.com/source/netcat/netcat-4/netcat/netcat.c
+- [UNIX, Turn any Linux computer into SOCKS5 proxy in one command][unix-socks5]
+[unix-socks5]: http://www.catonmat.net/blog/linux-socks5-proxy/
 
 Android Root App
 http://themakeinfo.com/2015/05/building-android-root-app/
