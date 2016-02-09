@@ -232,7 +232,7 @@ Alternatively, use **tutorial.html** or another file.
 {% endhighlight %}
 
 Add the following to **server.sh**.
-The request is written **testfile1**.
+The request is written to **testfile1**.
 It also moonlights as the file to be sent.
 {% highlight sh %}
 #/bin/sh
@@ -267,7 +267,7 @@ done
 {% endhighlight %}
 
 Add the following to **request.sh**.
-Like the server, but without the loop and in reverse order.
+This script is like  **server.sh**, but without the loop and the request and response are in reverse order.
 {% highlight sh %}
 #/bin/sh
 
