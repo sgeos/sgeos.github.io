@@ -16,10 +16,9 @@ $ date
 February  8, 2016 at 03:34:50 PM JST
 $ uname -vm
 FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
-$ basename "$PWD"
-ion-open-source
-$ ./configure -V
-ion configure open source 3.4.0
+$ ionadmin
+: v
+ION OPEN SOURCE 3.4.0
 {% endhighlight %}
 
 ## Instructions
@@ -111,11 +110,18 @@ ldconfig
 Serve **tutorial.html** and [open](http://localhost:8080/) it in your favorite browser.
 Read through the tutorial.
 {% highlight sh %}
-FILE=tutorial.html; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <$FILE)\r\n\r\n"; cat $FILE; } | nc -N -l 0.0.0.0 8080
+FILE="tutorial.html"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
+{% endhighlight %}
+
+Also look at **ION Deployment Guide.pdf** and **ION.pdf**.
+Note the **AMS programmer's guide v2.2.pdf** and the Windows related PDFs.
+{% highlight sh %}
+FILE="ION Deployment Guide.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
+FILE="ION.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
 {% endhighlight %}
 
 A number of configuration files are required to start ION.
-Add the following lines to the specified file.
+Add the following lines to the specified files.
 It is probably a good idea to move to a different directory first.
 
 **host1.ionrc**
@@ -153,15 +159,20 @@ s
 a plan 1 ltp/1
 {% endhighlight %}
 
+**host1.ionsecrc** is not required, but it keeps "Can't find ION security database." warnings from being logged.
+{% highlight sh %}
+1
+{% endhighlight %}
+
 Create **host1.rc** with the following command.
 {% highlight sh %}
-ionscript -i host1.ionrc -p host1.ipnrc -l host1.ltprc -b host1.bprc -O host1.rc
+ionscript -i host1.ionrc -p host1.ipnrc -l host1.ltprc -b host1.bprc -O host1.rc -s host1.ionsecrc
 {% endhighlight %}
 
 Start ION with either of the following commands.
 {% highlight sh %}
 ionstart -I host1.rc
-ionstart -i host1.ionrc -l host1.ltprc -b host1.bprc -p host1.ipnrc
+ionstart -i host1.ionrc -l host1.ltprc -b host1.bprc -p host1.ipnrc -s host1.ionsecrc
 {% endhighlight %}
 
 ION can be stopped with the following command.
@@ -197,7 +208,7 @@ bpchat ipn:1.2 ipn:1.1
 
 ## Scripted Request-Response: Serving a Web Page Over BP
 
-This is a crude example of using **bpsendfile** and **bprecvfile** to serve a web page of BP.
+This is a crude example of using **bpsendfile** and **bprecvfile** to serve a web page over BP.
 First, create **index.html**.
 Alternatively, use **tutorial.html** or another file.
 {% highlight html %}
@@ -271,11 +282,13 @@ RESPONSE=$(cat testfile1)
 echo "$RESPONSE"
 {% endhighlight %}
 
-From different terminals in different directories, start the server and make a request.
+From different terminals, start the server and make a request.
 Note that **request.sh** is run in the current shell so that the request number increases if the command is executed multiple times.
 {% highlight sh %}
+chmod +x server.sh request.sh
+
 # α terminal
-./server
+./server.sh
 
 # β terminal
 . ./request.sh
@@ -314,6 +327,8 @@ done
 Let **badserver.sh** run until the hello world example stops working.
 
 {% highlight sh %}
+chmod +x badserver
+
 # α terminal
 chmod +x badserver.sh
 ./badserver.sh
@@ -363,7 +378,7 @@ rm ion.log
 - [ION-DTN, NASA Astronaut Email - MS-RPC Over HTTP - ION-DTN Module Architecture][ion-dtn-nasa-email]
 - [ION-DTN, GitHub ION 2.2.1][ion-dtn-github221]
 - [ION-DTN, Interplanetary Overlay Network (ION) Design and Operation V1.12 PDF][ion-dtn-github221-pdf]
-- [ION-DTN, Man bp][ion-dtn-man-ion]
+- [ION-DTN, Man ion][ion-dtn-man-ion]
 - [ION-DTN, Man bp][ion-dtn-man-bp]
 - [ION-DTN, Man bpsource][ion-dtn-man-bpsource]
 - [ION-DTN, Man bpsink][ion-dtn-man-bpsink]
@@ -371,6 +386,8 @@ rm ion.log
 - [ION-DTN, Man bpsendfile][ion-dtn-man-bpsendfile]
 - [ION-DTN, Man bprecvfile][ion-dtn-man-bprecvfile]
 - [ION-DTN, Man bptrace][ion-dtn-man-bptrace]
+- [ION-DTN, Man ionsecadmin][ion-dtn-man-ionsecadmin]
+- [ION-DTN, Man ionsecrc][ion-dtn-man-ionsecrc]
 - [FreeBSD, freebsd server limits question][freebsd-limits]
 - [FreeBSD, sysctl options loader.conf or sysctl.conf][freebsd-sysctl-options]
 - [FreeBSD, man pages not installed correctly on FreeBSD][freebsd-bad-man]
@@ -413,6 +430,8 @@ rm ion.log
 [ion-dtn-man-bpsendfile]: http://manpages.org/bpsendfile
 [ion-dtn-man-bprecvfile]: http://manpages.org/bprecvfile
 [ion-dtn-man-bptrace]: http://manpages.org/bptrace
+[ion-dtn-man-ionsecadmin]: http://manpages.org/ionsecadmin
+[ion-dtn-man-ionsecrc]: http://manpages.org/ionsecrc/5
 [unix-download-sourceforge]: http://unix.stackexchange.com/questions/86971/how-do-i-download-from-sourceforge-with-wget
 [unix-tar-gz]: http://www.cyberciti.biz/faq/linux-unix-bsd-extract-targz-file/
 [unix-sed]: http://stackoverflow.com/questions/12061410/how-to-replace-a-path-with-another-path-in-sed
