@@ -77,7 +77,7 @@ su
 sysctl kern.ipc.shmmax=536870912
 {% endhighlight %}
 
-Reboot the system with the new shared memory values.
+Reboot the system so the new shared memory values will take effect.
 {% highlight sh %}
 su
 shutdown -r now
@@ -120,9 +120,11 @@ FILE="tutorial.html"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FI
 
 Also look at **ION Deployment Guide.pdf** and **ION.pdf**.
 Note the **AMS programmer's guide v2.2.pdf** and the Windows related PDFs.
+**man ion**.
 {% highlight sh %}
 FILE="ION Deployment Guide.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
 FILE="ION.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
+man ion
 {% endhighlight %}
 
 A number of configuration files are required to start ION.
@@ -164,7 +166,7 @@ s
 a plan 1 ltp/1
 {% endhighlight %}
 
-**host1.ionsecrc** is not required, but it keeps "Can't find ION security database." warnings from being logged.
+**host1.ionsecrc** is not required, but it keeps "Can't find ION security database." from being logged in **ion.log**.
 {% highlight sh %}
 1
 {% endhighlight %}
@@ -230,6 +232,8 @@ Alternatively, use **tutorial.html** or another file.
 {% endhighlight %}
 
 Add the following to **server.sh**.
+The request is written **testfile1**.
+It also moonlights as the file to be sent.
 {% highlight sh %}
 #/bin/sh
 
@@ -263,6 +267,7 @@ done
 {% endhighlight %}
 
 Add the following to **request.sh**.
+Like the server, but without the loop and in reverse order.
 {% highlight sh %}
 #/bin/sh
 
