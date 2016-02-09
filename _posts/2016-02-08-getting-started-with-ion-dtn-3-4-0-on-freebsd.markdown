@@ -6,7 +6,7 @@ categories: template
 ---
 I was reading Wikipedia articles about things like the [interplanetary internet][wikipedia-interplanetary],
 [InterPlaNet][wikipedia-ipn] and [delay-tolerant networking][wikipedia-dtn].
-After serving [test web content with tor][freebsd-tor], I wanted to try to serve a web page over ION-DTN.
+After writing a [post on serving web content with tor][freebsd-tor], I wanted to try to serve a web page over ION-DTN.
 This post covers installing [ION-DTN][ion-dtn] 3.4.0 on FreeBSD.
 
 After the installation instructions, there are a few usage examples, including a very crude scripted web server.
