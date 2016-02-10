@@ -359,8 +359,6 @@ done
 Let **badserver.sh** run until the hello world example stops working.
 
 {% highlight sh %}
-chmod +x badserver
-
 # α terminal
 chmod +x badserver.sh
 ./badserver.sh
