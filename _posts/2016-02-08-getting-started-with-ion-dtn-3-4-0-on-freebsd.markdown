@@ -197,6 +197,11 @@ bpsink ipn:1.1
 # ^C to exit bpsink
 {% endhighlight %}
 
+A single line hello world example is below.
+{% highlight sh %}
+{ echo "Hello, World!"; sleep 1; } | bpchat ipn:1.1 ipn:1.1
+{% endhighlight %}
+
 ## Chat
 
 Use two terminals to enter the following commands.
@@ -210,6 +215,23 @@ bpchat ipn:1.1 ipn:1.2
 
 # β terminal
 bpchat ipn:1.2 ipn:1.1
+# ^C to exit bpchat
+{% endhighlight %}
+
+## Echo
+
+This modified chat example sets up an echo server.
+The server echoes lines back to the client until it receives EOT on a single line.
+EOT is piped into the connection after the client is closed with ^C.
+The server closes automatically without any manual intervention.
+
+{% highlight sh %}
+# α terminal
+mkfifo fifo
+bpchat ipn:1.1 ipn:1.2 <fifo | sed -u -n "/^$(printf "\4")$/q; p" | tee fifo
+
+# β terminal
+bpchat ipn:1.2 ipn:1.1; printf "\n\4\n" | bpchat ipn:1.2 ipn:1.1
 # ^C to exit bpchat
 {% endhighlight %}
 
