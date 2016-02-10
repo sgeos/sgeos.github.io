@@ -231,7 +231,7 @@ mkfifo fifo
 bpchat ipn:1.1 ipn:1.2 <fifo | sed -u -n "/^$(printf "\4")$/q; p" | tee fifo
 
 # β terminal
-bpchat ipn:1.2 ipn:1.1; printf "\n\4\n" | bpchat ipn:1.2 ipn:1.1
+bpchat ipn:1.2 ipn:1.1; { printf "\4\n"; sleep 1; } | bpchat ipn:1.2 ipn:1.1
 # ^C to exit bpchat
 {% endhighlight %}
 
