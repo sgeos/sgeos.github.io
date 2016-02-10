@@ -197,7 +197,7 @@ bpsink ipn:1.1
 # ^C to exit bpsink
 {% endhighlight %}
 
-A single line hello world example is below.
+A slightly unreliable single line hello world example is below.
 {% highlight sh %}
 { echo "Hello, World!"; sleep 1; } | bpchat ipn:1.1 ipn:1.1
 {% endhighlight %}
