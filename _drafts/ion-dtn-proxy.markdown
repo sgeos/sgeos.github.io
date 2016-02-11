@@ -316,15 +316,24 @@ Connections.
 
 ## References:
 - [ION, Bundle Protocol][ion-bp]
+- [ION, ion-dtn-support Mailing List Archives][ion-dtn-support]
 - [ION, Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started]
 - [FreeBSD Handbook, Bridging][freebsd-bridging]
 - [FreeBSD Single Line Web Server With nc on FreeBSD][freebsd-singleline]
 - [UNIX, Netcat - network connections made easy][unix-netcat-easy]
 - [UNIX, Using netcat to build a simple TCP proxy in Linux][unix-netcat-proxy]
 - [UNIX, Bourne Shell Scripting/Debugging and signal handling][unix-sh]
+- [UNIX, Sh - the Bourne Shell][unix-bourne-shell]
 - [UNIX, How can I trap interrupts in my shell script?][unix-trap]
 - [UNIX, in bash does control-c = SIGINT or SIGTERM?][unix-sigint]
 - [UNIX, Sed and UTF-8 encoding][unix-sed-utf8]
+- [UNIX, In Unix, how can I display the last lines of a file?][unix-last-lines]
+- [UNIX, FIFO Operations][unix-fifo]
+- [UNIX, Trouble with piping through sed][unix-sed-unbuffered]
+- [UNIX, how can I get sed to quit after the first matching address range?][unix-sed-match-quit]
+- [UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)][unix-match-block]
+- [UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters][unix-sed-control]
+- [UNIX, change terminal title][unix-terminal-title]
 - [UNIX, ASCII Table and Description][unix-ascii]
 - [Networking, StackOverflow, what is the difference between proxy server and normal server?][networking-proxy1]
 - [Networking, StackOverflow, Difference between proxy server and reverse proxy server][networking-proxy2]
@@ -333,17 +342,28 @@ Connections.
 - [Jekyll, Why there is no syntax for subscript and supscript?][jekyll-subscript2]
 - [Wikipedia, UTF-8][wikipedia-utf8]
 - [Wikipedia, Greek alphabet][wikipedia-greek]
+- [Wikipedia, End-of-Transmission character][wikipedia-eot]
+- [Wikipedia, Escape sequences in C][wikipedia-escape-c]
 
 [ion-bp]: http://bundleprotocol.com
+[ion-dtn-support]: https://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/
 [ion-getting-started]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
 [freebsd-bridging]: https://www.freebsd.org/doc/handbook/network-bridging.html
 [freebsd-singleline]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
 [unix-sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Debugging_and_signal_handling
+[unix-bourne-shell]: http://www.grymoire.com/Unix/Sh.html
 [unix-trap]: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156
 [unix-sigint]: http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/
 [unix-netcat-easy]: http://www.stearns.org/doc/nc-intro.current.html
 [unix-netcat-proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
 [unix-sed-utf8]: http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding
+[unix-last-lines]: https://kb.iu.edu/d/acrj
+[unix-fifo]: http://www.tldp.org/LDP/lpg/node18.html
+[unix-sed-unbuffered]: http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed
+[unix-sed-match-quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
+[unix-match-block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
+[unix-sed-control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
+[unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
 [unix-ascii]: http://www.asciitable.com
 [networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
 [networking-proxy2]: http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
@@ -352,4 +372,6 @@ Connections.
 [jekyll-subscript2]: http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586
 [wikipedia-utf8]: https://en.wikipedia.org/wiki/UTF-8
 [wikipedia-greek]: https://en.wikipedia.org/wiki/Greek_alphabet
+[wikipedia-eot]: https://en.wikipedia.org/wiki/End-of-Transmission_character
+[wikipedia-escape-c]: https://en.wikipedia.org/wiki/Escape_sequences_in_C
 
