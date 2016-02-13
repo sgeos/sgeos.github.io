@@ -5,6 +5,12 @@ Go as a Service on FreeBSD
 Swift on FreeBSD
 Syslog on FreeBSD with Elixir
 
+Working with Logs
+tail -f /var/log/messages
+tail -f /var/log/security
+logger
+http://unix.stackexchange.com/questions/88744/what-is-the-centos-equivalent-of-var-log-syslog-on-ubuntu
+
 Socks5
 https://forums.freebsd.org/threads/socks-proxy.28288/
 https://shadowsocks.org/en/index.html

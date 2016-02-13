@@ -17,10 +17,10 @@ The software nodes in the above diagram will be represented by lowercase greek l
 
 | Notation         | Meaning                                             |
 |:----------------:|:--------------------------------------------------- |
-| α                | client software                                     |
+| α                | client                                              |
 | β                | clientside reverse proxy                            |
 | γ                | serverside forward proxy                            |
-| δ                | server software                                     |
+| δ                | server                                              |
 |                  |                                                     |
 
 Unidirectional communication is represented by a pair of nodes.
