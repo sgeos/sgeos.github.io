@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "ION-DTN Proxy"
-date:   2016-02-10 09:33:35 +0900
+title:  "Almost Serving a Web Page with ION-DTN bpchat"
+date:   2016-02-12 09:41:21 +0900
 categories: freebsd ion dtn
 ---
 The goal is to serve a web page using an architecture like this.
@@ -23,24 +23,22 @@ The software nodes in the above diagram will be represented by lowercase greek l
 | δ                | server software                                     |
 |                  |                                                     |
 
-The connections will be represented by a pair of greek letters.
-The first letter is the source, the second letter is the destination.
-The following are unidirectional connections.
+Unidirectional communication is represented by a pair of nodes.
+The first node is the source, the second node is the destination.
 
 | Notation         | Meaning                                             |
 |:----------------:|:--------------------------------------------------- |
-| αβ               | client to reverseproxy connection                   |
-| βγ               | reverse to forward proxy connection                 |
+| αβ               | client to reverse proxy connection                  |
+| βγ               | reverse proxy to forward proxy connection           |
 | γδ               | forward proxy to server connection                  |
 | αδ               | client-server request path                          |
 | δα               | client-server response path                         |
 |                  |                                                     |
 
-A bidirectional request-response path is written with three letters.
-The first letter is the request sender.
-The second letter is the inflection point- the request recipient and response sender.
-The third letter is the response recipient.
-The first and third letter are the same when describing a normal request-response path.
+Bidirectional communication is represented by a group of three nodes.
+Relevant communication starts at the first node,
+passes through or to the second node and ultimately comes back to the third node.
+The first and third letter are the same when describing normal bidirectional communication.
 They can differ when leaving off part of the path in one direction.
 
 | Notation         | Meaning                                                            |
@@ -59,7 +57,7 @@ The number of hops need not be the same in both directions.
 |:----------------:|:------------------------------------------------------------------ |
 | βγ<sub>0</sub>   | zeroth hop from β to γ, i.e. β                                     |
 | βγ<sub>1</sub>   | first hop from β to γ                                              |
-| βγ<sub>N</sub>   | n-th hop from β to γ, i.e. γ for N hops                            |
+| βγ<sub>N</sub>   | N-th hop from β to γ, i.e. γ for N hops                            |
 | γβ<sub>0</sub>   | zeroth hop from γ to β, i.e. γ                                     |
 | γβ<sub>N-1</sub> | one hop from β coming from γ, for N hops                           |
 | γβ<sub>N</sub>   | at β coming from γ for N hops, N implies the same return path      |
@@ -72,20 +70,20 @@ Hardware and the application execution environment follow the same conventions, 
 Α ⇄ Β ⇄ Γ ⇄ Δ
 {% endhighlight %}
 
-For example, Α is my MacBook, α is Safari, Δ is a virtual machine running on Α and δ is a webserver.
+For example, Α is my MacBook, α is Safari, Δ is a virtual machine running on Α, and δ is a web server.
 ΑΒ<sub>1</sub> is my wireless router and ΑΒ is simply a WiFi connection.
 ΒΑ<sub>1</sub> and ΑΒ<sub>1</sub> happen to be the same device.
 If αβ<sub>1</sub> fails, my firewall is misconfigured.
 If ΑΒ<sub>1</sub> fails, one of my kids pulled the plug on the router.
 
 Where the OS and firmware fall is context specific.
-If you are building a router, a firmware bug would be an αβ<sub>1</sub> failure.
-If you are simply using a router, a firmware bug is an ΑΒ<sub>1</sub> failure.
+If building a router, a firmware bug would be an αβ<sub>1</sub> failure.
+If simply using a router, a firmware bug is an ΑΒ<sub>1</sub> failure.
 
 ## Software Versions
 {% highlight sh %}
 $ date
-February 10, 2016 at 09:33:35 PM JST
+February 12, 2016 at 09:41:21 AM JST
 $ uname -vm
 FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ ionadmin
@@ -95,18 +93,19 @@ ION OPEN SOURCE 3.4.0
 
 ## Instructions
 
-My hardware setup is as follows.  This is not a very elaborate setup.
+My unelaborate hardware setup is as follows.
+ΑΒ<sub>1</sub> is a WiFi router.
 
 {% highlight txt %}
 Α ⇄ Β ⇄ Γ ⇄ Δ
-Α: OSX Macbook Pro
+Α: OSX MacBook Pro
 Β, Γ, Δ: FreeBSD VirtualBoxVM running on Α
 ΑΒΑ: WiFi, VM uses bridged adapter
 ΒΔΒ: virtualized connections (probably)
 {% endhighlight %}
 
 For this exercise, **host1.bprc** will need to define two endpoints if everything is running on one machine.
-You might want a couple of extra endpoints to run hello world or transfer tests.
+It may be useful to have a couple of extra endpoints for testing.
 
 {% highlight sh %}
 1
@@ -114,8 +113,8 @@ a scheme ipn 'ipnfw' 'ipnadminep'
 a endpoint ipn:1.0 q
 a endpoint ipn:1.1 q
 a endpoint ipn:1.2 q
-a endpoint ipn:1.3 q
-a endpoint ipn:1.4 q
+#a endpoint ipn:1.3 q
+#a endpoint ipn:1.4 q
 a protocol ltp 1400 100
 a induct ltp 1 ltpcli
 a outduct ltp 1 ltpclo
@@ -130,7 +129,9 @@ ionstop
 ionstart -I host1.rc
 {% endhighlight %}
 
-Using the following commands to change the title of your terminals may make it easier to follow along.
+Named terminals may make it easier to follow along.
+The following commands can be used to rename terminals.
+
 {% highlight sh %}
 # ionadmin terminal
 (TITLE="ionadmin"; printf "\033]0;${TITLE}\007")
@@ -150,20 +151,22 @@ Using the following commands to change the title of your terminals may make it e
 
 # δ Web Server
 
-Set up a webserver that serves on 127.0.0.1:8080.
-The following single file JSON/HTTP date server can be used.
+Set up a webserver that serves on 127.0.0.1:4000.
+If a web server is not handy, the following single file JSON/HTTP date server can be used.
 It is a crude implementation that is probably less robust than ideal.
 
 **date_server.sh**
 {% highlight sh %}
 #/bin/sh
 
-HOST=127.0.0.1
-PORT=8080
-CONTENT_TYPE=application/json
+NC_HOST=127.0.0.1
+NC_PORT=4000
+
+echo "I/O: nc -N -l $NC_HOST $NC_PORT"
 
 while true; do
-echo "<<<$((X=X+1))<<<"
+echo "---$((REQUEST_NUMBER=REQUEST_NUMBER+1))---"
+CONTENT_TYPE=application/json
 BODY=$(cat <<EOF
 {
   "Date": "$(date)"
@@ -179,9 +182,8 @@ Connection: close
 ${BODY}
 EOF
 )
-echo "$RESPONSE" | nc -N -l $HOST $PORT
-echo ">>>${X}>>>"
-echo "$RESPONSE"
+echo "$RESPONSE" | nc -N -l "$NC_HOST" "$NC_PORT" | sed 's/^/< /'
+echo "$RESPONSE" | sed 's/^/> /'
 done
 {% endhighlight %}
 
@@ -199,7 +201,7 @@ curl -v 127.0.0.1:8080
 
 The problem with something like HTTP is that αδ basically needs to be held open until α gets a response.
 The best case scenerio closes connections as the response travels back.
-The upshot is that βγβ needs to be an open connection over bp.
+The upshot is that βγβ needs to be an open connection over **bp**.
 
 {% highlight txt %}
 α ⇄ β ⇄ γ ⇄ δ
@@ -246,14 +248,103 @@ The goal is to build this forward proxy.
 {% endhighlight %}
 
 The serverside proxy communicates over ltp/bp with **bpchat** and connects to the webserver with **nc**.
+The proxy closes **bp** when eight EOT characters are found at the end of a line.
+This was chosen because I am fairly certain it is a unicode safe solution.
+
+The forward proxy also changes the host and connection request headers so
+that the browser and web server will play better with the proxy setup.
+This fix is HTTP specific and can be removed for other protocols.
 
 **forward_proxy.sh**
 {% highlight sh %}
-#/bin/sh
+#!/bin/sh
 
 BP_SOURCE=ipn:1.2
 BP_DESTINATION=ipn:1.1
 NC_HOST=127.0.0.1
+NC_PORT=4000
+
+REQUEST=request.pipe
+RESPONSE=response.pipe
+
+EOT=$(printf "\4\4\4\4\4\4\4\4")
+
+TMP_DIR=$(mktemp -d /tmp/$(basename $0).XXXXXX) || exit 1
+trap 'rm -rf "$TMP_DIR"; exit' INT TERM QUIT EXIT
+cd "$TMP_DIR"
+mkfifo -m 600 "$RESPONSE" "$REQUEST"
+
+echo "Path: $(pwd)"
+echo "In:   bpchat $BP_SOURCE $BP_DESTINATION"
+echo "Out:  nc -N $NC_HOST $NC_PORT"
+
+while true; do
+  echo "---$((REQUEST_NUMBER=REQUEST_NUMBER+1))---"
+  bpchat "$BP_SOURCE" "$BP_DESTINATION" <"$RESPONSE" |
+  sed -u -n "/${EOT}$/q; p" |
+  sed -u "s/^Host:.*/Host: ${NC_HOST}:${NC_PORT}/I" | # HTML Request Patch
+  sed -u "s/^Connection:.*/Connection: close/I" | # HTML Request Patch
+  tee "$REQUEST" | sed 's/^/< /' &
+  nc -N "$NC_HOST" "$NC_PORT" <"$REQUEST" |
+  tee "$RESPONSE" | sed 's/^/> /'
+done
+{% endhighlight %}
+
+Create **request.txt** for testing.
+Note that a double newline is required at the end of this file.
+
+{% highlight html %}
+GET / HTTP/1.1
+Host: 127.0.0.1:4000
+User-Agent: test-agent
+Accept: */*
+Connection: close
+{% endhighlight %}
+
+Run and test the forward proxy.
+**date_server.sh** will probably send multiple responses.
+A real web server plays better with the proxy setup.
+
+{% highlight sh %}
+# γ terminal
+chmod +x forward_proxy.sh
+./forward_proxy.sh
+
+# β terminal
+{ printf "$(cat request.txt)\4\4\4\4\4\4\4\4\n"; sleep 10; } |
+bpchat ipn:1.1 ipn:1.2
+{% endhighlight %}
+
+# β Reverse Proxy
+
+**The reverse proxy described in this section crashes bp when the second request begins.**
+The reverse proxy is the last piece of the puzzle.
+
+{% highlight txt %}
+α ⇄ β ⇄ γ ⇄ δ
+α: web browser
+β: reverse proxy
+γ: forward proxy
+δ: web server
+αβα: nc tcp/ip
+βγβ: bpchat ltp/bp
+γδγ: nc tcp/ip
+{% endhighlight %}
+
+The reverse proxy is a mirror of the forward proxy.
+**nc** listens for connections and sends data through **bpchat**.
+The host is 0.0.0.0 because the reverse proxy serves the outside world.
+Note that the forward and reverse proxies need to use different ports if they are actually running on the same machine.
+
+The reverse proxy does not need to modify the request or response stream.
+Modifications are handled by the forward proxy.
+
+{% highlight sh %}
+#/bin/sh
+
+BP_SOURCE=ipn:1.1
+BP_DESTINATION=ipn:1.2
+NC_HOST=0.0.0.0
 NC_PORT=8080
 
 REQUEST=request.pipe
@@ -265,54 +356,45 @@ TMP_DIR=$(mktemp -d /tmp/$(basename $0).XXXXXX) || exit 1
 trap 'rm -rf "$TMP_DIR"; exit' INT TERM QUIT EXIT
 cd "$TMP_DIR"
 mkfifo -m 600 "$RESPONSE" "$REQUEST"
-pwd
+
+echo "Path: $(pwd)"
+echo "In:   nc -N -l $NC_HOST $NC_PORT"
+echo "Out:  bpchat $BP_SOURCE $BP_DESTINATION"
 
 while true; do
   echo "---$((REQUEST_NUMBER=REQUEST_NUMBER+1))---"
-  bpchat "$BP_SOURCE" "$BP_DESTINATION" <"$RESPONSE" |
-  sed -u -n "/${EOT}$/q; p" |
-  tee "$REQUEST" | sed 's/^/< /' &
-  nc -N "$NC_HOST" "$NC_PORT" <"$REQUEST" |
+  { nc -N -l "$NC_HOST" "$NC_PORT" <"$RESPONSE"; printf "${EOT}\n"; } |
+  tee "$REQUEST" | sed "s/^/< /; s/${EOT}/[EOT]/" &
+  bpchat "$BP_SOURCE" "$BP_DESTINATION" <"$REQUEST" |
   tee "$RESPONSE" | sed 's/^/> /'
 done
 {% endhighlight %}
 
-Run and test the forward proxy.
+Test from the terminal.
 
 {% highlight sh %}
-# γ terminal
-chmod +x forward_proxy.sh
-./forward_proxy.sh
-
 # β terminal
-bpchat ipn:1.1 ipn:1.2; { printf "\4\4\4\4\4\4\4\4\n"; sleep 2; } | bpchat ipn:1.1 ipn:1.2
+chmod +x reverse_proxy.sh
+./reverse_proxy.sh
+
+# α terminal
+CURL_HOST=192.168.0.23
+curl -v ${CURL_HOST}:8080
 {% endhighlight %}
 
-# β Reverse Proxy
+# α Web Browser
 
-Setup.
+Finally, test from a web browser.
+Hopefully everything works.
 
-{% highlight txt %}
-α ⇄ β ⇄ γ ⇄ δ
-α: web browser
-β: 
-γ: response proxy connect
-δ:
-αβα: complete request-response connection
-αβ: client to proxy connection
-βγ: request proxy connect
-γβ: response proxy connect
-αβα: complete request-response connection
-{% endhighlight %}
+**date_server.sh** does not overload bp and plays well with a standard browser.
+It is more of a hack than a real web server so multiple responses are sent through the proxy layer.
+A web browser will ignore the extra data.
 
-Connections.
-
-{% highlight txt %}
-αβ: client to proxy connection
-βγ: request proxy connect
-γβ: response proxy connect
-αβα: complete request-response connection
-{% endhighlight %}
+In theory using should work better than **date_server.sh**.
+The HTML document is served without issue.
+**Due to a bug in reverse_proxy.sh the second request, a CSS file in my case, will cause bp to hang.**
+This exercise has been posted as is for now because reproducable crashes are valuable.
 
 ## References:
 - [ION, Bundle Protocol][ion-bp]
@@ -333,6 +415,9 @@ Connections.
 - [UNIX, how can I get sed to quit after the first matching address range?][unix-sed-match-quit]
 - [UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)][unix-match-block]
 - [UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters][unix-sed-control]
+- [UNIX, Can sed remove 'double' newline characters?][unix-sed-newline]
+- [UNIX, Case-insensitive search & replace with sed][unix-sed-case-insensitive]
+- [UNIX, How to replace whole line with sed?][unix-sed-whole-line]
 - [UNIX, change terminal title][unix-terminal-title]
 - [UNIX, ASCII Table and Description][unix-ascii]
 - [Networking, StackOverflow, what is the difference between proxy server and normal server?][networking-proxy1]
@@ -363,6 +448,10 @@ Connections.
 [unix-sed-match-quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
 [unix-match-block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
 [unix-sed-control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
+[unix-sed-newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
+[unix-sed-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
+[unix-sed-whole-line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
+[unix-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
 [unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
 [unix-ascii]: http://www.asciitable.com
 [networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
