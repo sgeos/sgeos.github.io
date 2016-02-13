@@ -86,14 +86,18 @@ shutdown -r now
 Read **README.txt**.
 Optionally run **./config -h**.
 When you know what you are doing, configure and build.
-Note that by default the man pages are installed in the wrong place on FreeBSD.
 
-The installation needs to be done by root.
+# System Wide Install
+
+A system wide installation needs to be performed by root.
 I also run the build as root because I ultimately
 want root to be the owner of the installed files.
+Note that by default the man pages are installed in the wrong place on FreeBSD.
+
 {% highlight sh %}
 su
 ./configure --mandir=/usr/local/man
+gmake clean
 gmake
 {% endhighlight %}
 
@@ -112,6 +116,32 @@ gmake install
 ldconfig
 {% endhighlight %}
 
+# Single User Install
+
+A single user install can be performed by passing the --prefix flag to **configure**.
+
+{% highlight sh %}
+./configure --prefix="$HOME/ion" --mandir="$HOME/ion/man"
+gmake clean
+gmake
+(cd tests/; ./runtests sbsp/)
+gmake install
+{% endhighlight %}
+
+Appended **ion/bin** to **PATH**.
+If **ion/bin** is in **$PATH** then **manpath** will look for manpages in **ion/man**.
+
+**~/.profile**
+{% highlight sh %}
+export "PATH=$HOME/ion/bin:$PATH"
+{% endhighlight %}
+
+The ion library path could be added to **LD_LIBRARY_PATH**, but running **ldconfig**
+requires root privileges, so this does not make sense for a single user install.
+See [this link][freebsd-ld-library-path] for details.
+
+# Documentation
+
 Serve **tutorial.html** and [open](http://localhost:8080/) it in your favorite browser.
 Read through the tutorial.
 {% highlight sh %}
@@ -120,12 +150,16 @@ FILE="tutorial.html"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FI
 
 Also look at **ION Deployment Guide.pdf** and **ION.pdf**.
 Note the **AMS programmer's guide v2.2.pdf** and the Windows related PDFs.
-**man ion**.
+On a system wide install, there are a bunch of useful resources in **/usr/local/share/ion/**.
+Finally, **man ion**.
 {% highlight sh %}
 FILE="ION Deployment Guide.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
 FILE="ION.pdf"; { printf "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <"$FILE")\r\n\r\n"; cat "$FILE"; } | nc -N -l 0.0.0.0 8080
+ls /usr/local/share/ion/
 man ion
 {% endhighlight %}
+
+# Starting ION
 
 A number of configuration files are required to start ION.
 Add the following lines to the specified files.
@@ -187,7 +221,11 @@ ION can be stopped with the following command.
 ionstop
 {% endhighlight %}
 
-## Hello World
+## Examples
+
+The following examples can be used to get started.
+
+# Hello World
 
 Enter the follow lines into the terminal.
 Hit ^C to exit **bpsink** after verifying the payload has been delivered.
@@ -202,7 +240,7 @@ A slightly unreliable single line hello world example is below.
 { echo "Hello, World!"; sleep 1; } | bpchat ipn:1.1 ipn:1.1
 {% endhighlight %}
 
-## Chat
+# Chat
 
 Use two terminals to enter the following commands.
 Enter text and hit enter to transfer the line to the other terminal.
@@ -218,7 +256,7 @@ bpchat ipn:1.2 ipn:1.1
 # ^C to exit bpchat
 {% endhighlight %}
 
-## Echo
+# Echo Loop
 
 This modified chat example sets up an echo server.
 The server echoes lines back to the client until it receives EOT on a single line.
@@ -235,7 +273,7 @@ bpchat ipn:1.2 ipn:1.1; printf "\4\n" | bpchat ipn:1.2 ipn:1.1
 # ^C to exit bpchat
 {% endhighlight %}
 
-## Scripted Request-Response: Serving a Web Page Over BP
+# Scripted Request-Response: Serving a Web Page Over BP
 
 This is a crude example of using **bpsendfile** and **bprecvfile** to serve a web page over BP.
 First, create **index.html**.
@@ -386,6 +424,12 @@ bpsink ipn:1.3
 # ^C to exit bpsink
 {% endhighlight %}
 
+If **ionstart** or **ionstop** hangs, run **killm** directly and restart ion.
+{% highlight sh %}
+killm
+ionstart -I host1.rc
+{% endhighlight %}
+
 ## write failed, filesystem is full
 
 Congratulations!
@@ -421,6 +465,9 @@ rm ion.log
 - [FreeBSD, freebsd server limits question][freebsd-limits]
 - [FreeBSD, sysctl options loader.conf or sysctl.conf][freebsd-sysctl-options]
 - [FreeBSD, man pages not installed correctly on FreeBSD][freebsd-bad-man]
+- [FreeBSD, On FreeBSD, what is the best practice for adding to manpath?][freebsd-manpath]
+- [FreeBSD, man manpath][freebsd-man-manpath]
+- [FreeBSD, LD_LIBRARY_PATH][freebsd-ld-library-path]
 - [FreeBSD Forums, sed not working with -i?][freebsd-sed]
 - [FreeBSD Handbook, Tuning with sysctl(8)][freebsd-sysctl]
 - [FreeBSD, Single Line Web Server With nc on FreeBSD][freebsd-singlefile-nc]
@@ -437,6 +484,7 @@ rm ion.log
 - [UNIX, Netcat without -e? No Problem!][unix-netcat-no-e]
 - [UNIX, Using netcat to build a simple TCP proxy in Linux][unix-netcat-tcp-proxy]
 - [UNIX, TCP proxy with netcat][unix-tcp-proxy]
+- [UNIX, Installing glib in non-standard prefix fails][unix-libtool-clean]
 - [Wikipedia, Interplanetary Internet][wikipedia-interplanetary]
 - [Wikipedia, InterPlaNet][wikipedia-ipn]
 - [Wikipedia, Delay-tolerant networking][wikipedia-dtn]
@@ -475,11 +523,15 @@ rm ion.log
 [unix-netcat-no-e]: https://pen-testing.sans.org/blog/2013/05/06/netcat-without-e-no-problem
 [unix-netcat-tcp-proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
 [unix-tcp-proxy]: http://www.noah.org/wiki/TCP_proxy_with_netcat
+[unix-libtool-clean]: http://stackoverflow.com/questions/10279829/installing-glib-in-non-standard-prefix-fails
 [freebsd-sysctl]: https://www.freebsd.org/doc/handbook/configtuning-sysctl.html
 [freebsd-sysctl-options]: https://lists.freebsd.org/pipermail/freebsd-questions/2005-August/095010.html
 [freebsd-limits]: https://lists.freebsd.org/pipermail/freebsd-questions/2012-January/236726.html
 [freebsd-sed]: https://forums.freebsd.org/threads/sed-not-working-with-i.12235/
 [freebsd-bad-man]: https://github.com/thoughtbot/rcm/issues/131
+[freebsd-manpath]: https://www.reddit.com/r/freebsd/comments/3zxa3j/on_freebsd_what_is_the_best_practice_for_adding/
+[freebsd-man-manpath]: https://www.freebsd.org/cgi/man.cgi?query=manpath&apropos=0&sektion=0&manpath=FreeBSD+8.0-RELEASE&format=html
+[freebsd-ld-library-path]: https://lists.freebsd.org/pipermail/freebsd-questions/2007-March/146062.html
 [freebsd-singlefile-nc]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
 [freebsd-tor]: https://sgeos.github.io/tor/freebsd/nc/curl/2016/02/06/getting-started-with-tor-hidden-services-on-freebsd.html
 [wikipedia-interplanetary]: https://en.wikipedia.org/wiki/Interplanetary_Internet
