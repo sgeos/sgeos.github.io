@@ -318,6 +318,7 @@ bpchat ipn:1.1 ipn:1.2
 # β Reverse Proxy
 
 **The reverse proxy described in this section crashes bp when the second request begins.**
+
 The reverse proxy is the last piece of the puzzle.
 
 {% highlight txt %}
@@ -392,10 +393,10 @@ Hopefully everything works.
 It is more of a hack than a real web server so multiple responses are sent through the proxy layer.
 A web browser will ignore the extra data.
 
-In theory using should work better than **date_server.sh**.
+In theory using a proper web server should work better than **date_server.sh**.
 The HTML document is served without issue.
-**Due to a bug in reverse_proxy.sh the second request, a CSS file in my case, will cause bp to hang.**
-This exercise has been posted as is for now because reproducable crashes are valuable.
+**Due to a bug in reverse_proxy.sh, the second request (a CSS file in my case) will cause bp to hang.**
+**This exercise has been posted as is because reproducable crashes are valuable.**
 
 ## References:
 - [ION, Bundle Protocol][ion-bp]
