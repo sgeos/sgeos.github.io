@@ -6,7 +6,7 @@ categories: freebsd ion dtn
 ---
 The goal is to serve a web page using an architecture like this.
 {% highlight txt %}
-client ⇄(tcp/ip)⇄ reverse proxy ⇄(bp/ltp)⇄ proxy ⇄(tcp/ip)⇄ server
+client ⇄(tcp/ip)⇄ reverse proxy ⇄(bp/ltp/udp/ip)⇄ proxy ⇄(tcp/ip)⇄ server
 {% endhighlight %}
 
 In this post, a symbolic notation will be used to describe network connections at a single point in time.
