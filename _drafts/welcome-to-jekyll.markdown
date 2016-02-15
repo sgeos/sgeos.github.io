@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Welcome to Jekyll!"
 date:   2016-01-08 01:40:03 +0900
 categories: jekyll update

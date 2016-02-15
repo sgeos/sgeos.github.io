@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Template"
 date:   2016-01-01 01:02:03 +0900
 categories: template

@@ -58,7 +58,7 @@ Add the following line to the end of **_layouts/post.html** or anywhere else you
 {% raw %}{% include disqus.html %}{% endraw %}
 {% endhighlight %}
 
-Add the following line to the [YAML front matter][jekyll-frontmatter] of a post to enable comments.
+Add the following line to the [YAML front matter][jekyll-frontmatter] of a post to enable comments on a post by post basis.
 
 {% highlight yaml %}
 comments: true
@@ -84,12 +84,18 @@ Change **SHORTNAME** to the Disqus shortname you are using.
 <script id="dsq-count-scr" src="//SHORTNAME.disqus.com/count.js" async></script>
 {% endhighlight %}
 
-Add **#disqus_thread** to the end of a URL and Disqus will count the comments on the page.
+Add **#disqus_thread** to the end of a URL and Disqus will count the comments on the page the link points to.
 For example, my **_layouts/post.html** contains the following code.
-Note the comment count at the top of the post.
+Note the comment count at the top of this post.
 
 {% highlight html %}
-{% raw %}{% if page.comments %} • <a href="https://sgeos.github.io{{ page.url }}#disqus_thread">Comments</a>{% endif %}{% endraw %}
+{% raw %}{% if page.comments %} • <a href="https://sgeos.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}{% endraw %}
+{% endhighlight %}
+
+**index.html** contains the following code to display the comment count for each post in the list.
+
+{% highlight html %}
+{% raw %}<a href="https://sgeos.github.io{{ post.url }}#disqus_thread">0 Comments</a>{% endraw %}
 {% endhighlight %}
 
 ## References:
@@ -99,6 +105,7 @@ Note the comment count at the top of the post.
 - [Jekyll, YAML Front Matter][jekyll-frontmatter]
 - [Jekyll, Highlighting Liquid Code in a Liquid Template with Jekyll (Escape a Liquid Templating Tag)][jekyll-highlight-liquid-code]
 - [Jekyll, How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole][jekyll-beautiful]
+- [Jekyll, Dynamic Links in jekyll][jekyll-dynamic]
 - [Jekyll, Creating A Jekyll GitHub Pages Blog and Managing it With FreeBSD][jekyll-freebsd]
 - [Disqus][disqus]
 - [Disqus, Set Up Disqus On a New Site][disqus-registration]
@@ -116,6 +123,7 @@ Note the comment count at the top of the post.
 [jekyll-frontmatter]: http://jekyllrb.com/docs/frontmatter/
 [jekyll-highlight-liquid-code]: http://tesoriere.com/2010/08/25/liquid-code-in-a-liquid-template-with-jekyll/
 [jekyll-beautiful]: http://joshualande.com/jekyll-github-pages-poole/
+[jekyll-dynamic]: http://stackoverflow.com/questions/22725754/dynamic-links-in-jekyll
 [jekyll-freebsd]: https://sgeos.github.io/jekyll/github/freebsd/2016/01/07/creating-a-jekyll-github-pages-blog-and-managing-it-with-freebsd.html
 [disqus]: https://disqus.com
 [disqus-registration]: https://disqus.com/admin/create/
