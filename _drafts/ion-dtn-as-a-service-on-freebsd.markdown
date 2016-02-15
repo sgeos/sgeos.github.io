@@ -6,7 +6,7 @@ date:   2016-02-15 10:13:57 +0900
 categories: freebsd ion dtn
 ---
 This post covers installing ION DTN as a service on FreeBSD.
-The goal is to be able to start, stop and restart DTN-ION like any other service.
+The goal is to create an **iondtn** service that can be used like any other service.
 
 {% highlight sh %}
 service iondtn start
@@ -65,10 +65,19 @@ gmake install
 ldconfig
 {% endhighlight %}
 
-Add the run control script as root.
+Add the rc script to **/usr/local/etc/rc.d/iondtn** as root.
+The **install_dir** can be modified to accommodate different installation directories.
+The script has the following knobs.
+
+- **iondtn_enable** : enable the service and start it when the machine boots
+- **iondtn_user** : user to run the servie as
+- **iondtn_config** : location of the configuration file
+- **iondtn_log_dir** : directory **ion.log** is placed in
+
+The status command checks to see if the **rfxclock** daemon subcomponent of **iondtn** is running.
+The rest of the script is straight forward.
 
 **/usr/local/etc/rc.d/iondtn**
-
 {% highlight sh %}
 #!/bin/sh
 #
@@ -86,17 +95,17 @@ start_cmd="${name}_start"
 stop_cmd="${name}_stop"
 status_cmd="${name}_status"
 killm_cmd="${name}_killm"
-extra_commands="killm"
+extra_commands="status killm"
 
 load_rc_config $name
 : ${iondtn_enable:="no"}
 : ${iondtn_user:=${name}}
-: ${iondtn_rc:="${install_dir}/etc/${name}.rc"}
+: ${iondtn_config:="${install_dir}/etc/${name}.rc"}
 : ${iondtn_log_dir:="${install_dir}/${name}"}
 
 iondtn_start()
 {
-  su -m "$iondtn_user" -c "cd ${iondtn_log_dir}; ionstart -I '${iondtn_rc}'"
+  su -m "$iondtn_user" -c "cd ${iondtn_log_dir} && ionstart -I '${iondtn_config}'"
 }
 
 iondtn_stop()
@@ -106,10 +115,8 @@ iondtn_stop()
 
 iondtn_status()
 {
-  # $rfxclock_pid=$(ps -ax | grep "rfxclock" | grep -v "grep" | awk '{ print $1 }')
-  # if [ $rfxclock_pid ]
   daemon=rfxclock
-  if [ ps -ax | grep "$daemon" | grep -v "grep" ]
+  if ps -ax | grep "$daemon" | grep -qsv "grep"
   then
     echo "$name is running."
   else
@@ -126,9 +133,15 @@ load_rc_config $name
 run_rc_command "$1"
 {% endhighlight %}
 
-Create the configuration file.
+Make the above script read only and executable.
 
-**/usr/local/etc/iondtn.rc**
+{% highlight sh %}
+chmod 555 /usr/local/etc/rc.d/iondtn
+{% endhighlight %}
+
+The **iondtn** service uses combined configuration files produced by **ionscript**.
+By default the configuration file in **/usr/local/etc/iondtn.rc** will be used.
+
 {% highlight txt %}
 ## File created by /usr/local/bin/ionscript
 ## February 13, 2016 at 03:29:28 AM JST
@@ -180,7 +193,9 @@ a plan 1 ltp/1
 ## end ipnadmin 
 {% endhighlight %}
 
-Make an iondtn user.  By default, **ion.log** will be located in **/usr/local/iondtn/ion.log**.
+By default, the **iondtn** service will be run by a user of the same name and
+**ion.log** will be located in **/usr/local/iondtn/ion.log**.
+As root, create the **iondtn** user and **/usr/local/iondtn/** directory.
 
 {% highlight sh %}
 su
@@ -190,6 +205,39 @@ INSTALL_DIR=/usr/local
 pw adduser $SERVICE -d $INSTALL_DIR/$SERVICE -s /usr/sbin/nologin -c "$SERVICE system service user"
 mkdir -p $INSTALL_DIR/$SERVICE
 chown -R $SERVICE:$SERVICE $INSTALL_DIR/$SERVICE
+{% endhighlight %}
+
+The **iondtn** service needs to be able to write to **/tmp/ion.sdrlog**,
+so change the owner of the file or the write permissions.
+
+{% highlight sh %}
+chown $SERVICE:$SERVICE /tmp/ion.sdrlog
+chmod 666 /tmp/ion.sdrlog
+{% endhighlight %}
+
+Enable the **iondtn** service in **/etc/rc.conf**.
+Only the iondtn_enable line is required.
+The other lines list optional configuration and the default values.
+
+{% highlight sh %}
+iondtn_enable="YES"
+iondtn_user="iondtn"
+iondtn_config="/usr/local/etc/iondtn.rc"
+iondtn_log_dir="/usr/local/iondtn"
+{% endhighlight %}
+
+The **iondtn** service can now be started from any directory
+and **ion.log** will be in a known location.
+
+{% highlight sh %}
+service iondtn start
+{ echo "Hello, World!"; sleep 2; } | bpchat ipn:1.1 ipn:1.1 # test that it works
+service iondtn status
+service iondtn restart
+cat /usr/local/iondtn/ion.log
+service iondtn stop
+service iondtn killm
+service iondtn status
 {% endhighlight %}
 
 ## References:
