@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Getting Started With Multi File Command Line Swift"
 date:   2016-02-09 02:08:36 +0900
 categories: swift

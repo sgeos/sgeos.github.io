@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Almost Serving a Web Page with ION-DTN bpchat"
 date:   2016-02-12 09:41:21 +0900
 categories: freebsd ion dtn

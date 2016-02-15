@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Getting Started with ION-DTN 3.4.0 on FreeBSD"
 date:   2016-02-08 03:34:50 +0900
 categories: freebsd ion dtn

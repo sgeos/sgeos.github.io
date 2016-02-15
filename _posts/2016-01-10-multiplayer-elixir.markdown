@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Multiplayer Elixir"
 date:   2016-01-10 00:10:02 +0900
 categories: elixir erlang

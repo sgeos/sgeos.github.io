@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Elixir, Executing AST"
 date:   2016-02-01 04:49:00 +0900
 categories: elixir metaprogramming ast
