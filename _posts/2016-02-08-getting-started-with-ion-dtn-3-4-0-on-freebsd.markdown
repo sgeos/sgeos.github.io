@@ -207,13 +207,13 @@ a plan 1 ltp/1
 
 Create **host1.rc** with the following command.
 {% highlight sh %}
-ionscript -i host1.ionrc -p host1.ipnrc -l host1.ltprc -b host1.bprc -O host1.rc -s host1.ionsecrc
+ionscript -i host1.ionrc -s host1.ionsecrc -l host1.ltprc -b host1.bprc -p host1.ipnrc -O host1.rc
 {% endhighlight %}
 
 Start ION with either of the following commands.
 {% highlight sh %}
 ionstart -I host1.rc
-ionstart -i host1.ionrc -l host1.ltprc -b host1.bprc -p host1.ipnrc -s host1.ionsecrc
+ionstart -i host1.ionrc -s host1.ionsecrc -l host1.ltprc -b host1.bprc -p host1.ipnrc
 {% endhighlight %}
 
 ION can be stopped with the following command.

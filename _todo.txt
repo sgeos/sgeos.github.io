@@ -5,6 +5,36 @@ Go as a Service on FreeBSD
 Swift on FreeBSD
 Syslog on FreeBSD with Elixir
 
+Client Request Priority
+α ⇄ βγ0 → βγN
+　　　　↖︎ γβ
+
+Client Response Priority
+α ⇄ γβM → βγ
+　　　　↖︎ γβ0
+
+Server Request Priority
+βγ0 → βγN ⇄ δ
+γβ  ↙︎
+
+Server Response Priority
+βγ  → γβ0 ⇄ δ
+γβM ↙︎
+
+α ⇄ γβM → βγ0 → βγN → δ
+　　　 ↖︎ ← ← γβ0 ← ← ↙︎
+
+α ⇄ βγ0 → → βγN → → δ
+　　　 ↖︎ γβM ← γβ0 ↙︎
+
+UDP
+α → βγ0 → βγN ↘︎
+ ↖︎ γβM ← γβ0 ← δ
+
+Standard Model
+α ⇄ β ⇄ γ ⇄ δ
+
+
 Working with Logs
 tail -f /var/log/messages
 tail -f /var/log/security

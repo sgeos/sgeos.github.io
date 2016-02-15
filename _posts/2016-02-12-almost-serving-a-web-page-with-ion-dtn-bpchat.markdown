@@ -6,7 +6,7 @@ categories: freebsd ion dtn
 ---
 The goal is to serve a web page using an architecture like this.
 {% highlight txt %}
-client ⇄(tcp/ip)⇄ reverse proxy ⇄(ltp/bp)⇄ proxy ⇄(tcp/ip)⇄ server
+client ⇄(tcp/ip)⇄ reverse proxy ⇄(bp/ltp)⇄ proxy ⇄(tcp/ip)⇄ server
 {% endhighlight %}
 
 In this post, a symbolic notation will be used to describe network connections at a single point in time.
@@ -124,7 +124,7 @@ s
 Make sure to (re)start ion.
 
 {% highlight sh %}
-ionscript -i host1.ionrc -p host1.ipnrc -l host1.ltprc -b host1.bprc -O host1.rc -s host1.ionsecrc
+ionscript -i host1.ionrc -s host1.ionsecrc -l host1.ltprc -b host1.bprc -p host1.ipnrc -O host1.rc
 ionstop
 ionstart -I host1.rc
 {% endhighlight %}
