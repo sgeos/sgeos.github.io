@@ -98,6 +98,11 @@ Note the comment count at the top of this post.
 {% raw %}<a href="https://sgeos.github.io{{ post.url }}#disqus_thread">0 Comments</a>{% endraw %}
 {% endhighlight %}
 
+Note that moving a post from **_drafts/** to **_posts/** may change the URL of the post.
+This will cause any comments added to the draft to disappear.
+The [Disqus Migration Tools][disqus-migrate] can be used move comments to the new URL.
+
+
 ## References:
 - [Jekyll][jekyll]
 - [Jekyll, Variables][jekyll-variables]
@@ -112,6 +117,7 @@ Note the comment count at the top of this post.
 - [Disqus, Universal Embed Code][disqus-embed]
 - [Disqus, Jekyll Installation Instructions][disqus-jekyll-install]
 - [Disqus, Use Configuration Variables to Avoid Split Threads and "Missing" Comments][disqus-install-config]
+- [Disqus, Migration Tools][disqus-migrate]
 - [Disqus, Adding Disqus to your Jekyll][disqus-install-random]
 - [Disqus, Jekyll Notes][disqus-jekyll-notes]
 - [Disqus, Preserve Disqus Comments with Jekyll][disqus-preserve]
@@ -130,6 +136,7 @@ Note the comment count at the top of this post.
 [disqus-embed]: https://disqus.com/admin/universalcode/
 [disqus-jekyll-install]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
 [disqus-install-config]: https://help.disqus.com/customer/en/portal/articles/2158629
+[disqus-migrate]: https://help.disqus.com/customer/portal/articles/286778-migration-tools
 [disqus-install-random]: http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
 [disqus-jekyll-notes]: http://blog.pzheng.me/2014/07/03/Jekyll-Notes/
 [disqus-preserve]: http://haacked.com/archive/2013/12/09/preserving-disqus-comments-with-jekyll/
