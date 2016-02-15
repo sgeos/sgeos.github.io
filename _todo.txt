@@ -54,11 +54,6 @@ http://themakeinfo.com/2015/05/building-android-root-app/
 
 Android wpa_supplicant.conf
 
-Disqus on Jekyll
-https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
-http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
-http://blog.pzheng.me/2014/07/03/Jekyll-Notes/
-
 Let's Encrypt
 https://letsencrypt.org
 
