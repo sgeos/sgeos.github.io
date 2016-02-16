@@ -24,6 +24,8 @@ service iondtn killm
 The **iondtn** service will also be configured to start when the machine boots.
 This functionality can be disabled.
 
+This post is follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][freebsd-ion].
+
 ## Software Versions
 
 {% highlight sh %}

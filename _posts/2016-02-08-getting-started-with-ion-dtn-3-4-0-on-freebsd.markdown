@@ -16,6 +16,11 @@ That example deserves a separate post.
 
 Special thanks to Scott C Burleigh for helping me work through some setup problems.
 
+The following are follow ups to this post:
+
+- [Almost Serving a Web Page with ION-DTN bpchat](https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html)
+- [ION DTN as a Service on FreeBSD](https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html)
+
 ## Software Versions
 {% highlight sh %}
 $ date

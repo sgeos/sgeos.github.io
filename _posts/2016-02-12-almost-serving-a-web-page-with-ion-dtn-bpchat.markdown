@@ -5,6 +5,8 @@ title:  "Almost Serving a Web Page with ION-DTN bpchat"
 date:   2016-02-12 09:41:21 +0900
 categories: freebsd ion dtn
 ---
+This post is a follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started].
+
 The goal is to serve a web page using an architecture like this.
 {% highlight txt %}
 client ⇄(tcp/ip)⇄ reverse proxy ⇄(bp/ltp/udp/ip)⇄ proxy ⇄(tcp/ip)⇄ server
