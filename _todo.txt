@@ -1,5 +1,4 @@
 Phoenix as a Service on FreeBSD
-DTN-ION as a Service on FreeBSD
 Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "ION DTN as a Service on FreeBSD"
-date:   2016-02-15 10:13:57 +0900
+date:   2016-02-16 06:36:10 +0900
 categories: freebsd ion dtn
 ---
 This post covers installing ION DTN as a service on FreeBSD.
@@ -21,11 +21,14 @@ A **killm** command will also be added to force stop ion if a stop or restart ha
 service iondtn killm
 {% endhighlight %}
 
+The **iondtn** service will also be configured to start when the machine boots.
+This functionality can be disabled.
+
 ## Software Versions
 
 {% highlight sh %}
 $ date
-February 15, 2016 at 10:13:57 PM JST
+February 16, 2016 at 06:36:10 AM JST
 $ uname -vm
 FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ ionadmin
@@ -66,16 +69,16 @@ ldconfig
 {% endhighlight %}
 
 Add the rc script to **/usr/local/etc/rc.d/iondtn** as root.
-The **install_dir** can be modified to accommodate different installation directories.
-The script has the following knobs.
+The **install_dir** in the script can be modified to accommodate different installation directories.
+The script can be configured in **/etc/rc.conf** with the following options.
 
 - **iondtn_enable** : enable the service and start it when the machine boots
 - **iondtn_user** : user to run the servie as
 - **iondtn_config** : location of the configuration file
 - **iondtn_log_dir** : directory **ion.log** is placed in
 
-The status command checks to see if the **rfxclock** daemon subcomponent of **iondtn** is running.
-The rest of the script is straight forward.
+The status command checks to see if the **rfxclock** daemon subcomponent of ion is running.
+The rest of the script should be straight forward.
 
 **/usr/local/etc/rc.d/iondtn**
 {% highlight sh %}
@@ -217,7 +220,10 @@ chmod 666 /tmp/ion.sdrlog
 
 Enable the **iondtn** service in **/etc/rc.conf**.
 Only the iondtn_enable line is required.
-The other lines list optional configuration and the default values.
+Removing this line or changing the value to "NO" will disable
+**iondtn** and it will not start when the machine boots.
+The other lines list optional configuration variables and the default values.
+These lines can be omitted.
 
 {% highlight sh %}
 iondtn_enable="YES"
@@ -239,6 +245,9 @@ service iondtn stop
 service iondtn killm
 service iondtn status
 {% endhighlight %}
+
+Note that due to the **su** commands in the rc script, the service can only be started or stopped by root.
+Any user can use find out if **iondtn** is running with `service iondtn status`.
 
 ## References:
 - [FreeBSD, Giving more flexibility to an rc.d script][freebsd-rc]
