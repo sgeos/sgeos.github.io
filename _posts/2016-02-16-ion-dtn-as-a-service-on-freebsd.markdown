@@ -220,6 +220,14 @@ chown $SERVICE:$SERVICE /tmp/ion.sdrlog
 chmod 666 /tmp/ion.sdrlog
 {% endhighlight %}
 
+If multiple users will be using ion, those users need to be able to write to **ion.log**.
+
+{% highlight sh %}
+touch /usr/local/iondtn/ion.log
+chown $SERVICE:$SERVICE /usr/local/iondtn/ion.log
+chmod 666 /usr/local/iondtn/ion.log
+{% endhighlight %}
+
 Enable the **iondtn** service in **/etc/rc.conf**.
 Only the iondtn_enable line is required.
 Removing this line or changing the value to "NO" will disable
