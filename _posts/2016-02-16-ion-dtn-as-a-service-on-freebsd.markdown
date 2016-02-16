@@ -79,7 +79,7 @@ The script can be configured in **/etc/rc.conf** with the following options.
 - **iondtn_config** : location of the configuration file
 - **iondtn_log_dir** : directory **ion.log** is placed in
 
-The status command checks to see if the **rfxclock** daemon subcomponent of ion is running.
+The status command polls the various ion subcomponents.
 The rest of the script should be straight forward.
 
 **/usr/local/etc/rc.d/iondtn**
@@ -110,28 +110,27 @@ load_rc_config $name
 
 iondtn_start()
 {
-  su -m "$iondtn_user" -c "cd ${iondtn_log_dir} && ionstart -I '${iondtn_config}'"
+  su -m "${iondtn_user}" -c "cd ${iondtn_log_dir} && ionstart -I '${iondtn_config}'"
 }
 
 iondtn_stop()
 {
-  su -m "$iondtn_user" -c "ionstop"
+  su -m "${iondtn_user}" -c "ionstop"
 }
 
 iondtn_status()
 {
-  daemon=rfxclock
-  if ps -ax | grep "$daemon" | grep -qsv "grep"
-  then
-    echo "$name is running."
-  else
-    echo "$name is not running."
-  fi
+  timeout=1
+  echo "t p ${timeout}" | ${install_dir}/bin/ionadmin | sed -n "s/: //; /started/p"
+  echo "t p ${timeout}" | ${install_dir}/bin/bpadmin | sed -n "s/: //; /started/p"
+  echo "t p ${timeout}" | ${install_dir}/bin/ltpadmin | sed -n "s/: //; /started/p"
+  echo "t p ${timeout}" | ${install_dir}/bin/dtpcadmin | sed -n "s/: //; /started/p"
+  echo "t p ${timeout}" | ${install_dir}/bin/cfdpadmin | sed -n "s/: //; /started/p"
 }
 
 iondtn_killm()
 {
-  su -m "$iondtn_user" -c "killm"
+  su -m "${iondtn_user}" -c "killm"
 }
 
 load_rc_config $name
@@ -276,6 +275,8 @@ Any user can use find out if **iondtn** is running with `service iondtn status`.
 - [UNIX, What does aux mean in ps aux?][unix-ps]
 - [UNIX, How to terminate process by name in UNIX][unix-name-kill]
 - [UNIX, grep without string][unix-grep-without]
+- [UNIX, How to skip lines matching a string][unix-sed-skip]
+- [UNIX, Linux / Unix sed: Delete Word From File / Input][unix-sed-delete]
 - [UNIX, Bourne Shell Reference][unix-sh]
 
 [freebsd-rc]: https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html
@@ -288,5 +289,7 @@ Any user can use find out if **iondtn** is running with `service iondtn status`.
 [unix-ps]: http://unix.stackexchange.com/questions/106847/what-does-aux-mean-in-ps-aux
 [unix-name-kill]: http://notetodogself.blogspot.com/2006/07/how-to-terminate-process-by-name-in.html
 [unix-grep-without]: http://stackoverflow.com/questions/13260031/grep-without-string
+[unix-sed-skip]: http://stackoverflow.com/questions/6684857/how-to-skip-lines-matching-a-string
+[unix-sed-delete]: http://www.cyberciti.biz/faq/howto-delete-word-using-sed-under-unix-linux-bsd-appleosx/
 [unix-sh]: http://cis.stvincent.edu/html/tutorials/unix/bshellref
 
