@@ -228,6 +228,12 @@ chown $SERVICE:$SERVICE /usr/local/iondtn/ion.log
 chmod 666 /usr/local/iondtn/ion.log
 {% endhighlight %}
 
+The following command can be used to clear the log without changing the owner or permissions.
+
+{% highlight sh %}
+echo -n "" >/usr/local/iondtn/ion.log
+{% endhighlight %}
+
 Enable the **iondtn** service in **/etc/rc.conf**.
 Only the iondtn_enable line is required.
 Removing this line or changing the value to "NO" will disable
