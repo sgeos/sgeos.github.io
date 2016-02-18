@@ -244,7 +244,7 @@ These lines can be omitted.
 iondtn_enable="YES"
 iondtn_user="iondtn"
 iondtn_config="/usr/local/etc/iondtn.rc"
-iondtn_log_dir="/usr/local/iondtn"
+iondtn_log_dir="/usr/local/iondtn/"
 {% endhighlight %}
 
 Due to the way memory is shared, running ION-DTN and ION applications as different users may not work reliably.
@@ -256,7 +256,7 @@ For example, an **/etc/rc.conf** snippet that runs the **iondtn** service as the
 iondtn_enable="YES"
 iondtn_user="bsechter"
 iondtn_config="/usr/local/etc/iondtn.rc"
-iondtn_log_dir="/usr/home/bsechter/ion/"
+iondtn_log_dir="/usr/home/bsechter/iondtn/"
 {% endhighlight %}
 
 The **iondtn** service can now be started from any directory
