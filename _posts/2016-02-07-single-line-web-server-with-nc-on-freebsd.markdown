@@ -10,6 +10,8 @@ I figured it might be useful to have a couple of variations of simple web server
 This post covers single line and single file web servers with **nc** on FreeBSD.
 Content served from a static file or a script is presented.
 
+**UPDATE:** A follow up post exists.  [A Better Scripted Netcat Server](https://sgeos.github.io/freebsd/nc/2016/02/17/a-better-scripted-netcat-server.html)
+
 ## Software Versions
 {% highlight sh %}
 $ date
