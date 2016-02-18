@@ -18,8 +18,9 @@ Special thanks to Scott C Burleigh for helping me work through some setup proble
 
 The following are follow ups to this post:
 
-- [Almost Serving a Web Page with ION-DTN bpchat](https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html)
 - [ION DTN as a Service on FreeBSD](https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html)
+- [Almost Serving a Web Page with ION-DTN bpchat](https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html)
+- [Serving a Web Page with ION-DTN bpsendfile and bprecvfile](https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html)
 
 ## Software Versions
 {% highlight sh %}
