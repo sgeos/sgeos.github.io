@@ -212,7 +212,7 @@ The upshot is that βγβ needs to be an open connection over **bp**.
 αδ: request path
 δα: response path
 αδα: HTTP
-βγβ: ltp/bp
+βγβ: bp/ltp
 {% endhighlight %}
 
 A fifo can not be used to hold an open connection with **bpsendfile** and **bprecvfile**.
@@ -247,11 +247,11 @@ The goal is to build this forward proxy.
 β: reverse proxy
 γ: forward proxy
 δ: web server
-βγβ: bpchat ltp/bp
+βγβ: bpchat bp/ltp
 γδγ: nc tcp/ip
 {% endhighlight %}
 
-The serverside proxy communicates over ltp/bp with **bpchat** and connects to the webserver with **nc**.
+The serverside proxy communicates over bp/ltp with **bpchat** and connects to the webserver with **nc**.
 The proxy closes **bp** when eight EOT characters are found at the end of a line.
 This was chosen because I am fairly certain it is a unicode safe solution.
 
@@ -332,7 +332,7 @@ The reverse proxy is the last piece of the puzzle.
 γ: forward proxy
 δ: web server
 αβα: nc tcp/ip
-βγβ: bpchat ltp/bp
+βγβ: bpchat bp/ltp
 γδγ: nc tcp/ip
 {% endhighlight %}
 
