@@ -378,7 +378,7 @@ chmod +x forward_proxy.sh
 
 # β terminal
 (TITLE="β"; printf "\033]0;${TITLE}\007")
-# test with single request, proxy with reverse_proxy
+# test with single_request.sh, proxy with reverse_proxy.sh
 chmod +x single_request.sh
 ./single_request.sh
 chmod +x reverse_proxy.sh
