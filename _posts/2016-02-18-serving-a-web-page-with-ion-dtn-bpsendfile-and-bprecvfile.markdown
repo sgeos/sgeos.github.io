@@ -14,7 +14,7 @@ The scripts are an imperfect proof of concept.
 The proxies were only designed with GET requests in mind.
 Other HTTP verbs may work, but POST and PUT will almost certainly fail.
 
-The proxy scripts have a mechanism to simulate delay.
+The proxy scripts have a mechanism to simulate transmission delay.
 
 ## Software Versions
 {% highlight sh %}
