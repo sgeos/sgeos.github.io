@@ -37,6 +37,7 @@ A well behaved scripted JSON/HTTP date server is below.
 - Terminal output is printed and the request is sent only after a blank request line is received.
   The date is calculated only after receiving the request.
 
+**date_server.sh**
 {% highlight sh %}
 #/bin/sh
 
@@ -104,6 +105,7 @@ There are only a few changes.
 - The script gets the full path of the variable before moving into the temporary directory.
 - The body variable reads from a file instead of creating dynamic content.
 
+**file_server.sh**
 {% highlight sh %}
 #/bin/sh
 
@@ -161,8 +163,9 @@ do
 done
 {% endhighlight %}
 
-The following **index.html** file can be used for testing the file server.
+The following file can be used for testing the file server.
 
+**index.html**
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
@@ -174,6 +177,12 @@ The following **index.html** file can be used for testing the file server.
     <p>Hello World!</p>
   </body>
 </html>
+{% endhighlight %}
+
+The following command can be used to test either server from the command line.
+
+{% highlight sh %}
+curl -v 127.0.0.1:4000
 {% endhighlight %}
 
 ## References:
