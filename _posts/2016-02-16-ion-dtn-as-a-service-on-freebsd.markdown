@@ -247,6 +247,18 @@ iondtn_config="/usr/local/etc/iondtn.rc"
 iondtn_log_dir="/usr/local/iondtn"
 {% endhighlight %}
 
+Due to the way memory is shared, running ION-DTN and ION applications as different users may not work reliably.
+The solution is to run everything as the **iondtn** user,
+or configure the service to rus as the same user that runs the applications.
+For example, an **/etc/rc.conf** snippet that runs the **iondtn** service as the bsechter user looks like this.
+
+{% highlight sh %}
+iondtn_enable="YES"
+iondtn_user="bsechter"
+iondtn_config="/usr/local/etc/iondtn.rc"
+iondtn_log_dir="/usr/home/bsechter/ion/"
+{% endhighlight %}
+
 The **iondtn** service can now be started from any directory
 and **ion.log** will be in a known location.
 
