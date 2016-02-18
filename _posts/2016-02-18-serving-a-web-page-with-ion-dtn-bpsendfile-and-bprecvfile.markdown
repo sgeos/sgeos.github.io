@@ -45,9 +45,9 @@ See the [previous post][ion-almost] for a description of the symbolic notation u
 γδγ: proxy ⇄ server (nc tcp/ip)
 {% endhighlight %}
 
-# Simulated Delay
+# Simulated Transmission Delay
 
-Both proxies rely on the same script to simulate delay.
+Both proxies rely on the same script to simulate transmission delay.
 This script encapsulates delay functionality and defines delay time in one place.
 The delay time is one way trip time in seconds.
 Set delay to 0 to disable simulated delay.
