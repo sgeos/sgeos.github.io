@@ -18,6 +18,27 @@ FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj
 
 ## Instructions
 
+**EDIT:**
+
+Just use [**pgrep**][freebsd-man-pgrep].
+The following example uses **pgrep** in a script.
+
+**is_running.sh**
+{% highlight sh %}
+#!/bin/sh
+
+PROCESS_NAME=$1
+USER=$(whoami)
+if pgrep -q -U "${USER}" -x "${PROCESS_NAME}"
+then
+  echo "${PROCESS_NAME} is running as user '${USER}'."
+else
+  echo "${PROCESS_NAME} is not running as user '${USER}'."
+fi
+{% endhighlight %}
+
+**/EDIT**
+
 The easy way is to install the **sysutils/psmisc** port and use the **pidof** command.
 
 {% highlight sh %}
@@ -54,11 +75,13 @@ fi
 {% endhighlight %}
 
 ## References:
+- [FreeBSD, man pgrep][freebsd-man-pgrep]
 - [FreeBSD, man pidof][freebsd-man-pidof]
 - [FreeBSD, Fresh Ports sysutils/psmisc][freebsd-psmisc]
 - [UNIX, How to terminate process by name in UNIX][unix-terminate]
 - [sgeos.github.io Post History][blog-history]
 
+[freebsd-man-pgrep]: https://www.freebsd.org/cgi/man.cgi?query=pgrep&sektion=1
 [freebsd-man-pidof]: https://www.freebsd.org/cgi/man.cgi?query=pidof&manpath=SuSE+Linux/i386+11.3
 [freebsd-psmisc]: https://www.freshports.org/sysutils/psmisc
 [unix-terminate]: http://notetodogself.blogspot.com/2006/07/how-to-terminate-process-by-name-in.html
