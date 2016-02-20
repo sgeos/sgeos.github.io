@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Template"
-date:   2016-01-01 01:02:03 +0900
+date:   2016-01-01 01:02:03 +0000
 categories: template
 ---
 Problem description here.
@@ -10,7 +10,7 @@ Problem description here.
 ## Software Versions
 
 {% highlight sh %}
-$ date
+$ date -u "+%Y-%m-%d %H:%M:%S +0000"
 $ uname -vm
 {% endhighlight %}
 
