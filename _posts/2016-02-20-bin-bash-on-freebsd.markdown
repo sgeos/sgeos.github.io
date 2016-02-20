@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "#!/bin/bash on FreeBSD"
 date:   2016-02-20 17:04:07 +0000
-categories: freebsd
+categories: freebsd bash
 ---
 A great number of people write **bash** scripts for Linux.
 Most of these scripts start with `#!/bin/bash`.
