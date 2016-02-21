@@ -2,8 +2,8 @@
 layout: post
 comments: true
 title:  "Getting Started with Kotlin on Android with IntelliJ IDEA EAP 16"
-date:   2016-02-21 01:28:56 +0000
-categories: android kotlin
+date:   2016-02-21 10:46:17 +0000
+categories: android kotlin intellij
 ---
 I recently spoke with some people in Tokyo who are
 using [Kotlin][kotlin] in a production Android app.
@@ -30,13 +30,13 @@ Multidex and ProGuard can be used to get around the dex file limit of 65,536 met
 Having said that, it is generally the libraries that push Android apps over the dex limit.
 
 The Kotlin website has a [good guide][kotlin-android] on getting started with Kotlin on Android.
-Writing this post is just an excuse for me to give it a shot with IntelliJ EAP instead of Android Studio.
+Writing this post is largely an excuse for me to give it a shot with IntelliJ EAP instead of Android Studio.
 
 ## Software Versions
 
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2016-02-21 01:28:56 +0000
+2016-02-21 10:46:17 +0000
 $ uname -vm
 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
 $ java -version
@@ -187,7 +187,7 @@ Uses the name in the user's profile, if available.
 {% highlight kotlin %}
 // onCreate
 val c = application.contentResolver.query(ContactsContract.Profile.CONTENT_URI, null, null, null, null)
-val username = when(c.count) {
+val username = when (c.count) {
     0 -> "User"
     else -> {
         c.moveToFirst()
@@ -218,6 +218,12 @@ android:id="@+id/message"
 - [Android, Building Apps with Over 65K Methods][android-dex-limit]
 - [Android, check android developer tools version command line][android-version]
 - [Android, JetBrains/kotlin-examples/android-mixed-java-kotlin-project/app/build.gradle][android-example]
+- [Android, How to use getResource.getIdentifier() to get Layout?][android-get-id]
+- [Android, Get Owner Name of an Android Device][android-owner]
+- [Android, Trying to write and update contacts][android-update-contacts]
+- [Android, ContactsContract.Profile][android-contacts-profile]
+- [Android, Content Provider Permissions][android-content-permissions]
+- [Android, App Manifest][android-manifest]
 - [IntelliJ IDEA 16 EAP][idea-eap-16]
 - [IntelliJ IDEA, Working with IntelliJ IDEA Features from Command Line][idea-eap-command]
 - [IntelliJ IDEA, Can't find “Sync Project with Gradle Files” button in IntelliJ IDEA][idea-sync]
@@ -232,6 +238,12 @@ android:id="@+id/message"
 [android-dex-limit]: http://developer.android.com/tools/building/multidex.html
 [android-version]: http://stackoverflow.com/questions/24447687/check-android-developer-tools-version-command-line
 [android-example]: https://github.com/JetBrains/kotlin-examples/blob/master/gradle/android-mixed-java-kotlin-project/app/build.gradle
+[android-get-id]: http://stackoverflow.com/questions/17203454/how-to-use-getresource-getidentifier-to-get-layout
+[android-owner]: http://stackoverflow.com/questions/20360506/get-owner-name-of-an-android-device
+[android-update-contacts]: http://stackoverflow.com/questions/17247851/trying-to-write-and-update-contacts
+[android-contacts-profile]: http://developer.android.com/reference/android/provider/ContactsContract.Profile.html
+[android-content-permissions]: http://developer.android.com/guide/topics/providers/content-provider-basics.html#Permissions
+[android-manifest]: http://developer.android.com/guide/topics/manifest/manifest-intro.html
 [idea-eap-16]: https://confluence.jetbrains.com/display/IDEADEV/IDEA+16+EAP
 [idea-eap-command]: https://www.jetbrains.com/idea/help/working-with-intellij-idea-features-from-command-line.html
 [idea-sync]: http://stackoverflow.com/questions/20815998/cant-find-sync-project-with-gradle-files-button-in-intellij-idea
