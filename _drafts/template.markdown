@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "Template"
-date:   2016-01-01 01:02:03 +0000
-categories: template
+title:  "Template, Add Category Before You Forget"
+date:   2016-01-01 00:00:00 +0000
+categories: 
 ---
 Problem description here.
 
@@ -22,12 +22,8 @@ Instructions for solution here.
 echo "Code here."
 {% endhighlight %}
 
-## Todo
-
-- todo here
-
 ## References:
-- [Reference Here][reference]
+- [ref][ref]
 
-[reference]: https://sgeos.github.io
+[ref]: https://sgeos.github.io
 
