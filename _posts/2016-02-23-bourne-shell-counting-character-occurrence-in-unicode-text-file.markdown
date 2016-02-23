@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Bourne Shell: Counting Character Occurrence in a Unicode Text File"
 date:   2016-02-23 10:40:41 +0000
-categories: template
+categories: sh
 ---
 Sometimes it can be useful to get the character occurrence count of a text file.
 This post covers a unicode safe Bourne shell solution.
