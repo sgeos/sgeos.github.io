@@ -1,3 +1,7 @@
+dnsmasq
+[man-dnsmasq]: https://www.freebsd.org/cgi/man.cgi?query=dnsmasq&apropos=0&sektion=0&manpath=FreeBSD+8.2-RELEASE+and+Ports&arch=default&format=html
+[howto-dnsmasq]: https://www.iceflatline.com/2010/02/how-to-install-and-configure-dnsmasq/
+
 RetroFix on Android with Kotlin
 RxJava on Android with Kotlin
 GSON on Android with Kotlin
@@ -17,6 +21,7 @@ Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD
 Syslog on FreeBSD with Elixir
+https://www.freebsd.org/doc/handbook/configtuning-syslog.html
 
 Client Request Priority
 α ⇄ βγ0 → βγN
@@ -66,6 +71,8 @@ Android Root App
 http://themakeinfo.com/2015/05/building-android-root-app/
 
 Android wpa_supplicant.conf
+- [Android, StackOverflow, Connecting to wi-fi using adb shell][android-wpa]
+[android-wpa]: http://stackoverflow.com/questions/8708886/connecting-to-wi-fi-using-adb-shell
 
 Let's Encrypt
 https://letsencrypt.org
