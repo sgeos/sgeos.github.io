@@ -1,6 +1,13 @@
+RetroFix on Android with Kotlin
+RxJava on Android with Kotlin
+GSON on Android with Kotlin
+
 Parsing Options in C with getopt
 http://www.gnu.org/software/libc/manual/html_node/Getopt-Long-Option-Example.html#Getopt-Long-Option-Example
 http://stackoverflow.com/questions/9642732/parsing-command-line-arguments
+
+New Android Project Layout Rendering Problems on IntelliJ
+java.lang.IllegalArgumentException: You need to use a Theme.AppCompat theme (or descendant) with the design library.
 
 Asset Management
 https://en.wikipedia.org/wiki/Asset_management
