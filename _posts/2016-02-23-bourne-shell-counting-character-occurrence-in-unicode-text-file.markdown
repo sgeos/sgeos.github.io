@@ -26,7 +26,7 @@ The characters to count are defined in the **CHARSET** variable at the top of th
 For each character, the script scans the file and prints the result.
 Characters are counted for each filename passed to the script.
 Usage is printed if no file names are passed.
-Whitespace is stripped in multiple places.
+Whitespace will not make it into the for loop.
 
 **character_count.sh**
 {% highlight sh %}
@@ -34,21 +34,20 @@ Whitespace is stripped in multiple places.
 
 CHARSET='abcmwxyz~!&#jkdefghst@=+{}[]あいうえお、一二三四五。'
 
+echo "CHARSET=${CHARSET}"
+CHARSET=$(echo -n $CHARSET | sed "s/./& /g")
+
 if [ "${#}" -lt 1 ]
 then
   echo "Usage:"
   echo "  ${0} FILE [FILE...]"
 fi
 
-echo "CHARSET : ${CHARSET}"
 for FILENAME in "${@}"
 do
   echo "---${FILENAME}---"
-  echo -n "${CHARSET}" |
-  tr -d '[[:space:]]' |
-  sed -e "s:\(.\):\1\\$(echo -e '\n\r'):g" |
-  while read CHAR; do
-    CHAR=$(echo "${CHAR}" | tr -d '[[:space:]]')
+  for CHAR in $CHARSET
+  do
     COUNT=$(fgrep -o "${CHAR}" "${FILENAME}" | wc -l | tr -d '[[:space:]]')
     echo "${CHAR} : ${COUNT}"
   done
