@@ -92,7 +92,7 @@ then
 fi
 set -- $args
 
-unset CASE_INSENSITIVE
+unset CASE_INSENSITIVE BAD_FILENAME
 while :; do
   case "$1" in
   -h)
@@ -111,6 +111,16 @@ while :; do
     ;;
   esac
 done
+
+for FILENAME
+do
+  if [ ! -r "${FILENAME}" ]
+  then
+    echo "The file '${FILENAME}' does not exist or is not readable."
+    BAD_FILENAME=true
+  fi
+done
+[ $BAD_FILENAME ] && exit 1
 
 echo "CHARSET=${CHARSET}"
 CHARSET=$(echo -n $CHARSET | sed "s/./& /g")
