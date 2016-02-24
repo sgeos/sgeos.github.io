@@ -66,11 +66,15 @@ chmod +x character_count.sh
 - [UNIX, Count occurrences of a char in plain text file][unix-count2]
 - [UNIX, How to perform a for loop on each character in a string in BASH?][unix-charloop]
 - [UNIX, Replace comma with newline in sed][unix-replace]
-- [UNIX, Bourne Shell Scripting/Control flow][unix-sh]
+- [UNIX, How do I insert a space every four characters in a long line?][unix-space]
+- [UNIX, Sh - the Bourne Shell][unix-sh]
+- [UNIX, Bourne Shell Scripting/Control flow][unix-sh-flow]
 
 [unix-count]: http://www.unix.com/hp-ux/19176-count-occurences-specific-character-file.html
 [unix-count2]: http://stackoverflow.com/questions/1603566/count-occurrences-of-a-char-in-plain-text-file
 [unix-charloop]: http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash
 [unix-replace]: http://stackoverflow.com/questions/10748453/replace-comma-with-newline-in-sed
-[unix-sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Control_flow
+[unix-space]: http://unix.stackexchange.com/questions/5980/how-do-i-insert-a-space-every-four-characters-in-a-long-line
+[unix-sh]: http://www.grymoire.com/Unix/Sh.html
+[unix-sh-flow]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Control_flow
 
