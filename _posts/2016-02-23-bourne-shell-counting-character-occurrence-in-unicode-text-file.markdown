@@ -112,6 +112,11 @@ while :; do
   esac
 done
 
+if [ "${#}" -lt 1 ]
+then
+  usage 2
+fi
+
 for FILENAME
 do
   if [ ! -r "${FILENAME}" ]
@@ -127,11 +132,6 @@ CHARSET=$(echo -n $CHARSET | sed "s/./& /g")
 
 GREP_FLAGS="-o"
 [ $CASE_INSENSITIVE ] && GREP_FLAGS="-i ${GREP_FLAGS}"
-
-if [ "${#}" -lt 1 ]
-then
-  usage 2
-fi
 
 for FILENAME
 do
