@@ -43,7 +43,7 @@ then
   echo "  ${0} FILE [FILE...]"
 fi
 
-for FILENAME in "${@}"
+for FILENAME
 do
   echo "---${FILENAME}---"
   for CHAR in $CHARSET
