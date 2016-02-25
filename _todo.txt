@@ -20,6 +20,12 @@ Phoenix as a Service on FreeBSD
 Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD
+
+Syslog in C
+http://www.gnu.org/software/libc/manual/html_node/Syslog-Example.html
+https://www.freebsd.org/cgi/man.cgi?query=syslog&sektion=3
+https://www.freebsd.org/cgi/man.cgi?query=logger&sektion=1&apropos=0&manpath=FreeBSD+10.2-RELEASE
+
 Syslog on FreeBSD with Elixir
 https://www.freebsd.org/doc/handbook/configtuning-syslog.html
 
