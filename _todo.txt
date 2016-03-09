@@ -6,6 +6,9 @@ RetroFix on Android with Kotlin
 RxJava on Android with Kotlin
 GSON on Android with Kotlin
 
+FTP Named Pipe
+http://www.tek-tips.com/viewthread.cfm?qid=840768
+
 Parsing Options in C with getopt
 http://www.gnu.org/software/libc/manual/html_node/Getopt-Long-Option-Example.html#Getopt-Long-Option-Example
 http://stackoverflow.com/questions/9642732/parsing-command-line-arguments
