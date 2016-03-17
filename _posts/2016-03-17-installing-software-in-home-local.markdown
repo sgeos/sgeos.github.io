@@ -82,6 +82,9 @@ man keychain
 keychain
 {% endhighlight %}
 
+Finally, consider letting your sysadmin know what you installed.
+A system wide install may make sense.
+
 ## References:
 - [Keychain Official Project Page][keychain]
 - [Keychain Github Repository][keychain-github]
