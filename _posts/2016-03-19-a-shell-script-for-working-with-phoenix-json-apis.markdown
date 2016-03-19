@@ -95,6 +95,27 @@ Start the server.
 mix phoenix.server
 {% endhighlight %}
 
+The following **curl** commands can be used to interact with the JSON API.
+
+{% highlight sh %}
+# POST new
+curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "New Title", "body": "This is the new memo body."}}' http://localhost:4000/api/memos
+# PATCH id 1
+curl -H 'Content-Type: application/json' -X PATCH -d '{"memo": {"title": "Patched Title"}}' http://localhost:4000/api/memos/1
+curl -H 'Content-Type: application/json' -X PATCH -d '{"memo": {"body": "Patched memo body."}}' http://localhost:4000/api/memos/1
+# PUT id 1
+curl -H 'Content-Type: application/json' -X PUT -d '{"memo": {"title": "Updated Title", "body": "Updated memo body."}}' http://localhost:4000/api/memos/1
+# GET all
+curl -H 'Content-Type: application/json' http://localhost:4000/api/memos
+# GET id 1
+curl -H 'Content-Type: application/json' http://localhost:4000/api/memos/1
+# DELETE id 1
+curl -H 'Content-Type: application/json' -X DELETE http://localhost:4000/api/memos/1
+{% endhighlight %}
+
+A script is easier to use if you need to make more than a couple of **curl** calls.
+It can also be extended to support authentication and everything else your API may need.
+
 Create a script to GET, POST, PATCH, PUT and DELETE memos.
 Note that a Bourne Shell tutorial can be found [here][sh-tutorial].
 
