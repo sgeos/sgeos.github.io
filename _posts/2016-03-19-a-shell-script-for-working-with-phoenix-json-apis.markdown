@@ -9,7 +9,10 @@ I started writing another post, but wound up writing a non-trivial script for
 working with Phoenix JSON APIs.
 That script is covered in this post.
 It is written for the FreeBSD Bourne shell, but it should be compatible with **bash**.
+
 This post also serves as a **getopts** example.
+**getopts** was used instead of **getopt** because **getopt** does not support
+command line arguments that contain spaces.
 
 ## Software Versions
 
