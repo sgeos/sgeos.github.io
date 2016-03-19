@@ -180,7 +180,7 @@ case "${METHOD}" in
     ;;
 esac
 echo ""
-{% endhighlight %}*
+{% endhighlight %}
 
 The reset function resets the variables to their initial state.
 It is called before parsing command line arguments and displaying the usage.
