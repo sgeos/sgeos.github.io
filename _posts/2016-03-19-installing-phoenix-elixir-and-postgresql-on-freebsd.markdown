@@ -40,6 +40,7 @@ portmaster security/sudo
 {% endhighlight %}
 
 The following utilities may also be useful.
+Note that **ftp/curl** is used at the end of the post.
 
 {% highlight sh %}
 portmaster ports-mgmt/portupgrade devel/git shells/bash editors/vim ftp/curl ftp/wget
