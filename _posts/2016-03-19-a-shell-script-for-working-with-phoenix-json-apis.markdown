@@ -81,7 +81,13 @@ Run the migration.
 mix ecto.migrate
 {% endhighlight %}
 
-# Testing the Sample Project
+Tests should pass.
+
+{% highlight sh %}
+mix test
+{% endhighlight %}
+
+# Running the Sample Project
 
 Start the server.
 
