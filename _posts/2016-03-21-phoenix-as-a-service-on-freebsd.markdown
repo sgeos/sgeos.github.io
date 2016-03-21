@@ -231,7 +231,7 @@ RELX_REPLACE_OS_VARS=true PORT=7777 rel/phoenix_service/bin/phoenix_service cons
 Make sure the server responds.
 
 {% highlight sh %}
-curl 192.168.0.23:7777/api/memos
+curl http://localhost:7777/api/memos
 {% endhighlight %}
 
 Exit the console with ^C.
