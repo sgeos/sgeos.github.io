@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Creating a Hiddern Service with Phoenix and Elixir on FreeBSD"
+title:  "Creating a Hidden Service with Phoenix and Elixir on FreeBSD"
 date:   2016-03-22 18:36:54 +0000
 categories: tor freebsd nc curl
 ---
@@ -54,7 +54,8 @@ mix ecto.create
 {% endhighlight %}
 
 The sample project will be a simple memo JSON API service.
-A real service will need some sort of authentication, but that is not covered in this post.
+A real service will almost certainly need some sort of authentication,
+but that is not covered in this post.
 
 {% highlight sh %}
 mix phoenix.gen.json Memo memos title:string body:string
@@ -120,7 +121,7 @@ The interpreted solution below is suitable for development.
 **config/dev.exs** partial listing
 {% highlight elixir %}
   # http: [port: 4000], # old line 10
-  http: [port: System.get_env("PORT") || Application.get_env(:phoenix_service, :port) || 4000, ip: {127.0.0.1}],
+  http: [port: System.get_env("PORT") || Application.get_env(:phoenix_service, :port) || 4000, ip: {127,0,0,1}],
 {% endhighlight %}
 
 Tests should pass
@@ -236,10 +237,13 @@ RELX_REPLACE_OS_VARS=true PORT=7777 rel/phoenix_service/bin/phoenix_service cons
 Make sure the server responds.
 
 {% highlight sh %}
-curl 192.168.0.23:7777/api/memos
+curl http://localhost:7777/api/memos
 {% endhighlight %}
 
 Exit the console with ^C.
+
+Consider [configuring the Phoenix app as a service][freebsd-phoenix]
+to get it to start automatically when the machine boots.
 
 ## Serving a Hidden Service
 
@@ -253,13 +257,17 @@ RELX_REPLACE_OS_VARS=true PORT=8080 rel/phoenix_service/bin/phoenix_service star
 Read the [tor configuration instructions][tor-config].
 Open **/usr/local/etc/tor/torrc** (see [torrc instructions][tor-torrc]).
 Add the following lines to the section titled
-**This section is just for location-hidden services**
+"This section is just for location-hidden services".
+
+**/usr/local/etc/tor/torrc** partial listing
 {% highlight sh %}
 HiddenServiceDir /usr/home/tor/hidden_service/
 HiddenServicePort 80 127.0.0.1:8080
 {% endhighlight %}
 
 Enable **tor** in **/etc/rc.conf**
+
+**/etc/rc.conf** partial listing
 {% highlight sh %}
 tor_enable="YES"
 {% endhighlight %}
@@ -289,7 +297,8 @@ You can also test your hidden service with [Tor2web][tor-tor2web].
 For example, if your hidden service has a hostname of ABCDEFGHIJKLMNOP.onion,
 go to https://ABCDEFGHIJKLMNOP.onion.to to view it in a web browser.
 
-Use the following commands to test the sample project as a hidden service with Tor2web.
+The author of this post could not get Tor2web **curl** commands to work with a Phoenix app.
+Something like the following commands should theoretically work.
 Note that Tor2web blocks the curl user agent, so the user agent is set to test instead.
 
 {% highlight sh %}
@@ -309,20 +318,27 @@ Then disable it in **/etc/rc.conf**.
 tor_enable="NO"
 {% endhighlight %}
 
-## Sample Script for Working With Phoenix Hidden Service JSON APIs
+## A Sample Shell Script for Working With Hidden Phoenix JSON APIs
 
 This is a modified version of the script covered in
 [Phoenix, A Shell Script for Working with Phoenix JSON APIs][phoenix-json].
-See that post for a description of how to use the script.
+See that post for a description of the script.
 
+Support for flags has been added.
+The flags default to using the tor proxy.
+The default host has been changed to automatically
+pull in the hidden service hostname.
+
+**tor_memo_api.sh**
 {% highlight sh %}
 #!/bin/sh
 
 reset() {
-  HOST=http://localhost:4000
+  HOST=http://$(cat /usr/home/tor/hidden_service/hostname)
   SCOPE=api
   ROUTE=memos
   METHOD="GET"
+  FLAGS="-x socks5h://127.0.0.1:9050"
   HEADERS="Content-Type: application/json"
   ID=""
   TITLE=""
@@ -337,6 +353,7 @@ usage() {
   echo "  -s SCOPE : set URL scope, defaults to \"${SCOPE}\""
   echo "  -r ROUTE : set URL route, defaults to \"${ROUTE}\""
   echo "  -X METHOD : set HTTP method, defaults to \"${METHOD}\""
+  echo "  -f FLAGS : set flags passed to curl, defaults to \"${FLAGS}\""
   echo "  -H HEADERS : set HTTP headers, defaults to \"${HEADERS}\""
   echo "  -i ID : set memo id, defaults to \"${ID}\""
   echo "  -t TITLE : set memo title, defaults to \"${TITLE}\""
@@ -354,13 +371,14 @@ usage() {
 }
 
 reset
-while getopts "o:s:r:X:H:i:t:b:h" opt
+while getopts "o:s:r:X:f:H:i:t:b:h" opt
 do
   case "${opt}" in
     o) HOST="${OPTARG}" ;;
     s) SCOPE="${OPTARG}" ;;
     r) ROUTE="${OPTARG}" ;;
     X) METHOD="${OPTARG}" ;;
+    f) FLAGS="${OPTARG}" ;;
     H) HEADERS="${OPTARG}" ;;
     i) ID="${OPTARG}" ;;
     t) TITLE="${OPTARG}" ;;
@@ -373,15 +391,15 @@ shift $(expr ${OPTIND} - 1)
 
 case "${METHOD}" in
   GET)
-    curl -H "${HEADERS}" -X ${METHOD} "${HOST}/${SCOPE}/${ROUTE}${ID:+"/${ID}"}"
+    curl ${FLAGS} -H "${HEADERS}" -X ${METHOD} "${HOST}/${SCOPE}/${ROUTE}${ID:+"/${ID}"}"
     ;;
   POST)
     PAYLOAD='{"memo": {"title": "'"${TITLE:-(no title)}"'", "body": "'"${BODY:-(no body)}"'"}}'
-    curl -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}" 
+    curl ${FLAGS} -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}" 
     ;;
   PUT)
     PAYLOAD='{"memo": {"title": "'"${TITLE:-(no title)}"'", "body": "'"${BODY:-(no body)}"'"}}'
-    curl -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}" 
+    curl ${FLAGS} -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}" 
     ;;
   PATCH)
     # if defined replace individual fields with
@@ -392,16 +410,41 @@ case "${METHOD}" in
     PAYLOAD="$(echo "${TITLE}${BODY}" | sed 's/, $//g')"
     # complete JSON payload
     PAYLOAD="{\"memo\": {${PAYLOAD}}}"
-    curl -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}" 
+    curl ${FLAGS} -H "${HEADERS}" -X ${METHOD} -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}" 
     ;;
   DELETE)
-    curl -H "${HEADERS}" -X ${METHOD} "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}"
+    curl ${FLAGS} -H "${HEADERS}" -X ${METHOD} "${HOST}/${SCOPE}/${ROUTE}/${ID:?'No ID specified.'}"
     ;;
   *)
     usage 2
     ;;
 esac
 echo ""
+{% endhighlight %}
+
+As written, the above script can only be run as root or the tor
+user because **/usr/home/tor** does not have global read permissions.
+Changing the permissions is a bad idea.
+Instead, hard code the default host if you want to
+be able to use the script with unprivileged users.
+
+**tor_memo_api.sh** partial listing
+{% highlight sh %}
+HOST="http://abcdefghijklmnop.onion"
+{% endhighlight %}
+
+The script can be used as follows.
+
+{% highlight sh %}
+chmod +x tor_memo_api.sh
+./tor_memo_api.sh -X POST -t "Memo Title" -b "Memo body here."
+./tor_memo_api.sh -X GET -i 1
+./tor_memo_api.sh -X POST -t "Another Memo" -b "This memo's body."
+./tor_memo_api.sh -X PATCH -t "Patched title." -i 2
+./tor_memo_api.sh -X PATCH -b "Patched body." -i 1
+./tor_memo_api.sh -X PUT -t "New Title" -b "New body." -i 2
+./tor_memo_api.sh -X GET
+./tor_memo_api.sh -X DELETE -i 1
 {% endhighlight %}
 
 ## References:
