@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Phoenix as a Service on FreeBSD"
-date:   2016-03-20 12:16:19 +0000
+date:   2016-03-21 15:48:51 +0000
 categories: phoenix elixir erlang freebsd
 ---
 In this post a Phoenix app will be installed as a service on FreeBSD.
@@ -26,7 +26,7 @@ This post assumes Phoenix, Elixir and PostgreSQL are [already installed on FreeB
 
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2016-03-20 12:16:19 +0000
+2016-03-21 15:48:51 +0000
 $ mix hex.info
 Hex:    0.11.3
 Elixir: 1.2.3
@@ -99,10 +99,10 @@ Also make sure a dynamic port configuration is used.
 **config/prod.exs** partial listing
 {% highlight elixir %}
 config :phoenix_service, PhoenixService.Endpoint,
-  http: [port: {:system, "PORT"}],
+  http: [port: {:system, "PORT"}], # dynamic port configuration
   url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/manifest.json",
-  server: true
+  cache_static_manifest: "priv/static/manifest.json", # added comma
+  server: true # this line is new
 {% endhighlight %}
 
 Optionally, add a dynamic port configuration with a default value to **config/dev.exs**.
@@ -128,7 +128,8 @@ mix phoenix.server
 {% endhighlight %}
 
 POST and GET a memo to make sure the server works.
-A [prior post][phoenix-script] covers a shell script for interacting with this sample app.
+A [prior post][phoenix-script] covers a shell script for conveniently
+interacting with this sample app.
 
 {% highlight sh %}
 # POST new
@@ -165,6 +166,7 @@ mix deps.compile
 MIX_ENV=prod mix ecto.create
 MIX_ENV=prod mix ecto.migrate
 MIX_ENV=prod mix compile
+# brunch build --production # if using brunch
 MIX_ENV=prod mix phoenix.digest
 MIX_ENV=prod mix release
 {% endhighlight %}
@@ -177,8 +179,8 @@ The **vm.args** file is primarily used to configure the erlang VM.
 It can also be used to define application configure parameters.
 Application configuration parameters defined in this file can be
 passed into the program as atoms or integers.
-Note that the location of this file can be [configured][elixir-exrm-release-config] with the
-**RELEASE_CONFIG_DIR** environment variable.
+Note that the location of this file can be [configured][elixir-exrm-release-config]
+with the **RELEASE_CONFIG_DIR** environment variable.
 Add the following to **rel/vm.args**.
 
 **rel/vm.args**
@@ -199,7 +201,7 @@ In this file, application configuration parameters
 defined with environment variables must be strings.
 Pass the port setting in as above or add the following
 to **rel/sys.config**.
-The app module was written to work with either solution.
+The app module should work with either solution.
 Adding both files will not break anything.
 Note that **rel/sys.config** is written in Erlang.
 
@@ -251,16 +253,23 @@ chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
 {% endhighlight %}
 
 An rc script defines the the service.
-**phoenix_service_run()** is called from the other functions.
-It configures and calls the release.
-**HOME** is set to the installation directory to force the
-erlang cookie file to be written there regardless of
-**phoenix_service_user** setting.
-**phoenix_service_status()** echoes a user friendly
-message if the release can be pinged.
-Add **shutdown** to the keyword list if the service needs to
-gracefull shutdown when the machine restarts.
-The rest is standard rc configuration.
+
+- **phoenix_service_run()** is called from the other functions.
+  It configures and calls the release.
+  **HOME** is set to the installation directory to force the
+  erlang cookie file to be written there regardless of the
+  **phoenix_service_user** setting.
+- **phoenix_service_status()** echoes a user friendly
+  message if the release can be pinged.
+- **extra_commands** is used to add the **console** and
+  **remote_console** commands.
+  **console** is used to start a new service and attach a console to it.
+  **remote_console()** is used to connect a console to the service
+  if it is already running.
+- Add **shutdown** to the keyword list if the service needs to
+  gracefull shutdown when the machine restarts.
+- The rest is standard rc configuration.
+
 Add following to **/usr/local/etc/rc.d/phoenix_service**
 
 **/usr/local/etc/rc.d/phoenix_service**
@@ -368,8 +377,6 @@ curl -H 'Content-Type: application/json' http://localhost:8248/api/memos/1
 ### Optional: Adding a Release to the Systemwide Path
 
 Adding a release to the systemwide path is not necessary, but it can be convenient.
-The pass through script can be pointed at the development install instead of the service install if you want to build with exrm **mix release --dev**.
-
 Create a directory for the convenience pass through script.
 
 {% highlight sh %}
@@ -377,7 +384,7 @@ mkdir -p $INSTALL_DIR/bin
 {% endhighlight %}
 
 **PORT**, **NODE_NAME** and **COOKIE** need default values because **vm.args** has no useful default fallbacks.
-There is no good way to automatically select a port, so 8080 is hard coded.
+There is no good way to automatically select a port, so 8080 is a hard coded default.
 Add the following script to **/usr/local/opt/bin/phoenix_service**.
 
 **/usr/local/opt/bin/phoenix_service**
@@ -401,23 +408,33 @@ $COMMAND "$@"
 {% endhighlight %}
 
 Make the script executable.
+
 {% highlight sh %}
 chmod +x $INSTALL_DIR/bin/$PROJECT
 {% endhighlight %}
 
-Add **/usr/local/opt/bin** to the global path in **/etc/profile** for **sh**.
+Add **/usr/local/opt/bin** to the global path in **/etc/profile** for **sh**,
+and **/etc/csh.cshrc** for **csh**.
+Consider updating the root path in **/root/.cshrc**.
+
+**/usr/local/opt/bin** partial listing
 {% highlight sh %}
 PATH=/usr/local/opt/bin:$PATH
 export PATH
 {% endhighlight %}
 
-Add **/usr/local/opt/bin** to the global path in **/etc/csh.cshrc** for **csh**.
-Consider updating the root path in **/root/.cshrc**.
+**/etc/csh.cshrc** partial listing
 {% highlight csh %}
 set path=(/usr/local/opt/bin $path)
 {% endhighlight %}
 
+**/root/.cshrc** partial listing
+{% highlight csh %}
+set path = (/usr/local/opt/bin /sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin)
+{% endhighlight %}
+
 Update the path in the current shell if necessary.
+
 {% highlight sh %}
 # sh bash
 source /etc/csh.cshrc
@@ -426,9 +443,7 @@ source /etc/csh.cshrc
 {% endhighlight %}
 
 Fix permissions if you want to be able to run as any user.
-This has security implications.
-It may make more sense to point the script at the development
-release if it is being used as a development convenience.
+This may have security implications.
 
 {% highlight sh %}
 chmod 755 $INSTALL_DIR/$PROJECT/bin/$PROJECT
@@ -449,13 +464,13 @@ The release can now be conveniently controlled.
 
 {% highlight sh %}
 # start service
-NODE_NAME=canary COOKIE=sesame PORT=5678 phoenix_service start
+NODE_NAME=rudra COOKIE=treasure PORT=5678 phoenix_service start
 # POST new
 curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "Service Running", "body": "The Phoenix service is running on '"$(hostname)"'."}}' http://localhost:5678/api/memos
 # GET id 1
 curl -H 'Content-Type: application/json' http://localhost:5678/api/memos/1
 # stop service
-NODE_NAME=canary COOKIE=sesame phoenix_service stop
+NODE_NAME=rudra COOKIE=treasure phoenix_service stop
 {% endhighlight %}
 
 Setup complete.  Switch from root to a normal user.
@@ -470,7 +485,9 @@ exit # su
 Casual updates on a development machine can be performed as follows.
 
 {% highlight sh %}
-mix release
+# brunch build --production # if using brunch
+MIX_ENV=prod mix phoenix.digest # if static assets could have changed
+MIX_ENV=prod mix release
 su
 sh
 PROJECT=phoenix_service
@@ -485,14 +502,15 @@ exit # sh
 exit # su
 {% endhighlight %}
 
+Note that the path permissions will need to be fixed again if
+you added the release to the systemwide path and want to be able
+to run it as any user.
+
 ### Troubleshooting
 
-If configuration looks like it should be working, but nothing changes,
-try deleting the **running-config** directory.
-Sometimes rebooting fixes problems, like killing zombie nodes with
-strange default names and cookie values.
 Make sure to set server to true in **config/prod.exs**.
-Start the release with console to see error messages.
+If the server is mysteriously not working, start the release
+with console to see error messages.
 
 ### What Next?
 
@@ -513,6 +531,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [Elixir, exrm, Release Configuration][elixir-exrm-release-config]
 - [Elixir, exrm, Where should I place app.conf and vm.args][elixir-exrm-vm-args]
 - [Elixir, exrm, Packages on Hex][elixir-exrm-hex]
+- [Elixir, edeliver][elixir-edeliver]
 - [Elixir, Mix.Config][elixir-mix-config]
 - [Elixir as a Service on FreeBSD][elixir-service]
 - [Ruby, adamkittelson's Cap File][ruby-adamkittelson-cap]
@@ -534,6 +553,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 [elixir-exrm-vm-args]: https://github.com/bitwalker/exrm/issues/42
 [elixir-exrm-hex]: https://hex.pm/packages?search=exrm
 [ruby-adamkittelson-cap]: https://github.com/adamkittelson/apathy-drive-ex/blob/master/config/deploy.rb
+[elixir-edeliver]: https://github.com/boldpoker/edeliver
 [elixir-mix-config]: http://elixir-lang.org/docs/stable/mix/Mix.Config.html
 [elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
 [postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
