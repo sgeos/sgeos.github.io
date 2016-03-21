@@ -8,3 +8,6 @@ _site
 *.swp
 *.swo
 
+# drafts not worth commiting
+hidden.*.markdown
+
