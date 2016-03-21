@@ -27,6 +27,8 @@ This post assumes Phoenix, Elixir and PostgreSQL are [already installed on FreeB
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2016-03-21 15:48:51 +0000
+$ uname -vm
+FreeBSD 11.0-CURRENT #0 r296925: Wed Mar 16 20:53:04 JST 2016     root@mirage.sennue.com:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ mix hex.info
 Hex:    0.11.3
 Elixir: 1.2.3
