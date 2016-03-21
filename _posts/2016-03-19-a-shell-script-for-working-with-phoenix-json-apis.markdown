@@ -19,6 +19,8 @@ command line arguments that contain spaces.
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2016-03-19 00:55:41 +0000
+$ uname -vm
+FreeBSD 11.0-CURRENT #0 r296925: Wed Mar 16 20:53:04 JST 2016     root@mirage.sennue.com:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ mix hex.info
 Hex:    0.11.3
 Elixir: 1.2.3
