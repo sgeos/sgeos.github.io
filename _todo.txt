@@ -2,7 +2,7 @@ dnsmasq
 [man-dnsmasq]: https://www.freebsd.org/cgi/man.cgi?query=dnsmasq&apropos=0&sektion=0&manpath=FreeBSD+8.2-RELEASE+and+Ports&arch=default&format=html
 [howto-dnsmasq]: https://www.iceflatline.com/2010/02/how-to-install-and-configure-dnsmasq/
 
-RetroFix on Android with Kotlin
+RetroFit on Android with Kotlin
 RxJava on Android with Kotlin
 GSON on Android with Kotlin
 
@@ -19,7 +19,9 @@ java.lang.IllegalArgumentException: You need to use a Theme.AppCompat theme (or 
 Asset Management
 https://en.wikipedia.org/wiki/Asset_management
 
-Phoenix as a Service on FreeBSD
+Creating a Hidden Service on FreeBSD with Phoenix and Elixir
+  config :my_app, MyApp.Endpoint,
+    http: [port: 4000, ip: {127,0,0,1}],
 Minimal Phoenix Web API
 Go as a Service on FreeBSD
 Swift on FreeBSD
