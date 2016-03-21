@@ -2,8 +2,8 @@
 layout: post
 comments: true
 title:  "Phoenix as a Service on FreeBSD"
-date:   2016-03-19 00:55:41 +0000
-categories: phoenix elixir freebsd
+date:   2016-03-20 12:16:19 +0000
+categories: phoenix elixir erlang freebsd
 ---
 In this post a Phoenix app will be installed as a service on FreeBSD.
 The goals are the same as the [Elixir as a Service on FreeBSD post][elixir-service].
@@ -20,14 +20,13 @@ service phoenix_service restart
 service phoenix_service status
 {% endhighlight %}
 
-This post assumes PostgreSQL is [already installed][postgresql-install].
-If **portmaster** and **sudo** are not installed you are on your own for installation.
+This post assumes Phoenix, Elixir and PostgreSQL are [already installed on FreeBSD][phoenix-install].
 
 ## Software Versions
 
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2016-03-19 00:55:41 +0000
+2016-03-20 12:16:19 +0000
 $ mix hex.info
 Hex:    0.11.3
 Elixir: 1.2.3
@@ -37,24 +36,7 @@ $ mix phoenix.new -v
 Phoenix v1.1.4
 {% endhighlight %}
 
-## Instructions
-
-First, install Elixir and Phoenix.
-
-{% highlight sh %}
-sudo portmaster lang/elixir
-mix local.hex
-mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
-{% endhighlight %}
-
-Optionally, install **npm** and **brunch**.
-
-{% highlight sh %}
-sudo portmaster www/node www/npm
-sudo npm install -g brunch
-{% endhighlight %}
-
-# Creating a Sample Project
+## Creating a Sample Project
 
 Create a new Phoenix project.
 
@@ -111,7 +93,33 @@ Run the migration.
 mix ecto.migrate
 {% endhighlight %}
 
-# Testing the Sample Project
+Set server to true in **config/prod.exs**.
+Also make sure a dynamic port configuration is used.
+
+**config/prod.exs** partial listing
+{% highlight elixir %}
+config :phoenix_service, PhoenixService.Endpoint,
+  http: [port: {:system, "PORT"}],
+  url: [host: "example.com", port: 80],
+  cache_static_manifest: "priv/static/manifest.json",
+  server: true
+{% endhighlight %}
+
+Optionally, add a dynamic port configuration with a default value to **config/dev.exs**.
+The above build time solution is suitable for releases.
+The interpreted solution below is suitable for development.
+
+**config/dev.exs** partial listing
+{% highlight elixir %}
+  # http: [port: 4000], # old line 10
+  http: [port: System.get_env("PORT") || Application.get_env(:phoenix_service, :port) || 4000],
+{% endhighlight %}
+
+Tests should pass
+
+{% highlight sh %}
+mix test
+{% endhighlight %}
 
 Start the server.
 
@@ -119,64 +127,417 @@ Start the server.
 mix phoenix.server
 {% endhighlight %}
 
-Create a script to POST and GET memos.
-Yes, the payload quoting is insane.
-Read a [Bourne Shell tutorial][sh-tutorial] if you need help figuring it out.
+POST and GET a memo to make sure the server works.
+A [prior post][phoenix-script] covers a shell script for interacting with this sample app.
 
-**memo_api.sh**
+{% highlight sh %}
+# POST new
+curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "New Title", "body": "This is the new memo body."}}' http://localhost:4000/api/memos
+# GET id 1
+curl -H 'Content-Type: application/json' http://localhost:4000/api/memos/1
+{% endhighlight %}
+
+## Generating a Release
+
+Now that the Phoenix app is working, it is time to build a release.
+Add the [elixir release manager (exrm)][elixir-exrm] to **mix.exs** as a project dependency.
+
+**mix.exs** partial listing
+{% highlight elixir %}
+  defp deps do
+    [{:phoenix, "~> 1.1.4"},
+     {:postgrex, ">= 0.0.0"},
+     {:phoenix_ecto, "~> 2.0"},
+     {:phoenix_html, "~> 2.4"},
+     {:phoenix_live_reload, "~> 1.0", only: :dev},
+     {:gettext, "~> 0.9"},
+     {:exrm, "~> 1.0.2"}, # this line is new
+     {:cowboy, "~> 1.0"}]
+  end
+{% endhighlight %}
+
+Install exrm and build a release.
+This will create the **rel/** directory.
+
+{% highlight sh %}
+mix deps.get
+mix deps.compile
+MIX_ENV=prod mix ecto.create
+MIX_ENV=prod mix ecto.migrate
+MIX_ENV=prod mix compile
+MIX_ENV=prod mix phoenix.digest
+MIX_ENV=prod mix release
+{% endhighlight %}
+
+The rc script will use environment variable knobs to configure the app.
+Note that the **RELX_REPLACE_OS_VARS=true** environment variable needs
+to be defined to use environment variables for dynamic configuration.
+
+The **vm.args** file is primarily used to configure the erlang VM.
+It can also be used to define application configure parameters.
+Application configuration parameters defined in this file can be
+passed into the program as atoms or integers.
+Note that the location of this file can be [configured][elixir-exrm-release-config] with the
+**RELEASE_CONFIG_DIR** environment variable.
+Add the following to **rel/vm.args**.
+
+**rel/vm.args**
+{% highlight sh %}
+## Name of the node
+-name ${NODE_NAME}
+
+## Cookie for distributed erlang
+-setcookie ${COOKIE}
+
+## App Settings
+-phoenix_service port ${PORT}
+{% endhighlight %}
+
+Alternatively, **sys.config** can be used to pass in
+application configuration parameters.
+In this file, application configuration parameters
+defined with environment variables must be strings.
+Pass the port setting in as above or add the following
+to **rel/sys.config**.
+The app module was written to work with either solution.
+Adding both files will not break anything.
+Note that **rel/sys.config** is written in Erlang.
+
+**rel/sys.config**
+{% highlight erlang %}
+[
+  {phoenix_service, [
+    {port, "${PORT}"}
+  ]}
+].
+{% endhighlight %}
+
+Rebuild the release with the configuration files.
+
+{% highlight sh %}
+MIX_ENV=prod mix release
+{% endhighlight %}
+
+Start the release in the console.
+
+{% highlight sh %}
+RELX_REPLACE_OS_VARS=true PORT=7777 rel/phoenix_service/bin/phoenix_service console
+{% endhighlight %}
+
+Make sure the server responds.
+
+{% highlight sh %}
+curl 192.168.0.23:7777/api/memos
+{% endhighlight %}
+
+Exit the console with ^C.
+
+## Installing the Release as a Service
+
+Now that the release is working, it is time to set it up as a service.
+Perform the initial install.
+
+{% highlight sh %}
+su
+sh
+PROJECT=phoenix_service
+INSTALL_DIR=/usr/local/opt
+VERSION=$(cat rel/${PROJECT}/releases/start_erl.data | cut -d' ' -f2)
+INSTALL_TAR=`pwd`/rel/$PROJECT/releases/$VERSION/$PROJECT.tar.gz
+mkdir -p $INSTALL_DIR/$PROJECT
+(cd $INSTALL_DIR/$PROJECT; tar -xf $INSTALL_TAR)
+pw adduser $PROJECT -d $INSTALL_DIR/$PROJECT -s /usr/sbin/nologin -c "$PROJECT system service user"
+chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
+{% endhighlight %}
+
+An rc script defines the the service.
+**phoenix_service_run()** is called from the other functions.
+It configures and calls the release.
+**HOME** is set to the installation directory to force the
+erlang cookie file to be written there regardless of
+**phoenix_service_user** setting.
+**phoenix_service_status()** echoes a user friendly
+message if the release can be pinged.
+Add **shutdown** to the keyword list if the service needs to
+gracefull shutdown when the machine restarts.
+The rest is standard rc configuration.
+Add following to **/usr/local/etc/rc.d/phoenix_service**
+
+**/usr/local/etc/rc.d/phoenix_service**
+{% highlight sh %}
+#!/bin/sh
+#
+# PROVIDE: phoenix_service
+# REQUIRE: networking
+# KEYWORD:
+ 
+. /etc/rc.subr
+ 
+name="phoenix_service"
+rcvar="${name}_enable"
+install_dir="/usr/local/opt/${name}"
+version=$(cat ${install_dir}/releases/start_erl.data | cut -d' ' -f2)
+command="${install_dir}/bin/${name}"
+ 
+start_cmd="${name}_start"
+stop_cmd="${name}_stop"
+status_cmd="${name}_status"
+console_cmd="${name}_console"
+remote_console_cmd="${name}_remote_console"
+extra_commands="console remote_console"
+
+load_rc_config $name
+: ${phoenix_service_enable:="no"}
+: ${phoenix_service_port:="4000"}
+: ${phoenix_service_user:=${name}}
+: ${phoenix_service_node_name:="${name}@127.0.0.1"}
+: ${phoenix_service_cookie:="${name}"}
+: ${phoenix_service_config_dir:="${install_dir}/releases/${version}/${name} start"}
+
+phoenix_service_run()
+{
+  RELX_REPLACE_OS_VARS=true \
+  HOME="${install_dir}" \
+  RELEASE_CONFIG_DIR="${phoenix_service_config}" \
+  NODE_NAME="${phoenix_service_node_name}" \
+  COOKIE="${phoenix_service_cookie}" \
+  PORT="${phoenix_service_port}" \
+  su -m "$phoenix_service_user" -c "$command $1"
+}
+
+phoenix_service_start()
+{
+  phoenix_service_run start
+}
+
+phoenix_service_stop()
+{
+  phoenix_service_run stop
+}
+
+phoenix_service_status()
+{
+  ping_result=`phoenix_service_run ping`
+  echo "${ping_result}"
+  case "${ping_result}" in
+    *pong*)
+      echo "${name} is running."
+      ;;
+  esac
+}
+
+phoenix_service_console()
+{
+  phoenix_service_run console
+}
+
+phoenix_service_remote_console()
+{
+  phoenix_service_run remote_console
+}
+
+load_rc_config $name
+run_rc_command "$1"
+{% endhighlight %}
+
+Make **/usr/local/etc/rc.d/phoenix_service** read only and executable.
+
+{% highlight sh %}
+chmod 555 /usr/local/etc/rc.d/phoenix_service
+{% endhighlight %}
+
+Enable and configure the service in **/etc/rc.conf**.
+
+**/etc/rc.conf** lines to add
+{% highlight sh %}
+phoenix_service_enable="YES"
+phoenix_service_port=8248
+phoenix_service_node_name="suzaku"
+phoenix_service_cookie="cookie-of-the-southern-flame"
+{% endhighlight %}
+
+The service can now be started.  If the service is enabled, it will automatically start when the machine boots.
+{% highlight sh %}
+service phoenix_service start
+# POST new
+curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "Service Running", "body": "The Phoenix service is running on '"$(hostname)"'."}}' http://localhost:8248/api/memos
+# GET id 1
+curl -H 'Content-Type: application/json' http://localhost:8248/api/memos/1
+{% endhighlight %}
+
+### Optional: Adding a Release to the Systemwide Path
+
+Adding a release to the systemwide path is not necessary, but it can be convenient.
+The pass through script can be pointed at the development install instead of the service install if you want to build with exrm **mix release --dev**.
+
+Create a directory for the convenience pass through script.
+
+{% highlight sh %}
+mkdir -p $INSTALL_DIR/bin
+{% endhighlight %}
+
+**PORT**, **NODE_NAME** and **COOKIE** need default values because **vm.args** has no useful default fallbacks.
+There is no good way to automatically select a port, so 8080 is hard coded.
+Add the following script to **/usr/local/opt/bin/phoenix_service**.
+
+**/usr/local/opt/bin/phoenix_service**
 {% highlight sh %}
 #!/bin/sh
 
-HOST=http://localhost:4000
-SCOPE=api
-ROUTE=memos
-HEADERS="Content-Type: application/json"
+SCRIPT=$(realpath $0)
+BASENAME=$(basename $SCRIPT)
+BASEDIR=$(dirname $SCRIPT)
+COMMAND=$(realpath $BASEDIR/../$BASENAME/bin/$BASENAME)
 
-case "${1}" in
-  get)
-    curl -H "${HEADERS}" -X GET "${HOST}/${SCOPE}/${ROUTE}"
-    ;;
-  post)
-    PAYLOAD='{"memo": {"title": "'"${2-"(no title)"}"'", "body": "'"${3-"(no body"}"'"}}'
-    curl -H "${HEADERS}" -X POST -d "${PAYLOAD}" "${HOST}/${SCOPE}/${ROUTE}" 
-    ;;
-  *) #*
-    echo "Usage:"
-    echo "  ${0} get"''
-    echo "  ${0} "'post "title" "body"'
-    ;;
-esac
-echo ""
+: ${NODE_NAME:=${BASENAME}}
+: ${COOKIE:=${BASENAME}}
+: ${PORT:="8080"}
+
+NODE_NAME=${NODE_NAME} \
+COOKIE=${COOKIE} \
+PORT=${PORT} \
+RELX_REPLACE_OS_VARS=true \
+$COMMAND "$@"
 {% endhighlight %}
 
-POST and GET a message with the above script.
+Make the script executable.
+{% highlight sh %}
+chmod +x $INSTALL_DIR/bin/$PROJECT
+{% endhighlight %}
+
+Add **/usr/local/opt/bin** to the global path in **/etc/profile** for **sh**.
+{% highlight sh %}
+PATH=/usr/local/opt/bin:$PATH
+export PATH
+{% endhighlight %}
+
+Add **/usr/local/opt/bin** to the global path in **/etc/csh.cshrc** for **csh**.
+Consider updating the root path in **/root/.cshrc**.
+{% highlight csh %}
+set path=(/usr/local/opt/bin $path)
+{% endhighlight %}
+
+Update the path in the current shell if necessary.
+{% highlight sh %}
+# sh bash
+source /etc/csh.cshrc
+# csh tcsh
+. /etc/profile
+{% endhighlight %}
+
+Fix permissions if you want to be able to run as any user.
+This has security implications.
+It may make more sense to point the script at the development
+release if it is being used as a development convenience.
 
 {% highlight sh %}
-chmod +x memo_api.sh
-./memo_api.sh post "Memo Title" "This is the memo body."
-./memo_api.sh get
+chmod 755 $INSTALL_DIR/$PROJECT/bin/$PROJECT
+chmod 755 $INSTALL_DIR/$PROJECT/bin/nodetool
+chmod 755 $INSTALL_DIR/$PROJECT/releases/$VERSION/$PROJECT.sh
+mkdir -p $INSTALL_DIR/$PROJECT/log
+chmod 777 $INSTALL_DIR/$PROJECT/log
+chmod 777 $INSTALL_DIR/$PROJECT/log/*.*
+mkdir -p $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
+chmod 777 $INSTALL_DIR/$PROJECT/tmp/erl_pipes/$PROJECT
+mkdir -p $INSTALL_DIR/$PROJECT/running-config/
+chmod 777 $INSTALL_DIR/$PROJECT/running-config/
+chmod 666 $INSTALL_DIR/$PROJECT/running-config/*.*
+chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
 {% endhighlight %}
 
-# Generating a Release
+The release can now be conveniently controlled.
 
-Now that the Phoenix app is working, it is time to set it up as a service.
+{% highlight sh %}
+# start service
+NODE_NAME=canary COOKIE=sesame PORT=5678 phoenix_service start
+# POST new
+curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "Service Running", "body": "The Phoenix service is running on '"$(hostname)"'."}}' http://localhost:5678/api/memos
+# GET id 1
+curl -H 'Content-Type: application/json' http://localhost:5678/api/memos/1
+# stop service
+NODE_NAME=canary COOKIE=sesame phoenix_service stop
+{% endhighlight %}
 
-# Installing the Release as a Service
+Setup complete.  Switch from root to a normal user.
 
-Install as a service.
+{% highlight sh %}
+exit # sh
+exit # su
+{% endhighlight %}
+
+### Updating
+
+Casual updates on a development machine can be performed as follows.
+
+{% highlight sh %}
+mix release
+su
+sh
+PROJECT=phoenix_service
+INSTALL_DIR=/usr/local/opt
+VERSION=$(cat rel/${PROJECT}/releases/start_erl.data | cut -d' ' -f2)
+INSTALL_TAR=`pwd`/rel/$PROJECT/releases/$VERSION/$PROJECT.tar.gz
+(cd $INSTALL_DIR/$PROJECT; \
+tar -xf $INSTALL_TAR)
+chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
+service $PROJECT restart
+exit # sh
+exit # su
+{% endhighlight %}
+
+### Troubleshooting
+
+If configuration looks like it should be working, but nothing changes,
+try deleting the **running-config** directory.
+Sometimes rebooting fixes problems, like killing zombie nodes with
+strange default names and cookie values.
+Make sure to set server to true in **config/prod.exs**.
+Start the release with console to see error messages.
+
+### What Next?
+
+Consider looking into [edeliver][elixir-edeliver] for deployment.
+"edeliver is based on deliver and provides a bash script to build and deploy
+Elixir and Erlang applications and perform hot-code upgrades."
 
 ## References:
 - [Phoenix, Deployment][phoenix-deployment]
 - [Phoenix, Building a JSON API With Phoenix][phoenix-json]
 - [Phoenix, Building a versioned REST API with Phoenix Framework][phoenix-versioned-rest]
+- [Phoenix, Default (4000) port busy][phoenix-default-port]
+- [Phoenix, Start Phoenix app with cowboy server on different port][phoenix-custom-port]
+- [Phoenix, does not evaluate Env config overrides at runtime][phoenix-runtime-env]
+- [Phoenix, Installing Phoenix, Elixir and PostgreSQL on FreeBSD][phoenix-install]
+- [Phoenix, A Shell Script for Working with Phoenix JSON APIs][phoenix-script]
+- [Elixir Release Manager][elixir-exrm]
+- [Elixir, exrm, Release Configuration][elixir-exrm-release-config]
+- [Elixir, exrm, Where should I place app.conf and vm.args][elixir-exrm-vm-args]
+- [Elixir, exrm, Packages on Hex][elixir-exrm-hex]
+- [Elixir, Mix.Config][elixir-mix-config]
 - [Elixir as a Service on FreeBSD][elixir-service]
+- [Ruby, adamkittelson's Cap File][ruby-adamkittelson-cap]
 - [PostgreSQL, Installing PostgreSQL on FreeBSD][postgresql-install]
 - [Sh - the Bourne Shell][sh-tutorial]
+- [FreeBSD, KDE4 localization][freebsd-locale]
+- [ION DTN as a Service on FreeBSD][freebsd-ion]
 
 [phoenix-deployment]: http://www.phoenixframework.org/docs/deployment
 [phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
 [phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
+[phoenix-default-port]: https://github.com/phoenixframework/phoenix/issues/962
+[phoenix-custom-port]: http://stackoverflow.com/questions/30540466/start-phoenix-app-with-cowboy-server-on-different-port
+[phoenix-runtime-env]: https://github.com/phoenixframework/phoenix/issues/354
+[phoenix-install]: https://sgeos.github.io/phoenix/elixir/postgresql/freebsd/2016/03/19/installing-phoenix-elixir-and-postgresql-on-freebsd.html
+[phoenix-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
+[elixir-exrm]: https://github.com/bitwalker/exrm
+[elixir-exrm-release-config]: https://exrm.readme.io/docs/release-configuration
+[elixir-exrm-vm-args]: https://github.com/bitwalker/exrm/issues/42
+[elixir-exrm-hex]: https://hex.pm/packages?search=exrm
+[ruby-adamkittelson-cap]: https://github.com/adamkittelson/apathy-drive-ex/blob/master/config/deploy.rb
+[elixir-mix-config]: http://elixir-lang.org/docs/stable/mix/Mix.Config.html
 [elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
 [postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
 [sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
+[freebsd-locale]: https://forums.freebsd.org/threads/9120/
+[freebsd-ion]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html
 
