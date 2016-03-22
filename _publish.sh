@@ -19,7 +19,7 @@ do
     if [ $DATE ]
     then
       echo "mv ${FILENAME} _posts/${DATE}-$(basename $FILENAME)"
-      mv "${FILENAME}" "_posts/${DATE}-$(basename $FILENAME)"
+      git mv "${FILENAME}" "_posts/${DATE}-$(basename $FILENAME)"
     else
       echo "'${FILENAME}' does not have a date."
     fi

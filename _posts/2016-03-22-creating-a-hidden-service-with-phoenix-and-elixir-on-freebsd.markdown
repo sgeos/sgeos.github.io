@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Creating a Hidden Service with Phoenix and Elixir on FreeBSD"
-date:   2016-03-22 18:36:54 +0000
+date:   2016-03-22 06:45:48 +0000
 categories: tor freebsd nc curl
 ---
 This post is a synthesis of a couple of prior posts.
@@ -25,7 +25,7 @@ Phoenix, Elixir and PostgreSQL also need to [be installed][freebsd-phoenix-insta
 
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2016-03-22 18:36:54 +0000
+2016-03-22 06:45:48 +0000
 $ uname -vm
 FreeBSD 11.0-CURRENT #0 r287598: Thu Sep 10 14:45:48 JST 2015     root@:/usr/obj/usr/src/sys/MIRAGE_KERNEL  amd64
 $ tor --version
