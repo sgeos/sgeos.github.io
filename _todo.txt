@@ -19,11 +19,28 @@ java.lang.IllegalArgumentException: You need to use a Theme.AppCompat theme (or 
 Asset Management
 https://en.wikipedia.org/wiki/Asset_management
 
-Creating a Hidden Service on FreeBSD with Phoenix and Elixir
-  config :my_app, MyApp.Endpoint,
-    http: [port: 4000, ip: {127,0,0,1}],
+GraphQL Elixir
+https://github.com/graphql-elixir/graphql
+https://github.com/absinthe-graphql/absinthe
+Relay conventions.
+mobile team and backend team would work together to figure out what documents were needed
+mobile team built a fake service that would provide that data so they could iterate locally
+backend team made a test case with an example doc and wrote code till it worked
+then hooked them together and they almost always "Just Worked" with very little extra effort
+I will say if you _are_ planning on using Relay at any point you may want to investigate certain
+conventions they use on top of regular graphql so that both your mobile and front end apis use
+the same conventions
+benwilson512
+
 Minimal Phoenix Web API
 Go as a Service on FreeBSD
+First of all, I want to say that developing a daemon service in go on FreeBSD is the most
+convenient setup I have ever used.  I have been excited by many things.  Some of the solutions
+I have looked into were not rejected because the framework was inherently bad, but because
+installation was non trivial and did not succeed in a timely fashion.  Go is easy to install
+and work with on FreeBSD.  This howto assumes no knowledge of go, handbook level knowledge of
+FreeBSD and root privileges.
+
 Swift on FreeBSD
 
 Syslog in C
