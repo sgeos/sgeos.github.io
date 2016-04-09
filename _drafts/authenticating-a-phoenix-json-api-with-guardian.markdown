@@ -246,6 +246,10 @@ mix test
 
 ## Adding Authorization
 
+**web/router.ex**
+{% highlight sh %}
+  post "/login", AuthenticationController, :create
+{% endhighlight %}
 
 
 ## References:
@@ -255,18 +259,23 @@ mix test
 - [Phoenix, How to add and test HTTP basic authentication in a Phoenix web application][phoenix-basic-auth]
 - [Phoenix, Authentication/Authorization for Phoenix apps][phoenix-auth-reddit]
 - [Phoenix, Routing][phoenix-routing]
+- [Phoenix, Controllers][phoenix-controllers]
 - [Phoenix, Elixir blog in 15 minutes using Phoenix framework - Step by Step][phoenix-blog]
 - [Phoenix, Mix.Tasks.Phoenix.Gen.Json][phoenix-mix-gen-json]
 - [Phoenix, Ecto Models][phoenix-ecto-models]
 - [Phoenix as a Service on FreeBSD][phoenix-freebsd]
 - [Elixir, alias, require and import][elixir-import]
+- [Elixir, Access project version within elixir application][elixir-otp-vsn]
 - [Elixir, Comeonin GitHub][elixir-comeonin]
 - [Elixir, Guardian GitHub][elixir-guardian-github]
 - [Elixir Nation, Guardian][elixir-guardian]
 - [Elixir Nation, Category: Authentication Listing][elixir-auth-listing]
+- [Erlang, Building OTP Applications][erlang-otp]
 - [Mix, ecto/lib/mix/tasks/ecto.gen.migration.ex Source Code][mix-migration-source]
 - [Rails, railties/lib/rails_generator/commands.rb Source Code][mix-migration-source]
+- [HTTP, Re: 401 Unauthenticated, 403 Unauthorized?][http-401]
 - [JWT, RFC 7519 JSON Web Token (JWT)][rfc-7519]
+- [UNIX, What Is The Difference Between Authentication And Authorization?][unix-auth]
 
 [phoenix-guardian-started]: http://hassox.github.io/elixir/guardian/2015/06/19/guardian-getting-started.html
 [phoenix-simple-auth]: http://blog.simonstrom.xyz/elixir-phoenix-simple-authentication/
@@ -274,16 +283,21 @@ mix test
 [phoenix-basic-auth]: http://www.cultivatehq.com/posts/add-basic-authentication-to-a-phoenix-application/
 [phoenix-auth-reddit]: https://www.reddit.com/r/elixir/comments/3ijbrd/authenticationauthorization_for_phoenix_apps/
 [phoenix-routing]: http://www.phoenixframework.org/v0.11.0/docs/routing
+[phoenix-controllers]: http://www.phoenixframework.org/docs/controllers
 [phoenix-blog]: http://codetunes.com/2015/phoenix-blog/
 [phoenix-mix-gen-json]: https://hexdocs.pm/phoenix/Mix.Tasks.Phoenix.Gen.Json.html
 [phoenix-ecto-models]: http://www.phoenixframework.org/docs/ecto-models
 [phoenix-freebsd]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
 [elixir-import]: http://elixir-lang.org/getting-started/alias-require-and-import.html
+[elixir-otp-vsn]: http://stackoverflow.com/questions/32968253/access-project-version-within-elixir-application
 [elixir-comeonin]: https://github.com/elixircnx/comeonin
 [elixir-guardian-github]: https://github.com/ueberauth/guardian
 [elixir-guardian]: https://elixirnation.io/libraries/guardian-authentication-framework-with-jwt-for-elixir
 [elixir-auth-listing]: https://elixirnation.io/libraries/category/authentication
+[erlang-otp]: http://learnyousomeerlang.com/building-otp-applications
 [mix-migration-source]: https://github.com/elixir-lang/ecto/blob/master/lib/mix/tasks/ecto.gen.migration.ex#L61-L64
 [rails-migration-source]: https://github.com/rails/rails/commit/c00de99f69358b58ca2bd6bc732e2de1b667800e#diff-e4c5045a4ae184d56dea432863a37d55
+[http-401]: https://lists.w3.org/Archives/Public/ietf-http-wg/2008AprJun/0418.html
 [rfc-7519]: https://tools.ietf.org/html/rfc7519
+[unix-auth]: http://www.cyberciti.biz/faq/authentication-vs-authorization/
 
