@@ -12,7 +12,9 @@ This post covers what I did to achieve this goal.
 Android does not store users in **/etc/passwd** so it is
 exceedingly difficult to add users for command line work.
 Home directories for the users that are available seem to default to **/** or **/data**.
+**/data** and the SD card survive OS updates, but only root can properly write to **/data**.
 In light of this, this solution is written such that root calls **ssh** to log into another box.
+The SD card is used to store a script that contains a convenience function so connections can be canned.
 
 The solution in this post assumes a rooted phone with busybox.
 My phone is a Nexus 5 running Cyanogenmod 13.
@@ -57,92 +59,121 @@ launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 
 ## Adding an SSH Key to a Rooted Android Device
 
-Open a shell on your phone as root.
+Open a shell on your phone and switch to root.
 
 {% highlight sh %}
 adb shell
 su
 {% endhighlight %}
 
-The root home directory is **/** on my phone.
-Remount it for writing, and add the **.ssh** directory.
+Define some variables.
+Change these if you want to customize your installation.
+Note that the **/data** partition survives OS updates.
+
+{% highlight sh %}
+SSH_HOME="/data/.ssh"
+SSH_ID="${SSH_HOME}/id_rsa"
+{% endhighlight %}
+
+Create the **.ssh** directory.
+
+{% highlight sh %}
+mkdir "${SSH_HOME}"
+chmod 700 "${SSH_HOME}"
+{% endhighlight %}
+
+Create a symlink so root ssh will work.
+The root home directory is **/**.
+This step will need to be repeated after an OS update.
 
 {% highlight sh %}
 mount -o remount,rw /
-mkdir /.ssh
-{% endhighlight %}
-
-Add **.ssh/known_hosts**.
-This file will ultimately be mounted read only,
-but it is probably a good idea to add hosts to it while file can be written to.
-
-{% highlight sh %}
-touch /.ssh/known_hosts
+ln -s "${SSH_HOME}" /.ssh
 {% endhighlight %}
 
 Generate the SSH key.
 
 {% highlight sh %}
-ssh-keygen -t rsa -f /.ssh/id_rsa
+ssh-keygen -t rsa -f "${SSH_ID}"
 {% endhighlight %}
 
-Permissions should look like this.
+Add **.ssh/known_hosts**.
 
 {% highlight sh %}
-chmod 700 /.ssh
-chmod 600 /.ssh/id_rsa
-chmod 644 /.ssh/id_rsa.pub
-chmod 644 /.ssh/known_hosts
+touch "${SSH_HOME}/known_hosts"
+chmod 644 "${SSH_HOME}/known_hosts"
 {% endhighlight %}
 
 Copy the Android public key from the phone to to
 **.ssh/authorized_keys** on any machines you want to log into.
 
 {% highlight sh %}
-cat /.ssh/id_rsa.pub
+cat "${SSH_ID}.pub" 
 {% endhighlight %}
 
-As root on the Android phone, **ssh** into the remote machine to add it to **.ssh/known_hosts**.
-After all the machines you want to log into have been added,
-it will not matter if **.ssh/known_hosts** is mounted read only.
+As root on the Android phone, **ssh** into a machine to add it to **.ssh/known_hosts**.
 
 {% highlight sh %}
-ssh -i /.ssh/id_rsa username@alpha.org
+ssh "username@host.org"
 {% endhighlight %}
 
 ## Convenience SSH Shell Script
 
 Doing command line work with a tiny touch screen keyboard is painful.
-Convenience shell functions makes this task less painful.
+Convenience shell functions make this task bearable.
 
 I could not get **.profile** to work out of the box on Android.
-Evidently **/system/etc/mkshrc** is the file that is automatically
-started after the shell starts running.
-Add the following convenience function to log into different machines.
-Replace the alpha and beta entries with your own machines.
+The Android shell always runs **/system/etc/mkshrc**.
+The problem is that this script is replaced when the
+operating system is updated so the goal is to keep changes minimal.
+Remount **/system** in read/write mode so this file can be modified.
 
-Redefine **SSH_ID** if you want to store **.ssh** in another location.
-Note that **ssh** will refuse to use the keys if they are user readable,
-so using the SD card is not an option.
+{% highlight sh %}
+mount -o remount,rw /system
+{% endhighlight %}
+
+Add a line to load a script from the SD card to the bottom of **mkshrc**.
 
 **/system/etc/mkshrc** partial listing
 {% highlight sh %}
+source /sdcard/workon.sh # new line
+
+: place customisations above this line
+{% endhighlight %}
+
+Now the **workon.sh** script will be loaded from the SD card when the shell starts.
+Files on the SD card can not be executed, so loading the script makes more sense than creating a utility.
+If the script were placed in **/data** it could be executed, but only by root.
+This solution allows a non-root shell to use the script.
+
+Add the following convenience function to **/sdcard/workon.sh** to log into different machines.
+Replace the alpha and beta entries with your own machines.
+This file should survive operating system updates because it is on the SD card.
+
+Redefine **SSH_ID** if you want to store **.ssh** in another location.
+Note that **ssh** will refuse to use the keys if they are user readable,
+so putting them on the SD card is not an option.
+
+**/sdcard/workon.sh**
+{% highlight sh %}
+#!/system/bin/env sh
 workon() {
-  SSH_ID="/.ssh/id_rsa"
+  SSH_USERNAME="username"
+  SSH_ID="/data/.ssh/id_rsa"
   case "${1}" in
     admin)
       su -c "cd; clear; pwd"; su
       ;;
     alpha)
-      su -c "ssh -i ${SSH_ID} username@alpha.org"
+      su -c "ssh -i '${SSH_ID}' '${SSH_USERNAME}@alpha.org'"
       ;;
     beta)
-      su -c "ssh -i ${SSH_ID} username@192.168.0.123"
+      su -c "ssh -i '${SSH_ID}' '${SSH_USERNAME}@192.168.0.123'"
       ;;
     *)
       if [ -n "${1}" ]
       then
-        su -c "ssh -i ${SSH_ID} username@${1-localhost}"
+        su -c "ssh -i '${SSH_ID}' '${SSH_USERNAME}@${1-localhost}'"
       else
         cd; clear; pwd
       fi
@@ -163,9 +194,68 @@ As a bonus, the following can be used to get ready to do admin work on the Andro
 workon admin
 {% endhighlight %}
 
+If you want to add the same function to a normal UNIX box, the workon function looks like this.
+Put it in something like **${HOME}/.profile**.
+
+**${HOME}/.profile** partial listing
+{% highlight sh %}
+workon() {
+  SSH_USERNAME="username"
+  ROOT_HOME="/var/root"
+  case "${1}" in
+    admin)
+      (cd "${ROOT_HOME}"; clear; pwd; su)
+      ;;
+    alpha)
+      ssh "${SSH_USERNAME}@alpha.org"
+      ;;
+    beta)
+      ssh "${SSH_USERNAME}@192.168.0.123"
+      ;;
+    *)
+      if [ -n "${1}" ]
+      then
+        ssh "${SSH_USERNAME}@{1-localhost}"
+      else
+        cd; clear; pwd
+      fi
+      ;;
+  esac
+}
+{% endhighlight %}
+
+## Upgrading
+
+After upgrading the OS, a couple of the steps need to be repeated.
+
+Recreate the **.ssh** symlink.
+
+{% highlight sh %}
+mount -o remount,rw /
+ln -s "${SSH_HOME}" /.ssh
+{% endhighlight %}
+
+Remount **/system**.
+
+{% highlight sh %}
+mount -o remount,rw /system
+{% endhighlight %}
+
+Add the line to load the SD card script to the bottom of **mkshrc**.
+
+**/system/etc/mkshrc** partial listing
+{% highlight sh %}
+source /sdcard/workon.sh # new line
+
+: place customisations above this line
+{% endhighlight %}
+
 ## References:
 - [Android, Is there a .bashrc equivalent for android?][android-profile]
 - [Android, A terminal command for a rooted Android to remount /System as read/write][android-remount]
+- [Android, Android Partitions Explained: boot, system, recovery, data, cache & misc][android-partitions]
+- [Android, Can I update the adb shell's environment variables?][android-mkshrc]
+- [Android, man mksh][android-man-mksh]
 - [SSH, How do I force SSH to only allow uses with a key to log in?][ssh-force-key]
 - [SSH, Make a passwordless SSH Connection between OSX 10.10 Yosemite and Linux Server][ssh-key-connection]
 - [SSH, How do I set up SSH public-key authentication to connect to a remote system?][ssh-keygen]
@@ -176,9 +266,13 @@ workon admin
 - [SSH, man ssh][ssh-man]
 - [SSH, man sshd_config][sshd_config-man]
 - [UNIX, Using Shell Functions to Jump Into Terminal Projects][unix-workon]
+- [UNIX, In Unix, what is a symbolic link, and how do I create one?][unix-symlink]
 
 [android-profile]: http://forum.xda-developers.com/showthread.php?t=514470
 [android-remount]: http://stackoverflow.com/questions/5467881/a-terminal-command-for-a-rooted-android-to-remount-system-as-read-write
+[android-partitions]: http://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/
+[android-mkshrc]: http://android.stackexchange.com/questions/53389/can-i-update-the-adb-shells-environment-variables
+[android-man-mksh]: https://www.mirbsd.org/htman/i386/man1/false.htm
 [ssh-force-key]: http://askubuntu.com/questions/346857/how-do-i-force-ssh-to-only-allow-uses-with-a-key-to-log-in
 [ssh-key-connection]: https://coolestguidesontheplanet.com/make-passwordless-ssh-connection-osx-10-9-mavericks-linux/
 [ssh-keygen]: https://kb.iu.edu/d/aews
@@ -189,4 +283,5 @@ workon admin
 [ssh-man]: https://www.freebsd.org/cgi/man.cgi?query=ssh&sektion=1
 [sshd_config-man]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/sshd_config.5.html
 [unix-workon]: https://sgeos.github.io/unix/sh/2016/03/17/using-shell-functions-to-jump-into-terminal-projects.html
+[unix-symlink]: https://kb.iu.edu/d/abbe
 
