@@ -69,6 +69,10 @@ chmod +x android-app-data-clone.sh
 
 ## References:
 - [Android, ApplicationId versus PackageName][android-package]
+- [UNIX, How do I Compress a Whole Linux or UNIX Directory?][unix-tar]
+- [UNIX, How to extract files to another directory using 'tar' command?][unix-tar-dir]
 
 [android-package]: http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename
+[unix-tar]: http://www.cyberciti.biz/faq/how-do-i-compress-a-whole-linux-or-unix-directory/
+[unix-tar-dir]: http://askubuntu.com/questions/45349/how-to-extract-files-to-another-directory-using-tar-command
 
