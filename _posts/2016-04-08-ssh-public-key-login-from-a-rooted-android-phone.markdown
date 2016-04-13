@@ -286,6 +286,7 @@ echo "${BODY}" > "${MKSHRC}"
 - [SSH, man sshd_config][sshd_config-man]
 - [UNIX, Using Shell Functions to Jump Into Terminal Projects][unix-workon]
 - [UNIX, In Unix, what is a symbolic link, and how do I create one?][unix-symlink]
+- [UNIX, Linux Delete Symbolic Link ( Softlink )][unix-unlink]
 - [UNIX, Bash: Strip trailing linebreak from output][unix-newline]
 - [UNIX, Find and Replace Inside a Text File from a ash Command][unix-replace]
 
@@ -305,6 +306,7 @@ echo "${BODY}" > "${MKSHRC}"
 [sshd_config-man]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/sshd_config.5.html
 [unix-workon]: https://sgeos.github.io/unix/sh/2016/03/17/using-shell-functions-to-jump-into-terminal-projects.html
 [unix-symlink]: https://kb.iu.edu/d/abbe
+[unix-unlink]: http://www.cyberciti.biz/faq/linux-remove-delete-symbolic-softlink-command/
 [unix-newline]: http://stackoverflow.com/questions/12524308/bash-strip-trailing-linebreak-from-output
 [unix-replace]: http://stackoverflow.com/questions/16974797/find-and-replace-inside-a-text-file-from-a-ash-command
 
