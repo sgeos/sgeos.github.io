@@ -253,6 +253,7 @@ source /sdcard/workon.sh # new line
 Alternatively, use the following script to perform the
 above tasks after upgrading Android.
 
+**enable-workon-ssh.sh**
 {% highlight sh %}
 #!/system/bin/env sh
 SSH_HOME="/data/.ssh"
