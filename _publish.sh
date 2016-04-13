@@ -18,8 +18,12 @@ do
     DATE=$(sed -n "/^date:[+-:0-9 ]*$/{p; q;}" "${FILENAME}" | awk '{ print $2 }')
     if [ $DATE ]
     then
-      echo "mv ${FILENAME} _posts/${DATE}-$(basename $FILENAME)"
+      echo "git add '${FILENAME}'"
+      git add "${FILENAME}"
+      echo "mv '${FILENAME}' '_posts/${DATE}-$(basename $FILENAME)'"
       git mv "${FILENAME}" "_posts/${DATE}-$(basename $FILENAME)"
+      #echo "git commit -m 'Published _posts/${DATE}-$(basename $FILENAME).'"
+      #git commit -m "Published _posts/${DATE}-$(basename $FILENAME)"
     else
       echo "'${FILENAME}' does not have a date."
     fi
