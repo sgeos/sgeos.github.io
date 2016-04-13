@@ -257,7 +257,8 @@ above tasks after upgrading Android.
 #!/system/bin/env sh
 SSH_HOME="/data/.ssh"
 mount -o remount,rw /
-ln -s "${SSH_HOME}" /.ssh
+rm -f "/.ssh"
+ln -s "${SSH_HOME}" "/.ssh"
 mount -o remount,rw /system
 MKSHRC="/system/etc/mkshrc"
 BODY=$(cat "${MKSHRC}")
