@@ -256,18 +256,24 @@ above tasks after upgrading Android.
 **enable-workon-ssh.sh**
 {% highlight sh %}
 #!/system/bin/env sh
+
 SSH_HOME="/data/.ssh"
+printf "Linking '/.ssh' -> '${SSH_HOME}' ... "
 mount -o remount,rw /
 rm -f "/.ssh"
 ln -s "${SSH_HOME}" "/.ssh"
-mount -o remount,rw /system
+echo "Done."
+
 MKSHRC="/system/etc/mkshrc"
+printf "Patching '${MKSHRC}' ... "
+mount -o remount,rw /system
 BODY=$(cat "${MKSHRC}")
 ORIGINAL=": place customisations above this line"
 PATCH=$(printf "source /sdcard/workon.sh\n\n${ORIGINAL}")
 BODY=$(echo "${BODY/${PATCH}/${ORIGINAL}}")
 BODY=$(echo "${BODY/${ORIGINAL}/${PATCH}}")
 echo "${BODY}" > "${MKSHRC}"
+echo "Done."
 {% endhighlight %}
 
 ## References:
