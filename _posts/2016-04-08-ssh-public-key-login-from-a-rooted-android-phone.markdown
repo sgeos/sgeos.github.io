@@ -250,6 +250,24 @@ source /sdcard/workon.sh # new line
 : place customisations above this line
 {% endhighlight %}
 
+Alternatively, use the following script to perform the
+above tasks after upgrading Android.
+
+{% highlight sh %}
+#!/system/bin/env sh
+SSH_HOME="/data/.ssh"
+mount -o remount,rw /
+ln -s "${SSH_HOME}" /.ssh
+mount -o remount,rw /system
+MKSHRC="/system/etc/mkshrc"
+BODY=$(cat "${MKSHRC}")
+ORIGINAL=": place customisations above this line"
+PATCH=$(printf "source /sdcard/workon.sh\n\n${ORIGINAL}")
+BODY=$(echo "${BODY/${PATCH}/${ORIGINAL}}")
+BODY=$(echo "${BODY/${ORIGINAL}/${PATCH}}")
+echo "${BODY}" > "${MKSHRC}"
+{% endhighlight %}
+
 ## References:
 - [Android, Is there a .bashrc equivalent for android?][android-profile]
 - [Android, A terminal command for a rooted Android to remount /System as read/write][android-remount]
@@ -267,6 +285,8 @@ source /sdcard/workon.sh # new line
 - [SSH, man sshd_config][sshd_config-man]
 - [UNIX, Using Shell Functions to Jump Into Terminal Projects][unix-workon]
 - [UNIX, In Unix, what is a symbolic link, and how do I create one?][unix-symlink]
+- [UNIX, Bash: Strip trailing linebreak from output][unix-newline]
+- [UNIX, Find and Replace Inside a Text File from a ash Command][unix-replace]
 
 [android-profile]: http://forum.xda-developers.com/showthread.php?t=514470
 [android-remount]: http://stackoverflow.com/questions/5467881/a-terminal-command-for-a-rooted-android-to-remount-system-as-read-write
@@ -284,4 +304,6 @@ source /sdcard/workon.sh # new line
 [sshd_config-man]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/sshd_config.5.html
 [unix-workon]: https://sgeos.github.io/unix/sh/2016/03/17/using-shell-functions-to-jump-into-terminal-projects.html
 [unix-symlink]: https://kb.iu.edu/d/abbe
+[unix-newline]: http://stackoverflow.com/questions/12524308/bash-strip-trailing-linebreak-from-output
+[unix-replace]: http://stackoverflow.com/questions/16974797/find-and-replace-inside-a-text-file-from-a-ash-command
 
