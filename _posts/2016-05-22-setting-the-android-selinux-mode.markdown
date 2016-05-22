@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Setting the Android SE Linux Mode"
+title:  "Setting the Android SE Linux Mode on a Rooted Device"
 date:   2016-05-22 12:35:08 +0000
 categories: android selinux
 ---
