@@ -23,6 +23,7 @@ echo "Code here."
 {% endhighlight %}
 
 ## References:
+
 - [ref][ref]
 
 [ref]: https://sgeos.github.io
