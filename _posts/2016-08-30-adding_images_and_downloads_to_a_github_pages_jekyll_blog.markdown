@@ -38,7 +38,7 @@ cp path/to/image.png ./assets/
 
 The image can be displayed as follows.
 
-{% highlight markdown %}
+{% highlight liquid %}
 {% raw %}![useful image]({{ site.url }}/assets/image.png){% endraw %}
 {% endhighlight %}
 
@@ -46,7 +46,7 @@ The image can be displayed as follows.
 
 Note that downloads can be made available with the same strategy.
 
-{% highlight markdown %}
+{% highlight liquid %}
 You can download the PDF {% raw %}[here]({{ site.url }}/assets/document.pdf){% endraw %}.
 {% endhighlight %}
 
