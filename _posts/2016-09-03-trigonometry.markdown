@@ -8,21 +8,51 @@ categories: math trigonometry
 ---
 A list of trigonometric formulae and tables.
 
+![image of arc length]({{ site.url }}/assets/trig_diagrams_002.png)
+![image of circumference]({{ site.url }}/assets/trig_diagrams_001.png)
+
 Trigonometric functions in polar coordinate form- radius $\rho$, azimuth $\phi$.
 Hypotenuse is $\rho$, adjacent is x and opposite is y.
 
 $$
 \begin{align}
-& \sin {\phi} = \left( \frac {1} {\csc {\phi}} \right) = \left( \frac {y} {\rho} \right) & \left( \arcsin \frac {y} {\rho} \right) = \left( \sin ^{-1} \frac {y} {\rho} \right) = {\phi} \\
-& \cos {\phi} = \left( \frac {1} {\sec {\phi}} \right) = \left( \frac {x} {\rho} \right) & \left( \arccos \frac {x} {\rho} \right) = \left( \cos ^{-1} \frac {x} {\rho} \right) = {\phi} \\
-& \tan {\phi} = \left( \frac {1} {\cot {\phi}} \right) = \left( \frac {y} {x} \right) & \left( \arctan \frac {y} {x} \right) = \left( \tan ^{-1} \frac {y} {x} \right) = {\phi} \\
-& \ csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \ csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
-& \sec {\phi} = \left( \frac {1} {\cos {\phi}} \right) = \left( \frac {\rho} {x} \right) & \left( \operatorname{arcsec} \frac {\rho} {x} \right) = \left( \sec ^{-1} \frac {\rho} {x} \right) = {\phi} \\
-& \cot {\phi} = \left( \frac {1} {\tan {\phi}} \right) = \left( \frac {x} {y} \right) & \left( \operatorname{arccot} \frac {x} {y} \right) = \left( \cot ^{-1} \frac {x} {y} \right) = {\phi} \\
-& x = \rho \cos \phi \\
 & y = \rho \sin \phi \\
+& x = \rho \cos \phi \\
 & \rho = \sqrt {x^2 + y^2} \\
 & \phi = \arctan {\frac {y} {x}} & \phi = \operatorname{atan2}(y,x) \\
+\end{align}
+$$
+
+![image of sin and cos]({{ site.url }}/assets/trig_diagrams_003.png)
+
+$\sin \phi$ and $\cos \phi$ get the $y$ and $x$ components of $\rho$.
+
+$$
+\begin{align}
+& \sin {\phi} = \left( \frac {1} {\csc {\phi}} \right) = \left( \frac {y} {\rho} \right) & \left( \arcsin \frac {y} {\rho} \right) = \left( \sin ^{-1} \frac {y} {\rho} \right) = {\phi} \\
+& \cos {\phi} = \left( \frac {1} {\sec {\phi}} \right) = \left( \frac {x} {\rho} \right) & \left( \arccos \frac {x} {\rho} \right) = \left( \cos ^{-1} \frac {x} {\rho} \right) = {\phi} \\
+\end{align}
+$$
+
+![image of sec and tan]({{ site.url }}/assets/trig_diagrams_004.png)
+
+$\tan \phi$ and $\sec \phi$ get $y$ and $\rho$ from $x$.
+
+$$
+\begin{align}
+& \tan {\phi} = \left( \frac {1} {\cot {\phi}} \right) = \left( \frac {y} {x} \right) & \left( \arctan \frac {y} {x} \right) = \left( \tan ^{-1} \frac {y} {x} \right) = {\phi} \\
+& \sec {\phi} = \left( \frac {1} {\cos {\phi}} \right) = \left( \frac {\rho} {x} \right) & \left( \operatorname{arcsec} \frac {\rho} {x} \right) = \left( \sec ^{-1} \frac {\rho} {x} \right) = {\phi} \\
+\end{align}
+$$
+
+![image of csc and cot]({{ site.url }}/assets/trig_diagrams_005.png)
+
+$\cot \phi$ and $\csc \phi$ get $x$ and $\rho$ from $y$.
+
+$$
+\begin{align}
+& \cot {\phi} = \left( \frac {1} {\tan {\phi}} \right) = \left( \frac {x} {y} \right) & \left( \operatorname{arccot} \frac {x} {y} \right) = \left( \cot ^{-1} \frac {x} {y} \right) = {\phi} \\
+& \ csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \ csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
 \end{align}
 $$
 
@@ -122,6 +152,10 @@ $$
 $$
 
 Triangulation.
+
+![image of triangulation]({{ site.url }}/assets/trig_diagrams_006.png)
+![image of triangualtion with obtuse angle]({{ site.url }}/assets/trig_diagrams_007.png)
+
 Angles from two locations- $\phi$, $\theta$.
 Baseline distance between locations- $\rho$.
 Shortest distance from baseline to target object- $y$.
