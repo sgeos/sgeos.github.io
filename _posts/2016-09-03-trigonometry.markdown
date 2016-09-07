@@ -148,6 +148,9 @@ $$
 & b = \rho \sin \phi \\
 & \phi = \tan^{-1} \left( \frac b a \right), 0 \le a \\
 & \phi = \tan^{-1} \left( \frac b a \right) + \pi, a \lt 0 \\
+& z_1 z_2 = r_1 r_2 (\cos(\phi_1 +\phi_2) + i \sin(\phi_1 + phi_2)) \\
+& \left( \frac {z_1} {z_2} \right) =
+  \left( \frac {r_1} {r_2} \right) (\cos(\phi_1 -\phi_2) + i \sin(\phi_1 - phi_2)) \\
 \end{align}
 $$
 
