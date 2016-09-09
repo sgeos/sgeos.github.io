@@ -190,6 +190,16 @@ $$
 \end{align}
 $$
 
+Power reducing identities.
+
+$$
+\begin{align}
+& \sin^2 \phi = \frac {1 - \cos 2\phi} {2} \\
+& \cos^2 \phi = \frac {1 + \cos 2\phi} {2} \\
+& \tan^2 \phi = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
+\end{align}
+$$
+
 Spherical coordinates- radius $\rho$, inclination $\theta$, azimuth $\phi$.
 
 $$
