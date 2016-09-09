@@ -194,9 +194,12 @@ Power reducing identities.
 
 $$
 \begin{align}
-& \sin^2 \phi = \frac {1 - \cos 2\phi} {2} \\
-& \cos^2 \phi = \frac {1 + \cos 2\phi} {2} \\
-& \tan^2 \phi = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
+& \sin^2 \phi = \left( \frac {1} {csc^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {2} \right) \\
+& \cos^2 \phi = \left( \frac {1} {sec^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {2} \right) \\
+& \tan^2 \phi = \left( \frac {1} {cot^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
+& \csc^2 \phi = \left( \frac {1} {sin^2 \phi} \right) = \left( \frac {2} {1 - \cos 2\phi} \right) \\
+& \sec^2 \phi = \left( \frac {1} {cos^2 \phi} \right) = \left( \frac {2} {1 + \cos 2\phi} \right) \\
+& \cot^2 \phi = \left( \frac {1} {tan^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {1 - \cos 2\phi} \right) \\
 \end{align}
 $$
 
