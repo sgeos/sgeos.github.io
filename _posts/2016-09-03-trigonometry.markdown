@@ -190,6 +190,19 @@ $$
 \end{align}
 $$
 
+Half angle identities.
+
+$$
+\begin{align}
+& \sin \left( \frac {\phi} {2} \right) = \left( \frac {1} {\csc (\phi / 2)} \right) = \pm \sqrt{ \frac {1 - \cos 2\phi} {2} } \\
+& \cos \left( \frac {\phi} {2} \right) = \left( \frac {1} {\sec (\phi / 2)} \right) = \pm \sqrt{ \frac {1 + \cos 2\phi} {2} } \\
+& \tan \left( \frac {\phi} {2} \right) = \left( \frac {1} {\cot (\phi / 2)} \right) = \frac {\sin \phi} {1 + \cos \phi} = \frac {1 - \cos \phi} {\sin \phi} \\
+& \csc \left( \frac {\phi} {2} \right) = \left( \frac {1} {\sin (\phi / 2)} \right) = \pm \sqrt{ \frac {2} {1 - \cos 2\phi} } \\
+& \sec \left( \frac {\phi} {2} \right) = \left( \frac {1} {\cos (\phi / 2)} \right) = \pm \sqrt{ \frac {2} {1 + \cos 2\phi} } \\
+& \cot \left( \frac {\phi} {2} \right) = \left( \frac {1} {\tan (\phi / 2)} \right) = \frac {1 + \cos \phi} {\sin \phi} = \frac {\sin \phi} {1 - \cos \phi} \\
+\end{align}
+$$
+
 Power reducing identities.
 
 $$
