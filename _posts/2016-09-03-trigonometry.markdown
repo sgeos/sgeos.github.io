@@ -178,6 +178,18 @@ $$
 \end{align}
 $$
 
+Double angle identities.
+
+$$
+\begin{align}
+& \sin(2 \phi) = 2 \sin\phi \cos\phi \\
+& \cos(2 \phi) = \cos^2 \phi - \sin^2 \phi \\
+& \cos(2 \phi) = 2 \cos^2 \phi - 1 \\
+& \cos(2 \phi) = 1 - 2 \sin^2 \phi \\
+& \tan(2 \phi) = \left( \frac {2 \tan \phi} {1 - \tan^2 \phi} \right) \\
+\end{align}
+$$
+
 Spherical coordinates- radius $\rho$, inclination $\theta$, azimuth $\phi$.
 
 $$
