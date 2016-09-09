@@ -252,6 +252,14 @@ $$
 \end{align}
 $$
 
+DeMoivre's Theorem.  $z^n$ is a complex number raised to the power of $n$.
+
+$$
+\begin{align}
+&z^n = \left[\rho(\cos \phi + i \sin \phi)\right]^n = \rho^n \left(\cos(n\phi)+i \sin(n\phi)\right) \\
+\end{align}
+$$
+
 Triangulation.
 
 ![image of triangulation]({{ site.url }}/assets/trig_diagrams_006.png)
