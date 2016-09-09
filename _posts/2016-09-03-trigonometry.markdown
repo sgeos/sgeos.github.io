@@ -260,6 +260,15 @@ $$
 \end{align}
 $$
 
+Orthogonal decomposition.
+
+$$
+\begin{align}
+& \vec{v}^\parallel = \operatorname{proj}_{\vec \rho} \vec{v} = \left( \frac {\vec{v} \cdot \vec{\rho}} {\vec{\rho} \cdot \vec{\rho}}  \right) \vec {v} \\
+& \vec{v}^\bot = \vec {v} - \vec{v}^\parallel \\
+\end{align}
+$$
+
 Triangulation.
 
 ![image of triangulation]({{ site.url }}/assets/trig_diagrams_006.png)
