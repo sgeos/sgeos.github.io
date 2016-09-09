@@ -56,6 +56,48 @@ $$
 \end{align}
 $$
 
+Reciprocal and quotient identities.
+
+$$
+\begin{align}
+& \tan = \left( \frac {1} {\cot \phi} \right) = \left( \frac {\sin \phi} {\cos \phi} \right) = \left( \frac {\sec \phi} {\csc \phi} \right) = \sin \phi \cdot \sec \phi = \left( \frac {1} {\csc \phi \cdot \cos \phi} \right) =\left( \frac {y} {\rho} \cdot  \frac {\rho} {x} \right) = \left( \frac {y} {x} \right) \\
+& \cot = \left( \frac {1} {\tan \phi} \right) = \left( \frac {\cos \phi} {\sin \phi} \right) = \left( \frac {\csc \phi} {\sec \phi} \right) = cos \phi \cdot \csc \phi = \left( \frac {1} {\sec \phi \cdot \sin \phi} \right) = \left( \frac {x} {\rho} \cdot \frac { \rho} {y} \right) = \left( \frac {x} {y} \right) \\
+& \sin = \left( \frac {1} {\csc \phi} \right) = \left( \frac {\tan \phi} {\sec \phi} \right) = \left( \frac {\cos \phi} {\cot \phi} \right) = \tan \phi \cdot \cos \phi = \left( \frac {1} {\cot \phi \cdot \sec \phi} \right) = \left( \frac {y} {x} \cdot \frac {x} {\rho} \right) = \left( \frac {y} {\rho} \right) \\
+& \csc = \left( \frac {1} {\sin \phi} \right) = \left( \frac {\sec \phi} {\tan \phi} \right) = \left( \frac {\cot \phi} {\cos \phi} \right) = \sec \phi \cdot \cot \phi = \left( \frac {1} {\cos \phi \cdot \tan \phi} \right) = \left( \frac {\rho} {x} \cdot \frac {x} {y} \right) = \left( \frac {\rho} {y} \right) \\
+& \cos = \left( \frac {1} {\sec \phi} \right) = \left( \frac {\cot \phi} {\csc \phi} \right) = \left( \frac {\sin \phi} {\tan \phi} \right) = \cot \phi \cdot \sin \phi = \left( \frac {1} {\tan \phi \cdot \csc \phi} \right) = \left( \frac {x} {y} \cdot \frac {y} {\rho} \right) = \left( \frac {x} {\rho} \right) \\
+& \sec = \left( \frac {1} {\cos \phi} \right) = \left( \frac {\csc \phi} {\cot \phi} \right) = \left( \frac {\tan \phi} {\sin \phi} \right) = \csc \phi \cdot \tan \phi = \left( \frac {1} {\sin \phi \cdot \cot \phi} \right) = \left( \frac {\rho} {y} \cdot \frac {y} {x} \right) = \left( \frac {\rho} {x} \right) \\
+\end{align}
+$$
+
+Pythagorean identities.  These cover all three sets of functions.
+
+$$
+\begin{align}
+& \sin^2 \phi + \cos^2 \phi = 1 \\
+& 1 + \tan^2 \phi = \sec^2 \phi \\
+& 1 + \cot^2 \phi = \csc^2 \phi \\
+\end{align}
+$$
+
+Cofunction identities.  All take the form $ \operatorname{f} \left( \frac {pi} {2} - {\phi} \right) = \operatorname{cof} {\phi}$ and vice versa.
+
+$$
+\begin{align}
+& \sin \left( \frac {pi} {2} - {\phi} \right) = \cos {\phi} & \cos \left( \frac {pi} {2} - {\phi} \right) = \sin {\phi} \\
+& \tan \left( \frac {pi} {2} - {\phi} \right) = \cot {\phi} & \cot \left( \frac {pi} {2} - {\phi} \right) = \tan {\phi} \\
+& \sec \left( \frac {pi} {2} - {\phi} \right) = \csc {\phi} & \csc \left( \frac {pi} {2} - {\phi} \right) = \sec {\phi} \\
+\end{align}
+$$
+
+Odd and even function identities.  $\cos$ and $\sec$ are even.  The rest are odd.
+$$
+\begin{align}
+& \sin ({- \phi}) = - \sin ({\phi}) & \csc ({- \phi}) = - \csc ({\phi}) \\
+& \cos ({- \phi}) = \cos ({\phi}) & \sec ({- \phi}) = \sec ({\phi}) \\
+& \tan ({- \phi}) = - \tan ({\phi}) & \cot ({- \phi}) = - \cot ({\phi}) \\
+\end{align}
+$$
+
 Trigonometric function values as a function of $\phi$.
 If the point is 0 or $\infty$, the $\pm$ and $\mp$ signs indicate the
 value of the function to either side of the specified point.
@@ -148,9 +190,9 @@ $$
 & b = \rho \sin \phi \\
 & \phi = \tan^{-1} \left( \frac b a \right), 0 \le a \\
 & \phi = \tan^{-1} \left( \frac b a \right) + \pi, a \lt 0 \\
-& z_1 z_2 = r_1 r_2 (\cos(\phi_1 +\phi_2) + i \sin(\phi_1 + phi_2)) \\
+& z_1 z_2 = r_1 r_2 (\cos(\phi_1 +\phi_2) + i \sin(\phi_1 + \phi_2)) \\
 & \left( \frac {z_1} {z_2} \right) =
-  \left( \frac {r_1} {r_2} \right) (\cos(\phi_1 -\phi_2) + i \sin(\phi_1 - phi_2)) \\
+  \left( \frac {r_1} {r_2} \right) (\cos(\phi_1 -\phi_2) + i \sin(\phi_1 - \phi_2)) \\
 \end{align}
 $$
 
