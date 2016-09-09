@@ -165,6 +165,19 @@ $$
 \end{align}
 $$
 
+Sum and difference formulas.
+
+$$
+\begin{align}
+& \sin(\phi + \theta) = \sin\phi \cos\theta + \cos\phi \sin\theta \\
+& \sin(\phi - \theta) = \sin\phi \cos\theta - \cos\phi \sin\theta \\
+& \cos(\phi + \theta) = \cos\phi \cos\theta - \sin\phi \sin\theta \\
+& \cos(\phi - \theta) = \cos\phi \cos\theta + \sin\phi \sin\theta \\
+& \tan(\phi + \theta) = \left( \frac {\tan\phi + \tan\theta} {1 - \tan\phi\tan\theta} \right) \\
+& \tan(\phi - \theta) = \left( \frac {\tan\phi - \tan\theta} {1 + \tan\phi\tan\theta} \right) \\
+\end{align}
+$$
+
 Spherical coordinates- radius $\rho$, inclination $\theta$, azimuth $\phi$.
 
 $$
