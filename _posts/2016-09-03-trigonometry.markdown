@@ -157,11 +157,16 @@ Trigonometric identities.
 
 $$
 \begin{align}
-& \cos (a) \cos (b) = \left( \frac {\cos (a+b) + \cos (a-b)} {2} \right) \\
-& \sin (a) \sin (b) = \left( \frac {\cos (a-b) - \cos (a+b)} {2} \right) \\
-& \sin (a) \cos (b) = \left( \frac {\sin (a+b) + \sin (a-b)} {2} \right) \\
-& \cos (a) \sin (b) = \left( \frac {\sin (a+b) - \sin (a-b)} {2} \right) \\
-& \cos (a) \sin (b) = \sin (b) \cos (a) \\
+& \cos (\phi) \cos (\theta) = \left( \frac {\cos (\phi+\theta) + \cos (\phi-\theta)} {2} \right) \\
+& \sin (\phi) \sin (\theta) = \left( \frac {\cos (\phi-\theta) - \cos (\phi+\theta)} {2} \right) \\
+& \sin (\phi) \cos (\theta) = \left( \frac {\sin (\phi+\theta) + \sin (\phi-\theta)} {2} \right) \\
+& \cos (\phi) \sin (\theta) = \left( \frac {\sin (\phi+\theta) - \sin (\phi-\theta)} {2} \right) \\
+& \cos (\phi) \sin (\theta) = \sin (\theta) \cos (\phi) \\
+\\
+& \sin (\phi) + \sin (\theta) = 2 \sin \left( \frac {\phi + \theta} {2} \right) \cos \left( \frac {\phi - \theta} {2} \right) \\
+& \sin (\phi) - \sin (\theta) = 2 \cos \left( \frac {\phi + \theta} {2} \right) \sin \left( \frac {\phi - \theta} {2} \right) \\
+& \cos (\phi) + \cos (\theta) = 2 \cos \left( \frac {\phi + \theta} {2} \right) \cos \left( \frac {\phi - \theta} {2} \right) \\
+& \cos (\phi) - \cos (\theta) = -2 \sin \left( \frac {\phi + \theta} {2} \right) \sin \left( \frac {\phi - \theta} {2} \right) \\
 \end{align}
 $$
 
