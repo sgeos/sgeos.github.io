@@ -5,15 +5,14 @@ title:  "Executing Single File Elixir Programs in the mix Environment"
 date:   2016-07-18 05:47:42 +0000
 categories: elixir erlang mix
 ---
-Writing [single file elixir programs][blog-single-file] can useful for
+Writing [single file elixir programs][blog-single-file] can be useful for
 experiments that are a little too complicated for **iex**, but that are
 not complicated enough to warrant a full blown mix project.
 
 Likewise, experimenting with code that relies on the mix environment
 can get complicated enough that putting it in a file is useful.
-sometimes 
-it can be useful to create a self contained file and run it inside of
-the mix environment 
+This post covers stand alone code snippet files that rely on the mix project,
+as opposed to mix tasks that are logically part of it.
 
 ## Software Versions
 
