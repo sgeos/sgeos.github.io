@@ -97,7 +97,6 @@ export DB_USER=phoenix_environment_settings
 export DB_PASSWORD=phoenix_environment_settings_password
 export DB_NAME=phoenix_environment_settings_prod
 export DB_HOST=localhost
-export DB_POOL_SIZE=20
 export HOST=host.example.org
 export PORT=7777
 export SECRET_KEY_BASE=$(elixir -e ":crypto.strong_rand_bytes(48) |> Base.encode64 |> IO.puts")
@@ -133,7 +132,7 @@ config :phoenix_environment_settings, PhoenixEnvironmentSettings.Repo,
   password: "${DB_PASSWORD}",
   database: "${DB_NAME}",
   hostname: "${DB_HOST}",
-  pool_size: "${DB_POOL_SIZE}"
+  pool_size: 20
 {% endhighlight %}
 
 Alternatively, keep hard coded values in **config/prod.secret.exs**
@@ -153,11 +152,10 @@ config :phoenix_environment_settings, PhoenixEnvironmentSettings.Repo,
   password: "${DB_PASSWORD}",
   database: "${DB_NAME}",
   hostname: "${DB_HOST}",
-  pool_size: "${DB_POOL_SIZE}"
+  pool_size: 20
 {% endhighlight %}
 
-Optionally, add dynamic configuration with a default values
-to **config/dev.exs**.
+Optionally, add dynamic configuration with a default values to **config/dev.exs**.
 The environment variable replacement above is **only** suitable for releases.
 The interpreted solution below is **only** suitable for development with **mix**.
 
@@ -175,7 +173,7 @@ config :phoenix_environment_settings, PhoenixEnvironmentSettings.Repo,
   password: System.get_env("DB_PASSWORD") || "postgres",
   database: System.get_env("DB_NAME") || "phoenix_environment_settings_dev",
   hostname: System.get_env("DB_HOST") || "localhost",
-  pool_size: (System.get_env("DB_POOL_SIZE") || "10") |> String.to_integer
+  pool_size: 10
 {% endhighlight %}
 
 ## Adding Release Tasks
@@ -423,6 +421,32 @@ This is useful for defining environment variable knobs to control run time behav
 It is not a solution for problems that rely on compile time behavior,
 like using environment variables to specify [dynamic routes][phoenix-dynamic-gist].
 
+## Other Considerations
+
+Note that when using **RELX_REPLACE_OS_VARS=true**, the environment variables in **rel/sys.conf** and
+**config/config.exs** will always be replaced with strings.
+The following almost certainly does not work as expected.
+
+{% highlight sh %}
+export DB_POOL_SIZE=20
+{% endhighlight %}
+
+**config/prod.exs** or
+**config/prod.secret.exs** partial listing
+{% highlight sh %}
+  pool_size: "${DB_POOL_SIZE}"
+{% endhighlight %}
+
+The following will work in development, but not production.
+
+**config/dev.exs** partial listing
+{% highlight sh %}
+  pool_size: (System.get_env("DB_POOL_SIZE") || "10") |> String.to_integer
+{% endhighlight %}
+
+If integers or atoms need to be passed in directly, use **vm.args**.
+The author could not figure out how to pass **DB_POOL_SIZE** to Repo via **vm.args**.
+
 ## Next Steps
 
 Consider looking into [distillery][distillery], the "new exrm" written in pure Elixir.
@@ -436,9 +460,15 @@ Also consider looking into [conform][conform], a library for working with init-s
 - [Elixir Release Manager, Running migration in an Exrm release][exrm-migration]
 - [Elixir Release Manager, How to run Ecto migrations from an exrm release][exrm-migration-gist]
 - [Elixir, Useful Config Wrapper Gist][config-gist]
+- [Elixir, Understanding Config in Elixir][elixir-understanding-config]
+- [Elixir as a Service on FreeBSD][elixir-service]
+- [Erlang, man erl][erlang-man-erl]
+- [Erlang, man config][erlang-man-config]
 - [Phoenix, Dynamic Dispatch Gist][phoenix-dynamic-gist]
 - [Phoenix, A Shell Script for Working with Phoenix JSON APIs][blog-json-api-script]
+- [Phoenix as a Service on FreeBSD][phoenix-service]
 - [Mix, Accessing Mix tasks from release][mix-release]
+- [Mix, exrm PostgreSQL/MySQL release equivalents for `mix ecto.create` and `mix ecto.drop`.][mix-ecto-gist]
 - [Distillery][distillery]
 - [Distillery, Runtime Configuration][distillery-config]
 
@@ -448,9 +478,15 @@ Also consider looking into [conform][conform], a library for working with init-s
 [exrm-migration]: http://blog.plataformatec.com.br/2016/04/running-migration-in-an-exrm-release/
 [exrm-migration-gist]: https://gist.github.com/antipax/90cc36d29c2a2a5d4629
 [config-gist]: https://gist.github.com/bitwalker/a4f73b33aea43951fe19b242d06da7b9
+[elixir-understanding-config]: http://sheldonkreger.com/understanding-config-in-elixir.html
+[elixir-service]: http://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
+[erlang-man-erl]: http://erlang.org/doc/man/erl.html
+[erlang-man-config]: http://erlang.org/doc/man/config.html
 [phoenix-dynamic-gist]: https://gist.github.com/chrismccord/e0eaefe30d2ecd85b4ac
 [blog-json-api-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
+[phoenix-service]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
 [mix-release]: https://github.com/bitwalker/exrm/issues/67#issuecomment-183457937
+[mix-ecto-gist]: https://gist.github.com/sgeos/1fed5eb24d80b97a338249dd95d55082
 [distillery]: https://github.com/bitwalker/distillery
 [distillery-config]: https://hexdocs.pm/distillery/runtime-configuration.html
 [conform]: https://github.com/bitwalker/conform

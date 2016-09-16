@@ -134,6 +134,16 @@ iex --name "${NAME}" --cookie "${COOKIE}" --remsh "${REMOTE_NODE}"
 erl -name "${NAME}" -setcookie "${COOKIE}" -remsh "${REMOTE_NODE}"
 {% endhighlight %}
 
+Note that **:runtime_tools** must be in the applications list to observe an app released with *exrm*.
+
+**mix.exs** partial listing
+{% highlight elixir %}
+  def application do
+    [mod: {MyApp, []},
+     applications: [:runtime_tools]] # add to this list
+  end
+{% endhighlight %}
+
 ## References:
 
 - [Erlang, Using OTP's observer (appmon replacement) remotely][observer-remote]
