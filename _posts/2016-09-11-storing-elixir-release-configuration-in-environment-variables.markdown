@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 comments: true
-title:  "Storing Elixir Release Configuration in Environment Variables"
+title:  "Storing Elixir Release Configuration in Environment Variables with exrm"
 date:   2016-09-11 18:09:35 +0000
 categories: phoenix elixir erlang ecto exrm postgresql mysql
 ---
@@ -285,7 +285,7 @@ Note that the **RELX_REPLACE_OS_VARS=true** environment variable needs to
 be defined to use environment variables for dynamic configuration.
 
 The **rel/vm.args** file is primarily used to configure the erlang VM.
-It can also be used to define application configure parameters.
+It can also be used to define application configuration parameters.
 Application configuration parameters defined in this file can be passed
 into the program as atoms or integers.
 Note that the location of this file can be [configured][exrm-config]
@@ -394,7 +394,7 @@ end
 
 Add these lines to **config/config.exs**.
 
-config/config.exs partial listing
+**config/config.exs** partial listing
 {% highlight sh %}
 config :phoenix_environment_settings,
   ecto_repos: [PhoenixEnvironmentSettings.Repo],
@@ -416,7 +416,7 @@ You should get the environment variable values this time.
 
 {% highlight sh %}
 export WELCOME_MESSAGE="Welcome. Try, but there is no escape."
-export MAGIC_NUMER=-1
+export MAGIC_NUMBER=-1
 {% endhighlight %}
 
 This is useful for defining environment variable knobs to control run time behavior.
@@ -453,6 +453,7 @@ The author could not figure out how to pass **DB_POOL_SIZE** to Repo via **vm.ar
 
 Consider looking into [distillery][distillery], the "new exrm" written in pure Elixir.
 Also consider looking into [conform][conform], a library for working with init-style configuration.
+For deployment, [edeliver][edeliver] is worth looking at.
 
 ## References:
 
@@ -464,6 +465,8 @@ Also consider looking into [conform][conform], a library for working with init-s
 - [Elixir, Useful Config Wrapper Gist][config-gist]
 - [Elixir, Understanding Config in Elixir][elixir-understanding-config]
 - [Elixir as a Service on FreeBSD][elixir-service]
+- [Elixir, conform][conform]
+- [Elixir, edeliver][edeliver]
 - [Erlang, man erl][erlang-man-erl]
 - [Erlang, man config][erlang-man-config]
 - [Phoenix, Dynamic Dispatch Gist][phoenix-dynamic-gist]
@@ -492,4 +495,5 @@ Also consider looking into [conform][conform], a library for working with init-s
 [distillery]: https://github.com/bitwalker/distillery
 [distillery-config]: https://hexdocs.pm/distillery/runtime-configuration.html
 [conform]: https://github.com/bitwalker/conform
+[edeliver]: https://github.com/boldpoker/edeliver
 
