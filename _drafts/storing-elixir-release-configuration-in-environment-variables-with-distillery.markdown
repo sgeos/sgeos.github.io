@@ -277,7 +277,7 @@ REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_se
 {% endhighlight %}
 
 The `mix ecto.create` and `mix ecto.drop` tasks are run less frequently
-so it probably just makes sense to just manually create or drop the database
+so it may just makes sense to just manually create or drop the database
 and user.  PostgreSQL commands follow.
 
 {% highlight sh %}
@@ -311,33 +311,124 @@ mysql -e "DROP USER '${DB_USER}'@'localhost';"
 mysql -u"${DB_USER}" -p"${DB_PASSWORD}" "${DB_NAME}"
 {% endhighlight %}
 
-Run the `mix ecto.create` equivalent now.
-
 Note that the password security in the above commands is less than ideal.
 Also, an existing superuser and password may need to be explicily
 specified when creating the new user and database.
+
+## Adding Custom Commands for Release Tasks
+
+Distillery supports custom commands.
+To wrap the above release tasks in custom commands,
+first create the **rel/commands** directory.
+
+{% highlight sh %}
+mkdir rel/commands
+{% endhighlight %}
+
+Next add a command for `ecto.migrate`.
+
+**rel/commands/ecto_migrate**
+{% highlight sh %}
+#!/usr/bin/env sh
+
+# mix ecto.migrate` equivalent
+"${SCRIPT}" command release_tasks migrate
+{% endhighlight %}
+
+The PostgreSQL versions of the `ecto.create` and `ecto.drop` commands follow.
+
+**rel/commands/ecto_create**
+{% highlight sh %}
+#!/usr/bin/env sh
+
+# PostgreSQL `mix ecto.create` equivalent
+psql -c "CREATE USER ${DB_USER} WITH PASSWORD '${DB_PASSWORD}';" &&
+createdb "${DB_NAME}" &&
+psql -c "GRANT ALL PRIVILEGES ON DATABASE ${DB_NAME} to ${DB_USER};" &&
+echo "The database '${DB_NAME}' and role '${DB_USER}' have been created."
+{% endhighlight %}
+
+**rel/commands/ecto_drop**
+{% highlight sh %}
+#!/usr/bin/env sh
+
+# PostgreSQL `mix ecto.drop` equivalent
+dropdb "${DB_NAME}" &&
+dropuser "${DB_USER}" &&
+echo "The database '${DB_NAME}' and role '${DB_USER}' have been dropped."
+{% endhighlight %}
+
+Alternatively, the MySQL versions of `ecto.create` and `ecto.drop` look like this.
+
+**rel/commands/ecto_create**
+{% highlight sh %}
+#!/usr/bin/env sh
+
+# MySQL `mix ecto.create` equivalent
+mysql -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASSWORD}';" &&
+mysql -e "CREATE DATABASE ${DB_NAME};" &&
+mysql -e "GRANT ALL PRIVILEGES ON ${DB_NAME}.* TO '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASSWORD}';" &&
+mysql -e "FLUSH PRIVILEGES;" &&
+echo "The database '${DB_NAME}' and role '${DB_USER}' have been created."
+{% endhighlight %}
+
+**rel/commands/ecto_drop**
+{% highlight sh %}
+#!/usr/bin/env sh
+
+# MySQL `mix ecto.drop` equivalent
+mysql -e "DROP DATABASE ${DB_NAME};" &&
+mysql -e "DROP USER '${DB_USER}'@'localhost';" &&
+echo "The database '${DB_NAME}' and role '${DB_USER}' have been dropped."
+{% endhighlight %}
+
+Finally, modify **rel/config.exs** so that the custom commands are present.
+The following version is a rewrite.
+
+**rel/config.exs**
+{% highlight sh %}
+use Mix.Releases.Config,
+    default_release: :default,
+    default_environment: :prod
+
+environment :prod do
+  set include_erts: true
+  set include_src: false
+  set commands: [
+    "ecto.migrate": "rel/commands/ecto_migrate",
+    "ecto.create": "rel/commands/ecto_create",
+    "ecto.drop": "rel/commands/ecto_drop"
+  ]
+end
+
+release :phoenix_environment_settings do
+  set version: current_version(:phoenix_environment_settings)
+end
+{% endhighlight %}
 
 ## Running the Release
 
 Build the release with the configuration files.
 
 {% highlight sh %}
+# rm -rf rel/phoenix_environment_settings/ # optional, no stale release files
 MIX_ENV=prod mix compile
 # brunch build --production # if using brunch
 MIX_ENV=prod mix phoenix.digest
 MIX_ENV=prod mix release --env=prod
 {% endhighlight %}
 
-Run the migration task defined in the **Adding Release Tasks** section.
+Run the `ecto.create` and `ecto.migrate` custom commands defined in the above sections.
 
 {% highlight sh %}
-REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings command release_tasks migrate
+REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings ecto.create
+REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings ecto.migrate
 {% endhighlight %}
 
-Start the release in the console.
+Start the release.
 
 {% highlight sh %}
-REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings console
+REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings start
 {% endhighlight %}
 
 Make sure the server responds.
@@ -348,7 +439,11 @@ curl -H 'Content-Type: application/json' -X POST -d '{"memo": {"title": "Memo B"
 curl "http://localhost:${PORT}/api/memos"
 {% endhighlight %}
 
-Exit the console with ^C.
+Stop the release.
+
+{% highlight sh %}
+REPLACE_OS_VARS=true rel/phoenix_environment_settings/bin/phoenix_environment_settings start
+{% endhighlight %}
 
 ## Custom Application Settings
 
