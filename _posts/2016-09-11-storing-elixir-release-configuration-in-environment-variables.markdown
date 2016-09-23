@@ -405,7 +405,7 @@ config :phoenix_environment_settings,
 Access the settings in `iex -S mix` like this.
 You should get the default values.
 
-**iex**
+**iex -S mix**
 {% highlight elixir %}
 Config.get :phoenix_environment_settings, :welcome_message
 Config.get_integer :phoenix_environment_settings, :magic_number
