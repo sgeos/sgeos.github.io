@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 comments: true
-title:  "Setting Up Lumina with slim in Japanese and Watching DVDs on FreeBSD"
+title:  "Setting Up Lumina with slim in Japanese and Watching YouTube and DVDs on FreeBSD"
 date:   2016-10-01 23:28:23 +0000
 categories: freebsd xorg lumina slim chrome vlc
 ---
