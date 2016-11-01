@@ -31,6 +31,26 @@ $$
 
 ## Statistics
 
+$x$ Variable of interest.
+$\bar{x}$ Sample mean.
+$s^2_x$ Sample variance with respect to $x$.
+$s_x$ Sample standard deviation with respect to $x$.
+$\mu$ Population mean.
+$\sigma^2$ Population variance.
+$\sigma$ Population standard deviation.
+
+$$
+\begin{align}
+& \bar{x} = \sum_{i=1}^n\frac{x_i}{n} \\
+& s^2_x = \sum_{i=1}^n\frac{(x_i - \bar{x})^2}{n-1} \\
+& s_x = \sqrt{\sum_{i=1}^n\frac{(x_i - \bar{x})^2}{n-1}} \\
+& \sigma^2 = \sum_{i=1}^n\frac{(x_i - \mu)^2}{n} \\
+& \sigma = \sqrt{\sum_{i=1}^n\frac{(x_i - \mu)^2}{n}} \\
+\end{align}
+$$
+
+$\hat{p}$ 
+
 Confidence interval for population variance $\sigma^2$ and population standard deviation $\sigma$.
 Uses sample standard deviation $s$ and a chi-squared distribution $\chi^2$ with $n-1$ degrees of freedom.
 Used to find a $(1-\alpha)100\%$ confidence interval.
