@@ -49,6 +49,10 @@ $$
 \end{align}
 $$
 
+$H_0$ Null hypothesis.
+$H_A$ or $H_1$ Alternate hypothesis.
+$\hat{p}$
+
 Confidence interval for population variance $\sigma^2$ and population standard deviation $\sigma$.
 Uses sample standard deviation $s$ and a chi-squared distribution $\chi^2$ with $n-1$ degrees of freedom.
 Used to find a $(1-\alpha)100\%$ confidence interval.
