@@ -49,8 +49,6 @@ $$
 \end{align}
 $$
 
-$\hat{p}$ 
-
 Confidence interval for population variance $\sigma^2$ and population standard deviation $\sigma$.
 Uses sample standard deviation $s$ and a chi-squared distribution $\chi^2$ with $n-1$ degrees of freedom.
 Used to find a $(1-\alpha)100\%$ confidence interval.
@@ -62,6 +60,18 @@ $$
 & \sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} \lt \sigma \lt \sqrt{\frac{(n-1)s^2}{\chi^2_{1 - \alpha/2}}} \\
 \end{align}
 $$
+
+Confidence interval for difference of population means.  First population $x_1$.  Second population $x_2$.  Population mean $\bar{x}$.  Standard deviation $\sigma$.  Sample size $n$.  Z-score for value $v$ below the curve $z_v$.  Confidence interval percentage $\alpha$.
+
+$$
+\begin{align}
+& (\bar{x_1} - \bar{x_2}) \mp z_{(1-\alpha/2)} \sqrt{\frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2}}
+\end{align}
+$$
+
+## Memo
+
+$\hat{p}$ 
 
 ## References:
 
