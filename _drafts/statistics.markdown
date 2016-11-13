@@ -69,13 +69,72 @@ Confidence interval for difference of population means.  First population $x_1$.
 
 $$
 \begin{align}
-& (\bar{x_1} - \bar{x_2}) \mp z_{(1-\alpha/2)} \sqrt{\frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2}}
+& (\bar{x_1} - \bar{x_2}) \mp z_{(1-\alpha/2)} \sqrt{\frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2}} \\
 \end{align}
 $$
 
-## Memo
+Proportion $p$.
+Estimated proportion $\hat{p}$.
 
-$\hat{p}$ 
+Rejecting the null hypothesis $H_0$ when it is true is a **type 1 error**.
+Failing to reject the null hypothesis when the alternate hypothesis $H_A$ is true is a **type 2 error**.
+The significance level $\alpha$ is also the type 1 error rate.
+The type 2 error rate $\beta$ is related to the power of a test $(1 - \beta)$.
+
+Standard normal distribution $N(\mu = 0, \sigma = 1)$.
+
+Observation $x$.  Population mean $\mu$.  Standard deviation $\sigma$.
+$$
+\begin{align}
+& Z = \frac {x - \mu}{\sigma} \\
+\end{align}
+$$
+
+Point estimate $\hat{x}$.
+Hypothesis null value ${x_0}$.
+Standard error of point estimate $SE_{\hat{x}}$.
+
+$$
+\begin{align}
+& Z = \frac{\hat{x}-x_0}{SE_{\hat{x}}} \\
+\end{align}
+$$
+
+Point estimate $\hat{x}$.
+Selected confidence level $z^\star$.
+Standard error of point estimate $SE_{\hat{x}}$.
+Margin of error $ME_{\hat{x}}$.
+
+$$
+\begin{align}
+& \hat{x} \mp z^\star SE_{\hat{x}} & \text{one tailed confidence interval} \\
+& \hat{x} \mp z^\star SE_{\hat{x}} & \text{two tailed confidence interval} \\
+& ME_{\hat{x}} = z^\star SE_{\hat{x}} & \text{margin of error} \\
+\end{align}
+$$
+
+Proportion estimate $\hat{p}$, near normal distribution. Standard error of proportion estimate $SE_{\hat{p}}$.  True proportion $p$. Sample size $n$.  Independent observations.  At least ten successes $10 \le np$ and ten failures $10 \le n(1-p)$.  For confidence intervals, $\hat{p}$ is generally used instead of $p$.  For hypothesis tests, the null value $p_0$ is used instead of $p$.
+
+$$
+\begin{align} \\
+& SE_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} \\
+\end{align}
+$$
+
+Sample size $n$.
+Margin of error $ME_{\hat{x}}$.
+Selected confidence level $z^\star$.
+Standard error $SE_{\hat{x}}$.
+Proportion $p$ with worst case estimate of 0.5.
+
+$$
+\begin{align} \\
+& ME_{\hat{x}} = z^\star SE_{\hat{x}} & \text{margin of error} \\
+& \frac{(z^\star)^2p(1-p)}{(ME_{\hat{x}})^2} \le n & \text{proportion sample size} \\
+\end{align}
+$$
+
+Significance level $\alpha$.
 
 ## References:
 
