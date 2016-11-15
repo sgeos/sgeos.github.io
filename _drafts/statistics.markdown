@@ -29,6 +29,20 @@ $$
 \end{align}
 $$
 
+Total event probability $P(E)$.
+Condition A probability, $P(A)$.
+Condition B probability, $P(B)$.
+Event probability given condition A, $P(E \vert A)$.
+Event probability given condition B, $P(E \vert B)$.
+
+$$
+\begin{align}
+& P(E) = P(E \vert A) \cdot P(A) + P(E \vert B) \cdot P(B) \\
+& P(E \vert A) = \frac{P(E) - P(E \vert B) \cdot P(B)}{P(A)} \\
+& P(A) = \frac{P(E) - P(E \vert B) \cdot P(B)}{P(E \vert A)} \\
+\end{align}
+$$
+
 ## Statistics
 
 $x$ Variable of interest.
@@ -134,7 +148,48 @@ $$
 \end{align}
 $$
 
+Standard error for difference of proportions $SE_{\hat{p}_1-\hat{p}_2}$ near normal distribution.
+Standard error $SE_{\hat{p}_1}$ of proportion one $\hat{p}_1$, sample size $n_1$.
+Standard error $SE_{\hat{p}_2}$ of proportion two $\hat{p}_2$, sample size $n_2$.
+Each proportion follows normal model.
+Independent observations.
+
+$$
+\begin{align} \\
+& SE_{\hat{p}_1-\hat{p}_2} = \sqrt{(SE_{\hat{p}_1})^2 + (SE_{\hat{p}_2})^2} = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \\
+\end{align}
+$$
+
+Confidence interval for difference of proportions $\bar{x}_{\hat{p}_1 - \hat{p}_2}$.
+Selected confidence level $z^\star_{1 - \alpha}$ for significance level $\alpha$.
+Standard error for difference of proportions $SE_{\hat{p}_1-\hat{p}_2}$.
+Standard error $SE_{\hat{p}_1}$ of proportion one $\hat{p}_1$, sample size $n_1$.
+Standard error $SE_{\hat{p}_2}$ of proportion two $\hat{p}_2$, sample size $n_2$.
+
+$$
+\begin{align} \\
+& \bar{x}_{\hat{p}_1 - \hat{p}_2} \mp z^\star_{1-\alpha} SE_{\hat{p}_1 - \hat{p}_2} & \text {one tailed confidence interval} \\
+& \bar{x}_{\hat{p}_1 - \hat{p}_2} \mp z^\star_{1-\alpha/2} SE_{\hat{p}_1 - \hat{p}_2} & \text {two tailed confidence interval} \\
+& \hat{p}_1-\hat{p}_2 \mp z^\star_{1 - \alpha} \sqrt{(SE_{\hat{p}_1})^2 + (SE_{\hat{p}_2})^2} \\
+& \hat{p}_1 - \hat{p}_2 \mp z^\star_{1 - \alpha} \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \\
+\end{align}
+$$
+
+Pooled estimate of shared proportion $\hat{p}$ for null hypothesis $H_0: p_1 = p_2$.
+Proportion one $\hat{p}_1$ of sample size $n_1$.
+Proportion two $\hat{p}_2$ of sample size $n_2$.
+
+$$
+\begin{align} \\
+& \hat{p} = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2} \\
+\end{align}
+$$
+
+## Memo
+
+Approximately equal $\approx$.
 Significance level $\alpha$.
+t value $t^\star_{df}$.
 
 ## References:
 
