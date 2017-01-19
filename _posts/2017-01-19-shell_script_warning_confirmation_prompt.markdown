@@ -37,8 +37,8 @@ The script assumes the users knows what they are doing and executes the destruct
 NUKE_ENVIRONMENT=$(echo "${NUKE_ENVIRONMENT}" | tr '[:upper:]' '[:lower:]')
 FORCE=$(echo "${FORCE}" | tr '[:upper:]' '[:lower:]')
 
-# prompt if NUKE_ENVIRONMENT
-# skip prompot if FORCE
+# prompt if NUKE_ENVIRONMENT == true
+# skip prompt if FORCE == true
 if [ \( "true" = "${NUKE_ENVIRONMENT}" \) -a \( "true" != "${FORCE}" \) ]
 then
   echo "Nuking the environment will do something really destructive."
