@@ -120,7 +120,7 @@ fi
 
 if [ "true" = "${NUKE_SDK}" ]
 then
-  echo "Replacing base SDK."
+  echo "Replacing base Android SDK."
   rm -rf "${ANDROID_SDK}"
   curl -sLk "${SDK_URL}" | unzip - -d "${ANDROID_SDK}"
   patch_tools
@@ -148,8 +148,12 @@ echo y | android update sdk --no-ui --all --filter "extra-android-support,extra-
 # Stub for Unwritten NDK Installation Functionality
 if [ "true" = "${NUKE_NDK}" ]
 then
+  echo "Replacing Android NDK."
+  rm -rf "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}"
   mkdir -p "${ANDROID_NDK}"
-  curl -sLk "${NDK_URL}" | unzip - -d "${ANDROID_NDK}"
+  curl -sLk "${NDK_URL}" | unzip - -d "$(dirname ${ANDROID_NDK})"
+  rmdir "${ANDROID_NDK}"
+  ln -s "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}" "${ANDROID_NDK}"
   brand_executable "${ANDROID_NDK}/"
 fi
 {% endhighlight %}
@@ -172,6 +176,20 @@ pkg install android-tools-adb-devel
 adb devices
 # authorize the device if you need to
 adb shell input text "Hello,\ World!\ "
+{% endhighlight %}
+
+Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
+
+**${HOME}/.profile** partial listing
+{% highlight sh %}
+export ANDROID_SDK="${HOME}/android/sdk"
+export ANDROID_HOME="${ANDROID_SDK}"
+export ANDROID_NDK="${HOME}/android/ndk"
+export ANDROID_NDK_HOME="${ANDROID_NDK}"
+export ANDROID_NDK_ROOT="${ANDROID_NDK}"
+export ANDROID_BUILD_TOOLS_VERSION="25.0.2"
+
+export PATH="${ANDROID_SDK}/tools:${ANDROID_SDK}/tools/bin:${ANDROID_SDK}/platform-tools:${ANDROID_SDK}/build-tools/${ANDROID_BUILD_TOOLS_VERSION}:${ANDROID_NDK}:${PATH}"
 {% endhighlight %}
 
 Testing the installation.
