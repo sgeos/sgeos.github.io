@@ -43,7 +43,7 @@ Execute the following as root to install **linux_base-c7** with 64-bit support.
 **sh**
 {% highlight sh %}
 kldload linux linux64
-pkg install bash git gradle python
+pkg install bash git gradle python wget rpm4
 ln -s /usr/local/bin/bash /bin/bash
 echo "# 64-bit Linux" >> /etc/make.conf
 echo "DEFAULT_VERSIONS+=linux=c7_64" >> /etc/make.conf
@@ -136,14 +136,19 @@ brand_executable "${ANDROID_SDK}/platform-tools/"
 brand_executable "${ANDROID_SDK}/build-tools/*/"
 
 # Other API Levels
-echo y | android update sdk --no-ui --all --filter "build-tools-25.0.2,android-25"
-echo y | android update sdk --no-ui --all --filter "build-tools-24.0.3,android-24,addon-google_apis-google-24"
-echo y | android update sdk --no-ui --all --filter "build-tools-23.0.3,android-23,addon-google_apis-google-23"
+echo y | android update sdk --no-ui --all --filter "build-tools-25,build-tools-25.0.1,build-tools-25.0.2,android-25"
+echo y | android update sdk --no-ui --all --filter "build-tools-24,build-tools-24.0.1,build-tools-24.0.2,build-tools-24.0.3,android-24,addon-google_apis-google-24"
+echo y | android update sdk --no-ui --all --filter "build-tools-23,build-tools-23.0.1,build-tools-23.0.2,build-tools-23.0.3,android-23,addon-google_apis-google-23"
 brand_executable "${ANDROID_SDK}/build-tools/*/"
 
 # Other Packages
 echo y | android update sdk --no-ui --all --filter "extra-google-google_play_services,extra-google-m2repository"
 echo y | android update sdk --no-ui --all --filter "extra-android-support,extra-android-m2repository"
+
+# Accept Licenses for Automatic Dependency Download
+mkdir -p "${ANDROID_HOME}/licenses"
+echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "${ANDROID_HOME}/licenses/android-sdk-license"
+echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "${ANDROID_HOME}/licenses/android-sdk-preview-license"
 
 # Stub for Unwritten NDK Installation Functionality
 if [ "true" = "${NUKE_NDK}" ]
@@ -154,7 +159,22 @@ then
   curl -sLk "${NDK_URL}" | unzip - -d "$(dirname ${ANDROID_NDK})"
   rmdir "${ANDROID_NDK}"
   ln -s "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}" "${ANDROID_NDK}"
-  brand_executable "${ANDROID_NDK}/"
+  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64"
+  echo "Installing CMake for Android NDK."
+  INSTALL_CMAKE_URL="https://github.com/Commit451/android-c wget rpm4make-installer/releases/download/1.1.0/install-cmake.sh"
+  rm -rf "${ANDROID_HOME}/cmake"
+  curl -sLk "${INSTALL_CMAKE_URL}" | sh
+  CMAKE_DIRECTORY="$(cd ${ANDROID_HOME}/cmake/*/bin; pwd)"
+  brand_executable "${CMAKE_DIRECTORY}/cmake"
+  brand_executable "${CMAKE_DIRECTORY}/cpack"
+  brand_executable "${CMAKE_DIRECTORY}/ctest"
+  brand_executable "${CMAKE_DIRECTORY}/ninja"
+  rm -f /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
+  wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libcrypto.so.1.0.0 -O /compat/linux/usr/lib64/libcrypto.so.1.0.0
+  ln -s /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
+  rm -f /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
+  wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libssl.so.1.0.0 -O /compat/linux/usr/lib64/libssl.so.1.0.0
+  ln -s /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
 fi
 {% endhighlight %}
 
@@ -182,13 +202,13 @@ Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
 
 **${HOME}/.profile** partial listing
 {% highlight sh %}
+# PATH += Android SDK and Android NDK
 export ANDROID_SDK="${HOME}/android/sdk"
 export ANDROID_HOME="${ANDROID_SDK}"
 export ANDROID_NDK="${HOME}/android/ndk"
 export ANDROID_NDK_HOME="${ANDROID_NDK}"
 export ANDROID_NDK_ROOT="${ANDROID_NDK}"
 export ANDROID_BUILD_TOOLS_VERSION="25.0.2"
-
 export PATH="${ANDROID_SDK}/tools:${ANDROID_SDK}/tools/bin:${ANDROID_SDK}/platform-tools:${ANDROID_SDK}/build-tools/${ANDROID_BUILD_TOOLS_VERSION}:${ANDROID_NDK}:${PATH}"
 {% endhighlight %}
 
@@ -196,8 +216,13 @@ Testing the installation.
 
 **sh**
 {% highlight sh %}
-git clone git@github.com:playgameservices/cpp-android-basic-samples.git "${HOME}/projects/android-ndk-samples"
-cd "${HOME}/projects/android-ndk-samples/samples-android"
+export ANDROID_HOME="${HOME}/android/sdk"
+export ANDROID_NDK_HOME="${HOME}/android/ndk"
+git clone git@github.com:googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
+# OR the following for HTTP
+# git clone https://github.com/googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
+cd "${HOME}/projects/android-ndk-samples/androidsamples-android"
+./gradlew --refresh-dependencies
 ./gradlew clean check build
 {% endhighlight %}
 
@@ -208,22 +233,26 @@ cd "${HOME}/projects/android-ndk-samples/samples-android"
 - [Android, How to set ANDROID_NDK_HOME so that Android Studio does not ask for ndk location?][android-ndk-setup]
 - [Android, Andrid NDK Notes][android-ndk-notes]
 - [Android, NDK Downloads][android-ndk-downloads]
-- [Android, Android Google Play Games Native Samples][android-ndk-samples]
+- [Android, NDK Samples (GitHub Repository)][android-ndk-samples]
 - [Android, TDD Playground][android-tdd-playground]
 - [adb, Using SPACE with adb shell input][adb-text-input-space]
 - [Gradle, Gradle Plugin User Guide - Testing][gradle-plugin-user-guide-testing]
 - [FreeBSD, FreeBSD Handbook - Linux® Binary Compatibility][freebsd-linux-emulation]
-- [FreeBSD, FreshPorts - devel/android-tools-adb-devel][freebsd-port-android-tools-adb-devel]: https://www.freshports.org/devel/android-tools-adb-devel/
+- [FreeBSD, FreeBSD Handbook - Installing Additional Libraries Manually][freebsd-linux-lib-manual-install]
+- [FreeBSD, FreshPorts - devel/android-tools-adb-devel][freebsd-port-android-tools-adb-devel]
+- [Linux, Install Spotify stable (v 0.9.17) on Fedora 23 64-bit][linux-ssl-lib]
 
 [android-freebsd-ci]: http://zewaren.net/site/node/165/
 [android-ndk-terminal-download]: http://qiita.com/tanjo/items/0c6549c6700160d5595b
 [android-ndk-setup]: http://stackoverflow.com/questions/39159357/how-to-set-android-ndk-home-so-that-android-studio-does-not-ask-for-ndk-location
 [android-ndk-notes]: http://www.stuartaxon.com/2015/07/05/android-ndk-notes/
 [android-ndk-downloads]: https://developer.android.com/ndk/downloads/index.html
-[android-ndk-samples]: https://github.com/playgameservices/cpp-android-basic-samples
+[android-ndk-samples]: https://github.com/googlesamples/android-ndk
 [android-tdd-playground]: https://github.com/pestrada/android-tdd-playground
 [adb-text-input-space]: https://plus.google.com/+AaronShang/posts/cYwaZppVbJW
 [gradle-plugin-user-guide-testing]: http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Testing
 [freebsd-linux-emulation]: https://www.freebsd.org/doc/handbook/linuxemu.html
+[freebsd-linux-lib-manual-install]: https://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
 [freebsd-port-android-tools-adb-devel]: https://www.freshports.org/devel/android-tools-adb-devel/
+[linux-ssl-lib]: https://gist.github.com/olejon/54473554be2d4dbacd03
 
