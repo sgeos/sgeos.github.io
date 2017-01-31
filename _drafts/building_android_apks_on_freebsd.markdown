@@ -159,9 +159,10 @@ then
   curl -sLk "${NDK_URL}" | unzip - -d "$(dirname ${ANDROID_NDK})"
   rmdir "${ANDROID_NDK}"
   ln -s "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}" "${ANDROID_NDK}"
-  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64"
+  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools"
+  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin"
   echo "Installing CMake for Android NDK."
-  INSTALL_CMAKE_URL="https://github.com/Commit451/android-c wget rpm4make-installer/releases/download/1.1.0/install-cmake.sh"
+  INSTALL_CMAKE_URL="https://github.com/Commit451/android-cmake-installer/releases/download/1.1.0/install-cmake.sh"
   rm -rf "${ANDROID_HOME}/cmake"
   curl -sLk "${INSTALL_CMAKE_URL}" | sh
   CMAKE_DIRECTORY="$(cd ${ANDROID_HOME}/cmake/*/bin; pwd)"
@@ -169,12 +170,6 @@ then
   brand_executable "${CMAKE_DIRECTORY}/cpack"
   brand_executable "${CMAKE_DIRECTORY}/ctest"
   brand_executable "${CMAKE_DIRECTORY}/ninja"
-  rm -f /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
-  wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libcrypto.so.1.0.0 -O /compat/linux/usr/lib64/libcrypto.so.1.0.0
-  ln -s /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
-  rm -f /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
-  wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libssl.so.1.0.0 -O /compat/linux/usr/lib64/libssl.so.1.0.0
-  ln -s /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
 fi
 {% endhighlight %}
 
@@ -199,20 +194,34 @@ adb shell input text "Hello,\ World!\ "
 {% endhighlight %}
 
 Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
-
 **${HOME}/.profile** partial listing
 {% highlight sh %}
-# PATH += Android SDK and Android NDK
+# PATH += Android SDK
 export ANDROID_SDK="${HOME}/android/sdk"
 export ANDROID_HOME="${ANDROID_SDK}"
+export ANDROID_BUILD_TOOLS_VERSION="25.0.2"
+export PATH="${ANDROID_SDK}/tools:${ANDROID_SDK}/tools/bin:${ANDROID_SDK}/platform-tools:${ANDROID_SDK}/build-tools/${ANDROID_BUILD_TOOLS_VERSION}:${PATH}"
+
+# PATH += Android NDK
 export ANDROID_NDK="${HOME}/android/ndk"
 export ANDROID_NDK_HOME="${ANDROID_NDK}"
 export ANDROID_NDK_ROOT="${ANDROID_NDK}"
-export ANDROID_BUILD_TOOLS_VERSION="25.0.2"
-export PATH="${ANDROID_SDK}/tools:${ANDROID_SDK}/tools/bin:${ANDROID_SDK}/platform-tools:${ANDROID_SDK}/build-tools/${ANDROID_BUILD_TOOLS_VERSION}:${ANDROID_NDK}:${PATH}"
+export PATH="${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools:${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin:${PATH}"
 {% endhighlight %}
 
-Testing the installation.
+Testing the installation.  Install a coupe libraries as root.
+
+**sh**
+{% highlight sh %}
+rm -f /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
+wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libcrypto.so.1.0.0 -O /compat/linux/usr/lib64/libcrypto.so.1.0.0
+ln -s /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
+rm -f /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
+wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libssl.so.1.0.0 -O /compat/linux/usr/lib64/libssl.so.1.0.0
+ln -s /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
+{% endhighlight %}
+
+Test with the Android NDK Samples.
 
 **sh**
 {% highlight sh %}
@@ -221,9 +230,10 @@ export ANDROID_NDK_HOME="${HOME}/android/ndk"
 git clone git@github.com:googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
 # OR the following for HTTP
 # git clone https://github.com/googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
-cd "${HOME}/projects/android-ndk-samples/androidsamples-android"
+cd "${HOME}/projects/android-ndk-samples/hello-libs"
 ./gradlew --refresh-dependencies
 ./gradlew clean check build
+./gradlew assembleDebug
 {% endhighlight %}
 
 ## References:
