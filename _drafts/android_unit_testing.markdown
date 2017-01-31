@@ -66,15 +66,23 @@ echo "Code here."
 {% endhighlight %}
 
 ## References:
-
 - [Android, Gradle Plugin User Guide][android-gradle-plugin-info]
-- [Android Studio, Test your app][android-studio-test-your-app]
+- [Andriod, Android Studio - Test your app][android-studio-test-your-app]
 - [Android, How to create a release signed apk file using Gradle?][android-git-release-keychain]
 - [Android, Getting Started with Testing][android-getting-started-with-testing]
+- [Android, Android Testing Tutorial: Unit Testing like a True Green Droid][android-testing-tutorial]
+- [Jenkins, Run android unit tests & instrumentation tests on Jenkins (Gradle)][jenkins-android-unit-testing]
+- [Jenkins, How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube)][jenkins-android-ci]
+- [Docker, how to build and run android apk on emulator using dockerfile][docker-android-emulator]
+- [Docker, Building android project with Docker and Walter, independent from the specific platform][docker-android-build]
 
 [android-gradle-plugin-info]: http://tools.android.com/tech-docs/new-build-system/user-guide
 [android-studio-test-your-app]: https://developer.android.com/studio/test/index.html
 [android-git-release-keychain]:  http://stackoverflow.com/questions/18328730/how-to-create-a-release-signed-apk-file-using-gradle
 [android-getting-started-with-testing]: https://developer.android.com/training/testing/start/index.html
-- [][]: 
+[android-testing-tutorial]: https://www.toptal.com/android/testing-like-a-true-green-droid
+[jenkins-android-unit-testing]: http://stackoverflow.com/questions/28066740/run-android-unit-tests-instrumentation-tests-on-jenkins-gradle
+[jenkins-android-ci]: https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.r84hd0pol
+[docker-android-emulator]: http://stackoverflow.com/questions/32965204/how-to-build-and-run-android-apk-on-emulator-using-dockerfile
+[docker-android-build]: http://ainoya.io/docker-android-walter
 
