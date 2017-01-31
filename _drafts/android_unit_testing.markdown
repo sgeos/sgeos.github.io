@@ -99,6 +99,7 @@ testReleaseUnitTest - Run unit tests for the release build.
 - [Jenkins, How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube)][jenkins-android-ci]
 - [Docker, how to build and run android apk on emulator using dockerfile][docker-android-emulator]
 - [Docker, Building android project with Docker and Walter, independent from the specific platform][docker-android-build]
+- [Testing, Unit Tests, How to Write Testable Code and Why it Matters][testing-unit-test-howto]
 
 [android-gradle-plugin-info]: http://tools.android.com/tech-docs/new-build-system/user-guide
 [android-studio-test-your-app]: https://developer.android.com/studio/test/index.html
@@ -109,4 +110,6 @@ testReleaseUnitTest - Run unit tests for the release build.
 [jenkins-android-ci]: https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.r84hd0pol
 [docker-android-emulator]: http://stackoverflow.com/questions/32965204/how-to-build-and-run-android-apk-on-emulator-using-dockerfile
 [docker-android-build]: http://ainoya.io/docker-android-walter
+
+[testing-unit-test-howto]: https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters
 
