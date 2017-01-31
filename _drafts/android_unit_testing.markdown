@@ -61,8 +61,32 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 }
 {% endhighlight %}
 
+Installation and testing **gradlew** tasks.
+
 {% highlight sh %}
-echo "Code here."
+Install tasks
+-------------
+installDebug - Installs the Debug build.
+installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+uninstallAll - Uninstall all applications.
+uninstallDebug - Uninstalls the Debug build.
+uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+uninstallRelease - Uninstalls the Release build.
+
+Verification tasks
+------------------
+check - Runs all checks.
+connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+connectedCheck - Runs all device checks on currently connected devices.
+connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+deviceCheck - Runs all device checks using Device Providers and Test Servers.
+lint - Runs lint on all variants.
+lintDebug - Runs lint on the Debug build.
+lintRelease - Runs lint on the Release build.
+test - Run unit tests for all variants.
+testDebugUnitTest - Run unit tests for the debug build.
+testReleaseUnitTest - Run unit tests for the release build.
 {% endhighlight %}
 
 ## References:
