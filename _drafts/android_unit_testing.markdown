@@ -89,6 +89,26 @@ testDebugUnitTest - Run unit tests for the debug build.
 testReleaseUnitTest - Run unit tests for the release build.
 {% endhighlight %}
 
+Command line emulator.
+
+**sh**
+{% highlight sh %}
+sys-img-arm64-v8a-android-24
+sys-img-armeabi-v7a-android-24
+sys-img-x86_64-android-24
+sys-img-x86-android-24
+sys-img-arm64-v8a-google_apis-24
+sys-img-armeabi-v7a-google_apis-24
+sys-img-x86_64-google_apis-24
+sys-img-x86-google_apis-24
+
+sys-img-x86-google_apis-25
+sys-img-x86_64-google_apis-25
+echo y | android update sdk --no-ui --all --filter "sys-img-x86_64-google_apis-25"
+yes "" | android -s create avd --force --name android-unit-testing-emulator --target "android-25" --abi "google_apis/x86_64"
+emulator -avd android-unit-testing-emulator -no-window
+{% endhighlight %}
+
 ## References:
 - [Android, Gradle Plugin User Guide][android-gradle-plugin-info]
 - [Andriod, Android Studio - Test your app][android-studio-test-your-app]
@@ -100,6 +120,9 @@ testReleaseUnitTest - Run unit tests for the release build.
 - [Docker, how to build and run android apk on emulator using dockerfile][docker-android-emulator]
 - [Docker, Building android project with Docker and Walter, independent from the specific platform][docker-android-build]
 - [Testing, Unit Tests, How to Write Testable Code and Why it Matters][testing-unit-test-howto]
+- [Emulator, Installing Applications on the Emulator][emulator-installing-applications]
+- [Emulator, Android Testing in Headless Emulator][emulator-headless-testing]
+- [Emulator, no ABI error , when creating an Android virtual device][emulator-no-abi]
 
 [android-gradle-plugin-info]: http://tools.android.com/tech-docs/new-build-system/user-guide
 [android-studio-test-your-app]: https://developer.android.com/studio/test/index.html
@@ -110,6 +133,8 @@ testReleaseUnitTest - Run unit tests for the release build.
 [jenkins-android-ci]: https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.r84hd0pol
 [docker-android-emulator]: http://stackoverflow.com/questions/32965204/how-to-build-and-run-android-apk-on-emulator-using-dockerfile
 [docker-android-build]: http://ainoya.io/docker-android-walter
-
 [testing-unit-test-howto]: https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters
+[emulator-installing-applications]: https://developer.android.com/studio/run/emulator-commandline.html#starting
+[emulator-headless-testing]: https://paulemtz.blogspot.jp/2013/05/android-testing-in-headless-emulator.html
+[emulator-no-abi]: http://stackoverflow.com/questions/10019532/no-abi-error-when-creating-an-android-virtual-device
 
