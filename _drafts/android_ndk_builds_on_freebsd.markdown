@@ -197,7 +197,6 @@ adb shell input text "Hello,\ World!\ "
 {% endhighlight %}
 
 Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
-dlsjflsk*
 **${HOME}/.profile** partial listing
 {% highlight sh %}
 # PATH += Android SDK
