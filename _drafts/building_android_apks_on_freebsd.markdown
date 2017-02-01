@@ -209,7 +209,7 @@ export ANDROID_NDK_ROOT="${ANDROID_NDK}"
 export PATH="${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools:${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin:${PATH}"
 {% endhighlight %}
 
-Testing the installation.  Install a coupe libraries as root.
+Testing the installation.  Install a couple libraries as root.
 
 **sh**
 {% highlight sh %}
