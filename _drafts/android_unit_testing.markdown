@@ -106,7 +106,7 @@ sys-img-x86-google_apis-25
 sys-img-x86_64-google_apis-25
 echo y | android update sdk --no-ui --all --filter "sys-img-x86_64-google_apis-25"
 yes "" | android -s create avd --force --name android-unit-testing-emulator --target "android-25" --abi "google_apis/x86_64"
-emulator -avd android-unit-testing-emulator -no-window
+emulator -avd android-unit-testing-emulator -wipe-data -no-window
 {% endhighlight %}
 
 ## References:
@@ -123,6 +123,8 @@ emulator -avd android-unit-testing-emulator -no-window
 - [Emulator, Installing Applications on the Emulator][emulator-installing-applications]
 - [Emulator, Android Testing in Headless Emulator][emulator-headless-testing]
 - [Emulator, no ABI error , when creating an Android virtual device][emulator-no-abi]
+- [IntelliJ, Testing][intellij-testing]
+- [IntelliJ, Code Coverage][intellij-code-coverage]
 
 [android-gradle-plugin-info]: http://tools.android.com/tech-docs/new-build-system/user-guide
 [android-studio-test-your-app]: https://developer.android.com/studio/test/index.html
@@ -137,4 +139,6 @@ emulator -avd android-unit-testing-emulator -no-window
 [emulator-installing-applications]: https://developer.android.com/studio/run/emulator-commandline.html#starting
 [emulator-headless-testing]: https://paulemtz.blogspot.jp/2013/05/android-testing-in-headless-emulator.html
 [emulator-no-abi]: http://stackoverflow.com/questions/10019532/no-abi-error-when-creating-an-android-virtual-device
+[intellij-testing]: https://www.jetbrains.com/help/idea/2016.3/testing.html
+[intellij-code-coverage]: https://www.jetbrains.com/help/idea/2016.3/code-coverage.html
 
