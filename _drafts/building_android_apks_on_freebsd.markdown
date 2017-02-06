@@ -244,6 +244,7 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 - [Android, Andrid NDK Notes][android-ndk-notes]
 - [Android, NDK Downloads][android-ndk-downloads]
 - [Android, NDK Samples (GitHub Repository)][android-ndk-samples]
+- [Android, Sign Your App][android-sign-app]
 - [Android, TDD Playground][android-tdd-playground]
 - [adb, Using SPACE with adb shell input][adb-text-input-space]
 - [Gradle, Gradle Plugin User Guide - Testing][gradle-plugin-user-guide-testing]
@@ -258,6 +259,7 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 [android-ndk-notes]: http://www.stuartaxon.com/2015/07/05/android-ndk-notes/
 [android-ndk-downloads]: https://developer.android.com/ndk/downloads/index.html
 [android-ndk-samples]: https://github.com/googlesamples/android-ndk
+[android-sign-app]: https://developer.android.com/studio/publish/app-signing.html
 [android-tdd-playground]: https://github.com/pestrada/android-tdd-playground
 [adb-text-input-space]: https://plus.google.com/+AaronShang/posts/cYwaZppVbJW
 [gradle-plugin-user-guide-testing]: http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Testing
