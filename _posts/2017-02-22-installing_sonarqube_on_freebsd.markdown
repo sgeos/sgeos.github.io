@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 comments: true
-title:  "Install SonarQube on FreeBSD"
+title:  "Installing SonarQube on FreeBSD"
 date:   2017-02-22 20:09:23 +0000
 categories: freebsd sonarqube
 ---
