@@ -53,7 +53,7 @@ javascript:document.querySelector('video').playbackRate=2.00
 javascript:document.querySelector('video').playbackRate=3.00
 {% endhighlight %}
 
-**4.00x** (generall too fast)
+**4.00x** (generally too fast)
 {% highlight javascript %}
 javascript:document.querySelector('video').playbackRate=4.00
 {% endhighlight %}
