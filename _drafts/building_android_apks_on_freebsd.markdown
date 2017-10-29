@@ -246,6 +246,7 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 - [Android, NDK Samples (GitHub Repository)][android-ndk-samples]
 - [Android, Sign Your App][android-sign-app]
 - [Android, TDD Playground][android-tdd-playground]
+- [Android, Using Kotlin to test Android applications][android-kotlin-testing]
 - [adb, Using SPACE with adb shell input][adb-text-input-space]
 - [Gradle, Gradle Plugin User Guide - Testing][gradle-plugin-user-guide-testing]
 - [FreeBSD, FreeBSD Handbook - Linux® Binary Compatibility][freebsd-linux-emulation]
@@ -261,10 +262,12 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 [android-ndk-samples]: https://github.com/googlesamples/android-ndk
 [android-sign-app]: https://developer.android.com/studio/publish/app-signing.html
 [android-tdd-playground]: https://github.com/pestrada/android-tdd-playground
+[android-kotlin-testing]: http://blog.greenhouseci.com/greenhouse/update/android-testing-with-kotlin/
 [adb-text-input-space]: https://plus.google.com/+AaronShang/posts/cYwaZppVbJW
 [gradle-plugin-user-guide-testing]: http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Testing
 [freebsd-linux-emulation]: https://www.freebsd.org/doc/handbook/linuxemu.html
 [freebsd-linux-lib-manual-install]: https://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
 [freebsd-port-android-tools-adb-devel]: https://www.freshports.org/devel/android-tools-adb-devel/
 [linux-ssl-lib]: https://gist.github.com/olejon/54473554be2d4dbacd03
+
 
