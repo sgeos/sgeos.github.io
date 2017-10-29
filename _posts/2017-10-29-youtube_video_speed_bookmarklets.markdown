@@ -71,6 +71,7 @@ javascript:document.querySelector('video').playbackRate=parseFloat(prompt('Video
 ## Ads
 
 The bookmarklets can additionally be used to speed up ads.
+This is not possible with the provided controls.
 Either use the above bookmarklets to efficiently absorb
 advertising material, or use something like a speed of
 100.00x for rapid playback without audio.
