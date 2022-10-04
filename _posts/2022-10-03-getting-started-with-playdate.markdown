@@ -59,13 +59,15 @@ echo 'alias playdate_simulator="open ${HOME}/Developer/PlaydateSDK/bin/Playdate\
 
 #### Pulp
 
-[Pulp][playdate_pulp] is a web-based game editor for the Playdate.
-The target audience is unsophisticated game developers and people who want to
+[Pulp][playdate_pulp] is a web based game editor for the Playdate.
+The target audience is entry level game developers and people who want to
 rapidly prototype.
 All development and testing can be done in the browser.
-Pulp has a lot of limitations, but it is also easy to learn!
+Pulp has a lot of limitations, but it is also
+[easy to learn][playdate_pulp_tutorials]!
 (Links to documentation for [Pulp][playdate_pulp_docs] and
 [PulpScript][playdate_pulpscript_docs].)
+Pulp is a good choice for people who are not ready to learn programming.
 
 Entire games can be exported and imported in JSON format.
 To run a game developed with Pulp in the simulator, click the "DOWNLOAD PDX"
@@ -84,6 +86,7 @@ The target audience is moderately sophisticated developers.
 Lua is a popular scripting language commonly used in game development,
 and the Lua API is not as restricted as Pulp's web based development model.
 (Link to [Lua documentation][playdate_lua_docs].)
+Lua is generally the best choice for projects with a programmer.
 
 Regular project based Lua examples can be run as follows.
 
@@ -121,6 +124,7 @@ Sophisticated developers can use the C API to make software for the Playdate.
 Many professional AAA game developers use C++, but C is the language they used
 in the past.
 (Link to [C API documentation][playdate_c_api_docs].)
+Only use the C API if you know why you need to use it.
 
 The C API examples can be run as follows.
 
@@ -150,6 +154,7 @@ Consider visiting the [Playdate Developer Page][playdate_dev] and
 - [Playdate Lua Documentation][playdate_lua_docs]
 - [Playdate Pulp][playdate_pulp]
 - [Playdate Pulp Documentation][playdate_pulp_docs]
+- [Playdate Pulp Tutorials][playdate_pulp_tutorials]
 - [Playdate PulpScript Documentation][playdate_pulpscript_docs]
 - [Playdate SDK, All Downloads][playdate_sdk_all]
 - [Playdate SDK, Latest][playdate_sdk_latest]
@@ -158,9 +163,10 @@ Consider visiting the [Playdate Developer Page][playdate_dev] and
 [playdate_c_api_docs]: https://sdk.play.date/inside-playdate-with-c
 [playdate_dev]: https://play.date/dev/
 [playdate_dev_forum]: https://devforum.play.date
-[playdate_lua_docs]: https://sdk.play.date/Inside%20Playdate.html
+[playdate_lua_docs]: https://sdk.play.date/Inside%20Playdate.html#developing-in-lua
 [playdate_pulp]: https://play.date/pulp/
 [playdate_pulp_docs]: https://play.date/pulp/docs/
+[playdate_pulp_tutorials]: https://play.date/dev/links/#devLinksCategorySDKPulp
 [playdate_pulpscript_docs]: https://play.date/pulp/docs/pulpscript/
 [playdate_sdk_all]: https://download.panic.com/playdate_sdk/
 [playdate_sdk_latest]: https://download.panic.com/playdate_sdk/PlaydateSDK-latest.zip
