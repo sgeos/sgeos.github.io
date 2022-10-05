@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Getting Started with Rust on Playdate"
-date:   2022-10-04 20:21:04 +0000
+date:   2022-10-04 18:23:42 +0000
 categories: gamedev playdate rust
 ---
 The [Panic Playdate][playdate] is a tiny, just for fun indie game console.
@@ -29,7 +29,7 @@ has been installed with [rustup][rustup].
 
 {% highlight sh %}
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2022-10-04 20:21:04 +0000
+2022-10-04 18:23:42 +0000
 $ uname -vm
 Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000 arm64
 $ ex -s +'%s/<[^>].\{-}>//ge' +'%s/\s\+//e' +'%norm J' +'g/^$/d' +%p +q! /System/Library/CoreServices/SystemVersion.plist | grep -E 'ProductName|ProductVersion' | sed 's/^[^ ]* //g' | sed 'N; s/\n/ /g'
