@@ -6,10 +6,10 @@ title:  "Getting Started with Rust on Playdate"
 date:   2022-10-04 18:23:42 +0000
 categories: gamedev playdate rust
 ---
-The [Panic Playdate][playdate] is a tiny, just for fun indie game console.
+The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 [Rust][rust] is a drop-in replacement for C that is fast and memory safe.
 This post will discuss getting started with the Panic Playdate using Rust.
-It is a followup to my post on
+It is a follow-up to my post on
 [getting started with Playdate][playdate-getting-started].
 
 [crank][crank] and [crankstart][crankstart] will be used because they are
@@ -22,7 +22,7 @@ and [Nine Lives][crankstart-ninelives].
 
 Familiarity with Rust and the command line are assumed.
 It is also assumed that the [Playdate SDK][playdate_sdk_latest] has already
-been installed from the [Playdate Developer Page][playdate_dev], and that Rust
+been installed from the [Playdate Developer Page][playdate_dev] and that Rust
 has been installed with [rustup][rustup].
 
 ## Software Versions
@@ -136,8 +136,8 @@ rustup component add rust-src
 The build subcommand takes a --device flag that can be used to target hardware
 exclusively.
 Alternatively, the package subcommand can be used to build binaries for both
-the device and simulator.
-To upload a PDX file to hardware, first run it in the simulator.
+the device and the simulator.
+To upload a PDX file to hardware, first, run it in the simulator.
 Then either "Upload Game to Device" from the "Device" menu or Playdate icon on
 the lower lefthand corner of the simulator (with the crank controls collapsed).
 Once the game is on the device, pdutil can be used to launch it.
