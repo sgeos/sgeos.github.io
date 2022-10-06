@@ -6,7 +6,7 @@ title:  "ASM Playdate Development"
 date:   2022-10-05 19:28:00 +0000
 categories: gamedev playdate asm arm x86
 ---
-The [Panic Playdate][playdate] is a tiny, just for fun indie game console.
+The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with ASM on the Panic Playdate.
 The Playdate's CPU is a Cortex M7 that *only* supports Thumb instructions.
 The simulator uses the instruction set of the development machine.
@@ -38,7 +38,7 @@ cargo 1.66.0-nightly (f5fed93ba 2022-09-27)
 
 #### Project Template
 
-When ASM is hand written at all, it is generally used for optimizing native
+When ASM is handwritten at all, it is generally used for optimizing native
 code.
 Therefore, the Hello World C API example will make a reasonable
 project template.
@@ -56,7 +56,7 @@ Replace the contents of **main.c** with the following.
 This program calculates the distance of a diagonal line according to
 the Pythagorean theorem.
 The bulk of the code is C, but the square root will be calculated in ASM.
-Note that the The d-pad, buttons, and crank can be used to control the
+Note that the D-pad, buttons, and crank can be used to control the
 distance in different ways.
 
 **src/main.c**
@@ -374,7 +374,7 @@ The goal is to calculate that value with ASM.
 
 #### ASM Square Root Implementations
 
-On modern CPU's, calculating the square root of a number can be done with
+On modern CPUs, calculating the square root of a number can be done with
 a single instruction.
 The Cortex M7 uses the ARMv7E-M microarchitecture.
 It only supports Thumb instructions.
@@ -418,7 +418,8 @@ _fast_sqrt:
 
 The author first experimented with ASM on Playdate using a machine that runs
 x86-64 instructions.
-This is the ASM for a simulator subroutine that run on a 64-bit Intel processor.
+This is the ASM for a simulator subroutine that runs on a 64-bit Intel
+processor.
 
 **src/fast_sqrt_x86_64.s**
 {% highlight nasm %}
@@ -439,7 +440,7 @@ modifications need to be made to properly build the project.
 First, the ASM for the device and simulator need to be listed separately.
 Update **SRC** and add **ASRC** definitions in the **Makefile**.
 Uncomment the **ASRC_SIMULATOR** definition for your development platform.
-Also update the last line of the **Makefile** for the next step.
+Also, update the last line of the **Makefile** for the next step.
 
 **Makefile**
 {% highlight make %}
@@ -466,15 +467,15 @@ Copy **common.mk** into the project.
 cp "${PLAYDATE_SDK_PATH}/C_API/buildsupport/common.mk" common.mk
 {% endhighlight %}
 
-Three modification need to made to the local **common.mk**.
+Three modifications need to be made to the local **common.mk**.
 **ASRC_DEVICE** needs to be appended to **_OBJS**, and **ASRC_SIMULATOR**
-needs to be appeded to the **$(OBJDIR)/pdex.${DYLIB_EXT}** target.
-Finally, the **pdc** target needs to rely on **device** so that a functional
-copy of **pdex.bin** is always included in the "fat" PDX file.
+needs to be appended to the **$(OBJDIR)/pdex.${DYLIB_EXT}** target.
+Finally, the **pdc** target needs to rely on the **device** so that a
+functional copy of **pdex.bin** is always included in the "fat" PDX file.
 (Hardware runs **pdex.bin** while the simulator uses a dynamic library,
 **pdex.dylib** on macOS.)
 
-The following **diff** gives a guide to the changes that need to me made to
+The following **diff** gives a guide to the changes that need to be made to
 **common.mk**.
 
 {% highlight sh %}
@@ -507,18 +508,23 @@ playdate_simulator "${PRODUCT}"
 
 #### Running on Hardware
 
-To upload a PDX file to hardware, first run it in the simulator.
+To upload a PDX file to hardware, first, run it in the simulator.
 Then either “Upload Game to Device” from the “Device” menu or Playdate icon on
 the lower lefthand corner of the simulator (with the crank controls collapsed).
 Once the game is on the device, **pdutil** can be used to launch it.
 
 {% highlight sh %}
 # after the game is on the device
+PRODUCT="$(cat Source/pdxinfo | grep name | cut -d "=" -f 2-).pdx"
+PDUTIL_DEVICE="$(ls /dev/cu.usbmodemPD* | head -n 1)"
 pdutil "${PDUTIL_DEVICE}" run "/Games/${PRODUCT}"
 {% endhighlight %}
 
 Alternatively, **pdutil** can be used to directly upload the game to hardware
 from the command line.
+Note that the author could not get the following code to reliably work in
+a script because it takes time for the Playdate to become available after
+it is mounted in datadisk mode.
 
 {% highlight sh %}
 PDUTIL_DEVICE="$(ls /dev/cu.usbmodemPD* | head -n 1)"
@@ -532,6 +538,20 @@ cp -r "${PRODUCT}" "${DEVICE_PRODUCT_PATH}"
 MOUNT_DEVICE="$(diskutil list | grep PLAYDATE | grep -oE '[^ ]+$')"
 diskutil unmount "${MOUNT_DEVICE}"
 # press "A" to get the Playdate out of datadisk mode
+{% endhighlight %}
+
+#### Verification
+
+Pull out the crank and use the D-pad to move the lower righthand point to
+(100, 75).  The diagonal length should be 125.000.  Use a calculator to
+verify other sets of values.
+
+{% highlight c %}
+  100 *  100 = 10000
+   75 *   75 =  5625
+  125 *  125 = 15625
+--------------------
+10000 + 5625 = 15625
 {% endhighlight %}
 
 #### More Information

@@ -6,11 +6,11 @@ title:  "Getting Started with Playdate"
 date:   2022-10-03 20:21:04 +0000
 categories: gamedev playdate c c++ lua
 ---
-The [Panic Playdate][playdate] is a tiny, just for fun indie game console.
+The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with the Panic Playdate.
 It will cover downloading the [SDK][playdate_sdk_latest], installing it,
 and running the examples.
-MacOS will be used, but the steps should be largely the same for other
+macOS will be used, but the steps should be largely the same for other
 platforms.
 Familiarity with the command line is assumed.
 
@@ -59,15 +59,15 @@ echo 'alias playdate_simulator="open ${HOME}/Developer/PlaydateSDK/bin/Playdate\
 
 #### Pulp
 
-[Pulp][playdate_pulp] is a web based game editor for the Playdate.
-The target audience is entry level game developers and people who want to
+[Pulp][playdate_pulp] is a web-based game editor for the Playdate.
+The target audience is entry-level game developers and people who want to
 rapidly prototype.
 All development and testing can be done in the browser.
 Pulp has a lot of limitations, but it is also
 [easy to learn][playdate_pulp_tutorials]!
 (Links to documentation for [Pulp][playdate_pulp_docs] and
 [PulpScript][playdate_pulpscript_docs].)
-Pulp is a good choice for people who are not ready to learn programming.
+Pulp is a good choice for people who are not ready to learn to program.
 
 Entire games can be exported and imported in JSON format.
 To run a game developed with Pulp in the simulator, click the "DOWNLOAD PDX"
@@ -84,11 +84,11 @@ playdate_simulator "${GAME_PATH}/${GAME}.pdx"
 Lua can also be used to develop Playdate games.
 The target audience is moderately sophisticated developers.
 Lua is a popular scripting language commonly used in game development,
-and the Lua API is not as restricted as Pulp's web based development model.
+and the Lua API is not as restricted as Pulp's web-based development model.
 (Link to [Lua documentation][playdate_lua_docs].)
 Lua is generally the best choice for projects with a programmer.
 
-Regular project based Lua examples can be run as follows.
+Regular project-based Lua examples can be run as follows.
 
 {% highlight sh %}
 # cd to location of examples directory
