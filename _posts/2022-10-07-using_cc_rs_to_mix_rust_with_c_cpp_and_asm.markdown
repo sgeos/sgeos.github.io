@@ -277,6 +277,19 @@ In the righthand panel, select a compiler that corresponds to your platform.
 For example, **armv8-a clang 14.0.0** gives output that is very close to the
 version of **src/hello_asm.s** that was tested on Apple Silicon.
 
+{% highlight c %}
+hello_asm:                              // @hello_asm
+        stp     x29, x30, [sp, #-16]!           // 16-byte Folded Spill
+        mov     x29, sp
+        adrp    x0, .L.str
+        add     x0, x0, :lo12:.L.str
+        bl      printf
+        ldp     x29, x30, [sp], #16             // 16-byte Folded Reload
+        ret
+.L.str:
+        .asciz  "Hello, ASM!"
+{% endhighlight %}
+
 ## References:
 
 - [Godbolt Compiler Explorer][godbolt]
