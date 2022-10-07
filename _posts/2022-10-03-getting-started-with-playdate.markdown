@@ -12,7 +12,15 @@ It will cover downloading the [SDK][playdate_sdk_latest], installing it,
 and running the examples.
 macOS will be used, but the steps should be largely the same for other
 platforms.
-Familiarity with the command line is assumed.
+This post assumes familiarity with the command line.
+
+Note that command line familiarity is not needed for Playdate development.
+Downloading the SDK is enough to get started if Pulp is sufficient for your
+needs.
+For most developers, [Lua][lua] knowledge and a Playdate-integrated editor,
+like [Nova][nova] (link to [Playdate Extensions][nova_playdate]), will be
+enough to make their Playdate development dreams come true.
+(Dedication to see a project to completion is also required.)
 
 ## Software Versions
 
@@ -81,7 +89,7 @@ playdate_simulator "${GAME_PATH}/${GAME}.pdx"
 
 #### Lua Examples
 
-Lua can also be used to develop Playdate games.
+The [Lua][lua] scripting language can also be used to develop Playdate games.
 The target audience is moderately sophisticated developers.
 Lua is a popular scripting language commonly used in game development,
 and the Lua API is not as restricted as Pulp's web-based development model.
@@ -147,6 +155,9 @@ Consider visiting the [Playdate Developer Page][playdate_dev] and
 
 ## References:
 
+- [Lua Home Page][lua]
+- [Nova Homepage][nova]
+- [Nova, Playdate Extensions][nova_playdate]
 - [Playdate C API Documentation][playdate_c_api_docs]
 - [Playdate Developer Forum][playdate_dev_forum]
 - [Playdate Developer Page][playdate_dev]
@@ -159,6 +170,9 @@ Consider visiting the [Playdate Developer Page][playdate_dev] and
 - [Playdate SDK, All Downloads][playdate_sdk_all]
 - [Playdate SDK, Latest][playdate_sdk_latest]
 
+[lua]: https://www.lua.org
+[nova]: https://nova.app
+[nova_playdate]: https://extensions.panic.com/extensions/com.panic/com.panic.Playdate/
 [playdate]: https://play.date/
 [playdate_c_api_docs]: https://sdk.play.date/inside-playdate-with-c
 [playdate_dev]: https://play.date/dev/
