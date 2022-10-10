@@ -595,6 +595,10 @@ C programming language.
 gcc also has documention on
 [Fortran interoperability with C][fortran_gcc_c_interop].
 
+This post is based on the
+"[Fortran on Playdate?][playdate_dev_forum_fortran]" thread on the
+[Playdate Developer Forums][playdate_dev_forum].
+
 ## References:
 
 - [ARM GNU Toolchain Downloads Page][arm_gnu_toolchain_downloads]
@@ -602,6 +606,8 @@ gcc also has documention on
 - [Fortran Homepage][fortran]
 - [Fortran Quickstart Tutorial, Derived Types][fortran_tutorial_derived_types]
 - [Fortran, gcc Interoperability with C][fortran_gcc_c_interop]
+- [Playdate Developer Forum][playdate_dev_forum]
+- [Playdate Developer Forum, Fortran on Playdate][playdate_dev_forum_fortran]
 - [Playdate Homepage][playdate]
 - [Playdate, ASM Playdate Development][playdate_asm]
 
@@ -612,4 +618,6 @@ gcc also has documention on
 [fortran_gcc_c_interop]: https://gcc.gnu.org/onlinedocs/gfortran/Interoperability-with-C.html
 [playdate]: https://play.date/
 [playdate_asm]: /gamedev/playdate/asm/arm/x86/2022/10/05/asm_playdate_development.html
+[playdate_dev_forum]: https://devforum.play.date/
+[playdate_dev_forum_fortran]: https://devforum.play.date/t/fortran-on-playdate/4238
 
