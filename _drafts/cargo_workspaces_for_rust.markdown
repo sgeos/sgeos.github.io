@@ -202,7 +202,7 @@ libc_alloc = "1.0.3"
 {% endhighlight %}
 
 The code for the binary does exactly the same thing as the std Rust code.
-Lacking std results in more verbose code that is harder to follow.
+Lacking std results in more verbose code that is a little harder to follow.
 
 **embedded/src/main.rs**
 {% highlight rust %}
@@ -269,6 +269,33 @@ cargo run
 cargo run -- a bc def
 {% endhighlight %}
 
+#### Specifying Targets in a Workspace
+
+Commands like **cargo build** will operate on the curent package, or on all
+package if in the top level of the workspace.
+The **--workspace** command-line flag can be used to build all targets from
+anywhere in the workspace, and the **-p** or **--package** flag can be used
+to specify a particular package.
+
+{% highlight sh %}
+# return to the top level of the workspace
+cd ..
+
+# this is where built targets live
+ls target/debug/
+
+# remove all built targets to verify that they are rebuilt
+cargo clean
+
+# run the following commands from anywhere in the workspace
+cargo build --workspace
+cargo build -p core_library
+cargo run --package pc
+cargo run --package pc -- one two three
+cargo run -p embedded
+cargo run -p embedded -- one two three
+{% endhighlight %}
+
 #### More Information
 
 The [Cargo][rust_cargo_workspaces]
@@ -283,8 +310,9 @@ no_std Rust.
 
 ## References:
 
-- [Rust, The Cargo Book, 3.3 Workspaces][rust_cargo_workspaces]
-- [Rust, The Rust Programming Language, 14.3 Cargo Workspaces][rust_programming_workspaces]
+- [Rust, Cargo Book, 3.3 Workspaces][rust_cargo_workspaces]
+- [Rust, Embedded Rust Book][rust_embedded]
+- [Rust, Rust Programming Language, 14.3 Cargo Workspaces][rust_programming_workspaces]
 - [Rust, std::ffi Documentation][rust_std_ffi]
 
 [rust_cargo_workspaces]: https://doc.rust-lang.org/cargo/reference/workspaces.html
