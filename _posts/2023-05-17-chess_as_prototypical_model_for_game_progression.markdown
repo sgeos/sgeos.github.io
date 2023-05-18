@@ -72,8 +72,8 @@ following phases.
 On the very first move,
 each of the eight pawns can be moved one or two spaces,
 and each of the two knights can also be moved into one of two locations.
-Therefore, white can make one of twelve first moves,
-and black can make one of twelve first responses.
+Therefore, white can make one of twenty first moves,
+and black can make one of twenty first responses.
 The first move is the most important because it opens up options for
 the second and subsequent moves.
 Some of the first moves make more sense than others.
