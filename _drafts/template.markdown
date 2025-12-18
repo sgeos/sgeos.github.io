@@ -10,18 +10,18 @@ Problem description here.
 
 ## Software Versions
 
-{% highlight sh %}
+```sh
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 $ uname -vm
-{% endhighlight %}
+```
 
 ## Instructions
 
 Instructions for solution here.
 
-{% highlight sh %}
+```sh
 echo "Code here."
-{% endhighlight %}
+```
 
 ## References:
 
