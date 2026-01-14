@@ -341,15 +341,14 @@ traditional white-collar archetypes.
 
 ## Applying Metagaming Concepts to Real-Life Strategy
 
-1. **Higher-Order Strategic Thinking**
+- **Higher-Order Strategic Thinking**.
    In games, metagaming is reasoning about what other players believe and how
    they will act. In life, this applies to anticipating how institutions,
    peers, or competitors interpret incentives, conventions, and historical
    patterns. Effective strategy often depends less on technical skill and more
    on understanding **how the system itself is played**, including conformance
    to informal rules, norms, and expectations.
-
-2. **Dynamic Equilibria**
+- **Dynamic Equilibria**.
    Game metas evolve with new information, cards, or player behavior.
    Real-world equilibria are equally dynamic but constrained by
    **institutional inertia** and path dependence. Attempts to shift the meta
@@ -358,16 +357,14 @@ traditional white-collar archetypes.
    recalibration of strategies. Additionally, changes in nominally unrelated
    systems have the potential to force de facto unpredictable cascading
    recalibration of distal systems.
-
-3. **Dominant Strategies and Dysfunction**
+- **Dominant Strategies and Dysfunction**.
    In MTG, a dominant card or deck can collapse strategic diversity, forcing a
    reset via banning or rotation. In reality, dominant strategies persist,
    even when inefficient, because of entrenched interests and institutional
    inertia. Recognizing these entrenched patterns is a key metagaming skill.
    **Advantage can be derived by operating within, around, or subtly reshaping
    ossified legacy social structures**.
-
-4. **Simulation and Modeling**
+- **Simulation and Modeling**.
    Just as games simplify reality to enable tractable analysis, real-world
    strategy often benefits from **conceptual models**. These models need not
    capture every detail. The exercise is fruitful if it highlights
