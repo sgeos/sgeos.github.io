@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "Getting Started with no_std Rust Programming"
-date:   2024-04-19 03:08:36 +0000
+title: "Getting Started with no_std Rust Programming"
+date: 2026-01-15 11:36:21 +0000
 categories: rust no_std embedded
 ---
 
@@ -35,20 +35,35 @@ documentation.)
 ## Software Versions
 
 ```sh
+# Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2024-04-19 03:08:36 +0000
+
+# OS and Version
 $ uname -vm
-Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:18 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6000 arm64
-$ ex -s +'%s/<[^>].\{-}>//ge' +'%s/\s\+//e' +'%norm J' +'g/^$/d' +%p +q! /System/Library/CoreServices/SystemVersion.plist | grep -E 'ProductName|ProductVersion' | sed 's/^[^ ]* //g' | sed 'N; s/\n/ /g'
-macOS 14.2.1
-$ sysctl -n machdep.cpu.brand_string
-Apple M1 Max
+Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		14.6.1
+BuildVersion:		23G93
+
+# Hardware Information
+$ system_profiler SPHardwareDataType | sed -n '8,10p'
+      Chip: Apple M1 Max
+      Total Number of Cores: 10 (8 performance and 2 efficiency)
+      Memory: 32 GB
+
+# Shell and Version
 $ echo "${SHELL}"
 /bin/bash
+
 $ "${SHELL}" --version  | head -n 1
 GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
+
+# Rust Installation Versions
 $ cargo --version
-cargo 1.78.0-nightly (2fe739fcf 2024-03-15)
+cargo 1.92.0 (344c4567c 2025-10-21)
 ````
 
 ## Tutorial Objective
@@ -102,7 +117,7 @@ where:
 
 ## Creating a no_std Rust Library
 
-Start by creating a new Rust project using Cargo.
+Start by creating a new Rust project using `cargo`.
 
 ```sh
 PROJECT="no_std_example"
@@ -222,6 +237,19 @@ mod tests {
 ```
 
 Modify your `Cargo.toml` to pull in the `libm` dependency.
+Also, specify the `panic = "abort"` strategy.
+
+```sh
+$ cargo add libm
+$ cat <<EOF >> Cargo.toml
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+EOF
+```
 
 ```toml
 # Cargo.toml
@@ -232,7 +260,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-libm = "0.2.8"
+libm = "0.2.15"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
 ```
 
 Test the library.
@@ -243,25 +277,6 @@ $ cargo test
 
 ## Using the Library
 
-`no_std` libraries simply fail to take advantage of anything in Rust `std`.
-Binaries, on the otherhand, have more requirements, some of which are
-transparently handled when `std` assumptions hold true. We will need to
-define an `eh_personality` for error handling, and but this can only be
-done with the nightly toolchain. Therefore, we need to install the nightly
-toolchain for the host system and switch to it.
-
-```sh
-$ rustup toolchain install nightly
-$ rustup default nightly
-```
-
-Note that the following command can be used to switch back to stable,
-but do not run it now.
-
-```sh
-$ rustup default stable
-```
-
 Next, add a **src/main.rs** file that uses the library.
 
 ```rust
@@ -269,15 +284,13 @@ Next, add a **src/main.rs** file that uses the library.
 
 #![no_std]
 #![no_main]
-#![allow(internal_features)]
-#![feature(lang_items)]
 
 // Change the following line to use your crate name.
 use no_std_example as crate_library;
 use libc_print;
 
-#[no_mangle]
-pub extern "C" fn main() {
+#[unsafe(no_mangle)]
+pub extern "C" fn main(_argc: i32, _argv: *const *const u8) -> i32 {
     // Example values for thrust calculation
     let m_dot = 5.0; // Mass flow rate in kg/s
     let ve = 2500.0; // Exhaust velocity in m/s
@@ -300,11 +313,13 @@ pub extern "C" fn main() {
     // Calculating delta-v
     let delta_v = crate_library::calculate_delta_v(isp, m0, mf);
     libc_print::libc_println!("Delta-v: {} m/s", delta_v);
+
+    // Return success
+    0
 }
 
 // Panic handling in module for easy conditional exclusion when testing.
 // Testing pulls in std, which provides panic handling.
-#[cfg(not(test))]
 mod panic_handling {
     use core::panic::PanicInfo;
 
@@ -313,19 +328,23 @@ mod panic_handling {
         loop {}
     }
 
-    // Empty personality function for no_std compatibility.
-    #[lang = "eh_personality"]
-    extern "C" fn eh_personality() {}
+    // dummy symbol hack for my `aarch64-apple-darwin` host
+    #[unsafe(no_mangle)]
+    pub extern "C" fn rust_eh_personality() {}
 }
 ```
 
 We are using `libc_print` for output in the above binary, so add it as a
 dependency in **Cargo.toml**.
 
+```sh
+$ cargo add libc-print
+```
+
 ```toml
 # Cargo.toml, partial listing
 [dependencies]
-libc-print = "0.1.22"
+libc-print = "0.1.23"
 ```
 
 Generally speaking, `libc` can used in conjunction with `no_std` code to
@@ -334,6 +353,22 @@ is not always available on development targets. Some systems have a
 proprietary library that implements key functionality generally found in
 `libc`, while others have a quirky proprietary `libc`. In these cases,
 it is safe to assume that `libc` related crates cannot be used.
+
+You can run the `no_std` binary on the host machine with the following
+command.
+
+```sh
+cargo run
+```
+
+Assuming you are using a modern Stable toolchain and the `panic = "abort"`
+profile is set, the output should look something like this.
+
+```sh
+Thrust: 12500 N
+Specific Impulse: 254.92906 s
+Delta-v: 5756.4634 m/s
+```
 
 This concludes the tutorial section of the post.
 
@@ -359,6 +394,73 @@ which is especially useful for early development stages.
 Tools like JTAG, SWD, and hardware debuggers can be used to
 [directly interact][openocd_debugging]
 with applications running on actual hardware.
+
+## Moving From std to no_std Rust
+
+Most crates are written assuming `std` Rust.
+These crates can simply not be used in a `no_std` environment.
+`no_std` alternatives will need to be identified, and you may need to write
+your own implemention if your desired functionality is unavailable.
+
+When a program is declard `no_std`, it automatically pulls in the `core` crate.
+There is no way around this. `no_std` `core` is Rust's minimum feature set.
+Everything that relies on heap allocated memory is located in `alloc`.
+Note that you need to supply your own memory allocation strategy when using
+`alloc` in a `no_std` environment, but there are crates like
+`embedded_alloc` for this.
+
+The good news is that `std` effectively reexports everything `core` and `alloc`.
+Therefore, unlike popular third party crates, a lot of the types you are
+accustomed to using are actually available in a `no_std` environment,
+especially if `core` and `alloc` are available.
+There are generally drop in replacements for the types defined in `std`.
+The following table broadly illustrates what is reexported by `std` and
+from where.
+
+| Type Category | Located In | `std` Re-export | Notes |
+|:---|:---|:---|:---|
+| **Primitives** (`u8`, `f32`, etc.) | `core` | `std` | Always available. |
+| **Option/Result** | `core` | `std` | Always available. |
+| **Iterators/Markers** | `core` | `std` | `Copy`, `Send`, `Sync`, `Iterator`. |
+| **String / Vec** | `alloc` | `std` | Requires a `#[global_allocator]`. |
+| **Smart Pointers** | `alloc` | `std` | `Box`, `Arc`, `Rc`. |
+| **BTreeMap/BTreeSet** | `alloc` | `std` | `HashMap` is NOT in `alloc` (needs OS entropy). |
+| **Networking/Files** | `std` | N/A | Not available in `no_std`. |
+
+<br>
+`BTreeMap` and `BTreeSet` are the standard functional alternatives to `HashMap`
+and `HashSet` when working in a `core` and `alloc` environment.
+The `hashbrown` crate is a commonly used `no_std` `HashMap` alternative.
+It is actually the underlying implementation of `std::collections::HashMap`.
+Note that you must provide your own non-random hasher, like `FxHash` because
+an OS to provide random seeds is unavailable.
+
+## Nightly Rust
+
+In the past, nightly Rust was required to build `no_std` binaries.
+It is still required for tier 3 targets where the `Z build-std` flag needs
+to be used to build `core` from scratch for your chip.
+
+Outside of this toy example, you might need to do other things that require
+nightly Rust.
+For example, it was required in the past because a proper custom implemention
+of `eh_personality` needed to be supplied, as opposed to the symbol hack I
+used in this post.
+You might need to use other unstable features, or advanced `asm!` feature..
+
+The following commands can be used to install the nightly toolchain for
+the host system and switch to it.
+
+```sh
+$ rustup toolchain install nightly
+$ rustup default nightly
+```
+
+The following command can be used to switch back to stable.
+
+```sh
+$ rustup default stable
+```
 
 ## Next Steps
 
