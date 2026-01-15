@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "The Orthogonality of Science and Faith"
-date: 2026-01-14 18:49:31 +0000
+date: 2026-01-15 11:11:38 +0000
 categories: [philosophy, science, faith]
 ---
 
@@ -19,7 +19,7 @@ evidence.
 
 ```sh
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-01-14 18:49:31 +0000
+2026-01-15 11:11:38 +0000
 ```
 
 ## The Scientific Method and Why It Works
