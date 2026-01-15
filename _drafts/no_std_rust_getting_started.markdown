@@ -427,7 +427,6 @@ from where.
 | **BTreeMap/BTreeSet** | `alloc` | `std` | `HashMap` is NOT in `alloc` (needs OS entropy). |
 | **Networking/Files** | `std` | N/A | Not available in `no_std`. |
 
-<br>
 `BTreeMap` and `BTreeSet` are the standard functional alternatives to `HashMap`
 and `HashSet` when working in a `core` and `alloc` environment.
 The `hashbrown` crate is a commonly used `no_std` `HashMap` alternative.
