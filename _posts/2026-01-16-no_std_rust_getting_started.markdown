@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Getting Started with no_std Rust Programming"
-date: 2026-01-15 11:36:21 +0000
+date: 2026-01-16 21:40:17 +0000
 categories: rust no_std embedded
 ---
 
@@ -37,7 +37,7 @@ documentation.)
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2024-04-19 03:08:36 +0000
+2026-01-16 21:40:17 +0000
 
 # OS and Version
 $ uname -vm
