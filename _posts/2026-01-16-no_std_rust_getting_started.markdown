@@ -437,8 +437,8 @@ an OS to provide random seeds is unavailable.
 ## Nightly Rust
 
 In the past, nightly Rust was required to build `no_std` binaries.
-It is still required for tier 3 targets where the `Z build-std` flag needs
-to be used to build `core` from scratch for your chip.
+It is still required for tier 3 targets where the `-Z build-std` flag needs
+to be used to build `core` and `alloc` from scratch for your chip.
 
 Outside of this toy example, you might need to do other things that require
 nightly Rust.
