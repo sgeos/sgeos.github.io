@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Timezones for Trading and Managing Remote Teams"
-date:   2026-01-21 06:20:08 +0000
+date:   2026-01-20 06:20:08 +0000
 categories: [management, trading, remote-work, operations]
 ---
 With a current global population of over 8 billion, human activity is far from
@@ -23,7 +23,8 @@ collide.
 ## Publication Date
 
 ```
-sh $ date -u "+%Y-%m-%d %H:%M:%S +0000" 2026-01-21 06:20:08 +0000
+sh $ date -u "+%Y-%m-%d %H:%M:%S +0000"
+2026-01-20 06:20:08 +0000
 ```
 
 ## Standard Shifts
