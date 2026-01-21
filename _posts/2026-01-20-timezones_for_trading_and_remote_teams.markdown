@@ -22,8 +22,8 @@ collide.
 
 ## Publication Date
 
-```
-sh $ date -u "+%Y-%m-%d %H:%M:%S +0000"
+```sh
+$ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2026-01-20 06:20:08 +0000
 ```
 
