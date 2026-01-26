@@ -227,7 +227,7 @@ Install `wasm-pack` with `cargo` if you need to.
 cargo install wasm-pack
 ```
 
-Build with WASM with the following command.
+Build the WASM with the following command.
 
 ```sh
 wasm-pack build --target web
@@ -288,11 +288,13 @@ post_webasm_on_jekyll_bg.wasm
 post_webasm_on_jekyll_bg.wasm.d.ts
 ```
 
-Inline an HTML `script` tag in the blog post to load the WASM.
-Note that the id of the `script` tag is used as an anchor,
-which will be replaced by the WASM-driven UI.
-You can use an empty `div`, like `<div id="wasm_ui"></div>`,
-if you do not want to use the replacement strategy.
+Inline an HTML `script` tag in the blog post to load the WASM. 
+Note that the `id` of the `script` tag is used as an anchor, 
+which the Rust code will replace with the WASM-driven UI. 
+Alternatively, you can use an empty `div` (`<div id="wasm_ui"></div>`) 
+or a self-closing tag like `<input type="hidden" id="wasm_ui" />` 
+as your anchor if you prefer to keep the script logic and the 
+UI placement separate.
 
 ```html
 <script type="module" id="wasm_ui">
