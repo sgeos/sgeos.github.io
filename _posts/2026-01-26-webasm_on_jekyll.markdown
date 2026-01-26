@@ -255,6 +255,9 @@ To serve these files, they need to be copied into
 `${JEKYLL_PATH}/assets`, ideally in something like the
 `wasm/${PROJECT_NAME}` subdirectory to keep things organized.
 Note that you probably do not want to copy the generated `.gitignore`.
+Using `pkg/*` ensures we copy all build artifacts while ignoring the hidden
+`.gitignore` file that wasm-pack creates, which would otherwise hide your
+WASM files from `git` and complicate deployment.
 Use the following command to copy the files.
 
 ```sh
