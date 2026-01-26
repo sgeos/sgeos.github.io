@@ -1,0 +1,15 @@
+{
+  "name": "post_webasm_on_jekyll",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "post_webasm_on_jekyll_bg.wasm",
+    "post_webasm_on_jekyll.js",
+    "post_webasm_on_jekyll.d.ts"
+  ],
+  "main": "post_webasm_on_jekyll.js",
+  "types": "post_webasm_on_jekyll.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
