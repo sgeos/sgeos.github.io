@@ -80,6 +80,7 @@ $ "${SHELL}" --version  | head -n 1
 GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 
 # Rust Installation Versions
+$ cargo --version
 cargo 1.93.0 (083ac5135 2025-12-15)
 ```
 
