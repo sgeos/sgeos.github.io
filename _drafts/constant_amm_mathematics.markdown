@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "Constant Product AMM Mathematics"
-date:   2026-01-27 07:06:41 +0000
+title: "Constant Product AMM Mathematics"
+date: 2026-01-29 17:08:11 +0000
 categories: [crypto, defi, rust]
 ---
 Automated Market Makers (AMMs) revolutionized on-chain liquidity
@@ -12,6 +12,12 @@ This post deconstructs the core equations of the Constant Product model.
 This model is the foundation of protocols like Uniswap v2,
 covering everything from swap mechanics and fees
 to the linear geometry of liquidity and the risks of impermanent loss.
+
+AMM math is also simpler than Concentrated Liquidity Market Maker (CLMM) math.
+It is therefore foundational for future study.
+This post will first cover AMM math.
+After that, it will present the code for the following **AMM calculator widget**.
+Other widgets could be written, but this post is sufficiently long as is.
 
 <style>
   .amm-widget {
@@ -85,7 +91,7 @@ to the linear geometry of liquidity and the risks of impermanent loss.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-01-27 07:06:41 +0000
+2026-01-29 17:08:11 +0000
 
 # OS and Version
 $ uname -vm
@@ -169,6 +175,26 @@ This is because each MEME is worth very little,
 the contract must hold a much higher quantity of them to
 maintain the equilibrium of the constant product.
 
+> **Concrete Example:**
+Assume we have a pool that swaps **PIZZA** and **USD**.
+Also, assume that the current price of a pizza is **$10**.
+Our pool is trading the **PIZZA/USD** pair.
+In financial markets, the price is quoted as 10, meaning **10 USD/PIZZA**.
+You may see a price of 10 quoted for the **PIZZA/USD** pair,
+and this can be very confusing!
+>
+The slash in the pair name is just a separator,
+while the slash in the price is a mathematical unit.
+In finance, the first asset in a pair is the **base (x)**
+and the second is the **quote (y)**.
+Because pizza is an expensive asset relative to the dollar,
+the reserves are weighted toward the quote:
+>
+- **1000 Pizza** Base Reserves (x)
+- **10000 USD** Quote Reserves (y)
+- **10.00 Price** ($P = \frac y x$)
+- ~3162.28 Liquidity ($L = \sqrt k = \sqrt{x \cdot y}$)
+
 ### Liquidity
 
 In modern liquidity pool implementations,
@@ -196,6 +222,16 @@ of the invariant ($k$) to a single linear dimension ($L$).
 This linearizes the relationship between capital and pool depth.
 *For example, doubling the assets in the pool results in a 2x increase in $L$,
 rather than a 4x increase in $k$.*
+
+> **Liquidity to Reserve Units:**
+L has units of $\sqrt{x \cdot y}$, while the term  $\sqrt P = \sqrt \frac y x$
+is used to calculate reserves from the liquidity.
+For **y reserves**, the units are
+$\frac{\sqrt{x} \cdot \sqrt{y}}{1} \cdot \frac{\sqrt y}{\sqrt x} = y$.
+Note that $\frac{1}{\sqrt P}$ is the **reciprocal** of the price,
+or $\sqrt{\frac x y}$.
+The units for **x reserves** are therefore 
+$\frac{\sqrt{x} \cdot \sqrt{y}}{1} \cdot \frac{\sqrt x}{\sqrt y} = x$.
 
 ### Swap Execution Formula
 
@@ -386,13 +422,307 @@ In practice, LPs provide liquidity to earn trading fees.
 If the accumulated fees earned during the period are greater than the $IL(r)$,
 the liquidity provider still walks away with a net profit.
 
-### From Math to Code
+## From Math to Code
 
 While these equations define the theoretical boundaries of a pool,
 translating them into code requires careful handling of fixed-point math
-and rounding errors to prevent 'dust' accumulation or drainage.
-In the next section, we will implement these formulas
-in Rust to build a functional AMM simulator.
+and rounding errors to prevent dust accumulation or drainage.
+The code for the AMM calculator is below.
+Integration and usage assumes familiarity with Rust-based WASM,
+as documented in [a post I wrote on the topic][post_wasm].
+
+**`Cargo.toml` full listing**
+```toml
+[package]
+name = "post_constant_amm_mathematics"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+js-sys = "0.3.85"
+ra-solana-math = "0.1.1"
+wasm-bindgen = "0.2.108"
+web-sys = { version = "0.3.85", features = ["Document", "Element", "Event", "EventTarget", "HtmlElement", "HtmlInputElement", "Node", "Window"] }
+```
+
+**`src/lib.rs` full listing**
+```rust
+use ra_solana_math::FixedPoint;
+use std::rc::Rc;
+use wasm_bindgen::JsCast;
+use wasm_bindgen::prelude::*;
+use web_sys::HtmlInputElement;
+
+struct AmmCalculatorInputs {
+    liq: HtmlInputElement,
+    price: HtmlInputElement,
+    slider: HtmlInputElement,
+    x: HtmlInputElement,
+    y: HtmlInputElement,
+}
+
+enum AmmCalculatorUpdateMode {
+    FromLiqPrice,
+    FromReserves,
+}
+
+#[wasm_bindgen]
+pub fn amm_calculator_init(anchor_id: &str) {
+    let window = web_sys::window().expect("Missing window");
+    let document = window.document().expect("Missing document");
+    let anchor = document
+        .get_element_by_id(anchor_id)
+        .expect("Missing anchor");
+
+    // UI Container Setup
+    let container = document.create_element("div").unwrap();
+    container.set_id(&format!("{}-container", anchor_id));
+    container.set_attribute("class", "amm-widget").unwrap();
+
+    // Labeled Input Helper
+    let create_input = |id: &str, label_text: &str, input_type: &str| {
+        let div = document.create_element("div").unwrap();
+        let label = document.create_element("label").unwrap();
+        label.set_text_content(Some(label_text));
+        let input = document
+            .create_element("input")
+            .unwrap()
+            .dyn_into::<HtmlInputElement>()
+            .unwrap();
+        input.set_id(&format!("{}-{}", anchor_id, id));
+        input.set_type(input_type);
+        div.append_child(&label).unwrap();
+        div.append_child(&input).unwrap();
+        (div, input)
+    };
+
+    let (liq_div, liq_input) = create_input("liq", "Liquidity (L)", "text");
+    let (price_div, price_input) = create_input("price", "Price (P)", "text");
+    let (slider_div, slider_input) = create_input("slider", "Price Slider (Log)", "range");
+    let (x_div, x_input) = create_input("x", "Reserve (X), Meme or Base", "text");
+    let (y_div, y_input) = create_input("y", "Reserve (Y), Stable or Quote", "text");
+
+    // Slider Configuration
+    slider_input.set_min("-6");
+    slider_input.set_max("6");
+    slider_input.set_step("0.01");
+
+    container.append_child(&liq_div).unwrap();
+    container.append_child(&price_div).unwrap();
+    container.append_child(&slider_div).unwrap();
+    container.append_child(&x_div).unwrap();
+    container.append_child(&y_div).unwrap();
+
+    // Anchor Replacement
+    anchor
+        .parent_node()
+        .unwrap()
+        .replace_child(&container, &anchor)
+        .unwrap();
+
+    // Centralized Update Logic
+    // Wrap inputs in Rc<RefCell> so they can be captured by multiple closures.
+    let inputs = Rc::new(AmmCalculatorInputs {
+        liq: liq_input,
+        price: price_input,
+        slider: slider_input,
+        x: x_input,
+        y: y_input,
+    });
+
+    let update_widget = {
+        let inputs = inputs.clone();
+        let zero = FixedPoint::from_int(0); // Reusable zero
+        move |mode: AmmCalculatorUpdateMode| match mode {
+            AmmCalculatorUpdateMode::FromLiqPrice => {
+                let l_f = inputs.liq.value().parse::<f64>().unwrap_or(0.0);
+                let p_f = inputs.price.value().parse::<f64>().unwrap_or(0.0);
+
+                let l = FixedPoint::from_f64(l_f).unwrap_or(zero);
+                let p = FixedPoint::from_f64(p_f).unwrap_or(zero);
+
+                if let Ok(sqrt_p) = p.sqrt() {
+                    let x = l.div(&sqrt_p).unwrap_or(zero);
+                    let y = l.mul(&sqrt_p).unwrap_or(zero);
+
+                    inputs
+                        .x
+                        .set_value(&format!("{:.6}", x.to_f64().unwrap_or(0.0)));
+                    inputs
+                        .y
+                        .set_value(&format!("{:.6}", y.to_f64().unwrap_or(0.0)));
+
+                    let p_float = p.to_f64().unwrap_or(0.0);
+                    inputs.slider.set_value(&p_float.log10().to_string());
+                }
+            }
+            AmmCalculatorUpdateMode::FromReserves => {
+                let x_f = inputs.x.value().parse::<f64>().unwrap_or(0.0);
+                let y_f = inputs.y.value().parse::<f64>().unwrap_or(0.0);
+
+                let l_f = (x_f * y_f).sqrt();
+                let p_f = if x_f != 0.0 { y_f / x_f } else { 0.0 };
+
+                let l = FixedPoint::from_f64(l_f).unwrap_or(zero);
+                let p = FixedPoint::from_f64(p_f).unwrap_or(zero);
+
+                inputs
+                    .liq
+                    .set_value(&format!("{:.6}", l.to_f64().unwrap_or(0.0)));
+                inputs
+                    .price
+                    .set_value(&format!("{:.6}", p.to_f64().unwrap_or(0.0)));
+
+                inputs.slider.set_value(&p_f.log10().to_string());
+            }
+        }
+    };
+
+    // Callback Setup
+    let update_rc = Rc::new(update_widget);
+
+    let on_price_change = {
+        let u = update_rc.clone();
+        Closure::wrap(Box::new(move |_e: web_sys::Event| {
+            u(AmmCalculatorUpdateMode::FromLiqPrice);
+        }) as Box<dyn FnMut(_)>)
+    };
+    inputs
+        .liq
+        .add_event_listener_with_callback("input", on_price_change.as_ref().unchecked_ref())
+        .unwrap();
+    inputs
+        .price
+        .add_event_listener_with_callback("input", on_price_change.as_ref().unchecked_ref())
+        .unwrap();
+    on_price_change.forget();
+
+    let on_slider_change = {
+        let u = update_rc.clone();
+        let ins = inputs.clone();
+        Closure::wrap(Box::new(move |_e: web_sys::Event| {
+            let val: f64 = ins.slider.value().parse().unwrap_or(0.0);
+            let price = 10.0_f64.powf(val);
+            ins.price.set_value(&format!("{:.6}", price));
+            u(AmmCalculatorUpdateMode::FromLiqPrice);
+        }) as Box<dyn FnMut(_)>)
+    };
+    inputs
+        .slider
+        .add_event_listener_with_callback("input", on_slider_change.as_ref().unchecked_ref())
+        .unwrap();
+    on_slider_change.forget();
+
+    let on_reserve_change = {
+        let u = update_rc.clone();
+        Closure::wrap(Box::new(move |_e: web_sys::Event| {
+            u(AmmCalculatorUpdateMode::FromReserves);
+        }) as Box<dyn FnMut(_)>)
+    };
+
+    inputs
+        .x
+        .add_event_listener_with_callback("input", on_reserve_change.as_ref().unchecked_ref())
+        .unwrap();
+    inputs
+        .y
+        .add_event_listener_with_callback("input", on_reserve_change.as_ref().unchecked_ref())
+        .unwrap();
+    on_reserve_change.forget();
+
+    // Default Values
+    inputs.liq.set_value("1000000.000000");
+    inputs.price.set_value("0.007000");
+    update_rc(AmmCalculatorUpdateMode::FromLiqPrice);
+}
+```
+
+**Widget JS Injection Anchor**
+```html
+<script type="module" id="amm_calculator_ui">
+  import init, { amm_calculator_init } from "/assets/wasm/post_constant_amm_mathematics/post_constant_amm_mathematics.js";
+  async function run() {
+    await init();
+    amm_calculator_init("amm_calculator_ui");
+  }
+  run();
+</script>
+```
+
+**Widget Inline CSS Styling**
+```html
+<style>
+  .amm-widget {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid red; /* Red outline as requested */
+    border-radius: 8px;
+    max-width: 500px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  /* Force the Slider to take up the entire second row */
+  .amm-widget div:nth-child(3) {
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* General styling for the input groups */
+  .amm-widget div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .amm-widget label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .amm-widget input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .amm-widget input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Responsive adjustment for mobile */
+  @media (max-width: 400px) {
+    .amm-widget {
+      grid-template-columns: 1fr;
+    }
+    .amm-widget div:nth-child(3) {
+      grid-column: 1;
+    }
+  }
+</style>
+```
+
+## Conclusion
+
+The Constant Product Formula
+is a masterpiece of simple yet profound engineering.
+By reducing the complexity of a market to a single invariant ($k$),
+it created a system where liquidity is always available,
+prices are mathematically predictable, and anyone can become a market maker.
+Whether you are building a trading bot or a new DEX,
+understanding the relationship between reserves, price,
+and liquidity is the first step toward mastering DeFi.
 
 ---
 
@@ -401,8 +731,10 @@ in Rust to build a functional AMM simulator.
 - [Impermanent Loss, How to calculate Impermanent Loss: full derivation][il_derivation]
 - [Impermanent Loss, What is Impermanent Loss in Crypto? YouTube][il_video]
 - [Impermanent Loss Explained, Binance Academy][il_binance]
+- [Related Post, WASM on a Jekyll Blog with Rust and wasm-bindgen][post_wasm]
 
 [il_binance]: https://www.binance.com/en/academy/articles/impermanent-loss-explained
 [il_derivation]: https://medium.com/auditless/how-to-calculate-impermanent-loss-full-derivation-803e8b2497b7
 [il_video]: https://www.youtube.com/watch?v=_m6Mowq3Ptk
+[post_wasm]: {% post_url 2026-01-26-webasm_on_jekyll %}
 
