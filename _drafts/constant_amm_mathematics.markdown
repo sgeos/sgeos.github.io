@@ -13,6 +13,73 @@ This model is the foundation of protocols like Uniswap v2,
 covering everything from swap mechanics and fees
 to the linear geometry of liquidity and the risks of impermanent loss.
 
+<style>
+  .amm-widget {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid red; /* Red outline as requested */
+    border-radius: 8px;
+    max-width: 500px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  /* Force the Slider to take up the entire second row */
+  .amm-widget div:nth-child(3) {
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* General styling for the input groups */
+  .amm-widget div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .amm-widget label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .amm-widget input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .amm-widget input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Responsive adjustment for mobile */
+  @media (max-width: 400px) {
+    .amm-widget {
+      grid-template-columns: 1fr;
+    }
+    .amm-widget div:nth-child(3) {
+      grid-column: 1;
+    }
+  }
+</style>
+
+<script type="module" id="amm_calculator_ui">
+  import init, { amm_calculator_init } from "/assets/wasm/post_constant_amm_mathematics/post_constant_amm_mathematics.js";
+  async function run() {
+    await init();
+    amm_calculator_init("amm_calculator_ui");
+  }
+  run();
+</script>
+
 ## Software Versions
 
 ```sh
@@ -83,6 +150,24 @@ A fixed value that defines the pool's pricing curve.
 This value is a constant during swaps and only changes when
 liquidity is added to or removed from the pool.
 [**Unit:** Token X $\cdot$ Token Y]
+
+> **Base and Quote Convention:**
+In financial markets, price is a ratio between two assets.
+The asset being priced is the **base**,
+and the currency used to measure it is the **quote**.
+By convention, price is expressed as
+the value of one unit of the base asset in terms of the quote asset.
+This maps directly to the AMM formula $P = \frac y x$.
+For example, if your price is quoted as **0.007 MEME/USD**, the assignment is:
+>
+- x (Base Asset) = MEME
+- y (Quote Asset) = USD
+>
+If the price is 0.007 MEME/USD,
+your pool will have a large reserve of MEME, and a small reserve of USD.
+This is because each MEME is worth very little,
+the contract must hold a much higher quantity of them to
+maintain the equilibrium of the constant product.
 
 ### Liquidity
 
