@@ -22,24 +22,22 @@ Other widgets could be written, but this post is sufficiently long as is.
 <style>
   .amm-widget {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     padding: 20px;
-    border: 2px solid red; /* Red outline as requested */
+    border: 2px solid red;
     border-radius: 8px;
     max-width: 500px;
     background-color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
 
-  /* Force the Slider to take up the entire second row */
   .amm-widget div:nth-child(3) {
     grid-column: 1 / span 2;
     display: flex;
     flex-direction: column;
   }
 
-  /* General styling for the input groups */
   .amm-widget div {
     display: flex;
     flex-direction: column;
@@ -66,7 +64,6 @@ Other widgets could be written, but this post is sufficiently long as is.
     margin: 10px 0;
   }
 
-  /* Responsive adjustment for mobile */
   @media (max-width: 400px) {
     .amm-widget {
       grid-template-columns: 1fr;
@@ -640,7 +637,7 @@ pub fn amm_calculator_init(anchor_id: &str) {
 }
 ```
 
-**Widget JS Injection Anchor**
+**Widget JS Injection Anchor Example**
 ```html
 <script type="module" id="amm_calculator_ui">
   import init, { amm_calculator_init } from "/assets/wasm/post_constant_amm_mathematics/post_constant_amm_mathematics.js";
@@ -652,29 +649,27 @@ pub fn amm_calculator_init(anchor_id: &str) {
 </script>
 ```
 
-**Widget Inline CSS Styling**
+**Widget Inline CSS Styling Example**
 ```html
 <style>
   .amm-widget {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     padding: 20px;
-    border: 2px solid red; /* Red outline as requested */
+    border: 2px solid red;
     border-radius: 8px;
     max-width: 500px;
     background-color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
 
-  /* Force the Slider to take up the entire second row */
   .amm-widget div:nth-child(3) {
     grid-column: 1 / span 2;
     display: flex;
     flex-direction: column;
   }
 
-  /* General styling for the input groups */
   .amm-widget div {
     display: flex;
     flex-direction: column;
@@ -701,7 +696,6 @@ pub fn amm_calculator_init(anchor_id: &str) {
     margin: 10px 0;
   }
 
-  /* Responsive adjustment for mobile */
   @media (max-width: 400px) {
     .amm-widget {
       grid-template-columns: 1fr;
