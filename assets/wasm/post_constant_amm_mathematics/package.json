@@ -1,0 +1,15 @@
+{
+  "name": "post_constant_amm_mathematics",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "post_constant_amm_mathematics_bg.wasm",
+    "post_constant_amm_mathematics.js",
+    "post_constant_amm_mathematics.d.ts"
+  ],
+  "main": "post_constant_amm_mathematics.js",
+  "types": "post_constant_amm_mathematics.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
