@@ -1,0 +1,15 @@
+{
+  "name": "post_claude_code_getting_started",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "post_claude_code_getting_started_bg.wasm",
+    "post_claude_code_getting_started.js",
+    "post_claude_code_getting_started.d.ts"
+  ],
+  "main": "post_claude_code_getting_started.js",
+  "types": "post_claude_code_getting_started.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
