@@ -10,55 +10,37 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-I want to integrate Claude Code functionality into my blog.
+Answering questions to solidify process.
 
 ## Objectives
 
-### Add Knowledge Graph
+### Decision: Git Strategy
 
-Review the knowledge graph in the following project.
-`${HOME}projects/crypto/cordial_cantina/docs/process`
+Please adapt the git strategy from the reference project.
+Exclude anything that is too formal for a blog.
+For example GitHub issues are not necessary.
 
-The following file should give you an entry point into the knowledge graph.
-`${HOME}projects/crypto/cordial_cantina/docs/process/CLAUDE.md`
+### Decision: Commit Convention
 
-Use it as an example to generate a knowledge graph for this project.
-Note that is a very simple project.
-It is just a technical blog.
-Writing conventions are the main thing that should be documented.
+Scoped conventional commits should be used moving forward.
+Additionally, commit changes after all other tasks, including the reverse prompt update, are complete.
+Please make sure this process is documented in the knowledge graph.
 
-The knowledge graph should be located in `_docs`
+### Decision: Working Item Coding System
 
-### Add Bidirectional Communication
+Please use Ax-Py-Tz coding.
+It stands for Article X, Prompt Y, Task Z.
+If possible, every future post should have an article number embedded as an invisible comment at the top of the post.
 
-I added `_docs/process/PROMPT.md` and `_docs/process/REVERSE_PROMPT.md`.
-`PROMPT.md` is for me to draft longform prompts so that:
+### Clarification: Commit Convention
 
-- they are not lost
-- and my prompt history is part of the repo
-
-`REVERSE_PROMPT.md` is for AI agent to communicate questions, comments, and concerns to the human pilot.
-
-Review the knowledge in the following project.
-`${HOME}projects/crypto/cordial_cantina/docs/process`
-
-Make sure that the bidirectional communication protocol is replicated for this project.
-
-### Nominal MILESTONE.md Integration
-
-The reference project appears to be using `docs/process/MILESTONE.md` for task resolution for legacy reasons.
-I suspect the name of the file should be changed.
-Please suggest a name for the file that reflects it current function.
-If the file is integral to the bidirectional task resolution, please use your suggested name in this project.
-Either way, report on file in your reverse prompt.
-
-### Reverse Prompt
-
-Voice any questions, comments, concerns, or noteworthy observations in your reverse prompt.
+PROMPT.md should never be modified by the AI agent.
+Treat it as a read-only file.
+Please make sure this process is documented in the knowledge graph.
 
 ## Context
 
-Pulling established workflow from another project.
+Clarifying agentic collaborative process.
 
 ## Constraints
 
@@ -67,9 +49,7 @@ Do not modify the reference project, just review it and pull relevant procedures
 
 ## Success Criteria
 
-- Appropriate knowledge graph added to this project.
-- Bidirectional Agentic Communication protocol documented in knowledge graph.
-- `MILESTONE.md` functionality integrated into workflow under appropriate name.
+- All decisions and clarification documented in appropriate place in the knowledge graph.
 
 ## Notes
 
