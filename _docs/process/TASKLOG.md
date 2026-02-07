@@ -8,36 +8,33 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Article Numbering and Process Formalization (A0-P3)
+**Name**: Article Publishing Procedures and A75 Draft (A75-P1)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] A0 convention for non-article work documented in knowledge graph
-- [x] PROMPT.md commit rule corrected in COMMUNICATION.md and CLAUDE.md
-- [x] Article comment placeholder added to draft template
-- [x] Article number convention with blank line requirements documented in POST_STRUCTURE.md
-- [x] Article numbers (A1-A74) added to all 74 historical posts
+- [x] Same-date ordering policy documented in POST_STRUCTURE.md
+- [x] Current draft numbering clarification acknowledged (drafts remain unnumbered)
+- [x] "Bidirectional Agentic Workflow" article drafted as A75
 - [x] REVERSE_PROMPT.md updated
-- [x] Changes committed with PROMPT.md included
+- [x] Changes committed with PROMPT.md
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P3-T1 | Document A0 convention and update PROMPT.md commit rule | Complete | COMMUNICATION.md and CLAUDE.md updated |
-| A0-P3-T2 | Add article comment placeholder to draft template | Complete | `_drafts/template.markdown` contains `<!-- Axxx -->` |
-| A0-P3-T3 | Update POST_STRUCTURE.md with blank line requirements | Complete | Article Number section updated with precise formatting |
-| A0-P3-T4 | Add article numbers to all 74 historical posts | Complete | 74/74 posts updated (A1-A74), verified on samples |
-| A0-P3-T5 | Update TASKLOG.md and REVERSE_PROMPT.md | Complete | This file and REVERSE_PROMPT.md |
-| A0-P3-T6 | Commit all changes including PROMPT.md | Complete | Single scoped conventional commit |
+| A75-P1-T1 | Document same-date ordering policy | Complete | POST_STRUCTURE.md Publication Ordering section added |
+| A75-P1-T2 | Research bidirectional agentic workflows | Complete | 6 topic areas researched, 40+ references gathered |
+| A75-P1-T3 | Draft "Bidirectional Agentic Workflow" article | Complete | `_drafts/bidirectional_agentic_workflow.markdown` created |
+| A75-P1-T4 | Update TASKLOG.md and REVERSE_PROMPT.md | Complete | This file and REVERSE_PROMPT.md |
+| A75-P1-T5 | Commit all changes including PROMPT.md | Complete | Single scoped conventional commit |
 
 ## Notes
 
-- Article numbers assigned chronologically by filename sort (date prefix ensures chronological order).
-- Posts sharing the same date are ordered alphabetically by slug.
-- Next available article number for new posts: A75.
+- A75 is the first article drafted using the bidirectional protocol.
+- The article documents the protocol itself, making it self-referential.
+- 20 references included covering autonomous agents, spec-driven development, breadcrumb protocol, AGENTS.md, and bounded autonomy.
 
 ## History
 
@@ -46,3 +43,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A0-P1: Knowledge graph, communication protocol, and CLAUDE.md created. |
 | 2026-02-07 | A0-P2: Git strategy, commit convention, Ax-Py-Tz coding, PROMPT.md read-only rule documented. |
 | 2026-02-07 | A0-P3: Article numbering formalized. A1-A74 assigned to historical posts. Template updated. |
+| 2026-02-07 | A75-P1: Same-date ordering documented. "Bidirectional Agentic Workflow" drafted. |
