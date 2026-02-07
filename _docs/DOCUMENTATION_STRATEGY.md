@@ -41,6 +41,7 @@ _docs/
 │   ├── README.md
 │   ├── CONTENT_WORKFLOW.md
 │   ├── COMMUNICATION.md
+│   ├── GIT_STRATEGY.md
 │   ├── TASKLOG.md
 │   ├── PROMPT.md
 │   └── REVERSE_PROMPT.md
@@ -75,3 +76,4 @@ _docs/
 | Date | Author | Changes |
 |------|--------|---------|
 | 2026-02-07 | Claude | Initial creation. Structure adapted from reference project. |
+| 2026-02-07 | Claude | Added GIT_STRATEGY.md to directory structure. |

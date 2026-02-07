@@ -10,6 +10,7 @@ Development process, content workflow, and human-AI communication protocol.
 |----------|-------------|
 | [Content Workflow](./CONTENT_WORKFLOW.md) | Draft, preview, and publish pipeline |
 | [Communication](./COMMUNICATION.md) | Bidirectional human-AI communication protocol |
+| [Git Strategy](./GIT_STRATEGY.md) | Commit conventions and version control workflow |
 
 ## Session Working Documents
 

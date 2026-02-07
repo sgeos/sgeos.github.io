@@ -29,8 +29,8 @@ Three working documents maintain state across AI sessions and enable asynchronou
 
 ### Rules
 
-- `PROMPT.md` must always be committed to preserve collaboration history.
-- The AI agent reads and executes the current prompt, then commits it.
+- `PROMPT.md` is **read-only for the AI agent**. The AI agent must never modify this file. Only the human pilot writes to `PROMPT.md`.
+- `PROMPT.md` must always be committed to preserve collaboration history. The human pilot is responsible for committing prompt changes.
 
 ## Reverse Prompt (AI to Human)
 
@@ -75,12 +75,41 @@ Three working documents maintain state across AI sessions and enable asynchronou
 2. Read `REVERSE_PROMPT.md` for last AI communication.
 3. Wait for human prompt before proceeding.
 
+## Work Item Coding System
+
+All work items use the **Ax-Py-Tz** coding system for traceability across articles, prompts, and tasks.
+
+### Format
+
+`Ax-Py-Tz`
+
+| Component | Meaning | Example |
+|-----------|---------|---------|
+| Ax | Article number | A1 = first article using this system |
+| Py | Prompt within article | P3 = third prompt |
+| Tz | Task within prompt | T2 = second task |
+
+The article number is a monotonically increasing identifier. It does not reset. Each article corresponds to a blog post or a documentation effort.
+
+### Usage
+
+- **TASKLOG.md**: Tasks use Ax-Py-Tz codes in the ID column.
+- **Git commits**: Reference task codes in the commit body using `[Task: Ax-Py-Tz]`.
+- **Blog posts**: Every future post should include an invisible HTML comment with its article number immediately after the front matter closing `---`. Example: `<!-- A5 -->`.
+
+### Examples
+
+- `A3-P1-T2` = Article 3, Prompt 1, Task 2
+- `A7-P2` = Article 7, Prompt 2 (no specific task)
+- `A0-P2-T1` = Article 0 (documentation), Prompt 2, Task 1
+
 ## Task Completion Protocol
 
-1. Update `TASKLOG.md` task status.
-2. Update `REVERSE_PROMPT.md` with verification and summary.
-3. Commit changes.
-4. Proceed to next task or stop if blocked.
+1. Complete all implementation tasks.
+2. Update `TASKLOG.md` task status.
+3. Update `REVERSE_PROMPT.md` with verification and summary.
+4. Commit all changes in a single commit. The commit happens after all tasks including the `REVERSE_PROMPT.md` update are complete.
+5. Proceed to next prompt or stop if blocked.
 
 ## Blocking Protocol
 

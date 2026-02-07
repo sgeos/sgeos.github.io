@@ -30,6 +30,24 @@ categories: category-one, category-two
 
 **Title reminder**: The draft template title reads "Template, Add Category Before You Forget" as a deliberate prompt to set categories before drafting.
 
+## Article Number
+
+Every post should include an invisible HTML comment with its article number immediately after the front matter closing `---`. The article number is a monotonically increasing identifier that ties the post to the Ax-Py-Tz work item coding system documented in [Communication](../process/COMMUNICATION.md).
+
+```markdown
+---
+layout: post
+mathjax: false
+comments: true
+title: "Post Title"
+date: 2026-02-07 00:00:00 +0000
+categories: example
+---
+<!-- A5 -->
+```
+
+The comment is not rendered in the published HTML. It serves as a traceability anchor for associating prompts and tasks with the post they support.
+
 ## Standard Sections
 
 Posts follow a consistent section order. Not all sections appear in every post.
