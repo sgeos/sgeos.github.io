@@ -6,6 +6,9 @@ title:  "Go as a Prototypical Strategy Game"
 date:   2023-05-18 05:45:53 +0000
 categories: gamedev
 ---
+
+<!-- A63 -->
+
 Go and chess are two classic strategy games with simple rules that are
 hard to master.
 Go arguably has simpler rules than chess, but the game is arguably

@@ -6,6 +6,9 @@ title: "Getting Started with Claude Code"
 date: 2026-01-31 12:10:25 +0000
 categories: [ai, ai-tools, development, developer-productivity, tutorial]
 ---
+
+<!-- A74 -->
+
 The landscape of software development is shifting rapidly
 with the emergence of agentic AI systems.
 These systems do not merely assist with code completion.

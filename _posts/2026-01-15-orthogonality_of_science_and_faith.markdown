@@ -7,6 +7,8 @@ date: 2026-01-15 11:11:38 +0000
 categories: [philosophy, science, faith]
 ---
 
+<!-- A67 -->
+
 In college, I took a fascinating class on the philosophy of science that
 deeply shaped my present understanding of science and faith. My main takeaway
 from that class was the idea that science and faith are orthogonal. This means

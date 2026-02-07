@@ -6,6 +6,9 @@ title:  "Getting Started with Cargo Workspaces for Rust Development"
 date:   2022-12-01 18:34:26 +0000
 categories: rust no_std
 ---
+
+<!-- A61 -->
+
 A single Rust package can contain one library and multiple binaries.
 Rust dependencies can only be specified at the package level, not for each
 binary in a package.

@@ -5,6 +5,9 @@ title:  "A Better Scripted Netcat Server"
 date:   2016-02-18 07:53:00 +0900
 categories: freebsd nc
 ---
+
+<!-- A17 -->
+
 The last scripted netcat server I [wrote about][blog-nc] was based on a one line webserver.
 It was a hack that kind of worked in a pinch, but the blind loop made it a bad server.
 

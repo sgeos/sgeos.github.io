@@ -6,6 +6,9 @@ title:  "git Repository Environment Management Variable Strategy"
 date:   2017-01-26 11:14:13 +0000
 categories: sh git
 ---
+
+<!-- A51 -->
+
 It can be useful to capture environment variable settings in a file.
 These files generally want to live with the project.
 This presents two problems when working with version control.

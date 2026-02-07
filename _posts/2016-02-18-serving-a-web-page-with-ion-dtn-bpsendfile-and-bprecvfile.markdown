@@ -5,6 +5,9 @@ title:  "Serving a Web Page with ION-DTN bpsendfile and bprecvfile"
 date:   2016-02-18 07:12:10 +0900
 categories: freebsd ion dtn
 ---
+
+<!-- A18 -->
+
 This post is a follow up to [Almost Serving a Web Page with ION-DTN bpchat][ion-almost].
 The **bpchat** proxies were rewritten with **bpsendfile** and **bprecvfile**.
 This strategy will only work for protocols with a request response exchange.

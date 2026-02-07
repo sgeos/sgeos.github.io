@@ -5,6 +5,9 @@ title:  "Installing MySQL on FreeBSD"
 date:   2016-07-14 01:23:55 +0000
 categories: mysql freebsd
 ---
+
+<!-- A37 -->
+
 Sometimes it can not be avoided.
 MySQL needs to be installed for one reason or another.
 This post covers installing MySQL on FreeBSD.

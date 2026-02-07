@@ -5,6 +5,9 @@ title:  "Almost Serving a Web Page with ION-DTN bpchat"
 date:   2016-02-12 09:41:21 +0900
 categories: freebsd ion dtn
 ---
+
+<!-- A14 -->
+
 This post is a follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started].
 The follow up to this post is [Serving a Web Page with ION-DTN bpsendfile and bprecvfile](https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html).
 

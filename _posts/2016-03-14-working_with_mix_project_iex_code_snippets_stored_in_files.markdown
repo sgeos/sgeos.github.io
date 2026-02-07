@@ -5,6 +5,9 @@ title:  "Working with mix project iex Code Snippets Stored in Files"
 date:   2016-03-14 17:08:09 +0000
 categories: elixir iex
 ---
+
+<!-- A24 -->
+
 **iex** can be used for interactively experimenting with **elixir**.
 If this experimentation becomes elaborate, it can be useful to store the commands in a file.
 This post covers working with files that store **elixir** code snippets.

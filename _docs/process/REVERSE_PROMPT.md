@@ -9,29 +9,32 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-07
-**Task**: A0-P2 Process Decisions and Clarifications
+**Task**: A0-P3 Article Numbering and Process Formalization
 
 ---
 
 ## Verification
 
-### GIT_STRATEGY.md Created
-**Result**: PASS. File created at `_docs/process/GIT_STRATEGY.md` with blog-adapted conventions. Excludes GitHub issues, PRs, feature branches, and worktrees from the reference project.
+### A0 Convention Documented
+**Result**: PASS. COMMUNICATION.md updated: A0 described as "non-article work" in the Ax component table and in the article number description.
 
-### COMMUNICATION.md Updated
-**Result**: PASS. Three changes applied.
-1. PROMPT.md read-only rule added to Forward Prompt Rules section.
-2. Ax-Py-Tz work item coding system added as new section.
-3. Task Completion Protocol updated with commit timing rule (commit after all tasks + reverse prompt).
+### PROMPT.md Commit Rule Corrected
+**Result**: PASS. COMMUNICATION.md Forward Prompt Rules and CLAUDE.md Commit Convention sections updated. AI agent must now commit PROMPT.md if the human pilot has modified it.
+
+### Draft Template Updated
+**Result**: PASS. `_drafts/template.markdown` now contains `<!-- Axxx -->` placeholder with blank lines before and after.
 
 ### POST_STRUCTURE.md Updated
-**Result**: PASS. Article Number section added documenting the invisible HTML comment convention (`<!-- A5 -->`).
+**Result**: PASS. Article Number section updated with explicit blank line requirements and the example now shows content after the comment. Added note about A1-A74 historical numbering and A0 reservation.
 
-### Navigation Files Updated
-**Result**: PASS.
-- `process/README.md`: GIT_STRATEGY.md added to Contents table.
-- `DOCUMENTATION_STRATEGY.md`: GIT_STRATEGY.md added to directory structure tree.
-- `CLAUDE.md`: Commit Convention section added with summary and PROMPT.md read-only note.
+### Historical Posts Numbered
+**Command**: `python3 add_article_numbers.py`
+**Result**: PASS. 74/74 posts updated with article numbers A1-A74.
+
+**Spot checks**:
+- A2 (`2016-01-08-hello-world.markdown`): Correct placement and blank lines.
+- A55 (`2022-10-03-getting-started-with-playdate.markdown`): Correct placement and blank lines.
+- A74 (`2026-01-31-claude_code_getting_started.markdown`): Correct placement and blank lines.
 
 ---
 
@@ -41,48 +44,52 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 | Decision | Location | Summary |
 |----------|----------|---------|
-| Git strategy | `_docs/process/GIT_STRATEGY.md` | Simple `master` branch workflow. Scoped conventional commits. No PRs or feature branches. |
-| Commit convention | `GIT_STRATEGY.md`, `CLAUDE.md` | `<scope>: <imperative summary>` with co-author attribution. |
-| Commit timing | `COMMUNICATION.md`, `GIT_STRATEGY.md` | AI commits once after all tasks and reverse prompt are complete. |
-| PROMPT.md read-only | `COMMUNICATION.md`, `CLAUDE.md` | AI agent must never modify PROMPT.md. Human pilot owns this file. |
-| Ax-Py-Tz coding | `COMMUNICATION.md` | Article-Prompt-Task coding for work item traceability. |
-| Article number | `POST_STRUCTURE.md` | Invisible HTML comment with article number after front matter. |
-
-### Files Created
-
-| File | Purpose |
-|------|---------|
-| `_docs/process/GIT_STRATEGY.md` | Version control conventions adapted for blog |
+| A0 for non-article work | `COMMUNICATION.md` | A0 reserved for documentation, process, and infrastructure |
+| PROMPT.md commit rule | `COMMUNICATION.md`, `CLAUDE.md` | AI commits PROMPT.md if human has modified it |
 
 ### Files Modified
 
 | File | Changes |
 |------|---------|
-| `_docs/process/COMMUNICATION.md` | Added read-only rule, Ax-Py-Tz coding, updated task completion protocol |
-| `_docs/writing/POST_STRUCTURE.md` | Added Article Number section |
-| `_docs/process/README.md` | Added GIT_STRATEGY.md to contents table |
-| `_docs/DOCUMENTATION_STRATEGY.md` | Added GIT_STRATEGY.md to directory tree |
-| `CLAUDE.md` | Added Commit Convention section |
-| `_docs/process/TASKLOG.md` | Replaced with A0-P2 task state |
+| `_docs/process/COMMUNICATION.md` | A0 convention, PROMPT.md commit rule corrected |
+| `_docs/writing/POST_STRUCTURE.md` | Blank line requirements, historical numbering note |
+| `CLAUDE.md` | PROMPT.md commit rule updated |
+| `_drafts/template.markdown` | Added `<!-- Axxx -->` placeholder |
+| `_posts/*.markdown` (74 files) | Added `<!-- A1 -->` through `<!-- A74 -->` |
+| `_docs/process/TASKLOG.md` | A0-P3 task state |
 | `_docs/process/REVERSE_PROMPT.md` | This file |
+
+### Article Number Assignment
+
+Posts numbered A1 through A74 in chronological order by filename date prefix. Same-date posts ordered alphabetically by slug. Full mapping:
+
+| Range | Period | Count |
+|-------|--------|-------|
+| A1-A46 | 2016 | 46 |
+| A47-A53 | 2017 | 7 |
+| A54 | 2019 | 1 |
+| A55-A61 | 2022 | 7 |
+| A62-A64 | 2023 | 3 |
+| A65 | 2025 | 1 |
+| A66-A74 | 2026 | 9 |
+
+**Next available article number: A75.**
 
 ---
 
 ## Questions for Human Pilot
 
-1. **Article numbering start?** The Ax-Py-Tz system needs a starting article number. Should existing published posts be retroactively numbered (A1 through A74 for the 74 published posts), or should the numbering start fresh from the next post? If starting fresh, what number should the first new article use?
+1. **Drafts numbering?** There are 13 files in `_drafts/` (excluding the template). Should existing drafts receive article numbers now, or should they be numbered when published? If now, numbering would continue from A75.
 
-2. **A0 for documentation?** I used A0 to designate documentation-only work that is not associated with a blog article. Is this convention acceptable, or should documentation work use a different designation?
-
-3. **Previous commits?** The first knowledge graph commit (A0-P1) was made before the scoped conventional commit convention was established, so it does not follow the new format. Should that commit be left as-is, or would you like it amended to follow the convention?
+2. **Same-date ordering?** Posts sharing a publication date (e.g., three posts on 2016-01-08) were ordered alphabetically by slug. If a different ordering is preferred for same-date posts, the numbering can be adjusted.
 
 ---
 
 ## Technical Concerns / Risks
 
-**Invisible comment placement**: The article number comment (`<!-- A5 -->`) placed immediately after the front matter `---` will be rendered as an HTML comment in the Jekyll output. This is standard behavior and the comment will not be visible to readers. However, Kramdown may in some edge cases interact unexpectedly with HTML comments at the very top of the Markdown body. If rendering issues arise, the comment could be moved to the end of the file instead.
+**Rendering verification**: The article number comments should not affect Jekyll rendering. They are standard HTML comments and will be invisible in the published output. A preview with `./_preview.sh` would confirm no rendering regressions across all 74 posts, but this was not performed to avoid side effects outside the documentation scope.
 
-**Retroactive numbering**: If existing posts are retroactively numbered, that would constitute modifying blog content, which the current prompt's constraints prohibit. This decision should be deferred to a future prompt without the "do not modify blog content" constraint.
+**Trailing newlines**: The script normalizes each file to end with a single newline. This is standard convention but may produce whitespace-only diffs on posts that previously had different trailing newline patterns.
 
 ---
 
@@ -90,7 +97,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 **Awaiting human direction** on:
 - Answers to the questions above
-- Any further process refinements
+- Any adjustments to article numbering
 - Next article or documentation task
 
 ---
@@ -102,9 +109,9 @@ If you are a new AI session reading this file:
 1. This is a Jekyll blog project at [sgeos.github.io](https://sgeos.github.io).
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
-4. `PROMPT.md` is read-only for AI agents. Never modify it.
-5. Commit after all tasks and this reverse prompt are updated.
-6. A0 designates documentation-only work. Two prompts (P1, P2) have been completed.
+4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
+5. A0 is reserved for non-article work. Three prompts (P1, P2, P3) have been completed.
+6. All 74 published posts have article numbers (A1-A74). Next available: A75.
 7. Read `TASKLOG.md` for current task state.
 8. Read `CLAUDE.md` at project root for build commands and quick orientation.
 9. Wait for human prompt before proceeding.

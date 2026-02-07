@@ -5,6 +5,9 @@ title:  "Getting Started With Beacons"
 date:   2016-05-25 01:53:29 +0000
 categories: beacon ios android unity osx
 ---
+
+<!-- A36 -->
+
 Beacon resources and tools for OSX, iOS and Android.
 
 ## Software Versions

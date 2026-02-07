@@ -5,6 +5,9 @@ title:  "Elixir, Executing AST"
 date:   2016-02-01 04:49:00 +0900
 categories: elixir metaprogramming ast
 ---
+
+<!-- A8 -->
+
 Inspecting AST is a good way to learn about elixir macros.
 Executing AST can also be instructional, but it is a little more nuanced than
 directly executing elixir code.

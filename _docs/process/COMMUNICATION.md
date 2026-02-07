@@ -30,7 +30,7 @@ Three working documents maintain state across AI sessions and enable asynchronou
 ### Rules
 
 - `PROMPT.md` is **read-only for the AI agent**. The AI agent must never modify this file. Only the human pilot writes to `PROMPT.md`.
-- `PROMPT.md` must always be committed to preserve collaboration history. The human pilot is responsible for committing prompt changes.
+- The AI agent must commit `PROMPT.md` along with other changes if it has been modified by the human pilot. This keeps the human prompt and AI reverse prompt in sync with committed work.
 
 ## Reverse Prompt (AI to Human)
 
@@ -85,11 +85,11 @@ All work items use the **Ax-Py-Tz** coding system for traceability across articl
 
 | Component | Meaning | Example |
 |-----------|---------|---------|
-| Ax | Article number | A1 = first article using this system |
+| Ax | Article number | A0 = non-article work, A1 = first published article |
 | Py | Prompt within article | P3 = third prompt |
 | Tz | Task within prompt | T2 = second task |
 
-The article number is a monotonically increasing identifier. It does not reset. Each article corresponds to a blog post or a documentation effort.
+The article number is a monotonically increasing identifier. It does not reset. Each article corresponds to a blog post. A0 is reserved for non-article work such as documentation, process, and infrastructure changes.
 
 ### Usage
 

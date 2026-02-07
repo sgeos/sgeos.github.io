@@ -5,6 +5,9 @@ title:  "Single Line Web Server With nc on FreeBSD"
 date:   2016-02-07 02:27:30 +0900
 categories: freebsd nc
 ---
+
+<!-- A11 -->
+
 I wrote a single file web server in my last post about [Getting Started With tor Hidden Services on FreeBSD][freebsd-tor].
 I figured it might be useful to have a couple of variations of simple web servers in their own post.
 This post covers single line and single file web servers with **nc** on FreeBSD.

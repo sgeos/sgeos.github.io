@@ -6,6 +6,9 @@ title:  "Getting Started with Rust on Playdate"
 date:   2022-10-04 18:23:42 +0000
 categories: gamedev playdate rust
 ---
+
+<!-- A56 -->
+
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 [Rust][rust] is a drop-in replacement for C that is fast and memory safe.
 This post will discuss getting started with the Panic Playdate using Rust.

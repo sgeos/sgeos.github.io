@@ -5,6 +5,9 @@ title:  "Hello, World!"
 date:   2016-01-08 02:49:39 +0900
 categories: test
 ---
+
+<!-- A2 -->
+
 Hello, World!
 {% highlight c linenos %}
 #include <stdio.h>

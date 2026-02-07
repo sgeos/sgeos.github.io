@@ -5,6 +5,9 @@ title:  "Passing Values to C Signal Handlers"
 date:   2016-02-24 15:09:21 +0000
 categories: unix c signals
 ---
+
+<!-- A23 -->
+
 Signals are inherently global.
 There are two ways to handle a signal with external values.
 

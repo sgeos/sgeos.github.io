@@ -7,6 +7,8 @@ date: 2026-01-16 21:40:17 +0000
 categories: rust no_std embedded
 ---
 
+<!-- A68 -->
+
 `no_std` [Rust][rust_homepage] programming involves developing applications
 without relying on Rust's standard library (`std`). This constraint is typical
 in embedded systems, where resources are limited or when direct control over

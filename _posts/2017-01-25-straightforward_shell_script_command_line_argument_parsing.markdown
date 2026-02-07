@@ -6,6 +6,9 @@ title:  "Straightforward Shell Script Command Line Argument Parsing"
 date:   2017-01-25 14:27:00 +0000
 categories: sh freebsd
 ---
+
+<!-- A50 -->
+
 This post covers a relatively straightforward method of parsing commandline arguments.
 All commandline arguments take the form of **-p=value** or **--parameter=value**.
 A safe delimeter is used internally so the value can contain an equals sign.

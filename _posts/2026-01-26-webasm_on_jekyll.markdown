@@ -6,6 +6,9 @@ title:  "WASM on a Jekyll Blog with Rust and wasm-bindgen"
 date:   2026-01-26 04:19:39 +0000
 categories: [rust, wasm, jekyll]
 ---
+
+<!-- A72 -->
+
 Jekyll generates static pages from templates.
 It is often used for blogs, like this one.
 Sometimes you want to include interactive elements, like calculators.

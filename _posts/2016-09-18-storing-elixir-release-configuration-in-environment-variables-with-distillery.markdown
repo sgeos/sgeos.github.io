@@ -6,6 +6,9 @@ title:  "Storing Elixir Release Configuration in Environment Variables with Dist
 date:   2016-09-18 06:31:36 +0000
 categories: phoenix elixir erlang ecto distillery postgresql mysql
 ---
+
+<!-- A45 -->
+
 This post covers storing settings like database configuration in
 environment variables with [distillery][distillery].
 A [prior post][elixir-exrm-env] covered this with the [Elixir Release Manager (exrm)][exrm].

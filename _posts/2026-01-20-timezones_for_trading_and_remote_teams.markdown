@@ -6,6 +6,9 @@ title:  "Timezones for Trading and Managing Remote Teams"
 date:   2026-01-20 06:20:08 +0000
 categories: [management, trading, remote-work, operations]
 ---
+
+<!-- A70 -->
+
 With a current global population of over 8 billion, human activity is far from
 a random distribution. Influence and capital are concentrated within specific
 geographical hubs, creating a structurally consistent ebb and flow to the

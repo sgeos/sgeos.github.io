@@ -5,6 +5,9 @@ title:  "Using Shell Functions to Jump Into Terminal Projects"
 date:   2016-03-17 04:52:56 +0000
 categories: unix sh
 ---
+
+<!-- A26 -->
+
 If you are like me, you often have number of terminal windows
 open and logged into another machine.
 When that machine reboots, you need to log in again and pick up

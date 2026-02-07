@@ -6,6 +6,9 @@ title:  "Using cc-rs to Mix Rust with C, C++, and ASM"
 date:   2022-10-07 20:34:48 +0000
 categories: rust c c++ asm
 ---
+
+<!-- A59 -->
+
 New projects often need to incorporate existing code.
 Sometimes that code is written in a different programming language.
 The post covers using the [cc-rs crate][rust_cc_rs] to compile C,

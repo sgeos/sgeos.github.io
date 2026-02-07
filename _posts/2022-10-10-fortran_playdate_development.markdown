@@ -6,6 +6,9 @@ title:  "Fortran Playdate Development"
 date:   2022-10-10 21:55:03 +0000
 categories: gamedev playdate fortran
 ---
+
+<!-- A60 -->
+
 [Fortran][fortran] is used for heavy number crunching in mathematical and
 scientific computing.
 This post will start by covering calling Fortran from C.

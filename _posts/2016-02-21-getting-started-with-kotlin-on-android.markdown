@@ -5,6 +5,9 @@ title:  "Getting Started with Kotlin on Android with IntelliJ IDEA EAP 16"
 date:   2016-02-21 10:46:17 +0000
 categories: android kotlin intellij
 ---
+
+<!-- A21 -->
+
 I recently spoke with some people in Tokyo who are
 using [Kotlin][kotlin] in a production Android app.
 Kotlin is less cumbersome to write than Java and is therefore easier to maintain.

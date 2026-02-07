@@ -6,6 +6,9 @@ title: "Nonblocking getchar() in C"
 date: 2026-01-17 23:51:32 +0000
 categories: [unix, c]
 ---
+
+<!-- A69 -->
+
 Getting characters one at a time with `getchar()` is useful. 
 Sometimes a program needs to do other things while waiting for input. 
 Sometimes blocking is problematic.

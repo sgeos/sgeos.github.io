@@ -7,6 +7,8 @@ date: 2026-01-14 08:00:42 +0000
 categories: [games, strategy, game-theory, war-gaming]
 ---
 
+<!-- A66 -->
+
 ## Lessons from Game Theory and *Magic: The Gathering*
 
 Games are simplified models of decision environments that deliberately reduce

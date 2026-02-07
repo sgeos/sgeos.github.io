@@ -5,6 +5,9 @@ title:  "SSH Public Key Login From a Rooted Android Phone"
 date:   2016-04-08 19:58:32 +0000
 categories: ssh android unix
 ---
+
+<!-- A32 -->
+
 I wanted to be able to used my phone to log into my MacBook.
 The catch?  I do not want passwords enabled.
 This post covers what I did to achieve this goal.

@@ -6,6 +6,9 @@ title:  "Adding Images and Downloads to a GitHub Pages Jekyll Blog"
 date:   2016-08-30 19:45:55 +0000
 categories: github jekyll
 ---
+
+<!-- A40 -->
+
 This post covers adding images to a [GitHub Pages][github_pages] [Jekyll blog][jekyll].
 This solution also works for downloads, like PDFs.
 

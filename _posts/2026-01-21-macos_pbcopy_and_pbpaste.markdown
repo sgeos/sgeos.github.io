@@ -6,6 +6,9 @@ title:  "pbcopy and pbpaste for macOS"
 date:   2026-01-21 09:34:50 +0000
 categories: [macos, terminal, unix]
 ---
+
+<!-- A71 -->
+
 If you spend any amount of time in the macOS Terminal, chances are you have
 copied and pasted text between the command line and graphical apps more times
 than you can count. macOS provides two small but powerful utilities, `pbcopy`
