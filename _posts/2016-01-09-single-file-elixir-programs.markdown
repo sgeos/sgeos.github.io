@@ -5,6 +5,9 @@ title:  "Single File Elixir Programs"
 date:   2016-01-08 17:35:06 +0900
 categories: elixir erlang
 ---
+
+<!-- A4 -->
+
 I was reading the [learn you some Erlang for great good][erlang-book] book and realized that [escript][erlang-escript] functionality is easier to use in erlang than elixir.  This post covers single file elixir programs.  Single file programs are useful for problems that are a little too complicated for iex, but not complicated enough for a full blown mix project.
 
 Thanks to everyone in [#elixir-lang on Freenode][irc-elixir-lang] who answered my questions about command line arguments and escript.

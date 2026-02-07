@@ -5,6 +5,9 @@ title:  "Elixir as a Service on FreeBSD"
 date:   2016-01-17 07:36:31 +0900
 categories: elixir erlang
 ---
+
+<!-- A6 -->
+
 Ease of deployment is one of the things I seriously consider when evaluating technology solutions.
 In this post, a modified version of the Elixir [getting started echo server][elixir-gen-tcp] will be installed as a
 FreeBSD service.  There are three goals.

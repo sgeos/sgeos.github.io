@@ -6,6 +6,9 @@ title:  "Trigonometry"
 date:   2016-09-03 19:48:34 +0000
 categories: math trigonometry
 ---
+
+<!-- A42 -->
+
 A list of trigonometric formulae and tables.
 
 ![image of arc length]({{ site.url }}/assets/trig_diagrams_002.png)

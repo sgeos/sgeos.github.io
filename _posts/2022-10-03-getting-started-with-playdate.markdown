@@ -6,6 +6,9 @@ title:  "Getting Started with Playdate"
 date:   2022-10-03 20:21:04 +0000
 categories: gamedev playdate c c++ lua
 ---
+
+<!-- A55 -->
+
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with the Panic Playdate.
 It will cover downloading the [SDK][playdate_sdk_latest], installing it,

@@ -6,6 +6,9 @@ title:  "Printing the IP Address for a Device"
 date:   2017-01-17 11:24:20 +0000
 categories: sh freebsd unix
 ---
+
+<!-- A47 -->
+
 I often work with VMs.
 Sometimes I want to SSH into a physical server or a laptop.
 Either way I need to know the IP address of the box to get work done.

@@ -5,6 +5,9 @@ title:  "npm, Adding a CC0 License to package.json"
 date:   2016-02-03 04:05:29 +0900
 categories: npm
 ---
+
+<!-- A9 -->
+
 When installing dependencies for a new phoenix project, I got the following
 warning.
 **npm WARN package.json @ No license field.**

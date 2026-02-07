@@ -5,6 +5,9 @@ title:  "Setting the Android SE Linux Mode on a Rooted Device"
 date:   2016-05-22 12:35:08 +0000
 categories: android selinux
 ---
+
+<!-- A35 -->
+
 I recently ran into a case where I needed to change the SE Linux mode on
 a rooted Android device.
 This post gives basic information on how to get and set the SE Linux mode.

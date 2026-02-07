@@ -6,6 +6,9 @@ title:  "Counting Files of a Particular Type from the Command Line"
 date:   2017-01-25 09:46:14 +0000
 categories: sh freebsd
 ---
+
+<!-- A49 -->
+
 Sometimes it can be useful to know how many files of a particular type are in a directory.
 This post presents a single line command and a shell function that count the number of files with a given extenstion in the current directory.
 Directories are searched recursively.

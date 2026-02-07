@@ -6,6 +6,9 @@ title:  "ASM Playdate Development"
 date:   2022-10-05 19:28:00 +0000
 categories: gamedev playdate asm arm x86
 ---
+
+<!-- A57 -->
+
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with ASM on the Panic Playdate.
 The Playdate's CPU is a Cortex M7 that *only* supports Thumb instructions.

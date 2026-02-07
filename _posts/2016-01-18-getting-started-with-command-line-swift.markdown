@@ -5,6 +5,9 @@ title:  "Getting Started With Command Line Swift"
 date:   2016-01-18 09:01:44 +0900
 categories: swift
 ---
+
+<!-- A7 -->
+
 If you want to start learning swift without firing up an IDE, this post is for you.
 This post was written because the instructions in the references are slightly out of date.
 

@@ -72,7 +72,7 @@ A knowledge graph is maintained in `_docs/`. Start at [`_docs/README.md`](_docs/
 
 Use scoped conventional commits: `<scope>: <imperative summary>`. Common scopes: `feat`, `fix`, `docs`, `refactor`, `chore`, `draft`. Include `Co-Authored-By: Claude <noreply@anthropic.com>` when AI-assisted. See [`_docs/process/GIT_STRATEGY.md`](_docs/process/GIT_STRATEGY.md) for full details.
 
-The AI agent commits once after all tasks in a prompt are complete, including the `REVERSE_PROMPT.md` update. `PROMPT.md` is read-only for the AI agent.
+The AI agent commits once after all tasks in a prompt are complete, including the `REVERSE_PROMPT.md` update. `PROMPT.md` is read-only for the AI agent but must be included in the commit if the human pilot has modified it.
 
 ## Session Startup Protocol
 

@@ -32,7 +32,9 @@ categories: category-one, category-two
 
 ## Article Number
 
-Every post should include an invisible HTML comment with its article number immediately after the front matter closing `---`. The article number is a monotonically increasing identifier that ties the post to the Ax-Py-Tz work item coding system documented in [Communication](../process/COMMUNICATION.md).
+Every post must include an invisible HTML comment with its article number after the front matter. The article number is a monotonically increasing identifier that ties the post to the Ax-Py-Tz work item coding system documented in [Communication](../process/COMMUNICATION.md).
+
+There must be a blank line between the front matter closing `---` and the comment, and a blank line between the comment and the first line of post content.
 
 ```markdown
 ---
@@ -43,10 +45,15 @@ title: "Post Title"
 date: 2026-02-07 00:00:00 +0000
 categories: example
 ---
+
 <!-- A5 -->
+
+Post content begins here.
 ```
 
-The comment is not rendered in the published HTML. It serves as a traceability anchor for associating prompts and tasks with the post they support.
+The comment is not rendered in the published HTML. It serves as a traceability anchor for associating prompts and tasks with the post they support. The draft template includes `<!-- Axxx -->` as a placeholder to be replaced with the actual article number before publication.
+
+Historical posts are numbered A1 through A74 in chronological order by publication date. A0 is reserved for non-article work.
 
 ## Standard Sections
 

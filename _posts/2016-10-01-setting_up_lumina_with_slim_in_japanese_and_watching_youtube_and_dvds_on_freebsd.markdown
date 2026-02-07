@@ -6,6 +6,9 @@ title:  "Setting Up Lumina with slim in Japanese and Watching YouTube and DVDs o
 date:   2016-10-01 23:28:23 +0000
 categories: freebsd xorg lumina slim chrome vlc
 ---
+
+<!-- A46 -->
+
 This post covers installing Lumina and xdm on a fresh i386 install.
 It also covers installing Japanese fonts and a Japanese IME.
 The final test is watching DVDs and YouTube videos-

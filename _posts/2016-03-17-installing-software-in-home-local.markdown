@@ -5,6 +5,9 @@ title:  "Installing Software in $HOME/local"
 date:   2016-03-17 17:49:50 +0000
 categories: unix
 ---
+
+<!-- A25 -->
+
 Have you ever found yourself in this position?
 Your sysadmin is awesome.
 Your sysadmin is also busy and does not install software in a timely fashion.

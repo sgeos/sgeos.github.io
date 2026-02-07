@@ -5,6 +5,9 @@ title:  "Phoenix/Elixir, Adding prod.secret.exs.example to a git Repository"
 date:   2016-07-18 02:18:42 +0000
 categories: phoenix elixir git
 ---
+
+<!-- A38 -->
+
 **prod.secret.exs** is not added to the git repository by default.
 This is a good thing.
 The problem is that when a repository is cloned, **prod.secret.exs** is missing.

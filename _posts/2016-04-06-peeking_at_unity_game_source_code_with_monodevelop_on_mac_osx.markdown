@@ -5,6 +5,9 @@ title:  "Peeking at Unity Game Source Code with MonoDevelop on Mac OS X"
 date:   2016-04-06 19:12:17 +0000
 categories: unity monodevelop decompile android apk
 ---
+
+<!-- A31 -->
+
 I am occasionally curious to peek at the source code of a Unity game,
 mainly to see how it is broken into classes.
 This is easy to do with MonoDevelop.

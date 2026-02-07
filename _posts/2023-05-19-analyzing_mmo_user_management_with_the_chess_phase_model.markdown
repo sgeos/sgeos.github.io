@@ -6,6 +6,9 @@ title:  "Analyzing MMO User Management With The Chess Phase Model"
 date:   2023-05-19 08:06:22 +0000
 categories: gamedev mmo
 ---
+
+<!-- A64 -->
+
 ## Analyzing MMO User Management With The Chess Phase Model
 
 The phases of chess are broadly applicable to many, if not most, games.

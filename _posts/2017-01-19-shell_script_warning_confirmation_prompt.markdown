@@ -6,6 +6,9 @@ title:  "Shell Script Confirmation Warning Prompt"
 date:   2017-01-19 12:21:09 +0000
 categories: sh freebsd
 ---
+
+<!-- A48 -->
+
 Sometimes scripts need to do something really destructive.
 It is generally a good idea to display a warning prompt and provide a way to back out before performing these destructive actions.
 It is also useful to provide a mechanism whereby the interactive prompt can be disabled.

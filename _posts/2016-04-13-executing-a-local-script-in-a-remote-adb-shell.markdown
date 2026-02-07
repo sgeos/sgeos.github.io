@@ -5,6 +5,9 @@ title:  "Executing a Local Script in a Remote ADB Shell"
 date:   2016-04-13 23:01:12 +0000
 categories: android adb sh
 ---
+
+<!-- A34 -->
+
 It can be useful to write and store scripts on a local
 development machine and run them remotely on one or more
 Android devices.  This post covers how this is done.

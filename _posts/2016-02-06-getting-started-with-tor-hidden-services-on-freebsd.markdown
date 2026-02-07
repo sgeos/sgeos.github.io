@@ -5,6 +5,9 @@ title:  "Getting Started With tor Hidden Services on FreeBSD"
 date:   2016-02-06 14:45:48 +0900
 categories: tor freebsd nc curl
 ---
+
+<!-- A10 -->
+
 At times I have wanted to demo the development version of a server that is
 running on my FreeBSD virtual machine.
 This is not a problem if the person I want to show it to is withing walking

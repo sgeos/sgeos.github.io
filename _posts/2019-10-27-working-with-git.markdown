@@ -6,6 +6,9 @@ title:  "Working With git and GitHub"
 date:   2019-10-27 08:25:20 +0000
 categories: 
 ---
+
+<!-- A54 -->
+
 This post will explain the basics of working with git and GitHub.
 For more in depth information, read a book on git or work through a proper tutorial.
 

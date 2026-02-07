@@ -6,6 +6,9 @@ title:  "no_std Rust with bin and lib"
 date:   2022-10-06 18:51:30 +0000
 categories: rust no_std
 ---
+
+<!-- A58 -->
+
 Splitting [Rust][rust] programs into a binary and a library is a common pattern.
 The binary has a **main()** entry point, and the library typically has a
 **run()** function.

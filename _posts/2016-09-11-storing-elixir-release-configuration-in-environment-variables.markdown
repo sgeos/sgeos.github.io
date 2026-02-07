@@ -6,6 +6,9 @@ title:  "Storing Elixir Release Configuration in Environment Variables with exrm
 date:   2016-09-11 18:09:35 +0000
 categories: phoenix elixir erlang ecto exrm postgresql mysql
 ---
+
+<!-- A43 -->
+
 This post covers storing settings like database configuration in environment variables.
 
 ## Software Versions

@@ -5,6 +5,9 @@ title:  "Getting Started With Multi File Command Line Swift"
 date:   2016-02-09 02:08:36 +0900
 categories: swift
 ---
+
+<!-- A13 -->
+
 I wanted to write a post on commandline swift projects that span more than one file.
 This post covers a hello world type example that spans three files and prompts for input.
 Also covered are a file wrapper for multi file swift scripts and compiled command line executables.

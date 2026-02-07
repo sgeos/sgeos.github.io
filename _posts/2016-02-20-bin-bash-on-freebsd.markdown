@@ -5,6 +5,9 @@ title:  "#!/bin/bash on FreeBSD"
 date:   2016-02-20 17:04:07 +0000
 categories: freebsd bash
 ---
+
+<!-- A20 -->
+
 A great number of people write **bash** scripts for Linux.
 Most of these scripts start with `#!/bin/bash`.
 **bash** is not installed on FreeBSD by default.

@@ -6,6 +6,9 @@ title:  "Elixir/Erlang, Running OTP Observer Remotely"
 date:   2016-09-16 14:17:43 +0000
 categories: elixir erlang observer
 ---
+
+<!-- A44 -->
+
 This post covers running the OTP's observer on a node running on a remote machine.
 It is a step-by-step of [this gist][observer-remote].
 

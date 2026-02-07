@@ -5,6 +5,9 @@ title:  "Installing Phoenix, Elixir and PostgreSQL on FreeBSD"
 date:   2016-03-19 07:35:02 +0000
 categories: phoenix elixir postgresql freebsd
 ---
+
+<!-- A28 -->
+
 This post covers installing Phoenix, Elixir and PostgreSQL on a clean installation of FreeBSD.
 The post assumes FreeBSD is installed and you have created an unprivileged user.
 FreeBSD installation instructions can be found [here][freebsd-install].

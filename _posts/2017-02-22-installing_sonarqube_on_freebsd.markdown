@@ -6,6 +6,9 @@ title:  "Installing SonarQube on FreeBSD"
 date:   2017-02-22 20:09:23 +0000
 categories: freebsd sonarqube
 ---
+
+<!-- A52 -->
+
 SonarQube is a static analysis tool that supports many popular languages.
 It can be integrated with tools like Jenkins and JIRA.
 This post covers installing it on FreeBSD.

@@ -5,6 +5,9 @@ title:  "Adding Disqus to a Jekyll Blog"
 date:   2016-02-15 05:56:57 +0900
 categories: jekyll disqus
 ---
+
+<!-- A15 -->
+
 A [Jekyll][jekyll] blog is not backed by a database.
 Out of the box, there is no way for people to comment on or discuss blog posts.
 [Disqus][disqus] is a third party service that can be used to get around that limitation.

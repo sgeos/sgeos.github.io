@@ -6,6 +6,9 @@ title:  "YouTube Video Speed Bookmarklets"
 date:   2017-10-29 14:19:20 +0000
 categories: youtube javascript bookmarklet
 ---
+
+<!-- A53 -->
+
 Using the provided controls, YouTube video speeds can only be
 adjusted from 0.25x to 2.00x.  A speed outside of that range
 is sometimes desirable.

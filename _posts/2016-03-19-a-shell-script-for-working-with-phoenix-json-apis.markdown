@@ -5,6 +5,9 @@ title:  "A Shell Script for Working with Phoenix JSON APIs"
 date:   2016-03-19 00:55:41 +0000
 categories: phoenix elixir sh
 ---
+
+<!-- A27 -->
+
 I started writing another post, but wound up writing a non-trivial script for
 working with Phoenix JSON APIs.
 That script is covered in this post.

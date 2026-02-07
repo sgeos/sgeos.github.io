@@ -6,6 +6,9 @@ title:  "Chess as a Prototypical Model for Game Progression"
 date:   2023-05-17 21:05:40 +0000
 categories: gamedev
 ---
+
+<!-- A62 -->
+
 Models are useful to help reason about complex problems.
 This post will describe how chess can be used as a model to reason about
 more complex games.

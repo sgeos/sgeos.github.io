@@ -6,6 +6,9 @@ title:  "Single Parameter Equation for a  Sphere"
 date:   2016-09-02 10:48:07 +0000
 categories: 3d parametric math
 ---
+
+<!-- A41 -->
+
 This post covers some equations I found when playing around with plotting 3D parametric trigonometric functions.
 The goal was to create a sphere with one parameter.
 

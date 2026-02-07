@@ -6,6 +6,9 @@ title: "Constant Product AMM Mathematics"
 date: 2026-01-29 17:08:11 +0000
 categories: [crypto, defi, rust]
 ---
+
+<!-- A73 -->
+
 Automated Market Makers (AMMs) revolutionized on-chain liquidity
 by replacing central limit order books with deterministic mathematical curves.
 This post deconstructs the core equations of the Constant Product model.

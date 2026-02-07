@@ -5,6 +5,9 @@ title:  "A Script to Extract App Data From a Rooted Android Device"
 date:   2016-04-10 20:03:14 +0000
 categories: android
 ---
+
+<!-- A33 -->
+
 It can be useful to get a copy of all of the data an Android app has stored on the phone.
 Specifically, getting SQLite to work with a new app always seems to be a minor hiccup for me.
 There are other times when getting a copy of the private app data can be useful.

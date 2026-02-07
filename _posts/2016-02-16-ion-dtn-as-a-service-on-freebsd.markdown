@@ -5,6 +5,9 @@ title:  "ION DTN as a Service on FreeBSD"
 date:   2016-02-16 06:36:10 +0900
 categories: freebsd ion dtn
 ---
+
+<!-- A16 -->
+
 This post covers installing ION DTN as a service on FreeBSD.
 The goal is to create an **iondtn** service that can be used like any other service.
 
