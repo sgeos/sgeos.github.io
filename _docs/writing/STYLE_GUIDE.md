@@ -31,6 +31,29 @@ Posts are polite, professional, and academic in register. The writing is technic
 - Define all reference URLs at the bottom of the file.
 - Use Jekyll `{% post_url YYYY-MM-DD-post-slug %}` syntax for links to other posts on the blog.
 
+### Reference Categorization
+
+References in the `## References` section use a categorized format. Each entry is displayed as `[Category, Title][anchor]` where the anchor follows the pattern `category_abbreviated_title`.
+
+- Categories are short labels that group related references. Examples: AI, Claude Code, GitHub, Protocol, Research.
+- References are sorted alphabetically by category, then by title within each category.
+- Anchor names use a lowercase abbreviation of the category as a prefix. Examples: `ai_`, `cc_`, `github_`, `protocol_`, `research_`.
+- URL definitions at the bottom of the file are sorted alphabetically by anchor name to match.
+
+Example:
+
+```markdown
+## References
+
+- [AI, Effective Context Engineering][ai_context_engineering]
+- [Claude Code, Best Practices][cc_best_practices]
+- [GitHub, Reference Implementation][github_blog_repo]
+
+[ai_context_engineering]: https://example.com/context
+[cc_best_practices]: https://example.com/best-practices
+[github_blog_repo]: https://github.com/user/repo
+```
+
 ## Mathematical Content
 
 - Set `mathjax: true` in front matter when a post contains mathematical notation.
