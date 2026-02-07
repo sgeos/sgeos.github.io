@@ -83,15 +83,37 @@ Posts follow a consistent section order. Not all sections appear in every post.
 
 ## Software Versions Format
 
+Use shell comment lines (`#`) to group version commands by category for readability. Standard categories are Date, OS and Version, Hardware Information, Shell and Version, and tool-specific sections.
+
 ```sh
+# Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2026-01-31 12:10:25 +0000
 
+# OS and Version
 $ uname -vm
 Darwin Kernel Version 23.6.0: ...
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		14.6.1
+BuildVersion:		23G93
+
+# Hardware Information
+$ system_profiler SPHardwareDataType | sed -n '8,10p'
+      Chip: Apple M1 Max
+      Total Number of Cores: 10 (8 performance and 2 efficiency)
+      Memory: 32 GB
+
+# Shell and Version
+$ echo "${SHELL}"
+/bin/bash
+
+$ "${SHELL}" --version | head -n 1
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 ```
 
-Include version output for every language, framework, or tool used in the post.
+Include version output for every language, framework, or tool used in the post. Add a comment header for each tool-specific section.
 
 ## Interactive Elements
 
