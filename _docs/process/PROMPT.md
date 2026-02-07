@@ -10,47 +10,51 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Answering questions to solidify process.
+Polishing draft A75.
+
+Answers to questions.
+
+1. Article tone is fine. Specific edits will be mentioned below.
+2. Links only need to be verified once because drafts are usually published promptly.
+3. In general, I want to avoid pulling images in if I can help it. If there are more polished options than ASCII art, like HTML/CSS or mermaid diagrams, feel free to use them.
+4. Publication timing is fine. Sometimes it is updated immediately before publication.
 
 ## Objectives
 
-### Decision: Same-Date Ordering
+### Verify Manual Edits
 
-In general, an effort is made to avoid same date publication.
-If multiple drafts are finished on the same day:
+I manually edited the article and made some minor but important changes.
+The biggest change was inlining `COMMUNICATION.md`.
+Make sure these edits are integrated correctly.
+Feel free to move sections around or reword language if sensible.
 
-- One may be published using thing previous day's date if nothing had been published the previous day.
-- One is published for the current day.
-- The rest of the articles are treated as unpublished drafts to be published in the future.
+### Sort Links
 
-If two drafts are indeed published on the same day, they should simply use their assigned article numbers.
-In general, article number should indicate publication order regardless of same date publication.
-Having said that, unpublished drafts may be tactically published, resulting in slightly out of order publication.
+Links contents are fine, but I like them listed by category and title in alpha order.
+Non-prescriptive illustrative example:
+- [AI, Agentic AI Course][ai_agentic_course]
+- [AI, My LLM Coding Workflow Going into 2026][ai_llm_workflow]
+- [Claude Code, Best Practices for Claude Code][cc_best_practices]
+- [Claude Code, Common Workflows: Claude Code Documentation][cc_common_workflows]
+- [Claude Code, Eight Trends Defining How Software Gets Built in 2026][cc_eight_trends]
 
-Please make sure this process is documented in the knowledge graph.
+Please sort links and document reference strategy in the knowledge graph.
 
-### Clarification: Current Draft Numbering
+```
+## References
 
-The current drafts can remain unnumbered.
-Numbers can be assigned if and when a decision is made to polish these drafts and publish them.
+- [Category, Title A][category_title_a]
+- [Category, Title B][category_title_b]
+- [Category, Title C][category_title_c]
 
-### Draft New Article
-
-Please draft a new article: "Bidirectional Agentic Workflow".
-Start by researching the topic.
-The article outline:
-
-- Post summary (note that this article was drafted using the bidirectional workflow covered below)
-- Software versions
-- Document our birdirectional protocol in a way that can be replicated by others (linking to the github repo is OK; note that fine structure may change, but top levels files including `docs/README.md` should be present moving forward)
-- Compare the documented workflow to other workflows and strategies found while researching
-- Summary
-- Future reading
-- References (include all relevant references found during research)
+[category_title_a]: http://www.url.com/a
+[category_title_b]: http://www.url.com/b
+[category_title_c]: http://www.url.com/c
+```
 
 ## Context
 
-Formalizing article publishing procedures.
+Polishing draft.
 
 ## Constraints
 
@@ -58,8 +62,8 @@ Formalizing article publishing procedures.
 
 ## Success Criteria
 
-- All decisions and clarification documented in appropriate place in the knowledge graph.
-- "Bidirectional Agentic Workflow" article drafted.
+- Body prose is optimized for clarity, flow, and correctness.
+- Reference links have categories added, and are sorted.
 
 ## Notes
 

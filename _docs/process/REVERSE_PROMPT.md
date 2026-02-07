@@ -9,102 +9,68 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-07
-**Task**: A75-P1 Article Publishing Procedures and A75 Draft
+**Task**: A75-P2 Polish A75 Draft
 
 ---
 
 ## Verification
 
-### Same-Date Ordering Policy Documented
-**Result**: PASS. Publication Ordering section added to `_docs/writing/POST_STRUCTURE.md` covering the avoid-same-date policy, previous/future day reassignment, and the acceptability of slightly out-of-order article numbers from tactical publication.
+### Manual Edits Verified
+**Result**: PASS. Human edits integrated correctly. Typo "You many need" corrected to "You may need" in the inlined COMMUNICATION.md section. The inlined COMMUNICATION.md subsection and the promoted `## Comparison with Other Approaches` heading are structurally sound.
 
-### Draft Numbering Clarification
-**Result**: PASS. Acknowledged. Existing drafts remain unnumbered. Numbers assigned at publication time.
+### References Categorized and Sorted
+**Result**: PASS. All 20 references now use the `[Category, Title][category_anchor]` format. References are sorted alphabetically by category then by title. Seven categories: AI (4), Aider (1), Claude Code (5), Devin (1), GitHub (2), Protocol (5), Research (2). All anchor names updated in body text, Future Reading, References list, and URL definitions. All anchors resolve correctly.
 
-### Article A75 Drafted
-**Result**: PASS. File created at `_drafts/bidirectional_agentic_workflow.markdown`.
-- Front matter: layout, mathjax, comments, title, date, categories all set.
-- Article comment: `<!-- A75 -->` with blank lines.
-- Sections: Opening summary, Software Versions, Instructions (protocol documentation with 8 subsections), workflow diagram, comparison with 6 other approaches, Summary, Future Reading, References.
-- References: 20 reference-style links to external sources.
+### Reference Strategy Documented
+**Result**: PASS. Reference Categorization subsection added to `_docs/writing/STYLE_GUIDE.md` under Link Conventions. Documents the `[Category, Title][anchor]` format, category prefix convention, alphabetical sorting, and includes a worked example.
 
 ---
 
 ## Implementation Summary
 
-### Decisions Documented
-
-| Decision | Location | Summary |
-|----------|----------|---------|
-| Same-date ordering | `POST_STRUCTURE.md` | Avoid same-date publication. Use adjacent dates. Article numbers indicate publication order. |
-| Draft numbering | Acknowledged | Drafts remain unnumbered until publication decision. |
-
-### Files Created
-
-| File | Purpose |
-|------|---------|
-| `_drafts/bidirectional_agentic_workflow.markdown` | A75 draft article |
-
 ### Files Modified
 
 | File | Changes |
 |------|---------|
-| `_docs/writing/POST_STRUCTURE.md` | Added Publication Ordering section |
-| `_docs/process/TASKLOG.md` | A75-P1 task state |
-| `_docs/process/REVERSE_PROMPT.md` | This file |
+| `_drafts/bidirectional_agentic_workflow.markdown` | Typo fix. All 20 reference anchors renamed with category prefixes. Future Reading anchors updated. References section rewritten with categorized, sorted entries. URL definitions rewritten and sorted. |
+| `_docs/writing/STYLE_GUIDE.md` | Added Reference Categorization subsection with format, sorting rules, and example. |
+| `_docs/process/TASKLOG.md` | A75-P2 task state. |
+| `_docs/process/REVERSE_PROMPT.md` | This file. |
 
-### Article Structure (A75)
+### Reference Category Summary
 
-The draft covers the bidirectional protocol in a way that can be replicated by others, with a link to the GitHub repository as a reference implementation. The comparison section situates the protocol against six other approaches.
-
-| Section | Content |
-|---------|---------|
-| Opening | Meta-note that the article was drafted using the protocol it describes |
-| Software Versions | macOS 14.6.1, git 2.52.0, Jekyll 4.2.2 |
-| The Problem | Stateless agents, lost context, developer as sole state keeper |
-| The Bidirectional Protocol | Three-file system: PROMPT.md, REVERSE_PROMPT.md, TASKLOG.md |
-| Forward Prompt | Structure, read-only rule, version control benefits |
-| Reverse Prompt | Structure, session context section, blocking protocol |
-| Task Log | Shared state, verification requirement |
-| Session Startup | Three-step protocol |
-| Work Item Traceability | Ax-Py-Tz coding system |
-| Supporting Infrastructure | Scoped commits, knowledge graph |
-| Workflow Diagram | ASCII art showing the full cycle |
-| Comparison | Fully autonomous, inline pair programming, spec-driven, breadcrumb, CLAUDE.md/AGENTS.md, bounded autonomy |
-| Summary | Middle ground between autonomy and interactivity |
-| Future Reading | 5 recommended resources |
-| References | 20 reference-style links |
+| Category | Count | Anchor Prefix |
+|----------|-------|---------------|
+| AI | 4 | `ai_` |
+| Aider | 1 | `aider_` |
+| Claude Code | 5 | `cc_` |
+| Devin | 1 | `devin_` |
+| GitHub | 2 | `github_` |
+| Protocol | 5 | `protocol_` |
+| Research | 2 | `research_` |
 
 ---
 
 ## Questions for Human Pilot
 
-1. **Article tone and depth?** The draft is written in the blog's academic, tutorial style. It leans toward explaining the protocol in sufficient detail for a reader to replicate it, with comparisons to provide context. Should the tone be adjusted, or should certain sections be expanded or condensed?
+1. **URL verification incomplete.** The background URL verification agent was unable to complete because tool permissions were auto-denied during the previous session. You indicated that links only need to be verified once. If you would like a verification pass before publication, it can be done in a future prompt.
 
-2. **Reference link verification?** The 20 reference URLs were gathered from web research. Some URLs may have changed or become unavailable between research time and publication. A verification pass on the links before publication would be prudent. Should this be done now or deferred to the publication prompt?
-
-3. **Workflow diagram format?** The workflow diagram uses ASCII art, which is consistent with the blog's code-block conventions. An alternative would be an HTML/CSS diagram or an image. Is the ASCII format acceptable?
-
-4. **Publication timing?** The draft date is set to 2026-02-07. Should this be adjusted when the article is ready for publication, or should it retain the draft date?
+2. **Workflow diagram format.** You mentioned preferring HTML/CSS or mermaid diagrams over ASCII art if more polished options exist. The current workflow diagram (lines 181-201) remains in ASCII art format. Should a mermaid or HTML/CSS replacement be created in a future prompt?
 
 ---
 
 ## Technical Concerns / Risks
 
-**Self-referential nature**: The article references the repository it lives in as the "reference implementation." This creates a circular dependency where the article describes a protocol that is documented in the same repository. This is intentional and noted in the opening paragraph, but readers should be aware that the protocol documentation in `_docs/` is the authoritative source and the blog post is an overview.
-
-**URL stability**: Several references point to blog posts and documentation pages that may move or be restructured. The reference-style link format makes future URL updates straightforward since all URLs are defined at the bottom of the file.
-
-**Draft status**: The article is in `_drafts/` and will not appear on the published site until moved to `_posts/` via `_publish.sh`. The draft can be previewed locally with `./_preview.sh`.
+**No blocking concerns.** The article is structurally complete and the references are consistent. The only open item is the optional URL verification noted above.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A75 draft
-- Answers to questions above
-- Whether to proceed to publication or revise
+- Review of the polished A75 draft
+- Whether to replace the ASCII workflow diagram with mermaid or HTML/CSS
+- Whether to proceed to publication or further revise
 
 ---
 
@@ -116,9 +82,9 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Four prompts completed (A0-P1 through A0-P3, A75-P1).
+5. A0 is reserved for non-article work. Five prompts completed (A0-P1 through A0-P3, A75-P1, A75-P2).
 6. All 74 published posts have article numbers (A1-A74). Next available: A76.
-7. A75 ("Bidirectional Agentic Workflow") is drafted in `_drafts/`.
+7. A75 ("Bidirectional Agentic Workflow") is drafted in `_drafts/` and has been polished (references categorized).
 8. Read `TASKLOG.md` for current task state.
 9. Read `CLAUDE.md` at project root for build commands and quick orientation.
 10. Wait for human prompt before proceeding.
