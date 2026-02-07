@@ -9,94 +9,80 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-07
-**Task**: Knowledge Graph and Communication Protocol Setup
+**Task**: A0-P2 Process Decisions and Clarifications
 
 ---
 
 ## Verification
 
-### Knowledge Graph Structure
-**Command**: `find _docs -name "*.md" | sort`
-**Expected Result**: 13 markdown files across 4 sections (writing, architecture, process, reference) plus root README and DOCUMENTATION_STRATEGY.
+### GIT_STRATEGY.md Created
+**Result**: PASS. File created at `_docs/process/GIT_STRATEGY.md` with blog-adapted conventions. Excludes GitHub issues, PRs, feature branches, and worktrees from the reference project.
 
-### File List
+### COMMUNICATION.md Updated
+**Result**: PASS. Three changes applied.
+1. PROMPT.md read-only rule added to Forward Prompt Rules section.
+2. Ax-Py-Tz work item coding system added as new section.
+3. Task Completion Protocol updated with commit timing rule (commit after all tasks + reverse prompt).
 
-```
-_docs/DOCUMENTATION_STRATEGY.md
-_docs/README.md
-_docs/architecture/JEKYLL_STRUCTURE.md
-_docs/architecture/README.md
-_docs/process/COMMUNICATION.md
-_docs/process/CONTENT_WORKFLOW.md
-_docs/process/PROMPT.md
-_docs/process/README.md
-_docs/process/REVERSE_PROMPT.md
-_docs/process/TASKLOG.md
-_docs/reference/GLOSSARY.md
-_docs/reference/README.md
-_docs/writing/POST_STRUCTURE.md
-_docs/writing/README.md
-_docs/writing/STYLE_GUIDE.md
-```
+### POST_STRUCTURE.md Updated
+**Result**: PASS. Article Number section added documenting the invisible HTML comment convention (`<!-- A5 -->`).
 
-### CLAUDE.md Updated
-**Result**: Added Documentation section with navigation table and Session Startup Protocol.
+### Navigation Files Updated
+**Result**: PASS.
+- `process/README.md`: GIT_STRATEGY.md added to Contents table.
+- `DOCUMENTATION_STRATEGY.md`: GIT_STRATEGY.md added to directory structure tree.
+- `CLAUDE.md`: Commit Convention section added with summary and PROMPT.md read-only note.
 
 ---
 
 ## Implementation Summary
 
-### Knowledge Graph Created
+### Decisions Documented
 
-Adapted the reference project's documentation structure to fit a simple blog project. The reference project (Cordial Cantina) has 11 documentation sections covering a complex Elixir/Rust trading application. This blog project uses 4 sections appropriate to its scope.
+| Decision | Location | Summary |
+|----------|----------|---------|
+| Git strategy | `_docs/process/GIT_STRATEGY.md` | Simple `master` branch workflow. Scoped conventional commits. No PRs or feature branches. |
+| Commit convention | `GIT_STRATEGY.md`, `CLAUDE.md` | `<scope>: <imperative summary>` with co-author attribution. |
+| Commit timing | `COMMUNICATION.md`, `GIT_STRATEGY.md` | AI commits once after all tasks and reverse prompt are complete. |
+| PROMPT.md read-only | `COMMUNICATION.md`, `CLAUDE.md` | AI agent must never modify PROMPT.md. Human pilot owns this file. |
+| Ax-Py-Tz coding | `COMMUNICATION.md` | Article-Prompt-Task coding for work item traceability. |
+| Article number | `POST_STRUCTURE.md` | Invisible HTML comment with article number after front matter. |
 
-| Section | Files | Purpose |
-|---------|-------|---------|
-| writing | 3 | Style guide and post structure conventions |
-| architecture | 2 | Jekyll layout hierarchy and asset organization |
-| process | 6 | Workflow, communication protocol, task tracking |
-| reference | 2 | Glossary of key terms |
+### Files Created
 
-### Bidirectional Communication Protocol
+| File | Purpose |
+|------|---------|
+| `_docs/process/GIT_STRATEGY.md` | Version control conventions adapted for blog |
 
-Replicated the three-document communication model from the reference project.
+### Files Modified
 
-- `PROMPT.md` (human to AI) was already present and retained as-is.
-- `REVERSE_PROMPT.md` (AI to human) was present but contained content from the reference project. Overwritten with content appropriate to this blog project.
-- `TASKLOG.md` (shared) created as the renamed equivalent of the reference project's `MILESTONE.md`.
-- `COMMUNICATION.md` documents the full protocol including forward prompts, reverse prompts, task completion, and blocking procedures.
-
----
-
-## MILESTONE.md Naming Recommendation
-
-The reference project uses `MILESTONE.md` as the current sprint source of truth. The name "milestone" implies a fixed endpoint in a release-oriented development cycle. Based on how the file actually functions, it is a task log that tracks individual work items, their statuses, and verification results within a current unit of work.
-
-**Recommended name: `TASKLOG.md`**
-
-Rationale: The file logs tasks and their completion states. "Task log" describes the file's actual function rather than implying a release management artifact. This name is more accurate for a blog project that does not follow versioned release cycles, and it also better reflects the file's use in the reference project.
-
-This project uses `TASKLOG.md`. The reference project may benefit from the same rename, but that decision is left to the human pilot per the constraint against modifying the reference project.
+| File | Changes |
+|------|---------|
+| `_docs/process/COMMUNICATION.md` | Added read-only rule, Ax-Py-Tz coding, updated task completion protocol |
+| `_docs/writing/POST_STRUCTURE.md` | Added Article Number section |
+| `_docs/process/README.md` | Added GIT_STRATEGY.md to contents table |
+| `_docs/DOCUMENTATION_STRATEGY.md` | Added GIT_STRATEGY.md to directory tree |
+| `CLAUDE.md` | Added Commit Convention section |
+| `_docs/process/TASKLOG.md` | Replaced with A0-P2 task state |
+| `_docs/process/REVERSE_PROMPT.md` | This file |
 
 ---
 
 ## Questions for Human Pilot
 
-1. **Git strategy documentation?** The reference project includes `GIT_STRATEGY.md` documenting branch naming, commit conventions, and linear history policy. This blog project currently uses a simple `master` branch workflow. Should a git strategy document be added, or is the current workflow sufficiently simple that it does not warrant formal documentation?
+1. **Article numbering start?** The Ax-Py-Tz system needs a starting article number. Should existing published posts be retroactively numbered (A1 through A74 for the 74 published posts), or should the numbering start fresh from the next post? If starting fresh, what number should the first new article use?
 
-2. **Work item coding system?** The reference project uses a hierarchical work item coding system (Vw-Mx-Py-Tz). This blog does not have versioned releases or phased milestones. Should a simplified task identification scheme be adopted, or should tasks be identified by descriptive names only?
+2. **A0 for documentation?** I used A0 to designate documentation-only work that is not associated with a blog article. Is this convention acceptable, or should documentation work use a different designation?
 
-3. **Commit convention for documentation changes?** The reference project uses scoped conventional commits (e.g., `docs: add knowledge graph`). Should this blog adopt a similar commit convention, or continue with the current free-form commit messages?
-
-4. **PROMPT.md content?** The existing `PROMPT.md` contains the instructions that were just executed. Should the file be updated to reflect a "completed" state, or should the current prompt content be preserved as-is for the commit history?
+3. **Previous commits?** The first knowledge graph commit (A0-P1) was made before the scoped conventional commit convention was established, so it does not follow the new format. Should that commit be left as-is, or would you like it amended to follow the convention?
 
 ---
 
 ## Technical Concerns / Risks
 
-**Jekyll underscore prefix**: Directories prefixed with `_` are excluded from the Jekyll build output by default. The `_docs/` directory will not appear on the published site, which is the intended behavior for internal documentation.
+**Invisible comment placement**: The article number comment (`<!-- A5 -->`) placed immediately after the front matter `---` will be rendered as an HTML comment in the Jekyll output. This is standard behavior and the comment will not be visible to readers. However, Kramdown may in some edge cases interact unexpectedly with HTML comments at the very top of the Markdown body. If rendering issues arise, the comment could be moved to the end of the file instead.
 
-**REVERSE_PROMPT.md overwrite**: The previous content in `REVERSE_PROMPT.md` contained status information from the Cordial Cantina reference project, not from this blog. This content appeared to be a copy-paste artifact rather than meaningful state for this project. It has been replaced.
+**Retroactive numbering**: If existing posts are retroactively numbered, that would constitute modifying blog content, which the current prompt's constraints prohibit. This decision should be deferred to a future prompt without the "do not modify blog content" constraint.
 
 ---
 
@@ -104,8 +90,8 @@ This project uses `TASKLOG.md`. The reference project may benefit from the same 
 
 **Awaiting human direction** on:
 - Answers to the questions above
-- Whether to commit the current state
-- Any adjustments to the knowledge graph structure or content
+- Any further process refinements
+- Next article or documentation task
 
 ---
 
@@ -114,9 +100,11 @@ This project uses `TASKLOG.md`. The reference project may benefit from the same 
 If you are a new AI session reading this file:
 
 1. This is a Jekyll blog project at [sgeos.github.io](https://sgeos.github.io).
-2. A documentation knowledge graph was created in `_docs/` on 2026-02-07.
-3. The knowledge graph is intentionally lightweight, matching the project's scope.
-4. Start at `_docs/README.md` for navigation.
-5. Read `TASKLOG.md` for current task state.
-6. Read `CLAUDE.md` at project root for build commands and quick orientation.
-7. Wait for human prompt before proceeding.
+2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
+3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
+4. `PROMPT.md` is read-only for AI agents. Never modify it.
+5. Commit after all tasks and this reverse prompt are updated.
+6. A0 designates documentation-only work. Two prompts (P1, P2) have been completed.
+7. Read `TASKLOG.md` for current task state.
+8. Read `CLAUDE.md` at project root for build commands and quick orientation.
+9. Wait for human prompt before proceeding.

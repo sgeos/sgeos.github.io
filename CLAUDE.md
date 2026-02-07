@@ -68,6 +68,12 @@ A knowledge graph is maintained in `_docs/`. Start at [`_docs/README.md`](_docs/
 | Process | [`_docs/process/`](_docs/process/README.md) | Content workflow, communication protocol, and task tracking |
 | Reference | [`_docs/reference/`](_docs/reference/README.md) | Glossary and supplementary reference material |
 
+## Commit Convention
+
+Use scoped conventional commits: `<scope>: <imperative summary>`. Common scopes: `feat`, `fix`, `docs`, `refactor`, `chore`, `draft`. Include `Co-Authored-By: Claude <noreply@anthropic.com>` when AI-assisted. See [`_docs/process/GIT_STRATEGY.md`](_docs/process/GIT_STRATEGY.md) for full details.
+
+The AI agent commits once after all tasks in a prompt are complete, including the `REVERSE_PROMPT.md` update. `PROMPT.md` is read-only for the AI agent.
+
 ## Session Startup Protocol
 
 1. Read [`_docs/process/TASKLOG.md`](_docs/process/TASKLOG.md) for current task state.

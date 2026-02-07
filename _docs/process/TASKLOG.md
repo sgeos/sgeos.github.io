@@ -8,42 +8,42 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Knowledge Graph and Communication Protocol Setup
+**Name**: Process Decisions and Clarifications (A0-P2)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] Knowledge graph created in `_docs/` with appropriate structure for a blog project
-- [x] Writing conventions documented (style guide, post structure)
-- [x] Architecture documented (Jekyll structure, layouts, assets)
-- [x] Bidirectional communication protocol documented
-- [x] TASKLOG.md created as renamed alternative to MILESTONE.md
-- [x] REVERSE_PROMPT.md updated with questions, concerns, and observations
-- [x] CLAUDE.md updated to reference knowledge graph
+- [x] Git strategy documented, adapted from reference project
+- [x] Scoped conventional commit convention documented
+- [x] Commit timing rule documented (commit after all tasks + reverse prompt)
+- [x] PROMPT.md read-only rule documented
+- [x] Ax-Py-Tz work item coding system documented
+- [x] Article number convention documented in POST_STRUCTURE.md
+- [x] Navigation and index files updated
+- [x] REVERSE_PROMPT.md updated
+- [x] Changes committed
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| T1 | Create `_docs/README.md` root entry point | Complete | File exists with navigation links |
-| T2 | Create `_docs/writing/` section | Complete | README, STYLE_GUIDE, POST_STRUCTURE created |
-| T3 | Create `_docs/architecture/` section | Complete | README, JEKYLL_STRUCTURE created |
-| T4 | Create `_docs/process/` documentation | Complete | README, CONTENT_WORKFLOW, COMMUNICATION created |
-| T5 | Create TASKLOG.md | Complete | This file |
-| T6 | Create `_docs/reference/` section | Complete | README, GLOSSARY created |
-| T7 | Create DOCUMENTATION_STRATEGY.md | Complete | File exists with conventions and structure |
-| T8 | Update REVERSE_PROMPT.md | Complete | Overwritten with blog-appropriate content |
-| T9 | Update CLAUDE.md | Complete | Documentation section and startup protocol added |
+| A0-P2-T1 | Create GIT_STRATEGY.md | Complete | File created with blog-adapted conventions |
+| A0-P2-T2 | Update COMMUNICATION.md with read-only rule, commit timing, Ax-Py-Tz | Complete | Three sections added/updated |
+| A0-P2-T3 | Document article number convention in POST_STRUCTURE.md | Complete | Article Number section added |
+| A0-P2-T4 | Update process/README.md, DOCUMENTATION_STRATEGY.md, CLAUDE.md | Complete | GIT_STRATEGY added to tables, commit convention in CLAUDE.md |
+| A0-P2-T5 | Update TASKLOG.md and REVERSE_PROMPT.md | Complete | This file and REVERSE_PROMPT.md |
+| A0-P2-T6 | Commit all changes | Complete | Single scoped conventional commit |
 
 ## Notes
 
-- TASKLOG.md replaces the name MILESTONE.md from the reference project. See REVERSE_PROMPT.md for rationale.
-- This is a simple blog project. The knowledge graph is intentionally lighter than the reference project.
+- A0 designates documentation-only work (no associated blog article).
+- P2 is the second prompt in this project's AI-assisted workflow. P1 was the initial knowledge graph setup.
+- The previous task (Knowledge Graph and Communication Protocol Setup) is archived below.
 
 ## History
 
 | Date | Change |
 |------|--------|
-| 2026-02-07 | Created TASKLOG.md. Initial knowledge graph structure in progress. |
-| 2026-02-07 | All tasks complete. Knowledge graph, communication protocol, and CLAUDE.md updated. |
+| 2026-02-07 | A0-P1: Knowledge graph, communication protocol, and CLAUDE.md created. |
+| 2026-02-07 | A0-P2: Git strategy, commit convention, Ax-Py-Tz coding, PROMPT.md read-only rule documented. |
