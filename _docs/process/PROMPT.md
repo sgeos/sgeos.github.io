@@ -14,30 +14,39 @@ Answering questions to solidify process.
 
 ## Objectives
 
-### Decision: Article Numbering
+### Decision: Same-Date Ordering
 
-Use A0 for non-article work.
+In general, an effort is made to avoid same date publication.
+If multiple drafts are finished on the same day:
+
+- One may be published using thing previous day's date if nothing had been published the previous day.
+- One is published for the current day.
+- The rest of the articles are treated as unpublished drafts to be published in the future.
+
+If two drafts are indeed published on the same day, they should simply use their assigned article numbers.
+In general, article number should indicate publication order regardless of same date publication.
+Having said that, unpublished drafts may be tactically published, resulting in slightly out of order publication.
+
 Please make sure this process is documented in the knowledge graph.
 
-### Clarification: Commit Convention
+### Clarification: Current Draft Numbering
 
-Make sure to commit PROMPT.md if it has changed.
-This way, the human pilot prompt and AI reverse prompt are always in sync with committed work.
-Please make sure this process is documented in the knowledge graph.
+The current drafts can remain unnumbered.
+Numbers can be assigned if and when a decision is made to polish these drafts and publish them.
 
-### Add Article Comment to Template.
+### Draft New Article
 
-Add `<!-- Axxx -->` to the template file.
-Make sure there is a blank line between the Jekyll front matter and the comment.
-Make sure there is a blank line between the comment and the first line of post content.
-Please make sure this strategy is documented in the knowledge graph.
+Please draft a new article: "Bidirectional Agentic Workflow".
+Start by researching the topic.
+The article outline:
 
-### Code Historical Articals
-
-Add `<!-- Axxx -->` with an appropriate article number to top of every historical published article.
-Make sure there is a blank line between the Jekyll front matter and the comment.
-Make sure there is a blank line between the comment and the first line of post content.
-The first published article is A1.
+- Post summary (note that this article was drafted using the bidirectional workflow covered below)
+- Software versions
+- Document our birdirectional protocol in a way that can be replicated by others (linking to the github repo is OK; note that fine structure may change, but top levels files including `docs/README.md` should be present moving forward)
+- Compare the documented workflow to other workflows and strategies found while researching
+- Summary
+- Future reading
+- References (include all relevant references found during research)
 
 ## Context
 
@@ -45,15 +54,13 @@ Formalizing article publishing procedures.
 
 ## Constraints
 
-Do not modify any blog body contents, just add the article number.
+(no comment)
 
 ## Success Criteria
 
 - All decisions and clarification documented in appropriate place in the knowledge graph.
-- Templated article number added to template file.
-- Article numbers added to historical posts.
+- "Bidirectional Agentic Workflow" article drafted.
 
 ## Notes
 
-Do not worry about recoding historical commits.
-We are focused on improving the process moving forward.
+(none)

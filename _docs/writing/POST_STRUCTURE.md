@@ -55,6 +55,16 @@ The comment is not rendered in the published HTML. It serves as a traceability a
 
 Historical posts are numbered A1 through A74 in chronological order by publication date. A0 is reserved for non-article work.
 
+## Publication Ordering
+
+Article numbers indicate publication order. An effort should be made to avoid publishing multiple posts on the same date. When multiple drafts are ready on the same day, the preferred approach is as follows.
+
+- One post may be published using the previous day's date if nothing was published on that day.
+- One post is published for the current day.
+- Remaining posts are held as unpublished drafts for future publication.
+
+If two posts are published on the same date despite these measures, they retain their assigned article numbers. Drafts remain unnumbered until a decision is made to polish and publish them. Unpublished drafts may be published tactically, which can result in slightly out-of-order article numbers relative to publication date. This is acceptable.
+
 ## Standard Sections
 
 Posts follow a consistent section order. Not all sections appear in every post.
