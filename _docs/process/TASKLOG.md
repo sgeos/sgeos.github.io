@@ -8,29 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Polish A75 Draft (A75-P2)
+**Name**: Publish A75 (A75-P3)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] Body prose optimized for clarity, flow, and correctness
-- [x] Reference links have categories added and are sorted
-- [x] Reference strategy documented in knowledge graph
+- [x] Knowledge graph updated with improved software versioning instructions
+- [x] Date changed from 2026-02-07 to 2026-02-06
+- [x] A75 published
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A75-P2-T1 | Verify and integrate manual edits | Complete | Typo fixed ("You many need" to "You may need"). Inlined COMMUNICATION.md section and promoted Comparison heading verified. |
-| A75-P2-T2 | Categorize and sort references | Complete | 20 references sorted into 7 categories (AI, Aider, Claude Code, Devin, GitHub, Protocol, Research). All anchors renamed with category prefixes. |
-| A75-P2-T3 | Document reference strategy | Complete | Reference Categorization subsection added to `_docs/writing/STYLE_GUIDE.md`. |
-| A75-P2-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A75-P3-T1 | Update Software Versions documentation | Complete | POST_STRUCTURE.md Software Versions Format section expanded with comment grouping convention, hardware info, shell info examples. |
+| A75-P3-T2 | Change publication date to 2026-02-06 | Complete | Front matter date and date command output both updated. Two occurrences replaced, no unintended changes. |
+| A75-P3-T3 | Publish article | Complete | `_publish.sh` moved draft to `_posts/2026-02-06-bidirectional_agentic_workflow.markdown`. |
+| A75-P3-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- URL verification agent was unable to complete due to tool permission constraints. URLs were not re-verified in this session. The human noted that links only need to be verified once because drafts are published promptly.
-- The `[blog_repo]` inline reference on line 79 was renamed to `[github_blog_repo]` in the previous session. This session completed the remaining 19 anchor renames and the full References section rewrite.
+- A75 is the first article published using the bidirectional protocol.
+- Publication date set to 2026-02-06 per same-date ordering policy (nothing published yesterday).
 
 ## History
 
@@ -41,3 +41,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A0-P3: Article numbering formalized. A1-A74 assigned to historical posts. Template updated. |
 | 2026-02-07 | A75-P1: Same-date ordering documented. "Bidirectional Agentic Workflow" drafted. |
 | 2026-02-07 | A75-P2: A75 draft polished. References categorized and sorted. Reference strategy documented. |
+| 2026-02-07 | A75-P3: Software Versions convention updated. A75 published with 2026-02-06 date. |
