@@ -10,27 +10,26 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-This article is ready for publication.
+A number of people have said that they are using English as their coding language when vibe coding or using agentic workflows.
+I want to write an article that challenges this.
+Specifically, I want to make the case for using markdown in combination with the human pilot's native language.
 
 ## Objectives
 
-### Update Software Versions
+### Draft Article
 
-I manually updated the software versions section.
-The comments make it easier to read.
-Please update knowledge graph if software versioning instructions can be better.
-
-### Modify Publication Date
-
-Change the date from `2026-02-07` to `2026-02-06` because nothing was published yesterday.
-
-### Publish Article
-
-Publish the article using the script or equivaent commands.
+- Draft an article A76 with an appropriate name that documents my using markdown as my specification language for agentic workflow.
+- Software versions below post top summary
+- Note pros and cons.
+- Research this topic.
+- Compare with other established workflows or conclusions on the topic.
+- Conclusion
+- Future Reading
+- References
 
 ## Context
 
-Draft complete.
+Moving onto the next article.
 
 ## Constraints
 
@@ -38,10 +37,8 @@ Draft complete.
 
 ## Success Criteria
 
-- Update knowledge graph if software versioning instructions can be better.
-- Date changed from `2026-02-07` to `2026-02-06`.
-- A75 published.
+- Draft article complete
 
 ## Notes
 
-(none)
+Note topical comments, questions, concerns, and notable observations in your reverse prompt.
