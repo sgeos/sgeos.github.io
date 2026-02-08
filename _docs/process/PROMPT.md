@@ -10,30 +10,19 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-A75 is an internal article code that means nothing to readers.
-We need to revise the article and replace it with something meaningful.
+`STYLE_GUIDE.md` has instructions for linking to other blog posts.
+Manually updated.
 
 ## Objectives
 
-### Replace A75 with Previous Article Reference
+### Publish A76
 
-```markdown
-The bidirectional communication protocol described in A75, for example,
-```
-
-should be replace with something like this
-
-```markdown
-The bidirectional communication protocol described in [the previous article][blog_bidirectional], for example,
-```
-
-The link name can be more formal.
-The previous article should be linked in the references if it is included in this post.
-I often crosslink posts like this.
+Please publish A76.
+Do not change the date.
 
 ## Context
 
-Polishing article for immediate publication.
+Polished article for immediate publication.
 
 ## Constraints
 
@@ -41,10 +30,7 @@ Polishing article for immediate publication.
 
 ## Success Criteria
 
-- A75 is not mentioned explicitly in the article.
-- Previous article mentioned instead.
-- Previous article is linked.
-- Previous article is added to references.
+- A76 is published.
 
 ## Notes
 

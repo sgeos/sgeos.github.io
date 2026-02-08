@@ -8,29 +8,26 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Replace A75 Reference (A76-P3)
+**Name**: Publish A76 (A76-P4)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] A75 is not mentioned explicitly in the article
-- [x] Previous article mentioned instead
-- [x] Previous article is linked
-- [x] Previous article is added to references
+- [x] A76 is published
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A76-P3-T1 | Replace A75 with linked previous article | Complete | Line 212 changed. Reference and URL definition added. No remaining "A75" text in article body. |
-| A76-P3-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A76-P4-T1 | Fix post_url syntax and publish | Complete | Removed `.html` extension from `{% post_url %}` tag. Draft moved to `_posts/2026-02-08-markdown_as_a_specification_language.markdown`. |
+| A76-P4-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Reference count increased from 19 to 20 across 8 categories (new "Blog" category).
-- URL constructed from Jekyll default permalink pattern, verified against existing cross-links in the blog.
-- Polishing for immediate publication per PROMPT.md context.
+- Human manually updated STYLE_GUIDE.md with `{% post_url %}` convention for cross-linking posts.
+- Human changed `blog_bidirectional` URL definition from hardcoded URL to `{% post_url %}` tag but included `.html` extension. Fixed to match Jekyll syntax (no extension).
+- Date not changed per PROMPT.md instructions. Publication date remains `2026-02-08`.
 
 ## History
 
@@ -45,3 +42,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A76-P1: "Markdown as a Specification Language for Agentic Workflows" drafted. |
 | 2026-02-07 | A76-P2: Code Blocks section added. Supplementary research folded in. Categories convention fixed. |
 | 2026-02-07 | A76-P3: Replaced A75 internal code with linked reference to previous article. |
+| 2026-02-07 | A76-P4: Fixed post_url syntax. A76 published with 2026-02-08 date. |
