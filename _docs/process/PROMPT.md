@@ -10,38 +10,83 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Polishing A78 for publication.
-Assessing old drafts.
+A78 is ready for publication later today.
+We will be doing some housekeeping while figuring out backlog drafts.
+Ideally, I want to post one article per day with a backlog of complete articles.
 
 ## Objectives
 
-### Fold All Research into A78
+### Release Announcement
 
-Please fold all collected research into the post.
-There is no upper limit on post length or the number of references.
-The following "several additional high-quality sources not yet incorporated into the draft" should be properly incorporated:
+Articles need a release announcement.
+After an article is published, a release announcement should be suggested in the reverse prompt.
+The template follows.
 
-- Simon Willison on why "context engineering" will stick as a term
-- Addy Osmani's O'Reilly series on context engineering discipline
-- Yichao "Peak" Ji's production lessons from building Manus
-- LangChain's context engineering strategy taxonomy (write, select, compress, isolate)
-- Dex Horthy/HumanLayer's Frequent Intentional Compaction pattern
-- Karpathy's 2025 year-in-review framing of LLMs as operating systems
-- Two additional arXiv papers (2510.21413, 2508.08322)
-- MCP adoption timeline and VS Code context engineering guide
+```
+New Blog Post: <title>
 
-### Revise Old Drafts Review
+<hook> <brief summary>
 
-Revise the review of the old drafts to assume the following.
+Key takeaways:
+- <Key takeaway A>
+- <Key takeaway B>
+- <Key takeaway C>
 
-- If salvaged, contemporary tooling will be used.
-- If old tooling fell out of favor, an appropriate ecosystem standard choice will be used instead.
-- Missing sections and prose will need to be drafted.
-- In cases where a draft is a stub or it is largely incomplete, please assess topicality for publication merit.
+You can read the full article here:
+<URL>
+
+Let me know your thoughts. I would love to hear about <your topical application of material>!
+
+<#hashtags>
+```
+
+To give a concrete example, here is the actual announcement for A77 that was posted on LinkedIn.
+
+```
+New Blog Post: LLM Knowledge Graphs
+
+AI coding agents are only as effective as the context they receive.
+Many teams treat agent instructions as flat config files, but in practice the most effective setups behave like knowledge graphs optimized for how LLMs actually load and traverse context.
+
+In this article, I break down how structured markdown documentation functions as a navigable knowledge graph for AI coding agents, why this approach measurably improves agent performance, and how teams can design documentation that scales without bloating context windows.
+
+Key takeaways:
+- Structured markdown files form a graph, not just documentation. Files are nodes, links are edges, and agent context loading is traversal.
+- Hierarchical, atomic documentation enables progressive disclosure, reducing token usage and improving agent reliability.
+- Empirical research shows agent configuration files improve efficiency, but also introduce a new "context debt" risk that must be actively managed.
+
+You can read the full article here:
+https://sgeos.github.io/ai/ai-tools/development/developer-productivity/2026/02/07/llm_knowledge_graphs.html
+
+Let me know your thoughts. I would love to hear how you are structuring project context or agent documentation in your own workflows!
+
+hashtag#AI hashtag#LLM hashtag#DeveloperProductivity hashtag#ContextEngineering hashtag#KnowledgeGraphs hashtag#AgenticAI hashtag#Documentation
+```
+
+Please document this protocol in the knowledge graph.
+
+### Draft Mathmatical Proofs Post
+
+Please take the tier 4 proofs stub, research the topic, and draft a full post.
+It should cover the following.
+
+- What a mathematical proof is
+- How they are written
+- Why proofs are important
+- Why proofs are important to software engineers
+- Why proofs are important in the age of agentic workflows
+
+If the old draft does not have an article number, give it the next available number and make sure to add/update the the article number comment!
+
+### Blog Branding Assessment and Candidate Future Post Topics
+
+Review topics to date, including those in draft limbo.
+Comment on the emergent blog brand in your reverse prompt.
+Add a table of topical on-brand post ideas in a table at the end of `old_drafts.md`.
 
 ## Context
 
-Polishing 78 and assessing old drafts.
+A78 is ready, but it is too soon to publish.
 
 ## Constraints
 
@@ -49,8 +94,10 @@ Polishing 78 and assessing old drafts.
 
 ## Success Criteria
 
-- Remaining references folded into A78.
-- Revised old drafts review in `old_drafts.md`
+- Knowledge graph updated.
+- Mathematical proofs post drafted with research fully folded into the document.
+- Blog branding assessment reported.
+- Candidate future post topics added to table at end of `old_drafts.md`.
 
 ## Notes
 
