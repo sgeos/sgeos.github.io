@@ -15,7 +15,7 @@ mathjax: false
 comments: true
 title: "Descriptive Post Title"
 date: YYYY-MM-DD HH:MM:SS +0000
-categories: category-one, category-two
+categories: category-one category-two
 ---
 ```
 
@@ -26,7 +26,7 @@ categories: category-one, category-two
 | `comments` | Yes | Set `true` to enable Disqus comments |
 | `title` | Yes | Quoted, descriptive title |
 | `date` | Yes | UTC timezone (`+0000`) |
-| `categories` | Yes | Comma-separated, lowercase, hyphenated where needed |
+| `categories` | Yes | Space-separated, lowercase, hyphenated where needed. Do not use commas. |
 
 **Title reminder**: The draft template title reads "Template, Add Category Before You Forget" as a deliberate prompt to set categories before drafting.
 
