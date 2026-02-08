@@ -8,32 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Polish A76 Draft (A76-P2)
+**Name**: Replace A75 Reference (A76-P3)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] Knowledge graph updated (no-comma categories)
-- [x] Date updated
-- [x] Code block section included to specification
-- [x] Supplementary research pass complete, with results folded into the article
+- [x] A75 is not mentioned explicitly in the article
+- [x] Previous article mentioned instead
+- [x] Previous article is linked
+- [x] Previous article is added to references
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A76-P2-T1 | Document no-comma categories | Complete | POST_STRUCTURE.md updated. A75 categories fixed. |
-| A76-P2-T2 | Update date | Complete | Front matter and Software Versions both set to `2026-02-08 01:42:16 +0000`. |
-| A76-P2-T3 | Add Code Blocks section | Complete | Section added covering language identifiers, nested fences, quintuple ticks, literate programming parallel, reproducibility. |
-| A76-P2-T4 | Supplementary research pass | Complete | 4 new sources added: Brooker (AWS), Marmelab waterfall critique, Scott Logic Spec Kit evaluation, Böckeler SDD tools analysis. Findings folded into The Claim and Spec-Driven Development sections. |
-| A76-P2-T5 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A76-P3-T1 | Replace A75 with linked previous article | Complete | Line 212 changed. Reference and URL definition added. No remaining "A75" text in article body. |
+| A76-P3-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Categories convention changed from comma-separated to space-separated. A75 retroactively fixed.
-- Article now has 19 references across 7 categories.
-- Human manually edited article before this prompt: set article number to A76, removed `## Instructions` heading, changed categories to space-separated.
+- Reference count increased from 19 to 20 across 8 categories (new "Blog" category).
+- URL constructed from Jekyll default permalink pattern, verified against existing cross-links in the blog.
+- Polishing for immediate publication per PROMPT.md context.
 
 ## History
 
@@ -47,3 +44,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A75-P3: Software Versions convention updated. A75 published with 2026-02-06 date. |
 | 2026-02-07 | A76-P1: "Markdown as a Specification Language for Agentic Workflows" drafted. |
 | 2026-02-07 | A76-P2: Code Blocks section added. Supplementary research folded in. Categories convention fixed. |
+| 2026-02-07 | A76-P3: Replaced A75 internal code with linked reference to previous article. |

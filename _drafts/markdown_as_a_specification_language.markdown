@@ -209,7 +209,7 @@ echo "${SHELL}"
 
 This nesting capability is essential for specifications
 that describe templates, documentation formats, or protocol files.
-The bidirectional communication protocol described in A75,
+The bidirectional communication protocol described in [the previous article][blog_bidirectional],
 for example, uses quadruple-backtick fences
 to include the full text of `COMMUNICATION.md` within the article.
 In rare cases where a specification must describe nested markdown
@@ -445,6 +445,7 @@ than either unstructured English or a formal language alone.
 - [AI, On the Success of Natural Language Programming][ai_brooker_nl_programming]
 - [AI, The End of Programming][ai_end_of_programming]
 - [AI, The Hottest New Programming Language Is English][ai_karpathy_tweet]
+- [Blog, Bidirectional Agentic Workflow][blog_bidirectional]
 - [Claude Code, Agent Skills Specification][cc_agent_skills]
 - [Claude Code, Best Practices for Claude Code][cc_best_practices]
 - [GitHub, Spec-Driven Development with AI: GitHub Spec Kit][github_spec_kit]
@@ -465,6 +466,7 @@ than either unstructured English or a formal language alone.
 [ai_brooker_nl_programming]: https://brooker.co.za/blog/2025/12/16/natural-language.html
 [ai_end_of_programming]: https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext
 [ai_karpathy_tweet]: https://x.com/karpathy/status/1617979122625712128
+[blog_bidirectional]: https://sgeos.github.io/ai/ai-tools/development/developer-productivity/tutorial/2026/02/06/bidirectional_agentic_workflow.html
 [cc_agent_skills]: https://agentskills.io
 [cc_best_practices]: https://code.claude.com/docs/en/best-practices
 [github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
