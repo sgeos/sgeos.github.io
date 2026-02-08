@@ -10,55 +10,26 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-### Answers to Questions
-
-1. Scope and depth are fine. I want a section added. Length is not an issue. Some posts are longer than others.
-2. Thank you. (Not a question.)
-3. Thank you. (Not a question.)
-4. Yes. Addressing natural language myopia supports my thesis.
-5. Yes, the date needs to be updated. Software versions ought to be the same.
-
-### Responding to Concerns
-
-- A supplementary research pass makes sense.
-- URL verification was completed manually.
+A75 is an internal article code that means nothing to readers.
+We need to revise the article and replace it with something meaningful.
 
 ## Objectives
 
-### Knowledge Graph Update
+### Replace A75 with Previous Article Reference
 
-Categories should not use commas.
-Please document in the knowledge graph.
-
-### Update Date
-
-Please run the specified date command and use it to update the date in header and software versions.
-
-### Add Section: Code Blocks
-
-Please add a section on code blocks.
-Note that they can be use when more formal specification is in order.
-Also, note that the language can be specified. For example:
-
-```sh
-echo "${SHELL}"
+```markdown
+The bidirectional communication protocol described in A75, for example,
 ```
 
-Additionally, note that nested code blocks can be used be used when markdown needs to be communicated.
+should be replace with something like this
 
-````markdown
-```sh
-echo "${SHELL}"
+```markdown
+The bidirectional communication protocol described in [the previous article][blog_bidirectional], for example,
 ```
-````
 
-Note that this is a rare case where a pentuple tick code block may be need to be used.
-
-This sections should also contain any additional analysis that supports the thesis.
-
-### Supplementary Research Pass
-
-Please conduct a supplementary research pass and fold findings into the article.
+The link name can be more formal.
+The previous article should be linked in the references if it is included in this post.
+I often crosslink posts like this.
 
 ## Context
 
@@ -70,11 +41,11 @@ Polishing article for immediate publication.
 
 ## Success Criteria
 
-- Knowledge graph updated.
-- Date updated.
-- Code block section included to specification.
-- Supplementary research pass complete, with results folded into the article.
+- A75 is not mentioned explicitly in the article.
+- Previous article mentioned instead.
+- Previous article is linked.
+- Previous article is added to references.
 
 ## Notes
 
-Minor manual edits made.
+(no comment)
