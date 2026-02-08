@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "LLM Knowledge Graphs"
-date: 2026-02-08 06:10:36 +0000
+date: 2026-02-07 20:10:36 +0000
 categories: ai ai-tools development developer-productivity
 ---
 
@@ -32,7 +32,7 @@ The `_docs/` directory in this blog's repository serves as a worked example.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-08 06:10:36 +0000
+2026-02-07 20:10:36 +0000
 
 # OS and Version
 $ uname -vm
@@ -176,6 +176,7 @@ Readers building a knowledge graph for their own project
 will need to adapt these conventions
 to fit their specific directory structure, tooling, and team workflow.
 
+**`DOCUMENTATION_STRATEGY.md` full listing**
 ````markdown
 # Documentation Strategy
 
