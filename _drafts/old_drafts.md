@@ -37,23 +37,24 @@ Verify that the assembly code and build script compile and deploy against the cu
 Draft a complete Instructions section.
 Add a References section.
 
-### Statistics Reference
+### Statistics Reference — Release Candidate
 
 **File**: `statistics.markdown`
-**Topic**: Probability and statistics reference with formulas for binomial distributions, confidence intervals, hypothesis testing, and proportions
-**Completion**: ~60%
+**Article**: A80, "Probability and Statistics Reference"
+**Topic**: Probability and statistics reference covering distributions, hypothesis testing, confidence intervals, and sample size determination
+**Completion**: ~95%
 **Publication Sensibility**: High
+**Status**: Release Candidate
 
-Mathematical content is evergreen and requires no tooling updates.
-The existing formulas are correct and cover useful ground.
-MathJax rendering is already enabled in the front matter.
+Rewritten from a formula sheet into a complete reference article.
+Explanatory prose added for every section.
+Notation table, Software Versions block, summary, future reading, and references are all present.
+MathJax corrected throughout.
+Nine references across four categories (Book, Reference, Tool).
+Additional topics added beyond the original draft: Normal PDF, Poisson distribution, Bayes' theorem, Central Limit Theorem, t-test, confidence intervals for means, and sample size determination.
 
 **Remaining Work**:
-Draft explanatory prose between formulas to transform the document from a formula sheet into a tutorial.
-Complete the incomplete "Memo" section.
-Add a Software Versions block (minimal, since the post is primarily mathematical).
-Add introductory and concluding prose.
-Add a References section citing standard textbooks.
+Human review and local MathJax rendering verification before publication.
 
 ### CLMM Calculator
 
@@ -214,18 +215,23 @@ Publication merit depends entirely on defining a focused angle.
 Possible approaches include observational astronomy for beginners, computational astronomy with Python, or astrophotography.
 Without a defined scope, the effort to write from scratch is high relative to the publication value.
 
-### Writing Proofs
+### Writing Proofs — Release Candidate
 
 **File**: `writing-proofs.markdown`
-**Topic**: Writing mathematical proofs
-**Completion**: ~5% (template only)
-**Publication Sensibility**: Low-Medium
+**Article**: A79, "Writing Proofs"
+**Topic**: Mathematical proof techniques, software verification, and formal verification in the age of agentic workflows
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-An empty stub with no content beyond placeholder text.
-Mathematical proof writing is an evergreen STEM education topic with a stable audience.
-The topic has higher inherent publication merit than the astronomy stub
-because it is more focused and has a clearer target audience (students transitioning from computation to proof-based mathematics).
-However, the draft provides no starting material, and the effort is equivalent to writing from scratch.
+Rewritten from an empty stub into a full article.
+Covers five proof techniques (direct, contradiction, contrapositive, induction, constructive) with worked examples.
+Extends into software verification (Hoare logic, Curry-Howard, TLA+, CompCert, Lean 4, seL4)
+and agentic formal verification (AlphaProof, Hilbert, APOLLO, Safe).
+Fifteen references across five categories (Blog, Book, Industry, Research, Tool).
+
+**Remaining Work**:
+Human review, URL verification, and local MathJax rendering check before publication.
 
 ### Template
 
@@ -238,14 +244,18 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template. Two are empty stubs created from the template.
+Thirteen files exist in `_drafts/`. One is a template. One is an empty stub created from the template.
+Two drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
+**Release Candidates.**
+Writing Proofs (A79) and the Probability and Statistics Reference (A80)
+have been fully drafted and are awaiting human review before publication.
+
 **Tier 1: Publishable with moderate effort.**
-The Solana sBPF assembly example is the most publishable draft.
+The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
-The statistics reference has correct, evergreen mathematical content that needs prose additions.
 
 **Tier 2: Publishable with significant effort.**
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
@@ -258,9 +268,7 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 
 **Tier 4: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
-The two template stubs (astronomy, proofs) have no existing content.
-The proofs stub has higher topicality than the astronomy stub due to its focused audience,
-but both would need to be written from scratch.
+The astronomy stub has no existing content and no defined scope.
 
 ## Candidate Future Post Topics
 
