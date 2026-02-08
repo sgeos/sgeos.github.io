@@ -8,28 +8,26 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Polish LLM Knowledge Graphs Post (A77-P2)
+**Name**: Publish LLM Knowledge Graphs Post (A77-P3)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] Article number comment updated to A77
-- [x] `DOCUMENTATION_STRATEGY.md` inlined with appropriate surrounding prose
+- [x] Article published
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A77-P2-T1 | Update article number comment | Complete | Changed `<!-- Axxx -->` to `<!-- A77 -->` on line 10. |
-| A77-P2-T2 | Inline DOCUMENTATION_STRATEGY.md | Complete | Full file body inlined in a quadruple-backtick markdown code block in the "A Worked Example" section. Surrounding prose introduces the file and notes that readers should adapt the strategy for their own project. |
-| A77-P2-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A77-P3-T1 | Publish A77 | Complete | Published via `_publish.sh`. Moved from `_drafts/` to `_posts/2026-02-07-llm_knowledge_graphs.markdown`. |
+| A77-P3-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- DOCUMENTATION_STRATEGY.md inlined after the reference on line 173, before the detailed discussion of the three structural principles.
-- Used quadruple backticks (````) to fence the code block, since the file itself contains a triple-backtick code block for the directory structure.
-- Transition prose bridges from the inline to the existing principle-by-principle discussion.
+- Human changed date from 2026-02-08 to 2026-02-07 for unique publication dates.
+- Human added bold label before DOCUMENTATION_STRATEGY.md code block.
+- Human updated Software Versions date to match new publication date.
 
 ## History
 
@@ -50,3 +48,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A0-P6: Reorganized assets by type then post slug. Patched 2 posts. |
 | 2026-02-07 | A77-P1: "LLM Knowledge Graphs" drafted with 20 references. |
 | 2026-02-07 | A77-P2: Article number comment updated. DOCUMENTATION_STRATEGY.md inlined. |
+| 2026-02-07 | A77-P3: A77 published with 2026-02-07 date. |
