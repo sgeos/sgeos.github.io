@@ -10,83 +10,35 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-A78 is ready for publication later today.
-We will be doing some housekeeping while figuring out backlog drafts.
-Ideally, I want to post one article per day with a backlog of complete articles.
+A79 is ready for future publication.
+We will be finishing another old draft, specifically the statistics reference.
 
 ## Objectives
 
-### Release Announcement
+### Draft Statistics Reference Post
 
-Articles need a release announcement.
-After an article is published, a release announcement should be suggested in the reverse prompt.
-The template follows.
-
-```
-New Blog Post: <title>
-
-<hook> <brief summary>
-
-Key takeaways:
-- <Key takeaway A>
-- <Key takeaway B>
-- <Key takeaway C>
-
-You can read the full article here:
-<URL>
-
-Let me know your thoughts. I would love to hear about <your topical application of material>!
-
-<#hashtags>
-```
-
-To give a concrete example, here is the actual announcement for A77 that was posted on LinkedIn.
-
-```
-New Blog Post: LLM Knowledge Graphs
-
-AI coding agents are only as effective as the context they receive.
-Many teams treat agent instructions as flat config files, but in practice the most effective setups behave like knowledge graphs optimized for how LLMs actually load and traverse context.
-
-In this article, I break down how structured markdown documentation functions as a navigable knowledge graph for AI coding agents, why this approach measurably improves agent performance, and how teams can design documentation that scales without bloating context windows.
-
-Key takeaways:
-- Structured markdown files form a graph, not just documentation. Files are nodes, links are edges, and agent context loading is traversal.
-- Hierarchical, atomic documentation enables progressive disclosure, reducing token usage and improving agent reliability.
-- Empirical research shows agent configuration files improve efficiency, but also introduce a new "context debt" risk that must be actively managed.
-
-You can read the full article here:
-https://sgeos.github.io/ai/ai-tools/development/developer-productivity/2026/02/07/llm_knowledge_graphs.html
-
-Let me know your thoughts. I would love to hear how you are structuring project context or agent documentation in your own workflows!
-
-hashtag#AI hashtag#LLM hashtag#DeveloperProductivity hashtag#ContextEngineering hashtag#KnowledgeGraphs hashtag#AgenticAI hashtag#Documentation
-```
-
-Please document this protocol in the knowledge graph.
-
-### Draft Mathmatical Proofs Post
-
-Please take the tier 4 proofs stub, research the topic, and draft a full post.
+Please take the tier 1 statistics reference draft, lightly research the topic, and complete the full draft post.
 It should cover the following.
 
-- What a mathematical proof is
-- How they are written
-- Why proofs are important
-- Why proofs are important to software engineers
-- Why proofs are important in the age of agentic workflows
+- What statistics is
+- Why it is important
+- Post scope
+- Explanation of each formula
+- Corrected inline MathJax if anything is obvioiusly broken (the local preview is broken in places).
+- Any additional formulae that topical and at roughly the same level as those in the article
+- Summary
+- Future Reading
+- References
 
 If the old draft does not have an article number, give it the next available number and make sure to add/update the the article number comment!
 
-### Blog Branding Assessment and Candidate Future Post Topics
+### Update old_drafts.md
 
-Review topics to date, including those in draft limbo.
-Comment on the emergent blog brand in your reverse prompt.
-Add a table of topical on-brand post ideas in a table at the end of `old_drafts.md`.
+Mark "Writing Proofs" and "Statistics Reference" as release candidates after the statistics reference has been drafted.
 
 ## Context
 
-A78 is ready, but it is too soon to publish.
+A78 and A79 is ready to publish, but it is too soon so they are backlogged.
 
 ## Constraints
 
@@ -94,10 +46,8 @@ A78 is ready, but it is too soon to publish.
 
 ## Success Criteria
 
-- Knowledge graph updated.
-- Mathematical proofs post drafted with research fully folded into the document.
-- Blog branding assessment reported.
-- Candidate future post topics added to table at end of `old_drafts.md`.
+- Statistics Reference post drafted with research fully folded into the document.
+- `old_drafts.md` modified to indicate old drafts elevated to release candidate status.
 
 ## Notes
 

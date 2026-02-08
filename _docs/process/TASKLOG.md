@@ -8,33 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Release Announcement Protocol, Draft Proofs Post, Branding Assessment (A78-P3)
+**Name**: Draft Statistics Reference Post, Update Old Drafts (A80-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Knowledge graph updated with release announcement protocol
-- [x] Mathematical proofs post drafted with research fully folded into the document
-- [x] Blog branding assessment reported in REVERSE_PROMPT.md
-- [x] Candidate future post topics added to table at end of `old_drafts.md`
+- [x] Statistics Reference post drafted with research fully folded into the document
+- [x] `old_drafts.md` modified to indicate old drafts elevated to release candidate status
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A78-P3-T1 | Document release announcement protocol | Complete | Added step 5 to CONTENT_WORKFLOW.md with template, URL format, hashtag guidance, and tone notes. |
-| A78-P3-T2 | Draft mathematical proofs post (A79) | Complete | `_drafts/writing-proofs.markdown` rewritten from stub. 15 references across 5 categories. Covers proof techniques, software verification, and agentic formal verification. |
-| A78-P3-T3 | Blog branding assessment and candidate topics | Complete | Branding assessment in REVERSE_PROMPT.md. 16 candidate topics added to `old_drafts.md`. |
-| A78-P3-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A80-P1-T1 | Draft statistics reference post (A80) | Complete | `_drafts/statistics.markdown` rewritten from formula sheet to full reference article. 9 references across 4 categories. Covers distributions, hypothesis testing, confidence intervals, sample size determination. MathJax corrected throughout. |
+| A80-P1-T2 | Update old_drafts.md for release candidates | Complete | Writing Proofs (A79) and Statistics Reference (A80) marked as release candidates. Summary tier structure updated. |
+| A80-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A79 assigned to "Writing Proofs" draft. Categories: math development ai. Date: 2026-02-09.
-- A79 covers 5 main topics: what proofs are, how they are written (direct, contradiction, contrapositive, induction, constructive), why proofs matter, why proofs matter to software engineers (Hoare logic, loop invariants, Curry-Howard, TLA+, CompCert, Lean, seL4, smart contracts), why proofs matter in the age of agentic workflows (AlphaProof, Hilbert, APOLLO, Safe, VeriBench, specification bottleneck).
-- Release announcement protocol documented in CONTENT_WORKFLOW.md as step 5 of the publishing pipeline.
-- Blog brand identified as a technical practitioner's journal at the intersection of systems programming, applied mathematics, and AI-assisted development.
-- 16 candidate future post topics organized by thematic cluster.
+- A80 assigned to "Probability and Statistics Reference". Categories: math statistics probability. Date: 2026-02-10.
+- Original draft was ~207 lines of formulas with no prose, broken MathJax, and no article number.
+- A80 covers: probability distributions (Binomial, Normal, Poisson), normal approximation to the binomial with continuity correction, descriptive statistics, law of total probability, Bayes' theorem, Central Limit Theorem, hypothesis testing (Z-test, t-test, proportion test), confidence intervals (mean, variance, proportion, difference of means, difference of proportions, pooled proportion), and sample size determination.
+- MathJax fixes: removed spurious `\\` at start of align blocks, changed `\mp` to `\pm` for confidence intervals, reformatted continuity correction as a table.
+- Added sections not in original: Normal PDF, Poisson, Bayes' theorem, CLT, t-test, CI for mean (known and unknown variance), sample size for mean.
+- Writing Proofs (A79) and Statistics Reference (A80) both elevated to release candidate status in old_drafts.md.
 
 ## History
 
@@ -59,3 +57,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A78-P1: "The State of Context Engineering in Early 2026" drafted. Old drafts reviewed. |
 | 2026-02-08 | A78-P2: 8 additional sources folded into A78 (30 references). Old drafts review revised with contemporary tooling assumptions. |
 | 2026-02-08 | A78-P3: Release announcement protocol documented. A79 "Writing Proofs" drafted (15 references). Blog branding assessed. 16 candidate topics added. |
+| 2026-02-08 | A80-P1: A80 "Probability and Statistics Reference" drafted (9 references). Writing Proofs (A79) and Statistics Reference (A80) elevated to release candidates. |

@@ -9,44 +9,17 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-08
-**Task**: A78-P3 Release Announcement Protocol, Draft Proofs Post, Branding Assessment
+**Task**: A80-P1 Draft Statistics Reference Post, Update Old Drafts
 
 ---
 
 ## Verification
 
-### Knowledge Graph Updated
-**Result**: PASS. Release announcement protocol added to `CONTENT_WORKFLOW.md` as step 5. Includes template, URL format, hashtag guidance, and tone instructions.
+### Statistics Reference Post Drafted
+**Result**: PASS. `_drafts/statistics.markdown` rewritten from a 207-line formula sheet to a complete reference article. Assigned A80. 9 references across 4 categories (Book, Reference, Tool). Research incorporated covering probability distributions, hypothesis testing, confidence intervals, and sample size determination. MathJax corrected throughout.
 
-### Mathematical Proofs Post Drafted
-**Result**: PASS. `_drafts/writing-proofs.markdown` rewritten from empty stub to full article. Assigned A79. 15 references across 5 categories (Blog, Book, Industry, Research, Tool). Research fully incorporated covering proof techniques, Curry-Howard correspondence, formal verification tools, and agentic proof frameworks.
-
-### Blog Branding Assessment Reported
-**Result**: PASS. See "Blog Branding Assessment" section below.
-
-### Candidate Future Post Topics Added
-**Result**: PASS. 16 candidate topics added to `old_drafts.md` in a table organized by thematic cluster.
-
----
-
-## Blog Branding Assessment
-
-The blog at sgeos.github.io has published 74 articles since January 2016. Reviewing the full post history, three dominant thematic clusters emerge.
-
-**Systems programming on unconventional platforms.**
-The largest cluster by volume covers FreeBSD system administration (21 posts), shell scripting (9 posts), and low-level programming across ARM assembly, C, C++, and Fortran. The distinguishing characteristic is not systems programming itself but the choice of platforms. Android development on FreeBSD, Fortran on Playdate, DTN space networking protocols, and Tor hidden services are topics that few other blogs cover. This willingness to explore unusual technology combinations is the blog's most distinctive trait.
-
-**Applied mathematics and formal systems.**
-A recurring thread runs through trigonometry, parametric equations, constant product AMM mathematics, game theory as applied to chess and Go, and the metagaming framework. Mathematical posts tend to use MathJax notation and maintain academic rigor. The recent A79 "Writing Proofs" draft extends this thread into formal verification and the Curry-Howard correspondence. The DeFi mathematics posts (AMM, CLMM draft) bridge mathematics and blockchain engineering.
-
-**AI-assisted development and developer productivity.**
-The most recent cluster (A75 through A78, plus A31 on Claude Code) represents an emerging focus on agentic workflows, context engineering, and the tooling ecosystem for AI-assisted software development. These posts are longer, more research-heavy, and more reference-dense than earlier posts. They reflect a shift from tutorial-style "getting started" content toward analytical survey articles.
-
-**Emergent brand identity.**
-The blog reads as a **technical practitioner's journal** written by an engineer who works at the intersection of systems programming, applied mathematics, and emerging technology. The author builds things and writes about the experience. The posts are hands-on and reproducible, anchored by the signature Software Versions block. The tone is professional and academic without being inaccessible. The recent pivot toward AI-assisted development is a natural extension of the established interest in developer productivity and formal systems.
-
-**Brand strengths.**
-The Rust and no_std embedded programming threads, the DeFi mathematics thread, and the AI/context engineering thread are the three most on-brand and forward-looking clusters. The FreeBSD and Elixir threads represent the blog's historical identity and still have niche audiences. The game development thread (Playdate series) combines multiple strengths by applying low-level systems programming to a constrained embedded platform.
+### Old Drafts Updated for Release Candidates
+**Result**: PASS. Writing Proofs (A79) and Statistics Reference (A80) marked as release candidates in `old_drafts.md`. Summary tier structure updated to reflect the new status.
 
 ---
 
@@ -56,27 +29,50 @@ The Rust and no_std embedded programming threads, the DeFi mathematics thread, a
 
 | File | Changes |
 |------|---------|
-| `_drafts/writing-proofs.markdown` | Rewritten from empty stub to full A79 draft. 15 references. Covers proof techniques, software verification, and agentic formal verification. |
-| `_drafts/old_drafts.md` | Added "Candidate Future Post Topics" table with 16 entries at end of file. |
-| `_docs/process/CONTENT_WORKFLOW.md` | Added step 5 "Release Announcement" with template and guidelines. |
-| `_docs/process/PROMPT.md` | Human-updated with A78-P3 instructions. Committed as-is. |
-| `_docs/process/TASKLOG.md` | A78-P3 task state. |
+| `_drafts/statistics.markdown` | Rewritten from formula sheet to full A80 draft. 9 references. Covers distributions, hypothesis testing, confidence intervals, sample size. MathJax corrected. |
+| `_drafts/old_drafts.md` | Writing Proofs and Statistics Reference sections updated to "Release Candidate" status. Summary tiers updated. |
+| `_docs/process/PROMPT.md` | Human-updated with A80-P1 instructions. Committed as-is. |
+| `_docs/process/TASKLOG.md` | A80-P1 task state. |
 | `_docs/process/REVERSE_PROMPT.md` | This file. |
 
-### A79 Article Structure
+### A80 Article Structure
 
 | Section | Content |
 |---------|---------|
-| Opening | Proofs as certainty beyond testing, relevance to AI-generated code |
+| Opening | What statistics is, why it matters to engineers, post scope as a reference |
 | Software Versions | Standard environment block |
-| What Is a Mathematical Proof | Formal vs. informal proof, compelled agreement |
-| How Proofs Are Written | Direct proof, contradiction, contrapositive, induction, constructive. Each with worked example. |
-| Why Proofs Matter | Certainty beyond testing (Pentium FDIV), cumulative knowledge (mathlib), precision of thought |
-| Why Proofs Matter to Software Engineers | Hoare logic, loop invariants, Curry-Howard, TLA+ at AWS, CompCert, Lean 4, seL4, smart contract verification |
-| Why Proofs Matter in the Age of Agentic Workflows | Verification problem, proof checking as strategy, Kleppmann prediction, AlphaProof, Hilbert, APOLLO, Safe, specification bottleneck |
-| Conclusion | Proofs as foundation of correctness, generate-verify loop, specifications as the binding constraint |
-| Future Reading | 5 entries |
-| References | 15 entries across 5 categories (Blog, Book, Industry, Research, Tool) |
+| Notation | Symbol table for all notation used in the article |
+| Probability Distributions | Binomial PMF, Normal PDF, Poisson PMF with mean/variance |
+| Normal Approximation | Approximation conditions, continuity correction table |
+| Descriptive Statistics | Sample mean, sample and population variance, standard deviation |
+| Law of Total Probability | Two-partition form, rearrangements |
+| Bayes' Theorem | Standard form, expanded denominator, applications |
+| Central Limit Theorem | CLT statement, standard error, rule of thumb |
+| Hypothesis Testing | Framework, type errors, Z-test, t-test, proportion test, general form |
+| Confidence Intervals | General form, mean (known/unknown variance), variance, proportion, difference of means, difference of proportions, pooled proportion |
+| Sample Size Determination | For proportion (worst-case), for mean |
+| Summary | When methods apply, their assumptions and limitations |
+| Future Reading | 5 entries (NIST, Seeing Theory, Wasserman, Bruce, Ross) |
+| References | 9 entries across 4 categories (Book, Reference, Tool) |
+
+### Changes from Original Draft
+
+| Aspect | Original | A80 |
+|--------|----------|-----|
+| Length | ~207 lines | ~547 lines |
+| Prose | None (formula sheet only) | Explanatory prose for every section |
+| Title | "Statistics" | "Probability and Statistics Reference" |
+| Article number | None | A80 |
+| Notation | Undefined | Formal notation table |
+| Distributions | Binomial only | Binomial, Normal, Poisson |
+| Bayes' Theorem | Absent | Full section with expanded form |
+| CLT | Absent | Full section with standard error |
+| t-test | Absent | Full section |
+| CI for mean | Absent | Known and unknown variance forms |
+| Sample size | Absent | For proportion and mean |
+| Continuity correction | Inline align block (broken rendering) | Markdown table |
+| MathJax | Broken (spurious `\\`, `\mp` errors) | Corrected throughout |
+| References | None | 9 across 4 categories |
 
 ---
 
@@ -88,23 +84,21 @@ No questions. All objectives from PROMPT.md have been met.
 
 ## Technical Concerns / Risks
 
-**URL verification needed.** A79 reference URLs were gathered by research agents and have not been manually verified. The human pilot should verify all 15 URLs before publication.
+**MathJax rendering.** A80 uses MathJax extensively with both inline and display math. The human pilot should preview locally to verify rendering, particularly the continuity correction table, the chi-squared confidence interval notation, and the pooled standard error formula.
 
-**MathJax rendering.** A79 uses inline and display math extensively. The human pilot should preview locally to verify MathJax renders correctly, particularly the Hoare triple notation $\{P\}\ c\ \{Q\}$ and the induction display equation.
+**URL verification.** Reference URLs were gathered by research agent and have not been manually verified. The human pilot should verify all 9 URLs before publication.
 
-**Article scope.** A79 covers substantial ground from basic proof techniques to cutting-edge AI theorem proving. The human pilot should assess whether the scope is appropriate or whether any sections should be trimmed or expanded.
-
-**No series cross-references.** A79 is a standalone article, not part of the A75-A78 context engineering series. It shares the AI/development categories but does not use `{% post_url %}` links to other articles.
+**Scope assessment.** A80 covers introductory undergraduate probability and statistics. The human pilot should assess whether the scope is appropriate or whether any sections should be added, trimmed, or expanded. Potential additions at this level include correlation/regression, chi-squared goodness-of-fit test, and ANOVA, but these would increase the article length significantly.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A79 draft
-- Whether to polish, revise, or proceed to publication
-- Publication timing for A78 (noted as ready in PROMPT.md comments)
-- Any action on the candidate future post topics
+- Review of the A80 draft
+- Whether to polish, revise, or proceed to publication for A79 and A80
+- Publication timing for A78 (noted as ready in previous PROMPT.md comments)
+- Any action on the candidate future post topics in old_drafts.md
 
 ---
 
@@ -116,8 +110,8 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Nineteen prompts completed (A0-P1 through A0-P6, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P3).
-6. All 74 historical posts have article numbers (A1-A74). A75, A76, and A77 are published. A78 and A79 are drafted. Next available: A80.
+5. A0 is reserved for non-article work. Twenty prompts completed (A0-P1 through A0-P6, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P3, A80-P1).
+6. All 74 historical posts have article numbers (A1-A74). A75, A76, and A77 are published. A78, A79, and A80 are drafted. Next available: A81.
 7. Categories are space-separated, not comma-separated.
 8. Assets follow `assets/$TYPE/post_$SLUG/$FILENAME` convention.
 9. Read `TASKLOG.md` for current task state.
