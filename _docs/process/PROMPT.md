@@ -14,14 +14,19 @@ Moving on to the next blog post.
 
 ## Objectives
 
-### Draft LLM Knowledge Graphs Post
+### Update Article Number Comment
 
-Please draft a post on "LLM Knowledge Graphs" like the one used in this project.
-Research the topic, and use the last couple of posts as a general guide.
+Please update the article number comment to A77.
+
+### Inline DOCUMENTATION_STRATEGY.md
+
+Please inline this repo's full `DOCUMENTATION_STRATEGY.md` body in a code block in A77.
+Position the section appropriately.
+Add appropriate surrounding prose and note that readers may need to their documentation strategy for their own project.
 
 ## Context
 
-Housekeeping done, time to draft next post.
+Polishing for publication.
 
 ## Constraints
 
@@ -29,8 +34,8 @@ Housekeeping done, time to draft next post.
 
 ## Success Criteria
 
-- Post drafted.
-- Research folded into post, future reading, and references sections.
+- Comment updated.
+- `DOCUMENTATION_STRATEGY.md` inlined with appropriate surrounding prose.
 
 ## Notes
 
