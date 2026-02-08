@@ -79,7 +79,30 @@ but breaks down when agents operate over multiple turns,
 read and write files, execute commands,
 and maintain state across long sessions.
 
-Anthropic's engineering team drew the distinction explicitly
+The term "context engineering" has a traceable lineage.
+Prompt engineer Riley Goodside used the phrase as early as 2023,
+but it remained niche until mid-2025.
+The inflection point came in June 2025
+when Shopify CEO Tobi Lutke posted that he preferred
+"context engineering" over "prompt engineering"
+because it "describes the core skill better:
+the art of providing all the context for the task
+to be plausibly solvable by the LLM."
+Andrej Karpathy endorsed the shift shortly after,
+describing context engineering as
+"the delicate art and science of filling the context window
+with just the right information for the next step."
+
+Simon Willison argued that the term would stick
+because its "inferred definition" is much closer to the intended meaning
+than "prompt engineering,"
+which many people dismiss as
+"a laughably pretentious term for typing things into a chatbot."
+Willison observed that "context engineering" captures the fact
+that previous model responses, tool outputs, and retrieved documents
+are all critical parts of the process, not just user prompts.
+
+Anthropic formalized the distinction
 in their September 2025 blog post on context engineering.
 They defined context engineering as
 "the set of strategies for curating and maintaining
@@ -90,6 +113,18 @@ context engineering asks
 "what total configuration of information
 is most likely to produce the desired behavior
 over the full lifecycle of this agent session."
+
+Karpathy's 2025 year-in-review
+reinforced this framing by conceptualizing LLMs
+as "a new kind of operating system"
+where the LLM is like the CPU
+and the context window is like RAM,
+the model's working memory.
+This analogy makes the resource management aspect explicit.
+Just as an operating system must manage limited RAM
+across competing processes,
+an agent must manage a limited context window
+across competing information needs.
 
 The shift is significant because it reframes the problem.
 Prompt engineering treats the model as a function.
@@ -134,10 +169,18 @@ when the agent works in that subtree,
 implementing a form of progressive disclosure.
 
 GitHub Copilot reads `.github/copilot-instructions.md`
-and supports custom instructions in the Copilot settings.
+and supports `.instructions.md` files
+with `applyTo` fields for path-specific instructions.
+VS Code now provides an official context engineering guide
+that includes custom agent files
+for plan-and-implement workflows.
 Cursor reads files from the `.cursor/rules/` directory
 and supports glob-pattern scoping
 that activates rules only for matching file paths.
+Cursor rules have evolved from the original single `.cursorrules` file
+through a `.cursor/` folder with `index.mdc`
+to the current multi-file architecture
+with context-aware dynamic rules.
 Gemini CLI reads `GEMINI.md` files following a similar pattern.
 
 Each tool uses its own file format and conventions.
@@ -176,12 +219,25 @@ must still maintain tool-specific files alongside AGENTS.md.
 
 The Model Context Protocol (MCP) provides a complementary standard
 for dynamic context.
-Where AGENTS.md and configuration files provide static project knowledge,
+Announced by Anthropic in November 2024,
 MCP enables agents to access external data sources
 through a standardized interface.
 MCP servers can expose database schemas, API documentation,
 issue trackers, and other live information
 that agents need during a session.
+
+The pace of MCP adoption has been remarkable.
+OpenAI adopted MCP across the Agents SDK, Responses API,
+and ChatGPT desktop in March 2025.
+Google DeepMind confirmed MCP support in Gemini models in April 2025.
+GitHub and Microsoft joined MCP's steering committee at Build 2025 in May.
+Major specification updates followed in November 2025,
+including asynchronous operations, statelessness, server identity,
+and an official registry.
+In December 2025, MCP was donated to the Agentic AI Foundation
+alongside AGENTS.md.
+Where AGENTS.md and configuration files provide static project knowledge,
+MCP provides the plumbing for runtime context retrieval.
 
 Anthropic's Agent Skills specification builds on this foundation
 with a three-level progressive disclosure model.
@@ -217,7 +273,7 @@ and that not everything can fit.
 
 The practice of context engineering
 has attracted a small but growing body of empirical research.
-Four studies published between September 2025 and January 2026
+Six studies published between August 2025 and January 2026
 provide quantitative data on how context files are written,
 how they evolve, and what impact they have.
 
@@ -265,6 +321,35 @@ are grouped within individual configuration files.
 Architecture specification emerged as particularly important.
 Projects that provided architectural context to agents
 saw more consistent adherence to design patterns.
+
+### Adoption in Open Source
+
+Mohsenimofidi and colleagues investigated
+the adoption of AI configuration files
+in 466 open-source projects in October 2025.
+They found no established structure yet,
+with significant variation in how context is provided.
+Instructions fall into five categories:
+descriptive, prescriptive, prohibitive, explanatory, and conditional.
+This taxonomy suggests that context files
+serve multiple communicative functions simultaneously,
+which may contribute to the maintenance burden
+that other studies have documented.
+
+### Multi-Agent Context
+
+A study on context engineering
+for multi-agent LLM code assistants in August 2025
+described structured layering of context
+where agents work with role-specific prompts,
+CLAUDE.md context, task-specific instructions,
+and relevant code or knowledge snippets.
+The multi-agent setting introduces
+a context multiplication problem.
+If a root agent passes its full history to a sub-agent,
+and that sub-agent does the same,
+the token count explodes
+and sub-agents become confused by irrelevant conversational history.
 
 ### Efficiency Impact
 
@@ -318,6 +403,86 @@ which prompts or models perform best."
 This points to a maturity gap.
 Enterprise teams are investing heavily in context engineering
 but lack systematic methods for measuring and improving it.
+
+## Practitioner Strategies
+
+While the empirical research documents what developers are doing,
+a growing body of practitioner writing
+documents what developers should be doing.
+Several frameworks have emerged
+for thinking systematically about context management.
+
+### The LangChain Taxonomy
+
+LangChain's context engineering series
+proposes four strategic categories for managing context.
+**Write** creates new context through system prompts
+and structured instructions.
+**Select** retrieves relevant context
+from larger knowledge bases using search and filtering.
+**Compress** reduces context volume
+through summarization and compaction.
+**Isolate** separates concerns
+by routing different types of context to different agents or tools.
+This taxonomy provides a useful vocabulary
+for discussing context engineering decisions
+and maps cleanly to the technical mechanisms
+that tools like Claude Code implement.
+
+### Frequent Intentional Compaction
+
+Dex Horthy of HumanLayer introduced
+the concept of Frequent Intentional Compaction,
+a workflow design pattern that targets
+40-60% context window utilization.
+Rather than allowing the context to fill organically
+and relying on automatic compaction at the limit,
+Horthy's approach designs the entire development workflow
+around context management.
+A research-plan-implement pattern
+provides each step with only the exact context
+needed to be successful.
+This is the most explicit articulation
+of context budgeting as a first-class engineering concern.
+
+### Context as Screenplay
+
+Addy Osmani's series on context engineering,
+published on O'Reilly Media,
+frames the practice as writing
+"the full screenplay for the AI"
+rather than crafting "a magical sentence."
+Osmani covers tool use and environmental context,
+guardrails and safety,
+and the architectural decisions
+around providing the right information at the right time.
+The screenplay metaphor is instructive.
+A screenplay specifies setting, character knowledge,
+available props, and constraints on behavior.
+Context engineering does the same
+for an AI agent's operating environment.
+
+### Production Lessons from Manus
+
+Yichao "Peak" Ji shared production insights
+from building the Manus agent.
+Several lessons stand out.
+The KV-cache hit rate is the single most important metric
+for production agents.
+Cached tokens cost ten times less with Claude Sonnet,
+making cache-friendly context design
+an economic imperative at scale.
+The file system serves as unlimited external memory,
+and task recitation through constantly rewriting a todo file
+combats goal drift in long sessions.
+Perhaps most counterintuitively,
+leaving failed actions in context helps the agent learn.
+Removing errors deprives the model of negative examples.
+Ji calls the iterative process of rebuilding
+the agent framework "Stochastic Graduate Descent,"
+a deliberate play on words
+that captures the trial-and-error nature
+of context engineering in practice.
 
 ## Unsolved Challenges
 
@@ -500,10 +665,20 @@ an AI agent that helps and one that hinders.
   surveying enterprise adoption of AI coding agents
   with case studies from Rakuten and TELUS.
 
+- [Context Engineering for AI Agents: Lessons from Building Manus][industry_manus]
+  by Yichao "Peak" Ji,
+  sharing production lessons on KV-cache optimization,
+  file system memory, and task recitation.
+
 - [Agent READMEs: An Empirical Study of Context Files][research_agent_readmes]
   by Chatlatanagulchai and colleagues,
   the largest empirical study of agent configuration files
   introducing the concept of context debt.
+
+- [Context Engineering: Bringing Engineering Discipline to Prompts][industry_osmani]
+  by Addy Osmani on O'Reilly,
+  framing context as "the full screenplay for the AI"
+  with coverage of tool use, guardrails, and architectural decisions.
 
 - [The Context Window Problem][industry_factory_context] by Factory.ai,
   examining the scalability gap between context windows
@@ -519,41 +694,61 @@ an AI agent that helps and one that hinders.
 - [Anthropic, 2026 Agentic Coding Trends Report][anthropic_trends_report]
 - [Anthropic, Effective Context Engineering for AI Agents][anthropic_context_engineering]
 - [Anthropic, Equipping Agents for the Real World with Agent Skills][anthropic_agent_skills]
+- [Anthropic, Introducing the Model Context Protocol][anthropic_mcp]
 - [Blog, Bidirectional Agentic Workflow][blog_bidirectional]
+- [Blog, Context Engineering][blog_willison]
 - [Blog, LLM Knowledge Graphs][blog_knowledge_graphs]
 - [Blog, Markdown as a Specification Language for Agentic Workflows][blog_markdown_spec]
+- [Blog, Year in Review 2025][blog_karpathy]
 - [Claude Code, Manage Claude's Memory][cc_memory]
+- [Industry, Advanced Context Engineering for Coding Agents][industry_humanlayer]
+- [Industry, Context Engineering for AI Agents: Lessons from Building Manus][industry_manus]
 - [Industry, Context Engineering for Coding Agents][industry_fowler_context]
+- [Industry, Context Engineering: Bringing Engineering Discipline to Prompts][industry_osmani]
 - [Industry, Fixing Claude Code's Amnesia][industry_episodic_memory]
+- [Industry, LangChain Context Engineering for Agents][industry_langchain]
 - [Industry, Personal AI Infrastructure][industry_miessler_pai]
 - [Industry, Spotify Background Coding Agents Part 2: Context Engineering][industry_spotify_context]
 - [Industry, The Context Window Problem][industry_factory_context]
 - [Industry, Why AI Coding Agents Aren't Production-Ready][industry_venturebeat]
 - [Protocol, AGENTS.md][protocol_agents_md]
 - [Research, Agent READMEs: An Empirical Study of Context Files][research_agent_readmes]
+- [Research, Context Engineering for AI Agents in Open-Source Software][research_oss_context]
+- [Research, Context Engineering for Multi-Agent LLM Code Assistants][research_multi_agent]
 - [Research, Decoding the Configuration of AI Coding Agents][research_santos_config]
 - [Research, On the Impact of AGENTS.md Files on Efficiency][research_agents_md_impact]
 - [Research, On the Use of Agentic Coding Manifests][research_agentic_manifests]
 - [Standard, The /llms.txt File][standard_llms_txt]
 - [Standard, ThoughtWorks Technology Radar: AGENTS.md][standard_thoughtworks_radar]
+- [Tool, Set Up a Context Engineering Flow in VS Code][tool_vscode]
 
 [anthropic_trends_report]: https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026
 [anthropic_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 [anthropic_agent_skills]: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+[anthropic_mcp]: https://www.anthropic.com/news/model-context-protocol
 [blog_bidirectional]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [blog_knowledge_graphs]: {% post_url 2026-02-07-llm_knowledge_graphs %}
 [blog_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
+[blog_willison]: https://simonwillison.net/2025/jun/27/context-engineering/
+[blog_karpathy]: https://karpathy.bearblog.dev/year-in-review-2025/
 [cc_memory]: https://code.claude.com/docs/en/memory
+[industry_humanlayer]: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
+[industry_manus]: https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
 [industry_fowler_context]: https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
+[industry_osmani]: https://addyo.substack.com/p/context-engineering-bringing-engineering
 [industry_episodic_memory]: https://blog.fsck.com/2025/10/23/episodic-memory/
+[industry_langchain]: https://blog.langchain.com/context-engineering-for-agents/
 [industry_miessler_pai]: https://danielmiessler.com/blog/personal-ai-infrastructure
 [industry_spotify_context]: https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2
 [industry_factory_context]: https://factory.ai/news/context-window-problem
 [industry_venturebeat]: https://venturebeat.com/ai/why-ai-coding-agents-arent-production-ready-brittle-context-windows-broken
 [protocol_agents_md]: https://agents.md/
 [research_agent_readmes]: https://arxiv.org/abs/2511.12884
+[research_oss_context]: https://arxiv.org/abs/2510.21413
+[research_multi_agent]: https://arxiv.org/abs/2508.08322
 [research_santos_config]: https://arxiv.org/abs/2511.09268
 [research_agents_md_impact]: https://arxiv.org/abs/2601.20404
 [research_agentic_manifests]: https://arxiv.org/abs/2509.14744
 [standard_llms_txt]: https://llmstxt.org/
 [standard_thoughtworks_radar]: https://www.thoughtworks.com/en-us/radar/techniques/agents-md
+[tool_vscode]: https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide

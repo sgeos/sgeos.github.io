@@ -8,31 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Context Engineering Post and Review Old Drafts (A78-P1)
+**Name**: Fold Research into A78 and Revise Old Drafts Review (A78-P2)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Article A78 drafted
-- [x] `old_drafts.md` added with a date of 2000-01-01
-- [x] All old drafts reviewed, and status added to `old_drafts.md`
+- [x] Remaining references folded into A78
+- [x] Revised old drafts review in `old_drafts.md`
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A78-P1-T1 | Research context engineering | Complete | Research agent gathered sources on context engineering landscape, empirical studies, enterprise adoption, challenges. |
-| A78-P1-T2 | Review old drafts | Complete | All 13 files in `_drafts/` reviewed. Status documented in `_drafts/old_drafts.md`. |
-| A78-P1-T3 | Draft A78 post | Complete | `_drafts/context_engineering.markdown` created. 20 references across 7 categories. Cross-links to A75, A76, A77. |
-| A78-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A78-P2-T1 | Fold 8 additional sources into A78 | Complete | All 8 sources incorporated. References expanded from 20 to 30. New "Practitioner Strategies" section added. Empirical Evidence expanded from 4 to 6 studies. |
+| A78-P2-T2 | Revise old drafts review | Complete | `old_drafts.md` rewritten with per-draft sections, contemporary tooling assumptions, 4-tier publication assessment, and topicality analysis for stubs. |
+| A78-P2-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A78 surveys the state of context engineering in early 2026, building on A75-A77.
-- 20 references across categories: Anthropic (3), Blog (3), Claude Code (1), Industry (6), Protocol (1), Research (4), Standard (2).
-- New sources not in A77: Anthropic 2026 Agentic Coding Trends Report, Factory.ai context window problem, VentureBeat production readiness critique.
-- Old drafts review covers 13 files: 1 template, 2 empty stubs, 4 outdated (2016-2017), 6 partially complete with varying publication potential.
+- A78 now has 30 references across 8 categories: Anthropic (4), Blog (5), Claude Code (1), Industry (10), Protocol (1), Research (6), Standard (2), Tool (1).
+- New sections added: Practitioner Strategies (LangChain taxonomy, Frequent Intentional Compaction, Context as Screenplay, Manus production lessons), Adoption in Open Source, Multi-Agent Context.
+- Expanded sections: From Prompt Engineering (Willison, Karpathy OS metaphor, Lutke), Configuration Files (VS Code guide, Cursor evolution), MCP (full adoption timeline).
+- Old drafts review revised with contemporary tooling assumptions and 4-tier classification: Tier 1 (Solana sBPF, statistics), Tier 2 (CLMM, half-life coin, space studies, MTG/Rust), Tier 3 (Android/FreeBSD pair), Tier 4 (Android testing, Phoenix/Guardian, two stubs).
 
 ## History
 
@@ -55,3 +53,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A77-P2: Article number comment updated. DOCUMENTATION_STRATEGY.md inlined. |
 | 2026-02-07 | A77-P3: A77 published with 2026-02-07 date. |
 | 2026-02-08 | A78-P1: "The State of Context Engineering in Early 2026" drafted. Old drafts reviewed. |
+| 2026-02-08 | A78-P2: 8 additional sources folded into A78 (30 references). Old drafts review revised with contemporary tooling assumptions. |
