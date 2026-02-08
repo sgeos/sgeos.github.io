@@ -8,26 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish LLM Knowledge Graphs Post (A77-P3)
+**Name**: Draft Context Engineering Post and Review Old Drafts (A78-P1)
 **Status**: Complete
-**Started**: 2026-02-07
+**Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Article published
+- [x] Article A78 drafted
+- [x] `old_drafts.md` added with a date of 2000-01-01
+- [x] All old drafts reviewed, and status added to `old_drafts.md`
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A77-P3-T1 | Publish A77 | Complete | Published via `_publish.sh`. Moved from `_drafts/` to `_posts/2026-02-07-llm_knowledge_graphs.markdown`. |
-| A77-P3-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A78-P1-T1 | Research context engineering | Complete | Research agent gathered sources on context engineering landscape, empirical studies, enterprise adoption, challenges. |
+| A78-P1-T2 | Review old drafts | Complete | All 13 files in `_drafts/` reviewed. Status documented in `_drafts/old_drafts.md`. |
+| A78-P1-T3 | Draft A78 post | Complete | `_drafts/context_engineering.markdown` created. 20 references across 7 categories. Cross-links to A75, A76, A77. |
+| A78-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Human changed date from 2026-02-08 to 2026-02-07 for unique publication dates.
-- Human added bold label before DOCUMENTATION_STRATEGY.md code block.
-- Human updated Software Versions date to match new publication date.
+- A78 surveys the state of context engineering in early 2026, building on A75-A77.
+- 20 references across categories: Anthropic (3), Blog (3), Claude Code (1), Industry (6), Protocol (1), Research (4), Standard (2).
+- New sources not in A77: Anthropic 2026 Agentic Coding Trends Report, Factory.ai context window problem, VentureBeat production readiness critique.
+- Old drafts review covers 13 files: 1 template, 2 empty stubs, 4 outdated (2016-2017), 6 partially complete with varying publication potential.
 
 ## History
 
@@ -49,3 +54,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A77-P1: "LLM Knowledge Graphs" drafted with 20 references. |
 | 2026-02-07 | A77-P2: Article number comment updated. DOCUMENTATION_STRATEGY.md inlined. |
 | 2026-02-07 | A77-P3: A77 published with 2026-02-07 date. |
+| 2026-02-08 | A78-P1: "The State of Context Engineering in Early 2026" drafted. Old drafts reviewed. |

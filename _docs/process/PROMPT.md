@@ -10,17 +10,31 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Minor edits made.
+Moving onto the next post.
 
 ## Objectives
 
-### Publish A77
+### Draft A78
 
-Please publish article A77.
+Please research and draft an article on the state of context engineering in early 2026.
+Feel free to use A75, A76, and A77 as references.
+
+### Review Old Drafts
+
+Add a `old_drafts.md` to `_drafts` with proper frontmatter.
+Give it a date of 2000-01-01.
+In this post, add the status of the other old drafts.
+A table may or may not make sense.
+Review each draft, and state the following:
+- Filename
+- Topic
+- Completion Status
+- Remaining Work Required
+- Publication Sensibility
 
 ## Context
 
-Ready for publication.
+Moving onto the next post.
 
 ## Constraints
 
@@ -28,9 +42,10 @@ Ready for publication.
 
 ## Success Criteria
 
-- Article published.
+- Article A78 drafted.
+- `old_drafts.md` added with a date of 2000-01-01.
+- Add old drafts reviewed, and status added to `old_drafts.md`
 
 ## Notes
 
-Modified the date the date so that every article has a unique publication date.
-Publishing is slightly out of order, but this is OK.
+(no comment)
