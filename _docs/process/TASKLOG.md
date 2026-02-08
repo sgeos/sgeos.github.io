@@ -8,27 +8,30 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Reorganize Assets by Type (A0-P6)
+**Name**: Draft LLM Knowledge Graphs Post (A77-P1)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] `assets` organized as `assets/$TYPE/post_$POST_TITLE/$FILENAME`
-- [x] Relevant posts patched so they do not break
+- [x] Post drafted
+- [x] Research folded into post, future reading, and references sections
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P6-T1 | Reorganize assets by type then post slug | Complete | All files moved to `assets/$TYPE/post_$SLUG/` pattern. Posts patched. No old paths remain. |
-| A0-P6-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A77-P1-T1 | Research LLM knowledge graphs | Complete | Two research agents completed. 30+ sources gathered across academic papers, industry blogs, official documentation, and standards. |
+| A77-P1-T2 | Draft A77 post | Complete | `_drafts/llm_knowledge_graphs.markdown` created. 20 references across 8 categories. 5 future reading entries. Worked example using `_docs/` directory. |
+| A77-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Restructures A0-P5 organization from `assets/post_$SLUG/` to `assets/$TYPE/post_$SLUG/`.
-- Image files go under `assets/image/`, PDF files under `assets/pdf/`, WASM files already under `assets/wasm/`.
-- The `adding_images` post now has assets split across two type directories (image and pdf).
+- Article uses this project's `_docs/` directory as a worked example of an LLM knowledge graph.
+- Cross-links to A75 and A76 via `{% post_url %}` tags.
+- 20 references across 8 categories: Anthropic, Blog, Claude Code, Industry, Protocol, Research, Standard, Tool.
+- Three peer-reviewed empirical studies cited (arXiv:2509.14744, arXiv:2511.12884, arXiv:2511.09268) plus a January 2026 efficiency study (arXiv:2601.20404).
+- Key concepts: context engineering, progressive disclosure, context debt, graph traversal, atomic decomposition.
 
 ## History
 
@@ -47,3 +50,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A0-P4: Excluded CLAUDE.md from Jekyll to fix header navigation. |
 | 2026-02-07 | A0-P5: Organized assets into post-specific subdirectories. Patched 2 posts. |
 | 2026-02-07 | A0-P6: Reorganized assets by type then post slug. Patched 2 posts. |
+| 2026-02-07 | A77-P1: "LLM Knowledge Graphs" drafted with 20 references. |

@@ -10,19 +10,18 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-I want assets organized by type and post. `assets/$TYPE/$POST_TITLE/$FILENAME`
+Moving on to the next blog post.
 
 ## Objectives
 
-### Organize Files and Patch Posts
+### Draft LLM Knowledge Graphs Post
 
-Move `png` and other image files to `assets/image/post_${POST_TITLE}/${FILENAME}`.
-Move `pdf` files to `assets/pdf/post_${POST_TITLE}/${FILENAME}`.
-Patch relevant posts.
+Please draft a post on "LLM Knowledge Graphs" like the one used in this project.
+Research the topic, and use the last couple of posts as a general guide.
 
 ## Context
 
-Housekeeping.
+Housekeeping done, time to draft next post.
 
 ## Constraints
 
@@ -30,9 +29,9 @@ Housekeeping.
 
 ## Success Criteria
 
-- `assets` organized.
-- Relevant posts patched so they do not break.
+- Post drafted.
+- Research folded into post, future reading, and references sections.
 
 ## Notes
 
-`post_adding_images_and_downloads_to_a_github_pages_jekyll_blog` will have an `image` and a `pdf` resource.
+(no comment)
