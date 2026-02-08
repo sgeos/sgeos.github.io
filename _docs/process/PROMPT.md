@@ -10,19 +10,19 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-`STYLE_GUIDE.md` has instructions for linking to other blog posts.
-Manually updated.
+`CLAUDE.md` is listed in the header of the live blog but not the preview.
+This is a problem I want resolved.
 
 ## Objectives
 
-### Publish A76
+### Fix Header
 
-Please publish A76.
-Do not change the date.
+Attempt fix and report speculative analysis.
 
 ## Context
 
-Polished article for immediate publication.
+Header is not right after integrating Claude Code into the repo.
+Timing is unclear.
 
 ## Constraints
 
@@ -30,8 +30,8 @@ Polished article for immediate publication.
 
 ## Success Criteria
 
-- A76 is published.
+- `CLAUDE.md` no longer linked in header on live blog.
 
 ## Notes
 
-(no comment)
+I will push the commit and verify manually.

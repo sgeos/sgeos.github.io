@@ -20,5 +20,8 @@ github_username:  sgeos
 markdown: kramdown
 highlighter: rouge
 
+exclude:
+  - CLAUDE.md
+
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 
