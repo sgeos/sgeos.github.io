@@ -3,11 +3,11 @@ layout: post
 mathjax: false
 comments: true
 title: "Markdown as a Specification Language for Agentic Workflows"
-date: 2026-02-07 00:00:00 +0000
-categories: ai, ai-tools, development, developer-productivity
+date: 2026-02-08 01:42:16 +0000
+categories: ai ai-tools development developer-productivity
 ---
 
-<!-- Axxx -->
+<!-- A76 -->
 
 "The hottest new programming language is English."
 This claim, popularized by Andrej Karpathy in January 2023
@@ -32,7 +32,7 @@ within a consistent structural framework.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-07 00:00:00 +0000
+2026-02-08 01:42:16 +0000
 
 # OS and Version
 $ uname -vm
@@ -61,9 +61,7 @@ $ claude --version
 2.1.37 (Claude Code)
 ```
 
-## Instructions
-
-### The Claim
+## The Claim
 
 The idea that natural language will replace programming languages
 has a longer history than the current AI boom suggests.
@@ -86,6 +84,14 @@ and that most software would be "replaced by AI systems that are trained rather 
 These statements contain a kernel of truth.
 AI agents have made it possible for people without programming experience
 to produce working software by describing what they want in plain language.
+Marc Brooker, an engineer at Amazon Web Services,
+argued in December 2025 that "the future of programming looks like the past of programming:
+a natural language conversation, a feedback loop,
+with the occasional descent into mathematical precision."
+Brooker's framing is more nuanced than the "English is programming" claim.
+He positions specification, not English itself, as the future of programming,
+with natural language as one tool among several.
+
 But the leap from "AI understands English" to "English is a good specification language"
 conflates capability with suitability.
 
@@ -163,6 +169,77 @@ Language model training data is heavily weighted toward markdown content from Gi
 documentation sites, and technical blogs.
 Models have strong priors for interpreting markdown structure.
 
+### Code Blocks as Formal Specification
+
+Code blocks are the most powerful structural primitive
+that markdown offers for specification purposes.
+Where headers and lists organize intent,
+code blocks allow the specification author
+to embed formally precise artifacts
+directly within a natural language document.
+
+A fenced code block with a language identifier
+tells both the human reader and the AI agent
+exactly what kind of artifact is being specified.
+
+```sh
+echo "${SHELL}"
+```
+
+The language identifier is not decorative.
+It signals to the AI agent that the enclosed content
+should be interpreted as shell script,
+not as prose or pseudocode.
+This eliminates an entire class of ambiguity
+that plagues unstructured English specifications.
+When a developer writes "run the startup script,"
+the agent must guess what that means.
+When a developer includes a code block tagged `sh`,
+the intent is unambiguous.
+
+Markdown supports nested code blocks through escalating fence delimiters.
+When a specification needs to communicate markdown itself,
+a quadruple-backtick fence wraps the inner triple-backtick content.
+
+````markdown
+```sh
+echo "${SHELL}"
+```
+````
+
+This nesting capability is essential for specifications
+that describe templates, documentation formats, or protocol files.
+The bidirectional communication protocol described in A75,
+for example, uses quadruple-backtick fences
+to include the full text of `COMMUNICATION.md` within the article.
+In rare cases where a specification must describe nested markdown
+that itself contains code blocks,
+a quintuple-backtick fence provides the necessary depth.
+
+The practical effect is that markdown code blocks
+create a formal sublanguage within an otherwise informal document.
+The natural language prose around the code blocks provides context, rationale, and intent.
+The code blocks provide the precise, machine-interpretable specification.
+This combination of informal context and formal content
+is the pattern that literate programming pioneered in the 1980s,
+now adapted for human-AI collaboration.
+
+Code blocks also address the reproducibility gap
+that undermines unstructured English specifications.
+A specification that says "install the dependencies and run the tests"
+leaves the exact commands to the agent's interpretation.
+A specification that includes the following leaves nothing to interpretation.
+
+```sh
+npm install
+npm test
+```
+
+The agent can execute the commands exactly as specified.
+The developer can verify that the specification is correct
+by running the same commands.
+This verifiability is a property that unstructured English cannot provide.
+
 ### Spec-Driven Development
 
 The emergence of spec-driven development
@@ -182,6 +259,26 @@ with their respective AI coding tools.
 Addy Osmani documented practical guidelines for writing specifications
 that AI agents can reliably execute.
 
+Birgitta Böckeler, writing for Martin Fowler's site,
+compared the SDD tools Kiro, Spec Kit, and Tessl,
+noting that spec-driven development means writing a "spec" before writing code with AI,
+a "documentation first" approach.
+
+The approach has drawn criticism.
+Marmelab argued that SDD "revives the old idea of heavy documentation before coding,
+an echo of the Waterfall era,"
+and risks "burying agility under layers of Markdown."
+Scott Logic described "a sea of markdown documents, long agent run-times and unexpected friction,"
+concluding that "the fastest path is still iterative prompting and review,
+not industrialised specification pipelines."
+The concern of "spec rot,"
+where the specification drifts out of sync with the code,
+is real and mirrors problems with traditional requirements documents.
+
+These criticisms are valid for heavyweight specification pipelines.
+But they do not invalidate markdown as a specification format.
+They argue against a particular workflow that generates cascading markdown documents
+through automated pipelines.
 The key insight of spec-driven development
 is that the specification is a living document.
 It is updated as the developer and agent make decisions,
@@ -345,6 +442,7 @@ than either unstructured English or a formal language alone.
 - [AI, English is a Terrible Programming Language][ai_english_terrible]
 - [AI, How to Write a Good Spec for AI Agents][ai_good_spec]
 - [AI, My LLM Coding Workflow Going into 2026][ai_llm_workflow]
+- [AI, On the Success of Natural Language Programming][ai_brooker_nl_programming]
 - [AI, The End of Programming][ai_end_of_programming]
 - [AI, The Hottest New Programming Language Is English][ai_karpathy_tweet]
 - [Claude Code, Agent Skills Specification][cc_agent_skills]
@@ -352,7 +450,9 @@ than either unstructured English or a formal language alone.
 - [GitHub, Spec-Driven Development with AI: GitHub Spec Kit][github_spec_kit]
 - [GitHub, Spec-Driven Development: Using Markdown as a Programming Language][github_sdd_markdown]
 - [Industry, Jensen Huang: The New Programming Language Is Human][industry_huang_human]
+- [Industry, Spec-Driven Development: The Waterfall Strikes Back][industry_sdd_waterfall]
 - [Industry, Spec-Driven Development: Unpacking 2025's Key New Practices][industry_sdd_thoughtworks]
+- [Industry, Understanding Spec-Driven Development: Kiro, Spec Kit, and Tessl][industry_sdd_tools]
 - [Protocol, AGENTS.md][protocol_agents_md]
 - [Research, Does Prompt Formatting Have Any Impact on LLM Performance?][research_prompt_formatting]
 - [Research, Quote Origin: The Hottest New Programming Language Is English][research_quote_investigator]
@@ -362,6 +462,7 @@ than either unstructured English or a formal language alone.
 [ai_english_terrible]: https://www.lesswrong.com/posts/GidPzba7Qj8B5Guiw/english-is-a-terrible-programming-language-and-other-reasons
 [ai_good_spec]: https://addyosmani.com/blog/good-spec/
 [ai_llm_workflow]: https://addyosmani.com/blog/ai-coding-workflow/
+[ai_brooker_nl_programming]: https://brooker.co.za/blog/2025/12/16/natural-language.html
 [ai_end_of_programming]: https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext
 [ai_karpathy_tweet]: https://x.com/karpathy/status/1617979122625712128
 [cc_agent_skills]: https://agentskills.io
@@ -369,7 +470,9 @@ than either unstructured English or a formal language alone.
 [github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
 [github_sdd_markdown]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/
 [industry_huang_human]: https://dig.watch/updates/nvidias-huang-the-new-programming-language-is-human
+[industry_sdd_tools]: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 [industry_sdd_thoughtworks]: https://www.thoughtworks.com/en-us/insights/blog/agile-engineering-practices/spec-driven-development-unpacking-2025-new-engineering-practices
+[industry_sdd_waterfall]: https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html
 [protocol_agents_md]: https://agents.md/
 [research_prompt_formatting]: https://arxiv.org/html/2411.10541v1
 [research_quote_investigator]: https://quoteinvestigator.com/2024/10/20/hottest-program/

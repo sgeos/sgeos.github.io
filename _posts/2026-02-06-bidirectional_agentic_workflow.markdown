@@ -4,7 +4,7 @@ mathjax: false
 comments: true
 title: "Bidirectional Agentic Workflow"
 date: 2026-02-06 17:00:18 +0000
-categories: ai, ai-tools, development, developer-productivity, tutorial
+categories: ai ai-tools development developer-productivity tutorial
 ---
 
 <!-- A75 -->
