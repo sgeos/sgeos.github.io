@@ -8,29 +8,33 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Fold Research into A78 and Revise Old Drafts Review (A78-P2)
+**Name**: Release Announcement Protocol, Draft Proofs Post, Branding Assessment (A78-P3)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Remaining references folded into A78
-- [x] Revised old drafts review in `old_drafts.md`
+- [x] Knowledge graph updated with release announcement protocol
+- [x] Mathematical proofs post drafted with research fully folded into the document
+- [x] Blog branding assessment reported in REVERSE_PROMPT.md
+- [x] Candidate future post topics added to table at end of `old_drafts.md`
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A78-P2-T1 | Fold 8 additional sources into A78 | Complete | All 8 sources incorporated. References expanded from 20 to 30. New "Practitioner Strategies" section added. Empirical Evidence expanded from 4 to 6 studies. |
-| A78-P2-T2 | Revise old drafts review | Complete | `old_drafts.md` rewritten with per-draft sections, contemporary tooling assumptions, 4-tier publication assessment, and topicality analysis for stubs. |
-| A78-P2-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A78-P3-T1 | Document release announcement protocol | Complete | Added step 5 to CONTENT_WORKFLOW.md with template, URL format, hashtag guidance, and tone notes. |
+| A78-P3-T2 | Draft mathematical proofs post (A79) | Complete | `_drafts/writing-proofs.markdown` rewritten from stub. 15 references across 5 categories. Covers proof techniques, software verification, and agentic formal verification. |
+| A78-P3-T3 | Blog branding assessment and candidate topics | Complete | Branding assessment in REVERSE_PROMPT.md. 16 candidate topics added to `old_drafts.md`. |
+| A78-P3-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A78 now has 30 references across 8 categories: Anthropic (4), Blog (5), Claude Code (1), Industry (10), Protocol (1), Research (6), Standard (2), Tool (1).
-- New sections added: Practitioner Strategies (LangChain taxonomy, Frequent Intentional Compaction, Context as Screenplay, Manus production lessons), Adoption in Open Source, Multi-Agent Context.
-- Expanded sections: From Prompt Engineering (Willison, Karpathy OS metaphor, Lutke), Configuration Files (VS Code guide, Cursor evolution), MCP (full adoption timeline).
-- Old drafts review revised with contemporary tooling assumptions and 4-tier classification: Tier 1 (Solana sBPF, statistics), Tier 2 (CLMM, half-life coin, space studies, MTG/Rust), Tier 3 (Android/FreeBSD pair), Tier 4 (Android testing, Phoenix/Guardian, two stubs).
+- A79 assigned to "Writing Proofs" draft. Categories: math development ai. Date: 2026-02-09.
+- A79 covers 5 main topics: what proofs are, how they are written (direct, contradiction, contrapositive, induction, constructive), why proofs matter, why proofs matter to software engineers (Hoare logic, loop invariants, Curry-Howard, TLA+, CompCert, Lean, seL4, smart contracts), why proofs matter in the age of agentic workflows (AlphaProof, Hilbert, APOLLO, Safe, VeriBench, specification bottleneck).
+- Release announcement protocol documented in CONTENT_WORKFLOW.md as step 5 of the publishing pipeline.
+- Blog brand identified as a technical practitioner's journal at the intersection of systems programming, applied mathematics, and AI-assisted development.
+- 16 candidate future post topics organized by thematic cluster.
 
 ## History
 
@@ -54,3 +58,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A77-P3: A77 published with 2026-02-07 date. |
 | 2026-02-08 | A78-P1: "The State of Context Engineering in Early 2026" drafted. Old drafts reviewed. |
 | 2026-02-08 | A78-P2: 8 additional sources folded into A78 (30 references). Old drafts review revised with contemporary tooling assumptions. |
+| 2026-02-08 | A78-P3: Release announcement protocol documented. A79 "Writing Proofs" drafted (15 references). Blog branding assessed. 16 candidate topics added. |
