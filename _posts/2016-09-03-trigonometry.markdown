@@ -11,8 +11,8 @@ categories: math trigonometry
 
 A list of trigonometric formulae and tables.
 
-![image of arc length]({{ site.url }}/assets/trig_diagrams_002.png)
-![image of circumference]({{ site.url }}/assets/trig_diagrams_001.png)
+![image of arc length]({{ site.url }}/assets/post_trigonometry/trig_diagrams_002.png)
+![image of circumference]({{ site.url }}/assets/post_trigonometry/trig_diagrams_001.png)
 
 Trigonometric functions in polar coordinate form- radius $\rho$, azimuth $\phi$.
 Hypotenuse is $\rho$, adjacent is x and opposite is y.
@@ -26,7 +26,7 @@ $$
 \end{align}
 $$
 
-![image of sin and cos]({{ site.url }}/assets/trig_diagrams_003.png)
+![image of sin and cos]({{ site.url }}/assets/post_trigonometry/trig_diagrams_003.png)
 
 $\sin \phi$ and $\cos \phi$ get the $y$ and $x$ components of $\rho$.
 
@@ -37,7 +37,7 @@ $$
 \end{align}
 $$
 
-![image of sec and tan]({{ site.url }}/assets/trig_diagrams_004.png)
+![image of sec and tan]({{ site.url }}/assets/post_trigonometry/trig_diagrams_004.png)
 
 $\tan \phi$ and $\sec \phi$ get $y$ and $\rho$ from $x$.
 
@@ -48,7 +48,7 @@ $$
 \end{align}
 $$
 
-![image of csc and cot]({{ site.url }}/assets/trig_diagrams_005.png)
+![image of csc and cot]({{ site.url }}/assets/post_trigonometry/trig_diagrams_005.png)
 
 $\cot \phi$ and $\csc \phi$ get $x$ and $\rho$ from $y$.
 
@@ -285,8 +285,8 @@ $$
 
 Triangulation.
 
-![image of triangulation]({{ site.url }}/assets/trig_diagrams_006.png)
-![image of triangualtion with obtuse angle]({{ site.url }}/assets/trig_diagrams_007.png)
+![image of triangulation]({{ site.url }}/assets/post_trigonometry/trig_diagrams_006.png)
+![image of triangualtion with obtuse angle]({{ site.url }}/assets/post_trigonometry/trig_diagrams_007.png)
 
 Angles from two locations- $\phi$, $\theta$.
 Baseline distance between locations- $\rho$.

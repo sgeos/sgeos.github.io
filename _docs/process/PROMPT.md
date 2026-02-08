@@ -10,19 +10,27 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-`CLAUDE.md` is listed in the header of the live blog but not the preview.
-This is a problem I want resolved.
+`assets` contains some random disorganized files.
+I want them moved to proper subdirectories, and I want the articles that reference these files patched.
+`assets/wasm` is already organized.
+
+Each `assets` file is probably only referenced in one post.
+The files were probably added with the posts, so there might be a `git` trick to figure out the right posts.
+Posts may be published or in drafts.
+
+I think the images may be for a trigonometry post.
+One of the PDFs may be related to an Elixir meetup I wrote a post for.
 
 ## Objectives
 
-### Fix Header
+### Organize Files and Patch Posts
 
-Attempt fix and report speculative analysis.
+Move random disorganized `assets` files into proper subdirectories.
+Patch posts that reference these files to point to the new location.
 
 ## Context
 
-Header is not right after integrating Claude Code into the repo.
-Timing is unclear.
+Housekeeping.
 
 ## Constraints
 
@@ -30,8 +38,9 @@ Timing is unclear.
 
 ## Success Criteria
 
-- `CLAUDE.md` no longer linked in header on live blog.
+- `assets` organized.
+- Relevant posts patched so they do not break.
 
 ## Notes
 
-I will push the commit and verify manually.
+Please report on the specific patched posts in your reverse prompt.

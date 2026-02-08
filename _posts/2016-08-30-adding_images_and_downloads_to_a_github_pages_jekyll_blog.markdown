@@ -42,18 +42,18 @@ cp path/to/image.png ./assets/
 The image can be displayed as follows.
 
 {% highlight liquid %}
-{% raw %}![useful image]({{ site.url }}/assets/image.png){% endraw %}
+{% raw %}![useful image]({{ site.url }}/assets/post_adding_images_and_downloads_to_a_github_pages_jekyll_blog/image.png){% endraw %}
 {% endhighlight %}
 
-![useful image]({{ site.url }}/assets/image.png)
+![useful image]({{ site.url }}/assets/post_adding_images_and_downloads_to_a_github_pages_jekyll_blog/image.png)
 
 Note that downloads can be made available with the same strategy.
 
 {% highlight liquid %}
-You can download the PDF {% raw %}[here]({{ site.url }}/assets/document.pdf){% endraw %}.
+You can download the PDF {% raw %}[here]({{ site.url }}/assets/post_adding_images_and_downloads_to_a_github_pages_jekyll_blog/document.pdf){% endraw %}.
 {% endhighlight %}
 
-You can download the PDF [here]({{ site.url }}/assets/document.pdf).
+You can download the PDF [here]({{ site.url }}/assets/post_adding_images_and_downloads_to_a_github_pages_jekyll_blog/document.pdf).
 
 ## References:
 
