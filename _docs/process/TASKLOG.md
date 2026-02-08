@@ -8,30 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft LLM Knowledge Graphs Post (A77-P1)
+**Name**: Polish LLM Knowledge Graphs Post (A77-P2)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] Post drafted
-- [x] Research folded into post, future reading, and references sections
+- [x] Article number comment updated to A77
+- [x] `DOCUMENTATION_STRATEGY.md` inlined with appropriate surrounding prose
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A77-P1-T1 | Research LLM knowledge graphs | Complete | Two research agents completed. 30+ sources gathered across academic papers, industry blogs, official documentation, and standards. |
-| A77-P1-T2 | Draft A77 post | Complete | `_drafts/llm_knowledge_graphs.markdown` created. 20 references across 8 categories. 5 future reading entries. Worked example using `_docs/` directory. |
-| A77-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A77-P2-T1 | Update article number comment | Complete | Changed `<!-- Axxx -->` to `<!-- A77 -->` on line 10. |
+| A77-P2-T2 | Inline DOCUMENTATION_STRATEGY.md | Complete | Full file body inlined in a quadruple-backtick markdown code block in the "A Worked Example" section. Surrounding prose introduces the file and notes that readers should adapt the strategy for their own project. |
+| A77-P2-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Article uses this project's `_docs/` directory as a worked example of an LLM knowledge graph.
-- Cross-links to A75 and A76 via `{% post_url %}` tags.
-- 20 references across 8 categories: Anthropic, Blog, Claude Code, Industry, Protocol, Research, Standard, Tool.
-- Three peer-reviewed empirical studies cited (arXiv:2509.14744, arXiv:2511.12884, arXiv:2511.09268) plus a January 2026 efficiency study (arXiv:2601.20404).
-- Key concepts: context engineering, progressive disclosure, context debt, graph traversal, atomic decomposition.
+- DOCUMENTATION_STRATEGY.md inlined after the reference on line 173, before the detailed discussion of the three structural principles.
+- Used quadruple backticks (````) to fence the code block, since the file itself contains a triple-backtick code block for the directory structure.
+- Transition prose bridges from the inline to the existing principle-by-principle discussion.
 
 ## History
 
@@ -51,3 +49,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A0-P5: Organized assets into post-specific subdirectories. Patched 2 posts. |
 | 2026-02-07 | A0-P6: Reorganized assets by type then post slug. Patched 2 posts. |
 | 2026-02-07 | A77-P1: "LLM Knowledge Graphs" drafted with 20 references. |
+| 2026-02-07 | A77-P2: Article number comment updated. DOCUMENTATION_STRATEGY.md inlined. |
