@@ -466,7 +466,7 @@ than either unstructured English or a formal language alone.
 [ai_brooker_nl_programming]: https://brooker.co.za/blog/2025/12/16/natural-language.html
 [ai_end_of_programming]: https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext
 [ai_karpathy_tweet]: https://x.com/karpathy/status/1617979122625712128
-[blog_bidirectional]: https://sgeos.github.io/ai/ai-tools/development/developer-productivity/tutorial/2026/02/06/bidirectional_agentic_workflow.html
+[blog_bidirectional]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [cc_agent_skills]: https://agentskills.io
 [cc_best_practices]: https://code.claude.com/docs/en/best-practices
 [github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
