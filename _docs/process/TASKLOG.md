@@ -8,26 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Fix Header (A0-P4)
+**Name**: Organize Assets (A0-P5)
 **Status**: Complete
 **Started**: 2026-02-07
 
 ## Success Criteria
 
-- [x] `CLAUDE.md` no longer linked in header on live blog
+- [x] `assets` organized
+- [x] Relevant posts patched so they do not break
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P4-T1 | Exclude CLAUDE.md from Jekyll | Complete | Added `exclude: [CLAUDE.md]` to `_config.yml`. |
-| A0-P4-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A0-P5-T1 | Move trig diagrams and patch post | Complete | 7 PNGs moved to `assets/post_trigonometry/`. 7 references patched in `2016-09-03-trigonometry.markdown`. |
+| A0-P5-T2 | Move example assets and patch post | Complete | `image.png` and `document.pdf` moved to `assets/post_adding_images_and_downloads_to_a_github_pages_jekyll_blog/`. 4 references patched (2 rendered + 2 raw example blocks). |
+| A0-P5-T3 | Move tokyo_ex presentation | Complete | `tokyo_ex_6_sechter.pdf` moved to `assets/presentations/`. Not referenced by any post. |
+| A0-P5-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Root cause: GitHub Pages includes `jekyll-optional-front-matter` plugin by default. This plugin processes `.md` files without YAML front matter as Jekyll pages, extracting the title from the first `#` heading. Local Jekyll does not include this plugin, which explains the preview vs. live divergence.
-- The `exclude` directive in `_config.yml` tells Jekyll to skip the file entirely during site generation.
-- Human will push and verify manually per PROMPT.md notes.
+- Subdirectory naming follows the `assets/wasm/post_<slug>/` convention already established.
+- `tokyo_ex_6_sechter.pdf` has no post reference. Committed 2016-09-22 as standalone presentation slides.
+- All old-path references confirmed absent via grep.
 
 ## History
 
@@ -44,3 +47,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-07 | A76-P3: Replaced A75 internal code with linked reference to previous article. |
 | 2026-02-07 | A76-P4: Fixed post_url syntax. A76 published with 2026-02-08 date. |
 | 2026-02-07 | A0-P4: Excluded CLAUDE.md from Jekyll to fix header navigation. |
+| 2026-02-07 | A0-P5: Organized assets into post-specific subdirectories. Patched 2 posts. |
