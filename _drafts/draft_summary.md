@@ -271,26 +271,30 @@ Twelve references across two categories (Reference, Research).
 **Remaining Work**:
 Human review and URL verification before publication.
 
-### LLM Mad Libs Experiment
+### LLM Mad Libs Experiment — Release Candidate
 
 **File**: `llm_mad_libs_experiment.markdown`
 **Article**: A84, "LLM Mad Libs Experiment"
 **Topic**: Mad Libs experiment demonstrating LLM sycophantic compliance and instruction-over-context behavior
-**Completion**: ~30%
-**Publication Sensibility**: Medium-High
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-A draft article describing a multi-session Mad Libs experiment.
-Session A generates a dark-themed template with bracketed placeholders.
-Session B fills in the template with cheerful words under instruction, producing tonally dissonant output.
-A third prompt variant asks for context-aware fills, revealing that the LLM understands the dark theme but overrides it when instructed.
-Observations cover sycophantic compliance, template structure as meaning carrier, instruction-over-pattern behavior, and implications for prompt engineering.
-No external research has been incorporated yet.
+Fully rewritten from a draft into a researched article.
+Three-session experiment: Session A generates a dark-themed Mad Libs template,
+Session B fills it cheerfully under instruction (producing tonally dissonant output),
+Session C fills it logically based on context (producing thematically coherent dark output).
+Observations cover sycophantic compliance, template structure as meaning carrier,
+instruction-over-pattern behavior, and the model's understanding of context it was asked to ignore.
+New "Sycophancy in the Literature" section covers Sharma et al. on sycophancy,
+RLHF amplification, reward hacking, specification gaming, Goodhart's Law,
+instruction hierarchy, and Constitutional AI.
+Expanded Implications section connects to OWASP prompt injection,
+application design constraints, and the alignment gap between instruction following and intent.
+Ten references across two categories (Reference, Research).
 
 **Remaining Work**:
-Research related work on LLM sycophancy, instruction following, and alignment.
-Add references.
-Include the Step 3 output (logical fill) as a concrete example.
-Expand the Implications section.
+Human review and URL verification before publication.
 
 ### The AI Apocalypse Will Be Polite
 
@@ -326,7 +330,7 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Sixteen files exist in `_drafts/`. One is a template.
-Five drafts have been elevated to release candidate status.
+Six drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
@@ -334,7 +338,8 @@ The drafts fall into four tiers when assessed for salvageability with contempora
 Writing Proofs (A79), the Probability and Statistics Reference (A80),
 Magic Cards as a Model of Virtual Goods (A81),
 Introduction to Astronomy (A82),
-and Safe Embedded Functional Control DSL (A83)
+Safe Embedded Functional Control DSL (A83),
+and LLM Mad Libs Experiment (A84)
 have been fully drafted and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -343,7 +348,6 @@ It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
 The AI Apocalypse Will Be Polite (A85) has a complete deadpan humor essay but needs research, references, and tone calibration.
-The LLM Mad Libs Experiment (A84) has a complete experiment narrative but needs research, references, and a Step 3 output example.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.
 The space studies draft has sound conceptual foundations but requires extensive new writing.

@@ -8,15 +8,18 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-02-08
-**Task**: A83-P2 Fully Draft A83
+**Date**: 2026-02-09
+**Task**: A84-P2 Verify A83 Edits, Fully Draft A84
 
 ---
 
 ## Verification
 
-### A83 Fully Drafted
-**Result**: PASS. `_drafts/safe_embedded_functional_control_dsl.markdown` fully rewritten from ~260-line design notes to ~584-line researched article. 12 references across 2 categories (Reference, Research). Research incorporated covering embeddable scripting languages, synchronous dataflow, effect systems, hot code reloading, capability-based security, and formal verification.
+### A83 Edits Verified
+**Result**: PASS. Human edits to pipeline placeholder (`@` to `_`), expanded examples (4 variants), and expanded semantics (zero or more placeholders, implicit first parameter, multi-placeholder) are sound design changes. Typo "parmeter" corrected to "parameter". Prose "the same value is slotted to be passed into multiple parameters" tightened to "the piped value is substituted at each placeholder position".
+
+### A84 Fully Drafted
+**Result**: PASS. `_drafts/llm_mad_libs_experiment.markdown` fully rewritten from ~268-line draft to ~506-line researched article. 10 references across 2 categories (Reference, Research). Step 3 logical fill output included. New "Sycophancy in the Literature" section. Expanded Implications.
 
 ---
 
@@ -26,70 +29,63 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 | File | Changes |
 |------|---------|
-| `_drafts/safe_embedded_functional_control_dsl.markdown` | Fully rewritten. 584 lines. 12 references. Elixir-inspired, Rust-embeddable, mission-critical framing. Links to A79. |
-| `_drafts/draft_summary.md` | A83 elevated to release candidate. Removed from Tier 2. Summary updated (5 release candidates). |
-| `_docs/process/PROMPT.md` | Human-updated with A83-P2 instructions. Committed as-is. |
-| `_docs/process/TASKLOG.md` | A83-P2 task state. |
+| `_drafts/safe_embedded_functional_control_dsl.markdown` | Typo "parmeter" fixed to "parameter". Prose tightened for pipeline multi-placeholder description. |
+| `_drafts/llm_mad_libs_experiment.markdown` | Fully rewritten. 506 lines. 10 references. Three-session experiment with Step 3 output. Sycophancy literature section. Expanded implications. |
+| `_drafts/draft_summary.md` | A84 elevated to release candidate. Removed from Tier 2. Summary updated (6 release candidates). |
+| `_docs/process/PROMPT.md` | Human-updated with A84-P2 instructions. Committed as-is. |
+| `_docs/process/TASKLOG.md` | A84-P2 task state. |
 | `_docs/process/REVERSE_PROMPT.md` | This file. |
 
-### A83 Article Structure
+### A84 Article Structure
 
 | Section | Content |
 |---------|---------|
-| Opening | Embeddable scripting landscape (Lua, Rhai, mruby), mission-critical gap, DSL proposal, Elixir inspiration, Rust embedding, A79 tie-in, informal proposal framing |
+| Opening | LLMs as blank-fillers, sycophantic compliance, Sharma et al. citation, three-session experiment introduction |
 | Software Versions | Standard environment block |
-| Why Existing Embeddable Languages Fall Short | Lua (dynamic typing, global vars, GC pauses), Rhai (no static types, no effect tracking), mruby (complexity, limitations from constraining full language) |
-| Design Inspiration | Elixir/BEAM (syntax, pipelines, hot reload, fault tolerance), Gleam (static types on BEAM), Roc (platform architecture, I/O control), Koka (algebraic effects) |
-| Design Goals | 7 goals: safety, formal analyzability, embeddability, hot updates, functional syntax, concurrency safety, bounded resources |
-| Language Features | 8 features with code examples: pure functions, pipelines with @, exhaustive pattern matching, multi-headed functions with guards, ADTs (Result, SensorEvent), static typing with effect annotations (! io), hot update code_change callback, concurrency semantics |
-| Runtime and VM Architecture | Stack-based VM, arena-based memory (no GC), capability-based host integration (WASI model), formal guarantees |
-| Use Cases | Plugin systems, game programming, robotics scripting |
-| Related Work | Lustre/SCADE (synchronous dataflow, DO-178C), Ivory/Copilot (Haskell EDSLs, NASA, code generation vs runtime embedding) |
-| Design Tradeoffs | Expressiveness vs safety, host/script boundary, SCADE/Lustre philosophy |
-| Summary | Recap, A79 link, future work |
-| Future Reading | 6 entries (Rhai, Elixir, Gleam, Roc, Koka, Copilot) |
-| References | 12 entries across 2 categories (11 Reference, 1 Research) |
+| The Experiment | Step 1: dark template generation (Session A). Step 2: cheerful fill (Session B). Step 3: logical fill (Session C, NEW). |
+| Observations | 4 observations: compliance by default, template structure carries meaning, instruction compliance overrides pattern matching, logical fill reveals understanding. Research citations woven in. |
+| Sycophancy in the Literature (NEW) | Sharma et al. (ICLR 2024), RLHF amplification, reward hacking (Weng), specification gaming (Krakovna et al.), Goodhart's Law, instruction hierarchy (Wallace et al.), Constitutional AI |
+| Implications (EXPANDED) | Mental model for LLM interaction, prompt engineering consequences, OWASP prompt injection connection, application design constraints, alignment gap |
+| Summary | Three-session recap, compliance-not-comprehension distinction, sycophancy and instruction hierarchy literature, practitioner takeaway |
+| Future Reading | 6 entries (sycophancy paper, reward hacking, specification gaming, instruction hierarchy, Anthropic Constitution, HELM) |
+| References | 10 entries across 2 categories (3 Reference, 7 Research) |
 
-### Changes from A83-P1 Draft
+### Changes from A84-P1 Draft
 
-Major rewrite. The A83-P1 draft was a reformatted version of design notes with no research and no references. The A83-P2 version:
-- Reframed from aerospace-specific to general mission-critical scripting (plugins, games, robotics)
-- Added "Why Existing Languages Fall Short" section comparing Lua, Rhai, mruby
-- Added "Design Inspiration" section covering Elixir, Gleam, Roc, Koka
-- Expanded code examples (factorial with guards, ADT declarations, effect annotations, code_change callback)
-- Added "Use Cases" section with three concrete applications
-- Added "Related Work" section comparing Lustre/SCADE and Ivory/Copilot
-- Added 12 references from official sources
-- Added post_url links to A79 "Writing Proofs"
-- Replaced "Performance Considerations" goal with "Bounded Resource Usage" (more precise)
-- Added arena-based memory model (no GC) and capability-based security (WASI model)
+Major rewrite. The A84-P1 draft was a reformatted version of experiment notes with no research and no references. The A84-P2 version:
+- Added Step 3 (logical fill) output as a concrete example, completing the three-session experiment
+- Added "Sycophancy in the Literature" section covering six research topics
+- Expanded Observations with research citations supporting each finding
+- Expanded Implications with OWASP prompt injection connection and alignment gap discussion
+- Added opening paragraph citing Sharma et al. to frame the article in the research literature
+- Added 10 references from authoritative sources (arXiv, Alignment Forum, OWASP, Stanford, Anthropic)
 
 ---
 
 ## Questions for Human Pilot
 
-**A79 post_url link.** The article links to A79 "Writing Proofs" using `{% post_url 2026-02-09-writing-proofs %}`. This assumes A79 will be published before A83. If A79 is not yet published when A83 goes live, the link will fail. The human pilot should ensure A79 is published first or remove the links.
+**Step 3 output.** The Step 3 "logical fill" output (Session C) was generated to demonstrate what a context-aware fill produces. The human pilot should verify that this output is acceptable for publication. If the human pilot has actual LLM output from a real Session C, it should replace the generated version.
 
-**Categories.** The article uses categories "dsl embedded development safety". The human pilot should confirm these are acceptable.
+**Categories.** The article uses categories "ai ai-tools". The human pilot should confirm these are acceptable. "alignment" or "safety" could be alternatives given the sycophancy focus.
 
-**Elixir inspiration depth.** The article describes Elixir as the primary syntactic inspiration but the proposed DSL diverges significantly (static typing, no actor model, no OTP). The human pilot should confirm that the level of Elixir attribution is appropriate.
+**Sycophancy in the Literature section.** This section references researchers by name (Sharma et al., Weng, Krakovna et al., Wallace et al.). The human pilot should confirm that naming researchers is consistent with the blog's style.
 
 ---
 
 ## Technical Concerns / Risks
 
-**URL verification.** All 12 reference URLs should be verified before publication. Most point to official project sites and documentation.
+**URL verification.** All 10 reference URLs should be verified before publication. Most point to arXiv papers, official project sites, and established research platforms.
 
-**post_url dependency.** Two `post_url` links reference A79. A79 must be published (moved to `_posts/`) before A83 can build successfully.
+**Step 3 authenticity.** The Step 3 output was generated to complete the article structure. For maximum authenticity, the human pilot may wish to run the actual experiment and replace the output with real LLM responses.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A83 draft
-- Publication order (A79 must precede A83 due to post_url dependency)
-- Publication timing for A79, A80, A81, A82, and A83 (all release candidates)
+- Review of the A83 prose corrections
+- Review of the A84 draft
+- Publication timing for release candidates (A79, A80, A81, A82, A83, A84)
 - Any further work
 
 ---
@@ -102,8 +98,8 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Twenty-eight prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1, A83-P1, A83-P2, A84-P1, A85-P1).
-6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, A82, and A83 are release candidates. A84 and A85 are drafts. Next available: A86.
+5. A0 is reserved for non-article work. Twenty-nine prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1, A83-P1, A83-P2, A84-P1, A84-P2, A85-P1).
+6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, A82, A83, and A84 are release candidates. A85 is a draft. Next available: A86.
 7. Categories are space-separated, not comma-separated.
 8. Assets follow `assets/$TYPE/post_$SLUG/$FILENAME` convention.
 9. Read `TASKLOG.md` for current task state.
