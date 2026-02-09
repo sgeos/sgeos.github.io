@@ -10,18 +10,17 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Updated `about.md`.
+Time to publish A78.
 
 ## Objectives
 
 ### Verify about.md
 
-Make sure the new `about.md` is on brand, and comment in your reverse prompt.
-Commit updated `about.md` along with everything else.
+Please publish A78 with a date of 2026-02-09.
 
 ## Context
 
-Blog branding pass.
+Time to publish A78.
 
 ## Constraints
 
@@ -29,7 +28,7 @@ Blog branding pass.
 
 ## Success Criteria
 
-- `about.md` analyzed with comments in reverse prompt and committed to repo.
+- A78 published with a date of 2026-02-09.
 
 ## Notes
 
