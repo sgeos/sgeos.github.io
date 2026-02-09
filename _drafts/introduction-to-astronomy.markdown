@@ -301,7 +301,7 @@ a consequence of its rapid rotation
 
 ### Moons of Saturn
 
-Saturn has over 140 confirmed moons,
+Saturn has over 270 confirmed moons,
 the most of any planet in the solar system.
 
 **Titan** is Saturn's largest moon
