@@ -8,33 +8,34 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Magic Cards Article, Commit A78 Date Fix (A81-P1)
+**Name**: Draft Introduction to Astronomy (A82-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] A78 committed for publication
-- [x] MTG virtual goods article drafted with research folded in, references, and citations
+- [x] Introduction to Astronomy article drafted with research folded in, references, and citations
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A81-P1-T1 | Commit A78 date fix | Complete | A78 timestamp adjusted by human pilot from 16:14:33 to 01:14:33 to avoid future-dating. Committed as `9ef2c77`. |
-| A81-P1-T2 | Draft Magic Cards as a Model of Virtual Goods (A81) | Complete | `_drafts/magic_cards_as_a_model_of_virtual_goods.markdown` rewritten from stub to full article. 9 references across 5 categories. Covers card anatomy, virtual goods economics, and analysis. Links to A66. |
-| A81-P1-T3 | Update old_drafts.md | Complete | Magic Cards draft elevated to release candidate. Summary updated. |
-| A81-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A82-P1-T1 | Draft Introduction to Astronomy (A82) | Complete | `_drafts/introduction-to-astronomy.markdown` rewritten from empty stub to full 925-line article. 8 references from official sources (NASA, ESA, IAU, OpenStax, Hubble). Covers solar system from Sun outward, galactic and intergalactic features, qualitative concepts, and 8 mathematical formulas with MathJax. |
+| A82-P1-T2 | Update old_drafts.md | Complete | Introduction to Astronomy elevated to release candidate. Removed from Tier 4. Summary updated (4 release candidates). |
+| A82-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A81 assigned to "Magic Cards as a Model of Virtual Goods". Categories: mtg gamedev economics. Date: 2026-02-11.
-- Original stub was ~42 lines with placeholder sections and no content.
-- A81 covers: card anatomy (name, mana cost, art, type line, set symbol, rules text, power/toughness, collector information, flavor text), virtual goods economics (near-zero marginal cost, R&D cost structure, designed scarcity, chase vs bulk, RMT), and five analytical observations.
-- Links to A66 "Metagaming as a Framework for Real-Life Strategy" as a companion article covering chase cards, bulk cards, and meta dynamics.
-- Rust data structures were removed from scope. The original stub proposed Rust implementations, but the economics focus proved more coherent as a standalone article.
-- Categories changed from "mtg gamedev rust" to "mtg gamedev economics" to reflect the revised scope.
-- Research agent (a0bbf04) provided sources on MTG design philosophy, virtual goods economics, card footer anatomy, and RMT.
+- A82 assigned to "Introduction to Astronomy". Categories: space astronomy science. Date: 2026-02-12.
+- Original stub was ~32 lines with no content beyond placeholder text.
+- Article structure follows Sun-outward pedagogy as specified in PROMPT.md.
+- Solar system coverage: Sun, Mercury, Venus, Earth (Moon), Mars (Phobos, Deimos), Asteroid Belt (Ceres, Vesta, Pallas, Hygiea), Jupiter (95+ moons, 4 Galilean), Saturn (140+ moons, Titan, Enceladus, and others), Uranus (28 moons, 5 major), Neptune (16 moons, Triton), Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), Oort Cloud.
+- Galactic features: Milky Way, nebulae (emission, reflection, planetary, dark), star clusters (open, globular), black holes (stellar, supermassive).
+- Intergalactic features: galaxy types (spiral, elliptical, irregular), Local Group, clusters, superclusters, observable universe.
+- Qualitative concepts: electromagnetic spectrum, Hertzsprung-Russell diagram, stellar evolution, cosmic distance ladder, light as a time machine.
+- Mathematical formulas: Kepler's three laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's displacement, Doppler/redshift, parallax, magnitude system.
+- Research agent (a3fffa4) provided data on moon counts, asteroid belt, parallax formula, and ESA sources.
+- The Introduction to Space Studies draft was read for context and kept separate. That draft covers orbital parameters and engineering formulas (thrust, wavelength-frequency) while the astronomy article covers qualitative survey and introductory astronomy formulas.
 
 ## History
 
@@ -63,3 +64,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A0-P7: About page verified as on brand. Committed with branding analysis in REVERSE_PROMPT.md. |
 | 2026-02-08 | A78-P4: A78 published with 2026-02-09 date. Timestamp adjusted to avoid future-dating. |
 | 2026-02-08 | A81-P1: A81 "Magic Cards as a Model of Virtual Goods" drafted (9 references). A78 date fix committed. |
+| 2026-02-08 | A82-P1: A82 "Introduction to Astronomy" drafted (8 references). Elevated to release candidate. |
