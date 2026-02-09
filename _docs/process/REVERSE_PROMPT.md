@@ -45,7 +45,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 | Mars | Iron oxide surface, Olympus Mons, Valles Marineris, polar ice caps, Phobos and Deimos |
 | Asteroid Belt | 1.1 million+ catalogued, Ceres (dwarf planet), Vesta, Pallas, Hygiea with mass/diameter data |
 | Jupiter | Gas giant, Great Red Spot, magnetosphere, 95+ moons, Galilean moons (Io, Europa, Ganymede, Callisto) |
-| Saturn | Ring system, lowest density, hexagonal polar vortex, 140+ moons, Titan (atmosphere/methane lakes), Enceladus (subsurface ocean) |
+| Saturn | Ring system, lowest density, hexagonal polar vortex, 270+ moons, Titan (atmosphere/methane lakes), Enceladus (subsurface ocean) |
 | Uranus | Axial tilt 98 degrees, ice giant, 13 rings, 28 moons, 5 major moons (Miranda, Ariel, Umbriel, Titania, Oberon) |
 | Neptune | Strongest winds, Great Dark Spot, 16 moons, Triton (retrograde orbit, nitrogen geysers) |
 | Kuiper Belt | 30-50 AU, Pluto and Charon (binary system), Eris, Makemake, Haumea |

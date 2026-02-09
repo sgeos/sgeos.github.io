@@ -29,7 +29,7 @@ Current task state and verification log. This file is the shared source of truth
 - A82 assigned to "Introduction to Astronomy". Categories: space astronomy science. Date: 2026-02-12.
 - Original stub was ~32 lines with no content beyond placeholder text.
 - Article structure follows Sun-outward pedagogy as specified in PROMPT.md.
-- Solar system coverage: Sun, Mercury, Venus, Earth (Moon), Mars (Phobos, Deimos), Asteroid Belt (Ceres, Vesta, Pallas, Hygiea), Jupiter (95+ moons, 4 Galilean), Saturn (140+ moons, Titan, Enceladus, and others), Uranus (28 moons, 5 major), Neptune (16 moons, Triton), Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), Oort Cloud.
+- Solar system coverage: Sun, Mercury, Venus, Earth (Moon), Mars (Phobos, Deimos), Asteroid Belt (Ceres, Vesta, Pallas, Hygiea), Jupiter (95+ moons, 4 Galilean), Saturn (270+ moons, Titan, Enceladus, and others), Uranus (28 moons, 5 major), Neptune (16 moons, Triton), Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), Oort Cloud.
 - Galactic features: Milky Way, nebulae (emission, reflection, planetary, dark), star clusters (open, globular), black holes (stellar, supermassive).
 - Intergalactic features: galaxy types (spiral, elliptical, irregular), Local Group, clusters, superclusters, observable universe.
 - Qualitative concepts: electromagnetic spectrum, Hertzsprung-Russell diagram, stellar evolution, cosmic distance ladder, light as a time machine.
