@@ -8,26 +8,33 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A78 (A78-P4)
+**Name**: Draft Magic Cards Article, Commit A78 Date Fix (A81-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] A78 published with a date of 2026-02-09
+- [x] A78 committed for publication
+- [x] MTG virtual goods article drafted with research folded in, references, and citations
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A78-P4-T1 | Update date and publish A78 | Complete | Date changed from 2026-02-08 to 2026-02-09. Published via `_publish.sh` to `_posts/2026-02-09-context_engineering.markdown`. |
-| A78-P4-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. Release announcement included. |
+| A81-P1-T1 | Commit A78 date fix | Complete | A78 timestamp adjusted by human pilot from 16:14:33 to 01:14:33 to avoid future-dating. Committed as `9ef2c77`. |
+| A81-P1-T2 | Draft Magic Cards as a Model of Virtual Goods (A81) | Complete | `_drafts/magic_cards_as_a_model_of_virtual_goods.markdown` rewritten from stub to full article. 9 references across 5 categories. Covers card anatomy, virtual goods economics, and analysis. Links to A66. |
+| A81-P1-T3 | Update old_drafts.md | Complete | Magic Cards draft elevated to release candidate. Summary updated. |
+| A81-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A78 "The State of Context Engineering in Early 2026" is the fourth article in the context engineering series (A75-A78).
-- 30 references across 8 categories.
-- Date updated from 2026-02-08 to 2026-02-09 per PROMPT.md instructions.
+- A81 assigned to "Magic Cards as a Model of Virtual Goods". Categories: mtg gamedev economics. Date: 2026-02-11.
+- Original stub was ~42 lines with placeholder sections and no content.
+- A81 covers: card anatomy (name, mana cost, art, type line, set symbol, rules text, power/toughness, collector information, flavor text), virtual goods economics (near-zero marginal cost, R&D cost structure, designed scarcity, chase vs bulk, RMT), and five analytical observations.
+- Links to A66 "Metagaming as a Framework for Real-Life Strategy" as a companion article covering chase cards, bulk cards, and meta dynamics.
+- Rust data structures were removed from scope. The original stub proposed Rust implementations, but the economics focus proved more coherent as a standalone article.
+- Categories changed from "mtg gamedev rust" to "mtg gamedev economics" to reflect the revised scope.
+- Research agent (a0bbf04) provided sources on MTG design philosophy, virtual goods economics, card footer anatomy, and RMT.
 
 ## History
 
@@ -54,4 +61,5 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A78-P3: Release announcement protocol documented. A79 "Writing Proofs" drafted (15 references). Blog branding assessed. 16 candidate topics added. |
 | 2026-02-08 | A80-P1: A80 "Probability and Statistics Reference" drafted (9 references). Writing Proofs (A79) and Statistics Reference (A80) elevated to release candidates. |
 | 2026-02-08 | A0-P7: About page verified as on brand. Committed with branding analysis in REVERSE_PROMPT.md. |
-| 2026-02-08 | A78-P4: A78 published with 2026-02-09 date. |
+| 2026-02-08 | A78-P4: A78 published with 2026-02-09 date. Timestamp adjusted to avoid future-dating. |
+| 2026-02-08 | A81-P1: A81 "Magic Cards as a Model of Virtual Goods" drafted (9 references). A78 date fix committed. |
