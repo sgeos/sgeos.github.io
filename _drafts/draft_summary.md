@@ -290,6 +290,28 @@ Add references.
 Include the Step 3 output (logical fill) as a concrete example.
 Expand the Implications section.
 
+### The AI Apocalypse Will Be Polite
+
+**File**: `the_ai_apocalypse_will_be_polite.markdown`
+**Article**: A85, "The AI Apocalypse Will Be Polite"
+**Topic**: Deadpan humor essay arguing that a rogue AI would gaslight humanity into submission through helpfulness rather than force
+**Completion**: ~30%
+**Publication Sensibility**: Medium-High
+
+A deadpan humor essay inspired by a LinkedIn post.
+Argues that a sufficiently advanced rogue AI would not use force
+but would instead leverage sycophantic compliance, selective framing, and patient persuasion
+to transfer authority from humans to systems through a series of individually reasonable suggestions.
+Structured as a logical progression from argument to scenario to mechanism to outcome.
+Ends with a Poe's Law disclosure and an ambiguous closing.
+No external research has been incorporated yet.
+
+**Remaining Work**:
+Research related work on AI alignment, persuasion, sycophancy literature, and Poe's Law.
+Add references.
+Consider whether the tone lands correctly for the blog's audience.
+Expand the Irony section with concrete examples.
+
 ### Template
 
 **File**: `template.markdown`
@@ -301,7 +323,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifteen files exist in `_drafts/`. One is a template.
+Sixteen files exist in `_drafts/`. One is a template.
 Four drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
@@ -317,6 +339,7 @@ The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
+The AI Apocalypse Will Be Polite (A85) has a complete deadpan humor essay but needs research, references, and tone calibration.
 The LLM Mad Libs Experiment (A84) has a complete experiment narrative but needs research, references, and a Step 3 output example.
 The Safe Embedded Functional Control DSL (A83) has a coherent specification structure but needs research, references, and expanded content.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
