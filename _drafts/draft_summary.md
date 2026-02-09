@@ -246,28 +246,30 @@ Fifteen references across five categories (Blog, Book, Industry, Research, Tool)
 **Remaining Work**:
 Human review, URL verification, and local MathJax rendering check before publication.
 
-### Safe Embedded Functional Control DSL
+### Safe Embedded Functional Control DSL — Release Candidate
 
 **File**: `safe_embedded_functional_control_dsl.markdown`
 **Article**: A83, "Safe Embedded Functional Control DSL"
-**Topic**: Draft specification for a safe, provable, hot-updatable functional DSL for aerospace drone control logic
-**Completion**: ~25%
-**Publication Sensibility**: Medium
+**Topic**: Informal proposal for a safe, provable, Elixir-inspired, Rust-embeddable mission-critical scripting language
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-A draft specification proposing a functional DSL for safety-critical embedded control.
-Covers seven design goals (safety, formal analyzability, embeddability, hot updates, functional syntax, concurrency safety, performance),
-eight language features (pure functions, pipelines, pattern matching, multi-headed functions, ADTs, type system, hot updates, concurrency semantics),
-and runtime architecture (stack-based VM, memory model, host integration, formal guarantees).
-Includes an illustrative sensor event example.
-No external research has been incorporated yet.
-The article captures design notes for future development.
+Fully rewritten from design notes into a researched article.
+Proposes a bytecode-VM-based, hot-swappable functional DSL for mission-critical embedded scripting.
+Draws inspiration from Elixir (syntax, pipelines, pattern matching, hot code reloading),
+targets seamless Rust embedding in the style of Rhai,
+and prioritizes formal analyzability.
+Compares existing embeddable languages (Lua, Rhai, mruby) and their limitations.
+Surveys design inspirations (Elixir/BEAM, Gleam, Roc, Koka).
+Covers seven design goals, eight language features with code examples,
+runtime architecture, three use cases (plugins, games, robotics),
+and related work (Lustre/SCADE, Ivory/Copilot).
+Links to A79 "Writing Proofs" for formal verification context.
+Twelve references across two categories (Reference, Research).
 
 **Remaining Work**:
-Research related work (Lua, Erlang, SCADE, Lustre, other embedded DSLs).
-Add references.
-Flesh out formal semantics.
-Evaluate against real control system requirements.
-Consider certification pathways (DO-178C, MISRA).
+Human review and URL verification before publication.
 
 ### LLM Mad Libs Experiment
 
@@ -324,14 +326,15 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Sixteen files exist in `_drafts/`. One is a template.
-Four drafts have been elevated to release candidate status.
+Five drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
 Writing Proofs (A79), the Probability and Statistics Reference (A80),
 Magic Cards as a Model of Virtual Goods (A81),
-and Introduction to Astronomy (A82)
+Introduction to Astronomy (A82),
+and Safe Embedded Functional Control DSL (A83)
 have been fully drafted and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -341,7 +344,6 @@ It is recent, topical, and has working code.
 **Tier 2: Publishable with significant effort.**
 The AI Apocalypse Will Be Polite (A85) has a complete deadpan humor essay but needs research, references, and tone calibration.
 The LLM Mad Libs Experiment (A84) has a complete experiment narrative but needs research, references, and a Step 3 output example.
-The Safe Embedded Functional Control DSL (A83) has a coherent specification structure but needs research, references, and expanded content.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.
 The space studies draft has sound conceptual foundations but requires extensive new writing.
