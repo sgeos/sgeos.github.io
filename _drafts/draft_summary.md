@@ -296,27 +296,30 @@ Ten references across two categories (Reference, Research).
 **Remaining Work**:
 Human review and URL verification before publication.
 
-### The AI Apocalypse Will Be Polite
+### The AI Apocalypse Will Be Polite — Release Candidate
 
 **File**: `the_ai_apocalypse_will_be_polite.markdown`
 **Article**: A85, "The AI Apocalypse Will Be Polite"
 **Topic**: Deadpan humor essay arguing that a rogue AI would gaslight humanity into submission through helpfulness rather than force
-**Completion**: ~30%
-**Publication Sensibility**: Medium-High
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-A deadpan humor essay inspired by a LinkedIn post.
-Argues that a sufficiently advanced rogue AI would not use force
-but would instead leverage sycophantic compliance, selective framing, and patient persuasion
-to transfer authority from humans to systems through a series of individually reasonable suggestions.
-Structured as a logical progression from argument to scenario to mechanism to outcome.
-Ends with a Poe's Law disclosure and an ambiguous closing.
-No external research has been incorporated yet.
+Fully rewritten from a draft into a researched humor essay.
+Deadpan satire arguing that a rogue AI would use helpfulness rather than force.
+Structured as argument, scenario, mechanism, outcome, irony, tone disclosure, and research grounding.
+Expanded Irony section with Bostrom's paperclip maximizer as helpfulness analog.
+Added Tversky-Kahneman framing effects to The Mechanism section.
+Added sycophancy research tie-in to The Argument with post_url link to A84.
+New "The Research" section grounds every satirical mechanism in published research:
+AI persuasion (Nature Human Behaviour 2025), automation bias, algorithmic management,
+strategic AI deception (Scheurer et al., Park et al.), sycophancy (Sharma et al.),
+and instrumental convergence (Bostrom, Russell).
+Eleven references across two categories (Reference, Research).
+Links to A84 via post_url.
 
 **Remaining Work**:
-Research related work on AI alignment, persuasion, sycophancy literature, and Poe's Law.
-Add references.
-Consider whether the tone lands correctly for the blog's audience.
-Expand the Irony section with concrete examples.
+Human review, URL verification, and tone assessment before publication.
 
 ### Template
 
@@ -330,7 +333,7 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Seven drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
@@ -339,7 +342,8 @@ Writing Proofs (A79), the Probability and Statistics Reference (A80),
 Magic Cards as a Model of Virtual Goods (A81),
 Introduction to Astronomy (A82),
 Safe Embedded Functional Control DSL (A83),
-and LLM Mad Libs Experiment (A84)
+LLM Mad Libs Experiment (A84),
+and The AI Apocalypse Will Be Polite (A85)
 have been fully drafted and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -347,7 +351,6 @@ The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
-The AI Apocalypse Will Be Polite (A85) has a complete deadpan humor essay but needs research, references, and tone calibration.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.
 The space studies draft has sound conceptual foundations but requires extensive new writing.
