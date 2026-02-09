@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "The State of Context Engineering in Early 2026"
-date: 2026-02-09 16:14:33 +0000
+date: 2026-02-09 01:14:33 +0000
 categories: ai ai-tools development developer-productivity
 ---
 
@@ -38,7 +38,7 @@ that these specific practices exist within.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-08 16:14:33 +0000
+2026-02-08 01:14:33 +0000
 
 # OS and Version
 $ uname -vm
