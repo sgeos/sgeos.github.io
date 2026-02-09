@@ -239,13 +239,19 @@ and are discouraged in mission-critical code paths.
 
 Pipelines use the `|>` operator to chain transformations,
 following the convention established by Elixir.
-The placeholder `@` indicates where the piped value is inserted.
+The placeholder `_` indicates where the piped value is inserted.
 
 ```text
-value |> f |> g(1, @)
+value |> f |> g(1)
+value |> f |> g(1, _)
+value |> f |> g(_, _)
+value |> f |> g(_, _ / 2)
 ```
 
-A single placeholder is permitted per call.
+Zero or more placeholders are permitted per call.
+If a placeholder is omitted, the pipeline targets the first parameter.
+If more than one placeholder is used,
+the piped value is substituted at each placeholder position.
 The compiler rewrites pipelines for efficiency.
 
 ### Pattern Matching
@@ -318,7 +324,7 @@ following the Erlang/OTP model.
 
 ```text
 fn code_change(old_version, state) =
-    state |> migrate_state(old_version, @)
+    state |> migrate_state(old_version, _)
 ```
 
 ### Concurrency Semantics
