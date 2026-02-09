@@ -9,95 +9,65 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-08
-**Task**: A80-P1 Draft Statistics Reference Post, Update Old Drafts
+**Task**: A0-P7 Verify About Page Branding
 
 ---
 
 ## Verification
 
-### Statistics Reference Post Drafted
-**Result**: PASS. `_drafts/statistics.markdown` rewritten from a 207-line formula sheet to a complete reference article. Assigned A80. 9 references across 4 categories (Book, Reference, Tool). Research incorporated covering probability distributions, hypothesis testing, confidence intervals, and sample size determination. MathJax corrected throughout.
+### About Page Analyzed and Committed
+**Result**: PASS. `about.md` analyzed against the blog branding assessment from A78-P3. The updated page is strongly on brand. Committed to repo.
 
-### Old Drafts Updated for Release Candidates
-**Result**: PASS. Writing Proofs (A79) and Statistics Reference (A80) marked as release candidates in `old_drafts.md`. Summary tier structure updated to reflect the new status.
+---
+
+## About Page Branding Analysis
+
+The human pilot updated `about.md` from a single sentence ("The author wanted a blog to post solutions to technical problems. This is it.") to a three-paragraph About page. The analysis below evaluates the new content against the blog brand identity established in the A78-P3 branding assessment.
+
+**Thematic coverage.** The A78-P3 assessment identified three dominant clusters: (1) systems programming on unconventional platforms, (2) applied mathematics and formal systems, and (3) AI-assisted development and developer productivity. The new About page covers all three. "Systems programming" names the first cluster directly. "Mathematics" covers the second. "Emerging software paradigms" captures the third. The additions of "systems philosophy" and "tooling" provide nuance that reflects the blog's interest in principled approaches and developer productivity without overspecifying.
+
+**Tone and voice.** The A78-P3 assessment described the blog as "professional and academic without being inaccessible." The new About page matches this tone. The prose is concise, declarative, and free of jargon. The word "notebook" is a strong framing choice that conveys the journal-like nature of the blog without implying academic formality or casual blogging.
+
+**Practitioner identity.** "First principles, real constraints, and practical solutions discovered through use" accurately captures the build-then-write-about-it pattern that characterizes the blog. This aligns with the A78-P3 observation that "the author builds things and writes about the experience."
+
+**Structural improvements.** Reference-style links are cleaner than the original inline link. The LinkedIn profile addition provides a professional contact point appropriate for a technical blog.
+
+**What the page does not mention.** The page does not call out specific technologies (FreeBSD, Rust, Solana, Playdate) or the unconventional platforms angle. This is appropriate for an About page. Specific technologies date quickly, and the current framing is durable.
+
+**Assessment: strongly on brand.** The new About page is a clear improvement over the original. It accurately represents the blog's identity, covers all major thematic clusters at the right level of abstraction, and matches the established tone.
 
 ---
 
 ## Implementation Summary
 
-### Files Created/Modified
+### Files Committed
 
 | File | Changes |
 |------|---------|
-| `_drafts/statistics.markdown` | Rewritten from formula sheet to full A80 draft. 9 references. Covers distributions, hypothesis testing, confidence intervals, sample size. MathJax corrected. |
-| `_drafts/old_drafts.md` | Writing Proofs and Statistics Reference sections updated to "Release Candidate" status. Summary tiers updated. |
-| `_docs/process/PROMPT.md` | Human-updated with A80-P1 instructions. Committed as-is. |
-| `_docs/process/TASKLOG.md` | A80-P1 task state. |
+| `about.md` | Human-updated from one-line description to three-paragraph About page with reference-style links and LinkedIn profile. |
+| `_docs/process/PROMPT.md` | Human-updated with A0-P7 instructions. Committed as-is. |
+| `_docs/process/TASKLOG.md` | A0-P7 task state. |
 | `_docs/process/REVERSE_PROMPT.md` | This file. |
-
-### A80 Article Structure
-
-| Section | Content |
-|---------|---------|
-| Opening | What statistics is, why it matters to engineers, post scope as a reference |
-| Software Versions | Standard environment block |
-| Notation | Symbol table for all notation used in the article |
-| Probability Distributions | Binomial PMF, Normal PDF, Poisson PMF with mean/variance |
-| Normal Approximation | Approximation conditions, continuity correction table |
-| Descriptive Statistics | Sample mean, sample and population variance, standard deviation |
-| Law of Total Probability | Two-partition form, rearrangements |
-| Bayes' Theorem | Standard form, expanded denominator, applications |
-| Central Limit Theorem | CLT statement, standard error, rule of thumb |
-| Hypothesis Testing | Framework, type errors, Z-test, t-test, proportion test, general form |
-| Confidence Intervals | General form, mean (known/unknown variance), variance, proportion, difference of means, difference of proportions, pooled proportion |
-| Sample Size Determination | For proportion (worst-case), for mean |
-| Summary | When methods apply, their assumptions and limitations |
-| Future Reading | 5 entries (NIST, Seeing Theory, Wasserman, Bruce, Ross) |
-| References | 9 entries across 4 categories (Book, Reference, Tool) |
-
-### Changes from Original Draft
-
-| Aspect | Original | A80 |
-|--------|----------|-----|
-| Length | ~207 lines | ~547 lines |
-| Prose | None (formula sheet only) | Explanatory prose for every section |
-| Title | "Statistics" | "Probability and Statistics Reference" |
-| Article number | None | A80 |
-| Notation | Undefined | Formal notation table |
-| Distributions | Binomial only | Binomial, Normal, Poisson |
-| Bayes' Theorem | Absent | Full section with expanded form |
-| CLT | Absent | Full section with standard error |
-| t-test | Absent | Full section |
-| CI for mean | Absent | Known and unknown variance forms |
-| Sample size | Absent | For proportion and mean |
-| Continuity correction | Inline align block (broken rendering) | Markdown table |
-| MathJax | Broken (spurious `\\`, `\mp` errors) | Corrected throughout |
-| References | None | 9 across 4 categories |
 
 ---
 
 ## Questions for Human Pilot
 
-No questions. All objectives from PROMPT.md have been met.
+No questions. The objective from PROMPT.md has been met.
 
 ---
 
 ## Technical Concerns / Risks
 
-**MathJax rendering.** A80 uses MathJax extensively with both inline and display math. The human pilot should preview locally to verify rendering, particularly the continuity correction table, the chi-squared confidence interval notation, and the pooled standard error formula.
-
-**URL verification.** Reference URLs were gathered by research agent and have not been manually verified. The human pilot should verify all 9 URLs before publication.
-
-**Scope assessment.** A80 covers introductory undergraduate probability and statistics. The human pilot should assess whether the scope is appropriate or whether any sections should be added, trimmed, or expanded. Potential additions at this level include correlation/regression, chi-squared goodness-of-fit test, and ANOVA, but these would increase the article length significantly.
+None. The About page is static content with no rendering dependencies beyond standard Jekyll page layout.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A80 draft
-- Whether to polish, revise, or proceed to publication for A79 and A80
-- Publication timing for A78 (noted as ready in previous PROMPT.md comments)
+- Publication timing for A78, A79, and A80 (all drafted, A79 and A80 are release candidates)
+- Any further branding or infrastructure work
 - Any action on the candidate future post topics in old_drafts.md
 
 ---
@@ -110,7 +80,7 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Twenty prompts completed (A0-P1 through A0-P6, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P3, A80-P1).
+5. A0 is reserved for non-article work. Twenty-one prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P3, A80-P1).
 6. All 74 historical posts have article numbers (A1-A74). A75, A76, and A77 are published. A78, A79, and A80 are drafted. Next available: A81.
 7. Categories are space-separated, not comma-separated.
 8. Assets follow `assets/$TYPE/post_$SLUG/$FILENAME` convention.

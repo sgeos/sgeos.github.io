@@ -8,31 +8,26 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Statistics Reference Post, Update Old Drafts (A80-P1)
+**Name**: Verify About Page Branding (A0-P7)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Statistics Reference post drafted with research fully folded into the document
-- [x] `old_drafts.md` modified to indicate old drafts elevated to release candidate status
+- [x] `about.md` analyzed with comments in reverse prompt and committed to repo
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A80-P1-T1 | Draft statistics reference post (A80) | Complete | `_drafts/statistics.markdown` rewritten from formula sheet to full reference article. 9 references across 4 categories. Covers distributions, hypothesis testing, confidence intervals, sample size determination. MathJax corrected throughout. |
-| A80-P1-T2 | Update old_drafts.md for release candidates | Complete | Writing Proofs (A79) and Statistics Reference (A80) marked as release candidates. Summary tier structure updated. |
-| A80-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A0-P7-T1 | Analyze about.md against blog brand identity | Complete | New about.md assessed as strongly on brand. Covers all three thematic clusters. Tone and framing align with branding assessment. Analysis reported in REVERSE_PROMPT.md. |
+| A0-P7-T2 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. All changes committed. |
 
 ## Notes
 
-- A80 assigned to "Probability and Statistics Reference". Categories: math statistics probability. Date: 2026-02-10.
-- Original draft was ~207 lines of formulas with no prose, broken MathJax, and no article number.
-- A80 covers: probability distributions (Binomial, Normal, Poisson), normal approximation to the binomial with continuity correction, descriptive statistics, law of total probability, Bayes' theorem, Central Limit Theorem, hypothesis testing (Z-test, t-test, proportion test), confidence intervals (mean, variance, proportion, difference of means, difference of proportions, pooled proportion), and sample size determination.
-- MathJax fixes: removed spurious `\\` at start of align blocks, changed `\mp` to `\pm` for confidence intervals, reformatted continuity correction as a table.
-- Added sections not in original: Normal PDF, Poisson, Bayes' theorem, CLT, t-test, CI for mean (known and unknown variance), sample size for mean.
-- Writing Proofs (A79) and Statistics Reference (A80) both elevated to release candidate status in old_drafts.md.
+- This is a non-article task (A0) because it concerns blog infrastructure rather than a specific article.
+- The human pilot updated about.md from a one-line description to a three-paragraph About page with reference-style links and a LinkedIn profile link.
+- Brand alignment confirmed against the A78-P3 branding assessment.
 
 ## History
 
@@ -58,3 +53,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A78-P2: 8 additional sources folded into A78 (30 references). Old drafts review revised with contemporary tooling assumptions. |
 | 2026-02-08 | A78-P3: Release announcement protocol documented. A79 "Writing Proofs" drafted (15 references). Blog branding assessed. 16 candidate topics added. |
 | 2026-02-08 | A80-P1: A80 "Probability and Statistics Reference" drafted (9 references). Writing Proofs (A79) and Statistics Reference (A80) elevated to release candidates. |
+| 2026-02-08 | A0-P7: About page verified as on brand. Committed with branding analysis in REVERSE_PROMPT.md. |
