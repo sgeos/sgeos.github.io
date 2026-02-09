@@ -9,14 +9,14 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-08
-**Task**: A82-P1 Draft Introduction to Astronomy
+**Task**: A83-P1 Rework Draft Notes
 
 ---
 
 ## Verification
 
-### Introduction to Astronomy Drafted
-**Result**: PASS. `_drafts/introduction-to-astronomy.markdown` rewritten from a 32-line empty stub to a full 925-line article. Assigned A82. 8 references from official sources (NASA, ESA, IAU, OpenStax, Hubble). Research incorporated covering solar system bodies, moon counts, asteroid belt data, and galactic structure.
+### Draft Notes Reformatted
+**Result**: PASS. `_drafts/safe_embedded_functional_control_dsl.markdown` reformatted from raw specification notes into proper blog post structure. Assigned A83. No research added per instructions. Added to old_drafts.md as Tier 2 draft.
 
 ---
 
@@ -26,67 +26,54 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 | File | Changes |
 |------|---------|
-| `_drafts/introduction-to-astronomy.markdown` | Rewritten from empty stub to full A82 draft. 925 lines. 8 references. Covers solar system from Sun outward, galactic and intergalactic features, qualitative concepts, and 8 mathematical formulas with MathJax. |
-| `_drafts/old_drafts.md` | Introduction to Astronomy elevated to release candidate. Removed from Tier 4. Summary updated (4 release candidates). |
-| `_docs/process/PROMPT.md` | Human-updated with A82-P1 instructions. Committed as-is. |
-| `_docs/process/TASKLOG.md` | A82-P1 task state. |
+| `_drafts/safe_embedded_functional_control_dsl.markdown` | Reformatted from specification notes to article structure. Assigned A83. Categories: dsl embedded development safety. Date: 2026-02-13. Template sections replaced with article prose. Code examples preserved. |
+| `_drafts/old_drafts.md` | A83 added with Tier 2 assessment. File count updated to 14. |
+| `_docs/process/PROMPT.md` | Human-updated with A83-P1 instructions. Committed as-is. |
+| `_docs/process/TASKLOG.md` | A83-P1 task state. |
 | `_docs/process/REVERSE_PROMPT.md` | This file. |
 
-### A82 Article Structure
+### A83 Article Structure
 
 | Section | Content |
 |---------|---------|
-| Opening | Astronomy as oldest natural science, Sun-outward pedagogical approach, article scope |
+| Opening | Safety-critical embedded systems motivation, DSL proposal, provable and certifiable (not a proof language), draft status |
 | Software Versions | Standard environment block |
-| The Sun | Main-sequence G2V star, composition, core temperature, luminosity, solar wind, sunspots and solar cycle |
-| Mercury | Smallest planet, extreme temperature range, 3:2 spin-orbit resonance, cratered surface, no moons |
-| Venus | Retrograde rotation, runaway greenhouse, atmospheric pressure, sulfuric acid clouds, no moons |
-| Earth | Liquid water, magnetosphere, plate tectonics, Moon (formation, tidal locking, recession) |
-| Mars | Iron oxide surface, Olympus Mons, Valles Marineris, polar ice caps, Phobos and Deimos |
-| Asteroid Belt | 1.1 million+ catalogued, Ceres (dwarf planet), Vesta, Pallas, Hygiea with mass/diameter data |
-| Jupiter | Gas giant, Great Red Spot, magnetosphere, 95+ moons, Galilean moons (Io, Europa, Ganymede, Callisto) |
-| Saturn | Ring system, lowest density, hexagonal polar vortex, 270+ moons, Titan (atmosphere/methane lakes), Enceladus (subsurface ocean) |
-| Uranus | Axial tilt 98 degrees, ice giant, 13 rings, 28 moons, 5 major moons (Miranda, Ariel, Umbriel, Titania, Oberon) |
-| Neptune | Strongest winds, Great Dark Spot, 16 moons, Triton (retrograde orbit, nitrogen geysers) |
-| Kuiper Belt | 30-50 AU, Pluto and Charon (binary system), Eris, Makemake, Haumea |
-| Oort Cloud | 2,000-100,000 AU, hypothesized spherical shell, long-period comets, estimated trillions of objects |
-| Galactic Features | Milky Way (barred spiral, 100-400 billion stars), nebulae (4 types), star clusters (open/globular), black holes (stellar/supermassive) |
-| Intergalactic Features | Galaxy types (spiral/elliptical/irregular), Local Group (54+ galaxies), clusters, superclusters, observable universe (93 billion light-years, 200 billion+ galaxies) |
-| Broad Qualitative Concepts | Electromagnetic spectrum, H-R diagram, stellar evolution (main sequence through remnants), cosmic distance ladder, light as a time machine |
-| Mathematical Formulas | Kepler's 3 laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's displacement, Doppler/redshift, parallax, apparent/absolute magnitude |
-| Summary | Recap of scope covered, astronomy as an active and evolving science |
-| Future Reading | 5 entries (NASA Solar System, OpenStax Astronomy 2e, ESA Space Science, IAU MPC, Hubble Site) |
-| References | 8 entries across 1 category (Reference), all from official sources |
+| Design Goals | Seven goals: maximum safety, formal analyzability, embeddability, hot-updatable logic, functional syntax, concurrency-safe design, performance |
+| Language Features | Eight features: pure functions, pipelines with @ placeholder, exhaustive pattern matching, multi-headed functions, ADTs, strong type system with effect annotations, hot update mechanism, concurrency semantics |
+| Runtime and VM Architecture | Four subsections: stack-based VM, memory model, host integration, formal guarantees |
+| Example | SensorEvent ADT with temperature/pressure handlers demonstrating pipelines and host-bound effects |
+| Design Tradeoffs | Expressiveness traded for predictability and safety, host/script boundary rationale |
+| Summary | Recap and future work outline (formal semantics, reference implementation, certification) |
+| Future Reading | Placeholder for future development |
+| References | Placeholder for future research |
 
-### Scope Relative to Space Studies Draft
+### Changes from Original Notes
 
-The Introduction to Space Studies draft (`introduction-to-space-studies.markdown`) was read for context and kept separate. The astronomy article covers a qualitative survey of celestial bodies and introductory astronomy formulas (Kepler, gravitation, luminosity, redshift, parallax, magnitude). The space studies draft covers orbital parameters and engineering formulas (thrust equation, wavelength-frequency relationship). There is no significant content overlap.
+The original file contained raw specification notes with numbered bullet lists, horizontal rules as section dividers, and template placeholder sections (Problem description, Instructions, echo "Code here."). The reformatted article replaces all placeholder sections with article prose, converts bullet lists into flowing paragraphs, adds a Software Versions block, and restructures the specification sections as article headings. All technical content from the original notes is preserved. No content was added beyond reformatting.
 
 ---
 
 ## Questions for Human Pilot
 
-**Moon counts.** Planet moon counts are approximate and based on available data. Jupiter has 95+ confirmed moons, Saturn 140+, Uranus 28, and Neptune 16. These numbers change as new moons are discovered. The human pilot should verify these are acceptable approximate values.
+**Categories.** The article uses categories "dsl embedded development safety". The human pilot should confirm these are acceptable. Alternative categories might include "rust" (given the Rust host target) or "aerospace".
 
-**Mathematical formula selection.** The eight formulas selected (Kepler's laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's law, Doppler/redshift, parallax, magnitude) represent a standard introductory astronomy curriculum. If additional formulas are desired (for example, escape velocity, Roche limit, or Schwarzschild radius), they can be added.
+**Completion estimate.** The draft is assessed at ~25% completion. The specification structure is sound but lacks research, references, related work comparison, and expanded prose. The human pilot should confirm whether this assessment is reasonable.
 
 ---
 
 ## Technical Concerns / Risks
 
-**URL verification.** All 8 reference URLs point to official institutional sources (NASA, ESA, IAU, OpenStax, Hubble). The human pilot should verify all URLs before publication.
+**No references.** Per instructions, no research was conducted. The article currently has no external references. Related work (Lua, Erlang, SCADE, Lustre, Ivory, Copilot) should be researched and cited in a future prompt.
 
-**MathJax rendering.** The article uses extensive MathJax for 8 formula sections. Local rendering verification is recommended before publication, particularly for multi-line equations and subscript/superscript nesting.
-
-**Categories.** The article uses categories "space astronomy science". The human pilot should confirm these are acceptable.
+**Certification claims.** The article states the language is "designed to be provable and certifiable." Certification pathways (DO-178C, MISRA, IEC 61508) should be researched and discussed when the article is fleshed out.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A82 draft
-- Whether additional formulas or topics should be added
+- Review of the A83 draft structure
+- Whether to proceed with research and expansion of A83 in a future prompt
 - Publication timing for A79, A80, A81, and A82 (all release candidates)
 - Any further work
 
@@ -100,8 +87,8 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Twenty-four prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1).
-6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, and A82 are drafted (release candidates). Next available: A83.
+5. A0 is reserved for non-article work. Twenty-five prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1, A83-P1).
+6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, and A82 are release candidates. A83 is a draft. Next available: A84.
 7. Categories are space-separated, not comma-separated.
 8. Assets follow `assets/$TYPE/post_$SLUG/$FILENAME` convention.
 9. Read `TASKLOG.md` for current task state.
