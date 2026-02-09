@@ -41,11 +41,22 @@ and prioritizes formal analyzability
 so that programs written in it
 can be subjected to the proof techniques
 discussed in
-{% post_url 2026-02-09-writing-proofs %}.
+%{ post_url 2026-02-09-writing-proofs %}.
 This is not a formal specification.
 It is an informal proposal
 for a bytecode-VM-based, hot-swappable scripting language
 engineered for mission-critical work.
+
+The proposed DSL assumes a trusted host application
+and an untrusted or semi-trusted script author.
+The VM, runtime, and host-provided native functions
+form the trusted computing base.
+The language and VM aim to prevent script-level code
+from corrupting host memory,
+accessing unauthorized resources,
+or violating determinism guarantees.
+The design does not attempt to defend
+against malicious or incorrectly implemented host bindings.
 
 ## Software Versions
 
@@ -223,6 +234,25 @@ Resource usage including stack depth, heap allocation,
 and instruction counts must be deterministic and bounded.
 The host must be able to enforce resource limits
 and terminate scripts that exceed them.
+The language design enables termination
+and resource bounds to be established statically
+or enforced at runtime.
+Safety-critical configurations may restrict unbounded recursion
+or require statically provable execution limits.
+
+### Non-Goals
+
+The language intentionally excludes certain capabilities.
+
+- Not a general-purpose programming language.
+- Not a replacement for Rust or C++.
+- Not a real-time scheduler or concurrency runtime.
+- Not an actor or message-passing system.
+
+These boundaries are deliberate.
+General-purpose computation, concurrency scheduling,
+and message passing are host responsibilities.
+The DSL provides a safe, verifiable control layer.
 
 ## Language Features
 
@@ -253,6 +283,12 @@ If a placeholder is omitted, the pipeline targets the first parameter.
 If more than one placeholder is used,
 the piped value is substituted at each placeholder position.
 The compiler rewrites pipelines for efficiency.
+Multiple placeholders are syntactic sugar
+and are desugared into explicit temporary bindings
+prior to bytecode generation.
+Resource usage and execution cost
+are defined and analyzed at the bytecode level,
+not the surface syntax level.
 
 ### Pattern Matching
 
@@ -313,6 +349,12 @@ fn alert(msg: String) -> ! io =
 The `! io` annotation indicates
 that the function performs an I/O effect.
 
+Numeric semantics, including floating-point behavior,
+must be explicitly specified by the language and runtime.
+Safety-critical deployments may restrict
+or replace floating-point arithmetic
+with deterministic fixed-point representations.
+
 ### Hot Update Mechanism
 
 Scripts can be replaced only at defined tick or epoch boundaries.
@@ -354,6 +396,14 @@ to simplify formal analysis.
 All instructions have bounded execution time,
 enabling worst-case execution time analysis
 at the bytecode level.
+
+The bytecode operational semantics
+are the normative definition of program behavior.
+All surface syntax,
+including pipelines, pattern matching,
+and multi-headed functions,
+is desugared into the bytecode instruction set
+prior to execution and analysis.
 
 ### Memory Model
 
@@ -401,6 +451,10 @@ Ivory and Copilot, two Haskell-based embedded DSLs
 developed for safety-critical avionics at NASA,
 demonstrate that this combination of properties
 is achievable in practice.
+The language is designed to be amenable
+to formal analysis and external proof tools.
+It does not attempt to be a proof language itself,
+nor does the runtime perform proofs.
 
 ## Use Cases
 
@@ -476,6 +530,33 @@ within a running host application,
 enabling hot code updates
 and dynamic capability management.
 
+### Reference VM Architectures
+
+Several established virtual machine architectures
+inform the design of the proposed bytecode VM.
+
+The SECD machine,
+introduced by Peter Landin in 1964,
+provides the theoretical foundation
+for functional language virtual machines
+with closures and explicit environments.
+
+The Lua 5.1 VM demonstrates
+how a small, fixed-width instruction set
+can achieve simplicity, performance, and analyzability
+in an embeddable scripting context.
+
+The WebAssembly core specification
+provides a formally specified bytecode format
+where bytecode is the semantic ground truth,
+sandboxing is built in,
+and host integration is capability-oriented.
+
+The JVM bytecode verification architecture
+demonstrates how static analysis at the bytecode level
+can enforce type safety, stack discipline,
+and control flow constraints before execution.
+
 ## Design Tradeoffs
 
 The language deliberately trades unrestricted expressiveness
@@ -523,7 +604,7 @@ and hot code updates at explicit boundaries.
 These properties make programs written in the language
 amenable to formal verification
 using the techniques described in
-{% post_url 2026-02-09-writing-proofs %}.
+%{ post_url 2026-02-09-writing-proofs %}.
 
 The proposal is informal.
 Future work includes defining formal operational semantics,
@@ -561,6 +642,14 @@ mission-critical scripting requirements.
   for generating constant-time, constant-memory C99 monitors
   for safety-critical systems.
 
+- [The Implementation of Lua 5.0][reference_lua_impl],
+  a detailed description of the virtual machine design
+  that powers Lua's compact and efficient bytecode interpreter.
+
+- [WebAssembly Core Specification][reference_wasm_spec],
+  the formal specification of the WebAssembly bytecode format,
+  execution model, and validation rules.
+
 ## References
 
 - [Reference, Copilot Runtime Verification Framework][reference_copilot]
@@ -568,11 +657,15 @@ mission-critical scripting requirements.
 - [Reference, Erlang/OTP Code Loading][reference_erlang_code_loading]
 - [Reference, Gleam Programming Language][reference_gleam]
 - [Reference, Ivory Embedded DSL][reference_ivory]
+- [Reference, JVM Specification][reference_jvm_spec]
 - [Reference, Koka Language][reference_koka]
 - [Reference, Lua Programming Language][reference_lua]
 - [Reference, Lustre Synchronous Dataflow Language][reference_lustre]
 - [Reference, Rhai Embedded Scripting for Rust][reference_rhai]
 - [Reference, Roc Programming Language][reference_roc]
+- [Reference, SECD Machine][reference_secd]
+- [Reference, The Implementation of Lua 5.0][reference_lua_impl]
+- [Reference, WebAssembly Core Specification][reference_wasm_spec]
 - [Reference, WebAssembly Security Model][reference_wasm_security]
 - [Research, Copilot NASA Technical Report][reference_copilot_nasa]
 
@@ -582,9 +675,13 @@ mission-critical scripting requirements.
 [reference_erlang_code_loading]: https://www.erlang.org/doc/system/code_loading.html
 [reference_gleam]: https://gleam.run/
 [reference_ivory]: https://ivorylang.org/
+[reference_jvm_spec]: https://docs.oracle.com/javase/specs/jvms/se21/html/index.html
 [reference_koka]: https://koka-lang.github.io/koka/doc/book.html
 [reference_lua]: https://www.lua.org/
+[reference_lua_impl]: https://www.lua.org/doc/jucs05.pdf
 [reference_lustre]: https://www-verimag.imag.fr/The-Lustre-Programming-Language-and
 [reference_rhai]: https://rhai.rs/
 [reference_roc]: https://www.roc-lang.org/
+[reference_secd]: https://en.wikipedia.org/wiki/SECD_machine
 [reference_wasm_security]: https://webassembly.org/docs/security/
+[reference_wasm_spec]: https://webassembly.github.io/spec/core/

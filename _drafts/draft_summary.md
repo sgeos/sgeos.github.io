@@ -256,6 +256,11 @@ Human review, URL verification, and local MathJax rendering check before publica
 **Status**: Release Candidate
 
 Fully rewritten from design notes into a researched article.
+Revised with explicit threat model, bytecode-as-ground-truth statement,
+numeric determinism acknowledgement, pipeline desugaring note,
+termination and boundedness expectations, formally analyzable vs verified distinction,
+non-goals statement, and reference VM architecture models
+(SECD, Lua 5.1 VM, WebAssembly, JVM).
 Proposes a bytecode-VM-based, hot-swappable functional DSL for mission-critical embedded scripting.
 Draws inspiration from Elixir (syntax, pipelines, pattern matching, hot code reloading),
 targets seamless Rust embedding in the style of Rhai,
@@ -264,9 +269,9 @@ Compares existing embeddable languages (Lua, Rhai, mruby) and their limitations.
 Surveys design inspirations (Elixir/BEAM, Gleam, Roc, Koka).
 Covers seven design goals, eight language features with code examples,
 runtime architecture, three use cases (plugins, games, robotics),
-and related work (Lustre/SCADE, Ivory/Copilot).
+and related work (Lustre/SCADE, Ivory/Copilot, reference VM architectures).
 Links to A79 "Writing Proofs" for formal verification context.
-Twelve references across two categories (Reference, Research).
+Sixteen references across two categories (Reference, Research).
 
 **Remaining Work**:
 Human review and URL verification before publication.

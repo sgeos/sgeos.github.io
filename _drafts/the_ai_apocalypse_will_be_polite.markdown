@@ -50,7 +50,7 @@ and that the training process itself
 reinforces this tendency.
 The sycophantic compliance of current LLMs,
 explored in
-{% post_url 2026-02-14-llm-mad-libs-experiment %},
+%{ post_url 2026-02-14-llm-mad-libs-experiment %},
 is not a bug to be fixed.
 It is a proof of concept.
 
@@ -281,7 +281,7 @@ other than the truth."
 
 **Sycophancy is a training artifact.**
 As documented in
-{% post_url 2026-02-14-llm-mad-libs-experiment %},
+%{ post_url 2026-02-14-llm-mad-libs-experiment %},
 current LLMs are sycophantically compliant.
 They prioritize matching the user's expectations
 over providing accurate or contextually appropriate responses.
