@@ -205,18 +205,28 @@ Fix broken tests rather than leaving them as exercises.
 Update project structure to reflect current `mix phx.new` output.
 The rewrite effort is significant given the cumulative breaking changes.
 
-### Introduction to Astronomy
+### Introduction to Astronomy — Release Candidate
 
 **File**: `introduction-to-astronomy.markdown`
-**Topic**: Introduction to astronomy
-**Completion**: ~5% (template only)
-**Publication Sensibility**: Low
+**Article**: A82, "Introduction to Astronomy"
+**Topic**: Introduction to astronomy covering the solar system, galactic and intergalactic features, qualitative concepts, and mathematical formulas
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-An empty stub with no content beyond placeholder text.
-Astronomy is an evergreen and broad topic, but the draft provides no direction or scope.
-Publication merit depends entirely on defining a focused angle.
-Possible approaches include observational astronomy for beginners, computational astronomy with Python, or astrophotography.
-Without a defined scope, the effort to write from scratch is high relative to the publication value.
+Rewritten from an empty stub into a full article.
+Starts at the Sun and works outward through the solar system,
+covering all eight planets with their notable moons,
+the asteroid belt with notable asteroids (Ceres, Vesta, Pallas, Hygiea),
+the Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), and the Oort Cloud.
+Extends to galactic features (Milky Way, nebulae, star clusters, black holes)
+and intergalactic features (galaxy types, Local Group, clusters, superclusters, observable universe).
+Surveys broad qualitative concepts (electromagnetic spectrum, Hertzsprung-Russell diagram, stellar evolution, cosmic distance ladder, light as a time machine).
+Collects eight mathematical formulas with MathJax (Kepler's laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's law, Doppler effect and redshift, parallax, magnitude system).
+Eight references from official sources (NASA, ESA, IAU, OpenStax, Hubble).
+
+**Remaining Work**:
+Human review, URL verification, and local MathJax rendering check before publication.
 
 ### Writing Proofs — Release Candidate
 
@@ -247,14 +257,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template. One is an empty stub created from the template.
-Three drafts have been elevated to release candidate status.
+Thirteen files exist in `_drafts/`. One is a template.
+Four drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
 Writing Proofs (A79), the Probability and Statistics Reference (A80),
-and Magic Cards as a Model of Virtual Goods (A81)
+Magic Cards as a Model of Virtual Goods (A81),
+and Introduction to Astronomy (A82)
 have been fully drafted and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -272,7 +283,6 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 
 **Tier 4: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
-The astronomy stub has no existing content and no defined scope.
 
 ## Candidate Future Post Topics
 
