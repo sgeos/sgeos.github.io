@@ -246,6 +246,29 @@ Fifteen references across five categories (Blog, Book, Industry, Research, Tool)
 **Remaining Work**:
 Human review, URL verification, and local MathJax rendering check before publication.
 
+### Safe Embedded Functional Control DSL
+
+**File**: `safe_embedded_functional_control_dsl.markdown`
+**Article**: A83, "Safe Embedded Functional Control DSL"
+**Topic**: Draft specification for a safe, provable, hot-updatable functional DSL for aerospace drone control logic
+**Completion**: ~25%
+**Publication Sensibility**: Medium
+
+A draft specification proposing a functional DSL for safety-critical embedded control.
+Covers seven design goals (safety, formal analyzability, embeddability, hot updates, functional syntax, concurrency safety, performance),
+eight language features (pure functions, pipelines, pattern matching, multi-headed functions, ADTs, type system, hot updates, concurrency semantics),
+and runtime architecture (stack-based VM, memory model, host integration, formal guarantees).
+Includes an illustrative sensor event example.
+No external research has been incorporated yet.
+The article captures design notes for future development.
+
+**Remaining Work**:
+Research related work (Lua, Erlang, SCADE, Lustre, other embedded DSLs).
+Add references.
+Flesh out formal semantics.
+Evaluate against real control system requirements.
+Consider certification pathways (DO-178C, MISRA).
+
 ### Template
 
 **File**: `template.markdown`
@@ -257,7 +280,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
+Fourteen files exist in `_drafts/`. One is a template.
 Four drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
@@ -273,6 +296,7 @@ The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
+The Safe Embedded Functional Control DSL (A83) has a coherent specification structure but needs research, references, and expanded content.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.
 The space studies draft has sound conceptual foundations but requires extensive new writing.

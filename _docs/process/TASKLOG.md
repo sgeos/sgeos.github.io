@@ -8,34 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Introduction to Astronomy (A82-P1)
+**Name**: Rework Draft Notes (A83-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Introduction to Astronomy article drafted with research folded in, references, and citations
+- [x] Notes reformatted as proper draft article
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A82-P1-T1 | Draft Introduction to Astronomy (A82) | Complete | `_drafts/introduction-to-astronomy.markdown` rewritten from empty stub to full 925-line article. 8 references from official sources (NASA, ESA, IAU, OpenStax, Hubble). Covers solar system from Sun outward, galactic and intergalactic features, qualitative concepts, and 8 mathematical formulas with MathJax. |
-| A82-P1-T2 | Update old_drafts.md | Complete | Introduction to Astronomy elevated to release candidate. Removed from Tier 4. Summary updated (4 release candidates). |
-| A82-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A83-P1-T1 | Reformat draft notes as article | Complete | `_drafts/safe_embedded_functional_control_dsl.markdown` reformatted from specification notes into proper blog post structure. Assigned A83. Categories: dsl embedded development safety. Date: 2026-02-13. No research added per instructions. |
+| A83-P1-T2 | Add to old_drafts.md | Complete | A83 added to old_drafts.md. Placed in Tier 2. File count updated to 14. |
+| A83-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A82 assigned to "Introduction to Astronomy". Categories: space astronomy science. Date: 2026-02-12.
-- Original stub was ~32 lines with no content beyond placeholder text.
-- Article structure follows Sun-outward pedagogy as specified in PROMPT.md.
-- Solar system coverage: Sun, Mercury, Venus, Earth (Moon), Mars (Phobos, Deimos), Asteroid Belt (Ceres, Vesta, Pallas, Hygiea), Jupiter (95+ moons, 4 Galilean), Saturn (270+ moons, Titan, Enceladus, and others), Uranus (28 moons, 5 major), Neptune (16 moons, Triton), Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), Oort Cloud.
-- Galactic features: Milky Way, nebulae (emission, reflection, planetary, dark), star clusters (open, globular), black holes (stellar, supermassive).
-- Intergalactic features: galaxy types (spiral, elliptical, irregular), Local Group, clusters, superclusters, observable universe.
-- Qualitative concepts: electromagnetic spectrum, Hertzsprung-Russell diagram, stellar evolution, cosmic distance ladder, light as a time machine.
-- Mathematical formulas: Kepler's three laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's displacement, Doppler/redshift, parallax, magnitude system.
-- Research agent (a3fffa4) provided data on moon counts, asteroid belt, parallax formula, and ESA sources.
-- The Introduction to Space Studies draft was read for context and kept separate. That draft covers orbital parameters and engineering formulas (thrust, wavelength-frequency) while the astronomy article covers qualitative survey and introductory astronomy formulas.
+- A83 assigned to "Safe Embedded Functional Control DSL". Categories: dsl embedded development safety. Date: 2026-02-13.
+- Human pilot added raw specification notes to a new draft file. Notes reformatted into article prose without adding research.
+- Article proposes a functional DSL for safety-critical embedded control (aerospace drone control logic).
+- The language is designed to be provable and certifiable but is not itself a proof language.
+- Key features: pure functional evaluation, pipelines with @ placeholder, exhaustive pattern matching, multi-headed functions, ADTs, strong typing with effect annotations, hot code updates at tick/epoch boundaries, concurrency-safe immutable state.
+- Runtime: stack-based VM, deterministic resource usage, Rust host integration, capabilities-based resource access.
+- No external references consulted. Research deferred to future prompt.
+- Placed in Tier 2 (publishable with significant effort) in old_drafts.md.
 
 ## History
 
@@ -65,3 +63,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A78-P4: A78 published with 2026-02-09 date. Timestamp adjusted to avoid future-dating. |
 | 2026-02-08 | A81-P1: A81 "Magic Cards as a Model of Virtual Goods" drafted (9 references). A78 date fix committed. |
 | 2026-02-08 | A82-P1: A82 "Introduction to Astronomy" drafted (8 references). Elevated to release candidate. |
+| 2026-02-08 | A83-P1: A83 "Safe Embedded Functional Control DSL" reformatted from notes. No research. Added to old_drafts.md Tier 2. |
