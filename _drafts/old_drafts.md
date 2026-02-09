@@ -110,22 +110,25 @@ Draft instructional prose explaining each equation set and its physical signific
 Expand coverage to provide a coherent introduction rather than isolated formula groups.
 Add a Software Versions block and a References section.
 
-### Magic Cards as a Model of Virtual Goods
+### Magic Cards as a Model of Virtual Goods — Release Candidate
 
 **File**: `magic_cards_as_a_model_of_virtual_goods.markdown`
-**Topic**: Using Magic the Gathering card anatomy as a model for virtual goods, with Rust data structures
-**Completion**: ~20%
-**Publication Sensibility**: Medium
+**Article**: A81, "Magic Cards as a Model of Virtual Goods"
+**Topic**: Magic card anatomy as a physical data structure and model for virtual goods economics
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-The concept is interesting and not time-sensitive.
-Rust remains the appropriate language for this topic.
-Contemporary Rust (2024 edition) would be used for any new code.
+Rewritten from a stub into a full article.
+Covers card anatomy (name, mana cost, art, type line, set symbol, rules text, power/toughness, collector information, flavor text),
+virtual goods economics (near-zero marginal cost, R&D cost structure, designed scarcity, chase vs bulk, RMT),
+and analysis (cards as APIs, printing as distribution platform, rarity as dual-purpose tool, value asymmetry).
+Links to A66 "Metagaming as a Framework for Real-Life Strategy" as a companion article.
+Nine references across five categories (Blog, Book, Industry, Reference, Tool).
+Rust data structures were removed from scope in favor of the economics focus.
 
 **Remaining Work**:
-Draft card anatomy analysis mapping Magic the Gathering card attributes to virtual goods properties.
-Implement Rust data structures modeling the card type system.
-Replace placeholder Software Versions, Instructions, and References sections.
-This draft requires the most new writing relative to what exists.
+Human review and URL verification before publication.
 
 ### Building Android APKs on FreeBSD
 
@@ -245,12 +248,13 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Thirteen files exist in `_drafts/`. One is a template. One is an empty stub created from the template.
-Two drafts have been elevated to release candidate status.
+Three drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Writing Proofs (A79) and the Probability and Statistics Reference (A80)
+Writing Proofs (A79), the Probability and Statistics Reference (A80),
+and Magic Cards as a Model of Virtual Goods (A81)
 have been fully drafted and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -260,7 +264,7 @@ It is recent, topical, and has working code.
 **Tier 2: Publishable with significant effort.**
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.
-The space studies and Magic/Rust drafts have sound conceptual foundations but require extensive new writing.
+The space studies draft has sound conceptual foundations but requires extensive new writing.
 
 **Tier 3: Salvageable but niche.**
 The two Android/FreeBSD drafts should be consolidated into one post and updated to FreeBSD 14 and current Android tooling.
