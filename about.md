@@ -4,7 +4,15 @@ title: About the Author
 permalink: /about/
 ---
 
-The author wanted a blog to post solutions to technical problems. This is it.
+This blog is a personal technical notebook covering
+systems programming, systems philosophy, tooling, mathematics,
+and emerging software paradigms.
 
-Source code for this blog can be found [here](https://github.com/sgeos/sgeos.github.io).
+Posts focus on first principles, real constraints,
+and practical solutions discovered through use.
 
+Source code for this blog can be found [here][blog_source_code].
+The author's LinkedIn profile can be found [here][author_linkedin].
+
+[blog_source_code]: https://github.com/sgeos/sgeos.github.io
+[author_linkedin]: https://www.linkedin.com/in/brendan-sechter/
