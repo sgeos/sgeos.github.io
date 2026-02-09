@@ -13,19 +13,20 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 I added a new draft with notes.
 I want it organized as a post and added to `old_drafts.md` despite being new.
 
-A82 is a backlogged release candidate.
-It is good enough for release.
-
 ## Objectives
 
 ### Rework Draft Notes
 
-I added a draft specification for a "Safe Embedded Functional Control DSL" to a new draft.
-The idea is that this would ultimately become a scripting language that is hot updatable and suitable for aerospace drone control logic.
-Although the language is not for writing proofs, it is supposed to be proovable and certifiable.
-Please reformat as a draft post that proposes this scripting language.
+I ran an LLM Mad Libs experiment a while back that changed the way I think about LLMs.
+My latest draft has terse notes that capture the key points from the experiment.
+Please reformat as a draft post that explains this experiment and its implications.
 Do not do any research yet.
 We will revisit this post in the future and properly flesh it out.
+
+### Rename `old_drafts.md`
+
+Rename `old_drafts.md` to `draft_summary.md` and change the document's title.
+Old and new draft summaries are both being tracked.
 
 ## Context
 

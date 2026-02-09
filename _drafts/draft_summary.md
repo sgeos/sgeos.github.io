@@ -2,14 +2,14 @@
 layout: post
 mathjax: false
 comments: true
-title: "Old Drafts Review"
+title: "Draft Summary"
 date: 2000-01-01 00:00:00 +0000
 categories: meta
 ---
 
 <!-- Axxx -->
 
-This post reviews the status of old draft posts in this blog's `_drafts/` directory.
+This post reviews the status of draft posts in this blog's `_drafts/` directory.
 Each draft is assessed for topic, completion status, remaining work, and publication sensibility.
 Assessments assume that contemporary tooling will be used if salvaged
 and that appropriate ecosystem standard choices will replace any tooling that has fallen out of favor.
@@ -269,6 +269,27 @@ Flesh out formal semantics.
 Evaluate against real control system requirements.
 Consider certification pathways (DO-178C, MISRA).
 
+### LLM Mad Libs Experiment
+
+**File**: `llm_mad_libs_experiment.markdown`
+**Article**: A84, "LLM Mad Libs Experiment"
+**Topic**: Mad Libs experiment demonstrating LLM sycophantic compliance and instruction-over-context behavior
+**Completion**: ~30%
+**Publication Sensibility**: Medium-High
+
+A draft article describing a multi-session Mad Libs experiment.
+Session A generates a dark-themed template with bracketed placeholders.
+Session B fills in the template with cheerful words under instruction, producing tonally dissonant output.
+A third prompt variant asks for context-aware fills, revealing that the LLM understands the dark theme but overrides it when instructed.
+Observations cover sycophantic compliance, template structure as meaning carrier, instruction-over-pattern behavior, and implications for prompt engineering.
+No external research has been incorporated yet.
+
+**Remaining Work**:
+Research related work on LLM sycophancy, instruction following, and alignment.
+Add references.
+Include the Step 3 output (logical fill) as a concrete example.
+Expand the Implications section.
+
 ### Template
 
 **File**: `template.markdown`
@@ -280,7 +301,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fourteen files exist in `_drafts/`. One is a template.
+Fifteen files exist in `_drafts/`. One is a template.
 Four drafts have been elevated to release candidate status.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
@@ -296,6 +317,7 @@ The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
+The LLM Mad Libs Experiment (A84) has a complete experiment narrative but needs research, references, and a Step 3 output example.
 The Safe Embedded Functional Control DSL (A83) has a coherent specification structure but needs research, references, and expanded content.
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
 The half-life coin draft has substantial written content but needs structural repair.

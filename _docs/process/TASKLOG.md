@@ -8,32 +8,34 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Rework Draft Notes (A83-P1)
+**Name**: Rework Draft Notes, Rename Draft Summary (A84-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
 - [x] Notes reformatted as proper draft article
+- [x] old_drafts.md renamed to draft_summary.md with updated title
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A83-P1-T1 | Reformat draft notes as article | Complete | `_drafts/safe_embedded_functional_control_dsl.markdown` reformatted from specification notes into proper blog post structure. Assigned A83. Categories: dsl embedded development safety. Date: 2026-02-13. No research added per instructions. |
-| A83-P1-T2 | Add to old_drafts.md | Complete | A83 added to old_drafts.md. Placed in Tier 2. File count updated to 14. |
-| A83-P1-T3 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A84-P1-T1 | Reformat LLM Mad Libs notes as article | Complete | `_drafts/llm_mad_libs_experiment.markdown` reformatted from terse notes into proper blog post structure. Assigned A84. Categories: ai ai-tools. Date: 2026-02-14. No research added per instructions. |
+| A84-P1-T2 | Rename old_drafts.md to draft_summary.md | Complete | `git mv` used. Title changed from "Old Drafts Review" to "Draft Summary". Opening prose updated. |
+| A84-P1-T3 | Add A84 to draft_summary.md | Complete | A84 added to draft_summary.md. Placed in Tier 2. File count updated to 15. |
+| A84-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A83 assigned to "Safe Embedded Functional Control DSL". Categories: dsl embedded development safety. Date: 2026-02-13.
-- Human pilot added raw specification notes to a new draft file. Notes reformatted into article prose without adding research.
-- Article proposes a functional DSL for safety-critical embedded control (aerospace drone control logic).
-- The language is designed to be provable and certifiable but is not itself a proof language.
-- Key features: pure functional evaluation, pipelines with @ placeholder, exhaustive pattern matching, multi-headed functions, ADTs, strong typing with effect annotations, hot code updates at tick/epoch boundaries, concurrency-safe immutable state.
-- Runtime: stack-based VM, deterministic resource usage, Rust host integration, capabilities-based resource access.
+- A84 assigned to "LLM Mad Libs Experiment". Categories: ai ai-tools. Date: 2026-02-14.
+- Human pilot added terse experiment notes to a new draft file. Notes reformatted into article prose without adding research.
+- Experiment demonstrates two LLM properties: (1) LLMs are effective blank-fillers via next-token prediction, (2) LLMs are sycophantically compliant and follow instructions even when they conflict with surrounding context.
+- Three-step experiment: Session A generates dark Mad Libs template, Session B fills it cheerfully under instruction (producing tonally dissonant output), Step 3 uses a context-aware prompt to reveal the model understands the dark theme.
+- Observations cover compliance, template structure as meaning, instruction-over-pattern behavior, and prompt engineering implications.
 - No external references consulted. Research deferred to future prompt.
-- Placed in Tier 2 (publishable with significant effort) in old_drafts.md.
+- old_drafts.md renamed to draft_summary.md per PROMPT.md instructions. Title changed to "Draft Summary".
+- Placed in Tier 2 (publishable with significant effort) in draft_summary.md.
 
 ## History
 
@@ -63,4 +65,5 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A78-P4: A78 published with 2026-02-09 date. Timestamp adjusted to avoid future-dating. |
 | 2026-02-08 | A81-P1: A81 "Magic Cards as a Model of Virtual Goods" drafted (9 references). A78 date fix committed. |
 | 2026-02-08 | A82-P1: A82 "Introduction to Astronomy" drafted (8 references). Elevated to release candidate. |
-| 2026-02-08 | A83-P1: A83 "Safe Embedded Functional Control DSL" reformatted from notes. No research. Added to old_drafts.md Tier 2. |
+| 2026-02-08 | A83-P1: A83 "Safe Embedded Functional Control DSL" reformatted from notes. No research. Added to draft_summary.md Tier 2. |
+| 2026-02-08 | A84-P1: A84 "LLM Mad Libs Experiment" reformatted from notes. No research. old_drafts.md renamed to draft_summary.md. |
