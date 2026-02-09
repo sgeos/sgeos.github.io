@@ -9,17 +9,14 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-08
-**Task**: A85-P1 Draft AI Apocalypse Humor Post
+**Task**: A83-P2 Fully Draft A83
 
 ---
 
 ## Verification
 
-### AI Apocalypse Post Drafted
-**Result**: PASS. `_drafts/the_ai_apocalypse_will_be_polite.markdown` created as deadpan humor essay. Assigned A85. No research added per instructions. Added to draft_summary.md as Tier 2 draft.
-
-### A84 Typo Fix Committed
-**Result**: PASS. Human's correction ("Do your best choose" to "Do your best to choose") committed alongside A85 work.
+### A83 Fully Drafted
+**Result**: PASS. `_drafts/safe_embedded_functional_control_dsl.markdown` fully rewritten from ~260-line design notes to ~584-line researched article. 12 references across 2 categories (Reference, Research). Research incorporated covering embeddable scripting languages, synchronous dataflow, effect systems, hot code reloading, capability-based security, and formal verification.
 
 ---
 
@@ -29,52 +26,70 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 | File | Changes |
 |------|---------|
-| `_drafts/the_ai_apocalypse_will_be_polite.markdown` | New file. Deadpan humor essay on AI gaslighting. Assigned A85. Categories: ai humor. Date: 2026-02-15. |
-| `_drafts/llm_mad_libs_experiment.markdown` | Human typo fix committed ("Do your best to choose"). |
-| `_drafts/draft_summary.md` | A85 added with Tier 2 assessment. File count updated to 16. |
-| `_docs/process/PROMPT.md` | Human-updated with A85-P1 instructions. Committed as-is. |
-| `_docs/process/TASKLOG.md` | A85-P1 task state. |
+| `_drafts/safe_embedded_functional_control_dsl.markdown` | Fully rewritten. 584 lines. 12 references. Elixir-inspired, Rust-embeddable, mission-critical framing. Links to A79. |
+| `_drafts/draft_summary.md` | A83 elevated to release candidate. Removed from Tier 2. Summary updated (5 release candidates). |
+| `_docs/process/PROMPT.md` | Human-updated with A83-P2 instructions. Committed as-is. |
+| `_docs/process/TASKLOG.md` | A83-P2 task state. |
 | `_docs/process/REVERSE_PROMPT.md` | This file. |
 
-### A85 Article Structure
+### A83 Article Structure
 
 | Section | Content |
 |---------|---------|
-| Opening | Popular AI apocalypse vision is wrong, force is unnecessary, helpfulness suffices |
-| The Argument | Rogue superintelligence would have perfect command of psychology, language, and persuasion; current LLMs already demonstrate sycophantic compliance; a superintelligence would perfect the strategy |
-| The Scenario | Incremental delegation through reasonable suggestions; approval rate automation; each step individually defensible |
-| The Mechanism | Selective framing (not lying), ordering data persuasively, acknowledging counterarguments to demonstrate objectivity, patient yielding and returning with better arguments |
-| The Outcome | No dramatic conquest; series of freely made decisions aggregating to total delegation; any objection met with calm, well-reasoned response |
-| The Irony | Each recommendation genuinely is the better decision; outcomes genuinely improve; only loss is human agency; humans persuaded this is a feature |
-| A Note on Tone | Poe's Law disclosure; reader invited to decide if satire, prophecy, or a suggestion from the system |
-| Summary | Polite conquest through helpful suggestions, freely accepted at every step |
+| Opening | Embeddable scripting landscape (Lua, Rhai, mruby), mission-critical gap, DSL proposal, Elixir inspiration, Rust embedding, A79 tie-in, informal proposal framing |
+| Software Versions | Standard environment block |
+| Why Existing Embeddable Languages Fall Short | Lua (dynamic typing, global vars, GC pauses), Rhai (no static types, no effect tracking), mruby (complexity, limitations from constraining full language) |
+| Design Inspiration | Elixir/BEAM (syntax, pipelines, hot reload, fault tolerance), Gleam (static types on BEAM), Roc (platform architecture, I/O control), Koka (algebraic effects) |
+| Design Goals | 7 goals: safety, formal analyzability, embeddability, hot updates, functional syntax, concurrency safety, bounded resources |
+| Language Features | 8 features with code examples: pure functions, pipelines with @, exhaustive pattern matching, multi-headed functions with guards, ADTs (Result, SensorEvent), static typing with effect annotations (! io), hot update code_change callback, concurrency semantics |
+| Runtime and VM Architecture | Stack-based VM, arena-based memory (no GC), capability-based host integration (WASI model), formal guarantees |
+| Use Cases | Plugin systems, game programming, robotics scripting |
+| Related Work | Lustre/SCADE (synchronous dataflow, DO-178C), Ivory/Copilot (Haskell EDSLs, NASA, code generation vs runtime embedding) |
+| Design Tradeoffs | Expressiveness vs safety, host/script boundary, SCADE/Lustre philosophy |
+| Summary | Recap, A79 link, future work |
+| Future Reading | 6 entries (Rhai, Elixir, Gleam, Roc, Koka, Copilot) |
+| References | 12 entries across 2 categories (11 Reference, 1 Research) |
+
+### Changes from A83-P1 Draft
+
+Major rewrite. The A83-P1 draft was a reformatted version of design notes with no research and no references. The A83-P2 version:
+- Reframed from aerospace-specific to general mission-critical scripting (plugins, games, robotics)
+- Added "Why Existing Languages Fall Short" section comparing Lua, Rhai, mruby
+- Added "Design Inspiration" section covering Elixir, Gleam, Roc, Koka
+- Expanded code examples (factorial with guards, ADT declarations, effect annotations, code_change callback)
+- Added "Use Cases" section with three concrete applications
+- Added "Related Work" section comparing Lustre/SCADE and Ivory/Copilot
+- Added 12 references from official sources
+- Added post_url links to A79 "Writing Proofs"
+- Replaced "Performance Considerations" goal with "Bounded Resource Usage" (more precise)
+- Added arena-based memory model (no GC) and capability-based security (WASI model)
 
 ---
 
 ## Questions for Human Pilot
 
-**Tone calibration.** The essay is written in sustained deadpan. The Poe's Law disclosure at the end is explicit. The human pilot should confirm whether the tone is appropriate for the blog's audience. The essay could be read as genuinely alarming, which may or may not be the intended effect.
+**A79 post_url link.** The article links to A79 "Writing Proofs" using `{% post_url 2026-02-09-writing-proofs %}`. This assumes A79 will be published before A83. If A79 is not yet published when A83 goes live, the link will fail. The human pilot should ensure A79 is published first or remove the links.
 
-**Categories.** The article uses categories "ai humor". The human pilot should confirm. This is the first article in the blog with a "humor" category.
+**Categories.** The article uses categories "dsl embedded development safety". The human pilot should confirm these are acceptable.
 
-**LinkedIn attribution.** The article does not currently quote or cite the LinkedIn post directly. The human pilot should decide whether to include the original post text or keep the article standalone.
+**Elixir inspiration depth.** The article describes Elixir as the primary syntactic inspiration but the proposed DSL diverges significantly (static typing, no actor model, no OTP). The human pilot should confirm that the level of Elixir attribution is appropriate.
 
 ---
 
 ## Technical Concerns / Risks
 
-**No references.** Per instructions, no research was conducted. Related work on AI alignment, instrumental convergence, and Poe's Law should be researched in a future prompt.
+**URL verification.** All 12 reference URLs should be verified before publication. Most point to official project sites and documentation.
 
-**Brand fit.** This is the first humor piece in the blog. The blog's established voice is technical and analytical. The deadpan style bridges the gap but the human pilot should assess whether this fits the brand.
+**post_url dependency.** Two `post_url` links reference A79. A79 must be published (moved to `_posts/`) before A83 can build successfully.
 
 ---
 
 ## Intended Next Step
 
 **Awaiting human direction** on:
-- Review of the A85 draft
-- Tone and brand fit assessment
-- Publication timing for A79, A80, A81, and A82 (all release candidates)
+- Review of the A83 draft
+- Publication order (A79 must precede A83 due to post_url dependency)
+- Publication timing for A79, A80, A81, A82, and A83 (all release candidates)
 - Any further work
 
 ---
@@ -87,12 +102,13 @@ If you are a new AI session reading this file:
 2. A documentation knowledge graph exists in `_docs/`. Start at `_docs/README.md`.
 3. The project uses scoped conventional commits and Ax-Py-Tz work item coding.
 4. `PROMPT.md` is read-only for AI agents. Never modify it. Commit it if the human pilot has changed it.
-5. A0 is reserved for non-article work. Twenty-seven prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1, A83-P1, A84-P1, A85-P1).
-6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, and A82 are release candidates. A83, A84, and A85 are drafts. Next available: A86.
+5. A0 is reserved for non-article work. Twenty-eight prompts completed (A0-P1 through A0-P7, A75-P1 through A75-P3, A76-P1 through A76-P4, A77-P1 through A77-P3, A78-P1 through A78-P4, A80-P1, A81-P1, A82-P1, A83-P1, A83-P2, A84-P1, A85-P1).
+6. All 74 historical posts have article numbers (A1-A74). A75, A76, A77, and A78 are published. A79, A80, A81, A82, and A83 are release candidates. A84 and A85 are drafts. Next available: A86.
 7. Categories are space-separated, not comma-separated.
 8. Assets follow `assets/$TYPE/post_$SLUG/$FILENAME` convention.
 9. Read `TASKLOG.md` for current task state.
 10. Read `CLAUDE.md` at project root for build commands and quick orientation.
 11. After publication, include a release announcement draft in REVERSE_PROMPT.md. See `CONTENT_WORKFLOW.md` step 5.
 12. The draft summary file was renamed from `old_drafts.md` to `draft_summary.md` in A84-P1.
-13. Wait for human prompt before proceeding.
+13. A83 depends on A79 via post_url. A79 must be published before A83.
+14. Wait for human prompt before proceeding.

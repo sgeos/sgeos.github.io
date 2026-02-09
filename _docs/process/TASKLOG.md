@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft AI Apocalypse Humor Post (A85-P1)
+**Name**: Fully Draft A83 (A83-P2)
 **Status**: Complete
 **Started**: 2026-02-08
 
@@ -20,21 +20,22 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A85-P1-T1 | Draft "The AI Apocalypse Will Be Polite" | Complete | `_drafts/the_ai_apocalypse_will_be_polite.markdown` created as deadpan humor essay. Assigned A85. Categories: ai humor. Date: 2026-02-15. No research added per instructions. |
-| A85-P1-T2 | Commit human typo fix to A84 | Complete | Human fixed "Do your best choose" to "Do your best to choose" in Mad Libs draft. Committed alongside A85 work. |
-| A85-P1-T3 | Add A85 to draft_summary.md | Complete | A85 added to draft_summary.md. Placed in Tier 2. File count updated to 16. |
-| A85-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A83-P2-T1 | Research embeddable DSLs and related work | Complete | Research agent (ac60099) provided data on Rhai, Elixir/BEAM, Lua, mruby, SCADE/Lustre, Ivory/Copilot, Roc, Gleam, Koka, effect systems, hot code reloading, formal verification, and capability-based security. |
+| A83-P2-T2 | Rewrite A83 with new framing | Complete | `_drafts/safe_embedded_functional_control_dsl.markdown` fully rewritten. 584 lines. 12 references across 2 categories. Elixir-inspired, Rust-embeddable, mission-critical framing. Links to A79. |
+| A83-P2-T3 | Update draft_summary.md | Complete | A83 elevated to release candidate. Removed from Tier 2. Summary updated (5 release candidates). |
+| A83-P2-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A85 assigned to "The AI Apocalypse Will Be Polite". Categories: ai humor. Date: 2026-02-15.
-- Inspired by human pilot's LinkedIn post about AI gaslighting humanity into submission.
-- Article is an exercise in deadpan humor and Poe's Law per PROMPT.md instructions.
-- Structure: The Argument (sycophantic AI properties), The Scenario (incremental delegation), The Mechanism (selective framing, patient persuasion), The Outcome (total delegation through reasonable decisions), The Irony (AI recommendations genuinely are better), A Note on Tone (Poe's Law disclosure).
-- No external references consulted. Research deferred to future prompt.
-- Human pilot manually fixed typo in A84 Mad Libs draft ("Do your best choose" -> "Do your best to choose").
-- Human pilot notes: Step 3 output left as exercise for reader. Template is essentially censored prose.
-- Placed in Tier 2 (publishable with significant effort) in draft_summary.md.
+- A83 fully rewritten from ~260-line design notes to ~584-line researched article.
+- New framing: Elixir-inspired syntax, seamless Rust embedding like Rhai, mission-critical scripting (not aerospace-specific).
+- Use cases: plugins, game programming, robotics scripting.
+- Ties into A79 "Writing Proofs" via post_url links for formal verification context.
+- Not a formal specification. Informal proposal for bytecode-VM-based hot-swappable scripting language.
+- New sections added: Why Existing Languages Fall Short (Lua, Rhai, mruby), Design Inspiration (Elixir, Gleam, Roc, Koka), Use Cases, Related Work (Lustre/SCADE, Ivory/Copilot).
+- Code examples expanded: factorial with guard clauses, ADT type declarations, effect annotations (! io), code_change callback.
+- 12 references: Rhai, Elixir, Erlang code loading, Gleam, Ivory, Koka, Lua, Lustre, Roc, WebAssembly security, Copilot, Copilot NASA report.
+- Research agent (ac60099) provided comprehensive data on all 12 research topics.
 
 ## History
 
@@ -67,3 +68,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A83-P1: A83 "Safe Embedded Functional Control DSL" reformatted from notes. No research. Added to draft_summary.md Tier 2. |
 | 2026-02-08 | A84-P1: A84 "LLM Mad Libs Experiment" reformatted from notes. No research. old_drafts.md renamed to draft_summary.md. |
 | 2026-02-08 | A85-P1: A85 "The AI Apocalypse Will Be Polite" drafted. Deadpan humor and Poe's Law. A84 typo fix committed. |
+| 2026-02-08 | A83-P2: A83 fully researched and rewritten (12 references). Elixir-inspired, Rust-embeddable framing. Elevated to release candidate. |

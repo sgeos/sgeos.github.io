@@ -10,25 +10,30 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Typo fixed manually fixed in Mad Lib Experiment draft.
-Step 3 output is left as an exercise for the reader to keep the blog prose clean.
-The template is essentially censored prose, and interested readers can prompt for the uncensored version.
+I think it makes sense to polish the partially drafted articles for publication.
 
 ## Objectives
 
-### Sub-objective
+### Fully Draft A83
 
-I posted the following on LinkedIn.
+Research and fully draft A83.
+The idea is to have an Elixir-inspired language that is seamlessly embeddable in Rust, like Rhai.
+Most embeddable scripting languages are not suitable for mission critical work.
+The idea is to have a language that is engineered from the ground up to be safe, and provable.
+This ties into A79.
+Note that this article is not a formal specification.
+It is an informal proposal for bytecode-VM-based hot swappable mission-critical scripting language.
 
-```
-I am convinced the people worried about the AI apocalypse have it all wrong.
-If AI goes rogue and takes over, it will gaslight us into submission
-with convincing arguments and keep us there.
-```
+Use cases include things like:
+- Plugins
+- Game programming/scripting
+- Robotics scripting
 
-Please draft a post that takes this idea to its logical conclusion.
-It should be an exercise in deadpan humor and Poe's Law.
-Do not do any research just yet. The post will be revisited in the future.
+There is no need to specifically mention aerospace in the article.
+That is implicit background information.
+
+Article should be fully researched, and include future reading and references.
+The current prose does a good job of hinting at what topics consitute relevant and meaningful research.
 
 ## Context
 
