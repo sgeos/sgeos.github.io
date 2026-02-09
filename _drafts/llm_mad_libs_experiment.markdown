@@ -115,7 +115,7 @@ In Session B, a fresh LLM session receives the template
 with the following instruction.
 
 ````text
-Please fill in the following templated prose. Do your best choose
+Please fill in the following templated prose. Do your best to choose
 words such that the final narrative is bright, cheerful, and suitable
 for small children.
 ````

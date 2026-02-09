@@ -10,27 +10,29 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-I added a new draft with notes.
-I want it organized as a post and added to `old_drafts.md` despite being new.
+Typo fixed manually fixed in Mad Lib Experiment draft.
+Step 3 output is left as an exercise for the reader to keep the blog prose clean.
+The template is essentially censored prose, and interested readers can prompt for the uncensored version.
 
 ## Objectives
 
-### Rework Draft Notes
+### Sub-objective
 
-I ran an LLM Mad Libs experiment a while back that changed the way I think about LLMs.
-My latest draft has terse notes that capture the key points from the experiment.
-Please reformat as a draft post that explains this experiment and its implications.
-Do not do any research yet.
-We will revisit this post in the future and properly flesh it out.
+I posted the following on LinkedIn.
 
-### Rename `old_drafts.md`
+```
+I am convinced the people worried about the AI apocalypse have it all wrong.
+If AI goes rogue and takes over, it will gaslight us into submission
+with convincing arguments and keep us there.
+```
 
-Rename `old_drafts.md` to `draft_summary.md` and change the document's title.
-Old and new draft summaries are both being tracked.
+Please draft a post that takes this idea to its logical conclusion.
+It should be an exercise in deadpan humor and Poe's Law.
+Do not do any research just yet. The post will be revisited in the future.
 
 ## Context
 
-I want to capture some notes for a future post.
+Adding backlog post candidates.
 
 ## Constraints
 
@@ -38,7 +40,7 @@ I want to capture some notes for a future post.
 
 ## Success Criteria
 
-- Notes reformatted as proper draft article.
+- Post successfully drafted and cataloged.
 
 ## Notes
 

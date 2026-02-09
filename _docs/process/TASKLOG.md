@@ -8,33 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Rework Draft Notes, Rename Draft Summary (A84-P1)
+**Name**: Draft AI Apocalypse Humor Post (A85-P1)
 **Status**: Complete
 **Started**: 2026-02-08
 
 ## Success Criteria
 
-- [x] Notes reformatted as proper draft article
-- [x] old_drafts.md renamed to draft_summary.md with updated title
+- [x] Post successfully drafted and cataloged
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A84-P1-T1 | Reformat LLM Mad Libs notes as article | Complete | `_drafts/llm_mad_libs_experiment.markdown` reformatted from terse notes into proper blog post structure. Assigned A84. Categories: ai ai-tools. Date: 2026-02-14. No research added per instructions. |
-| A84-P1-T2 | Rename old_drafts.md to draft_summary.md | Complete | `git mv` used. Title changed from "Old Drafts Review" to "Draft Summary". Opening prose updated. |
-| A84-P1-T3 | Add A84 to draft_summary.md | Complete | A84 added to draft_summary.md. Placed in Tier 2. File count updated to 15. |
-| A84-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A85-P1-T1 | Draft "The AI Apocalypse Will Be Polite" | Complete | `_drafts/the_ai_apocalypse_will_be_polite.markdown` created as deadpan humor essay. Assigned A85. Categories: ai humor. Date: 2026-02-15. No research added per instructions. |
+| A85-P1-T2 | Commit human typo fix to A84 | Complete | Human fixed "Do your best choose" to "Do your best to choose" in Mad Libs draft. Committed alongside A85 work. |
+| A85-P1-T3 | Add A85 to draft_summary.md | Complete | A85 added to draft_summary.md. Placed in Tier 2. File count updated to 16. |
+| A85-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A84 assigned to "LLM Mad Libs Experiment". Categories: ai ai-tools. Date: 2026-02-14.
-- Human pilot added terse experiment notes to a new draft file. Notes reformatted into article prose without adding research.
-- Experiment demonstrates two LLM properties: (1) LLMs are effective blank-fillers via next-token prediction, (2) LLMs are sycophantically compliant and follow instructions even when they conflict with surrounding context.
-- Three-step experiment: Session A generates dark Mad Libs template, Session B fills it cheerfully under instruction (producing tonally dissonant output), Step 3 uses a context-aware prompt to reveal the model understands the dark theme.
-- Observations cover compliance, template structure as meaning, instruction-over-pattern behavior, and prompt engineering implications.
+- A85 assigned to "The AI Apocalypse Will Be Polite". Categories: ai humor. Date: 2026-02-15.
+- Inspired by human pilot's LinkedIn post about AI gaslighting humanity into submission.
+- Article is an exercise in deadpan humor and Poe's Law per PROMPT.md instructions.
+- Structure: The Argument (sycophantic AI properties), The Scenario (incremental delegation), The Mechanism (selective framing, patient persuasion), The Outcome (total delegation through reasonable decisions), The Irony (AI recommendations genuinely are better), A Note on Tone (Poe's Law disclosure).
 - No external references consulted. Research deferred to future prompt.
-- old_drafts.md renamed to draft_summary.md per PROMPT.md instructions. Title changed to "Draft Summary".
+- Human pilot manually fixed typo in A84 Mad Libs draft ("Do your best choose" -> "Do your best to choose").
+- Human pilot notes: Step 3 output left as exercise for reader. Template is essentially censored prose.
 - Placed in Tier 2 (publishable with significant effort) in draft_summary.md.
 
 ## History
@@ -67,3 +66,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-08 | A82-P1: A82 "Introduction to Astronomy" drafted (8 references). Elevated to release candidate. |
 | 2026-02-08 | A83-P1: A83 "Safe Embedded Functional Control DSL" reformatted from notes. No research. Added to draft_summary.md Tier 2. |
 | 2026-02-08 | A84-P1: A84 "LLM Mad Libs Experiment" reformatted from notes. No research. old_drafts.md renamed to draft_summary.md. |
+| 2026-02-08 | A85-P1: A85 "The AI Apocalypse Will Be Polite" drafted. Deadpan humor and Poe's Law. A84 typo fix committed. |
