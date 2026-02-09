@@ -10,20 +10,16 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Minor edits made to A83.
+A84 is good enough.
 I think it makes sense to polish the partially drafted articles for publication.
 
 ## Objectives
 
-### Verify A83 Edits
+### Fully Draft A85
 
-Minor edits made to A83.
-Please verify and correct prose if sensible.
-
-### Fully Draft A84
-
-Research and fully draft A84.
+Research and fully draft A85.
 Article should be fully researched, and include future reading and references.
+Make sure to reference A84.
 The current prose does a good job of hinting at what topics consitute relevant and meaningful research.
 
 ## Context
@@ -36,7 +32,6 @@ Adding backlog post candidates.
 
 ## Success Criteria
 
-- A83 verified, and edited if sensible.
 - Post successfully drafted and cataloged.
 
 ## Notes
