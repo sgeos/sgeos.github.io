@@ -8,36 +8,37 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A83 (A83-P3)
+**Name**: Publish A79, Catalog Stubs (A79-P1)
 **Status**: Complete
 **Started**: 2026-02-09
 
 ## Success Criteria
 
-- [x] Post successfully drafted and cataloged
+- [x] A79 published
+- [x] Links to A79 corrected
+- [x] Stub drafts cataloged and committed
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A83-P3-T1 | Apply 8 human-suggested revisions to A83 | Complete | All 8 revisions applied: (1) explicit threat model after intro, (2) bytecode as semantic ground truth in VM Design, (3) numeric determinism after Type System, (4) pipeline desugaring note in Pipelines, (5) termination and boundedness in Bounded Resource Usage, (6) formally analyzable vs verified in Safety and Formal Guarantees, (7) non-goals subsection after Design Goals, (8) reference VM architectures subsection in Related Work (SECD, Lua 5.1, WebAssembly, JVM). |
-| A83-P3-T2 | Add references for VM architecture models | Complete | 4 new references added: JVM Specification, The Implementation of Lua 5.0, SECD Machine, WebAssembly Core Specification. Total references: 16 (was 12). Future Reading updated with Lua impl paper and WebAssembly spec. |
-| A83-P3-T3 | Update draft_summary.md | Complete | A83 entry updated to reflect revisions and 16 references. |
-| A83-P3-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A79-P1-T1 | Catalog stub drafts | Complete | A86 "Mission Command Management Style" and A87 "Telemeritocracy" assigned article numbers. `new_draft.markdown` identified as template copy. All three added to draft_summary.md. |
+| A79-P1-T2 | Publish A79 | Complete | `_drafts/writing-proofs.markdown` moved to `_posts/2026-02-10-writing-proofs.markdown`. Human-adjusted date (2026-02-10) preserved. |
+| A79-P1-T3 | Fix A83 post_url links | Complete | Two post_url references in A83 updated: `%{ post_url 2026-02-09-writing-proofs %}` changed to `{% post_url 2026-02-10-writing-proofs %}` (syntax fixed and date updated). |
+| A79-P1-T4 | Update draft_summary.md | Complete | A79 removed from release candidates (now published). A86, A87, and new_draft entries added. Summary updated: 6 release candidates, 2 stubs. Stub tier added. |
+| A79-P1-T5 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. Release announcement included. |
 
 ## Notes
 
-- All 8 revisions from human-provided suggestions applied.
-- Article grew from 591 lines to 688 lines.
-- References grew from 12 to 16 (4 new VM architecture references).
-- Threat model clarifies trusted host, untrusted script author, trusted computing base.
-- Bytecode ground truth statement anchors all analysis at bytecode level.
-- Numeric determinism acknowledges f32/IEEE-754 concerns for safety-critical readers.
-- Pipeline desugaring note resolves analyzability questions about multiple placeholders.
-- Termination and boundedness additions address recursion and static provability.
-- Formally analyzable vs verified distinction prevents overclaiming.
-- Non-goals list clarifies what the language intentionally excludes.
-- Reference VM architectures (SECD, Lua 5.1, WebAssembly, JVM) inform bytecode VM design.
+- A79 "Writing Proofs" published with human-adjusted date 2026-02-10.
+- A83 post_url links fixed: syntax (`%{` to `{%`) and date (`2026-02-09` to `2026-02-10`).
+- A86 "Mission Command Management Style" is a stub about management style categories and mission command doctrine.
+- A87 "Telemeritocracy" is a stub about telocracy, meritocracy, and their synthesis. References A86.
+- `new_draft.markdown` appears to be a leftover template copy from the stub creation workflow.
+- A79 was the first dependency in the chain: A79 before A83. This dependency is now resolved.
+- Remaining dependency: A84 before A85.
+- 6 release candidates remain: A80, A81, A82, A83, A84, A85.
+- Next available article number: A88.
 
 ## History
 
@@ -74,3 +75,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-09 | A84-P2: A83 human edits verified (pipeline placeholder, typo fix). A84 fully researched and rewritten (10 references). Elevated to release candidate. |
 | 2026-02-09 | A85-P2: A85 fully researched and rewritten (11 references). Deadpan humor preserved. New "The Research" section. A84 linked via post_url. Elevated to release candidate. |
 | 2026-02-09 | A83-P3: A83 revised with 8 human-suggested refinements. Threat model, bytecode ground truth, numeric determinism, pipeline desugaring, termination bounds, analyzable vs verified, non-goals, reference VM architectures. 16 references (was 12). |
+| 2026-02-09 | A79-P1: A79 "Writing Proofs" published (2026-02-10 date). A83 post_url links fixed. Stub drafts cataloged: A86 "Mission Command Management Style", A87 "Telemeritocracy". |

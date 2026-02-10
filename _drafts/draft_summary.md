@@ -228,24 +228,6 @@ Eight references from official sources (NASA, ESA, IAU, OpenStax, Hubble).
 **Remaining Work**:
 Human review, URL verification, and local MathJax rendering check before publication.
 
-### Writing Proofs — Release Candidate
-
-**File**: `writing-proofs.markdown`
-**Article**: A79, "Writing Proofs"
-**Topic**: Mathematical proof techniques, software verification, and formal verification in the age of agentic workflows
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Rewritten from an empty stub into a full article.
-Covers five proof techniques (direct, contradiction, contrapositive, induction, constructive) with worked examples.
-Extends into software verification (Hoare logic, Curry-Howard, TLA+, CompCert, Lean 4, seL4)
-and agentic formal verification (AlphaProof, Hilbert, APOLLO, Safe).
-Fifteen references across five categories (Blog, Book, Industry, Research, Tool).
-
-**Remaining Work**:
-Human review, URL verification, and local MathJax rendering check before publication.
-
 ### Safe Embedded Functional Control DSL — Release Candidate
 
 **File**: `safe_embedded_functional_control_dsl.markdown`
@@ -326,6 +308,43 @@ Links to A84 via post_url.
 **Remaining Work**:
 Human review, URL verification, and tone assessment before publication.
 
+### Mission Command Management Style — Stub
+
+**File**: `mission_command_management_style.markdown`
+**Article**: A86, "Mission Command Management Style"
+**Topic**: Mission command management style, standard management categories, history, and appropriate use cases
+**Completion**: ~5%
+**Publication Sensibility**: Medium
+**Status**: Stub
+
+Topic outline only. Covers standard management style categories, why mission command is absent from common quizzes, history, advantages, disadvantages, and appropriate use cases.
+
+**Remaining Work**:
+Draft all prose. Research management style taxonomies and mission command doctrine. Add categories, Software Versions, and references.
+
+### Telemeritocracy — Stub
+
+**File**: `telemeritocracy.markdown`
+**Article**: A87, "Telemeritocracy"
+**Topic**: Telocracy, meritocracy, and their synthesis as telemeritocracy
+**Completion**: ~5%
+**Publication Sensibility**: Medium
+**Status**: Stub
+
+Topic outline only. Defines telocracy, notes anti-democratic properties, defines meritocracy, synthesizes telemeritocracy. Includes history, advantages, disadvantages, and appropriate use cases. References the Mission Command article (A86).
+
+**Remaining Work**:
+Draft all prose. Research telocracy and meritocracy concepts. Add categories, Software Versions, and references. A86 should be published before A87 if the reference is via post_url.
+
+### New Draft (Template Copy)
+
+**File**: `new_draft.markdown`
+**Topic**: None (template copy)
+**Completion**: N/A
+**Publication Sensibility**: N/A
+
+This file appears to be a leftover copy of the template from the stub creation workflow. It contains no unique content.
+
 ### Template
 
 **File**: `template.markdown`
@@ -337,13 +356,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Seven drafts have been elevated to release candidate status.
+Eighteen files exist in `_drafts/`. One is a template. One is a template copy.
+Six drafts have been elevated to release candidate status.
+Two new stubs have been added.
+Writing Proofs (A79) has been published.
 
-The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
+The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Writing Proofs (A79), the Probability and Statistics Reference (A80),
+The Probability and Statistics Reference (A80),
 Magic Cards as a Model of Virtual Goods (A81),
 Introduction to Astronomy (A82),
 Safe Embedded Functional Control DSL (A83),
@@ -366,6 +387,10 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 
 **Tier 4: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
+
+**Stubs.**
+Mission Command Management Style (A86) and Telemeritocracy (A87) are topic outlines with no drafted prose.
+A87 references A86.
 
 ## Candidate Future Post Topics
 

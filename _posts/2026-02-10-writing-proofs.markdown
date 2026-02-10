@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Writing Proofs"
-date: 2026-02-09 20:08:56 +0000
+date: 2026-02-10 01:02:22 +0000
 categories: math development ai
 ---
 
@@ -39,7 +39,7 @@ that humans must verify.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-09 20:08:56 +0000
+2026-02-10 01:02:22 +0000
 
 # OS and Version
 $ uname -vm
