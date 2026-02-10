@@ -10,35 +10,37 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-It is time to publish a backlog article.
-Also, a couple of stub drafts about topics I want to cover have been added.
+Prepare to publish backlogged drafts.
 
 ## Objectives
 
 ### Catalog Stub Drafts
 
-Catalog and commit added stub drafts.
+Please use the template in `_docs/process/CONTENT_WORKFLOW.md` to generate release announcements for:
 
-### Publish A79
+- A80
+- A81
+- A82
+- A83
+- A84
+- A85
 
-Publish A79. Date has been adjusted.
-After publishing, correct links to A79 in A83.
+Update reverse prompt with one announcement at a time.
 
 ## Context
 
-It is time to publish a backlog article.
-Also, a couple of stub drafts about topics I want to cover have been added.
+I am almost out of tokens for the week, so I will need to publish without you.
 
 ## Constraints
 
-(no comment)
+Update reverse prompt with one announcement at a time.
+I will probably hit the token limit before you finish.
 
 ## Success Criteria
 
-- A79 published.
-- Links to A79 corrected.
-- Stub drafts cataloged and committed.
+- Release announcement for each article in reverese prompt.
+- Partial success OK because I will probably run out of tokens.
 
 ## Notes
 
-Remember release announcement in reverse prompt.
+(no comment)
