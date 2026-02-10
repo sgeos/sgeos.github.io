@@ -41,7 +41,7 @@ and prioritizes formal analyzability
 so that programs written in it
 can be subjected to the proof techniques
 discussed in
-%{ post_url 2026-02-09-writing-proofs %}.
+{% post_url 2026-02-10-writing-proofs %}.
 This is not a formal specification.
 It is an informal proposal
 for a bytecode-VM-based, hot-swappable scripting language
@@ -604,7 +604,7 @@ and hot code updates at explicit boundaries.
 These properties make programs written in the language
 amenable to formal verification
 using the techniques described in
-%{ post_url 2026-02-09-writing-proofs %}.
+{% post_url 2026-02-10-writing-proofs %}.
 
 The proposal is informal.
 Future work includes defining formal operational semantics,
