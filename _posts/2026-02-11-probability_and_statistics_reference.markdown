@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Probability and Statistics Reference"
-date: 2026-02-10 20:53:31 +0000
+date: 2026-02-11 07:34:17 +0000
 categories: math statistics probability
 ---
 
@@ -40,7 +40,7 @@ in probability and statistics for engineers.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-10 20:53:31 +0000
+2026-02-11 07:34:17 +0000
 
 # OS and Version
 $ uname -vm
