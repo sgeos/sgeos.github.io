@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Magic Cards as a Model of Virtual Goods"
-date: 2026-02-11 00:00:00 +0000
+date: 2026-02-13 07:51:26 +0000
 categories: mtg gamedev economics
 ---
 
@@ -51,7 +51,7 @@ including chase cards, bulk cards, and meta-defining game tokens.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-11 00:00:00 +0000
+2026-02-13 07:51:26 +0000
 
 # OS and Version
 $ uname -vm
