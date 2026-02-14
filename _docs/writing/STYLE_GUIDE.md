@@ -36,6 +36,7 @@ Posts are polite, professional, and academic in register. The writing is technic
 References in the `## References` section use a categorized format. Each entry is displayed as `[Category, Title][anchor]` where the anchor follows the pattern `category_abbreviated_title`.
 
 - Categories are short labels that group related references. Examples: AI, Claude Code, GitHub, Protocol, Research.
+- The category for other posts on the blog is `Related Post`.
 - References are sorted alphabetically by category, then by title within each category.
 - Anchor names use a lowercase abbreviation of the category as a prefix. Examples: `ai_`, `cc_`, `github_`, `protocol_`, `research_`.
 - URL definitions at the bottom of the file are sorted alphabetically by anchor name to match.
@@ -48,10 +49,12 @@ Example:
 - [AI, Effective Context Engineering][ai_context_engineering]
 - [Claude Code, Best Practices][cc_best_practices]
 - [GitHub, Reference Implementation][github_blog_repo]
+- [Related Post, Writing Proofs][related_post_writing_proofs]
 
 [ai_context_engineering]: https://example.com/context
 [cc_best_practices]: https://example.com/best-practices
 [github_blog_repo]: https://github.com/user/repo
+[related_post_writing_proofs]: {% post_url 2026-02-10-writing-proofs %}
 ```
 
 ## Mathematical Content
