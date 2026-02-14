@@ -136,3 +136,10 @@ Categories are lowercase and hyphenated. Common categories include but are not l
 - Hidden drafts (gitignored): `hidden.<slug>.markdown`
 
 The `_publish.sh` script extracts the date from front matter and prepends it to the filename during publication.
+
+Slugs should not begin with English articles such as "a," "an," or "the."
+This follows the common practice of dropping leading articles when alphabetizing titles.
+The post title in front matter may still begin with an article.
+
+- `apple_tree.markdown` not `an_apple_tree.markdown`
+- `half_life_coin.markdown` not `the_half_life_coin.markdown`

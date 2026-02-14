@@ -8,36 +8,46 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Research and Complete Half-Life Coin Draft, Sync Draft Summary (A88-P1)
+**Name**: Revise A88, Document Filename Convention, Sync Draft Summary (A88-P2)
 **Status**: Complete
 **Started**: 2026-02-14
 
 ## Success Criteria
 
-- [x] Half-Life Coin draft researched, complete, and nominally ready for publication.
-- [x] Draft summary reflects the current state of the blog.
+- [x] A88 retitled and renamed to "Radioactive Half-Life Demurrage Cryptocurrency Coin."
+- [x] A88 revised per PROMPT.md specifications (RISC-V, Task Binding, Economic Loop, Dispute Resolution, Design Tradeoffs).
+- [x] Filename convention (no leading articles in slugs) documented in knowledge graph.
+- [x] Draft summary reflects the current status of A86 and A87.
+- [x] Draft summary includes A89.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A88-P1-T1 | Research half-life coin topics | Complete | Research agent covered 7 topics: demurrage currencies, Bitcoin security budget, PoUW, RISC-V, half-life math, tokenomics, stochastic rewards. |
-| A88-P1-T2 | Rewrite half-life coin draft as A88 | Complete | `halflife_coin.markdown` renamed to `the_half_life_coin.markdown`. Title changed to "The Half-Life Coin." Article number A88 assigned. Date set to 2026-02-17. Categories fixed to space-separated `crypto economics math`. mathjax enabled. Duplicate sections removed. 609 lines, 13 references across 3 categories (Book, Reference, Research). |
-| A88-P1-T3 | Sync draft_summary.md | Complete | Published A80-A85 entries removed. `new_draft.markdown` entry removed. Half-life coin entry updated to reflect A88 release candidate status. Summary counts updated (12 files, 1 RC, 2 stubs). Candidate topics table updated with A88 references. |
-| A88-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
+| A88-P2-T1 | Rename and retitle A88 | Complete | File renamed from `the_half_life_coin.markdown` to `radioactive_half_life_demurrage_cryptocurrency_coin.markdown`. Title changed to "Radioactive Half-Life Demurrage Cryptocurrency Coin." |
+| A88-P2-T2 | Revise RISC-V section | Complete | Added paragraph distinguishing miner advantage (physical hardware) from smart contract developer advantage (standard toolchains like LLVM and GCC). |
+| A88-P2-T3 | Revise Task Binding section | Complete | Rewritten with deterministic smart contracts, salt values, hash of return value, and trivial PoW exercise. Two-phase verification structure. |
+| A88-P2-T4 | Revise Economic Loop section | Complete | Decay mechanism guarantees baseline subsidy. Optional fees for prioritization. No fee revenue required. |
+| A88-P2-T5 | Add Verification Licensing section | Complete | New subsection under Staking and Dispute Resolution. Periodic license tasks, pass/fail mechanics, boot and re-stake mechanism. |
+| A88-P2-T6 | Revise Design Tradeoffs | Complete | Consolidation rationale folded into Tier 1 Fractional Purge (deliberate design goal, blue chip investors, dust sweeping). Stake tuning paragraph added (miner EV less than 1.0 coin per cycle). Removed redundant consolidation and reaping paragraphs. |
+| A88-P2-T7 | Add RISC Zero reference | Complete | Added reference and Future Reading sentence for RISC Zero zkVM. 14 references total. |
+| A88-P2-T8 | Update Protocol Specification | Complete | Computation entry updated for smart contracts and salt-parameterized PoW. Verification Licensing entry added. |
+| A88-P2-T9 | Document filename convention | Complete | Added to POST_STRUCTURE.md File Naming section: slugs should not begin with articles (a, an, the). |
+| A88-P2-T10 | Sync draft_summary.md | Complete | A88 entry updated with new filename and title (14 references). A86 and A87 updated to reflect expanded outlines (~10%). A89 "Cryptotelemeritocracy" stub added. Summary counts updated (13 files, 1 RC, 3 stubs). |
+| A88-P2-T11 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A88 "The Half-Life Coin" fully rewritten from 154-line informal notes into a 609-line researched article.
-- Title changed from "Crypto With a Half Life" to "The Half-Life Coin." File renamed accordingly.
-- Article frames the protocol as a thought experiment rather than a product pitch.
-- Covers the security budget problem, demurrage history (Gesell, Fisher, Freicoin, Chiemgauer), half-life decay mathematics, hierarchical reaping, whole-coin quantization, proof of useful work on RISC-V, the economic loop, staking and dispute resolution, protocol specification, and design tradeoffs.
-- Design tradeoffs section explicitly flags plutocratic consolidation incentive, reaping order equity, task selection governance, and half-life parameter sensitivity.
-- A80-A85 have been published by the human. All former release candidates are now live.
-- `new_draft.markdown` was deleted in a previous commit. Entry removed from draft_summary.md.
-- Next available article number: A89.
-- 1 release candidate remains: A88.
-- 2 stubs remain: A86, A87.
+- A88 renamed from "The Half-Life Coin" to "Radioactive Half-Life Demurrage Cryptocurrency Coin." File renamed accordingly.
+- Five sections revised per human feedback. Verification Licensing added as new subsection.
+- Consolidation incentive and dust sweeping reframed as deliberate design features (not tradeoffs).
+- RISC Zero zkVM added as 14th reference.
+- Filename convention documented: slugs should not begin with English articles.
+- A86 and A87 now have expanded outlines (thesis, section headers, bullet points).
+- A89 "Cryptotelemeritocracy" added by human. Extends A87 with anonymous telos auditor.
+- Next available article number: A90.
+- 1 release candidate: A88.
+- 3 stubs: A86, A87, A89.
 
 ## History
 
@@ -77,3 +87,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-09 | A79-P1: A79 "Writing Proofs" published (2026-02-10 date). A83 post_url links fixed. Stub drafts cataloged: A86 "Mission Command Management Style", A87 "Telemeritocracy". |
 | 2026-02-09 | A0-P8: Release announcements generated for A80-A85. |
 | 2026-02-14 | A88-P1: A88 "The Half-Life Coin" fully researched and rewritten (13 references). Renamed from halflife_coin.markdown. Draft summary synced: published A80-A85 removed, new_draft removed, A88 elevated to release candidate. |
+| 2026-02-14 | A88-P2: A88 renamed to "Radioactive Half-Life Demurrage Cryptocurrency Coin." Five sections revised. Verification Licensing added. RISC Zero reference added (14 total). Filename convention documented in POST_STRUCTURE.md. Draft summary synced: A86/A87 updated to expanded outlines, A89 stub added (13 files, 1 RC, 3 stubs). |

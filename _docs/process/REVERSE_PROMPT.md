@@ -9,67 +9,54 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-14
-**Task**: A88-P1 Research and Complete Half-Life Coin Draft
+**Task**: A88-P2 Revise A88, Document Filename Convention, Sync Draft Summary
 
 ---
 
 ## Verification
 
-### A88 "The Half-Life Coin"
+### A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin"
 
-- File renamed from `halflife_coin.markdown` to `the_half_life_coin.markdown`.
-- Title changed from "Crypto With a Half Life" to "The Half-Life Coin."
-- Article number A88 assigned. Date set to 2026-02-17.
-- Categories fixed from `[tokenomics, game-theory, deflation, blockchain, incentive-design]` to `crypto economics math`.
-- `mathjax: true` enabled for mathematical notation.
-- Duplicate sections removed (Bespoke Reliability and Miner's Incentive each appeared twice in the original).
-- Informal sales-pitch tone replaced with academic prose following the blog's style guide.
-- Article reframed as a thought experiment rather than a product pitch.
-- 609 lines, 13 references across 3 categories (Book, Reference, Research).
+- File renamed from `the_half_life_coin.markdown` to `radioactive_half_life_demurrage_cryptocurrency_coin.markdown`.
+- Title changed from "The Half-Life Coin" to "Radioactive Half-Life Demurrage Cryptocurrency Coin."
+- RISC-V section revised: two advantages distinguished (physical hardware for miners, standard toolchains for smart contract developers).
+- Task Binding section rewritten: deterministic smart contracts assigned to miners with salt, hash of return value used for trivial PoW exercise, two-phase verification.
+- Economic Loop revised: decay guarantees baseline subsidy, fees are optional.
+- Verification Licensing subsection added: periodic license tasks, pass elevates to licensed verifier, fail forfeits stake and boots from pool, re-stake 1.0 coin to rejoin.
+- Consolidation rationale folded into Tier 1 Fractional Purge section (deliberate design goal, blue chip investor palatability, dust sweeping as feature).
+- Stake tuning paragraph added to Design Tradeoffs (miner EV less than 1.0 coin per cycle).
+- Protocol Specification updated: Computation entry revised, Verification Licensing entry added.
+- RISC Zero zkVM reference added. 14 references total.
+- Summary updated: "This article presents" (was "The Half-Life Coin is").
+- Economic Loop list updated: "execute assigned RISC-V smart contracts" (was "perform assigned RISC-V computation tasks").
 
-### Sections
+### Filename Convention
 
-1. Introduction (security budget problem, demurrage context, three-idea synthesis)
-2. Software Versions
-3. The Security Budget Problem (Bitcoin halving schedule, fee transition uncertainty)
-4. Demurrage as a Design Primitive (Gesell, Fisher, Keynes, Freicoin, Chiemgauer)
-5. Half-Life Decay Mathematics (exponential decay, 100-year half-life, MathJax formulas)
-6. Hierarchical Reaping (Tier 1 fractional purge, Tier 2 mid-tier lottery, Tier 3 institutional smooth tax)
-7. Whole-Coin Quantization (integer rewards/stakes/forfeitures, 1.0-coin threshold)
-8. Proof of Useful Work (Ball/Rosen/Sabin, Primecoin, Gridcoin, RISC-V platform, task binding)
-9. The Economic Loop (four-participant closed cycle, self-balancing equilibrium)
-10. Staking and Dispute Resolution (good faith stakes, licensed verifiers, private lottery)
-11. Protocol Specification (condensed spec)
-12. Design Tradeoffs and Open Questions (consolidation incentive, reaping equity, task governance, half-life sensitivity)
-13. Summary
-14. Future Reading
-15. References (13 references)
+- POST_STRUCTURE.md File Naming section updated.
+- Slugs should not begin with English articles (a, an, the).
+- Post title in front matter may still begin with an article.
+- Examples provided: `apple_tree.markdown` not `an_apple_tree.markdown`.
 
 ### Draft Summary Sync
 
-- Published A80-A85 entries removed (6 release candidate entries).
-- `new_draft.markdown` entry removed (file was deleted previously).
-- Half-life coin entry updated to A88 release candidate.
-- Summary counts updated to reflect current state (12 files, 1 RC, 2 stubs).
-- Candidate topics table "Builds On" references updated from "half-life coin draft" to "The Half-Life Coin (A88)".
-- "Statistics draft" reference updated to "Probability and Statistics Reference (A80)".
+- A88 entry updated with new filename, title, and reference count (14).
+- A86 and A87 entries updated to reflect expanded outlines (~10% completion).
+- A89 "Cryptotelemeritocracy" stub entry added.
+- Summary counts updated: 13 files, 1 RC, 3 stubs.
+- Candidate topics table references updated from "The Half-Life Coin (A88)" to "Radioactive Half-Life Demurrage Cryptocurrency Coin (A88)."
 
 ---
 
 ## Questions for Human Review
 
-1. The article frames the protocol as a thought experiment. Is the current framing appropriate, or should it lean more toward a formal proposal?
-2. The 100-year half-life parameter is discussed in the Design Tradeoffs section. Should additional parameter sensitivity analysis be included?
-3. The Design Tradeoffs section flags the plutocratic consolidation incentive and reaping order equity. Are there additional tradeoffs that should be addressed?
-4. The original draft used the name "The Great Filter (TGF)" for the protocol. The rewrite uses "The Half-Life Coin" as the title and does not use the TGF name. Should the TGF name be retained?
-5. Are the categories `crypto economics math` appropriate?
+None. All PROMPT.md objectives have been addressed.
 
 ---
 
 ## Notes
 
-- Next available article number: A89.
-- 1 release candidate: A88 "The Half-Life Coin."
-- 2 stubs: A86 "Mission Command Management Style," A87 "Telemeritocracy."
-- No post_url dependencies. A88 stands alone.
-- Publication date slotted for 2026-02-17.
+- Next available article number: A90.
+- 1 release candidate: A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin."
+- 3 stubs: A86 "Mission Command Management Style," A87 "Telemeritocracy," A89 "Cryptotelemeritocracy."
+- A89 references A87, which references A86. Publication order: A86, A87, A89.
+- Publication date for A88 slotted for 2026-02-17.
