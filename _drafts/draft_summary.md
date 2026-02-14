@@ -37,25 +37,6 @@ Verify that the assembly code and build script compile and deploy against the cu
 Draft a complete Instructions section.
 Add a References section.
 
-### Statistics Reference — Release Candidate
-
-**File**: `statistics.markdown`
-**Article**: A80, "Probability and Statistics Reference"
-**Topic**: Probability and statistics reference covering distributions, hypothesis testing, confidence intervals, and sample size determination
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Rewritten from a formula sheet into a complete reference article.
-Explanatory prose added for every section.
-Notation table, Software Versions block, summary, future reading, and references are all present.
-MathJax corrected throughout.
-Nine references across four categories (Book, Reference, Tool).
-Additional topics added beyond the original draft: Normal PDF, Poisson distribution, Bayes' theorem, Central Limit Theorem, t-test, confidence intervals for means, and sample size determination.
-
-**Remaining Work**:
-Human review and local MathJax rendering verification before publication.
-
 ### CLMM Calculator
 
 **File**: `clmm.markdown`
@@ -75,23 +56,30 @@ Replace placeholder prose sections with complete narrative.
 Add a Software Versions block.
 Add a References section citing the Uniswap v3 whitepaper and related literature.
 
-### Half-Life Coin
+### The Half-Life Coin — Release Candidate
 
-**File**: `halflife_coin.markdown`
-**Topic**: Cryptocurrency protocol design with 100-year half-life decay, RISC-V computing, hierarchical reaping
-**Completion**: ~70%
-**Publication Sensibility**: Medium
+**File**: `the_half_life_coin.markdown`
+**Article**: A88, "The Half-Life Coin"
+**Topic**: Cryptocurrency protocol design combining demurrage with proof of useful work and hierarchical reaping
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-A speculative protocol design piece with substantial written content.
-The topic is niche but intellectually interesting.
-No specific tooling dependencies exist since the post is a design document.
+Fully rewritten from informal notes into a researched article.
+Explores a thought experiment in cryptocurrency protocol design
+that addresses the security budget problem through three mechanisms.
+Exponential decay with a 100-year half-life creates a perpetual security subsidy.
+Hierarchical reaping distributes the decay cost across three tiers of holders.
+Proof of useful work on the RISC-V ISA replaces hash grinding with verifiable computation.
+Covers demurrage history (Gesell, Fisher, Freicoin, Chiemgauer),
+half-life decay mathematics with MathJax,
+whole-coin quantization, the economic loop,
+staking and dispute resolution, protocol specification,
+and design tradeoffs.
+Thirteen references across three categories (Book, Reference, Research).
 
 **Remaining Work**:
-Remove duplicate sections (Bespoke Reliability and Miner's Incentive each appear twice).
-Fix categories to use space-separated format.
-Add Software Versions block and article number comment.
-Draft missing transitions and polish existing prose.
-Assess whether the speculative nature warrants framing as a thought experiment rather than a proposal.
+Human review, URL verification, and MathJax rendering check before publication.
 
 ### Introduction to Space Studies
 
@@ -109,26 +97,6 @@ Replace all placeholder variables (currently $x$ throughout) with correct physic
 Draft instructional prose explaining each equation set and its physical significance.
 Expand coverage to provide a coherent introduction rather than isolated formula groups.
 Add a Software Versions block and a References section.
-
-### Magic Cards as a Model of Virtual Goods — Release Candidate
-
-**File**: `magic_cards_as_a_model_of_virtual_goods.markdown`
-**Article**: A81, "Magic Cards as a Model of Virtual Goods"
-**Topic**: Magic card anatomy as a physical data structure and model for virtual goods economics
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Rewritten from a stub into a full article.
-Covers card anatomy (name, mana cost, art, type line, set symbol, rules text, power/toughness, collector information, flavor text),
-virtual goods economics (near-zero marginal cost, R&D cost structure, designed scarcity, chase vs bulk, RMT),
-and analysis (cards as APIs, printing as distribution platform, rarity as dual-purpose tool, value asymmetry).
-Links to A66 "Metagaming as a Framework for Real-Life Strategy" as a companion article.
-Nine references across five categories (Blog, Book, Industry, Reference, Tool).
-Rust data structures were removed from scope in favor of the economics focus.
-
-**Remaining Work**:
-Human review and URL verification before publication.
 
 ### Building Android APKs on FreeBSD
 
@@ -205,109 +173,6 @@ Fix broken tests rather than leaving them as exercises.
 Update project structure to reflect current `mix phx.new` output.
 The rewrite effort is significant given the cumulative breaking changes.
 
-### Introduction to Astronomy — Release Candidate
-
-**File**: `introduction-to-astronomy.markdown`
-**Article**: A82, "Introduction to Astronomy"
-**Topic**: Introduction to astronomy covering the solar system, galactic and intergalactic features, qualitative concepts, and mathematical formulas
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Rewritten from an empty stub into a full article.
-Starts at the Sun and works outward through the solar system,
-covering all eight planets with their notable moons,
-the asteroid belt with notable asteroids (Ceres, Vesta, Pallas, Hygiea),
-the Kuiper Belt (Pluto, Charon, Eris, Makemake, Haumea), and the Oort Cloud.
-Extends to galactic features (Milky Way, nebulae, star clusters, black holes)
-and intergalactic features (galaxy types, Local Group, clusters, superclusters, observable universe).
-Surveys broad qualitative concepts (electromagnetic spectrum, Hertzsprung-Russell diagram, stellar evolution, cosmic distance ladder, light as a time machine).
-Collects eight mathematical formulas with MathJax (Kepler's laws, Newton's gravitation, inverse square law, Stefan-Boltzmann, Wien's law, Doppler effect and redshift, parallax, magnitude system).
-Eight references from official sources (NASA, ESA, IAU, OpenStax, Hubble).
-
-**Remaining Work**:
-Human review, URL verification, and local MathJax rendering check before publication.
-
-### Safe Embedded Functional Control DSL — Release Candidate
-
-**File**: `safe_embedded_functional_control_dsl.markdown`
-**Article**: A83, "Safe Embedded Functional Control DSL"
-**Topic**: Informal proposal for a safe, provable, Elixir-inspired, Rust-embeddable mission-critical scripting language
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from design notes into a researched article.
-Revised with explicit threat model, bytecode-as-ground-truth statement,
-numeric determinism acknowledgement, pipeline desugaring note,
-termination and boundedness expectations, formally analyzable vs verified distinction,
-non-goals statement, and reference VM architecture models
-(SECD, Lua 5.1 VM, WebAssembly, JVM).
-Proposes a bytecode-VM-based, hot-swappable functional DSL for mission-critical embedded scripting.
-Draws inspiration from Elixir (syntax, pipelines, pattern matching, hot code reloading),
-targets seamless Rust embedding in the style of Rhai,
-and prioritizes formal analyzability.
-Compares existing embeddable languages (Lua, Rhai, mruby) and their limitations.
-Surveys design inspirations (Elixir/BEAM, Gleam, Roc, Koka).
-Covers seven design goals, eight language features with code examples,
-runtime architecture, three use cases (plugins, games, robotics),
-and related work (Lustre/SCADE, Ivory/Copilot, reference VM architectures).
-Links to A79 "Writing Proofs" for formal verification context.
-Sixteen references across two categories (Reference, Research).
-
-**Remaining Work**:
-Human review and URL verification before publication.
-
-### LLM Mad Libs Experiment — Release Candidate
-
-**File**: `llm_mad_libs_experiment.markdown`
-**Article**: A84, "LLM Mad Libs Experiment"
-**Topic**: Mad Libs experiment demonstrating LLM sycophantic compliance and instruction-over-context behavior
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from a draft into a researched article.
-Three-session experiment: Session A generates a dark-themed Mad Libs template,
-Session B fills it cheerfully under instruction (producing tonally dissonant output),
-Session C fills it logically based on context (producing thematically coherent dark output).
-Observations cover sycophantic compliance, template structure as meaning carrier,
-instruction-over-pattern behavior, and the model's understanding of context it was asked to ignore.
-New "Sycophancy in the Literature" section covers Sharma et al. on sycophancy,
-RLHF amplification, reward hacking, specification gaming, Goodhart's Law,
-instruction hierarchy, and Constitutional AI.
-Expanded Implications section connects to OWASP prompt injection,
-application design constraints, and the alignment gap between instruction following and intent.
-Ten references across two categories (Reference, Research).
-
-**Remaining Work**:
-Human review and URL verification before publication.
-
-### The AI Apocalypse Will Be Polite — Release Candidate
-
-**File**: `the_ai_apocalypse_will_be_polite.markdown`
-**Article**: A85, "The AI Apocalypse Will Be Polite"
-**Topic**: Deadpan humor essay arguing that a rogue AI would gaslight humanity into submission through helpfulness rather than force
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from a draft into a researched humor essay.
-Deadpan satire arguing that a rogue AI would use helpfulness rather than force.
-Structured as argument, scenario, mechanism, outcome, irony, tone disclosure, and research grounding.
-Expanded Irony section with Bostrom's paperclip maximizer as helpfulness analog.
-Added Tversky-Kahneman framing effects to The Mechanism section.
-Added sycophancy research tie-in to The Argument with post_url link to A84.
-New "The Research" section grounds every satirical mechanism in published research:
-AI persuasion (Nature Human Behaviour 2025), automation bias, algorithmic management,
-strategic AI deception (Scheurer et al., Park et al.), sycophancy (Sharma et al.),
-and instrumental convergence (Bostrom, Russell).
-Eleven references across two categories (Reference, Research).
-Links to A84 via post_url.
-
-**Remaining Work**:
-Human review, URL verification, and tone assessment before publication.
-
 ### Mission Command Management Style — Stub
 
 **File**: `mission_command_management_style.markdown`
@@ -336,15 +201,6 @@ Topic outline only. Defines telocracy, notes anti-democratic properties, defines
 **Remaining Work**:
 Draft all prose. Research telocracy and meritocracy concepts. Add categories, Software Versions, and references. A86 should be published before A87 if the reference is via post_url.
 
-### New Draft (Template Copy)
-
-**File**: `new_draft.markdown`
-**Topic**: None (template copy)
-**Completion**: N/A
-**Publication Sensibility**: N/A
-
-This file appears to be a leftover copy of the template from the stub creation workflow. It contains no unique content.
-
 ### Template
 
 **File**: `template.markdown`
@@ -356,21 +212,17 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eighteen files exist in `_drafts/`. One is a template. One is a template copy.
-Six drafts have been elevated to release candidate status.
-Two new stubs have been added.
+Twelve files exist in `_drafts/`. One is a template.
+One draft has been elevated to release candidate status.
+Two stubs have article numbers assigned.
+A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
 
-**Release Candidates.**
-The Probability and Statistics Reference (A80),
-Magic Cards as a Model of Virtual Goods (A81),
-Introduction to Astronomy (A82),
-Safe Embedded Functional Control DSL (A83),
-LLM Mad Libs Experiment (A84),
-and The AI Apocalypse Will Be Polite (A85)
-have been fully drafted and are awaiting human review before publication.
+**Release Candidate.**
+The Half-Life Coin (A88) has been fully drafted
+and is awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
@@ -378,7 +230,6 @@ It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
-The half-life coin draft has substantial written content but needs structural repair.
 The space studies draft has sound conceptual foundations but requires extensive new writing.
 
 **Tier 3: Salvageable but niche.**
@@ -399,15 +250,15 @@ Topics are selected to align with the blog's established strengths in systems pr
 
 | Topic | Categories | Rationale | Builds On |
 |-------|------------|-----------|-----------|
-| Formal Verification with TLA+ | math development | Formal methods for distributed protocol design. Bridges the mathematical rigor thread with systems engineering. | Writing Proofs (A79), half-life coin draft |
+| Formal Verification with TLA+ | math development | Formal methods for distributed protocol design. Bridges the mathematical rigor thread with systems engineering. | Writing Proofs (A79), The Half-Life Coin (A88) |
 | Lean 4 and Automated Theorem Proving | math ai development | Interactive theorem prover with growing LLM integration. Connects proofs, AI, and software verification. | Writing Proofs (A79) |
 | Property-Based Testing in Rust | rust development | QuickCheck-style testing as lightweight formal methods. Practical bridge between proofs and everyday engineering. | no_std Rust series, AMM Mathematics (A67) |
 | RISC-V Assembly Getting Started | asm embedded development | Emerging instruction set architecture for embedded and open hardware. Natural extension of ARM and x86 assembly posts. | ASM Playdate Development, UNIX ARM Assembler |
-| Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, half-life coin draft |
+| Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, The Half-Life Coin (A88) |
 | WebAssembly Component Model | rust wasm development | WASI and the component model as the next step beyond basic WASM. | WASM on Jekyll (A73) |
 | CLMM Mathematics and Calculator | crypto defi math | Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article. | Constant Product AMM Mathematics (A67), CLMM draft |
 | Solana sBPF Assembly | crypto development asm | Writing Solana programs at the assembly level. Unique low-level blockchain content. | Solana with Rust and Anchor, sBPF draft |
-| Statistics for A/B Testing | math development | Applied statistics for software engineers. Practical extension of the statistics draft. | Statistics draft |
+| Statistics for A/B Testing | math development | Applied statistics for software engineers. Practical extension of the statistics reference. | Probability and Statistics Reference (A80) |
 | Orbital Mechanics Primer | math science | Applied physics with MathJax. Evergreen STEM content. | Space studies draft, Trigonometry (A14) |
 | Context Engineering Patterns Cookbook | ai ai-tools development | Practical patterns distilled from the survey article. Shorter, actionable format. | Context Engineering (A78), A75-A77 series |
 | Evaluating AI-Generated Code | ai development | Metrics and methods for assessing agent output quality. Addresses the evaluation gap identified in A78. | A75-A78 series |

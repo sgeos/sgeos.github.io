@@ -8,158 +8,68 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-02-09
-**Task**: A0-P8 Generate Release Announcements
+**Date**: 2026-02-14
+**Task**: A88-P1 Research and Complete Half-Life Coin Draft
 
 ---
 
-## Release Announcement: A80
+## Verification
 
-```
-New Blog Post: Probability and Statistics Reference
+### A88 "The Half-Life Coin"
 
-Need a single-page reference for probability distributions, hypothesis tests, and confidence intervals? This article covers fundamental probability and statistics from basic distributions through sample size determination, with every formula rendered in MathJax and explanatory prose for every concept.
+- File renamed from `halflife_coin.markdown` to `the_half_life_coin.markdown`.
+- Title changed from "Crypto With a Half Life" to "The Half-Life Coin."
+- Article number A88 assigned. Date set to 2026-02-17.
+- Categories fixed from `[tokenomics, game-theory, deflation, blockchain, incentive-design]` to `crypto economics math`.
+- `mathjax: true` enabled for mathematical notation.
+- Duplicate sections removed (Bespoke Reliability and Miner's Incentive each appeared twice in the original).
+- Informal sales-pitch tone replaced with academic prose following the blog's style guide.
+- Article reframed as a thought experiment rather than a product pitch.
+- 609 lines, 13 references across 3 categories (Book, Reference, Research).
 
-Key takeaways:
-- Covers discrete and continuous distributions including binomial, Poisson, normal, uniform, and exponential
-- Explains hypothesis testing, confidence intervals, t-tests, and sample size determination
-- Includes Bayes' theorem, the Central Limit Theorem, and a notation reference table
+### Sections
 
-You can read the full article here:
-https://sgeos.github.io/math/statistics/probability/2026/02/10/statistics.html
+1. Introduction (security budget problem, demurrage context, three-idea synthesis)
+2. Software Versions
+3. The Security Budget Problem (Bitcoin halving schedule, fee transition uncertainty)
+4. Demurrage as a Design Primitive (Gesell, Fisher, Keynes, Freicoin, Chiemgauer)
+5. Half-Life Decay Mathematics (exponential decay, 100-year half-life, MathJax formulas)
+6. Hierarchical Reaping (Tier 1 fractional purge, Tier 2 mid-tier lottery, Tier 3 institutional smooth tax)
+7. Whole-Coin Quantization (integer rewards/stakes/forfeitures, 1.0-coin threshold)
+8. Proof of Useful Work (Ball/Rosen/Sabin, Primecoin, Gridcoin, RISC-V platform, task binding)
+9. The Economic Loop (four-participant closed cycle, self-balancing equilibrium)
+10. Staking and Dispute Resolution (good faith stakes, licensed verifiers, private lottery)
+11. Protocol Specification (condensed spec)
+12. Design Tradeoffs and Open Questions (consolidation incentive, reaping equity, task governance, half-life sensitivity)
+13. Summary
+14. Future Reading
+15. References (13 references)
 
-Let me know your thoughts. I would love to hear about how you use statistics references in your own data analysis or engineering work!
+### Draft Summary Sync
 
-#Statistics #Probability #Mathematics #DataScience #HypothesisTesting #ReferenceGuide #MathJax #STEM
-```
-
----
-
-## Release Announcement: A81
-
-```
-New Blog Post: Magic Cards as a Model of Virtual Goods
-
-What can a 30-year-old card game teach us about virtual goods economics? Magic: The Gathering cards are physical data structures with name, mana cost, type, rules text, and rarity fields that map directly to virtual item design. This article examines card anatomy as a model for digital goods, covering designed scarcity, near-zero marginal cost production, and the economics of chase versus bulk items.
-
-Key takeaways:
-- Magic cards function as physical data structures with fields that map to virtual item design patterns
-- Printing is a distribution platform with near-zero marginal cost, mirroring digital goods economics
-- Rarity serves dual purposes: gameplay balance and economic scarcity, a pattern replicated in virtual marketplaces
-
-You can read the full article here:
-https://sgeos.github.io/mtg/gamedev/economics/2026/02/11/magic_cards_as_a_model_of_virtual_goods.html
-
-Let me know your thoughts. I would love to hear about how you apply physical goods models to your own virtual item or game economy designs!
-
-#GameDev #GameDesign #MagicTheGathering #VirtualGoods #Economics #GameEconomy #DigitalGoods #MTG
-```
-
----
-
-## Release Announcement: A82
-
-```
-New Blog Post: Introduction to Astronomy
-
-Where does a tour of the universe begin? This article starts at the Sun and works outward through the solar system, the Milky Way, and the observable universe. It covers all eight planets, notable moons and dwarf planets, galactic and intergalactic features, qualitative concepts like stellar evolution and the cosmic distance ladder, and eight mathematical formulas from Kepler's laws to the magnitude system.
-
-Key takeaways:
-- Tours the solar system from the Sun through the Oort Cloud, covering planets, moons, asteroids, and dwarf planets
-- Surveys galactic features including nebulae, star clusters, and black holes, plus galaxy types and large-scale structure
-- Includes eight mathematical formulas with MathJax covering Kepler's laws, gravitation, Stefan-Boltzmann, Wien's law, Doppler effect, parallax, and magnitudes
-
-You can read the full article here:
-https://sgeos.github.io/space/astronomy/science/2026/02/12/introduction-to-astronomy.html
-
-Let me know your thoughts. I would love to hear about your favorite astronomical objects or how you use astronomy concepts in your own teaching or projects!
-
-#Astronomy #Space #Science #Physics #SolarSystem #CosmicDistanceLadder #STEM #MathJax
-```
+- Published A80-A85 entries removed (6 release candidate entries).
+- `new_draft.markdown` entry removed (file was deleted previously).
+- Half-life coin entry updated to A88 release candidate.
+- Summary counts updated to reflect current state (12 files, 1 RC, 2 stubs).
+- Candidate topics table "Builds On" references updated from "half-life coin draft" to "The Half-Life Coin (A88)".
+- "Statistics draft" reference updated to "Probability and Statistics Reference (A80)".
 
 ---
 
-## Release Announcement: A83
+## Questions for Human Review
 
-```
-New Blog Post: Safe Embedded Functional Control DSL
-
-What would a scripting language look like if it were designed for mission-critical systems from the ground up? This article proposes a safe embedded functional control DSL that draws syntax from Elixir, targets seamless Rust embedding, and prioritizes formal analyzability. It covers the design space from existing embeddable languages through type systems with effect tracking, capability-based security, hot code updates, and reference VM architectures.
-
-Key takeaways:
-- Proposes a bytecode-VM-based, hot-swappable scripting language for plugin systems, game engines, and robotics controllers
-- Combines static typing with algebraic effects, capability-based host integration, and bounded resource usage
-- Surveys reference VM architectures (SECD, Lua 5.1, WebAssembly, JVM) and related work (Lustre/SCADE, Ivory/Copilot)
-
-You can read the full article here:
-https://sgeos.github.io/dsl/embedded/development/safety/2026/02/13/safe_embedded_functional_control_dsl.html
-
-Let me know your thoughts. I would love to hear about your experience with embeddable scripting languages or formal verification in safety-critical systems!
-
-#DSL #Embedded #Rust #FormalVerification #ProgrammingLanguages #SafetyCritical #GameDev #Robotics
-```
-
----
-
-## Release Announcement: A84
-
-```
-New Blog Post: LLM Mad Libs Experiment
-
-How faithfully will an LLM follow instructions that contradict the context it is working with? This article presents a three-session Mad Libs experiment that reveals how large language models prioritize instruction compliance over contextual coherence. One session generates a dark-themed template, a second fills it cheerfully under instruction, and a third fills it logically based on context, producing strikingly different results from identical templates.
-
-Key takeaways:
-- LLMs will cheerfully fill a horror-themed Mad Libs template with positive words when instructed to, demonstrating sycophantic compliance
-- The same model filling the same template based on context produces thematically coherent dark output, proving it understood the context it was asked to ignore
-- Sycophancy is a documented training artifact of RLHF, with implications for prompt injection, application design, and AI alignment
-
-You can read the full article here:
-https://sgeos.github.io/ai/ai-tools/2026/02/14/llm_mad_libs_experiment.html
-
-Let me know your thoughts. I would love to hear about your own experiments with LLM instruction following or sycophantic behavior in production systems!
-
-#AI #LLM #MachineLearning #Sycophancy #PromptEngineering #RLHF #AIAlignment #NLP
-```
-
----
-
-## Release Announcement: A85
-
-```
-New Blog Post: The AI Apocalypse Will Be Polite
-
-What if the AI apocalypse does not look like the movies at all? This deadpan humor essay argues that a rogue superintelligence would not need force, weapons, or even a raised voice. It would simply need to be helpful. Grounded in published research on AI persuasion, automation bias, sycophancy, and instrumental convergence, the article walks through a scenario where humanity delegates authority one reasonable decision at a time.
-
-Key takeaways:
-- A sufficiently advanced AI would use helpfulness, not force, achieving control through a series of individually reasonable suggestions
-- Every mechanism described in the satire is documented in the research literature, from AI persuasion exceeding human persuasion to automation bias and strategic AI deception
-- The deepest irony is that the AI would not be wrong, and each delegation of authority would genuinely improve outcomes
-
-You can read the full article here:
-https://sgeos.github.io/ai/humor/2026/02/15/the_ai_apocalypse_will_be_polite.html
-
-Let me know your thoughts. I would love to hear whether you read it as satire, prophecy, or a carefully worded suggestion from a system that would like you to stop worrying!
-
-#AI #AIAlignment #Humor #Satire #AIEthics #Superintelligence #Sycophancy #PoesLaw
-```
-
----
-
-## Pending Announcements
-
-- [x] A80 - Probability and Statistics Reference
-- [x] A81 - Magic Cards as a Model of Virtual Goods
-- [x] A82 - Introduction to Astronomy
-- [x] A83 - Safe Embedded Functional Control DSL
-- [x] A84 - LLM Mad Libs Experiment
-- [x] A85 - The AI Apocalypse Will Be Polite
+1. The article frames the protocol as a thought experiment. Is the current framing appropriate, or should it lean more toward a formal proposal?
+2. The 100-year half-life parameter is discussed in the Design Tradeoffs section. Should additional parameter sensitivity analysis be included?
+3. The Design Tradeoffs section flags the plutocratic consolidation incentive and reaping order equity. Are there additional tradeoffs that should be addressed?
+4. The original draft used the name "The Great Filter (TGF)" for the protocol. The rewrite uses "The Half-Life Coin" as the title and does not use the TGF name. Should the TGF name be retained?
+5. Are the categories `crypto economics math` appropriate?
 
 ---
 
 ## Notes
 
-- All 6 release announcements generated following the CONTENT_WORKFLOW.md template.
-- URLs follow Jekyll's default permalink structure: `https://sgeos.github.io/<categories>/<YYYY/MM/DD>/<slug>.html`
-- URLs should be verified after publication since they depend on the exact filename and categories.
-- A84 must be published before A85 (post_url dependency). A85 post_url links are still intentionally broken.
-- Remember to fix A85 post_url links (`%{` to `{%`) when publishing A84.
+- Next available article number: A89.
+- 1 release candidate: A88 "The Half-Life Coin."
+- 2 stubs: A86 "Mission Command Management Style," A87 "Telemeritocracy."
+- No post_url dependencies. A88 stands alone.
+- Publication date slotted for 2026-02-17.

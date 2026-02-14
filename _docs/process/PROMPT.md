@@ -10,37 +10,48 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Prepare to publish backlogged drafts.
+Published A80, A81, A82, A83, A84, A85.
+A84 will be visible in about 7 hours.
+A85 will be visible in about 31 hours.
+Release announcements for A84 and A85 have been
+copied out of reverse prompt for future use.
+Fixed internal links in A83 and A85.
+Fixed select software versions blocks.
+Renamed select files.
+Updated internal link procedure in `_docs/writing/STYLE_GUIDE.md`.
 
 ## Objectives
 
-### Catalog Stub Drafts
+### Research and Complete Half-Life Coin Draft
 
-Please use the template in `_docs/process/CONTENT_WORKFLOW.md` to generate release announcements for:
+Take the Half-Life Coin draft and fully research the topic.
+Fill out post and reorganize as necessary.
+Include conclusion (may use a different name), future reading, and references sections.
+Add all relevant material found during research to the references.
+Make sure post title is representative of the contents; rename the draft file if sensible.
+Assign an article number if one is yet to be assigned.
 
-- A80
-- A81
-- A82
-- A83
-- A84
-- A85
+### Update Draft Summary
 
-Update reverse prompt with one announcement at a time.
+Sync the draft summary with the current project state.
+Remove published posts.
+Add missing stub posts, if any.
 
 ## Context
 
-I am almost out of tokens for the week, so I will need to publish without you.
+Working on backlog posts for next week.
+Trying converts drafts to full posts.
 
 ## Constraints
 
-Update reverse prompt with one announcement at a time.
-I will probably hit the token limit before you finish.
+(no comment)
 
 ## Success Criteria
 
-- Release announcement for each article in reverese prompt.
-- Partial success OK because I will probably run out of tokens.
+- Half-Life Coin draft researched, complete, and nominally ready for publication.
+- Draft summary reflects the current state of the blog.
 
 ## Notes
 
-(no comment)
+The publication date for the next unpublished post is slotted to be:
+`2026-02-17`.
