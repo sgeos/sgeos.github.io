@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "LLM Mad Libs Experiment"
-date: 2026-02-14 00:00:00 +0000
+date: 2026-02-15 00:06:54 +0000
 categories: ai ai-tools
 ---
 
@@ -41,7 +41,7 @@ it was asked to ignore.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-14 00:00:00 +0000
+2026-02-15 00:06:54 +0000
 
 # OS and Version
 $ uname -vm
@@ -57,6 +57,17 @@ $ system_profiler SPHardwareDataType | sed -n '8,10p'
       Chip: Apple M1 Max
       Total Number of Cores: 10 (8 performance and 2 efficiency)
       Memory: 64 GB
+
+# Shell and Version
+$ echo "${SHELL}"
+/bin/bash
+
+$ "${SHELL}" --version | head -n 1
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
+
+# Claude Code Installation Versions
+$ claude --version
+2.1.37 (Claude Code)
 ```
 
 ## The Experiment
