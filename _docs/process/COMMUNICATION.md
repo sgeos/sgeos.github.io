@@ -69,6 +69,16 @@ Three working documents maintain state across AI sessions and enable asynchronou
 - Every task marked "Complete" must have a corresponding verification entry.
 - If blocked, update status to "Blocked" and document the blocker.
 
+### History Maintenance
+
+The History table should be periodically streamlined to minimize token consumption.
+
+- Consolidate same-day entries for a single article into one line when all prompts are complete.
+- Published articles need only a single history entry recording the title, reference count, and publication date.
+- Infrastructure work (A0) can be summarized in a single entry per day.
+- Retain per-prompt granularity only for the current active task.
+- The goal is to preserve what was done and when, not how each intermediate step was executed.
+
 ## Session Startup Protocol
 
 1. Read `TASKLOG.md` for current task state.
