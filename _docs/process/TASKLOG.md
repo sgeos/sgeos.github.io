@@ -8,37 +8,36 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A79, Catalog Stubs (A79-P1)
+**Name**: Research and Complete Half-Life Coin Draft, Sync Draft Summary (A88-P1)
 **Status**: Complete
-**Started**: 2026-02-09
+**Started**: 2026-02-14
 
 ## Success Criteria
 
-- [x] A79 published
-- [x] Links to A79 corrected
-- [x] Stub drafts cataloged and committed
+- [x] Half-Life Coin draft researched, complete, and nominally ready for publication.
+- [x] Draft summary reflects the current state of the blog.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A79-P1-T1 | Catalog stub drafts | Complete | A86 "Mission Command Management Style" and A87 "Telemeritocracy" assigned article numbers. `new_draft.markdown` identified as template copy. All three added to draft_summary.md. |
-| A79-P1-T2 | Publish A79 | Complete | `_drafts/writing-proofs.markdown` moved to `_posts/2026-02-10-writing-proofs.markdown`. Human-adjusted date (2026-02-10) preserved. |
-| A79-P1-T3 | Fix A83 post_url links | Complete | Two post_url references in A83 updated: `%{ post_url 2026-02-09-writing-proofs %}` changed to `{% post_url 2026-02-10-writing-proofs %}` (syntax fixed and date updated). |
-| A79-P1-T4 | Update draft_summary.md | Complete | A79 removed from release candidates (now published). A86, A87, and new_draft entries added. Summary updated: 6 release candidates, 2 stubs. Stub tier added. |
-| A79-P1-T5 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. Release announcement included. |
+| A88-P1-T1 | Research half-life coin topics | Complete | Research agent covered 7 topics: demurrage currencies, Bitcoin security budget, PoUW, RISC-V, half-life math, tokenomics, stochastic rewards. |
+| A88-P1-T2 | Rewrite half-life coin draft as A88 | Complete | `halflife_coin.markdown` renamed to `the_half_life_coin.markdown`. Title changed to "The Half-Life Coin." Article number A88 assigned. Date set to 2026-02-17. Categories fixed to space-separated `crypto economics math`. mathjax enabled. Duplicate sections removed. 609 lines, 13 references across 3 categories (Book, Reference, Research). |
+| A88-P1-T3 | Sync draft_summary.md | Complete | Published A80-A85 entries removed. `new_draft.markdown` entry removed. Half-life coin entry updated to reflect A88 release candidate status. Summary counts updated (12 files, 1 RC, 2 stubs). Candidate topics table updated with A88 references. |
+| A88-P1-T4 | Update TASKLOG.md, REVERSE_PROMPT.md, commit | Complete | This file and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- A79 "Writing Proofs" published with human-adjusted date 2026-02-10.
-- A83 post_url links fixed: syntax (`%{` to `{%`) and date (`2026-02-09` to `2026-02-10`).
-- A86 "Mission Command Management Style" is a stub about management style categories and mission command doctrine.
-- A87 "Telemeritocracy" is a stub about telocracy, meritocracy, and their synthesis. References A86.
-- `new_draft.markdown` appears to be a leftover template copy from the stub creation workflow.
-- A79 was the first dependency in the chain: A79 before A83. This dependency is now resolved.
-- Remaining dependency: A84 before A85.
-- 6 release candidates remain: A80, A81, A82, A83, A84, A85.
-- Next available article number: A88.
+- A88 "The Half-Life Coin" fully rewritten from 154-line informal notes into a 609-line researched article.
+- Title changed from "Crypto With a Half Life" to "The Half-Life Coin." File renamed accordingly.
+- Article frames the protocol as a thought experiment rather than a product pitch.
+- Covers the security budget problem, demurrage history (Gesell, Fisher, Freicoin, Chiemgauer), half-life decay mathematics, hierarchical reaping, whole-coin quantization, proof of useful work on RISC-V, the economic loop, staking and dispute resolution, protocol specification, and design tradeoffs.
+- Design tradeoffs section explicitly flags plutocratic consolidation incentive, reaping order equity, task selection governance, and half-life parameter sensitivity.
+- A80-A85 have been published by the human. All former release candidates are now live.
+- `new_draft.markdown` was deleted in a previous commit. Entry removed from draft_summary.md.
+- Next available article number: A89.
+- 1 release candidate remains: A88.
+- 2 stubs remain: A86, A87.
 
 ## History
 
@@ -76,3 +75,5 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-09 | A85-P2: A85 fully researched and rewritten (11 references). Deadpan humor preserved. New "The Research" section. A84 linked via post_url. Elevated to release candidate. |
 | 2026-02-09 | A83-P3: A83 revised with 8 human-suggested refinements. Threat model, bytecode ground truth, numeric determinism, pipeline desugaring, termination bounds, analyzable vs verified, non-goals, reference VM architectures. 16 references (was 12). |
 | 2026-02-09 | A79-P1: A79 "Writing Proofs" published (2026-02-10 date). A83 post_url links fixed. Stub drafts cataloged: A86 "Mission Command Management Style", A87 "Telemeritocracy". |
+| 2026-02-09 | A0-P8: Release announcements generated for A80-A85. |
+| 2026-02-14 | A88-P1: A88 "The Half-Life Coin" fully researched and rewritten (13 references). Renamed from halflife_coin.markdown. Draft summary synced: published A80-A85 removed, new_draft removed, A88 elevated to release candidate. |
