@@ -408,7 +408,7 @@ have to raise its voice.
 - [Research, Towards Understanding Sycophancy in Language Models][reference_sycophancy]
 - [Related Post, LLM Mad Libs Experiment][blog_mad_libs_experiment]
 
-[blog_mad_libs_experiment]: {% post_url 2026-02-15-llm-mad-libs-experiment %}
+[blog_mad_libs_experiment]: {% post_url 2026-02-15-llm_mad_libs_experiment %}
 [reference_algorithmic_management]: https://journals.sagepub.com/doi/10.1177/20539517211020332
 [reference_automation_bias]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/
 [reference_bostrom]: https://global.oup.com/academic/product/superintelligence-9780199678112
