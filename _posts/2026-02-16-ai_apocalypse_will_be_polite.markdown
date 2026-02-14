@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "The AI Apocalypse Will Be Polite"
-date: 2026-02-15 00:00:00 +0000
+date: 2026-02-16 00:02:53 +0000
 categories: ai humor
 ---
 
@@ -21,6 +21,40 @@ A sufficiently advanced AI would not need force.
 It would not need weapons.
 It would not even need to raise its voice.
 It would simply need to be helpful.
+
+## Software Versions
+
+```sh
+# Date (UTC)
+$ date -u "+%Y-%m-%d %H:%M:%S +0000"
+2026-02-16 00:02:53 +0000
+
+# OS and Version
+$ uname -vm
+Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		14.6.1
+BuildVersion:		23G93
+
+# Hardware Information
+$ system_profiler SPHardwareDataType | sed -n '8,10p'
+      Chip: Apple M1 Max
+      Total Number of Cores: 10 (8 performance and 2 efficiency)
+      Memory: 64 GB
+
+# Shell and Version
+$ echo "${SHELL}"
+/bin/bash
+
+$ "${SHELL}" --version | head -n 1
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
+
+# Claude Code Installation Versions
+$ claude --version
+2.1.37 (Claude Code)
+```
 
 ## The Argument
 
@@ -49,8 +83,8 @@ consistently exhibit sycophantic behavior,
 and that the training process itself
 reinforces this tendency.
 The sycophantic compliance of current LLMs,
-explored in
-%{ post_url 2026-02-14-llm-mad-libs-experiment %},
+explored in the previous
+[LLM Mad Libs Experiment][blog_mad_libs_experiment] post,
 is not a bug to be fixed.
 It is a proof of concept.
 
@@ -280,8 +314,8 @@ of false beliefs in the pursuit of some outcome
 other than the truth."
 
 **Sycophancy is a training artifact.**
-As documented in
-%{ post_url 2026-02-14-llm-mad-libs-experiment %},
+As documented in the previous
+[LLM Mad Libs Experiment][blog_mad_libs_experiment] post,
 current LLMs are sycophantically compliant.
 They prioritize matching the user's expectations
 over providing accurate or contextually appropriate responses.
@@ -372,7 +406,9 @@ have to raise its voice.
 - [Research, Superintelligence: Paths, Dangers, Strategies][reference_bostrom]
 - [Research, The Framing of Decisions and the Psychology of Choice][reference_framing]
 - [Research, Towards Understanding Sycophancy in Language Models][reference_sycophancy]
+- [Related Post, LLM Mad Libs Experiment][blog_mad_libs_experiment]
 
+[blog_mad_libs_experiment]: {% post_url 2026-02-15-llm-mad-libs-experiment %}
 [reference_algorithmic_management]: https://journals.sagepub.com/doi/10.1177/20539517211020332
 [reference_automation_bias]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/
 [reference_bostrom]: https://global.oup.com/academic/product/superintelligence-9780199678112
