@@ -174,19 +174,25 @@ Fix broken tests rather than leaving them as exercises.
 Update project structure to reflect current `mix phx.new` output.
 The rewrite effort is significant given the cumulative breaking changes.
 
-### Mission Command Management Style — Stub
+### Mission Command Management Style — Release Candidate
 
 **File**: `mission_command_management_style.markdown`
 **Article**: A86, "Mission Command Management Style"
-**Topic**: Mission command management style, standard management categories, history, and appropriate use cases
-**Completion**: ~10%
-**Publication Sensibility**: Medium
-**Status**: Stub
+**Topic**: Mission command as a structural doctrine for engineering and scientific teams
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-Expanded outline with thesis statement, section headers, and bullet points for each section. Covers standard management style quiz critique, mission command definition and principles (Auftragstaktik, commander's intent, decentralized execution), why mission command does not appear on personality quizzes, application to engineering and scientific teams, benefits, risks and failure modes, and when not to use it.
+Fully researched article examining mission command as a management doctrine.
+Traces origins from the 1806 Prussian defeat at Jena through Scharnhorst, Clausewitz, and Moltke to the modern ADP 6-0 codification.
+Analyzes four standard management frameworks (Lewin, Goleman, Blake-Mouton, Hersey-Blanchard) and explains why none capture mission command.
+Presents the six US Army principles of mission command.
+Documents civilian applications at Netflix, Spotify, and through Bungay and Marquet.
+Discusses engineering team fit, failure modes, and limitations including Hill and Niemi's flexive command critique.
+Fourteen references across three categories (Book, Reference, Research).
 
 **Remaining Work**:
-Draft all prose from the outline. Research management style taxonomies and mission command doctrine. Add categories, Software Versions, and references.
+Human review, URL verification, and final proofread before publication.
 
 ### Telemeritocracy — Stub
 
@@ -228,16 +234,17 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Thirteen files exist in `_drafts/`. One is a template.
-One draft has been elevated to release candidate status.
-Three stubs have article numbers assigned.
+Two drafts have been elevated to release candidate status.
+Two stubs have article numbers assigned.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
 
-**Release Candidate.**
-Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) has been fully drafted
-and is awaiting human review before publication.
+**Release Candidates.**
+Mission Command Management Style (A86) and
+Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) have been fully drafted
+and are awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
@@ -255,7 +262,7 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
 
 **Stubs.**
-Mission Command Management Style (A86), Telemeritocracy (A87), and Cryptotelemeritocracy (A89) are expanded outlines with no drafted prose.
+Telemeritocracy (A87) and Cryptotelemeritocracy (A89) are expanded outlines with no drafted prose.
 A87 references A86. A89 references A87.
 
 ## Candidate Future Post Topics
