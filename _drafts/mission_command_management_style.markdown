@@ -658,7 +658,7 @@ on mission command and is freely available as a PDF.
 [book_team_of_teams]: https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/
 [book_turn_ship]: https://davidmarquet.com/books/turn-the-ship-around-book/
 [ref_adp_6_0]: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN34403-ADP_6-0-000-WEB-3.pdf
-[ref_mc_white_paper]: https://www.jcs.mil/portals/36/documents/publications/missioncommandwhitepaper2012.pdf
+[ref_mc_white_paper]: https://www.jcs.mil/Portals/36/Documents/Publications/missioncommandwhitepaper2012.pdf
 [ref_netflix_culture]: https://jobs.netflix.com/culture
 [ref_spotify]: https://blog.crisp.se/2012/11/14/henrikkniberg/scaling-agile-at-spotify
 [research_goleman]: https://hbr.org/2000/03/leadership-that-gets-results
