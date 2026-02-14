@@ -41,8 +41,8 @@ in the style of Rhai,
 and prioritizes formal analyzability
 so that programs written in it
 can be subjected to the proof techniques
-discussed in
-{% post_url 2026-02-10-writing-proofs %}.
+discussed in the prior
+[Writing Proofs][blog_writing_proofs] post.
 This is not a formal specification.
 It is an informal proposal
 for a bytecode-VM-based, hot-swappable scripting language
@@ -80,6 +80,17 @@ $ system_profiler SPHardwareDataType | sed -n '8,10p'
       Chip: Apple M1 Max
       Total Number of Cores: 10 (8 performance and 2 efficiency)
       Memory: 64 GB
+
+# Shell and Version
+$ echo "${SHELL}"
+/bin/bash
+
+$ "${SHELL}" --version | head -n 1
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
+
+# Claude Code Installation Versions
+$ claude --version
+2.1.37 (Claude Code)
 ```
 
 ## Why Existing Embeddable Languages Fall Short
@@ -604,8 +615,8 @@ capability-based host integration,
 and hot code updates at explicit boundaries.
 These properties make programs written in the language
 amenable to formal verification
-using the techniques described in
-{% post_url 2026-02-10-writing-proofs %}.
+using the techniques described in the
+[Writing Proofs][blog_writing_proofs] post.
 
 The proposal is informal.
 Future work includes defining formal operational semantics,
@@ -668,8 +679,10 @@ mission-critical scripting requirements.
 - [Reference, The Implementation of Lua 5.0][reference_lua_impl]
 - [Reference, WebAssembly Core Specification][reference_wasm_spec]
 - [Reference, WebAssembly Security Model][reference_wasm_security]
+- [Related Post, Writing Proofs][blog_writing_proofs]
 - [Research, Copilot NASA Technical Report][reference_copilot_nasa]
 
+[blog_writing_proofs]: {% post_url 2026-02-10-writing-proofs %}
 [reference_copilot]: https://copilot-language.github.io/
 [reference_copilot_nasa]: https://ntrs.nasa.gov/api/citations/20200003164/downloads/20200003164.pdf
 [reference_elixir]: https://elixir-lang.org/
