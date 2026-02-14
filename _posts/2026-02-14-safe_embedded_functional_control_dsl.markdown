@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Safe Embedded Functional Control DSL"
-date: 2026-02-13 00:00:00 +0000
+date: 2026-02-14 01:49:38 +0000
 categories: dsl embedded development safety
 ---
 
@@ -63,7 +63,7 @@ against malicious or incorrectly implemented host bindings.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-13 00:00:00 +0000
+2026-02-14 01:49:38 +0000
 
 # OS and Version
 $ uname -vm
