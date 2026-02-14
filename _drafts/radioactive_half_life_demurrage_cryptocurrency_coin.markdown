@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "The Half-Life Coin"
+title: "Radioactive Half-Life Demurrage Cryptocurrency Coin"
 date: 2026-02-17 00:00:00 +0000
 categories: crypto economics math
 ---
@@ -30,7 +30,7 @@ and Irving Fisher championed the concept
 during the Great Depression.
 Modern implementations include Freicoin and the Chiemgauer.
 
-This article explores a protocol design called The Half-Life Coin
+This article explores a demurrage-based protocol design
 that combines three ideas from different domains.
 From monetary economics, it borrows demurrage
 in the form of a fixed 100-year half-life on all holdings.
@@ -238,6 +238,15 @@ the full cost of the security subsidy.
 This creates a sharp incentive
 to consolidate holdings above 1.0 coin.
 
+This consolidation incentive is a deliberate design goal.
+The protocol targets institutional and long-term holders
+who find a sub-1% annual decay rate acceptable.
+Fractional-balance sweeping removes dust from the ledger,
+keeping the active wallet set clean
+and the reaping process efficient.
+Participants are expected to maintain balances
+of at least 1.0 coin at all times.
+
 ### Tier 2. The Mid-Tier Lottery
 
 Wallets holding between 1.0 and approximately 143 coins
@@ -338,8 +347,15 @@ and royalty-free licensing
 make it suitable for deterministic, verifiable computation.
 
 The choice of RISC-V over a custom virtual machine
-allows miners to compile tasks
-using standard toolchains such as LLVM and GCC.
+provides two distinct advantages.
+Miners can execute tasks on physical RISC-V hardware,
+leveraging the growing ecosystem of RISC-V processors
+for energy-efficient computation.
+Smart contract developers can compile deterministic programs
+using standard toolchains such as LLVM and GCC,
+removing the need to learn a specialized assembly language
+or a domain-specific instruction set.
+
 The open specification
 enables formal verification of processor implementations,
 and the RISC-V Formal Interface provides
@@ -348,22 +364,33 @@ for proving correctness properties.
 
 ### Task Binding and Verification
 
-To prevent a miner from submitting
-the same computation result under multiple identities,
-the protocol salts the RISC-V input
-with the miner's public key.
-The resulting computation becomes a unique fingerprint.
+The protocol assigns deterministic smart contracts
+to $R$ independent miners for resolution.
+Each miner receives the smart contract to execute
+along with a unique salt value.
+After executing the smart contract,
+the miner hashes the return value
+using a standard hash function.
+The resulting hash and the miner's salt
+are then used as input
+to a trivial proof of work exercise.
+The miner is responsible for returning
+both the smart contract result
+and the solution to the proof of work exercise.
+
+This two-phase structure serves two purposes.
+The smart contract execution provides the useful computation.
+The proof of work exercise,
+parameterized by the result hash and a miner-specific salt,
+binds the computation to the miner's identity.
 An attacker who wishes to claim credit for $n$ identities
-must perform the computation $n$ times,
+must execute the smart contract $n$ times
+and solve $n$ independent proof of work challenges,
 rendering the attack economically equivalent
 to honest participation.
 
-Task issuers can specify a redundancy factor $R$
-that determines how many independent miners
-must produce matching results
-before a task is considered complete.
-The protocol requires unanimous consensus
-among the $R$ miners
+The protocol requires unanimous agreement
+among the $R$ miners on the smart contract result
 and final approval from the task issuer.
 This selectable redundancy allows issuers
 to trade cost for confidence
@@ -378,7 +405,7 @@ with four participants and a conserved total supply.
    Their coins are collected
    by the hierarchical reaping process.
 2. Decayed coins enter the general reward pool.
-3. Miners perform assigned RISC-V computation tasks.
+3. Miners execute assigned RISC-V smart contracts.
    They earn work credits
    proportional to verified CPU cycles.
 4. The reward pool distributes whole-coin prizes
@@ -387,8 +414,11 @@ with four participants and a conserved total supply.
 Because the total supply is fixed
 and decayed coins are redistributed rather than destroyed,
 the system is a zero-sum recycling economy.
-The security subsidy is funded entirely
-by the time-value cost imposed on holders.
+The decay mechanism guarantees a baseline security subsidy
+regardless of network transaction volume.
+Task issuers may optionally pay fees
+to prioritize or fund specific computations,
+but the baseline subsidy requires no fee revenue.
 No new coins are ever created after the initial distribution.
 
 This loop is self-balancing.
@@ -419,12 +449,35 @@ If a task issuer acts in bad faith,
 their 1.0-coin stake is forfeited
 to a private dispute resolution lottery.
 
+### Verification Licensing
+
+The protocol periodically issues
+verification license tasks to randomly selected miners.
+These tasks are designed
+to test the miner's computational integrity
+and the correctness of their execution environment.
+Miners who pass the verification task
+are elevated to licensed verifier status
+for the duration of their license.
+Licensed verifiers are eligible to adjudicate disputes
+and participate in the private dispute lottery.
+
+Miners who fail a verification task
+forfeit their 1.0-coin participation stake
+and are removed from the mining pool.
+A removed miner must stake another 1.0 coin
+to be readmitted to the pool.
+Honest mining pool operators
+are expected to re-evaluate the reliability
+of miners who have been removed,
+as repeated failures may indicate
+faulty hardware, software misconfiguration,
+or intentional misbehavior.
+
 ### Dispute Resolution
 
 When a dispute arises over computation results,
 licensed verifiers adjudicate the outcome.
-Verifiers earn their license
-by successfully completing designated verification tasks.
 The forfeited stake of the losing party
 is distributed via a private lottery
 among the verifiers who participated in the resolution.
@@ -452,10 +505,17 @@ Spillover applies stochastic pro rata decay
 to wallets with 1.0 or more coins,
 removing exactly 1.0 coin per lottery loss.
 
-**Computation.** Proof of useful work
-using deterministic RISC-V execution.
+**Computation.** Deterministic RISC-V smart contracts
+assigned to $R$ miners with unique salt values.
+Miners return smart contract results
+and solutions to salt-parameterized proof of work exercises.
 Miners must stake 1.0 coin as a good faith deposit.
 Task issuers must stake at least 1.0 coin.
+
+**Verification Licensing.** Periodic license tasks
+issued to randomly selected miners.
+Pass elevates to licensed verifier status.
+Fail forfeits 1.0-coin stake and removes miner from pool.
 
 **Dispute Resolution.** Licensed verifiers resolve disputes.
 Malicious issuers forfeit 1.0 coin
@@ -468,24 +528,6 @@ Winning the lottery awards exactly 1.0 coin.
 Lottery probability is proportional to verified CPU cycles.
 
 ## Design Tradeoffs and Open Questions
-
-The hierarchical reaping system
-creates a strong consolidation incentive.
-Rational holders will aggregate balances above 1.0 coin
-to avoid deterministic sweeping.
-This dynamic favors large holders
-and imposes a disproportionate cost on small holders,
-raising concerns about plutocratic network governance
-if coin holdings influence protocol decisions.
-
-The reaping order within Tier 1
-determines which small holders are swept first.
-Sorting by smallest balance first
-means the most vulnerable accounts
-absorb the decay cost before any other tier is affected.
-Whether this is an acceptable design choice
-depends on the protocol's stated goals
-regarding economic inclusion.
 
 Task selection in the proof of useful work system
 requires governance.
@@ -508,9 +550,22 @@ The optimal half-life
 depends on the network's target security level
 and expected adoption trajectory.
 
+The exact stake amounts are tunable.
+The current design specifies 1.0 coin
+for all stakes and forfeitures.
+Because miners participate in a pro rata lottery,
+their expected value for any given cycle
+is less than 1.0 coin.
+Increasing the stake amount
+would raise the barrier to entry
+while strengthening the bond against misbehavior.
+The optimal stake level
+depends on the trade-off between accessibility
+and the desired deterrent effect.
+
 ## Summary
 
-The Half-Life Coin is a thought experiment
+This article presents a thought experiment
 in cryptocurrency protocol design
 that addresses the security budget problem
 through three mechanisms.
@@ -576,6 +631,9 @@ The RISC-V Formal Interface
 and associated verification tools
 provide the infrastructure needed
 to prove properties of RISC-V implementations.
+RISC Zero demonstrates a production implementation
+of deterministic RISC-V execution
+for verifiable computation using zero-knowledge proofs.
 
 ## References
 
@@ -589,6 +647,7 @@ to prove properties of RISC-V implementations.
 - [Reference, Gridcoin][ref_gridcoin]
 - [Reference, Primecoin][ref_primecoin]
 - [Reference, RISC-V][ref_riscv]
+- [Reference, RISC Zero][ref_risc_zero]
 - [Reference, Silvio Gesell][ref_silvio_gesell]
 - [Research, Bitcoin: A Peer-to-Peer Electronic Cash System][research_bitcoin]
 - [Research, Proofs of Useful Work][research_pouw]
@@ -602,6 +661,7 @@ to prove properties of RISC-V implementations.
 [ref_freicoin]: https://en.bitcoin.it/wiki/Freicoin
 [ref_gridcoin]: https://en.wikipedia.org/wiki/Gridcoin
 [ref_primecoin]: https://en.wikipedia.org/wiki/Primecoin
+[ref_risc_zero]: https://risczero.com/
 [ref_riscv]: https://en.wikipedia.org/wiki/RISC-V
 [ref_silvio_gesell]: https://en.wikipedia.org/wiki/Silvio_Gesell
 [research_bitcoin]: https://bitcoin.org/bitcoin.pdf

@@ -56,10 +56,10 @@ Replace placeholder prose sections with complete narrative.
 Add a Software Versions block.
 Add a References section citing the Uniswap v3 whitepaper and related literature.
 
-### The Half-Life Coin — Release Candidate
+### Radioactive Half-Life Demurrage Cryptocurrency Coin — Release Candidate
 
-**File**: `the_half_life_coin.markdown`
-**Article**: A88, "The Half-Life Coin"
+**File**: `radioactive_half_life_demurrage_cryptocurrency_coin.markdown`
+**Article**: A88, "Radioactive Half-Life Demurrage Cryptocurrency Coin"
 **Topic**: Cryptocurrency protocol design combining demurrage with proof of useful work and hierarchical reaping
 **Completion**: ~95%
 **Publication Sensibility**: High
@@ -74,9 +74,10 @@ Proof of useful work on the RISC-V ISA replaces hash grinding with verifiable co
 Covers demurrage history (Gesell, Fisher, Freicoin, Chiemgauer),
 half-life decay mathematics with MathJax,
 whole-coin quantization, the economic loop,
-staking and dispute resolution, protocol specification,
-and design tradeoffs.
-Thirteen references across three categories (Book, Reference, Research).
+deterministic smart contract binding with salt-parameterized proof of work,
+verification licensing, staking and dispute resolution,
+protocol specification, and design tradeoffs.
+Fourteen references across three categories (Book, Reference, Research).
 
 **Remaining Work**:
 Human review, URL verification, and MathJax rendering check before publication.
@@ -178,28 +179,42 @@ The rewrite effort is significant given the cumulative breaking changes.
 **File**: `mission_command_management_style.markdown`
 **Article**: A86, "Mission Command Management Style"
 **Topic**: Mission command management style, standard management categories, history, and appropriate use cases
-**Completion**: ~5%
+**Completion**: ~10%
 **Publication Sensibility**: Medium
 **Status**: Stub
 
-Topic outline only. Covers standard management style categories, why mission command is absent from common quizzes, history, advantages, disadvantages, and appropriate use cases.
+Expanded outline with thesis statement, section headers, and bullet points for each section. Covers standard management style quiz critique, mission command definition and principles (Auftragstaktik, commander's intent, decentralized execution), why mission command does not appear on personality quizzes, application to engineering and scientific teams, benefits, risks and failure modes, and when not to use it.
 
 **Remaining Work**:
-Draft all prose. Research management style taxonomies and mission command doctrine. Add categories, Software Versions, and references.
+Draft all prose from the outline. Research management style taxonomies and mission command doctrine. Add categories, Software Versions, and references.
 
 ### Telemeritocracy — Stub
 
 **File**: `telemeritocracy.markdown`
 **Article**: A87, "Telemeritocracy"
 **Topic**: Telocracy, meritocracy, and their synthesis as telemeritocracy
-**Completion**: ~5%
+**Completion**: ~10%
 **Publication Sensibility**: Medium
 **Status**: Stub
 
-Topic outline only. Defines telocracy, notes anti-democratic properties, defines meritocracy, synthesizes telemeritocracy. Includes history, advantages, disadvantages, and appropriate use cases. References the Mission Command article (A86).
+Expanded outline with thesis statement, section headers, and bullet points for each section. Defines telocracy and its anti-democratic nature, defines meritocracy, synthesizes telemeritocracy as a governance model with dynamically assigned decision rights based on expertise and performance. Covers history and precedents, benefits, risks and failure modes, and appropriate use cases for scientific and engineering organizations. References the Mission Command article (A86).
 
 **Remaining Work**:
-Draft all prose. Research telocracy and meritocracy concepts. Add categories, Software Versions, and references. A86 should be published before A87 if the reference is via post_url.
+Draft all prose from the outline. Research telocracy and meritocracy concepts. Add categories, Software Versions, and references. A86 should be published before A87 if the reference is via post_url.
+
+### Cryptotelemeritocracy — Stub
+
+**File**: `cryptotelemeritocracy.markdown`
+**Article**: A89, "Cryptotelemeritocracy"
+**Topic**: Extending telemeritocratic governance with an anonymous telos auditor
+**Completion**: ~10%
+**Publication Sensibility**: Medium
+**Status**: Stub
+
+Expanded outline with thesis statement, section headers, and bullet points for each section. Extends telemeritocracy (A87) by introducing an anonymous auditor empowered to enforce alignment with the organizational telos. Covers auditor mechanics (selection, appointment, powers, anonymity), recall and limits, organizational context, benefits, risks and failure modes, and appropriate use cases. References A87 Telemeritocracy.
+
+**Remaining Work**:
+Draft all prose from the outline. Research anonymous governance mechanisms and decentralized oversight systems. Add categories, Software Versions, and references. A87 should be published before A89 if the reference is via post_url.
 
 ### Template
 
@@ -212,16 +227,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
+Thirteen files exist in `_drafts/`. One is a template.
 One draft has been elevated to release candidate status.
-Two stubs have article numbers assigned.
+Three stubs have article numbers assigned.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidate.**
-The Half-Life Coin (A88) has been fully drafted
+Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) has been fully drafted
 and is awaiting human review before publication.
 
 **Tier 1: Publishable with moderate effort.**
@@ -240,8 +255,8 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
 
 **Stubs.**
-Mission Command Management Style (A86) and Telemeritocracy (A87) are topic outlines with no drafted prose.
-A87 references A86.
+Mission Command Management Style (A86), Telemeritocracy (A87), and Cryptotelemeritocracy (A89) are expanded outlines with no drafted prose.
+A87 references A86. A89 references A87.
 
 ## Candidate Future Post Topics
 
@@ -250,11 +265,11 @@ Topics are selected to align with the blog's established strengths in systems pr
 
 | Topic | Categories | Rationale | Builds On |
 |-------|------------|-----------|-----------|
-| Formal Verification with TLA+ | math development | Formal methods for distributed protocol design. Bridges the mathematical rigor thread with systems engineering. | Writing Proofs (A79), The Half-Life Coin (A88) |
+| Formal Verification with TLA+ | math development | Formal methods for distributed protocol design. Bridges the mathematical rigor thread with systems engineering. | Writing Proofs (A79), Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) |
 | Lean 4 and Automated Theorem Proving | math ai development | Interactive theorem prover with growing LLM integration. Connects proofs, AI, and software verification. | Writing Proofs (A79) |
 | Property-Based Testing in Rust | rust development | QuickCheck-style testing as lightweight formal methods. Practical bridge between proofs and everyday engineering. | no_std Rust series, AMM Mathematics (A67) |
 | RISC-V Assembly Getting Started | asm embedded development | Emerging instruction set architecture for embedded and open hardware. Natural extension of ARM and x86 assembly posts. | ASM Playdate Development, UNIX ARM Assembler |
-| Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, The Half-Life Coin (A88) |
+| Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) |
 | WebAssembly Component Model | rust wasm development | WASI and the component model as the next step beyond basic WASM. | WASM on Jekyll (A73) |
 | CLMM Mathematics and Calculator | crypto defi math | Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article. | Constant Product AMM Mathematics (A67), CLMM draft |
 | Solana sBPF Assembly | crypto development asm | Writing Solana programs at the assembly level. Unique low-level blockchain content. | Solana with Rust and Anchor, sBPF draft |
