@@ -223,20 +223,20 @@ Human review, URL verification, and final proofread before publication. A86 must
 
 **File**: `cryptotelemeritocracy.markdown`
 **Article**: A89, "Cryptotelemeritocracy"
-**Topic**: Extending telemeritocratic governance with an anonymous telos auditor using cryptographic anonymity
+**Topic**: Extending telemeritocratic governance with a cryptocratic oversight layer for mission drift prevention
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: Release Candidate
 
-Fully researched article proposing cryptotelemeritocracy as an extension of telemeritocracy (A87).
+Fully researched article proposing cryptotelemeritocracy as a synthesis of cryptocracy and telemeritocracy (A87).
 Addresses the mission drift vulnerability in telemeritocratic governance
-by introducing an anonymous telos auditor whose identity is concealed through cryptographic mechanisms.
+by introducing a cryptocratic layer with an anonymous arbitrator elected from a private candidate pool.
 Grounds the mission drift problem in organizational theory through Merton, Michels, and Selznick.
 Surveys historical precedents for anonymous oversight including Athenian ostracism, Roman tribunes, the Devil's Advocate, Venetian bocche di leone, grand jury secrecy, and inspector general systems.
-Defines auditor mechanics covering selection, appointment, powers, communication protocol, incentives, and recall.
-Explains cryptographic foundations through Chaum's anonymous credentials, zero-knowledge proofs, ring signatures, and practical systems like MACI.
-Discusses seven failure modes and five contexts where the model is inappropriate.
-Fifteen references across five categories (Book, Reference, Related Post, Research).
+Defines the cryptocratic layer covering candidate pool composition, arbitrator powers, selection and appointment, recall, communication, incentives, and embedded configurations.
+Introduces strength classifications along two dimensions of anonymity for the organization and arbitrator.
+Discusses eight failure modes and five contexts where the model is inappropriate.
+Fourteen references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A87 must be published before A89.
