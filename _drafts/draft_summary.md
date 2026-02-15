@@ -82,22 +82,27 @@ Fourteen references across three categories (Book, Reference, Research).
 **Remaining Work**:
 Human review, URL verification, and MathJax rendering check before publication.
 
-### Introduction to Space Studies
+### Introduction to Space Studies — Release Candidate
 
-**File**: `introduction-to-space-studies.markdown`
-**Topic**: Orbital parameters, rocket thrust equations, electromagnetic wavelength-frequency relationships
-**Completion**: ~30%
-**Publication Sensibility**: Medium
+**File**: `introduction_to_space_studies.markdown`
+**Article**: A90, "Introduction to Space Studies"
+**Topic**: Space operations history, dual-use aerospace technologies, rocket propulsion, orbital mechanics, and atmospheric flight equations
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-Physics content is evergreen and requires no tooling updates.
-The mathematical foundation for orbital mechanics and electromagnetic theory exists in the draft.
-MathJax rendering is already enabled.
+Fully rewritten from a 61-line stub into a researched article.
+Serves as a companion to Introduction to Astronomy (A82),
+covering applied spaceflight mathematics rather than observational astronomy.
+Includes a brief history of space operations from rocket pioneers through the modern era,
+a section on the inherently dual-use nature of aerospace technology,
+and comprehensive mathematical treatment of rocket propulsion,
+orbital mechanics, and atmospheric flight.
+References A82 via post_url.
+Eighteen references across three categories (Reference, Related Post, Research).
 
 **Remaining Work**:
-Replace all placeholder variables (currently $x$ throughout) with correct physical variable definitions.
-Draft instructional prose explaining each equation set and its physical significance.
-Expand coverage to provide a coherent introduction rather than isolated formula groups.
-Add a Software Versions block and a References section.
+Human review, URL verification, and MathJax rendering check before publication.
 
 ### Building Android APKs on FreeBSD
 
@@ -248,7 +253,7 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Thirteen files exist in `_drafts/`. One is a template.
-Four drafts have been elevated to release candidate status.
+Five drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
@@ -259,10 +264,13 @@ The drafts fall into five tiers when assessed for salvageability with contempora
 Mission Command Management Style (A86),
 Telemeritocracy (A87),
 Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
-and Cryptotelemeritocracy (A89) have been fully drafted
+Cryptotelemeritocracy (A89),
+and Introduction to Space Studies (A90) have been fully drafted
 and are awaiting human review before publication.
 A87 references A86 via post_url. A89 references A87 via post_url.
+A90 references A82 via post_url.
 Publication order dependency: A86 before A87 before A89.
+A88 and A90 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
@@ -270,7 +278,6 @@ It is recent, topical, and has working code.
 
 **Tier 2: Publishable with significant effort.**
 The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
-The space studies draft has sound conceptual foundations but requires extensive new writing.
 
 **Tier 3: Salvageable but niche.**
 The two Android/FreeBSD drafts should be consolidated into one post and updated to FreeBSD 14 and current Android tooling.
@@ -298,7 +305,7 @@ Topics are selected to align with the blog's established strengths in systems pr
 | CLMM Mathematics and Calculator | crypto defi math | Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article. | Constant Product AMM Mathematics (A67), CLMM draft |
 | Solana sBPF Assembly | crypto development asm | Writing Solana programs at the assembly level. Unique low-level blockchain content. | Solana with Rust and Anchor, sBPF draft |
 | Statistics for A/B Testing | math development | Applied statistics for software engineers. Practical extension of the statistics reference. | Probability and Statistics Reference (A80) |
-| Orbital Mechanics Primer | math science | Applied physics with MathJax. Evergreen STEM content. | Space studies draft, Trigonometry (A14) |
+| ~~Orbital Mechanics Primer~~ | ~~math science~~ | ~~Applied physics with MathJax. Evergreen STEM content.~~ | ~~Covered by Introduction to Space Studies (A90)~~ |
 | Context Engineering Patterns Cookbook | ai ai-tools development | Practical patterns distilled from the survey article. Shorter, actionable format. | Context Engineering (A78), A75-A77 series |
 | Evaluating AI-Generated Code | ai development | Metrics and methods for assessing agent output quality. Addresses the evaluation gap identified in A78. | A75-A78 series |
 | FreeBSD Jails for Development Environments | freebsd development | Container-like isolation using FreeBSD jails. Updates the FreeBSD systems thread with modern practices. | FreeBSD series (A1-A40 era) |

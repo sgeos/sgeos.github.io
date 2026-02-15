@@ -8,32 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Research and Complete A89 Cryptotelemeritocracy (A89-P1)
+**Name**: Research and Complete A90 Introduction to Space Studies (A90-P1)
 **Status**: Complete
 **Started**: 2026-02-15
 
 ## Success Criteria
 
-- [x] A89 is release candidate draft quality.
+- [x] A90 is release candidate draft quality.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A89-P1-T1 | Research cryptotelemeritocracy topics | Complete | Research agent covered inspector general systems, anonymous governance mechanisms (ostracism, tribunes, devil's advocate, bocche di leone, grand jury), principal-agent theory (Jensen & Meckling, Eisenhardt, Fama & Jensen), mission drift (Merton, Michels, Selznick), cryptographic anonymity (Chaum, ZKPs, ring signatures, MACI), and stewardship theory. |
-| A89-P1-T2 | Write A89 article | Complete | 942 lines, 15 references across 5 categories (Book, Reference, Related Post, Research). Covers mission drift problem, historical precedents for anonymous oversight, the anonymous telos auditor, auditor mechanics, cryptographic foundations, risks, and limitations. |
-| A89-P1-T3 | Verify reference URLs | Complete | 12 of 14 return HTTP 200. ResearchGate, MDPI, and ScienceDirect return 403 (bot detection, confirmed indexed academic platforms). |
-| A89-P1-T4 | Update draft_summary.md, REVERSE_PROMPT.md, commit | Complete | A89 elevated from stub to RC. Draft summary updated (13 files, 4 RCs, 0 stubs). |
+| A90-P1-T1 | Research space studies topics | Complete | Two research agents covered space operations history (pre-WWII pioneers, V-2, Space Race, modern era), dual-use aerospace technologies (R-7, Atlas, Titan II, GPS, Corona/Landsat), rocket propulsion equations (Tsiolkovsky, thrust, Isp, staging, TWR), orbital mechanics (Keplerian elements, vis-viva, Hohmann, plane changes, SOI, Oberth), and atmospheric flight (drag, lift, scale height, terminal velocity, Sutton-Graves, aerobraking). |
+| A90-P1-T2 | Write A90 article | Complete | 1002 lines, 18 references across 3 categories (Reference, Related Post, Research). Covers history of space operations, dual-use nature, rocket propulsion, orbital mechanics, atmospheric flight. References A82 via post_url. |
+| A90-P1-T3 | Verify reference URLs | Complete | URL verification completed. |
+| A90-P1-T4 | Update draft_summary.md, REVERSE_PROMPT.md, commit | Complete | A90 elevated to RC. Draft summary updated (13 files, 5 RCs, 0 stubs). |
 
 ## Notes
 
-- A89 "Cryptotelemeritocracy" fully rewritten from outline to researched article.
-- Categories: management philosophy.
-- References A87 "Telemeritocracy" via post_url. A87 must be published before A89.
-- Publication order dependency: A86 before A87 before A89.
-- "Cryptotelemeritocracy" is a novel coinage extending the novel coinage "telemeritocracy" from A87.
-- Next available article number: A90.
-- 4 release candidates: A86, A87, A88, A89.
+- A90 "Introduction to Space Studies" fully rewritten from 61-line stub to researched article.
+- Categories: space math.
+- References A82 "Introduction to Astronomy" via post_url. A82 is already published.
+- Filename renamed from hyphens to underscores per convention.
+- Date set to 2026-02-21 to avoid collision with A89 at 2026-02-20.
+- Next available article number: A91.
+- 5 release candidates: A86, A87, A88, A89, A90.
 - 0 stubs.
 
 ## History
@@ -54,3 +54,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-14 | A86-P1: "Mission Command Management Style" researched and written (14 references). TASKLOG streamlined. |
 | 2026-02-14 | A87-P1: "Telemeritocracy" researched and written (11 references). References A86 via post_url. Draft summary synced (13 files, 3 RCs, 1 stub). |
 | 2026-02-15 | A89-P1: "Cryptotelemeritocracy" researched and written (15 references). References A87 via post_url. Draft summary synced (13 files, 4 RCs, 0 stubs). |
+| 2026-02-15 | A90-P1: "Introduction to Space Studies" researched and written (18 references). References A82 via post_url. Draft summary synced (13 files, 5 RCs, 0 stubs). |
