@@ -214,19 +214,27 @@ Eleven references across four categories (Book, Reference, Related Post, Researc
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A86 must be published before A87.
 
-### Cryptotelemeritocracy — Stub
+### Cryptotelemeritocracy — Release Candidate
 
 **File**: `cryptotelemeritocracy.markdown`
 **Article**: A89, "Cryptotelemeritocracy"
-**Topic**: Extending telemeritocratic governance with an anonymous telos auditor
-**Completion**: ~10%
-**Publication Sensibility**: Medium
-**Status**: Stub
+**Topic**: Extending telemeritocratic governance with an anonymous telos auditor using cryptographic anonymity
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-Expanded outline with thesis statement, section headers, and bullet points for each section. Extends telemeritocracy (A87) by introducing an anonymous auditor empowered to enforce alignment with the organizational telos. Covers auditor mechanics (selection, appointment, powers, anonymity), recall and limits, organizational context, benefits, risks and failure modes, and appropriate use cases. References A87 Telemeritocracy.
+Fully researched article proposing cryptotelemeritocracy as an extension of telemeritocracy (A87).
+Addresses the mission drift vulnerability in telemeritocratic governance
+by introducing an anonymous telos auditor whose identity is concealed through cryptographic mechanisms.
+Grounds the mission drift problem in organizational theory through Merton, Michels, and Selznick.
+Surveys historical precedents for anonymous oversight including Athenian ostracism, Roman tribunes, the Devil's Advocate, Venetian bocche di leone, grand jury secrecy, and inspector general systems.
+Defines auditor mechanics covering selection, appointment, powers, communication protocol, incentives, and recall.
+Explains cryptographic foundations through Chaum's anonymous credentials, zero-knowledge proofs, ring signatures, and practical systems like MACI.
+Discusses seven failure modes and five contexts where the model is inappropriate.
+Fifteen references across five categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
-Draft all prose from the outline. Research anonymous governance mechanisms and decentralized oversight systems. Add categories, Software Versions, and references. A87 should be published before A89 if the reference is via post_url.
+Human review, URL verification, and final proofread before publication. A87 must be published before A89.
 
 ### Template
 
@@ -240,8 +248,8 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Thirteen files exist in `_drafts/`. One is a template.
-Three drafts have been elevated to release candidate status.
-One stub has an article number assigned.
+Four drafts have been elevated to release candidate status.
+No stubs remain.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
@@ -250,9 +258,11 @@ The drafts fall into five tiers when assessed for salvageability with contempora
 **Release Candidates.**
 Mission Command Management Style (A86),
 Telemeritocracy (A87),
-and Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) have been fully drafted
+Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
+and Cryptotelemeritocracy (A89) have been fully drafted
 and are awaiting human review before publication.
-A87 references A86 via post_url. A86 must be published first.
+A87 references A86 via post_url. A89 references A87 via post_url.
+Publication order dependency: A86 before A87 before A89.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
@@ -269,9 +279,8 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 **Tier 4: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
 
-**Stubs.**
-Cryptotelemeritocracy (A89) is an expanded outline with no drafted prose.
-A89 references A87.
+**No stubs remain.**
+All article-numbered drafts have been elevated to release candidate status.
 
 ## Candidate Future Post Topics
 
