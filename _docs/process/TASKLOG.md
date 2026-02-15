@@ -8,33 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Research and Complete A86 Mission Command, Streamline TASKLOG (A86-P1)
+**Name**: Research and Complete A87 Telemeritocracy (A87-P1)
 **Status**: Complete
 **Started**: 2026-02-14
 
 ## Success Criteria
 
-- [x] A86 is release candidate draft quality.
-- [x] TASKLOG.md streamlined and knowledge graph updated.
+- [x] A87 is release candidate draft quality.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A86-P1-T1 | Research mission command topics | Complete | Research agent covered Auftragstaktik origins, ADP 6-0, management taxonomies, tech org examples, failure modes, and key references. |
-| A86-P1-T2 | Write A86 article | Complete | 668 lines, 14 references across 3 categories (Book, Reference, Research). Covers quiz critique, Prussian origins, six principles, tech org examples, engineering fit, risks, and limitations. |
-| A86-P1-T3 | Verify reference URLs | Complete | 9 of 14 return HTTP 200. 5 .mil/.org URLs return 403 due to bot detection (confirmed indexed via web search). USNI URL replaced with Amazon. |
-| A86-P1-T4 | Streamline TASKLOG.md | Complete | History compacted from 35 to 13 entries. Maintenance policy added to COMMUNICATION.md. |
-| A86-P1-T5 | Update draft_summary.md, REVERSE_PROMPT.md, commit | Complete | A86 elevated to RC. Draft summary updated (13 files, 2 RCs, 2 stubs). |
+| A87-P1-T1 | Research telemeritocracy topics | Complete | Research agent covered telocracy (Oakeshott, Hayek), meritocracy (Young, critiques), tech governance models (Apache, IETF, Valve, academic), purpose-driven orgs, and failure modes. |
+| A87-P1-T2 | Write A87 article | Complete | 703 lines, 11 references across 4 categories (Book, Reference, Related Post, Research). Covers telocracy, meritocracy, synthesis, precedents, engineering fit, risks, and limitations. |
+| A87-P1-T3 | Verify reference URLs | Complete | 8 of 10 return HTTP 200. OUP returns 202 (valid). SSRN returns 403 (bot detection, confirmed indexed). |
+| A87-P1-T4 | Update draft_summary.md, REVERSE_PROMPT.md, commit | Complete | A87 elevated to RC. Draft summary updated (13 files, 3 RCs, 1 stub). |
 
 ## Notes
 
-- A86 "Mission Command Management Style" fully rewritten from outline to researched article.
+- A87 "Telemeritocracy" fully rewritten from outline to researched article.
 - Categories: management philosophy.
-- PROMPT.md success criteria references "A89" but objectives and notes reference A86. Treated as typo for A86.
+- References A86 "Mission Command Management Style" via post_url. A86 must be published first.
+- "Telemeritocracy" appears to be a novel coinage not found in prior academic or popular literature.
 - Next available article number: A90.
-- 2 release candidates: A88, A86 (pending URL verification).
-- 2 stubs: A87, A89.
+- 3 release candidates: A86, A87, A88.
+- 1 stub: A89.
 
 ## History
 
@@ -52,3 +51,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-14 | A88-P1: "The Half-Life Coin" researched and rewritten (13 references). Draft summary synced. |
 | 2026-02-14 | A88-P2: Renamed to "Radioactive Half-Life Demurrage Cryptocurrency Coin." Five sections revised. Verification Licensing added. RISC Zero reference added (14 total). Filename convention documented. A86/A87 outlines expanded by human. A89 stub added. |
 | 2026-02-14 | A86-P1: "Mission Command Management Style" researched and written (14 references). TASKLOG streamlined. |
+| 2026-02-14 | A87-P1: "Telemeritocracy" researched and written (11 references). References A86 via post_url. Draft summary synced (13 files, 3 RCs, 1 stub). |
