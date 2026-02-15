@@ -194,19 +194,25 @@ Fourteen references across three categories (Book, Reference, Research).
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication.
 
-### Telemeritocracy — Stub
+### Telemeritocracy — Release Candidate
 
 **File**: `telemeritocracy.markdown`
 **Article**: A87, "Telemeritocracy"
-**Topic**: Telocracy, meritocracy, and their synthesis as telemeritocracy
-**Completion**: ~10%
-**Publication Sensibility**: Medium
-**Status**: Stub
+**Topic**: Telemeritocracy as a governance model synthesizing telocracy and meritocracy for engineering teams
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-Expanded outline with thesis statement, section headers, and bullet points for each section. Defines telocracy and its anti-democratic nature, defines meritocracy, synthesizes telemeritocracy as a governance model with dynamically assigned decision rights based on expertise and performance. Covers history and precedents, benefits, risks and failure modes, and appropriate use cases for scientific and engineering organizations. References the Mission Command article (A86).
+Fully researched article proposing telemeritocracy as a governance model.
+Defines telocracy through Oakeshott and Hayek, traces meritocracy from Young's satire through modern tech adoption,
+synthesizes both into a compound governance principle where authority is assigned based on demonstrated ability to advance a defined purpose.
+Examines precedents in Apache, IETF, academic shared governance, and Valve (as failure case).
+Discusses engineering team fit, failure modes (Goodhart's Law, Peter Principle, mission drift, authoritarianism risk, informal hierarchy),
+and limitations. References the companion Mission Command article (A86) via post_url.
+Eleven references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
-Draft all prose from the outline. Research telocracy and meritocracy concepts. Add categories, Software Versions, and references. A86 should be published before A87 if the reference is via post_url.
+Human review, URL verification, and final proofread before publication. A86 must be published before A87.
 
 ### Cryptotelemeritocracy — Stub
 
@@ -234,17 +240,19 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Thirteen files exist in `_drafts/`. One is a template.
-Two drafts have been elevated to release candidate status.
-Two stubs have article numbers assigned.
+Three drafts have been elevated to release candidate status.
+One stub has an article number assigned.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Mission Command Management Style (A86) and
-Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) have been fully drafted
+Mission Command Management Style (A86),
+Telemeritocracy (A87),
+and Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) have been fully drafted
 and are awaiting human review before publication.
+A87 references A86 via post_url. A86 must be published first.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
@@ -262,8 +270,8 @@ The audience for Android development on FreeBSD is small, making the effort-to-r
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
 
 **Stubs.**
-Telemeritocracy (A87) and Cryptotelemeritocracy (A89) are expanded outlines with no drafted prose.
-A87 references A86. A89 references A87.
+Cryptotelemeritocracy (A89) is an expanded outline with no drafted prose.
+A89 references A87.
 
 ## Candidate Future Post Topics
 
