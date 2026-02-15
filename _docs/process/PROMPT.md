@@ -10,16 +10,13 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Answers to reverse prompt questions:
-
-1. A89 was a typographical error. I meant A86. I updated `PROMPT.md` before you committed it.
-2. If URLs work, alternatives are unnecessary.
+(no comment)
 
 ## Objectives
 
-### Research and Complete A87 : Telemeritocracy
+### Research and Complete A89 : Cryptotelemeritocracy
 
-Take the A87 Telemeritocracy draft outline and fully research the topic.
+Take the A89 Cryptotelemeritocracy draft outline and fully research the topic.
 Fill out post and reorganize as necessary.
 Include conclusion (may use a different name), future reading, and references sections.
 Add all relevant material found during research to the references.
@@ -36,9 +33,9 @@ Converting drafts to full posts.
 
 ## Success Criteria
 
-- A87 is release candidate draft quality.
+- A89 is release candidate draft quality.
 
 ## Notes
 
-The publication date for A87 is currently slotted to be:
-`2026-02-19`.
+The publication date for A89 is currently slotted to be:
+`2026-02-20`.
