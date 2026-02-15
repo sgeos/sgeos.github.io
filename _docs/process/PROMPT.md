@@ -10,51 +10,35 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Answer to reverse prompt question:
-
-- The correct publication date for A90 is indeed 2026-02-21.
-  Thank you for catching this!
+(no comment)
 
 ## Objectives
 
-### Revise A89
+### Draft Full CLMM Post
 
-Note the following in A89.
+Please review A72, A73, and A74.
+Take the "CLMM Calculator" draft, and revise it to introduce CLMM mathematics similar to A73.
+Rewrite the calculator to use Rust instead of JavaScript.
+A72 covers WASM integration, and A74 provides another DeFi Rust-based WASM widget example.
+Conduct research, and include future reading and references sections.
+Rename the article and filename, if appropriate.
+Assign the next avail available article number, if an article number has not been assigned.
 
-#### Cryptotelemetritocratic Theory
+### Combine Android Development on FreeBSD Articles
 
-- Add one paragraph explicitly addressing the transparency vs continuity tradeoff.
-- Clarify that maximal arbitrator powers are optional and not default.
-- Stress that the arbitrator has noting to arbitrate if the organization is aligned with the telos,
-  and that any sweeping powers are conditional and nominally exercised only under exceptional
-  circumstance.
-- Address deliberate telos amendment.
-  - May or may not be allowed.
-  - If allowed, a mechanism is necessary.
-  - If disallowed, the organization has inherent mission rigidity and is unable to adapt.
-  - Mission rigidity is not a problem if the mission is considered evergreen by the organization.
-  - A telemetritocratic organization has the option to dissolve once its telos is achieved,
-    and enforcing this may be one of the arbitrator's duties.
-- Explicitly acknowledge:
-  - Strong configurations resemble constitutional guardianship.
-  - Weak configurations resemble ombudsman models.
-  - Organizations must choose deliberately.
-- Explicitly distinguish:
-  - Oversight cryptotelemeritocracy
-  - Executive cryptotelemeritocracy
+Combine the following drafts into a single draft:
 
-#### Note on Counter-Espionage
+- Building Android APKs on FreeBSD
+- Android NDK Builds on FreeBSD
 
-Note the special properties general cryptocracies have in the context of counter espionage.
-Note the specific properties cryptotelemetritocratic governance has in the context of counter espionage.
-Note benefits for organizations that require security or support national security.
-Research this section.
+At this point:
 
-#### Article Revision
+- Do not modernize
+- Do not assign an article number
+- Do not slot for publication
 
-Revise and restructure the article to incorporate the above theory, as appropriate.
-Conduct additional research, as appropriate.
-If additional research is conducted, update future reading and references.
+Lay the groundwork for a modernized article without doing the research.
+Rename the article and filename, if appropriate.
 
 ## Context
 
@@ -63,12 +47,13 @@ Converting drafts to full posts.
 
 ## Constraints
 
-(no comment)
+Make sure Android on FreeBSD remains out of the publication lane for now.
 
 ## Success Criteria
 
-- A89 revised to reflect requested additions.
+- CLMM Mathematics (A91?) is release candidate status.
+- Android Development on FreeBSD
 
 ## Notes
 
-(no comment)
+I think the next publication date slot is `2026-02-22`, but I may be wrong.

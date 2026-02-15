@@ -37,24 +37,27 @@ Verify that the assembly code and build script compile and deploy against the cu
 Draft a complete Instructions section.
 Add a References section.
 
-### CLMM Calculator
+### Concentrated Liquidity Market Maker Mathematics — Release Candidate
 
-**File**: `clmm.markdown`
-**Topic**: Concentrated Liquidity Market Maker calculator with interactive HTML/JavaScript widget
-**Completion**: ~35%
-**Publication Sensibility**: Medium-High
+**File**: `clmm_mathematics.markdown`
+**Article**: A91, "Concentrated Liquidity Market Maker Mathematics"
+**Topic**: Concentrated liquidity mathematics with interactive Rust WASM calculator widget
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
 
-The interactive calculator widget is functional and pairs naturally with the published Constant Product AMM Mathematics article (A67).
-Concentrated liquidity remains the dominant market maker design in decentralized finance.
-The JavaScript implementation requires no framework migration.
+Fully rewritten from a JavaScript calculator stub into a researched article.
+Serves as a companion to Constant Product AMM Mathematics (A73),
+covering the concentrated liquidity extension introduced by Uniswap v3.
+Includes virtual and real reserves derivation, the three price regimes,
+liquidity computation from deposits, tick mathematics with fee tier table,
+capital efficiency, fee accrual, and amplified impermanent loss.
+Calculator rewritten from JavaScript to Rust WASM following the A72/A73 pattern.
+References A73 and A72 via post_url.
+Six references across three categories (Reference, Related Post, Research).
 
 **Remaining Work**:
-Draft the CLMM mathematical explanation covering tick spacing, price ranges, and liquidity concentration.
-Provide DeFi context explaining how concentrated liquidity differs from constant product designs.
-Add categories (space-separated).
-Replace placeholder prose sections with complete narrative.
-Add a Software Versions block.
-Add a References section citing the Uniswap v3 whitepaper and related literature.
+Human review, URL verification, MathJax rendering check, and WASM compilation before publication.
 
 ### Radioactive Half-Life Demurrage Cryptocurrency Coin — Release Candidate
 
@@ -104,42 +107,29 @@ Eighteen references across three categories (Reference, Related Post, Research).
 **Remaining Work**:
 Human review, URL verification, and MathJax rendering check before publication.
 
-### Building Android APKs on FreeBSD
+### Android Development on FreeBSD
 
-**File**: `building_android_apks_on_freebsd.markdown`
-**Topic**: Building Android APKs on FreeBSD using the Linux emulation layer
+**File**: `android_development_on_freebsd.markdown`
+**Topic**: Android SDK and NDK setup on FreeBSD using the Linux emulation layer
 **Completion**: ~85%
 **Publication Sensibility**: Low-Medium
 
-The original draft targets Android SDK 25 and FreeBSD 11 (2017).
-If salvaged, contemporary tooling would be Android SDK 35+ and FreeBSD 14.
+Consolidated from two nearly identical drafts covering APK builds and NDK builds separately.
+The original content targets Android SDK 25, NDK r13b, and FreeBSD 11 (2017).
+If modernized, contemporary tooling would be Android SDK 35+, NDK r27+, and FreeBSD 14.
 The Linux emulation layer approach remains valid on FreeBSD and is still documented in the FreeBSD Handbook.
-However, the audience for Android development on FreeBSD is small.
-Nearly identical to the NDK variant and should be consolidated into a single post if pursued.
+The combined draft is structured into Linux emulation setup, SDK/NDK installation, ADB setup, environment configuration, and build verification sections.
+The audience for Android development on FreeBSD is small.
 
 **Remaining Work**:
-Consolidate with the NDK variant into a single post.
 Update all SDK and NDK version references to contemporary releases.
 Fix the Software Versions block (date and uname fields are swapped).
+Replace legacy Liquid highlight tags with fenced code blocks.
+Replace deprecated `android update sdk` commands with `sdkmanager`.
+Verify or replace FreeBSD JAR patching approach.
 Verify that the Linux emulation approach still works with current Android build tools.
+Update or remove dead references.
 Polish prose.
-
-### Android NDK Builds on FreeBSD
-
-**File**: `android_ndk_builds_on_freebsd.markdown`
-**Topic**: Android NDK builds on FreeBSD using Linux emulation
-**Completion**: ~80%
-**Publication Sensibility**: Low-Medium
-
-Same assessment as the APK variant.
-Starts with "TODO: Rework this post."
-Should be merged with the APK draft into a single consolidated article covering both SDK and NDK workflows on FreeBSD 14.
-
-**Remaining Work**:
-Merge content into the APK variant (or vice versa).
-Update NDK references from r13b to current NDK r27+.
-Fix Software Versions formatting.
-Draft unified narrative covering both build workflows.
 
 ### Android Unit Testing
 
@@ -255,38 +245,37 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
-Five drafts have been elevated to release candidate status.
+Twelve files exist in `_drafts/`. One is a template.
+Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
 
-The drafts fall into five tiers when assessed for salvageability with contemporary tooling.
+The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
 Mission Command Management Style (A86),
 Telemeritocracy (A87),
 Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
-and Introduction to Space Studies (A90) have been fully drafted
+Introduction to Space Studies (A90),
+and Concentrated Liquidity Market Maker Mathematics (A91) have been fully drafted
 and are awaiting human review before publication.
 A87 references A86 via post_url. A89 references A87 via post_url.
-A90 references A82 via post_url.
+A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 Publication order dependency: A86 before A87 before A89.
-A88 and A90 have no dependencies.
+A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
-**Tier 2: Publishable with significant effort.**
-The CLMM calculator has a functional interactive widget that pairs with the published Constant Product AMM article.
-
-**Tier 3: Salvageable but niche.**
-The two Android/FreeBSD drafts should be consolidated into one post and updated to FreeBSD 14 and current Android tooling.
+**Tier 2: Salvageable but niche.**
+The consolidated Android/FreeBSD draft covers both SDK and NDK workflows
+and needs updating to FreeBSD 14 and current Android tooling.
 The audience for Android development on FreeBSD is small, making the effort-to-reach ratio unfavorable.
 
-**Tier 4: Rewrite or abandon.**
+**Tier 3: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
 
 **No stubs remain.**
@@ -305,7 +294,7 @@ Topics are selected to align with the blog's established strengths in systems pr
 | RISC-V Assembly Getting Started | asm embedded development | Emerging instruction set architecture for embedded and open hardware. Natural extension of ARM and x86 assembly posts. | ASM Playdate Development, UNIX ARM Assembler |
 | Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) |
 | WebAssembly Component Model | rust wasm development | WASI and the component model as the next step beyond basic WASM. | WASM on Jekyll (A73) |
-| CLMM Mathematics and Calculator | crypto defi math | Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article. | Constant Product AMM Mathematics (A67), CLMM draft |
+| ~~CLMM Mathematics and Calculator~~ | ~~crypto defi math~~ | ~~Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article.~~ | ~~Covered by Concentrated Liquidity Market Maker Mathematics (A91)~~ |
 | Solana sBPF Assembly | crypto development asm | Writing Solana programs at the assembly level. Unique low-level blockchain content. | Solana with Rust and Anchor, sBPF draft |
 | Statistics for A/B Testing | math development | Applied statistics for software engineers. Practical extension of the statistics reference. | Probability and Statistics Reference (A80) |
 | ~~Orbital Mechanics Primer~~ | ~~math science~~ | ~~Applied physics with MathJax. Evergreen STEM content.~~ | ~~Covered by Introduction to Space Studies (A90)~~ |
