@@ -9,61 +9,91 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-15
-**Task**: A89-P3 Revise Cryptotelemeritocracy with Theory Additions
+**Task**: A91-P1 Draft CLMM Post and Combine Android Drafts
 
 ---
 
 ## Verification
 
-### A89 "Cryptotelemeritocracy" Revision
+### A91 "Concentrated Liquidity Market Maker Mathematics"
 
-- 1638 lines (up from 1088), 19 references across 4 categories (Book, Reference, Related Post, Research).
-- Categories: `management philosophy`.
-- Date: 2026-02-20.
-- References A87 "Telemeritocracy" and A86 "Mission Command Management Style" via post_url.
+- Renamed from `clmm.markdown` to `clmm_mathematics.markdown`.
+- Categories: `crypto defi rust`.
+- Date: 2026-02-22.
+- Six references across three categories (Reference, Related Post, Research).
+- References A73 "Constant Product AMM Mathematics" and A72 "WASM on a Jekyll Blog" via post_url.
 
-#### New Content Added
+#### Mathematical Sections
 
-1. **Transparency vs continuity tradeoff**: One paragraph added at end of Practical Considerations subsection, addressing the fundamental tradeoff between external validation and operational independence.
-2. **Conditional arbitrator powers**: Arbitrator Powers subsection revised. Default is constrained. Maximal powers are optional. Arbitrator is quiescent when organization is aligned. Sweeping powers are conditional and exceptional. Interventions are designed to be rare.
-3. **Oversight vs Executive Configurations**: New section distinguishing oversight cryptotelemeritocracy (resembles ombudsman model, advisory only) from executive cryptotelemeritocracy (resembles constitutional guardianship, enforcement powers analogous to judicial review). Includes a "Choosing a Configuration" subsection.
-4. **Telos Amendment and Dissolution**: New section covering three scenarios. Permitting amendment requires a formal mechanism and the arbitrator guards the process. Prohibiting amendment creates inherent mission rigidity, which is defensible for evergreen missions. Dissolution upon telos achievement may be an arbitrator duty.
-5. **Counter-Espionage Properties**: New section with four subsections. "Espionage and Identifiable Authority" covers how anonymous governance disrupts the targeting phase of espionage operations, citing Burkett's RASCLS framework and Jordan's leadership decapitation research. "Espionage-Driven Mission Drift" covers how compromised leadership produces mission drift detectable by the arbitrator, citing Morselli's security-efficiency tradeoff. "Relationship to Existing Security Mechanisms" connects cryptotelemeritocracy to compartmentalization, the two-person rule, insider threat programs, and whistleblower protections. "Defense in Depth" frames the counter-espionage value as one layer in a defense-in-depth architecture.
-6. **Summary updated**: Counter-espionage paragraph added. Oversight vs executive and telos amendment paragraphs added.
+1. **Concentrated Liquidity Architecture**: Introduces CLMM as extension of CPAMM, connects to A73.
+2. **From Constant Product to Concentrated Liquidity**: Virtual reserves, translated curve invariant, geometric interpretation.
+3. **Real Reserves Formulas**: Core equations for $x_r$ and $y_r$ with variable definitions. Corresponds to whitepaper Equations 6.29 and 6.30.
+4. **Three Price Regimes**: Below range (all Token X), in range (both), above range (all Token Y). Includes regime transition note.
+5. **Computing Liquidity from a Deposit**: $L_x$, $L_y$, and $L = \min(L_x, L_y)$ formulas. Contrast with full-range CPAMM.
+6. **Tick Mathematics**: Price discretization, tick-to-price formula, tick spacing, fee tier table (1/5/30/100 bp). Governance note on 1 bp tier.
+7. **Capital Efficiency**: Concentration factor formula, 4000x stablecoin example, tradeoff note.
+8. **Fee Accrual**: feeGrowthGlobal, feeGrowthOutside, feeGrowthInside, position fee computation.
+9. **Impermanent Loss in Concentrated Positions**: CPAMM IL formula, amplification in concentrated positions, position value formula, Loesch et al. citation.
 
-#### New References (5)
+#### Rust WASM Calculator
 
-- Book, Leadership Decapitation (Jordan, Stanford UP) - HTTP 200
-- Reference, Compartmentalization (Wikipedia) - HTTP 200
-- Reference, Counterintelligence (Wikipedia) - HTTP 200
-- Research, Agent Recruitment Frameworks (Burkett, CIA Studies in Intelligence) - HTTP 200
-- Research, Security-Efficiency Tradeoff in Criminal Networks (Morselli et al., ScienceDirect) - HTTP 403 (expected bot detection, confirmed indexed)
+- Calculator rewritten from JavaScript to Rust using `wasm-bindgen` and `web-sys`.
+- Three update modes: FromPricesAndLiquidity, FromPositionSlider, FromReserves.
+- `Cargo.toml` and `src/lib.rs` full listings provided.
+- Widget JS injection anchor and CSS styling examples included.
+- WASM project name: `post_clmm_mathematics`.
+- No external math library dependency. Uses f64 arithmetic for educational purposes.
 
-#### Existing References
+#### Future Reading Section
 
-- All 14 existing URLs re-verified from A89-P2 remain valid.
+Covers multi-range strategies, just-in-time liquidity, options-like payoff analysis, and Uniswap v4 hooks.
+
+#### References (4 external, 2 internal)
+
+- Reference, Concentrated Liquidity (Uniswap Documentation) - HTTP 200
+- Reference, Uniswap v3 Core (whitepaper PDF) - HTTP 200
+- Related Post, Constant Product AMM Mathematics (A73) - post_url
+- Related Post, WASM on a Jekyll Blog (A72) - post_url
+- Research, Liquidity Math in Uniswap v3 (Elsts) - HTTP 200
+- Research, Impermanent Loss in Uniswap v3 (Loesch et al.) - HTTP 200
+
+### Android Development on FreeBSD (Combined Draft)
+
+- Two files merged: `building_android_apks_on_freebsd.markdown` and `android_ndk_builds_on_freebsd.markdown`.
+- Combined into `android_development_on_freebsd.markdown`.
+- Title: "Android Development on FreeBSD".
+- No article number assigned. Not slotted for publication.
+- TODO header added listing modernization tasks for future work.
+- Structured into five subsections: Linux Emulation Layer, Android SDK and NDK Installation, ADB Setup, Environment Configuration, Build Verification.
+- 15 references (union of both original reference lists).
+- Original content preserved without modernization per PROMPT.md constraints.
 
 ### Draft Summary Sync
 
-- A89 entry updated to reflect new sections and reference count.
-- Summary counts unchanged: 13 files, 5 RCs, 0 stubs.
+- CLMM entry updated from stub (~35%) to RC (A91, ~95%).
+- Two Android entries replaced by one combined entry.
+- CLMM struck through in candidate future topics table.
+- Summary counts updated: 12 files, 6 RCs, 0 stubs.
+- Tier structure revised: Tier 2 (CLMM) removed, Android moved to Tier 2, old Tier 4 becomes Tier 3.
 
 ---
 
 ## Questions for Human Review
 
-- None. The revision follows the specifications in PROMPT.md.
+- The PROMPT.md references A74 as "another DeFi Rust-based WASM widget example," but A74 is "Claude Code Getting Started." The relevant DeFi WASM widget example is A73 (Constant Product AMM Mathematics). The CLMM article references A73 accordingly. Please confirm this interpretation is correct.
+- The CLMM calculator widget requires WASM compilation and deployment to `assets/wasm/post_clmm_mathematics/` before it will function in the Jekyll preview. The code listings in the article are complete and buildable.
 
 ---
 
 ## Notes
 
-- Next available article number: A91.
-- 5 release candidates: A86 "Mission Command Management Style," A87 "Telemeritocracy," A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies."
+- Next available article number: A92.
+- 6 release candidates: A86 "Mission Command Management Style," A87 "Telemeritocracy," A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies," A91 "Concentrated Liquidity Market Maker Mathematics."
 - 0 stubs.
-- Publication order dependency: A86 before A87 before A89. A88 and A90 have no dependencies.
+- Publication order dependency: A86 before A87 before A89. A88, A90, and A91 have no dependencies.
 - A86 publication date: 2026-02-18.
 - A88 publication date: 2026-02-17.
 - A87 publication date: 2026-02-19.
 - A89 publication date: 2026-02-20.
 - A90 publication date: 2026-02-21.
+- A91 publication date: 2026-02-22.

@@ -2,13 +2,23 @@
 layout: post
 mathjax: false
 comments: true
-title:  "Building Android APKs on FreeBSD"
+title:  "Android Development on FreeBSD"
 date:   2017-01-27 10:06:31 +0000
 categories: android freebsd
 ---
-It can be useful to build Android APKs on a FreeBSD system if you need to build APKs serverside or
-if FreeBSD happens to be your preferred development environment.
-This post covers the setup required to build an existing Android repository on FreeBSD.
+
+TODO: Modernize this post. Update FreeBSD version from 11 to 14. Update Android SDK from 25 to current. Update NDK from r13b to current. Replace legacy Liquid highlight tags with fenced code blocks. Verify that the Linux emulation approach still works with current Android command line tools. Replace deprecated `android update sdk` commands with `sdkmanager`. Verify or replace FreeBSD JAR patching approach. Update or remove dead references.
+
+This post covers Android SDK and NDK setup on FreeBSD using the Linux emulation layer.
+FreeBSD does not have native Android toolchain support,
+but the Linux binary compatibility layer allows the standard Linux Android toolchain to run on FreeBSD.
+This approach is useful for serverside APK builds
+or for developers who prefer FreeBSD as their primary development environment.
+
+The post is organized into three parts.
+The first part covers FreeBSD Linux emulation layer setup.
+The second part covers Android SDK and NDK installation using a shell script.
+The third part covers ADB setup and build verification.
 
 ## Software Versions
 
@@ -20,6 +30,8 @@ $ uname -vm
 {% endhighlight %}
 
 ## Instructions
+
+### Linux Emulation Layer
 
 On a fresh FreeBSD install, the ports tree may need to be installed and some basic utilities may handy.
 Your needs and preferences may vary.
@@ -56,8 +68,11 @@ mount /compat/linux/proc
 mount /compat/linux/dev/shm
 {% endhighlight %}
 
+### Android SDK and NDK Installation
+
 A script to install the Android build tools looks something like this.
 The components to install are toward the end of the script.
+The script handles SDK and NDK installation, FreeBSD JAR patching, and ELF binary branding.
 
 **android_install.sh** complete listing
 {% highlight sh %}
@@ -181,6 +196,8 @@ chmod +x android_install.sh
 BOOTSTRAP=true NUKE_SDK=true NUKE_NDK=true ./android_install.sh
 {% endhighlight %}
 
+### ADB Setup
+
 The version of **adb** installed with Android SDK did not work on FreeBSD for me.
 Luckily, there is a **devel/android-tools-adb-devel** port that does work.
 For what it is worth, at the time of writing this I can only get **adb** work as root on FreeBSD.
@@ -193,7 +210,10 @@ adb devices
 adb shell input text "Hello,\ World!\ "
 {% endhighlight %}
 
+### Environment Configuration
+
 Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
+
 **${HOME}/.profile** partial listing
 {% highlight sh %}
 # PATH += Android SDK
@@ -209,7 +229,9 @@ export ANDROID_NDK_ROOT="${ANDROID_NDK}"
 export PATH="${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools:${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin:${PATH}"
 {% endhighlight %}
 
-Testing the installation.  Install a coupe libraries as root.
+### SSL Libraries
+
+Testing the installation.  Install a couple libraries as root.
 
 **sh**
 {% highlight sh %}
@@ -220,6 +242,14 @@ rm -f /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.
 wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libssl.so.1.0.0 -O /compat/linux/usr/lib64/libssl.so.1.0.0
 ln -s /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
 {% endhighlight %}
+
+### Build Verification
+
+#### Building APKs
+
+Build verification for SDK-only APK builds can be performed with any standard Android project that uses Gradle.
+
+#### Building with the NDK
 
 Test with the Android NDK Samples.
 
@@ -249,7 +279,7 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 - [Android, Using Kotlin to test Android applications][android-kotlin-testing]
 - [adb, Using SPACE with adb shell input][adb-text-input-space]
 - [Gradle, Gradle Plugin User Guide - Testing][gradle-plugin-user-guide-testing]
-- [FreeBSD, FreeBSD Handbook - Linux® Binary Compatibility][freebsd-linux-emulation]
+- [FreeBSD, FreeBSD Handbook - Linux Binary Compatibility][freebsd-linux-emulation]
 - [FreeBSD, FreeBSD Handbook - Installing Additional Libraries Manually][freebsd-linux-lib-manual-install]
 - [FreeBSD, FreshPorts - devel/android-tools-adb-devel][freebsd-port-android-tools-adb-devel]
 - [Linux, Install Spotify stable (v 0.9.17) on Fedora 23 64-bit][linux-ssl-lib]
@@ -269,5 +299,3 @@ cd "${HOME}/projects/android-ndk-samples/hello-libs"
 [freebsd-linux-lib-manual-install]: https://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
 [freebsd-port-android-tools-adb-devel]: https://www.freshports.org/devel/android-tools-adb-devel/
 [linux-ssl-lib]: https://gist.github.com/olejon/54473554be2d4dbacd03
-
-

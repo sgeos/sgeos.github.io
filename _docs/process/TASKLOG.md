@@ -8,33 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A89 Cryptotelemeritocracy with Theory Additions (A89-P3)
+**Name**: Draft CLMM Post and Combine Android Drafts (A91-P1)
 **Status**: Complete
 **Started**: 2026-02-15
 
 ## Success Criteria
 
-- [x] A89 revised to reflect requested additions.
+- [x] CLMM Mathematics (A91) is release candidate status.
+- [x] Android Development on FreeBSD drafts combined.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A89-P3-T1 | Research counter-espionage properties | Complete | Research agent covered espionage recruitment frameworks (MICE, RASCLS), leadership decapitation resistance (Jordan), security-efficiency tradeoff (Morselli), compartmentalization history (Manhattan Project, Bletchley Park, SOE), insider threat programs (CISA, NCSC), and historical precedents (Venetian Council of Ten, FISC). |
-| A89-P3-T2 | Revise A89 article | Complete | 1638 lines (up from 1088), 19 references across 4 categories (Book, Reference, Related Post, Research). Added: transparency vs continuity tradeoff paragraph, conditional/quiescent arbitrator powers, oversight vs executive configurations, telos amendment and dissolution section, counter-espionage properties section, defense in depth caveat. |
-| A89-P3-T3 | Verify reference URLs | Complete | 5 new URLs verified. Stanford UP (200), Wikipedia Compartmentalization (200), Wikipedia Counterintelligence (200), CIA Studies in Intelligence Burkett (200), ScienceDirect Morselli (403, expected bot detection). |
-| A89-P3-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A91-P1-T1 | Research CLMM mathematics | Complete | Research agent covered concentrated liquidity virtual/real reserves, three price regimes, liquidity from deposit (min formula), tick mathematics and fee tiers, capital efficiency, fee accrual (feeGrowthGlobal/Inside), impermanent loss amplification. Sources: Uniswap v3 whitepaper (Adams et al.), Elsts technical note, Loesch et al. (arXiv:2111.09192), Uniswap documentation. |
+| A91-P1-T2 | Draft CLMM article (A91) | Complete | Renamed from `clmm.markdown` to `clmm_mathematics.markdown`. Full mathematical treatment covering virtual/real reserves, three price regimes, liquidity computation, tick math, capital efficiency, fee accrual, impermanent loss. Rust WASM calculator replaces JavaScript stub. Six references across three categories (Reference, Related Post, Research). Date: 2026-02-22. Categories: crypto defi rust. |
+| A91-P1-T3 | Verify reference URLs | Complete | 4 external URLs verified: Uniswap CL docs (200), Uniswap v3 whitepaper (200), Elsts PDF (200), arXiv Loesch (200). 2 internal post_url references: A73, A72. |
+| A91-P1-T4 | Combine Android FreeBSD drafts | Complete | Two nearly identical drafts (`building_android_apks_on_freebsd.markdown`, `android_ndk_builds_on_freebsd.markdown`) merged into `android_development_on_freebsd.markdown`. Combined draft structured into Linux emulation setup, SDK/NDK installation, ADB setup, environment configuration, SSL libraries, and build verification. TODO header added for future modernization. 15 references (union of both originals). No article number assigned. Not slotted for publication. |
+| A91-P1-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- A89 expanded with six major additions per PROMPT.md A89-P3 specifications.
-- Arbitrator powers clarified as conditional and quiescent when aligned.
-- Oversight vs executive configurations distinguished with ombudsman and constitutional guardianship analogs.
-- Telos amendment section covers permitted, prohibited, and dissolution scenarios.
-- Counter-espionage section covers espionage targeting disruption, espionage-driven mission drift, relationship to existing security mechanisms, and defense in depth.
-- 5 new references added: Jordan (Leadership Decapitation), Burkett (RASCLS), Morselli (security-efficiency tradeoff), Compartmentalization, Counterintelligence.
-- Next available article number: A91.
-- 5 release candidates: A86, A87, A88, A89, A90.
+- A91 "Concentrated Liquidity Market Maker Mathematics" drafted as companion to A73.
+- Calculator rewritten from JavaScript to Rust WASM following A72/A73 integration pattern.
+- Android FreeBSD drafts consolidated without modernization per PROMPT.md constraints.
+- Next available article number: A92.
+- 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
 
 ## History
@@ -58,3 +57,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-15 | A90-P1: "Introduction to Space Studies" researched and written (18 references). References A82 via post_url. Draft summary synced (13 files, 5 RCs, 0 stubs). |
 | 2026-02-14 | A89-P2: "Cryptotelemeritocracy" revised from cryptographic to cryptocratic framing (14 references). Three-layer model with candidate pool, arbitrator powers, strength classifications. Draft summary synced. |
 | 2026-02-15 | A89-P3: "Cryptotelemeritocracy" expanded with theory additions (19 references). Oversight vs executive configurations, telos amendment, counter-espionage properties section. Draft summary synced. |
+| 2026-02-15 | A91-P1: "Concentrated Liquidity Market Maker Mathematics" researched and written (6 references). Calculator rewritten from JS to Rust WASM. Android FreeBSD drafts combined. Draft summary synced (12 files, 6 RCs, 0 stubs). |
