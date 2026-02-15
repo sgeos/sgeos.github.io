@@ -234,9 +234,12 @@ by introducing a cryptocratic layer with an anonymous arbitrator elected from a 
 Grounds the mission drift problem in organizational theory through Merton, Michels, and Selznick.
 Surveys historical precedents for anonymous oversight including Athenian ostracism, Roman tribunes, the Devil's Advocate, Venetian bocche di leone, grand jury secrecy, and inspector general systems.
 Defines the cryptocratic layer covering candidate pool composition, arbitrator powers, selection and appointment, recall, communication, incentives, and embedded configurations.
+Distinguishes oversight and executive configurations with ombudsman and constitutional guardianship analogs.
 Introduces strength classifications along two dimensions of anonymity for the organization and arbitrator.
+Addresses telos amendment, mission rigidity, and organizational dissolution upon telos achievement.
+Analyzes counter-espionage properties including espionage targeting disruption, espionage-driven mission drift, relationship to existing security mechanisms, and defense in depth.
 Discusses eight failure modes and five contexts where the model is inappropriate.
-Fourteen references across four categories (Book, Reference, Related Post, Research).
+Nineteen references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A87 must be published before A89.

@@ -8,29 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A89 Cryptotelemeritocracy to Reflect Cryptocracy (A89-P2)
+**Name**: Revise A89 Cryptotelemeritocracy with Theory Additions (A89-P3)
 **Status**: Complete
-**Started**: 2026-02-14
+**Started**: 2026-02-15
 
 ## Success Criteria
 
-- [x] A89 revised to reflect cryptocracy as opposed to cryptography.
+- [x] A89 revised to reflect requested additions.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A89-P2-T1 | Revise A89 article | Complete | Restructured from cryptographic framing to cryptocratic framing per PROMPT.md specifications. 1088 lines, 14 references across 4 categories (Book, Reference, Related Post, Research). Three-layer model (telocratic, meritocratic, cryptocratic) with candidate pool, arbitrator powers, strength classifications, and placement mechanisms. |
-| A89-P2-T2 | Verify reference URLs | Complete | 10 URLs return HTTP 200. ResearchGate and ScienceDirect return 403 (expected bot detection, confirmed indexed). Two post_url references (A86, A87) verified as internal Jekyll links. |
-| A89-P2-T3 | Update draft_summary.md, REVERSE_PROMPT.md, commit | Complete | Draft summary A89 entry updated to reflect cryptocratic framing. |
+| A89-P3-T1 | Research counter-espionage properties | Complete | Research agent covered espionage recruitment frameworks (MICE, RASCLS), leadership decapitation resistance (Jordan), security-efficiency tradeoff (Morselli), compartmentalization history (Manhattan Project, Bletchley Park, SOE), insider threat programs (CISA, NCSC), and historical precedents (Venetian Council of Ten, FISC). |
+| A89-P3-T2 | Revise A89 article | Complete | 1638 lines (up from 1088), 19 references across 4 categories (Book, Reference, Related Post, Research). Added: transparency vs continuity tradeoff paragraph, conditional/quiescent arbitrator powers, oversight vs executive configurations, telos amendment and dissolution section, counter-espionage properties section, defense in depth caveat. |
+| A89-P3-T3 | Verify reference URLs | Complete | 5 new URLs verified. Stanford UP (200), Wikipedia Compartmentalization (200), Wikipedia Counterintelligence (200), CIA Studies in Intelligence Burkett (200), ScienceDirect Morselli (403, expected bot detection). |
+| A89-P3-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- A89 revised from cryptographic anonymity framing to cryptocracy-based governance framing.
-- Three-layer structure: telocratic, meritocratic, cryptocratic.
-- Candidate pool is private and drawn from an unknown source, not necessarily the employee pool.
-- Strength classifications along two dimensions: organizational anonymity and arbitrator anonymity.
-- Arbitrator placement mechanism for external candidates.
+- A89 expanded with six major additions per PROMPT.md A89-P3 specifications.
+- Arbitrator powers clarified as conditional and quiescent when aligned.
+- Oversight vs executive configurations distinguished with ombudsman and constitutional guardianship analogs.
+- Telos amendment section covers permitted, prohibited, and dissolution scenarios.
+- Counter-espionage section covers espionage targeting disruption, espionage-driven mission drift, relationship to existing security mechanisms, and defense in depth.
+- 5 new references added: Jordan (Leadership Decapitation), Burkett (RASCLS), Morselli (security-efficiency tradeoff), Compartmentalization, Counterintelligence.
 - Next available article number: A91.
 - 5 release candidates: A86, A87, A88, A89, A90.
 - 0 stubs.
@@ -55,3 +57,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-15 | A89-P1: "Cryptotelemeritocracy" researched and written (15 references). References A87 via post_url. Draft summary synced (13 files, 4 RCs, 0 stubs). |
 | 2026-02-15 | A90-P1: "Introduction to Space Studies" researched and written (18 references). References A82 via post_url. Draft summary synced (13 files, 5 RCs, 0 stubs). |
 | 2026-02-14 | A89-P2: "Cryptotelemeritocracy" revised from cryptographic to cryptocratic framing (14 references). Three-layer model with candidate pool, arbitrator powers, strength classifications. Draft summary synced. |
+| 2026-02-15 | A89-P3: "Cryptotelemeritocracy" expanded with theory additions (19 references). Oversight vs executive configurations, telos amendment, counter-espionage properties section. Draft summary synced. |
