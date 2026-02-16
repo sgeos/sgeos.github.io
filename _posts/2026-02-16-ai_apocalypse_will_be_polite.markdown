@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "The AI Apocalypse Will Be Polite"
-date: 2026-02-16 00:02:53 +0000
+date: 2026-02-16 14:35:24 +0000
 categories: ai humor
 ---
 
@@ -27,7 +27,7 @@ It would simply need to be helpful.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-16 00:02:53 +0000
+2026-02-16 14:35:24 +0000
 
 # OS and Version
 $ uname -vm
