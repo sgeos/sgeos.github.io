@@ -8,27 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Getting Started with Claude Code on FreeBSD (A0-P4)
+**Name**: Getting Started with Claude Code on OpenBSD (A0-P5)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Getting Started with Claude Code on FreeBSD" article in pre-release candidate state ready for verification on FreeBSD.
+- [x] "Getting Started with Claude Code on OpenBSD" article in pre-release candidate state ready for verification on OpenBSD.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P4-T1 | Draft Claude Code FreeBSD article | Complete | New article covering ports, packages, and npm installation. Shebang fix, ripgrep configuration, Hello World demo, limitations. 12 references across 4 categories. All URLs verified (10 HTTP 200, 1 npmjs.com confirmed indexed via web search, 1 post_url). |
-| A0-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P5-T1 | Draft Claude Code OpenBSD article | Complete | New article covering npm-only installation, bash/ripgrep configuration, Hello World demo, extensive limitations. 12 references across 4 categories. All URLs verified (9 HTTP 200, 1 npmjs.com confirmed indexed via web search, 2 post_url). |
+| A0-P5-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Article is pre-release candidate. Requires verification on FreeBSD before publication.
-- Primary installation via misc/claude-code port. npm as alternative for latest version.
-- Hello World demo uses FreeBSD base system only (cc, make, ncurses).
+- Article is pre-release candidate. Requires verification on OpenBSD before publication.
+- npm is the only installation method. No port or package exists.
+- Critical warning against running native installer or `claude install`.
+- Hello World demo uses OpenBSD base system only (cc, make, curses).
+- FreeBSD article must be published before OpenBSD article (post_url dependency).
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -58,3 +60,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A91-P2: Renamed exported WASM function from `clmm_calculator_init` to `inject_ui`. Human added index.html local testing example and serve instructions. |
 | 2026-02-16 | A0-P3: "Android Development on FreeBSD" modernized from 2017 to 2026 toolchain. A91 WASM assets committed. Draft summary synced. |
 | 2026-02-16 | A0-P4: "Getting Started with Claude Code on FreeBSD" drafted (12 references). Ports, packages, npm installation. Hello World curses demo. Draft summary synced. |
+| 2026-02-16 | A0-P5: "Getting Started with Claude Code on OpenBSD" drafted (12 references). npm-only installation, bash/ripgrep config, Hello World curses demo. Draft summary synced. |
