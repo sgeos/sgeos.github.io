@@ -8,30 +8,25 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft CLMM Post and Combine Android Drafts (A91-P1)
+**Name**: Fix A91 Widget Source Code (A91-P2)
 **Status**: Complete
-**Started**: 2026-02-15
+**Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] CLMM Mathematics (A91) is release candidate status.
-- [x] Android Development on FreeBSD drafts combined.
+- [x] CLMM Mathematics (A91) has fixed example code and is release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A91-P1-T1 | Research CLMM mathematics | Complete | Research agent covered concentrated liquidity virtual/real reserves, three price regimes, liquidity from deposit (min formula), tick mathematics and fee tiers, capital efficiency, fee accrual (feeGrowthGlobal/Inside), impermanent loss amplification. Sources: Uniswap v3 whitepaper (Adams et al.), Elsts technical note, Loesch et al. (arXiv:2111.09192), Uniswap documentation. |
-| A91-P1-T2 | Draft CLMM article (A91) | Complete | Renamed from `clmm.markdown` to `clmm_mathematics.markdown`. Full mathematical treatment covering virtual/real reserves, three price regimes, liquidity computation, tick math, capital efficiency, fee accrual, impermanent loss. Rust WASM calculator replaces JavaScript stub. Six references across three categories (Reference, Related Post, Research). Date: 2026-02-22. Categories: crypto defi rust. |
-| A91-P1-T3 | Verify reference URLs | Complete | 4 external URLs verified: Uniswap CL docs (200), Uniswap v3 whitepaper (200), Elsts PDF (200), arXiv Loesch (200). 2 internal post_url references: A73, A72. |
-| A91-P1-T4 | Combine Android FreeBSD drafts | Complete | Two nearly identical drafts (`building_android_apks_on_freebsd.markdown`, `android_ndk_builds_on_freebsd.markdown`) merged into `android_development_on_freebsd.markdown`. Combined draft structured into Linux emulation setup, SDK/NDK installation, ADB setup, environment configuration, SSL libraries, and build verification. TODO header added for future modernization. 15 references (union of both originals). No article number assigned. Not slotted for publication. |
-| A91-P1-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A91-P2-T1 | Rename exported function to inject_ui | Complete | Renamed `clmm_calculator_init` to `inject_ui` in 4 locations: live script tag (line 96/99), Rust `#[wasm_bindgen]` function definition (line 528), Widget JS Injection Anchor Example (line 751/754). User's `index.html` example (line 847/850) already used `inject_ui`. |
+| A91-P2-T2 | Update process files and commit | Complete | TASKLOG and REVERSE_PROMPT updated. |
 
 ## Notes
 
-- A91 "Concentrated Liquidity Market Maker Mathematics" drafted as companion to A73.
-- Calculator rewritten from JavaScript to Rust WASM following A72/A73 integration pattern.
-- Android FreeBSD drafts consolidated without modernization per PROMPT.md constraints.
+- The `SyntaxError: Importing binding name 'inject_ui' is not found` was caused by the Rust function being exported as `clmm_calculator_init` while the user's `index.html` imported `inject_ui`.
+- Human added an `index.html` local testing example and a sample serve command to the article.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -58,3 +53,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-14 | A89-P2: "Cryptotelemeritocracy" revised from cryptographic to cryptocratic framing (14 references). Three-layer model with candidate pool, arbitrator powers, strength classifications. Draft summary synced. |
 | 2026-02-15 | A89-P3: "Cryptotelemeritocracy" expanded with theory additions (19 references). Oversight vs executive configurations, telos amendment, counter-espionage properties section. Draft summary synced. |
 | 2026-02-15 | A91-P1: "Concentrated Liquidity Market Maker Mathematics" researched and written (6 references). Calculator rewritten from JS to Rust WASM. Android FreeBSD drafts combined. Draft summary synced (12 files, 6 RCs, 0 stubs). |
+| 2026-02-16 | A91-P2: Renamed exported WASM function from `clmm_calculator_init` to `inject_ui`. Human added index.html local testing example and serve instructions. |
