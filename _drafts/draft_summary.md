@@ -260,6 +260,37 @@ Test the Hello World prompt on FreeBSD.
 Verify shebang fix and ripgrep configuration.
 Assign article number and publication date when ready.
 
+### Getting Started with Claude Code Over SSH — Pre-Release Candidate
+
+**File**: `claude_code_getting_started_over_ssh.markdown`
+**Topic**: Using Claude Code locally to work on remote machines over SSH
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
+
+New article covering the use of Claude Code on a local workstation
+to execute commands on remote machines via SSH.
+Introduces SSH fundamentals for readers unfamiliar with the protocol.
+Walks through Ed25519 key generation, public key copying, SSH agent setup,
+host configuration, and verification.
+Documents remote execution patterns using Claude Code's Bash tool
+including single commands, multi-command chains, and scp file transfer.
+Covers timeout configuration for long-running remote operations.
+Briefly discusses Claude Code Desktop SSH as an alternative
+that requires Claude Code on the remote machine.
+Hello World section demonstrates end-to-end remote workflow
+with OS detection, C code generation, scp transfer, and remote compilation.
+References companion Getting Started posts for macOS (A74), FreeBSD, and OpenBSD via post_url.
+Ten references across three categories (Claude, Reference, Related Post).
+No article number assigned. Not slotted for publication.
+
+**Remaining Work**:
+Human verification with an actual remote SSH target.
+Fill in Software Versions output.
+Test the Hello World prompt against a remote machine.
+Verify timeout configuration format.
+Assign article number and publication date when ready.
+
 ### Getting Started with Claude Code on OpenBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_openbsd.markdown`
@@ -302,7 +333,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fourteen files exist in `_drafts/`. One is a template.
+Fifteen files exist in `_drafts/`. One is a template.
 Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
@@ -334,6 +365,8 @@ Getting Started with Claude Code on FreeBSD covers installation via ports, packa
 and is awaiting verification on FreeBSD hardware before publication.
 Getting Started with Claude Code on OpenBSD covers npm-only installation with bash and ripgrep configuration
 and is awaiting verification on OpenBSD hardware before publication.
+Getting Started with Claude Code Over SSH covers using Claude Code locally to work on remote machines via SSH
+and is awaiting verification with a remote SSH target.
 
 **Tier 3: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
