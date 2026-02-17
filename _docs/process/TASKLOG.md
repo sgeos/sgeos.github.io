@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P2)
+**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P3)
 **Status**: Complete
 **Started**: 2026-02-17
 
@@ -20,18 +20,16 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A92-P2-T1 | Revise article (9 areas) | Complete | Birch Planet added to Telos with Birch 1991 reference. Venus water from comets/asteroids/TNOs. Mercury claims attributed to MESSENGER. EROI and exponential growth equations added. Reverse conglomerate appreciation rewritten with excess pledges as primary mechanism. Spinoff independence expanded with asteroid mining example. Profit reframed as means to telos. Memetic governance framing for intergalactic scale. PROMPT.md mentions removed. MathJax enabled with 6 equations. 16 references across 4 categories. |
-| A92-P2-T2 | Verify new reference URLs | Complete | All 3 new URLs return 200: Shellworld Wikipedia, Trans-Neptunian Object Wikipedia, Birch 1991 ADS. |
-| A92-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A92-P3-T1 | Revise article (8 areas) | Complete | Introduction foreshadow added. Telos restructured into 4 hierarchical categories (13 objectives). Kardashev governance shift note added. Mass driver physics corrected (orbital vs escape velocity, Earth SOI, deceleration). Mercury cannibalization expanded as irreversible inflection point. Spinoff value equations corrected with $V_{spinoff}$ term. Spinoff fragmentation reframed as desirable shedding. Governance Coherence Half-Life introduced with decay equation. |
+| A92-P3-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - Article A92, dated 2026-02-23, categories: space management philosophy.
 - References A89 (Cryptotelemeritocracy) and A90 (Introduction to Space Studies) via post_url.
 - Publication dependency: A89 must be published before A92.
-- "Parent corporation" replaced with "originating corporation" throughout.
-- Governance becomes memetic at galactic scale, not institutional.
-- Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
+- Telos: 13 objectives in 4 categories (infrastructure-enabling, energy-scaling, expansion-propagating, defensive).
+- Governance Coherence Half-Life: $C(t) = C_0 \cdot 2^{-t/T_{GCH}}$.
 - Next available article number: A93.
 - 7 release candidates: A86, A87, A88, A89, A90, A91, A92.
 - 0 stubs.
@@ -72,3 +70,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P13: "Solana sBPF Assembly Example" revised with .equ named constants in main.s and log_hello.s. All non-0/1/-1 literals replaced. Draft summary synced. |
 | 2026-02-17 | A92-P1: "Cryptotelemeritocracy for Space Exploitation" researched and written (13 references). References A89 and A90 via post_url. Draft summary synced (17 files, 7 RCs, 0 stubs). |
 | 2026-02-17 | A92-P2: "Cryptotelemeritocracy for Space Exploitation" revised per subsection notes. Birch Planet, Venus water sourcing, MESSENGER attribution, EROI, reverse conglomerate excess pledges, spinoff independence, telos primacy, memetic governance, MathJax equations. 16 references. Draft summary synced. |
+| 2026-02-17 | A92-P3: "Cryptotelemeritocracy for Space Exploitation" revised. Introduction foreshadow, telos hierarchy (13 objectives, 4 categories), Kardashev governance shift, mass driver physics, Mercury cannibalization inflection point, corrected spinoff equations, spinoff shedding reframe, Governance Coherence Half-Life. Draft summary synced. |

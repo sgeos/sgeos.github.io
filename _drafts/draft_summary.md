@@ -279,27 +279,34 @@ Human review, URL verification, and final proofread before publication. A87 must
 Fully researched article applying the cryptotelemeritocratic governance model (A89)
 to a multigenerational space exploitation enterprise
 whose telos spans Mercury colonization through intergalactic expansion.
-Enumerates the complete telos as a progression through the Kardashev scale
-from late Type I through Type II to Type III civilization.
+Introduction foreshadows four-phase compatibility assessment.
+Telos structured into 13 objectives across four hierarchical categories:
+infrastructure-enabling, energy-scaling, expansion-propagating, and defensive.
+Kardashev framing notes governance shift from resource scaling
+to civilizational continuity beyond Type III.
 Introduces the Birch Planet concept for galaxy-scale energy capture
 around a supermassive black hole, with shell gravity equation.
-Covers near-term goals including lunar mass driver, Venus aerostat colonies,
-Mercury colonization, and Mercury cannibalization for Dyson Swarm construction.
+Covers near-term goals including lunar mass driver with orbital vs escape velocity
+distinction and deceleration propellant note, Venus aerostat colonies,
+Mercury colonization, and Mercury cannibalization as an irreversible
+inflection point where governance stability becomes existential.
 Venus water sourced from comets, asteroids, and trans-Neptunian objects.
 Mercury quantitative claims attributed to MESSENGER mission data.
 EROI and exponential growth equations for Dyson Swarm feedback loop.
-Presents the corporate structure with excess pledge share concentration equation,
-reverse conglomerate appreciation through excess pledges,
-and the spinoff mechanism for shedding solved problems.
+Presents the corporate structure with corrected spinoff value equations
+including $V_{spinoff}$ term and market revaluation note.
+Reverse conglomerate appreciation through excess pledges.
+Spinoff mechanism sheds solved problems, misaligned personnel, and drift pressure.
+$\Delta V_{share}$ quantifies focus, $V_{remaining}$ quantifies market opinion.
 Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
-Spinoff independence expanded with asteroid mining example.
-Assesses cryptotelemeritocracy's suitability across four expansion phases,
-from near-term Earth-Moon-Venus operations through intergalactic expansion.
+Assesses cryptotelemeritocracy's suitability across four expansion phases.
+Governance Coherence Half-Life ($T_{GCH}$) introduced to quantify
+memetic transition threshold.
 Governance becomes memetic rather than institutional at galactic scale.
 Analyzes covert seeding during expansion, the spinoff mechanism's relationship
 to Michels' iron law of oligarchy, counter-espionage properties in space,
 and five space-specific failure modes.
-MathJax enabled with six equations.
+MathJax enabled with multiple equations.
 References A89 and A90 via post_url.
 Sixteen references across four categories (Book, Reference, Related Post, Research).
 
