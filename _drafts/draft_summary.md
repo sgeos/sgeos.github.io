@@ -18,24 +18,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Solana sBPF Assembly Example
+### Solana sBPF Assembly Example — Pre-Release Candidate
 
-**File**: `solana_bpf_asm_example.markdown`
-**Topic**: Writing Solana programs using sBPF assembly
-**Completion**: ~40%
+**File**: `solana_sbpf_assembly_example.markdown`
+**Topic**: Writing Solana programs using sBPF assembly with the sbpf standalone toolchain
+**Completion**: ~90%
 **Publication Sensibility**: High
+**Status**: Pre-Release Candidate
 
-The most publishable draft.
-The topic is recent (December 2025), and the sBPF instruction set and Solana runtime remain actively developed.
-Working assembly source and a `build.rs` build script are present.
-Contemporary tooling (Solana CLI 2.x, Agave validator) would be used for Software Versions.
+Completely rewritten from a partial draft with x86 assembly and clang build.rs
+to use the correct sBPF instruction set and the sbpf standalone toolchain.
+Covers the sBPF virtual machine, registers and memory layout, instruction set overview,
+toolchain installation, project creation, a Hello World program using sol_log_ syscall,
+building and deploying with sbpf tool, and the current state of mixed Rust and assembly projects.
+Three experimental paths for mixed projects documented (nightly inline asm, sbpf-linker, build.rs).
+Nine limitations documented.
+Nine references across two categories (Reference, Research).
+No article number assigned. Not slotted for publication.
 
 **Remaining Work**:
-Replace placeholder problem description with explanatory prose covering the sBPF instruction set, Solana's runtime model, and why assembly-level programming is useful.
-Add categories (space-separated).
-Verify that the assembly code and build script compile and deploy against the current Solana toolchain.
-Draft a complete Instructions section.
-Add a References section.
+Human verification by building and deploying the Hello World program with the sbpf tool.
+Fill in Software Versions TODO placeholders.
+Verify assembly code executes correctly on a local test validator.
+Assign article number and publication date when ready.
 
 ### Concentrated Liquidity Market Maker Mathematics — Release Candidate
 
@@ -377,7 +382,7 @@ Publication order dependency: A86 before A87 before A89.
 A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
-The Solana sBPF assembly example is the most publishable remaining draft.
+No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
 It is recent, topical, and has working code.
 
 **Pre-Release Candidates.**
@@ -394,6 +399,9 @@ and is awaiting verification with a remote SSH target.
 Authenticating a Phoenix JSON API with Guardian and Ueberauth has been fully rewritten
 from 2016 Phoenix 1.1/Guardian 0.10 to modern Phoenix 1.7+/Guardian 2.x
 and is awaiting verification by building and running the MemoApi project.
+Solana sBPF Assembly Example has been fully rewritten from a partial draft with x86 assembly
+to use the correct sBPF ISA and the sbpf standalone toolchain
+and is awaiting verification by building and deploying with the sbpf tool.
 
 **No stubs remain.**
 All article-numbered drafts have been elevated to release candidate status.
@@ -412,7 +420,7 @@ Topics are selected to align with the blog's established strengths in systems pr
 | Rust on RISC-V Microcontrollers | rust embedded no_std | no_std Rust on RISC-V hardware. Combines two active threads in the blog. | no_std Rust series, Radioactive Half-Life Demurrage Cryptocurrency Coin (A88) |
 | WebAssembly Component Model | rust wasm development | WASI and the component model as the next step beyond basic WASM. | WASM on Jekyll (A73) |
 | ~~CLMM Mathematics and Calculator~~ | ~~crypto defi math~~ | ~~Concentrated liquidity mathematics with interactive widget. Direct sequel to AMM article.~~ | ~~Covered by Concentrated Liquidity Market Maker Mathematics (A91)~~ |
-| Solana sBPF Assembly | crypto development asm | Writing Solana programs at the assembly level. Unique low-level blockchain content. | Solana with Rust and Anchor, sBPF draft |
+| ~~Solana sBPF Assembly~~ | ~~crypto development asm~~ | ~~Writing Solana programs at the assembly level. Unique low-level blockchain content.~~ | ~~Covered by Solana sBPF Assembly Example draft~~ |
 | Statistics for A/B Testing | math development | Applied statistics for software engineers. Practical extension of the statistics reference. | Probability and Statistics Reference (A80) |
 | ~~Orbital Mechanics Primer~~ | ~~math science~~ | ~~Applied physics with MathJax. Evergreen STEM content.~~ | ~~Covered by Introduction to Space Studies (A90)~~ |
 | Context Engineering Patterns Cookbook | ai ai-tools development | Practical patterns distilled from the survey article. Shorter, actionable format. | Context Engineering (A78), A75-A77 series |
