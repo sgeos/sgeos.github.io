@@ -23,69 +23,67 @@ Read, but unverified:
 
 ## Objectives
 
-Please review "Cryptotelemeritocracy" and draft the following article.
-Please also research the following topic before drafting the article.
+Please revise the "Cryptotelemeritocracy for Space Exploitation" article based on the subsection notes.
+Please also research the topic before making the revision.
+Incorporate research material into the references, and consider including it in the future
+reading section.
+Note that this article has neither a length nor a reference cap.
 
-### Draft "Cryptotelemeritocracy for Space Exploitation"
+### Galaxy Scale Dyson Swarm Equivalent
 
-Assume the following telos.
+This has a name.
+Please research it, and use the proper name.
+Explain the properties of the structure, and the advantages of building it.
 
-- Colonize Mercury.
-- Begin to build a Dyson Swarm around the Sun.
-- Launch probes from to all celestial bodies in the solar system.
-- Launch interstellar probes.
-- Finish building Dyson Swarm around the Sun.
-- Launch ships to build Dyson Swarms around suitable neighboring stars.
-- Start building Dyson Swarms around all stars in the Galaxy.
-- Build Dyson Swarm equivalent around Galaxy's central supermassive black hole.
-- Launch intergalactic probes.
-- Continue intergalactic expansion until expasion is no longer possible.
-- Engage in planetary, stellar, and galactic defense of assets if hostile alien life encountered.
+### Venus Colonization
 
-Assume the following near-term goals.
+Water can be imported from comets, asteroids, or things like TNOs.
+Earth's water should stay on Earth,
+and celestial bodies like the Moon are too dry for exports.
 
-- Build a mass driver on the Moon suitable for sustained colonization of Mercury
-  and supplying manufactured goods to Earth.
-- Optionally, colonize Venus with aerostat colonies high in the astmosphere
-  where pressure and temperature are similar to Earth.
-  Assume agriculture from CO2 atmosphere, knowledge worker population supported by agriculture,
-  and cloud/AI computing systems supported solar flux closer to the Sun.
-  Venus is largely human/AI "centaur" (from centaur chess) knowledge worker planning hub.
-  Water will likely need to be imported for mass agriculture.
-  A breathable atmosphere is a lifting gas on Venus, so colonies will essentially be built
-  inside of aerostat "balloons."
-- Colonize Mercury. There are theorized subterranian regions where temperatures are similar to Earth.
-  These regions are latitude and depth dependant.
-  These regions require excavation. Water ice likely in permanent craters at the poles.
-  Poles are ideal for first colonies.
-  Mercury is a good staging point for solar research and Dyson Swarm construction.
-- Cannibalize Mercury to build a Dyson swarm around the Sun.
-  Import anything necessary.
+### Mercury Colonization
 
-Assume the following properties.
+The reverse prompt had verification requests for things like Mercury's composition.
+The truth is, we do not know.
+This applies to more than just the Mercury section,
+but the best way to handle quantitative claims is to say:
+"According to [source], [feature] has estimated [quantity]."
 
-- Company is profit maximizing; sales feed R&D; R&D provides tech for commercialization.
-- Company has convertible shares for normal shareholders.
-- All assets have are valued in outstanding convertible shares.
-- Assets can be strategic or tactical. Strategic assets are held.
-- Shareholders can pledge convertible shares to split tactical assets off into independent companies.
-  - If successful, pledged shares are cancelled and new company organizes as it sees fit.
-  - In general, the new company is tied to the old company via time limited service agreements.
-    - Guaranteed revenue for new company.
-    - Guaranteed price for old company.
-  - Profit maximizing company attempts to collect excess pledges to concentrate remaining share value.
-  - Split companies get reverse conglomerate appreciation. Old company attempts to capture this delta.
-- Company is essentially an innovation engine that sheds solved problems.
-  - Regular investors kick capital in for expansion.
-  - Old company reaps rewards through limited time service contract lock in.
+### Reverse Conglomerate Appreciation
 
-Assess cryptotelemeritocracy's suitability as a governance strategy for this telos.
-Assume candidates are covertly seeded during physical expansion phases to act as local arbitrators.
+Value capture is through excess pledges.
+The service agree is a separate value maximization mechanism.
+Not sure if parent company is the right word because the new company is not a subsidiary.
+
+### Suitability of Cryptotelemeritocracy: Spinoff Fragmentation
+
+Once a spinoff is shed, it is an independent entity that is no longer bound to the telos.
+The new operators can adopt some flavor of a telocracy with a different telos,
+or a completely different governance structure whatsoever.
+This is one of the benefits of the spinoff model.
+For example, and asteroid mining division under a Dyson Swarm production telos
+likely does not have the freedom to become the best asteroid mining company in the solar system.
+It might, but an independent operation can pull in capital to optimize a narrow mission.
+
+### Suitability of Cryptotelemeritocracy: Profit Versus Telos Tension
+
+The proposed governance strategy is cryptotelemeritocracy.
+Exceeding Kardashev Type III is the succint telos.
+Profit maximization is a means to that end.
+It does not matter how profitable running the Sun is, the goal is to expand.
+
+### Covert Seeding During Expansion
+
+Do not mention `PROMPT.md`. This goes for the entire article.
+
+### Include MathJax
+
+Use equations when they can explain economic and physical realities that support the thesis.
+The thesis is "cryptotelemeritocracy" can take humanity past Kardashev Type III.
 
 ## Context
 
-Working on backlog posts for next week.
-Converting drafts to full posts.
+Working on backlog posts for next week. Converting drafts to full posts.
 
 ## Constraints
 
