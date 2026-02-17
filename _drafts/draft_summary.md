@@ -134,23 +134,35 @@ Fill in Software Versions TODO placeholders.
 Test build pipeline on FreeBSD 14 with Linuxulator.
 Assign article number and publication date when ready.
 
-### Android Unit Testing
+### Android Unit Testing — Pre-Release Candidate
 
 **File**: `android_unit_testing.markdown`
-**Topic**: Android unit testing with Gradle, emulators, and CI
-**Completion**: ~30%
-**Publication Sensibility**: Low
+**Topic**: Android unit testing across Kotlin, Robolectric, instrumented, and NDK layers
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
 
-The original targets Android Studio 2.2 and SDK 25 (2017).
-Android testing has evolved significantly.
-Contemporary tooling would use AndroidX Test, Jetpack Compose testing, and Android Studio current.
-The existing code snippets would need near-complete replacement.
+Completely rewritten from 2017 content (SDK 25, Java 1.8, ApplicationTestCase)
+to modern toolchain (SDK 35, JDK 17, Kotlin 2.1.0, AGP 8.9.0).
+Test subject is the CLMM calculator app with both Kotlin and Rust native implementations.
+Covers test dependencies (JUnit 4, AndroidX Test, Robolectric, MockK, Espresso),
+local unit tests with pure logic and Robolectric Activity tests,
+mocking with MockK object declarations,
+instrumented tests with Espresso,
+and NDK unit testing with Rust cargo test, JNI boundary testing, and GoogleTest for C++.
+Running Tests section provides Gradle task table. Code Coverage section covers JaCoCo, Kover, and cargo-llvm-cov.
+Seven limitations documented. MathJax enabled for CLMM reserve formulas.
+References Android FreeBSD article and CLMM Mathematics (A91) via post_url.
+No article number assigned. Not slotted for publication.
+Twelve references across four categories (Android, Reference, Related Post, Rust).
 
 **Remaining Work**:
-Rewrite around contemporary AndroidX Test and Compose UI testing frameworks.
-Replace placeholder problem description and instructions with complete prose.
-Update emulator setup to use current Android Emulator and device profiles.
-The scope of rewriting approaches writing from scratch.
+Human verification of test code against actual Android project.
+Fill in Software Versions TODO placeholders.
+Verify floating-point test expected values against CLMM calculator.
+Verify JNI function name conventions for NativeBridgeTest.
+Assign article number and publication date when ready.
+Android FreeBSD article and CLMM Mathematics (A91) must be published first.
 
 ### Authenticating a Phoenix JSON API with Guardian
 
@@ -365,6 +377,8 @@ It is recent, topical, and has working code.
 **Pre-Release Candidates.**
 Android Development on FreeBSD has been fully rewritten with modern tooling
 and is awaiting verification on FreeBSD hardware before publication.
+Android Unit Testing has been fully rewritten with contemporary AndroidX Test, Robolectric, MockK,
+and NDK testing coverage and is awaiting verification against an actual Android project.
 Getting Started with Claude Code on FreeBSD covers installation via ports, packages, and npm
 and is awaiting verification on FreeBSD hardware before publication.
 Getting Started with Claude Code on OpenBSD covers npm-only installation with bash and ripgrep configuration
@@ -373,7 +387,7 @@ Getting Started with Claude Code Over SSH covers using Claude Code locally to wo
 and is awaiting verification with a remote SSH target.
 
 **Tier 3: Rewrite or abandon.**
-The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
+The Phoenix/Guardian draft would require a near-complete rewrite to use contemporary frameworks.
 
 **No stubs remain.**
 All article-numbered drafts have been elevated to release candidate status.
