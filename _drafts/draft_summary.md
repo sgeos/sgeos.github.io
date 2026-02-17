@@ -107,29 +107,32 @@ Eighteen references across three categories (Reference, Related Post, Research).
 **Remaining Work**:
 Human review, URL verification, and MathJax rendering check before publication.
 
-### Android Development on FreeBSD
+### Android Development on FreeBSD — Pre-Release Candidate
 
 **File**: `android_development_on_freebsd.markdown`
-**Topic**: Android SDK and NDK setup on FreeBSD using the Linux emulation layer
-**Completion**: ~85%
-**Publication Sensibility**: Low-Medium
+**Topic**: Android SDK and NDK development on FreeBSD using Kotlin, Rust, and the Linuxulator
+**Completion**: ~90%
+**Publication Sensibility**: Medium
+**Status**: Pre-Release Candidate
 
-Consolidated from two nearly identical drafts covering APK builds and NDK builds separately.
-The original content targets Android SDK 25, NDK r13b, and FreeBSD 11 (2017).
-If modernized, contemporary tooling would be Android SDK 35+, NDK r27+, and FreeBSD 14.
-The Linux emulation layer approach remains valid on FreeBSD and is still documented in the FreeBSD Handbook.
-The combined draft is structured into Linux emulation setup, SDK/NDK installation, ADB setup, environment configuration, and build verification sections.
-The audience for Android development on FreeBSD is small.
+Completely rewritten from 2017 content (FreeBSD 11, SDK 25, NDK r13b)
+to modern toolchain (FreeBSD 14, SDK 35, NDK r28).
+Covers Linuxulator setup with Rocky Linux 9 base,
+Android SDK and NDK installation via sdkmanager,
+ADB setup with native FreeBSD port,
+Kotlin SDK development with standard XML layouts,
+Rust NDK development with JNI integration via cargo-ndk,
+and emulator feasibility discussion.
+Sample app is a native Android port of the CLMM calculator (A91)
+with Kotlin UI and Rust math exposed through JNI.
+No article number assigned. Not slotted for publication.
+Ten references across four categories (Android, FreeBSD, Related Post, Rust).
 
 **Remaining Work**:
-Update all SDK and NDK version references to contemporary releases.
-Fix the Software Versions block (date and uname fields are swapped).
-Replace legacy Liquid highlight tags with fenced code blocks.
-Replace deprecated `android update sdk` commands with `sdkmanager`.
-Verify or replace FreeBSD JAR patching approach.
-Verify that the Linux emulation approach still works with current Android build tools.
-Update or remove dead references.
-Polish prose.
+Human verification on FreeBSD hardware.
+Fill in Software Versions TODO placeholders.
+Test build pipeline on FreeBSD 14 with Linuxulator.
+Assign article number and publication date when ready.
 
 ### Android Unit Testing
 
@@ -270,10 +273,9 @@ A88, A90, and A91 have no dependencies.
 The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
-**Tier 2: Salvageable but niche.**
-The consolidated Android/FreeBSD draft covers both SDK and NDK workflows
-and needs updating to FreeBSD 14 and current Android tooling.
-The audience for Android development on FreeBSD is small, making the effort-to-reach ratio unfavorable.
+**Pre-Release Candidate.**
+Android Development on FreeBSD has been fully rewritten with modern tooling
+and is awaiting verification on FreeBSD hardware before publication.
 
 **Tier 3: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.

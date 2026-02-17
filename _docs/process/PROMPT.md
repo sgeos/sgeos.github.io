@@ -10,31 +10,45 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Answers to Reverse Prompt Questions:
-1) A74 contained an example DeFi Rust-based WASM widget example.
-   Do not worry about it if you did not need it.
-2) Modifications made to A91, please review.
-   Ran into trouble getting the widget to load. See below.
+WASM for A91 built and added to repo.
+Please as commit as well as completing the below objectives.
 
 ## Objectives
 
-### Fix A91 Widget Source Code
+### Modernize Android Development on FreeBSD
 
-I added an example `index.html` for local testing,
-along with terse instructions on how to serve it.
-I ran into the following console error.
+The general strategy is to use the FreeBSD Linuxulator
+in combination with a command line SDK and NDK development workflow.
+The Android emulator is completely out of scope. (State this!)
+Assume testing will be done on hardware using a connected device.
 
-```
-SyntaxError: Importing binding name 'inject_ui' is not found.
-```
+The sample application should be a port of the
+A91 WASM widget to Android as a single page app.
+Mission success if this sample app can be built and tested from FreeBSD.
 
-Revise widget source code so that it has an `inject_ui()` function.
-This is likely the function that builds the UI,
-so UI element names will need to match up with the elements
-expected by the update logic.
+The development stack is:
+- Kotlin for SDK work
+- Rust for NDK work
+- Whatever happens to be conventional for everything else, like UI files
 
-Feel free to refer to previous articles if you need an example.
-A72, A73, and A74 all contain example code.
+Sections:
+- Post summary (what are we doing and not doint)
+- Software Version (just give commands; I will update manually)
+- Environment setup.
+  - Required ports and other step.
+- SDK development.
+  - Kotlin app
+  - Set up UI
+  - Build and run non-interactive app on connected device
+- NDK development
+  - Rust update code exposed via FFI
+  - Build and run interactive app on connected device
+- Emulator feasibility
+- Conclusion
+- Future Reading
+- References
+
+Make sure this post is properly researched.
 
 ## Context
 
@@ -43,12 +57,14 @@ Converting drafts to full posts.
 
 ## Constraints
 
-(none)
+Do not yet assign an article number.
+Do not slot for publication, despite the manual date update.
 
 ## Success Criteria
 
-- CLMM Mathematics (A91) has fixed example code,
-  and is release candidate status.
+- Android Development on FreeBSD article in pre-release candidate state
+  ready for verification on FreeBSD.
+- Sample project itself is portable so I can test on macOS first.
 
 ## Notes
 
