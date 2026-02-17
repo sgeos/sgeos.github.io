@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Mission Command Management Style"
-date: 2026-02-18 00:01:00 +0000
+date: 2026-02-17 12:47:43 +0000
 categories: management philosophy
 ---
 
@@ -48,7 +48,7 @@ to engineering and scientific organizations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-14 23:42:34 +0000
+2026-02-17 12:47:43 +0000
 
 # OS and Version
 $ uname -vm
