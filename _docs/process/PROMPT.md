@@ -10,6 +10,10 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
+Currently reading:
+
+- Solana sBPF Assembly Example
+
 Read, but unverified:
 
 - Android Development on FreeBSD
@@ -21,15 +25,11 @@ Read, but unverified:
 
 ## Objectives
 
-### Finish Drafting Solana sBPF ASM Example
+### Draft "Getting Started with Solana Using Rust and Pinocchio"
 
-Finish drafting the "Solana sBPF ASM Example" article.
-The goal was to compile and link an sBPF ASM `.s` file to a smart contract.
-I never actually figured out a solution.
-I am not a huge fan of inline ASM, but feel free to use this solution if
-it is the only one you can find.
-If there is no `.s` file solution, please fold this information into the article.
-Retain and fill out all other article sections.
+Review A65.
+Draft a "Getting Started with Solana Using Rust and Pinocchio" article that mirrors A65.
+Have the article reference A65.
 
 Please research this problem and state limitations.
 Do not slot for publication, but tentatively use the next publication date slot
@@ -46,8 +46,8 @@ Do not yet assign an article number.
 
 ## Success Criteria
 
-- "Solana sBPF ASM Example" article in pre-release candidate state ready for manual verification.
-- Rename markdown file as appropriate.
+- "Getting Started with Solana Using Rust and Pinocchio" article
+  in pre-release candidate state ready for manual verification.
 
 ## Notes
 
