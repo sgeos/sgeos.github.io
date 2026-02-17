@@ -276,18 +276,22 @@ host configuration, and verification.
 Documents remote execution patterns using Claude Code's Bash tool
 including single commands, multi-command chains, and scp file transfer.
 Covers timeout configuration for long-running remote operations.
+Detailed agent forwarding section covers mechanism, configuration,
+verification, Claude Code usage, security considerations,
+and ProxyJump as a safer alternative for untrusted intermediate hosts.
 Briefly discusses Claude Code Desktop SSH as an alternative
 that requires Claude Code on the remote machine.
 Hello World section demonstrates end-to-end remote workflow
 with OS detection, C code generation, scp transfer, and remote compilation.
 References companion Getting Started posts for macOS (A74), FreeBSD, and OpenBSD via post_url.
-Ten references across three categories (Claude, Reference, Related Post).
+Eleven references across three categories (Claude, Reference, Related Post).
 No article number assigned. Not slotted for publication.
 
 **Remaining Work**:
 Human verification with an actual remote SSH target.
 Fill in Software Versions output.
 Test the Hello World prompt against a remote machine.
+Verify agent forwarding with `ssh -A myserver "ssh-add -l"`.
 Verify timeout configuration format.
 Assign article number and publication date when ready.
 

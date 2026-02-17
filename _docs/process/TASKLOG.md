@@ -8,29 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Getting Started with Claude Code Over SSH (A0-P6)
+**Name**: Revise Claude Code Over SSH — Agent Forwarding (A0-P7)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
 - [x] "Getting Started with Claude Code Over SSH" article in pre-release candidate state ready for manual verification.
+- [x] Article has detailed section on SSH agent forwarding.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P6-T1 | Draft Claude Code Over SSH article | Complete | New article covering SSH fundamentals, key-based authentication, SSH agent, host configuration, remote execution via Bash tool, timeout configuration, Claude Code Desktop SSH, Hello World remote demo. 10 references across 3 categories. All URLs verified (7 HTTP 200, 3 post_url). |
-| A0-P6-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P7-T1 | Add Agent Forwarding section | Complete | New section with 7 subsections: mechanism, enabling, verification, Claude Code usage, security considerations, ProxyJump alternative. Opening prose updated from three to four topics. ssh-agent manual reference added (HTTP 200). |
+| A0-P7-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Article is pre-release candidate. Requires manual verification with a remote SSH target.
-- Primary focus: Bash tool SSH workflow (no Claude Code on remote machine).
-- Claude Code Desktop SSH briefly discussed (requires remote installation).
-- Hello World demo: remote OS detection, C code generation, scp transfer, remote compilation.
-- No publication dependency on other articles. References A74, FreeBSD, and OpenBSD articles via post_url.
+- Article now covers: SSH fundamentals, key-based auth, SSH agent, host configuration, remote execution, timeout configuration, agent forwarding, Claude Code Desktop SSH, Hello World, and limitations.
+- 11 references across 3 categories (Claude, Reference, Related Post).
+- Security considerations for agent forwarding prominently documented.
+- ProxyJump documented as safer alternative for untrusted intermediate hosts.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -62,3 +62,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P4: "Getting Started with Claude Code on FreeBSD" drafted (12 references). Ports, packages, npm installation. Hello World curses demo. Draft summary synced. |
 | 2026-02-16 | A0-P5: "Getting Started with Claude Code on OpenBSD" drafted (12 references). npm-only installation, bash/ripgrep config, Hello World curses demo. Draft summary synced. |
 | 2026-02-16 | A0-P6: "Getting Started with Claude Code Over SSH" drafted (10 references). SSH fundamentals, key auth, remote execution via Bash tool, Desktop SSH. Draft summary synced. |
+| 2026-02-16 | A0-P7: "Getting Started with Claude Code Over SSH" revised with agent forwarding section (11 references). Security considerations, ProxyJump alternative. Draft summary synced. |

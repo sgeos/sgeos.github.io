@@ -12,22 +12,21 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 Currently reading through the following drafts:
 
-- Android Development on FreeBSD
 - Claude Code on FreeBSD
 - Claude Code on OpenBSD
 
+Read, but unverified:
+
+- Android Development on FreeBSD
+
 ## Objectives
 
-### Draft Claude Code Over SSH
+### Revise Claude Code Over SSH
 
-Draft a "Getting Started with Claude Code Over SSH" article.
-The idea is that instead of installing Claude Code on something like
-OpenBSD or a production server,
-the developer runs it on their local machine and
-uses SSH to perform tasks on these kinds of remote targets.
-Assume the reader is either unfamiliar with or super rusty regarding SSH.
-
+Revise the "Getting Started with Claude Code Over SSH" article
+to add a detailed section on SSH agent forwarding.
 Please research this problem and state limitations.
+
 Do not slot for publication, but tentatively use the next publication date slot
 for lack of a better alternative.
 
@@ -44,6 +43,7 @@ Do not yet assign an article number.
 
 - "Getting Started with Claude Code Over SSH" article in pre-release candidate state
   ready for manual verification.
+- Article has detailed section on SSH agent forwarding.
 
 ## Notes
 
