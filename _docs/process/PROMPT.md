@@ -10,35 +10,31 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-(no comment)
+Answers to Reverse Prompt Questions:
+1) A74 contained an example DeFi Rust-based WASM widget example.
+   Do not worry about it if you did not need it.
+2) Modifications made to A91, please review.
+   Ran into trouble getting the widget to load. See below.
 
 ## Objectives
 
-### Draft Full CLMM Post
+### Fix A91 Widget Source Code
 
-Please review A72, A73, and A74.
-Take the "CLMM Calculator" draft, and revise it to introduce CLMM mathematics similar to A73.
-Rewrite the calculator to use Rust instead of JavaScript.
-A72 covers WASM integration, and A74 provides another DeFi Rust-based WASM widget example.
-Conduct research, and include future reading and references sections.
-Rename the article and filename, if appropriate.
-Assign the next avail available article number, if an article number has not been assigned.
+I added an example `index.html` for local testing,
+along with terse instructions on how to serve it.
+I ran into the following console error.
 
-### Combine Android Development on FreeBSD Articles
+```
+SyntaxError: Importing binding name 'inject_ui' is not found.
+```
 
-Combine the following drafts into a single draft:
+Revise widget source code so that it has an `inject_ui()` function.
+This is likely the function that builds the UI,
+so UI element names will need to match up with the elements
+expected by the update logic.
 
-- Building Android APKs on FreeBSD
-- Android NDK Builds on FreeBSD
-
-At this point:
-
-- Do not modernize
-- Do not assign an article number
-- Do not slot for publication
-
-Lay the groundwork for a modernized article without doing the research.
-Rename the article and filename, if appropriate.
+Feel free to refer to previous articles if you need an example.
+A72, A73, and A74 all contain example code.
 
 ## Context
 
@@ -47,13 +43,13 @@ Converting drafts to full posts.
 
 ## Constraints
 
-Make sure Android on FreeBSD remains out of the publication lane for now.
+(none)
 
 ## Success Criteria
 
-- CLMM Mathematics (A91?) is release candidate status.
-- Android Development on FreeBSD
+- CLMM Mathematics (A91) has fixed example code,
+  and is release candidate status.
 
 ## Notes
 
-I think the next publication date slot is `2026-02-22`, but I may be wrong.
+(none)

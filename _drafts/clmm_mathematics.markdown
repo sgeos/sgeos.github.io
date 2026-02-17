@@ -93,10 +93,10 @@ After that, it will present the code for the following **CLMM calculator widget*
 </style>
 
 <script type="module" id="clmm_calculator_ui">
-  import init, { clmm_calculator_init } from "/assets/wasm/post_clmm_mathematics/post_clmm_mathematics.js";
+  import init, { inject_ui } from "/assets/wasm/post_clmm_mathematics/post_clmm_mathematics.js";
   async function run() {
     await init();
-    clmm_calculator_init("clmm_calculator_ui");
+    inject_ui("clmm_calculator_ui");
   }
   run();
 </script>
@@ -525,7 +525,7 @@ fn repopulate(inputs: &ClmmCalculatorInputs, p_a: f64, p_c: f64, p_b: f64, l: f6
 }
 
 #[wasm_bindgen]
-pub fn clmm_calculator_init(anchor_id: &str) {
+pub fn inject_ui(anchor_id: &str) {
     let window = web_sys::window().expect("Missing window");
     let document = window.document().expect("Missing document");
     let anchor = document
@@ -748,10 +748,10 @@ pub fn clmm_calculator_init(anchor_id: &str) {
 **Widget JS Injection Anchor Example**
 ```html
 <script type="module" id="clmm_calculator_ui">
-  import init, { clmm_calculator_init } from "/assets/wasm/post_clmm_mathematics/post_clmm_mathematics.js";
+  import init, { inject_ui } from "/assets/wasm/post_clmm_mathematics/post_clmm_mathematics.js";
   async function run() {
     await init();
-    clmm_calculator_init("clmm_calculator_ui");
+    inject_ui("clmm_calculator_ui");
   }
   run();
 </script>
