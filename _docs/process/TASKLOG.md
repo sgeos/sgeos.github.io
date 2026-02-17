@@ -8,31 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Getting Started with Solana Using Rust and Pinocchio (A0-P11)
+**Name**: Revise Solana sBPF Assembly Example (A0-P12)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Getting Started with Solana Using Rust and Pinocchio" article in pre-release candidate state ready for manual verification.
-- [x] Article mirrors A65 (Anchor companion) with same toy contract concept.
-- [x] Limitations are researched and documented.
-- [x] A65 referenced via post_url.
+- [x] ASM uses `.rodata` section with `lddw` address loading.
+- [x] Linked object file example with Rust entrypoint passing "Rust" to ASM logging subroutine.
+- [x] ASM subroutine logs "Hello sBPF from Rust!" using sol_log_ syscall.
+- [x] `build.rs` demonstrates Solana SDK Clang and llvm-ar pipeline.
+- [x] New references folded in.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P11-T1 | Research Pinocchio and write article | Complete | New article mirroring A65's key pegboard contract using Pinocchio. #![no_std], manual account validation, raw byte parsing, PDA creation via CPI. Mollusk tests. Comparison table with Anchor. 9 limitations. 12 references across 3 categories (Reference, Related Post, Research). |
-| A0-P11-T2 | Verify reference URLs | Complete | All 11 external URLs verified. |
-| A0-P11-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P12-T1 | Revise Hello World to use .rodata | Complete | Replaced stack-based string storage with `.rodata` section. `lddw r1, message` loads address. `.ascii` directive stores bytes. Code explanation updated. |
+| A0-P12-T2 | Add linked Rust+ASM subsection | Complete | New subsection "Linking Assembly into a Rust Project with build.rs" at end of Mixed Rust and Assembly Projects. log_hello.s with callee-saved register management, byte copy loop, sol_log_ call. Rust entrypoint with extern "C" FFI. build.rs with Solana SDK tool discovery. Cargo.toml. Caveat paragraph. |
+| A0-P12-T3 | Update references and prose | Complete | Added hello-solana-asm and solana-upstream-bpf-template references (11 total). Updated opening paragraph, Future Reading, and limitation #9. |
+| A0-P12-T4 | Verify reference URLs | Complete | 2 new URLs verified. |
+| A0-P12-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Tentative date 2026-03-02.
-- References published article A65 "Getting Started with Solana Using Rust and Anchor" via post_url.
-- No publication dependency on other unpublished articles.
+- Linked object file example is a theoretical solution for manual verification.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -69,3 +70,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P9: "Phoenix JSON API Authentication with Guardian and Ueberauth" modernized from 2016 to contemporary Phoenix 1.7+/Guardian 2.x (11 references). File renamed. Draft summary synced. |
 | 2026-02-16 | A0-P10: "Solana sBPF Assembly Example" finished from partial draft. Rewritten with correct sBPF ISA and sbpf toolchain (9 references). Mixed Rust/assembly state documented. File renamed. Draft summary synced. |
 | 2026-02-16 | A0-P11: "Getting Started with Solana Using Rust and Pinocchio" drafted (12 references). Mirrors A65 key pegboard with Pinocchio. Mollusk tests, comparison table. Draft summary synced. |
+| 2026-02-16 | A0-P12: "Solana sBPF Assembly Example" revised with .rodata section and linked Rust+ASM object file example (11 references). build.rs with Solana SDK Clang. Draft summary synced. |

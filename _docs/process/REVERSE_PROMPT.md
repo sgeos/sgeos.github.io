@@ -9,48 +9,57 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-16
-**Task**: A0-P11 Draft Getting Started with Solana Using Rust and Pinocchio
+**Task**: A0-P12 Revise Solana sBPF Assembly Example
 
 ---
 
 ## Verification
 
-### Getting Started with Solana Using Rust and Pinocchio Article
+### .rodata Section Revision
 
-- New article mirroring A65 "Getting Started with Solana Using Rust and Anchor" using the Pinocchio zero-dependency library instead of Anchor.
-- File: `solana_with_rust_and_pinocchio_getting_started.markdown`.
-- Title: "Getting Started with Solana Using Rust and Pinocchio."
-- Front matter: `mathjax: false`, categories `solana rust`, date `2026-03-02 00:01:00 +0000`.
-- Same key pegboard toy contract concept as A65. Stores a public key and encrypted private key on-chain using a PDA.
-- Same off-chain `generate.sh` script as A65 included in full for self-containedness.
-- Program uses `#![no_std]`, `pinocchio::entrypoint!`, manual account validation, raw byte parsing, and single-byte discriminator routing.
-- Account data layout: 32 bytes public key, 4 bytes length prefix (u32 LE), up to 128 bytes encrypted private key. Total 164 bytes.
-- PDA seeds `[b"key-pegboard", public_key.as_ref()]` identical to A65 for conceptual parity.
-- Account creation via CPI to System Program using `pinocchio_system::instructions::CreateAccount` with PDA signer seeds.
-- Rent calculation via `pinocchio::sysvars::rent::Rent::get()`.
-- Unit tests in `src/lib.rs`: account data size validation and serialization roundtrip.
-- Program tests with Mollusk in `tests/test_publish.rs`: successful publish, missing signer rejection, invalid discriminator rejection.
-- Deploying and Testing section covers `cargo build-sbf`, `solana-test-validator`, `solana program deploy`, and `declare_id!` key management.
-- Comparison with Anchor table covering 13 aspects (account validation, serialization, discriminator, std lib, scaffolding, build, test, IDL, key management, dependencies, compute units, binary size).
-- 9 limitations documented including no automatic account validation, no IDL generation, no client generation, no init constraint, no_std constraints, smaller ecosystem, raw ProgramError, team collaboration, and manual key management.
-- References A65 via `post_url`.
-- 12 references across 3 categories (Reference, Related Post, Research).
-- No article number assigned. Not slotted for publication. `<!-- Axxx -->` placeholder used.
+- Hello World program in `src/main.s` revised to use `.rodata` section.
+- String "Hello, sBPF!" declared with `.ascii` directive under a `message:` label.
+- `lddw r1, message` loads the 64-bit address of the string into r1.
+- Previous stack-based approach (mov32/stxw pattern) replaced entirely.
+- Code explanation updated to describe `.rodata`, `.ascii`, and `lddw` instructions.
+- Noted that the sbpf assembler supports `.ascii`, `.byte`, `.short`, `.word`, `.int`, `.long`, `.quad` but not `.asciz` or `.string`.
+
+### Linked Rust and Assembly Object File Example
+
+- New subsection "Linking Assembly into a Rust Project with build.rs" added at the end of "Mixed Rust and Assembly Projects."
+- Project structure: `src/lib.rs` (Rust entrypoint), `src/log_hello.s` (sBPF assembly), `build.rs`, `Cargo.toml`.
+- Assembly function `log_hello` accepts pointer and length arguments, constructs "Hello sBPF from {name}!" on the stack, calls `sol_log_`.
+- Callee-saved registers r6-r8 saved on entry and restored before exit.
+- 16-byte prefix stored as four little-endian 4-byte words.
+- Name bytes copied via a loop using `ldxb`/`stxb` with computed addresses.
+- Exclamation mark appended after the name.
+- Rust entrypoint uses `#![no_std]`, `#![no_main]`, `extern "C" { fn log_hello(...); }`, passes `b"Rust"`.
+- `build.rs` discovers Solana SDK LLVM tools, invokes `clang -target sbf -march=bpfel+solana -c`, archives with `llvm-ar rcs`, emits `cargo:rustc-link-search` and `cargo:rustc-link-lib=static` directives.
+- Caveat paragraph clearly states this is a theoretical solution for manual verification.
+- Assembly uses Clang syntax with label-based branches.
+
+### References and Prose Updates
+
+- Added `hello-solana-asm` (deanmlittle/hello-solana-asm) as Reference.
+- Added `solana-upstream-bpf-template` (solana-developers/solana-upstream-bpf-template) as Reference.
+- Total references increased from 9 to 11 across two categories (Reference, Research).
+- Opening paragraph updated to mention `.rodata` section and linked object file approach.
+- Future Reading updated with hello-solana-asm repository mention.
+- Limitation #9 updated to note the `build.rs` theoretical approach alongside sbpf-linker.
 
 ---
 
 ## Questions for Human Review
 
-- Software Versions section has TODO placeholders that need to be filled in on the development machine after installing the Solana CLI and running `cargo build-sbf --version`.
-- The `declare_id!` macro uses `pinocchio_pubkey::declare_id!`. Verify that this is the correct import path for the current `pinocchio-pubkey` crate version. Some examples use `pinocchio::declare_id!` directly.
-- Verify that `pinocchio::sysvars::rent::Rent::get()` is the correct API for reading the Rent sysvar in Pinocchio 0.10.x. The sysvar access pattern may differ from the `solana-program` crate.
-- Verify that `pinocchio_system::instructions::CreateAccount` accepts the fields shown (from, to, lamports, space, owner) and that `.invoke_signed(&[&signer_seeds])` is the correct CPI invocation pattern.
-- The Mollusk test uses `mollusk_svm::program::system_program()` to provide the System Program account in the test fixture. Verify this function exists in mollusk-svm 0.0.14.
-- Verify that `mollusk_svm::result::Check::err(InstructionError::MissingRequiredSignature)` is the correct pattern for asserting instruction failures.
-- The `Cargo.toml` specifies `pinocchio = "0.10"`, `pinocchio-system = "0.5"`, `pinocchio-log = "0.3"`, `pinocchio-pubkey = "0.3"`, `mollusk-svm = "0.0.14"`, and `solana-sdk = "2.2"`. Verify these version constraints resolve correctly and are compatible.
-- The `generate.sh` script is identical to A65's version. Verify that reproducing the full script is preferred over referencing A65 with a link.
-- Verify that the PDA signer seeds pattern `[PDA_SEED, public_key_bytes.as_ref(), bump_bytes.as_ref()]` works correctly with `invoke_signed` in Pinocchio. The bump byte must be passed as a slice reference.
-- The article states Pinocchio programs use `#![no_std]`. Verify that the unit tests (which use `assert_eq!`) compile correctly in `#[cfg(test)]` mode, as the test runner provides the standard library.
+- Verify that the sbpf assembler correctly handles the `.rodata` section with `.ascii` directive and `lddw r1, message` address loading. Build and deploy the Hello World program with `sbpf build` and `sbpf deploy`.
+- Verify that the `log_hello.s` assembly file assembles correctly with `clang -target sbf -march=bpfel+solana -c`. The Solana SDK's Clang version may differ from upstream LLVM.
+- Verify that label-based branches (`jge r8, r7, copy_done` / `ja copy_loop`) work with the Solana SDK's Clang. If not, replace with numeric offsets (`jge r8, r7, +8` / `ja -10`).
+- Verify the `build.rs` SDK path `~/.local/share/solana/install/active_release/bin/sdk/sbf/dependencies/platform-tools/llvm/bin`. This assumes the default `solana-install` location.
+- Verify that `cargo build-sbf` correctly links the static archive produced by the `build.rs` script. The Solana linker must resolve the `sol_log_` external symbol from the assembly object file.
+- Verify that the `extern "C" { fn log_hello(...); }` FFI declaration in the Rust entrypoint matches the assembly function's calling convention for the SBF target.
+- Verify that the `custom_panic` handler is required and sufficient for `#![no_std]` programs targeting the Solana runtime via `cargo build-sbf`.
+- The `.extern sol_log_` directive in the assembly file declares the syscall as an external symbol. Verify that the Solana linker resolves this during the final linking stage when assembling with Clang rather than the sbpf tool.
+- The `Cargo.toml` has no runtime dependencies. Verify that `cargo build-sbf` can produce a valid program binary from a `cdylib` crate with only a raw `entrypoint` function and no `solana-program` dependency.
 
 ---
 
