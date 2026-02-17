@@ -10,10 +10,6 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-Currently reading:
-
-- Getting Started with Solana Using Rust and Pinocchio
-
 Read, but unverified:
 
 - Android Development on FreeBSD
@@ -22,6 +18,7 @@ Read, but unverified:
 - Claude Code on FreeBSD
 - Claude Code on OpenBSD
 - Claude Code Over SSH
+- Getting Started with Solana Using Rust and Pinocchio
 - Solana sBPF Assembly Example
 
 ## Objectives
@@ -32,24 +29,57 @@ Fold any references in and consider making additions to the "Future Reading" sec
 ### Revise "Solana sBPF Assembly Example"
 
 Make the following revisions to the "Solana sBPF Assembly Example" draft.
+I am certain named constants can be used in sBPF `.s` files.
+I am fairly certain a named constant can be defined and commented all on one line.
+If a single line delaration and comment is not possible,
+the comment can live above the declaration.
+Please define, comment, and use named constants for all literals that are not 0, 1, or -1.
+Put named constants at the top of the files.
 
-#### Use .rodata Section
+Name constants should be defined something like this:
 
-Please revise the ASM to use a `.rodata` section or equivalent for the string literal.
-It should be possible to use an instruction to load the address before calling the logging routine.
+```
+def NAME=value # description
+```
 
-#### Linked Object Files
+Research and use standard naming conventions, including capitalization conventions.
 
-My goal when writing this article was to produce a public example of linking sBPF object files.
-The Rust code should contain the entry point, and the `.s` files should contain library functions.
-If this should work in principle, please attempt to draft a solution that I can manually verify.
+#### Writing the Program
 
-In this case, put the logging logic in an ASM file, and the entrypoint in the Rust code.
-The Rust code should pass the string "Rust" to the ASM logging routine.
-The logging code should print "Hello sBPF from {}!" where `{}` is the passed in string.
+Use a "message length" named constant instead of 12.
 
-My understanding is that the `build.rs` approach just simplifies linking the object files.
-This should be the last subsection or paragraph in "Mixed Rust and Assembly Projects" sections.
+```
+mov64 r2, 12
+```
+
+Use a "success" named constant instead of 0.
+
+```
+mov64 r0, 0
+```
+
+#### src/log_hello.s ASM
+
+These lines should use named constants "message 0" to "message 3" instead of magic numbers.
+
+```
+mov32 r1, 0x6c6c6548
+mov32 r1, 0x4273206f
+mov32 r1, 0x66204650
+mov32 r1, 0x206d6f72
+```
+
+Use a "base message length" named constant instead of 17.
+
+```
+mov64 r2, 17
+```
+
+Use a "message 4" named constant instead of 0x21.
+
+```
+mov32 r1, 0x21
+```
 
 ## Context
 
@@ -62,11 +92,7 @@ Do not yet assign an article number.
 
 ## Success Criteria
 
-- ASM uses `.rodata` section or equivalent.
-- Unless complete infeasible, there should be a linked object file example for me to manually verify.
-  - Rust entrypoint passes "Rust" to ASM logging subroutine.
-  - ASM subroutine logs "Hello sBPF from {}!" where `{}` is the passed in string.
-  - `build.rs` demonstrates how to make all of this "just work" using standard commands.
+- ASM uses named constants, defined with comments at the top of the file.
 
 ## Notes
 

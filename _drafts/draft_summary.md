@@ -29,13 +29,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 Completely rewritten from a partial draft with x86 assembly and clang build.rs
 to use the correct sBPF instruction set and the sbpf standalone toolchain.
 Covers the sBPF virtual machine, registers and memory layout, instruction set overview,
-toolchain installation, project creation, a Hello World program using `.rodata` section
-and `lddw` address loading, building and deploying with sbpf tool,
+toolchain installation, project creation, a Hello World program using `.rodata` section,
+`lddw` address loading, and `.equ` named constants for all non-trivial literals.
+Building and deploying with sbpf tool,
 and the current state of mixed Rust and assembly projects.
 Three experimental paths for mixed projects documented (nightly inline asm, sbpf-linker, build.rs).
 Includes a theoretical linked Rust and assembly example
 using the Solana SDK's Clang and llvm-ar in a `build.rs` script.
 The Rust entrypoint passes a string to an sBPF assembly logging subroutine via C FFI.
+Both assembly files use `.equ` named constants with inline comments.
 Nine limitations documented.
 Eleven references across two categories (Reference, Research).
 No article number assigned. Not slotted for publication.
