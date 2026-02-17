@@ -260,6 +260,37 @@ Test the Hello World prompt on FreeBSD.
 Verify shebang fix and ripgrep configuration.
 Assign article number and publication date when ready.
 
+### Getting Started with Claude Code on OpenBSD — Pre-Release Candidate
+
+**File**: `claude_code_getting_started_on_openbsd.markdown`
+**Topic**: Installing and configuring Claude Code on OpenBSD
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
+
+New article covering Claude Code installation on OpenBSD via npm,
+the only viable installation path on the platform.
+No port or package exists for Claude Code on OpenBSD.
+Documents bash installation and `/bin/bash` symlink requirement,
+ripgrep configuration via `USE_BUILTIN_RIPGREP` setting,
+and a critical warning against running the native installer or `claude install`
+which downloads an incompatible Linux binary and breaks npm installations.
+Hello World exercise generates a curses-based system dashboard using only OpenBSD base system tools.
+Limitations section is more extensive than the FreeBSD article
+due to the absence of a dedicated port and the removal of the Linux compatibility layer.
+References the companion Getting Started with Claude Code post (A74)
+and the FreeBSD article via post_url.
+Twelve references across four categories (Claude, GitHub, OpenBSD, Related Post).
+No article number assigned. Not slotted for publication.
+
+**Remaining Work**:
+Human verification on OpenBSD hardware.
+Fill in Software Versions output.
+Test the Hello World prompt on OpenBSD.
+Verify bash symlink and ripgrep configuration.
+Verify that `doas pkg_add node` installs a supported Node.js version (18-24).
+Assign article number and publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -271,7 +302,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
+Fourteen files exist in `_drafts/`. One is a template.
 Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
@@ -301,6 +332,8 @@ Android Development on FreeBSD has been fully rewritten with modern tooling
 and is awaiting verification on FreeBSD hardware before publication.
 Getting Started with Claude Code on FreeBSD covers installation via ports, packages, and npm
 and is awaiting verification on FreeBSD hardware before publication.
+Getting Started with Claude Code on OpenBSD covers npm-only installation with bash and ripgrep configuration
+and is awaiting verification on OpenBSD hardware before publication.
 
 **Tier 3: Rewrite or abandon.**
 The Android unit testing and Phoenix/Guardian drafts would require near-complete rewrites to use contemporary frameworks.
