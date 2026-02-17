@@ -9,35 +9,36 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-16
-**Task**: A0-P6 Getting Started with Claude Code Over SSH
+**Task**: A0-P7 Revise Claude Code Over SSH — Agent Forwarding
 
 ---
 
 ## Verification
 
-### Claude Code Over SSH Article
+### Claude Code Over SSH Article Revision
 
-- New draft at `_drafts/claude_code_getting_started_over_ssh.markdown`.
-- SSH Background section covers the protocol, authentication methods, and client configuration for readers unfamiliar with or rusty regarding SSH.
-- Instructions section walks through key generation, public key copying, SSH agent setup, host configuration, verification, remote execution patterns, and timeout configuration.
-- Remote Execution section documents single command, multi-command with working directory, scp file transfer, and the stateless nature of Bash tool SSH invocations.
-- Claude Code Desktop SSH section briefly describes the native SSH connection feature and notes it requires Claude Code on the remote machine.
-- Hello World section demonstrates end-to-end remote workflow: OS detection, C code generation, scp transfer, remote compilation, and execution.
-- Limitations section covers local-only file tools, stateless sessions, no interactive prompt support, timeout limits, and manual port forwarding.
-- 10 references across 3 categories (Claude, Reference, Related Post). All URLs verified (7 HTTP 200, 3 post_url).
-- No article number assigned. Not slotted for publication. Pre-release candidate status.
+- Agent Forwarding section added between Instructions and Claude Code Desktop SSH.
+- Seven subsections: How Agent Forwarding Works, Enabling Agent Forwarding, Verifying Agent Forwarding, Use with Claude Code, Security Considerations, ProxyJump Alternative.
+- Mechanism explained through temporary Unix domain socket and `SSH_AUTH_SOCK` forwarding.
+- Configuration documented via `ForwardAgent yes` in `~/.ssh/config` (per-host) and `-A` flag (one-off).
+- Verification command: `ssh -A myserver "ssh-add -l"` with troubleshooting guidance.
+- Claude Code usage explained with example prompt for remote Git clone via agent forwarding.
+- Security considerations prominently warn about root access on remote hosts accessing the forwarded agent socket.
+- ProxyJump documented as safer alternative for untrusted intermediate hosts, with both config file and `-J` flag examples.
+- Opening prose updated from three to four topics.
+- ssh-agent manual reference added (HTTP 200 verified). Article now has 11 references across 3 categories.
+- All existing content preserved. No structural changes to other sections.
 
 ---
 
 ## Questions for Human Review
 
-- The article assumes `ssh-copy-id` is available on the local machine. This utility ships with OpenSSH on most platforms but may not be present on minimal installations. Verify availability on your primary development machine.
-- The Hello World prompt has not been tested against an actual remote target. Run it against a machine with SSH access and a C compiler to verify the workflow.
-- The `BASH_DEFAULT_TIMEOUT_MS` and `BASH_MAX_TIMEOUT_MS` settings are documented as string values in settings.json. Verify this format is correct for the current Claude Code version.
-- The Claude Code Desktop SSH section references the official Desktop documentation. Verify that the Desktop app's SSH connection feature works as described.
-- The article does not cover SSH agent forwarding in detail. If you need Claude Code to use the remote machine's git credentials or other SSH-dependent services, agent forwarding may need a dedicated subsection.
-- The article uses `myserver` as the example host alias throughout. Replace with a more descriptive example if preferred.
-- Software Versions section needs output filled in on your local machine.
+- The article states that Claude Code's Bash tool inherits `SSH_AUTH_SOCK` from the shell environment. Verify this by running `ssh -A myserver "ssh-add -l"` from within a Claude Code Bash tool invocation.
+- The `ForwardAgent yes` directive is documented per-host. Verify that this works correctly with the host alias configured in the Host Configuration section.
+- The ProxyJump section documents OpenSSH 7.3 as the minimum version. Verify that your remote targets have OpenSSH 7.3 or later if you plan to use ProxyJump.
+- The security considerations warn against enabling `ForwardAgent yes` with `Host *`. Review your existing `~/.ssh/config` to ensure agent forwarding is not globally enabled.
+- The Hello World section still uses the original prompt without agent forwarding. Consider whether a second Hello World prompt demonstrating agent forwarding with a Git clone would be useful.
+- Software Versions section still needs output filled in on your local machine.
 
 ---
 
@@ -49,7 +50,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 - 4 pre-release candidates: Android Development on FreeBSD, Claude Code on FreeBSD, Claude Code on OpenBSD, Claude Code Over SSH.
 - Publication order dependency: A86 before A87 before A89. A88, A90, and A91 have no dependencies.
 - Publication order dependency: FreeBSD Claude Code article before OpenBSD Claude Code article (post_url reference).
-- SSH article has no publication dependency on other articles. All three post_url references point to articles that will be published before or independently of this article.
+- SSH article has no publication dependency on other articles.
 - A86 publication date: 2026-02-18.
 - A88 publication date: 2026-02-17.
 - A87 publication date: 2026-02-19.

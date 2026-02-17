@@ -31,12 +31,15 @@ and manage remote targets.
 The local machine provides the intelligence
 and the remote machine provides the environment.
 
-This post covers three topics.
+This post covers four topics.
 First, it introduces SSH fundamentals
 for readers who are unfamiliar with or rusty regarding the protocol.
 Second, it walks through key-based authentication setup
 and SSH client configuration.
-Third, it demonstrates how Claude Code's Bash tool
+Third, it covers SSH agent forwarding,
+which allows Claude Code to perform Git operations
+and other key-authenticated tasks on remote machines.
+Fourth, it demonstrates how Claude Code's Bash tool
 can execute commands on remote machines over SSH
 and how scp handles file transfer.
 
@@ -411,6 +414,202 @@ and check their output later.
 This is useful for operations
 that may take longer than the configured timeout.
 
+## Agent Forwarding
+
+The Instructions section above covers
+connecting to a remote machine and executing commands.
+In some cases, the remote machine needs to authenticate
+to a third-party service using the developer's SSH keys.
+The most common example is Git operations over SSH.
+Without agent forwarding,
+running `git clone git@github.com:org/repo.git`
+on the remote machine would fail
+because the remote machine does not have
+the developer's GitHub SSH key.
+
+Agent forwarding solves this problem
+by allowing the remote machine
+to use the developer's local [SSH agent][ref_ssh_agent]
+for authentication
+without copying private keys to the remote machine.
+
+### How Agent Forwarding Works
+
+The SSH agent on the local machine
+holds decrypted private keys in memory.
+When agent forwarding is enabled,
+the SSH client creates a secure channel
+between the remote machine and the local agent.
+Programs on the remote machine can ask the local agent
+to sign authentication challenges
+without the private key ever leaving the local machine.
+
+This is implemented through a temporary Unix domain socket
+on the remote machine.
+The SSH server sets the `SSH_AUTH_SOCK` environment variable
+to point to this socket.
+When a program on the remote machine
+connects to the socket to request authentication,
+the request is forwarded through the encrypted SSH connection
+to the local agent.
+The local agent performs the cryptographic operation
+and returns the result.
+
+### Enabling Agent Forwarding
+
+Add the `ForwardAgent yes` directive
+to the host entry in `~/.ssh/config`.
+
+```
+Host myserver
+    HostName 192.168.1.100
+    User deploy
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
+    ServerAliveInterval 60
+    ForwardAgent yes
+```
+
+This extends the host configuration
+from the Instructions section
+by adding the `ForwardAgent yes` directive.
+
+For one-off use without modifying the configuration file,
+pass the `-A` flag to the `ssh` command.
+
+```sh
+$ ssh -A myserver "git clone git@github.com:org/repo.git"
+```
+
+The remote server must have
+`AllowAgentForwarding yes` in its `sshd_config` file.
+This is the default on most OpenSSH installations.
+
+### Verifying Agent Forwarding
+
+Verify that agent forwarding works
+by listing the keys available on the remote machine.
+
+```sh
+$ ssh -A myserver "ssh-add -l"
+```
+
+If this command prints the fingerprints
+of the keys loaded in the local agent,
+agent forwarding is working correctly.
+The output should match the output of `ssh-add -l`
+run locally.
+
+If the command prints
+"Could not open a connection to your authentication agent,"
+the forwarding is not configured correctly.
+Check that `ForwardAgent yes` is set
+in the host entry or that the `-A` flag was passed.
+Verify that the local SSH agent has keys loaded
+by running `ssh-add -l` on the local machine.
+Verify that the remote server has
+`AllowAgentForwarding yes` in its `sshd_config`.
+
+### Use with Claude Code
+
+When Claude Code executes an SSH command
+with agent forwarding enabled,
+the forwarded agent allows programs on the remote machine
+to authenticate using the developer's local SSH keys.
+
+The Bash tool inherits the `SSH_AUTH_SOCK` environment variable
+from the shell environment.
+When Claude Code runs `ssh -A myserver "git clone git@github.com:org/repo.git"`,
+the SSH client connects to the local agent,
+forwards the agent to the remote machine,
+and the remote Git command authenticates with GitHub
+using the developer's local key.
+
+The following prompt demonstrates agent forwarding
+in a Claude Code session.
+
+````
+Connect to myserver via SSH with agent forwarding enabled.
+Clone the repository git@github.com:org/repo.git into
+~/projects/ on the remote machine. List the contents of
+the cloned repository.
+````
+
+Claude Code will execute `ssh -A myserver "git clone git@github.com:org/repo.git ~/projects/repo"`
+followed by `ssh myserver "ls ~/projects/repo"`.
+The `-A` flag enables agent forwarding
+so that the remote Git command can authenticate with GitHub.
+
+### Security Considerations
+
+Agent forwarding introduces a security risk
+that must be understood before enabling it.
+
+Any user with root access on the remote host
+can access the forwarded agent socket
+and use it to authenticate to any system
+that accepts the forwarded keys.
+This means a compromised remote host
+could impersonate the developer on GitHub,
+other servers, or any service
+that trusts the forwarded SSH key.
+
+The risk is limited to the duration of the SSH session.
+Once the connection is closed,
+the forwarded socket is removed
+and the remote host can no longer access the agent.
+
+The following practices reduce the risk.
+
+Do not enable `ForwardAgent yes` globally
+with a `Host *` directive.
+Scope agent forwarding to specific trusted hosts.
+Only enable agent forwarding for hosts
+that the developer fully trusts and controls.
+Do not enable agent forwarding
+when connecting to shared hosting environments,
+public servers, or any machine
+where other users have root access.
+
+For untrusted intermediate hosts such as bastion or jump hosts,
+use `ProxyJump` instead of agent forwarding.
+
+### ProxyJump Alternative
+
+When a developer needs to reach a target
+through an intermediate host that is not fully trusted,
+`ProxyJump` provides a safer alternative to agent forwarding.
+
+```
+Host internal-server
+    HostName 10.0.0.50
+    User deploy
+    ProxyJump bastion.example.com
+```
+
+Or as a one-off command.
+
+```sh
+$ ssh -J bastion.example.com deploy@10.0.0.50
+```
+
+`ProxyJump` forwards the SSH connection
+through the intermediate host
+without giving the intermediate host access to the agent.
+The intermediate host acts as a TCP tunnel only.
+It cannot use the developer's keys
+to authenticate to other systems.
+
+`ProxyJump` requires OpenSSH 7.3 or later,
+which was released in 2016.
+Older systems that lack `ProxyJump` support
+can use the equivalent `ProxyCommand` directive,
+which provides the same functionality
+with a more verbose syntax.
+
+See the [ssh_config manual][ref_ssh_config]
+for the full list of proxy and forwarding directives.
+
 ## Claude Code Desktop SSH
 
 [Claude Code Desktop][claude_desktop] provides
@@ -572,6 +771,7 @@ for integrated remote development.
 - [Claude, Settings][claude_settings]
 - [Claude, Setup Guide][claude_setup]
 - [Reference, OpenSSH Manual Pages][ref_openssh]
+- [Reference, OpenSSH ssh-agent Manual][ref_ssh_agent]
 - [Reference, OpenSSH ssh_config Manual][ref_ssh_config]
 - [Reference, OpenSSH ssh-keygen Manual][ref_ssh_keygen]
 - [Related Post, Getting Started with Claude Code][related_post_claude_code]
@@ -583,6 +783,7 @@ for integrated remote development.
 [claude_settings]: https://code.claude.com/docs/en/settings
 [claude_setup]: https://code.claude.com/docs/en/setup
 [ref_openssh]: https://www.openssh.com/manual.html
+[ref_ssh_agent]: https://man.openbsd.org/ssh-agent
 [ref_ssh_config]: https://man.openbsd.org/ssh_config
 [ref_ssh_keygen]: https://man.openbsd.org/ssh-keygen
 [related_post_claude_code]: {% post_url 2026-01-31-claude_code_getting_started %}
