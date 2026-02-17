@@ -24,98 +24,56 @@ Read, but unverified:
 ## Objectives
 
 Please revise the "Cryptotelemeritocracy for Space Exploitation" article based on the subsection notes.
-Please also research the topic before making the revision.
+Please also research the individual topics before making the revision.
 Incorporate research material into the references, and consider including it in the future
 reading section.
 Note that this article has neither a length nor a reference cap.
 
-### Foreshadow in Introduction
+### Correct Concentration/Dilution Formula
 
-Add a short “preview thesis” paragraph at the end of the introduction:
+This is wrong:
 
-- Near-term: highly compatible
-- Mid-term: federated viable
-- Interstellar: devolves into local instances
-- Intergalactic: becomes memetic
+$$\Delta V_{share} = \frac{V_{total} - V_{spinoff}}{N(N - P)} - \frac{V_{total}}{N}$$
 
-### Telos
+It should be:
 
-The structure is more than approximate. It is hierarchical and phase-dependent.
-Explicitly classifying objectives as:
+$$\Delta V_{share} = \frac{V_{total} - V_{spinoff}}{N - P} - \frac{V_{total}}{N}$$
 
-- Infrastructure-enabling
-- Energy-scaling
-- Expansion-propagating
-- Defensive
+### Profit vs Telos
 
-The flat numbered list undersells the structure.
+Stress that the arbitrator is the only actor not compensated by profit.
+This is structurally what gives the layer independence.
+The cryptocratic layer is nominally randomly embedded in the
+telemeritocratic structure,
+and the active arbitrator is their champion of the telos.
+The cryptoarbitrator is not the champion of profit and loss.
+Compensation for optimizing the means to the ends is a
+telemeritocratic concern.
 
-### Kardashev Framing
+### Profit vs Telos
 
-Note:
-The farther the telos moves beyond Type III,
-the more governance shifts from resource scaling to civilizational continuity.
+Latency converts coordination problems into interpretive problems.
+When you cannot coordinate behavior, you can only coordinate meaning.
+When you cannot coordinate meaning, you only propagate narrative.
 
-### Mass Driver Formula
+### Governance Coherence Half-Life
 
-A mass driver does not necessarily need to reach $v_e$
-if it is only launching into a specific orbit.
-For Mercury transport, greater than escape velocity is required.
-Launched objects need propellant for deceleration.
+Justify this equation, ideally with references.
+Why is it exponential?
+Is interpretive divergence memoryless?
+Or might it be stepwise (e.g., discontinuous after generational shocks)?
 
-### Mercury Colonization: Mercury Cannibalization for the Dyson Swarm
+Operationally, what is 50% divergence?
 
-This is a major conceptual inflection point,
-and it is surprisingly brief relative to its importance.
+- Policy disagreement?
+- Priority reordering?
+- Rejection of core objective?
 
-- This is where the telos becomes irreversible.
-- Cannibalizing Mercury is a point-of-no-return commitment.
-- Governance stability becomes existentially important once planetary-scale disassembly begins.
+### Memetic Phase
 
-### Corporate Structure: Spinoff Mechanism, Value of Shares
-
-This is the new share value for originating corporation.
-
-$$V_{share} = \frac{V_{total} - V_{spinoff}}{N - P}$$
-
-The key point is that $V_{total} - V_{spinoff}$ is fixed.
-Great $P$ concentrates $$V_{share}$ while diluting the nominal value
-of the pledged shares that presumably indicate ownership fraction in
-the spinoff corporation.
-This is not necessarily a problem, because every pledge is for partial
-ownership of a solved, revenue generating solution.
-The appreciation per remaining share is:
-
-$$\Delta V_{share} = \frac{V_{total} - V_{spinoff}}{N \cdot (N - P)} - \frac{V_{total}}{N}$$
-
-Note that the market will revalue both companies such that:
-
-$$V_{remaining} \neq V_{total} - V_{spinoff}$$
-
-In principle, the originating corporation is only concerned about maximizing
-$\Delta V_{share}$ from the standpoint of pre-split pledge incentivization.
-In other word, the goal is to maximize $P$ and minimize $\frac{V_{spinoff}}{P}$.
-
-Service contracts are separate in theory, but important terms of the split.
-
-### Why This Telos Demands Anonymous Oversight
-
-"This freedom to specialize is one of the benefits of the spinoff model,
-but the proliferation of independent entities also increases the surface area
-for mission drift from the perspective of the originating enterprise."
-
-The parent company sheds mission drift with the solved problems.
-Select personnel and investors are more interested in optimizing the
-spinoff than focusing on the originating telos, and that is OK.
-The originating corporation shed them, maximizes value, and focuses.
-$Delta V_{share}$ quantifies the focus,
-and $V_{remaining}$ quantifies the market's opinion of the refocusing.
-
-### Governance Half-Life Concept
-
-Governance Coherence Half-Life (GCH)
-Time required for 50% interpretive divergence between isolated nodes.
-This give quantitative structure to the memetic phase argument.
+At intergalactic scale,
+cryptotelemeritocracy ceases to be governance
+and becomes myth-structure.
 
 ## Context
 
@@ -128,6 +86,7 @@ Do assign an article number and publication date.
 ## Success Criteria
 
 - Article drafted and release candidate status.
+- Research folded in.
 
 ## Notes
 

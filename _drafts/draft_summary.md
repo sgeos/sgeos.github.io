@@ -294,21 +294,26 @@ Venus water sourced from comets, asteroids, and trans-Neptunian objects.
 Mercury quantitative claims attributed to MESSENGER mission data.
 EROI and exponential growth equations for Dyson Swarm feedback loop.
 Presents the corporate structure with corrected spinoff value equations
-including $V_{spinoff}$ term and market revaluation note.
+including $V_{spinoff}$ term and corrected $\Delta V_{share}$ formula.
 Reverse conglomerate appreciation through excess pledges.
 Spinoff mechanism sheds solved problems, misaligned personnel, and drift pressure.
 $\Delta V_{share}$ quantifies focus, $V_{remaining}$ quantifies market opinion.
 Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
-Assesses cryptotelemeritocracy's suitability across four expansion phases.
-Governance Coherence Half-Life ($T_{GCH}$) introduced to quantify
-memetic transition threshold.
-Governance becomes memetic rather than institutional at galactic scale.
+Arbitrator is the only actor not compensated by profit,
+champion of the telos not of profit and loss,
+preventing profitable stasis short of the telos.
+Latency cascade degrades governance from coordinated behavior
+to coordinated meaning to propagated narrative.
+Governance Coherence Half-Life ($T_{GCH}$) introduced with glottochronology analogy,
+punctuated equilibrium critique, and operational 50% divergence definitions.
+Intergalactic phase reframed as myth-structure
+that may further degrade to rejected superstition.
 Analyzes covert seeding during expansion, the spinoff mechanism's relationship
 to Michels' iron law of oligarchy, counter-espionage properties in space,
 and five space-specific failure modes.
 MathJax enabled with multiple equations.
 References A89 and A90 via post_url.
-Sixteen references across four categories (Book, Reference, Related Post, Research).
+Twenty references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A89 must be published before A92.
