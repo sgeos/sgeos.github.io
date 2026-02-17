@@ -8,29 +8,27 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Modernize Android Development on FreeBSD (A0-P3)
+**Name**: Getting Started with Claude Code on FreeBSD (A0-P4)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] Android Development on FreeBSD article in pre-release candidate state ready for verification on FreeBSD.
-- [x] Sample project is portable for macOS testing first.
-- [x] A91 WASM assets committed.
+- [x] "Getting Started with Claude Code on FreeBSD" article in pre-release candidate state ready for verification on FreeBSD.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P3-T1 | Modernize Android FreeBSD article | Complete | Complete rewrite from FreeBSD 11/SDK 25/NDK r13b to FreeBSD 14/SDK 35/NDK r28. Kotlin + Rust + JNI stack. 10 references across 4 categories. All URLs verified (7 HTTP 200, 2 crates.io confirmed indexed via web search, 1 post_url). |
-| A0-P3-T2 | Commit WASM assets and process files | Complete | A91 WASM assets, modernized article, process files committed. |
+| A0-P4-T1 | Draft Claude Code FreeBSD article | Complete | New article covering ports, packages, and npm installation. Shebang fix, ripgrep configuration, Hello World demo, limitations. 12 references across 4 categories. All URLs verified (10 HTTP 200, 1 npmjs.com confirmed indexed via web search, 1 post_url). |
+| A0-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
 - Article is pre-release candidate. Requires verification on FreeBSD before publication.
-- Build configuration uses AGP 8.9.0, Gradle 8.12.1, Kotlin 2.1.0, compileSdk 35, NDK r28.
-- Sample app is a native Android port of the A91 CLMM calculator using Kotlin UI and Rust JNI math.
+- Primary installation via misc/claude-code port. npm as alternative for latest version.
+- Hello World demo uses FreeBSD base system only (cc, make, ncurses).
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -59,3 +57,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-15 | A91-P1: "Concentrated Liquidity Market Maker Mathematics" researched and written (6 references). Calculator rewritten from JS to Rust WASM. Android FreeBSD drafts combined. Draft summary synced (12 files, 6 RCs, 0 stubs). |
 | 2026-02-16 | A91-P2: Renamed exported WASM function from `clmm_calculator_init` to `inject_ui`. Human added index.html local testing example and serve instructions. |
 | 2026-02-16 | A0-P3: "Android Development on FreeBSD" modernized from 2017 to 2026 toolchain. A91 WASM assets committed. Draft summary synced. |
+| 2026-02-16 | A0-P4: "Getting Started with Claude Code on FreeBSD" drafted (12 references). Ports, packages, npm installation. Hello World curses demo. Draft summary synced. |

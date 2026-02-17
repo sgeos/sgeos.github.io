@@ -237,6 +237,29 @@ Nineteen references across four categories (Book, Reference, Related Post, Resea
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A87 must be published before A89.
 
+### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
+
+**File**: `claude_code_getting_started_on_freebsd.markdown`
+**Topic**: Installing and configuring Claude Code on FreeBSD
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
+
+New article covering Claude Code installation on FreeBSD via the misc/claude-code port, binary packages, and npm.
+Documents shebang fix, ripgrep configuration, and a Hello World exercise
+that generates a curses-based system dashboard using only FreeBSD base system tools.
+Limitations section documents unsupported platform status and known issues.
+References the companion Getting Started with Claude Code post (A74) via post_url.
+Twelve references across four categories (Claude, FreeBSD, GitHub, Related Post).
+No article number assigned. Not slotted for publication.
+
+**Remaining Work**:
+Human verification on FreeBSD hardware.
+Fill in Software Versions output.
+Test the Hello World prompt on FreeBSD.
+Verify shebang fix and ripgrep configuration.
+Assign article number and publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -248,7 +271,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
+Thirteen files exist in `_drafts/`. One is a template.
 Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
@@ -273,8 +296,10 @@ A88, A90, and A91 have no dependencies.
 The Solana sBPF assembly example is the most publishable remaining draft.
 It is recent, topical, and has working code.
 
-**Pre-Release Candidate.**
+**Pre-Release Candidates.**
 Android Development on FreeBSD has been fully rewritten with modern tooling
+and is awaiting verification on FreeBSD hardware before publication.
+Getting Started with Claude Code on FreeBSD covers installation via ports, packages, and npm
 and is awaiting verification on FreeBSD hardware before publication.
 
 **Tier 3: Rewrite or abandon.**
