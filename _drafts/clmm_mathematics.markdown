@@ -827,6 +827,35 @@ pub fn clmm_calculator_init(anchor_id: &str) {
 </style>
 ```
 
+**Example index.html for Local Testing**
+Add above HTML and CSS to commented locations.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLMM Calculator</title>
+    <!-- Widget Inline CSS Here <style> ... -->
+</head>
+<body>
+    <h1>CLMM Calculator</h1>
+    <!-- JS Injection Anchor Here <script ...> -->
+</body>
+</html>
+```
+
+**Sample Command to Served Example index.html for Local Testing**
+```sh
+# Terminal A
+PORT="8000"
+python -m http.server "${PORT}"
+
+PORT="8000"
+# Terminal B
+open "http://localhost:${PORT}"
+```
+
 ## Future Reading
 
 The mathematics presented in this article cover the core model.
