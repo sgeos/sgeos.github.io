@@ -8,31 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P5)
+**Name**: Publish Mission Command Management Style (A86-P2)
 **Status**: Complete
 **Started**: 2026-02-17
 
 ## Success Criteria
 
-- [x] Article revised per PROMPT.md subsection notes.
+- [x] A86 published.
+- [x] Release announcement included in reverse prompt.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A92-P5-T1 | Correct Birch Planet cross-reference | Complete | Changed "objective 8" to "objective 6" (Birch Planet is telos item 6). |
-| A92-P5-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
+| A86-P2-T1 | Publish A86 | Complete | Moved to `_posts/2026-02-18-mission_command_management_style.markdown` via publish script. |
+| A86-P2-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. Release announcement in REVERSE_PROMPT. |
 
 ## Notes
 
-- Article A92, dated 2026-02-23, categories: space management philosophy. 1745 lines.
-- References A89 (Cryptotelemeritocracy) and A90 (Introduction to Space Studies) via post_url.
-- Publication dependency: A89 must be published before A92.
-- Telos: 13 objectives in 4 categories (infrastructure-enabling, energy-scaling, expansion-propagating, defensive).
-- 20 references across 4 categories (Book, Reference, Related Post, Research).
+- A86 published with date 2026-02-18, categories: management philosophy.
 - Next available article number: A93.
-- 7 release candidates: A86, A87, A88, A89, A90, A91, A92.
+- 6 release candidates: A87, A88, A89, A90, A91, A92.
 - 0 stubs.
+- Publication order dependency: A87 before A89 before A92. A88, A90, and A91 have no dependencies.
 
 ## History
 
@@ -73,3 +71,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-17 | A92-P3: "Cryptotelemeritocracy for Space Exploitation" revised. Introduction foreshadow, telos hierarchy (13 objectives, 4 categories), Kardashev governance shift, mass driver physics, Mercury cannibalization inflection point, corrected spinoff equations, spinoff shedding reframe, Governance Coherence Half-Life. Draft summary synced. |
 | 2026-02-17 | A92-P4: "Cryptotelemeritocracy for Space Exploitation" revised. Corrected $\Delta V_{share}$ formula. Arbitrator profit independence. Latency-meaning-narrative cascade. GCH expanded with glottochronology, punctuated equilibrium, operational 50% divergence. Intergalactic phase reframed as myth-structure to superstition. 4 new references (20 total). Draft summary synced. |
 | 2026-02-17 | A92-P5: "Cryptotelemeritocracy for Space Exploitation" corrected Birch Planet cross-reference from objective 8 to objective 6. |
+| 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |

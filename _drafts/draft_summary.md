@@ -202,26 +202,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Mission Command Management Style — Release Candidate
-
-**File**: `mission_command_management_style.markdown`
-**Article**: A86, "Mission Command Management Style"
-**Topic**: Mission command as a structural doctrine for engineering and scientific teams
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article examining mission command as a management doctrine.
-Traces origins from the 1806 Prussian defeat at Jena through Scharnhorst, Clausewitz, and Moltke to the modern ADP 6-0 codification.
-Analyzes four standard management frameworks (Lewin, Goleman, Blake-Mouton, Hersey-Blanchard) and explains why none capture mission command.
-Presents the six US Army principles of mission command.
-Documents civilian applications at Netflix, Spotify, and through Bungay and Marquet.
-Discusses engineering team fit, failure modes, and limitations including Hill and Niemi's flexive command critique.
-Fourteen references across three categories (Book, Reference, Research).
-
-**Remaining Work**:
-Human review, URL verification, and final proofread before publication.
-
 ### Telemeritocracy — Release Candidate
 
 **File**: `telemeritocracy.markdown`
@@ -445,16 +425,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventeen files exist in `_drafts/`. One is a template.
-Seven drafts have been elevated to release candidate status.
+Sixteen files exist in `_drafts/`. One is a template.
+Six drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A85 have been published.
+A80 through A86 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Mission Command Management Style (A86),
 Telemeritocracy (A87),
 Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
@@ -462,10 +441,10 @@ Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 and Cryptotelemeritocracy for Space Exploitation (A92) have been fully drafted
 and are awaiting human review before publication.
-A87 references A86 via post_url. A89 references A87 via post_url.
+A87 references A86 via post_url (A86 now published). A89 references A87 via post_url.
 A92 references A89 and A90 via post_url.
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
-Publication order dependency: A86 before A87 before A89 before A92.
+Publication order dependency: A87 before A89 before A92.
 A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**

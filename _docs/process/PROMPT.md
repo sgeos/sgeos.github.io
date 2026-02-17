@@ -23,31 +23,24 @@ Read, but unverified:
 
 ## Objectives
 
-Please revise the "Cryptotelemeritocracy for Space Exploitation" article based on the subsection notes.
-Please also research the individual topics before making the revision.
-Incorporate research material into the references, and consider including it in the future
-reading section.
-Note that this article has neither a length nor a reference cap.
+### Publish A86
 
-### Correct Concentration/Dilution Formula
-
-"The Birch Planet concept describes the galaxy-scale structure referenced in objective 8."
-
-Correct cross-reference.
+Publish A86 and include release announcement in your next reverse prompt.
 
 ## Context
 
-Working on backlog posts for next week. Converting drafts to full posts.
+Publishing time!
 
 ## Constraints
 
-Do assign an article number and publication date.
+(none)
 
 ## Success Criteria
 
-- Article drafted and release candidate status.
-- Research folded in.
+- A86 published.
+- Release announcement included in reverse prompt.
 
 ## Notes
 
-(none)
+Release announcement is templated.
+Template is in the knowledge graph.
