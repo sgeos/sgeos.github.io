@@ -8,31 +8,30 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Modernize Phoenix Guardian Article (A0-P9)
+**Name**: Finish Drafting Solana sBPF Assembly Example (A0-P10)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Authenticating a Phoenix JSON API with Guardian and Ueberauth" article in pre-release candidate state ready for manual verification.
-- [x] Article uses contemporary conventions and best practices.
+- [x] "Solana sBPF Assembly Example" article in pre-release candidate state ready for manual verification.
 - [x] Limitations are researched and documented.
-- [x] File renamed from legacy hyphenated convention to underscored convention.
+- [x] Mixed Rust and assembly state of the art documented.
+- [x] File renamed as appropriate.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P9-T1 | Modernize and rewrite article | Complete | Full rewrite from 2016 Phoenix 1.1/Guardian 0.10 to contemporary Phoenix 1.7+/Guardian 2.x. MemoApi example with user registration, JWT login, protected memo CRUD. Ueberauth identity strategy integration. 11 references across 4 categories (Elixir, Phoenix, Reference, Related Post). |
-| A0-P9-T2 | Verify reference URLs | Complete | All 10 external URLs verified. |
-| A0-P9-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P10-T1 | Research and rewrite article | Complete | Full rewrite from partial draft with x86 assembly and clang build.rs to correct sBPF ISA and sbpf standalone toolchain. Hello World program with sol_log_ syscall. Mixed Rust and assembly subsection with three experimental paths. 9 limitations. 9 references across 2 categories (Reference, Research). |
+| A0-P10-T2 | Verify reference URLs | Complete | All 9 external URLs verified. |
+| A0-P10-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Tentative date 2026-02-28.
-- File renamed from `authenticating-a-phoenix-json-api-with-guardian.markdown` to `phoenix_json_api_authentication_with_guardian.markdown`.
-- References published article A27 "A Shell Script for Working with Phoenix JSON APIs" via post_url.
+- Tentative date 2026-03-01.
+- File renamed from `solana_bpf_asm_example.markdown` to `solana_sbpf_assembly_example.markdown`.
 - No publication dependency on other unpublished articles.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
@@ -68,3 +67,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P7: "Getting Started with Claude Code Over SSH" revised with agent forwarding section (11 references). Security considerations, ProxyJump alternative. Draft summary synced. |
 | 2026-02-16 | A0-P8: "Android Unit Testing" modernized from 2017 stub to contemporary AndroidX Test (12 references). CLMM calculator test subject, Kotlin and Rust implementations, NDK testing section. Draft summary synced. |
 | 2026-02-16 | A0-P9: "Phoenix JSON API Authentication with Guardian and Ueberauth" modernized from 2016 to contemporary Phoenix 1.7+/Guardian 2.x (11 references). File renamed. Draft summary synced. |
+| 2026-02-16 | A0-P10: "Solana sBPF Assembly Example" finished from partial draft. Rewritten with correct sBPF ISA and sbpf toolchain (9 references). Mixed Rust/assembly state documented. File renamed. Draft summary synced. |
