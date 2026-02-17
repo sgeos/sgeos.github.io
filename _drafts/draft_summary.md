@@ -164,25 +164,31 @@ Verify JNI function name conventions for NativeBridgeTest.
 Assign article number and publication date when ready.
 Android FreeBSD article and CLMM Mathematics (A91) must be published first.
 
-### Authenticating a Phoenix JSON API with Guardian
+### Authenticating a Phoenix JSON API with Guardian and Ueberauth — Pre-Release Candidate
 
-**File**: `authenticating-a-phoenix-json-api-with-guardian.markdown`
-**Topic**: Phoenix/Elixir JSON API authentication with Guardian
-**Completion**: ~75%
-**Publication Sensibility**: Low
+**File**: `phoenix_json_api_authentication_with_guardian.markdown`
+**Topic**: Phoenix/Elixir JSON API authentication with Guardian JWT and Ueberauth identity strategy
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
 
-The original targets Phoenix 1.1.4 and Elixir 1.2.3 (2016).
-Both Phoenix and Guardian have had multiple breaking API changes since then.
-Contemporary tooling would use Phoenix 1.7+, Elixir 1.17+, and Guardian 2.x.
-Phoenix 1.7 introduced verified routes and a significantly different project structure.
-The existing code would need substantial rewriting to match current conventions.
+Completely rewritten from 2016 content (Phoenix 1.1.4, Elixir 1.2.3, Guardian ~0.10.0, Comeonin ~2.1)
+to modern toolchain (Phoenix 1.7+, Guardian ~> 2.3, bcrypt_elixir ~> 3.0, Ueberauth ~> 0.10).
+MemoApi example application with user registration, JWT-based login, and protected memo CRUD.
+Uses context modules, Guardian implementation module pattern, plug pipeline, and error handler.
+Ueberauth identity strategy integration with callback pattern example.
+Testing the API section with curl commands and expected JSON responses.
+Seven limitations documented.
+References published article A27 "A Shell Script for Working with Phoenix JSON APIs" via post_url.
+No article number assigned. Not slotted for publication.
+Eleven references across four categories (Elixir, Phoenix, Reference, Related Post).
 
 **Remaining Work**:
-Rewrite all Phoenix and Guardian code for Phoenix 1.7+ and Guardian 2.x.
-Complete the stub "Adding Authorization" section.
-Fix broken tests rather than leaving them as exercises.
-Update project structure to reflect current `mix phx.new` output.
-The rewrite effort is significant given the cumulative breaking changes.
+Human verification by building and running the MemoApi project.
+Fill in Software Versions TODO placeholders.
+Verify Guardian secret key generation command.
+Verify Ueberauth identity strategy plug compatibility.
+Assign article number and publication date when ready.
 
 ### Mission Command Management Style — Release Candidate
 
@@ -385,9 +391,9 @@ Getting Started with Claude Code on OpenBSD covers npm-only installation with ba
 and is awaiting verification on OpenBSD hardware before publication.
 Getting Started with Claude Code Over SSH covers using Claude Code locally to work on remote machines via SSH
 and is awaiting verification with a remote SSH target.
-
-**Tier 3: Rewrite or abandon.**
-The Phoenix/Guardian draft would require a near-complete rewrite to use contemporary frameworks.
+Authenticating a Phoenix JSON API with Guardian and Ueberauth has been fully rewritten
+from 2016 Phoenix 1.1/Guardian 0.10 to modern Phoenix 1.7+/Guardian 2.x
+and is awaiting verification by building and running the MemoApi project.
 
 **No stubs remain.**
 All article-numbered drafts have been elevated to release candidate status.
