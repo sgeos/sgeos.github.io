@@ -23,63 +23,64 @@ Read, but unverified:
 
 ## Objectives
 
-Please research the following.
-Fold any references in and consider making additions to the "Future Reading" section.
+Please review "Cryptotelemeritocracy" and draft the following article.
+Please also research the following topic before drafting the article.
 
-### Revise "Solana sBPF Assembly Example"
+### Draft "Cryptotelemeritocracy for Space Exploitation"
 
-Make the following revisions to the "Solana sBPF Assembly Example" draft.
-I am certain named constants can be used in sBPF `.s` files.
-I am fairly certain a named constant can be defined and commented all on one line.
-If a single line delaration and comment is not possible,
-the comment can live above the declaration.
-Please define, comment, and use named constants for all literals that are not 0, 1, or -1.
-Put named constants at the top of the files.
+Assume the following telos.
 
-Name constants should be defined something like this:
+- Colonize Mercury.
+- Begin to build a Dyson Swarm around the Sun.
+- Launch probes from to all celestial bodies in the solar system.
+- Launch interstellar probes.
+- Finish building Dyson Swarm around the Sun.
+- Launch ships to build Dyson Swarms around suitable neighboring stars.
+- Start building Dyson Swarms around all stars in the Galaxy.
+- Build Dyson Swarm equivalent around Galaxy's central supermassive black hole.
+- Launch intergalactic probes.
+- Continue intergalactic expansion until expasion is no longer possible.
+- Engage in planetary, stellar, and galactic defense of assets if hostile alien life encountered.
 
-```
-def NAME=value # description
-```
+Assume the following near-term goals.
 
-Research and use standard naming conventions, including capitalization conventions.
+- Build a mass driver on the Moon suitable for sustained colonization of Mercury
+  and supplying manufactured goods to Earth.
+- Optionally, colonize Venus with aerostat colonies high in the astmosphere
+  where pressure and temperature are similar to Earth.
+  Assume agriculture from CO2 atmosphere, knowledge worker population supported by agriculture,
+  and cloud/AI computing systems supported solar flux closer to the Sun.
+  Venus is largely human/AI "centaur" (from centaur chess) knowledge worker planning hub.
+  Water will likely need to be imported for mass agriculture.
+  A breathable atmosphere is a lifting gas on Venus, so colonies will essentially be built
+  inside of aerostat "balloons."
+- Colonize Mercury. There are theorized subterranian regions where temperatures are similar to Earth.
+  These regions are latitude and depth dependant.
+  These regions require excavation. Water ice likely in permanent craters at the poles.
+  Poles are ideal for first colonies.
+  Mercury is a good staging point for solar research and Dyson Swarm construction.
+- Cannibalize Mercury to build a Dyson swarm around the Sun.
+  Import anything necessary.
 
-#### Writing the Program
+Assume the following properties.
 
-Use a "message length" named constant instead of 12.
+- Company is profit maximizing; sales feed R&D; R&D provides tech for commercialization.
+- Company has convertible shares for normal shareholders.
+- All assets have are valued in outstanding convertible shares.
+- Assets can be strategic or tactical. Strategic assets are held.
+- Shareholders can pledge convertible shares to split tactical assets off into independent companies.
+  - If successful, pledged shares are cancelled and new company organizes as it sees fit.
+  - In general, the new company is tied to the old company via time limited service agreements.
+    - Guaranteed revenue for new company.
+    - Guaranteed price for old company.
+  - Profit maximizing company attempts to collect excess pledges to concentrate remaining share value.
+  - Split companies get reverse conglomerate appreciation. Old company attempts to capture this delta.
+- Company is essentially an innovation engine that sheds solved problems.
+  - Regular investors kick capital in for expansion.
+  - Old company reaps rewards through limited time service contract lock in.
 
-```
-mov64 r2, 12
-```
-
-Use a "success" named constant instead of 0.
-
-```
-mov64 r0, 0
-```
-
-#### src/log_hello.s ASM
-
-These lines should use named constants "message 0" to "message 3" instead of magic numbers.
-
-```
-mov32 r1, 0x6c6c6548
-mov32 r1, 0x4273206f
-mov32 r1, 0x66204650
-mov32 r1, 0x206d6f72
-```
-
-Use a "base message length" named constant instead of 17.
-
-```
-mov64 r2, 17
-```
-
-Use a "message 4" named constant instead of 0x21.
-
-```
-mov32 r1, 0x21
-```
+Assess cryptotelemeritocracy's suitability as a governance strategy for this telos.
+Assume candidates are covertly seeded during physical expansion phases to act as local arbitrators.
 
 ## Context
 
@@ -88,11 +89,11 @@ Converting drafts to full posts.
 
 ## Constraints
 
-Do not yet assign an article number.
+Do assign an article number and publication date.
 
 ## Success Criteria
 
-- ASM uses named constants, defined with comments at the top of the file.
+- Article drafted and release candidate status.
 
 ## Notes
 
