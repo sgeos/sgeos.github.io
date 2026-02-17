@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P4)
+**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P5)
 **Status**: Complete
 **Started**: 2026-02-17
 
@@ -20,12 +20,8 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A92-P4-T1 | Correct $\Delta V_{share}$ formula | Complete | Changed $/(N(N-P))$ to $/(N-P)$. |
-| A92-P4-T2 | Add arbitrator profit independence | Complete | Arbitrator is only actor not compensated by profit. Cryptocratic layer orthogonal to telemeritocratic layers. "We are not done yet" compulsion against profitable stasis. |
-| A92-P4-T3 | Add latency-meaning-narrative cascade | Complete | New subsection in Phase Analysis. Three-stage degradation: coordinate behavior, coordinate meaning, propagate narrative. Maps to near-term, mid-term, intergalactic phases. |
-| A92-P4-T4 | Expand GCH with research and critique | Complete | Glottochronology analogy (Swadesh 1952). Three critiques: rate not constant (Pagel 2007), not memoryless (path dependence), punctuated not smooth (Romanelli/Tushman 1994). Operational 50% divergence definitions. Revised assessment as averaged effective rate. 4 new references. |
-| A92-P4-T5 | Reframe intergalactic phase as myth-structure | Complete | Governance to culture to myth to superstition degradation sequence. Introduction, intergalactic phase, suitability assessment, and conclusion updated. |
-| A92-P4-T6 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A92-P5-T1 | Correct Birch Planet cross-reference | Complete | Changed "objective 8" to "objective 6" (Birch Planet is telos item 6). |
+| A92-P5-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
 
 ## Notes
 
@@ -33,7 +29,6 @@ Current task state and verification log. This file is the shared source of truth
 - References A89 (Cryptotelemeritocracy) and A90 (Introduction to Space Studies) via post_url.
 - Publication dependency: A89 must be published before A92.
 - Telos: 13 objectives in 4 categories (infrastructure-enabling, energy-scaling, expansion-propagating, defensive).
-- Governance Coherence Half-Life: $C(t) = C_0 \cdot 2^{-t/T_{GCH}}$ with glottochronology analogy and punctuated equilibrium critique.
 - 20 references across 4 categories (Book, Reference, Related Post, Research).
 - Next available article number: A93.
 - 7 release candidates: A86, A87, A88, A89, A90, A91, A92.
@@ -77,3 +72,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-17 | A92-P2: "Cryptotelemeritocracy for Space Exploitation" revised per subsection notes. Birch Planet, Venus water sourcing, MESSENGER attribution, EROI, reverse conglomerate excess pledges, spinoff independence, telos primacy, memetic governance, MathJax equations. 16 references. Draft summary synced. |
 | 2026-02-17 | A92-P3: "Cryptotelemeritocracy for Space Exploitation" revised. Introduction foreshadow, telos hierarchy (13 objectives, 4 categories), Kardashev governance shift, mass driver physics, Mercury cannibalization inflection point, corrected spinoff equations, spinoff shedding reframe, Governance Coherence Half-Life. Draft summary synced. |
 | 2026-02-17 | A92-P4: "Cryptotelemeritocracy for Space Exploitation" revised. Corrected $\Delta V_{share}$ formula. Arbitrator profit independence. Latency-meaning-narrative cascade. GCH expanded with glottochronology, punctuated equilibrium, operational 50% divergence. Intergalactic phase reframed as myth-structure to superstition. 4 new references (20 total). Draft summary synced. |
+| 2026-02-17 | A92-P5: "Cryptotelemeritocracy for Space Exploitation" corrected Birch Planet cross-reference from objective 8 to objective 6. |
