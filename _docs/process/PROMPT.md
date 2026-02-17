@@ -12,24 +12,25 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 Currently reading through the following drafts:
 
-- Claude Code Over SSH
+- Android Unit Testing
 
 Read, but unverified:
 
 - Android Development on FreeBSD
 - Claude Code on FreeBSD
 - Claude Code on OpenBSD
+- Claude Code Over SSH
 
 ## Objectives
 
-### Modernize Android Unit Testing Article
+### Modernize Authenticating a Phoenix JSON API with Guardian
 
-Modernize and complete the "Android Unit Testing" article.
+Modernize and complete the "Authenticating a Phoenix JSON API with Guardian" article.
 Use contemporary conventions and best practices.
-Either use the test app from "Android Development on FreeBSD"
-or draft another test app that is more suitable for an article about testing.
-FreeBSD is out of scope, just assume work is done on a supported platform.
-Include a section on NDK unit testing.
+The goal is JWT authentication for a bare bones JSON API that is suitable for mobile consumption.
+It probably makes sense to add Ueberauth as well.
+The general post structure looks reasonable, but it needs to be filled out.
+Double check that Guardian/Ueberauth is still sensible in 2026.
 
 Please research this problem and state limitations.
 Do not slot for publication, but tentatively use the next publication date slot
@@ -46,8 +47,9 @@ Do not yet assign an article number.
 
 ## Success Criteria
 
-- "Android Unit Testing" article in pre-release candidate state
-  ready for manual verification.
+- "Authenticating a Phoenix JSON API with Guardian and Ueberauth"
+  article in pre-release candidate state ready for manual verification.
+- Rename markdown file as appropriate.
 
 ## Notes
 

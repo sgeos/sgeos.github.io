@@ -8,31 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Modernize Android Unit Testing (A0-P8)
+**Name**: Modernize Phoenix Guardian Article (A0-P9)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Android Unit Testing" article in pre-release candidate state ready for manual verification.
+- [x] "Authenticating a Phoenix JSON API with Guardian and Ueberauth" article in pre-release candidate state ready for manual verification.
 - [x] Article uses contemporary conventions and best practices.
-- [x] Article includes a section on NDK unit testing.
 - [x] Limitations are researched and documented.
+- [x] File renamed from legacy hyphenated convention to underscored convention.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P8-T1 | Modernize and rewrite article | Complete | Full rewrite from 2017 stub to contemporary AndroidX Test, JUnit 4, Robolectric, MockK. CLMM calculator as test subject with both Kotlin and Rust implementations. 12 references across 4 categories (Android, Reference, Related Post, Rust). |
-| A0-P8-T2 | NDK unit testing section | Complete | Three subsections covering Rust unit tests with cargo test, JNI boundary testing with instrumented tests and host JVM approach, GoogleTest for C++ with CMake integration. |
-| A0-P8-T3 | Limitations section | Complete | Seven limitations documented with epistemic clarity. |
-| A0-P8-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P9-T1 | Modernize and rewrite article | Complete | Full rewrite from 2016 Phoenix 1.1/Guardian 0.10 to contemporary Phoenix 1.7+/Guardian 2.x. MemoApi example with user registration, JWT login, protected memo CRUD. Ueberauth identity strategy integration. 11 references across 4 categories (Elixir, Phoenix, Reference, Related Post). |
+| A0-P9-T2 | Verify reference URLs | Complete | All 10 external URLs verified. |
+| A0-P9-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Tentative date 2026-02-27. Article references Android FreeBSD article and CLMM Mathematics (A91) via post_url.
-- Publication dependency: Android FreeBSD article and CLMM Mathematics (A91) must be published before this article.
+- Tentative date 2026-02-28.
+- File renamed from `authenticating-a-phoenix-json-api-with-guardian.markdown` to `phoenix_json_api_authentication_with_guardian.markdown`.
+- References published article A27 "A Shell Script for Working with Phoenix JSON APIs" via post_url.
+- No publication dependency on other unpublished articles.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -66,3 +67,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P6: "Getting Started with Claude Code Over SSH" drafted (10 references). SSH fundamentals, key auth, remote execution via Bash tool, Desktop SSH. Draft summary synced. |
 | 2026-02-16 | A0-P7: "Getting Started with Claude Code Over SSH" revised with agent forwarding section (11 references). Security considerations, ProxyJump alternative. Draft summary synced. |
 | 2026-02-16 | A0-P8: "Android Unit Testing" modernized from 2017 stub to contemporary AndroidX Test (12 references). CLMM calculator test subject, Kotlin and Rust implementations, NDK testing section. Draft summary synced. |
+| 2026-02-16 | A0-P9: "Phoenix JSON API Authentication with Guardian and Ueberauth" modernized from 2016 to contemporary Phoenix 1.7+/Guardian 2.x (11 references). File renamed. Draft summary synced. |
