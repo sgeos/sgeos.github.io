@@ -8,30 +8,30 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Finish Drafting Solana sBPF Assembly Example (A0-P10)
+**Name**: Draft Getting Started with Solana Using Rust and Pinocchio (A0-P11)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Solana sBPF Assembly Example" article in pre-release candidate state ready for manual verification.
+- [x] "Getting Started with Solana Using Rust and Pinocchio" article in pre-release candidate state ready for manual verification.
+- [x] Article mirrors A65 (Anchor companion) with same toy contract concept.
 - [x] Limitations are researched and documented.
-- [x] Mixed Rust and assembly state of the art documented.
-- [x] File renamed as appropriate.
+- [x] A65 referenced via post_url.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P10-T1 | Research and rewrite article | Complete | Full rewrite from partial draft with x86 assembly and clang build.rs to correct sBPF ISA and sbpf standalone toolchain. Hello World program with sol_log_ syscall. Mixed Rust and assembly subsection with three experimental paths. 9 limitations. 9 references across 2 categories (Reference, Research). |
-| A0-P10-T2 | Verify reference URLs | Complete | All 9 external URLs verified. |
-| A0-P10-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P11-T1 | Research Pinocchio and write article | Complete | New article mirroring A65's key pegboard contract using Pinocchio. #![no_std], manual account validation, raw byte parsing, PDA creation via CPI. Mollusk tests. Comparison table with Anchor. 9 limitations. 12 references across 3 categories (Reference, Related Post, Research). |
+| A0-P11-T2 | Verify reference URLs | Complete | All 11 external URLs verified. |
+| A0-P11-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Tentative date 2026-03-01.
-- File renamed from `solana_bpf_asm_example.markdown` to `solana_sbpf_assembly_example.markdown`.
+- Tentative date 2026-03-02.
+- References published article A65 "Getting Started with Solana Using Rust and Anchor" via post_url.
 - No publication dependency on other unpublished articles.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
@@ -68,3 +68,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P8: "Android Unit Testing" modernized from 2017 stub to contemporary AndroidX Test (12 references). CLMM calculator test subject, Kotlin and Rust implementations, NDK testing section. Draft summary synced. |
 | 2026-02-16 | A0-P9: "Phoenix JSON API Authentication with Guardian and Ueberauth" modernized from 2016 to contemporary Phoenix 1.7+/Guardian 2.x (11 references). File renamed. Draft summary synced. |
 | 2026-02-16 | A0-P10: "Solana sBPF Assembly Example" finished from partial draft. Rewritten with correct sBPF ISA and sbpf toolchain (9 references). Mixed Rust/assembly state documented. File renamed. Draft summary synced. |
+| 2026-02-16 | A0-P11: "Getting Started with Solana Using Rust and Pinocchio" drafted (12 references). Mirrors A65 key pegboard with Pinocchio. Mollusk tests, comparison table. Draft summary synced. |

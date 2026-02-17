@@ -349,6 +349,33 @@ Verify bash symlink and ripgrep configuration.
 Verify that `doas pkg_add node` installs a supported Node.js version (18-24).
 Assign article number and publication date when ready.
 
+### Getting Started with Solana Using Rust and Pinocchio — Pre-Release Candidate
+
+**File**: `solana_with_rust_and_pinocchio_getting_started.markdown`
+**Topic**: Building a Solana program with Pinocchio zero-dependency library, mirroring the Anchor companion article (A65)
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Pre-Release Candidate
+
+New article mirroring A65 "Getting Started with Solana Using Rust and Anchor"
+but using the Pinocchio zero-dependency library instead of Anchor.
+Same key pegboard toy contract that stores a public key and encrypted private key on-chain.
+Covers Pinocchio project setup, manual account validation, raw byte parsing,
+PDA creation via CPI to System Program, Mollusk test harness,
+building with cargo build-sbf, and deployment to local test validator.
+Comparison table with Anchor implementation (A65).
+Nine limitations documented.
+References published article A65 via post_url.
+No article number assigned. Not slotted for publication.
+Twelve references across three categories (Reference, Related Post, Research).
+
+**Remaining Work**:
+Human verification by building and deploying the program with cargo build-sbf.
+Fill in Software Versions TODO placeholders.
+Run Mollusk tests against compiled BPF binary.
+Verify Pinocchio crate versions are current.
+Assign article number and publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -360,7 +387,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifteen files exist in `_drafts/`. One is a template.
+Sixteen files exist in `_drafts/`. One is a template.
 Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
@@ -383,7 +410,6 @@ A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
-It is recent, topical, and has working code.
 
 **Pre-Release Candidates.**
 Android Development on FreeBSD has been fully rewritten with modern tooling
@@ -402,6 +428,9 @@ and is awaiting verification by building and running the MemoApi project.
 Solana sBPF Assembly Example has been fully rewritten from a partial draft with x86 assembly
 to use the correct sBPF ISA and the sbpf standalone toolchain
 and is awaiting verification by building and deploying with the sbpf tool.
+Getting Started with Solana Using Rust and Pinocchio mirrors the Anchor companion article (A65)
+using the Pinocchio zero-dependency library
+and is awaiting verification by building and running Mollusk tests.
 
 **No stubs remain.**
 All article-numbered drafts have been elevated to release candidate status.

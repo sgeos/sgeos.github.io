@@ -9,41 +9,48 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-16
-**Task**: A0-P10 Finish Drafting Solana sBPF Assembly Example
+**Task**: A0-P11 Draft Getting Started with Solana Using Rust and Pinocchio
 
 ---
 
 ## Verification
 
-### Solana sBPF Assembly Example Article
+### Getting Started with Solana Using Rust and Pinocchio Article
 
-- Complete rewrite from partial draft with x86 assembly (`lea`, `ret`, `%rax`) and `clang -target bpf` build.rs to correct sBPF instruction set and the `sbpf` standalone toolchain.
-- File renamed from `solana_bpf_asm_example.markdown` to `solana_sbpf_assembly_example.markdown` via `git mv`.
-- Title: "Solana sBPF Assembly Example."
-- Front matter: `mathjax: false`, categories `solana assembly`, date `2026-03-01 00:01:00 +0000`.
-- Background section covers the sBPF virtual machine as Solana's fork of eBPF, key differences from upstream eBPF, the rBPF Rust implementation, and the `sbf-solana-solana` target triple.
-- Registers and Memory subsection with 11-register table (r0-r10 with purposes) and 4-region memory layout table (code, stack, heap, input with base addresses).
-- Instruction Set subsection with categorized table covering data movement, wide immediate, memory load/store, arithmetic, bitwise, jumps, branches, function calls, and program exit.
-- Instructions section walks through `cargo install sbpf`, `sbpf init`, project structure, Hello World program, `sbpf build`, deployment to local test validator, and `sbpf deploy`.
-- Hello World program stores "Hello, sBPF!" on the stack in three 4-byte words using `mov32` and `stxw`, invokes `sol_log_` syscall with pointer and length, exits with return code 0.
-- Mixed Rust and Assembly Projects subsection documents the current state: no stable workflow exists. Three experimental paths covered: nightly inline assembly with `asm_experimental_arch`, separate compilation with `sbpf-linker` (proven for C/Nim/Python but untested for Rust), and the `build.rs` approach (analogous to `cc` crate but undocumented for SBF target). Entrypoint conflict between Rust `entrypoint!` macro and hand-written assembly entrypoint documented.
-- 9 limitations documented including no signed division, 4KB stack frame limit, 64-frame call depth, CPI depth of 4, bounds-checked memory, no random/network/time access, compute unit budget, determinism requirement, and no stable mixed Rust/assembly workflow.
-- 9 references across 2 categories (Reference, Research).
+- New article mirroring A65 "Getting Started with Solana Using Rust and Anchor" using the Pinocchio zero-dependency library instead of Anchor.
+- File: `solana_with_rust_and_pinocchio_getting_started.markdown`.
+- Title: "Getting Started with Solana Using Rust and Pinocchio."
+- Front matter: `mathjax: false`, categories `solana rust`, date `2026-03-02 00:01:00 +0000`.
+- Same key pegboard toy contract concept as A65. Stores a public key and encrypted private key on-chain using a PDA.
+- Same off-chain `generate.sh` script as A65 included in full for self-containedness.
+- Program uses `#![no_std]`, `pinocchio::entrypoint!`, manual account validation, raw byte parsing, and single-byte discriminator routing.
+- Account data layout: 32 bytes public key, 4 bytes length prefix (u32 LE), up to 128 bytes encrypted private key. Total 164 bytes.
+- PDA seeds `[b"key-pegboard", public_key.as_ref()]` identical to A65 for conceptual parity.
+- Account creation via CPI to System Program using `pinocchio_system::instructions::CreateAccount` with PDA signer seeds.
+- Rent calculation via `pinocchio::sysvars::rent::Rent::get()`.
+- Unit tests in `src/lib.rs`: account data size validation and serialization roundtrip.
+- Program tests with Mollusk in `tests/test_publish.rs`: successful publish, missing signer rejection, invalid discriminator rejection.
+- Deploying and Testing section covers `cargo build-sbf`, `solana-test-validator`, `solana program deploy`, and `declare_id!` key management.
+- Comparison with Anchor table covering 13 aspects (account validation, serialization, discriminator, std lib, scaffolding, build, test, IDL, key management, dependencies, compute units, binary size).
+- 9 limitations documented including no automatic account validation, no IDL generation, no client generation, no init constraint, no_std constraints, smaller ecosystem, raw ProgramError, team collaboration, and manual key management.
+- References A65 via `post_url`.
+- 12 references across 3 categories (Reference, Related Post, Research).
 - No article number assigned. Not slotted for publication. `<!-- Axxx -->` placeholder used.
 
 ---
 
 ## Questions for Human Review
 
-- Software Versions section has TODO placeholders that need to be filled in on the development machine after installing `sbpf` and running the project.
-- Verify that `cargo install sbpf` is the correct installation command and that the tool is available on crates.io. The GitHub repository is `blueshift-gg/sbpf`.
-- Verify that `sbpf init hello_sbpf` creates the expected project structure with `src/main.s`, `deploy/`, and `Cargo.toml`.
-- Verify that the Hello World assembly program assembles, deploys, and logs "Hello, sBPF!" on a local test validator. The little-endian encoding of "Hell" as `0x6c6c6548`, "o, s" as `0x73202c6f`, and "BPF!" as `0x21465042` should be verified.
-- Verify that `sol_log_` is the correct syscall name for the sbpf assembler. Some documentation uses `sol_log_` with a trailing underscore and some without.
-- Verify that `solana program invoke <PROGRAM_ID>` is the correct command for invoking a deployed program from the CLI.
-- The Mixed Rust and Assembly Projects subsection states that `sbpf-linker` has been demonstrated with clana (C), nimlana (Nim), and pylana (Python). Verify these project names are correct.
-- The article states the default compute unit budget is 200,000 per instruction. The standard Solana budget is 200,000 per transaction (not per instruction). Verify the correct framing.
-- Verify that the `no-entrypoint` Cargo feature is the correct mechanism for suppressing the Rust entrypoint macro in mixed projects.
+- Software Versions section has TODO placeholders that need to be filled in on the development machine after installing the Solana CLI and running `cargo build-sbf --version`.
+- The `declare_id!` macro uses `pinocchio_pubkey::declare_id!`. Verify that this is the correct import path for the current `pinocchio-pubkey` crate version. Some examples use `pinocchio::declare_id!` directly.
+- Verify that `pinocchio::sysvars::rent::Rent::get()` is the correct API for reading the Rent sysvar in Pinocchio 0.10.x. The sysvar access pattern may differ from the `solana-program` crate.
+- Verify that `pinocchio_system::instructions::CreateAccount` accepts the fields shown (from, to, lamports, space, owner) and that `.invoke_signed(&[&signer_seeds])` is the correct CPI invocation pattern.
+- The Mollusk test uses `mollusk_svm::program::system_program()` to provide the System Program account in the test fixture. Verify this function exists in mollusk-svm 0.0.14.
+- Verify that `mollusk_svm::result::Check::err(InstructionError::MissingRequiredSignature)` is the correct pattern for asserting instruction failures.
+- The `Cargo.toml` specifies `pinocchio = "0.10"`, `pinocchio-system = "0.5"`, `pinocchio-log = "0.3"`, `pinocchio-pubkey = "0.3"`, `mollusk-svm = "0.0.14"`, and `solana-sdk = "2.2"`. Verify these version constraints resolve correctly and are compatible.
+- The `generate.sh` script is identical to A65's version. Verify that reproducing the full script is preferred over referencing A65 with a link.
+- Verify that the PDA signer seeds pattern `[PDA_SEED, public_key_bytes.as_ref(), bump_bytes.as_ref()]` works correctly with `invoke_signed` in Pinocchio. The bump byte must be passed as a slice reference.
+- The article states Pinocchio programs use `#![no_std]`. Verify that the unit tests (which use `assert_eq!`) compile correctly in `#[cfg(test)]` mode, as the test runner provides the standard library.
 
 ---
 
@@ -52,13 +59,14 @@ This file is the AI-to-human communication channel. It is overwritten after each
 - Next available article number: A92.
 - 6 release candidates: A86 "Mission Command Management Style," A87 "Telemeritocracy," A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies," A91 "Concentrated Liquidity Market Maker Mathematics."
 - 0 stubs.
-- 7 pre-release candidates: Android Development on FreeBSD, Android Unit Testing, Claude Code on FreeBSD, Claude Code on OpenBSD, Claude Code Over SSH, Phoenix JSON API Authentication with Guardian and Ueberauth, Solana sBPF Assembly Example.
+- 8 pre-release candidates: Android Development on FreeBSD, Android Unit Testing, Claude Code on FreeBSD, Claude Code on OpenBSD, Claude Code Over SSH, Phoenix JSON API Authentication with Guardian and Ueberauth, Solana sBPF Assembly Example, Getting Started with Solana Using Rust and Pinocchio.
 - Publication order dependency: A86 before A87 before A89. A88, A90, and A91 have no dependencies.
 - Publication order dependency: FreeBSD Claude Code article before OpenBSD Claude Code article.
 - Publication order dependency: Android FreeBSD article and CLMM Mathematics (A91) before Android Unit Testing article.
 - SSH article has no publication dependency on other articles.
 - Phoenix Guardian article has no publication dependency on other unpublished articles. References published article A27 via post_url.
 - Solana sBPF article has no publication dependency on other unpublished articles.
+- Solana Pinocchio article has no publication dependency on other unpublished articles. References published article A65 via post_url.
 - A86 publication date: 2026-02-18.
 - A88 publication date: 2026-02-17.
 - A87 publication date: 2026-02-19.
