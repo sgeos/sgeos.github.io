@@ -281,17 +281,27 @@ to a multigenerational space exploitation enterprise
 whose telos spans Mercury colonization through intergalactic expansion.
 Enumerates the complete telos as a progression through the Kardashev scale
 from late Type I through Type II to Type III civilization.
+Introduces the Birch Planet concept for galaxy-scale energy capture
+around a supermassive black hole, with shell gravity equation.
 Covers near-term goals including lunar mass driver, Venus aerostat colonies,
 Mercury colonization, and Mercury cannibalization for Dyson Swarm construction.
-Presents the corporate structure as a profit-maximizing innovation engine
-with convertible shares and a spinoff mechanism for shedding solved problems.
+Venus water sourced from comets, asteroids, and trans-Neptunian objects.
+Mercury quantitative claims attributed to MESSENGER mission data.
+EROI and exponential growth equations for Dyson Swarm feedback loop.
+Presents the corporate structure with excess pledge share concentration equation,
+reverse conglomerate appreciation through excess pledges,
+and the spinoff mechanism for shedding solved problems.
+Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
+Spinoff independence expanded with asteroid mining example.
 Assesses cryptotelemeritocracy's suitability across four expansion phases,
 from near-term Earth-Moon-Venus operations through intergalactic expansion.
+Governance becomes memetic rather than institutional at galactic scale.
 Analyzes covert seeding during expansion, the spinoff mechanism's relationship
 to Michels' iron law of oligarchy, counter-espionage properties in space,
 and five space-specific failure modes.
+MathJax enabled with six equations.
 References A89 and A90 via post_url.
-Thirteen references across four categories (Book, Reference, Related Post, Research).
+Sixteen references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A89 must be published before A92.

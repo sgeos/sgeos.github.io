@@ -8,28 +8,30 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Cryptotelemeritocracy for Space Exploitation (A92-P1)
+**Name**: Revise Cryptotelemeritocracy for Space Exploitation (A92-P2)
 **Status**: Complete
 **Started**: 2026-02-17
 
 ## Success Criteria
 
-- [x] Article drafted and release candidate status.
+- [x] Article revised per PROMPT.md subsection notes.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A92-P1-T1 | Draft article | Complete | 13 sections covering telos, near-term goals, corporate structure, cryptotelemeritocracy suitability, covert seeding, phase analysis, spinoff mechanism, counter-espionage, failure modes, and assessment. 13 references across 4 categories. |
-| A92-P1-T2 | Verify reference URLs | Complete | 10 of 11 URLs return 200. Science.org Dyson 1960 returns 403 (known bot protection, confirmed indexed). arXiv URL corrected from wrong paper to ADS link. |
-| A92-P1-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A92-P2-T1 | Revise article (9 areas) | Complete | Birch Planet added to Telos with Birch 1991 reference. Venus water from comets/asteroids/TNOs. Mercury claims attributed to MESSENGER. EROI and exponential growth equations added. Reverse conglomerate appreciation rewritten with excess pledges as primary mechanism. Spinoff independence expanded with asteroid mining example. Profit reframed as means to telos. Memetic governance framing for intergalactic scale. PROMPT.md mentions removed. MathJax enabled with 6 equations. 16 references across 4 categories. |
+| A92-P2-T2 | Verify new reference URLs | Complete | All 3 new URLs return 200: Shellworld Wikipedia, Trans-Neptunian Object Wikipedia, Birch 1991 ADS. |
+| A92-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - Article A92, dated 2026-02-23, categories: space management philosophy.
 - References A89 (Cryptotelemeritocracy) and A90 (Introduction to Space Studies) via post_url.
 - Publication dependency: A89 must be published before A92.
-- Mercury iron core: ~70% of total mass, ~85% of radius (per MESSENGER data).
+- "Parent corporation" replaced with "originating corporation" throughout.
+- Governance becomes memetic at galactic scale, not institutional.
+- Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
 - Next available article number: A93.
 - 7 release candidates: A86, A87, A88, A89, A90, A91, A92.
 - 0 stubs.
@@ -69,3 +71,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P12: "Solana sBPF Assembly Example" revised with .rodata section and linked Rust+ASM object file example (11 references). build.rs with Solana SDK Clang. Draft summary synced. |
 | 2026-02-16 | A0-P13: "Solana sBPF Assembly Example" revised with .equ named constants in main.s and log_hello.s. All non-0/1/-1 literals replaced. Draft summary synced. |
 | 2026-02-17 | A92-P1: "Cryptotelemeritocracy for Space Exploitation" researched and written (13 references). References A89 and A90 via post_url. Draft summary synced (17 files, 7 RCs, 0 stubs). |
+| 2026-02-17 | A92-P2: "Cryptotelemeritocracy for Space Exploitation" revised per subsection notes. Birch Planet, Venus water sourcing, MESSENGER attribution, EROI, reverse conglomerate excess pledges, spinoff independence, telos primacy, memetic governance, MathJax equations. 16 references. Draft summary synced. |
