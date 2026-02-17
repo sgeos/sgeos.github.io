@@ -8,29 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise Claude Code Over SSH — Agent Forwarding (A0-P7)
+**Name**: Modernize Android Unit Testing (A0-P8)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] "Getting Started with Claude Code Over SSH" article in pre-release candidate state ready for manual verification.
-- [x] Article has detailed section on SSH agent forwarding.
+- [x] "Android Unit Testing" article in pre-release candidate state ready for manual verification.
+- [x] Article uses contemporary conventions and best practices.
+- [x] Article includes a section on NDK unit testing.
+- [x] Limitations are researched and documented.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P7-T1 | Add Agent Forwarding section | Complete | New section with 7 subsections: mechanism, enabling, verification, Claude Code usage, security considerations, ProxyJump alternative. Opening prose updated from three to four topics. ssh-agent manual reference added (HTTP 200). |
-| A0-P7-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P8-T1 | Modernize and rewrite article | Complete | Full rewrite from 2017 stub to contemporary AndroidX Test, JUnit 4, Robolectric, MockK. CLMM calculator as test subject with both Kotlin and Rust implementations. 12 references across 4 categories (Android, Reference, Related Post, Rust). |
+| A0-P8-T2 | NDK unit testing section | Complete | Three subsections covering Rust unit tests with cargo test, JNI boundary testing with instrumented tests and host JVM approach, GoogleTest for C++ with CMake integration. |
+| A0-P8-T3 | Limitations section | Complete | Seven limitations documented with epistemic clarity. |
+| A0-P8-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Article now covers: SSH fundamentals, key-based auth, SSH agent, host configuration, remote execution, timeout configuration, agent forwarding, Claude Code Desktop SSH, Hello World, and limitations.
-- 11 references across 3 categories (Claude, Reference, Related Post).
-- Security considerations for agent forwarding prominently documented.
-- ProxyJump documented as safer alternative for untrusted intermediate hosts.
+- Tentative date 2026-02-27. Article references Android FreeBSD article and CLMM Mathematics (A91) via post_url.
+- Publication dependency: Android FreeBSD article and CLMM Mathematics (A91) must be published before this article.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -63,3 +65,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P5: "Getting Started with Claude Code on OpenBSD" drafted (12 references). npm-only installation, bash/ripgrep config, Hello World curses demo. Draft summary synced. |
 | 2026-02-16 | A0-P6: "Getting Started with Claude Code Over SSH" drafted (10 references). SSH fundamentals, key auth, remote execution via Bash tool, Desktop SSH. Draft summary synced. |
 | 2026-02-16 | A0-P7: "Getting Started with Claude Code Over SSH" revised with agent forwarding section (11 references). Security considerations, ProxyJump alternative. Draft summary synced. |
+| 2026-02-16 | A0-P8: "Android Unit Testing" modernized from 2017 stub to contemporary AndroidX Test (12 references). CLMM calculator test subject, Kotlin and Rust implementations, NDK testing section. Draft summary synced. |
