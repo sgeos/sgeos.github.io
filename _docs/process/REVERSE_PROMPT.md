@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-17
-**Task**: A92-P3 Revise Cryptotelemeritocracy for Space Exploitation
+**Task**: A92-P4 Revise Cryptotelemeritocracy for Space Exploitation
 
 ---
 
@@ -17,32 +17,31 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Content
 
-- Article A92, "Cryptotelemeritocracy for Space Exploitation," dated 2026-02-23, categories: space management philosophy. MathJax enabled. 1464 lines.
-- **Introduction foreshadow**: New paragraph previews the four-phase assessment: highly compatible near-term, federated viable mid-term, autonomous local instances interstellar, memetic intergalactic.
-- **Telos restructured**: Flat numbered list replaced with 13 objectives across four hierarchical categories: infrastructure-enabling (1-3), energy-scaling (4-6), expansion-propagating (7-12), defensive (13). Introductory sentence updated from "approximate sequential order" to "hierarchical and phase-dependent categories."
-- **Kardashev governance shift**: New paragraph after beyond-Type-III framing. Below Type III, governance is resource scaling. Beyond Type III, governance is civilizational continuity. This shift makes the intergalactic phase fundamentally different.
-- **Mass driver physics corrected**: Distinguishes orbital velocity (for lunar orbit or Earth orbit delivery) from escape velocity (for interplanetary transport). Mercury transport requires exceeding $v_e$, clearing Earth's SOI, and achieving Mercury intercept velocity. Deceleration propellant required at destination. Mass driver eliminates launch cost but not braking cost.
-- **Mercury cannibalization expanded**: Three new paragraphs. Irreversibility: once planetary-scale disassembly begins, Mercury cannot be restored. Point of no return: commitment to Dyson Swarm and all subsequent objectives. Governance stakes: leadership failure during this phase strands the enterprise. Arbitrator must ensure commitment through the critical phase, protecting telos from both diversion and loss of nerve.
-- **Spinoff value equations corrected**: Pre-split value $V_{total}/N$. Post-split value $(V_{total} - V_{spinoff})/(N-P)$. Greater $P$ concentrates $V_{share}$ while diluting pledged share nominal value. Each pledge is for partial ownership of a solved, revenue-generating solution. Appreciation: $\Delta V_{share} = (V_{total} - V_{spinoff})/(N(N-P)) - V_{total}/N$. Market revaluation: $V_{remaining} \neq V_{total} - V_{spinoff}$. Goal: maximize $P$, minimize $V_{spinoff}/P$. Service contracts separate but important terms.
-- **Spinoff fragmentation reframed**: Originating corporation sheds mission drift with solved problems. Shedding misaligned investors and personnel is desirable, not merely acceptable. They are a source of drift pressure. $\Delta V_{share}$ quantifies focus, $V_{remaining}$ quantifies market opinion. Surface area for mission drift in originating enterprise decreases with each spinoff. Previous text claiming "increases the surface area for mission drift" replaced.
-- **Governance Coherence Half-Life introduced**: New subsection in Phase Analysis. $T_{GCH}$ defined as time for 50% interpretive divergence between isolated nodes. Decay equation: $C(t) = C_0 \cdot 2^{-t/T_{GCH}}$. Depends on telos encoding strength, cultural homogeneity, communication frequency, institutional drift correction. Phase-dependent estimates: infinite (near-term), long (mid-term), generations (far-term), exceeded by communication intervals (intergalactic). Gives the memetic transition a measurable threshold.
-- Three-Layer Mapping updated: "eleven objectives" changed to "thirteen objectives," "sequential" changed to "hierarchical."
-- Reverse conglomerate appreciation section updated with $V_{remaining}$ reference.
-- Sixteen references unchanged across four categories (Book, Reference, Related Post, Research).
+- Article A92, "Cryptotelemeritocracy for Space Exploitation," dated 2026-02-23, categories: space management philosophy. MathJax enabled. 1745 lines.
+- **Corrected $\Delta V_{share}$ formula**: Changed $\frac{V_{total} - V_{spinoff}}{N(N - P)}$ to $\frac{V_{total} - V_{spinoff}}{N - P}$ as specified in PROMPT.md.
+- **Arbitrator profit independence**: New prose in the Profit versus telos tension subsection. The arbitrator is the only actor not compensated by profit. The cryptocratic layer is nominally randomly embedded in the telemeritocratic structure yet orthogonal to it, despite each candidate existing and participating in both. The active arbitrator is the champion of the telos, not of profit and loss. Where others would declare "if it is not broken, do not fix it," the cryptoarbitrator compels "we are not done yet." The arbitrator prevents the enterprise from settling into profitable stasis short of the telos.
+- **Latency-meaning-narrative cascade**: New subsection "Latency and the Degradation of Coordination" added before the GCH subsection in Phase Analysis. Three-stage degradation: latency converts coordination problems into interpretive problems, then into narrative propagation. Maps directly onto the phase analysis: near-term (coordinated behavior), mid-term (coordinated meaning), far-term boundary (meaning to narrative), intergalactic (propagated narrative).
+- **Governance Coherence Half-Life expanded**: Glottochronology analogy from Swadesh (1952), approximately 86% vocabulary retention per millennium. Three critiques: (1) rate is not constant, per Bergsland/Vogt 1962 and Pagel et al. 2007; (2) divergence is not memoryless, per organizational path dependence (Sydow 2009, Hannan/Freeman 1984); (3) divergence is punctuated not smooth, per Eldredge/Gould 1972 and Romanelli/Tushman 1994, with 10-33% of linguistic divergence in punctuational bursts (Atkinson 2008). Operational 50% divergence defined at three thresholds: policy disagreement, priority reordering, rejection of core objective. Revised assessment frames the exponential model as a useful first-order approximation with the GCH as an averaged effective rate rather than a constant instantaneous rate.
+- **Intergalactic phase reframed as myth-structure**: Introduction foreshadow updated. Intergalactic Phase subsection now uses "myth-structure" as the terminal governance state, with a further degradation to "rejected superstition" over sufficiently long timescales. Degradation sequence: governance to culture to myth to superstition. Suitability Assessment and Conclusion updated consistently.
+- Twenty references across four categories (Book, Reference, Related Post, Research). Four new references added.
 
 ### Reference URLs
 
-- No new references added. All 16 URLs verified in A92-P1 and A92-P2.
+- `https://en.wikipedia.org/wiki/Glottochronology` — 200 OK.
+- `https://en.wikipedia.org/wiki/Punctuated_equilibrium` — 200 OK.
+- `https://journals.aom.org/doi/abs/10.5465/256669` — 403 (bot detection, consistent with known academic publisher patterns).
+- `https://www.nature.com/articles/nature06176` — 303 redirect (normal for Nature, indicates valid indexed resource).
+- All 16 previously verified URLs unchanged.
 
 ---
 
 ## Questions for Human Review
 
-- Verify the telos restructuring. The original 11 items are now 13 because lunar mass driver (item 2) and Venus aerostat colonies (item 3) were previously implicit in Near-Term Goals but not enumerated in the telos list. They are now explicit infrastructure-enabling objectives. The numbering shift means cross-references to specific objective numbers elsewhere in the article should be checked.
-- Verify the mass driver physics. The article now distinguishes orbital delivery (less than $v_e$) from interplanetary transport (exceed $v_e$, clear Earth SOI, achieve Mercury intercept). The sphere of influence concept is referenced but not formally defined. If a definition is desired, it could be added with reference to the Hill sphere.
-- Verify the Mercury cannibalization expansion. The article frames this as the "conceptual inflection point of the entire telos" and introduces the idea that the arbitrator must protect against both diversion and loss of nerve. The "loss of nerve" framing is novel and not drawn from the companion articles.
-- Verify the corrected spinoff equations. The PROMPT.md provided specific formulations. The article now uses $V_{total} - V_{spinoff}$ rather than $V_{total}$ alone. The appreciation formula $\Delta V_{share}$ matches the PROMPT.md specification.
-- Verify the Governance Coherence Half-Life concept. The decay equation $C(t) = C_0 \cdot 2^{-t/T_{GCH}}$ is analogous to radioactive decay (which appears in A88). The phase-dependent estimates are qualitative, not derived from empirical data.
+- Verify the corrected $\Delta V_{share}$ formula. The denominator now reads $(N - P)$ instead of $N(N - P)$. This matches the PROMPT.md specification exactly.
+- Verify the arbitrator independence prose. The framing stresses orthogonality of the cryptocratic layer to the telemeritocratic layers, the "we are not done yet" compulsion, and prevention of profitable stasis. These concepts were specified in the user's plan clarifications.
+- Verify the latency cascade. The three-stage degradation (coordinate behavior, coordinate meaning, propagate narrative) is presented as a new subsection before the GCH subsection. The mapping to phases is explicit.
+- Verify the GCH expansion. The glottochronology analogy, three critiques, operational definitions, and revised assessment are substantial additions. The critiques reference specific researchers and dates but do not include formal citations in the text beyond reference links for Pagel, Romanelli/Tushman, glottochronology, and punctuated equilibrium. Other researchers (Bergsland/Vogt 1962, Sydow 2009, Hannan/Freeman 1984, Atkinson 2008, Gersick 1991) are mentioned by name and year in the text but do not have dedicated reference entries. If formal reference entries are desired for these additional sources, they can be added in a follow-up pass.
+- Verify the myth-structure framing. The degradation sequence governance-culture-myth-superstition is applied consistently across the introduction, intergalactic phase, suitability assessment, and conclusion.
 
 ---
 
