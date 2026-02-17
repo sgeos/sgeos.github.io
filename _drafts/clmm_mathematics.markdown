@@ -828,7 +828,7 @@ pub fn clmm_calculator_init(anchor_id: &str) {
 ```
 
 **Example index.html for Local Testing**
-Add above HTML and CSS to commented locations.
+Add above CSS styling to commented location.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -836,11 +836,21 @@ Add above HTML and CSS to commented locations.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLMM Calculator</title>
-    <!-- Widget Inline CSS Here <style> ... -->
+
+    <!-- Inline CSS Here -->
+    <style></style>
 </head>
 <body>
     <h1>CLMM Calculator</h1>
-    <!-- JS Injection Anchor Here <script ...> -->
+
+    <script type="module" id="clmm_calculator_ui">
+        import init, { inject_ui } from "./pkg/post_clmm_mathematics.js";
+        async function run() {
+            await init();
+            inject_ui("clmm_calculator_ui");
+        }
+        run();
+    </script>
 </body>
 </html>
 ```
