@@ -10,45 +10,23 @@ This file is a staging area for complex human-to-AI instructions. The human pilo
 
 ## Comments
 
-WASM for A91 built and added to repo.
-Please as commit as well as completing the below objectives.
+Currently reading through the "Android Development on FreeBSD" draft.
 
 ## Objectives
 
-### Modernize Android Development on FreeBSD
+### 
 
-The general strategy is to use the FreeBSD Linuxulator
-in combination with a command line SDK and NDK development workflow.
-The Android emulator is completely out of scope. (State this!)
-Assume testing will be done on hardware using a connected device.
+Draft a "Getting Started with Claude Code on FreeBSD" article.
+You may want to review some of my existing "Getting Started with X on FreeBSD" posts.
+Live blog index here: https://sgeos.github.io
 
-The sample application should be a port of the
-A91 WASM widget to Android as a single page app.
-Mission success if this sample app can be built and tested from FreeBSD.
+Note package installation and port building instructions.
+Note setting `USE_BUILTIN_RIPGREP=0` if the CLI is misbehaving on a BSD system,
+if this can be verified to be advisable.
 
-The development stack is:
-- Kotlin for SDK work
-- Rust for NDK work
-- Whatever happens to be conventional for everything else, like UI files
-
-Sections:
-- Post summary (what are we doing and not doint)
-- Software Version (just give commands; I will update manually)
-- Environment setup.
-  - Required ports and other step.
-- SDK development.
-  - Kotlin app
-  - Set up UI
-  - Build and run non-interactive app on connected device
-- NDK development
-  - Rust update code exposed via FFI
-  - Build and run interactive app on connected device
-- Emulator feasibility
-- Conclusion
-- Future Reading
-- References
-
-Make sure this post is properly researched.
+Please research this problem and state limitations.
+Do not slot for publication, but tentatively use the next publication date slot
+for lack of a better alternative.
 
 ## Context
 
@@ -58,13 +36,11 @@ Converting drafts to full posts.
 ## Constraints
 
 Do not yet assign an article number.
-Do not slot for publication, despite the manual date update.
 
 ## Success Criteria
 
-- Android Development on FreeBSD article in pre-release candidate state
+- "Getting Started with Claude Code on FreeBSD" article in pre-release candidate state
   ready for verification on FreeBSD.
-- Sample project itself is portable so I can test on macOS first.
 
 ## Notes
 
