@@ -29,15 +29,20 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 Completely rewritten from a partial draft with x86 assembly and clang build.rs
 to use the correct sBPF instruction set and the sbpf standalone toolchain.
 Covers the sBPF virtual machine, registers and memory layout, instruction set overview,
-toolchain installation, project creation, a Hello World program using sol_log_ syscall,
-building and deploying with sbpf tool, and the current state of mixed Rust and assembly projects.
+toolchain installation, project creation, a Hello World program using `.rodata` section
+and `lddw` address loading, building and deploying with sbpf tool,
+and the current state of mixed Rust and assembly projects.
 Three experimental paths for mixed projects documented (nightly inline asm, sbpf-linker, build.rs).
+Includes a theoretical linked Rust and assembly example
+using the Solana SDK's Clang and llvm-ar in a `build.rs` script.
+The Rust entrypoint passes a string to an sBPF assembly logging subroutine via C FFI.
 Nine limitations documented.
-Nine references across two categories (Reference, Research).
+Eleven references across two categories (Reference, Research).
 No article number assigned. Not slotted for publication.
 
 **Remaining Work**:
 Human verification by building and deploying the Hello World program with the sbpf tool.
+Verify the linked Rust and assembly example compiles with cargo build-sbf.
 Fill in Software Versions TODO placeholders.
 Verify assembly code executes correctly on a local test validator.
 Assign article number and publication date when ready.
@@ -426,7 +431,8 @@ Authenticating a Phoenix JSON API with Guardian and Ueberauth has been fully rew
 from 2016 Phoenix 1.1/Guardian 0.10 to modern Phoenix 1.7+/Guardian 2.x
 and is awaiting verification by building and running the MemoApi project.
 Solana sBPF Assembly Example has been fully rewritten from a partial draft with x86 assembly
-to use the correct sBPF ISA and the sbpf standalone toolchain
+to use the correct sBPF ISA and the sbpf standalone toolchain,
+revised with `.rodata` section usage and a theoretical linked Rust and assembly example,
 and is awaiting verification by building and deploying with the sbpf tool.
 Getting Started with Solana Using Rust and Pinocchio mirrors the Anchor companion article (A65)
 using the Pinocchio zero-dependency library

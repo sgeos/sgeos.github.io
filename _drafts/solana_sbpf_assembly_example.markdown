@@ -31,7 +31,11 @@ a Solana program in sBPF assembly using standalone `.s` files.
 The `sbpf` tool provides a lightweight assembler and linker
 that compiles assembly files directly into deployable Solana programs
 without requiring the full LLVM toolchain or Solana platform tools.
-The article also discusses the current state of mixed Rust and assembly projects.
+The Hello World program uses a `.rodata` section for string data
+and the `lddw` instruction to load symbol addresses at runtime.
+The article also discusses the current state of mixed Rust and assembly projects,
+including a theoretical approach for linking sBPF assembly object files
+into a Rust project using a Cargo build script.
 
 ## Software Versions
 
@@ -194,55 +198,50 @@ The `deploy/` directory will contain the compiled `.so` files after building.
 
 Replace the contents of `src/main.s` with a program
 that logs a message to the Solana runtime.
-The program stores the string "Hello, sBPF!" on the stack,
-then invokes the `sol_log_` syscall to print it.
+The program declares the string "Hello, sBPF!" in a read-only data section
+and invokes the `sol_log_` syscall to print it.
 
 `src/main.s` full listing
 
 ```asm
 .globl entrypoint
 entrypoint:
-    # Allocate space on the stack for the message.
-    # r10 is the frame pointer (read-only).
-    # Store "Hello, sBPF!" (12 bytes) at [r10-16] through [r10-5].
+    # Load the address of the message string into r1.
+    lddw r1, message
 
-    # "Hell" = 0x6c6c6548
-    mov32 r1, 0x6c6c6548
-    stxw [r10-16], r1
-
-    # "o, s" = 0x73202c6f
-    mov32 r1, 0x73202c6f
-    stxw [r10-12], r1
-
-    # "BPF!" = 0x21465042
-    mov32 r1, 0x21465042
-    stxw [r10-8], r1
-
-    # Null terminator is not required for sol_log_.
+    # Load the message length into r2.
     # sol_log_ takes a pointer in r1 and a length in r2.
-    mov64 r1, r10
-    add64 r1, -16
     mov64 r2, 12
     call sol_log_
 
     # Exit with success (return code 0).
     mov64 r0, 0
     exit
+
+.rodata
+message:
+    .ascii "Hello, sBPF!"
 ```
 
 The program performs the following operations.
 
-1. The string "Hello, sBPF!" is stored on the stack in three 4-byte words
-using `mov32` to load the little-endian encoded characters
-and `stxw` to write each word to memory.
-The frame pointer r10 provides the base address for stack access.
+1. The `.rodata` section declares read-only data that is embedded in the program binary.
+The `message` label marks the start of the string,
+and the `.ascii` directive stores the raw bytes of "Hello, sBPF!" without a null terminator.
+A null terminator is not required because `sol_log_` uses an explicit length argument.
+The sbpf assembler supports `.ascii`, `.byte`, `.short`, `.word`, `.int`, `.long`, and `.quad`
+directives in `.rodata` sections but does not support `.asciz` or `.string`.
 
-2. The `sol_log_` syscall is invoked with two arguments.
-Register r1 receives a pointer to the start of the string on the stack.
+2. The `lddw r1, message` instruction loads the 64-bit address of the `message` label into register r1.
+This is a wide immediate load that the assembler resolves
+to the address of the string in the `.rodata` section of the compiled ELF binary.
+
+3. The `sol_log_` syscall is invoked with two arguments.
+Register r1 contains the pointer to the string in the `.rodata` section.
 Register r2 receives the length of the string in bytes.
 The syscall prints the message to the Solana runtime log.
 
-3. The program exits with return code 0 in register r0,
+4. The program exits with return code 0 in register r0,
 indicating successful execution.
 
 ### Building
@@ -362,14 +361,271 @@ Mixed projects would need to use the `no-entrypoint` Cargo feature
 and define the entrypoint in assembly.
 
 **The build.rs approach.**
-A Cargo build script could invoke the sbpf assembler on `.s` files
+A Cargo build script could invoke an assembler on `.s` files
 and link the resulting object files into the Rust build.
 This is analogous to how the `cc` crate integrates C code into Rust projects.
-No documented example of this approach exists for the SBF target.
+The subsection below demonstrates a theoretical solution
+using the Solana SDK's LLVM tools in a `build.rs` script.
 
 All three paths are experimental.
 The Solana development ecosystem does not yet provide
 first-class support for mixed-language program development.
+
+#### Linking Assembly into a Rust Project with build.rs
+
+The Solana SDK ships LLVM tools alongside `cargo build-sbf`,
+including Clang and llvm-ar.
+These tools can assemble `.s` files targeting the SBF architecture,
+archive the resulting object files into a static library,
+and link the library into the Rust build through standard Cargo directives.
+This approach follows the same pattern that Rust projects use
+to integrate C code through the `cc` crate,
+adapted for the SBF target triple and the Solana SDK's toolchain paths.
+
+The following example demonstrates this approach
+with a Rust entrypoint that calls an sBPF assembly logging subroutine.
+The Rust code passes a string argument to the assembly function,
+which constructs a formatted message on the stack and logs it
+through the `sol_log_` syscall.
+This example is presented as a theoretical solution for manual verification.
+No public example of this specific combination has been confirmed to work.
+
+The project structure is as follows.
+
+```
+hello_mixed/
+  src/
+    lib.rs              # Rust entrypoint
+    log_hello.s         # sBPF assembly logging subroutine
+  build.rs              # Assembles .s and links .a
+  Cargo.toml
+```
+
+The assembly file defines a `log_hello` function
+that accepts a pointer and length for a name string,
+constructs the message "Hello sBPF from {name}!" on the stack,
+and calls `sol_log_` to print it.
+
+`src/log_hello.s` full listing
+
+````asm
+.globl log_hello
+log_hello:
+    # Arguments: r1 = pointer to name, r2 = length of name.
+    # Logs "Hello sBPF from <name>!" to the Solana runtime.
+
+    # Save callee-saved registers.
+    stxdw [r10-8], r6
+    stxdw [r10-16], r7
+    stxdw [r10-24], r8
+
+    # Save arguments.
+    mov64 r6, r1
+    mov64 r7, r2
+
+    # Store prefix "Hello sBPF from " (16 bytes) on the stack.
+    # Little-endian 4-byte words:
+    # "Hell" = 0x6c6c6548, "o sB" = 0x4273206f
+    # "PF f" = 0x66204650, "rom " = 0x206d6f72
+    mov32 r1, 0x6c6c6548
+    stxw [r10-88], r1
+    mov32 r1, 0x4273206f
+    stxw [r10-84], r1
+    mov32 r1, 0x66204650
+    stxw [r10-80], r1
+    mov32 r1, 0x206d6f72
+    stxw [r10-76], r1
+
+    # Copy name bytes to the stack at [r10-72].
+    mov64 r8, 0
+copy_loop:
+    jge r8, r7, copy_done
+    mov64 r3, r6
+    add64 r3, r8
+    ldxb r1, [r3+0]
+    mov64 r3, r10
+    add64 r3, -72
+    add64 r3, r8
+    stxb [r3+0], r1
+    add64 r8, 1
+    ja copy_loop
+copy_done:
+
+    # Store "!" after the name.
+    mov64 r3, r10
+    add64 r3, -72
+    add64 r3, r7
+    mov32 r1, 0x21
+    stxb [r3+0], r1
+
+    # Call sol_log_ with the complete message.
+    # Total length = 16 (prefix) + name_length + 1 ("!").
+    mov64 r1, r10
+    add64 r1, -88
+    mov64 r2, 17
+    add64 r2, r7
+    call sol_log_
+
+    # Restore callee-saved registers.
+    ldxdw r6, [r10-8]
+    ldxdw r7, [r10-16]
+    ldxdw r8, [r10-24]
+
+    mov64 r0, 0
+    exit
+
+.extern sol_log_
+````
+
+The function saves callee-saved registers r6 through r8 on entry
+and restores them before returning,
+following the sBPF calling convention.
+The 16-byte prefix "Hello sBPF from " is stored on the stack
+as four little-endian 4-byte words.
+The name bytes are copied one at a time from the caller-provided pointer
+using a loop with `ldxb` and `stxb` instructions.
+After the name, an exclamation mark is appended to complete the message.
+
+The assembly file uses Clang syntax rather than `sbpf` tool syntax.
+The `jge` and `ja` instructions use label-based branches,
+which Clang's eBPF assembler supports.
+If the Solana SDK's Clang version does not resolve label-based jumps correctly,
+replace the label references with numeric offsets.
+The `.extern sol_log_` directive declares the syscall as an external symbol,
+which the Solana linker resolves during the final linking stage.
+
+The Rust entrypoint declares the assembly function
+as an `extern "C"` foreign function and calls it with a byte string argument.
+
+`src/lib.rs` full listing
+
+````rust
+#![no_std]
+#![no_main]
+
+extern "C" {
+    fn log_hello(ptr: *const u8, len: u64);
+}
+
+#[no_mangle]
+pub unsafe extern "C" fn entrypoint(_input: *mut u8) -> u64 {
+    let name = b"Rust";
+    log_hello(name.as_ptr(), name.len() as u64);
+    0
+}
+
+#[cfg(target_os = "solana")]
+#[no_mangle]
+fn custom_panic(_info: &core::panic::PanicInfo) -> ! {
+    loop {}
+}
+````
+
+The program uses `#![no_std]` and `#![no_main]`
+to avoid pulling in the standard library.
+The `entrypoint` function is the raw Solana program entrypoint,
+exported with `#[no_mangle]` and C ABI calling convention.
+The `custom_panic` handler is required for `#![no_std]` programs
+targeting the Solana runtime.
+
+The build script locates the Solana SDK's LLVM tools,
+invokes Clang to assemble the `.s` file into an object file,
+archives the object file into a static library with llvm-ar,
+and emits Cargo directives to link the library.
+
+`build.rs` full listing
+
+````rust
+use std::env;
+use std::process::Command;
+
+fn main() {
+    let out_dir = env::var("OUT_DIR").unwrap();
+    let home = env::var("HOME").unwrap();
+
+    // Locate the Solana SDK LLVM tools.
+    let sdk_base = format!(
+        "{}/.local/share/solana/install/active_release\
+         /bin/sdk/sbf/dependencies/platform-tools/llvm/bin",
+        home
+    );
+    let clang = format!("{}/clang", sdk_base);
+    let ar = format!("{}/llvm-ar", sdk_base);
+
+    // Assemble the .s file to a .o object file.
+    let status = Command::new(&clang)
+        .args([
+            "-target",
+            "sbf",
+            "-march=bpfel+solana",
+            "-c",
+            "src/log_hello.s",
+            "-o",
+        ])
+        .arg(format!("{}/log_hello.o", out_dir))
+        .status()
+        .expect("Failed to run clang");
+    assert!(status.success(), "Assembly failed");
+
+    // Archive the object file into a static library.
+    let status = Command::new(&ar)
+        .arg("rcs")
+        .arg(format!("{}/liblog_hello.a", out_dir))
+        .arg(format!("{}/log_hello.o", out_dir))
+        .status()
+        .expect("Failed to run llvm-ar");
+    assert!(status.success(), "Archive creation failed");
+
+    println!("cargo:rustc-link-search=native={}", out_dir);
+    println!("cargo:rustc-link-lib=static=log_hello");
+    println!("cargo:rerun-if-changed=src/log_hello.s");
+}
+````
+
+The `sdk_base` path assumes the default Solana CLI installation location.
+If the Solana SDK is installed elsewhere,
+this path must be adjusted to point to the `llvm/bin` directory
+within the platform tools.
+
+The `Cargo.toml` for this project is minimal.
+
+`Cargo.toml` full listing
+
+````toml
+[package]
+name = "hello_mixed"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+````
+
+No runtime dependencies are needed
+because the program uses a raw entrypoint and calls the assembly function directly.
+The `cdylib` crate type produces the shared object format
+that `cargo build-sbf` expects.
+
+Build the program and deploy it to a local test validator.
+
+```sh
+$ cargo build-sbf
+$ solana program deploy target/deploy/hello_mixed.so
+```
+
+The test validator log should display "Hello sBPF from Rust!"
+when the program is invoked.
+
+This `build.rs` approach is a theoretical solution
+that has not been tested against all versions of the Solana SDK.
+The Solana SDK's linker handles syscall resolution
+for the `sol_log_` reference in the assembly object file during final linking.
+The `clang -target sbf -march=bpfel+solana` flags instruct Clang
+to emit SBF-compatible object code.
+If the build fails, verify that the Solana SDK's `platform-tools` directory
+contains the expected Clang and llvm-ar binaries,
+and that the `clang -target sbf` invocation produces valid object files
+for the current SDK version.
 
 ## Limitations
 
@@ -412,7 +668,9 @@ Inline assembly for the BPF target requires nightly Rust
 with the `asm_experimental_arch` feature gate.
 The sbpf-linker provides a theoretical path for linking
 separately compiled object files,
-but no public examples demonstrate this combination.
+and a `build.rs` approach using the Solana SDK's Clang
+can theoretically assemble and link `.s` files into a Rust project.
+Neither approach has been publicly confirmed with a working example.
 
 ## Conclusion
 
@@ -435,6 +693,9 @@ The Blueshift Introduction to Assembly course provides a structured curriculum
 covering sBPF registers, memory, syscalls, and practical challenges.
 The Helius blog post on sBPF assembly walks through a memo program
 with detailed explanations of each instruction.
+The hello-solana-asm repository by Dean Little demonstrates
+a complete sBPF assembly program built with Clang,
+including `.rodata` usage and the Solana SDK's LLVM toolchain.
 The Anchor framework provides a higher-level abstraction
 over Rust-based Solana program development
 for teams that do not require assembly-level control.
@@ -444,20 +705,24 @@ is a related skill that uses the same instruction set knowledge in the opposite 
 ## References
 
 - [Reference, Agave CLI Documentation][reference_agave_cli]
+- [Reference, hello-solana-asm][reference_hello_solana_asm]
 - [Reference, sbpf Tool][reference_sbpf]
 - [Reference, sbpf-assembler][reference_sbpf_assembler]
 - [Reference, Solana Program Limitations][reference_solana_limitations]
 - [Reference, Solana Programs Documentation][reference_solana_programs]
+- [Reference, solana-upstream-bpf-template][reference_upstream_bpf_template]
 - [Research, Assembly 101][research_assembly_101]
 - [Research, How to Write Solana Programs with sBPF Assembly][research_helius_sbpf]
 - [Research, sBPF Linker Breakpoint 2025][research_sbpf_linker]
 - [Research, The Solana eBPF Virtual Machine][research_solana_ebpf_vm]
 
 [reference_agave_cli]: https://docs.anza.xyz/cli/
+[reference_hello_solana_asm]: https://github.com/deanmlittle/hello-solana-asm
 [reference_sbpf]: https://github.com/blueshift-gg/sbpf
 [reference_sbpf_assembler]: https://crates.io/crates/sbpf-assembler
 [reference_solana_limitations]: https://solana.com/docs/programs/limitations
 [reference_solana_programs]: https://solana.com/docs/core/programs
+[reference_upstream_bpf_template]: https://github.com/blueshift-gg/solana-upstream-bpf-template
 [research_assembly_101]: https://learn.blueshift.gg/en/courses/introduction-to-assembly/assembly-101
 [research_helius_sbpf]: https://www.helius.dev/blog/sbpf-assembly
 [research_sbpf_linker]: https://blueshift.gg/research/sbpf-linker-breakpoint-2025
