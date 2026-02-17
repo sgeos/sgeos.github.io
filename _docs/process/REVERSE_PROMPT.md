@@ -9,43 +9,58 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-17
-**Task**: A92-P5 Revise Cryptotelemeritocracy for Space Exploitation
+**Task**: A86-P2 Publish Mission Command Management Style
 
 ---
 
 ## Verification
 
-### Article Content
+### Publication
 
-- Article A92, "Cryptotelemeritocracy for Space Exploitation," dated 2026-02-23, categories: space management philosophy. MathJax enabled. 1745 lines.
-- **Birch Planet cross-reference corrected**: "objective 8" changed to "objective 6." The Birch Planet is telos item 6 ("Build a Birch Planet around the Galaxy's central supermassive black hole"). The previous text incorrectly referenced objective 8, which is "Launch interstellar probes."
+- A86, "Mission Command Management Style," published to `_posts/2026-02-18-mission_command_management_style.markdown`.
+- Date: 2026-02-18. Categories: management philosophy.
+- Draft summary updated: 16 files, 6 RCs, 0 stubs.
+- A87 (Telemeritocracy) dependency on A86 is now satisfied.
 
-### Reference URLs
+---
 
-- No new references added. All 20 URLs verified in prior passes.
+## Release Announcement
+
+New Blog Post: Mission Command Management Style
+
+Most management style quizzes classify leaders as democratic, coaching, or transformational, but none of them have a category for "I give you objectives and constraints, you give me results." That doctrine has a name: mission command.
+
+This article traces mission command from its origins in the 1806 Prussian defeat at Jena through Scharnhorst, Clausewitz, and Moltke to the modern US Army codification in ADP 6-0. It examines why standard management frameworks fail to capture this approach and explores its application to engineering and scientific teams.
+
+Key takeaways:
+- Mission command is a doctrine, not a personality trait, built on six principles including commander's intent, disciplined initiative, and mutual trust.
+- Four standard management frameworks (Lewin, Goleman, Blake-Mouton, Hersey-Blanchard) all fail to capture mission command because they classify styles by behavioral tendencies rather than structural commitments.
+- Civilian adaptations at Netflix, Spotify, and through Bungay and Marquet demonstrate that the core principles transfer to engineering organizations when the prerequisites of trust, competence, and clear intent are met.
+
+You can read the full article here:
+https://sgeos.github.io/management/philosophy/2026/02/18/mission_command_management_style.html
+
+Let me know your thoughts. I would love to hear about how you define objectives and constraints for your own teams!
+
+#MissionCommand #Leadership #Management #Engineering #Auftragstaktik #OrganizationalDesign #TeamLeadership
 
 ---
 
 ## Questions for Human Review
 
-- No questions. This was a single cross-reference correction.
+- No questions. Straightforward publication.
 
 ---
 
 ## Notes
 
 - Next available article number: A93.
-- 7 release candidates: A86 "Mission Command Management Style," A87 "Telemeritocracy," A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies," A91 "Concentrated Liquidity Market Maker Mathematics," A92 "Cryptotelemeritocracy for Space Exploitation."
+- 6 release candidates: A87 "Telemeritocracy," A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies," A91 "Concentrated Liquidity Market Maker Mathematics," A92 "Cryptotelemeritocracy for Space Exploitation."
 - 0 stubs.
 - 8 pre-release candidates: Android Development on FreeBSD, Android Unit Testing, Claude Code on FreeBSD, Claude Code on OpenBSD, Claude Code Over SSH, Phoenix JSON API Authentication with Guardian and Ueberauth, Solana sBPF Assembly Example, Getting Started with Solana Using Rust and Pinocchio.
-- Publication order dependency: A86 before A87 before A89 before A92. A88, A90, and A91 have no dependencies.
+- Publication order dependency: A87 before A89 before A92. A88, A90, and A91 have no dependencies.
 - Publication order dependency: FreeBSD Claude Code article before OpenBSD Claude Code article.
 - Publication order dependency: Android FreeBSD article and CLMM Mathematics (A91) before Android Unit Testing article.
-- SSH article has no publication dependency on other articles.
-- Phoenix Guardian article has no publication dependency on other unpublished articles. References published article A27 via post_url.
-- Solana sBPF article has no publication dependency on other unpublished articles.
-- Solana Pinocchio article has no publication dependency on other unpublished articles. References published article A65 via post_url.
-- A86 publication date: 2026-02-18.
 - A88 publication date: 2026-02-17.
 - A87 publication date: 2026-02-19.
 - A89 publication date: 2026-02-20.
