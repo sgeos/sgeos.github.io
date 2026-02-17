@@ -8,32 +8,27 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise Solana sBPF Assembly Example (A0-P12)
+**Name**: Add Named Constants to Solana sBPF Assembly Example (A0-P13)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] ASM uses `.rodata` section with `lddw` address loading.
-- [x] Linked object file example with Rust entrypoint passing "Rust" to ASM logging subroutine.
-- [x] ASM subroutine logs "Hello sBPF from Rust!" using sol_log_ syscall.
-- [x] `build.rs` demonstrates Solana SDK Clang and llvm-ar pipeline.
-- [x] New references folded in.
+- [x] ASM uses `.equ` named constants, defined with comments at the top of each file.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A0-P12-T1 | Revise Hello World to use .rodata | Complete | Replaced stack-based string storage with `.rodata` section. `lddw r1, message` loads address. `.ascii` directive stores bytes. Code explanation updated. |
-| A0-P12-T2 | Add linked Rust+ASM subsection | Complete | New subsection "Linking Assembly into a Rust Project with build.rs" at end of Mixed Rust and Assembly Projects. log_hello.s with callee-saved register management, byte copy loop, sol_log_ call. Rust entrypoint with extern "C" FFI. build.rs with Solana SDK tool discovery. Cargo.toml. Caveat paragraph. |
-| A0-P12-T3 | Update references and prose | Complete | Added hello-solana-asm and solana-upstream-bpf-template references (11 total). Updated opening paragraph, Future Reading, and limitation #9. |
-| A0-P12-T4 | Verify reference URLs | Complete | 2 new URLs verified. |
-| A0-P12-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A0-P13-T1 | Add named constants to main.s | Complete | `.equ MESSAGE_LEN, 12` and `.equ SUCCESS, 0` defined with inline comments. Code explanation updated to describe `.equ` directive. |
+| A0-P13-T2 | Add named constants to log_hello.s | Complete | 15 `.equ` constants defined: SUCCESS, SAVE_R6/R7/R8, MESSAGE_0-3, MESSAGE_4, BASE_MESSAGE_LEN, PREFIX_OFFSET/4/8/12, NAME_OFFSET. All non-0/1/-1 literals replaced. Explanation prose updated. |
+| A0-P13-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
 - No article number assigned per PROMPT.md directive. Not slotted for publication.
-- Linked object file example is a theoretical solution for manual verification.
+- `.equ` syntax confirmed in sbpf tool examples and Clang's GAS-compatible assembler.
+- Memory operands use `[r10+CONSTANT]` form with negative constant values.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -71,3 +66,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-16 | A0-P10: "Solana sBPF Assembly Example" finished from partial draft. Rewritten with correct sBPF ISA and sbpf toolchain (9 references). Mixed Rust/assembly state documented. File renamed. Draft summary synced. |
 | 2026-02-16 | A0-P11: "Getting Started with Solana Using Rust and Pinocchio" drafted (12 references). Mirrors A65 key pegboard with Pinocchio. Mollusk tests, comparison table. Draft summary synced. |
 | 2026-02-16 | A0-P12: "Solana sBPF Assembly Example" revised with .rodata section and linked Rust+ASM object file example (11 references). build.rs with Solana SDK Clang. Draft summary synced. |
+| 2026-02-16 | A0-P13: "Solana sBPF Assembly Example" revised with .equ named constants in main.s and log_hello.s. All non-0/1/-1 literals replaced. Draft summary synced. |

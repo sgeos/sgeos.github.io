@@ -204,6 +204,9 @@ and invokes the `sol_log_` syscall to print it.
 `src/main.s` full listing
 
 ```asm
+.equ MESSAGE_LEN, 12 # length of "Hello, sBPF!"
+.equ SUCCESS, 0       # successful program execution
+
 .globl entrypoint
 entrypoint:
     # Load the address of the message string into r1.
@@ -211,11 +214,11 @@ entrypoint:
 
     # Load the message length into r2.
     # sol_log_ takes a pointer in r1 and a length in r2.
-    mov64 r2, 12
+    mov64 r2, MESSAGE_LEN
     call sol_log_
 
     # Exit with success (return code 0).
-    mov64 r0, 0
+    mov64 r0, SUCCESS
     exit
 
 .rodata
@@ -225,23 +228,31 @@ message:
 
 The program performs the following operations.
 
-1. The `.rodata` section declares read-only data that is embedded in the program binary.
+1. The `.equ` directive defines named constants at the top of the file.
+`MESSAGE_LEN` holds the byte length of the string,
+and `SUCCESS` represents the return code for successful execution.
+These constants produce no object code and are resolved at assembly time.
+The sbpf assembler supports the same `.equ` syntax as the GNU Assembler (GAS),
+following the convention `.equ NAME, value` with an optional inline `#` comment.
+Named constants use SCREAMING_SNAKE_CASE by convention.
+
+2. The `.rodata` section declares read-only data that is embedded in the program binary.
 The `message` label marks the start of the string,
 and the `.ascii` directive stores the raw bytes of "Hello, sBPF!" without a null terminator.
 A null terminator is not required because `sol_log_` uses an explicit length argument.
 The sbpf assembler supports `.ascii`, `.byte`, `.short`, `.word`, `.int`, `.long`, and `.quad`
 directives in `.rodata` sections but does not support `.asciz` or `.string`.
 
-2. The `lddw r1, message` instruction loads the 64-bit address of the `message` label into register r1.
+3. The `lddw r1, message` instruction loads the 64-bit address of the `message` label into register r1.
 This is a wide immediate load that the assembler resolves
 to the address of the string in the `.rodata` section of the compiled ELF binary.
 
-3. The `sol_log_` syscall is invoked with two arguments.
+4. The `sol_log_` syscall is invoked with two arguments.
 Register r1 contains the pointer to the string in the `.rodata` section.
-Register r2 receives the length of the string in bytes.
+Register r2 receives `MESSAGE_LEN` as the length of the string in bytes.
 The syscall prints the message to the Solana runtime log.
 
-4. The program exits with return code 0 in register r0,
+5. The program exits with return code `SUCCESS` in register r0,
 indicating successful execution.
 
 ### Building
@@ -409,34 +420,56 @@ and calls `sol_log_` to print it.
 `src/log_hello.s` full listing
 
 ````asm
+# Return codes.
+.equ SUCCESS, 0                # successful execution
+
+# Callee-saved register save slots.
+.equ SAVE_R6, -8               # r6 save position on stack
+.equ SAVE_R7, -16              # r7 save position on stack
+.equ SAVE_R8, -24              # r8 save position on stack
+
+# Message prefix "Hello sBPF from " as little-endian 32-bit words.
+.equ MESSAGE_0, 0x6c6c6548     # "Hell"
+.equ MESSAGE_1, 0x4273206f     # "o sB"
+.equ MESSAGE_2, 0x66204650     # "PF f"
+.equ MESSAGE_3, 0x206d6f72     # "rom "
+
+# Message suffix and length.
+.equ MESSAGE_4, 0x21            # "!"
+.equ BASE_MESSAGE_LEN, 17      # prefix (16) + suffix (1)
+
+# Stack buffer layout offsets.
+.equ PREFIX_OFFSET, -88        # message buffer start on stack
+.equ PREFIX_OFFSET_4, -84      # prefix byte 4
+.equ PREFIX_OFFSET_8, -80      # prefix byte 8
+.equ PREFIX_OFFSET_12, -76     # prefix byte 12
+.equ NAME_OFFSET, -72          # name start position in buffer
+
 .globl log_hello
 log_hello:
     # Arguments: r1 = pointer to name, r2 = length of name.
     # Logs "Hello sBPF from <name>!" to the Solana runtime.
 
     # Save callee-saved registers.
-    stxdw [r10-8], r6
-    stxdw [r10-16], r7
-    stxdw [r10-24], r8
+    stxdw [r10+SAVE_R6], r6
+    stxdw [r10+SAVE_R7], r7
+    stxdw [r10+SAVE_R8], r8
 
     # Save arguments.
     mov64 r6, r1
     mov64 r7, r2
 
     # Store prefix "Hello sBPF from " (16 bytes) on the stack.
-    # Little-endian 4-byte words:
-    # "Hell" = 0x6c6c6548, "o sB" = 0x4273206f
-    # "PF f" = 0x66204650, "rom " = 0x206d6f72
-    mov32 r1, 0x6c6c6548
-    stxw [r10-88], r1
-    mov32 r1, 0x4273206f
-    stxw [r10-84], r1
-    mov32 r1, 0x66204650
-    stxw [r10-80], r1
-    mov32 r1, 0x206d6f72
-    stxw [r10-76], r1
+    mov32 r1, MESSAGE_0
+    stxw [r10+PREFIX_OFFSET], r1
+    mov32 r1, MESSAGE_1
+    stxw [r10+PREFIX_OFFSET_4], r1
+    mov32 r1, MESSAGE_2
+    stxw [r10+PREFIX_OFFSET_8], r1
+    mov32 r1, MESSAGE_3
+    stxw [r10+PREFIX_OFFSET_12], r1
 
-    # Copy name bytes to the stack at [r10-72].
+    # Copy name bytes to the stack at NAME_OFFSET.
     mov64 r8, 0
 copy_loop:
     jge r8, r7, copy_done
@@ -444,47 +477,58 @@ copy_loop:
     add64 r3, r8
     ldxb r1, [r3+0]
     mov64 r3, r10
-    add64 r3, -72
+    add64 r3, NAME_OFFSET
     add64 r3, r8
     stxb [r3+0], r1
     add64 r8, 1
     ja copy_loop
 copy_done:
 
-    # Store "!" after the name.
+    # Store MESSAGE_4 ("!") after the name.
     mov64 r3, r10
-    add64 r3, -72
+    add64 r3, NAME_OFFSET
     add64 r3, r7
-    mov32 r1, 0x21
+    mov32 r1, MESSAGE_4
     stxb [r3+0], r1
 
     # Call sol_log_ with the complete message.
-    # Total length = 16 (prefix) + name_length + 1 ("!").
+    # Total length = BASE_MESSAGE_LEN + name_length.
     mov64 r1, r10
-    add64 r1, -88
-    mov64 r2, 17
+    add64 r1, PREFIX_OFFSET
+    mov64 r2, BASE_MESSAGE_LEN
     add64 r2, r7
     call sol_log_
 
     # Restore callee-saved registers.
-    ldxdw r6, [r10-8]
-    ldxdw r7, [r10-16]
-    ldxdw r8, [r10-24]
+    ldxdw r6, [r10+SAVE_R6]
+    ldxdw r7, [r10+SAVE_R7]
+    ldxdw r8, [r10+SAVE_R8]
 
-    mov64 r0, 0
+    mov64 r0, SUCCESS
     exit
 
 .extern sol_log_
 ````
 
+Named constants are defined at the top of the file using `.equ` directives.
+The `MESSAGE_0` through `MESSAGE_3` constants hold the little-endian 32-bit words
+that compose the 16-byte prefix "Hello sBPF from ".
+`MESSAGE_4` holds the trailing exclamation mark,
+and `BASE_MESSAGE_LEN` encodes the combined length of the prefix and suffix.
+Stack frame offsets for callee-saved register slots (`SAVE_R6` through `SAVE_R8`)
+and buffer layout positions (`PREFIX_OFFSET` through `NAME_OFFSET`)
+replace numeric literals throughout the function body.
+Memory operands use the form `[r10+CONSTANT]`
+where the assembler evaluates the negative constant value at assembly time.
+
 The function saves callee-saved registers r6 through r8 on entry
 and restores them before returning,
 following the sBPF calling convention.
-The 16-byte prefix "Hello sBPF from " is stored on the stack
-as four little-endian 4-byte words.
+The 16-byte prefix is stored on the stack
+as four words using the `MESSAGE_0` through `MESSAGE_3` constants.
 The name bytes are copied one at a time from the caller-provided pointer
 using a loop with `ldxb` and `stxb` instructions.
-After the name, an exclamation mark is appended to complete the message.
+After the name, `MESSAGE_4` is appended to complete the message.
 
 The assembly file uses Clang syntax rather than `sbpf` tool syntax.
 The `jge` and `ja` instructions use label-based branches,

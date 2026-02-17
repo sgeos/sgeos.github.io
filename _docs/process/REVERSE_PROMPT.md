@@ -9,57 +9,42 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-16
-**Task**: A0-P12 Revise Solana sBPF Assembly Example
+**Task**: A0-P13 Add Named Constants to Solana sBPF Assembly Example
 
 ---
 
 ## Verification
 
-### .rodata Section Revision
+### Named Constants in main.s (sbpf tool syntax)
 
-- Hello World program in `src/main.s` revised to use `.rodata` section.
-- String "Hello, sBPF!" declared with `.ascii` directive under a `message:` label.
-- `lddw r1, message` loads the 64-bit address of the string into r1.
-- Previous stack-based approach (mov32/stxw pattern) replaced entirely.
-- Code explanation updated to describe `.rodata`, `.ascii`, and `lddw` instructions.
-- Noted that the sbpf assembler supports `.ascii`, `.byte`, `.short`, `.word`, `.int`, `.long`, `.quad` but not `.asciz` or `.string`.
+- Two `.equ` constants defined at the top of the file with inline `#` comments.
+- `MESSAGE_LEN` = 12, the byte length of "Hello, sBPF!".
+- `SUCCESS` = 0, the return code for successful program execution.
+- `mov64 r2, MESSAGE_LEN` replaces `mov64 r2, 12`.
+- `mov64 r0, SUCCESS` replaces `mov64 r0, 0`.
+- Code explanation updated with a new first point describing the `.equ` directive, GAS syntax, and SCREAMING_SNAKE_CASE convention.
 
-### Linked Rust and Assembly Object File Example
+### Named Constants in log_hello.s (Clang syntax)
 
-- New subsection "Linking Assembly into a Rust Project with build.rs" added at the end of "Mixed Rust and Assembly Projects."
-- Project structure: `src/lib.rs` (Rust entrypoint), `src/log_hello.s` (sBPF assembly), `build.rs`, `Cargo.toml`.
-- Assembly function `log_hello` accepts pointer and length arguments, constructs "Hello sBPF from {name}!" on the stack, calls `sol_log_`.
-- Callee-saved registers r6-r8 saved on entry and restored before exit.
-- 16-byte prefix stored as four little-endian 4-byte words.
-- Name bytes copied via a loop using `ldxb`/`stxb` with computed addresses.
-- Exclamation mark appended after the name.
-- Rust entrypoint uses `#![no_std]`, `#![no_main]`, `extern "C" { fn log_hello(...); }`, passes `b"Rust"`.
-- `build.rs` discovers Solana SDK LLVM tools, invokes `clang -target sbf -march=bpfel+solana -c`, archives with `llvm-ar rcs`, emits `cargo:rustc-link-search` and `cargo:rustc-link-lib=static` directives.
-- Caveat paragraph clearly states this is a theoretical solution for manual verification.
-- Assembly uses Clang syntax with label-based branches.
-
-### References and Prose Updates
-
-- Added `hello-solana-asm` (deanmlittle/hello-solana-asm) as Reference.
-- Added `solana-upstream-bpf-template` (solana-developers/solana-upstream-bpf-template) as Reference.
-- Total references increased from 9 to 11 across two categories (Reference, Research).
-- Opening paragraph updated to mention `.rodata` section and linked object file approach.
-- Future Reading updated with hello-solana-asm repository mention.
-- Limitation #9 updated to note the `build.rs` theoretical approach alongside sbpf-linker.
+- Fifteen `.equ` constants defined at the top of the file, grouped by purpose with inline comments.
+- Return codes: `SUCCESS` = 0.
+- Callee-saved register save slots: `SAVE_R6` = -8, `SAVE_R7` = -16, `SAVE_R8` = -24.
+- Message prefix words: `MESSAGE_0` = 0x6c6c6548 ("Hell"), `MESSAGE_1` = 0x4273206f ("o sB"), `MESSAGE_2` = 0x66204650 ("PF f"), `MESSAGE_3` = 0x206d6f72 ("rom ").
+- Message suffix and length: `MESSAGE_4` = 0x21 ("!"), `BASE_MESSAGE_LEN` = 17.
+- Stack buffer layout: `PREFIX_OFFSET` = -88, `PREFIX_OFFSET_4` = -84, `PREFIX_OFFSET_8` = -80, `PREFIX_OFFSET_12` = -76, `NAME_OFFSET` = -72.
+- All non-0/1/-1 numeric literals replaced with named constants.
+- Memory operands use `[r10+CONSTANT]` form where the assembler evaluates negative constant values.
+- Explanation prose updated to describe the constant groups and usage pattern.
 
 ---
 
 ## Questions for Human Review
 
-- Verify that the sbpf assembler correctly handles the `.rodata` section with `.ascii` directive and `lddw r1, message` address loading. Build and deploy the Hello World program with `sbpf build` and `sbpf deploy`.
-- Verify that the `log_hello.s` assembly file assembles correctly with `clang -target sbf -march=bpfel+solana -c`. The Solana SDK's Clang version may differ from upstream LLVM.
-- Verify that label-based branches (`jge r8, r7, copy_done` / `ja copy_loop`) work with the Solana SDK's Clang. If not, replace with numeric offsets (`jge r8, r7, +8` / `ja -10`).
-- Verify the `build.rs` SDK path `~/.local/share/solana/install/active_release/bin/sdk/sbf/dependencies/platform-tools/llvm/bin`. This assumes the default `solana-install` location.
-- Verify that `cargo build-sbf` correctly links the static archive produced by the `build.rs` script. The Solana linker must resolve the `sol_log_` external symbol from the assembly object file.
-- Verify that the `extern "C" { fn log_hello(...); }` FFI declaration in the Rust entrypoint matches the assembly function's calling convention for the SBF target.
-- Verify that the `custom_panic` handler is required and sufficient for `#![no_std]` programs targeting the Solana runtime via `cargo build-sbf`.
-- The `.extern sol_log_` directive in the assembly file declares the syscall as an external symbol. Verify that the Solana linker resolves this during the final linking stage when assembling with Clang rather than the sbpf tool.
-- The `Cargo.toml` has no runtime dependencies. Verify that `cargo build-sbf` can produce a valid program binary from a `cdylib` crate with only a raw `entrypoint` function and no `solana-program` dependency.
+- Verify that the sbpf assembler correctly resolves `.equ` constants in immediate operands like `mov64 r2, MESSAGE_LEN`. The sbpf CPI example confirms `.equ` usage, but not with `mov64` specifically.
+- Verify that Clang's eBPF assembler correctly resolves `.equ` constants with negative values in memory operands. The form `[r10+SAVE_R6]` where `SAVE_R6 = -8` should evaluate to `[r10-8]`, but this depends on the assembler's expression evaluator. The sbpf tool examples only show positive `.equ` values in memory operands.
+- Verify that `.equ` constants defined before `.globl` and the function label are visible within the function body for both the sbpf assembler and Clang. GAS convention places `.equ` definitions before their use, which this code follows.
+- The inline comment syntax `.equ NAME, value # comment` follows GAS convention. Verify that both the sbpf assembler and Clang accept `#` comments on `.equ` lines.
+- All prior verification questions from A0-P12 remain applicable regarding the linked object file example, `.rodata` usage, and build.rs pipeline.
 
 ---
 
