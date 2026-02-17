@@ -267,6 +267,35 @@ Nineteen references across four categories (Book, Reference, Related Post, Resea
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A87 must be published before A89.
 
+### Cryptotelemeritocracy for Space Exploitation — Release Candidate
+
+**File**: `cryptotelemeritocracy_for_space_exploitation.markdown`
+**Article**: A92, "Cryptotelemeritocracy for Space Exploitation"
+**Topic**: Applying cryptotelemeritocratic governance to a multigenerational space exploitation enterprise
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article applying the cryptotelemeritocratic governance model (A89)
+to a multigenerational space exploitation enterprise
+whose telos spans Mercury colonization through intergalactic expansion.
+Enumerates the complete telos as a progression through the Kardashev scale
+from late Type I through Type II to Type III civilization.
+Covers near-term goals including lunar mass driver, Venus aerostat colonies,
+Mercury colonization, and Mercury cannibalization for Dyson Swarm construction.
+Presents the corporate structure as a profit-maximizing innovation engine
+with convertible shares and a spinoff mechanism for shedding solved problems.
+Assesses cryptotelemeritocracy's suitability across four expansion phases,
+from near-term Earth-Moon-Venus operations through intergalactic expansion.
+Analyzes covert seeding during expansion, the spinoff mechanism's relationship
+to Michels' iron law of oligarchy, counter-espionage properties in space,
+and five space-specific failure modes.
+References A89 and A90 via post_url.
+Thirteen references across four categories (Book, Reference, Related Post, Research).
+
+**Remaining Work**:
+Human review, URL verification, and final proofread before publication. A89 must be published before A92.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -394,8 +423,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Seventeen files exist in `_drafts/`. One is a template.
+Seven drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A85 have been published.
 Writing Proofs (A79) has been published.
@@ -408,11 +437,13 @@ Telemeritocracy (A87),
 Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
-and Concentrated Liquidity Market Maker Mathematics (A91) have been fully drafted
+Concentrated Liquidity Market Maker Mathematics (A91),
+and Cryptotelemeritocracy for Space Exploitation (A92) have been fully drafted
 and are awaiting human review before publication.
 A87 references A86 via post_url. A89 references A87 via post_url.
+A92 references A89 and A90 via post_url.
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
-Publication order dependency: A86 before A87 before A89.
+Publication order dependency: A86 before A87 before A89 before A92.
 A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
