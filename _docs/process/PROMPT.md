@@ -29,57 +29,93 @@ Incorporate research material into the references, and consider including it in 
 reading section.
 Note that this article has neither a length nor a reference cap.
 
-### Galaxy Scale Dyson Swarm Equivalent
+### Foreshadow in Introduction
 
-This has a name.
-Please research it, and use the proper name.
-Explain the properties of the structure, and the advantages of building it.
+Add a short “preview thesis” paragraph at the end of the introduction:
 
-### Venus Colonization
+- Near-term: highly compatible
+- Mid-term: federated viable
+- Interstellar: devolves into local instances
+- Intergalactic: becomes memetic
 
-Water can be imported from comets, asteroids, or things like TNOs.
-Earth's water should stay on Earth,
-and celestial bodies like the Moon are too dry for exports.
+### Telos
 
-### Mercury Colonization
+The structure is more than approximate. It is hierarchical and phase-dependent.
+Explicitly classifying objectives as:
 
-The reverse prompt had verification requests for things like Mercury's composition.
-The truth is, we do not know.
-This applies to more than just the Mercury section,
-but the best way to handle quantitative claims is to say:
-"According to [source], [feature] has estimated [quantity]."
+- Infrastructure-enabling
+- Energy-scaling
+- Expansion-propagating
+- Defensive
 
-### Reverse Conglomerate Appreciation
+The flat numbered list undersells the structure.
 
-Value capture is through excess pledges.
-The service agree is a separate value maximization mechanism.
-Not sure if parent company is the right word because the new company is not a subsidiary.
+### Kardashev Framing
 
-### Suitability of Cryptotelemeritocracy: Spinoff Fragmentation
+Note:
+The farther the telos moves beyond Type III,
+the more governance shifts from resource scaling to civilizational continuity.
 
-Once a spinoff is shed, it is an independent entity that is no longer bound to the telos.
-The new operators can adopt some flavor of a telocracy with a different telos,
-or a completely different governance structure whatsoever.
-This is one of the benefits of the spinoff model.
-For example, and asteroid mining division under a Dyson Swarm production telos
-likely does not have the freedom to become the best asteroid mining company in the solar system.
-It might, but an independent operation can pull in capital to optimize a narrow mission.
+### Mass Driver Formula
 
-### Suitability of Cryptotelemeritocracy: Profit Versus Telos Tension
+A mass driver does not necessarily need to reach $v_e$
+if it is only launching into a specific orbit.
+For Mercury transport, greater than escape velocity is required.
+Launched objects need propellant for deceleration.
 
-The proposed governance strategy is cryptotelemeritocracy.
-Exceeding Kardashev Type III is the succint telos.
-Profit maximization is a means to that end.
-It does not matter how profitable running the Sun is, the goal is to expand.
+### Mercury Colonization: Mercury Cannibalization for the Dyson Swarm
 
-### Covert Seeding During Expansion
+This is a major conceptual inflection point,
+and it is surprisingly brief relative to its importance.
 
-Do not mention `PROMPT.md`. This goes for the entire article.
+- This is where the telos becomes irreversible.
+- Cannibalizing Mercury is a point-of-no-return commitment.
+- Governance stability becomes existentially important once planetary-scale disassembly begins.
 
-### Include MathJax
+### Corporate Structure: Spinoff Mechanism, Value of Shares
 
-Use equations when they can explain economic and physical realities that support the thesis.
-The thesis is "cryptotelemeritocracy" can take humanity past Kardashev Type III.
+This is the new share value for originating corporation.
+
+$$V_{share} = \frac{V_{total} - V_{spinoff}}{N - P}$$
+
+The key point is that $V_{total} - V_{spinoff}$ is fixed.
+Great $P$ concentrates $$V_{share}$ while diluting the nominal value
+of the pledged shares that presumably indicate ownership fraction in
+the spinoff corporation.
+This is not necessarily a problem, because every pledge is for partial
+ownership of a solved, revenue generating solution.
+The appreciation per remaining share is:
+
+$$\Delta V_{share} = \frac{V_{total} - V_{spinoff}}{N \cdot (N - P)} - \frac{V_{total}}{N}$$
+
+Note that the market will revalue both companies such that:
+
+$$V_{remaining} \neq V_{total} - V_{spinoff}$$
+
+In principle, the originating corporation is only concerned about maximizing
+$\Delta V_{share}$ from the standpoint of pre-split pledge incentivization.
+In other word, the goal is to maximize $P$ and minimize $\frac{V_{spinoff}}{P}$.
+
+Service contracts are separate in theory, but important terms of the split.
+
+### Why This Telos Demands Anonymous Oversight
+
+"This freedom to specialize is one of the benefits of the spinoff model,
+but the proliferation of independent entities also increases the surface area
+for mission drift from the perspective of the originating enterprise."
+
+The parent company sheds mission drift with the solved problems.
+Select personnel and investors are more interested in optimizing the
+spinoff than focusing on the originating telos, and that is OK.
+The originating corporation shed them, maximizes value, and focuses.
+$Delta V_{share}$ quantifies the focus,
+and $V_{remaining}$ quantifies the market's opinion of the refocusing.
+
+### Governance Half-Life Concept
+
+Governance Coherence Half-Life (GCH)
+Time required for 50% interpretive divergence between isolated nodes.
+This give quantitative structure to the memetic phase argument.
 
 ## Context
 
