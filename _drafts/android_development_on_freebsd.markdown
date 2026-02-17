@@ -2,300 +2,914 @@
 layout: post
 mathjax: false
 comments: true
-title:  "Android Development on FreeBSD"
-date:   2017-01-27 10:06:31 +0000
-categories: android freebsd
+title: "Android Development on FreeBSD"
+date: 2026-02-23 00:01:00 +0000
+categories: android freebsd rust
 ---
 
-TODO: Modernize this post. Update FreeBSD version from 11 to 14. Update Android SDK from 25 to current. Update NDK from r13b to current. Replace legacy Liquid highlight tags with fenced code blocks. Verify that the Linux emulation approach still works with current Android command line tools. Replace deprecated `android update sdk` commands with `sdkmanager`. Verify or replace FreeBSD JAR patching approach. Update or remove dead references.
+<!-- Axxx -->
 
-This post covers Android SDK and NDK setup on FreeBSD using the Linux emulation layer.
+This post covers Android SDK and NDK development on FreeBSD using the Linux binary compatibility layer.
 FreeBSD does not have native Android toolchain support,
-but the Linux binary compatibility layer allows the standard Linux Android toolchain to run on FreeBSD.
-This approach is useful for serverside APK builds
-or for developers who prefer FreeBSD as their primary development environment.
+but the Linuxulator allows standard Linux Android SDK and NDK binaries to run on FreeBSD.
+This approach enables building, signing, and deploying Android APKs
+from a FreeBSD development workstation using only command-line tools.
 
-The post is organized into three parts.
-The first part covers FreeBSD Linux emulation layer setup.
-The second part covers Android SDK and NDK installation using a shell script.
-The third part covers ADB setup and build verification.
+The post is organized into five parts.
+The first part covers environment setup including the Linuxulator, Android SDK, NDK, and Rust toolchain.
+The second part covers SDK development with a Kotlin Android application.
+The third part covers NDK development by adding a Rust native library exposed through the Java Native Interface (JNI).
+The fourth part covers emulator feasibility.
+The fifth part covers a sample application that ports the
+[Concentrated Liquidity Market Maker (CLMM) calculator][related_post_clmm]
+to a native Android app.
+
+The development workflow is entirely command-line driven.
+Android Studio is not used.
+The Android emulator is out of scope and is not supported on FreeBSD.
+All testing is performed on physical hardware connected via the Android Debug Bridge (ADB).
 
 ## Software Versions
 
-{% highlight sh %}
+```sh
+# Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-FreeBSD 11.0-RELEASE-p1 #0 r306420: Thu Sep 29 01:43:23 UTC 2016     root@releng2.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC  amd64
+2026-02-23 00:01:00 +0000
+
+# OS and Version
 $ uname -vm
-2017-01-27 10:06:31 +0000
-{% endhighlight %}
+TODO
 
-## Instructions
+# Java
+$ java -version
+TODO
 
-### Linux Emulation Layer
+# Gradle
+$ gradle --version | head -n 3
+TODO
 
-On a fresh FreeBSD install, the ports tree may need to be installed and some basic utilities may handy.
-Your needs and preferences may vary.
+# Android SDK
+$ sdkmanager --version
+TODO
 
-**sh**
-{% highlight sh %}
-pkg install vim screen
-portsnap fetch extract
-{% endhighlight %}
+# Android NDK
+$ ls $ANDROID_HOME/ndk/
+TODO
 
-The Android SDK can be used on FreeBSD, but it relies on the Linux emulation layer.
-Furthermore, recent versions of the SDK use 64 bit binaries.
-FreeBSD 10.3 and newer support 64 bit Linux emulation, but the base Linux utilities need to be installed separately.
-The **linux_base** ports will install the 64 bit utilities if a 64 environment is detected.
+# Rust
+$ rustc --version
+TODO
 
-The package will only install the 32 bit utilities, so **linux_base** must be built from source using the package.
-Also, newer utilities seems to be required.
-The upshot is that **linux_base-c7** should be installed.
-Execute the following as root to install **linux_base-c7** with 64-bit support.
+# cargo-ndk
+$ cargo ndk --version
+TODO
 
-**sh**
-{% highlight sh %}
-kldload linux linux64
-pkg install bash git gradle python wget rpm4
-ln -s /usr/local/bin/bash /bin/bash
-echo "# 64-bit Linux" >> /etc/make.conf
-echo "DEFAULT_VERSIONS+=linux=c7_64" >> /etc/make.conf
-echo "OVERRIDE_LINUX_NONBASE_PORTS=c7_64" >> /etc/make.conf
-(cd /usr/ports/emulators/linux_base-c7 && make install distclean)
-printf "linprocfs\t\t/compat/linux/proc\tlinprocfs\trw\t\t0\t0\n" >> /etc/fstab
-printf "tmpfs\t\t\t/compat/linux/dev/shm\ttmpfs\t\trw,mode=1777\t0\t0\n" >> /etc/fstab
-echo 'linux_enable="YES"' >> /etc/rc.conf
+# ADB
+$ adb --version
+TODO
+```
+
+## Environment Setup
+
+### Linux Binary Compatibility
+
+FreeBSD provides optional binary compatibility with Linux through the Linuxulator.
+The Linuxulator is not emulation.
+It translates Linux system calls into FreeBSD equivalents at the kernel level,
+allowing unmodified Linux binaries to run at near-native speed.
+
+Android SDK and NDK packages are distributed as Linux binaries.
+The Linuxulator makes it possible to run these tools directly on FreeBSD.
+Java, Gradle, and Rust run natively on FreeBSD through their respective ports.
+
+Enable the Linuxulator and install the Rocky Linux 9 base as root.
+
+```sh
+# Load kernel modules
+kldload linux64
+
+# Enable on boot
+sysrc linux_enable="YES"
+
+# Install Rocky Linux 9 base (current default)
+pkg install linux_base-rl9
+
+# Start the service
+service linux start
+```
+
+Add the required filesystem mounts to `/etc/fstab`.
+
+`/etc/fstab` partial listing
+```
+linprocfs       /compat/linux/proc      linprocfs       rw              0       0
+linsysfs        /compat/linux/sys       linsysfs        rw              0       0
+tmpfs           /compat/linux/dev/shm   tmpfs           rw,mode=1777    0       0
+```
+
+Mount the filesystems.
+
+```sh
 mount /compat/linux/proc
+mount /compat/linux/sys
 mount /compat/linux/dev/shm
-{% endhighlight %}
+```
 
-### Android SDK and NDK Installation
+### Java and Build Tools
 
-A script to install the Android build tools looks something like this.
-The components to install are toward the end of the script.
-The script handles SDK and NDK installation, FreeBSD JAR patching, and ELF binary branding.
+Android development requires JDK 17 or later.
+Install the required packages as root.
 
-**android_install.sh** complete listing
-{% highlight sh %}
-#!/bin/sh
+```sh
+pkg install openjdk17 bash
+```
 
-: ${SDK_VERSION:="25.2.5"}
-: ${NDK_VERSION:="13b"}
-: ${BUILD_TOOLS_VERSION:="25.0.2"}
-: ${API_LEVEL:="25"}
-: ${SDK_URL:="https://dl.google.com/android/repository/tools_r${SDK_VERSION}-linux.zip"}
-: ${NDK_URL:="https://dl.google.com/android/repository/android-ndk-r${NDK_VERSION}-linux-x86_64.zip"}
-: ${ANDROID_SDK:="$HOME/android/sdk"}
-: ${ANDROID_NDK:="$HOME/android/ndk"}
-: ${ANDROID_HOME:="${ANDROID_SDK}"}
-: ${PATCH_HOME:="$HOME/projects/install/android-platform-tools-base"}
-: ${BOOTSTRAP:="false"}
-: ${NUKE_SDK:="false"}
-: ${NUKE_NDK:="false"}
+Gradle is needed once to bootstrap the project wrapper script.
+Download Gradle to a local tools directory as a regular user.
 
-export PATH="$ANDROID_NDK:$ANDROID_SDK/tools:$ANDROID_SDK/tools/bin:$ANDROID_SDK/platform-tools:$HOME/bin:$ANDROID_SDK/build-tools/$BUILD_TOOLS_VERSION:$PATH"
+```sh
+GRADLE_VERSION=8.12.1
+mkdir -p $HOME/tools
+curl -sL "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" \
+  -o /tmp/gradle.zip
+unzip /tmp/gradle.zip -d $HOME/tools/
+export PATH="$HOME/tools/gradle-${GRADLE_VERSION}/bin:$PATH"
+```
 
-TOP_DIRECTORY=$(pwd)
+After generating the Gradle wrapper in the project directory,
+the system-wide Gradle installation is no longer needed.
+The wrapper script downloads the correct Gradle version automatically.
 
-mod_executable() {
-  sh -c "find ${1} -maxdepth 1 -type f -print0" | xargs -0 -n 10 file | grep "${2}" | awk 'BEGIN { FS = ":" } ; {print $1}' | sh -c "xargs ${3}"
-}
+### Android SDK
 
-brand_executable() {
-  mod_executable "${1}" "ELF" "brandelf -t Linux"
-  mod_executable "${1}" "ELF" "chmod +x"
-  mod_executable "${1}" "script" "chmod +x"
-  #list_executable "${1}"
-}
+Download the Android command-line tools for Linux.
+The Linux version is used because the Linuxulator will run the native binaries.
 
-patch_tools() {
-  (cd ${PATCH_HOME} && javac ${PATCH_HOME}/common/src/main/java/com/android/SdkConstants.java)
-  (cd ${PATCH_HOME} && javac ${PATCH_HOME}/sdklib/src/main/java/com/android/sdklib/internal/repository/archives/ArchFilter.java -cp "sdklib/src/main/java:common/src/main/java:annotations/src/main/java")
-  (cd ${PATCH_HOME}/sdklib/src/main/java/ && jar uf ${ANDROID_HOME}/tools/lib/sdklib.jar com/android/sdklib/internal/repository/archives/ArchFilter.class)
-  (cd ${PATCH_HOME}/common/src/main/java && jar uf ${ANDROID_HOME}/tools/lib/common.jar com/android/SdkConstants.class)
-}
+```sh
+ANDROID_HOME=$HOME/android/sdk
+CMDLINE_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip"
 
-if [ "true" = "${BOOTSTRAP}" ]
-then
-  # SDK and NDK Directories
-  mkdir -p "${ANDROID_SDK}"
-  mkdir -p "${ANDROID_NDK}"
+mkdir -p $ANDROID_HOME/cmdline-tools
+curl -sL "$CMDLINE_TOOLS_URL" -o /tmp/cmdline-tools.zip
+unzip /tmp/cmdline-tools.zip -d $ANDROID_HOME/cmdline-tools/
+mv $ANDROID_HOME/cmdline-tools/cmdline-tools $ANDROID_HOME/cmdline-tools/latest
+```
 
-  # FreeBSD JAR Patch
-  rm -rf "${PATCH_HOME}"
-  mkdir -p "${PATCH_HOME}"
-  git clone https://android.googlesource.com/platform/tools/base "${PATCH_HOME}"
-  cd "${PATCH_HOME}"
-  PATCH_REPLACE='s/else if (os.startsWith("Linux"))/else if (os.startsWith("Linux") || os.startsWith("FreeBSD"))/'
-  sed -i.bak "${PATCH_REPLACE}" "common/src/main/java/com/android/SdkConstants.java"
-  sed -i.bak "${PATCH_REPLACE}" "sdklib/src/main/java/com/android/sdklib/internal/repository/archives/ArchFilter.java"
-  javac common/src/main/java/com/android/SdkConstants.java
-  javac sdklib/src/main/java/com/android/sdklib/internal/repository/archives/ArchFilter.java -cp "sdklib/src/main/java:common/src/main/java:annotations/src/main/java"
-  cd "${TOP_DIRECTORY}"
-fi
+The `sdkmanager` tool is a Java application and runs natively on FreeBSD.
+Use it to install the platform, build tools, and NDK.
 
-if [ "true" = "${NUKE_SDK}" ]
-then
-  echo "Replacing base Android SDK."
-  rm -rf "${ANDROID_SDK}"
-  curl -sLk "${SDK_URL}" | unzip - -d "${ANDROID_SDK}"
-  patch_tools
-  brand_executable "${ANDROID_SDK}/tools/"
-fi
+```sh
+export ANDROID_HOME=$HOME/android/sdk
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 
-# Latest Tools and Platform Tools, Specified Build Tools and Android API Level
-echo y | android update sdk --no-ui --all --filter "tools,platform-tools,build-tools-${BUILD_TOOLS_VERSION},android-${API_LEVEL}"
-patch_tools
-brand_executable "${ANDROID_SDK}/tools/"
-brand_executable "${ANDROID_SDK}/tools/bin/"
-brand_executable "${ANDROID_SDK}/platform-tools/"
-brand_executable "${ANDROID_SDK}/build-tools/*/"
+sdkmanager --sdk_root=$ANDROID_HOME \
+  "platforms;android-35" \
+  "build-tools;35.0.0" \
+  "ndk;28.0.12674087" \
+  "platform-tools"
+```
 
-# Other API Levels
-echo y | android update sdk --no-ui --all --filter "build-tools-25,build-tools-25.0.1,build-tools-25.0.2,android-25"
-echo y | android update sdk --no-ui --all --filter "build-tools-24,build-tools-24.0.1,build-tools-24.0.2,build-tools-24.0.3,android-24,addon-google_apis-google-24"
-echo y | android update sdk --no-ui --all --filter "build-tools-23,build-tools-23.0.1,build-tools-23.0.2,build-tools-23.0.3,android-23,addon-google_apis-google-23"
-brand_executable "${ANDROID_SDK}/build-tools/*/"
+Accept the license agreement when prompted.
 
-# Other Packages
-echo y | android update sdk --no-ui --all --filter "extra-google-google_play_services,extra-google-m2repository"
-echo y | android update sdk --no-ui --all --filter "extra-android-support,extra-android-m2repository"
+The packages downloaded by `sdkmanager` contain Linux ELF binaries for tools such as `aapt2`, `d8`, and the NDK toolchain.
+On FreeBSD 14, unbranded ELF binaries default to Linux execution through the Linuxulator.
+If any SDK tools fail to execute, apply explicit ELF branding.
 
-# Accept Licenses for Automatic Dependency Download
-mkdir -p "${ANDROID_HOME}/licenses"
-echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "${ANDROID_HOME}/licenses/android-sdk-license"
-echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "${ANDROID_HOME}/licenses/android-sdk-preview-license"
-
-# Stub for Unwritten NDK Installation Functionality
-if [ "true" = "${NUKE_NDK}" ]
-then
-  echo "Replacing Android NDK."
-  rm -rf "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}"
-  mkdir -p "${ANDROID_NDK}"
-  curl -sLk "${NDK_URL}" | unzip - -d "$(dirname ${ANDROID_NDK})"
-  rmdir "${ANDROID_NDK}"
-  ln -s "$(dirname ${ANDROID_NDK})/android-ndk-r${NDK_VERSION}" "${ANDROID_NDK}"
-  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools"
-  brand_executable "${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin"
-  echo "Installing CMake for Android NDK."
-  INSTALL_CMAKE_URL="https://github.com/Commit451/android-cmake-installer/releases/download/1.1.0/install-cmake.sh"
-  rm -rf "${ANDROID_HOME}/cmake"
-  curl -sLk "${INSTALL_CMAKE_URL}" | sh
-  CMAKE_DIRECTORY="$(cd ${ANDROID_HOME}/cmake/*/bin; pwd)"
-  brand_executable "${CMAKE_DIRECTORY}/cmake"
-  brand_executable "${CMAKE_DIRECTORY}/cpack"
-  brand_executable "${CMAKE_DIRECTORY}/ctest"
-  brand_executable "${CMAKE_DIRECTORY}/ninja"
-fi
-{% endhighlight %}
-
-Running for the first time.
-
-**sh**
-{% highlight sh %}
-chmod +x android_install.sh
-BOOTSTRAP=true NUKE_SDK=true NUKE_NDK=true ./android_install.sh
-{% endhighlight %}
+```sh
+find $ANDROID_HOME -type f -exec file {} + \
+  | grep "ELF" \
+  | cut -d: -f1 \
+  | xargs brandelf -t Linux 2>/dev/null
+```
 
 ### ADB Setup
 
-The version of **adb** installed with Android SDK did not work on FreeBSD for me.
-Luckily, there is a **devel/android-tools-adb-devel** port that does work.
-For what it is worth, at the time of writing this I can only get **adb** work as root on FreeBSD.
+The Linux version of ADB distributed with the Android SDK does not work reliably on FreeBSD.
+Install the native FreeBSD ADB from the `devel/android-tools` port instead.
 
-**sh**
-{% highlight sh %}
-pkg install android-tools-adb-devel
+```sh
+# As root
+pkg install android-tools
+```
+
+Verify that ADB detects a connected device.
+
+```sh
 adb devices
-# authorize the device if you need to
-adb shell input text "Hello,\ World!\ "
-{% endhighlight %}
+```
+
+If the device does not appear, enable USB debugging on the Android device
+and authorize the connection when prompted.
+ADB over TCP/IP is an alternative if USB ADB is unreliable.
+
+```sh
+# Connect via TCP/IP (device and workstation on same network)
+adb tcpip 5555
+adb connect DEVICE_IP:5555
+```
+
+### Rust Toolchain
+
+Install Rust from the FreeBSD port or through `rustup`.
+Add the Android cross-compilation targets and install `cargo-ndk`.
+
+```sh
+# Install Rust (if not already installed)
+pkg install rust
+
+# Add Android targets
+rustup target add aarch64-linux-android
+
+# Install cargo-ndk
+cargo install cargo-ndk
+```
+
+The `cargo-ndk` tool invokes the NDK toolchain for cross-compilation.
+It calls the NDK's `clang` binary, which is a Linux executable that runs through the Linuxulator.
 
 ### Environment Configuration
 
-Add Android SDK and NDK to the path in **${HOME}/.profile** or equivalent.
+Add the following to `~/.profile` or the equivalent shell configuration file.
 
-**${HOME}/.profile** partial listing
-{% highlight sh %}
-# PATH += Android SDK
-export ANDROID_SDK="${HOME}/android/sdk"
-export ANDROID_HOME="${ANDROID_SDK}"
-export ANDROID_BUILD_TOOLS_VERSION="25.0.2"
-export PATH="${ANDROID_SDK}/tools:${ANDROID_SDK}/tools/bin:${ANDROID_SDK}/platform-tools:${ANDROID_SDK}/build-tools/${ANDROID_BUILD_TOOLS_VERSION}:${PATH}"
-
-# PATH += Android NDK
-export ANDROID_NDK="${HOME}/android/ndk"
-export ANDROID_NDK_HOME="${ANDROID_NDK}"
-export ANDROID_NDK_ROOT="${ANDROID_NDK}"
-export PATH="${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/tools:${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin:${PATH}"
-{% endhighlight %}
-
-### SSL Libraries
-
-Testing the installation.  Install a couple libraries as root.
-
-**sh**
-{% highlight sh %}
-rm -f /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
-wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libcrypto.so.1.0.0 -O /compat/linux/usr/lib64/libcrypto.so.1.0.0
-ln -s /compat/linux/usr/lib64/libcrypto.so.1.0.0 /compat/linux/usr/lib64/libcrypto.so.1
-rm -f /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
-wget https://dl.dropboxusercontent.com/u/8593574/Spotify/Fedora/libssl.so.1.0.0 -O /compat/linux/usr/lib64/libssl.so.1.0.0
-ln -s /compat/linux/usr/lib64/libssl.so.1.0.0 /compat/linux/usr/lib64/libssl.so.1
-{% endhighlight %}
-
-### Build Verification
-
-#### Building APKs
-
-Build verification for SDK-only APK builds can be performed with any standard Android project that uses Gradle.
-
-#### Building with the NDK
-
-Test with the Android NDK Samples.
-
-**sh**
-{% highlight sh %}
+`~/.profile` partial listing
+```sh
+# Android SDK
 export ANDROID_HOME="${HOME}/android/sdk"
-export ANDROID_NDK_HOME="${HOME}/android/ndk"
-git clone git@github.com:googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
-# OR the following for HTTP
-# git clone https://github.com/googlesamples/android-ndk.git "${HOME}/projects/android-ndk-samples"
-cd "${HOME}/projects/android-ndk-samples/hello-libs"
-./gradlew --refresh-dependencies
-./gradlew clean check build
+export PATH="${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${PATH}"
+
+# Android NDK
+export ANDROID_NDK_HOME="${ANDROID_HOME}/ndk/28.0.12674087"
+```
+
+Source the file or start a new shell before continuing.
+
+## SDK Development
+
+This section creates a minimal Android application using Kotlin.
+The application displays input fields for CLMM calculator parameters
+and placeholder text where computed results will appear.
+No native code is used yet.
+The goal is to verify that the SDK build pipeline works end-to-end on FreeBSD.
+
+### Project Structure
+
+Create the project directory tree.
+
+```sh
+PROJECT=$HOME/projects/clmm-android
+mkdir -p $PROJECT/app/src/main/java/com/example/clmm
+mkdir -p $PROJECT/app/src/main/res/layout
+mkdir -p $PROJECT/app/src/main/res/values
+mkdir -p $PROJECT/gradle/wrapper
+```
+
+### Build Configuration
+
+Create the Gradle settings file.
+
+`settings.gradle.kts` full listing
+```kotlin
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode = RepositoriesMode.FAIL_ON_PROJECT_REPOS
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "clmm-android"
+include(":app")
+```
+
+Create the root build file.
+
+`build.gradle.kts` full listing
+```kotlin
+plugins {
+    id("com.android.application") version "8.9.0" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
+}
+```
+
+Create the application build file.
+
+`app/build.gradle.kts` full listing
+```kotlin
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.example.clmm"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.clmm"
+        minSdk = 26
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.0")
+}
+```
+
+Create the Gradle properties file.
+
+`gradle.properties` full listing
+```
+android.useAndroidX=true
+org.gradle.jvmargs=-Xmx2048m
+```
+
+Create the Gradle wrapper properties file.
+
+`gradle/wrapper/gradle-wrapper.properties` full listing
+```
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.12.1-bin.zip
+networkTimeout=10000
+validateDistributionUrl=true
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+```
+
+Generate the wrapper scripts.
+
+```sh
+cd $PROJECT
+gradle wrapper
+```
+
+This creates `gradlew` and `gradlew.bat` in the project root.
+From this point forward, use `./gradlew` instead of the system Gradle installation.
+
+### User Interface
+
+Create the Android manifest.
+
+`app/src/main/AndroidManifest.xml` full listing
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
+```
+
+Create the string resources.
+
+`app/src/main/res/values/strings.xml` full listing
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLMM Calculator</string>
+    <string name="label_min_price">Min Price (p_a)</string>
+    <string name="label_cur_price">Current Price (p)</string>
+    <string name="label_max_price">Max Price (p_b)</string>
+    <string name="label_liquidity">Liquidity (L)</string>
+    <string name="label_token_x">Token X</string>
+    <string name="label_token_y">Token Y</string>
+    <string name="btn_calc_reserves">Calculate Reserves</string>
+    <string name="btn_calc_liquidity">Calculate Liquidity</string>
+</resources>
+```
+
+Create the layout file.
+
+`app/src/main/res/layout/activity_main.xml` full listing
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_min_price" />
+        <EditText
+            android:id="@+id/editMinPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="1800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cur_price" />
+        <EditText
+            android:id="@+id/editCurPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="2000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_max_price" />
+        <EditText
+            android:id="@+id/editMaxPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="2200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_liquidity" />
+        <EditText
+            android:id="@+id/editLiquidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="1000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_token_x"
+            android:layout_marginTop="8dp" />
+        <EditText
+            android:id="@+id/editTokenX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_token_y" />
+        <EditText
+            android:id="@+id/editTokenY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalculateReserves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calc_reserves"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCalculateLiquidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calc_liquidity" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
+```
+
+### Activity Implementation
+
+Create the initial Kotlin activity with placeholder logic.
+The buttons display a message confirming the UI works but do not perform calculations yet.
+
+`app/src/main/java/com/example/clmm/MainActivity.kt` full listing
+```kotlin
+package com.example.clmm
+
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val editMinPrice = findViewById<EditText>(R.id.editMinPrice)
+        val editCurPrice = findViewById<EditText>(R.id.editCurPrice)
+        val editMaxPrice = findViewById<EditText>(R.id.editMaxPrice)
+        val editLiquidity = findViewById<EditText>(R.id.editLiquidity)
+        val editTokenX = findViewById<EditText>(R.id.editTokenX)
+        val editTokenY = findViewById<EditText>(R.id.editTokenY)
+        val textResult = findViewById<TextView>(R.id.textResult)
+
+        findViewById<Button>(R.id.btnCalculateReserves).setOnClickListener {
+            textResult.text = "SDK build verified. Native math pending."
+        }
+
+        findViewById<Button>(R.id.btnCalculateLiquidity).setOnClickListener {
+            textResult.text = "SDK build verified. Native math pending."
+        }
+    }
+}
+```
+
+### Build and Run
+
+Build the debug APK.
+
+```sh
+cd $PROJECT
 ./gradlew assembleDebug
-{% endhighlight %}
+```
 
-## References:
+The APK is generated at `app/build/outputs/apk/debug/app-debug.apk`.
 
-- [Android, Building a continuous-integration Android build server on FreeBSD: Part one: building APKs using Linux emulation][android-freebsd-ci]
-- [Android, Android の Linux 環境をターミナルから構築する][android-ndk-terminal-download]
-- [Android, How to set ANDROID_NDK_HOME so that Android Studio does not ask for ndk location?][android-ndk-setup]
-- [Android, Andrid NDK Notes][android-ndk-notes]
-- [Android, NDK Downloads][android-ndk-downloads]
-- [Android, NDK Samples (GitHub Repository)][android-ndk-samples]
-- [Android, Sign Your App][android-sign-app]
-- [Android, TDD Playground][android-tdd-playground]
-- [Android, Using Kotlin to test Android applications][android-kotlin-testing]
-- [adb, Using SPACE with adb shell input][adb-text-input-space]
-- [Gradle, Gradle Plugin User Guide - Testing][gradle-plugin-user-guide-testing]
-- [FreeBSD, FreeBSD Handbook - Linux Binary Compatibility][freebsd-linux-emulation]
-- [FreeBSD, FreeBSD Handbook - Installing Additional Libraries Manually][freebsd-linux-lib-manual-install]
-- [FreeBSD, FreshPorts - devel/android-tools-adb-devel][freebsd-port-android-tools-adb-devel]
-- [Linux, Install Spotify stable (v 0.9.17) on Fedora 23 64-bit][linux-ssl-lib]
+Install and launch on a connected device.
 
-[android-freebsd-ci]: http://zewaren.net/site/node/165/
-[android-ndk-terminal-download]: http://qiita.com/tanjo/items/0c6549c6700160d5595b
-[android-ndk-setup]: http://stackoverflow.com/questions/39159357/how-to-set-android-ndk-home-so-that-android-studio-does-not-ask-for-ndk-location
-[android-ndk-notes]: http://www.stuartaxon.com/2015/07/05/android-ndk-notes/
-[android-ndk-downloads]: https://developer.android.com/ndk/downloads/index.html
-[android-ndk-samples]: https://github.com/googlesamples/android-ndk
-[android-sign-app]: https://developer.android.com/studio/publish/app-signing.html
-[android-tdd-playground]: https://github.com/pestrada/android-tdd-playground
-[android-kotlin-testing]: http://blog.greenhouseci.com/greenhouse/update/android-testing-with-kotlin/
-[adb-text-input-space]: https://plus.google.com/+AaronShang/posts/cYwaZppVbJW
-[gradle-plugin-user-guide-testing]: http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Testing
-[freebsd-linux-emulation]: https://www.freebsd.org/doc/handbook/linuxemu.html
-[freebsd-linux-lib-manual-install]: https://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
-[freebsd-port-android-tools-adb-devel]: https://www.freshports.org/devel/android-tools-adb-devel/
-[linux-ssl-lib]: https://gist.github.com/olejon/54473554be2d4dbacd03
+```sh
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n com.example.clmm/.MainActivity
+```
+
+Tapping either button should display the placeholder message.
+This confirms that the SDK build pipeline and deployment work correctly on FreeBSD.
+
+## NDK Development
+
+This section adds a Rust native library that implements the CLMM reserve and liquidity calculations.
+The library is compiled for Android using `cargo-ndk`
+and exposed to Kotlin through JNI function declarations.
+
+### Rust Library
+
+Create the Rust project directory.
+
+```sh
+mkdir -p $PROJECT/rust/src
+```
+
+Create the Cargo manifest.
+
+`rust/Cargo.toml` full listing
+```toml
+[package]
+name = "clmm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.21"
+```
+
+Create the library source file.
+The two core functions compute token reserves from liquidity depth
+and liquidity depth from token reserves,
+following the three price regimes of the concentrated liquidity model.
+
+`rust/src/lib.rs` full listing
+```rust
+use jni::JNIEnv;
+use jni::objects::JObject;
+use jni::sys::{jdouble, jdoubleArray};
+
+fn compute_reserves(p_a: f64, p_c: f64, p_b: f64, l: f64) -> (f64, f64) {
+    if p_a <= 0.0 || p_b <= 0.0 || p_b <= p_a || l < 0.0 {
+        return (0.0, 0.0);
+    }
+    let sqrt_a = p_a.sqrt();
+    let sqrt_b = p_b.sqrt();
+    let sqrt_c = p_c.sqrt();
+
+    if p_c <= p_a {
+        // Below range: all Token X
+        let x = l * (sqrt_b - sqrt_a) / (sqrt_a * sqrt_b);
+        (x, 0.0)
+    } else if p_c >= p_b {
+        // Above range: all Token Y
+        let y = l * (sqrt_b - sqrt_a);
+        (0.0, y)
+    } else {
+        // In range: both tokens
+        let x = l * (sqrt_b - sqrt_c) / (sqrt_c * sqrt_b);
+        let y = l * (sqrt_c - sqrt_a);
+        (x, y)
+    }
+}
+
+fn compute_liquidity(p_a: f64, p_c: f64, p_b: f64, x: f64, y: f64) -> f64 {
+    if p_a <= 0.0 || p_b <= 0.0 || p_b <= p_a {
+        return 0.0;
+    }
+    let sqrt_a = p_a.sqrt();
+    let sqrt_b = p_b.sqrt();
+    let sqrt_c = p_c.sqrt();
+
+    if p_c <= p_a {
+        x * sqrt_a * sqrt_b / (sqrt_b - sqrt_a)
+    } else if p_c >= p_b {
+        y / (sqrt_b - sqrt_a)
+    } else {
+        let l_x = x * sqrt_c * sqrt_b / (sqrt_b - sqrt_c);
+        let l_y = y / (sqrt_c - sqrt_a);
+        l_x.min(l_y)
+    }
+}
+
+#[no_mangle]
+pub extern "system" fn Java_com_example_clmm_MainActivity_calculateReserves<'local>(
+    mut env: JNIEnv<'local>,
+    _this: JObject<'local>,
+    p_a: jdouble,
+    p_c: jdouble,
+    p_b: jdouble,
+    l: jdouble,
+) -> jdoubleArray {
+    let (x, y) = compute_reserves(p_a, p_c, p_b, l);
+    let result = env.new_double_array(2).expect("Failed to create double array");
+    env.set_double_array_region(&result, 0, &[x, y])
+        .expect("Failed to set double array region");
+    result.into_raw()
+}
+
+#[no_mangle]
+pub extern "system" fn Java_com_example_clmm_MainActivity_calculateLiquidity(
+    _env: JNIEnv,
+    _this: JObject,
+    p_a: jdouble,
+    p_c: jdouble,
+    p_b: jdouble,
+    x: jdouble,
+    y: jdouble,
+) -> jdouble {
+    compute_liquidity(p_a, p_c, p_b, x, y)
+}
+```
+
+The JNI function names follow the `Java_package_Class_method` convention.
+The `extern "system"` calling convention matches the JNI ABI on Android.
+
+### Gradle Integration
+
+Update the application build file to run `cargo ndk` before the Android build.
+
+`app/build.gradle.kts` full listing
+```kotlin
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.example.clmm"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.clmm"
+        minSdk = 26
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+        ndk {
+            abiFilters += "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.0")
+}
+
+tasks.register<Exec>("buildRustLib") {
+    workingDir = file("../rust")
+    commandLine(
+        "cargo", "ndk",
+        "-t", "arm64-v8a",
+        "-o", "../app/src/main/jniLibs",
+        "build", "--release"
+    )
+}
+
+tasks.named("preBuild") {
+    dependsOn("buildRustLib")
+}
+```
+
+The `buildRustLib` task runs `cargo ndk` to cross-compile the Rust library for ARM64 Android.
+The compiled shared object is placed in `app/src/main/jniLibs/arm64-v8a/libclmm.so`,
+where the Android build system automatically packages it into the APK.
+
+The `abiFilters` setting restricts the APK to 64-bit ARM.
+Add additional targets as needed for other architectures.
+
+### Updated Activity
+
+Update the Kotlin activity to load the native library and call the JNI functions.
+
+`app/src/main/java/com/example/clmm/MainActivity.kt` full listing
+```kotlin
+package com.example.clmm
+
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    companion object {
+        init {
+            System.loadLibrary("clmm")
+        }
+    }
+
+    private external fun calculateReserves(
+        pA: Double, pC: Double, pB: Double, l: Double
+    ): DoubleArray
+
+    private external fun calculateLiquidity(
+        pA: Double, pC: Double, pB: Double, x: Double, y: Double
+    ): Double
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val editMinPrice = findViewById<EditText>(R.id.editMinPrice)
+        val editCurPrice = findViewById<EditText>(R.id.editCurPrice)
+        val editMaxPrice = findViewById<EditText>(R.id.editMaxPrice)
+        val editLiquidity = findViewById<EditText>(R.id.editLiquidity)
+        val editTokenX = findViewById<EditText>(R.id.editTokenX)
+        val editTokenY = findViewById<EditText>(R.id.editTokenY)
+        val textResult = findViewById<TextView>(R.id.textResult)
+
+        findViewById<Button>(R.id.btnCalculateReserves).setOnClickListener {
+            val pA = editMinPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val pC = editCurPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val pB = editMaxPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val l = editLiquidity.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val result = calculateReserves(pA, pC, pB, l)
+            editTokenX.setText(String.format("%.2f", result[0]))
+            editTokenY.setText(String.format("%.2f", result[1]))
+            textResult.text = "Reserves calculated from liquidity"
+        }
+
+        findViewById<Button>(R.id.btnCalculateLiquidity).setOnClickListener {
+            val pA = editMinPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val pC = editCurPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val pB = editMaxPrice.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val x = editTokenX.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val y = editTokenY.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val l = calculateLiquidity(pA, pC, pB, x, y)
+            editLiquidity.setText(String.format("%.6f", l))
+            textResult.text = "Liquidity calculated from reserves"
+        }
+    }
+}
+```
+
+### Build and Run
+
+Build the APK with NDK support.
+
+```sh
+cd $PROJECT
+./gradlew assembleDebug
+```
+
+The Gradle build first runs `cargo ndk` to compile the Rust library,
+then packages the resulting `libclmm.so` into the APK alongside the Kotlin bytecode.
+
+Install and launch the updated application.
+
+```sh
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n com.example.clmm/.MainActivity
+```
+
+Enter CLMM parameters and tap "Calculate Reserves."
+The application should display computed token amounts
+matching the values produced by the [CLMM calculator widget][related_post_clmm].
+
+## Emulator Feasibility
+
+The Android emulator requires hardware-assisted virtualization through KVM on Linux
+or Hypervisor.framework on macOS.
+FreeBSD's Linuxulator does not expose KVM to Linux binaries.
+FreeBSD does have its own hypervisor, bhyve, but it does not support the Android emulator's requirements.
+
+Running the Android emulator on FreeBSD is not supported.
+All testing and debugging must be performed on physical hardware connected via ADB.
+This is the recommended workflow for NDK development regardless of host platform,
+as emulators do not always reproduce the behavior of real hardware.
+
+## Conclusion
+
+This post demonstrated a complete Android development workflow on FreeBSD
+using only command-line tools.
+The Linuxulator runs Linux Android SDK and NDK binaries at near-native speed.
+Java, Gradle, and Rust run natively through FreeBSD ports.
+The sample CLMM calculator application exercises both the SDK pipeline with Kotlin
+and the NDK pipeline with Rust exposed through JNI.
+
+The build system is platform-independent.
+The same project builds on macOS or Linux by installing the Android SDK and NDK for those platforms.
+Only the environment setup section is FreeBSD-specific.
+
+## Future Reading
+
+Areas for further exploration include
+continuous integration for Android builds on FreeBSD,
+Jetpack Compose for declarative UI as an alternative to XML layouts,
+and additional ABI targets for broader device coverage.
+
+## References
+
+- [Android, Command-Line Tools][android_cmdline_tools]
+- [Android, NDK Downloads][android_ndk_downloads]
+- [Android, sdkmanager][android_sdkmanager]
+- [FreeBSD, FreshPorts android-tools][freebsd_android_tools]
+- [FreeBSD, FreshPorts linux_base-rl9][freebsd_linux_base_rl9]
+- [FreeBSD, Linux Binary Compatibility Handbook][freebsd_linuxemu]
+- [FreeBSD, Operate Android Device on FreeBSD, Vermaden][freebsd_vermaden_android]
+- [Related Post, Concentrated Liquidity Market Maker Mathematics][related_post_clmm]
+- [Rust, cargo-ndk][rust_cargo_ndk]
+- [Rust, jni][rust_jni]
+
+[android_cmdline_tools]: https://developer.android.com/tools
+[android_ndk_downloads]: https://developer.android.com/ndk/downloads
+[android_sdkmanager]: https://developer.android.com/tools/sdkmanager
+[freebsd_android_tools]: https://www.freshports.org/devel/android-tools/
+[freebsd_linux_base_rl9]: https://www.freshports.org/emulators/linux_base-rl9
+[freebsd_linuxemu]: https://docs.freebsd.org/en/books/handbook/linuxemu/
+[freebsd_vermaden_android]: https://vermaden.wordpress.com/2024/10/29/operate-android-device-on-freebsd/
+[related_post_clmm]: {% post_url 2026-02-22-clmm_mathematics %}
+[rust_cargo_ndk]: https://crates.io/crates/cargo-ndk
+[rust_jni]: https://crates.io/crates/jni

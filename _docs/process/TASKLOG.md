@@ -8,25 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Fix A91 Widget Source Code (A91-P2)
+**Name**: Modernize Android Development on FreeBSD (A0-P3)
 **Status**: Complete
 **Started**: 2026-02-16
 
 ## Success Criteria
 
-- [x] CLMM Mathematics (A91) has fixed example code and is release candidate status.
+- [x] Android Development on FreeBSD article in pre-release candidate state ready for verification on FreeBSD.
+- [x] Sample project is portable for macOS testing first.
+- [x] A91 WASM assets committed.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A91-P2-T1 | Rename exported function to inject_ui | Complete | Renamed `clmm_calculator_init` to `inject_ui` in 4 locations: live script tag (line 96/99), Rust `#[wasm_bindgen]` function definition (line 528), Widget JS Injection Anchor Example (line 751/754). User's `index.html` example (line 847/850) already used `inject_ui`. |
-| A91-P2-T2 | Update process files and commit | Complete | TASKLOG and REVERSE_PROMPT updated. |
+| A0-P3-T1 | Modernize Android FreeBSD article | Complete | Complete rewrite from FreeBSD 11/SDK 25/NDK r13b to FreeBSD 14/SDK 35/NDK r28. Kotlin + Rust + JNI stack. 10 references across 4 categories. All URLs verified (7 HTTP 200, 2 crates.io confirmed indexed via web search, 1 post_url). |
+| A0-P3-T2 | Commit WASM assets and process files | Complete | A91 WASM assets, modernized article, process files committed. |
 
 ## Notes
 
-- The `SyntaxError: Importing binding name 'inject_ui' is not found` was caused by the Rust function being exported as `clmm_calculator_init` while the user's `index.html` imported `inject_ui`.
-- Human added an `index.html` local testing example and a sample serve command to the article.
+- No article number assigned per PROMPT.md directive. Not slotted for publication.
+- Article is pre-release candidate. Requires verification on FreeBSD before publication.
+- Build configuration uses AGP 8.9.0, Gradle 8.12.1, Kotlin 2.1.0, compileSdk 35, NDK r28.
+- Sample app is a native Android port of the A91 CLMM calculator using Kotlin UI and Rust JNI math.
 - Next available article number: A92.
 - 6 release candidates: A86, A87, A88, A89, A90, A91.
 - 0 stubs.
@@ -54,3 +58,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-15 | A89-P3: "Cryptotelemeritocracy" expanded with theory additions (19 references). Oversight vs executive configurations, telos amendment, counter-espionage properties section. Draft summary synced. |
 | 2026-02-15 | A91-P1: "Concentrated Liquidity Market Maker Mathematics" researched and written (6 references). Calculator rewritten from JS to Rust WASM. Android FreeBSD drafts combined. Draft summary synced (12 files, 6 RCs, 0 stubs). |
 | 2026-02-16 | A91-P2: Renamed exported WASM function from `clmm_calculator_init` to `inject_ui`. Human added index.html local testing example and serve instructions. |
+| 2026-02-16 | A0-P3: "Android Development on FreeBSD" modernized from 2017 to 2026 toolchain. A91 WASM assets committed. Draft summary synced. |
