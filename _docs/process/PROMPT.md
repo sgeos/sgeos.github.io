@@ -21,49 +21,36 @@ Read, but unverified:
 - Getting Started with Solana Using Rust and Pinocchio
 - Solana sBPF Assembly Example
 
-Evidently, the 
-
-### Publication of A87
-
-Evidently, the `date` command output was the following.
-
-```sh
-$ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-18 15:58:18 +0000
-```
-
-I want to have software versions date and the header date synced.
-I manually made this change.
-
 ## Objectives
 
 ### Refine Article A93 Terminology and Title
 
-Update the draft currently located at `_drafts/cost_of_failure_spectrum.markdown`
-with the following specific requirements:
+Update the A93 draft currently with the following specific requirements:
 
-#### Terminology Shift
+#### Spell out FMCG
 
-- **Primary Term**:
-  Use "FMCG Engineering" (Fast-Moving Consumer Goods Engineering) as the
-  primary term for the speed-first mode.
-- **Justification**:
-  Explicitly state in the text that while "Commercial Software Engineering"
-  is a near-equivalent academic term, it is insufficient.
-  The FMCG/Mission-Critical dichotomy applies to hobbyist, volunteer,
-  and open-source projects where "commercial" implications do not fit.
-- **Definition**:
-  Define FMCG Engineering as a mode where the product is durable but
-  the infrastructure allows for low-cost patching,
-  meaning a poor-quality MVP still yields positive value through feedback.
+Spell out FMCG the first time it is used, and subsequently use the acronym.
+The current draft appears to spell it out on second use.
+
+#### Explain FMCG
+
+Explain the conventional use of FMCG.
+Use toilet paper as an example:
+
+- Produced in bulk, quickly sold and used.
+- Poor quality toilet paper is better than no toilet paper.
+- Nominal toilet paper that is worse than nothing does not
+  meet the bar to be considered toilet paper.
+
+Explain how and why the analogy is appropriate in an engineering context.
 
 #### Retitle
 
-**New Title**: "FMCG Versus Mission-Critical Engineering"
+**New Title**: "Fast-Moving Versus Mission-Critical Engineering"
 
 #### Rename
 
-**New Filename**: Rename the file to `_drafts/fmcg_versus_mission_critical_engineering.markdown`.
+**New Filename**: Rename the file to `_drafts/fast_moving_versus_mission_critical_engineering.markdown`.
 
 ## Context
 
@@ -76,8 +63,7 @@ I want to get a couple of articles published while I still remember what they ar
 ## Success Criteria
 
 - Article retitled and file renamed.
-- "Commercial Engineering" removed as a primary category.
-- Content accurately reflects that FMCG products are durable/patchable, not "throwaway."
+- FMCG spelled out on first use and explained.
 
 ## Notes
 
