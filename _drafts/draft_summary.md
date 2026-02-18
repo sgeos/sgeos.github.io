@@ -278,6 +278,34 @@ Twenty references across four categories (Book, Reference, Related Post, Researc
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A89 must be published before A92.
 
+### The Cost of Failure Spectrum — Release Candidate
+
+**File**: `cost_of_failure_spectrum.markdown`
+**Article**: A93, "The Cost of Failure Spectrum"
+**Topic**: The dichotomy between commercial software engineering and mission-critical engineering, framed as a cost of failure continuum
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article examining the engineering dichotomy
+between speed-first commercial software development
+and correctness-first mission-critical engineering.
+Core insight: whether a poor quality MVP has positive or negative value
+determines the engineering mode.
+Introduces the conventional academic terminology from Sommerville's critical systems taxonomy.
+Surveys established frameworks including IEC 61508, DO-178C, ISO 26262,
+Gartner Bimodal IT, and Brand's Pace Layering.
+Addresses the hybrid pattern where a mission-critical core
+operates under rigorous processes within a commercial shell.
+Identifies mindset mismatch as the primary failure mode.
+References DORA research (Forsgren, Humble, Kim 2018) demonstrating
+that elite teams achieve both speed and stability.
+References companion articles on mission command (A86) and telemeritocracy (A87) via post_url.
+Seventeen references across five categories (Book, Reference, Related Post, Research).
+
+**Remaining Work**:
+Human review, URL verification, and final proofread before publication.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -405,8 +433,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifteen files exist in `_drafts/`. One is a template.
-Five drafts have been elevated to release candidate status.
+Sixteen files exist in `_drafts/`. One is a template.
+Six drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A87 have been published.
 Writing Proofs (A79) has been published.
@@ -418,13 +446,15 @@ Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
-and Cryptotelemeritocracy for Space Exploitation (A92) have been fully drafted
+Cryptotelemeritocracy for Space Exploitation (A92),
+and The Cost of Failure Spectrum (A93) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
+A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 Publication order dependency: A89 before A92.
-A88, A90, and A91 have no dependencies.
+A88, A90, A91, and A93 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

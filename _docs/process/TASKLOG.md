@@ -8,32 +8,34 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish Telemeritocracy (A87-P2)
+**Name**: Document Date Sync and Draft Cost of Failure Spectrum (A93-P1)
 **Status**: Complete
 **Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] A87 published with updated date.
-- [x] Release announcement included in reverse prompt.
+- [x] Date sync convention documented in knowledge graph.
+- [x] New article drafted and in release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A87-P2-T1 | Fix post_url references | Complete | Changed `mission-command-management-style` to `mission_command_management_style` in A87 and A89 (4 occurrences in A87, 1 in A89). |
-| A87-P2-T2 | Update software versions date | Complete | Changed from `2026-02-14 23:42:34 +0000` to `2026-02-18 15:58:18 +0000`. |
-| A87-P2-T3 | Publish A87 | Complete | Moved to `_posts/2026-02-19-telemeritocracy.markdown` via publish script. |
-| A87-P2-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. Release announcement in REVERSE_PROMPT. |
+| A93-P1-T1 | Document date sync convention | Complete | Added paragraph to POST_STRUCTURE.md Software Versions Format section. |
+| A93-P1-T2 | Research conventional terminology | Complete | "Commercial software engineering" (Sommerville) is the academic term. "Lean product development" (Ries) is the practitioner term. |
+| A93-P1-T3 | Draft article A93 | Complete | "The Cost of Failure Spectrum" drafted. 717 lines, 17 references across 5 categories. |
+| A93-P1-T4 | Verify reference URLs | Complete | 17 URLs verified. Sommerville book Wikipedia URL (404) replaced with author page URL. |
+| A93-P1-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
-- A87 published with date 2026-02-19, categories: management philosophy.
-- Fixed post_url reference mismatch: hyphens vs underscores in A86 slug.
-- Next available article number: A93.
-- 5 release candidates: A88, A89, A90, A91, A92.
+- Article A93, "The Cost of Failure Spectrum," dated 2026-02-24, categories: management philosophy. 717 lines.
+- References A86 (Mission Command) and A87 (Telemeritocracy) via post_url (both published).
+- No publication dependencies on unpublished articles.
+- Next available article number: A94.
+- 6 release candidates: A88, A89, A90, A91, A92, A93.
 - 0 stubs.
-- Publication order dependency: A89 before A92. A88, A90, and A91 have no dependencies.
+- Publication order dependency: A89 before A92. A88, A90, A91, and A93 have no dependencies.
 
 ## History
 
@@ -76,4 +78,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-17 | A92-P5: "Cryptotelemeritocracy for Space Exploitation" corrected Birch Planet cross-reference from objective 8 to objective 6. |
 | 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-18 | A87-P2: "Telemeritocracy" published (2026-02-19 date). Fixed post_url hyphen/underscore mismatch in A87 and A89. Software versions date updated. Draft summary synced (15 files, 5 RCs, 0 stubs). |
-| 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
+| 2026-02-18 | A93-P1: "The Cost of Failure Spectrum" researched and written (17 references). Date sync convention documented in POST_STRUCTURE.md. Draft summary synced (16 files, 6 RCs, 0 stubs). |
