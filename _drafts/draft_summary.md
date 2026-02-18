@@ -202,26 +202,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Telemeritocracy — Release Candidate
-
-**File**: `telemeritocracy.markdown`
-**Article**: A87, "Telemeritocracy"
-**Topic**: Telemeritocracy as a governance model synthesizing telocracy and meritocracy for engineering teams
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article proposing telemeritocracy as a governance model.
-Defines telocracy through Oakeshott and Hayek, traces meritocracy from Young's satire through modern tech adoption,
-synthesizes both into a compound governance principle where authority is assigned based on demonstrated ability to advance a defined purpose.
-Examines precedents in Apache, IETF, academic shared governance, and Valve (as failure case).
-Discusses engineering team fit, failure modes (Goodhart's Law, Peter Principle, mission drift, authoritarianism risk, informal hierarchy),
-and limitations. References the companion Mission Command article (A86) via post_url.
-Eleven references across four categories (Book, Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, and final proofread before publication. A86 must be published before A87.
-
 ### Cryptotelemeritocracy — Release Candidate
 
 **File**: `cryptotelemeritocracy.markdown`
@@ -425,26 +405,25 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Fifteen files exist in `_drafts/`. One is a template.
+Five drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A86 have been published.
+A80 through A87 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Telemeritocracy (A87),
 Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 and Cryptotelemeritocracy for Space Exploitation (A92) have been fully drafted
 and are awaiting human review before publication.
-A87 references A86 via post_url (A86 now published). A89 references A87 via post_url.
+A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
-Publication order dependency: A87 before A89 before A92.
+Publication order dependency: A89 before A92.
 A88, A90, and A91 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
