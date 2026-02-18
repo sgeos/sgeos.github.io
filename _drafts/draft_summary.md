@@ -278,21 +278,25 @@ Twenty references across four categories (Book, Reference, Related Post, Researc
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A89 must be published before A92.
 
-### The Cost of Failure Spectrum — Release Candidate
+### FMCG Versus Mission-Critical Engineering — Release Candidate
 
-**File**: `cost_of_failure_spectrum.markdown`
-**Article**: A93, "The Cost of Failure Spectrum"
-**Topic**: The dichotomy between commercial software engineering and mission-critical engineering, framed as a cost of failure continuum
+**File**: `fmcg_versus_mission_critical_engineering.markdown`
+**Article**: A93, "FMCG Versus Mission-Critical Engineering"
+**Topic**: The dichotomy between FMCG engineering and mission-critical engineering, framed as a cost of failure continuum
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: Release Candidate
 
 Fully researched article examining the engineering dichotomy
-between speed-first commercial software development
+between speed-first FMCG engineering
 and correctness-first mission-critical engineering.
 Core insight: whether a poor quality MVP has positive or negative value
 determines the engineering mode.
-Introduces the conventional academic terminology from Sommerville's critical systems taxonomy.
+Uses "FMCG Engineering" (Fast-Moving Consumer Goods Engineering) as the primary term,
+noting that Sommerville's "commercial software engineering" is a near-equivalent
+but insufficient because the dichotomy applies to hobbyist, volunteer, and open-source projects.
+Defines FMCG Engineering as a mode where the product is durable
+but the infrastructure allows for low-cost patching.
 Surveys established frameworks including IEC 61508, DO-178C, ISO 26262,
 Gartner Bimodal IT, and Brand's Pace Layering.
 Addresses the hybrid pattern where a mission-critical core
@@ -447,7 +451,7 @@ Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
-and The Cost of Failure Spectrum (A93) have been fully drafted
+and FMCG Versus Mission-Critical Engineering (A93) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.

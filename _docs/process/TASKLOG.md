@@ -8,28 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Document Date Sync and Draft Cost of Failure Spectrum (A93-P1)
+**Name**: Refine Article A93 Terminology and Title (A93-P2)
 **Status**: Complete
 **Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] Date sync convention documented in knowledge graph.
-- [x] New article drafted and in release candidate status.
+- [x] Article retitled and file renamed.
+- [x] "Commercial Engineering" removed as a primary category.
+- [x] Content accurately reflects that FMCG products are durable/patchable, not "throwaway."
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A93-P1-T1 | Document date sync convention | Complete | Added paragraph to POST_STRUCTURE.md Software Versions Format section. |
-| A93-P1-T2 | Research conventional terminology | Complete | "Commercial software engineering" (Sommerville) is the academic term. "Lean product development" (Ries) is the practitioner term. |
-| A93-P1-T3 | Draft article A93 | Complete | "The Cost of Failure Spectrum" drafted. 717 lines, 17 references across 5 categories. |
-| A93-P1-T4 | Verify reference URLs | Complete | 17 URLs verified. Sommerville book Wikipedia URL (404) replaced with author page URL. |
-| A93-P1-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A93-P2-T1 | Retitle article | Complete | Title changed to "FMCG Versus Mission-Critical Engineering." |
+| A93-P2-T2 | Shift terminology to FMCG | Complete | "Commercial Software Engineering" replaced with "FMCG Engineering" as primary term. Justification added for why "commercial" is insufficient. FMCG defined as durable product with low-cost patching infrastructure. |
+| A93-P2-T3 | Rename file | Complete | `cost_of_failure_spectrum.markdown` renamed to `fmcg_versus_mission_critical_engineering.markdown` via git mv. |
+| A93-P2-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
-- Article A93, "The Cost of Failure Spectrum," dated 2026-02-24, categories: management philosophy. 717 lines.
+- Article A93, "FMCG Versus Mission-Critical Engineering," dated 2026-02-24, categories: management philosophy.
 - References A86 (Mission Command) and A87 (Telemeritocracy) via post_url (both published).
 - No publication dependencies on unpublished articles.
 - Next available article number: A94.
@@ -79,3 +79,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-18 | A87-P2: "Telemeritocracy" published (2026-02-19 date). Fixed post_url hyphen/underscore mismatch in A87 and A89. Software versions date updated. Draft summary synced (15 files, 5 RCs, 0 stubs). |
 | 2026-02-18 | A93-P1: "The Cost of Failure Spectrum" researched and written (17 references). Date sync convention documented in POST_STRUCTURE.md. Draft summary synced (16 files, 6 RCs, 0 stubs). |
+| 2026-02-18 | A93-P2: Retitled to "FMCG Versus Mission-Critical Engineering." Terminology shifted from "commercial software engineering" to "FMCG Engineering" with justification. File renamed. Draft summary synced. |
