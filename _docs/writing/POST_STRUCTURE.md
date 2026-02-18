@@ -115,6 +115,8 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 
 Include version output for every language, framework, or tool used in the post. Add a comment header for each tool-specific section.
 
+The date output in the Software Versions section must match the front matter `date:` field. When preparing a post for publication, run the `date -u` command, update the Software Versions output with the result, and set the front matter `date:` to the same timestamp. This ensures the recorded environment timestamp and the publication timestamp are consistent.
+
 ## Interactive Elements
 
 Posts that embed interactive content follow this pattern.
