@@ -8,29 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish Mission Command Management Style (A86-P2)
+**Name**: Publish Telemeritocracy (A87-P2)
 **Status**: Complete
-**Started**: 2026-02-17
+**Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] A86 published.
+- [x] A87 published with updated date.
 - [x] Release announcement included in reverse prompt.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A86-P2-T1 | Publish A86 | Complete | Moved to `_posts/2026-02-18-mission_command_management_style.markdown` via publish script. |
-| A86-P2-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. Release announcement in REVERSE_PROMPT. |
+| A87-P2-T1 | Fix post_url references | Complete | Changed `mission-command-management-style` to `mission_command_management_style` in A87 and A89 (4 occurrences in A87, 1 in A89). |
+| A87-P2-T2 | Update software versions date | Complete | Changed from `2026-02-14 23:42:34 +0000` to `2026-02-18 15:58:18 +0000`. |
+| A87-P2-T3 | Publish A87 | Complete | Moved to `_posts/2026-02-19-telemeritocracy.markdown` via publish script. |
+| A87-P2-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. Release announcement in REVERSE_PROMPT. |
 
 ## Notes
 
-- A86 published with date 2026-02-18, categories: management philosophy.
+- A87 published with date 2026-02-19, categories: management philosophy.
+- Fixed post_url reference mismatch: hyphens vs underscores in A86 slug.
 - Next available article number: A93.
-- 6 release candidates: A87, A88, A89, A90, A91, A92.
+- 5 release candidates: A88, A89, A90, A91, A92.
 - 0 stubs.
-- Publication order dependency: A87 before A89 before A92. A88, A90, and A91 have no dependencies.
+- Publication order dependency: A89 before A92. A88, A90, and A91 have no dependencies.
 
 ## History
 
@@ -71,4 +74,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-17 | A92-P3: "Cryptotelemeritocracy for Space Exploitation" revised. Introduction foreshadow, telos hierarchy (13 objectives, 4 categories), Kardashev governance shift, mass driver physics, Mercury cannibalization inflection point, corrected spinoff equations, spinoff shedding reframe, Governance Coherence Half-Life. Draft summary synced. |
 | 2026-02-17 | A92-P4: "Cryptotelemeritocracy for Space Exploitation" revised. Corrected $\Delta V_{share}$ formula. Arbitrator profit independence. Latency-meaning-narrative cascade. GCH expanded with glottochronology, punctuated equilibrium, operational 50% divergence. Intergalactic phase reframed as myth-structure to superstition. 4 new references (20 total). Draft summary synced. |
 | 2026-02-17 | A92-P5: "Cryptotelemeritocracy for Space Exploitation" corrected Birch Planet cross-reference from objective 8 to objective 6. |
+| 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
+| 2026-02-18 | A87-P2: "Telemeritocracy" published (2026-02-19 date). Fixed post_url hyphen/underscore mismatch in A87 and A89. Software versions date updated. Draft summary synced (15 files, 5 RCs, 0 stubs). |
 | 2026-02-17 | A86-P2: "Mission Command Management Style" published (2026-02-18 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |

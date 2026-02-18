@@ -25,7 +25,9 @@ Read, but unverified:
 
 ### Publish A86
 
-Publish A86 and include release announcement in your next reverse prompt.
+Publish A87 and include release announcement in your next reverse prompt.
+Run the date command under software versions and update the header
+and software versions date before publication.
 
 ## Context
 
@@ -37,7 +39,7 @@ Publishing time!
 
 ## Success Criteria
 
-- A86 published.
+- A86 published with updated date.
 - Release announcement included in reverse prompt.
 
 ## Notes
