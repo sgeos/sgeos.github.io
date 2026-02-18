@@ -13,7 +13,7 @@ In the author's experience,
 there are two kinds of engineering.
 
 The first kind values speed above correctness.
-The minimum viable product is rough,
+The minimum viable product (MVP) is rough,
 incomplete, and possibly broken,
 but it is in front of users
 generating feedback.
@@ -244,7 +244,8 @@ It is not.
 [Forsgren, Humble, and Kim][book_accelerate]
 demonstrated in their 2018 book *Accelerate*,
 based on the
-[DORA State of DevOps][research_dora] research
+DevOps Research and Assessment ([DORA][research_dora])
+State of DevOps research
 spanning over 23,000 survey respondents
 across more than 2,000 organizations,
 that elite engineering teams
@@ -326,6 +327,11 @@ and security-critical.
 
 ### Safety Integrity Levels
 
+The International Electrotechnical Commission (IEC)
+and the International Organization for Standardization (ISO)
+publish safety standards that formalize failure consequence
+into quantitative engineering process requirements.
+
 [IEC 61508][ref_iec_61508]
 defines four
 [Safety Integrity Levels][ref_safety_integrity_level]
@@ -341,10 +347,10 @@ The standard applies to general industrial systems
 and serves as the parent standard
 for domain-specific derivatives.
 
-[DO-178C][ref_do_178c]
+RTCA standard [DO-178C][ref_do_178c]
 defines five Design Assurance Levels
 (DAL A through DAL E)
-for airborne software.
+for airborne software certification.
 Level A corresponds to catastrophic failure conditions
 and Level E corresponds
 to no safety effect.
@@ -375,10 +381,10 @@ This decomposition mechanism
 formalizes the hybrid pattern
 discussed below.
 
-### Bimodal IT
+### Bimodal Information Technology
 
 Gartner introduced the concept
-of [Bimodal IT][ref_bimodal_it]
+of [Bimodal Information Technology (IT)][ref_bimodal_it]
 around 2014.
 Mode 1 is traditional, sequential,
 and emphasizes safety and accuracy.
@@ -435,7 +441,7 @@ pace layering suggests
 that the user interface layer
 should change rapidly
 and tolerate high rates of failure
-because the cost of a UI defect is low.
+because the cost of a user interface defect is low.
 The data layer and infrastructure layer
 should change slowly
 and tolerate low rates of failure
@@ -558,7 +564,8 @@ killed patients in the 1980s
 in part because software development practices
 appropriate for FMCG software
 were applied to a safety-critical system.
-The Boeing 737 MAX MCAS system
+The Boeing 737 MAX
+Maneuvering Characteristics Augmentation System (MCAS)
 contributed to two fatal crashes
 in part because software integration testing
 did not reflect
@@ -714,7 +721,7 @@ change at different rates.
 
 Leveson's
 *[Engineering a Safer World][book_leveson]*
-develops the STAMP model
+develops Systems-Theoretic Accident Model and Processes (STAMP)
 for systems-theoretic accident analysis.
 It provides tools
 for identifying the boundary

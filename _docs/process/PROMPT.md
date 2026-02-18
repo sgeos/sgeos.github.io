@@ -27,30 +27,15 @@ Read, but unverified:
 
 Update the A93 draft currently with the following specific requirements:
 
-#### Spell out FMCG
+#### Spell out Acronyms
 
-Spell out FMCG the first time it is used, and subsequently use the acronym.
-The current draft appears to spell it out on second use.
-
-#### Explain FMCG
-
-Explain the conventional use of FMCG.
-Use toilet paper as an example:
-
-- Produced in bulk, quickly sold and used.
-- Poor quality toilet paper is better than no toilet paper.
-- Nominal toilet paper that is worse than nothing does not
-  meet the bar to be considered toilet paper.
-
-Explain how and why the analogy is appropriate in an engineering context.
-
-#### Retitle
-
-**New Title**: "Fast-Moving Versus Mission-Critical Engineering"
-
-#### Rename
-
-**New Filename**: Rename the file to `_drafts/fast_moving_versus_mission_critical_engineering.markdown`.
+Spell out all acronyms the first time they are used.
+Specifically, DORA does not appear to be spelled out.
+Some of the standards bodies do not appear to be spelled out.
+It might make sense to use sentences that "prime the text" to
+spell out acronyms.
+For example:
+"The {body A} (acronym) and {body B} (acronym) {relevance stated before details.}"
 
 ## Context
 
@@ -62,8 +47,7 @@ I want to get a couple of articles published while I still remember what they ar
 
 ## Success Criteria
 
-- Article retitled and file renamed.
-- FMCG spelled out on first use and explained.
+- In A93, all acronyms are spelled out on first use.
 
 ## Notes
 

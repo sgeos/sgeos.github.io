@@ -9,45 +9,50 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-18
-**Task**: A93-P3 Refine Article A93 FMCG Explanation and Title
+**Task**: A93-P4 Spell Out All Acronyms in A93
 
 ---
 
 ## Verification
 
-### FMCG Spelled Out
+### Acronyms Spelled Out
 
-- First use (opening prose, line 45) now reads "Fast-Moving Consumer Goods (FMCG) engineering mode."
-- Subsection heading (line 82) uses acronym only: "### FMCG Engineering."
-- All subsequent uses are acronym only.
+All acronyms in A93 are now spelled out on first use.
 
-### Conventional FMCG Explanation
+| Acronym | Spell-out | Location |
+|---------|-----------|----------|
+| MVP | Minimum viable product | Line 16, opening prose |
+| FMCG | Fast-Moving Consumer Goods | Line 45, opening prose (unchanged) |
+| DORA | DevOps Research and Assessment | Line 247, "Why Cost of Failure" section |
+| IEC | International Electrotechnical Commission | Line 330, priming sentence before Safety Integrity Levels |
+| ISO | International Organization for Standardization | Line 331, same priming sentence |
+| SIL | Safety Integrity Levels | Line 338 (unchanged) |
+| RTCA | RTCA (identified as publisher of DO-178C) | Line 350 |
+| DAL | Design Assurance Levels | Line 352 (unchanged) |
+| ASIL | Automotive Safety Integrity Levels | Line 366 (unchanged) |
+| QM | Quality Management | Line 367 (unchanged) |
+| IT | Information Technology | Line 387, Bimodal IT section heading and text |
+| MCAS | Maneuvering Characteristics Augmentation System | Line 568, Mindset Mismatch section |
+| STAMP | Systems-Theoretic Accident Model and Processes | Line 724, Future Reading section |
+| UI | Replaced with "user interface" (single use, no acronym introduced) | Line 444 |
 
-- New paragraph added at the start of the FMCG Engineering subsection explaining the conventional usage of the term.
-- Toilet paper used as canonical example: produced in bulk, sold quickly, consumed rapidly. Poor quality toilet paper is better than no toilet paper. Nominal toilet paper that is worse than nothing does not meet the bar to be considered toilet paper.
-- The analogy to engineering is then drawn: an FMCG engineering project produces a durable product, but the infrastructure allows for low-cost patching. The product is not disposable. When a defect is discovered, the cost of deploying a correction is low enough that feedback from a flawed release outweighs the cost of the flaw.
+### Priming Text
 
-### Title and Filename
+A priming sentence was added before the IEC 61508 paragraph following the user's suggested pattern: "The International Electrotechnical Commission (IEC) and the International Organization for Standardization (ISO) publish safety standards that formalize failure consequence into quantitative engineering process requirements." This introduces both standards bodies before the detailed paragraphs that reference their specific standards.
 
-- Title changed from "FMCG Versus Mission-Critical Engineering" to "Fast-Moving Versus Mission-Critical Engineering."
-- File renamed from `fmcg_versus_mission_critical_engineering.markdown` to `fast_moving_versus_mission_critical_engineering.markdown` via git mv.
-
-### Draft Summary
-
-- Updated: title, filename, and description reflect new title and FMCG explanation.
+The Bimodal IT section heading was changed to "Bimodal Information Technology" with the acronym introduced in the first sentence of the section body.
 
 ---
 
 ## Questions for Human Review
 
-- Review the toilet paper analogy and the transition to the engineering context for tone and accuracy.
+- RTCA was originally "Radio Technical Commission for Aeronautics" but now officially uses just "RTCA" as its name. The article identifies DO-178C as an "RTCA standard" without expanding the acronym further. Verify this is acceptable.
 
 ---
 
 ## Notes
 
 - Next available article number: A94.
-- 6 release candidates: A88 "Radioactive Half-Life Demurrage Cryptocurrency Coin," A89 "Cryptotelemeritocracy," A90 "Introduction to Space Studies," A91 "Concentrated Liquidity Market Maker Mathematics," A92 "Cryptotelemeritocracy for Space Exploitation," A93 "Fast-Moving Versus Mission-Critical Engineering."
+- 6 release candidates: A88, A89, A90, A91, A92, A93.
 - 0 stubs.
-- 8 pre-release candidates: Android Development on FreeBSD, Android Unit Testing, Claude Code on FreeBSD, Claude Code on OpenBSD, Claude Code Over SSH, Phoenix JSON API Authentication with Guardian and Ueberauth, Solana sBPF Assembly Example, Getting Started with Solana Using Rust and Pinocchio.
 - Publication order dependency: A89 before A92. A88, A90, A91, and A93 have no dependencies.
