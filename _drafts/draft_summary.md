@@ -312,6 +312,35 @@ Seventeen references across five categories (Book, Reference, Related Post, Rese
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication.
 
+### Long-Form Writing in the Age of Large Language Models — Release Candidate
+
+**File**: `long_form_writing_in_age_of_large_language_models.markdown`
+**Article**: A94, "Long-Form Writing in the Age of Large Language Models"
+**Topic**: The critical importance of long-form writing in the LLM era, argued through a 5,000-year history of information technology
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article arguing that long-form writing is more valuable in the LLM era than ever.
+Two-part thesis: (1) long-form posts are durable assets anchoring the "Permanent Web,"
+and (2) human-authored long-form content is the high-fidelity ore required to prevent model collapse.
+Historical sweep from pre-history (oral tradition, Ong) through cuneiform (Schmandt-Besserat),
+the alphabet, Euclid, the Library of Alexandria, codex, paper, Al-Khwarizmi,
+medieval scriptoria, Fibonacci, Gutenberg (Eisenstein), the early modern period
+(Pacioli, Napier, Pascal, scientific journals, Leibniz, the Encyclopédie, Bayes),
+the industrial revolution (Boole, Dewey Decimal, Carnegie libraries),
+the mechanization of thought (Jacquard, Babbage/Lovelace, Kelvin, Hollerith,
+Gödel, Turing, Bush, Shannon), analog to digital transition, and the contemporary era
+(link rot, walled gardens, Internet Archive).
+Bridging concepts cover search versus synthesis and the model collapse risk
+(Shumailov et al. 2024, Habsburg AI, Doctorow, FineWeb, Villalobos).
+The Library Paradox contrasts walled gardens with the open web.
+Four historical conclusions drawn inductively from the record with epistemological framing.
+Comprehensive reference index with 60 entries across Book, Reference, and Research categories.
+
+**Remaining Work**:
+Human review and final proofread before publication.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -439,8 +468,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Seventeen files exist in `_drafts/`. One is a template.
+Seven drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A87 have been published.
 Writing Proofs (A79) has been published.
@@ -453,14 +482,16 @@ Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
-and Fast-Moving Versus Mission-Critical Engineering (A93) have been fully drafted
+Fast-Moving Versus Mission-Critical Engineering (A93),
+and Long-Form Writing in the Age of Large Language Models (A94) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
 A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
+A94 has no post_url dependencies.
 Publication order dependency: A89 before A92.
-A88, A90, A91, and A93 have no dependencies.
+A88, A90, A91, A93, and A94 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

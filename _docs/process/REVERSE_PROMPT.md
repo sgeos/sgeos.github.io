@@ -9,50 +9,61 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-18
-**Task**: A93-P4 Spell Out All Acronyms in A93
+**Task**: A94-P1 Draft Long-Form Writing in the Age of Large Language Models
 
 ---
 
 ## Verification
 
-### Acronyms Spelled Out
+### Article Drafted
 
-All acronyms in A93 are now spelled out on first use.
+Article A94, "Long-Form Writing in the Age of Large Language Models," has been drafted at `_drafts/long_form_writing_in_age_of_large_language_models.markdown`.
 
-| Acronym | Spell-out | Location |
-|---------|-----------|----------|
-| MVP | Minimum viable product | Line 16, opening prose |
-| FMCG | Fast-Moving Consumer Goods | Line 45, opening prose (unchanged) |
-| DORA | DevOps Research and Assessment | Line 247, "Why Cost of Failure" section |
-| IEC | International Electrotechnical Commission | Line 330, priming sentence before Safety Integrity Levels |
-| ISO | International Organization for Standardization | Line 331, same priming sentence |
-| SIL | Safety Integrity Levels | Line 338 (unchanged) |
-| RTCA | RTCA (identified as publisher of DO-178C) | Line 350 |
-| DAL | Design Assurance Levels | Line 352 (unchanged) |
-| ASIL | Automotive Safety Integrity Levels | Line 366 (unchanged) |
-| QM | Quality Management | Line 367 (unchanged) |
-| IT | Information Technology | Line 387, Bimodal IT section heading and text |
-| MCAS | Maneuvering Characteristics Augmentation System | Line 568, Mindset Mismatch section |
-| STAMP | Systems-Theoretic Accident Model and Processes | Line 724, Future Reading section |
-| UI | Replaced with "user interface" (single use, no acronym introduced) | Line 444 |
+| Section | Content |
+|---------|---------|
+| Opening Prose | Paradox framed. Two-part thesis stated. Epistemological preview. |
+| Software Versions | Date placeholder (2026-02-25). |
+| A Brief History of Information Storage | Nine subsections covering pre-history through contemporary era. |
+| Pre-History | Oral tradition, Ong, mnemonic compression. |
+| Early Writing | Schmandt-Besserat, clay tokens, cuneiform, grain ledger as first database. |
+| From Alphabet to Movable Type | Abacus, alphabet, Euclid, Library of Alexandria/Pinakes, Antikythera, codex, paper, Al-Khwarizmi, scriptoria (with model collapse analogy), Fibonacci, astrolabes, East Asian movable type. |
+| First Information Explosion | Gutenberg, Eisenstein, indexability. |
+| Early Modern Period | Pacioli, Gessner, Napier, slide rule, Pascal, scientific journals, Leibniz, Statute of Anne, newspapers, Encyclopédie, Bayes, Chappe telegraph. |
+| Industrial Revolution | Boolean algebra, Dewey Decimal, Carnegie libraries. |
+| Mechanization of Thought | Jacquard, Babbage/Lovelace, Kelvin, Hollerith, Gödel, Turing, Bush, Shannon. |
+| Analog to Digital | IBM 350, fragility asymmetry, Stewart Brand. |
+| Contemporary Era | Link rot (Pew, Ahrefs), Berners-Lee, Kahle, walled gardens. |
+| Search Versus Synthesis | Keywords to context. Higher metadata in long-form. |
+| Model Collapse Risk | Shumailov et al., Habsburg AI (Sadowski), Doctorow, Villalobos, FineWeb. |
+| Library Paradox | Walled gardens vs static sites. Internet Archive. |
+| Historical Conclusions | Four conclusions with epistemological framing. |
+| Conclusion | Infrastructural function of long-form writing. |
+| Future Reading | 10 entries. |
+| References | 60 entries across Book, Reference, Research categories. |
 
-### Priming Text
+### URL Verification
 
-A priming sentence was added before the IEC 61508 paragraph following the user's suggested pattern: "The International Electrotechnical Commission (IEC) and the International Organization for Standardization (ISO) publish safety standards that formalize failure consequence into quantitative engineering process requirements." This introduces both standards bodies before the detailed paragraphs that reference their specific standards.
+All 62 reference URLs verified with HTTP 200 status. Some Wikipedia URLs initially returned 429 (rate limiting from parallel requests) but all succeeded on sequential retry.
 
-The Bimodal IT section heading was changed to "Bimodal Information Technology" with the acronym introduced in the first sentence of the section body.
+### Process Files Updated
+
+- TASKLOG.md: current task updated, history entry added.
+- REVERSE_PROMPT.md: overwritten.
+- draft_summary.md: A94 entry added, counts updated (17 files, 7 RCs, 0 stubs).
 
 ---
 
 ## Questions for Human Review
 
-- RTCA was originally "Radio Technical Commission for Aeronautics" but now officially uses just "RTCA" as its name. The article identifies DO-178C as an "RTCA standard" without expanding the acronym further. Verify this is acceptable.
+- The Software Versions section contains only a date placeholder. Run `date -u`, `uname -vm`, and `sw_vers` on the publication machine and update.
+- The article is long by design per the "no length limit" directive. Verify the pacing holds through the full reading.
+- The Habsburg AI attribution (Sadowski 2023) is referenced via the Wikipedia Model Collapse article since no stable primary URL exists. Verify this is acceptable.
 
 ---
 
 ## Notes
 
-- Next available article number: A94.
-- 6 release candidates: A88, A89, A90, A91, A92, A93.
+- Next available article number: A95.
+- 7 release candidates: A88, A89, A90, A91, A92, A93, A94.
 - 0 stubs.
-- Publication order dependency: A89 before A92. A88, A90, A91, and A93 have no dependencies.
+- Publication order dependency: A89 before A92. A88, A90, A91, A93, and A94 have no dependencies.

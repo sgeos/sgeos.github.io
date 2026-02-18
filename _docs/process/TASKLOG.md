@@ -8,30 +8,30 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Spell Out All Acronyms in A93 (A93-P4)
+**Name**: Draft Long-Form Writing in the Age of Large Language Models (A94-P1)
 **Status**: Complete
 **Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] In A93, all acronyms are spelled out on first use.
+- [x] New article A94 drafted and in release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A93-P4-T1 | Spell out all acronyms | Complete | MVP (line 16), DORA (line 247), IEC/ISO (priming sentence, lines 330-331), RTCA (line 350), IT (line 387), MCAS (line 568), STAMP (line 724). UI replaced with full phrase. |
-| A93-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
+| A94-P1-T1 | Research and draft article | Complete | Historical sweep from pre-history through contemporary era. Two-part thesis. Four historical conclusions with epistemological framing. 60 references. |
+| A94-P1-T2 | Verify all reference URLs | Complete | All 62 URLs verified (200 status). Wikipedia URLs initially returned 429 due to rate limiting, all succeeded on retry. |
+| A94-P1-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- Article A93, "Fast-Moving Versus Mission-Critical Engineering," dated 2026-02-24, categories: management philosophy.
-- References A86 (Mission Command) and A87 (Telemeritocracy) via post_url (both published).
-- No publication dependencies on unpublished articles.
-- Next available article number: A94.
-- 6 release candidates: A88, A89, A90, A91, A92, A93.
+- Article A94, "Long-Form Writing in the Age of Large Language Models," dated 2026-02-25, categories: ai philosophy.
+- No post_url dependencies on other articles.
+- Next available article number: A95.
+- 7 release candidates: A88, A89, A90, A91, A92, A93, A94.
 - 0 stubs.
-- Publication order dependency: A89 before A92. A88, A90, A91, and A93 have no dependencies.
+- Publication order dependency: A89 before A92. A88, A90, A91, A93, and A94 have no dependencies.
 
 ## History
 
@@ -78,3 +78,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A93-P2: Retitled to "FMCG Versus Mission-Critical Engineering." Terminology shifted from "commercial software engineering" to "FMCG Engineering" with justification. File renamed. Draft summary synced. |
 | 2026-02-18 | A93-P3: Retitled to "Fast-Moving Versus Mission-Critical Engineering." FMCG spelled out on first use. Conventional FMCG explained with toilet paper analogy. File renamed. Draft summary synced. |
 | 2026-02-18 | A93-P4: All acronyms spelled out on first use. IEC/ISO priming sentence added. RTCA identified for DO-178C. MVP, DORA, IT, MCAS, STAMP spelled out. UI replaced with full phrase. |
+| 2026-02-18 | A94-P1: "Long-Form Writing in the Age of Large Language Models" researched and written (60 references). Historical sweep from pre-history through contemporary era with interleaved math and computing milestones. Four historical conclusions with epistemological framing. Draft summary synced (17 files, 7 RCs, 0 stubs). |
