@@ -8,28 +8,27 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Refine Article A93 Terminology and Title (A93-P2)
+**Name**: Refine Article A93 FMCG Explanation and Title (A93-P3)
 **Status**: Complete
 **Started**: 2026-02-18
 
 ## Success Criteria
 
 - [x] Article retitled and file renamed.
-- [x] "Commercial Engineering" removed as a primary category.
-- [x] Content accurately reflects that FMCG products are durable/patchable, not "throwaway."
+- [x] FMCG spelled out on first use and explained.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A93-P2-T1 | Retitle article | Complete | Title changed to "FMCG Versus Mission-Critical Engineering." |
-| A93-P2-T2 | Shift terminology to FMCG | Complete | "Commercial Software Engineering" replaced with "FMCG Engineering" as primary term. Justification added for why "commercial" is insufficient. FMCG defined as durable product with low-cost patching infrastructure. |
-| A93-P2-T3 | Rename file | Complete | `cost_of_failure_spectrum.markdown` renamed to `fmcg_versus_mission_critical_engineering.markdown` via git mv. |
-| A93-P2-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A93-P3-T1 | Spell out FMCG on first use | Complete | First use (opening prose) now reads "Fast-Moving Consumer Goods (FMCG)." Subsection heading uses acronym only. |
+| A93-P3-T2 | Explain conventional FMCG | Complete | Added conventional FMCG explanation with toilet paper analogy. Explained how the analogy applies to engineering. |
+| A93-P3-T3 | Retitle and rename | Complete | Title changed to "Fast-Moving Versus Mission-Critical Engineering." File renamed to `fast_moving_versus_mission_critical_engineering.markdown`. |
+| A93-P3-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
 
 ## Notes
 
-- Article A93, "FMCG Versus Mission-Critical Engineering," dated 2026-02-24, categories: management philosophy.
+- Article A93, "Fast-Moving Versus Mission-Critical Engineering," dated 2026-02-24, categories: management philosophy.
 - References A86 (Mission Command) and A87 (Telemeritocracy) via post_url (both published).
 - No publication dependencies on unpublished articles.
 - Next available article number: A94.
@@ -80,3 +79,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A87-P2: "Telemeritocracy" published (2026-02-19 date). Fixed post_url hyphen/underscore mismatch in A87 and A89. Software versions date updated. Draft summary synced (15 files, 5 RCs, 0 stubs). |
 | 2026-02-18 | A93-P1: "The Cost of Failure Spectrum" researched and written (17 references). Date sync convention documented in POST_STRUCTURE.md. Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-18 | A93-P2: Retitled to "FMCG Versus Mission-Critical Engineering." Terminology shifted from "commercial software engineering" to "FMCG Engineering" with justification. File renamed. Draft summary synced. |
+| 2026-02-18 | A93-P3: Retitled to "Fast-Moving Versus Mission-Critical Engineering." FMCG spelled out on first use. Conventional FMCG explained with toilet paper analogy. File renamed. Draft summary synced. |

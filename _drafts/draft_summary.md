@@ -278,10 +278,10 @@ Twenty references across four categories (Book, Reference, Related Post, Researc
 **Remaining Work**:
 Human review, URL verification, and final proofread before publication. A89 must be published before A92.
 
-### FMCG Versus Mission-Critical Engineering — Release Candidate
+### Fast-Moving Versus Mission-Critical Engineering — Release Candidate
 
-**File**: `fmcg_versus_mission_critical_engineering.markdown`
-**Article**: A93, "FMCG Versus Mission-Critical Engineering"
+**File**: `fast_moving_versus_mission_critical_engineering.markdown`
+**Article**: A93, "Fast-Moving Versus Mission-Critical Engineering"
 **Topic**: The dichotomy between FMCG engineering and mission-critical engineering, framed as a cost of failure continuum
 **Completion**: ~95%
 **Publication Sensibility**: High
@@ -297,6 +297,8 @@ noting that Sommerville's "commercial software engineering" is a near-equivalent
 but insufficient because the dichotomy applies to hobbyist, volunteer, and open-source projects.
 Defines FMCG Engineering as a mode where the product is durable
 but the infrastructure allows for low-cost patching.
+Explains conventional FMCG usage with a toilet paper analogy
+to ground the engineering metaphor.
 Surveys established frameworks including IEC 61508, DO-178C, ISO 26262,
 Gartner Bimodal IT, and Brand's Pace Layering.
 Addresses the hybrid pattern where a mission-critical core
@@ -451,7 +453,7 @@ Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
-and FMCG Versus Mission-Critical Engineering (A93) have been fully drafted
+and Fast-Moving Versus Mission-Critical Engineering (A93) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.

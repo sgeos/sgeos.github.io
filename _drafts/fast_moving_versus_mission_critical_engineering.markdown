@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 comments: true
-title: "FMCG Versus Mission-Critical Engineering"
+title: "Fast-Moving Versus Mission-Critical Engineering"
 date: 2026-02-24 17:39:57 +0000
 categories: management philosophy
 ---
@@ -42,7 +42,7 @@ Does a poor quality minimum viable product
 have positive or negative value?
 If the answer is positive,
 the project operates
-in the FMCG engineering mode.
+in the Fast-Moving Consumer Goods (FMCG) engineering mode.
 If the answer is negative,
 the project operates
 in the mission-critical engineering mode.
@@ -81,11 +81,36 @@ $ system_profiler SPHardwareDataType | sed -n '8,10p'
 
 ### FMCG Engineering
 
-Fast-Moving Consumer Goods (FMCG) engineering
-is the speed-first engineering mode
-where the product is durable
+In its conventional usage,
+FMCG refers to products
+that are produced in bulk,
+sold quickly, and consumed or replaced
+in a short period.
+Toilet paper is a canonical example.
+It is manufactured at scale,
+sold at low margin,
+and consumed rapidly.
+Poor quality toilet paper
+is better than no toilet paper.
+Nominal toilet paper
+that is worse than nothing
+does not meet the bar
+to be considered toilet paper at all.
+
+The analogy to engineering
+is appropriate
+because it captures the essential property.
+An FMCG engineering project
+produces a durable product,
 but the infrastructure allows
 for low-cost patching.
+The product is not disposable.
+It persists and serves users.
+But when a defect is discovered,
+the cost of deploying a correction
+is low enough
+that the feedback from a flawed release
+outweighs the cost of the flaw.
 A poor quality minimum viable product
 still yields positive value
 because user feedback drives iteration
