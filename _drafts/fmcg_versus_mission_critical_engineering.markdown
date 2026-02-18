@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 comments: true
-title: "The Cost of Failure Spectrum"
+title: "FMCG Versus Mission-Critical Engineering"
 date: 2026-02-24 17:39:57 +0000
 categories: management philosophy
 ---
@@ -42,7 +42,7 @@ Does a poor quality minimum viable product
 have positive or negative value?
 If the answer is positive,
 the project operates
-in the commercial engineering mode.
+in the FMCG engineering mode.
 If the answer is negative,
 the project operates
 in the mission-critical engineering mode.
@@ -79,21 +79,41 @@ $ system_profiler SPHardwareDataType | sed -n '8,10p'
 
 ## The Dichotomy
 
-### Commercial Software Engineering
+### FMCG Engineering
 
-The conventional academic term
-for the speed-first engineering mode
+Fast-Moving Consumer Goods (FMCG) engineering
+is the speed-first engineering mode
+where the product is durable
+but the infrastructure allows
+for low-cost patching.
+A poor quality minimum viable product
+still yields positive value
+because user feedback drives iteration
+and the cost of correcting defects
+after deployment is manageable.
+
+The near-equivalent academic term
 is commercial software engineering.
 Ian [Sommerville][book_sommerville]
 draws the distinction explicitly
 in his standard textbook *Software Engineering*
 between commercial software
 and [critical systems][ref_critical_system].
-Commercial software
-is software where the primary risk of failure
-is lost revenue or user inconvenience
-rather than physical harm
-or catastrophic financial loss.
+However, the term "commercial" is insufficient.
+The FMCG and mission-critical dichotomy
+applies equally to hobbyist projects,
+volunteer efforts,
+and open-source software
+where "commercial" implications do not fit.
+A hobbyist game developer
+releasing a free side project
+and a venture-backed startup
+releasing a consumer application
+both operate in the FMCG mode.
+Neither is meaningfully described
+as "commercial" engineering,
+but both benefit from rapid iteration
+over deferred perfection.
 
 The practitioner term
 for the methodology
@@ -403,7 +423,7 @@ discussed in the next section.
 ## The Hybrid Pattern
 
 Most projects
-are not purely commercial
+are not purely FMCG
 or purely mission-critical.
 They contain components
 that operate in different modes.
@@ -414,14 +434,14 @@ where a rounding error
 in currency conversion
 can produce regulatory violations
 and financial losses.
-The same platform has a commercial
+The same platform has an FMCG
 user interface
 where a layout defect
 is a minor inconvenience
 that can be fixed in the next deployment.
 
 A video game
-has a commercial gameplay loop
+has an FMCG gameplay loop
 where a balance issue
 is an annoyance
 that the community will vocally report
@@ -440,7 +460,7 @@ where a pricing defect
 can cause the platform
 to overbid by millions of dollars
 in minutes.
-The same platform has a commercial
+The same platform has an FMCG
 reporting dashboard
 where a data visualization error
 is a nuisance
@@ -450,13 +470,13 @@ can explain to the client.
 The boundary identification problem
 is itself an engineering decision.
 Knowing where the mission-critical core ends
-and the commercial shell begins
+and the FMCG shell begins
 requires domain expertise
 and deliberate analysis.
 The boundary is not always obvious.
 A login system
 for a consumer social network
-is commercial in isolation.
+is FMCG in isolation.
 The same login system
 for a healthcare portal
 that provides access
@@ -486,12 +506,12 @@ Fast layers innovate,
 slow layers stabilize.
 The mission-critical core
 is the slow layer.
-The commercial shell
+The FMCG shell
 is the fast layer.
 The architecture
 should reflect this distinction
 so that rapid iteration
-in the commercial shell
+in the FMCG shell
 cannot propagate failures
 into the mission-critical core.
 
@@ -503,7 +523,7 @@ is not the wrong engineering approach.
 It is the wrong identification
 of which mode applies.
 
-A commercial mindset
+An FMCG mindset
 applied to a mission-critical project
 produces software
 that ships quickly
@@ -511,7 +531,7 @@ and fails catastrophically.
 The [Therac-25][ref_therac_25] radiation therapy machine
 killed patients in the 1980s
 in part because software development practices
-appropriate for commercial software
+appropriate for FMCG software
 were applied to a safety-critical system.
 The Boeing 737 MAX MCAS system
 contributed to two fatal crashes
@@ -521,7 +541,7 @@ the safety-critical nature
 of the flight control augmentation.
 
 A mission-critical mindset
-applied to a commercial project
+applied to an FMCG project
 produces software
 that is rigorously verified,
 thoroughly documented,
@@ -555,7 +575,7 @@ The critical skill
 is correct identification
 of which mode applies.
 If the project has a mission-critical core
-with a commercial shell,
+with an FMCG shell,
 defining that boundary is essential.
 Engineers working on the core
 must understand
@@ -586,9 +606,8 @@ A poor quality MVP
 generates casualties, lawsuits,
 or catastrophic financial loss.
 
-The conventional terminology
-for these two modes
-is commercial software engineering
+This article terms these two modes
+FMCG engineering
 and mission-critical engineering.
 The established frameworks
 from Sommerville's critical systems taxonomy
@@ -601,7 +620,7 @@ provide theoretical and practical foundations
 for the hybrid pattern
 where a mission-critical core
 operates under rigorous processes
-while a commercial shell
+while an FMCG shell
 iterates rapidly around it.
 
 The article on
@@ -619,7 +638,7 @@ Before delegating authority
 or assigning it based on merit,
 the organization must determine
 whether the project demands
-the speed of commercial engineering
+the speed of FMCG engineering
 or the rigor of mission-critical engineering.
 The answer to that question
 determines the engineering culture,
@@ -635,7 +654,7 @@ formalizes the build-measure-learn loop
 and the concept of validated learning
 through minimum viable products.
 It is the foundational text
-for the commercial engineering mode.
+for the FMCG engineering mode.
 
 Perrow's *[Normal Accidents][book_normal_accidents]*
 argues that catastrophic accidents
@@ -647,7 +666,7 @@ for understanding
 why mission-critical engineering
 demands fundamentally different practices
 rather than merely "more careful" versions
-of commercial practices.
+of FMCG practices.
 
 Forsgren, Humble, and Kim's
 *[Accelerate][book_accelerate]*
@@ -675,7 +694,7 @@ for systems-theoretic accident analysis.
 It provides tools
 for identifying the boundary
 between mission-critical
-and commercial components
+and FMCG components
 in complex systems.
 
 ## References

@@ -37,61 +37,33 @@ I manually made this change.
 
 ## Objectives
 
-### Document Date Sync
+### Refine Article A93 Terminology and Title
 
-If appropriate, document that the software versions and header dates should be synced.
+Update the draft currently located at `_drafts/cost_of_failure_spectrum.markdown`
+with the following specific requirements:
 
-### Draft New Article
+#### Terminology Shift
 
-Please draft an article on the difference between what I call
-Fast Move Consumer Goods (FMCG) engineering,
-and mission-critical engineering.
-I highly suspect that there is an industry standard,
-or conventional term for "FMCG Engineering."
-I will use FMCG for the spec, but please use the conventional term in the article.
-Research this topic and fold reference links into the body.
-Include "Future Reading" section, and a comprehensive list of references.
-Title the article appropriately, and assign a filename that reflects the title.
+- **Primary Term**:
+  Use "FMCG Engineering" (Fast-Moving Consumer Goods Engineering) as the
+  primary term for the speed-first mode.
+- **Justification**:
+  Explicitly state in the text that while "Commercial Software Engineering"
+  is a near-equivalent academic term, it is insufficient.
+  The FMCG/Mission-Critical dichotomy applies to hobbyist, volunteer,
+  and open-source projects where "commercial" implications do not fit.
+- **Definition**:
+  Define FMCG Engineering as a mode where the product is durable but
+  the infrastructure allows for low-cost patching,
+  meaning a poor-quality MVP still yields positive value through feedback.
 
-#### Background
+#### Retitle
 
-In my experience, there are two kinds of engineering:
+**New Title**: "FMCG Versus Mission-Critical Engineering"
 
-- Fast Move Consumer Goods (FMCG)
-- Mission-Critical
+#### Rename
 
-The most succinct way I have found to differentiate the two
-is whether or not a poor quality MVP has positive or negative value.
-The idea is that some engineer projects value speed more than correctness.
-If your poor quality MVP has:
-
-- Positive value because you can iterate on user feedback
-  and make things better, you are in FMCG land.
-  Examples: Video Streaming, Video Games
-- Negative because you will probably go out of business for killing someone or
-  losing a lot money, you are in mission-critical land.
-  Examples: Aerospace, FinTech, AdTech
-
-Most projects tend towards FMCG, where shipping yesterday would have been ideal.
-A number of projects have a mission-critical core that needs to be correct,
-and a FMCG shell that can be acceptably iterated upon to iron out quality issues
-with live users.
-
-The FMCG and mission-critical mindsets are very different.
-
-- FMCG: Ship when possible, fix later.
-- Mission-Critical: Fix now, ship when ready.
-
-A FMCG mindset on a mission-critical project may get people killed.
-A mission-critical mindset on a FMCG project will likely be too slow to be competitive.
-It is possible for the same person to adapt their mindset to the project,
-and it is also important to know what kind of project you are working on.
-If the project has a mission-critical core with a FMCG shell,
-defining that boundary is important.
-
-#### Publication
-
-Assign article number and prospective publication date, but do not publish.
+**New Filename**: Rename the file to `_drafts/fmcg_versus_mission_critical_engineering.markdown`.
 
 ## Context
 
@@ -103,8 +75,9 @@ I want to get a couple of articles published while I still remember what they ar
 
 ## Success Criteria
 
-- New article drafted and in release candidate status.
-- Date sync documented in knowledge graph.
+- Article retitled and file renamed.
+- "Commercial Engineering" removed as a primary category.
+- Content accurately reflects that FMCG products are durable/patchable, not "throwaway."
 
 ## Notes
 
