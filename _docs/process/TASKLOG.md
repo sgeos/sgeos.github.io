@@ -8,23 +8,20 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Refine Article A93 FMCG Explanation and Title (A93-P3)
+**Name**: Spell Out All Acronyms in A93 (A93-P4)
 **Status**: Complete
 **Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] Article retitled and file renamed.
-- [x] FMCG spelled out on first use and explained.
+- [x] In A93, all acronyms are spelled out on first use.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A93-P3-T1 | Spell out FMCG on first use | Complete | First use (opening prose) now reads "Fast-Moving Consumer Goods (FMCG)." Subsection heading uses acronym only. |
-| A93-P3-T2 | Explain conventional FMCG | Complete | Added conventional FMCG explanation with toilet paper analogy. Explained how the analogy applies to engineering. |
-| A93-P3-T3 | Retitle and rename | Complete | Title changed to "Fast-Moving Versus Mission-Critical Engineering." File renamed to `fast_moving_versus_mission_critical_engineering.markdown`. |
-| A93-P3-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft summary updated. |
+| A93-P4-T1 | Spell out all acronyms | Complete | MVP (line 16), DORA (line 247), IEC/ISO (priming sentence, lines 330-331), RTCA (line 350), IT (line 387), MCAS (line 568), STAMP (line 724). UI replaced with full phrase. |
+| A93-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
 
 ## Notes
 
@@ -80,3 +77,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A93-P1: "The Cost of Failure Spectrum" researched and written (17 references). Date sync convention documented in POST_STRUCTURE.md. Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-18 | A93-P2: Retitled to "FMCG Versus Mission-Critical Engineering." Terminology shifted from "commercial software engineering" to "FMCG Engineering" with justification. File renamed. Draft summary synced. |
 | 2026-02-18 | A93-P3: Retitled to "Fast-Moving Versus Mission-Critical Engineering." FMCG spelled out on first use. Conventional FMCG explained with toilet paper analogy. File renamed. Draft summary synced. |
+| 2026-02-18 | A93-P4: All acronyms spelled out on first use. IEC/ISO priming sentence added. RTCA identified for DO-178C. MVP, DORA, IT, MCAS, STAMP spelled out. UI replaced with full phrase. |
