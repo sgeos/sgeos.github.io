@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Telemeritocracy"
-date: 2026-02-19 00:01:00 +0000
+date: 2026-02-18 15:58:18 +0000
 categories: management philosophy
 ---
 
