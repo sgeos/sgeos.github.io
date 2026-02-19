@@ -71,32 +71,6 @@ Six references across three categories (Reference, Related Post, Research).
 **Remaining Work**:
 Human review, URL verification, MathJax rendering check, and WASM compilation before publication.
 
-### Radioactive Half-Life Demurrage Cryptocurrency Coin — Release Candidate
-
-**File**: `radioactive_half_life_demurrage_cryptocurrency_coin.markdown`
-**Article**: A88, "Radioactive Half-Life Demurrage Cryptocurrency Coin"
-**Topic**: Cryptocurrency protocol design combining demurrage with proof of useful work and hierarchical reaping
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from informal notes into a researched article.
-Explores a thought experiment in cryptocurrency protocol design
-that addresses the security budget problem through three mechanisms.
-Exponential decay with a 100-year half-life creates a perpetual security subsidy.
-Hierarchical reaping distributes the decay cost across three tiers of holders.
-Proof of useful work on the RISC-V ISA replaces hash grinding with verifiable computation.
-Covers demurrage history (Gesell, Fisher, Freicoin, Chiemgauer),
-half-life decay mathematics with MathJax,
-whole-coin quantization, the economic loop,
-deterministic smart contract binding with salt-parameterized proof of work,
-verification licensing, staking and dispute resolution,
-protocol specification, and design tradeoffs.
-Fourteen references across three categories (Book, Reference, Research).
-
-**Remaining Work**:
-Human review, URL verification, and MathJax rendering check before publication.
-
 ### Introduction to Space Studies — Release Candidate
 
 **File**: `introduction_to_space_studies.markdown`
@@ -468,16 +442,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventeen files exist in `_drafts/`. One is a template.
-Seven drafts have been elevated to release candidate status.
+Sixteen files exist in `_drafts/`. One is a template.
+Six drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A87 have been published.
+A80 through A88 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Radioactive Half-Life Demurrage Cryptocurrency Coin (A88),
 Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
@@ -491,7 +464,7 @@ A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
 Publication order dependency: A89 before A92.
-A88, A90, A91, A93, and A94 have no dependencies.
+A90, A91, A93, and A94 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

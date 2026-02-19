@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Radioactive Half-Life Demurrage Cryptocurrency Coin"
-date: 2026-02-17 00:00:00 +0000
+date: 2026-02-19 01:22:17 +0000
 categories: crypto economics math
 ---
 
@@ -45,7 +45,7 @@ that never reaches zero.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-14 18:03:02 +0000
+2026-02-19 01:22:17 +0000
 
 # OS and Version
 $ uname -vm

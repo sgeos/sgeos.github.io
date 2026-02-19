@@ -65,6 +65,10 @@ Article numbers indicate publication order. An effort should be made to avoid pu
 
 If two posts are published on the same date despite these measures, they retain their assigned article numbers. Drafts remain unnumbered until a decision is made to polish and publish them. Unpublished drafts may be published tactically, which can result in slightly out-of-order article numbers relative to publication date. This is acceptable.
 
+## Article Length
+
+There is no limit on article length. An article should be as long as the subject demands.
+
 ## Standard Sections
 
 Posts follow a consistent section order. Not all sections appear in every post.
