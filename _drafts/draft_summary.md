@@ -374,6 +374,37 @@ Fifty references across four categories (Book 4, Reference 41, Related Post 1, R
 **Remaining Work**:
 Human review and final proofread before publication. A90 must be published before A96.
 
+### What Does the United States Space Force Do? — Release Candidate
+
+**File**: `what_does_united_states_space_force_do.markdown`
+**Article**: A97, "What Does the United States Space Force Do?"
+**Topic**: History, justification, and mission portfolio of the United States Space Force
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article explaining what the United States Space Force does.
+History section traces military space from the Army Ballistic Missile Agency
+through Air Force Space Command to the 2019 establishment,
+with detailed treatment of the Air Force independence precedent
+and the substantively identical arguments used against separation in both cases.
+Justification section documents fighter pilot culture dominance
+using the RAND Corporation study on Air Force officer promotion,
+satellite communications deprioritization by the Air Force,
+and the emergence of space as a contested warfighting domain.
+Mission portfolio section covers ten areas: satellite communications,
+Global Positioning System, missile warning, space domain awareness,
+launch operations, nuclear command control and communications,
+intelligence surveillance and reconnaissance, cyber and electronic warfare,
+weather, and offensive and defensive space operations.
+Organization section covers the three Field Commands,
+delta structure, key installations, Guardian personnel, and budget.
+No post_url dependencies on unpublished articles.
+Forty-two references across two categories (Reference 31, Research 11).
+
+**Remaining Work**:
+Human review and final proofread before publication.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -501,8 +532,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eighteen files exist in `_drafts/`. One is a template.
-Eight drafts have been elevated to release candidate status.
+Nineteen files exist in `_drafts/`. One is a template.
+Nine drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A88 have been published.
 Writing Proofs (A79) has been published.
@@ -517,7 +548,8 @@ Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
 Long-Form Writing in the Age of Large Language Models (A94),
 Human Evolution and the Great Filter (A95),
-and History of Rocketplanes (A96) have been fully drafted
+History of Rocketplanes (A96),
+and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
@@ -526,8 +558,9 @@ A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url.
 A96 references A90 via post_url.
+A97 has no post_url dependencies.
 Publication order dependencies: A89 before A92. A90 before A95. A90 before A96.
-A91, A93, and A94 have no dependencies.
+A91, A93, A94, and A97 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
