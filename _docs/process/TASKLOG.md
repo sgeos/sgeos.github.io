@@ -8,28 +8,24 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A88 and Update Knowledge Graph (A88-P3)
+**Name**: Release Announcement for A88 (A88-P4)
 **Status**: Complete
 **Started**: 2026-02-19
 
 ## Success Criteria
 
-- [x] A88 published with current datetime and correct references to related articles.
+- [x] A88 release announcement generated and reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A88-P3-T1 | Update front matter date and software versions date | Complete | Date set to 2026-02-19 01:22:17 +0000 in both front matter and Software Versions. |
-| A88-P3-T2 | Verify post_url tags | Complete | No post_url tags in A88. No other drafts reference A88 via post_url. |
-| A88-P3-T3 | Publish A88 | Complete | Published to `_posts/2026-02-19-radioactive_half_life_demurrage_cryptocurrency_coin.markdown`. |
-| A88-P3-T4 | Update knowledge graph | Complete | STYLE_GUIDE.md: no reference limit, reference index as first-class deliverable. POST_STRUCTURE.md: no article length limit. |
-| A88-P3-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A88-P4-T1 | Generate release announcement | Complete | Announcement follows CONTENT_WORKFLOW.md template. Hook, summary, 3 takeaways, URL, hashtags. |
+| A88-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
 
 ## Notes
 
-- Article A88, "Radioactive Half-Life Demurrage Cryptocurrency Coin," published 2026-02-19.
-- Knowledge graph updated: no reference limit, no article length limit, reference index is a first-class deliverable.
+- Release announcement for A88 reported in REVERSE_PROMPT.md.
 - Next available article number: A95.
 - 6 release candidates: A89, A90, A91, A92, A93, A94.
 - 0 stubs.
@@ -82,3 +78,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A93-P4: All acronyms spelled out on first use. IEC/ISO priming sentence added. RTCA identified for DO-178C. MVP, DORA, IT, MCAS, STAMP spelled out. UI replaced with full phrase. |
 | 2026-02-18 | A94-P1: "Long-Form Writing in the Age of Large Language Models" researched and written (60 references). Historical sweep from pre-history through contemporary era with interleaved math and computing milestones. Four historical conclusions with epistemological framing. Draft summary synced (17 files, 7 RCs, 0 stubs). |
 | 2026-02-19 | A88-P3: "Radioactive Half-Life Demurrage Cryptocurrency Coin" published (2026-02-19 date). Knowledge graph updated with no-limit writing policies. Draft summary synced (16 files, 6 RCs, 0 stubs). |
+| 2026-02-19 | A88-P4: Release announcement for A88 generated and reported in REVERSE_PROMPT.md. |
