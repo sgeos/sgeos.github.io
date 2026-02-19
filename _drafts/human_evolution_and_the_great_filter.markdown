@@ -94,7 +94,7 @@ $ claude --version
 
 ### The Fossil Record Gap
 
-Earth formed approximately 4.5 billion years ago (BYA).
+Earth formed approximately 4.5 billion years ago.
 The planet's surface was molten during the Hadean eon,
 bombarded by asteroids and comets
 in the Late Heavy Bombardment.
@@ -103,8 +103,8 @@ by approximately 4.4 BYA,
 based on evidence from zircon crystals
 in the Jack Hills formation of Western Australia.
 
-The Last Universal Common Ancestor (LUCA)
-is dated to approximately 4.2 to 4.0 BYA
+The Last Universal Common Ancestor, or LUCA,
+is dated to approximately 4.2 to 4.0 billion years ago
 based on molecular clock analyses.
 A 2024 study published in Nature Ecology and Evolution
 revised the age of LUCA upward
@@ -166,11 +166,11 @@ appear to form readily.
 
 The leading hypothesis for the origin
 of self-replication
-is the RNA World hypothesis,
-which proposes that RNA molecules
+is the Ribonucleic Acid World hypothesis,
+which proposes that ribonucleic acid, or RNA, molecules
 served as both genetic information carriers
-and catalytic enzymes (ribozymes)
-before the evolution of DNA and protein.
+and catalytic enzymes called ribozymes
+before the evolution of deoxyribonucleic acid, or DNA, and protein.
 RNA can store genetic information,
 catalyze chemical reactions,
 and replicate with moderate fidelity.
@@ -232,7 +232,7 @@ Deinococcus radiodurans,
 an extremophilic bacterium,
 survived three years of exposure
 on the exterior of the International Space Station
-in the EXPOSE-R experiment,
+in the Exobiology Exposure Facility, or EXPOSE-R, experiment,
 demonstrating resistance to vacuum,
 ultraviolet radiation,
 and temperature cycling
@@ -243,7 +243,7 @@ though only for approximately ten days
 under direct unshielded ultraviolet radiation.
 Analysis of asteroid samples
 returned by the Hayabusa2 mission to Ryugu
-and the OSIRIS-REx mission to Bennu
+and the Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer, or OSIRIS-REx, mission to Bennu
 confirmed the presence of amino acids,
 nucleobases, and other organic molecules,
 demonstrating that prebiotic chemistry
@@ -317,7 +317,7 @@ and KYA for thousands of years ago.
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **LUCA** | 4.2-4.0 BYA | Genetic code (DNA/RNA), ATP synthesis, cell membrane, Wood-Ljungdahl carbon fixation, nitrogen fixation. Complex prokaryote-grade anaerobic acetogen. | Lived in hydrothermal vents, protected from UV radiation and surface impacts. Thermophilic metabolism suited to hot, anoxic conditions. | Split into Bacteria and Archaea, the two primary domains of cellular life. |
+| **LUCA** | 4.2-4.0 BYA | Genetic code using deoxyribonucleic acid and ribonucleic acid, adenosine triphosphate synthesis, cell membrane, Wood-Ljungdahl carbon fixation, nitrogen fixation. Complex prokaryote-grade anaerobic acetogen. | Lived in hydrothermal vents, protected from ultraviolet radiation and surface impacts. Thermophilic metabolism suited to hot, anoxic conditions. | Split into Bacteria and Archaea, the two primary domains of cellular life. |
 | **Crown Bacteria and Archaea** | 3.4-3.0 BYA | Full domain-level divergence. Archaea developed ether-linked membrane lipids. Bacteria developed ester-linked lipid membranes. Methanogens among the earliest diverging lineages. | Diversified into virtually every available niche, from deep-sea vents to surface rock. | Bacteria became the dominant prokaryotic domain in most surface environments. Archaea dominate extreme environments and the deep biosphere. |
 | **Cyanobacteria** | 3.5-2.7 BYA | Oxygenic photosynthesis using water as an electron donor, releasing free oxygen as a byproduct. First organisms to produce atmospheric oxygen. | Photosynthetic metabolism provided energy independence from chemical substrates. Formed extensive stromatolite mats in shallow marine environments. | Heterotrophic and anaerobic bacterial lineages were driven to low-oxygen refugia as atmospheric oxygen accumulated. |
 | **Great Oxidation Event** | 2.43-2.22 BYA | Atmospheric transformation from reducing to oxidizing. Free oxygen accumulated to approximately 1-2% of modern levels. Aerobic respiration became viable and energetically superior. | Organisms that could use oxygen for aerobic respiration gained an order-of-magnitude increase in metabolic energy yield. | Obligate anaerobes became confined to anoxic environments such as deep sediments, waterlogged soils, and the digestive tracts of animals. |
@@ -326,69 +326,70 @@ and KYA for thousands of years ago.
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **First Eukaryotes** | 2.0-1.8 BYA | Nucleus, endomembrane system, and mitochondria acquired via endosymbiosis of an alphaproteobacterium by an archaeal host. Dramatic increase in cellular complexity and metabolic capacity. | Aerobic respiration via mitochondria enabled exploitation of the newly oxygenated atmosphere. Internal compartmentalization allowed larger cell size and more complex gene regulation. | Prokaryotes (Bacteria and Archaea) remain the most abundant organisms on Earth by biomass and species count but did not develop nuclear membranes or organelles. |
+| **First Eukaryotes** | 2.0-1.8 BYA | Nucleus, endomembrane system, and mitochondria acquired via endosymbiosis of an alphaproteobacterium by an archaeal host. Dramatic increase in cellular complexity and metabolic capacity. | Aerobic respiration via mitochondria enabled exploitation of the newly oxygenated atmosphere. Internal compartmentalization allowed larger cell size and more complex gene regulation. | Prokaryotes, including Bacteria and Archaea, remain the most abundant organisms on Earth by biomass and species count but did not develop nuclear membranes or organelles. |
 | **Sexual Reproduction** | 1.2-1.0 BYA | Meiosis and genetic recombination. Offspring receive shuffled combinations of parental genes rather than clonal copies. | Massively accelerated the pace of adaptive evolution by enabling new trait combinations in each generation. Increased resistance to parasites via genetic diversity. | Asexual eukaryotic lineages retained clonal reproduction. While faster in the short term, clonal lineages accumulate deleterious mutations over time and lack the adaptive flexibility of sexual populations. |
+| **Opisthokonta** | ~1.0 BYA | The clade uniting animals and fungi, defined by a posterior flagellum in motile cells. Diverged from the Archaeplastida, the clade that includes green algae, red algae, and land plants. | Heterotrophic feeding strategy, consuming other organisms or organic material rather than photosynthesizing. | Archaeplastida diverged. This lineage acquired chloroplasts through primary endosymbiosis with a cyanobacterium, gaining the ability to photosynthesize. Land plants colonized terrestrial environments by approximately 470 MYA and became the foundation of terrestrial food webs, but no plant lineage developed locomotion, nervous systems, or technology. |
 
 ### Early Animal Life
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Choanoflagellates** | 900 MYA | Cell adhesion molecules (cadherins), cell signaling, flagellated collar cells for suspension feeding. Colonial forms represent the transition to multicellularity. | Colonial living provided protection from predation and more efficient food filtration through cooperative water currents. | Fungi and other heterotrophic protists diverged and did not develop cell adhesion for animal-grade multicellularity. Fungi became the primary decomposers in terrestrial ecosystems. |
-| **Sponges (Porifera)** | 650 MYA | First true animals. Differentiated cell types without true tissues or organs. Filter feeding through a water canal system. | Sessile filter feeding in marine environments required minimal energy expenditure. Survived Snowball Earth episodes in marine refugia. | Non-metazoan colonial choanoflagellate lineages remained unicellular or loosely colonial. |
-| **Ediacaran Fauna** | 600-541 MYA | First bilaterian-grade organisms in the fossil record. Soft-body impressions including Dickinsonia and Kimberella. First appearance of complex multicellular body plans with tissue-grade organization. | Survival through the Snowball Earth deglaciation was aided by the expansion of habitable shallow marine environments. | Non-bilaterian animals (sponges, cnidarians, ctenophores) retained radial symmetry or asymmetry. Cnidarians (jellyfish, corals) diversified extensively but without bilateral body plans. |
-| **Urbilateria** | 550+ MYA | Bilateral symmetry with distinct left and right sides. Through-gut with separate mouth and anus. Hox gene axis patterning enabling modular body plan evolution. | Bilateral symmetry and a through-gut enabled directional locomotion and continuous feeding. Burrowing in sea floor sediment provided protection during the Cambrian radiation. | Protostomes (insects, mollusks, annelids, crustaceans) diverged. The mouth develops first from the blastopore in protostomes, whereas the anus develops first in deuterostomes, the lineage leading to vertebrates and humans. |
+| **Choanoflagellates** | 900 MYA | Cell adhesion molecules called cadherins, cell signaling, flagellated collar cells for suspension feeding. Colonial forms represent the transition to multicellularity. | Colonial living provided protection from predation and more efficient food filtration through cooperative water currents. | Fungi diverged and did not develop cell adhesion for animal-grade multicellularity. Fungi became the primary decomposers in terrestrial ecosystems. |
+| **Sponges, or Porifera** | 650 MYA | First true animals. Differentiated cell types without true tissues or organs. Filter feeding through a water canal system. | Sessile filter feeding in marine environments required minimal energy expenditure. Survived Snowball Earth episodes in marine refugia. | Non-metazoan colonial choanoflagellate lineages remained unicellular or loosely colonial. |
+| **Ediacaran Fauna** | 600-541 MYA | First bilaterian-grade organisms in the fossil record. Soft-body impressions including Dickinsonia and Kimberella. First appearance of complex multicellular body plans with tissue-grade organization. | Survival through the Snowball Earth deglaciation was aided by the expansion of habitable shallow marine environments. | Non-bilaterian animals including sponges, cnidarians, and ctenophores retained radial symmetry or asymmetry. Cnidarians such as jellyfish and corals diversified extensively but without bilateral body plans. |
+| **Urbilateria** | 550+ MYA | Bilateral symmetry with distinct left and right sides. Through-gut with separate mouth and anus. Hox gene axis patterning enabling modular body plan evolution. | Bilateral symmetry and a through-gut enabled directional locomotion and continuous feeding. Burrowing in sea floor sediment provided protection during the Cambrian radiation. | Protostomes, including insects, mollusks, annelids, and crustaceans, diverged. The mouth develops first from the blastopore in protostomes, whereas the anus develops first in deuterostomes, the lineage leading to vertebrates and humans. |
 
 ### Vertebrate Origins
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Haikouichthys** | 520 MYA | Notochord (primitive backbone), distinct cranium, paired sensory organs, possible gill arches. Among the earliest known vertebrates from the Cambrian Chengjiang Lagerstätte. | Mobility and concentrated sensory organs enabled active predator evasion in the Cambrian seas. Small body size reduced predation risk. | Non-vertebrate chordates (tunicates and lancelets) retained the notochord but did not mineralize a cranium or develop paired appendages. Tunicates became sessile filter feeders as adults. |
-| **Gnathostomes** | 440-420 MYA | Jaws derived from modified gill arches, enabling active predation and a wider range of food sources. Mineralized dermal armor in early forms (placoderms). Paired pectoral and pelvic fins enabling three-dimensional maneuvering. | Jaws transformed vertebrates from passive filter feeders to active predators. Survived the Late Ordovician mass extinction in deeper marine refugia. | Agnatha (jawless vertebrates) including lampreys and hagfish retained sucker-like mouths for parasitic or scavenging feeding. Lampreys survive to the present. |
-| **Eusthenopteron** | 385 MYA | Lobe-finned fish with internal nostrils (choana), reinforced pectoral fins with homologs of the humerus, radius, and ulna, and early lung-like structures. Key intermediate in the fish-to-tetrapod transition. | Lobe fins enabled movement through dense aquatic vegetation in shallow Devonian waterways. Primitive lungs supplemented gill breathing in low-oxygen water. | Ray-finned fishes (Actinopterygii) diverged and became the most species-rich vertebrate group, comprising approximately 95% of all living fish species, but did not develop limb-like appendages. |
+| **Haikouichthys** | 520 MYA | Notochord, or primitive backbone, distinct cranium, paired sensory organs, possible gill arches. Among the earliest known vertebrates from the Cambrian Chengjiang Lagerstätte. | Mobility and concentrated sensory organs enabled active predator evasion in the Cambrian seas. Small body size reduced predation risk. | Non-vertebrate chordates such as tunicates and lancelets retained the notochord but did not mineralize a cranium or develop paired appendages. Tunicates became sessile filter feeders as adults. |
+| **Gnathostomes** | 440-420 MYA | Jaws derived from modified gill arches, enabling active predation and a wider range of food sources. Mineralized dermal armor in early forms such as placoderms. Paired pectoral and pelvic fins enabling three-dimensional maneuvering. | Jaws transformed vertebrates from passive filter feeders to active predators. Survived the Late Ordovician mass extinction in deeper marine refugia. | Agnatha, the jawless vertebrates, including lampreys and hagfish retained sucker-like mouths for parasitic or scavenging feeding. Lampreys survive to the present. |
+| **Eusthenopteron** | 385 MYA | Lobe-finned fish with internal nostrils called choana, reinforced pectoral fins with homologs of the humerus, radius, and ulna, and early lung-like structures. Key intermediate in the fish-to-tetrapod transition. | Lobe fins enabled movement through dense aquatic vegetation in shallow Devonian waterways. Primitive lungs supplemented gill breathing in low-oxygen water. | Ray-finned fishes, the subclass Actinopterygii, diverged and became the most species-rich vertebrate group, comprising approximately 95% of all living fish species, but did not develop limb-like appendages. |
 | **Tiktaalik** | 375 MYA | Transitional "fishapod" with functional wrists containing radial bones, a flexible neck enabling independent head movement, rib-supported lungs, and flattened skull adapted to shallow water surface breathing. | Lived in shallow estuarine environments where the ability to prop itself on substrate and breathe air provided access to food sources unavailable to fully aquatic fish. Could move between isolated pools during dry periods. | Fully aquatic lobe-finned fishes remained in open water habitats and did not develop weight-bearing limb structures. |
-| **Acanthostega** | 363 MYA | First tetrapod with true limbs and digits (eight per limb). Still primarily aquatic. Limbs initially adapted for locomotion over shallow aquatic substrate and through dense vegetation rather than terrestrial walking. Retained internal gills. | Limbs provided stability in shallow, vegetation-choked waterways where fins were less effective. | Other early tetrapods (Ichthyostega and relatives) pursued different limb and digit configurations. Ichthyostega developed more robust limbs capable of limited terrestrial movement. |
+| **Acanthostega** | 363 MYA | First tetrapod with true limbs and digits numbering eight per limb. Still primarily aquatic. Limbs initially adapted for locomotion over shallow aquatic substrate and through dense vegetation rather than terrestrial walking. Retained internal gills. | Limbs provided stability in shallow, vegetation-choked waterways where fins were less effective. | Other early tetrapods such as Ichthyostega pursued different limb and digit configurations. Ichthyostega developed more robust limbs capable of limited terrestrial movement. |
 
 ### Terrestrial Vertebrates
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Amniotes** | 312 MYA | The amniotic egg with internal extraembryonic membranes (amnion, chorion, allantois) preventing desiccation of the embryo. Reproduction fully independent of standing water. Thicker, more waterproof skin reducing evaporative water loss. | The amniotic egg enabled colonization of inland habitats far from water. Reproduction was no longer constrained to aquatic or semi-aquatic environments. | Amphibians (frogs, salamanders, caecilians) retained aquatic larval stages, permeable skin requiring proximity to water, and external fertilization in most lineages. |
-| **Pelycosaurs** | 309-272 MYA | First dominant synapsid (mammal-lineage) group. Temporal fenestra in skull (single opening behind the eye, distinguishing synapsids from other amniotes). Dorsal sail structures in forms like Dimetrodon, possibly thermoregulatory. Heterodont dentition emerging. | Dominated terrestrial ecosystems of the Late Carboniferous and Early Permian, accounting for approximately 70% of known amniote genera. Survived the late Carboniferous glaciation through thermoregulatory adaptations. | Sauropsida (the reptile lineage) diverged, eventually producing dinosaurs, birds, crocodilians, lizards, snakes, and turtles. Sauropsids would dominate the Mesozoic for 186 million years. |
-| **Therapsids** | 279-260 MYA | More erect limb posture improving locomotion efficiency. Differentiated dentition (heterodonty) with distinct incisors, canines, and postcanines. Enlarged temporal fenestra for more powerful jaw muscles. Possible incipient endothermy. | Displaced pelycosaurs as the dominant terrestrial amniotes. Diversified into herbivorous, carnivorous, and omnivorous niches. | Non-therapsid synapsid lineages (remaining pelycosaurs) declined and went extinct. Non-mammalian therapsids (gorgonopsians, dicynodonts, anomodonts) diversified widely but most were eliminated in the Permian-Triassic extinction. |
-| **Cynodonts** | 260 MYA | Specialized teeth with cusps for food processing. Secondary palate enabling simultaneous breathing and chewing. Facial vibrissae (whiskers) suggesting sensory hair and incipient fur. Increasingly mammal-like jaw articulation. | Survived the Permian-Triassic "Great Dying" (the most severe mass extinction in Earth's history, eliminating 96% of marine species and 70% of terrestrial vertebrate species) by burrowing underground in small body sizes. | Non-mammalian cynodonts (tritylodonts, traversodontids) persisted into the Jurassic but went extinct without developing mammalian-grade metabolism or intelligence. |
+| **Amniotes** | 312 MYA | The amniotic egg with internal extraembryonic membranes, specifically the amnion, chorion, and allantois, preventing desiccation of the embryo. Reproduction fully independent of standing water. Thicker, more waterproof skin reducing evaporative water loss. | The amniotic egg enabled colonization of inland habitats far from water. Reproduction was no longer constrained to aquatic or semi-aquatic environments. | Amphibians including frogs, salamanders, and caecilians retained aquatic larval stages, permeable skin requiring proximity to water, and external fertilization in most lineages. |
+| **Pelycosaurs** | 309-272 MYA | First dominant synapsid, or mammal-lineage, group. Temporal fenestra in skull, a single opening behind the eye distinguishing synapsids from other amniotes. Dorsal sail structures in forms like Dimetrodon, possibly thermoregulatory. Heterodont dentition emerging. | Dominated terrestrial ecosystems of the Late Carboniferous and Early Permian, accounting for approximately 70% of known amniote genera. Survived the late Carboniferous glaciation through thermoregulatory adaptations. | Sauropsida, the reptile lineage, diverged, eventually producing dinosaurs, birds, crocodilians, lizards, snakes, and turtles. Sauropsids would dominate the Mesozoic for 186 million years. |
+| **Therapsids** | 279-260 MYA | More erect limb posture improving locomotion efficiency. Differentiated dentition, known as heterodonty, with distinct incisors, canines, and postcanines. Enlarged temporal fenestra for more powerful jaw muscles. Possible incipient endothermy. | Displaced pelycosaurs as the dominant terrestrial amniotes. Diversified into herbivorous, carnivorous, and omnivorous niches. | Non-therapsid synapsid lineages, the remaining pelycosaurs, declined and went extinct. Non-mammalian therapsids such as gorgonopsians, dicynodonts, and anomodonts diversified widely but most were eliminated in the Permian-Triassic extinction. |
+| **Cynodonts** | 260 MYA | Specialized teeth with cusps for food processing. Secondary palate enabling simultaneous breathing and chewing. Facial vibrissae, or whiskers, suggesting sensory hair and incipient fur. Increasingly mammal-like jaw articulation. | Survived the Permian-Triassic "Great Dying," the most severe mass extinction in Earth's history that eliminated 96% of marine species and 70% of terrestrial vertebrate species, by burrowing underground in small body sizes. | Non-mammalian cynodonts such as tritylodonts and traversodontids persisted into the Jurassic but went extinct without developing mammalian-grade metabolism or intelligence. |
 
 ### Early Mammals
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Morganucodon** | 205 MYA | High metabolic rate, fur for insulation, large olfactory and auditory brain regions supporting nocturnal activity. Fully mammalian dentary-squamosal jaw joint. Body length approximately 10 cm. | Small size and nocturnal habits enabled coexistence with early dinosaurs, which dominated diurnal niches. Insectivorous diet exploited a food source underutilized by reptiles. Survived the Triassic-Jurassic extinction. | Monotremes (egg-laying mammals including the platypus and echidnas) diverged, retaining the ancestral pattern of egg-laying reproduction. Monotremes survive to the present in Australia and New Guinea. |
-| **Juramaia** | 160 MYA | Earliest confirmed eutherian (placental stem-group) mammal. Dental and skeletal morphology consistent with placental-grade internal gestation. Small, scansorial (climbing), and insectivorous. | Arboreal lifestyle exploited canopy niches unavailable to ground-dwelling predators. Internal gestation protected developing offspring from environmental exposure. | Metatheria (marsupial ancestors) diverged. Marsupials give birth to extremely undeveloped young that complete development in an external pouch. Marsupials dominated South America and Australia for tens of millions of years. |
-| **Eomaia** | 125 MYA | Early Cretaceous eutherian with preserved fur impressions. Placental development with longer intrauterine gestation and internal nourishment of offspring. Scansorial adaptations in limb proportions. | Small body size, arboreal habits, and dietary flexibility (insectivory and omnivory) enabled survival alongside dominant dinosaurs during the Cretaceous. | Remaining metatherian lineages continued to diversify but remained generally subordinate to eutherians in most continental ecosystems outside Australia. |
+| **Morganucodon** | 205 MYA | High metabolic rate, fur for insulation, large olfactory and auditory brain regions supporting nocturnal activity. Fully mammalian dentary-squamosal jaw joint. Body length approximately 10 cm. | Small size and nocturnal habits enabled coexistence with early dinosaurs, which dominated diurnal niches. Insectivorous diet exploited a food source underutilized by reptiles. Survived the Triassic-Jurassic extinction. | Monotremes, the egg-laying mammals including the platypus and echidnas, diverged, retaining the ancestral pattern of egg-laying reproduction. Monotremes survive to the present in Australia and New Guinea. |
+| **Juramaia** | 160 MYA | Earliest confirmed eutherian, or placental stem-group, mammal. Dental and skeletal morphology consistent with placental-grade internal gestation. Small, scansorial meaning adapted for climbing, and insectivorous. | Arboreal lifestyle exploited canopy niches unavailable to ground-dwelling predators. Internal gestation protected developing offspring from environmental exposure. | Metatheria, the marsupial ancestors, diverged. Marsupials give birth to extremely undeveloped young that complete development in an external pouch. Marsupials dominated South America and Australia for tens of millions of years. |
+| **Eomaia** | 125 MYA | Early Cretaceous eutherian with preserved fur impressions. Placental development with longer intrauterine gestation and internal nourishment of offspring. Scansorial adaptations in limb proportions. | Small body size, arboreal habits, and dietary flexibility spanning insectivory and omnivory enabled survival alongside dominant dinosaurs during the Cretaceous. | Remaining metatherian lineages continued to diversify but remained generally subordinate to eutherians in most continental ecosystems outside Australia. |
 
 ### Primates
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Purgatorius** | 66 MYA | Earliest primate-like mammal, known from the Paleocene of North America. Small, arboreal, omnivorous. Dental morphology consistent with a fruit and insect diet. | Survived the Cretaceous-Paleogene (K-Pg) extinction event, which eliminated non-avian dinosaurs and approximately 76% of all species, likely due to small body size, dietary flexibility, and arboreal habits. The K-Pg extinction cleared ecological space for the explosive radiation of placental mammals. | Other archaic placental lineages (condylarths and others) diversified into large-bodied herbivore and predator niches during the Paleocene but were eventually displaced by modern mammalian orders. |
-| **Archicebus** | 55 MYA | Small haplorhine (dry-nosed) primate with grasping hands and feet, forward-facing eyes enabling stereoscopic depth perception, and a long tail for arboreal balance. Weighing approximately 20-30 grams, it is the earliest confirmed haplorhine primate skeleton. | Adapted to the forest canopy during the Paleocene-Eocene Thermal Maximum, a period of extreme global warming that expanded tropical forests to high latitudes. Stereoscopic vision enabled precise arboreal navigation and insect capture. | Strepsirrhines (lemurs, lorises, and galagos) diverged. Strepsirrhines retained a moist rhinarium (wet nose) and a dental comb. Lemurs radiated extensively on Madagascar after its separation from mainland Africa. |
-| **Aegyptopithecus** | 33-30 MYA | Early catarrhine (Old World primate) from the Oligocene Fayum deposits of Egypt. Y-5 cusp molar pattern, fully enclosed bony orbits, and relatively large brain for body size. A key transitional form in the evolution of the ape lineage. | Frugivorous and arboreal in tropical forest environments. Adapted to the post-Eocene cooling by occupying refugial tropical forests in North Africa. | New World monkeys (Platyrrhini) diverged, likely reaching South America via a rafting event across the narrower Atlantic Ocean approximately 35-40 MYA. Platyrrhines developed prehensile tails independently. |
-| **Proconsul** | 20 MYA | Early hominoid (ape) from East Africa. Loss of the tail. Larger brain-to-body ratio relative to cercopithecoid monkeys. Flexible shoulder and wrist joints enabling a wider range of arm movement. Quadrupedal locomotion without the suspensory adaptations of modern great apes. | Versatile frugivorous diet allowed survival during Miocene forest fragmentation and climate change in East Africa. | Old World monkeys (Cercopithecidae, including baboons, macaques, and colobus monkeys) diverged. Cercopithecoids retained tails, developed bilophodont molars for processing leaves, and became the most diverse and widespread non-human primate group. |
+| **Purgatorius** | 66 MYA | Earliest primate-like mammal, known from the Paleocene of North America. Small, arboreal, omnivorous. Dental morphology consistent with a fruit and insect diet. | Survived the Cretaceous-Paleogene extinction event, abbreviated K-Pg, which eliminated non-avian dinosaurs and approximately 76% of all species, likely due to small body size, dietary flexibility, and arboreal habits. The K-Pg extinction cleared ecological space for the explosive radiation of placental mammals. | Other archaic placental lineages such as condylarths diversified into large-bodied herbivore and predator niches during the Paleocene but were eventually displaced by modern mammalian orders. |
+| **Archicebus** | 55 MYA | Small haplorhine, or dry-nosed, primate with grasping hands and feet, forward-facing eyes enabling stereoscopic depth perception, and a long tail for arboreal balance. Weighing approximately 20-30 grams, it is the earliest confirmed haplorhine primate skeleton. | Adapted to the forest canopy during the Paleocene-Eocene Thermal Maximum, a period of extreme global warming that expanded tropical forests to high latitudes. Stereoscopic vision enabled precise arboreal navigation and insect capture. | Strepsirrhines, including lemurs, lorises, and galagos, diverged. Strepsirrhines retained a moist rhinarium, or wet nose, and a dental comb. Lemurs radiated extensively on Madagascar after its separation from mainland Africa. |
+| **Aegyptopithecus** | 33-30 MYA | Early catarrhine, an Old World primate, from the Oligocene Fayum deposits of Egypt. Y-5 cusp molar pattern, fully enclosed bony orbits, and relatively large brain for body size. A key transitional form in the evolution of the ape lineage. | Frugivorous and arboreal in tropical forest environments. Adapted to the post-Eocene cooling by occupying refugial tropical forests in North Africa. | New World monkeys, the infraorder Platyrrhini, diverged, likely reaching South America via a rafting event across the narrower Atlantic Ocean approximately 35-40 MYA. Platyrrhines developed prehensile tails independently. |
+| **Proconsul** | 20 MYA | Early hominoid, or ape, from East Africa. Loss of the tail. Larger brain-to-body ratio relative to cercopithecoid monkeys. Flexible shoulder and wrist joints enabling a wider range of arm movement. Quadrupedal locomotion without the suspensory adaptations of modern great apes. | Versatile frugivorous diet allowed survival during Miocene forest fragmentation and climate change in East Africa. | Old World monkeys of the family Cercopithecidae, including baboons, macaques, and colobus monkeys, diverged. Cercopithecoids retained tails, developed bilophodont molars for processing leaves, and became the most diverse and widespread non-human primate group. |
 
 ### Hominins
 
 | Ancestor or Group | Timeline | Key Evolutionary Features | Survival Strategy | The Split |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sahelanthropus** | 7 MYA | Foramen magnum position suggesting early upright posture. Small canine teeth relative to other apes. Found in Chad, far from the East African Rift. The extent of habitual bipedalism remains debated. | Adapted to a mosaic environment of forest patches and open woodland as East African forests thinned during the late Miocene. Ability to move between tree patches was advantageous. | The lineage leading to chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) diverged. Chimpanzees and bonobos are the closest living relatives of Homo sapiens, sharing approximately 98.7% of DNA sequence. |
-| **Ardipithecus** | 5.8-4.4 MYA | Mosaic of arboreal and bipedal features. Ar. ramidus demonstrates facultative bipedalism on the ground with retention of an opposable hallux (big toe) for tree climbing. Reduced canine size relative to African apes. | Exploited both terrestrial and arboreal food sources in a woodland environment, combining ground-based bipedal foraging with tree-based refuge and feeding. | Orrorin tugenensis (approximately 6 MYA), known from Kenya, represents a possibly contemporaneous experiment in early bipedalism. Its phylogenetic placement relative to Ardipithecus remains uncertain. |
-| **Australopithecus** | 4-2 MYA | Obligate bipedalism with committed upright posture, as demonstrated by the Laetoli footprints (3.7 MYA) and the skeleton of "Lucy" (A. afarensis, 3.2 MYA). Relatively small brain (approximately 450 cc). Robust dentition for processing hard plant foods. | Efficient bipedal locomotion enabled long-distance foraging across the expanding African savanna. Upright posture reduced solar heat absorption. Group defense and high-quality food sources compensated for the lack of claws or large canines. | The "robust" australopiths (Paranthropus genus, including P. boisei and P. robustus) diverged. Paranthropus developed massive molars, sagittal crests for powerful chewing muscles, and specialized diets of tough plant material. Paranthropus went extinct approximately 1.2 MYA without developing technology. |
-| **Homo habilis** | 2.4-1.4 MYA | Earliest member of the genus Homo, though its classification remains debated. Brain expansion to approximately 600-700 cc. First confirmed use of flaked stone tools (Oldowan technology). Reduced facial prognathism relative to Australopithecus. | Stone tool use enabled access to animal protein through scavenging and processing of carcasses. Expanded dietary breadth provided a buffer against environmental variability. | Australopithecus sediba and other late australopith species did not make the transition to the Homo grade and went extinct. |
-| **Homo erectus** | 1.9 MYA | Dramatic brain expansion to 900-1100 cc. Controlled use of fire (evidence from approximately 1.0 MYA, possibly earlier). Acheulean hand-axe technology. First hominin to leave Africa and colonize Eurasia, reaching Georgia (Dmanisi) by 1.8 MYA, Java by 1.7 MYA, and China by 1.6 MYA. | Fire use provided warmth, cooking (increasing caloric extraction from food), predator deterrence, and social gathering. Migration and geographic range expansion enabled survival through multiple glacial cycles. | Regional populations became isolated and diverged. Homo floresiensis on the island of Flores, Indonesia (approximately 700-50 KYA), underwent insular dwarfism. Homo erectus populations in East Asia persisted until approximately 100 KYA but did not develop advanced technology. |
-| **Homo heidelbergensis** | 700 KYA | Brain approaching modern size (approximately 1200 cc). Advanced cooperative hunting of large game including horses and rhinoceroses. Construction of shelters and wind-breaks. Evidence of early symbolic behavior. Wide geographic range across Africa, Europe, and possibly western Asia. | High intelligence enabled adaptation to diverse climates from tropical Africa to glacial Europe. Cooperative hunting provided reliable access to high-quality protein. | Neanderthals (Homo neanderthalensis) diverged in Europe, developing robust cold-adapted bodies, large brains (averaging 1500 cc), Mousterian stone tool technology, intentional burial, and possible symbolic behavior. Denisovans diverged in Asia, known primarily from DNA recovered from a finger bone and molar in Denisova Cave, Siberia. Both went extinct by approximately 40-30 KYA after contact with expanding Homo sapiens populations. |
-| **Homo sapiens** | 300 KYA | Full modern brain size (approximately 1350-1450 cc). Symbolic thought evidenced by ochre use, shell beads, and cave art. Complex compositional language supporting recursive grammar and displaced reference. Global adaptability enabling colonization of every terrestrial biome from Arctic tundra to desert to tropical rainforest. | Extreme behavioral flexibility and large-scale social networks enabled rapid adaptation to novel environments without requiring genetic change. Cumulative culture allowed innovations to build on previous innovations across generations. Absorbed small amounts of Neanderthal (1-4%) and Denisovan DNA through interbreeding. | Homo sapiens is the sole surviving species of the genus Homo. Neanderthals, Denisovans, Homo floresiensis, and all other archaic human species are extinct. |
+| **Sahelanthropus** | 7 MYA | Foramen magnum position suggesting early upright posture. Small canine teeth relative to other apes. Found in Chad, far from the East African Rift. The extent of habitual bipedalism remains debated. | Adapted to a mosaic environment of forest patches and open woodland as East African forests thinned during the late Miocene. Ability to move between tree patches was advantageous. | The lineage leading to chimpanzees, Pan troglodytes, and bonobos, Pan paniscus, diverged. Chimpanzees and bonobos are the closest living relatives of Homo sapiens, sharing approximately 98.7% of DNA sequence. |
+| **Ardipithecus** | 5.8-4.4 MYA | Mosaic of arboreal and bipedal features. Ar. ramidus demonstrates facultative bipedalism on the ground with retention of an opposable hallux, or big toe, for tree climbing. Reduced canine size relative to African apes. | Exploited both terrestrial and arboreal food sources in a woodland environment, combining ground-based bipedal foraging with tree-based refuge and feeding. | Orrorin tugenensis, dated to approximately 6 MYA and known from Kenya, represents a possibly contemporaneous experiment in early bipedalism. Its phylogenetic placement relative to Ardipithecus remains uncertain. |
+| **Australopithecus** | 4-2 MYA | Obligate bipedalism with committed upright posture, as demonstrated by the Laetoli footprints dated to 3.7 MYA and the skeleton of "Lucy," an A. afarensis specimen dated to 3.2 MYA. Relatively small brain of approximately 450 cc. Robust dentition for processing hard plant foods. | Efficient bipedal locomotion enabled long-distance foraging across the expanding African savanna. Upright posture reduced solar heat absorption. Group defense and high-quality food sources compensated for the lack of claws or large canines. | The "robust" australopiths of the Paranthropus genus, including P. boisei and P. robustus, diverged. Paranthropus developed massive molars, sagittal crests for powerful chewing muscles, and specialized diets of tough plant material. Paranthropus went extinct approximately 1.2 MYA without developing technology. |
+| **Homo habilis** | 2.4-1.4 MYA | Earliest member of the genus Homo, though its classification remains debated. Brain expansion to approximately 600-700 cc. First confirmed use of flaked stone tools known as Oldowan technology. Reduced facial prognathism relative to Australopithecus. | Stone tool use enabled access to animal protein through scavenging and processing of carcasses. Expanded dietary breadth provided a buffer against environmental variability. | Australopithecus sediba and other late australopith species did not make the transition to the Homo grade and went extinct. |
+| **Homo erectus** | 1.9 MYA | Dramatic brain expansion to 900-1100 cc. Controlled use of fire, with evidence from approximately 1.0 MYA and possibly earlier. Acheulean hand-axe technology. First hominin to leave Africa and colonize Eurasia, reaching Georgia at Dmanisi by 1.8 MYA, Java by 1.7 MYA, and China by 1.6 MYA. | Fire use provided warmth, cooking that increased caloric extraction from food, predator deterrence, and social gathering. Migration and geographic range expansion enabled survival through multiple glacial cycles. | Regional populations became isolated and diverged. Homo floresiensis on the island of Flores, Indonesia, dated to approximately 700-50 KYA, underwent insular dwarfism. Homo erectus populations in East Asia persisted until approximately 100 KYA but did not develop advanced technology. |
+| **Homo heidelbergensis** | 700 KYA | Brain approaching modern size at approximately 1200 cc. Advanced cooperative hunting of large game including horses and rhinoceroses. Construction of shelters and wind-breaks. Evidence of early symbolic behavior. Wide geographic range across Africa, Europe, and possibly western Asia. | High intelligence enabled adaptation to diverse climates from tropical Africa to glacial Europe. Cooperative hunting provided reliable access to high-quality protein. | Neanderthals, Homo neanderthalensis, diverged in Europe, developing robust cold-adapted bodies, large brains averaging 1500 cc, Mousterian stone tool technology, intentional burial, and possible symbolic behavior. Denisovans diverged in Asia, known primarily from DNA recovered from a finger bone and molar in Denisova Cave, Siberia. Both went extinct by approximately 40-30 KYA after contact with expanding Homo sapiens populations. |
+| **Homo sapiens** | 300 KYA | Full modern brain size of approximately 1350-1450 cc. Symbolic thought evidenced by ochre use, shell beads, and cave art. Complex compositional language supporting recursive grammar and displaced reference. Global adaptability enabling colonization of every terrestrial biome from Arctic tundra to desert to tropical rainforest. | Extreme behavioral flexibility and large-scale social networks enabled rapid adaptation to novel environments without requiring genetic change. Cumulative culture allowed innovations to build on previous innovations across generations. Absorbed Neanderthal DNA at 1 to 4 percent and Denisovan DNA through interbreeding. | Homo sapiens is the sole surviving species of the genus Homo. Neanderthals, Denisovans, Homo floresiensis, and all other archaic human species are extinct. |
 
 ## The Dead Ends
 
-The ancestor table contains 33 rows.
+The ancestor table contains 34 rows.
 At every branching point,
 the lineage that leads to Homo sapiens
 diverged from a sister lineage
@@ -405,7 +406,7 @@ Ray-finned fishes dominate the oceans.
 Birds have colonized every continent.
 Yet none developed technological civilization.
 
-Thirty-three splits,
+Thirty-four splits,
 and the count of technological civilizations
 produced by the other side of each split
 is zero.
@@ -421,7 +422,7 @@ None crossed the threshold
 to cumulative technology.
 
 **Insects.**
-The protostome lineage (row 10 split, Urbilateria)
+The protostome lineage, which diverged at the Urbilateria split,
 produced the most species-rich animal group on Earth.
 Social insects
 including ants, bees, and termites
@@ -442,7 +443,7 @@ Mollusks, also from the protostome split,
 include octopuses
 with problem-solving intelligence,
 short-term and long-term memory,
-tool use (carrying coconut shells for shelter),
+tool use such as carrying coconut shells for shelter,
 and distributed nervous systems
 with approximately 500 million neurons.
 Octopuses solve novel problems in laboratory settings,
@@ -450,15 +451,15 @@ demonstrate observational learning,
 and exhibit individual behavioral differences
 consistent with personality.
 Yet octopuses are solitary,
-short-lived (1-5 years),
+short-lived with lifespans of one to five years,
 and aquatic,
 making cumulative culture
 and fire-based technology impossible.
 
 **Corvids and parrots.**
-The sauropsid lineage (row 17 split, Pelycosaurs)
+The sauropsid lineage, which diverged at the Pelycosaur split,
 eventually produced birds,
-which include corvids (crows, ravens, jays)
+which include corvids such as crows, ravens, and jays
 and parrots.
 New Caledonian crows manufacture
 hooked stick tools from pandanus leaves,
@@ -546,7 +547,7 @@ that eventually produced us.
 | **Late Ordovician** | 445 MYA | Glaciation and sea level drop | ~85% marine species | Jawless fish ancestors survived in deeper marine refugia |
 | **Late Devonian** | 375-360 MYA | Ocean anoxia, possible impact | ~75% species | Tiktaalik-grade ancestors in shallow estuaries survived |
 | **Permian-Triassic** | 252 MYA | Siberian Traps volcanism | ~96% marine, ~70% terrestrial | Cynodonts survived by burrowing underground at small body sizes |
-| **Triassic-Jurassic** | 201 MYA | CAMP volcanism | ~80% species | Small nocturnal mammaliaforms (Morganucodon-grade) survived |
+| **Triassic-Jurassic** | 201 MYA | Central Atlantic Magmatic Province volcanism | ~80% species | Morganucodon-grade small nocturnal mammaliaforms survived |
 | **Cretaceous-Paleogene** | 66 MYA | Chicxulub asteroid impact | ~76% species | Small mammals survived and radiated into vacant niches |
 
 ### The Filter Analysis
@@ -770,9 +771,9 @@ that led to industrial civilization.
 **Symbolic thought and language.**
 The capacity for abstract representation,
 recursive grammar,
-and displaced reference
-(the ability to communicate
-about things not present in time or space)
+and displaced reference,
+meaning the ability to communicate
+about things not present in time or space,
 appears unique to Homo sapiens.
 While other species demonstrate
 elements of symbolic behavior,
@@ -798,17 +799,17 @@ within a habitable window of duration $T$.
 
 If each hard step $i$
 has an expected completion time $\tau_i$
-that greatly exceeds the available window
-($\tau_i \gg T$),
+that greatly exceeds the available window,
+expressed as $\tau_i \gg T$,
 the probability of completing
 all $k$ steps in time is approximately
 
 $$P(k, T) \approx \prod_{i=1}^{k} \frac{T}{\tau_i}$$
 
-If we identify six hard steps
-(abiogenesis, eukaryogenesis,
+If we identify six hard steps,
+namely abiogenesis, eukaryogenesis,
 oxygenic photosynthesis,
-multicellularity, intelligence, technology)
+multicellularity, intelligence, and technology,
 and each has $\tau_i$
 on the order of $10^{10}$ years
 while Earth's habitable window
@@ -1018,13 +1019,13 @@ have evolved over hundreds of millions of years.
 None besides Homo sapiens
 crossed the threshold
 to cumulative technology.
-The six prerequisites identified above
-(manipulative appendages,
+The six prerequisites identified above,
+namely manipulative appendages,
 terrestrial habitat,
 social cooperation at scale,
 cumulative culture,
 fire,
-and symbolic language)
+and symbolic language,
 appear to be jointly necessary
 and jointly rare.
 
@@ -1050,7 +1051,7 @@ This is consistent with
 multiple hard steps in our past,
 each independently improbable.
 
-The Search for Extraterrestrial Intelligence (SETI)
+The Search for Extraterrestrial Intelligence, or SETI,
 has conducted radio telescope surveys
 for over sixty years
 without detecting any artificial signal.
@@ -1175,7 +1176,7 @@ of any detected biosignature
 outside Earth
 is consistent with both interpretations.
 
-## Thesis
+## Weighing the Evidence
 
 The preponderance of available evidence
 supports the interpretation
@@ -1256,7 +1257,7 @@ in the history of the galaxy.
 The evolutionary record
 from LUCA to Homo sapiens
 spans 4.2 billion years
-and 33 major ancestral stages.
+and 34 major ancestral stages.
 At every branching point,
 a sister lineage diverged
 and took a different path.
@@ -1380,6 +1381,7 @@ and the ongoing search for technosignatures.
 - [Book, Wonderful Life][book_wonderful_life]
 - [Reference, Acanthostega][ref_acanthostega]
 - [Reference, Aegyptopithecus][ref_aegyptopithecus]
+- [Reference, Archaeplastida][ref_archaeplastida]
 - [Reference, Amniote][ref_amniote]
 - [Reference, Archicebus][ref_archicebus]
 - [Reference, Ardipithecus][ref_ardipithecus]
@@ -1411,6 +1413,7 @@ and the ongoing search for technosignatures.
 - [Reference, Late Devonian Extinction][ref_devonian_extinction]
 - [Reference, Late Ordovician Extinction][ref_ordovician_extinction]
 - [Reference, Morganucodon][ref_morganucodon]
+- [Reference, Opisthokont][ref_opisthokont]
 - [Reference, Panspermia][ref_panspermia]
 - [Reference, Pelycosaur][ref_pelycosaur]
 - [Reference, Permian-Triassic Extinction][ref_permian_triassic]
@@ -1450,6 +1453,7 @@ and the ongoing search for technosignatures.
 [book_wonderful_life]: https://en.wikipedia.org/wiki/Wonderful_Life_(book)
 [ref_acanthostega]: https://en.wikipedia.org/wiki/Acanthostega
 [ref_aegyptopithecus]: https://en.wikipedia.org/wiki/Aegyptopithecus
+[ref_archaeplastida]: https://en.wikipedia.org/wiki/Archaeplastida
 [ref_amniote]: https://en.wikipedia.org/wiki/Amniote
 [ref_archicebus]: https://en.wikipedia.org/wiki/Archicebus
 [ref_ardipithecus]: https://en.wikipedia.org/wiki/Ardipithecus
@@ -1481,6 +1485,7 @@ and the ongoing search for technosignatures.
 [ref_luca]: https://en.wikipedia.org/wiki/Last_universal_common_ancestor
 [ref_morganucodon]: https://en.wikipedia.org/wiki/Morganucodon
 [ref_ordovician_extinction]: https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction
+[ref_opisthokont]: https://en.wikipedia.org/wiki/Opisthokont
 [ref_panspermia]: https://en.wikipedia.org/wiki/Panspermia
 [ref_pelycosaur]: https://en.wikipedia.org/wiki/Pelycosaur
 [ref_permian_triassic]: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event
