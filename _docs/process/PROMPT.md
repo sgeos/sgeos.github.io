@@ -23,21 +23,11 @@ Read, but unverified:
 
 ## Objectives
 
-### Publish A88
+### Release Announcement for A88
 
-Please run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and update the article
-date in the front matter, and the software versions.
-Double check `{% post_url %}` tags are correct.
-The actual published article filenames may be slightly different from what you are expecting.
-Finally, publish A88.
-
-### Update
-
-Update the knowledge graph to noted the following.
-
-- The reference index may be more valuable than the article itself.
-- There is no reference limit.
-- There is no article length limit.
+Please generate a release announcement for A88 and report it in your next
+reverse prompt.
+The template is in the knowledge graph.
 
 ## Context
 
@@ -50,8 +40,8 @@ I want to get a couple of articles published while I still remember what they ar
 
 ## Success Criteria
 
-- A88 published with current datetime and correct references to related articles..
+- A88 release announcement generated and reported.
 
 ## Notes
 
-Names for related articles can be found in `_posts`.
+(none)
