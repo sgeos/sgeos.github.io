@@ -8,30 +8,29 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A95 (A95-P2)
+**Name**: Draft A96 (A96-P1)
 **Status**: Complete
-**Started**: 2026-02-19
+**Started**: 2026-02-18
 
 ## Success Criteria
 
-- [x] A95 "Human Evolution and the Great Filter" article revised and release candidate status.
+- [x] A96 "History of Rocketplanes" article drafted and release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A95-P2-T1 | Rename Thesis section | Complete | Renamed to "Weighing the Evidence." |
-| A95-P2-T2 | Add plant split to ancestor table | Complete | Opisthokonta row added between Sexual Reproduction and Choanoflagellates. Archaeplastida divergence noted. Row count updated from 33 to 34. Two new references added. |
-| A95-P2-T3 | Inline parenthetical information | Complete | All parentheticals in prose and table rows inlined or removed. |
-| A95-P2-T4 | Spell out acronyms on first use | Complete | DNA, RNA, ATP, UV, LUCA, SETI, EXPOSE-R, OSIRIS-REx, K-Pg, CAMP spelled out. |
-| A95-P2-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
+| A96-P1-T1 | Research rocketplane history | Complete | Three parallel research agents verified dates, people, and specs for ~30 vehicles from 1928 to 2024. |
+| A96-P1-T2 | Write article draft | Complete | 12 sections covering German pioneers, WWII rocketplanes, technology transfer and espionage, American X-planes, Soviet response, Space Shuttle, and modern era. |
+| A96-P1-T3 | Verify reference URLs | Complete | 50 URLs verified. Four broken URLs fixed: Dyna-Soar book, Skunk Works book, X-15 SP-60, Bell X-1B. |
+| A96-P1-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- Next available article number: A96.
-- 7 release candidates: A89, A90, A91, A92, A93, A94, A95.
+- Next available article number: A97.
+- 8 release candidates: A89, A90, A91, A92, A93, A94, A95, A96.
 - 0 stubs.
-- Publication order dependencies: A89 before A92. A90 before A95. A91, A93, and A94 have no dependencies.
+- Publication order dependencies: A89 before A92. A90 before A95. A90 before A96. A91, A93, and A94 have no dependencies.
 
 ## History
 
@@ -83,3 +82,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-19 | A88-P4: Release announcement for A88 generated and reported in REVERSE_PROMPT.md. |
 | 2026-02-19 | A95-P1: "Human Evolution and the Great Filter" researched and written (67 references). References A82 and A90 via post_url. Draft summary synced (17 files, 7 RCs, 0 stubs). |
 | 2026-02-19 | A95-P2: Revised. Thesis section renamed to "Weighing the Evidence." Opisthokonta row added for plant split (34 rows, 69 references). Parentheticals inlined throughout. Acronyms spelled out on first use. |
+| 2026-02-18 | A96-P1: "History of Rocketplanes" researched and written (50 references). ~30 vehicles from 1928 Lippisch Ente to 2024 Dawn Mk-II Aurora. Technology transfer and espionage narrative. References A90 via post_url. Draft summary synced (18 files, 8 RCs, 0 stubs). |
