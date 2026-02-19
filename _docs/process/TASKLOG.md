@@ -8,21 +8,23 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft New Article A95 (A95-P1)
+**Name**: Revise A95 (A95-P2)
 **Status**: Complete
 **Started**: 2026-02-19
 
 ## Success Criteria
 
-- [x] New article drafted and release candidate status.
+- [x] A95 "Human Evolution and the Great Filter" article revised and release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A95-P1-T1 | Research and draft article | Complete | 33-row ancestor table, dead ends analysis, extinction events, social-to-tech transition, Fermi Paradox, Great Filter, MathJax equations, 67 references. |
-| A95-P1-T2 | Verify all reference URLs | Complete | 67 URLs verified. 3 broken URLs fixed (A New History of Life, Symbiosis in Cell Evolution, Raup and Sepkoski). 1 redirect updated (Bostrom). All 67 URLs return HTTP 200. |
-| A95-P1-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A95-P2-T1 | Rename Thesis section | Complete | Renamed to "Weighing the Evidence." |
+| A95-P2-T2 | Add plant split to ancestor table | Complete | Opisthokonta row added between Sexual Reproduction and Choanoflagellates. Archaeplastida divergence noted. Row count updated from 33 to 34. Two new references added. |
+| A95-P2-T3 | Inline parenthetical information | Complete | All parentheticals in prose and table rows inlined or removed. |
+| A95-P2-T4 | Spell out acronyms on first use | Complete | DNA, RNA, ATP, UV, LUCA, SETI, EXPOSE-R, OSIRIS-REx, K-Pg, CAMP spelled out. |
+| A95-P2-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
 
 ## Notes
 
@@ -80,3 +82,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-19 | A88-P3: "Radioactive Half-Life Demurrage Cryptocurrency Coin" published (2026-02-19 date). Knowledge graph updated with no-limit writing policies. Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-19 | A88-P4: Release announcement for A88 generated and reported in REVERSE_PROMPT.md. |
 | 2026-02-19 | A95-P1: "Human Evolution and the Great Filter" researched and written (67 references). References A82 and A90 via post_url. Draft summary synced (17 files, 7 RCs, 0 stubs). |
+| 2026-02-19 | A95-P2: Revised. Thesis section renamed to "Weighing the Evidence." Opisthokonta row added for plant split (34 rows, 69 references). Parentheticals inlined throughout. Acronyms spelled out on first use. |
