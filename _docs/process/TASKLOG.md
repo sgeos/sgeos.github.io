@@ -8,28 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Release Announcement for A88 (A88-P4)
+**Name**: Draft New Article A95 (A95-P1)
 **Status**: Complete
 **Started**: 2026-02-19
 
 ## Success Criteria
 
-- [x] A88 release announcement generated and reported.
+- [x] New article drafted and release candidate status.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A88-P4-T1 | Generate release announcement | Complete | Announcement follows CONTENT_WORKFLOW.md template. Hook, summary, 3 takeaways, URL, hashtags. |
-| A88-P4-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT updated. |
+| A95-P1-T1 | Research and draft article | Complete | 33-row ancestor table, dead ends analysis, extinction events, social-to-tech transition, Fermi Paradox, Great Filter, MathJax equations, 67 references. |
+| A95-P1-T2 | Verify all reference URLs | Complete | 67 URLs verified. 3 broken URLs fixed (A New History of Life, Symbiosis in Cell Evolution, Raup and Sepkoski). 1 redirect updated (Bostrom). All 67 URLs return HTTP 200. |
+| A95-P1-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- Release announcement for A88 reported in REVERSE_PROMPT.md.
-- Next available article number: A95.
-- 6 release candidates: A89, A90, A91, A92, A93, A94.
+- Next available article number: A96.
+- 7 release candidates: A89, A90, A91, A92, A93, A94, A95.
 - 0 stubs.
-- Publication order dependency: A89 before A92. A90, A91, A93, and A94 have no dependencies.
+- Publication order dependencies: A89 before A92. A90 before A95. A91, A93, and A94 have no dependencies.
 
 ## History
 
@@ -79,3 +79,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A94-P1: "Long-Form Writing in the Age of Large Language Models" researched and written (60 references). Historical sweep from pre-history through contemporary era with interleaved math and computing milestones. Four historical conclusions with epistemological framing. Draft summary synced (17 files, 7 RCs, 0 stubs). |
 | 2026-02-19 | A88-P3: "Radioactive Half-Life Demurrage Cryptocurrency Coin" published (2026-02-19 date). Knowledge graph updated with no-limit writing policies. Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-19 | A88-P4: Release announcement for A88 generated and reported in REVERSE_PROMPT.md. |
+| 2026-02-19 | A95-P1: "Human Evolution and the Great Filter" researched and written (67 references). References A82 and A90 via post_url. Draft summary synced (17 files, 7 RCs, 0 stubs). |
