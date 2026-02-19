@@ -8,37 +8,44 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-02-19
-**Task**: A95-P2 Revise A95
+**Date**: 2026-02-18
+**Task**: A96-P1 Draft A96
 
 ---
 
 ## Verification
 
-### Revisions Applied
+### Article Drafted
 
-Four revisions applied to A95 "Human Evolution and the Great Filter" per PROMPT.md instructions.
+A96 "History of Rocketplanes" drafted as a release candidate.
 
-**1. Thesis Section Renamed.**
-The "Thesis" heading was renamed to "Weighing the Evidence" to reflect that a thesis is stated up front and revisited in the conclusion, whereas this section synthesizes the evidence and declares which interpretation is more probable.
+**Structure.** Twelve sections covering the complete history of rocket-powered aircraft from 1928 to 2024.
 
-**2. Plant Split Added.**
-An Opisthokonta row was added to the Early Eukaryotic Life sub-table between Sexual Reproduction and Choanoflagellates. This row documents the divergence of Archaeplastida, the clade containing green algae, red algae, and land plants, from the Opisthokont lineage that leads to fungi and animals. Land plants colonized terrestrial environments by approximately 470 MYA but never developed locomotion, nervous systems, or technology. Two new references added for Opisthokont and Archaeplastida. Row count updated from 33 to 34 throughout the article.
+1. **Opening Prose.** Defines "rocketplane," establishes the narrative thesis of a single continuous thread linked by technology transfer, espionage, and institutional memory. References A90 for propulsion mathematics.
+2. **Software Versions.** Standard block with placeholder date.
+3. **The German Pioneers.** Four subsections: Lippisch Ente (1928), Opel RAK.1 (1929), Heinkel He 176 (1939), DFS 194 (1940). Traces the design lineage from Lippisch's first tailless glider to the direct aerodynamic precursor of the Me 163.
+4. **Operational Rocketplanes of World War II.** Four subsections: Me 163 Komet, Bachem Ba 349 Natter, Yokosuka MXY-7 Ohka, Bereznyak-Isayev BI-1. Covers all four nations that fielded rocket-powered combat aircraft.
+5. **Technology Transfer and Espionage.** Three subsections: Operation Paperclip, Operation Osoaviakhim, the Silbervogel concept. Traces how German technology seeded both superpowers' postwar rocketplane programs.
+6. **The American X-Plane Program.** Seven subsections: Bell X-1, X-1A/X-1B, D-558-2 Skyrocket, Bell X-2, X-15/X-15A-2, Boeing X-20 Dyna-Soar, Martin X-24A/X-24B. Systematic progression from Mach 1 to Mach 6.7.
+7. **The Soviet Response.** Two subsections: MiG-105 Spiral and Buran. Includes the BOR-4 reverse-intelligence connection to Dream Chaser.
+8. **The Space Shuttle.** Heritage from X-planes and lifting bodies. Challenger and Columbia losses and their influence on subsequent spaceflight direction.
+9. **The Modern Era.** Six subsections: SpaceShipOne, SpaceShipTwo, Blue Origin New Shepard, Boeing X-37B, Dream Chaser, Dawn Mk-II Aurora.
+10. **Conclusion.** Synthesizes five narrative threads.
+11. **Future Reading.** Five annotated entries.
+12. **References.** Fifty entries across four categories (Book 4, Reference 41, Related Post 1, Research 4).
 
-**3. Parenthetical Information Inlined.**
-All parenthetical expressions in prose and table rows were restructured as inline clauses. Patterns used include "or" for synonyms and abbreviations, "such as" and "including" for examples, "meaning" and "called" for definitions, "specifically" and "of the family" for taxonomic qualifiers, and comma-offset appositive clauses for extended explanations. No parenthetical expressions remain outside of the Software Versions code block, MathJax equations, and URL definitions.
+### URL Verification
 
-**4. Acronyms Spelled Out on First Use.**
-The following acronyms were spelled out on first use: DNA, RNA, ATP, UV, LUCA, SETI, EXPOSE-R, OSIRIS-REx, K-Pg, and CAMP. The abbreviation is introduced with "or" on first use and used freely thereafter.
-
-### Updated Counts
-
-- 69 references across four categories (Book 9, Reference 50, Related Post 2, Research 8).
-- 34-row ancestor table across 7 sub-tables.
+All 50 reference URLs verified. Four broken URLs corrected:
+- Dyna-Soar book: Google Books ID updated to V7N-AgAAQBAJ.
+- Skunk Works book: Replaced Wikipedia 404 with Google Books URL.
+- X-15 SP-60: Replaced dead NASA PDF with NTRS citation.
+- Bell X-1B: No standalone Wikipedia article; redirected to Bell X-1 anchor.
 
 ### Process Files Updated
 
 - TASKLOG.md: current task updated, history entry added.
+- draft_summary.md: A96 entry added, counts updated (18 files, 8 RCs).
 - REVERSE_PROMPT.md: overwritten.
 
 ---
@@ -51,7 +58,7 @@ The following acronyms were spelled out on first use: DNA, RNA, ATP, UV, LUCA, S
 
 ## Notes
 
-- Next available article number: A96.
-- 7 release candidates: A89, A90, A91, A92, A93, A94, A95.
+- Next available article number: A97.
+- 8 release candidates: A89, A90, A91, A92, A93, A94, A95, A96.
 - 0 stubs.
-- Publication order dependencies: A89 before A92. A90 before A95. A91, A93, and A94 have no dependencies.
+- Publication order dependencies: A89 before A92. A90 before A95. A90 before A96. A91, A93, and A94 have no dependencies.

@@ -344,6 +344,36 @@ Sixty-seven references across four categories (Book, Reference, Related Post, Re
 **Remaining Work**:
 Human review, MathJax rendering check, and final proofread before publication. A90 must be published before A95.
 
+### History of Rocketplanes — Release Candidate
+
+**File**: `history_of_rocketplanes.markdown`
+**Article**: A96, "History of Rocketplanes"
+**Topic**: Complete history of rocket-powered aircraft from 1928 to 2024, tracing technology transfer, espionage, and institutional memory
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article tracing the continuous thread of rocketplane development
+from the 1928 Lippisch Ente through the 2024 Dawn Mk-II Aurora.
+German pioneers section covers the Ente, Opel RAK.1, Heinkel He 176, and DFS 194.
+WWII operational rocketplanes section covers the Me 163 Komet, Bachem Ba 349 Natter,
+Yokosuka MXY-7 Ohka, and Bereznyak-Isayev BI-1.
+Technology transfer and espionage section covers Operation Paperclip,
+Operation Osoaviakhim, and the Silbervogel concept,
+tracing how German technology seeded both superpowers.
+American X-plane program section covers the Bell X-1 through the Martin X-24B,
+including the X-15 hypersonic research program and the cancelled X-20 Dyna-Soar.
+Soviet response section covers the MiG-105 Spiral and Buran,
+including the BOR-4 reverse-intelligence connection to Dream Chaser.
+Space Shuttle section traces technical heritage from X-planes and lifting bodies.
+Modern era section covers SpaceShipOne, SpaceShipTwo, Blue Origin New Shepard,
+Boeing X-37B, Dream Chaser, and Dawn Mk-II Aurora.
+References A90 via post_url.
+Fifty references across four categories (Book 4, Reference 41, Related Post 1, Research 4).
+
+**Remaining Work**:
+Human review and final proofread before publication. A90 must be published before A96.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -471,8 +501,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventeen files exist in `_drafts/`. One is a template.
-Seven drafts have been elevated to release candidate status.
+Eighteen files exist in `_drafts/`. One is a template.
+Eight drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A88 have been published.
 Writing Proofs (A79) has been published.
@@ -486,7 +516,8 @@ Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
 Long-Form Writing in the Age of Large Language Models (A94),
-and Human Evolution and the Great Filter (A95) have been fully drafted
+Human Evolution and the Great Filter (A95),
+and History of Rocketplanes (A96) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
@@ -494,7 +525,8 @@ A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url.
-Publication order dependencies: A89 before A92. A90 before A95.
+A96 references A90 via post_url.
+Publication order dependencies: A89 before A92. A90 before A95. A90 before A96.
 A91, A93, and A94 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
