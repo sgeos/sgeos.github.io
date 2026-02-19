@@ -40,6 +40,7 @@ References in the `## References` section use a categorized format. Each entry i
 - References are sorted alphabetically by category, then by title within each category.
 - Anchor names use a lowercase abbreviation of the category as a prefix. Examples: `ai_`, `cc_`, `github_`, `protocol_`, `research_`.
 - URL definitions at the bottom of the file are sorted alphabetically by anchor name to match.
+- There is no limit on the number of references in an article. The reference index is a first-class deliverable and may be more valuable than the article itself. Every claim, named concept, and external source mentioned in the article should have a corresponding reference entry.
 
 Example:
 

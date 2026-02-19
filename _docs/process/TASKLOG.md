@@ -8,30 +8,32 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft Long-Form Writing in the Age of Large Language Models (A94-P1)
+**Name**: Publish A88 and Update Knowledge Graph (A88-P3)
 **Status**: Complete
-**Started**: 2026-02-18
+**Started**: 2026-02-19
 
 ## Success Criteria
 
-- [x] New article A94 drafted and in release candidate status.
+- [x] A88 published with current datetime and correct references to related articles.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A94-P1-T1 | Research and draft article | Complete | Historical sweep from pre-history through contemporary era. Two-part thesis. Four historical conclusions with epistemological framing. 60 references. |
-| A94-P1-T2 | Verify all reference URLs | Complete | All 62 URLs verified (200 status). Wikipedia URLs initially returned 429 due to rate limiting, all succeeded on retry. |
-| A94-P1-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A88-P3-T1 | Update front matter date and software versions date | Complete | Date set to 2026-02-19 01:22:17 +0000 in both front matter and Software Versions. |
+| A88-P3-T2 | Verify post_url tags | Complete | No post_url tags in A88. No other drafts reference A88 via post_url. |
+| A88-P3-T3 | Publish A88 | Complete | Published to `_posts/2026-02-19-radioactive_half_life_demurrage_cryptocurrency_coin.markdown`. |
+| A88-P3-T4 | Update knowledge graph | Complete | STYLE_GUIDE.md: no reference limit, reference index as first-class deliverable. POST_STRUCTURE.md: no article length limit. |
+| A88-P3-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
-- Article A94, "Long-Form Writing in the Age of Large Language Models," dated 2026-02-25, categories: ai philosophy.
-- No post_url dependencies on other articles.
+- Article A88, "Radioactive Half-Life Demurrage Cryptocurrency Coin," published 2026-02-19.
+- Knowledge graph updated: no reference limit, no article length limit, reference index is a first-class deliverable.
 - Next available article number: A95.
-- 7 release candidates: A88, A89, A90, A91, A92, A93, A94.
+- 6 release candidates: A89, A90, A91, A92, A93, A94.
 - 0 stubs.
-- Publication order dependency: A89 before A92. A88, A90, A91, A93, and A94 have no dependencies.
+- Publication order dependency: A89 before A92. A90, A91, A93, and A94 have no dependencies.
 
 ## History
 
@@ -79,3 +81,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A93-P3: Retitled to "Fast-Moving Versus Mission-Critical Engineering." FMCG spelled out on first use. Conventional FMCG explained with toilet paper analogy. File renamed. Draft summary synced. |
 | 2026-02-18 | A93-P4: All acronyms spelled out on first use. IEC/ISO priming sentence added. RTCA identified for DO-178C. MVP, DORA, IT, MCAS, STAMP spelled out. UI replaced with full phrase. |
 | 2026-02-18 | A94-P1: "Long-Form Writing in the Age of Large Language Models" researched and written (60 references). Historical sweep from pre-history through contemporary era with interleaved math and computing milestones. Four historical conclusions with epistemological framing. Draft summary synced (17 files, 7 RCs, 0 stubs). |
+| 2026-02-19 | A88-P3: "Radioactive Half-Life Demurrage Cryptocurrency Coin" published (2026-02-19 date). Knowledge graph updated with no-limit writing policies. Draft summary synced (16 files, 6 RCs, 0 stubs). |
