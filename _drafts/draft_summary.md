@@ -315,6 +315,35 @@ Comprehensive reference index with 60 entries across Book, Reference, and Resear
 **Remaining Work**:
 Human review and final proofread before publication.
 
+### Human Evolution and the Great Filter — Release Candidate
+
+**File**: `human_evolution_and_the_great_filter.markdown`
+**Article**: A95, "Human Evolution and the Great Filter"
+**Topic**: Human evolution from LUCA to Homo sapiens through the lens of the Fermi Paradox and the Great Filter
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+Fully researched article examining whether the evolutionary record on Earth explains the Fermi Paradox.
+Traces the complete ancestral lineage of Homo sapiens across 33 stages from the Last Universal Common Ancestor to the present.
+Origin of life section covers the fossil record gap, abiogenesis, and panspermia with arguments for and against.
+Ancestor table spans seven sub-tables covering pre-eukaryotic life, early eukaryotes, early animals,
+vertebrate origins, terrestrial vertebrates, early mammals, primates, and hominins.
+Dead ends analysis highlights what did NOT become us at each split,
+with detailed treatment of insects, cephalopods, corvids, cetaceans, and elephants.
+Extinction events section analyzes the Big Five mass extinctions as both filters and gates,
+with compound survival probability expressed in MathJax.
+Social animal to technological civilization transition identifies six prerequisites
+and uses the Hard Steps probability formalism.
+Presents both pre-filter and post-filter arguments before declaring a thesis
+that the Great Filter lies predominantly in our past.
+Drake Equation, compound survival probability, and Hard Steps probability expressed in MathJax.
+References A82 and A90 via post_url.
+Sixty-seven references across four categories (Book, Reference, Related Post, Research).
+
+**Remaining Work**:
+Human review, MathJax rendering check, and final proofread before publication. A90 must be published before A95.
+
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -442,8 +471,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Seventeen files exist in `_drafts/`. One is a template.
+Seven drafts have been elevated to release candidate status.
 No stubs remain.
 A80 through A88 have been published.
 Writing Proofs (A79) has been published.
@@ -456,15 +485,17 @@ Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
-and Long-Form Writing in the Age of Large Language Models (A94) have been fully drafted
+Long-Form Writing in the Age of Large Language Models (A94),
+and Human Evolution and the Great Filter (A95) have been fully drafted
 and are awaiting human review before publication.
 A89 references A87 via post_url (A87 now published).
 A92 references A89 and A90 via post_url.
 A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
-Publication order dependency: A89 before A92.
-A90, A91, A93, and A94 have no dependencies.
+A95 references A82 and A90 via post_url.
+Publication order dependencies: A89 before A92. A90 before A95.
+A91, A93, and A94 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
