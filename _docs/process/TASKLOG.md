@@ -8,29 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A97 (A97-P1)
+**Name**: Publish A89 (A89-P4)
 **Status**: Complete
 **Started**: 2026-02-19
 
 ## Success Criteria
 
-- [x] A97 "What Does the United States Space Force Do?" article drafted and release candidate status.
+- [x] A89 "Cryptotelemeritocracy" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A97-P1-T1 | Research Space Force history, justification, and missions | Complete | Two parallel research agents covering organizational history and mission portfolio. |
-| A97-P1-T2 | Write article draft | Complete | 9 sections covering history, Air Force independence parallel, fighter pilot culture, mission portfolio (10 areas), organization, and personnel. |
-| A97-P1-T3 | Verify reference URLs | Complete | 42 URLs verified. One broken URL fixed: Rumsfeld Space Commission Wikipedia replaced with FAS report. Four .mil/RAND 403s confirmed as bot detection. |
-| A97-P1-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A89-P4-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-19. A92 post_url reference corrected from 2026-02-20 to 2026-02-19. A86 and A87 post_url references verified correct. |
+| A89-P4-T2 | Publish article | Complete | Published via _publish.sh. Moved to _posts/2026-02-19-cryptotelemeritocracy.markdown. |
+| A89-P4-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 9 release candidates: A89, A90, A91, A92, A93, A94, A95, A96, A97.
+- 8 release candidates: A90, A91, A92, A93, A94, A95, A96, A97.
 - 0 stubs.
-- Publication order dependencies: A89 before A92. A90 before A95. A90 before A96. A91, A93, A94, and A97 have no dependencies.
+- Publication order dependencies: A90 before A92. A90 before A95. A90 before A96. A91, A93, A94, and A97 have no dependencies.
 
 ## History
 
@@ -84,3 +83,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-19 | A95-P2: Revised. Thesis section renamed to "Weighing the Evidence." Opisthokonta row added for plant split (34 rows, 69 references). Parentheticals inlined throughout. Acronyms spelled out on first use. |
 | 2026-02-18 | A96-P1: "History of Rocketplanes" researched and written (50 references). ~30 vehicles from 1928 Lippisch Ente to 2024 Dawn Mk-II Aurora. Technology transfer and espionage narrative. References A90 via post_url. Draft summary synced (18 files, 8 RCs, 0 stubs). |
 | 2026-02-19 | A97-P1: "What Does the United States Space Force Do?" researched and written (42 references). History, justification, and ten mission areas. Air Force independence parallel and fighter pilot culture documented. Draft summary synced (19 files, 9 RCs, 0 stubs). |
+| 2026-02-19 | A89-P4: "Cryptotelemeritocracy" published (2026-02-19 date). A92 post_url reference corrected. Draft summary synced (18 files, 8 RCs, 0 stubs). |

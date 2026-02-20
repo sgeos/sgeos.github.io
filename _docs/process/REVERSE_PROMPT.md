@@ -9,46 +9,48 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-19
-**Task**: A97-P1 Draft A97
+**Task**: A89-P4 Publish A89
 
 ---
 
 ## Verification
 
-### Article Drafted
+### Article Published
 
-A97 "What Does the United States Space Force Do?" drafted as a release candidate.
+A89 "Cryptotelemeritocracy" published with date 2026-02-19.
 
-**Structure.** Nine sections covering the complete history, justification, and mission portfolio of the United States Space Force.
-
-1. **Opening Prose.** Defines the Space Force, notes the common misconception, and previews the three-part structure.
-2. **Software Versions.** Standard block with placeholder date.
-3. **History.** Five subsections: Military Space Before the Space Force (ABMA, Schriever, AFSPC), The Precedent of Air Force Independence (Billy Mitchell, National Security Act of 1947), Calls for a Separate Space Service (Rumsfeld Commission, Rogers-Cooper Space Corps proposal), Air Force Resistance (AFA opposition, cost and bureaucracy arguments, identical to Army arguments against AF independence), Establishment (SPD-4, NDAA FY2020, General Raymond).
-4. **Why a Separate Space Force?** Three subsections: Fighter Pilot Culture (RAND RR-1936 study, 5.3% of officers holding disproportionate senior leadership, General Schwartz as first non-fighter/bomber pilot CSAF), Space as a Deprioritized Mission (Commercial SATCOM Integration funding, promotion criteria), Space as a Warfighting Domain (Russia and China established dedicated space organizations).
-5. **What the Space Force Does.** Ten subsections: Satellite Communications (Milstar, AEHF, WGS, ESS), Global Positioning System (GPS III, M-code), Missile Warning (SBIRS, Next-Gen OPIR, PAVE PAWS), Space Domain Awareness (47,000+ objects, Space Fence, GSSAP, DARC), Launch Operations (Eastern/Western Range, NSSL Phase 3), Nuclear Command Control and Communications (NC3 triad support), Intelligence Surveillance and Reconnaissance (Delta 7, NGA, NRO), Cyber and Electronic Warfare (Delta 6, Delta 3), Weather (DMSP, WSF-M), Offensive and Defensive Space Operations (Space Warfighting framework, Delta 9, Race to Resilience).
-6. **Organization and Personnel.** Two subsections: Organizational Structure (three Field Commands, delta units, key installations), Guardians (9,670 uniformed, unique enlisted ranks, $39.9B budget, $3.8M per Guardian).
-7. **Conclusion.** Synthesizes history, justification, and mission portfolio.
-8. **Future Reading.** Five annotated entries.
-9. **References.** Forty-two entries across two categories (Reference 31, Research 11).
-
-### URL Verification
-
-All 42 reference URLs verified. One broken URL corrected:
-- Rumsfeld Space Commission: Wikipedia article at full commission name returned 404. Replaced with FAS report page (https://spp.fas.org/military/commission/report.htm).
-
-Four URLs returned 403 from known bot-blocking domains:
-- spaceforce.mil CFC article (Cloudflare bot detection)
-- dafhistory.af.mil fact sheet (Akamai bot detection)
-- spaceforce.mil organization page (Cloudflare bot detection)
-- rand.org RR-1936 (RAND blocks automated requests)
-
-All four are confirmed valid via web search indexing.
+**Updates performed:**
+- Front matter date updated from `2026-02-20 00:01:00 +0000` to `2026-02-19 00:00:00 +0000`.
+- Software versions date updated from `2026-02-15 00:40:00 +0000` to `2026-02-19 00:00:00 +0000`.
+- A92 post_url reference corrected from `2026-02-20-cryptotelemeritocracy` to `2026-02-19-cryptotelemeritocracy`.
+- Related article links verified: A86 (2026-02-18) and A87 (2026-02-19) both correct.
+- Published via `_publish.sh` to `_posts/2026-02-19-cryptotelemeritocracy.markdown`.
 
 ### Process Files Updated
 
 - TASKLOG.md: current task updated, history entry added.
-- draft_summary.md: A97 entry added, counts updated (19 files, 9 RCs).
+- draft_summary.md: A89 entry removed, counts updated (18 files, 8 RCs), dependency notes updated.
 - REVERSE_PROMPT.md: overwritten.
+
+### Release Announcement
+
+New Blog Post: Cryptotelemeritocracy
+
+What happens when an organization's purpose quietly changes and no one notices? This article proposes cryptotelemeritocracy, a governance model that extends telemeritocracy with an anonymous oversight layer designed to detect and prevent mission drift before it becomes irreversible.
+
+Key takeaways:
+- Mission drift is one of the most replicated findings in organizational theory, documented by Merton, Michels, and Selznick from complementary angles.
+- Cryptotelemeritocracy adds a cryptocratic layer to telemeritocratic governance, consisting of a private candidate pool and an anonymous arbitrator who monitors alignment with the stated organizational purpose.
+- Historical precedents for anonymous oversight span millennia, from Athenian ostracism and Roman tribunes through Venetian denunciation boxes and modern inspector general systems.
+- The model offers strength classifications along two dimensions of anonymity, and organizations must choose between oversight and executive configurations based on their drift risk and time horizon.
+- The anonymous governance structure has counter-espionage properties that disrupt adversarial targeting of oversight authority.
+
+You can read the full article here:
+https://sgeos.github.io/management/philosophy/2026/02/19/cryptotelemeritocracy.html
+
+Let me know your thoughts. I would love to hear about how you think about preventing mission drift in your own organizations!
+
+#Governance #OrganizationalDesign #MissionDrift #Leadership #Cryptocracy #Meritocracy #InstitutionalDesign #SecurityEngineering
 
 ---
 
@@ -61,6 +63,6 @@ All four are confirmed valid via web search indexing.
 ## Notes
 
 - Next available article number: A98.
-- 9 release candidates: A89, A90, A91, A92, A93, A94, A95, A96, A97.
+- 8 release candidates: A90, A91, A92, A93, A94, A95, A96, A97.
 - 0 stubs.
-- Publication order dependencies: A89 before A92. A90 before A95. A90 before A96. A91, A93, A94, and A97 have no dependencies.
+- Publication order dependencies: A90 before A92. A90 before A95. A90 before A96. A91, A93, A94, and A97 have no dependencies.
