@@ -176,31 +176,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Cryptotelemeritocracy — Release Candidate
-
-**File**: `cryptotelemeritocracy.markdown`
-**Article**: A89, "Cryptotelemeritocracy"
-**Topic**: Extending telemeritocratic governance with a cryptocratic oversight layer for mission drift prevention
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article proposing cryptotelemeritocracy as a synthesis of cryptocracy and telemeritocracy (A87).
-Addresses the mission drift vulnerability in telemeritocratic governance
-by introducing a cryptocratic layer with an anonymous arbitrator elected from a private candidate pool.
-Grounds the mission drift problem in organizational theory through Merton, Michels, and Selznick.
-Surveys historical precedents for anonymous oversight including Athenian ostracism, Roman tribunes, the Devil's Advocate, Venetian bocche di leone, grand jury secrecy, and inspector general systems.
-Defines the cryptocratic layer covering candidate pool composition, arbitrator powers, selection and appointment, recall, communication, incentives, and embedded configurations.
-Distinguishes oversight and executive configurations with ombudsman and constitutional guardianship analogs.
-Introduces strength classifications along two dimensions of anonymity for the organization and arbitrator.
-Addresses telos amendment, mission rigidity, and organizational dissolution upon telos achievement.
-Analyzes counter-espionage properties including espionage targeting disruption, espionage-driven mission drift, relationship to existing security mechanisms, and defense in depth.
-Discusses eight failure modes and five contexts where the model is inappropriate.
-Nineteen references across four categories (Book, Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, and final proofread before publication. A87 must be published before A89.
-
 ### Cryptotelemeritocracy for Space Exploitation — Release Candidate
 
 **File**: `cryptotelemeritocracy_for_space_exploitation.markdown`
@@ -250,7 +225,7 @@ References A89 and A90 via post_url.
 Twenty references across four categories (Book, Reference, Related Post, Research).
 
 **Remaining Work**:
-Human review, URL verification, and final proofread before publication. A89 must be published before A92.
+Human review, URL verification, and final proofread before publication. A90 must be published before A92.
 
 ### Fast-Moving Versus Mission-Critical Engineering — Release Candidate
 
@@ -532,16 +507,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Nineteen files exist in `_drafts/`. One is a template.
-Nine drafts have been elevated to release candidate status.
+Eighteen files exist in `_drafts/`. One is a template.
+Eight drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A88 have been published.
+A80 through A89 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Cryptotelemeritocracy (A89),
 Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
@@ -551,15 +525,14 @@ Human Evolution and the Great Filter (A95),
 History of Rocketplanes (A96),
 and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
-A89 references A87 via post_url (A87 now published).
-A92 references A89 and A90 via post_url.
+A92 references A89 and A90 via post_url (A89 now published).
 A93 references A86 and A87 via post_url (both now published).
 A90 references A82 via post_url. A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url.
 A96 references A90 via post_url.
 A97 has no post_url dependencies.
-Publication order dependencies: A89 before A92. A90 before A95. A90 before A96.
+Publication order dependencies: A90 before A92. A90 before A95. A90 before A96.
 A91, A93, A94, and A97 have no dependencies.
 
 **Tier 1: Publishable with moderate effort.**

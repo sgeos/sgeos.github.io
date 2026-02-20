@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Cryptotelemeritocracy"
-date: 2026-02-20 00:01:00 +0000
+date: 2026-02-19 00:00:00 +0000
 categories: management philosophy
 ---
 
@@ -85,7 +85,7 @@ exercised for a specific and bounded purpose.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-15 00:40:00 +0000
+2026-02-19 00:00:00 +0000
 
 # OS and Version
 $ uname -vm
