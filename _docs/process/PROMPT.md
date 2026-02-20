@@ -21,13 +21,13 @@ Read, but unverified:
 - Getting Started with Solana Using Rust and Pinocchio
 - Solana sBPF Assembly Example
 
+Date command was not used to update A89 date.
+Manually updated, and published file renamed.
+
 ## Objectives
 
-Publish A89 and report release announcement in reverse prompt.
-Template is in the knowledge graph.
-
-Update the software versions date and front matter date with the current date.
-Make sure that related article links are correct.
+Please make sure that changing A89's published filename did not break anything.
+Fix any breakages.
 
 ## Context
 
@@ -39,7 +39,7 @@ Publishing time!
 
 ## Success Criteria
 
-- Publish A89 and report release announcement in reverse prompt.
+- Fix anything broken by the A89 rename.
 
 ## Notes
 

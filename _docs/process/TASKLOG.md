@@ -20,9 +20,9 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A89-P4-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-19. A92 post_url reference corrected from 2026-02-20 to 2026-02-19. A86 and A87 post_url references verified correct. |
-| A89-P4-T2 | Publish article | Complete | Published via _publish.sh. Moved to _posts/2026-02-19-cryptotelemeritocracy.markdown. |
-| A89-P4-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
+| A89-P4-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated. A86 and A87 post_url references verified correct. |
+| A89-P4-T2 | Publish article | Complete | Published via _publish.sh. Human corrected date to 2026-02-20 and renamed file. |
+| A89-P4-T3 | Fix post_url references after rename | Complete | A92 post_url reference corrected to 2026-02-20. Process files updated. |
 
 ## Notes
 
@@ -83,4 +83,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-19 | A95-P2: Revised. Thesis section renamed to "Weighing the Evidence." Opisthokonta row added for plant split (34 rows, 69 references). Parentheticals inlined throughout. Acronyms spelled out on first use. |
 | 2026-02-18 | A96-P1: "History of Rocketplanes" researched and written (50 references). ~30 vehicles from 1928 Lippisch Ente to 2024 Dawn Mk-II Aurora. Technology transfer and espionage narrative. References A90 via post_url. Draft summary synced (18 files, 8 RCs, 0 stubs). |
 | 2026-02-19 | A97-P1: "What Does the United States Space Force Do?" researched and written (42 references). History, justification, and ten mission areas. Air Force independence parallel and fighter pilot culture documented. Draft summary synced (19 files, 9 RCs, 0 stubs). |
-| 2026-02-19 | A89-P4: "Cryptotelemeritocracy" published (2026-02-19 date). A92 post_url reference corrected. Draft summary synced (18 files, 8 RCs, 0 stubs). |
+| 2026-02-19 | A89-P4: "Cryptotelemeritocracy" published (2026-02-20 date). Human corrected date and renamed file. A92 post_url reference corrected to 2026-02-20. Draft summary synced (18 files, 8 RCs, 0 stubs). |
