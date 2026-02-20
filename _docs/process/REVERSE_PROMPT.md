@@ -9,30 +9,22 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-19
-**Task**: A89-P4 Publish A89
+**Task**: A89-P4 Fix A89 rename breakage
 
 ---
 
 ## Verification
 
-### Article Published
+### Breakage Fixed
 
-A89 "Cryptotelemeritocracy" published with date 2026-02-19.
+A89 "Cryptotelemeritocracy" was published with date 2026-02-20 by human pilot. The AI agent had originally set the date to 2026-02-19 and the publish script had created the file accordingly. The human corrected the date to 2026-02-20 and renamed the file.
 
-**Updates performed:**
-- Front matter date updated from `2026-02-20 00:01:00 +0000` to `2026-02-19 00:00:00 +0000`.
-- Software versions date updated from `2026-02-15 00:40:00 +0000` to `2026-02-19 00:00:00 +0000`.
-- A92 post_url reference corrected from `2026-02-20-cryptotelemeritocracy` to `2026-02-19-cryptotelemeritocracy`.
-- Related article links verified: A86 (2026-02-18) and A87 (2026-02-19) both correct.
-- Published via `_publish.sh` to `_posts/2026-02-19-cryptotelemeritocracy.markdown`.
+**Fix applied:**
+- A92 post_url reference corrected from `2026-02-19-cryptotelemeritocracy` to `2026-02-20-cryptotelemeritocracy`.
+- TASKLOG.md history entry corrected to reflect 2026-02-20 date.
+- No other references to the old date found in drafts or posts.
 
-### Process Files Updated
-
-- TASKLOG.md: current task updated, history entry added.
-- draft_summary.md: A89 entry removed, counts updated (18 files, 8 RCs), dependency notes updated.
-- REVERSE_PROMPT.md: overwritten.
-
-### Release Announcement
+### Release Announcement (corrected URL)
 
 New Blog Post: Cryptotelemeritocracy
 
@@ -46,11 +38,16 @@ Key takeaways:
 - The anonymous governance structure has counter-espionage properties that disrupt adversarial targeting of oversight authority.
 
 You can read the full article here:
-https://sgeos.github.io/management/philosophy/2026/02/19/cryptotelemeritocracy.html
+https://sgeos.github.io/management/philosophy/2026/02/20/cryptotelemeritocracy.html
 
 Let me know your thoughts. I would love to hear about how you think about preventing mission drift in your own organizations!
 
 #Governance #OrganizationalDesign #MissionDrift #Leadership #Cryptocracy #Meritocracy #InstitutionalDesign #SecurityEngineering
+
+### Process Files Updated
+
+- TASKLOG.md: task breakdown and history entry corrected to reflect 2026-02-20 date.
+- REVERSE_PROMPT.md: overwritten with corrected release announcement URL.
 
 ---
 
