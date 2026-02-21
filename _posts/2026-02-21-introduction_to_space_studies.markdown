@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Introduction to Space Studies"
-date: 2026-02-21 00:01:00 +0000
+date: 2026-02-21 06:46:18 +0000
 categories: space math
 ---
 
@@ -49,7 +49,7 @@ as its computational foundation.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-21 00:01:00 +0000
+2026-02-21 06:46:18 +0000
 
 # OS and Version
 $ uname -vm

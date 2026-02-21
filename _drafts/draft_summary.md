@@ -71,28 +71,6 @@ Six references across three categories (Reference, Related Post, Research).
 **Remaining Work**:
 Human review, URL verification, MathJax rendering check, and WASM compilation before publication.
 
-### Introduction to Space Studies — Release Candidate
-
-**File**: `introduction_to_space_studies.markdown`
-**Article**: A90, "Introduction to Space Studies"
-**Topic**: Space operations history, dual-use aerospace technologies, rocket propulsion, orbital mechanics, and atmospheric flight equations
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from a 61-line stub into a researched article.
-Serves as a companion to Introduction to Astronomy (A82),
-covering applied spaceflight mathematics rather than observational astronomy.
-Includes a brief history of space operations from rocket pioneers through the modern era,
-a section on the inherently dual-use nature of aerospace technology,
-and comprehensive mathematical treatment of rocket propulsion,
-orbital mechanics, and atmospheric flight.
-References A82 via post_url.
-Eighteen references across three categories (Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, and MathJax rendering check before publication.
-
 ### Android Development on FreeBSD — Pre-Release Candidate
 
 **File**: `android_development_on_freebsd.markdown`
@@ -507,16 +485,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eighteen files exist in `_drafts/`. One is a template.
-Eight drafts have been elevated to release candidate status.
+Seventeen files exist in `_drafts/`. One is a template.
+Seven drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A89 have been published.
+A80 through A90 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Introduction to Space Studies (A90),
 Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
@@ -525,15 +502,15 @@ Human Evolution and the Great Filter (A95),
 History of Rocketplanes (A96),
 and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
-A92 references A89 and A90 via post_url (A89 now published).
+A92 references A89 and A90 via post_url (both now published).
 A93 references A86 and A87 via post_url (both now published).
-A90 references A82 via post_url. A91 references A73 and A72 via post_url.
+A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
-A95 references A82 and A90 via post_url.
-A96 references A90 via post_url.
+A95 references A82 and A90 via post_url (both now published).
+A96 references A90 via post_url (A90 now published).
 A97 has no post_url dependencies.
-Publication order dependencies: A90 before A92. A90 before A95. A90 before A96.
-A91, A93, A94, and A97 have no dependencies.
+All publication order dependencies have been resolved.
+A91, A92, A93, A94, A95, A96, and A97 have no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

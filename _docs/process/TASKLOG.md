@@ -8,28 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A89 (A89-P4)
+**Name**: Publish A90 (A90-P2)
 **Status**: Complete
-**Started**: 2026-02-19
+**Started**: 2026-02-20
 
 ## Success Criteria
 
-- [x] A89 "Cryptotelemeritocracy" published and release announcement reported.
+- [x] A90 "Introduction to Space Studies" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A89-P4-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated. A86 and A87 post_url references verified correct. |
-| A89-P4-T2 | Publish article | Complete | Published via _publish.sh. Human corrected date to 2026-02-20 and renamed file. |
-| A89-P4-T3 | Fix post_url references after rename | Complete | A92 post_url reference corrected to 2026-02-20. Process files updated. |
+| A90-P2-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-21 06:46:18 +0000 via date command. A82 post_url reference verified correct. A92, A95, A96 references to A90 verified matching 2026-02-21 date. |
+| A90-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-21-introduction_to_space_studies.markdown. |
+| A90-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 8 release candidates: A90, A91, A92, A93, A94, A95, A96, A97.
+- 7 release candidates: A91, A92, A93, A94, A95, A96, A97.
 - 0 stubs.
-- Publication order dependencies: A90 before A92. A90 before A95. A90 before A96. A91, A93, A94, and A97 have no dependencies.
+- All publication order dependencies resolved. All remaining RCs can be published independently.
 
 ## History
 
@@ -84,3 +84,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-18 | A96-P1: "History of Rocketplanes" researched and written (50 references). ~30 vehicles from 1928 Lippisch Ente to 2024 Dawn Mk-II Aurora. Technology transfer and espionage narrative. References A90 via post_url. Draft summary synced (18 files, 8 RCs, 0 stubs). |
 | 2026-02-19 | A97-P1: "What Does the United States Space Force Do?" researched and written (42 references). History, justification, and ten mission areas. Air Force independence parallel and fighter pilot culture documented. Draft summary synced (19 files, 9 RCs, 0 stubs). |
 | 2026-02-19 | A89-P4: "Cryptotelemeritocracy" published (2026-02-20 date). Human corrected date and renamed file. A92 post_url reference corrected to 2026-02-20. Draft summary synced (18 files, 8 RCs, 0 stubs). |
+| 2026-02-20 | A90-P2: "Introduction to Space Studies" published (2026-02-21 date). All publication order dependencies resolved. Draft summary synced (17 files, 7 RCs, 0 stubs). |
