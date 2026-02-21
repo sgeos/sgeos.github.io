@@ -26,8 +26,12 @@ Manually updated, and published file renamed.
 
 ## Objectives
 
-Please make sure that changing A89's published filename did not break anything.
-Fix any breakages.
+Please publish A90.
+
+- Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
+  to update the front matter and the software versions.
+- Make sure all related article links are valid.
+- Generate a release announcement based on the template.
 
 ## Context
 
@@ -39,7 +43,10 @@ Publishing time!
 
 ## Success Criteria
 
-- Fix anything broken by the A89 rename.
+- A90 dates updated.
+- A90 related article links correct.
+- A90 published.
+- A90 release announcement generated and reported in reverse prompt.
 
 ## Notes
 
