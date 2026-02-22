@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Concentrated Liquidity Market Maker Mathematics"
-date: 2026-02-22 00:01:00 +0000
+date: 2026-02-22 10:01:47 +0000
 categories: crypto defi rust
 ---
 
@@ -106,7 +106,7 @@ After that, it will present the code for the following **CLMM calculator widget*
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-22 00:01:00 +0000
+2026-02-22 10:01:47 +0000
 
 # OS and Version
 $ uname -vm

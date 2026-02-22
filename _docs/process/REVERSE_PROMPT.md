@@ -8,8 +8,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-02-20
-**Task**: A90-P2 Publish A90
+**Date**: 2026-02-22
+**Task**: A91-P3 Publish A91
 
 ---
 
@@ -17,39 +17,39 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Published
 
-A90 "Introduction to Space Studies" published with date 2026-02-21.
+A91 "Concentrated Liquidity Market Maker Mathematics" published with date 2026-02-22.
 
 **Updates performed:**
-- Front matter date updated to `2026-02-21 06:46:18 +0000` via `date -u` command output.
+- Front matter date updated to `2026-02-22 10:01:47 +0000` via `date -u` command output.
 - Software versions date updated to match.
-- A82 post_url reference verified correct (`2026-02-12-introduction_to_astronomy` exists).
-- A92, A95, and A96 post_url references to A90 verified matching `2026-02-21-introduction_to_space_studies`.
-- Published via `_publish.sh` to `_posts/2026-02-21-introduction_to_space_studies.markdown`.
+- A73 post_url reference verified correct (`2026-01-29-constant_amm_mathematics` exists).
+- A72 post_url reference verified correct (`2026-01-26-webasm_on_jekyll` exists).
+- Published via `_publish.sh` to `_posts/2026-02-22-clmm_mathematics.markdown`.
 
 ### Process Files Updated
 
 - TASKLOG.md: current task updated, history entry added.
-- draft_summary.md: A90 entry removed, counts updated (17 files, 7 RCs). All publication order dependencies now resolved.
+- draft_summary.md: A91 entry removed, counts updated (16 files, 6 RCs).
 - REVERSE_PROMPT.md: overwritten.
 
 ### Release Announcement
 
-New Blog Post: Introduction to Space Studies
+New Blog Post: Concentrated Liquidity Market Maker Mathematics
 
-How do rockets work, and what mathematics governs orbital mechanics? This article provides a complete introduction to space studies, covering the history of space operations from the earliest rocketry experiments through the current era of commercial spaceflight, along with the applied mathematics of rocket propulsion, orbital mechanics, and atmospheric flight.
+How does concentrated liquidity work under the hood? This article deconstructs the core equations of the Concentrated Liquidity Market Maker model introduced by Uniswap v3, now the dominant design in decentralized finance, and includes an interactive Rust WASM calculator widget.
 
 Key takeaways:
-- Space studies is an integrative discipline distinct from astronomy, focusing on the practical dimensions of operating in space rather than observational science.
-- The article presents a complete set of equations for two-body orbital mechanics, rocket propulsion, and simplified atmospheric flight, corresponding closely to the physics model used in Kerbal Space Program.
-- A brief history covers the evolution from military rocketry through the Space Race, Apollo, the Space Shuttle era, and the rise of commercial spaceflight with SpaceX, Blue Origin, and the Artemis program.
-- Aerospace technology is inherently dual-use, with the same physics governing both civilian space exploration and military applications like ballistic missiles and reconnaissance satellites.
+- Concentrated liquidity allows liquidity providers to allocate capital within a chosen price range rather than across the entire price domain, dramatically improving capital efficiency.
+- The article derives virtual and real reserves, the three price regimes, liquidity computation from deposits, tick mathematics with fee tier tables, and amplified impermanent loss formulas.
+- Capital efficiency gains can exceed 4,000x for narrow ranges, but impermanent loss is amplified proportionally, making range selection a critical decision.
+- An interactive Rust WASM calculator is embedded directly in the article, built with wasm-bindgen following the same pattern as the Constant Product AMM calculator.
 
 You can read the full article here:
-https://sgeos.github.io/space/math/2026/02/21/introduction_to_space_studies.html
+https://sgeos.github.io/crypto/defi/rust/2026/02/22/clmm_mathematics.html
 
-Let me know your thoughts. I would love to hear about your experience with orbital mechanics or spaceflight simulation!
+Let me know your thoughts. I would love to hear about your experience with concentrated liquidity strategies or DeFi mathematics!
 
-#SpaceStudies #OrbitalMechanics #RocketScience #Physics #Spaceflight #STEM #Aerospace #KerbalSpaceProgram
+#DeFi #UniswapV3 #ConcentratedLiquidity #AMM #Mathematics #Rust #WebAssembly #CryptoEngineering
 
 ---
 
@@ -62,6 +62,6 @@ Let me know your thoughts. I would love to hear about your experience with orbit
 ## Notes
 
 - Next available article number: A98.
-- 7 release candidates: A91, A92, A93, A94, A95, A96, A97.
+- 6 release candidates: A92, A93, A94, A95, A96, A97.
 - 0 stubs.
 - All publication order dependencies have been resolved. All remaining RCs can be published independently.

@@ -26,7 +26,7 @@ Manually updated, and published file renamed.
 
 ## Objectives
 
-Please publish A90.
+Please publish A91.
 
 - Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
   to update the front matter and the software versions.
@@ -43,10 +43,10 @@ Publishing time!
 
 ## Success Criteria
 
-- A90 dates updated.
-- A90 related article links correct.
-- A90 published.
-- A90 release announcement generated and reported in reverse prompt.
+- A91 dates updated.
+- A91 related article links correct.
+- A91 published.
+- A91 release announcement generated and reported in reverse prompt.
 
 ## Notes
 
