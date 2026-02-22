@@ -49,28 +49,6 @@ Fill in Software Versions TODO placeholders.
 Verify assembly code executes correctly on a local test validator.
 Assign article number and publication date when ready.
 
-### Concentrated Liquidity Market Maker Mathematics — Release Candidate
-
-**File**: `clmm_mathematics.markdown`
-**Article**: A91, "Concentrated Liquidity Market Maker Mathematics"
-**Topic**: Concentrated liquidity mathematics with interactive Rust WASM calculator widget
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully rewritten from a JavaScript calculator stub into a researched article.
-Serves as a companion to Constant Product AMM Mathematics (A73),
-covering the concentrated liquidity extension introduced by Uniswap v3.
-Includes virtual and real reserves derivation, the three price regimes,
-liquidity computation from deposits, tick mathematics with fee tier table,
-capital efficiency, fee accrual, and amplified impermanent loss.
-Calculator rewritten from JavaScript to Rust WASM following the A72/A73 pattern.
-References A73 and A72 via post_url.
-Six references across three categories (Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, MathJax rendering check, and WASM compilation before publication.
-
 ### Android Development on FreeBSD — Pre-Release Candidate
 
 **File**: `android_development_on_freebsd.markdown`
@@ -485,16 +463,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventeen files exist in `_drafts/`. One is a template.
-Seven drafts have been elevated to release candidate status.
+Sixteen files exist in `_drafts/`. One is a template.
+Six drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A90 have been published.
+A80 through A91 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Concentrated Liquidity Market Maker Mathematics (A91),
 Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
 Long-Form Writing in the Age of Large Language Models (A94),
@@ -504,13 +481,12 @@ and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
 A92 references A89 and A90 via post_url (both now published).
 A93 references A86 and A87 via post_url (both now published).
-A91 references A73 and A72 via post_url.
 A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url (both now published).
 A96 references A90 via post_url (A90 now published).
 A97 has no post_url dependencies.
 All publication order dependencies have been resolved.
-A91, A92, A93, A94, A95, A96, and A97 have no remaining dependencies.
+A92, A93, A94, A95, A96, and A97 have no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

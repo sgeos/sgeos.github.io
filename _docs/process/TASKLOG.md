@@ -8,26 +8,26 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A90 (A90-P2)
+**Name**: Publish A91 (A91-P3)
 **Status**: Complete
-**Started**: 2026-02-20
+**Started**: 2026-02-22
 
 ## Success Criteria
 
-- [x] A90 "Introduction to Space Studies" published and release announcement reported.
+- [x] A91 "Concentrated Liquidity Market Maker Mathematics" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A90-P2-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-21 06:46:18 +0000 via date command. A82 post_url reference verified correct. A92, A95, A96 references to A90 verified matching 2026-02-21 date. |
-| A90-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-21-introduction_to_space_studies.markdown. |
-| A90-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
+| A91-P3-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-22 10:01:47 +0000 via date command. A73 and A72 post_url references verified correct. |
+| A91-P3-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-22-clmm_mathematics.markdown. |
+| A91-P3-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 7 release candidates: A91, A92, A93, A94, A95, A96, A97.
+- 6 release candidates: A92, A93, A94, A95, A96, A97.
 - 0 stubs.
 - All publication order dependencies resolved. All remaining RCs can be published independently.
 
@@ -85,3 +85,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-19 | A97-P1: "What Does the United States Space Force Do?" researched and written (42 references). History, justification, and ten mission areas. Air Force independence parallel and fighter pilot culture documented. Draft summary synced (19 files, 9 RCs, 0 stubs). |
 | 2026-02-19 | A89-P4: "Cryptotelemeritocracy" published (2026-02-20 date). Human corrected date and renamed file. A92 post_url reference corrected to 2026-02-20. Draft summary synced (18 files, 8 RCs, 0 stubs). |
 | 2026-02-20 | A90-P2: "Introduction to Space Studies" published (2026-02-21 date). All publication order dependencies resolved. Draft summary synced (17 files, 7 RCs, 0 stubs). |
+| 2026-02-22 | A91-P3: "Concentrated Liquidity Market Maker Mathematics" published (2026-02-22 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
