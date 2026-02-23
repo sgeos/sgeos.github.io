@@ -132,57 +132,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Cryptotelemeritocracy for Space Exploitation — Release Candidate
-
-**File**: `cryptotelemeritocracy_for_space_exploitation.markdown`
-**Article**: A92, "Cryptotelemeritocracy for Space Exploitation"
-**Topic**: Applying cryptotelemeritocratic governance to a multigenerational space exploitation enterprise
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article applying the cryptotelemeritocratic governance model (A89)
-to a multigenerational space exploitation enterprise
-whose telos spans Mercury colonization through intergalactic expansion.
-Introduction foreshadows four-phase compatibility assessment.
-Telos structured into 13 objectives across four hierarchical categories:
-infrastructure-enabling, energy-scaling, expansion-propagating, and defensive.
-Kardashev framing notes governance shift from resource scaling
-to civilizational continuity beyond Type III.
-Introduces the Birch Planet concept for galaxy-scale energy capture
-around a supermassive black hole, with shell gravity equation.
-Covers near-term goals including lunar mass driver with orbital vs escape velocity
-distinction and deceleration propellant note, Venus aerostat colonies,
-Mercury colonization, and Mercury cannibalization as an irreversible
-inflection point where governance stability becomes existential.
-Venus water sourced from comets, asteroids, and trans-Neptunian objects.
-Mercury quantitative claims attributed to MESSENGER mission data.
-EROI and exponential growth equations for Dyson Swarm feedback loop.
-Presents the corporate structure with corrected spinoff value equations
-including $V_{spinoff}$ term and corrected $\Delta V_{share}$ formula.
-Reverse conglomerate appreciation through excess pledges.
-Spinoff mechanism sheds solved problems, misaligned personnel, and drift pressure.
-$\Delta V_{share}$ quantifies focus, $V_{remaining}$ quantifies market opinion.
-Cryptotelemeritocracy subordinates shareholder capitalism to telos primacy.
-Arbitrator is the only actor not compensated by profit,
-champion of the telos not of profit and loss,
-preventing profitable stasis short of the telos.
-Latency cascade degrades governance from coordinated behavior
-to coordinated meaning to propagated narrative.
-Governance Coherence Half-Life ($T_{GCH}$) introduced with glottochronology analogy,
-punctuated equilibrium critique, and operational 50% divergence definitions.
-Intergalactic phase reframed as myth-structure
-that may further degrade to rejected superstition.
-Analyzes covert seeding during expansion, the spinoff mechanism's relationship
-to Michels' iron law of oligarchy, counter-espionage properties in space,
-and five space-specific failure modes.
-MathJax enabled with multiple equations.
-References A89 and A90 via post_url.
-Twenty references across four categories (Book, Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, and final proofread before publication. A90 must be published before A92.
-
 ### Fast-Moving Versus Mission-Critical Engineering — Release Candidate
 
 **File**: `fast_moving_versus_mission_critical_engineering.markdown`
@@ -463,30 +412,28 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Sixteen files exist in `_drafts/`. One is a template.
-Six drafts have been elevated to release candidate status.
+Fifteen files exist in `_drafts/`. One is a template.
+Five drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A91 have been published.
+A80 through A92 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Cryptotelemeritocracy for Space Exploitation (A92),
 Fast-Moving Versus Mission-Critical Engineering (A93),
 Long-Form Writing in the Age of Large Language Models (A94),
 Human Evolution and the Great Filter (A95),
 History of Rocketplanes (A96),
 and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
-A92 references A89 and A90 via post_url (both now published).
 A93 references A86 and A87 via post_url (both now published).
 A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url (both now published).
 A96 references A90 via post_url (A90 now published).
 A97 has no post_url dependencies.
 All publication order dependencies have been resolved.
-A92, A93, A94, A95, A96, and A97 have no remaining dependencies.
+A93, A94, A95, A96, and A97 have no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
