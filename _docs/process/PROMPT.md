@@ -21,12 +21,9 @@ Read, but unverified:
 - Getting Started with Solana Using Rust and Pinocchio
 - Solana sBPF Assembly Example
 
-Date command was not used to update A89 date.
-Manually updated, and published file renamed.
-
 ## Objectives
 
-Please publish A91.
+Please publish A92.
 
 - Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
   to update the front matter and the software versions.
@@ -43,10 +40,10 @@ Publishing time!
 
 ## Success Criteria
 
-- A91 dates updated.
-- A91 related article links correct.
-- A91 published.
-- A91 release announcement generated and reported in reverse prompt.
+- A92 dates updated.
+- A92 related article links correct.
+- A92 published.
+- A92 release announcement generated and reported in reverse prompt.
 
 ## Notes
 
