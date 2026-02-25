@@ -132,69 +132,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Fast-Moving Versus Mission-Critical Engineering — Release Candidate
-
-**File**: `fast_moving_versus_mission_critical_engineering.markdown`
-**Article**: A93, "Fast-Moving Versus Mission-Critical Engineering"
-**Topic**: The dichotomy between FMCG engineering and mission-critical engineering, framed as a cost of failure continuum
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article examining the engineering dichotomy
-between speed-first FMCG engineering
-and correctness-first mission-critical engineering.
-Core insight: whether a poor quality MVP has positive or negative value
-determines the engineering mode.
-Uses "FMCG Engineering" (Fast-Moving Consumer Goods Engineering) as the primary term,
-noting that Sommerville's "commercial software engineering" is a near-equivalent
-but insufficient because the dichotomy applies to hobbyist, volunteer, and open-source projects.
-Defines FMCG Engineering as a mode where the product is durable
-but the infrastructure allows for low-cost patching.
-Explains conventional FMCG usage with a toilet paper analogy
-to ground the engineering metaphor.
-Surveys established frameworks including IEC 61508, DO-178C, ISO 26262,
-Gartner Bimodal IT, and Brand's Pace Layering.
-Addresses the hybrid pattern where a mission-critical core
-operates under rigorous processes within a commercial shell.
-Identifies mindset mismatch as the primary failure mode.
-References DORA research (Forsgren, Humble, Kim 2018) demonstrating
-that elite teams achieve both speed and stability.
-References companion articles on mission command (A86) and telemeritocracy (A87) via post_url.
-Seventeen references across five categories (Book, Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, URL verification, and final proofread before publication.
-
-### Long-Form Writing in the Age of Large Language Models — Release Candidate
-
-**File**: `long_form_writing_in_age_of_large_language_models.markdown`
-**Article**: A94, "Long-Form Writing in the Age of Large Language Models"
-**Topic**: The critical importance of long-form writing in the LLM era, argued through a 5,000-year history of information technology
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article arguing that long-form writing is more valuable in the LLM era than ever.
-Two-part thesis: (1) long-form posts are durable assets anchoring the "Permanent Web,"
-and (2) human-authored long-form content is the high-fidelity ore required to prevent model collapse.
-Historical sweep from pre-history (oral tradition, Ong) through cuneiform (Schmandt-Besserat),
-the alphabet, Euclid, the Library of Alexandria, codex, paper, Al-Khwarizmi,
-medieval scriptoria, Fibonacci, Gutenberg (Eisenstein), the early modern period
-(Pacioli, Napier, Pascal, scientific journals, Leibniz, the Encyclopédie, Bayes),
-the industrial revolution (Boole, Dewey Decimal, Carnegie libraries),
-the mechanization of thought (Jacquard, Babbage/Lovelace, Kelvin, Hollerith,
-Gödel, Turing, Bush, Shannon), analog to digital transition, and the contemporary era
-(link rot, walled gardens, Internet Archive).
-Bridging concepts cover search versus synthesis and the model collapse risk
-(Shumailov et al. 2024, Habsburg AI, Doctorow, FineWeb, Villalobos).
-The Library Paradox contrasts walled gardens with the open web.
-Four historical conclusions drawn inductively from the record with epistemological framing.
-Comprehensive reference index with 60 entries across Book, Reference, and Research categories.
-
-**Remaining Work**:
-Human review and final proofread before publication.
-
 ### Human Evolution and the Great Filter — Release Candidate
 
 **File**: `human_evolution_and_the_great_filter.markdown`
@@ -412,28 +349,24 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifteen files exist in `_drafts/`. One is a template.
-Five drafts have been elevated to release candidate status.
+Thirteen files exist in `_drafts/`. One is a template.
+Three drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A92 have been published.
+A80 through A94 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Fast-Moving Versus Mission-Critical Engineering (A93),
-Long-Form Writing in the Age of Large Language Models (A94),
 Human Evolution and the Great Filter (A95),
 History of Rocketplanes (A96),
 and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
-A93 references A86 and A87 via post_url (both now published).
-A94 has no post_url dependencies.
 A95 references A82 and A90 via post_url (both now published).
 A96 references A90 via post_url (A90 now published).
 A97 has no post_url dependencies.
 All publication order dependencies have been resolved.
-A93, A94, A95, A96, and A97 have no remaining dependencies.
+A95, A96, and A97 have no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Long-Form Writing in the Age of Large Language Models"
-date: 2026-02-25 00:00:00 +0000
+date: 2026-02-25 09:10:40 +0000
 categories: ai philosophy
 ---
 
@@ -67,7 +67,7 @@ not an exception to it.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-25 00:00:00 +0000
+2026-02-25 09:10:40 +0000
 ```
 
 ## A Brief History of Information Storage

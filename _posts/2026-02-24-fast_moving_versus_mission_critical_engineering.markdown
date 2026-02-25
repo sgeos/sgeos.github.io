@@ -59,7 +59,7 @@ of which mode applies.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-18 17:39:57 +0000
+2026-02-24 17:39:57 +0000
 
 # OS and Version
 $ uname -vm
