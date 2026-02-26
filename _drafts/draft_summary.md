@@ -132,35 +132,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### Human Evolution and the Great Filter — Release Candidate
-
-**File**: `human_evolution_and_the_great_filter.markdown`
-**Article**: A95, "Human Evolution and the Great Filter"
-**Topic**: Human evolution from LUCA to Homo sapiens through the lens of the Fermi Paradox and the Great Filter
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article examining whether the evolutionary record on Earth explains the Fermi Paradox.
-Traces the complete ancestral lineage of Homo sapiens across 33 stages from the Last Universal Common Ancestor to the present.
-Origin of life section covers the fossil record gap, abiogenesis, and panspermia with arguments for and against.
-Ancestor table spans seven sub-tables covering pre-eukaryotic life, early eukaryotes, early animals,
-vertebrate origins, terrestrial vertebrates, early mammals, primates, and hominins.
-Dead ends analysis highlights what did NOT become us at each split,
-with detailed treatment of insects, cephalopods, corvids, cetaceans, and elephants.
-Extinction events section analyzes the Big Five mass extinctions as both filters and gates,
-with compound survival probability expressed in MathJax.
-Social animal to technological civilization transition identifies six prerequisites
-and uses the Hard Steps probability formalism.
-Presents both pre-filter and post-filter arguments before declaring a thesis
-that the Great Filter lies predominantly in our past.
-Drake Equation, compound survival probability, and Hard Steps probability expressed in MathJax.
-References A82 and A90 via post_url.
-Sixty-seven references across four categories (Book, Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review, MathJax rendering check, and final proofread before publication. A90 must be published before A95.
-
 ### History of Rocketplanes — Release Candidate
 
 **File**: `history_of_rocketplanes.markdown`
@@ -349,24 +320,22 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
-Three drafts have been elevated to release candidate status.
+Twelve files exist in `_drafts/`. One is a template.
+Two drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A94 have been published.
+A80 through A95 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-Human Evolution and the Great Filter (A95),
-History of Rocketplanes (A96),
+History of Rocketplanes (A96)
 and What Does the United States Space Force Do? (A97) have been fully drafted
 and are awaiting human review before publication.
-A95 references A82 and A90 via post_url (both now published).
 A96 references A90 via post_url (A90 now published).
 A97 has no post_url dependencies.
 All publication order dependencies have been resolved.
-A95, A96, and A97 have no remaining dependencies.
+A96 and A97 have no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

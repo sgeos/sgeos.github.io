@@ -8,29 +8,26 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A93 and A94 (A93-P5, A94-P2)
+**Name**: Publish A95 (A95-P3)
 **Status**: Complete
-**Started**: 2026-02-25
+**Started**: 2026-02-26
 
 ## Success Criteria
 
-- [x] A93 "Fast-Moving Versus Mission-Critical Engineering" published and release announcement reported.
-- [x] A94 "Long-Form Writing in the Age of Large Language Models" published and release announcement reported.
+- [x] A95 "Human Evolution and the Great Filter" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A93-P5-T1 | Verify post_url references | Complete | A86 post_url reference verified correct (2026-02-18-mission_command_management_style). A87 post_url reference verified correct (2026-02-19-telemeritocracy). |
-| A93-P5-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-24-fast_moving_versus_mission_critical_engineering.markdown. Dates not updated per prompt instructions. |
-| A94-P2-T1 | Verify post_url references | Complete | No post_url references in A94. |
-| A94-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-25-long_form_writing_in_age_of_large_language_models.markdown. Dates not updated per prompt instructions. |
-| A93-P5-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcements generated. |
+| A95-P3-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-26 22:04:02 +0000 via date command. A82 post_url reference verified correct (2026-02-12-introduction_to_astronomy). A90 post_url reference verified correct (2026-02-21-introduction_to_space_studies). |
+| A95-P3-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-26-human_evolution_and_the_great_filter.markdown. |
+| A95-P3-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 3 release candidates: A95, A96, A97.
+- 2 release candidates: A96, A97.
 - 0 stubs.
 - All publication order dependencies resolved. All remaining RCs can be published independently.
 
@@ -91,3 +88,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-22 | A91-P3: "Concentrated Liquidity Market Maker Mathematics" published (2026-02-22 date). Draft summary synced (16 files, 6 RCs, 0 stubs). |
 | 2026-02-22 | A92-P6: "Cryptotelemeritocracy for Space Exploitation" published (2026-02-23 date). Draft summary synced (15 files, 5 RCs, 0 stubs). |
 | 2026-02-25 | A93-P5, A94-P2: "Fast-Moving Versus Mission-Critical Engineering" published (2026-02-24 date) and "Long-Form Writing in the Age of Large Language Models" published (2026-02-25 date). Dates not updated per prompt instructions. Draft summary synced (13 files, 3 RCs, 0 stubs). |
+| 2026-02-26 | A95-P3: "Human Evolution and the Great Filter" published (2026-02-26 date). Draft summary synced (12 files, 2 RCs, 0 stubs). |
