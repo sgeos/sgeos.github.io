@@ -23,9 +23,9 @@ Read, but unverified:
 
 ## Objectives
 
-Please publish A93 and A94.
+Please publish A95.
 
-- Do not run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
+- Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
   to update the front matter and the software versions.
 - Make sure all related article links are valid.
 - Generate a release announcement based on the template.
@@ -40,14 +40,10 @@ Publishing time!
 
 ## Success Criteria
 
-- A93 dates not updated.
-- A93 related article links correct.
-- A93 published.
-- A93 release announcement generated and reported in reverse prompt.
-- A94 dates not updated.
-- A94 related article links correct.
-- A94 published.
-- A94 release announcement generated and reported in reverse prompt.
+- A95 dates updated.
+- A95 related article links correct.
+- A95 published.
+- A95 release announcement generated and reported in reverse prompt.
 
 ## Notes
 

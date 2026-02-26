@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Human Evolution and the Great Filter"
-date: 2026-02-26 00:00:00 +0000
+date: 2026-02-26 22:04:02 +0000
 categories: science philosophy
 ---
 
@@ -61,7 +61,7 @@ and the history of space operations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-26 00:00:00 +0000
+2026-02-26 22:04:02 +0000
 
 # OS and Version
 $ uname -vm
