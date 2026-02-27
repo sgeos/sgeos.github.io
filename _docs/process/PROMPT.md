@@ -23,7 +23,7 @@ Read, but unverified:
 
 ## Objectives
 
-Please publish A95.
+Please publish A96.
 
 - Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
   to update the front matter and the software versions.
@@ -40,10 +40,10 @@ Publishing time!
 
 ## Success Criteria
 
-- A95 dates updated.
-- A95 related article links correct.
-- A95 published.
-- A95 release announcement generated and reported in reverse prompt.
+- A96 dates updated.
+- A96 related article links correct.
+- A96 published.
+- A96 release announcement generated and reported in reverse prompt.
 
 ## Notes
 

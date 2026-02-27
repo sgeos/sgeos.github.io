@@ -132,36 +132,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### History of Rocketplanes — Release Candidate
-
-**File**: `history_of_rocketplanes.markdown`
-**Article**: A96, "History of Rocketplanes"
-**Topic**: Complete history of rocket-powered aircraft from 1928 to 2024, tracing technology transfer, espionage, and institutional memory
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article tracing the continuous thread of rocketplane development
-from the 1928 Lippisch Ente through the 2024 Dawn Mk-II Aurora.
-German pioneers section covers the Ente, Opel RAK.1, Heinkel He 176, and DFS 194.
-WWII operational rocketplanes section covers the Me 163 Komet, Bachem Ba 349 Natter,
-Yokosuka MXY-7 Ohka, and Bereznyak-Isayev BI-1.
-Technology transfer and espionage section covers Operation Paperclip,
-Operation Osoaviakhim, and the Silbervogel concept,
-tracing how German technology seeded both superpowers.
-American X-plane program section covers the Bell X-1 through the Martin X-24B,
-including the X-15 hypersonic research program and the cancelled X-20 Dyna-Soar.
-Soviet response section covers the MiG-105 Spiral and Buran,
-including the BOR-4 reverse-intelligence connection to Dream Chaser.
-Space Shuttle section traces technical heritage from X-planes and lifting bodies.
-Modern era section covers SpaceShipOne, SpaceShipTwo, Blue Origin New Shepard,
-Boeing X-37B, Dream Chaser, and Dawn Mk-II Aurora.
-References A90 via post_url.
-Fifty references across four categories (Book 4, Reference 41, Related Post 1, Research 4).
-
-**Remaining Work**:
-Human review and final proofread before publication. A90 must be published before A96.
-
 ### What Does the United States Space Force Do? — Release Candidate
 
 **File**: `what_does_united_states_space_force_do.markdown`
@@ -320,22 +290,20 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
-Two drafts have been elevated to release candidate status.
+Eleven files exist in `_drafts/`. One is a template.
+One draft has been elevated to release candidate status.
 No stubs remain.
-A80 through A95 have been published.
+A80 through A96 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **Release Candidates.**
-History of Rocketplanes (A96)
-and What Does the United States Space Force Do? (A97) have been fully drafted
-and are awaiting human review before publication.
-A96 references A90 via post_url (A90 now published).
+What Does the United States Space Force Do? (A97) has been fully drafted
+and is awaiting human review before publication.
 A97 has no post_url dependencies.
 All publication order dependencies have been resolved.
-A96 and A97 have no remaining dependencies.
+A97 has no remaining dependencies.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
