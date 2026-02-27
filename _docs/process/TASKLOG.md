@@ -8,28 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A95 (A95-P3)
+**Name**: Publish A96 (A96-P2)
 **Status**: Complete
-**Started**: 2026-02-26
+**Started**: 2026-02-27
 
 ## Success Criteria
 
-- [x] A95 "Human Evolution and the Great Filter" published and release announcement reported.
+- [x] A96 "History of Rocketplanes" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A95-P3-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-26 22:04:02 +0000 via date command. A82 post_url reference verified correct (2026-02-12-introduction_to_astronomy). A90 post_url reference verified correct (2026-02-21-introduction_to_space_studies). |
-| A95-P3-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-26-human_evolution_and_the_great_filter.markdown. |
-| A95-P3-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
+| A96-P2-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-27 21:34:00 +0000 via date command. A90 post_url reference verified correct (2026-02-21-introduction_to_space_studies). |
+| A96-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-27-history_of_rocketplanes.markdown. |
+| A96-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 2 release candidates: A96, A97.
+- 1 release candidate: A97.
 - 0 stubs.
-- All publication order dependencies resolved. All remaining RCs can be published independently.
+- All publication order dependencies resolved.
 
 ## History
 
@@ -89,3 +89,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-22 | A92-P6: "Cryptotelemeritocracy for Space Exploitation" published (2026-02-23 date). Draft summary synced (15 files, 5 RCs, 0 stubs). |
 | 2026-02-25 | A93-P5, A94-P2: "Fast-Moving Versus Mission-Critical Engineering" published (2026-02-24 date) and "Long-Form Writing in the Age of Large Language Models" published (2026-02-25 date). Dates not updated per prompt instructions. Draft summary synced (13 files, 3 RCs, 0 stubs). |
 | 2026-02-26 | A95-P3: "Human Evolution and the Great Filter" published (2026-02-26 date). Draft summary synced (12 files, 2 RCs, 0 stubs). |
+| 2026-02-27 | A96-P2: "History of Rocketplanes" published (2026-02-27 date). Draft summary synced (11 files, 1 RC, 0 stubs). |

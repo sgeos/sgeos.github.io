@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "History of Rocketplanes"
-date: 2026-02-27 00:00:00 +0000
+date: 2026-02-27 21:34:00 +0000
 categories: space history
 ---
 
@@ -59,7 +59,7 @@ see the companion article
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-27 00:00:00 +0000
+2026-02-27 21:34:00 +0000
 
 # OS and Version
 $ uname -vm
