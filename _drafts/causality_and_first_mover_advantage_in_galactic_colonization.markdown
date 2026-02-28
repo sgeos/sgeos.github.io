@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title: "The Fermi Paradox"
-date: 2026-02-28 21:07:10 +0000
+title: "Causality and First-Mover Advantage in Galactic Colonization"
+date: 2026-02-28 22:26:21 +0000
 categories: science philosophy
 ---
 
@@ -89,7 +89,7 @@ and the history of space operations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-28 21:07:10 +0000
+2026-02-28 22:26:21 +0000
 
 # OS and Version
 $ uname -vm
@@ -1592,7 +1592,9 @@ of the local cluster
 than discover that someone else already is.
 
 The current absence of evidence
-is therefore encouraging.
+does not tell us that no one else exists.
+It tells us that the information
+has not arrived yet.
 We do not see ghost galaxies.
 We do not see anomalous dimming.
 We do not see mid-infrared excess
@@ -1600,16 +1602,216 @@ in nearby galaxies
 consistent with galaxy-spanning energy harvesting.
 The G-hat survey found nothing.
 
-Either no one else has started,
-or they are concealing themselves
-so effectively
-that we cannot detect them,
-or we are looking at the wrong wavelengths.
-Of these possibilities,
-the first is the most hopeful
-and the most consistent
-with the oxygen bottleneck argument
-and the first-generation hypothesis.
+These observations show us
+what those galaxies looked like
+millions of years ago.
+The silence we observe
+is the silence of the past.
+If a civilization in Andromeda
+began constructing Dyson swarms
+one million years ago,
+we will not see the dimming
+for another 1.5 million years.
+The absence of evidence
+is not evidence of absence.
+It is a consequence
+of the finite speed of information.
+
+This is why evidence of advanced life,
+should it ever appear
+in the light arriving from a nearby galaxy,
+would be the most alarming observation
+in the history of science.
+That light would show us
+the past state of a civilization
+that is now $d$ years more advanced
+than what we observe.
+If that past state already exceeded
+our current capabilities,
+we have lost.
+The first mover has already claimed
+the volume between us,
+and we cannot observe the claim
+until the colonization wavefront
+is nearly upon us.
+Unless that civilization
+self-destructs in the intervening years,
+the outcome is determined.
+
+### Intergalactic Sterilization
+
+According to known physics,
+a directed-energy sterilization sweep
+would propagate at the speed of light.
+A relativistic particle beam
+or concentrated gamma-ray burst
+directed at a target galaxy
+would travel at or near $c$.
+The critical consequence
+is that the target galaxy
+cannot detect the sweep
+until the moment it arrives.
+Light from the sweep
+and the sweep itself
+travel at the same velocity.
+
+An expanding civilization
+could perform a sterilization sweep
+and dispatch intergalactic colonization bootstrappers
+immediately afterward.
+The bootstrappers,
+constrained to subluminal velocities,
+would arrive after the sweep
+has cleared the target galaxy
+of any competing biosphere.
+The target galaxy is sterilized and then seeded.
+
+However,
+the preparation for such a sweep
+would be visible
+before the sweep itself arrives.
+If the attacking civilization
+spent $P$ years assembling
+the energy infrastructure
+required to sterilize a target galaxy,
+then the target galaxy
+would observe $P$ years
+of preparation activity
+before the sweep arrives.
+The preparation light
+reaches the target first
+because it was emitted first.
+The sweep follows behind,
+arriving at the same instant
+as the light from its own launch.
+
+Let $d$ represent the one-way light travel time
+in years between two galaxies,
+and let $P$ represent the duration
+of the preparation phase.
+The target galaxy begins observing
+the attacker's preparations
+at time $d$ after they commence.
+The sweep arrives at time $d + P$.
+The warning window is therefore
+
+$$t_{\text{warning}} = P$$
+
+A sterilization sweep
+that takes millions of years
+to cross intergalactic distances
+still arrives faster than biological evolution
+can produce a technological response.
+Evolution operates on timescales
+of hundreds of thousands to millions of years.
+A pre-technological biosphere
+has no possible countermeasure.
+A civilization that detects
+incoming preparations
+would need to develop defenses
+within the warning window
+or face extinction.
+
+For a target galaxy
+without a technological civilization,
+the question is moot.
+The sweep arrives
+before technology evolves to detect it.
+This is the ultimate expression
+of first-mover advantage.
+The first civilization to achieve
+intergalactic reach
+can preemptively sterilize
+every galaxy within its expanding light cone,
+seeding each with its own biology
+and ensuring that no competitor ever arises.
+
+### The Asymmetry of Intergalactic Warfare
+
+The speed of light
+creates a profound asymmetry
+between offense and defense
+at intergalactic distances.
+
+Consider two peer civilizations,
+$A$ and $B$,
+separated by distance $d$ light-years.
+At time $t$,
+civilization $A$ observes civilization $B$
+as $B$ existed at time $t - d$.
+If $A$ launches an attack at time $t$
+traveling at the speed of light,
+the attack arrives at $B$ at time $t + d$.
+At the moment of impact,
+$B$ is at technological state $S_B(t + d)$.
+$A$ designed the attack
+based on its observation of $S_B(t - d)$.
+
+The offensive gap is therefore
+
+$$\Delta_{\text{offense}} = S_B(t + d) - S_B(t - d) = 2d \text{ years of unobserved development}$$
+
+The attacker must design weapons
+capable of defeating a target
+that is $2d$ years more advanced
+than the last available intelligence.
+For Andromeda at $d = 2.5 \times 10^6$ light-years,
+this gap is 5 million years.
+The entirety of hominin evolution
+from Australopithecus to the present day
+spans less than 4 million years.
+An intergalactic attack
+must cut through technological progress
+exceeding the entire span
+of human evolutionary history
+beyond the last observation.
+
+For defense,
+an incoming attack from $B$
+was designed based on $B$'s observation
+of $A$ at state $S_A(t - d)$.
+That attack, traveling at light speed,
+arrives at time $t$.
+$A$ is now at state $S_A(t)$.
+The defender's advantage is
+
+$$\Delta_{\text{defense}} = S_A(t) - S_A(t - d) = d \text{ years of development unknown to the attacker}$$
+
+The defender is always $d$ years
+more advanced than the version of itself
+that the attacker targeted.
+Incoming weapons were designed
+to defeat an obsolete version
+of the defending civilization.
+
+This asymmetry has a striking consequence.
+At intergalactic distances,
+defense is strongly favored
+over offense between peer rivals.
+The attacker faces a $2d$-year intelligence gap.
+The defender benefits from a $d$-year head start
+that the attacker could not have anticipated.
+Intergalactic warfare
+between roughly equivalent civilizations
+would be extraordinarily difficult
+for the aggressor.
+
+The exception is the first-mover scenario.
+A civilization that achieves
+intergalactic reach
+before any rival exists
+faces no $2d$-year gap
+because there is no peer to have advanced.
+A sterilization sweep
+directed at a pre-technological biosphere
+encounters no technological resistance whatsoever.
+The $2d$-year problem
+applies only when both sides
+have technology worth measuring.
+Against a world of single-celled organisms
+or early hominins,
+the question of defensive advantage
+does not arise.
 
 ## Conclusion
 
@@ -1641,6 +1843,11 @@ of their technological adolescence.
 We see Andromeda as it was
 during the age of Australopithecus.
 Andromeda sees us the same way.
+The information has not arrived yet,
+and this fact alone
+explains the observed silence
+without requiring exotic hypotheses
+about alien behavior or motivation.
 
 The Grabby Aliens model
 predicts that expanding civilizations
@@ -1655,9 +1862,9 @@ Cold civilizations radiating near
 the cosmic microwave background temperature
 would be invisible to current instruments.
 
-The strategic implication
+The strategic implications
 of first-mover advantage
-in galactic colonization is stark.
+in galactic colonization are severe.
 Whoever expands first
 claims the matter and energy
 of the local cluster.
@@ -1668,16 +1875,40 @@ into infrastructure for the expanding civilization.
 There is no mechanism for a late starter
 to outrun an expanding wavefront
 that is already underway.
+A first mover with intergalactic reach
+can sterilize and seed neighboring galaxies
+before any competing technological civilization arises,
+and a sterilization sweep traveling at the speed of light
+arrives before any pre-technological biosphere
+can mount a response.
 
-The current silence is consistent
-with the hypothesis
+The $2d$-year offensive gap
+makes intergalactic warfare
+between peer civilizations
+extraordinarily difficult for the aggressor.
+But this asymmetry offers no protection
+to civilizations that have not yet arisen.
+The first mover faces no peer.
+
+The current silence is therefore
+both reassuring and urgent.
+Reassuring because the absence of evidence
+in arriving light
+is consistent with the hypothesis
 that we are among the first
-technological civilizations
-in our local volume.
-If this is correct,
-the path forward is expansion.
+technological civilizations in our local volume.
+Urgent because if evidence does arrive,
+the situation may already be determined.
+The light showing a rival's preparations
+would mean the sterilization front
+is at most a preparation-duration behind.
+
+If we are first, the path forward is expansion.
 Not because the universe is hostile,
-but because whoever moves first wins.
+but because whoever moves first wins,
+and the information confirming
+whether we are first
+has not yet arrived.
 
 ## Future Reading
 

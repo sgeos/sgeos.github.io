@@ -8,26 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A98 (A98-P1)
+**Name**: Revise A98 (A98-P2)
 **Status**: Complete
 **Started**: 2026-02-28
 
 ## Success Criteria
 
-- [x] A98 "The Fermi Paradox" researched and drafted with 63 references.
-- [x] Dates updated to 2026-02-28 21:07:10 +0000.
+- [x] A98 revised per PROMPT.md instructions.
+- [x] Retitled to "Causality and First-Mover Advantage in Galactic Colonization." File renamed.
+- [x] Incorrect conclusion paragraph replaced with "information has not arrived yet" thesis.
+- [x] Intergalactic sterilization sweep section added with warning time equation.
+- [x] Intergalactic warfare asymmetry section added with offensive gap and defensive advantage equations.
+- [x] Conclusion revised to incorporate sterilization and warfare implications.
+- [x] Dates updated to 2026-02-28 22:26:21 +0000.
 - [x] Related article links verified (A82, A90, A95).
-- [x] All reference URLs verified.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A98-P1-T1 | Research Fermi Paradox topics | Complete | Four background research agents completed. Drake equation, oxygen bottleneck, Kardashev scale, Dyson swarms, star lifting, Matrioshka brains, grabby aliens, causality resolution researched. |
-| A98-P1-T2 | Draft article | Complete | Created _drafts/fermi_paradox.markdown with 63 references across Reference, Related Post, and Research categories. MathJax enabled. |
-| A98-P1-T3 | Verify URLs and post_url references | Complete | All 48 unique URLs verified across three batches. One ADS bibcode corrected (1997ApJ...482..420A to 1997ApJ...482..420L). Three post_url references verified (A82, A90, A95). |
-| A98-P1-T4 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A98-P2-T1 | Revise thesis and conclusion | Complete | Replaced "either no one else has started, or they are concealing themselves" paragraph with causality-based conclusion. Revised article conclusion to incorporate sterilization and warfare implications. |
+| A98-P2-T2 | Add intergalactic sterilization section | Complete | New subsection on directed-energy sterilization sweeps at light speed. Warning time equation $t_{\text{warning}} = P$. Pre-technological biospheres have no countermeasure. |
+| A98-P2-T3 | Add intergalactic warfare section | Complete | New subsection on $2d$-year offensive gap. Defensive advantage equation. First-mover exception explained. |
+| A98-P2-T4 | Retitle and rename file | Complete | Title changed from "The Fermi Paradox" to "Causality and First-Mover Advantage in Galactic Colonization." File renamed from fermi_paradox.markdown to causality_and_first_mover_advantage_in_galactic_colonization.markdown. |
+| A98-P2-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
@@ -97,3 +102,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-27 | A96-P2: "History of Rocketplanes" published (2026-02-27 date). Draft summary synced (11 files, 1 RC, 0 stubs). |
 | 2026-02-27 | A97-P2: "What Does the United States Space Force Do?" published (2026-02-28 date). Draft summary synced (10 files, 0 RCs, 0 stubs). |
 | 2026-02-28 | A98-P1: "The Fermi Paradox" researched and written (63 references). References A82, A90, A95 via post_url. Draft summary synced (11 files, 1 RC, 0 stubs). |
+| 2026-02-28 | A98-P2: Retitled to "Causality and First-Mover Advantage in Galactic Colonization." File renamed. Incorrect conclusion replaced with causality-based thesis. Intergalactic sterilization and warfare sections added with equations. Conclusion revised. Draft summary synced. |
