@@ -248,10 +248,10 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
-### The Fermi Paradox — Release Candidate
+### Causality and First-Mover Advantage in Galactic Colonization — Release Candidate
 
-**File**: `fermi_paradox.markdown`
-**Topic**: The Fermi Paradox, causality resolution, oxygen bottleneck, Kardashev scale, galactic engineering, first-mover advantage
+**File**: `causality_and_first_mover_advantage_in_galactic_colonization.markdown`
+**Topic**: Causality resolution to the Fermi Paradox, oxygen bottleneck, Kardashev scale, galactic engineering, intergalactic sterilization, first-mover advantage
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: Release Candidate
@@ -259,8 +259,11 @@ Assign article number and publication date when ready.
 <!-- A98 -->
 
 New article arguing that the Fermi Paradox is resolved by causality and first-mover dynamics.
+Retitled from "The Fermi Paradox" to reflect the article's thesis
+rather than serving as a general summary of the paradox.
 The Drake Equation is broadly correct and its parameters are increasingly well-constrained.
 Causality imposed by the speed of light explains the silence at intergalactic distances.
+The information has not arrived yet, and evidence at light distance implies the outcome is determined.
 The oxygen bottleneck argument establishes atmospheric oxygen as a rate-limiting factor
 for technological civilizations, suggesting first-generation intelligent life.
 Covers Kardashev scale advancement timelines from Type 0 through Type III.
@@ -268,11 +271,14 @@ Discusses Dyson swarms, Matrioshka brains, star lifting to create artificial red
 helium extraction and repurposing, galaxy optimization strategies,
 ghost galaxies where stars are enclosed in megastructures,
 and waste heat masking strategies including radiating at the cosmic microwave background temperature.
+New sections on intergalactic sterilization sweeps traveling at light speed
+and the asymmetry of intergalactic warfare with the $2d$-year offensive gap.
 Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
 and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
 References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,
 and A95 via post_url for evolutionary context.
-MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle, and Sagan's interpolation formula.
+MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle,
+Sagan's interpolation formula, sterilization warning time, and offensive/defensive gap equations.
 Sixty-three references across three categories (Reference, Related Post, Research).
 
 **Remaining Work**:
@@ -299,7 +305,7 @@ Writing Proofs (A79) has been published.
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **One release candidate remains.**
-A98 "The Fermi Paradox" is a release candidate awaiting human review.
+A98 "Causality and First-Mover Advantage in Galactic Colonization" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

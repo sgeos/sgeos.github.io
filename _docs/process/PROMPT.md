@@ -23,62 +23,70 @@ Read, but unverified:
 
 ## Objectives
 
-Please draft A98.
+Please revise A98.
 
 - Run `date -u "+%Y-%m-%d %H:%M:%S +0000"` and use the output
   to update the front matter and the software versions.
 - Make sure all related article links are valid.
 - DO NOT YET Generate a release announcement based on the template.
 
-### Topic
+### Revise A98
 
-Please research the Fermi Paradox, starting with the below references.
-No length limit. No reference limit. Reference list may be more valuable than the article itself.
+The following paragraph in A98 states the wrong conclusion.
 
-The thesis of this paper is that if we see evidence of intelligent life that
-is more advanced than we were in the past given the lightyear distance,
-we have probably lost the local cluster because whoever moves first wins.
-It may be 5 million years before the future Type III leader of the local cluster
-is performing sanitization sweeps on neighboring clusters before colonizing them,
-but we would rather be the leader than be sanitized into oblivion.
+```
+Either no one else has started,
+or they are concealing themselves so effectively that we cannot detect them,
+or we are looking at the wrong wavelengths.
+Of these possibilities, the first is the most hopeful and the most consistent
+with the oxygen bottleneck argument and the first-generation hypothesis.
+```
 
-Argue tht humanity is not special, the drake equation is correct and interpreted correctly,
-and that causality is the reason we do not see anyone else yet.
-The Andromeda Galaxy is 2.5 million light years away.
-From their standpoint, australopithecus is roaming Earth.
-From out standpoint, Andromeda-australopithecus is roaming the Andromeda Galaxy's most advanced planet.
-The Triangulum Galaxy is in a similar position, at 3 million lightyears away from us.
+The information has not arrived yet.
+Given the light distances, if we have evidence of intelligent life,
+we have already lost unless their civilization self destructs.
 
-Discuss the theory that oxygen may have been the limiting factor for intellgent life,
-and that we are likely first generation intelligent life.
+Please make sure the entire article is consistent with the
+"information has not arrived yet,
+and evidence now at light distance implies we likely doomed."
 
-Technological advancement is exponential.
-Discuss the projected time it take to advance on the Kardashev scale:
+According to known pysics, intergalactic sterilization sweeps
+will move at the speed of light.
+An sweep that takes millions of years to arrive still moves
+faster than evolution.
+An expanding civilization can perform a sterilization sweep
+and send intergalactic colonization bootstrappers immediately after.
+The effect is that the target galaxy is sterilized and seeded.
+The target galaxy does not see the sterilization sweep until it
+hits them, but will detect the record of the attackers preparations
+before the sterilization sweep hits.
 
-- Type 0 to Type I
-- Type I to Type II
-- Type II to Type III
+Note that intergalacitic wars would be interesting.
+Assuming peer rivals, you would see them as they were `d` years ago,
+but your attack would hit them as they are `d` years from now.
+Winning requires offenses that cut through `2d` years of advances
+from the observed state of the rival, while defense requires the
+ability to sustain attacks made by the observed state of the rival.
 
-Discuss "ghost galaxies", where stars fade out because they have been encased in a Dyson Swarm or Matrioshka Brain.
-Note that we may see galaxies that start to go dark in the future.
-If we are not leading evidence of intelligent life by the lightyear distance of that evidence,
-we have likely lost the local cluster.
+Include additional equations in the article if sensible.
 
-Discuss star lifting to extract hydrogen from natural stars to create artificial dim red dwarves with extreme lifespans.
-These stars will have full convection, and burn efficiently.
-Note helium extraction that could be used to create small pure hydrogen stars, where the extracted helium is repurposed.
-Discuss other strategies that could be used to optimize the galaxy,
-and also masking strategies for converting waste heat into another part of the spectrum.
-Note detectability of super effecient Matrioshka Brains at a distance.
+Also, retitle the article and change the filename to reflect the contents.
+This article is not a summary of the Fermi Paradox.
 
 ### References
 
+I think you pulled in the reference I mentioned last prompt,
+but titles are included this time, just in case.
+
+The solitude zone: A probabilistic window for singular lifeform existence
 https://www.sciencedirect.com/science/article/pii/S0094576525006599
+
+On Interstellar Quantum Communication and the Fermi Paradox
 https://arxiv.org/html/2408.02445v1
 
 ## Context
 
-Drafting  time!
+Drafting time!
 
 ## Constraints
 
@@ -86,6 +94,7 @@ Drafting  time!
 
 ## Success Criteria
 
+- A98 revised as requested.
 - A98 dates updated.
 - A98 related article links correct.
 - DO NOT YET publish A98.
