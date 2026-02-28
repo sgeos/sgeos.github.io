@@ -271,8 +271,12 @@ Discusses Dyson swarms, Matrioshka brains, star lifting to create artificial red
 helium extraction and repurposing, galaxy optimization strategies,
 ghost galaxies where stars are enclosed in megastructures,
 and waste heat masking strategies including radiating at the cosmic microwave background temperature.
-New sections on intergalactic sterilization sweeps traveling at light speed
-and the asymmetry of intergalactic warfare with the $2d$-year offensive gap.
+Intergalactic sterilization sweeps at light speed with warning time equation.
+Intergalactic warfare asymmetry with pseudo-realtime observation model,
+$2d$-year offensive extrapolation gap, hidden information advantage for offense,
+and pseudo-realtime defensive preparations advantage.
+Colonizing the Light Cone section with sterilize-until-resistance expansion model,
+expanding spheres of control, and peer Type III conflict at boundaries.
 Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
 and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
 References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,

@@ -32,46 +32,29 @@ Please revise A98.
 
 ### Revise A98
 
-The following paragraph in A98 states the wrong conclusion.
+Please attempt to pull in references for the last prompt and this prompt.
 
-```
-Either no one else has started,
-or they are concealing themselves so effectively that we cannot detect them,
-or we are looking at the wrong wavelengths.
-Of these possibilities, the first is the most hopeful and the most consistent
-with the oxygen bottleneck argument and the first-generation hypothesis.
-```
+Note the following.
 
-The information has not arrived yet.
-Given the light distances, if we have evidence of intelligent life,
-we have already lost unless their civilization self destructs.
+Because defending civilization B has an intelligence offset of d years,
+it will see preparations for an attack in `t-d` pseudo realitme.
+Because attacks also follow the speed of light, the attack will be seen
+in the `t-d` stream and it will be sustained as civilization A sent it
+`t-d` years ago.
+This psuedo realtime interaction implies `d` year causal interactions,
+and it leave unreceived interactions to conjecture.
+The conclusion is that defense is carried out in observable pseudo-realtime,
+where offense needs to extrapolated `d` years advancement to the present state,
+plus another `d` years for advancement during transmission.
 
-Please make sure the entire article is consistent with the
-"information has not arrived yet,
-and evidence now at light distance implies we likely doomed."
-
-According to known pysics, intergalactic sterilization sweeps
-will move at the speed of light.
-An sweep that takes millions of years to arrive still moves
-faster than evolution.
-An expanding civilization can perform a sterilization sweep
-and send intergalactic colonization bootstrappers immediately after.
-The effect is that the target galaxy is sterilized and seeded.
-The target galaxy does not see the sterilization sweep until it
-hits them, but will detect the record of the attackers preparations
-before the sterilization sweep hits.
-
-Note that intergalacitic wars would be interesting.
-Assuming peer rivals, you would see them as they were `d` years ago,
-but your attack would hit them as they are `d` years from now.
-Winning requires offenses that cut through `2d` years of advances
-from the observed state of the rival, while defense requires the
-ability to sustain attacks made by the observed state of the rival.
-
-Include additional equations in the article if sensible.
-
-Also, retitle the article and change the filename to reflect the contents.
-This article is not a summary of the Fermi Paradox.
+Although defense has the advantage of the possibility of pseudo-realtime preparations, 
+offense has the advantage of information being hidden until it arrives.
+It should be assumed that the moment you detect a potentially competitive intergalactice rival,
+you will soon be showered by a sterilization wave and seed colonizers will arrive immediately after.
+Effectively, aggressors do indeed colonize their light cone,
+and the continue colonizing their light cone until they face resistance that can withstand their
+preliminary sterilization sweep.
+When resistance is met, you are looking at nominal peer rival Type III intergalactice conflict.
 
 ### References
 
