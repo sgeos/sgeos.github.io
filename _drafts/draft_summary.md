@@ -132,37 +132,6 @@ Verify Guardian secret key generation command.
 Verify Ueberauth identity strategy plug compatibility.
 Assign article number and publication date when ready.
 
-### What Does the United States Space Force Do? — Release Candidate
-
-**File**: `what_does_united_states_space_force_do.markdown`
-**Article**: A97, "What Does the United States Space Force Do?"
-**Topic**: History, justification, and mission portfolio of the United States Space Force
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-Fully researched article explaining what the United States Space Force does.
-History section traces military space from the Army Ballistic Missile Agency
-through Air Force Space Command to the 2019 establishment,
-with detailed treatment of the Air Force independence precedent
-and the substantively identical arguments used against separation in both cases.
-Justification section documents fighter pilot culture dominance
-using the RAND Corporation study on Air Force officer promotion,
-satellite communications deprioritization by the Air Force,
-and the emergence of space as a contested warfighting domain.
-Mission portfolio section covers ten areas: satellite communications,
-Global Positioning System, missile warning, space domain awareness,
-launch operations, nuclear command control and communications,
-intelligence surveillance and reconnaissance, cyber and electronic warfare,
-weather, and offensive and defensive space operations.
-Organization section covers the three Field Commands,
-delta structure, key installations, Guardian personnel, and budget.
-No post_url dependencies on unpublished articles.
-Forty-two references across two categories (Reference 31, Research 11).
-
-**Remaining Work**:
-Human review and final proofread before publication.
-
 ### Getting Started with Claude Code on FreeBSD — Pre-Release Candidate
 
 **File**: `claude_code_getting_started_on_freebsd.markdown`
@@ -290,20 +259,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
-One draft has been elevated to release candidate status.
+Ten files exist in `_drafts/`. One is a template.
+No drafts have been elevated to release candidate status.
 No stubs remain.
-A80 through A96 have been published.
+A80 through A97 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**Release Candidates.**
-What Does the United States Space Force Do? (A97) has been fully drafted
-and is awaiting human review before publication.
-A97 has no post_url dependencies.
-All publication order dependencies have been resolved.
-A97 has no remaining dependencies.
+**No release candidates remain.**
+All article-numbered drafts have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

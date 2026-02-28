@@ -8,28 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A96 (A96-P2)
+**Name**: Publish A97 (A97-P2)
 **Status**: Complete
 **Started**: 2026-02-27
 
 ## Success Criteria
 
-- [x] A96 "History of Rocketplanes" published and release announcement reported.
+- [x] A97 "What Does the United States Space Force Do?" published and release announcement reported.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A96-P2-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-27 21:34:00 +0000 via date command. A90 post_url reference verified correct (2026-02-21-introduction_to_space_studies). |
-| A96-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-27-history_of_rocketplanes.markdown. |
-| A96-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
+| A97-P2-T1 | Update dates and verify post_url references | Complete | Front matter and software versions dates updated to 2026-02-28 07:44:26 +0000 via date command. No post_url references in A97. |
+| A97-P2-T2 | Publish article | Complete | Published via _publish.sh to _posts/2026-02-28-what_does_united_states_space_force_do.markdown. |
+| A97-P2-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT, draft_summary updated. Release announcement generated. |
 
 ## Notes
 
 - Next available article number: A98.
-- 1 release candidate: A97.
+- 0 release candidates.
 - 0 stubs.
-- All publication order dependencies resolved.
+- All article-numbered drafts have been published.
 
 ## History
 
@@ -90,3 +90,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-25 | A93-P5, A94-P2: "Fast-Moving Versus Mission-Critical Engineering" published (2026-02-24 date) and "Long-Form Writing in the Age of Large Language Models" published (2026-02-25 date). Dates not updated per prompt instructions. Draft summary synced (13 files, 3 RCs, 0 stubs). |
 | 2026-02-26 | A95-P3: "Human Evolution and the Great Filter" published (2026-02-26 date). Draft summary synced (12 files, 2 RCs, 0 stubs). |
 | 2026-02-27 | A96-P2: "History of Rocketplanes" published (2026-02-27 date). Draft summary synced (11 files, 1 RC, 0 stubs). |
+| 2026-02-27 | A97-P2: "What Does the United States Space Force Do?" published (2026-02-28 date). Draft summary synced (10 files, 0 RCs, 0 stubs). |
