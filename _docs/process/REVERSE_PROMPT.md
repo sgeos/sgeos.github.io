@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-27
-**Task**: A96-P2 Publish A96
+**Task**: A97-P2 Publish A97
 
 ---
 
@@ -17,38 +17,38 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Published
 
-A96 "History of Rocketplanes" published with date 2026-02-27.
+A97 "What Does the United States Space Force Do?" published with date 2026-02-28.
 
 **Updates performed:**
-- Front matter date updated to `2026-02-27 21:34:00 +0000` via `date -u` command output.
+- Front matter date updated to `2026-02-28 07:44:26 +0000` via `date -u` command output.
 - Software versions date updated to match.
-- A90 post_url reference verified correct (`2026-02-21-introduction_to_space_studies` exists in `_posts/`).
-- Published via `_publish.sh` to `_posts/2026-02-27-history_of_rocketplanes.markdown`.
+- No post_url references in A97.
+- Published via `_publish.sh` to `_posts/2026-02-28-what_does_united_states_space_force_do.markdown`.
 
 ### Process Files Updated
 
 - TASKLOG.md: current task updated, history entry added.
-- draft_summary.md: A96 entry removed, counts updated (11 files, 1 RC).
+- draft_summary.md: A97 entry removed, counts updated (10 files, 0 RCs).
 - REVERSE_PROMPT.md: overwritten.
 
 ### Release Announcement
 
-New Blog Post: History of Rocketplanes
+New Blog Post: What Does the United States Space Force Do?
 
-What connects a 1928 German glider with a rocket strapped to it to the reusable spaceplanes being tested today? This article traces the complete history of rocket-powered aircraft from the Lippisch Ente through the Dawn Mk-II Aurora, revealing a single continuous thread held together by technology transfer, espionage, and institutional memory.
+Many people, including servicemembers in other branches, have no clear idea what the Space Force actually does. This article traces the history that led to its creation, explains why a separate branch was necessary, and describes the full range of missions it performs today.
 
 Key takeaways:
-- The history spans nearly a century and approximately thirty vehicles, from German pioneers through WWII operational rocketplanes, Cold War X-planes, the Space Shuttle, and modern commercial and military spaceplanes.
-- Technology transfer and espionage were central to the development. Operation Paperclip and Operation Osoaviakhim seeded both superpowers with German rocketplane expertise, and the Soviet BOR-4 program was reverse-analyzed by Australian intelligence to inform the Dream Chaser lifting body design decades later.
-- The American X-plane program systematically pushed the flight envelope from Mach 1 through Mach 6.7 and 354,200 feet altitude, with each vehicle building directly on its predecessor's data and each pilot contributing to the next generation's knowledge base.
-- The thread continues today with SpaceShipTwo suborbital tourism, the Boeing X-37B autonomous spaceplane accumulating years in orbit, Dream Chaser cargo delivery to the International Space Station, and Dawn Aerospace's Mk-II Aurora jet-and-rocket aircraft designed for daily reuse.
+- The Space Force's creation directly parallels Air Force independence from the Army in 1947. The Air Force used substantively identical arguments against space separation that the Army had used against air separation, including "air and space are indivisible" mirroring "air and ground are inseparable."
+- Fighter pilot culture dominated Air Force leadership, with fighter pilots representing 5.3 percent of the officer corps but holding disproportionate senior positions. Space officers were promoted at below-average rates, and Congress repeatedly funded satellite communications programs that the Air Force did not include in its own budget requests.
+- The Space Force operates across ten mission areas including satellite communications, GPS, missile warning, space domain awareness, launch operations, nuclear command and control support, ISR, cyber and electronic warfare, weather, and offensive and defensive space operations.
+- With approximately 9,670 uniformed Guardians and a requested budget of $39.9 billion for fiscal year 2026, the Space Force is the smallest branch by personnel but among the most capital-intensive, reflecting the high cost of space systems that underpin virtually every military operation conducted by every other branch.
 
 You can read the full article here:
-https://sgeos.github.io/space/history/2026/02/27/history_of_rocketplanes.html
+https://sgeos.github.io/space/military/2026/02/28/what_does_united_states_space_force_do.html
 
-Let me know your thoughts. I would love to hear about your favorite rocketplane or your perspective on the future of reusable spaceplanes!
+Let me know your thoughts. I would love to hear about your perspective on the Space Force or your experience with the military space enterprise!
 
-#Rocketplanes #SpaceHistory #Aviation #XPlanes #SpaceShuttle #Aerospace #Reusability #SpaceFlight
+#SpaceForce #USSF #MilitarySpace #NationalSecurity #SpaceDomainAwareness #Guardians #SpaceOperations #Defense
 
 ---
 
@@ -61,6 +61,6 @@ Let me know your thoughts. I would love to hear about your favorite rocketplane 
 ## Notes
 
 - Next available article number: A98.
-- 1 release candidate: A97.
+- 0 release candidates.
 - 0 stubs.
-- All publication order dependencies have been resolved.
+- All article-numbered drafts have been published. Eight pre-release candidate drafts remain awaiting human verification.
