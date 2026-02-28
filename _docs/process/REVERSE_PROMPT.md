@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-02-28
-**Task**: A98-P2 Revise A98
+**Task**: A98-P3 Revise A98
 
 ---
 
@@ -17,41 +17,41 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Revised
 
-A98 revised per PROMPT.md instructions. Retitled from "The Fermi Paradox" to "Causality and First-Mover Advantage in Galactic Colonization." File renamed from `fermi_paradox.markdown` to `causality_and_first_mover_advantage_in_galactic_colonization.markdown`.
+A98 "Causality and First-Mover Advantage in Galactic Colonization" revised per PROMPT.md instructions.
 
 **Changes performed:**
-- Front matter date updated to `2026-02-28 22:26:21 +0000` via `date -u` command output.
+- Front matter date updated to `2026-02-28 23:32:17 +0000` via `date -u` command output.
 - Software versions date updated to match.
-- Title changed to reflect the article's thesis rather than serving as a Fermi Paradox summary.
-- Incorrect conclusion paragraph ("Either no one else has started, or they are concealing themselves...") replaced with causality-based thesis ("the information has not arrived yet").
-- New subsection "Intergalactic Sterilization" added with directed-energy sterilization sweep analysis and warning time equation $t_{\text{warning}} = P$.
-- New subsection "The Asymmetry of Intergalactic Warfare" added with $2d$-year offensive gap equation, $d$-year defensive advantage equation, and first-mover exception analysis.
-- Conclusion revised to incorporate sterilization sweep implications, $2d$-year warfare asymmetry, and the urgency of evidence arrival.
+- Warfare section completely rewritten with pseudo-realtime observation model. Offense requires $2d$-year extrapolation but benefits from hidden information in the unreceived $d$-year window. Defense operates in observable pseudo-realtime, watching preparations unfold with $d$-year lag and sustaining attacks as they were sent $d$ years prior.
+- Causal interaction window analysis added. Observable interactions are causally coupled with $d$-year period. Unreceived interactions must be left to conjecture.
+- New "Colonizing the Light Cone" subsection added. Expanding Type III civilizations sterilize and seed galaxies in their expanding light cone. Expansion is uncontested against pre-technological biospheres. Transition to peer Type III conflict occurs when resistance capable of withstanding the sterilization sweep is met. "The detection itself is the warning" strategic principle documented. Intergalactic landscape modeled as expanding spheres of control that collide into stalemate boundaries.
+- Conclusion revised to incorporate pseudo-realtime defensive observation, offensive hidden information, colonize-until-resistance model, and "detection is the warning" framing.
+- Both prompted references confirmed already present from P1 (Veres Solitude Zone, Boyle quantum communication).
 - Three post_url references verified (A82, A90, A95). All target files exist.
-- Reference count unchanged at 63. No new references added as the new content derives from physics first principles.
+- Reference count unchanged at 63.
 
 ### Article Structure
 
 - Opening prose: thesis statement on causality and first-mover advantage (unchanged)
 - Software Versions (date updated)
-- The Drake Equation: original 1961 values, modern estimates, dissolving the paradox, revised equation (unchanged)
-- Why We Do Not See Anyone Yet: causality, Andromeda/Triangulum perspective, temporal coincidence, quantum communication (unchanged)
-- The Oxygen Bottleneck: fire as prerequisite, Earth's oxygenation timeline, first-generation hypothesis (unchanged)
-- The Kardashev Scale: definitions, humanity at 0.7276, projected timelines, exponential growth limits (unchanged)
-- Galactic-Scale Engineering: Dyson swarms, Matrioshka brains, star lifting, artificial red dwarfs, optimization strategies (unchanged)
-- Ghost Galaxies: stars that go dark, G-hat survey results, future observations (unchanged)
-- Waste Heat and Masking Strategies: thermodynamic constraints, CMB masking, other concealment, super-efficient detectability (unchanged)
-- The Solitude Zone: Veres 2025 statistical framework (unchanged)
-- The Grabby Aliens Model: Hanson et al. 2021 three-parameter model (unchanged)
-- First Mover Wins: Hart-Tipler conjecture, colonization wavefront, **revised** evidence analysis, **new** intergalactic sterilization, **new** intergalactic warfare asymmetry
-- Conclusion (**revised** to incorporate sterilization and warfare)
+- The Drake Equation (unchanged)
+- Why We Do Not See Anyone Yet (unchanged)
+- The Oxygen Bottleneck (unchanged)
+- The Kardashev Scale (unchanged)
+- Galactic-Scale Engineering (unchanged)
+- Ghost Galaxies (unchanged)
+- Waste Heat and Masking Strategies (unchanged)
+- The Solitude Zone (unchanged)
+- The Grabby Aliens Model (unchanged)
+- First Mover Wins: Hart-Tipler conjecture, colonization wavefront, evidence analysis, intergalactic sterilization, **rewritten** intergalactic warfare asymmetry with pseudo-realtime model, **new** colonizing the light cone
+- Conclusion (**revised** with pseudo-realtime dynamics and expanding spheres model)
 - Future Reading (unchanged)
-- References: 63 entries across Reference, Related Post, and Research categories (unchanged)
+- References: 63 entries (unchanged)
 
 ### Process Files Updated
 
-- TASKLOG.md: current task updated to A98-P2, history entry added.
-- draft_summary.md: A98 entry updated with new title and content description.
+- TASKLOG.md: current task updated to A98-P3, history entry added.
+- draft_summary.md: A98 entry updated with pseudo-realtime and light cone content.
 - REVERSE_PROMPT.md: overwritten.
 
 ### NOT Done Per Prompt Instructions
