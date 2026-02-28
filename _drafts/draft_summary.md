@@ -248,6 +248,37 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
+### The Fermi Paradox — Release Candidate
+
+**File**: `fermi_paradox.markdown`
+**Topic**: The Fermi Paradox, causality resolution, oxygen bottleneck, Kardashev scale, galactic engineering, first-mover advantage
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+<!-- A98 -->
+
+New article arguing that the Fermi Paradox is resolved by causality and first-mover dynamics.
+The Drake Equation is broadly correct and its parameters are increasingly well-constrained.
+Causality imposed by the speed of light explains the silence at intergalactic distances.
+The oxygen bottleneck argument establishes atmospheric oxygen as a rate-limiting factor
+for technological civilizations, suggesting first-generation intelligent life.
+Covers Kardashev scale advancement timelines from Type 0 through Type III.
+Discusses Dyson swarms, Matrioshka brains, star lifting to create artificial red dwarfs,
+helium extraction and repurposing, galaxy optimization strategies,
+ghost galaxies where stars are enclosed in megastructures,
+and waste heat masking strategies including radiating at the cosmic microwave background temperature.
+Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
+and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
+References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,
+and A95 via post_url for evolutionary context.
+MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle, and Sagan's interpolation formula.
+Sixty-three references across three categories (Reference, Related Post, Research).
+
+**Remaining Work**:
+Human review of article content and thesis argumentation.
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -259,16 +290,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
-No drafts have been elevated to release candidate status.
+Eleven files exist in `_drafts/`. One is a template.
+One draft has been elevated to release candidate status.
 No stubs remain.
 A80 through A97 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**No release candidates remain.**
-All article-numbered drafts have been published.
+**One release candidate remains.**
+A98 "The Fermi Paradox" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
