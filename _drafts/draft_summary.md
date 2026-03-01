@@ -88,7 +88,9 @@ Sagan's logarithmic Kardashev extension with current position at K = 0.73.
 Now to Infant Competitive Type I:
 energy infrastructure (fusion, SBSP, renewables),
 survival bottleneck (Ord's existential risk estimates),
-governance and coordination requirements,
+governance and coordination requirements with telemeritocracy
+and cryptotelemeritocracy frameworks from A87 and A89,
+Michels's iron law of oligarchy counter,
 timeline projections with growth rate sensitivity.
 Type I to Infant Competitive Type II:
 Dyson swarm construction (Armstrong and Sandberg Mercury disassembly),
@@ -98,10 +100,17 @@ stellar engineering (star lifting, Shkadov thruster, SMBH energy extraction).
 Type II to Infant Competitive Type III:
 interstellar propulsion comparison table (laser sail, fusion, nuclear pulse, Bussard, generation ship),
 colonization wave mathematics,
-governance across light-years,
+governance across light-years with governance coherence half-life formula from A92,
+coordinated behavior to myth degradation phases,
+federated arbitrators, spinoff mechanism,
 satellite galaxy expansion from A99 priority list.
 Infant Type III to Local Group Competitive Type III:
 competitive requirements (resource parity, force projection, defensive coverage, information warfare),
+intergalactic transit engineering (IGM density, Bussard ramjet failure,
+laser sail deceleration problem, antimatter drives, photon drives,
+hypervelocity star platforms, Shkadov thruster redirection,
+energy requirements, transit duration, Fogg analysis),
+intergalactic propulsion comparison table (5 methods),
 the Andromeda problem (SMBH mass ratio, technological superiority vs SMBH growth strategies),
 merger window from 2025 Nature Astronomy study,
 information warfare at galactic scale,
@@ -111,13 +120,65 @@ the Virgo question, supercluster dynamics, limits of extrapolation
 (accelerating expansion, heat death, unknown physics).
 Implications: critical bottleneck table, growth imperative, concealment-growth tradeoff,
 independence from threat assessment, limitations (cooperative equilibria, non-expansion, radically different life).
-References A98, A99, A82, A90, A95 via post_url.
-MathJax enabled for Kardashev formula, growth timelines, and colonization wave speed.
-Fifty-four references across three categories (44 Reference, 5 Related Post, 5 Research).
+References A98, A99, A82, A87, A89, A90, A92, A95 via post_url.
+MathJax enabled for Kardashev formula, growth timelines, colonization wave speed,
+governance coherence half-life, and intergalactic energy requirements.
+Sixty-seven references across three categories (51 Reference, 8 Related Post, 8 Research).
 
 **Remaining Work**:
 Human review of article content, Kardashev scale calculations, and strategic analysis.
 A99 post_url will resolve when A99 is published.
+Assign publication date when ready.
+
+### The Physics of Intergalactic Force Projection — Release Candidate
+
+**File**: `physics_of_intergalactic_force_projection.markdown`
+**Topic**: Physics of force projection mechanisms at intergalactic distances and implications for the competitive framework
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+<!-- A101 -->
+
+New article extending the four-article series with A98, A99, and A100.
+Tests the sterilization sweep assumption underlying the companion articles
+against known physics.
+SMBH energy extraction: Blandford-Znajek process, Penrose process,
+jet efficiency table (Tchekhovskoy et al. GRMHD simulations),
+Eddington luminosity calculations for Sagittarius A*, Andromeda, and M87 SMBHs,
+observed M87 jet power (Prieto et al.).
+Natural astrophysical weapons:
+gamma-ray burst sterilization distances (Thomas et al., Piran and Jimenez),
+AGN habitability impact (Balbi and Tombesi),
+supernova lethal radii (Beech),
+natural baselines summary table.
+Engineered force projection mechanisms:
+directed energy beam divergence (Lubin diffraction analysis),
+energy density calculations at intergalactic distances,
+redirected SMBH jets with collimation physics (Blandford, Meier, and Readhead),
+jet opening angle scaling,
+jet redirection timescales,
+relativistic kill vehicles with energy scaling table and targeting precision analysis,
+self-replicating probe swarms as primary viable intergalactic weapon
+(Brin deadly probes, Freitas REPRO),
+induced astrophysical catastrophes.
+Comparative analysis table (5 mechanisms).
+Implications for competitive framework:
+sterilization sweep reassessed,
+SMBH mass relevance to probe production,
+primary competitive variable shifts to colonization wave speed,
+defense implications (100% interception requirement),
+revised threat hierarchy,
+detection window advantage.
+References A98, A99, A100 via post_url.
+MathJax enabled for energy extraction, Eddington luminosity,
+beam divergence, energy density, relativistic kinetic energy,
+and targeting precision calculations.
+Forty references across three categories (25 Reference, 3 Related Post, 12 Research).
+
+**Remaining Work**:
+Human review of physics calculations and strategic analysis.
+A99 and A100 post_url references will resolve when those articles are published.
 Assign publication date when ready.
 
 ### Solana sBPF Assembly Example — Pre-Release Candidate
@@ -361,17 +422,18 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
-Two release candidates remain.
+Thirteen files exist in `_drafts/`. One is a template.
+Three release candidates remain.
 No stubs remain.
 A80 through A98 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**Two release candidates remain.**
+**Three release candidates remain.**
 A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" is a release candidate awaiting human review.
 A100 "Roadmap to a Competitive Type III Civilization" is a release candidate awaiting human review.
+A101 "The Physics of Intergalactic Force Projection" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
@@ -424,3 +486,9 @@ Topics are selected to align with the blog's established strengths in systems pr
 | Shell Scripting with Modern CLI Tools | sh unix development | fd, ripgrep, jq, fzf as modern replacements for traditional UNIX tools. | Shell scripting series |
 | Game AI with Minimax and Alpha-Beta Pruning | gamedev math ai | Classical game AI algorithms with proofs of optimality. Bridges game development and mathematical rigor. | Chess/Go game theory series |
 | Playdate Game Physics | gamedev playdate math c | Physics simulation on constrained hardware. Applied mathematics on embedded game platform. | Playdate series, Trigonometry (A14) |
+| Observable Signatures of Competitive Civilizations | science philosophy | Unselected A101 candidate. What observational evidence would distinguish competitive expansion from natural astrophysical processes. Connects Dyson sphere searches and SETI to the competitive framework. | A98, A99, A100, A101 |
+| The Survival Bottleneck Engineering Roadmap | science philosophy | Unselected A101 candidate. Detailed engineering requirements for the Type 0 to Type I transition. Covered adequately in A100 but could be expanded with specific technology roadmaps and quantitative risk reduction strategies. | A100 |
+| Self-Replicating Technology Engineering | science philosophy | Unselected A101 candidate. Detailed engineering analysis of self-replicating machines and spacecraft. Von Neumann universal constructor, error correction, gray goo risk quantification. Implementation-focused rather than strategic. | A100, A101 |
+| Governance Coherence Deep Dive | science philosophy | Unselected A101 candidate. Full treatment of governance coherence half-life, myth-structure transition, and institutional degradation at cosmic scales. A92 already covers this but the competitive context from A98-A101 would add depth. | A87, A89, A92, A100 |
+| Economics of Competitive Expansion | science philosophy | Unselected A101 candidate. Resource allocation, opportunity costs, and economic optimization under competitive expansion imperatives. Interesting but secondary to physical feasibility questions. | A98, A100 |
+| First Contact Protocols Under Competitive Assumptions | science philosophy | Unselected A101 candidate. Decision-theoretic analysis of first contact under the competitive framework. Premature without knowing whether force projection is physically feasible, which A101 now addresses. | A98, A99, A101 |
