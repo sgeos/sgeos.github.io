@@ -2530,7 +2530,7 @@ over the civilization that waits.
 - [Eternity in Six Hours][research_eternity] demonstrates the feasibility of universal colonization from a single star system.
 - [The Oxygen Bottleneck for Technospheres][research_oxygen_bottleneck] establishes atmospheric oxygen as a rate-limiting factor for technological civilizations.
 - [If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare][research_grabby_aliens] presents the Grabby Aliens model and its implications for SETI.
-- [Dissolving the Fermi Paradox][research_dissolving_fermi] demonstrates that parameter uncertainty alone can explain the observed silence.
+- [Dissolving the Fermi Paradox][ref_dissolving_fermi] demonstrates that parameter uncertainty alone can explain the observed silence.
 
 ## References
 
