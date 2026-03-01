@@ -8,31 +8,18 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A98 per external LLM review (A98-P5)
+**Name**: Revise and publish A98 (A98-P6)
 **Status**: Complete
 **Started**: 2026-03-01
 
 ## Success Criteria
 
-- [x] A98 revised per external LLM feedback in PROMPT.md.
-- [x] Thesis preview paragraph expanded to chain full argument arc.
-- [x] Hard Step model cited in Drake section with Carter reference.
-- [x] Oxygen bottleneck softened to plausible delay mechanism framing.
-- [x] False precision reduced (Kardashev 0.73, surface area orders of magnitude).
-- [x] Engineering caveats added (CMB masking, beam control, sterilization).
-- [x] M-dwarf flare volatility added to Hephaistos section.
-- [x] Gravitational lensing counter-survey added to ghost galaxies.
-- [x] Heat sink and galactic halo computation added to masking section.
-- [x] Grabby Aliens model dependency caveats added.
-- [x] First-mover assumptions stated explicitly.
-- [x] Beam divergence (shotgun) observation added.
-- [x] 2d gap strengthened as structural property of spacetime.
-- [x] Absolutist claims softened throughout.
-- [x] Conclusion revised with synthesis, conditional framing, critique anticipation, stagnation risk, Grabby deadline.
-- [x] Variable consistency verified (Drake, relativistic variables all in LaTeX).
-- [x] Carter Hard Step reference added (67 total references).
-- [x] Dates updated to 2026-03-01 01:15:13 +0000.
+- [x] Local Group galaxy table added with 10 galaxies.
+- [x] Table includes name, designation, type, distance, diameter, stars, SMBH, and notes.
+- [x] Dates updated to 2026-03-01 01:39:41 +0000.
 - [x] Related article links verified (A82, A90, A95).
+- [x] A98 published (2026-03-01 date).
+- [x] Release announcement generated.
 - [x] Freeform commentary in REVERSE_PROMPT.md.
 - [x] Draft summary synced.
 
@@ -40,18 +27,16 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A98-P5-T1 | Thesis preview and structural cohesion | Complete | Opening thesis expanded from 4-line summary to full arc preview. Chain previewed: Drake, oxygen, causality, thermodynamics, expansion asymmetry. |
-| A98-P5-T2 | Astrophysical refinements | Complete | Carter Hard Step model cited in Drake section. M-dwarf flare volatility added to Hephaistos. Gravitational lensing counter-survey added. |
-| A98-P5-T3 | Thermodynamic and observational refinements | Complete | Heat sink / galactic halo computation paragraph added. Detectability surface as radiator. CMB masking engineering caveat. |
-| A98-P5-T4 | Strategic doctrine refinements | Complete | Beam divergence shotgun observation. 2d gap as structural spacetime property. Stagnation as existential risk. Grabby deadline. |
-| A98-P5-T5 | Calibration and defensibility | Complete | Absolutist claims softened. False precision reduced. First-mover assumptions stated. Grabby model dependencies noted. Oxygen framed as plausible delay. Counterarguments anticipated in conclusion. |
-| A98-P5-T6 | Variable consistency and formatting | Complete | All Drake and relativistic variables verified in LaTeX. Display equations confirmed for major formulas. |
-| A98-P5-T7 | Update dates, references, process files | Complete | Dates updated. Carter reference added (67 total). Post_url links verified. TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A98-P6-T1 | Add Local Group galaxy table | Complete | New "The Local Group" subsection with 10-galaxy reference table. Sorted by distance. Includes Milky Way, Sagittarius Dwarf, LMC, SMC, NGC 6822, IC 10, M32, Andromeda, M110, Triangulum. Resource asymmetry and colonization timeline context paragraphs added. |
+| A98-P6-T2 | Update dates and verify links | Complete | Dates updated. Three post_url references verified. 67 total references. |
+| A98-P6-T3 | Publish A98 | Complete | Published via _publish.sh to _posts/2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization.markdown. |
+| A98-P6-T4 | Generate release announcement | Complete | Release announcement generated in REVERSE_PROMPT.md. |
+| A98-P6-T5 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT with commentary, draft_summary updated. |
 
 ## Notes
 
 - Next available article number: A99.
-- 1 release candidate (A98).
+- 0 release candidates.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 
@@ -120,3 +105,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-02-28 | A98-P3: Warfare section rewritten with pseudo-realtime observation, offensive hidden information, defensive pseudo-realtime preparations. Colonizing the Light Cone subsection added with sterilize-until-resistance model. Conclusion revised. Draft summary synced. |
 | 2026-03-01 | A98-P4: Retitled to "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization." File renamed. SMBH sterilization engine with Penrose process and Blandford-Znajek equations. Intergalactic topography with cosmic web, filaments, voids, Laniakea. Seven new references (70 total). Draft summary synced. |
 | 2026-03-01 | A98-P5: Comprehensive revision per external LLM review. Thesis preview expanded. Carter Hard Step model cited. Oxygen bottleneck softened. False precision reduced. Engineering caveats added. M-dwarf flares, gravitational lensing, heat sinks, beam divergence added. Grabby model dependencies and first-mover assumptions stated. 2d gap as spacetime property. Conclusion revised with synthesis, conditional framing, critique anticipation, stagnation risk. 67 references. Draft summary synced. |
+| 2026-03-01 | A98-P6: "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization" published (2026-03-01 date). Local Group galaxy table added (10 galaxies). Draft summary synced (10 files, 0 RCs, 0 stubs). |
