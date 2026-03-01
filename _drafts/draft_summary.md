@@ -251,7 +251,7 @@ Assign article number and publication date when ready.
 ### Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization — Release Candidate
 
 **File**: `causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization.markdown`
-**Topic**: Causality resolution to the Fermi Paradox, oxygen bottleneck, Kardashev scale, galactic engineering, SMBH sterilization, intergalactic topography, first-mover advantage
+**Topic**: Causality resolution to the Fermi Paradox, hard steps, oxygen bottleneck, Kardashev scale, galactic engineering, SMBH sterilization, intergalactic topography, first-mover advantage, competitive expansion doctrine
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: Release Candidate
@@ -284,11 +284,22 @@ through filaments, voids, and the Laniakea Supercluster,
 and peer Type III conflict at boundaries.
 Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
 and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
+Carter Hard Step model cited in Drake section.
+M-dwarf flare volatility noted in Hephaistos context.
+Gravitational lensing counter-survey for cold civilizations.
+Heat sink optimization and galactic halo computation.
+Beam divergence observation for intergalactic sterilization.
+First-mover assumptions stated explicitly with conditional framing.
+Grabby Aliens model dependencies noted.
+Conclusion revised with synthesis paragraph, critique anticipation,
+stagnation-as-risk framing, and Grabby deadline logic.
+Absolutist claims softened throughout for scientific defensibility.
 References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,
 and A95 via post_url for evolutionary context.
 MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle,
-Sagan's interpolation formula, sterilization warning time, and offensive/defensive gap equations.
-Sixty-six references across three categories (Reference, Related Post, Research).
+Sagan's interpolation formula, Kerr black hole energy, Blandford-Znajek power,
+sterilization warning time, and offensive/defensive gap equations.
+Sixty-seven references across three categories (Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review of article content and thesis argumentation.

@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization"
-date: 2026-03-01 00:05:26 +0000
+date: 2026-03-01 01:15:13 +0000
 categories: science philosophy
 ---
 
@@ -56,19 +56,33 @@ during the brief window
 of their technological adolescence.
 
 The thesis of this article is straightforward.
-If we observe evidence of intelligent life
-that is more technologically advanced
-than we were in the past
-given the light-year distance of that evidence,
-we have probably lost the local cluster.
-Whoever expands first wins.
-The competitive dynamics of galactic colonization
+The argument proceeds
+through a chain of increasingly constrained observations.
+The Drake Equation's astrophysical parameters
+are well-constrained
+and support a universe rich in habitable worlds.
+The oxygen bottleneck
+and geological filters
+plausibly delay technological civilizations
+until relatively late in a planet's lifetime,
+making us potentially among the first.
+Causal isolation imposed by the speed of light
+explains the observed silence
+without requiring exotic hypotheses.
+Thermodynamic constraints on computation and energy use
+determine the observational signatures
+of advanced civilizations,
+and current surveys constrain only warm ones.
+The competitive dynamics
+of relativistic expansion
 reward the first mover so heavily
-that the outcome is binary.
-A civilization either leads
+that the outcome is effectively binary.
+Under competitive expansion assumptions,
+a civilization either leads
 the colonization of its local volume
-or it is eventually absorbed
-by the civilization that did.
+or faces the consequences
+of another civilization
+that moved first.
 
 For evolutionary context,
 the companion [Human Evolution and the Great Filter][related_post_great_filter]
@@ -89,7 +103,7 @@ and the history of space operations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-01 00:05:26 +0000
+2026-03-01 01:15:13 +0000
 
 # OS and Version
 $ uname -vm
@@ -259,6 +273,27 @@ is so large
 that the observed silence
 is not surprising
 and does not require exotic explanations.
+
+Brandon Carter's "hard steps" model
+reinforces this conclusion
+from an independent direction.
+The model posits
+that the emergence of intelligent life
+requires passing through
+a small number of extremely unlikely
+evolutionary transitions,
+each with a probability
+so low that success is expected
+only near the end
+of a planet's habitable window.
+Yet life on Earth appeared
+after only 4.5 billion years
+of a roughly 5.6-billion-year
+habitable window,
+suggesting that we are statistical outliers
+who passed through the hard steps
+ahead of the galactic average
+rather than exemplars of a typical timeline.
 
 ### The Revised Drake Equation
 
@@ -481,8 +516,8 @@ in open-air conditions become unreliable.
 Below 16 percent,
 combustion is likely not feasible at all.
 
-The implications are profound.
-A planet could host intelligent life
+The implications are significant.
+A planet could in principle host intelligent life
 that nonetheless remains permanently stuck
 at a pre-technological stage
 if atmospheric oxygen
@@ -656,6 +691,28 @@ reaching the levels needed for complex life
 is not guaranteed to proceed
 on any particular timescale.
 
+The oxygen bottleneck
+should be understood
+as a plausible delay mechanism
+rather than a proven universal law.
+Earth's oxygenation history
+is contingent on factors
+that may not generalize.
+Plate tectonics,
+which drives the carbon-silicate cycle
+that regulates atmospheric composition,
+may itself be rare among rocky planets.
+The combustion threshold
+imposes an additional constraint
+beyond what is required
+for complex biology alone.
+Technological windows
+may therefore be narrow
+relative to planetary lifetimes,
+supporting the hypothesis
+that we are plausibly among the first
+without establishing it as certain.
+
 ## The Kardashev Scale
 
 ### Measuring Civilizational Advancement
@@ -696,12 +753,12 @@ Using random forest
 and autoregressive integrated moving average models,
 they determined
 that humanity currently stands
-at approximately Type 0.7276.
+at approximately Type 0.73.
 Their projections indicate
 that global energy consumption
-will reach approximately 887 exajoules by 2060,
+will reach on the order of 900 exajoules by 2060,
 corresponding to a Kardashev rating
-of only 0.7449.
+of approximately 0.74.
 
 Humanity currently uses
 approximately 0.16 percent
@@ -1136,6 +1193,19 @@ exhibiting unexplained infrared excess.
 Natural explanations such as warm debris disks
 remain plausible
 but are considered rare around M-dwarfs.
+M-dwarf stars are also prone
+to extreme stellar flares
+that strip planetary atmospheres
+and irradiate surface environments,
+providing a natural filter
+that makes technological emergence
+on the most common stellar type
+substantially less likely.
+This further supports
+the hypothesis
+that G-type stars like the Sun
+may constitute the primary habitat
+for technologically capable civilizations.
 
 ### What We Might See in the Future
 
@@ -1252,9 +1322,12 @@ that radiated power scales as $T^4$.
 Extremely low radiating temperatures
 require extremely large surface areas.
 A sphere radiating at the cosmic microwave background temperature
-would need to be approximately 100 times larger in radius
+would need to be orders of magnitude larger in radius
 than a conventional Dyson sphere
-to dissipate the same power.
+to dissipate the same power,
+subject to extreme engineering challenges
+in constructing and maintaining
+a structure of that scale.
 
 ### Other Concealment Approaches
 
@@ -1292,6 +1365,23 @@ by surveys like G-hat extremely difficult.
 Reversible computing reduces
 but cannot eliminate
 the thermodynamic signature.
+
+A civilization's detectability surface
+is ultimately determined
+by its radiators.
+Every joule of useful work
+eventually becomes waste heat
+that must be radiated into space.
+A civilization that has won its local cluster
+might eventually migrate
+its computational infrastructure
+to the galactic halo
+to maximize the surface area
+available for heat rejection,
+reducing the temperature
+of each radiating element
+and blending more effectively
+into the cosmic microwave background.
 
 ### Super-Efficient Matrioshka Brains at a Distance
 
@@ -1331,6 +1421,29 @@ hosts a "warm" Type III civilization.
 It does not tell us
 that no galaxy nearby
 hosts a "cold" one.
+
+However,
+even a cold Type III civilization
+would retain a gravitational signature.
+A galaxy with the mass of a trillion suns
+but the luminosity of a void
+would be detectable
+through gravitational lensing effects,
+anomalous rotation curves in neighboring galaxies,
+and its influence on the large-scale structure
+of the local cosmic web.
+A ghost galaxy
+would appear as dark matter
+to observers who lack
+the instrumentation to resolve
+its low-temperature thermal emission.
+Future surveys designed
+to cross-correlate mass and luminosity
+at galactic scales
+could in principle distinguish
+dark-matter-dominated galaxies
+from those whose starlight
+has been intercepted by megastructures.
 
 ## The Solitude Zone
 
@@ -1452,13 +1565,32 @@ of approximately 1 billion years.
 
 A selection effect
 explains why we do not see grabby civilizations
-even though they probably control
-over a third of the universe now.
+even though the model predicts they control
+a substantial fraction of the universe.
 If they expand at near light speed,
 their expansion front is only slightly behind
 the light that would reveal their origin.
 We cannot see them
 until they are nearly upon us.
+
+These predictions
+depend on the assumed expansion speed,
+the number of hard steps,
+and the appearance constant.
+The universe coverage fraction
+is particularly sensitive to expansion speed.
+At half the speed of light,
+each grabby civilization claims
+a large volume before encountering neighbors.
+At lower speeds,
+the coverage fraction decreases
+and the encounter timeline extends.
+The model's qualitative conclusions
+are robust across parameter ranges,
+but the specific numerical predictions
+should be treated
+as order-of-magnitude estimates
+rather than precise forecasts.
 
 ## First Mover Wins
 
@@ -1565,12 +1697,12 @@ At 10 percent of light speed,
 250,000 light-years,
 more than twice the diameter of the Milky Way.
 
-The competitive dynamics
-of exponential expansion
+Under competitive expansion assumptions,
+the dynamics of exponential expansion
 mean that whoever starts first
 claims the resources
 of the local cluster.
-There is no second place.
+Second place becomes strategically unstable.
 The colonization wavefront
 converts available matter
 into infrastructure for the expanding civilization.
@@ -1579,6 +1711,27 @@ and planets that have been disassembled
 for construction materials
 are no longer available
 to later arrivals.
+
+This first-mover analysis
+rests on identifiable assumptions
+that should be stated explicitly.
+It assumes that civilizations
+are expansionist
+rather than self-limiting.
+It assumes competitive resource acquisition
+rather than cooperative sharing.
+It assumes the absence
+of stable coordination equilibria
+that might prevent expansion races.
+And it assumes
+that no universal attractor exists
+toward non-expansionist behavior.
+These assumptions are not proven.
+They represent one end
+of a spectrum of possible
+civilizational dispositions.
+The analysis that follows
+is conditional on these premises.
 
 It may be 5 million years
 before the future Type III leader
@@ -1628,15 +1781,16 @@ that is now $d$ years more advanced
 than what we observe.
 If that past state already exceeded
 our current capabilities,
-we have lost.
-The first mover has already claimed
+the situation is strategically grave.
+Under competitive expansion assumptions,
+the first mover has already claimed
 the volume between us,
 and we cannot observe the claim
 until the colonization wavefront
 is nearly upon us.
 Unless that civilization
-self-destructs in the intervening years,
-the outcome is determined.
+has self-destructed in the intervening years,
+the outcome may already be determined.
 
 ### Intergalactic Sterilization
 
@@ -1784,7 +1938,8 @@ A Type III civilization
 that has engineered
 the accretion environment
 of its central supermassive black hole
-could direct a relativistic jet
+could, assuming sufficiently advanced beam control,
+direct a relativistic jet
 of arbitrary duration
 at a target galaxy,
 delivering sterilizing fluence
@@ -1796,6 +1951,22 @@ No separate propulsion system is required.
 The sterilization sweep
 is a beam of energy,
 not a fleet of ships.
+
+At intergalactic distances,
+beam divergence works in the attacker's favor.
+A relativistic jet with an opening angle
+of even one degree
+subtends a cone
+that at 2.5 million light-years
+covers a cross-section
+far exceeding the diameter
+of a typical galaxy.
+The jet is a shotgun,
+not a sniper rifle.
+Precision aiming at individual star systems
+is unnecessary.
+The entire target galaxy
+falls within the beam.
 
 For a target galaxy
 without a technological civilization,
@@ -1930,10 +2101,22 @@ and can tailor countermeasures
 to the specific threat observed.
 
 **The causal interaction window.**
+The distinction
+between pseudo-realtime observation
+and conjecture
+is the primary driver of intergalactic border stability.
+It is not a consequence
+of limited intelligence or technology.
+It is a structural property of relativistic spacetime.
+No improvement in sensor technology
+or computational power
+can eliminate the $d$-year delay.
 The pseudo-realtime observation stream
 implies that intergalactic interactions
 are causally coupled
-with a $d$-year period.
+with a $d$-year period,
+where $d$ is the one-way light-travel time
+between the two civilizations.
 Observable causal interactions
 unfold in pseudo-realtime.
 Unreceived interactions,
@@ -2109,40 +2292,51 @@ where expanding spheres of control collide.
 The Fermi Paradox is best understood
 not as evidence of cosmic emptiness
 but as a consequence of cosmic geometry.
+The argument proceeds
+through a chain of increasingly constrained steps.
 The Drake Equation's astrophysical parameters
-are increasingly well-constrained
-and support the existence
-of potentially habitable worlds
-numbering in the tens of billions
-within the Milky Way alone.
-The biological parameters remain uncertain,
-but the oxygen bottleneck argument
-suggests that technologically capable life
-may be a recent and possibly first-generation phenomenon
-in the universe's history.
+are well-constrained
+and support a universe
+rich in potentially habitable worlds.
+The oxygen bottleneck and geological filters
+plausibly delay technological civilizations
+until relatively late in a planet's lifetime.
+Causal isolation imposed by the speed of light
+is sufficient to explain the observed silence
+without requiring exotic hypotheses
+about alien behavior or motivation.
+Thermodynamic constraints
+determine what advanced civilizations look like,
+and current surveys constrain
+only warm ones.
+The competitive dynamics
+of relativistic expansion
+create severe first-mover advantages
+under competitive assumptions.
+Each link in the chain
+builds on the previous one,
+and each is grounded
+in established physics
+or well-constrained observation.
 
-The speed of light
-imposes an absolute boundary
-on observable information.
-The distances between galaxies
-are so vast
-that civilizations separated
-by millions of light-years
-cannot detect each other
-during the geologically brief window
-of their technological adolescence.
 We see Andromeda as it was
 during the age of Australopithecus.
 Andromeda sees us the same way.
-The information has not arrived yet,
-and this fact alone
-explains the observed silence
-without requiring exotic hypotheses
-about alien behavior or motivation.
+The information has not arrived yet.
+This is the most defensible
+and least speculative element of the thesis.
+Silence is expected
+under causal isolation.
+Observability is asymmetric.
+We may be early locally
+even if not globally.
 
 The Grabby Aliens model
 predicts that expanding civilizations
-already control roughly half the observable universe.
+may already control
+a substantial fraction of the observable universe,
+though the specific coverage fraction
+depends on model parameters.
 The G-hat survey found no evidence
 of galaxy-spanning civilizations
 in 100,000 nearby galaxies,
@@ -2153,14 +2347,16 @@ Cold civilizations radiating near
 the cosmic microwave background temperature
 would be invisible to current instruments.
 
-The strategic implications
+Under competitive expansion assumptions,
+the strategic implications
 of first-mover advantage
 in galactic colonization are severe.
 Whoever expands first
 colonizes their light cone,
 sterilizing and seeding each target galaxy
 before any competing technological civilization arises.
-A sterilization sweep traveling at the speed of light
+A sterilization sweep traveling at the speed of light,
+in principle delivered via engineered relativistic jet,
 arrives before any pre-technological biosphere
 can mount a response.
 This expansion continues
@@ -2182,10 +2378,65 @@ Offense must extrapolate $2d$ years
 of the target's advancement
 but benefits from information
 hidden within the unreceived $d$-year window.
+This asymmetry is not a limitation
+of technology or intelligence.
+It is a structural property of relativistic spacetime
+that cannot be overcome
+by any known physical mechanism.
 The result is a landscape
 of expanding spheres of control
 that collide and stabilize
-into zones of protracted peer conflict.
+into zones of protracted peer conflict,
+tracing the topology
+of the cosmic web.
+
+Counterarguments to this framework
+deserve acknowledgment.
+Civilizations may converge
+on non-expansionist equilibria,
+preferring inward development
+or post-biological computation
+over territorial expansion.
+Coordination or signaling regimes
+might emerge among early civilizations,
+preventing competitive expansion races.
+The simulation hypothesis
+offers an alternative framing entirely,
+though it is not necessary
+to invoke it
+when the observed silence
+has a sufficient physical explanation.
+These possibilities
+cannot be ruled out from first principles.
+The competitive expansion model
+represents one end
+of a spectrum of civilizational dispositions.
+It is the end
+that carries the most severe consequences
+if it applies to even one civilization
+in our light cone.
+
+The Grabby Aliens model
+introduces a deadline
+to the analysis.
+If expanding civilizations exist,
+they are consuming the available volume
+at a rate determined
+by their expansion speed.
+The window for quiet civilizations,
+those that do not expand,
+is being progressively closed
+by grabby ones.
+If long-term survival
+is the objective,
+stagnation is not a neutral choice.
+It is an existential risk.
+A civilization that does not expand
+reduces the unreceived window
+from which information might arrive
+and cannot influence the outcome
+if a competitive expander
+already occupies its future light cone.
 
 The current silence is therefore
 both reassuring and urgent.
@@ -2194,20 +2445,24 @@ in arriving light
 is consistent with the hypothesis
 that we are among the first
 technological civilizations in our local volume.
-Urgent because the moment
-evidence of a competitive rival appears,
-the appropriate assumption
-is that a sterilization sweep
-is already en route.
+Under worst-case competitive assumptions,
+the moment evidence of a rival appears,
+it implies extreme strategic risk.
 The detection itself is the warning.
 
-If we are first, the path forward is expansion.
+If we are first,
+and if long-term survival is the objective,
+the path forward is expansion.
 Not because the universe is hostile,
-but because whoever moves first
-colonizes their light cone unopposed,
-and the information confirming
+but because by expanding our own light cone
+we reduce the unreceived window
+from which a sterilization sweep could emerge.
+The information confirming
 whether we are first
 has not yet arrived.
+The risk asymmetry
+favors the civilization that moves
+over the civilization that waits.
 
 ## Future Reading
 
@@ -2227,6 +2482,7 @@ has not yet arrived.
 - [Reference, Blandford-Znajek Process][ref_blandford_znajek]
 - [Reference, Boyle, On Interstellar Quantum Communication and the Fermi Paradox][ref_boyle_quantum]
 - [Reference, Bradbury, Matrioshka Brains][ref_matrioshka_brains]
+- [Reference, Carter, Five- or Six-Step Scenario for Evolution][ref_carter_hard_steps]
 - [Reference, Carroll-Nellenback et al., The Fermi Paradox and the Aurora Effect][ref_aurora_effect]
 - [Reference, Catling et al., Why O2 Is Required by Complex Life][ref_catling_oxygen]
 - [Reference, Criswell, Star Lifting][ref_criswell_star_lifting]
@@ -2294,6 +2550,7 @@ has not yet arrived.
 [ref_landauer_experimental]: https://www.nature.com/articles/nature10872
 [ref_boyle_quantum]: https://arxiv.org/html/2408.02445v1
 [ref_matrioshka_brains]: https://gwern.net/doc/ai/scaling/hardware/1999-bradbury-matrioshkabrains.pdf
+[ref_carter_hard_steps]: https://doi.org/10.1017/S1473550408004023
 [ref_aurora_effect]: https://arxiv.org/abs/1902.04450
 [ref_catling_oxygen]: https://www.liebertpub.com/doi/10.1089/ast.2005.5.415
 [ref_criswell_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
