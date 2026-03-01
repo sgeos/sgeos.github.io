@@ -21,53 +21,60 @@ Read, but unverified:
 - Getting Started with Solana Using Rust and Pinocchio
 - Solana sBPF Assembly Example
 
+Working through prerelease articles is capacity gated.
+There is presently no speculative ETA.
+
 ## Objectives
 
-Please revise A99 and draft A100 as continuation of the material posted in A98 and A99.
-Link to A98 and A99 in A100.
+Please revise A100 and draft A101 as continuation of the material posted in A98, A99, and A100.
+Link to A98, A99, and A100 in A101.
 
 Thoroughly research the topic and pull in references.
 There is no length limit, no reference limit,
 and the reference list may be more valuable than the article itself.
 
-### A99 Revision
+### A100 Revision
+
+Review A87, A89, and A92.
+Fold the conclusions of these articles into the governance section.
 
 The reverse prompt contained the following.
 
 ```
 **What I would change.**
-The article would benefit from a section on information warfare across intergalactic distances.
-The $2d$ gap analysis focuses on physical force projection (sterilization sweeps) but does not address the possibility of deceptive signaling,
-false emissions designed to mislead observers about a civilization's capabilities or location.
-In a universe where observation is delayed by millions of years, strategic deception could be as consequential as physical force.
-However, adding this section would further extend an already long article.
+The article could benefit from a section on the specific
+engineering requirements for intergalactic propulsion.
+The interstellar propulsion table covers methods for reaching nearby stars,
+but the jump from stellar to intergalactic distances
+introduces additional challenges that are not addressed.
+The void between the Milky Way and Andromeda is 2.5 million light-years
+of nearly empty space with minimal opportunities for refueling or replication.
+A dedicated section on intergalactic transit engineering would connect the
+Type III colonization wave to the competitive requirements
+at the Local Group level.
+However, this would further extend an already comprehensive article.
 ```
 
 Please research and make changes.
 Fold references into the article.
 
-### A100 Topic
+### A101 Topic
 
-This is a research article on what it takes to get from to becoming a competitive Type III Civilization in the local cluster.
-The article should be reasoned backwards.
+Do not start this task until you have finished revising A100.
 
-- What does a competitive Type III Civilization in the local cluster need to be able to do?
-- What does an infant Type III Civilization need to do to survive and become competitive in the local cluster?
-- What does a Type II Civilization need to do to become a competitive infant Type III Civilization?
-- What does a Type I Civilization need to do to become a competitive infant Type II Civilization?
-- What does we need to do to become a competitive infant Type I Civilization?
+LLMs are very good at filling in the blanks given context.
+A84 covers this reality. Optionally review A84.
 
-The article should be presented chronologically:
+A101 is an experiment.
+Your task is to context match on A98, A99, A100, and draft A101 as a continuation of the series.
+This is a research article that should have the same rigor as other articles in the series.
+Your job is to identify the most urgent next topic in the series, and write a rigorous thesis-based research article on it.
 
-- Thesis and Overview
-- Now to Infant Competitive Type I
-- Type I to Infant Competitive Type II
-- Type II to Infant Competitive Type III
-- Infant Type III to Local Group Competitive Type III
-- Extrapolation Beyond Local Group Competitiveness
-- Implications of Analysis
-- Conclusion
-- Future Reading
+### Document Unselected A101 Candidate Topics
+
+As you are choose a topic for A101, you will almost certain identify important topics that are not important enough
+or directionally relevant enough to be A101.
+Document these topics in the reverse prompt and in the `_drafts/draft_summary.md` "Candidate Future Post Topics" table.
 
 ### Non-Publication
 
@@ -76,9 +83,9 @@ The article should be presented chronologically:
 - Make sure all related article links are valid.
 - DO NOT generate a release announcement based on the template.
 
-### Comment on A99
+### Comment on A100 and A101
 
-Include a freeform commentary of A99 and A100 in your reverse prompt.
+Include a freeform commentary of A100 and A101 in your reverse prompt.
 
 ## Context
 
@@ -90,19 +97,19 @@ Drafting time!
 
 ## Success Criteria
 
-- A99 revised as requested.
-- A99 dates updated.
-- A99 related article links correct.
-- A99 NOTE published.
-- A99 release announcement NOT generated and reported in reverse prompt.
-- A99 freeform commentary in reverse draft.
-
-- A100 drafted as requested.
+- A100 revised as requested.
 - A100 dates updated.
 - A100 related article links correct.
 - A100 NOTE published.
 - A100 release announcement NOT generated and reported in reverse prompt.
 - A100 freeform commentary in reverse draft.
+
+- A101 drafted as requested.
+- A101 dates updated.
+- A101 related article links correct.
+- A101 NOTE published.
+- A101 release announcement NOT generated and reported in reverse prompt.
+- A101 freeform commentary in reverse draft.
 
 ## Notes
 
