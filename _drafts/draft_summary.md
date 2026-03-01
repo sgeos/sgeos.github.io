@@ -18,6 +18,51 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Tactical and Strategic Assessment of the Local Galactic Neighborhood — Release Candidate
+
+**File**: `tactical_and_strategic_assessment_of_local_galactic_neighborhood.markdown`
+**Topic**: Tactical and strategic map of the local galactic neighborhood with threat analysis and colonization prioritization
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+<!-- A99 -->
+
+New article continuing A98 "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization."
+Applies the theoretical framework from A98
+to the specific galaxies and galaxy groups in our neighborhood.
+Catalogs the Local Group with subgroup structure
+(Milky Way subgroup, Andromeda subgroup, NGC 3109 association, isolated members).
+Three Local Group galaxy tables:
+Milky Way and major satellites (12 galaxies),
+Andromeda subgroup (8 galaxies),
+and isolated/peripheral members (14 galaxies).
+Dedicated SMBH summary table (5 entries with confidence levels).
+Milky Way-Andromeda collision section incorporating the 2025 Nature Astronomy revision.
+Council of Giants table (14 galaxies at ~12 Mly).
+Nearby galaxy groups table (12 groups within 100 Mly).
+Notable galaxies beyond the Local Group table (9 galaxies).
+Dedicated M87 and Virgo Cluster strategic assessment.
+Local Sheet, Laniakea Supercluster, and Local Void strategic context.
+Threat analysis with Andromeda non-peer adversary comparison table (5 dimensions).
+SMBH hierarchy table (16 galaxies sorted by mass).
+Growth curve dynamics: exponential, logistic, and hyperbolic models with differential equations.
+Exceptional growth and $2d$ barrier analysis.
+Non-peer conflict and growth asymmetry mathematics.
+Fractal cosmology: galaxy two-point correlation function, cosmic web multifractal geometry.
+Sedov-Taylor blast wave self-similar expansion analogy.
+Galaxies-as-atoms structural parallel with gravitational binding energy estimate.
+Colonization prioritization table (9 priority targets from Sagittarius Dwarf to Triangulum).
+Beyond-Local-Group expansion corridor analysis.
+Virgo strategic question.
+References A98, A82, A90, A95 via post_url.
+MathJax enabled for growth equations, correlation function, Sedov-Taylor, and binding energy.
+Eighty-two references across three categories (63 Reference, 4 Related Post, 15 Research).
+
+**Remaining Work**:
+Human review of article content, galaxy data accuracy, and strategic analysis.
+Assign publication date when ready.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -259,16 +304,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
-No release candidates remain.
+Eleven files exist in `_drafts/`. One is a template.
+One release candidate remains.
 No stubs remain.
 A80 through A98 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**No release candidates remain.**
-All release candidates have been published.
+**One release candidate remains.**
+A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
