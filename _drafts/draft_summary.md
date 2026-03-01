@@ -46,6 +46,13 @@ Dedicated M87 and Virgo Cluster strategic assessment.
 Local Sheet, Laniakea Supercluster, and Local Void strategic context.
 Threat analysis with Andromeda non-peer adversary comparison table (5 dimensions).
 SMBH hierarchy table (16 galaxies sorted by mass).
+Information warfare section: observation delay as information asymmetry,
+concealment strategies with Kipping and Teachey transit cloaking,
+dark forest hypothesis, deceptive signaling (false emissions, positional misdirection, capability masking),
+military deception doctrine parallels (maskirovka),
+thermodynamic constraints on concealment (Landauer's principle, Wright et al. G-HAT survey),
+game-theoretic landscape (dark forest, fog of war, and growth-dominance equilibria),
+Schelling focal points, METI debate, concealment-growth tradeoff.
 Growth curve dynamics: exponential, logistic, and hyperbolic models with differential equations.
 Exceptional growth and $2d$ barrier analysis.
 Non-peer conflict and growth asymmetry mathematics.
@@ -56,11 +63,61 @@ Colonization prioritization table (9 priority targets from Sagittarius Dwarf to 
 Beyond-Local-Group expansion corridor analysis.
 Virgo strategic question.
 References A98, A82, A90, A95 via post_url.
-MathJax enabled for growth equations, correlation function, Sedov-Taylor, and binding energy.
-Eighty-two references across three categories (63 Reference, 4 Related Post, 15 Research).
+MathJax enabled for growth equations, correlation function, Sedov-Taylor, binding energy,
+and thermodynamic constraints.
+Ninety-three references across three categories (72 Reference, 4 Related Post, 17 Research).
 
 **Remaining Work**:
 Human review of article content, galaxy data accuracy, and strategic analysis.
+Assign publication date when ready.
+
+### Roadmap to a Competitive Type III Civilization — Release Candidate
+
+**File**: `roadmap_to_competitive_type_iii_civilization.markdown`
+**Topic**: Operational roadmap from current civilization to competitive Type III in the Local Group
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+<!-- A100 -->
+
+New article completing the three-part series with A98 and A99.
+Derives the roadmap backwards from competitive Type III requirements,
+then presents it chronologically.
+Sagan's logarithmic Kardashev extension with current position at K = 0.73.
+Now to Infant Competitive Type I:
+energy infrastructure (fusion, SBSP, renewables),
+survival bottleneck (Ord's existential risk estimates),
+governance and coordination requirements,
+timeline projections with growth rate sensitivity.
+Type I to Infant Competitive Type II:
+Dyson swarm construction (Armstrong and Sandberg Mercury disassembly),
+self-replicating industry with gray goo risk,
+solar system infrastructure (asteroid mining, O'Neill cylinders, planetary engineering),
+stellar engineering (star lifting, Shkadov thruster, SMBH energy extraction).
+Type II to Infant Competitive Type III:
+interstellar propulsion comparison table (laser sail, fusion, nuclear pulse, Bussard, generation ship),
+colonization wave mathematics,
+governance across light-years,
+satellite galaxy expansion from A99 priority list.
+Infant Type III to Local Group Competitive Type III:
+competitive requirements (resource parity, force projection, defensive coverage, information warfare),
+the Andromeda problem (SMBH mass ratio, technological superiority vs SMBH growth strategies),
+merger window from 2025 Nature Astronomy study,
+information warfare at galactic scale,
+competitive fitness summary table.
+Extrapolation beyond Local Group:
+the Virgo question, supercluster dynamics, limits of extrapolation
+(accelerating expansion, heat death, unknown physics).
+Implications: critical bottleneck table, growth imperative, concealment-growth tradeoff,
+independence from threat assessment, limitations (cooperative equilibria, non-expansion, radically different life).
+References A98, A99, A82, A90, A95 via post_url.
+MathJax enabled for Kardashev formula, growth timelines, and colonization wave speed.
+Fifty-four references across three categories (44 Reference, 5 Related Post, 5 Research).
+
+**Remaining Work**:
+Human review of article content, Kardashev scale calculations, and strategic analysis.
+A99 post_url will resolve when A99 is published.
 Assign publication date when ready.
 
 ### Solana sBPF Assembly Example — Pre-Release Candidate
@@ -304,16 +361,17 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
-One release candidate remains.
+Twelve files exist in `_drafts/`. One is a template.
+Two release candidates remain.
 No stubs remain.
 A80 through A98 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**One release candidate remains.**
+**Two release candidates remain.**
 A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" is a release candidate awaiting human review.
+A100 "Roadmap to a Competitive Type III Civilization" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

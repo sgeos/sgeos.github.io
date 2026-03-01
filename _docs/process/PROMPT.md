@@ -23,43 +23,51 @@ Read, but unverified:
 
 ## Objectives
 
-Please draft A99 as continuation of the material posted in A98.
-Link to A98.
+Please revise A99 and draft A100 as continuation of the material posted in A98 and A99.
+Link to A98 and A99 in A100.
 
 Thoroughly research the topic and pull in references.
 There is no length limit, no reference limit,
 and the reference list may be more valuable than the article itself.
 
-### Topic
+### A99 Revision
 
-A99 should tactical and strategic map of nearby galaxies with notes on threat analysis
-and colonization prioritization.
-A99 should map out galaxies in the local cluster, and notable galaxies near the local cluster.
+The reverse prompt contained the following.
 
-- Include a table of known galaxies in the local cluster.
-  - Include name, formal astronomical coding, galaxy type, light year distance,
-    light year diameter, estimated number of stars, SMB scale, and special notes.
-- Include a similar table of notable galaxies near the local cluster.
+```
+**What I would change.**
+The article would benefit from a section on information warfare across intergalactic distances.
+The $2d$ gap analysis focuses on physical force projection (sterilization sweeps) but does not address the possibility of deceptive signaling,
+false emissions designed to mislead observers about a civilization's capabilities or location.
+In a universe where observation is delayed by millions of years, strategic deception could be as consequential as physical force.
+However, adding this section would further extend an already long article.
+```
 
-Pay specific attention to number of stars and the scale of the super massive black hole
-in the center of the galaxy.
-Specifically, Andromeda is significantly larger than the Milky Way.
-Even if technologic civilization in Andromeda and the Milky Way were otherwise nominal peers,
-a conflict between Andromeda and the Milky Way would not be a peer conflict.
+Please research and make changes.
+Fold references into the article.
 
-Also, make sure to release the assumption of a uniform exponential growth curves for civilizations.
-A civilization with exceptional growth curve could overcome the `2d` offensive barrier
-in nominal peer conflicts because it would simply cease to be a peer.
-A new civilization with an exceptional exponential growth curve has the potential to
-maintain lightcone expansion despite encountered resistance.
+### A100 Topic
 
-Feel free to use a theoretical fractal model of the universe to argue this point.
-Pull in relevant mathematics from extreme small scale physics and apply them to
-the macro scale where galaxies may simply look like atoms depite massive internal
-complexity.
+This is a research article on what it takes to get from to becoming a competitive Type III Civilization in the local cluster.
+The article should be reasoned backwards.
 
-Having said this, the main focus of the article should be on the contrecte tactical
-and strategic implications of the galaxies around us.
+- What does a competitive Type III Civilization in the local cluster need to be able to do?
+- What does an infant Type III Civilization need to do to survive and become competitive in the local cluster?
+- What does a Type II Civilization need to do to become a competitive infant Type III Civilization?
+- What does a Type I Civilization need to do to become a competitive infant Type II Civilization?
+- What does we need to do to become a competitive infant Type I Civilization?
+
+The article should be presented chronologically:
+
+- Thesis and Overview
+- Now to Infant Competitive Type I
+- Type I to Infant Competitive Type II
+- Type II to Infant Competitive Type III
+- Infant Type III to Local Group Competitive Type III
+- Extrapolation Beyond Local Group Competitiveness
+- Implications of Analysis
+- Conclusion
+- Future Reading
 
 ### Non-Publication
 
@@ -70,7 +78,7 @@ and strategic implications of the galaxies around us.
 
 ### Comment on A99
 
-Include a freeform commentary of A99 in your reverse prompt.
+Include a freeform commentary of A99 and A100 in your reverse prompt.
 
 ## Context
 
@@ -88,6 +96,13 @@ Drafting time!
 - A99 NOTE published.
 - A99 release announcement NOT generated and reported in reverse prompt.
 - A99 freeform commentary in reverse draft.
+
+- A100 drafted as requested.
+- A100 dates updated.
+- A100 related article links correct.
+- A100 NOTE published.
+- A100 release announcement NOT generated and reported in reverse prompt.
+- A100 freeform commentary in reverse draft.
 
 ## Notes
 
