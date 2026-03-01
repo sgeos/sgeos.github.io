@@ -248,63 +248,6 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
-### Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization — Release Candidate
-
-**File**: `causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization.markdown`
-**Topic**: Causality resolution to the Fermi Paradox, hard steps, oxygen bottleneck, Kardashev scale, galactic engineering, SMBH sterilization, intergalactic topography, first-mover advantage, competitive expansion doctrine
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-<!-- A98 -->
-
-New article arguing that the Fermi Paradox is resolved by causality and first-mover dynamics.
-Retitled from "The Fermi Paradox" to reflect the article's thesis
-rather than serving as a general summary of the paradox.
-The Drake Equation is broadly correct and its parameters are increasingly well-constrained.
-Causality imposed by the speed of light explains the silence at intergalactic distances.
-The information has not arrived yet, and evidence at light distance implies the outcome is determined.
-The oxygen bottleneck argument establishes atmospheric oxygen as a rate-limiting factor
-for technological civilizations, suggesting first-generation intelligent life.
-Covers Kardashev scale advancement timelines from Type 0 through Type III.
-Discusses Dyson swarms, Matrioshka brains, star lifting to create artificial red dwarfs,
-helium extraction and repurposing, galaxy optimization strategies,
-ghost galaxies where stars are enclosed in megastructures,
-and waste heat masking strategies including radiating at the cosmic microwave background temperature.
-Intergalactic sterilization sweeps at light speed with warning time equation.
-SMBH sterilization engine with Penrose process rotational energy extraction
-and Blandford-Znajek relativistic jet mechanism.
-Sagittarius A* energy budget calculation demonstrating sterilization feasibility.
-Intergalactic warfare asymmetry with pseudo-realtime observation model,
-$2d$-year offensive extrapolation gap, hidden information advantage for offense,
-and pseudo-realtime defensive preparations advantage.
-Colonizing the Light Cone section with sterilize-until-resistance expansion model,
-expanding spheres of control tracing cosmic web topology
-through filaments, voids, and the Laniakea Supercluster,
-and peer Type III conflict at boundaries.
-Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
-and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
-Carter Hard Step model cited in Drake section.
-M-dwarf flare volatility noted in Hephaistos context.
-Gravitational lensing counter-survey for cold civilizations.
-Heat sink optimization and galactic halo computation.
-Beam divergence observation for intergalactic sterilization.
-First-mover assumptions stated explicitly with conditional framing.
-Grabby Aliens model dependencies noted.
-Conclusion revised with synthesis paragraph, critique anticipation,
-stagnation-as-risk framing, and Grabby deadline logic.
-Absolutist claims softened throughout for scientific defensibility.
-References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,
-and A95 via post_url for evolutionary context.
-MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle,
-Sagan's interpolation formula, Kerr black hole energy, Blandford-Znajek power,
-sterilization warning time, and offensive/defensive gap equations.
-Sixty-seven references across three categories (Reference, Related Post, Research).
-
-**Remaining Work**:
-Human review of article content and thesis argumentation.
-Assign publication date when ready.
-
 ### Template
 
 **File**: `template.markdown`
@@ -316,16 +259,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
-One draft has been elevated to release candidate status.
+Ten files exist in `_drafts/`. One is a template.
+No release candidates remain.
 No stubs remain.
-A80 through A97 have been published.
+A80 through A98 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**One release candidate remains.**
-A98 "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization" is a release candidate awaiting human review.
+**No release candidates remain.**
+All release candidates have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

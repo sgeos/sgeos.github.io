@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization"
-date: 2026-03-01 01:15:13 +0000
+date: 2026-03-01 01:39:41 +0000
 categories: science philosophy
 ---
 
@@ -103,7 +103,7 @@ and the history of space operations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-01 01:15:13 +0000
+2026-03-01 01:39:41 +0000
 
 # OS and Version
 $ uname -vm
@@ -413,6 +413,66 @@ may already control significant portions
 of that galaxy.
 We cannot tell the difference.
 The information has not arrived yet.
+
+### The Local Group
+
+The Milky Way belongs to the Local Group,
+a gravitationally bound cluster
+of over 80 known galaxies
+spanning roughly 10 million light-years.
+The Local Group is dominated
+by two large spirals,
+the Milky Way and Andromeda,
+and one medium spiral, Triangulum.
+The remaining members are dwarf galaxies.
+The following table summarizes
+the major galaxies
+relevant to the discussion
+of intergalactic first-mover dynamics.
+Distances and star counts
+are approximate and vary by source.
+
+| Name | Designation | Type | Distance | Diameter | Stars | SMBH | Notes |
+|---|---|---|---|---|---|---|---|
+| Milky Way | — | SBbc | — | ~100,000 ly | 100–400 billion | ~4 million $M_\odot$ | Home galaxy. Central SMBH is Sagittarius A*. |
+| Sagittarius Dwarf | SagDEG | dSph/E7 | ~70,000 ly | ~10,000 ly | ~1 billion | None confirmed | Closest satellite. Being tidally disrupted and absorbed by the Milky Way. |
+| Large Magellanic Cloud | LMC | SB(s)m | ~160,000 ly | ~32,000 ly | 20–30 billion | None confirmed | Nearest substantial intact galaxy. Naked-eye object from the Southern Hemisphere. |
+| Small Magellanic Cloud | SMC / NGC 292 | SB(s)m pec | ~200,000 ly | ~19,000 ly | ~3 billion | None confirmed | Milky Way satellite. Naked-eye object from the Southern Hemisphere. |
+| NGC 6822 | Caldwell 57 | IB(s)m | ~1,600,000 ly | ~7,000 ly | ~10 million | None confirmed | Barnard's Galaxy. Nearest non-satellite irregular galaxy to the Milky Way. |
+| IC 10 | UGC 192 | dIrr | ~2,200,000 ly | ~5,000 ly | Unknown | None confirmed | Only starburst galaxy in the Local Group. Satellite of Andromeda. |
+| M32 | NGC 221 | cE2 | ~2,490,000 ly | ~8,000 ly | ~3 billion | ~3 million $M_\odot$ | Compact elliptical. Andromeda satellite. Possibly a stripped remnant core. |
+| Andromeda Galaxy | M31 / NGC 224 | SBb | ~2,540,000 ly | ~220,000 ly | ~1 trillion | ~100 million $M_\odot$ | Largest Local Group member. Approaching the Milky Way at ~110 km/s. |
+| M110 | NGC 205 | dE5 pec | ~2,690,000 ly | ~17,000 ly | ~10 billion | None confirmed | Satellite of Andromeda. Contains young blue stars despite elliptical classification. |
+| Triangulum Galaxy | M33 / NGC 598 | Sc | ~2,730,000 ly | ~60,000 ly | ~40 billion | None confirmed | Third largest Local Group member. No central bulge. High star formation rate. |
+
+The resource asymmetry
+within the Local Group is stark.
+Andromeda contains roughly one trillion stars.
+The Milky Way contains
+100 to 400 billion.
+Triangulum contains roughly 40 billion.
+The Large Magellanic Cloud,
+the nearest substantial intact galaxy,
+contains 20 to 30 billion.
+All other Local Group members
+are dwarf galaxies
+with comparatively negligible stellar populations.
+
+For a civilization
+pursuing intergalactic colonization
+from the Milky Way,
+the Large Magellanic Cloud
+at approximately 160,000 light-years
+represents the nearest major target.
+At 10 percent of the speed of light,
+a probe reaches the LMC
+in 1.6 million years.
+Andromeda at 2.5 million light-years
+requires 25 million years at the same velocity.
+These timescales are long
+relative to human history
+but short relative to geological
+or stellar evolution timescales.
 
 ### The Temporal Coincidence Problem
 
