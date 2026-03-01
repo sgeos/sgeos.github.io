@@ -248,10 +248,10 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
-### Causality and First-Mover Advantage in Galactic Colonization — Release Candidate
+### Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization — Release Candidate
 
-**File**: `causality_and_first_mover_advantage_in_galactic_colonization.markdown`
-**Topic**: Causality resolution to the Fermi Paradox, oxygen bottleneck, Kardashev scale, galactic engineering, intergalactic sterilization, first-mover advantage
+**File**: `causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization.markdown`
+**Topic**: Causality resolution to the Fermi Paradox, oxygen bottleneck, Kardashev scale, galactic engineering, SMBH sterilization, intergalactic topography, first-mover advantage
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: Release Candidate
@@ -272,18 +272,23 @@ helium extraction and repurposing, galaxy optimization strategies,
 ghost galaxies where stars are enclosed in megastructures,
 and waste heat masking strategies including radiating at the cosmic microwave background temperature.
 Intergalactic sterilization sweeps at light speed with warning time equation.
+SMBH sterilization engine with Penrose process rotational energy extraction
+and Blandford-Znajek relativistic jet mechanism.
+Sagittarius A* energy budget calculation demonstrating sterilization feasibility.
 Intergalactic warfare asymmetry with pseudo-realtime observation model,
 $2d$-year offensive extrapolation gap, hidden information advantage for offense,
 and pseudo-realtime defensive preparations advantage.
 Colonizing the Light Cone section with sterilize-until-resistance expansion model,
-expanding spheres of control, and peer Type III conflict at boundaries.
+expanding spheres of control tracing cosmic web topology
+through filaments, voids, and the Laniakea Supercluster,
+and peer Type III conflict at boundaries.
 Reviews the G-hat survey results, the Grabby Aliens model, the Solitude Zone framework,
 and the Hart-Tipler conjecture on first-mover advantage in galactic colonization.
 References A82 via post_url for astronomical context, A90 via post_url for spaceflight context,
 and A95 via post_url for evolutionary context.
 MathJax enabled for Drake Equation, Carnot efficiency, Landauer's principle,
 Sagan's interpolation formula, sterilization warning time, and offensive/defensive gap equations.
-Sixty-three references across three categories (Reference, Related Post, Research).
+Sixty-six references across three categories (Reference, Related Post, Research).
 
 **Remaining Work**:
 Human review of article content and thesis argumentation.
@@ -309,7 +314,7 @@ Writing Proofs (A79) has been published.
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
 **One release candidate remains.**
-A98 "Causality and First-Mover Advantage in Galactic Colonization" is a release candidate awaiting human review.
+A98 "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization" is a release candidate awaiting human review.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.

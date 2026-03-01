@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title: "Causality and First-Mover Advantage in Galactic Colonization"
-date: 2026-02-28 23:32:17 +0000
+title: "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization"
+date: 2026-03-01 00:05:26 +0000
 categories: science philosophy
 ---
 
@@ -89,7 +89,7 @@ and the history of space operations.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-02-28 23:32:17 +0000
+2026-03-01 00:05:26 +0000
 
 # OS and Version
 $ uname -vm
@@ -1712,6 +1712,91 @@ would need to develop defenses
 within the warning window
 or face extinction.
 
+**The sterilization engine.**
+A Type III civilization
+that has fully harnessed its galaxy
+possesses an energy source
+of extraordinary magnitude
+at the galactic center.
+The Milky Way's central supermassive black hole,
+Sagittarius A*,
+has a mass of approximately
+$4.3 \times 10^6$ solar masses.
+A spinning black hole
+stores rotational energy
+that can be extracted
+through the Penrose process
+or the Blandford-Znajek mechanism.
+
+The maximum rotational energy
+extractable from a Kerr black hole
+with mass $M_{\text{BH}}$
+and dimensionless spin parameter $a_*$ is
+
+$$E_{\text{rot}} = \left(1 - \sqrt{\frac{1 + \sqrt{1 - a_*^2}}{2}}\right) M_{\text{BH}} c^2$$
+
+For a maximally spinning black hole
+with $a_* = 1$, this reduces to
+
+$$E_{\text{rot,max}} = \left(1 - \frac{1}{\sqrt{2}}\right) M_{\text{BH}} c^2 \approx 0.293 \, M_{\text{BH}} c^2$$
+
+For Sagittarius A*
+at $M_{\text{BH}} \approx 4.3 \times 10^6 \, M_\odot$,
+the extractable rotational energy
+is approximately $2.3 \times 10^{53}$ joules.
+For context,
+the total gravitational binding energy of Earth
+is approximately $2.2 \times 10^{32}$ joules.
+The extractable rotational energy
+of a single supermassive black hole
+could unbind approximately $10^{21}$
+Earth-mass planets.
+Even distributed across a target galaxy
+of 100 billion star systems,
+each system would receive
+approximately $2.3 \times 10^{42}$ joules,
+far exceeding any plausible
+sterilization threshold.
+
+The Blandford-Znajek process
+provides the astrophysically relevant mechanism
+for sustained energy extraction.
+A spinning black hole
+immersed in a magnetic field
+anchored by an accretion disk
+generates an outward Poynting flux
+along the rotation axis,
+producing a collimated relativistic jet.
+The power of this jet scales as
+
+$$P_{\text{BZ}} \propto a_*^2 \, B^2 \, M_{\text{BH}}^2$$
+
+where $B$ is the magnetic field strength
+at the horizon.
+Observed astrophysical jets
+from active galactic nuclei
+achieve Lorentz factors of 10 to 50,
+corresponding to velocities exceeding 0.99$c$,
+with intrinsic opening angles
+of 1 to 10 degrees.
+
+A Type III civilization
+that has engineered
+the accretion environment
+of its central supermassive black hole
+could direct a relativistic jet
+of arbitrary duration
+at a target galaxy,
+delivering sterilizing fluence
+at effectively the speed of light.
+The jet serves simultaneously
+as the sterilization mechanism
+and as the fastest possible delivery vehicle.
+No separate propulsion system is required.
+The sterilization sweep
+is a beam of energy,
+not a fleet of ships.
+
 For a target galaxy
 without a technological civilization,
 the question is moot.
@@ -1959,6 +2044,66 @@ with each side unable to project
 decisive force
 across the intervening distance.
 
+**Intergalactic topography.**
+These expanding spheres
+would not expand uniformly.
+Galaxies are not distributed evenly
+through space.
+The large-scale structure of the universe
+forms a cosmic web
+of filaments, walls, clusters, and voids.
+Filaments are thread-like structures
+connecting galaxy clusters
+and containing roughly half
+of all matter in the universe.
+Voids are vast underdense regions
+occupying approximately 80 percent
+of the universe by volume,
+with typical diameters ranging
+from 30 to 300 million light-years.
+
+An expanding civilization
+would colonize along filaments
+and through clusters
+far more rapidly
+than it could cross voids.
+Filaments provide a continuous chain of galaxies
+that serve as stepping stones
+for the sterilize-and-seed process.
+Voids offer no such intermediate targets.
+The expansion front
+would therefore be highly irregular,
+tracing the cosmic web topology
+rather than expanding
+as a uniform sphere.
+
+The Milky Way's Local Group
+lies on the periphery
+of the Virgo Supercluster,
+itself a subsystem
+within the Laniakea Supercluster,
+which spans approximately 520 million light-years
+and contains roughly 100,000 galaxies.
+The Local Void,
+measuring approximately 75 million light-years across,
+borders the Local Group.
+A civilization expanding from the Local Group
+would spread along the filament
+toward the Virgo Cluster
+far more readily
+than it would cross the Local Void.
+
+The boundaries of competing civilizations
+would form along the natural fault lines
+of intergalactic topology.
+Voids would serve as natural barriers.
+Filaments would serve as corridors of expansion.
+The zones of peer conflict
+predicted by the $2d$-year offensive gap
+would follow this same topology,
+concentrating along filament boundaries
+where expanding spheres of control collide.
+
 ## Conclusion
 
 The Fermi Paradox is best understood
@@ -2079,6 +2224,7 @@ has not yet arrived.
 - [Reference, Balbi and Frank, The Oxygen Bottleneck for Technospheres][ref_oxygen_bottleneck]
 - [Reference, Balbi and Lingam, Waste Heat and Habitability][ref_waste_heat_habitability]
 - [Reference, Berut et al., Experimental Verification of Landauer's Principle][ref_landauer_experimental]
+- [Reference, Blandford-Znajek Process][ref_blandford_znajek]
 - [Reference, Boyle, On Interstellar Quantum Communication and the Fermi Paradox][ref_boyle_quantum]
 - [Reference, Bradbury, Matrioshka Brains][ref_matrioshka_brains]
 - [Reference, Carroll-Nellenback et al., The Fermi Paradox and the Aurora Effect][ref_aurora_effect]
@@ -2095,10 +2241,16 @@ has not yet arrived.
 - [Reference, Inoue and Yokoo, A Dyson Sphere Around a Black Hole][ref_dyson_black_hole]
 - [Reference, Jiang et al., Avoiding the Great Filter][ref_jiang_great_filter]
 - [Reference, Kardashev Scale][ref_kardashev_scale]
+- [Reference, Laniakea Supercluster][ref_laniakea]
 - [Reference, Landauer's Principle][ref_landauer_principle]
+- [Reference, Large-scale Structure of the Universe][ref_large_scale_structure]
 - [Reference, Local Group][ref_local_group]
+- [Reference, Local Void][ref_local_void]
 - [Reference, Loeb, Batista, and Sloan, Relative Likelihood for Life as a Function of Cosmic Time][ref_loeb_cosmic_time]
+- [Reference, Penrose Process][ref_penrose_process]
 - [Reference, Red Dwarf][ref_red_dwarf]
+- [Reference, Relativistic Jet][ref_relativistic_jet]
+- [Reference, Sagittarius A*][ref_sagittarius_a]
 - [Reference, Sandberg, Drexler, and Ord, Dissolving the Fermi Paradox][ref_dissolving_fermi]
 - [Reference, Scoggins and Kipping, Lazarus Stars][ref_lazarus_stars]
 - [Reference, Star Lifting][ref_star_lifting]
@@ -2138,6 +2290,7 @@ has not yet arrived.
 [ref_eternity_six_hours]: https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148
 [ref_oxygen_bottleneck]: https://www.nature.com/articles/s41550-023-02112-8
 [ref_waste_heat_habitability]: https://arxiv.org/html/2409.06737
+[ref_blandford_znajek]: https://en.wikipedia.org/wiki/Blandford%E2%80%93Znajek_process
 [ref_landauer_experimental]: https://www.nature.com/articles/nature10872
 [ref_boyle_quantum]: https://arxiv.org/html/2408.02445v1
 [ref_matrioshka_brains]: https://gwern.net/doc/ai/scaling/hardware/1999-bradbury-matrioshkabrains.pdf
@@ -2155,10 +2308,16 @@ has not yet arrived.
 [ref_dyson_black_hole]: https://academic.oup.com/mnras/article/506/2/1723/6312510
 [ref_jiang_great_filter]: https://arxiv.org/abs/2204.07070
 [ref_kardashev_scale]: https://en.wikipedia.org/wiki/Kardashev_scale
+[ref_laniakea]: https://en.wikipedia.org/wiki/Laniakea_Supercluster
 [ref_landauer_principle]: https://en.wikipedia.org/wiki/Landauer%27s_principle
+[ref_large_scale_structure]: https://en.wikipedia.org/wiki/Large-scale_structure_of_the_universe
 [ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
+[ref_local_void]: https://en.wikipedia.org/wiki/Local_Void
 [ref_loeb_cosmic_time]: https://arxiv.org/abs/1606.08448
+[ref_penrose_process]: https://en.wikipedia.org/wiki/Penrose_process
 [ref_red_dwarf]: https://en.wikipedia.org/wiki/Red_dwarf
+[ref_relativistic_jet]: https://en.wikipedia.org/wiki/Relativistic_jet
+[ref_sagittarius_a]: https://en.wikipedia.org/wiki/Sagittarius_A*
 [ref_dissolving_fermi]: https://arxiv.org/abs/1806.02404
 [ref_lazarus_stars]: https://academic.oup.com/mnras/article/523/3/3251/7188305
 [ref_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
