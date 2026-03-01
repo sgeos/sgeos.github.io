@@ -12,3 +12,8 @@ _site
 # drafts not worth commiting
 hidden.*.markdown
 
+# Project-local temporary files
+tmp/*
+
+# Whitelist .gitkeep files globally.
+!.gitkeep
