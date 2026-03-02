@@ -128,6 +128,46 @@ Human review of physics calculations and strategic analysis.
 A99 and A100 post_url references will resolve when those articles are published.
 Assign publication date when ready.
 
+### Von Neumann Probes — Draft
+
+**File**: `von_neumann_probes.markdown`
+**Topic**: Von Neumann self-replicating probes from theoretical foundations through current technology status to engineering challenges and ETA
+**Completion**: ~90%
+**Publication Sensibility**: High
+**Status**: Draft
+
+<!-- A102 -->
+
+Fifth article in the competitive intergalactic colonization series (A98-A102).
+Examines the technology that all four companion articles identify as the critical prerequisite.
+Von Neumann's self-reproducing automata theory (1948-1966),
+Bracewell probes (1960), Tipler's 1980 argument, Freitas REPRO concept,
+the 1980 NASA summer study on self-replicating lunar factories,
+the Sagan-Tipler debate,
+berserker hypothesis and dark forest connection.
+Mathematical framework: replication growth equations, galaxy colonization time,
+Lotka-Volterra dynamics for competing probe populations,
+Osmanov micro-probes.
+Enabling technologies survey: additive manufacturing in space (RepRap, ISS printers),
+ISRU (MOXIE, lunar regolith, asteroid mining),
+autonomous systems (Perseverance AI, CogniSAT-6, MIT assembler robots),
+propulsion (chemical, nuclear, laser sail, Breakthrough Starshot status).
+Work in progress: Ellery self-replicating systems research, i4is near-term concept design,
+Cambridge special issue publications, hierarchical assembly, NASA fission surface power.
+Technological blocks: closure problem (semiconductor fabrication, precision optics),
+autonomous industrial competence, radiation hardening, power generation,
+communication latency, propulsion deceleration.
+ETA range: 2060 to 2130 for first prototype with critical path analysis.
+Near-term actionable objectives with target dates.
+References A98, A99, A100, A101, A82, A90, A95 via post_url.
+MathJax enabled for replication growth, colonization wave speed, and doubling time equations.
+Sixty-eight references across three categories (40 Reference, 7 Related Post, 21 Research).
+
+**Remaining Work**:
+Human review of article content, ETA estimates, and series integration.
+A100 and A101 post_url references will resolve when those articles are published.
+Assign publication date when ready.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -369,7 +409,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
+Thirteen files exist in `_drafts/`. One is a template.
 Two release candidates remain.
 No stubs remain.
 A80 through A99 have been published.
@@ -380,6 +420,11 @@ The drafts fall into four tiers when assessed for salvageability with contempora
 **Two release candidates remain.**
 A100 "Roadmap to a Competitive Type III Civilization" is a release candidate awaiting human review.
 A101 "The Physics of Intergalactic Force Projection" is a release candidate awaiting human review.
+
+**One new draft awaiting human review.**
+A102 "Von Neumann Probes" covers the theoretical foundations, enabling technologies,
+technological blocks, and ETA range for self-replicating probes.
+Fifth article in the A98-A102 competitive intergalactic colonization series.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
