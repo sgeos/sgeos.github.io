@@ -1951,7 +1951,6 @@ This ties the asymmetric growth advantage
 directly to the logistic plateau transition
 analyzed below.
 
-The
 The $2d$ gap was derived
 under the assumption
 that the defender's pseudo-realtime observation
