@@ -2217,7 +2217,7 @@ reaches us.
 [ref_terraforming]: https://en.wikipedia.org/wiki/Terraforming
 [ref_virgo_cluster]: https://en.wikipedia.org/wiki/Virgo_Cluster
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
-[related_post_assessment]: {% post_url 2026-03-01-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
+[related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_cryptotelemeritocracy]: {% post_url 2026-02-20-cryptotelemeritocracy %}
 [related_post_crypto_space]: {% post_url 2026-02-23-cryptotelemeritocracy_for_space_exploitation %}

@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Tactical and Strategic Assessment of the Local Galactic Neighborhood"
-date:   2026-03-02 05:27:37 +0000
+date:   2026-03-02 06:06:45 +0000
 categories: science philosophy
 ---
 
@@ -150,7 +150,7 @@ to Homo sapiens.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-02 05:27:37 +0000
+2026-03-02 06:06:45 +0000
 ```
 
 ## The Local Group
@@ -637,12 +637,15 @@ The jet's physical extent
 provides a basis
 for assessing the scale
 of potential force projection.
-At 53 million light-years,
-M87's jet divergence would produce
-a beam footprint
-that could blanket
-a significant fraction
-of the Local Group.
+If an advanced civilization
+could substantially increase
+jet collimation
+beyond natural AGN divergence,
+the resulting beam
+projected across 53 million light-years
+could in principle
+concentrate energy
+on targets within the Local Group.
 Under these assumptions,
 if a civilization in the Virgo Cluster
 achieved directed control
@@ -1313,8 +1316,8 @@ The Stefan-Boltzmann law dictates
 that power radiated
 scales as $T^4$.
 A radiator operating at 2.7 K
-emits $3 \times 10^{-6}$ W/m^2,
-roughly $10^{11}$ times less
+emits approximately $3 \times 10^{-6}$ W/m$^2$,
+roughly $1.5 \times 10^{8}$ times less
 per unit area
 than a radiator at 300 K.
 To reject the waste heat

@@ -8,33 +8,33 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A99 per External LLM Feedback Round 2 and Add JavaScript Article Numbers (A99-P4)
+**Name**: Publish A99 (A99-P5)
 **Status**: Complete
 **Started**: 2026-03-02
 
 ## Success Criteria
 
-- [x] A99 revised per second round of external LLM feedback (mathematical formalization, scope constraints, operational synthesis).
-- [x] A99 dates updated to 2026-03-02 05:27:37 +0000.
+- [x] A99 revised (M87 jet divergence hardened, radiator ratio corrected).
+- [x] A99 dates updated to 2026-03-02 06:06:45 +0000.
 - [x] A99 related article links correct (A98, A82, A90, A95).
-- [x] A99 NOT published.
-- [x] Release announcement NOT generated.
-- [x] Freeform commentary on A99 in REVERSE_PROMPT.md.
-- [x] JavaScript article number printing added to all articles (110 files).
+- [x] A99 published.
+- [x] A99 release announcement generated and reported in reverse prompt.
+- [x] A99 freeform commentary in REVERSE_PROMPT.md.
+- [x] A100 and A101 post_url references updated to 2026-03-02 date.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A99-P4-T1 | Revise A99 per second round of external LLM feedback | Complete | Modeling assumptions expanded with three explicit conditions (expansionist civilization per basin, sustained growth over 2d, comparable engineering efficiency). Three-quantity distinction added (energy envelope, power projection, momentum transfer capability). SMBH capability envelope formalized with equation $S = f \cdot \eta \cdot M_{\text{SMBH}} \cdot c^2$ and defined extraction efficiency $\eta$ and mobilization fraction $f$. Three growth regimes explicitly separated (early exponential, transitional hyperbolic, logistic carrying-capacity plateau) with variable definitions ($r$, $K$, $N(t)$). Instability condition formalized: $R = e^{(r_A - r_B) \cdot 2d}$ with threshold $(r_A - r_B) \cdot 2d \gg 1$ and three stability conditions. Growth-concealment tradeoff boundary cases added (high detection probability, mutual deterrence, non-expansionist equilibria). Thermodynamic geometric cost at CMB temperature ($10^{32}$ m$^2$ radiator area). Sedov-Taylor refined with impulse-vs-sustained-power distinction. Galaxy ionization clarified with binding energy vs practical unbinding, isotropic heating inefficiency, directed momentum transfer requirement. Selection pressure constrained to overlapping expansion domains, finite resources, non-cooperative actors. Inverse-square central forces framing replaces gravity-only framing. Consolidated equation block added (growth law, instability condition, capability scaling). Operational synthesis section added (six strategic objectives, three long-term directives). All asymmetry ratios explicitly conditional. Article now 3,146 lines with 96 references. |
-| A99-P4-T2 | Add JavaScript article number printing to all articles | Complete | 110 files modified (98 in _posts/, 12 in _drafts/). `<script>console.log("Axx");</script>` added below `<!-- Axx -->` comment in each article. Template uses `Axxx` placeholder. |
-| A99-P4-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT with A99 commentary, draft_summary updated. |
+| A99-P5-T1 | Harden M87 jet divergence sentence and correct radiator ratio | Complete | M87 jet divergence sentence replaced with conditional formulation ("If an advanced civilization could substantially increase jet collimation beyond natural AGN divergence"). Radiator ratio corrected from $10^{11}$ to $1.5 \times 10^8$ (verified: $(300/2.7)^4 \approx 1.5 \times 10^8$). |
+| A99-P5-T2 | Publish A99 | Complete | Published via _publish.sh. File moved to `_posts/2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood.markdown`. A100 and A101 post_url references updated from 2026-03-01 to 2026-03-02. |
+| A99-P5-T3 | Update process files, generate release announcement, and commit | Complete | TASKLOG, REVERSE_PROMPT with release announcement and A99 commentary, draft_summary updated. |
 
 ## Notes
 
 - Next available article number: A102.
-- 3 release candidates (A99, A100, A101).
+- 2 release candidates (A100, A101).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 
@@ -109,3 +109,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-01 | A100-P2, A101-P1: A100 revised with A87/A89/A92 governance conclusions and intergalactic transit engineering section (67 references, 2,232 lines). A101 "The Physics of Intergalactic Force Projection" researched and written (40 references, 1,681 lines). Draft summary synced (13 files, 3 RCs, 0 stubs). |
 | 2026-03-02 | A99-P3: A99 revised per external LLM feedback. Assumptions box, capability envelope reframe, energy scaling, asymmetric singularity ratio, dark forest instability derivation, logistic plateau scenarios, civilizational failure modes, ranked strategic priority table, epistemic tone calibrated (96 references, 2,809 lines). Draft summary synced. |
 | 2026-03-02 | A99-P4: A99 revised per second round of external LLM feedback. Mathematical formalization (capability scaling equation, instability condition, three growth regimes). Scope constraints (selection pressure bounded, ionization clarified, Sedov-Taylor refined). Consolidated equation block and operational synthesis section added. JavaScript article number printing added to all 110 articles. (96 references, 3,146 lines). Draft summary synced. |
+| 2026-03-02 | A99-P5: "Tactical and Strategic Assessment of the Local Galactic Neighborhood" published (2026-03-02 date). M87 jet divergence hardened, radiator ratio corrected. A100/A101 post_url references updated. Draft summary synced (12 files, 2 RCs, 0 stubs). |
