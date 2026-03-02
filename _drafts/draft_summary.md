@@ -31,6 +31,7 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 New article continuing A98 "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization."
 Applies the theoretical framework from A98
 to the specific galaxies and galaxy groups in our neighborhood.
+Explicit modeling assumptions box near the beginning.
 Catalogs the Local Group with subgroup structure
 (Milky Way subgroup, Andromeda subgroup, NGC 3109 association, isolated members).
 Three Local Group galaxy tables:
@@ -38,34 +39,50 @@ Milky Way and major satellites (12 galaxies),
 Andromeda subgroup (8 galaxies),
 and isolated/peripheral members (14 galaxies).
 Dedicated SMBH summary table (5 entries with confidence levels).
+SMBH capability envelope reframe with energy scaling comparison table (Sgr A* vs M31*).
 Milky Way-Andromeda collision section incorporating the 2025 Nature Astronomy revision.
-Council of Giants table (14 galaxies at ~12 Mly).
+Council of Giants table (14 galaxies at ~12 Mly), framed as early warning array.
 Nearby galaxy groups table (12 groups within 100 Mly).
 Notable galaxies beyond the Local Group table (9 galaxies).
-Dedicated M87 and Virgo Cluster strategic assessment.
-Local Sheet, Laniakea Supercluster, and Local Void strategic context.
+Dedicated M87 and Virgo Cluster strategic assessment with sterilization fluence analysis.
+Local Sheet coherence and shared reference frame analysis.
+Laniakea Supercluster and Local Void strategic context
+with void navigation logic (high-resource/high-threat vs low-resource/high-safety corridors).
+Quiet Andromeda problem (first-mover vs cold-state interpretations).
 Threat analysis with Andromeda non-peer adversary comparison table (5 dimensions).
 SMBH hierarchy table (16 galaxies sorted by mass).
 Information warfare section: observation delay as information asymmetry,
-concealment strategies with Kipping and Teachey transit cloaking,
-dark forest hypothesis, deceptive signaling (false emissions, positional misdirection, capability masking),
+targeted vs omnidirectional concealment regimes with Kipping and Teachey transit cloaking,
+visibility as a choice, dark forest hypothesis,
+deceptive signaling (false emissions, positional misdirection, capability masking),
 military deception doctrine parallels (maskirovka),
-thermodynamic constraints on concealment (Landauer's principle, Wright et al. G-HAT survey),
+thermodynamic constraints on concealment with waste heat clarification
+(spectral shifting, anisotropic radiation, temporary storage, heat sinks vs Dyson sphere beacons),
+dark forest instability formally derived with growth rate differential equation,
 game-theoretic landscape (dark forest, fog of war, and growth-dominance equilibria),
 Schelling focal points, METI debate, concealment-growth tradeoff.
-Growth curve dynamics: exponential, logistic, and hyperbolic models with differential equations.
+Growth curve dynamics: exponential (with illustrative caveat), logistic, and hyperbolic models.
+Hyperbolic avoided crossings and steepest possible curve.
+Asymmetric singularity ratio subsection ($t_d / d$).
 Exceptional growth and $2d$ barrier analysis.
+Logistic plateau and carrying capacity asymmetry comparison
+(50-year vs 200-year doubling, Milky Way vs Andromeda $K$).
 Non-peer conflict and growth asymmetry mathematics.
+Civilizational failure modes (fragmentation, value drift, self-limitation, collapse, non-expansionist equilibria).
 Fractal cosmology: galaxy two-point correlation function, cosmic web multifractal geometry.
-Sedov-Taylor blast wave self-similar expansion analogy.
-Galaxies-as-atoms structural parallel with gravitational binding energy estimate.
+Sedov-Taylor blast wave self-similar expansion analogy (explicitly labeled as analogy).
+Galaxies-as-atoms structural analogy (explicitly labeled) with gravitational binding energy estimate.
 Colonization prioritization table (9 priority targets from Sagittarius Dwarf to Triangulum).
+LMC framed as mandatory resource grab to narrow Andromeda energy disparity.
+Ranked strategic priority table (10 targets with SMBH ratios, threat levels, strategic values).
 Beyond-Local-Group expansion corridor analysis.
-Virgo strategic question.
+Virgo strategic question with conditional framing.
+Standardized epistemic tone throughout with conditional modeling language.
 References A98, A82, A90, A95 via post_url.
 MathJax enabled for growth equations, correlation function, Sedov-Taylor, binding energy,
+energy scaling, asymmetric singularity ratio, dark forest instability,
 and thermodynamic constraints.
-Ninety-three references across three categories (72 Reference, 4 Related Post, 17 Research).
+Ninety-six references across three categories (74 Reference, 4 Related Post, 18 Research).
 
 **Remaining Work**:
 Human review of article content, galaxy data accuracy, and strategic analysis.
