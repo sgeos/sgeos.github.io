@@ -8,6 +8,7 @@ categories: gamedev playdate rust
 ---
 
 <!-- A56 -->
+<script>console.log("A56");</script>
 
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 [Rust][rust] is a drop-in replacement for C that is fast and memory safe.

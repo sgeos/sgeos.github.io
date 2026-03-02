@@ -7,6 +7,7 @@ categories: android adb sh
 ---
 
 <!-- A34 -->
+<script>console.log("A34");</script>
 
 It can be useful to write and store scripts on a local
 development machine and run them remotely on one or more

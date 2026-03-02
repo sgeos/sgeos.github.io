@@ -7,6 +7,7 @@ categories: android kotlin intellij
 ---
 
 <!-- A21 -->
+<script>console.log("A21");</script>
 
 I recently spoke with some people in Tokyo who are
 using [Kotlin][kotlin] in a production Android app.

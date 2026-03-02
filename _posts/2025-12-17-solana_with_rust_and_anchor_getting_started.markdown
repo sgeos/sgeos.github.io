@@ -8,6 +8,7 @@ categories:
 ---
 
 <!-- A65 -->
+<script>console.log("A65");</script>
 
 Solana is a high-performance blockchain that focuses on scalability and fast
 transaction processing.

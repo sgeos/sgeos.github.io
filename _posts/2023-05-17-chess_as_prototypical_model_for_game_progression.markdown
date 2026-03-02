@@ -8,6 +8,7 @@ categories: gamedev
 ---
 
 <!-- A62 -->
+<script>console.log("A62");</script>
 
 Models are useful to help reason about complex problems.
 This post will describe how chess can be used as a model to reason about

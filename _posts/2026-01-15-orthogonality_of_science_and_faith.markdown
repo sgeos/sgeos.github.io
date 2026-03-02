@@ -8,6 +8,7 @@ categories: [philosophy, science, faith]
 ---
 
 <!-- A67 -->
+<script>console.log("A67");</script>
 
 In college, I took a fascinating class on the philosophy of science that
 deeply shaped my present understanding of science and faith. My main takeaway

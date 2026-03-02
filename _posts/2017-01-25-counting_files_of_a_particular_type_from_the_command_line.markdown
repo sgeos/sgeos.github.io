@@ -8,6 +8,7 @@ categories: sh freebsd
 ---
 
 <!-- A49 -->
+<script>console.log("A49");</script>
 
 Sometimes it can be useful to know how many files of a particular type are in a directory.
 This post presents a single line command and a shell function that count the number of files with a given extenstion in the current directory.

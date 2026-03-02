@@ -8,6 +8,7 @@ categories: sh freebsd unix
 ---
 
 <!-- A47 -->
+<script>console.log("A47");</script>
 
 I often work with VMs.
 Sometimes I want to SSH into a physical server or a laptop.

@@ -7,6 +7,7 @@ categories: elixir metaprogramming ast
 ---
 
 <!-- A8 -->
+<script>console.log("A8");</script>
 
 Inspecting AST is a good way to learn about elixir macros.
 Executing AST can also be instructional, but it is a little more nuanced than

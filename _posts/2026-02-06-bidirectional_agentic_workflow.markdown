@@ -8,6 +8,7 @@ categories: ai ai-tools development developer-productivity tutorial
 ---
 
 <!-- A75 -->
+<script>console.log("A75");</script>
 
 The rise of agentic AI systems has introduced a new challenge for software development teams.
 These systems can plan, execute, and iterate on code autonomously,

@@ -8,6 +8,7 @@ categories: [management, trading, remote-work, operations]
 ---
 
 <!-- A70 -->
+<script>console.log("A70");</script>
 
 With a current global population of over 8 billion, human activity is far from
 a random distribution. Influence and capital are concentrated within specific

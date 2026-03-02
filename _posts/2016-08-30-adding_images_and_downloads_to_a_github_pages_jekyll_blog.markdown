@@ -8,6 +8,7 @@ categories: github jekyll
 ---
 
 <!-- A40 -->
+<script>console.log("A40");</script>
 
 This post covers adding images to a [GitHub Pages][github_pages] [Jekyll blog][jekyll].
 This solution also works for downloads, like PDFs.

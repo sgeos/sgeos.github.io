@@ -7,6 +7,7 @@ categories: swift
 ---
 
 <!-- A7 -->
+<script>console.log("A7");</script>
 
 If you want to start learning swift without firing up an IDE, this post is for you.
 This post was written because the instructions in the references are slightly out of date.

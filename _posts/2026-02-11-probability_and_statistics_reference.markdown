@@ -8,6 +8,7 @@ categories: math statistics probability
 ---
 
 <!-- A80 -->
+<script>console.log("A80");</script>
 
 Statistics is the discipline of collecting, organizing, analyzing,
 and interpreting data to make informed decisions under uncertainty.

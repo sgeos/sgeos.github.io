@@ -8,6 +8,7 @@ categories: space history
 ---
 
 <!-- A96 -->
+<script>console.log("A96");</script>
 
 A rocketplane is an aircraft that uses rocket engines
 for primary propulsion.

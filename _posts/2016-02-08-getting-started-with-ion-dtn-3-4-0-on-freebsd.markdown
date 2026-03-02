@@ -7,6 +7,7 @@ categories: freebsd ion dtn
 ---
 
 <!-- A12 -->
+<script>console.log("A12");</script>
 
 I was reading Wikipedia articles about things like the [interplanetary internet][wikipedia-interplanetary],
 [InterPlaNet][wikipedia-ipn] and [delay-tolerant networking][wikipedia-dtn].

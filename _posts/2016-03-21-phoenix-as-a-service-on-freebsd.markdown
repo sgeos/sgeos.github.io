@@ -7,6 +7,7 @@ categories: phoenix elixir erlang freebsd
 ---
 
 <!-- A29 -->
+<script>console.log("A29");</script>
 
 In this post a Phoenix app will be installed as a service on FreeBSD.
 The goals are the same as the [Elixir as a Service on FreeBSD post][elixir-service].

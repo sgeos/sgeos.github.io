@@ -7,6 +7,7 @@ categories: phoenix elixir git
 ---
 
 <!-- A38 -->
+<script>console.log("A38");</script>
 
 **prod.secret.exs** is not added to the git repository by default.
 This is a good thing.

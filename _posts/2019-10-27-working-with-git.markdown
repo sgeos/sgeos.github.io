@@ -8,6 +8,7 @@ categories:
 ---
 
 <!-- A54 -->
+<script>console.log("A54");</script>
 
 This post will explain the basics of working with git and GitHub.
 For more in depth information, read a book on git or work through a proper tutorial.

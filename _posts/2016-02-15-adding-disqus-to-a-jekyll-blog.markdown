@@ -7,6 +7,7 @@ categories: jekyll disqus
 ---
 
 <!-- A15 -->
+<script>console.log("A15");</script>
 
 A [Jekyll][jekyll] blog is not backed by a database.
 Out of the box, there is no way for people to comment on or discuss blog posts.

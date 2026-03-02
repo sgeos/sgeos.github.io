@@ -8,6 +8,7 @@ categories: android freebsd rust
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 This post covers Android SDK and NDK development on FreeBSD using the Linux binary compatibility layer.
 FreeBSD does not have native Android toolchain support,

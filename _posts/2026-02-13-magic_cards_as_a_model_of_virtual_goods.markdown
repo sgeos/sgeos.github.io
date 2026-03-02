@@ -8,6 +8,7 @@ categories: mtg gamedev economics
 ---
 
 <!-- A81 -->
+<script>console.log("A81");</script>
 
 Magic: The Gathering has been called
 "the best game ever created" by players and commentators

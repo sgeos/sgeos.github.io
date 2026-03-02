@@ -8,6 +8,7 @@ categories: github jekyll
 ---
 
 <!-- A39 -->
+<script>console.log("A39");</script>
 
 This post covers adding [MathJax][mathjax] support to a [GitHub Pages][github_pages] [Jekyll blog][jekyll].
 

@@ -8,6 +8,7 @@ categories: phoenix elixir erlang ecto distillery postgresql mysql
 ---
 
 <!-- A45 -->
+<script>console.log("A45");</script>
 
 This post covers storing settings like database configuration in
 environment variables with [distillery][distillery].

@@ -8,6 +8,7 @@ categories: ai humor
 ---
 
 <!-- A85 -->
+<script>console.log("A85");</script>
 
 The popular imagination envisions the AI apocalypse
 as a dramatic affair.

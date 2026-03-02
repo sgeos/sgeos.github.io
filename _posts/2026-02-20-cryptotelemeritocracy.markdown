@@ -8,6 +8,7 @@ categories: management philosophy
 ---
 
 <!-- A89 -->
+<script>console.log("A89");</script>
 
 The
 [previous article on telemeritocracy][related_post_telemeritocracy]

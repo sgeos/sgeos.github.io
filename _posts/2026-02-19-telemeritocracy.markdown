@@ -8,6 +8,7 @@ categories: management philosophy
 ---
 
 <!-- A87 -->
+<script>console.log("A87");</script>
 
 The
 [previous article]({% post_url 2026-02-18-mission_command_management_style %})

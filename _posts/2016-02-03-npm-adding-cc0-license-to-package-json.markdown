@@ -7,6 +7,7 @@ categories: npm
 ---
 
 <!-- A9 -->
+<script>console.log("A9");</script>
 
 When installing dependencies for a new phoenix project, I got the following
 warning.

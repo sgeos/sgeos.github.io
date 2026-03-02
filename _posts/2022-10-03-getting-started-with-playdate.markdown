@@ -8,6 +8,7 @@ categories: gamedev playdate c c++ lua
 ---
 
 <!-- A55 -->
+<script>console.log("A55");</script>
 
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with the Panic Playdate.

@@ -8,6 +8,7 @@ categories: management philosophy
 ---
 
 <!-- A86 -->
+<script>console.log("A86");</script>
 
 Every few years someone sends around
 a management style quiz.

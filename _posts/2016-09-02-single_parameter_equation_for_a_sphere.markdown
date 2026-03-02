@@ -8,6 +8,7 @@ categories: 3d parametric math
 ---
 
 <!-- A41 -->
+<script>console.log("A41");</script>
 
 This post covers some equations I found when playing around with plotting 3D parametric trigonometric functions.
 The goal was to create a sphere with one parameter.

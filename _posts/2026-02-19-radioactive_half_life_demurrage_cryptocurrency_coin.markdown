@@ -8,6 +8,7 @@ categories: crypto economics math
 ---
 
 <!-- A88 -->
+<script>console.log("A88");</script>
 
 Fixed-supply cryptocurrencies face a structural problem.
 As block rewards decline over time,

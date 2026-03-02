@@ -7,6 +7,7 @@ categories: unity monodevelop decompile android apk
 ---
 
 <!-- A31 -->
+<script>console.log("A31");</script>
 
 I am occasionally curious to peek at the source code of a Unity game,
 mainly to see how it is broken into classes.

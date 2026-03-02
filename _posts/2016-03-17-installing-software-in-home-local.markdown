@@ -7,6 +7,7 @@ categories: unix
 ---
 
 <!-- A25 -->
+<script>console.log("A25");</script>
 
 Have you ever found yourself in this position?
 Your sysadmin is awesome.

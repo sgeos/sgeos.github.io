@@ -8,6 +8,7 @@ categories: android testing kotlin rust
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 Android unit testing has evolved substantially since the framework's early years.
 The original `android.test` package and its `ApplicationTestCase` class have been deprecated

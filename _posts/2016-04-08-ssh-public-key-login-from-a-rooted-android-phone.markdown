@@ -7,6 +7,7 @@ categories: ssh android unix
 ---
 
 <!-- A32 -->
+<script>console.log("A32");</script>
 
 I wanted to be able to used my phone to log into my MacBook.
 The catch?  I do not want passwords enabled.

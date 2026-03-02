@@ -7,6 +7,7 @@ categories: freebsd ion dtn
 ---
 
 <!-- A16 -->
+<script>console.log("A16");</script>
 
 This post covers installing ION DTN as a service on FreeBSD.
 The goal is to create an **iondtn** service that can be used like any other service.

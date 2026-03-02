@@ -8,6 +8,7 @@ categories: sh git
 ---
 
 <!-- A51 -->
+<script>console.log("A51");</script>
 
 It can be useful to capture environment variable settings in a file.
 These files generally want to live with the project.

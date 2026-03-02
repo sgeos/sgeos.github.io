@@ -7,6 +7,7 @@ categories: freebsd nc
 ---
 
 <!-- A11 -->
+<script>console.log("A11");</script>
 
 I wrote a single file web server in my last post about [Getting Started With tor Hidden Services on FreeBSD][freebsd-tor].
 I figured it might be useful to have a couple of variations of simple web servers in their own post.

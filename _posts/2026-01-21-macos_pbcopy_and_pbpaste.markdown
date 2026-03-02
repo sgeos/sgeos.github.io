@@ -8,6 +8,7 @@ categories: [macos, terminal, unix]
 ---
 
 <!-- A71 -->
+<script>console.log("A71");</script>
 
 If you spend any amount of time in the macOS Terminal, chances are you have
 copied and pasted text between the command line and graphical apps more times

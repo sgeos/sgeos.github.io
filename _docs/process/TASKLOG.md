@@ -8,26 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A99 per External LLM Feedback (A99-P3)
+**Name**: Revise A99 per External LLM Feedback Round 2 and Add JavaScript Article Numbers (A99-P4)
 **Status**: Complete
 **Started**: 2026-03-02
 
 ## Success Criteria
 
-- [x] A99 revised per external LLM feedback (all 10 consolidated recommendations addressed).
-- [x] A99 dates updated to 2026-03-02 03:08:08 +0000.
+- [x] A99 revised per second round of external LLM feedback (mathematical formalization, scope constraints, operational synthesis).
+- [x] A99 dates updated to 2026-03-02 05:27:37 +0000.
 - [x] A99 related article links correct (A98, A82, A90, A95).
 - [x] A99 NOT published.
 - [x] Release announcement NOT generated.
 - [x] Freeform commentary on A99 in REVERSE_PROMPT.md.
+- [x] JavaScript article number printing added to all articles (110 files).
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A99-P3-T1 | Revise A99 per external LLM feedback | Complete | Explicit assumptions box added. Capability envelope reframe for SMBH sterilization engines. Energy scaling comparison table (Sgr A* vs M31*). Asymmetric singularity ratio subsection. Hyperbolic avoided crossings with steepest possible curve. Council of Giants as early warning array. Void navigation logic with high-resource/high-threat vs low-resource/high-safety contrast. SMBH energy gap and LMC mandatory resource grab. Quiet Andromeda problem. Targeted vs omnidirectional concealment. Waste heat clarification (spectral shift, anisotropic radiation, temporary storage). Dark forest instability formally derived with equation. Exponential is illustrative clause. Logistic and plateau scenarios with carrying capacity asymmetry. Cloaking limit reframe (visibility is a choice). M87 sterilization fluence. Local Sheet coherence. Sedov-Taylor and galaxies-as-atoms labeled as analogies. Ranked strategic priority table (10 targets). Civilizational failure modes section (fragmentation, value drift, self-limitation, collapse, non-expansionist equilibria). Virgo/M87 framing calibrated with conditional language. Epistemic tone standardized throughout. Two prompt references removed. Three new references added (Kerr Black Hole, Competitive Lotka-Volterra, Tainter). Article now 2,809 lines with 96 references (74 Reference, 4 Related Post, 18 Research). |
-| A99-P3-T2 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT with A99 commentary, draft_summary updated. |
+| A99-P4-T1 | Revise A99 per second round of external LLM feedback | Complete | Modeling assumptions expanded with three explicit conditions (expansionist civilization per basin, sustained growth over 2d, comparable engineering efficiency). Three-quantity distinction added (energy envelope, power projection, momentum transfer capability). SMBH capability envelope formalized with equation $S = f \cdot \eta \cdot M_{\text{SMBH}} \cdot c^2$ and defined extraction efficiency $\eta$ and mobilization fraction $f$. Three growth regimes explicitly separated (early exponential, transitional hyperbolic, logistic carrying-capacity plateau) with variable definitions ($r$, $K$, $N(t)$). Instability condition formalized: $R = e^{(r_A - r_B) \cdot 2d}$ with threshold $(r_A - r_B) \cdot 2d \gg 1$ and three stability conditions. Growth-concealment tradeoff boundary cases added (high detection probability, mutual deterrence, non-expansionist equilibria). Thermodynamic geometric cost at CMB temperature ($10^{32}$ m$^2$ radiator area). Sedov-Taylor refined with impulse-vs-sustained-power distinction. Galaxy ionization clarified with binding energy vs practical unbinding, isotropic heating inefficiency, directed momentum transfer requirement. Selection pressure constrained to overlapping expansion domains, finite resources, non-cooperative actors. Inverse-square central forces framing replaces gravity-only framing. Consolidated equation block added (growth law, instability condition, capability scaling). Operational synthesis section added (six strategic objectives, three long-term directives). All asymmetry ratios explicitly conditional. Article now 3,146 lines with 96 references. |
+| A99-P4-T2 | Add JavaScript article number printing to all articles | Complete | 110 files modified (98 in _posts/, 12 in _drafts/). `<script>console.log("Axx");</script>` added below `<!-- Axx -->` comment in each article. Template uses `Axxx` placeholder. |
+| A99-P4-T3 | Update process files and commit | Complete | TASKLOG, REVERSE_PROMPT with A99 commentary, draft_summary updated. |
 
 ## Notes
 
@@ -106,3 +108,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-01 | A99-P2, A100-P1: A99 revised with information warfare section (93 references, 2,185 lines). A100 "Roadmap to a Competitive Type III Civilization" researched and written (54 references, 1,832 lines). Draft summary synced (12 files, 2 RCs, 0 stubs). |
 | 2026-03-01 | A100-P2, A101-P1: A100 revised with A87/A89/A92 governance conclusions and intergalactic transit engineering section (67 references, 2,232 lines). A101 "The Physics of Intergalactic Force Projection" researched and written (40 references, 1,681 lines). Draft summary synced (13 files, 3 RCs, 0 stubs). |
 | 2026-03-02 | A99-P3: A99 revised per external LLM feedback. Assumptions box, capability envelope reframe, energy scaling, asymmetric singularity ratio, dark forest instability derivation, logistic plateau scenarios, civilizational failure modes, ranked strategic priority table, epistemic tone calibrated (96 references, 2,809 lines). Draft summary synced. |
+| 2026-03-02 | A99-P4: A99 revised per second round of external LLM feedback. Mathematical formalization (capability scaling equation, instability condition, three growth regimes). Scope constraints (selection pressure bounded, ionization clarified, Sedov-Taylor refined). Consolidated equation block and operational synthesis section added. JavaScript article number printing added to all 110 articles. (96 references, 3,146 lines). Draft summary synced. |

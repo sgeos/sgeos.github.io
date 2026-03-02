@@ -7,6 +7,7 @@ categories: elixir iex
 ---
 
 <!-- A24 -->
+<script>console.log("A24");</script>
 
 **iex** can be used for interactively experimenting with **elixir**.
 If this experimentation becomes elaborate, it can be useful to store the commands in a file.

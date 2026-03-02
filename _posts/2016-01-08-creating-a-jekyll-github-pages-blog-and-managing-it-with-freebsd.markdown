@@ -7,6 +7,7 @@ categories: jekyll github freebsd
 ---
 
 <!-- A1 -->
+<script>console.log("A1");</script>
 
 I have wanted a low maintenance technical blogging solution for a while.  A Jekyll blog on GitHub Pages meets all of my criteria.  Write posts in markdown, commit and push.  The people at GitHub Pages will almost certainly keep the servers up.
 

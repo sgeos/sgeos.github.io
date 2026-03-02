@@ -8,6 +8,7 @@ categories: [games, strategy, game-theory, war-gaming]
 ---
 
 <!-- A66 -->
+<script>console.log("A66");</script>
 
 ## Lessons from Game Theory and *Magic: The Gathering*
 

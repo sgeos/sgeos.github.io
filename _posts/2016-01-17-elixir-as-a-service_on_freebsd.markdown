@@ -7,6 +7,7 @@ categories: elixir erlang
 ---
 
 <!-- A6 -->
+<script>console.log("A6");</script>
 
 Ease of deployment is one of the things I seriously consider when evaluating technology solutions.
 In this post, a modified version of the Elixir [getting started echo server][elixir-gen-tcp] will be installed as a

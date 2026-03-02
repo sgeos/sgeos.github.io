@@ -7,6 +7,7 @@ categories: freebsd ion dtn
 ---
 
 <!-- A14 -->
+<script>console.log("A14");</script>
 
 This post is a follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started].
 The follow up to this post is [Serving a Web Page with ION-DTN bpsendfile and bprecvfile](https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html).

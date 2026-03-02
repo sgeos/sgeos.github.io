@@ -7,6 +7,7 @@ categories: phoenix elixir postgresql freebsd
 ---
 
 <!-- A28 -->
+<script>console.log("A28");</script>
 
 This post covers installing Phoenix, Elixir and PostgreSQL on a clean installation of FreeBSD.
 The post assumes FreeBSD is installed and you have created an unprivileged user.

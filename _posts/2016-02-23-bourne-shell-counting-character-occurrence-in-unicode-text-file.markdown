@@ -7,6 +7,7 @@ categories: sh
 ---
 
 <!-- A22 -->
+<script>console.log("A22");</script>
 
 Sometimes it can be useful to get the character occurrence count of a text file.
 This post covers a unicode safe Bourne shell solution.
