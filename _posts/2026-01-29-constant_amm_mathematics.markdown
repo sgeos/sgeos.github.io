@@ -8,6 +8,7 @@ categories: [crypto, defi, rust]
 ---
 
 <!-- A73 -->
+<script>console.log("A73");</script>
 
 Automated Market Makers (AMMs) revolutionized on-chain liquidity
 by replacing central limit order books with deterministic mathematical curves.

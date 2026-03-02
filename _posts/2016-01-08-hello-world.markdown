@@ -7,6 +7,7 @@ categories: test
 ---
 
 <!-- A2 -->
+<script>console.log("A2");</script>
 
 Hello, World!
 {% highlight c linenos %}

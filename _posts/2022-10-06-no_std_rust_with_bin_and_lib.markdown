@@ -8,6 +8,7 @@ categories: rust no_std
 ---
 
 <!-- A58 -->
+<script>console.log("A58");</script>
 
 Splitting [Rust][rust] programs into a binary and a library is a common pattern.
 The binary has a **main()** entry point, and the library typically has a

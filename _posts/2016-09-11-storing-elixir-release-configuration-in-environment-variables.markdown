@@ -8,6 +8,7 @@ categories: phoenix elixir erlang ecto exrm postgresql mysql
 ---
 
 <!-- A43 -->
+<script>console.log("A43");</script>
 
 This post covers storing settings like database configuration in environment variables.
 

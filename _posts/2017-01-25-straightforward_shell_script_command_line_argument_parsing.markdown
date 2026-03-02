@@ -8,6 +8,7 @@ categories: sh freebsd
 ---
 
 <!-- A50 -->
+<script>console.log("A50");</script>
 
 This post covers a relatively straightforward method of parsing commandline arguments.
 All commandline arguments take the form of **-p=value** or **--parameter=value**.

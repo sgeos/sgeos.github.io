@@ -8,6 +8,7 @@ categories: space math
 ---
 
 <!-- A90 -->
+<script>console.log("A90");</script>
 
 Space studies is an integrative academic discipline
 that draws on physics, engineering, history, and policy

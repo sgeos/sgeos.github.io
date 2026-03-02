@@ -8,6 +8,7 @@ categories: elixir erlang observer
 ---
 
 <!-- A44 -->
+<script>console.log("A44");</script>
 
 This post covers running the OTP's observer on a node running on a remote machine.
 It is a step-by-step of [this gist][observer-remote].

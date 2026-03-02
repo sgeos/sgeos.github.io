@@ -8,6 +8,7 @@ categories: science philosophy
 ---
 
 <!-- A100 -->
+<script>console.log("A100");</script>
 
 The companion articles
 [Causality and First-Mover Advantage

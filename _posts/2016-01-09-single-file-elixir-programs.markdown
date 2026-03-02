@@ -7,6 +7,7 @@ categories: elixir erlang
 ---
 
 <!-- A4 -->
+<script>console.log("A4");</script>
 
 I was reading the [learn you some Erlang for great good][erlang-book] book and realized that [escript][erlang-escript] functionality is easier to use in erlang than elixir.  This post covers single file elixir programs.  Single file programs are useful for problems that are a little too complicated for iex, but not complicated enough for a full blown mix project.
 

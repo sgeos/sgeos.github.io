@@ -7,6 +7,7 @@ categories: android selinux
 ---
 
 <!-- A35 -->
+<script>console.log("A35");</script>
 
 I recently ran into a case where I needed to change the SE Linux mode on
 a rooted Android device.

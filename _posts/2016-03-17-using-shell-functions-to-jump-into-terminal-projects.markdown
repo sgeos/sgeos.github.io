@@ -7,6 +7,7 @@ categories: unix sh
 ---
 
 <!-- A26 -->
+<script>console.log("A26");</script>
 
 If you are like me, you often have number of terminal windows
 open and logged into another machine.

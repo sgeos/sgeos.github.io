@@ -8,6 +8,7 @@ categories: phoenix elixir
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 Phoenix JSON API authentication has evolved significantly since the framework's early releases.
 Modern Phoenix applications use context modules to separate business logic from HTTP concerns,

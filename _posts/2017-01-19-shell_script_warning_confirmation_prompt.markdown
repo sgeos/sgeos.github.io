@@ -8,6 +8,7 @@ categories: sh freebsd
 ---
 
 <!-- A48 -->
+<script>console.log("A48");</script>
 
 Sometimes scripts need to do something really destructive.
 It is generally a good idea to display a warning prompt and provide a way to back out before performing these destructive actions.

@@ -8,6 +8,7 @@ categories: solana assembly
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 Solana programs execute inside a virtual machine that implements the Solana Berkeley Packet Filter
 instruction set, commonly abbreviated sBPF.

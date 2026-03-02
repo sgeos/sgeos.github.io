@@ -8,6 +8,7 @@ categories: management philosophy
 ---
 
 <!-- A93 -->
+<script>console.log("A93");</script>
 
 In the author's experience,
 there are two kinds of engineering.

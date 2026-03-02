@@ -7,6 +7,7 @@ categories: tor freebsd nc curl
 ---
 
 <!-- A10 -->
+<script>console.log("A10");</script>
 
 At times I have wanted to demo the development version of a server that is
 running on my FreeBSD virtual machine.

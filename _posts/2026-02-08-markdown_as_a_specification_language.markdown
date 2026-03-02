@@ -8,6 +8,7 @@ categories: ai ai-tools development developer-productivity
 ---
 
 <!-- A76 -->
+<script>console.log("A76");</script>
 
 "The hottest new programming language is English."
 This claim, popularized by Andrej Karpathy in January 2023

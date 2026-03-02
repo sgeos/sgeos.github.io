@@ -8,6 +8,7 @@ categories: gamedev playdate asm arm x86
 ---
 
 <!-- A57 -->
+<script>console.log("A57");</script>
 
 The [Panic Playdate][playdate] is a tiny, just-for-fun indie game console.
 This post will discuss getting started with ASM on the Panic Playdate.

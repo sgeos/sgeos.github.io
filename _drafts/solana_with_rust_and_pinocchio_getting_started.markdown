@@ -8,6 +8,7 @@ categories: solana rust
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 Pinocchio is a zero-dependency Rust library for writing Solana programs
 maintained by Anza, the team behind the Agave validator client.

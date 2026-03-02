@@ -8,6 +8,7 @@ categories: dsl embedded development safety
 ---
 
 <!-- A83 -->
+<script>console.log("A83");</script>
 <!-- Keleos -->
 
 Embeddable scripting languages allow applications

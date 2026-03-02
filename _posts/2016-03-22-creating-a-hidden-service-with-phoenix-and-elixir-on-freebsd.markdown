@@ -7,6 +7,7 @@ categories: tor freebsd nc curl
 ---
 
 <!-- A30 -->
+<script>console.log("A30");</script>
 
 This post is a synthesis of a couple of prior posts.
 

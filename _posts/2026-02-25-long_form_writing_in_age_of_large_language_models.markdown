@@ -8,6 +8,7 @@ categories: ai philosophy
 ---
 
 <!-- A94 -->
+<script>console.log("A94");</script>
 
 Large Language Models can generate text at a pace
 and volume that no individual human writer can match.

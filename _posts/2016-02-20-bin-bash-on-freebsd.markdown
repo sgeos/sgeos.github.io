@@ -7,6 +7,7 @@ categories: freebsd bash
 ---
 
 <!-- A20 -->
+<script>console.log("A20");</script>
 
 A great number of people write **bash** scripts for Linux.
 Most of these scripts start with `#!/bin/bash`.

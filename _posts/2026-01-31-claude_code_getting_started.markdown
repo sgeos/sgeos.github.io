@@ -8,6 +8,7 @@ categories: [ai, ai-tools, development, developer-productivity, tutorial]
 ---
 
 <!-- A74 -->
+<script>console.log("A74");</script>
 
 The landscape of software development is shifting rapidly
 with the emergence of agentic AI systems.

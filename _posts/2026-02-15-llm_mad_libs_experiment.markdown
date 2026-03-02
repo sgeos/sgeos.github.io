@@ -8,6 +8,7 @@ categories: ai ai-tools
 ---
 
 <!-- A84 -->
+<script>console.log("A84");</script>
 
 Large Language Models (LLMs) are fundamentally good at filling in the blanks.
 Given a template with missing words,

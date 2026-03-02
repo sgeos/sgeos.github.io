@@ -7,6 +7,7 @@ categories: jekyll github freebsd
 ---
 
 <!-- A3 -->
+<script>console.log("A3");</script>
 
 Months ago, someone on the FreeBSD forums [wanted help][original-post] getting an assebly language program running on a 64 bit intel machine.  I read through the [FreeBSD Developers' Handbook x86 Assembly Language Programming section][freebsd-handbook-asm], and sure enough the 32 bit examples did not work.  x86 and x86-64 assembler are just plain different.  Also, the [ABI][wikipedia-abi] is completely different.
 

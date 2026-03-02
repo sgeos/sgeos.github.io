@@ -7,6 +7,7 @@ categories: freebsd ion dtn
 ---
 
 <!-- A18 -->
+<script>console.log("A18");</script>
 
 This post is a follow up to [Almost Serving a Web Page with ION-DTN bpchat][ion-almost].
 The **bpchat** proxies were rewritten with **bpsendfile** and **bprecvfile**.

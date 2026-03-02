@@ -8,6 +8,7 @@ categories: youtube javascript bookmarklet
 ---
 
 <!-- A53 -->
+<script>console.log("A53");</script>
 
 Using the provided controls, YouTube video speeds can only be
 adjusted from 0.25x to 2.00x.  A speed outside of that range

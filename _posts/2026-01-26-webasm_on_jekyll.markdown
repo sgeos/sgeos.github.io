@@ -8,6 +8,7 @@ categories: [rust, wasm, jekyll]
 ---
 
 <!-- A72 -->
+<script>console.log("A72");</script>
 
 Jekyll generates static pages from templates.
 It is often used for blogs, like this one.

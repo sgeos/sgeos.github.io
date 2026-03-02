@@ -7,6 +7,7 @@ categories: elixir erlang
 ---
 
 <!-- A5 -->
+<script>console.log("A5");</script>
 
 I wanted to write a multinode elixir example for multiple people on the same network.  A toy direct messaging app that can be run from iex is created in this post.  Any number of people can participate, but this post is largely written as if there are only two participants.
 

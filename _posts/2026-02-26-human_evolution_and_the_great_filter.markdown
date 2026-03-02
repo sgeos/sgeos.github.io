@@ -8,6 +8,7 @@ categories: science philosophy
 ---
 
 <!-- A95 -->
+<script>console.log("A95");</script>
 
 The observable universe is 13.8 billion years old
 and contains an estimated two trillion galaxies,

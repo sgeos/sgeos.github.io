@@ -31,7 +31,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 New article continuing A98 "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization."
 Applies the theoretical framework from A98
 to the specific galaxies and galaxy groups in our neighborhood.
-Explicit modeling assumptions box near the beginning.
+Explicit modeling assumptions box near the beginning
+with six declared constraints,
+three-quantity distinction (energy envelope, power projection, momentum transfer capability),
+and explicit conditions (expansionist civilization per basin,
+sustained growth over $2d$, comparable engineering efficiency $\eta$ and $f$).
 Catalogs the Local Group with subgroup structure
 (Milky Way subgroup, Andromeda subgroup, NGC 3109 association, isolated members).
 Three Local Group galaxy tables:
@@ -39,7 +43,10 @@ Milky Way and major satellites (12 galaxies),
 Andromeda subgroup (8 galaxies),
 and isolated/peripheral members (14 galaxies).
 Dedicated SMBH summary table (5 entries with confidence levels).
-SMBH capability envelope reframe with energy scaling comparison table (Sgr A* vs M31*).
+SMBH capability envelope formalized with equation $S = f \cdot \eta \cdot M_{\text{SMBH}} \cdot c^2$,
+extraction efficiency $\eta$ (bounded by 0.29 Kerr),
+mobilization fraction $f$,
+and energy scaling comparison table (Sgr A* vs M31*).
 Milky Way-Andromeda collision section incorporating the 2025 Nature Astronomy revision.
 Council of Giants table (14 galaxies at ~12 Mly), framed as early warning array.
 Nearby galaxy groups table (12 groups within 100 Mly).
@@ -57,30 +64,46 @@ visibility as a choice, dark forest hypothesis,
 deceptive signaling (false emissions, positional misdirection, capability masking),
 military deception doctrine parallels (maskirovka),
 thermodynamic constraints on concealment with waste heat clarification
-(spectral shifting, anisotropic radiation, temporary storage, heat sinks vs Dyson sphere beacons),
+(spectral shifting, anisotropic radiation, temporary storage, heat sinks vs Dyson sphere beacons,
+CMB-temperature radiator geometric cost at $10^{32}$ m$^2$),
 dark forest instability formally derived with growth rate differential equation,
+boundary cases (high detection probability, mutual deterrence, non-expansionist equilibria),
 game-theoretic landscape (dark forest, fog of war, and growth-dominance equilibria),
 Schelling focal points, METI debate, concealment-growth tradeoff.
-Growth curve dynamics: exponential (with illustrative caveat), logistic, and hyperbolic models.
+Growth curve dynamics: three explicitly separated regimes
+(Regime 1: early exponential, Regime 2: transitional hyperbolic feedback,
+Regime 3: logistic carrying-capacity plateau) with variable definitions ($r$, $K$, $N(t)$, $t_d$).
 Hyperbolic avoided crossings and steepest possible curve.
 Asymmetric singularity ratio subsection ($t_d / d$).
 Exceptional growth and $2d$ barrier analysis.
 Logistic plateau and carrying capacity asymmetry comparison
 (50-year vs 200-year doubling, Milky Way vs Andromeda $K$).
-Non-peer conflict and growth asymmetry mathematics.
+Non-peer conflict with formalized instability condition
+$R = e^{(r_A - r_B) \cdot 2d}$,
+threshold $(r_A - r_B) \cdot 2d \gg 1$,
+and three stability conditions.
+Selection pressure constrained to overlapping expansion domains,
+finite resources, non-cooperative actors.
 Civilizational failure modes (fragmentation, value drift, self-limitation, collapse, non-expansionist equilibria).
 Fractal cosmology: galaxy two-point correlation function, cosmic web multifractal geometry.
-Sedov-Taylor blast wave self-similar expansion analogy (explicitly labeled as analogy).
-Galaxies-as-atoms structural analogy (explicitly labeled) with gravitational binding energy estimate.
+Sedov-Taylor blast wave analogy refined with impulse-vs-sustained-power distinction.
+Galaxies-as-atoms structural analogy with inverse-square central forces framing,
+binding energy vs practical unbinding distinction,
+isotropic heating inefficiency noted,
+and gravitational binding energy estimate.
 Colonization prioritization table (9 priority targets from Sagittarius Dwarf to Triangulum).
 LMC framed as mandatory resource grab to narrow Andromeda energy disparity.
 Ranked strategic priority table (10 targets with SMBH ratios, threat levels, strategic values).
 Beyond-Local-Group expansion corridor analysis.
 Virgo strategic question with conditional framing.
+Consolidated equation block (growth law, instability condition, capability scaling).
+Operational synthesis section (six strategic objectives, three long-term competitive directives).
 Standardized epistemic tone throughout with conditional modeling language.
+All asymmetry ratios explicitly conditional on comparable $\eta$ and $f$.
 References A98, A82, A90, A95 via post_url.
 MathJax enabled for growth equations, correlation function, Sedov-Taylor, binding energy,
-energy scaling, asymmetric singularity ratio, dark forest instability,
+energy scaling, capability scaling, instability condition,
+asymmetric singularity ratio, dark forest instability,
 and thermodynamic constraints.
 Ninety-six references across three categories (74 Reference, 4 Related Post, 18 Research).
 

@@ -8,6 +8,7 @@ categories: crypto defi rust
 ---
 
 <!-- A91 -->
+<script>console.log("A91");</script>
 
 Concentrated Liquidity Market Makers (CLMMs) extend the Constant Product model
 by allowing liquidity providers to allocate capital within a chosen price range

@@ -7,6 +7,7 @@ categories: freebsd nc
 ---
 
 <!-- A17 -->
+<script>console.log("A17");</script>
 
 The last scripted netcat server I [wrote about][blog-nc] was based on a one line webserver.
 It was a hack that kind of worked in a pinch, but the blind loop made it a bad server.

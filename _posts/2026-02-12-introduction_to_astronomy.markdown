@@ -8,6 +8,7 @@ categories: space astronomy science
 ---
 
 <!-- A82 -->
+<script>console.log("A82");</script>
 
 Astronomy is the study of everything beyond the Earth's atmosphere.
 It is one of the oldest natural sciences,

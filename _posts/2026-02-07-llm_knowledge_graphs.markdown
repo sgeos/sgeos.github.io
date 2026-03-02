@@ -8,6 +8,7 @@ categories: ai ai-tools development developer-productivity
 ---
 
 <!-- A77 -->
+<script>console.log("A77");</script>
 
 AI coding agents are only as effective as the context they receive.
 A model with no knowledge of a project's architecture, conventions, or tooling

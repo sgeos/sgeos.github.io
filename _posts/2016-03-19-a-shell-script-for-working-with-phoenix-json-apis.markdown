@@ -7,6 +7,7 @@ categories: phoenix elixir sh
 ---
 
 <!-- A27 -->
+<script>console.log("A27");</script>
 
 I started writing another post, but wound up writing a non-trivial script for
 working with Phoenix JSON APIs.

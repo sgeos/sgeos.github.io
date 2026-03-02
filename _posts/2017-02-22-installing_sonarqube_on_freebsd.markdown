@@ -8,6 +8,7 @@ categories: freebsd sonarqube
 ---
 
 <!-- A52 -->
+<script>console.log("A52");</script>
 
 SonarQube is a static analysis tool that supports many popular languages.
 It can be integrated with tools like Jenkins and JIRA.

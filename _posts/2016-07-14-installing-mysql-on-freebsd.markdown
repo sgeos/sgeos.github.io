@@ -7,6 +7,7 @@ categories: mysql freebsd
 ---
 
 <!-- A37 -->
+<script>console.log("A37");</script>
 
 Sometimes it can not be avoided.
 MySQL needs to be installed for one reason or another.

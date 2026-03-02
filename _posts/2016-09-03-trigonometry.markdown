@@ -8,6 +8,7 @@ categories: math trigonometry
 ---
 
 <!-- A42 -->
+<script>console.log("A42");</script>
 
 A list of trigonometric formulae and tables.
 

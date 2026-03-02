@@ -8,6 +8,7 @@ categories: gamedev playdate fortran
 ---
 
 <!-- A60 -->
+<script>console.log("A60");</script>
 
 [Fortran][fortran] is used for heavy number crunching in mathematical and
 scientific computing.

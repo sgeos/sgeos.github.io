@@ -9,75 +9,48 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-03-02
-**Task**: A99-P3 Revise A99 per External LLM Feedback
+**Task**: A99-P4 Revise A99 per External LLM Feedback Round 2 and Add JavaScript Article Numbers
 
 ---
 
 ## Verification
 
-### A99 Revised
+### A99 Revised (Second Round)
 
-A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" revised per external LLM feedback (2,809 lines, 96 references).
+A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" revised per second round of external LLM feedback (3,146 lines, 96 references).
 
-**Structural Changes:**
-- Explicit modeling assumptions box added after introduction (6 declared constraints, departure-noting protocol).
-- "Related Articles" subheading added to separate assumptions from context references.
-- Ranked strategic priority table added (10 targets with empirical measurements and modeled assessments).
-- Civilizational failure modes section added before conclusion (fragmentation, value drift, self-limitation, collapse, non-expansionist equilibria).
-- Asymmetric singularity ratio subsection added to growth curve dynamics ($t_d / d$ ratio analysis).
-- Logistic plateaus and carrying capacity asymmetry subsection added (50-year vs 200-year doubling comparison, Milky Way vs Andromeda $K$).
-- Quiet Andromeda problem subsection added (first-mover vs cold-state interpretations, G-HAT detection threshold).
-- Two "prompt for this article" references removed (lines 1462 and 1633 in original).
+**Mathematical Formalization:**
+- SMBH capability envelope formalized with equation $S = f \cdot \eta \cdot M_{\text{SMBH}} \cdot c^2$, extraction efficiency $\eta$ (bounded by 0.29 for extreme Kerr), and mobilization fraction $f$ defined.
+- Modeling assumptions expanded with three explicit conditions: at least one expansionist civilization per competitive basin, sustained growth over $2d$ intervals, comparable engineering efficiency across civilizations.
+- Three-quantity distinction added: energy envelope (total extractable energy in joules), power projection (sustainable output power in watts), momentum transfer capability (actual destructive capacity at target).
+- Instability condition formalized: $R = e^{(r_A - r_B) \cdot 2d}$ with threshold $(r_A - r_B) \cdot 2d \gg 1$ and three stability conditions (equal rates, early detection with retaliation, growth plateau before overlap).
+- Three growth regimes explicitly separated: Regime 1 (early exponential), Regime 2 (transitional hyperbolic feedback), Regime 3 (logistic carrying-capacity plateau). Variable definitions ($r$, $K$, $N(t)$, $t_d$) standardized.
+- Consolidated equation block added before conclusion summarizing growth law, instability condition, and capability scaling in one reference section.
 
-**Reframing Changes:**
-- SMBH sterilization engine reframed throughout as "capability envelope" with mass, spin, and magnetic flux constraints.
-- Energy scaling comparison table added (Sgr A* vs M31* maximum extractable energy at 29% Mc^2 Kerr bound).
-- Centaurus A "loaded weapon" language replaced with capability envelope framing and 13:1 ratio.
-- M87 "arsenal" language replaced with capability envelope framing, maximum extractable energy ($3.4 \times 10^{56}$ J), and jet divergence footprint analysis.
-- M87 sterilization fluence paragraph added with detection-as-warning principle.
-- Virgo Question section: deterministic sterilization sweep language replaced with conditional framing ("if directed SMBH-based force projection is achievable").
-- Conclusion: "small weapon in a large neighborhood" replaced with "modest position in the local hierarchy."
+**Scope Constraints:**
+- Selection pressure "eliminates slow growers" constrained to three conditions: overlapping expansion domains within shared light cones, finite reachable resources, and non-cooperative actors.
+- Sedov-Taylor analogy refined with explicit distinction between impulse energy (blast wave with fixed $E$) and sustained power (civilization that adds energy continuously).
+- Galaxy ionization clarified: binding energy distinguished from practical unbinding, isotropic heating noted as inefficient for gravitational unbinding, directed momentum transfer identified as the required mechanism, momentum transfer efficiency caveat added to binding energy timescale estimate.
+- Inverse-square central forces framing replaces gravity-only framing in the structural analogy section.
+- Dark forest instability boundary cases added: high detection probability with swift retaliation, universal mutual deterrence, non-expansionist equilibria.
+- Thermodynamic geometric cost at CMB temperature: Stefan-Boltzmann calculation shows $10^{32}$ m$^2$ radiator area needed to reject stellar luminosity at 2.7 K.
 
-**Information Warfare Refinements:**
-- Transit cloaking section: "technologically trivial" replaced with "visibility is a choice" framing, targeted vs omnidirectional concealment regimes distinguished.
-- Waste heat constraints clarified: spectral shifting, anisotropic radiation, temporary storage, heat sinks vs Dyson sphere thermal beacons.
-- Dark forest instability formally derived with growth rate differential equation $R = e^{(r_u - r_c) \cdot 2d}$ and opportunity cost argument.
-- Growth-dominance equilibrium reframed as "transitional strategy rather than stable endpoint."
-
-**Growth Modeling Refinements:**
-- "Exponential is illustrative" caveat added after exponential growth model definition.
-- Hyperbolic avoided crossings expanded: physical laws force steepest possible curve, defining the winning expansionist actor.
-- Doubling time $t_d$ introduced as formal parameter in exponential growth section.
-- "Exception that Overrides" rewritten without prompt reference; competitive selection generalized to include carrying capacity.
-
-**Large-Scale Structure Refinements:**
-- Council of Giants framed as marcher lords and early warning array for Virgo-originating sweeps.
-- Local Sheet coherence paragraph added (shared peculiar velocity, common reference frame, strategic coherence unit).
-- Local Void section: "nothing in it worth taking" softened to "dramatically reduced density of potential staging points" and "low-probability theater."
-- Void navigation logic added: Virgo filament as high-resource/high-threat corridor, Local Void as low-resource/high-safety corridor for cold infrastructure.
-- Sedov-Taylor blast wave explicitly labeled as conceptual scaling analogy, not literal hydrodynamic model.
-- Galaxies-as-atoms section retitled "Galaxies as Atoms: A Structural Analogy" and explicitly labeled as structural analogy.
-- Ionization analogy reworded with "extending the analogy" and "analogous" qualifiers.
-
-**LMC and Colonization Changes:**
-- LMC colonization reframed as mandatory resource acquisition driven by 25:1 SMBH mass ratio with Andromeda.
-- Colonization dimensions updated: "sterilization potential" replaced with "capability envelope."
-
-**Epistemic Tone:**
-- Conditional modeling language added throughout: "under these assumptions," "in this capability regime," "at order-of-magnitude scale."
-- Conclusion revised with explicit references to modeling assumptions, civilizational failure modes, and conditional framing.
-
-**New References (3):**
-- Reference, Competitive Lotka-Volterra Equations (Wikipedia).
-- Reference, Kerr Black Hole (Wikipedia, Kerr metric).
-- Research, Tainter, The Collapse of Complex Societies (Cambridge University Press).
+**New Sections:**
+- Operational Synthesis section with six strategic objectives (consolidate Milky Way, secure LMC, expand through Andromeda corridor, advance along Virgo filament, establish Local Void defensive depth, reach Virgo before Virgo-scale expansion wave).
+- Three long-term competitive directives (maximize $r_{\max}$, avoid concealment regimes below competitor $r$, transition to plateau without ceding asymmetry).
 
 **Dates updated:**
-- Front matter date updated to `2026-03-02 03:08:08 +0000`.
+- Front matter date updated to `2026-03-02 05:27:37 +0000`.
 - Software versions date updated to match.
 
 **Links verified:**
 - Four post_url references confirmed: A98 (in _posts/), A82 (in _posts/), A90 (in _posts/), A95 (in _posts/).
+
+### JavaScript Article Number Printing
+
+Added `<script>console.log("Axx");</script>` below the `<!-- Axx -->` comment in 110 files:
+- 98 files in `_posts/` (A1 through A98).
+- 12 files in `_drafts/` (A99, A100, A101, template, and 8 pre-release candidates using `Axxx` placeholder).
 
 ### NOT Done Per Prompt Instructions
 
@@ -86,38 +59,41 @@ A99 "Tactical and Strategic Assessment of the Local Galactic Neighborhood" revis
 
 ### Process Files Updated
 
-- TASKLOG.md: current task updated to A99-P3, history entry added.
-- draft_summary.md: A99 entry updated with all new content, reference count updated to 96.
-- REVERSE_PROMPT.md: overwritten with A99 commentary.
+- TASKLOG.md: current task updated to A99-P4, history entry added.
+- draft_summary.md: A99 entry updated with all P4 content.
+- REVERSE_PROMPT.md: overwritten with A99-P4 commentary.
 
 ---
 
-## Freeform Commentary on A99 Revision
+## Freeform Commentary on A99 Revision (Round 2)
 
-**The assumptions box.** The most structurally important addition is the explicit modeling assumptions section near the beginning. The original article implicitly operated under six constraints that are now declared. This converts the article from an argument that could be attacked on unstated premises into a conditional analysis. The framing "results derived under these assumptions should be read as conditional on the assumptions holding" is the single sentence most likely to preempt unproductive criticism. Every subsequent claim in the article is now interpretable as "given these six constraints, this follows."
+**The capability scaling equation.** The single most important addition in this round is the formal equation $S = f \cdot \eta \cdot M_{\text{SMBH}} \cdot c^2$. The P3 revision introduced the capability envelope concept but left it as a qualitative reframe. This round makes it quantitative. The equation forces the reader to confront two parameters that the qualitative framing left implicit. The extraction efficiency $\eta$ is bounded above by the Kerr limit at 0.29 but is unconstrained below. The mobilization fraction $f$ represents the proportion of extracted energy that can actually be directed strategically. Neither parameter is well-constrained empirically, which is the point. The 25:1 ratio between Andromeda and the Milky Way is a ratio of energy envelopes under the assumption that $\eta$ and $f$ are comparable across civilizations. If those parameters differ substantially, the strategic hierarchy could be very different. Making this explicit is more defensible than leaving the reader to assume the ratio is an established physical fact.
 
-**The capability envelope reframe.** The original article's language around SMBH sterilization engines was its most vulnerable surface. Phrases like "loaded weapon" and "arsenal" implied turnkey weaponization of astrophysical processes, which is an overclaim relative to what is physically established. The capability envelope reframe preserves the strategic hierarchy, as larger SMBHs still define larger envelopes, while explicitly noting that actual usable directed output is a fraction of the theoretical maximum, constrained by mass, spin, and magnetic flux. The energy scaling comparison table with specific joule values makes the hierarchy quantitative rather than metaphorical. The 25:1 ratio between Andromeda and the Milky Way remains striking whether framed as "weapons" or "capability envelopes," but the latter framing is harder to dismiss on physical grounds.
+**The three-quantity distinction.** The P3 revision used "capability envelope" as a catch-all term for SMBH-based strategic potential. This round decomposes it into three distinct quantities: energy envelope, power projection, and momentum transfer capability. This decomposition matters because each quantity answers a different strategic question. The energy envelope answers "how much total work can you do." Power projection answers "how much instantaneous force can you bring to bear at a distance." Momentum transfer capability answers "can you actually destroy the target." A civilization with a massive energy envelope but poor beam collimation has strategic potential but limited destructive capability at intergalactic distances. The decomposition prevents the reader from conflating total energy with strategic dominance, which was the most common misreading risk in the P3 version.
 
-**The dark forest instability derivation.** The original article asserted that concealment equilibrium is unstable without showing why. The formal derivation using $R = e^{(r_u - r_c) \cdot 2d}$ makes the instability logically necessary given the modeling assumptions. The key insight is that concealment imposes an opportunity cost, namely a growth rate penalty, and that this cost compounds exponentially over the $2d$ delay. The derivation also clarifies that the instability requires only a single defector. A universe of $n$ concealed civilizations is stable only if none of them defects. One defector at any time and any location is sufficient to eventually dominate, because the growth advantage compounds without bound. This is a stronger claim than the original article's assertion and it follows from the mathematics rather than from intuition.
+**The instability threshold formalization.** The P3 revision derived $R = e^{(r_u - r_c) \cdot 2d}$ for the dark forest instability but did not apply the same formalization to the growth asymmetry analysis. This round adds the parallel formalization: $R = e^{(r_A - r_B) \cdot 2d}$ for the general case of competing civilizations with different growth rates. The threshold $(r_A - r_B) \cdot 2d \gg 1$ is the condition under which the asymmetry dominates. The three stability conditions (equal growth rates, early detection with retaliation, growth plateau before overlap) are the only escape hatches. This is a cleaner presentation than the P3 version, which described these ideas narratively but did not consolidate them into a formal condition with explicit escape hatches.
 
-**The logistic plateau comparison.** The exponential growth analysis was the original article's second most vulnerable surface after the sterilization engine framing. Critics could dismiss the $e^{2rd}$ calculation as physically meaningless, which it literally is for large $r$ and $d$. The "exponential is illustrative" caveat acknowledges this directly. The logistic plateau comparison with specific carrying capacities for the Milky Way and Andromeda demonstrates that even under realistic growth constraints, the carrying capacity asymmetry still produces non-peer outcomes. The faster-growing civilization reaches its plateau earlier but at a lower level. The slower-growing civilization with a larger resource base reaches its plateau later but higher. The conflict at maturity is between a stalled civilization and a still-growing one. This is a more defensible version of the same conclusion.
+**The Sedov-Taylor impulse versus sustained power distinction.** The P3 revision labeled the Sedov-Taylor analogy as an analogy. This round goes further by identifying the specific way the analogy breaks down: a blast wave is an impulse (fixed $E$, deposited instantaneously, then decelerating), while a civilization is a sustained power source (continuously generating energy, not necessarily decelerating). The sustained-power case is strictly more favorable than the impulse case. This distinction matters because critics of the Sedov-Taylor analogy tend to attack it on the grounds that civilizations are not explosions. The response is now built into the text: correct, civilizations are better than explosions, because they do not stop adding energy.
 
-**The civilizational failure modes.** The original article assumed without acknowledgment that civilizations can sustain coordinated expansion over millions of years. The failure modes section does not model these scenarios in depth, but acknowledging them explicitly, fragmentation, value drift, self-limitation, collapse, and non-expansionist equilibria, preempts the most common class of objections. The concluding paragraph, that these failure modes constrain probability but do not invalidate the framework if even one civilization avoids them, is the correct response. The competitive dynamics operate on the civilizations that survive, not on the average civilization.
+**The galaxy ionization binding energy clarification.** The P3 version noted binding energy and estimated timescale but did not address the mechanism problem. This round adds the critical point that isotropic heating is an inefficient unbinding mechanism for gravitationally bound systems. Most radiative energy is re-emitted rather than converted to outward stellar kinetic energy. Practical galaxy disruption requires directed momentum transfer. This is a significant caveat because it means the binding energy timescale estimate (300 million years at galactic luminosity) is a lower bound under the assumption of perfect coupling, which is physically unrealistic. The actual timescale would be substantially longer, or the mechanism would need to be qualitatively different from energy deposition.
 
-**The Quiet Andromeda Problem.** This addition connects the observational silence from Andromeda to the information delay framework. The two interpretations, first-mover and cold-state, carry opposite strategic implications, which is itself the point. The article cannot resolve which interpretation is correct from observational data. It can only note that the cold-state interpretation implies that the G-HAT survey's detection threshold is the relevant parameter. A civilization at 2.7 K is invisible to mid-infrared surveys. This connects to the waste heat clarification, which notes that waste heat can be spectrally shifted and anisotropically radiated. The Quiet Andromeda Problem is the specific instance of the general concealment analysis.
+**The selection pressure scope constraint.** The P3 version asserted that "selection eliminates slow growers" without qualifying the domain of applicability. This round constrains the claim to three necessary conditions: overlapping expansion domains, finite resources, and non-cooperative actors. This is not a weakening of the claim. It is a strengthening, because the constrained version is harder to attack. A critic who objects "but what if civilizations cooperate" is now answered by the text: the competitive framework explicitly assumes non-cooperation, and the competitive dynamics apply only where that assumption holds. The constraint also clarifies that civilizations expanding in non-overlapping directions face no selection pressure from each other, which is physically obvious but was not stated.
 
-**The ranked strategic priority table.** This table is the article's most immediately useful contribution as a reference tool. It consolidates the empirical data, distances, SMBH masses, and stellar populations, with the modeled assessments, strategic value and threat level, in a single readable format. The explicit labeling of the strategic value and threat level columns as "derived under the modeling assumptions" separates empirical map from speculative inference without requiring the article to be restructured into two layers. The table effectively implements the two-layer structure requested in the prompt within a single artifact.
+**The operational synthesis.** This section translates the analytical framework into a numbered list of strategic objectives. It is deliberately conditional ("implied by this framework, conditional on the modeling assumptions"). The six objectives follow logically from the preceding analysis and are ordered by proximity and urgency. The three long-term directives (maximize $r_{\max}$, avoid concealment penalties, manage the exponential-to-plateau transition) are the operational consequences of the growth curve analysis. This section exists because the P3 version presented the analysis but did not explicitly state its operational implications, leaving the reader to derive them. The consolidated equation block serves a similar function, gathering the three core equations into one reference section.
 
-**What the article still lacks.** The article does not incorporate the findings from A101 regarding force projection physics. The capability envelope framework in A99 treats SMBH mass as a proxy for destructive capability, while A101 demonstrates that directed energy fails at intergalactic distances and that self-replicating probe swarms are the actual viable mechanism. A future revision could integrate A101's conclusions, reinterpreting the SMBH hierarchy as a proxy for probe production capacity rather than direct energy projection. However, this revision was not requested in the current prompt and would require substantial restructuring of the threat analysis sections. The current revision improves the article's defensibility within its own framework. Integration with A101's physics awaits a future prompt.
+**The JavaScript article numbers.** This is a metadata feature, not a content feature. Each article now prints its article number to the browser console when loaded. The template uses `Axxx` as a placeholder. Pre-release candidates without assigned article numbers also use `Axxx`. This provides a quick diagnostic for identifying which article is loaded, useful during development and debugging.
+
+**What the article still lacks.** The same observation from the P3 commentary applies: the article does not incorporate A101's force projection physics. The capability envelope framework treats SMBH mass as a proxy for strategic potential, while A101 demonstrates that directed energy fails at intergalactic distances and self-replicating probe swarms are the actual viable mechanism. Additionally, the thermodynamic geometric cost calculation for CMB-temperature operation assumes blackbody radiation, which is an idealization. Real radiator systems would have lower emissivity, increasing the required area. The mobilization fraction $f$ is introduced but not estimated even at order-of-magnitude scale. Future work could bound $f$ using the efficiency of known energy conversion mechanisms.
 
 ---
 
 ## Questions for Human Review
 
-- The 29% Kerr bound for maximum extractable rotational energy is a well-established theoretical result from Christodoulou and Ruffini (1971). The actual extractable fraction depends on the SMBH's spin parameter, which is not well constrained for most SMBHs in the article.
-- The M87 jet divergence analysis in the M87 section is qualitative. The jet's opening angle is approximately 6.5 degrees at kiloparsec scales (Walker et al. 2018), but the beam divergence at intergalactic distances would depend on whether the jet maintains collimation beyond its observed extent.
-- The Tainter reference URL points to the Cambridge University Press book page. Accessibility may vary.
-- The competitive Lotka-Volterra reference is used conceptually in the logistic plateau comparison. The article does not explicitly cite the equations but the reference supports the carrying capacity asymmetry argument.
+- The extraction efficiency $\eta$ is stated as bounded by 0.29 for an extreme Kerr black hole. The actual extractable fraction depends on the spin parameter $a$. For $a = 0$ (Schwarzschild), the extractable rotational energy is zero. The 0.29 bound applies only for maximal spin ($a = 1$). Most astrophysical SMBHs are believed to have $a \gtrsim 0.5$, but measurements are model-dependent.
+- The mobilization fraction $f$ is introduced as a concept but not bounded numerically. The article states that asymmetry ratios assume comparable $f$ across civilizations. No physical argument constrains $f$ to any particular range.
+- The selection pressure constraint (overlapping domains, finite resources, non-cooperative actors) is presented as three necessary conditions. A reviewer might argue that a fourth condition should be added: the civilizations must be aware of each other's existence at some point during the competitive interval.
+- The Sedov-Taylor impulse versus sustained power distinction notes that the sustained case is "strictly more favorable." This is true for the expansion rate but ignores deceleration due to colonization overhead. A civilization that must pause to colonize each encountered system does experience effective deceleration analogous to a blast wave sweeping up ambient material.
+- The consolidated equation block summarizes three equations. A reviewer might want a fourth: the dark forest instability ratio $R = e^{(r_u - r_c) \cdot 2d}$, which is formally distinct from the growth asymmetry ratio.
 - The A99 post_url references in A100 and A101 will not resolve until A99 is published.
 - Three release candidates now await human verification (A99, A100, A101).
 - Eight pre-release candidate drafts remain awaiting human verification.

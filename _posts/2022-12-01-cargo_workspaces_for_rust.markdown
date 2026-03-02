@@ -8,6 +8,7 @@ categories: rust no_std
 ---
 
 <!-- A61 -->
+<script>console.log("A61");</script>
 
 A single Rust package can contain one library and multiple binaries.
 Rust dependencies can only be specified at the package level, not for each

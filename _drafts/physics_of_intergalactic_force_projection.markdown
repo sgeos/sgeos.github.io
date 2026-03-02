@@ -8,6 +8,7 @@ categories: science philosophy
 ---
 
 <!-- A101 -->
+<script>console.log("A101");</script>
 
 The companion articles in this series
 established a competitive framework

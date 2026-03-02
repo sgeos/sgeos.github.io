@@ -8,6 +8,7 @@ categories: ai ai-tools openbsd development
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 [Claude Code][claude_setup] is Anthropic's agentic command line tool
 for software development.

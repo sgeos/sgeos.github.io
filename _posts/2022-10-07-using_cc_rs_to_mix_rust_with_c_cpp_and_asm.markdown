@@ -8,6 +8,7 @@ categories: rust c c++ asm
 ---
 
 <!-- A59 -->
+<script>console.log("A59");</script>
 
 New projects often need to incorporate existing code.
 Sometimes that code is written in a different programming language.

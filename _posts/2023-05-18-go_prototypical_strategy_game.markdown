@@ -8,6 +8,7 @@ categories: gamedev
 ---
 
 <!-- A63 -->
+<script>console.log("A63");</script>
 
 Go and chess are two classic strategy games with simple rules that are
 hard to master.

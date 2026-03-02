@@ -7,6 +7,7 @@ categories: beacon ios android unity osx
 ---
 
 <!-- A36 -->
+<script>console.log("A36");</script>
 
 Beacon resources and tools for OSX, iOS and Android.
 

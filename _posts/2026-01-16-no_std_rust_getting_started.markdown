@@ -8,6 +8,7 @@ categories: rust no_std embedded
 ---
 
 <!-- A68 -->
+<script>console.log("A68");</script>
 
 `no_std` [Rust][rust_homepage] programming involves developing applications
 without relying on Rust's standard library (`std`). This constraint is typical

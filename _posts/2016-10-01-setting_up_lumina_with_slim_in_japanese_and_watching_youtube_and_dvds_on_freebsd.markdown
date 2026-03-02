@@ -8,6 +8,7 @@ categories: freebsd xorg lumina slim chrome vlc
 ---
 
 <!-- A46 -->
+<script>console.log("A46");</script>
 
 This post covers installing Lumina and xdm on a fresh i386 install.
 It also covers installing Japanese fonts and a Japanese IME.

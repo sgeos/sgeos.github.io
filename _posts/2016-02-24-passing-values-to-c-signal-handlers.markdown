@@ -7,6 +7,7 @@ categories: unix c signals
 ---
 
 <!-- A23 -->
+<script>console.log("A23");</script>
 
 Signals are inherently global.
 There are two ways to handle a signal with external values.

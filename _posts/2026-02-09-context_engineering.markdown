@@ -8,6 +8,7 @@ categories: ai ai-tools development developer-productivity
 ---
 
 <!-- A78 -->
+<script>console.log("A78");</script>
 
 Context engineering has emerged as a distinct discipline
 in the eighteen months since AI coding agents

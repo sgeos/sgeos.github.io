@@ -8,6 +8,7 @@ categories: space military
 ---
 
 <!-- A97 -->
+<script>console.log("A97");</script>
 
 The United States Space Force, or USSF,
 is the newest branch of the United States Armed Forces.

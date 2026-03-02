@@ -8,6 +8,7 @@ categories: gamedev mmo
 ---
 
 <!-- A64 -->
+<script>console.log("A64");</script>
 
 ## Analyzing MMO User Management With The Chess Phase Model
 

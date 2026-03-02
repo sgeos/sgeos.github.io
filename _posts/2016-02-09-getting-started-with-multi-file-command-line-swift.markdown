@@ -7,6 +7,7 @@ categories: swift
 ---
 
 <!-- A13 -->
+<script>console.log("A13");</script>
 
 I wanted to write a post on commandline swift projects that span more than one file.
 This post covers a hello world type example that spans three files and prompts for input.

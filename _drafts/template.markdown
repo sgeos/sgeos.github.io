@@ -8,6 +8,7 @@ categories:
 ---
 
 <!-- Axxx -->
+<script>console.log("Axxx");</script>
 
 Problem description here.
 
