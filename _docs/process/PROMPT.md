@@ -26,40 +26,30 @@ There is presently no speculative ETA.
 
 ## Objectives
 
-Please revise A99 based on external LLM feedback, and then publish.
+Please regenerated the A99 release announcment, and then draft A102.
 
 Thoroughly research the topic and pull in references.
 There is no length limit, no reference limit,
 and the reference list may be more valuable than the article itself.
 
-### Harden Vulnerable Sentence
+### Generate Templated A99 Release Announcement
 
-This sentence is vulnerable:
+Please generate a release announcement for A99 based on the documented template.
 
-```
-At 53 million light-years, M87's jet divergence would produce a beam footprint that could blanket a significant fraction of the Local Group.
-```
+### A102 Topic
 
-Safer formulation:
+A102 should be about Von Neumann Probes.
+Discuss the inspiration and concept inception, history, influence, and applications.
+Cover work to date, work in progress, work that needs to be done, and technological block.
+Extrapolate an ETA for the first prototype Von Neumann Probe, but state the ETA as a range.
+Cover any other topics you feel are relevant.
+A102 is in the A98 to A101 series, and the article should reflect this context.
+It should overtly be a defensible explanation while implicitly being a call to action.
+The article should be thorough, and the sections that outline near term deliverables should be actionable.
 
-```
-If an advanced civilization could substantially increase jet collimation beyond natural AGN divergence…
-```
+### Comment on A102
 
-### Correct Order of Magnitue Error
-
-This statement is correct order-of-magnitude.
-
-```
-A radiator operating at 2.7 K emits ~3 × 10^-6 W/m²,
-roughly 10^11 times less per unit area than at 300 K.
-```
-
-Correct scaling ( (300/2.7)^4 ≈ 1.5×10^8 actually — not 10^11 ).
-
-### Comment on A99
-
-Include a freeform commentary of A99 in your reverse prompt.
+Include a freeform commentary of A102 in your reverse prompt.
 
 ## Context
 
@@ -71,12 +61,14 @@ Drafting time!
 
 ## Success Criteria
 
-- A99 revised as requested.
-- A99 dates updated.
-- A99 related article links correct.
-- A99 published.
-- A99 release announcement generated and reported in reverse prompt.
-- A99 freeform commentary in reverse draft.
+- A99 release announcement generated from template and reported in reverse prompt.
+
+- A102 drafted as requested.
+- A102 dates updated.
+- A102 related article links correct.
+- A102 NOT published.
+- A102 release announcement NOT generated from template and reported in reverse prompt.
+- A102 freeform commentary in reverse draft.
 
 ## Notes
 
