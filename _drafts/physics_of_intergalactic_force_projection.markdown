@@ -1666,7 +1666,7 @@ reaches ours.
 [ref_wormhole]: https://en.wikipedia.org/wiki/Wormhole
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
-[related_post_roadmap]: {% post_url 2026-03-01-roadmap_to_competitive_type_iii_civilization %}
+[related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [research_balbi]: https://arxiv.org/abs/1711.11318
 [research_beech]: https://link.springer.com/article/10.1007/s10509-011-0873-9
 [research_blandford_2019]: https://ui.adsabs.harvard.edu/abs/2019ARA%26A..57..467B/abstract

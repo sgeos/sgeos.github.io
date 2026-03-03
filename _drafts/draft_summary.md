@@ -18,65 +18,6 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Roadmap to a Competitive Type III Civilization — Release Candidate
-
-**File**: `roadmap_to_competitive_type_iii_civilization.markdown`
-**Topic**: Operational roadmap from current civilization to competitive Type III in the Local Group
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-<!-- A100 -->
-
-New article completing the three-part series with A98 and A99.
-Derives the roadmap backwards from competitive Type III requirements,
-then presents it chronologically.
-Sagan's logarithmic Kardashev extension with current position at K = 0.73.
-Now to Infant Competitive Type I:
-energy infrastructure (fusion, SBSP, renewables),
-survival bottleneck (Ord's existential risk estimates),
-governance and coordination requirements with telemeritocracy
-and cryptotelemeritocracy frameworks from A87 and A89,
-Michels's iron law of oligarchy counter,
-timeline projections with growth rate sensitivity.
-Type I to Infant Competitive Type II:
-Dyson swarm construction (Armstrong and Sandberg Mercury disassembly),
-self-replicating industry with gray goo risk,
-solar system infrastructure (asteroid mining, O'Neill cylinders, planetary engineering),
-stellar engineering (star lifting, Shkadov thruster, SMBH energy extraction).
-Type II to Infant Competitive Type III:
-interstellar propulsion comparison table (laser sail, fusion, nuclear pulse, Bussard, generation ship),
-colonization wave mathematics,
-governance across light-years with governance coherence half-life formula from A92,
-coordinated behavior to myth degradation phases,
-federated arbitrators, spinoff mechanism,
-satellite galaxy expansion from A99 priority list.
-Infant Type III to Local Group Competitive Type III:
-competitive requirements (resource parity, force projection, defensive coverage, information warfare),
-intergalactic transit engineering (IGM density, Bussard ramjet failure,
-laser sail deceleration problem, antimatter drives, photon drives,
-hypervelocity star platforms, Shkadov thruster redirection,
-energy requirements, transit duration, Fogg analysis),
-intergalactic propulsion comparison table (5 methods),
-the Andromeda problem (SMBH mass ratio, technological superiority vs SMBH growth strategies),
-merger window from 2025 Nature Astronomy study,
-information warfare at galactic scale,
-competitive fitness summary table.
-Extrapolation beyond Local Group:
-the Virgo question, supercluster dynamics, limits of extrapolation
-(accelerating expansion, heat death, unknown physics).
-Implications: critical bottleneck table, growth imperative, concealment-growth tradeoff,
-independence from threat assessment, limitations (cooperative equilibria, non-expansion, radically different life).
-References A98, A99, A82, A87, A89, A90, A92, A95 via post_url.
-MathJax enabled for Kardashev formula, growth timelines, colonization wave speed,
-governance coherence half-life, and intergalactic energy requirements.
-Sixty-seven references across three categories (51 Reference, 8 Related Post, 8 Research).
-
-**Remaining Work**:
-Human review of article content, Kardashev scale calculations, and strategic analysis.
-A99 post_url will resolve when A99 is published.
-Assign publication date when ready.
-
 ### The Physics of Intergalactic Force Projection — Release Candidate
 
 **File**: `physics_of_intergalactic_force_projection.markdown`
@@ -409,16 +350,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
-Two release candidates remain.
+Twelve files exist in `_drafts/`. One is a template.
+One release candidate remains.
 No stubs remain.
-A80 through A99 have been published.
+A80 through A100 have been published.
 Writing Proofs (A79) has been published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
-**Two release candidates remain.**
-A100 "Roadmap to a Competitive Type III Civilization" is a release candidate awaiting human review.
+**One release candidate remains.**
 A101 "The Physics of Intergalactic Force Projection" is a release candidate awaiting human review.
 
 **One new draft awaiting human review.**
