@@ -1983,7 +1983,7 @@ have timelines.
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
-[related_post_force_projection]: {% post_url 2026-03-01-physics_of_intergalactic_force_projection %}
+[related_post_force_projection]: {% post_url 2026-03-04-physics_of_intergalactic_force_projection %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
