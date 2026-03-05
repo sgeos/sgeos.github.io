@@ -342,6 +342,40 @@ External LLM review and revision.
 A103 and A104 must be published before A105 due to post_url dependencies.
 Assign publication date when ready.
 
+### Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications (A106) — New Draft
+
+**File**: `two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`
+**Topic**: Two-stage aerospace vehicle composed entirely of flying delta wings for civil and national security applications
+**Completion**: ~80%
+**Publication Sensibility**: High
+**Status**: New Draft
+
+New standalone aerospace engineering article proposing a two-stage aerospace vehicle
+in which the combined vehicle, the second stage, and the first stage are all flying delta wings.
+The second stage retains the nose and forward geometry after separation.
+The first stage retains the rear geometry and becomes a truncated or noseless delta wing.
+Covers system concept overview with flight phase descriptions,
+history of related concepts from Lippisch through NASP and Skylon,
+delta wing aerodynamics including vortex lift and hypersonic behavior,
+structural and volume advantages of triangular planforms,
+staging mechanics and vehicle transformation with center of gravity and stability analysis,
+first stage operations including boost and recovery,
+second stage operations including orbital insertion and hypersonic transport,
+civil applications including reusable launch and global transport,
+national security applications including Prompt Global Strike and hypersonic reconnaissance,
+engineering challenges across thermal protection and propulsion integration and manufacturing,
+and future development paths including scaled variants and advanced propulsion.
+MathJax enabled with equations for vortex lift, Newtonian pressure, Tsiolkovsky rocket equation, and Mach angle.
+2,423 lines. 93 references (80 Reference, 2 Related Post, 4 Research, 6 Future Reading).
+All 93 reference usages verified against 93 definitions. Zero missing. Zero unused.
+Two post_url references (A96, A90). Both resolve to files in `_posts/`.
+No publication order dependencies.
+
+**Remaining Work**:
+Human review and approval for publication.
+External LLM review and revision.
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -353,9 +387,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fourteen files exist in `_drafts/`. One is a template.
+Fifteen files exist in `_drafts/`. One is a template.
 Two release candidates remain (A103, A104).
-One new draft (A105).
+Two new drafts (A105, A106).
 No stubs remain.
 A80 through A102 have been published.
 Writing Proofs (A79) has been published.
