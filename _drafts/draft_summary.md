@@ -279,6 +279,35 @@ Six post_url references confirmed (A82, A95, A99, A100, A101, A102).
 Human review and approval for publication.
 Assign publication date when ready.
 
+### Steampunk and Analog Electronics for Von Neumann Probe Control (A104) — New Draft
+
+**File**: `steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`
+**Topic**: Pre-transistor computing technologies as alternatives to semiconductor fabrication for von Neumann probe control systems
+**Completion**: ~80%
+**Publication Sensibility**: High
+**Status**: New Draft
+
+New article extending the A98-A103 series with an analysis of pre-transistor computing technologies
+that could sidestep the semiconductor fabrication closure gap identified in A102.
+Three main sections covering steampunk electronics, analog electronics, and hybrid analog steampunk systems.
+Steampunk electronics covers mechanical computing from the Antikythera mechanism through Babbage, Zuse, and relay computers,
+fluidic logic from Coanda effect through FLODAC and Harry Diamond Labs,
+and MEMS radiation-resistant logic gates.
+Analog electronics covers vacuum tubes, operational amplifiers, differential analyzers,
+the analog neural network revival, and the operational amplifier as a manufacturing closure target.
+Hybrid section proposes a tiered probe control architecture with
+fluidic logic for safety-critical functions, vacuum tube analog computing for process control,
+and optional digital systems for higher-order planning.
+MathJax enabled. 1,867 lines. 50 references (35 Reference, 4 Related Post, 5 Research, 6 Future Reading).
+All 92 reference usages verified against 50 definitions. Zero missing. Zero unused.
+Four post_url references (A82, A100, A103, A102). A103 must be published before A104.
+
+**Remaining Work**:
+Human review of technical claims and reference quality.
+External LLM review recommended given article scope.
+A103 must be published before A104 due to post_url dependency.
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -290,8 +319,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
+Twelve files exist in `_drafts/`. One is a template.
 One release candidate remains (A103).
+One new draft exists (A104).
 No stubs remain.
 A80 through A102 have been published.
 Writing Proofs (A79) has been published.
