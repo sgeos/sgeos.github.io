@@ -193,6 +193,17 @@ the extractable rotational energy
 is approximately 29 percent
 of the black hole's total
 rest-mass energy.
+The magnetic Penrose process
+provides an alternative extraction channel
+through magnetically mediated
+particle interactions in the ergosphere
+([Tursunov and Dadhich 2019][research_tursunov_dadhich]),
+and magnetic reconnection
+within the ergosphere
+extracts spin energy
+at comparable rates
+([Comisso and Asenjo 2021][research_comisso_asenjo]).
+
 For Sagittarius A*
 at $4.3 \times 10^6$ solar masses,
 this represents approximately
@@ -568,6 +579,12 @@ that a 1 km aperture
 emitting at $\lambda = 1 \mu$m
 produces a spot size of approximately
 $1.22 \times 10^{-6} \times L$ meters.
+[Kulkarni, Lubin, and Zhang][research_kulkarni_lubin]
+extended this analysis
+with fully relativistic equations of motion,
+confirming the velocity limits
+imposed by beam diffraction
+and absorption at relativistic speeds.
 
 At interstellar distances,
 this is manageable.
@@ -897,6 +914,34 @@ from the launch event
 could reach the target
 and return.
 
+**Interaction with the intergalactic medium.**
+[Hoang et al.][research_hoang_ism]
+quantified erosion, heating,
+and drag forces
+on relativistic spacecraft
+traversing interstellar gas and dust.
+At 0.99c,
+collisions with interstellar medium particles
+erode surface material
+and deposit energy
+that must be radiated or absorbed.
+Over intergalactic distances,
+the intergalactic medium
+is far less dense
+than the interstellar medium,
+approximately $10^{-7}$ particles per cm$^3$
+compared to approximately 1 per cm$^3$,
+reducing but not eliminating
+erosion and drag effects.
+[Dolag et al.][research_dolag]
+simulated intergalactic magnetic fields
+of 1 to 100 nanoGauss
+from cosmological structure formation,
+which would deflect
+charged relativistic projectiles
+but have negligible effect
+on electrically neutral vehicles.
+
 **Detection and interception.**
 A relativistic projectile
 traveling at 0.99c
@@ -1089,10 +1134,23 @@ devoted to probe production.
 The companion roadmap article
 analyzed intergalactic transit
 and identified
-[antimatter drives][ref_antimatter_rocket],
+[antimatter drives][ref_antimatter_rocket]
+([Frisbee 2003][research_frisbee]),
 [photon drives][ref_photon_rocket],
+[nuclear pulse propulsion][ref_nuclear_pulse]
+([Dyson 1968][research_dyson_transport]),
+[magnetic sails][ref_magnetic_sail]
+([Andrews and Zubrin 1990][research_andrews_zubrin]),
+laser-driven sails
+([Kulkarni, Lubin, and Zhang 2018][research_kulkarni_lubin]),
 and [hypervelocity star][ref_hypervelocity_star] platforms
 as viable transit mechanisms.
+Deceleration at the target system
+can be achieved
+through photogravitational braking
+([Heller and Hippke 2017][research_heller_hippke])
+or [magnetic sail][ref_magnetic_sail] interaction
+with the stellar wind.
 A berserker swarm
 uses the same transit methods
 as a colonization wave.
@@ -1285,6 +1343,15 @@ surrounding the target galaxy.
 A single missed probe
 anywhere in that volume
 defeats the defense.
+[Forgan][research_forgan_galactic]
+showed that causal connectivity limits
+prevent a single galactic hegemony
+from maintaining coordination
+across the full galactic volume,
+suggesting that defense networks
+would consist of
+loosely coupled regional commands
+rather than a unified structure.
 
 **Conclusion.**
 Self-replicating probe swarms
@@ -1332,6 +1399,21 @@ as measured by Voyager 1
 after crossing the heliopause
 in 2012
 ([Cummings et al. 2016][research_cummings]).
+[Durante and Cucinotta][research_durante_cucinotta]
+provided the authoritative review
+of galactic cosmic ray fluence
+and shielding physics
+for deep-space missions,
+establishing that passive shielding alone
+is insufficient against
+high-energy heavy ion primaries.
+[Dobynde et al.][research_dobynde]
+demonstrated that optimal shielding geometry
+for GCR dose minimization
+is spherical,
+with diminishing returns
+beyond approximately 30 g/cm$^2$
+of areal density.
 The cosmic ray energy density
 in the local interstellar medium
 is approximately 0.83 to 1.02 eV per cubic centimeter.
@@ -1678,6 +1760,12 @@ from stars in the target galaxy
 and use it
 as ammunition
 or as fuel for further destruction.
+[Shkadov thrusters][ref_shkadov_thruster]
+could redirect entire stellar systems
+through asymmetric radiation pressure
+([Forgan 2013][research_forgan_shkadov]),
+converting stars
+into slow-moving weapons platforms.
 This again requires
 physical presence in the target galaxy.
 
@@ -1821,6 +1909,23 @@ the primary competitive variable
 from energy projection capacity
 to colonization wave speed
 and probe production rate.
+Galactic colonization models
+provide quantitative constraints
+on wave propagation.
+[Landis][research_landis_percolation]
+demonstrated that colonization
+follows a percolation process
+producing fractal settlement patterns
+rather than a uniform wave front.
+[Hair and Hedman][research_hair_hedman]
+extended this to three dimensions,
+quantifying settlement timescales.
+[Hanson et al.][research_hanson_grabby]
+modeled rapidly expanding civilizations
+that visibly alter their volumes,
+constraining the spacing
+and timing of peer civilizations
+in the current epoch.
 
 From the companion
 roadmap article,
@@ -1914,7 +2019,14 @@ of launching its own swarm
 toward the attacker's home galaxy.
 This produces a situation
 analogous to mutual assured destruction
-in nuclear strategy.
+in nuclear strategy
+([Schelling 1960][research_schelling]).
+[Korhonen][research_korhonen]
+analyzed interstellar deterrence dynamics
+and argued that
+preemptive relativistic bombardment
+is strategically irrational
+under most parameter choices.
 Both galaxies
 receive incoming swarms.
 Both galaxies
@@ -2016,6 +2128,24 @@ by all parties.
 
 ### The Revised Threat Hierarchy
 
+Infrared surveys have searched
+for evidence of Type III civilizations
+with large energy supplies.
+The G-hat survey
+([Wright et al. 2014][research_wright_ghat],
+[Griffith et al. 2015][research_griffith_ghat])
+examined approximately 100,000 galaxies
+using WISE mid-infrared data
+and found no galaxy
+reprocessing more than 85 percent
+of its starlight into the mid-infrared.
+This constrains but does not eliminate
+the possibility of Type III adversaries.
+A civilization that does not
+enclose most of its stars
+in [Dyson spheres][ref_dyson_sphere]
+would not appear in these surveys.
+
 The companion assessment article
 ranked galaxies
 by SMBH mass.
@@ -2077,6 +2207,30 @@ and satellite galaxies
 could potentially detect
 incoming probe swarms
 millions of years before arrival.
+The detection of 1I/'Oumuamua
+([Meech et al. 2017][research_meech])
+demonstrated that existing surveys
+can identify interstellar objects
+transiting the solar system.
+[Bergner and Seligman][research_bergner_seligman]
+resolved its anomalous acceleration
+through natural radiolytic processes,
+establishing baseline criteria
+for distinguishing natural interstellar objects
+from engineered probes.
+[Jewitt][research_jewitt_iso]
+reviewed the inferred population density
+of interstellar objects,
+providing the statistical background
+against which artificial arrivals
+would need to be identified.
+[Seligman and Laughlin][research_seligman_laughlin]
+showed that future interstellar objects
+can be intercepted
+with conventional propulsion
+if detected early,
+establishing the feasibility
+of probe inspection missions.
 This early detection window
 does not exist
 for directed energy weapons
@@ -2144,6 +2298,14 @@ before the probe arrives
 if the command center
 is more than 500 light-years away.
 Defense must be autonomous and local.
+[Hippke][research_hippke_comm]
+established fundamental bandwidth limits
+for deep-space communication,
+showing that photon-information-efficient schemes
+face irreducible data rate constraints
+that further limit
+centralized command-and-control
+over galactic distances.
 
 **Stealth probes.**
 The analysis to this point
@@ -2467,6 +2629,18 @@ reaches ours.
 - [Meech et al. 2017][research_meech] is the discovery paper for 1I/'Oumuamua, the first confirmed interstellar object, establishing baseline detection capabilities for objects in transit through the solar system.
 - [Jebari and Asker 2024][research_jebari] provides a formal game-theoretic analysis of the dark forest hypothesis, showing that mutual observation of ETI can convert preemptive strike equilibria into restraint equilibria.
 - The companion [Tactical and Strategic Assessment][related_post_assessment] provides the galaxy-by-galaxy threat hierarchy that this article's force projection analysis informs.
+- [Frisbee 2003][research_frisbee] presents a systems-level engineering analysis of antimatter-propelled interstellar vehicles, establishing that 0.5c cruise velocities are achievable in principle and quantifying the mass ratios required.
+- [Hoang et al. 2017][research_hoang_ism] quantifies erosion, heating, and drag on relativistic spacecraft transiting the interstellar medium, directly constraining the survivability of relativistic kill vehicles and probe swarms in transit.
+- [Landis 1998][research_landis_percolation] introduces the percolation model of galactic colonization, showing that expansion follows a fractal pattern of colonized and uncolonized clusters rather than a uniform wave front.
+- [Hanson et al. 2021][research_hanson_grabby] models rapidly expanding civilizations that alter their volumes, constraining the expected spacing and timing of potential adversaries in the observable universe.
+- [Tursunov and Dadhich 2019][research_tursunov_dadhich] reviews the magnetic Penrose process across three efficiency regimes, expanding the toolkit of physically plausible black hole energy extraction mechanisms beyond the Blandford-Znajek process.
+- [Korhonen 2013][research_korhonen] provides a game-theoretic analysis of interstellar mutual assured destruction, arguing that preemptive relativistic bombardment is strategically irrational under most parameter choices.
+- [Heller and Hippke 2017][research_heller_hippke] demonstrates photogravitational braking as a propellantless deceleration mechanism for high-velocity payloads, generalizing to any stellar system.
+- [Wright et al. 2014][research_wright_ghat] and [Griffith et al. 2015][research_griffith_ghat] present the G-hat infrared survey of approximately 100,000 galaxies for Type III civilizations, establishing upper limits on the prevalence of galaxy-scale energy harvesting.
+- [Durante and Cucinotta 2011][research_durante_cucinotta] is the authoritative review of galactic cosmic ray fluence and shielding physics, essential for any analysis of probe survivability during intergalactic transit.
+- [Dolag et al. 2005][research_dolag] simulates intergalactic magnetic fields from cosmological structure formation, constraining electromagnetic drag and deflection for charged relativistic projectiles crossing voids and filaments.
+- [Hippke, Leyland, and Learned 2018][research_hippke_inscribed] shows that physical probes carrying inscribed data are energetically superior to photon communication at kiloparsec-scale distances below 0.2c, directly informing the trade-off between communication and physical payload delivery across intergalactic distances.
+- [Lingam and Loeb 2021][research_lingam_loeb_book] provides a comprehensive treatment of biosignatures and technosignatures including stellar engineering, Dyson megastructures, and galactic habitability analysis.
 
 ## References
 
@@ -2487,8 +2661,10 @@ reaches ours.
 - [Reference, Large Magellanic Cloud][ref_lmc]
 - [Reference, Local Group][ref_local_group]
 - [Reference, Lotka-Volterra Equations][ref_lotka_volterra]
+- [Reference, Magnetic Sail][ref_magnetic_sail]
 - [Reference, Messier 87][ref_m87]
 - [Reference, Milky Way][ref_milky_way]
+- [Reference, Nuclear Pulse Propulsion][ref_nuclear_pulse]
 - [Reference, Penrose Process][ref_penrose]
 - [Reference, Photon Rocket][ref_photon_rocket]
 - [Reference, Reed-Solomon Error Correction][ref_reed_solomon]
@@ -2496,6 +2672,7 @@ reaches ours.
 - [Reference, Relativistic Kill Vehicle][ref_rkv]
 - [Reference, Sagittarius A*][ref_sagittarius_a]
 - [Reference, Self-Replicating Spacecraft][ref_self_replicating_spacecraft]
+- [Reference, Shkadov Thruster][ref_shkadov_thruster]
 - [Reference, Star Lifting][ref_star_lifting]
 - [Reference, Supermassive Black Hole][ref_smbh]
 - [Reference, Supernova][ref_supernova]
@@ -2504,8 +2681,10 @@ reaches ours.
 - [Related Post, Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization][related_post_causality]
 - [Related Post, Roadmap to a Competitive Type III Civilization][related_post_roadmap]
 - [Related Post, Tactical and Strategic Assessment of the Local Galactic Neighborhood][related_post_assessment]
+- [Research, Andrews and Zubrin, Magnetic Sails and Interstellar Travel][research_andrews_zubrin]
 - [Research, Balbi and Tombesi, The Habitability of the Milky Way During the Active Phase of Its Central Supermassive Black Hole][research_balbi]
 - [Research, Beech, The Past, Present and Future Supernova Threat to Earth's Biosphere][research_beech]
+- [Research, Bergner and Seligman, Acceleration of 1I/'Oumuamua from Radiolytically Produced H2 in H2O Ice][research_bergner_seligman]
 - [Research, Bland-Hawthorn and Gerhard, The Galaxy in Context: Structural, Kinematic, and Integrated Properties][research_bland_hawthorn]
 - [Research, Blandford and Znajek, Electromagnetic Extraction of Energy from Kerr Black Holes][research_bz_1977]
 - [Research, Blandford, Meier, and Readhead, Relativistic Jets from Active Galactic Nuclei][research_blandford_2019]
@@ -2514,15 +2693,36 @@ reaches ours.
 - [Research, Brin, The Great Silence][research_brin]
 - [Research, Chen, Ni, and Ong, Lotka-Volterra Models for Extraterrestrial Self-Replicating Probes][research_chen_lv]
 - [Research, Cirkovic, Fermi's Paradox: The Last Challenge for Copernicanism?][research_cirkovic]
+- [Research, Comisso and Asenjo, Magnetic Reconnection as a Mechanism for Energy Extraction from Rotating Black Holes][research_comisso_asenjo]
 - [Research, Cummings et al., Galactic Cosmic Rays in the Local Interstellar Medium: Voyager 1 Observations and Model Results][research_cummings]
 - [Research, de Groh et al., Degradation of Spacecraft Materials in the Space Environment][research_degroh]
 - [Research, Delvecchio et al., The Evolving AGN Duty Cycle in Galaxies Since z ~ 3][research_delvecchio]
+- [Research, Dobynde et al., Beating 1 Sievert: Optimal Radiation Shielding of Astronauts on a Mission to Mars][research_dobynde]
+- [Research, Dolag et al., Constrained Simulations of the Magnetic Field in the Local Universe and the Propagation of UHECRs][research_dolag]
+- [Research, Durante and Cucinotta, Physical Basis of Radiation Protection in Space Travel][research_durante_cucinotta]
+- [Research, Dyson, Interstellar Transport][research_dyson_transport]
 - [Research, Dyson, Search for Artificial Stellar Sources of Infrared Radiation][research_dyson_ir]
 - [Research, Ellery, Self-Replicating Probes Are Imminent: Implications for SETI][research_ellery]
+- [Research, Forgan, The Galactic Club, or Galactic Cliques?][research_forgan_galactic]
+- [Research, Forgan, On the Possibility of Detecting Class A Stellar Engines Using Exoplanet Transit Curves][research_forgan_shkadov]
 - [Research, Forgan, Predator-Prey Behaviour in Self-Replicating Interstellar Probes][research_forgan_predator]
 - [Research, Freitas, A Self-Reproducing Interstellar Probe][research_freitas]
+- [Research, Frisbee, How to Build an Antimatter Rocket for Interstellar Missions][research_frisbee]
+- [Research, Griffith et al., The G-hat Infrared Search for Extraterrestrial Civilizations III: The Reddest Extended Sources in WISE][research_griffith_ghat]
+- [Research, Hair and Hedman, Spatial Dispersion of Interstellar Civilizations: A Probabilistic Site Percolation Model][research_hair_hedman]
+- [Research, Hanson et al., If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare][research_hanson_grabby]
 - [Research, Haqq-Misra and Baum, The Sustainability Solution to the Fermi Paradox][research_haqq_misra]
+- [Research, Heller and Hippke, Deceleration of High-velocity Interstellar Photon Sails into Bound Orbits at Alpha Centauri][research_heller_hippke]
+- [Research, Heller, Hippke, and Kervella, Optimized Trajectories to the Nearest Stars Using Lightweight High-velocity Photon Sails][research_heller_optimized]
+- [Research, Hippke, Interstellar Communication I: Maximized Data Rate for Lightweight Space-Probes][research_hippke_comm]
+- [Research, Hippke, Leyland, and Learned, Interstellar Communication VII: Benchmarking Inscribed Matter Probes][research_hippke_inscribed]
+- [Research, Hoang et al., The Interaction of Relativistic Spacecrafts with the Interstellar Medium][research_hoang_ism]
 - [Research, Jebari and Asker, Saved by the Dark Forest: How a Multitude of Extraterrestrial Civilizations Can Prevent a Hobbesian Trap][research_jebari]
+- [Research, Jewitt, Interstellar Objects in the Solar System][research_jewitt_iso]
+- [Research, Korhonen, MAD with Aliens? Interstellar Deterrence and Its Implications][research_korhonen]
+- [Research, Kulkarni, Lubin, and Zhang, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin]
+- [Research, Landis, The Fermi Paradox: An Approach Based on Percolation Theory][research_landis_percolation]
+- [Research, Lingam and Loeb, Life in the Cosmos: From Biosignatures to Technosignatures][research_lingam_loeb_book]
 - [Research, Lubin, A Roadmap to Interstellar Flight][research_lubin]
 - [Research, Matsumura et al., Transient Compartmentalization of RNA Replicators Prevents Extinction due to Parasites][research_matsumura]
 - [Research, McNamara and Nulsen, Heating Hot Atmospheres with Active Galactic Nuclei][research_mcnamara]
@@ -2537,13 +2737,17 @@ reaches ours.
 - [Research, Reed and Solomon, Polynomial Codes over Certain Finite Fields][research_reed_solomon]
 - [Research, Reynolds, Observational Constraints on Black Hole Spin][research_reynolds]
 - [Research, Schawinski et al., Active Galactic Nuclei Flicker: An Observational Estimate of the Duration of Black Hole Growth Phases][research_schawinski]
+- [Research, Schelling, The Strategy of Conflict][research_schelling]
+- [Research, Seligman and Laughlin, The Feasibility and Benefits of In Situ Exploration of 'Oumuamua-like Objects][research_seligman_laughlin]
 - [Research, Suazo et al., Project Hephaistos II: Dyson Sphere Candidates from Gaia DR3, 2MASS, and WISE][research_suazo]
 - [Research, Tchekhovskoy, Narayan, and McKinney, Efficient Generation of Jets from Magnetically Arrested Accretion][research_tchekhovskoy]
 - [Research, Thomas et al., Terrestrial Ozone Depletion Due to a Milky Way Gamma-Ray Burst][research_thomas_2005]
 - [Research, Tipler, Extraterrestrial Intelligent Beings Do Not Exist][research_tipler]
+- [Research, Tursunov and Dadhich, Fifty Years of Energy Extraction from Rotating Black Hole: Revisiting Magnetic Penrose Process][research_tursunov_dadhich]
 - [Research, von Neumann, Theory of Self-Reproducing Automata][research_von_neumann]
 - [Research, Wiley, The Fermi Paradox, Self-Replicating Probes, and the Interstellar Transportation Bandwidth][research_wiley]
 - [Research, Wright, Dyson Spheres][research_wright_dyson]
+- [Research, Wright et al., The G-hat Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies][research_wright_ghat]
 
 [ref_agn]: https://en.wikipedia.org/wiki/Active_galactic_nucleus
 [ref_alcubierre]: https://en.wikipedia.org/wiki/Alcubierre_drive
@@ -2562,8 +2766,10 @@ reaches ours.
 [ref_lmc]: https://en.wikipedia.org/wiki/Large_Magellanic_Cloud
 [ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
 [ref_lotka_volterra]: https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
+[ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
 [ref_m87]: https://en.wikipedia.org/wiki/Messier_87
 [ref_milky_way]: https://en.wikipedia.org/wiki/Milky_Way
+[ref_nuclear_pulse]: https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion
 [ref_penrose]: https://en.wikipedia.org/wiki/Penrose_process
 [ref_photon_rocket]: https://en.wikipedia.org/wiki/Photon_rocket
 [ref_reed_solomon]: https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction
@@ -2571,6 +2777,7 @@ reaches ours.
 [ref_rkv]: https://en.wikipedia.org/wiki/Relativistic_kill_vehicle
 [ref_sagittarius_a]: https://en.wikipedia.org/wiki/Sagittarius_A*
 [ref_self_replicating_spacecraft]: https://en.wikipedia.org/wiki/Self-replicating_spacecraft
+[ref_shkadov_thruster]: https://en.wikipedia.org/wiki/Shkadov_thruster
 [ref_smbh]: https://en.wikipedia.org/wiki/Supermassive_black_hole
 [ref_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
 [ref_supernova]: https://en.wikipedia.org/wiki/Supernova
@@ -2579,8 +2786,10 @@ reaches ours.
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
+[research_andrews_zubrin]: https://ui.adsabs.harvard.edu/abs/1991JSpRo..28..197Z/abstract
 [research_balbi]: https://arxiv.org/abs/1711.11318
 [research_beech]: https://link.springer.com/article/10.1007/s10509-011-0873-9
+[research_bergner_seligman]: https://arxiv.org/abs/2303.13698
 [research_bland_hawthorn]: https://arxiv.org/abs/1602.07702
 [research_blandford_2019]: https://ui.adsabs.harvard.edu/abs/2019ARA%26A..57..467B/abstract
 [research_borgue]: https://arxiv.org/abs/2005.12303
@@ -2589,16 +2798,37 @@ reaches ours.
 [research_bz_1977]: https://ui.adsabs.harvard.edu/abs/1977MNRAS.179..433B/abstract
 [research_chen_lv]: https://arxiv.org/abs/2209.14244
 [research_cirkovic]: https://arxiv.org/abs/0907.3432
+[research_comisso_asenjo]: https://arxiv.org/abs/2012.00879
 [research_cummings]: https://ui.adsabs.harvard.edu/abs/2016ApJ...831...18C/abstract
 [research_degroh]: https://ui.adsabs.harvard.edu/abs/2011MRSBu..35...20M/abstract
 [research_delvecchio]: https://arxiv.org/abs/2002.08965
+[research_dobynde]: https://doi.org/10.1029/2021SW002749
+[research_dolag]: https://arxiv.org/abs/astro-ph/0410419
+[research_durante_cucinotta]: https://doi.org/10.1103/RevModPhys.83.1245
 [research_dyson_ir]: https://ui.adsabs.harvard.edu/abs/1960Sci...131.1667D/abstract
+[research_dyson_transport]: https://ui.adsabs.harvard.edu/abs/1968PhT....21j..41D/abstract
 [research_ellery]: https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/selfreplicating-probes-are-imminent-implications-for-seti/2CB214D26020D497D48AE489756BEE77
 [research_eternity]: https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148
+[research_forgan_galactic]: https://arxiv.org/abs/1608.08770
 [research_forgan_predator]: https://arxiv.org/abs/1903.00770
+[research_forgan_shkadov]: https://arxiv.org/abs/1306.1672
 [research_freitas]: https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract
+[research_frisbee]: https://doi.org/10.2514/6.2003-4676
+[research_griffith_ghat]: https://arxiv.org/abs/1504.03418
+[research_hair_hedman]: https://doi.org/10.1017/S1473550412000316
+[research_hanson_grabby]: https://arxiv.org/abs/2102.01522
 [research_haqq_misra]: https://arxiv.org/abs/0906.0568
+[research_heller_hippke]: https://arxiv.org/abs/1701.08803
+[research_heller_optimized]: https://arxiv.org/abs/1704.03871
+[research_hippke_comm]: https://arxiv.org/abs/1706.03795
+[research_hippke_inscribed]: https://arxiv.org/abs/1712.10262
+[research_hoang_ism]: https://arxiv.org/abs/1608.05284
 [research_jebari]: https://academic.oup.com/monist/article/107/2/176/7629691
+[research_jewitt_iso]: https://arxiv.org/abs/2407.06475
+[research_korhonen]: https://arxiv.org/abs/1302.0606
+[research_kulkarni_lubin]: https://arxiv.org/abs/1710.10732
+[research_landis_percolation]: https://ui.adsabs.harvard.edu/abs/1998JBIS...51..163L/abstract
+[research_lingam_loeb_book]: https://www.hup.harvard.edu/books/9780674987579
 [research_lubin]: https://arxiv.org/abs/1604.01356
 [research_matsumura]: https://www.science.org/doi/10.1126/science.aag1582
 [research_mcnamara]: https://arxiv.org/abs/0709.2152
@@ -2613,10 +2843,14 @@ reaches ours.
 [research_reed_solomon]: https://sites.math.rutgers.edu/~zeilberg/akherim/ReedS1960.pdf
 [research_reynolds]: https://arxiv.org/abs/2011.08948
 [research_schawinski]: https://arxiv.org/abs/1505.06733
+[research_schelling]: https://www.hup.harvard.edu/books/9780674840317
+[research_seligman_laughlin]: https://arxiv.org/abs/1803.07022
 [research_suazo]: https://arxiv.org/abs/2405.02927
 [research_tchekhovskoy]: https://arxiv.org/abs/1108.0412
 [research_thomas_2005]: https://arxiv.org/abs/astro-ph/0411284
 [research_tipler]: https://ui.adsabs.harvard.edu/abs/1980QJRAS..21..267T/abstract
+[research_tursunov_dadhich]: https://arxiv.org/abs/1905.05321
 [research_von_neumann]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
 [research_wiley]: https://arxiv.org/abs/1111.6131
 [research_wright_dyson]: https://arxiv.org/abs/2006.16734
+[research_wright_ghat]: https://arxiv.org/abs/1408.1133

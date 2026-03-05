@@ -8,32 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A101 per external LLM feedback (A101-P2)
+**Name**: Publish A101 with additional references (A101-P3)
 **Status**: Complete
 **Started**: 2026-03-04
 
 ## Success Criteria
 
-- [x] A101 revised according to all feedback items from PROMPT.md.
-- [x] A101 dates updated to 2026-03-04 06:00:00 +0000.
+- [x] A101 revised with additional references (75 to 105).
+- [x] A101 dates NOT updated (2026-03-04 06:00:00 +0000).
 - [x] A101 related article links correct (A98, A99, A100).
-- [x] A101 NOT published.
-- [x] A101 release announcement NOT generated.
-- [x] A101 freeform commentary in REVERSE_PROMPT.md.
-- [x] A102 post_url reference to A101 updated from 2026-03-01 to 2026-03-04.
+- [x] A101 published.
+- [x] A101 release announcement generated from template and reported in reverse prompt.
+- [x] NO A101 freeform commentary in reverse prompt.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A101-P2-T1 | Revise A101 per all feedback items | Complete | Scope framing paragraph and assumption list added. Accretion duty cycle constraints with citations (Schawinski, Delvecchio). Spin/accretion rate note with citation (Reynolds). Probe reliability subsection (cosmic ray bit flips, material fatigue, software drift, replication mutations, evolutionary divergence, parasitic replication). Detection realism expanded (early detection vs terminal interception, stealth probes, four detection channels). Galactic geometry corrected (volumetric halo coverage, Bland-Hawthorn citation). Colonization vs sterilization wave distinction. Symmetric swarm equilibria subsection. Deterministic language softened. Numerical anchors added. Supplementary comparison table added. Conclusion tightened. |
-| A101-P2-T2 | Update dates, references, and process files | Complete | Front matter date 2026-03-04 06:00:00 +0000. Software versions date matching. 75 references (31 Reference, 3 Related Post, 41 Research). All reference links verified (75 usages, 75 definitions, 0 missing). A102 post_url updated. TASKLOG, REVERSE_PROMPT, draft_summary updated. |
+| A101-P3-T1 | Research and add references to A101 | Complete | 30 new references researched across 12 topic areas. 26 inline citations added. Article grew from 2,622 to 2,856 lines, from 75 to 105 references (34 Reference, 3 Related Post, 68 Research). All 105 reference usages verified against 105 URL definitions. Zero missing. |
+| A101-P3-T2 | Publish A101 and update process files | Complete | Published via _publish.sh. Release announcement generated. TASKLOG, REVERSE_PROMPT, draft_summary updated. |
 
 ## Notes
 
 - Next available article number: A103.
-- 1 release candidate (A101).
+- 0 release candidates.
 - 0 stubs.
 - One new draft (A102) awaiting human review.
 - Eight pre-release candidate drafts remain awaiting human verification.
@@ -113,3 +112,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-02 | A102-P1: "Von Neumann Probes" researched and written (68 references, 2,011 lines). A99 release announcement regenerated from template. Draft summary synced (13 files, 2 RCs, 0 stubs). |
 | 2026-03-03 | A100-P3: "Roadmap to a Competitive Type III Civilization" published (2026-03-03 date). A101/A102 post_url references updated. Draft summary synced (12 files, 1 RC, 0 stubs). |
 | 2026-03-04 | A101-P2: "The Physics of Intergalactic Force Projection" revised per external LLM feedback. Probe reliability, detection realism, accretion constraints, symmetric swarm equilibria, galactic geometry, colonization/sterilization distinction, numerical anchors. 75 references (up from 40). 2,622 lines (up from 1,682). A102 post_url updated to 2026-03-04. Draft summary synced. |
+| 2026-03-04 | A101-P3: "The Physics of Intergalactic Force Projection" published (2026-03-04 date, 2,856 lines, 105 refs). 30 new references added across 12 topic areas. Draft summary synced. |
