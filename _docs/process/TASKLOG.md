@@ -8,35 +8,36 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A103 per LLM feedback (A103-P2)
+**Name**: Draft A104 (A104-P1)
 **Status**: Complete
-**Started**: 2026-03-07
+**Started**: 2026-03-08
 
 ## Success Criteria
 
-- [x] A103 revised (2,712 lines, 95 references).
-- [x] A103 dates updated (2026-03-07 07:00:00 +0000).
-- [x] A103 related article links correct (6 post_url references verified).
-- [x] A103 NOT published.
-- [x] A103 release announcement NOT generated from template and reported in reverse prompt.
-- [x] A103 freeform commentary in reverse prompt.
+- [x] A104 drafted (1,867 lines, 50 references).
+- [x] A104 dates updated (2026-03-08 07:00:00 +0000).
+- [x] A104 related article links correct (3 of 4 post_url references resolve to files in `_posts/`; A103 post_url is correct but will resolve when A103 is published).
+- [x] A104 NOT published.
+- [x] A104 release announcement NOT generated from template and reported in reverse prompt.
+- [x] A104 freeform commentary in reverse prompt.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A103-P2-T1 | Apply 17 LLM feedback items | Complete | All 17 feedback items applied: (1) central thesis stated in introduction, (2) information fidelity vs manufacturing fidelity distinction added, (3) recursion problem tightened to "unbounded in principle" with convergence, (4) threshold behavior previewed in introduction, (5) Biology-to-Metrology and Theory-to-Probe transitions added, (6) Eigen interpretation paragraph added, (7) parameter count clarified with examples, (8) selective advantage s=2 explained from first principles, (9) Two Failure Modes subsection with drift vs discrete faults, (10) Level 4 cross-generation calibration expanded with drift example, (11) three overly strong claims moderated, (12) order-of-magnitude framing added to radiation estimates, (13+16) Engineering Synthesis section with cross-disciplinary solutions and four design principles, (14) core insight restatement in conclusion, (15) all prose parentheticals inlined. |
-| A103-P2-T2 | Research and integrate additional references | Complete | 17 new references integrated from research agent (7 topic areas): Avizienis et al. (2004) fault taxonomy, Pippenger (1988) formula noise threshold, Sterpone and Violante (2005) TMR failure under radiation, Gottesman (2009) concatenated QEC convergence, Riesebos et al. (2025) experimental concatenated threshold, Burt et al. (2021) Deep Space Atomic Clock, Tarapore et al. (2017) decentralized swarm fault detection, Strobel et al. (2020) blockchain Byzantine swarm tolerance, Dorigo et al. (2021) swarm robotics review, Winfree and Bekbolatov (2004) proofreading tile sets, Schulman et al. (2012) DNA tile self-replication, Merkle (1997) convergent assembly, Gacs (2001) reliable cellular automata, Ghosh et al. (2026) non-enzymatic error correction, Sole (2011) phase transitions book, Chen and Goel (2005) error-free self-assembly, Gottesman (1997) stabilizer codes thesis. |
-| A103-P2-T3 | Verify reference integrity | Complete | 178 usages, 92 unique labels, 92 URL definitions. Zero missing. Zero unused. 6 post_url references verified (A82, A95, A99, A100, A101, A102). |
+| A104-P1-T1 | Research steampunk electronics, analog electronics, and hybrid systems | Complete | Two research agents deployed covering mechanical computing, fluidic logic, vacuum tube manufacturing, operational amplifiers, MEMS radiation-resistant logic, analog neural networks, tiered probe architecture, and in-situ resource utilization. |
+| A104-P1-T2 | Draft A104 article | Complete | 1,867 lines. Three main sections per PROMPT.md structure. Introduction with three term definitions. Conclusion with backward summary. MathJax enabled. |
+| A104-P1-T3 | Verify reference integrity | Complete | 92 usages, 50 unique labels, 50 URL definitions. Zero missing. Zero unused. 4 post_url references (A82, A100, A103, A102). 3 resolve to files in `_posts/`. A103 post_url is correctly formed and will resolve when A103 is published. |
 
 ## Notes
 
-- Next available article number: A104.
+- Next available article number: A105.
 - 1 release candidate (A103).
+- 1 new draft (A104).
 - 0 stubs.
-- 0 new drafts.
 - Eight pre-release candidate drafts remain awaiting human verification.
+- A103 must be published before A104 (A104 references A103 via post_url).
 
 ## History
 
@@ -117,3 +118,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-05 | A102-P2: "Von Neumann Probes" revised per 16 external LLM feedback items and published (2026-03-05 date, 2,597 lines, 102 refs). 34 new references added. Future Reading section added (13 entries). Draft summary synced. |
 | 2026-03-06 | A103-P1: "The Error Correction Recursion Problem" researched and written (2,164 lines, 75 refs). Left unpublished per human pilot instruction. Draft summary synced. |
 | 2026-03-07 | A103-P2: "The Error Correction Recursion Problem" revised per 17 external LLM feedback items. 17 new references integrated from research agent. Draft summary synced. (2,712 lines, 95 refs). |
+| 2026-03-08 | A104-P1: "Steampunk and Analog Electronics for Von Neumann Probe Control" researched and written (1,867 lines, 50 refs). Draft summary synced. |
