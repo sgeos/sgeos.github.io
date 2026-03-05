@@ -248,6 +248,31 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
+### The Error Correction Recursion Problem (A103) — Release Candidate
+
+**File**: `error_correction_recursion_problem.markdown`
+**Topic**: The error correction recursion problem and its implications for self-replicating systems and von Neumann probes
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: Release Candidate
+
+New article extending the A98-A102 series with an analysis of the error correction recursion problem.
+Covers von Neumann's 1956 reliability synthesis, Shannon's channel coding theorem, Hamming codes,
+TMR, Reed-Solomon codes, turbo and LDPC codes, biological error correction (DNA polymerase proofreading, mismatch repair),
+the metrology recursion (SI 2019 redefinition), fault-tolerant computing (Byzantine generals),
+quantum error correction threshold theorem, Eigen's error catastrophe, and Muller's ratchet.
+Applies Kowald's (2015) error catastrophe analysis to von Neumann probes.
+Quantifies the VNP error budget at approximately $10^{-6}$ per parameter per generation.
+Discusses evolvable hardware, self-healing materials, biological inspiration, and hypotheticals
+including self-calibrating machines, minimum viable error correctors, error correction cascades, and AGI convergence.
+MathJax enabled. 2,164 lines. 75 references (30 Reference, 6 Related Post, 30 Research, 9 Future Reading).
+All reference usages verified against definitions. Zero missing. Zero unused.
+Six post_url references confirmed (A82, A95, A99, A100, A101, A102).
+
+**Remaining Work**:
+Human review and approval for publication.
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -259,8 +284,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
-No release candidates remain.
+Eleven files exist in `_drafts/`. One is a template.
+One release candidate remains (A103).
 No stubs remain.
 A80 through A102 have been published.
 Writing Proofs (A79) has been published.
