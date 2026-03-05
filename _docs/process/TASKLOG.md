@@ -8,17 +8,17 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A103 (A103-P1)
+**Name**: Revise A103 per LLM feedback (A103-P2)
 **Status**: Complete
-**Started**: 2026-03-06
+**Started**: 2026-03-07
 
 ## Success Criteria
 
-- [x] A103 drafted (2,164 lines, 75 references).
-- [x] A103 dates updated (2026-03-06 07:00:00 +0000).
+- [x] A103 revised (2,712 lines, 95 references).
+- [x] A103 dates updated (2026-03-07 07:00:00 +0000).
 - [x] A103 related article links correct (6 post_url references verified).
-- [ ] A103 published. (Left unpublished per human pilot instruction.)
-- [ ] A103 release announcement generated from template and reported in reverse prompt.
+- [x] A103 NOT published.
+- [x] A103 release announcement NOT generated from template and reported in reverse prompt.
 - [x] A103 freeform commentary in reverse prompt.
 - [x] Draft summary synced.
 
@@ -26,10 +26,9 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A103-P1-T1 | Research error correction recursion problem | Complete | Comprehensive research across 16 topic areas: von Neumann reliability synthesis, Shannon channel coding, Hamming codes, TMR, Reed-Solomon, turbo/LDPC codes, biological error correction, metrology recursion, fault-tolerant computing, quantum error correction threshold theorem, Eigen error catastrophe, Muller's ratchet, VNP error budgets, evolvable hardware, self-healing materials. |
-| A103-P1-T2 | Draft A103 article | Complete | 2,164 lines. Covers problem statement, historical foundations (von Neumann 1956, Shannon 1948, Hamming 1950), solutions (TMR, Reed-Solomon, turbo/LDPC, biological error correction, metrology recursion, fault-tolerant computing, quantum threshold theorem), Eigen error catastrophe, Muller's ratchet, VNP error correction bar (Kowald 2015), state of art, work in progress (evolvable hardware, self-healing materials, biological inspiration), hypotheticals (self-calibrating machine, minimum viable error corrector, error correction cascade, AGI convergence). MathJax equations for Eigen threshold, von Neumann error compression, Hamming distance, quantum threshold. |
-| A103-P1-T3 | Integrate additional research references | Complete | 14 new references added: Kowald (2015) VNP error catastrophe, Eigen and Schuster (1977) hypercycle, Fowler et al. (2012) surface codes, Binder et al. (1975) SEU, Sklaroff (1976) Space Shuttle redundancy, White et al. (2001) self-healing materials, Kunkel and Bebenek (2000) DNA fidelity, Lindahl (1993) DNA instability, JCGM VIM, Steane (1996) PRL, Knill and Laflamme (1997) QEC conditions, Freitas and Merkle (2004) future reading, Eigen and Schuster (1979) hypercycle book. 75 total references (30 Reference, 6 Related Post, 30 Research, 9 Future Reading). All 75 usages verified. Zero missing. Zero unused. |
-| A103-P1-T4 | Leave A103 unpublished | Complete | Moved back to _drafts/ per human pilot instruction. |
+| A103-P2-T1 | Apply 17 LLM feedback items | Complete | All 17 feedback items applied: (1) central thesis stated in introduction, (2) information fidelity vs manufacturing fidelity distinction added, (3) recursion problem tightened to "unbounded in principle" with convergence, (4) threshold behavior previewed in introduction, (5) Biology-to-Metrology and Theory-to-Probe transitions added, (6) Eigen interpretation paragraph added, (7) parameter count clarified with examples, (8) selective advantage s=2 explained from first principles, (9) Two Failure Modes subsection with drift vs discrete faults, (10) Level 4 cross-generation calibration expanded with drift example, (11) three overly strong claims moderated, (12) order-of-magnitude framing added to radiation estimates, (13+16) Engineering Synthesis section with cross-disciplinary solutions and four design principles, (14) core insight restatement in conclusion, (15) all prose parentheticals inlined. |
+| A103-P2-T2 | Research and integrate additional references | Complete | 17 new references integrated from research agent (7 topic areas): Avizienis et al. (2004) fault taxonomy, Pippenger (1988) formula noise threshold, Sterpone and Violante (2005) TMR failure under radiation, Gottesman (2009) concatenated QEC convergence, Riesebos et al. (2025) experimental concatenated threshold, Burt et al. (2021) Deep Space Atomic Clock, Tarapore et al. (2017) decentralized swarm fault detection, Strobel et al. (2020) blockchain Byzantine swarm tolerance, Dorigo et al. (2021) swarm robotics review, Winfree and Bekbolatov (2004) proofreading tile sets, Schulman et al. (2012) DNA tile self-replication, Merkle (1997) convergent assembly, Gacs (2001) reliable cellular automata, Ghosh et al. (2026) non-enzymatic error correction, Sole (2011) phase transitions book, Chen and Goel (2005) error-free self-assembly, Gottesman (1997) stabilizer codes thesis. |
+| A103-P2-T3 | Verify reference integrity | Complete | 178 usages, 92 unique labels, 92 URL definitions. Zero missing. Zero unused. 6 post_url references verified (A82, A95, A99, A100, A101, A102). |
 
 ## Notes
 
@@ -117,3 +116,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-04 | A101-P3: "The Physics of Intergalactic Force Projection" published (2026-03-04 date, 2,856 lines, 105 refs). 30 new references added across 12 topic areas. Draft summary synced. |
 | 2026-03-05 | A102-P2: "Von Neumann Probes" revised per 16 external LLM feedback items and published (2026-03-05 date, 2,597 lines, 102 refs). 34 new references added. Future Reading section added (13 entries). Draft summary synced. |
 | 2026-03-06 | A103-P1: "The Error Correction Recursion Problem" researched and written (2,164 lines, 75 refs). Left unpublished per human pilot instruction. Draft summary synced. |
+| 2026-03-07 | A103-P2: "The Error Correction Recursion Problem" revised per 17 external LLM feedback items. 17 new references integrated from research agent. Draft summary synced. (2,712 lines, 95 refs). |

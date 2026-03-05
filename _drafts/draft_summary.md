@@ -258,15 +258,21 @@ Assign article number and publication date when ready.
 
 New article extending the A98-A102 series with an analysis of the error correction recursion problem.
 Covers von Neumann's 1956 reliability synthesis, Shannon's channel coding theorem, Hamming codes,
-TMR, Reed-Solomon codes, turbo and LDPC codes, biological error correction (DNA polymerase proofreading, mismatch repair),
-the metrology recursion (SI 2019 redefinition), fault-tolerant computing (Byzantine generals),
-quantum error correction threshold theorem, Eigen's error catastrophe, and Muller's ratchet.
+TMR, Reed-Solomon codes, turbo and LDPC codes, biological error correction,
+the metrology recursion, fault-tolerant computing, quantum error correction threshold theorem,
+Eigen's error catastrophe, and Muller's ratchet.
 Applies Kowald's (2015) error catastrophe analysis to von Neumann probes.
 Quantifies the VNP error budget at approximately $10^{-6}$ per parameter per generation.
+Revised per 17 external LLM feedback items: central thesis stated earlier, information vs manufacturing fidelity distinguished,
+recursion problem tightened, threshold behavior unified, transitions improved, Eigen interpretation expanded,
+parameter count and selective advantage clarified, two failure modes distinguished, calibration recursion expanded,
+overly strong claims moderated, order-of-magnitude estimates framed, Engineering Synthesis section added,
+conclusion strengthened, prose parentheticals inlined, cross-disciplinary solutions summarized.
+New sections: Two Failure Modes, Convergent Assembly, Error Correction in Self-Assembly, Engineering Synthesis.
 Discusses evolvable hardware, self-healing materials, biological inspiration, and hypotheticals
 including self-calibrating machines, minimum viable error correctors, error correction cascades, and AGI convergence.
-MathJax enabled. 2,164 lines. 75 references (30 Reference, 6 Related Post, 30 Research, 9 Future Reading).
-All reference usages verified against definitions. Zero missing. Zero unused.
+MathJax enabled. 2,712 lines. 95 references (31 Reference, 6 Related Post, 44 Research, 14 Future Reading).
+All 178 reference usages verified against 92 definitions. Zero missing. Zero unused.
 Six post_url references confirmed (A82, A95, A99, A100, A101, A102).
 
 **Remaining Work**:
