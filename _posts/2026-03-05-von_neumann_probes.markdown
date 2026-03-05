@@ -464,7 +464,7 @@ of a self-replicating interstellar probe
 in a 1980 paper
 in the Journal of the British
 Interplanetary Society.
-The REPRO (Reproductive Probe) concept
+The REPRO concept, short for Reproductive Probe,
 described a spacecraft
 with a total mass
 of approximately 443 metric tons.
@@ -725,11 +725,11 @@ The doubling time is
 $$t_d = \tau \cdot \frac{\ln 2}{\ln k}$$
 
 For Freitas's REPRO parameters
-($k = 10$, $\tau = 500$ years),
+of $k = 10$ and $\tau = 500$ years,
 the doubling time
 is approximately 65 years.
 For an optimistic modern estimate
-($k = 10$, $\tau = 50$ years),
+of $k = 10$ and $\tau = 50$ years,
 the doubling time
 is approximately 6.5 years.
 
@@ -759,8 +759,8 @@ making reductions in replication time
 as strategically important
 as increases in propulsion speed.
 
-For $d = 5$ light-years
-(typical interstellar distance),
+For $d = 5$ light-years,
+a typical interstellar distance,
 $v = 0.1c$,
 and $\tau = 50$ years,
 the transit time is 50 years
@@ -770,8 +770,8 @@ The effective wave speed
 is approximately $0.05c$,
 half the probe's cruise velocity.
 At this speed,
-the Milky Way
-(radius $\approx 50{,}000$ light-years)
+the Milky Way,
+with a radius of approximately 50,000 light-years,
 is colonized in approximately
 one million years.
 If replication time
@@ -942,14 +942,14 @@ von Neumann replicator.
 NASA and commercial partners
 have demonstrated
 additive manufacturing in orbit.
-Made In Space
-(now Redwire Space)
+Made In Space,
+now Redwire Space,
 installed the first 3D printer
 on the International Space Station
 in 2014
 and printed functional tools
 in microgravity.
-The Additive Manufacturing Facility (AMF)
+The Additive Manufacturing Facility, or AMF,
 has been operational
 on the ISS since 2016,
 producing parts for crew use
@@ -989,7 +989,7 @@ can contribute to closure.
 
 ### In-Situ Resource Utilization
 
-[In-Situ Resource Utilization][ref_isru] (ISRU)
+[In-Situ Resource Utilization][ref_isru], or ISRU,
 is the practice of using
 local materials
 rather than importing
@@ -1001,8 +1001,8 @@ beyond Earth.
 
 **MOXIE.**
 NASA's Mars Oxygen
-In-Situ Resource Utilization Experiment
-([MOXIE][ref_moxie])
+In-Situ Resource Utilization Experiment,
+known as [MOXIE][ref_moxie],
 on the Perseverance rover
 demonstrated oxygen extraction
 from the Martian atmosphere.
@@ -1312,14 +1312,14 @@ $$E = \frac{1}{2}mv^2$$
 
 For a modest seed factory
 of 1,000 kilograms
-accelerated to $0.01c$
-(3,000 km/s),
+accelerated to $0.01c$,
+or 3,000 km/s,
 the kinetic energy is approximately
 $4.5 \times 10^{15}$ joules,
 roughly equivalent to
 a one-megaton nuclear weapon.
-For the same mass at $0.1c$
-(30,000 km/s),
+For the same mass at $0.1c$,
+or 30,000 km/s,
 the kinetic energy rises to
 $4.5 \times 10^{17}$ joules,
 approximately 100 megatons,
@@ -1419,7 +1419,7 @@ on small bodies.
 
 ### The Initiative for Interstellar Studies
 
-The Initiative for Interstellar Studies (i4is),
+The Initiative for Interstellar Studies, or i4is,
 a nonprofit research organization
 based in the United Kingdom,
 has conducted
@@ -1577,8 +1577,8 @@ The specific closure gaps include the following.
 **Semiconductor fabrication.**
 Modern integrated circuits
 require silicon of
-99.9999999 percent purity
-(nine nines),
+99.9999999 percent purity,
+also known as nine nines,
 photolithography equipment
 with nanometer resolution,
 and clean room environments.
@@ -1685,7 +1685,7 @@ This chain includes
 prospecting, mining,
 ore processing, refining,
 materials science
-(alloy selection, heat treatment),
+such as alloy selection and heat treatment,
 component manufacturing,
 quality control,
 subsystem assembly,
@@ -1718,7 +1718,7 @@ to [galactic cosmic rays][ref_cosmic_rays],
 energetic particles
 that degrade semiconductor devices
 over time.
-Typical total ionizing dose (TID)
+Typical total ionizing dose, or TID,
 limits for commercial electronics
 range from 5 to 20 krad(Si).
 Radiation-hardened components
@@ -1739,11 +1739,11 @@ unshielded commercial electronics.
 A probe in transit
 for centuries or millennia
 must either
-shield its electronics
-(requiring significant mass),
-use radiation-hardened components
-(which are less capable
-than commercial electronics),
+shield its electronics,
+which requires significant mass,
+use radiation-hardened components,
+which are less capable
+than commercial electronics,
 or repair and replace
 its own electronics in flight.
 The last option
@@ -1763,17 +1763,17 @@ identified above.
 In the inner solar system,
 solar power is viable.
 At Jupiter's distance
-(5.2 AU),
+of 5.2 AU,
 solar flux is
 approximately 4 percent
 of the Earth-orbit value.
 Beyond Jupiter,
 solar power becomes
 increasingly mass-inefficient.
-At Saturn's distance (9.5 AU),
+At Saturn's distance of 9.5 AU,
 solar flux is approximately
 1 percent of the Earth-orbit value,
-and at Neptune (30 AU),
+and at Neptune at 30 AU,
 it falls below
 0.1 percent.
 The [Juno][ref_juno] spacecraft
@@ -1791,7 +1791,7 @@ in the outer solar system.
 Interstellar probes
 require nuclear power.
 
-[Radioisotope thermoelectric generators][ref_rtg] (RTGs)
+[Radioisotope thermoelectric generators][ref_rtg], or RTGs,
 have powered spacecraft
 beyond Jupiter for decades.
 Voyager 1's RTGs
@@ -1876,8 +1876,8 @@ and respond to
 unexpected situations,
 all without external guidance.
 
-NASA's Deep Space Optical Communications
-([DSOC][ref_dsoc]) demonstration
+NASA's [Deep Space Optical Communications][ref_dsoc]
+demonstration, known as DSOC,
 on the Psyche spacecraft
 achieved optical laser communication
 at 226 million kilometers
@@ -2006,7 +2006,7 @@ are not independent.
 They form a critical path
 with the following structure.
 
-1. **ISRU maturity** (2030s to 2040s).
+1. **ISRU maturity**, 2030s to 2040s.
 Lunar and asteroidal
 material processing
 at industrial scale.
@@ -2015,7 +2015,7 @@ commercial lunar landers,
 and asteroid mining ventures
 are driving this timeline.
 
-2. **Autonomous industrial competence** (2040s to 2060s).
+2. **Autonomous industrial competence**, 2040s to 2060s.
 AI-driven manufacturing
 from raw materials
 without human intervention.
@@ -2023,7 +2023,7 @@ Depends on advances
 in both AI
 and robotic manipulation.
 
-3. **Partial closure demonstration** (2050s to 2070s).
+3. **Partial closure demonstration**, 2050s to 2070s.
 A factory on the Moon
 or an asteroid
 that manufactures
@@ -2034,7 +2034,7 @@ This is the milestone
 that Borgue and Hein's
 concept design targets.
 
-4. **Full closure** (2070s to 2120s).
+4. **Full closure**, 2070s to 2120s.
 Closing the remaining gaps,
 primarily semiconductor fabrication
 and precision optics
@@ -2042,16 +2042,16 @@ from raw materials.
 This is the hardest step
 and the most uncertain.
 
-5. **Interstellar propulsion** (2060s to 2100s).
+5. **Interstellar propulsion**, 2060s to 2100s.
 A propulsion system
 capable of delivering
 a seed factory mass
-(hundreds of kilograms
-to hundreds of tons)
+ranging from hundreds of kilograms
+to hundreds of tons
 to a nearby star system
 within centuries.
 
-6. **Integration and testing** (2080s to 2130s).
+6. **Integration and testing**, 2080s to 2130s.
 Combining all subsystems
 into a complete self-replicating probe
 and testing it
@@ -2280,7 +2280,7 @@ and deploy a nuclear reactor
 on the lunar surface.
 Extend the concept
 to higher power levels
-(100 kilowatt to megawatt class)
+in the 100 kilowatt to megawatt class
 for industrial applications.
 Target: late 2020s
 for initial deployment.
