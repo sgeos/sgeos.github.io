@@ -313,6 +313,35 @@ Human review and approval for publication.
 A103 must be published before A104 due to post_url dependency.
 Assign publication date when ready.
 
+### Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing (A105) — New Draft
+
+**File**: `neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`
+**Topic**: Neuromorphic computing and 3D printable CPUs as approaches to reducing the semiconductor closure gap for von Neumann probes
+**Completion**: ~80%
+**Publication Sensibility**: High
+**Status**: New Draft
+
+New article extending the A98-A104 series with an analysis of neuromorphic computing
+and 3D printable CPUs as alternative computing architectures for autonomous probes.
+Two main sections cover neuromorphic computing and 3D printable computing,
+each addressing history, historical and modern examples, state of the art,
+contemporary applications, probe computing requirements, probe context evaluation,
+work in progress, and hypothetical approaches.
+Information Storage and Memory section covers neuromorphic memory, printed memory,
+redundancy and error correction, and storage longevity.
+Comparison and Architectural Implications section proposes a four-tier architecture
+of mechanical control, analog computation, neuromorphic processing, and minimal digital arithmetic.
+MathJax enabled. 3,014 lines. 67 references (39 Reference, 4 Related Post, 18 Research, 6 Future Reading).
+All 67 reference usages verified against 67 definitions. Zero missing. Zero unused.
+Four post_url references (A100, A102, A103, A104). Two resolve to files in `_posts/` (A100, A102).
+A103 and A104 must be published before A105.
+
+**Remaining Work**:
+Human review and approval for publication.
+External LLM review and revision.
+A103 and A104 must be published before A105 due to post_url dependencies.
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -324,8 +353,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
+Fourteen files exist in `_drafts/`. One is a template.
 Two release candidates remain (A103, A104).
+One new draft (A105).
 No stubs remain.
 A80 through A102 have been published.
 Writing Proofs (A79) has been published.
