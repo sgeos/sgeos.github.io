@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Steampunk and Analog Electronics for Von Neumann Probe Control"
-date:   2026-03-08 07:00:00 +0000
+date:   2026-03-09 07:00:00 +0000
 categories: science philosophy
 ---
 
@@ -47,6 +47,14 @@ The tolerances are wider.
 The materials are simpler.
 The processes are more forgiving.
 
+The objective is functional closure,
+not technological parity.
+A von Neumann probe
+does not need
+to replicate a modern microprocessor.
+It needs to replicate
+the computing capability
+required for its functions.
 The trade-off is performance.
 Mechanical and analog systems
 are slower,
@@ -61,6 +69,9 @@ or train a neural network.
 It needs to control
 a manufacturing process,
 navigate between stars,
+store and retrieve
+engineering blueprints
+and manufacturing procedures,
 and manage quality assurance
 across replication generations.
 These tasks may be achievable
@@ -71,6 +82,36 @@ from the 1800s,
 using materials available
 on any rocky body
 in the solar system.
+
+The central architectural thesis
+of this article
+is that a practical probe
+distributes computation
+across three technological layers.
+Mechanical control handles
+robust low-level actuation and sensing,
+including governors, cams,
+and fluidic logic.
+Analog computation handles
+continuous signal processing
+and feedback control,
+including vacuum tube amplifiers
+and operational amplifier circuits.
+A minimal digital core handles
+planning, communications encoding,
+error detection and correction,
+and limited symbolic reasoning.
+Each layer has progressively
+more demanding manufacturing requirements,
+but each layer also handles
+a progressively smaller share
+of the total computing workload.
+Distributing computation
+across these three layers
+reduces the semiconductor closure gap
+from a system-wide impossibility
+to a narrow constraint
+on a single subsystem.
 
 This article defines three categories
 of alternative computing technology,
@@ -107,7 +148,7 @@ that might meet probe requirements.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-08 07:00:00 +0000
+2026-03-09 07:00:00 +0000
 ```
 
 ## Steampunk Electronics
@@ -131,9 +172,128 @@ rather than an electrical signal.
 
 ### Historical Origins
 
-The earliest programmable machines
+The earliest automatic control systems
 predate electronics by centuries.
+Mechanical control
+is the foundation
+of autonomous machine operation.
 
+**Governors and feedback control.**
+James [Watt][ref_watt_governor]'s
+centrifugal governor,
+adapted for steam engines
+in the 1780s,
+is the canonical example
+of mechanical feedback control.
+The governor senses engine speed
+through the centrifugal force
+on spinning weights.
+As speed increases,
+the weights fly outward,
+closing a throttle valve
+to reduce steam flow.
+The system regulates speed
+without any electronics,
+any human intervention,
+or any awareness
+of the concept
+of feedback control theory.
+Centrifugal governors
+remained the primary speed regulators
+for prime movers
+throughout the Industrial Revolution
+and into the twentieth century.
+Modern turbine governors
+use the same principle.
+For a von Neumann probe,
+mechanical governors demonstrate
+that autonomous process regulation
+is achievable
+with the simplest
+of manufacturing techniques.
+
+**Cams and cam-timed machines.**
+[Cam][ref_cam] mechanisms
+convert rotary motion
+into precisely timed
+linear or oscillating motion.
+Cam-timed machines
+execute complex manufacturing sequences
+through the geometry
+of a rotating cam shaft,
+with each cam lobe
+triggering a specific operation
+at a specific point in the cycle.
+Automatic screw machines,
+which have manufactured
+precision threaded fasteners
+since the late nineteenth century,
+use cam-timed sequences
+to perform turning, drilling, tapping,
+and cutoff operations
+without human intervention.
+The manufacturing program
+is encoded
+in the physical shape
+of the cam.
+No electronics are required.
+No software is required.
+The program is its own hardware.
+
+**Differential gears and mechanical computation.**
+[Differential gear][ref_differential_gear] mechanisms
+perform addition and subtraction
+of rotational displacements.
+Lord Kelvin proposed
+using differential gears
+for mechanical integration
+in the 1870s,
+a concept later realized
+in Vannevar Bush's
+differential analyzer.
+[Ball-and-disk integrators][ref_ball_disk_integrator]
+perform continuous integration
+by varying the radius
+at which a rotating disk
+drives a ball,
+which in turn drives
+an output disk.
+[Planimeters][ref_planimeter]
+compute the area
+enclosed by a curve
+through mechanical integration.
+These devices demonstrate
+that calculus-level operations,
+specifically integration
+and differentiation,
+are achievable
+with purely mechanical systems.
+
+**Hydraulic and pneumatic actuation.**
+Hydraulic [servo mechanisms][ref_servomechanism]
+amplify small control signals
+into large output forces
+using pressurized fluid.
+A hydraulic servo
+can position a multi-ton load
+with millimeter precision
+based on a mechanical
+or pneumatic input signal.
+These systems are attractive
+for long-term autonomous operation
+because they tolerate radiation well,
+require no semiconductor components,
+and can be repaired or reproduced
+using relatively primitive
+industrial processes.
+Their failure modes
+are primarily mechanical wear,
+which is gradual
+and predictable
+rather than sudden
+and catastrophic.
+
+**Programmable mechanical systems.**
 The [Jacquard loom][ref_jacquard_loom],
 developed by Joseph Marie Jacquard in 1804,
 used punched cards
@@ -302,6 +462,35 @@ that useful computation
 is achievable with simple materials
 and pre-industrial manufacturing techniques.
 
+**Lord Kelvin's tide-predicting machine.**
+William Thomson designed the first
+[tide-predicting machine][ref_tide_predictor]
+in 1872 to 1873.
+The machine summed ten tidal components
+using pulley-and-crank mechanisms,
+predicting tidal heights
+at any port
+by continuously computing
+the superposition
+of sinusoidal harmonics.
+Later versions summed
+up to 24 components.
+A year of tidal predictions
+could be plotted in four hours.
+Tide-predicting machines
+remained in operational use
+through the 1960s,
+including service
+during the planning
+of the D-Day invasion.
+These machines demonstrate
+that mechanical systems
+can perform Fourier synthesis,
+a mathematical operation
+directly relevant
+to signal processing
+and trajectory computation.
+
 **Mechanical fire control computers.**
 From the 1920s through the 1940s,
 naval fire control systems
@@ -315,6 +504,16 @@ range corrections,
 and ballistic trajectories
 using cams, gears,
 and differential analyzers.
+The United States Navy's
+electromechanical [rangekeepers][ref_rangekeeper]
+served in combat
+from World War II
+through the 1991 Persian Gulf War,
+demonstrating
+that analog fire control computers
+are serviceable
+for decades
+with appropriate maintenance.
 These systems performed
 real-time computation
 in combat conditions
@@ -656,6 +855,23 @@ of the computing workload.
 
 ## Analog Electronics
 
+Steampunk electronics
+provide the manufacturing foundation
+for a self-replicating probe,
+but their limited throughput
+constrains them
+to low-level control tasks.
+The next layer
+in the architectural hierarchy
+is analog electronics,
+which adds amplification,
+signal conditioning,
+and substantially higher
+computational bandwidth
+while remaining
+far simpler to manufacture
+than semiconductor digital systems.
+
 The term "analog electronics"
 as used in this article
 refers to electronic systems
@@ -761,11 +977,53 @@ that analog computation
 is adequate for real-time control
 of complex physical processes.
 
+**Analog differential equation solvers.**
+Analog computers historically
+solved differential equations directly.
+Rather than discretizing time
+and computing numerical approximations
+as digital computers do,
+analog computers
+set up physical circuits
+whose voltages evolve
+according to the same equations
+as the system being modeled.
+A circuit built from
+operational amplifiers configured
+as integrators, summers,
+and coefficient multipliers
+solves the equation
+continuously and in real time.
+This approach made analog computers
+the preferred tool
+for aerospace trajectory computation,
+structural vibration analysis,
+and nuclear reactor simulation
+throughout the 1950s and 1960s.
+For a von Neumann probe,
+this capability is directly relevant.
+Trajectory correction,
+thermal management,
+and chemical process modeling
+are all differential equation problems.
+
 **Early spacecraft guidance.**
+The [V-2 rocket][ref_v2_rocket]'s
+guidance system,
+developed at Peenemunde
+in the early 1940s,
+used analog electronics
+and gyroscopic instruments
+for inertial guidance.
 The Polaris missile guidance system,
 developed in the 1950s,
-used analog electronics
+continued to use analog electronics
 for inertial navigation.
+The [Saturn V][ref_saturn_v]
+instrument unit
+used analog signal conditioning
+circuits alongside
+its digital guidance computer.
 Analog computers
 were competitive with
 early digital computers
@@ -819,6 +1077,25 @@ energy efficiency improvements
 of 10 to 100 times
 compared to digital implementations
 for the same computation.
+
+**Inherent robustness of analog computation.**
+[Lammie et al.][research_lammie]
+demonstrated in 2025
+that analog in-memory computing chips
+based on phase change memory devices
+exhibit inherent adversarial robustness.
+The stochastic noise
+present in analog computation,
+which is traditionally viewed
+as a disadvantage,
+provides natural resistance
+to adversarial perturbations.
+This finding suggests
+that the imprecision of analog systems
+may be a feature
+rather than a defect
+for applications requiring
+fault tolerance and robustness.
 
 **Neuromorphic computing.**
 [Neuromorphic][ref_neuromorphic] processors
@@ -1565,14 +1842,63 @@ of a system
 that can work glass and metal.
 
 The third tier consists
-of a small digital computer,
+of a minimal digital core,
+a supervisory computer
+responsible for symbolic tasks
+and high-level decision making.
+This computer,
 either manufactured from vacuum tubes
-at substantial mass and power cost,
+at substantial mass and power cost
 or carried as non-replicable
-seed material from Earth.
-This computer handles navigation,
-communication encoding,
-and replication management.
+seed material from Earth,
+handles the tasks
+that genuinely require
+digital computation.
+These tasks include
+mission planning
+and replication scheduling,
+symbolic reasoning
+about manufacturing sequences
+and resource allocation,
+communications encoding and decoding
+with error correction,
+data compression
+for interstellar communication,
+error detection and correction
+for stored data,
+and navigation calculations
+involving discrete trajectory decisions.
+The digital core
+can be very small
+relative to modern computers.
+A machine comparable
+to early 1950s computers,
+with perhaps $10^3$ vacuum tubes,
+can perform all of these functions
+if they are executed sequentially
+rather than concurrently.
+
+This tiered architecture
+is not exotic.
+Most real-world engineering systems
+already combine
+mechanical components,
+analog electronics,
+and digital control.
+An automobile engine
+uses mechanical actuation,
+analog sensor conditioning,
+and a digital engine control unit.
+A modern aircraft
+uses mechanical flight surfaces,
+analog servo amplifiers,
+and digital flight computers.
+The proposed probe architecture
+extends this common engineering pattern
+to its logical conclusion
+by building each layer
+from the simplest technology
+adequate for its function.
 
 This tiered architecture
 minimizes the closure gap
@@ -1626,12 +1952,518 @@ using a hybrid architecture
 that eliminates
 the semiconductor dependency entirely.
 
+## Information Storage
+
+A self-replicating probe
+must store two distinct categories
+of information.
+
+The first category is operational data.
+This includes navigation tables,
+star maps, calibration constants,
+communication protocols,
+and mission parameters.
+Operational data is read frequently
+during normal probe operations
+and may be updated occasionally
+as the probe refines its models
+of the local environment.
+
+The second category is replication knowledge.
+This includes detailed engineering blueprints,
+manufacturing procedures,
+material specifications,
+quality control criteria,
+and assembly sequences
+for building new probes
+and the industrial infrastructure
+that supports probe manufacturing.
+Replication knowledge
+is the probe's genome.
+It must be stored
+with sufficient fidelity
+to produce functional offspring
+across many generations,
+connecting directly
+to the error correction
+recursion problem
+analyzed in the
+[companion article][related_post_error_correction].
+
+### Pre-Semiconductor Storage Technologies
+
+Several storage technologies
+that predate semiconductor memory
+are candidates
+for probe information storage.
+
+**[Magnetic core memory][ref_magnetic_core].**
+Magnetic core memory,
+the dominant form
+of computer memory
+from the mid-1950s
+through the mid-1970s,
+stores data
+as the magnetization direction
+of small ferrite rings.
+Each ring, or core,
+stores one bit.
+Core memory is non-volatile,
+retaining data without power.
+It is radiation-hardened,
+as ferrite cores
+are immune to single-event upsets.
+Manufacturing requires
+ferrite material,
+fine copper wire,
+and the ability to thread wires
+through microscopic cores.
+The weaving process
+was historically performed by hand
+at high labor cost,
+but could be automated
+by a probe
+with sufficient dexterity.
+
+**[Magnetic tape][ref_magnetic_tape]
+and [magnetic drum][ref_magnetic_drum] storage.**
+Magnetic tape
+stores data as magnetization patterns
+on a thin ribbon
+coated with magnetic oxide.
+Magnetic drums
+store data on the surface
+of a rotating cylinder.
+Both technologies
+are straightforward to manufacture
+from iron oxide, a binder,
+and a substrate material.
+Magnetic tape can store
+large volumes of data
+at low cost per bit,
+making it suitable
+for archival storage
+of replication knowledge.
+The primary limitation
+is access speed.
+Tape is sequential access,
+requiring minutes
+to locate specific data.
+For a probe
+that can plan its data access
+in advance,
+this limitation is manageable.
+
+**[Punched tape][ref_punched_tape]
+and mechanically encoded storage.**
+Punched tape
+encodes data
+as the presence or absence
+of holes at specific positions.
+The medium is durable,
+simple to manufacture,
+and readable
+by purely mechanical means.
+A probe could punch data
+into metal tape or plates
+that would survive
+for millennia
+without degradation.
+The information density is low
+compared to magnetic storage,
+but for critical data
+such as core manufacturing procedures,
+the extreme durability
+may justify the storage volume.
+
+**[5D optical storage][ref_5d_optical_storage].**
+Researchers at the University of Southampton
+have demonstrated
+data storage in nanostructured glass
+using femtosecond laser pulses.
+The data is encoded
+in five dimensions of the glass structure,
+three spatial dimensions
+plus the orientation and magnitude
+of birefringent nanostructures.
+This technology can store
+360 terabytes per disk
+and the data is stable
+for billions of years
+at room temperature.
+A probe could carry
+its complete replication knowledge
+on a small number
+of glass disks
+that would outlast
+any other component
+of the probe.
+The reader requires
+a polarization microscope,
+which is achievable
+with analog optical components.
+
+**The [Rosetta Disk][ref_rosetta_disk].**
+The Long Now Foundation's
+Rosetta Disk
+uses nickel microetching
+to store information
+as microscopic text
+readable with optical magnification.
+The nickel substrate
+is expected to survive
+for thousands of years
+without degradation.
+This approach demonstrates
+that archival-quality data storage
+is achievable
+with pre-semiconductor materials.
+
+**The [Voyager Golden Record][ref_voyager_golden_record].**
+Each Voyager spacecraft carries
+a 12-inch gold-plated copper
+phonograph record
+containing images, sounds,
+and greetings from Earth.
+The gold plating provides
+corrosion resistance
+and impermeability.
+The analog groove storage
+requires no electronic reader,
+only a mechanical stylus
+and transducer.
+The records are expected to survive
+longer than Earth itself,
+demonstrating that analog storage
+on durable metallic substrates
+can preserve data
+for billions of years
+in interstellar space.
+
+### Storage Longevity and Redundancy
+
+The longevity requirements
+for probe data storage
+are extreme.
+An interstellar probe
+traveling at 10 percent
+of the speed of light
+requires approximately 40 years
+to reach the nearest star system.
+An intergalactic probe
+traveling at similar speeds
+requires millions of years
+to reach the nearest galaxy.
+The storage medium
+must survive these transit times
+without unacceptable data degradation.
+
+The probe must employ
+redundancy strategies
+to protect against data corruption.
+Replicated storage,
+in which multiple copies
+of critical data
+are maintained on separate media,
+provides protection
+against localized damage.
+[Error-correcting codes][related_post_error_correction],
+which add structured redundancy
+to the data itself,
+enable detection and correction
+of individual bit errors
+without requiring
+full data duplication.
+Periodic data verification,
+in which the digital core
+reads stored data,
+checks it against
+error-correcting codes,
+and repairs corrupted copies
+from uncorrupted replicas,
+extends the effective lifetime
+of the storage system
+indefinitely
+as long as the verification
+and repair process
+itself remains functional.
+
+[Triple modular redundancy][ref_tmr],
+in which three copies
+of a critical system
+operate in parallel
+and a majority vote
+determines the output,
+is applicable
+to both digital and analog systems.
+Modern [fly-by-wire][ref_fly_by_wire] aircraft
+use triple or quadruple redundancy
+for flight control computers,
+with mechanical or hydraulic backup
+as a final fallback.
+A von Neumann probe
+could apply the same principle
+to its storage systems,
+maintaining three copies
+of critical data
+on separate physical media
+and voting among them
+to detect and correct
+individual storage failures.
+
+A tiered storage strategy
+matches the storage technology
+to the criticality
+and access pattern
+of the data.
+Critical replication knowledge
+is stored on the most durable medium,
+such as etched metal
+or nanostructured glass.
+Frequently accessed operational data
+is stored on faster media
+such as magnetic core memory.
+Bulk data such as star maps
+is stored on high-capacity media
+such as magnetic tape.
+
+## Manufacturing Implications
+
+The proposed three-tier architecture
+has direct implications
+for manufacturing feasibility.
+
+**Mechanical systems require
+relatively simple machining.**
+Gears, cams, levers,
+and fluidic channels
+can be fabricated
+by a probe
+with basic metalworking capability,
+including casting, milling, drilling,
+and surface grinding.
+The tolerances are on the order
+of micrometers to tens of micrometers.
+The materials are common metals
+and alloys available
+from asteroidal resources.
+No exotic materials are required.
+No clean room is required.
+
+**Analog electronics can be built
+with relatively large-feature components.**
+Vacuum tubes require
+glass or ceramic envelopes,
+metal electrodes,
+and a vacuum pump.
+Resistors are lengths
+of resistive wire or film.
+Capacitors are layers
+of conductor and dielectric.
+Inductors are coils of wire
+wound on ferrite or iron cores.
+The smallest feature size
+in a vacuum tube circuit
+is on the order of millimeters,
+approximately six orders of magnitude
+larger than the features
+in a modern integrated circuit.
+This difference
+in manufacturing precision
+is the fundamental reason
+that vacuum tube electronics
+are replicable
+where semiconductor electronics
+are not.
+
+**Only a small portion
+of the probe
+requires advanced fabrication.**
+If the digital core
+is manufactured from vacuum tubes,
+the entire probe computing system
+is replicable
+from materials and processes
+available on any rocky body.
+If a semiconductor digital core
+is deemed necessary,
+it constitutes
+a small fraction
+of the total computing system,
+reducing the non-replicable seed mass
+from the entire computing system
+to a single subsystem.
+This directly reduces
+the closure gap
+identified in the companion article.
+
+## Radically Devolved Probes
+
+The preceding analysis
+has assumed interstellar probes
+with transit times
+on the order of decades.
+For probes designed
+for intergalactic exploration,
+where travel times
+may reach millions of years,
+the engineering constraints
+shift fundamentally.
+
+### The Intergalactic Timescale Problem
+
+Digital electronics
+may degrade over extremely long timescales
+even with radiation shielding.
+Accumulated radiation damage,
+electromigration in conductors,
+dielectric breakdown,
+and thermal cycling
+all contribute to progressive failure.
+Semiconductor devices
+are particularly vulnerable
+to long-term degradation
+because their function depends
+on precisely controlled
+dopant distributions
+that can diffuse
+over geological timescales.
+
+Mechanical and ceramic systems,
+by contrast,
+can survive for millennia
+or longer
+with minimal degradation.
+[Presolar grains][ref_presolar_grains],
+silicon carbide crystals
+that condensed around distant stars
+and survived the interstellar medium,
+the solar nebula,
+and geological time
+inside meteorites,
+demonstrate that certain mineral structures
+persist for billions of years
+in interstellar space.
+[Heck et al.][research_heck]
+dated presolar grains
+in the Murchison meteorite
+to up to seven billion years old,
+the oldest solid material
+found on Earth.
+The [Antikythera mechanism][ref_antikythera]
+survived over two thousand years
+on the ocean floor.
+Astronomical clocks
+such as the
+[Prague Astronomical Clock][ref_prague_clock],
+first installed in 1410,
+have operated for centuries
+with periodic maintenance.
+The [10,000 Year Clock][ref_long_now_clock],
+designed by Danny Hillis
+for the Long Now Foundation,
+is engineered
+to operate for ten millennia
+using mechanical principles
+that minimize wear
+and environmental sensitivity.
+
+### A Minimal Analog Probe
+
+A probe designed
+for intergalactic transit
+lasting millions of years
+might rely almost entirely
+on mechanical
+and analog electronic systems,
+with very limited
+or no digital logic.
+Such a radically devolved probe
+would sacrifice
+computational sophistication
+for maximum longevity
+and robustness.
+
+A minimal analog probe
+might perform
+only the following functions.
+Slow navigation,
+using mechanical gyroscopes
+and analog star trackers
+to maintain course
+over million-year transit times.
+Environmental sensing,
+using analog sensors
+to detect arrival
+at a target star system
+and assess resource availability.
+Extremely simple replication strategies,
+using cam-timed manufacturing sequences
+and analog quality control
+to produce copies
+that are mechanically identical
+to the parent probe
+without the need
+for complex digital computation.
+
+The replication knowledge
+for such a probe
+would be stored
+in the physical geometry
+of its cam programs,
+its wiring patterns,
+and its mechanical templates,
+analogous to how
+the replication knowledge
+of a virus
+is stored
+in its molecular structure
+rather than
+in a symbolic genome.
+
+### The Devolution Trade-Off
+
+A radically devolved probe
+trades capability for persistence.
+It cannot perform
+complex trajectory optimization,
+sophisticated error correction,
+or adaptive manufacturing.
+But it can persist
+across timescales
+that would destroy
+any semiconductor-based system.
+If even a small fraction
+of such probes
+arrive at target galaxies
+with sufficient functionality
+to begin replication,
+the strategy succeeds
+through numbers and patience
+rather than individual capability.
+
+This represents
+the extreme end
+of the architectural spectrum
+described in this article.
+The three-tier architecture
+proposed for interstellar probes
+places the boundary
+between analog and digital
+at the point
+of acceptable manufacturing complexity.
+The radically devolved probe
+eliminates digital computation entirely,
+pushing the boundary to zero
+and accepting the resulting
+limitations in capability.
+
 ## Conclusion
 
 The semiconductor fabrication
 closure gap
 identified in the companion article
-on von Neumann probes
+on [von Neumann probes][related_post_von_neumann_probes]
 is the single hardest obstacle
 to self-replicating spacecraft.
 Modern integrated circuits
@@ -1705,27 +2537,56 @@ Analog steampunk electronics,
 combining mechanical and analog elements
 in a hybrid architecture,
 offer the most promising approach.
-A tiered control system
-that uses fluidic or mechanical controllers
-for real-time manufacturing control,
-vacuum tube analog electronics
-for quality assurance
-and signal processing,
-and a small digital computer
-for navigation and communication
-distributes the computing workload
+The core of this article's argument
+is the three-layer architecture.
+Mechanical control,
+using governors, cams,
+and fluidic logic,
+handles robust low-level actuation
+and manufacturing process control.
+Analog computation,
+using vacuum tube amplifiers
+and operational amplifier circuits,
+handles continuous signal processing,
+quality assurance,
+and feedback control.
+A minimal digital core,
+either manufactured from vacuum tubes
+or carried as seed material,
+handles planning, communications encoding,
+error correction,
+and symbolic reasoning.
+
+This architecture distributes
+the computing workload
 across technologies
 matched to their manufacturing feasibility.
-This approach
-reduces the semiconductor closure gap
-from a system-wide requirement
-to a narrow requirement
-for a single subsystem
-that can be carried
-as non-replicable seed material
-or potentially manufactured
-from vacuum tube logic
-at acceptable cost.
+Each layer handles
+the tasks best suited
+to its capabilities,
+and the bulk of the computing work
+falls on the layers
+that are easiest to manufacture.
+The semiconductor closure gap
+shrinks from a system-wide impossibility
+to a narrow constraint
+on a single subsystem.
+
+The probe only needs
+sufficient computation,
+not modern computing technology.
+For extremely long-duration
+intergalactic missions,
+even the digital core
+may be unnecessary.
+A radically devolved probe
+relying entirely
+on mechanical and analog systems
+trades computational sophistication
+for maximum longevity and robustness,
+persisting across timescales
+that would destroy
+any semiconductor-based system.
 
 The central insight
 is that the closure problem
@@ -1753,7 +2614,9 @@ The following sources extend
 the topics discussed in this article.
 
 - [Analog and Hybrid Computer Programming, Karplus and Soroka, 1959][future_karplus]
+- [Analog Computing, Ulmann, De Gruyter, 2022][future_ulmann]
 - [Computing: A Concise History, Campbell-Kelly, 2012][future_campbell_kelly]
+- [Digital Instrumentation and Control Systems in Nuclear Power Plants, National Research Council, 1997][future_nrc_nuclear]
 - [Electronic Analog and Hybrid Computers, Korn and Korn, 1964][future_korn]
 - [Kinematic Self-Replicating Machines, Freitas and Merkle, 2004][future_freitas_merkle]
 - [Neuromorphic Computing and Engineering (Journal), IOP Publishing][future_neuromorphic]
@@ -1762,15 +2625,21 @@ the topics discussed in this article.
 
 ## References
 
+- [5D Optical Data Storage, Wikipedia][ref_5d_optical_storage]
 - [Ada Lovelace, Wikipedia][ref_ada_lovelace]
 - [Analytical Engine, Wikipedia][ref_analytical_engine]
 - [Antikythera Mechanism, Wikipedia][ref_antikythera]
 - [Apollo Guidance Computer, Wikipedia][ref_agc]
 - [Audion, Wikipedia][ref_audion]
+- [Ball-and-Disk Integrator, Wikipedia][ref_ball_disk_integrator]
+- [Cam, Wikipedia][ref_cam]
+- [Centrifugal Governor, Wikipedia][ref_watt_governor]
 - [Charles Babbage, Wikipedia][ref_babbage]
+- [Clock of the Long Now, Wikipedia][ref_long_now_clock]
 - [Coanda Effect, Wikipedia][ref_coanda_effect]
 - [Difference Engine, Wikipedia][ref_difference_engine]
 - [Differential Analyzer, Wikipedia][ref_differential_analyzer]
+- [Differential Gear, Wikipedia][ref_differential_gear]
 - [Electromagnetic Pulse, Wikipedia][ref_emp]
 - [ENIAC, Wikipedia][ref_eniac]
 - [Fleming Valve, Wikipedia][ref_fleming_valve]
@@ -1781,6 +2650,9 @@ the topics discussed in this article.
 - [Kerrison Predictor, Wikipedia][ref_kerrison_predictor]
 - [Klystron, Wikipedia][ref_klystron]
 - [Konrad Zuse, Wikipedia][ref_zuse]
+- [Magnetic Core Memory, Wikipedia][ref_magnetic_core]
+- [Magnetic Drum, Wikipedia][ref_magnetic_drum]
+- [Magnetic Tape, Wikipedia][ref_magnetic_tape]
 - [Magnetron, Wikipedia][ref_magnetron]
 - [Mark 37 Fire Control System, Wikipedia][ref_mark_37]
 - [MEMS, Wikipedia][ref_mems]
@@ -1790,12 +2662,25 @@ the topics discussed in this article.
 - [Nuclear Reactor, Wikipedia][ref_nuclear_reactor]
 - [Operational Amplifier, Wikipedia][ref_operational_amplifier]
 - [Perceptron, Wikipedia][ref_perceptron]
+- [Fly-by-Wire, Wikipedia][ref_fly_by_wire]
+- [Planimeter, Wikipedia][ref_planimeter]
+- [Prague Astronomical Clock, Wikipedia][ref_prague_clock]
+- [Presolar Grains, Wikipedia][ref_presolar_grains]
+- [Punched Tape, Wikipedia][ref_punched_tape]
+- [Rangekeeper, Wikipedia][ref_rangekeeper]
+- [Rosetta Project, Wikipedia][ref_rosetta_disk]
+- [Saturn V, Wikipedia][ref_saturn_v]
 - [Science Museum London, Wikipedia][ref_science_museum]
 - [Sperry Corporation, Wikipedia][ref_sperry]
+- [Servomechanism, Wikipedia][ref_servomechanism]
 - [Strowger Switch, Wikipedia][ref_strowger_switch]
+- [Tide-Predicting Machine, Wikipedia][ref_tide_predictor]
 - [Torpedo Data Computer, Wikipedia][ref_torpedo_data_computer]
+- [Triple Modular Redundancy, Wikipedia][ref_tmr]
+- [V-2 Rocket, Wikipedia][ref_v2_rocket]
 - [Vacuum Tube, Wikipedia][ref_vacuum_tube]
 - [Vannevar Bush, Wikipedia][ref_vannevar_bush]
+- [Voyager Golden Record, Wikipedia][ref_voyager_golden_record]
 - [Z1, Wikipedia][ref_z1]
 
 ### Related Posts
@@ -1807,29 +2692,42 @@ the topics discussed in this article.
 
 ### Research
 
+- [A Self-Reproducing Interstellar Probe (Journal of the British Interplanetary Society), Freitas, 1980][research_freitas_1980]
+- [Advanced Automation for Space Missions (NASA Conference Publication 2255), Freitas (ed.), 1982][research_nasa_aasm]
 - [Affordable, Rapid Bootstrapping of the Space Industry and Solar System Civilization (Journal of Aerospace Engineering), Metzger et al., 2013][research_metzger]
 - [Analysis of Problems in Dynamics by Electronic Circuits (Proceedings of the IRE), Ragazzini, Randall, and Russell, 1947][research_ragazzini]
+- [Lifetimes of Interstellar Dust from Cosmic Ray Exposure Ages of Presolar Silicon Carbide (PNAS), Heck et al., 2020][research_heck]
 - [Near-Term Self-Replicating Probes: A Concept Design (Acta Astronautica), Borgue and Hein, 2021][research_borgue]
 - [Radiation-Resistant MEMS Logic Gates (Sensors and Actuators), Tabib-Azar, Chowdhury, and Saab, 2012][research_tabib_azar]
+- [The Inherent Adversarial Robustness of Analog In-Memory Computing (Nature Communications), Lammie et al., 2025][research_lammie]
 
+[ref_5d_optical_storage]: https://en.wikipedia.org/wiki/5D_optical_data_storage
 [ref_ada_lovelace]: https://en.wikipedia.org/wiki/Ada_Lovelace
 [ref_agc]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
 [ref_analytical_engine]: https://en.wikipedia.org/wiki/Analytical_engine
 [ref_antikythera]: https://en.wikipedia.org/wiki/Antikythera_mechanism
 [ref_audion]: https://en.wikipedia.org/wiki/Audion
 [ref_babbage]: https://en.wikipedia.org/wiki/Charles_Babbage
+[ref_ball_disk_integrator]: https://en.wikipedia.org/wiki/Ball-and-disk_integrator
+[ref_cam]: https://en.wikipedia.org/wiki/Cam
 [ref_coanda_effect]: https://en.wikipedia.org/wiki/Coand%C4%83_effect
 [ref_difference_engine]: https://en.wikipedia.org/wiki/Difference_engine
 [ref_differential_analyzer]: https://en.wikipedia.org/wiki/Differential_analyser
+[ref_differential_gear]: https://en.wikipedia.org/wiki/Differential_(mechanical_device)
 [ref_emp]: https://en.wikipedia.org/wiki/Electromagnetic_pulse
 [ref_eniac]: https://en.wikipedia.org/wiki/ENIAC
 [ref_fleming_valve]: https://en.wikipedia.org/wiki/Fleming_valve
+[ref_fly_by_wire]: https://en.wikipedia.org/wiki/Fly-by-wire
 [ref_flodac]: https://en.wikipedia.org/wiki/FLODAC
 [ref_fluidics]: https://en.wikipedia.org/wiki/Fluidics
 [ref_harvard_mark_i]: https://en.wikipedia.org/wiki/Harvard_Mark_I
 [ref_jacquard_loom]: https://en.wikipedia.org/wiki/Jacquard_loom
 [ref_kerrison_predictor]: https://en.wikipedia.org/wiki/Kerrison_Predictor
 [ref_klystron]: https://en.wikipedia.org/wiki/Klystron
+[ref_long_now_clock]: https://en.wikipedia.org/wiki/Clock_of_the_Long_Now
+[ref_magnetic_core]: https://en.wikipedia.org/wiki/Magnetic-core_memory
+[ref_magnetic_drum]: https://en.wikipedia.org/wiki/Drum_memory
+[ref_magnetic_tape]: https://en.wikipedia.org/wiki/Magnetic_tape_data_storage
 [ref_magnetron]: https://en.wikipedia.org/wiki/Cavity_magnetron
 [ref_mark_37]: https://en.wikipedia.org/wiki/Mark_37_director
 [ref_mems]: https://en.wikipedia.org/wiki/Microelectromechanical_systems
@@ -1839,12 +2737,25 @@ the topics discussed in this article.
 [ref_nuclear_reactor]: https://en.wikipedia.org/wiki/Nuclear_reactor
 [ref_operational_amplifier]: https://en.wikipedia.org/wiki/Operational_amplifier
 [ref_perceptron]: https://en.wikipedia.org/wiki/Perceptron
+[ref_planimeter]: https://en.wikipedia.org/wiki/Planimeter
+[ref_prague_clock]: https://en.wikipedia.org/wiki/Prague_astronomical_clock
+[ref_presolar_grains]: https://en.wikipedia.org/wiki/Presolar_grains
+[ref_punched_tape]: https://en.wikipedia.org/wiki/Punched_tape
+[ref_rangekeeper]: https://en.wikipedia.org/wiki/Rangekeeper
+[ref_rosetta_disk]: https://en.wikipedia.org/wiki/Rosetta_Project
+[ref_saturn_v]: https://en.wikipedia.org/wiki/Saturn_V
+[ref_servomechanism]: https://en.wikipedia.org/wiki/Servomechanism
 [ref_science_museum]: https://en.wikipedia.org/wiki/Science_Museum,_London
 [ref_sperry]: https://en.wikipedia.org/wiki/Sperry_Corporation
 [ref_strowger_switch]: https://en.wikipedia.org/wiki/Strowger_switch
+[ref_tide_predictor]: https://en.wikipedia.org/wiki/Tide-predicting_machine
+[ref_tmr]: https://en.wikipedia.org/wiki/Triple_modular_redundancy
 [ref_torpedo_data_computer]: https://en.wikipedia.org/wiki/Torpedo_Data_Computer
+[ref_v2_rocket]: https://en.wikipedia.org/wiki/V-2_rocket
 [ref_vacuum_tube]: https://en.wikipedia.org/wiki/Vacuum_tube
 [ref_vannevar_bush]: https://en.wikipedia.org/wiki/Vannevar_Bush
+[ref_voyager_golden_record]: https://en.wikipedia.org/wiki/Voyager_Golden_Record
+[ref_watt_governor]: https://en.wikipedia.org/wiki/Centrifugal_governor
 [ref_z1]: https://en.wikipedia.org/wiki/Z1_(computer)
 [ref_zuse]: https://en.wikipedia.org/wiki/Konrad_Zuse
 
@@ -1859,9 +2770,15 @@ the topics discussed in this article.
 [future_karplus]: https://en.wikipedia.org/wiki/Analog_computer
 [future_korn]: https://en.wikipedia.org/wiki/Analog_computer
 [future_neuromorphic]: https://iopscience.iop.org/journal/2634-4386
+[future_nrc_nuclear]: https://doi.org/10.17226/5432
+[future_ulmann]: https://www.degruyterbrill.com/document/doi/10.1515/9783110787740/html
 
 [research_borgue]: https://doi.org/10.1016/j.actaastro.2021.03.004
+[research_freitas_1980]: https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm
+[research_heck]: https://doi.org/10.1073/pnas.1904573117
+[research_lammie]: https://doi.org/10.1038/s41467-025-56595-2
 [research_metzger]: https://doi.org/10.1061/(ASCE)AS.1943-5525.0000236
+[research_nasa_aasm]: https://ntrs.nasa.gov/citations/19830007077
 [research_ragazzini]: https://doi.org/10.1109/JRPROC.1947.226503
 [research_tabib_azar]: https://doi.org/10.1016/j.sna.2012.02.028
 [research_von_neumann_automata]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
