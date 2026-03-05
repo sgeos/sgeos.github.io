@@ -8,36 +8,37 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Revise A104 per LLM feedback (A104-P2)
+**Name**: Draft A105 (A105-P1)
 **Status**: Complete
-**Started**: 2026-03-09
+**Started**: 2026-03-10
 
 ## Success Criteria
 
-- [x] A104 revised (2,784 lines, 78 references).
-- [x] A104 dates updated (2026-03-09 07:00:00 +0000).
-- [x] A104 related article links correct (3 of 4 post_url references resolve to files in `_posts/`; A103 post_url is correct but will resolve when A103 is published).
-- [x] A104 NOT published.
-- [x] A104 release announcement NOT generated from template and reported in reverse prompt.
-- [x] A104 freeform commentary in reverse prompt.
+- [x] A105 drafted (3,014 lines, 67 references).
+- [x] A105 dates updated (2026-03-10 07:00:00 +0000).
+- [x] A105 related article links correct (2 of 4 post_url references resolve to files in `_posts/`; A103 and A104 post_url references are correctly formed but will resolve when published).
+- [x] A105 NOT published.
+- [x] A105 release announcement NOT generated from template and reported in reverse prompt.
+- [x] A105 freeform commentary in reverse prompt.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A104-P2-T1 | Apply 11 LLM feedback items | Complete | All 11 feedback items applied: (1) three-layer architecture thesis elevated in introduction with explicit preview, (2) functional closure vs technological parity framing added, (3) mechanical control expanded with governors, cams, differential gears, hydraulic servos, (4) analog computation expanded with differential equation solvers, V-2 and Saturn V guidance, (5) minimal digital core functions explicitly identified, (6) radically devolved analog probes section added with presolar grain evidence, (7) information storage section added with magnetic core, tape, punched tape, 5D optical, Rosetta Disk, Voyager Golden Record, (8) data redundancy section added with TMR, fly-by-wire, tiered storage strategy, (9) hybrid architecture commonality noted with automobile and aircraft examples, (10) manufacturing implications section added with feature size comparison, (11) conclusion restated three-layer architecture with devolution extension. |
-| A104-P2-T2 | Research and integrate additional references | Complete | 28 new references integrated from two research agents: tide-predicting machine, rangekeeper, servomechanism, fly-by-wire, TMR, presolar grains, Voyager Golden Record, 5D optical storage, magnetic core memory, magnetic tape, magnetic drum, punched tape, Prague clock, Long Now clock, cam, differential gear, ball-disk integrator, planimeter, V-2 rocket, Saturn V, Rosetta Disk, Heck et al. (2020) presolar grain lifetimes, Lammie et al. (2025) analog robustness, Freitas (1980) self-reproducing probe, NASA AASM (1982), NRC (1997) nuclear I&C, Ulmann (2022) analog computing textbook. |
-| A104-P2-T3 | Verify reference integrity | Complete | 148 usages, 78 unique labels, 78 URL definitions. Zero missing. Zero unused. 4 post_url references (A82, A100, A103, A102). 3 resolve to files in `_posts/`. A103 post_url is correctly formed and will resolve when A103 is published. |
+| A105-P1-T1 | Research neuromorphic computing and 3D printable CPUs | Complete | Two research agents deployed. Neuromorphic agent returned 60 references covering foundational papers, hardware platforms, SNNs, space applications, memristive memory, organic/photonic/spintronic approaches, extreme temperature operation. 3D printing agent returned 90 references covering printed electronics history, flexible processors, additive manufacturing techniques, printed memory, in-space manufacturing, self-replicating machines. |
+| A105-P1-T2 | Draft A105 article | Complete | Two main sections (Neuromorphic Computing, 3D Printable Computing) each covering history, historical and modern examples, state of the art, contemporary applications, probe requirements, probe context evaluation, work in progress, hypothetical approaches. Information Storage and Memory section covering neuromorphic memory, printed memory, redundancy, storage longevity. Comparison and Architectural Implications section with four-tier architecture proposal. |
+| A105-P1-T3 | Verify reference integrity | Complete | 67 usages, 67 definitions. Zero missing. Zero unused. 4 post_url references (A100, A102, A103, A104). 2 resolve to files in `_posts/` (A100, A102). A103 and A104 post_url references correctly formed and will resolve when published. |
 
 ## Notes
 
-- Next available article number: A105.
-- 1 release candidate (A103).
-- 1 new draft (A104).
+- Next available article number: A106.
+- 2 release candidates (A103, A104).
+- 1 new draft (A105).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- A103 must be published before A104 (A104 references A103 via post_url).
+- A103 must be published before A104 and A105 (A104 and A105 reference A103 via post_url).
+- A104 must be published before A105 (A105 references A104 via post_url).
 
 ## History
 
@@ -120,3 +121,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-07 | A103-P2: "The Error Correction Recursion Problem" revised per 17 external LLM feedback items. 17 new references integrated from research agent. Draft summary synced. (2,712 lines, 95 refs). |
 | 2026-03-08 | A104-P1: "Steampunk and Analog Electronics for Von Neumann Probe Control" researched and written (1,867 lines, 50 refs). Draft summary synced. |
 | 2026-03-09 | A104-P2: "Steampunk and Analog Electronics for Von Neumann Probe Control" revised per 11 external LLM feedback items. 28 new references integrated from two research agents. Draft summary synced. (2,784 lines, 78 refs). |
+| 2026-03-10 | A105-P1: "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing" researched and written (3,014 lines, 67 refs). Two research agents deployed. Draft summary synced. |
