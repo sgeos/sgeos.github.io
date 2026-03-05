@@ -8,94 +8,101 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-03-10
-**Task**: A105-P1 Draft A105
+**Date**: 2026-03-11
+**Task**: A106-P1 Draft A106
 
 ---
 
 ## Verification
 
-### A105 Drafted (Unpublished)
+### A106 Drafted (Unpublished)
 
-A105 "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing" drafted at `_drafts/neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`. Left unpublished per human pilot instruction.
+A106 "Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications" drafted at `_drafts/two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`. Left unpublished per human pilot instruction.
 
-**Final draft**: 3,014 lines, 67 references (39 Reference, 4 Related Post, 18 Research, 6 Future Reading).
+**Final draft**: 2,423 lines, 93 references (80 Reference, 2 Related Post, 4 Research, 6 Future Reading).
 
 **Dates set:**
-- Front matter date: `2026-03-10 07:00:00 +0000`.
+- Front matter date: `2026-03-11 07:00:00 +0000`.
 - Software versions date: matching.
 
 **Links verified:**
-- Four post_url references: A100 Roadmap, A102 Von Neumann Probes, A103 Error Correction Recursion Problem, A104 Steampunk and Analog Electronics.
-- Two of four resolve to files in `_posts/` (A100, A102).
-- A103 and A104 post_url references are correctly formed but A103 and A104 remain in `_drafts/`. Will resolve when published. A103 must be published before A104, and both must be published before A105.
-- All 67 reference link usages matched to 67 URL definitions. Zero missing. Zero unused.
+- Two post_url references: A96 History of Rocketplanes, A90 Introduction to Space Studies.
+- Both resolve to files in `_posts/`. No publication order dependencies.
+- All 93 reference link usages matched to 93 URL definitions. Zero missing. Zero unused.
 
 **Research agents deployed:**
-- Neuromorphic computing agent: returned 60 references covering foundational papers, hardware platforms (Loihi, TrueNorth, SpiNNaker, BrainScaleS, Akida, Tianjic), SNNs, STDP, memristive systems, space applications (TechEdSat-13, ESA Neuro SatCom, NEUROSPACE), organic/photonic/spintronic neuromorphic devices, extreme temperature operation, and 3D-printed neuromorphic devices.
-- 3D printable computing agent: returned 90 references covering printed electronics history, flexible processors (PlasticARM, Flex-RV, FlexiCore, flexible 6502), additive manufacturing techniques, printed transistors (organic, IGZO, carbon nanotube), Zeloof garage fab, RepRap, RISC-V, printed memory (RRAM, ferroelectric), in-space manufacturing, and self-replicating machine research.
+- Delta wing aerospace agent: returned 120 references covering flying wing and delta wing history, Lippisch through Concorde and B-2, reusable launch vehicles, TSTO concepts from Sanger through NASP and Skylon, boost-glide and hypersonic vehicles, delta wing aerodynamics and vortex lift, thermal protection systems, combined-cycle propulsion, structural design of triangular planforms, national security applications including Prompt Global Strike, and civil applications including hypersonic transport.
+- Staging aerodynamics agent: returned 98 references covering delta wing aerodynamic characteristics across Mach regimes, truncated delta wing behavior and stability, multi-body separation dynamics and shock wave interactions, historical TSTO programs and staging concepts, hypersonic vehicle design and thermal management, center of gravity and center of pressure shifts after separation, and control authority for blunt-forward configurations.
 
 **Article structure:**
-1. Introduction (semiconductor closure gap, two approaches, central question)
-2. Neuromorphic Computing (history, examples, state of art, applications, probe requirements, probe context, WIP, hypotheticals)
-3. 3D Printable Computing (history, examples, state of art, applications, probe context, WIP, hypotheticals)
-4. Information Storage and Memory (neuromorphic memory, printed memory, redundancy, longevity)
-5. Comparison and Architectural Implications (manufacturability, fault tolerance, power, scalability, integration, distributed networks)
-6. Conclusion (four-tier architecture, convergence thesis)
+1. Introduction (multi-stage vehicles, flying delta wing configuration, two-stage architecture, civil and national security applications)
+2. Software Versions
+3. System Concept Overview (combined vehicle geometry, second stage geometry, first stage geometry, propulsion and fuel, control surfaces, flight phases)
+4. History of Related Concepts (flying wing aircraft, delta wing aircraft, reusable launch systems, TSTO concepts, boost-glide vehicles, aerospaceplane concepts)
+5. Aerodynamic Characteristics of Delta Wings (vortex lift, high angle-of-attack, stability, L/D across Mach, hypersonic advantages)
+6. Structural and Volume Advantages (triangular planform strength, internal volume, load distribution, propulsion integration)
+7. Staging and Vehicle Transformation (staging conditions, separation mechanics, aerodynamic interactions, post-separation geometry, stability and control)
+8. First Stage Operations (takeoff and acceleration, atmospheric climb, propulsion, staging conditions, recovery)
+9. Second Stage Operations (propulsion, thermal protection, orbital and hypersonic missions, reentry and landing)
+10. Civil Applications (reusable orbital launch, hypersonic transport, cargo delivery, scientific missions)
+11. National Security Applications (rapid-response launch, hypersonic reconnaissance, reusable orbital access, rapid global delivery)
+12. Engineering Challenges (thermal protection, propulsion integration, structural loads, control across regimes, truncated stability, landing, manufacturing)
+13. Future Development Paths (scaled variants, tactical variants, autonomous vehicles, advanced propulsion, technology convergence)
+14. Conclusion
+15. Future Reading (6 textbooks and technical reports)
+16. References (80 Reference, 2 Related Post, 4 Research)
 
 ### Process Files Updated
 
-- TASKLOG.md: current task updated to A105-P1, history entry added.
-- draft_summary.md: A105 entry added as New Draft with line count and reference count. File count updated to 14.
+- TASKLOG.md: current task updated to A106-P1, history entry added.
+- draft_summary.md: A106 entry added as New Draft with line count and reference count. File count updated to 15. New draft count updated to 2.
 - REVERSE_PROMPT.md: overwritten with draft verification and freeform commentary.
 
 ---
 
 ## Release Announcement
 
-Not generated. A105 left unpublished per human pilot instruction. Release announcement will be generated when A105 is published.
+Not generated. A106 left unpublished per human pilot instruction. Release announcement will be generated when A106 is published.
 
 ---
 
 ## Freeform Commentary
 
-The article covers substantial ground across two distinct technology domains that converge on the same probe engineering problem. The neuromorphic section is stronger than the 3D printable section in terms of concrete existing hardware examples, because the neuromorphic computing field has produced several well-documented chip architectures with published specifications and benchmark results. The 3D printable computing section is stronger in terms of direct relevance to probe self-replication, because additive manufacturing directly addresses the fabrication closure problem that motivates the entire series.
+This article is a departure from the A98-A105 von Neumann probe series. It is a standalone aerospace engineering article categorized under "aerospace engineering" rather than "science philosophy." The two cross-references are to A96 "History of Rocketplanes" and A90 "Introduction to Space Studies," both already published. There are no publication order dependencies.
 
-The most significant contribution of this article to the series is the four-tier architecture proposal. The companion article on steampunk and analog electronics proposed a three-tier architecture of mechanical control, analog computation, and minimal digital processing. This article extends that framework by inserting a neuromorphic layer between the analog and digital tiers. The neuromorphic layer handles pattern recognition, anomaly detection, adaptive navigation, and system health monitoring, tasks that are too complex for analog circuits but do not require the precision of digital computation. This four-tier architecture distributes the semiconductor closure gap across technologies of decreasing manufacturing difficulty, with each tier handling a progressively smaller and more specialized share of the computing workload.
+The core concept of the article is straightforward but architecturally distinctive. Many two-stage-to-orbit proposals use dissimilar stage geometries. The Sanger II paired a winged hypersonic first stage with a cryogenic upper stage. The SpaceX Starship pairs a cylindrical booster with a cylindrical upper stage. The proposed architecture constrains both stages and the combined vehicle to be viable flying delta wings. This constraint is simultaneously the concept's greatest limitation and its greatest advantage. The limitation is that many geometrically efficient staging arrangements are excluded. The advantage is that both stages can fly independently after separation, enabling powered return of the first stage and atmospheric maneuvering of the second stage without any geometry change beyond the separation itself.
 
-The PlasticARM (2021), flexible 6502, and Flex-RV (2024) demonstrations are the strongest evidence in the article. These are not theoretical projections but working processors fabricated on flexible substrates at 0.8 micrometer feature sizes using IGZO thin-film transistors. The Flex-RV is particularly notable because it executes the RISC-V instruction set with an integrated machine learning accelerator while bent around a pencil. The existence of these processors establishes that general-purpose computing is achievable at feature sizes that are three orders of magnitude larger than leading-edge silicon, using materials and processes that do not require conventional semiconductor fabrication infrastructure.
+The truncated delta wing first stage is the most novel and least-characterized element of the concept. After separation, the first stage loses its nose and forward lifting surfaces. It becomes a blunt-forward delta wing. This configuration has limited direct precedent. The B-2 Spirit and Northrop YB-49 flying wings have blunt leading edges, but these are purpose-designed geometries, not truncation products. The article discusses how a forward-shifted center of pressure relative to the center of gravity would require active stability management, potentially through elevon trim, canard deployment from stowed positions, or ballast redistribution. This is the area where the concept faces its steepest engineering challenge. The question is whether a truncated delta wing can maintain sufficient L/D and controllability for a powered or gliding return to base at subsonic speeds.
 
-Sam Zeloof's garage semiconductor fab is included as an existence proof rather than a technology pathway. The point is not that a probe would replicate Zeloof's specific process, but that his work demonstrates that the minimum viable semiconductor fabrication capability is far simpler than the leading-edge facilities that dominate public discussion of chip manufacturing. The gap between "impossible without a billion-dollar fab" and "achievable with thousands of dollars of equipment" is qualitatively significant for probe engineering.
+The reference count of 93 is comparable to recent articles in the series. The 80 Reference links are predominantly Wikipedia articles covering aircraft types, propulsion concepts, aerodynamic phenomena, and historical programs. The 4 Research links are NASA Technical Reports Server papers covering clipped delta wing aerodynamics, TSTO staging analysis, X-43 stage separation dynamics, and the Polhamus vortex lift suction analogy. The 6 Future Reading entries are aerospace engineering textbooks and technical monographs by Anderson, Raymer, Heiser, Hallion, and Kuchemann. The research references are particularly relevant because the Polhamus suction analogy and the NASA staging studies provide the theoretical foundation for the vortex lift equations and the staging dynamics discussion.
 
-The printed neuromorphic processor concept, where a neuromorphic architecture is implemented in printed electronics, is the article's most speculative but potentially most important idea. Neuromorphic architectures tolerate component variability. Printed fabrication inherently produces variable components. These properties are synergistic. A printed memristor crossbar array could implement a neural network that learns to compensate for its own fabrication imperfections. This approach combines the fault tolerance of neuromorphic computation with the manufacturing simplicity of additive deposition. No one has demonstrated this at the scale needed for probe computing, but the individual components, printed memristors, printed transistors, and neuromorphic learning algorithms, all exist in published literature.
+The MathJax equations in the article are limited to four well-established results. The Polhamus vortex lift equation decomposes total lift into potential flow and vortex contributions. The modified Newtonian pressure coefficient approximation gives surface pressure at hypersonic speeds. The Tsiolkovsky rocket equation relates mass ratio to delta-v for the staging analysis. The Mach angle equation relates shock cone geometry to flight Mach number. All four equations are standard textbook material and do not require derivation or novel claims.
 
-The carbon nanotube RISC-V processor (RV16X-NANO, Hills et al. 2019) and the MIT semiconductor-free 3D-printed logic gates (2024) are included as additional existence proofs. The carbon nanotube result shows that non-silicon transistors can implement a complete processor. The MIT result shows that digital logic can be fabricated without any semiconductor material at all, using consumer-grade FDM printing equipment. Neither demonstration is close to probe-grade computing, but both expand the envelope of what is physically possible.
+The article deliberately avoids specifying numerical performance parameters for the proposed vehicle. No thrust levels, mass fractions, staging Mach numbers, or payload capacities are given as point designs. The staging discussion frames the separation as occurring in the Mach 4 to 6 range at 25 to 30 kilometers altitude, which is consistent with published TSTO studies, but does not claim a specific optimal staging point. This is appropriate for a conceptual article that introduces an architecture rather than presenting a detailed design study.
 
-One structural concern is that the article does not include a standalone "Von Neumann Probe Requirements" subsection in the 3D Printable Computing section, instead referencing the requirements from the Neuromorphic section. The PROMPT.md specified these subsections "for each section." The probe requirements discussion in the neuromorphic section covers general requirements that apply equally to both technologies, and repeating the identical content would add bulk without information. The 3D Printable section includes a "3D Printable Computing in the Context of Probe Development" subsection that evaluates the technology against those same requirements.
+One area where the article could be strengthened in a future revision is the discussion of the Reaction Engines SABRE combined-cycle engine. The article mentions SABRE as a candidate propulsion system for the first stage, but does not discuss the precooler technology, the air-breathing to rocket mode transition, or the specific impulse characteristics in each mode. A detailed treatment of SABRE would strengthen the propulsion integration section significantly but would also increase the article length and shift focus toward a specific engine program rather than the vehicle architecture concept.
 
-The reference count of 67 is lower than the companion articles (A103: 95, A104: 78) but the references are well-distributed across categories and include both Wikipedia reference links for general concepts and DOI-linked research papers for specific claims. The 18 research references include the foundational papers for all major hardware platforms discussed (Mead 1990, Merolla 2014, Davies 2018, Furber 2014, Pei 2019, Strukov 2008, Biesterfeld 2021, Myny 2024, Hills 2019) as well as survey papers and probe-specific research.
+The article does not reference the A98-A105 von Neumann probe series at all. This is intentional. The two-stage flying delta wing concept is applicable to near-term aerospace engineering and does not require the interstellar context of the probe series. If a future article connects the two threads, it would likely be through the observation that a reusable two-stage delta wing vehicle could serve as a launch system for probe deployment, but that connection is outside the scope of this article.
 
 ---
 
 ## Questions for Human Review
 
-- The PROMPT.md success criteria says "A105 revised" but the objectives say "Please draft A105." This article is a first draft, not a revision. The human pilot should clarify whether external LLM review and revision (A105-P2) is expected.
-- A103 and A104 must both be published before A105 due to post_url dependencies. Publication order: A103 first, then A104, then A105.
-- The Flex-RV paper (Myny et al., Nature 2024) uses DOI 10.1038/s41586-024-07976-y. This should be verified for accessibility.
-- The Hills et al. (2019) RV16X-NANO paper uses DOI 10.1038/s41586-019-1493-8. This should be verified.
-- The Shirmohammadli et al. (2023) 3D-printed computer paper uses DOI 10.1002/aisy.202300015. This should be verified.
-- The Yan et al. (2025) additive manufacturing of neuromorphic systems paper uses DOI 10.1002/adma.202504807. This should be verified.
-- The Naoukin et al. (2023) radiation survey is an arXiv preprint (2311.15006), not peer-reviewed. The human pilot should confirm whether arXiv preprints are acceptable.
-- Several Wikipedia reference URLs should be verified for existence, particularly ref_tianjic (Tianjic may not have a dedicated Wikipedia article) and ref_eri (Electronics Resurgence Initiative may not have a Wikipedia article).
+- A106 is categorized as "aerospace engineering" rather than "science philosophy." The human pilot should confirm this is the intended category.
+- The article uses "Sanger" and "Sanger II" with the URL-encoded umlaut in the Wikipedia link. The prose spells the name without the umlaut for ASCII compatibility. The human pilot should confirm whether the umlaut should be included in prose.
+- The Polhamus vortex lift suction analogy equation uses the formulation from NASA TN D-3767 (1966). This should be verified against the original paper.
+- The NASA NTRS links (research_clipped_delta, research_nasa_staging, research_x43_separation, research_polhamus) should be verified for accessibility.
+- The Future Reading textbook links (Anderson, Raymer, Heiser, Hallion, Kuchemann) should be verified for accessibility and current editions.
 - Eight pre-release candidate drafts remain awaiting human verification.
 
 ---
 
 ## Notes
 
-- Next available article number: A106.
+- Next available article number: A107.
 - 2 release candidates (A103, A104).
-- 1 new draft (A105).
+- 2 new drafts (A105, A106).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- The eight-article series (A98-A105) now covers: causality (A98), tactical map (A99), roadmap (A100), force projection physics (A101), self-replication engineering (A102), error correction theory (A103), pre-transistor computing (A104), and neuromorphic/printable computing (A105).
+- The eight-article von Neumann probe series (A98-A105) covers: causality (A98), tactical map (A99), roadmap (A100), force projection physics (A101), self-replication engineering (A102), error correction theory (A103), pre-transistor computing (A104), and neuromorphic/printable computing (A105).
+- A106 is a standalone aerospace engineering article outside the probe series.
