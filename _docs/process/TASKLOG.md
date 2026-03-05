@@ -8,14 +8,14 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A104 (A104-P1)
+**Name**: Revise A104 per LLM feedback (A104-P2)
 **Status**: Complete
-**Started**: 2026-03-08
+**Started**: 2026-03-09
 
 ## Success Criteria
 
-- [x] A104 drafted (1,867 lines, 50 references).
-- [x] A104 dates updated (2026-03-08 07:00:00 +0000).
+- [x] A104 revised (2,784 lines, 78 references).
+- [x] A104 dates updated (2026-03-09 07:00:00 +0000).
 - [x] A104 related article links correct (3 of 4 post_url references resolve to files in `_posts/`; A103 post_url is correct but will resolve when A103 is published).
 - [x] A104 NOT published.
 - [x] A104 release announcement NOT generated from template and reported in reverse prompt.
@@ -26,9 +26,9 @@ Current task state and verification log. This file is the shared source of truth
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A104-P1-T1 | Research steampunk electronics, analog electronics, and hybrid systems | Complete | Two research agents deployed covering mechanical computing, fluidic logic, vacuum tube manufacturing, operational amplifiers, MEMS radiation-resistant logic, analog neural networks, tiered probe architecture, and in-situ resource utilization. |
-| A104-P1-T2 | Draft A104 article | Complete | 1,867 lines. Three main sections per PROMPT.md structure. Introduction with three term definitions. Conclusion with backward summary. MathJax enabled. |
-| A104-P1-T3 | Verify reference integrity | Complete | 92 usages, 50 unique labels, 50 URL definitions. Zero missing. Zero unused. 4 post_url references (A82, A100, A103, A102). 3 resolve to files in `_posts/`. A103 post_url is correctly formed and will resolve when A103 is published. |
+| A104-P2-T1 | Apply 11 LLM feedback items | Complete | All 11 feedback items applied: (1) three-layer architecture thesis elevated in introduction with explicit preview, (2) functional closure vs technological parity framing added, (3) mechanical control expanded with governors, cams, differential gears, hydraulic servos, (4) analog computation expanded with differential equation solvers, V-2 and Saturn V guidance, (5) minimal digital core functions explicitly identified, (6) radically devolved analog probes section added with presolar grain evidence, (7) information storage section added with magnetic core, tape, punched tape, 5D optical, Rosetta Disk, Voyager Golden Record, (8) data redundancy section added with TMR, fly-by-wire, tiered storage strategy, (9) hybrid architecture commonality noted with automobile and aircraft examples, (10) manufacturing implications section added with feature size comparison, (11) conclusion restated three-layer architecture with devolution extension. |
+| A104-P2-T2 | Research and integrate additional references | Complete | 28 new references integrated from two research agents: tide-predicting machine, rangekeeper, servomechanism, fly-by-wire, TMR, presolar grains, Voyager Golden Record, 5D optical storage, magnetic core memory, magnetic tape, magnetic drum, punched tape, Prague clock, Long Now clock, cam, differential gear, ball-disk integrator, planimeter, V-2 rocket, Saturn V, Rosetta Disk, Heck et al. (2020) presolar grain lifetimes, Lammie et al. (2025) analog robustness, Freitas (1980) self-reproducing probe, NASA AASM (1982), NRC (1997) nuclear I&C, Ulmann (2022) analog computing textbook. |
+| A104-P2-T3 | Verify reference integrity | Complete | 148 usages, 78 unique labels, 78 URL definitions. Zero missing. Zero unused. 4 post_url references (A82, A100, A103, A102). 3 resolve to files in `_posts/`. A103 post_url is correctly formed and will resolve when A103 is published. |
 
 ## Notes
 
@@ -119,3 +119,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-06 | A103-P1: "The Error Correction Recursion Problem" researched and written (2,164 lines, 75 refs). Left unpublished per human pilot instruction. Draft summary synced. |
 | 2026-03-07 | A103-P2: "The Error Correction Recursion Problem" revised per 17 external LLM feedback items. 17 new references integrated from research agent. Draft summary synced. (2,712 lines, 95 refs). |
 | 2026-03-08 | A104-P1: "Steampunk and Analog Electronics for Von Neumann Probe Control" researched and written (1,867 lines, 50 refs). Draft summary synced. |
+| 2026-03-09 | A104-P2: "Steampunk and Analog Electronics for Von Neumann Probe Control" revised per 11 external LLM feedback items. 28 new references integrated from two research agents. Draft summary synced. (2,784 lines, 78 refs). |
