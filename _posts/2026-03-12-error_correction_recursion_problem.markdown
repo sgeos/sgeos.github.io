@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "The Error Correction Recursion Problem"
-date:   2026-03-12 07:00:00 +0000
+date:   2026-03-06 01:14:26 +0000
 categories: science philosophy
 ---
 
@@ -113,7 +113,7 @@ for centuries without human intervention.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-12 07:00:00 +0000
+2026-03-06 01:14:26 +0000
 ```
 
 ## The Problem
