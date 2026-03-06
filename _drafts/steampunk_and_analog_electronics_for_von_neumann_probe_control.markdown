@@ -2760,7 +2760,7 @@ the topics discussed in this article.
 [ref_zuse]: https://en.wikipedia.org/wiki/Konrad_Zuse
 
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
-[related_post_error_correction]: {% post_url 2026-03-07-error_correction_recursion_problem %}
+[related_post_error_correction]: {% post_url 2026-03-12-error_correction_recursion_problem %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
 

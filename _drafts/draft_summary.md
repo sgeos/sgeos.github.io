@@ -248,37 +248,6 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
-### The Error Correction Recursion Problem (A103) — Release Candidate
-
-**File**: `error_correction_recursion_problem.markdown`
-**Topic**: The error correction recursion problem and its implications for self-replicating systems and von Neumann probes
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-New article extending the A98-A102 series with an analysis of the error correction recursion problem.
-Covers von Neumann's 1956 reliability synthesis, Shannon's channel coding theorem, Hamming codes,
-TMR, Reed-Solomon codes, turbo and LDPC codes, biological error correction,
-the metrology recursion, fault-tolerant computing, quantum error correction threshold theorem,
-Eigen's error catastrophe, and Muller's ratchet.
-Applies Kowald's (2015) error catastrophe analysis to von Neumann probes.
-Quantifies the VNP error budget at approximately $10^{-6}$ per parameter per generation.
-Revised per 17 external LLM feedback items: central thesis stated earlier, information vs manufacturing fidelity distinguished,
-recursion problem tightened, threshold behavior unified, transitions improved, Eigen interpretation expanded,
-parameter count and selective advantage clarified, two failure modes distinguished, calibration recursion expanded,
-overly strong claims moderated, order-of-magnitude estimates framed, Engineering Synthesis section added,
-conclusion strengthened, prose parentheticals inlined, cross-disciplinary solutions summarized.
-New sections: Two Failure Modes, Convergent Assembly, Error Correction in Self-Assembly, Engineering Synthesis.
-Discusses evolvable hardware, self-healing materials, biological inspiration, and hypotheticals
-including self-calibrating machines, minimum viable error correctors, error correction cascades, and AGI convergence.
-MathJax enabled. 2,712 lines. 95 references (31 Reference, 6 Related Post, 44 Research, 14 Future Reading).
-All 178 reference usages verified against 92 definitions. Zero missing. Zero unused.
-Six post_url references confirmed (A82, A95, A99, A100, A101, A102).
-
-**Remaining Work**:
-Human review and approval for publication.
-Assign publication date when ready.
-
 ### Steampunk and Analog Electronics for Von Neumann Probe Control (A104) — Release Candidate
 
 **File**: `steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`
@@ -306,11 +275,10 @@ manufacturing implications, and radically devolved analog probes for intergalact
 Revised per 11 external LLM feedback items with 28 new references integrated.
 MathJax enabled. 2,784 lines. 78 references (57 Reference, 4 Related Post, 9 Research, 8 Future Reading).
 All 148 reference usages verified against 78 definitions. Zero missing. Zero unused.
-Four post_url references (A82, A100, A103, A102). A103 must be published before A104.
+Four post_url references (A82, A100, A103, A102). All resolve to files in `_posts/`.
 
 **Remaining Work**:
 Human review and approval for publication.
-A103 must be published before A104 due to post_url dependency.
 Assign publication date when ready.
 
 ### Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing (A105) — New Draft
@@ -333,13 +301,13 @@ Comparison and Architectural Implications section proposes a four-tier architect
 of mechanical control, analog computation, neuromorphic processing, and minimal digital arithmetic.
 MathJax enabled. 3,014 lines. 67 references (39 Reference, 4 Related Post, 18 Research, 6 Future Reading).
 All 67 reference usages verified against 67 definitions. Zero missing. Zero unused.
-Four post_url references (A100, A102, A103, A104). Two resolve to files in `_posts/` (A100, A102).
-A103 and A104 must be published before A105.
+Four post_url references (A100, A102, A103, A104). Three resolve to files in `_posts/` (A100, A102, A103).
+A104 must be published before A105.
 
 **Remaining Work**:
 Human review and approval for publication.
 External LLM review and revision.
-A103 and A104 must be published before A105 due to post_url dependencies.
+A104 must be published before A105 due to post_url dependency.
 Assign publication date when ready.
 
 ### Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications (A106) — New Draft
@@ -387,11 +355,11 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifteen files exist in `_drafts/`. One is a template.
-Two release candidates remain (A103, A104).
+Fourteen files exist in `_drafts/`. One is a template.
+One release candidate remains (A104).
 Two new drafts (A105, A106).
 No stubs remain.
-A80 through A102 have been published.
+A80 through A103 have been published.
 Writing Proofs (A79) has been published.
 
 **Tier 1: Publishable with moderate effort.**

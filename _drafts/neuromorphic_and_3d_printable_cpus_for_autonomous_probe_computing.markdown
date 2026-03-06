@@ -2982,7 +2982,7 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 [ref_thick_film]: https://en.wikipedia.org/wiki/Thick-film_technology
 [ref_truenorth]: https://en.wikipedia.org/wiki/TrueNorth
 
-[related_post_error_correction]: {% post_url 2026-03-07-error_correction_recursion_problem %}
+[related_post_error_correction]: {% post_url 2026-03-12-error_correction_recursion_problem %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_steampunk]: {% post_url 2026-03-09-steampunk_and_analog_electronics_for_von_neumann_probe_control %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
