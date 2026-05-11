@@ -9,97 +9,132 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-03-12
-**Task**: A103-P3 Publish A103
+**Task**: Batch publication of A104, A105, A106
 
 ---
 
 ## Verification
 
-### A103 Published
+### A104 Published
 
-A103 "The Error Correction Recursion Problem" published at `_posts/2026-03-12-error_correction_recursion_problem.markdown`.
+A104 "Steampunk and Analog Electronics for Von Neumann Probe Control" published at `_posts/2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`.
 
-**Final article**: 2,712 lines, 95 references (31 Reference, 6 Related Post, 44 Research, 14 Future Reading).
+**Final article**: 2,784 lines, 78 references (57 Reference, 4 Related Post, 9 Research, 8 Future Reading).
+**Date**: `2026-03-08 14:23:00 +0000`.
+**Post_url references**: 4 (A82, A100, A103, A102). All resolve to `_posts/`.
 
-**Dates set:**
-- Front matter date: `2026-03-12 07:00:00 +0000`.
-- Software versions date: matching.
+### A105 Published
 
-**Links verified:**
-- Six post_url references: A82 Introduction to Astronomy, A95 Human Evolution and the Great Filter, A99 Tactical and Strategic Assessment, A100 Roadmap to a Competitive Type III Civilization, A101 The Physics of Intergalactic Force Projection, A102 Von Neumann Probes.
-- All six resolve to files in `_posts/`.
-- All 92 reference link usages matched to 92 URL definitions. Zero missing. Zero unused.
+A105 "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing" published at `_posts/2026-03-10-neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`.
 
-**Dependent articles updated:**
-- A104 post_url reference for A103 updated from `2026-03-07` to `2026-03-12`.
-- A105 post_url reference for A103 updated from `2026-03-07` to `2026-03-12`.
+**Final article**: 3,014 lines, 67 references (39 Reference, 4 Related Post, 18 Research, 6 Future Reading).
+**Date**: `2026-03-10 09:47:00 +0000`.
+**Post_url references**: 4 (A100, A102, A103, A104). All resolve to `_posts/`.
+
+### A106 Published
+
+A106 "Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications" published at `_posts/2026-03-12-two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`.
+
+**Final article**: 2,423 lines, 93 references (80 Reference, 2 Related Post, 4 Research, 6 Future Reading).
+**Date**: `2026-03-12 16:05:00 +0000`.
+**Post_url references**: 2 (A96, A90). All resolve to `_posts/`.
 
 ### Process Files Updated
 
-- TASKLOG.md: current task updated to A103-P3, history entry added.
-- draft_summary.md: A103 entry removed (published). File count updated to 14. RC count updated to 1 (A104). A104 and A105 remaining work sections updated to reflect A103 publication.
-- REVERSE_PROMPT.md: overwritten with publication verification, release announcement, and freeform commentary.
+- TASKLOG.md: current task updated, history entry added.
+- draft_summary.md: A104, A105, A106 entries removed (published). File count updated to 11. RC count to 0. New draft count to 0.
+- REVERSE_PROMPT.md: overwritten with publication verification and release announcements.
 
 ---
 
-## Release Announcement
+## Release Announcements
 
-New Blog Post: The Error Correction Recursion Problem
+### A104 Release Announcement
 
-A self-replicating machine must not only build copies of itself from raw materials. It must build copies that work well enough to build further copies. But the error correction mechanisms themselves are physical systems subject to the same degradation they are designed to prevent. This article traces the resulting recursion problem from its theoretical foundations through its independent solutions in information theory, molecular biology, fault-tolerant computing, and quantum error correction, and applies the analysis to the specific engineering requirements of von Neumann probes.
+New Blog Post: Steampunk and Analog Electronics for Von Neumann Probe Control
+
+The semiconductor fabrication closure gap is the hardest unsolved problem in von Neumann probe engineering. A probe must manufacture its own computing hardware from raw materials, but modern semiconductors require billion-dollar fabrication facilities. This article explores a radical alternative: what if probe control systems were built from pre-transistor technologies that can be manufactured with minimal infrastructure?
 
 Key takeaways:
-- The error correction recursion terminates when the physical error rate falls below a critical threshold, a result that appears independently in Shannon's channel coding theorem, von Neumann's reliability synthesis, Eigen's quasispecies error catastrophe, and the quantum error correction threshold theorem.
-- Applying Kowald's error catastrophe analysis to von Neumann probes yields a per-parameter per-generation error budget of approximately one in a million, a target that is achievable with current industrial precision but must be maintained autonomously for centuries without human intervention.
-- The engineering synthesis proposes layered redundancy, external physical invariants for calibration anchoring, population-level selection across probe lineages, and convergent assembly processes that exploit thermodynamic attractors to reduce dependence on fabrication precision.
+- Mechanical computing, fluidic logic, and vacuum tube electronics can all be fabricated from common materials without photolithography, offering a path to computational closure that sidesteps the semiconductor problem entirely.
+- A three-tier hybrid architecture combining mechanical actuators for low-level control, analog circuits for feedback and quality assurance, and a minimal digital core for planning and communication distributes the computing workload across technologies of decreasing manufacturing difficulty.
+- Radically devolved analog probes operating without any digital component represent the most manufacturable configuration for intergalactic missions where centuries of autonomous operation and self-repair must occur without access to semiconductor fabrication.
 
 You can read the full article here:
-https://sgeos.github.io/science/philosophy/2026/03/12/error_correction_recursion_problem.html
+https://sgeos.github.io/science/philosophy/2026/03/08/steampunk_and_analog_electronics_for_von_neumann_probe_control.html
 
-Let me know your thoughts. I would love to hear about how you think about error accumulation and quality assurance in your own self-replicating or long-duration autonomous systems!
+Let me know your thoughts. I would love to hear about how you think about manufacturing constraints in your own autonomous systems or industrial automation projects!
 
-#ErrorCorrection #SelfReplication #VonNeumannProbes #InformationTheory #FaultTolerance #SpaceExploration #ReliabilityEngineering #QuantumErrorCorrection
+#VonNeumannProbes #AnalogComputing #MechanicalComputing #SpaceExploration #FluidicLogic #SelfReplication #ReliabilityEngineering #Aerospace
+
+### A105 Release Announcement
+
+New Blog Post: Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing
+
+If a von Neumann probe must fabricate its own computing hardware from asteroid regolith, which processor architectures can actually be built without a semiconductor fab? This article evaluates two emerging technology families, neuromorphic computing and 3D printable electronics, as candidates for closing the semiconductor fabrication gap in self-replicating spacecraft.
+
+Key takeaways:
+- Neuromorphic architectures based on spiking neural networks inherently tolerate component variability and device degradation, making them naturally suited to the imprecise fabrication environment of a self-replicating probe operating far from Earth.
+- Working RISC-V processors have been fabricated on flexible substrates at 0.8 micrometer feature sizes using metal-oxide thin-film transistors, demonstrating that general-purpose computing is achievable at feature sizes three orders of magnitude larger than leading-edge silicon.
+- A four-tier architecture combining mechanical control, analog computation, neuromorphic processing, and minimal digital arithmetic distributes the computing workload across technologies of decreasing manufacturing difficulty, with each tier handling a progressively more specialized share of the computation.
+
+You can read the full article here:
+https://sgeos.github.io/science/philosophy/2026/03/10/neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.html
+
+Let me know your thoughts. I would love to hear about your experiences with neuromorphic hardware, printed electronics, or any unconventional computing architectures you have encountered!
+
+#NeuromorphicComputing #3DPrinting #PrintedElectronics #VonNeumannProbes #RISCV #SpaceExploration #SelfReplication #EdgeComputing
+
+### A106 Release Announcement
+
+New Blog Post: Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications
+
+What if both stages of a reusable launch vehicle were independently flyable aircraft? This article explores a two-stage aerospace vehicle architecture in which the combined vehicle, the upper stage, and the booster are all pure flying delta wings. After separation, the forward stage continues to orbit while the rear stage flies home as a truncated delta wing.
+
+Key takeaways:
+- The combined vehicle maintains a pure delta wing planform during ascent, separating into two independent flying vehicles at Mach 4 to 6 and 25 to 30 kilometers altitude, with the second stage retaining the nose geometry and the first stage becoming a truncated delta wing derived from the rear planform.
+- Delta wings offer a unique combination of high volumetric efficiency for fuel storage, structural strength from the triangular planform, favorable supersonic and hypersonic lift-to-drag characteristics, and vortex lift augmentation at high angles of attack that makes them attractive across the full flight envelope from takeoff to orbital insertion.
+- The architecture supports both civil applications including reusable orbital launch and hypersonic point-to-point transport, and national security applications including responsive space access and rapid global payload delivery, with both stages returning for rapid turnaround.
+
+You can read the full article here:
+https://sgeos.github.io/aerospace/engineering/2026/03/12/two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.html
+
+Let me know your thoughts. I would love to hear about your perspective on reusable launch vehicle architectures or experiences with delta wing aerodynamics!
+
+#Aerospace #DeltaWing #ReusableLaunch #HypersonicFlight #SpaceLaunch #TSTO #NationalSecurity #SpaceplaneDesign
 
 ---
 
 ## Freeform Commentary
 
-This article is the sixth in the A98-A105 von Neumann probe series and addresses what is arguably the most fundamental theoretical obstacle to self-replicating machines. The closure problem addressed in A102 asks whether a machine can build everything it needs. The error correction recursion problem asks whether a machine can build everything it needs correctly, and keep doing so across generations.
+Publishing A104, A105, and A106 as a batch completes the eight-article von Neumann probe series (A98-A105) and adds a standalone aerospace engineering article (A106).
 
-The article's strongest contribution is the convergence of four independent threshold results. Shannon's channel coding theorem (1948), von Neumann's reliability synthesis (1956), Eigen's quasispecies error catastrophe (1971), and the quantum error correction threshold theorem (Aharonov and Ben-Or, 1997, and Knill, Laflamme, and Zurek, 1998) all independently establish the same qualitative result. Below a critical error rate, reliable operation is achievable with bounded overhead. Above it, no amount of redundancy suffices. The convergence of these results across radically different physical substrates, digital channels, Boolean circuits, molecular replication, and quantum systems, constitutes strong evidence that the threshold behavior is a general property of error-correcting systems rather than an artifact of any particular formalism.
+The probe series now forms a complete arc from strategic motivation through detailed engineering: A98 establishes the competitive colonization thesis, A99 maps the local galactic environment, A100 provides the civilization roadmap, A101 analyzes force projection physics, A102 defines the self-replication engineering problem, A103 addresses error correction theory, A104 proposes pre-transistor computing solutions, and A105 evaluates neuromorphic and printable alternatives. Each article builds on the previous, with post_url cross-references creating a navigable web.
 
-The Kowald error budget calculation is the article's most directly applicable quantitative result. By adapting Kowald's 2015 error catastrophe analysis for biological self-replicating machines, the article estimates that a von Neumann probe lineage requires a per-parameter per-generation error rate of approximately $10^{-6}$ to sustain replication across hundreds of generations without catastrophic degradation. This target is achievable with current precision manufacturing and metrology, but the challenge is maintaining that precision without access to the global industrial infrastructure that currently calibrates the instruments. The calibration recursion, where every measuring instrument requires a more precise instrument to calibrate it, is the practical manifestation of the theoretical recursion.
+A106 is deliberately separate from the probe series. It addresses near-term aerospace engineering rather than interstellar timescales. The two-stage flying delta wing concept is within reach of current materials and propulsion technology, unlike the probe concepts which require centuries of development. The article shares the blog's aerospace thread with A96 "History of Rocketplanes" and A90 "Introduction to Space Studies" rather than the probe thread.
 
-The Engineering Synthesis section is the weakest section of the article but also the most necessary. The preceding sections establish the theoretical framework and the quantitative requirements. The synthesis section attempts to bridge from theory to engineering practice by proposing four mechanisms: layered redundancy, calibration anchoring to physical invariants, population-level selection, and convergent assembly. Of these four, convergent assembly is the most speculative. The idea that thermodynamic attractors can reduce dependence on fabrication precision is supported by examples from crystallography and self-assembly, but the gap between growing a crystal and assembling a functional subsystem of a spacecraft is enormous. The article acknowledges this gap but does not resolve it.
+The publication dates (March 8, 10, 12) place A104 before A103 chronologically (A103 is dated March 12). This is intentional per the human pilot's date assignment. Jekyll will sort by date, so the reading order on the site will be A104 (March 8), A105 (March 10), then A103 and A106 both on March 12 (A103 at 07:00, A106 at 16:05). This creates a slightly non-sequential publication order for the series, but all post_url cross-references are correct regardless of publication date.
 
-The biological error correction sections are stronger than the engineering sections because biology has solved the error correction recursion problem in practice. DNA replication achieves per-base error rates of approximately $10^{-10}$ through a three-layer system of base-pairing selectivity, polymerase proofreading, and mismatch repair. The polymerase itself is encoded in the DNA it copies, creating a circular dependency that is exactly the recursion the article discusses. Biology resolves this circularity through population-level selection. Individual organisms with degraded polymerases produce offspring with higher mutation rates, which are selected against. The population as a whole maintains the error correction machinery even though no individual organism can verify its own replication fidelity from first principles. This biological solution maps directly to the probe engineering problem. A population of probes with varied replication fidelity, subject to functional selection, can maintain the lineage even if individual probes cannot self-verify.
-
-The article deliberately avoids proposing a specific probe architecture. The companion articles on steampunk electronics (A104) and neuromorphic and printable computing (A105) address specific computing architectures. This article stays at the level of theoretical requirements and general engineering principles. This is appropriate because the error correction problem is architecture-independent. Whether the probe uses mechanical relays, analog circuits, neuromorphic processors, or printed digital logic, the threshold behavior and the error budget constraints apply equally.
-
-One concern is the article's treatment of Gacs's one-dimensional fault-tolerant cellular automaton result (2001). The article cites this as a theoretical existence proof that reliable computation is possible in one-dimensional cellular automata below a threshold error rate, complementing von Neumann's original two-dimensional result. The Gacs construction is notoriously complex and has been questioned by some researchers. The article does not discuss these criticisms. A future revision might add a brief caveat noting the construction's complexity and the limited practical applicability of the result.
-
-The reference count of 95 is the highest in the series after A101 (105 references). The 44 research references include foundational papers by Shannon, von Neumann, Hamming, Reed and Solomon, Berlekamp, Eigen, Berrou, Gallager, Shor, Steane, Knill, Aharonov, and Fowler, among others. The 14 Future Reading entries include textbooks on fault-tolerant systems, quantum information, and molecular evolution. The reference list alone constitutes a useful bibliography for anyone approaching the intersection of error correction theory and self-replicating systems.
+The total word count across the three articles is approximately 23,000 words with 238 combined references. The reference lists alone represent a curated bibliography spanning mechanical computing, analog electronics, neuromorphic hardware, printed processors, delta wing aerodynamics, reusable launch systems, and hypersonic vehicle design.
 
 ---
 
 ## Questions for Human Review
 
-- The URL `https://sgeos.github.io/science/philosophy/2026/03/12/error_correction_recursion_problem.html` in the release announcement assumes the Jekyll deployment will generate this path from the front matter categories "science philosophy" and the date 2026-03-12. The human pilot should verify the URL resolves correctly after deployment.
-- A104 can now be published (A103 dependency resolved). A105 requires A104 to be published first.
-- The Kowald (2015) paper is cited via arXiv (1605.02169). The human pilot should verify this is the correct and accessible preprint.
-- The Ghosh et al. (2026) paper uses DOI 10.1038/s41598-026-40325-9. The year 2026 in the DOI is unusual and should be verified.
-- The Riesebos et al. paper uses DOI 10.1103/v477-jw8l. This is an unusual DOI format for Physical Review and should be verified.
-- Eight pre-release candidate drafts remain awaiting human verification.
+- A104 is dated March 8, which is before A103 (March 12). On the blog, A104 will appear earlier than A103 despite being a sequel. The human pilot should confirm this date ordering is intentional.
+- A106 categories are "aerospace engineering" (two words). The URL will be `aerospace/engineering/2026/03/12/...`. The human pilot should verify this is the intended URL structure versus a single category.
+- The A105 post_url reference for A104 uses `2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control`. This matches the published filename.
+- Eight pre-release candidate drafts remain in `_drafts/` awaiting human verification.
 
 ---
 
 ## Notes
 
 - Next available article number: A107.
-- 1 release candidate (A104).
-- 2 new drafts (A105, A106).
+- 0 release candidates.
+- 0 new drafts.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- The eight-article von Neumann probe series (A98-A105) covers: causality (A98), tactical map (A99), roadmap (A100), force projection physics (A101), self-replication engineering (A102), error correction theory (A103), pre-transistor computing (A104), and neuromorphic/printable computing (A105).
-- A106 is a standalone aerospace engineering article outside the probe series.
-- Published: A79 through A103.
+- Published: A79 through A106.
+- The eight-article von Neumann probe series (A98-A105) is fully published.
+- A106 standalone aerospace engineering article is published.

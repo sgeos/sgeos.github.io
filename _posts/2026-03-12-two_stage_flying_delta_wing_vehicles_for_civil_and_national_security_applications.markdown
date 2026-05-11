@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications"
-date:   2026-03-11 07:00:00 +0000
+date:   2026-03-12 16:05:00 +0000
 categories: aerospace engineering
 ---
 
@@ -122,7 +122,7 @@ see
 
 ```sh
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-11 07:00:00 +0000
+2026-03-12 16:05:00 +0000
 $ uname -vm
 Darwin Kernel Version 23.6.0: Wed Jul 31 20:48:46 PDT 2024; root:xnu-10063.141.1.700.5~1/RELEASE_ARM64_T6000 arm64
 ```

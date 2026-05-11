@@ -248,102 +248,6 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
-### Steampunk and Analog Electronics for Von Neumann Probe Control (A104) — Release Candidate
-
-**File**: `steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`
-**Topic**: Pre-transistor computing technologies as alternatives to semiconductor fabrication for von Neumann probe control systems
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: Release Candidate
-
-New article extending the A98-A103 series with an analysis of pre-transistor computing technologies
-that could sidestep the semiconductor fabrication closure gap identified in A102.
-Three main sections covering steampunk electronics, analog electronics, and hybrid analog steampunk systems.
-Steampunk electronics covers mechanical computing from governors and cams
-through the Antikythera mechanism, Babbage, Zuse, tide-predicting machines, and relay computers,
-fluidic logic from Coanda effect through FLODAC and Harry Diamond Labs,
-and MEMS radiation-resistant logic gates.
-Analog electronics covers vacuum tubes, operational amplifiers, differential analyzers,
-differential equation solving, aerospace guidance systems, analog neural networks,
-inherent adversarial robustness of analog computing,
-and the operational amplifier as a manufacturing closure target.
-Hybrid section proposes a three-tier probe control architecture with
-mechanical control for low-level actuation, analog computation for feedback and quality assurance,
-and a minimal digital core for planning and communication.
-New sections on information storage technologies, data redundancy and error management,
-manufacturing implications, and radically devolved analog probes for intergalactic missions.
-Revised per 11 external LLM feedback items with 28 new references integrated.
-MathJax enabled. 2,784 lines. 78 references (57 Reference, 4 Related Post, 9 Research, 8 Future Reading).
-All 148 reference usages verified against 78 definitions. Zero missing. Zero unused.
-Four post_url references (A82, A100, A103, A102). All resolve to files in `_posts/`.
-
-**Remaining Work**:
-Human review and approval for publication.
-Assign publication date when ready.
-
-### Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing (A105) — New Draft
-
-**File**: `neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`
-**Topic**: Neuromorphic computing and 3D printable CPUs as approaches to reducing the semiconductor closure gap for von Neumann probes
-**Completion**: ~80%
-**Publication Sensibility**: High
-**Status**: New Draft
-
-New article extending the A98-A104 series with an analysis of neuromorphic computing
-and 3D printable CPUs as alternative computing architectures for autonomous probes.
-Two main sections cover neuromorphic computing and 3D printable computing,
-each addressing history, historical and modern examples, state of the art,
-contemporary applications, probe computing requirements, probe context evaluation,
-work in progress, and hypothetical approaches.
-Information Storage and Memory section covers neuromorphic memory, printed memory,
-redundancy and error correction, and storage longevity.
-Comparison and Architectural Implications section proposes a four-tier architecture
-of mechanical control, analog computation, neuromorphic processing, and minimal digital arithmetic.
-MathJax enabled. 3,014 lines. 67 references (39 Reference, 4 Related Post, 18 Research, 6 Future Reading).
-All 67 reference usages verified against 67 definitions. Zero missing. Zero unused.
-Four post_url references (A100, A102, A103, A104). Three resolve to files in `_posts/` (A100, A102, A103).
-A104 must be published before A105.
-
-**Remaining Work**:
-Human review and approval for publication.
-External LLM review and revision.
-A104 must be published before A105 due to post_url dependency.
-Assign publication date when ready.
-
-### Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications (A106) — New Draft
-
-**File**: `two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`
-**Topic**: Two-stage aerospace vehicle composed entirely of flying delta wings for civil and national security applications
-**Completion**: ~80%
-**Publication Sensibility**: High
-**Status**: New Draft
-
-New standalone aerospace engineering article proposing a two-stage aerospace vehicle
-in which the combined vehicle, the second stage, and the first stage are all flying delta wings.
-The second stage retains the nose and forward geometry after separation.
-The first stage retains the rear geometry and becomes a truncated or noseless delta wing.
-Covers system concept overview with flight phase descriptions,
-history of related concepts from Lippisch through NASP and Skylon,
-delta wing aerodynamics including vortex lift and hypersonic behavior,
-structural and volume advantages of triangular planforms,
-staging mechanics and vehicle transformation with center of gravity and stability analysis,
-first stage operations including boost and recovery,
-second stage operations including orbital insertion and hypersonic transport,
-civil applications including reusable launch and global transport,
-national security applications including Prompt Global Strike and hypersonic reconnaissance,
-engineering challenges across thermal protection and propulsion integration and manufacturing,
-and future development paths including scaled variants and advanced propulsion.
-MathJax enabled with equations for vortex lift, Newtonian pressure, Tsiolkovsky rocket equation, and Mach angle.
-2,423 lines. 93 references (80 Reference, 2 Related Post, 4 Research, 6 Future Reading).
-All 93 reference usages verified against 93 definitions. Zero missing. Zero unused.
-Two post_url references (A96, A90). Both resolve to files in `_posts/`.
-No publication order dependencies.
-
-**Remaining Work**:
-Human review and approval for publication.
-External LLM review and revision.
-Assign publication date when ready.
-
 ### Template
 
 **File**: `template.markdown`
@@ -355,11 +259,11 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fourteen files exist in `_drafts/`. One is a template.
-One release candidate remains (A104).
-Two new drafts (A105, A106).
+Eleven files exist in `_drafts/`. One is a template.
+No release candidates remain.
+No new drafts remain.
 No stubs remain.
-A80 through A103 have been published.
+A80 through A106 have been published.
 Writing Proofs (A79) has been published.
 
 **Tier 1: Publishable with moderate effort.**

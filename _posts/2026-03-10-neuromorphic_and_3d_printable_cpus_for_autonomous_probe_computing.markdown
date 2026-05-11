@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing"
-date:   2026-03-10 07:00:00 +0000
+date:   2026-03-10 09:47:00 +0000
 categories: science philosophy
 ---
 
@@ -2836,7 +2836,7 @@ are plausible.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-10 07:00:00 +0000
+2026-03-10 09:47:00 +0000
 
 # OS and Version
 $ uname -vm
@@ -2984,7 +2984,7 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 
 [related_post_error_correction]: {% post_url 2026-03-12-error_correction_recursion_problem %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
-[related_post_steampunk]: {% post_url 2026-03-09-steampunk_and_analog_electronics_for_von_neumann_probe_control %}
+[related_post_steampunk]: {% post_url 2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
 
 [future_cui_2016]: https://www.wiley.com/en-us/Printed+Electronics%3A+Materials%2C+Technologies+and+Applications-p-9781118920923
