@@ -8,37 +8,33 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A104, A105, A106 (batch publication)
+**Name**: Draft A107 (A107-P1)
 **Status**: Complete
-**Started**: 2026-03-12
+**Started**: 2026-03-14
 
 ## Success Criteria
 
-- [x] A104 published (2026-03-08 14:23:00 +0000, 2,784 lines, 78 refs).
-- [x] A105 published (2026-03-10 09:47:00 +0000, 3,014 lines, 67 refs).
-- [x] A106 published (2026-03-12 16:05:00 +0000, 2,423 lines, 93 refs).
-- [x] All post_url references correct and resolving.
-- [x] Release announcements generated and reported in REVERSE_PROMPT.md.
+- [x] A107 drafted (928 lines, 27 references).
+- [x] A107 dates updated (2026-03-14 10:31:00 +0000).
+- [x] A107 related article links correct (1 post_url reference, resolves to file in `_posts/`).
+- [x] A107 NOT published.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| T1 | Update publication dates | Complete | A104: 2026-03-08 14:23:00. A105: 2026-03-10 09:47:00. A106: 2026-03-12 16:05:00. Front matter and Software Versions dates updated in all three. |
-| T2 | Update cross-references | Complete | A105 post_url for A104 updated from 2026-03-09 to 2026-03-08. |
-| T3 | Verify reference integrity | Complete | A104: 78/78. A105: 67/67. A106: 93/93. All zero missing, zero unused. |
-| T4 | Publish all three | Complete | A104 to `_posts/2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`. A105 to `_posts/2026-03-10-neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`. A106 to `_posts/2026-03-12-two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`. |
+| A107-P1-T1 | Research Keleusma 0.1.1 | Complete | Local repo explored at ~/projects/rust/keleusma/. All 8 example scripts verified against CLI runner. Help output, version, REPL, and embedding API documented from source. |
+| A107-P1-T2 | Draft A107 article | Complete | Sixteen main sections covering installation, first program, language basics, three function kinds, composite types, pipeline operator, multiheaded functions, generics and traits, strings, built-in functions, REPL, embedding in Rust, hot code swapping, worst-case analysis, bytecode compilation, and conclusion. |
+| A107-P1-T3 | Verify reference integrity | Complete | 27 usages, 27 definitions. Zero missing. Zero unused. 1 post_url reference (A68 no_std Rust). Resolves to file in `_posts/`. |
 
 ## Notes
 
-- Next available article number: A107.
+- Next available article number: A108.
 - 0 release candidates.
-- 0 new drafts.
+- 1 new draft (A107).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- The eight-article von Neumann probe series (A98-A105) is now fully published.
-- A106 is a standalone aerospace engineering article, also published.
 
 ## History
 
@@ -125,3 +121,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-11 | A106-P1: "Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications" researched and written (2,423 lines, 93 refs). Two research agents deployed. Draft summary synced. |
 | 2026-03-12 | A103-P3: "The Error Correction Recursion Problem" published (2026-03-12 date, 2,712 lines, 95 refs). A104 and A105 post_url references updated. Draft summary synced. |
 | 2026-03-12 | A104/A105/A106 batch publication: "Steampunk and Analog Electronics" (2026-03-08, 2,784 lines, 78 refs), "Neuromorphic and 3D Printable CPUs" (2026-03-10, 3,014 lines, 67 refs), "Two-Stage Flying Delta Wing Vehicles" (2026-03-12, 2,423 lines, 93 refs). Draft summary synced. |
+| 2026-03-14 | A107-P1: "Getting Started with Keleusma 0.1.1" researched and written (928 lines, 27 refs). Local repo explored, all examples verified. Draft summary synced. |

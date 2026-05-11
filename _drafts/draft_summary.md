@@ -248,6 +248,44 @@ Run Mollusk tests against compiled BPF binary.
 Verify Pinocchio crate versions are current.
 Assign article number and publication date when ready.
 
+### Getting Started with Keleusma 0.1.1 (A107) — New Draft
+
+**File**: `keleusma_getting_started.markdown`
+**Topic**: Introduction to the Keleusma Total Functional Stream Processor language and toolchain
+**Completion**: ~85%
+**Publication Sensibility**: High
+**Status**: New Draft
+
+New article introducing Keleusma 0.1.1, a Total Functional Stream Processor
+that compiles to bytecode and runs on a stack-based virtual machine
+targeting no_std + alloc embedded environments.
+Covers installation from source, first program,
+language basics including types and operators and bounded iteration,
+the three function kinds that encode guarantee taxonomy,
+composite types including structs and enums and tuples and arrays,
+pipeline operator with underscore placeholder,
+multiheaded functions with guard clauses,
+generics and trait-based polymorphism,
+strings and f-string interpolation,
+built-in utility and math and audio native functions,
+interactive REPL,
+embedding the VM in Rust host applications
+with native function registration and VM lifecycle,
+hot code swapping at reset boundaries,
+worst-case execution time and memory usage analysis with cost model,
+arena sizing options for embedded targets,
+and bytecode compilation with zero-copy deserialization.
+928 lines. 27 references (17 Reference, 1 Related Post, 3 Research, 6 Future Reading).
+All 27 reference usages verified against 27 definitions. Zero missing. Zero unused.
+One post_url reference (A68 no_std Rust Getting Started). Resolves to file in `_posts/`.
+No publication order dependencies.
+
+**Remaining Work**:
+Human review and approval for publication.
+Verify Software Versions output matches local environment.
+Verify keleusma CLI version is 0.1.1 (currently installed as 0.1.0 locally).
+Assign publication date when ready.
+
 ### Template
 
 **File**: `template.markdown`
@@ -259,9 +297,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
+Twelve files exist in `_drafts/`. One is a template.
 No release candidates remain.
-No new drafts remain.
+One new draft (A107).
 No stubs remain.
 A80 through A106 have been published.
 Writing Proofs (A79) has been published.
