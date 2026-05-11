@@ -8,37 +8,37 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A103 (A103-P3)
+**Name**: Publish A104, A105, A106 (batch publication)
 **Status**: Complete
 **Started**: 2026-03-12
 
 ## Success Criteria
 
-- [x] A103 drafted (2,712 lines, 95 references).
-- [x] A103 dates updated (2026-03-12 07:00:00 +0000).
-- [x] A103 related article links correct (6 post_url references, all resolve to files in `_posts/`).
-- [x] A103 published.
-- [x] A103 release announcement generated from template and reported in reverse prompt.
-- [x] A103 freeform commentary in reverse prompt.
+- [x] A104 published (2026-03-08 14:23:00 +0000, 2,784 lines, 78 refs).
+- [x] A105 published (2026-03-10 09:47:00 +0000, 3,014 lines, 67 refs).
+- [x] A106 published (2026-03-12 16:05:00 +0000, 2,423 lines, 93 refs).
+- [x] All post_url references correct and resolving.
+- [x] Release announcements generated and reported in REVERSE_PROMPT.md.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A103-P3-T1 | Update A103 date and publish | Complete | Front matter date updated to 2026-03-12 07:00:00 +0000. Software Versions date updated. Published via _publish.sh. File moved to `_posts/2026-03-12-error_correction_recursion_problem.markdown`. |
-| A103-P3-T2 | Update dependent articles | Complete | A104 and A105 post_url references for A103 updated from 2026-03-07 to 2026-03-12. |
-| A103-P3-T3 | Verify reference integrity | Complete | 92 usages, 92 definitions. Zero missing. Zero unused. 6 post_url references (A82, A95, A99, A100, A101, A102). All resolve to files in `_posts/`. |
+| T1 | Update publication dates | Complete | A104: 2026-03-08 14:23:00. A105: 2026-03-10 09:47:00. A106: 2026-03-12 16:05:00. Front matter and Software Versions dates updated in all three. |
+| T2 | Update cross-references | Complete | A105 post_url for A104 updated from 2026-03-09 to 2026-03-08. |
+| T3 | Verify reference integrity | Complete | A104: 78/78. A105: 67/67. A106: 93/93. All zero missing, zero unused. |
+| T4 | Publish all three | Complete | A104 to `_posts/2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control.markdown`. A105 to `_posts/2026-03-10-neuromorphic_and_3d_printable_cpus_for_autonomous_probe_computing.markdown`. A106 to `_posts/2026-03-12-two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications.markdown`. |
 
 ## Notes
 
 - Next available article number: A107.
-- 1 release candidate (A104).
-- 2 new drafts (A105, A106).
+- 0 release candidates.
+- 0 new drafts.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- A104 must be published before A105 (A105 references A104 via post_url).
-- A106 is a standalone aerospace engineering article with no publication order dependencies.
+- The eight-article von Neumann probe series (A98-A105) is now fully published.
+- A106 is a standalone aerospace engineering article, also published.
 
 ## History
 
@@ -124,3 +124,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-10 | A105-P1: "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing" researched and written (3,014 lines, 67 refs). Two research agents deployed. Draft summary synced. |
 | 2026-03-11 | A106-P1: "Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications" researched and written (2,423 lines, 93 refs). Two research agents deployed. Draft summary synced. |
 | 2026-03-12 | A103-P3: "The Error Correction Recursion Problem" published (2026-03-12 date, 2,712 lines, 95 refs). A104 and A105 post_url references updated. Draft summary synced. |
+| 2026-03-12 | A104/A105/A106 batch publication: "Steampunk and Analog Electronics" (2026-03-08, 2,784 lines, 78 refs), "Neuromorphic and 3D Printable CPUs" (2026-03-10, 3,014 lines, 67 refs), "Two-Stage Flying Delta Wing Vehicles" (2026-03-12, 2,423 lines, 93 refs). Draft summary synced. |

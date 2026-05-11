@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Steampunk and Analog Electronics for Von Neumann Probe Control"
-date:   2026-03-09 07:00:00 +0000
+date:   2026-03-08 14:23:00 +0000
 categories: science philosophy
 ---
 
@@ -148,7 +148,7 @@ that might meet probe requirements.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-03-09 07:00:00 +0000
+2026-03-08 14:23:00 +0000
 ```
 
 ## Steampunk Electronics
