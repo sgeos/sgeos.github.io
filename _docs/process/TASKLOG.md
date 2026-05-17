@@ -8,31 +8,28 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A107 (A107-P1)
+**Name**: Publish A107 (A107-P2)
 **Status**: Complete
 **Started**: 2026-03-14
 
 ## Success Criteria
 
-- [x] A107 drafted (928 lines, 27 references).
-- [x] A107 dates updated (2026-03-14 10:31:00 +0000).
+- [x] A107 published (2026-03-14 10:31:00 +0000, 928 lines, 27 refs).
 - [x] A107 related article links correct (1 post_url reference, resolves to file in `_posts/`).
-- [x] A107 NOT published.
+- [x] A107 release announcement generated and reported in REVERSE_PROMPT.md.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A107-P1-T1 | Research Keleusma 0.1.1 | Complete | Local repo explored at ~/projects/rust/keleusma/. All 8 example scripts verified against CLI runner. Help output, version, REPL, and embedding API documented from source. |
-| A107-P1-T2 | Draft A107 article | Complete | Sixteen main sections covering installation, first program, language basics, three function kinds, composite types, pipeline operator, multiheaded functions, generics and traits, strings, built-in functions, REPL, embedding in Rust, hot code swapping, worst-case analysis, bytecode compilation, and conclusion. |
-| A107-P1-T3 | Verify reference integrity | Complete | 27 usages, 27 definitions. Zero missing. Zero unused. 1 post_url reference (A68 no_std Rust). Resolves to file in `_posts/`. |
+| A107-P2-T1 | Verify and publish | Complete | Reference integrity confirmed (27/27, zero missing, zero unused). Published via _publish.sh to `_posts/2026-03-14-keleusma_getting_started.markdown`. |
 
 ## Notes
 
 - Next available article number: A108.
 - 0 release candidates.
-- 1 new draft (A107).
+- 0 new drafts.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 
@@ -122,3 +119,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-12 | A103-P3: "The Error Correction Recursion Problem" published (2026-03-12 date, 2,712 lines, 95 refs). A104 and A105 post_url references updated. Draft summary synced. |
 | 2026-03-12 | A104/A105/A106 batch publication: "Steampunk and Analog Electronics" (2026-03-08, 2,784 lines, 78 refs), "Neuromorphic and 3D Printable CPUs" (2026-03-10, 3,014 lines, 67 refs), "Two-Stage Flying Delta Wing Vehicles" (2026-03-12, 2,423 lines, 93 refs). Draft summary synced. |
 | 2026-03-14 | A107-P1: "Getting Started with Keleusma 0.1.1" researched and written (928 lines, 27 refs). Local repo explored, all examples verified. Draft summary synced. |
+| 2026-03-14 | A107-P2: "Getting Started with Keleusma 0.1.1" published (2026-03-14 date). Draft summary synced. |
