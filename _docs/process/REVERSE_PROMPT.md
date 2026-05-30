@@ -9,71 +9,60 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-30
-**Task**: A108-P2, A109-P2 Publish A108 and A109, then commit and push all work
+**Task**: A110-P1 Draft "Getting Started with Keleusma 0.2.0"
 
 ---
 
 ## Verification
 
-### A108 and A109 Published
+### A110 Researched and Written
 
-- A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" published at `_posts/2026-05-26-neurosymbolic_blueprint_for_truthful_machines.markdown` (date `2026-05-26 09:00:00 +0000`, 56 references).
-- A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" published at `_posts/2026-05-27-verifiable_control_kernel_in_keleusma.markdown` (date `2026-05-27 09:00:00 +0000`, 9 references).
+A110 "Getting Started with Keleusma 0.2.0" drafted at `_drafts/keleusma_0_2_0_getting_started.markdown`.
 
-Front-matter dates and Software Versions timestamps were updated to match the requested dates, and A109's `post_url` to A108 was reconciled from the old placeholder date to `2026-05-26`.
+**Genre**: Tutorial getting-started. Updates the 0.1.1 article (A107) for the 0.2.0 public release.
+**References**: 20, all linked inline with a categorized References section. Integrity 20/20, zero missing, zero unused.
+**Cross-links**: A107 and A109 via post_url. Links the 40-chapter guide and specific guide chapters for deep dives.
+**Categories**: rust embedded programming. Date 2026-05-30 (placeholder, set at publication).
+
+### Every Example Tested
+
+All code was tested against the installed `keleusma 0.2.0`, not assumed from the V0.2.1-WIP repo guide. Tested scripts and the embedding cargo project live in `tmp/a110/` (gitignored). Captured outputs:
+
+- First program, values, text, decisions, repetition, structs, multiheaded with guard, pipeline, traits, newtype refinement, information-flow labels, checked arithmetic all run and produce the outputs shown in the article.
+- Verifier rejections are demonstrated as real errors: a refinement that provably fails, an information-flow leak, and a recursive function rejected by the WCMU analysis.
+- The `yield` and `loop` examples compile and pass the verifier; the 0.2.0 CLI does not drive their resume protocol, so the article presents them as host-driven and shows the compile step. This is stated honestly.
+- The signed-module flow (keygen, compile with signing key, run with verifying key) was run end to end, including the refusal when the key is absent.
+- The Rust embedding example was built and run against the crates.io `keleusma 0.2.0` crate and printed `script returned 42`.
 
 ### Build Verified
 
-A full local site build succeeded with no Liquid exceptions. Confirmed in the rendered output:
+Simulating the published state (the draft copied into `_posts`, built without `--drafts`), the site built cleanly: 17 highlighted `keleusma` blocks plus the `rust` embedding block, and both post_url links resolve to A107 and A109. The temporary copy was removed.
 
-- A109 links to A108 at `/ai/philosophy/2026/05/26/neurosymbolic_blueprint_for_truthful_machines.html`.
-- A109 links to A107 at `/rust/embedded/programming/2026/03/14/keleusma_getting_started.html`.
-- A109's Keleusma blocks highlight (seven `language-keleusma` blocks with token spans).
-- A108 appears on the site index.
-
-### Tooling Note
-
-`_publish.sh` failed under the macOS BSD `sed`, because its date-extraction regex `[+-:0-9 ]` is an invalid character range there (it works under GNU `sed`). The publication was completed by performing the equivalent `git mv` manually. The script itself was not modified.
+Note: a `--drafts` build of the whole site currently fails, but not because of A110. The eight pre-release-candidate drafts reference each other through post_url and those companions are unpublished, so Jekyll cannot resolve them while they remain drafts. A110's own links resolve.
 
 ---
 
-## Release Announcement, A108
+## Release Announcement (Pending Publication)
 
-New Blog Post: A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines
+New Blog Post: Getting Started with Keleusma 0.2.0
 
-What machine would adhere to the scientific method, value truthfulness over agreement, and decline to answer when declining is the honest response? This article argues that no single large language model can, because those requirements are guarantees a stochastic next-token predictor cannot supply about its own behavior. The answer is a compound neuro-symbolic system in which a language model proposes, a decoupled critic refutes, an external store grounds every fact, a calibrated policy governs abstention, and a deterministic symbolic layer holds the guarantees.
+Keleusma is a total functional stream-processing language that compiles to bytecode and proves, before a program runs, that every turn finishes within bounded time and bounded memory. Version 0.2.0 is the first public release line, adding cryptographic module signing, information-flow labels, and newtypes with refinement predicates. This article is a practical, fully tested tour: installation, the language, the verifier guarantees, signed modules, and embedding the runtime in a Rust host.
 
-You can read the full article here:
-https://sgeos.github.io/ai/philosophy/2026/05/26/neurosymbolic_blueprint_for_truthful_machines.html
+Key takeaways:
+- The language omits unbounded loops and recursion by design, and the verifier rejects any program whose time and memory bounds it cannot prove, which the article demonstrates with a rejected recursive function.
+- 0.2.0 adds refinement types that reject out-of-range values at compile time, information-flow labels with an auditable declassify gate, and Ed25519-signed modules.
+- Keleusma is meant to be embedded. A ten-line Rust host compiles and runs a script through the call-and-resume protocol.
 
-#AI #LLM #Neurosymbolic #ScientificMethod #Truthfulness #Abstention #Verification
-
----
-
-## Release Announcement, A109
-
-New Blog Post: A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture
-
-A companion to the truthful-machine blueprint. It takes the one layer of that design that can be written as verifiable code, the control-and-governance kernel, and implements its skeleton in Keleusma, a total functional language whose verifier proves bounded execution before a program runs. Every listing was compiled and run; typed claims, total terminal-state routing, an audited information-flow fact gate, and the call-yield-resume lifecycle are shown, with the neural and prover components explicitly out of scope.
-
-You can read the full article here:
-https://sgeos.github.io/ai/rust/programming/2026/05/27/verifiable_control_kernel_in_keleusma.html
-
-#Keleusma #Rust #TotalFunctional #Verification #AI #EmbeddedScripting
-
----
-
-## Action Still Pending From You
-
-To make Keleusma code highlight on the deployed site (A107 and A109), set the repository Pages source to GitHub Actions (Settings -> Pages -> Build and deployment -> Source -> "GitHub Actions"). Until then the legacy branch build serves the site and renders Keleusma fences as plain text. This does not block publication; A108 and A109 appear either way.
+This draft is awaiting human review. Regenerate the announcement with the live URL at publication time.
 
 ---
 
 ## Notes
 
-- Next available article number: A110.
+- Next available article number: A111.
 - 0 release candidates.
-- 0 new drafts. A108 and A109 published.
+- 1 new draft (A110, awaiting human review).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - Published: A79 through A109.
+- Blog deploy now runs through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
