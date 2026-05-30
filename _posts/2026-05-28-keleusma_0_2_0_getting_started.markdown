@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Getting Started with Keleusma 0.2.0"
-date:   2026-05-30 09:00:00 +0000
+date:   2026-05-28 09:00:00 +0000
 categories: rust embedded programming
 ---
 
@@ -48,7 +48,7 @@ and a companion article uses Keleusma to build
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-05-30 09:00:00 +0000
+2026-05-28 09:00:00 +0000
 
 # Keleusma
 $ keleusma --version

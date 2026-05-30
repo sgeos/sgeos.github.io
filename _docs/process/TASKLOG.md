@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A110 (Getting Started with Keleusma 0.2.0)
+**Name**: Publish A110 (Getting Started with Keleusma 0.2.0)
 **Status**: Complete
 **Started**: 2026-05-30
 
@@ -35,7 +35,7 @@ Current task state and verification log. This file is the shared source of truth
 
 - Next available article number: A111.
 - 0 release candidates.
-- 1 new draft (A110, awaiting human review). A108 and A109 published.
+- 0 new drafts. A108, A109, and A110 published.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The resume driver landed in keleusma 0.2.1 (verified against a working-tree build); the released 0.2.0 lacks it. A109 targets 0.2.1 and documents the 0.2.0 difference.
@@ -135,3 +135,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-30 | A108-P2, A109-P2: Published A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" (2026-05-26 date) and A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" (2026-05-27 date). A109 post_url to A108 reconciled to 2026-05-26. Verified full site build (post_url resolution and Keleusma highlighting confirmed in output). _publish.sh failed under macOS BSD sed (invalid character range in its date regex), so the git mv was done manually. Draft summary synced. |
 | 2026-05-30 | Build hardening: replaced the github-pages gem with a lean modern Jekyll stack (jekyll 4, rouge 3.30, jekyll-feed, jekyll-sitemap), regenerated a multi-platform Gemfile.lock, fixed the failing Actions build, and set the Pages source to GitHub Actions. Result: 0 open Dependabot alerts and live Keleusma highlighting on A107 and A109. |
 | 2026-05-30 | A110-P1: "Getting Started with Keleusma 0.2.0" researched and written. All listings tested against keleusma 0.2.0; embedding example built and run against the crates.io 0.2.0 crate; verifier rejections demonstrated. Tested scripts and embedding project in tmp/a110 (gitignored). 20 references, inline plus a References section. References A107 and A109 via post_url; links the 40-chapter guide. Draft summary synced. |
+| 2026-05-30 | A110-P2: Published A110 "Getting Started with Keleusma 0.2.0" (2026-05-28 date). Verified full site build (post_url to A107/A109 resolve, keleusma and rust fences highlight). Committed and pushed; deployed via the Actions build. Draft summary synced. |
