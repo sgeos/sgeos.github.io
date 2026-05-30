@@ -60,8 +60,12 @@ $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 
 # Keleusma
 $ keleusma --version
-keleusma 0.2.0
+keleusma 0.2.1
 ```
+
+The call-yield-resume driver used in the final section
+arrived in the 0.2.1 release. Everything else in this article
+also runs unchanged on 0.2.0.
 
 ## Why This Layer Fits Keleusma
 
@@ -274,29 +278,37 @@ yield main(tick: Word) -> Word {
 }
 ```
 
-There is an honest limitation to record here.
-The installed 0.2.0 command-line runner
-does not yet drive the resume half of this protocol.
-Driving a paused program to completion
-is the job of the embedding host through its
-[runtime interface][kel_github],
-not of the stock command-line tool.
-What the command-line tool can still confirm
-is that the program lexes, type-checks,
-and passes the bounded-execution verifier,
-which it reports by writing the compiled bytecode.
+The runner drives this lifecycle
+through a tick-counter convention
+that arrived in the 0.2.1 release.
+It calls the entry with tick 1.
+The script yields a Word,
+the host computes the next tick
+as the yielded value plus one,
+and resumes the script with that value.
+A `yield` entry point ends
+when control returns from the function,
+and the runner prints the final value.
+Here the script yields 1,
+the host resumes with 2,
+and the controller routes verdict code 2,
+an ill-posed question,
+to terminal state 3, request reframing.
 
 ```sh
-$ keleusma compile 04_controller_tick.kel -o /tmp/04.bin
-wrote /tmp/04.bin (600 bytes)
+$ keleusma run 04_controller_tick.kel
+Int(3)
 ```
 
-The same holds for the long-running form,
-a productive divergent function
-that yields a decision on every cycle
-and never finishes,
-which is the steady beat
-of a governed agent that runs indefinitely.
+In a real host the resume value
+is the critic's verdict rather than a tick counter,
+and the embedding host drives the same lifecycle
+through its [runtime interface][kel_github].
+
+The long-running form is a productive divergent function
+that yields a decision on every cycle and never finishes,
+the steady beat of a governed agent
+that runs indefinitely.
 
 ```rust
 fn decide_code(0)       -> Word { 2 }
@@ -311,16 +323,20 @@ loop main(verdict: Word) -> Word {
 }
 ```
 
-```sh
-$ keleusma compile 05_controller_loop.kel -o /tmp/05.bin
-wrote /tmp/05.bin (584 bytes)
-```
+The runner drives this form continuously,
+rate-limited by the `--tick-interval` flag,
+and it stops only when the script calls `shell::exit`
+or the operator interrupts it.
+The stock runner does not print the per-cycle decisions,
+so a host that consumes them is needed for visible output,
+but the verifier still proves the loop
+productive and bounded per cycle before it runs.
 
-The bytecode was written,
-which means the verifier accepted the program
-as total and bounded.
-A host that implements the resume protocol
-can then drive it.
+On the 0.2.0 release the resume driver is absent.
+There the `yield` and `loop` entry points
+still lex, type-check, and pass the verifier,
+which `keleusma compile` confirms by writing the bytecode,
+but the stock 0.2.0 runner cannot drive them to completion.
 
 ## What This Does and Does Not Show
 
