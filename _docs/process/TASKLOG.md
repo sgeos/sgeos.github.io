@@ -8,30 +8,36 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A107 (A107-P2)
+**Name**: Draft A108 (A108-P1)
 **Status**: Complete
-**Started**: 2026-03-14
+**Started**: 2026-05-30
 
 ## Success Criteria
 
-- [x] A107 published (2026-03-14 10:31:00 +0000, 928 lines, 27 refs).
-- [x] A107 related article links correct (1 post_url reference, resolves to file in `_posts/`).
-- [x] A107 release announcement generated and reported in REVERSE_PROMPT.md.
+- [x] A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" researched and written (963 lines, 56 refs).
+- [x] Exhaustive literature survey conducted, all citations verified via web search.
+- [x] Dense inline reference-style citations, every reference cited in prose (56/56).
+- [x] References categorized (Book, Reference, Related Post, Research) and alphabetized.
+- [x] Reference integrity confirmed (56/56, zero missing, zero unused).
+- [x] Two post_url cross-links (A94, A103) verified to resolve.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A107-P2-T1 | Verify and publish | Complete | Reference integrity confirmed (27/27, zero missing, zero unused). Published via _publish.sh to `_posts/2026-03-14-keleusma_getting_started.markdown`. |
+| A108-P1-T1 | First draft | Complete | Drafted from conversation research, 31 references, dense inline citations. |
+| A108-P1-T2 | Exhaustive literature survey | Complete | ~20 parallel web searches across neurosymbolic, verification, abstention, sycophancy, calibration, theorem proving, RAG, factuality, scalable oversight, adaptive compute. All arXiv/Nature IDs verified. |
+| A108-P1-T3 | Revise and fold in references | Complete | Expanded to 963 lines, 56 references. Reference integrity and prose-citation coverage verified programmatically. |
 
 ## Notes
 
-- Next available article number: A108.
+- Next available article number: A109.
 - 0 release candidates.
-- 0 new drafts.
+- 1 new draft (A108, unpublished, awaiting human review).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
+- A108 is a standalone AI/philosophy article, not part of the probe series. Speculative architecture for an AI that adheres to the scientific method, values truthfulness over sycophancy, and abstains when warranted.
 
 ## History
 
@@ -120,3 +126,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-12 | A104/A105/A106 batch publication: "Steampunk and Analog Electronics" (2026-03-08, 2,784 lines, 78 refs), "Neuromorphic and 3D Printable CPUs" (2026-03-10, 3,014 lines, 67 refs), "Two-Stage Flying Delta Wing Vehicles" (2026-03-12, 2,423 lines, 93 refs). Draft summary synced. |
 | 2026-03-14 | A107-P1: "Getting Started with Keleusma 0.1.1" researched and written (928 lines, 27 refs). Local repo explored, all examples verified. Draft summary synced. |
 | 2026-03-14 | A107-P2: "Getting Started with Keleusma 0.1.1" published (2026-03-14 date). Draft summary synced. |
+| 2026-05-30 | A108-P1: "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" researched and written (963 lines, 56 refs). Exhaustive literature survey with all citations verified. Standalone AI/philosophy article. References A94 and A103 via post_url. Draft summary synced. |
