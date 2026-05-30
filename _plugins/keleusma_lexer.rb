@@ -60,9 +60,10 @@ module Rouge
         @word_operators ||= Set.new %w(and or not)
       end
 
-      # Primitive value types.
+      # Primitive value types. `i64` is the integer-literal suffix and the
+      # V0.1.x integer type name, retained so legacy scripts highlight.
       def self.builtin_types
-        @builtin_types ||= Set.new %w(Byte Word Fixed Float bool Text Option)
+        @builtin_types ||= Set.new %w(Byte Word Fixed Float bool Text Option i64)
       end
 
       # Checked-arithmetic match arms.
