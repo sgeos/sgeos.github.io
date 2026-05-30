@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Information-Flow Control, A Deep Dive with Keleusma (A111) — New Draft
+
+**File**: `information_flow_control_deep_dive_with_keleusma.markdown`
+**Topic**: Deep dive on information-flow control (IFC) theory and first-class IFC in Keleusma 0.2.0
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: New Draft (awaiting human review)
+
+Deep-dive article on information-flow control for programmers unfamiliar with it.
+Covers theory (access control versus flow, Denning's lattice, noninterference, explicit and implicit flows,
+static versus dynamic enforcement, declassification), then what first-class IFC does that taint libraries,
+newtype wrappers, and manual review cannot (catches implicit flows, zero runtime cost, cannot be bypassed,
+single auditable release point), then a mechanical section on the Keleusma grammar
+(classify, label sets, propagation, boundaries, declassify, negative labels), plus honest limitations.
+Every Keleusma listing was run with keleusma 0.2.0; the implicit-flow rejection is the centerpiece
+(branching on a secret produces a labelled result, rejected at compile time).
+Tested example scripts live in tmp/a111 (gitignored scratch).
+Article number A111 assigned. Date 2026-05-29 (placeholder, set at publication).
+Software Versions includes the OS and Version section. Keleusma code uses keleusma fences.
+15 references, inline plus a References section, including seven verified IFC papers (Denning, Goguen and Meseguer,
+Volpano et al., Sabelfeld and Myers, Myers and Liskov, Sabelfeld and Sands). References A109 and A110 via post_url.
+
+**Remaining Work**:
+Human review.
+Set publication date and run date -u to sync Software Versions when ready.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -259,9 +285,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
+Eleven files exist in `_drafts/`. One is a template.
 No release candidates remain.
-No new drafts remain.
+One new draft remains (A111, awaiting human review).
 No stubs remain.
 A80 through A110 have been published.
 Writing Proofs (A79) has been published.

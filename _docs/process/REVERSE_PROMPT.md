@@ -9,47 +9,58 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-30
-**Task**: A110-P2 Publish "Getting Started with Keleusma 0.2.0"
+**Task**: A111-P1 Draft "Information-Flow Control, A Deep Dive with Keleusma"
 
 ---
 
 ## Verification
 
-### A110 Published
+### A111 Researched and Written
 
-A110 "Getting Started with Keleusma 0.2.0" published at `_posts/2026-05-28-keleusma_0_2_0_getting_started.markdown` (date `2026-05-28 09:00:00 +0000`, 20 references).
+A111 "Information-Flow Control, A Deep Dive with Keleusma" drafted at `_drafts/information_flow_control_deep_dive_with_keleusma.markdown`.
 
-The front-matter date and the Software Versions timestamp were set to the requested `2026-05-28`. The `git mv` was done manually because `_publish.sh` fails under the macOS BSD `sed`, and the moved file's edited content was re-staged so the index carries the correct date.
+**Genre**: Deep dive. Theory of information-flow control, what first-class IFC does that alternatives cannot, and a mechanical section on the Keleusma grammar.
+**References**: 15, all linked inline with a References section. Integrity 15/15, zero missing, zero unused.
+**Cross-links**: A109 and A110 via post_url.
+**Categories**: security rust programming. Date 2026-05-29 (placeholder, set at publication).
+
+### Theory Verified, Examples Tested
+
+The IFC literature was verified by web search before citing: Denning's lattice model (1976) and certification (1977), Goguen and Meseguer on noninterference (1982), Volpano, Smith, and Irvine's type system (1996), the Sabelfeld and Myers survey (2003), Myers and Liskov's decentralized label model and Jif, and Sabelfeld and Sands on declassification (2009).
+
+Every Keleusma listing was run with `keleusma 0.2.0` and the shown output is actual output. Tested scripts live in `tmp/a111/` (gitignored). Confirmed behavior:
+
+- `classify` adds a label; a labelled value reaching a plain parameter is rejected at compile time.
+- Labels propagate through arithmetic, comparison, and branching, so an implicit flow (a public value computed on branches selected by a secret) is rejected. This is the article's centerpiece and is the case taint libraries typically miss.
+- `declassify` is the single auditable release point.
+- Label sets `@{A, B}` and boundary-only negative labels `@!Label` work, the latter with a diagnostic that names the forbidden label.
 
 ### Build Verified
 
-The full site builds with no Liquid exceptions. A110's `post_url` links resolve to A107 and A109, and its Keleusma and Rust code blocks highlight. The article was committed and pushed; the GitHub Actions build deploys it live.
+Simulating the published state, the site built cleanly: the five Keleusma listings highlight and both post_url links resolve to A109 and A110.
 
 ---
 
-## Release Announcement
+## Release Announcement (Pending Publication)
 
-New Blog Post: Getting Started with Keleusma 0.2.0
+New Blog Post: Information-Flow Control, A Deep Dive with Keleusma
 
-Keleusma is a total functional stream-processing language that compiles to bytecode and proves, before a program runs, that every turn finishes within bounded time and bounded memory. Version 0.2.0 is the first public release line, adding cryptographic module signing, information-flow labels, and newtypes with refinement predicates. This article is a practical, fully tested tour: installation, the language, the verifier guarantees, signed modules, and embedding the runtime in a Rust host.
+Most programmers know access control, which decides who may read data. Few know information-flow control, which decides where data may go after it is read. This deep dive covers the theory from Denning's lattice and noninterference through language-based type systems, explains what a first-class language feature catches that taint libraries and newtype wrappers cannot, and shows the mechanics in Keleusma 0.2.0.
 
 Key takeaways:
-- The language omits unbounded loops and recursion by design, and the verifier rejects any program whose time and memory bounds it cannot prove, demonstrated with a rejected recursive function.
-- 0.2.0 adds refinement types that reject out-of-range values at compile time, information-flow labels with an auditable declassify gate, and Ed25519-signed modules.
-- Keleusma is meant to be embedded. A short Rust host compiles and runs a script through the call-and-resume protocol.
+- A first-class label is a dye, not a fence. It propagates through arithmetic, comparison, and branching, so Keleusma rejects implicit flows that taint libraries miss, and it costs nothing at run time because labels are erased after checking.
+- Every release of a secret happens at one auditable operator, declassify, which a reviewer can find by searching for a single keyword.
+- The grammar supports label sets and boundary negative labels, the latter stating what a function parameter or data field refuses rather than what a value carries.
 
-You can read the full article here:
-https://sgeos.github.io/rust/embedded/programming/2026/05/28/keleusma_0_2_0_getting_started.html
-
-#Keleusma #Rust #EmbeddedSystems #ProgrammingLanguages #Bytecode #WCET #TotalFunctional #InfoFlowControl
+This draft is awaiting human review. Regenerate the announcement with the live URL at publication time.
 
 ---
 
 ## Notes
 
-- Next available article number: A111.
+- Next available article number: A112.
 - 0 release candidates.
-- 0 new drafts.
+- 1 new draft (A111, awaiting human review).
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - Published: A79 through A110.

@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A110 (Getting Started with Keleusma 0.2.0)
+**Name**: Draft A111 (Information-Flow Control deep dive)
 **Status**: Complete
 **Started**: 2026-05-30
 
@@ -33,9 +33,9 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Notes
 
-- Next available article number: A111.
+- Next available article number: A112.
 - 0 release candidates.
-- 0 new drafts. A108, A109, and A110 published.
+- 1 new draft (A111, awaiting human review). A108, A109, and A110 published.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The resume driver landed in keleusma 0.2.1 (verified against a working-tree build); the released 0.2.0 lacks it. A109 targets 0.2.1 and documents the 0.2.0 difference.
@@ -137,3 +137,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-30 | A110-P1: "Getting Started with Keleusma 0.2.0" researched and written. All listings tested against keleusma 0.2.0; embedding example built and run against the crates.io 0.2.0 crate; verifier rejections demonstrated. Tested scripts and embedding project in tmp/a110 (gitignored). 20 references, inline plus a References section. References A107 and A109 via post_url; links the 40-chapter guide. Draft summary synced. |
 | 2026-05-30 | A110-P2: Published A110 "Getting Started with Keleusma 0.2.0" (2026-05-28 date). Verified full site build (post_url to A107/A109 resolve, keleusma and rust fences highlight). Committed and pushed; deployed via the Actions build. Draft summary synced. |
 | 2026-05-30 | Software Versions consistency: added an "OS and Version" section (`uname -vm`) to A109 and A110, the recent code-running articles that omitted it. A107 left unchanged (its kernel build date postdates the article, so the current uname would be anachronistic); A108 runs no code. |
+| 2026-05-30 | A111-P1: "Information-Flow Control, A Deep Dive with Keleusma" researched and written. IFC theory verified against seven canonical papers; all Keleusma listings tested on 0.2.0 (implicit-flow rejection is the centerpiece). Tested scripts in tmp/a111 (gitignored). 15 references inline plus a References section. References A109 and A110 via post_url. Software Versions includes OS and Version. Draft summary synced. |
