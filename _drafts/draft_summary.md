@@ -21,7 +21,7 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 ### A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture (A109) — New Draft
 
 **File**: `verifiable_control_kernel_in_keleusma.markdown`
-**Topic**: Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma V0.2.0, with all neural and prover components explicitly out of scope
+**Topic**: Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma (verified against 0.2.1), with all neural and prover components explicitly out of scope
 **Completion**: ~95%
 **Publication Sensibility**: High
 **Status**: New Draft (awaiting human review)
@@ -29,13 +29,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 Tutorial-genre article that takes the one layer of the A108 blueprint
 that can be written as verifiable code, the controller and governance kernel,
 and implements its skeleton in Keleusma.
-Every code listing was compiled and run with `keleusma 0.2.0` and the shown output is actual output.
+Every code listing was verified with `keleusma 0.2.1` and the shown output is actual output.
 Demonstrates typed claims via refinement newtypes (with a compile-time rejection of an out-of-range confidence),
 total terminal-state routing with no fall-through to a guess,
 the fact gate via information-flow labels (with the rejected leak shown),
 and the call-yield-resume lifecycle via `yield` and `loop` entry points.
-Honest limitation documented: the installed 0.2.0 CLI does not drive the resume protocol,
-so the `yield`/`loop` listings are shown via `keleusma compile`, which proves they pass the verifier.
+The resume driver landed in 0.2.1: the `yield` controller runs and prints `Int(3)`,
+and the `loop` controller drives continuously under `--tick-interval`.
+On the released 0.2.0 the resume driver is absent, so those entry points are verifier-checked via `keleusma compile`;
+the article documents both.
 Scope section states plainly that this is the kernel only, not a working truthful machine.
 Article number A109 assigned. Date 2026-05-31 (placeholder, set at publication).
 9 references (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post).

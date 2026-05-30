@@ -15,9 +15,9 @@ Current task state and verification log. This file is the shared source of truth
 ## Success Criteria
 
 - [x] A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" written (companion to A108).
-- [x] All code listings compiled and run with keleusma 0.2.0; shown outputs are actual outputs.
+- [x] All code listings verified with keleusma 0.2.1; shown outputs are actual outputs.
 - [x] Verified example scripts authored in `tmp/a108/` (gitignored scratch).
-- [x] Honest scope and limitation sections (kernel only; installed CLI does not drive resume).
+- [x] Honest scope sections (kernel only). Resume-driver version difference between 0.2.0 and 0.2.1 documented accurately.
 - [x] Reference integrity confirmed (9/9, zero missing, zero unused).
 - [x] Publication dependency on A108 recorded.
 - [x] Draft summary synced.
@@ -27,8 +27,9 @@ Current task state and verification log. This file is the shared source of truth
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
 | A109-P1-T1 | Review Keleusma V0.2.0 against the A108 design | Complete | Read CHANGELOG and guide chapters. Asserted fit for the controller and governance kernel, non-fit for neural and prover layers. |
-| A109-P1-T2 | Draft and verify example skeletons | Complete | Seven `.kel` files in `tmp/a108/`. Three run (64, 1, 42), two rejected at compile time as intended, two pass the verifier via `keleusma compile`. |
-| A109-P1-T3 | Write companion article | Complete | Tutorial-genre article with verified listings and outputs, scope and limitation sections, 9 references. |
+| A109-P1-T2 | Draft and verify example skeletons | Complete | Seven `.kel` files in `tmp/a108/`. Three `fn` examples run (64, 1, 42), two rejected at compile time as intended. The `yield` controller runs under a locally built 0.2.1 (`Int(3)`) and the `loop` controller drives continuously; on 0.2.0 both are verifier-checked via `keleusma compile`. |
+| A109-P1-T3 | Write companion article | Complete | Tutorial-genre article with verified listings and outputs, scope sections, 9 references. |
+| A109-P1-T4 | Reconcile to 0.2.1 resume driver | Complete | Built keleusma 0.2.1 from working tree, confirmed resume works, updated article and process files from compile-only framing to a real 0.2.1 run while noting 0.2.0 lacks the driver. |
 
 ## Notes
 
@@ -37,7 +38,7 @@ Current task state and verification log. This file is the shared source of truth
 - 2 new drafts (A108 and A109, unpublished, awaiting human review). A109 depends on A108 publishing first.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The installed keleusma CLI is 0.2.0; the runtime does not yet drive yield/loop resume, so those listings are shown via `keleusma compile`.
+- A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The resume driver landed in keleusma 0.2.1 (verified against a working-tree build); the released 0.2.0 lacks it. A109 targets 0.2.1 and documents the 0.2.0 difference.
 
 ## History
 

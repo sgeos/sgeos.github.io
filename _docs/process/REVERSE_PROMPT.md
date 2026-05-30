@@ -19,7 +19,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" drafted at `_drafts/verifiable_control_kernel_in_keleusma.markdown`.
 
-**Genre**: Tutorial. Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma V0.2.0.
+**Genre**: Tutorial. Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma, verified against 0.2.1.
 **References**: 9 (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post). Integrity 9/9, zero missing, zero unused.
 **Cross-links**: A108 and A107 via post_url.
 **Categories**: ai rust programming.
@@ -28,20 +28,21 @@ A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architectur
 
 I first reviewed Keleusma V0.2.0 in `/Users/bsechter/projects/rust/keleusma` (workspace at 0.2.1, the 0.2.0 line tagged, CHANGELOG and guide chapters read). The review concluded that Keleusma is a strong fit for the control and governance kernel of the A108 design and a deliberate non-fit for the neural and formal-prover layers.
 
-I then drafted seven example scripts in `tmp/a108/` (gitignored scratch) and verified each with `keleusma 0.2.0`:
+I then drafted seven example scripts in `tmp/a108/` (gitignored scratch) and verified each:
 
 - `01_typed_claims.kel` runs and prints `64`.
 - `01b_typed_claims_reject.kel` is rejected at compile time (refinement provably fails for `Confidence(150)`).
 - `02_route.kel` runs and prints `1`.
 - `03_fact_gate.kel` runs and prints `42`.
 - `03b_fact_gate_leak.kel` is rejected at compile time (information-flow type error on `Word@Unverified`).
-- `04_controller_tick.kel` (yield) and `05_controller_loop.kel` (loop) pass the verifier via `keleusma compile`.
+- `04_controller_tick.kel` (yield) runs under 0.2.1 and prints `Int(3)`.
+- `05_controller_loop.kel` (loop) drives continuously under 0.2.1 with `--tick-interval`.
 
 Every output quoted in the article is the actual captured output.
 
-### Honest Limitation Found and Documented
+### Resume Driver Version Difference, Documented
 
-The installed 0.2.0 CLI runner does not yet drive the yield/loop resume protocol, and `shell::exit` is not available in it. The guide documents a tick-counter driver that this build does not implement. The article therefore shows the `yield` and `loop` controllers via `keleusma compile`, which proves they lex, type-check, and pass the bounded-execution verifier, and states plainly that driving them to completion requires the embedding host rather than the stock CLI. This was surfaced rather than hidden.
+You noted that the CLI yield/loop resume protocol is slotted for 0.2.1. I confirmed it is implemented in the working tree by building keleusma 0.2.1 from `/Users/bsechter/projects/rust/keleusma` and running the controllers against it. The `yield` controller produced `Int(3)` exactly as the tick convention predicts (initial tick 1, yields 1, host resumes with 2, routes verdict 2 to terminal state 3). The released 0.2.0 binary lacks the driver and errors with "the CLI runner does not yet drive resume," and `shell::exit` is not registered in 0.2.0. The article now targets 0.2.1 for the lifecycle section, shows the real run, and still records that 0.2.0 lacks the driver and only verifier-checks those entry points via `keleusma compile`. Nothing was hidden.
 
 ### Scope Discipline
 
