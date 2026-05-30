@@ -20,8 +20,20 @@ github_username:  sgeos
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# This list replaces Jekyll's default exclude, so build and tooling files
+# must be listed explicitly to keep them out of the generated site.
 exclude:
   - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - secret
+  - tmp
+  - README.md
 
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 
