@@ -1,5 +1,9 @@
-# Vendored from the Keleusma repository: editors/rouge/keleusma.rb
-# Source of truth lives there; keep this copy in sync on Keleusma grammar changes.
+# Blog-maintained Rouge lexer for Keleusma, derived from the Keleusma
+# repository's editors/rouge/keleusma.rb. This copy intentionally diverges
+# from the canonical lexer: it recognizes legacy V0.1.x types (i64, f64,
+# String) in addition to the V0.2.x types, because the blog hosts articles
+# written against both language versions. Track upstream grammar changes
+# manually and preserve the legacy-type additions below.
 #
 # frozen_string_literal: true
 
@@ -60,10 +64,11 @@ module Rouge
         @word_operators ||= Set.new %w(and or not)
       end
 
-      # Primitive value types. `i64` is the integer-literal suffix and the
-      # V0.1.x integer type name, retained so legacy scripts highlight.
+      # Primitive value types across both Keleusma versions the blog covers.
+      # V0.2.x: Byte, Word, Fixed, Float, bool, Text, Option.
+      # V0.1.x: i64, f64, String (the V0.1.x integer, float, and text types).
       def self.builtin_types
-        @builtin_types ||= Set.new %w(Byte Word Fixed Float bool Text Option i64)
+        @builtin_types ||= Set.new %w(Byte Word Fixed Float bool Text Option i64 f64 String)
       end
 
       # Checked-arithmetic match arms.
