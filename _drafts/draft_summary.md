@@ -18,71 +18,6 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture (A109) — New Draft
-
-**File**: `verifiable_control_kernel_in_keleusma.markdown`
-**Topic**: Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma (verified against 0.2.1), with all neural and prover components explicitly out of scope
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: New Draft (awaiting human review)
-
-Tutorial-genre article that takes the one layer of the A108 blueprint
-that can be written as verifiable code, the controller and governance kernel,
-and implements its skeleton in Keleusma.
-Every code listing was verified with `keleusma 0.2.1` and the shown output is actual output.
-Demonstrates typed claims via refinement newtypes (with a compile-time rejection of an out-of-range confidence),
-total terminal-state routing with no fall-through to a guess,
-the fact gate via information-flow labels (with the rejected leak shown),
-and the call-yield-resume lifecycle via `yield` and `loop` entry points.
-The resume driver landed in 0.2.1: the `yield` controller runs and prints `Int(3)`,
-and the `loop` controller drives continuously under `--tick-interval`.
-On the released 0.2.0 the resume driver is absent, so those entry points are verifier-checked via `keleusma compile`;
-the article documents both.
-Scope section states plainly that this is the kernel only, not a working truthful machine.
-Article number A109 assigned. Date 2026-05-31 (placeholder, set at publication).
-9 references (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post).
-Verified example scripts live in `tmp/a108/` (gitignored scratch, not committed).
-Reference integrity confirmed (9/9, zero missing, zero unused).
-
-**Publication dependency**: A109 links to A108 via `post_url`. A108 must be published first,
-and the `post_url` target date in A109 (`2026-05-30`) must match A108's actual publication date.
-Until A108 is published, a Jekyll build or `_preview.sh` run will fail to resolve the A108 link.
-
-**Remaining Work**:
-Human review of the kernel framing and scope honesty.
-Publish A108 first, then reconcile the A108 `post_url` date.
-Set publication date and run `date -u` to sync Software Versions when ready.
-
-### A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines (A108) — New Draft
-
-**File**: `neurosymbolic_blueprint_for_truthful_machines.markdown`
-**Topic**: Speculative compound neuro-symbolic architecture for an AI that adheres to the scientific method, values truthfulness over sycophancy, and abstains when warranted
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: New Draft (awaiting human review)
-
-Standalone AI and philosophy article, not part of the probe series.
-Argues that the stated requirements cannot be met by a single language model
-and proposes a layered architecture in which a language-model proposer
-is gated by an adversarial critic ensemble, retrieval-grounded fact-checking,
-a deterministic scientific-method controller, calibrated abstention,
-and a symbolic verification layer.
-Includes a concrete instantiation with parameter counts,
-a survey of what already exists (theorem provers, RAG research assistants,
-anti-sycophancy and abstention research, neuro-symbolic verification),
-the open problem of generalizing verification beyond formal domains,
-a failure-modes section, and a competing-vision note on world-model architectures.
-Article number A108 assigned. Date 2026-05-30 (placeholder, set at publication).
-963 lines. 56 references across four categories (Book, Reference, Related Post, Research).
-References A94 (Long-Form Writing) and A103 (Error Correction Recursion Problem) via post_url.
-All citations verified via web search during an exhaustive literature survey.
-Reference integrity confirmed (56/56, zero missing, zero unused, all cited in prose).
-
-**Remaining Work**:
-Human review of the speculative architecture and epistemic framing.
-Optional adjustment of the placeholder parameter counts in the concrete instantiation.
-Set publication date and run `date -u` to sync Software Versions when ready.
-
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -324,11 +259,11 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirteen files exist in `_drafts/`. One is a template.
+Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
-Two new drafts remain (A108 and A109, awaiting human review). A109 depends on A108 being published first.
+No new drafts remain.
 No stubs remain.
-A80 through A107 have been published.
+A80 through A109 have been published.
 Writing Proofs (A79) has been published.
 
 **Tier 1: Publishable with moderate effort.**
