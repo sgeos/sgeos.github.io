@@ -18,6 +18,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture (A109) — New Draft
+
+**File**: `verifiable_control_kernel_in_keleusma.markdown`
+**Topic**: Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma V0.2.0, with all neural and prover components explicitly out of scope
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: New Draft (awaiting human review)
+
+Tutorial-genre article that takes the one layer of the A108 blueprint
+that can be written as verifiable code, the controller and governance kernel,
+and implements its skeleton in Keleusma.
+Every code listing was compiled and run with `keleusma 0.2.0` and the shown output is actual output.
+Demonstrates typed claims via refinement newtypes (with a compile-time rejection of an out-of-range confidence),
+total terminal-state routing with no fall-through to a guess,
+the fact gate via information-flow labels (with the rejected leak shown),
+and the call-yield-resume lifecycle via `yield` and `loop` entry points.
+Honest limitation documented: the installed 0.2.0 CLI does not drive the resume protocol,
+so the `yield`/`loop` listings are shown via `keleusma compile`, which proves they pass the verifier.
+Scope section states plainly that this is the kernel only, not a working truthful machine.
+Article number A109 assigned. Date 2026-05-31 (placeholder, set at publication).
+9 references (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post).
+Verified example scripts live in `tmp/a108/` (gitignored scratch, not committed).
+Reference integrity confirmed (9/9, zero missing, zero unused).
+
+**Publication dependency**: A109 links to A108 via `post_url`. A108 must be published first,
+and the `post_url` target date in A109 (`2026-05-30`) must match A108's actual publication date.
+Until A108 is published, a Jekyll build or `_preview.sh` run will fail to resolve the A108 link.
+
+**Remaining Work**:
+Human review of the kernel framing and scope honesty.
+Publish A108 first, then reconcile the A108 `post_url` date.
+Set publication date and run `date -u` to sync Software Versions when ready.
+
 ### A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines (A108) — New Draft
 
 **File**: `neurosymbolic_blueprint_for_truthful_machines.markdown`
@@ -289,9 +322,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template.
+Thirteen files exist in `_drafts/`. One is a template.
 No release candidates remain.
-One new draft remains (A108, awaiting human review).
+Two new drafts remain (A108 and A109, awaiting human review). A109 depends on A108 being published first.
 No stubs remain.
 A80 through A107 have been published.
 Writing Proofs (A79) has been published.
