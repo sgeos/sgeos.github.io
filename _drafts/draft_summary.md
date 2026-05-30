@@ -18,32 +18,6 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Getting Started with Keleusma 0.2.0 (A110) — New Draft
-
-**File**: `keleusma_0_2_0_getting_started.markdown`
-**Topic**: Practical getting-started tour of the Keleusma 0.2.0 public release
-**Completion**: ~95%
-**Publication Sensibility**: High
-**Status**: New Draft (awaiting human review)
-
-Getting-started article for the Keleusma 0.2.0 release, updating the 0.1.1 article (A107).
-Covers installation, values and types, decisions, bounded repetition, structs,
-multiheaded functions and guards, the pipeline operator, traits and methods,
-newtypes with refinement predicates, information-flow labels, checked arithmetic,
-the three function categories, the WCET/WCMU verifier, signed modules, and embedding in Rust.
-Every code listing was run with keleusma 0.2.0 and the shown output is actual output;
-the Rust embedding example was built and run against the crates.io keleusma 0.2.0 crate.
-Verifier rejections (refinement failure, information-flow leak, recursion) are shown as compile/verify errors.
-On 0.2.0 the CLI runs fn programs; yield and loop programs compile and pass the verifier but are driven by an embedding host.
-Tested example scripts and the embedding cargo project live in tmp/a110 (gitignored scratch).
-Article number A110 assigned. Date 2026-05-30 (placeholder, set at publication).
-Keleusma code uses keleusma fences, highlighted by the blog's Rouge lexer.
-20 references, all linked inline plus a References section. References A107 and A109 via post_url; links to the 40-chapter guide for deep dives.
-
-**Remaining Work**:
-Human review.
-Set publication date and run date -u to sync Software Versions when ready.
-
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -285,11 +259,11 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
+Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
-One new draft remains (A110, awaiting human review).
+No new drafts remain.
 No stubs remain.
-A80 through A109 have been published.
+A80 through A110 have been published.
 Writing Proofs (A79) has been published.
 
 **Tier 1: Publishable with moderate effort.**
