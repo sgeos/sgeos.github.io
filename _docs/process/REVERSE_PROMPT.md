@@ -9,7 +9,50 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-30
-**Task**: A109-P1 Draft A109 (Keleusma control-kernel companion to A108)
+**Task**: A109-P2 Keleusma syntax highlighting (Rouge lexer plus Actions Pages build)
+
+---
+
+## Action Needed From You
+
+To make Keleusma code highlight on the deployed site, set the repository
+Pages source to GitHub Actions. In the GitHub web UI this is Settings ->
+Pages -> Build and deployment -> Source -> "GitHub Actions". I did not
+change this setting, because it affects the live deployment and is an
+account-level action.
+
+Until that switch is made, the legacy branch build continues to serve the
+site, but it runs Jekyll in safe mode and ignores the custom lexer, so
+`keleusma` code fences render as unhighlighted plain text on the live site.
+After the switch, the new workflow (`.github/workflows/jekyll.yml`) builds
+with plugins enabled and Keleusma fences highlight. Nothing about the
+current deploy breaks in the meantime; the Gemfile pins the same
+`github-pages` versions the branch build already uses.
+
+---
+
+## Highlighting Change Summary (A109-P2)
+
+- Added a Rouge lexer in the Keleusma repo at `editors/rouge/keleusma.rb`
+  (committed on branch `feat-rouge-highlighter`, ready to merge into the
+  Keleusma trunk). It emits standard Rouge token types and follows the
+  repo's shared highlight categorisation scheme.
+- Vendored a copy into the blog at `_plugins/keleusma_lexer.rb`. Keep the
+  two in sync when the Keleusma grammar changes.
+- Added `Gemfile`, `Gemfile.lock` (pins github-pages 232, jekyll 3.10.0,
+  kramdown 2.4.0, rouge 3.30.0), and `.github/workflows/jekyll.yml`.
+- Added one CSS rule, `.nd` (Name.Decorator), to
+  `_sass/_syntax-highlighting.scss` so the information-flow labels and
+  operators render in a distinct colour. Additive; no existing post used a
+  styled decorator before.
+- Switched the seven Keleusma listings in A109 from ```` ```rust ```` to
+  ```` ```keleusma ````.
+- Verified end to end: a `keleusma` fence rendered through Kramdown plus
+  Rouge with the plugin loaded produces correct token classes (kd for
+  fn/yield/loop, kr for storage modifiers, nd for the IFC surface, kt for
+  primitive types, kc for true/false, and so on).
+
+---
 
 ---
 
