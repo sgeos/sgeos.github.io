@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines"
-date:   2026-05-30 09:00:00 +0000
+date:   2026-05-26 09:00:00 +0000
 categories: ai philosophy
 ---
 
@@ -61,7 +61,7 @@ this article marks it as such.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-05-30 09:00:00 +0000
+2026-05-26 09:00:00 +0000
 ```
 
 ## Four Requirements and One Tension

@@ -9,97 +9,63 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-30
-**Task**: A109-P2 Keleusma syntax highlighting (Rouge lexer plus Actions Pages build)
-
----
-
-## Action Needed From You
-
-To make Keleusma code highlight on the deployed site, set the repository
-Pages source to GitHub Actions. In the GitHub web UI this is Settings ->
-Pages -> Build and deployment -> Source -> "GitHub Actions". I did not
-change this setting, because it affects the live deployment and is an
-account-level action.
-
-Until that switch is made, the legacy branch build continues to serve the
-site, but it runs Jekyll in safe mode and ignores the custom lexer, so
-`keleusma` code fences render as unhighlighted plain text on the live site.
-After the switch, the new workflow (`.github/workflows/jekyll.yml`) builds
-with plugins enabled and Keleusma fences highlight. Nothing about the
-current deploy breaks in the meantime; the Gemfile pins the same
-`github-pages` versions the branch build already uses.
-
----
-
-## Highlighting Change Summary (A109-P2)
-
-- Added a Rouge lexer in the Keleusma repo at `editors/rouge/keleusma.rb`
-  (committed on branch `feat-rouge-highlighter`, ready to merge into the
-  Keleusma trunk). It emits standard Rouge token types and follows the
-  repo's shared highlight categorisation scheme.
-- Vendored a copy into the blog at `_plugins/keleusma_lexer.rb`. Keep the
-  two in sync when the Keleusma grammar changes.
-- Added `Gemfile`, `Gemfile.lock` (pins github-pages 232, jekyll 3.10.0,
-  kramdown 2.4.0, rouge 3.30.0), and `.github/workflows/jekyll.yml`.
-- Added one CSS rule, `.nd` (Name.Decorator), to
-  `_sass/_syntax-highlighting.scss` so the information-flow labels and
-  operators render in a distinct colour. Additive; no existing post used a
-  styled decorator before.
-- Switched the seven Keleusma listings in A109 from ```` ```rust ```` to
-  ```` ```keleusma ````.
-- Verified end to end: a `keleusma` fence rendered through Kramdown plus
-  Rouge with the plugin loaded produces correct token classes (kd for
-  fn/yield/loop, kr for storage modifiers, nd for the IFC surface, kt for
-  primitive types, kc for true/false, and so on).
-
----
+**Task**: A108-P2, A109-P2 Publish A108 and A109, then commit and push all work
 
 ---
 
 ## Verification
 
-### A109 Written and Examples Verified
+### A108 and A109 Published
 
-A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" drafted at `_drafts/verifiable_control_kernel_in_keleusma.markdown`.
+- A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" published at `_posts/2026-05-26-neurosymbolic_blueprint_for_truthful_machines.markdown` (date `2026-05-26 09:00:00 +0000`, 56 references).
+- A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" published at `_posts/2026-05-27-verifiable_control_kernel_in_keleusma.markdown` (date `2026-05-27 09:00:00 +0000`, 9 references).
 
-**Genre**: Tutorial. Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma, verified against 0.2.1.
-**References**: 9 (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post). Integrity 9/9, zero missing, zero unused.
-**Cross-links**: A108 and A107 via post_url.
-**Categories**: ai rust programming.
+Front-matter dates and Software Versions timestamps were updated to match the requested dates, and A109's `post_url` to A108 was reconciled from the old placeholder date to `2026-05-26`.
 
-### Method and Evidence
+### Build Verified
 
-I first reviewed Keleusma V0.2.0 in `/Users/bsechter/projects/rust/keleusma` (workspace at 0.2.1, the 0.2.0 line tagged, CHANGELOG and guide chapters read). The review concluded that Keleusma is a strong fit for the control and governance kernel of the A108 design and a deliberate non-fit for the neural and formal-prover layers.
+A full local site build succeeded with no Liquid exceptions. Confirmed in the rendered output:
 
-I then drafted seven example scripts in `tmp/a108/` (gitignored scratch) and verified each:
+- A109 links to A108 at `/ai/philosophy/2026/05/26/neurosymbolic_blueprint_for_truthful_machines.html`.
+- A109 links to A107 at `/rust/embedded/programming/2026/03/14/keleusma_getting_started.html`.
+- A109's Keleusma blocks highlight (seven `language-keleusma` blocks with token spans).
+- A108 appears on the site index.
 
-- `01_typed_claims.kel` runs and prints `64`.
-- `01b_typed_claims_reject.kel` is rejected at compile time (refinement provably fails for `Confidence(150)`).
-- `02_route.kel` runs and prints `1`.
-- `03_fact_gate.kel` runs and prints `42`.
-- `03b_fact_gate_leak.kel` is rejected at compile time (information-flow type error on `Word@Unverified`).
-- `04_controller_tick.kel` (yield) runs under 0.2.1 and prints `Int(3)`.
-- `05_controller_loop.kel` (loop) drives continuously under 0.2.1 with `--tick-interval`.
+### Tooling Note
 
-Every output quoted in the article is the actual captured output.
+`_publish.sh` failed under the macOS BSD `sed`, because its date-extraction regex `[+-:0-9 ]` is an invalid character range there (it works under GNU `sed`). The publication was completed by performing the equivalent `git mv` manually. The script itself was not modified.
 
-### Resume Driver Version Difference, Documented
+---
 
-You noted that the CLI yield/loop resume protocol is slotted for 0.2.1. I confirmed it is implemented in the working tree by building keleusma 0.2.1 from `/Users/bsechter/projects/rust/keleusma` and running the controllers against it. The `yield` controller produced `Int(3)` exactly as the tick convention predicts (initial tick 1, yields 1, host resumes with 2, routes verdict 2 to terminal state 3). The released 0.2.0 binary lacks the driver and errors with "the CLI runner does not yet drive resume," and `shell::exit` is not registered in 0.2.0. The article now targets 0.2.1 for the lifecycle section, shows the real run, and still records that 0.2.0 lacks the driver and only verifier-checks those entry points via `keleusma compile`. Nothing was hidden.
+## Release Announcement, A108
 
-### Scope Discipline
+New Blog Post: A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines
 
-Per the subject matter, the article is explicit that it implements the kernel only. The proposer, critics, retrieval, calibrator, and formal prover are out of scope and unbuildable in Keleusma, and the article says so. Nothing claims a working truthful machine.
+What machine would adhere to the scientific method, value truthfulness over agreement, and decline to answer when declining is the honest response? This article argues that no single large language model can, because those requirements are guarantees a stochastic next-token predictor cannot supply about its own behavior. The answer is a compound neuro-symbolic system in which a language model proposes, a decoupled critic refutes, an external store grounds every fact, a calibrated policy governs abstention, and a deterministic symbolic layer holds the guarantees.
 
-### Publication Dependency (action needed before publishing)
+You can read the full article here:
+https://sgeos.github.io/ai/philosophy/2026/05/26/neurosymbolic_blueprint_for_truthful_machines.html
 
-A109 links to A108 via `post_url`. A108 must be published first. The A108 `post_url` target date embedded in A109 is `2026-05-30`; if A108 is published on a different date, update the `related_post_truthful_machine` reference in A109 to match. Until A108 is published, `_preview.sh` and `jekyll build` will fail to resolve the A108 link.
+#AI #LLM #Neurosymbolic #ScientificMethod #Truthfulness #Abstention #Verification
 
-### Process Files Updated
+---
 
-- TASKLOG.md: current task A109-P1, history entry added, next available advanced to A110.
-- draft_summary.md: A109 entry added, counts updated to 13 files and 2 new drafts, dependency recorded.
-- REVERSE_PROMPT.md: overwritten with this summary.
+## Release Announcement, A109
+
+New Blog Post: A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture
+
+A companion to the truthful-machine blueprint. It takes the one layer of that design that can be written as verifiable code, the control-and-governance kernel, and implements its skeleton in Keleusma, a total functional language whose verifier proves bounded execution before a program runs. Every listing was compiled and run; typed claims, total terminal-state routing, an audited information-flow fact gate, and the call-yield-resume lifecycle are shown, with the neural and prover components explicitly out of scope.
+
+You can read the full article here:
+https://sgeos.github.io/ai/rust/programming/2026/05/27/verifiable_control_kernel_in_keleusma.html
+
+#Keleusma #Rust #TotalFunctional #Verification #AI #EmbeddedScripting
+
+---
+
+## Action Still Pending From You
+
+To make Keleusma code highlight on the deployed site (A107 and A109), set the repository Pages source to GitHub Actions (Settings -> Pages -> Build and deployment -> Source -> "GitHub Actions"). Until then the legacy branch build serves the site and renders Keleusma fences as plain text. This does not block publication; A108 and A109 appear either way.
 
 ---
 
@@ -107,8 +73,7 @@ A109 links to A108 via `post_url`. A108 must be published first. The A108 `post_
 
 - Next available article number: A110.
 - 0 release candidates.
-- 2 new drafts (A108 and A109, awaiting human review). A109 depends on A108 publishing first.
+- 0 new drafts. A108 and A109 published.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A107.
-- Verified Keleusma example scripts live in `tmp/a108/` (gitignored, not committed).
+- Published: A79 through A109.

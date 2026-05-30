@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture"
-date:   2026-05-31 09:00:00 +0000
+date:   2026-05-27 09:00:00 +0000
 categories: ai rust programming
 ---
 
@@ -56,7 +56,7 @@ That, and only that, is the claim.
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-05-31 09:00:00 +0000
+2026-05-27 09:00:00 +0000
 
 # Keleusma
 $ keleusma --version
@@ -425,5 +425,5 @@ and the shape of the language alike.
 [ref_refinement_type]: https://en.wikipedia.org/wiki/Refinement_type
 [ref_total_functional]: https://en.wikipedia.org/wiki/Total_functional_programming
 [ref_wcet]: https://en.wikipedia.org/wiki/Worst-case_execution_time
-[related_post_truthful_machine]: {% post_url 2026-05-30-neurosymbolic_blueprint_for_truthful_machines %}
+[related_post_truthful_machine]: {% post_url 2026-05-26-neurosymbolic_blueprint_for_truthful_machines %}
 [related_post_keleusma]: {% post_url 2026-03-14-keleusma_getting_started %}
