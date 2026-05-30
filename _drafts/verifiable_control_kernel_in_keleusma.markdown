@@ -103,7 +103,7 @@ a confidence must inhabit.
 A [refinement type][ref_refinement_type]
 can, and the check is proved at construction.
 
-```rust
+```keleusma
 fn in_range(x: Word) -> bool { x >= 0 and x <= 100 }
 
 newtype Confidence = Word where in_range;
@@ -130,7 +130,7 @@ A confidence outside the range
 is not a runtime error to be caught.
 It is rejected before the program runs.
 
-```rust
+```keleusma
 fn main() -> Word {
     raw(Confidence(150))
 }
@@ -157,7 +157,7 @@ The critic is not written here.
 Its verdict is an input,
 supplied by the host.
 
-```rust
+```keleusma
 fn in_range(x: Word) -> bool { x >= 0 and x <= 100 }
 newtype Confidence = Word where in_range;
 
@@ -216,7 +216,7 @@ A label rides on a value,
 and the language refuses to let a labelled value
 flow into a place that does not accept the label.
 
-```rust
+```keleusma
 fn commit(x: Word) -> Word {
     x
 }
@@ -241,7 +241,7 @@ $ keleusma run 03_fact_gate.kel
 Remove the gate, and the leak is proved
 before the program runs.
 
-```rust
+```keleusma
 fn main() -> Word {
     let claim = classify 42@Unverified;
     commit(claim)
@@ -266,7 +266,7 @@ then resumes with their result and decides.
 That is a non-atomic total function,
 written with the `yield` keyword.
 
-```rust
+```keleusma
 fn decide_code(0)        -> Word { 2 }  // refuted     -> abstain
 fn decide_code(1)        -> Word { 2 }  // unsupported -> abstain
 fn decide_code(2)        -> Word { 3 }  // ill-posed   -> request reframing
@@ -310,7 +310,7 @@ that yields a decision on every cycle and never finishes,
 the steady beat of a governed agent
 that runs indefinitely.
 
-```rust
+```keleusma
 fn decide_code(0)       -> Word { 2 }
 fn decide_code(1)       -> Word { 2 }
 fn decide_code(2)       -> Word { 3 }

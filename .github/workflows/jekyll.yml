@@ -1,0 +1,58 @@
+name: Build and deploy Jekyll site to GitHub Pages
+
+# This workflow replaces the stock GitHub Pages branch build. Unlike the
+# branch build, an Actions build does not run Jekyll in safe mode, so the
+# custom Rouge lexer in `_plugins/` is honored and Keleusma code fences are
+# highlighted on the deployed site.
+#
+# One-time setup: in the repository settings, set Pages -> Build and
+# deployment -> Source to "GitHub Actions". Until that switch is made this
+# workflow builds and (if Pages source is Actions) deploys; the legacy
+# branch build continues to serve the site in the meantime.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment, do not cancel an in-progress run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
