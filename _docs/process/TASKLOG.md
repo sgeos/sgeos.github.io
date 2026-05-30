@@ -8,36 +8,36 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Draft A108 (A108-P1)
+**Name**: Draft A109 (A109-P1)
 **Status**: Complete
 **Started**: 2026-05-30
 
 ## Success Criteria
 
-- [x] A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" researched and written (963 lines, 56 refs).
-- [x] Exhaustive literature survey conducted, all citations verified via web search.
-- [x] Dense inline reference-style citations, every reference cited in prose (56/56).
-- [x] References categorized (Book, Reference, Related Post, Research) and alphabetized.
-- [x] Reference integrity confirmed (56/56, zero missing, zero unused).
-- [x] Two post_url cross-links (A94, A103) verified to resolve.
+- [x] A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" written (companion to A108).
+- [x] All code listings compiled and run with keleusma 0.2.0; shown outputs are actual outputs.
+- [x] Verified example scripts authored in `tmp/a108/` (gitignored scratch).
+- [x] Honest scope and limitation sections (kernel only; installed CLI does not drive resume).
+- [x] Reference integrity confirmed (9/9, zero missing, zero unused).
+- [x] Publication dependency on A108 recorded.
 - [x] Draft summary synced.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A108-P1-T1 | First draft | Complete | Drafted from conversation research, 31 references, dense inline citations. |
-| A108-P1-T2 | Exhaustive literature survey | Complete | ~20 parallel web searches across neurosymbolic, verification, abstention, sycophancy, calibration, theorem proving, RAG, factuality, scalable oversight, adaptive compute. All arXiv/Nature IDs verified. |
-| A108-P1-T3 | Revise and fold in references | Complete | Expanded to 963 lines, 56 references. Reference integrity and prose-citation coverage verified programmatically. |
+| A109-P1-T1 | Review Keleusma V0.2.0 against the A108 design | Complete | Read CHANGELOG and guide chapters. Asserted fit for the controller and governance kernel, non-fit for neural and prover layers. |
+| A109-P1-T2 | Draft and verify example skeletons | Complete | Seven `.kel` files in `tmp/a108/`. Three run (64, 1, 42), two rejected at compile time as intended, two pass the verifier via `keleusma compile`. |
+| A109-P1-T3 | Write companion article | Complete | Tutorial-genre article with verified listings and outputs, scope and limitation sections, 9 references. |
 
 ## Notes
 
-- Next available article number: A109.
+- Next available article number: A110.
 - 0 release candidates.
-- 1 new draft (A108, unpublished, awaiting human review).
+- 2 new drafts (A108 and A109, unpublished, awaiting human review). A109 depends on A108 publishing first.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
-- A108 is a standalone AI/philosophy article, not part of the probe series. Speculative architecture for an AI that adheres to the scientific method, values truthfulness over sycophancy, and abstains when warranted.
+- A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The installed keleusma CLI is 0.2.0; the runtime does not yet drive yield/loop resume, so those listings are shown via `keleusma compile`.
 
 ## History
 
@@ -127,3 +127,4 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-03-14 | A107-P1: "Getting Started with Keleusma 0.1.1" researched and written (928 lines, 27 refs). Local repo explored, all examples verified. Draft summary synced. |
 | 2026-03-14 | A107-P2: "Getting Started with Keleusma 0.1.1" published (2026-03-14 date). Draft summary synced. |
 | 2026-05-30 | A108-P1: "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" researched and written (963 lines, 56 refs). Exhaustive literature survey with all citations verified. Standalone AI/philosophy article. References A94 and A103 via post_url. Draft summary synced. |
+| 2026-05-30 | A109-P1: "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" written, companion to A108. Reviewed Keleusma V0.2.0 and asserted fit for the control/governance kernel. Seven example scripts authored and verified in tmp/a108 (three run, two rejected at compile time as intended, two pass the verifier). 9 references. References A108 and A107 via post_url; A109 depends on A108 publishing first. Draft summary synced. |

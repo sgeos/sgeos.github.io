@@ -9,64 +9,62 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-30
-**Task**: A108-P1 Draft A108
+**Task**: A109-P1 Draft A109 (Keleusma control-kernel companion to A108)
 
 ---
 
 ## Verification
 
-### A108 Researched and Written
+### A109 Written and Examples Verified
 
-A108 "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines" drafted at `_drafts/neurosymbolic_blueprint_for_truthful_machines.markdown`.
+A109 "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture" drafted at `_drafts/verifiable_control_kernel_in_keleusma.markdown`.
 
-**Draft article**: 963 lines, 56 references (1 Book, 18 Reference, 2 Related Post, 35 Research).
-**Date**: `2026-05-30 09:00:00 +0000` (placeholder, to be set at publication).
-**Post_url references**: 2 (A94 Long-Form Writing, A103 Error Correction Recursion Problem). Both verified to resolve to `_posts/`.
-**Reference integrity**: 56/56. Zero missing. Zero unused. All 56 cited in prose body.
-**Categories**: ai philosophy. Standalone article, not part of the probe series.
+**Genre**: Tutorial. Companion to A108. Implements the deterministic control-and-governance kernel of the truthful-machine blueprint in Keleusma V0.2.0.
+**References**: 9 (1 Crate, 1 GitHub, 1 Guide, 4 Reference, 2 Related Post). Integrity 9/9, zero missing, zero unused.
+**Cross-links**: A108 and A107 via post_url.
+**Categories**: ai rust programming.
 
-### Method
+### Method and Evidence
 
-This article originated from a conversation about model self-description, invisible tool-side instructions, sycophancy, and architecture. The human asked for a speculative blueprint for an AI that adheres to the scientific method, values truthfulness over sycophancy, and declines when declining is the honest answer.
+I first reviewed Keleusma V0.2.0 in `/Users/bsechter/projects/rust/keleusma` (workspace at 0.2.1, the 0.2.0 line tagged, CHANGELOG and guide chapters read). The review concluded that Keleusma is a strong fit for the control and governance kernel of the A108 design and a deliberate non-fit for the neural and formal-prover layers.
 
-A first draft was written from in-conversation research (31 references), then an exhaustive literature survey was conducted with approximately twenty parallel web searches across neuro-symbolic verification, theorem proving, retrieval-augmented generation, factuality evaluation, abstention and selective prediction, calibration and conformal prediction, sycophancy, scalable oversight, adaptive compute, and mixture-of-experts. Every arXiv and Nature identifier was verified against search results before inclusion. The article was then expanded to 56 references and the new literature folded in.
+I then drafted seven example scripts in `tmp/a108/` (gitignored scratch) and verified each with `keleusma 0.2.0`:
 
-### Style Note
+- `01_typed_claims.kel` runs and prints `64`.
+- `01b_typed_claims_reject.kel` is rejected at compile time (refinement provably fails for `Confidence(150)`).
+- `02_route.kel` runs and prints `1`.
+- `03_fact_gate.kel` runs and prints `42`.
+- `03b_fact_gate_leak.kel` is rejected at compile time (information-flow type error on `Word@Unverified`).
+- `04_controller_tick.kel` (yield) and `05_controller_loop.kel` (loop) pass the verifier via `keleusma compile`.
 
-Per the human's request, this article uses denser inline reference-style citations than recent posts, with every reference cited at least once in the prose body rather than only listed. References are categorized and alphabetized per the style guide.
+Every output quoted in the article is the actual captured output.
 
-### Epistemic Framing
+### Honest Limitation Found and Documented
 
-The article explicitly marks the boundary between established components and the unproven integration. It states plainly that there is no proven blueprint, identifies generalizing verification beyond formal domains as the central open problem, includes a failure-modes section, and records a competing-vision note acknowledging that the language-model substrate itself is contested.
+The installed 0.2.0 CLI runner does not yet drive the yield/loop resume protocol, and `shell::exit` is not available in it. The guide documents a tick-counter driver that this build does not implement. The article therefore shows the `yield` and `loop` controllers via `keleusma compile`, which proves they lex, type-check, and pass the bounded-execution verifier, and states plainly that driving them to completion requires the embedding host rather than the stock CLI. This was surfaced rather than hidden.
+
+### Scope Discipline
+
+Per the subject matter, the article is explicit that it implements the kernel only. The proposer, critics, retrieval, calibrator, and formal prover are out of scope and unbuildable in Keleusma, and the article says so. Nothing claims a working truthful machine.
+
+### Publication Dependency (action needed before publishing)
+
+A109 links to A108 via `post_url`. A108 must be published first. The A108 `post_url` target date embedded in A109 is `2026-05-30`; if A108 is published on a different date, update the `related_post_truthful_machine` reference in A109 to match. Until A108 is published, `_preview.sh` and `jekyll build` will fail to resolve the A108 link.
 
 ### Process Files Updated
 
-- TASKLOG.md: current task updated to A108-P1, history entry added, next available number advanced to A109.
-- draft_summary.md: A108 entry added. File count updated to 12. New draft count to 1.
-- REVERSE_PROMPT.md: overwritten with this verification summary.
-
----
-
-## Release Announcement (Pending Publication)
-
-New Blog Post: A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines
-
-Suppose you wanted an assistant that adhered rigidly to the scientific method, valued truthfulness over agreement, and declined to answer when declining was the honest response. What machine would satisfy those requirements? This article argues that no single large language model can, because the requirements are guarantees and a stochastic next-token predictor cannot supply guarantees about its own behavior. The answer is a compound neuro-symbolic system in which a language model proposes, an adversarial critic refutes, an external store grounds every fact, a calibrated policy governs abstention, and a deterministic symbolic layer holds the guarantees.
-
-Key takeaways:
-- Adhering to the scientific method and declining when warranted are the same property, because a method that withholds judgment on untestable or unsupported claims must abstain often.
-- The components each have literature support, from retrieval-augmented generation and process supervision to adversarial debate, abstention training, and solver-backed verification, but no deployed general-purpose system assembles them into one rigorous whole.
-- The closest existing realization is automated theorem proving, where a neural proposer is checked by a formal verifier, and the unsolved problem is extending that verifier-backed guarantee beyond the formalizable frontier.
-
-This draft is awaiting human review before publication. The announcement above is provided for convenience and should be regenerated with the live URL at publication time.
+- TASKLOG.md: current task A109-P1, history entry added, next available advanced to A110.
+- draft_summary.md: A109 entry added, counts updated to 13 files and 2 new drafts, dependency recorded.
+- REVERSE_PROMPT.md: overwritten with this summary.
 
 ---
 
 ## Notes
 
-- Next available article number: A109.
+- Next available article number: A110.
 - 0 release candidates.
-- 1 new draft (A108, awaiting human review).
+- 2 new drafts (A108 and A109, awaiting human review). A109 depends on A108 publishing first.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - Published: A79 through A107.
+- Verified Keleusma example scripts live in `tmp/a108/` (gitignored, not committed).
