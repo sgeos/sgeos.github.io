@@ -18,6 +18,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines (A108) — New Draft
+
+**File**: `neurosymbolic_blueprint_for_truthful_machines.markdown`
+**Topic**: Speculative compound neuro-symbolic architecture for an AI that adheres to the scientific method, values truthfulness over sycophancy, and abstains when warranted
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: New Draft (awaiting human review)
+
+Standalone AI and philosophy article, not part of the probe series.
+Argues that the stated requirements cannot be met by a single language model
+and proposes a layered architecture in which a language-model proposer
+is gated by an adversarial critic ensemble, retrieval-grounded fact-checking,
+a deterministic scientific-method controller, calibrated abstention,
+and a symbolic verification layer.
+Includes a concrete instantiation with parameter counts,
+a survey of what already exists (theorem provers, RAG research assistants,
+anti-sycophancy and abstention research, neuro-symbolic verification),
+the open problem of generalizing verification beyond formal domains,
+a failure-modes section, and a competing-vision note on world-model architectures.
+Article number A108 assigned. Date 2026-05-30 (placeholder, set at publication).
+963 lines. 56 references across four categories (Book, Reference, Related Post, Research).
+References A94 (Long-Form Writing) and A103 (Error Correction Recursion Problem) via post_url.
+All citations verified via web search during an exhaustive literature survey.
+Reference integrity confirmed (56/56, zero missing, zero unused, all cited in prose).
+
+**Remaining Work**:
+Human review of the speculative architecture and epistemic framing.
+Optional adjustment of the placeholder parameter counts in the concrete instantiation.
+Set publication date and run `date -u` to sync Software Versions when ready.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -259,9 +289,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Eleven files exist in `_drafts/`. One is a template.
+Twelve files exist in `_drafts/`. One is a template.
 No release candidates remain.
-No new drafts remain.
+One new draft remains (A108, awaiting human review).
 No stubs remain.
 A80 through A107 have been published.
 Writing Proofs (A79) has been published.
