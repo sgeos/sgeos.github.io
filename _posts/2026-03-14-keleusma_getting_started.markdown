@@ -121,7 +121,7 @@ Examples:
 
 Create a file called `hello.kel` with the following contents.
 
-```
+```keleusma
 fn square(x: i64) -> i64 { x * x }
 
 fn main() -> i64 {
@@ -168,7 +168,7 @@ All local bindings are immutable.
 Rebinding a name shadows the previous binding
 without mutating the original value.
 
-```
+```keleusma
 let x: i64 = 42;
 let y = 3.14;
 let z = x + 1;
@@ -195,14 +195,14 @@ Logical operators use short-circuit evaluation.
 The `as` operator performs explicit type conversion
 between numeric types.
 
-```
+```keleusma
 let n: i64 = 42;
 let f: f64 = n as f64;
 ```
 
 ### Conditionals
 
-```
+```keleusma
 fn abs_value(x: i64) -> i64 {
     if x < 0 { 0 - x }
     else { x }
@@ -219,7 +219,7 @@ All `for` loops are bounded by construction
 because ranges have a known size
 and arrays have a known length.
 
-```
+```keleusma
 fn main() -> i64 {
     let xs = [10, 20, 30, 40];
 
@@ -254,7 +254,7 @@ An atomic total function must terminate on every input.
 It may not yield, may not recurse,
 and must return a value.
 
-```
+```keleusma
 fn clamp(val: i64, lo: i64, hi: i64) -> i64 {
     if val < lo { lo }
     else if val > hi { hi }
@@ -273,7 +273,7 @@ A non-atomic total function may yield control
 back to the host one or more times
 but must eventually return a final value.
 
-```
+```keleusma
 yield prompt(question: String) -> String {
     let answer = yield question;
     answer
@@ -295,7 +295,7 @@ and producing a stream of outputs.
 It must yield on every iteration.
 Only one `loop` function may exist per script.
 
-```
+```keleusma
 loop main(input: i64) -> i64 {
     let result = input * 2;
     let input = yield result;
@@ -326,7 +326,7 @@ for any single tick of the system.
 
 ### Structs
 
-```
+```keleusma
 struct Point { x: i64, y: i64 }
 
 fn manhattan_norm(p: Point) -> i64 {
@@ -344,7 +344,7 @@ Field access uses dot notation.
 
 ### Enums
 
-```
+```keleusma
 enum Shape {
     Circle(i64),
     Rectangle(i64, i64),
@@ -373,7 +373,7 @@ or include a wildcard `_` arm.
 
 ### Tuples and Arrays
 
-```
+```keleusma
 let pair: (i64, i64) = (1, 2);
 let xs = [10, 20, 30, 40];
 let repeated = [0.0; 8];
@@ -386,7 +386,7 @@ filled with `count` copies of `value`.
 
 ### Option Type
 
-```
+```keleusma
 let some_value: Option<i64> = Option::Some(42);
 let no_value: Option<i64> = Option::None;
 ```
@@ -399,7 +399,7 @@ The pipeline operator `|>` threads the result
 of the left expression
 as the first argument to the right function call.
 
-```
+```keleusma
 fn double(x: i64) -> i64 { x + x }
 fn add(x: i64, y: i64) -> i64 { x + y }
 fn square(x: i64) -> i64 { x * x }
@@ -418,7 +418,7 @@ For functions where the piped value
 should not be the first argument,
 use the underscore placeholder.
 
-```
+```keleusma
 value |> insert(collection, _)
 ```
 
@@ -432,7 +432,7 @@ each with its own parameter pattern.
 The runtime tries the heads in source order
 and dispatches to the first one whose pattern matches.
 
-```
+```keleusma
 fn classify(0)            -> i64 { 0 }
 fn classify(1)            -> i64 { 1 }
 fn classify(n: i64)       -> i64 { n + 10 }
@@ -454,7 +454,7 @@ The third head matches any other integer.
 Guard clauses refine pattern matching
 with additional conditions.
 
-```
+```keleusma
 fn sign(x: i64) -> String when x > 0 { "positive" }
 fn sign(x: i64) -> String when x < 0 { "negative" }
 fn sign(x: i64) -> String { "zero" }
@@ -471,14 +471,14 @@ Keleusma supports generic type parameters
 and trait-based polymorphism.
 Generics are monomorphized at compile time.
 
-```
+```keleusma
 fn id<T>(x: T) -> T { x }
 ```
 
 Traits declare a set of function signatures
 that a type must implement.
 
-```
+```keleusma
 trait Doubler {
     fn double(x: i64) -> i64;
 }
@@ -500,7 +500,7 @@ at compile time through monomorphization.
 
 Trait bounds constrain type parameters.
 
-```
+```keleusma
 fn use_doubler<T: Doubler>(x: T) -> i64 {
     x.double()
 }
@@ -516,7 +516,7 @@ and cannot cross yield boundaries.
 
 String literals produce static strings.
 
-```
+```keleusma
 let msg: String = "hello";
 ```
 
@@ -526,7 +526,7 @@ into chains of `concat` and `to_string` calls.
 Scripts that use f-strings must declare
 their dependency on these native functions.
 
-```
+```keleusma
 use to_string
 use concat
 
