@@ -50,6 +50,10 @@ and a companion article uses Keleusma to build
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
 2026-05-28 09:00:00 +0000
 
+# OS and Version
+$ uname -vm
+Darwin Kernel Version 25.5.0: Mon Apr 27 20:38:56 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T6000 arm64
+
 # Keleusma
 $ keleusma --version
 keleusma 0.2.0
