@@ -8,43 +8,41 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A125 (Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs)
+**Name**: Publish A126 (Communications and the Command-and-Control Data Link for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A125 "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" researched and written as the capstone outer-loop entry in the fixed-wing-UAV set, taking up the outer loop A123 set up.
-- [x] Framed around the feedback loop that drives the error between the commanded state (guidance) and the estimated state (navigation) to zero, nested by bandwidth, with the automatic landing as the tightest loop.
-- [x] The nested loops covered (inner attitude, outer guidance, mission, bandwidth separation, digital sample rates and latency).
-- [x] Navigation covered (GNSS, INS/IMU, dead reckoning, Kalman fusion, air data, RTK, initialization, GNSS-denied vision).
-- [x] Guidance covered (waypoints, cross-track error, the look-ahead path-following law) and wind and the ground track (crab, wind triangle, the small-UAV case).
-- [x] Closing the loop with energy via the total energy control system (the real-time version of the series' energy budget).
-- [x] The approach and automatic landing covered (glideslope, flare, RTK/radar-altimeter/vision, touchdown dispersion tied to the runway width), plus the automatic-takeoff bookend.
-- [x] When the loop breaks covered (GNSS loss, lost link, geofence, return-to-launch, redundancy, flight termination); scale and the UAV case (Pixhawk-class boards, ArduPilot/PX4); autonomy spectrum.
-- [x] Worked example (loop bandwidth separation, the cross-track law, the navigation error budget, the glideslope dispersion).
-- [x] References A114, A116, A123, and A124 via post_url; conclusion ties the whole set together.
-- [x] Reference integrity confirmed (29 refs, 0 unused, 0 missing).
+- [x] A126 "Communications and the Command-and-Control Data Link for Fixed-Wing UAVs" researched and written as the first extension beyond the core fixed-wing-UAV arc (which closed with A125).
+- [x] Framed on the link budget (received power versus noise) with the signal-to-noise margin setting range and the Shannon limit bounding data rate, and latency as the companion constraint that decides what can be controlled over the link.
+- [x] The link budget covered (Friis, free-space path loss, SNR, Shannon, Fresnel, ISM bands, the frequency range-versus-rate trade, near-ground multipath and the two-ray ground reflection, the regulatory cap on effective radiated power).
+- [x] The radio horizon and the moving-aircraft antenna problem (airframe shadowing, radiation-pattern nulls and polarization, antenna diversity, a tracking ground antenna).
+- [x] The three streams (command uplink, telemetry downlink, payload downlink with codec compression latency).
+- [x] The pilot's explicit requirement met: RC control via both a consumer handheld controller (handheld transmitter, FHSS, ExpressLRS, CRSF/SBUS, FPV, packet rate, failsafe) and a computer-controlled transmitter (MAVLink, SiK/RFD900, the ground control station, companion computer over cellular, intent versus stick), framed as coexisting manual and autonomous paths.
+- [x] Beyond line of sight (relay, cellular, SATCOM via Iridium); latency and why the fast loops are aboard; security and jamming (J/S, spread spectrum, AES, spoofing); lost link (failsafe, geofence); scale and the UAV case; worked example; Out of Scope.
+- [x] References A116, A121, and A125 via post_url; conclusion ties the link to the autonomous aircraft of the series.
+- [x] Reference integrity confirmed (34 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-08 date.
+- [x] Published with the 2026-06-09 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A125-P1-T1 | Research and draft the article | Complete | Capstone outer-loop entry in the fixed-wing-UAV set. The nested loops; navigation; guidance; closing the loop with energy (TECS); the approach and automatic landing; when the loop breaks; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A114, A116, A123, and A124 via post_url. 27 references. |
-| A125-P2-T1 | Completeness pass | Complete | Added a "Wind and the Ground Track" section (airmass versus ground, crab, the wind triangle, the small-UAV case), an automatic-takeoff bookend, a latency-and-sample-rate note, an autonomy-spectrum clause, and a navigation-initialization clause. 2 new references (Wind Triangle and the ArduPilot automatic-takeoff documentation) for 29 total. URLs verified. |
-| A125-P3-T1 | Publish | Complete | Set date to 2026-06-08 09:00:00 +0000. Moved _drafts/guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown to _posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/08/, MathJax included, A114 and A116 and A123 and A124 post_url links resolved, all 29 reference links present, on index). 333 lines. |
-| A125-P3-T2 | Sync process files | Complete | draft_summary.md adds an A125 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A126. The fixed-wing-UAV set is now complete. Committed and pushed; deploys via the Actions build. |
+| A126-P1-T1 | Research and draft the article | Complete | First extension beyond the core arc. The link budget; the radio horizon; the three streams; radio control with a handheld transmitter; computer-controlled transmission; beyond line of sight; latency; security and jamming; lost link; scale; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A116, A121, and A125 via post_url. 28 references. |
+| A126-P2-T1 | Completeness pass | Complete | Added near-ground multipath and the two-ray ground reflection and the regulatory cap on effective radiated power to the link budget, a "The Moving Aircraft" section (airframe shadowing, radiation-pattern nulls and polarization, antenna diversity, a tracking ground antenna), a payload-video codec-latency note, and a control-link packet-rate clause tying back to the loop rates. 6 new references (Advanced Video Coding, Antenna Diversity, Equivalent Isotropically Radiated Power, Multipath Propagation, Radiation Pattern, Two-Ray Ground-Reflection Model) for 34 total. URLs verified HTTP 200. |
+| A126-P3-T1 | Publish | Complete | Set date to 2026-06-09 09:00:00 +0000. Moved _drafts/communications_and_the_command_and_control_data_link_for_fixed_wing_uavs.markdown to _posts/2026-06-09-communications_and_the_command_and_control_data_link_for_fixed_wing_uavs.markdown (git mv; _publish.sh fails under BSD sed). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/09/, MathJax included, A116 and A121 and A125 post_url links resolved, all 34 reference links present, no unresolved markup). |
+| A126-P3-T2 | Sync process files | Complete | draft_summary.md adds an A126 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A127. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A126.
+- Next available article number: A127.
 - 0 release candidates.
-- 0 new drafts. A108 through A125 published.
+- 0 new drafts. A108 through A126 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A125 is the capstone of the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown, A125 guidance, navigation, and automatic landing). The ten-article set is now complete. Any further fixed-wing-UAV articles (communications and the C2 data link, structures and the flight envelope, payload and mission systems, the regulatory and operations layer) would be unflagged extensions rather than promised sequels. Standalone aerospace analytical article framed around the navigation-error-driven-to-zero feedback loop. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A125 is the capstone of the core fixed-wing-UAV arc (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown, A125 guidance, navigation, and automatic landing). A126 (communications and the command-and-control data link) is the first extension beyond that core arc. Remaining unflagged extensions, if desired later, are structures and the flight envelope, payload and mission systems, and the regulatory and operations layer. Standalone aerospace analytical articles, no runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -192,3 +190,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A125-P1: "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" researched and written in _drafts/ as the capstone of the fixed-wing-UAV set, taking up the outer loop A123 set up. Framed on the feedback loop driving the error between the navigation estimate and the guidance command to zero, nested by bandwidth, autoland as the tightest loop. Nested loops; navigation (GNSS/INS/Kalman); guidance (waypoints, cross-track, look-ahead law); total energy control; the approach and automatic landing; failure modes; scale (Pixhawk/ArduPilot); worked example. 27 references. Cross-links A114, A116, A123, A124 via post_url. Process files held (draft only); deltas staged in tmp/a125/. |
 | 2026-05-31 | A125-P2: Completeness pass. Added a "Wind and the Ground Track" section (crab, wind triangle, small-UAV case), an automatic-takeoff bookend, a latency-and-sample-rate note, an autonomy-spectrum clause, and a navigation-initialization clause. 2 new references (Wind Triangle, ArduPilot automatic-takeoff) for 29 total. URLs verified. |
 | 2026-05-31 | A125-P3: Published A125 "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" (2026-06-08 date, 333 lines, 29 refs). Moved to _posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A114/A116/A123/A124 post_url links resolve, all reference links present, on index). Capstone of the fixed-wing-UAV set; the ten-article set is now complete. Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A126-P1: "Communications and the Command-and-Control Data Link for Fixed-Wing UAVs" researched and written in _drafts/ as the first extension beyond the core fixed-wing-UAV arc. Framed on the link budget (P_rx = P_tx + gains - free-space path loss) with the SNR margin setting range and the Shannon limit bounding rate, and latency as the companion. The link budget; the radio horizon; the three streams; radio control with a handheld transmitter (the pilot's explicit consumer-handheld requirement); computer-controlled transmission (MAVLink, the explicit computer-TX requirement); beyond line of sight; latency; security and jamming; lost link; scale; worked example; Out of Scope. 28 references. Cross-links A116, A121, A125 via post_url. Process files held (draft only); deltas staged in tmp/a126/. |
+| 2026-05-31 | A126-P2: Completeness pass. Added near-ground multipath and the two-ray ground reflection and the regulatory cap on effective radiated power to the link budget, a "The Moving Aircraft" section (airframe shadowing, radiation-pattern nulls and polarization, antenna diversity, a tracking ground antenna), a payload-video codec-latency note, and a control-link packet-rate clause. 6 new references (Advanced Video Coding, Antenna Diversity, Equivalent Isotropically Radiated Power, Multipath Propagation, Radiation Pattern, Two-Ray Ground-Reflection Model) for 34 total. URLs verified HTTP 200. |
+| 2026-05-31 | A126-P3: Published A126 "Communications and the Command-and-Control Data Link for Fixed-Wing UAVs" (2026-06-09 date, 34 refs). Moved to _posts/2026-06-09-communications_and_the_command_and_control_data_link_for_fixed_wing_uavs.markdown via git mv (_publish.sh fails under BSD sed). Build verified (renders, MathJax included, A116/A121/A125 post_url links resolve, all reference links present, no unresolved markup, on index). First extension beyond the core arc. Process files synced. Committed and pushed; deploys via the Actions build. |
