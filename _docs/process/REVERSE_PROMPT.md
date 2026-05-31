@@ -9,73 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A120-P3 Publish "Staged and Boosted Propulsion for Small Fixed-Wing UAVs"
+**Task**: A121-P3 Publish "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs"
 
 ---
 
 ## Verification
 
-### A120 Published
+### A121 Published
 
-A120 "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" published at `_posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-03 09:00:00 +0000`. 472 lines. 40 references across Reference (35), Related Post (4), and Research (1) categories. Standalone aerospace analytical article and the fifth in the fixed-wing-UAV set. References A112, A114, A116, and A118 via `post_url`.
+A121 "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" published at `_posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-04 09:00:00 +0000`. 381 lines. 29 references across Reference (23), Related Post (3), and Research (3) categories. Standalone aerospace analytical article and the sixth in the fixed-wing-UAV set. References A112, A118, and A120 via `post_url`.
 
 ### Framing
 
-The article is framed around the post-boost mission energy budget, namely the total of potential energy from the altitude the boost reached, kinetic energy from the speed it gave, and the propulsive energy still stored aboard. The boost fills the account through the rocket equation, the boost angle splits the deposit between altitude and speed, drag is the tax, and a sustainer replenishes it. A single constraint rides on top, because the kinetic share is a speed that sets the stagnation temperature and therefore the airframe material.
+The article is framed around the state-of-charge energy-flow budget, the power balance dE/dt = P_in - P_out and its integral over the harvest cycle, and it contrasts that flow account explicitly with A120's one-time energy stock. The unifying thesis for the whole set is stated: sustained flight is a balance of powers rather than a quantity of energy, and indefinite flight is the cycle closing on itself.
 
 ### Scope Covered
 
-The mission energy budget with the energy height; the boost stage and one versus two stage; the thermal wall, stagnation temperature versus Mach, and the altitude and duration relief that makes a small boosted prototype survivable; airframe materials by regime, with titanium for the supersonic ramjet regime (SR-71) and carbon-carbon and ceramic matrix composites and active cooling for the hypersonic scramjet regime (X-43 and X-51); the three airframe archetypes for spending the budget, vertical-fighter, maneuverable descending, and conventional; boost-glide, boost-sustainer, boost-ramjet (GQM-163 Coyote), boost-scramjet, and boost-throttleable-rocket; a worked example on a 2 m vehicle; and a declared Out of Scope.
+The energy-flow budget; the demand side and the hotel load (flight power versus a fixed non-propulsive floor that often sizes the night-carry); storage as the buffer (specific energy, depth of discharge, round-trip efficiency, cold derating, the specific-energy-versus-specific-power tradeoff, the battery wall, and a supercapacitor for peaks); solar harvest and the square-cube scale gate for perpetual flight (Pathfinder, Helios, Zephyr, Solar Impulse); hydrogen fuel cells (Ion Tiger, Phantom Eye); hybrid systems; atmospheric soaring; the perpetual-flight closure with cycle-life bounding the campaign; a worked example on the 25 kg series aircraft; and a declared Out of Scope.
 
 ### Position Taken
 
-Per the pilot's direction, boost-ramjet and boost-scramjet are treated as first-class, buildable-at-2m configurations whose gate is material and budget rather than scale, with an honest note that the scramjet end is a funded research undertaking rather than a shop build. The thesis is stated plainly: the two-meter scale forbids none of these configurations.
+The worked example shows honestly that a two-meter aircraft cannot fly on the sun, since it collects about one kilowatt-hour per day against roughly nineteen of demand, so solar is a range extender at that scale and perpetual flight belongs to the large, light, high-flying HALE regime. A fuel cell carries about five times a battery of equal mass, which is why hydrogen UAVs reach days of endurance.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 40 of 40 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the Nature Communications hypersonic-materials review and the two en-dash-titled articles (energy-maneuverability theory and reinforced carbon-carbon) percent-encoded in their link definitions so no literal en-dash appears in the file. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
+Reference integrity confirmed at 29 of 29 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the Frontiers electric-propulsion review accessible and the two MDPI sources (Drones solar/hybrid and Aerospace series/parallel hybrid) retained as documented 403-to-curl peer-reviewed sources, and the square-cube law URL percent-encoded so no literal en-dash appears in the file. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/03/, MathJax is included, the A112 and A114 and A116 and A118 `post_url` links resolve, all 40 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/04/, MathJax is included, the A112 and A118 and A120 `post_url` links resolve, all 29 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Staged and Boosted Propulsion for Small Fixed-Wing UAVs
+New Blog Post: Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs
 
-The propulsion article ruled the ramjet, the scramjet, and the rocket out of regime for a small subsonic UAV. A boost stage reopens them, and the cleanest way to think about a boosted vehicle is as an energy budget. When the boost burns out, the vehicle owns a fixed total of potential, kinetic, and stored propulsive energy, and the mission is whatever that budget can buy.
+The propulsion article sized a powerplant for one flight and deferred solar, fuel cells, and hybrids. The staged-propulsion article framed a boosted mission as a fixed deposit of energy spent down. This article takes the electric energy system and frames it as the same budget seen from the opposite side, a flow account, a state of charge fed by harvest and drained by consumption and buffered by storage.
 
 Key takeaways:
-- The boost fills a potential-plus-kinetic account through the rocket equation, the boost angle decides whether it is banked as altitude or speed, and stored propulsive energy is added on top.
-- Airframes divide into three families by how they spend the budget, those that bank it as altitude in a zoom climb, those that spend it in a maneuvering descent on lift, and those that hold it level and top it up with propulsion.
-- The kinetic share is a speed, and the speed sets the stagnation temperature, which sets the material, titanium near Mach three and carbon-carbon and ceramics beyond Mach five.
-- The two-meter scale forbids none of these configurations. Material and budget, not size, decide how far up the speed ladder a prototype can be carried, and the scramjet end is a funded research undertaking rather than a shop build.
+- The governing condition for sustained flight is a balance of powers, supply minus demand, averaged over the harvest cycle, not a quantity of energy.
+- Demand splits into flight power and a roughly fixed hotel load, and on a low-power cruise the hotel load can dominate and sets a floor that closing the budget must attack directly.
+- A solar aircraft closes its daily account only if the daylight harvest covers the whole day and the battery carries the night, which the square-cube law makes possible only for large, light, high-flying craft and impossible for a two-meter airframe.
+- A fuel cell carries about five times the energy of a battery of equal mass, a hybrid fills the account from the source best suited to each part of the mission, and the atmosphere itself can supply a soaring airframe for free.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/03/staged_and_boosted_propulsion_for_fixed_wing_uavs.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/04/electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.html
 
-#UAV #FixedWing #Aerospace #Ramjet #Scramjet #BoostGlide #Hypersonic #EnergyManagement
+#UAV #FixedWing #Aerospace #SolarPower #FuelCell #HybridElectric #Endurance #HAPS
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-03 publication date is as intended. A120 extends the fixed-wing-UAV set one day after A118.
-- Optionally request schematic diagrams (the stagnation-temperature-versus-Mach curve, the material ladder by regime, the staged-mass-ratio comparison, and an energy-budget or airframe-archetype schematic), which are the one improvement that cannot be added in text and would require image assets.
+- Confirm the 2026-06-04 publication date is as intended. A121 extends the fixed-wing-UAV set one day after A120.
+- Optionally request schematic diagrams (the energy-flow ledger, the daily solar balance with the night-carry, a storage-versus-source specific-energy comparison, and a hybrid series-versus-parallel schematic), which are the one improvement that cannot be added in text and would require image assets.
 - Optionally request the remaining series sequels noted earlier, namely guidance, navigation, and automatic landing, or stability and control sizing.
 
 ---
 
 ## Notes
 
-- Next available article number: A121.
+- Next available article number: A122.
 - 0 release candidates.
-- 0 new drafts. A108 through A120 published.
+- 0 new drafts. A108 through A121 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A120.
-- A120 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion). No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A120 process-file deltas were staged in `tmp/a120/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A121.
+- A121 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems). No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A121 process-file deltas were staged in `tmp/a121/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.

@@ -18,6 +18,37 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown`
+**Topic**: The electric energy economy of a fixed-wing UAV, framed as a state-of-charge energy-flow budget (supply minus demand, buffered by storage), the flow counterpart to A120's stock budget.
+**Article Number**: A121
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-04 (29 references; 381 lines)
+
+Standalone aerospace article and the sixth in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems).
+Fills the solar, fuel-cell, hybrid, and battery-management items A118 deferred.
+The master variable is the energy-flow budget, the power balance dE/dt = P_in - P_out and its integral over the harvest cycle, contrasted explicitly with A120's one-time energy stock (stock versus flow).
+Sections covered include
+the energy-flow budget;
+the demand side and the hotel load (flight power versus a fixed non-propulsive floor);
+storage as the buffer (specific energy, depth of discharge, round-trip efficiency, cold derating, the specific-energy-versus-specific-power tradeoff, the battery wall, supercapacitor for peaks);
+harvesting from the sun (output = efficiency times area times irradiance, the daily account, MPPT named);
+the scale gate for solar perpetual flight (square-cube, Pathfinder/Helios/Zephyr/Solar Impulse);
+harvesting from hydrogen (PEM fuel cell, Ion Tiger, Phantom Eye);
+hybrid systems (series and parallel);
+harvesting from the air (thermal and dynamic soaring);
+the perpetual-flight closure (daily harvest at least daily demand, night energy within usable storage, cycle-life bounding the campaign);
+a worked example on the 25 kg series aircraft;
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+The thesis is that sustained flight is a balance of powers rather than a quantity of energy, and indefinite flight is the cycle closing on itself, which the large light high-flying solar aircraft achieves and the small one does not.
+References A112, A118, and A120 via post_url.
+29 references across Reference, Related Post, and Research categories.
+381 lines.
+
 ### Staged and Boosted Propulsion for Small Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown`
@@ -627,7 +658,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A120 have been published.
+A79 through A121 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

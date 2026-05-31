@@ -8,42 +8,43 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A120 (Staged and Boosted Propulsion for Small Fixed-Wing UAVs)
+**Name**: Publish A121 (Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A120 "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" researched and written as the staged-propulsion entry in the fixed-wing-UAV set.
-- [x] Framed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy), with the energy height h_e = h + V^2 / 2g.
-- [x] Boost stage covered (Tsiolkovsky rocket equation, specific impulse, one versus two stage).
-- [x] The thermal wall covered (stagnation temperature versus Mach, aerodynamic heating, altitude and duration relief).
-- [x] Airframe materials by regime covered (LW-PLA, aluminum, titanium and steel with the SR-71 anchor, superalloy and refractory and ceramic matrix composite and carbon-carbon and ultra-high-temperature ceramics and active or ablative cooling with the X-43 and X-51 anchors).
-- [x] Airframe archetypes covered (vertical-fighter banking the budget as altitude, maneuverable descending spending it in a controlled descent, conventional holding it level and topping up with propulsion).
-- [x] Boost-glide, boost-sustainer, boost-ramjet (GQM-163 anchor), boost-scramjet, and boost-throttleable-rocket covered.
-- [x] One stage versus two covered; worked example on a 2 m vehicle (propellant fraction and stagnation temperature to Mach 2 and Mach 5, with the Mach-5 energy height).
-- [x] References A112, A114, A116, and A118 via post_url.
-- [x] Reference integrity confirmed (40 refs, 0 unused, 0 missing).
+- [x] A121 "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" researched and written as the electric-energy entry in the fixed-wing-UAV set.
+- [x] Framed around the state-of-charge energy-flow budget (the power balance dE/dt = P_in - P_out and its integral over the harvest cycle), contrasted with A120's energy stock.
+- [x] The demand side covered, splitting flight power from the fixed hotel load.
+- [x] Storage as the buffer covered (specific energy, depth of discharge, round-trip efficiency, cold derating, the specific-energy-versus-specific-power tradeoff, the battery wall, supercapacitor for peaks).
+- [x] Solar harvest covered (output = efficiency times area times irradiance, the daily account, maximum-power-point tracking named) with the square-cube scale gate for perpetual flight (Pathfinder, Helios, Zephyr, Solar Impulse).
+- [x] Fuel cells (PEM, specific energy, Ion Tiger, Phantom Eye) and hybrid systems (series and parallel) covered.
+- [x] Atmospheric harvest by soaring (thermal and dynamic) covered.
+- [x] The perpetual-flight closure covered (daily harvest at least daily demand, and night energy within usable storage, with cycle-life bounding the campaign).
+- [x] Worked example on the 25 kg series aircraft (solar collects about 1.1 kWh/day against about 19 kWh/day demand; fuel cell about five times battery endurance).
+- [x] References A112, A118, and A120 via post_url.
+- [x] Reference integrity confirmed (29 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-03 date.
+- [x] Published with the 2026-06-04 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A120-P1-T1 | Research and draft the article | Complete | Staged-propulsion entry in the fixed-wing-UAV set. Boost stage (rocket equation, one versus two stage); thermal wall; airframe materials by regime; boost-glide, boost-sustainer, boost-ramjet, boost-scramjet, and boost-rocket; one versus two stage; worked example on a 2 m vehicle; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, A116, and A118 via post_url. Real-vehicle anchors GQM-163 Coyote, SR-71, X-43, X-51. 31 references. |
-| A120-P2-T1 | Energy-budget reframe and completeness pass | Complete | Reframed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy) as the primary master variable, with the energy height and the boost-angle split between potential and kinetic energy. Added an "Airframe Archetypes for Spending the Budget" section (vertical-fighter, maneuverable descending, conventional); sharpened the boost-glide range to (L/D)(h + V^2/2g); added the Mach-5 energy-height figure (about 147 km) to the worked example; extended Out of Scope to defer trajectory optimization. 9 new references for 40 total. New URLs verified HTTP 200. |
-| A120-P3-T1 | Publish | Complete | Set date to 2026-06-03 09:00:00 +0000. Moved _drafts/staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown to _posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/03/, MathJax included, A112 and A114 and A116 and A118 post_url links resolved, all 40 reference links present, on index). 472 lines. |
-| A120-P3-T2 | Sync process files | Complete | draft_summary.md adds an A120 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A121. Committed and pushed; deploys via the Actions build. |
+| A121-P1-T1 | Research and draft the article | Complete | Electric-energy entry in the fixed-wing-UAV set. The energy-flow budget (power balance, state of charge, stock versus flow); storage as the buffer; solar harvest and the square-cube scale gate; fuel cells; hybrid systems; atmospheric soaring; the perpetual-flight closure; worked example on the 25 kg series aircraft; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A118, and A120 via post_url. Real-vehicle anchors Pathfinder, Helios, Zephyr, Solar Impulse, Ion Tiger, Phantom Eye. 28 references. |
+| A121-P2-T1 | Completeness pass | Complete | Added a "The Demand Side and the Hotel Load" section (P_out splits into flight power and a roughly fixed hotel-load floor that does not shrink with slower flight, can dominate on a low-power cruise, sizes the night-carry, and is driven down by duty-cycling); a storage-realities note (round-trip efficiency, cold derating, and the specific-energy-versus-specific-power tradeoff); and a cycle-life clause in the perpetual-flight closure. 1 new reference (Specific Power) for 29 total. New URL verified HTTP 200. |
+| A121-P3-T1 | Publish | Complete | Set date to 2026-06-04 09:00:00 +0000. Moved _drafts/electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown to _posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/04/, MathJax included, A112 and A118 and A120 post_url links resolved, all 29 reference links present, on index). 381 lines. |
+| A121-P3-T2 | Sync process files | Complete | draft_summary.md adds an A121 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A122. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A121.
+- Next available article number: A122.
 - 0 release candidates.
-- 0 new drafts. A108 through A120 published.
+- 0 new drafts. A108 through A121 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A120 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion). Standalone aerospace analytical article framed around the post-boost mission energy budget. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A121 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems). Standalone aerospace analytical article framed around the state-of-charge energy-flow budget, the flow counterpart to A120's stock. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -176,3 +177,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A120-P1: "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" researched and written in _drafts/ as the fifth entry in the fixed-wing-UAV set. Boost stage (rocket equation, one versus two stage); thermal wall; airframe materials by regime (SR-71, X-43, X-51 anchors); boost-glide/sustainer/ramjet (GQM-163)/scramjet/rocket; worked example on a 2 m vehicle. 31 references. Cross-links A112, A114, A116, A118 via post_url. Process files held (draft only); deltas staged in tmp/a120/. |
 | 2026-05-31 | A120-P2: Energy-budget reframe and completeness pass per pilot direction. Reframed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy), added the energy height and boost-angle split, a new "Airframe Archetypes for Spending the Budget" section (vertical-fighter, maneuverable descending, conventional), the boost-glide energy-height range (L/D)(h + V^2/2g), and the Mach-5 energy-height figure (about 147 km). 9 new references for 40 total. URLs verified. |
 | 2026-05-31 | A120-P3: Published A120 "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" (2026-06-03 date, 472 lines, 40 refs). Moved to _posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A116/A118 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A121-P1: "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" researched and written in _drafts/ as the sixth entry in the fixed-wing-UAV set, filling A118's deferred solar/fuel-cell/hybrid/battery items. Framed on the state-of-charge energy-flow budget (dE/dt = P_in - P_out), the flow counterpart to A120's stock. Storage buffer; solar harvest and the square-cube scale gate (Pathfinder/Helios/Zephyr/Solar Impulse); fuel cells (Ion Tiger, Phantom Eye); hybrid; atmospheric soaring; perpetual-flight closure; worked example. 28 references. Cross-links A112, A118, A120 via post_url. Process files held (draft only); deltas staged in tmp/a121/. |
+| 2026-05-31 | A121-P2: Completeness pass. Added a "The Demand Side and the Hotel Load" section (fixed hotel-load floor), a storage-realities note (round-trip efficiency, cold derating, specific-energy-versus-specific-power tradeoff), and a cycle-life clause in the perpetual-flight closure. 1 new reference (Specific Power) for 29 total. URL verified. |
+| 2026-05-31 | A121-P3: Published A121 "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" (2026-06-04 date, 381 lines, 29 refs). Moved to _posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A118/A120 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
