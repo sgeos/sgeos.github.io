@@ -18,6 +18,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Three Audiences for an Operating System — Published
+
+**File**: `_posts/2026-05-22-three_audiences_for_an_operating_system.markdown`
+**Topic**: Prequel to the BTRON-hypermedia trilogy. Names the operator-as-end-user category as a distinct third audience for an operating system, alongside the consumer and the developer. Sets up the question that A113, A115, and A117 then answer.
+**Article Number**: A119
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-05-22 (61 references; 1,364 lines)
+
+Standalone category-framing article and the prequel to the BTRON-hypermedia trilogy (A113, A115, A117).
+Sections covered include
+Opening on who an operating system serves;
+The Three Audiences (consumer, developer, operator with role definitions and the load-bearing authority concept);
+The Consumer Answer (Apple HIG, Windows UX Guidelines, GNOME HIG, KDE HIG, Material Design);
+The Developer Answer (Unix philosophy, Emacs, Vim, Visual Studio Code, Git, Cargo, npm, pip);
+The Operator (the unfilled category);
+A Short History of Operator-Facing Computing (Sketchpad, NLS, MOCR, Alto, Macintosh, BTRON, HyperCard, OpenDoc, GNOME Bonobo, SCADA, PLCs, ARINC 661, ISA-101, NUREG-0700, IEC 62366, ISO 9241, ASM Consortium);
+Why the Consumer Answer Fails the Operator (five structural failure modes);
+Why the Developer Answer Also Fails (four structural failure modes);
+The Operator Population Today (aerospace, medical, industrial, defense and intelligence, legal and regulatory, financial markets);
+A Scorecard of Audience Requirements (10-row table across consumer, developer, operator);
+The Gap That Remains;
+Out of Scope (defers the substantive solution, the language substrate, and the worked vertical to the trilogy);
+Conclusion.
+
+References:
+61 references across Reference (58) and Related Post (3) categories.
+All inline-linked per project style.
+A113, A115, and A117 cited via post_url as the deferred follow-ups.
+No internal research cited.
+A research agent verified the operator-specific references (ISA-101, ASM Consortium, IEC 62366, ISO 9241, NUREG-0700, ARINC 661, glass cockpit, SCADA, HITL, ergonomics, alarm fatigue) and the audience-contrast sources (Apple HIG, Windows UX, GNOME HIG, KDE HIG, Unix philosophy).
+
 ### Launch and Recovery Systems for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-01-launch_and_recovery_systems_for_fixed_wing_uavs.markdown`
