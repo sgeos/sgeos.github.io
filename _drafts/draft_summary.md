@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown`
+**Topic**: Landing gear and the surface interfaces of a fixed-wing UAV, framed on the touchdown energy absorbed over a stroke, complementing the runway and recovery articles.
+**Article Number**: A124
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-07 (23 references; 320 lines)
+
+Standalone aerospace article and the ninth in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown).
+The master variable is the touchdown energy absorbed over a stroke, n = v^2/(2 g0 d), the energy-and-stroke idea of the recovery article applied to the final surface interface.
+Sections covered include
+the touchdown energy and the stroke;
+wheels and landing gear (retractable versus fixed, tricycle and conventional layout, the oleo strut as gas spring and oil damper, recoil damping and bounce, frangible and sacrificial gear, spin-up and side gear loads, the gear-up fallback);
+skids (sacrificial skids, friction stroke, skis and tundra tires by surface);
+water landings (floatplane, flying boat, planing and the step, ditching, porpoising);
+drogue and main parachutes (the drogue-before-main staging, with the residual touchdown energy taken by an airbag or crush);
+deliberate impact (intentional lithospheric and hydrospheric intersection, crushable crashworthy structure for expendable vehicles);
+energy bleeding before touchdown (spoilers, forward slip, S-turns, flare, with the honest distinction that true aerobraking is an orbital maneuver while a boost-glide or ramjet or scramjet vehicle does thermally limited atmospheric deceleration);
+scale and the UAV case;
+a worked example (sink-rate, parachute, and deliberate-impact loads set by the stroke);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+Complements rather than duplicates the launch-and-recovery article.
+References A114, A116, A120, and A122 via post_url.
+23 references across Reference, Related Post, and Research categories.
+320 lines.
+
 ### Dynamic Stability and Control for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown`
@@ -717,7 +746,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A123 have been published.
+A79 through A124 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
