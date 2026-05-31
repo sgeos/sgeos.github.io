@@ -8,43 +8,44 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A121 (Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs)
+**Name**: Publish A122 (Stability, Control, and Configuration for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A121 "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" researched and written as the electric-energy entry in the fixed-wing-UAV set.
-- [x] Framed around the state-of-charge energy-flow budget (the power balance dE/dt = P_in - P_out and its integral over the harvest cycle), contrasted with A120's energy stock.
-- [x] The demand side covered, splitting flight power from the fixed hotel load.
-- [x] Storage as the buffer covered (specific energy, depth of discharge, round-trip efficiency, cold derating, the specific-energy-versus-specific-power tradeoff, the battery wall, supercapacitor for peaks).
-- [x] Solar harvest covered (output = efficiency times area times irradiance, the daily account, maximum-power-point tracking named) with the square-cube scale gate for perpetual flight (Pathfinder, Helios, Zephyr, Solar Impulse).
-- [x] Fuel cells (PEM, specific energy, Ion Tiger, Phantom Eye) and hybrid systems (series and parallel) covered.
-- [x] Atmospheric harvest by soaring (thermal and dynamic) covered.
-- [x] The perpetual-flight closure covered (daily harvest at least daily demand, and night energy within usable storage, with cycle-life bounding the campaign).
-- [x] Worked example on the 25 kg series aircraft (solar collects about 1.1 kWh/day against about 19 kWh/day demand; fuel cell about five times battery endurance).
-- [x] References A112, A118, and A120 via post_url.
-- [x] Reference integrity confirmed (29 refs, 0 unused, 0 missing).
+- [x] A122 "Stability, Control, and Configuration for Fixed-Wing UAVs" researched and written as the stability-and-control entry in the fixed-wing-UAV set, taking up the treatment A112 deferred.
+- [x] Framed around the moment balance about the center of gravity, with the static margin K_n = (x_np - x_cg)/MAC as the proxy for the stability-versus-maneuverability trade.
+- [x] All three static axes covered (longitudinal static margin, directional weathercock stability from the fin, lateral stability from dihedral), plus the center-of-gravity range across the loading envelope.
+- [x] Airfoils, camber, and invertibility covered (cambered nose-down pitching moment versus symmetric near-zero moment for aerobatic and invertible designs).
+- [x] Configuration archetypes covered (conventional empennage, canard, tandem, tailless flying wing with sweep, washout, and reflex).
+- [x] Control surfaces by placement and name covered (elevator, aileron, rudder, elevon, ruddervator, stabilator, flaperon), plus adverse yaw and high-lift and spoiler and air-brake devices.
+- [x] Control authority framed by dynamic pressure, from aerodynamic surfaces through differential thrust and thrust vectoring to a reaction control system (spaceplane RCS, cold-gas thrusters, tie to A120's boost-glide arc), with the honest caveat that a low-altitude UAV needs none of it.
+- [x] Wing tradeoff (aspect ratio versus wing loading, speed versus glide, planform) and the trim-drag energy cost covered.
+- [x] Worked example (static margin and tail volume coefficient with a flying-wing reflex contrast); dynamic stability, control-law design, RCS detailed design, and orbital mechanics declared out of scope.
+- [x] References A112, A114, and A118 via post_url.
+- [x] Reference integrity confirmed (46 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-04 date.
+- [x] Published with the 2026-06-05 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A121-P1-T1 | Research and draft the article | Complete | Electric-energy entry in the fixed-wing-UAV set. The energy-flow budget (power balance, state of charge, stock versus flow); storage as the buffer; solar harvest and the square-cube scale gate; fuel cells; hybrid systems; atmospheric soaring; the perpetual-flight closure; worked example on the 25 kg series aircraft; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A118, and A120 via post_url. Real-vehicle anchors Pathfinder, Helios, Zephyr, Solar Impulse, Ion Tiger, Phantom Eye. 28 references. |
-| A121-P2-T1 | Completeness pass | Complete | Added a "The Demand Side and the Hotel Load" section (P_out splits into flight power and a roughly fixed hotel-load floor that does not shrink with slower flight, can dominate on a low-power cruise, sizes the night-carry, and is driven down by duty-cycling); a storage-realities note (round-trip efficiency, cold derating, and the specific-energy-versus-specific-power tradeoff); and a cycle-life clause in the perpetual-flight closure. 1 new reference (Specific Power) for 29 total. New URL verified HTTP 200. |
-| A121-P3-T1 | Publish | Complete | Set date to 2026-06-04 09:00:00 +0000. Moved _drafts/electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown to _posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/04/, MathJax included, A112 and A118 and A120 post_url links resolved, all 29 reference links present, on index). 381 lines. |
-| A121-P3-T2 | Sync process files | Complete | draft_summary.md adds an A121 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A122. Committed and pushed; deploys via the Actions build. |
+| A122-P1-T1 | Research and draft the article | Complete | Stability-and-control entry in the fixed-wing-UAV set. Moment balance and the static margin; airfoils, camber, and invertibility; configuration archetypes; control surfaces by placement; high-lift and spoiler devices; differential propulsion as control; the wing tradeoff; the trim-drag energy cost; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, and A118 via post_url. 36 references. |
+| A122-P2-T1 | Completeness pass | Complete | Added a "Lateral and Directional Static Stability" section (fin weathercock stability and dihedral), a center-of-gravity-range note, an adverse-yaw note, and a washout stall-protection clause. Per pilot request, reframed "Differential Propulsion as Control" into "Control Authority and Dynamic Pressure" running from surfaces through thrust to a reaction control system (spaceplane RCS, cold-gas thruster, tie to A120), with an honest low-altitude caveat. 7 new references for 43 total. URLs verified. |
+| A122-P2-T2 | Orbital lampshade | Complete | Added an Out of Scope note distinguishing attitude control (in scope) from the translational problem of orbital mechanics, the orbital maneuver, and stationkeeping, affirmed as legitimate for spacecraft that reach orbit and out of scope for these atmospheric or suborbital vehicles. 3 new references for 46 total. URLs verified. |
+| A122-P3-T1 | Publish | Complete | Set date to 2026-06-05 09:00:00 +0000. Moved _drafts/stability_control_and_configuration_for_fixed_wing_uavs.markdown to _posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/05/, MathJax included, A112 and A114 and A118 post_url links resolved, all 46 reference links present, on index). 409 lines. |
+| A122-P3-T2 | Sync process files | Complete | draft_summary.md adds an A122 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A123. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A122.
+- Next available article number: A123.
 - 0 release candidates.
-- 0 new drafts. A108 through A121 published.
+- 0 new drafts. A108 through A122 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A121 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems). Standalone aerospace analytical article framed around the state-of-charge energy-flow budget, the flow counterpart to A120's stock. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A122 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control). Standalone aerospace analytical article framed around the moment balance about the center of gravity and the static margin. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -180,3 +181,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A121-P1: "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" researched and written in _drafts/ as the sixth entry in the fixed-wing-UAV set, filling A118's deferred solar/fuel-cell/hybrid/battery items. Framed on the state-of-charge energy-flow budget (dE/dt = P_in - P_out), the flow counterpart to A120's stock. Storage buffer; solar harvest and the square-cube scale gate (Pathfinder/Helios/Zephyr/Solar Impulse); fuel cells (Ion Tiger, Phantom Eye); hybrid; atmospheric soaring; perpetual-flight closure; worked example. 28 references. Cross-links A112, A118, A120 via post_url. Process files held (draft only); deltas staged in tmp/a121/. |
 | 2026-05-31 | A121-P2: Completeness pass. Added a "The Demand Side and the Hotel Load" section (fixed hotel-load floor), a storage-realities note (round-trip efficiency, cold derating, specific-energy-versus-specific-power tradeoff), and a cycle-life clause in the perpetual-flight closure. 1 new reference (Specific Power) for 29 total. URL verified. |
 | 2026-05-31 | A121-P3: Published A121 "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs" (2026-06-04 date, 381 lines, 29 refs). Moved to _posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A118/A120 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A122-P1: "Stability, Control, and Configuration for Fixed-Wing UAVs" researched and written in _drafts/ as the seventh entry in the fixed-wing-UAV set, taking up the stability-and-control treatment A112 deferred. Framed on the moment balance about the center of gravity and the static margin. Airfoils/camber/invertibility; configuration archetypes; control-surface taxonomy; spoilers/flaps; differential propulsion; wing tradeoff; trim-drag energy tie; worked example. 36 references. Cross-links A112, A114, A118 via post_url. Process files held (draft only); deltas staged in tmp/a122/. |
+| 2026-05-31 | A122-P2: Completeness pass and RCS integration. Added a "Lateral and Directional Static Stability" section (fin weathercock, dihedral), a CG-range note, an adverse-yaw note, and a washout stall clause; reframed control authority by dynamic pressure to add reaction control (spaceplane RCS, cold-gas thruster, tie to A120); added an Out of Scope orbital-mechanics/stationkeeping lampshade. 10 new references for 46 total. URLs verified. |
+| 2026-05-31 | A122-P3: Published A122 "Stability, Control, and Configuration for Fixed-Wing UAVs" (2026-06-05 date, 409 lines, 46 refs). Moved to _posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A118 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
