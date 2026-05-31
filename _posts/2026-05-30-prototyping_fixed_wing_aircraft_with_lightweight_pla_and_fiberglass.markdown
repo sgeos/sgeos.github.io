@@ -304,11 +304,55 @@ lands in a flyable range rather than a racing or a floating extreme.
 The principles do not stop at the edges of the band.
 A smaller micro air vehicle can be built the same way,
 accepting the low-Reynolds penalty in exchange for portability,
-and a larger aircraft can be built the same way
-by treating the glass as primary structure and committing to the labor.
+and a larger aircraft can stretch the method somewhat
+by treating the glass as primary structure and committing to the labor,
+up to the point where another construction approach takes over,
+which the next section marks out.
 The point is that the method pays off most cleanly at the smaller end,
 where the print-and-laminate loop is fast
 and the aerodynamics are still cooperative.
+
+## When to Switch Techniques
+
+The method has an envelope, and outside it an older approach is the right tool.
+The triggers are scale, load, heat, water, and volume,
+and naming the alternatives matters more here than detailing them.
+
+Scale and load. As span grows past roughly two to three meters,
+the square-cube law makes the structure the dominant problem,
+and a foamed shell with a glass skin is no longer the efficient way
+to carry the loads. The same is true at any span for an airframe
+that flies fast, pulls hard, or hauls a heavy payload.
+The established answers are a built-up spar-and-rib frame
+under an [iron-on film covering][ref_covering_film],
+a [vacuum-bagged composite][ref_vacuum_bag] over a foam core or in a tool,
+and, for the largest and most loaded airframes,
+a [molded carbon-composite primary structure][ref_uav_composites],
+which is what most large unmanned aircraft are built from today.
+These are not detailed here. The point is that they exist
+and that they take over where the printed shell gives out.
+
+Heat. The thermal caveat is a hard limit.
+An airframe that must endure sustained heat
+beyond what the high-temperature filament tolerates,
+near a turbine exhaust or in a hot deployment,
+should leave PLA behind for a higher-temperature print material or composite.
+
+Water. A hull that lives in the water rather than visiting it
+competes with a conventional molded fiberglass hull,
+which is the mature answer and sidesteps the porosity risk
+of a sealed foamed print.
+
+Volume. As noted among the alternatives,
+once many identical copies are wanted,
+the mold that printing let you skip begins to pay for itself,
+and molded composite becomes the cheaper route per copy.
+
+The unifying rule is that a printed core with a glass skin
+is a prototyping and low-volume technique
+for small, lightly loaded, room-temperature, mostly-airborne vehicles.
+Push hard on any one of those axes,
+and the method hands off to an older and better-suited one.
 
 ## A Build Method
 
@@ -426,12 +470,15 @@ applied in proportion to how much each one cares about weight.
 - [Project, Hackaday, A Guide to 3D Printing Model Aircraft Wings][project_hackaday_wings]
 - [Reference, Aspect Ratio in Aeronautics][ref_aspect_ratio]
 - [Reference, Best Foam for RC Airplane Building][ref_foam_rc]
+- [Reference, Composite Materials in Unmanned Aerial Vehicles][ref_uav_composites]
 - [Reference, Fiberglass][ref_fiberglass]
 - [Reference, PLA Temperature Resistance][ref_pla_temp]
 - [Reference, Polylactic Acid][ref_pla]
+- [Reference, RC Airplane Covering Film][ref_covering_film]
 - [Reference, Reynolds Number][ref_reynolds]
 - [Reference, Square-Cube Law][ref_square_cube]
 - [Reference, The Square-Cube Law and Scaling for RC Sailplanes][research_square_cube_rc]
+- [Reference, Vacuum Bagging a Composite Wing][ref_vacuum_bag]
 - [Reference, Wing Cube Loading][ref_wcl]
 - [Reference, Wing Loading][ref_wing_loading]
 - [Research, Basic Understanding of Airfoil Characteristics at Low Reynolds Numbers][research_low_re_airfoil]
@@ -449,6 +496,9 @@ applied in proportion to how much each one cares about weight.
 [project_hackaday_wings]: https://hackaday.com/2022/08/26/a-guide-to-3d-printing-model-aircraft-wings/
 [ref_aspect_ratio]: https://en.wikipedia.org/wiki/Aspect_ratio_(aeronautics)
 [ref_foam_rc]: https://rcplanediy.com/2026/02/22/best-foam-rc-airplane-building/
+[ref_covering_film]: https://rcplanediy.com/2026/03/09/rc-airplane-covering-film/
+[ref_uav_composites]: https://www.azom.com/article.aspx?ArticleID=12234
+[ref_vacuum_bag]: https://www.cstsales.com/vac_wing.html
 [ref_fiberglass]: https://en.wikipedia.org/wiki/Fiberglass
 [ref_pla]: https://en.wikipedia.org/wiki/Polylactic_acid
 [ref_pla_temp]: https://www.wevolver.com/article/pla-temperature-resistance
