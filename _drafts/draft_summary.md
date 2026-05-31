@@ -18,6 +18,139 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### BTRON, Hypermedia, and the Real-Time Desktop — Published
+
+**File**: `_posts/2026-05-23-btron_hypermedia_and_real_time_desktop.markdown`
+**Topic**: Historical and analytical treatment of the BTRON proposition, the asymmetry between successful real-time operating systems and failed hypermedia desktops, a contemporary diagnosis of the market gap, and a concrete architectural sketch for a 2026 successor.
+**Article Number**: A113
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-05-23 (149 references; 4,166 lines)
+
+Standalone operating-systems history and philosophy article.
+Surveys the BTRON proposition under the TRON Project (Sakamura, 1984),
+why BTRON failed (Super 301 trade dispute listed in April 1989 and withdrawn the following month after USTR site visit, hardware program collapse, ecosystem shortfall, conceptual depth tax, vendor entrenchment),
+the histories of relevant real-time operating systems (VRTX 1981, pSOS ~1982, VxWorks 1987, QNX 1980 in the Ottawa area of Canada, QNX Photon, Green Hills INTEGRITY, FreeRTOS, Zephyr, RTEMS, NuttX, μITRON, T-Kernel, seL4, Genode, Redox OS),
+the histories of hypermedia systems (Memex, NLS in 1968 funded by ARPA/NASA/USAF, Project Xanadu, Smalltalk, NoteCards developed at Xerox PARC starting 1984 by Trigg/Halasz/Moran, HyperCard 1987-2004, OLE 2 in the 1992-1993 window, Cairo, OpenDoc framework 1994 and CyberDog 1996, Bonobo, KParts, Lotus/HCL Notes ~42M peak seats with ~140M cumulative licenses, SharePoint, World Wide Web with the Berners-Lee 1989 CERN proposal, Roam, Logseq, Obsidian, Notion, Coda, Jupyter, Observable, Solid, Beaker last released December 2020, Automerge, Yjs, ActivityPub),
+the six structural commitments of the hypermedia object model,
+where the model wins on merit and where it is clearly the wrong fit,
+the real-time-plus-hypermedia special case,
+who is served by the mass-market file-and-application model,
+who would benefit from a real-time hypermedia desktop,
+the web browser as substrate analysis,
+a super-browser as modern realization,
+why the gap persists (four-component diagnosis),
+and viable entry strategies (vertical-first, internal-program, acquisition-path, sponsored-standards).
+References A93 (Fast-Moving Versus Mission-Critical Engineering) and A86 (Mission Command Management Style) via post_url.
+76 references across 4 categories (Book, Reference, Related Post, Research).
+2,219 lines.
+
+**Research Pass (2026-05-31)**:
+Four parallel research agents verified factual claims across TRON Project history,
+real-time operating systems history, hypermedia systems history,
+and contemporary tools / regulated-industry incumbents / standards.
+Corrections applied:
+ITRON deployment softened from "several billion per year" to "cumulative billions";
+Super 301 chronology refined (listed April 1989, withdrawn May 1989);
+Real Object / Virtual Object pairing introduced for BTRON's hypermedia model;
+TRON character code Unicode comparison added with concrete dates (Cho Kanji 1999 ~180K characters vs Unicode 4.1 in 2005);
+RTOS first-generation date range corrected from "1970s-early 1980s" to "early 1980s";
+QNX origin location corrected from "Ottawa" to "Ottawa area of Canada" with University of Waterloo founder attribution;
+QNX Photon deprecation since 2014 disclosed;
+QNX vehicle deployment updated to "more than 275 million" with BlackBerry press release citation;
+FreeRTOS "most widely deployed" softened to "among the most widely deployed";
+FreeRTOS AWS 2017 transaction reframed as stewardship transfer with AWS blog citation;
+seL4 superlative softened to "most extensive functional-correctness proof of a general-purpose OS kernel";
+Redox OS alpha status disclosed;
+NLS funding expanded to ARPA/NASA/USAF;
+NoteCards authorship attributed (Trigg, Halasz, Moran);
+HyperCard "several million users" softened to "millions";
+OLE 2 release window clarified (1992-1993);
+OpenDoc shipping clarified (framework 1994, CyberDog 1996);
+Lotus Notes seat counts corrected from "hundreds of millions" to ~42M active / ~140M cumulative;
+SharePoint primitives clarified (files and lists);
+Beaker reframed from "dormant" to "discontinued after December 2020";
+ARP4754B successor noted.
+URL fixes:
+ref_cho_kanji (Wikipedia 404, replaced with chokanji.com);
+ref_super_301 (replaced with Section 301 stable URL);
+ref_vrtx (replaced with Versatile_Real-Time_Executive);
+ref_qnx_neutrino (replaced with qnx.software);
+ref_qnx_photon (replaced with QNX_Photon Wikipedia entry).
+New references added with inline citations:
+ARP4754A; TRON character encoding;
+IEEE Milestone for TRON RTOS family;
+USTR 25 May 1989 statement;
+Mars Pathfinder priority inversion engineering note;
+BlackBerry QNX 275M vehicles press release;
+Amazon FreeRTOS launch blog post;
+seL4 SOSP 2009 paper;
+Engelbart and English 1968 AFIPS paper;
+Halasz 1988 NoteCards retrospective in CACM;
+Berners-Lee 1989 CERN proposal;
+Kleppmann and colleagues local-first essay (Onward 2019).
+URL verification:
+all new URLs return HTTP 200 except ACM Digital Library and chokanji.com which return 403 to curl due to bot detection but are valid human-accessible URLs.
+
+**Expansion Pass (2026-05-31)**:
+Four additional parallel research agents covered alternative research operating systems (Plan 9, Inferno, Self, Oberon, JX),
+the artificial intelligence and large language model angle (retrieval-augmented generation, Model Context Protocol, structured output, Coalition for Content Provenance and Authenticity, agent provenance research),
+architectural building blocks for a 2026 hypermedia operating system (Automerge, Yjs, Loro, InterPlanetary File System, Iroh, Hypercore, seL4, Genode, Capsicum, Cap'n Proto, WebAssembly Component Model, Servo, Chromium Embedded Framework, WebKit, ProseMirror, TipTap, Lexical, JetBrains Meta Programming System, CodeMirror, Skia, Cairo Graphics, HarfBuzz, FreeType),
+and regulated-industry incumbents (DOORS, Polarion, Windchill, ENOVIA, Vault, Gotham, Foundry, Relativity, iManage).
+Seven new sections added:
+"Other Radical Unifications" (Plan 9, Inferno, Self/Morphic, Oberon, JX as alternative unification approaches);
+"Performance and Latency Engineering for Composed Documents" (bounded handler execution time, deadline propagation, preallocated resources, spatial and temporal isolation, admission control);
+"The Artificial Intelligence Synergy" (RAG, MCP, structured output, C2PA, regulatory provenance requirements, PROV-AGENT, HyperAgents workshop);
+"How the Incumbents Compare" (comparison table across the nine incumbents on typed parts, typed links, in-place composition, provenance, and local-first persistence);
+"Coexistence with the File and Application World" (file system bridges, import handlers, lossy export, gradual adoption);
+"A Concrete Architectural Sketch" (ten layers from verified microkernel through user-facing shell, naming production-quality open-source components for each);
+"Out of Scope" (explicit declaration of seven topics deferred to follow-up articles).
+56 new authoritative sources added with inline citations.
+Reference count rose from 76 to 132 across Book (2), Reference (108), Related Post (2), and Research (20) categories.
+Line count rose from 2,219 to 3,408.
+
+**Completion Pass (2026-05-31)**:
+Three additional parallel research agents covered Lifestreams (Gelernter and Freeman, Yale, mid-1990s),
+Sutherland's Sketchpad (1963) and Alan Kay's Dynabook (1968-1972),
+and the contemporary Tools for Thought movement (Matuschak, Nielsen, Appleton, Bret Victor, Rheingold, Future of Coding, Hyperlink Academy).
+Seven new sections and inline additions added:
+Sketchpad paragraph in hypermedia history;
+Dynabook paragraph in hypermedia history;
+Lifestreams paragraph in hypermedia history;
+Tools for Thought paragraph in hypermedia history (with cultural framing);
+"A Day in the Workflow, an Aerospace Requirements Example" between Architectural Sketch and Conclusion;
+"Epistemic State of the Argument" between Workflow and Conclusion (distinguishing factual, structural, and strategic claims);
+"Reader's Next Steps" after Out of Scope (TRON Forum, seL4 community, Genode community, local-first community, Solid working group, HyperAgents workshop, Tools for Thought community);
+"Glossary" after Reader's Next Steps (defined-terms section for 12 key concepts including capability-based security, compound document, conflict-free replicated data type, content-addressable storage, handler, hypermedia object model, link store, microkernel, provenance, real-time operating system, separation kernel, transclusion, typed link, typed part).
+17 new authoritative sources added with inline citations:
+Mirror Worlds (Gelernter 1991 Oxford);
+Tools for Thought (Rheingold 1985 MIT Press);
+Lifestreams CHI 1996 paper;
+Lifestreams SIGMOD 1996 paper;
+Lifestreams Yale project page;
+Sutherland's Sketchpad Cambridge-hosted thesis;
+Sketchpad Wikipedia;
+Kay and Goldberg Personal Dynamic Media 1977;
+Dynabook Wikipedia;
+Matuschak and Nielsen 2019 ttft essay;
+Matuschak personal site;
+Evergreen Notes;
+Maggie Appleton personal site;
+Appleton Garden History essay;
+Bret Victor Magic Ink essay;
+Future of Coding;
+Hyperlink Academy.
+Reference count rose from 132 to 149.
+Line count rose from 3,408 to 4,166.
+All anchors verified used and defined; style scan clean.
+URL verification: all HTTP 200 except documented OUP 202 (project memory) and ACM DL 403 (bot detection, valid for human readers).
+
+**Remaining Work**:
+Human review of the four completion-pass additions (Lifestreams, Sketchpad/Dynabook, Tools for Thought, user journey walkthrough, epistemic state, next steps, glossary).
+Confirm publication date and assign final timestamp.
+Update Software Versions section if any is desired (currently omitted to match A98-class analytical-article convention).
+Update memory once published.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -263,11 +396,10 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A80 through A112 have been published.
-Writing Proofs (A79) has been published.
+A79 through A113 have been published.
 
 **Tier 1: Publishable with moderate effort.**
-No drafts remain in Tier 1. All publishable drafts have been elevated to release candidate or pre-release candidate status.
+No drafts remain in Tier 1.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
