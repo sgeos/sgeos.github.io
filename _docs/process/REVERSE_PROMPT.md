@@ -9,62 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A119-P1 Publish "Three Audiences for an Operating System"
+**Task**: A118-P4 Publish "Propulsion and Power Sizing for Small Fixed-Wing UAVs"
 
 ---
 
 ## Verification
 
-### A119 Published
+### A118 Published
 
-A119 "Three Audiences for an Operating System" published at `_posts/2026-05-22-three_audiences_for_an_operating_system.markdown` with front-matter date `2026-05-22 09:00:00 +0000`. 1,364 lines. 61 references across Reference (58) and Related Post (3) categories.
+A118 "Propulsion and Power Sizing for Small Fixed-Wing UAVs" published at `_posts/2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-02 09:00:00 +0000`. 445 lines. 36 references across Reference (31), Related Post (3), and Research (2) categories. Standalone aerospace analytical article and the fourth in the fixed-wing-UAV set. References A112, A114, and A116 via `post_url`.
 
-### Backdating and Series Order
+### Scope Covered
 
-The article is dated 2026-05-22 per the human pilot's explicit instruction, slotting one day before A113 (2026-05-23). The series now reads as a four-part progression in publication date order: A119 (category) → A113 (design space) → A115 (substrate) → A117 (illustrative vertical). Article number A119 is preserved per POST_STRUCTURE.md's policy that out-of-order article numbering relative to publication date is acceptable.
+The power-required master variable, where power is thrust times speed and thrust in level flight is drag, so the power to fly is the weight times the speed divided by the lift-to-drag ratio; the drag polar and lift-to-drag ratio; propellers and efficiency via momentum theory, static thrust, and advance ratio, including the electric ducted fan; the thrust-to-weight and launch and climb case that usually sizes the powertrain; electric and combustion propulsion with the battery wall and the heavy-fuel logistics note; altitude and available power; endurance and range with reserves; a brief solar, hybrid, and fuel-cell note; jets and regimes beyond the propeller; a worked example on the 25 kg series aircraft; and a declared Out of Scope.
 
-### Function in the Series
+### Correctness Note
 
-A119 establishes the operator-as-end-user category as distinct from the consumer and the developer. It does not propose a solution. The Out of Scope section explicitly defers the substantive design to A113, the language substrate to A115, and the worked vertical example to A117. The trilogy is the substantive answer; A119 is the prequel that names the question.
+A completeness pass corrected an inverted attribution: for a propeller aircraft, maximum endurance is at the minimum-power speed and maximum range is at the best lift-to-drag speed, with the jet's mirror-image pairing noted. This was the one item that made the draft not-yet-publication-ready, and it is fixed.
 
-### Research
+### Date and Series
 
-A focused research agent verified the operator-specific standards (ISA-101, ASM Consortium, IEC 62366, ISO 9241, NUREG-0700, ARINC 661), the HCI canon (Norman, Shneiderman, Engelbart, Sutherland, Kay), operator-domain examples (SCADA, ERAM, glass cockpit, control room, human-in-the-loop, alarm fatigue), and the audience-contrast sources (Apple HIG, Microsoft Windows UX Guidelines, Unix philosophy, GNOME HIG, KDE HIG). Three URLs that returned 404 (All-Source Analysis System, Mission Management Center, NUREG-0700 attempted Wikipedia entries) were dropped from the article and the prose reworked to use only verifiable sources. NUREG-0700's nrc.gov page returns 000 to curl due to Cloudflare bot protection, documented in project memory as expected for several .gov sites; the URL is correct and works in browsers.
+The article is dated 2026-06-02, one day after its A116 companion, completing the fixed-wing-UAV set in publication-date order (A112 on 2026-05-30, A114 on 2026-05-31, A116 on 2026-06-01, A118 on 2026-06-02). Article number A118 fills the gap below A119 (2026-05-22) in number while sitting later in publication date, consistent with POST_STRUCTURE.md's out-of-order-numbering policy.
+
+### Reference and Style Verification
+
+Reference integrity confirmed at 36 of 36 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the MDPI Aerospace propulsion-sizing paper retained as a documented 403-to-curl source. Prose style confirmed: no contractions, no em-dashes or en-dashes, and no prose colons or semicolons, the only semicolon being the console.log debug tag. The worked-example arithmetic was re-checked.
 
 ### Build Verification
 
-Local Jekyll build remains broken in this environment (gem environment issue, documented in earlier history entries). Build verification depends on the GitHub Actions deployment pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/02/, MathJax is included, the A112 and A114 and A116 `post_url` links resolve, all 36 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Three Audiences for an Operating System
+New Blog Post: Propulsion and Power Sizing for Small Fixed-Wing UAVs
 
-An operating system serves people. The shipping operating systems of 2026 serve two audiences well, namely the consumer and the developer, and a third audience poorly or not at all. This article identifies the three audiences, sketches what each requires, and observes that the operator-as-end-user has not had a contemporary general-purpose operating system designed for the role. The article does not propose a solution; that is the work of the BTRON-hypermedia trilogy A113, A115, and A117 that follow this one in publication date order.
+The companion articles sized the runway, the launch and recovery, and the airframe while taking the propulsion as given. This one sizes the propulsion. One quantity dominates, the power required to fly, because power is thrust times speed and thrust in steady flight is drag, so the whole problem flows from the drag the aircraft must overcome and the speed it must overcome it at.
 
 Key takeaways:
-- The consumer audience is served correctly by the file-and-application mass-market answer. The developer audience is served correctly by the Unix-derived developer-workstation answer. The operator audience is served by industry-specific systems that do not share a general-purpose operating system layer.
-- The operator's load-bearing concept is written external authority. A flight controller, a radiologist, a power dispatcher, an air traffic controller, a chemical plant operator, an intelligence analyst, a legal reviewer, and a financial trading floor all operate under written procedures, rules, and certifications. The system's job is to make the admissible action easy and the inadmissible action either impossible or audited.
-- The consumer answer fails the operator on five structural axes: the application owns the file, the interface is optimised for casual use, latency is best-effort, provenance is bolted on, and the trust model is per-user-account rather than per-information-part.
-- The developer answer fails the operator on four structural axes: the tools are oriented toward authoring rather than operation, the trust model is per-source-commit rather than per-information-part, the latency model is best-effort, and the display is tuned to source code rather than to typed information.
-- The operator population is in the millions, spans aerospace, medical, industrial, defense, intelligence, legal, regulatory, and financial markets, and has a combined budget in the tens of billions of US dollars annually. The category is real, the gap is real, and the engineering components to fill it all exist.
+- The power required to fly is the weight times the speed divided by the lift-to-drag ratio, and a propulsion system must supply that cruise power, the surplus that climb and launch demand, and the energy that endurance needs.
+- The launch and climb case, not cruise, usually sizes the powertrain, because the static thrust for a sensible thrust-to-weight ratio is several times the cruise thrust.
+- Electric propulsion buys quiet simplicity at the price of a battery wall, while a combustion engine buys an order of magnitude more endurance per unit mass at the price of vibration and a minimum practical size.
+- For a propeller aircraft, fly slow at the minimum-power speed for endurance and faster at the best lift-to-drag speed for range, and size everything at the worst density altitude rather than the bench condition.
 
 You can read the full article here:
-https://sgeos.github.io/operating-systems/philosophy/hci/2026/05/22/three_audiences_for_an_operating_system.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/02/propulsion_and_power_sizing_for_fixed_wing_uavs.html
 
-#OperatingSystems #BTRON #Hypermedia #HCI #ISA101 #IEC62366 #ARINC661 #NUREG0700 #ASMConsortium
+#UAV #FixedWing #Aerospace #Propulsion #Propeller #ElectricFlight #Endurance #DroneOps
+
+---
+
+## Action Items for the Human Pilot
+
+- Confirm the 2026-06-02 publication date is as intended. A118 completes the fixed-wing-UAV set, one day after A116.
+- Optionally request schematic diagrams (the power-required-versus-speed curve with the minimum-power and best-lift-to-drag speeds marked, the drag polar, the propeller efficiency-versus-advance-ratio curve, and the battery-versus-fuel endurance comparison), which are the one improvement that cannot be added in text and would require image assets.
+- Optionally request the next sequel in the series, namely guidance, navigation, and automatic landing, or stability and control sizing, both flagged earlier as natural follow-ups.
 
 ---
 
 ## Notes
 
-- Next available article numbers: A118 (reserved for the other session) and A120.
+- Next available article number: A120.
 - 0 release candidates.
-- 0 new drafts. A79 through A117 plus A119 published.
+- 0 new drafts. A108 through A119 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A117 plus A119.
-- The BTRON-hypermedia four-part series is now complete: A119 (category) → A113 (design space) → A115 (substrate) → A117 (vertical example). Each article cites the others via post_url. The detailed link store design, the certification path, the contractor selection, and other deferred topics remain available as future posts.
-- All scratch is confined to project-local `tmp/` per recorded preference.
+- Published: A79 through A119.
+- A118 completes the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion). No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A118 process-file deltas were staged in `tmp/a118/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
