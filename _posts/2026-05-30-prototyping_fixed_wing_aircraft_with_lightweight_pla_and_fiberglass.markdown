@@ -104,30 +104,110 @@ that carries bending and torsion in a monocoque structure.
 A foamed-PLA core with a glass skin is a sandwich,
 a light core separating two stiff faces,
 which is the classic way to get bending stiffness at low weight.
+A printed shell is also weakest across its layer lines,
+an anisotropy inherent to fused-filament printing,
+and a continuous glass skin bridges those layers
+so the shell behaves as one piece rather than a stack of bonded rings.
 Neither material alone makes a good airframe.
 Together they make a fast, light, strong, and repeatable one.
 
-## Why This Beats the Alternatives for Prototyping
+### The Thermal Caveat
+
+The weak point of any PLA airframe is heat.
+[Standard PLA softens near 55 to 60 degrees Celsius][ref_pla_temp],
+its glass transition temperature,
+and a surface only slightly above that
+can sag or creep under load.
+A dark airframe sitting in direct sun, or structure close to
+a hot motor or speed controller, reaches that range easily.
+This is a real field failure mode, not a theoretical one,
+and it is the caveat most often left out of enthusiasm for printed aircraft.
+There are two mitigations.
+The first is a high-temperature variant,
+[LW-PLA HT][material_lwpla_ht], which after an annealing bake
+crystallizes to a heat-deflection temperature near 100 degrees Celsius
+rather than the 60 of standard PLA.
+The second is the glass skin itself,
+because the cured epoxy laminate carries load and shades the core,
+raising the temperature at which the airframe loses its shape.
+A printed aircraft that will live in the sun
+should use the high-temperature filament,
+keep the foamed core away from heat sources,
+and treat the cured skin as part of its thermal defense.
+
+## Where This Method Fits Among the Alternatives
+
+The printed-core-with-glass-skin method is one rung
+on a ladder of prototyping fidelity, and it is not always the right rung.
+
+For the earliest question, namely whether a planform flies
+and where the center of gravity belongs,
+[paper-backed foam board][ref_foam_rc] in the
+[Flite Test][project_flitetest] style is faster, cheaper,
+and far more crash-tolerant.
+An idea becomes something airborne in an afternoon,
+the geometry is rough, compound curves are out, and a wreck costs little.
+Start here when the design is still a guess.
 
 Built-up balsa is lighter in skilled hands and is the traditional choice,
 but it demands jigs, time, and craft, and a geometry change
 means cutting new parts by hand.
-Molded composite is the right answer for a production run,
-yet the mold is the slow and expensive artifact,
-and making a one-off by molding means paying the tooling cost
-to throw the tooling away.
-Hot-wire or computer-numerical-control foam is cheap, light, and durable,
+Hot-wire or computer-numerical-control foam cores
+with a glass or balsa skin are a mature path for straight, tapered wings,
 but compound curves and integrated internal structure are hard to cut into foam.
-The printed-core-with-glass-skin method occupies the middle.
+[Continuous-fiber printing][material_markforged],
+which lays carbon, glass, or aramid strands inside the print itself,
+reaches far higher strength than a laminate over a plain shell,
+at the cost of an expensive machine and expensive material.
+
+Molded composite is the production answer.
+The plug and the mold are slow and expensive to make,
+but once they exist each copy is fast,
+so the tooling cost amortizes over a run.
+Making a one-off by molding means paying that cost to throw the tooling away.
+The crossover is therefore about volume.
+Printing wins for one-offs and very low volume,
+and molds win once the same airframe is wanted many times.
+
+Between these, the printed core with a glass skin occupies a clear niche.
 It produces complex geometry and integrated structure with no tooling,
 it is exactly repeatable because the design lives in a model,
 and the iteration loop is a file edit and a reprint of the changed part.
-For the prototyping phase, where the geometry is still in flux,
-that loop is the decisive advantage.
+That loop is the decisive advantage once the design is past
+the foam-board guessing stage but well short of a production run.
 A practical walk through printed wing construction,
 including the internal rib grid and the spar,
 is documented in community guides such as
 [this one on 3D-printed model aircraft wings][project_hackaday_wings].
+
+## When to Glass, and When to Fly It Bare
+
+The fiberglass step is worth pausing on,
+because laminating reintroduces exactly the slow, messy composite labor
+that printing was meant to escape.
+Wetting cloth with epoxy, squeegeeing, waiting for a cure,
+and sanding is hours of work that does not change the geometry.
+The resolution is to treat glass as a phase, not a default.
+
+Fly the bare print while the geometry is still in flux.
+A foamed shell with an internal rib grid and a carbon spar
+is often strong enough to fly on its own,
+which is why many printed designs are flown unglassed.
+At this stage the goal is to learn the center of gravity, the trim,
+and the handling, and a bare print that takes a few flights
+and then has a part reprinted is the fastest way to learn it.
+Repairability favors the bare print too,
+because a cracked section is a reprint
+while a damaged laminate is a patch-and-sand job.
+
+Add glass once the geometry is frozen, or for the parts that need it.
+The skin earns its labor when the airframe must survive many flights,
+when a member carries concentrated load such as a wing root or a spar cap,
+or when the finished surface and the added stiffness matter.
+In short, the bare print belongs to the throwaway-iteration phase
+and the glassed airframe belongs to the refined prototype that follows.
+Spending lamination labor on a design that is still changing
+is spending it on a part that is about to be reprinted.
 
 ## The Wingspan Sweet Spot
 
@@ -167,6 +247,20 @@ pushing the Reynolds number down toward $5 \times 10^4$,
 squarely into the degraded band.
 This is why a sub-meter airframe tends to feel inefficient and twitchy.
 The air is fighting it.
+
+One clarification keeps the rule honest.
+The variable that actually sets the Reynolds number
+is the wing chord and the airspeed, not the wingspan.
+Wingspan is a convenient proxy only because,
+at a typical model [aspect ratio][ref_aspect_ratio] and typical model speeds,
+a larger span comes with a larger chord.
+Break that assumption and the proxy weakens.
+A long, narrow, high-aspect-ratio wing has a small chord for its span,
+so it meets the low-Reynolds penalty at a larger span
+than a short, wide wing does.
+The honest statement of the floor is a chord Reynolds number
+held above roughly $10^5$, and one to two meters of span
+is simply where a moderate-aspect-ratio wing at model speeds lands there.
 
 ### The Upper Bound Is Labor and Structure
 
@@ -320,14 +414,20 @@ applied in proportion to how much each one cares about weight.
 
 ## References
 
-- [Material, ColorFabb, How to Print with LW-PLA][material_lwpla_print]
-- [Material, ColorFabb, Lightweight Filaments for RC Planes][material_lwpla_rc]
-- [Material, CNC Kitchen, Testing Foaming LW-PLA][material_cnckitchen]
 - [Material, 3DLabPrint, Materials for 3D Printing Planes][material_3dlabprint]
+- [Material, CNC Kitchen, Testing Foaming LW-PLA][material_cnckitchen]
+- [Material, ColorFabb, How to Print with LW-PLA][material_lwpla_print]
+- [Material, ColorFabb, How to Print with LW-PLA HT][material_lwpla_ht]
+- [Material, ColorFabb, Lightweight Filaments for RC Planes][material_lwpla_rc]
+- [Material, Markforged, 3D Printing Carbon Fiber and Other Composites][material_markforged]
 - [Project, Eclipson, EBW-160 Printed Flying Wing][project_eclipson_ebw]
+- [Project, Flite Test][project_flitetest]
 - [Project, FliteTest, Fiberglass over 3D Printed Foam][project_flitetest_glass]
 - [Project, Hackaday, A Guide to 3D Printing Model Aircraft Wings][project_hackaday_wings]
+- [Reference, Aspect Ratio in Aeronautics][ref_aspect_ratio]
+- [Reference, Best Foam for RC Airplane Building][ref_foam_rc]
 - [Reference, Fiberglass][ref_fiberglass]
+- [Reference, PLA Temperature Resistance][ref_pla_temp]
 - [Reference, Polylactic Acid][ref_pla]
 - [Reference, Reynolds Number][ref_reynolds]
 - [Reference, Square-Cube Law][ref_square_cube]
@@ -338,14 +438,20 @@ applied in proportion to how much each one cares about weight.
 - [Research, Reynolds Number Effects on the Performance of Small-Scale Propellers][research_selig]
 
 [material_lwpla_print]: https://colorfabb.com/blog/post/how-to-print-with-colorfabb-lw-pla
+[material_lwpla_ht]: https://colorfabb.com/blog/post/how-to-print-with-lw-pla-ht
 [material_lwpla_rc]: https://colorfabb.com/blog/post/lightweight-3d-printing-filaments-for-rc-planes
 [material_cnckitchen]: https://www.cnckitchen.com/blog/colorfabb-lw-pla-testing-foaming-pla
 [material_3dlabprint]: https://3dlabprint.com/faq/materials-for-3d-printing-planes/
+[material_markforged]: https://markforged.com/resources/learn/design-for-additive-manufacturing-plastics-composites/understanding-3d-printing-strength/3d-printing-carbon-fiber-and-other-composites
 [project_eclipson_ebw]: https://www.eclipson-airplanes.com/ebw-160-rc
+[project_flitetest]: https://www.flitetest.com/
 [project_flitetest_glass]: https://forum.flitetest.com/index.php?threads/revenant-mk-iv-fiberglass-over-3d-printed-foam.61913/
 [project_hackaday_wings]: https://hackaday.com/2022/08/26/a-guide-to-3d-printing-model-aircraft-wings/
+[ref_aspect_ratio]: https://en.wikipedia.org/wiki/Aspect_ratio_(aeronautics)
+[ref_foam_rc]: https://rcplanediy.com/2026/02/22/best-foam-rc-airplane-building/
 [ref_fiberglass]: https://en.wikipedia.org/wiki/Fiberglass
 [ref_pla]: https://en.wikipedia.org/wiki/Polylactic_acid
+[ref_pla_temp]: https://www.wevolver.com/article/pla-temperature-resistance
 [ref_reynolds]: https://en.wikipedia.org/wiki/Reynolds_number
 [ref_square_cube]: https://en.wikipedia.org/wiki/Square%E2%80%93cube_law
 [ref_wcl]: https://www.sefsd.org/general-interest/wing-cube-loading-wcl/
