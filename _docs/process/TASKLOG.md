@@ -8,44 +8,42 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A122 (Stability, Control, and Configuration for Fixed-Wing UAVs)
+**Name**: Publish A123 (Dynamic Stability and Control for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A122 "Stability, Control, and Configuration for Fixed-Wing UAVs" researched and written as the stability-and-control entry in the fixed-wing-UAV set, taking up the treatment A112 deferred.
-- [x] Framed around the moment balance about the center of gravity, with the static margin K_n = (x_np - x_cg)/MAC as the proxy for the stability-versus-maneuverability trade.
-- [x] All three static axes covered (longitudinal static margin, directional weathercock stability from the fin, lateral stability from dihedral), plus the center-of-gravity range across the loading envelope.
-- [x] Airfoils, camber, and invertibility covered (cambered nose-down pitching moment versus symmetric near-zero moment for aerobatic and invertible designs).
-- [x] Configuration archetypes covered (conventional empennage, canard, tandem, tailless flying wing with sweep, washout, and reflex).
-- [x] Control surfaces by placement and name covered (elevator, aileron, rudder, elevon, ruddervator, stabilator, flaperon), plus adverse yaw and high-lift and spoiler and air-brake devices.
-- [x] Control authority framed by dynamic pressure, from aerodynamic surfaces through differential thrust and thrust vectoring to a reaction control system (spaceplane RCS, cold-gas thrusters, tie to A120's boost-glide arc), with the honest caveat that a low-altitude UAV needs none of it.
-- [x] Wing tradeoff (aspect ratio versus wing loading, speed versus glide, planform) and the trim-drag energy cost covered.
-- [x] Worked example (static margin and tail volume coefficient with a flying-wing reflex contrast); dynamic stability, control-law design, RCS detailed design, and orbital mechanics declared out of scope.
-- [x] References A112, A114, and A118 via post_url.
-- [x] Reference integrity confirmed (46 refs, 0 unused, 0 missing).
+- [x] A123 "Dynamic Stability and Control for Fixed-Wing UAVs" researched and written as the dynamic-stability entry in the fixed-wing-UAV set, taking up the dynamic question A122 deferred.
+- [x] Framed around the damping and frequency of the natural modes, with the aircraft modeled as a damped harmonic oscillator (static stability the spring, inertia the mass, aerodynamic rate forces the damping).
+- [x] Longitudinal modes covered (short-period, phugoid) and lateral-directional modes covered (roll subsidence, spiral, Dutch roll), with the spiral-versus-Dutch-roll trade tied to A122's dihedral-versus-weathercock balance.
+- [x] Damping, frequency, and handling qualities covered (settling time, Cooper-Harper, flying-qualities levels), plus a small-disturbance about-trim linearization caveat.
+- [x] Gusts and ride quality covered (turbulence excites the modes; the slow, lightly wing-loaded UAV is gust-sensitive).
+- [x] Stability augmentation covered (yaw damper, pitch damper, rate feedback from an IMU, the SAS inner loop), with augmentation limits (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation) and the SAS-versus-CAS distinction.
+- [x] Fly-by-wire and relaxed static stability covered; scale and the UAV case (faster modes, autopilot and actuator bandwidth).
+- [x] Worked example (Dutch-roll damping from 0.05 to 0.4 with a yaw damper; a phugoid period).
+- [x] References A112, A114, and A122 via post_url.
+- [x] Reference integrity confirmed (22 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-05 date.
+- [x] Published with the 2026-06-06 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A122-P1-T1 | Research and draft the article | Complete | Stability-and-control entry in the fixed-wing-UAV set. Moment balance and the static margin; airfoils, camber, and invertibility; configuration archetypes; control surfaces by placement; high-lift and spoiler devices; differential propulsion as control; the wing tradeoff; the trim-drag energy cost; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, and A118 via post_url. 36 references. |
-| A122-P2-T1 | Completeness pass | Complete | Added a "Lateral and Directional Static Stability" section (fin weathercock stability and dihedral), a center-of-gravity-range note, an adverse-yaw note, and a washout stall-protection clause. Per pilot request, reframed "Differential Propulsion as Control" into "Control Authority and Dynamic Pressure" running from surfaces through thrust to a reaction control system (spaceplane RCS, cold-gas thruster, tie to A120), with an honest low-altitude caveat. 7 new references for 43 total. URLs verified. |
-| A122-P2-T2 | Orbital lampshade | Complete | Added an Out of Scope note distinguishing attitude control (in scope) from the translational problem of orbital mechanics, the orbital maneuver, and stationkeeping, affirmed as legitimate for spacecraft that reach orbit and out of scope for these atmospheric or suborbital vehicles. 3 new references for 46 total. URLs verified. |
-| A122-P3-T1 | Publish | Complete | Set date to 2026-06-05 09:00:00 +0000. Moved _drafts/stability_control_and_configuration_for_fixed_wing_uavs.markdown to _posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/05/, MathJax included, A112 and A114 and A118 post_url links resolved, all 46 reference links present, on index). 409 lines. |
-| A122-P3-T2 | Sync process files | Complete | draft_summary.md adds an A122 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A123. Committed and pushed; deploys via the Actions build. |
+| A123-P1-T1 | Research and draft the article | Complete | Dynamic-stability entry in the fixed-wing-UAV set. The spring-mass-damper framing; longitudinal and lateral-directional modes; damping, frequency, and handling qualities; stability augmentation; fly-by-wire and relaxed stability; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, and A122 via post_url. 20 references. |
+| A123-P2-T1 | Completeness pass | Complete | Added a small-disturbance about-trim linearization caveat, a "Gusts and Ride Quality" section (turbulence excitation and the small-UAV gust sensitivity), an augmentation-limits note (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation and saturation), and the stability-augmentation-versus-control-augmentation distinction. 2 new references (Pilot-Induced Oscillation, Dryden Wind Turbulence Model) for 22 total. URLs verified. |
+| A123-P3-T1 | Publish | Complete | Set date to 2026-06-06 09:00:00 +0000. Moved _drafts/dynamic_stability_and_control_for_fixed_wing_uavs.markdown to _posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/06/, MathJax included, A112 and A114 and A122 post_url links resolved, all 22 reference links present, on index). 316 lines. |
+| A123-P3-T2 | Sync process files | Complete | draft_summary.md adds an A123 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A124. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A123.
+- Next available article number: A124.
 - 0 release candidates.
-- 0 new drafts. A108 through A122 published.
+- 0 new drafts. A108 through A123 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A122 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control). Standalone aerospace analytical article framed around the moment balance about the center of gravity and the static margin. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A123 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control). Standalone aerospace analytical article framed around the damping and frequency of the natural modes; completes the stability-and-control arc with A122. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -184,3 +182,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A122-P1: "Stability, Control, and Configuration for Fixed-Wing UAVs" researched and written in _drafts/ as the seventh entry in the fixed-wing-UAV set, taking up the stability-and-control treatment A112 deferred. Framed on the moment balance about the center of gravity and the static margin. Airfoils/camber/invertibility; configuration archetypes; control-surface taxonomy; spoilers/flaps; differential propulsion; wing tradeoff; trim-drag energy tie; worked example. 36 references. Cross-links A112, A114, A118 via post_url. Process files held (draft only); deltas staged in tmp/a122/. |
 | 2026-05-31 | A122-P2: Completeness pass and RCS integration. Added a "Lateral and Directional Static Stability" section (fin weathercock, dihedral), a CG-range note, an adverse-yaw note, and a washout stall clause; reframed control authority by dynamic pressure to add reaction control (spaceplane RCS, cold-gas thruster, tie to A120); added an Out of Scope orbital-mechanics/stationkeeping lampshade. 10 new references for 46 total. URLs verified. |
 | 2026-05-31 | A122-P3: Published A122 "Stability, Control, and Configuration for Fixed-Wing UAVs" (2026-06-05 date, 409 lines, 46 refs). Moved to _posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A118 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A123-P1: "Dynamic Stability and Control for Fixed-Wing UAVs" researched and written in _drafts/ as the eighth entry in the fixed-wing-UAV set, taking up the dynamic question A122 deferred. Framed on the damping and frequency of the natural modes (damped harmonic oscillator). Longitudinal and lateral-directional modes; handling qualities; stability augmentation; fly-by-wire and relaxed stability; scale; worked example. 20 references. Cross-links A112, A114, A122 via post_url. Process files held (draft only); deltas staged in tmp/a123/. |
+| 2026-05-31 | A123-P2: Completeness pass. Added a small-disturbance about-trim linearization caveat, a "Gusts and Ride Quality" section, an augmentation-limits note (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation), and the SAS-versus-CAS distinction. 2 new references for 22 total. URLs verified. |
+| 2026-05-31 | A123-P3: Published A123 "Dynamic Stability and Control for Fixed-Wing UAVs" (2026-06-06 date, 316 lines, 22 refs). Moved to _posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A122 post_url links resolve, all reference links present, on index). Completes the stability-and-control arc (static A122, dynamic A123). Process files synced. Committed and pushed; deploys via the Actions build. |
