@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Launch and Recovery Systems for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-01-launch_and_recovery_systems_for_fixed_wing_uavs.markdown`
+**Topic**: Runway-independent launch and recovery for fixed-wing UAVs, worked outward from the energy-and-stroke master variable.
+**Article Number**: A116
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-01 (26 references; 478 lines)
+
+Standalone aerospace article and the runway-independent companion to A114.
+Establishes the energy-and-stroke master variable, where launch must add and recovery must remove a kinetic energy fixed by mass and flying speed and the g-load rises as the stroke shrinks, and works through
+launch by catapult (bungee, pneumatic, hydraulic, rail), winch and aerotow, booster, and zero-length launch;
+recovery by net and cable (Skyhook), arrested landing, parachute and airbag, belly skid, and high-alpha braking (deep stall, cobra braking as a routine procedure, and perched landing);
+wind and environment;
+the acceleration limit;
+failure and abort modes, with the fail-safe principle and a flight-termination or controlled-ditch option;
+matching launch to recovery with real-UAV anchors (ScanEagle, RQ-7 Shadow, RQ-21 Blackjack);
+airframe implications;
+a worked numeric example;
+and a fully declared Out of Scope.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+References A114 (Runway Sizing for Fixed-Wing UAVs) and A112 (Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass) via post_url.
+26 references across Reference, Related Post, and Research categories.
+478 lines.
+
 ### Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop — Published
 
 **File**: `_posts/2026-05-25-human_spaceflight_ground_systems_as_illustrative_vertical.markdown`
@@ -507,7 +533,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A114 have been published.
+A79 through A117 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
