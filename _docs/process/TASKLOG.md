@@ -8,27 +8,23 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A114 (Runway Sizing for Fixed-Wing UAVs)
+**Name**: Publish A115 (Keleusma as a Substrate for a Real-Time Hypermedia Desktop)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A114 "Runway Sizing for Fixed-Wing UAVs" researched and written as a standalone aerospace article.
-- [x] Master-variable spine established (stall speed, liftoff speed, squared-speed scaling with wing loading, air density, and maximum lift coefficient).
-- [x] Explicit square-cube size-scaling tying aircraft size to wing loading to runway length.
-- [x] Level ground roll, paved versus dirt, inclined, and ski-jump runways covered with plug-and-chug formulae.
-- [x] Wind (head, tail, crosswind), landing-gear and ground-loop crosswind handling, orientation (with Earth-rotation dismissal), and density altitude covered.
-- [x] Obstacle clearance, margins, and an in-scope abort and stopping-margin note covered.
-- [x] Landing roll and ground effect covered.
-- [x] Width and the lateral dimension covered (touchdown dispersion and guidance lateral error).
-- [x] Full-runway versus single-phase operation covered with real-UAV anchors (ScanEagle, RQ-7 Shadow, MQ-9 Reaper).
-- [x] Planform and airframe implications covered (conventional, delta, flying wing) with variables and proxies.
-- [x] Worked numeric example included.
-- [x] Lighting, reflectors, and markings covered (optional versus required); Out of Scope declared.
-- [x] References A112 via post_url.
-- [x] Reference integrity confirmed (28 refs, 0 unused, 0 missing).
-- [x] Published with the 2026-05-31 date.
+- [x] Internal Keleusma-to-BTRON suitability assessment written to `tmp/a115/keleusma_btron_assessment.md`.
+- [x] Five illustrative Keleusma code examples written and verified against the installed keleusma 0.2.0 CLI (typed part, handler loop, IFC sanitiser, IFC rejection, preallocated data block).
+- [x] A115 "Keleusma as a Substrate for a Real-Time Hypermedia Desktop" drafted as the vertical-agnostic follow-up to A113.
+- [x] Six structural commitments of the hypermedia object model mapped onto Keleusma (4 strong, 1 partial, 1 mismatch with clear design path).
+- [x] Five engineering commitments for real-time hypermedia mapped onto Keleusma (4 strong, 1 partial).
+- [x] Ten-layer architectural sketch mapped onto Keleusma (2 strong, 5 partial, 3 mismatch).
+- [x] V0.3.0 through V0.5.x roadmap referenced with public-roadmap-only citations.
+- [x] Vertical-specific treatment explicitly deferred to a future post per the human pilot's scope instruction.
+- [x] All references inline-linked at least once; no internal research cited.
+- [x] 45 references; 1,671 lines.
+- [x] Style verified (no contractions, no em-dashes, no en-dashes, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
 
 ## Task Breakdown
 
@@ -39,15 +35,23 @@ Current task state and verification log. This file is the shared source of truth
 | A114-P3-T1 | Second expansion pass | Complete | Added "Width and the Lateral Dimension" (crosswind drift, gear track, UAV guidance lateral error and touchdown dispersion); a ground-effect note in Landing; and "Lighting, Reflectors, and Markings" (optional retroreflective markers and portable expeditionary lighting versus required night-runway edge and threshold and end lighting and required aircraft anti-collision lighting under the US small-UAV night rule). Expanded Out of Scope. 6 new references for 28 total. New URLs verified. |
 | A114-P4-T1 | Pre-publish polish and publish | Complete | Polished the ground-effect wording; re-verified the worked example arithmetic. Set date to 2026-05-31 09:00:00 +0000. Moved _drafts/runway_sizing_for_fixed_wing_uavs.markdown to _posts/2026-05-31-runway_sizing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/05/31/, MathJax included, A112 post_url resolved, all 28 reference links present). 548 lines. |
 | A114-P4-T2 | Sync process files | Complete | draft_summary.md adds an A114 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A115. Committed and pushed; deploys via the Actions build. |
+| A115-P1-T1 | Internal Keleusma-to-BTRON assessment | Complete | Read the released README, CHANGELOG, the V0.5+ public roadmap documents, the existing examples/rtos/ baseline, and the pre-existing 23-firing RTOS API research (20 design documents under tmp/research/rtos_api/). Produced `tmp/a115/keleusma_btron_assessment.md`. Conclusion: Keleusma is a strong fit for a vertical hypermedia OS in the BTRON lineage, poor fit for a general-purpose hypermedia desktop. |
+| A115-P1-T2 | Verified Keleusma example scripts | Complete | Five .kel scripts authored in `tmp/a115/`: 01_typed_part.kel (returns 42), 02_handler_loop.kel (compiles to 228-byte bytecode), 03_ifc_sanitiser.kel (returns 200), 04_ifc_reject.kel (compile-time reject), 05_preallocated.kel (returns 20). All verified with the installed keleusma 0.2.0 CLI. |
+| A115-P1-T3 | Draft A115 article | Complete | Analytical follow-up to A113. Maps Keleusma onto A113's six structural commitments, five engineering commitments, and ten-layer architectural sketch. Includes the five illustrative code samples with their CLI outputs. Vertical-agnostic per the human pilot's instruction; explicit Out of Scope defers the vertical-specific treatment, the detailed link store design, and the certification path to separate follow-up articles. 45 references inline across Reference (38), Related Post (5), Research (1). 1,671 lines. |
+| A115-P1-T4 | Reference and style verification | Complete | All 45 reference anchors used and defined; zero orphans. URL checks pass with documented bot-detection exceptions (crates.io 404 and Linux Foundation wiki 403). Style scan clean. |
+| A115-P1-T5 | Sync process files | Complete | draft_summary.md adds A115 entry; TASKLOG.md and REVERSE_PROMPT.md updated. Article number A116 next available. |
+| A115-P2-T1 | Add scorecard tables | Complete | Added three summary tables to the article: the six structural commitments of the hypermedia object model, the five engineering commitments for real-time hypermedia, and the ten-layer architectural sketch. Each table follows the prose discussion that produced its verdicts. Line count rose from 1,671 to 1,701. Reference count unchanged at 45. Style scan clean. |
+| A115-P3-T1 | Backdate to 2026-05-24 and publish | Complete | Front matter date changed from 2026-06-01 to 2026-05-24 09:00:00 +0000. File moved from _drafts/ to _posts/2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop.markdown using mv (file was not previously git-tracked, so git mv was not applicable). Backdating slots the article between A113 (2026-05-23) and A114 (2026-05-31); article number A115 is preserved per POST_STRUCTURE.md policy that out-of-order numbering is acceptable. |
+| A115-P3-T2 | Sync process files after publication | Complete | draft_summary.md elevates A115 to Published; TASKLOG.md and REVERSE_PROMPT.md updated. |
 
 ## Notes
 
-- Next available article number: A115.
+- Next available article number: A116.
 - 0 release candidates.
-- 0 recent pre-release candidates. A108 through A114 published.
+- 0 new drafts. A108 through A115 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A114 is a standalone aerospace analytical article. No runnable code, so no Software Versions section, matching the A98-class convention. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/); deploy build runs via GitHub Actions.
+- A115 is the Keleusma-specific follow-up to A113. Hybrid analytical article with five verified Keleusma code samples and three scorecard summary tables. No internal research cited per the human pilot's explicit constraint. Public Keleusma artefacts (README, crates.io, docs.rs, GitHub) and external technical references only. Vertical-specific treatment deferred to a separate post.
 
 ## History
 
@@ -164,3 +168,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A114-P2: First expansion. Added explicit square-cube size-scaling, real-UAV anchors (ScanEagle, RQ-7 Shadow, MQ-9 Reaper), an in-scope abort and stopping-margin note, and a landing-gear and crosswind ground-control note. 8 new references for 22 total. New URLs verified HTTP 200. |
 | 2026-05-31 | A114-P3: Second expansion. Added "Width and the Lateral Dimension" (touchdown dispersion and guidance lateral error), a ground-effect note, and "Lighting, Reflectors, and Markings" (optional versus required); expanded Out of Scope. 6 new references for 28 total. New URLs verified. |
 | 2026-05-31 | A114-P4: Published A114 "Runway Sizing for Fixed-Wing UAVs" (2026-05-31 date, 548 lines, 28 refs). Pre-publish polish on the ground-effect wording; worked example re-verified. File moved to _posts/2026-05-31-runway_sizing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112 post_url resolves, all reference links present). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A115-P1: Drafted A115 "Keleusma as a Substrate for a Real-Time Hypermedia Desktop" as the Keleusma follow-up to A113. Read the released Keleusma artefacts, the public V0.5+ roadmap, the existing examples/rtos/ baseline, and the pre-existing 23-firing internal RTOS API research. Produced internal assessment in tmp/a115/, five verified Keleusma example scripts (all run/compile as intended on keleusma 0.2.0), and the published draft. Article maps Keleusma onto A113's six structural commitments, five engineering commitments, and ten-layer architectural sketch with explicit verdicts. Vertical-agnostic per pilot instruction; the vertical-specific treatment, the detailed link store design, and the certification path are deferred to follow-up posts. 45 references inline. 1,671 lines. No internal research cited; only public Keleusma artefacts (README, crates.io, docs.rs, GitHub) and external technical references. Draft summary synced. |
+| 2026-05-31 | A115-P2: Added the three scorecard tables (six structural commitments, five engineering commitments, ten-layer architectural sketch) after the prose discussion in each respective section. Tables show the verdicts at a glance and let the reader scan the mapping without re-reading the prose. 1,701 lines. 45 references unchanged. Style and anchor checks pass. |
+| 2026-05-31 | A115-P3: Published A115 "Keleusma as a Substrate for a Real-Time Hypermedia Desktop" with backdate 2026-05-24 09:00:00 +0000 per pilot instruction. File moved to _posts/2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop.markdown. Backdating slots the article between A113 (2026-05-23) and A114 (2026-05-31) in chronological order; article number A115 is preserved per POST_STRUCTURE.md policy. 1,701 lines, 45 references. Process files synced. |
