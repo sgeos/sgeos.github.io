@@ -9,69 +9,62 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A116-P4 Publish "Launch and Recovery Systems for Fixed-Wing UAVs"
+**Task**: A119-P1 Publish "Three Audiences for an Operating System"
 
 ---
 
 ## Verification
 
-### A116 Published
+### A119 Published
 
-A116 "Launch and Recovery Systems for Fixed-Wing UAVs" published at `_posts/2026-06-01-launch_and_recovery_systems_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-01 09:00:00 +0000`. 478 lines. 26 references across Reference (17), Related Post (2), and Research (7) categories. Standalone aerospace analytical article and the runway-independent companion to A114. References A114 (Runway Sizing for Fixed-Wing UAVs) and A112 (Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass) via `post_url`.
+A119 "Three Audiences for an Operating System" published at `_posts/2026-05-22-three_audiences_for_an_operating_system.markdown` with front-matter date `2026-05-22 09:00:00 +0000`. 1,364 lines. 61 references across Reference (58) and Related Post (3) categories.
 
-### Scope Covered
+### Backdating and Series Order
 
-The energy-and-stroke master variable, where launch must add and recovery must remove a kinetic energy fixed by mass and flying speed and the g-load rises as the stroke shrinks; launch by catapult (bungee, pneumatic, hydraulic, rail), winch and aerotow, booster, and zero-length launch; recovery by net and cable (Skyhook), arrested landing, parachute and airbag, belly skid, and high-alpha braking (deep stall, cobra braking as a routine procedure, and perched landing); wind and environment; the acceleration limit; failure and abort modes with the fail-safe principle and a flight-termination or controlled-ditch option; matching launch to recovery anchored to real UAVs (ScanEagle, RQ-7 Shadow, RQ-21 Blackjack); airframe implications; a worked numeric example; and a fully declared Out of Scope.
+The article is dated 2026-05-22 per the human pilot's explicit instruction, slotting one day before A113 (2026-05-23). The series now reads as a four-part progression in publication date order: A119 (category) → A113 (design space) → A115 (substrate) → A117 (illustrative vertical). Article number A119 is preserved per POST_STRUCTURE.md's policy that out-of-order article numbering relative to publication date is acceptable.
 
-### Date
+### Function in the Series
 
-The article is dated 2026-06-01 per the human pilot's instruction. It publishes after A114 (2026-05-31), keeping the two fixed-wing-UAV aerospace articles adjacent and in companion order. Article number A116 fills the gap between A115 (2026-05-24) and A117 (2026-05-25) in number while sitting later in publication date, which is consistent with POST_STRUCTURE.md's policy that out-of-order numbering relative to publication date is acceptable.
+A119 establishes the operator-as-end-user category as distinct from the consumer and the developer. It does not propose a solution. The Out of Scope section explicitly defers the substantive design to A113, the language substrate to A115, and the worked vertical example to A117. The trilogy is the substantive answer; A119 is the prequel that names the question.
 
-### Reference and Style Verification
+### Research
 
-Reference integrity confirmed at 26 of 26 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the MDPI runway-free recovery review retained as a documented 403-to-curl source and one industry launcher portal left uncited because its content could not be confirmed. Prose style confirmed: no contractions, no em-dashes or en-dashes, and no prose colons or semicolons, the only semicolon being the console.log debug tag. The worked-example arithmetic was re-checked.
+A focused research agent verified the operator-specific standards (ISA-101, ASM Consortium, IEC 62366, ISO 9241, NUREG-0700, ARINC 661), the HCI canon (Norman, Shneiderman, Engelbart, Sutherland, Kay), operator-domain examples (SCADA, ERAM, glass cockpit, control room, human-in-the-loop, alarm fatigue), and the audience-contrast sources (Apple HIG, Microsoft Windows UX Guidelines, Unix philosophy, GNOME HIG, KDE HIG). Three URLs that returned 404 (All-Source Analysis System, Mission Management Center, NUREG-0700 attempted Wikipedia entries) were dropped from the article and the prose reworked to use only verifiable sources. NUREG-0700's nrc.gov page returns 000 to curl due to Cloudflare bot protection, documented in project memory as expected for several .gov sites; the URL is correct and works in browsers.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/01/, MathJax is included, the A114 and A112 `post_url` links resolve, all 26 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment (gem environment issue documented in earlier history); the deploy build runs via the GitHub Actions pipeline after the push.
+Local Jekyll build remains broken in this environment (gem environment issue, documented in earlier history entries). Build verification depends on the GitHub Actions deployment pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Launch and Recovery Systems for Fixed-Wing UAVs
+New Blog Post: Three Audiences for an Operating System
 
-A companion article sized the runway. This one removes it. A fixed-wing UAV can reach flying speed and return to the ground without a strip, and the methods that make this possible are governed by one quantity, the energy that must be added to launch and removed to recover, which is fixed by the mass and the flying speed. The only free choice is the stroke over which that energy is delivered, and the acceleration rises as the stroke shrinks.
+An operating system serves people. The shipping operating systems of 2026 serve two audiences well, namely the consumer and the developer, and a third audience poorly or not at all. This article identifies the three audiences, sketches what each requires, and observes that the operator-as-end-user has not had a contemporary general-purpose operating system designed for the role. The article does not propose a solution; that is the work of the BTRON-hypermedia trilogy A113, A115, and A117 that follow this one in publication date order.
 
 Key takeaways:
-- Catapults, winch and tow, boosters, and zero-length launch add the launch energy; nets and cables and hooks and parachutes and skids remove the recovery energy; and a high-angle cobra can shed much of it before capture.
-- The acceleration limit, set by the most fragile component, is the binding constraint, and it is a demand for stroke.
-- Cobra braking can be a routine procedure rather than a stunt, because recovery energy scales as the square of the capture speed, so shedding even a third of the approach speed removes more than half the energy the capture device must absorb.
-- Every method has a failure mode, and designing for graceful failure, a low-energy abort, a reserve chute, a go-around path, and a flight-termination option, is part of the choice.
+- The consumer audience is served correctly by the file-and-application mass-market answer. The developer audience is served correctly by the Unix-derived developer-workstation answer. The operator audience is served by industry-specific systems that do not share a general-purpose operating system layer.
+- The operator's load-bearing concept is written external authority. A flight controller, a radiologist, a power dispatcher, an air traffic controller, a chemical plant operator, an intelligence analyst, a legal reviewer, and a financial trading floor all operate under written procedures, rules, and certifications. The system's job is to make the admissible action easy and the inadmissible action either impossible or audited.
+- The consumer answer fails the operator on five structural axes: the application owns the file, the interface is optimised for casual use, latency is best-effort, provenance is bolted on, and the trust model is per-user-account rather than per-information-part.
+- The developer answer fails the operator on four structural axes: the tools are oriented toward authoring rather than operation, the trust model is per-source-commit rather than per-information-part, the latency model is best-effort, and the display is tuned to source code rather than to typed information.
+- The operator population is in the millions, spans aerospace, medical, industrial, defense, intelligence, legal, regulatory, and financial markets, and has a combined budget in the tens of billions of US dollars annually. The category is real, the gap is real, and the engineering components to fill it all exist.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/01/launch_and_recovery_systems_for_fixed_wing_uavs.html
+https://sgeos.github.io/operating-systems/philosophy/hci/2026/05/22/three_audiences_for_an_operating_system.html
 
-#UAV #FixedWing #Aerospace #LaunchAndRecovery #Catapult #Parachute #Skyhook #Cobra #DroneOps
-
----
-
-## Action Items for the Human Pilot
-
-- Confirm the 2026-06-01 publication date is as intended. A116 publishes one day after its A114 companion.
-- Optionally request schematic diagrams (the energy-stroke trade, Skyhook geometry, the cobra braking sequence, the parachute force balance), which are the one improvement that cannot be added in text and would require image assets.
-- Optionally request a follow-up article on the deferred topics, namely the guidance and control laws for capture and high-alpha recovery, or the VTOL and hybrid configurations named in Out of Scope.
+#OperatingSystems #BTRON #Hypermedia #HCI #ISA101 #IEC62366 #ARINC661 #NUREG0700 #ASMConsortium
 
 ---
 
 ## Notes
 
-- Next available article number: A118.
+- Next available article numbers: A118 (reserved for the other session) and A120.
 - 0 release candidates.
-- 0 new drafts. A108 through A117 published.
+- 0 new drafts. A79 through A117 plus A119 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A117.
-- A116 is the runway-independent companion to A114, forming a fixed-wing-UAV aerospace pair (A112 airframe, A114 runway, A116 launch and recovery). No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A116 process-file deltas were staged in `tmp/a116/` while the A115 and A117 sessions held the live process files, and have now been applied directly, so those notes are superseded.
+- Published: A79 through A117 plus A119.
+- The BTRON-hypermedia four-part series is now complete: A119 (category) → A113 (design space) → A115 (substrate) → A117 (vertical example). Each article cites the others via post_url. The detailed link store design, the certification path, the contractor selection, and other deferred topics remain available as future posts.
+- All scratch is confined to project-local `tmp/` per recorded preference.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
