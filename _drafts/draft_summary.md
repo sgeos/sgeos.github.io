@@ -18,6 +18,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Stability, Control, and Configuration for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown`
+**Topic**: Stability, control, and configuration of a fixed-wing UAV, framed on the balance of moments about the center of gravity with the static margin as the master proxy for the stability-versus-maneuverability trade.
+**Article Number**: A122
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-05 (46 references; 409 lines)
+
+Standalone aerospace article and the seventh in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control).
+Takes up the full stability-and-control treatment A112 deferred.
+The master variable is the moment balance about the center of gravity, with the static margin K_n = (x_np - x_cg)/MAC as the proxy for the stability-versus-maneuverability trade.
+Sections covered include
+the moment balance and the static margin (with the center-of-gravity range across the loading envelope);
+lateral and directional static stability (fin weathercock stability and dihedral);
+airfoils, camber, and invertibility;
+configuration archetypes (conventional empennage, canard, tandem, tailless flying wing with sweep, washout, and reflex);
+control surfaces by placement and name (elevator, aileron, rudder, elevon, ruddervator, stabilator, flaperon) with adverse yaw;
+high-lift and spoiler devices;
+control authority and dynamic pressure, running from aerodynamic surfaces through differential thrust and thrust vectoring to a reaction control system (spaceplane RCS and cold-gas thrusters, tied to A120's boost-glide arc, with an honest low-altitude caveat);
+the wing tradeoff (aspect ratio versus wing loading, speed versus glide, planform);
+the trim-drag energy cost;
+a worked example (static margin and tail volume coefficient, with a flying-wing reflex contrast);
+and an Out of Scope section that defers the dynamic-stability modes, control-law design, RCS detailed design, and the translational orbital problem (orbital mechanics, the orbital maneuver, and stationkeeping, affirmed as legitimate for spacecraft that reach orbit).
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+References A112, A114, and A118 via post_url.
+46 references across Reference, Related Post, and Research categories.
+409 lines.
+
 ### Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-04-electric_energy_systems_and_endurance_budget_for_fixed_wing_uavs.markdown`
@@ -658,7 +688,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A121 have been published.
+A79 through A122 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
