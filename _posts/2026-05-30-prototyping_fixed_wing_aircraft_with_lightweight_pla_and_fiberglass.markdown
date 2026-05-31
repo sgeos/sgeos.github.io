@@ -111,7 +111,31 @@ so the shell behaves as one piece rather than a stack of bonded rings.
 Neither material alone makes a good airframe.
 Together they make a fast, light, strong, and repeatable one.
 
-### The Thermal Caveat
+### Stiffness and Flutter
+
+Strength is not the whole structural story.
+A wing can be strong enough to hold its load
+and still destroy itself through [aeroelasticity][ref_aeroelasticity],
+the coupling of aerodynamic, elastic, and inertial forces.
+Two failure modes matter.
+Divergence is the static case, in which the aerodynamic twisting moment
+overcomes the wing's torsional stiffness and twists the wing apart.
+Flutter is the dynamic case, a self-feeding oscillation
+of bending and twisting that grows until the structure fails.
+Both are torsional-stiffness and speed problems,
+which is the second reason the closed glass skin matters.
+A continuous skin turns the wing into a torsion box,
+and the stiffness that counts is its torsional rigidity, written $GJ$.
+The margin against divergence and flutter rises with $GJ$
+and shrinks as speed rises, so the danger grows with airspeed and with scale.
+There is no honest plug-and-chug formula for flutter speed,
+because it depends on the mass distribution and the coupling between modes
+rather than on stiffness alone, and a real number needs a proper analysis.
+The practical rules are to keep the glass skin continuous around the section,
+avoid concentrated mass behind the wing's torsional axis,
+and treat rising speed and span as the warning signs.
+
+### Thermal and Durability Caveats
 
 The weak point of any PLA airframe is heat.
 [Standard PLA softens near 55 to 60 degrees Celsius][ref_pla_temp],
@@ -134,6 +158,22 @@ A printed aircraft that will live in the sun
 should use the high-temperature filament,
 keep the foamed core away from heat sources,
 and treat the cured skin as part of its thermal defense.
+
+Heat is not the only way the material ages.
+[Ultraviolet light and absorbed moisture both attack PLA over time][research_pla_aging],
+cleaving the polymer through photo-oxidation and hydrolysis,
+and the two together are worse than either alone
+because a roughened surface takes on more water.
+A bare PLA part left in sun and weather discolors within weeks
+and grows brittle within months.
+The mitigation is again the skin and a coat of paint,
+since an opaque, ultraviolet-resistant finish shades the core
+and a sealed surface keeps water out.
+For an airframe that must live outdoors for a long time
+the honest move is a more weather-stable material entirely.
+A printed-and-glassed airframe is best understood
+as a fast prototype and a season-or-two flier,
+not a decade-long outdoor structure.
 
 ## Where This Method Fits Among the Alternatives
 
@@ -262,11 +302,25 @@ The honest statement of the floor is a chord Reynolds number
 held above roughly $10^5$, and one to two meters of span
 is simply where a moderate-aspect-ratio wing at model speeds lands there.
 
+There is also a partial remedy at these Reynolds numbers.
+A [turbulator][ref_turbulators], a thin spanwise trip strip near the leading edge,
+forces the boundary layer to transition before it separates,
+which shrinks the laminar separation bubble
+and recovers some of the lost lift and drag.
+The smooth glass skin improves the surface,
+but a deliberate trip often helps a low-Reynolds airfoil more,
+and below a chord Reynolds number of about a million
+needing one is normal rather than a sign of a bad design.
+
 ### The Upper Bound Is Labor and Structure
 
 Scaling up runs into the [square-cube law][ref_square_cube].
 Mass grows with volume, as the cube of a characteristic length,
-while wing area grows only as the square.
+while wing area grows only as the square, so for a fixed shape
+
+$$ m \propto L^3, \qquad S \propto L^2, \qquad \frac{W}{S} \propto L. $$
+
+Double the size at the same construction and the wing loading doubles.
 The consequence for an aircraft is that
 [wing loading rises as the aircraft is scaled up][ref_wing_loading],
 so [doubling the size of a model doubles its wing loading][research_square_cube_rc]
@@ -311,6 +365,50 @@ which the next section marks out.
 The point is that the method pays off most cleanly at the smaller end,
 where the print-and-laminate loop is fast
 and the aerodynamics are still cooperative.
+
+## Putting Numbers to It
+
+The bounds become concrete once numbers are put to a design.
+Four formulas cover most of the sizing,
+and a worked example threads a one-and-a-half-meter aircraft through them.
+
+The lift a wing makes is
+
+$$ L = \tfrac{1}{2}\,\rho\,V^2\,S\,C_L, $$
+
+where $\rho$ is air density, about $1.225$ kilograms per cubic meter at sea level,
+$V$ is airspeed, $S$ is wing area, and $C_L$ is the [lift coefficient][ref_lift_coefficient].
+Setting lift equal to weight at the maximum lift coefficient
+gives the stall speed, the slowest the aircraft can fly,
+
+$$ V_{\text{stall}} = \sqrt{\frac{2\,W}{\rho\,S\,C_{L,\max}}}, $$
+
+with $W = m g$ the weight and $C_{L,\max}$ near $1.0$ to $1.3$ for a simple model wing.
+[Wing loading][ref_wing_loading] is $W/S$,
+and the size-independent [wing cube loading][ref_wcl],
+
+$$ \mathrm{WCL} = \frac{m}{S^{3/2}}, $$
+
+predicts how a design will feel to fly regardless of its size.
+In the common hobby units of ounces and square feet,
+a wing cube loading near four to seven flies like a glider,
+seven to twelve like a sport model, and higher like a fast or heavy one.
+
+Take a one-and-a-half-meter span with a wing area of $0.30$ square meters
+and a mass of $1.2$ kilograms.
+The mean chord is $S/b \approx 0.20$ meters,
+so at a cruise of $15$ meters per second the chord Reynolds number is
+$Re = V c / \nu \approx 15 \times 0.20 / (1.5\times 10^{-5}) \approx 2\times 10^5$,
+in the healthy band.
+The wing loading is $1.2 / 0.30 = 4.0$ kilograms per square meter,
+the stall speed is
+$\sqrt{2 \times 11.8 / (1.225 \times 0.30 \times 1.1)} \approx 7.6$ meters per second,
+and the wing cube loading works out near seven in hobby units, a sport-model figure.
+Every one of these lands where the sweet-spot argument said it would,
+which is the point of running them.
+Change the mass or the area and they move predictably,
+so the formulas are the fastest way to place a new design
+before any filament is spent.
 
 ## When to Switch Techniques
 
@@ -368,12 +466,18 @@ Second, print in lightweight PLA.
 Tune the foaming through [temperature and flow][material_lwpla_print]
 for a light shell, use one or two perimeters and little or no infill,
 and print slowly so the foaming stays even.
+The equipment matters here.
+Lightweight PLA costs more than standard PLA,
+the foaming wants a hot end that reaches well past 250 degrees Celsius,
+a direct-drive extruder handles the soft filament better than a Bowden one,
+and the printer's bed size sets how many sections the wing must be split into.
 
 Third, assemble.
 Bond the printed sections onto the carbon spar with thin glue or epoxy,
 checking alignment as the structure goes together.
 
 Fourth, laminate.
+Abrade and degrease the printed surface first so the epoxy keys to it.
 Lay [light glass cloth and epoxy][project_flitetest_glass] over the shell,
 squeegee out the excess resin, optionally use peel ply for a clean surface,
 and sand and finish once cured.
@@ -384,6 +488,58 @@ Fifth, iterate.
 Change the model, re-slice, and reprint only the parts that changed.
 Because the geometry is data, the loop is short,
 which is the entire reason to prototype this way.
+
+## Working Safely with Epoxy and Glass
+
+The printing is benign, but the composite steps are not,
+and a method that walks a reader into a wet layup should say so plainly.
+[Epoxy is a skin and respiratory sensitizer][ref_epoxy_safety].
+A first exposure may do nothing, yet repeated contact can provoke
+an allergy that ends a builder's ability to use it at all,
+so the resin and hardener should never touch skin.
+Wear nitrile gloves rather than latex,
+and mix and laminate with ventilation, because the hardener gives off vapor.
+The larger hazard is the sanding.
+Sanding cured or partly cured laminate makes a fine dust
+of glass and unreacted epoxy that irritates skin, eyes, and lungs,
+so sand with eye protection and a particulate respirator
+rated P100 or at least N95, and sand wet or with dust extraction where possible.
+None of this is exotic, and all of it is the difference
+between a hobby that lasts and a sensitization that ends it.
+
+## Hard Landings and Repair
+
+An airframe that flies will eventually land hard,
+and a printed-and-glassed structure fails in a handful of recognizable ways.
+A light impact cracks the glass skin or debonds it from the core in a patch.
+A harder one crushes the foamed core beneath the skin,
+splits a printed section along a layer line,
+breaks the carbon spar, or pops a glued joint between sections.
+The first move after any heavy landing is to flex the airframe
+and look and listen for a soft spot or the crackle of a hidden delamination,
+because the visible damage is rarely the whole of it.
+
+Repair divides along the same line the build did.
+The printed core is data, so a destroyed section is not patched at all.
+It is reprinted from the same files and rebonded on the spar,
+which is the standing advantage of the method.
+The glass skin is repaired by ordinary composite practice.
+A cracked or holed laminate is cut back to sound material
+and rebuilt with a [scarf repair][ref_composite_repair],
+a shallow taper ground around the damage
+so the patch plies bond over a wide area rather than at a butt edge.
+The [taper is gentle][research_faa_repair],
+on the order of one in ten to one in fifty in thickness to length,
+with the patch plies overlapping the sound skin to carry the peel load.
+A simple debond with no fracture is often fixable
+by injecting epoxy into the void and clamping it flat.
+Two cautions are specific to this airframe.
+The foamed core is porous, so any repair that opens the skin
+must reseal the core against water before the patch goes on,
+and the layer-line anisotropy means a cracked print
+stays weaker along that line even after patching,
+which is the case where reprinting beats repairing.
+The rule of thumb is to patch local skin damage and reprint broken structure.
 
 ## Lightweight PLA and Fiberglass for Other Unmanned Vehicles
 
@@ -443,6 +599,21 @@ is fighting gravity rather than resting on the ground.
 That ordering, aircraft first, then rotorcraft, then boats, then land vehicles,
 is the guide to how much of the method to apply.
 
+## Out of Scope
+
+Two topics that a full aircraft-design guide would cover
+are deliberately out of scope here.
+Propulsion and electronics integration, namely the choice and placement
+of motor, battery, speed controller, servos, and autopilot,
+is its own subject and is not treated,
+although the printed structure does ease it
+because mounts and bays can be modeled into the core.
+Regulatory matters are likewise out of scope.
+Registration thresholds, weight classes, and the rules
+for operating an unmanned aircraft vary by jurisdiction and change over time,
+so a builder must check the current local requirements independently.
+This article is about the airframe material and method, nothing more.
+
 ## Conclusion
 
 Printing an airframe in a foaming filament
@@ -468,20 +639,27 @@ applied in proportion to how much each one cares about weight.
 - [Project, Flite Test][project_flitetest]
 - [Project, FliteTest, Fiberglass over 3D Printed Foam][project_flitetest_glass]
 - [Project, Hackaday, A Guide to 3D Printing Model Aircraft Wings][project_hackaday_wings]
+- [Reference, Aeroelasticity][ref_aeroelasticity]
 - [Reference, Aspect Ratio in Aeronautics][ref_aspect_ratio]
 - [Reference, Best Foam for RC Airplane Building][ref_foam_rc]
 - [Reference, Composite Materials in Unmanned Aerial Vehicles][ref_uav_composites]
 - [Reference, Fiberglass][ref_fiberglass]
+- [Reference, Lift Coefficient][ref_lift_coefficient]
 - [Reference, PLA Temperature Resistance][ref_pla_temp]
 - [Reference, Polylactic Acid][ref_pla]
+- [Reference, Preventing Overexposure to Epoxy][ref_epoxy_safety]
 - [Reference, RC Airplane Covering Film][ref_covering_film]
+- [Reference, Repairing Composite Surfaces][ref_composite_repair]
 - [Reference, Reynolds Number][ref_reynolds]
 - [Reference, Square-Cube Law][ref_square_cube]
 - [Reference, The Square-Cube Law and Scaling for RC Sailplanes][research_square_cube_rc]
+- [Reference, Turbulators][ref_turbulators]
 - [Reference, Vacuum Bagging a Composite Wing][ref_vacuum_bag]
 - [Reference, Wing Cube Loading][ref_wcl]
 - [Reference, Wing Loading][ref_wing_loading]
+- [Research, Accelerated Aging of Common 3D-Printing Polymers][research_pla_aging]
 - [Research, Basic Understanding of Airfoil Characteristics at Low Reynolds Numbers][research_low_re_airfoil]
+- [Research, Repairs and Alterations to Composite and Bonded Aircraft Structure][research_faa_repair]
 - [Research, Reynolds Number Effects on the Performance of Small-Scale Propellers][research_selig]
 
 [material_lwpla_print]: https://colorfabb.com/blog/post/how-to-print-with-colorfabb-lw-pla
@@ -509,3 +687,10 @@ applied in proportion to how much each one cares about weight.
 [research_low_re_airfoil]: https://arc.aiaa.org/doi/10.2514/1.C034415
 [research_selig]: https://m-selig.ae.illinois.edu/pubs/DetersAnandaSelig-2014-AIAA-2014-2151.pdf
 [research_square_cube_rc]: https://www.rcsoaringdigest.com/SquareCube.html
+[ref_aeroelasticity]: https://en.wikipedia.org/wiki/Aeroelasticity
+[ref_lift_coefficient]: https://en.wikipedia.org/wiki/Lift_coefficient
+[ref_turbulators]: https://www.mh-aerotools.de/airfoils/turbulat.htm
+[ref_epoxy_safety]: https://www.westsystem.com/safety/preventing-overexposure/
+[ref_composite_repair]: https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/composite/repairing-composite-surfaces
+[research_pla_aging]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8659210/
+[research_faa_repair]: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-214A.pdf
