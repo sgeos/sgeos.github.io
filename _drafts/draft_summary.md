@@ -18,6 +18,37 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Communications and the Command-and-Control Data Link for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-09-communications_and_the_command_and_control_data_link_for_fixed_wing_uavs.markdown`
+**Topic**: The command-and-control data link of a fixed-wing UAV, framed on the link budget (received power versus noise) with latency as the companion constraint; the first extension beyond the core arc.
+**Article Number**: A126
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-09 (34 references)
+
+Standalone aerospace article and the first extension beyond the core fixed-wing-UAV arc (which closed with the A125 capstone).
+The master variable is the link budget, P_rx = P_tx + gains - free-space path loss, with the signal-to-noise margin setting range and the Shannon limit bounding data rate, and latency as the companion constraint that decides what can be controlled over the link.
+Sections covered include
+the link budget (Friis, free-space path loss, SNR, Shannon, Fresnel, ISM bands, the frequency range-versus-rate trade, near-ground multipath and the two-ray ground reflection, the regulatory cap on effective radiated power);
+the radio horizon;
+the moving aircraft (airframe shadowing, radiation-pattern nulls and polarization, antenna diversity, a tracking ground antenna);
+the three streams (command uplink, telemetry downlink, payload downlink with codec compression latency);
+radio control with a handheld transmitter (2.4 GHz FHSS, ExpressLRS, CRSF/SBUS handoff, the control-link packet rate, FPV, failsafe, the manual path);
+computer-controlled transmission (MAVLink, SiK/RFD900 telemetry radios, the ground control station, companion computer over cellular, intent versus stick inputs, coexisting with the handheld link);
+beyond line of sight (relay, cellular, SATCOM via Iridium);
+latency and why the fast loops are aboard (tying A123 and A125);
+security and jamming (J/S ratio, spread spectrum, AES encryption, spoofing, directional antenna);
+lost link (the preset failsafe, geofence, tying A116 and A125);
+scale and the UAV case (the radios as part of the A121 hotel load);
+a worked example (a 100 mW 2.4 GHz link closing 10 km with a 12 dB margin, a ~48 km radio horizon, kbps command versus Mbps video, LOS versus SATCOM latency);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+The pilot's explicit requirement, RC control via both a consumer handheld controller and a computer-controlled transmitter, is covered in its own two sections framed as the coexisting manual and autonomous paths.
+References A116, A121, and A125 via post_url.
+34 references across Reference (28), Related Post (3), and Research (3) categories.
+
 ### Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown`
@@ -775,10 +806,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A125 have been published.
+A79 through A126 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
+A126 (communications and the command-and-control data link) is the first extension beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are structures and the flight envelope, payload and mission systems, and the regulatory and operations layer.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
