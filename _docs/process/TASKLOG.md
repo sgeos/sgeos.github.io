@@ -8,7 +8,7 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A111 (Information-Flow Control deep dive)
+**Name**: Draft A112 (Fixed-wing LWPLA + fiberglass prototyping)
 **Status**: Complete
 **Started**: 2026-05-30
 
@@ -33,9 +33,9 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Notes
 
-- Next available article number: A112.
+- Next available article number: A113.
 - 0 release candidates.
-- 0 new drafts. A108 through A111 published.
+- 1 new draft (A112, awaiting human review). A108 through A111 published.
 - 0 stubs.
 - Eight pre-release candidate drafts remain awaiting human verification.
 - A108 is a standalone AI/philosophy article. A109 is its Keleusma implementation companion. The resume driver landed in keleusma 0.2.1 (verified against a working-tree build); the released 0.2.0 lacks it. A109 targets 0.2.1 and documents the 0.2.0 difference.
@@ -139,3 +139,5 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-30 | Software Versions consistency: added an "OS and Version" section (`uname -vm`) to A109 and A110, the recent code-running articles that omitted it. A107 left unchanged (its kernel build date postdates the article, so the current uname would be anachronistic); A108 runs no code. |
 | 2026-05-30 | A111-P1: "Information-Flow Control, A Deep Dive with Keleusma" researched and written. IFC theory verified against seven canonical papers; all Keleusma listings tested on 0.2.0 (implicit-flow rejection is the centerpiece). Tested scripts in tmp/a111 (gitignored). 15 references inline plus a References section. References A109 and A110 via post_url. Software Versions includes OS and Version. Draft summary synced. |
 | 2026-05-30 | A111-P2: Published A111 "Information-Flow Control, A Deep Dive with Keleusma" (2026-05-29 date). Verified full site build (post_url to A109/A110 resolve, keleusma fences highlight). Committed and pushed; deployed via the Actions build. Draft summary synced. |
+| 2026-05-30 | Scratch policy: confined all scratch to project-local tmp/ (recorded as a memory preference); removed stray system /tmp scratch from this session. |
+| 2026-05-30 | A112-P1: "Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass" researched and written. Standalone aerospace/fabrication article. Topic researched against verified sources (LW-PLA foaming filament, fiberglass lamination, low-Reynolds-number aerodynamics, square-cube scaling, printed RC airframes). Covers the 1-2 m wingspan sweet spot and a final section on other unmanned vehicles. MathJax enabled. 16 references inline plus a References section. No runnable code, so no OS and Version section. Draft summary synced. |
