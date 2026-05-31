@@ -18,6 +18,40 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Structures and the Flight Envelope for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-10-structures_and_the_flight_envelope_for_fixed_wing_uavs.markdown`
+**Topic**: The airframe structure and the flight envelope of a fixed-wing UAV, framed on the load factor and the load-versus-speed (V-n) diagram, the boundary the whole series operates inside; the second extension beyond the core arc.
+**Article Number**: A127
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-10 (42 references)
+
+Standalone aerospace article and the second extension beyond the core fixed-wing-UAV arc (after A126 communications).
+The master variable is the load factor n = L/W and the load-versus-speed diagram, the flight envelope bounded by the stall parabola, the structural limit-load line, and the maximum-speed line, with the structure sized to its corners.
+Sections covered include
+the flight envelope;
+the corner and the maneuvering speed;
+limit load and ultimate load (the 1.5 factor of safety);
+categories and the width of the envelope (normal, utility, aerobatic);
+the gust envelope (sharp-edged and derived gust, the light-UAV gust sensitivity);
+loads beyond the flight envelope (launch, recovery, touchdown through the undercarriage, taxi and handling, tying A116 and A124);
+how the structure carries the load (bending, shear, torsion, asymmetric and combined cases, spar/rib/longeron, monocoque and stressed skin, tying A112);
+material, stress, buckling, and the margin of safety (specific strength and modulus, the before-yield instability of thin panels, strength versus stiffness);
+fatigue and the life of the structure (the stress-life curve, safe-life, fail-safe, damage-tolerant);
+aeroelasticity and the flutter boundary (divergence, control reversal, flutter as a dynamic-pressure wall, tying A112 and A123);
+the aerobatic envelope (the widest symmetric diagram, negative-g structure, and the UAV no-pilot point tying loitering munitions, with the maneuver art and physiology out of scope);
+the envelope is not fixed (density altitude, the A120 thermal wall, composite knockdown, fatigue, autopilot envelope protection tying A123/A125);
+proving the structure (the static ultimate-load test, flutter clearance by ground vibration test and stepped envelope expansion, and the fatigue test article);
+scale and the UAV case (square-cube structural fraction, composite and printed structures, attritable design);
+a worked example on the 25 kg series aircraft (stall speed about 18 m/s, corner speed about 38 m/s, limit and ultimate loads, a gust increment that rivals the maneuver limit);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+The pilot's pre-draft question, whether aerobatics belongs, is answered in the article by covering aerobatics as the envelope's widest symmetric case.
+References A112, A116, A120, A123, and A124 via post_url.
+42 references across Book (1), Reference (33), Related Post (5), and Research (3) categories.
+
 ### Communications and the Command-and-Control Data Link for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-09-communications_and_the_command_and_control_data_link_for_fixed_wing_uavs.markdown`
@@ -806,11 +840,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A126 have been published.
+A79 through A127 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
-A126 (communications and the command-and-control data link) is the first extension beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are structures and the flight envelope, payload and mission systems, and the regulatory and operations layer.
+A126 (communications and the command-and-control data link) and A127 (structures and the flight envelope) are the first two extensions beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
