@@ -18,6 +18,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Staged and Boosted Propulsion for Small Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown`
+**Topic**: Staged and boosted propulsion for a ~2m fixed-wing UAV, framed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy).
+**Article Number**: A120
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-03 (40 references; 472 lines)
+
+Standalone aerospace article and the fifth in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion).
+Reopens the high-speed families A118 ruled out of regime by adding a boost stage, and is framed throughout as the management of the post-boost mission energy budget.
+The boost deposits potential and kinetic energy (Tsiolkovsky rocket equation, specific impulse, one versus two stage), to which stored propulsive energy is added, and the kinetic share sets the stagnation temperature and therefore the airframe material.
+Sections covered include
+the mission energy budget with the energy height h_e = h + V^2/2g;
+the boost stage;
+the thermal wall (stagnation temperature versus Mach, aerodynamic heating, altitude and duration relief);
+airframe materials by regime (LW-PLA subsonic, aluminum/composite transonic, titanium/steel supersonic with the SR-71 anchor, superalloy/refractory/CMC/carbon-carbon/UHTC/active-cooling/ablative hypersonic with the X-43 and X-51 anchors);
+airframe archetypes for spending the budget (vertical-fighter banking it as altitude with the Bachem Natter anchor, maneuverable descending spending it on lift with lifting-body/waverider/HGV/MaRV members, and conventional holding it level on propulsion);
+boost-glide with range (L/D)(h + V^2/2g);
+boost-sustainer (RATO and the cruise-missile boost-turbojet);
+boost-ramjet (integral rocket-ramjet, GQM-163 Coyote, Mach 2-4 titanium airframe);
+boost-scramjet (X-43, X-51, hypersonic materials, research-grade honesty);
+boost-throttleable-rocket;
+one stage versus two;
+a worked example on a 2 m vehicle (propellant fraction and stagnation temperature to Mach 2 and Mach 5, with the Mach-5 energy height of about 147 km);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+The thesis is that the ~2m scale forbids none of these configurations, since material and budget, not size, set how far up the speed ladder a prototype can be carried.
+References A112, A114, A116, and A118 via post_url.
+40 references across Reference, Related Post, and Research categories.
+472 lines.
+
 ### Propulsion and Power Sizing for Small Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs.markdown`
@@ -594,7 +627,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A119 have been published.
+A79 through A120 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

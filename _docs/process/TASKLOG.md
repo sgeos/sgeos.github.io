@@ -8,44 +8,42 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A118 (Propulsion and Power Sizing for Small Fixed-Wing UAVs)
+**Name**: Publish A120 (Staged and Boosted Propulsion for Small Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A118 "Propulsion and Power Sizing for Small Fixed-Wing UAVs" researched and written as the propulsion entry in the fixed-wing-UAV set.
-- [x] Power-required master variable established (power is thrust times speed, thrust in level flight is drag, so P = W V / (L/D)).
-- [x] Drag polar, lift-to-drag, aspect ratio, and Oswald efficiency covered.
-- [x] Propellers covered via momentum theory, static thrust, advance ratio, and efficiency, including the electric ducted fan.
-- [x] Thrust-to-weight and the launch and climb case identified as the usual powertrain-sizing driver, tying to A114 and A116.
-- [x] Electric propulsion (battery specific energy, brushless motor, endurance equation, battery wall) and combustion propulsion (two-stroke, Wankel, brake-specific fuel consumption, heavy fuel, range and endurance) covered.
-- [x] Altitude and available power, endurance and range with reserves, solar and hybrid and fuel cells, and jets and regimes beyond the propeller (turbojet and turbofan in scope; ramjet, scramjet, throttleable rocket, and boost-glide named and out of scope) covered.
-- [x] Worked example on the 25 kg series aircraft.
-- [x] Endurance and range speeds correct for a propeller aircraft (endurance at the minimum-power speed, range at the best lift-to-drag speed).
-- [x] References A112, A114, and A116 via post_url.
-- [x] Reference integrity confirmed (36 refs, 0 unused, 0 missing).
-- [x] Style verified (no contractions, no em-dashes, no en-dashes, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-02 date.
+- [x] A120 "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" researched and written as the staged-propulsion entry in the fixed-wing-UAV set.
+- [x] Framed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy), with the energy height h_e = h + V^2 / 2g.
+- [x] Boost stage covered (Tsiolkovsky rocket equation, specific impulse, one versus two stage).
+- [x] The thermal wall covered (stagnation temperature versus Mach, aerodynamic heating, altitude and duration relief).
+- [x] Airframe materials by regime covered (LW-PLA, aluminum, titanium and steel with the SR-71 anchor, superalloy and refractory and ceramic matrix composite and carbon-carbon and ultra-high-temperature ceramics and active or ablative cooling with the X-43 and X-51 anchors).
+- [x] Airframe archetypes covered (vertical-fighter banking the budget as altitude, maneuverable descending spending it in a controlled descent, conventional holding it level and topping up with propulsion).
+- [x] Boost-glide, boost-sustainer, boost-ramjet (GQM-163 anchor), boost-scramjet, and boost-throttleable-rocket covered.
+- [x] One stage versus two covered; worked example on a 2 m vehicle (propellant fraction and stagnation temperature to Mach 2 and Mach 5, with the Mach-5 energy height).
+- [x] References A112, A114, A116, and A118 via post_url.
+- [x] Reference integrity confirmed (40 refs, 0 unused, 0 missing).
+- [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
+- [x] Published with the 2026-06-03 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A118-P1-T1 | Research and draft the article | Complete | Propulsion entry in the fixed-wing-UAV set. Power-required master variable; drag polar and lift-to-drag; propellers, momentum theory, static thrust, advance ratio; thrust-to-weight and the launch and climb case; electric and combustion propulsion; endurance and range; solar and hybrid and fuel-cell note; worked example on the 25 kg series aircraft; Out of Scope. MathJax plug-and-chug formulae. No runnable code, so no Software Versions section. References A112, A114, and A116 via post_url. Real-UAV anchors RQ-7 Shadow, ScanEagle, RQ-20 Puma. 26 references. |
-| A118-P2-T1 | Propulsor-coverage pass | Complete | Added an electric ducted fan paragraph and a "Jets and Regimes Beyond the Propeller" section (turbojet and turbofan as the in-scope high-speed edge; ramjet, scramjet, throttleable rocket, and rocket boost-glide named and declared out of regime, the boost case cross-referenced to A116). 8 new references for 34 total. New URLs verified HTTP 200. |
-| A118-P3-T1 | Completeness pass | Complete | Corrected the endurance and range speeds for a propeller aircraft (endurance at the minimum-power speed, range at the best lift-to-drag speed; the draft had inverted this); added an "Altitude and Available Power" section on the density-altitude lapse of available engine power and propeller thrust, cross-linking A114; added an energy-reserve and margin note; and added a heavy-fuel logistics clause. 2 new references for 36 total. New URLs verified HTTP 200. |
-| A118-P4-T1 | Publish | Complete | Date already set to 2026-06-02 09:00:00 +0000. Moved _drafts/propulsion_and_power_sizing_for_fixed_wing_uavs.markdown to _posts/2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/02/, MathJax included, A112 and A114 and A116 post_url links resolved, all 36 reference links present, on index). 445 lines. |
-| A118-P4-T2 | Sync process files | Complete | draft_summary.md adds an A118 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A120. Committed and pushed; deploys via the Actions build. |
+| A120-P1-T1 | Research and draft the article | Complete | Staged-propulsion entry in the fixed-wing-UAV set. Boost stage (rocket equation, one versus two stage); thermal wall; airframe materials by regime; boost-glide, boost-sustainer, boost-ramjet, boost-scramjet, and boost-rocket; one versus two stage; worked example on a 2 m vehicle; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, A116, and A118 via post_url. Real-vehicle anchors GQM-163 Coyote, SR-71, X-43, X-51. 31 references. |
+| A120-P2-T1 | Energy-budget reframe and completeness pass | Complete | Reframed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy) as the primary master variable, with the energy height and the boost-angle split between potential and kinetic energy. Added an "Airframe Archetypes for Spending the Budget" section (vertical-fighter, maneuverable descending, conventional); sharpened the boost-glide range to (L/D)(h + V^2/2g); added the Mach-5 energy-height figure (about 147 km) to the worked example; extended Out of Scope to defer trajectory optimization. 9 new references for 40 total. New URLs verified HTTP 200. |
+| A120-P3-T1 | Publish | Complete | Set date to 2026-06-03 09:00:00 +0000. Moved _drafts/staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown to _posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/03/, MathJax included, A112 and A114 and A116 and A118 post_url links resolved, all 40 reference links present, on index). 472 lines. |
+| A120-P3-T2 | Sync process files | Complete | draft_summary.md adds an A120 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A121. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A120.
+- Next available article number: A121.
 - 0 release candidates.
-- 0 new drafts. A108 through A119 published.
+- 0 new drafts. A108 through A120 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A118 completes the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion). Standalone aerospace analytical article. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A120 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion). Standalone aerospace analytical article framed around the post-boost mission energy budget. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -175,3 +173,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A118-P2: Propulsor-coverage pass. Added an electric ducted fan paragraph and a "Jets and Regimes Beyond the Propeller" section (turbojet/turbofan in scope; ramjet, scramjet, throttleable rocket, and rocket boost-glide named and out of regime). 8 new references for 34 total. URLs verified. |
 | 2026-05-31 | A118-P3: Completeness pass. Corrected the endurance/range speeds for a propeller aircraft (endurance at minimum-power speed, range at best lift-to-drag speed), added an "Altitude and Available Power" section (density-altitude lapse of available power, cross-linking A114), an energy-reserve note, and a heavy-fuel logistics clause. 2 new references for 36 total. URLs verified. |
 | 2026-05-31 | A118-P4: Published A118 "Propulsion and Power Sizing for Small Fixed-Wing UAVs" (2026-06-02 date, 445 lines, 36 refs). Moved to _posts/2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A116 post_url links resolve, all reference links present, on index). Completes the fixed-wing-UAV set. Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A120-P1: "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" researched and written in _drafts/ as the fifth entry in the fixed-wing-UAV set. Boost stage (rocket equation, one versus two stage); thermal wall; airframe materials by regime (SR-71, X-43, X-51 anchors); boost-glide/sustainer/ramjet (GQM-163)/scramjet/rocket; worked example on a 2 m vehicle. 31 references. Cross-links A112, A114, A116, A118 via post_url. Process files held (draft only); deltas staged in tmp/a120/. |
+| 2026-05-31 | A120-P2: Energy-budget reframe and completeness pass per pilot direction. Reframed around the post-boost mission energy budget (potential plus kinetic plus stored propulsive energy), added the energy height and boost-angle split, a new "Airframe Archetypes for Spending the Budget" section (vertical-fighter, maneuverable descending, conventional), the boost-glide energy-height range (L/D)(h + V^2/2g), and the Mach-5 energy-height figure (about 147 km). 9 new references for 40 total. URLs verified. |
+| 2026-05-31 | A120-P3: Published A120 "Staged and Boosted Propulsion for Small Fixed-Wing UAVs" (2026-06-03 date, 472 lines, 40 refs). Moved to _posts/2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A116/A118 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
