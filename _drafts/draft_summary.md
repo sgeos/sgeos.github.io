@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Dynamic Stability and Control for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown`
+**Topic**: Dynamic stability and control of a fixed-wing UAV, framed on the damping and frequency of the aircraft's natural modes, the dynamic sequel that completes the stability-and-control arc begun by the static-stability article.
+**Article Number**: A123
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-06 (22 references; 316 lines)
+
+Standalone aerospace article and the eighth in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control).
+Takes up the dynamic question A122 deferred.
+The master variable is the damping and frequency of the natural modes, with the aircraft modeled as a damped harmonic oscillator where static stability is the spring, inertia the mass, and aerodynamic rate forces the damping.
+Sections covered include
+the spring, the mass, and the damping (with a small-disturbance about-trim caveat);
+the longitudinal modes (short-period, phugoid);
+the lateral-directional modes (roll subsidence, spiral, Dutch roll, with the spiral-versus-Dutch-roll trade tied to A122's dihedral-versus-weathercock balance);
+damping, frequency, and handling qualities (settling time, Cooper-Harper, flying-qualities levels);
+gusts and ride quality (turbulence excitation and the small-UAV gust sensitivity);
+stability augmentation (yaw damper, pitch damper, rate feedback from an IMU, the SAS inner loop, augmentation limits and pilot-induced oscillation, and the SAS-versus-CAS distinction);
+fly-by-wire and relaxed static stability;
+scale and the UAV case (faster modes, autopilot and actuator bandwidth);
+a worked example (Dutch-roll damping from 0.05 to 0.4 with a yaw damper, and a phugoid period);
+and an Out of Scope section that defers derivative estimation and the equations of motion, control-law synthesis, sensors and state estimation, structural and aeroelastic dynamics, departure and spin, and the outer-loop guidance, navigation, and automatic landing.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+References A112, A114, and A122 via post_url.
+22 references across Reference, Related Post, and Research categories.
+316 lines.
+
 ### Stability, Control, and Configuration for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs.markdown`
@@ -688,7 +717,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A122 have been published.
+A79 through A123 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
