@@ -8,42 +8,43 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A123 (Dynamic Stability and Control for Fixed-Wing UAVs)
+**Name**: Publish A124 (Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A123 "Dynamic Stability and Control for Fixed-Wing UAVs" researched and written as the dynamic-stability entry in the fixed-wing-UAV set, taking up the dynamic question A122 deferred.
-- [x] Framed around the damping and frequency of the natural modes, with the aircraft modeled as a damped harmonic oscillator (static stability the spring, inertia the mass, aerodynamic rate forces the damping).
-- [x] Longitudinal modes covered (short-period, phugoid) and lateral-directional modes covered (roll subsidence, spiral, Dutch roll), with the spiral-versus-Dutch-roll trade tied to A122's dihedral-versus-weathercock balance.
-- [x] Damping, frequency, and handling qualities covered (settling time, Cooper-Harper, flying-qualities levels), plus a small-disturbance about-trim linearization caveat.
-- [x] Gusts and ride quality covered (turbulence excites the modes; the slow, lightly wing-loaded UAV is gust-sensitive).
-- [x] Stability augmentation covered (yaw damper, pitch damper, rate feedback from an IMU, the SAS inner loop), with augmentation limits (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation) and the SAS-versus-CAS distinction.
-- [x] Fly-by-wire and relaxed static stability covered; scale and the UAV case (faster modes, autopilot and actuator bandwidth).
-- [x] Worked example (Dutch-roll damping from 0.05 to 0.4 with a yaw damper; a phugoid period).
-- [x] References A112, A114, and A122 via post_url.
-- [x] Reference integrity confirmed (22 refs, 0 unused, 0 missing).
+- [x] A124 "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" researched and written as the landing-gear-and-touchdown entry in the fixed-wing-UAV set, complementing the runway and recovery articles.
+- [x] Framed around the touchdown energy absorbed over a stroke, n = v^2/(2 g0 d), the energy-and-stroke idea of the recovery article applied to the final surface interface.
+- [x] Wheels and landing gear covered (retractable versus fixed drag-and-weight trade, tricycle and conventional layout, the oleo strut as gas spring and oil damper, recoil damping and bounce, frangible and sacrificial gear, spin-up and side gear loads, gear-up fallback).
+- [x] Skids covered (sacrificial skids, friction stroke, surface variants of skis and tundra tires).
+- [x] Water landings covered (floatplane, flying boat, planing and the step, ditching, porpoising).
+- [x] Drogue and main parachutes covered (drogue-before-main staging, residual touchdown energy taken by an airbag or crush, cross-referencing the recovery article).
+- [x] Deliberate impact covered (intentional lithospheric and hydrospheric intersection, crushable crashworthy structure for expendable vehicles).
+- [x] Energy bleeding before touchdown covered (spoilers, forward slip, S-turns, flare), with the honest distinction that true aerobraking is an orbital maneuver while a boost-glide or ramjet or scramjet vehicle does thermally limited atmospheric deceleration.
+- [x] Scale and the UAV case, and a worked example (sink-rate, parachute, and deliberate-impact loads set by the stroke).
+- [x] References A114, A116, A120, and A122 via post_url.
+- [x] Reference integrity confirmed (23 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-06 date.
+- [x] Published with the 2026-06-07 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A123-P1-T1 | Research and draft the article | Complete | Dynamic-stability entry in the fixed-wing-UAV set. The spring-mass-damper framing; longitudinal and lateral-directional modes; damping, frequency, and handling qualities; stability augmentation; fly-by-wire and relaxed stability; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A112, A114, and A122 via post_url. 20 references. |
-| A123-P2-T1 | Completeness pass | Complete | Added a small-disturbance about-trim linearization caveat, a "Gusts and Ride Quality" section (turbulence excitation and the small-UAV gust sensitivity), an augmentation-limits note (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation and saturation), and the stability-augmentation-versus-control-augmentation distinction. 2 new references (Pilot-Induced Oscillation, Dryden Wind Turbulence Model) for 22 total. URLs verified. |
-| A123-P3-T1 | Publish | Complete | Set date to 2026-06-06 09:00:00 +0000. Moved _drafts/dynamic_stability_and_control_for_fixed_wing_uavs.markdown to _posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/06/, MathJax included, A112 and A114 and A122 post_url links resolved, all 22 reference links present, on index). 316 lines. |
-| A123-P3-T2 | Sync process files | Complete | draft_summary.md adds an A123 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A124. Committed and pushed; deploys via the Actions build. |
+| A124-P1-T1 | Research and draft the article | Complete | Landing-gear-and-touchdown entry in the fixed-wing-UAV set. The touchdown energy and the stroke; wheels and landing gear; skids; water landings; drogue and main parachutes; deliberate impact; energy bleeding with the aerobraking distinction; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A114, A116, A120, and A122 via post_url. 22 references. Complements rather than duplicates the recovery article. |
+| A124-P2-T1 | Completeness pass | Complete | Added gear loads beyond the vertical sink (wheel spin-up drag and crabbed-touchdown side load), a bounce-and-recoil-damping clause on the oleo strut, a surface-variant note (skis for snow and tundra tires for rough ground), a gear-up-landing fallback clause, and a directional-rollout and ground-loop cross-reference to the runway and control companions. 1 new reference (Tundra Tire) for 23 total. URL verified. |
+| A124-P3-T1 | Publish | Complete | Set date to 2026-06-07 09:00:00 +0000. Moved _drafts/landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown to _posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/07/, MathJax included, A114 and A116 and A120 and A122 post_url links resolved, all 23 reference links present, on index). 320 lines. |
+| A124-P3-T2 | Sync process files | Complete | draft_summary.md adds an A124 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A125. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A124.
+- Next available article number: A125.
 - 0 release candidates.
-- 0 new drafts. A108 through A123 published.
+- 0 new drafts. A108 through A124 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A123 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control). Standalone aerospace analytical article framed around the damping and frequency of the natural modes; completes the stability-and-control arc with A122. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A124 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown). Standalone aerospace analytical article framed around the touchdown energy absorbed over a stroke; complements the runway and recovery articles. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -185,3 +186,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A123-P1: "Dynamic Stability and Control for Fixed-Wing UAVs" researched and written in _drafts/ as the eighth entry in the fixed-wing-UAV set, taking up the dynamic question A122 deferred. Framed on the damping and frequency of the natural modes (damped harmonic oscillator). Longitudinal and lateral-directional modes; handling qualities; stability augmentation; fly-by-wire and relaxed stability; scale; worked example. 20 references. Cross-links A112, A114, A122 via post_url. Process files held (draft only); deltas staged in tmp/a123/. |
 | 2026-05-31 | A123-P2: Completeness pass. Added a small-disturbance about-trim linearization caveat, a "Gusts and Ride Quality" section, an augmentation-limits note (sensor noise, actuator bandwidth, loop delay, pilot-induced oscillation), and the SAS-versus-CAS distinction. 2 new references for 22 total. URLs verified. |
 | 2026-05-31 | A123-P3: Published A123 "Dynamic Stability and Control for Fixed-Wing UAVs" (2026-06-06 date, 316 lines, 22 refs). Moved to _posts/2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A112/A114/A122 post_url links resolve, all reference links present, on index). Completes the stability-and-control arc (static A122, dynamic A123). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A124-P1: "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" researched and written in _drafts/ as the ninth entry in the fixed-wing-UAV set, complementing the runway and recovery articles. Framed on the touchdown energy absorbed over a stroke. Wheels and gear (retractable/fixed, oleo, frangible); skids; water landings; drogue and main parachutes; deliberate impact; energy bleeding with the aerobraking distinction; scale; worked example. 22 references. Cross-links A114, A116, A120, A122 via post_url. Process files held (draft only); deltas staged in tmp/a124/. |
+| 2026-05-31 | A124-P2: Completeness pass. Added gear loads beyond the vertical sink (spin-up drag, side load), a bounce/recoil-damping clause, a surface-variant note (skis, tundra tires), a gear-up-landing fallback, and a ground-loop cross-reference. 1 new reference (Tundra Tire) for 23 total. URL verified. |
+| 2026-05-31 | A124-P3: Published A124 "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" (2026-06-07 date, 320 lines, 23 refs). Moved to _posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A114/A116/A120/A122 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
