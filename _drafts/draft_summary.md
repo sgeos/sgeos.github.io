@@ -18,6 +18,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass (A112) — New Draft
+
+**File**: `prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass.markdown`
+**Topic**: Prototyping unmanned fixed-wing airframes by printing a foaming-PLA core and laminating a fiberglass skin
+**Completion**: ~95%
+**Publication Sensibility**: High
+**Status**: New Draft (awaiting human review)
+
+Standalone aerospace and fabrication article (not part of the probe series).
+Covers the two materials (LW-PLA foaming filament and fiberglass-epoxy lamination) and why the combination works,
+why printed-core-plus-glass-skin beats balsa, molded composite, and foam for the prototyping phase,
+and the one-to-two-meter wingspan sweet spot. The lower bound is aerodynamic (low Reynolds number degrades
+airfoil performance below about 10^5, so sub-meter spans suffer), and the upper bound is labor and the
+square-cube law (wing loading and build cost balloon with size). Includes a build method and a final section
+on applying the technique to copters, land vehicles, and boats, ordered by how much each cares about weight.
+MathJax enabled (Reynolds number, square-cube scaling). Date 2026-05-30 (placeholder, set at publication).
+No runnable code, so no OS and Version section. Researched against verified sources.
+16 references inline plus a References section across four categories (Material, Project, Reference, Research).
+
+**Remaining Work**:
+Human review.
+Set publication date and run date -u to sync Software Versions when ready.
+
 ### Solana sBPF Assembly Example — Pre-Release Candidate
 
 **File**: `solana_sbpf_assembly_example.markdown`
@@ -259,9 +282,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
+Eleven files exist in `_drafts/`. One is a template.
 No release candidates remain.
-No new drafts remain.
+One new draft remains (A112, awaiting human review).
 No stubs remain.
 A80 through A111 have been published.
 Writing Proofs (A79) has been published.
