@@ -18,6 +18,49 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Keleusma as a Substrate for a Real-Time Hypermedia Desktop — Published
+
+**File**: `_posts/2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop.markdown`
+**Topic**: Follow-up to A113. Maps Keleusma V0.2.0 capabilities and the public V0.5+ roadmap onto A113's six structural commitments of the hypermedia object model, the five engineering commitments for real-time hypermedia composition, and the ten-layer architectural sketch. Vertical-agnostic by design; the vertical-specific treatment is deferred to a separate follow-up.
+**Article Number**: A115
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-05-24 (45 references; 1,701 lines)
+
+Analytical follow-up to A113. Sections covered include
+What Keleusma Provides at Version 0.2.0;
+The Six Structural Commitments of the Hypermedia Object Model;
+The Five Engineering Commitments for Real-Time Hypermedia;
+Mapping the Ten-Layer Architectural Sketch (ten verdicts: two strong fits, five partial fits, three mismatches);
+What Keleusma Uniquely Provides (verified totality, verified WCET/WCMU, language-level IFC);
+What Keleusma Does Not Provide (mature ecosystem, general-purpose breadth, authoring tooling);
+The Asymmetry and Its Implication;
+The Roadmap Path (V0.3.0 self-hosted compiler through V0.5.x interval-graph refinement);
+What Would Need to Be Built;
+Risks and Open Questions;
+Out of Scope (vertical choice, detailed link store design, certification path all deferred to separate posts);
+Conclusion.
+
+Five illustrative Keleusma code samples verified against the installed keleusma 0.2.0 CLI:
+01_typed_part.kel (Citation struct, runs and returns 42);
+02_handler_loop.kel (loop main with yield, compiles to 228-byte bytecode);
+03_ifc_sanitiser.kel (classify/declassify sanitiser pattern, runs and returns 200);
+04_ifc_reject.kel (same without declassify, verifier rejects at compile time);
+05_preallocated.kel (const data block, runs and returns 20).
+
+All examples in `tmp/a115/`.
+
+References:
+45 references across Reference (38), Related Post (5), and Research (1) categories.
+Inline citations throughout per project style.
+A113, A107, A109, A110, A111 cited via post_url.
+No internal Keleusma research material cited; only public Keleusma artefacts (README, crates.io, docs.rs, GitHub).
+
+**Remaining Work**:
+Human review of analytical claims and the Keleusma-to-BTRON mapping.
+Confirm publication date and assign final timestamp.
+Update memory once published.
+
 ### Runway Sizing for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-05-31-runway_sizing_for_fixed_wing_uavs.markdown`
