@@ -9,73 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A127-P3 Publish "Structures and the Flight Envelope for Fixed-Wing UAVs" (second extension)
+**Task**: A128-P3 Publish "Aerobatics as Costed Trajectories for Fixed-Wing UAVs" (third extension, synthesis capstone)
 
 ---
 
 ## Verification
 
-### A127 Published
+### A128 Published
 
-A127 "Structures and the Flight Envelope for Fixed-Wing UAVs" published at `_posts/2026-06-10-structures_and_the_flight_envelope_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-10 09:00:00 +0000`. 42 references across Book (1), Reference (33), Related Post (5), and Research (3) categories. Standalone aerospace article and the second extension beyond the core fixed-wing-UAV arc. References A112, A116, A120, A123, and A124 via `post_url`.
+A128 "Aerobatics as Costed Trajectories for Fixed-Wing UAVs" published at `_posts/2026-06-11-aerobatics_as_costed_trajectories_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-11 09:00:00 +0000`. 42 references across Book (1), Reference (33), Related Post (6), and Research (2) categories. Standalone aerospace article and the third extension beyond the core fixed-wing-UAV arc, the synthesis capstone of the extension set. References A120, A122, A123, A124, A125, and A127 via `post_url`.
 
 ### Framing
 
-The article is framed around the load factor, the lift as a multiple of the weight, and its picture the load-versus-speed diagram. The structure is sized to the corners of that diagram, and the flight envelope is the boundary the whole series has been flying inside, launched into it, flown around within it, and brought back out of it.
+The article is written for the UAV operator and the autonomy and explicitly not for the human pilot, because a maneuver is a different object once no one is aboard, a commanded spatiotemporal trajectory rather than a learned skill. It is organized around the energy state and the specific excess power that changes it, every maneuver a transaction in potential, kinetic, and propulsive energy carrying three costs, an energetic one, a structural one, and a thermal one, whose dominant term migrates with the speed regime until at reentry all three bind at once.
 
 ### Scope Covered
 
-The flight envelope and its three walls (stall, structural limit load, maximum speed); the corner and the maneuvering speed; limit and ultimate load and the factor of safety of one and one half; the normal, utility, and aerobatic categories; the gust envelope; loads beyond the flight envelope (launch, recovery, touchdown, taxi and handling); how the structure carries bending, shear, and torsion through spar, rib, longeron, and stressed skin; material, stress, buckling, and the margin of safety; fatigue and the safe-life, fail-safe, and damage-tolerant philosophies; aeroelasticity and the flutter boundary; the aerobatic envelope; the ways the envelope shifts with altitude, heat, and age; proving the structure by static, flutter, and fatigue test; scale and the UAV case; a worked example; and Out of Scope.
+A maneuver as a trajectory; the energy state and specific excess power; the three costs and the control-authority-and-bandwidth feasibility gate; the kinematic primitives and the maneuverability diagram; a scored catalogue of ten maneuvers; the footprint in space and time; the subsonic, transonic and supersonic, and hypersonic regimes; spaceplane maneuvering during reentry and after the thermal wall; scale and the UAV case; a worked example; and Out of Scope.
 
-### The Pilot's Pre-Draft Question
+### The Pilot's Framing Honored
 
-The pilot asked whether aerobatics belongs in this article. It does, and it is covered as the flight envelope's widest and most nearly symmetric case, the case that demands a structure strong in both the positive and the negative sense. The load-bearing observation is the unmanned one, that a crewed aerobatic aircraft is bounded near nine gravities by human tolerance while an unmanned aircraft is bounded instead by its structure, so the airframe can be drawn a far wider envelope, which matters for high-g targets, air-combat UAVs, and loitering-munition terminal maneuvers. The art of the maneuvers, the spin and its recovery, and human physiology are declared out of scope.
+The two rounds of pre-draft framing were all carried through. The article is for the unmanned case and discards human pedagogy and physiology. It is math-heavy on the backbone of energy-maneuverability theory and turn kinematics and honest where no closed form exists, the post-stall spin and cobra flagged rather than faked. The catalogue is a representative scored set of ten rather than an exhaustive enumeration. The thermal cost is made first-class through an explicit subsonic, supersonic, and hypersonic regime structure, inert at low speed and dominant at high. The hypothetical spaceplane case is split into maneuvering during reentry, a survival corridor of bank reversals and angle-of-attack modulation with the control authority migrating from reaction control thrusters to aerodynamic surfaces, and maneuvering after the thermal wall, the terminal-area energy management of an unpowered glider. The word aerobatics is extended to mean commanded maneuvering, with an explicit statement that figure flying does not survive the hypersonic and reentry regimes. Orbital mechanics, the deorbit, and the entry guidance derivation are out of scope, the boundary the stability-and-control article drew.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 42 of 42 anchors defined and used, zero missing and zero unused, alphabetized within each category. The completeness pass added three Reference anchors (Buckling, Proof Test, and Undercarriage), all verified HTTP 200 on 2026-05-31. The three Research sources (14 CFR Part 23 on eCFR, NACA Report 1206 on NTRS, and the FAA Pilot's Handbook of Aeronautical Knowledge Chapter 5) and the Book source (Megson, Aircraft Structures for Engineering Students, on the Elsevier store) were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
+Reference integrity confirmed at 42 of 42 anchors defined and used, zero missing and zero unused, alphabetized within each category. The completeness pass added four Reference anchors (Inertia Coupling, Maneuverability, Precession, and Separation in Aeronautics), all verified HTTP 200 on 2026-05-31. The Book source (Vinh, Flight Mechanics of High-Performance Aircraft, whose final chapter covers hypervelocity reentry) and the two NASA Research sources (Space Shuttle Entry Terminal Area Energy Management, TM 104744, and Shuttle Entry Guidance Revisited) were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/10/, MathJax is included, the A112 and A116 and A120 and A123 and A124 `post_url` links resolve, all three new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/11/, MathJax is included, the catalogue table renders, the A120 and A122 and A123 and A124 and A125 and A127 `post_url` links resolve, all four new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Structures and the Flight Envelope for Fixed-Wing UAVs
+New Blog Post: Aerobatics as Costed Trajectories for Fixed-Wing UAVs
 
-The series so far has flown an aircraft around inside a boundary without ever drawing it. This article draws it. One quantity organizes the subject, the load factor, the lift as a multiple of the weight, and its picture is the load-versus-speed diagram, the flight envelope the structure is sized to hold.
+The structures article drew the flight envelope. This one is about the paths flown inside it, and it is written for the people who command unmanned aircraft and the autonomy that flies them, not for the human pilot, because a maneuver is a different object once no one is aboard. It is a commanded spatiotemporal trajectory, and the article prices it in energy, in structure, and in heat.
 
 Key takeaways:
-- The flight envelope is bounded by three walls, the stall the wing cannot exceed, the limit load the structure cannot exceed, and the speed beyond which the air loads and flutter grow too fast, and the corner where the first two meet is the speed of the tightest safe turn.
-- A thin airframe is often sized not by the maneuver but by a gust, by the launch and recovery and landing loads, and by buckling that arrives before the material yields, so the flight envelope is necessary but not sufficient.
-- Aerobatics is the widest and most symmetric envelope, and the unmanned case is the striking one, since with no human near nine gravities the structure itself draws the binding edge and the airframe can pull loads no pilot could survive.
-- The structure is the promise that the aircraft holds together everywhere inside the envelope, proven on the ground by static, flutter, and fatigue test before it is believed in the air, and how wide to draw the envelope is the last trade of the series, maneuver against endurance, paid in weight.
+- A maneuver is a path through the energy state, and the specific excess power says which way the path can go, the difference between an instantaneous figure that spends stored energy and a sustained one that can be held only where the excess power is not negative.
+- The three costs are paid together, a tighter turn raising the load factor and the induced drag at once, and at high speed the heating too, while a fourth gate, the control authority and bandwidth, decides whether the figure can be commanded at all.
+- The catalogue of figures is richest in the slow and light regime, thins through the supersonic regime where wave drag makes every turn an energy decision, and collapses in the hypersonic regime to the shaping of a descent.
+- At reentry the only maneuvering left is a bank reversal inside a corridor where the energetic, structural, and thermal costs all bind at once, and the unmanned aircraft inherits the whole range without the human ceiling, so the airframe and the energy and the heat, not a person, decide which trajectories may be flown.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/10/structures_and_the_flight_envelope_for_fixed_wing_uavs.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/11/aerobatics_as_costed_trajectories_for_fixed_wing_uavs.html
 
-#UAV #FixedWing #Aerospace #Structures #FlightEnvelope #Aeroelasticity #Aerobatics #LoadFactor
+#UAV #FixedWing #Aerospace #Aerobatics #EnergyManeuverability #Hypersonic #Spaceplane #Reentry
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-10 publication date is as intended. A127 is the second extension beyond the core arc, one day after A126.
-- Optionally request schematic diagrams (the V-n diagram with its stall parabola, limit-load lines, and gust lines, the aerobatic-versus-normal-category overlay, and a wing-box load-path schematic), which are the one improvement that cannot be added in text and would require image assets.
+- Confirm the 2026-06-11 publication date is as intended. A128 is the third extension beyond the core arc and the synthesis capstone of the extension set, one day after A127.
+- Optionally request schematic diagrams (the doghouse maneuverability plot, the energy-height-versus-airspeed diagram with maneuver paths drawn on it, the reentry corridor, and a per-regime maneuver-survival figure), which are the one improvement that cannot be added in text and would require image assets.
 - Possible further unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
 
 ---
 
 ## Notes
 
-- Next available article number: A128.
+- Next available article number: A129.
 - 0 release candidates.
-- 0 new drafts. A108 through A127 published.
+- 0 new drafts. A108 through A128 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A127.
-- The core fixed-wing-UAV arc is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125); A126 (communications) and A127 (structures and the flight envelope) are the first two extensions beyond it. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A127 process-file deltas were staged in `tmp/a127/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A128.
+- The core fixed-wing-UAV arc is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125); A126 (communications), A127 (structures and the flight envelope), and A128 (aerobatics as costed trajectories) are the first three extensions beyond it, A128 being the synthesis capstone of the extension set. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A128 process-file deltas were staged in `tmp/a128/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.

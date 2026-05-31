@@ -18,6 +18,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Aerobatics as Costed Trajectories for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-11-aerobatics_as_costed_trajectories_for_fixed_wing_uavs.markdown`
+**Topic**: UAV aerobatics treated as commanded spatiotemporal trajectories priced in energetic, structural, and thermal cost across the subsonic, supersonic, and hypersonic regimes, with a hypothetical spaceplane reentry case; the synthesis capstone of the extension set.
+**Article Number**: A128
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-11 (42 references)
+
+Standalone aerospace article and the third extension beyond the core fixed-wing-UAV arc (after A126 communications and A127 structures), the synthesis capstone of the extension set.
+Written for the UAV operator and the autonomy and explicitly not for the human pilot, treating a maneuver as a commanded spatiotemporal trajectory rather than a learned skill.
+The master variable is the energy state and the specific excess power Ps = V(T - D)/W = dh_e/dt, with every maneuver a transaction in potential, kinetic, and propulsive energy and three costs (energetic, structural, thermal) whose dominant term migrates with the speed regime.
+Sections covered include
+a maneuver as a trajectory;
+the energy state and specific excess power (energy height h_e = h + V^2/2g, energy-maneuverability theory);
+the three costs and the control-authority-and-bandwidth feasibility gate;
+the kinematic primitives and the maneuverability (doghouse) diagram with its lift, structural, and sustained bounds;
+a scored catalogue table of ten maneuvers (path, peak load, energy-height behavior, highest surviving regime, with the post-stall spin and cobra flagged as no-closed-form);
+the footprint in space and time (airspace volume, time, wind drift, deconfliction);
+the subsonic regime (figure flying, the no-human-ceiling advantage, negative-g and outside figures);
+the transonic and supersonic regimes (wave drag, Ps collapse, Mach tuck, the shrinking catalogue);
+the hypersonic regime (stagnation heating dominant, bank-angle modulation and S-turns, boost-glide and HGV referents);
+spaceplane maneuvering during reentry (the corridor, bank reversals and angle of attack, the Shuttle's forty-degree alpha and cross-range, control authority migrating from RCS to surfaces per A122);
+spaceplane maneuvering after the thermal wall (terminal-area energy management, tying A124 and A125);
+scale and the UAV case (favorable structural scaling, the loitering-munition terminal maneuver, the energy and powertrain-thermal bounds);
+a worked example on the 25 kg series aircraft (level turn radius and rate, the corner turn, a loop sized by the energy-height trade, a Mach-five thermal note);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout, honest where no closed form exists.
+No runnable code, so no Software Versions section.
+The term aerobatics is extended to commanded maneuvering, with an explicit lampshade that figure flying does not survive the hypersonic and reentry regimes.
+References A120, A122, A123, A124, A125, and A127 via post_url.
+42 references across Book (1), Reference (33), Related Post (6), and Research (2) categories.
+
 ### Structures and the Flight Envelope for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-10-structures_and_the_flight_envelope_for_fixed_wing_uavs.markdown`
@@ -840,11 +873,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A127 have been published.
+A79 through A128 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
-A126 (communications and the command-and-control data link) and A127 (structures and the flight envelope) are the first two extensions beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
+A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), and A128 (aerobatics as costed trajectories) are the first three extensions beyond the core fixed-wing-UAV arc, A128 being the synthesis capstone of the extension set; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
