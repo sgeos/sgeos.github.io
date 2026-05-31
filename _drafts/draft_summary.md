@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown`
+**Topic**: The outer-loop autonomy of a fixed-wing UAV, framed on the feedback loop that drives the error between the navigation estimate and the guidance command to zero; the capstone of the set.
+**Article Number**: A125
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-08 (29 references; 333 lines)
+
+Standalone aerospace article and the tenth and capstone entry in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown, A125 guidance, navigation, and automatic landing).
+Takes up the outer loop A123 set up.
+The master variable is the feedback loop that drives the error between the commanded state (guidance) and the estimated state (navigation) to zero, nested by bandwidth, with the automatic landing as the tightest loop.
+Sections covered include
+the nested loops (inner attitude, outer guidance, mission, bandwidth separation, digital sample rates and latency);
+navigation (GNSS, INS/IMU, dead reckoning, Kalman fusion, air data, RTK, initialization, GNSS-denied vision);
+guidance (waypoints, cross-track error, the look-ahead path-following law);
+wind and the ground track (crab, the wind triangle, the small-UAV case);
+closing the loop with energy (the total energy control system as the real-time version of the series' energy budget);
+the approach and automatic landing (glideslope, flare, RTK/radar-altimeter/vision, touchdown dispersion tied to the runway width) with the automatic-takeoff bookend;
+when the loop breaks (GNSS loss, lost link, geofence, return-to-launch, redundancy, flight termination);
+scale and the UAV case (Pixhawk-class boards, ArduPilot/PX4, the autonomy spectrum);
+a worked example (loop bandwidth separation, the cross-track law, the navigation error budget, the glideslope dispersion);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+References A114, A116, A123, and A124 via post_url, and the conclusion ties the whole ten-article set together.
+29 references across Reference, Related Post, and Research categories.
+333 lines.
+
 ### Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown`
@@ -746,7 +775,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A124 have been published.
+A79 through A125 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
