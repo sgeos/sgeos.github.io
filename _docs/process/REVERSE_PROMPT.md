@@ -9,65 +9,69 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A117-P1 Publish "Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop"
+**Task**: A116-P4 Publish "Launch and Recovery Systems for Fixed-Wing UAVs"
 
 ---
 
 ## Verification
 
-### A117 Published
+### A116 Published
 
-A117 "Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop" published at `_posts/2026-05-25-human_spaceflight_ground_systems_as_illustrative_vertical.markdown` with front-matter date `2026-05-25 09:00:00 +0000`. 1,944 lines. 40 references across Reference (37), Related Post (2), and Research (1) categories.
+A116 "Launch and Recovery Systems for Fixed-Wing UAVs" published at `_posts/2026-06-01-launch_and_recovery_systems_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-01 09:00:00 +0000`. 478 lines. 26 references across Reference (17), Related Post (2), and Research (7) categories. Standalone aerospace analytical article and the runway-independent companion to A114. References A114 (Runway Sizing for Fixed-Wing UAVs) and A112 (Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass) via `post_url`.
 
-### Backdating
+### Scope Covered
 
-The article is dated 2026-05-25 per the human pilot's explicit instruction. The chosen date slots between A115 (2026-05-24) and A114 (2026-05-31) in chronological order, keeping the BTRON-hypermedia trilogy adjacent and ahead of A114's aerospace article. Article number A117 is preserved, consistent with POST_STRUCTURE.md's policy that out-of-order article numbering relative to publication date is acceptable. A116 is reserved for the other session.
+The energy-and-stroke master variable, where launch must add and recovery must remove a kinetic energy fixed by mass and flying speed and the g-load rises as the stroke shrinks; launch by catapult (bungee, pneumatic, hydraulic, rail), winch and aerotow, booster, and zero-length launch; recovery by net and cable (Skyhook), arrested landing, parachute and airbag, belly skid, and high-alpha braking (deep stall, cobra braking as a routine procedure, and perched landing); wind and environment; the acceleration limit; failure and abort modes with the fail-safe principle and a flight-termination or controlled-ditch option; matching launch to recovery anchored to real UAVs (ScanEagle, RQ-7 Shadow, RQ-21 Blackjack); airframe implications; a worked numeric example; and a fully declared Out of Scope.
 
-### Illustrative-Vertical Framing
+### Date
 
-The article's title and opening explicitly state that human spaceflight ground systems are an illustrative vertical chosen for the breadth of the Apollo reference and the public availability of contemporary extrapolations. Other regulated verticals (medical imaging, intelligence analysis, regulatory submission, industrial control) are named as alternatives that would yield broadly similar mappings under A113's framework. The article does not commit to human spaceflight as the recommended first deployment.
+The article is dated 2026-06-01 per the human pilot's instruction. It publishes after A114 (2026-05-31), keeping the two fixed-wing-UAV aerospace articles adjacent and in companion order. Article number A116 fills the gap between A115 (2026-05-24) and A117 (2026-05-25) in number while sitting later in publication date, which is consistent with POST_STRUCTURE.md's policy that out-of-order numbering relative to publication date is acceptable.
 
-### Extrapolation Framing
+### Reference and Style Verification
 
-The article's "Extrapolation to Modern Requirements" section walks the reader from Apollo-era ground systems to contemporary crewed launch, on-orbit operations, and lunar return programs (Artemis, Lunar Gateway, Human Landing System, Commercial Crew Program, ISS Multilateral Coordination). The framing is that the Apollo solution prefigures the contemporary one; the substantive deltas are higher data rates, commercial and international participation, the FAA Part 450 regulatory framework, ITAR export control, and persistent operations.
-
-### Research
-
-A parallel research agent verified 39 Apollo and contemporary human spaceflight ground systems URLs. 36 returned HTTP 200. The three that returned 403 (jpl.nasa.gov DSN, vandenberg.spaceforce.mil, and columbia.edu) are documented bot-detection patterns valid for human browsers. One Wikipedia URL (Mission_Operations_Control_Room) returned 404 in URL verification and was corrected to the Christopher_C._Kraft_Jr._Mission_Control_Center entry that subsumes it.
+Reference integrity confirmed at 26 of 26 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the MDPI runway-free recovery review retained as a documented 403-to-curl source and one industry launcher portal left uncited because its content could not be confirmed. Prose style confirmed: no contractions, no em-dashes or en-dashes, and no prose colons or semicolons, the only semicolon being the console.log debug tag. The worked-example arithmetic was re-checked.
 
 ### Build Verification
 
-Local Jekyll build remains broken in this environment (gem environment issue, documented in earlier history entries). Build verification depends on the GitHub Actions deployment pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/01/, MathJax is included, the A114 and A112 `post_url` links resolve, all 26 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment (gem environment issue documented in earlier history); the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop
+New Blog Post: Launch and Recovery Systems for Fixed-Wing UAVs
 
-A113 mapped the design space for a real-time hypermedia desktop in the BTRON lineage. A115 assessed Keleusma as the language-level substrate. Both articles deferred the choice of vertical to a follow-up. This article is that follow-up. It uses human spaceflight ground systems in the Apollo lineage as an illustrative vertical, lampshaded as such in the title and opening, with explicit extrapolation guidance to modern crewed launch and on-orbit operations. The vertical is an illustration, not a product recommendation; other regulated verticals would yield broadly similar mappings.
+A companion article sized the runway. This one removes it. A fixed-wing UAV can reach flying speed and return to the ground without a strip, and the methods that make this possible are governed by one quantity, the energy that must be added to launch and removed to recover, which is fixed by the mass and the flying speed. The only free choice is the stroke over which that energy is delivered, and the acceleration rises as the stroke shrinks.
 
 Key takeaways:
-- The Apollo program is the canonical worked example. Mission Operations Control Room, the Real-Time Computer Complex on IBM System/360 Model 75 hardware, the Launch Control Center firing rooms, the Manned Space Flight Network, the Flight Rules and Mission Rules documents, the flight directors and the Apollo 13 anomaly response, the simulators, and the recovery forces all map onto the hypermedia model directly.
-- The extrapolation to contemporary requirements is straightforward. The Apollo paper procedures become typed hypermedia documents. The console hardware becomes typed handler modules under verified worst-case execution time. The paper signatures become Ed25519 module signatures. The mission rules become signed Keleusma modules.
-- The certification framework, namely NPR 7150.2, NASA-STD-8719.13, NPR 8705.2, FAA Part 450, and ITAR, provides authoritative requirements rather than asking the program manager to invent them.
-- The walkthrough includes eleven scenes from pre-launch shift report through post-flight review, six verified Keleusma code samples for the load-bearing claims, and an explicit Out of Scope section deferring the link store schema, the certification path, and the contractor selection to future posts.
+- Catapults, winch and tow, boosters, and zero-length launch add the launch energy; nets and cables and hooks and parachutes and skids remove the recovery energy; and a high-angle cobra can shed much of it before capture.
+- The acceleration limit, set by the most fragile component, is the binding constraint, and it is a demand for stroke.
+- Cobra braking can be a routine procedure rather than a stunt, because recovery energy scales as the square of the capture speed, so shedding even a third of the approach speed removes more than half the energy the capture device must absorb.
+- Every method has a failure mode, and designing for graceful failure, a low-energy abort, a reserve chute, a go-around path, and a flight-termination option, is part of the choice.
 
 You can read the full article here:
-https://sgeos.github.io/hypermedia/operating-systems/philosophy/aerospace/2026/05/25/human_spaceflight_ground_systems_as_illustrative_vertical.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/01/launch_and_recovery_systems_for_fixed_wing_uavs.html
 
-#Hypermedia #BTRON #Keleusma #Apollo #HumanSpaceflight #LaunchOperations #MissionControl #NASA #FAA #ITAR
+#UAV #FixedWing #Aerospace #LaunchAndRecovery #Catapult #Parachute #Skyhook #Cobra #DroneOps
+
+---
+
+## Action Items for the Human Pilot
+
+- Confirm the 2026-06-01 publication date is as intended. A116 publishes one day after its A114 companion.
+- Optionally request schematic diagrams (the energy-stroke trade, Skyhook geometry, the cobra braking sequence, the parachute force balance), which are the one improvement that cannot be added in text and would require image assets.
+- Optionally request a follow-up article on the deferred topics, namely the guidance and control laws for capture and high-alpha recovery, or the VTOL and hybrid configurations named in Out of Scope.
 
 ---
 
 ## Notes
 
-- Next available article number: A118 (A116 reserved for the other session).
+- Next available article number: A118.
 - 0 release candidates.
-- 0 new drafts. A79 through A115 plus A117 published.
+- 0 new drafts. A108 through A117 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A115 plus A117.
-- A117 is the vertical-specific follow-up to A113 and A115. The trilogy of BTRON hypermedia articles (A113, A115, A117) is now complete, occupying 2026-05-23 through 2026-05-25 in publication date. The detailed link store design, the certification path, and the contractor selection are deferred to future posts per the article's Out of Scope section.
-- All scratch is confined to project-local `tmp/` per recorded preference. A117 scratch (six verified .kel examples) is in `tmp/a117/`.
+- Published: A79 through A117.
+- A116 is the runway-independent companion to A114, forming a fixed-wing-UAV aerospace pair (A112 airframe, A114 runway, A116 launch and recovery). No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A116 process-file deltas were staged in `tmp/a116/` while the A115 and A117 sessions held the live process files, and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
