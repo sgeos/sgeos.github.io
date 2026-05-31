@@ -18,6 +18,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Runway Sizing for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-05-31-runway_sizing_for_fixed_wing_uavs.markdown`
+**Topic**: Sizing runways for small and medium fixed-wing UAVs, worked outward from the master speed variable.
+**Article Number**: A114
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-05-31 (28 references; 548 lines)
+
+Standalone aerospace article.
+Establishes the squared-speed master variable, where stall and liftoff speed are set by wing loading, air density, and the maximum lift coefficient, and works outward through explicit square-cube size-scaling;
+the level ground roll;
+paved versus dirt surfaces;
+inclined and ski-jump runways;
+wind, crosswind, and landing-gear ground handling;
+orientation with an Earth-rotation dismissal;
+density altitude;
+obstacle clearance, margins, and an in-scope abort and stopping-margin note;
+the landing roll and ground effect;
+width and the lateral dimension (touchdown dispersion and guidance lateral error);
+full-runway versus single-phase operation anchored to real UAVs (ScanEagle, RQ-7 Shadow, MQ-9 Reaper);
+planform and airframe implications (conventional, delta, flying wing);
+a worked numeric example;
+and lighting, reflectors, and markings (optional versus required).
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+References A112 (Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass) via post_url.
+28 references across Reference, Related Post, and Research categories.
+548 lines.
+
 ### BTRON, Hypermedia, and the Real-Time Desktop — Published
 
 **File**: `_posts/2026-05-23-btron_hypermedia_and_real_time_desktop.markdown`
@@ -396,7 +426,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A113 have been published.
+A79 through A114 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

@@ -9,58 +9,65 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A113-P5 Publish "BTRON, Hypermedia, and the Real-Time Desktop" backdated to 2026-05-23
+**Task**: A114-P4 Publish "Runway Sizing for Fixed-Wing UAVs"
 
 ---
 
 ## Verification
 
-### A113 Published
+### A114 Published
 
-A113 "BTRON, Hypermedia, and the Real-Time Desktop" published at `_posts/2026-05-23-btron_hypermedia_and_real_time_desktop.markdown` with front-matter date `2026-05-23 09:00:00 +0000`. 4,166 lines. 149 references across Book (4), Reference (118), Related Post (2), and Research (25) categories.
+A114 "Runway Sizing for Fixed-Wing UAVs" published at `_posts/2026-05-31-runway_sizing_for_fixed_wing_uavs.markdown` with front-matter date `2026-05-31 09:00:00 +0000`. 548 lines. 28 references across Reference (21), Related Post (1), and Research (6) categories. Standalone aerospace analytical article. References A112 (Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass) via `post_url`.
 
-### Backdating
+### Scope Covered
 
-The article is dated 2026-05-23 per the human pilot's explicit instruction. The chosen date pre-dates A108 through A112, which carry dates 2026-05-26 through 2026-05-30. The article number A113 is preserved, consistent with POST_STRUCTURE.md's policy that "unpublished drafts may be published tactically, which can result in slightly out-of-order article numbers relative to publication date. This is acceptable."
+The squared-speed master variable and explicit square-cube size-scaling; the level ground roll; paved versus dirt; inclined and ski-jump runways; wind, crosswind, and landing-gear ground handling; orientation with an Earth-rotation dismissal; density altitude; obstacle clearance, margins, and an in-scope abort and stopping-margin note; the landing roll and ground effect; width and the lateral dimension (touchdown dispersion and guidance lateral error); full-runway versus single-phase operation anchored to real UAVs (ScanEagle, RQ-7 Shadow, MQ-9 Reaper); planform and airframe implications; a worked numeric example; and lighting, reflectors, and markings (optional versus required), with an explicit Out of Scope section.
 
-### Light Editorial Polish
+### Reference and Style Verification
 
-One sentence in the opening paragraph (the ITRON deployment statement) was tightened. No other sections required editing; the four-pass authoring cycle produced consistently careful prose.
+Reference integrity confirmed at 28 of 28 anchors defined and used, zero missing and zero unused. External URLs verified, with publisher anti-bot 403 cases avoided in favor of accessible sources. Prose style confirmed: no contractions, no em-dashes or en-dashes, and no prose colons or semicolons, the only semicolons being the console.log debug tag and LaTeX spacing. The worked-example arithmetic was re-checked.
 
 ### Build Verification
 
-Local Jekyll build remains broken in this environment (gem environment issue, documented in earlier history entries). Build verification depends on the GitHub Actions deployment pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/05/31/, MathJax is included, the A112 `post_url` resolves, and all 28 reference links render. The full local bundle build remains broken in this environment (gem environment issue documented in earlier history); the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: BTRON, Hypermedia, and the Real-Time Desktop
+New Blog Post: Runway Sizing for Fixed-Wing UAVs
 
-In 1984 Ken Sakamura proposed a family of operating systems that took two ideas seriously at once. The first, real-time discipline for an interactive computer, matured into ITRON and is presently invisible in billions of embedded devices. The second, the typed-part-and-typed-link hypermedia desktop, matured into BTRON and is presently a footnote.
-
-This article surveys the asymmetry, diagnoses why the hypermedia half lost, examines what other systems have occupied the niche since, and asks who would benefit if a successor existed. It includes a concrete architectural sketch for a 2026 hypermedia operating system, a seven-scene user-journey walkthrough through an aerospace safety analyst's working day, and an explicit Out-of-Scope section that catalogs what the article does not cover.
+A fixed-wing unmanned aerial vehicle needs ground to accelerate to flying speed and ground to slow back down, and the question of how much ground has a surprisingly structured answer. One variable dominates, the speed the aircraft must reach, because the distance to reach a speed grows with the square of that speed. Slope, surface, wind, air density, planform, and even raw size all act by changing that speed or the acceleration available to reach it.
 
 Key takeaways:
-- The hypermedia model is the right answer for a small, well-funded population in regulated industries, namely defense, aerospace, intelligence, regulated medicine, and certain supervisory functions.
-- The market gap is real and persistent. The Palantir products, Veeva Vault, the engineering-lifecycle tools, and the legal e-discovery and document-management incumbents each cover part of the design space, none covers all of it.
-- The contemporary AI ecosystem (RAG, Model Context Protocol, structured output, C2PA, and regulatory provenance requirements) sharpens the case for a hypermedia substrate rather than weakening it.
-- The viable entry strategies are vertical-first, internal-program, acquisition-path, or sponsored-standards. The general-purpose-platform strategy has failed every time it has been tried.
+- Wing loading is the single best proxy for runway length within a configuration, because for a given airfoil and air it sets the stall speed, and the stall speed squared sets the runway.
+- Size enters through the square-cube law. Scaling an airframe up while keeping its construction roughly doubles wing loading per doubling of size, so larger aircraft want longer runways as a consequence of the same proportionality.
+- Many UAVs use a runway for only one phase. Catapults, nets, parachutes, and ramps let the field be sized for the phase that remains on the ground, as ScanEagle, the RQ-7 Shadow, and the MQ-9 Reaper illustrate across the spectrum.
+- Width, lighting, and reflectors are sizing-stage decisions as well, and lighting is sometimes mandatory rather than optional.
 
 You can read the full article here:
-https://sgeos.github.io/operating-systems/history/philosophy/2026/05/23/btron_hypermedia_and_real_time_desktop.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/05/31/runway_sizing_for_fixed_wing_uavs.html
 
-#BTRON #TRON #RTOS #Hypermedia #OperatingSystems #QNX #Plan9 #seL4 #Genode #LocalFirst #MCP #C2PA #ToolsForThought
+#UAV #FixedWing #Aerospace #Runway #Aerodynamics #STOL #DroneOps #FlightTest
+
+---
+
+## Action Items for the Human Pilot
+
+- Confirm the 2026-05-31 publication date is as intended. A114 publishes after A113's backdated 2026-05-23 entry.
+- Optionally request schematic diagrams (force balance on the roll, slope and ski-jump geometry, the crosswind triangle, width versus length). These are the one improvement that cannot be added in text and would require image assets.
+- Optionally repair the local gem environment so future drafts can be previewed with a full bundle build rather than system Jekyll.
 
 ---
 
 ## Notes
 
-- Next available article number: A114.
+- Next available article number: A115.
 - 0 release candidates.
-- 0 new drafts. A79 through A113 published.
+- 0 recent pre-release candidates. A108 through A114 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A113.
+- Published: A79 through A114.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
 - All scratch is confined to project-local `tmp/` per recorded preference.
+- A114 scratch and earlier process-file deltas were staged under `tmp/a114/` while the A113 session held the live process files. Those files are now synced directly, so the `tmp/a114/` notes are superseded.
