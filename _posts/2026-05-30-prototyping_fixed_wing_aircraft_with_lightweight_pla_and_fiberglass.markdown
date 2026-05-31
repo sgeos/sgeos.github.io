@@ -410,6 +410,24 @@ Change the mass or the area and they move predictably,
 so the formulas are the fastest way to place a new design
 before any filament is spent.
 
+Two flying-quality choices round out the sizing.
+The center of gravity must sit ahead of the wing's
+[aerodynamic center][ref_cg] for the aircraft to be stable in pitch,
+and a usual starting point is between a quarter and a third
+of the way back along the mean aerodynamic chord,
+with nose-heavy erring safe and tail-heavy erring dangerous.
+The printed core helps here, because battery and payload bays
+modeled into it let the mass be placed where the balance needs it.
+The [control surfaces][ref_control_surfaces],
+ailerons for roll, an elevator for pitch, and a rudder for yaw,
+or elevons combining roll and pitch on a flying wing,
+are hinged trailing-edge flaps driven by servos,
+roughly a quarter of the chord deep,
+and the print can carry their hinge lines and control horns directly.
+A full treatment of stability and control,
+covering static margin, tail volume, and control authority,
+is a deep dive that is out of scope here.
+
 ## When to Switch Techniques
 
 The method has an envelope, and outside it an older approach is the right tool.
@@ -642,8 +660,10 @@ applied in proportion to how much each one cares about weight.
 - [Reference, Aeroelasticity][ref_aeroelasticity]
 - [Reference, Aspect Ratio in Aeronautics][ref_aspect_ratio]
 - [Reference, Best Foam for RC Airplane Building][ref_foam_rc]
+- [Reference, Center of Gravity of an Aircraft][ref_cg]
 - [Reference, Composite Materials in Unmanned Aerial Vehicles][ref_uav_composites]
 - [Reference, Fiberglass][ref_fiberglass]
+- [Reference, Flight Control Surfaces][ref_control_surfaces]
 - [Reference, Lift Coefficient][ref_lift_coefficient]
 - [Reference, PLA Temperature Resistance][ref_pla_temp]
 - [Reference, Polylactic Acid][ref_pla]
@@ -694,3 +714,5 @@ applied in proportion to how much each one cares about weight.
 [ref_composite_repair]: https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/composite/repairing-composite-surfaces
 [research_pla_aging]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8659210/
 [research_faa_repair]: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-214A.pdf
+[ref_cg]: https://en.wikipedia.org/wiki/Center_of_gravity_of_an_aircraft
+[ref_control_surfaces]: https://en.wikipedia.org/wiki/Flight_control_surfaces
