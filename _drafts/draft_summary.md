@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Propulsion and Power Sizing for Small Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs.markdown`
+**Topic**: Sizing the propulsion and power system of a small fixed-wing UAV, worked outward from the power-required master variable.
+**Article Number**: A118
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-02 (36 references; 445 lines)
+
+Standalone aerospace article and the fourth in the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion).
+Establishes the power-required master variable, where power is thrust times speed and thrust in level flight is drag, so the power to fly is the weight times the speed divided by the lift-to-drag ratio, and works through
+the drag polar and lift-to-drag ratio;
+propellers and efficiency via momentum theory, static thrust, and advance ratio, including the electric ducted fan;
+the thrust-to-weight and launch and climb case that usually sizes the powertrain, tying back to A114 and A116;
+electric propulsion (battery specific energy, brushless motor, the endurance equation, and the battery wall);
+combustion propulsion (two-stroke and Wankel, brake-specific fuel consumption, heavy fuel, range and endurance);
+altitude and available power (the density-altitude lapse of engine power and propeller thrust);
+endurance and range with reserves (endurance at the minimum-power speed, range at the best lift-to-drag speed for a propeller aircraft);
+a brief solar, hybrid, and fuel-cell note;
+jets and regimes beyond the propeller (turbojet and turbofan in scope; ramjet, scramjet, throttleable rocket, and rocket boost-glide named and declared out of regime);
+a worked example on the 25 kg series aircraft;
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+Real-UAV anchors RQ-7 Shadow (Wankel), ScanEagle (heavy-fuel piston), and RQ-20 Puma (electric).
+References A112, A114, and A116 via post_url.
+36 references across Reference, Related Post, and Research categories.
+445 lines.
+
 ### Three Audiences for an Operating System — Published
 
 **File**: `_posts/2026-05-22-three_audiences_for_an_operating_system.markdown`
@@ -565,7 +594,7 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A117 have been published.
+A79 through A119 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
