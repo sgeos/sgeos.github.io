@@ -9,73 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A124-P3 Publish "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs"
+**Task**: A125-P3 Publish "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" (capstone)
 
 ---
 
 ## Verification
 
-### A124 Published
+### A125 Published
 
-A124 "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" published at `_posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-07 09:00:00 +0000`. 320 lines. 23 references across Reference (17), Related Post (4), and Research (2) categories. Standalone aerospace analytical article and the ninth in the fixed-wing-UAV set. References A114, A116, A120, and A122 via `post_url`.
+A125 "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" published at `_posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-08 09:00:00 +0000`. 333 lines. 29 references across Reference (21), Related Post (4), and Research (4) categories. Standalone aerospace analytical article and the capstone of the fixed-wing-UAV set. References A114, A116, A123, and A124 via `post_url`.
 
 ### Framing
 
-The article is framed around the energy the aircraft still carries at touchdown, absorbed over a stroke, so that the deceleration is the energy divided by the stroke, the same energy-and-stroke relation the launch-and-recovery article used to size a catapult or a net, now applied to the wheel, the skid, the hull, the canopy, and the crushable nose. Energy bleeding on the approach sits upstream and sets how much energy arrives.
+The article is framed around a single idea, that every loop drives to zero the error between the state the aircraft is commanded to hold and the state it is estimated to be in, so navigation supplies the estimate, guidance supplies the command, and control nulls the difference, the loops nested by bandwidth with the automatic landing as the tightest. The total energy control system is presented as the real-time version of the energy budget the whole series has tracked.
 
 ### Scope Covered
 
-The touchdown energy and the stroke; wheels and landing gear (retractable versus fixed, layout, the oleo strut, recoil damping and bounce, frangible and sacrificial gear, the spin-up and side loads that size the leg, and the gear-up fallback); skids and the surface variants of skis and tundra tires; water landings (floatplane, flying boat, planing, ditching, porpoising); drogue and main parachutes with the residual touchdown energy taken by an airbag or crush; deliberate impact into terrain or water for an expendable vehicle; energy bleeding by spoilers, slips, S-turns, and the flare; scale; and a worked example.
+The nested loops with their bandwidth separation and digital sample rates; navigation by GNSS and INS fused in a Kalman filter, with air data, RTK, initialization, and the GNSS-denied vision fallback; guidance by waypoints and the cross-track look-ahead law; wind and the ground track; energy management by the total energy control system; the approach and automatic landing with the automatic-takeoff bookend; the degraded modes when a sensor or link fails; the small-UAV autopilot and the autonomy spectrum; and a worked example.
 
-### Complementarity and the Aerobraking Distinction
+### Series Completion
 
-The article complements rather than duplicates the launch-and-recovery article, which owns the recovery devices, by focusing on the landing-gear subsystem, the surface interface, the terminal energy absorption, and the pre-touchdown bleeding. Per the pilot's pre-draft question, true aerobraking is named as an orbital maneuver that does not apply to an air-breather, and the boost-glide, ramjet, and scramjet case is framed as thermally limited atmospheric deceleration that must be bled gently rather than aggressively, tying the staged-propulsion thermal wall.
+A125 is the capstone. The fixed-wing-UAV set is now a complete ten-article arc: A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown, and A125 guidance, navigation, and automatic landing. The conclusion ties them together as one energy budget and one error driven to zero. No further sequels are flagged; any continuation (the communications and command-and-control data link, structures and the flight envelope, payload and mission systems, or the regulatory and operations layer) would be an unflagged extension.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 23 of 23 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with the US Naval Academy seaplane-operations PDF accessible, the MDPI crashworthiness paper retained as a documented 403-to-curl source, and a decommissioned seaplane-design PDF dropped. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
+Reference integrity confirmed at 29 of 29 anchors defined and used, zero missing and zero unused, alphabetized within each category. External URLs verified, with all 21 Wikipedia URLs and all four research sources (NASA Total Energy Control System flight test, the University of Washington waypoint-guidance paper, and the ArduPilot automatic-landing and automatic-takeoff documentation) accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/07/, MathJax is included, the A114 and A116 and A120 and A122 `post_url` links resolve, all 23 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/08/, MathJax is included, the A114 and A116 and A123 and A124 `post_url` links resolve, all 29 reference links render, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs
+New Blog Post: Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs
 
-The runway article sized the ground roll and the launch-and-recovery article catalogued the devices that catch an aircraft out of the air. This article takes up the surface itself, the landing gear and the other interfaces that meet the ground or the water, and how the last of the aircraft's energy is absorbed there. The deceleration, and the load the airframe and payload must survive, is that energy divided by the stroke the interface provides.
+The dynamics article sized the inner loop that holds an attitude. This capstone takes up the outer loop on top of it, the guidance, navigation, and control that decides where the aircraft should go, works out where it actually is, and closes the gap, all the way to an automatic landing. One idea runs through it, that every loop drives an error to zero, the gap between where the aircraft is estimated to be and where it is commanded to be.
 
 Key takeaways:
-- Every interface is a way of providing a stroke, and a short stroke is a hard landing, so a wheel on a long oleo leg lands softly, a skid lands harder, water lands sharply, a parachute and airbag land gently, and a crushable nose lands once.
-- Retractable gear trades cruise drag for weight and a failure mode, the oleo strut converts the sink energy to heat and checks the bounce, and the leg is sized by spin-up and side loads as much as by the sink.
-- Water punishes a poor attitude through porpoising, a drogue stages a high-speed descent into a survivable main, and an expendable vehicle can take the ground on purpose with a crushable structure.
-- True aerobraking is an orbital maneuver, not an air-breather technique, and a boost-glide or scramjet vehicle bleeds energy gently and high because braking hard turns kinetic energy straight into heat.
+- Navigation builds an estimate by fusing a drifting inertial solution with a bounded satellite fix, guidance turns a route into a commanded heading and a total-energy target, and control flies it, the loops nested by speed.
+- The total energy control system manages the same energy budget the whole series tracked, the throttle setting total energy and the elevator distributing it between speed and height.
+- The automatic landing is the tightest loop, where the tolerated error shrinks to zero just as the ground arrives, and the lateral accuracy at the threshold is the dispersion the runway width must hold.
+- The whole stack now runs on an open board no larger than a hand, which is why an autonomous fixed-wing UAV is ordinary rather than exotic, and this completes the ten-article series from foam-and-glass airframe to self-landing aircraft.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/07/landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/08/guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.html
 
-#UAV #FixedWing #Aerospace #LandingGear #Touchdown #Seaplane #Parachute #Crashworthiness
+#UAV #FixedWing #Aerospace #GNC #Autopilot #AutomaticLanding #Navigation #ArduPilot
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-07 publication date is as intended. A124 extends the fixed-wing-UAV set one day after A123.
-- Optionally request schematic diagrams (the oleo-strut load-stroke curve, the seaplane hull and the step, the drogue-and-main staging, and the crushable-structure force-displacement curve), which are the one improvement that cannot be added in text and would require image assets.
-- The natural remaining sequel is the outer loop, guidance, navigation, and automatic landing, which several articles in the set have deferred and which would fly the approach this article receives physically.
+- Confirm the 2026-06-08 publication date is as intended. A125 is the capstone, one day after A124, and completes the set.
+- Optionally request schematic diagrams (the nested-loop block diagram, the GNSS-and-INS fusion picture, the cross-track look-ahead geometry, and the glideslope-and-flare profile), which are the one improvement that cannot be added in text and would require image assets.
+- The fixed-wing-UAV series is complete. Possible unflagged extensions, if desired later, are the communications and command-and-control data link, structures and the flight envelope, payload and mission systems, and the regulatory and operations layer.
 
 ---
 
 ## Notes
 
-- Next available article number: A125.
+- Next available article number: A126.
 - 0 release candidates.
-- 0 new drafts. A108 through A124 published.
+- 0 new drafts. A108 through A125 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A124.
-- A124 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown). No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A124 process-file deltas were staged in `tmp/a124/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A125.
+- The fixed-wing-UAV set is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125). No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A125 process-file deltas were staged in `tmp/a125/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.

@@ -8,43 +8,43 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A124 (Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs)
+**Name**: Publish A125 (Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs)
 **Status**: Complete (Published)
 **Started**: 2026-05-31
 
 ## Success Criteria
 
-- [x] A124 "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" researched and written as the landing-gear-and-touchdown entry in the fixed-wing-UAV set, complementing the runway and recovery articles.
-- [x] Framed around the touchdown energy absorbed over a stroke, n = v^2/(2 g0 d), the energy-and-stroke idea of the recovery article applied to the final surface interface.
-- [x] Wheels and landing gear covered (retractable versus fixed drag-and-weight trade, tricycle and conventional layout, the oleo strut as gas spring and oil damper, recoil damping and bounce, frangible and sacrificial gear, spin-up and side gear loads, gear-up fallback).
-- [x] Skids covered (sacrificial skids, friction stroke, surface variants of skis and tundra tires).
-- [x] Water landings covered (floatplane, flying boat, planing and the step, ditching, porpoising).
-- [x] Drogue and main parachutes covered (drogue-before-main staging, residual touchdown energy taken by an airbag or crush, cross-referencing the recovery article).
-- [x] Deliberate impact covered (intentional lithospheric and hydrospheric intersection, crushable crashworthy structure for expendable vehicles).
-- [x] Energy bleeding before touchdown covered (spoilers, forward slip, S-turns, flare), with the honest distinction that true aerobraking is an orbital maneuver while a boost-glide or ramjet or scramjet vehicle does thermally limited atmospheric deceleration.
-- [x] Scale and the UAV case, and a worked example (sink-rate, parachute, and deliberate-impact loads set by the stroke).
-- [x] References A114, A116, A120, and A122 via post_url.
-- [x] Reference integrity confirmed (23 refs, 0 unused, 0 missing).
+- [x] A125 "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" researched and written as the capstone outer-loop entry in the fixed-wing-UAV set, taking up the outer loop A123 set up.
+- [x] Framed around the feedback loop that drives the error between the commanded state (guidance) and the estimated state (navigation) to zero, nested by bandwidth, with the automatic landing as the tightest loop.
+- [x] The nested loops covered (inner attitude, outer guidance, mission, bandwidth separation, digital sample rates and latency).
+- [x] Navigation covered (GNSS, INS/IMU, dead reckoning, Kalman fusion, air data, RTK, initialization, GNSS-denied vision).
+- [x] Guidance covered (waypoints, cross-track error, the look-ahead path-following law) and wind and the ground track (crab, wind triangle, the small-UAV case).
+- [x] Closing the loop with energy via the total energy control system (the real-time version of the series' energy budget).
+- [x] The approach and automatic landing covered (glideslope, flare, RTK/radar-altimeter/vision, touchdown dispersion tied to the runway width), plus the automatic-takeoff bookend.
+- [x] When the loop breaks covered (GNSS loss, lost link, geofence, return-to-launch, redundancy, flight termination); scale and the UAV case (Pixhawk-class boards, ArduPilot/PX4); autonomy spectrum.
+- [x] Worked example (loop bandwidth separation, the cross-track law, the navigation error budget, the glideslope dispersion).
+- [x] References A114, A116, A123, and A124 via post_url; conclusion ties the whole set together.
+- [x] Reference integrity confirmed (29 refs, 0 unused, 0 missing).
 - [x] Style verified (no contractions, no em-dashes, no en-dashes in the body, no prose colons or semicolons; the only semicolon is the required console.log debug tag).
-- [x] Published with the 2026-06-07 date.
+- [x] Published with the 2026-06-08 date.
 
 ## Task Breakdown
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
-| A124-P1-T1 | Research and draft the article | Complete | Landing-gear-and-touchdown entry in the fixed-wing-UAV set. The touchdown energy and the stroke; wheels and landing gear; skids; water landings; drogue and main parachutes; deliberate impact; energy bleeding with the aerobraking distinction; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A114, A116, A120, and A122 via post_url. 22 references. Complements rather than duplicates the recovery article. |
-| A124-P2-T1 | Completeness pass | Complete | Added gear loads beyond the vertical sink (wheel spin-up drag and crabbed-touchdown side load), a bounce-and-recoil-damping clause on the oleo strut, a surface-variant note (skis for snow and tundra tires for rough ground), a gear-up-landing fallback clause, and a directional-rollout and ground-loop cross-reference to the runway and control companions. 1 new reference (Tundra Tire) for 23 total. URL verified. |
-| A124-P3-T1 | Publish | Complete | Set date to 2026-06-07 09:00:00 +0000. Moved _drafts/landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown to _posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/07/, MathJax included, A114 and A116 and A120 and A122 post_url links resolved, all 23 reference links present, on index). 320 lines. |
-| A124-P3-T2 | Sync process files | Complete | draft_summary.md adds an A124 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A125. Committed and pushed; deploys via the Actions build. |
+| A125-P1-T1 | Research and draft the article | Complete | Capstone outer-loop entry in the fixed-wing-UAV set. The nested loops; navigation; guidance; closing the loop with energy (TECS); the approach and automatic landing; when the loop breaks; scale and the UAV case; worked example; Out of Scope. MathJax formulae. No runnable code, so no Software Versions section. References A114, A116, A123, and A124 via post_url. 27 references. |
+| A125-P2-T1 | Completeness pass | Complete | Added a "Wind and the Ground Track" section (airmass versus ground, crab, the wind triangle, the small-UAV case), an automatic-takeoff bookend, a latency-and-sample-rate note, an autonomy-spectrum clause, and a navigation-initialization clause. 2 new references (Wind Triangle and the ArduPilot automatic-takeoff documentation) for 29 total. URLs verified. |
+| A125-P3-T1 | Publish | Complete | Set date to 2026-06-08 09:00:00 +0000. Moved _drafts/guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown to _posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified with system Jekyll (renders at /aerospace/engineering/uav/2026/06/08/, MathJax included, A114 and A116 and A123 and A124 post_url links resolved, all 29 reference links present, on index). 333 lines. |
+| A125-P3-T2 | Sync process files | Complete | draft_summary.md adds an A125 Published entry and updates counts; TASKLOG.md and REVERSE_PROMPT.md updated; next available article number A126. The fixed-wing-UAV set is now complete. Committed and pushed; deploys via the Actions build. |
 
 ## Notes
 
-- Next available article number: A125.
+- Next available article number: A126.
 - 0 release candidates.
-- 0 new drafts. A108 through A124 published.
+- 0 new drafts. A108 through A125 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- A124 extends the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown). Standalone aerospace analytical article framed around the touchdown energy absorbed over a stroke; complements the runway and recovery articles. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
+- A125 is the capstone of the fixed-wing-UAV set (A112 airframe, A114 runway, A116 launch and recovery, A118 propulsion, A120 staged and boosted propulsion, A121 electric energy systems, A122 stability and control, A123 dynamic stability and control, A124 landing gear and touchdown, A125 guidance, navigation, and automatic landing). The ten-article set is now complete. Any further fixed-wing-UAV articles (communications and the C2 data link, structures and the flight envelope, payload and mission systems, the regulatory and operations layer) would be unflagged extensions rather than promised sequels. Standalone aerospace analytical article framed around the navigation-error-driven-to-zero feedback loop. No runnable code, so no Software Versions section. Full local bundle build is broken (gem environment); verified with system Jekyll (--future, scratch in tmp/). Deploy runs via GitHub Actions.
 
 ## History
 
@@ -189,3 +189,6 @@ Current task state and verification log. This file is the shared source of truth
 | 2026-05-31 | A124-P1: "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" researched and written in _drafts/ as the ninth entry in the fixed-wing-UAV set, complementing the runway and recovery articles. Framed on the touchdown energy absorbed over a stroke. Wheels and gear (retractable/fixed, oleo, frangible); skids; water landings; drogue and main parachutes; deliberate impact; energy bleeding with the aerobraking distinction; scale; worked example. 22 references. Cross-links A114, A116, A120, A122 via post_url. Process files held (draft only); deltas staged in tmp/a124/. |
 | 2026-05-31 | A124-P2: Completeness pass. Added gear loads beyond the vertical sink (spin-up drag, side load), a bounce/recoil-damping clause, a surface-variant note (skis, tundra tires), a gear-up-landing fallback, and a ground-loop cross-reference. 1 new reference (Tundra Tire) for 23 total. URL verified. |
 | 2026-05-31 | A124-P3: Published A124 "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs" (2026-06-07 date, 320 lines, 23 refs). Moved to _posts/2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A114/A116/A120/A122 post_url links resolve, all reference links present, on index). Process files synced. Committed and pushed; deploys via the Actions build. |
+| 2026-05-31 | A125-P1: "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" researched and written in _drafts/ as the capstone of the fixed-wing-UAV set, taking up the outer loop A123 set up. Framed on the feedback loop driving the error between the navigation estimate and the guidance command to zero, nested by bandwidth, autoland as the tightest loop. Nested loops; navigation (GNSS/INS/Kalman); guidance (waypoints, cross-track, look-ahead law); total energy control; the approach and automatic landing; failure modes; scale (Pixhawk/ArduPilot); worked example. 27 references. Cross-links A114, A116, A123, A124 via post_url. Process files held (draft only); deltas staged in tmp/a125/. |
+| 2026-05-31 | A125-P2: Completeness pass. Added a "Wind and the Ground Track" section (crab, wind triangle, small-UAV case), an automatic-takeoff bookend, a latency-and-sample-rate note, an autonomy-spectrum clause, and a navigation-initialization clause. 2 new references (Wind Triangle, ArduPilot automatic-takeoff) for 29 total. URLs verified. |
+| 2026-05-31 | A125-P3: Published A125 "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs" (2026-06-08 date, 333 lines, 29 refs). Moved to _posts/2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs.markdown via mv (untracked file, git mv not applicable). Build verified (renders, MathJax included, A114/A116/A123/A124 post_url links resolve, all reference links present, on index). Capstone of the fixed-wing-UAV set; the ten-article set is now complete. Process files synced. Committed and pushed; deploys via the Actions build. |
