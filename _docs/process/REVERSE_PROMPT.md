@@ -9,19 +9,31 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A115-P3 Publish "Keleusma as a Substrate for a Real-Time Hypermedia Desktop" backdated to 2026-05-24
+**Task**: A117-P1 Publish "Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop"
 
 ---
 
 ## Verification
 
-### A115 Published
+### A117 Published
 
-A115 "Keleusma as a Substrate for a Real-Time Hypermedia Desktop" published at `_posts/2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop.markdown` with front-matter date `2026-05-24 09:00:00 +0000`. 1,701 lines. 45 references across Reference (38), Related Post (5), and Research (1) categories.
+A117 "Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop" published at `_posts/2026-05-25-human_spaceflight_ground_systems_as_illustrative_vertical.markdown` with front-matter date `2026-05-25 09:00:00 +0000`. 1,944 lines. 40 references across Reference (37), Related Post (2), and Research (1) categories.
 
 ### Backdating
 
-The article is dated 2026-05-24 per the human pilot's explicit instruction. The chosen date slots between A113 (2026-05-23) and A114 (2026-05-31), keeping the Keleusma follow-up immediately adjacent to its parent article. Article number A115 is preserved, consistent with POST_STRUCTURE.md's policy that out-of-order article numbering relative to publication date is acceptable.
+The article is dated 2026-05-25 per the human pilot's explicit instruction. The chosen date slots between A115 (2026-05-24) and A114 (2026-05-31) in chronological order, keeping the BTRON-hypermedia trilogy adjacent and ahead of A114's aerospace article. Article number A117 is preserved, consistent with POST_STRUCTURE.md's policy that out-of-order article numbering relative to publication date is acceptable. A116 is reserved for the other session.
+
+### Illustrative-Vertical Framing
+
+The article's title and opening explicitly state that human spaceflight ground systems are an illustrative vertical chosen for the breadth of the Apollo reference and the public availability of contemporary extrapolations. Other regulated verticals (medical imaging, intelligence analysis, regulatory submission, industrial control) are named as alternatives that would yield broadly similar mappings under A113's framework. The article does not commit to human spaceflight as the recommended first deployment.
+
+### Extrapolation Framing
+
+The article's "Extrapolation to Modern Requirements" section walks the reader from Apollo-era ground systems to contemporary crewed launch, on-orbit operations, and lunar return programs (Artemis, Lunar Gateway, Human Landing System, Commercial Crew Program, ISS Multilateral Coordination). The framing is that the Apollo solution prefigures the contemporary one; the substantive deltas are higher data rates, commercial and international participation, the FAA Part 450 regulatory framework, ITAR export control, and persistent operations.
+
+### Research
+
+A parallel research agent verified 39 Apollo and contemporary human spaceflight ground systems URLs. 36 returned HTTP 200. The three that returned 403 (jpl.nasa.gov DSN, vandenberg.spaceforce.mil, and columbia.edu) are documented bot-detection patterns valid for human browsers. One Wikipedia URL (Mission_Operations_Control_Room) returned 404 in URL verification and was corrected to the Christopher_C._Kraft_Jr._Mission_Control_Center entry that subsumes it.
 
 ### Build Verification
 
@@ -31,32 +43,31 @@ Local Jekyll build remains broken in this environment (gem environment issue, do
 
 ## Release Announcement
 
-New Blog Post: Keleusma as a Substrate for a Real-Time Hypermedia Desktop
+New Blog Post: Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop
 
-A113 laid out the design space for a real-time hypermedia desktop in the BTRON lineage. The architectural sketch was substrate-agnostic and named candidate components for ten layers without proposing a language in which those components compose. This article asks the next question. Keleusma, a small verifier-strict total functional stream processor that compiles to bytecode and runs on a stack-based virtual machine in no_std plus alloc environments, supplies several properties A113 identified as load-bearing for a real-time hypermedia desktop. The article maps Keleusma V0.2.0 and the public V0.5+ roadmap onto A113's six structural commitments of the hypermedia object model, five engineering commitments for real-time hypermedia composition, and ten-layer architectural sketch.
+A113 mapped the design space for a real-time hypermedia desktop in the BTRON lineage. A115 assessed Keleusma as the language-level substrate. Both articles deferred the choice of vertical to a follow-up. This article is that follow-up. It uses human spaceflight ground systems in the Apollo lineage as an illustrative vertical, lampshaded as such in the title and opening, with explicit extrapolation guidance to modern crewed launch and on-orbit operations. The vertical is an illustration, not a product recommendation; other regulated verticals would yield broadly similar mappings.
 
 Key takeaways:
-- The five-commitment scorecard for real-time hypermedia engineering is four strong fits and one partial fit. This is the strongest area of alignment between Keleusma and the A113 thesis.
-- The six-commitment scorecard for the hypermedia object model is four strong fits, one partial fit, and one mismatch. The mismatch (links as first-class objects) is a clean engineering addition rather than a structural obstacle.
-- The ten-layer scorecard is two strong fits, five partial fits, and three mismatches. The mismatches concentrate in the layers that depend on the contemporary graphics and editor ecosystems.
-- Five layers of additional engineering would produce a credible vertical hypermedia operating system on Keleusma. The vertical choice itself, the detailed link store design, and the certification path are deferred to separate follow-up posts.
-
-The article includes five verified Keleusma code samples for the load-bearing claims, three scorecard summary tables, and an explicit Out of Scope section.
+- The Apollo program is the canonical worked example. Mission Operations Control Room, the Real-Time Computer Complex on IBM System/360 Model 75 hardware, the Launch Control Center firing rooms, the Manned Space Flight Network, the Flight Rules and Mission Rules documents, the flight directors and the Apollo 13 anomaly response, the simulators, and the recovery forces all map onto the hypermedia model directly.
+- The extrapolation to contemporary requirements is straightforward. The Apollo paper procedures become typed hypermedia documents. The console hardware becomes typed handler modules under verified worst-case execution time. The paper signatures become Ed25519 module signatures. The mission rules become signed Keleusma modules.
+- The certification framework, namely NPR 7150.2, NASA-STD-8719.13, NPR 8705.2, FAA Part 450, and ITAR, provides authoritative requirements rather than asking the program manager to invent them.
+- The walkthrough includes eleven scenes from pre-launch shift report through post-flight review, six verified Keleusma code samples for the load-bearing claims, and an explicit Out of Scope section deferring the link store schema, the certification path, and the contractor selection to future posts.
 
 You can read the full article here:
-https://sgeos.github.io/keleusma/operating-systems/philosophy/2026/05/24/keleusma_as_substrate_for_real_time_hypermedia_desktop.html
+https://sgeos.github.io/hypermedia/operating-systems/philosophy/aerospace/2026/05/25/human_spaceflight_ground_systems_as_illustrative_vertical.html
 
-#Keleusma #BTRON #RTOS #Hypermedia #IFC #WCET #seL4 #Genode #LocalFirst #MCP #C2PA
+#Hypermedia #BTRON #Keleusma #Apollo #HumanSpaceflight #LaunchOperations #MissionControl #NASA #FAA #ITAR
 
 ---
 
 ## Notes
 
-- Next available article number: A116.
+- Next available article number: A118 (A116 reserved for the other session).
 - 0 release candidates.
-- 0 new drafts. A79 through A115 published.
+- 0 new drafts. A79 through A115 plus A117 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A115.
+- Published: A79 through A115 plus A117.
+- A117 is the vertical-specific follow-up to A113 and A115. The trilogy of BTRON hypermedia articles (A113, A115, A117) is now complete, occupying 2026-05-23 through 2026-05-25 in publication date. The detailed link store design, the certification path, and the contractor selection are deferred to future posts per the article's Out of Scope section.
+- All scratch is confined to project-local `tmp/` per recorded preference. A117 scratch (six verified .kel examples) is in `tmp/a117/`.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
-- All scratch is confined to project-local `tmp/` per recorded preference. A115 scratch (assessment plus five verified .kel examples) is in `tmp/a115/`.

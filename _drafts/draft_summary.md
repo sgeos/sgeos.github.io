@@ -18,6 +18,44 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop — Published
+
+**File**: `_posts/2026-05-25-human_spaceflight_ground_systems_as_illustrative_vertical.markdown`
+**Topic**: Vertical-specific follow-up to A113 and A115. Walks through human spaceflight ground systems in the Apollo lineage, lampshaded as an illustrative example vertical with explicit extrapolation guidance to modern crewed launch and on-orbit operations. Includes a Day-in-the-Launch-Operator's-Workflow walkthrough and six verified Keleusma code samples for the load-bearing claims.
+**Article Number**: A117
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-05-25 (40 references; 1,944 lines)
+
+Sections covered include
+The Apollo Reference (MOCR, RTCC on IBM System/360 Model 75, LCC and Firing Rooms, MSFN, NASCOM, Flight and Mission Rules, simulators, recovery, the flight directors and Apollo 13);
+Extrapolation to Modern Requirements (CCSDS, Commercial Crew Program, ISS Multilateral Coordination, Artemis and Human Landing System, FAA Part 450, NPR 7150.2 and NASA-STD-8719.13 and NPR 8705.2, ITAR);
+The Hypermedia Object Model in Launch Operations (six commitments with Apollo-to-hypermedia mapping table);
+Engineering Commitments in Launch Operations (five commitments with five Keleusma code samples and a mapping table);
+The Ten-Layer Architectural Sketch in Launch Operations (full table inheriting A115 verdicts and clarifying each layer's launch role);
+A Day in the Launch Operator's Workflow (eleven scenes from pre-launch shift report through post-flight review);
+Trust and Provenance;
+Certification and Regulatory Posture;
+Why This Vertical Is a Good Illustration (and where it is hard);
+Risks and Open Questions;
+Out of Scope (link store schema, certification path, contractor selection deferred to future posts);
+Conclusion.
+
+Six verified Keleusma code samples in `tmp/a117/`:
+01_countdown_sequencer.kel (loop main compiles to 260 bytes);
+02_telemetry_alarm.kel (Proprietary -> displayable bucket, returns 1);
+03_abort_decision.kel (Sensitive -> typed outcome, returns 2);
+04_abort_decision_reject.kel (same without declassify, compile-time reject);
+05_mission_rules.kel (const data registry, returns 300);
+06_signed_flight_rules.kel (signed entry function compiles to 232 bytes).
+
+References:
+40 references across Reference (37), Related Post (2), and Research (1) categories.
+All inline-linked per project style.
+A113 and A115 cited via post_url.
+Apollo-era and contemporary primary sources verified by a parallel research agent.
+No internal Keleusma research cited.
+
 ### Keleusma as a Substrate for a Real-Time Hypermedia Desktop — Published
 
 **File**: `_posts/2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop.markdown`
