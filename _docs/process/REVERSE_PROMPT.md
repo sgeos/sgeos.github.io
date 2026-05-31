@@ -8,50 +8,59 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-05-30
-**Task**: A112-P2 Publish "Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass"
+**Date**: 2026-05-31
+**Task**: A113-P5 Publish "BTRON, Hypermedia, and the Real-Time Desktop" backdated to 2026-05-23
 
 ---
 
 ## Verification
 
-### A112 Published
+### A113 Published
 
-A112 "Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass" published at `_posts/2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass.markdown` (date `2026-05-30 09:00:00 +0000`, 16 references).
+A113 "BTRON, Hypermedia, and the Real-Time Desktop" published at `_posts/2026-05-23-btron_hypermedia_and_real_time_desktop.markdown` with front-matter date `2026-05-23 09:00:00 +0000`. 4,166 lines. 149 references across Book (4), Reference (118), Related Post (2), and Research (25) categories.
 
-The article already carried the requested `2026-05-30` date, so no content edit was needed. The `git mv` was done manually because `_publish.sh` fails under the macOS BSD `sed`. The article is standalone, with no post_url cross-links.
+### Backdating
 
-### Build Verified
+The article is dated 2026-05-23 per the human pilot's explicit instruction. The chosen date pre-dates A108 through A112, which carry dates 2026-05-26 through 2026-05-30. The article number A113 is preserved, consistent with POST_STRUCTURE.md's policy that "unpublished drafts may be published tactically, which can result in slightly out-of-order article numbers relative to publication date. This is acceptable."
 
-The full site builds with no errors. A112 renders at its category path with MathJax included and appears on the index. The article was committed and pushed; the GitHub Actions build deploys it live.
+### Light Editorial Polish
+
+One sentence in the opening paragraph (the ITRON deployment statement) was tightened. No other sections required editing; the four-pass authoring cycle produced consistently careful prose.
+
+### Build Verification
+
+Local Jekyll build remains broken in this environment (gem environment issue, documented in earlier history entries). Build verification depends on the GitHub Actions deployment pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass
+New Blog Post: BTRON, Hypermedia, and the Real-Time Desktop
 
-Iterating on an airframe is slow with balsa or molds. Printing the geometry in a foaming lightweight-PLA filament and laminating a thin fiberglass skin turns airframe prototyping into a fast software loop while keeping the weight and strength flight demands. This article covers the materials, the method, the one-to-two-meter wingspan sweet spot, and how the same approach extends to copters, boats, and ground vehicles.
+In 1984 Ken Sakamura proposed a family of operating systems that took two ideas seriously at once. The first, real-time discipline for an interactive computer, matured into ITRON and is presently invisible in billions of embedded devices. The second, the typed-part-and-typed-link hypermedia desktop, matured into BTRON and is presently a footnote.
+
+This article surveys the asymmetry, diagnoses why the hypermedia half lost, examines what other systems have occupied the niche since, and asks who would benefit if a successor existed. It includes a concrete architectural sketch for a 2026 hypermedia operating system, a seven-scene user-journey walkthrough through an aerospace safety analyst's working day, and an explicit Out-of-Scope section that catalogs what the article does not cover.
 
 Key takeaways:
-- The print delivers complex geometry without tooling, the foaming filament keeps it light, and the glass skin turns the light shell into a stressed-skin structure.
-- One to two meters is the sweet spot. Below a meter the low Reynolds number degrades the airfoil; above two meters the square-cube law and the build labor grow faster than the benefit.
-- The method generalizes to other unmanned vehicles in proportion to how much each cares about weight, most for aircraft and least for land vehicles.
+- The hypermedia model is the right answer for a small, well-funded population in regulated industries, namely defense, aerospace, intelligence, regulated medicine, and certain supervisory functions.
+- The market gap is real and persistent. The Palantir products, Veeva Vault, the engineering-lifecycle tools, and the legal e-discovery and document-management incumbents each cover part of the design space, none covers all of it.
+- The contemporary AI ecosystem (RAG, Model Context Protocol, structured output, C2PA, and regulatory provenance requirements) sharpens the case for a hypermedia substrate rather than weakening it.
+- The viable entry strategies are vertical-first, internal-program, acquisition-path, or sponsored-standards. The general-purpose-platform strategy has failed every time it has been tried.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/3d-printing/2026/05/30/prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass.html
+https://sgeos.github.io/operating-systems/history/philosophy/2026/05/23/btron_hypermedia_and_real_time_desktop.html
 
-#RCAircraft #3DPrinting #LWPLA #Fiberglass #UAV #Aerospace #Prototyping #ReynoldsNumber
+#BTRON #TRON #RTOS #Hypermedia #OperatingSystems #QNX #Plan9 #seL4 #Genode #LocalFirst #MCP #C2PA #ToolsForThought
 
 ---
 
 ## Notes
 
-- Next available article number: A113.
+- Next available article number: A114.
 - 0 release candidates.
-- 0 new drafts.
+- 0 new drafts. A79 through A113 published.
 - 0 stubs.
-- Eight pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A112.
+- Eight long-standing pre-release candidate drafts remain awaiting human verification.
+- Published: A79 through A113.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
 - All scratch is confined to project-local `tmp/` per recorded preference.
