@@ -18,6 +18,34 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### The Money Behind an SBIR or STTR Award — Published
+
+**File**: `_posts/2026-06-23-money_behind_an_sbir_or_sttr_award.markdown`
+**Topic**: The cost proposal, direct and indirect costs, the indirect rate, compliant accounting, and the cash flow that decide whether a company that won an award can survive it; the ninth article of the SBIR/STTR practitioner-playbook series, the one with arithmetic.
+**Article Number**: A140
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-23 (18 references)
+
+Standalone article and the ninth of the SBIR/STTR practitioner-playbook series, the one with arithmetic.
+Framed on the idea that the award is a fixed pot and the company must justify it in a compliant budget, account for it in a way the government accepts, and finance the gap between spending it and being paid.
+Sections covered include
+the cost proposal (justify every dollar, fit the cap, match the work plan, evaluated for reasonableness, the agency budget format);
+direct and indirect costs (the fringe, overhead, and general-and-administrative pools, equipment title);
+the indirect rate (rate equals the indirect pool over an allocation base, the loaded-cost chain, provisional versus negotiated rates, the true-up risk);
+fee and the two contract types (cost-reimbursement with a fee, fixed-price, grants without fee, no cost share);
+compliant accounting (segregation, timekeeping, the Defense Contract Audit Agency, proportionate standards);
+allowable and unallowable costs (the cost principles);
+cash flow, the quiet killer (the lag and the gap, burn rate and runway, outside financing and the line of credit and factoring);
+a note on assistance funds;
+common money mistakes;
+scale and the UAV case;
+and an Out of Scope section.
+mathjax true, with the indirect-rate and loaded-cost relations, the one article in the series with arithmetic.
+No runnable code, so no Software Versions section.
+Cross-links A136 (the Phase I proposal), A137 (Phase II), A138 (Phase III), and A112 (the running-case company) via post_url; the compliance and strategy articles are referenced in prose pending A141 and A142.
+18 references across Reference (11), Related Post (4), and Research (3) categories.
+
 ### Data Rights and Intellectual Property in SBIR and STTR — Published
 
 **File**: `_posts/2026-06-22-data_rights_and_intellectual_property_for_sbir_and_sttr.markdown`
@@ -1187,12 +1215,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A139 have been published.
+A79 through A140 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A139 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, and data rights and intellectual property through the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A140 (the money) is next.
+A132 through A140 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, and the money through compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A141 (after the award, compliance and reporting) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 

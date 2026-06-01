@@ -9,73 +9,69 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-06-01
-**Task**: A139-P3 Publish "Data Rights and Intellectual Property in SBIR and STTR" (eighth article of the SBIR/STTR practitioner-playbook series)
+**Task**: A140-P3 Publish "The Money Behind an SBIR or STTR Award" (ninth article of the SBIR/STTR practitioner-playbook series)
 
 ---
 
 ## Verification
 
-### A139 Published
+### A140 Published
 
-A139 "Data Rights and Intellectual Property in SBIR and STTR" published at `_posts/2026-06-22-data_rights_and_intellectual_property_for_sbir_and_sttr.markdown` with front-matter date `2026-06-22 09:00:00 +0000`. 16 references across Reference (9), Related Post (5), and Research (2) categories. The eighth article of the SBIR/STTR practitioner-playbook series, its crown-jewel article, in the business/funding/sbir category. References A132, A134, A136, A138, and A112 via `post_url`.
+A140 "The Money Behind an SBIR or STTR Award" published at `_posts/2026-06-23-money_behind_an_sbir_or_sttr_award.markdown` with front-matter date `2026-06-23 09:00:00 +0000`. 18 references across Reference (11), Related Post (4), and Research (3) categories. The ninth article of the SBIR/STTR practitioner-playbook series, the one with arithmetic, in the business/funding/sbir category. References A136, A137, A138, and A112 via `post_url`.
 
 ### Framing
 
-The article is the crown jewel of the series, because the intellectual property a company retains is the asset the non-dilutive funding was meant to build. One idea organizes it, that the government funds the work but the company keeps the inventions and the technical data, so the program is non-dilutive not only in equity but in intellectual property, and the retained ownership is what makes the company sellable, investable, and the only place a government customer can buy the result. The corollary is the warning that these rights are kept only by guarding them, since they can be given away in a subcontract, lost by failing to mark a document, or eroded by mixing the funding that paid for the work.
+The article is about the three things that decide whether an award is worth having, the cost proposal that fits the work into the dollars, the indirect rate that decides how much of the award actually reaches the work, and the cash flow that determines whether a company that won an award can survive it. One idea organizes it, that the award is a fixed pot and the company must justify it in a compliant budget, account for it in a way the government will accept, and finance the gap between spending it and being paid. It is the one article in the series with arithmetic, because the indirect rate is a number and it matters.
 
 ### Scope Covered
 
-The two bodies of rights, patents and data rights, and the STTR allocation with the research institution; patent rights under Bayh-Dole, with the election clock and the manufacturing preference; the SBIR data rights and the protection period; marking as the act that preserves the rights, with conformance and challenge; the categories of rights; the government-keeps and company-keeps balance; the threats including open-source code; how the rights create value; scale and the UAV case; and Out of Scope.
-
-### Honesty on the Protection Period
-
-The protection period is stated as historically four years from the completion of the project and since lengthened by the policy directive, with the current term to be read from the directive, since the exact number changes with the directive and could not be asserted with confidence. The data-rights regime is attributed to the policy directive and the acquisition regulations as the authority.
+The cost proposal; direct and indirect costs and the pools; the indirect rate with its rate-equals-pool-over-base relation and its loaded-cost chain, the provisional-versus-negotiated distinction, and the true-up risk; fee and the two contract types and the absence of a cost-share requirement; compliant accounting and the audit standard; allowable and unallowable costs; cash flow with the line of credit and factoring as bridges; the assistance funds; common money mistakes; scale and the UAV case; and Out of Scope.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 16 of 16 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The nine Reference Wikipedia URLs and the two Research systems were verified accessible. A standalone March-in rights article was not found, so march-in is described within the Bayh-Dole treatment. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag, and mathjax is false because the article has no equations.
+Reference integrity confirmed at 18 of 18 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The eleven Reference Wikipedia URLs and the three Research systems were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons outside the display-math blocks and the console.log debug tag, and mathjax is true because the indirect-rate and loaded-cost relations are quantitative. The fee limit, the rate mechanics, and the cost principles are stated as illustrative and current-as-of, with the cost regulations and the agency instructions named as authoritative, and the loaded-cost chain is flagged as illustrative since its application depends on the company's accounting structure.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/22/, the A132 and A134 and A136 and A138 and A112 `post_url` links resolve, all 16 reference links resolve, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/23/, MathJax is included, the A136 and A137 and A138 and A112 `post_url` links resolve, all 18 reference links resolve, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Data Rights and Intellectual Property in SBIR and STTR
+New Blog Post: The Money Behind an SBIR or STTR Award
 
-The Phase III article said the sole-source authority is valuable only because the company owns what it built. This article is the ownership itself, the crown jewel of the series, because the intellectual property a company retains is the asset the non-dilutive funding was meant to build.
+The earlier articles wrote the technical proposal and described the rights the company keeps, and they kept deferring the money. This article is the money, the three things that decide whether an award is worth having.
 
 Key takeaways:
-- The government funds the work but the company keeps the inventions and the technical data, so the program is non-dilutive in intellectual property as well as in equity.
-- The company elects title to its inventions under Bayh-Dole, on a clock whose deadlines it must meet, and it holds a strong but time-limited protection on its technical data and software.
-- That data protection is preserved only by marking, since data delivered without the proper legend can be treated as carrying unlimited rights, which is the most consequential and most avoidable loss in the whole program.
-- The rights are what make the Phase III sole-source position defensible and the company worth buying, so a company built on funded research treats them as the most valuable thing it owns.
+- The award is a fixed pot, and the company must justify it in a compliant budget, account for it in a way the government will accept, and finance the gap between spending it and being paid.
+- The indirect rate, the pool of overhead divided by a base, decides how much of a fixed award funds the work and how much covers the company, so a rate set too high prices the company out and one set too low starves it.
+- A compliant accounting system that segregates direct from indirect costs and survives an audit is a prerequisite for the cost-reimbursement awards, not an afterthought, and is real early work for a startup.
+- Cash flow is the quiet killer, since payment lags the work and a gap falls between phases, so a company can hold a two-million-dollar award and still miss a payroll unless it plans the cash and finances the receivable.
 
 You can read the full article here:
-https://sgeos.github.io/business/funding/sbir/2026/06/22/data_rights_and_intellectual_property_for_sbir_and_sttr.html
+https://sgeos.github.io/business/funding/sbir/2026/06/23/money_behind_an_sbir_or_sttr_award.html
 
-#SBIR #STTR #SmallBusiness #DataRights #IntellectualProperty #BayhDole #Funding
+#SBIR #STTR #SmallBusiness #IndirectRate #Accounting #CashFlow #Funding
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-22 publication date is as intended. A139 is the eighth article of the SBIR/STTR series, one day after A138.
-- A140 (the money, the cost proposal and indirect rates and cash flow) is next in the planned thirteen-article series.
-- Time-sensitive program facts, above all the data-rights protection period, must be re-verified against current law and the policy directive at each draft, since the program changes with reauthorization.
+- Confirm the 2026-06-23 publication date is as intended. A140 is the ninth article of the SBIR/STTR series, one day after A139.
+- A141 (after the award, the compliance, reporting, and audits) is next in the planned thirteen-article series.
+- Time-sensitive program facts, the fee limits and rate mechanics and cost principles, must be re-verified against current rules at each draft.
 
 ---
 
 ## Notes
 
-- Next available article number: A140.
+- Next available article number: A141.
 - 0 release candidates.
-- 0 new drafts. A108 through A139 published.
+- 0 new drafts. A108 through A140 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A139.
-- The SBIR/STTR practitioner-playbook series is underway in the new business/funding/sbir category. Published so far: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), A136 (the Phase I proposal), A137 (Phase II and the commercialization plan), A138 (Phase III and the valley of death), and A139 (data rights and intellectual property). Planned A132 through A144; A140 (the money) is next. United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A139 process-file deltas were staged in `tmp/a139/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A140.
+- The SBIR/STTR practitioner-playbook series is underway in the new business/funding/sbir category. Published so far: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), A136 (the Phase I proposal), A137 (Phase II and the commercialization plan), A138 (Phase III and the valley of death), A139 (data rights and intellectual property), and A140 (the money). Planned A132 through A144; A141 (after the award) is next. United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A140 process-file deltas were staged in `tmp/a140/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
