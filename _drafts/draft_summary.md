@@ -18,6 +18,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-12-aerobatic_maneuver_reference_catalog_for_fixed_wing_uavs.markdown`
+**Topic**: A reference catalog of 79 named aerobatic maneuvers, each classified in the A128 costed-trajectory model, alphabetical with stable family-prefixed IDs; the reference companion to A128.
+**Article Number**: A129
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-12 (32 references; 79 catalog rows)
+
+Standalone aerospace reference article and the fourth extension beyond the core fixed-wing-UAV arc, the reference companion to the A128 model.
+Written for the UAV operator and the autonomy, not the human pilot.
+A 79-row alphabetical catalog with a stable family-prefixed identifier per maneuver across twelve families (lines, turns, rolls, loops and eights, partial loops and combinations, stall turns, tailslides, spins, post-stall and supermaneuvers, three-dimensional and prop-hang figures, basic fighter maneuvers, composite or display).
+Columns are the identifier, the maneuver, the family, the spatiotemporal path, the energy-height behavior, the peak load class, and the regime ceiling with flags.
+Maneuver definitions are cited to the Aresti catalog, the world air sports federation, the International Aerobatic Club, the basic-fighter-maneuver repertoire, and Wikipedia where an article exists.
+The cost classification is forward-declared as an original, qualitative synthesis with three stated limitations, since no catalog tabulates the energy-height behavior, the load class, and the regime ceiling per maneuver.
+Sections covered include
+how to read the table;
+why the thermal cost is folded into the regime column;
+provenance and limitations;
+the catalog;
+maneuvers without a closed form (spins, snaps, the cobra, the Kulbit, the Herbst maneuver, the gyroscopic tumbles, and the three-dimensional and prop-hang figures, with what can still be said);
+parametric families;
+alternate names;
+using the catalog;
+reading a row in numbers (the break turn read into the corner-speed and load figures of the structures and model articles);
+Out of Scope;
+and a conclusion.
+MathJax enabled for the model symbols.
+No runnable code, so no Software Versions section.
+The honesty of the catalog rests on a clear division, the maneuver definitions sourced to the established catalogs and the cost classification offered as an original synthesis to be checked rather than as measured data.
+References A120, A123, A125, A127, and A128 via post_url.
+32 references across Book (1), Reference (26), and Related Post (5) categories.
+
 ### Aerobatics as Costed Trajectories for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-11-aerobatics_as_costed_trajectories_for_fixed_wing_uavs.markdown`
@@ -873,11 +906,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A128 have been published.
+A79 through A129 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
-A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), and A128 (aerobatics as costed trajectories) are the first three extensions beyond the core fixed-wing-UAV arc, A128 being the synthesis capstone of the extension set; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
+A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), and A129 (an aerobatic maneuver reference catalog, the reference companion to A128) are the first four extensions beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
