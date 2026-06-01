@@ -18,6 +18,34 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Finding a Topic and Reading an SBIR or STTR Solicitation — Published
+
+**File**: `_posts/2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr.markdown`
+**Topic**: Finding the topic or funding opportunity that matches a company's capability and reading the solicitation precisely, the bridge between eligibility and the proposal; the fourth article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A135
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-18 (16 references)
+
+Standalone article and the fourth of the SBIR/STTR practitioner-playbook series.
+Framed on the two tasks of the stage, finding the opportunity (a matching topic at a directed agency, fit within a broad area at an open one) and reading the solicitation as the contract for the competition.
+Sections covered include
+two kinds of looking;
+where the opportunities live (the cross-agency portal, the agency systems, the calendar);
+the anatomy of a solicitation, including tracking its amendments;
+reading a topic (the objective, deliverables, target technology readiness level, the dual-use expectation, the keywords, and the customer-pull letters to begin lining up);
+the pre-release window and talking to the agency (the directed-agency topic-author contact and the blackout versus the open-agency program-officer culture);
+is it a fit and is it winnable (past-award intelligence from the searchable awards record, and the teaming and STTR-partner commitment);
+reading for compliance (the cheapest loss, with the cost ceiling and period scoping the work);
+writing to the evaluation criteria;
+the open-agency path (the NSF project pitch, the NIH institute and funding opportunity);
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A133 (agency survey), A134 (eligibility), and A112 (the running-case company) via post_url.
+16 references across Reference (8), Related Post (4), and Research (4) categories.
+
 ### SBIR and STTR Eligibility and the Registration Stack — Published
 
 **File**: `_posts/2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr.markdown`
@@ -1049,12 +1077,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A134 have been published.
+A79 through A135 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132, A133, and A134 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, and eligibility and registration through the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A135 (finding a topic and reading a solicitation) is next.
+A132 through A135 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, and finding a topic and reading a solicitation through the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A136 (the Phase I proposal) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
