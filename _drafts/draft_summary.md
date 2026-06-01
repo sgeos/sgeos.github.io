@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Strategy and the Portfolio of SBIR and STTR Awards — Published
+
+**File**: `_posts/2026-06-25-strategy_and_the_portfolio_of_sbir_and_sttr_awards.markdown`
+**Topic**: The strategic view above the single award, the portfolio, transition versus the mill, stacking non-dilutive capital, the private-capital bridge, dual-use markets, and the discipline of choosing what to pursue; the eleventh article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A142
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-25 (20 references)
+
+Standalone article and the eleventh of the SBIR/STTR practitioner-playbook series.
+Framed on the idea that an award is a means and not an end, and that strategy is the discipline of using a portfolio of non-dilutive awards, staged against the risk reduction the whole series has tracked, to build a company that eventually no longer needs them, with the central choice between transition and the mill.
+Sections covered include
+the award is a means (the strategic frame);
+transition versus the mill (the central choice, the transition partner who pulls a technology across the valley of death, the sole-source Phase III as a positioned-for asset);
+the portfolio (diversification across agencies, topics, and customers, sequencing, parallel tracks, the proactive pipeline);
+stacking the capital (state matching funds, the assistance programs, layering non-dilutive sources);
+the private-capital bridge (venture capital, angels, seed, equity dilution, the majority-investor eligibility wrinkle, de-risking the technology for investors);
+the market beyond the government (dual-use, commercialization, the National Science Foundation seed fund);
+choosing what to pursue (opportunity cost, the distorting award);
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A134 (eligibility and the investor exception), A135 (the topic and solicitation), A137 (the commercialization plan), A138 (the valley of death), A140 (the money), and A112 (the running-case company) via post_url; the international-analogs article is referenced in prose pending A143.
+20 references across Reference (11), Related Post (6), and Research (3) categories.
+
 ### After the Award, Compliance and Reporting for SBIR and STTR — Published
 
 **File**: `_posts/2026-06-24-after_the_award_for_sbir_and_sttr.markdown`
@@ -1242,12 +1268,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A141 have been published.
+A79 through A142 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A141 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, the money, and after the award through strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A142 (strategy) is next, then A143 (international analogs) and A144 (the capstone) close the series.
+A132 through A142 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, the money, after the award, and strategy through international analogs and a worked-campaign capstone that reuses the fixed-wing UAV; A143 (international analogs) is next, then A144 (the capstone) closes the series.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
