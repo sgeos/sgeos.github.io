@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### SBIR and STTR Eligibility and the Registration Stack — Published
+
+**File**: `_posts/2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr.markdown`
+**Topic**: The two gates an applicant clears before any SBIR or STTR proposal, eligibility (what the company must be) and registration (getting it into the federal systems), with the registrations' lead time gating the calendar; the third article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A134
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-17 (21 references)
+
+Standalone article and the third of the SBIR/STTR practitioner-playbook series.
+Framed on the two gates before a proposal, eligibility as a property of the company true or false on the day it applies, and registration as a multi-week sequence of accounts and identifiers whose lead time gates the calendar.
+Sections covered include
+eligibility, what the company must be (small with affiliation, for-profit, United States, the five-hundred-employee standard versus the industry-code standards, not a socioeconomic set-aside);
+the ownership rules and the investor exception (more than half owned by United States individuals or small businesses, the venture, private-equity, and hedge-fund majority-ownership exception that is agency-specific);
+the principal investigator and the work (the SBIR primary-employment requirement, the STTR flexibility, the work splits, the United States place of performance);
+the performance benchmarks and the duplicate-funding and essentially-equivalent-work rule;
+national-security eligibility (the 2026 screening), the export-control neighbor, and the certification-and-fraud framing (False Claims Act exposure);
+the registration stack in order (Login.gov, the System for Award Management with the unique entity identifier and CAGE code, the program company registry and its control identifier, the agency portal);
+why the stack gates the calendar (validation can take weeks, annual renewal, the registration-is-free warning);
+scale and the small-company case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A133 (agency survey), and A112 (the running-case company) via post_url.
+21 references across Reference (13), Related Post (3), and Research (5, the live federal systems) categories.
+
 ### A Survey of the SBIR and STTR Agencies — Published
 
 **File**: `_posts/2026-06-16-survey_of_the_sbir_and_sttr_agencies.markdown`
@@ -1023,12 +1049,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A133 have been published.
+A79 through A134 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 and A133 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation and agency survey through eligibility, the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A134 (eligibility and the registration stack) is next.
+A132, A133, and A134 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, and eligibility and registration through the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A135 (finding a topic and reading a solicitation) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
