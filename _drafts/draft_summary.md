@@ -18,6 +18,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### The Regulatory and Operations Layer for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-14-regulatory_and_operations_layer_for_fixed_wing_uavs.markdown`
+**Topic**: The regulatory and operations layer above the engineering of a fixed-wing UAV, framed jurisdiction-neutrally on the principle that the authorization to operate is granted in proportion to demonstrated risk control, with kinetic energy as the physical proxy for harm; the sixth and final flagged extension.
+**Article Number**: A131
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-14 (41 references)
+
+Standalone aerospace article and the sixth and final flagged extension beyond the core fixed-wing-UAV arc, the layer above the engineering, with which the series and its extensions are now complete.
+The master variable is the authorization to operate, granted in proportion to the risk an operation poses and the control the operator can demonstrate, with the impact kinetic energy E_k = (1/2) m v^2 as the physical proxy for harm tying the regulatory categories to the mass and speed the series worked in.
+Explicitly jurisdiction-neutral, framed on the International Civil Aviation Organization and the Chicago Convention with the FAA, the European Union Aviation Safety Agency, the UK Civil Aviation Authority, the Civil Aviation Safety Authority, Transport Canada, and the Civil Aviation Administration of China named as examples, the thresholds presented as patterns that differ by state and change over time.
+Sections covered include
+regulation is jurisdictional;
+authorization proportionate to risk (the open, specific, and certified pattern, ground risk and air risk, the specific operations risk assessment);
+kinetic energy as the measure of harm;
+the axes of risk (mass, line of sight, over people, altitude, airspace);
+registration, identification, and competency with the autonomy-and-responsibility tension;
+airworthiness and the certified end;
+integrating with other traffic (segregated versus integrated, unmanned traffic management and U-space, detect and avoid, command-and-control reliability);
+the operations layer (concept of operations, crew, pre-flight planning, maintenance, training, the safety management system, just culture, independent accident investigation);
+contingency and containment (defined procedures, the geofence, flight termination, and command-link security as a regulatory concern);
+adjacent regimes (spectrum and the telecommunication union, export control, privacy and data protection, property rights, insurance, and noise);
+the boundary with space (the suborbital handoff to space law, the Outer Space Treaty, the Kármán line as a convention);
+scale and the UAV case;
+and an Out of Scope section.
+MathJax for the kinetic-energy relation.
+No runnable code, so no Software Versions section.
+The pilot's instruction that not everyone is in the USA is honored throughout, the article naming authorities from several continents, framing the specifics as patterns that vary and change, directing the reader to the governing authority, and drawing its three Research sources from the international bodies (the International Civil Aviation Organization, the European Union Aviation Safety Agency, and the Joint Authorities for Rulemaking on Unmanned Systems for the risk assessment).
+References A112, A125, A126, A127, and A130 via post_url.
+41 references across Reference (33), Related Post (5), and Research (3) categories.
+
 ### Payload and Mission Systems for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-13-payload_and_mission_systems_for_fixed_wing_uavs.markdown`
@@ -935,11 +967,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A130 have been published.
+A79 through A131 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
-A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), and A130 (payload and mission systems) are the first five extensions beyond the core fixed-wing-UAV arc; the one remaining unflagged extension, if desired later, is the regulatory and operations layer.
+A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
