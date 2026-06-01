@@ -9,69 +9,69 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-06-01
-**Task**: A136-P3 Publish "Writing the Phase I SBIR and STTR Proposal" (fifth article of the SBIR/STTR practitioner-playbook series)
+**Task**: A137-P3 Publish "Phase II and the Commercialization Plan for SBIR and STTR" (sixth article of the SBIR/STTR practitioner-playbook series)
 
 ---
 
 ## Verification
 
-### A136 Published
+### A137 Published
 
-A136 "Writing the Phase I SBIR and STTR Proposal" published at `_posts/2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr.markdown` with front-matter date `2026-06-19 09:00:00 +0000`. 20 references across Reference (12), Related Post (4), and Research (4) categories. The fifth article of the SBIR/STTR practitioner-playbook series, its proposal-craft core, in the business/funding/sbir category. References A132, A134, A135, and A112 via `post_url`.
+A137 "Phase II and the Commercialization Plan for SBIR and STTR" published at `_posts/2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr.markdown` with front-matter date `2026-06-20 09:00:00 +0000`. 20 references across Reference (11), Related Post (5), and Research (4) categories. The sixth article of the SBIR/STTR practitioner-playbook series, in the business/funding/sbir category. References A132, A133, A134, A136, and A112 via `post_url`.
 
 ### Framing
 
-The article is the craft at the center of the series. One idea governs it, that a Phase I proposal is an argument that the company can retire the feasibility risk of an idea, written to the evaluation criteria the solicitation published, by a team a reviewer will believe, with a commercial promise the agency can see. It is not a description of a finished product and not a free essay, it is a response to a request scored against a rubric, and the single most common way to lose is to forget that Phase I buys feasibility rather than a product and to overpromise.
+The article takes up what happens when the Phase I feasibility bet pays off. One idea organizes it, that Phase II is the step where the program stops asking whether the idea can work and starts asking whether it can become a product, so the money grows by an order of magnitude, the work turns from feasibility to development, and the commercialization plan stops being a closing paragraph and becomes a scored deliverable. A funded research result becomes a business at this stage or remains a research result, and the difference is largely the seriousness of the commercialization plan.
 
 ### Scope Covered
 
-What Phase I actually asks; the volumes and their shape, with the technical and cost volumes telling the same story, the project summary, the proprietary markings, and the page-limit boundary; the sections of the technical volume; the three scored criteria; writing the innovation; the work plan, including setting up Phase II; the team and past performance; the commercialization story; writing to the reviewer, including the internal red-team review; review, debrief, and resubmission; common ways to lose; scale and the UAV case; and Out of Scope.
+What Phase II builds; the gate from Phase I, the funding gap, Direct to Phase II, and that selection is not award; the Phase II proposal and the work-split limit; the commercialization plan as a business plan with documented commitments and a reporting obligation that feeds the eligibility benchmarks; transition versus market commercialization; extending Phase II through the enhancement, the sequential Phase II, and the commercialization readiness program; the funding gap and cash flow; common ways to lose; scale and the UAV case; and Out of Scope.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 20 of 20 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The twelve Reference Wikipedia URLs and the four Research systems (sbir.gov, the Defense SBIR/STTR Innovation Portal, the NIH grants guide, and the NSF America's Seed Fund) were verified accessible. The Phase II look-ahead is referenced in prose rather than by a post_url, since the Phase II article is not yet published. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag, and mathjax is false because the article has no equations.
+Reference integrity confirmed at 20 of 20 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The eleven Reference Wikipedia URLs and the four Research systems were verified accessible. Phase III and the money article are referenced in prose rather than by post_url, since those articles are not yet published. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag, and mathjax is false because the article has no equations.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/19/, the A132 and A134 and A135 and A112 `post_url` links resolve, all 20 reference links resolve, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/20/, the A132 and A133 and A134 and A136 and A112 `post_url` links resolve, all 20 reference links resolve, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Writing the Phase I SBIR and STTR Proposal
+New Blog Post: Phase II and the Commercialization Plan for SBIR and STTR
 
-The solicitation article ended with the company holding the right opportunity and understanding the rules under which it will be judged. This article is about the thing it now has to write, the Phase I proposal, the craft at the center of the whole series.
+The Phase I article wrote a proposal whose purpose was to retire an idea's feasibility risk. This article takes up what happens when that bet pays off, the Phase II award that builds on a proven concept, and the document that now moves to the center, the commercialization plan.
 
 Key takeaways:
-- A Phase I proposal is an argument that the company can retire an idea's feasibility risk, written to the evaluation criteria, by a team a reviewer will believe, with a commercial promise the agency can see.
-- Phase I buys feasibility, not a product, so the classic way to lose is to overpromise a finished system, and the proposal that fits states a crisp feasibility question and a believable plan to answer it.
-- The proposal is written to the three scored criteria in proportion, the technical merit, the qualifications, and the commercialization potential, since an unanswered criterion is points simply forfeited.
-- Most proposals lose, and the good applicant treats the first attempt as a draft, requests the debrief, and resubmits a sharper version, while an internal red-team read before submission catches what the author has gone blind to.
+- Phase II is where the program stops asking whether the idea can work and starts asking whether it can become a product, so it funds the development of a prototype and demands a commercialization plan that is a real business plan for the technology.
+- The plan names the market or the government user, the value proposition, the competition, and the path to revenue or transition, and it is believed when it rests on documented commitments rather than an assumed market.
+- The commercialization comes in two flavors, transition into a government user at a mission agency and market commercialization at a science agency, and a dual-use technology can pursue both.
+- A Phase II is a two-year business to be financed and not only a research project to be performed, so the company plans the cash across the gap and the award, and lines up the matching funds that can trigger an enhancement.
 
 You can read the full article here:
-https://sgeos.github.io/business/funding/sbir/2026/06/19/writing_the_phase_i_proposal_for_sbir_and_sttr.html
+https://sgeos.github.io/business/funding/sbir/2026/06/20/phase_ii_and_the_commercialization_plan_for_sbir_and_sttr.html
 
-#SBIR #STTR #SmallBusiness #Proposals #PhaseI #Feasibility #Funding
+#SBIR #STTR #SmallBusiness #PhaseII #Commercialization #Transition #Funding
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-19 publication date is as intended. A136 is the fifth article of the SBIR/STTR series, one day after A135.
-- A137 (Phase II and the commercialization plan) is next in the planned thirteen-article series, and once it is published the Phase II look-ahead in A136 can be turned into a post_url link if desired.
+- Confirm the 2026-06-20 publication date is as intended. A137 is the sixth article of the SBIR/STTR series, one day after A136.
+- A138 (Phase III and the valley of death) is next in the planned thirteen-article series. Once A138 and the money article A140 are published, the prose references to them in A136 and A137 can be turned into post_url links if desired.
 - Time-sensitive program facts must be re-verified against current law and the policy directive at each draft, since the program changes with reauthorization.
 
 ---
 
 ## Notes
 
-- Next available article number: A137.
+- Next available article number: A138.
 - 0 release candidates.
-- 0 new drafts. A108 through A136 published.
+- 0 new drafts. A108 through A137 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A136.
-- The SBIR/STTR practitioner-playbook series is underway in the new business/funding/sbir category. Published so far: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), and A136 (the Phase I proposal). Planned A132 through A144; A137 (Phase II and the commercialization plan) is next. United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A136 process-file deltas were staged in `tmp/a136/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A137.
+- The SBIR/STTR practitioner-playbook series is underway in the new business/funding/sbir category. Published so far: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), A136 (the Phase I proposal), and A137 (Phase II and the commercialization plan). Planned A132 through A144; A138 (Phase III and the valley of death) is next. United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A137 process-file deltas were staged in `tmp/a137/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
