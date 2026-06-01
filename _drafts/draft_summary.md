@@ -18,6 +18,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Phase II and the Commercialization Plan for SBIR and STTR — Published
+
+**File**: `_posts/2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr.markdown`
+**Topic**: The Phase II development award and the commercialization plan that becomes a first-class scored deliverable, the step where a funded research result becomes a business or remains a research result; the sixth article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A137
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-20 (20 references)
+
+Standalone article and the sixth of the SBIR/STTR practitioner-playbook series.
+Framed on the idea that Phase II is the step where the program stops asking whether the idea can work and starts asking whether it can become a product, so the money grows by an order of magnitude, the work turns from feasibility to development, and the commercialization plan becomes a scored deliverable.
+Sections covered include
+what Phase II builds (a prototype, the middle technology-readiness rungs, the base-and-option structure, the intellectual property);
+the gate from Phase I (the sequence, the funding gap, Direct to Phase II, selection is not award);
+the Phase II proposal (the shift of weight to commercialization, the work-split limit);
+the commercialization plan as a deliverable (a business plan, the market analysis, the value proposition, the competition, the go-to-market strategy, product-market fit, documented commitments such as a memorandum of understanding, and the reporting that feeds the eligibility benchmarks);
+transition versus market commercialization (the two agency cultures);
+extending Phase II and bridging toward Phase III (the enhancement, the sequential Phase II, the commercialization readiness program);
+the funding gap and cash flow;
+common ways to lose Phase II;
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A133 (agency survey), A134 (eligibility), A136 (the Phase I proposal), and A112 (the running-case company) via post_url; Phase III and the money article are referenced in prose pending A138 and A140.
+20 references across Reference (11), Related Post (5), and Research (4) categories.
+
 ### Writing the Phase I SBIR and STTR Proposal — Published
 
 **File**: `_posts/2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr.markdown`
@@ -1107,12 +1134,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A136 have been published.
+A79 through A137 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A136 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, and the Phase I proposal through Phase II and the commercialization plan, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A137 (Phase II and the commercialization plan) is next.
+A132 through A137 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, and Phase II and the commercialization plan through Phase III, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A138 (Phase III and the valley of death) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
