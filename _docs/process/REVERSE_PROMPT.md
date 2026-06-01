@@ -9,74 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A129-P3 Publish "An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs" (fourth extension, reference companion to A128)
+**Task**: A130-P3 Publish "Payload and Mission Systems for Fixed-Wing UAVs" (fifth extension)
 
 ---
 
 ## Verification
 
-### A129 Published
+### A130 Published
 
-A129 "An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs" published at `_posts/2026-06-12-aerobatic_maneuver_reference_catalog_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-12 09:00:00 +0000`. 32 references across Book (1), Reference (26), and Related Post (5) categories, and a 79-row catalog. Standalone aerospace reference article and the fourth extension beyond the core fixed-wing-UAV arc, the reference companion to the A128 model. References A120, A123, A125, A127, and A128 via `post_url`.
+A130 "Payload and Mission Systems for Fixed-Wing UAVs" published at `_posts/2026-06-13-payload_and_mission_systems_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-13 09:00:00 +0000`. 45 references across Reference (37), Related Post (6), and Research (2) categories. Standalone aerospace article and the fifth extension beyond the core fixed-wing-UAV arc. References A120, A121, A125, A126, A127, and A128 via `post_url`.
 
 ### Framing
 
-The article turns the costed-trajectory model of A128 into a reference, a catalog of the named and recognized maneuvers each classified by what it does to the energy state, the load it demands, and how high in the speed range it survives. It is written for the unmanned case, so a maneuver is a selectable object with a known cost and footprint rather than a learned skill, and the honesty of the catalog rests on a clear division between the sourced definitions and the original classification.
+The article is organized around one idea, that the payload is the point and everything else is overhead, so the design question is how much of the mass, the volume, the power, the data, and the energy budget the whole series has tracked actually reaches the payload rather than being spent to carry it. The aircraft is a bus and the mission is the payload's, and the coupling runs both ways, the platform constraining the payload and the payload sizing the platform.
 
 ### Scope Covered
 
-A 79-row alphabetical catalog with a stable family-prefixed identifier per maneuver across twelve families, the lines, turns, rolls, loops and eights, partial loops and combinations, stall turns, tailslides, spins, post-stall and supermaneuvers, three-dimensional and prop-hang figures, basic fighter maneuvers, and composite or display figures. The columns are the identifier, the maneuver, the family, the spatiotemporal path, the energy-height behavior, the peak load class, and the regime ceiling with flags. The prose covers how to read the table, why the thermal cost is folded into the regime column, provenance and limitations, the maneuvers without a closed form, the parametric families, the alternate names, using the catalog, and a worked reading of one row into numbers.
+The payload fraction and the size, weight, power, and cost accounting; a taxonomy of sensing, relay, delivery, effector, and scientific payloads; the integration budgets of mass and center of gravity, power, data, heat, volume, and vibration; pointing and stabilization with the geolocation and target-location-error chain; the mission system with edge versus downlink processing and sensor fusion; the payload sizing the aircraft through the aperture-sets-resolution physics; releasing and dropping payloads; the suborbital spaceplane delivery case; scale and the UAV case; a worked example; and Out of Scope.
 
-### The Honesty Division
+### The Pilot's Explicit Inclusion
 
-The existence and definition of each maneuver are sourced to the established catalogs, the Aresti system, the world air sports federation, the International Aerobatic Club, and the basic-fighter-maneuver repertoire, linked to their own descriptions where one exists. The classification of each maneuver in the cost model, the energy-height behavior, the peak load class, and the regime ceiling, is forward-declared as an original and qualitative synthesis to be checked rather than as measured data, with three stated limitations, that the values are classes and not certified numbers, that the catalog lists named base figures and notes the parametric families rather than enumerating the combinatorial Aresti space, and that the post-stall figures carry a no-closed-form flag rather than a fabricated load.
+The required coverage of suborbital spaceplane payload delivery, where orbital circularization around apogee is the payload's responsibility, is met in its own section. The reusable carrier boosts along a suborbital arc, releases the payload near apogee, and returns to land, while the payload carries its own apogee-kick stage and supplies the circularization burn. At apogee the velocity is purely horizontal and less than the circular orbital speed, so the payload provides the difference, the delta-v that the carrier never performs. The accounting is kept honest, since a carrier that delivers two kilometers per second of horizontal velocity leaves the payload to supply nearly six at a two-hundred-kilometer apogee, so the payload remains most of a launch vehicle in its own right. The completeness pass added that the carrier owes not merely a release state but an accurate one, since the error propagates into the orbit. The detailed orbital mechanics after release are held out of scope except for the handoff delta-v, the boundary the stability article drew.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 32 of 32 anchors defined and used, zero missing and zero unused, alphabetized within each category. The catalog has 79 data rows with all family-prefixed identifiers unique. The completeness pass added three Reference anchors (Aerobatics, Spiral Dive, and Three-Dimensional Flying), all verified HTTP 200 on 2026-05-31. The Book source (Vinh, on Google Books) was verified accessible. Lazy eight, knife-edge flight, and the yo-yo maneuvers have no standalone article and are cited to the catalog standards rather than linked. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
+Reference integrity confirmed at 45 of 45 anchors defined and used, zero missing and zero unused, all cited in the body prose and alphabetized within each category. The completeness pass added six Reference anchors (Angular Resolution, Data Compression, Georeferencing, Ground Sample Distance, STANAG 4586, and Vibration Isolation), all verified HTTP 200 on 2026-05-31. The two NASA Research sources (the Air Launch performance study and the Horizontal Launch versatile-concept report) were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/12/, the catalog table renders with 80 rows including the header, the A120 and A123 and A125 and A127 and A128 `post_url` links resolve, all three new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/13/, MathJax is included, the A120 and A121 and A125 and A126 and A127 and A128 `post_url` links resolve, all six new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs
+New Blog Post: Payload and Mission Systems for Fixed-Wing UAVs
 
-The previous article built a model that prices an aerobatic maneuver as a costed trajectory. This one is the reference companion, a catalog of seventy-nine named and recognized maneuvers, each classified by what it does to the energy state, the load it demands, and how high in the speed range it survives, written for the people who command unmanned aircraft rather than for the human pilot.
+Every article in this series so far has been about the aircraft. This one is about the reason the aircraft flies at all, the payload it carries and the mission system that uses it, written for the people who command unmanned aircraft rather than for the human pilot. One idea organizes it, that the payload is the point and everything else is overhead.
 
 Key takeaways:
-- Each row is one maneuver with a stable identifier, sorted alphabetically, classified by its spatiotemporal path, its energy-height behavior, its peak load, and its regime ceiling.
-- The maneuver definitions are borrowed from the established catalogs while the classification in the cost model is an original synthesis offered to be checked rather than trusted, and the thermal cost is folded into the regime ceiling because the sport repertoire is uniformly subsonic.
-- The post-stall figures, the spins and snaps and the cobra and the three-dimensional prop-hang set, carry a no-closed-form flag and a section on what can still be said about them, an honesty the model demanded.
-- The purpose is the one that runs through the whole extension set, to let an unmanned aircraft treat a maneuver as a selectable object with a known cost and footprint, chosen against a budget rather than against the limits of a person who is no longer aboard.
+- The payload fraction competes against the structure and the fuel, and a payload claims not only mass but volume, power, data, heat, and vibration, the currency in which the platform pays for what the payload does.
+- The coupling runs both ways, since the payload sizes the aircraft, the required resolution at a standoff range setting the aperture and so the payload size and so the platform, which is why a surveillance UAV and a strike UAV look nothing alike.
+- The payload's real product is often a coordinate rather than an image, no better than the navigation solution, the gimbal angles, and the terrain model that geolocate it.
+- At the far edge the division of labor becomes a clean handoff, a suborbital carrier that owes its payload only an accurate release state at the top of its arc and a payload that owns its own circularization, the bus and its cargo each responsible for its own half of the journey to orbit.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/12/aerobatic_maneuver_reference_catalog_for_fixed_wing_uavs.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/13/payload_and_mission_systems_for_fixed_wing_uavs.html
 
-#UAV #FixedWing #Aerospace #Aerobatics #Aresti #ReferenceCatalog #EnergyManeuverability
+#UAV #FixedWing #Aerospace #Payload #ISR #MissionSystems #AirLaunch #Spaceplane
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-12 publication date is as intended. A129 is the fourth extension beyond the core arc and the reference companion to A128, one day after it.
-- The catalog lists 79 named and recognized base figures rather than the combinatorial Aresti space. If a larger table is wanted, it can be widened by enumerating parametric rows explicitly, the point rolls by count, the multi-turn spins, and the rolls on lines by count, which the "Parametric Families" section currently describes rather than enumerates.
-- Optionally request the Aresti figure symbols and a per-family iconography, which are the one improvement that cannot be added in text and would require image assets.
-- Possible further unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
+- Confirm the 2026-06-13 publication date is as intended. A130 is the fifth extension beyond the core arc, one day after A129.
+- Optionally request a payload-fraction stacked-budget chart and a suborbital-arc-and-circularization diagram, which are the one improvement that cannot be added in text and would require image assets.
+- One unflagged extension remains, the regulatory and operations layer. After it the fixed-wing-UAV series and its extensions would be a complete whole.
 
 ---
 
 ## Notes
 
-- Next available article number: A130.
+- Next available article number: A131.
 - 0 release candidates.
-- 0 new drafts. A108 through A129 published.
+- 0 new drafts. A108 through A130 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A129.
-- The core fixed-wing-UAV arc is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125); A126 (communications), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone), and A129 (an aerobatic maneuver reference catalog, the reference companion to A128) are the first four extensions beyond it. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A129 process-file deltas were staged in `tmp/a129/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A130.
+- The core fixed-wing-UAV arc is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125); A126 (communications), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone), A129 (an aerobatic maneuver reference catalog), and A130 (payload and mission systems) are the first five extensions beyond it. The one remaining unflagged extension is the regulatory and operations layer. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A130 process-file deltas were staged in `tmp/a130/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.

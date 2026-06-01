@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Payload and Mission Systems for Fixed-Wing UAVs — Published
+
+**File**: `_posts/2026-06-13-payload_and_mission_systems_for_fixed_wing_uavs.markdown`
+**Topic**: The payload and mission system of a fixed-wing UAV, framed on the payload fraction and the share of the mass, power, volume, data, and energy budget that reaches the payload, including suborbital spaceplane payload delivery with payload-owned circularization.
+**Article Number**: A130
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-13 (45 references)
+
+Standalone aerospace article and the fifth extension beyond the core fixed-wing-UAV arc.
+The master variable is the payload fraction and, more broadly, the share of the budgets the series tracked that reaches the payload rather than carrying it, the payload being the point and the platform the overhead.
+Sections covered include
+the payload fraction (size, weight, power, and cost);
+a taxonomy of payloads (electro-optical and infrared, synthetic-aperture radar, signals intelligence, lidar, multispectral and hyperspectral, communications relay, delivery and agricultural, the loitering-munition effector, scientific);
+integrating the payload with the platform (mass and center of gravity, power as hotel load with the peak-versus-average note, data with onboard storage and compression, heat, volume, vibration and isolation);
+pointing and stabilization with the geolocation and target-location-error chain;
+the mission system (tasking, edge versus downlink processing, sensor fusion, autonomy);
+the payload sizes the aircraft with the aperture-sets-resolution physics (angular resolution and ground sample distance tying SWaP to standoff performance);
+releasing and dropping payloads;
+suborbital spaceplane payload delivery (the reusable carrier delivers an accurate release state near apogee and the payload owns circularization, Dv = v_circ - v_h);
+scale and the UAV case (modular bays and interface standards, the loitering munition as payload-is-the-aircraft);
+a worked example (a 20 percent payload fraction on the 25 kg aircraft, and the ~7.8 km/s circular speed at a 200 km apogee with the honest delta-v split);
+and an Out of Scope section.
+MathJax plug-and-chug formulae throughout.
+No runnable code, so no Software Versions section.
+The pilot's explicit inclusion, suborbital spaceplane payload delivery where orbital circularization around apogee is the payload's responsibility, is covered in its own section, with the orbital mechanics after release held out of scope except for the handoff delta-v.
+References A120, A121, A125, A126, A127, and A128 via post_url.
+45 references across Reference (37), Related Post (6), and Research (2) categories.
+
 ### An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-12-aerobatic_maneuver_reference_catalog_for_fixed_wing_uavs.markdown`
@@ -906,11 +935,11 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A129 have been published.
+A79 through A130 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
-A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), and A129 (an aerobatic maneuver reference catalog, the reference companion to A128) are the first four extensions beyond the core fixed-wing-UAV arc; remaining unflagged extensions, if desired later, are payload and mission systems, and the regulatory and operations layer.
+A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), and A130 (payload and mission systems) are the first five extensions beyond the core fixed-wing-UAV arc; the one remaining unflagged extension, if desired later, is the regulatory and operations layer.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
