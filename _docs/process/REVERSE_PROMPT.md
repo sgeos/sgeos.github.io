@@ -9,73 +9,73 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-05-31
-**Task**: A130-P3 Publish "Payload and Mission Systems for Fixed-Wing UAVs" (fifth extension)
+**Task**: A131-P3 Publish "The Regulatory and Operations Layer for Fixed-Wing UAVs" (sixth and final flagged extension)
 
 ---
 
 ## Verification
 
-### A130 Published
+### A131 Published
 
-A130 "Payload and Mission Systems for Fixed-Wing UAVs" published at `_posts/2026-06-13-payload_and_mission_systems_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-13 09:00:00 +0000`. 45 references across Reference (37), Related Post (6), and Research (2) categories. Standalone aerospace article and the fifth extension beyond the core fixed-wing-UAV arc. References A120, A121, A125, A126, A127, and A128 via `post_url`.
+A131 "The Regulatory and Operations Layer for Fixed-Wing UAVs" published at `_posts/2026-06-14-regulatory_and_operations_layer_for_fixed_wing_uavs.markdown` with front-matter date `2026-06-14 09:00:00 +0000`. 41 references across Reference (33), Related Post (5), and Research (3) categories. Standalone aerospace article and the sixth and final flagged extension beyond the core fixed-wing-UAV arc, with which the series and its extensions are now complete. References A112, A125, A126, A127, and A130 via `post_url`.
 
 ### Framing
 
-The article is organized around one idea, that the payload is the point and everything else is overhead, so the design question is how much of the mass, the volume, the power, the data, and the energy budget the whole series has tracked actually reaches the payload rather than being spent to carry it. The aircraft is a bus and the mission is the payload's, and the coupling runs both ways, the platform constraining the payload and the payload sizing the platform.
+The article is the layer above the engineering, organized around the principle that the authorization to operate is granted in proportion to the risk an operation poses and the control the operator can demonstrate, so the regulatory burden and the operational discipline both scale with the harm a flight could do. The impact kinetic energy is the physical proxy for that harm, tying the regulatory categories back to the mass and speed the whole series worked in.
+
+### The Pilot's Instruction Honored
+
+The instruction that not everyone is in the USA is honored throughout. The article is jurisdiction-neutral, framed on the International Civil Aviation Organization and the Chicago Convention, naming the United States, European, United Kingdom, Australian, Canadian, and Chinese authorities as examples while stating that every state has its own. The specific thresholds, the common quarter-kilogram and hundred-and-twenty-meter figures, are presented as patterns that differ between states and change from year to year, and the reader is repeatedly directed to the authority that governs the actual flight. The three Research sources are the international bodies rather than United States documents.
 
 ### Scope Covered
 
-The payload fraction and the size, weight, power, and cost accounting; a taxonomy of sensing, relay, delivery, effector, and scientific payloads; the integration budgets of mass and center of gravity, power, data, heat, volume, and vibration; pointing and stabilization with the geolocation and target-location-error chain; the mission system with edge versus downlink processing and sensor fusion; the payload sizing the aircraft through the aperture-sets-resolution physics; releasing and dropping payloads; the suborbital spaceplane delivery case; scale and the UAV case; a worked example; and Out of Scope.
-
-### The Pilot's Explicit Inclusion
-
-The required coverage of suborbital spaceplane payload delivery, where orbital circularization around apogee is the payload's responsibility, is met in its own section. The reusable carrier boosts along a suborbital arc, releases the payload near apogee, and returns to land, while the payload carries its own apogee-kick stage and supplies the circularization burn. At apogee the velocity is purely horizontal and less than the circular orbital speed, so the payload provides the difference, the delta-v that the carrier never performs. The accounting is kept honest, since a carrier that delivers two kilometers per second of horizontal velocity leaves the payload to supply nearly six at a two-hundred-kilometer apogee, so the payload remains most of a launch vehicle in its own right. The completeness pass added that the carrier owes not merely a release state but an accurate one, since the error propagates into the orbit. The detailed orbital mechanics after release are held out of scope except for the handoff delta-v, the boundary the stability article drew.
+Regulation is jurisdictional; authorization proportionate to risk with the open, specific, and certified pattern; kinetic energy as the measure of harm; the axes of risk; registration, identification, and competency with the autonomy-and-responsibility tension; airworthiness and the certified end; integrating with other traffic through unmanned traffic management and detect-and-avoid; the operations layer with its safety management system and just culture and independent investigation; contingency and containment with the geofence and flight termination and command-link security; adjacent regimes of spectrum, export control, privacy, property rights, insurance, and noise; the boundary with space where the suborbital carrier hands off to space law; scale and the UAV case; and Out of Scope.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 45 of 45 anchors defined and used, zero missing and zero unused, all cited in the body prose and alphabetized within each category. The completeness pass added six Reference anchors (Angular Resolution, Data Compression, Georeferencing, Ground Sample Distance, STANAG 4586, and Vibration Isolation), all verified HTTP 200 on 2026-05-31. The two NASA Research sources (the Air Launch performance study and the Horizontal Launch versatile-concept report) were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
+Reference integrity confirmed at 41 of 41 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose and alphabetized within each category. The completeness pass added five Reference anchors (Air Rights, Air Safety, Flight Termination System, Geofence, and Vehicular Automation), all verified HTTP 200 on 2026-05-31. The three international Research sources (the ICAO Unmanned Aviation page, the EASA Civil Drones page, and the JARUS site for the risk assessment) were verified accessible, and the Kármán line URL is percent-encoded. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons, the only semicolon being the console.log debug tag.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/13/, MathJax is included, the A120 and A121 and A125 and A126 and A127 and A128 `post_url` links resolve, all six new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /aerospace/engineering/uav/2026/06/14/, MathJax is included, the A112 and A125 and A126 and A127 and A130 `post_url` links resolve, all five new reference links resolve to real hrefs, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: Payload and Mission Systems for Fixed-Wing UAVs
+New Blog Post: The Regulatory and Operations Layer for Fixed-Wing UAVs
 
-Every article in this series so far has been about the aircraft. This one is about the reason the aircraft flies at all, the payload it carries and the mission system that uses it, written for the people who command unmanned aircraft rather than for the human pilot. One idea organizes it, that the payload is the point and everything else is overhead.
+The series has now designed and equipped the aircraft from the airframe outward. This final article is about the permission to fly it and the discipline of operating it, the layer that sits above the engineering and decides whether the aircraft may leave the ground at all. One principle organizes it, that the authorization to operate is granted in proportion to demonstrated control of risk, and regulation is jurisdictional, so the article gives the shape of the layer rather than the law of any one country.
 
 Key takeaways:
-- The payload fraction competes against the structure and the fuel, and a payload claims not only mass but volume, power, data, heat, and vibration, the currency in which the platform pays for what the payload does.
-- The coupling runs both ways, since the payload sizes the aircraft, the required resolution at a standoff range setting the aperture and so the payload size and so the platform, which is why a surveillance UAV and a strike UAV look nothing alike.
-- The payload's real product is often a coordinate rather than an image, no better than the navigation solution, the gimbal angles, and the terrain model that geolocate it.
-- At the far edge the division of labor becomes a clean handoff, a suborbital carrier that owes its payload only an accurate release state at the top of its arc and a payload that owns its own circularization, the bus and its cargo each responsible for its own half of the journey to orbit.
+- The burden tracks the risk, the open or low-risk band flown without asking, a reasoned case made to the authority in the middle, and the full apparatus of certified aviation at the top, with the impact kinetic energy as the physical measure of harm.
+- The numbers differ between states and change every year, so an operator must read the rules of the authority that governs where the aircraft will actually fly, not the rules of somewhere else.
+- The heart of the safety case is what happens when things go wrong, the contingency procedures, the geofence that contains a failure, and the flight termination of last resort, and a command link secure enough that the aircraft cannot be hijacked.
+- The right to fly is the engineering and the regulation seen as two views of one thing, the case that a flight is safe enough to permit, which completes the arc from a foam-and-glass airframe on a workbench to a regulated and operated system.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/uav/2026/06/13/payload_and_mission_systems_for_fixed_wing_uavs.html
+https://sgeos.github.io/aerospace/engineering/uav/2026/06/14/regulatory_and_operations_layer_for_fixed_wing_uavs.html
 
-#UAV #FixedWing #Aerospace #Payload #ISR #MissionSystems #AirLaunch #Spaceplane
+#UAV #FixedWing #Aerospace #Regulation #ICAO #BVLOS #Operations #Airworthiness
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-13 publication date is as intended. A130 is the fifth extension beyond the core arc, one day after A129.
-- Optionally request a payload-fraction stacked-budget chart and a suborbital-arc-and-circularization diagram, which are the one improvement that cannot be added in text and would require image assets.
-- One unflagged extension remains, the regulatory and operations layer. After it the fixed-wing-UAV series and its extensions would be a complete whole.
+- Confirm the 2026-06-14 publication date is as intended. A131 is the sixth and final flagged extension, one day after A130.
+- The fixed-wing-UAV series and its extensions are now complete, the core ten-article arc (A112 through A125) plus six extensions (A126 communications, A127 structures and the flight envelope, A128 aerobatics as costed trajectories, A129 the aerobatic maneuver reference catalog, A130 payload and mission systems, and A131 the regulatory and operations layer). No further extensions are flagged.
+- Optionally request the diagrams that recur as the one improvement text cannot supply across these articles, the various V-n, doghouse, energy-height, reentry-corridor, and risk-band figures, which would require image assets.
 
 ---
 
 ## Notes
 
-- Next available article number: A131.
+- Next available article number: A132.
 - 0 release candidates.
-- 0 new drafts. A108 through A130 published.
+- 0 new drafts. A108 through A131 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A130.
-- The core fixed-wing-UAV arc is complete (A112, A114, A116, A118, A120, A121, A122, A123, A124, A125); A126 (communications), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone), A129 (an aerobatic maneuver reference catalog), and A130 (payload and mission systems) are the first five extensions beyond it. The one remaining unflagged extension is the regulatory and operations layer. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A130 process-file deltas were staged in `tmp/a130/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A131.
+- The fixed-wing-UAV series and its extensions are complete, the core arc A112, A114, A116, A118, A120, A121, A122, A123, A124, A125 plus the extensions A126, A127, A128, A129, A130, A131. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A131 process-file deltas were staged in `tmp/a131/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.
