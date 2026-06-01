@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A Survey of the SBIR and STTR Agencies — Published
+
+**File**: `_posts/2026-06-16-survey_of_the_sbir_and_sttr_agencies.markdown`
+**Topic**: A survey of the eleven SBIR and five STTR agencies for the practitioner choosing where to apply, organized on two axes (grant versus contract, directed versus open topics); the second article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A133
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-16 (25 references)
+
+Standalone article and the second of the SBIR/STTR practitioner-playbook series, in the business/funding/sbir category.
+Organized on two independent axes, the award vehicle (grant or cooperative agreement versus procurement contract) and the topic (directed versus open), with the agencies populating the corners.
+Sections covered include
+the two axes and where the agencies sit;
+how many agencies and why the sizes differ (eleven SBIR, five STTR, the set-aside making budget proportional to extramural research);
+the Department of Defense (contract, directed, the components and the Defense SBIR/STTR Innovation Portal, transition, dual-use, the national-security screening);
+the National Institutes of Health (grant, open, standing receipt dates);
+the National Science Foundation (grant, broad, America's Seed Fund, the required project pitch);
+the Department of Energy (grant but directed, the national-lab STTR fit);
+NASA (contract, directed, transition to a NASA mission);
+the smaller agencies (Agriculture, Homeland Security, Commerce with NOAA and NIST, Education, Transportation, Environmental Protection);
+a comparison table (vehicle, topics, STTR, Direct to Phase II, relative size, character);
+choosing where to apply (match by mission and by model, eligibility varying by agency, the cadence as a selection factor, differing post-award support);
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Balanced across agencies per the series plan, with all time-sensitive specifics flagged as current-as-of.
+Cross-links A132 (the orientation), A93 (mission-critical engineering, the Department of Defense culture), and A112 (the UAV as a dual-use example) via post_url.
+25 references across Reference (16), Related Post (3), and Research (6, one authoritative portal per major agency) categories.
+
 ### An Introduction to the SBIR and STTR Programs — Published
 
 **File**: `_posts/2026-06-15-introduction_to_the_sbir_and_sttr_programs.markdown`
@@ -994,12 +1023,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A132 have been published.
+A79 through A133 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 begins a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation through agency survey, eligibility, the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV.
+A132 and A133 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation and agency survey through eligibility, the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A134 (eligibility and the registration stack) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
