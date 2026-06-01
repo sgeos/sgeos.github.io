@@ -18,6 +18,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### After the Award, Compliance and Reporting for SBIR and STTR — Published
+
+**File**: `_posts/2026-06-24-after_the_award_for_sbir_and_sttr.markdown`
+**Topic**: The continuing obligations of holding an award, performing the work, reporting, invoicing, surviving audits, staying in good standing, and closing out, the second half of the campaign where past performance is built or destroyed; the tenth article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A141
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-24 (19 references)
+
+Standalone article and the tenth of the SBIR/STTR practitioner-playbook series.
+Framed on the idea that an award is a binding agreement with continuing duties and that winning is the start of an obligation rather than the end of an effort.
+Sections covered include
+winning is the start (the award binds, contract or grant);
+performing and who to talk to (milestones and deliverables, the contracting officer versus the technical point of contact, formal modifications, no-cost extensions, termination, subcontractor and partner management);
+reporting (technical progress and final reports, the commercialization report that feeds the benchmarks, the late-report consequences);
+invoicing and getting paid (the payment systems, the lag);
+audits and the settling of rates (the Defense Contract Audit Agency, the incurred-cost true-up, the single audit, the audit trail and records retention);
+compliance and integrity (the certifications, the False Claims Act, debarment, the defense cybersecurity obligation);
+closing out;
+continuing standing (registrations, accounting, benchmarks, past performance);
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A134 (eligibility), A136 (the Phase I proposal), A139 (data rights), A140 (the money), and A112 (the running-case company) via post_url; the strategy article is referenced in prose pending A142.
+19 references across Reference (11), Related Post (5), and Research (3) categories.
+
 ### The Money Behind an SBIR or STTR Award — Published
 
 **File**: `_posts/2026-06-23-money_behind_an_sbir_or_sttr_award.markdown`
@@ -1215,12 +1242,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A140 have been published.
+A79 through A141 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A140 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, and the money through compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A141 (after the award, compliance and reporting) is next.
+A132 through A141 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, the money, and after the award through strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A142 (strategy) is next, then A143 (international analogs) and A144 (the capstone) close the series.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
