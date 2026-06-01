@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Phase III and the Valley of Death for SBIR and STTR — Published
+
+**File**: `_posts/2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr.markdown`
+**Topic**: Phase III, the commercialization step that carries no SBIR funds, and the valley of death between a funded prototype and a self-sustaining product or fielded program, with the sole-source authority and the data rights as the tools for crossing it; the seventh article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A138
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-21 (19 references)
+
+Standalone article and the seventh of the SBIR/STTR practitioner-playbook series.
+Framed on the idea that Phase III is a destination rather than an award, since it carries no program money, so the company must cross the valley of death from a funded prototype to a self-sustaining product or fielded program on other money.
+Sections covered include
+what Phase III is (no set-aside money, no dollar or time limit, the high technology-readiness rungs, the concrete funding sources, not strictly sequential);
+the sole-source authority (the broad, non-expiring procurement lever, permission to buy and not a commitment);
+the valley of death (the gap and why technologies die in it);
+crossing by government transition (the program of record, the transition partner, the budget line, the acquisition pull, the prime-contractor path and its risk, the CRADA and the readiness program);
+crossing by the market (the product, the customers, the venture capital, the Food and Drug Administration path, SBIR as an investor credential);
+why Phase III is the point (the benchmarks measure it, the mill is the failure to reach it);
+common ways to fall in;
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A134 (eligibility), A137 (Phase II), and A112 (the running-case company) via post_url; the data-rights, money, and strategy articles are referenced in prose pending A139, A140, and A142.
+19 references across Reference (11), Related Post (4), and Research (4) categories.
+
 ### Phase II and the Commercialization Plan for SBIR and STTR — Published
 
 **File**: `_posts/2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr.markdown`
@@ -1134,12 +1160,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A137 have been published.
+A79 through A138 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A137 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, and Phase II and the commercialization plan through Phase III, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A138 (Phase III and the valley of death) is next.
+A132 through A138 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, and Phase III and the valley of death through data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A139 (data rights and intellectual property) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
