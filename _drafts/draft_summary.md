@@ -18,6 +18,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### An Introduction to the SBIR and STTR Programs — Published
+
+**File**: `_posts/2026-06-15-introduction_to_the_sbir_and_sttr_programs.markdown`
+**Topic**: Orientation to the United States SBIR and STTR programs, framed on non-dilutive capital staged against demonstrated risk reduction mapped to the technology readiness level; the first article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A132
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-15 (18 references)
+
+Standalone article and the first of a new series, the SBIR/STTR practitioner playbook, in a new category cluster (business/funding/sbir, permalink /business/funding/sbir/).
+The master variable is non-dilutive capital staged against demonstrated reduction of risk, the three-phase staircase mapped to the technology readiness level.
+Sections covered include
+a program that runs on reauthorization (the 2025 lapse and the 2026 reauthorization through fiscal year 2031);
+the core idea (non-dilutive, mission-pulled, the set-aside, the scale of over four billion dollars a year across roughly four thousand awards, America's Seed Fund);
+the three phases (Phase I feasibility, Phase II development, Phase III commercialization with no SBIR funds and sole-source authority) with the technology-readiness-level mapping and the multi-year timeline;
+SBIR versus STTR (the research-institution partner and the work splits);
+who can compete (the eligibility gate and the 2026 national-security screening);
+why the money is worth the trouble (non-dilutive, data rights, the valley of death);
+what the programs are not (the grant-versus-contract distinction, not free money, not a substitute for a customer);
+the series ahead;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Explicitly United States, with the international analogs deferred to a later article, and all time-sensitive figures flagged as current-as-of with the live solicitation and the SBA policy directive named as authoritative.
+Cross-links A93 (mission-critical engineering), A112 (prototyping the UAV, the running case), and A131 (the risk-based regulatory framing) via post_url.
+18 references across Reference (12), Related Post (3), and Research (3) categories.
+
 ### The Regulatory and Operations Layer for Fixed-Wing UAVs — Published
 
 **File**: `_posts/2026-06-14-regulatory_and_operations_layer_for_fixed_wing_uavs.markdown`
@@ -967,11 +994,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A131 have been published.
+A79 through A132 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
+A132 begins a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation through agency survey, eligibility, the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
