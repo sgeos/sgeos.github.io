@@ -18,6 +18,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Writing the Phase I SBIR and STTR Proposal — Published
+
+**File**: `_posts/2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr.markdown`
+**Topic**: Writing the Phase I proposal as an argument that the company can retire an idea's feasibility risk, written to the evaluation criteria, by a credible team, with a commercial promise; the proposal-craft core of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A136
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-19 (20 references)
+
+Standalone article and the fifth of the SBIR/STTR practitioner-playbook series, its proposal-craft core.
+Framed on the idea that a Phase I proposal is an argument that the company can retire the feasibility risk of an idea, written to the published evaluation criteria, by a believable team, with a commercial promise.
+Sections covered include
+what Phase I actually asks (feasibility and proof of concept, not a product, the overpromise as the classic failure, the technology-readiness staircase);
+the volumes and their shape (the technical and cost volumes telling the same story, the project summary and public abstract, the proprietary markings, the page-limit boundary);
+the sections of the technical volume;
+the three things a reviewer scores (technical merit, qualifications, commercialization potential);
+writing the innovation (the feasibility question, the technical risk to retire, plain technical writing);
+the work plan (the work breakdown, milestones, deliverables, risk and mitigation, fitting the envelope, and setting up Phase II with go-or-no-go criteria);
+the team and the past performance (the principal investigator and the work-split limits, the STTR partner);
+the commercialization story (scored even in Phase I, dual-use, the customer letter);
+writing to the reviewer (peer review at science agencies, government technical evaluation at directed agencies, clarity for a busy reader, the internal red-team review);
+review, debrief, and resubmission (most proposals lose, the debrief is the prize, resubmit);
+common ways to lose;
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A134 (eligibility), A135 (solicitation), and A112 (the running-case company) via post_url; Phase II is referenced in prose pending A137.
+20 references across Reference (12), Related Post (4), and Research (4) categories.
+
 ### Finding a Topic and Reading an SBIR or STTR Solicitation — Published
 
 **File**: `_posts/2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr.markdown`
@@ -1077,12 +1107,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A135 have been published.
+A79 through A136 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A135 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, and finding a topic and reading a solicitation through the proposal, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A136 (the Phase I proposal) is next.
+A132 through A136 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, and the Phase I proposal through Phase II and the commercialization plan, the phases, data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A137 (Phase II and the commercialization plan) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
