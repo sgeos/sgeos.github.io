@@ -18,6 +18,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Data Rights and Intellectual Property in SBIR and STTR — Published
+
+**File**: `_posts/2026-06-22-data_rights_and_intellectual_property_for_sbir_and_sttr.markdown`
+**Topic**: The intellectual property a company keeps under the programs, patents under Bayh-Dole and the special SBIR data rights, the crown jewel that the non-dilutive funding was meant to build and that marking preserves; the eighth article of the SBIR/STTR practitioner-playbook series.
+**Article Number**: A139
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-22 (16 references)
+
+Standalone article and the eighth of the SBIR/STTR practitioner-playbook series, its crown-jewel article.
+Framed on the idea that the government funds the work but the company keeps the inventions and the technical data, so the program is non-dilutive in intellectual property as well as equity, and the retained ownership is the asset the funding was meant to build, kept only by guarding it.
+Sections covered include
+two bodies of rights (patents versus data rights, and the STTR allocation with the research institution);
+patent rights under Bayh-Dole (the company elects title, the election clock, march-in rights, the United-States-manufacturing preference);
+SBIR data rights (the protected license, the protection period historically four years and since lengthened, background versus foreground);
+marking is the act that preserves the rights (unmarked data risks unlimited rights, markings must conform, assertions can be challenged);
+the categories of rights (unlimited, government-purpose, limited and restricted, the special SBIR category);
+what the government keeps and what the company keeps;
+threats to the crown jewel (subcontracts, omissions, expiry, over-delivery, mixed funding, open-source code);
+how the rights create value (the sole-source position, the asset in a sale);
+scale and the UAV case;
+and an Out of Scope section.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links A132 (orientation), A134 (eligibility), A136 (the Phase I proposal), A138 (Phase III), and A112 (the running-case company) via post_url; the money, compliance, and strategy articles are referenced in prose pending A140, A141, and A142.
+16 references across Reference (9), Related Post (5), and Research (2) categories.
+
 ### Phase III and the Valley of Death for SBIR and STTR — Published
 
 **File**: `_posts/2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr.markdown`
@@ -1160,12 +1187,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A138 have been published.
+A79 through A139 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A138 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, and Phase III and the valley of death through data rights, the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A139 (data rights and intellectual property) is next.
+A132 through A139 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, and data rights and intellectual property through the money, compliance, strategy, international analogs, and a worked-campaign capstone that reuses the fixed-wing UAV; A140 (the money) is next.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
