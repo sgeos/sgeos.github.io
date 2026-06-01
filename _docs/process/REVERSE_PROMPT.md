@@ -9,69 +9,69 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-06-01
-**Task**: A143-P3 Publish "International Analogs to SBIR and STTR" (twelfth article of the SBIR/STTR practitioner-playbook series, the single dedicated international article)
+**Task**: A144-P3 Publish "A Worked SBIR and STTR Campaign for a Fixed-Wing UAV" (thirteenth and final article of the SBIR/STTR practitioner-playbook series, the worked-campaign capstone)
 
 ---
 
 ## Verification
 
-### A143 Published
+### A144 Published
 
-A143 "International Analogs to SBIR and STTR" published at `_posts/2026-06-26-international_analogs_to_sbir_and_sttr.markdown` with front-matter date `2026-06-26 09:00:00 +0000`. 20 references across Reference (11), Related Post (6), and Research (3) categories. The twelfth article of the SBIR/STTR practitioner-playbook series and the one dedicated international article, in the business/funding/sbir category. References A132, A134, A138, A140, A142, and A112 via `post_url`.
+A144 "A Worked SBIR and STTR Campaign for a Fixed-Wing UAV" published at `_posts/2026-06-27-worked_sbir_and_sttr_campaign_for_a_fixed_wing_uav.markdown` with front-matter date `2026-06-27 09:00:00 +0000`. 19 references across Reference (4), Related Post (13), and Research (2) categories. The thirteenth and final article of the SBIR/STTR practitioner-playbook series, the worked-campaign capstone, in the business/funding/sbir category. It cross-links every prior article of the series, A132 through A143, plus A112 via `post_url`, the synthesis node of the series.
 
 ### Framing
 
-The article steps outside the United States the rest of the series read from, and surveys the analogs other advanced economies have built. One idea organizes it, that every advanced economy faces the same market failure in early-stage high-risk technology and each has built a public instrument to fund the risk reduction private capital will not, so the analogs are different answers to one shared question rather than copies of a single design. The survey is organized around the structural axes along which the answers differ, the instrument used, whether the money is non-dilutive or dilutive, whether selection is challenge-driven or open, and whether the award is staged or paid in one shot.
+The capstone reassembles the series by following one constructed company through a whole campaign, because the parts are easier to learn separately than to see working together. It carries the organizing idea of the entire series, that the programs supply non-dilutive capital in stages against demonstrated risk reduction, a staircase from feasibility to prototype to market, walked once in full by a company that uses each award to buy the next rung rather than to stand still.
 
 ### Scope Covered
 
-The common problem (market failure, the valley of death, industrial policy); the procurement copies (the United Kingdom Contracts for Innovation, the Netherlands Innovation Impact Challenge, Australia's Business Research and Innovation Initiative, Canada's Innovative Solutions Canada, Japan's reformed SBIR); the European grant programs (Horizon Europe, the European Innovation Council Accelerator, the Eureka network and Eurostars, Germany's Central Innovation Programme); the research-collaboration analog (the STTR dimension and the consortium default abroad); the tax-credit instrument (Canada's Scientific Research and Experimental Development credit); the state as investor (the Israel Innovation Authority, the European blended grant-plus-equity, South Korea's Tech Incubator Program); defense and dual-use (the North Atlantic Treaty Organization's DIANA); the axes of difference with a 13-program comparison table; scale and the UAV case; and Out of Scope.
+The company and the airframe (the dual-use fixed-wing unmanned aircraft of the running case); deciding to pursue (orientation and the agency choice); getting ready (eligibility and registration, the STTR route chosen); finding the topic and winning Phase I (the feasibility proposal); Phase II and the prototype (the commercialization plan, the research partner performing its share under the STTR split); the money, the rights, and the compliance (the indirect rate and the cash gap, the Phase I to Phase II funding gap, data-rights marking and the company-and-partner intellectual-property allocation, reporting and audits); the valley of death and Phase III (the transition partner and the sole-source follow-on); the strategy over time (the portfolio, the state match, the private-capital bridge, the international option); where it could go wrong (the same campaign in reverse as a catalog of the failures the series warned against); and Out of Scope. The company is explicitly a constructed illustration rather than a real firm.
 
 ### Reference and Style Verification
 
-Reference integrity confirmed at 20 of 20 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The eleven Reference Wikipedia URLs and the three Research portals were verified accessible. All foreign-program facts were verified by web search and flagged current-as-of, since these programs change names and structures often, the United Kingdom and Dutch programs both having been renamed recently. Germany's Central Innovation Programme and South Korea's Tech Incubator Program are described in prose because neither has an English Wikipedia article, consistent with the prose-description practice used for the United Kingdom Small Business Research Initiative and Australia's program. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons outside the YAML front matter, the comparison table, and the console.log debug tag, and mathjax is false because the article has no equations. The comparison table is column-consistent at five columns.
+Reference integrity confirmed at 19 of 19 anchors defined and used, zero missing, zero unused, zero duplicate definitions, all cited in the body prose. The Related Post count is high by design, since the capstone links every prior article of the series. The four Reference Wikipedia URLs and the two Research portals were verified accessible. Prose style confirmed: no contractions, no em-dashes or en-dashes in the body, and no prose colons or semicolons outside the YAML front matter and the console.log debug tag, the acronym UAV spelled out as unmanned aerial vehicle and unmanned aircraft on first use, and mathjax is false because the article has no equations. The figures, timelines, and program details are flagged as illustrative and current-as-of, with the current solicitations and rules named as the authority.
 
 ### Build Verification
 
-Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/26/, the A132 and A134 and A138 and A140 and A142 and A112 `post_url` links resolve, all 20 reference links resolve, the comparison table renders, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
+Verified with system Jekyll: the post renders at /business/funding/sbir/2026/06/27/, all thirteen `post_url` links resolve (the twelve SBIR-series articles A132 through A143 and the A112 unmanned-aircraft article), all 19 reference links resolve, no unresolved link markup remains, and the post appears on the index. The full local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push.
 
 ---
 
 ## Release Announcement
 
-New Blog Post: International Analogs to SBIR and STTR
+New Blog Post: A Worked SBIR and STTR Campaign for a Fixed-Wing UAV
 
-The series has been a United States playbook. This article steps outside the United States to survey the analogs other advanced economies have built, because the problem the programs solve is not peculiarly American.
+The series built its argument one piece at a time. This final article puts the pieces back together by following one company through a whole campaign, from a printed prototype to a production contract.
 
 Key takeaways:
-- Every advanced economy faces the same market failure in early-stage high-risk technology, and each funds the risk reduction the market will not, so the American program is one answer among many rather than a unique invention.
-- The United Kingdom, the Netherlands, Australia, Canada, and Japan all built challenge-driven, phased, non-dilutive procurement programs on the American pattern, several of them named or modeled after it directly.
-- Other countries chose different instruments, the European grant and its blended grant-plus-equity, the Canadian research tax credit, the Israeli royalty-bearing grant, and the South Korean matching investment, which trade the American combination for a different balance of direction, dilution, and reach.
-- The research-institution partnering that distinguishes STTR is, abroad, often the default rather than a separate track, so the staircase from feasibility to prototype to market is the durable idea and the rest is national detail.
+- The programs supply non-dilutive capital in stages against demonstrated risk reduction, a staircase from feasibility to prototype to market, and the company that understands the climb uses each award to buy the next rung.
+- One worked campaign carries the small unmanned-aircraft firm from eligibility and a Phase I feasibility win, through a Phase II prototype and its commercialization plan, across the valley of death with a transition partner, to a Phase III production contract and a dual-use commercial market.
+- The money, the data rights, and the compliance are not afterthoughts, since the indirect rate and the cash gap can starve a funded company, an unmarked data set hands a competitor the design, and neglected reporting forfeits the standing the next award depends on.
+- Read in reverse the same campaign is a catalog of the failures the series warned against, the mill that never transitions, the cash gap, the lost rights, and the mismatched topic, each a rung missed.
 
 You can read the full article here:
-https://sgeos.github.io/business/funding/sbir/2026/06/26/international_analogs_to_sbir_and_sttr.html
+https://sgeos.github.io/business/funding/sbir/2026/06/27/worked_sbir_and_sttr_campaign_for_a_fixed_wing_uav.html
 
-#SBIR #STTR #InnovationPolicy #HorizonEurope #DeepTech #Funding
+#SBIR #STTR #SmallBusiness #DualUse #UAV #Commercialization #Funding
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Confirm the 2026-06-26 publication date is as intended. A143 is the twelfth article of the SBIR/STTR series, one day after A142.
-- A144 (the worked-campaign capstone reusing the fixed-wing UAV through Phase I, II, and III) is next and closes the planned thirteen-article series.
-- The foreign-program facts are unusually time-sensitive and were web-verified at draft. One detail, South Korea's move to add an STTR-style program, rests on recent reporting and is stated as a recent move rather than an established fact.
+- Confirm the 2026-06-27 publication date is as intended. A144 is the thirteenth article of the SBIR/STTR series, one day after A143.
+- The SBIR/STTR practitioner-playbook series is now COMPLETE, all thirteen of thirteen articles published (A132 through A144). No further articles in this series are planned; the next article number is A145 should a new topic begin.
+- The capstone is the synthesis node and links every prior series article plus the running UAV case. No outstanding forward references remain in the series.
 
 ---
 
 ## Notes
 
-- Next available article number: A144.
+- Next available article number: A145.
 - 0 release candidates.
-- 0 new drafts. A108 through A143 published.
+- 0 new drafts. A108 through A144 published.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification.
-- Published: A79 through A143.
-- The SBIR/STTR practitioner-playbook series is underway in the new business/funding/sbir category. Published so far: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), A136 (the Phase I proposal), A137 (Phase II and the commercialization plan), A138 (Phase III and the valley of death), A139 (data rights and intellectual property), A140 (the money), A141 (after the award), A142 (strategy and the portfolio), and A143 (international analogs). Planned A132 through A144; A144 (the worked-campaign capstone) is next and closes the series. United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
-- All scratch is confined to project-local `tmp/` per recorded preference. A143 process-file deltas were staged in `tmp/a143/` while drafting and have now been applied directly, so those notes are superseded.
+- Published: A79 through A144.
+- The SBIR/STTR practitioner-playbook series is COMPLETE in the new business/funding/sbir category, all thirteen of thirteen articles published: A132 (orientation), A133 (agency survey), A134 (eligibility and the registration stack), A135 (finding a topic and reading a solicitation), A136 (the Phase I proposal), A137 (Phase II and the commercialization plan), A138 (Phase III and the valley of death), A139 (data rights and intellectual property), A140 (the money), A141 (after the award), A142 (strategy and the portfolio), A143 (international analogs), and A144 (the worked-campaign capstone). United States programs with one international-analogs article; practitioner playbook; balanced across agencies. The fixed-wing-UAV series and its extensions (A112 through A131) remain complete. No internal research cited; public encyclopedic and authoritative sources only.
+- All scratch is confined to project-local `tmp/` per recorded preference. A144 process-file deltas were staged in `tmp/a144/` while drafting and have now been applied directly, so those notes are superseded.
 - Blog deploys through GitHub Actions with a lean Jekyll stack; 0 open Dependabot alerts; Keleusma highlighting is live.

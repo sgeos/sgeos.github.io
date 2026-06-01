@@ -18,6 +18,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A Worked SBIR and STTR Campaign for a Fixed-Wing UAV — Published
+
+**File**: `_posts/2026-06-27-worked_sbir_and_sttr_campaign_for_a_fixed_wing_uav.markdown`
+**Topic**: A single constructed company, the running fixed-wing unmanned aircraft firm, followed through a whole SBIR and STTR campaign from feasibility to prototype to market, synthesizing the entire series; the thirteenth and final article of the SBIR/STTR practitioner-playbook series, the worked-campaign capstone.
+**Article Number**: A144
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: Published 2026-06-27 (19 references)
+
+Standalone article and the thirteenth and final article of the SBIR/STTR practitioner-playbook series, the worked-campaign capstone that closes it.
+Framed on the organizing idea of the whole series, that the programs supply non-dilutive capital in stages against demonstrated risk reduction, a staircase from feasibility to prototype to market, walked once in full by one company that uses each award to buy the next rung.
+Sections covered include
+the company and the airframe (the dual-use fixed-wing unmanned aircraft of the running case);
+deciding to pursue (orientation and the agency choice);
+getting ready (eligibility and registration, the STTR route chosen);
+finding the topic and winning Phase I (the feasibility proposal);
+Phase II and the prototype (the commercialization plan, the research partner performing its share under the STTR split);
+the money, the rights, and the compliance (the indirect rate and the cash gap, the Phase-I-to-Phase-II funding gap, data-rights marking and the company-and-partner intellectual-property allocation, reporting and audits);
+the valley of death and Phase III (the transition partner and the sole-source follow-on);
+the strategy over time (the portfolio, the state match, the private-capital bridge, the international option);
+where it could go wrong (the same campaign in reverse as a catalog of the failures the series warned against);
+and an Out of Scope section.
+The company is explicitly a constructed illustration rather than a real firm.
+mathjax false (no equations).
+No runnable code, so no Software Versions section.
+Cross-links every prior article of the series via post_url (A132 the introduction, A133 the agencies, A134 eligibility, A135 the topic and solicitation, A136 Phase I, A137 Phase II, A138 Phase III, A139 data rights, A140 the money, A141 after the award, A142 strategy, and A143 international analogs) plus A112 (the running-case unmanned aircraft).
+19 references across Reference (4), Related Post (13), and Research (2) categories.
+With A144 the SBIR/STTR practitioner-playbook series is complete, all thirteen of thirteen articles published.
+
 ### International Analogs to SBIR and STTR — Published
 
 **File**: `_posts/2026-06-26-international_analogs_to_sbir_and_sttr.markdown`
@@ -1296,12 +1325,12 @@ Ten files exist in `_drafts/`. One is a template.
 No release candidates remain.
 No new drafts remain.
 No stubs remain.
-A79 through A143 have been published.
+A79 through A144 have been published.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
 A126 (communications and the command-and-control data link), A127 (structures and the flight envelope), A128 (aerobatics as costed trajectories, the synthesis capstone of the extension set), A129 (an aerobatic maneuver reference catalog, the reference companion to A128), A130 (payload and mission systems), and A131 (the regulatory and operations layer) are the six extensions beyond the core fixed-wing-UAV arc; the series and its extensions are now complete, with no further extensions flagged.
-A132 through A143 begin a new series, the SBIR/STTR practitioner playbook, in the new business/funding/sbir category, planned as thirteen articles (A132 through A144) covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, the money, after the award, strategy, and international analogs through a worked-campaign capstone that reuses the fixed-wing UAV; A144 (the capstone) is next and closes the series.
+A132 through A144 are the SBIR/STTR practitioner playbook, a complete thirteen-article series in the new business/funding/sbir category covering the United States SBIR and STTR programs from orientation, agency survey, eligibility and registration, finding a topic and reading a solicitation, the Phase I proposal, Phase II and the commercialization plan, Phase III and the valley of death, data rights and intellectual property, the money, after the award, strategy, and international analogs through a worked-campaign capstone that reuses the fixed-wing UAV; the series is now complete, all thirteen of thirteen articles published.
 
 The drafts fall into four tiers when assessed for salvageability with contemporary tooling.
 
