@@ -4,6 +4,10 @@ _site
 .jekyll-metadata
 .jekyll-cache
 
+# bundler (local gem install path and config, if a local bundle is ever used)
+vendor/
+.bundle/
+
 # vim
 *~
 *.swp
