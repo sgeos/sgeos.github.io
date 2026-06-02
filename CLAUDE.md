@@ -8,11 +8,16 @@ Jekyll-based static blog deployed to GitHub Pages at [sgeos.github.io](https://s
 
 ## Common Commands
 
-**Preview locally (includes drafts and future-dated posts):**
+**Preview locally (published and future-dated posts; drafts off by default):**
 ```sh
 ./_preview.sh            # serves at http://localhost:4000/
 ./_preview.sh 8080       # custom port
+DRAFTS=1 ./_preview.sh   # include drafts (aborts if a draft has an unresolved post_url)
 ```
+
+Drafts are off by default because `--drafts` builds the `_drafts/` directory, and
+release-candidate drafts that cross-reference one another with `post_url` tags pointing at
+unpublished filenames make that build fail. Use `DRAFTS=1` only once those references resolve.
 
 **Create a new draft:**
 ```sh
