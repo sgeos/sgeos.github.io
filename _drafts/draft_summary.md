@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Operator Training and Certification for a Search and Rescue Drone Program — New Draft
+### Operator Training and Certification for a Search and Rescue Drone Program — Published
 
-**File**: `_drafts/operator_training_and_certification_for_search_and_rescue_drone_programs.markdown`
+**File**: `_posts/2026-05-19-operator_training_and_certification_for_search_and_rescue_drone_programs.markdown`
 **Topic**: Fifth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), and A148 (geographic setting). Disaggregates the operator training cost that A146 mentioned in passing into a five-layer training stack (FAA Part 107, manufacturer training, SAR operational training, NIMS and ICS, specialised operations). Per-layer cost and timeline. Recurrency requirements. Crew roles and training pathways. Operator pool construction. Training budget by program tier.
 **Article Number**: A149
 **Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (complements A146 as the operator-investment companion)
-**Status**: New Draft (56 references; 2,059 lines)
+**Status**: Published 2026-05-19 (56 references; 2,059 lines)
 
 Standalone aerospace and engineering analytical article on operator training and certification for SAR drone programmes.
 Sections covered include
@@ -63,8 +63,7 @@ All inline-linked per project style.
 A145 (physics), A146 (buyer's framework), A147 (R&D), and A148 (geographic setting) cited via post_url.
 
 **Remaining Work**:
-Human review of the five-layer stack and the cost tables.
-Confirm publication date.
+None. Published.
 
 ### Search and Rescue Drone Fleets by Geographic Setting — Published
 
