@@ -18,6 +18,51 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Search and Rescue Drone Fleets by Geographic Setting — New Draft
+
+**File**: `_drafts/search_and_rescue_drone_fleets_by_geographic_setting.markdown`
+**Topic**: Fourth article in the SAR drone series after A145 (physics and economics), A146 (buyer's framework), and A147 (R&D companion). Treats the urban-to-frontier geographic axis as an independent fleet-selection filter alongside A146's mission-profile filter. Four operational levels (Densely Urban, Suburban or Small Urban, Rural, Frontier and Remote) mapped to federal classifications (RUCC, RUCA, CDC NCHS, FAR). Per-level platform mix, fleet sizing, airspace and regulatory posture, funding map, and crew complement. Parallel-operations patterns (single-aircraft serial, single-class parallel, cross-class parallel, multi-aircraft swarms, manned-unmanned teaming). Reading-order table for the four articles in the series.
+**Article Number**: A148
+**Completion**: 100%
+**Publication Sensibility**: High for the buyer audience (complements A146)
+**Status**: New Draft (51 references; 1,694 lines)
+
+Standalone aerospace and engineering analytical article on the geographic-setting filter for SAR drone fleet selection.
+Sections covered include
+opening as fourth in the SAR drone series;
+Why Setting Matters Beyond Mission Profile (six structural axes: airspace classification, operations over people, beyond visual line of sight, range and communications, crew complement, funding landscape);
+The Federal Geographic Classifications (USDA RUCC, RUCA, CDC NCHS, USDA FAR);
+The Four Operational Levels (with mapping table to the federal classifications);
+Level 1, Densely Urban (multicopter-dominated fleet, LAANC routine, OOP routine, UASI funding);
+Level 2, Suburban or Small Urban (balanced multicopter and hybrid fleet);
+Level 3, Rural (fixed-wing or hybrid essential, Class G airspace, SHSP funding);
+Level 4, Frontier and Remote (long-endurance fixed-wing essential, Class G, Section 44807 exemptions, federal frontier-operating agency budgets);
+Parallel Operations Patterns (single-aircraft serial, single-class parallel, cross-class parallel, multi-aircraft swarms, manned-unmanned teaming);
+Airspace and Regulatory Posture by Level (scorecard table);
+Funding by Level (UASI, SHSP, THSGP, AFG, federal frontier agency budgets, USDA Rural Development);
+Crew Complement by Level (scorecard table);
+The Quartet Reading Order (table mapping audience to entry article);
+Out of Scope (international classifications, detailed airspace charting, specific operational tactics, state-by-state regulatory variation);
+Conclusion.
+
+Research agent verified
+the federal classification system URLs,
+the FAA airspace and LAANC URLs,
+the Part 107 Operations Over People rule and ASTM F3322 standard,
+the UASI and HSGP funding programmes,
+the federal frontier-operating agency UAS programmes,
+and the parallel-operations multi-drone management platforms.
+URL corrections applied for CDC NCHS, B4UFLY, USFS UAS, USFWS UAS, Iridium for UAV markets, Starlink business, NPS aviation search and rescue, USDA Rural Development community facilities, and the UAS Facility Maps canonical ArcGIS-hosted location.
+
+References:
+51 references across Reference (48) and Related Post (3) categories.
+All inline-linked per project style.
+A145 (physics and economics), A146 (buyer's framework), and A147 (R&D companion) cited via post_url as the prior articles in the SAR drone series.
+
+**Remaining Work**:
+Human review of the four-level mapping and the parallel-operations claims.
+Confirm publication date.
+
 ### Research and Development for Search and Rescue Drones — Published
 
 **File**: `_posts/2026-05-17-research_and_development_for_search_and_rescue_drones.markdown`
