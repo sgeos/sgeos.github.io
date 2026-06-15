@@ -18,6 +18,57 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A Buyer's Decision Framework for Search and Rescue Drones — New Draft
+
+**File**: `_drafts/buyers_decision_framework_for_search_and_rescue_drones.markdown`
+**Topic**: Practitioner buyer's decision framework for US-based search and rescue drone procurement in 2026, the actionable companion to A145. Three-branch decision tree on funding source, mission profile, and budget tier. Five budget tiers including a Tier 0 proof-of-concept tier for organizations beginning a program. Worked five-year total cost of ownership. Federal funding source map. Crew complement and Incident Command System integration. Insurance and liability. Buying timeline.
+**Article Number**: A146
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: New Draft (60 references; 1,755 lines)
+
+Standalone aerospace and engineering analytical article on UAV procurement for SAR.
+Sections covered include
+opening framing as companion to A145;
+Branch One, the Funding Source (FAR 52.240-1 effective 22 December 2025, ADSA 2023, NDAA Section 1709 of FY 2025, FCC Covered List actions on DJI and Autel, DCMA Blue UAS list since 3 December 2025, JAG restriction on drone procurement);
+Branch Two, the Mission Profile (wilderness, urban, water rescue, alpine, disaster response, payload essentials);
+Branch Three, the Budget Tier:
+  Tier 0, Evaluation and Proficiency ($300 to $1,500 acquisition; proof-of-concept-through-production framing universal to any new capability; DJI Mini 4 Pro, Autel Nano Plus, BetaFPV Cetus Pro; SDK and simulator references including DJI Mobile SDK, Parrot Olympe, PX4, ArduPilot, AirSim, Gazebo);
+  Tier 1, Volunteer ($3,000 to $15,000);
+  Tier 2, Small Professional ($15,000 to $60,000);
+  Tier 3, Medium Professional ($60,000 to $250,000);
+  Tier 4, Large Program or Federal Agency ($250,000 to $2 million plus);
+a Worked Five-Year Total Cost of Ownership (Tier 3 example, approximately $430,000 over five years against $200,000 acquisition);
+Funding Sources (HSGP with UASI consolidated into SHSP in FY 2025, AFG admissible for drones, SAFER personnel-only, JAG restricted, Operation Stonegarden);
+Crew Complement and Incident Command Integration;
+Insurance and Liability (FTCA, sovereign immunity, commercial insurance);
+the Buying Timeline (6 to 18 months from decision to operational capability);
+Out of Scope;
+Conclusion.
+
+Research agent verified
+the FAR 52.240-1 effective date and citation,
+the ADSA 2023 enactment as part of FY 2024 NDAA,
+the corrected attribution of Section 1709 to FY 2025 NDAA,
+the DCMA Blue UAS list transfer of 3 December 2025,
+the JAG restriction on drone procurement per Bureau of Justice Assistance guidance,
+the UASI consolidation into SHSP in FY 2025,
+the SAFER personnel-only scope,
+current 2026 prices for representative platforms,
+and the structural gap that no NDAA-compliant prosumer thermal multicopter sells under $10,000 in the US market.
+The article incorporates these findings as factual corrections rather than as commentary.
+
+References:
+60 references across Reference (58) and Related Post (2) categories.
+All inline-linked per project style.
+A145 (physics and economics companion) cited via post_url.
+A134 (payload and mission systems) cited via post_url.
+Forward reference to a future A147 (drone development companion) is plain prose without a post_url tag, to be upgraded after A147 publishes.
+
+**Remaining Work**:
+Human review of buyer-decision claims and the Tier 0 framing.
+Confirm publication date.
+
 ### Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics — Published
 
 **File**: `_posts/2026-05-15-fixed_wing_multicopter_and_hybrid_drones_for_search_and_rescue.markdown`
