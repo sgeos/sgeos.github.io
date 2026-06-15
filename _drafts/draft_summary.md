@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### A Buyer's Decision Framework for Search and Rescue Drones — New Draft
+### A Buyer's Decision Framework for Search and Rescue Drones — Published
 
-**File**: `_drafts/buyers_decision_framework_for_search_and_rescue_drones.markdown`
+**File**: `_posts/2026-05-16-buyers_decision_framework_for_search_and_rescue_drones.markdown`
 **Topic**: Practitioner buyer's decision framework for US-based search and rescue drone procurement in 2026, the actionable companion to A145. Three-branch decision tree on funding source, mission profile, and budget tier. Five budget tiers including a Tier 0 proof-of-concept tier for organizations beginning a program. Worked five-year total cost of ownership. Federal funding source map. Crew complement and Incident Command System integration. Insurance and liability. Buying timeline.
 **Article Number**: A146
 **Completion**: 100%
 **Publication Sensibility**: High
-**Status**: New Draft (60 references; 1,755 lines)
+**Status**: Published 2026-05-16 (60 references; 1,755 lines)
 
 Standalone aerospace and engineering analytical article on UAV procurement for SAR.
 Sections covered include
@@ -64,10 +64,6 @@ All inline-linked per project style.
 A145 (physics and economics companion) cited via post_url.
 A134 (payload and mission systems) cited via post_url.
 Forward reference to a future A147 (drone development companion) is plain prose without a post_url tag, to be upgraded after A147 publishes.
-
-**Remaining Work**:
-Human review of buyer-decision claims and the Tier 0 framing.
-Confirm publication date.
 
 ### Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics — Published
 
