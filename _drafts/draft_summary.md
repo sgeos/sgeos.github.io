@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics — New Draft
+### Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics — Published
 
-**File**: `_drafts/fixed_wing_multicopter_and_hybrid_drones_for_search_and_rescue.markdown`
-**Topic**: Comparative analysis of the three drone platform classes (fixed-wing, multicopter, hybrid VTOL) for search and rescue, covering the underlying physics, capital outlay, upkeep costs, and personnel training. The first of a two-part series; the buyer's decision framework will follow as A146.
+**File**: `_posts/2026-05-15-fixed_wing_multicopter_and_hybrid_drones_for_search_and_rescue.markdown`
+**Topic**: Comparative analysis of the three drone platform classes (fixed-wing, multicopter, hybrid VTOL) for search and rescue, covering the underlying physics, capital outlay, upkeep costs, and personnel training. The first of a two-part series, with the buyer's decision framework to follow as A146.
 **Article Number**: A145
 **Completion**: 100%
 **Publication Sensibility**: High
-**Status**: New Draft (57 references; 1,824 lines)
+**Status**: Published 2026-05-15 (57 references; 1,824 lines)
 
 Standalone aerospace and engineering analytical article on UAVs in search and rescue.
 Sections covered include
@@ -54,11 +54,6 @@ All inline-linked per project style.
 A parallel research agent verified physics references (Wikipedia momentum theory, drag equation, Reynolds number, Breguet, figure of merit, disk loading), platform references (current URLs for ScanEagle, Skylark, Skydio X10, Penguin C as Edge Autonomy), regulatory references (eCFR Part 107 as primary source, FAA public safety page, EASA), training references (DJI Academy, Skydio Academy, AOPA), and SAR-specific references (DRONERESPONDERS, NASAR).
 Vendor URLs returning 403 to curl are documented bot-detection patterns, valid for human readers.
 No internal research cited.
-
-**Remaining Work**:
-Human review of physics derivations and economic figures.
-Confirm publication date.
-A146 (buyer's decision framework) will be the companion follow-up.
 
 ### A Worked SBIR and STTR Campaign for a Fixed-Wing UAV — Published
 
