@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Research and Development for Search and Rescue Drones — New Draft
+### Research and Development for Search and Rescue Drones — Published
 
-**File**: `_drafts/research_and_development_for_search_and_rescue_drones.markdown`
+**File**: `_posts/2026-05-17-research_and_development_for_search_and_rescue_drones.markdown`
 **Topic**: Third article in the SAR drone series after A145 (physics and economics) and A146 (buyer's framework). Treats the research and development side for the smaller audience of academic SAR research groups, federal labs, public-safety agencies with engineering staff, SBIR awardees, and the supporting contractor base. Build-versus-buy frame, federal R&D funding sources, university and federal lab partnerships, the SDK and simulator landscape, custom payload development, regulatory pathways for experimental aircraft, intellectual property in federally funded research, and the technology transition through the valley of death.
 **Article Number**: A147
 **Completion**: 100%
 **Publication Sensibility**: High for the R&D audience; not for the general SAR buyer audience
-**Status**: New Draft (101 references; 2,015 lines)
+**Status**: Published 2026-05-17 (101 references; 2,015 lines)
 
 Standalone aerospace, engineering, and program-management analytical article.
 Sections covered include
@@ -62,10 +62,6 @@ References:
 All inline-linked per project style.
 A145 (physics and economics) and A146 (buyer's framework) cited via post_url as the prior articles in the SAR drone series.
 A112 (prototyping), A132 (SBIR intro), A138 (Phase III), A139 (data rights), A141 (after the award), A142 (strategy), and A144 (worked campaign) cited via post_url as the prior SBIR and fixed-wing UAV series articles.
-
-**Remaining Work**:
-Human review of build-versus-buy claims and the transition pathway.
-Confirm publication date.
 
 ### A Buyer's Decision Framework for Search and Rescue Drones — Published
 
