@@ -18,6 +18,54 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Operator Training and Certification for a Search and Rescue Drone Program — New Draft
+
+**File**: `_drafts/operator_training_and_certification_for_search_and_rescue_drone_programs.markdown`
+**Topic**: Fifth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), and A148 (geographic setting). Disaggregates the operator training cost that A146 mentioned in passing into a five-layer training stack (FAA Part 107, manufacturer training, SAR operational training, NIMS and ICS, specialised operations). Per-layer cost and timeline. Recurrency requirements. Crew roles and training pathways. Operator pool construction. Training budget by program tier.
+**Article Number**: A149
+**Completion**: 100%
+**Publication Sensibility**: High for the buyer audience (complements A146 as the operator-investment companion)
+**Status**: New Draft (56 references; 2,059 lines)
+
+Standalone aerospace and engineering analytical article on operator training and certification for SAR drone programmes.
+Sections covered include
+opening as fifth in the SAR drone series;
+Why Training Dominates the Cost (personnel scaling, currency accumulation, turnover replacement);
+The Five Layers of the Training Stack (overview);
+Layer 1, the Regulatory Minimum (FAA Part 107 certificate, ALC-451 recurrent course, waivers and exemptions, Public Aircraft Operations pathway);
+Layer 2, Manufacturer Training (DJI Enterprise Learning Center, Skydio Academy, Parrot Certified Training Program, AeroVironment training, Quantum Systems, Wingtra);
+Layer 3, SAR Operational Training (DRONERESPONDERS UNITE, TEEX UAS programmes, NASAR SARTech series, NDSU/NPUASTS, Sinclair, Embry-Riddle);
+Layer 4, NIMS and ICS Integration (IS-100, IS-200, IS-700, IS-800, ICS-300, ICS-400, NWCG alignment);
+Layer 5, Specialised Operations (night, OOP with ASTM F3322, BVLOS, wildfire NWCG taskbooks);
+Recurrency and Currency Maintenance (per-layer recurrency, flight-hour requirements);
+Crew Roles and Training Pathways (Visual Observer, Sensor Operator, Remote Pilot in Command, Search Team Coordinator, UAS Team Leader with role-cost scorecard table);
+Building the Operator Pool (selection, volunteer vs paid, retention, multi-platform qualification);
+Training Budget by Program Size (scorecard table mapping to A146's five tiers);
+Out of Scope (sensor selection training, maintenance technician training, state-by-state variation, international frameworks);
+Conclusion.
+
+Research agent verified
+the FAA Part 107 and ACS materials,
+the FEMA Independent Study and ICS course catalogue,
+the NWCG Next Generation Position Task Book pathway,
+the SAR-specific training providers,
+the manufacturer training portals,
+and the NIST Standard Test Methods adoption pathway.
+Critical factual corrections applied:
+the non-existent "NIMS UAS Group Supervisor" position renamed to "UAS Team Leader" with reference to the actual NWCG UASM position and FEMA NIMS-509 sUAS team typing,
+the non-existent NWCG "UASGS" and "RPM" positions replaced with the actual NWCG UASP, UASM, and UASL positions,
+the "NIST-licensed evaluator" claim for TEEX corrected to "NIST-aligned evaluator" with reference to ASTM Committee E54.09 and the Airborne Public Safety Association as the credentialing bodies,
+and URL corrections for ICS-300/400 (separate catalogue URLs), Embry-Riddle (bachelor's programme), Sinclair (UAS center), AeroVironment (Puma product page since training is contract-bundled), Parrot (certified training programme), NDSU/NPUASTS (test site), TEEX (sUAS-specific programme), and Wingtra (extended services).
+
+References:
+56 references across Reference (52) and Related Post (4) categories.
+All inline-linked per project style.
+A145 (physics), A146 (buyer's framework), A147 (R&D), and A148 (geographic setting) cited via post_url.
+
+**Remaining Work**:
+Human review of the five-layer stack and the cost tables.
+Confirm publication date.
+
 ### Search and Rescue Drone Fleets by Geographic Setting — Published
 
 **File**: `_posts/2026-05-18-search_and_rescue_drone_fleets_by_geographic_setting.markdown`
