@@ -18,6 +18,55 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Research and Development for Search and Rescue Drones — New Draft
+
+**File**: `_drafts/research_and_development_for_search_and_rescue_drones.markdown`
+**Topic**: Third article in the SAR drone series after A145 (physics and economics) and A146 (buyer's framework). Treats the research and development side for the smaller audience of academic SAR research groups, federal labs, public-safety agencies with engineering staff, SBIR awardees, and the supporting contractor base. Build-versus-buy frame, federal R&D funding sources, university and federal lab partnerships, the SDK and simulator landscape, custom payload development, regulatory pathways for experimental aircraft, intellectual property in federally funded research, and the technology transition through the valley of death.
+**Article Number**: A147
+**Completion**: 100%
+**Publication Sensibility**: High for the R&D audience; not for the general SAR buyer audience
+**Status**: New Draft (101 references; 2,015 lines)
+
+Standalone aerospace, engineering, and program-management analytical article.
+Sections covered include
+opening as third in the SAR drone series;
+The Build-Versus-Buy Frame (three options: build, modify, buy with operational properties that move the program between tiers);
+When to Build, When to Modify, When to Buy (custom flight envelope, custom sensor integration, novel autonomous behaviour, multi-aircraft coordination, custom communications);
+Federal R&D Funding for SAR Drones (DHS S&T including LRBAA and SBIR and FRRG, SBIR/STTR, NIST PSCR, NIST Standard Test Methods, NASA UAS-NAS, NSF CPS and SCC, DOE national labs including Sandia ORNL INL PNNL, DARPA OFFSET and SubT);
+University and Federal Lab Partnerships (the seven FAA UAS Test Sites with the corrected chronology of six in December 2013 plus UAF in early 2014, Raspet, NREC, MIT Lincoln Lab, JHU/APL, NPS CRUSER);
+The SDK and Simulator Landscape (DJI Mobile/Onboard/Payload SDKs, Skydio Extend, Parrot Olympe and Open Flight Control, PX4, ArduPilot, ROS 2, PX4 SITL/HITL, AirSim with the full discontinued-and-continued-by-IAMAI lineage, Gazebo, NVIDIA Isaac Sim, MathWorks UAV Toolbox);
+Custom Payload Development (Pixhawk/Holybro/mRo autopilot hardware, FLIR Boson Plus and Workswell and Sierra Olympia thermal payloads, LightWare LiDAR, Raspberry Pi and NVIDIA Jetson companion computers, NDAA-compliant component sourcing);
+Regulatory Pathways for Experimental Aircraft (Part 107, Section 44807, COA, Special Airworthiness Certificate, Type Certification, Part 108 NPRM);
+Intellectual Property in Federally Funded Research (Bayh-Dole, SBIR uniform 20-year data rights regime under May 2019 SBA Policy Directive and DFARS Final Rule January 2025, Stevenson-Wydler and CRADAs, DFARS 252.227-7013/-7014, STTR pre-award allocation);
+Technology Transition from Prototype to Operational Use (valley of death, SBIR Phase III sole-source, DHS T2C and CAP, FAA Type Certification, NIST Standard Test Methods as gates, operator demonstrations through DRONERESPONDERS UNITE);
+Out of Scope (detailed engineering of custom platforms covered in A112 through A131, international R&D, counter-UAS, manned aircraft integration, commercial-only development);
+Conclusion.
+
+Research agent verified
+the underlying SDK and platform URLs,
+the federal funding programmes,
+the university lab and FAA test site URLs,
+the regulatory pathway URLs,
+and the intellectual property regime documents.
+Critical factual corrections applied:
+the SBIR data rights regime corrected to the uniform 20-year window under the May 2019 SBA Policy Directive (the pre-2019 4-years-plus-12 regime no longer applies),
+the FAA UAS Test Site chronology corrected to six designated December 2013 plus UAF early 2014,
+the Nevada UAS Test Site updated to the UNR Nevada Autonomous programme (March 2022 transition),
+the University of Maryland UAS Test Site updated to UROC (October 2022 rebrand),
+the Naval Postgraduate School lab corrected from the non-existent CAVR to the actual CRUSER,
+the AirSim lineage corrected to acknowledge the July 2022 archive, the December 2023 Project AirSim discontinuation, and the IAMAI Simulations continuation,
+and the DHS transition vehicles updated from the older Transition to Practice programme to the current Technology Transfer and Commercialization Program plus the Commercialization Accelerator Program.
+
+References:
+101 references across Reference (92) and Related Post (9) categories.
+All inline-linked per project style.
+A145 (physics and economics) and A146 (buyer's framework) cited via post_url as the prior articles in the SAR drone series.
+A112 (prototyping), A132 (SBIR intro), A138 (Phase III), A139 (data rights), A141 (after the award), A142 (strategy), and A144 (worked campaign) cited via post_url as the prior SBIR and fixed-wing UAV series articles.
+
+**Remaining Work**:
+Human review of build-versus-buy claims and the transition pathway.
+Confirm publication date.
+
 ### A Buyer's Decision Framework for Search and Rescue Drones — Published
 
 **File**: `_posts/2026-05-16-buyers_decision_framework_for_search_and_rescue_drones.markdown`
