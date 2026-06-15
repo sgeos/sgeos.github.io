@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Search and Rescue Drone Fleets by Geographic Setting — New Draft
+### Search and Rescue Drone Fleets by Geographic Setting — Published
 
-**File**: `_drafts/search_and_rescue_drone_fleets_by_geographic_setting.markdown`
+**File**: `_posts/2026-05-18-search_and_rescue_drone_fleets_by_geographic_setting.markdown`
 **Topic**: Fourth article in the SAR drone series after A145 (physics and economics), A146 (buyer's framework), and A147 (R&D companion). Treats the urban-to-frontier geographic axis as an independent fleet-selection filter alongside A146's mission-profile filter. Four operational levels (Densely Urban, Suburban or Small Urban, Rural, Frontier and Remote) mapped to federal classifications (RUCC, RUCA, CDC NCHS, FAR). Per-level platform mix, fleet sizing, airspace and regulatory posture, funding map, and crew complement. Parallel-operations patterns (single-aircraft serial, single-class parallel, cross-class parallel, multi-aircraft swarms, manned-unmanned teaming). Reading-order table for the four articles in the series.
 **Article Number**: A148
 **Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (complements A146)
-**Status**: New Draft (51 references; 1,694 lines)
+**Status**: Published 2026-05-18 (51 references; 1,694 lines)
 
 Standalone aerospace and engineering analytical article on the geographic-setting filter for SAR drone fleet selection.
 Sections covered include
@@ -58,10 +58,6 @@ References:
 51 references across Reference (48) and Related Post (3) categories.
 All inline-linked per project style.
 A145 (physics and economics), A146 (buyer's framework), and A147 (R&D companion) cited via post_url as the prior articles in the SAR drone series.
-
-**Remaining Work**:
-Human review of the four-level mapping and the parallel-operations claims.
-Confirm publication date.
 
 ### Research and Development for Search and Rescue Drones — Published
 
