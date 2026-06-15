@@ -18,6 +18,73 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Sensor and Payload Selection for Search and Rescue Drones — New Draft
+
+**File**: `_drafts/sensor_and_payload_selection_for_search_and_rescue_drones.markdown`
+**Topic**: Sixth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training). Treats the sensor payload as the principal mission-capability decision the programme manager makes after the airframe and the operator training. Six sensor categories (thermal imaging, electro-optical visible, lidar, multispectral and hyperspectral, audio payloads, specialised). Per-class physics, performance metrics, resolution tiers, vendor landscape. Payload integration covering mass, power, data bandwidth, gimbal mount, and MISB metadata. Sensor mix by mission profile scorecard table. Sensor budget by programme tier table mapping to A146 tiers.
+**Article Number**: A150
+**Completion**: 100%
+**Publication Sensibility**: High for the buyer audience (complements A146 as the sensor-investment companion)
+**Status**: New Draft (49 references; 2,989 lines)
+
+Standalone aerospace and engineering analytical article on sensor and payload selection for SAR drone programmes.
+Sections covered include
+opening as sixth in the SAR drone series;
+Why the Sensor Frames the Mission (sensor defines detection envelope, airframe defines coverage);
+The Sensor Stack Taxonomy (six categories with detection physics, typical range, per-sensor cost tier table);
+Thermal Imaging (uncooled LWIR vs cooled MWIR, NETD, four resolution tiers from entry through frontier, radiometric vs non-radiometric, vendor landscape);
+Electro-Optical Visible Imaging (sensor format, resolution, stabilisation, low-light and starlight imaging);
+Lidar (range, point density, return modes, georegistration via RTK and PPK, vendor landscape);
+Multispectral and Hyperspectral Imaging (wildfire SWIR application, water rescue, ground anomaly detection);
+Audio Sensors and Acoustic Payloads (loudspeaker payloads, acoustic detection research phase);
+Payload Integration (mass and endurance trade, power budget, data bandwidth, gimbal mount standards including DJI Skyport and ASTM F38, MISB KLV and STANAG 4609 metadata);
+Sensor Mix by Mission Profile (eight-profile scorecard table from night land search through underwater);
+Sensor Budget by Program Tier (five-tier scorecard table mapping to A146 tiers);
+Out of Scope (sensor-specific operator training, maintenance and lifecycle management, machine learning detection algorithms, export control regime, specialised sensors, underwater payloads, international regulatory regimes);
+Conclusion.
+
+Research agent verified
+the FLIR Boson Plus and Boson core distinction (NETD 20 mK vs 50 mK),
+the Hadron 640R modular pairing,
+the Tau 2 pixel pitch and ITAR classification,
+the Workswell WIRIS Pro 640x512 and WIRIS Security 800x600 split,
+the Sierra-Olympia naming where Vinden is uncooled LWIR and Ventus is cooled MWIR,
+the DJI Zenmuse L2 five-return survey lidar performance,
+the DJI Zenmuse V1 thermal-and-loudspeaker payload at 127 dB and 500 metres,
+the LightWare microLiDAR altimeter line,
+the Ouster-Velodyne merger,
+the YellowScan and Riegl survey-grade configurations,
+the MicaSense AgEagle ownership and Altum-PT thermal-multispectral configuration,
+the Cubert ULTRIS snapshot hyperspectral line,
+the MISB ST 0601 KLV and STANAG 4609 motion imagery interoperability framework,
+the ASTM F38 subcommittee structure and the ISO 21895 categorisation standard,
+the MIL-STD-704 aircraft and MIL-STD-1275 ground vehicle power standards,
+and
+the DroneAudioset benchmark for distress-signal detection research.
+
+Critical factual corrections applied:
+the "Brigade Electronics drone loudspeaker line" claim removed since Brigade has no public drone loudspeaker product, replaced with the DJI Zenmuse V1 integrated payload and the Sky Speaker-I aftermarket payload from Yangda;
+the "SkyShout purpose-built drone loudspeaker payloads" claim removed since the SkyShout manufacturer attribution could not be verified, replaced with the Sky Speaker-I from Yangda;
+the Carnegie Mellon whistle detection attribution softened to "CMU Robotics Institute AirLab work on SAR-oriented aerial robotics" with the DroneAudioset benchmark cited as the specific distress-signal research anchor;
+the "12 volt and 28 volt drone payload power bus standards" claim reframed since the drone industry has not adopted either MIL-STD-704 or MIL-STD-1275 as a universal payload bus, with both standards now cited as relevant aviation power standards rather than drone standards;
+the "ASTM Committee F38 universal payload mount standard" claim reframed since F38 has not standardised a universal payload mount, with the DJI SkyPort and X-Port through the DJI Payload SDK cited as the dominant Enterprise mount and fixed-wing platforms noted as vendor-specific custom mounts;
+URL corrections for FLIR Boson Plus and Hadron 640R (oem.flir.com pages),
+the Workswell WIRIS Pro page,
+the Freefly MoVI XL store page,
+the YellowScan compare-products page,
+the Sierra-Olympia airborne cameras page,
+the DJI Payload SDK developer portal,
+the Sony Starvis Framos overview page.
+
+References:
+49 references across Reference (44) and Related Post (5) categories.
+All inline-linked per project style.
+A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training) cited via post_url.
+
+**Remaining Work**:
+Human review of the five sensor categories and the cost tables.
+Confirm publication date.
+
 ### Operator Training and Certification for a Search and Rescue Drone Program — Published
 
 **File**: `_posts/2026-05-19-operator_training_and_certification_for_search_and_rescue_drone_programs.markdown`
