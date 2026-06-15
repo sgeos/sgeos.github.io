@@ -18,6 +18,48 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics — New Draft
+
+**File**: `_drafts/fixed_wing_multicopter_and_hybrid_drones_for_search_and_rescue.markdown`
+**Topic**: Comparative analysis of the three drone platform classes (fixed-wing, multicopter, hybrid VTOL) for search and rescue, covering the underlying physics, capital outlay, upkeep costs, and personnel training. The first of a two-part series; the buyer's decision framework will follow as A146.
+**Article Number**: A145
+**Completion**: 100%
+**Publication Sensibility**: High
+**Status**: New Draft (57 references; 1,824 lines)
+
+Standalone aerospace and engineering analytical article on UAVs in search and rescue.
+Sections covered include
+opening problem framing;
+the three platform classes (fixed-wing, multicopter, hybrid VTOL with examples);
+the physics of fixed-wing flight (lift, drag, lift-to-drag ratio, Reynolds number and the low-Reynolds-number regime, the electric Breguet endurance equation);
+the physics of multicopter flight (Rankine and Froude actuator disk theory, hover power, disk loading, figure of merit, forward-flight power minimum, battery endurance);
+the physics of hybrid VTOL aircraft (tail-sitter, quad-plane and convertiplane, tilt-rotor and tilt-wing, the cruise efficiency penalty);
+performance implications for search and rescue with a scorecard table;
+the four-phase SAR use case sequence (wide-area search, target investigation, intervention, sustained coverage);
+capital outlay with a price-range table covering multicopter, hybrid VTOL, and fixed-wing classes;
+upkeep costs with a per-platform annual cost table covering batteries, propellers, motors, airframe inspection, sensor calibration, ground station, spectrum, insurance, and incident repair;
+personnel training (FAA Part 107, manufacturer training, search-and-rescue specific training, recurrency) with a training cost table;
+the hybrid compromise with a scorecard table;
+Out of Scope (defers detailed regulatory compliance, sensor technology in depth, weather minima and operational envelopes, mission-system architecture, and specific procurement guidance);
+conclusion.
+
+MathJax used throughout the physics sections.
+
+Cross-links via post_url to the existing series:
+A114 (runway sizing), A116 (launch and recovery), A123 (propulsion and power sizing), A125 (electric energy systems and endurance budget), A134 (payload and mission systems), A135 (regulatory and operations layer), A144 (worked SBIR campaign).
+
+References:
+57 references across Reference (50) and Related Post (7) categories.
+All inline-linked per project style.
+A parallel research agent verified physics references (Wikipedia momentum theory, drag equation, Reynolds number, Breguet, figure of merit, disk loading), platform references (current URLs for ScanEagle, Skylark, Skydio X10, Penguin C as Edge Autonomy), regulatory references (eCFR Part 107 as primary source, FAA public safety page, EASA), training references (DJI Academy, Skydio Academy, AOPA), and SAR-specific references (DRONERESPONDERS, NASAR).
+Vendor URLs returning 403 to curl are documented bot-detection patterns, valid for human readers.
+No internal research cited.
+
+**Remaining Work**:
+Human review of physics derivations and economic figures.
+Confirm publication date.
+A146 (buyer's decision framework) will be the companion follow-up.
+
 ### A Worked SBIR and STTR Campaign for a Fixed-Wing UAV — Published
 
 **File**: `_posts/2026-06-27-worked_sbir_and_sttr_campaign_for_a_fixed_wing_uav.markdown`
