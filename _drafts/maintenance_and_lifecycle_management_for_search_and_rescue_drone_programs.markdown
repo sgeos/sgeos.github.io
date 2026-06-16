@@ -489,7 +489,7 @@ the category one maintenance,
 and
 the manufacturer warranty programme
 such as
-the [DJI Enterprise Care service plan][ref_dji_care]
+the [DJI Care Enterprise service plan][ref_dji_care]
 that
 the larger programme alternative supplements
 with
@@ -641,19 +641,32 @@ the maintenance programme uses
 to plan
 the battery replacement schedule.
 The DJI Intelligent Flight Battery
-specifies
+defines
+one cycle
+as
+75 percent of
+the rated capacity consumed
+rather than
+the full discharge
+that
+the operator workflow might suggest,
+which means
+the cycle count
+that
+the battery management system records
+already accounts for
+the partial discharge cycles
+that
+the operating sortie typically produces.
+The [DJI Battery Maintenance documentation][ref_dji_battery]
+publishes
 the 200 cycle threshold
 that
 the vendor recommends
 as
 the battery retirement point
 for
-the Enterprise platform fleet,
-which
-the [DJI Battery Maintenance documentation][ref_dji_battery]
-publishes
-through
-the Enterprise support channel.
+the Enterprise platform fleet.
 
 The state of health monitoring
 that
@@ -782,14 +795,37 @@ and
 the [International Air Transport Association Dangerous Goods Regulations][ref_iata_dgr]
 that
 the air transport operates under.
+The 67th Edition
+of
+the IATA Dangerous Goods Regulations
+effective 1 January 2026
+introduces
+the requirement
+that
+the lithium-ion cells and batteries
+shipped under
+the United Nations identifier 3480
+and 3481
+operate at
+no more than 30 percent of
+the rated state of charge
+during transport,
+which
+the operating programme accommodates
+in
+the battery shipment workflow
+that
+the deployment cycle requires.
 The domestic ground and air transport
 in
 the United States
 operates under
-the [Department of Transportation 49 CFR Part 173][ref_49_cfr_173]
-hazardous materials regulations
+the [Department of Transportation 49 CFR Part 173.185][ref_49_cfr_173]
+lithium cells and batteries regulation
 that
-the Pipeline and Hazardous Materials Safety Administration administers.
+the Pipeline and Hazardous Materials Safety Administration administers
+through
+the [PHMSA Lithium Battery Guide for Shippers][ref_phmsa_lithium].
 
 The programme manager
 that
@@ -859,9 +895,29 @@ the consumer-oriented battery recycling network
 that
 the smaller SAR programme uses
 for
-the retired drone battery disposal,
-and
-the dedicated industrial recycling vendor
+the retired intact drone battery disposal,
+with
+the explicit limitation
+that
+the Call2Recycle network
+does not accept
+the damaged, swollen, leaking, or recalled batteries
+that
+the operating mishap commonly produces,
+which means
+the SAR programme
+that
+recovers
+the crashed-platform battery
+from
+the field deployment
+routes
+that battery
+to
+the local hazardous waste facility
+rather than
+the Call2Recycle drop point.
+The dedicated industrial recycling vendor
 that
 the larger SAR programme contracts with
 handles
@@ -905,8 +961,23 @@ at
 the manufacturer-recommended cadence,
 typically
 the annual cadence
-for
-the field-deployed imager.
+that
+the industry practice has converged on
+rather than
+the National Institute of Standards and Technology mandate
+that
+the operating programme might assume.
+The [ANSI National Accreditation Board and the American Association for Laboratory Accreditation][ref_a2la]
+maintain
+the searchable directories
+of
+the accredited calibration laboratories
+that
+the operating programme uses
+to find
+the calibration vendor
+in
+the operating jurisdiction.
 The calibration verifies
 the absolute temperature accuracy
 that
@@ -1196,8 +1267,7 @@ that
 the older ground stations may run
 reached
 the end of standard support
-in
-October 2025,
+on 14 October 2025,
 which means
 the programme
 that
@@ -1211,6 +1281,7 @@ the extended security update programme
 that
 the [Microsoft Extended Security Update programme][ref_microsoft_esu]
 provides
+through 13 October 2026
 for
 the cost
 that
@@ -2026,12 +2097,14 @@ the multi-year programme cycle imposes.
 
 ## References
 
+- [Reference, ANSI National Accreditation Board and A2LA Calibration Laboratory Directories][ref_a2la]
 - [Reference, Call2Recycle Lithium Battery Recycling Programme][ref_call2recycle]
 - [Reference, DJI Battery Maintenance Documentation][ref_dji_battery]
 - [Reference, DJI Care Refresh Replacement Programme][ref_dji_care_refresh]
-- [Reference, DJI Enterprise Care Service Plan][ref_dji_care]
+- [Reference, DJI Care Enterprise Service Plan][ref_dji_care]
 - [Reference, DJI Security Trust Center][ref_dji_security]
 - [Reference, Department of State Directorate of Defense Trade Controls][ref_ddtc]
+- [Reference, PHMSA Lithium Battery Guide for Shippers][ref_phmsa_lithium]
 - [Reference, Department of Transportation 49 CFR Part 173 Hazardous Materials Regulations][ref_49_cfr_173]
 - [Reference, Electronics TakeBack Coalition][ref_etbc]
 - [Reference, FAA Airworthiness Certification][ref_faa_airworthiness]
@@ -2050,12 +2123,14 @@ the multi-year programme cycle imposes.
 - [Related Post, Search and Rescue Drone Fleets by Geographic Setting][related_post_a148_geographic]
 - [Related Post, Sensor and Payload Selection for Search and Rescue Drones][related_post_a150_sensors]
 
-[ref_49_cfr_173]: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173
+[ref_49_cfr_173]: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-E/section-173.185
+[ref_a2la]: https://a2la.org/accreditation/calibration/
 [ref_call2recycle]: https://www.call2recycle.org/
+[ref_phmsa_lithium]: https://www.phmsa.dot.gov/lithiumbatteries
 [ref_ddtc]: https://www.pmddtc.state.gov/
-[ref_dji_battery]: https://enterprise.dji.com/support
-[ref_dji_care]: https://www.dji.com/enterprise-shield
-[ref_dji_care_refresh]: https://www.dji.com/service/djicare-refresh
+[ref_dji_battery]: https://support.dji.com/help/content?customId=en-us03400006549
+[ref_dji_care]: https://www.dji.com/support/service
+[ref_dji_care_refresh]: https://www.dji.com/support/service/djicare-refresh
 [ref_dji_security]: https://security.dji.com/
 [ref_etbc]: https://www.electronicstakeback.com/
 [ref_faa_airworthiness]: https://www.faa.gov/aircraft/air_cert
