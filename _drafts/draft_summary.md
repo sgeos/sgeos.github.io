@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Sensor and Payload Selection for Search and Rescue Drones — New Draft
+### Sensor and Payload Selection for Search and Rescue Drones — Published
 
-**File**: `_drafts/sensor_and_payload_selection_for_search_and_rescue_drones.markdown`
+**File**: `_posts/2026-05-20-sensor_and_payload_selection_for_search_and_rescue_drones.markdown`
 **Topic**: Sixth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training). Treats the sensor payload as the principal mission-capability decision the programme manager makes after the airframe and the operator training. Six sensor categories (thermal imaging, electro-optical visible, lidar, multispectral and hyperspectral, audio payloads, specialised). Per-class physics, performance metrics, resolution tiers, vendor landscape. Payload integration covering mass, power, data bandwidth, gimbal mount, and MISB metadata. Sensor data management and chain of custody covering data volume, storage architecture, evidentiary chain of custody, records retention and FOIA, state drone surveillance laws, federal procurement and Blue UAS, cybersecurity controls, vendor data handling policies, and calibration records as evidentiary support. Sensor mix by mission profile scorecard table. Sensor budget by programme tier table mapping to A146 tiers.
 **Article Number**: A150
 **Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (complements A146 as the sensor-and-data investment companion)
-**Status**: New Draft (81 references; 4,364 lines)
+**Status**: Published 2026-05-20 (81 references; 4,364 lines)
 
 Standalone aerospace and engineering analytical article on sensor and payload selection for SAR drone programmes.
 Sections covered include
@@ -94,8 +94,7 @@ All inline-linked per project style.
 A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training) cited via post_url.
 
 **Remaining Work**:
-Human review of the five sensor categories and the cost tables.
-Confirm publication date.
+None. Published.
 
 ### Operator Training and Certification for a Search and Rescue Drone Program — Published
 
