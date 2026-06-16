@@ -23,9 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **File**: `_drafts/maintenance_and_lifecycle_management_for_search_and_rescue_drone_programs.markdown`
 **Topic**: Seventh and final article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), A149 (operator training), and A150 (sensor and payload selection with embedded data management). Series terminus. Treats the maintenance and lifecycle management as the second principal cost driver after the operator training programme. Five-layer maintenance stack covering airframe, battery lifecycle, payload calibration, firmware and software, and ground support equipment. Pre-flight and post-flight inspection, scheduled periodic maintenance, mishap repair. Battery cycle counting, state of health monitoring, storage protocols, transport regulations (UN 38.3, IATA DGR, 49 CFR Part 173), disposal and recycling. Payload calibration covering thermal radiometric, lidar boresight, multispectral spectral, gimbal alignment. Firmware and software lifecycle including vendor update cadence and ground station OS lifecycle. Spare parts strategy. Five-year total cost of ownership scorecard table by programme tier with maintenance fraction. End-of-life disposition covering lithium battery recycling, e-waste, and ITAR-controlled sensor disposition. Series synthesis closing the seven-article series.
 **Article Number**: A151
-**Completion**: 100% (pending research agent verification pass)
+**Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (closes the series with the operating-cost picture)
-**Status**: New Draft (23 references; 2,076 lines)
+**Status**: New Draft (25 references; 2,151 lines)
 
 Standalone aerospace and engineering analytical article on maintenance and lifecycle management for SAR drone programmes.
 Sections covered include
@@ -43,15 +43,42 @@ Series Synthesis (seven-domain decision space recapitulation);
 Out of Scope (operator maintenance training, airworthiness certification for non-Part 107 platforms, cybersecurity incident response, maritime SAR specific maintenance, international logistics);
 Conclusion (series terminus).
 
-Research agent commissioned for vendor maintenance schedules, battery management standards, calibration cadence and pricing, FAA Part 107 and Public Aircraft Operations maintenance requirements, end-of-life lithium battery disposal, vendor warranty terms, and spare parts pricing. Pending application of corrections when agent returns.
+Research agent verified
+the DJI Care Enterprise and DJI Maintenance Program tier structures,
+the DJI Intelligent Flight Battery cycle definition where one cycle equals 75 percent of rated capacity consumed,
+the Skydio Care Enterprise availability for X10 with the explicit exclusion of X10D Blue UAS variant,
+the WingtraCARE and Total Maintenance Plan service tiers,
+the UN 38.3 Revision 8 with Amendment 1,
+the IATA Dangerous Goods Regulations 67th Edition effective 1 January 2026 with the new 30 percent state of charge limit for UN 3480 and UN 3481 shipments,
+the 49 CFR 173.185 lithium cells and batteries regulation,
+the PHMSA Lithium Battery Guide for Shippers,
+the IEC 62133-2 portable sealed secondary lithium cell safety standard,
+the ANSI National Accreditation Board and A2LA accreditation pathway,
+the FAA Part 107.49 preflight inspection requirement,
+the FAA Public Aircraft Operations guidance through AC 00-1.1B,
+the FAA AC 107-2A current revision,
+the ASTM F2909 Continued Airworthiness specification,
+the 14 CFR Part 43 applicability limitation to Category 4 operations,
+the Call2Recycle network with the explicit damaged battery limitation,
+and
+the Microsoft Windows 10 end of standard support on 14 October 2025 with ESU through 13 October 2026.
+
+Critical factual corrections applied:
+the "DJI Enterprise Care" naming corrected to "DJI Care Enterprise";
+the DJI Intelligent Flight Battery cycle definition clarified to 75 percent of rated capacity consumed rather than full discharge;
+the IATA DGR 67th Edition January 2026 30 percent state of charge limit added for lithium battery shipment;
+the Call2Recycle limitation clarified that the network does not accept damaged, swollen, leaking, or recalled batteries with the local hazardous waste facility cited as the disposal pathway for the crashed platform battery;
+the NIST traceability framed as industry best practice rather than NIST mandate;
+the ANSI National Accreditation Board and A2LA cited as the accreditation pathway for ISO IEC 17025 calibration laboratories;
+the Microsoft Windows 10 EOL date specified as 14 October 2025 with the ESU programme available through 13 October 2026;
+URL corrections for the DJI Battery Maintenance Guide specific support article, the DJI Care service portal, the DJI Care Refresh specific URL, and the 49 CFR 173.185 specific section URL.
 
 References:
-23 references across Reference (17) and Related Post (6) categories.
+25 references across Reference (19) and Related Post (6) categories.
 All inline-linked per project style.
 A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), A149 (operator training), and A150 (sensors and data) cited via post_url.
 
 **Remaining Work**:
-Apply research agent corrections.
 Human review of the maintenance stack and the TCO tables.
 Confirm publication date.
 
