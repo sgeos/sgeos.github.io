@@ -18,6 +18,43 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Maintenance and Lifecycle Management for SAR Drone Programs — New Draft
+
+**File**: `_drafts/maintenance_and_lifecycle_management_for_search_and_rescue_drone_programs.markdown`
+**Topic**: Seventh and final article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), A149 (operator training), and A150 (sensor and payload selection with embedded data management). Series terminus. Treats the maintenance and lifecycle management as the second principal cost driver after the operator training programme. Five-layer maintenance stack covering airframe, battery lifecycle, payload calibration, firmware and software, and ground support equipment. Pre-flight and post-flight inspection, scheduled periodic maintenance, mishap repair. Battery cycle counting, state of health monitoring, storage protocols, transport regulations (UN 38.3, IATA DGR, 49 CFR Part 173), disposal and recycling. Payload calibration covering thermal radiometric, lidar boresight, multispectral spectral, gimbal alignment. Firmware and software lifecycle including vendor update cadence and ground station OS lifecycle. Spare parts strategy. Five-year total cost of ownership scorecard table by programme tier with maintenance fraction. End-of-life disposition covering lithium battery recycling, e-waste, and ITAR-controlled sensor disposition. Series synthesis closing the seven-article series.
+**Article Number**: A151
+**Completion**: 100% (pending research agent verification pass)
+**Publication Sensibility**: High for the buyer audience (closes the series with the operating-cost picture)
+**Status**: New Draft (23 references; 2,076 lines)
+
+Standalone aerospace and engineering analytical article on maintenance and lifecycle management for SAR drone programmes.
+Sections covered include
+opening as series terminus;
+Why Maintenance Drives the Multi-Year Cost (consumables, scheduled service, unscheduled service);
+The Maintenance Stack Taxonomy (five-layer scorecard table);
+Airframe Maintenance (pre-flight and post-flight inspection per Part 107.49, scheduled periodic maintenance with three categories, mishap and field-failure repair with 5 to 10 percent of platform cost per year baseline);
+Battery Lifecycle Management (cycle counting against 200 to 500 cycle thresholds, state of health monitoring with 80 percent capacity retirement criterion, storage protocols at 40 to 60 percent state of charge, transport under UN 38.3 and IATA DGR and 49 CFR Part 173, disposal through Call2Recycle and dedicated industrial recyclers);
+Payload Maintenance and Calibration (thermal radiometric annual at USD 500 to USD 2000 per cycle, lidar boresight after assembly or major repair, multispectral via reference panels, gimbal mechanical alignment);
+Firmware and Software Lifecycle (vendor update cadence with DJI and Skydio security trust centers, ground station OS lifecycle with Windows 10 EOL October 2025);
+Spare Parts Strategy (critical spare inventory ratios, vendor parts catalogues, cannibalisation for legacy fleets);
+Total Cost of Ownership (five-year scorecard table mapping to A146 tiers with 15 to 25 percent maintenance fraction);
+End-of-Life Disposition (lithium battery recycling, airframe and avionics e-waste, ITAR-controlled sensor disposition through DDTC);
+Series Synthesis (seven-domain decision space recapitulation);
+Out of Scope (operator maintenance training, airworthiness certification for non-Part 107 platforms, cybersecurity incident response, maritime SAR specific maintenance, international logistics);
+Conclusion (series terminus).
+
+Research agent commissioned for vendor maintenance schedules, battery management standards, calibration cadence and pricing, FAA Part 107 and Public Aircraft Operations maintenance requirements, end-of-life lithium battery disposal, vendor warranty terms, and spare parts pricing. Pending application of corrections when agent returns.
+
+References:
+23 references across Reference (17) and Related Post (6) categories.
+All inline-linked per project style.
+A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), A149 (operator training), and A150 (sensors and data) cited via post_url.
+
+**Remaining Work**:
+Apply research agent corrections.
+Human review of the maintenance stack and the TCO tables.
+Confirm publication date.
+
 ### Sensor and Payload Selection for Search and Rescue Drones — Published
 
 **File**: `_posts/2026-05-20-sensor_and_payload_selection_for_search_and_rescue_drones.markdown`
