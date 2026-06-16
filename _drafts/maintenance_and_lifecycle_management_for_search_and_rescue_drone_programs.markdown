@@ -1725,6 +1725,415 @@ the disposition workflow
 that
 the regulatory regime imposes.
 
+## A Worked SAR Drone Programme Walk-Through
+
+The series
+operates
+at
+the analytical level
+that
+the budgeted entity
+applies
+to
+the multi-year planning workflow,
+and
+the seven domains
+that
+the next section enumerates
+become
+the operating capability
+through
+the cross-domain integration
+that
+the programme manager performs.
+This section
+walks
+one constructed SAR drone programme
+through
+the complete planning cycle
+that
+the series describes
+to demonstrate
+the integration
+that
+the abstract seven-domain enumeration
+does not by itself produce.
+
+The constructed programme
+is
+the mid-sized regional SAR programme
+that
+operates
+in
+a temperate forested county
+of approximately
+500000 population
+with
+the substantial state forest land
+and
+the dispersed rural population
+that
+the search mission profile reflects.
+The county SAR programme
+operates
+the partnership relationship
+with
+the county sheriff
+that
+the law enforcement mission requires,
+the volunteer SAR organisation
+that
+the volunteer operator pool comes from,
+and
+the regional search and rescue council
+that
+the cross-jurisdictional operations coordinate through.
+The constructed programme
+is
+an illustrative composite
+rather than
+a specific operating entity,
+and
+the figures
+that
+the worked example uses
+are
+the typical values
+that
+the corresponding tier of
+the A146 framework characterises.
+
+### Step One, the Buyer's Framework
+
+The programme manager
+opens
+the planning workflow
+with
+the A146 buyer's framework
+to identify
+the programme tier
+that
+the multi-year capital plan operates under.
+The constructed programme
+falls into
+the Tier 2 mid-sized regional category
+that
+A146 characterises by
+the fleet of five to ten platforms,
+the operator pool of eight to fifteen Remote Pilots in Command,
+the operating tempo of 100 to 500 platform-hours per year,
+and
+the five-year capital budget of
+200000 to 1000000 United States dollars.
+The Tier 2 selection
+constrains
+the subsequent decisions
+to
+the platforms,
+the sensors,
+the training pathway,
+and
+the maintenance programme
+that
+the Tier 2 budget supports.
+
+### Step Two, the Geographic Filter
+
+The programme manager
+applies
+the A148 geographic-setting filter
+to identify
+the operating level
+that
+the constructed county imposes.
+The forested rural county
+with
+the dispersed population
+falls into
+the Level 3 rural operating level
+that
+A148 characterises by
+the fixed-wing or hybrid platform essential to coverage,
+the Class G airspace dominant,
+the State Homeland Security Programme funding stream,
+and
+the operating tempo
+that
+the wildland search mission dominates.
+The Level 3 selection
+constrains
+the platform mix
+to
+the long-endurance fixed-wing platform
+that
+the area coverage requires
+paired with
+the multicopter platform
+that
+the precision payload deployment requires.
+
+### Step Three, the Platform Selection
+
+The programme manager
+applies
+the A145 platform physics and economics
+to select
+the airframe mix
+that
+the Tier 2 budget and the Level 3 geographic filter together permit.
+The constructed programme adopts
+three multicopter platforms
+in
+the upper consumer tier
+for
+the precision-pointing missions
+and
+two hybrid VTOL fixed-wing platforms
+in
+the entry enterprise tier
+for
+the area-coverage missions,
+which corresponds to
+the platform mix
+that
+the Tier 2 multi-platform fleet typically operates.
+The platform acquisition cost
+falls in
+the 80000 to 150000 dollar range
+that
+the Tier 2 budget envelope accommodates.
+
+### Step Four, the Sensor Selection
+
+The programme manager
+applies
+the A150 sensor and payload selection
+to specify
+the payload configuration
+that
+the operating mission profile requires.
+The constructed programme adopts
+the mid-tier thermal long-wave infrared core
+on
+each multicopter
+for
+the night search and treeline search missions,
+the visible low-light camera
+on
+the same multicopter platforms
+for
+the dawn and dusk search missions,
+and
+the mid-tier survey lidar payload
+on
+one of
+the fixed-wing platforms
+for
+the forest canopy penetration missions.
+The sensor payload cost
+totals approximately
+60000 to 120000 dollars
+across
+the platform fleet,
+which falls within
+the Tier 2 sensor budget envelope
+that
+A150 specified.
+
+The data management workflow
+that
+the same A150 article addressed
+identifies
+the ground station storage class
+as
+the dominant architecture
+for
+the thermal-and-visible payload
+and
+the onboard storage class
+for
+the lidar payload,
+with
+the post-mission data ingest pipeline
+moving
+the data to
+the county sheriff's evidence repository
+through
+the formal chain of custody workflow
+that
+the article specified.
+The records retention
+follows
+the county sheriff's records schedule
+that
+the law enforcement records management adopted,
+and
+the FOIA processing
+falls under
+the state public records law
+that
+the operating jurisdiction administers.
+
+### Step Five, the Operator Training
+
+The programme manager
+applies
+the A149 operator training framework
+to plan
+the operator pool development
+across
+the five-layer training stack.
+The constructed programme
+recruits
+the operator pool
+from
+the existing volunteer SAR organisation,
+qualifies
+the eight Remote Pilots in Command
+through
+the FAA Part 107 certificate,
+trains
+the same operators
+in
+the platform-specific manufacturer programme,
+trains
+the same operators
+in
+the SAR operational training programme
+through
+the regional SAR council channels,
+and
+qualifies
+the same operators
+in
+the NIMS and ICS integration training
+that
+the law enforcement partner requires.
+The five-layer training
+stretches
+across
+the first eighteen months
+of
+the programme operating cycle,
+during which
+the operators
+transition from
+the Visual Observer role
+to
+the Remote Pilot in Command role
+as
+the training pathway permits.
+The first-year training cost
+totals approximately
+20000 to 40000 dollars
+across
+the eight operators,
+which falls within
+the Tier 2 training budget envelope
+that
+A149 specified.
+
+### Step Six, the Maintenance Programme
+
+The programme manager
+applies
+the present article on maintenance and lifecycle management
+to plan
+the multi-year maintenance programme
+across
+the five-layer maintenance stack.
+The constructed programme adopts
+the manufacturer authorised service centre relationship
+for
+the category two and category three maintenance,
+the operator pool
+for
+the category one pre-flight and post-flight maintenance,
+and
+the manufacturer warranty programme
+through
+the DJI Care Enterprise plan
+for
+the platforms
+that
+the warranty programme covers.
+The annual maintenance cost
+totals approximately
+30000 to 60000 dollars
+across
+the platform fleet
+in
+the first year of operation,
+which the programme manager budgets
+in
+the maintenance line item
+that
+the multi-year capital plan includes.
+The five-year total cost of ownership
+for
+the constructed programme
+falls in
+the 400000 to 800000 dollar range
+that
+A146 characterised
+as
+the Tier 2 multi-year envelope,
+with
+the maintenance fraction
+of
+the total cost of ownership
+falling around
+20 percent
+that
+this article identified
+as
+the typical Tier 2 maintenance fraction.
+
+### Step Seven, the Integrated Operating Cycle
+
+The constructed programme
+arrives at
+the operating capability
+that
+the planning workflow produced
+through
+the cross-domain integration
+that
+the seven articles described.
+The integrated capability
+operates
+the five-platform fleet
+with
+the trained eight-operator pool
+under
+the documented sensor and data management workflow
+that
+the partnership relationship
+with
+the county sheriff supports,
+maintained
+across
+the five-year service life
+through
+the multi-vendor maintenance programme
+that
+the manufacturer authorised service relationships establish.
+The constructed programme
+demonstrates
+the integration
+that
+the abstract seven-domain enumeration
+asserts,
+and
+the budgeted entity
+that
+follows
+the walk-through pattern
+arrives at
+the operating capability
+that
+the SAR mission profile requires.
+
 ## Series Synthesis
 
 The series
@@ -1836,6 +2245,126 @@ across
 the operating mission profile
 that
 the SAR mission imposes.
+
+### Entry-Point Matrix by Reader Question
+
+The seven-article series
+admits
+the entry pattern
+that
+the reader question dictates,
+which
+the table that follows
+maps
+to
+the article
+that
+addresses
+each principal question.
+
+| Reader Question | Start At | Continue To |
+| --- | --- | --- |
+| What platform should we buy? | [A145][related_post_a145_physics] (physics) | [A146][related_post_a146_buying] (framework) |
+| How much will the programme cost over five years? | [A146][related_post_a146_buying] (framework) | This article (TCO) |
+| Where will we operate? | [A148][related_post_a148_geographic] (geographic filter) | [A145][related_post_a145_physics] (physics) |
+| How do we train the operator pool? | [A149][related_post_a149_training] (training) | [A146][related_post_a146_buying] (framework) |
+| What sensors and payloads do we need? | [A150][related_post_a150_sensors] (sensors and data) | [A146][related_post_a146_buying] (framework) |
+| How do we handle the data the drones produce? | [A150][related_post_a150_sensors] (sensors and data) | This article (lifecycle) |
+| Should we develop our own platform? | [A147][related_post_a147_rd] (R&D) | [A145][related_post_a145_physics] (physics) |
+| How do we sustain the fleet across the service life? | This article (maintenance) | [A146][related_post_a146_buying] (framework) |
+
+### Sequential Reading Roadmap by Reader Role
+
+The programme manager
+that
+initiates
+the new SAR drone capability
+reads
+the series
+in
+the buyer's sequence
+that
+the planning workflow follows,
+starting with
+[A146][related_post_a146_buying]
+to identify
+the programme tier,
+moving to
+[A148][related_post_a148_geographic]
+to identify
+the operating level,
+continuing with
+[A145][related_post_a145_physics]
+to specify
+the platform mix,
+then
+[A150][related_post_a150_sensors]
+to specify
+the sensor and data workflow,
+then
+[A149][related_post_a149_training]
+to plan
+the operator pool,
+and
+finally
+this article
+to plan
+the maintenance and lifecycle programme.
+
+The operator pool builder
+that
+focuses on
+the training pipeline
+reads
+the operator-pool sequence
+of
+[A149][related_post_a149_training]
+for
+the training stack,
+[A146][related_post_a146_buying]
+for
+the budget envelope,
+and
+[A150][related_post_a150_sensors]
+for
+the sensor-specific training implications.
+
+The information technology and compliance officer
+that
+focuses on
+the data governance and the cybersecurity posture
+reads
+the IT and compliance sequence
+of
+the data management section of
+[A150][related_post_a150_sensors]
+for
+the data architecture,
+the chain of custody coverage,
+and
+the cybersecurity controls,
+and
+the firmware and software lifecycle section of
+this article
+for
+the operational technology lifecycle planning.
+
+The research and development lead
+that
+focuses on
+the platform development pathway
+reads
+the R&D sequence
+of
+[A147][related_post_a147_rd]
+for
+the development programme structure
+and
+[A150][related_post_a150_sensors]
+for
+the sensor integration considerations
+that
+the in-house development encounters.
 
 ## Out of Scope
 
@@ -1954,6 +2483,348 @@ the host-nation aviation authority coordination
 together impose
 on
 the operating programme.
+
+### Topics Deferred at the Series Terminus
+
+The series
+that
+this article closes
+stops short of
+several topics
+that
+the budgeted entity
+will encounter
+in
+the multi-year operating programme
+and
+that
+the series did not draft
+within
+the available date slots.
+The deferred topics
+constitute
+the natural continuation
+that
+the present series
+does not deliver,
+and
+the section enumerates
+the topics
+so that
+the reader
+recognises
+where
+the additional research and counsel
+the programme manager engages
+after
+reading
+the series.
+
+The first deferred topic
+is
+the lease versus buy financial analysis
+that
+the sophisticated buyer weighs
+against
+the outright acquisition path
+that
+the series treated as
+the default.
+The Wingtra Total Maintenance Plan
+and
+the dock-as-a-service offerings
+that
+the public-safety drone vendors
+have launched
+in
+the recent product cycles
+present
+the lease-equivalent acquisition path
+that
+the series did not analyse.
+The capital budget versus operating budget allocation
+that
+the lease versus buy choice imposes
+on
+the operating agency
+falls outside
+the series scope.
+
+The second deferred topic
+is
+the insurance and underwriter requirements
+that
+the operating programme commits to
+alongside
+the equipment investment.
+The drone insurance market
+offers
+the hull insurance,
+the liability insurance,
+and
+the operator coverage
+that
+the underwriter prices against
+the operating risk profile,
+which
+the series did not address.
+The underwriter requirements
+that
+the public-safety drone insurance carriers impose
+on
+the operating SOP,
+the training programme,
+and
+the maintenance programme
+also
+fall outside
+the series scope.
+
+The third deferred topic
+is
+the detection algorithm ecosystem
+that
+processes
+the sensor imagery
+for
+the automated detection
+of
+the search target.
+The series mentioned
+the detection algorithm research
+in
+the A150 out of scope section
+without
+delivering
+the buyer guidance
+that
+the algorithm ecosystem selection requires.
+The choice
+of
+the detection algorithm vendor,
+the choice
+of
+the model deployment architecture
+between
+the edge inference
+and
+the cloud inference,
+and
+the choice
+of
+the model update cadence
+all
+fall outside
+the series scope.
+
+The fourth deferred topic
+is
+the vendor consolidation
+and
+the supply chain risk
+that
+the multi-year platform commitment encounters
+when
+the platform vendor
+or
+the sensor vendor
+exits
+the market,
+gets acquired,
+or
+restructures
+the product line.
+The Ouster-Velodyne merger
+in 2023
+and
+the AgEagle ownership of MicaSense
+together exemplify
+the supply chain risk
+that
+the multi-year platform commitment encounters,
+which
+the series mentioned
+without
+analysing
+the buyer mitigation strategy
+that
+the multi-vendor sourcing,
+the second-source qualification,
+and
+the contractual exit protection
+together provide.
+
+The fifth deferred topic
+is
+the operator labour and human resources strategy
+beyond
+the training pipeline
+that
+A149 covered.
+The recruitment pipeline,
+the retention strategy,
+the compensation structure,
+the union and labour relations posture
+that
+the public-sector SAR programme operates under,
+the burnout and turnover management,
+and
+the succession planning
+for
+the senior operator and the senior maintenance technician
+all
+fall outside
+the series scope
+and
+constitute
+the human resources programme
+that
+the operating agency operates
+through
+the dedicated human resources function.
+
+The sixth deferred topic
+is
+the legal and regulatory counsel relationship
+that
+the operating programme maintains
+across
+the FAA waiver and exemption pipeline,
+the state drone law compliance,
+the federal grants administration,
+the FOIA processing,
+the export control counsel
+that
+the cooled MWIR and survey-grade lidar acquisitions invoke,
+and
+the litigation defence posture
+that
+the negligence claim
+or
+the criminal case
+that
+the search outcome enters
+may require.
+The series referenced
+the legal and regulatory considerations
+across
+multiple articles
+without
+analysing
+the counsel relationship
+that
+the operating programme establishes.
+
+The seventh deferred topic
+is
+the inter-agency coordination
+that
+the multi-jurisdictional SAR mission requires
+across
+the federal,
+state,
+county,
+municipal,
+and
+volunteer organisation
+boundaries
+that
+the operating mission typically crosses.
+The mutual aid agreements,
+the joint operating procedures,
+the data sharing agreements
+that
+the inter-agency coordination depends on,
+the cross-jurisdictional training standards,
+and
+the deployment surge protocols
+that
+the major incident activation invokes
+all
+fall outside
+the series scope.
+
+The eighth deferred topic
+is
+the multi-platform mixed-fleet management
+that
+the operating programme adopts
+across
+the SAR drone fleet
+that
+the series treated
+and
+the legacy fleet
+of
+the marine surface platforms,
+the manned aircraft,
+the ground vehicles,
+and
+the ground-based search assets
+that
+the broader SAR operating capability comprises.
+The unified fleet management,
+the integrated mission planning,
+and
+the cross-platform command and control
+that
+the manned-unmanned teaming requires
+all
+constitute
+the broader operations programme
+that
+the SAR drone series did not draft.
+
+The ninth deferred topic
+is
+the metrics, the outcomes measurement, and the programme evaluation
+that
+the operating programme reports
+to
+the funding agency,
+the public,
+and
+the oversight bodies
+that
+the operating programme accountability rests on.
+The search success rate,
+the operator-hours per save,
+the cost per save,
+the deployment availability,
+and
+the equity and demographic outcomes
+that
+the programme evaluation produces
+all
+fall outside
+the series scope
+and
+constitute
+the programme evaluation function
+that
+the operating agency performs
+through
+the dedicated evaluation and accountability staff.
+
+The reader
+that
+recognises
+these deferred topics
+as
+the natural continuation
+that
+the present series
+does not deliver
+engages
+the additional research,
+the additional vendor solicitation,
+the additional counsel,
+and
+the additional inter-agency coordination
+that
+the operating capability requires
+beyond
+the series coverage.
 
 ## Conclusion
 

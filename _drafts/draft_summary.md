@@ -25,7 +25,7 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **Article Number**: A151
 **Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (closes the series with the operating-cost picture)
-**Status**: New Draft (25 references; 2,151 lines)
+**Status**: New Draft (25 references; 3,022 lines)
 
 Standalone aerospace and engineering analytical article on maintenance and lifecycle management for SAR drone programmes.
 Sections covered include
@@ -39,8 +39,9 @@ Firmware and Software Lifecycle (vendor update cadence with DJI and Skydio secur
 Spare Parts Strategy (critical spare inventory ratios, vendor parts catalogues, cannibalisation for legacy fleets);
 Total Cost of Ownership (five-year scorecard table mapping to A146 tiers with 15 to 25 percent maintenance fraction);
 End-of-Life Disposition (lithium battery recycling, airframe and avionics e-waste, ITAR-controlled sensor disposition through DDTC);
-Series Synthesis (seven-domain decision space recapitulation);
-Out of Scope (operator maintenance training, airworthiness certification for non-Part 107 platforms, cybersecurity incident response, maritime SAR specific maintenance, international logistics);
+A Worked SAR Drone Programme Walk-Through (seven-step walk-through of a constructed Tier 2 mid-sized regional county SAR programme through the buyer's framework, geographic filter, platform selection, sensor selection with data management, operator training, maintenance programme, and integrated operating cycle);
+Series Synthesis (seven-domain decision space recapitulation, entry-point matrix mapping reader question to starting article, sequential reading roadmap by reader role covering programme manager, operator pool builder, IT and compliance officer, and R&D lead);
+Out of Scope (operator maintenance training, airworthiness certification for non-Part 107 platforms, cybersecurity incident response, maritime SAR specific maintenance, international logistics, plus a Topics Deferred at the Series Terminus subsection enumerating nine deferred topics that the series did not draft including lease versus buy financial analysis, insurance and underwriter requirements, detection algorithm ecosystem, vendor consolidation and supply chain risk, operator labour and human resources strategy, legal and regulatory counsel relationship, inter-agency coordination, multi-platform mixed-fleet management, and metrics and outcomes measurement);
 Conclusion (series terminus).
 
 Research agent verified
