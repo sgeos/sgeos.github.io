@@ -3135,14 +3135,38 @@ the law enforcement use of
 drones
 in
 the most cases,
-and
 the [California Civil Code Section 1708.8 framework][ref_california_drone_law]
 that
 the 2015 Assembly Bill 856 amended
 to extend
 the physical invasion of privacy liability
 into
-the airspace above another person's land.
+the airspace above another person's land,
+and
+the [Nevada Revised Statutes Chapter 493 unmanned aerial vehicle framework][ref_nevada_drone_law]
+that
+the 2015 Assembly Bill 239 enacted
+and
+the 2023 amendments updated
+to impose
+the law enforcement warrant requirement
+in
+Nevada Revised Statutes Section 493.112
+with
+the explicit search and rescue exception
+that
+the SAR drone programme operates under,
+the trespass civil action
+in
+Nevada Revised Statutes Section 493.103
+with
+the public agency exception
+that
+the SAR drone programme also relies on,
+and
+the critical facility flight restrictions
+in
+Nevada Revised Statutes Section 493.109.
 
 The SAR drone programme
 that
@@ -4221,6 +4245,7 @@ the mission-capable fleet requires.
 - [Reference, NASA Earth Observatory][ref_nasa_earth_observatory]
 - [Reference, National Conference of State Legislatures Drone Law Tracker][ref_ncsl_drone_tracker]
 - [Reference, National Defense Authorization Act Section 848 of Fiscal Year 2020][ref_ndaa_848]
+- [Reference, Nevada Revised Statutes Chapter 493 Unmanned Aerial Vehicle Framework][ref_nevada_drone_law]
 - [Reference, NIST Special Publication 800-53 Security and Privacy Controls][ref_nist_800_53]
 - [Reference, NIST Special Publication 800-86 Guide to Integrating Forensic Techniques][ref_nist_800_86]
 - [Reference, NIST Special Publication 800-171 Protecting Controlled Unclassified Information][ref_nist_800_171]
@@ -4305,6 +4330,7 @@ the mission-capable fleet requires.
 [ref_nasa_earth_observatory]: https://earthobservatory.nasa.gov/
 [ref_ncsl_drone_tracker]: https://www.ncsl.org/transportation/current-unmanned-aircraft-state-law-landscape
 [ref_ndaa_848]: https://www.congress.gov/bill/116th-congress/senate-bill/1790
+[ref_nevada_drone_law]: https://www.leg.state.nv.us/NRS/NRS-493.html
 [ref_nist_800_53]: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
 [ref_nist_800_86]: https://csrc.nist.gov/pubs/sp/800/86/final
 [ref_nist_800_171]: https://csrc.nist.gov/pubs/sp/800/171/r3/final

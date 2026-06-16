@@ -25,7 +25,7 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **Article Number**: A150
 **Completion**: 100%
 **Publication Sensibility**: High for the buyer audience (complements A146 as the sensor-and-data investment companion)
-**Status**: New Draft (80 references; 4,338 lines)
+**Status**: New Draft (81 references; 4,364 lines)
 
 Standalone aerospace and engineering analytical article on sensor and payload selection for SAR drone programmes.
 Sections covered include
@@ -38,7 +38,7 @@ Lidar (range, point density, return modes, georegistration via RTK and PPK, vend
 Multispectral and Hyperspectral Imaging (wildfire SWIR application, water rescue, ground anomaly detection);
 Audio Sensors and Acoustic Payloads (loudspeaker payloads, acoustic detection research phase);
 Payload Integration (mass and endurance trade, power budget, data bandwidth, gimbal mount standards including DJI Skyport and ASTM F38, MISB KLV and STANAG 4609 metadata);
-Sensor Data Management and Chain of Custody (data volume by sensor class with concrete per-hour figures, storage architecture across onboard, ground station, and cloud classes, chain of custody for evidentiary use with KLV metadata, cryptographic hash integrity, calibration record linkage, records retention and FOIA implications including IACP body-worn camera framework adaptation, state drone surveillance laws with NCSL tracker and representative state statutes from Florida, Texas, Illinois, and California, federal procurement restrictions with American Security Drone Act and Blue UAS framework, cybersecurity controls covering NIST 800-53, NIST 800-171, CMMC, and FedRAMP, vendor data handling policies for DJI FlightHub 2, Skydio Cloud, Parrot Cloud, Wingtra Cloud, DroneDeploy, Pix4D, Esri Site Scan, and Esri ArcGIS, calibration records and evidentiary support under the Daubert standard with ISO IEC 17025 and NIST traceability);
+Sensor Data Management and Chain of Custody (data volume by sensor class with concrete per-hour figures, storage architecture across onboard, ground station, and cloud classes, chain of custody for evidentiary use with KLV metadata, cryptographic hash integrity, calibration record linkage, records retention and FOIA implications including IACP body-worn camera framework adaptation, state drone surveillance laws with NCSL tracker and representative state statutes from Florida, Texas, Illinois, California, and Nevada, federal procurement restrictions with American Security Drone Act and Blue UAS framework, cybersecurity controls covering NIST 800-53, NIST 800-171, CMMC, and FedRAMP, vendor data handling policies for DJI FlightHub 2, Skydio Cloud, Parrot Cloud, Wingtra Cloud, DroneDeploy, Pix4D, Esri Site Scan, and Esri ArcGIS, calibration records and evidentiary support under the Daubert standard with ISO IEC 17025 and NIST traceability);
 Sensor Mix by Mission Profile (eight-profile scorecard table from night land search through underwater);
 Sensor Budget by Program Tier (five-tier scorecard table mapping to A146 tiers);
 Out of Scope (sensor-specific operator training, maintenance and lifecycle management, machine learning detection algorithms, export control regime, specialised sensors, underwater payloads, international regulatory regimes);
@@ -89,7 +89,7 @@ the California citation refined to "California Civil Code Section 1708.8 as amen
 URL corrections for the American Security Drone Act FAR final rule, the Blue UAS framework page at diu.mil/blue-uas/framework, the SWGDE drone forensics document, the California Civil Code Section 1708.8 specific URL.
 
 References:
-80 references across Reference (75) and Related Post (5) categories.
+81 references across Reference (76) and Related Post (5) categories.
 All inline-linked per project style.
 A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training) cited via post_url.
 
