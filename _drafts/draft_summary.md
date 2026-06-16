@@ -21,11 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 ### Sensor and Payload Selection for Search and Rescue Drones — New Draft
 
 **File**: `_drafts/sensor_and_payload_selection_for_search_and_rescue_drones.markdown`
-**Topic**: Sixth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training). Treats the sensor payload as the principal mission-capability decision the programme manager makes after the airframe and the operator training. Six sensor categories (thermal imaging, electro-optical visible, lidar, multispectral and hyperspectral, audio payloads, specialised). Per-class physics, performance metrics, resolution tiers, vendor landscape. Payload integration covering mass, power, data bandwidth, gimbal mount, and MISB metadata. Sensor mix by mission profile scorecard table. Sensor budget by programme tier table mapping to A146 tiers.
+**Topic**: Sixth article in the SAR drone series after A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training). Treats the sensor payload as the principal mission-capability decision the programme manager makes after the airframe and the operator training. Six sensor categories (thermal imaging, electro-optical visible, lidar, multispectral and hyperspectral, audio payloads, specialised). Per-class physics, performance metrics, resolution tiers, vendor landscape. Payload integration covering mass, power, data bandwidth, gimbal mount, and MISB metadata. Sensor data management and chain of custody covering data volume, storage architecture, evidentiary chain of custody, records retention and FOIA, state drone surveillance laws, federal procurement and Blue UAS, cybersecurity controls, vendor data handling policies, and calibration records as evidentiary support. Sensor mix by mission profile scorecard table. Sensor budget by programme tier table mapping to A146 tiers.
 **Article Number**: A150
 **Completion**: 100%
-**Publication Sensibility**: High for the buyer audience (complements A146 as the sensor-investment companion)
-**Status**: New Draft (49 references; 2,989 lines)
+**Publication Sensibility**: High for the buyer audience (complements A146 as the sensor-and-data investment companion)
+**Status**: New Draft (80 references; 4,338 lines)
 
 Standalone aerospace and engineering analytical article on sensor and payload selection for SAR drone programmes.
 Sections covered include
@@ -38,6 +38,7 @@ Lidar (range, point density, return modes, georegistration via RTK and PPK, vend
 Multispectral and Hyperspectral Imaging (wildfire SWIR application, water rescue, ground anomaly detection);
 Audio Sensors and Acoustic Payloads (loudspeaker payloads, acoustic detection research phase);
 Payload Integration (mass and endurance trade, power budget, data bandwidth, gimbal mount standards including DJI Skyport and ASTM F38, MISB KLV and STANAG 4609 metadata);
+Sensor Data Management and Chain of Custody (data volume by sensor class with concrete per-hour figures, storage architecture across onboard, ground station, and cloud classes, chain of custody for evidentiary use with KLV metadata, cryptographic hash integrity, calibration record linkage, records retention and FOIA implications including IACP body-worn camera framework adaptation, state drone surveillance laws with NCSL tracker and representative state statutes from Florida, Texas, Illinois, and California, federal procurement restrictions with American Security Drone Act and Blue UAS framework, cybersecurity controls covering NIST 800-53, NIST 800-171, CMMC, and FedRAMP, vendor data handling policies for DJI FlightHub 2, Skydio Cloud, Parrot Cloud, Wingtra Cloud, DroneDeploy, Pix4D, Esri Site Scan, and Esri ArcGIS, calibration records and evidentiary support under the Daubert standard with ISO IEC 17025 and NIST traceability);
 Sensor Mix by Mission Profile (eight-profile scorecard table from night land search through underwater);
 Sensor Budget by Program Tier (five-tier scorecard table mapping to A146 tiers);
 Out of Scope (sensor-specific operator training, maintenance and lifecycle management, machine learning detection algorithms, export control regime, specialised sensors, underwater payloads, international regulatory regimes);
@@ -76,8 +77,19 @@ the Sierra-Olympia airborne cameras page,
 the DJI Payload SDK developer portal,
 the Sony Starvis Framos overview page.
 
+Second research agent pass commissioned for the sensor data management section. Verified NIST SP 800-86 publication, ISO IEC 27037 and the 27041, 27042, 27043 family, ASTM E2916, SWGDE Best Practices for Drone Forensics document 21-F-002, CJIS Security Policy version 6.0, 28 CFR Part 23 applicability, American Security Drone Act incorporation in FY 2024 NDAA Sections 1821-1833, NDAA Section 848 of FY 2020 prohibition, Blue UAS framework with the December 2025 list transition from DIU to DCMA, Florida Statute 934.50, California Civil Code Section 1708.8 as amended by AB 856, Texas Government Code Chapter 423, Illinois 725 ILCS 167, FOIA Exemption 7(C), NIST SP 800-53 Release 5.2.0, NIST SP 800-171 Rev 3, CMMC final procurement rule effective 10 November 2025 with DoD-contract scope, FedRAMP, DJI FlightHub 2 data residency, DJI Local Data Mode, Skydio Cloud US AWS regions, Parrot Cloud EU residency, Daubert v. Merrell Dow, ISO IEC 17025 calibration laboratory accreditation, and NIST traceability for radiometric thermal calibration via the Low Background Infrared facility.
+
+Critical factual corrections applied in the second pass:
+the thermal radiometric per-hour data volume range extended from "500 megabytes to 2 gigabytes" to "500 megabytes to 5 gigabytes" to capture continuous radiometric video capture;
+the lidar per-hour data volume range extended from "5 to 30 gigabytes" to "5 to 50 gigabytes" to capture higher-point-rate frontier survey-grade systems;
+the example Tier 2 weekly thermal data volume adjusted to "5 to 50 gigabytes per week" reflecting the wider range;
+the CMMC clarification added that the certification applies primarily to Department of Defense contracts rather than the non-Department of Defense federal grants that the SAR programme more commonly operates under;
+the Blue UAS attribution clarified as "Defense Innovation Unit Blue UAS framework" with the December 2025 list transition to the Defense Contract Management Agency noted;
+the California citation refined to "California Civil Code Section 1708.8 as amended by AB 856";
+URL corrections for the American Security Drone Act FAR final rule, the Blue UAS framework page at diu.mil/blue-uas/framework, the SWGDE drone forensics document, the California Civil Code Section 1708.8 specific URL.
+
 References:
-49 references across Reference (44) and Related Post (5) categories.
+80 references across Reference (75) and Related Post (5) categories.
 All inline-linked per project style.
 A145 (physics), A146 (buyer's framework), A147 (R&D), A148 (geographic setting), and A149 (operator training) cited via post_url.
 

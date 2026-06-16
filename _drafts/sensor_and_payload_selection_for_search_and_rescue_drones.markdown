@@ -2381,6 +2381,1280 @@ the KLV metadata
 for
 the integration to be approved.
 
+## Sensor Data Management and Chain of Custody
+
+The sensor selection
+determines
+the data
+that
+the platform produces,
+and
+the data
+that
+the platform produces
+constitutes
+the deliverable
+that
+the SAR programme returns
+to
+the search team,
+to
+the incident command,
+to
+the next of kin,
+and,
+in
+the cases
+where
+the search outcome enters
+the legal process,
+to
+the medical examiner,
+the law enforcement investigator,
+and
+the court.
+A SAR drone programme
+that
+plans
+the multi-year capability investment
+treats
+the data management
+as
+an inseparable companion to
+the sensor selection
+because
+the choice
+of
+the radiometric thermal core,
+the survey-grade lidar,
+or
+the KLV-encoded electro-optical video
+imposes
+the storage burden,
+the chain of custody requirement,
+the retention obligation,
+and
+the cybersecurity posture
+that
+the platform fleet
+must support
+across
+the service life
+of
+the platform.
+
+### Data Volume by Sensor Class
+
+The sensor classes
+that
+the article describes
+differ
+by
+an order of magnitude
+in
+the data volume
+that
+each produces
+per operating hour.
+A budgeted programme
+that
+plans
+the data storage
+without
+the sensor-specific data volume
+discovers,
+within
+the first months of operation,
+that
+the storage capacity
+that
+the IT budget allocated
+exceeds
+or falls short of
+the operating need
+by
+a substantial margin.
+
+The thermal radiometric payload
+produces
+approximately
+500 megabytes to 5 gigabytes per operating hour
+in
+the radiometric raw imagery,
+with
+the lower bound corresponding to
+the radiometric still image capture mode
+and
+the upper bound corresponding to
+the continuous radiometric video capture mode
+that
+the larger SAR programmes deploy
+for
+the post-mission analysis.
+The 4K electro-optical video payload
+produces
+approximately
+30 to 60 gigabytes per operating hour
+because
+the high-bitrate visible video
+dominates
+the data volume
+even where
+the thermal sensor
+contributes radiometric overhead.
+The survey-grade lidar payload
+produces
+approximately
+5 to 50 gigabytes per operating hour
+in
+the recorded raw point cloud,
+with
+the higher volumes
+corresponding to
+the higher point density,
+the multiple-return mode
+that
+the canopy-penetrating mission requires,
+and
+the higher point-rate sensors
+that
+the frontier survey-grade systems carry.
+The hyperspectral payload
+produces
+approximately
+100 gigabytes to 1 terabyte per operating hour
+because
+the full spectral data cube
+that
+the post-mission analysis processes
+captures
+hundreds of bands
+at
+the full spatial resolution
+of
+the imager.
+
+The programme manager
+that
+plans
+the data infrastructure
+sums
+the per-sortie data volume
+across
+the operating fleet
+and
+the operating tempo
+to compute
+the required storage capacity,
+the required ingest bandwidth,
+and
+the required backup capacity
+that
+the programme commits to
+across
+the service life
+of
+the platform.
+A multicopter fleet
+of five platforms
+flying
+two sorties per platform per week
+at
+one hour per sortie
+produces
+approximately
+5 to 50 gigabytes per week
+for
+the thermal payload
+and
+approximately
+300 to 600 gigabytes per week
+for
+the 4K electro-optical payload,
+which sums to
+approximately
+15 to 35 terabytes per year
+for
+the modest mid-tier programme
+that
+the A146 framework characterised as
+Tier 2.
+
+### Storage Architecture
+
+The storage architecture
+that
+the programme deploys
+falls into
+three principal classes
+that
+the IT decision matches
+to
+the operating requirements,
+the data sovereignty constraints,
+and
+the budget.
+
+The onboard storage class
+captures
+the raw sensor data
+on
+the platform itself
+during
+the mission
+and
+the ground station
+ingests
+the data
+after
+the platform returns to base.
+The onboard class
+imposes
+no continuous network bandwidth requirement
+because
+the storage medium
+that
+the platform carries
+holds
+the full mission data
+until
+the ground crew transfers it.
+The onboard class
+is
+the dominant choice
+for
+the lidar and hyperspectral payloads
+that
+produce
+the data rates
+that
+the airborne datalink
+cannot stream
+in real time.
+
+The ground station class
+captures
+the data
+in
+the local ground station
+that
+the operator commands
+the platform from,
+with
+the airborne datalink
+streaming
+the video,
+the lower-bandwidth thermal stream,
+and
+the platform telemetry
+to
+the ground station
+in real time.
+The ground station class
+is
+the dominant choice
+for
+the thermal and visible payloads
+that
+produce
+the data rates
+that
+the airborne datalink
+can stream
+without
+the substantial compression
+that
+the higher-bandwidth payloads require.
+
+The cloud class
+captures
+the data
+in
+the vendor-operated cloud platform
+that
+the airborne datalink
+or
+the ground station
+forwards
+the data to.
+The cloud class
+is
+the dominant choice
+for
+the multi-platform fleet
+that
+needs
+the centralised data management
+across
+multiple operating locations
+and
+the centralised search-team access
+across
+multiple incident command posts.
+The cloud class
+introduces
+the data residency,
+the vendor data handling,
+and
+the cybersecurity considerations
+that
+the article addresses below
+under
+the cybersecurity controls
+and
+the vendor data handling policies sections.
+
+The programme manager
+that
+plans
+the storage architecture
+selects
+the class
+that
+the dominant sensor produces data for
+and
+designs
+the migration pathway
+between
+the onboard, ground station, and cloud classes
+that
+the operating workflow requires
+across
+the mission lifecycle.
+The thermal radiometric data
+that
+the platform produces
+typically migrates
+from
+the onboard storage
+to
+the ground station
+during
+the post-flight download,
+to
+the long-term archive
+after
+the post-mission analysis,
+and,
+in
+the cases
+where
+the search outcome enters
+the legal process,
+to
+the evidence repository
+that
+the receiving agency operates.
+
+### Chain of Custody for Evidentiary Use
+
+The SAR mission outcome
+sometimes enters
+the legal process
+where
+the missing person
+is determined to have been
+the victim of
+the criminal act,
+where
+the search returned
+the body of
+the missing person
+that
+the medical examiner processes,
+or
+where
+the search itself
+is questioned
+in
+the negligence action
+that
+the next of kin brings
+against
+the responding agency.
+In
+the cases
+where
+the sensor imagery
+becomes
+the evidence
+that
+the legal process examines,
+the chain of custody
+that
+the programme established
+across
+the data lifecycle
+determines
+the admissibility
+of
+the imagery
+under
+the [Federal Rules of Evidence][ref_federal_rules_of_evidence]
+and
+the state evidence rules
+that
+the receiving court applies.
+
+The chain of custody
+for
+the SAR drone imagery
+combines
+three principal elements
+that
+the programme must establish
+from
+the moment of data capture
+through
+the production of
+the imagery
+to
+the court.
+
+The first element
+is
+the metadata anchor
+that
+the [MISB ST 0601 KLV standard][ref_misb]
+provides
+in
+the streamed video.
+The KLV metadata embeds
+the airborne position,
+the camera pointing,
+the field of view,
+and
+the timestamp
+in
+the video stream itself,
+which establishes
+the where, the when, and the what
+of
+the imagery
+without
+the separate metadata file
+that
+the downstream analysis
+might otherwise need
+and
+that
+the chain of custody
+might otherwise lose.
+
+The second element
+is
+the cryptographic integrity record
+that
+the storage system attaches
+to
+the captured imagery.
+A SHA-256 hash
+that
+the ground station computes
+over
+the imagery file
+at
+the moment of capture
+and
+that
+the storage system records
+in
+the immutable audit log
+establishes
+the data integrity
+across
+the lifecycle.
+The trusted timestamp
+that
+[RFC 3161][ref_rfc_3161]
+defines
+anchors
+the hash record
+to
+the verifiable time reference
+that
+the court can independently confirm
+through
+the timestamping authority.
+
+The third element
+is
+the calibration record
+that
+the sensor manufacturer
+or
+the calibration laboratory
+provides
+for
+the sensor at the time of capture.
+A radiometric thermal imager
+that
+provides
+the absolute temperature measurement
+that
+the post-mission analysis relies on
+requires
+the calibration record
+that
+the [ISO IEC 17025 accredited laboratory][ref_iso_17025]
+issued
+at
+the most recent calibration
+and
+that
+the [NIST traceability chain][ref_nist_traceability]
+links
+to
+the primary standards
+that
+the National Institute of Standards and Technology maintains.
+
+The programme manager
+that
+plans
+the chain of custody
+publishes
+the standard operating procedure
+that
+the operator follows
+at
+each stage of
+the data lifecycle,
+from
+the pre-flight platform check,
+through
+the in-flight data capture,
+to
+the post-flight download,
+the archival,
+and
+the evidence production.
+The [Scientific Working Group on Digital Evidence][ref_swgde]
+publishes
+the best practices
+for
+the digital evidence handling
+that
+the SAR programme adapts
+to
+the drone imagery context,
+and
+the [NIST SP 800-86 Guide to Integrating Forensic Techniques into Incident Response][ref_nist_800_86]
+provides
+the federal reference
+that
+the programme cites
+in
+the standard operating procedure.
+
+### Records Retention and Public Records Implications
+
+The data retention schedule
+that
+the SAR drone programme operates under
+varies
+by
+the use case
+that
+the imagery serves
+and
+the regulatory regime
+that
+the operating agency belongs to.
+A volunteer SAR programme
+that
+operates
+under
+no formal records management obligation
+may retain
+the imagery
+indefinitely
+in
+the practical sense,
+but
+the same imagery
+that
+the law enforcement partner
+ingests
+into
+the criminal case file
+falls under
+the records retention schedule
+that
+the partner's agency operates.
+A federal SAR programme
+that
+the [Federal Records Act][ref_federal_records_act]
+applies to
+follows
+the records schedule
+that
+the National Archives and Records Administration
+approved
+for
+the agency.
+
+The civilian SAR programme
+that
+shares
+the imagery
+with
+the law enforcement partner
+encounters
+the public records request
+that
+the media,
+the next of kin,
+or
+the interested public
+files
+under
+the federal [Freedom of Information Act][ref_foia]
+or
+the equivalent state public records law.
+The [FOIA Exemption 7(C)][ref_foia_exemption_7c]
+provides
+the principal protection
+for
+the personal privacy
+of
+the persons depicted in
+the imagery,
+which
+the law enforcement agency
+typically invokes
+to redact
+the faces,
+the identifying clothing,
+or
+the other personally identifying details
+that
+the search imagery captures.
+The state public records laws
+operate under
+the equivalent exemptions
+that
+the responding agency applies
+in
+the same way as
+the federal exemption.
+
+The programme manager
+publishes
+the records retention schedule
+that
+the operating agency adopts
+as
+the formal policy
+that
+the operator follows
+and
+the FOIA officer applies.
+A typical retention schedule
+that
+the SAR drone programme adopts
+distinguishes
+the non-evidentiary imagery
+that
+the programme retains for
+30 to 180 days
+under
+the body-worn camera retention norms
+that
+the [International Association of Chiefs of Police Body-Worn Camera framework][ref_iacp_bwc]
+established
+from
+the evidentiary imagery
+that
+the programme retains for
+the multi-year period
+that
+the criminal records schedule
+that
+the operating agency applies
+imposes.
+
+### State Drone Surveillance Laws
+
+The state drone surveillance laws
+impose
+the use restrictions
+and
+the data handling restrictions
+on
+the SAR drone programme
+that
+operate
+within
+the state jurisdiction.
+The state laws
+vary substantially
+across
+the fifty states
+and
+the territories,
+which means
+the programme manager
+that
+operates
+across multiple state jurisdictions
+consults
+the [National Conference of State Legislatures drone law tracker][ref_ncsl_drone_tracker]
+for
+the current state of
+the law
+in
+each operating jurisdiction.
+
+A representative sample
+of
+the state drone surveillance laws
+that
+the SAR programme encounters
+includes
+the [Florida Freedom from Unwarranted Surveillance Act in Florida Statute 934.50][ref_florida_drone_law]
+that
+restricts
+the law enforcement use of
+drones,
+the [Texas Government Code Chapter 423][ref_texas_drone_law]
+that
+the Texas Privacy Act established
+to govern
+the drone capture of
+images of
+persons
+and
+private property,
+the [Illinois Freedom from Drone Surveillance Act in 725 ILCS 167][ref_illinois_drone_law]
+that
+imposes
+the warrant requirement
+on
+the law enforcement use of
+drones
+in
+the most cases,
+and
+the [California Civil Code Section 1708.8 framework][ref_california_drone_law]
+that
+the 2015 Assembly Bill 856 amended
+to extend
+the physical invasion of privacy liability
+into
+the airspace above another person's land.
+
+The SAR drone programme
+that
+operates
+under
+the public safety exception
+that
+most of the state laws provide
+nonetheless
+plans
+the data handling workflow
+to support
+the warrant requirement,
+the privacy exemption,
+and
+the data minimisation principle
+that
+the state laws impose
+where
+the search transitions from
+the pure SAR mission
+to
+the law enforcement mission
+that
+the missing person investigation
+sometimes becomes.
+
+### Federal Procurement Restrictions and Data Residency
+
+The federal procurement regime
+imposes
+the platform-level restrictions
+that
+the SAR drone programme
+encounters
+where
+the programme receives
+federal funding
+or
+the programme operates
+in
+the partnership with
+the federal agency.
+The [American Security Drone Act of 2023][ref_asda_2023],
+incorporated into
+the National Defense Authorization Act for Fiscal Year 2024,
+restricts
+the federal agency use of
+the covered foreign UAS,
+which
+the Department of Defense interpretation
+extends to
+the federal grantee
+that
+operates
+the covered platform
+under
+the federal grant.
+The covered foreign UAS list
+that
+the [Defense Innovation Unit Blue UAS framework][ref_blue_uas]
+governs
+identifies
+the vetted platforms
+that
+the federal grantee
+can purchase
+without
+the further review,
+with
+the cleared platforms list itself
+transitioned
+in December 2025
+from
+the Defense Innovation Unit
+to
+the Defense Contract Management Agency
+that
+the operational list maintenance
+now resides at.
+
+The [DJI Local Data Mode][ref_dji_local_data_mode]
+provides
+the data residency option
+that
+the DJI Enterprise platforms support
+to operate
+without
+the cloud connection
+that
+the default configuration uses,
+which addresses
+the data residency concern
+that
+the federal procurement regime
+imposes
+on
+the DJI platforms
+that
+the [NDAA Section 848 of Fiscal Year 2020][ref_ndaa_848]
+identified as
+the covered foreign UAS.
+The DJI Local Data Mode
+does not
+remove
+the underlying platform
+from
+the covered foreign UAS list
+that
+the federal procurement regime targets,
+but
+the Local Data Mode
+permits
+the operator
+to demonstrate
+the data residency
+that
+the federal partner sometimes requires
+as
+the operating condition.
+
+The SAR programme
+that
+operates
+in
+the federal partnership
+typically migrates
+to
+the Blue UAS-listed platforms
+over
+the multi-year replacement cycle
+that
+the platform fleet operates under,
+which means
+the programme manager
+that
+plans
+the multi-year acquisition
+weights
+the Blue UAS list
+in
+the platform selection
+that
+the A146 framework described,
+and
+matches
+the sensor selection
+that
+the article describes
+to
+the platforms
+that
+the Blue UAS list approves.
+
+### Cybersecurity Controls for the Data Infrastructure
+
+The data infrastructure
+that
+the SAR drone programme operates
+falls under
+the cybersecurity controls
+that
+the operating agency adopts
+for
+the information system
+that
+the data resides in.
+The federal SAR programme
+that
+operates
+under
+the federal information system
+applies
+the [NIST SP 800-53 Security and Privacy Controls for Information Systems and Organizations][ref_nist_800_53]
+control baseline
+that
+the federal information system category
+prescribes.
+The federal grantee
+that
+operates
+the non-federal information system
+that
+processes
+the controlled unclassified information
+that
+the federal grant produces
+applies
+the [NIST SP 800-171 Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations][ref_nist_800_171]
+control baseline
+that
+the Defense Federal Acquisition Regulation Supplement extends to
+the federal grantee.
+
+The Department of Defense contractor
+or subcontractor
+that
+operates
+the information system
+that
+processes
+the controlled unclassified information
+under
+the Department of Defense contract
+applies
+the [Cybersecurity Maturity Model Certification][ref_cmmc]
+that
+the Department of Defense administers,
+which assesses
+the implementation of
+the NIST SP 800-171 controls
+at
+the certification level
+that
+the contract requires.
+The CMMC final procurement rule
+became effective
+on 10 November 2025
+with
+a phased three-year implementation,
+and
+the CMMC requirements
+typically apply to
+the Department of Defense contracts
+rather than
+the non-Department of Defense federal grants
+that
+the SAR programme more commonly operates under.
+The SAR drone programme
+that
+operates
+the cloud-hosted data infrastructure
+under
+the federal partnership
+selects
+the cloud service provider
+from
+the [Federal Risk and Authorization Management Programme][ref_fedramp]
+list of authorised cloud service providers
+that
+the federal information system category permits.
+
+The programme manager
+that
+plans
+the cybersecurity controls
+publishes
+the system security plan
+that
+the operating agency adopts
+as
+the formal policy
+that
+the information system implements
+and
+the cybersecurity officer audits.
+The civilian SAR programme
+that
+operates
+without
+the federal partnership
+may
+not be required
+to apply
+the federal control baselines,
+but
+the same controls
+constitute
+the recognised practice
+that
+the civilian programme
+adopts
+to provide
+the data integrity,
+the data confidentiality,
+and
+the data availability
+that
+the SAR mission relies on.
+
+### Vendor Data Handling Policies
+
+The cloud-class storage architecture
+that
+the SAR drone programme operates
+depends on
+the vendor data handling policies
+that
+the cloud platform vendor publishes.
+The vendor data handling policies
+specify
+the data residency,
+the data ownership,
+the third-party sharing,
+the law enforcement disclosure,
+and
+the data retention
+that
+the cloud platform applies
+to
+the imagery
+that
+the platform fleet uploads.
+
+The DJI Enterprise cloud platform
+operates under
+the [DJI FlightHub 2 platform terms][ref_dji_flighthub]
+that
+the SAR programme accepts
+when
+the programme adopts
+the DJI cloud workflow.
+The DJI Local Data Mode
+provides
+the alternative
+that
+the programme adopts
+where
+the federal procurement regime
+or
+the state privacy law
+restricts
+the cloud upload.
+The Skydio cloud platform
+operates under
+the [Skydio Cloud terms][ref_skydio_cloud]
+that
+the SAR programme accepts
+when
+the programme adopts
+the Skydio workflow,
+with
+the data residency
+in
+the United States data centres
+that
+the Skydio cloud operates
+matching
+the federal procurement requirements
+that
+the Blue UAS-listed Skydio platforms meet.
+The Parrot cloud platform
+operates under
+the [Parrot Cloud terms][ref_parrot_cloud]
+that
+the European Union General Data Protection Regulation governs.
+
+The third-party data processing platforms
+that
+the SAR programme uses
+for
+the post-mission processing of
+the lidar point cloud,
+the photogrammetric mapping,
+and
+the multispectral analysis
+include
+[DroneDeploy][ref_dronedeploy],
+[Pix4D][ref_pix4d],
+and
+[Esri Site Scan][ref_esri_site_scan],
+each
+operating under
+the vendor terms of service
+and
+the data processing addendum
+that
+the SAR programme accepts.
+The programme manager
+that
+plans
+the data processing workflow
+reviews
+the data ownership clause,
+the third-party sharing clause,
+and
+the data retention clause
+that
+each vendor publishes
+to verify
+the alignment with
+the programme's data governance policy.
+
+The Esri ArcGIS platform
+operates under
+the [Esri ArcGIS public-safety terms][ref_esri_arcgis]
+that
+many of the regional SAR command and control systems
+already operate on,
+which provides
+the centralised data repository
+that
+the SAR programme integrates
+the platform imagery into
+through
+the ArcGIS data ingest pipeline
+that
+the regional command and control
+already operates.
+
+### Calibration Records and Evidentiary Support
+
+The calibration record
+that
+the chain of custody section established
+as
+the third element of
+the evidentiary chain
+deserves
+the dedicated treatment
+that
+this section provides
+because
+the sensor calibration
+underwrites
+the scientific reliability
+that
+the [Daubert standard][ref_daubert]
+imposes
+on
+the admissibility of
+the sensor-based scientific evidence
+under
+the Federal Rules of Evidence
+and
+the equivalent state evidence rules.
+
+The radiometric thermal imager
+that
+the programme deploys
+requires
+the periodic calibration
+that
+the [ISO IEC 17025 accredited calibration laboratory][ref_iso_17025]
+performs
+at
+the calibration cadence
+that
+the sensor manufacturer specifies,
+typically
+the annual cadence
+for
+the field-deployed imager.
+The lidar payload
+requires
+the boresight calibration
+that
+the manufacturer
+or
+the integrator performs
+after
+the assembly,
+the major component replacement,
+or
+the suspected loss of calibration
+that
+the operating mishap suggests.
+The multispectral and hyperspectral imagers
+require
+the spectral calibration
+that
+the manufacturer performs
+at
+the production
+and
+the periodic re-calibration
+that
+the laboratory or field calibration target supports.
+
+The programme manager
+that
+plans
+the calibration programme
+maintains
+the calibration record
+for
+each sensor
+in
+the asset management system
+that
+the operating agency uses
+and
+links
+the calibration record
+to
+the imagery
+that
+the sensor captured
+through
+the metadata anchor
+that
+the chain of custody section described.
+The calibration record
+becomes
+the evidentiary support
+that
+the sensor-based scientific evidence requires
+under
+the Daubert standard,
+which
+the prosecution or the defence
+presents
+in
+the case
+where
+the imagery
+becomes
+the basis for
+the criminal charge
+or
+the negligence claim.
+
 ## Sensor Mix by Mission Profile
 
 The sensor mix
@@ -2569,7 +3843,7 @@ the maintenance and lifecycle management
 of
 the sensor payloads,
 which
-the next article
+the final article
 in this series
 will address
 in
@@ -2577,7 +3851,16 @@ the context of
 the broader platform maintenance programme
 that
 the SAR drone fleet
-requires.
+requires,
+including
+the periodic recalibration
+that
+the radiometric and survey-grade sensors require
+and
+the firmware lifecycle
+that
+the platform vendors
+publish replacement schedules for.
 
 The article
 does not address
@@ -2853,18 +4136,22 @@ the original sensor capability
 been better matched to
 the operating environment.
 
-The articles
+The final article
 in this series
-that follow A150
 will address
 the maintenance and lifecycle management
 of
-the platform fleet
+the platform fleet,
+covering
+the airframe and sensor maintenance schedules,
+the periodic recalibration that
+the radiometric and survey-grade sensors require,
+the firmware lifecycle that
+the platform vendors publish replacement schedules for,
 and
-the data management
-and chain of custody
+the multi-year total cost of ownership
 that
-the operating programme requires.
+the operating programme commits to.
 Together
 the articles
 provide
@@ -2879,32 +4166,51 @@ across
 the airframe,
 the operator training,
 the sensor payload,
-the maintenance programme,
+the sensor data management,
 and
-the data management
+the maintenance programme
 that
 the mission-capable fleet requires.
 
 ## References
 
+- [Reference, American Security Drone Act of 2023 FAR Final Rule][ref_asda_2023]
 - [Reference, ASTM Committee F38 on Unmanned Aircraft Systems][ref_astm_f38]
+- [Reference, California Civil Code Section 1708.8 as Amended by AB 856][ref_california_drone_law]
 - [Reference, Carnegie Mellon Robotics Institute AirLab][ref_cmu_robotics]
 - [Reference, Cubert ULTRIS Hyperspectral Imagers][ref_cubert]
+- [Reference, Cybersecurity Maturity Model Certification][ref_cmmc]
 - [Reference, DARPA OFFSET Program][ref_darpa_offset]
+- [Reference, Daubert Standard for Admissibility of Scientific Evidence][ref_daubert]
+- [Reference, Defense Innovation Unit Blue UAS Programme][ref_blue_uas]
 - [Reference, DJI Enterprise Solutions][ref_dji_enterprise]
+- [Reference, DJI FlightHub 2 Cloud Platform Terms][ref_dji_flighthub]
+- [Reference, DJI Local Data Mode][ref_dji_local_data_mode]
 - [Reference, DJI Payload SDK][ref_dji_psdk]
 - [Reference, DJI SkyPort and X-Port Payload Mounts][ref_dji_skyport]
 - [Reference, DJI Zenmuse Gimbal Family][ref_dji_zenmuse]
 - [Reference, DJI Zenmuse L2 LiDAR Payload][ref_dji_zenmuse_l2]
 - [Reference, DJI Zenmuse V1 Thermal-and-Loudspeaker Payload][ref_dji_zenmuse_v1]
+- [Reference, DroneDeploy Cloud Mapping Platform][ref_dronedeploy]
 - [Reference, DRONERESPONDERS][ref_droneresponders_a150]
 - [Reference, DroneAudioset Benchmark][ref_droneaudioset]
 - [Reference, EASA UAS Regulatory Framework][ref_easa_uas_a150]
+- [Reference, Esri ArcGIS Public-Safety Platform][ref_esri_arcgis]
+- [Reference, Esri Site Scan Drone Mapping][ref_esri_site_scan]
+- [Reference, Federal Records Act][ref_federal_records_act]
+- [Reference, Federal Risk and Authorization Management Programme][ref_fedramp]
+- [Reference, Federal Rules of Evidence][ref_federal_rules_of_evidence]
+- [Reference, Florida Freedom from Unwarranted Surveillance Act Statute 934.50][ref_florida_drone_law]
+- [Reference, Freedom of Information Act][ref_foia]
+- [Reference, FOIA Exemption 7(C) for Personal Privacy in Law Enforcement Records][ref_foia_exemption_7c]
 - [Reference, Freefly MoVI Gimbal Family][ref_freefly_movi]
 - [Reference, Gremsy Gimbal Family][ref_gremsy]
 - [Reference, Headwall Photonics Hyperspectral Imagers][ref_headwall]
 - [Reference, Hesai Pandar LiDAR Family][ref_hesai]
+- [Reference, IACP Body-Worn Camera Framework][ref_iacp_bwc]
+- [Reference, Illinois Freedom from Drone Surveillance Act 725 ILCS 167][ref_illinois_drone_law]
 - [Reference, International Traffic in Arms Regulations][ref_itar]
+- [Reference, ISO IEC 17025 Calibration Laboratory Accreditation][ref_iso_17025]
 - [Reference, LightWare LiDAR][ref_lightware]
 - [Reference, Livox LiDAR Family][ref_livox]
 - [Reference, Lynred Infrared Detector Manufacturer][ref_lynred]
@@ -2913,11 +4219,22 @@ the mission-capable fleet requires.
 - [Reference, MicaSense Altum-PT Multispectral Imager][ref_micasense_altum]
 - [Reference, Motion Imagery Standards Board KLV Metadata][ref_misb]
 - [Reference, NASA Earth Observatory][ref_nasa_earth_observatory]
+- [Reference, National Conference of State Legislatures Drone Law Tracker][ref_ncsl_drone_tracker]
+- [Reference, National Defense Authorization Act Section 848 of Fiscal Year 2020][ref_ndaa_848]
+- [Reference, NIST Special Publication 800-53 Security and Privacy Controls][ref_nist_800_53]
+- [Reference, NIST Special Publication 800-86 Guide to Integrating Forensic Techniques][ref_nist_800_86]
+- [Reference, NIST Special Publication 800-171 Protecting Controlled Unclassified Information][ref_nist_800_171]
+- [Reference, NIST Traceability Chain for Calibration][ref_nist_traceability]
 - [Reference, Ouster LiDAR Family][ref_ouster]
+- [Reference, Parrot Cloud Platform Terms][ref_parrot_cloud]
 - [Reference, Phoenix LiDAR Systems][ref_phoenix_lidar]
+- [Reference, Pix4D Drone Mapping Platform][ref_pix4d]
+- [Reference, RFC 3161 Internet X.509 Public Key Infrastructure Time Stamp Protocol][ref_rfc_3161]
 - [Reference, Riegl Survey LiDAR Family][ref_riegl]
+- [Reference, SWGDE Best Practices for Drone Forensics][ref_swgde]
 - [Reference, Sierra-Olympia Technologies][ref_sierra_olympia]
 - [Reference, Sierra-Olympia Ventus Cooled MWIR Core][ref_sierra_olympia_ventus]
+- [Reference, Skydio Cloud Platform Terms][ref_skydio_cloud]
 - [Reference, Skydio Public-Safety Drones][ref_skydio_drones]
 - [Reference, Sky Speaker-I from Yangda][ref_sky_speaker]
 - [Reference, Sony Starvis Low-Light CMOS][ref_sony_starvis]
@@ -2927,6 +4244,7 @@ the mission-capable fleet requires.
 - [Reference, Teledyne FLIR Boson Plus Thermal Core][ref_flir_boson]
 - [Reference, Teledyne FLIR Hadron 640R Dual Payload][ref_flir_hadron]
 - [Reference, Teledyne FLIR UAS Payloads][ref_flir_uas]
+- [Reference, Texas Government Code Chapter 423 Use of Unmanned Aircraft][ref_texas_drone_law]
 - [Reference, USGS Landsat Program][ref_usgs_landsat]
 - [Reference, Workswell][ref_workswell]
 - [Reference, Workswell WIRIS Pro Dual Payload][ref_workswell_wiris]
@@ -2937,11 +4255,19 @@ the mission-capable fleet requires.
 - [Related Post, Research and Development for Search and Rescue Drones][related_post_a147_rd]
 - [Related Post, Search and Rescue Drone Fleets by Geographic Setting][related_post_a148_geographic]
 
+[ref_asda_2023]: https://www.federalregister.gov/documents/2024/11/12/2024-26061/federal-acquisition-regulation-prohibition-on-unmanned-aircraft-systems-from-covered-foreign
 [ref_astm_f38]: https://www.astm.org/COMMITTEE/F38.htm
+[ref_blue_uas]: https://www.diu.mil/blue-uas/framework
+[ref_california_drone_law]: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1708.8.&lawCode=CIV
+[ref_cmmc]: https://dodcio.defense.gov/CMMC/
 [ref_cmu_robotics]: https://www.ri.cmu.edu/
 [ref_cubert]: https://cubert-hyperspectral.com/
 [ref_darpa_offset]: https://www.darpa.mil/research/programs/offensive-swarm-enabled-tactics
+[ref_daubert]: https://www.law.cornell.edu/supremecourt/text/509/579
 [ref_dji_enterprise]: https://enterprise.dji.com/
+[ref_dji_flighthub]: https://www.dji.com/flighthub-2
+[ref_dji_local_data_mode]: https://security.dji.com/data
+[ref_dronedeploy]: https://www.dronedeploy.com/
 [ref_dji_psdk]: https://developer.dji.com/doc/payload-sdk-tutorial/en/
 [ref_dji_skyport]: https://developer.dji.com/payload-sdk
 [ref_dji_zenmuse]: https://www.dji.com/products/zenmuse
@@ -2950,13 +4276,24 @@ the mission-capable fleet requires.
 [ref_droneaudioset]: https://arxiv.org/abs/2510.15383
 [ref_droneresponders_a150]: https://www.droneresponders.org/
 [ref_easa_uas_a150]: https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background
+[ref_esri_arcgis]: https://www.esri.com/en-us/industries/public-safety/overview
+[ref_esri_site_scan]: https://www.esri.com/en-us/arcgis/products/site-scan-for-arcgis/overview
+[ref_federal_records_act]: https://www.archives.gov/about/laws/fed-agencies.html
+[ref_federal_rules_of_evidence]: https://www.law.cornell.edu/rules/fre
+[ref_fedramp]: https://www.fedramp.gov/
 [ref_flir_boson]: https://oem.flir.com/products/boson-plus
+[ref_florida_drone_law]: http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999/0934/Sections/0934.50.html
+[ref_foia]: https://www.foia.gov/
+[ref_foia_exemption_7c]: https://www.foia.gov/faq.html
 [ref_flir_hadron]: https://oem.flir.com/products/hadron-640
 [ref_flir_uas]: https://www.flir.com/browse/industrial/unmanned-systems/
 [ref_freefly_movi]: https://store.freeflysystems.com/products/movi-xl
 [ref_gremsy]: https://gremsy.com/
 [ref_headwall]: https://headwallphotonics.com/
 [ref_hesai]: https://www.hesaitech.com/
+[ref_iacp_bwc]: https://www.theiacp.org/resources/policy-center-resource/body-worn-cameras
+[ref_illinois_drone_law]: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3520&ChapterID=54
+[ref_iso_17025]: https://www.iso.org/standard/66912.html
 [ref_itar]: https://www.pmddtc.state.gov/ddtc_public?id=ddtc_public_portal_itar_landing
 [ref_lightware]: https://lightwarelidar.com/
 [ref_livox]: https://www.livoxtech.com/
@@ -2966,17 +4303,29 @@ the mission-capable fleet requires.
 [ref_micasense_altum]: https://ageagle.com/drone-sensors/altum-pt-camera/
 [ref_misb]: https://nsgreg.nga.mil/misb.jsp
 [ref_nasa_earth_observatory]: https://earthobservatory.nasa.gov/
+[ref_ncsl_drone_tracker]: https://www.ncsl.org/transportation/current-unmanned-aircraft-state-law-landscape
+[ref_ndaa_848]: https://www.congress.gov/bill/116th-congress/senate-bill/1790
+[ref_nist_800_53]: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+[ref_nist_800_86]: https://csrc.nist.gov/pubs/sp/800/86/final
+[ref_nist_800_171]: https://csrc.nist.gov/pubs/sp/800/171/r3/final
+[ref_nist_traceability]: https://www.nist.gov/pml/owm/metrology/nist-traceability
 [ref_ouster]: https://ouster.com/
+[ref_parrot_cloud]: https://www.parrot.com/en/support/cloud
 [ref_phoenix_lidar]: https://www.phoenixlidar.com/
+[ref_pix4d]: https://www.pix4d.com/
+[ref_rfc_3161]: https://datatracker.ietf.org/doc/html/rfc3161
 [ref_riegl]: http://www.riegl.com/
 [ref_sierra_olympia]: https://sierraolympia.com/
 [ref_sierra_olympia_ventus]: https://sierraolympia.com/airborne-cameras/
 [ref_sky_speaker]: https://www.yangdaonline.com/sky-speaker-i-megaphone-for-drones/
+[ref_skydio_cloud]: https://www.skydio.com/cloud
 [ref_skydio_drones]: https://www.skydio.com/
+[ref_swgde]: https://www.swgde.org/documents/published-complete-listing/21-f-002-swgde-best-practices-for-drone-forensics/
 [ref_sony_starvis]: https://framos.com/products-solutions/image-sensors/sony-starvis/
 [ref_stanag_4609]: https://nso.nato.int/nso/zPublic/stanags/CURRENT/4609EFed01.pdf
 [ref_tarot]: https://www.tarot-rc.com/
 [ref_teledyne_flir]: https://www.flir.com/
+[ref_texas_drone_law]: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.423.htm
 [ref_usgs_landsat]: https://www.usgs.gov/landsat-missions
 [ref_workswell]: https://www.workswell.eu/
 [ref_workswell_wiris]: https://workswell.eu/thermal-drone-camera-inspection-wiris-pro/
