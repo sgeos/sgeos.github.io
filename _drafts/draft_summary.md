@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Simulating Space Colonization on Earth Using Off-Grid Facilities — New Draft
+### Simulating Space Colonization on Earth Using Off-Grid Facilities — Published
 
-**File**: `_drafts/simulating_space_colonization_on_earth_using_off_grid_facilities.markdown`
+**File**: `_posts/2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities.markdown`
 **Topic**: Survey introduction to the off-grid terrestrial analog for space colonization, framed as an iteration engine for the actual space mission. Treats the analog as a problem in its own right rather than a recreational exercise. Establishes a simulation honesty model on four axes (closure, isolation, duration, environmental fidelity), with closure formalised as a quantitative ratio. Surveys the major prior attempts grouped by category (Antarctic stations, closed ecological system experiments, Mars surface analogs, underwater analogs, buoyant and atmospheric platform analogs covering Landis Venus cloudtop and HAVOC), presents a comparison matrix, and walks through site selection criteria with United States and international site catalogues. Defines a nine-subsystem facility stack (electricity and energy storage, electronic operations and computing, communications, food production, potable water, sewage and human waste, physical operations and habitat, garbage and waste disposal, transportation and roads), with light-time delay and Mars synodic period quantified. Introduces the bootstrap and expansion regime distinction with the synodic resupply cadence. Opens the analog-facilities category for subsequent per-subsystem and per-topic articles. Cross-links A82-derived space studies cluster. MathJax enabled.
 **Article Number**: A152
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (opens a problem space that subsequent articles can treat in depth)
-**Status**: New Draft (57 references; ~2,035 lines; date 2026-06-28; mathjax true)
+**Status**: Published 2026-06-28 (57 references; ~2,047 lines; mathjax true)
 
 Survey-style aerospace and engineering article on terrestrial off-grid analog facilities for space colonization simulation.
 Sections covered include
