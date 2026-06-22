@@ -18,6 +18,64 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Simulating Space Colonization on Earth Using Off-Grid Facilities — New Draft
+
+**File**: `_drafts/simulating_space_colonization_on_earth_using_off_grid_facilities.markdown`
+**Topic**: Survey introduction to the off-grid terrestrial analog for space colonization, framed as an iteration engine for the actual space mission. Treats the analog as a problem in its own right rather than a recreational exercise. Establishes a simulation honesty model on four axes (closure, isolation, duration, environmental fidelity), with closure formalised as a quantitative ratio. Surveys the major prior attempts grouped by category (Antarctic stations, closed ecological system experiments, Mars surface analogs, underwater analogs, buoyant and atmospheric platform analogs covering Landis Venus cloudtop and HAVOC), presents a comparison matrix, and walks through site selection criteria with United States and international site catalogues. Defines a nine-subsystem facility stack (electricity and energy storage, electronic operations and computing, communications, food production, potable water, sewage and human waste, physical operations and habitat, garbage and waste disposal, transportation and roads), with light-time delay and Mars synodic period quantified. Introduces the bootstrap and expansion regime distinction with the synodic resupply cadence. Opens the analog-facilities category for subsequent per-subsystem and per-topic articles. Cross-links A82-derived space studies cluster. MathJax enabled.
+**Article Number**: A152
+**Completion**: 100%
+**Publication Sensibility**: High for the space-themed cluster (opens a problem space that subsequent articles can treat in depth)
+**Status**: New Draft (57 references; ~2,035 lines; date 2026-06-28; mathjax true)
+
+Survey-style aerospace and engineering article on terrestrial off-grid analog facilities for space colonization simulation.
+Sections covered include
+opening framing as iteration engine for the real mission;
+The Simulation Honesty Problem (closure, isolation, duration, environmental fidelity axes, with closure formalised as C = 1 minus m_ext over m_tot and worked examples for ISS WRS at C ~ 0.98 and Biosphere 2 food at C ~ 0.5);
+Survey of Prior Attempts grouped by category covering Antarctic stations (McMurdo, Amundsen-Scott, Concordia), closed ecological system experiments (BIOS-3, Biosphere 2, Yuegong-1, MELiSSA), Mars surface analogs (MDRS, FMARS, HI-SEAS, HERA, CHAPEA, Mars-500), underwater analogs (NEEMO at Aquarius), and buoyant and atmospheric platform analogs (Landis Venus cloudtop and HAVOC framing with density ratio derivation, plus the World View, Loon, and Sceye stratospheric platforms identified as the closest available terrestrial proxies);
+Comparison matrix of thirteen prior attempts on site, operator, longest crewed run, closure score, isolation score, and operating year span;
+Site Selection (five criteria) with United States catalogue (Mojave, Great Basin, Sonoran, Mauna Loa/Kea, Brooks Range) and international catalogue (Atacama, Devon Island, Pilbara, Iceland and Lanzarote PANGAEA, Antarctic continent, Tibetan Plateau, Pamirs);
+The Facility-System Stack (nine subsystems: electricity and energy storage, electronic operations and computing, communications with light-time delay quantified by tau = d/c yielding 3 to 22 minutes for Mars and 1.3 seconds for the Moon, food production, potable water, sewage and human waste, physical operations and habitat, garbage and waste disposal, transportation and roads);
+Bootstrap and Expansion (the operational-regime distinction with the Mars synodic period ~780 days fixing the resupply cadence);
+Out of Scope (per-subsystem engineering, crew behaviour, closed ecological system biology, pressure suit and EVA, radiation, reduced gravity, programme cost, regulatory and treaty, governance of the simulated colony);
+Conclusion.
+
+Research agent verified
+the Biosphere 2 mission dates (September 1991 to September 1993, March to September 1994) and the management transfer chain (Columbia 1995 to 2003, University of Arizona 2007 research and 2011 ownership),
+the MDRS opening year (2001) and Mars Society operation,
+the FMARS inauguration July 2000,
+the HI-SEAS operator transfer to International MoonBase Alliance in 2018 with HI-SEAS IV running 366 days in 2015 and 2016,
+the HERA 45-day mission length and JSC location,
+the CHAPEA Mission 1 dates (June 2023 to July 2024, 378 days) with ICON-printed Mars Dune Alpha habitat,
+the Concordia operator as IPEV and PNRA with ESA as scientific participant,
+the Mars-500 dates (June 2010 to November 2011) and IBMP Moscow,
+the BIOS-3 construction begun 1965 and operational from 1972,
+the Yuegong-365 mission (May 2017 to May 2018, 370 days),
+the McMurdo establishment date and population variation,
+the Amundsen-Scott winter-over population around 40 to 50,
+the Aquarius depth (~18 metres), FIU ownership transition (2013 operational, 2014 full), and NEEMO 23 in 2019 as last mission,
+the MELiSSA initiation in 1989 with the Pilot Plant at UAB,
+the PANGAEA training sites (Lanzarote, Dolomites, Ries Crater),
+the Iceland Apollo training dates (1965, 1967) with Artemis II training in 2024,
+the ISS Water Recovery System 98 percent recovery via Brine Processor Assembly addition,
+and the McMurdo Ross Island Wind Energy Project with three Enercon E33 turbines.
+
+Critical factual corrections applied:
+the BIOS-3 dates clarified to construction begun 1965 and operational from 1972;
+the Biosphere 2 management chain corrected to Columbia 1995 to 2003, U Arizona research 2007 and full ownership 2011;
+the HI-SEAS operator corrected to International MoonBase Alliance since 2018;
+the Aquarius depth corrected from approximately 20 metres to approximately 18 metres (60 feet);
+the FIU ownership transition split into 2013 operational and 2014 full ownership;
+the NEEMO last announced mission corrected to 2019 from 2017;
+the ISS Water Recovery System characterised by Brine Processor Assembly addition rather than UPA upgrade;
+the PANGAEA training site catalogue expanded to Lanzarote, Dolomites, and Ries Crater with Iceland repositioned as Apollo and Artemis training rather than PANGAEA;
+URL replacements for NASA pages reorganised after 2024, the NSF United States Antarctic Program URL migrated to usap.gov, and the Wikipedia URL for Aquarius and Institute of Biophysics articles using current canonical paths.
+
+References:
+57 references across Reference (55) and Related Post (2) categories.
+All inline-linked per project style.
+A90 (introduction to space studies) and A92 (cryptotelemeritocracy for space exploitation) cited via post_url as the prior space-themed cluster articles.
+Venus cloudtop subsection cites the Landis 2003 Colonization of Venus paper via NTRS, the NASA Langley High Altitude Venus Operational Concept via Wikipedia, and the World View Stratollite, Loon, and Sceye stratospheric platform programmes as terrestrial proxies.
+
 ### Maintenance and Lifecycle Management for SAR Drone Programs — Published
 
 **File**: `_posts/2026-05-21-maintenance_and_lifecycle_management_for_search_and_rescue_drone_programs.markdown`
