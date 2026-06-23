@@ -18,6 +18,68 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Electricity and Energy Storage for Off-Grid Space Colonization Analogs — New Draft
+
+**File**: `_drafts/electricity_and_energy_storage_for_off_grid_space_colonization_analogs.markdown`
+**Topic**: First per-subsystem deep-dive in the analog-facilities category following A152, designed to function as a general off-grid electrical-system guide with space-colonization as contextual flavour. Treats the electricity layer of the off-grid analog under the framing that battery storage is the architectural keystone, with every dependent component dimensioned against the battery bank. Derives battery sizing from first principles with worked examples and the round-trip efficiency cascade. Walks the dependent components in order of dependency covering generation capacity with photovoltaic temperature derating, charge controllers, inverters and power conditioning, generator backup with the fuel consumption equation, load shedding strategy, and conductor sizing with the voltage drop equation. Includes a no-battery alternatives section covering continuous baseload fission through Kilopower and Fission Surface Power, geothermal, thermal storage, mechanical storage, and hydrogen production. Includes a terrestrial-only cheats section enumerating grid-tied operation, trucked-in diesel resupply, and cogeneration. Includes a space-only options section covering lunar peaks of eternal light, Mars solar at reduced irradiance, space-based solar power, orbital reflectors and the Znamya experiments, and the statite architecture. Includes a generalisation-beyond-space-analog section covering off-grid cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. Closes on three cases where the keystone framing breaks down covering the lunar equatorial fourteen-day night, the Mars dust storm season, and the outer-planet solar weakness. MathJax enabled with ten display equations and twenty inline expressions.
+**Article Number**: A153
+**Completion**: 100%
+**Publication Sensibility**: High for the space-themed cluster (first per-subsystem article opens the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid electrical-system guide for terrestrial use cases)
+**Status**: New Draft (16 references; ~1,494 lines; date 2026-06-29; mathjax true with 10 display equations and 20 inline expressions)
+
+First per-subsystem deep-dive article following A152, treating the electricity subsystem of the off-grid analog under the battery-as-keystone framing.
+Sections covered include
+opening as deep-dive of the highest-leverage subsystem;
+The Battery Storage Keystone (decoupling intermittent generation from continuous load, three failure modes for the no-storage architecture);
+Battery Sizing From First Principles (E_usable equation, E_nameplate equation with depth of discharge and round-trip efficiency factors, two worked examples at 33 kWh and 1300 kWh scales, chemistry comparison covering LiFePO4, NMC, lead-acid, and vanadium redox flow);
+Dependent Components in Order of Dependency (generation capacity with A_PV equation and worked example, charge controllers under NEC 690 and IEC 62548, inverters under UL 1741, generator backup with propane consumption worked example, load shedding strategy with three-tier prioritisation);
+No-Battery Architectures (Kilopower KRUSTY with the corrected 28-hour 1 kWe design point demonstration, Fission Surface Power 100 kW class target after August 2025 acceleration, geothermal, thermal storage, mechanical storage, hydrogen production);
+Terrestrial-Only Cheats (grid-tied operation, trucked-in fuel resupply, cogeneration with adjacent facility);
+Space-Only Options (lunar peaks of eternal light with Shackleton rim Points A and B at 81 and 82 percent illumination and 94 percent maximum, Mars solar at 43 percent of Earth irradiance with InSight dust failure precedent, Space-Based Solar Power with Caltech MAPLE 2023 demonstrator and ESA Solaris programme, orbital reflectors with the Znamya experiments, statite architecture from McInnes 1989 and Forward 1993);
+Where the Keystone Framing Breaks Down (lunar equatorial 14-day night, Mars dust storm season, outer-planet solar weakness);
+Out of Scope (battery management system engineering, power-electronics circuit design, grid-forming and islanding behaviour, nuclear safety and licensing, space-based solar power economics, energy storage chemistry research);
+Conclusion.
+
+Research agent verified
+the ISS battery replacement campaign (Ni-H2 to Li-ion, 2017 to 2021, 48 to 24 unit consolidation),
+the lithium iron phosphate cycle life and energy density ranges,
+the lead-acid and vanadium redox flow battery ranges,
+the photovoltaic efficiency ranges across mono- and multi-crystalline silicon, thin film, and triple-junction tandem cells,
+the Mars and lunar solar irradiance values,
+the McMurdo Ross Island Wind Energy Project specifications,
+the Kilopower KRUSTY 28-hour full-power test on 20 March 2018 with 5.5 kW thermal yielding 1 kW electric design point,
+the Fission Surface Power programme acceleration to 100 kW class in August 2025,
+the MMRTG 125 W beginning of life electrical output from approximately 2 kW thermal,
+the Plutonium-238 production restart in 2013 with the 1.5 kg per year target slipped to 2026,
+the Peter Glaser 1968 Science paper with the 1973 patent,
+the Caltech SSPP MAPLE demonstrator January 2023 launch with June 2023 ground reception below 0.1 microwatt as proof of concept,
+the ESA Solaris programme November 2022 Ministerial Council approval with the 2025 full programme decision,
+the JAXA mid-2030s commercial SSPS target rather than 2050,
+the China space solar power station 2028 LEO demonstrator and 2050 commercial GEO target,
+the Znamya 2 February 1993 deployment and Znamya 2.5 February 1999 failure,
+the Forward and McInnes statite concept dates (McInnes 1989, Forward 1993),
+the Krafft Ehricke Soletta 1978 concept with the Lunetta variant,
+the Peaks of Eternal Light at Shackleton crater rim Points A and B with 81 and 82 percent illumination,
+the NEC Article 690 and Article 706 photovoltaic and energy storage system coverage,
+and the UL 1741 distributed energy resource inverter standard.
+
+Critical factual corrections applied:
+the Kilopower KRUSTY description corrected from "1 kW electric output" to "1 kW electric design point demonstrated through 28-hour full-power test producing 5.5 kW thermal";
+the Fission Surface Power 40 kW target updated to 100 kW class after the August 2025 NASA acceleration;
+the statite attribution corrected from Forward 1991 to McInnes 1989 and Forward 1993;
+the Soletta concept date refined from "the 1970s" to "1978" with the Lunetta variant added;
+the Caltech MAPLE ground reception detail added that detected power was below one tenth of a microwatt as proof of concept;
+the Space-Based Solar Power efficiency caveat expanded to acknowledge theoretical 45 percent ceilings under optimised components;
+the IX team description expanded to identify Intuitive Machines and X-energy;
+the JAXA acronym spelled out as Japan Aerospace Exploration Agency on first use;
+the Peak of Eternal Light section expanded with specific Shackleton Point A and Point B illumination figures and 94 percent maximum;
+URL corrections for the NASA Fission Surface Power page (relocated to Wikipedia), the NASA Artemis Base Camp page (replaced with the Peak of Eternal Light Wikipedia article), the Caltech MAPLE landing page (replaced with the Caltech mission-end press release), and the UL 1741 services URL (replaced with the UL Standards Shop product detail page).
+
+References:
+14 references across Reference (13) and Related Post (1) categories.
+All inline-linked per project style.
+A152 (Simulating Space Colonization on Earth Using Off-Grid Facilities) cited via post_url as the parent survey article.
+
 ### Simulating Space Colonization on Earth Using Off-Grid Facilities — Published
 
 **File**: `_posts/2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities.markdown`
