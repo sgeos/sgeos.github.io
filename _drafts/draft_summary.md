@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Electricity and Energy Storage for Off-Grid Space Colonization Analogs — New Draft
+### Electricity and Energy Storage for Off-Grid Space Colonization Analogs — Published
 
-**File**: `_drafts/electricity_and_energy_storage_for_off_grid_space_colonization_analogs.markdown`
+**File**: `_posts/2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs.markdown`
 **Topic**: First per-subsystem deep-dive in the analog-facilities category following A152, designed to function as a general off-grid electrical-system guide with space-colonization as contextual flavour. Treats the electricity layer of the off-grid analog under the framing that battery storage is the architectural keystone, with every dependent component dimensioned against the battery bank. Derives battery sizing from first principles with worked examples and the round-trip efficiency cascade. Walks the dependent components in order of dependency covering generation capacity with photovoltaic temperature derating, charge controllers, inverters and power conditioning, generator backup with the fuel consumption equation, load shedding strategy, and conductor sizing with the voltage drop equation. Includes a no-battery alternatives section covering continuous baseload fission through Kilopower and Fission Surface Power, geothermal, thermal storage, mechanical storage, and hydrogen production. Includes a terrestrial-only cheats section enumerating grid-tied operation, trucked-in diesel resupply, and cogeneration. Includes a space-only options section covering lunar peaks of eternal light, Mars solar at reduced irradiance, space-based solar power, orbital reflectors and the Znamya experiments, and the statite architecture. Includes a generalisation-beyond-space-analog section covering off-grid cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. Closes on three cases where the keystone framing breaks down covering the lunar equatorial fourteen-day night, the Mars dust storm season, and the outer-planet solar weakness. MathJax enabled with ten display equations and twenty inline expressions.
 **Article Number**: A153
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (first per-subsystem article opens the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid electrical-system guide for terrestrial use cases)
-**Status**: New Draft (16 references; ~1,494 lines; date 2026-06-29; mathjax true with 10 display equations and 20 inline expressions)
+**Status**: Published 2026-06-29 (16 references; ~1,508 lines; mathjax true with 10 display equations and 20 inline expressions)
 
 First per-subsystem deep-dive article following A152, treating the electricity subsystem of the off-grid analog under the battery-as-keystone framing.
 Sections covered include
