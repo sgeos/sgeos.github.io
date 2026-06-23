@@ -18,6 +18,73 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Water Systems and Life Support Recovery for Off-Grid Space Colonization Analogs — New Draft
+
+**File**: `_drafts/water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs.markdown`
+**Topic**: Second per-subsystem deep-dive in the analog-facilities category following A152 and A153, designed to function as a general off-grid water system guide with space-colonization as contextual flavour. Treats the water layer of the off-grid analog under the dual-keystone framing that the storage tank is the architectural keystone for any off-grid water system and the recovery loop is the closed-system extension that determines long-duration sustainability. Derives storage sizing from first principles with worked examples at 8400 L (terrestrial) and 250 to 420 L (spaceflight regime) scales. Walks the dependent components in order of dependency covering water sources (rainwater harvesting, well extraction, atmospheric water generation, closed-loop recovery), treatment train (sedimentation, filtration, disinfection, polishing), storage materials and geometry, distribution network with hydrostatic pressure and pump power equations, and heating and pressure management. Includes a recovery loop and closure ratio section with worked makeup water demand calculation across mission durations. Includes a treatment technologies in detail section covering reverse osmosis with flux equation, distillation with thermodynamic minimum and multi-stage architectures, ultraviolet disinfection with Chick-Watson kinetics and adenovirus virus caveat, chemical disinfection, activated carbon, and ion exchange. Includes no-recovery architectures section, terrestrial-only cheats section, and space-only options covering lunar polar water ice via LCROSS, Mars subsurface ice via SHARAD, Mars atmospheric water vapor via WAVAR concept, and asteroid and comet volatiles. Closes on three cases where the keystone framing breaks down (sub-day mission duration, trace-water outer solar system, in-situ resource abundance regime). Includes generalisation beyond space analog covering residential cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. MathJax enabled.
+**Article Number**: A154
+**Completion**: 100%
+**Publication Sensibility**: High for the space-themed cluster (second per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid water system guide for terrestrial use cases)
+**Status**: New Draft (15 references; ~1,686 lines; date 2026-06-30; mathjax true with 11 display equations and 36 inline expressions)
+
+Second per-subsystem deep-dive article following A153, treating the water subsystem of the off-grid analog under the dual-keystone framing where the storage tank is the primary architectural keystone analogous to the battery bank in A153 and the recovery loop is the closed-system extension that determines long-duration sustainability.
+Sections covered include
+opening as second subsystem deep-dive citing water as the highest-leverage subsystem per A152;
+generalisation framing to any off-grid water system context;
+The Storage and Recovery Keystone (supply-demand mismatch and closed-system architecture);
+Storage Sizing From First Principles (V_storage equation, two worked examples at 8400 L terrestrial and 250 to 420 L spaceflight scales, daily demand decomposition by stream, closure ratio C and makeup water demand equation, makeup water worked example at 95 percent versus zero percent closure);
+Dependent Components in Order of Dependency (water sources including rainwater harvesting with the corrected 1.0 L/m2/mm gross conversion and 0.8 to 0.9 effective after runoff coefficient, well extraction with pump power equation, atmospheric water generation, recovery; treatment train through sedimentation, filtration, disinfection with Chick-Watson kinetics, polishing under NSF Standard 61, 53, EPA SDWA, WHO Guidelines; storage materials and geometry; distribution network with hydrostatic pressure equation; heating and pressure management);
+The Recovery Loop and Closure Ratio (greywater, blackwater with jurisdiction-dependent kitchen sink classification, atmospheric humidity, urine stream with ISS UPA vapor compression distillation and BPA);
+Treatment Technologies in Detail (reverse osmosis with flux equation and corrected energy ranges, distillation with thermodynamic minimum 0.63 kWh/L latent heat and corrected multi-stage values, ultraviolet disinfection with adenovirus caveat, chemical disinfection, activated carbon, ion exchange);
+No-Recovery Architectures (single-pass, continuous resupply, hybrid partial recovery);
+Terrestrial-Only Cheats (municipal connection, trucked-in delivery, cogeneration);
+Space-Only Options (lunar polar water ice via LCROSS October 2009 with Lunar Reconnaissance Orbiter follow-up, Mars subsurface ice via SHARAD with Phoenix lander 2008 confirmation, Mars atmospheric water vapor via WAVAR sorbent regeneration concept from Bruckner at University of Washington, asteroid and comet volatiles);
+Where the Keystone Framing Breaks Down (sub-day mission, trace-water outer solar system, in-situ resource abundance);
+Generalisation Beyond the Space Analog Context (residential cabin, remote research station, disaster relief, maritime vessel, forward operating base);
+Out of Scope (treatment-train engineering, bioregenerative life support biology, pharmaceutical residues, trace organic contaminants, microbial control in distribution, in-situ resource utilisation engineering);
+Conclusion.
+
+Research agent verified
+the ISS Water Recovery System 98 percent closure after Brine Processor Assembly addition with the 20 June 2023 milestone date,
+the ISS Urine Processor Assembly 75 to 87 percent urine water recovery via rotating vapor compression distillation,
+the NASA JSC-63414 SWEGs Revision A November 2023 potable water standard,
+the Biosphere 2 Mission One water cycle through condensation collection and constructed wetlands,
+the BIOS-3 ten crewed closures from 1972 with 180-day longest run and 85 percent water recycling,
+the MELiSSA Pilot Plant at the Universitat Autonoma de Barcelona Claude Chipaux Laboratory with five compartments C1 through C5 active in 2025-2026,
+the Yuegong-365 mission 10 May 2017 to 15 May 2018 with 98.2 percent overall system closure,
+the rainwater harvesting conversion factor 1.0 L per square metre per millimetre gross with 0.8 to 0.9 effective after runoff coefficient,
+the atmospheric water generator specific energy 0.25 to 0.5 kWh per litre at moderate humidity,
+the kitchen sink jurisdiction-dependent classification with California and Hawaii treating as blackwater versus IPC and UPC excluding from greywater,
+the reverse osmosis energy 2.5 to 4 kWh per cubic metre seawater and 0.5 to 1.5 kWh per cubic metre brackish,
+the ultraviolet 30 to 40 mJ/cm2 dose for 4-log bacteria and protozoa with adenovirus requiring greater than 100 mJ/cm2,
+the ultrafiltration 0.01 to 0.1 micrometre pore size and 0.1 to 0.5 kWh per cubic metre energy,
+the distillation thermodynamic minimum 0.63 kWh per litre latent heat with practical small stills at 1 to 2 kWh per litre and multi-stage flash at 18 to 28 kWh per cubic metre,
+the NSF/ANSI 61-2025, NSF/ANSI 53-2023, and NSF/ANSI 55-2024 current revisions,
+the EPA Safe Drinking Water Act 40 CFR Part 141 National Primary Drinking Water Regulations,
+the WHO Guidelines for Drinking-Water Quality fourth edition with third addendum 18 June 2026,
+the ASHRAE Standard 188-2021 Legionellosis Risk Management,
+the 2024 International Plumbing Code current edition,
+the LCROSS impactor mission 9 October 2009 confirming water ice in Cabeus crater,
+the Mars Reconnaissance Orbiter SHARAD radar instrument mapping mid-latitude buried ice including Utopia Planitia and Deuteronilus Mensae,
+the Phoenix lander 2008 direct observation of subsurface ice,
+the WAVAR concept from Adam Bruckner at the University of Washington for Type 3A zeolite molecular sieve cycled adsorption from Martian wind-driven airflow,
+and the Mars atmosphere approximately 0.03 percent water vapor average by volume with significant seasonal variation.
+
+Critical factual corrections applied:
+the rainwater conversion corrected from 0.9 L/m2/mm to 1.0 L/m2/mm gross with 0.8 to 0.9 effective after runoff coefficient;
+the ISS daily water use refined from 4 to 6 L/crew/day to 3 to 5 L/crew/day for drinking and food preparation;
+the single-stage distillation energy corrected from 2 to 4 kWh per litre to the thermodynamic minimum 0.63 kWh per litre latent heat with practical small stills at 1 to 2 kWh per litre;
+the multi-stage distillation energy refined to 18 to 28 kWh per cubic metre for multi-stage flash and 4 to 7 kWh thermal plus 1.5 to 2 kWh electrical per cubic metre for multi-effect distillation;
+the WHO Guidelines for Drinking-Water Quality updated to fourth edition incorporating first, second, and third addenda through June 2026;
+the kitchen sink classification softened with jurisdiction-dependent qualifier covering California, Hawaii blackwater treatment versus IPC and UPC exclusion from greywater;
+the ultraviolet dose specification expanded with the adenovirus 100 mJ/cm2 caveat for virus inactivation;
+the SHARAD acronym spelled out as Shallow Radar on first use.
+
+References:
+15 references across Reference (13) and Related Post (2) categories.
+All inline-linked per project style.
+A152 (Simulating Space Colonization on Earth Using Off-Grid Facilities) and A153 (Electricity and Energy Storage for Off-Grid Space Colonization Analogs) cited via post_url as the parent and sibling articles.
+
 ### Electricity and Energy Storage for Off-Grid Space Colonization Analogs — Published
 
 **File**: `_posts/2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs.markdown`
