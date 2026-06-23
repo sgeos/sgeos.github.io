@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Water Systems and Life Support Recovery for Off-Grid Space Colonization Analogs — New Draft
+### Water Systems and Life Support Recovery for Off-Grid Space Colonization Analogs — Published
 
-**File**: `_drafts/water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs.markdown`
+**File**: `_posts/2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs.markdown`
 **Topic**: Second per-subsystem deep-dive in the analog-facilities category following A152 and A153, designed to function as a general off-grid water system guide with space-colonization as contextual flavour. Treats the water layer of the off-grid analog under the dual-keystone framing that the storage tank is the architectural keystone for any off-grid water system and the recovery loop is the closed-system extension that determines long-duration sustainability. Derives storage sizing from first principles with worked examples at 8400 L (terrestrial) and 250 to 420 L (spaceflight regime) scales. Walks the dependent components in order of dependency covering water sources (rainwater harvesting, well extraction, atmospheric water generation, closed-loop recovery), treatment train (sedimentation, filtration, disinfection, polishing), storage materials and geometry, distribution network with hydrostatic pressure and pump power equations, and heating and pressure management. Includes a recovery loop and closure ratio section with worked makeup water demand calculation across mission durations. Includes a treatment technologies in detail section covering reverse osmosis with flux equation, distillation with thermodynamic minimum and multi-stage architectures, ultraviolet disinfection with Chick-Watson kinetics and adenovirus virus caveat, chemical disinfection, activated carbon, and ion exchange. Includes no-recovery architectures section, terrestrial-only cheats section, and space-only options covering lunar polar water ice via LCROSS, Mars subsurface ice via SHARAD, Mars atmospheric water vapor via WAVAR concept, and asteroid and comet volatiles. Closes on three cases where the keystone framing breaks down (sub-day mission duration, trace-water outer solar system, in-situ resource abundance regime). Includes generalisation beyond space analog covering residential cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. MathJax enabled.
 **Article Number**: A154
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (second per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid water system guide for terrestrial use cases)
-**Status**: New Draft (15 references; ~1,686 lines; date 2026-06-30; mathjax true with 11 display equations and 36 inline expressions)
+**Status**: Published 2026-06-30 (15 references; ~1,690 lines; mathjax true with 11 display equations and 36 inline expressions)
 
 Second per-subsystem deep-dive article following A153, treating the water subsystem of the off-grid analog under the dual-keystone framing where the storage tank is the primary architectural keystone analogous to the battery bank in A153 and the recovery loop is the closed-system extension that determines long-duration sustainability.
 Sections covered include
