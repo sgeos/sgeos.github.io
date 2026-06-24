@@ -18,6 +18,72 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Communications and the Link Budget for Off-Grid Space Colonization Analogs — New Draft
+
+**File**: `_drafts/communications_and_the_link_budget_for_off_grid_space_colonization_analogs.markdown`
+**Topic**: Third per-subsystem deep-dive in the analog-facilities category following A152, A153, and A154, designed to function as a general off-grid communications system guide with space-colonization as contextual flavour. Treats the communications layer of the off-grid analog under the framing that the link budget is the architectural keystone, with antenna aperture, transmit power, modulation, forward error correction strength, and operating frequency all dimensioned against the required signal-to-noise margin. Derives the link budget from first principles with the Friis equation, free-space path loss, Shannon-Hartley capacity bound, parabolic antenna gain, beamwidth, Johnson-Nyquist thermal noise floor, Doppler shift, and link margin equations. Walks the dependent components in order of dependency covering antennas, transmitters and power amplifiers, receivers and low-noise amplifiers, modems and forward error correction, networking layer with IEEE 802.3 and 802.11 references, and power supply and cooling. Includes a latency, bandwidth, and protocol considerations section with delay-tolerant networking and bundle protocol. Includes no-radio-frequency architectures covering free-space optical and physical data transport (sneakernet). Includes terrestrial-only cheats and space-only options covering NASA Deep Space Network, ESA Estrack, Mars Relay Network (updated after MAVEN mission conclusion June 2026), lunar relay constellation through LunaNet and ESA Moonlight, and deep-space optical communications. Closes on three cases where the keystone framing breaks down covering solar conjunction blackout (with January 2026 most recent and early 2028 next), entry-descent-landing plasma sheath, and deep outer solar system extreme-distance regime. Includes generalisation beyond space analog covering residential cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. MathJax enabled.
+**Article Number**: A155
+**Completion**: 100%
+**Publication Sensibility**: High for the space-themed cluster (third per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid communications system guide for terrestrial use cases)
+**Status**: New Draft (28 references; ~1,544 lines; date 2026-07-01; mathjax true with 16 display equations and 27 inline expressions)
+
+Third per-subsystem deep-dive article following A153 and A154, treating the communications subsystem of the off-grid analog under the link-budget-as-keystone framing.
+Sections covered include
+opening as third subsystem deep-dive identifying communications as the umbilical that connects the operational island to surrounding institutional context;
+generalisation framing to any off-grid communications system context;
+The Link Budget Keystone (closure problem analogous to electrical generation-load and water supply-demand mismatch);
+Link Budget From First Principles (Friis equation in linear and dB form, free-space path loss with the 32.45 constant for km and MHz, parabolic antenna gain, beamwidth, Johnson-Nyquist thermal noise, Shannon-Hartley capacity bound, link margin definition, worked example for 12 GHz Ku-band geostationary uplink yielding 11 dB margin);
+Dependent Components in Order of Dependency (antennas including parabolic, omnidirectional, phased array, horn; transmitters and power amplifiers with 10 to 40 percent solid-state efficiency; receivers and low-noise amplifiers with 0.8 to 1.5 dB noise figure; modems and forward error correction with BPSK at 9 dB through higher-order QAM, LDPC and turbo codes; networking layer under IEEE 802.3 Ethernet and IEEE 802.11 wireless including 802.11s mesh; power supply and cooling);
+Latency, Bandwidth, and Protocol Considerations (Mars 3 to 22 minute and lunar 1.3 second light-time delay, TCP degradation under multi-minute delay, Delay-Tolerant Networking and Bundle Protocol substitution, Mars relay UHF data rates, direct-to-Earth X-band, DSOC optical demonstrator);
+No-Radio-Frequency Architectures (free-space optical with terrestrial 1 to 10 Gbps over 1 km, NASA LCRD geostationary optical relay, physical data transport sneakernet);
+Terrestrial-Only Cheats (broadband Internet, cellular, low Earth orbit constellations including Starlink, OneWeb, and Iridium);
+Space-Only Options (NASA Deep Space Network at Goldstone, Madrid, Canberra with 70-metre and 34-metre antennas, ESA Estrack at New Norcia, Cebreros, Malarguee, Mars Relay Network with MRO, Mars Odyssey, Mars Express, ExoMars Trace Gas Orbiter after MAVEN mission conclusion June 2026, lunar relay through LunaNet and ESA Moonlight, deep-space optical communications including DSOC primary mission concluded September 2025);
+Where the Keystone Framing Breaks Down (solar conjunction blackout with X-band 5 degree and Ka-band 2 to 3 degree thresholds, most recent January 2026 with next early 2028; entry-descent-landing plasma sheath; deep outer solar system Voyager regime at 160 bps from 24 billion km);
+Generalisation Beyond the Space Analog Context (residential off-grid cabin, remote research station with Antarctic Starlink shift since 2022, disaster relief, maritime vessel with antenna gimbal compensation, military forward operating base);
+Out of Scope (modulation and coding theory, network protocols and security, antenna engineering and EMC, spectrum allocation and regulatory compliance, quantum communications, software-defined radio architecture);
+Conclusion.
+
+Research agent verified
+the Friis equation linear and dB forms,
+the free-space path loss 32.45 constant for km and MHz,
+the Shannon-Hartley capacity bound,
+the parabolic antenna gain with aperture efficiency 0.55 to 0.70 for well-designed dishes,
+the parabolic 3 dB beamwidth approximately 70 lambda over D in degrees,
+the Johnson-Nyquist thermal noise N = k T B with Boltzmann constant 1.380649 times 10 to the minus 23 J/K,
+the Doppler shift Delta f over f = v over c non-relativistic limit,
+the NASA Deep Space Network three sites at Goldstone, Madrid, and Canberra with one 70-metre and multiple 34-metre antennas each with Madrid adding DSS-53 February 2022,
+the ESA Estrack network with three deep-space 35-metre antennas and the upcoming DSA-4 at New Norcia inaugurated October 2025,
+the Mars Relay Network active orbiters MRO, Mars Odyssey, Mars Express, and ExoMars Trace Gas Orbiter after MAVEN mission conclusion 3 June 2026,
+the NASA Laser Communications Relay Demonstration launch 7 December 2021 with 1.244 Gbps capability and first ILLUMA-T link 5 December 2023,
+the Psyche DSOC launch 13 October 2023 with first light 14 November 2023, 267 Mbps from 16 million km in December 2023, distance record from 494 million km on 3 December 2024, primary mission concluded 2 September 2025 with possible 2026 reactivation,
+the Starlink 2026 figures of approximately 10,000 active satellites with 25 to 50 ms latency and 100 to 400 Mbps download,
+the Iridium 66 active satellites in 6 polar planes with Iridium NEXT completed January 2019,
+the Globalstar 25 second-generation satellites with announced 54-satellite expansion and Amazon acquisition agreement April 2026,
+the TDRSS three generations with planned phaseout in favour of commercial relay providers,
+the HF radio 3 to 30 MHz ionospheric skywave,
+the VHF 30 to 300 MHz and UHF 300 MHz to 3 GHz ITU allocations,
+the IEEE 802.11s mesh and the Meshtastic-style overlays on LoRa rather than LoRa itself as mesh,
+the FCC Part 95 personal radio services covering FRS, GMRS, MURS, and CB,
+the CCSDS Space Packet Protocol, CFDP, Proximity-1, and Space Link Extension standards,
+the IEEE 802.11ax Wi-Fi 6 published February 2021, 802.11ax 6 GHz extension Wi-Fi 6E, and 802.11be Wi-Fi 7 published September 2024,
+the ITU-R Radio Regulations 2024 edition entered force 1 January 2025 after WRC-23,
+the CCSDS FEC codes including concatenated convolutional plus Reed-Solomon, turbo, LDPC AR4JA family, and BCH plus LDPC via DVB-S2 with polar codes used in 5G but not in current CCSDS standard suites,
+the terrestrial free-space optical 500 m typical year-round availability with multi-kilometre under favourable weather,
+and the Mars solar conjunction January 2026 most recent with next opposition February 2027 and next superior conjunction approximately early 2028.
+
+Critical factual corrections applied:
+MAVEN removed from active Mars relay list with the mission conclusion announced 3 June 2026 explicitly noted;
+the DSOC primary mission framed as concluded September 2025 with the November 2023 first link at 267 Mbps from 16 million km, the December 2024 distance record from 494 million km, and the possible reactivation under consideration following the May 2026 Mars flyby;
+the solar conjunction blackout specification expanded with X-band Sun-Earth-Probe angle below approximately five degrees and Ka-band below approximately two to three degrees;
+the Mars solar conjunction schedule corrected with the most recent January 2026 and next early 2028 rather than late 2026 to early 2027;
+the polar codes removed from CCSDS-standard list with LDPC and concatenated turbo codes substituted;
+URL replacements for the NASA Deep Space Network page (relocated to Wikipedia), the LCRD page (Wikipedia), the LunaNet page (Wikipedia), the FCC root (Wikipedia), and the Space Telecommunications Radio System (Software-Defined Radio Wikipedia) along with the IETF RFC 9171 page for the Bundle Protocol.
+
+References:
+28 references across Reference (25) and Related Post (3) categories.
+All inline-linked per project style.
+A152, A153, and A154 cited via post_url as the parent and sibling articles.
+
 ### Water Systems and Life Support Recovery for Off-Grid Space Colonization Analogs — Published
 
 **File**: `_posts/2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs.markdown`
