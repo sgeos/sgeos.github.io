@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Habitat and Physical Operations for Off-Grid Space Colonization Analogs — New Draft
+### Habitat and Physical Operations for Off-Grid Space Colonization Analogs — Published
 
-**File**: `_drafts/habitat_and_physical_operations_for_off_grid_space_colonization_analogs.markdown`
+**File**: `_posts/2026-07-03-habitat_and_physical_operations_for_off_grid_space_colonization_analogs.markdown`
 **Topic**: Fifth per-subsystem deep-dive in the analog-facilities category following A152, A153, A154, A155, and A156. Treats the habitat layer under the framing that the habitable pressure envelope is the architectural keystone, with structural mass, airlock cycling, thermal boundary, radiation shielding, micrometeoroid shielding, and interface penetrations all dimensioned against the envelope. Derives habitable volume sizing, differential pressure across the envelope, cylindrical and spherical pressure vessel stress equations, required wall thickness with safety factor and worked example at 8.7 mm for a 4-metre radius aluminium habitat, structural mass equation, thermal heat loss equation with worked 3.2 kW for a Mars surface habitat, airlock gas loss with the corrected ISS Quest 4.2 m^3 crewlock and 0.4 to 1.4 kg per cycle figure, and radiation shielding attenuation. Walks dependent components in order of dependency covering pressure envelope material (rigid aluminium, inflatable BEAM and Sierra Space LIFE, 3D-printed ICON Vulcan and Olympus, subterranean, rammed-earth and regolith), interior layout with NASA HIDH per-crew volume guidance, airlocks and EVA staging including suit-port architecture, thermal control with corrected ISS 70 kW EATCS radiator capacity, radiation shielding with corrected Mars 230 mSv/year unshielded and lunar 380 to 500 mSv/year solar minimum dose figures, micrometeoroid and orbital debris Whipple shield, and interface penetrations. Covers no-pressure-envelope architectures (open-air shelter, underwater habitat, subterranean cave), terrestrial-only cheats (breathable atmosphere, natural radiation shielding, conventional building codes), space-only options (lunar lava tube habitats with Marius Hills and Mare Tranquillitatis pits, regolith burial including Mars Ice Home concept, orbital free-flying habitats including Lunar Gateway and commercial LEO destinations, inflatable surface habitats). Closes on three cases where the keystone framing breaks down (near-zero pressure differential terrestrial, external-pressure-dominated underwater, distributed-village multi-module). Generalisation section walks submarine, Antarctic winter-over, off-grid residential, disaster relief, maritime vessel, and forward operating base. MathJax enabled.
 **Article Number**: A157
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (fifth per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid habitat construction and operations guide for terrestrial use cases)
-**Status**: New Draft (25 references; ~1,565 lines; date 2026-07-03; mathjax true with 21 display equations and 27 inline expressions)
+**Status**: Published 2026-07-03 (25 references; ~1,568 lines; mathjax true with 21 display equations and 27 inline expressions)
 
 ### Food Production and Closed Ecological Systems for Off-Grid Space Colonization Analogs — Published
 
