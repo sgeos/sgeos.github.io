@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Garbage and Transportation for Off-Grid Space Colonization Analogs — New Draft
+### Garbage and Transportation for Off-Grid Space Colonization Analogs — Published
 
-**File**: `_drafts/garbage_and_transportation_for_off_grid_space_colonization_analogs.markdown`
+**File**: `_posts/2026-07-05-garbage_and_transportation_for_off_grid_space_colonization_analogs.markdown`
 **Topic**: Seventh per-subsystem deep-dive in the analog-facilities category following A152 through A158, the penultimate article before the A160 Venus cloudtop closer. Treats transportation as the primary subject with garbage logistics as a specific use case. Uses the framing that the cargo throughput rate is the architectural keystone, with vehicle fleet sizing, route infrastructure, energy budget, and endpoint storage all dimensioned against the throughput. Derives throughput from first principles with worked 50 kg/day example, vehicle fleet sizing with worked utilisation example, rolling resistance and aerodynamic drag equations, gravitational work, energy budget for surface vehicle with 54 kWh worked example, the Tsiolkovsky rocket equation with propellant mass fraction derivation and 0.94 worked example. Walks dependent components covering vehicles (wheeled, tracked, planetary rover including corrected Apollo LRV cruise 13 km/h and 18 km/h record with Apollo 17 traverse 35.9 km, Mars rovers, NASA LTVS Lunar Outpost/Lunar Dawn/Astrolab), routes (paved, graded earth, marked, fixed-rail, no-route), energy supply (chemical, battery, hydrogen, solar), loading and unloading, endpoint storage, crew movement, garbage and bulk solid waste transport with pickup frequency equation. Transportation modes summary with comparative analysis. Covers no-transportation architectures (point-of-use disposition, drop-shipment, self-propelled cargo), terrestrial-only cheats (public road network, commercial freight, refuelling), space-only options (orbital manoeuvre, suborbital hopping, lunar/Mars surface rovers, sample return, electromagnetic launch). Closes on three cases where the keystone framing breaks down (zero-throughput closed colony, surge regime, catastrophic failure). Generalisation section walks residential homestead, remote research station with Antarctic traverse, disaster relief, mining/oilfield camp, maritime vessel under IMO, and forward operating base. MathJax enabled.
 **Article Number**: A159
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (seventh per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, penultimate to the A160 Venus cloudtop closer)
-**Status**: New Draft (18 references; ~1,400 lines; date 2026-07-05; mathjax true with 19 display equations and 26 inline expressions)
+**Status**: Published 2026-07-05 (18 references; ~1,404 lines; mathjax true with 19 display equations and 26 inline expressions)
 
 ### Waste and Sewage Management for Off-Grid Space Colonization Analogs — Published
 
