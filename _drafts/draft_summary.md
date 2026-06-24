@@ -18,6 +18,68 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Food Production and Closed Ecological Systems for Off-Grid Space Colonization Analogs — New Draft
+
+**File**: `_drafts/food_production_and_closed_ecological_systems_for_off_grid_space_colonization_analogs.markdown`
+**Topic**: Fourth per-subsystem deep-dive in the analog-facilities category following A152, A153, A154, and A155, designed to function as a general off-grid food production guide with space-colonization as contextual flavour. Treats the food production layer under the framing that the caloric yield per square metre per day is the architectural keystone, with the cultivation area following from the daily caloric demand and the achievable yield, and the lighting power, water demand, carbon dioxide flux, nutrient supply, and harvest and storage capacity all dimensioned against the cultivation area. Derives cultivation area sizing from first principles with worked example at 120 m^2 for four crew at 3000 kcal/day on a wheat-and-soybean mix at 150 kcal per square metre per day yield. Walks the dependent components in order of dependency covering cultivation systems (soil, hydroponic, aeroponic, vertical controlled environment), lighting (natural sun, artificial LED, hybrid), climate control with CO2 enrichment, nutrient supply, harvest and storage, and waste recycling through composting, anaerobic digestion, and microbial bioreactor processing. Includes production strategies covering intensive staple horticulture, fresh produce cultivation, aquaculture and aquaponics, single-cell protein from Spirulina and Chlorella, and insect protein with feed conversion ratio comparison. Treats closed ecological system biology through BIOS-3, Biosphere 2 at approximately 80 percent caloric closure across 2000 m^2 cropping area, Yuegong-365 at approximately 80 percent food self-sufficiency, the MELiSSA C1 through C5 compartment architecture with C4a algal and C4b higher-plant split, and the NASA Controlled Ecological Life Support System Biomass Production Chamber at Kennedy Space Center. Includes no-production architectures (ISS-style shelf-stable ration import, hybrid partial production with NASA Veggie and Advanced Plant Habitat, short-duration), terrestrial-only cheats (grocery resupply, local farms, wild harvest), and space-only options (reduced Mars top-of-atmosphere flux further attenuated by atmospheric dust at the surface, lunar peaks of eternal light, lunar equatorial 14-day night, microgravity considerations through Veggie and APH, regolith and in-situ resources). Closes on three cases where the keystone framing breaks down (short-duration mission, crop failure contingency, crew dietary preference). Generalisation section walks residential homestead, remote research station, disaster relief, maritime vessel, and forward operating base. MathJax enabled.
+**Article Number**: A156
+**Completion**: 100%
+**Publication Sensibility**: High for the space-themed cluster (fourth per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid food production guide for terrestrial use cases)
+**Status**: New Draft (13 references; ~1,641 lines; date 2026-07-02; mathjax true with 15 display equations and 19 inline expressions)
+
+Fourth per-subsystem deep-dive article following A153, A154, and A155, treating the food production subsystem under the caloric-yield-as-keystone framing.
+
+Sections covered include
+opening as fourth subsystem deep-dive citing food as the longest-cycle closed-loop subsystem per A152;
+generalisation framing to any off-grid food production system context;
+The Caloric Yield Keystone (yield-demand mismatch, closure ratio applied symmetrically from water article);
+Sizing From First Principles (cultivation area equation A_crop = N_crew × E_cal × σ / Y with worked example 120 m^2 for four-crew habitat at 3000 kcal/day at 150 kcal per square metre per day yield, daily light integral DLI = PPFD × t_photoperiod, lighting power equation P_light, water demand V_water_food = A_crop × ET_crop with 600 L/day worked example, closure ratio C_food = E_cal,produced / E_cal,consumed, makeup caloric demand equation, photosynthesis stoichiometric reaction 6 CO2 + 6 H2O to glucose plus 6 O2, mass balance equations for CO2 consumption and O2 production at 1.5 kg CO2 and 1 kg O2 per kg dry biomass);
+Dependent Components in Order of Dependency (cultivation systems with hydroponic variants, lighting with photosynthetic efficiency η_photo = E_biomass / E_PAR ranging 0.5 to 3 percent field for higher plants with theoretical maxima 4.6 percent C3 and 6 percent C4 and 8 to 10 percent cyanobacteria, climate control with CO2 enrichment, nutrient supply, harvest and storage, waste recycling);
+Production Strategies (intensive staple horticulture, fresh produce, aquaculture, single-cell protein, insect protein with feed conversion ratio equation);
+Closed Ecological System Biology (BIOS-3 with substantial food closure varying by run, Biosphere 2 with 80 percent caloric closure, Yuegong-365 with 80 percent food self-sufficiency, MELiSSA C1-C5 architecture with C4a algal and C4b higher-plant split, NASA CELSS Biomass Production Chamber);
+No-Production Architectures (shelf-stable ration, hybrid partial production, short-duration);
+Terrestrial-Only Cheats (grocery resupply, local farm cooperation, wild harvest);
+Space-Only Options (Mars top-of-atmosphere 43 percent reduction further attenuated by surface dust, lunar peaks of eternal light, lunar equatorial 14-day night, microgravity considerations, regolith and in-situ resources);
+Where the Keystone Framing Breaks Down (short-duration mission, crop failure contingency, crew dietary preference);
+Generalisation Beyond the Space Analog Context;
+Out of Scope (crop physiology and breeding, soil chemistry and microbiology, aquaculture engineering, pest and pathogen management, food safety and nutrition, spaceflight crew nutrition research);
+Conclusion.
+
+Research agent verified
+the NASA exploration crew caloric demand of 2000 to 3000 kcal per day with additional 500 kcal on EVA days per JSC-67378,
+the wheat, potato, soybean, lettuce, Spirulina, Chlorella, and mealworm caloric densities and protein content,
+the photosynthetically active radiation 400 to 700 nanometre wavelength range and the photosynthetic efficiency ranges including 0.5 to 3 percent for higher plants under field conditions with theoretical maxima 4.6 percent C3 and 6 percent C4 and 8 to 10 percent for cyanobacteria,
+the daily light integral 12 to 17 mol/m^2/day for leafy greens and 20 to 30 mol/m^2/day for fruiting crops,
+the LED grow light efficacy 2.5 to 3.5 micromoles per joule,
+the Mars top-of-atmosphere solar flux at approximately 43 percent of Earth further attenuated by atmospheric dust at the surface,
+the lunar solar constant at 1361 W/m^2 at 1 AU,
+the Biosphere 2 Mission 1 80 percent caloric closure on 2000 m^2 cropping area across the 2-year 8-crew mission,
+the BIOS-3 approximately 95 percent atmospheric closure with food closure varying by run,
+the Yuegong-365 approximately 98 percent overall system closure with full water and oxygen recycling and approximately 80 percent food self-sufficiency,
+the MELiSSA C1 anoxic thermophilic, C2 photoheterotrophic, C3 nitrifying, C4a photoautotrophic algal with Limnospira indica or Spirulina, C4b higher-plant, and C5 crew compartment architecture,
+the NASA Veggie deployed April 2014 with crops including red romaine lettuce, zinnia, Mizuna, Russian kale, pak choi, dragoon lettuce, and tomato,
+the NASA Advanced Plant Habitat deployed 2017 with Arabidopsis, dwarf wheat, and chile peppers in 2021,
+the NASA Controlled Ecological Life Support System Biomass Production Chamber operated 1988 onward for over 1200 days at Kennedy Space Center,
+the MELiSSA Pilot Plant inaugurated 4 June 2009 at UAB with the Claude Chipaux Laboratory active in 2025-2026,
+the hydroponic, aeroponic, controlled environment agriculture, aquaponic, single-cell protein, and edible insect production strategies,
+the USDA Organic 7 CFR Part 205, the FDA Food Code 2022 10th edition, and the FAO/WHO Codex Alimentarius,
+and the CO2 enrichment 800 to 1200 ppm versus ambient 425 ppm with C3 yield uplift 40 to 100 percent and C4 yield uplift 10 to 25 percent.
+
+Critical factual corrections applied include
+the Biosphere 2 caloric closure corrected from 50 percent to approximately 80 percent across the 2000 square metre cropping area;
+the Yuegong-365 food self-sufficiency clarified to 80 percent with the 98 percent figure framed as overall system closure including water and oxygen;
+the BIOS-3 food closure softened from a specific 50-60 percent range to substantial food closure varying by run with the 95 percent atmospheric closure cited;
+the MELiSSA C4 compartment split into C4a photoautotrophic algal (Limnospira indica or Spirulina) and C4b higher-plant per current ESA definitions;
+the Mars solar irradiance qualifier clarified that the 43 percent figure is top-of-atmosphere with further attenuation by atmospheric dust at the surface;
+the photosynthetic efficiency refined to 0.5 to 3 percent for higher plants under field conditions with theoretical maxima 4.6 percent C3 and 6 percent C4 and 8 to 10 percent only for cyanobacteria;
+the LED efficacy range adjusted to 2.5 to 3.5 micromoles per joule (the upper end was already accurate);
+URL replacements for the NASA Advanced Plant Habitat page (relocated to NASA Growing Plants in Space) and the NASA Veggie page (relocated to the Wikipedia Vegetable Production System article).
+
+References:
+12 references across Reference (9) and Related Post (4) categories.
+All inline-linked per project style.
+A152, A153, A154, and A155 cited via post_url as the parent and sibling articles.
+
 ### Communications and the Link Budget for Off-Grid Space Colonization Analogs — Published
 
 **File**: `_posts/2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs.markdown`
