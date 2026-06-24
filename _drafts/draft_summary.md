@@ -18,14 +18,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Communications and the Link Budget for Off-Grid Space Colonization Analogs — New Draft
+### Communications and the Link Budget for Off-Grid Space Colonization Analogs — Published
 
-**File**: `_drafts/communications_and_the_link_budget_for_off_grid_space_colonization_analogs.markdown`
+**File**: `_posts/2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs.markdown`
 **Topic**: Third per-subsystem deep-dive in the analog-facilities category following A152, A153, and A154, designed to function as a general off-grid communications system guide with space-colonization as contextual flavour. Treats the communications layer of the off-grid analog under the framing that the link budget is the architectural keystone, with antenna aperture, transmit power, modulation, forward error correction strength, and operating frequency all dimensioned against the required signal-to-noise margin. Derives the link budget from first principles with the Friis equation, free-space path loss, Shannon-Hartley capacity bound, parabolic antenna gain, beamwidth, Johnson-Nyquist thermal noise floor, Doppler shift, and link margin equations. Walks the dependent components in order of dependency covering antennas, transmitters and power amplifiers, receivers and low-noise amplifiers, modems and forward error correction, networking layer with IEEE 802.3 and 802.11 references, and power supply and cooling. Includes a latency, bandwidth, and protocol considerations section with delay-tolerant networking and bundle protocol. Includes no-radio-frequency architectures covering free-space optical and physical data transport (sneakernet). Includes terrestrial-only cheats and space-only options covering NASA Deep Space Network, ESA Estrack, Mars Relay Network (updated after MAVEN mission conclusion June 2026), lunar relay constellation through LunaNet and ESA Moonlight, and deep-space optical communications. Closes on three cases where the keystone framing breaks down covering solar conjunction blackout (with January 2026 most recent and early 2028 next), entry-descent-landing plasma sheath, and deep outer solar system extreme-distance regime. Includes generalisation beyond space analog covering residential cabin, remote research station, disaster relief, maritime vessel, and forward operating base use cases. MathJax enabled.
 **Article Number**: A155
 **Completion**: 100%
 **Publication Sensibility**: High for the space-themed cluster (third per-subsystem article continues the deep-dive cadence under A152's nine-subsystem roadmap, while doubling as a general off-grid communications system guide for terrestrial use cases)
-**Status**: New Draft (28 references; ~1,544 lines; date 2026-07-01; mathjax true with 16 display equations and 27 inline expressions)
+**Status**: Published 2026-07-01 (28 references; ~1,544 lines; mathjax true with 16 display equations and 27 inline expressions)
 
 Third per-subsystem deep-dive article following A153 and A154, treating the communications subsystem of the off-grid analog under the link-budget-as-keystone framing.
 Sections covered include
