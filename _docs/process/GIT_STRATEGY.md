@@ -56,6 +56,18 @@ The AI agent commits once after all tasks in a prompt are complete, including th
 Exceptions where multiple commits are appropriate:
 - Logically independent changes that should be separable in history.
 - The human pilot explicitly requests intermediate commits.
+- Publishing an article, which uses the two-commit pattern described below.
+
+### Two-Commit Publication Pattern
+
+Publishing an article uses two commits:
+
+1. **Draft commit** with a `draft:` scope. The article is staged in `_drafts/` and committed. This captures the draft state in git history before the move.
+2. **Publish commit** with a `draft:` scope (the move is part of the same drafting workflow). The article moves to `_posts/` with `git mv` and the date prefix, and the supporting process files such as `_drafts/draft_summary.md` and `_docs/process/REVERSE_PROMPT.md` are updated in the same commit. This commit triggers the deploy on push.
+
+The two-commit pattern is the standard. Never single-commit a publication. The draft commit preserves the historical `_drafts/` location of the file for traceability.
+
+See [Content Workflow](./CONTENT_WORKFLOW.md) for the full publication procedure and [Cross-Linked Series](./CROSS_LINKED_SERIES.md) for the batch variant used for tightly cross-linked series.
 
 ### Examples
 
@@ -90,3 +102,4 @@ Before pushing to `master`:
 | Date | Author | Changes |
 |------|--------|---------|
 | 2026-02-07 | Claude | Initial creation. Adapted from reference project for blog context. |
+| 2026-06-25 | Claude | Added two-commit publication pattern section reflecting practice from the analog-facilities series. |

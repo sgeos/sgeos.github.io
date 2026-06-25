@@ -33,13 +33,25 @@ _docs/
 ├── writing/
 │   ├── README.md
 │   ├── STYLE_GUIDE.md
-│   └── POST_STRUCTURE.md
+│   ├── POST_STRUCTURE.md
+│   ├── ARTICLE_GENRES.md
+│   ├── SUBSYSTEM_DEEPDIVE_STRUCTURE.md
+│   ├── ANALYTICAL_ESSAY_STRUCTURE.md
+│   ├── MATHJAX_CONVENTIONS.md
+│   └── ACRONYM_HANDLING.md
 ├── architecture/
 │   ├── README.md
 │   └── JEKYLL_STRUCTURE.md
 ├── process/
 │   ├── README.md
 │   ├── CONTENT_WORKFLOW.md
+│   ├── CROSS_LINKED_SERIES.md
+│   ├── FORWARD_DATED_POSTS.md
+│   ├── PUBLICATION_REVIEW.md
+│   ├── RESEARCH_AGENT.md
+│   ├── URL_VERIFICATION.md
+│   ├── STYLE_VERIFICATION.md
+│   ├── SISTER_SESSION.md
 │   ├── COMMUNICATION.md
 │   ├── GIT_STRATEGY.md
 │   ├── TASKLOG.md
@@ -47,7 +59,8 @@ _docs/
 │   └── REVERSE_PROMPT.md
 └── reference/
     ├── README.md
-    └── GLOSSARY.md
+    ├── GLOSSARY.md
+    └── COMMON_ERRORS.md
 ```
 
 ## AI Agent Navigation
@@ -77,3 +90,4 @@ _docs/
 |------|--------|---------|
 | 2026-02-07 | Claude | Initial creation. Structure adapted from reference project. |
 | 2026-02-07 | Claude | Added GIT_STRATEGY.md to directory structure. |
+| 2026-06-25 | Claude | Reconciled with the practiced house style after the analog-facilities series. Added writing files for genres, structures, MathJax, and acronyms; process files for series publication, forward-dated behaviour, review, research agent, URL verification, style verification, and sister-session coordination; reference file for common errors. |
