@@ -18,9 +18,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Venus Cloudtop Buoyant Analog as the Series Terminus — Published
+### Venus Cloudtop Buoyant Analog — Published
 
-**File**: `_posts/2026-07-06-venus_cloudtop_buoyant_analog_as_the_series_terminus.markdown`
+**File**: `_posts/2026-07-06-venus_cloudtop_buoyant_analog.markdown`
 **Topic**: Eighth and final per-subsystem deep-dive in the analog-facilities category following A152 through A159, closing the series at the most conspicuous gap A152 identified (the buoyant cloudtop habitat for Venus). Uses the framing that the buoyancy condition is the architectural keystone, with envelope volume, internal atmosphere mass, structural mass, operating altitude band, and subsystem mass budget all dimensioned against the density differential between the internal Earth breathing-mix atmosphere and the external Venus CO2 atmosphere. Derives buoyancy from first principles with worked example at ~6,320 kg total mass for four-crew habitat requiring ~10,500 m^3 envelope at 55 km altitude. References Landis 2003 Colonization of Venus paper and NASA Langley HAVOC 2014-2015 concept. Includes a dedicated synthesis section walking each of the seven prior subsystem articles and explaining how its architectural keystone adapts to the Venus cloudtop context (electricity benefits from 1.92x Earth solar irradiance, water faces sulfuric acid clouds requiring high-closure recovery, communications inherits link budget with cloud attenuation and super-rotation considerations, food benefits from abundant CO2 and high PAR, habitat envelope shifts from pressure containment to acid and UV durability, waste loses several disposition pathways and must rely on incineration and biological processing, transportation gains zero-velocity horizontal travel via super-rotation but loses surface access). Covers terrestrial stratospheric platforms (World View Stratollite, dormant Loon, Sceye, LTA Research Pathfinder, Goodyear Wingfoot) as closest available proxies, no-buoyancy architectures (Venus surface, orbit, flyby), terrestrial-only cheats, keystone-breakdown cases, and a major Series Synthesis section reviewing all eight architectural keystones across the analog-facilities series. MathJax enabled.
 **Article Number**: A160
 **Completion**: 100%

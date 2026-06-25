@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-06-24
-**Task**: Draft and publish A160 "Venus Cloudtop Buoyant Analog as the Series Terminus" as the eighth and final per-subsystem deep-dive in the analog-facilities category, completing the series at the buoyancy keystone that A152 identified as the most conspicuous gap in the terrestrial analog tradition
+**Task**: Draft and publish A160 "Venus Cloudtop Buoyant Analog" as the eighth and final per-subsystem deep-dive in the analog-facilities category, completing the series at the buoyancy keystone that A152 identified as the most conspicuous gap in the terrestrial analog tradition
 
 ---
 
@@ -17,7 +17,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### A160 Published as Series Terminus
 
-A160 "Venus Cloudtop Buoyant Analog as the Series Terminus" published at `_posts/2026-07-06-venus_cloudtop_buoyant_analog_as_the_series_terminus.markdown` with front-matter date `2026-07-06 09:00:00 +0000`. 20 references across Reference (12) and Related Post (8) categories. 1,411 lines. MathJax enabled with fifteen display equations and twenty-eight inline expressions. Eighth and final per-subsystem deep-dive in the analog-facilities category following A152 through A159. Treats the Venus cloudtop habitat under the framing that the buoyancy condition is the architectural keystone, with envelope volume, internal atmosphere mass, structural mass, operating altitude band, and subsystem mass budget all dimensioned against the density differential between the internal Earth breathing-mix atmosphere and the external Venus carbon dioxide atmosphere.
+A160 "Venus Cloudtop Buoyant Analog" published at `_posts/2026-07-06-venus_cloudtop_buoyant_analog.markdown` with front-matter date `2026-07-06 09:00:00 +0000`. 20 references across Reference (12) and Related Post (8) categories. 1,411 lines. MathJax enabled with fifteen display equations and twenty-eight inline expressions. Eighth and final per-subsystem deep-dive in the analog-facilities category following A152 through A159. Treats the Venus cloudtop habitat under the framing that the buoyancy condition is the architectural keystone, with envelope volume, internal atmosphere mass, structural mass, operating altitude band, and subsystem mass budget all dimensioned against the density differential between the internal Earth breathing-mix atmosphere and the external Venus carbon dioxide atmosphere.
 
 ### Article Structure and Series Synthesis
 
@@ -41,7 +41,7 @@ URL spot check confirms all twelve URLs respond 200.
 
 ### Build Verification
 
-The local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push. The system Jekyll-based rendering of the prior analog-facilities category articles confirmed under `future: true` in `_config.yml`, which permits the forward-dated post to render in the deploy build. The analog-facilities category permalink is `/aerospace/engineering/space-studies/analog-facilities/2026/07/06/venus_cloudtop_buoyant_analog_as_the_series_terminus.html`.
+The local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push. The system Jekyll-based rendering of the prior analog-facilities category articles confirmed under `future: true` in `_config.yml`, which permits the forward-dated post to render in the deploy build. The analog-facilities category permalink is `/aerospace/engineering/space-studies/analog-facilities/2026/07/06/venus_cloudtop_buoyant_analog.html`.
 
 ---
 
@@ -56,7 +56,7 @@ The analog-facilities series is now complete with all eight articles published a
 - A157 (2026-07-03): Habitat and Physical Operations for Off-Grid Space Colonization Analogs
 - A158 (2026-07-04): Waste and Sewage Management for Off-Grid Space Colonization Analogs
 - A159 (2026-07-05): Garbage and Transportation for Off-Grid Space Colonization Analogs
-- A160 (2026-07-06): Venus Cloudtop Buoyant Analog as the Series Terminus
+- A160 (2026-07-06): Venus Cloudtop Buoyant Analog
 
 The series identified eight architectural keystones across the integrated analog facility: battery storage, storage tank with recovery loop, link budget, caloric yield per square metre per day, pressure envelope, waste mass balance, cargo throughput rate, and buoyancy condition. Each subsystem article also doubles as a general off-grid systems guide that the space-colonization analog context flavours but does not constrain in applicability, generalising to residential homestead, remote research station, disaster relief, mining or oilfield camp, maritime vessel, and forward operating base contexts. The terrestrial analog tradition has implemented the first seven keystones across the BIOS-3, Biosphere 2, MDRS, FMARS, Concordia, McMurdo, Amundsen-Scott, HI-SEAS, HERA, Mars-500, Yuegong-1, CHAPEA, and Aquarius programmes. The buoyancy keystone remains the most conspicuous gap that no contemporary programme is funded to close through a credible crewed long-duration closed-life-support stratospheric airship deployment.
 
@@ -70,7 +70,7 @@ A sister session in an adversarial case intelligence repository is drafting a ba
 
 ## Release Announcement
 
-New Blog Post: Venus Cloudtop Buoyant Analog as the Series Terminus
+New Blog Post: Venus Cloudtop Buoyant Analog
 
 The eighth and final per-subsystem deep-dive in the analog-facilities category closes the series at the buoyant atmospheric platform analog that the survey opener identified as the most conspicuous gap in the terrestrial analog tradition. The article addresses the Venus cloudtop habitat concept that Geoffrey Landis described in 2003 and that the NASA Langley HAVOC study formalised in 2014 and 2015, along with a synthesis of how the prior seven subsystem articles adapt to the Venus cloudtop context.
 
@@ -81,7 +81,7 @@ Key takeaways:
 - The Series Synthesis section reviews all eight architectural keystones across the eight-article series (battery storage, storage tank with recovery loop, link budget, caloric yield, pressure envelope, waste mass balance, cargo throughput rate, and buoyancy condition) and enumerates six open research questions including integrated thermal management, long-duration crew dietary acceptance, operational reliability across multi-year missions, integrated radiation health, governance and crew selection, and in-situ resource utilisation.
 
 You can read the full article here:
-https://sgeos.github.io/aerospace/engineering/space-studies/analog-facilities/2026/07/06/venus_cloudtop_buoyant_analog_as_the_series_terminus.html
+https://sgeos.github.io/aerospace/engineering/space-studies/analog-facilities/2026/07/06/venus_cloudtop_buoyant_analog.html
 
 #VenusCloudtop #Landis #HAVOC #Buoyancy #AnalogFacilities #SpaceStudies #SeriesTerminus
 

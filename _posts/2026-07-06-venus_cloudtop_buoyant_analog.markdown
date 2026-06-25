@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title:  "Venus Cloudtop Buoyant Analog as the Series Terminus"
+title:  "Venus Cloudtop Buoyant Analog"
 date:   2026-07-06 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
 ---
