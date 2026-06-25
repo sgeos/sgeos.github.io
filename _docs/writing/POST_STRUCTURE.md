@@ -30,11 +30,11 @@ categories: category-one category-two
 
 **Title reminder**: The draft template title reads "Template, Add Category Before You Forget" as a deliberate prompt to set categories before drafting.
 
-## Article Number
+## Article Number and Debug Markers
 
-Every post must include an invisible HTML comment with its article number after the front matter. The article number is a monotonically increasing identifier that ties the post to the Ax-Py-Tz work item coding system documented in [Communication](../process/COMMUNICATION.md).
+Every post must include two debug markers immediately after the front matter, before any post content. The article number is a monotonically increasing identifier that ties the post to the Ax-Py-Tz work item coding system documented in [Communication](../process/COMMUNICATION.md).
 
-There must be a blank line between the front matter closing `---` and the comment, and a blank line between the comment and the first line of post content.
+There must be a blank line between the front matter closing `---` and the markers, and a blank line between the markers and the first line of post content.
 
 ```markdown
 ---
@@ -47,11 +47,15 @@ categories: example
 ---
 
 <!-- A5 -->
+<script>console.log("A5");</script>
 
 Post content begins here.
 ```
 
-The comment is not rendered in the published HTML. It serves as a traceability anchor for associating prompts and tasks with the post they support. The draft template includes `<!-- Axxx -->` as a placeholder to be replaced with the actual article number before publication.
+- The HTML comment is invisible in the published HTML and serves as a traceability anchor for associating prompts and tasks with the post they support.
+- The `<script>` tag logs the article number to the browser console on page load, providing an easy in-browser confirmation of which article is rendering.
+
+The draft template uses the lowercase placeholder `<!-- Axxx -->` and `console.log("Axxx")`. Replace both placeholders with the assigned article number, for example `A161`, before publication. These two markers are the only place colons or quotes appear that the publication style verifier should ignore.
 
 Historical posts are numbered A1 through A74 in chronological order by publication date. A0 is reserved for non-article work.
 
@@ -69,9 +73,19 @@ If two posts are published on the same date despite these measures, they retain 
 
 There is no limit on article length. An article should be as long as the subject demands.
 
-## Standard Sections
+## Section Structure by Genre
 
-Posts follow a consistent section order. Not all sections appear in every post.
+The section structure depends on the article's genre. The blog runs three genres:
+
+- **Tutorial.** Practical how-to posts with a Software Versions section and an Instructions section. The standard sections below are the tutorial template.
+- **Subsystem deep-dive.** Equation-dense engineering articles built on the architectural-keystone pattern. See [Subsystem Deep-Dive Structure](./SUBSYSTEM_DEEPDIVE_STRUCTURE.md).
+- **Analytical essay or survey.** Cited, reasoned articles that map a design space, a history, or a strategy. See [Analytical Essay Structure](./ANALYTICAL_ESSAY_STRUCTURE.md).
+
+Identify the genre before drafting. See [Article Genres](./ARTICLE_GENRES.md) for the framework.
+
+## Standard Sections for Tutorials
+
+Tutorials follow a consistent section order. Not all sections appear in every tutorial.
 
 1. **Opening prose** (no heading). Introductory paragraph describing the problem or topic.
 2. **Interactive elements** (optional). Inline HTML, CSS, and JavaScript for embedded widgets or WebAssembly modules.
@@ -79,7 +93,7 @@ Posts follow a consistent section order. Not all sections appear in every post.
 4. **`## Instructions`**. Primary content with implementation steps, code blocks, and explanations. May use `###` subheadings for distinct steps.
 5. **`## References`**. Bullet list of reference-style links. Appears at the end of every post.
 
-### Optional Sections
+### Optional Sections for Tutorials
 
 - `## Conclusion` for summary and takeaways.
 - `## Future Reading` for supplementary resources beyond the references list.
@@ -141,11 +155,17 @@ Categories are lowercase and hyphenated. Common categories include but are not l
 - Published: `_posts/YYYY-MM-DD-<slug>.markdown`
 - Hidden drafts (gitignored): `hidden.<slug>.markdown`
 
-The `_publish.sh` script extracts the date from front matter and prepends it to the filename during publication.
+The `_publish.sh` script extracts the date from front matter and prepends it to the filename during publication. On macOS the script fails under BSD sed; use `git mv` directly instead. See [Content Workflow](../process/CONTENT_WORKFLOW.md).
 
-Slugs should not begin with English articles such as "a," "an," or "the."
-This follows the common practice of dropping leading articles when alphabetizing titles.
-The post title in front matter may still begin with an article.
+Slugs should not begin with English articles such as "a," "an," or "the." This follows the common practice of dropping leading articles when alphabetising titles. The post title in front matter may still begin with an article.
 
 - `apple_tree.markdown` not `an_apple_tree.markdown`
 - `half_life_coin.markdown` not `the_half_life_coin.markdown`
+
+## Related Sections
+
+- [Article Genres](./ARTICLE_GENRES.md) for the three genre framework
+- [Style Guide](./STYLE_GUIDE.md) for prose rules
+- [Subsystem Deep-Dive Structure](./SUBSYSTEM_DEEPDIVE_STRUCTURE.md) for the engineering-article structure
+- [Analytical Essay Structure](./ANALYTICAL_ESSAY_STRUCTURE.md) for the essay structure
+- [Content Workflow](../process/CONTENT_WORKFLOW.md) for the draft-to-publish flow
