@@ -18,6 +18,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Two-Dimensional Projection in Games series (A173-A187) — Published
+
+**Files**:
+- `_posts/2026-04-18-two_dimensional_projection_as_a_coordinate_mapping_problem.markdown` (A173)
+- `_posts/2026-04-19-top_down_projection_without_height.markdown` (A174)
+- `_posts/2026-04-20-top_down_with_decoupled_vertical_axis.markdown` (A175)
+- `_posts/2026-04-21-side_scrolling_without_depth.markdown` (A176)
+- `_posts/2026-04-22-side_scrolling_with_parallax_layers.markdown` (A177)
+- `_posts/2026-04-23-belt_scroll_side_scrolling_with_explicit_depth.markdown` (A178)
+- `_posts/2026-04-24-oblique_projection_and_quarter_view.markdown` (A179)
+- `_posts/2026-04-25-axonometric_projection_isometric_dimetric_trimetric.markdown` (A180)
+- `_posts/2026-04-26-mode_7_and_affine_ground_plane.markdown` (A181)
+- `_posts/2026-04-27-sprite_scaling_pseudo_three_dimensional.markdown` (A182)
+- `_posts/2026-04-28-raycasting_two_dimensional_map_rendered_as_three_dimensions.markdown` (A183)
+- `_posts/2026-04-29-stylised_and_hybrid_projections_inconsistent_frame.markdown` (A184)
+- `_posts/2026-04-30-draw_order_y_sort_z_sort_and_painters_algorithm.markdown` (A185)
+- `_posts/2026-05-01-picking_and_hit_testing_in_pseudo_three_dimensional_projections.markdown` (A186)
+- `_posts/2026-05-02-camera_as_linear_operator_affine_and_projective_synthesis.markdown` (A187)
+
+**Topic**: Fifteen-article series on two-dimensional projection in games, covering the math of translating internal world coordinates (2D, pseudo-3D with layer-based depth, and 3D) to screen space, and translating screen-space input back into world space. Organised into six clusters: A173 opener (Two-Dimensional Projection as a Coordinate Mapping Problem framing the forward map and inverse map duality, the math-versus-delivery distinction, and the series roadmap); A174-A178 Cartesian cluster (top-down without height as the floor case, decoupled vertical axis with shadow drop, side-scrolling without depth, side-scrolling with parallax layers, belt-scroll with explicit depth); A179-A180 oblique-and-axonometric cluster (oblique cabinet/cavalier projection with quarter view, axonometric with isometric/dimetric/trimetric variants); A181-A184 affine-and-projective cluster (Mode 7 per-scanline affine ground plane, sprite scaling pseudo-three-dimensional including Battle Clash and Metal Combat, raycasting with fisheye correction, stylised hybrid projections with the Mother lineage and Limbo/Inside stylised post-processing); A185-A186 cross-cutters (draw order with Painter's Algorithm and Y-sort/Z-sort/hybrid sort criteria, picking and hit testing with condition number bounds and the canonical sprite-scale-and-rotate light-gun hit test); A187 synthesis closer (the camera as linear operator showing the PVM pipeline and recovering each previous projection mode as a restricted case of the modern graphics-processing-unit pipeline). Each article carries the standard projection-mode template (Brief History, Forward Map, Inverse Map, Worked Example, Variations Within the Mode, Delivery Mechanisms, Where the Framing Breaks Down, Canon, Out of Scope, Conclusion, References), with appropriate variations for the opener, cross-cutters, and synthesis closer. The y-down depth-into-screen convention is established in A174 and carried throughout the series. MathJax enabled throughout.
+
+**Article Numbers**: A173 through A187 (fifteen articles)
+**Completion**: 100%
+**Publication Sensibility**: High (a comprehensive series treating every major two-dimensional projection mode in commercial games, with cross-cutting articles on draw order and picking and a synthesis closer that ties the series to the modern projective pipeline)
+**Status**: Published 2026-04-18 through 2026-05-02 (back-dated, landing flush with the patent and startup strategy series at 2026-05-03). Total ~14,640 lines, ~343 display equations, ~1,144 inline expressions, ~106 unique references across the fifteen articles. Forward references in prose to be converted to {% post_url %} Liquid tags in a follow-up pass.
+
 ### Venus Cloudtop Buoyant Analog — Published
 
 **File**: `_posts/2026-07-06-venus_cloudtop_buoyant_analog.markdown`
