@@ -18,6 +18,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Stream-Based Compilers series (A188-A199) — Published
+
+**Files**:
+- `_posts/2026-04-06-compilation_as_streaming_discipline.markdown` (A188)
+- `_posts/2026-04-07-wirth_single_pass_line.markdown` (A189)
+- `_posts/2026-04-08-turbo_pascal_closed_source_demonstration.markdown` (A190)
+- `_posts/2026-04-09-brinch_hansen_pipeline_of_processes.markdown` (A191)
+- `_posts/2026-04-10-block_structured_single_pass_validation.markdown` (A192)
+- `_posts/2026-04-11-coalgebraic_productivity_stream_processor_analogy.markdown` (A193)
+- `_posts/2026-04-12-fixup_tables_forward_jump_problem.markdown` (A194)
+- `_posts/2026-04-13-declare_before_use_forward_declarations.markdown` (A195)
+- `_posts/2026-04-14-symbol_tables_scope_popping_bounded_memory.markdown` (A196)
+- `_posts/2026-04-15-integrated_single_pass_versus_decomposed_pipeline.markdown` (A197)
+- `_posts/2026-04-16-when_multi_pass_wins.markdown` (A198)
+- `_posts/2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor.markdown` (A199)
+
+**Topic**: Twelve-article series on the stream-processor compilation discipline. Covers the historical demonstrations (Wirth's PL/0 through Oberon line, Turbo Pascal as the closed-source commercial demonstration, Brinch Hansen's pipeline-of-processes architecture and SuperPascal self-hosting), the mathematical foundation (block-structured control flow with the WebAssembly single-pass validator per Haas et al. PLDI 2017 and Watt's Isabelle mechanisation; coalgebraic productivity per Rutten's universal-coalgebra treatment and stream calculus, with the Endrullis decidability result, the Abel-Pientka copattern framework, and Turner's total functional programming), the engineering techniques (fixup tables with the forward-jump problem, declare-before-use ordering with forward declarations for mutual recursion, scoped symbol tables with the scope-popping discipline), the architectural synthesis (integrated single-pass versus decomposed pipeline compared head-to-head with Keleusma V0.3.0 as modern worked example; when multi-pass wins covering whole-program optimisation, Hindley-Milner unification, type-class resolution, and metaprogramming), and the series closer (the compiler as stream processor and the stream processor as compiler, with the Keleusma five-stage compilation pipeline formalised as function composition and its compositional working-memory bound derived from the WCMU analysis). Historical claims flagged with epistemic markers throughout, especially A190 Turbo Pascal treatment where the compiler internals were never released as open source. Keleusma treatment consistently frames V0.3.0 self-hosting as design-in-progress rather than shipped result. MathJax enabled throughout.
+
+**Article Numbers**: A188 through A199 (twelve articles)
+**Completion**: 100%
+**Publication Sensibility**: High (comprehensive treatment of the stream-processor compilation discipline as a distinct architectural tradition, with rigorous mathematical foundation from coalgebraic productivity theory, engineering technique specifications, and modern realisation via Keleusma's pipeline)
+**Status**: Published 2026-04-06 through 2026-04-17 (back-dated, landing flush with the two-dimensional projection in games series at 2026-04-18). Total ~14,273 lines and ~90 display equations across twelve articles. Historical trio A189-A191, theory pair A192-A193, techniques trio A194-A196, synthesis pair A197-A198, opener A188 and closer A199.
+
 ### Two-Dimensional Projection in Games series (A173-A187) — Published
 
 **Files**:
