@@ -37,11 +37,11 @@ exclude:
 
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 
-# Publish posts dated in the future relative to the build time. Without this
-# flag, Jekyll's default future: false silently excludes future-dated posts
-# from the build, which breaks post_url cross-references to those posts and
-# leaves committed work invisible until its date arrives. Setting future to
-# true publishes all posts immediately regardless of date. The date in the
-# front matter still controls the URL path and chronological display order.
-future: true
+# Use Jekyll's default future: false so posts dated after the build time are
+# excluded until their date arrives. Forward-dated posts must therefore not be
+# referenced via post_url tags from posts whose dates have already passed, or
+# the build will fail when the back-dated side renders before the forward side
+# becomes eligible. Intra-cluster post_url references between forward-dated
+# posts are safe because both sides are excluded together.
+future: false
 
