@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### A History of Hardware Description Languages (A200) — Published
+
+**File**: `_posts/2026-03-13-history_of_hardware_description_languages.markdown`
+
+**Topic**: One-off history of hardware description languages across five decades. Three-era organisation: academic prototypes 1970-1984 (ISPS at Carnegie Mellon under Barbacci, KARL at Kaiserslautern under Hartenstein, ELLA at RSRE UK); commercial standardisation era 1984-2010 (Verilog developed by Goel, Moorby, and Huang at Automated Integrated Design Systems/Gateway 1983-1984 and standardised as IEEE 1364 in 1995; VHDL developed by Intermetrics, Texas Instruments, and IBM under US Air Force VHSIC contract 1983 and standardised as IEEE 1076 in 1987; SystemVerilog by Accellera 2002 as IEEE 1800 in 2005; SystemC originated at Synopsys 1999 and standardised as IEEE 1666 in 2005; Bluespec by Arvind and Hoe at MIT late 1990s, commercialised by Bluespec Inc. co-founded by Arvind Mithal and Joe Stoy in 2003); and embedded-DSL revival 2010-present (Chisel by Asanović's Par Lab team at Berkeley 2012 including Lee and Waterman who also originated RISC-V; SpinalHDL by Papon 2015; Amaranth originally called nMigen by whitequark December 2018, renamed December 2021, succeeding Bourdeauducq's Migen from 2007; MyHDL by Decaluwe 2003; Clash by Baaij at Utrecht and Delft). Verification language track (PSL/IEEE 1850, SVA, UVM/IEEE 1800.2) and high-level synthesis track (behavioural Verilog/VHDL, SystemC HLS via Vivado and Catapult, domain-specific HLS). Closes with observations on formal-methods integration, machine-learning-driven design synthesis, open-source industrial tooling via Yosys, and domain-specific hardware description as the emerging next wave. One display equation formalising Moore's Law $N(t) = N_0 \cdot 2^{t/T}$ as the design-complexity forcing function that repeats at each historical wave.
+
+**Article Number**: A200
+**Completion**: 100%
+**Publication Sensibility**: High (comprehensive one-article treatment of the HDL space, covering the full lineage from academic prototypes through modern embedded-DSL revival with primary-source-verified attributions)
+**Status**: Published 2026-03-13 (back-dated). 1903 lines, one display equation, mathjax enabled. Six substantive attribution corrections applied during publication review after WebSearch verification against Wikipedia and project homepages. Categories `hdl hardware history`.
+
 ### Stream-Based Compilers series (A188-A199) — Published
 
 **Files**:

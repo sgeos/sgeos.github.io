@@ -8,59 +8,55 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-06-29
-**Task**: Draft, finalise, and batch-publish the twelve-article stream-based compilers series (A188 through A199) across back-dated 2026-04-06 through 2026-04-17
+**Date**: 2026-07-07
+**Task**: Draft, verify, and publish A200 "A History of Hardware Description Languages" as a one-off article back-dated to 2026-03-13
 
 ---
 
 ## Verification
 
-### Series Body Complete
+### Article Body Complete
 
-Twelve articles drafted, reviewed, and published. The series treats the stream-processor compilation discipline organised into five clusters that walk from the opener through the modern Keleusma realisation.
+Single-article history of hardware description languages, drafted, publication-reviewed with primary-source verification, and published. The article walks the HDL tradition in one pass across three eras.
 
-- A188 opener (2026-04-06): Compilation as a Streaming Discipline. Introduces the two-axis design space (integrated versus decomposed, AST-materialised versus AST-free) and the productivity discipline that the series will develop.
-- A189 through A191 historical trio (2026-04-07 through 2026-04-09): Wirth's PL/0 through Oberon line; Turbo Pascal as the closed-source commercial demonstration with strict epistemic policy on internal architecture; Per Brinch Hansen's pipeline-of-processes architecture and SuperPascal self-hosting.
-- A192 and A193 theory pair (2026-04-10 and 2026-04-11): block-structured control flow with the single-pass validator that WebAssembly canonised per Haas et al. PLDI 2017 and Watt's Isabelle mechanisation; coalgebraic productivity per Rutten's universal-coalgebra treatment and stream calculus, with the Endrullis decidability result and the Abel-Pientka copattern framework.
-- A194 through A196 techniques trio (2026-04-12 through 2026-04-14): fixup tables and the forward-jump problem; declare-before-use ordering with forward declarations for mutual recursion; scoped symbol tables with the scope-popping discipline and the compositional working-memory bound.
-- A197 and A198 synthesis pair (2026-04-15 and 2026-04-16): integrated single-pass versus decomposed pipeline compared head-to-head, with Keleusma V0.3.0 as modern worked example; when multi-pass wins covering whole-program optimisation, Hindley-Milner inference, type-class resolution, and metaprogramming as the discipline's applicability boundary.
-- A199 synthesis closer (2026-04-17): the compiler as stream processor and the stream processor as compiler, with the Keleusma five-stage compilation pipeline formalised as function composition and the compositional working-memory bound derived from the WCMU analysis.
+- Prehistory and design-complexity forcing function (transistor-count growth per Moore's Law).
+- Academic prototypes 1970-1984 (ISPS at Carnegie Mellon under Barbacci, KARL at Kaiserslautern under Hartenstein, ELLA at RSRE UK).
+- Commercial standardisation era 1984-2010 (Verilog under Goel, Moorby, and Huang at Automated Integrated Design Systems then Gateway Design Automation 1983-1984, standardised as IEEE 1364 in 1995; VHDL under US Air Force VHSIC contract F33615-83-C-1003 by Intermetrics, Texas Instruments, and IBM in 1983, standardised as IEEE 1076 in 1987; SystemVerilog by Accellera 2002 as IEEE 1800 in 2005; SystemC originated at Synopsys 1999 as IEEE 1666 in 2005; Bluespec by Arvind and Hoe at MIT late 1990s, commercialised by Bluespec Inc. co-founded by Arvind Mithal and Joe Stoy in 2003).
+- Embedded-DSL revival 2010-present (Chisel by Asanović's Par Lab team at Berkeley 2012 including Lee and Waterman who also originated RISC-V; SpinalHDL by Papon 2015; Amaranth originally called nMigen by whitequark December 2018, renamed December 2021, succeeding Bourdeauducq's Migen from 2007; MyHDL by Decaluwe 2003; Clash by Baaij at Utrecht and Delft).
+- Verification language track (PSL/IEEE 1850, SVA, UVM/IEEE 1800.2).
+- High-level synthesis track (behavioural Verilog/VHDL, SystemC HLS via Vivado and Catapult, domain-specific HLS).
+- Where the space is going (formal-methods integration, machine-learning-driven design, open-source industrial tooling via Yosys, domain-specific HDLs).
 
 ### Two-Commit Publication Pattern
 
-The publication follows the established two-commit pattern. The draft commit captures all twelve drafts in `_drafts/` to record the draft state in git history. The publication commit moves all twelve from `_drafts/` to `_posts/` with the appropriate date prefix and updates the process files. Git rename detection preserves the file history across the moves. A preliminary configuration commit disables Jekyll's `future: true` flag because the previous series' cross-references have all cleared.
+Standard two-commit publication. The draft commit captures the finalised draft in `_drafts/`. The publication commit moves it to `_posts/` with the appropriate date prefix and updates the process files. Git rename detection preserves file history.
 
-### Build Verification
+### Primary-Source Verification
 
-The local bundle build remains broken in this environment; the deploy build runs via the GitHub Actions pipeline after the push. Because the dates 2026-04-06 through 2026-04-17 are back-dated relative to today (2026-06-29), the posts appear at their April positions immediately upon deploy and do not depend on the `future: true` setting that was just disabled.
+Publication review included WebSearch verification of load-bearing historical attributions against Wikipedia and project homepages, addressing the lesson from the compilers series that primary-source verification should precede formalisation. Six substantive attribution corrections were applied:
 
-### Style and Cohesiveness Verification
+- Verilog: added Chi-Lai Huang as third co-creator; corrected company-name history (Automated Integrated Design Systems renamed to Gateway Design Automation in 1985); corrected development window (late 1983 to early 1984); corrected first-simulator date (1985) and Verilog-XL date (1987); added OVI intermediate step in 1991 preceding IEEE 1364.
+- VHDL: distinguished VHSIC program start (1980) from VHDL-specific contract F33615-83-C-1003 (1983); named development team as Intermetrics prime contractor plus Texas Instruments and IBM; added VHDL Analysis and Standardization Group as the IEEE standardisation vehicle in March 1986.
+- SystemC: corrected origin to Synopsys 1999 rather than OSCI 2000; added Accellera-OSCI merger December 2011.
+- Bluespec: added James Hoe as co-originator of the MIT research with Arvind; named Lennart Augustsson's BH as the Haskell-based initial implementation; correctly attributed Bluespec Inc. co-founding to Arvind Mithal and Joe Stoy of Oxford in June 2003.
+- Amaranth: corrected attribution to Catherine "whitequark" beginning December 2018; corrected Amaranth rename to December 2021; distinguished Migen creator Bourdeauducq (2007) from the M-Labs group.
+- Chisel: added Par Lab context; named Yunsup Lee and Andrew Waterman as graduate-student co-developers; clarified Rocket Chip as generator that produces RISC-V processor implementations.
 
-All twelve articles pass the style consistency checks: zero em-dashes, zero en-dashes, zero contractions, zero prose colons, zero prose semicolons outside code blocks and debug tags.
+### Moore's Law Equation
 
-Frontmatter is uniform across the series: `layout: post`, `mathjax: true`, `comments: true`, `categories: compilers streaming series`.
+One display equation added in *Prehistory and the Design-Complexity Forcing Function* formalising Moore's Law as $N(t) = N_0 \cdot 2^{t/T}$ with doubling period $T$ approximately 18-24 months. Mathjax enabled. This is the one load-bearing quantitative claim that the article's design-complexity forcing function argument depends on.
 
-Section structures follow patterns appropriate to each article's role: opener with the streaming-discipline framing and series roadmap; historical demonstration articles with brief history, discipline analysis, worked example, and legacy sections; theory articles with definitions, formal statements, proofs, and applications; techniques articles with formal state transitions, worked examples, and cost analysis; synthesis articles with comparative analysis and decision criteria; closer with duality-based synthesis and modern worked example.
+### Style Verification
 
-Forward-reference accuracy was verified across the series. Every conclusion correctly identifies the subsequent article by content. All eleven forward references from A188 through A198 point to their immediately subsequent article.
-
-Cross-article citation consistency was verified. All shared DOIs resolve to the same URL across every article that references them. All shared Wikipedia references use the same URL. The Keleusma GitHub URL `https://github.com/sgeos/keleusma` is verified against the actual git remote.
-
-Anchor integrity was verified across all twelve articles. Zero used-but-not-defined and zero defined-but-not-used per article.
-
-### Series Numerical Totals
-
-- Total lines: ~14,273 across the twelve articles.
-- Total display equations: ~90.
-- Average per article: ~1,189 lines, ~7.5 equations.
+Zero em-dashes, zero en-dashes, zero contractions, zero prose semicolons outside code blocks and debug tags. Frontmatter uniform with the series conventions: `layout: post`, `mathjax: true`, `comments: true`, `categories: hdl hardware history`. Debug tag `<!-- A200 -->` and `console.log("A200")` in place.
 
 ### Status of Process Files
 
-`_docs/process/TASKLOG.md` updated with publication entries for A188 through A199 and the next-available-article-number corrected to A200. `_drafts/draft_summary.md` extended with a series entry covering all twelve articles. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report. The A200 correction reflects the next available number after the stream-based compilers series completes.
+`_docs/process/TASKLOG.md` updated with the A200 publication entry and next-available-article-number advanced to A201. `_drafts/draft_summary.md` extended with an A200 entry at the top. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report.
 
 ### Git Status
 
-`git status` confirms twelve renames from `_drafts/` to `_posts/` in the publication commit, plus the three process-file updates (TASKLOG.md, draft_summary.md, REVERSE_PROMPT.md). No other content touched.
+`git status` confirms one rename from `_drafts/` to `_posts/` in the publication commit, plus the three process-file updates. No other content touched.
 
 ---
 
@@ -69,38 +65,37 @@ Anchor integrity was verified across all twelve articles. Zero used-but-not-defi
 The article number space across the blog now reads as follows.
 
 - A1 through A74: legacy published posts predating the modern numbered tracking.
-- A75 through A151: published series across 2026-02-06 through 2026-03-14 (the BTRON/Keleusma series, the fixed-wing UAV series, the SAR drone series, and standalone articles).
+- A75 through A151: published series across 2026-02-06 through 2026-03-14.
 - A152 through A160: analog-facilities series, published 2026-06-28 through 2026-07-06.
 - A161 through A172: patent and startup strategy series, published 2026-05-03 through 2026-05-14.
 - A173 through A187: two-dimensional projection in games series, published 2026-04-18 through 2026-05-02.
-- A188 through A199: stream-based compilers series, published 2026-04-06 through 2026-04-17 (this batch).
-- Next available article number: A200.
+- A188 through A199: stream-based compilers series, published 2026-04-06 through 2026-04-17.
+- A200: history of hardware description languages, published 2026-03-13 (this article).
+- Next available article number: A201.
 
-The stream-based compilers series back-dated dates fall before the two-dimensional projection series start at 2026-04-18. Article numbers A188 through A199 immediately follow A187, the last two-dimensional projection series article. No date or article-number collisions with any other published series.
+The A200 back-dated date of 2026-03-13 falls in a clear slot between the 2026-03-12 posts (A103 error correction, and the fixed-wing delta wing article) and A102 the 2026-03-14 Keleusma getting started article. No date or article-number collisions.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Verify the GitHub Actions deploy completes without `post_url` resolution errors after the push. All twelve articles use `{% post_url %}` Liquid tags for cross-references within the series, so the tags must resolve during the build.
-- Review the twelve published articles at their permalinks once the deploy completes:
-  - `https://sgeos.github.io/.../2026/04/06/compilation_as_streaming_discipline.html` through `https://sgeos.github.io/.../2026/04/17/stream_processor_as_compiler_and_compiler_as_stream_processor.html`
-- The article number space now runs continuously through A199 across the combined article number space. A200 is the next available.
-- The `future: false` configuration is now in effect. Forward-dated posts (2026-06-30 through 2026-07-06 in the analog-facilities series) remain excluded from the build until their date arrives, then become eligible one day at a time.
+- Verify the GitHub Actions deploy completes without errors after the push. The article does not use `{% post_url %}` cross-references, so the deploy is unlikely to fail on that basis.
+- Review the published article at its permalink once the deploy completes:
+  - `https://sgeos.github.io/hdl/hardware/history/2026/03/13/history_of_hardware_description_languages.html`
+- Consider whether to add a Related Post section that cross-references the article from within adjacent history articles.
+- If a follow-up HDL article is desired, article number A201 is the next available.
 
 ---
 
 ## Notes
 
-- Next available article number: A200.
-- 0 release candidates from the stream-based compilers series, the two-dimensional projection series, the analog-facilities series, or the patent and startup strategy series.
+- Next available article number: A201.
+- 0 release candidates from the stream-based compilers series or the hardware description languages article.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A199 across the combined article number space.
-- The stream-based compilers series spans A188 through A199 across 2026-04-06 through 2026-04-17, organised as a five-cluster walk: opener, historical trio, theory pair, techniques trio, synthesis pair, closer. The series fills the calendar slot immediately before the two-dimensional projection series (A173-A187) at 2026-04-18 through 2026-05-02.
-- The two-dimensional projection in games series A173 through A187 remains complete on the back-dated side at 2026-04-18 through 2026-05-02.
-- The analog-facilities series A152 through A160 remains complete on the forward-dated side at 2026-06-28 through 2026-07-06.
+- Published through A200 across the combined article number space.
+- The A200 article is a one-off rather than a series opener. It occupies a single slot at 2026-03-13.
+- The article uses aggressive per-phrase line-break rhythm consistent with the recent series style.
+- Primary-source verification passes were performed on the six load-bearing historical attributions during publication review, matching the lesson recorded from the compilers series about primary-source verification preceding formalisation.
 - All scratch is confined to project-local `tmp/` per recorded preference.
-- The Keleusma treatment in A197 and A199 preserves the "design in progress, not shipped" framing throughout. The five-stage Keleusma pipeline (tokenise, parse, typecheck, monomorphise, emit-with-hoist) is presented as function composition and matches the actual Keleusma architecture documentation.
-- The Turbo Pascal treatment in A190 preserves the strict epistemic policy separating externally verifiable behaviour (throughput, memory footprint, binary size) from secondary-source architectural claims (no AST, assembly-language implementation, recursive-descent parser).
-- Blog deploys through GitHub Actions with a lean Jekyll stack; `future: true` is now disabled since the previous series' cross-references have all cleared. The stream-based compilers series is back-dated and renders without dependence on the future flag.
+- Blog deploys through GitHub Actions with a lean Jekyll stack. The A200 article is back-dated and renders without dependence on the `future: false` setting.
