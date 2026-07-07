@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### The Meta-Factory, Prior Art and the Reproduction Loop (A202) — Published
+
+**File**: `_posts/2026-07-08-meta_factory_prior_art_and_the_reproduction_loop.markdown`
+
+**Topic**: Companion article to A201 covering the physical-reproduction side of the reproduction loop that A201's self-hosted synthesis toolchains occupy on the computational side. Historical prior-art survey across four traditions: von Neumann's Universal Constructor from Theory of Self-Reproducing Automata edited by Arthur W. Burks and published posthumously by University of Illinois Press in 1966; the 1980 NASA studies including von Tiesenhausen and Darbro TM-78304 at Marshall Space Flight Center in July 1980 and the NASA-ASEE Summer Study proceedings published as CP-2255 edited by Freitas and Gilbreath in November 1982 with the 150-page self-replicating lunar factory chapter proposing a 20-year development program; Freitas and Merkle's 2004 Kinematic Self-Replicating Machines from Landes Bioscience with its 137-dimensional design-space taxonomy funded by Zyvex; RepRap project by Adrian Bowyer at University of Bath from 23 March 2005 with first self-print 13 September 2006 and Darwin first-generation printer at London Science Museum; industrial digital-twin meta-factories exemplified by Hyundai Motor Group Innovation Center Singapore on NVIDIA Omniverse platform. Closing section synthesises with A201 recording that both computational and mechanical sides of the reproduction loop have established prior art, with remaining engineering work being integration rather than invention. Keleusma named briefly with design-in-progress framing and explicit note that meta-factory prior art does not depend on any specific programming language. Von Neumann probe named once with explicit decline to develop the interstellar case. High-assurance embedded control substituted for scrubbed certification-adjacent framing.
+
+**Article Number**: A202
+**Completion**: 100%
+**Publication Sensibility**: High (companion to A201 grounded in substantial engineering literature rather than speculation, extends the HDL-and-reproduction thread to the manufacturing side of the loop)
+**Status**: Published 2026-07-08 (back-dated by one day for tomorrow's scheduled publication). 1465 lines, mathjax false, zero display equations. Historical attributions verified against Wikipedia, NASA NTRS, molecularassembler.com, RepRap project pages, and NVIDIA press releases. Two hedges applied during publication review. Categories `manufacturing self-replication history`.
+
 ### The Design Space for Next-Generation Hardware Description Languages (A201) — Published
 
 **File**: `_posts/2026-07-07-design_space_next_generation_hardware_description_languages.markdown`
