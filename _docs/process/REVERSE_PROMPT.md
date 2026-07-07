@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-07
-**Task**: Draft, verify, and publish A200 "A History of Hardware Description Languages" as a one-off article back-dated to 2026-03-13
+**Task**: Research, draft, verify, and publish A201 "The Design Space for Next-Generation Hardware Description Languages" as a companion article to A200
 
 ---
 
@@ -17,15 +17,14 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Body Complete
 
-Single-article history of hardware description languages, drafted, publication-reviewed with primary-source verification, and published. The article walks the HDL tradition in one pass across three eras.
+Single-article companion to A200, drafted with publication review including primary-source verification against Wikipedia, project home pages, and academic literature, and published.
 
-- Prehistory and design-complexity forcing function (transistor-count growth per Moore's Law).
-- Academic prototypes 1970-1984 (ISPS at Carnegie Mellon under Barbacci, KARL at Kaiserslautern under Hartenstein, ELLA at RSRE UK).
-- Commercial standardisation era 1984-2010 (Verilog under Goel, Moorby, and Huang at Automated Integrated Design Systems then Gateway Design Automation 1983-1984, standardised as IEEE 1364 in 1995; VHDL under US Air Force VHSIC contract F33615-83-C-1003 by Intermetrics, Texas Instruments, and IBM in 1983, standardised as IEEE 1076 in 1987; SystemVerilog by Accellera 2002 as IEEE 1800 in 2005; SystemC originated at Synopsys 1999 as IEEE 1666 in 2005; Bluespec by Arvind and Hoe at MIT late 1990s, commercialised by Bluespec Inc. co-founded by Arvind Mithal and Joe Stoy in 2003).
-- Embedded-DSL revival 2010-present (Chisel by Asanović's Par Lab team at Berkeley 2012 including Lee and Waterman who also originated RISC-V; SpinalHDL by Papon 2015; Amaranth originally called nMigen by whitequark December 2018, renamed December 2021, succeeding Bourdeauducq's Migen from 2007; MyHDL by Decaluwe 2003; Clash by Baaij at Utrecht and Delft).
-- Verification language track (PSL/IEEE 1850, SVA, UVM/IEEE 1800.2).
-- High-level synthesis track (behavioural Verilog/VHDL, SystemC HLS via Vivado and Catapult, domain-specific HLS).
-- Where the space is going (formal-methods integration, machine-learning-driven design, open-source industrial tooling via Yosys, domain-specific HDLs).
+- Opening framed as design-space survey rather than prediction of a specific successor language, grounded in A200's observation that each historical wave responded to a specific abstraction gap.
+- Pain points in current industrial HDL flows (pipeline timing verification, clock-domain crossing, area budget verification, deadlock and livelock verification).
+- What the embedded-DSL revival languages address (generator-based design, workflow integration, type-system expressiveness) and what they leave open (timing, CDC, area, deadlock still require external verification).
+- Four further design levers drawn from adjacent programming-language traditions. Static WCET analysis with Keleusma as software-target example implementing WCET analysis at module load. Totality and productivity as type-system properties formalised through Rutten's universal-coalgebra treatment and subsequent stream-calculus work, with Kami and Koika at MIT as Coq-based formal-verification-integrated HDL demonstrations. Coroutine primitives for CDC with typed yield and resume in Keleusma as software-target analog. Static memory footprint analysis via Keleusma's WCMU discipline as software-target analog.
+- Self-hosted synthesis toolchains treatment via Yosys, nextpnr, and F4PGA formerly SymbiFlow as production-adjacent open-source flow.
+- Cross-domain description languages closer composing hardware description with SysML v2 for system-level requirements, Modelica for multi-domain physical modelling, and OpenSCAD and CadQuery for constructive geometry.
 
 ### Two-Commit Publication Pattern
 
@@ -33,26 +32,36 @@ Standard two-commit publication. The draft commit captures the finalised draft i
 
 ### Primary-Source Verification
 
-Publication review included WebSearch verification of load-bearing historical attributions against Wikipedia and project homepages, addressing the lesson from the compilers series that primary-source verification should precede formalisation. Six substantive attribution corrections were applied:
+Publication review included WebSearch verification of load-bearing technical and historical attributions, matching the lesson from the compilers series that primary-source verification should precede formalisation. Two minor hedges applied during review:
 
-- Verilog: added Chi-Lai Huang as third co-creator; corrected company-name history (Automated Integrated Design Systems renamed to Gateway Design Automation in 1985); corrected development window (late 1983 to early 1984); corrected first-simulator date (1985) and Verilog-XL date (1987); added OVI intermediate step in 1991 preceding IEEE 1364.
-- VHDL: distinguished VHSIC program start (1980) from VHDL-specific contract F33615-83-C-1003 (1983); named development team as Intermetrics prime contractor plus Texas Instruments and IBM; added VHDL Analysis and Standardization Group as the IEEE standardisation vehicle in March 1986.
-- SystemC: corrected origin to Synopsys 1999 rather than OSCI 2000; added Accellera-OSCI merger December 2011.
-- Bluespec: added James Hoe as co-originator of the MIT research with Arvind; named Lennart Augustsson's BH as the Haskell-based initial implementation; correctly attributed Bluespec Inc. co-founding to Arvind Mithal and Joe Stoy of Oxford in June 2003.
-- Amaranth: corrected attribution to Catherine "whitequark" beginning December 2018; corrected Amaranth rename to December 2021; distinguished Migen creator Bourdeauducq (2007) from the M-Labs group.
-- Chisel: added Par Lab context; named Yunsup Lee and Andrew Waterman as graduate-student co-developers; clarified Rocket Chip as generator that produces RISC-V processor implementations.
+- Rutten attribution refined to acknowledge that productivity was developed in his 2005 stream-calculus work and subsequent Endrullis et al. results rather than the 2000 universal-coalgebra paper alone.
+- F4PGA device family claim softened from named subfamilies to family-level ("selected Lattice and Xilinx 7-Series device families") because subfamily-specific claims were general knowledge but not directly verified against search results.
 
-### Moore's Law Equation
+Verified technical claims include Kami MIT CSAIL origin and Coq-based nature, Koika PLDI 2020 provenance and Bluespec-inspired design, Yosys and nextpnr as F4PGA components, F4PGA formerly SymbiFlow, SysML v2 beta approved by OMG July 2023, Modelica Association non-profit status, OpenModelica open-source implementation status, and CDC pragmatic-formal-verification methodology from 2024.
 
-One display equation added in *Prehistory and the Design-Complexity Forcing Function* formalising Moore's Law as $N(t) = N_0 \cdot 2^{t/T}$ with doubling period $T$ approximately 18-24 months. Mathjax enabled. This is the one load-bearing quantitative claim that the article's design-complexity forcing function argument depends on.
+### Certification Barrier Compliance
+
+Zero occurrences of DO-178C, IEC 61508, tool qualification, certification, certified, airworthiness, or Design Assurance Level in the article body. "High-assurance embedded control" is the substitute term for the scrubbed "certification-adjacent embedded control" used near Keleusma naming, matching the compilers-series scrubbed terminology exactly. Von Neumann probe named once, contextualised as "occasionally discussed in the interstellar-mission speculative literature", article explicitly declines to develop the interstellar case because practical applications are substantially closer to present-day engineering.
+
+### Keleusma Treatment
+
+Named directly per user instruction throughout the article. Function categories (`fn`, `yield`, `loop`) attributed correctly to Keleusma's public vocabulary. WCET, WCMU, and coroutine primitives named as Keleusma features implementing software-target analogs of three of the four design levers. Design-in-progress framing preserved at each mention. Zero certification-adjacent framing near Keleusma name.
+
+### Equation Density
+
+Zero display equations. Design-space survey does not have load-bearing quantitative claims. Reviewed candidates (four-lever composition, area-budget decidability, coalgebraic productivity callback from A193) all rejected as decorative annotations of prose claims that were complete without formalisation. The mathjax flag is set to false accordingly.
 
 ### Style Verification
 
-Zero em-dashes, zero en-dashes, zero contractions, zero prose semicolons outside code blocks and debug tags. Frontmatter uniform with the series conventions: `layout: post`, `mathjax: true`, `comments: true`, `categories: hdl hardware history`. Debug tag `<!-- A200 -->` and `console.log("A200")` in place.
+Zero em-dashes, zero en-dashes, zero contractions, zero prose semicolons outside code blocks and debug tags. Frontmatter uniform with the series conventions: `layout: post`, `mathjax: false`, `comments: true`, `categories: hdl hardware design`. Debug tag `<!-- A201 -->` and `console.log("A201")` in place.
+
+### Cross-Article References
+
+Related-post entries for A188 (streaming discipline opener), A193 (coalgebraic productivity), and A200 (HDL history). Rutten and Turner DOIs match compiler-series citations. Wilhelm WCET DOI matches A188 citation. Kami, Koika, F4PGA, SysML v2, Modelica, and CDC verification references are new to this article.
 
 ### Status of Process Files
 
-`_docs/process/TASKLOG.md` updated with the A200 publication entry and next-available-article-number advanced to A201. `_drafts/draft_summary.md` extended with an A200 entry at the top. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report.
+`_docs/process/TASKLOG.md` updated with the A201 publication entry and next-available-article-number advanced to A202. `_drafts/draft_summary.md` extended with an A201 entry at the top. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report.
 
 ### Git Status
 
@@ -70,32 +79,33 @@ The article number space across the blog now reads as follows.
 - A161 through A172: patent and startup strategy series, published 2026-05-03 through 2026-05-14.
 - A173 through A187: two-dimensional projection in games series, published 2026-04-18 through 2026-05-02.
 - A188 through A199: stream-based compilers series, published 2026-04-06 through 2026-04-17.
-- A200: history of hardware description languages, published 2026-03-13 (this article).
-- Next available article number: A201.
+- A200: history of hardware description languages, published 2026-03-13.
+- A201: design space for next-generation HDLs, published 2026-07-07 (this article).
+- Next available article number: A202.
 
-The A200 back-dated date of 2026-03-13 falls in a clear slot between the 2026-03-12 posts (A103 error correction, and the fixed-wing delta wing article) and A102 the 2026-03-14 Keleusma getting started article. No date or article-number collisions.
+A201 is the first article to publish at today's actual date rather than a back-dated slot. The article is contemporary rather than filling a historical gap.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Verify the GitHub Actions deploy completes without errors after the push. The article does not use `{% post_url %}` cross-references, so the deploy is unlikely to fail on that basis.
+- Verify the GitHub Actions deploy completes without errors after the push. The article uses `{% post_url %}` cross-references to A188, A193, and A200 which should resolve given those posts are already deployed.
 - Review the published article at its permalink once the deploy completes:
-  - `https://sgeos.github.io/hdl/hardware/history/2026/03/13/history_of_hardware_description_languages.html`
-- Consider whether to add a Related Post section that cross-references the article from within adjacent history articles.
-- If a follow-up HDL article is desired, article number A201 is the next available.
+  - `https://sgeos.github.io/hdl/hardware/design/2026/07/07/design_space_next_generation_hardware_description_languages.html`
+- If a follow-up article on any specific design lever (WCET at hardware level, coroutine CDC, formal-methods integration with existing HDLs, or self-hosted silicon compilers as a specific research direction) is desired, article number A202 is the next available.
 
 ---
 
 ## Notes
 
-- Next available article number: A201.
-- 0 release candidates from the stream-based compilers series or the hardware description languages article.
+- Next available article number: A202.
+- 0 release candidates from the HDL articles or the stream-based compilers series.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A200 across the combined article number space.
-- The A200 article is a one-off rather than a series opener. It occupies a single slot at 2026-03-13.
+- Published through A201 across the combined article number space.
+- A201 is the first article published at today's actual date rather than a back-dated slot.
 - The article uses aggressive per-phrase line-break rhythm consistent with the recent series style.
-- Primary-source verification passes were performed on the six load-bearing historical attributions during publication review, matching the lesson recorded from the compilers series about primary-source verification preceding formalisation.
+- Primary-source verification passes were performed during publication review, matching the lesson recorded from the compilers series about primary-source verification preceding formalisation.
+- Keleusma is named directly per user instruction, with design-in-progress framing preserved and certification-adjacent framing scrubbed.
 - All scratch is confined to project-local `tmp/` per recorded preference.
-- Blog deploys through GitHub Actions with a lean Jekyll stack. The A200 article is back-dated and renders without dependence on the `future: false` setting.
+- Blog deploys through GitHub Actions with a lean Jekyll stack. The article renders without dependence on the `future: false` setting because it is dated at today's actual date.

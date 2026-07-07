@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### The Design Space for Next-Generation Hardware Description Languages (A201) — Published
+
+**File**: `_posts/2026-07-07-design_space_next_generation_hardware_description_languages.markdown`
+
+**Topic**: Companion to A200 covering the design space for next-generation hardware description languages. Four pain points in current industrial HDL flows (pipeline timing verification, clock-domain crossing, area budget verification, deadlock and livelock verification). Treatment of what the embedded-DSL revival languages (Chisel, SpinalHDL, Amaranth, Clash) address and what they leave open. Four further design levers drawn from adjacent programming-language traditions: static WCET analysis with Keleusma as software-target example, totality and productivity as type-system properties with Kami and Koika at MIT as formal-verification-integrated HDL demonstrations, coroutine primitives for clock-domain crossing, and static memory footprint analysis. Self-hosted synthesis toolchains treatment via Yosys, nextpnr, and F4PGA formerly SymbiFlow as production-adjacent open-source flow. Closer on cross-domain description languages composing hardware description with system-level requirements (SysML v2), multi-domain physical modelling (Modelica), and constructive geometry (OpenSCAD, CadQuery). Keleusma named directly, treated as design-in-progress example implementing software-target analogs of three of the four design levers. Von Neumann probe named once as speculative literature, article declines to develop the case. High-assurance embedded control terminology substituted for scrubbed certification-adjacent framing. Zero display equations because the design-space survey does not have load-bearing quantitative claims.
+
+**Article Number**: A201
+**Completion**: 100%
+**Publication Sensibility**: High (companion to A200 grounded in the same lineage, extending A200's historical treatment into current-decade design-space analysis)
+**Status**: Published 2026-07-07. 1585 lines, mathjax false, 24 references including inline citations to Kami, Koika, F4PGA, Yosys, nextpnr, SysML v2, Modelica, and CDC pragmatic-formal-verification work. Historical and technical claims verified against primary sources including MIT CSAIL PLV project page, PLDI 2020 paper, OMG press release, and open-source project documentation. Categories `hdl hardware design`.
+
 ### A History of Hardware Description Languages (A200) — Published
 
 **File**: `_posts/2026-03-13-history_of_hardware_description_languages.markdown`
