@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Hardware Description Languages, the State of the Practice (A203) — Published
+
+**File**: `_posts/2026-07-08-hardware_description_languages_state_of_the_practice.markdown`
+
+**Topic**: Third article in the HDL thread completing the three-time-frame survey with A200 (history) and A201 (design space). State-of-the-practice framing covering industrial mainstream landscape (Verilog/VHDL split with regional patterns, SystemVerilog absorption for new work, SystemC in system-level modelling, Bluespec in specialised niches), vendor toolchain landscape (AMD Vivado post-2022 Xilinx acquisition, Intel Quartus with 2015 Altera acquisition and 2025 Silver Lake divestiture, Synopsys Synplify, Cadence, Siemens EDA), open-source toolchain landscape (Yosys started 2012 at Vienna University of Technology by Claire Wolf, nextpnr, F4PGA formerly SymbiFlow, Project IceStorm), embedded-DSL revival adoption (Chisel with Rocket Chip generator and SiFive founded 2015 by Asanović/Lee/Waterman from UC Berkeley and FireSim FPGA-accelerated simulation, Amaranth with LiteX system-on-chip generators, SpinalHDL with VexRiscv soft processor, Clash in Haskell research groups, MyHDL in educational contexts), formal verification adoption citing Wilson Research Group 2024 study for growth from approximately thirty percent to sixty percent over a decade and industrial platforms JasperGold VC Formal Questa Formal alongside academic Kami and Koika from Chlipala's MIT PLV group, additional and emerging languages (Silice by Sylvain Lefebvre at INRIA France with Doom-on-ECP5 demonstration, DFHDL Scala-based multi-abstraction dataflow HDL, LiteX Migen family, PyMTL from Cornell), domain-specific adoption patterns for automotive/aerospace safety-critical segments and consumer/mobile and RISC-V processor design and academic computer architecture and hobbyist/open-source contexts, closing adoption trajectory synthesising the persistent Verilog/VHDL mainstream with gradual SystemVerilog absorption plus growing formal verification integration plus maturing open-source toolchain device-family coverage. Wilson Research Group 2024 first-silicon success rate figure (approximately fourteen percent) cited as evidence of design-complexity forcing function. Keleusma not named because state-of-the-practice framing does not include design-in-progress language.
+
+**Article Number**: A203
+**Completion**: 100%
+**Publication Sensibility**: High (completes the three-time-frame HDL survey started with A200 and A201, brings distinct current-adoption content and Wilson Research Group 2024 verification study data that A200 and A201 did not cover)
+**Status**: Published 2026-07-08 at 12:00 UTC to sequence after A202 which was 09:00 UTC on the same date. 1763 lines, mathjax false, zero display equations. Three publication-review corrections applied: Intel-Altera timeline; SiFive founders named; Wolf name updated to current Claire Wolf. Categories `hdl hardware adoption`.
+
 ### The Meta-Factory, Prior Art and the Reproduction Loop (A202) — Published
 
 **File**: `_posts/2026-07-08-meta_factory_prior_art_and_the_reproduction_loop.markdown`
