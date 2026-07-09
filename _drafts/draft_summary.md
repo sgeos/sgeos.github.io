@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### The Self-Hosted Silicon Compiler (A204) — Published
+
+**File**: `_posts/2026-07-09-self_hosted_silicon_compiler.markdown`
+
+**Topic**: Fifth article completing the five-article HDL and manufacturing thread with A200 (history), A201 (design space), A202 (meta-factory), and A203 (state of the practice). Addresses the specific integration point between the computational and manufacturing halves of the reproduction loop identified in A201 and A202. Sections cover: definition of self-hosting for silicon compilation (narrow silicon compiler translation, strong vs weak self-hosting forms, dependency reduction and reproduction-loop rationales); software bootstrap precedent citing A199 fixed-point condition, Ken Thompson's 1984 Turing Award lecture Reflections on Trusting Trust published in CACM Vol 27 No 8 August 1984, and David A. Wheeler's 2009 Diverse Double-Compilation countermeasure; Gabriel Somlo's Trustworthy Free Libre Linux-Capable Self-Hosting sixty-four-bit RISC-V Computer at Carnegie Mellon University Software Engineering Institute as strongest existing demonstration with Rocket Chip RISC-V core on LiteX system-on-chip on Lattice ECP5 field-programmable-gate-array with Yosys and Project Trellis and nextpnr toolchain running Fedora Linux; silicon boundary distinguishing what current self-hosting reaches versus what remains below the fabrication boundary; research directions toward compact self-hosting toolchains including Silice minimal grammar by Sylvain Lefebvre at INRIA and Keleusma design-in-progress software-target example and on-fabric compilation acceleration and bootstrap procedure design; applications in trust-adjacent computing citing Wheeler DDC use case and educational contexts and long-term autonomy contexts and reproducible-builds hardware distribution; meta-factory connection tying computational self-hosting to A202's mechanical prior art including brief mention of three additional required system components (materials refinery, kinematic fabricator, meta-cognitive orchestration). Two publication-review hedges applied: Yosys source size softened from specific one-hundred-thousand-lines figure to on-the-order-of-several-hundred-thousand-lines directional claim, and Somlo/DDC connection softened to note Somlo references DDC as related mitigation rather than as integrated bootstrap component.
+
+**Article Number**: A204
+**Completion**: 100%
+**Publication Sensibility**: High (closes the five-article HDL and manufacturing thread with the specific integration point that ties the computational and manufacturing halves of the reproduction loop, grounded in Somlo's substantial existing work rather than speculation)
+**Status**: Published 2026-07-09 (editorial date, tomorrow). 1805 lines, mathjax false, zero display equations. Historical and technical claims verified against primary sources including Thompson CACM 1984, Wheeler arxiv 2010, Somlo CMU SEI project pages, and Wikipedia bootstrapping compilers article. Keleusma named directly with design-in-progress framing. Von Neumann probe named once with explicit decline to develop interstellar case. Categories `hdl hardware self-hosting`.
+
 ### Hardware Description Languages, the State of the Practice (A203) — Published
 
 **File**: `_posts/2026-07-08-hardware_description_languages_state_of_the_practice.markdown`
