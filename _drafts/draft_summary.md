@@ -18,16 +18,16 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Getting Started with Keleusma 0.2.1 (A205) — Draft
+### Getting Started with Keleusma 0.2.1 (A205) — Published
 
-**File**: `_drafts/keleusma_0_2_1_getting_started.markdown`
+**File**: `_posts/2026-07-09-keleusma_0_2_1_getting_started.markdown`
 
 **Topic**: Third article in the Keleusma getting-started series with A107 (0.1.1) and A110 (0.2.0). Practical walkthrough of the material additions in the 0.2.1 release tagged 2026-07-08. Sections cover: software versions and installation; the boolean/bitwise/shift operator families (`band`/`bor`/`bxor`/`bnot`, `lsl`/`asl`/`lsr`/`asr`, eager `and`/`or`/`xor`/`not` and short-circuit `andalso`/`orelse`); general const generics superseding the earlier `Multiword<N, F>` special case; executable shebang scripts and the script argument vector via `shell::arg` and `shell::arg_count`; debug `assert` statements with strippable debug-record backing; partial-operation handling for checked arithmetic and array indexing and refinement-newtype construction; strippable debug metadata via `keleusma compile --debug` and `keleusma strip`; operator-configured strict-mode deployment policy for signed and encrypted bytecode; and an Under the Hood section covering the flat-byte composite runtime representation, the typed operand-stack verifier pass, and trait-method resolution on generic structs. Closer sketches the 0.2.2 development cycle's self-hosted-compiler groundwork and cross-references the streaming compilers series conclusion (A199) and the self-hosted silicon compiler article (A204).
 
 **Article Number**: A205
 **Completion**: 100%
 **Publication Sensibility**: High (companion to A107 and A110 aligned with the recently tagged 0.2.1 release, every code listing verified against an installed 0.2.1 CLI)
-**Status**: Draft in `_drafts/`. 724 lines, mathjax false, zero display equations. All code listings executed against an installed `keleusma 0.2.1` and outputs recorded verbatim. Cross-references A107, A110, A109 (verifiable control kernel), A111 (information-flow control deep dive), A199 (streaming compilers conclusion), and A204 (self-hosted silicon compiler). Categories `rust embedded programming`. Editorial date 2026-07-09 12:00 UTC.
+**Status**: Published 2026-07-09 at 12:00 UTC. 724 lines, mathjax false, zero display equations. All code listings executed against an installed `keleusma 0.2.1` and outputs recorded verbatim. Cross-references A107, A110, A109 (verifiable control kernel), A111 (information-flow control deep dive), A199 (streaming compilers conclusion), and A204 (self-hosted silicon compiler). Categories `rust embedded programming`. External URLs pinned to the `v0.2.1` tag. Two-commit publication pattern; commits local pending push authorisation.
 
 ### The Self-Hosted Silicon Compiler (A204) — Published
 

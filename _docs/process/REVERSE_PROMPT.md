@@ -8,8 +8,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-07-08
-**Task**: Research, draft, verify, and publish A204 "The Self-Hosted Silicon Compiler" as the fifth article completing the HDL and manufacturing thread with A200 through A203. Editorial date 2026-07-09. Commits staged locally, not yet pushed per human pilot instruction.
+**Date**: 2026-07-09
+**Task**: Research, draft, verify, and publish A205 "Getting Started with Keleusma 0.2.1" as the third article in the Keleusma getting-started series with A107 (0.1.1) and A110 (0.2.0). Editorial date 2026-07-09 12:00 UTC. Two-commit publication sequence complete; commits staged locally, not pushed per human pilot instruction.
 
 ---
 
@@ -17,64 +17,70 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Body Complete
 
-Single-article treatment of the self-hosted silicon compiler concept as the specific integration point between the computational side of the reproduction loop that A201 identified and the manufacturing side that A202 identified.
+Practical walkthrough of the material additions in the Keleusma 0.2.1 release tagged 2026-07-08, aligned with the pattern established by A107 and A110.
 
-- Opening frames the article as the closer for the five-article HDL and manufacturing thread with A200 (history), A201 (design space), A202 (meta-factory), A203 (state of the practice), and A204 (self-hosted silicon compiler).
-- Definition section distinguishes narrow silicon compiler translation (Verilog to bitstream) from self-hosted silicon compilation running the toolchain on the hardware it produces, with strong and weak self-hosting forms.
-- Software bootstrap precedent section cites A199 for the fixed-point condition, canonical bootstrap patterns across Oberon Rust Go and GCC, Ken Thompson's 1984 Turing Award lecture Reflections on Trusting Trust published in Communications of the ACM Vol 27 No 8 August 1984, and David A. Wheeler's 2009 Diverse Double-Compiling countermeasure.
-- Somlo's project section covers Gabriel L. Somlo's Trustworthy Free Libre Linux-Capable Self-Hosting sixty-four-bit RISC-V Computer at Carnegie Mellon University Software Engineering Institute as the strongest existing demonstration, with Rocket Chip RISC-V core on LiteX system-on-chip on Lattice ECP5 field-programmable-gate-array with Yosys and Project Trellis and nextpnr toolchain running Fedora Linux. Self-hosting property holds above the silicon boundary at the source-to-bitstream level.
-- Silicon boundary section identifies where existing self-hosting technology ends and where substantially harder research directions begin. Below the boundary requires photolithographic steppers, chemical vapour deposition, ion implanters, plasma etching systems, and deep-ultraviolet or extreme-ultraviolet light sources. Two research directions approach the boundary from above.
-- Research directions section covers compact synthesis toolchains (Yosys several hundred thousand lines versus multi-million line Vivado and Quartus Prime), minimal-grammar hardware description languages (Silice by Sylvain Lefebvre at INRIA), compact-toolchain-friendly language design (Keleusma design-in-progress example implementing software-target analog with worst-case memory usage and worst-case execution time statically bounded), on-fabric compilation acceleration, and bootstrap procedure design.
-- Applications section covers trust-adjacent computing citing Wheeler DDC use case, educational applications, long-term autonomy contexts referencing A202 meta-factory, and reproducible-builds for hardware.
-- Meta-factory connection section ties computational self-hosting to A202's mechanical prior art with brief mention of three additional required system components (materials refinery, kinematic fabricator, meta-cognitive orchestration) from A202.
-- Conclusion closes the five-article thread and identifies silicon boundary as current technological limit rather than fundamental theoretical barrier.
+- Opening frames the article as a companion to A107 and A110 and connects the 0.2.2 development-cycle self-hosted-compiler groundwork to A199 and A204.
+- Software Versions section captures actual host details from the executing environment.
+- Installation section preserves the source-checkout pattern from A110 with updated dependency version pins.
+- Boolean, Bitwise, and Shift Operators section introduces the letter-prefixed bitwise family (`band`/`bor`/`bxor`/`bnot`), the assembly-mnemonic shifts (`lsl`/`asl`/`lsr`/`asr`), and the two boolean subfamilies with eager (`and`/`or`/`xor`/`not`) and short-circuit (`andalso`/`orelse`) semantics. Three runnable examples with computed outputs.
+- General Const Generics section covers the `const` keyword introduction, turbofish call syntax, admissible arithmetic expressions in const arguments (`+`/`-`/`*` excluding division and modulo to preserve totality), and the monomorphization-substitution property that preserves the static bounds.
+- Executable Scripts section covers the shebang line convention and shell-orchestrator use pattern.
+- Script Arguments section covers `shell::arg` returning `Option<Text>`, `shell::arg_count`, the `--` terminator, and the companion `shell::run_full` native returning `(Word, Text, Text)`.
+- Debug Assertions section covers the `assert` statement with optional message, `VmError::AssertionFailed` at debug builds, and compile-out under release builds. Explicit hedge on CLI vs library capability: the CLI prints the raw `VmError` while source-span resolution happens in a host program consuming `Vm::fault_source_location()`.
+- Partial Operation Handling section covers checked arithmetic (`ok`/`overflow`/`underflow`/`zero_divisor`), array indexing (`invalid_index`), refinement-newtype construction (`invalid_newtype`), discriminant-to-enum (`ok`/`payload_discriminant`/`invalid_discriminant`), and fallible native calls (`error(code)`). Runnable example demonstrates `safe_div`, `saturate_add_byte`, and the `saturate_max` keyword.
+- Strippable Debug Metadata section demonstrates `keleusma compile --debug` and `keleusma strip` with a byte-identical verification via `cmp`, scoped to same source.
+- Deployment Policy section covers the strict-mode signing and encryption operator-configured trust-store model with three activation paths (`KELEUSMA_TRUSTED_KEYS_DIR`, `/etc/keleusma/trusted_keys`, `KELEUSMA_REQUIRE_SIGNED=1`) and symmetric strict-encryption configuration through `KELEUSMA_DECRYPTION_KEYS_DIR` and `KELEUSMA_REQUIRE_ENCRYPTED`.
+- Under the Hood section summarises three internal changes: flat-byte composite runtime representation with 32-byte `Value` slot down from 40, typed operand-stack pass modelled after the JVM and WebAssembly verifiers, and trait-method resolution on generic structs and enums.
+- Toward a Self-Hosted Compiler section stamps the 0.2.2 development cycle's self-hosted-compiler groundwork theme and cross-references A199 for the software case and A204 for the silicon case.
+- Going Deeper section indexes the guide chapters relevant to the article's topics.
+- Conclusion frames 0.2.1 as consolidation, preserving the central definitive-bound promise.
 
 ### Two-Commit Publication Pattern
 
-Standard two-commit publication. The draft commit captures the finalised draft in `_drafts/`. The publication commit moves it to `_posts/` with the appropriate date prefix and updates the process files. Git rename detection preserves file history. Commits are staged locally but not pushed per human pilot instruction; awaits explicit push authorisation.
+Standard two-commit publication. Draft commit `20dce1b` captures the finalised draft in `_drafts/`. Publish commit follows with the `git mv` to `_posts/` plus the process file updates. Git rename detection preserves file history. Commits staged locally but not pushed per human pilot instruction.
 
 ### Primary-Source Verification
 
-Publication review included WebSearch verification of load-bearing technical and historical attributions. Two hedges applied during review:
+Every claim about Keleusma 0.2.1 additions traces directly to the shipped `CHANGELOG.md` in the `v0.2.1` tag worktree at `tmp/keleusma-021/`. Every code listing was executed against an installed `keleusma 0.2.1` CLI built from that worktree. Every reported output is the actual output produced by the interpreter. Two publication-review hedges applied.
 
-- Yosys source size specific figure softened. The earlier draft said "approximately one hundred thousand lines of C-plus-plus". Web verification did not confirm the specific figure, so corrected to "on the order of several hundred thousand lines of C-plus-plus, which is several orders of magnitude smaller than the multi-million-line codebases that Vivado and Quartus Prime represent". More directional claim.
-- Somlo and DDC connection softened. The earlier draft claimed Somlo's cross-compilation "provides the trusted initial state that the Wheeler Diverse Double-Compilation procedure requires". Web verification confirmed Somlo references Wheeler's DDC in his research but the specific integration into the bootstrap is my inference. Corrected to note Somlo references DDC "as a related mitigation technique for the underlying trust concern, though the specific integration of Diverse Double-Compilation into the Somlo bootstrap sequence remains a follow-on research direction rather than an implemented component of the current system".
+- Assert-failure demonstration hedge. The CHANGELOG documents `Vm::fault_source_location()` for host programs. The command-line frontend does not expose it and prints the raw `VmError` alone. Article notes both facts and points the reader to the library application-programming-interface for span resolution.
+- Strip byte-identical claim hedge. The CHANGELOG claim that a stripped debug build is byte-identical to a release build holds for source without the `assert` statement, since `assert` emits opcodes only under debug builds. Article uses a source without `assert` for the strip demonstration and scopes the byte-identical claim to "of the same source".
 
-Verified historical claims include Ken Thompson's 1984 Turing Award lecture published in CACM Vol 27 No 8 August 1984 with 1983 Turing Award for Thompson and Ritchie, David A. Wheeler's 2009 Diverse Double-Compiling arxiv publication, Gabriel L. Somlo's Trustworthy Libre Self-Hosting RISC-V Computer at CMU SEI with Rocket LiteX ECP5 Yosys Trellis nextpnr Fedora stack, Somlo references Wheeler's DDC as related mitigation, and Silice by Sylvain Lefebvre at INRIA France.
+### External URL Verification
+
+Every external URL verified with `curl -I -L`. Hosted mdBook site at `sgeos.github.io/keleusma/` returned 404 across every candidate chapter URL. All guide references switched to `github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/...` which all resolve `200`. Examples URL switched to `github.com/sgeos/keleusma/tree/v0.2.1/examples/scripts`. Docs.rs URL pinned to `/keleusma/0.2.1`. Pinning to the tag provides stability against future guide reorganisation and preserves the reader's ability to see documentation matching the release the article discusses.
 
 ### Certification Barrier Compliance
 
-Zero occurrences of DO-178C, IEC 61508, tool qualification, certification, certified, airworthiness, or Design Assurance Level in the article body. Only "high-assurance embedded control" and "high-assurance systems" as substitute terms for scrubbed certification-adjacent framing. "Safety-critical" not used in this article; "high-assurance systems" used instead where applicable. No Keleusma naming near certification adjacency. Von Neumann probe named once in the Meta-Factory Connection section with explicit statement that the article declines to develop the interstellar case.
+Zero occurrences of DO-178C, IEC 61508, tool qualification, certification, certified, airworthiness, or Design Assurance Level in the article body. The article does not treat certification-adjacent topics and the substitute term "high-assurance embedded control" is not needed. Keleusma is named directly throughout with design-in-progress framing preserved via the standard phrasing.
 
 ### Keleusma Treatment
 
-Named directly in the compact-toolchain-friendly language design subsection with the full "total functional stream processor that compiles to bytecode for embedded scripting and high-assurance embedded control contexts" phrasing that matches A197, A199, and A201. Design-in-progress framing preserved. Explicit statement that "whether the software analysis passes adapt to a hardware description target is not yet established" and "the resulting hardware description language would support a substantially smaller compilation toolchain than current alternatives" hedges the potential-benefit claim appropriately. No architectural claims about Keleusma hardware capability.
+Named directly throughout. Design-in-progress framing preserved in the Toward a Self-Hosted Compiler section: the Keleusma standardization effort sits on the software side of the self-hosting boundary and is described as a candidate example of a compact-toolchain language design that a self-hosting compiler could reasonably compile itself with. No overreach on hardware-target capability.
 
 ### Equation Density
 
-Zero display equations. Conceptual and analytical survey has no load-bearing quantitative claim that would benefit from formalisation. Three candidates considered and rejected: fixed-point self-hosting condition (would duplicate A199), Wheeler DDC bit-identity condition (prose conveys cleanly), bootstrap sequence convergence (already cited to A199 for formal treatment). Mathjax flag set to false. The five HDL and manufacturing articles now form a consistent set with A200 carrying one Moore's Law equation and A201 A202 A203 A204 carrying zero.
+Zero display equations. `mathjax: false`. One inline mathematical expression `x * 2^k` appears in the shift-operator section as a compact expression of the multiplicative interpretation of `asl`. Consistent with A107 and A110 disposition and with the recent zero-equations disposition of A201, A202, A203, and A204.
 
 ### Style Verification
 
-Zero em-dashes, zero en-dashes, zero contractions, zero prose semicolons outside code blocks and debug tags. Frontmatter uniform with the series conventions: `layout: post`, `mathjax: false`, `comments: true`, `categories: hdl hardware self-hosting`. Debug tag `<!-- A204 -->` and `console.log("A204")` in place.
+Zero em-dashes, zero en-dashes, zero contractions, zero prose semicolons outside code blocks and debug tags. Frontmatter uniform with the getting-started series conventions: `layout: post`, `mathjax: false`, `comments: true`, `categories: rust embedded programming`. Debug tag `<!-- A205 -->` and `console.log("A205")` in place.
 
 ### Cross-Article References
 
-Related-post entries for A200, A201, A202, A203, and A199 (from the compilers streaming series for the fixed-point self-hosting condition). A199 is cited substantively in the software-bootstrap-precedent section for the coalgebraic fixed-point endpoint. A202 is cited substantively in the meta-factory-connection section for the three additional required system components. A201 is cited substantively for the research direction identification. The five-article HDL and manufacturing thread now forms a coherent set with clear cross-references.
+Related-post entries for A107 (Getting Started with Keleusma 0.1.1), A110 (Getting Started with Keleusma 0.2.0), A109 (A Verifiable Control Kernel in Keleusma), A111 (Information-Flow Control, A Deep Dive with Keleusma), A199 (Streaming Compilers Series Conclusion), and A204 (The Self-Hosted Silicon Compiler). Every `post_url` target verified against the `_posts/` directory. A199 is cited substantively in the Toward a Self-Hosted Compiler section for the coalgebraic fixed-point endpoint. A204 is cited substantively for the silicon-boundary case of the self-hosting concept.
 
 ### Status of Process Files
 
-`_docs/process/TASKLOG.md` updated with the A204 publication entry and next-available-article-number advanced to A205. `_drafts/draft_summary.md` extended with an A204 entry at the top. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report.
+`_docs/process/TASKLOG.md` updated with two A205 history entries and next-available-article-number advanced to A206. `_drafts/draft_summary.md` updated with an A205 Published entry near the top. `_docs/process/REVERSE_PROMPT.md` overwritten with this completion report.
 
 ### Git Status
 
-`git status` after the two commits should show a clean working tree ahead of `origin/master` by two commits. The commits are the draft commit `299dfd9` and the publication commit that follows. Both await push authorisation.
+Draft commit `20dce1b` created for the finalised draft with draft summary synchronisation. Publish commit created for the `git mv` to `_posts/` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronisation. Both commits await push authorisation. `git status` after the two commits should show a clean working tree ahead of `origin/master` by two commits.
 
 ---
 
 ## Article Number State
-
-The article number space across the blog now reads as follows.
 
 - A1 through A74: legacy published posts predating the modern numbered tracking.
 - A75 through A151: published series across 2026-02-06 through 2026-03-14.
@@ -86,34 +92,35 @@ The article number space across the blog now reads as follows.
 - A201: design space for next-generation HDLs, published 2026-07-07.
 - A202: meta-factory prior art and the reproduction loop, published 2026-07-08 at 09:00 UTC.
 - A203: hardware description languages the state of the practice, published 2026-07-08 at 12:00 UTC.
-- A204: the self-hosted silicon compiler, published 2026-07-09 (this article, editorial date tomorrow).
-- Next available article number: A205.
+- A204: the self-hosted silicon compiler, published 2026-07-09 at 09:00 UTC.
+- A205: getting started with Keleusma 0.2.1, published 2026-07-09 at 12:00 UTC (this article).
+- Next available article number: A206.
 
-A204 is scheduled for tomorrow's publication and closes the five-article HDL and manufacturing thread with A200 through A203.
+A205 is the third article in the Keleusma getting-started series with A107 and A110, aligned with the 0.2.1 release tagged 2026-07-08.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Review the local commits before push authorisation. The two-commit sequence is complete but not pushed.
+- Review the two local commits before push authorisation. The two-commit sequence is complete but not pushed.
 - Push command when ready: `git push origin master`.
-- Verify the GitHub Actions deploy completes without errors after the push. The article uses `{% post_url %}` cross-references to A199, A200, A201, A202, and A203 which should all resolve given those posts are already deployed.
-- Review the published article at its permalink once the deploy completes:
-  - `https://sgeos.github.io/hdl/hardware/self-hosting/2026/07/09/self_hosted_silicon_compiler.html`
-- The five-article HDL and manufacturing thread now forms a coherent past/future/present/manufacturing/self-hosting set. A205 could be a fresh subject or a specific deep-dive extension.
+- Verify the GitHub Actions deploy completes without errors after the push. The article uses `{% post_url %}` cross-references to A107, A110, A109 (verifiable control kernel), A111 (information-flow control deep dive), A199, and A204, which should all resolve since those posts are already deployed.
+- Review the published article at its permalink once the deploy completes at `https://sgeos.github.io/rust/embedded/programming/2026/07/09/keleusma_0_2_1_getting_started.html`.
+- Consider removing the `tmp/keleusma-021/` worktree after the article is deployed: `git -C /Users/bsechter/projects/rust/keleusma worktree remove /Users/bsechter/projects/blog/tmp/keleusma-021`. The worktree was used for the CLI-verification pass and is no longer required.
 
 ---
 
 ## Notes
 
-- Next available article number: A205.
+- Next available article number: A206.
 - 0 release candidates from the HDL articles.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A204 across the combined article number space, though A204 commits are local only pending push authorisation.
-- A201, A202, A203, and A204 form four consecutive current-date-or-near-date publications spanning HDL design space, manufacturing prior art, HDL state of the practice, and self-hosted silicon compilers. A200 sits at 2026-03-13 as a back-dated historical opener.
-- The article uses aggressive per-phrase line-break rhythm consistent with the recent series style.
-- Primary-source verification passes were performed during publication review, matching the lesson recorded from the compilers series about primary-source verification preceding formalisation.
-- Keleusma named directly with design-in-progress framing per the pattern established in A201, A202, and reversed in A203 which did not name Keleusma at all.
+- Published through A205 across the combined article number space, though A204 and A205 commits are local only pending push authorisation.
+- The Keleusma getting-started thread now spans three release lines: A107 (0.1.1), A110 (0.2.0), and A205 (0.2.1).
+- Every code listing in A205 was verified against the installed `keleusma 0.2.1` binary. Software Versions, installation confirmation, and every runnable example produce the outputs recorded verbatim in the article.
+- Primary-source verification passes were performed during publication review, matching the lesson recorded from the compilers series about primary-source verification preceding formalisation. External URLs verified with `curl -I -L`; hosted mdBook site was 404 so all guide references switched to the `v0.2.1` tag on GitHub for stability.
+- The V0.2.1 shipped `CHANGELOG.md` is the authoritative source for every claim about the release. All V0.2.1 material additions are covered in the article except two host-facing capabilities that do not surface in a CLI walkthrough. First, the breakpoint runtime mechanism is a host application-programming-interface. Second, the whole-segment shared-data marshalling is a host application-programming-interface. Both are noted in the CHANGELOG for readers who consult it.
+- Keleusma named directly with design-in-progress framing per the pattern established across the recent Keleusma articles.
 - All scratch is confined to project-local `tmp/` per recorded preference.
-- Blog deploys through GitHub Actions with a lean Jekyll stack. The article renders without dependence on the `future: false` setting because it is dated at today plus one day, which will be current-date on 2026-07-09.
+- Blog deploys through GitHub Actions with a lean Jekyll stack.
