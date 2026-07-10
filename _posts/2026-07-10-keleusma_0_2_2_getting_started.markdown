@@ -2,8 +2,8 @@
 layout: post
 mathjax: false
 comments: true
-title: "Getting Started with Keleusma 0.2.1"
-date:   2026-07-09 12:00:00 +0000
+title: "Getting Started with Keleusma 0.2.2"
+date:   2026-07-10 12:00:00 +0000
 categories: rust embedded programming
 ---
 
@@ -35,17 +35,57 @@ provides source-level debugging support,
 tightens the load-time verifier,
 and adds an operator-configured deployment policy
 for signed and encrypted bytecode.
-The changelog also opens the 0.2.2 development cycle,
-whose theme is groundwork
-that a future self-hosted Keleusma compiler will require.
+Version 0.2.2 was tagged on 2026-07-09,
+the day after 0.2.1.
+It is a build-fix and tooling release
+on the self-hosting groundwork line.
+It repairs cross-target and continuous-integration regressions
+from 0.2.1
+that broke the flagship Cortex-M embedded targets
+and the `verify`-without-`floats` feature combination,
+lands the learning guide
+as a bilingual mdbook
+that is now served
+at
+[the hosted book URL][kel_guide],
+lands the initial scaffold
+of
+the self-hosted-compiler subproject
+that the 0.3.0 release will complete,
+and codifies the release process
+with a mandatory green-continuous-integration gate.
+The language surface
+is
+unchanged from 0.2.1,
+and no wire-format or bytecode-version change accompanies the release.
 The self-hosting concept was treated
 for the software case
 in [the streaming compilers series conclusion][related_post_compilers_streaming]
 and for silicon in
 [the recent hardware article][related_post_self_hosted_silicon].
 
-This article walks through the material additions of 0.2.1
-with runnable examples.
+Readers who want to try the language
+without installing anything
+can use
+[the browser-based playground][kel_playground],
+which compiles and verifies programs
+through
+a WebAssembly build of the compiler
+and reports
+worst-case execution time
+and memory bounds
+live.
+The playground is served
+alongside the hosted book.
+
+This article walks through the material additions of the 0.2.x line
+with runnable examples,
+covering
+the 0.2.1 language features
+that 0.2.2 preserves
+and
+the 0.2.2 tooling additions
+that are relevant to a getting-started walkthrough.
 Every code listing below was executed with the version
 recorded in the Software Versions section,
 and every reported output is the actual output produced.
@@ -59,7 +99,7 @@ and its [installation chapter][kel_guide_install].
 ```sh
 # Date (UTC)
 $ date -u "+%Y-%m-%d %H:%M:%S +0000"
-2026-07-09 19:55:52 +0000
+2026-07-10 22:05:01 +0000
 
 # OS and Version
 $ uname -vm
@@ -67,16 +107,23 @@ Darwin Kernel Version 25.5.0: Mon Apr 27 20:38:56 PDT 2026; root:xnu-12377.121.6
 
 # Keleusma
 $ keleusma --version
-keleusma 0.2.1
+keleusma 0.2.2
 ```
 
 ## Installation
 
-Keleusma 0.2.1 is published on [crates.io][kel_crate] as a library
+Keleusma 0.2.2 is published on [crates.io][kel_crate] as a library
 and as the separate command-line crate [`keleusma-cli`][kel_cli_crate].
 The source lives on [GitHub][kel_github]
 and the application-programming-interface documentation is on [docs.rs][kel_docs_rs].
 The install path is unchanged from 0.2.0.
+The 0.2.2 release additionally repairs
+the 32-bit and `no_std` embedded builds
+that 0.2.1 broke,
+so a fresh install
+from source
+on the flagship Cortex-M targets
+now succeeds without a manual patch.
 
 ```sh
 git clone https://github.com/sgeos/keleusma
@@ -88,7 +135,7 @@ Confirm the installation.
 
 ```sh
 $ keleusma --version
-keleusma 0.2.1
+keleusma 0.2.2
 ```
 
 To embed the runtime in a Rust program rather than use the tool,
@@ -97,8 +144,17 @@ add the library crates to a project.
 ```toml
 [dependencies]
 keleusma = "0.2"
-keleusma-arena = "0.3"
+keleusma-arena = "0.3.1"
 ```
+
+The `keleusma-arena` version requirement
+tightens from `0.3` to `0.3.1`
+in 0.2.2
+because the runtime now consumes
+additive helpers
+that
+`keleusma-arena` 0.3.1
+exposes.
 
 ## Boolean, Bitwise, and Shift Operators
 
@@ -604,18 +660,42 @@ even when the source implementation was written against a generic `Cell<T>`.
 
 ## Toward a Self-Hosted Compiler
 
-The 0.2.1 release also stamps
-the opening of the 0.2.2 development cycle.
-The 0.2.2 theme is groundwork
-that supports an eventual self-hosted compiler,
-that being a Keleusma compiler written in Keleusma,
-which is the 0.3.0 goal.
-Incremental language work,
-standard-library work,
-and tooling work
-that a self-hosted compiler will depend on
-land in 0.2.2.
-No self-hosted compiler ships in that release.
+Version 0.2.2 lands
+the initial scaffold
+of
+the self-hosted-compiler subproject
+that the 0.3.0 release will complete.
+The scaffold
+lives at
+`compiler/`
+in the repository
+and comprises
+the three-stage `loop` pipeline skeleton,
+namely `lexer`, `parser`, and `codegen`,
+along with
+a Rust host driver
+and
+a release-by-release implementation plan.
+No stage is implemented in 0.2.2.
+The V0.2.x line
+lands its prerequisites
+across
+the operator surface,
+the const-generics facility,
+the flat-byte composite representation,
+the typed operand-stack verifier pass,
+the debug metadata,
+and
+the strict-mode deployment policy
+that
+the earlier sections of this article
+walk through.
+Version 0.3.0
+will
+turn the scaffold
+into a working compiler
+written in Keleusma
+that compiles Keleusma.
 
 The self-hosting concept was treated at length
 for the software case
@@ -633,13 +713,37 @@ could reasonably compile itself with.
 
 ## Going Deeper
 
-This article covers the material additions of 0.2.1.
+This article covers the material additions of the 0.2.x line
+that are relevant to a getting-started walkthrough.
 The complete language reference
-is [the guide][kel_guide],
-which teaches Keleusma from first principles
+is [the hosted book][kel_guide],
+whose 0.2.2 release migrated
+the previously loose Markdown guide
+into an mdbook
+served
+at
+`https://sgeos.github.io/keleusma/`.
+The book is bilingual
+with English as the source
+and Japanese
+as
+a gettext-based translation
+that
+0.2.2 also ships.
+It teaches Keleusma from first principles
 in a forty-chapter track
 and covers the embedding surface for Rust hosts
 in a second track.
+Readers who prefer
+to try the language
+without installing anything
+can use
+[the browser-based playground][kel_playground],
+which
+runs the compiler as WebAssembly
+in the reader's browser
+and is served
+from the hosted book site.
 The reference for handling partial operations
 is [the partial-operations chapter][kel_guide_partial].
 The reference for information-flow labels
@@ -660,7 +764,7 @@ that Version 0.2.0 introduced.
 
 ## Conclusion
 
-Version 0.2.1 does not change
+Neither 0.2.1 nor 0.2.2 changes
 the central promise the language makes.
 Every accepted program still carries a static proof
 of bounded execution time
@@ -678,11 +782,32 @@ a tightened load-time verifier
 that closes several audit findings,
 and an operator-configured deployment policy
 for signed and encrypted bytecode.
-The pattern is consolidation,
+What 0.2.2 adds
+is
+the initial scaffold
+of the self-hosted-compiler subproject,
+the learning guide
+as
+a bilingual mdbook
+that is now
+hosted online,
+a browser-based playground
+that runs the compiler
+as WebAssembly,
+and a codified release process
+with
+a mandatory green-continuous-integration gate.
+The 0.2.2 release also repairs
+build regressions
+that 0.2.1 introduced
+on 32-bit and `no_std` embedded targets
+and in the `verify`-without-`floats` feature combination.
+The pattern is consolidation
+and tooling maturation,
 not a change of direction.
 The direction is set
 by the 0.3.0 self-hosted-compiler goal
-that the opening 0.2.2 cycle
+that the 0.2.2 scaffold
 lays the groundwork for.
 
 ## References
@@ -692,7 +817,8 @@ lays the groundwork for.
 - [Keleusma, Application-Programming-Interface Documentation on docs.rs][kel_docs_rs]
 - [Keleusma, Example Scripts][kel_examples]
 - [Keleusma, GitHub Repository][kel_github]
-- [Keleusma, Guide][kel_guide]
+- [Keleusma, Hosted Book (mdbook)][kel_guide]
+- [Keleusma, Browser-Based Playground][kel_playground]
 - [Keleusma, Guide, Installing and Running][kel_guide_install]
 - [Keleusma, Guide, Handling Partial Operations][kel_guide_partial]
 - [Keleusma, Guide, Information-Flow Labels][kel_guide_ifc]
@@ -707,15 +833,16 @@ lays the groundwork for.
 
 [kel_crate]: https://crates.io/crates/keleusma
 [kel_cli_crate]: https://crates.io/crates/keleusma-cli
-[kel_docs_rs]: https://docs.rs/keleusma/0.2.1
-[kel_examples]: https://github.com/sgeos/keleusma/tree/v0.2.1/examples/scripts
+[kel_docs_rs]: https://docs.rs/keleusma/0.2.2
+[kel_examples]: https://github.com/sgeos/keleusma/tree/v0.2.2/examples/scripts
 [kel_github]: https://github.com/sgeos/keleusma
-[kel_guide]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/README.md
-[kel_guide_install]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/02_installing_and_running.md
-[kel_guide_partial]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/23_big_numbers.md
-[kel_guide_ifc]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/24_information_flow_labels.md
-[kel_guide_automation]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/AUTOMATION_SCRIPTING.md
-[kel_guide_security]: https://github.com/sgeos/keleusma/blob/v0.2.1/docs/guide/SECURITY_POLICY.md
+[kel_guide]: https://sgeos.github.io/keleusma/
+[kel_playground]: https://sgeos.github.io/keleusma/playground/
+[kel_guide_install]: https://sgeos.github.io/keleusma/02_installing_and_running.html
+[kel_guide_partial]: https://sgeos.github.io/keleusma/23_big_numbers.html
+[kel_guide_ifc]: https://sgeos.github.io/keleusma/24_information_flow_labels.html
+[kel_guide_automation]: https://sgeos.github.io/keleusma/AUTOMATION_SCRIPTING.html
+[kel_guide_security]: https://sgeos.github.io/keleusma/SECURITY_POLICY.html
 [related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
 [related_post_control_kernel]: {% post_url 2026-05-27-verifiable_control_kernel_in_keleusma %}

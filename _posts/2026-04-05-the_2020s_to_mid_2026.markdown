@@ -1726,7 +1726,7 @@ was constructed to establish.
 - [Related Post, The 2000s][related_post_a213]
 - [Related Post, The 2010s][related_post_a214]
 - [Related Post, Getting Started with Keleusma 0.2.0][related_post_keleusma_020]
-- [Related Post, Getting Started with Keleusma 0.2.1][related_post_keleusma_021]
+- [Related Post, Getting Started with Keleusma 0.2.2][related_post_keleusma_022]
 - [Related Post, Information-Flow Control, A Deep Dive with Keleusma][related_post_ifc_deep_dive]
 
 [paper_bauer_pretnar]: https://arxiv.org/abs/1203.1539
@@ -1745,5 +1745,5 @@ was constructed to establish.
 [related_post_a213]: {% post_url 2026-04-03-the_2000s %}
 [related_post_a214]: {% post_url 2026-04-04-the_2010s %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
-[related_post_keleusma_021]: {% post_url 2026-07-09-keleusma_0_2_1_getting_started %}
+[related_post_keleusma_022]: {% post_url 2026-07-10-keleusma_0_2_2_getting_started %}
 [related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}

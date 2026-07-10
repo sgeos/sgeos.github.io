@@ -626,7 +626,7 @@ at
 [A107][related_post_keleusma_011],
 [A110][related_post_keleusma_020],
 and
-[A205][related_post_keleusma_021]
+[A205][related_post_keleusma_022]
 walk the reader
 through
 one specific production language
@@ -779,7 +779,7 @@ before nineteen sixty.
 - [Related Post, The Stream Processor as Compiler and the Compiler as Stream Processor][related_post_compilers_streaming]
 - [Related Post, Getting Started with Keleusma 0.1.1][related_post_keleusma_011]
 - [Related Post, Getting Started with Keleusma 0.2.0][related_post_keleusma_020]
-- [Related Post, Getting Started with Keleusma 0.2.1][related_post_keleusma_021]
+- [Related Post, Getting Started with Keleusma 0.2.2][related_post_keleusma_022]
 - [Related Post, Information-Flow Control, A Deep Dive with Keleusma][related_post_ifc_deep_dive]
 - [Reference, Keleusma Guide, Information-Flow Labels][kel_ifc]
 
@@ -798,4 +798,4 @@ before nineteen sixty.
 [related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}
 [related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
-[related_post_keleusma_021]: {% post_url 2026-07-09-keleusma_0_2_1_getting_started %}
+[related_post_keleusma_022]: {% post_url 2026-07-10-keleusma_0_2_2_getting_started %}
