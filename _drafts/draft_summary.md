@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Keleusma's Self-Hosting Strategy (A216) — Draft
+
+**File**: `_drafts/keleusma_self_hosting_strategy.markdown`
+
+**Topic**: Public-facing summary of Keleusma's V0.3.0 self-hosting strategy, adapted from two internal documents (`docs/reference/INCREMENTAL_SELF_HOSTING.md` and `docs/roadmap/V0_3_0_SELF_HOSTING.md`). Covers the backward incremental migration method (Fowler strangler pattern run backward with the emit boundary retired first, a single moving adapter at the frontier, adapters as throwaway prototypes, a deferral ledger, the completion gate, decomposing large stages), the three-stage stream-processor pipeline architecture (lexer, parser, codegen each a Keleusma `loop` function matching Brinch Hansen's pipeline-of-processes model), the integrated single-pass Wirth-tradition alternative that the strategy documents but does not recommend, the bootstrap fixed-point procedure (Phase A cross-compile, Phase B self-compile, Phase C fixed point with kelc.0 through kelc.2 artifacts), three surface-language tensions with resolutions (recursion via explicit work-stacks, Hindley-Milner via per-function bounded inference, generics via lazy specialization tables), resolved design questions (R3.1 through R3.5, R5.3), open questions (cross-module monomorphization, diagnostic quality bound, V0.2 surface adequacy audit), prior art lineage (Brinch Hansen 1985, Wirth Compiler Construction 1996 and Project Oberon 1992/2013, Turbo Pascal 1983-1986, CakeML, Thompson Reflections on Trusting Trust 1984 CACM, Wheeler Diverse Double-Compiling 2009), lessons from the contemporary brief-lang partial self-hosting attempt, and nine success criteria for V0.3.0 completion. Explicit note that the C-family multi-pass tradition (GCC, Clang, PCC, lcc) is not relevant prior art. Cross-references A199 streaming compilers series conclusion, A204 self-hosted silicon compiler, A206 PL theory arc opener, A205 Keleusma 0.2.2 getting started.
+
+**Article Number**: A216
+**Completion**: 100%
+**Publication Sensibility**: High (public-facing summary of the strategy that the Keleusma corpus has been building toward across the compilers series, the HDL series' A204 silicon self-hosting article, and the V0.2.2 getting-started article's mention of the compiler subproject scaffold; establishes the V0.3.0 architectural target in a form readers outside the project can follow)
+**Status**: Draft in `_drafts/`. 1616 lines, mathjax false, zero display equations. Two ASCII diagrams (moving-seam picture and three-stage pipeline). Approximately fifteen inline code notations covering file paths, artifact names, function categories, host natives, and data-structure names. All numeric quantities in prose spelled out per corpus convention. Zero em-dashes, en-dashes, contractions, prose semicolons, or certification vocabulary. Four post_url cross-references, all resolve. Fifteen external URLs verified with curl (ACM 403 as expected per corpus URL-verification patterns). Internal Keleusma document URLs pinned to the main branch (both files exist there; INCREMENTAL_SELF_HOSTING.md was added post-v0.2.2 tag so v0.2.2 blob URLs would 404). Editorial date 2026-07-11 09:00 UTC. Categories `keleusma compilers self-hosting`.
+
 ### Developments in Programming Language Theory series (A206-A215) — Published
 
 **Files**:
