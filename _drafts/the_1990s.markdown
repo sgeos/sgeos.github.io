@@ -1,0 +1,1586 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 1990s"
+date:   2026-04-02 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A212 -->
+<script>console.log("A212");</script>
+
+The nineteen nineties
+took
+each research program
+that
+[the nineteen eighties][related_post_a211]
+had consolidated
+and produced
+a shipping product,
+a formal definition,
+or
+a mechanized system
+that
+subsequent decades
+would build on.
+The Definition of Standard ML
+appeared
+as
+a book
+in nineteen ninety.
+The Haskell language
+committee formed
+in
+[the previous decade][related_post_a211]
+delivered
+Haskell 1.0
+in
+April
+of the same year
+and
+consolidated the language
+in
+Haskell 98
+by
+the end of the decade.
+Objective Caml,
+built on
+the same French INRIA lineage
+that had begun
+as Caml
+in the nineteen eighties,
+first shipped
+in nineteen ninety-six.
+Monadic effects,
+which
+Eugenio Moggi's nineteen eighty-nine paper
+had introduced,
+reached
+practical use
+in Haskell
+through
+Philip Wadler
+and Simon Peyton Jones's papers
+across
+nineteen ninety-two
+and nineteen ninety-three.
+Refinement types,
+which Tim Freeman and Frank Pfenning
+formalized
+in nineteen ninety-one
+at Carnegie Mellon University,
+established
+the research program
+that
+production refinement-type systems
+of
+the two thousands
+would develop.
+Andrew Wright
+and Matthias Felleisen
+gave
+type soundness
+a mechanical proof technique
+in
+their nineteen ninety-four paper,
+which
+became
+the standard method
+for proving
+type systems correct.
+The Coq proof assistant
+took
+its modern form
+across the decade.
+Andrew Myers
+extended
+Denning's information-flow lattice
+to
+JFlow
+in his
+nineteen ninety-nine doctoral work.
+The International Conference
+on Functional Programming
+was founded
+in nineteen ninety-six.
+The second HOPL conference
+in
+Cambridge,
+Massachusetts,
+in nineteen ninety-three
+produced
+its proceedings.
+
+The decade
+also
+produced
+the industrial programming languages
+that most software
+of the following decades
+would be written in,
+namely
+Java,
+JavaScript,
+and Python.
+These languages
+were
+not
+substantially theoretical contributions,
+but their
+appearance
+in the same decade
+as
+the theoretical consolidations above
+changed
+the environment
+in which
+subsequent programming language research
+would land.
+
+## Standard ML Definition and Objective Caml
+
+Robin Milner,
+Robert Harper,
+and Mads Tofte
+completed
+the Definition of Standard ML
+in nineteen ninety.
+The book
+was
+published by
+the MIT Press.
+The Definition
+gave
+Standard ML
+a formal specification
+of its syntax,
+static semantics,
+and dynamic semantics
+that
+different implementers
+could
+target
+without diverging.
+The specification
+used
+operational semantics
+in the style
+that
+Gilles Kahn
+had introduced
+in the nineteen eighties
+and that
+Andrew Wright
+and Matthias Felleisen
+would formalize
+into
+a proof technique
+later in the decade.
+
+The Definition
+became
+the reference document
+for Standard ML
+through
+the following decade.
+A Commentary on Standard ML
+by
+the same three authors
+appeared
+in nineteen ninety-one
+from the MIT Press,
+providing
+the explanatory material
+that
+the Definition itself
+did not carry.
+The Definition of Standard ML, Revised
+appeared
+in nineteen ninety-seven,
+also from the MIT Press,
+correcting
+technical errors
+in
+the nineteen ninety edition
+and
+consolidating
+five years of
+implementation experience.
+
+Standard ML
+was
+not
+the only ML dialect
+of the decade.
+The French Institut National
+de Recherche
+en Informatique
+et en Automatique,
+called INRIA,
+had developed
+Caml
+across the nineteen eighties
+under
+Gérard Huet's Formel team.
+Xavier Leroy
+designed
+Caml Light
+in nineteen ninety
+and
+nineteen ninety-one
+as
+a bytecode-interpreted variant
+that
+ran
+on
+small desktop machines,
+which
+made
+the language
+usable
+in
+teaching contexts
+where
+the Standard ML implementations
+of the same period
+were too large.
+Damien Doligez
+implemented
+the sequential garbage collector.
+
+Leroy released
+Caml Special Light
+in
+nineteen ninety-five,
+which added
+a native-code compiler
+whose performance
+was
+comparable to
+C++
+on
+numerical benchmarks.
+Caml Special Light
+also
+introduced
+a module system
+inspired by
+the Standard ML module system
+of
+[the previous decade][related_post_a211].
+Didier Rémy
+and Jérôme Vouillon
+extended the language
+with
+an expressive type system
+for
+objects and classes,
+which was
+integrated into
+Caml Special Light
+to produce
+Objective Caml,
+first released
+in nineteen ninety-six.
+The language
+was renamed OCaml
+in
+two thousand eleven.
+The original Objective Caml
+carried
+the ML lineage
+through to
+the present-day OCaml,
+which
+remains
+one of
+the two dominant statically typed functional languages
+of
+industrial practice
+alongside Haskell.
+
+## Haskell Ships
+
+The Haskell committee
+that formed
+at
+the nineteen eighty-seven Functional Programming
+and Computer Architecture conference
+in Portland, Oregon,
+that
+[the previous article][related_post_a211]
+describes,
+completed
+its first design
+across
+nineteen eighty-eight
+and
+nineteen eighty-nine.
+The Haskell version 1.0 Report
+appeared
+on
+April first,
+nineteen ninety.
+The report
+was
+one hundred twenty-five pages
+and was edited
+by
+Paul Hudak
+and Philip Wadler.
+Simon Peyton Jones
+joined
+as co-editor
+for
+the Haskell version 1.1 Report
+in
+August
+of nineteen ninety-one
+and
+took on
+sole editorship
+of
+subsequent reports.
+
+The language
+went through
+several revisions
+across the decade,
+each of which
+extended
+the surface language
+with
+features
+that
+implementers
+and users
+had found necessary.
+Haskell 1.3
+introduced
+monadic input-output,
+constructor classes,
+and
+records.
+Haskell 1.4
+consolidated
+the Prelude library.
+The community
+converged
+on
+a stable specification
+at the end of the decade
+called
+Haskell 98,
+whose report
+was
+originally published
+in
+February
+of nineteen ninety-nine.
+The Haskell 98 specification
+was
+intended
+as
+a stable,
+minimal,
+portable version
+of the language
+that could serve
+as
+a teaching base
+and as
+a foundation
+for future extensions.
+It became
+the reference document
+for Haskell
+until
+Haskell 2010
+appeared
+in the twenty tens.
+
+The second HOPL conference,
+held
+in Cambridge,
+Massachusetts,
+in nineteen ninety-three,
+produced
+substantial retrospective papers
+on
+each of the major languages
+of
+the intervening two decades.
+The proceedings
+included
+papers
+on
+FORTRAN,
+LISP,
+Prolog,
+C,
+Pascal,
+Smalltalk,
+and others.
+The proceedings
+became
+the standard secondary reference
+for
+the history
+of
+those languages.
+
+## Monadic Effects Reach Practice
+
+Philip Wadler's
+nineteen ninety-two paper
+The Essence of Functional Programming,
+delivered at
+the nineteenth Symposium
+on Principles of Programming Languages,
+demonstrated
+that
+monads
+in
+Moggi's sense,
+which
+[the previous article][related_post_a211]
+introduces,
+could be
+used
+as
+a practical programming technique
+rather than
+only
+as
+a semantic device.
+Wadler's tutorial paper
+Monads for Functional Programming,
+delivered
+at
+the Marktoberdorf Summer School
+in
+nineteen ninety-two,
+became
+the standard reference
+for
+practical monadic programming.
+
+Simon Peyton Jones
+and Philip Wadler's
+nineteen ninety-three paper
+Imperative Functional Programming,
+delivered at
+the twentieth Symposium
+on Principles of Programming Languages,
+introduced
+the input-output monad
+that
+Haskell subsequently adopted.
+The paper
+established that
+a purely functional language
+could handle
+input,
+output,
+state,
+and other effects
+through
+the monadic apparatus
+without
+extending
+its type system
+and
+without compromising
+the language's
+referential-transparency guarantee.
+
+Haskell 1.3
+adopted
+monadic input-output
+in nineteen ninety-six.
+Monadic do-notation,
+which
+allowed
+a program
+to be written
+in
+an imperative-looking style
+that
+desugared
+to
+monadic bind operations,
+became
+standard
+in Haskell 98.
+The do-notation
+took
+Peyton Jones and Wadler's
+functional-style monadic construction
+and made it
+syntactically indistinguishable
+from
+an imperative program
+at
+the point of use.
+A block written
+`do x <- m; body`
+desugars to
+`m >>= (λx. body)`,
+where `>>=`
+is the monadic bind
+operation
+that
+[the previous article][related_post_a211]
+introduces.
+The desugaring
+substantially reduced
+the readability barrier
+to
+using monads
+in practice.
+
+The monadic apparatus
+extended
+substantially
+beyond
+Haskell.
+Scala's for-comprehensions,
+introduced
+in the two thousands,
+are
+monadic do-notation
+under
+a different name.
+Rust's
+Result and Option monads,
+and
+the question-mark operator
+that desugars
+to
+monadic bind,
+are
+downstream
+of the monadic tradition
+that
+the nineteen nineties Haskell work
+established.
+F-sharp's computation expressions
+are
+also
+a monadic do-notation
+mechanism.
+
+## Refinement Types Formalize
+
+Timothy Freeman
+and Frank Pfenning
+introduced
+refinement types
+in
+their nineteen ninety-one paper
+Refinement Types for ML,
+delivered at
+the Programming Language Design
+and Implementation conference
+in Toronto,
+Ontario,
+from
+June twenty-sixth
+through June twenty-eighth
+of nineteen ninety-one.
+Both authors
+were
+at
+the Carnegie Mellon University
+School of Computer Science.
+
+A refinement type
+is
+a type
+carrying a predicate
+that
+every value of the type
+must satisfy.
+For example,
+the type
+`{x : Word | x > 0}`
+denotes
+positive integers,
+namely
+the values `x`
+of type `Word`
+that
+satisfy
+the predicate `x > 0`.
+Refinement types
+extend
+the type system
+with
+a mechanism
+for
+expressing
+constraints
+that
+ordinary types
+cannot express.
+The Freeman-Pfenning system
+was designed
+to
+preserve
+the decidability
+of
+ML's type inference
+while
+allowing
+more errors
+to be caught
+at compile time.
+
+The Freeman-Pfenning system
+handled
+a subset of
+Standard ML.
+The refinements
+were
+sort constraints
+over
+inductive data types,
+which
+allowed
+the compiler
+to
+distinguish
+between
+different subsets
+of the same type
+by
+the refinement predicate.
+An example
+was
+distinguishing
+sorted lists
+from
+unsorted lists
+at
+the type level.
+The type system
+proved
+that
+functions
+that
+required
+sorted input
+would not be called
+with
+unsorted lists,
+without
+runtime checks.
+
+The Freeman-Pfenning program
+was
+substantially ahead of
+its practical adoption.
+Refinement types
+in
+the Freeman-Pfenning tradition
+would reach
+practical use
+in
+the two thousands
+through
+the Liquid Haskell system
+by Ranjit Jhala
+and colleagues.
+[The next article in this series][related_post_a213]
+develops
+the two-thousands adoption.
+Production adoption
+of refinement types,
+including
+in
+languages
+such as
+F-star
+that
+combine
+refinement types
+with
+dependent types,
+would occur
+in
+the twenty tens.
+[The article after that][related_post_a214]
+covers
+the twenty-tens adoption.
+
+## Type Soundness Made Practical
+
+Andrew Wright
+and Matthias Felleisen
+published
+A Syntactic Approach to Type Soundness
+in
+Information and Computation
+volume one hundred fifteen,
+issue one,
+in
+nineteen ninety-four.
+The paper
+gave
+a mechanical proof technique
+for
+type soundness
+that
+became
+the standard method
+for
+proving
+type systems correct.
+
+The technique
+involves
+proving
+two theorems
+about
+a language's
+operational semantics
+and
+its type system.
+The preservation theorem
+states
+that
+a well-typed term
+remains
+well-typed
+after
+one step
+of
+execution,
+written
+`if Γ ⊢ e : τ and e → e', then Γ ⊢ e' : τ`.
+The progress theorem
+states
+that
+a well-typed term
+is either
+in
+a terminal state
+or
+has
+a defined
+next step
+of execution,
+written
+`if ∅ ⊢ e : τ, then e is a value or e → e' for some e'`.
+Together
+the two theorems
+establish
+that
+a well-typed program
+does not
+get stuck,
+namely
+that
+it cannot
+reach
+a state
+where
+execution
+would need to continue
+but no rule applies.
+
+The technique
+depended on
+two enablers.
+The first
+was
+subject reduction
+theorems
+from combinatory logic,
+which
+Curry and Feys
+had developed
+in
+[the nineteen fifties and nineteen sixties][related_post_a207].
+The second
+was
+small-step
+operational semantics
+in
+the Plotkin structural style
+of
+the nineteen eighties,
+which had made
+the reduction relation
+formal
+enough
+to
+prove
+theorems about.
+The Wright-Felleisen paper
+adapted
+subject reduction
+to
+the Plotkin small-step form
+and demonstrated
+that
+the resulting proof
+scaled
+from
+polymorphic functional languages
+to
+imperative languages
+with
+references,
+exceptions,
+continuations,
+and similar features.
+
+The syntactic approach
+became
+the dominant method
+for
+type soundness proofs
+in
+subsequent decades.
+Modern textbook treatments
+of type systems,
+including
+[Benjamin Pierce's two thousand two book][related_post_a213]
+Types and Programming Languages,
+adopt
+the technique
+as
+the standard method.
+Every subsequent
+formalized type system
+that includes
+a soundness proof
+uses
+progress
+and preservation
+in
+the Wright-Felleisen sense.
+
+## Proof Assistants Become Practical
+
+The Coq proof assistant
+took
+its modern form
+across the nineteen nineties.
+Gérard Huet
+and Thierry Coquand
+had begun
+a first implementation
+of
+the Calculus of Constructions
+at INRIA
+in nineteen eighty-four.
+The first public release
+appeared
+in nineteen eighty-nine.
+The system
+was
+renamed Coq
+around the end of nineteen eighty-nine,
+and the Calculus of Inductive Constructions,
+which added
+inductive types
+to
+the Calculus of Constructions,
+was integrated
+in nineteen ninety-one.
+Christine Paulin-Mohring
+joined
+the project
+as
+a CNRS researcher
+at
+the LIP laboratory
+of
+the École Normale Supérieure de Lyon
+in nineteen ninety.
+The project
+was subsequently
+led jointly
+by Huet at INRIA
+and Paulin-Mohring at Lyon.
+
+Coq's development
+across the decade
+established it
+as
+the reference proof assistant
+for
+Martin-Löf-style dependent type theory.
+[The previous article][related_post_a210]
+covers
+the theoretical foundations
+of the type theory.
+Coq implements
+those foundations
+with
+tactic-based proof construction
+in
+the LCF tradition
+that
+[the same article][related_post_a210]
+also describes.
+The system
+became
+the vehicle
+for
+substantial mechanized-mathematics work
+across
+the following decades,
+including
+the Feit-Thompson theorem
+proof
+in Coq
+completed
+in
+twenty twelve
+by Georges Gonthier
+and colleagues.
+
+Other proof assistants
+of
+comparable maturity
+appeared
+in the same decade.
+Prototype Verification System,
+called PVS,
+was released
+by
+SRI International
+in nineteen ninety-two.
+The Isabelle system,
+which had begun
+in
+the late nineteen eighties
+as
+a generic proof-assistant framework
+by
+Lawrence Paulson
+at Cambridge,
+matured
+across the decade
+into
+its principal instantiation,
+Isabelle/HOL,
+which
+supported
+higher-order logic.
+The HOL system
+by
+Michael Gordon
+at Cambridge
+continued
+its development.
+The four systems
+together,
+namely
+Coq,
+PVS,
+Isabelle,
+and HOL,
+established
+that
+mechanized theorem proving
+was
+a practical discipline
+that
+subsequent decades
+would develop.
+
+## Information-Flow Control Reaches Practice
+
+Andrew Myers
+completed
+his doctoral work
+at
+the Massachusetts Institute of Technology
+in nineteen ninety-nine.
+His thesis system,
+JFlow,
+was
+an extension
+of Java
+that added
+statically checked
+information-flow annotations.
+The paper
+JFlow,
+Practical Mostly-Static Information Flow Control
+appeared
+at
+the twenty-sixth Symposium
+on Principles of Programming Languages
+in San Antonio,
+Texas,
+in January
+of nineteen ninety-nine.
+
+JFlow
+built on
+Denning's nineteen seventy-six lattice model
+that
+[the earlier article on the nineteen seventies][related_post_a210]
+introduces.
+It added
+three specific technical contributions.
+The decentralized label model
+allowed
+multiple principals
+to
+own
+distinct
+security policies
+that
+composed
+into
+a single lattice
+without
+requiring
+a central authority.
+Label polymorphism
+allowed
+a function
+to
+accept
+values
+of
+different security classes
+by
+abstracting
+over
+the label.
+Runtime label checking
+allowed
+the type system
+to
+defer
+some information-flow decisions
+to
+execution time
+when
+static checking
+was too restrictive.
+
+JFlow
+was
+the first
+practical demonstration
+that
+Denning's lattice model
+could be
+implemented
+as
+a source-language type discipline
+in
+an industrial-style language.
+Myers
+joined
+Cornell University
+as
+a faculty member
+following his doctoral work
+and
+continued
+the JFlow line
+as
+Jif,
+which
+became
+the maintained implementation.
+The nineteen ninety-nine POPL paper
+received
+the ACM POPL Most Influential Paper Award
+in
+two thousand nine.
+
+## The Founding of the International Conference on Functional Programming
+
+The first International Conference
+on Functional Programming
+was held
+in Philadelphia,
+Pennsylvania,
+from
+May twenty-fourth
+through May twenty-sixth
+of nineteen ninety-six.
+The conference
+was sponsored
+by
+the ACM Special Interest Group on Programming Languages
+in association with
+the International Federation for Information Processing
+Working Group 2.8
+on Functional Programming.
+
+ICFP
+replaced
+two prior biennial conferences,
+namely
+Functional Programming and Computer Architecture,
+called FPCA,
+and
+LISP and Functional Programming,
+called LFP.
+The consolidation
+into
+a single annual venue
+was
+a substantive editorial decision.
+It signaled
+that
+the functional programming community
+was
+large enough
+to
+support
+an annual conference
+of
+its own
+and
+that
+the community
+did not need
+to distinguish
+between
+its architecture-oriented
+and its language-oriented
+subcommunities.
+
+ICFP
+became
+the primary publication venue
+for
+functional programming research
+in
+the following decades.
+The conference
+publishes
+work
+on
+Haskell,
+Standard ML,
+OCaml,
+Scheme,
+and adjacent languages,
+as well as
+theoretical work
+on
+lambda calculi,
+type systems,
+and
+denotational semantics
+that
+does not have
+a natural home
+at
+[POPL][related_post_a210].
+Every article in
+subsequent parts of this series
+that names
+a specific functional-programming result
+after
+nineteen ninety-six
+draws on
+work
+that ICFP
+substantially published.
+
+## Industrial Languages of the Decade
+
+The nineteen nineties
+also
+produced
+three industrial programming languages
+that
+most software
+of the following decades
+would be written in.
+The three languages
+are
+not
+substantial theoretical contributions
+in
+the sense
+that
+the other developments
+covered in this article
+are,
+but
+they changed
+the environment
+in which
+subsequent programming language research
+landed.
+
+Java
+was released
+by
+Sun Microsystems
+in
+May
+of nineteen ninety-five.
+The language
+was
+designed by
+James Gosling
+and colleagues
+starting in
+nineteen ninety-one
+as
+part of
+an internal Sun project
+originally called Oak.
+Java
+carried
+Simula sixty-seven's object-oriented model
+that
+[the nineteen sixties][related_post_a208]
+introduced
+into
+a language
+whose
+runtime system
+included
+automatic garbage collection,
+bytecode-based portability,
+and
+a substantial standard library.
+Java
+was
+the first
+mainstream industrial language
+to
+combine
+these features
+into
+a single distribution.
+
+JavaScript
+was released
+by
+Netscape Communications
+in
+December
+of nineteen ninety-five
+as
+part of
+Netscape Navigator two point zero.
+The language
+was
+designed by
+Brendan Eich
+across
+a ten-day period
+in
+May
+of nineteen ninety-five.
+JavaScript
+combined
+LISP-style closures
+that
+[the nineteen sixties][related_post_a208]
+introduced
+with
+Java-style syntax
+in a way
+that
+its designers
+had not
+substantially reflected on
+before
+its release.
+The language
+would
+subsequently
+become
+the primary browser-side scripting language
+and,
+by
+the twenty tens,
+one of
+the most-used programming languages
+by
+any measure.
+
+Python
+was released
+by
+Guido van Rossum
+in
+February
+of nineteen ninety-one.
+The language
+had begun
+at
+the Centrum Wiskunde
+en Informatica
+in Amsterdam
+as
+a successor
+to
+the ABC language
+that
+van Rossum
+had worked on
+in
+the late nineteen eighties.
+Python
+combined
+LISP-style dynamic typing,
+Miranda-style off-side-rule syntax
+that
+[the previous article][related_post_a211]
+introduces,
+and
+Modula-style module structure
+that
+[the nineteen seventies][related_post_a209]
+introduces
+into
+a language
+that
+was
+substantially easier
+to teach
+than
+its industrial contemporaries.
+Python
+became
+the primary programming language
+for
+scientific computing
+and
+substantial portions of
+web development
+across
+the following decades.
+
+The three languages
+were
+not
+first movers
+on
+any specific technical dimension.
+They combined
+existing techniques
+into
+distributions
+whose combined feature sets
+matched
+practical demand
+in
+industrial contexts
+better
+than
+the specialized research languages
+of the same period
+could.
+The pattern
+would repeat
+in
+subsequent decades
+with
+languages
+including
+Ruby,
+C-sharp,
+Go,
+and Rust,
+each of which
+took
+existing techniques
+and combined them
+into
+a distribution
+that fit
+a specific practical demand.
+
+## What This Era Enables
+
+The nineteen nineties
+supplied
+eight things
+that
+the following decades
+consumed.
+
+First,
+Standard ML
+as
+a formally specified language
+with
+implementations
+that
+matched the specification.
+Second,
+OCaml
+as
+a working industrial-strength
+statically typed functional language.
+Third,
+Haskell
+as
+a stable community-consensus
+lazy functional language
+with
+Haskell 98
+as
+its reference document.
+Fourth,
+monadic effects
+as
+a practical programming technique
+through
+the input-output monad
+and
+do-notation.
+Fifth,
+refinement types
+as
+a formalized research program
+awaiting
+production adoption.
+Sixth,
+the syntactic type-soundness proof technique
+as
+the standard method
+for
+proving type systems correct.
+Seventh,
+Coq,
+PVS,
+Isabelle,
+and HOL
+as
+practical proof assistants.
+Eighth,
+Denning's information-flow lattice
+in
+practical language form
+through
+JFlow.
+
+The nineteen nineties also
+established
+the industrial-programming environment
+in which
+subsequent theoretical work
+would land,
+through
+Java,
+JavaScript,
+and Python.
+
+The next article,
+A213,
+covers
+the two thousands.
+
+## Conclusion
+
+The nineteen nineties
+consolidated
+each research program
+that
+the nineteen eighties
+had opened.
+Standard ML
+and OCaml
+gave
+the ML tradition
+its industrial forms.
+Haskell
+gave
+the lazy functional programming community
+its shared language.
+Monads
+became
+a practical programming technique.
+Refinement types
+formalized.
+Type soundness
+became
+a mechanical proof.
+Proof assistants
+became
+practical
+for
+substantial mathematical work.
+Information-flow control
+reached
+its first
+practical language form.
+ICFP
+consolidated
+the functional-programming publication venue.
+
+The decade also
+established
+Java,
+JavaScript,
+and Python
+as
+the industrial-programming environment
+in which
+subsequent theoretical work
+would land.
+The environment
+would
+condition
+the design decisions
+of
+subsequent research languages
+in ways that
+purely theoretical treatments
+could not.
+
+The next article,
+A213,
+covers
+the two thousands.
+
+## References
+
+- [Coq Proof Assistant, Early history][ref_coq_history]
+- [Freeman, Timothy S. and Pfenning, Frank, Refinement Types for ML, PLDI, 1991][paper_freeman_pfenning]
+- [Hudak, Paul, Hughes, John, Peyton Jones, Simon, and Wadler, Philip, A History of Haskell, Being Lazy with Class, HOPL-III, 2007][paper_haskell_history]
+- [Milner, Robin, Tofte, Mads, and Harper, Robert, The Definition of Standard ML, MIT Press, 1990][book_definition_sml]
+- [Milner, Robin, Tofte, Mads, Harper, Robert, and MacQueen, David, The Definition of Standard ML, Revised, MIT Press, 1997][book_definition_sml_revised]
+- [Myers, Andrew C., JFlow, Practical Mostly-Static Information Flow Control, POPL, 1999][paper_myers_jflow]
+- [Peyton Jones, Simon L. and Wadler, Philip, Imperative Functional Programming, POPL, 1993][paper_pj_wadler_imperative]
+- [Wadler, Philip, The Essence of Functional Programming, POPL, 1992][paper_wadler_essence]
+- [Wadler, Philip, Monads for Functional Programming, Marktoberdorf Summer School, 1992][paper_wadler_monads]
+- [Wright, Andrew K. and Felleisen, Matthias, A Syntactic Approach to Type Soundness, Information and Computation 115, 1994][paper_wright_felleisen]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+- [Related Post, The 1960s][related_post_a208]
+- [Related Post, The 1970s Part I][related_post_a209]
+- [Related Post, The 1970s Part II][related_post_a210]
+- [Related Post, The 1980s][related_post_a211]
+
+[book_definition_sml]: https://en.wikipedia.org/wiki/Standard_ML
+[book_definition_sml_revised]: https://en.wikipedia.org/wiki/Standard_ML
+[paper_freeman_pfenning]: https://dl.acm.org/doi/10.1145/113446.113468
+[paper_haskell_history]: https://dl.acm.org/doi/10.1145/1238844.1238856
+[paper_myers_jflow]: https://dl.acm.org/doi/10.1145/292540.292561
+[paper_pj_wadler_imperative]: https://dl.acm.org/doi/10.1145/158511.158524
+[paper_wadler_essence]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
+[paper_wadler_monads]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
+[paper_wright_felleisen]: https://www.sciencedirect.com/science/article/pii/S0890540184710935
+[ref_coq_history]: https://en.wikipedia.org/wiki/Coq_(software)
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
+[related_post_a208]: {% post_url 2026-03-29-the_1960s %}
+[related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[related_post_a210]: {% post_url 2026-03-31-the_1970s_part_ii %}
+[related_post_a211]: {% post_url 2026-04-01-the_1980s %}
+[related_post_a213]: {% post_url 2026-04-03-the_2000s %}
+[related_post_a214]: {% post_url 2026-04-04-the_2010s %}

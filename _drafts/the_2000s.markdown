@@ -1,0 +1,1674 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 2000s"
+date:   2026-04-03 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A213 -->
+<script>console.log("A213");</script>
+
+The two thousands
+were
+the decade
+in which
+several nineteen-nineties research programs
+crossed
+the boundary
+from
+academic technique
+to
+production-oriented tool.
+Refinement types,
+which
+[Tim Freeman and Frank Pfenning had formalized in the previous decade][related_post_a212],
+appeared in
+Patrick Rondon,
+Ming Kawaguchi,
+and Ranjit Jhala's
+liquid types system,
+which was
+the first refinement-type system
+whose designers
+targeted
+production-scale programs
+as
+a primary goal.
+Xavier Leroy
+and colleagues
+at
+the French Institut National
+de Recherche
+en Informatique
+et en Automatique
+delivered CompCert,
+the first
+mechanically verified optimizing compiler
+for a substantial fragment of C.
+The Coq proof assistant
+proved
+the Four Color Theorem
+in
+a formal proof
+by
+Georges Gonthier
+and Benjamin Werner.
+Ulf Norell
+at
+Chalmers University of Technology
+delivered
+Agda 2,
+the first proof assistant
+whose surface syntax
+made
+dependent-type programming
+accessible
+to
+users
+without
+extensive proof-theory training.
+Jeremy Siek
+and Walid Taha
+opened
+the gradual-typing research program
+that
+would
+subsequently
+inform
+the design of
+TypeScript,
+Python's type-hint system,
+and
+Ruby's type system.
+Benjamin Pierce
+published
+Types and Programming Languages
+in two thousand two,
+consolidating
+the type-systems literature
+into
+a single graduate textbook.
+The third HOPL conference,
+held in San Diego
+in two thousand seven,
+produced
+retrospective papers
+on
+the major languages
+of the intervening two decades.
+
+The decade
+also
+saw
+the ascendancy
+of the industrial dynamic languages
+that
+[the previous article][related_post_a212]
+introduces,
+namely
+JavaScript,
+Python,
+and Ruby.
+The three languages
+were
+not
+theoretical contributions
+in the sense that
+the developments above
+are,
+but
+their industrial dominance
+set
+the environment
+in which
+subsequent theoretical work
+on
+type systems
+and
+verification
+would land.
+
+## Pierce's Types and Programming Languages
+
+Benjamin C. Pierce
+published
+Types and Programming Languages
+through
+the MIT Press
+in
+January
+of two thousand two.
+The book
+consolidated
+the type-systems literature
+that
+[the previous article][related_post_a212]
+covers
+into
+a single graduate textbook
+whose treatment
+became
+the reference
+for
+the following two decades.
+
+The book's approach
+was
+substantially indebted
+to
+[Wright and Felleisen's nineteen ninety-four syntactic type soundness paper][related_post_a212].
+Every type system
+that
+the book presented
+was accompanied by
+a formal statement
+of the language's syntax
+and operational semantics,
+a proof of type soundness
+in
+the progress-and-preservation form,
+and
+worked examples
+that
+demonstrated
+the type system's expressive power
+and its limits.
+The book's exercises
+required
+the reader
+to
+work through
+the proofs
+directly,
+which
+made it
+practical
+as
+a teaching text
+rather than only
+a reference.
+
+The book covered
+untyped lambda calculus,
+simply typed lambda calculus,
+subtyping,
+recursive types,
+polymorphism
+including System F,
+higher-order polymorphism
+through
+System F omega,
+type reconstruction
+including Hindley-Milner,
+existential types,
+type operators and kinding,
+and
+higher-order subtyping
+including F sub.
+The chapters on
+each topic
+were substantially self-contained,
+which
+allowed
+the book to be used
+selectively
+in courses
+whose scope
+did not require
+the full sweep.
+
+A companion volume,
+Advanced Topics in Types and Programming Languages,
+edited by Pierce
+and published
+in
+two thousand five,
+extended the treatment
+to
+dependent types,
+type theory
+for practical programming,
+substructural type systems including linear types,
+and
+several specialized applications.
+The two volumes together
+became
+the standard graduate curriculum
+for
+type systems
+in
+the following decade.
+
+Pierce
+also
+began
+the Software Foundations project,
+a Coq-based curriculum
+for
+programming language theory,
+whose first materials
+were developed
+around two thousand seven
+at the University of Pennsylvania
+and
+whose successor volumes
+would extend
+across
+the twenty tens.
+Software Foundations
+took
+Types and Programming Languages
+one step further
+by
+mechanizing
+every theorem
+in
+the Coq proof assistant
+and requiring
+the reader
+to
+complete the proofs
+interactively.
+The project
+became
+the standard vehicle
+for
+teaching mechanized programming language theory
+in
+the following decades.
+
+## Proof Assistants Mature
+
+The Coq proof assistant,
+whose development
+[the previous article][related_post_a212]
+covers
+into
+its stabilized late-nineteen-nineties form,
+saw
+substantial mathematical work
+across
+the two thousands.
+The Four Color Theorem,
+which
+had first been proved
+by
+Kenneth Appel
+and Wolfgang Haken
+in
+nineteen seventy-six
+using
+substantial computer assistance
+that
+readers could not verify
+by hand,
+was proved
+formally
+in Coq
+by
+Georges Gonthier
+and Benjamin Werner
+in
+two thousand five.
+Gonthier's paper
+A Computer-Checked Proof
+of the Four Colour Theorem
+described
+the mechanization,
+which
+verified
+the reducibility
+of
+approximately
+six hundred configurations
+that
+the classical proof
+had needed.
+
+The Coq proof
+was
+substantially larger
+in scope
+than
+any prior mechanized-mathematics work.
+It required
+Gonthier
+to
+develop
+a specific proof-engineering discipline
+called
+small-scale reflection,
+which
+became known
+as
+SSReflect,
+that
+allowed
+proof scripts
+to
+manipulate
+propositions
+by
+computation
+rather than by
+explicit case analysis.
+The SSReflect discipline
+made
+subsequent large-scale Coq developments
+practical.
+Gonthier
+went on
+to lead
+the Mathematical Components library,
+which
+formalized
+substantial portions
+of
+abstract algebra
+in Coq
+across
+the two thousands
+and twenty tens,
+culminating in
+the two thousand twelve
+formalization
+of
+the Feit-Thompson theorem
+that
+[the previous article][related_post_a212]
+mentions.
+
+Ulf Norell
+at
+Chalmers University of Technology
+in Gothenburg
+delivered
+Agda 2
+in his
+September two thousand seven
+doctoral dissertation
+Towards a Practical Programming Language
+Based on Dependent Type Theory.
+Agda 2
+succeeded
+an earlier Agda
+that
+Catarina Coquand
+and colleagues
+had developed
+at Chalmers
+in
+the mid nineteen nineties,
+but the new implementation
+was substantially different
+in
+design
+and
+was intended
+to
+make
+dependent-type programming
+accessible
+to
+practical programmers.
+
+Agda 2's design
+emphasized
+the programming aspects
+of
+Martin-Löf's type theory
+over
+its proof aspects.
+The surface syntax
+was
+substantially closer to
+Haskell
+than to
+the tactic-based Coq syntax,
+which
+made
+Agda 2 programs
+readable
+as ordinary functional programs
+whose types
+were substantially more expressive
+than
+those of ordinary functional programs.
+The system
+became
+the primary teaching vehicle
+for
+dependently typed programming
+in
+the following decade,
+alongside
+Coq's continued use
+for
+mechanized mathematics.
+
+The Isabelle system,
+which
+[the previous article][related_post_a212]
+covers,
+also continued
+to develop
+across the decade.
+Isabelle/HOL
+became
+the primary vehicle
+for
+mechanized verification
+of
+security protocols
+and
+operating system kernels.
+The seL4 microkernel
+verification effort,
+led by
+Gerwin Klein
+at
+the National ICT Australia,
+began
+in two thousand four
+and
+would produce
+its first
+mechanically verified
+implementation
+in two thousand nine.
+
+## CompCert and Verified Compilation
+
+Xavier Leroy
+at
+the French Institut National
+de Recherche
+en Informatique
+et en Automatique
+began
+the CompCert project
+in
+two thousand five.
+CompCert
+was
+intended
+as
+a mechanically verified
+optimizing compiler
+for
+a substantial fragment
+of the C programming language,
+called Clight,
+that
+[the earlier article on the nineteen seventies][related_post_a209]
+introduces
+as
+Dennis Ritchie's work.
+The project
+was funded by
+the French national research agencies
+Agence nationale de la recherche
+and
+INRIA.
+
+Leroy's approach
+was
+to
+program
+the compiler
+in Coq
+using
+the Gallina functional programming language
+that
+Coq
+provides,
+and to
+prove
+the compiler's correctness
+in Coq
+in
+the same development.
+The correctness statement
+was
+that
+the compiler's output
+had
+the same observational behavior
+as
+the compiler's input
+under
+the C language semantics.
+The proof
+covered
+every optimization pass
+that
+the compiler performed,
+including
+common subexpression elimination,
+constant propagation,
+register allocation,
+and instruction scheduling.
+
+CompCert's two thousand six POPL paper
+delivered
+the initial technical announcement.
+The two thousand nine
+Journal of Automated Reasoning
+paper
+A Formally Verified Compiler Back-End
+provided
+the full technical treatment.
+The project
+received
+the two thousand twenty-one
+ACM Software System Award
+for
+being
+the first practically useful
+optimizing compiler
+targeting
+multiple commercial architectures
+whose correctness
+was
+mechanically verified.
+
+CompCert
+was
+substantially
+the first demonstration
+that
+mechanical verification
+of
+production-scale software
+was
+practical.
+Subsequent projects
+including
+the CakeML verified ML compiler
+and
+the seL4 microkernel
+followed
+the CompCert methodology
+of
+writing the artifact
+in
+a proof assistant's programming language
+and
+proving correctness
+in
+the same development.
+The methodology
+became
+the standard technique
+for
+verified-software engineering
+in
+the following decade.
+
+## Refinement Types Reach the Production Track
+
+Patrick Rondon,
+Ming Kawaguchi,
+and Ranjit Jhala
+at
+the University of California, San Diego
+introduced
+liquid types
+in
+their two thousand eight paper
+Liquid Types,
+delivered at
+the Programming Language Design and Implementation conference,
+pages one hundred fifty-nine
+through
+one hundred sixty-nine.
+The system
+extended
+[the Freeman-Pfenning refinement-type program][related_post_a212]
+with
+two specific technical contributions
+that made
+practical adoption
+substantially easier
+than
+prior refinement-type systems
+had allowed.
+
+The first contribution
+was
+predicate abstraction
+for
+refinement inference.
+Liquid types
+introduced
+a fixed language
+of predicates,
+substantially simpler
+than
+the full first-order logic
+that
+prior refinement-type systems
+had accepted
+as refinements,
+that
+consisted of
+comparisons
+between
+program variables
+and
+arithmetic expressions.
+A representative liquid type
+is
+`{v : Int | 0 <= v && v < n}`,
+which
+denotes
+integers `v`
+that are
+non-negative
+and strictly less than
+another program variable `n`.
+The example
+is
+the classic array-index refinement
+that
+allows
+a static
+array-bounds check
+to eliminate
+the corresponding runtime bounds check.
+The restriction
+made
+refinement inference decidable,
+which
+allowed the compiler
+to
+infer refinements
+automatically
+rather than
+requiring
+the programmer
+to
+annotate every function
+with
+its refinement.
+The trade-off
+that liquid types accepted
+was
+that
+some
+refinement predicates
+that
+prior systems
+could express
+were
+no longer expressible.
+The predicate language
+was
+chosen
+to cover
+the substantial majority
+of
+practical refinement use cases.
+
+The second contribution
+was
+integration
+with
+external solvers
+in
+the satisfiability-modulo-theories tradition,
+often abbreviated SMT.
+Liquid types
+generated
+verification conditions
+from
+the refinement inference
+and
+discharged them
+using
+an external SMT solver.
+The integration
+allowed
+the compiler
+to
+handle
+substantial arithmetic reasoning
+without
+implementing
+the arithmetic reasoner
+directly.
+The approach
+became
+standard
+in
+subsequent
+refinement-type systems
+and
+in
+production verification tools
+generally.
+
+The two thousand eight system
+targeted
+OCaml.
+Subsequent work
+by
+the same research group
+would
+extend
+the approach
+to Haskell
+in
+the two thousand fourteen
+Liquid Haskell system,
+which
+[the next article in this series][related_post_a214]
+develops.
+Liquid Haskell
+became
+the first
+production-oriented
+refinement-type system
+whose users
+were
+substantially outside
+the original research group.
+
+## Gradual Typing as an Intellectual Project
+
+Jeremy Siek
+and Walid Taha
+introduced
+gradual typing
+in their
+two thousand six paper
+Gradual Typing for Functional Languages,
+delivered at
+the Scheme and Functional Programming Workshop,
+pages eighty-one
+through ninety-two.
+Gradual typing
+was
+a discipline
+for combining
+static and dynamic type checking
+in
+a single language
+that
+allowed
+the programmer
+to
+selectively
+annotate
+parts of a program
+with
+static types
+while
+leaving other parts
+dynamically typed.
+
+The gradual-typing approach
+distinguished
+a special type
+called
+the dynamic type,
+written
+`?` or `Dyn`,
+that
+represented
+values whose type
+was
+not known
+statically.
+A function
+whose parameter
+had
+type `?`
+could be called
+with
+values of any type.
+A function
+whose parameter
+had
+type `Int`
+required
+its callers
+to
+supply
+integer values,
+but a caller
+whose value
+had
+type `?`
+could
+supply the value
+after
+a runtime type check.
+The type system
+inserted
+the runtime type checks
+at
+the boundary
+between
+statically typed
+and dynamically typed
+code.
+The compatibility rule
+was
+formalized
+as
+a consistency relation
+`T1 ~ T2`
+between two types,
+under which
+`? ~ T`
+and
+`T ~ ?`
+hold
+for every type `T`,
+and
+identical types
+are consistent
+with themselves.
+The consistency relation
+replaced
+the type-equality check
+of
+a fully statically typed language
+with
+a check that permitted
+the dynamic type
+to
+match anything.
+
+Gradual typing
+was
+substantially
+an intellectual response
+to
+the ascendancy
+of dynamic languages
+that
+the same decade
+saw.
+The intellectual project
+established
+that
+static and dynamic type checking
+were
+not
+mutually exclusive
+approaches,
+and that
+a language
+could
+support both
+in
+a principled way
+that
+preserved
+the guarantees
+of
+each.
+
+The gradual-typing research program
+would
+develop
+substantially
+across
+the following decade.
+Typed Scheme,
+which
+became
+Typed Racket
+after
+the Scheme community
+adopted the Racket name
+in
+two thousand ten,
+was
+the first
+production-scale gradually typed language.
+TypeScript,
+which Microsoft released
+in
+two thousand twelve,
+brought
+gradual typing
+to
+JavaScript.
+Python's
+type-hint system,
+introduced
+in
+Python 3.5
+in
+two thousand fifteen,
+brought
+gradual typing
+to Python.
+Ruby's
+RBS
+type signatures
+and
+Sorbet
+type checker,
+released
+in the twenty tens,
+brought
+gradual typing
+to Ruby.
+[The next article in this series][related_post_a214]
+covers
+these developments.
+
+## HOPL III in San Diego
+
+The third History of Programming Languages conference
+was held
+in San Diego,
+California,
+from
+June ninth
+through June tenth
+of
+two thousand seven.
+The conference
+followed
+the standard HOPL format
+that
+[HOPL I in nineteen seventy-eight][related_post_a207]
+had established
+and
+[HOPL II in nineteen ninety-three][related_post_a212]
+had continued,
+namely
+retrospective papers
+by
+the designers
+of
+significant programming languages
+of
+the intervening period.
+
+HOPL III
+produced
+substantial retrospectives
+on
+several languages
+of
+the nineteen eighties and nineteen nineties
+that
+this series
+also covers,
+including
+AppleScript,
+BETA,
+C++,
+Emerald,
+Erlang,
+Haskell,
+High Performance FORTRAN,
+Icon,
+Lua,
+Modula-2 and Oberon,
+Self,
+Statecharts,
+and ZPL.
+The Haskell retrospective,
+A History of Haskell,
+Being Lazy with Class,
+by
+Paul Hudak,
+John Hughes,
+Simon Peyton Jones,
+and Philip Wadler,
+became
+the standard secondary reference
+for
+Haskell's history
+that
+this series
+has drawn on.
+
+The conference
+continued
+the pattern
+that
+HOPL I and HOPL II
+had established.
+Each retrospective paper
+was
+substantially
+a design memoir
+written by
+the language's designer
+or design team,
+with
+technical detail
+about
+the design decisions
+that
+had been made
+and
+the reasons
+that they had been made.
+The proceedings
+became
+the primary source
+for
+the design history
+of
+the languages covered,
+supplementing
+the design documents
+of
+the languages themselves.
+
+## New Languages of the Decade
+
+Three new statically typed programming languages
+of
+the decade
+would
+influence
+subsequent programming language design
+in
+substantive ways.
+
+Martin Odersky
+at
+the École Polytechnique Fédérale de Lausanne
+in Lausanne, Switzerland,
+began the design
+of
+Scala
+in
+two thousand one.
+Odersky
+had previously
+worked on
+Generic Java
+and
+the javac compiler
+at Sun Microsystems.
+Scala
+was
+intended
+as
+a language
+that combined
+the strengths
+of
+object-oriented programming
+that
+[the article on the nineteen eighties][related_post_a211]
+covers
+and
+functional programming
+that
+[the article on the nineteen nineties][related_post_a212]
+covers,
+while running
+on
+the Java Virtual Machine
+that
+Java made available.
+An internal release
+appeared
+in
+late two thousand three,
+and
+a public release
+followed
+in
+early two thousand four.
+Scala 2.0
+appeared in
+March
+of two thousand six.
+Odersky
+published
+Programming in Scala
+through
+Artima Press
+in
+two thousand eight,
+which
+became
+the standard reference document
+for
+the language.
+
+F sharp
+was developed
+at Microsoft Research Cambridge
+by Don Syme
+and colleagues
+across the decade.
+The language
+was
+substantially
+an OCaml derivative
+targeting
+the Microsoft dot-NET runtime,
+with
+extensions
+for
+asynchronous programming,
+computation expressions
+that
+provide
+a monadic do-notation form,
+and
+type providers
+that
+allow
+external data schemas
+to be
+imported
+as type definitions.
+F sharp
+became
+part of
+the official
+Microsoft Visual Studio distribution
+in
+two thousand ten,
+which
+made it
+one of
+the first
+statically typed functional languages
+to
+receive
+first-party support
+from
+a major operating-system vendor.
+
+Rich Hickey
+released Clojure
+in
+two thousand seven.
+Clojure
+was
+a Lisp dialect
+targeting
+the Java Virtual Machine,
+extending
+the LISP tradition
+that
+[the article on the nineteen sixties][related_post_a208]
+covers
+with
+several
+concurrency-oriented features
+including
+software transactional memory,
+persistent immutable data structures,
+and
+core.async
+channels.
+The persistent data structures
+were
+substantially indebted
+to
+Phil Bagwell's
+two thousand one paper
+on
+hash array mapped tries,
+which Hickey adapted
+into
+the Clojure vector
+and hash-map
+implementations.
+Clojure
+became
+a substantial industrial programming language
+across
+the following decade,
+particularly
+in
+financial-technology
+and
+data-processing contexts.
+
+## The Ascendancy of Dynamic Languages
+
+The two thousands
+saw
+the industrial ascendancy
+of
+three dynamic languages
+that
+[the previous article][related_post_a212]
+introduces,
+namely
+Python,
+Ruby,
+and JavaScript.
+The three languages
+became
+the primary tools
+for
+substantial industrial software
+across
+the decade,
+which
+changed
+the environment
+in which
+subsequent programming language research
+would land.
+
+Ruby
+had begun
+in nineteen ninety-five
+by
+Yukihiro Matsumoto
+in Japan,
+but its
+industrial adoption
+began
+substantially
+with
+the two thousand four
+release
+of
+Ruby on Rails
+by
+David Heinemeier Hansson,
+which
+established
+Ruby
+as
+a primary web-application development language.
+Ruby on Rails
+introduced
+what became known
+as
+the convention-over-configuration
+programming style,
+which
+would influence
+subsequent web frameworks
+across
+languages.
+
+Python
+saw
+its
+industrial ascendancy
+begin
+with
+the release
+of
+NumPy
+by
+Travis Oliphant
+and colleagues
+in
+two thousand six,
+which
+consolidated
+the earlier Numeric
+and numarray
+scientific-computing libraries
+into
+a single implementation.
+NumPy
+provided
+efficient
+n-dimensional array operations
+that made
+Python
+competitive with
+FORTRAN and C
+for
+numerical work,
+which
+established
+Python
+as
+the primary programming language
+for
+scientific computing.
+
+JavaScript
+saw
+its
+industrial ascendancy
+begin
+with
+the release
+of
+the V8 JavaScript engine
+by Google
+in
+two thousand eight
+alongside
+the Chrome browser.
+V8
+made
+JavaScript execution
+substantially faster
+than
+prior implementations,
+which
+enabled
+substantial web applications
+to be
+written
+primarily in JavaScript
+running in
+the browser.
+The Node.js runtime,
+released
+in
+two thousand nine
+by
+Ryan Dahl,
+extended
+V8
+into
+a server-side runtime
+that
+made JavaScript
+usable
+as
+a general-purpose programming language
+outside
+the browser.
+
+The three languages
+together
+became
+the industrial substrate
+of the decade.
+The environment
+they created,
+in which
+substantial industrial software
+was written
+in
+dynamically typed languages,
+established
+the practical motivation
+for
+the gradual-typing research program
+that
+Siek and Taha
+had opened.
+
+## Property-Based Testing
+
+Koen Claessen
+and John Hughes
+at
+Chalmers University of Technology
+introduced
+QuickCheck
+in
+their two thousand paper
+QuickCheck,
+A Lightweight Tool
+for
+Random Testing
+of Haskell Programs,
+delivered at
+the ACM SIGPLAN International Conference
+on Functional Programming.
+QuickCheck
+was
+a Haskell library
+that
+provided
+what became known
+as
+property-based testing,
+namely
+a testing methodology
+in which
+the programmer
+specifies
+properties
+that
+the program
+under test
+should satisfy
+and
+the testing framework
+generates
+random test inputs
+to
+attempt to falsify
+the properties.
+
+QuickCheck
+was
+substantially
+an application
+of
+Wadler's monadic programming
+that
+[the previous article][related_post_a212]
+covers.
+The library
+used
+Haskell's type-class mechanism
+to
+associate
+random-value generators
+with
+each type
+and
+Haskell's monadic apparatus
+to
+compose
+generators
+for
+composite types
+from
+generators
+for their components.
+The composition mechanism
+made
+QuickCheck
+substantially easier
+to use
+than
+prior random-testing tools
+had been.
+
+The property-based-testing methodology
+spread
+substantially
+across languages
+in
+the following decade.
+QuickCheck
+implementations
+appeared for
+OCaml,
+Scala,
+Python,
+Ruby,
+and JavaScript.
+The Haskell community
+extended
+QuickCheck
+into
+QuickSpec,
+which
+inferred
+properties
+by
+random generation
+rather than
+requiring
+the programmer
+to
+supply them.
+Property-based testing
+became
+a standard technique
+in
+the verification-adjacent
+tooling
+of
+statically typed functional programming languages.
+
+## What This Era Enables
+
+The two thousands
+supplied
+eight things
+that
+the following decades
+consumed.
+
+First,
+Types and Programming Languages
+as
+the standard graduate-level type-systems reference.
+Second,
+Software Foundations
+as
+the standard vehicle
+for
+mechanized programming language theory instruction.
+Third,
+mechanically verified compilation
+through
+CompCert,
+which
+would
+influence
+CakeML,
+seL4,
+and
+subsequent verified-software projects.
+Fourth,
+practical dependent-type programming
+through
+Agda 2.
+Fifth,
+liquid types
+as
+the technical foundation
+for
+production refinement-type systems.
+Sixth,
+gradual typing
+as
+the intellectual foundation
+for
+TypeScript,
+Python type hints,
+and Ruby type systems.
+Seventh,
+Scala,
+F sharp,
+and Clojure
+as
+statically typed languages
+combining
+functional
+and object-oriented
+programming
+on
+production runtimes.
+Eighth,
+property-based testing
+as
+a practical verification technique
+across languages.
+
+The next article,
+A214,
+covers
+the twenty tens.
+
+## Conclusion
+
+The two thousands
+consolidated
+each research program
+that
+the nineteen nineties
+had opened
+into
+a production-oriented tool
+or
+a mature intellectual framework.
+Refinement types
+crossed
+into
+the production track.
+Mechanical verification of compilers
+became
+a practical technique.
+Proof assistants
+proved
+substantial mathematical theorems.
+Type theory
+received
+its consolidation textbook.
+Gradual typing
+opened
+as
+an intellectual response
+to
+the industrial ascendancy
+of
+dynamic languages.
+The following decade
+would
+take
+each of these
+into
+practical language design.
+
+The next article,
+A214,
+covers
+the twenty tens.
+
+## References
+
+- [Claessen, Koen and Hughes, John, QuickCheck, A Lightweight Tool for Random Testing of Haskell Programs, ICFP, 2000][paper_claessen_hughes]
+- [Gonthier, Georges, A Computer-Checked Proof of the Four Colour Theorem, Microsoft Research Technical Report, 2005][paper_gonthier_four_colour]
+- [Leroy, Xavier, CompCert Back-End Verification, POPL, 2006][paper_leroy_compcert_popl]
+- [Leroy, Xavier, A Formally Verified Compiler Back-End, Journal of Automated Reasoning 43, 2009][paper_leroy_compcert_jar]
+- [Norell, Ulf, Towards a Practical Programming Language Based on Dependent Type Theory, PhD Thesis, Chalmers University of Technology, 2007][thesis_norell]
+- [Pierce, Benjamin C., Types and Programming Languages, MIT Press, 2002][book_pierce_tpl]
+- [Pierce, Benjamin C. (editor), Advanced Topics in Types and Programming Languages, MIT Press, 2005][book_pierce_atpl]
+- [Rondon, Patrick, Kawaguchi, Ming, and Jhala, Ranjit, Liquid Types, PLDI, 2008][paper_rondon_liquid]
+- [Siek, Jeremy G. and Taha, Walid, Gradual Typing for Functional Languages, Scheme and Functional Programming Workshop, 2006][paper_siek_taha_gradual]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+- [Related Post, The 1960s][related_post_a208]
+- [Related Post, The 1970s Part I][related_post_a209]
+- [Related Post, The 1970s Part II][related_post_a210]
+- [Related Post, The 1980s][related_post_a211]
+- [Related Post, The 1990s][related_post_a212]
+
+[book_pierce_tpl]: https://mitpress.mit.edu/9780262162098/types-and-programming-languages/
+[book_pierce_atpl]: https://mitpress.mit.edu/9780262162289/advanced-topics-in-types-and-programming-languages/
+[paper_claessen_hughes]: https://dl.acm.org/doi/10.1145/351240.351266
+[paper_gonthier_four_colour]: https://www.ams.org/notices/200811/tx081101382p.pdf
+[paper_leroy_compcert_popl]: https://dl.acm.org/doi/10.1145/1111037.1111042
+[paper_leroy_compcert_jar]: https://link.springer.com/article/10.1007/s10817-009-9155-4
+[paper_rondon_liquid]: https://dl.acm.org/doi/10.1145/1375581.1375602
+[paper_siek_taha_gradual]: http://scheme2006.cs.uchicago.edu/13-siek.pdf
+[thesis_norell]: https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
+[related_post_a208]: {% post_url 2026-03-29-the_1960s %}
+[related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[related_post_a210]: {% post_url 2026-03-31-the_1970s_part_ii %}
+[related_post_a211]: {% post_url 2026-04-01-the_1980s %}
+[related_post_a212]: {% post_url 2026-04-02-the_1990s %}
+[related_post_a214]: {% post_url 2026-04-04-the_2010s %}

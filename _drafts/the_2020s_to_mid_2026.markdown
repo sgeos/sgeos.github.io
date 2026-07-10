@@ -1,0 +1,1749 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 2020s to Mid-2026"
+date:   2026-04-05 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A215 -->
+<script>console.log("A215");</script>
+
+The twenty twenties
+to
+the present
+close
+the ten-article historical arc
+that
+[the opener][related_post_a206]
+began.
+The decade
+so far
+has consolidated
+the verification-oriented type features
+that
+[the twenty tens][related_post_a214]
+productionized
+into
+mature programming languages
+and toolchains
+that
+substantial industrial software
+runs on.
+The fourth History of Programming Languages conference,
+originally scheduled for London
+in June
+of two thousand twenty
+and finally held
+online
+in June
+of two thousand twenty-one,
+produced
+retrospective papers
+on
+languages
+that had achieved
+wide adoption
+by
+two thousand eleven,
+which
+consolidated
+substantial portions
+of
+[the twenty tens][related_post_a214]
+programming-language history.
+Lean 4,
+released
+at the beginning of two thousand twenty-one
+by
+Leonardo de Moura
+and Sebastian Ullrich,
+delivered
+a proof assistant
+that
+was
+also
+a practical programming language.
+The Coq proof assistant
+was
+renamed
+to
+the Rocq Prover
+in
+March
+of two thousand twenty-five.
+OCaml 5 point zero,
+released
+on
+December sixteenth
+of two thousand twenty-two,
+brought
+effect handlers
+into
+the mainline OCaml distribution
+after
+approximately eight years
+of
+Multicore OCaml development.
+The CompCert verified compiler
+and
+the seL4 verified microkernel,
+both of which
+[the previous articles][related_post_a213]
+introduce,
+continued
+their production adoption
+into
+increasingly sensitive contexts.
+
+The decade
+also
+saw
+the practical adoption
+of
+verification-oriented programming languages
+in
+embedded scripting contexts.
+Refinement types
+and
+information-flow labels,
+which
+[prior articles in this series][related_post_a213]
+introduce,
+appeared
+in
+production embedded scripting languages
+including Keleusma,
+a Total Functional Stream Processor
+of
+the author,
+whose
+information-flow labels
+and
+refinement types
+carry
+Dorothy Denning's
+nineteen seventy-six lattice model
+and
+Freeman-Pfenning refinement types
+into
+a definitive-bound embedded runtime.
+
+The article
+closes the historical arc
+at the present moment
+and
+frames
+the periodic current-event surveys
+that
+will follow
+this article
+across
+subsequent decades.
+The surveys
+will pick up
+new work
+from
+the four principal ACM SIGPLAN conferences,
+namely
+POPL,
+ICFP,
+PLDI,
+and OOPSLA,
+that
+[the opener article][related_post_a206]
+introduces,
+alongside
+substantial industrial announcements
+and
+open-source developments
+that
+did not
+originate
+in
+the academic literature.
+
+## HOPL IV, The Delayed Fourth Conference
+
+The fourth ACM SIGPLAN
+History of Programming Languages conference
+was
+originally
+scheduled for London
+in
+June
+of two thousand twenty.
+The conference
+was
+postponed
+due to
+the COVID-19 pandemic
+and finally
+took place
+online
+from June twentieth
+through June twenty-second
+of
+two thousand twenty-one,
+in association with
+the Programming Language Design and Implementation conference
+of the same year.
+The conference co-chairs
+were
+Guy L. Steele Jr.
+and
+Richard P. Gabriel.
+
+HOPL IV
+followed
+the format
+that
+HOPL I,
+HOPL II,
+and HOPL III
+had established,
+namely
+retrospective papers
+by
+the designers
+of
+significant programming languages,
+subject to
+substantial peer review
+comparable to
+the review process
+of
+major academic journals.
+The conference criterion
+required that
+each covered language
+be
+widely adopted
+by
+two thousand eleven,
+which
+placed
+the temporal boundary
+approximately
+at the transition
+between
+[the two thousands][related_post_a213]
+and
+[the twenty tens][related_post_a214].
+
+Papers
+in the proceedings
+included
+retrospectives on
+C plus plus,
+Clojure,
+D,
+Erlang,
+Fortress,
+Groovy,
+JavaScript,
+Logo,
+MATLAB,
+Objective-C,
+Prolog,
+Scala,
+Smalltalk,
+Standard ML,
+Verilog,
+and
+several others.
+The retrospectives
+became
+standard secondary references
+for
+the design histories
+of
+the languages covered,
+supplementing
+the design documents
+of
+the languages themselves.
+
+The virtual format
+of
+HOPL IV
+established
+that
+substantial peer-reviewed conferences
+could be held
+online
+without
+substantial loss
+of
+technical content,
+which
+would inform
+subsequent conference-planning decisions
+across the following years.
+The recorded presentations
+were placed
+in
+the ACM Digital Library
+alongside
+the papers,
+which
+made
+the historical material
+substantially more accessible
+than
+the physical proceedings alone
+had been.
+
+## Lean 4 and the Rise of Mechanized Mathematics
+
+Lean 4,
+released
+at
+the beginning of
+two thousand twenty-one,
+was
+a reimplementation
+of
+the Lean theorem prover
+in Lean itself.
+Leonardo de Moura
+at Microsoft Research
+and, later,
+at the Amazon Automated Reasoning Group,
+along with
+Sebastian Ullrich
+at
+the Karlsruhe Institute of Technology,
+led
+the redesign.
+The de Moura and Ullrich paper
+The Lean 4 Theorem Prover and Programming Language,
+delivered at
+the twenty-eighth International Conference
+on Automated Deduction
+in
+two thousand twenty-one,
+described
+the language.
+
+Lean 4
+was
+substantially
+a working programming language
+in addition to
+a proof assistant.
+The system
+compiled Lean programs
+to native code
+and provided
+a metaprogramming facility
+whose macros
+were
+written in Lean itself.
+The design
+allowed
+substantial libraries
+including
+Mathlib,
+the mathematical library,
+to be
+written entirely
+in Lean 4
+and
+verified
+by
+Lean 4's type checker
+without
+external tools.
+
+The Mathlib library
+became
+the primary vehicle
+for
+community-driven mechanized mathematics
+across
+the decade so far.
+The library
+was
+initially developed
+in Lean 3
+and
+subsequently
+ported to Lean 4
+as
+Mathlib4,
+which is
+regularly updated
+by
+contributors from
+around the world
+and
+which acts
+as
+a foundation
+for
+substantial mathematical formalization work.
+By
+the middle of
+two thousand twenty-six,
+Mathlib
+contained
+formalizations
+of
+substantial portions
+of
+undergraduate mathematics
+including
+group theory,
+ring theory,
+number theory,
+topology,
+category theory,
+and
+substantial fragments of
+functional analysis
+and
+algebraic geometry.
+
+Lean 4
+became
+substantially
+the primary vehicle
+for
+mechanized mathematics
+in
+the twenty twenties,
+alongside
+continued use of
+Rocq,
+Isabelle,
+and Agda,
+which
+[prior articles][related_post_a213]
+introduce.
+The community shift
+from
+Coq to Lean 4
+across
+the middle of the decade
+was substantial
+enough
+to
+prompt
+the Coq team
+to
+rename their system
+to Rocq
+in
+an effort
+to
+distinguish
+their brand
+from
+the Lean community's dominance
+in
+new work.
+
+## Rocq, Coq Renamed
+
+The Coq development team
+announced
+the rename
+of Coq
+to
+the Rocq Prover
+on
+October eleventh
+of
+two thousand twenty-three.
+The Rocq Prover
+version nine point zero,
+which
+completed the rename,
+was released on
+March twelfth
+of
+two thousand twenty-five.
+The new name
+refers
+to
+Inria Rocquencourt,
+where
+the system
+was first developed
+in
+the nineteen eighties,
+and
+preserves
+the mythical-bird reference
+that
+Coq carried
+by
+referring to
+the Roc bird
+of
+Persian mythology.
+
+The rename
+was
+substantially
+a marketing decision
+rather than
+a technical one.
+The Rocq Prover
+retained
+the same tactic-based proof construction,
+the same Calculus of Inductive Constructions
+type theory,
+and
+the same Gallina programming language
+that
+Coq had used.
+The rename
+signaled
+that
+the Coq development team
+intended
+to
+continue
+active development
+of
+the system
+as
+a distinct proof assistant
+alongside
+Lean 4,
+Isabelle,
+and Agda
+rather than
+concede
+the mechanized-mathematics field
+to
+Lean 4.
+
+The Rocq Prover
+continues
+to be
+substantially used
+for
+mathematical formalization
+including
+the ongoing Mathematical Components library
+that Georges Gonthier
+and colleagues
+began
+in
+[the two thousands][related_post_a213]
+and
+substantial software-verification work
+including
+CompCert,
+CertiKOS,
+and
+adjacent projects.
+
+## Effect Handlers Reach Mainline OCaml
+
+OCaml five point zero,
+released
+on
+December sixteenth
+of
+two thousand twenty-two,
+brought
+the Multicore OCaml work
+that
+[the twenty tens article][related_post_a214]
+introduces
+into
+the mainline OCaml distribution.
+The release
+added
+effect handlers
+as
+a first-class language feature
+and
+domains
+as
+a shared-memory parallelism primitive.
+The runtime rewrite
+that
+the release required
+took
+approximately eight years
+of
+development effort.
+
+The effect-handler discipline
+in OCaml 5
+provides
+the underlying mechanism
+for
+OCaml's concurrency support.
+A concurrent program
+in
+OCaml 5
+uses
+effect handlers
+to
+express
+its concurrency structure
+directly,
+which allows
+concurrent code
+to be written
+in
+the same style
+as
+non-concurrent code
+without
+requiring
+the program
+to be
+restructured
+into
+monadic bind chains
+that
+[the earlier article on the nineteen nineties][related_post_a212]
+describes.
+
+The OCaml 5 release
+established
+that
+effect handlers
+were
+practical
+for
+production mainstream programming languages
+rather than
+only
+for
+research languages.
+The subsequent
+five point one,
+five point two,
+and five point three releases
+extended
+the effect-handler support
+and
+consolidated
+the concurrent-programming
+libraries
+that OCaml 5 enables,
+including
+Eio
+by
+Thomas Leonard
+and colleagues
+at Tarides
+and
+Miou
+by
+the Robur cooperative.
+
+## Formal Verification Pipelines Reach Production
+
+The CompCert verified compiler,
+which
+[the two thousands article][related_post_a213]
+introduces,
+continued
+its production adoption
+across
+the twenty twenties.
+Airbus
+adopted CompCert
+for
+avionics software development
+in
+selected high-assurance embedded control contexts.
+Subsequent industrial verified compilers
+including
+CakeML,
+by Magnus Myreen
+and colleagues,
+extended
+the verified-compilation approach
+to
+Standard ML.
+CakeML
+was
+substantially the first
+verified compiler
+whose
+input language
+was
+a functional programming language
+in
+Standard ML's lineage.
+
+The seL4 verified microkernel,
+whose original verification
+[the previous article][related_post_a214]
+covers
+under
+Gerwin Klein's
+leadership,
+saw
+its production adoption
+extend
+across the decade
+so far.
+The seL4 Foundation,
+established
+in
+two thousand twenty
+by
+several industrial and academic sponsors,
+supported
+continued verification work
+and
+the extension
+of
+the verification results
+to
+additional platforms.
+The kernel
+became
+part of
+several safety-adjacent
+industrial deployments
+in
+aerospace,
+automotive,
+and adjacent contexts.
+
+The HACL asterisk cryptographic library,
+which
+[the twenty tens article][related_post_a214]
+introduces
+as
+a F-star artifact,
+continued
+its adoption
+across the decade.
+Portions of HACL asterisk
+became part of
+production browser
+and operating system
+cryptographic infrastructure
+including
+Mozilla Firefox's NSS library,
+the Linux kernel's WireGuard implementation,
+and
+substantial portions of
+the Windows kernel's cryptographic subsystem.
+The library's adoption
+established that
+mechanically verified cryptographic implementations
+were
+practical
+at
+production performance
+and
+production scale.
+
+The verified-compilation
+and verified-microkernel
+projects
+established that
+mechanical verification
+of production-scale software
+was
+practical
+in
+substantial industrial contexts.
+The pattern
+of using
+a proof assistant's programming language
+to
+write
+the artifact
+and
+prove correctness
+in
+the same development,
+which
+[the two thousands article][related_post_a213]
+introduces
+as
+CompCert's methodology,
+became
+the standard technique
+for
+verified-software engineering
+across
+the decade.
+
+## Refinement Types and Information-Flow Labels in Embedded Scripting
+
+The twenty twenties
+saw
+the practical adoption
+of
+refinement types
+and
+information-flow labels
+in
+embedded scripting languages.
+The adoption
+brought
+[Dorothy Denning's nineteen seventy-six lattice model][related_post_a210]
+and
+[the Freeman-Pfenning refinement-type program of nineteen ninety-one][related_post_a212]
+into
+production embedded runtimes
+that
+carried
+definitive execution-time
+and
+memory-usage bounds
+alongside
+the type-system guarantees.
+
+Keleusma,
+a Total Functional Stream Processor
+that
+compiles
+to bytecode
+and runs on
+a stack-based virtual machine,
+is
+the running Keleusma example
+that
+this series
+has referenced
+across several articles.
+The language
+integrates
+information-flow labels
+in
+the Denning-lattice tradition,
+where
+a value of type `T`
+carrying security label `L`
+is written
+`T@L`,
+refinement types
+in
+the Freeman-Pfenning tradition,
+and
+worst-case-execution-time analysis
+that
+[Wright and Felleisen's syntactic type soundness][related_post_a212]
+program
+supplied
+the proof discipline for.
+The V0.2.0 release
+of Keleusma
+in
+May
+of
+two thousand twenty-six
+introduced
+Ed25519 cryptographic module signing,
+information-flow labels
+including negative labels,
+newtypes with refinement predicates,
+and
+a reset instruction-set architecture.
+The subsequent V0.2.1 release
+of
+two thousand twenty-six
+extended
+the language
+with
+general const generics,
+executable script functionality
+through shebang execution,
+strippable debug metadata,
+and
+strict-mode signing
+and encryption
+deployment policy.
+
+Other embedded scripting languages
+of
+the decade
+have carried
+similar features
+in
+adjacent contexts.
+The Rhai scripting language
+for Rust
+carries
+substantial dynamic-typing features
+in
+an embedded-scripting-language niche
+that
+overlaps with Keleusma's
+in
+some respects
+and differs
+in others.
+The Rune language
+by John-John Tedro
+carries
+some information-flow-adjacent features
+in
+a Rust-integrated form.
+The general pattern
+across the decade
+has been
+the integration
+of
+type-system features
+that had previously
+appeared only
+in
+research proof-assistant contexts
+into
+production embedded runtimes
+whose primary
+use case
+is
+scripting-language embedding
+rather than
+mechanized mathematics.
+
+## Worst-Case Execution Time as a First-Class Language Property
+
+The twenty twenties
+saw
+worst-case execution time,
+often abbreviated WCET,
+become
+a first-class language property
+in
+certain embedded scripting languages.
+The WCET analysis
+tradition
+had begun
+substantially
+in
+avionics
+and
+adjacent safety-critical embedded contexts
+in
+the nineteen eighties
+and nineteen nineties,
+where
+static WCET-analysis tools
+had been
+developed
+by
+research groups
+at
+several universities.
+The twenty twenties
+saw
+the integration
+of
+WCET analysis
+into
+the type systems
+of
+production programming languages
+themselves,
+rather than
+as
+external analysis tools
+applied to
+existing programs.
+
+Keleusma
+carries
+WCET analysis
+as
+a first-class language property
+whose
+result
+appears
+in
+the language's bytecode format
+as
+a declared bound
+that
+the load-time verifier
+checks
+against the analysis result.
+A Keleusma program
+whose bytecode
+declares
+a specific WCET bound
+will
+be rejected
+at load time
+if
+the actual analysis
+gives
+a larger bound,
+which
+ensures that
+a bytecode artifact
+carries
+its own
+verification
+of
+its resource claims.
+The property
+is
+substantially
+a synthesis
+of
+[the definitive-bound tradition][related_post_a207]
+that
+the pre-nineteen-sixty foundations
+established
+through Kleene's primitive-recursive functions,
+[the totality-analysis tradition][related_post_a210]
+of
+Martin-Löf's type theory,
+and
+the industrial WCET-analysis tradition
+of
+avionics contexts.
+
+The integration
+of
+WCET analysis
+into
+the type system
+is
+substantially
+a research direction
+whose adoption
+outside
+Keleusma
+remains
+limited
+as of the mid-twenty-twenties.
+The pattern
+of
+extending
+static analyses
+that were previously
+external tools
+into
+first-class language properties
+is
+a general direction
+that
+the following decade
+will substantially develop.
+
+## New Languages of the Decade So Far
+
+Three new statically typed programming languages
+of
+the twenty twenties
+have gained
+substantial developer attention,
+though
+none
+has
+yet reached
+the industrial-adoption levels
+of
+Rust
+or
+TypeScript.
+
+Zig,
+which
+Andrew Kelley
+introduced
+in
+February
+of
+two thousand sixteen
+and
+which
+continued
+substantial development
+across
+the twenty twenties,
+became
+substantially adopted
+as
+a modern C alternative
+whose
+compile-time evaluation facility
+and
+error-union type discipline,
+written `!T`
+for a value
+that is either
+a `T`
+or
+an error,
+addressed
+several
+practical difficulties
+of
+C programming
+without
+requiring
+Rust's ownership discipline.
+Zig
+had not
+reached
+its version one point zero release
+by
+mid two thousand twenty-six,
+but
+its adoption
+in
+substantial systems programming projects
+suggests
+that
+the language
+will
+reach
+production stability
+in
+the following years.
+The Zig Software Foundation,
+established
+by Kelley
+in
+two thousand twenty
+as
+a five oh one c three nonprofit,
+funds
+core-contributor development
+and
+community activities.
+
+Roc,
+introduced
+by Richard Feldman
+and colleagues
+starting around
+two thousand nineteen,
+is
+a pure functional programming language
+whose design
+draws on
+Elm
+that
+[the previous article][related_post_a214]
+introduces
+alongside
+several other language traditions.
+Roc
+combines
+pure functional programming
+with
+non-Turing-complete recursion,
+platforms
+that
+provide
+effects,
+and
+compilation to native code
+through
+the LLVM infrastructure.
+The language
+had not
+reached
+a version one point zero release
+by
+mid two thousand twenty-six
+but had
+substantial developer attention
+in
+functional-programming-adjacent contexts.
+
+Verse,
+which
+Epic Games announced
+in
+March
+of
+two thousand twenty-three
+at
+the Game Developers Conference,
+is
+a functional logic programming language
+whose design
+was
+substantially influenced
+by Simon Peyton Jones,
+who joined Epic Games
+in
+November
+of two thousand twenty-one
+following his
+departure from
+Microsoft Research.
+Verse
+is used
+primarily as
+the scripting language
+for
+Fortnite content
+in
+Epic Games' Unreal Editor for Fortnite.
+The language
+carries
+substantial functional-logic-programming features
+that
+[the article on the nineteen seventies][related_post_a209]
+covers
+through Prolog's declarative discipline.
+
+## LLM-Assisted Programming Language Work
+
+The twenty twenties
+have seen
+substantial development
+in
+large language model-assisted
+programming
+and
+proof
+work,
+which
+has begun
+to influence
+programming language design
+and
+proof-assistant design.
+Interactive theorem provers
+including
+Lean 4
+and
+the Rocq Prover
+have integrated
+large language models
+into
+their tactic-search
+and
+premise-selection
+mechanisms,
+which
+has substantially
+accelerated
+the mechanization
+of
+mathematical proofs.
+
+The integration
+raises
+substantive questions
+about
+the epistemology
+of
+mechanized proof
+that
+the discipline
+has not yet
+fully resolved.
+A proof
+that
+a large language model produces
+and
+that
+the proof assistant
+verifies
+is
+a valid formal proof
+in the sense
+that
+the type checker's guarantee
+extends
+to any proof term
+regardless of
+its origin.
+The extent
+to which
+the proof
+should be considered
+mathematically illuminating
+rather than
+merely
+formally correct
+remains
+a matter of
+active discussion
+in
+the mathematical formalization community.
+
+Programming-language-directed
+large language model work
+has
+also begun
+to
+influence
+new language design.
+Several new languages
+of the decade
+carry
+features
+that
+were substantially designed
+to be
+accessible
+to large language models
+as
+code-generation targets,
+including
+languages
+with
+substantially reduced
+implicit-behavior surfaces
+and
+substantially explicit
+type discipline.
+The design pattern
+has
+substantial precedent
+in
+[the compact-toolchain discipline][related_post_a214]
+that
+Rust
+and
+Zig
+carry
+for
+different but adjacent reasons,
+namely
+that
+a language
+whose surface
+carries
+substantially explicit type discipline
+and
+substantially reduced
+implicit behavior
+is
+easier
+for
+both
+human reviewers
+and
+mechanical tools
+to reason about.
+
+The large language model
+integration
+into
+programming
+is
+substantially
+a current-events story
+that
+this article
+does not attempt
+to fully develop.
+The periodic surveys
+that follow
+this arc
+will pick up
+the topic
+as it develops.
+
+## Where the Current-Event Surveys Begin
+
+The historical arc
+closes
+at
+the present moment.
+The periodic current-event surveys
+that follow
+this article
+will
+pick up
+new work
+from
+the four principal ACM SIGPLAN conferences,
+namely
+POPL,
+ICFP,
+PLDI,
+and OOPSLA,
+that
+[the opener article][related_post_a206]
+introduces,
+alongside
+substantial industrial announcements
+and
+open-source developments
+that
+did not originate
+in
+the academic literature.
+
+The surveys
+will be
+periodic
+rather than
+per-week or
+per-month,
+because
+programming language theory
+does not
+move fast enough
+to
+justify
+a higher cadence.
+An annual retrospective
+covering
+the year's work
+at the four ACM SIGPLAN conferences,
+along with
+substantial industrial announcements
+of the year,
+is
+the tentative
+cadence
+that
+subsequent surveys
+will follow.
+A specific development
+that
+warrants
+its own article
+will
+receive
+its own article
+rather than
+being embedded
+in
+a periodic survey.
+
+The reader
+who arrives
+at
+a specific development
+of the surveys
+will have
+the historical arc
+as
+its context,
+which
+was
+the instrumental purpose
+of
+the arc
+that
+[the opener article][related_post_a206]
+established.
+Denning's information-flow lattice
+in
+production language form
+will
+not appear
+without
+the reader
+having context
+for the fifty-year gap
+between
+the original paper
+and
+the production adoption.
+Refinement types
+in Liquid Haskell
+and Keleusma
+will
+not appear
+without
+the reader
+having context
+for
+the thirty-year gap
+between
+Freeman-Pfenning's formalization
+and
+production use.
+Effect handlers
+in mainline OCaml
+will
+not appear
+without
+the reader
+having context
+for the fifteen-year gap
+between
+Plotkin-Pretnar's paper
+and
+the mainline release.
+
+The gaps
+between
+research and production
+are
+substantial
+in
+programming language theory.
+The historical arc
+gives
+the reader
+the specific
+temporal context
+for
+each gap,
+which
+allows
+the reader
+to judge
+whether
+a given
+current-events announcement
+is
+a substantive advance
+or
+a rediscovery.
+
+## What This Era Enables
+
+The twenty twenties
+so far
+have supplied
+eight things
+that
+subsequent work
+in
+programming language theory
+will build on.
+
+First,
+the fourth HOPL conference proceedings
+as
+the standard secondary reference
+for
+languages
+that reached
+wide adoption
+by
+two thousand eleven.
+
+Second,
+Lean 4
+as
+the primary vehicle
+for
+community-driven mechanized mathematics.
+
+Third,
+the Rocq Prover
+as
+the continued vehicle
+for
+software-verification-oriented
+mechanized formal work.
+
+Fourth,
+OCaml 5
+as
+a mainline production language
+carrying
+effect handlers.
+
+Fifth,
+CompCert,
+seL4,
+and HACL asterisk
+in
+substantial production deployments
+in
+avionics,
+security-adjacent systems,
+and browser
+and operating-system
+cryptographic infrastructure.
+
+Sixth,
+refinement types
+and
+information-flow labels
+in
+embedded scripting languages
+including Keleusma.
+
+Seventh,
+worst-case execution time
+as
+a first-class language property
+in
+selected embedded scripting languages.
+
+Eighth,
+large language model integration
+into
+proof assistants
+and
+programming environments
+as
+an active research frontier.
+
+The historical arc
+closes here.
+The periodic current-event surveys
+that follow
+this article
+will
+extend
+the treatment
+of
+each of these directions
+as
+they develop.
+
+## Conclusion
+
+The historical arc
+that
+[the opener article][related_post_a206]
+began
+closes
+at the present moment.
+The seventy-year arc
+from
+Alonzo Church's lambda calculus
+of
+[the nineteen thirties][related_post_a207]
+through
+the founding
+of the ACM Symposium
+on Principles of Programming Languages
+in
+[nineteen seventy-three][related_post_a210]
+to
+the current state
+of practice
+in
+which
+several fifty-year-old theorems
+appear
+as
+production language features
+is
+a coherent intellectual project
+with
+identifiable
+milestones,
+established
+publication venues,
+and
+a small number
+of
+canonical references
+that
+this series
+has drawn on.
+
+The current state of practice
+carries
+substantial evidence
+that
+the arc
+is
+not
+finished.
+Rust
+and
+TypeScript
+have
+substantial industrial adoption.
+Lean 4
+has substantial adoption
+in mechanized mathematics.
+OCaml 5
+carries effect handlers
+in mainline distribution.
+Keleusma
+carries
+information-flow labels,
+refinement types,
+and
+worst-case-execution-time
+as first-class language properties
+in
+an embedded scripting language.
+The next generation
+of
+production language features
+is
+already
+visible
+in
+research publications
+that
+have not yet
+reached production
+but that
+prior patterns
+suggest
+will do so
+across
+the following decade.
+
+The periodic current-event surveys
+that follow
+this article
+will
+pick up
+each of these directions
+as
+they develop.
+The reader
+who has followed
+the arc
+now
+has
+the specific temporal
+and
+technical context
+for
+each direction,
+which
+was
+the instrumental purpose
+of
+the arc
+that
+this series
+was constructed to establish.
+
+## References
+
+- [Bauer, Andrej and Pretnar, Matija, Programming with Algebraic Effects and Handlers, Journal of Logical and Algebraic Methods in Programming 84, 2014][paper_bauer_pretnar]
+- [de Moura, Leonardo and Ullrich, Sebastian, The Lean 4 Theorem Prover and Programming Language, CADE 28, 2021][paper_lean4]
+- [History of Programming Languages IV, HOPL IV, ACM SIGPLAN, 2021][ref_hopl_iv]
+- [Kumar, Ramana, Myreen, Magnus O., Norrish, Michael, and Owens, Scott, CakeML, A Verified Implementation of ML, POPL, 2014][paper_cakeml]
+- [OCaml 5.0 Release Notes, INRIA and OCaml community, 2022][ref_ocaml_5]
+- [Rocq Prover 9.0 Release Notes, Inria, 2025][ref_rocq]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+- [Related Post, The 1960s][related_post_a208]
+- [Related Post, The 1970s Part I][related_post_a209]
+- [Related Post, The 1970s Part II][related_post_a210]
+- [Related Post, The 1980s][related_post_a211]
+- [Related Post, The 1990s][related_post_a212]
+- [Related Post, The 2000s][related_post_a213]
+- [Related Post, The 2010s][related_post_a214]
+- [Related Post, Getting Started with Keleusma 0.2.0][related_post_keleusma_020]
+- [Related Post, Getting Started with Keleusma 0.2.1][related_post_keleusma_021]
+- [Related Post, Information-Flow Control, A Deep Dive with Keleusma][related_post_ifc_deep_dive]
+
+[paper_bauer_pretnar]: https://arxiv.org/abs/1203.1539
+[paper_cakeml]: https://dl.acm.org/doi/10.1145/2535838.2535841
+[paper_lean4]: https://link.springer.com/chapter/10.1007/978-3-030-79876-5_37
+[ref_hopl_iv]: https://hopl4.sigplan.org/
+[ref_ocaml_5]: https://ocaml.org/changelog/2022-12-16-ocaml-5.0
+[ref_rocq]: https://rocq-prover.org/releases/9.0.0
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
+[related_post_a208]: {% post_url 2026-03-29-the_1960s %}
+[related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[related_post_a210]: {% post_url 2026-03-31-the_1970s_part_ii %}
+[related_post_a211]: {% post_url 2026-04-01-the_1980s %}
+[related_post_a212]: {% post_url 2026-04-02-the_1990s %}
+[related_post_a213]: {% post_url 2026-04-03-the_2000s %}
+[related_post_a214]: {% post_url 2026-04-04-the_2010s %}
+[related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
+[related_post_keleusma_021]: {% post_url 2026-07-09-keleusma_0_2_1_getting_started %}
+[related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}

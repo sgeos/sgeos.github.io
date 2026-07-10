@@ -1,0 +1,1260 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 1980s"
+date:   2026-04-01 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A211 -->
+<script>console.log("A211");</script>
+
+The nineteen eighties
+took
+the theoretical results
+of
+[the previous decade][related_post_a210]
+and turned them
+into
+working research programs.
+The Hindley-Milner algorithm
+became
+the type system
+of Standard ML,
+whose informal development
+across the decade
+would culminate
+in
+the nineteen ninety Definition
+that fixed
+the language.
+The Miranda language
+demonstrated
+that
+lazy functional programming
+was
+practical
+as
+a commercial product.
+Category theory
+crossed
+from
+a specialty of denotational semanticists
+into
+a working tool
+of programming language design,
+principally
+through
+John Reynolds's parametricity theorem
+and
+Joachim Lambek and Philip Scott's textbook consolidation
+of the categorical logic program.
+Effect systems
+were
+formalized
+in
+John Lucassen and David Gifford's
+Massachusetts Institute of Technology work
+on
+polymorphic effect systems.
+Object-oriented programming,
+which
+Simula sixty-seven
+had established
+in
+[the nineteen sixties][related_post_a208],
+matured
+through
+the Smalltalk-80 book,
+the emergence of C++,
+and
+the founding of
+the ACM Conference on
+Object-Oriented Programming,
+Systems,
+Languages,
+and Applications,
+which is
+almost always
+called OOPSLA,
+in
+November nineteen eighty-six.
+
+The decade
+did not
+open
+substantially new research directions
+of
+the sort that
+[the nineteen seventies][related_post_a210]
+had opened.
+It consolidated
+each of them
+into
+a working program
+that
+subsequent decades
+would develop.
+
+## Prolog Matures
+
+Alain Colmerauer's Marseille group
+had continued
+the development
+of Prolog
+across the nineteen seventies
+into
+what became
+Prolog II
+in nineteen eighty-two.
+Prolog II
+extended
+the base Prolog language
+with
+a decision procedure
+for
+rational trees,
+which
+extended
+unification
+from
+finite terms
+to
+infinite terms
+that
+could be represented
+as
+regular trees.
+The extension
+allowed
+Prolog
+to handle
+certain
+grammar-like specifications
+that
+the base language
+could not.
+
+The more consequential development
+of the decade
+was
+David H. D. Warren's
+Warren Abstract Machine.
+Warren
+published
+An Abstract Prolog Instruction Set
+as
+SRI International Technical Note three hundred nine
+in October
+of nineteen eighty-three.
+The technical note
+introduced
+what came to be called
+the WAM,
+which is
+an abstract machine
+for
+efficient execution
+of Prolog programs
+that
+carried
+a specialized memory architecture
+including
+a heap
+for term storage,
+a stack
+for
+environments and choice points,
+a trail
+for
+undo information
+on
+backtracking,
+and
+a code area
+for
+compiled instructions.
+The WAM
+came with
+a tailored instruction set
+that
+compiled Prolog clauses
+into
+low-level operations.
+
+The WAM
+became
+the de facto compilation target
+for
+Prolog implementations
+in the following decades.
+Every subsequent
+performant Prolog implementation
+either
+implemented the WAM directly
+or
+implemented a variant
+of it.
+Hassan Aït-Kaci's nineteen ninety-one book
+Warren's Abstract Machine,
+A Tutorial Reconstruction,
+published by
+the MIT Press,
+gave the WAM
+a definitive tutorial exposition
+that
+made
+the compilation technique
+accessible
+to
+implementers
+outside
+the original Edinburgh circle.
+
+Prolog
+also
+saw
+its first standardization efforts
+in the decade.
+The Japanese Fifth Generation Computer Systems project,
+which the Japanese Ministry of International Trade and Industry
+launched in nineteen eighty-two,
+selected
+Prolog
+as
+the primary programming language
+of the project
+and
+funded
+a substantial body
+of implementation
+and language-standardization work.
+The project
+did not
+achieve
+its stated goals
+by
+its nineteen ninety-two conclusion,
+but it produced
+substantial secondary results
+including
+parallel Prolog implementations
+and
+constraint logic programming systems.
+ISO Prolog
+standardization
+began
+in the late nineteen eighties
+and produced
+its first standard
+in nineteen ninety-five.
+
+## Standard ML and the Research Program
+
+Robin Milner's ML,
+which had been
+developed
+in
+[the nineteen seventies][related_post_a210]
+as
+the metalanguage
+of
+the Edinburgh LCF theorem prover,
+became
+the subject
+of
+a serious language-design effort
+in the mid nineteen eighties.
+The effort
+was
+intended
+to
+produce
+a language definition
+that
+different implementers
+could
+target
+without diverging.
+Robin Milner,
+Robert Harper,
+and Mads Tofte
+began work
+on
+what became
+the Definition of Standard ML
+in the middle of the decade
+at Edinburgh
+and, later,
+at Carnegie Mellon University
+and
+the University of Copenhagen.
+The Definition
+was
+published
+by the MIT Press
+in nineteen ninety.
+The decade's ML work
+was
+substantially
+the development
+of
+the material
+that
+the Definition consolidated.
+
+Two implementations
+of the language
+were
+developed
+in the decade.
+Standard ML of New Jersey,
+begun
+in nineteen eighty-six
+at
+AT&T Bell Laboratories
+and Princeton University
+by Andrew Appel,
+David MacQueen,
+and colleagues,
+became
+the reference implementation
+for
+the research community.
+Poly/ML,
+developed at
+the University of Cambridge
+by David Matthews
+across the same period,
+provided
+a second implementation
+that
+prioritized
+persistence
+of compiled code
+across sessions.
+
+Standard ML
+consolidated
+the Hindley-Milner type system
+that
+[the previous article][related_post_a210]
+covered
+with
+an ML module system
+that Milner had begun
+to develop
+in the late nineteen seventies.
+The module system
+supported
+parameterized modules,
+called
+functors,
+which
+took modules
+as arguments
+and returned
+modules
+as results.
+The design
+was
+substantially different
+from
+the module systems
+of
+Modula-2
+and Ada
+that were
+in industrial use
+at the same time,
+which
+did not
+support
+functor abstractions.
+The ML module system
+would
+influence
+Rust,
+Scala,
+and
+subsequent language designs
+that
+support
+module-level parameterization.
+
+## The Haskell Precursors
+
+David Turner
+at
+the University of Kent at Canterbury
+had developed
+KRC,
+short for
+the Kent Recursive Calculator,
+in the late nineteen seventies
+as
+a lazy functional programming language
+for teaching purposes.
+KRC's successor
+Miranda,
+which Turner developed
+starting in nineteen eighty-three
+and released commercially
+in nineteen eighty-five,
+carried the lazy functional programming approach
+into
+a form
+that was
+substantially more usable
+than KRC.
+
+Miranda
+was
+a pure,
+non-strict,
+polymorphically typed
+functional programming language
+whose type system
+was
+Hindley-Milner
+with several extensions.
+Non-strict evaluation,
+also called
+lazy evaluation,
+meant that
+a function argument
+was not evaluated
+until
+its value was needed
+by
+the function body.
+The evaluation strategy
+allowed
+programs to work
+with
+data structures
+that were
+notionally infinite,
+because
+only the portion
+that was actually needed
+would be
+computed.
+The strategy
+also
+provided
+a specific form
+of modularity,
+namely
+the separation of
+producers
+of a data stream
+from
+consumers
+of it,
+which
+imperative languages
+had difficulty
+expressing cleanly.
+
+Miranda
+was
+substantially influential
+on
+the programming languages community
+of the late nineteen eighties.
+Multiple research groups
+were
+developing
+lazy functional languages
+in the same period,
+including
+Simon Peyton Jones's Ponder
+at Cambridge
+and
+Philip Wadler's Orwell
+at Oxford.
+The proliferation of similar-but-incompatible languages
+became a problem
+for
+the research community.
+In nineteen eighty-seven,
+at
+the Functional Programming and Computer Architecture conference
+in Portland, Oregon,
+a group
+including
+Peyton Jones,
+Wadler,
+Paul Hudak,
+John Hughes,
+and others
+resolved
+to design
+a single
+common
+lazy functional language
+that
+the research community
+could
+share.
+The design effort
+resulted in
+Haskell,
+whose first version
+appeared
+in nineteen ninety.
+[The article after this][related_post_a212]
+develops
+the Haskell design work
+in its
+nineteen nineties
+mature form.
+
+## Category Theory as a Working Tool
+
+Category theory
+had entered
+the semantics literature
+in the late nineteen sixties
+through
+the work
+of
+Dana Scott
+and others
+on
+Cartesian closed categories
+as
+models
+of
+the typed lambda calculus.
+The nineteen eighties
+saw
+category-theoretic techniques
+cross
+from
+a specialty of denotational semanticists
+into
+a working tool
+of programming language design.
+
+John Reynolds's paper
+Types,
+Abstraction and Parametric Polymorphism,
+delivered at
+the ninth International Federation for Information Processing
+World Computer Congress
+in Paris
+from September nineteenth
+through
+September twenty-third
+of nineteen eighty-three,
+introduced
+the parametricity theorem
+for
+System F.
+The theorem
+established that
+a polymorphic function
+of type
+`∀α. τ`
+in System F
+must behave
+uniformly
+across all instantiations
+of
+its type parameter.
+The theorem
+gave
+a mathematical account
+of
+what
+programmers
+had known
+informally,
+namely that
+a function
+whose type
+does not mention
+a specific type
+cannot depend
+on
+its structure.
+A specific consequence
+is that
+any polymorphic list-to-list function
+`f : ∀α. [α] → [α]`
+satisfies
+`map g . f = f . map g`
+for every function `g`,
+because
+`f` cannot inspect
+the list elements
+and must therefore
+commute
+with
+element-wise transformation.
+The theorem
+had
+practical consequences
+that
+Philip Wadler
+would later
+develop
+into
+the theorems-for-free program
+under
+the name
+free theorems.
+
+The nineteen eighty-six book
+Introduction to Higher-Order Categorical Logic
+by
+Joachim Lambek
+and Philip Scott,
+published by
+Cambridge University Press,
+consolidated
+the categorical logic program
+into
+a textbook.
+The book
+established
+the correspondences
+between
+typed lambda calculi
+and
+various classes of categories,
+including
+the correspondence
+between
+the simply typed lambda calculus
+and
+Cartesian closed categories,
+and
+the correspondence
+between
+higher-order intuitionistic logic
+and
+toposes.
+The book
+made
+categorical logic
+accessible
+to
+researchers
+who
+did not have
+direct category theory training,
+and
+its treatment
+became
+the standard reference
+for
+categorical semantics
+in
+the following decades.
+
+Category theory
+also
+became
+practical
+through
+the monad
+as
+a structural pattern
+for
+denotational semantics
+of
+computational effects.
+Eugenio Moggi's
+nineteen eighty-nine paper
+Computational Lambda-Calculus and Monads,
+delivered at
+the Logic in Computer Science conference,
+introduced
+the categorical monad
+as
+a semantic device
+for
+modeling
+effects
+in
+a call-by-value setting.
+A monad `M`
+supplied
+two operations,
+`return : α → M α`
+that injects
+a pure value
+into the monad,
+and
+`bind : M α → (α → M β) → M β`
+that sequences
+a computation
+in the monad
+with
+a function
+producing
+a further computation.
+Moggi's paper
+established that
+different kinds of effects,
+including
+state,
+input-output,
+exceptions,
+and nondeterminism,
+could be
+uniformly modeled
+by
+different monads
+in
+the same categorical framework.
+The paper
+became
+the founding paper
+of
+the monadic effects tradition,
+which
+Philip Wadler
+and
+Simon Peyton Jones
+would
+develop
+into
+practical language features
+of Haskell
+in
+the nineteen nineties.
+
+## Effect Systems Formalize
+
+John Lucassen
+and
+David Gifford
+at
+the Massachusetts Institute of Technology
+introduced
+polymorphic effect systems
+in
+their nineteen eighty-eight paper
+Polymorphic Effect Systems,
+delivered at
+the fifteenth Symposium
+on Principles of Programming Languages.
+The paper
+extended
+the Hindley-Milner type discipline
+with
+a kinded type system
+that
+carried
+three base kinds,
+namely
+types,
+which described
+the value
+an expression
+might return,
+effects,
+which described
+the side effects
+the expression
+might cause,
+and
+regions,
+which described
+the areas of the store
+where
+side effects
+might occur.
+Expressions
+could be abstracted
+over
+any kind of description variable,
+which
+gave
+the system
+polymorphism
+over
+types,
+effects,
+and regions
+uniformly.
+An effect judgment
+took the form
+`Γ ⊢ e : τ ! ε`,
+where
+the `!` separates
+the expression's type `τ`
+from
+its effect `ε`,
+a notation
+that
+later effect-system papers
+would
+uniformly adopt.
+
+The effect kind
+was
+substantially the innovation
+of the paper.
+An effect
+was
+a set of atomic effects,
+each of which
+described
+a specific operation
+that a program
+might perform,
+such as
+reading from
+a specific memory region
+or
+writing to
+a specific input-output channel.
+An effect discipline
+allowed
+the compiler
+to
+statically determine
+what operations
+a program
+might perform,
+which
+enabled
+compiler optimizations
+that
+depended on
+the absence
+of specific effects,
+including
+parallelization
+of expressions
+that had
+disjoint effects.
+
+The FX programming language,
+also from
+the Gifford group at MIT,
+was
+the experimental implementation
+of
+the effect system.
+The FX-87 report
+by
+Gifford,
+Jouvelot,
+Lucassen,
+and Sheldon,
+published
+in nineteen eighty-seven,
+described
+the language
+and
+its compilation strategy.
+Subsequent work
+on
+effect systems
+extended
+the Lucassen-Gifford approach
+in
+several directions,
+including
+the algebraic effects
+that would emerge
+in
+the twenty tens,
+which
+[the article on that decade][related_post_a214]
+covers.
+
+The nineteen eighty-eight paper
+and the FX experiment
+established
+effect systems
+as
+a research program
+distinct from
+the type-inference program
+that
+Hindley-Milner
+had launched.
+The two programs
+have interacted continuously since,
+with
+effect systems
+often
+being formulated
+as
+extensions
+of
+Hindley-Milner
+that
+add
+effect kinds
+to
+the existing type kind.
+
+## Object-Oriented Programming Matures
+
+Object-oriented programming,
+which
+Simula sixty-seven
+had established
+in
+[the nineteen sixties][related_post_a208],
+matured
+in
+the nineteen eighties
+through
+three developments.
+
+The first development
+was
+the publication
+of Smalltalk-80.
+The Xerox Palo Alto Research Center
+had developed
+Smalltalk
+as
+a series of experimental languages
+across
+the nineteen seventies,
+with
+Smalltalk-72,
+Smalltalk-74,
+Smalltalk-76,
+and Smalltalk-78
+as
+successive research prototypes.
+Smalltalk-80
+was
+the version
+that Xerox PARC
+released
+publicly
+in nineteen eighty.
+The definitive presentation
+of the language
+was
+Adele Goldberg
+and David Robson's
+nineteen eighty-three book
+Smalltalk-80,
+The Language and Its Implementation,
+published by
+Addison-Wesley
+as
+the first
+of
+the Smalltalk-80 book series
+in
+what came to be called
+the blue book.
+
+Smalltalk-80
+introduced
+several concepts
+that
+became
+standard vocabulary
+for
+object-oriented programming,
+including
+the metaclass,
+which was
+a class
+whose instances were themselves classes,
+the reflective protocol,
+which
+allowed
+a running program
+to inspect and modify
+its own structure,
+and
+the message-passing
+call convention,
+which
+treated
+every operation
+as
+sending a message
+to
+an object.
+The book
+also
+described
+the Smalltalk-80 development environment,
+which
+had been
+the first
+integrated development environment
+that
+supported
+class browsing,
+inspector-based debugging,
+and
+live-code editing.
+Substantially every
+integrated development environment
+of
+the following decades
+descends from
+the Smalltalk-80 design.
+
+The second development
+was
+the emergence
+of C++.
+Bjarne Stroustrup
+at
+AT&T Bell Laboratories
+had begun
+developing
+what he called
+C with Classes
+in nineteen seventy-nine.
+The system
+extended
+the C language
+with
+Simula-style classes
+and
+member functions,
+and had gained
+enough
+internal AT&T users
+that
+Stroustrup
+renamed it
+C++
+in nineteen eighty-three.
+The first edition
+of Stroustrup's
+book
+The C++ Programming Language
+appeared
+from
+Addison-Wesley
+in nineteen eighty-five.
+C++
+took the object-oriented design
+that Smalltalk-80 had made
+canonical
+and adapted it
+to
+the systems-programming and
+industrial-application-programming
+contexts
+where
+C
+was already used,
+which
+Smalltalk-80's dynamic-typing
+and
+image-based-development approach
+did not
+fit.
+
+The third development
+was
+the founding
+of OOPSLA.
+Adele Goldberg,
+Tom Love,
+David Smith,
+and Allen Wirfs-Brock
+established
+the ACM Conference
+on Object-Oriented Programming,
+Systems,
+Languages,
+and Applications
+in
+nineteen eighty-five.
+The first OOPSLA
+was held
+at the Marriott Hotel
+in Portland,
+Oregon,
+in November
+of nineteen eighty-six,
+with approximately
+six hundred attendees
+and fifty papers.
+The conference
+became
+the primary venue
+for
+object-oriented programming research
+and
+the industrial adoption
+of
+object-oriented techniques
+that
+the decade would produce.
+
+## What This Era Enables
+
+The nineteen eighties
+supplied
+six things
+that
+the following decades
+consumed.
+
+First,
+a working Prolog implementation technology,
+namely
+the Warren Abstract Machine,
+that
+every subsequent
+performant Prolog implementation
+either
+targets directly
+or
+extends.
+
+Second,
+Standard ML
+as
+a working research language
+with
+a formal type system,
+a module system,
+and
+two reference implementations,
+whose Definition
+would appear
+in
+the following decade
+and which
+would
+become
+the standard functional-language research vehicle
+for
+the following two decades.
+
+Third,
+Haskell
+as
+a common design goal
+for
+the lazy functional programming community,
+whose implementation
+would appear
+in
+the following decade.
+
+Fourth,
+category theory
+as
+a working tool
+of
+programming language design,
+through
+Reynolds parametricity,
+the Lambek-Scott book,
+and
+Moggi's monads.
+
+Fifth,
+effect systems
+as
+a distinct research program,
+through
+Lucassen-Gifford
+polymorphic effect systems
+and
+the FX language.
+
+Sixth,
+object-oriented programming
+as
+a mature discipline,
+through
+Smalltalk-80,
+C++,
+and
+OOPSLA.
+
+The next article,
+A212,
+covers
+the nineteen nineties.
+
+## Conclusion
+
+The nineteen eighties
+took
+the theoretical results
+of
+the nineteen seventies
+and
+turned each of them
+into
+a working research program.
+Hindley-Milner
+became
+Standard ML.
+Denotational semantics
+became
+categorical semantics.
+Simula sixty-seven's classes
+became
+Smalltalk-80,
+C++,
+and OOPSLA.
+Prolog
+became
+the Warren Abstract Machine.
+Effect systems
+became
+a distinct research direction.
+The lazy functional programming community
+converged
+on Haskell
+as
+its shared design goal.
+
+The next article,
+A212,
+covers
+the nineteen nineties.
+
+## References
+
+- [Aït-Kaci, Hassan, Warren's Abstract Machine, A Tutorial Reconstruction, MIT Press, 1991][book_ait_kaci_wam]
+- [Goldberg, Adele and Robson, David, Smalltalk-80, The Language and Its Implementation, Addison-Wesley, 1983][book_smalltalk80]
+- [Lambek, Joachim and Scott, Philip J., Introduction to Higher-Order Categorical Logic, Cambridge University Press, 1986][book_lambek_scott]
+- [Lucassen, John M. and Gifford, David K., Polymorphic Effect Systems, POPL, 1988][paper_lucassen_gifford]
+- [Moggi, Eugenio, Computational Lambda-Calculus and Monads, LICS, 1989][paper_moggi_monads]
+- [Reynolds, John C., Types, Abstraction and Parametric Polymorphism, IFIP Congress, 1983][paper_reynolds_parametricity]
+- [Stroustrup, Bjarne, The C++ Programming Language, Addison-Wesley, 1985][book_stroustrup_cpp]
+- [Turner, David A., Miranda, A Non-Strict Functional Language with Polymorphic Types, Functional Programming Languages and Computer Architecture, 1985][paper_turner_miranda]
+- [Warren, David H. D., An Abstract Prolog Instruction Set, SRI International Technical Note 309, 1983][paper_warren_wam]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+- [Related Post, The 1960s][related_post_a208]
+- [Related Post, The 1970s Part I][related_post_a209]
+- [Related Post, The 1970s Part II][related_post_a210]
+
+[book_ait_kaci_wam]: https://mitpress.mit.edu/9780262011235/warrens-abstract-machine/
+[book_lambek_scott]: https://en.wikipedia.org/wiki/Cartesian_closed_category
+[book_smalltalk80]: https://en.wikipedia.org/wiki/Smalltalk
+[book_stroustrup_cpp]: https://en.wikipedia.org/wiki/The_C%2B%2B_Programming_Language
+[paper_lucassen_gifford]: https://dl.acm.org/doi/10.1145/73560.73564
+[paper_moggi_monads]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
+[paper_reynolds_parametricity]: https://en.wikipedia.org/wiki/Parametricity
+[paper_turner_miranda]: https://en.wikipedia.org/wiki/Miranda_(programming_language)
+[paper_warren_wam]: https://en.wikipedia.org/wiki/Warren_Abstract_Machine
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
+[related_post_a208]: {% post_url 2026-03-29-the_1960s %}
+[related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[related_post_a210]: {% post_url 2026-03-31-the_1970s_part_ii %}
+[related_post_a212]: {% post_url 2026-04-02-the_1990s %}
+[related_post_a214]: {% post_url 2026-04-04-the_2010s %}

@@ -1,0 +1,1408 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 1960s"
+date:   2026-03-29 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A208 -->
+<script>console.log("A208");</script>
+
+The nineteen sixties
+took the foundations
+that
+[the previous article][related_post_a207]
+covered
+and turned them
+into a research discipline.
+The founding papers of the nineteen thirties
+had established
+that computation
+was a mathematically respectable subject.
+The practical demonstrations
+of the nineteen fifties
+had established
+that programming languages
+could be more abstract than
+the machines that ran them
+without ruinous cost.
+The nineteen sixties
+took both propositions
+as given
+and asked
+what kind of programming languages
+one should design,
+what kind of proofs
+one should carry about them,
+and what kind of mathematical objects
+their meanings should be.
+
+The decade
+produced
+several papers
+that later work
+takes for granted.
+Peter Landin
+recast programming
+in terms of lambda calculus
+and gave the discipline
+its first abstract machine.
+Christopher Strachey
+began the mathematical semantics program
+that would become
+denotational semantics
+under Dana Scott
+in the following decade.
+Ole-Johan Dahl
+and Kristen Nygaard
+introduced classes
+and inheritance
+in Simula I
+and Simula sixty-seven,
+originating
+what became known
+as object-oriented programming.
+C. A. R. Hoare
+introduced
+the axiomatic method
+for program proof.
+Edsger Dijkstra
+argued
+that structured programming
+was a discipline
+rather than a preference.
+John McCarthy
+argued
+that a mathematical theory of computation
+was possible.
+The design of ALGOL sixty-eight
+consolidated
+much of the surface-language work
+of the decade
+and,
+in doing so,
+generated
+the design-by-committee controversy
+that would shape
+the language committees
+of the following decades.
+
+This article
+walks the developments
+in the order
+they appeared,
+because
+the order in which the papers appeared
+is the order
+in which each depended on the last.
+
+## LISP Consolidates
+
+The LISP language
+described in
+[John McCarthy's April nineteen sixty paper][related_post_a207]
+went from
+a mathematical notation
+to
+a working implementation lineage
+across the first years
+of the decade.
+The LISP 1.5 Programmer's Manual,
+prepared by
+McCarthy
+with Michael Levin,
+Paul Abrahams,
+Daniel Edwards,
+Timothy Hart,
+and others,
+appeared in nineteen sixty-two
+from the Massachusetts Institute of Technology Press.
+The manual
+consolidated
+the language
+into
+a form
+that other implementations
+could target
+without diverging.
+
+The nineteen sixty-two manual
+documented
+several features
+that became standard
+in later LISP dialects.
+The condition expression
+called `cond`
+handled multi-way branching
+in a functional form.
+The property list
+attached
+arbitrary key-value data
+to a symbol.
+The apply function
+took a function
+and a list of arguments
+and evaluated the application,
+making
+the identification of program with data
+usable from within a program.
+The manual
+also documented
+the two-level LISP language,
+a distinction
+between
+the surface syntax
+that programmers write
+and
+the internal syntax
+that the interpreter operates on.
+The surface syntax
+is
+the tree-structured form
+of function names
+and arguments.
+The internal syntax
+is
+S-expressions,
+namely
+lists whose elements
+are atoms
+or other lists.
+The two-level structure
+became the basis
+for LISP macros
+and for
+the metacircular evaluator.
+
+MacLisp,
+developed at
+the Massachusetts Institute of Technology
+starting in nineteen sixty-six,
+carried the LISP tradition
+forward
+into a form
+that supported
+substantially larger programs.
+MacLisp
+was the implementation
+on which the Macsyma symbolic algebra system
+was built.
+Other implementations
+diverged
+from the LISP 1.5 basis
+in the same period,
+producing
+Interlisp
+at Bolt, Beranek, and Newman
+and Stanford,
+and
+Standard Lisp
+at the University of Utah.
+The subsequent Scheme
+and Common Lisp
+efforts
+of the following two decades
+would attempt
+to reunify
+these branches.
+
+## Simula and the Origins of Object-Oriented Programming
+
+Kristen Nygaard
+and Ole-Johan Dahl
+began development
+of Simula
+at the Norwegian Computing Center
+in Oslo
+in nineteen sixty-one.
+Simula I
+was designed
+as a special-purpose language
+for discrete-event simulation.
+The main design concepts
+were settled
+by May nineteen sixty-two.
+The first Simula I compiler
+was implemented
+on the Universal Automatic Computer 1107,
+which the Norwegian Computing Center
+had acquired at a discount
+under a contract with Univac
+that included
+the implementation work.
+The first prototype
+of the compiler
+ran in December nineteen sixty-four
+and the Simula I system
+became fully operational
+in January nineteen sixty-five.
+The Simula I manual
+appeared in May.
+
+Simula I
+extended ALGOL sixty
+with
+the notion of a class,
+which packaged together
+a data structure
+and the procedures that operate on it.
+Class instances,
+called objects,
+could be created dynamically
+and referenced
+through pointer values.
+The language
+also introduced
+coroutines,
+which allowed
+a suspended computation
+to resume
+where it left off.
+Coroutines
+were the mechanism
+by which
+the simulation model
+represented
+multiple concurrent processes
+without operating-system-level parallelism.
+
+Simula sixty-seven
+extended
+the class mechanism
+into
+what would be recognized
+as object-oriented programming.
+Dahl and Nygaard
+presented the paper
+Class and Subclass Declarations
+at the International Federation for Information Processing
+Working Conference
+on Simulation Languages
+in Oslo
+in May nineteen sixty-seven.
+The paper
+introduced
+subclass declaration,
+virtual procedures,
+and inheritance,
+which
+allowed
+a class
+to specialize
+the behavior of a parent class
+while preserving
+its interface.
+The Simula sixty-seven language
+also
+included
+a discrete-event simulation library
+and
+automatic memory management
+through garbage collection.
+
+Simula
+was not
+widely used
+as an implementation language
+outside its simulation domain,
+but its concepts
+became
+the direct ancestors
+of Smalltalk,
+C++,
+Java,
+and every subsequent
+object-oriented language.
+Alan Kay,
+who developed Smalltalk
+at Xerox PARC
+in the nineteen seventies,
+credited Simula
+explicitly
+as the source
+of Smalltalk's object model.
+Bjarne Stroustrup
+credited Simula sixty-seven
+as
+the direct model
+for the class mechanism
+in C with Classes,
+which became C++.
+Dahl and Nygaard
+received
+the two thousand one ACM Turing Award,
+announced
+in February two thousand two,
+for
+ideas fundamental
+to the emergence of object-oriented programming.
+
+## Peter Landin's Abstractions
+
+Peter Landin
+published three papers
+in the mid nineteen sixties
+that reshaped
+how programming language theory
+understood
+what a programming language is.
+The papers
+identified
+lambda calculus
+as the underlying mathematical structure
+of the surface languages
+that had begun
+to proliferate,
+introduced
+the first abstract machine
+for a functional language,
+and framed
+the design space
+of programming languages
+as a small number
+of decisions
+made against
+a common substrate.
+
+The first paper,
+The Mechanical Evaluation of Expressions,
+appeared in
+The Computer Journal,
+volume six,
+issue four,
+in January nineteen sixty-four.
+The paper introduced
+the SECD machine,
+which is
+the first abstract machine
+for a functional programming language.
+The name SECD
+stands for
+Stack,
+Environment,
+Control,
+and Dump,
+which are
+the four components
+of the machine's state.
+The stack
+holds
+intermediate values
+in an expression's evaluation.
+The environment
+maps
+variable names
+to their bound values.
+The control
+carries
+the sequence of operations
+still to be performed.
+The dump
+holds
+suspended stack, environment, and control triples
+from
+function calls
+that have not yet returned.
+
+The SECD machine
+gave
+lambda calculus
+a concrete operational reading.
+A lambda expression
+could be compiled
+to a sequence of SECD instructions
+and then executed
+on the machine.
+The compilation and execution
+together
+provided
+what present-day terminology
+would call
+an operational semantics
+for the lambda calculus.
+The SECD picture
+became
+the standard operational model
+for functional programming languages
+for the following two decades.
+
+The second paper,
+A Correspondence Between ALGOL 60 and Church's Lambda-Notation,
+appeared
+in Communications of the ACM
+in two parts
+across February and March nineteen sixty-five.
+The paper
+showed
+that
+ALGOL sixty's
+call-by-value,
+call-by-name,
+and block-structure features
+could be
+systematically translated
+into
+lambda calculus.
+The translation
+made
+the mathematical content
+of ALGOL sixty
+explicit
+and provided
+a technique
+for reasoning
+about ALGOL sixty programs
+using
+the reduction rules
+of the lambda calculus.
+The correspondence
+was the first
+in a lineage
+of surface-language-to-lambda-calculus embeddings
+that includes
+the modern intermediate representations
+used by
+functional-language compilers.
+
+The third paper,
+The Next 700 Programming Languages,
+appeared in
+Communications of the ACM,
+volume nine,
+issue three,
+in March nineteen sixty-six.
+The paper
+described
+a language called ISWIM,
+whose name stands for
+If You See What I Mean.
+ISWIM
+was
+a family of languages
+rather than a single language.
+It provided
+a common substrate,
+namely
+lambda calculus
+with
+a small set of syntactic conveniences,
+and
+allowed
+individual languages
+to be specified
+by
+supplying
+a set of primitives.
+The paper
+was
+a manifesto
+for
+the position
+that programming language design
+was
+a matter
+of choosing primitives
+against
+a fixed substrate.
+
+ISWIM
+also
+introduced
+the off-side rule,
+which uses
+indentation
+to delimit
+syntactic scope.
+The off-side rule
+influenced
+Miranda,
+Haskell,
+Python,
+and
+several other later languages.
+The paper
+also
+coined
+the term syntactic sugar,
+which
+described
+a language feature
+that adds
+no expressive power
+over
+the underlying substrate
+but that improves
+readability.
+Both terms
+became standard vocabulary
+in the discipline.
+
+## McCarthy's Mathematical Theory of Computation
+
+John McCarthy's paper
+A Basis for a Mathematical Theory of Computation,
+first delivered
+in preliminary form
+in nineteen sixty-one
+at the Western Joint Computer Conference
+in Los Angeles
+and published
+in expanded form
+in nineteen sixty-three
+in the volume
+Computer Programming and Formal Systems,
+edited by
+P. Braffort and D. Hirschberg
+for North-Holland,
+argued
+that a mathematical theory of computation
+was possible
+and that
+its central objects
+should be
+programs
+and
+their meanings,
+not merely
+computable functions
+in the abstract.
+
+The paper
+introduced
+several ideas
+that later work
+would develop.
+It proposed
+that
+programming languages
+should have
+a formal mathematical semantics
+independent of
+any particular implementation.
+It argued
+that
+the correctness of a program
+should be
+provable
+by mathematical reasoning
+rather than
+established
+only by testing.
+It introduced
+the notion of
+proving properties of programs
+by induction
+on the recursive structure
+of the definitions.
+It identified
+recursion induction
+as
+a proof technique
+specialized
+to
+the domain of
+recursive definitions.
+
+McCarthy's paper
+was
+influential
+less for
+the specific technical apparatus
+it developed
+than for
+the research program
+it proposed.
+That program,
+which asked
+what a program means
+mathematically
+and how one proves
+properties of programs,
+became
+the central research program
+of programming language theory
+in the following decade.
+Both
+denotational semantics
+and
+axiomatic semantics
+are
+downstream
+of McCarthy's proposal.
+
+## ALGOL 68
+
+The International Federation for Information Processing
+Working Group 2.1
+began work
+on a successor to ALGOL sixty
+in nineteen sixty-four.
+The working group's charter
+was
+to design a new algorithmic language
+that would supersede
+ALGOL sixty
+as
+the reference notation
+for algorithm publication
+and,
+if possible,
+as
+an implementation language.
+The design process
+was substantially more contested
+than
+the ALGOL sixty process
+had been.
+
+Adriaan van Wijngaarden
+at
+the Mathematical Centre in Amsterdam
+proposed
+a description technique
+called
+the two-level grammar,
+which later
+became known
+as
+the van Wijngaarden grammar.
+The technique
+addressed
+a specific limitation
+of Backus-Naur form,
+namely
+that context-sensitive constraints
+of a language,
+such as
+the requirement
+that a variable
+be declared
+before it is used,
+cannot be expressed
+in a context-free grammar
+alone.
+The two-level grammar
+supplied
+one context-free grammar
+for
+metasyntactic categories
+and
+a second context-free grammar
+generated from
+the first
+for
+the object-language syntax.
+The technique
+allowed
+precise
+and machine-checkable
+description
+of context-sensitive constraints.
+
+The two-level grammar
+gave
+the ALGOL sixty-eight report
+a level of precision
+that no prior programming language definition
+had achieved.
+It also
+made
+the report
+substantially harder to read
+than the ALGOL sixty report
+had been.
+The working group
+was divided
+on the question
+of whether the precision
+was worth the readability cost.
+A minority position,
+recorded
+in a Minority Report
+signed
+by
+Edsger Dijkstra,
+Niklaus Wirth,
+C. A. R. Hoare,
+Brian Randell,
+and several other members,
+argued
+that the language
+had become
+too complex
+and its description
+too opaque.
+The majority position
+prevailed.
+
+The final draft
+of the ALGOL sixty-eight report
+was adopted
+by the working group
+on
+December twentieth
+of nineteen sixty-eight
+at
+a meeting in Munich
+and
+approved for publication
+by
+the General Assembly of the International Federation for Information Processing.
+The editors of the report were
+A. van Wijngaarden,
+B. J. Mailloux,
+J. E. L. Peck,
+and C. H. A. Koster.
+A Revised Report
+appeared in nineteen seventy-six,
+with
+Lambert Meertens
+among the editors.
+
+ALGOL sixty-eight
+consolidated
+a substantial number of language design ideas
+into a single framework,
+including
+a type discipline
+that distinguished
+modes
+from
+values,
+first-class references,
+overloaded operators,
+and
+an orthogonal treatment
+of the interaction
+between
+control structures
+and
+expressions.
+The language
+was
+implemented
+in several places
+but was not widely adopted
+as
+an industrial language.
+Its principal legacy
+is
+the two-level grammar
+and
+the design lesson
+that
+precision of description
+and
+readability of the description
+can conflict
+and that
+committee design processes
+should treat that conflict explicitly
+rather than hope
+it will resolve itself.
+
+## Structured Programming as a Discipline
+
+Corrado Böhm
+and Giuseppe Jacopini
+published
+a paper
+in Communications of the ACM
+in May nineteen sixty-six
+titled
+Flow Diagrams, Turing Machines and Languages
+with Only Two Formation Rules.
+The paper proved
+that any program
+expressed
+as a flow chart
+could be rewritten
+as
+an equivalent program
+using
+only sequential composition,
+conditional selection,
+and iteration,
+without
+any unconditional branch instruction.
+The proof
+demonstrated
+that
+the goto statement
+was
+not necessary
+for
+computational completeness.
+The three constructs
+were sufficient.
+
+Edsger Dijkstra's
+letter
+Go To Statement Considered Harmful
+appeared in
+Communications of the ACM
+in March nineteen sixty-eight.
+The letter
+argued
+that
+programs
+whose control flow
+depended
+on
+unconditional branch instructions
+were
+substantially harder
+to reason about
+than programs
+that used
+only structured control constructs.
+Dijkstra's argument
+rested on
+a specific observation.
+The state of a program
+at
+a given point
+in
+its source code
+determines
+the possible executions
+that reach that point.
+A program
+that uses
+only structured constructs
+has
+a simple relationship
+between
+source code position
+and
+possible executions.
+A program
+that uses
+unstructured control flow
+has
+a substantially more complex relationship
+because
+the possible executions
+that reach
+a given source code position
+include
+any execution
+that could branch
+to that position.
+
+Dijkstra's letter,
+titled
+Go To Statement Considered Harmful
+by the editor
+Niklaus Wirth
+rather than
+by Dijkstra himself,
+launched
+a decades-long controversy
+that eventually resolved
+in favor of
+Dijkstra's position.
+Structured programming
+became
+the default
+in
+new language design
+and
+software engineering practice.
+The controversy
+was
+substantive
+rather than merely stylistic
+because
+the transition
+required
+programmers
+and language designers
+to give up
+a specific technique
+that was
+in wide use
+and,
+in exchange,
+receive
+a discipline
+whose benefits
+were only fully realized
+in
+the collective behavior
+of large software systems.
+
+The Böhm-Jacopini theorem
+provided
+the mathematical basis
+for
+the transition.
+Dijkstra's letter
+provided
+the engineering argument
+for it.
+The two together
+established
+that
+the goto statement
+was
+avoidable
+and its avoidance
+was
+worth the cost.
+
+## Hoare's Axiomatic Method
+
+Charles Antony Richard Hoare
+published
+An Axiomatic Basis for Computer Programming
+in
+Communications of the ACM
+volume twelve,
+issue ten,
+in October nineteen sixty-nine.
+The paper
+introduced
+what became known
+as
+Hoare logic,
+a formal system
+for proving
+that a program
+satisfies
+a specification.
+
+The system
+uses
+assertions
+about
+the state of a program
+at particular points
+in its execution.
+An assertion
+takes the form
+of a predicate
+over
+the values of program variables.
+A Hoare triple,
+written `{P} S {Q}`,
+consists of
+a precondition assertion `P`,
+a program statement `S`,
+and
+a postcondition assertion `Q`.
+The triple
+asserts
+that
+if the precondition holds
+before
+the statement executes
+and the statement terminates,
+then
+the postcondition holds
+afterward.
+
+Hoare's paper
+gave
+axiomatic rules
+for the standard programming constructs
+of a simple imperative language.
+Assignment
+had
+an axiom,
+written `{P[E/x]} x := E {P}`,
+which reads
+that the postcondition `P`
+on the assigned variable `x`
+holds after the assignment
+provided
+the postcondition
+with the expression `E`
+substituted for `x`
+held before.
+Sequential composition
+had
+a rule
+that combined
+two triples
+whose postcondition and precondition
+matched.
+Conditional selection
+had
+a rule
+that reasoned about
+each branch separately.
+Iteration
+had
+a rule
+that used
+a loop invariant,
+which is
+an assertion
+that holds
+before the loop begins,
+before every iteration,
+and after the loop terminates.
+The rules together
+provided
+a mechanical procedure
+for reducing
+the proof
+that a program
+satisfied
+its specification
+to
+the proof
+of a set of first-order logic obligations
+called
+verification conditions.
+
+Hoare's axiomatic method
+became
+the basis
+for
+program verification tools
+throughout
+the following decades.
+The Alan Turing Award
+that Hoare received
+in nineteen eighty
+cited
+this contribution
+as
+its central justification.
+The method
+also
+established
+the discipline of
+program specification
+as
+a distinct research program,
+which
+subsequent work
+in
+formal methods,
+model checking,
+and
+proof assistants
+would develop.
+
+## Approaches to Denotational Semantics
+
+Christopher Strachey
+at Oxford University
+had begun
+a research program
+on
+the mathematical semantics
+of programming languages
+in the mid nineteen sixties.
+His nineteen sixty-six lecture
+Fundamental Concepts in Programming Languages,
+delivered
+at
+a summer school
+in Copenhagen,
+laid out
+a research agenda
+for treating
+programming language constructs
+as
+mathematical objects.
+The lecture
+distinguished
+L-values
+from
+R-values,
+namely
+the value
+that a variable name denotes
+when
+it appears
+on the left-hand side of an assignment
+from
+the value
+it denotes
+when it appears
+on the right-hand side.
+The distinction
+had been
+implicit
+in
+the treatment
+of ALGOL sixty
+but
+Strachey's lecture
+made it
+explicit.
+
+Dana Scott
+visited
+Strachey's group
+at Oxford
+in the autumn of nineteen sixty-nine
+while on sabbatical
+from Princeton University.
+Scott joined the Oxford faculty
+formally
+in nineteen seventy-two
+as Professor of Mathematical Logic.
+Scott
+had been working
+independently
+on
+the mathematical foundations
+of computation.
+His nineteen sixty-nine paper
+Outline of a Mathematical Theory of Computation,
+delivered
+at
+the Princeton Fourth Annual Conference
+on Information Sciences and Systems,
+sketched
+a domain-theoretic approach
+to
+the mathematical semantics
+of recursive definitions.
+Scott's approach
+addressed
+a specific technical problem,
+namely
+the interpretation
+of
+recursive function definitions
+as
+mathematical objects.
+A recursive definition
+looks like
+an equation
+that
+a function
+must satisfy,
+but the ordinary rules
+for solving equations
+do not
+apply
+directly
+because
+the space of functions
+is
+not
+a set
+in the ordinary sense.
+Scott's domain theory
+provided
+the space
+in which
+the equation
+had
+a solution.
+
+The Scott and Strachey collaboration
+produced
+the paper
+Toward a Mathematical Semantics
+for Computer Languages,
+published in nineteen seventy-one
+by
+the Oxford University Computing Laboratory
+Programming Research Group.
+The paper
+launched
+what became known
+as
+denotational semantics
+or,
+in early literature,
+as
+mathematical semantics
+or
+Scott-Strachey semantics.
+The next article in this series
+will develop
+the denotational program
+in
+its nineteen seventies
+mature form.
+
+## What This Era Enables
+
+The nineteen sixties
+supplied
+four things
+that the following decade
+consumed.
+
+First,
+a research program
+in
+mathematical semantics,
+begun
+by McCarthy,
+extended by Strachey and Scott,
+that would produce
+denotational semantics
+as
+a working discipline
+in
+the nineteen seventies.
+
+Second,
+a mechanical proof technique
+for program correctness,
+namely
+Hoare's axiomatic method,
+that would produce
+axiomatic semantics
+as
+a companion approach
+to
+the denotational program.
+
+Third,
+a class of programming languages
+whose constructs
+were
+directly translatable
+into
+lambda calculus,
+in Landin's ISWIM sense,
+which would produce
+Standard ML,
+Miranda,
+and
+the modern family
+of statically typed
+functional languages
+in
+the nineteen seventies
+and
+nineteen eighties.
+
+Fourth,
+a class of programming languages
+whose constructs
+included
+classes,
+inheritance,
+and
+virtual procedures,
+in Simula sixty-seven's sense,
+which would produce
+Smalltalk,
+C plus plus,
+Java,
+and
+the object-oriented family
+in the following two decades.
+
+The decade
+also
+established
+two disciplinary questions
+that would organize
+programming language theory
+from then on.
+The first
+asks
+what a program means
+mathematically,
+which
+denotational and axiomatic semantics
+answer differently.
+The second
+asks
+what disciplines
+a programmer
+should submit to
+to write correct programs,
+which
+structured programming,
+type systems,
+and
+formal specification
+answer differently.
+The following article
+develops
+these questions
+in the nineteen seventies.
+
+## Conclusion
+
+The nineteen sixties
+turned
+the pre-nineteen-sixty foundations
+into
+a research discipline
+with
+a research agenda,
+a formalism,
+a proof technique,
+and
+a small set of exemplar languages
+that
+would organize
+subsequent work.
+The decade
+did not
+resolve
+the questions
+it opened.
+It made them
+sharp
+enough
+to be worked on
+in
+subsequent decades.
+
+The next article,
+A209,
+covers
+the first half
+of the nineteen seventies,
+during which
+the denotational semantics program
+matured
+and
+the pragmatic side
+of the decade
+produced
+Pascal
+and
+C.
+
+## References
+
+- [Böhm, Corrado and Jacopini, Giuseppe, Flow Diagrams, Turing Machines and Languages with Only Two Formation Rules, CACM 9, 1966][paper_bohm_jacopini]
+- [Dahl, Ole-Johan and Nygaard, Kristen, Class and Subclass Declarations, IFIP Working Conference on Simulation Languages, 1967][paper_dahl_nygaard]
+- [Dijkstra, Edsger W., Go To Statement Considered Harmful, CACM 11, 1968][paper_dijkstra_goto]
+- [Hoare, C. A. R., An Axiomatic Basis for Computer Programming, CACM 12, 1969][paper_hoare_axiomatic]
+- [Landin, Peter J., The Mechanical Evaluation of Expressions, The Computer Journal 6, 1964][paper_landin_secd]
+- [Landin, Peter J., A Correspondence Between ALGOL 60 and Church's Lambda-Notation, CACM 8, 1965][paper_landin_correspondence]
+- [Landin, Peter J., The Next 700 Programming Languages, CACM 9, 1966][paper_landin_700]
+- [McCarthy, John, A Basis for a Mathematical Theory of Computation, in Computer Programming and Formal Systems, North-Holland, 1963][paper_mccarthy_basis]
+- [McCarthy, John and Levin, Michael I., LISP 1.5 Programmer's Manual, MIT Press, 1962][book_mccarthy_lisp15]
+- [Scott, Dana S., Outline of a Mathematical Theory of Computation, Princeton Conference on Information Sciences and Systems, 1969][paper_scott_outline]
+- [Scott, Dana S. and Strachey, Christopher, Toward a Mathematical Semantics for Computer Languages, Oxford University Computing Laboratory, 1971][paper_scott_strachey_1971]
+- [Strachey, Christopher, Fundamental Concepts in Programming Languages, Copenhagen summer school lecture, 1966][paper_strachey_fundamental]
+- [van Wijngaarden, A., Mailloux, B. J., Peck, J. E. L., and Koster, C. H. A. (editors), Report on the Algorithmic Language ALGOL 68, Numerische Mathematik 14, 1969][paper_algol68_report]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+
+[book_mccarthy_lisp15]: https://en.wikipedia.org/wiki/Lisp_(programming_language)
+[paper_algol68_report]: https://en.wikipedia.org/wiki/ALGOL_68
+[paper_bohm_jacopini]: https://dl.acm.org/doi/10.1145/355592.365646
+[paper_dahl_nygaard]: https://en.wikipedia.org/wiki/Simula
+[paper_dijkstra_goto]: https://dl.acm.org/doi/10.1145/362929.362947
+[paper_hoare_axiomatic]: https://dl.acm.org/doi/10.1145/363235.363259
+[paper_landin_700]: https://dl.acm.org/doi/10.1145/365230.365257
+[paper_landin_correspondence]: https://dl.acm.org/doi/10.1145/363744.363749
+[paper_landin_secd]: https://en.wikipedia.org/wiki/SECD_machine
+[paper_mccarthy_basis]: http://www-formal.stanford.edu/jmc/basis.html
+[paper_scott_outline]: https://en.wikipedia.org/wiki/Denotational_semantics
+[paper_scott_strachey_1971]: https://en.wikipedia.org/wiki/Denotational_semantics
+[paper_strachey_fundamental]: https://en.wikipedia.org/wiki/Christopher_Strachey
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
