@@ -18,26 +18,26 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
-### Developments in Programming Language Theory series (A206-A215) — Draft
+### Developments in Programming Language Theory series (A206-A215) — Published
 
 **Files**:
-- `_drafts/programming_language_theory_as_a_historical_arc.markdown` (A206)
-- `_drafts/foundations_before_1960.markdown` (A207)
-- `_drafts/the_1960s.markdown` (A208)
-- `_drafts/the_1970s_part_i.markdown` (A209)
-- `_drafts/the_1970s_part_ii.markdown` (A210)
-- `_drafts/the_1980s.markdown` (A211)
-- `_drafts/the_1990s.markdown` (A212)
-- `_drafts/the_2000s.markdown` (A213)
-- `_drafts/the_2010s.markdown` (A214)
-- `_drafts/the_2020s_to_mid_2026.markdown` (A215)
+- `_posts/2026-03-27-programming_language_theory_as_a_historical_arc.markdown` (A206)
+- `_posts/2026-03-28-foundations_before_1960.markdown` (A207)
+- `_posts/2026-03-29-the_1960s.markdown` (A208)
+- `_posts/2026-03-30-the_1970s_part_i.markdown` (A209)
+- `_posts/2026-03-31-the_1970s_part_ii.markdown` (A210)
+- `_posts/2026-04-01-the_1980s.markdown` (A211)
+- `_posts/2026-04-02-the_1990s.markdown` (A212)
+- `_posts/2026-04-03-the_2000s.markdown` (A213)
+- `_posts/2026-04-04-the_2010s.markdown` (A214)
+- `_posts/2026-04-05-the_2020s_to_mid_2026.markdown` (A215)
 
 **Topic**: Ten-article historical arc covering developments in programming language theory from Alonzo Church's lambda calculus of the nineteen thirties to the current state of practice in mid two thousand twenty-six. A206 opens the series as a scaffold framing the seventy-year arc and identifying eight recurring threads (type systems, semantics, effect systems, information-flow control, refinement types, dependent types, coroutines and productivity, totality analysis) that the era articles develop. A207 covers pre-nineteen-sixty foundations (Church, Turing, Curry-Schönfinkel, Kleene, von Neumann, FORTRAN, LISP, ALGOL 58, ALGOL 60). A208 covers the nineteen sixties (LISP consolidation, Simula and OOP origins, Landin's SECD/ISWIM, McCarthy's mathematical theory, ALGOL 68, structured programming, Hoare's axiomatic method, Scott-Strachey denotational semantics). A209 covers the pragmatic side of the nineteen seventies (structured programming settled, denotational semantics maturation, Dijkstra's discipline, Pascal, C, Prolog, Concurrent Pascal, Modula, Backus's Turing Award critique of von Neumann style). A210 covers the theoretical side of the nineteen seventies (POPL founding, Hindley principal types, Milner LCF and first ML, Martin-Löf type theory, Curry-Howard correspondence formalization, Denning information-flow lattice). A211 covers the nineteen eighties (Prolog maturation with WAM, Standard ML research program, Miranda and Haskell precursors, category theory as working tool, Lucassen-Gifford effect systems, OOP maturation and OOPSLA founding). A212 covers the nineteen nineties (Standard ML Definition and OCaml, Haskell shipping through Haskell 98, monadic effects reaching practice, Freeman-Pfenning refinement types, Wright-Felleisen type soundness, Coq/PVS/Isabelle/HOL maturation, Andrew Myers JFlow, ICFP founding, industrial dynamic languages Java/JavaScript/Python). A213 covers the two thousands (Pierce Types and Programming Languages consolidation textbook, Coq and Agda maturation with Four Color Theorem and Agda 2, CompCert verified compilation, Rondon-Kawaguchi-Jhala Liquid Types, Siek-Taha gradual typing, HOPL III, new languages Scala/F-sharp/Clojure, dynamic language ascendancy, QuickCheck property-based testing). A214 covers the twenty tens (Rust ownership discipline reaching Rust 1.0 May 2015, F-star and Idris dependent types industrial use, Plotkin-Pretnar effect handlers maturation, Vazou Liquid Haskell as first production refinement-type system, session types entering industrial use, gradual typing reaching mainstream via TypeScript/Python/Ruby, Homotopy Type Theory book, new languages Swift/Kotlin/Elm/Elixir/Julia, WebAssembly). A215 covers the twenty twenties to mid two thousand twenty-six (HOPL IV virtual 2021, Lean 4 and Mathlib, Coq to Rocq rename 2025, OCaml 5.0 effect handlers December 2022, formal verification pipelines reaching production including CompCert Airbus and seL4 Foundation and HACL asterisk in Firefox and Windows, refinement types and information-flow labels in embedded scripting including Keleusma, WCET as first-class language property in Keleusma, new languages Zig/Roc/Verse, LLM-assisted programming language work, transition to periodic current-event surveys). Shared main title "Developments in Programming Language Theory," across all ten articles.
 
 **Article Numbers**: A206 through A215 (ten articles)
 **Completion**: 100%
 **Publication Sensibility**: High (comprehensive historical arc that closes with the current moment and hands off to periodic current-event surveys; supplies context for reader interpretation of subsequent PL theory developments; every article verified against primary sources with substantial web verification pass per article)
-**Status**: Draft in `_drafts/`. Total 14,309 lines across ten articles (A206 opener 801, A207 1153, A208 1408, A209 1478, A210 1348, A211 1260, A212 1586, A213 1675, A214 1851, A215 1749). All articles mathjax false, zero display equations, inline code notation used per article where load-bearing. Zero em-dashes, en-dashes, contractions, prose semicolons, or certification vocabulary. Sixty post_url cross-references, zero unresolved. Editorial dates 2026-03-27 through 2026-04-05 forming a consecutive-day back-dated block ending flush at 2026-04-05 one day before A188 compilers series. Categories `programming-languages theory history` uniform. Next available article number after publication: A216.
+**Status**: Published as batch on 2026-07-10. Total 14,309 lines across ten articles (A206 opener 801, A207 1153, A208 1408, A209 1478, A210 1348, A211 1260, A212 1586, A213 1675, A214 1851, A215 1749). All articles mathjax false, zero display equations, inline code notation used per article where load-bearing. Zero em-dashes, en-dashes, contractions, prose semicolons, or certification vocabulary. Sixty post_url cross-references, zero unresolved. Editorial dates 2026-03-27 through 2026-04-05 forming a consecutive-day back-dated block ending flush at 2026-04-05 one day before A188 compilers series. Categories `programming-languages theory history` uniform. Next available article number: A216.
 
 ### Getting Started with Keleusma 0.2.1 (A205) — Published
 
