@@ -1,0 +1,1851 @@
+---
+layout: post
+mathjax: false
+comments: true
+title:  "Developments in Programming Language Theory, The 2010s"
+date:   2026-04-04 09:00:00 +0000
+categories: programming-languages theory history
+---
+
+<!-- A214 -->
+<script>console.log("A214");</script>
+
+The twenty tens
+took
+the verification-oriented type features
+that
+[the previous article][related_post_a213]
+covers
+in
+their nineteen-nineties and two-thousands
+research forms
+and delivered
+them
+in
+production programming languages
+that
+substantial industrial software
+was written in.
+Rust,
+whose stable one point zero release
+appeared in
+May
+of two thousand fifteen,
+brought
+substructural type discipline
+into
+a widely adopted systems programming language
+through
+its ownership
+and
+borrow-checker mechanisms.
+F-star
+and Idris
+brought
+dependent-type programming
+into
+industrial use
+as
+verification-oriented
+and general-purpose programming languages
+respectively.
+Effect handlers
+matured
+from
+Gordon Plotkin
+and Matija Pretnar's
+two thousand nine paper
+into
+a working programming discipline
+that
+Multicore OCaml
+and
+subsequent languages
+would adopt.
+Liquid Haskell,
+published in
+two thousand fourteen
+by
+Niki Vazou
+and colleagues,
+brought
+[the liquid-types work][related_post_a213]
+of the two thousands
+into
+the first
+production-oriented
+refinement-type system.
+Session types,
+which
+Kohei Honda
+and colleagues
+had introduced in
+the nineteen nineties,
+entered
+industrial use
+through
+the multiparty session type program
+that
+extended
+their applicability
+to
+substantial distributed protocols.
+Gradual typing,
+which
+[Siek and Taha had opened as an intellectual project][related_post_a213]
+in
+two thousand six,
+reached mainstream adoption
+through
+TypeScript,
+Python type hints,
+and Ruby type systems.
+Homotopy type theory,
+formalized
+in
+the Univalent Foundations Program's
+two thousand thirteen book,
+extended
+Martin-Löf type theory
+with
+a specific mathematical structure
+that
+had substantial consequences
+for
+the interpretation
+of
+programs
+as
+mathematical objects.
+
+The twenty tens
+also
+produced
+substantial new statically typed programming languages
+that
+combined
+existing techniques
+into
+new distributions,
+including
+Swift,
+Kotlin,
+Elm,
+Elixir,
+and Julia.
+Each language
+combined
+several techniques
+that
+the previous decades
+had established
+into
+a form
+that fit
+a specific industrial demand.
+The languages
+were
+not
+primary theoretical contributions
+but
+each
+supplied
+a specific working environment
+that
+subsequent programming language research
+would engage with.
+
+## Rust and the Ownership Discipline
+
+Rust
+had begun
+as
+a personal project
+of
+Graydon Hoare
+at Mozilla
+in
+two thousand six.
+Mozilla
+sponsored the project
+formally
+in
+two thousand nine.
+The years
+between two thousand ten
+and two thousand fifteen
+saw
+substantial redesign
+of
+the language's type system
+around
+what became
+the ownership discipline.
+The ownership discipline
+established that
+every value
+in a program
+had
+exactly one owner
+at each point in time,
+and
+that
+a value
+could be
+borrowed
+by
+other parts of the program
+through
+references
+that
+carried
+lifetime information
+in
+their types.
+A reference
+is written
+`&T`
+for an immutable borrow
+of a value
+of type `T`,
+and
+`&mut T`
+for a mutable borrow
+that permits
+modification
+through the reference.
+The borrow checker
+verified
+that
+borrows
+did not
+outlive
+the values
+they referenced
+and that
+mutable and immutable borrows
+did not
+overlap
+in ways
+that
+would violate
+the ownership discipline.
+
+The Rust ownership discipline
+was
+substantially indebted to
+the substructural type systems
+that
+programming language research
+had developed
+across
+the nineteen nineties
+and two thousands.
+Linear types,
+which
+Philip Wadler
+had introduced in
+his nineteen ninety paper
+Linear Types Can Change the World,
+gave
+each value
+a use-exactly-once discipline.
+Affine types,
+which
+were a relaxation
+of linear types,
+allowed
+a value
+to be used
+at most once.
+Rust's ownership discipline
+adopted
+an affine treatment
+by
+default,
+extended with
+a borrowing mechanism
+that
+allowed
+non-consuming access
+to
+a value
+without
+transferring ownership.
+The borrow checker
+implemented
+the discipline
+in
+a form
+that
+carried substantial ergonomic engineering
+alongside
+its formal foundation.
+
+Rust one point zero
+appeared
+on
+May fifteenth
+of
+two thousand fifteen.
+The release
+consolidated
+the ownership discipline,
+the borrow checker,
+and
+a substantial standard library
+into
+a stable programming language.
+Rust's memory safety guarantees
+without
+a garbage collector
+distinguished it
+from
+the other statically typed languages
+of
+the following decade,
+which
+substantially relied
+on
+garbage collection
+for
+memory management.
+Rust
+became
+the primary vehicle
+for
+systems programming
+whose
+performance
+and
+memory-safety requirements
+did not
+tolerate
+the overhead of
+garbage collection.
+
+The language's adoption
+extended
+substantially
+beyond
+its initial browser-engine
+target
+into
+operating-system kernels,
+distributed-systems infrastructure,
+cryptographic libraries,
+and
+substantial industrial software
+generally.
+The Linux kernel
+began
+accepting Rust code
+in two thousand twenty-two.
+Microsoft
+began
+rewriting portions of Windows
+in Rust
+across
+the same period.
+The rewrite pattern,
+in which
+industrial software
+that
+had been written in C or C++
+was
+rewritten in Rust
+for
+memory safety,
+became
+the primary industrial motivation
+for
+Rust adoption.
+
+## F-star and Idris, Dependent Types Reach Industrial Use
+
+Nikhil Swamy
+and colleagues
+at
+Microsoft Research
+began
+the F-star project
+in
+two thousand eleven.
+The initial technical report,
+Microsoft Research Technical Report MSR-TR two thousand eleven-thirty seven,
+described
+a dependently typed language
+for
+secure distributed programming.
+The subsequent
+F-star line
+extended
+the language
+into
+a general-purpose,
+verification-oriented,
+effectful
+programming language
+whose type system
+supported
+dependent types,
+refinement types,
+and
+monadic effects
+in
+a single framework.
+The project
+became
+a collaboration
+between
+Microsoft Research,
+INRIA,
+the University of Maryland,
+the École Normale Supérieure Paris,
+and
+the IMDEA Software Institute.
+
+F-star
+compiles
+verified programs
+to
+executable code
+in
+OCaml,
+F sharp,
+or C.
+The verification
+happens
+at
+compile time
+through
+a combination of
+the type checker
+and
+external
+satisfiability-modulo-theories solvers,
+which
+[the previous article on liquid types][related_post_a213]
+introduces.
+The verified-compilation approach
+allowed
+F-star
+to
+produce
+substantial industrial verified code,
+including
+the miTLS Transport Layer Security implementation
+and
+the HACL asterisk cryptographic library.
+Both artifacts
+became
+part of
+production browser
+and
+operating system
+security infrastructure
+across
+the following decade.
+
+Edwin Brady
+introduced
+Idris
+in
+his two thousand eleven paper
+IDRIS,
+Systems Programming Meets Full Dependent Types,
+delivered at
+the fifth Programming Languages
+Meets Program Verification workshop.
+Idris
+was
+designed
+as
+a general-purpose dependently typed programming language
+whose target
+was
+practical programming
+rather than
+proof-oriented mechanized mathematics.
+The language
+provided
+type-driven development
+in
+which
+the type of a function
+guided
+the programmer
+through
+the construction
+of the function's implementation.
+The type checker
+could
+generate
+partial implementations
+from
+type signatures
+that
+the programmer
+then completed.
+
+Brady
+published
+Type-Driven Development with Idris
+through
+Manning Publications
+in two thousand seventeen.
+The book
+became
+the standard introduction
+to
+dependently typed programming
+outside
+the proof-assistant tradition.
+Idris 2
+appeared in
+two thousand twenty
+with
+substantial redesign
+around
+the quantitative type theory
+that
+Robert Atkey
+had developed,
+which
+allowed
+the type system
+to
+track
+resource usage
+in
+its types.
+Idris
+became
+substantially
+the reference implementation
+of
+practical dependent-type programming
+alongside
+Agda,
+which
+[the previous article][related_post_a213]
+covers.
+
+## Effect Handlers Mature
+
+Gordon Plotkin
+and Matija Pretnar's
+two thousand nine paper
+Handlers of Algebraic Effects,
+delivered at
+the eighteenth European Symposium on Programming,
+introduced
+what became known
+as
+algebraic effect handlers.
+The journal version,
+Handling Algebraic Effects,
+appeared in
+Logical Methods in Computer Science
+volume nine,
+issue four,
+in two thousand thirteen.
+The formalism
+generalized
+exception handling
+from
+Modula-2
+and Ada
+to
+a uniform treatment
+of
+computational effects
+including
+nondeterminism,
+input-output,
+concurrency,
+state,
+and
+their combinations.
+
+The algebraic effects and handlers approach
+distinguished
+between
+the operations
+that a program
+could perform
+and
+the handlers
+that specified
+how those operations
+were interpreted.
+An operation
+was
+declared
+without
+a specific implementation.
+A program
+invoked an operation
+by writing
+`perform op`,
+which suspended
+the program
+until
+a handler
+supplied
+an interpretation.
+A handler
+supplied
+the interpretation
+by
+mapping
+each operation
+to
+a continuation
+that
+the handler
+could
+call zero,
+one,
+or many times
+to
+resume
+the program's execution,
+written
+`handle e with h`
+where `h`
+supplies
+the interpretation
+of every operation
+that expression `e`
+might perform.
+The mechanism
+was
+substantially more expressive
+than
+the monadic approach
+that
+[the previous article on nineteen-nineties Haskell][related_post_a212]
+covers,
+in that
+it
+allowed
+effects to be
+composed
+without
+the monad-transformer
+apparatus
+that
+Haskell had required.
+
+Effect handlers
+matured
+into
+a working programming discipline
+across the decade
+through
+several implementations.
+The Eff language,
+which
+Andrej Bauer
+and Matija Pretnar
+developed
+across
+the early twenty tens
+following their
+two thousand ten paper
+Programming with Algebraic Effects and Handlers,
+was
+the first production language
+that
+carried
+effect handlers
+as
+a first-class feature.
+Multicore OCaml,
+whose development
+began in
+two thousand fourteen
+at
+Cambridge University
+and IIT Madras,
+brought
+effect handlers
+into
+OCaml
+as
+the underlying mechanism
+for
+its concurrency support.
+The system
+would become
+part of
+mainline OCaml
+in
+version five point zero
+in
+two thousand twenty-two.
+The Koka language,
+by Daan Leijen
+at Microsoft Research,
+combined
+effect handlers
+with
+a row-polymorphic effect type discipline
+that
+gave
+each expression
+a type carrying
+the effects
+it might cause.
+The Frank language,
+by Sam Lindley
+and colleagues,
+integrated
+effect handlers
+into
+a dependently typed setting.
+
+The effect-handler discipline
+became
+substantially
+the twenty-tens successor
+to
+the monadic approach
+of
+[the previous article][related_post_a212].
+Where
+monads
+required
+a specific
+monadic type
+that
+the program
+was structured around,
+effect handlers
+allowed
+a program
+to be written
+in
+direct style
+that
+made
+the effects explicit
+in
+the operation calls
+without
+requiring
+the program
+to be
+restructured
+into
+monadic bind chains.
+
+## Liquid Haskell as First Production Refinement Types
+
+Niki Vazou,
+Eric L. Seidel,
+Ranjit Jhala,
+Dimitrios Vytiniotis,
+and Simon Peyton Jones
+published
+Refinement Types for Haskell
+at
+the nineteenth International Conference
+on Functional Programming
+in
+two thousand fourteen.
+The system,
+known as
+Liquid Haskell,
+took
+[the liquid-types work][related_post_a213]
+that Rondon,
+Kawaguchi,
+and Jhala
+had introduced
+in
+two thousand eight
+and
+integrated it
+into Haskell
+as
+a compiler plugin
+that
+verified refinement annotations
+against
+the Haskell type system.
+
+A companion paper,
+LiquidHaskell,
+Experience with Refinement Types in the Real World,
+by
+Vazou,
+Seidel,
+and Jhala,
+appeared at
+the two thousand fourteen
+ACM SIGPLAN Symposium on Haskell
+in
+Gothenburg,
+Sweden.
+The paper
+reported
+on
+the application
+of Liquid Haskell
+to
+substantial Haskell libraries
+including
+Data.ByteString,
+Data.Text,
+Data.Map,
+and Data.Vector.
+The experience
+established that
+refinement-type verification
+was
+practical
+at
+production-library scale
+and
+that
+the resulting refinement annotations
+carried
+substantial documentation value
+for
+future readers
+of
+the code
+in
+addition to
+their verification content.
+
+Liquid Haskell
+became
+substantially
+the first production-scale
+refinement-type system.
+Its users
+were
+substantially outside
+the original research group,
+which
+distinguished it
+from
+prior refinement-type systems
+whose users
+had been
+substantially
+the systems' designers.
+The tool
+would be used
+across
+the following decade
+in
+substantial industrial verification work
+including
+the Amazon Web Services
+IronFleet
+and Vale
+verified-cryptography projects.
+Vazou's two thousand seventeen doctoral dissertation
+Liquid Haskell,
+Haskell as a Theorem Prover
+consolidated
+the technical treatment
+of the system.
+
+## Session Types Enter Industrial Use
+
+Session types
+had been introduced by
+Kohei Honda
+in
+his nineteen ninety-three paper
+Types for Dyadic Interaction,
+delivered at
+the fourth International Conference
+on Concurrency Theory.
+The nineteen-nineties formulation
+treated
+communication between
+exactly two parties
+over
+a single channel.
+A session type
+such as
+`!T.S`
+describes a channel
+that sends
+a value of type `T`
+and then behaves
+as session `S`,
+and
+`?T.S`
+describes a channel
+that receives
+a value of type `T`
+and then behaves
+as session `S`.
+The terminated session
+is written `end`.
+Nobuko Yoshida
+and colleagues
+extended
+the treatment
+to
+multiparty session types
+in
+their two thousand eight paper
+Multiparty Asynchronous Session Types,
+delivered at
+the thirty-fifth Symposium
+on Principles of Programming Languages.
+The multiparty extension
+allowed
+session types
+to
+describe
+protocols
+involving
+arbitrarily many
+participating parties.
+
+The twenty tens
+saw
+substantial industrial application
+of
+multiparty session types.
+The Scribble protocol description language,
+developed
+by
+Yoshida
+and colleagues
+at
+Imperial College London,
+became
+a working notation
+for
+describing
+distributed-system protocols
+in
+a form
+that
+compilers
+could translate
+into
+executable code
+in
+substantial mainstream languages
+including
+Java,
+Python,
+Go,
+and Rust.
+The Mungo tool
+extended
+Java
+with
+session-type checking
+of
+class-method call sequences.
+The Sesh library
+extended
+Haskell
+with
+runtime session-type checking.
+
+The technique
+matured
+substantially
+through
+industrial use cases
+in
+the microservices
+and
+distributed-systems
+domains
+where
+the specification
+of
+interaction protocols
+between
+distinct services
+was
+a substantial engineering problem.
+Session types
+supplied
+a specific technical framework
+for
+that specification
+that
+prior program-verification techniques
+had not addressed
+directly.
+Industrial adoption
+was
+substantial
+though not
+dominant
+by
+the end of the decade.
+
+## Gradual Typing Reaches Mainstream
+
+TypeScript,
+released by
+Microsoft
+in
+October
+of two thousand twelve,
+was
+the first
+industrial-scale
+gradually typed language.
+The language
+was designed by
+Anders Hejlsberg,
+who had previously
+led
+the design of
+C sharp
+at Microsoft.
+TypeScript
+extended
+JavaScript
+with
+static type annotations
+that
+the TypeScript compiler
+verified
+before
+compiling
+the program
+to
+JavaScript.
+The dynamic type discipline
+that
+[Siek and Taha had introduced][related_post_a213]
+appeared in TypeScript
+as
+the `any` type,
+which
+allowed
+values
+to
+escape
+static type checking.
+
+TypeScript's adoption
+was
+substantially rapid
+across
+the following decade.
+Major JavaScript frameworks
+including
+Angular,
+React,
+and Vue
+adopted
+TypeScript
+as
+their primary implementation language
+or
+as
+a first-class alternative
+to
+untyped JavaScript.
+By the end of
+the decade,
+TypeScript
+had substantially replaced
+JavaScript
+as
+the default choice
+for
+new web-application code
+in
+substantial portions
+of
+industrial practice.
+
+Python's type-hint system,
+introduced
+in
+Python 3.5
+in
+September
+of two thousand fifteen
+through
+PEP 484,
+brought
+gradual typing
+to Python.
+The system
+did not
+carry
+runtime enforcement
+in
+the standard Python implementation.
+Instead,
+separate type checkers
+including
+Mypy,
+Pyright,
+Pyre,
+and Pytype
+verified
+type annotations
+at development time
+without affecting
+runtime behavior.
+The separation
+of
+type checking
+from
+runtime execution
+allowed
+Python
+to
+carry
+type annotations
+as
+optional documentation
+and verification
+without
+requiring
+existing untyped code
+to be
+retrofitted
+with annotations.
+
+Ruby
+followed a similar path
+with
+the RBS type-signature format
+and
+the Sorbet type checker
+that
+Stripe released
+publicly
+in
+two thousand nineteen.
+Sorbet
+brought
+gradual typing
+to
+a substantial industrial Ruby codebase
+and
+demonstrated
+that
+gradual typing
+scaled
+to
+codebases
+of
+millions of lines.
+The Ruby community
+subsequently
+adopted
+RBS
+as
+the standard type-signature format,
+with
+type checkers
+implementing
+the RBS specification
+supplied by
+Stripe
+and
+Ruby core team members.
+
+Typed Racket,
+which
+[the previous article][related_post_a213]
+mentions
+as
+Typed Scheme
+before
+the two thousand ten rename,
+continued
+across
+the decade
+as
+the primary academic research vehicle
+for
+gradual typing.
+Sam Tobin-Hochstadt
+and Matthias Felleisen's
+two thousand eight paper
+The Design and Implementation of Typed Scheme,
+which
+predated
+the rename,
+had established
+the technical foundations
+that
+Typed Racket
+continued to develop.
+
+## Homotopy Type Theory
+
+Vladimir Voevodsky
+and colleagues
+at
+the Institute for Advanced Study
+in Princeton
+led
+a Special Year
+on
+Univalent Foundations of Mathematics
+across
+two thousand twelve
+and two thousand thirteen.
+The Special Year
+produced
+the book
+Homotopy Type Theory,
+Univalent Foundations of Mathematics,
+published
+in
+two thousand thirteen
+under
+a Creative Commons license
+by
+The Univalent Foundations Program.
+The book
+was
+substantially
+a collective work
+of
+the participants
+in the Special Year
+rather than
+a single-author monograph.
+
+Homotopy type theory
+extended
+Martin-Löf's type theory
+that
+[the previous article on the nineteen seventies][related_post_a210]
+covers
+with
+what became known as
+the univalence axiom.
+The axiom
+stated
+that
+equivalent types
+were
+equal
+as
+mathematical objects.
+The axiom
+was
+substantially controversial
+within
+the type theory community
+because
+it
+was not
+constructive
+in
+the traditional sense
+that
+Martin-Löf type theory
+had established.
+The controversy
+was resolved
+substantially
+through
+subsequent work
+on
+cubical type theory
+by
+Cyril Cohen,
+Thierry Coquand,
+Simon Huber,
+and Anders Mörtberg
+in
+two thousand fifteen
+and two thousand sixteen,
+which
+provided
+a constructive
+formulation
+of univalence.
+
+The homotopy type theory program
+had substantial consequences
+for
+the interpretation
+of programs
+as
+mathematical objects.
+Higher inductive types,
+which
+the theory introduced,
+gave
+type theory
+a mechanism
+for
+representing
+quotient types
+and
+other equivalence-class constructions
+that
+prior formulations
+had handled
+awkwardly.
+The Cubical Agda
+and cubical fragment of Coq
+made
+homotopy type theory
+practical
+for
+mechanized mathematical work.
+The impact
+on
+programming language design
+was
+substantially
+indirect,
+through
+the influence
+on
+subsequent
+dependent-type systems
+of
+languages
+including
+Idris
+and Lean.
+
+## New Languages of the Decade
+
+Five new statically typed programming languages
+of
+the decade
+would
+influence
+subsequent programming language design.
+
+Swift
+was announced by
+Apple
+in June
+of two thousand fourteen
+and released
+publicly
+in October
+of the same year.
+The language
+was designed by
+Chris Lattner
+and colleagues
+as
+a successor
+to Objective-C
+for
+Apple's platforms.
+Swift
+combined
+the object-oriented model
+of Objective-C
+with
+functional-programming influences
+from Standard ML
+and Haskell,
+value-type discipline,
+and
+a substantial standard library.
+The language
+became
+the primary programming language
+for
+Apple platform development
+across the following decade.
+
+Kotlin
+was released by
+JetBrains
+in
+February
+of two thousand sixteen
+after
+initial development
+starting in
+two thousand eleven.
+The language
+was
+designed by
+Andrey Breslav
+and colleagues
+as
+a language
+whose
+programs
+compiled
+to
+Java Virtual Machine bytecode
+and
+could interoperate
+seamlessly with
+existing Java code.
+Google
+adopted Kotlin
+as
+the primary Android development language
+in
+two thousand seventeen,
+which
+made Kotlin
+the default choice
+for
+Android application development
+across
+the remainder
+of the decade.
+
+Elm
+was released by
+Evan Czaplicki
+in
+two thousand twelve.
+The language
+was
+a Haskell-derived
+purely functional programming language
+targeting
+web-browser frontends.
+Elm
+consolidated
+several ideas from
+the Haskell tradition
+including
+purity,
+immutable data,
+and algebraic data types
+into
+a language
+whose learning curve
+was
+substantially shorter
+than Haskell's
+and whose runtime
+did not carry
+the space and time behaviors
+of
+lazy evaluation.
+The language
+influenced
+the design of
+subsequent front-end frameworks
+including
+The Elm Architecture pattern
+that Redux
+in the JavaScript ecosystem
+adopted.
+
+Elixir
+was released by
+José Valim
+in two thousand twelve.
+The language
+compiled to
+the Erlang virtual machine bytecode
+and
+inherited
+Erlang's
+actor-based concurrency model
+and fault-tolerance discipline
+that
+[the article on the nineteen eighties][related_post_a211]
+mentions.
+Elixir
+provided
+a substantially more approachable surface syntax
+than
+Erlang
+along with
+macro-based metaprogramming
+that
+gave
+library designers
+substantial expressive power.
+The language
+became
+the primary programming language
+for
+Erlang-VM-based systems
+in
+industrial contexts
+where
+the Erlang ecosystem
+was
+architecturally appropriate.
+
+Julia
+was released by
+Jeff Bezanson,
+Stefan Karpinski,
+Viral Shah,
+and Alan Edelman
+at
+the Massachusetts Institute of Technology
+in
+two thousand twelve.
+The language
+was designed
+as
+a dynamically typed language
+whose
+just-in-time compilation
+and
+multiple-dispatch discipline
+gave it
+performance
+comparable to
+FORTRAN and C
+on
+numerical benchmarks.
+Julia
+was
+intended
+as
+a competitor to
+NumPy-and-Python
+and MATLAB
+for
+scientific computing,
+and
+achieved
+substantial adoption
+in
+scientific-computing contexts
+where
+the Python performance ceiling
+was
+a practical concern.
+
+## WebAssembly and Bytecode Portability
+
+WebAssembly,
+which
+several browser vendors
+proposed
+in
+two thousand fifteen
+and
+which reached
+its
+one point zero version
+in
+two thousand seventeen,
+provided
+a
+portable bytecode
+that
+substantial existing programming languages
+including
+C,
+C plus plus,
+and Rust
+could compile to.
+The bytecode
+was
+designed
+for
+efficient interpretation
+in
+web browsers
+and
+subsequently
+extended
+to
+server-side
+and edge-computing runtimes.
+
+WebAssembly's design
+drew on
+the single-pass validation tradition
+that
+[the stream-based compilers series conclusion][related_post_compilers_streaming]
+covers
+for
+its safety-property guarantees.
+The bytecode
+carried
+a fixed-size instruction encoding,
+a block-structured control flow,
+and
+a validation discipline
+that
+allowed
+the entire bytecode module
+to be verified
+in
+a single pass
+of
+constant working memory.
+The validation guarantees
+established
+that
+a well-formed WebAssembly module
+would
+not
+violate
+memory safety,
+would not
+depend on
+unspecified behavior,
+and
+would
+not
+execute
+outside its declared resource bounds.
+
+WebAssembly
+became
+substantially
+the second half
+of a portability story
+that
+had begun with
+Java bytecode
+in
+[the previous article][related_post_a212].
+Where
+Java bytecode
+had assumed
+a garbage-collected
+object-oriented runtime,
+WebAssembly
+assumed
+no runtime services beyond
+memory allocation,
+which
+allowed languages
+including Rust
+to compile to
+WebAssembly
+without
+requiring
+their runtime systems
+to be
+substantially reengineered.
+The Wasmtime,
+Wasmer,
+and WasmEdge runtimes
+established
+server-side WebAssembly
+as
+a working deployment target
+by
+the end of the decade.
+
+## What This Era Enables
+
+The twenty tens
+supplied
+nine things
+that
+subsequent work
+would build on.
+
+First,
+Rust
+as
+a widely adopted systems programming language
+with
+statically enforced
+memory safety
+without
+garbage collection,
+which
+established
+substructural type discipline
+as
+a practical technique.
+
+Second,
+F-star
+as
+a working
+verification-oriented
+programming language
+whose
+verified artifacts
+appeared in
+production
+security infrastructure.
+
+Third,
+Idris
+as
+a working
+general-purpose
+dependently typed language
+outside
+the proof-assistant tradition.
+
+Fourth,
+effect handlers
+as
+a practical concurrency and effects mechanism
+through
+Eff,
+Koka,
+Multicore OCaml,
+and Frank.
+
+Fifth,
+Liquid Haskell
+as
+the first
+production-scale refinement-type system.
+
+Sixth,
+multiparty session types
+as
+a working technique
+for
+distributed-protocol specification.
+
+Seventh,
+gradual typing
+at industrial scale
+through
+TypeScript,
+Python type hints,
+and Ruby Sorbet.
+
+Eighth,
+homotopy type theory
+as
+an extension
+of dependent-type theory
+that
+subsequent proof assistants
+and
+programming languages
+would engage with.
+
+Ninth,
+WebAssembly
+as
+a portable bytecode
+that
+statically typed languages
+could target
+without
+requiring
+runtime services
+beyond
+memory allocation.
+
+The next article,
+A215,
+covers
+the twenty twenties
+to the present.
+
+## Conclusion
+
+The twenty tens
+productionized
+the verification-oriented type features
+that
+prior decades
+had developed
+in
+research settings.
+Rust
+brought
+substructural type discipline
+into
+widely adopted industrial use.
+F-star and Idris
+brought
+dependent types
+into
+practical programming.
+Effect handlers
+matured
+into
+a working alternative to monads.
+Liquid Haskell
+brought
+refinement types
+into
+practical Haskell development.
+Session types
+entered
+industrial distributed-system practice.
+Gradual typing
+reached
+substantial portions of
+web,
+scripting,
+and
+enterprise software.
+Homotopy type theory
+extended
+the mathematical foundations
+of
+dependent-type theory.
+WebAssembly
+established
+a portable bytecode
+that
+did not
+assume
+a garbage-collected runtime.
+
+The next article,
+A215,
+covers
+the twenty twenties
+to the present.
+
+## References
+
+- [Brady, Edwin C., IDRIS, Systems Programming Meets Full Dependent Types, PLPV, 2011][paper_brady_idris]
+- [Cohen, Cyril, Coquand, Thierry, Huber, Simon, and Mörtberg, Anders, Cubical Type Theory, A Constructive Interpretation of the Univalence Axiom, TYPES, 2015][paper_cubical]
+- [Honda, Kohei, Yoshida, Nobuko, and Carbone, Marco, Multiparty Asynchronous Session Types, POPL, 2008][paper_multiparty_session]
+- [Plotkin, Gordon and Pretnar, Matija, Handlers of Algebraic Effects, ESOP, 2009][paper_plotkin_pretnar_esop]
+- [Plotkin, Gordon and Pretnar, Matija, Handling Algebraic Effects, Logical Methods in Computer Science 9, 2013][paper_plotkin_pretnar_lmcs]
+- [Swamy, Nikhil et al., Secure Distributed Programming with Value-Dependent Types, MSR-TR-2011-37, 2011][paper_fstar_initial]
+- [Univalent Foundations Program, Homotopy Type Theory, Univalent Foundations of Mathematics, Institute for Advanced Study, 2013][book_hott]
+- [Vazou, Niki, Seidel, Eric L., Jhala, Ranjit, Vytiniotis, Dimitrios, and Peyton Jones, Simon, Refinement Types for Haskell, ICFP, 2014][paper_vazou_refinement_haskell]
+- [Vazou, Niki, Seidel, Eric L., and Jhala, Ranjit, LiquidHaskell, Experience with Refinement Types in the Real World, Haskell Symposium, 2014][paper_vazou_liquidhaskell]
+- [Wadler, Philip, Linear Types Can Change the World, IFIP TC 2 Working Conference on Programming Concepts and Methods, 1990][paper_wadler_linear]
+- [Related Post, Programming Language Theory as a Historical Arc][related_post_a206]
+- [Related Post, Foundations before 1960][related_post_a207]
+- [Related Post, The 1960s][related_post_a208]
+- [Related Post, The 1970s Part I][related_post_a209]
+- [Related Post, The 1970s Part II][related_post_a210]
+- [Related Post, The 1980s][related_post_a211]
+- [Related Post, The 1990s][related_post_a212]
+- [Related Post, The 2000s][related_post_a213]
+
+[book_hott]: https://homotopytypetheory.org/book/
+[paper_brady_idris]: https://www.type-driven.org.uk/edwinb/papers/plpv11.pdf
+[paper_cubical]: https://arxiv.org/abs/1611.02108
+[paper_fstar_initial]: https://www.microsoft.com/en-us/research/publication/secure-distributed-programming-with-value-dependent-types/
+[paper_multiparty_session]: https://dl.acm.org/doi/10.1145/1328897.1328472
+[paper_plotkin_pretnar_esop]: https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7
+[paper_plotkin_pretnar_lmcs]: https://arxiv.org/abs/1312.1399
+[paper_vazou_liquidhaskell]: https://dl.acm.org/doi/10.1145/2633357.2633366
+[paper_vazou_refinement_haskell]: https://dl.acm.org/doi/10.1145/2628136.2628161
+[paper_wadler_linear]: https://homepages.inf.ed.ac.uk/wadler/topics/linear-logic.html
+[related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
+[related_post_a208]: {% post_url 2026-03-29-the_1960s %}
+[related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[related_post_a210]: {% post_url 2026-03-31-the_1970s_part_ii %}
+[related_post_a211]: {% post_url 2026-04-01-the_1980s %}
+[related_post_a212]: {% post_url 2026-04-02-the_1990s %}
+[related_post_a213]: {% post_url 2026-04-03-the_2000s %}
+[related_post_compilers_streaming]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
