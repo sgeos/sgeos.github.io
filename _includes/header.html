@@ -19,6 +19,26 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
+
+        <details class="category-menu">
+          <summary class="page-link category-menu-toggle">Categories<span class="caret" aria-hidden="true">▾</span></summary>
+          <div class="category-menu-panel">
+            {% assign sorted_categories = site.categories | sort %}
+            <ul class="category-menu-list">
+              {% for cat in sorted_categories %}
+                <li>
+                  <a href="{{ '/categories/' | append: cat[0] | append: '/' | prepend: site.baseurl }}">
+                    <span class="cat-name">{{ cat[0] }}</span>
+                    <span class="cat-count">{{ cat[1] | size }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+            <p class="category-menu-footer">
+              <a href="{{ '/categories/' | prepend: site.baseurl }}">Browse all →</a>
+            </p>
+          </div>
+        </details>
       </div>
     </nav>
 
