@@ -234,7 +234,8 @@
         position: absolute;
         top: 100%;
         right: 0;
-        width: min(680px, 90vw);
+        width: 680px;
+        max-width: 90vw;
         max-height: 500px;
         overflow-y: auto;
         margin-top: 6px;
