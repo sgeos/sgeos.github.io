@@ -57,6 +57,35 @@ $on-laptop:        800px;
     --grey-color-light: #{$grey-color-light};
     --grey-color-dark: #{$grey-color-dark};
     --code-background-color: #eef;
+
+    // Syntax highlighting palette. Semantic naming rather than color
+    // names so the dark override can substitute without renaming.
+    --syntax-bg: #ffffff;
+    --syntax-comment: #8a8a80;
+    --syntax-error-fg: #a61717;
+    --syntax-error-bg: #e3d2d2;
+    --syntax-diff-fg: #000000;
+    --syntax-diff-inserted-bg: #ddffdd;
+    --syntax-diff-inserted-bg-specific: #aaffaa;
+    --syntax-diff-deleted-bg: #ffdddd;
+    --syntax-diff-deleted-bg-specific: #ffaaaa;
+    --syntax-generic-error: #aa0000;
+    --syntax-generic-heading: #999999;
+    --syntax-generic-subheading: #aaaaaa;
+    --syntax-generic-output: #888888;
+    --syntax-generic-prompt: #555555;
+    --syntax-number: #009999;
+    --syntax-string: #dd1144;
+    --syntax-string-regex: #009926;
+    --syntax-string-symbol: #990073;
+    --syntax-name-attr: #008080;
+    --syntax-name-builtin: #0086b3;
+    --syntax-name-class: #445588;
+    --syntax-name-decorator: #800080;
+    --syntax-name-function: #990000;
+    --syntax-name-namespace: #555555;
+    --syntax-name-tag: #000080;
+    --syntax-whitespace: #bbbbbb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,7 +97,38 @@ $on-laptop:        800px;
         --grey-color: #a0a0a0;
         --grey-color-light: #3a3a3a;
         --grey-color-dark: #d0d0d0;
-        --code-background-color: #1e2030;
+        --code-background-color: #0d1117;
+
+        // Dark syntax palette. Follows GitHub Dark conventions for the
+        // widely used tokens (comment, keyword, string, number,
+        // function, class, tag) while keeping diff backgrounds tinted
+        // deep red and green for legibility.
+        --syntax-bg: #0d1117;
+        --syntax-comment: #8b949e;
+        --syntax-error-fg: #f85149;
+        --syntax-error-bg: #490202;
+        --syntax-diff-fg: #e6e6e6;
+        --syntax-diff-inserted-bg: #033a16;
+        --syntax-diff-inserted-bg-specific: #0f5323;
+        --syntax-diff-deleted-bg: #3c0912;
+        --syntax-diff-deleted-bg-specific: #67060c;
+        --syntax-generic-error: #f85149;
+        --syntax-generic-heading: #8b949e;
+        --syntax-generic-subheading: #a0a0a0;
+        --syntax-generic-output: #a0a0a0;
+        --syntax-generic-prompt: #d0d0d0;
+        --syntax-number: #79c0ff;
+        --syntax-string: #a5d6ff;
+        --syntax-string-regex: #7ee787;
+        --syntax-string-symbol: #f2cc60;
+        --syntax-name-attr: #7ee787;
+        --syntax-name-builtin: #79c0ff;
+        --syntax-name-class: #ffa657;
+        --syntax-name-decorator: #d2a8ff;
+        --syntax-name-function: #d2a8ff;
+        --syntax-name-namespace: #a0a0a0;
+        --syntax-name-tag: #7ee787;
+        --syntax-whitespace: #484848;
     }
 }
 
