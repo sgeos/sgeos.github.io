@@ -16,7 +16,7 @@ layout: default
     <ul class="post-list">
       {% for post in year.items %}
         <li>
-          <span class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y %H:%M %Z" }}</time></span>
+          <span class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d %H:%M %Z" }}</time></span>
           <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h3>
