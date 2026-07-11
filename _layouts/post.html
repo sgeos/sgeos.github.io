@@ -32,15 +32,15 @@ layout: default
 }
 </script>
 
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="post">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
     {% include mathjax.html %}
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
