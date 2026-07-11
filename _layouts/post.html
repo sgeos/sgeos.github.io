@@ -1,11 +1,47 @@
 ---
 layout: default
 ---
+{% assign word_count = content | number_of_words %}
+{% assign reading_minutes = word_count | divided_by: 220 | at_least: 1 %}
+{% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ canonical_url | jsonify }}
+  },
+  "headline": {{ page.title | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
+  {%- if page.author %}
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author | jsonify }}
+  },
+  {%- else %}
+  "author": {
+    "@type": "Person",
+    "name": {{ site.title | jsonify }}
+  },
+  {%- endif %}
+  "publisher": {
+    "@type": "Person",
+    "name": {{ site.title | jsonify }}
+  },
+  "description": {{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "wordCount": {{ word_count }},
+  "url": {{ canonical_url | jsonify }}
+}
+</script>
+
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
     {% include mathjax.html %}
   </header>
 
