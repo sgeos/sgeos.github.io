@@ -196,6 +196,137 @@
 
 
 /**
+ * Categories dropdown in the header nav. Uses native details/summary
+ * for accessibility. The summary carries .page-link so it visually
+ * matches sibling nav links. A rotating caret indicates open state.
+ * The panel is absolutely positioned on desktop and inline on mobile
+ * so it fits inside the hamburger dropdown without overflowing.
+ */
+.category-menu {
+    position: relative;
+    display: inline;
+
+    summary {
+        list-style: none;
+        cursor: pointer;
+        display: inline-block;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::marker {
+            content: '';
+        }
+    }
+
+    .caret {
+        display: inline-block;
+        margin-left: 4px;
+        transition: transform 0.2s ease;
+    }
+
+    &[open] .caret {
+        transform: rotate(180deg);
+    }
+
+    .category-menu-panel {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: min(680px, 90vw);
+        max-height: 500px;
+        overflow-y: auto;
+        margin-top: 6px;
+        background: var(--background-color);
+        border: 1px solid var(--grey-color-light);
+        border-radius: 4px;
+        padding: $spacing-unit / 2;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        z-index: 100;
+    }
+
+    .category-menu-list {
+        list-style: none;
+        margin: 0;
+        columns: 3;
+        column-gap: $spacing-unit / 2;
+        font-size: $small-font-size;
+        line-height: 1.5;
+
+        li {
+            break-inside: avoid;
+            margin-bottom: 0;
+        }
+
+        a {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 3px 6px;
+            color: var(--text-color);
+            text-decoration: none;
+            border-radius: 3px;
+
+            &:hover {
+                background: var(--code-background-color);
+                text-decoration: none;
+                color: var(--brand-color);
+            }
+
+            .cat-name {
+                overflow-wrap: anywhere;
+                min-width: 0;
+            }
+
+            .cat-count {
+                color: var(--grey-color);
+                margin-left: 8px;
+                font-variant-numeric: tabular-nums;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .category-menu-footer {
+        margin-top: $spacing-unit / 3;
+        padding-top: $spacing-unit / 3;
+        border-top: 1px solid var(--grey-color-light);
+        text-align: right;
+        margin-bottom: 0;
+        font-size: $small-font-size;
+    }
+}
+
+@include media-query($on-palm) {
+    .category-menu {
+        display: block;
+
+        summary {
+            display: block;
+        }
+
+        .category-menu-panel {
+            position: static;
+            width: auto;
+            max-height: none;
+            box-shadow: none;
+            border: 0;
+            border-radius: 0;
+            padding: 5px 10px 5px 30px;
+            margin-top: 0;
+            margin-left: 20px;
+        }
+
+        .category-menu-list {
+            columns: 1;
+        }
+    }
+}
+
+
+
+/**
  * Categories overview page. Grid of category chips with post counts.
  */
 .categories-overview .category-list {
