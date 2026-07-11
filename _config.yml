@@ -11,8 +11,8 @@ author: Brendan Sechter
 author_url: https://www.linkedin.com/in/brendan-sechter/
 email: bsechter@sennue.com
 description: > # this means to ignore newlines until "baseurl:"
-  I wanted a blog so I can post solutions to technical problems I find.
-  This is it.
+  A personal technical notebook covering systems programming,
+  systems philosophy, tooling, mathematics, and emerging software paradigms.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sgeos.github.io" # the base hostname & protocol for your site
 twitter_username: brendan_sechter
