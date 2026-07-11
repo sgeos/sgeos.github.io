@@ -17,12 +17,16 @@
   {% assign page_title = page.title | default: site.title %}
 
   <meta name="description" content="{{ meta_description }}">
+  {% if site.author %}
+  <meta name="author" content="{{ site.author }}">
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/site.webmanifest" | prepend: site.baseurl }}">
 
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{{ page_title }}">

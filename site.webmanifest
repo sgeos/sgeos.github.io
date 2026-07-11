@@ -1,0 +1,16 @@
+{
+  "name": "Brendan A R Sechter's Development Blog",
+  "short_name": "sgeos blog",
+  "description": "A personal technical notebook covering systems programming, systems philosophy, tooling, mathematics, and emerging software paradigms.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fdfdfd",
+  "theme_color": "#fdfdfd",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
