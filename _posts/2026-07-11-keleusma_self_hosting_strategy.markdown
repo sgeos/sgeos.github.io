@@ -4,7 +4,7 @@ mathjax: false
 comments: true
 title:  "Keleusma's Self-Hosting Strategy"
 date:   2026-07-11 09:00:00 +0000
-categories: keleusma compilers self-hosting
+categories: compilers self-hosting keleusma
 ---
 
 <!-- A216 -->

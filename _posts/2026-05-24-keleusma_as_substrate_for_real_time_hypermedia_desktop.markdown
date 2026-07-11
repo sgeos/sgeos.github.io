@@ -4,7 +4,7 @@ mathjax: false
 comments: true
 title:  "Keleusma as a Substrate for a Real-Time Hypermedia Desktop"
 date:   2026-05-24 09:00:00 +0000
-categories: keleusma operating-systems philosophy
+categories: operating-systems keleusma philosophy
 ---
 
 <!-- A115 -->
