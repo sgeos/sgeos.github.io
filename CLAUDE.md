@@ -48,6 +48,14 @@ categories:
 
 - Set `mathjax: true` to enable LaTeX math rendering. Inline math uses `$...$` or `\(...\)`.
 - Set `comments: true` to enable Giscus comments on the post. Giscus stores comments as GitHub Discussions in this repository.
+- Insert a kramdown table of contents at any point in a post by placing the following two lines:
+
+  ```
+  * Contents
+  {:toc}
+  ```
+
+  Kramdown replaces that list with a generated TOC of the post's headings.
 - Published post filenames follow the pattern `_posts/YYYY-MM-DD-slug.markdown`.
 - Drafts prefixed with `hidden.` are gitignored and will not be committed.
 
