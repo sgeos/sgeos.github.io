@@ -184,6 +184,51 @@
     font-size: 24px;
 }
 
+.post-year-heading {
+    margin-top: $spacing-unit;
+    padding-bottom: $spacing-unit / 4;
+    border-bottom: 2px solid var(--grey-color-light);
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/**
+ * Kramdown-generated TOC. Authors opt in per post by adding
+ *     * Contents
+ *     {:toc}
+ * to their post markdown. Kramdown replaces that list with a
+ * generated table of contents wrapped in an element with id
+ * markdown-toc.
+ */
+#markdown-toc,
+.toc {
+    background: var(--code-background-color);
+    border: 1px solid var(--grey-color-light);
+    border-radius: 4px;
+    padding: $spacing-unit / 2 $spacing-unit;
+    margin-bottom: $spacing-unit;
+    font-size: $small-font-size;
+
+    ul {
+        margin-left: $spacing-unit / 2;
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--brand-color);
+            text-decoration: underline;
+        }
+    }
+}
+
 
 
 /**
