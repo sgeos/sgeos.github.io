@@ -80,7 +80,8 @@
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover .trigger,
+        &.open .trigger {
             display: block;
             padding-bottom: 5px;
         }

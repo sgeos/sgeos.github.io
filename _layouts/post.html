@@ -16,20 +16,15 @@ layout: default
   "headline": {{ page.title | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
-  {%- if page.author %}
+  {% assign resolved_author = page.author | default: site.author | default: site.title %}
   "author": {
     "@type": "Person",
-    "name": {{ page.author | jsonify }}
+    "name": {{ resolved_author | jsonify }}{% if site.author_url %},
+    "url": {{ site.author_url | jsonify }}{% endif %}
   },
-  {%- else %}
-  "author": {
-    "@type": "Person",
-    "name": {{ site.title | jsonify }}
-  },
-  {%- endif %}
   "publisher": {
     "@type": "Person",
-    "name": {{ site.title | jsonify }}
+    "name": {{ resolved_author | jsonify }}
   },
   "description": {{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | jsonify }},
   "wordCount": {{ word_count }},

@@ -7,6 +7,8 @@
 
 # Site settings
 title: Brendan A R Sechter's Development Blog
+author: Brendan Sechter
+author_url: https://www.linkedin.com/in/brendan-sechter/
 email: bsechter@sennue.com
 description: > # this means to ignore newlines until "baseurl:"
   I wanted a blog so I can post solutions to technical problems I find.

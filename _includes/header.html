@@ -25,3 +25,15 @@
   </div>
 
 </header>
+
+<script>
+  (function () {
+    var button = document.querySelector('.site-nav .menu-icon');
+    if (!button) return;
+    button.addEventListener('click', function () {
+      var nav = button.closest('.site-nav');
+      var isOpen = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  })();
+</script>
