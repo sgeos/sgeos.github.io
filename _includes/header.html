@@ -29,11 +29,24 @@
 <script>
   (function () {
     var button = document.querySelector('.site-nav .menu-icon');
-    if (!button) return;
-    button.addEventListener('click', function () {
-      var nav = button.closest('.site-nav');
-      var isOpen = nav.classList.toggle('open');
-      button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    if (button) {
+      button.addEventListener('click', function () {
+        var nav = button.closest('.site-nav');
+        var isOpen = nav.classList.toggle('open');
+        button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
+
+    // Global keyboard shortcut: press "/" from any page to jump to the
+    // search page. Skipped when the user is typing in an input or when
+    // the site-wide search page itself is already open.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+      var t = document.activeElement && document.activeElement.tagName;
+      if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return;
+      if (window.location.pathname.replace(/\/$/, '') === '/search') return;
+      e.preventDefault();
+      window.location.href = '{{ "/search/" | prepend: site.baseurl }}';
     });
   })();
 </script>

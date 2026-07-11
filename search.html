@@ -1,0 +1,42 @@
+---
+layout: default
+title: Search
+permalink: /search/
+sitemap: false
+---
+
+<div class="home search-page">
+
+  <h1 class="page-heading">Search</h1>
+  <p>Search across all {{ site.posts | size }} posts. Press <kbd>/</kbd> from any page to jump here. Press <kbd>Esc</kbd> to clear results.</p>
+
+  <div id="search" data-pagefind-ignore></div>
+
+</div>
+
+<link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | prepend: site.baseurl }}">
+<script src="{{ '/pagefind/pagefind-ui.js' | prepend: site.baseurl }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var ui = new PagefindUI({
+      element: '#search',
+      showSubResults: true,
+      showImages: false,
+      autofocus: true,
+      resetStyles: false,
+      excerptLength: 30
+    });
+
+    // Escape clears the query and refocuses the input.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        var input = document.querySelector('#search input[type="text"]');
+        if (input) {
+          input.value = '';
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          input.focus();
+        }
+      }
+    });
+  });
+</script>
