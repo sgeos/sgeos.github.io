@@ -104,6 +104,53 @@ a {
 
 
 /**
+ * Focus styles for keyboard navigation. :focus-visible avoids showing
+ * a focus ring when interactive elements are clicked with a mouse.
+ */
+:focus-visible {
+    outline: 2px solid var(--brand-color);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+
+
+/**
+ * Skip-to-content link. Hidden until focused, then displays as an
+ * on-page anchor so keyboard users can bypass site navigation.
+ */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--background-color);
+    color: var(--brand-color);
+    padding: $spacing-unit / 2 $spacing-unit;
+    z-index: 1000;
+    text-decoration: underline;
+
+    &:focus {
+        top: 0;
+    }
+}
+
+
+
+/**
+ * Button reset for interactive controls styled as icons or links.
+ */
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    color: inherit;
+    font: inherit;
+}
+
+
+
+/**
  * Blockquotes
  */
 blockquote {
