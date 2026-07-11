@@ -1,0 +1,27 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+
+<div class="home categories-overview">
+
+  <h1 class="page-heading">Categories</h1>
+
+  <p>Browse posts by topic. Category pages list every post tagged with that category. The counts reflect the current corpus of {{ site.posts | size }} posts.</p>
+
+  {% assign sorted_categories = site.categories | sort %}
+  <ul class="category-list">
+    {% for category in sorted_categories %}
+      {% assign category_name = category | first %}
+      {% assign category_posts = category | last %}
+      <li>
+        <a href="{{ '/categories/' | prepend: site.baseurl | append: category_name | append: '/' }}">
+          <span class="category-name">{{ category_name }}</span>
+          <span class="category-count">{{ category_posts | size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

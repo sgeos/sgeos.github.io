@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home archive">
+
+  <p class="archive-breadcrumb"><a href="{{ '/categories/' | prepend: site.baseurl }}">← All categories</a></p>
+
+  <h1 class="page-heading">Category: {{ page.title }}</h1>
+
+  <p class="archive-meta">{{ page.posts | size }} posts</p>
+
+  {% assign posts_by_year = page.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in posts_by_year %}
+    <h2 class="post-year-heading" id="year-{{ year.name }}">{{ year.name }}</h2>
+    <ul class="post-list">
+      {% for post in year.items %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+</div>

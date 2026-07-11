@@ -21,6 +21,7 @@ gem "jekyll-sass-converter", "~> 2.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"     # generates /feed.xml (linked from the index)
   gem "jekyll-sitemap", "~> 1.4"   # generates /sitemap.xml
+  gem "jekyll-archives", "~> 2.3"  # generates /categories/:name/ archive pages
 end
 
 # Required for `jekyll serve` on Ruby 3.x.

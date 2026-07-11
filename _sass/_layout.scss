@@ -193,6 +193,69 @@
     font-weight: 300;
 }
 
+
+
+/**
+ * Categories overview page. Grid of category chips with post counts.
+ */
+.categories-overview .category-list {
+    list-style: none;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: $spacing-unit / 3;
+    margin-top: $spacing-unit;
+
+    li {
+        margin-bottom: 0;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: $spacing-unit / 3 $spacing-unit / 2;
+            background: var(--code-background-color);
+            border: 1px solid var(--grey-color-light);
+            border-radius: 4px;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: transform 0.1s ease, border-color 0.1s ease;
+
+            &:hover {
+                border-color: var(--brand-color);
+                transform: translateY(-1px);
+                text-decoration: none;
+            }
+
+            .category-name {
+                font-weight: 400;
+            }
+
+            .category-count {
+                font-size: $small-font-size;
+                color: var(--grey-color);
+                margin-left: $spacing-unit / 3;
+            }
+        }
+    }
+}
+
+
+
+/**
+ * Individual category archive page.
+ */
+.archive-breadcrumb {
+    font-size: $small-font-size;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.archive-meta {
+    color: var(--grey-color);
+    font-size: $small-font-size;
+    margin-bottom: $spacing-unit;
+}
+
 /**
  * Kramdown-generated TOC. Authors opt in per post by adding
  *     * Contents
