@@ -1,0 +1,61 @@
+/**
+ * Print styles
+ * Applied only when the page is being printed. Hides site chrome and the
+ * comment widget, forces high-contrast colors, and adds URL disclosures
+ * next to external links so the printed page is self-contained.
+ */
+@media print {
+    .site-header,
+    .site-nav,
+    .site-footer,
+    .giscus,
+    #comments {
+        display: none;
+    }
+
+    body {
+        font-size: 11pt;
+        line-height: 1.4;
+        color: #000;
+        background: #fff;
+    }
+
+    a,
+    a:visited {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    // Disclose external URLs after links so printed pages retain the
+    // reference targets. Internal-anchor and mailto links are left alone.
+    a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.85em;
+        color: #444;
+        word-break: break-all;
+    }
+
+    // Avoid awkward page breaks in the middle of headings, code blocks,
+    // figures, and blockquotes.
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+
+    pre,
+    code,
+    blockquote,
+    figure {
+        page-break-inside: avoid;
+    }
+
+    .page-content {
+        padding: 0;
+    }
+
+    // Print-friendly code block borders
+    pre,
+    code {
+        border: 1px solid #999;
+        background: #f5f5f5;
+    }
+}

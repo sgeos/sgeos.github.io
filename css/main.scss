@@ -45,9 +45,39 @@ $on-laptop:        800px;
 
 
 
+// CSS custom properties. Sass variables are the source of truth for the
+// light theme values. The dark theme overrides only the colors, not
+// spacing or typography.
+:root {
+    --text-color: #{$text-color};
+    --background-color: #{$background-color};
+    --brand-color: #{$brand-color};
+    --brand-color-visited: #{darken($brand-color, 15%)};
+    --grey-color: #{$grey-color};
+    --grey-color-light: #{$grey-color-light};
+    --grey-color-dark: #{$grey-color-dark};
+    --code-background-color: #eef;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #e6e6e6;
+        --background-color: #121212;
+        --brand-color: #6ba4f7;
+        --brand-color-visited: #5589db;
+        --grey-color: #a0a0a0;
+        --grey-color-light: #3a3a3a;
+        --grey-color-dark: #d0d0d0;
+        --code-background-color: #1e2030;
+    }
+}
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "print"
 ;
