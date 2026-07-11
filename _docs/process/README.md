@@ -18,6 +18,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |
 | [Communication](./COMMUNICATION.md) | Bidirectional human-AI communication protocol |
 | [Git Strategy](./GIT_STRATEGY.md) | Commit conventions and the two-commit publication pattern |
+| [PR Strategy](./PR_STRATEGY.md) | Process for handling incoming pull requests including author investigation |
 
 ## Session Working Documents
 
