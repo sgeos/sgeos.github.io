@@ -197,6 +197,38 @@ pre {
 
 
 /**
+ * Tables. Wraps in a horizontal-scroll container on narrow viewports so
+ * wide tables do not force the whole page to horizontally scroll.
+ */
+table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin-bottom: $spacing-unit / 2;
+    font-size: $small-font-size;
+}
+
+thead {
+    background-color: var(--code-background-color);
+    border-bottom: 2px solid var(--grey-color-light);
+}
+
+th,
+td {
+    padding: 6px 12px;
+    border: 1px solid var(--grey-color-light);
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    font-weight: bold;
+}
+
+
+
+/**
  * Wrapper
  */
 .wrapper {
