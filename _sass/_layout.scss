@@ -8,6 +8,13 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    // Flexbox layout for the title and nav.
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .site-title {
@@ -16,7 +23,6 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
@@ -25,7 +31,6 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
 
     .menu-icon {
@@ -114,45 +119,36 @@
 }
 
 .footer-col-wrapper {
+    display: grid;
+    grid-template-columns: 35fr 20fr 45fr;
+    gap: $spacing-unit;
     font-size: 15px;
     color: var(--grey-color);
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
+    // Prevents grid items from overflowing when children have long
+    // unbreakable content such as long URLs.
+    min-width: 0;
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: calc(50% - (#{$spacing-unit} / 2));
+    .footer-col-wrapper {
+        grid-template-columns: 1fr 1fr;
     }
 
     .footer-col-3 {
-        width: calc(100% - (#{$spacing-unit} / 2));
+        grid-column: 1 / -1;
     }
 }
 
 @include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: calc(100% - (#{$spacing-unit} / 2));
+    .footer-col-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col-3 {
+        grid-column: auto;
     }
 }
 
