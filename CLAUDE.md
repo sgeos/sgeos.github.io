@@ -58,6 +58,7 @@ categories:
   Kramdown replaces that list with a generated TOC of the post's headings.
 - Published post filenames follow the pattern `_posts/YYYY-MM-DD-slug.markdown`.
 - Drafts prefixed with `hidden.` are gitignored and will not be committed.
+- Do not use `keleusma` as the first category. The `sgeos/keleusma` repository serves its own GitHub Pages site at `https://sgeos.github.io/keleusma/` which shadows any URL under that path prefix. Jekyll's default permalink places the first category first in the URL, so any post with `categories: keleusma ...` returns 404 despite building correctly. Place a more general category first, such as `compilers`, `operating-systems`, or `programming-languages`. See [`_docs/writing/POST_STRUCTURE.md`](_docs/writing/POST_STRUCTURE.md) for the full explanation and additional shadowed-path guidance.
 
 ## Architecture
 
