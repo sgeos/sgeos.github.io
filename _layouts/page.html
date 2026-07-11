@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+{% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+{% assign resolved_author = page.author | default: site.author | default: site.title %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": {{ canonical_url | jsonify }},
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ resolved_author | jsonify }}{% if site.author_url %},
+    "url": {{ site.author_url | jsonify }}{% endif %}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ resolved_author | jsonify }}
+  }
+}
+</script>
+
 <article class="post">
 
   <header class="post-header">
