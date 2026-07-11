@@ -1,0 +1,59 @@
+/**
+ * Search page and Pagefind theme.
+ *
+ * Pagefind UI exposes CSS custom properties that we map onto the site's
+ * own theme variables so the widget respects light/dark mode without a
+ * separate theme file. Overrides scoped to #search only.
+ */
+.search-page {
+    p {
+        color: var(--grey-color);
+    }
+
+    kbd {
+        display: inline-block;
+        padding: 2px 6px;
+        font-family: monospace;
+        font-size: 0.85em;
+        background: var(--code-background-color);
+        border: 1px solid var(--grey-color-light);
+        border-radius: 3px;
+        color: var(--text-color);
+    }
+}
+
+#search {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--brand-color);
+    --pagefind-ui-text: var(--text-color);
+    --pagefind-ui-background: var(--background-color);
+    --pagefind-ui-border: var(--grey-color-light);
+    --pagefind-ui-tag: var(--code-background-color);
+    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: $spacing-unit;
+
+    // Give the search input a bit more visual presence.
+    .pagefind-ui__search-input {
+        font-size: 18px;
+    }
+
+    // Result cards inherit the site's link colors and hover behavior.
+    .pagefind-ui__result-link {
+        color: var(--brand-color);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .pagefind-ui__result-excerpt {
+        color: var(--text-color);
+    }
+
+    .pagefind-ui__result-tags,
+    .pagefind-ui__result-title {
+        color: var(--text-color);
+    }
+}
