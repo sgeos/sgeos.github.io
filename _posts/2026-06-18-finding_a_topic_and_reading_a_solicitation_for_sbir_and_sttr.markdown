@@ -5,8 +5,10 @@ comments: true
 title:  "Finding a Topic and Reading an SBIR or STTR Solicitation"
 date:   2026-06-18 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 4
 ---
-
 <!-- A135 -->
 <script>console.log("A135");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Staged and Boosted Propulsion for Small Fixed-Wing UAVs"
 date:   2026-06-03 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 5
 ---
-
 <!-- A120 -->
 <script>console.log("A120");</script>
 

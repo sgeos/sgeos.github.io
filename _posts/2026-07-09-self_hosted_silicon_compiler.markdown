@@ -5,8 +5,10 @@ comments: true
 title:  "The Self-Hosted Silicon Compiler"
 date:   2026-07-09 09:00:00 +0000
 categories: hdl hardware self-hosting
+series: hdl_thread
+series_title: Hardware Description Languages
+series_index: 5
 ---
-
 <!-- A204 -->
 <script>console.log("A204");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title: "Getting Started with Keleusma 0.2.2"
 date:   2026-07-10 12:00:00 +0000
 categories: rust embedded programming
+series: keleusma_getting_started
+series_title: Keleusma Getting Started
+series_index: 3
 ---
-
 <!-- A205 -->
 <script>console.log("A205");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "The Money Behind an SBIR or STTR Award"
 date:   2026-06-23 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 9
 ---
-
 <!-- A140 -->
 <script>console.log("A140");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Three Audiences for an Operating System"
 date:   2026-05-22 09:00:00 +0000
 categories: operating-systems philosophy hci
+series: hypermedia_desktop
+series_title: Hypermedia Desktop
+series_index: 1
 ---
-
 <!-- A119 -->
 <script>console.log("A119");</script>
 

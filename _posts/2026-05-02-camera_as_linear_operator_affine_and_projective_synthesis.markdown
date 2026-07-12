@@ -5,8 +5,10 @@ comments: true
 title:  "The Camera as Linear Operator, Affine and Projective Synthesis"
 date:   2026-05-02 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 15
 ---
-
 <!-- A187 -->
 <script>console.log("A187");</script>
 

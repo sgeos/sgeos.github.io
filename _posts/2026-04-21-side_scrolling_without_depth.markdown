@@ -5,8 +5,10 @@ comments: true
 title:  "Side-Scrolling Without Depth"
 date:   2026-04-21 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 4
 ---
-
 <!-- A176 -->
 <script>console.log("A176");</script>
 

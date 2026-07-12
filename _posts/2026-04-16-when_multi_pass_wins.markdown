@@ -5,8 +5,10 @@ comments: true
 title:  "When Multi-Pass Wins, Whole-Program Optimisation and Hindley-Milner Inference"
 date:   2026-04-16 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 11
 ---
-
 <!-- A198 -->
 <script>console.log("A198");</script>
 

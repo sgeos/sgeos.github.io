@@ -5,8 +5,10 @@ comments: true
 title:  "Phase II and the Commercialization Plan for SBIR and STTR"
 date:   2026-06-20 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 6
 ---
-
 <!-- A137 -->
 <script>console.log("A137");</script>
 

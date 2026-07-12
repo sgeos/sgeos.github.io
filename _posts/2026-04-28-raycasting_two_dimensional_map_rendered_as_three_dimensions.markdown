@@ -5,8 +5,10 @@ comments: true
 title:  "Raycasting, the Two-Dimensional Map Rendered as Three Dimensions"
 date:   2026-04-28 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 11
 ---
-
 <!-- A183 -->
 <script>console.log("A183");</script>
 

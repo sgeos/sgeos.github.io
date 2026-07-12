@@ -5,8 +5,10 @@ comments: true
 title:  "Venus Cloudtop Buoyant Analog"
 date:   2026-07-06 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
+series: off_grid_space_analogs
+series_title: Off-Grid Space Colonization Analogs
+series_index: 9
 ---
-
 <!-- A160 -->
 <script>console.log("A160");</script>
 

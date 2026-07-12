@@ -5,8 +5,10 @@ comments: true
 title:  "A Worked SBIR and STTR Campaign for a Fixed-Wing UAV"
 date:   2026-06-27 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 13
 ---
-
 <!-- A144 -->
 <script>console.log("A144");</script>
 

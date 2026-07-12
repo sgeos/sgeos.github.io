@@ -5,8 +5,10 @@ comments: true
 title:  "Block-Structured Control Flow and Single-Pass Validation"
 date:   2026-04-10 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 5
 ---
-
 <!-- A192 -->
 <script>console.log("A192");</script>
 

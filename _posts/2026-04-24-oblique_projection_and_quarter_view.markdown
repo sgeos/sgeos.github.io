@@ -5,8 +5,10 @@ comments: true
 title:  "Oblique Projection and the Quarter View"
 date:   2026-04-24 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 7
 ---
-
 <!-- A179 -->
 <script>console.log("A179");</script>
 

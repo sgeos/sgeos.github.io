@@ -5,8 +5,10 @@ comments: true
 title:  "Developments in Programming Language Theory, The 1970s Part II"
 date:   2026-03-31 09:00:00 +0000
 categories: programming-languages theory history
+series: programming_language_theory
+series_title: Developments in Programming Language Theory
+series_index: 5
 ---
-
 <!-- A210 -->
 <script>console.log("A210");</script>
 

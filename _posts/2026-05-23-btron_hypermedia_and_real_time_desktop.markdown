@@ -5,8 +5,10 @@ comments: true
 title: "BTRON, Hypermedia, and the Real-Time Desktop"
 date: 2026-05-23 09:00:00 +0000
 categories: operating-systems history philosophy
+series: hypermedia_desktop
+series_title: Hypermedia Desktop
+series_index: 2
 ---
-
 <!-- A113 -->
 <script>console.log("A113");</script>
 

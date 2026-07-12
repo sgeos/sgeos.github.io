@@ -5,8 +5,10 @@ comments: true
 title:  "International Analogs to SBIR and STTR"
 date:   2026-06-26 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 12
 ---
-
 <!-- A143 -->
 <script>console.log("A143");</script>
 

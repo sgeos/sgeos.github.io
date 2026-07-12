@@ -5,8 +5,10 @@ comments: true
 title:  "Developments in Programming Language Theory, The 1980s"
 date:   2026-04-01 09:00:00 +0000
 categories: programming-languages theory history
+series: programming_language_theory
+series_title: Developments in Programming Language Theory
+series_index: 6
 ---
-
 <!-- A211 -->
 <script>console.log("A211");</script>
 

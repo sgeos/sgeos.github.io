@@ -5,8 +5,10 @@ comments: true
 title:  "What a Patent Is and Is Not"
 date:   2026-05-03 09:00:00 +0000
 categories: business intellectual-property patents
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 1
 ---
-
 <!-- A161 -->
 <script>console.log("A161");</script>
 

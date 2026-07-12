@@ -5,8 +5,10 @@ comments: true
 title:  "Top-Down Projection Without Height"
 date:   2026-04-19 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 2
 ---
-
 <!-- A174 -->
 <script>console.log("A174");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "What It Takes to Succeed and Where Moats Come From"
 date:   2026-05-14 09:00:00 +0000
 categories: business strategy startups
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 12
 ---
-
 <!-- A172 -->
 <script>console.log("A172");</script>
 

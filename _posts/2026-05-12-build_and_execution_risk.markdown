@@ -5,8 +5,10 @@ comments: true
 title:  "Build and Execution Risk"
 date:   2026-05-12 09:00:00 +0000
 categories: business strategy startups
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 10
 ---
-
 <!-- A170 -->
 <script>console.log("A170");</script>
 

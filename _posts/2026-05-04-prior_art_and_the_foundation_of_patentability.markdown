@@ -5,8 +5,10 @@ comments: true
 title:  "Prior Art and the Foundation of Patentability"
 date:   2026-05-04 09:00:00 +0000
 categories: business intellectual-property patents
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 2
 ---
-
 <!-- A162 -->
 <script>console.log("A162");</script>
 

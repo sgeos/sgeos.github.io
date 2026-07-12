@@ -5,8 +5,10 @@ comments: true
 title:  "Electric Energy Systems and the Endurance Budget for Fixed-Wing UAVs"
 date:   2026-06-04 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 6
 ---
-
 <!-- A121 -->
 <script>console.log("A121");</script>
 

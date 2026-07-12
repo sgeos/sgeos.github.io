@@ -5,8 +5,10 @@ comments: true
 title: "A Speculative Neurosymbolic Blueprint for Truthful, Scientific, and Abstaining Machines"
 date:   2026-05-26 09:00:00 +0000
 categories: ai philosophy
+series: truthful_machines
+series_title: Truthful Machines
+series_index: 1
 ---
-
 <!-- A108 -->
 <script>console.log("A108");</script>
 

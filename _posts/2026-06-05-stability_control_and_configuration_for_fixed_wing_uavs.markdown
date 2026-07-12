@@ -5,8 +5,10 @@ comments: true
 title:  "Stability, Control, and Configuration for Fixed-Wing UAVs"
 date:   2026-06-05 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 7
 ---
-
 <!-- A122 -->
 <script>console.log("A122");</script>
 

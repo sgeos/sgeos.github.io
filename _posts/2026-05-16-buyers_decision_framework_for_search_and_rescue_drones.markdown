@@ -5,8 +5,10 @@ comments: true
 title:  "A Buyer's Decision Framework for Search and Rescue Drones"
 date:   2026-05-16 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue procurement
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 2
 ---
-
 <!-- A146 -->
 <script>console.log("A146");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Garbage and Transportation for Off-Grid Space Colonization Analogs"
 date:   2026-07-05 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
+series: off_grid_space_analogs
+series_title: Off-Grid Space Colonization Analogs
+series_index: 8
 ---
-
 <!-- A159 -->
 <script>console.log("A159");</script>
 

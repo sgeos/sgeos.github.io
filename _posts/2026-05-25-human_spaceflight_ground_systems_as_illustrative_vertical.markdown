@@ -5,8 +5,10 @@ comments: true
 title:  "Human Spaceflight Ground Systems as an Illustrative Vertical for a Hypermedia Desktop"
 date:   2026-05-25 09:00:00 +0000
 categories: hypermedia operating-systems philosophy aerospace
+series: hypermedia_desktop
+series_title: Hypermedia Desktop
+series_index: 4
 ---
-
 <!-- A117 -->
 <script>console.log("A117");</script>
 

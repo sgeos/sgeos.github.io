@@ -5,8 +5,10 @@ comments: true
 title:  "Rocket Propellant Chemistry, Hybrid Propellants"
 date:   2026-02-05 09:00:00 +0000
 categories: aerospace propulsion chemistry
+series: rocket_propellant_chemistry
+series_title: Rocket Propellant Chemistry
+series_index: 5
 ---
-
 <!-- A221 -->
 <script>console.log("A221");</script>
 

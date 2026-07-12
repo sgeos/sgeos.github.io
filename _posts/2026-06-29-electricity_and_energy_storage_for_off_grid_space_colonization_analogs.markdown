@@ -5,8 +5,10 @@ comments: true
 title:  "Electricity and Energy Storage for Off-Grid Space Colonization Analogs"
 date:   2026-06-29 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
+series: off_grid_space_analogs
+series_title: Off-Grid Space Colonization Analogs
+series_index: 2
 ---
-
 <!-- A153 -->
 <script>console.log("A153");</script>
 

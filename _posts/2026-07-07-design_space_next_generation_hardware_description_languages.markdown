@@ -5,8 +5,10 @@ comments: true
 title:  "The Design Space for Next-Generation Hardware Description Languages"
 date:   2026-07-07 09:00:00 +0000
 categories: hdl hardware design
+series: hdl_thread
+series_title: Hardware Description Languages
+series_index: 2
 ---
-
 <!-- A201 -->
 <script>console.log("A201");</script>
 

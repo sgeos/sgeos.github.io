@@ -5,8 +5,10 @@ comments: true
 title:  "Axonometric Projection, Isometric, Dimetric, Trimetric"
 date:   2026-04-25 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 8
 ---
-
 <!-- A180 -->
 <script>console.log("A180");</script>
 

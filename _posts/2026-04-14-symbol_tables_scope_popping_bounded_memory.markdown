@@ -5,8 +5,10 @@ comments: true
 title:  "Symbol Tables, Scope Popping, and Bounded Working Memory"
 date:   2026-04-14 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 9
 ---
-
 <!-- A196 -->
 <script>console.log("A196");</script>
 

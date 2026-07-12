@@ -5,8 +5,10 @@ comments: true
 title:  "A Survey of the SBIR and STTR Agencies"
 date:   2026-06-16 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 2
 ---
-
 <!-- A133 -->
 <script>console.log("A133");</script>
 

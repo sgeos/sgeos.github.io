@@ -5,8 +5,10 @@ comments: true
 title:  "Keleusma as a Substrate for a Real-Time Hypermedia Desktop"
 date:   2026-05-24 09:00:00 +0000
 categories: operating-systems keleusma philosophy
+series: hypermedia_desktop
+series_title: Hypermedia Desktop
+series_index: 3
 ---
-
 <!-- A115 -->
 <script>console.log("A115");</script>
 

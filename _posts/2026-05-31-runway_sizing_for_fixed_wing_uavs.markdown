@@ -5,8 +5,10 @@ comments: true
 title:  "Runway Sizing for Fixed-Wing UAVs"
 date:   2026-05-31 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 2
 ---
-
 <!-- A114 -->
 <script>console.log("A114");</script>
 

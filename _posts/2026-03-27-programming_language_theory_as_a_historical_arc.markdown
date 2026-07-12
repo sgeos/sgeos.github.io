@@ -5,8 +5,10 @@ comments: true
 title:  "Developments in Programming Language Theory, A Historical Arc"
 date:   2026-03-27 09:00:00 +0000
 categories: programming-languages theory history
+series: programming_language_theory
+series_title: Developments in Programming Language Theory
+series_index: 1
 ---
-
 <!-- A206 -->
 <script>console.log("A206");</script>
 

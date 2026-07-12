@@ -5,8 +5,10 @@ comments: true
 title:  "Communications and the Command-and-Control Data Link for Fixed-Wing UAVs"
 date:   2026-06-09 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 11
 ---
-
 <!-- A126 -->
 <script>console.log("A126");</script>
 

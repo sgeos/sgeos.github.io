@@ -5,8 +5,10 @@ comments: true
 title:  "SBIR and STTR Eligibility and the Registration Stack"
 date:   2026-06-17 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 3
 ---
-
 <!-- A134 -->
 <script>console.log("A134");</script>
 

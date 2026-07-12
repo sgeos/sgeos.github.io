@@ -5,8 +5,10 @@ comments: true
 title:  "Food Production and Closed Ecological Systems for Off-Grid Space Colonization Analogs"
 date:   2026-07-02 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
+series: off_grid_space_analogs
+series_title: Off-Grid Space Colonization Analogs
+series_index: 5
 ---
-
 <!-- A156 -->
 <script>console.log("A156");</script>
 

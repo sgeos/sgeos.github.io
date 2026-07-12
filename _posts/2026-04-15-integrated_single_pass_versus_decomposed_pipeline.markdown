@@ -5,8 +5,10 @@ comments: true
 title:  "Integrated Single-Pass versus Decomposed Pipeline"
 date:   2026-04-15 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 10
 ---
-
 <!-- A197 -->
 <script>console.log("A197");</script>
 

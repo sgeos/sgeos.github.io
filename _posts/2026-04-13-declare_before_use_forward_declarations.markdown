@@ -5,8 +5,10 @@ comments: true
 title:  "Declare-Before-Use and Forward Declarations"
 date:   2026-04-13 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 8
 ---
-
 <!-- A195 -->
 <script>console.log("A195");</script>
 

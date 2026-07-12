@@ -5,8 +5,10 @@ comments: true
 title:  "Distribution and Getting Paid"
 date:   2026-05-13 09:00:00 +0000
 categories: business strategy startups
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 11
 ---
-
 <!-- A171 -->
 <script>console.log("A171");</script>
 

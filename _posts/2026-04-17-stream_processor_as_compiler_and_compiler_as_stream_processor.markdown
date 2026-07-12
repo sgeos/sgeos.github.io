@@ -5,8 +5,10 @@ comments: true
 title:  "The Stream Processor as Compiler and the Compiler as Stream Processor"
 date:   2026-04-17 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 12
 ---
-
 <!-- A199 -->
 <script>console.log("A199");</script>
 

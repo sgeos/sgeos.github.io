@@ -5,8 +5,10 @@ comments: true
 title:  "Draw Order, Y-Sort, Z-Sort, and the Painter's Algorithm"
 date:   2026-04-30 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 13
 ---
-
 <!-- A185 -->
 <script>console.log("A185");</script>
 

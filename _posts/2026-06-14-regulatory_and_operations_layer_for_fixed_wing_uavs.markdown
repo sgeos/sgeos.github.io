@@ -5,8 +5,10 @@ comments: true
 title:  "The Regulatory and Operations Layer for Fixed-Wing UAVs"
 date:   2026-06-14 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 16
 ---
-
 <!-- A131 -->
 <script>console.log("A131");</script>
 
