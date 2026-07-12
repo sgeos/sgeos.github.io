@@ -49,6 +49,10 @@ layout: default
           <span class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d %H:%M %Z" }}</time></span>
           <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {% if post.series %}
+              {% assign series_size = site.posts | where: "series", post.series | size %}
+              <span class="series-badge">Part {{ post.series_index }} of {{ series_size }} · {{ post.series_title | default: post.series }}</span>
+            {% endif %}
           </h3>
         </li>
       {% endfor %}
