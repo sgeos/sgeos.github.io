@@ -347,6 +347,94 @@
 
 
 /**
+ * Corpus statistics page. Tables of key figures and horizontal bar
+ * charts computed at build time by _plugins/stats.rb.
+ */
+.stats-page {
+    .stats-section {
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit;
+    }
+
+    .stats-list {
+        display: grid;
+        grid-template-columns: max-content auto;
+        gap: 4px 16px;
+        margin-left: 0;
+
+        dt {
+            font-weight: 400;
+            color: var(--grey-color);
+        }
+
+        dd {
+            margin-left: 0;
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    .stats-bar-list {
+        list-style: none;
+        margin-left: 0;
+
+        li {
+            display: grid;
+            grid-template-columns: 8em 1fr 4em;
+            gap: $spacing-unit / 3;
+            align-items: center;
+            padding: 2px 0;
+            font-size: $small-font-size;
+        }
+
+        .stats-label {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .stats-bar {
+            display: block;
+            height: 12px;
+            background: var(--code-background-color);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .stats-bar-fill {
+            display: block;
+            height: 100%;
+            background: var(--brand-color);
+        }
+
+        .stats-value {
+            text-align: right;
+            color: var(--grey-color);
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    .stats-longest-list {
+        list-style: decimal;
+        margin-left: 1.5em;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            gap: $spacing-unit / 3;
+            padding: 2px 0;
+        }
+
+        .stats-value {
+            color: var(--grey-color);
+            font-variant-numeric: tabular-nums;
+            flex-shrink: 0;
+        }
+    }
+}
+
+
+
+/**
  * Categories overview page. Grid of category chips with post counts.
  */
 .categories-overview .category-list {

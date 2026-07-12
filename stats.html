@@ -1,0 +1,82 @@
+---
+layout: default
+title: Corpus Statistics
+permalink: /stats/
+hide_from_nav: true
+sitemap: false
+---
+
+<div class="home stats-page">
+
+  <h1 class="page-heading">Corpus Statistics</h1>
+
+  {% assign s = site.data.stats %}
+
+  <p>An automated view of the corpus. Regenerates on every build.</p>
+
+  <section class="stats-section">
+    <h2>Overview</h2>
+    <dl class="stats-list">
+      <dt>Posts</dt>
+      <dd>{{ s.total_posts }}</dd>
+      <dt>Total words</dt>
+      <dd>{{ s.total_words }}</dd>
+      <dt>Average words per post</dt>
+      <dd>{{ s.average_words_per_post }}</dd>
+      <dt>Categories</dt>
+      <dd>{{ s.total_categories }}</dd>
+      <dt>Tags</dt>
+      <dd>{{ s.total_tags }}</dd>
+    </dl>
+  </section>
+
+  <section class="stats-section">
+    <h2>Posts per year</h2>
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% assign max_year_count = 0 %}
+    {% for year in posts_by_year %}
+      {% assign count = year.items | size %}
+      {% if count > max_year_count %}{% assign max_year_count = count %}{% endif %}
+    {% endfor %}
+    <ul class="stats-bar-list">
+      {% for year in posts_by_year %}
+        {% assign count = year.items | size %}
+        {% assign pct = count | times: 100.0 | divided_by: max_year_count %}
+        <li>
+          <span class="stats-label"><a href="{{ '/#year-' | append: year.name | prepend: site.baseurl }}">{{ year.name }}</a></span>
+          <span class="stats-bar"><span class="stats-bar-fill" style="width: {{ pct }}%;"></span></span>
+          <span class="stats-value">{{ count }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="stats-section">
+    <h2>Top categories</h2>
+    {% assign max_cat = s.top_categories | first %}
+    <ul class="stats-bar-list">
+      {% for cat in s.top_categories %}
+        {% assign pct = cat.count | times: 100.0 | divided_by: max_cat.count %}
+        <li>
+          <span class="stats-label"><a href="{{ '/categories/' | append: cat.name | append: '/' | prepend: site.baseurl }}">{{ cat.name }}</a></span>
+          <span class="stats-bar"><span class="stats-bar-fill" style="width: {{ pct }}%;"></span></span>
+          <span class="stats-value">{{ cat.count }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/categories/' | prepend: site.baseurl }}">See all {{ s.total_categories }} categories →</a></p>
+  </section>
+
+  <section class="stats-section">
+    <h2>Longest posts</h2>
+    <ol class="stats-longest-list">
+      {% for post in s.longest_posts %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="stats-value">{{ post.word_count }} words</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+</div>
