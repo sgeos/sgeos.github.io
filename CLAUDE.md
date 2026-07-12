@@ -48,6 +48,7 @@ categories:
 
 - Set `mathjax: true` to enable LaTeX math rendering. Inline math uses `$...$` or `\(...\)`.
 - Set `comments: true` to enable Giscus comments on the post. Giscus stores comments as GitHub Discussions in this repository.
+- Series metadata: set `series: <slug>`, `series_title: <human title>`, and `series_index: <N>` on each post in a series. The post layout auto-generates a compact context header near the top ("Part N of M in Series Title") and a full table-of-contents nav at the bottom with previous and next links. Posts sharing the same `series:` slug are grouped and sorted by `series_index:`.
 - Insert a kramdown table of contents at any point in a post by placing the following two lines:
 
   ```

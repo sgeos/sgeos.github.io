@@ -453,6 +453,79 @@
     margin-bottom: $spacing-unit;
 }
 
+
+
+/**
+ * Series navigation. A post that carries series metadata in front
+ * matter gets a compact context header near the top and a full
+ * table-of-contents nav at the bottom with adjacent-post links.
+ */
+.series-nav {
+    font-size: $small-font-size;
+    color: var(--grey-color);
+
+    .series-context {
+        margin-bottom: 0;
+    }
+}
+
+.series-nav-top {
+    margin-top: $spacing-unit / 3;
+    padding: $spacing-unit / 4 $spacing-unit / 2;
+    background: var(--code-background-color);
+    border-left: 3px solid var(--brand-color);
+    border-radius: 0 3px 3px 0;
+}
+
+.series-nav-bottom {
+    margin-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid var(--grey-color-light);
+
+    .series-context {
+        color: var(--text-color);
+        margin-bottom: $spacing-unit / 3;
+    }
+
+    .series-list {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: $spacing-unit / 2;
+
+        li {
+            padding: 2px 0;
+
+            &.current {
+                font-weight: bold;
+
+                a {
+                    color: var(--text-color);
+                    cursor: default;
+                    pointer-events: none;
+                }
+            }
+        }
+
+        .series-index {
+            display: inline-block;
+            min-width: 5em;
+            color: var(--grey-color);
+        }
+    }
+
+    .series-adjacent {
+        display: flex;
+        justify-content: space-between;
+        gap: $spacing-unit / 2;
+        margin-bottom: 0;
+
+        .series-next {
+            margin-left: auto;
+            text-align: right;
+        }
+    }
+}
+
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
