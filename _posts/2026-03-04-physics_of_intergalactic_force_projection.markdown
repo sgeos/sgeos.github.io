@@ -5,8 +5,10 @@ comments: true
 title:  "The Physics of Intergalactic Force Projection"
 date:   2026-03-04 06:00:00 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 4
 ---
-
 <!-- A101 -->
 <script>console.log("A101");</script>
 

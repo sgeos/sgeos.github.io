@@ -5,8 +5,10 @@ comments: true
 title: "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization"
 date: 2026-03-01 01:39:41 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 1
 ---
-
 <!-- A98 -->
 <script>console.log("A98");</script>
 

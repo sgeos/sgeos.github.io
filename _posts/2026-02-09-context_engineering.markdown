@@ -5,8 +5,10 @@ comments: true
 title: "The State of Context Engineering in Early 2026"
 date: 2026-02-09 01:14:33 +0000
 categories: ai ai-tools development developer-productivity
+series: agentic_workflows
+series_title: Agentic Workflows
+series_index: 4
 ---
-
 <!-- A78 -->
 <script>console.log("A78");</script>
 

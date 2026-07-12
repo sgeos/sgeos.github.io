@@ -5,8 +5,10 @@ comments: true
 title:  "Von Neumann Probes"
 date:   2026-03-05 06:13:31 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 5
 ---
-
 <!-- A102 -->
 <script>console.log("A102");</script>
 

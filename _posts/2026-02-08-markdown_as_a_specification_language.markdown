@@ -5,8 +5,10 @@ comments: true
 title: "Markdown as a Specification Language for Agentic Workflows"
 date: 2026-02-08 01:42:16 +0000
 categories: ai ai-tools development developer-productivity
+series: agentic_workflows
+series_title: Agentic Workflows
+series_index: 3
 ---
-
 <!-- A76 -->
 <script>console.log("A76");</script>
 

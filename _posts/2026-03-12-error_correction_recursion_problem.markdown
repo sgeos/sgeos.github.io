@@ -5,8 +5,10 @@ comments: true
 title:  "The Error Correction Recursion Problem"
 date:   2026-03-06 01:14:26 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 6
 ---
-
 <!-- A103 -->
 <script>console.log("A103");</script>
 

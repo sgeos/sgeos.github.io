@@ -5,8 +5,10 @@ comments: true
 title: "Bidirectional Agentic Workflow"
 date: 2026-02-06 17:00:18 +0000
 categories: ai ai-tools development developer-productivity tutorial
+series: agentic_workflows
+series_title: Agentic Workflows
+series_index: 1
 ---
-
 <!-- A75 -->
 <script>console.log("A75");</script>
 
