@@ -132,6 +132,34 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.footer-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--grey-color);
+    margin: 0 0 $spacing-unit / 3 0;
+}
+
+.site-license {
+    margin-top: $spacing-unit / 2;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid var(--grey-color-light);
+    font-size: $small-font-size;
+    color: var(--grey-color);
+    text-align: center;
+    margin-bottom: 0;
+
+    a {
+        color: var(--grey-color);
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--brand-color);
+        }
+    }
+}
+
 .contact-list,
 .social-media-list {
     list-style: none;
