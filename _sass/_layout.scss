@@ -496,12 +496,10 @@
 }
 
 /**
- * Kramdown-generated TOC. Authors opt in per post by adding
- *     * Contents
- *     {:toc}
- * to their post markdown. Kramdown replaces that list with a
- * generated table of contents wrapped in an element with id
- * markdown-toc.
+ * Table of contents. Two sources:
+ * 1. Kramdown-generated when authors place { :toc } in the markdown.
+ * 2. Automatically injected by post-enhancements.html on long posts.
+ * Both are wrapped in an element with id markdown-toc.
  */
 #markdown-toc,
 .toc {
@@ -511,6 +509,12 @@
     padding: $spacing-unit / 2 $spacing-unit;
     margin-bottom: $spacing-unit;
     font-size: $small-font-size;
+
+    .toc-heading {
+        font-size: 18px;
+        margin: 0 0 $spacing-unit / 3 0;
+        color: var(--grey-color-dark);
+    }
 
     ul {
         margin-left: $spacing-unit / 2;

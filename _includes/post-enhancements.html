@@ -1,5 +1,62 @@
 <script>
   (function () {
+    // Automatic table of contents. Builds a TOC from post h2 and h3
+    // headings when the article is long enough to benefit. Opt-out per
+    // post via toc: false in front matter (passed through via
+    // data-toc-suppress on the article element by the layout).
+    //
+    // Suppressed if the post already contains a kramdown-generated TOC
+    // (id="markdown-toc") so authors who inserted { :toc } manually
+    // retain full control over placement and depth.
+    var article = document.querySelector('.post-content');
+    var articleTag = document.querySelector('article.post');
+    var suppressed = articleTag && articleTag.getAttribute('data-toc-suppress') === 'true';
+    var manualToc = document.getElementById('markdown-toc');
+    if (article && !suppressed && !manualToc) {
+      var headings = article.querySelectorAll('h2[id], h3[id]');
+      var wordCount = article.innerText.split(/\s+/).length;
+      if (headings.length >= 4 && wordCount >= 800) {
+        var toc = document.createElement('nav');
+        toc.id = 'markdown-toc';
+        toc.setAttribute('aria-label', 'Table of contents');
+        var heading = document.createElement('h2');
+        heading.textContent = 'Contents';
+        heading.className = 'toc-heading';
+        toc.appendChild(heading);
+        var currentList = document.createElement('ul');
+        var currentLevel = 2;
+        var listStack = [currentList];
+        headings.forEach(function (h) {
+          var level = parseInt(h.tagName.substring(1), 10);
+          while (level > currentLevel) {
+            var sublist = document.createElement('ul');
+            var lastItem = listStack[listStack.length - 1].lastElementChild;
+            if (lastItem) {
+              lastItem.appendChild(sublist);
+              listStack.push(sublist);
+              currentLevel++;
+            } else {
+              break;
+            }
+          }
+          while (level < currentLevel && listStack.length > 1) {
+            listStack.pop();
+            currentLevel--;
+          }
+          var item = document.createElement('li');
+          var link = document.createElement('a');
+          link.href = '#' + h.id;
+          // Use textContent to avoid inheriting the injected heading
+          // anchor from the anchor-links enhancement below.
+          link.textContent = h.firstChild ? h.firstChild.textContent : h.textContent;
+          item.appendChild(link);
+          listStack[listStack.length - 1].appendChild(item);
+        });
+        toc.appendChild(currentList);
+        article.insertBefore(toc, article.firstChild);
+      }
+    }
+
     // Heading anchor links. Every heading with an id gets a "#" link
     // appended that permalinks to the heading. Idle by default; appears
     // on hover via CSS.

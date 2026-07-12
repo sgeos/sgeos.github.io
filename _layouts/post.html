@@ -50,7 +50,7 @@ layout: default
   {% endif %}
 {% endif %}
 
-<article class="post" data-pagefind-body>
+<article class="post" data-pagefind-body{% if page.toc == false %} data-toc-suppress="true"{% endif %}>
 
   {% comment %}
     Pagefind metadata. Categories and year are exposed as filters so
