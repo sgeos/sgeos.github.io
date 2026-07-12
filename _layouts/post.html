@@ -62,6 +62,20 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.backlinks and page.backlinks.size > 0 %}
+  <section class="backlinks" aria-label="Backlinks">
+    <h2 class="backlinks-heading">Referenced by</h2>
+    <ul class="backlinks-list">
+      {% for link in page.backlinks %}
+        <li>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+          <span class="backlink-date">{{ link.date | date: "%Y-%m-%d" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if page.series %}
   <nav class="series-nav series-nav-bottom" aria-label="Series navigation">
     <p class="series-context"><strong>{{ page.series_title | default: page.series }}</strong>, part {{ current_index }} of {{ series_posts.size }}</p>

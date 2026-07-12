@@ -456,6 +456,43 @@
 
 
 /**
+ * Backlinks section. Rendered when the backlinks generator plugin
+ * finds one or more posts that reference this post via post_url tag.
+ */
+.backlinks {
+    margin-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid var(--grey-color-light);
+    font-size: $small-font-size;
+
+    .backlinks-heading {
+        font-size: 20px;
+        margin-bottom: $spacing-unit / 3;
+    }
+
+    .backlinks-list {
+        list-style: none;
+        margin-left: 0;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 2px 0;
+            gap: $spacing-unit / 2;
+        }
+
+        .backlink-date {
+            color: var(--grey-color);
+            font-variant-numeric: tabular-nums;
+            flex-shrink: 0;
+        }
+    }
+}
+
+
+
+/**
  * Series navigation. A post that carries series metadata in front
  * matter gets a compact context header near the top and a full
  * table-of-contents nav at the bottom with adjacent-post links.
