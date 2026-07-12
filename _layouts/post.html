@@ -32,10 +32,28 @@ layout: default
 }
 </script>
 
+{% if page.series %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "series_index" %}
+  {% assign current_index = 0 %}
+  {% for p in series_posts %}
+    {% if p.url == page.url %}{% assign current_index = forloop.index %}{% endif %}
+  {% endfor %}
+  {% assign series_prev = null %}
+  {% assign series_next = null %}
+  {% if current_index > 1 %}{% assign series_prev = series_posts[current_index | minus: 2] %}{% endif %}
+  {% if current_index < series_posts.size %}{% assign series_next = series_posts[current_index] %}{% endif %}
+{% endif %}
+
 <article class="post" data-pagefind-body>
 
   <header class="post-header">
     <h1 class="post-title" data-pagefind-meta="title">{{ page.title }}</h1>
+
+    {% if page.series %}
+    <nav class="series-nav series-nav-top" aria-label="Series navigation">
+      <p class="series-context">Part {{ current_index }} of {{ series_posts.size }} in <strong>{{ page.series_title | default: page.series }}</strong></p>
+    </nav>
+    {% endif %}
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
     {% include mathjax.html %}
   </header>
@@ -43,6 +61,24 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.series %}
+  <nav class="series-nav series-nav-bottom" aria-label="Series navigation">
+    <p class="series-context"><strong>{{ page.series_title | default: page.series }}</strong>, part {{ current_index }} of {{ series_posts.size }}</p>
+    <ul class="series-list">
+      {% for p in series_posts %}
+        <li{% if p.url == page.url %} class="current" aria-current="page"{% endif %}>
+          <span class="series-index">Part {{ p.series_index }}</span>
+          <a href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="series-adjacent">
+      {% if series_prev %}<a class="series-prev" href="{{ series_prev.url }}">← {{ series_prev.title }}</a>{% endif %}
+      {% if series_next %}<a class="series-next" href="{{ series_next.url }}">{{ series_next.title }} →</a>{% endif %}
+    </p>
+  </nav>
+  {% endif %}
 
 </article>
 
