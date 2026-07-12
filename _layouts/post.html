@@ -46,6 +46,17 @@ layout: default
 
 <article class="post" data-pagefind-body>
 
+  {% comment %}
+    Pagefind metadata. Categories and year are exposed as filters so
+    the search page can offer facet browsing alongside full-text
+    matching. The primary category (first token) is duplicated as a
+    single-value filter for the most common case.
+  {% endcomment %}
+  {% for cat in page.categories %}
+  <span data-pagefind-filter="category" style="display: none">{{ cat }}</span>
+  {% endfor %}
+  <span data-pagefind-filter="year" style="display: none">{{ page.date | date: '%Y' }}</span>
+
   <header class="post-header">
     <h1 class="post-title" data-pagefind-meta="title">{{ page.title }}</h1>
 
