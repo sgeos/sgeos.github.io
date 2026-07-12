@@ -544,6 +544,76 @@
 
 
 /**
+ * Adjacent-post navigation. Chronological previous and next post
+ * links rendered at the bottom of every post that has adjacent posts
+ * in the corpus.
+ */
+.post-adjacent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-unit / 2;
+    margin-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid var(--grey-color-light);
+    font-size: $small-font-size;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding: $spacing-unit / 3 $spacing-unit / 2;
+        border: 1px solid var(--grey-color-light);
+        border-radius: 4px;
+        color: var(--text-color);
+        text-decoration: none;
+        transition: border-color 0.1s;
+
+        &:hover {
+            border-color: var(--brand-color);
+            text-decoration: none;
+
+            .post-adjacent-title {
+                color: var(--brand-color);
+            }
+        }
+    }
+
+    .post-adjacent-label {
+        color: var(--grey-color);
+        font-size: 0.9em;
+    }
+
+    .post-adjacent-title {
+        transition: color 0.1s;
+    }
+
+    .post-adjacent-next {
+        text-align: right;
+        // Push to the second grid column even when it is the only child
+        grid-column-start: 2;
+    }
+
+    // If both prev and next exist, next stays in column 2; the
+    // grid-column-start above still applies harmlessly.
+    .post-adjacent-prev {
+        grid-column-start: 1;
+    }
+}
+
+@include media-query($on-palm) {
+    .post-adjacent {
+        grid-template-columns: 1fr;
+
+        .post-adjacent-next,
+        .post-adjacent-prev {
+            grid-column-start: 1;
+        }
+    }
+}
+
+
+
+/**
  * Backlinks section. Rendered when the backlinks generator plugin
  * finds one or more posts that reference this post via post_url tag.
  */
