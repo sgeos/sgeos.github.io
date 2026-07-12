@@ -1,0 +1,68 @@
+<script>
+  (function () {
+    // Heading anchor links. Every heading with an id gets a "#" link
+    // appended that permalinks to the heading. Idle by default; appears
+    // on hover via CSS.
+    document.querySelectorAll(
+      '.post-content h2[id], .post-content h3[id], .post-content h4[id], .post-content h5[id], .post-content h6[id]'
+    ).forEach(function (heading) {
+      var anchor = document.createElement('a');
+      anchor.href = '#' + heading.id;
+      anchor.className = 'heading-anchor';
+      anchor.setAttribute('aria-label', 'Direct link to section');
+      anchor.textContent = '#';
+      heading.appendChild(anchor);
+    });
+
+    // Copy-to-clipboard on code blocks. Appends a button that copies
+    // the block's plain-text content when clicked. Falls back
+    // gracefully if the Clipboard API is unavailable.
+    if (navigator.clipboard) {
+      document.querySelectorAll('.post-content pre').forEach(function (pre) {
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'copy-code';
+        button.setAttribute('aria-label', 'Copy code to clipboard');
+        button.textContent = 'Copy';
+        pre.appendChild(button);
+        button.addEventListener('click', function () {
+          var target = pre.querySelector('code') || pre;
+          var text = target.innerText;
+          navigator.clipboard.writeText(text).then(function () {
+            button.textContent = 'Copied';
+            setTimeout(function () { button.textContent = 'Copy'; }, 2000);
+          }).catch(function () {
+            button.textContent = 'Error';
+            setTimeout(function () { button.textContent = 'Copy'; }, 2000);
+          });
+        });
+      });
+    }
+
+    // Reading progress indicator. A thin bar at the top of the viewport
+    // that tracks how far the reader has scrolled through the article.
+    // Only shows if there is enough article to scroll through.
+    var article = document.querySelector('.post-content');
+    if (article && article.offsetHeight > window.innerHeight * 1.5) {
+      var bar = document.createElement('div');
+      bar.className = 'reading-progress';
+      bar.setAttribute('role', 'progressbar');
+      bar.setAttribute('aria-label', 'Reading progress');
+      document.body.appendChild(bar);
+      var update = function () {
+        var rect = article.getBoundingClientRect();
+        var articleTop = window.scrollY + rect.top;
+        var articleBottom = articleTop + rect.height - window.innerHeight;
+        var progress = 0;
+        if (articleBottom > articleTop) {
+          progress = (window.scrollY - articleTop) / (articleBottom - articleTop);
+        }
+        progress = Math.max(0, Math.min(1, progress));
+        bar.style.width = (progress * 100) + '%';
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update, { passive: true });
+      update();
+    }
+  })();
+</script>

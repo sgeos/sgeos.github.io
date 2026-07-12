@@ -186,12 +186,88 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: auto;
+    position: relative;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
     }
+
+    // Copy-to-clipboard button injected by post-enhancements.html.
+    // Positioned at the top-right of the code block. Uses transparent
+    // background so long code lines can scroll under it.
+    .copy-code {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        padding: 2px 8px;
+        font-size: 11px;
+        font-family: inherit;
+        color: var(--grey-color);
+        background: var(--background-color);
+        border: 1px solid var(--grey-color-light);
+        border-radius: 3px;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.15s;
+
+        &:hover {
+            color: var(--text-color);
+            border-color: var(--brand-color);
+        }
+    }
+
+    &:hover .copy-code,
+    .copy-code:focus-visible {
+        opacity: 1;
+    }
+}
+
+
+
+/**
+ * Heading anchor links appended by post-enhancements.html. Visible on
+ * hover of the heading. Keyboard-focus reveals them too.
+ */
+.post-content {
+    h2, h3, h4, h5, h6 {
+        .heading-anchor {
+            display: inline-block;
+            margin-left: 0.4em;
+            color: var(--grey-color);
+            text-decoration: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+
+            &:hover {
+                color: var(--brand-color);
+            }
+        }
+
+        &:hover .heading-anchor,
+        .heading-anchor:focus-visible {
+            opacity: 1;
+        }
+    }
+}
+
+
+
+/**
+ * Reading progress indicator. Fixed thin bar at the top of the
+ * viewport, width tracks scroll position through the article.
+ */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background: var(--brand-color);
+    z-index: 1000;
+    transition: width 0.05s linear;
+    pointer-events: none;
 }
 
 
