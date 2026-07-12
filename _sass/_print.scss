@@ -58,4 +58,21 @@
         border: 1px solid #999;
         background: #f5f5f5;
     }
+
+    // Disclose the full ISO timestamp after each visible date. Uses the
+    // datetime attribute on <time> elements. Screen readers ignore CSS
+    // generated content by default so this only affects visual output.
+    time[datetime]::after {
+        content: " (" attr(datetime) ")";
+        font-size: 0.85em;
+        color: #444;
+    }
+
+    // Hide interactive UI on print output.
+    .theme-toggle,
+    .copy-code,
+    .reading-progress,
+    .heading-anchor {
+        display: none;
+    }
 }
