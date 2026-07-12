@@ -634,6 +634,41 @@
 
 
 /**
+ * Related posts section. Rendered when the related_posts generator
+ * plugin finds one or more posts sharing at least one category.
+ * Complements the backlinks section which shows explicit references.
+ */
+.related-posts {
+    margin-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid var(--grey-color-light);
+    font-size: $small-font-size;
+
+    .related-posts-heading {
+        font-size: 20px;
+        margin-bottom: $spacing-unit / 3;
+    }
+
+    .related-posts-list {
+        list-style: none;
+        margin-left: 0;
+
+        li {
+            padding: 4px 0;
+        }
+
+        .related-post-meta {
+            display: block;
+            color: var(--grey-color);
+            font-size: 0.9em;
+            font-variant-numeric: tabular-nums;
+        }
+    }
+}
+
+
+
+/**
  * Backlinks section. Rendered when the backlinks generator plugin
  * finds one or more posts that reference this post via post_url tag.
  */
