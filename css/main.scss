@@ -88,48 +88,63 @@ $on-laptop:        800px;
     --syntax-whitespace: #bbbbbb;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #e6e6e6;
-        --background-color: #121212;
-        --brand-color: #6ba4f7;
-        --brand-color-visited: #5589db;
-        --grey-color: #a0a0a0;
-        --grey-color-light: #3a3a3a;
-        --grey-color-dark: #d0d0d0;
-        --code-background-color: #0d1117;
+// Dark theme values. Applied via three paths:
+//   1. prefers-color-scheme: dark AND no manual override
+//   2. data-theme="dark" set explicitly by the theme toggle
+// The mixin lets both selectors share one definition.
+@mixin dark-theme {
+    --text-color: #e6e6e6;
+    --background-color: #121212;
+    --brand-color: #6ba4f7;
+    --brand-color-visited: #5589db;
+    --grey-color: #a0a0a0;
+    --grey-color-light: #3a3a3a;
+    --grey-color-dark: #d0d0d0;
+    --code-background-color: #0d1117;
 
-        // Dark syntax palette. Follows GitHub Dark conventions for the
-        // widely used tokens (comment, keyword, string, number,
-        // function, class, tag) while keeping diff backgrounds tinted
-        // deep red and green for legibility.
-        --syntax-bg: #0d1117;
-        --syntax-comment: #8b949e;
-        --syntax-error-fg: #f85149;
-        --syntax-error-bg: #490202;
-        --syntax-diff-fg: #e6e6e6;
-        --syntax-diff-inserted-bg: #033a16;
-        --syntax-diff-inserted-bg-specific: #0f5323;
-        --syntax-diff-deleted-bg: #3c0912;
-        --syntax-diff-deleted-bg-specific: #67060c;
-        --syntax-generic-error: #f85149;
-        --syntax-generic-heading: #8b949e;
-        --syntax-generic-subheading: #a0a0a0;
-        --syntax-generic-output: #a0a0a0;
-        --syntax-generic-prompt: #d0d0d0;
-        --syntax-number: #79c0ff;
-        --syntax-string: #a5d6ff;
-        --syntax-string-regex: #7ee787;
-        --syntax-string-symbol: #f2cc60;
-        --syntax-name-attr: #7ee787;
-        --syntax-name-builtin: #79c0ff;
-        --syntax-name-class: #ffa657;
-        --syntax-name-decorator: #d2a8ff;
-        --syntax-name-function: #d2a8ff;
-        --syntax-name-namespace: #a0a0a0;
-        --syntax-name-tag: #7ee787;
-        --syntax-whitespace: #484848;
+    // Dark syntax palette. Follows GitHub Dark conventions for the
+    // widely used tokens (comment, keyword, string, number,
+    // function, class, tag) while keeping diff backgrounds tinted
+    // deep red and green for legibility.
+    --syntax-bg: #0d1117;
+    --syntax-comment: #8b949e;
+    --syntax-error-fg: #f85149;
+    --syntax-error-bg: #490202;
+    --syntax-diff-fg: #e6e6e6;
+    --syntax-diff-inserted-bg: #033a16;
+    --syntax-diff-inserted-bg-specific: #0f5323;
+    --syntax-diff-deleted-bg: #3c0912;
+    --syntax-diff-deleted-bg-specific: #67060c;
+    --syntax-generic-error: #f85149;
+    --syntax-generic-heading: #8b949e;
+    --syntax-generic-subheading: #a0a0a0;
+    --syntax-generic-output: #a0a0a0;
+    --syntax-generic-prompt: #d0d0d0;
+    --syntax-number: #79c0ff;
+    --syntax-string: #a5d6ff;
+    --syntax-string-regex: #7ee787;
+    --syntax-string-symbol: #f2cc60;
+    --syntax-name-attr: #7ee787;
+    --syntax-name-builtin: #79c0ff;
+    --syntax-name-class: #ffa657;
+    --syntax-name-decorator: #d2a8ff;
+    --syntax-name-function: #d2a8ff;
+    --syntax-name-namespace: #a0a0a0;
+    --syntax-name-tag: #7ee787;
+    --syntax-whitespace: #484848;
+}
+
+// Auto-dark when the OS prefers dark AND the user has not manually
+// forced light.
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        @include dark-theme;
     }
+}
+
+// Manual override.
+:root[data-theme="dark"] {
+    @include dark-theme;
 }
 
 

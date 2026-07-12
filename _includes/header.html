@@ -4,6 +4,10 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+    <button type="button" class="theme-toggle" aria-label="Toggle color scheme" title="Toggle color scheme">
+      <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+    </button>
+
     <nav class="site-nav" aria-label="Main navigation">
       <button type="button" class="menu-icon" aria-label="Toggle navigation menu">
         <svg viewBox="0 0 18 15" aria-hidden="true" focusable="false">
@@ -48,6 +52,31 @@
 
 <script>
   (function () {
+    // Restore any user-selected theme override on page load. This runs
+    // as early as the header renders to avoid a flash of the wrong
+    // theme while the rest of the page parses.
+    try {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    } catch (e) { /* localStorage unavailable */ }
+
+    // Wire up the theme-toggle button.
+    var themeButton = document.querySelector('.theme-toggle');
+    if (themeButton) {
+      themeButton.addEventListener('click', function () {
+        var html = document.documentElement;
+        var current = html.getAttribute('data-theme');
+        if (!current) {
+          current = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        var next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) { /* ignore */ }
+      });
+    }
+
     var button = document.querySelector('.site-nav .menu-icon');
     if (button) {
       button.addEventListener('click', function () {
