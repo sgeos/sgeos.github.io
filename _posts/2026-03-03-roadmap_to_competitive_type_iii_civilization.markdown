@@ -5,8 +5,10 @@ comments: true
 title:  "Roadmap to a Competitive Type III Civilization"
 date:   2026-03-03 06:00:00 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 3
 ---
-
 <!-- A100 -->
 <script>console.log("A100");</script>
 

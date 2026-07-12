@@ -5,8 +5,10 @@ comments: true
 title: "Telemeritocracy"
 date: 2026-02-18 15:58:18 +0000
 categories: management philosophy
+series: telemeritocracy
+series_title: Telemeritocracy
+series_index: 2
 ---
-
 <!-- A87 -->
 <script>console.log("A87");</script>
 

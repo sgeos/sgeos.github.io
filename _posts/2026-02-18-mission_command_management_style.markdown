@@ -5,8 +5,10 @@ comments: true
 title: "Mission Command Management Style"
 date: 2026-02-17 12:47:43 +0000
 categories: management philosophy
+series: telemeritocracy
+series_title: Telemeritocracy
+series_index: 1
 ---
-
 <!-- A86 -->
 <script>console.log("A86");</script>
 

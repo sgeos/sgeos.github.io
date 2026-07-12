@@ -5,8 +5,10 @@ comments: true
 title:  "Steampunk and Analog Electronics for Von Neumann Probe Control"
 date:   2026-03-08 14:23:00 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 7
 ---
-
 <!-- A104 -->
 <script>console.log("A104");</script>
 

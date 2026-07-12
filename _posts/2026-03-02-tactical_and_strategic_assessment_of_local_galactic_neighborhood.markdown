@@ -5,8 +5,10 @@ comments: true
 title:  "Tactical and Strategic Assessment of the Local Galactic Neighborhood"
 date:   2026-03-02 06:06:45 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 2
 ---
-
 <!-- A99 -->
 <script>console.log("A99");</script>
 

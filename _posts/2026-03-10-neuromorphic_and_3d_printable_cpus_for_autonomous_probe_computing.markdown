@@ -5,8 +5,10 @@ comments: true
 title:  "Neuromorphic and 3D Printable CPUs for Autonomous Probe Computing"
 date:   2026-03-10 09:47:00 +0000
 categories: science philosophy
+series: intergalactic_competition
+series_title: Intergalactic Competition
+series_index: 8
 ---
-
 <!-- A105 -->
 <script>console.log("A105");</script>
 
