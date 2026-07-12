@@ -49,14 +49,7 @@ categories:
 - Set `mathjax: true` to enable LaTeX math rendering. Inline math uses `$...$` or `\(...\)`.
 - Set `comments: true` to enable Giscus comments on the post. Giscus stores comments as GitHub Discussions in this repository.
 - Series metadata: set `series: <slug>`, `series_title: <human title>`, and `series_index: <N>` on each post in a series. The post layout auto-generates a compact context header near the top ("Part N of M in Series Title") and a full table-of-contents nav at the bottom with previous and next links. Posts sharing the same `series:` slug are grouped and sorted by `series_index:`.
-- Insert a kramdown table of contents at any point in a post by placing the following two lines:
-
-  ```
-  * Contents
-  {:toc}
-  ```
-
-  Kramdown replaces that list with a generated TOC of the post's headings.
+- Automatic table of contents. A TOC injects at the top of the article on posts with four or more H2/H3 headings and at least 800 words. Suppress per post with `toc: false` in front matter. Take manual control by placing `* Contents \n {:toc}` in the post markdown; kramdown generates a TOC in that location and the auto-injector defers.
 - Published post filenames follow the pattern `_posts/YYYY-MM-DD-slug.markdown`.
 - Drafts prefixed with `hidden.` are gitignored and will not be committed.
 - Do not use `keleusma` as the first category. The `sgeos/keleusma` repository serves its own GitHub Pages site at `https://sgeos.github.io/keleusma/` which shadows any URL under that path prefix. Jekyll's default permalink places the first category first in the URL, so any post with `categories: keleusma ...` returns 404 despite building correctly. Place a more general category first, such as `compilers`, `operating-systems`, or `programming-languages`. See [`_docs/writing/POST_STRUCTURE.md`](_docs/writing/POST_STRUCTURE.md) for the full explanation and additional shadowed-path guidance.
