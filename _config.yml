@@ -27,15 +27,19 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
-# jekyll-archives configuration. Only categories are enabled. Tags, years,
-# months, and days are not archived because the index already offers
-# by-year browsing and posts do not carry tag metadata.
+# jekyll-archives configuration. Categories and tags are archived. Year,
+# month, and day are not archived because the index already offers
+# by-year browsing.
 jekyll-archives:
   enabled:
     - categories
-  layout: archive
+    - tags
+  layouts:
+    category: archive
+    tag: archive
   permalinks:
     category: '/categories/:name/'
+    tag: '/tags/:name/'
 
 # This list replaces Jekyll's default exclude, so build and tooling files
 # must be listed explicitly to keep them out of the generated site.

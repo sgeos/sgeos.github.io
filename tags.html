@@ -1,0 +1,32 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+hide_from_nav: true
+---
+
+<div class="home categories-overview">
+
+  <h1 class="page-heading">Tags</h1>
+
+  {% if site.tags.size > 0 %}
+  <p>Browse posts by tag. Tags are finer-grained than categories and flag specific topics within a post. The counts reflect the current corpus of {{ site.posts | size }} posts.</p>
+
+  {% assign sorted_tags = site.tags | sort %}
+  <ul class="category-list">
+    {% for tag in sorted_tags %}
+      {% assign tag_name = tag | first %}
+      {% assign tag_posts = tag | last %}
+      <li>
+        <a href="{{ '/tags/' | prepend: site.baseurl | append: tag_name | append: '/' }}">
+          <span class="category-name">{{ tag_name }}</span>
+          <span class="category-count">{{ tag_posts | size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No tagged posts yet. Posts can adopt tags by adding a <code>tags:</code> line to their front matter, similar to <code>categories:</code>. Tag archive pages generate automatically once tags exist.</p>
+  {% endif %}
+
+</div>
