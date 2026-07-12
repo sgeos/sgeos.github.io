@@ -5,8 +5,10 @@ comments: true
 title:  "Why Startups Actually Fail"
 date:   2026-05-09 09:00:00 +0000
 categories: business strategy startups
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 7
 ---
-
 <!-- A167 -->
 <script>console.log("A167");</script>
 

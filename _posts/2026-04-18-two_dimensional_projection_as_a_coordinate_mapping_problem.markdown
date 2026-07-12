@@ -5,8 +5,10 @@ comments: true
 title:  "Two-Dimensional Projection as a Coordinate Mapping Problem"
 date:   2026-04-18 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 1
 ---
-
 <!-- A173 -->
 <script>console.log("A173");</script>
 

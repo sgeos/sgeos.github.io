@@ -5,8 +5,10 @@ comments: true
 title:  "A History of Hardware Description Languages"
 date:   2026-03-13 09:00:00 +0000
 categories: hdl hardware history
+series: hdl_thread
+series_title: Hardware Description Languages
+series_index: 1
 ---
-
 <!-- A200 -->
 <script>console.log("A200");</script>
 

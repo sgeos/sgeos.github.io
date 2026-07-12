@@ -5,8 +5,10 @@ comments: true
 title:  "Rocket Propellant Chemistry, Cryogenic Liquid Propellants"
 date:   2026-02-03 09:00:00 +0000
 categories: aerospace propulsion chemistry
+series: rocket_propellant_chemistry
+series_title: Rocket Propellant Chemistry
+series_index: 3
 ---
-
 <!-- A219 -->
 <script>console.log("A219");</script>
 

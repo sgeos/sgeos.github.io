@@ -5,8 +5,10 @@ comments: true
 title:  "After the Award, Compliance and Reporting for SBIR and STTR"
 date:   2026-06-24 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 10
 ---
-
 <!-- A141 -->
 <script>console.log("A141");</script>
 

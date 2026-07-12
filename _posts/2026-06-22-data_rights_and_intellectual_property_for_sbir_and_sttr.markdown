@@ -5,8 +5,10 @@ comments: true
 title:  "Data Rights and Intellectual Property in SBIR and STTR"
 date:   2026-06-22 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 8
 ---
-
 <!-- A139 -->
 <script>console.log("A139");</script>
 

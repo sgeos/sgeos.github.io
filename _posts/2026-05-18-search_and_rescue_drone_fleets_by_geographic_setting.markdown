@@ -5,8 +5,10 @@ comments: true
 title:  "Search and Rescue Drone Fleets by Geographic Setting"
 date:   2026-05-18 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue geographic-setting
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 4
 ---
-
 <!-- A148 -->
 <script>console.log("A148");</script>
 

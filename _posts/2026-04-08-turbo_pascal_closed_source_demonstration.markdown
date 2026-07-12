@@ -5,8 +5,10 @@ comments: true
 title:  "Turbo Pascal, the Closed-Source Demonstration"
 date:   2026-04-08 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 3
 ---
-
 <!-- A190 -->
 <script>console.log("A190");</script>
 

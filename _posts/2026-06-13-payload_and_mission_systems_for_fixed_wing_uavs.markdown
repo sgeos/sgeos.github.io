@@ -5,8 +5,10 @@ comments: true
 title:  "Payload and Mission Systems for Fixed-Wing UAVs"
 date:   2026-06-13 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 15
 ---
-
 <!-- A130 -->
 <script>console.log("A130");</script>
 

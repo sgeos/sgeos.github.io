@@ -5,8 +5,10 @@ comments: true
 title:  "Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics"
 date:   2026-05-15 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 1
 ---
-
 <!-- A145 -->
 <script>console.log("A145");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Structures and the Flight Envelope for Fixed-Wing UAVs"
 date:   2026-06-10 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 12
 ---
-
 <!-- A127 -->
 <script>console.log("A127");</script>
 

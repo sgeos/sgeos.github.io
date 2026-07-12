@@ -5,8 +5,10 @@ comments: true
 title:  "Compilation as a Streaming Discipline"
 date:   2026-04-06 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 1
 ---
-
 <!-- A188 -->
 <script>console.log("A188");</script>
 

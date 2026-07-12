@@ -5,8 +5,10 @@ comments: true
 title:  "Patents for the Early-Stage Founder"
 date:   2026-05-07 09:00:00 +0000
 categories: business intellectual-property patents
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 5
 ---
-
 <!-- A165 -->
 <script>console.log("A165");</script>
 

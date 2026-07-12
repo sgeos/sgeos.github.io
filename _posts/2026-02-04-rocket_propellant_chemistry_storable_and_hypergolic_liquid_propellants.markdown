@@ -5,8 +5,10 @@ comments: true
 title:  "Rocket Propellant Chemistry, Storable and Hypergolic Liquid Propellants"
 date:   2026-02-04 09:00:00 +0000
 categories: aerospace propulsion chemistry
+series: rocket_propellant_chemistry
+series_title: Rocket Propellant Chemistry
+series_index: 4
 ---
-
 <!-- A220 -->
 <script>console.log("A220");</script>
 

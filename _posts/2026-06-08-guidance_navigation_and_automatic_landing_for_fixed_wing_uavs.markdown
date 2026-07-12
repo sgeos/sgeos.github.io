@@ -5,8 +5,10 @@ comments: true
 title:  "Guidance, Navigation, and Automatic Landing for Fixed-Wing UAVs"
 date:   2026-06-08 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 10
 ---
-
 <!-- A125 -->
 <script>console.log("A125");</script>
 

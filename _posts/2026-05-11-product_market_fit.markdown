@@ -5,8 +5,10 @@ comments: true
 title:  "Product-Market Fit"
 date:   2026-05-11 09:00:00 +0000
 categories: business strategy startups
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 9
 ---
-
 <!-- A169 -->
 <script>console.log("A169");</script>
 

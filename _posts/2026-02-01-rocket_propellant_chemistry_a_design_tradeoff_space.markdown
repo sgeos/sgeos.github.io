@@ -5,8 +5,10 @@ comments: true
 title:  "Rocket Propellant Chemistry, A Design-Tradeoff Space"
 date:   2026-02-01 09:00:00 +0000
 categories: aerospace propulsion chemistry
+series: rocket_propellant_chemistry
+series_title: Rocket Propellant Chemistry
+series_index: 1
 ---
-
 <!-- A217 -->
 <script>console.log("A217");</script>
 

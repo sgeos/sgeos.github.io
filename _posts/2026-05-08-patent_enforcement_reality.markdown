@@ -5,8 +5,10 @@ comments: true
 title:  "Patent Enforcement Reality"
 date:   2026-05-08 09:00:00 +0000
 categories: business intellectual-property patents
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 6
 ---
-
 <!-- A166 -->
 <script>console.log("A166");</script>
 

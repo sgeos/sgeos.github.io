@@ -5,8 +5,10 @@ comments: true
 title:  "Operator Training and Certification for a Search and Rescue Drone Program"
 date:   2026-05-19 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue training-and-certification
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 5
 ---
-
 <!-- A149 -->
 <script>console.log("A149");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Writing the Phase I SBIR and STTR Proposal"
 date:   2026-06-19 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 5
 ---
-
 <!-- A136 -->
 <script>console.log("A136");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Top-Down with Decoupled Vertical Axis"
 date:   2026-04-20 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 3
 ---
-
 <!-- A175 -->
 <script>console.log("A175");</script>
 

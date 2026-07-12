@@ -5,8 +5,10 @@ comments: true
 title:  "Wirth's Single-Pass Line, PL/0 through Oberon"
 date:   2026-04-07 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 2
 ---
-
 <!-- A189 -->
 <script>console.log("A189");</script>
 

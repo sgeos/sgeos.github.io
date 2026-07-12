@@ -5,8 +5,10 @@ comments: true
 title:  "Picking and Hit Testing in Pseudo-Three-Dimensional Projections"
 date:   2026-05-01 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 14
 ---
-
 <!-- A186 -->
 <script>console.log("A186");</script>
 

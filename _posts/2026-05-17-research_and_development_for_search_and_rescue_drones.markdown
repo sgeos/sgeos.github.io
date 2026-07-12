@@ -5,8 +5,10 @@ comments: true
 title:  "Research and Development for Search and Rescue Drones"
 date:   2026-05-17 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue research-and-development
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 3
 ---
-
 <!-- A147 -->
 <script>console.log("A147");</script>
 

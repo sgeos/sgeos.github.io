@@ -5,8 +5,10 @@ comments: true
 title: "Information-Flow Control, A Deep Dive with Keleusma"
 date:   2026-05-29 09:00:00 +0000
 categories: security rust programming
+series: truthful_machines
+series_title: Truthful Machines
+series_index: 3
 ---
-
 <!-- A111 -->
 <script>console.log("A111");</script>
 

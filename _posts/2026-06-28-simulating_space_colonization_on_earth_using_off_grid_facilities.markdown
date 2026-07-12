@@ -5,8 +5,10 @@ comments: true
 title:  "Simulating Space Colonization on Earth Using Off-Grid Facilities"
 date:   2026-06-28 09:00:00 +0000
 categories: aerospace engineering space-studies analog-facilities
+series: off_grid_space_analogs
+series_title: Off-Grid Space Colonization Analogs
+series_index: 1
 ---
-
 <!-- A152 -->
 <script>console.log("A152");</script>
 

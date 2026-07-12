@@ -5,8 +5,10 @@ comments: true
 title:  "Sensor and Payload Selection for Search and Rescue Drones"
 date:   2026-05-20 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue sensors-and-payloads
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 6
 ---
-
 <!-- A150 -->
 <script>console.log("A150");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Rocket Propellant Chemistry, Solid Propellants"
 date:   2026-02-02 09:00:00 +0000
 categories: aerospace propulsion chemistry
+series: rocket_propellant_chemistry
+series_title: Rocket Propellant Chemistry
+series_index: 2
 ---
-
 <!-- A218 -->
 <script>console.log("A218");</script>
 

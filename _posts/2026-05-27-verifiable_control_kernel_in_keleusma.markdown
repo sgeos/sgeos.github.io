@@ -5,8 +5,10 @@ comments: true
 title: "A Verifiable Control Kernel in Keleusma for a Truthful-Machine Architecture"
 date:   2026-05-27 09:00:00 +0000
 categories: ai rust programming
+series: truthful_machines
+series_title: Truthful Machines
+series_index: 2
 ---
-
 <!-- A109 -->
 <script>console.log("A109");</script>
 

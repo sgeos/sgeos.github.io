@@ -5,8 +5,10 @@ comments: true
 title:  "Landing Gear and the Physics of Touchdown for Fixed-Wing UAVs"
 date:   2026-06-07 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 9
 ---
-
 <!-- A124 -->
 <script>console.log("A124");</script>
 

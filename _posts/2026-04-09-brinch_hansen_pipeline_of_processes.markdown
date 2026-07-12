@@ -5,8 +5,10 @@ comments: true
 title:  "Brinch Hansen's Pipeline-of-Processes Compilers"
 date:   2026-04-09 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 4
 ---
-
 <!-- A191 -->
 <script>console.log("A191");</script>
 

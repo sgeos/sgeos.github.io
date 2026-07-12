@@ -5,8 +5,10 @@ comments: true
 title:  "Patents, Trade Secrets, and the Disclosure Tradeoff"
 date:   2026-05-06 09:00:00 +0000
 categories: business intellectual-property patents
+series: patents_and_startups
+series_title: Patent and Startup Strategy
+series_index: 4
 ---
-
 <!-- A164 -->
 <script>console.log("A164");</script>
 

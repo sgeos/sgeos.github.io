@@ -5,8 +5,10 @@ comments: true
 title:  "The Meta-Factory, Prior Art and the Reproduction Loop"
 date:   2026-07-08 09:00:00 +0000
 categories: manufacturing self-replication history
+series: hdl_thread
+series_title: Hardware Description Languages
+series_index: 3
 ---
-
 <!-- A202 -->
 <script>console.log("A202");</script>
 

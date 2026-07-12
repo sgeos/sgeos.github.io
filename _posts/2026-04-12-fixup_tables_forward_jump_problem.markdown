@@ -5,8 +5,10 @@ comments: true
 title:  "Fixup Tables and the Forward-Jump Problem"
 date:   2026-04-12 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 7
 ---
-
 <!-- A194 -->
 <script>console.log("A194");</script>
 

@@ -5,8 +5,10 @@ comments: true
 title:  "Coalgebraic Productivity and the Stream-Processor Analogy"
 date:   2026-04-11 09:00:00 +0000
 categories: compilers streaming series
+series: streaming_compilers
+series_title: Streaming Compilers
+series_index: 6
 ---
-
 <!-- A193 -->
 <script>console.log("A193");</script>
 

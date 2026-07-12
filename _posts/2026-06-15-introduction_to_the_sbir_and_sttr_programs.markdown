@@ -5,8 +5,10 @@ comments: true
 title:  "An Introduction to the SBIR and STTR Programs"
 date:   2026-06-15 09:00:00 +0000
 categories: business funding sbir
+series: sbir_sttr
+series_title: SBIR and STTR Practitioner Playbook
+series_index: 1
 ---
-
 <!-- A132 -->
 <script>console.log("A132");</script>
 

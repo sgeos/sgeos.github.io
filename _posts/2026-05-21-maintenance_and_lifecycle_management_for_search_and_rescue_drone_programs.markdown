@@ -5,8 +5,10 @@ comments: true
 title:  "Maintenance and Lifecycle Management for Search and Rescue Drone Programs"
 date:   2026-05-21 09:00:00 +0000
 categories: aerospace engineering uav search-and-rescue maintenance-and-lifecycle
+series: search_and_rescue_drones
+series_title: Search and Rescue Drones
+series_index: 7
 ---
-
 <!-- A151 -->
 <script>console.log("A151");</script>
 

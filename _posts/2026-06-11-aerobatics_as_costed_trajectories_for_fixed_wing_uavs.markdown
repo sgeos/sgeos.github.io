@@ -5,8 +5,10 @@ comments: true
 title:  "Aerobatics as Costed Trajectories for Fixed-Wing UAVs"
 date:   2026-06-11 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 13
 ---
-
 <!-- A128 -->
 <script>console.log("A128");</script>
 

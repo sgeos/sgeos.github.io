@@ -5,8 +5,10 @@ comments: true
 title:  "Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass"
 date:   2026-05-30 09:00:00 +0000
 categories: aerospace engineering 3d-printing
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 1
 ---
-
 <!-- A112 -->
 <script>console.log("A112");</script>
 

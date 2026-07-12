@@ -5,8 +5,10 @@ comments: true
 title:  "Dynamic Stability and Control for Fixed-Wing UAVs"
 date:   2026-06-06 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 8
 ---
-
 <!-- A123 -->
 <script>console.log("A123");</script>
 

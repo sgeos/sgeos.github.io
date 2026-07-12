@@ -5,8 +5,10 @@ comments: true
 title:  "Side-Scrolling with Parallax Layers"
 date:   2026-04-22 09:00:00 +0000
 categories: games graphics projection
+series: two_dimensional_projection
+series_title: Two-Dimensional Projection in Games
+series_index: 5
 ---
-
 <!-- A177 -->
 <script>console.log("A177");</script>
 

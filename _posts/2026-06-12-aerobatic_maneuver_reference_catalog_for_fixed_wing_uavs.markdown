@@ -5,8 +5,10 @@ comments: true
 title:  "An Aerobatic Maneuver Reference Catalog for Fixed-Wing UAVs"
 date:   2026-06-12 09:00:00 +0000
 categories: aerospace engineering uav
+series: fixed_wing_uav
+series_title: Fixed-Wing UAV
+series_index: 14
 ---
-
 <!-- A129 -->
 <script>console.log("A129");</script>
 
