@@ -71,7 +71,11 @@ layout: default
       <p class="series-context">Part {{ current_index }} of {{ series_posts.size }} in <strong>{{ page.series_title | default: page.series }}</strong></p>
     </nav>
     {% endif %}
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %} • <span class="reading-time">{{ reading_minutes }} min read</span> • <span class="word-count">{{ word_count }} words</span>{% if page.comments %} • <a href="#comments">Comments</a>{% endif %}</p>
+
+    {% if page.categories.size > 0 %}
+    <p class="post-categories">Filed under: {% for cat in page.categories %}<a href="{{ '/categories/' | append: cat | append: '/' | prepend: site.baseurl }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% endif %}
     {% include mathjax.html %}
   </header>
 
