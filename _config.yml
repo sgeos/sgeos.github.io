@@ -27,6 +27,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
+# jekyll-feed emits a topical Atom feed per listed category so
+# readers can subscribe to a single thread rather than the full
+# corpus. The list is curated to the top-N most-populated first
+# categories, not exhaustive; readers can also filter by category on
+# the archive pages.
+feed:
+  categories:
+    - aerospace
+    - business
+    - games
+    - compilers
+    - programming-languages
+    - freebsd
+    - science
+    - ai
+    - rust
+    - gamedev
+    - phoenix
+    - elixir
+    - jekyll
+    - hdl
+    - engineering
+
 # jekyll-archives configuration. Categories and tags are archived. Year,
 # month, and day are not archived because the index already offers
 # by-year browsing.

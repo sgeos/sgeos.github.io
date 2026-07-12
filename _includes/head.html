@@ -26,6 +26,7 @@
   {% if page.previous %}<link rel="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">{% endif %}
   {% if page.next %}<link rel="next" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">{% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/feed+json" title="{{ site.title }} (JSON Feed)" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
   <link rel="manifest" href="{{ "/site.webmanifest" | prepend: site.baseurl }}">
