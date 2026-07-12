@@ -40,8 +40,14 @@ layout: default
   {% endfor %}
   {% assign series_prev = null %}
   {% assign series_next = null %}
-  {% if current_index > 1 %}{% assign series_prev = series_posts[current_index | minus: 2] %}{% endif %}
-  {% if current_index < series_posts.size %}{% assign series_next = series_posts[current_index] %}{% endif %}
+  {% if current_index > 1 %}
+    {% assign prev_idx = current_index | minus: 2 %}
+    {% assign series_prev = series_posts[prev_idx] %}
+  {% endif %}
+  {% if current_index < series_posts.size %}
+    {% assign next_idx = current_index %}
+    {% assign series_next = series_posts[next_idx] %}
+  {% endif %}
 {% endif %}
 
 <article class="post" data-pagefind-body>
