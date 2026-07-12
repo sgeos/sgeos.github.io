@@ -204,6 +204,20 @@
     font-size: 24px;
 }
 
+.series-badge {
+    display: inline-block;
+    font-size: $small-font-size;
+    color: var(--grey-color);
+    background: var(--code-background-color);
+    border: 1px solid var(--grey-color-light);
+    border-radius: 3px;
+    padding: 1px 8px;
+    margin-left: 4px;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
 .post-year-heading {
     margin-top: $spacing-unit;
     padding-bottom: $spacing-unit / 4;
