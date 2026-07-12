@@ -93,6 +93,23 @@ layout: default
   </section>
   {% endif %}
 
+  {% if page.previous or page.next %}
+  <nav class="post-adjacent" aria-label="Adjacent posts">
+    {% if page.previous %}
+    <a class="post-adjacent-prev" href="{{ page.previous.url }}" rel="prev">
+      <span class="post-adjacent-label">← Previous</span>
+      <span class="post-adjacent-title">{{ page.previous.title }}</span>
+    </a>
+    {% endif %}
+    {% if page.next %}
+    <a class="post-adjacent-next" href="{{ page.next.url }}" rel="next">
+      <span class="post-adjacent-label">Next →</span>
+      <span class="post-adjacent-title">{{ page.next.title }}</span>
+    </a>
+    {% endif %}
+  </nav>
+  {% endif %}
+
   {% if page.series %}
   <nav class="series-nav series-nav-bottom" aria-label="Series navigation">
     <p class="series-context"><strong>{{ page.series_title | default: page.series }}</strong>, part {{ current_index }} of {{ series_posts.size }}</p>
