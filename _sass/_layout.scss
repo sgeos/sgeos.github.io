@@ -541,6 +541,26 @@
     margin-bottom: $spacing-unit;
 }
 
+.post-categories {
+    margin-top: -$spacing-unit / 3;
+    margin-bottom: $spacing-unit / 2;
+    font-size: $small-font-size;
+    color: var(--grey-color);
+
+    a {
+        color: var(--grey-color);
+
+        &:hover {
+            color: var(--brand-color);
+            text-decoration: underline;
+        }
+    }
+}
+
+.word-count {
+    font-variant-numeric: tabular-nums;
+}
+
 
 
 /**
