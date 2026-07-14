@@ -34,7 +34,7 @@ Engineering audits verify properties of technical systems that cannot be establi
 
 **Correctness audits.** Formal code review, design review, mathematical proof review, and formal verification of software or hardware. The scope names a system component and the property to verify. Evidence is the source code, the specification, the design documents, and the reasoning trace. Independent reviewers examine the artifacts against the criteria and produce findings. Correctness audits are the modern instantiation of the peer review process that mathematics and the natural sciences have run for centuries. Empirical work by [Bacchelli and Bird][research_bacchelli_code_review] on modern code review at industrial scale documents that the practice produces value beyond defect discovery, including knowledge transfer, alternative solutions, and shared understanding of the codebase. The multiple-value observation matters because it explains why code review persists as an engineering discipline even where defect-discovery rates are modest.
 
-**Security audits.** Threat modeling review, penetration testing, static-analysis output review, incident post-mortems, and access-control audits. Scope names a system boundary and a threat model. Evidence includes system configuration, code, network topology, access logs, and prior incident records. Findings identify vulnerabilities, misconfigurations, and control gaps. Security audits produce their most valuable output when adversarial in orientation: the auditor is trying to find vulnerabilities that the auditee missed, and the auditee's cooperation is necessary but not sufficient.
+**Security audits.** Threat modeling review, penetration testing, static-analysis output review, incident post-mortems, and access-control audits. Scope names a system boundary and a threat model. Evidence includes system configuration, code, network topology, access logs, and prior incident records. Findings identify vulnerabilities, misconfigurations, and control gaps. Security audits produce their most valuable output when adversarial in orientation. The auditor is trying to find vulnerabilities that the auditee missed, and the auditee's cooperation is necessary but not sufficient.
 
 **Quality audits.** Test-coverage review, defect-rate review, performance-envelope verification, reliability metric review, and change-management-process audits. Scope names a quality attribute and a target level. Evidence includes test results, defect databases, performance measurements, and process records. Findings identify gaps between measured quality and target quality, and gaps between claimed process and actual practice.
 
@@ -150,20 +150,20 @@ Provenance research in scientific computing produced the [W3C PROV specification
 
 ## Conclusion
 
-Audits are structured verification passes that produce reviewable evidence artifacts. Four properties define the class: written scope and procedure, independent review, evidence artifacts, and findings with remediation. Three principal categories instantiate the class: engineering audits over technical systems, documentation audits over written artifacts, and compliance audits over conformance with external requirements. Provenance is the substrate that all three categories depend upon, and organizations that invest in provenance produce audit-readiness as a byproduct of ordinary work.
+Audits are structured verification passes that produce reviewable evidence artifacts. Four properties define the class. Those properties are written scope and procedure, independent review, evidence artifacts, and findings with remediation. Three principal categories instantiate the class. The categories are engineering audits over technical systems, documentation audits over written artifacts, and compliance audits over conformance with external requirements. Provenance is the substrate that all three categories depend upon, and organizations that invest in provenance produce audit-readiness as a byproduct of ordinary work.
 
 The organizational framing that treats audits as adversarial interruption is a category mistake. The audit's cognitive shape is that of peer review, code review, or referee report in mathematics, all of which are productive verification within their domains. Organizations that internalize the framing structure their record-keeping and management so that audit-readiness follows from doing the work rather than from separately preparing for the audit.
 
 ## References
 
-- [PCAOB, Public Company Accounting Oversight Board, standards library][ref_pcaob_standards]
-- [The Institute of Internal Auditors, International Standards for the Professional Practice of Internal Auditing][ref_iia_standards]
-- [NIST SP 800-53, Security and Privacy Controls for Information Systems and Organizations][ref_nist_800_53]
 - [Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy][ref_aicpa_tsc]
-- [ISO 27001, Information Security Management Systems, Requirements][ref_iso_27001]
-- [GDPR, General Data Protection Regulation, official portal][ref_gdpr]
-- [MITRE, Common Weakness Enumeration][ref_cwe]
 - [MITRE, Common Vulnerabilities and Exposures][ref_cve]
+- [MITRE, Common Weakness Enumeration][ref_cwe]
+- [GDPR, General Data Protection Regulation, official portal][ref_gdpr]
+- [The Institute of Internal Auditors, International Standards for the Professional Practice of Internal Auditing][ref_iia_standards]
+- [ISO 27001, Information Security Management Systems, Requirements][ref_iso_27001]
+- [NIST SP 800-53, Security and Privacy Controls for Information Systems and Organizations][ref_nist_800_53]
+- [PCAOB, Public Company Accounting Oversight Board, standards library][ref_pcaob_standards]
 - [W3C, PROV Overview, An Overview of the PROV Family of Documents][ref_w3c_prov]
 - [Related Post, Bidirectional Agentic Workflow][related_post_bidirectional_agentic]
 - [Related Post, Fast-Moving Versus Mission-Critical Engineering][related_post_fast_vs_critical]
