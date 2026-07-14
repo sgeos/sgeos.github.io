@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: false
+mathjax: true
 comments: true
 title: "Audits and Provenance"
 date:   2026-03-09 09:00:00 +0000
@@ -72,6 +72,14 @@ Provenance is the recorded history of how an artifact came to be. An audit trail
 
 Provenance is the substrate that makes all three audit categories possible. An engineering audit that cannot trace a bug back to the commit that introduced it, the review that missed it, and the specification that permitted it produces findings the auditee cannot act upon. A documentation audit that cannot trace a documented claim back to the decision record that established it cannot determine whether the claim is current. A compliance audit that cannot show the operating log for a control cannot demonstrate that the control was actually operating.
 
+Let $N_R$ denote the count of state transitions that produced audit-ready records during the audit scope's time window, and let $N_T$ denote the total number of state transitions in the same window. The provenance completeness $p$ is the ratio.
+
+$$
+p = \frac{N_R}{N_T}
+$$
+
+Audit feasibility requires $p$ close to unity. A system with $p = 1$ produces perfect audit evidence. A system with $p = 0$ produces none. Practical systems fall between, and where $p$ falls determines what audits are possible.
+
 **Chain of custody.** Every provenance-producing record identifies who did what, to which resource, at what time, and why. The chain of custody is complete when every state transition from the resource's creation to the current moment is documented by an entry made contemporaneously with the action.
 
 **Immutability.** Once written, provenance records cannot be altered without leaving evidence of the alteration. Cryptographic signatures, append-only logs, git commit chains, and blockchain-style hash-chained records all achieve immutability by different means. The choice among them depends on the threat model. A system whose provenance can be silently rewritten produces no audit evidence.
@@ -104,13 +112,25 @@ Audits fail in characteristic ways. The failure modes recur across categories.
 
 Organizations that treat audits as productive verification rather than adversarial interruption make different structural choices.
 
-They invest in provenance infrastructure so that every load-bearing action produces an audit-ready record contemporaneously with the action. The additional cost per action is small. The total cost is dominated by the retrofit cost imposed on organizations that lack the infrastructure.
+They invest in provenance infrastructure so that every load-bearing action produces an audit-ready record contemporaneously with the action. Let $c$ denote the marginal cost per action of producing an audit-ready record at the time of the action, and let $C_R$ denote the retrofit cost of reconstructing an equivalent record after the fact. For a system with $N$ accumulated actions, contemporaneous investment scales linearly as $c N$. Retrofit is a fixed one-time cost paid at audit time. The observed inequality across mature audit engagements is
+
+$$
+c N \ll C_R
+$$
+
+by wide margins, and $c$ is small per action. The total cost of ordinary work is dominated by the retrofit cost imposed on organizations that lack the infrastructure, not by the cumulative marginal cost of maintaining it.
 
 They organize documentation so that the record-keeping practices needed for audits are the same as the record-keeping practices needed for the work itself. When documentation exists as a byproduct of work, audits examine the same records the workers already produce. When documentation exists as an audit-specific artifact, workers produce two overlapping records and one is always stale.
 
 They separate the internal audit function from line management so that independent review can produce adverse findings without adverse consequence. Internal audit functions that report to the audit committee of the board rather than to the executive team are the structural mechanism.
 
-They calibrate audit frequency to the rate of change of the underlying system. A stable system audited annually is well-covered. A system under rapid change requires more frequent audits or an audit style that examines change management as the object of audit rather than the system itself. Prior corpus discussion of [engineering pace and mission-criticality tradeoffs][related_post_fast_vs_critical] establishes the frequency-versus-scrutiny tradeoff in a related setting.
+They calibrate audit frequency to the rate of change of the underlying system. Let $\lambda$ denote the system's change rate in changes per unit time, and let $T$ denote the interval between audits. The number of changes accumulated between audits is $\lambda T$. Effective audit coverage requires the accumulated changes to remain bounded by the auditor's per-audit review capacity $K$.
+
+$$
+\lambda T \leq K
+$$
+
+A stable system with small $\lambda$ can accommodate long $T$ and remain well-covered. A system under rapid change with large $\lambda$ requires either shorter $T$ or an audit style that examines change management as the object of audit rather than the underlying state itself. Prior corpus discussion of [engineering pace and mission-criticality tradeoffs][related_post_fast_vs_critical] establishes the frequency-versus-scrutiny tradeoff in a related setting.
 
 They treat audit findings as work rather than as noise. A finding that identifies a real issue creates work. The work should be planned, resourced, and tracked to completion. Findings that are dismissed produce the theater failure mode described above.
 
