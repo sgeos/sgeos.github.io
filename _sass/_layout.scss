@@ -603,6 +603,47 @@
     }
 }
 
+.post-downloads {
+    margin-top: -$spacing-unit / 3;
+    margin-bottom: $spacing-unit / 2;
+    font-size: $small-font-size;
+    color: var(--grey-color);
+
+    a.post-download-link {
+        color: var(--grey-color);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--grey-color-light);
+
+        &:hover {
+            color: var(--brand-color);
+            border-bottom-color: var(--brand-color);
+        }
+    }
+}
+
+.post-list-downloads {
+    margin-left: 8px;
+    font-size: 0.75em;
+    color: var(--grey-color);
+    white-space: nowrap;
+
+    a.post-download-link {
+        display: inline-block;
+        padding: 1px 6px;
+        margin-left: 4px;
+        color: var(--grey-color);
+        border: 1px solid var(--grey-color-light);
+        border-radius: 3px;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+
+        &:hover {
+            color: var(--brand-color);
+            border-color: var(--brand-color);
+        }
+    }
+}
+
 .word-count {
     font-variant-numeric: tabular-nums;
 }

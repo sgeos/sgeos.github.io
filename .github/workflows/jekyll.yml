@@ -43,10 +43,23 @@ jobs:
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install pandoc and LaTeX toolchain for downloads
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            fonts-dejavu \
+            fonts-noto-cjk
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Generate PDF and EPUB downloads
+        run: ruby _downloads.rb
       - name: Build Pagefind search index
         run: npx -y pagefind --site _site
       - name: Upload artifact
