@@ -20,7 +20,7 @@ Every audit exhibits four properties. The properties hold across engineering, do
 
 **Scope and procedure.** The audit begins with a written scope naming what is under review and what is not. The procedure defines what evidence will be examined, in what order, and against what criteria. An audit without a written scope is not an audit. It is a conversation. An audit without a defined procedure produces findings that cannot be reproduced by another auditor with the same evidence, which defeats the reason for auditing in the first place.
 
-**Independent review.** The auditor is separate from the auditee. Full independence means the auditor has no reporting relationship, financial interest, or personal stake in the auditee's outcome. Practical independence often falls short of the full standard but must preserve enough separation that the auditor can produce adverse findings without adverse consequence. An audit conducted by the auditee's manager is not an audit. It is an evaluation. The distinction is not pedantic. The evaluator has authority over the evaluee's future employment. The auditor does not.
+**Independent review.** The auditor is separate from the auditee. Full independence means the auditor has no reporting relationship, financial interest, or personal stake in the auditee's outcome. Practical independence often falls short of the full standard but must preserve enough separation that the auditor can produce adverse findings without adverse consequence. An audit conducted by the auditee's manager is not an audit. It is an evaluation. The distinction is not pedantic. The evaluator has authority over the evaluee's future employment. The auditor does not. The theoretical treatment of audit quality by [DeAngelo][research_deangelo_audit_quality] establishes that quality is jointly determined by the probability of finding a breach and the probability of reporting it. Both depend on independence, and both degrade when independence is compromised.
 
 **Evidence artifacts.** The audit produces reviewable artifacts. Working papers document what was examined and what was concluded. Findings identify specific instances of conformance and non-conformance with specific citations to the evidence. A summary report communicates the findings to the auditee and to the audit's client. All three artifacts survive after the audit closes. A second auditor should be able to review the artifacts and reach substantially similar findings from the same evidence.
 
@@ -32,7 +32,7 @@ Any activity omitting one of the four properties is something other than an audi
 
 Engineering audits verify properties of technical systems that cannot be established by casual inspection. Three sub-categories dominate practice.
 
-**Correctness audits.** Formal code review, design review, mathematical proof review, and formal verification of software or hardware. The scope names a system component and the property to verify. Evidence is the source code, the specification, the design documents, and the reasoning trace. Independent reviewers examine the artifacts against the criteria and produce findings. Correctness audits are the modern instantiation of the peer review process that mathematics and the natural sciences have run for centuries.
+**Correctness audits.** Formal code review, design review, mathematical proof review, and formal verification of software or hardware. The scope names a system component and the property to verify. Evidence is the source code, the specification, the design documents, and the reasoning trace. Independent reviewers examine the artifacts against the criteria and produce findings. Correctness audits are the modern instantiation of the peer review process that mathematics and the natural sciences have run for centuries. Empirical work by [Bacchelli and Bird][research_bacchelli_code_review] on modern code review at industrial scale documents that the practice produces value beyond defect discovery, including knowledge transfer, alternative solutions, and shared understanding of the codebase. The multiple-value observation matters because it explains why code review persists as an engineering discipline even where defect-discovery rates are modest.
 
 **Security audits.** Threat modeling review, penetration testing, static-analysis output review, incident post-mortems, and access-control audits. Scope names a system boundary and a threat model. Evidence includes system configuration, code, network topology, access logs, and prior incident records. Findings identify vulnerabilities, misconfigurations, and control gaps. Security audits produce their most valuable output when adversarial in orientation: the auditor is trying to find vulnerabilities that the auditee missed, and the auditee's cooperation is necessary but not sufficient.
 
@@ -64,7 +64,7 @@ Compliance audits verify that an organization conforms with an external requirem
 
 **Internal policy compliance.** Verification that an organization's actual practice matches its own documented policies for change management, access control, incident response, procurement, or ethics. Internal audits are conducted by an internal audit function that reports to an audit committee rather than to line management. The independence is imperfect but structured to preserve the audit's integrity within the organization.
 
-Compliance audits examine controls, the procedures the organization has adopted to satisfy the requirement. The audit does not directly examine the underlying property. It examines whether the controls that produce the property are designed, implemented, operating, and monitored. A compliance-passed system is not necessarily a secure or correct system. It is a system whose controls appear designed and operating to satisfy the framework. The distinction between compliance-passing and property-holding is a common source of organizational confusion.
+Compliance audits examine controls, the procedures the organization has adopted to satisfy the requirement. The audit does not directly examine the underlying property. It examines whether the controls that produce the property are designed, implemented, operating, and monitored. A compliance-passed system is not necessarily a secure or correct system. It is a system whose controls appear designed and operating to satisfy the framework. The distinction between compliance-passing and property-holding is a common source of organizational confusion. The economic mechanism behind the gap is worked out in [Anderson's foundational analysis of security economics][research_anderson_security_economics], which documents that market failures and misaligned incentives produce systems that pass compliance requirements while failing on the underlying properties the compliance framework was designed to protect.
 
 ## Provenance and Audit Trails
 
@@ -79,6 +79,8 @@ p = \frac{N_R}{N_T}
 $$
 
 Audit feasibility requires $p$ close to unity. A system with $p = 1$ produces perfect audit evidence. A system with $p = 0$ produces none. Practical systems fall between, and where $p$ falls determines what audits are possible.
+
+The formal treatment of provenance originated with [Buneman, Khanna, and Tan][research_buneman_provenance], who distinguished "why" provenance, meaning which inputs contributed to a value, from "where" provenance, meaning which source location produced it. Subsequent survey work by [Simmhan, Plale, and Gannon][research_simmhan_provenance_survey] extended the taxonomy across scientific computing practice and cataloged provenance systems by the properties they preserve. The four properties treated below map onto the accepted taxonomy.
 
 **Chain of custody.** Every provenance-producing record identifies who did what, to which resource, at what time, and why. The chain of custody is complete when every state transition from the resource's creation to the current moment is documented by an entry made contemporaneously with the action.
 
@@ -166,6 +168,11 @@ The organizational framing that treats audits as adversarial interruption is a c
 - [Related Post, Bidirectional Agentic Workflow][related_post_bidirectional_agentic]
 - [Related Post, Fast-Moving Versus Mission-Critical Engineering][related_post_fast_vs_critical]
 - [Related Post, Markdown as a Specification Language for Agentic Workflows][related_post_markdown_spec]
+- [Anderson, Ross, Why Information Security is Hard, An Economic Perspective, Annual Computer Security Applications Conference 17, 2001][research_anderson_security_economics]
+- [Bacchelli, Alberto and Bird, Christian, Expectations, Outcomes, and Challenges of Modern Code Review, International Conference on Software Engineering 35, 2013][research_bacchelli_code_review]
+- [Buneman, Peter, Khanna, Sanjeev, and Tan, Wang-Chiew, Why and Where, A Characterization of Data Provenance, International Conference on Database Theory 8, 2001][research_buneman_provenance]
+- [DeAngelo, Linda Elizabeth, Auditor size and audit quality, Journal of Accounting and Economics 3, 1981][research_deangelo_audit_quality]
+- [Simmhan, Yogesh L., Plale, Beth, and Gannon, Dennis, A survey of data provenance in e-Science, SIGMOD Record 34, 2005][research_simmhan_provenance_survey]
 
 [ref_aicpa_tsc]: https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022
 [ref_cve]: https://www.cve.org/
@@ -179,3 +186,8 @@ The organizational framing that treats audits as adversarial interruption is a c
 [related_post_bidirectional_agentic]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [related_post_fast_vs_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
 [related_post_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
+[research_anderson_security_economics]: https://doi.org/10.1109/ACSAC.2001.991552
+[research_bacchelli_code_review]: https://doi.org/10.1109/ICSE.2013.6606617
+[research_buneman_provenance]: https://doi.org/10.1007/3-540-44503-X_20
+[research_deangelo_audit_quality]: https://doi.org/10.1016/0165-4101(81)90002-1
+[research_simmhan_provenance_survey]: https://doi.org/10.1145/1084805.1084812
