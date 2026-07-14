@@ -30,7 +30,7 @@ $$
 
 where the excess is closed only by external memory prostheses. Class members rely on notes, whiteboards, journals, source-code comments, chat logs, and specification documents to persist state between sessions and to enable recovery when the state breaks. The written record is not a nice-to-have. It is load-bearing infrastructure. A class member who loses access to their notes has lost the current session and possibly the current problem.
 
-Any activity requiring only extended ramp-up is task work. Any requiring ramp-up plus sustained state is skilled labor at a demanding level. The full class requires all three properties acting together. Where all three are present, the productivity model is qualitatively different from the model that governs continuous-shift knowledge work.
+Any activity requiring only extended ramp-up is task work. Any requiring ramp-up plus sustained state is skilled labor at a demanding level. The full class requires all three properties acting together. Where all three are present, the productivity model is qualitatively different from the model that governs continuous-shift knowledge work. A related distinction between the two work modes is treated at length in a prior article on [fast-moving versus mission-critical engineering][related_post_fast_vs_critical].
 
 ## Cross-Profession Examples
 
@@ -42,7 +42,7 @@ Hardware engineers laying out a chip, diagnosing a signal-integrity issue, or ch
 
 Mathematicians working through a proof are in the class. A serious proof spans weeks or years of intermittent work. The proof state must be rebuilt at the start of every session. Andrew Wiles worked on Fermat's Last Theorem for seven years, in relative isolation, exactly because the class properties reward isolation and punish interruption.
 
-Long-form writers holding a novel in mind are in the class. Character arcs, plot threads, thematic resonance, chronological consistency, and the felt voice of the narrator form a structure that must be simultaneously available whenever the writer sits down to work. Novelists who write in short daily sessions often report the first hour as unproductive because they are re-entering the manuscript rather than advancing it.
+Long-form writers holding a novel in mind are in the class. Character arcs, plot threads, thematic resonance, chronological consistency, and the felt voice of the narrator form a structure that must be simultaneously available whenever the writer sits down to work. Novelists who write in short daily sessions often report the first hour as unproductive because they are re-entering the manuscript rather than advancing it. A prior article on [long-form writing in the age of large language models][related_post_long_form_writing] treats the writer case in more detail and considers how LLM assistance interacts with the class properties.
 
 Composers writing a symphony or opera are in the class. Harmonic structure, motivic development, orchestration, and dramatic arc must cohere across many minutes of performance time and many months of composition time. A composer picking up a suspended work must rebuild the harmonic and rhythmic context before writing a single new bar.
 
@@ -62,7 +62,7 @@ The list could continue. What matters is that the shape is invariant across the 
 
 Naming the class this way requires being explicit about what falls outside it. The distinction is a shape observation, not a value judgment. Different work has different cognitive requirements. Neither shape is superior. They are different and require different management.
 
-Manager work is not in the class. Managers respond to interrupts, hold multiple contexts thinly rather than one deeply, and shift topics minutely. A skilled manager can pivot between a personnel matter, a budget question, a strategic decision, and a customer escalation within a single hour. Their productivity model rewards breadth, low-latency response, and calendar density. Deep concentration is the wrong tool for the job.
+Manager work is not in the class. Managers respond to interrupts, hold multiple contexts thinly rather than one deeply, and shift topics minutely. A skilled manager can pivot between a personnel matter, a budget question, a strategic decision, and a customer escalation within a single hour. Their productivity model rewards breadth, low-latency response, and calendar density. Deep concentration is the wrong tool for the job. A prior article on [mission command as a management style][related_post_mission_command] examines how managers of technically expert reports can delegate intent rather than dictate execution, a stance that reduces the manager's need to intrude on class-member work.
 
 Sales work is not in the class. A salesperson engages many parties in short-cycle interactions and moves between prospects at high frequency. The state that must be carried forward is short and often codified in a customer relationship management system rather than in working memory.
 
@@ -92,7 +92,7 @@ $$
 L_{\text{manager}} = t_{\text{slot}}
 $$
 
-Because $T_r$ is of order hours and $t_{\text{slot}}$ is of order an hour, the two loss functions differ by an integer multiple. A manager estimating the cost of interrupting a class member by analogy to their own loss function will consistently under-estimate by that multiple.
+Because $T_r$ is of order hours while $t_{\text{slot}}$ is of order one hour, the class member's loss $L$ routinely exceeds the manager's $L_{\text{manager}}$ by a factor of several. A manager estimating the cost of interrupting a class member by analogy to their own loss function will consistently under-estimate by that factor.
 
 Five minutes of interruption is not five minutes of lost work. It is the remainder of the current productive session, plus the hours required to reload the mental model, minus the small chance that a stroke of luck lets the practitioner return quickly to where they were. On a good day the recovery works and the loss is bounded. On a bad day the state does not recover and the session is lost entirely. A single fifteen-minute meeting at ten in the morning, well-intentioned and courteously scheduled, can eliminate the morning session in a way that the meeting caller did not conceptualize as possible.
 
@@ -108,7 +108,7 @@ Code comments preserve the intent that will not be in working memory when the ne
 
 A class member who is discouraged from writing things down loses the current session and, at scale, loses the ability to work on problems that exceed the size of unassisted working memory. A manager who suggests that documentation is overhead, or that the practitioner should just remember, is asking the practitioner to perform below their capability ceiling. The practitioner may accommodate by working on smaller problems, but the larger problems then go unaddressed.
 
-This is why organizations that produce class-member work reliably tend to have strong written-record cultures. Architecture design records, engineering journals, decision logs, and specification documents are not cultural accidents. They are the infrastructure without which the work cannot happen. Where the culture erodes, the work erodes with it.
+This is why organizations that produce class-member work reliably tend to have strong written-record cultures. Architecture design records, engineering journals, decision logs, and specification documents are not cultural accidents. They are the infrastructure without which the work cannot happen. Where the culture erodes, the work erodes with it. Prior articles on [bidirectional agentic workflow][related_post_bidirectional_agentic] and [markdown as a specification language for agentic workflows][related_post_markdown_spec] describe the same discipline applied in a specific tooling context.
 
 ## Implications for Managers
 
@@ -170,8 +170,13 @@ Framing the class at the cognitive-requirements level rather than at the profess
 
 - [Brooks, Frederick P., Jr., The Mythical Man-Month, Essays on Software Engineering, anniversary edition, Addison-Wesley, 1995][book_brooks_mmm]
 - [Csikszentmihalyi, Mihaly, Flow, The Psychology of Optimal Experience, Harper and Row, 1990][book_csikszentmihalyi_flow]
-- [Graham, Paul, Maker's Schedule, Manager's Schedule, personal essay, 2009][ref_graham_maker]
 - [Newport, Cal, Deep Work, Rules for Focused Success in a Distracted World, Grand Central Publishing, 2016][book_newport_deep_work]
+- [Graham, Paul, Maker's Schedule, Manager's Schedule, personal essay, 2009][ref_graham_maker]
+- [Related Post, Bidirectional Agentic Workflow][related_post_bidirectional_agentic]
+- [Related Post, Fast-Moving Versus Mission-Critical Engineering][related_post_fast_vs_critical]
+- [Related Post, Long-Form Writing in the Age of Large Language Models][related_post_long_form_writing]
+- [Related Post, Markdown as a Specification Language for Agentic Workflows][related_post_markdown_spec]
+- [Related Post, Mission Command Management Style][related_post_mission_command]
 - [Cowan, Nelson, The magical number 4 in short-term memory, A reconsideration of mental storage capacity, Behavioral and Brain Sciences 24, 2001][research_cowan_four]
 - [Leroy, Sophie, Why is it so hard to do my work, The challenge of attention residue when switching between work tasks, Organizational Behavior and Human Decision Processes 109, 2009][research_leroy_attention_residue]
 - [Mark, Gloria, Gudith, Daniela, Klocke, Ulrich, The cost of interrupted work, More speed and stress, ACM CHI, 2008][research_mark_interrupted_work]
@@ -187,3 +192,8 @@ Framing the class at the cognitive-requirements level rather than at the profess
 [research_mark_interrupted_work]: https://doi.org/10.1145/1357054.1357072
 [research_miller_seven]: https://doi.org/10.1037/h0043158
 [research_rasch_born_sleep]: https://doi.org/10.1152/physrev.00032.2012
+[related_post_bidirectional_agentic]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
+[related_post_fast_vs_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
+[related_post_long_form_writing]: {% post_url 2026-02-25-long_form_writing_in_age_of_large_language_models %}
+[related_post_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
+[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}
