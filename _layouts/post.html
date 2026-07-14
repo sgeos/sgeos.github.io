@@ -76,6 +76,10 @@ layout: default
     {% if page.categories.size > 0 %}
     <p class="post-categories">Filed under: {% for cat in page.categories %}<a href="{{ '/categories/' | append: cat | append: '/' | prepend: site.baseurl }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     {% endif %}
+
+    {% assign pdf_url  = page.url | replace: '.html', '.pdf'  %}
+    {% assign epub_url = page.url | replace: '.html', '.epub' %}
+    <p class="post-downloads">Download: <a class="post-download-link" href="{{ pdf_url  | prepend: site.baseurl }}">PDF</a> · <a class="post-download-link" href="{{ epub_url | prepend: site.baseurl }}">EPUB</a></p>
     {% include mathjax.html %}
   </header>
 
