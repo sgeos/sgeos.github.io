@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-14
-**Task**: Draft, review, and publish A222 "Deep-Concentration Knowledge Work" as a standalone one-off analytical article characterizing the class of knowledge workers whose productivity depends on sustained deep concentration. Editorial date 2026-03-11 09:00 UTC, filling the one-day gap between A105 and A103/A106. Two-commit publication sequence complete; commits staged locally, not pushed per human pilot instruction.
+**Task**: Draft, review, and publish A223 "Audits and Provenance" as a standalone one-off analytical article treating audits at the class level and positioning provenance as the substrate infrastructure that determines whether any audit category can be conducted. Editorial date 2026-03-09 09:00 UTC, filling the one-day gap between A215 (2026-03-08) and A105 (2026-03-10). Two-commit publication sequence complete; commits pushed together with A222 per human pilot instruction.
 
 ---
 
@@ -17,103 +17,98 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ### Article Body Complete
 
-Standalone one-off analytical article. No series metadata. Rolls up one level of abstraction from engineer-specific observation to the class-level property. Establishes the class not by profession but by three defining cognitive requirements.
+Standalone one-off analytical article. No series metadata. Treats audits as a class with four shared properties and three principal instantiating categories. Positions provenance not as a fourth category but as the substrate infrastructure that determines whether any of the three categories can be conducted at all.
 
-- Opening. Names the class as an activity type characterized by cognitive requirements rather than by profession or discipline. Software engineers named as one example alongside mathematicians, long-form writers, composers, cryptographers, top-level chess and Go players, experimental scientists, and complex-case attorneys.
-- Three Defining Properties. Extended ramp-up with characteristic time $T_r$ of order hours for class members versus minutes to seconds for continuous-shift workers. Sustained state persisting across sleep cycles, meals, and short breaks, grounded in Rasch and Born 2013 sleep-dependent memory consolidation. External memory prostheses closing the gap $C_{\text{problem}} \gg M_{\text{working}}$ with working memory capacity anchored to Miller 1956 seven-item estimate and Cowan 2001 four-item refinement.
-- Cross-Profession Examples. Nine domains showing the same cognitive shape under different tools and outputs. Engineers positioned as one concrete example rather than the reference case. Andrew Wiles and Kasparov/Karpov named as historical illustrations.
-- What Is Not in the Class. Explicit boundary with manager work, sales, operations, classroom teaching, and customer support. Framed as shape observation, not value judgment.
-- The Interruption Cost. Paul Graham's maker-manager framework opens. Empirical work by Leroy 2009 on attention residue and Mark, Gudith, and Klocke 2008 CHI on workplace interruption cost anchors the analysis. Class-member loss $L(t_i) = (T_s - t_i) + T_r$ contrasted with manager loss $L_{\text{manager}} = t_{\text{slot}}$. Loss ratio expressed as several-factor multiplier explaining systematic manager under-estimation.
-- Documentation Discipline as Consequence. Written tracking as load-bearing infrastructure predicted by the third defining property rather than aesthetic preference. Cross-references to A75 bidirectional agentic workflow and A76 markdown as specification language.
-- Implications for Managers. Calendar-block scheduling, sync and async channel discipline, ramp-up protection, documentation as work product, quiet environments, project-switching costs. Cross-references A86 mission command management style.
-- Implications for Practitioners. Recognition of the properties as normal, state-preservation notes, calendar architecture, batched communication, accepting lost sessions, communicating the model to managers.
-- Prior Art. Placement relative to Brooks Mythical Man-Month, Graham Maker's Schedule Manager's Schedule, Csikszentmihalyi Flow, and Newport Deep Work. Cross-references A94 long-form writing and A93 fast-moving versus mission-critical engineering.
-- Conclusion. Three-property framing and load-bearing consequences.
+- Opening. Names the four shared properties (scope and procedure, independent review, evidence artifacts, findings and remediation) and the three principal instantiating categories (engineering, documentation, compliance). Establishes provenance as substrate rather than fourth category.
+- What All Audits Share. Four properties treated in dedicated bold-lead paragraphs. Independence claim anchored in DeAngelo 1981 audit-quality theory. Distinguishes audit from evaluation and from casual review by the four-property test.
+- Engineering Audits. Three sub-categories treated: correctness (with Bacchelli and Bird 2013 anchoring modern code review), security (adversarial-orientation framing), quality (test coverage, defect rates, performance envelope, process conformance).
+- Documentation Audits. Three sub-properties (completeness, currency, accuracy) treated in dedicated bold-lead paragraphs. Cross-references A75 bidirectional agentic workflow and A76 markdown as specification language.
+- Compliance Audits. Three sub-categories treated: regulatory (SOX, GDPR, HIPAA, PCI DSS), contractual (SOC and ISO 27001), internal policy. Compliance-versus-property gap anchored in Anderson 2001 security economics.
+- Provenance and Audit Trails. Formal treatment anchored in Buneman Khanna Tan 2001 and Simmhan Plale Gannon 2005. Provenance completeness ratio $p = N_R / N_T$ defined. Four properties (chain of custody, immutability, reconstructibility, retention) treated.
+- Common Failure Modes. Seven characteristic failures catalogued (cargo-cult checklists, adversarial auditee posture, scope creep, retroactive documentation, findings without remediation, single-auditor bias, audit fatigue).
+- Implications for Organizations. Provenance infrastructure investment $c N \ll C_R$ inequality. Documentation as work byproduct. Internal audit reporting-line independence. Audit-coverage bound $\lambda T \leq K$. Cross-reference A93 fast-moving versus mission-critical engineering. Treatment of findings as work.
+- Prior Art. Financial audit tradition (PCAOB, IIA), security audit frameworks (NIST SP 800-53, Trust Services Criteria, ISO 27001), software correctness audit (CWE, CVE), provenance research (W3C PROV).
+- Conclusion. Four-property and three-category recap with provenance as substrate. Category-mistake framing that positions audit as productive verification rather than adversarial interruption.
 
 ### Cross-References
 
-Five cross-references to prior corpus posts embedded contextually and formally listed as Related Post entries in the References section.
+Three cross-references to prior corpus posts embedded contextually and formally listed as Related Post entries in the References section.
 
-- A75 Bidirectional Agentic Workflow (in Documentation Discipline as Consequence)
-- A76 Markdown as a Specification Language for Agentic Workflows (in Documentation Discipline as Consequence)
-- A86 Mission Command Management Style (in What Is Not in the Class, manager paragraph)
-- A93 Fast-Moving Versus Mission-Critical Engineering (in Three Defining Properties transition)
-- A94 Long-Form Writing in the Age of Large Language Models (in Cross-Profession Examples, writer paragraph)
+- A75 Bidirectional Agentic Workflow (in Documentation Audits)
+- A76 Markdown as a Specification Language for Agentic Workflows (in Documentation Audits)
+- A93 Fast-Moving Versus Mission-Critical Engineering (in Implications for Organizations, audit-frequency paragraph)
 
-All five targets predate the 2026-03-11 editorial date and resolve via `post_url` liquid tags.
+All three targets predate the 2026-03-09 editorial date and resolve via `post_url` liquid tags.
 
 ### Primary References
 
-Five peer-reviewed primary sources anchor the article's cognitive-science empirical claims.
+Five peer-reviewed primary sources anchor the article's audit-theory, code-review, security-economics, and provenance claims.
 
-- Cowan (2001) Behavioral and Brain Sciences 24, working-memory capacity refinement to approximately four items. DOI resolver returns 200.
-- Leroy (2009) Organizational Behavior and Human Decision Processes 109, attention residue phenomenon after task switch. DOI resolver returns 200.
-- Mark, Gudith, Klocke (2008) ACM CHI, workplace interruption cost measurement. ACM URL returns 403 anti-bot with confirmation via Semantic Scholar, ResearchGate, and multiple newsletter and archive URLs.
-- Miller (1956) Psychological Review 63, foundational Magical Number Seven paper on working-memory capacity. APA URL returns 403 anti-bot with confirmation via Max Planck Institute, Wikipedia, PhilPapers, ResearchGate, and Scientific Research Publishing.
-- Rasch and Born (2013) Physiological Reviews 93, sleep-dependent memory consolidation review. APS URL returns 403 anti-bot with confirmation via PubMed Central, ZORA University of Zurich, ResearchGate, and Semantic Scholar.
+- Anderson (2001) Annual Computer Security Applications Conference 17, security economics foundational analysis. IEEE URL returns 202 DOI redirect with confirmation via Semantic Scholar, ACSAC official site, and Microsoft Research archive.
+- Bacchelli and Bird (2013) International Conference on Software Engineering 35, modern code review empirical study. IEEE URL returns 202 DOI redirect with confirmation via Semantic Scholar and ResearchGate.
+- Buneman, Khanna, Tan (2001) International Conference on Database Theory 8, foundational provenance formalism distinguishing why-provenance from where-provenance. DOI resolver returns 200.
+- DeAngelo (1981) Journal of Accounting and Economics 3, audit quality jointly determined by breach-discovery probability and breach-reporting probability. DOI resolver returns 200.
+- Simmhan, Plale, Gannon (2005) SIGMOD Record 34, survey and taxonomy of data provenance in e-Science. ACM URL returns 403 anti-bot with confirmation via SIGMOD Record mirror, Semantic Scholar, and ResearchGate.
 
 ### Style Verification
 
-Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons in prose, prose parentheticals outside math notation, or certification vocabulary. Debug tags `<!-- A222 -->` and `console.log("A222")` present at lines 10-11. Categories `philosophy management engineering`.
+Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons in prose, prose parentheticals outside math notation, or certification vocabulary. Debug tags `<!-- A223 -->` and `console.log("A223")` present at lines 10-11. Categories `philosophy management engineering`. AICPA rewritten as "American public-accountancy standard-setting body" in prose to avoid certification vocabulary trigger.
 
 ### Equation Density
 
-Three display equations. Working memory inequality $C_{\text{problem}} \gg M_{\text{working}}$ in the Three Defining Properties section. Class member interruption loss $L(t_i) = (T_s - t_i) + T_r$ and manager comparison $L_{\text{manager}} = t_{\text{slot}}$ in the Interruption Cost section. Inline math includes $T_r$, $T_s$, $t_i$, $t_{\text{slot}}$, $n$, $i$.
+Three display equations. Provenance completeness $p = N_R / N_T$ in the Provenance and Audit Trails section. Contemporaneous-versus-retrofit cost inequality $c N \ll C_R$ in the Implications for Organizations section. Audit-coverage bound $\lambda T \leq K$ in the same section. Inline math includes $N_R$, $N_T$, $c$, $C_R$, $N$, $\lambda$, $T$, $K$.
 
 ### Reference Density
 
-Fourteen References-section entries.
+Seventeen References-section entries.
 
-- Three book entries: Brooks Mythical Man-Month, Csikszentmihalyi Flow, Newport Deep Work.
-- One essay entry: Graham Maker's Schedule Manager's Schedule.
-- Five Related Post entries: A75, A76, A86, A93, A94.
-- Five primary research paper entries: Cowan, Leroy, Mark et al., Miller, Rasch and Born.
+- Nine `ref_` prefix entries (seven standards documents and two taxonomies): AICPA Trust Services Criteria, MITRE CVE, MITRE CWE, GDPR, IIA International Standards, ISO 27001, NIST SP 800-53, PCAOB standards library, W3C PROV Overview.
+- Three `related_post_` prefix entries: A75, A76, A93.
+- Five `research_` prefix entries: Anderson, Bacchelli and Bird, Buneman Khanna Tan, DeAngelo, Simmhan Plale Gannon.
 
-Ordered by anchor category (book, ref, related_post, research) then alphabetically by author within each category.
+Ordered alphabetically by anchor within each category.
 
 ### Collision and Flush Verification
 
-Article number A222 verified unique. Editorial date 2026-03-11 verified empty in `_posts/`. Adjacent published dates 2026-03-10 (A105 neuromorphic autonomous probe CPUs) and 2026-03-12 (A103 error correction recursion, A106 delta wing vehicles) populate the one-day gap boundaries. Article fills the gap without offset or overlap.
+Article number A223 verified unique across `_posts/` and `_drafts/`. Editorial date 2026-03-09 verified empty in both. Adjacent published dates 2026-03-08 (A215 steampunk and analog electronics) and 2026-03-10 (A105 neuromorphic autonomous probe CPUs) populate the one-day gap boundaries. Article fills the gap without offset or overlap.
 
-Category shadow check confirmed sgeos/philosophy, sgeos/management, and sgeos/engineering repositories do not exist on GitHub. The article's URL will be `/philosophy/management/engineering/2026/03/11/deep_concentration_knowledge_work.html` with no path prefix collision.
+Category shadow check confirmed sgeos/philosophy, sgeos/management, and sgeos/engineering repositories do not exist on GitHub. The article's URL will be `/philosophy/management/engineering/2026/03/09/audits_and_provenance.html` with no path prefix collision.
 
 ### Two-Commit Publication Pattern
 
 Standard two-commit publication.
 
-- Draft commit sequence: 09dfc7d initial draft, 486e13c equation additions, f7b547a primary references, 4fb52e9 publication review and cross-references.
-- Publish commit follows with `git mv` from `_drafts/deep_concentration_knowledge_work.markdown` to `_posts/2026-03-11-deep_concentration_knowledge_work.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
+- Draft commit sequence: 848db7e initial draft, 31719e3 equation additions, aa8add2 primary references, 2be75b7 publication review with prose colons removed and reference block re-alphabetized.
+- Publish commit follows with `git mv` from `_drafts/audits_and_provenance.markdown` to `_posts/2026-03-09-audits_and_provenance.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
 
-Commits staged locally. Not pushed per human pilot instruction.
+Commits pushed to origin/master together with the outstanding A222 publish commit per human pilot instruction.
 
 ---
 
 ## Article Number State
 
-- Next available article number: A223.
-- A222 published as `_posts/2026-03-11-deep_concentration_knowledge_work.markdown` at editorial date 2026-03-11 09:00 UTC.
+- Next available article number: A224.
+- A223 published as `_posts/2026-03-09-audits_and_provenance.markdown` at editorial date 2026-03-09 09:00 UTC.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Review the local commits before push authorization. The two-commit sequence plus process file synchronization is complete but not pushed.
-- Push command when ready: `git push origin master`.
-- Verify the GitHub Actions deploy completes without errors after the push. The A222 article uses `{% post_url %}` cross-references to A75, A76, A86, A93, and A94 which are already deployed.
-- Review the published article at its permalink once the deploy completes at `https://sgeos.github.io/philosophy/management/engineering/2026/03/11/deep_concentration_knowledge_work.html`.
-- Consider whether the class-level framing warrants a follow-up article on maker calendar architecture or documentation-as-memory practice. The current article positions such follow-ups as consequences of the class properties rather than free-standing preferences.
+- Verify the GitHub Actions deploy completes without errors after the push. The A223 article uses `{% post_url %}` cross-references to A75, A76, and A93, all deployed.
+- Review the published article at its permalink once the deploy completes at `https://sgeos.github.io/philosophy/management/engineering/2026/03/09/audits_and_provenance.html`.
+- Consider whether the provenance-as-substrate framing warrants a follow-up article on provenance-first tooling or on the design of an internal audit function. The current article positions such follow-ups as consequences of the substrate framing rather than free-standing preferences.
 
 ---
 
 ## Notes
 
-- Next available article number: A223.
+- Next available article number: A224.
 - 0 release candidates.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A222 across the combined article number space.
-- Corpus size 222 posts, editorial dates span 2016 through 2026-07-11.
-- Primary-source verification pass performed against Miller 1956, Cowan 2001, Leroy 2009, Mark Gudith Klocke 2008, and Rasch and Born 2013. Corrections applied during equation-density and reference-density review passes.
-- Certification barrier compliance verified. Zero occurrences across the article.
+- Published through A223 across the combined article number space.
+- Corpus size 223 posts, editorial dates span 2016 through 2026-07-11.
+- Primary-source verification pass performed against Anderson 2001 (ACSAC), Bacchelli and Bird 2013 (ICSE), Buneman Khanna Tan 2001 (ICDT), DeAngelo 1981 (Journal of Accounting and Economics), and Simmhan Plale Gannon 2005 (SIGMOD Record). Standards URLs verified against PCAOB, IIA, NIST, AICPA, ISO, GDPR, CWE, CVE, and W3C PROV portals.
+- Certification barrier compliance verified. Zero certification vocabulary occurrences. AICPA name rewritten to avoid trigger.
 - All scratch confined to project-local `tmp/` per recorded preference.
 - Blog deploys through GitHub Actions with a lean Jekyll stack.
