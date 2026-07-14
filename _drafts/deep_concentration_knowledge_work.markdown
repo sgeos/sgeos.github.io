@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: false
+mathjax: true
 comments: true
 title: "Deep-Concentration Knowledge Work"
 date:   2026-03-11 09:00:00 +0000
@@ -18,11 +18,17 @@ This article characterizes that class from first principles, catalogs its cross-
 
 The class shares three cognitive properties that separate it from continuous-shift knowledge work.
 
-**Extended ramp-up.** Entering the productive state requires hours of continuous engagement with the problem before the practitioner can produce output of characteristic quality. The ramp-up is not throat-clearing or slow starting. It is the reconstruction in working memory of a mental model that the previous session ended with but did not preserve. Someone who worked deeply on a problem yesterday cannot simply resume today. They must rebuild the model from partial notes and remembered fragments. The rebuild takes hours because the model is large and its parts interconnect in ways that must be re-inhabited rather than merely re-read.
+**Extended ramp-up.** Entering the productive state requires hours of continuous engagement with the problem before the practitioner can produce output of characteristic quality. The ramp-up is not throat-clearing or slow starting. It is the reconstruction in working memory of a mental model that the previous session ended with but did not preserve. Someone who worked deeply on a problem yesterday cannot simply resume today. They must rebuild the model from partial notes and remembered fragments. The rebuild takes hours because the model is large and its parts interconnect in ways that must be re-inhabited rather than merely re-read. Call the characteristic ramp-up time $T_r$, measured in hours. For members of the class $T_r$ is of order one to several hours. For continuous-shift knowledge workers $T_r$ is of order minutes or seconds.
 
 **Sustained state across days or weeks.** Once entered, the productive state persists across sleep cycles, meals, and short breaks. Class members report going to sleep with the problem and waking up with a new angle on it. The brain continues background processing during nominally off-clock hours. Ideas surface in the shower, during a walk, or in the middle of an unrelated conversation. The state ends when the problem resolves or when a sufficiently large interruption forces a full reset. Between those two endpoints the practitioner is not in a discrete series of work sessions but in one long extended engagement that happens to be punctuated by sleep.
 
-**External memory as prosthetic.** Working memory cannot hold the accumulated context. The problem has more parts, more constraints, more branches, more prior attempts, and more conditional dependencies than the practitioner can carry unassisted. Class members rely on notes, whiteboards, journals, source-code comments, chat logs, and specification documents to persist state between sessions and to enable recovery when the state breaks. The written record is not a nice-to-have. It is load-bearing infrastructure. A class member who loses access to their notes has lost the current session and possibly the current problem.
+**External memory as prosthetic.** Working memory cannot hold the accumulated context. The problem has more parts, more constraints, more branches, more prior attempts, and more conditional dependencies than the practitioner can carry unassisted. Denote the problem context size by $C_{\text{problem}}$ and unassisted working memory capacity by $M_{\text{working}}$. The class is defined by the strict inequality
+
+$$
+C_{\text{problem}} \gg M_{\text{working}}
+$$
+
+where the excess is closed only by external memory prostheses. Class members rely on notes, whiteboards, journals, source-code comments, chat logs, and specification documents to persist state between sessions and to enable recovery when the state breaks. The written record is not a nice-to-have. It is load-bearing infrastructure. A class member who loses access to their notes has lost the current session and possibly the current problem.
 
 Any activity requiring only extended ramp-up is task work. Any requiring ramp-up plus sustained state is skilled labor at a demanding level. The full class requires all three properties acting together. Where all three are present, the productivity model is qualitatively different from the model that governs continuous-shift knowledge work.
 
@@ -71,6 +77,20 @@ The point of the distinction is not to elevate class-member work over other work
 ## The Interruption Cost
 
 Paul Graham's 2009 essay [Maker's Schedule, Manager's Schedule][ref_graham_maker] framed the underlying tension. A manager's day divides into hour-long slots. An interrupt costs at most one slot. A maker's day is a single long block. An interrupt costs the remainder of the block plus the ramp-up cost of re-entering, if re-entering is possible before the block ends.
+
+Let $T_s$ denote the intended session duration and $t_i \in [0, T_s]$ the elapsed session time at the moment of interruption. When recovery is possible, the total lost time $L$ for a class member is
+
+$$
+L(t_i) = (T_s - t_i) + T_r
+$$
+
+where $T_r$ is the ramp-up cost defined above. When recovery is not possible before the session ends, $L = T_s$ and the entire session is lost. Contrast this with a manager whose day partitions into $n$ time slots of length $t_{\text{slot}}$. An interruption inside slot $i$ costs at most one slot:
+
+$$
+L_{\text{manager}} = t_{\text{slot}}
+$$
+
+Because $T_r$ is of order hours and $t_{\text{slot}}$ is of order an hour, the two loss functions differ by an integer multiple. A manager estimating the cost of interrupting a class member by analogy to their own loss function will consistently under-estimate by that multiple.
 
 Five minutes of interruption is not five minutes of lost work. It is the remainder of the current productive session, plus the hours required to reload the mental model, minus the small chance that a stroke of luck lets the practitioner return quickly to where they were. On a good day the recovery works and the loss is bounded. On a bad day the state does not recover and the session is lost entirely. A single fifteen-minute meeting at ten in the morning, well-intentioned and courteously scheduled, can eliminate the morning session in a way that the meeting caller did not conceptualize as possible.
 
