@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: false
+mathjax: true
 comments: true
 title: "Deficiencies of the HTML Hypermedia Model"
 date: 2026-02-17 09:00:00 +0000
@@ -44,6 +44,14 @@ NLS, Xanadu, and BTRON all treated links as symmetric relationships. In NLS, fol
 
 The engineering consequence is significant. On the web, the operation "show me every document that links to this one" is a whole-industry problem solved by search-engine companies, whose reverse indices are opaque and unavailable to the site owner or reader. On NLS, Xanadu, and BTRON, the same operation was a local query against a resolved data structure. Wiki systems and static-site generators sometimes reconstruct the property by maintaining a backlink cache, but the cache is a per-site retrofit rather than a system-wide guarantee. The [bidirectional-agentic-workflow discipline][related_post_bidirectional_agentic] treated in a prior article is one small-scale reconstruction of the same property inside a documentation system.
 
+Any one-way hypermedia system that reconstructs the bidirectional property with an external crawler is stale by construction. Let $\lambda$ denote the site-wide rate of new-link creation and $T$ the crawler's revisit interval. The accumulated count of unindexed backlinks at any moment is bounded by the product.
+
+$$
+N_{\text{stale}} \leq \lambda T
+$$
+
+The bound is tight in the worst case and cannot be driven to zero by any finite crawl rate. The historical bidirectional systems avoided the bound entirely by maintaining the link database as a first-class primitive rather than reconstructing it after the fact.
+
 ## Typed Links
 
 HTML links are semantically opaque. The `href` attribute names a target. The `rel` attribute allows a small vocabulary of relationship types drawn from the HTML specification and the microformats community, but the vocabulary is small, inconsistently used, and rarely reasoned about by user-facing software. The link `<a href="paper.pdf">the paper</a>` conveys no information about whether the relationship is citation, refutation, elaboration, translation, or archival copy.
@@ -79,6 +87,14 @@ HTML delegates the composition problem to server-side templating or client-side 
 ## Permanence and Versioning
 
 HTML's addressing scheme is the URL, which resolves whatever the current server chooses to serve. A URL that resolved yesterday may return a different document today, an error tomorrow, and be reassigned by a subsequent site owner. The Internet Archive's Wayback Machine is a third-party retrofit that partially compensates for the absence of permanence at the model layer.
+
+The consequence is measurable. Empirical link-rot studies consistently observe that the fraction of broken outbound links from a published page grows toward unity on a multi-year timescale. If $T_{1/2}$ denotes the observed half-life of a URL's continued resolvability and $t$ denotes elapsed time since publication, the accumulated broken-link fraction follows the exponential-decay form.
+
+$$
+f_{\text{broken}}(t) = 1 - 2^{-t / T_{1/2}}
+$$
+
+Observed half-lives in the published literature cluster in the range of a few years, which places a ten-year-old page well past the fifty-percent broken-link threshold. The historical hypermedia models with permanent addressing produced $T_{1/2}$ approaching infinity by design, at the cost of the deployment infrastructure that a permanent-address guarantee requires.
 
 Xanadu specified permanent addresses, whose resolution was guaranteed by the addressing scheme and whose contents were versioned in the document space. The [Xanalogical Structure article][research_nelson_xanalogical] restated the property clearly against the emerging web's failure to preserve it. Content-addressable storage systems, including the InterPlanetary File System, hereafter IPFS, approximate the property by hashing document contents, but adoption remains niche and the hashes address content rather than semantic identity.
 
