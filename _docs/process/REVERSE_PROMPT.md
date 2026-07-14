@@ -8,124 +8,112 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-07-11
-**Task**: Research, draft, verify, and publish A217-A221 as a five-article back-dated series on rocket propellant chemistry. Editorial dates 2026-02-01 through 2026-02-05. Two-commit batch publication sequence complete. All commits pushed to origin/master per human pilot instruction.
+**Date**: 2026-07-14
+**Task**: Draft, review, and publish A222 "Deep-Concentration Knowledge Work" as a standalone one-off analytical article characterizing the class of knowledge workers whose productivity depends on sustained deep concentration. Editorial date 2026-03-11 09:00 UTC, filling the one-day gap between A105 and A103/A106. Two-commit publication sequence complete; commits staged locally, not pushed per human pilot instruction.
 
 ---
 
 ## Verification
 
-### Series Structure Complete
+### Article Body Complete
 
-Five-article back-dated series with shared main title "Rocket Propellant Chemistry," across all articles. Editorial dates fill the exact open block between `_posts/2026-01-31-claude_code_getting_started.markdown` and `_posts/2026-02-06-bidirectional_agentic_workflow.markdown`, ending flush at 2026-02-05 one day before the dense A75-A151 published block resumes.
+Standalone one-off analytical article. No series metadata. Rolls up one level of abstraction from engineer-specific observation to the class-level property. Establishes the class not by profession but by three defining cognitive requirements.
 
-- A217 (2026-02-01) Rocket Propellant Chemistry, A Design-Tradeoff Space. 586 lines. Seven display equations establishing series vocabulary: specific impulse definition, effective exhaust velocity, general thrust equation, ideal specific impulse formula through chamber temperature and average molecular weight, characteristic velocity, thrust coefficient, density specific impulse.
-- A218 (2026-02-02) Rocket Propellant Chemistry, Solid Propellants. 658 lines. Six display equations: Vieille's law, temperature sensitivity coefficient, density specific impulse, ammonium perchlorate decomposition, aluminum combustion, ammonium dinitramide decomposition. Covers composite (AP-HTPB-Al with representative Shuttle SRB and Ariane 5 formulations), double-base (NC-NG), composite modified double-base, research frontier (ADN, HTPE, alane), grain geometry, tradeoffs, applications, industrial base.
-- A219 (2026-02-03) Rocket Propellant Chemistry, Cryogenic Liquid Propellants. 670 lines. Six display equations: hydrolox combustion, oxidizer-to-fuel ratio definition, optimum mixture-ratio stationary condition, methalox combustion, kerolox combustion, ethanol combustion. Covers hydrolox (RS-25, RL10, Vulcain 2 and 2.1, Vinci, LE-9), methalox (Raptor V2, BE-4), kerolox (F-1, Merlin 1D, RD-180, YF-100), V-2 ethanol historical context, ortho-para hydrogen conversion, densified propellants, RP-1 specification, coking constraints, five power cycles, regenerative cooling.
-- A220 (2026-02-04) Rocket Propellant Chemistry, Storable and Hypergolic Liquid Propellants. 646 lines. Six display equations: NTO with MMH combustion, NTO with UDMH combustion, hydrazine decomposition step one, hydrazine decomposition step two, HTP decomposition, IRFNA with kerosene combustion. Covers NTO with MMH (R-40, R-4D, OMS), UDMH (YF-20 series, RD-253), and Aerozine 50 (Titan LR87 and LR91, Apollo LM descent and ascent, Apollo SPS, Delta II AJ10-118K); IRFNA with kerosene on Scud A AK-20I and Scud B AK-27P; hydrazine monopropellant with Shell 405 iridium-alumina catalyst; concentrated hydrogen peroxide monopropellant with silver-plated screens; green monopropellants LMP-103S and AF-M315E ASCENT; hypergolic ignition mechanism; toxicity and REACH regulations.
-- A221 (2026-02-05) Rocket Propellant Chemistry, Hybrid Propellants. 537 lines. Six display equations: Marxman-Gilbert regression rate law, HTPB butadiene combustion, paraffin combustion, nitrous oxide decomposition, HTPB with nitrous oxide combustion, paraffin with nitrous oxide combustion. Covers classical HTPB fuels, paraffin fuels with melt-layer entrainment mechanism from Karabeyoglu Stanford Space Propulsion Group, nitrous oxide storable hybrids (SpaceShipOne and SpaceShipTwo), metallized hybrids, alternative oxidizers, combustion instability classes. Closes the series with a family recap.
+- Opening. Names the class as an activity type characterized by cognitive requirements rather than by profession or discipline. Software engineers named as one example alongside mathematicians, long-form writers, composers, cryptographers, top-level chess and Go players, experimental scientists, and complex-case attorneys.
+- Three Defining Properties. Extended ramp-up with characteristic time $T_r$ of order hours for class members versus minutes to seconds for continuous-shift workers. Sustained state persisting across sleep cycles, meals, and short breaks, grounded in Rasch and Born 2013 sleep-dependent memory consolidation. External memory prostheses closing the gap $C_{\text{problem}} \gg M_{\text{working}}$ with working memory capacity anchored to Miller 1956 seven-item estimate and Cowan 2001 four-item refinement.
+- Cross-Profession Examples. Nine domains showing the same cognitive shape under different tools and outputs. Engineers positioned as one concrete example rather than the reference case. Andrew Wiles and Kasparov/Karpov named as historical illustrations.
+- What Is Not in the Class. Explicit boundary with manager work, sales, operations, classroom teaching, and customer support. Framed as shape observation, not value judgment.
+- The Interruption Cost. Paul Graham's maker-manager framework opens. Empirical work by Leroy 2009 on attention residue and Mark, Gudith, and Klocke 2008 CHI on workplace interruption cost anchors the analysis. Class-member loss $L(t_i) = (T_s - t_i) + T_r$ contrasted with manager loss $L_{\text{manager}} = t_{\text{slot}}$. Loss ratio expressed as several-factor multiplier explaining systematic manager under-estimation.
+- Documentation Discipline as Consequence. Written tracking as load-bearing infrastructure predicted by the third defining property rather than aesthetic preference. Cross-references to A75 bidirectional agentic workflow and A76 markdown as specification language.
+- Implications for Managers. Calendar-block scheduling, sync and async channel discipline, ramp-up protection, documentation as work product, quiet environments, project-switching costs. Cross-references A86 mission command management style.
+- Implications for Practitioners. Recognition of the properties as normal, state-preservation notes, calendar architecture, batched communication, accepting lost sessions, communicating the model to managers.
+- Prior Art. Placement relative to Brooks Mythical Man-Month, Graham Maker's Schedule Manager's Schedule, Csikszentmihalyi Flow, and Newport Deep Work. Cross-references A94 long-form writing and A93 fast-moving versus mission-critical engineering.
+- Conclusion. Three-property framing and load-bearing consequences.
 
-### Chemistry Equation Balance
+### Cross-References
 
-All thirty-one display equations across the series verified balanced. Chemistry balances verified atom-by-atom across all combustion and decomposition equations. Two mid-review corrections applied: NTO-UDMH combustion equation in A220 (excess oxygen removed to match stated 3.1 to 1 mass ratio), N2O role in A221 (nitrogen correctly identified as inert diluent rather than partial fuel, molecular weight direction corrected).
+Five cross-references to prior corpus posts embedded contextually and formally listed as Related Post entries in the References section.
+
+- A75 Bidirectional Agentic Workflow (in Documentation Discipline as Consequence)
+- A76 Markdown as a Specification Language for Agentic Workflows (in Documentation Discipline as Consequence)
+- A86 Mission Command Management Style (in What Is Not in the Class, manager paragraph)
+- A93 Fast-Moving Versus Mission-Critical Engineering (in Three Defining Properties transition)
+- A94 Long-Form Writing in the Age of Large Language Models (in Cross-Profession Examples, writer paragraph)
+
+All five targets predate the 2026-03-11 editorial date and resolve via `post_url` liquid tags.
+
+### Primary References
+
+Five peer-reviewed primary sources anchor the article's cognitive-science empirical claims.
+
+- Cowan (2001) Behavioral and Brain Sciences 24, working-memory capacity refinement to approximately four items. DOI resolver returns 200.
+- Leroy (2009) Organizational Behavior and Human Decision Processes 109, attention residue phenomenon after task switch. DOI resolver returns 200.
+- Mark, Gudith, Klocke (2008) ACM CHI, workplace interruption cost measurement. ACM URL returns 403 anti-bot with confirmation via Semantic Scholar, ResearchGate, and multiple newsletter and archive URLs.
+- Miller (1956) Psychological Review 63, foundational Magical Number Seven paper on working-memory capacity. APA URL returns 403 anti-bot with confirmation via Max Planck Institute, Wikipedia, PhilPapers, ResearchGate, and Scientific Research Publishing.
+- Rasch and Born (2013) Physiological Reviews 93, sleep-dependent memory consolidation review. APS URL returns 403 anti-bot with confirmation via PubMed Central, ZORA University of Zurich, ResearchGate, and Semantic Scholar.
 
 ### Style Verification
 
-Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons, prose parentheticals, certification vocabulary series-wide. Debug tags `<!-- A2xx -->` and `console.log("A2xx")` present in all five articles at lines 10-11. Categories `aerospace propulsion chemistry` uniform.
+Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons in prose, prose parentheticals outside math notation, or certification vocabulary. Debug tags `<!-- A222 -->` and `console.log("A222")` present at lines 10-11. Categories `philosophy management engineering`.
 
-### Cross-Reference Chain
+### Equation Density
 
-Twenty `post_url` cross-references across the series, all resolve at batch publication.
+Three display equations. Working memory inequality $C_{\text{problem}} \gg M_{\text{working}}$ in the Three Defining Properties section. Class member interruption loss $L(t_i) = (T_s - t_i) + T_r$ and manager comparison $L_{\text{manager}} = t_{\text{slot}}$ in the Interruption Cost section. Inline math includes $T_r$, $T_s$, $t_i$, $t_{\text{slot}}$, $n$, $i$.
 
-- A217 opener forward-references each of A218-A221 by number with descriptive summaries.
-- A218-A221 backward-reference A217 for ideal specific impulse formula and other opener vocabulary.
-- Family articles cross-reference each other at points where chemistries are shared: LMP-103S bridges A218 and A220, density specific impulse bridges A218 and A219, optimum oxidizer-to-fuel ratio bridges A219 and A220 and A221.
-- Chain completeness: A217 → A218 → A219 → A220 → A221 with each next-article pointer correctly named. A221 closes the series with a family recap.
+### Reference Density
 
-### External URL Verification
+Fourteen References-section entries.
 
-Sixteen external references across the series. All verified.
+- Three book entries: Brooks Mythical Man-Month, Csikszentmihalyi Flow, Newport Deep Work.
+- One essay entry: Graham Maker's Schedule Manager's Schedule.
+- Five Related Post entries: A75, A76, A86, A93, A94.
+- Five primary research paper entries: Cowan, Leroy, Mark et al., Miller, Rasch and Born.
 
-- Sutton and Biblarz Rocket Propulsion Elements ninth edition Wiley: URL 200. Used across all five articles as the standard propulsion reference.
-- Sutton History of Liquid Propellant Rocket Engines AIAA 2006: AIAA URL 403 anti-bot pattern with indexed confirmation via Amazon, Google Books, Biblio, and ALA. Used in A219, A220, A221.
-- Yang Habiballah Popp Hulka editors Liquid Rocket Thrust Chambers Aspects of Modeling Analysis and Design AIAA 2004: AIAA URL 403 anti-bot pattern with indexed confirmation via Amazon, Biblio, and Skillsoft. Used in A219 and A220.
-- Huzel and Huang Modern Engineering for Design of Liquid-Propellant Rocket Engines AIAA 1992: AIAA URL 403 anti-bot pattern with indexed confirmation via ADS, Amazon, Biblio, and ResearchGate. Used in A219 and A220.
-- Kubota Propellants and Explosives Thermochemical Aspects of Combustion third edition Wiley-VCH 2015: Wiley Online Books URL 403 anti-bot pattern with indexed confirmation via Amazon, AbeBooks, Wiley-VCH, and Internet Archive. Used in A218.
-- Davenas editor Solid Rocket Propulsion Technology Pergamon 1993: ScienceDirect URL 403 anti-bot pattern with indexed confirmation via WorldCat, Blackwell's, and Biblio. Used in A218.
-- Kuo and Summerfield editors Fundamentals of Solid-Propellant Combustion AIAA 1984: AIAA URL 403 anti-bot pattern with indexed confirmation via Amazon, AbeBooks, and Google Books. Used in A218.
-- Clark Ignition, An Informal History of Liquid Rocket Propellants Rutgers 1972 reprinted 2018: URL 200. Used in A220.
-- Chiaverini and Kuo editors Fundamentals of Hybrid Rocket Combustion and Propulsion AIAA 2007: AIAA URL 403 anti-bot pattern with indexed confirmation via Amazon and Cambridge. Used in A221.
-- Karabeyoglu Altman Cantwell Combustion of Liquefying Hybrid Propellants Part 1 General Theory Journal of Propulsion and Power 18 2002: AIAA URL 403 anti-bot pattern with indexed confirmation via Stanford PDF, Semantic Scholar, and ResearchGate. Used in A221.
-- Marxman and Gilbert Turbulent Boundary Layer Combustion in the Hybrid Rocket Symposium International on Combustion 9 1963: DOI 200. Used in A221.
+Ordered by anchor category (book, ref, related_post, research) then alphabetically by author within each category.
 
-### Mid-Review Factual Corrections
+### Collision and Flush Verification
 
-Substantive corrections applied during publication reviews:
+Article number A222 verified unique. Editorial date 2026-03-11 verified empty in `_posts/`. Adjacent published dates 2026-03-10 (A105 neuromorphic autonomous probe CPUs) and 2026-03-12 (A103 error correction recursion, A106 delta wing vehicles) populate the one-day gap boundaries. Article fills the gap without offset or overlap.
 
-- A218 aluminum oxide phase description clarified for two-phase-flow loss.
-- A218 grain formulation percentages verified against Shuttle SRB PBAN specification.
-- A218 CMDB missile examples generalized (Trident II D5 and Minuteman III use nitrate ester plasticized polyether variants, not classical CMDB).
-- A219 Vulcain 2 and Vulcain 2.1 variants distinguished for Ariane 5 and Ariane 6 respectively.
-- A219 hydrolox first-stage Isp ranges corrected to include Vulcain 2 sea-level value ($315$ to $370$ seconds SL, $425$ to $452$ seconds vacuum) with rationale about the RS-25 staged-combustion upper bound and Vulcain 2 gas-generator lower bound.
-- A220 Aerojet AJ10-118K moved to Aerozine 50 section from MMH section (confirmed via search that AJ10-118K burns Aerozine 50, not MMH).
-- A220 Scud AK oxidizer designations corrected from "AK-27P or AK-27S" to "AK-20I on Scud A and AK-27P on Scud B" (AK-27S did not exist).
-- A220 NTO threshold limit value description generalized (specific $3$ ppm figure is historical rather than current).
-- A220 NTO-UDMH combustion equation corrected to remove excess oxygen and match stated stoichiometric ratio.
-- A221 SpaceShipOne chamber pressure removed from prose (source data conflicts across search results).
-- A221 N2O ballast role corrected (nitrogen is inert diluent, not partial fuel).
-- A221 Marxman-Gilbert DOI corrected from an incorrect suffix.
-
-### Series Cohesiveness Pass
-
-Series cohesiveness pass verified:
-
-- No article-number collisions with existing published posts or drafts. Debug tags for A217-A221 appear only in the five drafts.
-- No editorial-date collisions. Slots 2026-02-01 through 2026-02-05 were empty in `_posts/` prior to batch publication.
-- Flush endpoint verified. Series ends at 2026-02-05 one day before the dense A75-A151 published block starts at 2026-02-06 with `bidirectional_agentic_workflow.markdown`.
-- Terminology uniform. "Specific impulse", "mixture ratio", "oxidizer-to-fuel ratio", chemical formulas, and engine designations consistent across all five articles.
-- Chemical vocabulary chain consistent. HTPB introduced in A218 (as binder), reused in A221 (as neat fuel). ADN introduced in A218, reused in A220 (as LMP-103S component). LMP-103S referenced consistently across A217 opener, A218 introduction, and A220 detailed coverage.
-- Shared reference URLs identical across articles (Sutton-Biblarz identical URL across five articles; Sutton History across three; Yang et al. across two; Huzel-Huang across two).
-- Anchor prefix convention `ref_` for references and `related_post_` for cross-references uniform across all five articles.
+Category shadow check confirmed sgeos/philosophy, sgeos/management, and sgeos/engineering repositories do not exist on GitHub. The article's URL will be `/philosophy/management/engineering/2026/03/11/deep_concentration_knowledge_work.html` with no path prefix collision.
 
 ### Two-Commit Publication Pattern
 
-Two-commit batch publication sequence complete.
+Standard two-commit publication.
 
-- Draft commit `2561e2b` captures all five finalised drafts plus draft summary update.
-- Publish commit follows with batch `git mv` of all five drafts to `_posts/` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronisation.
-- All commits pushed to `origin/master` per human pilot instruction.
+- Draft commit sequence: 09dfc7d initial draft, 486e13c equation additions, f7b547a primary references, 4fb52e9 publication review and cross-references.
+- Publish commit follows with `git mv` from `_drafts/deep_concentration_knowledge_work.markdown` to `_posts/2026-03-11-deep_concentration_knowledge_work.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
+
+Commits staged locally. Not pushed per human pilot instruction.
 
 ---
 
 ## Article Number State
 
-- Next available article number: A222.
-- A217 through A221 published as five-article back-dated series covering rocket propellant chemistry at editorial dates 2026-02-01 through 2026-02-05.
+- Next available article number: A223.
+- A222 published as `_posts/2026-03-11-deep_concentration_knowledge_work.markdown` at editorial date 2026-03-11 09:00 UTC.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Verify the GitHub Actions deploy completes without errors after the push. The series uses `{% post_url %}` cross-references internally (all resolve at batch publication) and to A90 (Introduction to Space Studies) and A120 (Staged and Boosted Propulsion) which are already deployed.
-- Review the published articles at their permalinks once the deploy completes at the following URLs:
-  - `https://sgeos.github.io/aerospace/propulsion/chemistry/2026/02/01/rocket_propellant_chemistry_a_design_tradeoff_space.html`
-  - `https://sgeos.github.io/aerospace/propulsion/chemistry/2026/02/02/rocket_propellant_chemistry_solid_propellants.html`
-  - `https://sgeos.github.io/aerospace/propulsion/chemistry/2026/02/03/rocket_propellant_chemistry_cryogenic_liquid_propellants.html`
-  - `https://sgeos.github.io/aerospace/propulsion/chemistry/2026/02/04/rocket_propellant_chemistry_storable_and_hypergolic_liquid_propellants.html`
-  - `https://sgeos.github.io/aerospace/propulsion/chemistry/2026/02/05/rocket_propellant_chemistry_hybrid_propellants.html`
-- The next available article number is A222. The rocket propellant chemistry taxonomy is now complete in public-facing form covering solid, cryogenic liquid, storable liquid, and hybrid families with a design-tradeoff opener.
+- Review the local commits before push authorization. The two-commit sequence plus process file synchronization is complete but not pushed.
+- Push command when ready: `git push origin master`.
+- Verify the GitHub Actions deploy completes without errors after the push. The A222 article uses `{% post_url %}` cross-references to A75, A76, A86, A93, and A94 which are already deployed.
+- Review the published article at its permalink once the deploy completes at `https://sgeos.github.io/philosophy/management/engineering/2026/03/11/deep_concentration_knowledge_work.html`.
+- Consider whether the class-level framing warrants a follow-up article on maker calendar architecture or documentation-as-memory practice. The current article positions such follow-ups as consequences of the class properties rather than free-standing preferences.
 
 ---
 
 ## Notes
 
-- Next available article number: A222.
-- 0 release candidates from the recent series.
+- Next available article number: A223.
+- 0 release candidates.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A221 across the combined article number space.
-- The rocket propellant chemistry series now covers the full chemical propellant taxonomy in public-facing form. The opener article establishes vocabulary (specific impulse, ideal Isp formula, characteristic velocity, thrust coefficient, mixture ratio, density specific impulse), and the four family articles apply the vocabulary to solid, cryogenic liquid, storable liquid, and hybrid combinations. Every article carries chemistry-specific display equations for combustion and decomposition reactions plus family-specific analytical relations.
-- Primary-source verification pass was performed across all five articles. Corrections applied during publication reviews are catalogued above.
-- Certification barrier compliance verified. Zero occurrences across the series.
-- All scratch is confined to project-local `tmp/` per recorded preference.
+- Published through A222 across the combined article number space.
+- Corpus size 222 posts, editorial dates span 2016 through 2026-07-11.
+- Primary-source verification pass performed against Miller 1956, Cowan 2001, Leroy 2009, Mark Gudith Klocke 2008, and Rasch and Born 2013. Corrections applied during equation-density and reference-density review passes.
+- Certification barrier compliance verified. Zero occurrences across the article.
+- All scratch confined to project-local `tmp/` per recorded preference.
 - Blog deploys through GitHub Actions with a lean Jekyll stack.

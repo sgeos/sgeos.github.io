@@ -18,6 +18,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Deep-Concentration Knowledge Work (A222) — Published
+
+**File**: `_posts/2026-03-11-deep_concentration_knowledge_work.markdown`
+
+**Topic**: First-principles characterization of the class of knowledge workers whose productivity depends on sustained deep concentration. Standalone one-off article that rolls up one level of abstraction from engineer-specific observation to the class-level property. Identifies three defining cognitive properties: extended ramp-up ($T_r$ of order hours), sustained state across days or weeks including sleep, and external memory prostheses closing the gap $C_{\text{problem}} \gg M_{\text{working}}$. Catalogs cross-profession examples spanning software and hardware engineers, mathematicians, long-form writers, composers, experimental scientists, complex-case attorneys, top-level chess and Go players, cryptographers, and architects. Draws explicit boundary with continuous-shift knowledge work: managers, sales, operations, classroom teaching, and customer support. Formalizes interruption cost with $L(t_i) = (T_s - t_i) + T_r$ and contrasts with the manager loss $L_{\text{manager}} = t_{\text{slot}}$. Argues documentation discipline is a load-bearing consequence of the third property rather than an aesthetic preference. Sections on implications for managers and complementary implications for practitioners. Prior-art section positions the framing relative to Brooks Mythical Man-Month, Graham Maker's Schedule Manager's Schedule, Csikszentmihalyi Flow, and Newport Deep Work. Empirical claims anchored in five peer-reviewed primary references: Cowan 2001 refinement of working memory capacity to approximately four items, Leroy 2009 attention residue phenomenon after task switch, Mark Gudith Klocke 2008 CHI workplace interruption cost, Miller 1956 foundational Magical Number Seven, Rasch and Born 2013 sleep-dependent memory consolidation.
+
+**Article Number**: A222
+**Completion**: 100%
+**Publication Sensibility**: High (foundational analytical article positioning class-level cognitive requirements above profession-specific manifestations; complements existing corpus posts on management and engineering discipline; provides explicit anchor for later posts on maker productivity, calendar architecture, and documentation practice)
+**Status**: Published 2026-03-11 at 09:00 UTC. 199 lines, mathjax true, three display equations. Fourteen References-section entries (three books, one essay, five related posts, five primary research papers). Five cross-references to prior corpus posts (A75, A76, A86, A93, A94). Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons in prose, or prose parentheticals outside math notation. Nine external URLs verified (five 200 responses for Cowan, Leroy, Brooks, Graham, Newport, plus four 403 responses for HarperCollins, Miller APA, Mark ACM, and Rasch Born APS matching the documented publisher anti-bot pattern with all four confirmed indexed via web search). Editorially back-dated to fill the one-day gap between A105 (2026-03-10 neuromorphic autonomous probe CPUs) and A103/A106 (2026-03-12 error correction recursion and delta wing vehicles). Categories `philosophy management engineering` with no shadowing repository at those first-category paths. Two-commit publication pattern; commits local pending push authorisation.
+
 ### Rocket Propellant Chemistry series (A217-A221) — Published
 
 **Files**:
