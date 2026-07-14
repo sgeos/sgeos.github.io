@@ -20,9 +20,9 @@ The class shares three cognitive properties that separate it from continuous-shi
 
 **Extended ramp-up.** Entering the productive state requires hours of continuous engagement with the problem before the practitioner can produce output of characteristic quality. The ramp-up is not throat-clearing or slow starting. It is the reconstruction in working memory of a mental model that the previous session ended with but did not preserve. Someone who worked deeply on a problem yesterday cannot simply resume today. They must rebuild the model from partial notes and remembered fragments. The rebuild takes hours because the model is large and its parts interconnect in ways that must be re-inhabited rather than merely re-read. Call the characteristic ramp-up time $T_r$, measured in hours. For members of the class $T_r$ is of order one to several hours. For continuous-shift knowledge workers $T_r$ is of order minutes or seconds.
 
-**Sustained state across days or weeks.** Once entered, the productive state persists across sleep cycles, meals, and short breaks. Class members report going to sleep with the problem and waking up with a new angle on it. The brain continues background processing during nominally off-clock hours. Ideas surface in the shower, during a walk, or in the middle of an unrelated conversation. The state ends when the problem resolves or when a sufficiently large interruption forces a full reset. Between those two endpoints the practitioner is not in a discrete series of work sessions but in one long extended engagement that happens to be punctuated by sleep.
+**Sustained state across days or weeks.** Once entered, the productive state persists across sleep cycles, meals, and short breaks. Class members report going to sleep with the problem and waking up with a new angle on it. The brain continues background processing during nominally off-clock hours. Ideas surface in the shower, during a walk, or in the middle of an unrelated conversation. Empirical work on [sleep-dependent memory consolidation by Rasch and Born][research_rasch_born_sleep] documents the neural mechanisms through which memory traces are strengthened and reorganized during sleep, providing the physiological substrate for the phenomenological observation. The state ends when the problem resolves or when a sufficiently large interruption forces a full reset. Between those two endpoints the practitioner is not in a discrete series of work sessions but in one long extended engagement that happens to be punctuated by sleep.
 
-**External memory as prosthetic.** Working memory cannot hold the accumulated context. The problem has more parts, more constraints, more branches, more prior attempts, and more conditional dependencies than the practitioner can carry unassisted. Denote the problem context size by $C_{\text{problem}}$ and unassisted working memory capacity by $M_{\text{working}}$. The class is defined by the strict inequality
+**External memory as prosthetic.** Working memory cannot hold the accumulated context. The problem has more parts, more constraints, more branches, more prior attempts, and more conditional dependencies than the practitioner can carry unassisted. Denote the problem context size by $C_{\text{problem}}$ and unassisted working memory capacity by $M_{\text{working}}$. Empirical estimates place $M_{\text{working}}$ at approximately seven items per [Miller's foundational study][research_miller_seven] and closer to four items under [later refinement by Cowan][research_cowan_four]. Problem contexts routinely handled by class members exceed these numbers by orders of magnitude. The class is defined by the strict inequality
 
 $$
 C_{\text{problem}} \gg M_{\text{working}}
@@ -77,6 +77,8 @@ The point of the distinction is not to elevate class-member work over other work
 ## The Interruption Cost
 
 Paul Graham's 2009 essay [Maker's Schedule, Manager's Schedule][ref_graham_maker] framed the underlying tension. A manager's day divides into hour-long slots. An interrupt costs at most one slot. A maker's day is a single long block. An interrupt costs the remainder of the block plus the ramp-up cost of re-entering, if re-entering is possible before the block ends.
+
+Empirical work supports both sides of Graham's framing. [Leroy][research_leroy_attention_residue] measured that cognitive attention remains on an interrupted task for many minutes after the switch, a phenomenon she termed attention residue. The residue reduces performance on the new task until the previous task's attention drains. Workplace interruption studies by [Mark, Gudith, and Klocke][research_mark_interrupted_work] found that workers compensate for interruption by working faster on the resumed task, which reduces average per-task duration but increases stress and error rates. Both findings support the observation that interruption cost exceeds the interrupt's nominal duration, and neither result is captured by manager-style scheduling that treats a fifteen-minute meeting as a fifteen-minute cost.
 
 Let $T_s$ denote the intended session duration and $t_i \in [0, T_s]$ the elapsed session time at the moment of interruption. When recovery is possible, the total lost time $L$ for a class member is
 
@@ -170,8 +172,18 @@ Framing the class at the cognitive-requirements level rather than at the profess
 - [Csikszentmihalyi, Mihaly, Flow, The Psychology of Optimal Experience, Harper and Row, 1990][book_csikszentmihalyi_flow]
 - [Graham, Paul, Maker's Schedule, Manager's Schedule, personal essay, 2009][ref_graham_maker]
 - [Newport, Cal, Deep Work, Rules for Focused Success in a Distracted World, Grand Central Publishing, 2016][book_newport_deep_work]
+- [Cowan, Nelson, The magical number 4 in short-term memory, A reconsideration of mental storage capacity, Behavioral and Brain Sciences 24, 2001][research_cowan_four]
+- [Leroy, Sophie, Why is it so hard to do my work, The challenge of attention residue when switching between work tasks, Organizational Behavior and Human Decision Processes 109, 2009][research_leroy_attention_residue]
+- [Mark, Gloria, Gudith, Daniela, Klocke, Ulrich, The cost of interrupted work, More speed and stress, ACM CHI, 2008][research_mark_interrupted_work]
+- [Miller, George A., The Magical Number Seven, Plus or Minus Two, Some Limits on Our Capacity for Processing Information, Psychological Review 63, 1956][research_miller_seven]
+- [Rasch, Björn and Born, Jan, About sleep's role in memory, Physiological Reviews 93, 2013][research_rasch_born_sleep]
 
 [book_brooks_mmm]: https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000000747
 [book_csikszentmihalyi_flow]: https://www.harpercollins.com/products/flow-mihaly-csikszentmihalyi
 [book_newport_deep_work]: https://www.calnewport.com/books/deep-work/
 [ref_graham_maker]: http://www.paulgraham.com/makersschedule.html
+[research_cowan_four]: https://doi.org/10.1017/S0140525X01003922
+[research_leroy_attention_residue]: https://doi.org/10.1016/j.obhdp.2009.04.002
+[research_mark_interrupted_work]: https://doi.org/10.1145/1357054.1357072
+[research_miller_seven]: https://doi.org/10.1037/h0043158
+[research_rasch_born_sleep]: https://doi.org/10.1152/physrev.00032.2012
