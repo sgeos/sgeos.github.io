@@ -40,7 +40,7 @@ The eight axes are not exhaustive but they cover the material differences betwee
 
 HTML's links are one-way. A source document names a target by uniform resource locator, hereafter URL. The target has no automatic awareness that the source links to it. Building a reverse index requires an out-of-band crawl by a third party, and the reverse index goes stale immediately.
 
-NLS, Xanadu, and BTRON all treated links as symmetric relationships. In NLS, following a link from one document to another produced a visible marker at the destination naming the source. In Xanadu the bidirectional property was foundational, since the addressing scheme placed both endpoints under the same document-space registry. In BTRON the operating system maintained a link database that any node in the system could query in either direction.
+NLS, Xanadu, and BTRON all treated links as symmetric relationships. In NLS, documented in the primary implementation report by [Engelbart and English on the SRI research center][research_engelbart_english_1968], following a link from one document to another produced a visible marker at the destination naming the source. In Xanadu the bidirectional property was foundational, since the addressing scheme placed both endpoints under the same document-space registry. In BTRON the operating system maintained a link database that any node in the system could query in either direction.
 
 The engineering consequence is significant. On the web, the operation "show me every document that links to this one" is a whole-industry problem solved by search-engine companies, whose reverse indices are opaque and unavailable to the site owner or reader. On NLS, Xanadu, and BTRON, the same operation was a local query against a resolved data structure. Wiki systems and static-site generators sometimes reconstruct the property by maintaining a backlink cache, but the cache is a per-site retrofit rather than a system-wide guarantee. The [bidirectional-agentic-workflow discipline][related_post_bidirectional_agentic] treated in a prior article is one small-scale reconstruction of the same property inside a documentation system.
 
@@ -88,7 +88,7 @@ HTML delegates the composition problem to server-side templating or client-side 
 
 HTML's addressing scheme is the URL, which resolves whatever the current server chooses to serve. A URL that resolved yesterday may return a different document today, an error tomorrow, and be reassigned by a subsequent site owner. The Internet Archive's Wayback Machine is a third-party retrofit that partially compensates for the absence of permanence at the model layer.
 
-The consequence is measurable. Empirical link-rot studies consistently observe that the fraction of broken outbound links from a published page grows toward unity on a multi-year timescale. If $T_{1/2}$ denotes the observed half-life of a URL's continued resolvability and $t$ denotes elapsed time since publication, the accumulated broken-link fraction follows the exponential-decay form.
+The consequence is measurable. Empirical link-rot studies consistently observe that the fraction of broken outbound links from a published page grows toward unity on a multi-year timescale. The large-scale scholarly-corpus study by [Klein and colleagues on reference rot in one in five academic articles][research_klein_reference_rot] measured the phenomenon across millions of citations and reported multi-year decay rates consistent with the exponential-decay form. If $T_{1/2}$ denotes the observed half-life of a URL's continued resolvability and $t$ denotes elapsed time since publication, the accumulated broken-link fraction follows the form.
 
 $$
 f_{\text{broken}}(t) = 1 - 2^{-t / T_{1/2}}
@@ -106,7 +106,7 @@ HTML mixes structural markup, presentational markup, and application behavior in
 
 NLS treated documents as trees with explicit structural nodes. Xanadu treated documents as segments in a stable stream with explicit link and quotation records. BTRON treated documents as typed part collections with per-part structural conventions. In each system the structure was mandatory, not decorative.
 
-The Resource Description Framework family of specifications and JSON-LD are the W3C-sanctioned retrofits. Their uptake in ordinary documents remains marginal. The Semantic Web project was in essence an admission that HTML's structure layer was inadequate for machine reasoning and required a parallel graph representation to be bolted on.
+The Resource Description Framework family of specifications and JSON-LD are the W3C-sanctioned retrofits. Their uptake in ordinary documents remains marginal. The Semantic Web project, articulated by [Berners-Lee, Hendler, and Lassila as a program for machine-reasonable web content][research_berners_lee_semantic_web], was in essence an admission that HTML's structure layer was inadequate for machine reasoning and required a parallel graph representation to be bolted on.
 
 ## Why HTML Displaced the Alternatives
 
@@ -167,9 +167,12 @@ Understanding HTML as a minimum-viable subset of an already-mature hypermedia re
 - [Related Post, Bidirectional Agentic Workflow][related_post_bidirectional_agentic]
 - [Related Post, LLM Knowledge Graphs][related_post_llm_knowledge_graphs]
 - [Related Post, Markdown as a Specification Language for Agentic Workflows][related_post_markdown_spec]
+- [Berners-Lee, Tim, Hendler, James, and Lassila, Ora, The Semantic Web, Scientific American 284, 2001][research_berners_lee_semantic_web]
 - [Bush, Vannevar, As We May Think, Atlantic Monthly 176, 1945][research_bush_memex]
+- [Engelbart, Douglas C. and English, William K., A Research Center for Augmenting Human Intellect, AFIPS Fall Joint Computer Conference 33, 1968][research_engelbart_english_1968]
 - [Halasz, Frank G., Reflections on NoteCards, Seven Issues for the Next Generation of Hypermedia Systems, Communications of the ACM 31, 1988][research_halasz_notecards]
 - [Halasz, Frank G. and Schwartz, Mayer, The Dexter Hypertext Reference Model, Communications of the ACM 37, 1994][research_halasz_dexter]
+- [Klein, Martin, Van de Sompel, Herbert, Sanderson, Robert, Shankar, Harihar, Balakireva, Lyudmila, Zhou, Ke, and Tobin, Richard, Scholarly Context Not Found, One in Five Articles Suffers from Reference Rot, PLoS ONE 9, 2014][research_klein_reference_rot]
 - [Meyrowitz, Norman, The Missing Link, Why We're All Doing Hypermedia Wrong, Hypertext 89 Proceedings, 1989][research_meyrowitz_missing_link]
 - [Nelson, Theodor H., A File Structure for the Complex, the Changing, and the Indeterminate, ACM 20th National Conference, 1965][research_nelson_1965]
 - [Nelson, Theodor H., Xanalogical Structure, Needed Now More Than Ever, ACM Computing Surveys 31, 1999][research_nelson_xanalogical]
@@ -187,9 +190,12 @@ Understanding HTML as a minimum-viable subset of an already-mature hypermedia re
 [related_post_bidirectional_agentic]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [related_post_llm_knowledge_graphs]: {% post_url 2026-02-07-llm_knowledge_graphs %}
 [related_post_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
+[research_berners_lee_semantic_web]: https://doi.org/10.1038/scientificamerican0501-34
 [research_bush_memex]: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+[research_engelbart_english_1968]: https://doi.org/10.1145/1476589.1476645
 [research_halasz_dexter]: https://doi.org/10.1145/175235.175237
 [research_halasz_notecards]: https://doi.org/10.1145/48511.48514
+[research_klein_reference_rot]: https://doi.org/10.1371/journal.pone.0115253
 [research_meyrowitz_missing_link]: https://doi.org/10.1145/74224.74246
 [research_nelson_1965]: https://doi.org/10.1145/800197.806036
 [research_nelson_xanalogical]: https://doi.org/10.1145/345966.346033
