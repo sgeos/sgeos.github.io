@@ -35,6 +35,14 @@ $$
 
 For continental European followers around 1850, with $R$ typically in the range of two to four against Britain and growth-rate premia of one to two percentage points achievable through institutional-substitution mechanisms, the arithmetic produces catch-up times on the order of thirty to a hundred years. The empirical record confirms the arithmetic. Belgium closed on Britain by roughly 1900. Germany closed by 1913 and surpassed Britain in specific sectors well before that. France remained behind but converged substantially through the second half of the nineteenth century. The Netherlands and Switzerland followed distinct paths that combined late industrialization proper with specialized service and finance sectors.
 
+The same arithmetic rearranged gives the required growth-rate premium as a function of the gap and the target closure period. If a follower aims to close a per-capita productivity gap of ratio $R$ over a target period $T$, the required per-capita growth-rate premium over the leader is
+
+$$
+\Delta g = g_f - g_l = \frac{\ln R}{T}
+$$
+
+which for the German case of $R \approx 2$ to $3$ against Britain in 1850 and $T \approx 40$ years to substantial parity by the 1890s implies a required $\Delta g$ of roughly two percentage points. The historical record confirms that Germany achieved approximately this growth-rate premium during the second half of the nineteenth century through the specific institutional-substitution mechanisms treated later in this article. Followers unable to sustain the required premium either close more slowly, remain permanently behind, or converge to intermediate positions from which further catch-up requires renewed institutional adjustment.
+
 The Baumol convergence hypothesis formalizes the observation empirically. If $Y_i(t)$ denotes per-capita output of country $i$ at time $t$ and $g_{\text{leader}}$ the leader's growth rate, follower per-capita growth exhibits
 
 $$
@@ -42,6 +50,14 @@ g_i(t) = g_{\text{leader}} + \beta \cdot \frac{Y_{\text{leader}}(t) - Y_i(t)}{Y_
 $$
 
 with $\beta > 0$ measuring the convergence rate. The [empirical work of Baumol on productivity convergence across industrial economies][research_baumol_convergence] establishes that $\beta$ is positive and substantial for the industrial-country group across most of the twentieth century, and that the convergence property applies specifically to countries that have already achieved the institutional preconditions for industrialization. Countries that have not achieved those preconditions do not converge and remain persistently behind. The bifurcation between the convergence club and the divergence club is one of the central empirical findings of long-run growth economics and is directly relevant to why some continental followers succeeded and others did not.
+
+The specific $\beta$ implies a convergence half-life. If the leader-follower productivity gap decays exponentially at rate $\beta$, half the gap closes over
+
+$$
+t_{1/2} = \frac{\ln 2}{\beta}
+$$
+
+years. Empirical estimates of $\beta$ across the industrial-country group during the twentieth century cluster around two to three percent per year, producing half-lives on the order of twenty-five to forty years. The estimate is consistent with the historical record of continental follower catch-up on Britain, which took roughly one to two generations to substantially close the mid-nineteenth-century gap for the successful followers.
 
 ## Belgium, The First Continental Follower
 
