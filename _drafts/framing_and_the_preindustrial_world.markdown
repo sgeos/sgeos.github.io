@@ -61,7 +61,15 @@ $$
 \frac{d Y_{\text{pc}}}{dt} \approx 0 \quad \text{on time scales longer than one generation}
 $$
 
-which places the long-run limit on preindustrial productivity gains. The gain accrues as more people at the same standard of living, not as higher living standards for the same number of people. Gregory Clark's [Farewell to Alms][book_clark_farewell_to_alms] documents the mechanism at high resolution for preindustrial England and finds it consistent with historical wage and demographic series.
+which places the long-run limit on preindustrial productivity gains.
+
+The dynamic that enforces the equilibrium is a population response to real wages. Let $w$ denote the real wage available to laborers and $w^*$ the subsistence wage below which mortality exceeds fertility. The population equation of motion in Malthusian regimes takes the form
+
+$$
+\frac{dN}{dt} = k \cdot (w - w^*) \cdot N
+$$
+
+with $k > 0$ producing the negative feedback that keeps $w$ in a neighborhood of $w^*$ across centuries. Sustained productivity gains push $w$ above $w^*$ briefly, triggering population growth, until the additional population brings $w$ back to $w^*$. The equilibrium is unstable to positive productivity shocks only over the transient period before the demographic response completes. The gain accrues as more people at the same standard of living, not as higher living standards for the same number of people. Gregory Clark's [Farewell to Alms][book_clark_farewell_to_alms] documents the mechanism at high resolution for preindustrial England and finds it consistent with historical wage and demographic series.
 
 The Malthusian trap is the reason that preindustrial dynasties and empires that appear wealthy by absolute measures were poor by per-capita measures. Song China, at its economic peak in the twelfth century, likely had per-capita output within a factor of two of subsistence. The absolute output was large because the population was large. The per-capita output was small because the productivity ceiling was low. Roman-era estimates by Bang and others suggest similar per-capita numbers for the classical Mediterranean. The pattern held across every organic economy for which quantitative estimates exist.
 
@@ -101,7 +109,15 @@ $$
 m \leq \frac{Y_{\text{pc}} - Y_{\text{sub}}}{Y_{\text{sub}}}
 $$
 
-which for preindustrial economies with $Y_{\text{pc}}$ near $Y_{\text{sub}}$ produces $m$ on the order of a few percent, and in most cases well below one percent for a fully professional standing force. Larger mobilizations were possible for short campaigns using militia, feudal levies, and mercenaries funded by extraordinary revenue extraction, but such mobilizations exhausted the fiscal base within a season or two and could not be sustained across years. The Napoleonic Wars pushed mobilization ratios in France above two percent for extended periods and stressed the French state to its fiscal breaking point.
+which for preindustrial economies with $Y_{\text{pc}}$ near $Y_{\text{sub}}$ produces $m$ on the order of a few percent, and in most cases well below one percent for a fully professional standing force.
+
+The fiscal constraint on standing military capacity chains back to the underlying agricultural surplus. Let $M$ denote sustainable military expenditure and $\alpha$ the politically sustainable share of state revenue that a preindustrial polity could commit to military purposes. Combining with the fiscal-capacity bound gives
+
+$$
+M \leq \alpha \cdot T \leq \alpha \cdot \phi \cdot \tau_{\max} \cdot Y_{\text{ag}}
+$$
+
+which chains military capacity all the way back to the agricultural output the state could reach and extract. Preindustrial great-power military rankings therefore tracked agricultural surplus more closely than any other single variable, and the largest sustained armies belonged to the polities with the deepest fiscal-military states rather than to the polities with the largest populations. Larger mobilizations were possible for short campaigns using militia, feudal levies, and mercenaries funded by extraordinary revenue extraction, but such mobilizations exhausted the fiscal base within a season or two and could not be sustained across years. The Napoleonic Wars pushed mobilization ratios in France above two percent for extended periods and stressed the French state to its fiscal breaking point.
 
 The transformation of warfare that industrialization produced was not primarily a technological transformation, though the technology mattered. It was a mobilization transformation. Industrial-era great powers routinely mobilized ten to twenty percent of their populations for the world wars, sustained the mobilizations for years, and equipped the mobilized forces with per-capita firepower orders of magnitude beyond preindustrial norms. The fiscal state that supported these mobilizations required the productivity floor that industrialization made possible. Preindustrial polities were categorically incapable of sustained modern warfare, and the industrialization gap consequently translated directly into military dominance from the first industrial wave onward.
 
@@ -155,7 +171,25 @@ Military capacity unlocks force projection. Steam propulsion, breech-loading art
 
 Force projection unlocks further resource capture. Nineteenth-century European powers seized territories, established administrations, imposed treaty ports on independent Asian states, and reorganized global trade around routes and rules that served their industrial economies. The captured resources funded further industrial expansion.
 
-The cascade is self-reinforcing for nations on it. Every stage feeds the next. Every gain compounds. The cascade is marginalizing for nations off it. Every stage the leader completes puts additional distance between the leader and any would-be follower. Late industrializers face a leader who has already extracted the resources, built the institutions, and captured the geopolitical positions the late industrializer would need to catch up. This asymmetry, and the historical responses of specific nations to it, is the subject matter of the remaining eleven articles.
+The cascade is self-reinforcing for nations on it. Every stage feeds the next. Every gain compounds. The cascade is marginalizing for nations off it. Every stage the leader completes puts additional distance between the leader and any would-be follower. Late industrializers face a leader who has already extracted the resources, built the institutions, and captured the geopolitical positions the late industrializer would need to catch up.
+
+The cascade is quantitatively compounding. Let $Y_{\text{lead}}(t)$ and $Y_{\text{follow}}(t)$ denote per-capita output of the leading industrializer and a specific follower over time, and let $g_{\text{lead}}$ and $g_{\text{follow}}$ denote their respective per-capita growth rates. The ratio between them evolves as
+
+$$
+\frac{Y_{\text{lead}}(t)}{Y_{\text{follow}}(t)} = \frac{Y_{\text{lead}}(0)}{Y_{\text{follow}}(0)} \cdot e^{(g_{\text{lead}} - g_{\text{follow}}) \cdot t}
+$$
+
+which produces enormous divergences even from modest growth-rate gaps sustained over multiple generations. A leader growing per capita at two percent per year and a follower growing at one percent per year diverge by a factor of $e^{0.01 \cdot 100} \approx 2.7$ over a century. The compounding property is what turns modest early differences in industrial adoption into structural gaps that persist across generations.
+
+The aggregate consequence is the phenomenon that Kenneth Pomeranz named the Great Divergence. Let $\bar{Y}_{\text{world,pc}}(t)$ denote the population-weighted mean of world per-capita output at time $t$, and let $Y_{\text{leader,pc}}(t)$ denote the per-capita output of the leading industrial economy. The divergence ratio is
+
+$$
+D(t) = \frac{Y_{\text{leader,pc}}(t)}{\bar{Y}_{\text{world,pc}}(t)}
+$$
+
+which was on the order of one and a half to two circa 1500, on the order of two to three circa 1800 on the eve of the industrial revolution, and on the order of twenty to fifty by 2000 depending on which industrial leader is chosen as the numerator. The century in which the ratio grew fastest was the second half of the nineteenth century, when British and later American industrialization compounded and no non-Western economy had yet begun the transition.
+
+This asymmetry, and the historical responses of specific nations to it, is the subject matter of the remaining eleven articles.
 
 ## Primary Structural, Not Sufficient
 
@@ -190,6 +224,14 @@ The series uses caricature deliberately in this opener and in the regional sketc
 The theoretical apparatus the series applies is not novel. This subsection identifies the principal predecessors.
 
 Alexander Gerschenkron's [Economic Backwardness in Historical Perspective][book_gerschenkron_backwardness] is the foundational statement of the late-industrialization theory. Gerschenkron argued that late industrializers do not repeat the sequence of the first industrializer but substitute different institutional configurations, particularly state banks and mobilized capital, for the private entrepreneurship and gradualist finance of British first-mover industrialization. The series inherits Gerschenkron's central claim and applies it across the full sequence of industrialization waves.
+
+Gerschenkron's late-industrialization mechanism produces a testable catch-up time under simplifying assumptions. If a follower economy grows at per-capita rate $g_f$ while the leader grows at rate $g_l$ with $g_f > g_l$, the time to close a per-capita productivity gap of ratio $R = Y_{\text{lead,pc}} / Y_{\text{follow,pc}}$ satisfies
+
+$$
+t_{\text{catch}} = \frac{\ln R}{g_f - g_l}
+$$
+
+which for $R$ on the order of ten and a growth-rate gap of two percentage points produces catch-up on the order of a century. The bound is optimistic in that it assumes the follower can sustain a superior growth rate through the entire catch-up window, which is empirically difficult beyond a few decades. Gerschenkron's account is that late industrializers achieve the superior growth rate temporarily through institutional substitutions such as universal banking and state-directed investment, and lose the growth-rate premium once they have caught up substantially.
 
 Kenneth Pomeranz's [Great Divergence][book_pomeranz_great_divergence] is the canonical statement of the position that European and East Asian economies were broadly comparable in per-capita productivity as late as the eighteenth century, and that the divergence between them was a specific historical event rather than the culmination of long civilizational trajectories. The series adopts the Pomeranz position on the timing of the divergence and treats the divergence as the initial event whose consequences the subsequent industrialization waves compound.
 
