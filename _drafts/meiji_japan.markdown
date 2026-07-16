@@ -101,7 +101,7 @@ The Meiji government pursued territorial expansion as strategic doctrine from th
 
 **1904-1905 Russo-Japanese War.** Japanese victory over Russia in the naval Battle of Tsushima and the land Battle of Mukden produced the Treaty of Portsmouth, which recognized Japanese primacy in Korea, transferred the southern Sakhalin territory to Japan, and established Japanese control of the South Manchurian Railway. The war marked the first defeat of a European great power by a non-European state in modern history and established Japan as a first-rank military power.
 
-**1910 Korean annexation.** Japan formally annexed Korea as a colony after fifteen years of progressively deepening intervention. The annexation initiated the thirty-five-year Japanese colonial administration of Korea that would end only with the 1945 defeat, and which produced substantial industrial development in Korea alongside substantial repression of Korean political and cultural life.
+**1910 Korean annexation.** Japan formally annexed Korea as a colony after fifteen years of progressively deepening intervention. The annexation initiated the thirty-five-year Japanese colonial administration of Korea that would end only with the 1945 defeat, and which produced substantial industrial development in Korea alongside substantial repression of Korean political and cultural life. The [Kohli analysis of the Japanese lineage of the Korean developmental state][research_kohli_korea] establishes that the specific institutional forms of the postwar South Korean developmental state trace substantially to the Meiji-era institutional models imposed on colonial Korea during the 1910-1945 Japanese administration, and treats the postwar Korean industrialization as one of the specific legacies of the Meiji institutional export that the eighth article of the series will treat under the East Asian tigers case.
 
 **1914-1918 First World War.** Japan participated on the Allied side under the Anglo-Japanese Alliance and seized German-held Chinese territory in Shandong province and German Pacific island possessions. The war produced the 1915 Twenty-One Demands, an attempted expansion of Japanese influence over China that international opposition partially reversed but that established the Japanese pattern of coercive diplomacy against China.
 
@@ -164,6 +164,7 @@ The sixth article of the series treats Soviet forced industrialization, the spec
 - [Related Post, Framing and the Preindustrial World][related_post_industrialization_framing]
 - [Bassino, Jean-Pascal, Broadberry, Stephen, Fukao, Kyoji, Gupta, Bishnupriya, and Takashima, Masanori, Japan and the Great Divergence, 730-1874, Explorations in Economic History 72, 2019][research_bassino_japan_divergence]
 - [Bassino, Jean-Pascal and Ma, Debin, Japanese unskilled wages in international perspective, 1741-1913, Research in Economic History 23, 2005][research_bassino_ma_wages]
+- [Kohli, Atul, Where do high growth political economies come from, The Japanese lineage of Korea's developmental state, World Development 22, 1994][research_kohli_korea]
 - [Squicciarini, Mara P. and Voigtländer, Nico, Human capital and industrialization, Evidence from the Age of Enlightenment, Quarterly Journal of Economics 130, 2015][research_squicciarini_voigtlander_human_capital]
 
 [book_beasley_meiji_restoration]: https://openlibrary.org/works/OL5085847W/The_Meiji_Restoration
@@ -175,4 +176,5 @@ The sixth article of the series treats Soviet forced industrialization, the spec
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [research_bassino_japan_divergence]: https://doi.org/10.1016/j.eeh.2018.11.005
 [research_bassino_ma_wages]: https://www.sciencedirect.com/science/article/pii/S036332680523006X
+[research_kohli_korea]: https://doi.org/10.1016/0305-750X(94)90007-8
 [research_squicciarini_voigtlander_human_capital]: https://doi.org/10.1093/qje/qjv025
