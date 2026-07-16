@@ -69,6 +69,14 @@ The industrial revolution proper unfolded across roughly seventy years and consi
 
 **The revisionist debate on aggregate growth.** The traditional characterization of the industrial revolution as a sudden takeoff was substantially revised by the [Crafts-Harley reconstruction of British output growth][research_crafts_harley_restatement], which finds that aggregate per-capita growth was slower than earlier historians had claimed and that the takeoff was more gradual and more concentrated in specific sectors. The gap between the mechanized sectors and the aggregate economy is now a standard finding of British industrial-revolution economic history. The parallel work of [Feinstein on real wages and living standards][research_feinstein_pessimism] finds that per-capita living standards for the working class rose only modestly during the industrial revolution proper, with substantial gains deferred to the second half of the nineteenth century. The pattern is consistent with the broader observation that industrial-revolution productivity gains initially accrued to capital owners and only later diffused to workers as labor demand rose.
 
+The gap between sectoral and aggregate growth is quantitatively substantial. Let $g_{\text{cotton}}$ denote the per-worker output growth rate in the mechanized cotton sector during the industrial revolution proper. A per-worker output multiplier of roughly one hundred across the sixty years from 1770 to 1830 corresponds to a continuous growth rate
+
+$$
+g_{\text{cotton}} = \frac{\ln 100}{60} \approx 7.7\% \text{ per year}
+$$
+
+which exceeds the aggregate British per-capita growth rate of the same period by roughly a factor of five to ten. The gap between sectoral takeoff rates and aggregate rates is a general property of industrial revolutions and appears across every subsequent case the series treats. The follower economies that catch up successfully do so by concentrating the takeoff sectors, at least temporarily, rather than by matching the aggregate leading-economy rate across all sectors simultaneously.
+
 ## Colonial Capital and the Cotton Complex
 
 The industrial revolution unfolded inside a global system Britain had already partially assembled through the preceding century of commercial expansion, and the industrial system consumed and produced within that global system rather than in isolation. This section treats the colonial dimension not as a moral appendix to the industrial narrative but as an inseparable part of the industrial system.
@@ -147,7 +155,13 @@ The contemporary British position, as of 2026, is legible as the residue of the 
 
 **Alliance-locked security posture.** Britain has maintained the transatlantic alliance as the primary axis of its foreign and defense policy since the middle of the twentieth century. The North Atlantic Treaty Organization membership, the special relationship with the United States, and the Five Eyes intelligence arrangement together locate Britain firmly within the Western security architecture. The Brexit vote of 2016 modified the European economic relationship but did not modify the transatlantic security relationship.
 
-**Sterling and reserve-currency remnants.** The British pound remains one of the world's major currencies, though its share of global central-bank reserves has fallen from over sixty percent in 1900 to approximately four to five percent in the 2020s. The residual reserve-currency status is one measure of first-mover legacy that continues to erode measurably.
+**Sterling and reserve-currency remnants.** The British pound remains one of the world's major currencies, though its share of global central-bank reserves has fallen from over sixty percent in 1900 to approximately four to five percent in the 2020s. The residual reserve-currency status is one measure of first-mover legacy that continues to erode measurably. The specific decay pattern illustrates the general property that first-mover monetary legacies erode on multi-decade timescales after the underlying industrial and geopolitical base has shifted. Let $S_{\text{sterling}}(t)$ denote the share of world central-bank reserves held in sterling. The observed pattern from the early-twentieth-century peak to the mid-2020s share is consistent with the exponential-decay form
+
+$$
+S_{\text{sterling}}(t) = S_0 \cdot e^{-\lambda t}
+$$
+
+with $\lambda$ producing a half-life on the order of twenty to thirty years across the twentieth century. The empirical pattern of reserve-currency inertia followed by roughly exponential decline has been documented in the [Eichengreen and Flandreau primary reconstruction of the sterling-to-dollar reserve transition][research_eichengreen_flandreau_dollar]. The dollar reserve share exhibits similar inertial properties around its current dominance, and the twelfth article of the series returns to the reserve-currency question in the contemporary-extrapolation context.
 
 **Deindustrialized economy.** British manufacturing accounts for approximately nine to ten percent of gross domestic product as of the mid-2020s, down from over thirty percent at mid-twentieth-century peak. The specific pattern of first-industrializer followed by first-deindustrializer is a structural consequence of the first-mover position, and it is the position from which Britain occupies its contemporary economic role.
 
@@ -199,6 +213,7 @@ The subsequent ten articles of the series treat later industrialization waves. E
 - [Wrigley, E. A., Energy and the English Industrial Revolution, Cambridge University Press, 2010][book_wrigley_energy]
 - [Related Post, Framing and the Preindustrial World][related_post_industrialization_framing]
 - [Crafts, N. F. R. and Harley, C. Knick, Output growth and the British industrial revolution, A restatement of the Crafts-Harley view, Economic History Review 45, 1992][research_crafts_harley_restatement]
+- [Eichengreen, Barry and Flandreau, Marc, The rise and fall of the dollar, or when did the dollar replace sterling as the leading reserve currency, European Review of Economic History 13, 2009][research_eichengreen_flandreau_dollar]
 - [Feinstein, Charles H., Pessimism perpetuated, Real wages and the standard of living in Britain during and after the industrial revolution, Journal of Economic History 58, 1998][research_feinstein_pessimism]
 - [Karaman, K. Kıvanç and Pamuk, Şevket, Different Paths to the Modern State in Europe, The Interaction Between Warfare, Economic Structure, and Political Regime, American Political Science Review 107, 2013][research_karaman_pamuk_modern_state]
 - [North, Douglass C. and Weingast, Barry R., Constitutions and Commitment, The Evolution of Institutional Governing Public Choice in Seventeenth-Century England, Journal of Economic History 49, 1989][research_north_weingast_constitutions]
@@ -212,6 +227,7 @@ The subsequent ten articles of the series treat later industrialization waves. E
 [book_wrigley_energy]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-history/energy-and-english-industrial-revolution
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [research_crafts_harley_restatement]: https://doi.org/10.1111/j.1468-0289.1992.tb01311.x
+[research_eichengreen_flandreau_dollar]: https://doi.org/10.1017/S1361491609990153
 [research_feinstein_pessimism]: https://doi.org/10.1017/S0022050700021100
 [research_karaman_pamuk_modern_state]: https://doi.org/10.1017/S0003055413000312
 [research_north_weingast_constitutions]: https://doi.org/10.1017/S0022050700009451
