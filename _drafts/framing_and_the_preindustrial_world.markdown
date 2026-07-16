@@ -326,24 +326,24 @@ The remaining eleven articles walk the waves in order. The framework introduced 
 - [Scheidel, Walter and Friesen, Steven J., The Size of the Economy and the Distribution of Income in the Roman Empire, Journal of Roman Studies 99, 2009][research_scheidel_friesen_roman]
 
 [book_acemoglu_robinson_why_nations_fail]: https://www.penguinrandomhouse.com/books/205697/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/
-[book_allen_british_ir]: https://www.cambridge.org/core/books/british-industrial-revolution-in-global-perspective/6D68F3E6C6316EDE9B6B4A0D7B4D5876
-[book_bairoch_myths]: https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684249.html
+[book_allen_british_ir]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-history/british-industrial-revolution-global-perspective
+[book_bairoch_myths]: https://openlibrary.org/books/OL1424040M/Economics_and_world_history
 [book_chang_ladder]: https://anthempress.com/kicking-away-the-ladder-pb
 [book_clark_farewell_to_alms]: https://press.princeton.edu/books/paperback/9780691141282/a-farewell-to-alms
 [book_findlay_orourke_power_and_plenty]: https://press.princeton.edu/books/paperback/9780691143279/power-and-plenty
 [book_gerschenkron_backwardness]: https://www.hup.harvard.edu/books/9780674226005
-[book_kennedy_great_powers]: https://www.penguinrandomhouse.com/books/163061/the-rise-and-fall-of-the-great-powers-by-paul-kennedy/
+[book_kennedy_great_powers]: https://www.penguinrandomhouse.com/books/302733/the-rise-and-fall-of-the-great-powers-by-paul-kennedy/
 [book_landes_wealth]: https://wwnorton.com/books/9780393318883
 [book_maddison_world_economy]: https://www.oecd.org/en/publications/the-world-economy_9789264022621-en.html
 [book_malthus_essay]: https://oll.libertyfund.org/titles/malthus-an-essay-on-the-principle-of-population-1798-1st-ed
 [book_pomeranz_great_divergence]: https://press.princeton.edu/books/paperback/9780691090108/the-great-divergence
-[book_rostow_stages]: https://www.cambridge.org/core/books/stages-of-economic-growth/3E88F32B5AC12F00EEDF74F31B34F49B
+[book_rostow_stages]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-development-and-growth/stages-economic-growth-non-communist-manifesto-3rd-edition
 [book_studwell_how_asia_works]: https://groveatlantic.com/book/how-asia-works/
-[book_wrigley_continuity]: https://www.cambridge.org/core/books/continuity-chance-and-change/2A5AE3F0EA6E5C3F5637C7F35BC65EEB
-[book_wrigley_energy]: https://www.cambridge.org/core/books/energy-and-the-english-industrial-revolution/D0F55A7C46CE84B7C69B84C79F86F53A
+[book_wrigley_continuity]: https://www.cambridge.org/us/universitypress/subjects/history/british-history-1450-1750/continuity-chance-and-change-character-industrial-revolution-england
+[book_wrigley_energy]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-history/energy-and-english-industrial-revolution
 [ref_maddison_project]: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
 [related_post_first_mover_advantage]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
-[related_post_space_force]: {% post_url 2026-02-28-what_does_the_united_states_space_force_do %}
+[related_post_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [research_ajr_colonial_origins]: https://doi.org/10.1257/aer.91.5.1369
 [research_ajr_reversal_of_fortune]: https://doi.org/10.1162/003355302320935025
 [research_allen_china_wages]: https://doi.org/10.1111/j.1468-0289.2010.00515.x
