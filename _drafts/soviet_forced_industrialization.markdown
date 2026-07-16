@@ -85,6 +85,14 @@ The 1945-1970 Cold War period was the peak of Soviet industrial performance in c
 
 **Second-superpower position.** By the mid-1970s the Soviet Union occupied the specifically second-superpower position in the global order, with a nuclear arsenal roughly matching the American arsenal, a global-projection military including substantial naval and airlift capacity, an alliance system covering most of the socialist world, and an economy that Western estimates placed at approximately fifty to sixty percent of American aggregate output. The specific Soviet position at the mid-1970s peak represented the successful conversion of the forced-industrialization base into the global-superpower geopolitical position the Soviet leadership had sought since the 1920s.
 
+The Soviet catch-up trajectory can be formalized as a per-capita convergence ratio against the leading industrial economy. Let $R(t)$ denote the ratio of Soviet to American per-capita output. The observed trajectory follows
+
+$$
+R(t) = \frac{Y_{\text{USSR,pc}}(t)}{Y_{\text{US,pc}}(t)}
+$$
+
+with $R(1928) \approx 0.20$ at the beginning of forced industrialization, $R(1975) \approx 0.40$ at the peak of Soviet catch-up, and $R(1990) \approx 0.30$ on the eve of dissolution. The specific rise-peak-decline trajectory distinguishes the Soviet case from the Gerschenkron continental European follower cases treated in the third article of the series, which achieved sustained convergence without the specifically Soviet reversal. The 1975 peak-and-decline is the empirical signature of the structural stagnation mechanisms treated in the following section, and the failure to sustain convergence beyond the peak is one of the load-bearing diagnostic features of the specifically Soviet variant of state-led catch-up development.
+
 ## Stagnation and Structural Weakness
 
 Soviet economic growth decelerated substantially during the 1970s and into the 1980s. The [Easterly and Fischer reconstruction of the Soviet economic decline][research_easterly_fischer_decline] documents that aggregate Soviet output growth fell from approximately five percent per year during the 1950s and 1960s to approximately two percent during the 1970s and approaching zero during the late 1980s. The specific pattern of growth deceleration is one of the central empirical puzzles of comparative economic history and is variously attributed to declining returns to capital accumulation, the specific inefficiencies of centralized-planning coordination at large economic scale, the failure of the Soviet system to develop the specifically consumer-goods and information-technology sectors that late-twentieth-century productivity growth depended upon, and the sustained burden of Cold War military competition on the Soviet economy.
