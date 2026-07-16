@@ -57,7 +57,7 @@ with $L_0$ representing the 1873 initial enrollment rate, $t_0 = 1873$, and $\ka
 
 **The 1889 Constitution and legal system.** The Meiji government promulgated a constitution on Prussian-influenced design that established a limited-monarchy parliamentary system with substantial imperial and military prerogatives. The specific constitutional design produced political stability across the following decades while preserving substantial military autonomy that would later prove decisive in the 1930s march toward war. The commercial-legal infrastructure adopted German commercial-code principles adapted to Japanese conditions.
 
-**The 1911 tariff autonomy.** Successive Meiji governments negotiated the revision of the unequal treaties across the four decades between 1868 and 1911, achieving full tariff autonomy in 1911. The specific delay meant that the first four decades of Meiji industrialization proceeded under artificially low tariffs on foreign imports, imposing genuine competitive pressure on Japanese infant industries but also limiting the specifically protectionist industrial-policy tools that Continental European followers and the United States had used.
+**The 1911 tariff autonomy.** Successive Meiji governments negotiated the revision of the unequal treaties across the four decades between 1868 and 1911, achieving full tariff autonomy in 1911. The specific delay meant that the first four decades of Meiji industrialization proceeded under artificially low tariffs on foreign imports, imposing genuine competitive pressure on Japanese infant industries but also limiting the specifically protectionist industrial-policy tools that continental European followers and the United States had used.
 
 ## State-led Industrial Development and the Zaibatsu
 
