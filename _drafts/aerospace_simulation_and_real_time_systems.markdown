@@ -31,13 +31,23 @@ where $\mathbf{v}$ is the aircraft velocity vector, $\boldsymbol{\omega}$ is the
 
 The specific value of analog simulation was that it could reproduce the closed-loop pilot-aircraft dynamics in a way that trained the pilot's control-response habits for the specific aircraft being simulated. This required accurate aerodynamic force and moment functions, which were obtained from flight test of the actual aircraft and encoded in the analog simulator as pre-cut function-generator cams or diode-function-generator networks. Programming an analog simulator for a new aircraft therefore required physical rework of the machine rather than software modification.
 
+The fundamental accuracy limit of analog simulation was set by drift and noise in the operational amplifiers and function generators. For a chain of $n$ integrators each contributing per-second error $\epsilon_0$, the accumulated error over simulation time $T$ scales as
+
+$$\epsilon_{\text{analog}}(T) \approx \epsilon_0 \sqrt{n} \cdot T$$
+
+under the same uncorrelated-error assumption used in the analog differential analyzer treatment in [A238][related_post_a238_pre_war_computing]. For typical simulator integrator counts of order 10 and per-integrator error of order 0.01 percent per second, the accumulated error reaches one percent within roughly 30 seconds of simulated flight, which limited analog simulator utility for long-duration missions and drove the digital transition of the late 1950s.
+
 ## Digital Flight Simulation
 
 The transition from analog to digital flight simulation began in the late 1950s with the availability of digital computers fast enough to solve the aircraft equations of motion at rates matching the pilot's perceptual and control bandwidth. The pilot control-input bandwidth is approximately 2 to 5 Hertz, and smooth motion perception requires simulator updates at approximately
 
 $$f_{\text{sim}} \gtrsim 20 \text{ Hz}$$
 
-with instrument display updates at 20 to 30 Hertz and visual system updates that later became the constraint at 30 to 60 Hertz. The digital computer had to solve the aircraft equations of motion, transform coordinates for display generation, and drive the motion platform within a computational budget of approximately 30 to 50 milliseconds per update cycle. The Whirlwind computer treated in [A240][related_post_a240_early_cold_war_sage] met this budget for the specific case of the Cape Cod System air defense demonstration, and subsequent digital computers of the late 1950s and 1960s met it for progressively more sophisticated flight simulations.
+with instrument display updates at 20 to 30 Hertz and visual system updates that later became the constraint at 30 to 60 Hertz. The digital computer had to solve the aircraft equations of motion, transform coordinates for display generation, and drive the motion platform within a computational budget of approximately 30 to 50 milliseconds per update cycle. The total end-to-end transport delay from pilot control input to perceived response summed the dynamics computation, display generation, and motion platform actuation delays as
+
+$$T_{\text{transport}} = T_{\text{dynamics}} + T_{\text{display}} + T_{\text{motion}} \lesssim T_{\text{pilot tolerance}}$$
+
+with $T_{\text{pilot tolerance}}$ of order 100 to 150 milliseconds above which pilot control quality degrades noticeably and above which pilot-induced oscillation risk rises. Meeting this budget across all components was the specific engineering discipline that distinguished production flight simulators from research prototypes. The Whirlwind computer treated in [A240][related_post_a240_early_cold_war_sage] met this budget for the specific case of the Cape Cod System air defense demonstration, and subsequent digital computers of the late 1950s and 1960s met it for progressively more sophisticated flight simulations.
 
 The Link Company, later renamed Singer-Link and then CAE-Link after successive acquisitions, produced digital flight simulators throughout the 1960s and 1970s using dedicated digital computers built specifically for the flight-simulation application. Later generations used general-purpose minicomputers from Digital Equipment Corporation hereafter DEC and mainframes from International Business Machines Corporation hereafter IBM. The commercial airline industry adopted digital flight simulators aggressively in the 1970s and 1980s as regulatory authorities began to accept simulator training hours as credit toward flight-time requirements for pilot licensing, which produced a substantial commercial market that further accelerated simulator technology development.
 
@@ -49,7 +59,11 @@ Flight simulation for pilot training addresses the human element of the aviation
 
 The specific value of hardware-in-the-loop testing is that it exercises the actual flight equipment under repeatable conditions that flight test cannot economically or safely provide. Fault conditions that occur once per million operating hours in flight can be induced deliberately in the laboratory. Edge cases in the flight envelope can be exercised without risk to aircraft or crew. Software changes can be validated against exhaustive input sequences before flight test approval. The economics of hardware-in-the-loop testing favor its use for every flight software change on modern aerospace platforms, with flight test reserved for cases where the physical aerodynamics or engine behavior cannot be adequately simulated.
 
-The hardware-in-the-loop configuration imposes strict real-time constraints on the simulation. The simulated dynamics must be updated at rates matching or exceeding the actual sensor and actuator bandwidths, typically hundreds to thousands of Hertz. The end-to-end loop timing budget is
+The hardware-in-the-loop configuration imposes strict real-time constraints on the simulation. The simulated dynamics must be updated at rates matching or exceeding the actual sensor and actuator bandwidths, typically hundreds to thousands of Hertz. The Nyquist-Shannon sampling theorem sets a lower bound on the simulation update rate as
+
+$$f_{\text{sim}} \ge 2 \cdot f_{\text{bandwidth}}$$
+
+for the highest-frequency dynamic content $f_{\text{bandwidth}}$ that the simulation must reproduce with fidelity, with practical implementations targeting factors of 5 to 10 above the Nyquist minimum to avoid aliasing artifacts in reconstructed signals. The end-to-end loop timing budget is
 
 $$T_{\text{loop}} = T_{\text{sensor sim}} + T_{\text{signal path}} + T_{\text{controller}} + T_{\text{actuator sim}} + T_{\text{dynamics}}$$
 
@@ -63,7 +77,11 @@ The engineering distinction between a real-time operating system and a general-p
 
 $$T_{\text{worst-case}} = \sup \{T : P(T) > 0\} \le T_{\text{deadline}}$$
 
-for all admissible workloads, whereas a general-purpose operating system provides only a bound on the mean or a quantile response time. The engineering difference between average-case and worst-case response guarantees is what makes real-time operating systems suitable for safety-critical aerospace applications where deadline miss can cause catastrophic outcomes.
+for all admissible workloads, whereas a general-purpose operating system provides only a bound on the mean or a quantile response time. A closely related property is jitter, the variation in response time across successive invocations of the same task, bounded by
+
+$$J = \sup T - \inf T \le J_{\text{max}}$$
+
+with $J_{\text{max}}$ set by the specific application requirement. Low jitter is essential for control loops where periodic sampling must occur at consistent intervals to preserve the mathematical assumptions of the discrete-time control design. Real-time operating systems for aerospace applications typically target jitter bounds in the range of microseconds to tens of microseconds against periodic tasks with periods in the range of milliseconds to hundreds of milliseconds. The engineering difference between average-case and worst-case response guarantees is what makes real-time operating systems suitable for safety-critical aerospace applications where deadline miss can cause catastrophic outcomes.
 
 The specific real-time operating systems used in production aerospace applications are typically qualified against industry consensus standards including the ARINC 653 partitioning standard and the process-based standards treated in a later article of this series. Real-time operating system selection for a specific aerospace program depends on the assurance level required for the safety-critical partition, the specific processor family supported, and the vendor's long-term support commitment for the specific product configuration.
 
@@ -75,7 +93,15 @@ The specific technical innovation that made SIMNET feasible was the dead-reckoni
 
 $$B_{\text{network}} \le N_{\text{entities}} \cdot f_{\text{update}} \cdot S_{\text{packet}} \cdot (1 - \eta_{\text{dead-reckoning}})$$
 
-where $\eta_{\text{dead-reckoning}}$ is the fraction of updates suppressed by successful extrapolation. Typical dead-reckoning efficiency exceeds 90 percent for ground-combat entities and 70 percent for aircraft, giving network bandwidth reductions of one to two orders of magnitude compared with naive full-state transmission.
+where $\eta_{\text{dead-reckoning}}$ is the fraction of updates suppressed by successful extrapolation. Typical dead-reckoning efficiency exceeds 90 percent for ground-combat entities and 70 percent for aircraft, giving network bandwidth reductions of one to two orders of magnitude compared with naive full-state transmission. For constant-velocity extrapolation of an entity with actual acceleration $a$ over update interval $\Delta t$, the extrapolation position error grows quadratically as
+
+$$\epsilon_{\text{DR}}(\Delta t) = \frac{1}{2} a \, (\Delta t)^2$$
+
+which sets the maximum time between full-state updates for a given position-error threshold. For an aircraft under 1 g maneuver acceleration and a 1-meter position-error threshold, the update interval is bounded above by approximately 0.5 second, matching the empirical dead-reckoning update rates observed in operational DIS exercises. Coordinated multi-participant exercises additionally require time synchronization across participating sites with clock offset
+
+$$|t_i - t_j| \le \epsilon_{\text{sync}}$$
+
+for all site pairs $(i, j)$, with $\epsilon_{\text{sync}}$ typically 10 to 100 milliseconds for training exercises and one millisecond or less for engineering evaluation exercises that use the simulation output for control-system analysis.
 
 The SIMNET protocols were standardized as the Distributed Interactive Simulation hereafter DIS standard, published as IEEE 1278 in 1993, and later evolved into the High Level Architecture hereafter HLA standard, published as IEEE 1516 in 2000. Both standards remain in operational use for defense and civilian distributed simulation, with HLA more common for engineering simulation and DIS more common for legacy training applications. The Simulation Interoperability Standards Organization hereafter SISO maintains both standards and coordinates their continued development.
 
