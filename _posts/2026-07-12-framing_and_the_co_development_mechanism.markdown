@@ -49,7 +49,7 @@ with $T_M$ approximately 18 to 24 months for transistor density over the four de
 
 ## The Substrate: Semiconductor Manufacturing Under Defense Demand
 
-Any physical substantiation of $S(t)$ requires a physical medium in which computation happens. Between roughly 1946 and 1965 the medium was vacuum tubes, later transistors, later integrated circuits. Each transition was driven partly by aerospace and defense requirements. Vacuum tube computers reached hundreds of kilowatts of power consumption and mean times between failure measured in hours, which was unacceptable for airborne or spaceborne use. The transistor, invented at Bell Telephone Laboratories in December 1947 per [Bardeen Brattain Shockley 1948][research_bardeen_brattain_shockley_1948], reduced power consumption by three orders of magnitude and reliability by comparable factors. The integrated circuit followed in 1958 at Texas Instruments under [Kilby][ref_kilby_ic_patent] and independently at Fairchild Semiconductor under Noyce.
+Any physical substantiation of $S(t)$ requires a physical medium in which computation happens. Between roughly 1946 and 1965 the medium was vacuum tubes, later transistors, later integrated circuits. Each transition was driven partly by aerospace and defense requirements. Vacuum tube computers reached hundreds of kilowatts of power consumption and mean times between failure measured in hours, which was unacceptable for airborne or spaceborne use. The stored-program architecture that vacuum-tube and later solid-state computers all implemented was established in [von Neumann 1945][research_von_neumann_edvac_1945], the First Draft of a Report on the EDVAC, which became the reference document for essentially every general-purpose computer design that followed. The transistor, invented at Bell Telephone Laboratories in December 1947 per [Bardeen Brattain Shockley 1948][research_bardeen_brattain_shockley_1948], reduced power consumption by three orders of magnitude and reliability by comparable factors. The integrated circuit followed in 1958 at Texas Instruments under [Kilby][ref_kilby_ic_patent] and independently at Fairchild Semiconductor under [Noyce][ref_noyce_ic_patent], whose 1961 patent for the unitary planar-process integrated circuit provided the manufacturing template that the subsequent industry followed.
 
 The Apollo Guidance Computer used integrated circuits from a market that consisted almost entirely of the Apollo program itself between 1962 and 1965, per [Mindell 2008][book_mindell_digital_apollo]. Fairchild sold Apollo the entire early production run of its three-input logical NOR gate at prices that would not have been sustainable without government commitment. The Minuteman intermediate range ballistic missile likewise absorbed early integrated circuit production for its guidance computer. The commercial personal computing wave of the late 1970s and early 1980s inherited a mature semiconductor manufacturing base that had been paid for by aerospace and defense programs of the preceding two decades. This is one of the specific coupling artifacts the series will name repeatedly.
 
@@ -65,6 +65,8 @@ $$C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}$$
 
 which for $\lambda \approx 0.25$ and $T_M \approx 2$ years yields approximately an 8.5 percent annual cost reduction per transistor over the four decades of interest. This trajectory is what turned computing from a capital-intensive institutional resource into a commodity available to individual consumers, and it is what allowed aerospace to progressively substitute software for mechanical and hydraulic subsystems as the article's later chapters describe.
 
+The physical basis for Moore's density scaling is the metal-oxide-semiconductor field-effect transistor scaling rule established in [Dennard Gaensslen Yu Rideout Bassous LeBlanc 1974][research_dennard_1974]. Under Dennard scaling, reducing device dimensions by a factor $\kappa$ while holding electric field constant reduces gate delay by the same factor, doubles device density per unit area for $\kappa^2$, and holds power density constant across generations. Dennard scaling held from the mid-1970s through roughly 2005 when leakage currents at very small feature sizes broke the constant-field assumption, forcing the industry into the multi-core era. The direct-current power breakdown of Dennard scaling is one of the transitions that separates the early digital era from the contemporary computing regime, and it is one of the specific pressures the contemporary snapshot article treats.
+
 ## The Real-Time Constraint
 
 Aerospace applications introduce a hard constraint that consumer computing did not face until the 1990s. A flight-control loop must complete its computation within a time bound set by the vehicle dynamics.
@@ -73,13 +75,15 @@ $$T_{\text{response}} \le T_{\text{dynamics}}$$
 
 For a fixed-wing aircraft with pitch dynamics timescale of order 200 milliseconds, the loop must close within about 20 milliseconds to avoid pilot-induced or software-induced oscillation, giving one order of magnitude of margin. For a launch vehicle with roll dynamics measured in tens of milliseconds, the loop must close within a few milliseconds. For an atmospheric reentry vehicle, both the dynamics and the response requirement are still tighter. Missing the deadline is not a performance degradation. It is a catastrophic failure mode.
 
-This constraint drove several early computing developments. Interrupt-driven scheduling, first fielded at scale in the [Whirlwind][research_everett_whirlwind_1951] computer at the Massachusetts Institute of Technology hereafter MIT under Forrester and Everett, was invented specifically to handle radar returns at deterministic latency. Real-time operating systems as a distinct discipline emerged from air defense and aerospace applications, per [Liu 2000][book_liu_realtime_systems] and the treatment in [Redmond and Smith 2000][book_redmond_smith_sage] of the SAGE architecture. Priority-based scheduling algorithms, deadline monotonic analysis, and rate monotonic analysis were all developed in a research thread that traces directly to aerospace requirements. Software Version 1 of the Apollo Guidance Computer executive system, described in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965], implemented cooperative multitasking specifically because the guidance loop had to close at 20 Hz with hard deadlines.
+This constraint drove several early computing developments. Interrupt-driven scheduling, first fielded at scale in the [Whirlwind][research_everett_whirlwind_1951] computer at the Massachusetts Institute of Technology hereafter MIT under Forrester and Everett, was invented specifically to handle radar returns at deterministic latency. Real-time operating systems as a distinct discipline emerged from air defense and aerospace applications, per [Liu 2000][book_liu_realtime_systems] and the treatment in [Redmond and Smith 2000][book_redmond_smith_sage] of the SAGE architecture. The primary architectural description of the SAGE data-processing system was published in [Everett Zraket Benington 1957][research_everett_zraket_benington_1957] at the Eastern Joint Computer Conference and remains the canonical technical account. Priority-based scheduling algorithms, deadline monotonic analysis, and rate monotonic analysis were all developed in a research thread that traces directly to aerospace requirements. Software Version 1 of the Apollo Guidance Computer executive system, described in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965], implemented cooperative multitasking specifically because the guidance loop had to close at 20 Hz with hard deadlines.
 
 Rate monotonic scheduling gives a sufficient but not necessary admission-control test. Where the utilization bound rejects a task set that is in fact schedulable, response time analysis per [Joseph and Pandya 1986][research_joseph_pandya_1986] and [Audsley Burns Richardson Tindell Wellings 1993][research_audsley_burns_richardson_tindell_wellings_1993] gives an exact test. For a task $i$ with computation time $C_i$ and period $T_i$ preempted by higher-priority tasks, the worst-case response time $R_i$ is the smallest fixed point of
 
 $$R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j$$
 
 where $\text{hp}(i)$ is the set of tasks with higher priority than $i$. Task $i$ meets its deadline $D_i$ if and only if $R_i \le D_i$. Response time analysis is the standard admission-control tool for modern avionics scheduling and remains cited in contemporary safety-critical software standards.
+
+Both rate monotonic and response time analysis assume that a higher-priority task preempts a lower-priority task at every opportunity. When a lower-priority task holds a shared resource that a higher-priority task needs, the higher-priority task blocks and the intended priority ordering inverts, producing the priority-inversion pathology that the [Mars Pathfinder][ref_mars_pathfinder_priority_inversion] mission famously encountered in 1997. The priority inheritance protocols per [Sha Rajkumar Lehoczky 1990][research_sha_rajkumar_lehoczky_1990] resolve the pathology by raising the priority of the resource holder to that of the highest-priority blocked task, bounding the blocking time and restoring predictable scheduling behavior. Priority inheritance is now standard in aerospace real-time kernels and is one of the specific engineering practices the co-development coupling produced.
 
 ## The Reliability Constraint
 
@@ -95,7 +99,7 @@ where $R$ is the reliability of a single module and the voter is assumed perfect
 
 $$R_{\text{NMR}} = \sum_{i=k+1}^{N} \binom{N}{i} R^i (1 - R)^{N-i}$$
 
-which for the Space Shuttle four-plus-one configuration under the assumption of independent random failures gives high reliability against uncorrelated failure but does not protect against correlated failures. The specific value of the four-plus-one configuration is that it tolerates one arbitrary failure and one detected failure without loss of function, which fits the mission profile better than a symmetric five-way voter would.
+which for the Space Shuttle four-plus-one configuration under the assumption of independent random failures gives high reliability against uncorrelated failure but does not protect against correlated failures. The specific value of the four-plus-one configuration is that it tolerates one arbitrary failure and one detected failure without loss of function, which fits the mission profile better than a symmetric five-way voter would. The independence assumption is not automatic. [Knight and Leveson 1986][research_knight_leveson_1986] showed empirically in a controlled multiversion programming study that independently developed program versions exhibit statistically correlated failures at rates substantially higher than the independence assumption predicts. The result is one of the load-bearing constraints on reliable software architecture and is one of the specific reasons contemporary safety-critical software programs do not treat multiversion programming as an unqualified path to arbitrary reliability targets.
 
 Verification effort for aerospace software scales super-linearly with software size, per empirical data summarized in [Boehm 1981][book_boehm_software_engineering_economics] and later work on software cost estimation. The verification effort $V$ measured in engineering hours obeys approximately
 
@@ -137,13 +141,13 @@ The fourth axis is networking and distribution. What communication patterns did 
 
 $$\text{BDP} = B \cdot T_{\text{RTT}}$$
 
-for bandwidth $B$ and round-trip time $T_{\text{RTT}}$ gives the amount of data in flight on the network at any moment, and this quantity sets the buffering, retransmission, and acknowledgment strategy the protocol must use. The upper bound on information rate for a channel of bandwidth $B$ and signal-to-noise ratio $\mathrm{SNR}$, established by [Shannon 1948][research_shannon_1948] and [Shannon 1949][research_shannon_1949], is
+for bandwidth $B$ and round-trip time $T_{\text{RTT}}$ gives the amount of data in flight on the network at any moment, and this quantity sets the buffering, retransmission, and acknowledgment strategy the protocol must use. Queueing-theoretic analysis of packet-switched networks was established in [Kleinrock 1961][research_kleinrock_1961] and became the mathematical foundation on which the ARPANET was later designed, per the direct account in [Roberts and Wessler 1970][research_roberts_wessler_1970]. The upper bound on information rate for a channel of bandwidth $B$ and signal-to-noise ratio $\mathrm{SNR}$, established by [Shannon 1948][research_shannon_1948] and [Shannon 1949][research_shannon_1949], is
 
 $$C = B \log_2(1 + \mathrm{SNR})$$
 
 which sets the fundamental limit on how much information can move across any specific channel. Both quantities appear repeatedly in air defense radar link engineering, mission control telemetry design, and modern software-defined radio for aerospace platforms.
 
-The fifth axis is software engineering as a discipline. What programming languages, development methodologies, and organizational structures did the program require? Assembly language on the Apollo Guidance Computer, HAL/S on the Space Shuttle, Ada on the Boeing 777, and mixed language stacks on contemporary programs all fall on this axis. Lines of code per developer year and defect density at delivery are the relevant units.
+The fifth axis is software engineering as a discipline. What programming languages, development methodologies, and organizational structures did the program require? Assembly language on the Apollo Guidance Computer, HAL/S on the Space Shuttle, Ada on the Boeing 777, and mixed language stacks on contemporary programs all fall on this axis. Lines of code per developer year and defect density at delivery are the relevant units. Modular decomposition as an organizing principle for large software systems, formalized in [Parnas 1972][research_parnas_1972], became one of the load-bearing techniques the discipline adopted to control the Brooks communication overhead within aerospace programs.
 
 The sixth axis is semiconductor economics and dual-use. What semiconductor manufacturing capability did the program require, what fraction of the market did the program constitute at its start, and how did the resulting capability spill into subsequent commercial use? Apollo, Minuteman, SAGE, and modern radiation-hardened parts programs all fall on this axis. Total procurement dollars and subsequent commercial market size derived from the manufacturing base are the relevant units.
 
@@ -151,7 +155,7 @@ The sixth axis is semiconductor economics and dual-use. What semiconductor manuf
 
 Before roughly 1935 the co-development pair did not exist because neither party existed in modern form. Aerospace had been a working discipline since the [Wright brothers][ref_wright_brothers_1903] first controlled powered flight on 17 December 1903, but computing existed only in the form of mechanical calculators, tabulating machines per [Hollerith][ref_hollerith_1889]'s 1889 patent, differential analyzers per [Bush 1931][research_bush_1931], and human computers organized in bureaus that computed by hand. The word computer meant a person, typically a woman, who performed calculations under the direction of a supervising mathematician or engineer.
 
-Ballistic table computation was the largest single application of these human computer bureaus. Firing tables for artillery pieces required numerical integration of the equations of exterior ballistics over dozens of range and elevation combinations, per angle, per meteorological condition. A single firing table required roughly 1,500 trajectories, and each trajectory required roughly 750 multiplications and comparable additions. During the First World War the United States Army Ordnance Department employed dozens of human computers to produce these tables under [Moulton][research_moulton_1926] at the Aberdeen Proving Ground.
+Ballistic table computation was the largest single application of these human computer bureaus. Firing tables for artillery pieces required numerical integration of the equations of exterior ballistics over dozens of range and elevation combinations, per angle, per meteorological condition. A single firing table required roughly 1,500 trajectories, and each trajectory required roughly 750 multiplications and comparable additions. During the First World War the United States Army Ordnance Department employed dozens of human computers to produce these tables under [Moulton][research_moulton_1926] at the Aberdeen Proving Ground. The organization, working practices, and career trajectories of the human computer bureaus across the eighteenth through twentieth centuries are treated comprehensively in [Grier 2005][book_grier_when_computers_were_human], which remains the standard reference on the human phase of computation preceding the electromechanical and digital eras.
 
 Analog computation was the other precursor. The Cambridge and MIT differential analyzers built between 1927 and 1935 solved ordinary differential equations mechanically at accuracy of about one percent, per [Bromley 1990][research_bromley_1990]. Bush's analyzer at MIT was used for power system stability analysis, ballistic calculation, and atomic structure calculation. Analog computation persisted alongside digital computation into the 1970s in specific aerospace applications, particularly flight simulation and control system design, where it retained cost and speed advantages that digital computation did not overcome until the mid-1960s per [Small 2001][book_small_analog_computing].
 
@@ -213,6 +217,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Bowen 1998][book_bowen_radar_days]
 - [Brooks 1975][book_brooks_mythical_man_month]
 - [Ceruzzi 2003][book_ceruzzi_history_modern_computing]
+- [Grier 2005][book_grier_when_computers_were_human]
 - [Leslie 1993][book_leslie_cold_war_and_american_science]
 - [Liu 2000][book_liu_realtime_systems]
 - [Mindell 2008][book_mindell_digital_apollo]
@@ -230,7 +235,9 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Ford Instrument Mark 1][ref_ford_instrument_mk1]
 - [Hollerith 1889 Patent][ref_hollerith_1889]
 - [Kilby Integrated Circuit Patent][ref_kilby_ic_patent]
+- [Mars Pathfinder Priority Inversion][ref_mars_pathfinder_priority_inversion]
 - [Moore 1965][ref_moore_1965]
+- [Noyce Integrated Circuit Patent][ref_noyce_ic_patent]
 - [RTCA][ref_rtca]
 - [Turing at Bletchley][ref_turing_bletchley]
 - [Wright Brothers 1903][ref_wright_brothers_1903]
@@ -251,17 +258,25 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Bromley 1990][research_bromley_1990]
 - [Bush 1931][research_bush_1931]
 - [Davies 1966][research_davies_1966]
+- [Dennard Gaensslen Yu Rideout Bassous LeBlanc 1974][research_dennard_1974]
 - [Everett Whirlwind 1951][research_everett_whirlwind_1951]
+- [Everett Zraket Benington 1957][research_everett_zraket_benington_1957]
 - [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
 - [Joseph and Pandya 1986][research_joseph_pandya_1986]
+- [Kleinrock 1961][research_kleinrock_1961]
+- [Knight and Leveson 1986][research_knight_leveson_1986]
 - [Lehman 1980][research_lehman_1980]
 - [Liu and Layland 1973][research_liu_layland_1973]
 - [Madden and Rone 1984][research_madden_rone_1984]
 - [Moore and Shannon 1956][research_moore_shannon_1956]
 - [Moulton 1926][research_moulton_1926]
 - [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]
+- [Parnas 1972][research_parnas_1972]
+- [Roberts and Wessler 1970][research_roberts_wessler_1970]
+- [Sha Rajkumar Lehoczky 1990][research_sha_rajkumar_lehoczky_1990]
 - [Shannon 1948][research_shannon_1948]
 - [Shannon 1949][research_shannon_1949]
+- [von Neumann 1945][research_von_neumann_edvac_1945]
 - [von Neumann 1956][research_von_neumann_1956]
 - [Wright 1936][research_wright_1936]
 
@@ -269,6 +284,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [book_bowen_radar_days]: https://openlibrary.org/works/OL2723583W/Radar_days
 [book_brooks_mythical_man_month]: https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000009261
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
+[book_grier_when_computers_were_human]: https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human
 [book_leslie_cold_war_and_american_science]: http://cup.columbia.edu/book/the-cold-war-and-american-science/9780231079587
 [book_liu_realtime_systems]: https://www.pearson.com/en-us/subject-catalog/p/real-time-systems/P200000003296
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
@@ -284,7 +300,9 @@ The next article in the series covers pre-war computing origins and ballistics w
 [ref_ford_instrument_mk1]: https://maritime.org/doc/computermk1/
 [ref_hollerith_1889]: https://patents.google.com/patent/US395782
 [ref_kilby_ic_patent]: https://patents.google.com/patent/US3138743
+[ref_mars_pathfinder_priority_inversion]: https://www.rapitasystems.com/blog/what-really-happened-software-mars-pathfinder-spacecraft
 [ref_moore_1965]: https://www.computerhistory.org/collections/catalog/102770822
+[ref_noyce_ic_patent]: https://patents.google.com/patent/US2981877
 [ref_rtca]: https://www.rtca.org/
 [ref_turing_bletchley]: https://bletchleypark.org.uk/our-story/people/alan-turing
 [ref_wright_brothers_1903]: https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000
@@ -301,16 +319,24 @@ The next article in the series covers pre-war computing origins and ballistics w
 [research_bromley_1990]: https://ieeexplore.ieee.org/document/4638384
 [research_bush_1931]: https://www.jstor.org/stable/24537568
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
+[research_dennard_1974]: https://ieeexplore.ieee.org/document/1050511
 [research_everett_whirlwind_1951]: https://apps.dtic.mil/sti/citations/AD0625649
+[research_everett_zraket_benington_1957]: https://dl.acm.org/doi/10.1145/1455567.1455575
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
 [research_joseph_pandya_1986]: https://academic.oup.com/comjnl/article/29/5/390/533018
+[research_kleinrock_1961]: https://dspace.mit.edu/handle/1721.1/11562
+[research_knight_leveson_1986]: https://ieeexplore.ieee.org/document/1702093
 [research_lehman_1980]: https://ieeexplore.ieee.org/document/1456074
 [research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
 [research_moore_shannon_1956]: https://www.sciencedirect.com/science/article/pii/0016003256905598
 [research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
 [research_nagy_farmer_bui_trancik_2013]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669
+[research_parnas_1972]: https://dl.acm.org/doi/10.1145/361598.361623
+[research_roberts_wessler_1970]: https://dl.acm.org/doi/10.1145/1476936.1477020
+[research_sha_rajkumar_lehoczky_1990]: https://ieeexplore.ieee.org/document/57058
 [research_shannon_1948]: https://ieeexplore.ieee.org/document/6773024
 [research_shannon_1949]: https://ieeexplore.ieee.org/document/1697831
 [research_von_neumann_1956]: https://www.dna.caltech.edu/courses/cs191/paperscs191/VonNeumann56.pdf
+[research_von_neumann_edvac_1945]: https://web.mit.edu/STS.035/www/PDFs/edvac.pdf
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
