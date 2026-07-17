@@ -35,7 +35,7 @@ where $H(K)$ is the Shannon entropy of the key and $H(P)$ is the entropy of the 
 
 ## Bletchley Park and the Bombes
 
-The initial break of Enigma was accomplished by Polish mathematicians at the Cipher Bureau in Warsaw during the 1930s. [Rejewski Zygalski and Różycki][ref_polish_cryptanalysis] used a combination of theoretical analysis, exploitation of German operational procedure that repeated the message key twice at the beginning of each transmission, and an electromechanical device called the Bomba to identify daily rotor settings. The Polish work was transferred to the British Government Code and Cypher School in July 1939, weeks before the war began, and became the foundation for the substantially expanded effort at Bletchley Park.
+The initial break of Enigma was accomplished by Polish mathematicians at the Cipher Bureau in Warsaw during the 1930s. [Rejewski Zygalski and Różycki][ref_polish_cryptanalysis] used a combination of theoretical analysis, exploitation of German operational procedure that repeated the message key twice at the beginning of each transmission, and an electromechanical device called the Bomba to identify daily rotor settings. Rejewski's own primary account of the mathematical methods used, published in [Rejewski 1981][research_rejewski_1981] in the IEEE Annals of the History of Computing after several decades of official secrecy in Poland, remains the standard technical source on the Polish work. The Polish work was transferred to the British Government Code and Cypher School in July 1939, weeks before the war began, and became the foundation for the substantially expanded effort at Bletchley Park.
 
 The British Bombe designed by [Turing][ref_turing_bletchley] and Gordon Welchman and manufactured by the British Tabulating Machine Company under Harold Keen was an electromechanical machine that tested candidate rotor configurations against a suspected plaintext-ciphertext pair called a "crib" and rejected configurations that produced logical contradictions in the plugboard connections. A single Bombe tested approximately
 
@@ -47,11 +47,11 @@ $$R_{\text{Bletchley}} \approx r_{\text{Bombe}} \cdot N_{\text{Bombes}} \cdot T_
 
 sufficient to break the daily Enigma keys within hours of intercepting the first messages, per the accounts in [Hodges 1983][book_hodges_turing_enigma] and in the collected primary documents in [Copeland 2004][book_copeland_essential_turing].
 
-The Bombe was electromechanical rather than electronic and used its rotor-emulation mechanism to search the keyspace by physical rotation of dozens of drum sets. The machines were operated by Wrens of the Women's Royal Naval Service under strict security. Bombe operations directly supported convoy protection in the Battle of the Atlantic by locating German submarines through decrypted position reports, and supported bombing operations by identifying target defenses and weather conditions.
+The Bombe was electromechanical rather than electronic and used its rotor-emulation mechanism to search the keyspace by physical rotation of dozens of drum sets. The machines were operated by Wrens of the Women's Royal Naval Service under strict security. Bombe operations directly supported convoy protection in the Battle of the Atlantic by locating German submarines through decrypted position reports, and supported bombing operations by identifying target defenses and weather conditions. Welchman's own primary account of the Bombe operation and the Hut 6 organization that ran the Enigma attack, published in [Welchman 1982][book_welchman_hut_six_story] after his retirement, was the first public detailed technical description of the Bombe methodology.
 
 ## Lorenz and Colossus
 
-The German High Command used a different cipher for strategic communications between senior commanders. The Lorenz SZ40 and SZ42 cipher machines, known at Bletchley Park as "Tunny," implemented a stream cipher on standard five-bit teleprinter code using twelve keying wheels arranged in three groups. The wheels combined into a key stream that was added modulo two to the plaintext bits according to the Vernam cipher construction
+The German High Command used a different cipher for strategic communications between senior commanders. The Lorenz SZ40 and SZ42 cipher machines, known at Bletchley Park as "Tunny," implemented a stream cipher on standard five-bit teleprinter code using twelve keying wheels arranged in three groups. The wheels combined into a key stream that was added modulo two to the plaintext bits according to the Vernam cipher construction, established by [Vernam 1926][research_vernam_1926] for wire-service teleprinter encryption,
 
 $$c_i = p_i \oplus k_i$$
 
@@ -59,7 +59,7 @@ where $p_i$ is the $i$-th plaintext bit, $k_i$ is the corresponding key-stream b
 
 Cryptanalysis of Tunny was achieved by Bletchley Park mathematicians including [Bill Tutte][ref_tutte_tunny] who reconstructed the machine structure from intercepted traffic without ever seeing the machine itself. The initial machine solution was accomplished by manual and semi-manual methods and by an electromechanical device called the Heath Robinson. The Robinson used two tapes moving at high speed past photocell readers to correlate the intercepted traffic against a candidate wheel setting. Robinson performance was limited by tape stretching, tape breakage, and photocell response time.
 
-[Tommy Flowers][ref_flowers_colossus] of the General Post Office Research Station at Dollis Hill proposed replacing the Robinson tapes and photocells with an all-electronic machine that generated the candidate key stream internally using thermionic valves. Flowers's proposal was received skeptically at Bletchley Park because valve reliability was widely doubted for machines with valve counts above a few hundred. Flowers's telephone-exchange engineering experience gave him confidence that valve reliability could be managed by leaving the valves powered continuously to avoid thermal cycling, which was the dominant failure mode. He committed his own laboratory to building a prototype at his own initiative.
+[Tommy Flowers][ref_flowers_colossus] of the General Post Office Research Station at Dollis Hill proposed replacing the Robinson tapes and photocells with an all-electronic machine that generated the candidate key stream internally using thermionic valves. Flowers's own primary technical account of the Colossus design, published in [Flowers 1983][research_flowers_1983] in the IEEE Annals of the History of Computing after the machine's declassification, describes the specific engineering decisions that made large-scale valve computing operationally reliable. Flowers's proposal was received skeptically at Bletchley Park because valve reliability was widely doubted for machines with valve counts above a few hundred. Flowers's telephone-exchange engineering experience gave him confidence that valve reliability could be managed by leaving the valves powered continuously to avoid thermal cycling, which was the dominant failure mode. He committed his own laboratory to building a prototype at his own initiative.
 
 The Colossus Mark 1 was operational at Bletchley Park in February 1944 with approximately 1,600 valves. The Colossus Mark 2, delivered in June 1944 in time for the Normandy invasion, contained approximately 2,400 valves and processed the intercepted teleprinter tape at 5,000 characters per second, with pattern comparison operating at effectively
 
@@ -69,7 +69,7 @@ through parallel processing across five bit streams corresponding to the five bi
 
 $$Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)$$
 
-where $c_i$ is the intercepted character sequence, $k_i(\Delta)$ is the candidate key stream at wheel offset $\Delta$, and $\oplus$ is the modulo-two operation. Wheel settings that produced statistically anomalous values of $Z$ were candidates for the correct setting. The full historical reconstruction is available in [Copeland 2006][book_copeland_colossus] and in the primary technical account by [Randell 1980][research_randell_1980].
+where $c_i$ is the intercepted character sequence, $k_i(\Delta)$ is the candidate key stream at wheel offset $\Delta$, and $\oplus$ is the modulo-two operation. Wheel settings that produced statistically anomalous values of $Z$ were candidates for the correct setting. The full historical reconstruction is available in [Copeland 2006][book_copeland_colossus] and in the primary technical account by [Randell 1980][research_randell_1980]. The wartime technical report on the Tunny break authored by Good, Michie, and Timms at Bletchley Park in 1945, declassified in the early 2000s and transcribed at [alanturing.net][research_good_michie_timms_1945], remains the most detailed primary account of the machine reconstruction and cryptanalytic methods.
 
 Colossus was the first large-scale programmable electronic digital computing device to enter operational service, predating the ENIAC's operational deployment by roughly two years. The machine was not general-purpose in the sense that ENIAC became after its stored-program conversion, but its purpose-built architecture executed a range of statistical operations against the intercepted Tunny traffic under operator control from switches and plugboard patch cables. The specific value of Colossus was that it made the daily break of Tunny traffic tractable within the operational time window that made the decrypted content actionable for military planning.
 
@@ -107,7 +107,7 @@ which converges slowly but is dimension-independent, making Monte Carlo the pref
 
 The combined wartime computing effort involved several thousand human computers, several hundred electromechanical and electronic machines, and cross-organizational personnel networks that included essentially every trained American, British, and refugee European mathematician, physicist, and engineer of relevant age. The specific personnel who developed wartime computing infrastructure supplied the founding cadre for the postwar computing industry. Mauchly and Eckert of the ENIAC founded the Eckert-Mauchly Computer Corporation that produced the UNIVAC. Aiken continued the Harvard Mark series. Stibitz continued at Bell Labs. Turing continued at the National Physical Laboratory in the United Kingdom on the Automatic Computing Engine design and later at Manchester on the Manchester Mark 1. Von Neumann continued at the Institute for Advanced Study on the IAS machine and its many copies.
 
-The wartime problems also produced postwar research programs. Cryptanalysis matured into modern computer security. Ballistic-table computation matured into scientific and engineering computing. Manhattan Project hydrodynamics matured into computational fluid dynamics. Numerical weather prediction, begun as a wartime problem for bombing meteorology, matured into contemporary numerical modeling of atmospheric and oceanic systems. Each of these fields inherited both the specific computing techniques the wartime programs developed and the general recognition that large-scale computation had become an essential component of scientific and engineering work.
+The wartime problems also produced postwar research programs. Cryptanalysis matured into modern computer security. Ballistic-table computation matured into scientific and engineering computing. Manhattan Project hydrodynamics matured into computational fluid dynamics. Numerical weather prediction, begun as a wartime problem for bombing meteorology, matured into contemporary numerical modeling of atmospheric and oceanic systems following the seminal [Charney Fjørtoft von Neumann 1950][research_charney_fjortoft_vonneumann_1950] barotropic vorticity integration on ENIAC. Each of these fields inherited both the specific computing techniques the wartime programs developed and the general recognition that large-scale computation had become an essential component of scientific and engineering work.
 
 The secrecy imposed on the cryptanalytic effort had specific consequences for the historical record. The Colossus was unknown until the mid-1970s. The Polish contribution to Enigma cryptanalysis was not publicly acknowledged until similar declassifications. The role of the American cryptanalytic effort in the Pacific war was incompletely documented until decades after the war. These gaps produced a distorted early history of computing in which the ENIAC received disproportionate credit as the first electronic digital computer, when in fact Colossus preceded it by roughly two years for a narrower but nonetheless substantial computational scope.
 
@@ -123,7 +123,7 @@ The third axis is reliability and verification. The Colossus valve-reliability e
 
 The fourth axis is networking and distribution. The Bletchley Park operation depended on radio intercept stations across Britain and its allied territories, on the transportation of intercepted tapes to Bletchley by dispatch rider or teleprinter link, and on the distribution of decrypted intelligence to operational commands. The Chain Home radar network continued in operation for air defense. Manhattan Project computation was distributed across multiple sites including Los Alamos, Oak Ridge, and various IBM installations, connected by courier and secure telephone.
 
-The fifth axis is software engineering as a discipline. Wartime computing produced substantial proto-software-engineering practice including the switch-and-patch-cable configuration of Colossus, the plugboard programming of the ENIAC, the systematic procedure manuals for IBM tabulating machine calculations, and the cryptanalytic worksheet notations that Bletchley Park developed. Turing's contributions to the theoretical foundations of computing predated the war in [Turing 1936][research_turing_1936] and continued during and after it. Grace Hopper's work with the Harvard Mark I introduced the first program notation for the machine that later evolved into automatic programming and eventually into high-level languages.
+The fifth axis is software engineering as a discipline. Wartime computing produced substantial proto-software-engineering practice including the switch-and-patch-cable configuration of Colossus, the plugboard programming of the ENIAC, the systematic procedure manuals for IBM tabulating machine calculations, and the cryptanalytic worksheet notations that Bletchley Park developed. Turing's contributions to the theoretical foundations of computing predated the war in [Turing 1936][research_turing_1936] and continued during and after it. Grace Hopper's work with the Harvard Mark I introduced the first program notation for the machine that later evolved into automatic programming and eventually into high-level languages, documented in [Hopper 1946][research_hopper_1946] as the machine's official operating manual.
 
 The sixth axis is semiconductor economics and dual-use. The vacuum-tube industry was substantially expanded by wartime demand for radar, radio, cryptanalytic electronics, and computing. Learning-curve cost reduction as formalized in the preceding series articles applied to vacuum tubes during and after the war. The manufacturing infrastructure that produced the Colossus valves, the ENIAC valves, and the millions of other valves in wartime military electronics became the postwar consumer electronics manufacturing base that persisted until the transistor supplanted the vacuum tube in the late 1950s.
 
@@ -143,6 +143,7 @@ The next article in the series treats the transition from wartime to peacetime c
 - [Hodges 1983][book_hodges_turing_enigma]
 - [Kahn 1996][book_kahn_codebreakers]
 - [Rhodes 1986][book_rhodes_making_atomic_bomb]
+- [Welchman 1982][book_welchman_hut_six_story]
 
 ### Reference
 
@@ -159,11 +160,17 @@ The next article in the series treats the transition from wartime to peacetime c
 
 ### Research
 
+- [Charney Fjørtoft von Neumann 1950][research_charney_fjortoft_vonneumann_1950]
+- [Flowers 1983][research_flowers_1983]
+- [Good Michie Timms 1945 General Report on Tunny][research_good_michie_timms_1945]
+- [Hopper 1946 Mark I Manual][research_hopper_1946]
 - [Metropolis 1987][research_metropolis_1987]
 - [Metropolis and Nelson 1982][research_metropolis_nelson_1982]
 - [Randell 1980][research_randell_1980]
+- [Rejewski 1981][research_rejewski_1981]
 - [Shannon 1949 Secrecy Systems][research_shannon_secrecy_1949]
 - [Turing 1936][research_turing_1936]
+- [Vernam 1926][research_vernam_1926]
 
 [book_copeland_colossus]: https://global.oup.com/academic/product/colossus-9780199578146
 [book_copeland_essential_turing]: https://global.oup.com/academic/product/the-essential-turing-9780198250807
@@ -171,6 +178,7 @@ The next article in the series treats the transition from wartime to peacetime c
 [book_hodges_turing_enigma]: https://openlibrary.org/works/OL2681594W/Alan_Turing
 [book_kahn_codebreakers]: https://openlibrary.org/works/OL2735373W/The_codebreakers
 [book_rhodes_making_atomic_bomb]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
+[book_welchman_hut_six_story]: https://openlibrary.org/works/OL5099089W/The_hut_six_story
 
 [ref_flowers_colossus]: https://www.tnmoc.org/colossus
 [ref_polish_cryptanalysis]: https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/wwii/enigma_cryptologic_mathematician.pdf
@@ -181,8 +189,14 @@ The next article in the series treats the transition from wartime to peacetime c
 [related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 [related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}
 
+[research_charney_fjortoft_vonneumann_1950]: https://onlinelibrary.wiley.com/doi/10.1111/j.2153-3490.1950.tb00336.x
+[research_flowers_1983]: https://ieeexplore.ieee.org/document/4640571
+[research_good_michie_timms_1945]: https://www.alanturing.net/turing_archive/archive/index/tunnyreportindex.html
+[research_hopper_1946]: https://openlibrary.org/works/OL15108014W/A_manual_of_operation_for_the_automatic_sequence_controlled_calculator
 [research_metropolis_1987]: https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-88-9067
 [research_metropolis_nelson_1982]: https://ieeexplore.ieee.org/document/4640726
 [research_randell_1980]: https://ieeexplore.ieee.org/document/4640474
+[research_rejewski_1981]: https://ieeexplore.ieee.org/document/4640712
 [research_shannon_secrecy_1949]: https://ieeexplore.ieee.org/document/6769090
 [research_turing_1936]: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+[research_vernam_1926]: https://ieeexplore.ieee.org/document/5060121
