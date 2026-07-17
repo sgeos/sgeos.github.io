@@ -41,15 +41,33 @@ for a small safety factor $k$ of order 3 to 5 based on the Central Limit Theorem
 
 The ARPANET design was led by Lawrence Roberts, who joined the IPTO in 1966 and became its director in 1969. Roberts drew on Kleinrock's queueing theory, Baran's survivability analysis, and Davies's efficiency analysis to specify a network architecture that would connect approximately 15 to 20 research computing sites at United States universities and defense laboratories. The specific design decision that Roberts adopted at Wesley Clark's suggestion was to use dedicated switching computers called Interface Message Processors hereafter IMPs to handle the network communications, with the host computers at each site relieved of the specific engineering burden of implementing the network protocols. This separation between hosts and switches remains foundational to essentially all subsequent network architectures.
 
-The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds and end-to-end latency across a coast-to-coast path of approximately 100 milliseconds.
+The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds. End-to-end latency across an $N_{\text{hops}}$-hop path summed the per-hop transmission time and processing time as
+
+$$T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{link}}} + T_{\text{proc}}\right) + T_{\text{propagation}}$$
+
+for packet size $L_{\text{packet}}$, link bandwidth $B_{\text{link}}$, per-IMP processing time $T_{\text{proc}}$, and total propagation delay $T_{\text{propagation}}$ across the leased-line physical distance. Coast-to-coast paths across the ARPANET typically involved four to six IMP hops and accumulated end-to-end latency of approximately 100 milliseconds.
 
 The first four ARPANET nodes were installed between September and December 1969 at the University of California at Los Angeles, the Stanford Research Institute hereafter SRI, the University of California at Santa Barbara, and the University of Utah. The first host-to-host communication attempt was made on 29 October 1969 between UCLA and SRI, with a partial message "LO" successfully transmitted before the SRI host crashed on receipt of the third character. The intended full message was "LOGIN", which would have initiated a remote login session from UCLA to the SRI host. The successful full transmission occurred approximately an hour later after the SRI system recovered. This event is generally treated as the operational birth of the ARPANET, though the specific technical achievement was modest compared with what followed.
 
 ## Growth and Protocols
 
-The ARPANET grew from four nodes in December 1969 to approximately 15 nodes by early 1971, approximately 40 nodes by early 1973, and approximately 60 nodes by 1975. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the specific problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the specific assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
+The ARPANET grew from four nodes in December 1969 to approximately 15 nodes by early 1971, approximately 40 nodes by early 1973, and approximately 60 nodes by 1975, following approximately exponential growth of the form
+
+$$N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}$$
+
+with time constant $\tau$ of approximately 15 to 18 months over the 1969 through 1980 period, similar to the transistor-density doubling time treated in the substrate section of [A237][related_post_a237_framing_co_development] and consistent with the general pattern of exponential adoption growth for successful network technologies. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the specific problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the specific assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
 
 The Transmission Control Protocol hereafter TCP was designed by Vinton Cerf and Robert Kahn between 1973 and 1974 to solve the specific problem of interconnecting the ARPANET with packet radio networks, satellite networks, and other emerging networks whose delivery guarantees differed from the ARPANET's. The primary description in [Cerf and Kahn 1974][research_cerf_kahn_1974] in the IEEE Transactions on Communications introduced the specific split between a lower-layer datagram protocol that provided best-effort delivery and an upper-layer stream protocol that provided reliable in-order delivery, laying the foundation for what later became the split between Internet Protocol hereafter IP and TCP. The TCP/IP split was formalized in 1978 and became the standard by which the ARPANET, packet radio networks, satellite networks, and subsequent networks interconnected.
+
+TCP's sliding-window flow-control mechanism bounded the effective throughput on any single connection by the window size divided by the round-trip time,
+
+$$B_{\text{effective}} = \frac{W}{T_{\text{RTT}}}$$
+
+which for the 16-kilobit-per-second ARPANET backbone links and 100-millisecond coast-to-coast round-trip times required window sizes on the order of 200 bytes to fill the link capacity. Retransmission of lost or corrupted packets required an estimate of the round-trip time to determine when to declare a packet lost, later formalized by [Jacobson 1988][research_jacobson_1988] as the adaptive estimator
+
+$$T_{\text{RTO}} = \bar{T}_{\text{RTT}} + 4 \sigma_{\text{RTT}}$$
+
+using exponentially weighted moving averages of the mean and standard deviation of observed round-trip times. The specific engineering discipline of retransmission-timer estimation became a load-bearing concern of network protocol design and remains a subject of active research in contemporary networks.
 
 The value of a network to its users grows more rapidly than the number of users because each new user gains access to all previous users and each previous user gains a new potential communication partner. This scaling, later formalized as Metcalfe's Law in the specific context of Ethernet local networks per [Metcalfe and Boggs 1976][research_metcalfe_boggs_1976], gives a network value of order
 
@@ -73,9 +91,17 @@ The first axis is numerical computation demand. Network protocols themselves imp
 
 The second axis is real-time control. Networking was not real-time in the sense of aerospace flight control, but network protocols imposed timing constraints on their own operation. Retransmission timers, round-trip time estimators, and congestion-window updates all depended on timing measurements that had to be maintained within specific bounds to preserve protocol correctness. The specific timing engineering practice for network protocols drew on real-time operating system techniques treated in [A241][related_post_a241_aerospace_simulation] and contributed back to those techniques through the operational experience with distributed timing coordination.
 
-The third axis is reliability and verification. The ARPANET achieved high reliability through the specific architectural decisions of packet switching, redundant path routing, and end-to-end retransmission of lost or corrupted packets. Verification of network protocols became a distinct engineering discipline in the 1980s and 1990s as network scale grew and as security concerns emerged.
+The third axis is reliability and verification. The ARPANET achieved high reliability through the specific architectural decisions of packet switching, redundant path routing, and end-to-end retransmission of lost or corrupted packets. For a single physical path of $N_{\text{links}}$ links each with per-link availability $R_{\text{link}}$ and independent-failure assumption, the path availability is
 
-The fourth axis is networking and distribution. The ARPANET is the paradigmatic case for this axis. Essentially all of the specific engineering practices that define computer networking as a discipline originated in or were substantially shaped by ARPANET experience. The specific transition from research network to operational network to commercial internet illustrates the general pattern of aerospace and defense computing giving rise to commercial computing infrastructure treated throughout the series.
+$$R_{\text{path}} = R_{\text{link}}^{N_{\text{links}}}$$
+
+which for high per-link availability approaches unity for small $N$ but declines rapidly for large $N$. Redundant path routing across $k$ independent paths raises the aggregate availability to $1 - (1 - R_{\text{path}})^k$, which is the specific quantitative argument for the packet-switching survivability property that motivated Baran's original design. Verification of network protocols became a distinct engineering discipline in the 1980s and 1990s as network scale grew and as security concerns emerged.
+
+The fourth axis is networking and distribution. The ARPANET is the paradigmatic case for this axis. Essentially all of the specific engineering practices that define computer networking as a discipline originated in or were substantially shaped by ARPANET experience. IMP queue occupancy at steady state followed Little's Law relating the mean number of packets in the queue to the arrival rate and mean queueing time,
+
+$$L_{\text{queue}} = \lambda \cdot T_{\text{wait}}$$
+
+for packet arrival rate $\lambda$ and mean wait time $T_{\text{wait}}$, which combined with Kleinrock's queueing-theoretic analysis cited in [A237][related_post_a237_framing_co_development] gave the operational analysis framework for IMP sizing and network capacity planning. The specific transition from research network to operational network to commercial internet illustrates the general pattern of aerospace and defense computing giving rise to commercial computing infrastructure treated throughout the series.
 
 The fifth axis is software engineering as a discipline. Network protocol implementation drew on and contributed to the specific software engineering practices treated in [A240][related_post_a240_early_cold_war_sage] for large-scale systems. The specific requirement that protocols work correctly across independent implementations by multiple developers at multiple sites produced the specific engineering discipline of interoperability testing, protocol conformance evaluation, and specification refinement that later spread throughout software engineering.
 
@@ -113,6 +139,7 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 - [Cerf and Kahn 1974][research_cerf_kahn_1974]
 - [Davies 1966][research_davies_1966]
 - [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970]
+- [Jacobson 1988][research_jacobson_1988]
 - [Licklider 1960][research_licklider_1960]
 - [Licklider and Taylor 1968][research_licklider_taylor_1968]
 - [Metcalfe and Boggs 1976][research_metcalfe_boggs_1976]
@@ -133,6 +160,7 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 [research_cerf_kahn_1974]: https://ieeexplore.ieee.org/document/1092259
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 [research_heart_1970]: https://dl.acm.org/doi/10.1145/1476936.1477021
+[research_jacobson_1988]: https://dl.acm.org/doi/10.1145/52324.52356
 [research_licklider_1960]: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
 [research_licklider_taylor_1968]: https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf
 [research_metcalfe_boggs_1976]: https://dl.acm.org/doi/10.1145/360248.360253
