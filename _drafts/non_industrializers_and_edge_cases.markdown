@@ -67,7 +67,7 @@ The Sub-Saharan African region occupies a position in the contemporary internati
 
 **Colonial extractive institutions.** The [Acemoglu, Johnson, and Robinson colonial-origins treatment][research_ajr_colonial_origins] documents that colonial powers established substantially different institutional patterns in colonies where European settlers could survive in substantial numbers versus colonies where the European mortality environment was hostile to sustained settlement. The specifically Sub-Saharan African tropical disease environment produced substantially extractive rather than settler-oriented colonial institutions, and the specifically post-independence trajectories have substantially inherited the extractive-institutional patterns. The colonial-origins mechanism operates independently of and in parallel with any industrialization-order effect.
 
-**Slave-trade legacies.** The [Nunn analysis of the long-term effects of Africa's slave trades][related_post_industrialization_framing] documented in the second article of the series establishes that the specifically African regions most affected by the Atlantic and Indian Ocean slave trades exhibit measurable long-run economic underdevelopment relative to less-affected regions. The specifically slave-trade mechanism operates on a millennial timescale and constitutes an additional supplementary explanation beyond the industrialization-order framework.
+**Slave-trade legacies.** The [Nunn empirical analysis of the long-term effects of Africa's slave trades on subsequent African economic development][research_nunn_slave_trades] establishes that the specifically African regions most affected by the Atlantic and Indian Ocean slave trades exhibit measurable long-run economic underdevelopment relative to less-affected regions. The specifically slave-trade mechanism operates on a multi-century timescale and constitutes an additional supplementary explanation beyond the industrialization-order framework.
 
 **Resource-curse patterns.** Sub-Saharan African resource-abundant economies including Nigeria, Angola, Democratic Republic of the Congo, Zambia, and Botswana exhibit the specifically Sachs-Warner resource-curse pattern with substantial variation. Botswana is the specifically notable exception, having achieved sustained per-capita convergence through the specifically distinctive combination of diamond-resource management, democratic political institutions, and substantially disciplined fiscal policy. The other resource-abundant Sub-Saharan African cases exhibit the specifically standard resource-curse pattern combined with the specifically African colonial-origins and slave-trade legacies.
 
@@ -139,6 +139,7 @@ The twelfth and final article of the series takes the contemporary global snapsh
 - [Related Post, India and the Late Arrivals][related_post_india_and_late_arrivals]
 - [Related Post, Soviet Forced Industrialization][related_post_soviet_forced_industrialization]
 - [Acemoglu, Daron, Johnson, Simon, and Robinson, James A., The Colonial Origins of Comparative Development, An Empirical Investigation, American Economic Review 91, 2001][research_ajr_colonial_origins]
+- [Nunn, Nathan, The Long-term Effects of Africa's Slave Trades, Quarterly Journal of Economics 123, 2008][research_nunn_slave_trades]
 - [Ross, Michael L., Does Oil Hinder Democracy, World Politics 53, 2001][research_ross_oil_democracy]
 - [Sachs, Jeffrey D. and Warner, Andrew M., Natural Resource Abundance and Economic Growth, National Bureau of Economic Research Working Paper 5398, 1995][research_sachs_warner_resource_curse]
 - [Sokoloff, Kenneth L. and Engerman, Stanley L., Institutions, Factor Endowments, and Paths of Development in the New World, Journal of Economic Perspectives 14, 2000][research_sokoloff_engerman_new_world]
@@ -147,6 +148,7 @@ The twelfth and final article of the series takes the contemporary global snapsh
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [related_post_soviet_forced_industrialization]: {% post_url 2026-03-20-soviet_forced_industrialization %}
 [research_ajr_colonial_origins]: https://doi.org/10.1257/aer.91.5.1369
+[research_nunn_slave_trades]: https://doi.org/10.1162/qjec.2008.123.1.139
 [research_ross_oil_democracy]: https://doi.org/10.1353/wp.2001.0011
 [research_sachs_warner_resource_curse]: https://www.nber.org/papers/w5398
 [research_sokoloff_engerman_new_world]: https://doi.org/10.1257/jep.14.3.217
