@@ -31,7 +31,7 @@ $$T_{\text{response}} \le \frac{R_{\text{detection}}}{v_{\text{target}}}$$
 
 for detection range $R_{\text{detection}}$ and target speed $v_{\text{target}}$. For a Tu-95 Bear cruising at approximately 800 kilometers per hour, detection at a coastal radar station 400 kilometers offshore gave approximately 30 minutes before the bomber crossed the coastline, and roughly 1 to 2 hours before it reached major inland targets. Fighter interception required identifying the track, assigning an interceptor, vectoring it to the target, and closing to engagement range within this budget. Third, the coordinated-attack requirement demanded simultaneous track handling for hundreds of hostile aircraft rather than one-at-a-time engagement, which exceeded the operational capacity of manual filter rooms of the wartime Chain Home model treated in [A238][related_post_a238_pre_war_computing].
 
-The Air Defense System Engineering Committee, chaired by George Valley at MIT and known as Project Charles, was convened in 1949 to study the air defense problem. Its 1951 report recommended a computer-based air defense system that would automate the track fusion, threat evaluation, and interceptor assignment functions that manual filter rooms had performed during the war. The specific technical foundation for the computer-based system already existed in prototype form at MIT in the Whirlwind computer.
+The Air Defense System Engineering Committee, chaired by George Valley at MIT and known as Project Charles, was convened in 1949 to study the air defense problem. Its 1951 report recommended a computer-based air defense system that would automate the track fusion, threat evaluation, and interceptor assignment functions that manual filter rooms had performed during the war. Valley's own retrospective account of the committee formation and its recommendations, published in [Valley 1985][research_valley_1985] in the IEEE Annals of the History of Computing, remains the standard primary source on the origins of the SAGE program. The specific technical foundation for the computer-based system already existed in prototype form at MIT in the Whirlwind computer.
 
 ## Whirlwind and Real-Time Computing
 
@@ -43,7 +43,7 @@ $$r_{\text{Whirlwind}} = \frac{1}{T_{\text{cycle}}} \approx \frac{1}{2 \times 10
 
 which was approximately two orders of magnitude faster than the ENIAC when combined with the interrupt-driven scheduling that let the machine respond to external events without polling overhead. Whirlwind became operational in 1951 and was used for both flight simulation research and, increasingly, for real-time air defense experiments as the Cold War air defense requirement crystallized.
 
-The Cape Cod System, an experimental air defense demonstration built around Whirlwind between 1951 and 1953, showed that a computer-based air defense system could accept radar returns from multiple sites, fuse them into a coherent track picture, and provide interceptor vectoring instructions in real time. The Cape Cod System covered a region of eastern Massachusetts and served as the operational proof of concept that Project Charles had recommended. It ran an experimental air-defense program on Whirlwind that processed radar returns from four radar sites and generated intercept solutions for a small number of tracks. The demonstration convinced Air Force leadership to proceed with the full SAGE program.
+The Cape Cod System, an experimental air defense demonstration built around Whirlwind between 1951 and 1953, showed that a computer-based air defense system could accept radar returns from multiple sites, fuse them into a coherent track picture, and provide interceptor vectoring instructions in real time. The Cape Cod System covered a region of eastern Massachusetts and served as the operational proof of concept that Project Charles had recommended. It ran an experimental air-defense program on Whirlwind that processed radar returns from four radar sites and generated intercept solutions for a small number of tracks. Everett's own overview of the SAGE program and its Whirlwind lineage in [Everett 1980][research_everett_1980] in the IEEE Annals of the History of Computing remains the canonical retrospective account by one of the principal engineers. The demonstration convinced Air Force leadership to proceed with the full SAGE program.
 
 ## Magnetic-Core Memory
 
@@ -55,11 +55,11 @@ $$I_{\text{row}} + I_{\text{col}} \ge I_{\text{switch}}, \quad I_{\text{row}} < 
 
 so that only the single core at the row-column intersection reached the switching threshold while all other cores along each individually energized wire remained undisturbed. The design achieved random-access read and write with per-bit access times of a few microseconds and mean time between failure of tens of thousands of hours per bit position, or effectively unlimited failure-free operation for a full memory array over practical time scales.
 
-Magnetic-core memory replaced the Whirlwind storage tubes in 1953 with immediate and dramatic reliability improvements. The technology was subsequently licensed to IBM and became the standard commercial memory technology for the next two decades until it was displaced by semiconductor dynamic random-access memory in the mid-1970s. Total core-memory production peaked in the 1960s at billions of individual cores per year, produced by industrial-scale hand-weaving of the wire matrices, primarily by women workers in East Asia. The specific engineering, economic, and social consequences of core memory dominated the computing industry from 1955 through 1975.
+Papian's own primary technical description of the coincident-current magnetic memory cell was published in [Papian 1953][research_papian_1953] and remains the standard early technical reference on the design. Magnetic-core memory replaced the Whirlwind storage tubes in 1953 with immediate and dramatic reliability improvements. The technology was subsequently licensed to IBM and became the standard commercial memory technology for the next two decades until it was displaced by semiconductor dynamic random-access memory in the mid-1970s. Total core-memory production peaked in the 1960s at billions of individual cores per year, produced by industrial-scale hand-weaving of the wire matrices, primarily by women workers in East Asia. The specific engineering, economic, and social consequences of core memory dominated the computing industry from 1955 through 1975, with the comprehensive treatment of the technology and its industrial history in [Pugh 1984][book_pugh_memories_industry].
 
 ## SAGE Architecture
 
-SAGE was organized around 23 Direction Centers, each responsible for air defense within a geographic sector of North America. Each Direction Center housed one operational and one standby AN/FSQ-7 computer, manufactured by International Business Machines Corporation hereafter IBM under contract to the MIT Lincoln Laboratory, with system engineering by the MITRE Corporation, which was spun off from Lincoln Laboratory specifically to manage the SAGE program. The AN/FSQ-7 was the largest computer ever built by valve count, containing approximately 55,000 vacuum tubes per machine and occupying roughly one acre of floor space. Applying the same vacuum-tube reliability model used for the ENIAC in [A238][related_post_a238_pre_war_computing], the naive per-machine MTBF from independent tube failures alone would be
+SAGE was organized around 23 Direction Centers, each responsible for air defense within a geographic sector of North America. Each Direction Center housed one operational and one standby AN/FSQ-7 computer, manufactured by International Business Machines Corporation hereafter IBM under contract to the MIT Lincoln Laboratory, with system engineering by the MITRE Corporation, which was spun off from Lincoln Laboratory specifically to manage the SAGE program. The AN/FSQ-7 was the largest computer ever built by valve count, containing approximately 55,000 vacuum tubes per machine and occupying roughly one acre of floor space. The primary technical account of the AN/FSQ-7 design is [Astrahan and Jacobs 1983][research_astrahan_jacobs_1983] in the IEEE Annals of the History of Computing, authored by two of the IBM engineers responsible for the machine. Applying the same vacuum-tube reliability model used for the ENIAC in [A238][related_post_a238_pre_war_computing], the naive per-machine MTBF from independent tube failures alone would be
 
 $$T_{\text{AN/FSQ-7}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}} \approx \frac{10{,}000 \text{ hours}}{55{,}000} \approx 0.18 \text{ hours}$$
 
@@ -79,7 +79,7 @@ which for typical sector loads of a dozen radars, 20 to 40 tracks per radar per 
 
 ## SAGE Software
 
-The SAGE software effort produced the first industrial-scale software engineering practice. Total SAGE software approached 500,000 source lines of instructions, per the account in [Benington 1983][research_benington_1983], which was several orders of magnitude larger than any previous software program and required the invention of specific process and organizational structures to develop, test, and maintain. The System Development Corporation hereafter SDC was created in 1957 by spinning off the RAND Corporation's SAGE software group specifically to manage the SAGE software program. SDC eventually employed approximately 700 programmers at peak, which was roughly half of the world's programming workforce as of 1960. Effective per-programmer productivity over the multi-year development satisfied approximately
+The SAGE software effort produced the first industrial-scale software engineering practice. Total SAGE software approached 500,000 source lines of instructions, per the account in [Benington 1983][research_benington_1983], which was several orders of magnitude larger than any previous software program and required the invention of specific process and organizational structures to develop, test, and maintain. The System Development Corporation hereafter SDC was created in 1957 by spinning off the RAND Corporation's SAGE software group specifically to manage the SAGE software program, per the institutional history in [Baum 1981][book_baum_system_builders]. SDC eventually employed approximately 700 programmers at peak, which was roughly half of the world's programming workforce as of 1960. Effective per-programmer productivity over the multi-year development satisfied approximately
 
 $$\bar{p} \approx \frac{L_{\text{SAGE}}}{N_{\text{programmers}} \cdot T_{\text{years}}} \approx \frac{5 \times 10^{5}}{700 \cdot 7} \approx 100 \text{ source lines per programmer per year}$$
 
@@ -103,7 +103,7 @@ The IBM 700 and 7000 series commercial computers of the mid-1950s inherited manu
 
 The Digital Equipment Corporation hereafter DEC was founded in 1957 by Kenneth Olsen and Harlan Anderson, both formerly of Lincoln Laboratory and both directly involved in the Whirlwind and SAGE programs. DEC's PDP series minicomputers of the 1960s were direct architectural descendants of Whirlwind, retaining the 16-bit word length, the interrupt-driven scheduling, and the interactive rather than batch orientation that Whirlwind had pioneered. The minicomputer industry that DEC created reshaped commercial computing in the 1960s and 1970s and produced the specific technological substrate for the ARPANET and the workstation-computing wave of the 1980s.
 
-The interactive computing tradition that later became timesharing traces directly to the Whirlwind and SAGE lineage. The Compatible Time-Sharing System developed at MIT Project MAC in 1961 was the first widely used timesharing system and drew heavily on Whirlwind and SAGE engineering practice for its real-time and interactive design. Multics, TENEX, Unix, and the personal-computer operating systems of the 1970s and 1980s all trace their interactive-computing lineage through this thread to Whirlwind and SAGE, giving the SAGE program a specific claim on essentially the entire subsequent history of interactive computing.
+The interactive computing tradition that later became timesharing traces directly to the Whirlwind and SAGE lineage. The Compatible Time-Sharing System, described in the primary paper by [Corbató Merwin-Daggett Daley 1962][research_corbato_merwin_daggett_daley_1962], developed at MIT Project MAC in 1961 was the first widely used timesharing system and drew heavily on Whirlwind and SAGE engineering practice for its real-time and interactive design. Multics, TENEX, Unix, and the personal-computer operating systems of the 1970s and 1980s all trace their interactive-computing lineage through this thread to Whirlwind and SAGE, giving the SAGE program a specific claim on essentially the entire subsequent history of interactive computing.
 
 ## Framework Application to the SAGE Era
 
@@ -131,8 +131,10 @@ The next article in the series treats aerospace simulation and real-time systems
 
 ### Books
 
+- [Baum 1981][book_baum_system_builders]
 - [Ceruzzi 2003][book_ceruzzi_history_modern_computing]
 - [Edwards 1996][book_edwards_closed_world]
+- [Pugh 1984][book_pugh_memories_industry]
 - [Redmond and Smith 1980][book_redmond_smith_whirlwind]
 - [Redmond and Smith 2000][book_redmond_smith_sage]
 
@@ -150,13 +152,20 @@ The next article in the series treats aerospace simulation and real-time systems
 
 ### Research
 
+- [Astrahan and Jacobs 1983][research_astrahan_jacobs_1983]
 - [Benington 1983][research_benington_1983]
+- [Corbató Merwin-Daggett Daley 1962][research_corbato_merwin_daggett_daley_1962]
+- [Everett 1980][research_everett_1980]
 - [Everett Zraket Benington 1957][research_everett_zraket_benington_1957]
 - [Forrester 1948][research_forrester_1948]
 - [Forrester 1951][research_forrester_1951]
+- [Papian 1953][research_papian_1953]
+- [Valley 1985][research_valley_1985]
 
+[book_baum_system_builders]: https://openlibrary.org/works/OL15079476W/The_system_builders
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_edwards_closed_world]: https://mitpress.mit.edu/9780262550284/the-closed-world/
+[book_pugh_memories_industry]: https://openlibrary.org/works/OL5836466W/Memories_that_shaped_an_industry
 [book_redmond_smith_whirlwind]: https://openlibrary.org/works/OL2724103W/Project_Whirlwind
 [book_redmond_smith_sage]: https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/
 
@@ -168,7 +177,12 @@ The next article in the series treats aerospace simulation and real-time systems
 [related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}
 [related_post_a239_wartime_computing]: {% post_url 2026-07-14-wartime_computing_and_code_breaking %}
 
+[research_astrahan_jacobs_1983]: https://ieeexplore.ieee.org/document/4640386
 [research_benington_1983]: https://ieeexplore.ieee.org/document/4640375
+[research_corbato_merwin_daggett_daley_1962]: https://dl.acm.org/doi/10.1145/1460833.1460871
+[research_everett_1980]: https://ieeexplore.ieee.org/document/4640356
 [research_everett_zraket_benington_1957]: https://dl.acm.org/doi/10.1145/1455567.1455575
 [research_forrester_1948]: https://dspace.mit.edu/handle/1721.1/104179
 [research_forrester_1951]: https://ieeexplore.ieee.org/document/5061671
+[research_papian_1953]: https://ieeexplore.ieee.org/document/1450920
+[research_valley_1985]: https://ieeexplore.ieee.org/document/4640395
