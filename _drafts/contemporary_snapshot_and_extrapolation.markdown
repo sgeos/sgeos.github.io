@@ -59,10 +59,10 @@ against the leading American level, substantially below the ratio a linear extra
 
 **Southeast Asian and African trajectories.** The framework predicts sustained Vietnamese, Indonesian, and specifically Bangladeshi catch-up at rates comparable to the specifically Chinese post-1980 rates, with the specifically African trajectory highly variable across cases. The specifically Sub-Saharan African aggregate is likely to grow at approximately three to four percent per capita per year across the extrapolation window, exceeding the pre-2000 baseline but producing only modest convergence on leading economies.
 
-**Reserve-currency trajectory.** The framework predicts continued dollar-share erosion at approximately the exponential-decay rate the [fourth article formalized][related_post_american_ascent] using the same functional form the [second article applied to sterling][related_post_first_mover_britain]. Applying the exponential-decay form to the dollar share with decay rate $\lambda \approx 0.015$ per year calibrated to the 2000-2026 observed decline gives
+**Reserve-currency trajectory.** The framework predicts continued dollar-share erosion at approximately the exponential-decay rate the [fourth article formalized][related_post_american_ascent] using the same functional form the [second article applied to sterling][related_post_first_mover_britain]. Applying the exponential-decay form to the dollar share with decay rate $\lambda \approx 0.008 \text{ to } 0.012$ per year, spanning the historical 2000-2026 observed rate of approximately 0.008 per year and a modestly accelerated rate under specifically 2020s strategic-decoupling pressure, gives
 
 $$
-D_{\text{dollar}}(2050) = D_{\text{dollar}}(2026) \cdot e^{-\lambda \cdot 24} \approx 0.40 \text{ to } 0.45
+D_{\text{dollar}}(2050) = D_{\text{dollar}}(2026) \cdot e^{-\lambda \cdot 24} \approx 0.43 \text{ to } 0.48
 $$
 
 from the approximately fifty-eight percent 2026 baseline. The specifically leading candidate replacements are the euro and the specifically Chinese renminbi, though neither is likely to reach dollar-comparable share within the extrapolation window because the specifically network effects supporting the dollar system are substantial and slow to unwind.
