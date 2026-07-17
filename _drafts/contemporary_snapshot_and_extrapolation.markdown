@@ -168,6 +168,11 @@ This concludes the twelve-article series on aerospace, programming languages, an
 - [Smil 2022][book_smil_how_the_world_really_works]
 - [Zeihan 2022][book_zeihan_end_of_the_world]
 
+### Reference
+
+- [NIST Post-Quantum Cryptography Project][ref_nist_pqc]
+- [TSMC][ref_tsmc]
+
 ### Related Posts
 
 - [A237 Framing and the Co-Development Mechanism][related_post_a237_framing_co_development]
@@ -194,6 +199,9 @@ This concludes the twelve-article series on aerospace, programming languages, an
 [book_scharre_four_battlegrounds]: https://openlibrary.org/works/OL29337663W/Four_Battlegrounds
 [book_smil_how_the_world_really_works]: https://openlibrary.org/works/OL27332893W/How_the_World_Really_Works
 [book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL26996636W/The_End_of_the_World_Is_Just_the_Beginning
+
+[ref_nist_pqc]: https://csrc.nist.gov/projects/post-quantum-cryptography
+[ref_tsmc]: https://www.tsmc.com/english
 
 [related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 [related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-17-apollo_guidance_computer %}

@@ -119,7 +119,7 @@ The fourth axis is networking and distribution. Software-defined aerospace platf
 
 The fifth axis is software engineering as a discipline. Software-defined aerospace is the specific application area that produced the modern safety-critical software engineering discipline. The specific programming languages, development methodologies, verification techniques, and organizational structures that the discipline employs were developed substantially for aerospace applications and continue to evolve under aerospace-driven requirements.
 
-The sixth axis is semiconductor economics and dual-use. Software-defined aerospace platforms use general-purpose computing hardware adapted for aerospace-specific reliability, radiation, and environmental requirements. The specific dual-use pattern is that mainstream commercial computing supplies the base capability that aerospace-specific suppliers then adapt at premium prices for the aerospace market, essentially the reverse of the earlier pattern in which aerospace defense procurement subsidized the manufacturing base that later commercial markets consumed.
+The sixth axis is semiconductor economics and dual-use. Software-defined aerospace platforms use general-purpose computing hardware adapted for aerospace-specific reliability, radiation, and environmental requirements. The specific dual-use pattern is that mainstream commercial computing supplies the base capability that aerospace-specific suppliers then adapt at premium prices for the aerospace market, essentially the reverse of the earlier Silicon Valley pattern treated in [A246][related_post_a246_silicon_valley_defense] in which aerospace defense procurement subsidized the manufacturing base that later commercial markets consumed.
 
 ## Conclusion
 
@@ -148,6 +148,7 @@ The next article in the series takes the contemporary snapshot as of 2026, appli
 - [A243 ARPANET and Networking Origins][related_post_a243_arpanet_networking]
 - [A244 Space Shuttle Software as Engineering Landmark][related_post_a244_space_shuttle_software]
 - [A245 Safety-Critical Software][related_post_a245_safety_critical_software]
+- [A246 Silicon Valley from Defense Contracting][related_post_a246_silicon_valley_defense]
 
 ### Research
 
@@ -169,6 +170,7 @@ The next article in the series takes the contemporary snapshot as of 2026, appli
 [related_post_a243_arpanet_networking]: {% post_url 2026-07-18-arpanet_and_networking_origins %}
 [related_post_a244_space_shuttle_software]: {% post_url 2026-07-19-space_shuttle_software_as_engineering_landmark %}
 [related_post_a245_safety_critical_software]: {% post_url 2026-07-20-safety_critical_software %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
 
 [research_dijkstra_1959]: https://link.springer.com/article/10.1007/BF01386390
 [research_hart_nilsson_raphael_1968]: https://ieeexplore.ieee.org/document/4082128
