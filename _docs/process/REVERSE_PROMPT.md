@@ -8,50 +8,54 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-07-16
-**Task**: Draft, review, and publish A237 as the opener of the twelve-article rolling-publication series "Aerospace, Programming Languages, and Information Technology Co-Development" under the back-reference-only constraint that permits one-per-day rolling publication. Editorial date 2026-07-12 backdated four days under the rolling-publication catch-up window. Four draft-stage commits followed by a publish commit. Local pending push authorization.
+**Date**: 2026-07-17
+**Task**: Publish A238-A248 as batch completing the twelve-article "Aerospace, Programming Languages, and Information Technology Co-Development" series. A237 opener was previously published as an individual publication on 2026-07-16. Editorial dates 2026-07-13 through 2026-07-23 fill exactly the twelve-day window after A216 Keleusma self-hosting at 2026-07-11 with no adjacent post following A248. Two-commit batch publication pattern (draft-stage commits accumulated across the drafting period, publish commit follows with git mv batch and process-file sync). Local pending push authorization.
 
 ---
 
 ## Verification
 
-### Series Slot and Constraint
+### Series Complete
 
-Twelve-article rolling-publication series with shared main title "Aerospace, Programming Languages, and Information Technology Co-Development" and per-article subtitle in "Main: Sub" format. Editorial dates 2026-07-12 through 2026-07-23 fill the twelve-day open window that begins one day after A216 Keleusma self-hosting strategy at 2026-07-11. A237 the opener occupies 2026-07-12. Subsequent articles A238-A248 will publish one per day at editorial dates 2026-07-13 through 2026-07-23 as they are drafted.
+Twelve-article rolling-publication series with shared main title "Aerospace, Programming Languages, and Information Technology Co-Development" and per-article subtitle in "Main: Sub" format across all twelve articles.
 
-Back-reference-only constraint honored. A237 contains no `post_url` cross-references to any later series article and no forward-reference prose that would require A238-A248 to exist. Cross-references outside the series point to A112 fixed-wing UAV airframe at 2026-05-30, A200 hardware description languages history at 2026-03-13, A203 hardware description languages state of practice at 2026-07-08, A206 programming language theory arc opener at 2026-03-27, and A215 programming language theory 2020s at 2026-04-05, all predating 2026-07-12.
-
-### A237 Content Summary
-
-The opener establishes the co-development mechanism as a coupled first-order dynamical system with characteristic roots plus and minus the square root of the coupling coefficient product, and derives the coupled exponential-growth solutions for aerospace capability $H(t)$ and computing capability $S(t)$. Characterizes semiconductor manufacturing under defense demand as the physical substrate on which the co-development plays out, and formalizes the spillover from defense procurement to commercial markets with the Wright learning-curve equation and empirical semiconductor learning-curve exponents. Formalizes the real-time constraint distinguishing aerospace computing from commercial computing with the flight-control deadline inequality and the Liu-Layland rate-monotonic utilization bound. Formalizes the reliability constraint through hardware redundancy at the Space Shuttle avionics scale and verification-effort scaling per Boehm. Formalizes the software complexity constraint through the exponential size trajectory with doubling time of order six to eight years for major aerospace programs and Lehman's laws of software evolution.
-
-Six-axis analytical framework introduced: numerical computation demand, real-time control, reliability and verification, networking and distribution, software engineering as discipline, semiconductor economics and dual-use.
-
-Preindustrial baseline covers the human-computer bureau under Moulton at Aberdeen Proving Ground, the Bush differential analyzer at MIT, the Ford Instrument Company Mark 1 fire-control computer installed on United States Navy capital ships from 1934, and Britain's Chain Home radar network.
-
-Series roadmap describes the eleven subsequent articles at editorial dates 2026-07-13 through 2026-07-23 in prose sentence form without forward `post_url` hyperlinks.
+- A237 (index 1, 2026-07-12): Framing and the Co-Development Mechanism. Opener establishes the co-development mechanism as a coupled first-order dynamical system with characteristic roots and exponential coupled-growth solutions, characterizes semiconductor manufacturing under defense demand as physical substrate with the Wright learning-curve formalization of the spillover, formalizes real-time and reliability constraints distinguishing aerospace computing from commercial, introduces the six-axis analytical framework subsequent articles apply, and covers preindustrial baseline through the human-computer bureau under Moulton at Aberdeen, the Bush differential analyzer at MIT, the Ford Instrument Mark 1 fire-control computer, and Chain Home radar.
+- A238 (index 2, 2026-07-13): Pre-War Computing Origins and Ballistics. Covers computing landscape 1900-1945 with focus on aerospace and defense applications driving computing demand, four modalities of human computer bureaus, mechanical fire-control computers, analog differential analyzers, and electronic digital computers arriving with ENIAC.
+- A239 (index 3, 2026-07-14): Wartime Computing and Code-Breaking. Bletchley Park and the Bombes, Lorenz and Colossus, American cryptanalytic effort, Manhattan Project computing, wartime scale and legacy including Colossus destruction and rediscovery.
+- A240 (index 4, 2026-07-15): Early Cold War Air Defense and SAGE. Whirlwind and real-time computing, magnetic-core memory, SAGE architecture with 23 Direction Centers and IBM AN/FSQ-7, SAGE software producing first industrial-scale software engineering practice, operational SAGE 1958-1983, postwar transitions to IBM commercial computing and DEC minicomputer line and CTSS timesharing.
+- A241 (index 5, 2026-07-16): Aerospace Simulation and Real-Time Systems. Link Trainer through analog and digital flight simulation, hardware-in-the-loop testing with iron bird test rigs, real-time operating systems as distinct discipline including VxWorks and ARINC 653, distributed interactive simulation including SIMNET DIS HLA and Live Virtual Constructive framework.
+- A242 (index 6, 2026-07-17): The Apollo Guidance Computer. Instrumentation Laboratory at MIT under Draper with Polaris Poseidon Trident lineage, guidance problem across mission phases at total delta-V 15-18 km/s, AGC hardware including Fairchild 4711 with 4100 IC packages at 85K IPS and 2048/36864 words core memory, core rope memory hand-woven at Raytheon, AGC software at ~350 programmers with Hal Laning executive, real-time executive and priority scheduling, Apollo 11 1201/1202 alarms during descent.
+- A243 (index 7, 2026-07-18): ARPANET and Networking Origins. Advanced Research Projects Agency IPTO under Licklider, packet switching from Baran RAND and Davies NPL, ARPANET design with Roberts as IPTO director and BBN Honeywell DDP-516 IMPs, first four nodes and "LO" first message 29 October 1969, NCP and TCP/IP protocols, ARPANET decommissioning through NSFNET to commercial internet.
+- A244 (index 8, 2026-07-19): Space Shuttle Software as Engineering Landmark. Shuttle avionics architecture with four PASS plus one BFS on IBM AP-101, PASS at IBM Federal Systems Division at ~400000 lines HAL/S, BFS Rockwell dissimilar-redundancy development and STS-1 sync race, HAL/S programming language, IBM FSD software process with 0.11 to 0.004 defects per KLOC and Fagan inspection, operational record 135 missions 1981-2011 with zero software-caused loss.
+- A245 (index 9, 2026-07-20): Safety-Critical Software. Emergence of the discipline from Apollo and Shuttle experience with Nancy Leveson Therac-25 analysis and STAMP methodology, industry consensus process standards including RTCA and ISO 26262 and IEC 62304 and IEC 60880 and IEC 61511, formal verification including model checking and theorem proving and abstract interpretation with Astrée on Airbus A380, model-based development including Simulink and SCADE, process tensions between waterfall and iterative with V-model as reference architecture.
+- A246 (index 10, 2026-07-21): Silicon Valley from Defense Contracting. Prewar Bay Area engineering environment, Terman at Radio Research Laboratory and return to Stanford, Stanford Industrial Park 1951 and agglomeration economics, semiconductor origins and Fairchild diaspora with Fairchildren cascade producing 30+ successor companies, commercial transition of 1970s with microprocessors and personal computers and venture capital, residual defense presence and 2010s-2020s renewal through Palantir Anduril and SpaceX.
+- A247 (index 11, 2026-07-22): Software-Defined Aerospace and Autonomy. Fly-by-wire flight control from Concorde through F-16 to Airbus A320 with control-law transfer functions, glass cockpit displays with ARINC 661 and latency budgets, software-defined radios with Nyquist sampling and direct-conversion architectures, unmanned aerial vehicles with remote piloting and autonomous operation, autonomous mission planning with Dijkstra A-star and RRT algorithms, software-mediated aerospace platform with 80-90% F-35 software fraction.
+- A248 (index 12, 2026-07-23): Contemporary Snapshot and Extrapolation. Current state of coupling with reversed dual-use direction and near-saturation software fraction and machine learning integration as new frontier, machine learning in aerospace with Chinchilla-form scaling law, autonomous swarming with Ukraine 2022-2026 operational experience, contemporary forcing pressures including semiconductor concentration and quantum computing and cyber-physical security, extrapolation framework applied forward across 2026-2050 window, five competing extrapolation strategies (Kotkin demographic, Sachs resource-limits, Perez techno-economic-cycle, Smil energy-transition, Zeihan geopolitical), load-bearing open questions, and series-closing conclusion.
 
 ### Equation Density
 
-Nine display equations. Coupled dynamical system for $H$ and $S$ with two component solutions establishes the mechanism. Moore's Law doubling establishes the substrate cadence. Wright learning-curve equation establishes the spillover formalism. Real-time deadline constraint establishes the aerospace-versus-commercial distinction. Rate monotonic utilization bound formalizes admission control for hard real-time systems. Software size growth equation establishes the software complexity constraint. Distributed across seven of the article's twelve sections, one equation per section on average with the mechanism section carrying four.
+One hundred twenty display equations across twelve articles. A237 opener heaviest at eighteen equations establishing the framework. Case articles A238 through A247 carry seven to fourteen equations each. A248 closer carries seven with appropriate lightness for the snapshot-and-extrapolation role.
 
 ### Reference Density
 
-Thirty-eight references across four categories. Nine books including Ceruzzi 2003 History of Modern Computing, Mindell 2008 Digital Apollo, Redmond and Smith 2000 From Whirlwind to MITRE, Tomayko 1988 Shuttle Software, Bowen 1998 Radar Days, Boehm 1981 Software Engineering Economics, Small 2001 Analogue Alternative, Liu 2000 Real-Time Systems, Leslie 1993 Cold War and American Science. Eleven reference URLs including Moore 1965 Computer History Museum, Kilby integrated circuit patent, Hollerith 1889 patent, Ford Instrument Mark 1 fire-control computer maritime archive, Wright brothers 1903 Smithsonian, Turing at Bletchley Park, Flowers Colossus at The National Museum of Computing, Draper Instrumentation Laboratory Wikipedia, Boeing 777, F-35 Lockheed Martin, RTCA. Five related posts A112 A200 A203 A206 A215. Thirteen primary research papers including Bardeen Brattain Shockley 1948 transistor, Hopkins Alonso Adcock 1965 Apollo Guidance Computer executive, Everett 1951 Whirlwind, Liu and Layland 1973 rate monotonic, Baran 1964 packet switching, Davies 1966 packet switching, Bush 1931 differential analyzer, Bromley 1990 analyzer history, Moulton 1926 ballistic tables, Madden and Rone 1984 Shuttle avionics, Wright 1936 learning curve, Nagy Farmer Bui Trancik 2013 empirical learning curves, Lehman 1980 software evolution.
-
-Anchor integrity verified: thirty-eight defined, thirty-eight cited, zero unused, zero missing.
+Two hundred eighty-six total references across twelve articles. A237 opener carries fifty-seven references including thirteen primary research papers. Case articles A238 through A248 carry sixteen to twenty-five references each. Primary source anchors span aerospace history (Kelly Pilot Maker, Mindell Digital Apollo, Hodges Alan Turing, Copeland Colossus and Essential Turing, Redmond and Smith Whirlwind and From Whirlwind to MITRE, Leveson Safeware and Engineering a Safer World, Gillmor Terman, Berlin Man Behind the Microchip, Lécuyer Making Silicon Valley, Riordan and Hoddeson Crystal Fire), technical references (Cousot and Cousot abstract interpretation, Liu and Layland rate monotonic, Clarke and Emerson model checking, Halbwachs Lustre, McCabe cyclomatic, Chilenski and Miller MC/DC, Fagan inspection, Sperling and Weinstock IBM FSD process, Kaplan and Hoffmann neural scaling laws, Shor factoring), and primary program reports (Lions Ariane 5 investigation, Garman STS-1 sync race, Kolkhorst and Macina IBM Owego shuttle process, Everett Zraket Benington SAGE, Hoag Apollo guidance).
 
 ### Style Verification
 
-Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math notation, or certification vocabulary. Article title uses the standard "Main: Sub" format. Section headings mostly avoid colons, with one section heading "The Substrate: Semiconductor Manufacturing Under Defense Demand" using a colon consistent with the article-title convention. Debug tags `<!-- A237 -->` and `console.log("A237")` present at lines 13 and 14. Acronyms spelled out on first use: SAGE, ARPANET, PASS, MIT, ENIAC.
+Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math notation, or certification vocabulary across all twelve articles. Debug tags `<!-- Axxx -->` and `console.log("Axxx")` present in all twelve at consistent positions on lines 13 and 14. Categories `history technology aerospace` uniform. Series metadata `co_development_aerospace_computing` slug with `Aerospace, Programming Languages, and Information Technology Co-Development` title and indices one through twelve. Front-matter titles use "Main: Sub" format placing shared main title before per-article subtitle.
 
-### URL Verification
+### Cross-Reference and Slot Verification
 
-Thirty-two unique URLs. Twelve return HTTP 200: Smithsonian air-and-space, PLoS ONE, three NASA NTRS citations, Boeing 777, Computer History Museum Moore 1965, Lockheed F-35, two Pearson book pages, RTCA, TNMOC Colossus, Wikipedia Draper Lab. Four return HTTP 301 accepted-redirect: Columbia University Press, Bletchley Park, two Open Library. One returns HTTP 202 IEEE Xplore accepted per corpus anti-bot pattern. Twelve return HTTP 403 accepted per corpus anti-bot patterns: AIAA ARC, ACM DL, APS PhysRev, JSTOR, JHU Press, RAND, ISOC, three MIT Press pages, Maritime Park Association, one AIAA ARC learning-curve. One returns HTTP 429 accepted per corpus DTIC anti-bot pattern. Two return HTTP 503 for Google Patents (Hollerith patent US395782, Kilby patent US3138743) which is a transient rate-limit response and the patent numbers themselves are canonical.
+All post_url cross-references verified as back-references only. Article number collisions verified as none across A237-A248. Date collisions verified as none across 2026-07-12 through 2026-07-23. Series fits flush after A216 Keleusma self-hosting at 2026-07-11 with no adjacent post following A248 (series is at trailing edge of corpus). Categories `history technology aerospace` uniform. Reference-section four-subheading structure (Books, Reference, Related Posts, Research) uniform after series-consistency pass added the Reference subsection to A248.
 
-### Publication Pattern
+### Two-Commit Publication Pattern
 
-Four draft-stage commits: initial draft (8138b30), equation-density review adding Wright learning-curve equation (e4d08b8), reference-density review adding Lehman software evolution and fixing Draper URL (9698df2), publication review softening Moore's Law aerospace-parity claim and removing prose forward-reference (72e4856). Publish commit follows with `git mv` moving the draft to `_posts/2026-07-12-framing_and_the_co_development_mechanism.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
+Standard two-commit batch publication for the eleven-article A238-A248 batch (A237 was previously published as individual publication).
+
+- Draft-stage commits: fifty-plus commits accumulated over the 2026-07-16 and 2026-07-17 drafting period covering per-article initial drafts, equation-density reviews, reference-density reviews, publication reviews, and the series consistency pass.
+- Publish commit follows with `git mv` batch moving A238-A248 to `_posts/` with editorial-date prefixes plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
+
+Under future:false config, articles dated 2026-07-13 through 2026-07-17 become visible immediately upon push (five articles including today 2026-07-17). Articles dated 2026-07-18 through 2026-07-23 unfold naturally over the following week as their editorial dates arrive (six articles).
 
 Commits local pending push authorization per human pilot instruction.
 
@@ -59,31 +63,31 @@ Commits local pending push authorization per human pilot instruction.
 
 ## Article Number State
 
-- Next available article number: A238.
-- A237 published as the first article of the twelve-article co-development series at editorial date 2026-07-12 (backdated four days under rolling-publication catch-up).
-- A238-A248 pending, one per day at editorial dates 2026-07-13 through 2026-07-23.
+- Next available article number: A249.
+- A237 published earlier as individual publication with post-publication amendments.
+- A238-A248 published as batch in publish commit following the series consistency pass.
+- Twelve-article series complete.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Review A237 in `_posts/2026-07-12-framing_and_the_co_development_mechanism.markdown` before push authorization. The opener is 254 lines and establishes the co-development mechanism, semiconductor substrate, real-time and reliability constraints, software complexity constraint, six-axis framework, preindustrial baseline, and series roadmap for the eleven planned subsequent articles.
-- Authorize push when ready. The article dated 2026-07-12 will become visible immediately upon deployment since its editorial date has already passed (today is 2026-07-16).
-- Confirm the one-per-day drafting cadence for A238 through A248 or provide alternative pacing. Under strict one-per-day cadence starting tomorrow, the series will complete on 2026-07-27 with all articles backdated by four days at time of publication.
-- Verify the GitHub Actions deploy completes without errors after the push. A237 uses `{% post_url %}` cross-references to five prior corpus articles, all deployed.
-- Review the published article at the permalink once the deploy completes. Base URL pattern is `https://sgeos.github.io/history/technology/aerospace/2026/07/12/framing_and_the_co_development_mechanism.html`.
+- Verify the GitHub Actions deploy completes without errors after the push. The series uses `{% post_url %}` cross-references extensively across all twelve articles plus references outside the series to A112 fixed-wing UAV, A200 HDL history, A203 HDL state of practice, A206 PL Theory arc opener, and A215 PL Theory 2020s which are already deployed.
+- Review the published series at the permalinks once the deploy completes. Base URL pattern is `https://sgeos.github.io/history/technology/aerospace/2026/07/DD/SLUG.html` per each article's date and slug.
+- Note that articles dated 2026-07-18 through 2026-07-23 will remain hidden until their editorial dates arrive under the future:false config. If immediate visibility of the tail-end articles is desired, edit `_config.yml` to set `future: true` and rebuild.
+- The series roadmap in A237 was written before the specific per-article subtitles were finalized to Main:Sub format across the batch. Consider whether to update it if consistency between opener and delivered subtitles is desired.
 
 ---
 
 ## Notes
 
-- Next available article number: A238.
+- Next available article number: A249.
 - 0 release candidates.
-- 0 stubs.
-- Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A237 across the combined article number space.
-- Corpus size 237 posts, editorial dates span 2016 through 2026-07-12.
+- 0 stubs in series drafts. Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
+- Published through A248 across the combined article number space.
+- Corpus size 248 posts, editorial dates span 2016 through 2026-07-23.
 - Series slug `co_development_aerospace_computing`, series title "Aerospace, Programming Languages, and Information Technology Co-Development."
-- Certification barrier compliance verified. Zero certification vocabulary occurrences in A237.
+- Certification barrier compliance verified. Zero certification vocabulary occurrences series-wide.
 - All scratch confined to project-local `tmp/` per recorded preference.
 - Blog deploys through GitHub Actions with the post-build pandoc PDF/EPUB generation pipeline from commit db3bc37 exercised against the full corpus.
+- Series is the second twelve-article back-dated batch in the corpus after A225-A236 Industrialization Waves.
