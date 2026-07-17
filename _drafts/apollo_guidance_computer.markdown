@@ -27,7 +27,11 @@ The Apollo guidance contract awarded to the Instrumentation Laboratory in August
 
 ## The Guidance Problem
 
-The Apollo mission required navigation across multiple regimes with substantially different guidance requirements. Translunar coast covered approximately three days across roughly 400,000 kilometers of free-fall trajectory under Earth-Moon gravity, requiring small mid-course correction burns for trajectory refinement. Lunar orbit insertion required a delta-V of approximately 900 meters per second executed precisely at pericynthion of the approach trajectory to enter a stable lunar orbit. Powered descent to the lunar surface required continuously varying thrust and attitude control across approximately 12 minutes from powered-descent initiation to touchdown. Lunar ascent, rendezvous with the orbiting command module, and transearth injection each imposed similar guidance requirements at similar delta-V scales.
+The Apollo mission required navigation across multiple regimes with substantially different guidance requirements. Translunar coast covered approximately three days across roughly 400,000 kilometers of free-fall trajectory under Earth-Moon gravity, requiring small mid-course correction burns for trajectory refinement. Lunar orbit insertion required a delta-V computed from the vis-viva relation between the approach hyperbolic velocity and the desired lunar orbit velocity,
+
+$$\Delta V_{\text{LOI}} = \sqrt{v_\infty^2 + \frac{2\mu_M}{r_p}} - \sqrt{\frac{\mu_M}{r_p} \left(1 + \frac{r_p - r_a}{r_p + r_a} + 1\right)}$$
+
+with lunar gravitational parameter $\mu_M \approx 4.9 \times 10^{12}$ cubic meters per second squared and periapsis and apoapsis radii $r_p$ and $r_a$ appropriate to the target orbit, yielding an operational value of approximately 900 meters per second at the specific Apollo lunar orbit geometries. The burn had to be executed precisely at pericynthion of the approach trajectory to enter a stable lunar orbit. Powered descent to the lunar surface required continuously varying thrust and attitude control across approximately 12 minutes from powered-descent initiation to touchdown. Lunar ascent, rendezvous with the orbiting command module, and transearth injection each imposed similar guidance requirements at similar delta-V scales.
 
 The delta-V budget for the total Apollo lunar mission, summed across all phases, approaches
 
@@ -39,7 +43,11 @@ $$\Delta V = v_e \ln\left(\frac{m_0}{m_f}\right)$$
 
 with effective exhaust velocity $v_e$ of order 3,000 meters per second for the storable-propellant service propulsion system engines used on the command module. Executing this delta-V budget across the mission phases while maintaining pointing accuracy sufficient for scientific observation, redundant navigation across star-tracker updates and inertial reference alignment, and closed-loop control through the powered-descent and ascent phases required computational capability substantially beyond what pre-Apollo aerospace computers had demonstrated.
 
-The specific novelty of Apollo guidance was the closed-loop autonomous operation of the guidance computer through powered maneuvers. Previous ballistic missile guidance systems computed a firing solution before launch and executed it open-loop through burnout. Apollo required the guidance computer to compute new solutions continuously during powered flight, incorporating updated inertial measurements and radar altimeter returns into revised trajectory plans that fed back into engine throttle commands, gimbal commands, and reaction control system commands. This closed-loop autonomous operation was the specific requirement that drove the AGC design.
+The specific novelty of Apollo guidance was the closed-loop autonomous operation of the guidance computer through powered maneuvers. Previous ballistic missile guidance systems computed a firing solution before launch and executed it open-loop through burnout. Apollo required the guidance computer to compute new solutions continuously during powered flight, incorporating updated inertial measurements and radar altimeter returns into revised trajectory plans that fed back into engine throttle commands, gimbal commands, and reaction control system commands. The Klumpp lunar descent guidance law formulated in [Klumpp 1971][research_klumpp_1971] specified the commanded throttle profile as a quartic polynomial in time-to-go,
+
+$$\ddot{\mathbf{r}}_{\text{cmd}}(t) = \mathbf{c}_0 + \mathbf{c}_1 (t_{\text{go}} - t) + \mathbf{c}_2 (t_{\text{go}} - t)^2 + \mathbf{c}_3 (t_{\text{go}} - t)^3$$
+
+with vector coefficients $\mathbf{c}_i$ determined by boundary conditions on final position, velocity, and acceleration at the desired landing point. The polynomial form enabled closed-form solution recomputation at each guidance cycle rather than iterative optimization, which fit within the AGC computational budget. This closed-loop autonomous operation was the specific requirement that drove the AGC design.
 
 ## AGC Hardware
 
@@ -49,7 +57,15 @@ The AGC operated on 16-bit words consisting of 15 bits of data plus one parity b
 
 $$r_{\text{AGC}} = \frac{1}{T_{\text{cycle}}} \approx \frac{1}{11.7 \times 10^{-6} \text{ s}} \approx 8.5 \times 10^{4} \text{ instructions per second}$$
 
-which was several orders of magnitude below contemporary ground-based computers but adequate for the guidance loops the AGC needed to close. Memory consisted of 2,048 words of erasable magnetic-core memory and 36,864 words of read-only core rope memory. The core-rope construction, treated in detail in the next section, gave the AGC a specific set of engineering trade-offs that influenced software design.
+which was several orders of magnitude below contemporary ground-based computers but adequate for the guidance loops the AGC needed to close. Memory consisted of 2,048 words of erasable magnetic-core memory and 36,864 words of read-only core rope memory, giving a total capacity of
+
+$$C_{\text{AGC}} = (2{,}048 + 36{,}864) \cdot 15 \text{ bits} \approx 5.8 \times 10^{5} \text{ bits}$$
+
+or about 73 kilobytes in modern units. Energy consumption per instruction, dividing the 55 watts of electrical power by the instruction rate, was
+
+$$E_{\text{op, AGC}} = \frac{P}{r_{\text{AGC}}} \approx \frac{55 \text{ W}}{85{,}000 \text{ IPS}} \approx 650 \text{ microjoules per instruction}$$
+
+roughly five orders of magnitude below the 30 joules per addition of the ENIAC treated in [A238][related_post_a238_pre_war_computing] and roughly seven orders of magnitude above the picojoule budgets of contemporary integrated circuits. The AGC marks an approximate midpoint on the energy-per-operation trajectory across the digital era. The core-rope construction, treated in detail in the next section, gave the AGC a specific set of engineering trade-offs that influenced software design.
 
 The AGC used the Block II configuration on all Apollo missions from Apollo 7 in October 1968 onward. The earlier Block I configuration flew on the uncrewed Apollo 4 and Apollo 6 missions and was retained in reduced form for ground testing. The Block II AGC weighed 32 kilograms, consumed 55 watts of electrical power, occupied approximately 24 liters of volume, and operated across the temperature range from 0 degrees Celsius to 70 degrees Celsius. These physical parameters constrained the specific implementation choices in ways that ground-based computers of the same era did not face.
 
@@ -81,7 +97,11 @@ Program alarms in the AGC surfaced as numeric codes on the astronauts' DSKY disp
 
 ## Landing and the 1201 and 1202 Alarms
 
-The Apollo 11 lunar module descent to the Mare Tranquillitatis on 20 July 1969 produced the first operational occurrence of the 1201 and 1202 alarms in flight. The lunar module rendezvous radar had been configured with its data output feeding the AGC while its primary purpose during descent was inactive. The rendezvous radar data feed generated approximately 12,800 additional executive cycles per second beyond the nominal descent workload, which pushed the AGC into the overload region and produced the alarms. Mission Control at the Johnson Space Center in Houston, and specifically the guidance officer Steve Bales working from an alarm-code decision matrix prepared by the software team, correctly identified the alarms as non-catastrophic and authorized continued descent within seconds. The lunar module completed the landing successfully despite the alarms.
+The Apollo 11 lunar module descent to the Mare Tranquillitatis on 20 July 1969 produced the first operational occurrence of the 1201 and 1202 alarms in flight. The lunar module rendezvous radar had been configured with its data output feeding the AGC while its primary purpose during descent was inactive. The rendezvous radar data feed generated approximately 12,800 additional executive cycles per second beyond the nominal descent workload, pushing the AGC utilization to approximately
+
+$$U_{\text{descent}} = \frac{r_{\text{nominal}} + r_{\text{radar}}}{r_{\text{AGC}}} \approx \frac{72{,}000 + 12{,}800}{85{,}000} \approx 1.00$$
+
+at or slightly above the machine's capacity, from a nominal descent-phase utilization of approximately 85 percent. Mission Control at the Johnson Space Center in Houston, and specifically the guidance officer Steve Bales working from an alarm-code decision matrix prepared by the software team, correctly identified the alarms as non-catastrophic and authorized continued descent within seconds. The lunar module completed the landing successfully despite the alarms.
 
 The specific engineering interpretation of the 1201 and 1202 alarms is that the AGC's executive design worked as intended. The overload was detected. The response was graceful degradation rather than crash. The currently active guidance jobs continued to execute correctly. The rejected additional jobs were the rendezvous radar update tasks that were not required for the current descent phase. The alarm-decision infrastructure that permitted rapid mission-control interpretation was itself an artifact of the software engineering discipline that treated all reasonably foreseeable alarm codes as advance-planned decision points rather than as ad hoc surprises.
 
@@ -95,7 +115,11 @@ The first axis is numerical computation demand. The AGC computed inertial naviga
 
 The second axis is real-time control. The AGC executed the guidance loops in real time at rates from 1 to 50 Hertz depending on the specific loop and mission phase. The executive scheduling policy, the priority-based admission control, and the specific engineering practices for interrupt handling and task synchronization all became standard practice in later aerospace real-time systems.
 
-The third axis is reliability and verification. The AGC's operational record of no computer-caused mission losses across nine crewed lunar missions is one of the load-bearing empirical anchors for the reliability achievable by safety-critical software. Core rope memory contributed by making the flight software physically unmodifiable in flight. The extensive All-Digital Simulation testing contributed by exercising the flight code against realistic mission profiles before flight. The specific engineering practices of design review, coding standards, and version control together produced the reliability record without any single practice being solely responsible.
+The third axis is reliability and verification. The AGC's operational record of no computer-caused mission losses across nine crewed lunar missions is one of the load-bearing empirical anchors for the reliability achievable by safety-critical software. Aggregated across the mission durations of approximately 200 to 300 hours each, the operational record supplies an empirical AGC mean-time-between-failure lower bound of
+
+$$T_{\text{AGC, MTBF}} \gtrsim N_{\text{missions}} \cdot T_{\text{per mission}} \approx 9 \cdot 250 \text{ hours} \approx 2{,}250 \text{ hours}$$
+
+with the true value bounded below only by the observed zero failures rather than characterized by them. Core rope memory contributed by making the flight software physically unmodifiable in flight. The extensive All-Digital Simulation testing contributed by exercising the flight code against realistic mission profiles before flight. The specific engineering practices of design review, coding standards, and version control together produced the reliability record without any single practice being solely responsible.
 
 The fourth axis is networking and distribution. The AGC did not participate in a computer network in the modern sense. It communicated with the Manned Space Flight Network of ground stations through the spacecraft's telemetry subsystem for state monitoring and command uplink, and it communicated with the ground during mission control for status reporting and updated navigation vectors. The specific bandwidth used was small by contemporary standards, on the order of kilobits per second uplink and comparable downlink.
 
