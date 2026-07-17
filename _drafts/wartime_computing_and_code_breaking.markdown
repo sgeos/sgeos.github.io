@@ -27,6 +27,12 @@ $$N_{\text{Enigma}} = P(5, 3) \cdot 26^3 \cdot \frac{26!}{6! \cdot 10! \cdot 2^{
 
 where $P(5,3) = 60$ counts the arrangements of three rotors drawn from a set of five, $26^3 = 17{,}576$ counts the starting positions, and the last factor counts the ways to plug ten pairs of letters on the twenty-six-position plugboard. This keyspace was large enough to defeat brute-force enumeration by any pre-war computational means. The Enigma design was believed by its German operators to be effectively unbreakable, and the intelligence value of this belief lay in the messages the operators were willing to send under its cover.
 
+The theoretical bound on cipher security was not established until [Shannon 1949][research_shannon_secrecy_1949] published his Communication Theory of Secrecy Systems. Shannon showed that perfect secrecy, meaning that the ciphertext gives an eavesdropper no information about the plaintext, requires
+
+$$H(K) \ge H(P)$$
+
+where $H(K)$ is the Shannon entropy of the key and $H(P)$ is the entropy of the plaintext. For a message of $n$ characters over an alphabet of $m$ characters, plaintext entropy per message can reach $n \log_2 m$ bits, while Enigma's daily key carries approximately $\log_2 (1.6 \times 10^{20}) \approx 67$ bits. Any message longer than about ten characters therefore falls outside the perfect-secrecy regime and is in principle vulnerable to cryptanalysis given sufficient computational effort and known-plaintext exploits. The one-time pad, which does satisfy perfect secrecy by using a key of length equal to the message, was known but was operationally impractical for high-volume military traffic.
+
 ## Bletchley Park and the Bombes
 
 The initial break of Enigma was accomplished by Polish mathematicians at the Cipher Bureau in Warsaw during the 1930s. [Rejewski Zygalski and Różycki][ref_polish_cryptanalysis] used a combination of theoretical analysis, exploitation of German operational procedure that repeated the message key twice at the beginning of each transmission, and an electromechanical device called the Bomba to identify daily rotor settings. The Polish work was transferred to the British Government Code and Cypher School in July 1939, weeks before the war began, and became the foundation for the substantially expanded effort at Bletchley Park.
@@ -35,19 +41,31 @@ The British Bombe designed by [Turing][ref_turing_bletchley] and Gordon Welchman
 
 $$r_{\text{Bombe}} \approx \frac{N_{\text{rotor configurations}}}{T_{\text{run}}} \approx \frac{60 \cdot 17{,}576}{20 \text{ minutes}} \approx 900 \text{ configurations per second}$$
 
-giving a total daily throughput per machine of tens of millions of configurations. Bletchley Park operated approximately 200 Bombes by 1943, producing a combined throughput sufficient to break the daily Enigma keys within hours of intercepting the first messages, per the accounts in [Hodges 1983][book_hodges_turing_enigma] and in the collected primary documents in [Copeland 2004][book_copeland_essential_turing].
+giving a total daily throughput per machine of tens of millions of configurations. Bletchley Park operated approximately 200 Bombes by 1943, producing a combined daily throughput of approximately
+
+$$R_{\text{Bletchley}} \approx r_{\text{Bombe}} \cdot N_{\text{Bombes}} \cdot T_{\text{operational hours}} \approx 900 \cdot 200 \cdot 20 \cdot 3600 \approx 1.3 \times 10^{10} \text{ configurations per day}$$
+
+sufficient to break the daily Enigma keys within hours of intercepting the first messages, per the accounts in [Hodges 1983][book_hodges_turing_enigma] and in the collected primary documents in [Copeland 2004][book_copeland_essential_turing].
 
 The Bombe was electromechanical rather than electronic and used its rotor-emulation mechanism to search the keyspace by physical rotation of dozens of drum sets. The machines were operated by Wrens of the Women's Royal Naval Service under strict security. Bombe operations directly supported convoy protection in the Battle of the Atlantic by locating German submarines through decrypted position reports, and supported bombing operations by identifying target defenses and weather conditions.
 
 ## Lorenz and Colossus
 
-The German High Command used a different cipher for strategic communications between senior commanders. The Lorenz SZ40 and SZ42 cipher machines, known at Bletchley Park as "Tunny," implemented a stream cipher on standard five-bit teleprinter code using twelve keying wheels arranged in three groups. The wheels combined into a key stream that was added modulo two to the plaintext bits. The keyspace for a single message setting exceeded the Enigma keyspace by several orders of magnitude, and the Tunny traffic was substantially more valuable strategically because it carried senior-level orders.
+The German High Command used a different cipher for strategic communications between senior commanders. The Lorenz SZ40 and SZ42 cipher machines, known at Bletchley Park as "Tunny," implemented a stream cipher on standard five-bit teleprinter code using twelve keying wheels arranged in three groups. The wheels combined into a key stream that was added modulo two to the plaintext bits according to the Vernam cipher construction
+
+$$c_i = p_i \oplus k_i$$
+
+where $p_i$ is the $i$-th plaintext bit, $k_i$ is the corresponding key-stream bit generated by the wheel machine, and $\oplus$ is bitwise addition modulo two. The Vernam cipher is unconditionally secure when the key stream is truly random and used only once. Tunny's key stream was not random but generated deterministically from a finite wheel state, which meant the same key stream could be reconstructed from a known-plaintext break and then applied to other messages sharing overlapping key. The keyspace for a single message setting exceeded the Enigma keyspace by several orders of magnitude, and the Tunny traffic was substantially more valuable strategically because it carried senior-level orders.
 
 Cryptanalysis of Tunny was achieved by Bletchley Park mathematicians including [Bill Tutte][ref_tutte_tunny] who reconstructed the machine structure from intercepted traffic without ever seeing the machine itself. The initial machine solution was accomplished by manual and semi-manual methods and by an electromechanical device called the Heath Robinson. The Robinson used two tapes moving at high speed past photocell readers to correlate the intercepted traffic against a candidate wheel setting. Robinson performance was limited by tape stretching, tape breakage, and photocell response time.
 
 [Tommy Flowers][ref_flowers_colossus] of the General Post Office Research Station at Dollis Hill proposed replacing the Robinson tapes and photocells with an all-electronic machine that generated the candidate key stream internally using thermionic valves. Flowers's proposal was received skeptically at Bletchley Park because valve reliability was widely doubted for machines with valve counts above a few hundred. Flowers's telephone-exchange engineering experience gave him confidence that valve reliability could be managed by leaving the valves powered continuously to avoid thermal cycling, which was the dominant failure mode. He committed his own laboratory to building a prototype at his own initiative.
 
-The Colossus Mark 1 was operational at Bletchley Park in February 1944 with approximately 1,600 valves. The Colossus Mark 2, delivered in June 1944 in time for the Normandy invasion, contained approximately 2,400 valves and processed the intercepted teleprinter tape at 5,000 characters per second, with pattern comparison operating at effectively 25,000 characters per second through parallel processing across five bit streams. Ten Colossi were built by the end of the war. Colossus performed statistical tests including cross-correlation between the ciphertext and candidate wheel settings, computing statistics of the form
+The Colossus Mark 1 was operational at Bletchley Park in February 1944 with approximately 1,600 valves. The Colossus Mark 2, delivered in June 1944 in time for the Normandy invasion, contained approximately 2,400 valves and processed the intercepted teleprinter tape at 5,000 characters per second, with pattern comparison operating at effectively
+
+$$r_{\text{Colossus Mk 2}} = N_{\text{parallel streams}} \cdot r_{\text{tape}} = 5 \cdot 5{,}000 \approx 25{,}000 \text{ characters per second}$$
+
+through parallel processing across five bit streams corresponding to the five bits of the ITA2 teleprinter alphabet. Ten Colossi were built by the end of the war. Colossus performed statistical tests including cross-correlation between the ciphertext and candidate wheel settings, computing statistics of the form
 
 $$Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)$$
 
@@ -66,6 +84,16 @@ Both the British and American cryptanalytic efforts operated under strict secrec
 ## Manhattan Project Computing
 
 The Manhattan Project consumed the largest concentration of scientific computing labor of any wartime program. The design of the plutonium implosion device required detailed hydrodynamic simulation of the shockwave that compressed the plutonium core to supercritical density. Analytic solutions were not available. Numerical solutions required calculations at a scale that human computer teams alone could not sustain within the wartime schedule.
+
+The criticality condition for a nuclear chain reaction is expressed through the effective neutron multiplication factor
+
+$$k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}$$
+
+where $\nu$ is the mean number of neutrons produced per fission, $\Sigma_f$ is the macroscopic fission cross-section, $\Sigma_c$ is the macroscopic capture cross-section, and $P_L$ is the neutron leakage probability. A configuration with $k_{\text{eff}} > 1$ sustains an exponentially growing chain reaction. The implosion problem required raising $k_{\text{eff}}$ from subcritical to supercritical in a few microseconds by compressing the plutonium core so that $P_L$ drops sharply while $\Sigma_f$ rises. The hydrodynamic shockwave that accomplishes the compression follows approximately adiabatic behavior under the polytropic-gas approximation
+
+$$P \cdot V^\gamma = \text{constant}$$
+
+with adiabatic index $\gamma$ appropriate to the compressed material, though the actual computation used substantially more detailed equations of state and radiation-transport terms. Both quantities required numerical evaluation at every point of a three-dimensional spatial grid at every time step of the microsecond-scale implosion, which is what produced the computational demand.
 
 The Los Alamos computing group under Richard Feynman coordinated the IBM tabulating machine calculations. Feynman's own accounts, collected in [Feynman 1985][book_feynman_los_alamos], describe a workflow in which physicists specified the calculation, human computer teams performed the initial arithmetic on desk calculators, and IBM machines performed the repetitive parallel arithmetic across large batches of intermediate results. The batch structure of the IBM tabulating machines matched the structure of the Manhattan Project calculations, which were dominated by grid-based finite-difference schemes on regular arrays.
 
@@ -134,6 +162,7 @@ The next article in the series treats the transition from wartime to peacetime c
 - [Metropolis 1987][research_metropolis_1987]
 - [Metropolis and Nelson 1982][research_metropolis_nelson_1982]
 - [Randell 1980][research_randell_1980]
+- [Shannon 1949 Secrecy Systems][research_shannon_secrecy_1949]
 - [Turing 1936][research_turing_1936]
 
 [book_copeland_colossus]: https://global.oup.com/academic/product/colossus-9780199578146
@@ -155,4 +184,5 @@ The next article in the series treats the transition from wartime to peacetime c
 [research_metropolis_1987]: https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-88-9067
 [research_metropolis_nelson_1982]: https://ieeexplore.ieee.org/document/4640726
 [research_randell_1980]: https://ieeexplore.ieee.org/document/4640474
+[research_shannon_secrecy_1949]: https://ieeexplore.ieee.org/document/6769090
 [research_turing_1936]: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
