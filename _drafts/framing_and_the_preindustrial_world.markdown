@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Framing and the Preindustrial World"
+title: "Industrialization Waves and Geopolitical Positioning: Framing and the Preindustrial World"
 date: 2026-03-15 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

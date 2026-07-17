@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Continental European Followers"
+title: "Industrialization Waves and Geopolitical Positioning: Continental European Followers"
 date: 2026-03-17 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Postwar Japan and West Germany"
+title: "Industrialization Waves and Geopolitical Positioning: Postwar Japan and West Germany"
 date: 2026-03-21 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Contemporary Snapshot and Extrapolation"
+title: "Industrialization Waves and Geopolitical Positioning: Contemporary Snapshot and Extrapolation"
 date: 2026-03-26 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "First-Mover Britain"
+title: "Industrialization Waves and Geopolitical Positioning: First-Mover Britain"
 date: 2026-03-16 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves
