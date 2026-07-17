@@ -19,11 +19,11 @@ The AGC sat inside the broader Apollo guidance, navigation, and control system t
 
 ## The Instrumentation Laboratory at MIT
 
-The MIT Instrumentation Laboratory was established in 1932 by Charles Stark Draper as a research group within the MIT Department of Aeronautical Engineering. Draper's foundational contribution was inertial guidance, the technique of dead-reckoning navigation using gyroscopes and accelerometers to integrate acceleration into velocity and position without external reference. Inertial guidance had been considered theoretically feasible since the 1920s but was believed impractical because gyroscope drift accumulated too rapidly to permit useful navigation over the durations of ballistic missile flight or spacecraft mission. Draper's laboratory demonstrated through the late 1940s and 1950s that gyroscope drift could be reduced to workable levels through mechanical, thermal, and electrical refinements, and that inertial guidance systems could be built to the accuracy and reliability required for operational deployment.
+The MIT Instrumentation Laboratory was established in 1932 by Charles Stark Draper as a research group within the MIT Department of Aeronautical Engineering. Draper's foundational contribution was inertial guidance, the technique of dead-reckoning navigation using gyroscopes and accelerometers to integrate acceleration into velocity and position without external reference. Inertial guidance had been considered theoretically feasible since the 1920s but was believed impractical because gyroscope drift accumulated too rapidly to permit useful navigation over the durations of ballistic missile flight or spacecraft mission. Draper's laboratory demonstrated through the late 1940s and 1950s that gyroscope drift could be reduced to workable levels through mechanical, thermal, and electrical refinements, and that inertial guidance systems could be built to the accuracy and reliability required for operational deployment. The historical sociology of this development, situating the Instrumentation Laboratory within the broader Cold War nuclear-missile guidance program, is treated in [MacKenzie 1990][book_mackenzie_inventing_accuracy].
 
 The Instrumentation Laboratory built the guidance systems for the Polaris submarine-launched ballistic missile, the Poseidon successor, the Trident-C4 second-generation submarine-launched ballistic missile, and the Apollo command and lunar modules. By 1961 when the National Aeronautics and Space Administration hereafter NASA awarded the Apollo guidance contract to the Instrumentation Laboratory, Draper's team had developed multi-year operational experience with the inertial-guidance discipline and had built the specific institutional capability that Apollo required. The [Draper Laboratory][ref_draper_iag] traces its lineage directly to the Instrumentation Laboratory, which was renamed the Charles Stark Draper Laboratory in 1970 and spun off from MIT as an independent nonprofit in 1973.
 
-The Apollo guidance contract awarded to the Instrumentation Laboratory in August 1961 was NASA's first Apollo contract of any kind, awarded before the launch vehicle contract, before the spacecraft contract, and before the specific mission architecture had been settled between direct ascent, earth orbit rendezvous, and lunar orbit rendezvous options. Draper's specific willingness to guarantee accurate lunar navigation, backed by a personal offer to fly the mission himself if the guidance system was ready and the astronauts were unavailable, is one of the load-bearing anecdotes of Apollo history, and it reflects the specific technical confidence the Instrumentation Laboratory had in its inertial-guidance capability.
+The Apollo guidance contract awarded to the Instrumentation Laboratory in August 1961 was NASA's first Apollo contract of any kind, awarded before the launch vehicle contract, before the spacecraft contract, and before the specific mission architecture had been settled between direct ascent, earth orbit rendezvous, and lunar orbit rendezvous options. Draper's specific willingness to guarantee accurate lunar navigation, backed by a personal offer to fly the mission himself if the guidance system was ready and the astronauts were unavailable, is one of the load-bearing anecdotes of Apollo history, and it reflects the specific technical confidence the Instrumentation Laboratory had in its inertial-guidance capability. Hoag's retrospective account of the Apollo on-board guidance, navigation, and control program in [Hoag 1976][research_hoag_1976] remains the standard primary source on the full program from initial concept through operational deployment.
 
 ## The Guidance Problem
 
@@ -67,7 +67,7 @@ $$E_{\text{op, AGC}} = \frac{P}{r_{\text{AGC}}} \approx \frac{55 \text{ W}}{85{,
 
 roughly five orders of magnitude below the 30 joules per addition of the ENIAC treated in [A238][related_post_a238_pre_war_computing] and roughly seven orders of magnitude above the picojoule budgets of contemporary integrated circuits. The AGC marks an approximate midpoint on the energy-per-operation trajectory across the digital era. The core-rope construction, treated in detail in the next section, gave the AGC a specific set of engineering trade-offs that influenced software design.
 
-The AGC used the Block II configuration on all Apollo missions from Apollo 7 in October 1968 onward. The earlier Block I configuration flew on the uncrewed Apollo 4 and Apollo 6 missions and was retained in reduced form for ground testing. The Block II AGC weighed 32 kilograms, consumed 55 watts of electrical power, occupied approximately 24 liters of volume, and operated across the temperature range from 0 degrees Celsius to 70 degrees Celsius. These physical parameters constrained the specific implementation choices in ways that ground-based computers of the same era did not face.
+The AGC used the Block II configuration on all Apollo missions from Apollo 7 in October 1968 onward. The earlier Block I configuration flew on the uncrewed Apollo 4 and Apollo 6 missions and was retained in reduced form for ground testing. The Block II AGC weighed 32 kilograms, consumed 55 watts of electrical power, occupied approximately 24 liters of volume, and operated across the temperature range from 0 degrees Celsius to 70 degrees Celsius. These physical parameters constrained the specific implementation choices in ways that ground-based computers of the same era did not face. The comprehensive technical reconstruction of the AGC architecture and instruction set is [O'Brien 2010][book_obrien_apollo_guidance_computer], which supplies the level of detail needed to interpret the surviving flight software.
 
 ## Core Rope Memory
 
@@ -79,13 +79,13 @@ The read speed of core rope was comparable to erasable core, both in the microse
 
 ## AGC Software
 
-The AGC software was developed at the Instrumentation Laboratory by a team that grew to approximately 350 programmers at peak. The team was organized by Hal Laning, who had also designed the AGC executive system, per the primary description in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965] previously cited in the framing article. The software was written in AGC assembly language with limited support from an interpretive language called INTERPRETER that provided vector and matrix operations more compactly than direct assembly would have permitted. The complete Apollo command module software, called Colossus in its final flight version, contained approximately 36,000 lines of AGC assembly. The lunar module software, called Luminary in its final flight version, contained approximately 32,000 lines. The complete source code for both packages has been preserved and is now available in public repositories, permitting detailed inspection by historians and interested programmers.
+The AGC software was developed at the Instrumentation Laboratory by a team that grew to approximately 350 programmers at peak. The team was organized by Hal Laning, who had also designed the AGC executive system, per the primary description in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965] previously cited in the framing article. The software was written in AGC assembly language with limited support from an interpretive language called INTERPRETER that provided vector and matrix operations more compactly than direct assembly would have permitted. The complete Apollo command module software, called Colossus in its final flight version, contained approximately 36,000 lines of AGC assembly. The lunar module software, called Luminary in its final flight version, contained approximately 32,000 lines. The complete source code for both packages has been preserved and is now available in public repositories, permitting detailed inspection by historians and interested programmers. The first-hand memoir of the Luminary software development is [Eyles 2018][book_eyles_sunburst_luminary], written by Don Eyles who authored substantial portions of the Luminary code including the sections active during lunar descent.
 
 The specific software engineering discipline that produced the Apollo reliability record included several elements that later became standard aerospace software practice. Detailed design reviews preceded implementation for each functional area, with formal signoff by both the software team and the mission planners who would depend on the software. Coding standards restricted permissible assembly patterns to those the reviewers had approved, reducing the space of possible errors. All code changes flowed through a version-control system that tracked every modification and identified the specific developer responsible. Extensive simulation testing exercised the software against synthetic mission profiles before flight. The digital simulation environment, hereafter referred to as All-Digital Simulation, exercised the actual flight code against a mathematical model of the spacecraft and mission environment on ground-based computers at approximately 20 times real-time speed, permitting weeks of simulated operation per day of ground testing.
 
 The AGC executive system implemented cooperative multitasking with priority-based scheduling. Programs were structured as "jobs" that could be started, suspended, and resumed under executive control. Each job carried a priority number that determined its scheduling precedence. Time-critical tasks such as attitude control and radar update ran at high priority. Background tasks such as star sighting for inertial reference alignment ran at low priority. This priority structure formed the specific engineering context in which the 1201 and 1202 program alarms occurred during the Apollo 11 descent, treated in the landing section below.
 
-The specific software development process for the AGC used both a program office and a technical review process. Margaret Hamilton led the software engineering group after Laning's initial phase, and her subsequent advocacy for software engineering as a distinct discipline drew directly on the Apollo experience. The formalization of software engineering as a professional discipline, treated in [A240][related_post_a240_early_cold_war_sage] in the context of SAGE and the System Development Corporation, extended through Apollo and later programs to become the standard vocabulary of aerospace software work.
+The specific software development process for the AGC used both a program office and a technical review process. Margaret Hamilton led the software engineering group after Laning's initial phase, and her subsequent advocacy for software engineering as a distinct discipline drew directly on the Apollo experience, documented in her own retrospective account in [Hamilton and Hackler 2018][research_hamilton_hackler_2018] as one of the direct historical sources of the Universal Systems Language framework she later developed. The formalization of software engineering as a professional discipline, treated in [A240][related_post_a240_early_cold_war_sage] in the context of SAGE and the System Development Corporation, extended through Apollo and later programs to become the standard vocabulary of aerospace software work.
 
 ## Real-Time Executive and Priority Scheduling
 
@@ -97,7 +97,7 @@ Program alarms in the AGC surfaced as numeric codes on the astronauts' DSKY disp
 
 ## Landing and the 1201 and 1202 Alarms
 
-The Apollo 11 lunar module descent to the Mare Tranquillitatis on 20 July 1969 produced the first operational occurrence of the 1201 and 1202 alarms in flight. The lunar module rendezvous radar had been configured with its data output feeding the AGC while its primary purpose during descent was inactive. The rendezvous radar data feed generated approximately 12,800 additional executive cycles per second beyond the nominal descent workload, pushing the AGC utilization to approximately
+The Apollo 11 lunar module descent to the Mare Tranquillitatis on 20 July 1969 produced the first operational occurrence of the 1201 and 1202 alarms in flight. The lunar module rendezvous radar had been configured with its data output feeding the AGC while its primary purpose during descent was inactive, per the first-hand account in [Eyles 2004][research_eyles_2004] by the Instrumentation Laboratory engineer who wrote much of the affected descent software. The rendezvous radar data feed generated approximately 12,800 additional executive cycles per second beyond the nominal descent workload, pushing the AGC utilization to approximately
 
 $$U_{\text{descent}} = \frac{r_{\text{nominal}} + r_{\text{radar}}}{r_{\text{AGC}}} \approx \frac{72{,}000 + 12{,}800}{85{,}000} \approx 1.00$$
 
@@ -137,8 +137,11 @@ The next article in the series treats the Advanced Research Projects Agency Netw
 
 ### Books
 
+- [Eyles 2018][book_eyles_sunburst_luminary]
 - [Hall 1996][book_hall_journey_to_moon]
+- [MacKenzie 1990][book_mackenzie_inventing_accuracy]
 - [Mindell 2008][book_mindell_digital_apollo]
+- [O'Brien 2010][book_obrien_apollo_guidance_computer]
 
 ### Reference
 
@@ -157,12 +160,18 @@ The next article in the series treats the Advanced Research Projects Agency Netw
 ### Research
 
 - [Battin 1982][research_battin_1982]
+- [Eyles 2004][research_eyles_2004]
+- [Hamilton and Hackler 2018][research_hamilton_hackler_2018]
 - [Hoag 1963][research_hoag_1963]
+- [Hoag 1976][research_hoag_1976]
 - [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
 - [Klumpp 1971][research_klumpp_1971]
 
+[book_eyles_sunburst_luminary]: https://openlibrary.org/works/OL20105728W/Sunburst_and_Luminary
 [book_hall_journey_to_moon]: https://openlibrary.org/works/OL5798344W/Journey_to_the_Moon
+[book_mackenzie_inventing_accuracy]: https://openlibrary.org/works/OL2664824W/Inventing_accuracy
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
+[book_obrien_apollo_guidance_computer]: https://link.springer.com/book/10.1007/978-1-4419-0877-3
 
 [ref_agc_source_code]: https://github.com/chrislgarry/Apollo-11
 [ref_draper_iag]: https://en.wikipedia.org/wiki/Charles_Stark_Draper_Laboratory
@@ -175,6 +184,9 @@ The next article in the series treats the Advanced Research Projects Agency Netw
 [related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}
 
 [research_battin_1982]: https://arc.aiaa.org/doi/10.2514/3.19717
+[research_eyles_2004]: https://www.doneyles.com/LM/Tales.html
+[research_hamilton_hackler_2018]: https://ieeexplore.ieee.org/document/8632388
 [research_hoag_1963]: https://ntrs.nasa.gov/citations/19660013536
+[research_hoag_1976]: https://ntrs.nasa.gov/citations/19760022093
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
 [research_klumpp_1971]: https://ntrs.nasa.gov/citations/19710069441
