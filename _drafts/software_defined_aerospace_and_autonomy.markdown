@@ -49,7 +49,7 @@ with modern liquid-crystal displays typically operating at 60 Hertz or higher, w
 
 $$T_{\text{sensor-display}} = T_{\text{sensor}} + T_{\text{bus}} + T_{\text{compute}} + T_{\text{graphics}} + T_{\text{display}}$$
 
-typically must fit within approximately 50 to 100 milliseconds to avoid pilot-perceptible lag, with each contributing subsystem consuming approximately 10 to 30 milliseconds under realistic engineering budgets. The specific engineering discipline of low-latency graphics generation for aerospace displays became a substantial specialty within the broader aerospace software community and produced specific standards including ARINC 661 for cockpit-display definitions and the Object Management Group User Interface Markup Language variants adapted for aerospace use.
+typically must fit within approximately 50 to 100 milliseconds to avoid pilot-perceptible lag, with each contributing subsystem consuming approximately 10 to 30 milliseconds under realistic engineering budgets. The specific engineering discipline of low-latency graphics generation for aerospace displays became a substantial specialty within the broader aerospace software community and produced specific standards including ARINC 661 for cockpit-display definitions and various user-interface description standards adapted for aerospace-specific reliability, safety, and qualification requirements.
 
 ## Software-Defined Radios
 
@@ -83,11 +83,11 @@ The specific algorithmic techniques underlying autonomous mission planning inclu
 
 $$T_{\text{Dijkstra}}(N) = O(N^2)$$
 
-with the more efficient A-star variant when implemented with a Fibonacci-heap priority queue achieving
+with the more efficient A-star variant, when implemented with a Fibonacci-heap priority queue and equipped with an admissible heuristic, achieving worst-case complexity bounded above by
 
 $$T_{\text{A-star}}(N, E) = O(E + N \log N)$$
 
-for a graph with $N$ nodes and $E$ edges under favorable admissible heuristic conditions. RRT motion planning is probabilistically complete, meaning that the probability of finding a feasible path in a configuration space of $n$ samples approaches unity as
+for a graph with $N$ nodes and $E$ edges, with the specific practical performance approaching linear in the path length when the heuristic closely estimates the true remaining cost. RRT motion planning is probabilistically complete, meaning that the probability of finding a feasible path in a configuration space of $n$ samples approaches unity as
 
 $$P_{\text{RRT}}(n) \to 1 \text{ as } n \to \infty$$
 
