@@ -18,6 +18,18 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Aerospace, Programming Languages, and Information Technology Co-Development series (A237-A248) — In Progress
+
+**Files**:
+- `_drafts/framing_and_the_co_development_mechanism.markdown` (A237, series opener)
+
+**Topic**: Twelve-article rolling-publication series with shared main title "Aerospace, Programming Languages, and Information Technology Co-Development" and per-article subtitles walking the co-development arc chronologically from pre-war ballistic computing through contemporary software-defined aerospace. A237 opener establishes the co-development mechanism as a coupled first-order dynamical system, characterizes the semiconductor substrate under defense demand, formalizes real-time and reliability constraints distinguishing aerospace computing from commercial computing, and introduces the six-axis analytical framework subsequent articles apply. Planned subsequent articles: A238 pre-war computing origins and ballistics, A239 wartime computing and code-breaking, A240 early Cold War air defense and SAGE, A241 aerospace simulation and real-time systems, A242 the Apollo Guidance Computer, A243 ARPANET and networking origins, A244 Space Shuttle software as engineering landmark, A245 safety-critical software, A246 Silicon Valley from defense contracting, A247 software-defined aerospace and autonomy, A248 contemporary snapshot and extrapolation.
+
+**Article Numbers**: A237 through A248 (twelve articles planned)
+**Completion**: A237 initial draft complete, awaiting equation-density review, reference-density review, and publication review.
+**Publication Sensibility**: High (comprehensive rolling-publication treatment of the aerospace-computing co-development arc across editorial dates 2026-07-12 through 2026-07-23; back-reference-only within series to permit one-per-day rolling publication; back-reference-only constraint means each subsequent article can only cite earlier series articles)
+**Status**: A237 initial draft written 2026-07-16. 264 lines, mathjax true, six display equations (coupled dynamical system for H and S with two component solutions, Moore's Law doubling, real-time deadline constraint, rate monotonic utilization bound, software size growth). Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math, or certification vocabulary. Thirty-five references across four categories (nine books, eleven reference URLs, five related posts, ten primary research papers). Series slug `co_development_aerospace_computing`, series index 1 of 12, categories `history technology aerospace`. Editorial date 2026-07-12 09:00 UTC. Back-dated by four days from 2026-07-16 authoring date under the rolling-publication constraint. Cross-references outside series to A112 fixed-wing UAV (2026-05-30), A200 HDL history (2026-03-13), A203 HDL state of practice (2026-07-08), A206 PL Theory arc opener (2026-03-27), A215 PL Theory 2020s (2026-04-05), all predating 2026-07-12.
+
 ### Industrialization Waves and Geopolitical Positioning series (A225-A236) — Published
 
 **Files**:
