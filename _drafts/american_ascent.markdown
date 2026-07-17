@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "American Ascent"
+title: "Industrialization Waves and Geopolitical Positioning: American Ascent"
 date: 2026-03-18 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

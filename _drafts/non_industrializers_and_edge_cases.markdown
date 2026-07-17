@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "The Non-Industrializers and Edge Cases"
+title: "Industrialization Waves and Geopolitical Positioning: The Non-Industrializers and Edge Cases"
 date: 2026-03-25 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Meiji Japan"
+title: "Industrialization Waves and Geopolitical Positioning: Meiji Japan"
 date: 2026-03-19 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

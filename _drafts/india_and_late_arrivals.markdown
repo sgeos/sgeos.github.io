@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "India and the Late Arrivals"
+title: "Industrialization Waves and Geopolitical Positioning: India and the Late Arrivals"
 date: 2026-03-24 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

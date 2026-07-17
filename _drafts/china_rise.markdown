@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "China's Rise"
+title: "Industrialization Waves and Geopolitical Positioning: China's Rise"
 date: 2026-03-23 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

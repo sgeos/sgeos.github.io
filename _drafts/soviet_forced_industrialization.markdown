@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Soviet Forced Industrialization"
+title: "Industrialization Waves and Geopolitical Positioning: Soviet Forced Industrialization"
 date: 2026-03-20 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves

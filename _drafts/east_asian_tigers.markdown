@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "East Asian Tigers"
+title: "Industrialization Waves and Geopolitical Positioning: East Asian Tigers"
 date: 2026-03-22 09:00:00 +0000
 categories: history economics geopolitics
 series: industrialization_waves
