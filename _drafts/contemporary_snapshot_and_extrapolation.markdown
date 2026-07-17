@@ -35,7 +35,11 @@ The compute cost of training contemporary machine learning models has grown at a
 
 $$C_{\text{train}}(N) \approx 6 N D$$
 
-with $D$ the number of training tokens and the factor 6 accounting for forward and backward passes and the specific gradient computation cost. For contemporary frontier models with parameter counts of order $10^{12}$ and training-token counts of order $10^{13}$, the training compute reaches order $10^{25}$ floating-point operations, or approximately $10^{16}$ times the total operation count of an Apollo mission treated in [A242][related_post_a242_apollo_guidance_computer].
+with $D$ the number of training tokens and the factor 6 accounting for forward and backward passes and the specific gradient computation cost. For contemporary frontier models with parameter counts of order $10^{12}$ and training-token counts of order $10^{13}$, the training compute reaches order $10^{25}$ floating-point operations, or approximately $10^{16}$ times the total operation count of an Apollo mission treated in [A242][related_post_a242_apollo_guidance_computer]. The relationship between achieved test loss and the resources deployed follows an approximate scaling law of the form
+
+$$L(N, D) \approx \frac{A}{N^\alpha} + \frac{B}{D^\beta} + L_{\text{irreducible}}$$
+
+with exponents $\alpha$ and $\beta$ empirically in the range 0.2 to 0.4 across the deep-learning era, giving the specific prediction that both larger parameter counts and larger training-data volumes are required to continue reducing loss. This scaling law substantially shapes the specific economic and infrastructural planning that machine learning integration into aerospace applications requires.
 
 The specific engineering framework for reasoning about machine learning correctness in safety-critical aerospace applications remains under active development. Approaches include restricting machine learning components to non-safety-critical functions with human oversight for any safety-relevant outputs, developing formal verification techniques adapted to machine learning components including neural-network verification tools, and constructing runtime monitors that check machine learning outputs against traditional-software correctness constraints. Each approach has specific limitations and none has yet reached the maturity that the industry consensus process standards for traditional safety-critical software achieved by the 1990s.
 
@@ -47,9 +51,13 @@ The specific operational deployment of autonomous swarming reached substantial s
 
 The mathematical scaling of swarm capability with swarm size follows several competing regimes. For simple coordination tasks the swarm capability grows approximately linearly with size,
 
-$$Y_{\text{swarm}}(N) \approx N \cdot y_1$$
+$$Y_{\text{swarm, linear}}(N) \approx N \cdot y_1$$
 
-for individual vehicle capability $y_1$. For coordination tasks that scale with pairwise interaction the capability grows quadratically. For adversarial engagements the capability may grow super-linearly if the swarm can concentrate mass against an opponent's defenses faster than the defenses can adapt. The specific scaling regime for a specific mission determines the specific size beyond which additional vehicles produce diminishing marginal capability.
+for individual vehicle capability $y_1$. For coordination tasks that scale with pairwise interaction between swarm members, the capability grows quadratically as
+
+$$Y_{\text{swarm, pairwise}}(N) \approx \binom{N}{2} \cdot y_{\text{interact}} \approx \frac{N^2}{2} \cdot y_{\text{interact}}$$
+
+for per-pair interaction value $y_{\text{interact}}$. For adversarial engagements the capability may grow super-linearly if the swarm can concentrate mass against an opponent's defenses faster than the defenses can adapt. The specific scaling regime for a specific mission determines the specific size beyond which additional vehicles produce diminishing marginal capability.
 
 The specific defense-industry implications of autonomous swarming remain subject to substantial ongoing engineering, doctrinal, and geopolitical debate. Some analysts including [Scharre 2023][book_scharre_four_battlegrounds] treat autonomous swarming as a fundamental shift in the character of aerospace warfare that requires substantial changes in force structure, procurement practice, and operational doctrine. Other analysts treat autonomous swarming as an incremental capability that complements rather than replaces existing high-value aerospace platforms. Both positions have advocates among specific senior defense officials in 2026, and the specific resolution of the debate will shape defense procurement for the following decade.
 
@@ -57,7 +65,11 @@ The specific defense-industry implications of autonomous swarming remain subject
 
 Three specific forcing pressures are shaping the contemporary aerospace-computing coupling beyond the ongoing machine-learning-integration and autonomous-swarming trajectories treated above.
 
-The first pressure is semiconductor supply concentration. The specific geographic concentration of leading-edge semiconductor manufacturing in Taiwan through the specific dominance of Taiwan Semiconductor Manufacturing Company hereafter TSMC in advanced-node foundry services creates a specific supply-chain risk for both commercial and defense computing that neither the twentieth-century Silicon Valley pattern nor the earlier defense-procurement pattern faced. The historical treatment in [Miller 2022][book_miller_chip_war] documents the specific commercial and geopolitical dynamics that produced this concentration. The specific reshoring and diversification programs that the United States, European Union, Japan, and other governments launched in the early 2020s aim to reduce this concentration but require decade-scale investment to achieve substantial results.
+The first pressure is semiconductor supply concentration. The specific geographic concentration of leading-edge semiconductor manufacturing in Taiwan through the specific dominance of Taiwan Semiconductor Manufacturing Company hereafter TSMC in advanced-node foundry services creates a specific supply-chain risk for both commercial and defense computing that neither the twentieth-century Silicon Valley pattern nor the earlier defense-procurement pattern faced. The specific concentration can be quantified using the Herfindahl-Hirschman index
+
+$$H = \sum_{i=1}^{N} s_i^2$$
+
+for market shares $s_i$ of $N$ suppliers with $\sum s_i = 1$. For leading-edge foundry services in 2026 with TSMC at approximately 90 percent market share, Samsung at approximately 8 percent, and Intel Foundry at approximately 2 percent, $H \approx 0.81$, substantially above the 0.25 threshold typically identified with highly concentrated markets. The historical treatment in [Miller 2022][book_miller_chip_war] documents the specific commercial and geopolitical dynamics that produced this concentration. The specific reshoring and diversification programs that the United States, European Union, Japan, and other governments launched in the early 2020s aim to reduce this concentration but require decade-scale investment to achieve substantial results.
 
 The second pressure is quantum computing. Practical quantum computers capable of executing quantum algorithms including Shor's algorithm for integer factorization and Grover's algorithm for unstructured search would have substantial implications for aerospace-relevant cryptography and computation. Contemporary quantum computing capability as of 2026 remains substantially below what these algorithms would require for practical operation, but the specific development trajectory has been faster than most contemporary analysts expected in the mid-2010s and the specific transition timeline remains uncertain. Contemporary aerospace software programs are beginning to adopt post-quantum cryptography for long-lived communications systems in anticipation of eventual quantum-computer availability.
 
@@ -65,7 +77,11 @@ The third pressure is cyber-physical security. The specific integration of aeros
 
 ## Extrapolation Framework and Forward Projection
 
-Forward extrapolation of the aerospace-computing coupling across the 2026 to 2050 window can proceed under several plausible framework applications. The six-axis framework from [A237][related_post_a237_framing_co_development] applied forward suggests that each axis will continue to develop under specific pressures that the twentieth-century trajectory did not anticipate.
+Forward extrapolation of the aerospace-computing coupling across the 2026 to 2050 window can proceed under several plausible framework applications. Any forward projection is subject to compounding uncertainty that grows with the projection horizon. For an initial uncertainty $\sigma_0$ at the projection origin, the extrapolation uncertainty at time $t$ typically satisfies
+
+$$\sigma(t) \gtrsim \sigma_0 \cdot (1 + \gamma t)$$
+
+with growth-rate $\gamma$ of order 0.03 to 0.10 per year for technology and geopolitical forecasts, giving a factor 2 to 4 increase in uncertainty across the twenty-four-year projection window. The six-axis framework from [A237][related_post_a237_framing_co_development] applied forward suggests that each axis will continue to develop under specific pressures that the twentieth-century trajectory did not anticipate.
 
 Numerical computation demand will continue to grow, driven by machine learning training and inference workloads that exceed traditional aerospace computation by many orders of magnitude. The specific fraction of aerospace platform lifecycle cost consumed by machine learning training compute may exceed the specific fraction consumed by traditional software development by the 2030s under contemporary trajectory assumptions.
 
@@ -87,7 +103,11 @@ The demographic-projection strategy, exemplified in the general context by [Kotk
 
 The resource-limits strategy, associated with the general approach exemplified in [Sachs 2020][book_sachs_ages_of_globalization], emphasizes the specific physical, energy, and material constraints on the specific rate of technological development. Under resource-limits assumptions, the specific compute-demand growth that machine learning integration implies may be constrained by electrical power availability, cooling capacity, and semiconductor manufacturing throughput in ways that the current trajectory does not accommodate.
 
-The techno-economic-cycle strategy, exemplified by [Perez 2002][book_perez_technological_revolutions], treats major technological transitions as approximately fifty-year Kondratiev cycles with specific characteristic sequences of installation phase, deployment phase, and eventual crisis and transition to the next cycle. Under techno-economic-cycle assumptions, the specific machine learning integration wave that dominates contemporary aerospace-computing discussion is the beginning of a specific new cycle whose specific institutional and productive implications will unfold across the following decades.
+The techno-economic-cycle strategy, exemplified by [Perez 2002][book_perez_technological_revolutions], treats major technological transitions as approximately fifty-year Kondratiev cycles with characteristic period
+
+$$T_{\text{Kondratiev}} \approx 50 \text{ years}$$
+
+comprising a specific installation phase of roughly 25 years, a specific deployment phase of roughly 25 years, and eventual crisis and transition to the next cycle. Under techno-economic-cycle assumptions, the specific machine learning integration wave that dominates contemporary aerospace-computing discussion is the beginning of a specific new cycle whose specific institutional and productive implications will unfold across the following decades.
 
 The energy-transition strategy, exemplified by [Smil 2022][book_smil_how_the_world_really_works], emphasizes the specific physical and energy foundations of technological civilization and treats aerospace-computing developments as substantially constrained by underlying energy availability. Under energy-transition assumptions, the specific ability of contemporary computing to continue its historical trajectory depends substantially on the specific outcome of the electrical-power supply and cooling infrastructure development required to support it.
 
