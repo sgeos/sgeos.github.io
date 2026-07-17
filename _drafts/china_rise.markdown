@@ -49,6 +49,20 @@ with the specifically Chinese post-WTO manufacturing expansion producing the lar
 
 **American manufacturing-employment impact.** The specifically 2001 Chinese WTO accession initiated the American manufacturing-employment decline the [fourth article of the series formalized][related_post_american_ascent] with approximately one percentage-point annual decline sustained across the following two decades. The [Autor, Dorn, and Hanson analysis of the China Syndrome][research_autor_dorn_hanson_china] treated in the fourth article documents the specific local-labor-market mechanisms by which Chinese import competition displaced American manufacturing employment and produced the specifically 2010s political-economic backlash against neoliberal trade policy in the United States.
 
+**Convergence trajectory and Gerschenkron premium.** The specifically Chinese convergence on the leading American per-capita output level can be formalized as a rising per-capita ratio. Let $R_{\text{CH}}(t) = Y_{\text{CH,pc}}(t) / Y_{\text{US,pc}}(t)$ denote the Chinese per-capita ratio against the United States. The observed trajectory follows
+
+$$
+R_{\text{CH}}(1980) \approx 0.02, \quad R_{\text{CH}}(2000) \approx 0.08, \quad R_{\text{CH}}(2024) \approx 0.20
+$$
+
+Applying the Gerschenkron rearrangement introduced in the [third article of the series on continental European followers][related_post_industrialization_framing] to the Chinese trajectory with $R_0 = 0.02$ at 1980, $R_T = 0.20$ at 2024, and $T = 44$ years gives
+
+$$
+\Delta g_{\text{CH}} = \frac{\ln(0.20 / 0.02)}{44} \approx 5.2\% \text{ per year}
+$$
+
+sustained across the four-and-a-half-decade reform window. The value substantially exceeds the specifically Japanese postwar premium of 3.6 percent per year the [seventh article of the series formalized][related_post_postwar_japan_and_west_germany] and the specifically Korean tiger premium of 3.1 percent per year the [eighth article of the series formalized][related_post_east_asian_tigers], and reflects the specifically Chinese continental-scale application of the developmental-state template combined with the specifically low starting-point condition the pre-reform Chinese baseline provided.
+
 **Investment ratio.** Chinese aggregate investment as a share of gross domestic product rose from approximately thirty-five percent in 2001 to over forty-five percent by the mid-2010s, one of the highest sustained investment ratios any economy has ever achieved. The [Lin treatment of demystifying the Chinese economy][book_lin_demystifying_chinese_economy] argues that Chinese growth substantially follows standard neoclassical factor-accumulation catch-up dynamics accessible to any economy that implements the right combination of macroeconomic stability, market-oriented microeconomic policy, and strategic use of comparative advantage, and treats the specifically Chinese case as a demonstration that the standard growth-economics framework applies at continental scale rather than as a distinctive institutional exception. Let $I/Y$ denote Chinese investment share. The specifically Chinese ratio sustained across the peak-growth decades reached
 
 $$
