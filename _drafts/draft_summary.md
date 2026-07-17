@@ -18,6 +18,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### Industrialization Waves and Geopolitical Positioning series (A225-A236) — Published
+
+**Files**:
+- `_posts/2026-03-15-framing_and_the_preindustrial_world.markdown` (A225)
+- `_posts/2026-03-16-first_mover_britain.markdown` (A226)
+- `_posts/2026-03-17-continental_european_followers.markdown` (A227)
+- `_posts/2026-03-18-american_ascent.markdown` (A228)
+- `_posts/2026-03-19-meiji_japan.markdown` (A229)
+- `_posts/2026-03-20-soviet_forced_industrialization.markdown` (A230)
+- `_posts/2026-03-21-postwar_japan_and_west_germany.markdown` (A231)
+- `_posts/2026-03-22-east_asian_tigers.markdown` (A232)
+- `_posts/2026-03-23-china_rise.markdown` (A233)
+- `_posts/2026-03-24-india_and_late_arrivals.markdown` (A234)
+- `_posts/2026-03-25-non_industrializers_and_edge_cases.markdown` (A235)
+- `_posts/2026-03-26-contemporary_snapshot_and_extrapolation.markdown` (A236)
+
+**Topic**: Twelve-article back-dated series with shared main title "Industrialization Waves and Geopolitical Positioning" and per-article subtitles walking industrialization waves chronologically. A225 opener establishes the primary-structural rather than sufficient thesis and the six-axis framework subsequent articles apply. A226 first-mover Britain establishes the reference case. A227 continental European followers as the paradigmatic Gerschenkron catch-up wave. A228 American ascent with continental-scale advantages. A229 Meiji Japan as first non-Western case ending in 1945 catastrophe. A230 Soviet forced industrialization as socialist state-led variant. A231 postwar Japan and West Germany treated jointly under American security guarantee. A232 East Asian tigers as extension of Japanese developmental template under Cold War subsidy. A233 China's rise as continental-scale tiger-template extension. A234 India and other late arrivals under post-Cold-War conditions. A235 non-industrializers and edge cases where supplementary explanation dominates. A236 closer with contemporary snapshot, forward extrapolation, and competing extrapolation strategies from Kotkin, Sachs, Perez, Smil, and Zeihan treated as illustrative rather than exhaustive alternatives.
+
+**Article Numbers**: A225 through A236 (twelve articles)
+**Completion**: 100%
+**Publication Sensibility**: High (comprehensive back-dated series treating the full arc of industrialization order and its effects on contemporary geopolitical positioning at national and regional scope; shared main title with per-article subtitles for reader-facing series identification; ends flush at 2026-03-26 with A206 Programming Language Theory arc opener at 2026-03-27)
+**Status**: Published as batch on 2026-07-16. Total 52 display equations across twelve articles covering Malthusian and organic-economy ceilings, fiscal-state extraction bounds, Gerschenkron catch-up arithmetic, Baumol convergence, forced-savings ratios, wartime destruction ratios, growth-rate premia per case, convergence trajectories per case, dollar and sterling reserve-currency decay, and forward projections for 2026-2050 window. Total 170 references. All twelve articles style-clean (zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math, or certification vocabulary). Cross-references within series use post_url tags resolving simultaneously at batch publication. Cross-references outside series to A97 Space Force (2026-02-28) and A98 First-Mover Advantage (2026-03-01) predate 2026-03-15. Categories `history economics geopolitics` uniform across all twelve. Editorial dates 2026-03-15 through 2026-03-26 fill exactly the twelve-day gap between A107 Keleusma Getting Started at 2026-03-14 and A206 Programming Language Theory arc opener at 2026-03-27. Next available article number after publication: A237.
+
 ### Deficiencies of the HTML Hypermedia Model (A224) — Published
 
 **File**: `_posts/2026-02-17-html_hypermedia_deficiencies.markdown`

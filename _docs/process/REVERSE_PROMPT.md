@@ -8,87 +8,58 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-07-14
-**Task**: Draft, review, and publish A224 "Deficiencies of the HTML Hypermedia Model" as a standalone one-off comparative article treating HTML as one hypermedia model among several historical alternatives and cataloguing the properties HTML omits or degrades relative to systems that had established the requirements by the late 1980s. Editorial date 2026-02-17 09:00 UTC, filling the one-day gap between A85 (2026-02-16) and A86 (2026-02-18). Two-commit publication sequence complete; commits pushed to origin/master.
+**Date**: 2026-07-16
+**Task**: Draft, review, and publish A225-A236 as the twelve-article back-dated series "Industrialization Waves and Geopolitical Positioning" walking successive industrialization waves chronologically from British first-mover industrialization through the contemporary snapshot. Shared main title with per-article subtitles. Editorial dates 2026-03-15 through 2026-03-26 filling exactly the twelve-day gap between A107 Keleusma Getting Started and A206 Programming Language Theory arc opener. Two-commit batch-publication pattern complete; commits pushed to origin/master.
 
 ---
 
 ## Verification
 
-### Article Body Complete
+### Series Complete
 
-Standalone one-off comparative article. No series metadata. Treats HTML at the class level as one hypermedia model among six historical alternatives and catalogues where HTML omits or degrades each of the eight properties the historical research programme had established as load-bearing.
+Twelve-article back-dated series. Shared main title "Industrialization Waves and Geopolitical Positioning" with per-article subtitle in "Main: Sub" format.
 
-- Opening. Names HTML as the model that shipped rather than the richest or most complete, and previews the argument that HTML implements a strict subset of the properties historical hypermedia systems had already addressed.
-- Six-system framing. Bush's Memex (conceptual ancestor), Engelbart's NLS (first working implementation), Nelson's Xanadu (transclusion and deep permanent addressing), Apple's HyperCard, Sakamura's BTRON hypermedia model as the Business TRON subsystem of the TRON project (The Real-time Operating system Nucleus), Apple's OpenDoc (native composition).
-- What Every Hypermedia Model Must Address. Eight-axis property inventory drawn from the Dexter Hypertext Reference Model: link directionality, link typing, sub-document addressability, transclusion, permanence, versioning, native composition, machine-readable structure.
-- Bidirectional Links. HTML one-way vs NLS/Xanadu/BTRON symmetric. Reverse-index staleness bound $N_{\text{stale}} \leq \lambda T$ formalizes why external crawls cannot fully recover the bidirectional property. NLS claim anchored in Engelbart and English 1968 AFIPS FJCC primary implementation report.
-- Typed Links. HTML `rel` vocabulary small and inconsistent; RDF and JSON-LD as bolt-on retrofits.
-- Sub-Document Addressability. HTML fragment identifiers require authorial decoration; Xanadu tumblers address any span; W3C Web Annotation Model as thin-adoption retrofit.
-- Transclusion. HTML has no native transclusion; Xanadu had it as primary composition mechanism.
-- Native Document Composition. BTRON typed-part composition, OpenDoc same on Macintosh, OLE surviving instance, PDF opaque-attachment; HTML delegates to templating.
-- Permanence and Versioning. URL model resolves whatever server serves; Internet Archive as third-party retrofit; broken-link decay $f_{\text{broken}}(t) = 1 - 2^{-t / T_{1/2}}$ anchored in Klein et al. 2014 PLoS ONE reference-rot measurement; Xanadu permanent addressing at deployment cost; IPFS content-addressable approximation.
-- Machine-Readable Structure. HTML mixed structural/presentational/behavioral; NLS trees, Xanadu segments, BTRON typed parts; Semantic Web anchored in Berners-Lee Hendler Lassila 2001 Scientific American as canonical program statement.
-- Why HTML Displaced Alternatives. Radical simplicity, HTTP-only deployment, permissiveness enabling growth without central coordination, delegation of typing/versioning/composition to community convention.
-- Partial Recoveries. Wiki backlinks, WebMentions and Pingback, static-site generator conventions, JSON-LD for commercial vocabularies, content-addressable storage, Web Components. Each reconstructs a subset of a historical property on top of an inadequate substrate.
-- Prior Art in the Comparative Literature. Halasz NoteCards, Meyrowitz Missing Link, Nelson Xanalogical Structure, Nyce and Kahn Memex to Hypertext.
-- Conclusion. HTML as minimum-viable subset of a mature research programme. The corrective lets contemporary designers borrow from the historical vocabulary rather than reinvent it under new names.
-
-### Cross-References
-
-Three cross-references to prior corpus posts embedded contextually and formally listed as Related Post entries in the References section.
-
-- A75 Bidirectional Agentic Workflow (in Bidirectional Links, small-scale reconstruction paragraph)
-- A76 Markdown as a Specification Language for Agentic Workflows (in Typed Links, corpus-convention paragraph)
-- A77 LLM Knowledge Graphs (in Prior Art, contemporary-engineering-problem paragraph)
-
-All three targets predate the 2026-02-17 editorial date and resolve via `post_url` liquid tags.
-
-### Primary References
-
-Nine peer-reviewed primary sources anchor the article's foundational, historical, and empirical claims.
-
-- Berners-Lee, Hendler, Lassila (2001) Scientific American 284, Semantic Web programme canonical statement. DOI resolver returns 200 via Scientific American.
-- Bush (1945) Atlantic Monthly 176, Memex conceptual origin. Atlantic direct URL 200.
-- Engelbart and English (1968) AFIPS Fall Joint Computer Conference 33, primary NLS implementation report accompanying the Mother of All Demos. ACM DOI redirect returns 403 anti-bot with confirmation via corpus URL-verification pattern for ACM.
-- Halasz (1988) Communications of the ACM 31, NoteCards seven-issue catalogue. ACM DOI redirect.
-- Halasz and Schwartz (1994) Communications of the ACM 37, Dexter Hypertext Reference Model. ACM DOI redirect.
-- Klein, Van de Sompel, Sanderson, Shankar, Balakireva, Zhou, Tobin (2014) PLoS ONE 9, large-scale reference-rot measurement anchoring the broken-link decay equation. DOI resolver returns 200 via PLoS.
-- Meyrowitz (1989) Hypertext 89 Proceedings, Missing Link keynote. ACM DOI redirect.
-- Nelson (1965) ACM 20th National Conference, original hypertext File Structure paper. ACM DOI redirect.
-- Nelson (1999) ACM Computing Surveys 31, Xanalogical Structure restatement against emerging web. ACM DOI redirect.
-
-### Style Verification
-
-Zero em-dashes, en-dashes, contractions, prose semicolons, prose colons in prose, prose parentheticals outside math notation, or certification vocabulary. Debug tags `<!-- A224 -->` and `console.log("A224")` present at lines 10-11. Categories `hypermedia web history`. TRON expanded on first use as The Real-time Operating system Nucleus and BTRON identified as the Business TRON subsystem per corpus acronym-expansion rule.
+- A225 (index 1, 2026-03-15): Framing and the Preindustrial World. Opener establishing primary-structural rather than sufficient thesis, six-axis framework, Malthusian and organic-economy ceilings, fiscal-military capacity, and preindustrial political map circa 1750.
+- A226 (index 2, 2026-03-16): First-Mover Britain. Coal endowment, colonial capital, Napoleonic-era fiscal-military state, textile mechanization, iron-and-steam complex, Pax Britannica, two-power naval standard, sterling reserve decay.
+- A227 (index 3, 2026-03-17): Continental European Followers. Gerschenkron paradigmatic case, universal banking, Belgium, France, Germany, Netherlands, Switzerland, Scandinavia, Austria-Hungary, Italy, Iberia, Baumol convergence hypothesis with half-life.
+- A228 (index 4, 2026-03-18): American Ascent. Continental internal market, immigration-driven scale, protectionist tariff policy, managerial capitalism, natural-resource abundance, externalized wartime disruption, dollar reserve rise, manufacturing-employment decline.
+- A229 (index 5, 2026-03-19): Meiji Japan. First non-Western industrialization from preindustrial baseline, Tokugawa baseline, Perry shock, institutional response, zaibatsu conglomerates, universal conscription and education, imperial expansion, 1945 catastrophe.
+- A230 (index 6, 2026-03-20): Soviet Forced Industrialization. Tsarist baseline, 1928 Stalinist turn, First Five-Year Plan, collectivization catastrophe, Great Patriotic War, Cold War buildup, stagnation and structural weakness, 1991 institutional collapse.
+- A231 (index 7, 2026-03-21): Postwar Japan and West Germany. Paired case under American occupation and security guarantee, Marshall Plan, Wirtschaftswunder, Japanese economic miracle, alliance-locked geopolitics, contemporary rearmament.
+- A232 (index 8, 2026-03-22): East Asian Tigers. South Korea, Taiwan, Singapore, Hong Kong. Developmental-state template extension of Japanese postwar model under Cold War subsidy, land reform, export discipline, financial repression, Young-Krugman debate, 1997 crisis.
+- A233 (index 9, 2026-03-23): China's Rise. Post-1978 reform arc, Deng-era liberalization, 2001 WTO accession as hinge point, state-capitalism model, 2008 crisis stimulus, Xi Jinping era, Belt and Road Initiative, systemic-rival positioning.
+- A234 (index 10, 2026-03-24): India and the Late Arrivals. Post-1991 Indian liberalization, service-sector-driven growth, Vietnam Đổi Mới, Bangladesh garment sector, Indonesia post-1998 recovery, middle-income trap question.
+- A235 (index 11, 2026-03-25): The Non-Industrializers and Edge Cases. Middle Eastern oil states, post-Soviet Russia, Sub-Saharan Africa, Latin America outside industrial cluster, Central Asia, Iran, North Korea, Israel-Palestine. Framework limits explicit.
+- A236 (index 12, 2026-03-26): Contemporary Snapshot and Extrapolation. Closer with contemporary configuration as of 2026, forward extrapolation across 2026-2050 window, competing extrapolation strategies from Kotkin, Sachs, Perez, Smil, and Zeihan as illustrative alternatives, load-bearing open questions.
 
 ### Equation Density
 
-Two display equations. Reverse-index staleness bound $N_{\text{stale}} \leq \lambda T$ in the Bidirectional Links section formalizes why external crawls cannot fully recover the bidirectional property of one-way hypermedia. Broken-link decay $f_{\text{broken}}(t) = 1 - 2^{-t / T_{1/2}}$ in the Permanence and Versioning section quantifies the permanence deficiency against multi-year link half-lives measured in the reference-rot literature. Inline math includes $\lambda$, $T$, $N_{\text{stale}}$, $t$, $T_{1/2}$, $f_{\text{broken}}$.
+Fifty-two display equations across twelve articles. A225 opener heaviest at nine equations establishing the framework. Case articles A226 through A234 carry three to five equations each anchoring case-specific mechanisms. A235 edge-case article and A236 closer carry three each with appropriate lightness for their synthesis roles.
+
+Cross-case comparability: Gerschenkron growth-rate premium formalized for Britain (implicit), Germany (approximately two percentage points), Japan (3.6 percent per year), Korea (3.1 percent per year), China (5.2 percent per year), Vietnam (6.3 percent per year), and India (2.7 percent per year), enabling explicit cross-case comparison of catch-up performance intensity.
 
 ### Reference Density
 
-Twenty-two References-section entries.
+One hundred seventy total references across twelve articles. A225 opener carries twenty-nine references including ten primary research papers. Case articles A226 through A234 carry eleven to nineteen references each. A236 closer carries twelve references anchored to books for the named extrapolation-strategy analysts. All twelve articles have refs_defined == refs_used with no dangling anchors or uncited definitions.
 
-- Four `book_` prefix entries: Berners-Lee Weaving the Web, Nelson Computer Lib/Dream Machines, Nelson Literary Machines, Nyce and Kahn Memex to Hypertext.
-- Six `ref_` prefix entries: Berners-Lee CERN 1989 proposal, Engelbart 1962 conceptual framework, Sakamura TRON project, W3C Web Annotation Data Model, W3C RDF 1.1 Concepts and Abstract Syntax, WHATWG HTML Living Standard.
-- Three `related_post_` prefix entries: A75, A76, A77.
-- Nine `research_` prefix entries: Berners-Lee Hendler Lassila 2001, Bush 1945, Engelbart and English 1968, Halasz 1988, Halasz and Schwartz 1994, Klein et al. 2014, Meyrowitz 1989, Nelson 1965, Nelson 1999.
+Primary research anchor examples: Broadberry-Guan-Li on Great Divergence, North-Weingast on constitutional commitment, Karaman-Pamuk on European fiscal capacity, Klein et al. on reference rot, Naumenko on Ukrainian famine, Cheremukhin-Golosov-Guriev-Tsyvinski on Stalin counterfactual, Song-Storesletten-Zilibotti on Chinese growth, Horn-Reinhart-Trebesch on Chinese overseas lending, Autor-Dorn-Hanson on China Syndrome, Sachs-Warner on resource curse, Ross on oil and democracy, Nunn on African slave trades.
 
-Ordered alphabetically by anchor within each category. Reference-section list order matches the anchor-definition block ordering.
+### Style Verification
+
+Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math notation, or certification vocabulary across all twelve articles. Debug tags `<!-- Axxx -->` and `console.log("Axxx")` present in all twelve at consistent positions. Categories `history economics geopolitics` uniform. Series metadata `industrialization_waves` slug with `Industrialization Waves and Geopolitical Positioning` title and indices one through twelve. Front-matter titles use "Main: Sub" format placing shared main title before per-article subtitle.
 
 ### Collision and Flush Verification
 
-Article number A224 verified unique across `_posts/` and `_drafts/`. Editorial date 2026-02-17 verified empty in both. Adjacent published dates 2026-02-16 (A85 AI Apocalypse Will Be Polite) and 2026-02-18 (A86 Mission Command Management Style) populate the one-day gap boundaries. Article fills the gap without offset or overlap.
+Article numbers A225 through A236 verified unique across `_posts/` and `_drafts/`. Editorial dates 2026-03-15 through 2026-03-26 verified empty in both directories prior to publication. Adjacent published dates 2026-03-14 (A107 Keleusma Getting Started) and 2026-03-27 (A206 Programming Language Theory arc opener) populate the twelve-day gap boundaries. Series fills the gap exactly without offset or overlap. Next available article number after publication is A237.
 
-Category shadow check: `hypermedia` at first position is specific enough that no shadowing sgeos repository is expected. The article's URL will be `/hypermedia/web/history/2026/02/17/html_hypermedia_deficiencies.html` with no path prefix collision.
+Category shadow check: `history` at first position was previously verified during A222 and A223 publication reviews to have no shadowing `sgeos/history` GitHub Pages project.
 
 ### Two-Commit Publication Pattern
 
-Standard two-commit publication.
+Standard two-commit batch publication.
 
-- Draft commit sequence: 12cd0ec initial draft, b2fd04a two equations added, 45b375c three primary references added, db62c40 publication review with TRON/BTRON expansion and reference block alphabetization.
-- Publish commit follows with `git mv` from `_drafts/html_hypermedia_deficiencies.markdown` to `_posts/2026-02-17-html_hypermedia_deficiencies.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
+- Draft-stage commits: A225-A236 individual drafts, per-article equation-density and reference-density review passes, per-article publication reviews, series-wide consistency pass with title standardization to Main: Sub format.
+- Publish commit follows with `git mv` batch moving all twelve drafts to `_posts/` with editorial-date prefixes plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
 
 Commits pushed to origin/master per human pilot instruction.
 
@@ -96,28 +67,30 @@ Commits pushed to origin/master per human pilot instruction.
 
 ## Article Number State
 
-- Next available article number: A225.
-- A224 published as `_posts/2026-02-17-html_hypermedia_deficiencies.markdown` at editorial date 2026-02-17 09:00 UTC.
+- Next available article number: A237.
+- A225-A236 published as twelve-article batch across editorial dates 2026-03-15 through 2026-03-26.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Verify the GitHub Actions deploy completes without errors after the push. The A224 article uses `{% post_url %}` cross-references to A75, A76, and A77, all deployed. The new PDF and EPUB download pipeline from commit db3bc37 will also exercise pandoc and xelatex against the full corpus for the first time; expect the initial run to reveal any posts with math or CJK content that require pandoc-flag adjustments.
-- Review the published article at its permalink once the deploy completes at `https://sgeos.github.io/hypermedia/web/history/2026/02/17/html_hypermedia_deficiencies.html`.
-- Consider whether the class-level HTML-model critique warrants a follow-up article on a specific historical system in more depth. The later corpus articles at 2026-05-23 (BTRON hypermedia and real-time desktop) and 2026-05-24 (Keleusma as substrate) already provide two such deep dives; A224 supplies the general critique those articles refine.
+- Verify the GitHub Actions deploy completes without errors after the push. The series uses `{% post_url %}` cross-references extensively across all twelve articles plus references outside the series to A97 and A98 which are already deployed.
+- Review the published series at the permalinks once the deploy completes. Base URL pattern is `https://sgeos.github.io/history/economics/geopolitics/2026/03/DD/SLUG.html` per each article's date and slug.
+- Consider whether the series roadmap in A225 should be updated to reflect the specifically published subtitles, since some may have shifted during drafting. Current opener text was written before the subtitles were finalized to Main: Sub format.
+- Consider whether follow-up articles on specific extrapolation strategies (Kotkin demographic-projection depth, Perez technological-long-wave depth, Smil energy-transition depth) would be productive future work. The A236 closer positions such follow-ups as consequences of the series framework rather than as freestanding preferences.
 
 ---
 
 ## Notes
 
-- Next available article number: A225.
+- Next available article number: A237.
 - 0 release candidates.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A224 across the combined article number space.
-- Corpus size 224 posts, editorial dates span 2016 through 2026-07-11.
-- Primary-source verification pass performed against Berners-Lee/Hendler/Lassila 2001 Scientific American, Bush 1945 Atlantic Monthly, Engelbart and English 1968 AFIPS FJCC, Halasz 1988 CACM, Halasz and Schwartz 1994 CACM, Klein et al. 2014 PLoS ONE, Meyrowitz 1989 Hypertext Proceedings, Nelson 1965 ACM 20th National Conference, and Nelson 1999 ACM Computing Surveys. Three new primary DOIs verified in publication review pass (Berners-Lee Scientific American 200, Engelbart and English ACM 403 anti-bot matching corpus pattern, Klein PLoS ONE 200).
-- Certification barrier compliance verified. Zero certification vocabulary occurrences.
+- Published through A236 across the combined article number space.
+- Corpus size 236 posts, editorial dates span 2016 through 2026-07-11.
+- Series comprises the largest single back-dated batch publication in the corpus after the Programming Language Theory arc (A206-A215, ten articles) and the Rocket Propellant Chemistry series (A217-A221, five articles). At twelve articles it exceeds both.
+- Total series length approximately 2,300 lines across twelve articles, averaging 190 lines per article with the opener at 356 lines and shorter synthesis and edge-case articles around 140-160 lines.
+- Certification barrier compliance verified. Zero certification vocabulary occurrences series-wide.
 - All scratch confined to project-local `tmp/` per recorded preference.
-- Blog deploys through GitHub Actions with a lean Jekyll stack that now includes a post-build pandoc pass generating PDF and EPUB downloads per post from commit db3bc37.
+- Blog deploys through GitHub Actions with the post-build pandoc PDF/EPUB generation pipeline from commit db3bc37 exercised against the full corpus.
