@@ -47,7 +47,7 @@ The specific structure of the postwar American-anchored reconstruction differed 
 
 Both economies experienced rapid growth during the 1950s and 1960s that observers named the Wirtschaftswunder in Germany and the Japanese economic miracle. The specific growth rates and their compounding over two decades of sustained performance are among the most dramatic economic outcomes of the twentieth century.
 
-**Growth rate performance.** West German real gross domestic product grew at approximately eight percent per year across the 1950s and approximately five percent per year across the 1960s. Japanese real gross domestic product grew at approximately nine percent per year across the 1950s and approximately ten percent per year across the 1960s. Both rates were the highest sustained growth rates any advanced industrial economy achieved during the postwar period and reflected the specific combination of pre-war human-capital preservation, American security-and-financial support, alliance-locked access to Western markets, and coordinated industrial policy.
+**Growth rate performance.** West German real gross domestic product grew at approximately eight percent per year across the 1950s and approximately five percent per year across the 1960s. Japanese real gross domestic product grew at approximately nine percent per year across the 1950s and approximately ten percent per year across the 1960s. Both rates were the highest sustained growth rates any advanced industrial economy achieved during the postwar period and reflected the specific combination of pre-war human-capital preservation, American security-and-financial support, alliance-locked access to Western markets, and coordinated industrial policy. The [Eichengreen and Ritschl reconstruction of West German economic growth in the 1950s][research_eichengreen_ritschl_west_germany] documents the specific quantitative contributions of catch-up growth, reconstruction dynamics, and coordinated wage restraint to the Wirtschaftswunder decade, and establishes that the specifically German growth pattern was substantially explained by the initial destroyed-capital-stock condition combined with the institutional framework the postwar reconstruction assembled rather than by any distinctively German factor unavailable to other reconstructing economies.
 
 **Convergence trajectory.** The specifically German and Japanese postwar convergence on the leading American per-capita output level can be formalized as a rising per-capita ratio. Let $R_{\text{DE}}(t) = Y_{\text{DE,pc}}(t) / Y_{\text{US,pc}}(t)$ denote the West German per-capita ratio against the United States and $R_{\text{JP}}(t)$ the corresponding Japanese ratio. The observed trajectories follow
 
@@ -164,6 +164,7 @@ The specifically 2020s pressure on the American security-commitment framework th
 - [Related Post, Meiji Japan][related_post_meiji_japan]
 - [Related Post, Soviet Forced Industrialization][related_post_soviet_forced_industrialization]
 - [De Long, J. Bradford and Eichengreen, Barry, The Marshall Plan, History's Most Successful Structural Adjustment Program, in Postwar Economic Reconstruction and Lessons for the East Today, MIT Press, 1993][research_delong_eichengreen_marshall]
+- [Eichengreen, Barry and Ritschl, Albrecht, Understanding West German economic growth in the 1950s, Cliometrica 3, 2009][research_eichengreen_ritschl_west_germany]
 - [Hoshi, Takeo and Kashyap, Anil K., Japan's financial crisis and economic stagnation, Journal of Economic Perspectives 18, 2004][research_hoshi_kashyap_banking]
 
 [book_hall_soskice_varieties]: https://global.oup.com/academic/product/varieties-of-capitalism-9780199247752
@@ -173,4 +174,5 @@ The specifically 2020s pressure on the American security-commitment framework th
 [related_post_meiji_japan]: {% post_url 2026-03-19-meiji_japan %}
 [related_post_soviet_forced_industrialization]: {% post_url 2026-03-20-soviet_forced_industrialization %}
 [research_delong_eichengreen_marshall]: https://www.nber.org/papers/w3899
+[research_eichengreen_ritschl_west_germany]: https://doi.org/10.1007/s11698-008-0031-y
 [research_hoshi_kashyap_banking]: https://doi.org/10.1257/089533004773563412
