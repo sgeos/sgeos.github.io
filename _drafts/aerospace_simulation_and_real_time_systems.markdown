@@ -19,9 +19,9 @@ The framing established in [A237][related_post_a237_framing_co_development] iden
 
 ## Pre-Digital Flight Simulation
 
-The Link Trainer was the first widely deployed flight simulator. Edwin Link, a pipe-organ builder from Binghamton, New York, patented the Link Trainer in 1930 using pneumatic bellows and a rotating platform to reproduce aircraft attitude changes in response to control-stick inputs. The initial Link Trainer had no visual display and no analog-computed aerodynamics. Its value was in reproducing the tactile and vestibular sensations of instrument flight without visual reference, which allowed instrument-flight training under controlled conditions on the ground rather than in weather that would be dangerous for novice pilots. The Link Trainer entered military service in substantial numbers during the Second World War, with approximately 10,000 units delivered to the United States Army Air Forces alone. The training value was directly attributable to the reduction in weather-related training accidents and to the specific skill development that instrument-flight training required.
+The Link Trainer was the first widely deployed flight simulator. Edwin Link, a pipe-organ builder from Binghamton, New York, patented the Link Trainer in 1930 using pneumatic bellows and a rotating platform to reproduce aircraft attitude changes in response to control-stick inputs, per the biographical treatment in [Kelly 1970][book_kelly_pilot_maker]. The initial Link Trainer had no visual display and no analog-computed aerodynamics. Its value was in reproducing the tactile and vestibular sensations of instrument flight without visual reference, which allowed instrument-flight training under controlled conditions on the ground rather than in weather that would be dangerous for novice pilots. The Link Trainer entered military service in substantial numbers during the Second World War, with approximately 10,000 units delivered to the United States Army Air Forces alone. The training value was directly attributable to the reduction in weather-related training accidents and to the specific skill development that instrument-flight training required.
 
-The postwar period brought analog computers into the flight simulation loop. Reeves Instrument Corporation, Electronic Associates Incorporated hereafter EAI, and other analog-computer manufacturers built general-purpose analog computers that could be programmed to solve aircraft equations of motion in real time. A typical postwar analog flight simulator used the analog computer to solve the six-degree-of-freedom equations of aircraft motion, transformed control-stick and rudder inputs into force and moment inputs to the equations, and drove the motion platform and instrument displays from the computed aircraft state. The general form of the aircraft dynamics equations is
+The postwar period brought analog computers into the flight simulation loop. Reeves Instrument Corporation, Electronic Associates Incorporated hereafter EAI, and other analog-computer manufacturers built general-purpose analog computers that could be programmed to solve aircraft equations of motion in real time. A typical postwar analog flight simulator used the analog computer to solve the six-degree-of-freedom equations of aircraft motion, transformed control-stick and rudder inputs into force and moment inputs to the equations, and drove the motion platform and instrument displays from the computed aircraft state. The general form of the aircraft dynamics equations, treated as standard material in the textbook by [Etkin 1996][book_etkin_dynamics_of_flight], is
 
 $$m \dot{\mathbf{v}} = \mathbf{F}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})$$
 
@@ -51,13 +51,13 @@ with $T_{\text{pilot tolerance}}$ of order 100 to 150 milliseconds above which p
 
 The Link Company, later renamed Singer-Link and then CAE-Link after successive acquisitions, produced digital flight simulators throughout the 1960s and 1970s using dedicated digital computers built specifically for the flight-simulation application. Later generations used general-purpose minicomputers from Digital Equipment Corporation hereafter DEC and mainframes from International Business Machines Corporation hereafter IBM. The commercial airline industry adopted digital flight simulators aggressively in the 1970s and 1980s as regulatory authorities began to accept simulator training hours as credit toward flight-time requirements for pilot licensing, which produced a substantial commercial market that further accelerated simulator technology development.
 
-Visual system technology developed in parallel with computational technology. Early digital simulators used camera-and-model systems in which a physical scale model of the airport and terrain was viewed by a servo-driven camera whose position and attitude corresponded to the simulated aircraft position. Camera-model systems were displaced in the 1970s and 1980s by computer-generated imagery systems built around specialized visual computers by companies including Evans and Sutherland, General Electric, and later Silicon Graphics. Contemporary flight simulators use commercial graphics processors adapted for the specific requirements of low-latency high-fidelity aerospace visuals.
+Visual system technology developed in parallel with computational technology. Early digital simulators used camera-and-model systems in which a physical scale model of the airport and terrain was viewed by a servo-driven camera whose position and attitude corresponded to the simulated aircraft position. Camera-model systems were displaced in the 1970s and 1980s by computer-generated imagery systems built around specialized visual computers by companies including Evans and Sutherland, General Electric, and later Silicon Graphics. Contemporary flight simulators use commercial graphics processors adapted for the specific requirements of low-latency high-fidelity aerospace visuals. The comprehensive review of flight simulation techniques in [Baarspul 1990][research_baarspul_1990] in Progress in Aerospace Sciences documents the state of the discipline at the transition point between camera-model and computer-generated imagery visual systems and remains a standard reference on the engineering trade-offs across simulation subsystems.
 
 ## Hardware-in-the-Loop Testing
 
 Flight simulation for pilot training addresses the human element of the aviation system. Hardware-in-the-loop testing addresses the equipment element by substituting simulated environments for physical flight conditions during aircraft development and integration. In a hardware-in-the-loop configuration, actual flight-hardware components are connected to a simulation of the surrounding environment that would exercise them in flight. Sensors receive simulated inputs. Actuators drive simulated loads. Computers execute their actual flight software against a simulated aircraft dynamics model rather than a real aircraft.
 
-The specific value of hardware-in-the-loop testing is that it exercises the actual flight equipment under repeatable conditions that flight test cannot economically or safely provide. Fault conditions that occur once per million operating hours in flight can be induced deliberately in the laboratory. Edge cases in the flight envelope can be exercised without risk to aircraft or crew. Software changes can be validated against exhaustive input sequences before flight test approval. The economics of hardware-in-the-loop testing favor its use for every flight software change on modern aerospace platforms, with flight test reserved for cases where the physical aerodynamics or engine behavior cannot be adequately simulated.
+The specific value of hardware-in-the-loop testing is that it exercises the actual flight equipment under repeatable conditions that flight test cannot economically or safely provide. Fault conditions that occur once per million operating hours in flight can be induced deliberately in the laboratory. Edge cases in the flight envelope can be exercised without risk to aircraft or crew. Software changes can be validated against exhaustive input sequences before flight test approval. The economics of hardware-in-the-loop testing favor its use for every flight software change on modern aerospace platforms, with flight test reserved for cases where the physical aerodynamics or engine behavior cannot be adequately simulated. The engineering methodology for hardware-in-the-loop testing as a general control-system development technique is treated in [Isermann Schaffnit Sinsel 1999][research_isermann_schaffnit_sinsel_1999] in Control Engineering Practice, focused on engine-control applications but with methodology transferable to essentially all closed-loop control validation.
 
 The hardware-in-the-loop configuration imposes strict real-time constraints on the simulation. The simulated dynamics must be updated at rates matching or exceeding the actual sensor and actuator bandwidths, typically hundreds to thousands of Hertz. The Nyquist-Shannon sampling theorem sets a lower bound on the simulation update rate as
 
@@ -83,7 +83,7 @@ $$J = \sup T - \inf T \le J_{\text{max}}$$
 
 with $J_{\text{max}}$ set by the specific application requirement. Low jitter is essential for control loops where periodic sampling must occur at consistent intervals to preserve the mathematical assumptions of the discrete-time control design. Real-time operating systems for aerospace applications typically target jitter bounds in the range of microseconds to tens of microseconds against periodic tasks with periods in the range of milliseconds to hundreds of milliseconds. The engineering difference between average-case and worst-case response guarantees is what makes real-time operating systems suitable for safety-critical aerospace applications where deadline miss can cause catastrophic outcomes.
 
-The specific real-time operating systems used in production aerospace applications are typically qualified against industry consensus standards including the ARINC 653 partitioning standard and the process-based standards treated in a later article of this series. Real-time operating system selection for a specific aerospace program depends on the assurance level required for the safety-critical partition, the specific processor family supported, and the vendor's long-term support commitment for the specific product configuration.
+The specific real-time operating systems used in production aerospace applications are typically qualified against industry consensus standards including the ARINC 653 partitioning standard and the process-based standards treated in a later article of this series. The design principles for partitioning kernels including ARINC 653 are treated in [Rushby 1999][research_rushby_1999], a NASA-published foundational analysis of partitioning requirements, mechanisms, and assurance approaches. Real-time operating system selection for a specific aerospace program depends on the assurance level required for the safety-critical partition, the specific processor family supported, and the vendor's long-term support commitment for the specific product configuration. The comprehensive engineering treatment of real-time systems as a design discipline is [Kopetz 2011][book_kopetz_real_time_systems], which remains the standard textbook for distributed embedded systems design.
 
 ## Distributed Interactive Simulation
 
@@ -103,7 +103,7 @@ $$|t_i - t_j| \le \epsilon_{\text{sync}}$$
 
 for all site pairs $(i, j)$, with $\epsilon_{\text{sync}}$ typically 10 to 100 milliseconds for training exercises and one millisecond or less for engineering evaluation exercises that use the simulation output for control-system analysis.
 
-The SIMNET protocols were standardized as the Distributed Interactive Simulation hereafter DIS standard, published as IEEE 1278 in 1993, and later evolved into the High Level Architecture hereafter HLA standard, published as IEEE 1516 in 2000. Both standards remain in operational use for defense and civilian distributed simulation, with HLA more common for engineering simulation and DIS more common for legacy training applications. The Simulation Interoperability Standards Organization hereafter SISO maintains both standards and coordinates their continued development.
+The SIMNET protocols were standardized as the Distributed Interactive Simulation hereafter DIS standard, published as IEEE 1278 in 1993, and later evolved into the High Level Architecture hereafter HLA standard, published as IEEE 1516 in 2000. The design and initial deployment of HLA is documented in [Dahmann Fujimoto Weatherly 1997][research_dahmann_fujimoto_weatherly_1997] published at the Winter Simulation Conference, the standard primary source on the Department of Defense HLA program. Both standards remain in operational use for defense and civilian distributed simulation, with HLA more common for engineering simulation and DIS more common for legacy training applications. The Simulation Interoperability Standards Organization hereafter SISO maintains both standards and coordinates their continued development.
 
 Contemporary distributed simulation integrates flight simulators, ground-combat simulators, command-and-control workstations, and physics-based environment simulators into unified exercises that can span dozens of physical sites and thousands of participating entities. The Live Virtual Constructive framework combines live participants (actual aircraft and personnel in the field), virtual participants (humans operating simulators), and constructive participants (fully computer-generated forces) into single training or engineering exercises. The specific engineering requirements of latency management, coordinate reconciliation, and time synchronization across the distributed exercise draw substantially on the SAGE-era distributed computing tradition treated in [A240][related_post_a240_early_cold_war_sage].
 
@@ -133,6 +133,9 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 
 ### Books
 
+- [Etkin 1996][book_etkin_dynamics_of_flight]
+- [Kelly 1970][book_kelly_pilot_maker]
+- [Kopetz 2011][book_kopetz_real_time_systems]
 - [Rolfe and Staples 1986][book_rolfe_staples_flight_simulation]
 
 ### Reference
@@ -151,11 +154,18 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 
 ### Research
 
+- [Baarspul 1990][research_baarspul_1990]
+- [Dahmann Fujimoto Weatherly 1997][research_dahmann_fujimoto_weatherly_1997]
 - [IEEE 1278 DIS][research_ieee_1278]
 - [IEEE 1516 HLA][research_ieee_1516]
+- [Isermann Schaffnit Sinsel 1999][research_isermann_schaffnit_sinsel_1999]
 - [Link 1930 Patent][research_link_1930]
 - [Miller and Thorpe 1995][research_miller_thorpe_1995]
+- [Rushby 1999][research_rushby_1999]
 
+[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL15095551W/Dynamics_of_flight
+[book_kelly_pilot_maker]: https://openlibrary.org/works/OL1900097W/The_pilot_maker
+[book_kopetz_real_time_systems]: https://link.springer.com/book/10.1007/978-1-4419-8237-7
 [book_rolfe_staples_flight_simulation]: https://openlibrary.org/works/OL15127495W/Flight_simulation
 
 [ref_arinc_653]: https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services
@@ -168,7 +178,11 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 [related_post_a239_wartime_computing]: {% post_url 2026-07-14-wartime_computing_and_code_breaking %}
 [related_post_a240_early_cold_war_sage]: {% post_url 2026-07-15-early_cold_war_air_defense_and_sage %}
 
+[research_baarspul_1990]: https://www.sciencedirect.com/science/article/pii/0376042190900175
+[research_dahmann_fujimoto_weatherly_1997]: https://dl.acm.org/doi/10.1109/WSC.1997.640388
 [research_ieee_1278]: https://standards.ieee.org/ieee/1278.1/6739/
 [research_ieee_1516]: https://standards.ieee.org/ieee/1516/6156/
+[research_isermann_schaffnit_sinsel_1999]: https://www.sciencedirect.com/science/article/pii/S0967066199001497
 [research_link_1930]: https://patents.google.com/patent/US1825462
 [research_miller_thorpe_1995]: https://ieeexplore.ieee.org/document/406399
+[research_rushby_1999]: https://ntrs.nasa.gov/citations/19990053473
