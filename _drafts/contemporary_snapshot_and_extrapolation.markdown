@@ -39,7 +39,7 @@ with $D$ the number of training tokens and the factor 6 accounting for forward a
 
 $$L(N, D) \approx \frac{A}{N^\alpha} + \frac{B}{D^\beta} + L_{\text{irreducible}}$$
 
-with exponents $\alpha$ and $\beta$ empirically in the range 0.2 to 0.4 across the deep-learning era, giving the specific prediction that both larger parameter counts and larger training-data volumes are required to continue reducing loss. This scaling law substantially shapes the specific economic and infrastructural planning that machine learning integration into aerospace applications requires.
+with exponents $\alpha$ and $\beta$ empirically in the range 0.2 to 0.4 across the deep-learning era, per the specific analyses in [Kaplan et al. 2020][research_kaplan_et_al_2020] and the subsequent compute-optimal refinement in [Hoffmann et al. 2022][research_hoffmann_et_al_2022] introducing the specific balance between parameter count and training data that produces optimal loss for a fixed compute budget. This scaling law substantially shapes the specific economic and infrastructural planning that machine learning integration into aerospace applications requires.
 
 The specific engineering framework for reasoning about machine learning correctness in safety-critical aerospace applications remains under active development. Approaches include restricting machine learning components to non-safety-critical functions with human oversight for any safety-relevant outputs, developing formal verification techniques adapted to machine learning components including neural-network verification tools, and constructing runtime monitors that check machine learning outputs against traditional-software correctness constraints. Each approach has specific limitations and none has yet reached the maturity that the industry consensus process standards for traditional safety-critical software achieved by the 1990s.
 
@@ -71,9 +71,9 @@ $$H = \sum_{i=1}^{N} s_i^2$$
 
 for market shares $s_i$ of $N$ suppliers with $\sum s_i = 1$. For leading-edge foundry services in 2026 with TSMC at approximately 90 percent market share, Samsung at approximately 8 percent, and Intel Foundry at approximately 2 percent, $H \approx 0.81$, substantially above the 0.25 threshold typically identified with highly concentrated markets. The historical treatment in [Miller 2022][book_miller_chip_war] documents the specific commercial and geopolitical dynamics that produced this concentration. The specific reshoring and diversification programs that the United States, European Union, Japan, and other governments launched in the early 2020s aim to reduce this concentration but require decade-scale investment to achieve substantial results.
 
-The second pressure is quantum computing. Practical quantum computers capable of executing quantum algorithms including Shor's algorithm for integer factorization and Grover's algorithm for unstructured search would have substantial implications for aerospace-relevant cryptography and computation. Contemporary quantum computing capability as of 2026 remains substantially below what these algorithms would require for practical operation, but the specific development trajectory has been faster than most contemporary analysts expected in the mid-2010s and the specific transition timeline remains uncertain. Contemporary aerospace software programs are beginning to adopt post-quantum cryptography for long-lived communications systems in anticipation of eventual quantum-computer availability.
+The second pressure is quantum computing. Practical quantum computers capable of executing quantum algorithms including the integer-factorization algorithm of [Shor 1994][research_shor_1994] and Grover's algorithm for unstructured search would have substantial implications for aerospace-relevant cryptography and computation. Contemporary quantum computing capability as of 2026 remains substantially below what these algorithms would require for practical operation, though the specific state of the noisy intermediate-scale quantum era treated in [Preskill 2018][research_preskill_2018] represents a specific transitional phase in which quantum devices can perform specific specialized computations but not the general-purpose quantum computation that would break contemporary cryptography. The specific development trajectory has been faster than most contemporary analysts expected in the mid-2010s and the specific transition timeline remains uncertain. Contemporary aerospace software programs are beginning to adopt post-quantum cryptography for long-lived communications systems in anticipation of eventual quantum-computer availability, per the specific engineering guidance in [Bernstein and Lange 2017][research_bernstein_lange_2017] published in Nature.
 
-The third pressure is cyber-physical security. The specific integration of aerospace platforms into networked infrastructure and the specific increase in software-mediation treated in [A247][related_post_a247_software_defined_aerospace] together produce a specific attack surface that traditional aerospace security engineering was not developed to address. Contemporary aerospace security engineering must integrate the traditional physical-security approach with cyber-security approaches drawn from commercial information technology, and the specific institutional arrangements for doing so remain under active development.
+The third pressure is cyber-physical security. The specific integration of aerospace platforms into networked infrastructure and the specific increase in software-mediation treated in [A247][related_post_a247_software_defined_aerospace] together produce a specific attack surface that traditional aerospace security engineering was not developed to address. The general character of contemporary state-level cyber conflict, including its specific implications for critical infrastructure, is treated in [Sanger 2018][book_sanger_perfect_weapon]. Contemporary aerospace security engineering must integrate the traditional physical-security approach with cyber-security approaches drawn from commercial information technology, and the specific institutional arrangements for doing so remain under active development.
 
 ## Extrapolation Framework and Forward Projection
 
@@ -163,6 +163,7 @@ This concludes the twelve-article series on aerospace, programming languages, an
 - [Miller 2022][book_miller_chip_war]
 - [Perez 2002][book_perez_technological_revolutions]
 - [Sachs 2020][book_sachs_ages_of_globalization]
+- [Sanger 2018][book_sanger_perfect_weapon]
 - [Scharre 2023][book_scharre_four_battlegrounds]
 - [Smil 2022][book_smil_how_the_world_really_works]
 - [Zeihan 2022][book_zeihan_end_of_the_world]
@@ -178,12 +179,18 @@ This concludes the twelve-article series on aerospace, programming languages, an
 
 ### Research
 
+- [Bernstein and Lange 2017][research_bernstein_lange_2017]
+- [Hoffmann et al. 2022][research_hoffmann_et_al_2022]
+- [Kaplan et al. 2020][research_kaplan_et_al_2020]
+- [Preskill 2018][research_preskill_2018]
 - [Sevilla et al. 2022][research_sevilla_2022]
+- [Shor 1994][research_shor_1994]
 
 [book_kotkin_neo_feudalism]: https://openlibrary.org/works/OL21290580W/The_coming_of_neo-feudalism
 [book_miller_chip_war]: https://openlibrary.org/works/OL29337620W/Chip_War
 [book_perez_technological_revolutions]: https://openlibrary.org/works/OL2761094W/Technological_Revolutions_and_Financial_Capital
 [book_sachs_ages_of_globalization]: http://cup.columbia.edu/book/the-ages-of-globalization/9780231193740
+[book_sanger_perfect_weapon]: https://openlibrary.org/works/OL21290627W/The_perfect_weapon
 [book_scharre_four_battlegrounds]: https://openlibrary.org/works/OL29337663W/Four_Battlegrounds
 [book_smil_how_the_world_really_works]: https://openlibrary.org/works/OL27332893W/How_the_World_Really_Works
 [book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL26996636W/The_End_of_the_World_Is_Just_the_Beginning
@@ -195,4 +202,9 @@ This concludes the twelve-article series on aerospace, programming languages, an
 [related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
 [related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
 
+[research_bernstein_lange_2017]: https://www.nature.com/articles/nature23461
+[research_hoffmann_et_al_2022]: https://arxiv.org/abs/2203.15556
+[research_kaplan_et_al_2020]: https://arxiv.org/abs/2001.08361
+[research_preskill_2018]: https://arxiv.org/abs/1801.00862
 [research_sevilla_2022]: https://arxiv.org/abs/2202.05924
+[research_shor_1994]: https://ieeexplore.ieee.org/document/365700
