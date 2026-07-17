@@ -37,7 +37,7 @@ The 1924 death of Lenin initiated a party succession struggle that resolved by 1
 
 The 1928-1932 First Five-Year Plan established the specifically Soviet pattern of forced industrialization that would persist across the following four decades. The plan targeted rapid buildup of heavy industry, particularly steel, coal, electricity generation, machinery, and eventually chemicals and armaments. The plan mobilized capital through extreme forced savings extracted from the agricultural sector via collectivization.
 
-**Forced savings and capital accumulation.** Let $s$ denote the aggregate savings rate as a fraction of gross domestic product and $I / Y$ the investment share. The Soviet economy achieved and sustained investment shares that no market economy had matched. During the First Five-Year Plan the specifically Soviet extraction produced
+**Forced savings and capital accumulation.** Let $I / Y$ denote the aggregate investment share of gross domestic product. The Soviet economy achieved and sustained investment shares that no market economy had matched. During the First Five-Year Plan the specifically Soviet extraction produced
 
 $$
 \frac{I}{Y} \approx 0.25 \text{ to } 0.35
