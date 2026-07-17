@@ -45,7 +45,7 @@ The empirically important feature is not the specific functional form, which any
 
 $$N(t) = N_0 \cdot 2^{t/T_M}$$
 
-with $T_M$ approximately 18 to 24 months for transistor density over the four decades from 1965 through 2005. The aerospace-computing coupled rate constant $\sqrt{\alpha\beta}$ over the same period sustained a similar doubling cadence for many aerospace metrics that depend directly on computing substrate, including flight-control loop bandwidth, autonomous navigation precision, and telemetry data rate. This coincidence is not accidental. Moore's Law represents a semiconductor manufacturing capability that was itself pulled forward by defense demand for the first two decades of its operation, per the historical treatment in [Ceruzzi 2003][book_ceruzzi_history_modern_computing].
+with $T_M$ approximately 18 to 24 months for transistor density over the four decades from 1965 through 2005. Over the same period a similar doubling cadence is observable for several aerospace metrics that depend directly on computing substrate, including flight-control loop bandwidth, autonomous navigation precision, and telemetry data rate, though the empirical estimation of any single aerospace doubling constant across a heterogeneous set of programs is subject to selection effects and definitional variation. The alignment with Moore's Law is not accidental. Moore's Law represents a semiconductor manufacturing capability that was itself pulled forward by defense demand for the first two decades of its operation, per the historical treatment in [Ceruzzi 2003][book_ceruzzi_history_modern_computing].
 
 ## The Substrate: Semiconductor Manufacturing Under Defense Demand
 
@@ -115,7 +115,7 @@ Analog computation was the other precursor. The Cambridge and MIT differential a
 
 Mechanical fire-control computers formed a third precursor thread. The [Ford Instrument Company][ref_ford_instrument_mk1] Mark 1 fire-control computer, in production from 1932 and installed on United States Navy capital ships from 1934, solved the naval gunnery problem of predicting future target position from present target position and course through mechanical integration performed by disk-and-ball integrators. The Mark 1A that followed handled shell dispersion, magnus effect, and Coriolis correction. These devices were computers in the sense that mattered for aerospace, and they were installed and operated in operational combat environments for four decades before their digital successors reached maturity.
 
-Radar entered service between 1935 and 1940 and immediately created data-processing demands that overwhelmed manual methods. Britain's Chain Home network required plotters and filter rooms whose organization is described in [Bowen 1998][book_bowen_radar_days]. The problem of automating radar-track fusion was recognized before the war ended and became one of the direct driving problems for SAGE, treated in the fourth article of this series.
+Radar entered service between 1935 and 1940 and immediately created data-processing demands that overwhelmed manual methods. Britain's Chain Home network required plotters and filter rooms whose organization is described in [Bowen 1998][book_bowen_radar_days]. The problem of automating radar-track fusion was recognized before the war ended and became one of the direct driving problems for the first large-scale real-time computing system that followed a decade later.
 
 ## Series Roadmap
 
