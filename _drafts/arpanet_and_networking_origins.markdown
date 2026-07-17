@@ -21,7 +21,7 @@ Three technical foundations enabled the ARPANET. Packet switching, developed ind
 
 The Advanced Research Projects Agency was established by the United States Department of Defense in February 1958 as a direct response to the Soviet launch of Sputnik 1 on 4 October 1957. The specific institutional purpose was to prevent the United States from being surprised again by foreign technical achievement, and the specific organizational mechanism was to fund high-risk high-payoff research at universities and industrial laboratories under the direction of program managers with substantial technical autonomy. ARPA was renamed to Defense Advanced Research Projects Agency hereafter DARPA in 1972 and back to ARPA in 1993, and to DARPA again in 1996. The current name is DARPA, but the ARPANET-era name was ARPA, which is used throughout this article for consistency with the historical record.
 
-The specific role of ARPA in computing research through the 1960s and 1970s was disproportionate to its budget. The Information Processing Techniques Office hereafter IPTO within ARPA, established in 1962 under Joseph Carl Robnett Licklider, funded essentially all of the important computing research programs of the period including the Compatible Time-Sharing System at MIT treated in [A240][related_post_a240_early_cold_war_sage], the Multics project at MIT and General Electric, the Berkeley timesharing system that later became the foundation of the Unix ecosystem, the Xerox Palo Alto Research Center graphics and personal computing work of the 1970s, and the ARPANET itself. The specific IPTO culture of long-term high-risk research funding without near-term deliverables produced the computing infrastructure that the commercial computing industry later built on, per the historical treatment in [Norberg and O'Neill 1996][book_norberg_oneill_transforming].
+The specific role of ARPA in computing research through the 1960s and 1970s was disproportionate to its budget. The Information Processing Techniques Office hereafter IPTO within ARPA, established in 1962 under Joseph Carl Robnett Licklider, funded essentially all of the important computing research programs of the period including the Compatible Time-Sharing System at MIT treated in [A240][related_post_a240_early_cold_war_sage], the Multics project at MIT and General Electric described in the primary introduction paper by [Corbató and Vyssotsky 1965][research_corbato_vyssotsky_1965], the Berkeley timesharing system that later became the foundation of the Unix ecosystem, the Xerox Palo Alto Research Center graphics and personal computing work of the 1970s treated in [Hiltzik 1999][book_hiltzik_dealers_lightning], and the ARPANET itself. The specific IPTO culture of long-term high-risk research funding without near-term deliverables produced the computing infrastructure that the commercial computing industry later built on, per the historical treatment in [Norberg and O'Neill 1996][book_norberg_oneill_transforming].
 
 Licklider's 1960 paper on human-computer symbiosis in [Licklider 1960][research_licklider_1960] and the 1968 paper on the computer as a communication device by [Licklider and Taylor 1968][research_licklider_taylor_1968] laid out the specific vision of interactive networked computing that ARPANET was designed to realize. The vision emphasized the value of human-computer interaction for augmenting human capability rather than for replacing human labor, and the value of computer-mediated communication for connecting geographically distributed research communities. Both papers are load-bearing primary sources on the intellectual origins of the ARPANET and, by extension, of the contemporary internet.
 
@@ -39,7 +39,7 @@ for a small safety factor $k$ of order 3 to 5 based on the Central Limit Theorem
 
 ## ARPANET Design and Deployment
 
-The ARPANET design was led by Lawrence Roberts, who joined the IPTO in 1966 and became its director in 1969. Roberts drew on Kleinrock's queueing theory, Baran's survivability analysis, and Davies's efficiency analysis to specify a network architecture that would connect approximately 15 to 20 research computing sites at United States universities and defense laboratories. The specific design decision that Roberts adopted at Wesley Clark's suggestion was to use dedicated switching computers called Interface Message Processors hereafter IMPs to handle the network communications, with the host computers at each site relieved of the specific engineering burden of implementing the network protocols. This separation between hosts and switches remains foundational to essentially all subsequent network architectures.
+The ARPANET design was led by Lawrence Roberts, who joined the IPTO in 1966 and became its director in 1969. Roberts drew on Kleinrock's queueing theory, Baran's survivability analysis, and Davies's efficiency analysis to specify a network architecture that would connect approximately 15 to 20 research computing sites at United States universities and defense laboratories. The initial ARPANET plan was presented at the 1967 ACM Symposium on Operating Systems Principles in [Roberts 1967][research_roberts_1967], with the subsequent detailed account of the operational network appearing in the [Roberts and Wessler 1970][research_roberts_wessler_1970] AFIPS paper previously cited in [A237][related_post_a237_framing_co_development]. The specific design decision that Roberts adopted at Wesley Clark's suggestion was to use dedicated switching computers called Interface Message Processors hereafter IMPs to handle the network communications, with the host computers at each site relieved of the specific engineering burden of implementing the network protocols. This separation between hosts and switches remains foundational to essentially all subsequent network architectures.
 
 The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds. End-to-end latency across an $N_{\text{hops}}$-hop path summed the per-hop transmission time and processing time as
 
@@ -47,7 +47,7 @@ $$T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text
 
 for packet size $L_{\text{packet}}$, link bandwidth $B_{\text{link}}$, per-IMP processing time $T_{\text{proc}}$, and total propagation delay $T_{\text{propagation}}$ across the leased-line physical distance. Coast-to-coast paths across the ARPANET typically involved four to six IMP hops and accumulated end-to-end latency of approximately 100 milliseconds.
 
-The first four ARPANET nodes were installed between September and December 1969 at the University of California at Los Angeles, the Stanford Research Institute hereafter SRI, the University of California at Santa Barbara, and the University of Utah. The first host-to-host communication attempt was made on 29 October 1969 between UCLA and SRI, with a partial message "LO" successfully transmitted before the SRI host crashed on receipt of the third character. The intended full message was "LOGIN", which would have initiated a remote login session from UCLA to the SRI host. The successful full transmission occurred approximately an hour later after the SRI system recovered. This event is generally treated as the operational birth of the ARPANET, though the specific technical achievement was modest compared with what followed.
+The first four ARPANET nodes were installed between September and December 1969 at the University of California at Los Angeles, the Stanford Research Institute hereafter SRI, the University of California at Santa Barbara, and the University of Utah. The first host-to-host communication attempt was made on 29 October 1969 between UCLA and SRI, with a partial message "LO" successfully transmitted before the SRI host crashed on receipt of the third character, per the retrospective account by Kleinrock as the UCLA principal investigator in [Kleinrock 2010][research_kleinrock_2010] in IEEE Communications Magazine. The intended full message was "LOGIN", which would have initiated a remote login session from UCLA to the SRI host. The successful full transmission occurred approximately an hour later after the SRI system recovered. This event is generally treated as the operational birth of the ARPANET, though the specific technical achievement was modest compared with what followed.
 
 ## Growth and Protocols
 
@@ -57,7 +57,7 @@ $$N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}$$
 
 with time constant $\tau$ of approximately 15 to 18 months over the 1969 through 1980 period, similar to the transistor-density doubling time treated in the substrate section of [A237][related_post_a237_framing_co_development] and consistent with the general pattern of exponential adoption growth for successful network technologies. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the specific problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the specific assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
 
-The Transmission Control Protocol hereafter TCP was designed by Vinton Cerf and Robert Kahn between 1973 and 1974 to solve the specific problem of interconnecting the ARPANET with packet radio networks, satellite networks, and other emerging networks whose delivery guarantees differed from the ARPANET's. The primary description in [Cerf and Kahn 1974][research_cerf_kahn_1974] in the IEEE Transactions on Communications introduced the specific split between a lower-layer datagram protocol that provided best-effort delivery and an upper-layer stream protocol that provided reliable in-order delivery, laying the foundation for what later became the split between Internet Protocol hereafter IP and TCP. The TCP/IP split was formalized in 1978 and became the standard by which the ARPANET, packet radio networks, satellite networks, and subsequent networks interconnected.
+The Transmission Control Protocol hereafter TCP was designed by Vinton Cerf and Robert Kahn between 1973 and 1974 to solve the specific problem of interconnecting the ARPANET with packet radio networks, satellite networks, and other emerging networks whose delivery guarantees differed from the ARPANET's. The primary description in [Cerf and Kahn 1974][research_cerf_kahn_1974] in the IEEE Transactions on Communications introduced the specific split between a lower-layer datagram protocol that provided best-effort delivery and an upper-layer stream protocol that provided reliable in-order delivery, laying the foundation for what later became the split between Internet Protocol hereafter IP and TCP. The TCP/IP split was formalized in 1978 and standardized in [Postel 1981][research_postel_1981_tcp] as Request for Comments 793, which became the standard by which the ARPANET, packet radio networks, satellite networks, and subsequent networks interconnected.
 
 TCP's sliding-window flow-control mechanism bounded the effective throughput on any single connection by the window size divided by the round-trip time,
 
@@ -119,6 +119,7 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 
 - [Abbate 1999][book_abbate_inventing_internet]
 - [Hafner and Lyon 1996][book_hafner_lyon_wizards]
+- [Hiltzik 1999][book_hiltzik_dealers_lightning]
 - [Norberg and O'Neill 1996][book_norberg_oneill_transforming]
 
 ### Reference
@@ -137,15 +138,21 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 
 - [Baran 1964][research_baran_1964]
 - [Cerf and Kahn 1974][research_cerf_kahn_1974]
+- [Corbató and Vyssotsky 1965][research_corbato_vyssotsky_1965]
 - [Davies 1966][research_davies_1966]
 - [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970]
 - [Jacobson 1988][research_jacobson_1988]
+- [Kleinrock 2010][research_kleinrock_2010]
 - [Licklider 1960][research_licklider_1960]
 - [Licklider and Taylor 1968][research_licklider_taylor_1968]
 - [Metcalfe and Boggs 1976][research_metcalfe_boggs_1976]
+- [Postel 1981][research_postel_1981_tcp]
+- [Roberts 1967][research_roberts_1967]
+- [Roberts and Wessler 1970][research_roberts_wessler_1970]
 
 [book_abbate_inventing_internet]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
 [book_hafner_lyon_wizards]: https://openlibrary.org/works/OL2735391W/Where_wizards_stay_up_late
+[book_hiltzik_dealers_lightning]: https://openlibrary.org/works/OL5732022W/Dealers_of_lightning
 [book_norberg_oneill_transforming]: https://www.press.jhu.edu/books/title/1720/transforming-computer-technology
 
 [ref_arpa_darpa_history]: https://www.darpa.mil/about-us/timeline
@@ -158,9 +165,14 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 
 [research_baran_1964]: https://www.rand.org/pubs/research_memoranda/RM3420.html
 [research_cerf_kahn_1974]: https://ieeexplore.ieee.org/document/1092259
+[research_corbato_vyssotsky_1965]: https://dl.acm.org/doi/10.1145/1463891.1463912
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 [research_heart_1970]: https://dl.acm.org/doi/10.1145/1476936.1477021
 [research_jacobson_1988]: https://dl.acm.org/doi/10.1145/52324.52356
+[research_kleinrock_2010]: https://ieeexplore.ieee.org/document/5534588
 [research_licklider_1960]: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
 [research_licklider_taylor_1968]: https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf
 [research_metcalfe_boggs_1976]: https://dl.acm.org/doi/10.1145/360248.360253
+[research_postel_1981_tcp]: https://www.rfc-editor.org/rfc/rfc793
+[research_roberts_1967]: https://dl.acm.org/doi/10.1145/800001.811680
+[research_roberts_wessler_1970]: https://dl.acm.org/doi/10.1145/1476936.1477020
