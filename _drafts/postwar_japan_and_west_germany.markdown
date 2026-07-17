@@ -63,6 +63,14 @@ $$
 
 for Japan. Both convergence trajectories exceed anything the Gerschenkron continental European follower cases achieved on similar starting-point-to-endpoint measures over comparable time windows, and reflect the specific catch-up conditions the American-anchored postwar order created for the defeated Axis industrial economies.
 
+The specific catch-up performance can be quantified using the Gerschenkron rearrangement introduced in the [third article of the series on continental European followers][related_post_continental_followers]. Given a ratio increase from $R_0$ to $R_T$ over target period $T$, the required growth-rate premium satisfies $\Delta g = \ln(R_T / R_0) / T$. Applying to the Japanese case with $R_0 = 0.20$, $R_T = 0.85$, and $T = 40$ years gives
+
+$$
+\Delta g_{\text{JP}} = \frac{\ln(0.85 / 0.20)}{40} \approx 3.6\% \text{ per year}
+$$
+
+sustained across the miracle-growth decades. The equivalent West German premium was approximately two percentage points per year across the same period. Both values substantially exceed the one-to-two percentage-point range characteristic of the Gerschenkron continental European follower cases treated in the third article and reflect the specifically favorable postwar conditions the American-anchored reconstruction created.
+
 **Comparison to Soviet trajectory.** The specifically successful postwar convergence contrasts sharply with the [Soviet trajectory treated in the sixth article of the series][related_post_soviet_forced_industrialization], which achieved substantial catch-up through the 1928-1975 period but reversed thereafter. The specifically postwar Japan and West Germany cases converged persistently rather than peaking and declining. The mechanisms operating in the two situations differ substantially. The Soviet case operated under socialist state ownership and central planning with sustained defense burden and consumer-goods failure. The postwar Japan and West Germany cases operated under market-based industrial organization with substantial coordinated industrial policy, under American security provision that externalized the defense-burden costs, and with sustained investment in consumer and export-oriented industries that the Soviet system did not develop.
 
 ## Institutional Specificities
@@ -82,6 +90,14 @@ The specifically American security guarantee to both countries produced a distin
 **North Atlantic Treaty Organization and West Germany.** West Germany joined NATO in 1955 and hosted substantial American, British, and French military forces on its territory through the entire Cold War. The specific pattern of American forward-deployment in West Germany, the West German Bundeswehr integration under NATO command, and the West German commitment to the alliance framework became defining features of West German foreign policy. Reunification in 1990 preserved these arrangements while extending them to the former East German territory.
 
 **United States-Japan Security Treaty and Japan.** The 1951 and revised 1960 United States-Japan Security Treaties establish American military presence on Japanese territory and American commitment to Japanese defense. Approximately fifty thousand American military personnel remain stationed in Japan as of the 2020s, primarily at bases in Okinawa and on the main Japanese islands. The specific arrangement freed Japan from substantial defense-burden costs across the entire postwar period and permitted the specifically Japanese defense-expenditure ceiling of approximately one percent of gross domestic product that persisted from the 1970s through the early 2020s.
+
+The specifically alliance-locked defense-burden externalization can be formalized as a fiscal-capacity differential. Let $m$ denote defense spending as a fraction of gross domestic product. During the peak Cold War decades
+
+$$
+m_{\text{US}} - m_{\text{JP}} \approx 0.05 \text{ to } 0.08
+$$
+
+with the differential representing the fiscal capacity freed for civilian investment in the Japanese case relative to the sustained American defense burden. The West German differential against the American figure was somewhat smaller because West Germany maintained the Bundeswehr with defense spending in the two to three percent range through most of the Cold War, but still substantial enough to constitute a material advantage for civilian investment in the West German case. The externalization of defense-burden costs is one of the load-bearing structural mechanisms behind the postwar Japan and West Germany miracle-growth performance and one that the specifically 2020s rearmament pressures are beginning to reverse.
 
 **United Nations and international-institution integration.** Both countries were integrated into the postwar international-institutional framework of the United Nations from 1955 and 1956 respectively, the International Monetary Fund and World Bank on parallel timelines, the General Agreement on Tariffs and Trade and later World Trade Organization, and the Organisation for Economic Co-operation and Development from 1961 and 1964. The specific integration path constitutes one of the load-bearing consequences of the American-anchored postwar international order and one of the reasons both economies gained access to Western markets and technology at scales the Soviet-aligned economies did not achieve.
 
