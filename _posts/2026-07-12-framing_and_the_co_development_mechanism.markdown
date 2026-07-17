@@ -59,6 +59,12 @@ $$C(N) = C_0 \cdot N^{-\lambda}$$
 
 with learning-curve exponent $\lambda$ empirically in the range 0.15 to 0.30 for semiconductor manufacturing over the 1960s and 1970s, corresponding to a 15 to 30 percent unit-cost reduction per doubling of cumulative volume, per [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]. Defense procurement absorbed the first several orders of magnitude of cumulative production at prices that would have been prohibitive for commercial buyers. By the time commercial demand emerged, cumulative volume had already reduced unit cost enough to open the personal computer market. The mechanism is not accidental. Every subsequent generation of semiconductor manufacturing has passed through a similar sequence in which government or aerospace procurement absorbs the high-cost early volume and commercial markets inherit a mature manufacturing base.
 
+Combining Moore's density law with the Wright learning curve gives the empirical cost-per-transistor trajectory observed across the digital era. If cumulative transistor volume grows in step with density such that $N(t) = N_0 \cdot 2^{t/T_M}$, then unit cost per transistor obeys
+
+$$C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}$$
+
+which for $\lambda \approx 0.25$ and $T_M \approx 2$ years yields approximately an 8.5 percent annual cost reduction per transistor over the four decades of interest. This trajectory is what turned computing from a capital-intensive institutional resource into a commodity available to individual consumers, and it is what allowed aerospace to progressively substitute software for mechanical and hydraulic subsystems as the article's later chapters describe.
+
 ## The Real-Time Constraint
 
 Aerospace applications introduce a hard constraint that consumer computing did not face until the 1990s. A flight-control loop must complete its computation within a time bound set by the vehicle dynamics.
@@ -69,11 +75,33 @@ For a fixed-wing aircraft with pitch dynamics timescale of order 200 millisecond
 
 This constraint drove several early computing developments. Interrupt-driven scheduling, first fielded at scale in the [Whirlwind][research_everett_whirlwind_1951] computer at the Massachusetts Institute of Technology hereafter MIT under Forrester and Everett, was invented specifically to handle radar returns at deterministic latency. Real-time operating systems as a distinct discipline emerged from air defense and aerospace applications, per [Liu 2000][book_liu_realtime_systems] and the treatment in [Redmond and Smith 2000][book_redmond_smith_sage] of the SAGE architecture. Priority-based scheduling algorithms, deadline monotonic analysis, and rate monotonic analysis were all developed in a research thread that traces directly to aerospace requirements. Software Version 1 of the Apollo Guidance Computer executive system, described in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965], implemented cooperative multitasking specifically because the guidance loop had to close at 20 Hz with hard deadlines.
 
+Rate monotonic scheduling gives a sufficient but not necessary admission-control test. Where the utilization bound rejects a task set that is in fact schedulable, response time analysis per [Joseph and Pandya 1986][research_joseph_pandya_1986] and [Audsley Burns Richardson Tindell Wellings 1993][research_audsley_burns_richardson_tindell_wellings_1993] gives an exact test. For a task $i$ with computation time $C_i$ and period $T_i$ preempted by higher-priority tasks, the worst-case response time $R_i$ is the smallest fixed point of
+
+$$R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j$$
+
+where $\text{hp}(i)$ is the set of tasks with higher priority than $i$. Task $i$ meets its deadline $D_i$ if and only if $R_i \le D_i$. Response time analysis is the standard admission-control tool for modern avionics scheduling and remains cited in contemporary safety-critical software standards.
+
 ## The Reliability Constraint
 
 Aerospace applications also introduce reliability requirements that consumer computing did not adopt until decades later. A ground-based commercial computer that fails once per week is an inconvenience. A guidance computer that fails once per mission destroys the mission and possibly the crew. This requirement produced several distinct engineering responses that later diffused into general computing practice.
 
 Hardware redundancy at the module level was fielded first in aerospace. The Space Shuttle avionics used four primary and one backup computers in a majority-voting configuration, per [Madden and Rone 1984][research_madden_rone_1984] and the treatment in [Tomayko 1988][book_tomayko_shuttle_software]. Error detection and correction in memory circuits was fielded in aerospace applications a decade before it appeared in commercial mainframes. Verification and validation as a distinct engineering discipline emerged from safety-critical aerospace, per [Boehm 1981][book_boehm_software_engineering_economics], and the notation and tooling developed for these programs later became the foundation of formal verification as it appears in the contemporary literature.
+
+The reliability of a triple modular redundancy configuration under majority voting, per [von Neumann 1956][research_von_neumann_1956] and the earlier [Moore and Shannon 1956][research_moore_shannon_1956] treatment of relay circuits, is
+
+$$R_{\text{TMR}} = 3R^2 - 2R^3$$
+
+where $R$ is the reliability of a single module and the voter is assumed perfect. This crosses the single-module reliability at $R = 0.5$, meaning TMR improves system reliability only when individual modules are already better than a coin flip. Generalizing to $N$-modular redundancy with $N = 2k + 1$ voting members, the system reliability is
+
+$$R_{\text{NMR}} = \sum_{i=k+1}^{N} \binom{N}{i} R^i (1 - R)^{N-i}$$
+
+which for the Space Shuttle four-plus-one configuration under the assumption of independent random failures gives high reliability against uncorrelated failure but does not protect against correlated failures. The specific value of the four-plus-one configuration is that it tolerates one arbitrary failure and one detected failure without loss of function, which fits the mission profile better than a symmetric five-way voter would.
+
+Verification effort for aerospace software scales super-linearly with software size, per empirical data summarized in [Boehm 1981][book_boehm_software_engineering_economics] and later work on software cost estimation. The verification effort $V$ measured in engineering hours obeys approximately
+
+$$V(L) = k \cdot L^\gamma$$
+
+with exponent $\gamma$ in the range 1.05 to 1.20 for safety-critical software and constant $k$ that depends on the required assurance level. This super-linear scaling means that doubling software size more than doubles verification effort, which is the specific reason aerospace software programs came to dominate development-cost budgets for large aerospace platforms.
 
 The reliability constraint interacted with the real-time constraint to produce a distinctive class of software artifacts. Rate monotonic scheduling, first formalized by [Liu and Layland 1973][research_liu_layland_1973], provides an admission control test for hard real-time systems and became the standard approach for aerospace flight software. The utilization bound
 
@@ -89,6 +117,12 @@ $$L(t) = L_0 \cdot 2^{(t-t_0)/T_L}$$
 
 with $T_L$ of order 6 to 8 years for major aerospace programs. The growth outran the productivity of general software engineering practice, which produced sustained pressure on programming language design and verification methodology that appears throughout the series. The empirical laws of software evolution formalized by [Lehman 1980][research_lehman_1980] state that continuing software growth alongside declining marginal productivity per line is a general property of large software systems rather than a defect specific to any one program. Aerospace software programs hit the Lehman-law regime earlier and harder than most other software domains because the reliability constraint prevented the compensating strategies of limited testing, tolerated defect rates, and iterative delivery that other domains used to keep growth productive.
 
+Team communication overhead as a function of team size, formalized in [Brooks 1975][book_brooks_mythical_man_month], scales quadratically in the number of team members. The number of pairwise communication channels among $n$ developers is
+
+$$C(n) = \binom{n}{2} = \frac{n(n-1)}{2}$$
+
+which for a 100-person program yields 4,950 potential communication paths and for a 1,000-person program yields 499,500. Brooks used this scaling to argue that adding developers to a late software project delays it further, since the communication overhead absorbs the additional labor before it becomes productive. For large aerospace programs the practical consequence has been organizational compartmentalization by subsystem, interface control documents as the primary integration artifact, and language-and-tooling choices that support that compartmentalization.
+
 ## The Six-Axis Framework
 
 Subsequent articles apply a six-axis framework to characterize each historical episode. The axes are chosen to make cross-episode comparisons tractable. Each episode is treated at greater or lesser depth on each axis according to what the historical record supports.
@@ -99,7 +133,15 @@ The second axis is real-time control. What loops needed to close, at what rate, 
 
 The third axis is reliability and verification. What consequences followed from a computing failure, and what verification effort was accepted to prevent one? Mean time between failures, mean time to restore, and fraction of the software budget spent on verification all fall on this axis. The safety-critical software tradition emerged primarily from this axis.
 
-The fourth axis is networking and distribution. What communication patterns did the program require between geographically or physically distributed computing elements? Air defense sensor fusion, mission control telemetry, and modern distributed simulation all fall on this axis. Bandwidth-delay product and message-loss tolerance are the relevant units.
+The fourth axis is networking and distribution. What communication patterns did the program require between geographically or physically distributed computing elements? Air defense sensor fusion, mission control telemetry, and modern distributed simulation all fall on this axis. Bandwidth-delay product and message-loss tolerance are the relevant units. The bandwidth-delay product
+
+$$\text{BDP} = B \cdot T_{\text{RTT}}$$
+
+for bandwidth $B$ and round-trip time $T_{\text{RTT}}$ gives the amount of data in flight on the network at any moment, and this quantity sets the buffering, retransmission, and acknowledgment strategy the protocol must use. The upper bound on information rate for a channel of bandwidth $B$ and signal-to-noise ratio $\mathrm{SNR}$, established by [Shannon 1948][research_shannon_1948] and [Shannon 1949][research_shannon_1949], is
+
+$$C = B \log_2(1 + \mathrm{SNR})$$
+
+which sets the fundamental limit on how much information can move across any specific channel. Both quantities appear repeatedly in air defense radar link engineering, mission control telemetry design, and modern software-defined radio for aerospace platforms.
 
 The fifth axis is software engineering as a discipline. What programming languages, development methodologies, and organizational structures did the program require? Assembly language on the Apollo Guidance Computer, HAL/S on the Space Shuttle, Ada on the Boeing 777, and mixed language stacks on contemporary programs all fall on this axis. Lines of code per developer year and defect density at delivery are the relevant units.
 
@@ -115,7 +157,11 @@ Analog computation was the other precursor. The Cambridge and MIT differential a
 
 Mechanical fire-control computers formed a third precursor thread. The [Ford Instrument Company][ref_ford_instrument_mk1] Mark 1 fire-control computer, in production from 1932 and installed on United States Navy capital ships from 1934, solved the naval gunnery problem of predicting future target position from present target position and course through mechanical integration performed by disk-and-ball integrators. The Mark 1A that followed handled shell dispersion, magnus effect, and Coriolis correction. These devices were computers in the sense that mattered for aerospace, and they were installed and operated in operational combat environments for four decades before their digital successors reached maturity.
 
-Radar entered service between 1935 and 1940 and immediately created data-processing demands that overwhelmed manual methods. Britain's Chain Home network required plotters and filter rooms whose organization is described in [Bowen 1998][book_bowen_radar_days]. The problem of automating radar-track fusion was recognized before the war ended and became one of the direct driving problems for the first large-scale real-time computing system that followed a decade later.
+Radar entered service between 1935 and 1940 and immediately created data-processing demands that overwhelmed manual methods. Britain's Chain Home network required plotters and filter rooms whose organization is described in [Bowen 1998][book_bowen_radar_days]. The radar range equation, in the form derived in [Skolnik 1962][book_skolnik_radar], gives the maximum detection range $R$ of a target of radar cross-section $\sigma$ as
+
+$$R^4 = \frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{r,\min}}$$
+
+where $P_t$ is transmitted power, $G$ is antenna gain, $\lambda$ is wavelength, and $P_{r,\min}$ is the minimum detectable received power. The fourth-power dependence of returned signal on target range means that doubling detection range requires a sixteenfold increase in transmitter power, antenna gain, or receiver sensitivity, which set the specific engineering trade the radar and computing communities faced together. The problem of automating radar-track fusion was recognized before the war ended and became one of the direct driving problems for the first large-scale real-time computing system that followed a decade later.
 
 ## Series Roadmap
 
@@ -165,11 +211,13 @@ The next article in the series covers pre-war computing origins and ballistics w
 
 - [Boehm 1981][book_boehm_software_engineering_economics]
 - [Bowen 1998][book_bowen_radar_days]
+- [Brooks 1975][book_brooks_mythical_man_month]
 - [Ceruzzi 2003][book_ceruzzi_history_modern_computing]
 - [Leslie 1993][book_leslie_cold_war_and_american_science]
 - [Liu 2000][book_liu_realtime_systems]
 - [Mindell 2008][book_mindell_digital_apollo]
 - [Redmond and Smith 2000][book_redmond_smith_sage]
+- [Skolnik 1962][book_skolnik_radar]
 - [Small 2001][book_small_analog_computing]
 - [Tomayko 1988][book_tomayko_shuttle_software]
 
@@ -197,6 +245,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 
 ### Research
 
+- [Audsley Burns Richardson Tindell Wellings 1993][research_audsley_burns_richardson_tindell_wellings_1993]
 - [Baran 1964][research_baran_1964]
 - [Bardeen Brattain Shockley 1948][research_bardeen_brattain_shockley_1948]
 - [Bromley 1990][research_bromley_1990]
@@ -204,20 +253,27 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Davies 1966][research_davies_1966]
 - [Everett Whirlwind 1951][research_everett_whirlwind_1951]
 - [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
+- [Joseph and Pandya 1986][research_joseph_pandya_1986]
 - [Lehman 1980][research_lehman_1980]
 - [Liu and Layland 1973][research_liu_layland_1973]
 - [Madden and Rone 1984][research_madden_rone_1984]
+- [Moore and Shannon 1956][research_moore_shannon_1956]
 - [Moulton 1926][research_moulton_1926]
 - [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]
+- [Shannon 1948][research_shannon_1948]
+- [Shannon 1949][research_shannon_1949]
+- [von Neumann 1956][research_von_neumann_1956]
 - [Wright 1936][research_wright_1936]
 
 [book_boehm_software_engineering_economics]: https://www.pearson.com/en-us/subject-catalog/p/software-engineering-economics/P200000003444
 [book_bowen_radar_days]: https://openlibrary.org/works/OL2723583W/Radar_days
+[book_brooks_mythical_man_month]: https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000009261
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_leslie_cold_war_and_american_science]: http://cup.columbia.edu/book/the-cold-war-and-american-science/9780231079587
 [book_liu_realtime_systems]: https://www.pearson.com/en-us/subject-catalog/p/real-time-systems/P200000003296
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_redmond_smith_sage]: https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/
+[book_skolnik_radar]: https://openlibrary.org/works/OL15142108W/Introduction_to_radar_systems
 [book_small_analog_computing]: https://www.press.jhu.edu/books/title/2210/analogue-alternative
 [book_tomayko_shuttle_software]: https://ntrs.nasa.gov/citations/19880069935
 
@@ -239,6 +295,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [related_post_a206_programming_language_theory]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_a215_2020s]: {% post_url 2026-04-05-the_2020s_to_mid_2026 %}
 
+[research_audsley_burns_richardson_tindell_wellings_1993]: https://ieeexplore.ieee.org/document/6119585
 [research_baran_1964]: https://www.rand.org/pubs/research_memoranda/RM3420.html
 [research_bardeen_brattain_shockley_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
 [research_bromley_1990]: https://ieeexplore.ieee.org/document/4638384
@@ -246,9 +303,14 @@ The next article in the series covers pre-war computing origins and ballistics w
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 [research_everett_whirlwind_1951]: https://apps.dtic.mil/sti/citations/AD0625649
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
+[research_joseph_pandya_1986]: https://academic.oup.com/comjnl/article/29/5/390/533018
 [research_lehman_1980]: https://ieeexplore.ieee.org/document/1456074
 [research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
+[research_moore_shannon_1956]: https://www.sciencedirect.com/science/article/pii/0016003256905598
 [research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
 [research_nagy_farmer_bui_trancik_2013]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669
+[research_shannon_1948]: https://ieeexplore.ieee.org/document/6773024
+[research_shannon_1949]: https://ieeexplore.ieee.org/document/1697831
+[research_von_neumann_1956]: https://www.dna.caltech.edu/courses/cs191/paperscs191/VonNeumann56.pdf
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
