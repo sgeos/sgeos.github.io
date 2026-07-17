@@ -39,7 +39,13 @@ The three state-led tigers, namely South Korea, Taiwan, and Singapore, applied a
 
 **Manufacturing focus with export discipline.** All three state-led tigers systematically directed capital and talent toward manufacturing exports under strict performance-based discipline. South Korean chaebol conglomerates received subsidized credit conditioned on export performance targets. Taiwanese state-owned enterprises and eventually small-and-medium-enterprise sectors were coordinated toward export markets by the Council for Economic Planning and Development. Singaporean state agencies including the Economic Development Board directed foreign direct investment into export-oriented manufacturing sectors under state coordination. The specific export-discipline mechanism, that firms losing access to export markets faced loss of state subsidies rather than sustained protection, is the load-bearing structural feature that distinguishes the tiger developmental-state model from the earlier Latin American import-substitution model that failed under similar Cold War subsidy conditions.
 
-**Financial repression and forced savings.** All three state-led tigers repressed domestic financial markets to channel domestic savings toward state-directed industrial investment at below-market interest rates. Household savings rates rose to approximately thirty to forty percent of household income across the three cases during the peak developmental decades. Bank credit was allocated by state coordination rather than by market pricing, with the state directing capital toward the export-oriented manufacturing sectors identified as strategic priorities. The specifically Korean chaebol system that emerged from this pattern combined family-controlled conglomerates with main-bank relationships and state-coordinated investment allocation, functionally paralleling the [Japanese keiretsu structure treated in the seventh article][related_post_postwar_japan_and_west_germany].
+**Financial repression and forced savings.** All three state-led tigers repressed domestic financial markets to channel domestic savings toward state-directed industrial investment at below-market interest rates. Household savings rates rose to approximately thirty to forty percent of household income across the three cases during the peak developmental decades. The specifically tiger aggregate investment share sustained across the peak developmental decades reached
+
+$$
+\frac{I}{Y} \approx 0.30 \text{ to } 0.40
+$$
+
+comparable to the [Soviet forced-savings extraction the sixth article of the series treated][related_post_soviet_forced_industrialization] but achieved through voluntary savings under state-coordinated financial-market repression rather than through the specifically coercive collectivization mechanism the Soviet case applied. Bank credit was allocated by state coordination rather than by market pricing, with the state directing capital toward the export-oriented manufacturing sectors identified as strategic priorities. The specifically Korean chaebol system that emerged from this pattern combined family-controlled conglomerates with main-bank relationships and state-coordinated investment allocation, functionally paralleling the [Japanese keiretsu structure treated in the seventh article][related_post_postwar_japan_and_west_germany].
 
 The [Amsden reconstruction of South Korean late industrialization][book_amsden_asias_next_giant] documents the specifically Korean variant of the developmental-state model in detail. The [Wade reconstruction of governing the market in East Asian industrialization][book_wade_governing_market] documents the specifically Taiwanese variant and establishes that both cases involved substantially more state intervention than the standard neoclassical account of tiger success acknowledged.
 
@@ -62,6 +68,14 @@ R_{\text{KR}}(1960) \approx 0.10, \quad R_{\text{KR}}(2000) \approx 0.50, \quad 
 $$
 
 with the Taiwanese, Singaporean, and Hong Kong trajectories following similar patterns and Singapore and Hong Kong in particular reaching or exceeding the American per-capita output level by the 2010s. The tiger convergence exceeds the [postwar Japan and West Germany convergence treated in the seventh article][related_post_postwar_japan_and_west_germany] in the specific rate of closure achieved from the substantially lower initial starting point, and demonstrates that the developmental-state model applied under sustained Cold War subsidy can achieve catch-up performance that no earlier late-industrialization case matched.
+
+Applying the Gerschenkron rearrangement introduced in the [third article of the series on continental European followers][related_post_industrialization_framing] to the Korean trajectory with $R_0 = 0.10$ at 1960, $R_T = 0.65$ at 2020, and $T = 60$ years gives
+
+$$
+\Delta g_{\text{KR}} = \frac{\ln(0.65 / 0.10)}{60} \approx 3.1\% \text{ per year}
+$$
+
+sustained across the six-decade catch-up window. The value is comparable to the specifically Japanese postwar premium of approximately 3.6 percent per year the seventh article of the series formalized, and substantially exceeds the one-to-two percentage-point range characteristic of the earlier continental European follower cases. The Taiwanese and Singaporean equivalents fall in a similar range, with Hong Kong's specifically colonial-administration trajectory somewhat lower but still substantial.
 
 ## The Young Debate and the Sources of Tiger Growth
 
