@@ -9,88 +9,81 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-16
-**Task**: Draft, review, and publish A225-A236 as the twelve-article back-dated series "Industrialization Waves and Geopolitical Positioning" walking successive industrialization waves chronologically from British first-mover industrialization through the contemporary snapshot. Shared main title with per-article subtitles. Editorial dates 2026-03-15 through 2026-03-26 filling exactly the twelve-day gap between A107 Keleusma Getting Started and A206 Programming Language Theory arc opener. Two-commit batch-publication pattern complete; commits pushed to origin/master.
+**Task**: Draft, review, and publish A237 as the opener of the twelve-article rolling-publication series "Aerospace, Programming Languages, and Information Technology Co-Development" under the back-reference-only constraint that permits one-per-day rolling publication. Editorial date 2026-07-12 backdated four days under the rolling-publication catch-up window. Four draft-stage commits followed by a publish commit. Local pending push authorization.
 
 ---
 
 ## Verification
 
-### Series Complete
+### Series Slot and Constraint
 
-Twelve-article back-dated series. Shared main title "Industrialization Waves and Geopolitical Positioning" with per-article subtitle in "Main: Sub" format.
+Twelve-article rolling-publication series with shared main title "Aerospace, Programming Languages, and Information Technology Co-Development" and per-article subtitle in "Main: Sub" format. Editorial dates 2026-07-12 through 2026-07-23 fill the twelve-day open window that begins one day after A216 Keleusma self-hosting strategy at 2026-07-11. A237 the opener occupies 2026-07-12. Subsequent articles A238-A248 will publish one per day at editorial dates 2026-07-13 through 2026-07-23 as they are drafted.
 
-- A225 (index 1, 2026-03-15): Framing and the Preindustrial World. Opener establishing primary-structural rather than sufficient thesis, six-axis framework, Malthusian and organic-economy ceilings, fiscal-military capacity, and preindustrial political map circa 1750.
-- A226 (index 2, 2026-03-16): First-Mover Britain. Coal endowment, colonial capital, Napoleonic-era fiscal-military state, textile mechanization, iron-and-steam complex, Pax Britannica, two-power naval standard, sterling reserve decay.
-- A227 (index 3, 2026-03-17): Continental European Followers. Gerschenkron paradigmatic case, universal banking, Belgium, France, Germany, Netherlands, Switzerland, Scandinavia, Austria-Hungary, Italy, Iberia, Baumol convergence hypothesis with half-life.
-- A228 (index 4, 2026-03-18): American Ascent. Continental internal market, immigration-driven scale, protectionist tariff policy, managerial capitalism, natural-resource abundance, externalized wartime disruption, dollar reserve rise, manufacturing-employment decline.
-- A229 (index 5, 2026-03-19): Meiji Japan. First non-Western industrialization from preindustrial baseline, Tokugawa baseline, Perry shock, institutional response, zaibatsu conglomerates, universal conscription and education, imperial expansion, 1945 catastrophe.
-- A230 (index 6, 2026-03-20): Soviet Forced Industrialization. Tsarist baseline, 1928 Stalinist turn, First Five-Year Plan, collectivization catastrophe, Great Patriotic War, Cold War buildup, stagnation and structural weakness, 1991 institutional collapse.
-- A231 (index 7, 2026-03-21): Postwar Japan and West Germany. Paired case under American occupation and security guarantee, Marshall Plan, Wirtschaftswunder, Japanese economic miracle, alliance-locked geopolitics, contemporary rearmament.
-- A232 (index 8, 2026-03-22): East Asian Tigers. South Korea, Taiwan, Singapore, Hong Kong. Developmental-state template extension of Japanese postwar model under Cold War subsidy, land reform, export discipline, financial repression, Young-Krugman debate, 1997 crisis.
-- A233 (index 9, 2026-03-23): China's Rise. Post-1978 reform arc, Deng-era liberalization, 2001 WTO accession as hinge point, state-capitalism model, 2008 crisis stimulus, Xi Jinping era, Belt and Road Initiative, systemic-rival positioning.
-- A234 (index 10, 2026-03-24): India and the Late Arrivals. Post-1991 Indian liberalization, service-sector-driven growth, Vietnam Đổi Mới, Bangladesh garment sector, Indonesia post-1998 recovery, middle-income trap question.
-- A235 (index 11, 2026-03-25): The Non-Industrializers and Edge Cases. Middle Eastern oil states, post-Soviet Russia, Sub-Saharan Africa, Latin America outside industrial cluster, Central Asia, Iran, North Korea, Israel-Palestine. Framework limits explicit.
-- A236 (index 12, 2026-03-26): Contemporary Snapshot and Extrapolation. Closer with contemporary configuration as of 2026, forward extrapolation across 2026-2050 window, competing extrapolation strategies from Kotkin, Sachs, Perez, Smil, and Zeihan as illustrative alternatives, load-bearing open questions.
+Back-reference-only constraint honored. A237 contains no `post_url` cross-references to any later series article and no forward-reference prose that would require A238-A248 to exist. Cross-references outside the series point to A112 fixed-wing UAV airframe at 2026-05-30, A200 hardware description languages history at 2026-03-13, A203 hardware description languages state of practice at 2026-07-08, A206 programming language theory arc opener at 2026-03-27, and A215 programming language theory 2020s at 2026-04-05, all predating 2026-07-12.
+
+### A237 Content Summary
+
+The opener establishes the co-development mechanism as a coupled first-order dynamical system with characteristic roots plus and minus the square root of the coupling coefficient product, and derives the coupled exponential-growth solutions for aerospace capability $H(t)$ and computing capability $S(t)$. Characterizes semiconductor manufacturing under defense demand as the physical substrate on which the co-development plays out, and formalizes the spillover from defense procurement to commercial markets with the Wright learning-curve equation and empirical semiconductor learning-curve exponents. Formalizes the real-time constraint distinguishing aerospace computing from commercial computing with the flight-control deadline inequality and the Liu-Layland rate-monotonic utilization bound. Formalizes the reliability constraint through hardware redundancy at the Space Shuttle avionics scale and verification-effort scaling per Boehm. Formalizes the software complexity constraint through the exponential size trajectory with doubling time of order six to eight years for major aerospace programs and Lehman's laws of software evolution.
+
+Six-axis analytical framework introduced: numerical computation demand, real-time control, reliability and verification, networking and distribution, software engineering as discipline, semiconductor economics and dual-use.
+
+Preindustrial baseline covers the human-computer bureau under Moulton at Aberdeen Proving Ground, the Bush differential analyzer at MIT, the Ford Instrument Company Mark 1 fire-control computer installed on United States Navy capital ships from 1934, and Britain's Chain Home radar network.
+
+Series roadmap describes the eleven subsequent articles at editorial dates 2026-07-13 through 2026-07-23 in prose sentence form without forward `post_url` hyperlinks.
 
 ### Equation Density
 
-Fifty-two display equations across twelve articles. A225 opener heaviest at nine equations establishing the framework. Case articles A226 through A234 carry three to five equations each anchoring case-specific mechanisms. A235 edge-case article and A236 closer carry three each with appropriate lightness for their synthesis roles.
-
-Cross-case comparability: Gerschenkron growth-rate premium formalized for Britain (implicit), Germany (approximately two percentage points), Japan (3.6 percent per year), Korea (3.1 percent per year), China (5.2 percent per year), Vietnam (6.3 percent per year), and India (2.7 percent per year), enabling explicit cross-case comparison of catch-up performance intensity.
+Nine display equations. Coupled dynamical system for $H$ and $S$ with two component solutions establishes the mechanism. Moore's Law doubling establishes the substrate cadence. Wright learning-curve equation establishes the spillover formalism. Real-time deadline constraint establishes the aerospace-versus-commercial distinction. Rate monotonic utilization bound formalizes admission control for hard real-time systems. Software size growth equation establishes the software complexity constraint. Distributed across seven of the article's twelve sections, one equation per section on average with the mechanism section carrying four.
 
 ### Reference Density
 
-One hundred seventy total references across twelve articles. A225 opener carries twenty-nine references including ten primary research papers. Case articles A226 through A234 carry eleven to nineteen references each. A236 closer carries twelve references anchored to books for the named extrapolation-strategy analysts. All twelve articles have refs_defined == refs_used with no dangling anchors or uncited definitions.
+Thirty-eight references across four categories. Nine books including Ceruzzi 2003 History of Modern Computing, Mindell 2008 Digital Apollo, Redmond and Smith 2000 From Whirlwind to MITRE, Tomayko 1988 Shuttle Software, Bowen 1998 Radar Days, Boehm 1981 Software Engineering Economics, Small 2001 Analogue Alternative, Liu 2000 Real-Time Systems, Leslie 1993 Cold War and American Science. Eleven reference URLs including Moore 1965 Computer History Museum, Kilby integrated circuit patent, Hollerith 1889 patent, Ford Instrument Mark 1 fire-control computer maritime archive, Wright brothers 1903 Smithsonian, Turing at Bletchley Park, Flowers Colossus at The National Museum of Computing, Draper Instrumentation Laboratory Wikipedia, Boeing 777, F-35 Lockheed Martin, RTCA. Five related posts A112 A200 A203 A206 A215. Thirteen primary research papers including Bardeen Brattain Shockley 1948 transistor, Hopkins Alonso Adcock 1965 Apollo Guidance Computer executive, Everett 1951 Whirlwind, Liu and Layland 1973 rate monotonic, Baran 1964 packet switching, Davies 1966 packet switching, Bush 1931 differential analyzer, Bromley 1990 analyzer history, Moulton 1926 ballistic tables, Madden and Rone 1984 Shuttle avionics, Wright 1936 learning curve, Nagy Farmer Bui Trancik 2013 empirical learning curves, Lehman 1980 software evolution.
 
-Primary research anchor examples: Broadberry-Guan-Li on Great Divergence, North-Weingast on constitutional commitment, Karaman-Pamuk on European fiscal capacity, Klein et al. on reference rot, Naumenko on Ukrainian famine, Cheremukhin-Golosov-Guriev-Tsyvinski on Stalin counterfactual, Song-Storesletten-Zilibotti on Chinese growth, Horn-Reinhart-Trebesch on Chinese overseas lending, Autor-Dorn-Hanson on China Syndrome, Sachs-Warner on resource curse, Ross on oil and democracy, Nunn on African slave trades.
+Anchor integrity verified: thirty-eight defined, thirty-eight cited, zero unused, zero missing.
 
 ### Style Verification
 
-Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math notation, or certification vocabulary across all twelve articles. Debug tags `<!-- Axxx -->` and `console.log("Axxx")` present in all twelve at consistent positions. Categories `history economics geopolitics` uniform. Series metadata `industrialization_waves` slug with `Industrialization Waves and Geopolitical Positioning` title and indices one through twelve. Front-matter titles use "Main: Sub" format placing shared main title before per-article subtitle.
+Zero em-dashes, en-dashes, contractions, prose colons, prose semicolons, prose parentheticals outside math notation, or certification vocabulary. Article title uses the standard "Main: Sub" format. Section headings mostly avoid colons, with one section heading "The Substrate: Semiconductor Manufacturing Under Defense Demand" using a colon consistent with the article-title convention. Debug tags `<!-- A237 -->` and `console.log("A237")` present at lines 13 and 14. Acronyms spelled out on first use: SAGE, ARPANET, PASS, MIT, ENIAC.
 
-### Collision and Flush Verification
+### URL Verification
 
-Article numbers A225 through A236 verified unique across `_posts/` and `_drafts/`. Editorial dates 2026-03-15 through 2026-03-26 verified empty in both directories prior to publication. Adjacent published dates 2026-03-14 (A107 Keleusma Getting Started) and 2026-03-27 (A206 Programming Language Theory arc opener) populate the twelve-day gap boundaries. Series fills the gap exactly without offset or overlap. Next available article number after publication is A237.
+Thirty-two unique URLs. Twelve return HTTP 200: Smithsonian air-and-space, PLoS ONE, three NASA NTRS citations, Boeing 777, Computer History Museum Moore 1965, Lockheed F-35, two Pearson book pages, RTCA, TNMOC Colossus, Wikipedia Draper Lab. Four return HTTP 301 accepted-redirect: Columbia University Press, Bletchley Park, two Open Library. One returns HTTP 202 IEEE Xplore accepted per corpus anti-bot pattern. Twelve return HTTP 403 accepted per corpus anti-bot patterns: AIAA ARC, ACM DL, APS PhysRev, JSTOR, JHU Press, RAND, ISOC, three MIT Press pages, Maritime Park Association, one AIAA ARC learning-curve. One returns HTTP 429 accepted per corpus DTIC anti-bot pattern. Two return HTTP 503 for Google Patents (Hollerith patent US395782, Kilby patent US3138743) which is a transient rate-limit response and the patent numbers themselves are canonical.
 
-Category shadow check: `history` at first position was previously verified during A222 and A223 publication reviews to have no shadowing `sgeos/history` GitHub Pages project.
+### Publication Pattern
 
-### Two-Commit Publication Pattern
+Four draft-stage commits: initial draft (8138b30), equation-density review adding Wright learning-curve equation (e4d08b8), reference-density review adding Lehman software evolution and fixing Draper URL (9698df2), publication review softening Moore's Law aerospace-parity claim and removing prose forward-reference (72e4856). Publish commit follows with `git mv` moving the draft to `_posts/2026-07-12-framing_and_the_co_development_mechanism.markdown` plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
 
-Standard two-commit batch publication.
-
-- Draft-stage commits: A225-A236 individual drafts, per-article equation-density and reference-density review passes, per-article publication reviews, series-wide consistency pass with title standardization to Main: Sub format.
-- Publish commit follows with `git mv` batch moving all twelve drafts to `_posts/` with editorial-date prefixes plus TASKLOG, draft summary, and REVERSE_PROMPT synchronization.
-
-Commits pushed to origin/master per human pilot instruction.
+Commits local pending push authorization per human pilot instruction.
 
 ---
 
 ## Article Number State
 
-- Next available article number: A237.
-- A225-A236 published as twelve-article batch across editorial dates 2026-03-15 through 2026-03-26.
+- Next available article number: A238.
+- A237 published as the first article of the twelve-article co-development series at editorial date 2026-07-12 (backdated four days under rolling-publication catch-up).
+- A238-A248 pending, one per day at editorial dates 2026-07-13 through 2026-07-23.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Verify the GitHub Actions deploy completes without errors after the push. The series uses `{% post_url %}` cross-references extensively across all twelve articles plus references outside the series to A97 and A98 which are already deployed.
-- Review the published series at the permalinks once the deploy completes. Base URL pattern is `https://sgeos.github.io/history/economics/geopolitics/2026/03/DD/SLUG.html` per each article's date and slug.
-- Consider whether the series roadmap in A225 should be updated to reflect the specifically published subtitles, since some may have shifted during drafting. Current opener text was written before the subtitles were finalized to Main: Sub format.
-- Consider whether follow-up articles on specific extrapolation strategies (Kotkin demographic-projection depth, Perez technological-long-wave depth, Smil energy-transition depth) would be productive future work. The A236 closer positions such follow-ups as consequences of the series framework rather than as freestanding preferences.
+- Review A237 in `_posts/2026-07-12-framing_and_the_co_development_mechanism.markdown` before push authorization. The opener is 254 lines and establishes the co-development mechanism, semiconductor substrate, real-time and reliability constraints, software complexity constraint, six-axis framework, preindustrial baseline, and series roadmap for the eleven planned subsequent articles.
+- Authorize push when ready. The article dated 2026-07-12 will become visible immediately upon deployment since its editorial date has already passed (today is 2026-07-16).
+- Confirm the one-per-day drafting cadence for A238 through A248 or provide alternative pacing. Under strict one-per-day cadence starting tomorrow, the series will complete on 2026-07-27 with all articles backdated by four days at time of publication.
+- Verify the GitHub Actions deploy completes without errors after the push. A237 uses `{% post_url %}` cross-references to five prior corpus articles, all deployed.
+- Review the published article at the permalink once the deploy completes. Base URL pattern is `https://sgeos.github.io/history/technology/aerospace/2026/07/12/framing_and_the_co_development_mechanism.html`.
 
 ---
 
 ## Notes
 
-- Next available article number: A237.
+- Next available article number: A238.
 - 0 release candidates.
 - 0 stubs.
 - Eight long-standing pre-release candidate drafts remain awaiting human verification in `_drafts/`.
-- Published through A236 across the combined article number space.
-- Corpus size 236 posts, editorial dates span 2016 through 2026-07-11.
-- Series comprises the largest single back-dated batch publication in the corpus after the Programming Language Theory arc (A206-A215, ten articles) and the Rocket Propellant Chemistry series (A217-A221, five articles). At twelve articles it exceeds both.
-- Total series length approximately 2,300 lines across twelve articles, averaging 190 lines per article with the opener at 356 lines and shorter synthesis and edge-case articles around 140-160 lines.
-- Certification barrier compliance verified. Zero certification vocabulary occurrences series-wide.
+- Published through A237 across the combined article number space.
+- Corpus size 237 posts, editorial dates span 2016 through 2026-07-12.
+- Series slug `co_development_aerospace_computing`, series title "Aerospace, Programming Languages, and Information Technology Co-Development."
+- Certification barrier compliance verified. Zero certification vocabulary occurrences in A237.
 - All scratch confined to project-local `tmp/` per recorded preference.
 - Blog deploys through GitHub Actions with the post-build pandoc PDF/EPUB generation pipeline from commit db3bc37 exercised against the full corpus.
