@@ -19,7 +19,7 @@ The article treats the four principal computing modalities of the period in the 
 
 ## The Ballistic Table Problem
 
-Exterior ballistics is the study of projectile motion after it leaves the muzzle of a gun and before it strikes the target. The governing equations are the equations of motion of a point mass subject to gravity and aerodynamic drag. For a projectile with mass $m$, velocity $\mathbf{v}$, and position $\mathbf{x}$, the equations are
+Exterior ballistics is the study of projectile motion after it leaves the muzzle of a gun and before it strikes the target. The governing equations are the equations of motion of a point mass subject to gravity and aerodynamic drag, treated as a standard problem in [McCoy 1999][book_mccoy_modern_exterior_ballistics] and in the earlier work by Moulton at Aberdeen. For a projectile with mass $m$, velocity $\mathbf{v}$, and position $\mathbf{x}$, the equations are
 
 $$m \frac{d^2 \mathbf{x}}{dt^2} = m \mathbf{g} - \frac{1}{2} \rho v^2 C_d(M) A \hat{\mathbf{v}}$$
 
@@ -41,7 +41,7 @@ $$\mathbf{x}_{\text{aim}} = \mathbf{x}_{\text{target}}(t_0) + \mathbf{v}_{\text{
 
 where $T_{\text{flight}}$ is the projectile time-of-flight to the aim point, which itself depends on $\mathbf{x}_{\text{aim}}$ through the ballistic equations. The coupling makes the intercept problem implicit and requires iterative or approximate solution methods. Solving this problem in real time before the digital computer required physical linkages that implemented the arithmetic mechanically.
 
-The [Ford Instrument Company][ref_ford_instrument_mk1] Mark 1 fire-control computer, in production from 1932 and installed on United States Navy capital ships from 1934, was the most sophisticated of the pre-war mechanical fire-control computers. The Mark 1 solved the naval gunnery problem using disk-and-ball integrators developed by James Thomson and Kelvin in the nineteenth century, per the treatment in [Mindell 2002][book_mindell_between_human_and_machine]. A disk-and-ball integrator computes the integral $\int y \, dx$ mechanically by placing a ball on a rotating disk at radius $y$ from the disk center and driving the rotation by shaft speed proportional to $\dot{x}$. The output shaft rotation rate is
+The [Ford Instrument Company][ref_ford_instrument_mk1] Mark 1 fire-control computer, in production from 1932 and installed on United States Navy capital ships from 1934, was the most sophisticated of the pre-war mechanical fire-control computers. The Mark 1 solved the naval gunnery problem using disk-and-ball integrators originally described in [Thomson 1876][research_thomson_1876] and elaborated by Thomson's brother William Thomson, later Lord Kelvin, in the same period, per the treatment in [Mindell 2002][book_mindell_between_human_and_machine]. A disk-and-ball integrator computes the integral $\int y \, dx$ mechanically by placing a ball on a rotating disk at radius $y$ from the disk center and driving the rotation by shaft speed proportional to $\dot{x}$. The output shaft rotation rate is
 
 $$\dot{\theta}_{\text{output}} = \frac{y(t)}{R} \cdot \dot{\theta}_{\text{disk}}$$
 
@@ -67,7 +67,7 @@ before impact, which gives the release-point offset from the target that the bom
 
 The ballistic-table problem is fundamentally a problem of numerically integrating a system of ordinary differential equations. A differential analyzer solves such systems continuously in analog form rather than digitally step by step. The differential analyzer at MIT built by [Bush 1931][research_bush_1931] and [Bush and Caldwell 1945][research_bush_caldwell_1945] chained mechanical integrators, adders, multipliers, and function generators using rotating shafts as the primary data-carrying elements. A physical variable was represented as the angular position of a shaft. Integration was performed by disk-and-ball integrators of the same class used in the Ford Mark 1 fire-control computer. Multiplication was performed by servomechanisms coupling one shaft rotation rate to another according to a table of pre-cut cams.
 
-The Bush analyzer was used for a wide variety of scientific and engineering problems including power system stability analysis, atomic structure calculation, and ballistic trajectory computation. A copy was built at the University of Manchester in the United Kingdom under Douglas Hartree in 1934. Another copy was built at the BRL at Aberdeen in 1935 specifically for ballistic table production, and it operated in that role continuously through the Second World War, per [Bromley 1990][research_bromley_1990] and the account in [Owens 1986][book_owens_bush_analyzer]. A single trajectory that took a human computer roughly 20 hours to produce required roughly 15 minutes on the differential analyzer.
+The Bush analyzer was used for a wide variety of scientific and engineering problems including power system stability analysis, atomic structure calculation, and ballistic trajectory computation. A copy was built at the University of Manchester in the United Kingdom under Douglas Hartree in 1934, described by [Hartree 1935][research_hartree_1935] in Nature as one of the earliest widely available published accounts of an operating differential analyzer in Britain. Another copy was built at the BRL at Aberdeen in 1935 specifically for ballistic table production, and it operated in that role continuously through the Second World War, per [Bromley 1990][research_bromley_1990] and the account in [Owens 1986][book_owens_bush_analyzer]. A single trajectory that took a human computer roughly 20 hours to produce required roughly 15 minutes on the differential analyzer.
 
 Analog analyzers had two fundamental limitations. First, accuracy was bounded by the physical precision of the mechanical elements. The Bush analyzer achieved approximately 0.1 percent accuracy per integrator, with error accumulating over a chained calculation. For a chain of $n$ serial integrators with individual error $\epsilon$, the total error scales approximately as
 
@@ -89,15 +89,15 @@ $$(a + bi)(c + di) = (ac - bd) + (ad + bc)i$$
 
 which was tedious enough by hand that Bell Labs engineers welcomed the calculator's twenty-second execution time as a substantial productivity improvement. The successor Bell Labs Model V, delivered to the National Advisory Committee for Aeronautics hereafter NACA Langley in 1946 and to Aberdeen Proving Ground in 1947, was a general-purpose relay computer that could execute stored programs read from punched tape. The Model V used approximately 9,000 relays and computed at roughly 5 to 10 multiplications per second, thousands of times slower than the ENIAC but with substantially better reliability.
 
-The German engineer Konrad Zuse independently developed a parallel line of electromechanical computers in Berlin between 1936 and 1945. The Zuse [Z3][ref_zuse_z3], completed in May 1941, was the first working programmable binary computer and computed floating-point arithmetic using approximately 2,600 relays. Zuse's work was largely unknown outside Germany until after the war and had little direct influence on Allied computing development, but it established the feasibility of the relay-based digital computing approach and contributed to the postwar recognition that relay computers occupied a specific technological niche that neither the analog analyzer nor the vacuum-tube computer reached.
+The German engineer Konrad Zuse independently developed a parallel line of electromechanical computers in Berlin between 1936 and 1945. The Zuse [Z3][ref_zuse_z3], completed in May 1941, was the first working programmable binary computer and computed floating-point arithmetic using approximately 2,600 relays, per the primary technical reconstruction in [Rojas 1997][research_rojas_1997]. Zuse's work was largely unknown outside Germany until after the war and had little direct influence on Allied computing development, but it established the feasibility of the relay-based digital computing approach and contributed to the postwar recognition that relay computers occupied a specific technological niche that neither the analog analyzer nor the vacuum-tube computer reached.
 
-The IBM Automatic Sequence Controlled Calculator, more commonly known as the Harvard Mark I, was built at International Business Machines and delivered to Harvard University under Howard Aiken in 1944. The Mark I combined electromechanical relays with rotating cam-driven mechanical elements and computed at approximately 3 to 5 multiplications per second. It was substantially slower than the ENIAC that followed it, but its 1944 delivery date made it one of the first operational large-scale automatic computers in the United States, and it was used through the war for a variety of ordnance and aerodynamics calculations under Aiken and Commander Grace Hopper of the United States Navy Reserve.
+The IBM Automatic Sequence Controlled Calculator, more commonly known as the Harvard Mark I, was built at International Business Machines and delivered to Harvard University under Howard Aiken in 1944, and described technically in [Aiken and Hopper 1946][research_aiken_hopper_1946] in a three-part paper in Electrical Engineering. The Mark I combined electromechanical relays with rotating cam-driven mechanical elements and computed at approximately 3 to 5 multiplications per second. It was substantially slower than the ENIAC that followed it, but its 1944 delivery date made it one of the first operational large-scale automatic computers in the United States, and it was used through the war for a variety of ordnance and aerodynamics calculations under Aiken and Commander Grace Hopper of the United States Navy Reserve.
 
 ## The Electronic Numerical Integrator and Computer
 
 The ENIAC was designed and built at the Moore School of Electrical Engineering at the University of Pennsylvania between 1943 and 1945 under a contract from the Ballistic Research Laboratory at Aberdeen. The project was proposed by physicist John Mauchly in a 1942 memorandum, per [Mauchly 1942][research_mauchly_1942], describing "The Use of High Speed Vacuum Tube Devices for Calculating," and was implemented by Mauchly with electrical engineer J. Presper Eckert as the lead design engineer. The BRL contract was signed 5 June 1943 for what the contract described as an "electronic difference analyzer" for ballistic table computation.
 
-The ENIAC used 17,468 vacuum tubes, weighed approximately 30 tons, occupied a room 30 feet by 50 feet, and consumed approximately 150 kilowatts of electrical power. It performed roughly 5,000 additions per second or 385 multiplications per second, three orders of magnitude faster than the electromechanical Harvard Mark I and approximately five orders of magnitude faster than a human computer with a mechanical desk calculator. A trajectory that required 20 hours from a human computer or 15 minutes from the differential analyzer required approximately 30 seconds on the ENIAC. This speed comparison
+The ENIAC used 17,468 vacuum tubes, weighed approximately 30 tons, occupied a room 30 feet by 50 feet, and consumed approximately 150 kilowatts of electrical power, per the primary description in [Goldstine and Goldstine 1946][research_goldstine_goldstine_1946] published in Mathematical Tables and Other Aids to Computation. It performed roughly 5,000 additions per second or 385 multiplications per second, three orders of magnitude faster than the electromechanical Harvard Mark I and approximately five orders of magnitude faster than a human computer with a mechanical desk calculator. A trajectory that required 20 hours from a human computer or 15 minutes from the differential analyzer required approximately 30 seconds on the ENIAC. This speed comparison
 
 $$T_{\text{ENIAC}} : T_{\text{DA}} : T_{\text{human}} \approx 1 : 30 : 2400$$
 
@@ -115,7 +115,7 @@ $$E_{\text{op}} = \frac{P}{r_{\text{ops}}} = \frac{150 \text{ kW}}{5{,}000 \text
 
 which is approximately twelve orders of magnitude larger than the picojoule-per-operation energy budget of contemporary integrated circuits. The energy-per-operation trajectory across the digital era is one of the fundamental co-development quantities the series treats, and the ENIAC anchors the historical starting point.
 
-The ENIAC was operational at the Moore School in late 1945, though it was not publicly announced until 15 February 1946, several months after the war ended. Its first substantive calculation was not a ballistic table but a mathematical simulation of the thermonuclear reaction rates for the hydrogen bomb feasibility study, requested by Edward Teller and John von Neumann for the Manhattan Project. The BRL took delivery of the machine in 1947 and used it for ballistic-table production for approximately seven years, during which it was reprogrammed multiple times and eventually converted to stored-program operation using ideas from the [von Neumann 1945][related_post_a237_framing_co_development] First Draft of a Report on the EDVAC. The direct predecessor role of the ENIAC in producing the subsequent digital computer industry is treated in [Goldstine 1972][book_goldstine_computer_from_pascal_to_von_neumann] and remains the standard historical account.
+The ENIAC was operational at the Moore School in late 1945, though it was not publicly announced until 15 February 1946, several months after the war ended. Its first substantive calculation was not a ballistic table but a mathematical simulation of the thermonuclear reaction rates for the hydrogen bomb feasibility study, requested by Edward Teller and John von Neumann for the Manhattan Project, per the retrospective account in [Metropolis and Nelson 1982][research_metropolis_nelson_1982] documenting the early computing work at Los Alamos National Laboratory. The BRL took delivery of the machine in 1947 and used it for ballistic-table production for approximately seven years, during which it was reprogrammed multiple times and eventually converted to stored-program operation using ideas from the [von Neumann 1945][related_post_a237_framing_co_development] First Draft of a Report on the EDVAC. The direct predecessor role of the ENIAC in producing the subsequent digital computer industry is treated in [Goldstine 1972][book_goldstine_computer_from_pascal_to_von_neumann], and the collection of primary sources spanning the entire pre-ENIAC and early-ENIAC period is compiled and annotated in [Randell 1975][book_randell_origins_of_digital_computers], which remains the standard scholarly anthology.
 
 ## Framework Application to the Pre-War Era
 
@@ -151,8 +151,10 @@ The next article in the series treats the wartime computing efforts that ran in 
 - [Goldstine 1972][book_goldstine_computer_from_pascal_to_von_neumann]
 - [Grier 2005][book_grier_when_computers_were_human]
 - [McCartney 1999][book_mccartney_eniac]
+- [McCoy 1999][book_mccoy_modern_exterior_ballistics]
 - [Mindell 2002][book_mindell_between_human_and_machine]
 - [Owens 1986][book_owens_bush_analyzer]
+- [Randell 1975][book_randell_origins_of_digital_computers]
 
 ### Reference
 
@@ -167,19 +169,27 @@ The next article in the series treats the wartime computing efforts that ran in 
 
 ### Research
 
+- [Aiken and Hopper 1946][research_aiken_hopper_1946]
 - [Bromley 1990][research_bromley_1990]
 - [Bush 1931][research_bush_1931]
 - [Bush and Caldwell 1945][research_bush_caldwell_1945]
+- [Goldstine and Goldstine 1946][research_goldstine_goldstine_1946]
+- [Hartree 1935][research_hartree_1935]
 - [Mauchly 1942][research_mauchly_1942]
+- [Metropolis and Nelson 1982][research_metropolis_nelson_1982]
 - [Moulton 1926][research_moulton_1926]
+- [Rojas 1997][research_rojas_1997]
 - [Stibitz 1940][research_stibitz_1940]
+- [Thomson 1876][research_thomson_1876]
 
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_goldstine_computer_from_pascal_to_von_neumann]: https://press.princeton.edu/books/paperback/9780691023670/the-computer-from-pascal-to-von-neumann
 [book_grier_when_computers_were_human]: https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human
 [book_mccartney_eniac]: https://openlibrary.org/works/OL2724030W/ENIAC
+[book_mccoy_modern_exterior_ballistics]: https://openlibrary.org/works/OL10298553W/Modern_exterior_ballistics
 [book_mindell_between_human_and_machine]: https://www.press.jhu.edu/books/title/2129/between-human-and-machine
 [book_owens_bush_analyzer]: https://www.jstor.org/stable/25690567
+[book_randell_origins_of_digital_computers]: https://link.springer.com/book/9781475705669
 
 [ref_adele_goldstine]: https://www.seas.upenn.edu/about/history-heritage/eniac/
 [ref_ford_instrument_mk1]: https://maritime.org/doc/computermk1/
@@ -188,9 +198,15 @@ The next article in the series treats the wartime computing efforts that ran in 
 
 [related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 
+[research_aiken_hopper_1946]: https://ieeexplore.ieee.org/document/5222878
 [research_bromley_1990]: https://ieeexplore.ieee.org/document/4638384
 [research_bush_1931]: https://www.jstor.org/stable/24537568
 [research_bush_caldwell_1945]: https://www.jstor.org/stable/24540537
+[research_goldstine_goldstine_1946]: https://www.jstor.org/stable/2002620
+[research_hartree_1935]: https://www.nature.com/articles/135940a0
 [research_mauchly_1942]: https://en.wikipedia.org/wiki/John_Mauchly
+[research_metropolis_nelson_1982]: https://ieeexplore.ieee.org/document/4640726
 [research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
+[research_rojas_1997]: https://ieeexplore.ieee.org/document/586074
 [research_stibitz_1940]: https://ieeexplore.ieee.org/document/5222693
+[research_thomson_1876]: https://royalsocietypublishing.org/doi/10.1098/rspl.1876.0038
