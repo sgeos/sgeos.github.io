@@ -41,7 +41,13 @@ with the specifically 1990-2026 concentration reflecting substantial Chinese ris
 
 Applying the industrialization-order framework the series has walked to the specifically 2026-2050 window produces several load-bearing extrapolations. Each is presented as an implication of the framework rather than as a forecast, and each is subject to the specifically framework-limit caveats the [eleventh article of the series treated][related_post_non_industrializers].
 
-**Chinese trajectory.** The framework predicts continued Chinese per-capita convergence toward the leading American level at a decelerating rate. The specifically Chinese Gerschenkron growth-rate premium of 5.2 percent per year the [ninth article of the series formalized][related_post_china_rise] cannot be sustained at that intensity as the Chinese economy approaches the middle-income upper boundary. The framework predicts deceleration to approximately two to three percent per year across the 2026-2050 window, producing a specifically Chinese per-capita ratio against the United States of approximately thirty to thirty-five percent by 2050 rather than the substantially higher ratio a linear extrapolation of the reform-era trajectory would predict. The specifically Chinese demographic aging, property-sector distress, and strategic-rivalry constraints all point in the deceleration direction.
+**Chinese trajectory.** The framework predicts continued Chinese per-capita convergence toward the leading American level at a decelerating rate. The specifically Chinese Gerschenkron growth-rate premium of 5.2 percent per year the [ninth article of the series formalized][related_post_china_rise] cannot be sustained at that intensity as the Chinese economy approaches the middle-income upper boundary. Applying the Gerschenkron rearrangement with reduced premium $\Delta g_{\text{CH}}^{\text{proj}} \approx 2 \text{ to } 3\%$ per year across the 2026-2050 window gives
+
+$$
+R_{\text{CH}}(2050) = R_{\text{CH}}(2026) \cdot e^{\Delta g_{\text{CH}}^{\text{proj}} \cdot 24} \approx 0.30 \text{ to } 0.35
+$$
+
+against the leading American level, substantially below the ratio a linear extrapolation of the reform-era 5.2 percent premium would predict. The specifically Chinese demographic aging, property-sector distress, and strategic-rivalry constraints all point in the deceleration direction.
 
 **American trajectory.** The framework predicts continued dollar-hegemony persistence, sustained American military-technological leadership, and specifically continued American relative-share decline as other economies grow faster from lower per-capita baselines. American per-capita output is likely to grow at approximately one and a half to two percent per year across the extrapolation window, close to the historical American average. The specifically American manufacturing reindustrialization effort initiated in the specifically 2022 CHIPS and Science Act and 2022 Inflation Reduction Act may produce modest manufacturing-employment recovery but is unlikely to reverse the specifically deindustrialization trajectory the [fourth article of the series formalized][related_post_american_ascent].
 
@@ -53,7 +59,13 @@ Applying the industrialization-order framework the series has walked to the spec
 
 **Southeast Asian and African trajectories.** The framework predicts sustained Vietnamese, Indonesian, and specifically Bangladeshi catch-up at rates comparable to the specifically Chinese post-1980 rates, with the specifically African trajectory highly variable across cases. The specifically Sub-Saharan African aggregate is likely to grow at approximately three to four percent per capita per year across the extrapolation window, exceeding the pre-2000 baseline but producing only modest convergence on leading economies.
 
-**Reserve-currency trajectory.** The framework predicts continued dollar-share erosion at approximately the exponential-decay rate the [fourth article formalized][related_post_american_ascent], from approximately fifty-eight percent in 2026 to approximately forty to forty-five percent by 2050. The specifically leading candidate replacements are the euro and the specifically Chinese renminbi, though neither is likely to reach dollar-comparable share within the extrapolation window because the specifically network effects supporting the dollar system are substantial and slow to unwind.
+**Reserve-currency trajectory.** The framework predicts continued dollar-share erosion at approximately the exponential-decay rate the [fourth article formalized][related_post_american_ascent] using the same functional form the [second article applied to sterling][related_post_first_mover_britain]. Applying the exponential-decay form to the dollar share with decay rate $\lambda \approx 0.015$ per year calibrated to the 2000-2026 observed decline gives
+
+$$
+D_{\text{dollar}}(2050) = D_{\text{dollar}}(2026) \cdot e^{-\lambda \cdot 24} \approx 0.40 \text{ to } 0.45
+$$
+
+from the approximately fifty-eight percent 2026 baseline. The specifically leading candidate replacements are the euro and the specifically Chinese renminbi, though neither is likely to reach dollar-comparable share within the extrapolation window because the specifically network effects supporting the dollar system are substantial and slow to unwind.
 
 ## Competing Extrapolation Strategies
 
