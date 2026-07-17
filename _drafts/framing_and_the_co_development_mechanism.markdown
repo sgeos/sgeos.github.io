@@ -53,6 +53,12 @@ Any physical substantiation of $S(t)$ requires a physical medium in which comput
 
 The Apollo Guidance Computer used integrated circuits from a market that consisted almost entirely of the Apollo program itself between 1962 and 1965, per [Mindell 2008][book_mindell_digital_apollo]. Fairchild sold Apollo the entire early production run of its three-input logical NOR gate at prices that would not have been sustainable without government commitment. The Minuteman intermediate range ballistic missile likewise absorbed early integrated circuit production for its guidance computer. The commercial personal computing wave of the late 1970s and early 1980s inherited a mature semiconductor manufacturing base that had been paid for by aerospace and defense programs of the preceding two decades. This is one of the specific coupling artifacts the series will name repeatedly.
 
+The Wright learning-curve mechanism, formalized in [Wright 1936][research_wright_1936] for aircraft manufacturing and later shown to apply to semiconductor manufacturing at particular strength, formalizes the spillover. Unit cost falls with cumulative volume according to
+
+$$C(N) = C_0 \cdot N^{-\lambda}$$
+
+with learning-curve exponent $\lambda$ empirically in the range 0.15 to 0.30 for semiconductor manufacturing over the 1960s and 1970s, corresponding to a 15 to 30 percent unit-cost reduction per doubling of cumulative volume, per [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]. Defense procurement absorbed the first several orders of magnitude of cumulative production at prices that would have been prohibitive for commercial buyers. By the time commercial demand emerged, cumulative volume had already reduced unit cost enough to open the personal computer market. The mechanism is not accidental. Every subsequent generation of semiconductor manufacturing has passed through a similar sequence in which government or aerospace procurement absorbs the high-cost early volume and commercial markets inherit a mature manufacturing base.
+
 ## The Real-Time Constraint
 
 Aerospace applications introduce a hard constraint that consumer computing did not face until the 1990s. A flight-control loop must complete its computation within a time bound set by the vehicle dynamics.
@@ -201,6 +207,8 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Liu and Layland 1973][research_liu_layland_1973]
 - [Madden and Rone 1984][research_madden_rone_1984]
 - [Moulton 1926][research_moulton_1926]
+- [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]
+- [Wright 1936][research_wright_1936]
 
 [book_boehm_software_engineering_economics]: https://www.pearson.com/en-us/subject-catalog/p/software-engineering-economics/P200000003444
 [book_bowen_radar_days]: https://openlibrary.org/works/OL2723583W/Radar_days
@@ -240,3 +248,5 @@ The next article in the series covers pre-war computing origins and ballistics w
 [research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
 [research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
+[research_nagy_farmer_bui_trancik_2013]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669
+[research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
