@@ -87,7 +87,7 @@ The size of aerospace software systems grew faster than the general software ind
 
 $$L(t) = L_0 \cdot 2^{(t-t_0)/T_L}$$
 
-with $T_L$ of order 6 to 8 years for major aerospace programs. The growth outran the productivity of general software engineering practice, which produced sustained pressure on programming language design and verification methodology that appears throughout the series.
+with $T_L$ of order 6 to 8 years for major aerospace programs. The growth outran the productivity of general software engineering practice, which produced sustained pressure on programming language design and verification methodology that appears throughout the series. The empirical laws of software evolution formalized by [Lehman 1980][research_lehman_1980] state that continuing software growth alongside declining marginal productivity per line is a general property of large software systems rather than a defect specific to any one program. Aerospace software programs hit the Lehman-law regime earlier and harder than most other software domains because the reliability constraint prevented the compensating strategies of limited testing, tolerated defect rates, and iterative delivery that other domains used to keep growth productive.
 
 ## The Six-Axis Framework
 
@@ -204,6 +204,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Davies 1966][research_davies_1966]
 - [Everett Whirlwind 1951][research_everett_whirlwind_1951]
 - [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
+- [Lehman 1980][research_lehman_1980]
 - [Liu and Layland 1973][research_liu_layland_1973]
 - [Madden and Rone 1984][research_madden_rone_1984]
 - [Moulton 1926][research_moulton_1926]
@@ -221,7 +222,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [book_tomayko_shuttle_software]: https://ntrs.nasa.gov/citations/19880069935
 
 [ref_boeing_777_avionics]: https://www.boeing.com/commercial/777
-[ref_draper_iag]: https://www.draper.com/about-us/history
+[ref_draper_iag]: https://en.wikipedia.org/wiki/Charles_Stark_Draper_Laboratory
 [ref_f35_software]: https://www.lockheedmartin.com/en-us/products/f-35.html
 [ref_flowers_colossus]: https://www.tnmoc.org/colossus
 [ref_ford_instrument_mk1]: https://maritime.org/doc/computermk1/
@@ -245,6 +246,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 [research_everett_whirlwind_1951]: https://apps.dtic.mil/sti/citations/AD0625649
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
+[research_lehman_1980]: https://ieeexplore.ieee.org/document/1456074
 [research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
 [research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
