@@ -29,7 +29,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 - `_drafts/apollo_guidance_computer.markdown` (A242, index 6) — Draft complete through publication review, awaiting publish
 - `_drafts/arpanet_and_networking_origins.markdown` (A243, index 7) — Draft complete through publication review, awaiting publish
 - `_drafts/space_shuttle_software_as_engineering_landmark.markdown` (A244, index 8) — Draft complete through publication review, awaiting publish
-- `_drafts/safety_critical_software.markdown` (A245, index 9) — Initial draft complete
+- `_drafts/safety_critical_software.markdown` (A245, index 9) — Draft complete through publication review, awaiting publish
+- `_drafts/silicon_valley_from_defense_contracting.markdown` (A246, index 10) — Initial draft complete
 
 **Topic**: Twelve-article rolling-publication series with shared main title "Aerospace, Programming Languages, and Information Technology Co-Development" and per-article subtitles walking the co-development arc chronologically from pre-war ballistic computing through contemporary software-defined aerospace. A237 opener establishes the co-development mechanism as a coupled first-order dynamical system, characterizes the semiconductor substrate under defense demand, formalizes real-time and reliability constraints distinguishing aerospace computing from commercial computing, and introduces the six-axis analytical framework subsequent articles apply. Planned subsequent articles: A238 pre-war computing origins and ballistics, A239 wartime computing and code-breaking, A240 early Cold War air defense and SAGE, A241 aerospace simulation and real-time systems, A242 the Apollo Guidance Computer, A243 ARPANET and networking origins, A244 Space Shuttle software as engineering landmark, A245 safety-critical software, A246 Silicon Valley from defense contracting, A247 software-defined aerospace and autonomy, A248 contemporary snapshot and extrapolation.
 
