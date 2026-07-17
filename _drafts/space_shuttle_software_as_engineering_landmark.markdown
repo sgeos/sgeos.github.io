@@ -19,7 +19,7 @@ The Space Shuttle software effort followed and drew on the Apollo Guidance Compu
 
 ## Shuttle Avionics Architecture
 
-The Space Shuttle used a fault-tolerant avionics architecture with five general-purpose computers per orbiter. Four of the five computers ran identical copies of PASS and voted on their outputs at each computational cycle. The fifth ran the Backup Flight System hereafter BFS, a separately developed program running dissimilar software developed by Rockwell International, the airframe contractor, on independently written code intended to protect against common-mode software errors in PASS. The five-computer redundant architecture, treated at the reliability-analysis level in the framing article [A237][related_post_a237_framing_co_development], gave the Shuttle avionics fault tolerance against single computer hardware failures and against certain classes of common-mode software failures. The reliability of the four-computer PASS voting group under majority rule and independent-failure assumption is
+The Space Shuttle used a fault-tolerant avionics architecture with five general-purpose computers per orbiter, described comprehensively in the primary treatment by [Hanaway and Moorehead 1989][book_hanaway_moorehead_shuttle_avionics] as NASA Special Publication 504. Four of the five computers ran identical copies of PASS and voted on their outputs at each computational cycle. The fifth ran the Backup Flight System hereafter BFS, a separately developed program running dissimilar software developed by Rockwell International, the airframe contractor, on independently written code intended to protect against common-mode software errors in PASS. The specific redundancy-management technique used by the Shuttle computers is documented in the primary IBM Systems Journal paper by [Sklaroff 1976][research_sklaroff_1976]. The five-computer redundant architecture, treated at the reliability-analysis level in the framing article [A237][related_post_a237_framing_co_development], gave the Shuttle avionics fault tolerance against single computer hardware failures and against certain classes of common-mode software failures. The reliability of the four-computer PASS voting group under majority rule and independent-failure assumption is
 
 $$R_{\text{PASS vote}} = \sum_{i=3}^{4} \binom{4}{i} R^i (1 - R)^{4-i} = 4R^3 - 3R^4$$
 
@@ -57,13 +57,13 @@ The STS-1 first launch experienced a notable software incident involving the BFS
 
 $$P_{\text{sync fail}} \approx \frac{1}{67} \approx 1.5 \text{ percent}$$
 
-which is at the specific level where ground testing runs of order 10 to 100 attempts would encounter the failure only rarely by chance, and the specific 20 to 30 initialization tests that had been performed during pre-launch verification indeed had not encountered it. The launch was scrubbed on 10 April 1981 when the synchronization failure occurred, and the specific timing race was diagnosed and patched over the following two days. STS-1 launched successfully on 12 April 1981.
+which is at the specific level where ground testing runs of order 10 to 100 attempts would encounter the failure only rarely by chance, and the specific 20 to 30 initialization tests that had been performed during pre-launch verification indeed had not encountered it. The launch was scrubbed on 10 April 1981 when the synchronization failure occurred, and the specific timing race was diagnosed and patched over the following two days. STS-1 launched successfully on 12 April 1981. The specific first-hand account of the incident from the NASA guidance officer involved is [Garman 1981][research_garman_1981] "The Bug Heard 'Round the World," a widely cited primary source in the aerospace software literature on race conditions and testing coverage.
 
 The BFS design remained controversial within the aerospace software community throughout the Shuttle program. The specific argument for dissimilar redundant software was that common-mode failures in PASS would be caught by the differently implemented BFS. The counterargument, drawing on the empirical result from [Knight and Leveson 1986][related_post_a237_framing_co_development] previously cited in the framing article, was that independently developed software versions exhibit statistically correlated failures at rates substantially higher than the independence assumption predicts, undermining the theoretical protection that dissimilar redundancy is supposed to provide. The Shuttle experience did not conclusively resolve this argument in either direction, but the specific decision by NASA and Rockwell to retain the BFS throughout the program indicated their operational judgment that the incremental protection justified the incremental cost.
 
 ## The HAL/S Programming Language
 
-HAL/S was developed by Intermetrics under contract to NASA specifically for the Shuttle software program. The language design began in 1972 and the compiler was operational by 1974 in time for PASS development. HAL/S was based on PL/I in its general syntax but added several specific features for aerospace applications including compile-time verification of array bounds, single-precision and double-precision floating-point primitives with explicit conversion, vector and matrix primitives as first-class types, real-time constructs for periodic tasks and interrupts, and a range of restrictions on constructs that the language designers considered dangerous for safety-critical use including recursion, dynamic memory allocation, and unstructured control flow. The specific design intent was to make the compiler enforce the coding standards that the Apollo team had enforced by manual review, reducing the reviewer burden and providing statically checked correctness properties.
+HAL/S was developed by Intermetrics under contract to NASA specifically for the Shuttle software program. The language design began in 1972 and the compiler was operational by 1974 in time for PASS development. The primary design paper is [Newkirk 1971][research_newkirk_1971] presenting HAL/S as a higher-order programming language for real-time aerospace applications. HAL/S was based on PL/I in its general syntax but added several specific features for aerospace applications including compile-time verification of array bounds, single-precision and double-precision floating-point primitives with explicit conversion, vector and matrix primitives as first-class types, real-time constructs for periodic tasks and interrupts, and a range of restrictions on constructs that the language designers considered dangerous for safety-critical use including recursion, dynamic memory allocation, and unstructured control flow. The specific design intent was to make the compiler enforce the coding standards that the Apollo team had enforced by manual review, reducing the reviewer burden and providing statically checked correctness properties.
 
 HAL/S source was compiled to AP-101 machine code by a compiler that ran on IBM 360 mainframes at the IBM Federal Systems Division facility and later at NASA Johnson Space Center. Compilation cycle times of hours were typical for complete rebuilds of PASS, and the specific software configuration management practices for HAL/S source, compiled objects, and load-image files became a substantial engineering discipline in their own right. The HAL/S language was not adopted outside the Shuttle program. Subsequent aerospace software programs generally used Ada, C, or C++ rather than HAL/S because the specific NASA-Intermetrics implementation was not commercially available and because the Ada language treated in a later article of this series absorbed many of the specific safety features that had motivated HAL/S.
 
@@ -71,7 +71,7 @@ The load-bearing engineering property of HAL/S was that the compiler enforced th
 
 ## The IBM Federal Systems Division Software Process
 
-The IBM Federal Systems Division software process for PASS became one of the most-studied examples of large-scale safety-critical software engineering. The process is described technically in the [Sperling and Weinstock 1985][research_sperling_weinstock_1985] paper and in the retrospective in [Fishman 1996][research_fishman_1996] published in Fast Company magazine, which supplied the specific defect-density figures that the aerospace software community subsequently cited for two decades.
+The IBM Federal Systems Division software process for PASS became one of the most-studied examples of large-scale safety-critical software engineering. The process is described technically in the [Sperling and Weinstock 1985][research_sperling_weinstock_1985] paper, in the primary IBM Owego account by [Kolkhorst and Macina 1988][research_kolkhorst_macina_1988], and in the retrospective in [Fishman 1996][research_fishman_1996] published in Fast Company magazine, which supplied the specific defect-density figures that the aerospace software community subsequently cited for two decades.
 
 The PASS defect density in delivered software was reported at approximately 0.11 defects per thousand lines of code for the initial STS-1 delivery and improved to approximately 0.004 defects per thousand lines of code for later releases, per the [Fishman 1996][research_fishman_1996] figures. Compared with commercial software of the same period at typical defect densities of 1 to 10 defects per thousand lines, the PASS software achieved defect densities two to four orders of magnitude lower. The improvement over time from 0.11 to 0.004 defects per thousand lines followed approximately
 
@@ -79,7 +79,7 @@ $$D(t) = D_0 \cdot e^{-t / T_D}$$
 
 with time constant $T_D$ of order 3 to 5 years, reflecting the specific process improvements that the IBM team introduced iteratively over the operational life of the program.
 
-The specific process elements that produced these defect-density results included several practices later formalized as the origin of what became the Capability Maturity Model. Formal design and code inspection following the specific procedure documented in [Fagan 1976][research_fagan_1976] at IBM Systems Journal caught approximately 60 percent of defects before they reached testing. If $D_{\text{introduced}}$ defects are introduced during design and coding, the residual defect count reaching testing under inspection efficiency $f_{\text{inspection}}$ is
+The specific process elements that produced these defect-density results included several practices later formalized as the origin of what became the Capability Maturity Model, whose intellectual foundation is documented in [Humphrey 1988][research_humphrey_1988] in IEEE Software as the characterizing paper on software process maturity. Formal design and code inspection following the specific procedure documented in [Fagan 1976][research_fagan_1976] at IBM Systems Journal caught approximately 60 percent of defects before they reached testing. If $D_{\text{introduced}}$ defects are introduced during design and coding, the residual defect count reaching testing under inspection efficiency $f_{\text{inspection}}$ is
 
 $$D_{\text{to test}} = D_{\text{introduced}} \cdot (1 - f_{\text{inspection}})$$
 
@@ -129,6 +129,7 @@ The next article in the series treats safety-critical software as an engineering
 
 ### Books
 
+- [Hanaway and Moorehead 1989][book_hanaway_moorehead_shuttle_avionics]
 - [Tomayko 1988][book_tomayko_shuttle_software]
 
 ### Reference
@@ -149,9 +150,15 @@ The next article in the series treats safety-critical software as an engineering
 
 - [Fagan 1976][research_fagan_1976]
 - [Fishman 1996][research_fishman_1996]
+- [Garman 1981][research_garman_1981]
+- [Humphrey 1988][research_humphrey_1988]
+- [Kolkhorst and Macina 1988][research_kolkhorst_macina_1988]
 - [Madden and Rone 1984][research_madden_rone_1984]
+- [Newkirk 1971][research_newkirk_1971]
+- [Sklaroff 1976][research_sklaroff_1976]
 - [Sperling and Weinstock 1985][research_sperling_weinstock_1985]
 
+[book_hanaway_moorehead_shuttle_avionics]: https://ntrs.nasa.gov/citations/19900015844
 [book_tomayko_shuttle_software]: https://ntrs.nasa.gov/citations/19880069935
 
 [ref_hals_spec]: https://ntrs.nasa.gov/citations/19790018664
@@ -166,5 +173,10 @@ The next article in the series treats safety-critical software as an engineering
 
 [research_fagan_1976]: https://ieeexplore.ieee.org/document/5388086
 [research_fishman_1996]: https://www.fastcompany.com/28121/they-write-right-stuff
+[research_garman_1981]: https://dl.acm.org/doi/10.1145/1005944.1005948
+[research_humphrey_1988]: https://ieeexplore.ieee.org/document/2014
+[research_kolkhorst_macina_1988]: https://ntrs.nasa.gov/citations/19890010739
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
+[research_newkirk_1971]: https://ntrs.nasa.gov/citations/19730015690
+[research_sklaroff_1976]: https://ieeexplore.ieee.org/document/5388349
 [research_sperling_weinstock_1985]: https://ieeexplore.ieee.org/document/5010028
