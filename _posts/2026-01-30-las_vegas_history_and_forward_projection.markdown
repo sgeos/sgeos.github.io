@@ -114,6 +114,24 @@ Las Vegas receives a smaller share of California business relocation activity, c
 
 The distinction matters for evaluating Las Vegas's relevance claims. California business relocation supports the narrative that Nevada is a desirable business destination, but the specific benefit accrues predominantly to Reno-Sparks and only secondarily to Las Vegas. A general Nevada business-friendly framing risks conflating the northern Nevada industrial-technology story with the southern Nevada tourism-entertainment story. The two subregions of Nevada are functionally distinct economies with different labor markets, physical constraints, and industrial specializations.
 
+## Business Location Considerations
+
+A business evaluating whether to locate a headquarters or satellite office in Las Vegas benefits from a decision framework that separates the metropolitan area's genuine location advantages from the tourism-narrative halo. The dimensions that anchor the decision are cost structure, workforce composition, physical infrastructure, regulatory environment, industry cluster adjacencies, and physical risk factors. Each dimension has a Las Vegas answer that differs from the more generic Nevada answer.
+
+On cost structure, Nevada imposes no state personal income tax and no corporate income tax, which is unusual among United States jurisdictions. The state does levy a Modified Business Tax on wages above threshold at approximately 1.475 percent, a Commerce Tax on gross receipts above four million dollars at approximately 0.05 to 0.33 percent depending on industry, and a state and local sales tax in Clark County at 8.375 percent [Nevada Department of Taxation][ref_nv_dor]. Property tax effective rates run near 0.5 percent, below the national median. Commercial office lease rates for Class A space in the mid 2020s run roughly \\$30 to \\$40 per square foot per year, and industrial and warehouse space runs roughly \\$10 to \\$14 per square foot per year, both materially below Bay Area comparables and roughly at parity with Phoenix and Reno-Sparks [CBRE Las Vegas][ref_cbre_las_vegas]. Residential median home price sits near \\$450000 in 2024, reducing the housing cost hurdle for employee relocation from higher-cost California markets.
+
+On workforce composition, the metropolitan area labor force concentrates heavily in leisure and hospitality, construction, real estate, retail trade, and administrative support. Professional and business services are present but not dominant, and technology-specific workforce depth is thin outside gaming technology, casino management systems, hospitality technology, and sports-betting operations. Specialized workforce strengths include casino operations, event management, entertainment production, and hospitality management at levels difficult to match elsewhere in the United States. Median household income runs modestly below the national median. Workforce mobility includes a continuous inflow from California and other higher-cost states, providing some professional-services and executive-level talent that would be harder to recruit locally.
+
+On physical infrastructure, Harry Reid International Airport is among the busiest United States airports by passenger volume and offers direct nonstop service to essentially every major United States city plus substantial international connectivity [Harry Reid International Airport][ref_lasairport]. The air hub is a genuine business asset for satellite offices whose staff travel frequently. Highway infrastructure includes Interstate 15 connecting Los Angeles and Salt Lake City, which supports both trucking logistics and business travel from Southern California. Rail freight is limited. Power availability is reasonable and pricing competitive within the Southwest. Data center presence is smaller than the Reno-Sparks industry cluster, though some data center operations exist within the metropolitan area. Water availability for water-intensive industrial operations is the binding physical constraint discussed earlier and is expected to tighten further through 2050.
+
+On regulatory environment, Nevada business registration is straightforward, permitting is generally faster than California, and the environment is business-friendly outside the gaming and cannabis licensing systems that are heavily regulated by design. The state court system handles commercial disputes with typical Western United States efficiency.
+
+Positive fit categories for satellite offices in Las Vegas include sales offices covering the Southwest United States market from Los Angeles through Phoenix, event and conference and hospitality-industry outposts that leverage the convention infrastructure, executive travel hubs that leverage the Harry Reid International connectivity, gaming and sports-betting technology development centers that align with the existing regulatory expertise and operator concentration, Southern California overflow warehousing and distribution, hospitality-technology and event-management-technology development shops, regional customer support and back-office operations, entertainment production and media ancillary functions, and small executive offices for founders and senior executives seeking a low-tax base with international air connectivity.
+
+Negative fit categories include engineering and research anchor offices requiring deep specialized technology talent, biotechnology and pharmaceutical research, financial services headquarters requiring proximity to Wall Street or the Bay Area venture capital ecosystem, higher education research centers requiring proximity to major research universities, advanced manufacturing requiring a mature supplier ecosystem, aerospace and defense industrial base operations, semiconductor manufacturing given the Phoenix cluster's dominance in that specialty, water-intensive industrial operations facing the tightening Colorado River constraint, and government relations offices requiring proximity to Washington DC or Sacramento.
+
+A business seeking to locate a satellite office in Las Vegas should verify that the office function fits at least one of the positive-fit categories, that the required workforce can be sourced locally or through relocation inflow from California, that the office does not require deep specialized talent Las Vegas lacks, that it does not benefit substantially from proximity to a specific industry cluster elsewhere, and that its operational profile does not require water-intensive infrastructure or is not exposed to extreme heat risk on a business-critical timeline. When these conditions are met, Las Vegas offers a competitive location with material tax advantages, air connectivity, and hospitality-adjacent industry depth. When they are not met, Reno-Sparks for industrial and technology, Phoenix for semiconductor and technology, Salt Lake City for Silicon Slopes technology, or the business-optimum state elsewhere in the West typically dominates.
+
 ## National Relevance
 
 Las Vegas serves the national economy as a convention and trade show hub, a professional sports market, and a large-scale entertainment production venue. The Las Vegas Convention Center and the Sands Expo host events including the Consumer Electronics Show at approximately 138000 attendees in January 2024, the SEMA Show at approximately 160000 attendees in November 2024, and the World of Concrete at approximately 55000 attendees each January. Total convention attendance reached 5.9 million in 2019 before pandemic disruption and recovered to 5.5 million in 2023 and 6.2 million in 2024 [LVCVA Annual Reports][ref_lvcva_annual].
@@ -218,7 +236,9 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 - [US BLS QCEW][ref_bls_qcew]
 - [US Bureau of Reclamation][ref_bureau_reclamation]
 - [US Census Bureau][ref_census_bureau]
+- [CBRE Las Vegas][ref_cbre_las_vegas]
 - [Colorado River Compact 1922][ref_colorado_compact_1922]
+- [Harry Reid International Airport][ref_lasairport]
 - [IGRA 1988][ref_igra_1988]
 - [IPCC AR6 WGII Ch 14][ref_ipcc_ar6_wg2]
 - [Kefauver 1951][ref_kefauver_1951]
@@ -233,6 +253,7 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 - [Murphy v NCAA 2018][ref_murphy_ncaa_2018]
 - [Nevada Gaming Control Board][ref_nevada_gcb]
 - [NIGA Report][ref_niga_report]
+- [Nevada Department of Taxation][ref_nv_dor]
 - [Nevada GOED][ref_nv_goed]
 - [NOAA NWS Las Vegas][ref_noaa_las_vegas]
 - [Nevada Revised Statutes 463][ref_nrs_463]
@@ -266,11 +287,13 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 [ref_bea_regional]: https://www.bea.gov/data/economic-accounts/regional
 [ref_bls_qcew]: https://www.bls.gov/cew/
 [ref_bureau_reclamation]: https://www.usbr.gov/lc/region/g4000/hourly/mead-elv.html
+[ref_cbre_las_vegas]: https://www.cbre.com/insights/figures/las-vegas-office-figures
 [ref_census_bureau]: https://www.census.gov/quickfacts/lasvegascitynevada
 [ref_colorado_compact_1922]: https://www.usbr.gov/lc/region/pao/pdfiles/crcompct.pdf
 [ref_igra_1988]: https://www.govinfo.gov/app/details/STATUTE-102/STATUTE-102-Pg2467
 [ref_ipcc_ar6_wg2]: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-14/
 [ref_kefauver_1951]: https://www.govinfo.gov/app/collection/serialset
+[ref_lasairport]: https://www.harryreidairport.com/
 [ref_las_vegas_review_journal]: https://www.reviewjournal.com/sports/
 [ref_liberty_media_10k]: https://www.libertymedia.com/investors
 [ref_lvcva_annual]: https://www.lvcva.com/research/
@@ -284,6 +307,7 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 [ref_niga_report]: https://www.indiangaming.org/
 [ref_noaa_las_vegas]: https://www.weather.gov/vef/climate
 [ref_nrs_463]: https://www.leg.state.nv.us/nrs/nrs-463.html
+[ref_nv_dor]: https://tax.nv.gov/
 [ref_nv_goed]: https://goed.nv.gov/
 [ref_snwa_report]: https://www.snwa.com/
 [ref_stanton_2020]: https://shpo.nv.gov/
