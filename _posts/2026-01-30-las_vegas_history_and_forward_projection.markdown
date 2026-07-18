@@ -102,6 +102,18 @@ Whether the trajectory of $c(t)$ decline can accommodate continued metropolitan 
 
 Beyond gaming and tourism, the metropolitan area functions as a warehousing and distribution node serving the Southern California and Phoenix drive markets. Defense installations in the surrounding region include Nellis Air Force Base immediately northeast of the metropolitan area, Creech Air Force Base as the primary United States Air Force unmanned aerial vehicle operations base, and the Nevada National Security Site formerly known as the Nevada Test Site. The University of Nevada Las Vegas is the primary regional research university. Healthcare, higher education, and manufacturing capacity primarily serve the metropolitan area rather than establishing regional hub status in those categories. Nevada's mining and utility-scale solar generation industries are geographically dispersed across the state rather than concentrated in the metropolitan area.
 
+## California Business Relocation
+
+Las Vegas's non-gaming economic development is sometimes assumed to be an obvious beneficiary of California business departures, an assumption the geography and industry composition do not fully support. California business relocations distribute across destinations chosen for business-specific optimality rather than for proximity alone. Tesla and Oracle relocated headquarters to Texas. Palantir moved from Palo Alto to Denver. Various finance and technology firms have relocated to Salt Lake City, Austin, Phoenix, and Nashville. The list of destinations reflects factors including workforce availability, existing industry cluster presence, tax structure, employee cost of living, and physical infrastructure rather than a single optimizing rule.
+
+Of California business relocations that stay in the Western time zone, Arizona has captured substantial share. Phoenix metropolitan area developments include TSMC's semiconductor fabrication complex in north Phoenix and Intel's Ocotillo expansion in Chandler, along with technology and finance firm relocations to Scottsdale and Chandler [TSMC Arizona][ref_tsmc_arizona]. Arizona's advantages relative to Nevada include a larger existing technology employer base, a Phoenix metropolitan area labor market roughly twice the size of the Las Vegas metropolitan area, and existing industrial water infrastructure sized for high-consumption manufacturing.
+
+Of California business relocations that cross the Sierra Nevada into the state of Nevada, the Reno-Sparks metropolitan area in northern Nevada has captured the bulk of the industrial and technology activity rather than Las Vegas. Tesla's Nevada Gigafactory at the Tahoe-Reno Industrial Center began operations in 2016 and produces electric-vehicle battery cells and modules in partnership with Panasonic [Tesla Nevada][ref_tesla_nevada]. Switch operates a major data center campus at the same industrial center. Apple, Google, and Microsoft each have data center operations in northern Nevada. The reasons for Reno's concentration of industrial and technology activity include a 200-mile drive from the San Francisco Bay Area versus approximately 400 miles from the Bay Area to Las Vegas, an existing industrial base and workforce, Truckee River water access, and cooler summer temperatures that lower data center cooling costs [Nevada GOED][ref_nv_goed].
+
+Las Vegas receives a smaller share of California business relocation activity, concentrated in sectors that align with the existing tourism-hospitality-entertainment complex rather than in general business categories. Notable relocations include the Oakland Raiders in 2020, the Oakland Athletics announced in 2023, and gaming-technology and hospitality firms. Individual and household relocation from California is substantial, driven by lower housing costs and Nevada's absence of state personal income tax, but this pattern does not materially change the metropolitan area's industry concentration in gaming, hospitality, entertainment, conventions, and sports.
+
+The distinction matters for evaluating Las Vegas's relevance claims. California business relocation supports the narrative that Nevada is a desirable business destination, but the specific benefit accrues predominantly to Reno-Sparks and only secondarily to Las Vegas. A general Nevada business-friendly framing risks conflating the northern Nevada industrial-technology story with the southern Nevada tourism-entertainment story. The two subregions of Nevada are functionally distinct economies with different labor markets, physical constraints, and industrial specializations.
+
 ## National Relevance
 
 Las Vegas serves the national economy as a convention and trade show hub, a professional sports market, and a large-scale entertainment production venue. The Las Vegas Convention Center and the Sands Expo host events including the Consumer Electronics Show at approximately 138000 attendees in January 2024, the SEMA Show at approximately 160000 attendees in November 2024, and the World of Concrete at approximately 55000 attendees each January. Total convention attendance reached 5.9 million in 2019 before pandemic disruption and recovered to 5.5 million in 2023 and 6.2 million in 2024 [LVCVA Annual Reports][ref_lvcva_annual].
@@ -221,10 +233,13 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 - [Murphy v NCAA 2018][ref_murphy_ncaa_2018]
 - [Nevada Gaming Control Board][ref_nevada_gcb]
 - [NIGA Report][ref_niga_report]
+- [Nevada GOED][ref_nv_goed]
 - [NOAA NWS Las Vegas][ref_noaa_las_vegas]
 - [Nevada Revised Statutes 463][ref_nrs_463]
 - [SNWA Water Resource Plan][ref_snwa_report]
 - [Stanton 2020][ref_stanton_2020]
+- [Tesla Nevada][ref_tesla_nevada]
+- [TSMC Arizona][ref_tsmc_arizona]
 - [UNLV Center for Gaming Research][ref_unlv_cgr]
 - [Wynn Resorts 10-K][ref_wynn_10k]
 
@@ -269,8 +284,11 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 [ref_niga_report]: https://www.indiangaming.org/
 [ref_noaa_las_vegas]: https://www.weather.gov/vef/climate
 [ref_nrs_463]: https://www.leg.state.nv.us/nrs/nrs-463.html
+[ref_nv_goed]: https://goed.nv.gov/
 [ref_snwa_report]: https://www.snwa.com/
 [ref_stanton_2020]: https://shpo.nv.gov/
+[ref_tesla_nevada]: https://www.tesla.com/gigafactory
+[ref_tsmc_arizona]: https://www.tsmc.com/english/aboutTSMC/tsmc_arizona
 [ref_unlv_cgr]: https://gaming.library.unlv.edu/
 [ref_wynn_10k]: https://www.wynnresorts.com/investors
 [research_borg_2015]: https://onlinelibrary.wiley.com/doi/10.1111/ajes.12123
