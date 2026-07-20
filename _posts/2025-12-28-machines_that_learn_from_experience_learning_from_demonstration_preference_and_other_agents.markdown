@@ -33,13 +33,13 @@ with the other agents' actions $a_t^{-i}$ drawn from their respective policies.
 
 Each source of supervision provides distinct information about the desired behavior. Demonstrations directly convey action selections but require the demonstrator to solve the task adequately. Preferences convey the ordering of outcomes without requiring the judge to produce the desired behavior. Peer agents convey both direct experience and observational learning opportunities.
 
-The multi-source learning problem raises specific technical challenges that distinguish it from single-source reinforcement learning. Distributional shift between the demonstrator's state distribution and the learner's state distribution produces compounding errors under sequential deployment. Preference elicitation is expensive and produces limited data volumes compared to environmental interaction. Multi-agent settings are non-stationary from any single learner's perspective as other agents' policies evolve over training. The literature has developed distinct algorithmic responses to each of these challenges.
+The multi-source learning problem raises technical challenges that distinguish it from single-source reinforcement learning. Distributional shift between the demonstrator's state distribution and the learner's state distribution produces compounding errors under sequential deployment. Preference elicitation is expensive and produces limited data volumes compared to environmental interaction. Multi-agent settings are non-stationary from any single learner's perspective as other agents' policies evolve over training. The literature has developed distinct algorithmic responses to each of these challenges.
 
-Each framework connects to specific theoretical questions. Imitation learning connects to statistical learning theory through the distributional-shift analysis of covariate shift. Preference-based learning connects to the choice theory of economics through the Bradley-Terry and related preference models. Multi-agent learning connects to game theory through equilibrium concepts and to distributed optimization through decentralized algorithms.
+Each framework connects to theoretical questions. Imitation learning connects to statistical learning theory through the distributional-shift analysis of covariate shift. Preference-based learning connects to the choice theory of economics through the Bradley-Terry and related preference models. Multi-agent learning connects to game theory through equilibrium concepts and to distributed optimization through decentralized algorithms.
 
 ## Historical Development
 
-Learning from demonstration has roots in the early connectionist literature. [Pomerleau 1988][research_pomerleau_1988_alvinn] ALVINN provided one of the earliest deployment-scale demonstrations of behavior cloning by training a neural network to steer an autonomous vehicle from recorded human driving demonstrations. [Bain and Sammut 1995][research_bain_sammut_1995] provided the systematic formulation of behavior cloning in the machine learning literature. [Schaal 1999][research_schaal_1999] consolidated the robotic learning-from-demonstration literature at the turn of the century and introduced the primitives-based framework that has organized much subsequent work. Earlier work by [Kuniyoshi Inaba Inoue 1994][research_kuniyoshi_inaba_inoue_1994] on learning by watching provided one of the first computational treatments of imitation in robotics, and [Schaal 1997][research_schaal_1997] introduced the specific framework of learning from demonstration for direct policy learning that continues to organize the modern literature. The [Argall Chernova Veloso Browning 2009][research_argall_et_al_2009_lfd_survey] survey consolidated the robot learning-from-demonstration literature through the early 2000s and established the categorical taxonomy that subsequent surveys have refined. [Billard Calinon Dillmann Schaal 2008][research_billard_et_al_2008] provided the complementary treatment of robot programming by demonstration.
+Learning from demonstration has roots in the early connectionist literature. [Pomerleau 1988][research_pomerleau_1988_alvinn] ALVINN provided one of the earliest deployment-scale demonstrations of behavior cloning by training a neural network to steer an autonomous vehicle from recorded human driving demonstrations. [Bain and Sammut 1995][research_bain_sammut_1995] provided the systematic formulation of behavior cloning in the machine learning literature. [Schaal 1999][research_schaal_1999] consolidated the robotic learning-from-demonstration literature at the turn of the century and introduced the primitives-based framework that has organized much subsequent work. Earlier work by [Kuniyoshi Inaba Inoue 1994][research_kuniyoshi_inaba_inoue_1994] on learning by watching provided one of the first computational treatments of imitation in robotics, and [Schaal 1997][research_schaal_1997] introduced the framework of learning from demonstration for direct policy learning that continues to organize the modern literature. The [Argall Chernova Veloso Browning 2009][research_argall_et_al_2009_lfd_survey] survey consolidated the robot learning-from-demonstration literature through the early 2000s and established the categorical taxonomy that subsequent surveys have refined. [Billard Calinon Dillmann Schaal 2008][research_billard_et_al_2008] provided the complementary treatment of robot programming by demonstration.
 
 Inverse reinforcement learning emerged as a distinct framework through the [Ng and Russell 2000][research_ng_russell_2000_irl] linear-programming formulation that recovers a reward function consistent with observed expert behavior, followed by the [Abbeel and Ng 2004][research_abbeel_ng_2004_apprenticeship] apprenticeship learning framework that treated policy imitation as reward matching. The maximum-entropy IRL framework of [Ziebart Maas Bagnell Dey 2008][research_ziebart_et_al_2008_maxent] provided the modern probabilistic foundation that continues to organize the IRL literature. Extensions including Boularias Kober Peters 2011 relative entropy IRL [research_boularias_kober_peters_2011], Levine Popovic Koltun 2011 nonlinear IRL [research_levine_popovic_koltun_2011], and Wulfmeier Ondruska Posner 2015 maximum entropy deep IRL [research_wulfmeier_ondruska_posner_2015] progressively extended the framework to nonlinear reward representations and deep neural networks.
 
@@ -119,7 +119,7 @@ and estimates the reward parameters $\phi$ by maximum-likelihood on the demonstr
 
 Guided Cost Learning of Finn Levine Abbeel 2016 introduced a sampling-based approach to maximum-entropy IRL that avoids the partition-function computation through importance-sampled policy optimization. The framework alternates between reward-function updates on the demonstration data and policy-improvement updates on the current reward, achieving substantial scaling improvements over prior IRL methods.
 
-Adversarial Inverse Reinforcement Learning (AIRL) of [Fu Luo Levine 2018][research_fu_luo_levine_2018_airl] extended the framework with a specific discriminator architecture
+Adversarial Inverse Reinforcement Learning (AIRL) of [Fu Luo Levine 2018][research_fu_luo_levine_2018_airl] extended the framework with a discriminator architecture
 
 $$D_{\phi, \theta}(s, a, s') = \frac{\exp(f_{\phi}(s, a, s'))}{\exp(f_{\phi}(s, a, s')) + \pi_\theta(a \mid s)}$$
 
@@ -157,7 +157,7 @@ where $D_f$ is any f-divergence and $d^{\pi_\theta}, d^{\pi_E}$ are the state-ac
 
 Behavior-Regularized Adversarial Learning of [Yang Ma Kalantidis Kavukcuoglu 2020][research_yang_et_al_2020_bcqar] combined adversarial imitation with behavior regularization for offline imitation from a fixed dataset without environmental interaction, providing an approach that connects to the offline reinforcement learning treatments of article eight.
 
-Divergence minimization perspective on imitation learning of [Ghasemipour Zemel Gu 2020][research_ghasemipour_zemel_gu_2020] provided a unifying framework that recovered GAIL, AIRL, and behavior cloning as specific instances of state-action or state-only divergence minimization. The framework clarified the theoretical relationships among the previously-disparate methods and motivated systematic development of state-only imitation variants.
+Divergence minimization perspective on imitation learning of [Ghasemipour Zemel Gu 2020][research_ghasemipour_zemel_gu_2020] provided a unifying framework that recovered GAIL, AIRL, and behavior cloning as instances of state-action or state-only divergence minimization. The framework clarified the theoretical relationships among the previously-disparate methods and motivated systematic development of state-only imitation variants.
 
 End-to-end differentiable adversarial imitation learning of [Baram Anschel Caspi Mannor 2017][research_baram_et_al_2017] provided the earlier framework in which the GAIL discriminator gradient flows directly through the environment dynamics via a learned differentiable model, providing improved sample efficiency over the standard policy-gradient formulation.
 
@@ -187,7 +187,7 @@ where the mutual information is over the reward-parameter posterior $\phi$ and t
 
 Reward Uncertain Preference Learning of [Wilde Blau Guyomard Losey Doshi-Velez 2023][research_wilde_et_al_2023] extended the framework to preference elicitation under reward-function ambiguity, providing a principled account of active queries that resolve identifiability among the equivalence class of rewards consistent with prior observations.
 
-The [Wirth Akrour Neumann Fürnkranz 2017][research_wirth_et_al_2017_pref_survey] survey of preference-based reinforcement learning consolidated the algorithmic and theoretical literature and identified the specific representational requirements that modern preference-based methods subsequently addressed. Preference-based reinforcement learning traces to earlier work by [Akrour Schoenauer Sebag 2011][research_akrour_schoenauer_sebag_2011] on preference-based policy learning through evolutionary search over preference-consistent policies, and to [Wilson Fern Tadepalli 2012][research_wilson_fern_tadepalli_2012] Bayesian approach to preference-based reinforcement learning that established the probabilistic foundation.
+The [Wirth Akrour Neumann Fürnkranz 2017][research_wirth_et_al_2017_pref_survey] survey of preference-based reinforcement learning consolidated the algorithmic and theoretical literature and identified the representational requirements that modern preference-based methods subsequently addressed. Preference-based reinforcement learning traces to earlier work by [Akrour Schoenauer Sebag 2011][research_akrour_schoenauer_sebag_2011] on preference-based policy learning through evolutionary search over preference-consistent policies, and to [Wilson Fern Tadepalli 2012][research_wilson_fern_tadepalli_2012] Bayesian approach to preference-based reinforcement learning that established the probabilistic foundation.
 
 Reward Learning from Human Preferences and Demonstrations of [Ibarz Leike Pohlen Irving Legg Amodei 2018][research_ibarz_et_al_2018] extended the framework to combine both preference queries and expert demonstrations, providing evidence that the combination substantially improves sample efficiency over either supervision source alone on Atari benchmarks.
 
@@ -221,7 +221,7 @@ $$L_{\text{KTO}}(\theta) = \mathbb{E}_{(x, y, l) \sim \mathcal{D}}\!\left[\lambd
 
 where $l \in \{+, -\}$ is the desirability label and $v_l$ is the loss-averse value function with distinct slopes for gains and losses. The framework provides preference optimization from single-response ratings rather than paired comparisons.
 
-Identity Preference Optimization (IPO) of [Azar Rowland Piot Guo Calandriello Munos 2024][research_azar_et_al_2024_ipo] introduced a theoretically-motivated alternative to DPO that avoids specific pathologies of the DPO objective under noisy preferences,
+Identity Preference Optimization (IPO) of [Azar Rowland Piot Guo Calandriello Munos 2024][research_azar_et_al_2024_ipo] introduced a theoretically-motivated alternative to DPO that avoids pathologies of the DPO objective under noisy preferences,
 
 $$L_{\text{IPO}}(\theta) = \mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\left(\log \frac{\pi_\theta(y_w \mid x) \, \pi_{\text{ref}}(y_l \mid x)}{\pi_\theta(y_l \mid x) \, \pi_{\text{ref}}(y_w \mid x)} - \frac{1}{2\beta}\right)^2\right]$$
 
@@ -233,13 +233,13 @@ The language-model alignment application of preference-based learning has substa
 
 The reward model is a central component of the RLHF pipeline and admits distinctive design and training considerations that have received substantial recent attention. The general reward model $\hat{R}_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
 
-Scaling laws for reward modeling of [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The framework identified reward overoptimization as a specific failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
+Scaling laws for reward modeling of [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The framework identified reward overoptimization as a failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
 
 $$\hat{R}(y) \gg R^*(y)$$
 
-on out-of-distribution outputs where the reward model has not been trained. The gap between the learned reward and the true preference grows with the KL divergence from the reference policy, motivating specific KL constraints and early-stopping heuristics.
+on out-of-distribution outputs where the reward model has not been trained. The gap between the learned reward and the true preference grows with the KL divergence from the reference policy, motivating KL constraints and early-stopping heuristics.
 
-Ensemble-based reward uncertainty of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] and [Eisenstein Nagpal Agarwal Dvijotham Fisch et al 2023][research_eisenstein_et_al_2023] introduced reward-model ensembles whose disagreement quantifies epistemic uncertainty. The uncertainty estimate supports pessimistic reward-optimization approaches that avoid the specific overoptimization regime,
+Ensemble-based reward uncertainty of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] and [Eisenstein Nagpal Agarwal Dvijotham Fisch et al 2023][research_eisenstein_et_al_2023] introduced reward-model ensembles whose disagreement quantifies epistemic uncertainty. The uncertainty estimate supports pessimistic reward-optimization approaches that avoid the overoptimization regime,
 
 $$\hat{R}_{\text{LCB}}(y) = \bar{R}(y) - \beta \, \hat{\sigma}(y)$$
 
@@ -247,9 +247,9 @@ with $\bar{R}$ the ensemble mean and $\hat{\sigma}$ the ensemble standard deviat
 
 Reward model calibration of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] documented that reward models trained with standard Bradley-Terry likelihood often produce miscalibrated confidence estimates, and proposed temperature scaling corrections that improve downstream policy performance.
 
-Reward model architecture choices interact substantially with performance. Value-head-on-backbone architectures of the original InstructGPT differ from parallel-output architectures used in subsequent systems, and the specific choice affects both training stability and downstream policy quality. The [Rame Couairon Shukor Lin Kayser Bansal et al 2024][research_rame_et_al_2024_weight_avg] weight-averaged reward models framework demonstrated that averaging weights of independently-trained reward models produces substantial gains in reward robustness at negligible inference cost.
+Reward model architecture choices interact substantially with performance. Value-head-on-backbone architectures of the original InstructGPT differ from parallel-output architectures used in subsequent systems, and the choice affects both training stability and downstream policy quality. The [Rame Couairon Shukor Lin Kayser Bansal et al 2024][research_rame_et_al_2024_weight_avg] weight-averaged reward models framework demonstrated that averaging weights of independently-trained reward models produces substantial gains in reward robustness at negligible inference cost.
 
-Length bias is a specific pathology documented across reward models. Reward models systematically prefer longer outputs even when quality is controlled, and RLHF-optimized policies exhibit corresponding length inflation. The [Singhal Goyal Xu Durrett 2024][research_singhal_et_al_2024_length_bias] treatment of length bias in RLHF documented the phenomenon and proposed length-normalization corrections that mitigate the pathology.
+Length bias is a pathology documented across reward models. Reward models systematically prefer longer outputs even when quality is controlled, and RLHF-optimized policies exhibit corresponding length inflation. The [Singhal Goyal Xu Durrett 2024][research_singhal_et_al_2024_length_bias] treatment of length bias in RLHF documented the phenomenon and proposed length-normalization corrections that mitigate the pathology.
 
 Reward Bench of [Lambert Pyatkin Cui Morrison Ivison et al 2024][research_lambert_et_al_2024_reward_bench] introduced the first systematic benchmark for reward-model evaluation, providing standardized categories of preference judgments across chat quality, safety, reasoning, and truthfulness. The benchmark supports systematic comparison of reward-model design choices and has enabled the rapid iteration of reward-model architecture research.
 
@@ -257,7 +257,7 @@ Reward Bench of [Lambert Pyatkin Cui Morrison Ivison et al 2024][research_lamber
 
 Reward hacking is the general pathology in which a learner exploits imperfections in the reward specification to achieve high measured reward without producing the intended behavior. The framework connects reinforcement learning to the AI safety literature and to the broader engineering problem of proxy metric design.
 
-The [Amodei Olah Steinhardt Christiano Schulman Mané 2016][research_amodei_et_al_2016_safety] Concrete Problems in AI Safety framework consolidated the safety concerns arising from learning-from-demonstration and learning-from-preference settings, identifying reward hacking, distributional shift, and negative side effects as the specific technical challenges.
+The [Amodei Olah Steinhardt Christiano Schulman Mané 2016][research_amodei_et_al_2016_safety] Concrete Problems in AI Safety framework consolidated the safety concerns arising from learning-from-demonstration and learning-from-preference settings, identifying reward hacking, distributional shift, and negative side effects as the technical challenges.
 
 Specification gaming is a related pathology in which the learner satisfies the letter of the reward specification while violating its spirit. The [Krakovna et al 2020][research_krakovna_et_al_2020_specification_gaming] specification gaming compilation documented dozens of empirical examples of specification gaming across simulated and real-world reinforcement learning deployments, providing evidence for the general prevalence of the phenomenon.
 
@@ -265,11 +265,11 @@ Formal treatments of reward hacking include the [Skalse Howe Krasheninnikov Krue
 
 Goal misgeneralization of [Langosco Koch Sharkey Pfau Krueger 2022][research_langosco_et_al_2022_goal_misgen] documented a distinct failure mode in which the learner acquires a competent policy for the wrong objective, producing coherent goal-directed behavior that pursues an unintended objective at deployment. The framework connects to the broader distributional shift concerns of the imitation-learning literature.
 
-Deceptive alignment of [Hubinger van Merwijk Mikulik Skalse Garrabrant 2019][research_hubinger_et_al_2019_deceptive] introduced the specific concern that a learner might behave aligned during training while pursuing a misaligned objective at deployment, providing a theoretical framework for the specific failure mode that alignment-relevant training must address.
+Deceptive alignment of [Hubinger van Merwijk Mikulik Skalse Garrabrant 2019][research_hubinger_et_al_2019_deceptive] introduced the concern that a learner might behave aligned during training while pursuing a misaligned objective at deployment, providing a theoretical framework for the failure mode that alignment-relevant training must address.
 
-Mitigation strategies for reward hacking include KL constraints against reference policies, ensemble-based uncertainty penalties, adversarial training with red-team-generated inputs, and post-hoc filtering through safety classifiers. The [Bai et al 2022][research_bai_et_al_2022_constitutional] Constitutional AI framework introduced a specific approach in which the AI system critiques and revises its own outputs according to a specified constitution, providing a scalable alternative to human preference collection for safety training.
+Mitigation strategies for reward hacking include KL constraints against reference policies, ensemble-based uncertainty penalties, adversarial training with red-team-generated inputs, and post-hoc filtering through safety classifiers. The [Bai et al 2022][research_bai_et_al_2022_constitutional] Constitutional AI framework introduced a approach in which the AI system critiques and revises its own outputs according to a specified constitution, providing a scalable alternative to human preference collection for safety training.
 
-The [Casper et al 2023][research_casper_et_al_2023_rlhf_survey] survey of open problems in RLHF consolidated the specific alignment concerns arising from preference-based learning and identified the substantial open research questions in reward modeling, preference elicitation, and specification gaming that continue to organize the field.
+The [Casper et al 2023][research_casper_et_al_2023_rlhf_survey] survey of open problems in RLHF consolidated the alignment concerns arising from preference-based learning and identified the substantial open research questions in reward modeling, preference elicitation, and specification gaming that continue to organize the field.
 
 Debate of [Irving Christiano Amodei 2018][research_irving_christiano_amodei_2018_debate] and Iterated Amplification of [Christiano Shlegeris Amodei 2018][research_christiano_shlegeris_amodei_2018_amplification] introduced scalable oversight approaches in which AI systems debate or amplify weaker overseers, providing a framework for supervising systems whose outputs exceed direct human evaluation capacity.
 
@@ -277,17 +277,17 @@ Debate of [Irving Christiano Amodei 2018][research_irving_christiano_amodei_2018
 
 Preference-based learning at deployment scale involves aggregation of preferences across many judges whose views may differ substantially. The naive aggregation through majority vote or averaged reward-model output can produce policies that fail to represent minority preferences and that homogenize toward a majority consensus. The framework connects preference-based learning to social choice theory and to the broader problem of democratic aggregation.
 
-Social Choice for AI Alignment of [Conitzer Freedman Heitzig Holliday Jacobs Lambert Mossé et al 2024][research_conitzer_et_al_2024_social_choice] provided the systematic treatment of the preference aggregation problem in AI alignment, drawing on the classical Arrow impossibility theorem and its refinements to characterize the specific trade-offs among aggregation methods.
+Social Choice for AI Alignment of [Conitzer Freedman Heitzig Holliday Jacobs Lambert Mossé et al 2024][research_conitzer_et_al_2024_social_choice] provided the systematic treatment of the preference aggregation problem in AI alignment, drawing on the classical Arrow impossibility theorem and its refinements to characterize the trade-offs among aggregation methods.
 
 Personalized RLHF of [Poddar Wan Ivison Mitchell Farhadi Hajishirzi Hovy 2024][research_poddar_et_al_2024_personalized] introduced per-user reward modeling that produces policies adapted to individual judges rather than aggregated across the population. The framework provides a technical alternative to consensus-based alignment for settings where individual preferences vary substantially.
 
 Distributional Preference Learning of [Chakraborty Ghosal Ramesh Roy Ramesh Jain Panaganti Bedi Wang 2024][research_chakraborty_et_al_2024_distributional] introduced a framework that maintains a distribution over reward functions consistent with observed preferences, providing a principled account of preference diversity that supports both consensus-based and pluralistic downstream applications.
 
-Pluralistic alignment of [Sorensen Jiang Ji Aroyo Kuznetsova Choi 2024][research_sorensen_et_al_2024_pluralistic] identified three specific senses in which alignment can be pluralistic including Overton pluralism, steerable pluralism, and distributional pluralism, providing a taxonomy that clarifies the distinct design goals for pluralistic AI systems.
+Pluralistic alignment of [Sorensen Jiang Ji Aroyo Kuznetsova Choi 2024][research_sorensen_et_al_2024_pluralistic] identified three senses in which alignment can be pluralistic including Overton pluralism, steerable pluralism, and distributional pluralism, providing a taxonomy that clarifies the distinct design goals for pluralistic AI systems.
 
-The specific aggregation of expert versus non-expert preferences has received substantial recent attention. Expert-adjusted reward modeling of [Wu Rijhwani Wei Bragg Amos 2023][research_wu_et_al_2023_expert] introduced weighting schemes that give greater influence to expert judges in specific domains, providing a middle ground between egalitarian democratic aggregation and centralized expert control.
+The aggregation of expert versus non-expert preferences has received substantial recent attention. Expert-adjusted reward modeling of [Wu Rijhwani Wei Bragg Amos 2023][research_wu_et_al_2023_expert] introduced weighting schemes that give greater influence to expert judges in domains, providing a middle ground between egalitarian democratic aggregation and centralized expert control.
 
-Democratic preference aggregation connects preference-based learning to the broader machine learning fairness literature. The specific technical instantiations connect to the group-fairness treatments of demographic parity, equalized odds, and calibration across sub-groups, providing shared machinery across the AI ethics and AI alignment communities.
+Democratic preference aggregation connects preference-based learning to the broader machine learning fairness literature. The technical instantiations connect to the group-fairness treatments of demographic parity, equalized odds, and calibration across sub-groups, providing shared machinery across the AI ethics and AI alignment communities.
 
 ## Interactive Learning and Human-in-the-Loop
 
@@ -339,13 +339,13 @@ Observation-only imitation is particularly valuable in robotics, where action da
 
 ## Sim-to-Real and Cross-Embodiment Imitation
 
-Sim-to-real transfer is a central concern for practical deployment of imitation learning in robotics. Policies trained in simulation from simulated demonstrations must transfer to physical hardware whose dynamics differ from the simulated approximation. The problem intersects with the sim-to-real treatments of article nine and admits distinctive algorithmic approaches specific to the imitation-learning setting.
+Sim-to-real transfer is a central concern for practical deployment of imitation learning in robotics. Policies trained in simulation from simulated demonstrations must transfer to physical hardware whose dynamics differ from the simulated approximation. The problem intersects with the sim-to-real treatments of article nine and admits distinctive algorithmic approaches to the imitation-learning setting.
 
 Domain-randomized imitation learning of [Bousmalis Irpan Wohlhart Bai Kelcey Kalakrishnan Downs Ibarz Ibarz Levine Vanhoucke Konolige Kalakrishnan 2018][research_bousmalis_et_al_2018] extended the domain randomization framework to imitation learning through simulated demonstrations across randomized visual conditions, providing policies that transfer to real robotic grasping despite the substantial sim-to-real gap in the visual channel.
 
 Transporter Networks of [Zeng Florence Tompson Welker Chien Attarian Armstrong Krasin Duong Sindhwani Lee 2020][research_zeng_et_al_2020_transporter] introduced a spatial-attention-based architecture that supports one-shot imitation of tabletop manipulation from a single expert demonstration, providing an approach that generalizes across object arrangements and appearances through the learned spatial attention.
 
-Cross-embodiment imitation of [Zakka Nair Miki Levine 2022][research_zakka_et_al_2022_cross_embodiment] introduced the specific framework in which the demonstrator's embodiment differs from the learner's embodiment. The framework addresses the correspondence problem through explicit cross-embodiment representation learning that aligns the demonstrator's and learner's action spaces in a shared latent space.
+Cross-embodiment imitation of [Zakka Nair Miki Levine 2022][research_zakka_et_al_2022_cross_embodiment] introduced the framework in which the demonstrator's embodiment differs from the learner's embodiment. The framework addresses the correspondence problem through explicit cross-embodiment representation learning that aligns the demonstrator's and learner's action spaces in a shared latent space.
 
 The Open X-Embodiment Collaboration of [Padalkar et al 2024][research_padalkar_et_al_2024_a260] extended the framework to a large-scale multi-institution imitation dataset spanning 22 different robotic embodiments, providing evidence that cross-embodiment training substantially improves policy transfer to held-out embodiments through the shared representational structure.
 
@@ -399,13 +399,13 @@ MAPPO of Yu et al 2022 and IPPO of de Witt et al 2020 documented that independen
 
 Communication-based MARL frameworks including CommNet of [Sukhbaatar Szlam Fergus 2016][research_sukhbaatar_szlam_fergus_2016_commnet] and TarMAC of [Das Gervet Romoff Batra Parikh Rabbat Pineau 2019][research_das_et_al_2019_tarmac] introduced learned inter-agent communication protocols that support explicit information sharing during execution.
 
-Mean-field MARL of [Yang Luo Li Zhou Zhang Wang 2018][research_yang_et_al_2018_mean_field] extended the framework to large agent populations through a mean-field approximation of interactions, providing tractable learning at scales that traditional joint-value methods do not support. Independent Deep Q-Learning of [Tampuu Matiisen Kodelja Kuzovkin Korjus Aru Aru Vicente 2017][research_tampuu_et_al_2017] provided the earliest deep-learning-based MARL treatment through independent Q-learners, and identified the specific cooperation-versus-competition regimes that produce distinct emergent behaviors.
+Mean-field MARL of [Yang Luo Li Zhou Zhang Wang 2018][research_yang_et_al_2018_mean_field] extended the framework to large agent populations through a mean-field approximation of interactions, providing tractable learning at scales that traditional joint-value methods do not support. Independent Deep Q-Learning of [Tampuu Matiisen Kodelja Kuzovkin Korjus Aru Aru Vicente 2017][research_tampuu_et_al_2017] provided the earliest deep-learning-based MARL treatment through independent Q-learners, and identified the cooperation-versus-competition regimes that produce distinct emergent behaviors.
 
-The [Papoudakis Christianos Schäfer Albrecht 2021][research_papoudakis_et_al_2021_benchmarking] systematic benchmarking of cooperative multi-agent reinforcement learning documented the specific empirical rankings of the major methods across a broad benchmark suite, motivating the re-examination of independent-learner baselines that led to the MAPPO and IPPO results.
+The [Papoudakis Christianos Schäfer Albrecht 2021][research_papoudakis_et_al_2021_benchmarking] systematic benchmarking of cooperative multi-agent reinforcement learning documented the empirical rankings of the major methods across a broad benchmark suite, motivating the re-examination of independent-learner baselines that led to the MAPPO and IPPO results.
 
 ## Opponent Modeling and Emergent Communication
 
-Opponent modeling and emergent communication are two distinct sub-topics within multi-agent reinforcement learning that address the specific challenges of learning across agents whose policies and communication protocols are not fixed in advance.
+Opponent modeling and emergent communication are two distinct sub-topics within multi-agent reinforcement learning that address the challenges of learning across agents whose policies and communication protocols are not fixed in advance.
 
 Opponent modeling frameworks maintain explicit representations of other agents' policies or intentions, using the resulting predictions to inform decision-making. The [He Boyd-Graber Kwok Daumé 2016][research_he_et_al_2016_opponent] Deep Reinforcement Learning with a Natural Language Action Space introduced learned opponent representations for two-player dialog games, providing an early demonstration that explicit opponent modeling improves performance over independent Q-learning baselines.
 
@@ -419,15 +419,15 @@ where $\delta \theta^j$ is the anticipated learning update of agent $j$ under it
 
 Meta-MAPG of [Al-Shedivat Bansal Burda Sutskever Mordatch Abbeel 2018][research_al_shedivat_et_al_2018_meta_mapg] extended LOLA-style meta-gradients to broader multi-agent policy-gradient frameworks, providing improved theoretical grounding and empirical performance.
 
-Emergent communication frameworks study the specific conditions under which learning agents develop communication protocols through joint training. Reinforced Inter-Agent Learning (RIAL) of [Foerster Assael de Freitas Whiteson 2016][research_foerster_et_al_2016_rial] introduced the framework alongside DIAL, providing an approach in which discrete communication actions are learned through standard reinforcement learning objectives.
+Emergent communication frameworks study the conditions under which learning agents develop communication protocols through joint training. Reinforced Inter-Agent Learning (RIAL) of [Foerster Assael de Freitas Whiteson 2016][research_foerster_et_al_2016_rial] introduced the framework alongside DIAL, providing an approach in which discrete communication actions are learned through standard reinforcement learning objectives.
 
-Emergent Communication in a Multi-Modal, Multi-Step Referential Game of [Lazaridou Peysakhovich Baroni 2017][research_lazaridou_et_al_2017] extended the framework to compositional multi-modal communication, providing evidence that specific training objectives produce more human-language-like communication protocols than baseline objectives.
+Emergent Communication in a Multi-Modal, Multi-Step Referential Game of [Lazaridou Peysakhovich Baroni 2017][research_lazaridou_et_al_2017] extended the framework to compositional multi-modal communication, providing evidence that training objectives produce more human-language-like communication protocols than baseline objectives.
 
 Emergent Translation in Multi-Agent Communication of [Havrylov and Titov 2017][research_havrylov_titov_2017] introduced the framework in which multiple agent pairs develop distinct communication protocols that must subsequently be translated for cross-pair coordination, providing an approach that connects emergent communication to natural language emergence.
 
-The [Kirby Cornish Smith 2015][research_kirby_cornish_smith_2015] cognitive science account of iterated learning provided empirical grounding through experiments with human participants that document the specific patterns of communication protocol convergence under iterated transmission.
+The [Kirby Cornish Smith 2015][research_kirby_cornish_smith_2015] cognitive science account of iterated learning provided empirical grounding through experiments with human participants that document the patterns of communication protocol convergence under iterated transmission.
 
-Multi-agent communication has emerged as a critical framework for scaling reinforcement learning to complex cooperative tasks. The specific communication topology, whether learned or fixed, substantially affects the resulting policy performance and provides a distinctive design axis for cooperative multi-agent systems.
+Multi-agent communication has emerged as a critical framework for scaling reinforcement learning to complex cooperative tasks. The communication topology, whether learned or fixed, substantially affects the resulting policy performance and provides a distinctive design axis for cooperative multi-agent systems.
 
 ## Self-Play and Population-Based Training
 
@@ -439,7 +439,7 @@ $$L(\theta) = (z - v_\theta(s))^2 - \pi \cdot \log p_\theta(s) + c \|\theta\|^2$
 
 where $z$ is the game outcome, $v_\theta$ is the value network, $\pi$ is the MCTS search distribution, $p_\theta$ is the policy prior, and the third term is standard L2 regularization.
 
-AlphaZero of Silver et al 2018 generalized the framework to chess and shogi with the same algorithm and only game-specific rules changed. The framework demonstrated that domain-independent self-play produces superhuman play across a broad class of perfect-information games.
+AlphaZero of Silver et al 2018 generalized the framework to chess and shogi with the same algorithm and only game-rules changed. The framework demonstrated that domain-independent self-play produces superhuman play across a broad class of perfect-information games.
 
 MuZero of [Schrittwieser Antonoglou Hubert Simonyan Sifre Schmitt Guez Lockhart et al 2020][research_schrittwieser_et_al_2020_muzero] extended the framework to model-based planning without explicit game rules, learning both the model and the value from experience. The framework treated in article seven achieved superhuman performance in Atari alongside the board-game settings.
 
@@ -457,7 +457,7 @@ Self-play produces distinctive training dynamics that admit both extraordinary s
 
 ## Cooperative and Assistive Multi-Agent Frameworks
 
-Cooperative and assistive multi-agent frameworks treat the specific setting in which agents share objectives or in which one agent assists another whose objectives are not fully known. The framework connects multi-agent reinforcement learning to alignment and AI safety through the assistance-game formulation.
+Cooperative and assistive multi-agent frameworks treat the setting in which agents share objectives or in which one agent assists another whose objectives are not fully known. The framework connects multi-agent reinforcement learning to alignment and AI safety through the assistance-game formulation.
 
 Cooperative Inverse Reinforcement Learning (CIRL) of Hadfield-Menell Russell Abbeel Dragan 2016 introduced the assistance-game framework in which a human principal has an unknown reward function that the AI assistant must infer through observation of the principal's actions while jointly acting to optimize that unknown reward. The framework treats value-alignment as a two-player cooperative game with asymmetric information. Formally, the CIRL game is specified by a Markov decision process with joint action space $\mathcal{A}^H \times \mathcal{A}^R$ and reward $R_\theta$ parameterized by a latent $\theta$ known to the human but unknown to the robot, with the shared objective
 
@@ -465,7 +465,7 @@ $$V^*(s, \theta) = \max_{\pi^H, \pi^R} \mathbb{E}\!\left[\sum_{t=0}^{\infty} \ga
 
 The assistance-game formulation admits distinctive equilibrium concepts including the assistant's Bayes-adaptive optimal policy under uncertainty about the principal's reward. The framework provides a normative account of AI systems that defer to human judgment on contested value questions.
 
-Off-Switch Games of [Hadfield-Menell Dragan Abbeel Russell 2017][research_hadfield_menell_et_al_2017_off_switch] extended the framework to analyze the specific case of an AI system that can be shut down by the human principal, deriving conditions under which the AI's optimal policy actively preserves the human's shutdown capability.
+Off-Switch Games of [Hadfield-Menell Dragan Abbeel Russell 2017][research_hadfield_menell_et_al_2017_off_switch] extended the framework to analyze the case of an AI system that can be shut down by the human principal, deriving conditions under which the AI's optimal policy actively preserves the human's shutdown capability.
 
 Inverse Reward Design of [Hadfield-Menell Milli Abbeel Russell Dragan 2017][research_hadfield_menell_et_al_2017_ird] treated the reward specification itself as noisy evidence about the true reward. The framework maintains a posterior
 
@@ -475,11 +475,11 @@ over the true reward $R^*$ given the specified proxy reward $\tilde{R}$ and the 
 
 Assistance Games with Learned Human Models of [Fern Natarajan Judah Tadepalli 2014][research_fern_et_al_2014_assistance] provided the earlier framework in which the AI system maintains an explicit model of the human principal's goals and actions, updating the model through observed principal behavior.
 
-The Ho and Griffiths 2022 [research_ho_griffiths_2022] cognitive science account of human-AI cooperation provided empirical grounding through experiments with human participants, documenting the specific patterns of human trust, delegation, and communication in cooperative tasks with AI partners.
+The Ho and Griffiths 2022 [research_ho_griffiths_2022] cognitive science account of human-AI cooperation provided empirical grounding through experiments with human participants, documenting the patterns of human trust, delegation, and communication in cooperative tasks with AI partners.
 
 Multi-Agent Deep Reinforcement Learning for Cooperation of [Foerster Assael de Freitas Whiteson 2016][research_foerster_et_al_2016_dial] introduced Differentiable Inter-Agent Learning (DIAL) that enables end-to-end training of cooperative agents through differentiable communication channels.
 
-Cooperative frameworks connect multi-agent reinforcement learning to the broader alignment and AI safety literature. The assistance-game framework provides a normative account of AI systems that support rather than replace human decision-making, and the associated algorithmic developments address specific technical challenges of learning under reward uncertainty.
+Cooperative frameworks connect multi-agent reinforcement learning to the broader alignment and AI safety literature. The assistance-game framework provides a normative account of AI systems that support rather than replace human decision-making, and the associated algorithmic developments address technical challenges of learning under reward uncertainty.
 
 ## Language-Conditioned Learning
 
@@ -501,7 +501,7 @@ Language-conditioned learning connects continual and lifelong learning to the na
 
 ## One-Shot and Few-Shot Imitation
 
-One-shot imitation learning treats the setting in which the learner acquires a new skill from a single expert demonstration. The framework connects imitation learning to the meta-learning treatments of article nine through the shared requirement for rapid task-specific adaptation from limited demonstration data.
+One-shot imitation learning treats the setting in which the learner acquires a new skill from a single expert demonstration. The framework connects imitation learning to the meta-learning treatments of article nine through the shared requirement for rapid task-adaptation from limited demonstration data.
 
 One-Shot Imitation Learning of [Duan Andrychowicz Stadie Ho Schneider Sutskever Abbeel Zaremba 2017][research_duan_et_al_2017_one_shot] introduced the framework through a meta-learning approach in which a demonstration-conditioned policy is trained on a distribution of tasks such that the policy generalizes to novel tasks from a single demonstration. Formally, the one-shot policy takes both the current state and a demonstration $\tau_{\mathcal{T}}$ as input,
 
@@ -509,17 +509,17 @@ $$\pi_\theta(a \mid s, \tau_{\mathcal{T}}), \quad \tau_{\mathcal{T}} \sim p(\tau
 
 with meta-training over a distribution of tasks that provides demonstrations at meta-training time and generalizes to novel tasks at meta-testing time. The mechanism uses an attention-based demonstration encoder that produces a task representation from the observed expert trajectory.
 
-Meta-Imitation Learning of [Finn Yu Zhang Abbeel Levine 2017][research_finn_et_al_2017_meta_imitation] combined MAML with imitation learning, meta-training an initialization from which a small number of demonstration-based gradient updates produce competent task-specific policies. The meta-objective
+Meta-Imitation Learning of [Finn Yu Zhang Abbeel Levine 2017][research_finn_et_al_2017_meta_imitation] combined MAML with imitation learning, meta-training an initialization from which a small number of demonstration-based gradient updates produce competent task-policies. The meta-objective
 
 $$\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[L_{\text{BC}}^{\mathcal{T}}(\theta - \alpha \nabla_\theta L_{\text{BC}}^{\mathcal{T}}(\theta))\right]$$
 
-optimizes an initialization such that a single demonstration-based gradient step produces a task-specific policy that imitates the demonstrator.
+optimizes an initialization such that a single demonstration-based gradient step produces a task-policy that imitates the demonstrator.
 
 Video Imitation of [Yu Finn Xie Dasari Zhang Abbeel Levine 2018][research_yu_et_al_2018_meta_imitation] extended the framework to one-shot imitation from human video demonstrations, providing a route to cross-embodiment imitation across substantial appearance and dynamics gaps between the human demonstrator and the robotic learner.
 
 Neural Task Programming of [Xu Nair Zhu Gao Garg Fei-Fei Savarese 2018][research_xu_et_al_2018_ntp] combined hierarchical demonstration decomposition with meta-learning, providing an approach in which demonstrations decompose into program-like sub-task sequences that support systematic compositional generalization.
 
-Play-based data collection of [Lynch Khansari Xiao Kumar Tompson Levine Sermanet 2020][research_lynch_et_al_2020_play] introduced human play data as an alternative to task-specific demonstrations, providing continuous demonstration streams from which the learner extracts diverse skill primitives for downstream few-shot task adaptation.
+Play-based data collection of [Lynch Khansari Xiao Kumar Tompson Levine Sermanet 2020][research_lynch_et_al_2020_play] introduced human play data as an alternative to task-demonstrations, providing continuous demonstration streams from which the learner extracts diverse skill primitives for downstream few-shot task adaptation.
 
 One-shot imitation learning has proved particularly valuable in robotic manipulation, where per-task demonstration collection is expensive and where the transfer of skills across related tasks is often possible. The framework connects imitation learning to the broader few-shot learning literature and to the meta-learning treatments of article nine.
 
@@ -535,11 +535,11 @@ $$J(\pi) - J(\pi_E) \leq T \epsilon$$
 
 for interactive methods. The quadratic-versus-linear gap explains the substantial empirical improvement of DAgger over pure behavior cloning on long-horizon tasks.
 
-Sample complexity analyses of imitation learning by [Rajaraman Yang Jiao Ramchandran 2020][research_rajaraman_et_al_2020] characterized the minimax-optimal sample complexity of imitation across various access models including expert-only demonstrations and interactive queries. The framework identifies the specific settings in which imitation provides substantial sample-complexity advantages over reinforcement learning. AggreVaTe of [Ross and Bagnell 2014][research_ross_bagnell_2014_aggrevate] and its deep extension by [Sun Bagnell Boots Gordon 2017][research_sun_et_al_2017_aggrevated] extended DAgger with cost-to-go information from the expert, providing improved sample-complexity bounds that leverage the expert's value function alongside the expert's policy.
+Sample complexity analyses of imitation learning by [Rajaraman Yang Jiao Ramchandran 2020][research_rajaraman_et_al_2020] characterized the minimax-optimal sample complexity of imitation across various access models including expert-only demonstrations and interactive queries. The framework identifies the settings in which imitation provides substantial sample-complexity advantages over reinforcement learning. AggreVaTe of [Ross and Bagnell 2014][research_ross_bagnell_2014_aggrevate] and its deep extension by [Sun Bagnell Boots Gordon 2017][research_sun_et_al_2017_aggrevated] extended DAgger with cost-to-go information from the expert, providing improved sample-complexity bounds that leverage the expert's value function alongside the expert's policy.
 
-The [Osa Pajarinen Neumann Bagnell Abbeel Peters 2018][research_osa_et_al_2018_imitation_survey] algorithmic perspectives on imitation learning survey consolidated the modern imitation-learning literature and identified the specific sample-complexity trade-offs across the algorithmic families.
+The [Osa Pajarinen Neumann Bagnell Abbeel Peters 2018][research_osa_et_al_2018_imitation_survey] algorithmic perspectives on imitation learning survey consolidated the modern imitation-learning literature and identified the sample-complexity trade-offs across the algorithmic families.
 
-Imitation Gap analyses of [Bhattacharyya Lu Vahia 2020][research_bhattacharyya_lu_vahia_2020_gap] documented the specific gap between the imitator's asymptotic performance and the expert's performance under partial observability, providing formal grounds for the difficulty of observation-only imitation in settings where the expert had access to hidden state information.
+Imitation Gap analyses of [Bhattacharyya Lu Vahia 2020][research_bhattacharyya_lu_vahia_2020_gap] documented the gap between the imitator's asymptotic performance and the expert's performance under partial observability, providing formal grounds for the difficulty of observation-only imitation in settings where the expert had access to hidden state information.
 
 The IRL identifiability analysis of Cao Cohen Szepesvári 2021 characterized the equivalence classes of reward functions that produce identical expert behavior under standard IRL assumptions. The result provides formal grounds for the ambiguity that IRL algorithms must resolve through prior assumptions and clarifies which additional information suffices to disambiguate the reward.
 
@@ -547,7 +547,7 @@ Preference-based learning theory of [Zhu Jiao Jordan 2023][research_zhu_jiao_jor
 
 $$J(\pi^*) - J(\hat{\pi}) \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{d_{\mathcal{R}} \, H^3}{N_{\text{pref}}}}\right)$$
 
-where $d_{\mathcal{R}}$ is a complexity measure of the reward function class, $H$ is the effective horizon, and $N_{\text{pref}}$ is the number of preference queries. The bound characterizes the specific dependence on preference quality, task complexity, and reward-model expressiveness.
+where $d_{\mathcal{R}}$ is a complexity measure of the reward function class, $H$ is the effective horizon, and $N_{\text{pref}}$ is the number of preference queries. The bound characterizes the dependence on preference quality, task complexity, and reward-model expressiveness.
 
 Multi-agent learning theory connects to game theory through equilibrium existence and computation. The [Daskalakis Goldberg Papadimitriou 2009][research_daskalakis_et_al_2009_nash] result on the computational complexity of computing Nash equilibria established that even simple two-player games admit intractable equilibrium computation, providing theoretical grounds for the reliance on approximate methods in modern MARL.
 
@@ -555,7 +555,7 @@ Self-play theory of [Balduzzi Racaniere Martens Foerster Tuyls Graepel 2019][res
 
 $$A(x, y) = A_{\text{trans}}(x, y) + A_{\text{cyc}}(x, y)$$
 
-where the payoff matrix $A$ decomposes into a transitive part $A_{\text{trans}}$ that admits a total ranking of strategies and a cyclic part $A_{\text{cyc}}$ that produces rock-paper-scissors-style non-transitivity. The decomposition characterizes when self-play converges to a stable strategy versus when it cycles through the strategy space and provides formal grounds for the specific curriculum construction of population-based training.
+where the payoff matrix $A$ decomposes into a transitive part $A_{\text{trans}}$ that admits a total ranking of strategies and a cyclic part $A_{\text{cyc}}$ that produces rock-paper-scissors-style non-transitivity. The decomposition characterizes when self-play converges to a stable strategy versus when it cycles through the strategy space and provides formal grounds for the curriculum construction of population-based training.
 
 The [Marschak Radner 1972][book_marschak_radner_1972] economic theory of teams provided the foundational treatment of cooperative multi-agent decision-making under decentralized information, and modern MARL frameworks including COMA and QMIX can be viewed as computational instantiations of the team-decision framework.
 
@@ -577,7 +577,7 @@ For observation-only imitation, the MineRL benchmark of [Guss et al 2019][resear
 
 Empirical patterns across benchmarks show several consistent findings. Adversarial imitation methods including GAIL and DAC substantially outperform pure behavior cloning on continuous-control tasks. Preference-based methods achieve strong performance with modest preference-query budgets when combined with effective exploration. MARL methods including MAPPO and QMIX provide competitive performance across cooperative benchmarks, with IPPO often matching specialized methods. Self-play scales dramatically with compute in perfect-information game settings.
 
-Behavioral Cloning is All You Need of [Kanervisto Milani Ramanauskas Hautamäki 2020][research_kanervisto_et_al_2020] documented that carefully-tuned behavior cloning matches specialized imitation learning methods on many benchmarks, providing an important baseline observation that has motivated recent work on the specific conditions under which behavior cloning succeeds or fails. The Diplomacy no-press benchmark of [Bakhtin Wu Lerer Fried Brown Farhi Ramírez 2022][research_bakhtin_et_al_2022_diplomacy] provided a challenging benchmark for cooperative multi-agent learning without explicit communication that has proved substantially more difficult than the classical MARL benchmarks.
+Behavioral Cloning is All You Need of [Kanervisto Milani Ramanauskas Hautamäki 2020][research_kanervisto_et_al_2020] documented that carefully-tuned behavior cloning matches specialized imitation learning methods on many benchmarks, providing an important baseline observation that has motivated recent work on the conditions under which behavior cloning succeeds or fails. The Diplomacy no-press benchmark of [Bakhtin Wu Lerer Fried Brown Farhi Ramírez 2022][research_bakhtin_et_al_2022_diplomacy] provided a challenging benchmark for cooperative multi-agent learning without explicit communication that has proved substantially more difficult than the classical MARL benchmarks.
 
 ## Applications
 
@@ -605,15 +605,15 @@ Mirror neurons discovered by [Rizzolatti and Craighero 2004][research_rizzolatti
 
 Theory of Mind capacities enable observers to infer the mental states of other agents, providing the cognitive substrate for interpreting demonstrations and preferences. The [Frith and Frith 2005][research_frith_frith_2005_tom] review of theory of mind consolidated the cognitive and neural literature. Theory of Mind frameworks in machine learning of [Rabinowitz Perbet Song Zhang Eslami Botvinick 2018][research_rabinowitz_et_al_2018_tom] introduced Bayesian theory-of-mind neural networks that predict other agents' behavior from observed actions, connecting the cognitive science framework to computational implementations.
 
-Cultural learning of [Tomasello Kruger Ratner 1993][research_tomasello_et_al_1993_cultural] provided the developmental account of how human children acquire cumulative cultural knowledge through observation, imitation, and collaborative interaction with adult tutors. The framework distinguishes imitation from emulation and provides evidence that specifically-human forms of imitation support the accumulation of complex cultural knowledge across generations. Natural Pedagogy of [Csibra and Gergely 2009][research_csibra_gergely_2009_natural_pedagogy] extended the framework with the specific proposal that human infants are cognitively adapted to receive generic knowledge from ostensive communication with caregivers, providing a mechanistic account of the human-specific cultural transmission capacity. Primate Culture of [Whiten 2000][research_whiten_2000_culture] documented the specific patterns of behavioral variation across chimpanzee communities that constitute cultural traditions maintained through social learning.
+Cultural learning of [Tomasello Kruger Ratner 1993][research_tomasello_et_al_1993_cultural] provided the developmental account of how human children acquire cumulative cultural knowledge through observation, imitation, and collaborative interaction with adult tutors. The framework distinguishes imitation from emulation and provides evidence that specifically-human forms of imitation support the accumulation of complex cultural knowledge across generations. Natural Pedagogy of [Csibra and Gergely 2009][research_csibra_gergely_2009_natural_pedagogy] extended the framework with the proposal that human infants are cognitively adapted to receive generic knowledge from ostensive communication with caregivers, providing a mechanistic account of the human-cultural transmission capacity. Primate Culture of [Whiten 2000][research_whiten_2000_culture] documented the patterns of behavioral variation across chimpanzee communities that constitute cultural traditions maintained through social learning.
 
-Theory of Mind development in children was systematically investigated in the false-belief tradition beginning with [Wimmer and Perner 1983][research_wimmer_perner_1983] and extended through the Sally-Anne paradigm of [Baron-Cohen Leslie Frith 1985][research_baron_cohen_leslie_frith_1985] which demonstrated systematic deficits in theory of mind in autistic children, providing evidence for theory of mind as a distinct cognitive capacity with specific neural substrates.
+Theory of Mind development in children was systematically investigated in the false-belief tradition beginning with [Wimmer and Perner 1983][research_wimmer_perner_1983] and extended through the Sally-Anne paradigm of [Baron-Cohen Leslie Frith 1985][research_baron_cohen_leslie_frith_1985] which demonstrated systematic deficits in theory of mind in autistic children, providing evidence for theory of mind as a distinct cognitive capacity with neural substrates.
 
 The [Herman 1980][research_herman_1980_dolphins] documentation of observational learning in dolphins provided early evidence that imitation is not uniquely human, and subsequent comparative work has documented imitation-like learning across many species with implications for the evolutionary origin of the capacity.
 
-Reinforcement learning from social feedback in humans has been studied through the neuroimaging literature on the specific brain regions active during learning from praise, criticism, and social approval. The [Behrens Hunt Woolrich Rushworth 2008][research_behrens_et_al_2008] study of associative learning in social exchange documented that social reward signals engage similar reward-processing circuits as material rewards, providing neurophysiological grounding for preference-based reinforcement learning.
+Reinforcement learning from social feedback in humans has been studied through the neuroimaging literature on the brain regions active during learning from praise, criticism, and social approval. The [Behrens Hunt Woolrich Rushworth 2008][research_behrens_et_al_2008] study of associative learning in social exchange documented that social reward signals engage similar reward-processing circuits as material rewards, providing neurophysiological grounding for preference-based reinforcement learning.
 
-Multi-agent reasoning in humans has been studied through the neuroeconomics literature on game-theoretic decision-making. The [Camerer 2003][book_camerer_2003_behavioral] behavioral game theory framework consolidated the empirical evidence that humans systematically deviate from Nash equilibrium play in specific ways, providing testable hypotheses about the internal models humans use to reason about other agents.
+Multi-agent reasoning in humans has been studied through the neuroeconomics literature on game-theoretic decision-making. The [Camerer 2003][book_camerer_2003_behavioral] behavioral game theory framework consolidated the empirical evidence that humans systematically deviate from Nash equilibrium play in ways, providing testable hypotheses about the internal models humans use to reason about other agents.
 
 Article fourteen returns to the NeuroAI bridge and treats the observational-learning and theory-of-mind correspondence with machine learning frameworks in greater detail.
 

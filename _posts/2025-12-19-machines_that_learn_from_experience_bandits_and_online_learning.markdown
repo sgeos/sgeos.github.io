@@ -13,7 +13,7 @@ series_index: 2
 <!-- A251 -->
 <script>console.log("A251");</script>
 
-The multi-armed bandit problem is the theoretical foundation of experiential learning. A learner repeatedly selects one action from a finite set, receives a stochastic reward, and updates its beliefs to select subsequent actions well. The absence of dynamics, in the sense that actions do not change environment state, isolates the exploration-exploitation trade-off from the credit-assignment and state-representation problems that arise in the full Markov decision process treated in the next article. This article surveys bandits and their broader online-learning setting, walking the stochastic and adversarial bandit models, the upper confidence bound and Thompson sampling algorithm families, contextual and structured bandits, best-arm identification, non-stationary variants, and the connection to the broader online-learning literature on prediction with expert advice and online convex optimization. Article one of this series introduced the agent-environment loop in which bandits are the degenerate one-state case; subsequent articles treat the Markov decision process extension that reintroduces dynamics.
+The multi-armed bandit problem is the theoretical foundation of experiential learning. A learner repeatedly selects one action from a finite set, receives a stochastic reward, and updates its beliefs to select subsequent actions well. The absence of dynamics, in the sense that actions do not change environment state, isolates the exploration-exploitation trade-off from the credit-assignment and state-representation problems that arise in the full Markov decision process treated in the next article. This article surveys bandits and their broader online-learning setting, walking the stochastic and adversarial bandit models, the upper confidence bound and Thompson sampling algorithm families, contextual and structured bandits, best-arm identification, non-stationary variants, and the connection to the broader online-learning literature on prediction with expert advice and online convex optimization. Article one of this series introduced the agent-environment loop in which bandits are the degenerate one-state case, subsequent articles treat the Markov decision process extension that reintroduces dynamics.
 
 ## The Bandit Problem
 
@@ -215,7 +215,7 @@ $$X_t = f(x_t, A_t) + \eta_t$$
 
 with $\eta_t$ zero-mean. The learner's task is to learn a policy $\pi : \mathcal{X} \to \{1, \ldots, K\}$ that maximizes expected reward.
 
-For linear contextual bandits, the reward function has the form $f(x, a) = \theta_a^\top x$ for arm-specific parameters $\theta_a$, or $f(x, a) = \theta^\top \phi(x, a)$ for a shared parameter with joint context-action features. LinUCB and Thompson sampling extend directly, and the regret analyses generalize with the number of arms replaced by an effective dimension parameter.
+For linear contextual bandits, the reward function has the form $f(x, a) = \theta_a^\top x$ for arm-parameters $\theta_a$, or $f(x, a) = \theta^\top \phi(x, a)$ for a shared parameter with joint context-action features. LinUCB and Thompson sampling extend directly, and the regret analyses generalize with the number of arms replaced by an effective dimension parameter.
 
 For general contextual bandits without linear structure, the epoch-greedy family of algorithms of [Langford and Zhang 2007][research_langford_zhang_2007], the exp4 algorithm of [Auer Cesa-Bianchi Freund Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002], and the exp4.P variant of [Beygelzimer Langford Li Reyzin Schapire 2011][research_beygelzimer_et_al_2011] provide reduction-based algorithms with regret bounds
 
@@ -295,7 +295,7 @@ Bandit convex optimization connects to derivative-free optimization, evolution s
 
 ## Best-Arm Identification and Pure Exploration
 
-The pure exploration setting replaces the regret minimization objective with an arm-identification objective. The learner interacts with the bandit for some budget or until a stopping condition and outputs a guess for the optimal arm. Regret over the interaction is not the performance criterion; the probability of misidentification is.
+The pure exploration setting replaces the regret minimization objective with an arm-identification objective. The learner interacts with the bandit for some budget or until a stopping condition and outputs a guess for the optimal arm. Regret over the interaction is not the performance criterion, the probability of misidentification is.
 
 The fixed-budget setting fixes the number of arm pulls in advance and analyzes the probability of incorrect identification. The fixed-confidence setting fixes the probability of incorrect identification and analyzes the expected number of pulls. Both settings have well-developed theory including instance-dependent lower bounds and matching algorithms.
 
@@ -327,7 +327,7 @@ $$\hat{\mu}_a^{\gamma}(t) = \frac{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = 
 
 and give bounds involving the drift rate.
 
-Restless bandits allow arm rewards to evolve according to Markov chains whose transitions depend on whether the arm is played. The problem is generally PSPACE-hard, but the [Whittle 1988][research_whittle_1988] index provides a widely-used heuristic that computes an arm-specific index
+Restless bandits allow arm rewards to evolve according to Markov chains whose transitions depend on whether the arm is played. The problem is generally PSPACE-hard, but the [Whittle 1988][research_whittle_1988] index provides a widely-used heuristic that computes an arm-index
 
 $$W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}$$
 
@@ -377,7 +377,7 @@ Human bandit experiments have documented systematic departures from optimal band
 
 Prefrontal cortex has been identified as a substrate for representing expected value and uncertainty in bandit-like tasks. [Behrens Woolrich Walton and Rushworth 2007][research_behrens_et_al_2007] identified anterior cingulate cortex as tracking volatility of reward contingencies, providing a neural substrate for adaptive learning rates that respond to environmental non-stationarity. The Bayesian bandit interpretation of these findings suggests that human decision-makers maintain approximate posterior distributions over arm parameters and update them in response to observed rewards.
 
-The correspondence between animal and human bandit-task performance and specific algorithmic classes is imperfect. Systematic biases including probability matching, myopic exploration, and reward-magnitude insensitivity all appear in the empirical literature. Article fifteen treats the psychology of learning as a distinct topic and revisits the imperfect algorithmic mapping.
+The correspondence between animal and human bandit-task performance and algorithmic classes is imperfect. Systematic biases including probability matching, myopic exploration, and reward-magnitude insensitivity all appear in the empirical literature. Article fifteen treats the psychology of learning as a distinct topic and revisits the imperfect algorithmic mapping.
 
 ## Empirical Landscape and Benchmarks
 

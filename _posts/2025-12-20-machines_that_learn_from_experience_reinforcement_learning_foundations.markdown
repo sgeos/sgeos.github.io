@@ -13,7 +13,7 @@ series_index: 3
 <!-- A252 -->
 <script>console.log("A252");</script>
 
-Reinforcement learning is the study of computational agents that learn to select actions in a stochastic environment so as to maximize a long-term cumulative reward. The Markov decision process provides the standard formal object, dynamic programming provides the exact planning apparatus when the transition and reward model are known, and the family of sample-based methods including Monte Carlo, temporal-difference learning, Q-learning, SARSA, policy gradients, and actor-critic provide the algorithmic apparatus when the model is unknown. This article treats the classical foundations of reinforcement learning systematically, following the layout of the [Sutton and Barto 2018][book_sutton_barto_2018] canonical reference and the mathematical treatment of [Puterman 1994][book_puterman_1994], [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996], and [Bertsekas 2019][book_bertsekas_2019]. Article one of this series introduced the agent-environment loop and previewed the machinery; article two treated the pre-Markov bandit and online-learning special case; this article provides the systematic treatment of the Markov decision process theory that reinforcement learning proper builds on. Article four treats the deep-learning-based extension.
+Reinforcement learning is the study of computational agents that learn to select actions in a stochastic environment so as to maximize a long-term cumulative reward. The Markov decision process provides the standard formal object, dynamic programming provides the exact planning apparatus when the transition and reward model are known, and the family of sample-based methods including Monte Carlo, temporal-difference learning, Q-learning, SARSA, policy gradients, and actor-critic provide the algorithmic apparatus when the model is unknown. This article treats the classical foundations of reinforcement learning systematically, following the layout of the [Sutton and Barto 2018][book_sutton_barto_2018] canonical reference and the mathematical treatment of [Puterman 1994][book_puterman_1994], [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996], and [Bertsekas 2019][book_bertsekas_2019]. Article one of this series introduced the agent-environment loop and previewed the machinery, article two treated the pre-Markov bandit and online-learning special case, this article provides the systematic treatment of the Markov decision process theory that reinforcement learning proper builds on. Article four treats the deep-learning-based extension.
 
 ## The Markov Decision Process
 
@@ -165,7 +165,7 @@ where $\text{Ep}(s)$ is the set of episodes containing state $s$ and $t^{(i)}_s$
 
 $$\hat{V}^{\pi}_{\text{EV}}(s) = \frac{1}{N(s)} \sum_{i} \sum_{t : s_t^{(i)} = s} G^{(i)}_{t}$$
 
-averages over all visits with $N(s)$ the total visit count and shares the same limit but with different finite-sample bias and variance. The first-visit estimator is unbiased for i.i.d. episodes; the every-visit estimator introduces bias from within-episode correlation between successive visits but often has lower variance.
+averages over all visits with $N(s)$ the total visit count and shares the same limit but with different finite-sample bias and variance. The first-visit estimator is unbiased for i.i.d. episodes, the every-visit estimator introduces bias from within-episode correlation between successive visits but often has lower variance.
 
 Monte Carlo prediction converges to $V^{\pi}$ almost surely under mild conditions on the episode distribution and policy. Monte Carlo control alternates policy evaluation via Monte Carlo estimation with policy improvement via greedy or $\epsilon$-greedy action selection, subject to the exploration issue that greedy improvement over Monte Carlo estimates can leave some state-action pairs unvisited.
 
@@ -207,7 +207,7 @@ $$\sum_{t=0}^{\infty} \alpha_t = \infty, \quad \sum_{t=0}^{\infty} \alpha_t^2 < 
 
 for step-size sequences $\alpha_t$ that decay appropriately.
 
-TD versus Monte Carlo trades off bias and variance. Monte Carlo estimates are unbiased but high variance; TD estimates are biased by the current $V$ but low variance. In practice TD converges faster on many problems, and the analysis of which regime is preferable for which class of problems is an active research area.
+TD versus Monte Carlo trades off bias and variance. Monte Carlo estimates are unbiased but high variance, TD estimates are biased by the current $V$ but low variance. In practice TD converges faster on many problems, and the analysis of which regime is preferable for which class of problems is an active research area.
 
 The $n$-step TD return
 
@@ -221,7 +221,7 @@ Q-learning is the canonical off-policy TD control algorithm. The one-step Q-lear
 
 $$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
 
-The target uses the maximum $Q$ over next actions rather than the action actually selected, making the update off-policy: it learns about the greedy policy regardless of which policy generated the data. [Watkins and Dayan 1992][research_watkins_dayan_1992] proved that Q-learning converges to $Q^*$ almost surely under standard conditions on the step-size and the visitation of state-action pairs.
+The target uses the maximum $Q$ over next actions rather than the action actually selected, making the update off-policy. Q-learning learns about the greedy policy regardless of which policy generated the data. [Watkins and Dayan 1992][research_watkins_dayan_1992] proved that Q-learning converges to $Q^*$ almost surely under standard conditions on the step-size and the visitation of state-action pairs.
 
 SARSA is the on-policy analogue, using the actually-selected next action in the target,
 
@@ -249,7 +249,7 @@ Q-learning and SARSA both extend to $n$-step and eligibility-trace variants. The
 
 ## Exploration Strategies in Markov Decision Processes
 
-Value-based and policy-gradient methods both require an exploration strategy to ensure that all state-action pairs are visited sufficiently often. Article five treats intrinsic motivation and structured exploration at length; the classical exploration strategies for tabular and linear-function-approximation settings are surveyed here.
+Value-based and policy-gradient methods both require an exploration strategy to ensure that all state-action pairs are visited sufficiently often. Article five treats intrinsic motivation and structured exploration at length, the classical exploration strategies for tabular and linear-function-approximation settings are surveyed here.
 
 The $\epsilon$-greedy strategy selects a uniform random action with probability $\epsilon$ and the greedy action otherwise,
 
@@ -283,7 +283,7 @@ Eligibility traces provide an efficient mechanism for propagating credit backwar
 
 $$G_t^{\lambda} = (1 - \lambda) \sum_{n=1}^{\infty} \lambda^{n-1} G_t^{(n)}$$
 
-which is a geometrically-weighted average of the $n$-step returns for $\lambda \in [0, 1]$. For $\lambda = 0$ this recovers TD(0); for $\lambda = 1$ it recovers Monte Carlo.
+which is a geometrically-weighted average of the $n$-step returns for $\lambda \in [0, 1]$. For $\lambda = 0$ this recovers TD(0), for $\lambda = 1$ it recovers Monte Carlo.
 
 The backward view maintains an eligibility trace $e_t(s)$ for each state,
 
@@ -323,7 +323,7 @@ $$F(\theta) = \mathbb{E}_{s, a}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) 
 
 yielding the update $\theta \leftarrow \theta + \alpha F(\theta)^{-1} \nabla_\theta J(\theta)$. Natural gradient corrects for the parameterization-dependence of the plain gradient and provides invariance to policy reparameterization. [Peters and Schaal 2008][research_peters_schaal_2008] developed the natural-actor-critic algorithm for robotics applications, and [Bhatnagar Sutton Ghavamzadeh and Lee 2009][research_bhatnagar_et_al_2009] provided convergence-guaranteed natural actor-critic algorithms with function approximation. Trust-region and proximal policy optimization treated in article four build on the natural-gradient framework.
 
-Simulation-based optimization of Markov reward processes by [Marbach and Tsitsiklis 2001][research_marbach_tsitsiklis_2001] provided a parallel formulation and convergence analysis for policy-gradient methods in the average-reward setting. [Kakade and Langford 2002][research_kakade_langford_2002] conservative policy iteration established monotone improvement guarantees for approximate policy iteration under specific update schemes, connecting policy-gradient theory to approximate dynamic programming.
+Simulation-based optimization of Markov reward processes by [Marbach and Tsitsiklis 2001][research_marbach_tsitsiklis_2001] provided a parallel formulation and convergence analysis for policy-gradient methods in the average-reward setting. [Kakade and Langford 2002][research_kakade_langford_2002] conservative policy iteration established monotone improvement guarantees for approximate policy iteration under update schemes, connecting policy-gradient theory to approximate dynamic programming.
 
 ## Actor-Critic Architectures
 
@@ -397,7 +397,7 @@ Batch reinforcement learning treats the setting in which all data is collected u
 
 ## The Deadly Triad and Divergence
 
-Off-policy learning, function approximation, and bootstrapping together constitute the deadly triad identified by [Sutton and Barto 2018][book_sutton_barto_2018]. When all three are combined, TD-based value learning can diverge even under linear function approximation. [Baird 1995][research_baird_1995] counterexample provides the canonical demonstration: a small MDP with linear features and off-policy data on which linear TD(0) diverges to infinity.
+Off-policy learning, function approximation, and bootstrapping together constitute the deadly triad identified by [Sutton and Barto 2018][book_sutton_barto_2018]. When all three are combined, TD-based value learning can diverge even under linear function approximation. [Baird 1995][research_baird_1995] counterexample provides the canonical demonstration through a small MDP with linear features and off-policy data on which linear TD(0) diverges to infinity.
 
 The mathematical cause is that the projected Bellman operator $\Pi_\phi T^{\pi}$ is not necessarily a contraction under off-policy sampling, even though $T^{\pi}$ itself is a $\gamma$-contraction. [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997] proved the formal characterization of when off-policy TD converges and when it diverges.
 
@@ -447,7 +447,7 @@ The E3 algorithm of [Kearns and Singh 2002][research_kearns_singh_2002] and the 
 
 $$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-\gamma)^6} \log(1/\delta)\right)$$
 
-for producing an $\epsilon$-optimal policy with probability at least $1 - \delta$. Both algorithms use the principle of optimism in the face of uncertainty: unknown states are treated as maximally rewarding, encouraging exploration to reduce their uncertainty.
+for producing an $\epsilon$-optimal policy with probability at least $1 - \delta$. Both algorithms use the principle of optimism in the face of uncertainty. Unknown states are treated as maximally rewarding, encouraging exploration to reduce their uncertainty.
 
 Regret-based analysis of finite MDPs began with the UCRL2 algorithm of [Jaksch Ortner and Auer 2010][research_jaksch_ortner_auer_2010] and its successors, building on [Auer and Ortner 2007][research_auer_ortner_2007] earlier logarithmic regret bounds. UCRL2 maintains confidence sets over transition and reward parameters and follows optimistic policies with respect to those sets. The regret bound
 
@@ -485,7 +485,7 @@ Off-policy learning is central to sample-efficient reinforcement learning becaus
 
 ## Model-Based Reinforcement Learning Foundations
 
-Model-based methods learn or maintain an internal model of the environment and use it for planning. When the environment model $(P, R)$ is known, dynamic programming solves the MDP exactly. When it is unknown, the natural strategy is to fit a model from samples and plan with the fitted model. Article seven treats model-based reinforcement learning at length; the foundational algorithms are surveyed here.
+Model-based methods learn or maintain an internal model of the environment and use it for planning. When the environment model $(P, R)$ is known, dynamic programming solves the MDP exactly. When it is unknown, the natural strategy is to fit a model from samples and plan with the fitted model. Article seven treats model-based reinforcement learning at length, the foundational algorithms are surveyed here.
 
 The most direct model-based approach is certainty equivalence. Fit the maximum-likelihood transition and reward parameters from data,
 
@@ -541,7 +541,7 @@ with quantitative correspondence between dopamine spike responses and TD error p
 
 The actor-critic architecture aligns with the anatomy of the basal ganglia. Striatal medium spiny neurons participate in circuits that separately implement policy (actor) and value (critic) functions, with dopamine as the training signal that updates both. Article fourteen treats the NeuroAI bridge in detail.
 
-Model-free versus model-based control corresponds to the psychological distinction between habitual and goal-directed behavior [Daw Niv and Dayan 2005][research_daw_niv_dayan_2005]. Habits operate through cached values updated by temporal-difference-like learning; goal-directed behavior operates through a learned model and forward planning. Article fifteen treats the model-free versus model-based distinction and its correspondence to habitual versus goal-directed behavior in humans.
+Model-free versus model-based control corresponds to the psychological distinction between habitual and goal-directed behavior [Daw Niv and Dayan 2005][research_daw_niv_dayan_2005]. Habits operate through cached values updated by temporal-difference-like learning, goal-directed behavior operates through a learned model and forward planning. Article fifteen treats the model-free versus model-based distinction and its correspondence to habitual versus goal-directed behavior in humans.
 
 The Rescorla-Wagner model of classical conditioning corresponds exactly to a single-state TD learning rule, providing a formal bridge between animal learning theory and modern reinforcement learning that has been productive in both directions.
 
@@ -594,7 +594,7 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 - What is the correct theoretical framing of the deep reinforcement learning success? Neural function approximation combined with off-policy learning and bootstrapping should be theoretically fragile, yet the empirical practice of deep RL produces working systems on many benchmarks. The gap between theory and practice remains substantial.
 - How should sample complexity be characterized for continuous-state continuous-action MDPs beyond the linear and low-rank cases? Deep function approximation admits practical algorithms whose sample complexity is not tightly characterized by current theory.
 - What is the correct treatment of long-horizon credit assignment under function approximation? Eligibility traces provide a partial answer, but the interaction between long horizons, function approximation, and bootstrapping remains a source of both theoretical and empirical difficulty.
-- How closely does the actor-critic apparatus correspond to the anatomy and physiology of the mammalian basal ganglia, and what specific algorithmic variants are supported or refuted by the neural evidence? Article fourteen returns to this question.
+- How closely does the actor-critic apparatus correspond to the anatomy and physiology of the mammalian basal ganglia, and what algorithmic variants are supported or refuted by the neural evidence? Article fourteen returns to this question.
 
 ## References
 
