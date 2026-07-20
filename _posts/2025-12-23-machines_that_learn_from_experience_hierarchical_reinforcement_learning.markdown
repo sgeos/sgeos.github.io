@@ -13,7 +13,7 @@ series_index: 6
 <!-- A255 -->
 <script>console.log("A255");</script>
 
-Hierarchical reinforcement learning treats the problem of learning at multiple timescales through structured temporal abstraction. A hierarchical agent decomposes long-horizon control into a policy over subroutines that themselves execute across many primitive time steps, addressing the credit-assignment difficulty and sample-complexity scaling of flat reinforcement learning on problems with long horizons or structured task decompositions. This article surveys the science and theory of hierarchical reinforcement learning as it stands in the mid 2020s, covering the semi-Markov decision process formalism that underlies temporally-extended actions, the options framework of Sutton Precup and Singh that constitutes the canonical modern treatment, the MAXQ hierarchical value function decomposition of Dietterich, the feudal reinforcement learning framework of Dayan and Hinton, the deep-learning extensions including FeUdal Networks and the Option-Critic architecture, goal-conditioned and sub-goal-based hierarchies, algorithmic option discovery, and the neuroscience connections to the prefrontal-striatal circuits implicated in hierarchical control in biological brains. Articles two through five treated the pre-Markov and single-timescale foundations; articles seven treats model-based planning that connects to hierarchical planning; article nine treats meta-learning as an alternative approach to fast adaptation at long horizons.
+Hierarchical reinforcement learning treats the problem of learning at multiple timescales through structured temporal abstraction. A hierarchical agent decomposes long-horizon control into a policy over subroutines that themselves execute across many primitive time steps, addressing the credit-assignment difficulty and sample-complexity scaling of flat reinforcement learning on problems with long horizons or structured task decompositions. This article surveys the science and theory of hierarchical reinforcement learning as it stands in the mid 2020s, covering the semi-Markov decision process formalism that underlies temporally-extended actions, the options framework of Sutton Precup and Singh that constitutes the canonical modern treatment, the MAXQ hierarchical value function decomposition of Dietterich, the feudal reinforcement learning framework of Dayan and Hinton, the deep-learning extensions including FeUdal Networks and the Option-Critic architecture, goal-conditioned and sub-goal-based hierarchies, algorithmic option discovery, and the neuroscience connections to the prefrontal-striatal circuits implicated in hierarchical control in biological brains. Articles two through five treated the pre-Markov and single-timescale foundations, articles seven treats model-based planning that connects to hierarchical planning, article nine treats meta-learning as an alternative approach to fast adaptation at long horizons.
 
 ## Temporal Abstraction and Its Motivations
 
@@ -35,7 +35,7 @@ $$\gamma^{H/k}_{\text{high}} = (\gamma^k)^{H/k} = \gamma^H$$
 
 Although the total discount at task-completion horizon is unchanged, the number of Bellman updates required to propagate value across that horizon reduces by the temporal compression ratio $k$, and each high-level Bellman update carries less variance in the value target because it aggregates reward over $k$ primitive-action steps.
 
-Hierarchical decomposition also supports skill transfer across tasks that share sub-structure. A locomotion sub-policy learned to navigate one maze may transfer to any maze of similar geometry; a manipulation primitive learned for one grasping task may transfer to related manipulation tasks. The transferability of hierarchical components has proved a substantial motivation for the field.
+Hierarchical decomposition also supports skill transfer across tasks that share sub-structure. A locomotion sub-policy learned to navigate one maze may transfer to any maze of similar geometry, a manipulation primitive learned for one grasping task may transfer to related manipulation tasks. The transferability of hierarchical components has proved a substantial motivation for the field.
 
 Finally, hierarchical control aligns with the observed structure of biological motor control and cognitive planning, in which behavioral sequences are organized into nested phrases with clear onsets, terminations, and hierarchical composition. The neuroscience connections treated later in this article provide the empirical grounding for this alignment.
 
@@ -89,7 +89,7 @@ where $I_o \subseteq \mathcal{S}$ is the initiation set specifying states from w
 
 Primitive actions can be modeled as one-step options with $I_o = \mathcal{S}$, $\pi_o$ deterministic, and $\beta_o = 1$ everywhere. This unification allows the options framework to treat primitive and temporally-extended actions uniformly under the same SMDP formalism.
 
-A policy over options $\mu : \mathcal{S} \to \Delta(\mathcal{O})$ selects an option at each option-initiation state. The induced dynamics are semi-Markov: option execution proceeds through primitive-action steps until the termination condition triggers, at which point the high-level policy selects a new option. Formally, upon selecting option $o$ at state $s_t$, primitive actions are drawn according to $a_i \sim \pi_o(\cdot \mid s_{t+i})$ for $i = 0, 1, \ldots$, and termination occurs at step $\tau$ with probability
+A policy over options $\mu : \mathcal{S} \to \Delta(\mathcal{O})$ selects an option at each option-initiation state. The induced dynamics are semi-Markov. Option execution proceeds through primitive-action steps until the termination condition triggers, at which point the high-level policy selects a new option. Formally, upon selecting option $o$ at state $s_t$, primitive actions are drawn according to $a_i \sim \pi_o(\cdot \mid s_{t+i})$ for $i = 0, 1, \ldots$, and termination occurs at step $\tau$ with probability
 
 $$P(\tau_o = k) = \prod_{i=0}^{k-1} (1 - \beta_o(s_{t+i})) \, \beta_o(s_{t+k})$$
 
@@ -145,7 +145,7 @@ quantifies the value of continuing option $o$ over terminating and selecting a f
 
 The MAXQ hierarchical value function decomposition of Dietterich takes a distinctive approach to hierarchical reinforcement learning. Rather than allowing arbitrary temporally-extended actions, MAXQ decomposes the value function itself into contributions from a task hierarchy.
 
-A MAXQ task hierarchy consists of subtasks organized in a directed acyclic graph. Each subtask $M_i$ is defined by three components: the set of primitive or composite actions available within the subtask, a termination predicate specifying when the subtask is complete, and a pseudo-reward function specifying the local reward within the subtask.
+A MAXQ task hierarchy consists of subtasks organized in a directed acyclic graph. Each subtask $M_i$ is defined by three components. These are the set of primitive or composite actions available within the subtask, a termination predicate specifying when the subtask is complete, and a pseudo-reward function specifying the local reward within the subtask.
 
 The MAXQ value function decomposition writes the value of a state under a subtask as
 
@@ -159,7 +159,7 @@ representing the expected discounted reward from completing subtask $i$ after th
 
 $$V^\pi(i, s) = \sum_a \pi_i(a \mid s) \left[V^{\pi_i}(a, s) + C^\pi(i, s, a)\right]$$
 
-The decomposition provides several advantages. Subtask values can be learned locally within each subtask, permitting sample efficiency gains through reuse of subtask policies across contexts. The completion function factors out the parent-task-specific portion of value from the child-task-specific portion.
+The decomposition provides several advantages. Subtask values can be learned locally within each subtask, permitting sample efficiency gains through reuse of subtask policies across contexts. The completion function factors out the parent-task-portion of value from the child-task-portion.
 
 The MAXQ-Q learning algorithm updates each completion function through a TD update
 
@@ -173,7 +173,7 @@ MAXQ-Q of Dietterich provides the sample-based algorithm that learns the complet
 
 ## Feudal Reinforcement Learning and Hierarchical Abstract Machines
 
-Feudal reinforcement learning of [Dayan and Hinton 1993][research_dayan_hinton_1993] structures the hierarchy as a sequence of manager-worker relationships. Each level receives rewards only from its immediate supervisor, and each level sends actions only to its immediate subordinate. Information is hidden across levels: workers do not see the top-level reward and managers do not see primitive actions.
+Feudal reinforcement learning of [Dayan and Hinton 1993][research_dayan_hinton_1993] structures the hierarchy as a sequence of manager-worker relationships. Each level receives rewards only from its immediate supervisor, and each level sends actions only to its immediate subordinate. Information is hidden across levels. Workers do not see the top-level reward and managers do not see primitive actions.
 
 The feudal architecture provides several conceptual advantages. Reward-hiding at intermediate levels avoids reward-signal dilution across long horizons. Action-hiding at intermediate levels supports abstract policy formulation independent of implementation-level details. The manager-worker delegation naturally supports skill transfer and modular composition.
 
@@ -229,7 +229,7 @@ The termination gradient theorem gives the gradient with respect to the terminat
 
 $$\nabla_\vartheta J = -\mathbb{E}\!\left[\nabla_\vartheta \beta_{o, \vartheta}(s') \left(Q^\mu(s', o) - V^\mu(s')\right)\right]$$
 
-which is proportional to the advantage of continuing the option over terminating and switching to the best next option. Options that provide substantial advantage over termination are encouraged to persist; options that provide little advantage over termination are encouraged to end.
+which is proportional to the advantage of continuing the option over terminating and switching to the best next option. Options that provide substantial advantage over termination are encouraged to persist, options that provide little advantage over termination are encouraged to end.
 
 The Option-Critic framework enables option discovery in the sense that options emerge from the joint optimization of the actor-critic objective. However, the emergent options often exhibit trivial behavior in which each option effectively terminates after every primitive step, degenerating to flat policy optimization. Additional regularization terms or termination-cost penalties are required to encourage non-trivial temporal abstraction.
 
@@ -243,7 +243,7 @@ $$r^{\text{low}}_t = -\| s_{t+1} - (s_t + g_t) \|_2$$
 
 for goal-directed displacement $g_t$, encouraging state changes aligned with the specified sub-goal.
 
-The critical technical challenge in off-policy hierarchical learning is that the low-level policy changes during training, invalidating past trajectories collected under earlier low-level policies. HIRO addresses this through goal relabeling: at training time, high-level transitions are relabeled with the sub-goals that would have been optimal under the current low-level policy,
+The critical technical challenge in off-policy hierarchical learning is that the low-level policy changes during training, invalidating past trajectories collected under earlier low-level policies. HIRO addresses this through goal relabeling. At training time, high-level transitions are relabeled with the sub-goals that would have been optimal under the current low-level policy,
 
 $$\tilde{g}_t = \arg\max_g P(a_{t:t+c-1} \mid s_{t:t+c-1}, g, \pi_{\text{low}})$$
 
@@ -327,7 +327,7 @@ Options from Symbols of [Konidaris Kaelbling and Lozano-Perez 2018][research_kon
 
 ## Sample Complexity of Hierarchical Reinforcement Learning
 
-The theoretical sample-complexity advantages of hierarchical decomposition have received substantial attention but remain incompletely characterized. The intuition is clear: if a task decomposes into $K$ subtasks each of horizon $H$, then flat learning must propagate value across the full $KH$-horizon while hierarchical learning could potentially learn subtasks in parallel and compose them into a policy of horizon $K$ at the high level and $H$ at each low level, potentially reducing sample complexity substantially.
+The theoretical sample-complexity advantages of hierarchical decomposition have received substantial attention but remain incompletely characterized. The intuition is clear. If a task decomposes into $K$ subtasks each of horizon $H$, then flat learning must propagate value across the full $KH$-horizon while hierarchical learning could potentially learn subtasks in parallel and compose them into a policy of horizon $K$ at the high level and $H$ at each low level, potentially reducing sample complexity substantially.
 
 Regret analysis for options under UCRL2-style optimism was given by [Fruit and Lazaric 2017][research_fruit_lazaric_2017], proving that options can substantially reduce regret when the option structure aligns with the task structure. The bound has the form
 
@@ -339,7 +339,7 @@ where $D_O$ is the diameter of the option-induced SMDP and $|\mathcal{O}|$ is th
 
 The gap between theoretical sample-complexity advantages of well-designed hierarchies and the practical difficulty of automatically discovering such hierarchies constitutes a substantial current tension in the field. Theoretical results assume that useful options exist and are used, while practical algorithms struggle to discover them without extensive supervision or hand-tuned regularization.
 
-Empirical sample-complexity gains from hierarchical decomposition depend strongly on the alignment between the learned options and the underlying task structure. Well-aligned options can reduce sample complexity by orders of magnitude; misaligned options can produce worse performance than flat baselines. This sensitivity makes empirical evaluation of hierarchical methods particularly challenging.
+Empirical sample-complexity gains from hierarchical decomposition depend strongly on the alignment between the learned options and the underlying task structure. Well-aligned options can reduce sample complexity by orders of magnitude, misaligned options can produce worse performance than flat baselines. This sensitivity makes empirical evaluation of hierarchical methods particularly challenging.
 
 ## Hierarchical Imitation Learning
 
@@ -347,7 +347,7 @@ Hierarchical imitation learning combines the expert-demonstration setting of imi
 
 The [Fox Krishnan Stoica Goldberg 2017][research_fox_krishnan_stoica_goldberg_2017] Directed-Info GAIL framework infers latent option assignments in demonstration trajectories through variational expectation-maximization, identifying which segments of the demonstration correspond to which option. The identified segments provide supervised training data for option policies, converting the difficult online option-discovery problem into a supervised inference problem.
 
-The [Le Yue Wang Kang Yue 2018][research_le_et_al_2018] hierarchical imitation and reinforcement learning framework combines expert-demonstrated high-level policy with learned low-level skills. The framework leverages hierarchical demonstration structure while adapting low-level execution to environment-specific details through reinforcement learning fine-tuning.
+The [Le Yue Wang Kang Yue 2018][research_le_et_al_2018] hierarchical imitation and reinforcement learning framework combines expert-demonstrated high-level policy with learned low-level skills. The framework leverages hierarchical demonstration structure while adapting low-level execution to environment-details through reinforcement learning fine-tuning.
 
 Behavioral cloning at each level of the hierarchy provides the simplest instantiation but requires demonstration data at each level. When high-level demonstrations are unavailable, weakly-supervised or unsupervised approaches attempt to infer high-level structure from primitive-action demonstrations, using change-point detection, mutual-information objectives, or clustering of trajectory segments to identify option boundaries.
 
@@ -377,19 +377,19 @@ Hierarchical decomposition supports multi-task learning through shared low-level
 
 Modular multitask reinforcement learning of [Andreas Klein Levine 2017][research_andreas_klein_levine_2017] uses natural-language descriptions of tasks to select among modular sub-policies, providing an alternative to purely-emergent modularity. Stochastic Neural Networks for Hierarchical RL of [Florensa Duan and Abbeel 2017][research_florensa_duan_abbeel_2017] learns a repertoire of skills via stochastic latent variables, applied to locomotion transfer. Learning modulated locomotor controllers of [Heess Wayne Silver Lillicrap Erez Tassa 2016][research_heess_wayne_silver_2016] demonstrated hierarchical decomposition on complex simulated locomotion tasks. The MCP framework of [Peng Chang Zhang Abbeel Levine 2019][research_peng_chang_zhang_2019] learns composable multiplicative-composition primitives for continuous control transfer.
 
-Multi-agent hierarchical reinforcement learning combines the hierarchical decomposition of within-agent behavior with the multi-agent coordination challenges of article four. Hierarchical policies can decouple agent-level decisions (which agents to coordinate with, what team-level goal to pursue) from primitive-action decisions (specific movements to execute), providing computational and conceptual advantages.
+Multi-agent hierarchical reinforcement learning combines the hierarchical decomposition of within-agent behavior with the multi-agent coordination challenges of article four. Hierarchical policies can decouple agent-level decisions (which agents to coordinate with, what team-level goal to pursue) from primitive-action decisions (movements to execute), providing computational and conceptual advantages.
 
 ## Practical Considerations and Design Choices
 
 The design of hierarchical reinforcement learning systems involves several interacting decisions that shape empirical behavior substantially. Hierarchy depth (typically two levels but sometimes three or more), branching factor at each level (few options per state versus many), state representation at each level (raw observation versus learned abstraction), reward signal at each level (extrinsic only versus intrinsic subgoal-completion rewards), and the temporal grain of high-level decisions (fixed period versus terminate-when-appropriate) each affect learning dynamics substantially.
 
-When hierarchy helps in practice has received systematic empirical analysis. [Nachum Tang Lee Gu Levine 2019][research_nachum_tang_lee_2019] documented specific conditions under which hierarchies provide substantial advantages: tasks with long horizons and clear sub-task structure, tasks where intrinsic reward or subgoal signal aligns with useful behavior, and tasks where the low-level policy can be pretrained on related tasks. Absent these conditions, flat methods often match or exceed hierarchical methods on standard benchmarks.
+When hierarchy helps in practice has received systematic empirical analysis. [Nachum Tang Lee Gu Levine 2019][research_nachum_tang_lee_2019] documented conditions under which hierarchies provide substantial advantages, namely tasks with long horizons and clear sub-task structure, tasks where intrinsic reward or subgoal signal aligns with useful behavior, and tasks where the low-level policy can be pretrained on related tasks. Absent these conditions, flat methods often match or exceed hierarchical methods on standard benchmarks.
 
-The choice between hand-designed and learned hierarchies represents a major design axis. Hand-designed hierarchies encode domain knowledge and often achieve strong initial performance at the cost of manual engineering effort and reduced generality. Learned hierarchies require less domain-specific design but often produce inferior or trivially-degenerate options without careful regularization.
+The choice between hand-designed and learned hierarchies represents a major design axis. Hand-designed hierarchies encode domain knowledge and often achieve strong initial performance at the cost of manual engineering effort and reduced generality. Learned hierarchies require less domain-design but often produce inferior or trivially-degenerate options without careful regularization.
 
 Regularization strategies for learned options include termination-cost penalties, mutual-information objectives, diversity penalties, duration constraints, and information bottlenecks between levels. No single regularization strategy dominates across benchmarks, and empirical practice typically combines several. The [Vezhnevets et al 2020][research_vezhnevets_et_al_2020] Options-as-Responses framework provides one influential systematic proposal that uses response functions to shape option boundaries.
 
-Empirical debugging of hierarchical agents presents distinctive challenges. Standard reinforcement learning diagnostics (value function estimates, TD error magnitudes, policy entropy) apply at each level of the hierarchy, but the interaction between levels can produce non-obvious failure modes. Manifestations include high-level policy oscillation between options (which prevents any option from executing to useful completion), low-level policy specialization to specific high-level commands (which prevents transfer across high-level policies), and complete option degeneracy (which reduces the hierarchy to a flat policy). Diagnostic tools that inspect option usage histograms, option duration distributions, and per-option value estimates support debugging of these failure modes.
+Empirical debugging of hierarchical agents presents distinctive challenges. Standard reinforcement learning diagnostics (value function estimates, TD error magnitudes, policy entropy) apply at each level of the hierarchy, but the interaction between levels can produce non-obvious failure modes. Manifestations include high-level policy oscillation between options (which prevents any option from executing to useful completion), low-level policy specialization to high-level commands (which prevents transfer across high-level policies), and complete option degeneracy (which reduces the hierarchy to a flat policy). Diagnostic tools that inspect option usage histograms, option duration distributions, and per-option value estimates support debugging of these failure modes.
 
 The interaction of hierarchy with modern deep reinforcement learning techniques (PPO, SAC, world models) requires careful consideration. Off-policy hierarchical methods must handle the changing-low-level-policy problem addressed by HIRO's goal relabeling. On-policy hierarchical methods must handle the credit assignment across option boundaries. Actor-critic hierarchical methods must handle the interaction between multiple simultaneous policy gradients.
 
@@ -397,13 +397,13 @@ The interaction of hierarchy with modern deep reinforcement learning techniques 
 
 Hierarchical control in biological brains has been extensively documented across multiple systems. The prefrontal cortex is widely implicated in the maintenance and hierarchical composition of task-level goals, with dorsolateral prefrontal cortex maintaining task-set representations that guide lower-level behavior. The cascade model of [Koechlin Ody Kouneiher 2003][research_koechlin_ody_kouneiher_2003] proposed a hierarchical organization of frontal cortex with progressively-more-abstract representations along a caudal-to-rostral axis.
 
-The basal ganglia have been proposed to implement hierarchical action selection through parallel loops through cortex, striatum, pallidum, and thalamus. Each loop can be interpreted as selecting among actions at a particular level of abstraction, from motor to cognitive planning. The [Botvinick 2008][research_botvinick_2008] proposal for hierarchically-organized frontal-striatal loops provides a framework linking hierarchical reinforcement learning to specific neural circuitry, and [Botvinick Niv and Barto 2009][research_botvinick_niv_barto_2009] extended the treatment to include the developmental and evolutionary considerations of hierarchically organized behavior. [Solway Diuk Cordova Yee Barto Niv Botvinick 2014][research_solway_et_al_2014] proposed a normative account of behavioral hierarchy that predicts optimal decomposition of behavior in specific task settings. [Balaguer Spiers Hassabis and Summerfield 2016][research_balaguer_spiers_hassabis_summerfield_2016] identified neural signatures of hierarchical planning in human functional magnetic resonance imaging.
+The basal ganglia have been proposed to implement hierarchical action selection through parallel loops through cortex, striatum, pallidum, and thalamus. Each loop can be interpreted as selecting among actions at a particular level of abstraction, from motor to cognitive planning. The [Botvinick 2008][research_botvinick_2008] proposal for hierarchically-organized frontal-striatal loops provides a framework linking hierarchical reinforcement learning to neural circuitry, and [Botvinick Niv and Barto 2009][research_botvinick_niv_barto_2009] extended the treatment to include the developmental and evolutionary considerations of hierarchically organized behavior. [Solway Diuk Cordova Yee Barto Niv Botvinick 2014][research_solway_et_al_2014] proposed a normative account of behavioral hierarchy that predicts optimal decomposition of behavior in task settings. [Balaguer Spiers Hassabis and Summerfield 2016][research_balaguer_spiers_hassabis_summerfield_2016] identified neural signatures of hierarchical planning in human functional magnetic resonance imaging.
 
 Dopamine-based reinforcement signals treated in article three extend naturally to the hierarchical setting through pseudo-reward at option termination. The correspondence between temporal-difference errors in dopamine responses and reinforcement signals at option boundaries has been proposed by [Ribas-Fernandes Solway Diuk McGuire Barto Niv Botvinick 2011][research_ribas_fernandes_et_al_2011] and successors, providing empirical evidence for the hierarchical reinforcement learning framework at a neural level.
 
 The habit-versus-goal-directed distinction treated in article fifteen connects to hierarchical control through the mapping of habits to low-level cached options and goal-directed behavior to high-level model-based planning. The hierarchical framework provides a natural bridge between the two systems.
 
-Article fourteen treats NeuroAI more systematically and returns to the specific correspondence between hierarchical reinforcement learning algorithms and neural mechanisms.
+Article fourteen treats NeuroAI more systematically and returns to the correspondence between hierarchical reinforcement learning algorithms and neural mechanisms.
 
 ## Empirical Landscape
 
@@ -413,7 +413,7 @@ Atari hard-exploration games including Montezuma's Revenge remain common benchma
 
 Empirical performance of hierarchical methods has been mixed. On carefully-constructed hierarchical benchmarks, hierarchical methods often outperform flat methods substantially. On less-structured environments, the advantage is smaller or absent, and flat methods with sufficient compute often match hierarchical methods. The frequent observation that emergent options learned by end-to-end methods often collapse to trivial behavior suggests that current methods do not reliably discover useful temporal abstractions without additional inductive biases or supervision.
 
-Reproducibility challenges in hierarchical reinforcement learning are similar to those documented for flat deep RL in article four. Hyperparameter sensitivity is often severe, and reported gains on specific benchmarks sometimes fail to reproduce with careful implementation. The [Wolczyk Zajac Pascanu Kucinski Milos 2021][research_wolczyk_et_al_2021] Continual World benchmark provides a systematic setting for evaluating hierarchical and continual reinforcement learning methods.
+Reproducibility challenges in hierarchical reinforcement learning are similar to those documented for flat deep RL in article four. Hyperparameter sensitivity is often severe, and reported gains on benchmarks sometimes fail to reproduce with careful implementation. The [Wolczyk Zajac Pascanu Kucinski Milos 2021][research_wolczyk_et_al_2021] Continual World benchmark provides a systematic setting for evaluating hierarchical and continual reinforcement learning methods.
 
 ## Load-Bearing Open Questions
 

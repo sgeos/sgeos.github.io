@@ -135,9 +135,9 @@ The choice of objective changes the algorithmic surface substantially.
 
 The third axis is structure. The learner may face a flat Markov decision process, a partially observable Markov decision process, a hierarchical Markov decision process with options or sub-policies, a factored state space, a multi-agent stochastic game, or a partially observable stochastic game. Article six treats hierarchical structure directly, and article twelve treats multi-agent structure.
 
-The fourth axis is model. The learner may be model-free, using only samples from the environment to update a policy or value function; model-based, learning an internal model of the environment to plan with; or model-implicit, using a learned representation that supports planning without an explicit generative model. Article seven treats model-based reinforcement learning and world models in detail.
+The fourth axis is model. The learner may be model-free, using only samples from the environment to update a policy or value function, model-based, learning an internal model of the environment to plan with, or model-implicit, using a learned representation that supports planning without an explicit generative model. Article seven treats model-based reinforcement learning and world models in detail.
 
-The fifth axis is interaction. The learner may be online, collecting data from the environment as it learns; offline, learning from a fixed dataset of prior experience without further interaction; on-policy, using data collected under the current policy; or off-policy, using data collected under other policies. Article eight treats offline reinforcement learning and its distributional shift problem.
+The fifth axis is interaction. The learner may be online, collecting data from the environment as it learns, offline, learning from a fixed dataset of prior experience without further interaction, on-policy, using data collected under the current policy, or off-policy, using data collected under other policies. Article eight treats offline reinforcement learning and its distributional shift problem.
 
 The sixth axis is adaptation. The learner may face a stationary task, a non-stationary task with drifting distribution, a task family with rapid adaptation required for each new task, or an open-ended stream of tasks with no clear end. Articles nine and ten treat meta-learning and continual learning respectively, and article twelve treats open-ended and evolutionary approaches.
 
@@ -145,7 +145,7 @@ Each subsequent article in the series positions its subject along these six axes
 
 ## Foundational Formal Objects
 
-Before proceeding to the specific topics of subsequent articles, the framing article names the formal objects that recur throughout.
+Before proceeding to the topics of subsequent articles, the framing article names the formal objects that recur throughout.
 
 The state value function under a policy $\pi$ is the expected return from state $s$ under $\pi$,
 
@@ -249,7 +249,7 @@ The reciprocal traffic between these fields is neither purely metaphorical nor a
 
 The characteristic difficulty of experiential learning can be located in five recurring problem classes.
 
-Credit assignment. When an agent receives a reward after a temporally extended sequence of actions, the question of which actions were responsible for the reward is the temporal credit assignment problem. Backward-in-time algorithms such as temporal-difference learning and eligibility traces distribute credit through bootstrapping; forward-in-time algorithms such as Monte Carlo methods wait for episode completion. Neither is uniformly better, and the choice interacts with function approximation, discount factor, and reward density.
+Credit assignment. When an agent receives a reward after a temporally extended sequence of actions, the question of which actions were responsible for the reward is the temporal credit assignment problem. Backward-in-time algorithms such as temporal-difference learning and eligibility traces distribute credit through bootstrapping, forward-in-time algorithms such as Monte Carlo methods wait for episode completion. Neither is uniformly better, and the choice interacts with function approximation, discount factor, and reward density.
 
 Exploration. The agent must sometimes take actions whose expected immediate return under the current policy is suboptimal in order to gather information that may reveal a better policy. The multi-armed bandit setting of article two provides the cleanest analysis of the exploration-exploitation trade-off, with regret bounds of the form
 
@@ -271,7 +271,7 @@ where $\hat{f}$ is a learned forward model in a representation $\phi$ and the in
 
 Generalization. Function approximation is necessary in high-dimensional state or action spaces, but it introduces theoretical hazards. Off-policy learning combined with function approximation and bootstrapping produces the deadly triad that can destabilize convergence [Sutton and Barto 2018][book_sutton_barto_2018]. The original divergence-under-linear-function-approximation analysis by [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997] gave the first formal characterization of the failure mode. Deep reinforcement learning has produced practical algorithms that manage but do not fully resolve the triad.
 
-Non-stationarity. Real environments change over time, and the agent's own learning changes the distribution of data it collects. Continual learning aims to accumulate knowledge across tasks without catastrophic forgetting; meta-learning aims to adapt fast to new tasks by exploiting shared structure; open-ended learning aims to keep learning indefinitely as tasks arise. Articles nine, ten, and twelve treat these responses.
+Non-stationarity. Real environments change over time, and the agent's own learning changes the distribution of data it collects. Continual learning aims to accumulate knowledge across tasks without catastrophic forgetting, meta-learning aims to adapt fast to new tasks by exploiting shared structure, open-ended learning aims to keep learning indefinitely as tasks arise. Articles nine, ten, and twelve treat these responses.
 
 Reward specification. The reward function encodes the designer's intent, and the mismatch between specification and intent produces reward hacking, specification gaming, and misalignment. Preference learning, inverse reinforcement learning, and learning from demonstration in article eleven partially address the problem by inferring reward from human data rather than requiring exact specification.
 
@@ -283,7 +283,7 @@ These seven problem classes recur throughout the series. Each article treats one
 
 ## Empirical Landscape and Benchmarks
 
-The theoretical framework acquires its practical character through the benchmarks on which algorithms are developed and compared. Article coverage of specific algorithmic contributions in the series references these benchmarks throughout, and the framing here names the principal environments and the community practice around them.
+The theoretical framework acquires its practical character through the benchmarks on which algorithms are developed and compared. Article coverage of algorithmic contributions in the series references these benchmarks throughout, and the framing here names the principal environments and the community practice around them.
 
 Board games. Chess, Go, shogi, and poker have served as reinforcement learning testbeds since [Samuel 1959][research_samuel_1959] checkers work. [Tesauro 1995][research_tesauro_1995] TD-Gammon demonstrated that self-play temporal-difference learning could reach world-class backgammon play with a neural network policy. AlphaGo, AlphaZero, and MuZero extended the paradigm to Go, chess, shogi, and video games with progressively more general algorithmic apparatus.
 
@@ -342,7 +342,7 @@ Article sixteen synthesizes the series and separates the established public inte
 - What is the correct formal object for experiential learning under partial observability at scales beyond the tractable POMDP? History-conditioned policies, recurrent state representations, and world models each capture aspects of the problem, but no single formalism dominates.
 - Under what conditions does the deadly triad of off-policy learning, function approximation, and bootstrapping fail to destabilize? Empirical practice has assembled workarounds, but the theoretical characterization remains incomplete.
 - What is the right treatment of the exploration-exploitation trade-off in high-dimensional structured environments where bandit regret bounds do not tighten usefully? Intrinsic motivation methods provide practical mechanisms without matching theoretical guarantees.
-- How closely do neural implementations of reinforcement learning in animal brains correspond to specific machine learning algorithms, and where do the correspondences break?
+- How closely do neural implementations of reinforcement learning in animal brains correspond to machine learning algorithms, and where do the correspondences break?
 - What formal apparatus captures open-ended learning in the sense that human cultures and evolutionary systems exhibit? Neither reinforcement learning nor evolutionary algorithms fully model open-endedness.
 - To what extent can reward specification failures be repaired by preference learning and inverse reinforcement learning as opposed to by improving the reward specification directly?
 
