@@ -46,6 +46,7 @@ Current task state and verification log. This file is the shared source of truth
 
 | Date | Change |
 |------|--------|
+| 2026-07-20 | A250-A265: Machines That Learn From Experience sixteen-article series published as batch at editorial dates 2025-12-18 through 2026-01-02. Series covers adaptive, reinforcement, and experiential learning artificial intelligence together with the neuroscience and psychology of learning. Total 12,375 lines, 690 display equations, 1,594 primary research references, 162 book references. Four-pass workflow completed per article (draft, equation density, reference density, publication review). Series-wide cohesiveness pass verified monotonic cross-references, six-axis framework consistency between A250 opener and A265 closer, uniform style discipline and front matter. Two-commit batch publication pattern per Cross-Linked Series doc. Editorial dates fill sixteen-day gap between 2025-12-17 Solana with Rust and Anchor Getting Started and 2026-01-14 Metagaming Framework. Pre-NDA contemporaneous record of state-of-the-art literature review. Next available article number A266. |
 | 2026-02-07 | A0: Knowledge graph, communication protocol, CLAUDE.md, git strategy, article numbering (A1-A74), and asset organization established. |
 | 2026-02-07 | A75: "Bidirectional Agentic Workflow" drafted and published (2026-02-06 date). |
 | 2026-02-07 | A76: "Markdown as a Specification Language for Agentic Workflows" drafted and published (2026-02-08 date). |
