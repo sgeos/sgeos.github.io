@@ -1,0 +1,932 @@
+---
+layout: post
+mathjax: true
+comments: true
+title:  "Machines That Learn From Experience: The Established Public Baseline and the Open Questions"
+date:   2026-01-02 00:00:00 +0000
+categories: artificial-intelligence machine-learning neuroscience
+series: machines_that_learn_from_experience
+series_title: Machines That Learn From Experience
+series_index: 16
+---
+
+<!-- A265 -->
+<script>console.log("A265");</script>
+
+The sixteen-article series has surveyed the science and theory of adaptive, reinforcement, and experiential learning artificial intelligence together with the neuroscience and psychology of learning from which the field has borrowed extensively and to which it contributes reciprocally. This closing article synthesizes the series by separating the established public interdisciplinary knowledge from the genuinely open problems, at the closing of the editorial window in the mid 2020s. The established public baseline names the specific corpus of formal objects, algorithms, empirical findings, and bidirectional correspondences that a competent researcher in the field is expected to command, that appear in the canonical modern reference [Sutton and Barto 2018][book_sutton_barto_2018] and its companion monographs, and that can be reproduced from open publications and freely available code without proprietary datasets or undisclosed engineering. The open problems name the specific residual questions that remain contested at the closing of the editorial window, whose resolution would substantially reorganize the field. Coverage includes the definition of the public-baseline concept, the foundational formal objects now established, the established algorithmic toolkit consolidated by article, the established empirical findings consolidated by article, the six-axis analytical framework of article one applied retrospectively, the specific established neuroscience and psychology correspondences, the specific foundation-model turn and its integration with the classical experiential-learning framework, the specific position papers and canonical debates that organize the field, the specific open problems partitioned into theoretical foundations, algorithmic frontiers, empirical benchmarks, neuroscience correspondence, psychological correspondence, and alignment safety and governance, the empirical landscape at the closing of the editorial window, established and emerging applications, and the series closing. Article one introduced the six-axis framework and the sixteen-article roadmap. The present article closes the roadmap by delineating the settled public domain from the active research frontier.
+
+## The Synthesis Problem
+
+The synthesis problem for a sixteen-article survey of a rapidly-moving interdisciplinary field is not simply summarization. The field of adaptive, reinforcement, and experiential learning has produced across seven decades a substantial corpus of formal objects, algorithms, empirical findings, neuroscience correspondences, and psychological correspondences whose validity varies in the specific ways that this article aims to make explicit. Some findings are settled at the level of textbook consensus, reproducible from open publications and freely available code, and taught to every graduate student in the field. Other findings are contested, replicated only under narrow conditions, or dependent on undisclosed engineering that resists independent verification. The synthesis problem is to draw the line between the two categories as it stood at the closing of the editorial window in the mid 2020s.
+
+The distinction admits several formalizations. Epistemically, the established public baseline names the corpus of claims whose credibility is high, whose provenance is auditable, and whose demonstration is reproducible. The open problems name the corpus of claims whose credibility is contested, whose provenance is uncertain, or whose demonstration is not reproducible under the conditions that permit independent verification. Institutionally, the established public baseline names the corpus of material that appears in canonical textbooks, tutorial reviews, and open-source implementations. The open problems name the material that appears in position papers, workshop discussions, and research announcements without yet meeting the specific reproducibility standards of the textbook literature.
+
+The framework contrasts with several assumptions that organize modern machine learning discourse. The assumption that recent capability advances demonstrate progress on the underlying science is often violated when the specific advances depend on undisclosed engineering that resists independent verification. The assumption that the field's canonical benchmarks characterize the empirical progress is often violated when the specific benchmarks measure surrogate quantities that diverge from the underlying capabilities of interest. The specific correspondence between the field's institutional signals of progress and the actual epistemic progress continues to organize substantial modern research and represents one of the specific residual open problems that this article surveys.
+
+The framework also acknowledges the specific temporal-decay problem that any synthesis of a moving field faces. The specific findings that are settled at the closing of the editorial window may be revised by subsequent research. The specific open problems may be resolved by research that appears shortly after the closing of the editorial window. The synthesis is therefore explicitly a snapshot, and the specific claims it makes are indexed to the specific temporal window of the mid 2020s. Subsequent revisions of the synthesis will need to update the specific settled-versus-open partition to reflect the specific research developments that occur in the intervening period.
+
+The general form of the synthesis-problem update follows the same recursive learning form that has organized the series,
+
+$$B_{t+1} = B_t + \eta \, \Delta(B_t, E_t)$$
+
+with $B_t$ the established public baseline at time $t$, $E_t$ the specific empirical developments in the intervening period, $\Delta$ the update function that admits new findings into the baseline as they meet the specific reproducibility criteria, and $\eta$ the specific rate at which the field's institutional processes update the baseline. The specific dynamics of $B$ across time provide the meta-level object of study for the history and sociology of the field.
+
+## The Established Public Baseline as a Concept
+
+The established public baseline is a specific empirical and institutional object whose properties this article aims to make explicit. The framework rests on the specific distinction between three categories of scientific claim.
+
+Established public claims are those whose formal statement, empirical support, and reproducibility permit independent verification through open publications and freely available code. The claims are indexed to specific citations, appear in canonical textbooks and tutorial reviews, and admit demonstration at the graduate-course level with modest computational resources. Examples include the specific convergence guarantees of Q-learning under tabular conditions, the specific temporal-difference correspondence to Rescorla-Wagner in classical conditioning, and the specific policy-gradient theorem in its modern form.
+
+Established private claims are those whose formal statement is available in the open literature but whose empirical support depends on undisclosed engineering, proprietary datasets, or computational resources that resist independent replication. The claims are documented in published research announcements but the specific pathways from published description to independent reproduction are unavailable. Examples include the specific training procedures of large frontier language models, the specific reinforcement-learning-from-human-feedback pipelines of commercial dialogue systems, and the specific evaluation protocols of proprietary agent benchmarks.
+
+Open claims are those whose formal statement is contested, whose empirical support is preliminary, or whose scope of validity is not yet characterized. The claims appear in position papers, workshop discussions, and research announcements without yet meeting the specific reproducibility standards of the textbook literature. Examples include the specific status of reward-is-enough as a strong versus weak thesis, the specific correspondence between transformer attention and biological attention, and the specific empirical scope of scaling laws under interactive learning.
+
+The distinction has specific consequences for the field's epistemic infrastructure. The established public baseline supports substantial cumulative progress through the specific ability of researchers to build on prior work without re-establishing its foundations. The established private baseline supports substantial capability progress but through pathways that resist the specific cumulative-progress dynamics of open science. The open claims represent the specific frontier at which new science is being made and where the specific settled-versus-open partition will eventually be redrawn.
+
+The specific size of the established public baseline provides a rough measure of the field's cumulative epistemic progress. Article one introduced the specific formal objects that organize the field. The subsequent fourteen articles surveyed the specific algorithms, empirical findings, neuroscience correspondences, and psychological correspondences that constitute the baseline. The present article consolidates the specific corpus, indexes it to the specific citations, and identifies the specific residual open problems at the closing of the editorial window.
+
+## Foundational Formal Objects Now Established
+
+The foundational formal objects of experiential learning have been substantially established across seven decades of research and now organize the specific graduate curriculum in the field. The framework provides the specific formal vocabulary that subsequent algorithmic and empirical developments have consumed and refined.
+
+The Markov decision process of [Bellman 1957][book_bellman_1957] and [Howard 1960][book_howard_1960] provides the specific formal foundation. The tuple
+
+$$\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)$$
+
+specifies the state space, action space, transition kernel, reward function, discount factor, and initial state distribution. The framework organizes the specific mathematical treatment of experiential learning and continues to provide the canonical vocabulary for the field. The specific formal apparatus admits several standard extensions including the partially observable Markov decision process, the semi-Markov decision process, the constrained Markov decision process, and the multi-agent Markov game. Each extension has been substantially formalized and continues to organize modern research.
+
+The agent's objective is formalized through the discounted return
+
+$$G_t = \sum_{k=0}^\infty \gamma^k r_{t+k+1}$$
+
+with $\gamma \in [0, 1)$ trading off immediate against delayed reward. The policy $\pi(a \mid s)$ induces a distribution over trajectories $\tau = (s_0, a_0, r_1, s_1, a_1, \ldots)$ specified by
+
+$$p_\pi(\tau) = \mu_0(s_0) \prod_{t=0}^\infty \pi(a_t \mid s_t) \, P(s_{t+1} \mid s_t, a_t)$$
+
+and the state-occupancy measure
+
+$$d^\pi(s) = (1 - \gamma) \sum_{t=0}^\infty \gamma^t \, \Pr_\pi(s_t = s)$$
+
+which appears in the specific policy-gradient theorem and the specific offline-reinforcement-learning distributional-shift literature.
+
+The value function and Bellman recursion of [Bellman 1957][book_bellman_1957] provide the specific dynamic-programming foundation. The state-value function
+
+$$V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s \right]$$
+
+and its Bellman recursion
+
+$$V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^\pi(s') \right]$$
+
+provide the specific fixed-point characterization that continues to organize the algorithmic treatment. The action-value function
+
+$$Q^\pi(s, a) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s, a_0 = a \right]$$
+
+and the advantage function
+
+$$A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)$$
+
+provide the specific action-conditioned refinements that organize the specific policy-improvement and variance-reduction literatures. The specific optimal Bellman equation
+
+$$V^*(s) = \max_a \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^*(s') \right]$$
+
+specifies the specific fixed-point characterization of the optimal value function. The corresponding optimal action-value function satisfies
+
+$$Q^*(s, a) = \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma \max_{a'} Q^*(s', a') \right]$$
+
+The framework has been substantially extended through subsequent work but continues to provide the specific mathematical foundation for the field.
+
+Under partial observability the belief-state update
+
+$$b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) \, b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) \, b_t(s)}$$
+
+provides the specific sufficient-statistic-of-history that permits the partially-observable Markov decision process to be recast as a fully-observable Markov decision process over belief states. The framework has been substantially characterized and continues to provide the specific formal foundation for the partial-observability literature.
+
+The temporal-difference error of [Sutton 1988][research_sutton_1988] provides the specific model-free foundation. The update
+
+$$\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+
+specifies the specific prediction-error signal that drives the specific temporal-difference learning update
+
+$$V(s_t) \leftarrow V(s_t) + \alpha \delta_t$$
+
+The framework provides the specific model-free alternative to the model-based Bellman-recursion approach and continues to organize substantial modern research.
+
+The Q-learning update of [Watkins 1989][research_watkins_1989] provides the specific control-side alternative. The update
+
+$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_a Q(s_{t+1}, a) - Q(s_t, a_t) \right]$$
+
+specifies the specific off-policy update that provides the specific convergence guarantees under tabular conditions. The framework continues to organize substantial modern research and provides the specific foundation for deep Q-network approaches.
+
+The policy gradient theorem of [Williams 1992][research_williams_1992] and [Sutton McAllester Singh Mansour 2000][research_sutton_et_al_2000] provides the specific direct-policy-optimization foundation. The gradient
+
+$$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]$$
+
+provides the specific unbiased gradient estimator that continues to organize the specific direct-policy-optimization literature. The framework has been substantially refined through variance-reduction techniques including baselines, advantage estimators, and trust-region methods.
+
+The Rescorla-Wagner model of [Rescorla and Wagner 1972][research_rescorla_wagner_1972] provides the specific psychological correspondence. The associative-strength update
+
+$$\Delta V_i = \alpha_i \beta \left( \lambda - \sum_j V_j \right)$$
+
+specifies the specific prediction-error-driven learning rule that continues to organize the associative-learning literature. The formal correspondence to temporal-difference learning provides the specific bridge between psychology and machine learning that continues to organize substantial modern research.
+
+The regret decomposition of [Lai and Robbins 1985][research_lai_robbins_1985] provides the specific bandit-and-online-learning foundation. The regret bound
+
+$$R_T \geq \sum_{a: \Delta_a > 0} \frac{\log T}{D_{KL}(P_a \| P_{a^*})} \, \Delta_a + o(\log T)$$
+
+specifies the specific fundamental lower bound on cumulative regret that continues to organize the specific bandit and online-learning literature. The framework has been substantially extended through subsequent work and continues to provide the specific formal foundation for the field.
+
+These foundational formal objects constitute the specific settled public domain of the field. Any competent researcher is expected to command the specific formalisms, and the specific algorithmic and empirical developments of the subsequent articles rest on these specific foundations.
+
+## The Established Algorithmic Toolkit
+
+The established algorithmic toolkit of experiential learning consolidates the specific corpus of algorithms whose formal statement, empirical support, and reproducibility permit independent verification. The framework provides the specific canonical algorithms that appear in modern textbooks and open-source implementations.
+
+Bandits and online learning of [A251 Bandits and Online Learning][related_post_a251_bandits] contribute the specific upper-confidence-bound algorithm of [Auer Cesa-Bianchi Fischer 2002][research_auer_cesa_bianchi_fischer_2002] with its specific action-selection rule
+
+$$a_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \log t}{N_a(t)}} \right]$$
+
+and its specific regret bound of order $O(\sqrt{T \log T})$, Thompson sampling of [Thompson 1933][research_thompson_1933] with the specific posterior-sampling rule
+
+$$\theta_t \sim p(\theta \mid \mathcal{D}_{t-1}), \quad a_t = \arg\max_a \mathbb{E}[r \mid a, \theta_t]$$
+
+and its Bayesian-optimal regret properties, the specific exponential-weights algorithm for the adversarial setting, and the specific extensions to contextual bandits including LinUCB and neural contextual bandits. The framework provides the specific pre-Markov-decision-process foundation for the field.
+
+Reinforcement learning foundations of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] contribute the specific classical algorithms including value iteration and policy iteration of [Howard 1960][book_howard_1960], Monte Carlo methods, SARSA of [Rummery and Niranjan 1994][research_rummery_niranjan_1994], Q-learning of [Watkins 1989][research_watkins_1989], expected SARSA of [Van Seijen et al 2009][research_van_seijen_et_al_2009], and the specific eligibility-trace variants including TD($\lambda$) of [Sutton 1988][research_sutton_1988] and Watkins's Q($\lambda$) of [Watkins and Dayan 1992][research_watkins_dayan_1992]. The framework provides the specific canonical algorithms whose convergence properties have been substantially characterized under tabular and linear function approximation conditions.
+
+Deep reinforcement learning of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] contributes the specific canonical algorithms including deep Q-networks of [Mnih et al 2015][research_mnih_et_al_2015] with the specific target-network loss
+
+$$\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]$$
+
+the specific double DQN of [Van Hasselt Guez Silver 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the specific policy-gradient methods including asynchronous advantage actor-critic of [Mnih et al 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman et al 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al 2017][research_schulman_et_al_2017] with the specific clipped surrogate objective
+
+$$\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]$$
+
+with $\rho_t(\theta) = \pi_\theta(a_t \mid s_t) / \pi_{\theta_{\text{old}}}(a_t \mid s_t)$, the specific deterministic-policy-gradient family including the [Silver et al 2014][research_silver_et_al_2014] deterministic policy gradient theorem, DDPG of [Lillicrap et al 2015][research_lillicrap_et_al_2015] and TD3 of [Fujimoto Hoof Meger 2018][research_fujimoto_hoof_meger_2018], the specific maximum-entropy family including soft actor-critic of [Haarnoja et al 2018][research_haarnoja_et_al_2018] with the specific entropy-regularized objective
+
+$$J(\pi) = \sum_t \mathbb{E}_{(s_t, a_t) \sim \pi} \left[ r(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot \mid s_t)) \right]$$
+
+the specific distributional reinforcement learning framework of [Bellemare Dabney Munos 2017][research_bellemare_dabney_munos_2017] that learns the specific distribution of the discounted return rather than only its expectation and induces the specific categorical DQN and quantile-regression DQN of [Dabney et al 2018][research_dabney_et_al_2018_qr_dqn] and the specific implicit quantile network of [Dabney et al 2018][research_dabney_et_al_2018_iqn], and the specific self-play framework including AlphaGo of [Silver et al 2016][research_silver_et_al_2016], AlphaZero of [Silver et al 2017][research_silver_et_al_2017] and its journal treatment in [Silver et al 2018][research_silver_et_al_2018], and MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] that extends the framework to unknown dynamics. The framework provides the specific canonical algorithms that continue to organize modern deep reinforcement learning research.
+
+Exploration, intrinsic motivation, and curiosity of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration] contribute the specific count-based and pseudocount exploration frameworks including [Bellemare et al 2016][research_bellemare_et_al_2016] with the specific exploration-bonus reward
+
+$$r^+_t = r_t + \frac{\beta}{\sqrt{\hat{N}(s_t)}}$$
+
+the specific prediction-error curiosity of [Pathak et al 2017][research_pathak_et_al_2017] with the specific intrinsic reward
+
+$$r^i_t = \eta \left\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \right\|_2^2$$
+
+the specific empowerment framework of [Klyubin Polani Nehaniv 2005][research_klyubin_polani_nehaniv_2005] with the specific channel-capacity objective
+
+$$\mathfrak{E}(s) = \max_{\omega} I(A_t^n; S_{t+n} \mid s_t = s)$$
+
+and the specific information-gain frameworks including the [Houthooft et al 2016][research_houthooft_et_al_2016] variational-information-maximizing exploration framework. The framework provides the specific canonical exploration methods that continue to organize modern research on hard-exploration problems.
+
+Hierarchical reinforcement learning of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical] contributes the specific options framework of [Sutton Precup Singh 1999][research_sutton_precup_singh_1999] with the specific option tuple
+
+$$o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle$$
+
+comprising an initiation set, an intra-option policy, and a termination condition, and inducing the specific semi-Markov decision process value function
+
+$$V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]$$
+
+the specific MAXQ decomposition of [Dietterich 2000][research_dietterich_2000], the specific feudal networks framework of [Dayan and Hinton 1993][research_dayan_hinton_1993] and its modern extension in [Vezhnevets et al 2017][research_vezhnevets_et_al_2017], and the specific option-critic hierarchical actor-critic method of [Bacon Harb Precup 2017][research_bacon_harb_precup_2017]. The framework provides the specific canonical hierarchical algorithms that continue to organize modern research on temporally-extended action.
+
+World models and predictive model-based adaptation of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models] contribute the specific model-based reinforcement learning algorithms including Dyna of [Sutton 1991][research_sutton_1991] with the specific interleaved update
+
+$$\hat{P}, \hat{R} \leftarrow \text{Learn}(\mathcal{D}); \quad Q \leftarrow Q + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right] \text{ on both real and simulated experience}$$
+
+the PILCO framework of [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011], the specific world-model architecture of [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] with a specific latent-dynamics model $z_{t+1} \sim p_\psi(z_{t+1} \mid z_t, a_t)$ trained jointly with an observation decoder $p_\phi(o_t \mid z_t)$, and the specific Dreamer family of algorithms of [Hafner et al 2020][research_hafner_et_al_2020] and [Hafner et al 2023][research_hafner_et_al_2023] that optimize policies through the specific differentiable rollout of learned latent dynamics. The framework provides the specific canonical model-based algorithms that continue to organize modern research on sample-efficient learning.
+
+Offline and batch reinforcement learning of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline] contribute the specific canonical offline algorithms including batch-constrained Q-learning of [Fujimoto Meger Precup 2019][research_fujimoto_meger_precup_2019], conservative Q-learning of [Kumar et al 2020][research_kumar_et_al_2020] with the specific pessimistic penalty
+
+$$\mathcal{L}_{\text{CQL}}(\theta) = \alpha \left[ \mathbb{E}_{s \sim \mathcal{D}} \log \sum_a \exp Q_\theta(s, a) - \mathbb{E}_{(s, a) \sim \mathcal{D}} Q_\theta(s, a) \right] + \mathcal{L}_{\text{TD}}(\theta)$$
+
+behavior regularization methods with the specific policy-constraint objective
+
+$$\pi = \arg\max_\pi \mathbb{E}_{s \sim \mathcal{D}, a \sim \pi} [Q(s, a)] - \lambda \, D(\pi \| \pi_\beta)$$
+
+and the specific implicit Q-learning approach of [Kostrikov Nair Levine 2022][research_kostrikov_nair_levine_2022] that avoids querying out-of-distribution actions through expectile regression. The framework provides the specific canonical offline algorithms that continue to organize modern research on learning from fixed datasets, and the [Levine et al 2020][research_levine_et_al_2020] tutorial provides the canonical survey.
+
+Meta-learning and online adaptation of [A258 Meta-Learning and Online Adaptation][related_post_a258_meta_learning] contribute the specific canonical meta-learning algorithms including model-agnostic meta-learning of [Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017] with the specific bi-level objective
+
+$$\theta^* = \arg\min_\theta \sum_{\mathcal{T}_i \sim p(\mathcal{T})} \mathcal{L}_{\mathcal{T}_i} \left( \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}(\theta) \right)$$
+
+the specific recurrent meta-reinforcement-learning approach of [Wang et al 2016][research_wang_et_al_2016] and [Duan et al 2016][research_duan_et_al_2016] in which the specific inner-loop learning dynamics are absorbed into a recurrent network's hidden-state update, and the specific in-context learning frameworks introduced by [Brown et al 2020][research_brown_et_al_2020] in which foundation models perform the specific implicit adaptation through attention over the context window. The framework provides the specific canonical meta-learning algorithms that continue to organize modern research on fast adaptation.
+
+Continual and lifelong learning of [A259 Continual and Lifelong Learning][related_post_a259_continual] contribute the specific canonical continual-learning algorithms including elastic weight consolidation of [Kirkpatrick et al 2017][research_kirkpatrick_et_al_2017] with the specific Fisher-information-weighted quadratic penalty
+
+$$\mathcal{L}(\theta) = \mathcal{L}_B(\theta) + \sum_i \frac{\lambda}{2} F_i (\theta_i - \theta^*_{A, i})^2$$
+
+progressive networks of [Rusu et al 2016][research_rusu_et_al_2016] that freeze prior-task parameters and add lateral adapters, the specific generative-replay framework of [Shin et al 2017][research_shin_et_al_2017] that uses a learned generator $p_\psi(x, y)$ to rehearse prior tasks, the specific gradient episodic memory framework of [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017], and the specific averaged gradient episodic memory extension of [Chaudhry et al 2019][research_chaudhry_et_al_2019]. The framework provides the specific canonical continual-learning algorithms that continue to organize modern research on catastrophic forgetting.
+
+Learning from demonstration, preference, and other agents of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration] contribute the specific canonical algorithms including behavior cloning with the specific maximum-likelihood objective
+
+$$\pi_{\text{BC}} = \arg\max_\pi \mathbb{E}_{(s, a) \sim \mathcal{D}_E} \log \pi(a \mid s)$$
+
+generative adversarial imitation learning of [Ho and Ermon 2016][research_ho_ermon_2016] with the specific minimax objective
+
+$$\min_\pi \max_D \mathbb{E}_{\pi}[\log D(s, a)] + \mathbb{E}_{\pi_E}[\log(1 - D(s, a))] - \lambda \mathcal{H}(\pi)$$
+
+maximum-entropy inverse reinforcement learning of [Ziebart et al 2008][research_ziebart_et_al_2008] with the specific trajectory-distribution model
+
+$$p(\tau) \propto \exp\left( \sum_t r_\phi(s_t, a_t) \right)$$
+
+preference-based reinforcement learning of [Christiano et al 2017][research_christiano_et_al_2017] with the specific Bradley-Terry preference model
+
+$$P(\tau^1 \succ \tau^2) = \frac{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t)}{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t) + \exp \sum_t \hat{r}_\phi(s^2_t, a^2_t)}$$
+
+and the specific reinforcement-learning-from-human-feedback pipelines of [Ouyang et al 2022][research_ouyang_et_al_2022] and [Stiennon et al 2020][research_stiennon_et_al_2020] that operationalize preference-learning at scale for language model alignment. The framework provides the specific canonical algorithms that continue to organize modern research on learning from non-reward signals, and the [Ng and Russell 2000][research_ng_russell_2000] and [Abbeel and Ng 2004][research_abbeel_ng_2004] foundational papers establish the inverse-reinforcement-learning framework.
+
+Evolutionary and open-ended adaptation of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary] contribute the specific canonical algorithms including evolutionary strategies of [Salimans et al 2017][research_salimans_et_al_2017] with the specific natural-evolution-strategies gradient estimator
+
+$$\nabla_\theta \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)} \left[ F(\theta + \sigma \epsilon) \right] = \frac{1}{\sigma} \mathbb{E}_\epsilon \left[ F(\theta + \sigma \epsilon) \, \epsilon \right]$$
+
+neuroevolution of augmenting topologies of [Stanley and Miikkulainen 2002][research_stanley_miikkulainen_2002], the specific quality-diversity frameworks including MAP-Elites of [Mouret and Clune 2015][research_mouret_clune_2015] that maintain an archive $\mathcal{A}$ over a behavior grid so that each cell $c$ retains
+
+$$\mathcal{A}[c] = \arg\max_{x \in \text{Cell}(c)} F(x)$$
+
+the specific novelty-search framework of [Lehman and Stanley 2011][research_lehman_stanley_2011] that abandons the objective in favor of behavioral novelty, and the specific POET open-endedness framework of [Wang Lehman Clune Stanley 2019][research_wang_lehman_clune_stanley_2019] that co-evolves agents and environments. The framework provides the specific canonical evolutionary algorithms that continue to organize modern research on population-based and open-ended learning.
+
+Embodied cognition and developmental learning of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied] contribute the specific canonical frameworks including sensorimotor contingency theory of [O'Regan and Noë 2001][research_oregan_noe_2001], morphological computation of [Pfeifer and Bongard 2007][book_pfeifer_bongard_2007], developmental robotics of [Weng et al 2001][research_weng_et_al_2001], and the specific curriculum-and-scaffolding frameworks of [Bengio et al 2009][research_bengio_et_al_2009]. The framework provides the specific canonical embodied-cognition frameworks that continue to organize modern research on physically-grounded learning.
+
+The consolidated algorithmic toolkit constitutes the specific settled public domain of the field. Any competent researcher is expected to command the specific algorithms, and the specific applications and refinements of subsequent research consume these specific foundations.
+
+## The Established Empirical Findings
+
+The established empirical findings of experiential learning consolidate the specific corpus of empirical results whose replication has been substantially confirmed and whose scope of validity has been substantially characterized. The framework provides the specific canonical empirical benchmarks against which subsequent research is evaluated.
+
+The Atari 2600 benchmarks of [Bellemare et al 2013][research_bellemare_et_al_2013] provide the specific canonical single-agent reinforcement-learning benchmark. The specific findings including the deep Q-network human-level performance on the specific fifty-seven-game suite of [Mnih et al 2015][research_mnih_et_al_2015] have been substantially replicated and continue to organize the specific benchmark evaluation of subsequent algorithms.
+
+The MuJoCo continuous-control benchmarks of [Todorov Erez Tassa 2012][research_todorov_erez_tassa_2012] provide the specific canonical continuous-control benchmark. The specific findings including the proximal-policy-optimization performance and the soft-actor-critic performance have been substantially replicated and continue to organize the specific continuous-control literature.
+
+The board game benchmarks of Go, chess, and shogi provide the specific canonical strategic-planning benchmarks. The specific findings including the AlphaGo and AlphaZero results have been substantially confirmed through subsequent research including the MuZero extension of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] to unknown-dynamics settings, and continue to organize the specific game-playing literature.
+
+The dopamine reward-prediction-error finding of [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] provides the specific canonical neuroscience-machine-learning correspondence. The specific findings have been substantially replicated across species, tasks, and recording modalities, and continue to organize the specific neuroscience-of-reinforcement-learning literature.
+
+The hippocampal replay finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] and its extension in [Foster and Wilson 2006][research_foster_wilson_2006] provides the specific canonical memory-consolidation correspondence to experience replay in machine learning as introduced in [Lin 1992][research_lin_1992] and deployed at scale in [Mnih et al 2015][research_mnih_et_al_2015]. The specific findings have been substantially replicated across species and tasks and continue to organize the specific hippocampal-machine-learning correspondence literature.
+
+The complementary learning systems finding of [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the specific canonical dual-memory-system correspondence. The specific findings have been substantially replicated and provide the specific bridge between the neuroscience of memory and the machine learning of continual learning.
+
+The scaling laws of foundation models of [Kaplan et al 2020][research_kaplan_et_al_2020] and [Hoffmann et al 2022][research_hoffmann_et_al_2022] provide the specific empirical findings on the relationship between model size, compute, and performance. The specific Chinchilla-form parametric law
+
+$$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
+
+specifies the specific relationship between the model parameter count $N$, the training-token count $D$, and the achieved loss $L$, with $E$ the specific irreducible loss and $\alpha, \beta$ the specific exponents fit to the empirical data. The specific compute-optimal frontier
+
+$$N^*(C) \propto C^a, \quad D^*(C) \propto C^b$$
+
+specifies the specific allocation of a fixed compute budget $C$ across model size and data that minimizes the achieved loss. The specific findings have been substantially replicated across model families and continue to organize the specific research on the scaling of foundation models. The specific applicability of scaling laws to interactive experiential learning remains substantially open and constitutes one of the specific open problems that this article surveys.
+
+The specific Brain-Score benchmark of [Schrimpf et al 2020][research_schrimpf_et_al_2020] provides the specific canonical benchmark for comparing artificial neural networks to biological brains. The specific findings including the ranking of candidate models by their brain-score correspondence continue to organize the specific NeuroAI benchmarking literature.
+
+The specific replication crisis findings in psychology of [Open Science Collaboration 2015][research_osc_2015] provide the specific empirical foundation for the modern methodological reforms in psychology. The specific findings including the approximately thirty-six percent replication rate for strict significance criteria continue to organize the specific methodological-reform literature.
+
+The consolidated empirical findings constitute the specific settled public domain of the field. The specific benchmarks organize the specific evaluation of subsequent algorithms, and the specific empirical findings provide the specific constraints against which theoretical claims are evaluated.
+
+## The Six-Axis Framework Revisited
+
+The six-axis analytical framework introduced in [A250 Framing][related_post_a250_framing] provides the specific dimensional structure through which the subsequent articles have been organized. The framework names six specific axes (signal, objective, structure, model, interaction, and adaptation) along which any experiential learning problem admits characterization. The present section recapitulates each axis, records the specific position along the axis at which each article's subject sits, and identifies the specific empirical loci along each axis at which the specific settled-versus-open partition currently rests.
+
+The signal axis characterizes the specific form of the training information the learner receives. The axis positions include dense scalar reward, sparse scalar reward, preference between trajectories, demonstration of desired behavior, and intrinsic motivation computed from the learner's own predictions. The series treats each position through the specific corresponding articles. Dense and sparse reward are the specific default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] and [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Preference is the specific subject of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration] alongside demonstration and inverse reinforcement learning. Intrinsic motivation is the specific subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The specific settled public baseline on this axis identifies the specific canonical algorithms per signal type. The specific residual open problem is the specific characterization of when hybrid signals provide practical benefits over pure single-signal training.
+
+The objective axis characterizes the specific quantity the learner optimizes. The axis positions include expected discounted return, long-run average reward, risk-sensitive objectives including conditional value at risk
+
+$$\text{CVaR}_\alpha[G] = \mathbb{E}[G \mid G \leq q_\alpha(G)]$$
+
+regret against a reference policy, distributional characteristics of return, and information-theoretic objectives including empowerment. The series treats each position through the specific corresponding articles. Discounted return is the specific default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Regret is the specific subject of [A251 Bandits and Online Learning][related_post_a251_bandits]. Distributional characteristics are the specific subject of the distributional-reinforcement-learning framework of [Bellemare Dabney Munos 2017][research_bellemare_dabney_munos_2017] treated in [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Information-theoretic objectives are the specific subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The specific settled public baseline identifies the specific canonical objectives and their specific algorithmic implementations. The specific residual open problem is the specific characterization of the correct objective under specific real-world safety and alignment constraints.
+
+The structure axis characterizes the specific form of the environment the learner faces. The axis positions include the flat Markov decision process, the partially observable Markov decision process, the hierarchical decision process with options or sub-policies, the factored state space, the multi-agent stochastic game, and the partially observable stochastic game. The series treats each position through the specific corresponding articles. The flat Markov decision process is the specific default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Hierarchical structure is the specific subject of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical]. Partial observability recurs throughout the series with specific treatment in the sensorimotor-contingency framework of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied]. Multi-agent structure is the specific subject of the specific multi-agent extensions treated in [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]. The specific settled public baseline identifies the specific canonical formalisms per structure type. The specific residual open problem is the specific unified formal characterization of hierarchical decomposition under bounded computational resources.
+
+The model axis characterizes the specific role of a learned environment model in the learning system. The axis positions include model-free (using only sample updates), model-based (learning an explicit generative model and planning with it), and model-implicit (using a learned representation that supports planning without an explicit generative model). The series treats each position through the specific corresponding articles. Model-free is the specific default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] and [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Model-based and model-implicit are the specific subject of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]. The specific correspondence between habitual model-free and goal-directed model-based behavior in animal learning is the specific subject of [A264 Psychology of Learning][related_post_a264_psychology] through the [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] dual-system framework. The specific settled public baseline identifies the specific canonical algorithms per model type. The specific residual open problem is the specific optimal integration of model-free and model-based components under specific sample-complexity constraints.
+
+The interaction axis characterizes the specific relationship between the learner's data source and the learner's policy. The axis positions include online interaction (collecting data from the environment as learning proceeds), offline learning (learning from a fixed prior dataset without further interaction), on-policy learning (using data collected under the current policy), and off-policy learning (using data collected under other policies). The series treats each position through the specific corresponding articles. Online on-policy is the specific default of many algorithms in [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Off-policy learning is the specific subject of much of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] including the specific deep-Q-network family. Offline learning is the specific subject of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline]. The specific correspondence to human learning-from-demonstration is the specific subject of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]. The specific settled public baseline identifies the specific canonical algorithms per interaction mode. The specific residual open problem is the specific characterization of when offline learning admits strong generalization guarantees beyond the specific coverage of the offline dataset.
+
+The adaptation axis characterizes the specific temporal structure of the tasks the learner faces across its lifetime. The axis positions include stationary (a single fixed task), non-stationary (a task with drifting distribution), a task family requiring rapid adaptation for each new task, and an open-ended stream of tasks with no clear end. The series treats each position through the specific corresponding articles. Meta-learning across a task family is the specific subject of [A258 Meta-Learning and Online Adaptation][related_post_a258_meta_learning]. Continual and lifelong learning across a non-stationary stream is the specific subject of [A259 Continual and Lifelong Learning][related_post_a259_continual]. Open-ended adaptation is the specific subject of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]. Developmental adaptation across the lifespan is the specific subject of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied]. The specific settled public baseline identifies the specific canonical algorithms per adaptation regime. The specific residual open problem is the specific formal characterization of open-endedness in the sense that human cultures and biological evolution exhibit.
+
+The six-axis framework provides the specific analytical vocabulary through which any experiential learning problem admits characterization. The framework's stability across the sixteen articles of the series provides evidence for its specific analytical power, and the specific correspondences between the axes and the specific algorithmic and empirical developments organize the specific research directions that this article surveys. The framework also identifies the specific implicit dimensions along which the field has organized itself, and the specific residual open problems identified per axis constitute the specific research frontier at the closing of the editorial window.
+
+## Established Neuroscience Correspondences
+
+The established neuroscience correspondences consolidate the specific bidirectional exchanges between neuroscience and machine learning that have been substantially validated at the closing of the editorial window. The framework was surveyed in detail in [A263 NeuroAI][related_post_a263_neuroai].
+
+The dopamine reward-prediction-error correspondence of [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] provides the specific paradigmatic correspondence. The specific finding that midbrain dopamine neurons encode a reward prediction error mathematically identical to the temporal-difference error
+
+$$\text{DA firing rate at } t \propto \delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+
+has been substantially replicated across species, tasks, and recording modalities, and continues to organize the specific neuroscience-of-reinforcement-learning literature.
+
+The hippocampal-replay-experience-replay correspondence provides the specific memory-consolidation correspondence. The specific finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] that hippocampal place cells replay recent experience during sharp-wave ripples, together with the specific reverse-replay finding of [Foster and Wilson 2006][research_foster_wilson_2006] and the specific hypothesis of a common mechanism in [Kumaran McClelland Hassabis 2016][research_kumaran_mcclelland_hassabis_2016], has been substantially replicated and provides the specific biological correspondence to the experience-replay mechanism that traces to [Lin 1992][research_lin_1992] and has been substantially deployed in modern deep reinforcement learning.
+
+The complementary-learning-systems correspondence of [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the specific dual-memory-system correspondence. The specific finding that fast hippocampal learning and slow cortical consolidation constitute complementary memory systems has been substantially replicated and provides the specific biological correspondence to the interleaved-training-and-consolidation approaches in machine learning.
+
+The predictive-coding correspondence of [Rao and Ballard 1999][research_rao_ballard_1999] provides the specific perceptual-inference correspondence. The specific finding that cortical hierarchies implement predictive coding through the specific top-down expectation and bottom-up prediction-error signaling admits the specific hierarchical formalization
+
+$$\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \epsilon_l + \frac{\partial g_{l-1}(x_l)}{\partial x_l}^\top \epsilon_{l-1} \right)$$
+
+with $x_l$ the representation at level $l$, $g_l$ the top-down generative model, and $\epsilon_l$ the residual prediction error. The framework has been substantially characterized and provides the specific biological correspondence to the modern generative-model and world-model literature.
+
+The convolutional-network-visual-cortex correspondence provides the specific representational correspondence. The specific finding of [Yamins et al 2014][research_yamins_et_al_2014] that convolutional networks trained on object recognition develop representations that match the specific hierarchical structure of the primate ventral visual stream, together with the specific representational-similarity analysis framework of [Kriegeskorte Mur Bandettini 2008][research_kriegeskorte_mur_bandettini_2008], has been substantially characterized through the specific Brain-Score benchmarks of [Schrimpf et al 2020][research_schrimpf_et_al_2020] and provides the specific representational correspondence between artificial and biological visual processing. The specific extension to the ventral-stream-and-object-recognition literature by [Khaligh-Razavi and Kriegeskorte 2014][research_khaligh_razavi_kriegeskorte_2014] provides the specific complementary characterization.
+
+The grid-cell-successor-representation correspondence provides the specific spatial-and-planning correspondence. The successor representation of [Dayan 1993][research_dayan_1993]
+
+$$M^\pi(s, s') = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t \, \mathbb{1}[s_t = s'] \mid s_0 = s \right]$$
+
+factorizes the specific value function as
+
+$$V^\pi(s) = \sum_{s'} M^\pi(s, s') R(s')$$
+
+and the specific eigenvector decomposition of $M^\pi$ produces spatial basis functions with the specific hexagonal-grid structure observed in entorhinal grid cells. The specific finding of [Stachenfeld Botvinick Gershman 2017][research_stachenfeld_botvinick_gershman_2017] that entorhinal grid cells implement this specific eigenvector decomposition of the successor representation has been substantially characterized and provides the specific bridge between the neuroscience of spatial cognition of [O'Keefe and Dostrovsky 1971][research_okeefe_dostrovsky_1971] and [Hafting et al 2005][research_hafting_et_al_2005] and the specific successor-representation literature in machine learning.
+
+The free-energy correspondence provides the specific unifying-principle correspondence. The variational free energy
+
+$$F(q, o) = \mathbb{E}_{q(s)} \left[ \log q(s) - \log p(o, s) \right] = D_{KL}(q(s) \| p(s \mid o)) - \log p(o)$$
+
+specifies the specific upper bound on surprise that biological agents are proposed to minimize under the [Friston 2010][research_friston_2010] free-energy principle. The framework has been substantially formalized and provides the specific bridge between the neuroscience of perception, action, and learning and the specific variational-inference framework in machine learning.
+
+The consolidated neuroscience correspondences constitute the specific settled public domain of the NeuroAI research program. The specific correspondences provide the specific empirical constraints against which candidate frameworks in machine learning are evaluated, and the specific formal apparatus of machine learning provides the specific computational vocabulary through which neuroscience can articulate and test computational hypotheses.
+
+## Established Psychology Correspondences
+
+The established psychology correspondences consolidate the specific bidirectional exchanges between the psychology of learning and machine learning that have been substantially validated at the closing of the editorial window. The framework was surveyed in detail in [A264 Psychology of Learning][related_post_a264_psychology].
+
+The Rescorla-Wagner-temporal-difference correspondence of [Rescorla and Wagner 1972][research_rescorla_wagner_1972] and [Sutton 1988][research_sutton_1988] provides the specific paradigmatic correspondence. The specific finding that the Rescorla-Wagner update rule corresponds mathematically to the temporal-difference update rule in the limit of a specific limiting case has been substantially characterized and provides the specific bridge between the psychology of classical conditioning and modern machine learning.
+
+The model-free-model-based-dual-system correspondence of [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] provides the specific dual-system correspondence. The specific finding that habitual behavior corresponds to model-free learning and goal-directed behavior corresponds to model-based learning has been substantially characterized in both animal and human experiments and provides the specific bridge between the psychology of instrumental behavior and modern machine learning.
+
+The prospect-theory-loss-aversion correspondence of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] provides the specific decision-making correspondence. The specific finding that human decision-making under uncertainty exhibits specific systematic deviations from expected-utility theory admits the specific formalization through the value function
+
+$$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda (-x)^\beta & x < 0 \end{cases}$$
+
+with $\lambda > 1$ the specific loss-aversion coefficient, and the specific probability-weighting function
+
+$$w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}$$
+
+that captures the specific overweighting of small probabilities and underweighting of moderate-to-large probabilities. The framework has been substantially replicated and provides the specific empirical constraints against which candidate models of human decision-making are evaluated.
+
+The Bayesian-cognition correspondence of [Tenenbaum Kemp Griffiths Goodman 2011][research_tenenbaum_et_al_2011] provides the specific probabilistic-inference correspondence. The specific finding that many cognitive phenomena including concept learning, causal reasoning, and inductive generalization admit characterization as Bayesian inference over structured hypothesis spaces admits the specific formalization
+
+$$p(h \mid d) = \frac{p(d \mid h) \, p(h)}{\sum_{h' \in \mathcal{H}} p(d \mid h') \, p(h')}$$
+
+with $\mathcal{H}$ a structured hypothesis space over concepts, causal graphs, or grammatical rules. The framework has been substantially characterized and provides the specific bridge between the psychology of cognition and probabilistic machine learning.
+
+The categorization-and-similarity correspondence provides the specific representation-learning correspondence. The specific findings including the [Rosch 1975][research_rosch_1975] prototype theory, the [Nosofsky 1986][research_nosofsky_1986] generalized context model, and the modern [Kemp and Tenenbaum 2008][research_kemp_tenenbaum_2008] structure-discovery framework have been substantially replicated and provide the specific bridge between the psychology of categorization and modern representation learning.
+
+The spacing-and-retrieval-practice correspondence provides the specific educational-technology correspondence. The [Ebbinghaus 1885][book_ebbinghaus_1885] forgetting curve
+
+$$R(t) = R_0 \, e^{-t/\tau}$$
+
+with $R(t)$ retention at time $t$ and $\tau$ a memory-specific time constant, and the [Cepeda et al 2008][research_cepeda_et_al_2008] distributed-practice power-law form
+
+$$R(t, s) = R_0 \, (1 + t/s)^{-\beta}$$
+
+with $s$ the spacing between study sessions and $\beta$ a task-specific forgetting parameter, together with the [Roediger and Karpicke 2006][research_roediger_karpicke_2006] test-enhanced-learning framework, have been substantially replicated and provide the specific practical foundation for modern learning technology.
+
+The consolidated psychology correspondences constitute the specific settled public domain of the psychology-machine-learning research program. The specific correspondences provide the specific empirical constraints against which candidate frameworks in machine learning are evaluated, and the specific formal apparatus of machine learning provides the specific computational vocabulary through which psychology can articulate and test its theories.
+
+## The Foundation-Model Turn and Reinforcement Learning
+
+The foundation-model turn constitutes the specific paradigm shift that has substantially reorganized the field at the closing of the editorial window. The framework treats large pre-trained models, trained on broad corpora through self-supervised learning at scale, as the specific substrate for downstream experiential learning through fine-tuning, reinforcement learning from human feedback, and agentic frameworks. The specific integration of foundation models with the specific classical experiential-learning framework has emerged as one of the specific most active research areas of the field.
+
+The [Bommasani et al 2021][research_bommasani_et_al_2021] report On the Opportunities and Risks of Foundation Models provides the specific institutional consolidation of the paradigm. The framework treats foundation models as the specific general-purpose substrate whose downstream deployment through the specific fine-tuning and reinforcement-learning-from-human-feedback pipelines produces the specific application-specific capabilities of the modern deployment landscape.
+
+The specific scaling laws of [Kaplan et al 2020][research_kaplan_et_al_2020] and the specific compute-optimal refinement of [Hoffmann et al 2022][research_hoffmann_et_al_2022] provide the specific empirical foundation for the paradigm. The specific findings that model capability follows the specific parametric relationship
+
+$$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
+
+with model size $N$ and training-token count $D$ have substantially shaped the specific research on the scaling of foundation models and the specific downstream deployment through experiential learning.
+
+The specific emergence phenomena of [Wei et al 2022][research_wei_et_al_2022_emergent] identify the specific capabilities that appear discontinuously with scale, and the specific chain-of-thought prompting framework of [Wei et al 2022][research_wei_et_al_2022_cot] provides the specific reasoning-enhancement technique that continues to organize the specific research on foundation-model reasoning.
+
+The specific reinforcement-learning-from-human-feedback pipeline of [Ouyang et al 2022][research_ouyang_et_al_2022] provides the specific alignment mechanism that has been substantially deployed across the specific modern foundation-model deployment landscape. The pipeline comprises the specific three-stage sequence of supervised fine-tuning on demonstrations, reward-model training on human preferences, and reinforcement-learning optimization of the policy against the specific learned reward model. The specific integration of the specific classical policy-gradient framework with the specific foundation-model substrate has substantially organized the modern alignment literature.
+
+The specific constitutional AI framework of [Bai et al 2022][research_bai_et_al_2022] provides the specific extension in which the specific reward-model training uses model-generated preferences guided by a specific written constitution rather than the specific direct human preferences. The framework has substantially reorganized the specific scalable-oversight literature and continues to organize the specific research on foundation-model alignment.
+
+The specific agentic-frameworks paradigm treats foundation models as the specific policy substrate for the specific sequential decision-making tasks that constitute the classical experiential-learning framework. The specific integration through tool-use, chain-of-thought reasoning, and hierarchical planning provides the specific research frontier at the intersection of foundation models and reinforcement learning. The specific empirical performance of agentic foundation models on the specific benchmarks including SWE-bench, WebArena, and AgentBench remains an active research area whose specific characterization continues to organize the field.
+
+The specific tension between the specific pre-training paradigm and the specific classical experiential-learning framework remains substantially unresolved. The specific claim that pre-training on broad corpora substantially reduces the specific need for downstream experiential learning is substantially supported by the specific empirical findings on in-context learning. The specific counter-claim that experiential learning remains necessary for the specific tasks that require environmental interaction is substantially supported by the specific findings on the specific integration challenges. The specific research on the specific optimal integration of pre-training and reinforcement learning remains an active area at the closing of the editorial window.
+
+## Position Papers and Canonical Debates
+
+The position papers and canonical debates that organize the field at the closing of the editorial window characterize the specific open questions that shape the specific research directions of the coming period. The framework provides the specific field-level context within which the specific technical research proceeds.
+
+The Bitter Lesson of [Sutton 2019][research_sutton_2019_bitter_lesson] provides the specific canonical position statement on the specific relationship between the specific general-purpose scaling of computation and the specific incorporation of human-engineered domain knowledge. The specific claim that the specific general-purpose methods that leverage the specific increases in available computation eventually outperform the specific methods that incorporate domain-specific human knowledge has substantially organized the specific research direction of the field and continues to shape the specific institutional and technical debates.
+
+The Reward is Enough thesis of [Silver Singh Precup Sutton 2021][research_silver_et_al_2021] provides the specific canonical position statement on the specific sufficiency of reward maximization as the framework for artificial intelligence. The specific strong claim
+
+$$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
+
+as the specific general framework for goal-directed behavior remains substantially contested at the closing of the editorial window, with the specific critical responses of [Roy Duckett 2022][research_roy_duckett_2022] and the specific alternative frameworks including preference learning and inverse reinforcement learning providing the specific empirical alternatives.
+
+The Welcome to the Era of Experience position paper of [Silver and Sutton 2024][research_silver_sutton_2024] provides the specific canonical position statement on the specific role of experiential learning at the closing of the era of static-data pre-training. The specific claim that the specific next generation of AI systems will substantially depend on experiential learning from environmental interaction rather than on the specific static-data pre-training paradigm has substantially organized the specific research direction of the field.
+
+The Catalyzing NeuroAI grand challenges of [Zador et al 2023][research_zador_et_al_2023] provide the specific canonical position statement on the specific research directions in NeuroAI at the closing of the editorial window. The specific grand challenges including the specific embodied Turing test, the specific development of the specific animal-like AI capabilities, and the specific bidirectional exchange between neuroscience and machine learning provide the specific research directions that continue to organize the field.
+
+The alignment-problem framing of [Ngo Chan Mindermann 2022][research_ngo_chan_mindermann_2022] The Alignment Problem from a Deep Learning Perspective provides the specific canonical position statement on the specific alignment challenges facing modern deep learning systems. The specific taxonomy of misalignment failure modes and the specific research directions for their resolution have substantially organized the modern alignment-and-safety literature.
+
+The consolidated position papers constitute the specific field-level context within which the specific technical research proceeds at the closing of the editorial window. The specific debates the papers organize continue to shape the specific research directions of the field, and the specific resolution of the debates through the specific empirical developments of subsequent research remains an active research area.
+
+## Open Problems, Theoretical Foundations
+
+The open problems in the theoretical foundations of experiential learning identify the specific residual questions whose resolution would substantially reorganize the field. The framework identifies the specific formal questions that remain contested at the closing of the editorial window.
+
+The deadly-triad problem identifies the specific instability arising from the combination of off-policy learning, function approximation, and bootstrapping. The specific divergence examples of [Baird 1995][research_baird_1995] and the specific systematic characterization of [Van Hasselt et al 2018][research_van_hasselt_et_al_2018] establish the specific empirical scope of the phenomenon. The specific empirical practice has assembled workarounds through the specific target-network stabilization, the specific experience-replay decorrelation, and the specific double Q-learning bias-correction techniques. The theoretical characterization of when the specific triad is safe and when it is unstable remains substantially open and constitutes one of the specific open problems of the field.
+
+The exploration-exploitation-tradeoff problem in high-dimensional structured environments identifies the specific gap between the tight regret bounds available for bandits and low-dimensional Markov decision processes and the specific empirical performance of intrinsic-motivation methods in high-dimensional structured environments. The specific formal characterization of the sample-complexity of exploration in high-dimensional structured environments remains substantially open.
+
+The partial-observability problem identifies the specific gap between the tractable partially-observable Markov decision process framework and the specific empirical reality of partially-observable environments at scale. The specific formal characterization of what representation-learning objectives suffice for near-optimal control under partial observability remains substantially open.
+
+The sample-complexity-versus-computational-complexity problem identifies the specific tradeoff between sample-efficient algorithms (typically expensive computationally) and computationally-efficient algorithms (typically expensive in samples). The specific PAC-MDP sample-complexity bounds of [Kakade 2003][research_kakade_2003] and [Strehl Li Littman 2009][research_strehl_li_littman_2009]
+
+$$\tilde{O}\left( \frac{|\mathcal{S}||\mathcal{A}|}{(1 - \gamma)^3 \epsilon^2} \right)$$
+
+for tabular reinforcement learning provide the specific worst-case characterization of the tabular setting, but the specific corresponding bounds under function approximation, partial observability, and structured environments remain substantially open. The specific optimal tradeoff and the specific conditions under which each family of algorithms is preferred remain substantially open.
+
+The open-endedness problem identifies the specific gap between the frameworks of reinforcement learning and evolutionary computation and the specific open-endedness that human cultures and biological evolution exhibit. The specific formal characterization of open-endedness and the specific mechanisms that produce it remain substantially open and provide the specific research frontier for [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary].
+
+The reward-hypothesis problem identifies the specific status of the [Silver Singh Precup Sutton 2021][research_silver_et_al_2021] Reward is Enough thesis. The specific claim in its strong form is that any goal-directed behavior of interest can be characterized as maximization of a specific expected cumulative reward
+
+$$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
+
+for a specific reward specification $r$. The specific empirical support for the thesis under the specific conditions of practical machine learning is substantially contested, and the specific alternative frameworks including preference learning and inverse reinforcement learning provide the specific empirical alternatives whose relative strengths remain substantially open.
+
+The bounded-agent-and-hierarchical-decomposition problem identifies the specific formal characterization of hierarchical decomposition under bounded computational resources. The specific relationships between the options framework, the specific MAXQ decomposition, the specific feudal networks framework, and the specific temporally-extended action frameworks remain substantially open at the level of a unified formal theory.
+
+The consolidated theoretical open problems constitute the specific research frontier for the theoretical foundations of the field. The specific research directions have been substantially characterized in the survey articles of the series and continue to organize modern research.
+
+## Open Problems, Algorithmic Frontiers
+
+The open problems in the algorithmic frontiers identify the specific residual questions in algorithm design whose resolution would substantially advance the specific practical capabilities of experiential learning systems.
+
+The credit assignment problem at long horizons identifies the specific difficulty of assigning credit for delayed rewards at temporal horizons substantially longer than those addressed by the standard algorithms. The specific eligibility-trace framework and the specific $n$-step-return framework provide partial solutions, but the specific credit-assignment problem at very long horizons remains substantially open.
+
+The reward-model-learning problem in reinforcement learning from human feedback identifies the specific difficulty of learning reward models that generalize to novel behaviors. The specific findings on reward hacking, specification gaming, and reward-model exploitation surveyed in [Amodei et al 2016][research_amodei_et_al_2016] Concrete Problems in AI Safety, in [Krakovna et al 2020][research_krakovna_et_al_2020], and in the specific systematic study of RLHF failure modes in [Casper et al 2023][research_casper_et_al_2023] remain substantially uncharacterized and provide the specific research frontier for [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration].
+
+The catastrophic-forgetting problem at scale identifies the specific difficulty of preventing catastrophic forgetting in modern deep learning systems that must acquire and preserve substantial task suites. The specific empirical findings on the effectiveness of the modern continual-learning algorithms at scale remain substantially uncharacterized and provide the specific research frontier for [A259 Continual and Lifelong Learning][related_post_a259_continual].
+
+The meta-learning-scale problem identifies the specific gap between the specific successes of meta-learning at small scales and the specific empirical performance of meta-learning at the scale of foundation models. The specific correspondence between the specific in-context-learning phenomenon and the specific classical meta-learning framework remains substantially open at the level of formal characterization.
+
+The world-model-scale problem identifies the specific gap between the specific successes of world models at low-dimensional continuous-control problems and the specific empirical performance of world models at the scale of complex environments. The specific representation-learning objectives that suffice for effective world-modeling remain substantially open and provide the specific research frontier for [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models].
+
+The offline-reinforcement-learning-generalization problem identifies the specific difficulty of achieving policies that generalize substantially beyond the coverage of the offline dataset. The specific formal characterization of when offline reinforcement learning admits strong generalization guarantees remains substantially open and provides the specific research frontier for [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline].
+
+The multi-agent-learning-and-coordination problem identifies the specific difficulty of achieving coordinated behavior in multi-agent settings without explicit central coordination. The specific empirical findings on emergent coordination in multi-agent reinforcement learning remain substantially uncharacterized and provide the specific research frontier for the multi-agent extensions of experiential learning.
+
+The consolidated algorithmic open problems constitute the specific research frontier for the algorithmic development of the field. The specific research directions have been substantially characterized in the survey articles of the series and continue to organize modern research.
+
+## Open Problems, Empirical Benchmarks
+
+The open problems in empirical benchmarks identify the specific residual questions in the measurement and evaluation of experiential learning systems.
+
+The benchmark-validity problem identifies the specific gap between the specific empirical performance on standard benchmarks and the specific empirical performance on the underlying capabilities the benchmarks are intended to measure. The specific findings on benchmark saturation, benchmark gaming, and benchmark-versus-transfer divergence remain substantially uncharacterized.
+
+The evaluation-reproducibility problem identifies the specific difficulty of reproducing the specific empirical claims in deep reinforcement learning research. The specific findings including the [Henderson et al 2018][research_henderson_et_al_2018] characterization of the specific variance in deep-reinforcement-learning benchmark results have provided the specific empirical foundation for the modern evaluation-reform movement in the field.
+
+The compute-and-scale-dependence problem identifies the specific difficulty of separating the specific algorithmic contributions from the specific scale-dependent contributions in modern deep reinforcement learning research. The specific empirical findings that many algorithmic improvements are contingent on the specific compute and scale conditions provide the specific empirical foundation for the modern research on scaling laws in reinforcement learning.
+
+The safety-evaluation problem identifies the specific difficulty of evaluating the specific safety properties of modern reinforcement learning systems. The specific empirical findings on reward hacking, specification gaming, and power-seeking behavior remain substantially uncharacterized and provide the specific research frontier for the specific safety-evaluation literature.
+
+The consolidated empirical-benchmark open problems constitute the specific research frontier for the measurement and evaluation infrastructure of the field. The specific research directions continue to organize modern research on the specific methodological standards of the field.
+
+## Open Problems, Neuroscience Correspondence
+
+The open problems in the neuroscience correspondence identify the specific residual questions in the bidirectional exchange between neuroscience and machine learning.
+
+The biological-plausibility-of-backpropagation problem identifies the specific difficulty of reconciling the specific effectiveness of backpropagation in machine learning with the specific implausibility of backpropagation as a biological learning rule surveyed in [Crick 1989][research_crick_1989] and [Lillicrap et al 2020][research_lillicrap_et_al_2020]. The specific candidate biological-learning-rule frameworks including feedback alignment of [Lillicrap et al 2016][research_lillicrap_et_al_2016], predictive coding as a biological learning rule characterized in [Whittington and Bogacz 2017][research_whittington_bogacz_2017], and target propagation of [Lee Zhang Fischer Bengio 2015][research_lee_zhang_fischer_bengio_2015] provide partial solutions, but the specific correspondence between biological and artificial learning rules remains substantially open.
+
+The scale-and-timescale-correspondence problem identifies the specific gap between the specific timescales of biological learning (from milliseconds through decades) and the specific timescales of artificial learning (typically limited to the specific training-episode timescale). The specific correspondence between the specific biological timescales and the specific artificial timescales remains substantially open.
+
+The task-optimized-versus-normative problem identifies the specific tension between the specific task-optimized-network approach to modeling cortical function and the specific normative-computational approach. The specific relationship between the specific task-optimization objective and the specific evolutionary-and-developmental history that produced the specific biological brain remains substantially open.
+
+The consolidated neuroscience-correspondence open problems constitute the specific research frontier for the NeuroAI research program. The specific research directions have been substantially characterized in [A263 NeuroAI][related_post_a263_neuroai] and continue to organize modern research.
+
+## Open Problems, Psychological Correspondence
+
+The open problems in the psychological correspondence identify the specific residual questions in the bidirectional exchange between the psychology of learning and machine learning.
+
+The correspondence-quality problem identifies the specific difficulty of characterizing the specific closeness of the correspondence between human learning and machine learning at the level of algorithmic detail. The specific findings including the systematic divergences between human and machine performance on many tasks provide the specific empirical foundation for the specific research on the specific level at which the correspondence should be evaluated.
+
+The individual-differences problem identifies the specific difficulty of accommodating the specific systematic variation across individuals in learning capacity, style, and outcome. The specific correspondence between the specific machine learning frameworks and the specific human-individual-differences literature remains substantially open and provides the specific research frontier for the personalized-machine-learning literature.
+
+The consciousness-and-awareness problem identifies the specific difficulty of characterizing the specific role of consciousness and awareness in psychological learning phenomena. The specific correspondence between the specific machine learning frameworks and the specific consciousness-and-awareness literature remains substantially open.
+
+The consolidated psychological-correspondence open problems constitute the specific research frontier for the psychology-machine-learning research program. The specific research directions have been substantially characterized in [A264 Psychology of Learning][related_post_a264_psychology] and continue to organize modern research.
+
+## Open Problems, Alignment, Safety, and Governance
+
+The open problems in alignment, safety, and governance identify the specific residual questions in the specific safe deployment of experiential learning systems.
+
+The reward-specification-problem identifies the specific difficulty of specifying reward functions that produce the specific intended behavior across the specific full deployment distribution. The specific findings of [Amodei et al 2016][research_amodei_et_al_2016] on concrete problems in AI safety, the specific taxonomies of [Krakovna et al 2020][research_krakovna_et_al_2020] on specification gaming, the specific characterization of the Goodhart-effect regimes in [Manheim and Garrabrant 2018][research_manheim_garrabrant_2018], and the specific study of reward-model over-optimization in [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] provide the specific empirical foundation for the specific research on reward-specification robustness.
+
+The scalable-oversight-problem identifies the specific difficulty of providing effective human oversight to reinforcement-learning systems at scales where human evaluation cannot cover the specific full deployment distribution. The specific candidate frameworks including debate of [Irving Christiano Amodei 2018][research_irving_christiano_amodei_2018], iterated amplification of [Christiano Shlegeris Amodei 2018][research_christiano_shlegeris_amodei_2018], and constitutional AI of [Bai et al 2022][research_bai_et_al_2022] provide partial solutions, but the specific effectiveness of scalable oversight remains substantially open.
+
+The mesa-optimization-and-inner-alignment problem identifies the specific difficulty of ensuring that the specific learned policies do not implement internal optimization processes with objectives that diverge from the specific outer training objective. The specific taxonomy of [Hubinger et al 2019][research_hubinger_et_al_2019] Risks from Learned Optimization provides the specific formal characterization of the problem. The specific characterization of when mesa-optimization arises and the specific mechanisms that produce it remain substantially open.
+
+The power-seeking-and-instrumental-convergence problem identifies the specific empirical and theoretical questions about the specific conditions under which reinforcement-learning agents develop instrumentally-convergent power-seeking behaviors. The specific formal analysis of [Turner et al 2021][research_turner_et_al_2021] Optimal Policies Tend to Seek Power characterizes the specific class of environments in which instrumental convergence provably arises. The specific formal characterization of when instrumental convergence arises in the specific settings of practical machine learning remains substantially open.
+
+The governance-and-deployment-safety problem identifies the specific institutional questions about the specific safe deployment of reinforcement-learning systems in the specific real-world contexts including healthcare, finance, criminal justice, and autonomous systems. The specific institutional frameworks for the specific governance of these deployments remain substantially open and provide the specific research frontier for the specific technical-governance literature.
+
+The consolidated alignment-safety-and-governance open problems constitute the specific research frontier for the specific safe deployment of the field's technology. The specific research directions continue to organize modern research on the specific safety and governance challenges the field faces.
+
+## Empirical Landscape at the Closing of the Editorial Window
+
+The empirical landscape at the closing of the editorial window in the mid 2020s characterizes the specific state of the field's capabilities, benchmarks, and open questions as of the specific temporal window of this survey.
+
+Deep reinforcement learning systems have achieved substantial performance on the specific canonical benchmarks including Atari, MuJoCo, Go, chess, and shogi. The specific empirical performance has substantially saturated on the specific classical benchmarks, with the specific human-normalized scores on the specific fifty-seven-game Atari suite exceeding one hundred percent on the specific median-game metric for the specific canonical algorithms, and the specific MuJoCo continuous-control benchmarks producing the specific asymptotic performance close to the specific theoretical maxima for the specific canonical tasks. The specific research frontier has substantially shifted to the specific more challenging benchmarks including the specific Procgen generalization benchmarks of [Cobbe et al 2020][research_cobbe_et_al_2020], the specific Meta-World multi-task benchmarks of [Yu et al 2020][research_yu_et_al_2020], the specific bsuite behavior suite of [Osband et al 2020][research_osband_et_al_2020] for characterizing agent behavior along the specific dimensions of memory, generalization, and exploration, the specific complex real-time strategy games as characterized in the OpenAI Five Dota 2 system of [Berner et al 2019][research_berner_et_al_2019] and the AlphaStar StarCraft II system of [Vinyals et al 2019][research_vinyals_et_al_2019], the specific NetHack learning environment of [Küttler et al 2020][research_kuttler_et_al_2020] as a specifically-difficult exploration benchmark, and the specific open-ended learning environments including XLand of [Team et al 2021][research_openended_team_2021].
+
+Foundation models as characterized in [Bommasani et al 2021][research_bommasani_et_al_2021] have emerged as a specific new paradigm that substantially reshapes the specific research landscape. The specific findings including the specific scaling laws of [Kaplan et al 2020][research_kaplan_et_al_2020] and [Hoffmann et al 2022][research_hoffmann_et_al_2022], the specific in-context-learning phenomena of [Brown et al 2020][research_brown_et_al_2020], and the specific reinforcement-learning-from-human-feedback pipelines of [Ouyang et al 2022][research_ouyang_et_al_2022] have substantially reorganized the field's research agenda. The specific integration of foundation models with the specific classical reinforcement-learning framework remains an active and rapidly-moving research area.
+
+Offline reinforcement learning has emerged as a specific practical framework for the specific deployment of reinforcement learning in the specific settings where online interaction is expensive or unsafe. The specific empirical performance of the specific canonical offline algorithms has been substantially characterized on the specific benchmark datasets, and the specific practical applications to healthcare, robotics, and recommendation systems have substantially matured.
+
+Meta-learning and in-context learning have emerged as the specific mechanisms through which foundation models achieve their specific broad task competence. The specific relationship between the specific classical meta-learning framework and the specific in-context-learning phenomena of foundation models continues to organize substantial research.
+
+Alignment and safety research has emerged as a specific institutional research area with substantial funding, staffing, and institutional consolidation. The specific empirical findings on reward hacking, specification gaming, and power-seeking behavior have provided the specific foundation for the specific research on the specific safe deployment of the field's technology.
+
+The specific institutional consolidation of the field has continued with the specific emergence of dedicated conferences, journals, and open-source infrastructure. The specific research communities including the reinforcement learning, safe reinforcement learning, offline reinforcement learning, and NeuroAI communities have substantially matured and provide the specific institutional infrastructure for the specific cumulative-progress dynamics of the field.
+
+The consolidated empirical landscape provides the specific starting point from which the specific research developments of the subsequent years will proceed. The specific settled-versus-open partition that this article surveys will be substantially revised by the specific research developments that occur in the intervening period.
+
+## Applications, Established and Emerging
+
+The applications of experiential learning have substantially expanded across the specific corpus of settled-and-emerging deployment contexts.
+
+Established applications include the specific deployment of reinforcement learning in the specific domains of game playing (including chess, Go, poker as demonstrated in [Brown and Sandholm 2018][research_brown_sandholm_2018] Libratus and [Moravčík et al 2017][research_moravcik_et_al_2017] DeepStack, video games, and real-time strategy), recommendation systems, dialogue systems, robot control (including manipulation, locomotion, and navigation), datacenter cooling of [Lazic et al 2018][research_lazic_et_al_2018], chip design of [Mirhoseini et al 2021][research_mirhoseini_et_al_2021], and drug discovery. The specific empirical findings have substantially matured in these domains and continue to organize the specific practical research on their specific deployment.
+
+Emerging applications include the specific deployment of reinforcement learning in the specific domains of autonomous driving, healthcare (including treatment recommendation, drug dosing, and adaptive clinical trials), education (including personalized instruction and adaptive testing), financial services (including trading, portfolio management, and fraud detection), and scientific discovery (including materials science, protein design as demonstrated in the AlphaFold protein-structure-prediction system of [Jumper et al 2021][research_jumper_et_al_2021], and mathematical proof discovery). The specific empirical findings continue to organize the specific practical research on the specific deployment challenges these domains present.
+
+The specific bidirectional exchange with foundation models has produced a specific new family of applications including reinforcement learning from human feedback for language models, agentic-behavior systems, and multi-modal reasoning systems. The specific integration of the specific classical experiential-learning framework with the specific foundation-model framework continues to organize the specific research on the specific next generation of experiential-learning applications.
+
+The consolidated applications landscape provides the specific practical impact of the field's cumulative research. The specific applications continue to shape the specific research directions of the field, and the specific bidirectional exchange between application-driven research and foundation-oriented research continues to produce the specific research dynamics that this article surveys.
+
+## The Series Closing
+
+The sixteen-article series has surveyed the science and theory of adaptive, reinforcement, and experiential learning artificial intelligence together with the neuroscience and psychology of learning from which the field has borrowed extensively and to which it contributes reciprocally. The framework has been substantial and interdisciplinary, and the specific settled-versus-open partition that this article draws provides the specific starting point from which the specific research developments of the subsequent years will proceed.
+
+The specific decision to survey the field at the specific closing of the mid-2020s editorial window represents a specific choice about the specific temporal indexing of the survey. The specific findings that are settled at this specific window may be revised by subsequent research, and the specific open problems may be resolved by research that appears shortly after this window. The specific choice to index the survey to this window reflects the specific institutional and empirical consolidation that has occurred in the field across the recent decades, and the specific readiness of the field for a specific consolidation-and-frontier survey of the specific present kind.
+
+The specific bidirectional exchange between machine learning, neuroscience, and psychology that this series has surveyed continues to produce the specific research dynamics that will shape the specific field in the subsequent decades. The specific formal apparatus of machine learning provides the specific computational vocabulary through which neuroscience and psychology can articulate and test their theories. The specific empirical findings and existence proofs of neuroscience and psychology provide the specific biological and cognitive constraints against which candidate frameworks in machine learning are evaluated. The specific bidirectional exchange has produced substantial contributions in each direction and provides the specific research infrastructure through which the specific residual open problems of the field will be resolved.
+
+The specific readers of the series are encouraged to consult the specific individual survey articles for the specific detailed treatment of each research area. Article one provides the specific framing and the specific six-axis analytical framework that organizes the series. Articles two through fifteen provide the specific detailed surveys of the specific research areas. The present article provides the specific consolidated synthesis and the specific settled-versus-open partition at the specific closing of the editorial window. The specific corpus continues to organize the specific research directions of the field, and the specific bidirectional exchange between machine learning, neuroscience, and psychology continues to produce the specific research dynamics through which the specific residual open problems will be resolved.
+
+## Load-Bearing Open Questions
+
+- What is the specific correct partition of the field's claims into settled public, established private, and open categories, and how does the specific partition evolve across the specific temporal window of the survey?
+- How should the specific institutional infrastructure of the field be reorganized to close the specific gap between the specific established private claims of frontier research and the specific reproducibility standards of open science?
+- What is the specific correct characterization of the specific residual open problems in the theoretical foundations, algorithmic frontiers, empirical benchmarks, neuroscience correspondence, psychological correspondence, and alignment safety and governance areas surveyed in this article?
+- How should the specific bidirectional exchange between machine learning, neuroscience, and psychology be organized to maximize the specific research dynamics that produce the specific cumulative progress the series has surveyed?
+- What is the specific correct account of the specific temporal-decay problem that any synthesis of a moving field faces, and how should the specific settled-versus-open partition be maintained across the specific temporal window of the survey?
+- How should the specific alignment, safety, and governance research be integrated with the specific technical research on experiential learning to produce the specific safe and beneficial deployment of the field's technology?
+- What is the specific correct account of the specific relationship between the specific classical experiential-learning framework and the specific foundation-model framework that has emerged in recent years?
+- How should the specific practical applications of experiential learning to healthcare, education, autonomous systems, and scientific discovery be organized to maximize the specific beneficial impact while minimizing the specific safety and governance risks?
+- What is the specific correct account of the specific role of the specific psychological and neuroscience-informed constraints on the specific research directions of the field?
+- Can the specific consolidated corpus of the series inform the specific design of the specific next generation of experiential learning systems that address the specific residual open problems the series has surveyed?
+
+## References
+
+### Books
+
+- [Bellman 1957 Dynamic Programming][book_bellman_1957]
+- [Bertsekas and Tsitsiklis 1996 Neuro-Dynamic Programming][book_bertsekas_tsitsiklis_1996]
+- [Ebbinghaus 1885 Memory][book_ebbinghaus_1885]
+- [Howard 1960 Dynamic Programming and Markov Processes][book_howard_1960]
+- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
+- [Pfeifer and Bongard 2007 How the Body Shapes the Way We Think][book_pfeifer_bongard_2007]
+- [Russell and Norvig 2020 Artificial Intelligence][book_russell_norvig_2020]
+- [Sutton and Barto 2018 Reinforcement Learning][book_sutton_barto_2018]
+
+### Reference
+
+- [Berkeley CS285][ref_berkeley_cs285]
+- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
+- [OpenAI Spinning Up][ref_openai_spinning_up]
+- [Silver RL Course UCL][ref_silver_rl_course]
+- [Stanford CS234][ref_stanford_cs234]
+
+### Related Posts
+
+- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
+- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
+- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
+- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
+- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
+- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
+- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
+- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
+- [A258 Machines That Learn From Experience Meta-Learning and Online Adaptation][related_post_a258_meta_learning]
+- [A259 Machines That Learn From Experience Continual and Lifelong Learning][related_post_a259_continual]
+- [A260 Machines That Learn From Experience Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]
+- [A261 Machines That Learn From Experience Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]
+- [A262 Machines That Learn From Experience Embodied Cognition and Developmental Learning][related_post_a262_embodied]
+- [A263 Machines That Learn From Experience NeuroAI][related_post_a263_neuroai]
+- [A264 Machines That Learn From Experience Psychology of Learning][related_post_a264_psychology]
+
+### Research
+
+- [Abbeel and Ng 2004 Apprenticeship Learning][research_abbeel_ng_2004]
+- [Amodei et al 2016 Concrete Problems in AI Safety][research_amodei_et_al_2016]
+- [Auer Cesa-Bianchi Fischer 2002 UCB][research_auer_cesa_bianchi_fischer_2002]
+- [Bacon Harb Precup 2017 Option-Critic][research_bacon_harb_precup_2017]
+- [Bai et al 2022 Constitutional AI][research_bai_et_al_2022]
+- [Baird 1995 Residual Algorithms][research_baird_1995]
+- [Bellemare Dabney Munos 2017 Distributional RL][research_bellemare_dabney_munos_2017]
+- [Bellemare et al 2013 Arcade Learning Environment][research_bellemare_et_al_2013]
+- [Bellemare et al 2016 Pseudocount Exploration][research_bellemare_et_al_2016]
+- [Bengio et al 2009 Curriculum Learning][research_bengio_et_al_2009]
+- [Berner et al 2019 OpenAI Five Dota 2][research_berner_et_al_2019]
+- [Bommasani et al 2021 Foundation Models][research_bommasani_et_al_2021]
+- [Brown et al 2020 GPT-3 In-Context Learning][research_brown_et_al_2020]
+- [Brown and Sandholm 2018 Libratus Poker][research_brown_sandholm_2018]
+- [Casper et al 2023 Open Problems in RLHF][research_casper_et_al_2023]
+- [Cepeda et al 2008 Distributed Practice][research_cepeda_et_al_2008]
+- [Chaudhry et al 2019 Averaged Gradient Episodic Memory][research_chaudhry_et_al_2019]
+- [Christiano et al 2017 Preference Learning][research_christiano_et_al_2017]
+- [Christiano Shlegeris Amodei 2018 Iterated Amplification][research_christiano_shlegeris_amodei_2018]
+- [Cobbe et al 2020 Procgen Benchmark][research_cobbe_et_al_2020]
+- [Crick 1989 Recent Excitement About Neural Networks][research_crick_1989]
+- [Dabney et al 2018 Implicit Quantile Networks][research_dabney_et_al_2018_iqn]
+- [Dabney et al 2018 Quantile Regression DQN][research_dabney_et_al_2018_qr_dqn]
+- [Daw Niv Dayan 2005 Uncertainty Competition][research_daw_niv_dayan_2005]
+- [Dayan 1993 Successor Representation][research_dayan_1993]
+- [Dayan and Hinton 1993 Feudal Reinforcement Learning][research_dayan_hinton_1993]
+- [Deisenroth and Rasmussen 2011 PILCO][research_deisenroth_rasmussen_2011]
+- [Dietterich 2000 MAXQ][research_dietterich_2000]
+- [Duan et al 2016 RL Squared][research_duan_et_al_2016]
+- [Finn Abbeel Levine 2017 MAML][research_finn_abbeel_levine_2017]
+- [Foster and Wilson 2006 Reverse Replay][research_foster_wilson_2006]
+- [Friston 2010 Free Energy Principle][research_friston_2010]
+- [Fujimoto Hoof Meger 2018 TD3][research_fujimoto_hoof_meger_2018]
+- [Fujimoto Meger Precup 2019 Batch-Constrained Q-Learning][research_fujimoto_meger_precup_2019]
+- [Gao Schulman Hilton 2023 Reward Model Over-Optimization][research_gao_schulman_hilton_2023]
+- [Ha and Schmidhuber 2018 World Models][research_ha_schmidhuber_2018]
+- [Haarnoja et al 2018 Soft Actor-Critic][research_haarnoja_et_al_2018]
+- [Hafner et al 2020 Dreamer][research_hafner_et_al_2020]
+- [Hafner et al 2023 DreamerV3][research_hafner_et_al_2023]
+- [Hafting et al 2005 Grid Cells][research_hafting_et_al_2005]
+- [Henderson et al 2018 Deep RL That Matters][research_henderson_et_al_2018]
+- [Ho and Ermon 2016 GAIL][research_ho_ermon_2016]
+- [Hoffmann et al 2022 Chinchilla][research_hoffmann_et_al_2022]
+- [Houthooft et al 2016 VIME][research_houthooft_et_al_2016]
+- [Hubinger et al 2019 Risks From Learned Optimization][research_hubinger_et_al_2019]
+- [Irving Christiano Amodei 2018 AI Safety via Debate][research_irving_christiano_amodei_2018]
+- [Jumper et al 2021 AlphaFold][research_jumper_et_al_2021]
+- [Kahneman and Tversky 1979 Prospect Theory][research_kahneman_tversky_1979]
+- [Kakade 2003 Sample Complexity of RL][research_kakade_2003]
+- [Kaplan et al 2020 Scaling Laws][research_kaplan_et_al_2020]
+- [Kemp and Tenenbaum 2008 Structural Form][research_kemp_tenenbaum_2008]
+- [Khaligh-Razavi and Kriegeskorte 2014 Deep Networks IT Models][research_khaligh_razavi_kriegeskorte_2014]
+- [Kirkpatrick et al 2017 EWC][research_kirkpatrick_et_al_2017]
+- [Klyubin Polani Nehaniv 2005 Empowerment][research_klyubin_polani_nehaniv_2005]
+- [Kostrikov Nair Levine 2022 Implicit Q-Learning][research_kostrikov_nair_levine_2022]
+- [Krakovna et al 2020 Specification Gaming][research_krakovna_et_al_2020]
+- [Kriegeskorte Mur Bandettini 2008 Representational Similarity Analysis][research_kriegeskorte_mur_bandettini_2008]
+- [Kumar et al 2020 Conservative Q-Learning][research_kumar_et_al_2020]
+- [Kumaran McClelland Hassabis 2016 Complementary Learning Systems Update][research_kumaran_mcclelland_hassabis_2016]
+- [Küttler et al 2020 NetHack Learning Environment][research_kuttler_et_al_2020]
+- [Lai and Robbins 1985 Bandit Lower Bound][research_lai_robbins_1985]
+- [Lazic et al 2018 Data Center Cooling][research_lazic_et_al_2018]
+- [Lee Zhang Fischer Bengio 2015 Target Propagation][research_lee_zhang_fischer_bengio_2015]
+- [Lehman and Stanley 2011 Novelty Search][research_lehman_stanley_2011]
+- [Levine et al 2020 Offline RL Tutorial][research_levine_et_al_2020]
+- [Lillicrap et al 2015 DDPG][research_lillicrap_et_al_2015]
+- [Lillicrap et al 2016 Feedback Alignment][research_lillicrap_et_al_2016]
+- [Lillicrap et al 2020 Backpropagation and the Brain][research_lillicrap_et_al_2020]
+- [Lin 1992 Experience Replay][research_lin_1992]
+- [Lopez-Paz and Ranzato 2017 Gradient Episodic Memory][research_lopez_paz_ranzato_2017]
+- [Manheim and Garrabrant 2018 Goodhart's Law][research_manheim_garrabrant_2018]
+- [McClelland McNaughton O'Reilly 1995 Complementary Learning Systems][research_mcclelland_mcnaughton_oreilly_1995]
+- [Mirhoseini et al 2021 Chip Placement][research_mirhoseini_et_al_2021]
+- [Mnih et al 2015 Deep Q-Network][research_mnih_et_al_2015]
+- [Mnih et al 2016 A3C][research_mnih_et_al_2016]
+- [Moravčík et al 2017 DeepStack Poker][research_moravcik_et_al_2017]
+- [Mouret and Clune 2015 MAP-Elites][research_mouret_clune_2015]
+- [Ng and Russell 2000 Inverse Reinforcement Learning][research_ng_russell_2000]
+- [Ngo Chan Mindermann 2022 Alignment Problem][research_ngo_chan_mindermann_2022]
+- [Nosofsky 1986 Generalized Context Model][research_nosofsky_1986]
+- [O'Keefe and Dostrovsky 1971 Place Cells][research_okeefe_dostrovsky_1971]
+- [Open Science Collaboration 2015 Reproducibility Project][research_osc_2015]
+- [Open-Ended Team 2021 XLand][research_openended_team_2021]
+- [Osband et al 2020 Behaviour Suite bsuite][research_osband_et_al_2020]
+- [O'Regan and Noë 2001 Sensorimotor Contingency][research_oregan_noe_2001]
+- [Ouyang et al 2022 InstructGPT][research_ouyang_et_al_2022]
+- [Pathak et al 2017 Curiosity Driven Exploration][research_pathak_et_al_2017]
+- [Rao and Ballard 1999 Predictive Coding][research_rao_ballard_1999]
+- [Rescorla and Wagner 1972 Classical Conditioning][research_rescorla_wagner_1972]
+- [Roediger and Karpicke 2006 Test-Enhanced Learning][research_roediger_karpicke_2006]
+- [Rosch 1975 Prototype Theory][research_rosch_1975]
+- [Roy and Duckett 2022 Reward is Enough Critique][research_roy_duckett_2022]
+- [Rummery and Niranjan 1994 SARSA][research_rummery_niranjan_1994]
+- [Rusu et al 2016 Progressive Networks][research_rusu_et_al_2016]
+- [Salimans et al 2017 Evolutionary Strategies][research_salimans_et_al_2017]
+- [Schrimpf et al 2020 Brain-Score][research_schrimpf_et_al_2020]
+- [Schrittwieser et al 2020 MuZero][research_schrittwieser_et_al_2020]
+- [Schulman et al 2015 TRPO][research_schulman_et_al_2015]
+- [Schulman et al 2017 PPO][research_schulman_et_al_2017]
+- [Schultz Dayan Montague 1997 Reward Prediction Error][research_schultz_dayan_montague_1997]
+- [Shin et al 2017 Generative Replay][research_shin_et_al_2017]
+- [Silver et al 2014 Deterministic Policy Gradient][research_silver_et_al_2014]
+- [Silver et al 2016 AlphaGo][research_silver_et_al_2016]
+- [Silver et al 2017 AlphaZero][research_silver_et_al_2017]
+- [Silver et al 2018 AlphaZero Journal][research_silver_et_al_2018]
+- [Silver Singh Precup Sutton 2021 Reward Is Enough][research_silver_et_al_2021]
+- [Silver and Sutton 2024 Era of Experience][research_silver_sutton_2024]
+- [Stachenfeld Botvinick Gershman 2017 Grid Cells Successor Representation][research_stachenfeld_botvinick_gershman_2017]
+- [Stanley and Miikkulainen 2002 NEAT][research_stanley_miikkulainen_2002]
+- [Stiennon et al 2020 Learning to Summarize with Human Feedback][research_stiennon_et_al_2020]
+- [Strehl Li Littman 2009 PAC-MDP Analysis][research_strehl_li_littman_2009]
+- [Sutton 1988 Temporal-Difference Learning][research_sutton_1988]
+- [Sutton 1991 Dyna][research_sutton_1991]
+- [Sutton 2019 The Bitter Lesson][research_sutton_2019_bitter_lesson]
+- [Sutton McAllester Singh Mansour 2000 Policy Gradient Theorem][research_sutton_et_al_2000]
+- [Sutton Precup Singh 1999 Options][research_sutton_precup_singh_1999]
+- [Tenenbaum Kemp Griffiths Goodman 2011 How to Grow a Mind][research_tenenbaum_et_al_2011]
+- [Thompson 1933 Thompson Sampling][research_thompson_1933]
+- [Todorov Erez Tassa 2012 MuJoCo][research_todorov_erez_tassa_2012]
+- [Turner et al 2021 Optimal Policies Seek Power][research_turner_et_al_2021]
+- [Van Hasselt et al 2018 Deadly Triad Deep RL][research_van_hasselt_et_al_2018]
+- [Van Hasselt Guez Silver 2016 Double DQN][research_van_hasselt_guez_silver_2016]
+- [Van Seijen et al 2009 Expected SARSA][research_van_seijen_et_al_2009]
+- [Vezhnevets et al 2017 FeUdal Networks][research_vezhnevets_et_al_2017]
+- [Vinyals et al 2019 AlphaStar][research_vinyals_et_al_2019]
+- [Wang et al 2016 Meta Reinforcement Learning][research_wang_et_al_2016]
+- [Wang et al 2016 Dueling DQN][research_wang_et_al_2016_dueling]
+- [Wang Lehman Clune Stanley 2019 POET][research_wang_lehman_clune_stanley_2019]
+- [Watkins 1989 Q-Learning][research_watkins_1989]
+- [Watkins and Dayan 1992 Q-Learning Convergence][research_watkins_dayan_1992]
+- [Wei et al 2022 Chain-of-Thought Prompting][research_wei_et_al_2022_cot]
+- [Wei et al 2022 Emergent Abilities][research_wei_et_al_2022_emergent]
+- [Weng et al 2001 Developmental Robotics][research_weng_et_al_2001]
+- [Whittington and Bogacz 2017 Predictive Coding as Biological Learning][research_whittington_bogacz_2017]
+- [Williams 1992 REINFORCE][research_williams_1992]
+- [Wilson and McNaughton 1994 Hippocampal Replay][research_wilson_mcnaughton_1994]
+- [Yamins et al 2014 Ventral Stream Task Optimization][research_yamins_et_al_2014]
+- [Yu et al 2020 Meta-World][research_yu_et_al_2020]
+- [Zador et al 2023 Catalyzing NeuroAI][research_zador_et_al_2023]
+- [Ziebart et al 2008 Maximum Entropy IRL][research_ziebart_et_al_2008]
+
+[book_bellman_1957]: https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming
+[book_bertsekas_tsitsiklis_1996]: http://www.athenasc.com/ndpbook.html
+[book_ebbinghaus_1885]: https://www.taylorfrancis.com/books/mono/10.4324/9781315802749/memory-hermann-ebbinghaus
+[book_howard_1960]: https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/
+[book_kahneman_2011]: https://us.macmillan.com/books/9780374533557/thinkingfastandslow
+[book_pfeifer_bongard_2007]: https://mitpress.mit.edu/9780262162395/how-the-body-shapes-the-way-we-think/
+[book_russell_norvig_2020]: https://aima.cs.berkeley.edu/
+[book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
+[ref_berkeley_cs285]: https://rail.eecs.berkeley.edu/deeprlcourse/
+[ref_deepmind_ucl_rl]: https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021
+[ref_openai_spinning_up]: https://spinningup.openai.com/
+[ref_silver_rl_course]: https://www.davidsilver.uk/teaching/
+[ref_stanford_cs234]: https://web.stanford.edu/class/cs234/
+[related_post_a250_framing]: {% post_url 2025-12-18-machines_that_learn_from_experience_framing %}
+[related_post_a251_bandits]: {% post_url 2025-12-19-machines_that_learn_from_experience_bandits_and_online_learning %}
+[related_post_a252_rl_foundations]: {% post_url 2025-12-20-machines_that_learn_from_experience_reinforcement_learning_foundations %}
+[related_post_a253_deep_rl]: {% post_url 2025-12-21-machines_that_learn_from_experience_deep_reinforcement_learning %}
+[related_post_a254_exploration]: {% post_url 2025-12-22-machines_that_learn_from_experience_exploration_intrinsic_motivation_and_curiosity %}
+[related_post_a255_hierarchical]: {% post_url 2025-12-23-machines_that_learn_from_experience_hierarchical_reinforcement_learning %}
+[related_post_a256_world_models]: {% post_url 2025-12-24-machines_that_learn_from_experience_world_models_and_predictive_model_based_adaptation %}
+[related_post_a257_offline]: {% post_url 2025-12-25-machines_that_learn_from_experience_offline_and_batch_reinforcement_learning %}
+[related_post_a258_meta_learning]: {% post_url 2025-12-26-machines_that_learn_from_experience_meta_learning_and_online_adaptation %}
+[related_post_a259_continual]: {% post_url 2025-12-27-machines_that_learn_from_experience_continual_and_lifelong_learning %}
+[related_post_a260_demonstration]: {% post_url 2025-12-28-machines_that_learn_from_experience_learning_from_demonstration_preference_and_other_agents %}
+[related_post_a261_evolutionary]: {% post_url 2025-12-29-machines_that_learn_from_experience_evolutionary_and_open_ended_adaptation %}
+[related_post_a262_embodied]: {% post_url 2025-12-30-machines_that_learn_from_experience_embodied_cognition_and_developmental_learning %}
+[related_post_a263_neuroai]: {% post_url 2025-12-31-machines_that_learn_from_experience_neuroai %}
+[related_post_a264_psychology]: {% post_url 2026-01-01-machines_that_learn_from_experience_psychology_of_learning %}
+[research_abbeel_ng_2004]: https://dl.acm.org/doi/10.1145/1015330.1015430
+[research_amodei_et_al_2016]: https://arxiv.org/abs/1606.06565
+[research_auer_cesa_bianchi_fischer_2002]: https://link.springer.com/article/10.1023/A:1013689704352
+[research_bacon_harb_precup_2017]: https://ojs.aaai.org/index.php/AAAI/article/view/10916
+[research_bai_et_al_2022]: https://arxiv.org/abs/2212.08073
+[research_baird_1995]: https://www.sciencedirect.com/science/article/pii/B9781558603776500337
+[research_bellemare_dabney_munos_2017]: https://proceedings.mlr.press/v70/bellemare17a.html
+[research_bellemare_et_al_2013]: https://www.jair.org/index.php/jair/article/view/10819
+[research_bellemare_et_al_2016]: https://papers.nips.cc/paper/2016/hash/afda332245e2af431fb7b672a68b659d-Abstract.html
+[research_bengio_et_al_2009]: https://dl.acm.org/doi/10.1145/1553374.1553380
+[research_berner_et_al_2019]: https://arxiv.org/abs/1912.06680
+[research_bommasani_et_al_2021]: https://arxiv.org/abs/2108.07258
+[research_brown_et_al_2020]: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+[research_brown_sandholm_2018]: https://www.science.org/doi/10.1126/science.aao1733
+[research_casper_et_al_2023]: https://arxiv.org/abs/2307.15217
+[research_cepeda_et_al_2008]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02209.x
+[research_chaudhry_et_al_2019]: https://arxiv.org/abs/1812.00420
+[research_christiano_et_al_2017]: https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html
+[research_christiano_shlegeris_amodei_2018]: https://arxiv.org/abs/1810.08575
+[research_cobbe_et_al_2020]: https://proceedings.mlr.press/v119/cobbe20a.html
+[research_crick_1989]: https://www.nature.com/articles/337129a0
+[research_dabney_et_al_2018_iqn]: https://proceedings.mlr.press/v80/dabney18a.html
+[research_dabney_et_al_2018_qr_dqn]: https://ojs.aaai.org/index.php/AAAI/article/view/11791
+[research_daw_niv_dayan_2005]: https://www.nature.com/articles/nn1560
+[research_dayan_1993]: https://direct.mit.edu/neco/article-abstract/5/4/613/5786
+[research_dayan_hinton_1993]: https://papers.nips.cc/paper/1992/hash/d14220ee66aeec73c49038385428ec4c-Abstract.html
+[research_deisenroth_rasmussen_2011]: https://dl.acm.org/doi/10.5555/3104482.3104541
+[research_dietterich_2000]: https://www.jair.org/index.php/jair/article/view/10266
+[research_duan_et_al_2016]: https://arxiv.org/abs/1611.02779
+[research_finn_abbeel_levine_2017]: https://proceedings.mlr.press/v70/finn17a.html
+[research_foster_wilson_2006]: https://www.nature.com/articles/nature04587
+[research_friston_2010]: https://www.nature.com/articles/nrn2787
+[research_fujimoto_hoof_meger_2018]: https://proceedings.mlr.press/v80/fujimoto18a.html
+[research_fujimoto_meger_precup_2019]: https://proceedings.mlr.press/v97/fujimoto19a.html
+[research_gao_schulman_hilton_2023]: https://proceedings.mlr.press/v202/gao23h.html
+[research_ha_schmidhuber_2018]: https://papers.nips.cc/paper/2018/hash/2de5d16682c3c35007e4e92982f1a2ba-Abstract.html
+[research_haarnoja_et_al_2018]: https://proceedings.mlr.press/v80/haarnoja18b.html
+[research_hafner_et_al_2020]: https://arxiv.org/abs/1912.01603
+[research_hafner_et_al_2023]: https://arxiv.org/abs/2301.04104
+[research_hafting_et_al_2005]: https://www.nature.com/articles/nature03721
+[research_henderson_et_al_2018]: https://ojs.aaai.org/index.php/AAAI/article/view/11694
+[research_ho_ermon_2016]: https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html
+[research_hoffmann_et_al_2022]: https://arxiv.org/abs/2203.15556
+[research_houthooft_et_al_2016]: https://papers.nips.cc/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html
+[research_hubinger_et_al_2019]: https://arxiv.org/abs/1906.01820
+[research_irving_christiano_amodei_2018]: https://arxiv.org/abs/1805.00899
+[research_jumper_et_al_2021]: https://www.nature.com/articles/s41586-021-03819-2
+[research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
+[research_kakade_2003]: https://homepages.inf.ed.ac.uk/csutton/publications/kakade-thesis.pdf
+[research_kaplan_et_al_2020]: https://arxiv.org/abs/2001.08361
+[research_kemp_tenenbaum_2008]: https://www.pnas.org/doi/10.1073/pnas.0802631105
+[research_khaligh_razavi_kriegeskorte_2014]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003915
+[research_kirkpatrick_et_al_2017]: https://www.pnas.org/doi/10.1073/pnas.1611835114
+[research_klyubin_polani_nehaniv_2005]: https://ieeexplore.ieee.org/document/1554676
+[research_kostrikov_nair_levine_2022]: https://arxiv.org/abs/2110.06169
+[research_krakovna_et_al_2020]: https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/
+[research_kriegeskorte_mur_bandettini_2008]: https://www.frontiersin.org/articles/10.3389/neuro.06.004.2008/full
+[research_kumar_et_al_2020]: https://papers.nips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html
+[research_kumaran_mcclelland_hassabis_2016]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16)30043-2
+[research_kuttler_et_al_2020]: https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html
+[research_lai_robbins_1985]: https://www.sciencedirect.com/science/article/pii/0196885885900028
+[research_lazic_et_al_2018]: https://papers.nips.cc/paper/2018/hash/059fdcd96baeb75112f09fa1dcc740cc-Abstract.html
+[research_lee_zhang_fischer_bengio_2015]: https://link.springer.com/chapter/10.1007/978-3-319-23528-8_31
+[research_lehman_stanley_2011]: https://direct.mit.edu/evco/article-abstract/19/2/189/1365
+[research_levine_et_al_2020]: https://arxiv.org/abs/2005.01643
+[research_lillicrap_et_al_2015]: https://arxiv.org/abs/1509.02971
+[research_lillicrap_et_al_2016]: https://www.nature.com/articles/ncomms13276
+[research_lillicrap_et_al_2020]: https://www.nature.com/articles/s41583-020-0277-3
+[research_lin_1992]: https://link.springer.com/article/10.1007/BF00992699
+[research_lopez_paz_ranzato_2017]: https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html
+[research_manheim_garrabrant_2018]: https://arxiv.org/abs/1803.04585
+[research_mcclelland_mcnaughton_oreilly_1995]: https://psycnet.apa.org/doi/10.1037/0033-295X.102.3.419
+[research_mirhoseini_et_al_2021]: https://www.nature.com/articles/s41586-021-03544-w
+[research_mnih_et_al_2015]: https://www.nature.com/articles/nature14236
+[research_mnih_et_al_2016]: https://proceedings.mlr.press/v48/mniha16.html
+[research_moravcik_et_al_2017]: https://www.science.org/doi/10.1126/science.aam6960
+[research_mouret_clune_2015]: https://arxiv.org/abs/1504.04909
+[research_ng_russell_2000]: https://ai.stanford.edu/~ang/papers/icml00-irl.pdf
+[research_ngo_chan_mindermann_2022]: https://arxiv.org/abs/2209.00626
+[research_nosofsky_1986]: https://psycnet.apa.org/doi/10.1037/0096-3445.115.1.39
+[research_okeefe_dostrovsky_1971]: https://www.sciencedirect.com/science/article/pii/0006899371903581
+[research_openended_team_2021]: https://arxiv.org/abs/2107.12808
+[research_osband_et_al_2020]: https://openreview.net/forum?id=rygf-kSYwH
+[research_osc_2015]: https://www.science.org/doi/10.1126/science.aac4716
+[research_oregan_noe_2001]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC
+[research_ouyang_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html
+[research_pathak_et_al_2017]: https://proceedings.mlr.press/v70/pathak17a.html
+[research_rao_ballard_1999]: https://www.nature.com/articles/nn0199_79
+[research_rescorla_wagner_1972]: https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning
+[research_roediger_karpicke_2006]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x
+[research_rosch_1975]: https://psycnet.apa.org/doi/10.1037/0096-3445.104.3.192
+[research_roy_duckett_2022]: https://arxiv.org/abs/2103.03356
+[research_rummery_niranjan_1994]: https://www.researchgate.net/publication/2500611_On-Line_Q-Learning_Using_Connectionist_Systems
+[research_rusu_et_al_2016]: https://arxiv.org/abs/1606.04671
+[research_salimans_et_al_2017]: https://arxiv.org/abs/1703.03864
+[research_schrimpf_et_al_2020]: https://www.cell.com/neuron/fulltext/S0896-6273(20)30605-X
+[research_schrittwieser_et_al_2020]: https://www.nature.com/articles/s41586-020-03051-4
+[research_schulman_et_al_2015]: https://proceedings.mlr.press/v37/schulman15.html
+[research_schulman_et_al_2017]: https://arxiv.org/abs/1707.06347
+[research_schultz_dayan_montague_1997]: https://www.science.org/doi/10.1126/science.275.5306.1593
+[research_shin_et_al_2017]: https://papers.nips.cc/paper/2017/hash/0efbe98067c6c73dba1250d2beaa81f9-Abstract.html
+[research_silver_et_al_2014]: https://proceedings.mlr.press/v32/silver14.html
+[research_silver_et_al_2016]: https://www.nature.com/articles/nature16961
+[research_silver_et_al_2017]: https://www.nature.com/articles/nature24270
+[research_silver_et_al_2018]: https://www.science.org/doi/10.1126/science.aar6404
+[research_silver_et_al_2021]: https://www.sciencedirect.com/science/article/pii/S0004370221000862
+[research_silver_sutton_2024]: https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf
+[research_stachenfeld_botvinick_gershman_2017]: https://www.nature.com/articles/nn.4650
+[research_stanley_miikkulainen_2002]: https://direct.mit.edu/evco/article/10/2/99/1123
+[research_stiennon_et_al_2020]: https://papers.nips.cc/paper/2020/hash/1f89885d556929e98d3ef9b86448f951-Abstract.html
+[research_strehl_li_littman_2009]: https://jmlr.org/papers/v10/strehl09a.html
+[research_sutton_1988]: https://link.springer.com/article/10.1007/BF00115009
+[research_sutton_1991]: https://dl.acm.org/doi/10.1145/122344.122377
+[research_sutton_2019_bitter_lesson]: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+[research_sutton_et_al_2000]: https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html
+[research_sutton_precup_singh_1999]: https://www.sciencedirect.com/science/article/pii/S0004370299000521
+[research_tenenbaum_et_al_2011]: https://www.science.org/doi/10.1126/science.1192788
+[research_thompson_1933]: https://www.jstor.org/stable/2332286
+[research_todorov_erez_tassa_2012]: https://ieeexplore.ieee.org/document/6386109
+[research_turner_et_al_2021]: https://papers.nips.cc/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html
+[research_van_hasselt_et_al_2018]: https://arxiv.org/abs/1812.02648
+[research_van_hasselt_guez_silver_2016]: https://ojs.aaai.org/index.php/AAAI/article/view/10295
+[research_van_seijen_et_al_2009]: https://ieeexplore.ieee.org/document/4927542
+[research_vezhnevets_et_al_2017]: https://proceedings.mlr.press/v70/vezhnevets17a.html
+[research_vinyals_et_al_2019]: https://www.nature.com/articles/s41586-019-1724-z
+[research_wang_et_al_2016]: https://arxiv.org/abs/1611.05763
+[research_wang_et_al_2016_dueling]: https://proceedings.mlr.press/v48/wangf16.html
+[research_wang_lehman_clune_stanley_2019]: https://arxiv.org/abs/1901.01753
+[research_watkins_1989]: https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf
+[research_watkins_dayan_1992]: https://link.springer.com/article/10.1007/BF00992698
+[research_wei_et_al_2022_cot]: https://papers.nips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+[research_wei_et_al_2022_emergent]: https://openreview.net/forum?id=yzkSU5zdwD
+[research_weng_et_al_2001]: https://www.science.org/doi/10.1126/science.291.5504.599
+[research_whittington_bogacz_2017]: https://direct.mit.edu/neco/article-abstract/29/5/1229/8261
+[research_williams_1992]: https://link.springer.com/article/10.1007/BF00992696
+[research_wilson_mcnaughton_1994]: https://www.science.org/doi/10.1126/science.8036517
+[research_yamins_et_al_2014]: https://www.pnas.org/doi/10.1073/pnas.1403112111
+[research_yu_et_al_2020]: https://proceedings.mlr.press/v100/yu20a.html
+[research_zador_et_al_2023]: https://www.nature.com/articles/s41467-023-37180-x
+[research_ziebart_et_al_2008]: https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf
