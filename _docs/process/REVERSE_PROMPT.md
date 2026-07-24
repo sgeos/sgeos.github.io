@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-24
-**Task**: Ethnoreligion and American Political Economy eleven-article series (A266-A276) published as batch at editorial dates 2026-01-03 through 2026-01-13. Two-commit sequence: staging commit added the eleven drafts to git history, publication commit performed git mv from _drafts/ to _posts/ with date prefixes and synced process files. All within-series post_url cross-references resolve to the date-prefixed filenames created in the publication commit. Cross-reference structure is back-reference-only. Pre-NDA contemporaneous record of the state-of-the-art literature review closed with the publication commit.
+**Task**: Ethnoreligion and American Political Economy eleven-article series (A266-A276) published as batch at editorial dates 2026-01-03 through 2026-01-13, followed by an editorial de-bloat pass. Three-commit sequence pushed to origin/master: `32a0a9a` staged the eleven drafts to git history, `cb1ce56` performed git mv from _drafts/ to _posts/ with date prefixes and synced process files, `51c84e6` de-bloated compulsive repetition of "substantially" (914 uses to 20 residuals inside protected regions) and "successive" (235 uses to 6 residuals) across the eleven published articles via `tmp/deblat_ethnoreligion.py`. All within-series post_url cross-references resolve to the date-prefixed filenames created in the publication commit. Cross-reference structure is back-reference-only. Pre-NDA contemporaneous record of the state-of-the-art literature review closed with the publication commit; editorial cleanup preserved all scientific claims and reference targets.
 
 ---
 
