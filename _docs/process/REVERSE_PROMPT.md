@@ -8,23 +8,27 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-07-24
-**Task**: A281 History of SpaceX series opener published as standalone at editorial date 2026-07-24 via two-commit sequence pushed to origin/master. Article opens a planned twelve-article series (A281-A292); A282-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
+**Date**: 2026-07-25
+**Task**: A282 History of SpaceX Value Gradient article drafted and staged for standalone publication at editorial date 2026-07-25. Article is the second of the twelve-article History of SpaceX series (A281-A292) and treats the value-gradient forcing-function condition through the Falcon 1, Falcon 9, and reusability progression against the Iridium single-bet contrast. A283-A292 to be drafted and published in subsequent sessions.
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit standalone publication sequence pushed to origin/master 2026-07-24:
+Two-commit standalone publication sequence:
 
-1. **Staging commit** `9f43278` — added `_drafts/spacex_history_framing.markdown` and synced process files describing the drafting-complete state
-2. **Publication commit** — performed `git mv` from `_drafts/spacex_history_framing.markdown` to `_posts/2026-07-24-spacex_history_framing.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state
+1. **Staging commit** — adds `_drafts/spacex_history_value_gradient.markdown` and syncs process files describing the drafting-complete state
+2. **Publication commit** — performs `git mv` from `_drafts/spacex_history_value_gradient.markdown` to `_posts/2026-07-25-spacex_history_value_gradient.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then push to origin/master
 
 ---
 
-## Published File
+## Drafted File
 
-- `_posts/2026-07-24-spacex_history_framing.markdown` (A281, series opener, series `spacex_history`, index 1 of 12, editorial date 2026-07-24, categories `history business aerospace`)
+- `_drafts/spacex_history_value_gradient.markdown` (A282, series `spacex_history`, index 2 of 12)
+
+## Planned File Path After Publication
+
+- `_posts/2026-07-25-spacex_history_value_gradient.markdown` (editorial date 2026-07-25, categories `history business aerospace`)
 
 ---
 
@@ -32,66 +36,54 @@ Two-commit standalone publication sequence pushed to origin/master 2026-07-24:
 
 | Metric | Value |
 |---|---|
-| Lines | 1,301 |
-| Words | ~24,500 |
-| Display equations | 65 |
+| Lines | 1,235 |
+| Words | ~24,367 |
+| Display equations | 64 |
 | H2 sections | 20 |
-| Total reference anchors | 292 |
-| Books | 130 |
-| Reference | 86 |
-| Research | 62 |
-| Related Post | 14 |
+| Total reference anchors | 236 |
+| Books | 85 |
+| Reference | 79 |
+| Research | 60 |
+| Related Post | 12 |
 | Em-dashes / en-dashes / prose parens / prose contractions | 0 / 0 / 0 / 0 |
 | Missing / unused / duplicate anchors | 0 / 0 / 0 |
 
-Twenty H2 sections: Forcing-Function Mapping Problem, Methodological Commitments, Space Launch as an Economic Sector, Cross-Disciplinary Framings, Government-Anchor Demand Substrate, Forcing-Function-to-Spinoff Dynamics, Singular-Conjunction Puzzle, Seven-Plus-Three Analytical Framework, SpaceX Founding Narrative and 2002-2008 Prologue, Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Regulatory and Legal Framework, Contemporary Space Launch Landscape, Comparative Cross-Sectional Analysis, Data Sources and Reconstruction Methodology, Alternative Analytical Frameworks, Terminological Note, Series Roadmap, Load-Bearing Open Questions, References.
+Twenty H2 sections: Value-Gradient Mapping Problem, Methodological Commitments, Value Gradient as an Economic Property, Cross-Disciplinary Framings, Falcon 1 Development Period 2002-2008, Falcon 9 Development Period 2005-2010, Reusability Progression 2011-2026, Iridium Single-Bet Contrast, Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Regulatory and Technical Framework, Contemporary Comparative Landscape, Comparative Cross-Sectional Analysis, Data Sources and Reconstruction Methodology, Alternative Analytical Frameworks, Pattern Extraction, Cross-References to the Series, Terminological Note, Load-Bearing Open Questions, References.
 
 ---
 
-## Series Framework Introduced in A281
+## Value-Gradient Content Coverage
 
-The article introduces the seven-plus-three analytical framework the subsequent articles apply:
+The article walks the SpaceX value-gradient trajectory through:
 
-**Seven forcing-function conditions**: value gradient, anchor demand, value capture, decomposability, generality-forcing, governance, portfolio patience.
+- **Falcon 1 Development Period 2002-2008**: SpaceX founding, Merlin engine development from TR-107 lineage, Kwajalein Omelek Island launch site, four failed launch attempts culminating in September 28 2008 fourth-flight orbital success, fifth-flight July 14 2009 RazakSAT commercial payload
+- **Falcon 9 Development Period 2005-2010**: nine-engine octaweb architecture, COTS Round 1 278 million dollar award August 2006, June 4 2010 first Falcon 9 flight, December 8 2010 Dragon C1 first spacecraft flight, CRS-1 December 23 2008 anchor demand, May 22 2012 Dragon C2/C3 ISS berthing, SES-8 December 3 2013 first geostationary transfer orbit, Falcon 9 v1.0 through v1.1 through Full Thrust vehicle-block progression
+- **Reusability Progression 2011-2026**: Grasshopper vertical takeoff and landing testbed 2011-2013, F9R Dev1 continuation, initial CRS-6 April 2015 recovery attempt, December 21 2015 Orbcomm-2 first successful land landing, April 8 2016 CRS-8 first drone-ship landing, March 30 2017 SES-10 first refly, Falcon 9 Full Thrust and Block 5 configurations, contemporary routine-refly cadence with boosters flying low double-digit flights
+- **Iridium Single-Bet Contrast**: 1988 Motorola concept, 5 billion dollar investment, 1998 commercial service, 55000 subscribers vs 500000 forecast, August 13 1999 Chapter 11 filing, 25 million dollar salvage at 0.5 percent recovery, subsequent Iridium NEXT deployment on Falcon 9 launches
 
-**Three capital-formation legs**: government anchor, patient private, category-dominating commercial spinoff.
+## Pattern Extraction
 
-Articles A282-A292 will treat each condition and leg in turn, with A292 as the retrospective synthesis and forward-projection closer.
+Article closes with pattern-extraction section stating the abstract value-gradient mechanic requires joint satisfaction of five sub-properties: architectural decomposability, incentive-structure alignment, process discipline, strategic patience, demand-configuration absorption. Counterfactual cases identified in the article negate one or more sub-properties.
 
 ---
 
 ## Cross-Reference Verification
 
-All fourteen post_url cross-references to existing published corpus verified as of drafting date:
-
-- A90 introduction_to_space_studies (2026-02-21)
-- A96 history_of_rocketplanes (2026-02-27)
-- A97 what_does_united_states_space_force_do (2026-02-28)
-- A132 introduction_to_the_sbir_and_sttr_programs (2026-06-15)
-- A138 phase_iii_and_the_valley_of_death_for_sbir_and_sttr (2026-06-21)
-- A140 money_behind_an_sbir_or_sttr_award (2026-06-23)
-- A161 what_a_patent_is_and_is_not (2026-05-03)
-- A164 patents_trade_secrets_and_the_disclosure_tradeoff (2026-05-06)
-- A167 why_startups_actually_fail (2026-05-09)
-- A237 framing_and_the_co_development_mechanism (2026-07-12)
-- A242 apollo_guidance_computer (2026-07-17)
-- A246 silicon_valley_from_defense_contracting (2026-07-21)
-- A247 software_defined_aerospace_and_autonomy (2026-07-22)
-- A248 contemporary_snapshot_and_extrapolation (2026-07-23)
+All twelve post_url cross-references to existing published corpus verified as of drafting date, including back-reference to A281 series opener and forward references to specific subsequent articles A283 through A292 (which have not yet been drafted, referenced narratively without post_url tags).
 
 ---
 
 ## Article Number State
 
-- Next available article number: A282 (once A281 publishes).
-- A281 is the standalone publication of the series opener.
-- A282-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
+- Next available article number: A283 (once A282 publishes).
+- A282 is the second standalone publication of the History of SpaceX series.
+- A283-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
 
 ---
 
 ## Notes
 
-- Editorial date 2026-07-24 verified free of collision with published corpus (last published post before this is 2026-07-23 A248).
+- Editorial date 2026-07-25 verified free of collision with published corpus (last published post before this is 2026-07-24 A281).
 - Two-commit sequence isolates the drafting-complete state on the staging commit and the publication act on the publication commit.
 - URL verification not exhaustively performed. Memory flags .mil sites, docs.fcc.gov, oig.nasa.gov, JSTOR, ScienceDirect, and journal-publisher paths as prone to 403 responses under scripted checks; those URLs have not been individually curl-verified and should be re-checked in any future URL verification pass.
-- Series proceeds standalone rather than as twelve-article batch per human-pilot direction. A281 sets up the framework the eleven subsequent articles apply.
+- Series continues to proceed standalone rather than as twelve-article batch per human-pilot direction. A282 follows the A281 pattern of standalone-single-article publication with process files updated per the two-commit convention.
