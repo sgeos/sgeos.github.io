@@ -9,136 +9,118 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-24
-**Task**: Ethnoreligion and American Political Economy eleven-article series (A266-A276) published as batch at editorial dates 2026-01-03 through 2026-01-13, followed by an editorial de-bloat pass. Three-commit sequence pushed to origin/master: `32a0a9a` staged the eleven drafts to git history, `cb1ce56` performed git mv from _drafts/ to _posts/ with date prefixes and synced process files, `51c84e6` de-bloated compulsive repetition of "substantially" (914 uses to 20 residuals inside protected regions) and "successive" (235 uses to 6 residuals) across the eleven published articles via `tmp/deblat_ethnoreligion.py`. All within-series post_url cross-references resolve to the date-prefixed filenames created in the publication commit. Cross-reference structure is back-reference-only. Pre-NDA contemporaneous record of the state-of-the-art literature review closed with the publication commit; editorial cleanup preserved all scientific claims and reference targets.
+**Task**: Full cohesiveness pass on the Virtual Reputation Manipulation miniseries (A277-A280). Comprehensive verification of per-article integrity, cross-article framework and reference consistency, date and article-number collision, stylistic-tic-repetition reduction via `tmp/deblat_reputation.py`, and style discipline. Explicit pre-NDA framing: the miniseries serves as a contemporaneous state-of-the-art literature review before any potential disclosure could have a chilling effect on the work.
 
 ---
 
-## A276 Draft Metrics
+## Cohesiveness Pass Verification
 
-- File: `_drafts/ethnoreligion_and_american_political_economy_retrospective_and_projection.markdown`
-- Lines: 541
-- Words: 7,466
-- Display equations: 26
-- Sections (H2): 32
-- Book references (URL defined): 24
-- Primary reference URLs (`ref_`): 15
-- Related-post cross-references (back-reference-only): 10 (A266 through A275)
-- Style: zero em-dashes, zero en-dashes, zero contractions, zero prose colons or semicolons outside math notation and reference-list formatting. `<!-- A276 -->` and `<script>console.log("A276");</script>` debug tags on lines 13-14.
-- Anchor integrity: zero missing, zero unused.
+**Per-article integrity** (all four articles):
+- A277: 1,002 lines, 60 equations, 234 anchors (79 books + 70 refs + 85 research), zero missing/unused/duplicated, zero em-dashes/en-dashes/prose-contractions
+- A278: 1,116 lines, 72 equations, 230 anchors (44 books + 92 refs + 93 research + 1 related), zero missing/unused/duplicated, zero em-dashes/en-dashes/prose-contractions
+- A279: 1,076 lines, 72 equations, 190 anchors (30 books + 112 refs + 46 research + 2 related), zero missing/unused/duplicated, zero em-dashes/en-dashes, prose-contractions preserved only inside cited book/paper titles ("This Is Why We Can't Have Nice Things", "You Can't Stay Here")
+- A280: 1,128 lines, 72 equations, 191 anchors (31 books + 104 refs + 53 research + 3 related), zero missing/unused/duplicated, zero em-dashes/en-dashes/prose-contractions
 
----
+**Date/article-number collision check**:
+- Editorial dates 2026-01-22 through 2026-01-25 verified empty in `_posts/` (between A71 at 2026-01-21 and A72 at 2026-01-26)
+- Each of A277, A278, A279, A280 appears exactly once in `_drafts/` (plus documentation reference in draft_summary.md)
 
-## Content Coverage
+**Series metadata consistency**: uniform `series: virtual_reputation_manipulation`, uniform `series_title: Virtual Reputation Manipulation`, sequential `series_index: 1/2/3/4`, uniform `categories: economics technology sociology`, sequential dates 2026-01-22 through 2026-01-25, debug tags on lines 13-14 of all four articles.
 
-The A276 closer synthesizes findings across A266 through A275 into retrospective causal mapping. Section list:
+**Six-axis framework naming consistency**: verified consistent naming (signal, objective, structure, model, interaction, adaptation) across all four articles, with framework introduced in A277 and applied consistently in A278/A279/A280.
 
-1. Series Retrospective: Ten-Article Arc
-2. The Three Substrates Revisited
-3. Signal Axis Retrospective
-4. Objective Axis Retrospective
-5. Structure Axis Retrospective
-6. Model Axis Retrospective
-7. Interaction Axis Retrospective
-8. Adaptation Axis Retrospective
-9. Load-Bearing Historical Inflection Points
-10. Comparative Case: Canadian Ethnoreligious Development
-11. Comparative Case: Latin American Catholic Trajectory
-12. Comparative Case: Australian and New Zealand Development
-13. Comparative Case: British Post-Imperial Ethnoreligious Transformation
-14. Comparative Case: European Post-War Secularization
-15. Comparative Case: Israeli Zionist Ethnoreligious Formation
-16. Comparative Case: East Asian Religious Modernization
-17. Deep Historical Comparative Precedents
-18. Alternative Analytical Frameworks Comparison
-19. Alternative American Trajectories Counterfactuals
-20. Forward Projection 2024-2050: Demographics
-21. Forward Projection 2024-2050: Political-Religious Sorting
-22. Forward Projection 2024-2050: Institutional Trajectories
-23. Load-Bearing Uncertainties for Forward Projection
-24. Falsification Framework
-25. Applying the Six-Axis Framework to Forward Projection
-26. Terminological Note
-27. Load-Bearing Open Questions for the Series
-28. Extended Forward Projection Scenarios
-29. Contingency Analysis
-30. Series Methodology and Limitations
-31. Concluding Reflections
-32. References
+**Cross-article references**: verified back-reference-only structure (A277 has no back-references, A278 references A277 only, A279 references A277 and A278, A280 references all three prior). All related-post anchors resolve.
+
+**Stylistic-tic-repetition reduction**: `tmp/deblat_reputation.py` executed 90 replacements across the four articles reducing "admits characterization" occurrences by 58-73% per article via rotating-variants approach (takes the form, is captured by, reduces to, can be characterized as, has the form, is described by). Additional variants for "admits summary" and "admits operationalization" applied. Protected regions (display math, inline math, anchor definitions, list reference entries) preserved during transformation.
+
+## Aggregate Series Metrics After Cohesiveness Pass
+
+- Total lines: 4,322
+- Total words: 57,158
+- Total display equations: 276
+- Total reference anchors: 845 (184 books + 378 primary references + 277 research + 6 related-post cross-references)
+- Total H2 sections: 77
+- Structurally symmetric across the four common publication-review-added sections (Cross-Disciplinary Framings, Historical Antecedents / Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Alternative Analytical Frameworks)
+
+## A280 Draft Metrics
+
+- File: `_drafts/virtual_reputation_manipulation_detection_and_organic.markdown`
+- Lines: 1,128
+- Words: 12,922
+- Display equations: 72
+- Sections (H2): 19 (three new H2 sections added in publication-review pass: Cross-Disciplinary Framings, Historiographical Gap and Recent Scholarship, Alternative Analytical Frameworks)
+- Sections (H3): 34
+- Book references: 31 (up from 11 in publication-review pass)
+- Primary reference URLs (`ref_`): 104
+- Research references (`research_`): 53 (up from 41 in publication-review pass)
+- Related-post cross-references: 3 (to A277 theory, A278 self-promotion, A279 competitor-attack)
+- Total reference anchors: 191 defined, 191 used, zero missing, zero unused, zero duplicates
+- Style: zero em-dashes, zero en-dashes, zero contractions. `<!-- A280 -->` and `<script>console.log("A280");</script>` debug tags on lines 13-14.
+- Categories: `economics technology sociology`
 
 ---
 
-## Four-Pass Workflow
+## Publication-Review Expansion Pass Additions
 
-- Pass 1 (initial draft): retrospective mapping across signal, objective, structure, model, interaction, and adaptation axes; seven comparative cases; four counterfactuals; three-part forward projection.
-- Pass 2 (equation density): equations added for aggregate series metrics, foreign-born share trajectory, unaffiliated share trajectory, Christian share decline, political-religious sorting statistics, and comparative case ratios.
-- Pass 3 (reference density): primary reference URLs added for US Census projections, historical Census, Pew Religious Landscape and modeling projections, European and Latin American Pew studies, Israel CBS, ABS, StatsCan, Stats NZ, ONS, and country-specific constitutional and treaty documents.
-- Pass 4 (publication review): five new sections added: Deep Historical Comparative Precedents (Roman Empire, medieval Christendom, Reformation, Enlightenment); Alternative Analytical Frameworks Comparison (Bellah civil religion, Berger secularization, Stark and Bainbridge religious economies, Taylor A Secular Age, Wolfe One Nation After All); Extended Forward Projection Scenarios (central, continued acceleration, plateau, reversal, disruptive); Contingency Analysis; Series Methodology and Limitations. Nine additional books added and URL-verified (Bellah 1967, Berger 1967, Fletcher 1997, Israel 2001, MacCulloch 2003, MacMullen 1984, Stark and Bainbridge 1985, Taylor 2007, Wolfe 1998). Book list re-alphabetized. Abstract updated to reflect new sections. Aggregate series metrics equation updated to actual final values.
+Three new H2 sections added mirroring the A277-A279 publication-review structure. Thirty-two additional anchor definitions added (20 books, 12 research).
+
+**Cross-Disciplinary Framings**: signal-detection theory (Green-Swets 1966, Macmillan-Creelman 2005), statistical-decision theory (Neyman-Pearson 1933, Wald 1950, Berger 1985), common-pool-resource governance (Ostrom 1990, Ostrom 2010 polycentric), trust theory (Hardin 2002, Fukuyama 1995, Barber 1983, Sztompka 1999), network-dynamics-and-complex-adaptive-systems (Watts 2002, Barabási-Albert 1999, Holland 1995, Miller-Page 2007), institutional economics (North 1990, Williamson 1985, Greif 2006), enforcement economics (Becker 1968, Polinsky-Shavell 2000), platform governance (Balkin, Klonick, Douek, Grimmelmann, Suzor, Sunstein), adversarial-machine-learning (Goodfellow-Shlens-Szegedy, Papernot, Carlini-Wagner, Madry, Cohen-Rosenfeld-Kolter).
+
+**Historiographical Gap and Recent Scholarship**: surveys the detection-methodology-literature evolution (Jindal-Liu, Ott et al, Cresci, Kumar et al), countermeasure-and-governance scholarship (Klonick, Balkin, Douek, Grimmelmann, Suzor), case-specific organic-establishment literatures (Wikipedia scholarship, GitHub-and-open-source scholarship, academic-reputation scholarship), forward-projection-methodology (Bradshaw-Bailey-Howard), and governance-and-legitimacy scholarship, with identified integration gaps the miniseries addresses.
+
+**Alternative Analytical Frameworks**: enforcement-economics (Becker 1968, Polinsky-Shavell 2000), common-pool-resource governance (Ostrom 1990, Ostrom 2010), institutional-economics (North 1990, Williamson 1985), evolutionary game theory (Maynard Smith 1982, Nowak 2006), regulatory-capture (Stigler 1971), adversarial-machine-learning, signal-detection theory (Green-Swets), critical-political-economy (Zuboff 2019), behavioral-economics of consumer response (Kahneman 2011), complex-adaptive-systems (Holland 1995, Miller-Page 2007).
+
+Anchor integrity re-verified after the pass: 191 definitions matching 191 uses, zero missing, zero unused, zero duplicates. Style discipline preserved: zero em-dashes, zero en-dashes, zero contractions.
 
 ---
 
-## Series Aggregate Metrics (A266-A276)
+## Series Publication-Density Comparison — Final State
 
-| Article | Lines | Words | Equations | Books | Refs |
-|---------|-------|-------|-----------|-------|------|
-| A266 framing | 826 | 16,421 | 28 | 183 | 33 |
-| A267 colonial folkways | 878 | 15,444 | 30 | 186 | 32 |
-| A268 awakening and founding | 978 | 15,532 | 32 | 198 | 42 |
-| A269 second awakening | 1,303 | 19,684 | 60 | 264 | 55 |
-| A270 civil war reconstruction | 1,174 | 17,242 | 80 | 148 | 98 |
-| A271 mass immigration closure | 1,184 | 17,635 | 82 | 133 | 92 |
-| A272 depression war refuge | 1,075 | 15,483 | 82 | 109 | 73 |
-| A273 postwar transformation | 1,094 | 16,118 | 67 | 119 | 82 |
-| A274 diversification | 912 | 13,188 | 68 | 103 | 37 |
-| A275 contemporary sorting | 842 | 11,887 | 58 | 72 | 54 |
-| A276 retrospective | 540 | 6,991 | 26 | 24 | 15 |
-| **Total** | **10,806** | **165,625** | **613** | **1,539** | **613** |
+All four miniseries articles now stand at publication-review parity across the four common expansion-added sections (Cross-Disciplinary Framings, Historical Antecedents / Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Alternative Analytical Frameworks):
 
-Series aggregate approximately 165,600 words, 610 equations, 1,540 book references, 610 primary references across the eleven articles.
+| Article | Lines | Words | Equations | H2 | Anchors | Books | Refs | Research |
+|---------|-------|-------|-----------|----|---------|-------|------|----------|
+| A277 theory | 1,002 | 15,449 | 60 | 17 | 234 | 79 | 70 | 85 |
+| A278 self-promotion | 1,116 | 15,149 | 72 | 19 | 230 | 44 | 92 | 93 |
+| A279 competitor-attack | 1,076 | 13,638 | 72 | 22 | 190 | 30 | 112 | 46 |
+| A280 detection-and-organic | 1,128 | 12,922 | 72 | 19 | 191 | 31 | 104 | 53 |
 
-## Cohesiveness Pass 2026-07-24
-
-Full series cohesiveness pass completed with the following corrections and additions:
-
-- **Framework naming unified**: A266 originally introduced six axes as theological/migration/labor/political/legal/cultural; A267-A276 applied signal/objective/structure/model/interaction/adaptation. Rewrote A266's Six-Axis Analytical Framework section to introduce the abstract signal/objective/structure/model/interaction/adaptation axes with concrete substrate examples preserved.
-- **A276 self-reference removed**: The retrospective article's opening paragraph originally contained `[A276][related_post_a276_retrospective_and_projection]` as a self-link; rewritten to "the present retrospective article" with the self-referencing anchor definition removed.
-- **Terminological Note sections added**: A266 and A267 originally lacked the Terminological Note section that A268-A276 share; added consistent Terminological Note sections to A266 (establishing the terminology) and A267 (referencing A266 conventions plus colonial-period usage).
-- **Primary reference density parity**: Added 148 primary reference URLs to A266-A269 to close the density gap with A270-A275 (previously A266 had 5, A267 had 1, A268 had 2, A269 had 0; now A266 has 33, A267 has 32, A268 has 42, A269 has 55).
-- **Equation density additions**: Added 12 equations to A266-A268 (6 axis-operationalization equations to A266 framework section, 4 axis-summary equations to A267 framework section, 3 quantitative claim equations to A268).
-- **Aggregate metrics equation updated**: A276 Series Retrospective equation updated to reflect actual final values.
-- **Cross-reference monotonicity verified**: Zero forward or self-references across all eleven articles.
-- **Anchor integrity verified**: Zero missing, zero unused anchors across all eleven articles.
-- **Style discipline verified**: Zero em-dashes, zero en-dashes across all eleven articles.
-- **Date and article number collision check**: No collision. Editorial window 2026-01-03 through 2026-01-13 empty in the corpus; A266-A276 debug tags unique across corpus.
+All four articles now in the 1,000-1,130 line range with 190-234 anchors and 60-72 equations. Each article's anchor composition reflects its specific content focus: A277 book-heavy (theoretical breadth), A278 research-and-ref balanced (technique-and-detection focus), A279 ref-heavy (case law and platform policies), A280 ref-and-book balanced (statutory citations plus cross-disciplinary framings and case-study literature). The miniseries is at publication-review parity across all four articles.
 
 ---
 
 ## Series Position
 
-- Series slug: `ethnoreligion_and_american_political_economy`
-- Series title: `Ethnoreligion and American Political Economy`
-- All eleven articles A266 through A276 have completed four-pass workflow.
-- Planned editorial dates: 2026-01-03 (A266) through 2026-01-13 (A276), one article per day, filling the eleven-day gap between 2026-01-02 A265 and 2026-01-14 A94.
+- Series slug: `virtual_reputation_manipulation`
+- Series title: `Virtual Reputation Manipulation`
+- All four articles drafted at publication-review parity.
+- Planned editorial dates: 2026-01-22 (A277) through 2026-01-25 (A280), one article per day.
 
 ---
 
 ## Article Number State
 
-- Next available article number: A277.
-- A266 through A276 drafted; not yet published. Publication planned as batch after human pilot review.
-- All corpus articles through A265 published.
+- Next available article number for the miniseries: A281.
+- All four articles drafted at publication-review parity.
+- All corpus articles through A276 published.
 
 ---
 
 ## Action Items for the Human Pilot
 
-- Review A276 draft at `_drafts/ethnoreligion_and_american_political_economy_retrospective_and_projection.markdown` for factual accuracy, source selection, and coverage adequacy for the series closer.
-- Advise on whether to proceed to publication (batch commit of all eleven A266-A276 drafts with editorial dates 2026-01-03 through 2026-01-13) or return for revisions.
-- Confirm URL definitions for the nine newly-added books (Bellah 1967, Berger 1967, Fletcher 1997, Israel 2001, MacCulloch 2003, MacMullen 1984, Stark and Bainbridge 1985, Taylor 2007, Wolfe 1998).
+- Review A280 draft at `_drafts/virtual_reputation_manipulation_detection_and_organic.markdown` for factual accuracy of the new sections (Cross-Disciplinary Framings, Historiographical Gap and Recent Scholarship, Alternative Analytical Frameworks), source selection, framework coherence with A277-A279, and the descriptive-analytical framing commitment.
+- Confirm the four-article miniseries at publication-review parity is ready for commit.
+- Advise on any additional review passes needed on any of the four articles before commit.
+- Advise on commit strategy: single bundled commit of all four articles plus process file updates, or staged per-article commits.
+- Advise on publication authorization: is the miniseries ready to proceed to publication as batch on the editorial dates 2026-01-22 through 2026-01-25?
 
 ---
 
 ## Notes
 
-- All scratch confined to project-local `tmp/` per recorded preference.
-- No commits made in this session. Publication of the eleven-article series planned as batch after human pilot review.
-- Corpus size remains 265 published posts. Series will bring corpus to 276 upon publication.
+- All scratch confined to project-local `tmp/` per recorded preference. Cohesiveness-pass script at `tmp/deblat_reputation.py`.
+- No commits made in this session. All four A277-A280 drafts plus process file updates and the tmp/deblat_reputation.py script staged locally in the working tree; ready for commit at your direction.
+- Corpus size remains 276 published posts. Miniseries will bring corpus to 280 upon publication.
+- Editorial-date gap verified: 2026-01-22 through 2026-01-25 empty between A71 at 2026-01-21 and A72 at 2026-01-26.
+- Pre-NDA framing: the miniseries serves as a contemporaneous state-of-the-art literature review before any potential disclosure could have a chilling effect on the work. Publication commit will establish the pre-disclosure timestamp.
+- The four-article miniseries stands at publication-review parity, structurally symmetric across the four common expansion-added sections, with cohesiveness-pass-verified integrity and reduced stylistic-tic repetition. Ready for human pilot review, commit strategy decision, and publication authorization.
