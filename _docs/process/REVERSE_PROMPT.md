@@ -9,60 +9,93 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-24
-**Task**: Virtual Reputation Manipulation four-article miniseries (A277-A280) published as batch at editorial dates 2026-01-22 through 2026-01-25 via two-commit sequence pushed to origin/master. Pre-NDA state-of-the-art contemporaneous literature review; publication commit establishes the pre-disclosure timestamp.
+**Task**: A281 History of SpaceX series opener drafted and staged for standalone publication at editorial date 2026-07-24. Article opens a planned twelve-article series (A281-A292) but is being published standalone under human-pilot direction; A282-A292 to be drafted and published in subsequent sessions.
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit batch publication sequence:
+Two-commit standalone publication sequence:
 
-1. **Staging commit** `10ec2a0` — added the four drafts to `_drafts/` with process files describing the drafting-complete state
-2. **Publication commit** — performed `git mv` from `_drafts/` to `_posts/` with date prefixes and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state
-
-The two-commit pattern establishes the pre-disclosure timestamp on the publication commit while separating the technical publication act from the drafting-completion act.
+1. **Staging commit** — adds `_drafts/spacex_history_framing.markdown` and syncs process files describing the drafting-complete state
+2. **Publication commit** — performs `git mv` from `_drafts/spacex_history_framing.markdown` to `_posts/2026-07-24-spacex_history_framing.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then push to origin/master
 
 ---
 
-## Published Files
+## Drafted File
 
-- `_posts/2026-01-22-virtual_reputation_manipulation_theory.markdown` (A277, series opener, index 1)
-- `_posts/2026-01-23-virtual_reputation_manipulation_self_promotion.markdown` (A278, index 2)
-- `_posts/2026-01-24-virtual_reputation_manipulation_competitor_attack.markdown` (A279, index 3)
-- `_posts/2026-01-25-virtual_reputation_manipulation_detection_and_organic.markdown` (A280, series closer, index 4)
+- `_drafts/spacex_history_framing.markdown` (A281, series opener, series `spacex_history`, index 1 of 12)
 
----
+## Planned File Path After Publication
 
-## Series Aggregate Metrics
-
-| Article | Lines | Words | Equations | H2 | Anchors | Books | Refs | Research |
-|---------|-------|-------|-----------|----|---------|-------|------|----------|
-| A277 theory | 1,002 | 15,448 | 60 | 17 | 234 | 79 | 70 | 85 |
-| A278 self-promotion | 1,116 | 15,146 | 72 | 19 | 230 | 44 | 92 | 93 |
-| A279 competitor-attack | 1,076 | 13,637 | 72 | 22 | 190 | 30 | 112 | 46 |
-| A280 detection-and-organic | 1,128 | 12,922 | 72 | 19 | 191 | 31 | 104 | 53 |
-| **Total** | **4,322** | **57,153** | **276** | **77** | **845** | **184** | **378** | **277** |
-
-Plus 6 related-post cross-references (back-reference-only structure). Series structurally symmetric across four common publication-review-added sections (Cross-Disciplinary Framings, Historical Antecedents / Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Alternative Analytical Frameworks).
+- `_posts/2026-07-24-spacex_history_framing.markdown` (editorial date 2026-07-24, categories `history business aerospace`)
 
 ---
 
-## Pre-NDA Framing
+## Article Metrics
 
-The miniseries was drafted as a contemporaneous state-of-the-art literature review before any potential disclosure could have a chilling effect on the work. The publication commit establishes the pre-disclosure timestamp. The four articles document the manipulation-detection-organic-establishment landscape as observable in the mid-2020s open literature and constitute a public record of the analytical framework and empirical evidence prior to any subsequent restricted disclosure.
+| Metric | Value |
+|---|---|
+| Lines | 1,301 |
+| Words | ~24,500 |
+| Display equations | 65 |
+| H2 sections | 20 |
+| Total reference anchors | 292 |
+| Books | 130 |
+| Reference | 86 |
+| Research | 62 |
+| Related Post | 14 |
+| Em-dashes / en-dashes / prose parens / prose contractions | 0 / 0 / 0 / 0 |
+| Missing / unused / duplicate anchors | 0 / 0 / 0 |
+
+Twenty H2 sections: Forcing-Function Mapping Problem, Methodological Commitments, Space Launch as an Economic Sector, Cross-Disciplinary Framings, Government-Anchor Demand Substrate, Forcing-Function-to-Spinoff Dynamics, Singular-Conjunction Puzzle, Seven-Plus-Three Analytical Framework, SpaceX Founding Narrative and 2002-2008 Prologue, Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Regulatory and Legal Framework, Contemporary Space Launch Landscape, Comparative Cross-Sectional Analysis, Data Sources and Reconstruction Methodology, Alternative Analytical Frameworks, Terminological Note, Series Roadmap, Load-Bearing Open Questions, References.
+
+---
+
+## Series Framework Introduced in A281
+
+The article introduces the seven-plus-three analytical framework the subsequent articles apply:
+
+**Seven forcing-function conditions**: value gradient, anchor demand, value capture, decomposability, generality-forcing, governance, portfolio patience.
+
+**Three capital-formation legs**: government anchor, patient private, category-dominating commercial spinoff.
+
+Articles A282-A292 will treat each condition and leg in turn, with A292 as the retrospective synthesis and forward-projection closer.
+
+---
+
+## Cross-Reference Verification
+
+All fourteen post_url cross-references to existing published corpus verified as of drafting date:
+
+- A90 introduction_to_space_studies (2026-02-21)
+- A96 history_of_rocketplanes (2026-02-27)
+- A97 what_does_united_states_space_force_do (2026-02-28)
+- A132 introduction_to_the_sbir_and_sttr_programs (2026-06-15)
+- A138 phase_iii_and_the_valley_of_death_for_sbir_and_sttr (2026-06-21)
+- A140 money_behind_an_sbir_or_sttr_award (2026-06-23)
+- A161 what_a_patent_is_and_is_not (2026-05-03)
+- A164 patents_trade_secrets_and_the_disclosure_tradeoff (2026-05-06)
+- A167 why_startups_actually_fail (2026-05-09)
+- A237 framing_and_the_co_development_mechanism (2026-07-12)
+- A242 apollo_guidance_computer (2026-07-17)
+- A246 silicon_valley_from_defense_contracting (2026-07-21)
+- A247 software_defined_aerospace_and_autonomy (2026-07-22)
+- A248 contemporary_snapshot_and_extrapolation (2026-07-23)
 
 ---
 
 ## Article Number State
 
-- Next available article number: A281.
-- A277 through A280 published as batch.
-- Corpus size after publication: 280 posts (up from 276).
+- Next available article number: A282 (once A281 publishes).
+- A281 is the standalone publication of the series opener.
+- A282-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
 
 ---
 
 ## Notes
 
-- All scratch confined to project-local `tmp/` per recorded preference. The cohesiveness-pass script at `tmp/deblat_reputation.py` reduced "admits characterization" occurrences by 58-73% per article via rotating-variants transformation with protected regions (display math, inline math, anchor definitions, list reference entries).
-- Two commits pushed to origin/master. GitHub Actions will trigger deployment automatically.
-- Editorial dates 2026-01-22 through 2026-01-25 verified free of collision with published corpus posts (empty gap between A71 macos_pbcopy_and_pbpaste at 2026-01-21 and A72 webasm_on_jekyll at 2026-01-26).
+- Editorial date 2026-07-24 verified free of collision with published corpus (last published post before this is 2026-07-23 A248).
+- Two-commit sequence isolates the drafting-complete state on the staging commit and the publication act on the publication commit.
+- URL verification not exhaustively performed. Memory flags .mil sites, docs.fcc.gov, oig.nasa.gov, JSTOR, ScienceDirect, and journal-publisher paths as prone to 403 responses under scripted checks; those URLs have not been individually curl-verified and should be re-checked in any future URL verification pass.
+- Series proceeds standalone rather than as twelve-article batch per human-pilot direction. A281 sets up the framework the eleven subsequent articles apply.
