@@ -8,25 +8,31 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish the Virtual Reputation Manipulation four-article miniseries (A277-A280) at editorial dates 2026-01-22 through 2026-01-25 as a two-commit batch pushed to origin/master. Pre-NDA state-of-the-art contemporaneous literature review; publication commit establishes the pre-disclosure timestamp.
-**Status**: Complete (published as batch)
+**Name**: Publish A281 History of SpaceX series opener at editorial date 2026-07-24 as a standalone two-commit publication pushed to origin/master. Article opens a planned twelve-article series (A281-A292) but publishes standalone under human-pilot direction ahead of the full-series batch that the handoff prompt at `tmp/spacex_series_handoff_prompt.md` originally proposed. A282-A292 to be drafted and published in subsequent sessions.
+**Status**: Drafted and staged for publication
 **Started**: 2026-07-24
 
 ## Success Criteria
 
-- [x] A277 opener drafted establishing reputation as an economic good with information-asymmetry and signaling structure, formalizing the manipulation equilibrium as a prisoner's dilemma over a two-sided platform market, characterizing the organic-establishment minority puzzle, and introducing the six-axis analytical framework (signal, objective, structure, model, interaction, adaptation) subsequent articles apply.
-- [x] A278 draft: techniques of self-promotion oriented reputation manipulation. Individual and coordinated review fabrication, follower and engagement purchase, sockpuppet amplification, generative-model produced testimonials, aggressive-end SEO, coordinated cross-platform amplification rings, credential fabrication, and reputation laundering. Organized by signal-channel target and account-provenance method with FTC enforcement, platform integrity disclosure, and academic detection case anchoring.
-- [x] A279 draft (initial): techniques of competitor-attack oriented reputation manipulation. Review bombing, brigading, negative SEO, defamation campaigns, reporting-system weaponization, Sybil downvoting, complaint-farm services, and adversarial content operations. Organized by attack vector and target reputation-system position with parallel case anchoring.
-- [x] A279 equation-density and reference-density expansion passes complete at or above A278 parity.
-- [x] A280 series closer initial draft: detection landscape (statistical, machine-learning, network, human-review, cross-platform collaboration), countermeasure landscape (platform integrity, identity verification, transaction verification, legal liability, cryptographic attestation), and organic-establishment minority with six case studies. Forward projection to 2026-2050 window with falsification framework.
-- [x] A280 equation-density, reference-density, and comprehensive publication-review expansion passes complete at A278/A279 parity.
-- [x] Style discipline verified on A277 after equation-density, reference-density, and comprehensive publication-review expansion passes (zero em-dashes, zero en-dashes, zero contractions, categories `economics technology sociology`, debug tags on lines 13-14, 60 display equations, 234 total reference anchors with zero missing and zero unused, 79 books, 85 research, 70 primary reference URLs, 17 H2 sections including Cross-Disciplinary Framings, Historiographical Gap and Recent Scholarship, Regulatory and Legal Framework, and Alternative Analytical Frameworks).
-- [ ] Style discipline to be verified on A278, A279, A280.
-- [ ] Cross-reference monotonicity (back-reference-only via post_url) to be verified once A278-A280 are drafted.
-- [x] Editorial dates 2026-01-22 through 2026-01-25 verified free of collision (gap is empty between A71 and A72).
-- [ ] Publication as batch to editorial dates 2026-01-22 through 2026-01-25 pending completion of A278-A280 and human pilot review.
+- [x] A281 opener drafted at `_drafts/spacex_history_framing.markdown` introducing the seven-plus-three analytical framework (seven forcing-function conditions plus three capital-formation legs), characterizing the singular-conjunction thesis, providing the SpaceX founding narrative and 2002-2008 pre-COTS prologue, and previewing the eleven subsequent articles.
+- [x] A281 equation-density expansion pass complete at 65 display equations (target 60-72).
+- [x] A281 reference-density expansion pass complete at 292 total reference anchors (target 190-234; exceeded by scope of the review-and-survey publication-review pass).
+- [x] A281 publication-review expansion pass complete adding Comparative Cross-Sectional Analysis and Data Sources and Reconstruction Methodology H2 sections, expanding Cross-Disciplinary Framings with six additional traditions, expanding Deep Historical Comparative Precedents with eight additional cases, restructuring Historiographical Gap with six H3 subsections, expanding Alternative Analytical Frameworks with five additional framings.
+- [x] Style discipline verified on A281 (zero em-dashes, zero en-dashes, zero prose contractions, zero prose parentheticals outside math, categories `history business aerospace`, debug tags on lines 13-14, series metadata `series: spacex_history, series_title: History of SpaceX, series_index: 1`).
+- [x] Anchor integrity verified (zero missing, zero unused, zero duplicate across 292 anchors).
+- [x] All fourteen post_url cross-references to existing published corpus verified against `_posts/` filenames.
+- [x] Editorial date 2026-07-24 verified free of collision (last published post before this is 2026-07-23 A248).
+- [ ] Publication as standalone two-commit sequence pushed to origin/master (pending human pilot authorization to push).
 
 ## Task Breakdown
+
+| ID | Task | Status | Verification |
+|----|------|--------|--------------|
+| A281-P1-T1 | Draft A281 History of SpaceX series opener | Complete | A281 drafted at `_drafts/spacex_history_framing.markdown`. Initial draft 618 lines with 20 equations and 102 anchors, expanded through equation-density pass to 61 equations, reference-density pass to 190 anchors, and publication-review expansion pass to 1,301 lines, ~24,500 words, 65 equations, 20 H2 sections, 292 total reference anchors (130 books, 86 reference, 62 research, 14 related-post). Publication-review pass added Comparative Cross-Sectional Analysis and Data Sources and Reconstruction Methodology H2 sections, expanded Cross-Disciplinary Framings with six additional traditions (science-and-technology studies, institutional economics, developmental state, financial sociology, real options and entrepreneurial finance under uncertainty, evolutionary economics and complexity), expanded Deep Historical Comparative Precedents with eight additional cases (Manhattan Project, Peenemünde/Von Braun, RAND, Apollo, TVA, Panama Canal, Human Genome Project, Airbus/Ariane, Dutch East India Company), restructured Historiographical Gap with six H3 subsections (biographical, business case study, academic disciplinary, trade press, comparative-firm, emerging topics), expanded Alternative Analytical Frameworks with five additional framings (resource-based-view and dynamic capabilities, real-options and staged-investment, Marxist critique, public choice and rent-seeking, complexity and evolutionary, actor-network-theory). Introduces seven-plus-three analytical framework the subsequent articles apply. Style discipline: zero em-dashes, zero en-dashes, zero prose contractions, zero prose parentheticals outside math. Categories `history business aerospace`. Debug tags `<!-- A281 -->` and `<script>console.log("A281");</script>` on lines 13-14. Front matter `series: spacex_history, series_title: History of SpaceX, series_index: 1`. All 14 post_url cross-references to existing published corpus verified. |
+| A281-P2-T1 | Sync process files | Complete | draft_summary.md adds a Drafted entry for A281; TASKLOG.md and REVERSE_PROMPT.md updated to reflect the staged state; staging commit prepared. |
+| A281-P3-T1 | Publish A281 as standalone | Pending | Editorial date 2026-07-24 verified free of collision. Two-commit publication sequence: staging commit adds draft and process files describing drafting-complete state; publication commit performs git mv from `_drafts/` to `_posts/` with date prefix and syncs process files to published state; then push to origin/master. |
+
+### Prior Task (A277-A280 Virtual Reputation Manipulation miniseries) — Complete
 
 | ID | Task | Status | Verification |
 |----|------|--------|--------------|
@@ -40,7 +46,8 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Notes
 
-- Next available article number after this miniseries publishes: A281.
+- Next available article number after A281 publishes: A282.
+- A281 opens the History of SpaceX series (planned A281-A292) but publishes standalone under human-pilot direction; A282-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
 - 0 release candidates from the stream-based compilers series.
 - 0 new drafts. A266-A276 Ethnoreligion and American Political Economy series published as batch on 2026-07-24 at editorial dates 2026-01-03 through 2026-01-13. A108 through A144 published; A152 through A160 published (analog-facilities series); A161 through A172 published (patent and startup strategy series, sister session); A173 through A187 published (two-dimensional projection in games series); A188 through A199 published (stream-based compilers series); A200 published (history of hardware description languages one-off); A201 published (design space for next-generation HDLs, companion to A200); A202 published (meta-factory prior art and the reproduction loop, companion to A201); A203 published (HDL state of the practice, third article completing the HDL thread with A200 and A201); A204 published (self-hosted silicon compiler, fifth article completing the HDL and manufacturing thread with A200 through A203); A205 published (getting started with Keleusma 0.2.2, third in the getting-started series with A107 and A110); A206 through A215 published (Developments in Programming Language Theory ten-article historical arc); A216 published (Keleusma self-hosting strategy, adapted from two internal Keleusma documents); A217 through A221 published (Rocket Propellant Chemistry five-article back-dated series covering the chemical propellant taxonomy from design tradeoffs through solid, cryogenic liquid, storable liquid, and hybrid combinations).
 - 0 stubs.
