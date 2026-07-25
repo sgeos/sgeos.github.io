@@ -9,26 +9,22 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-24
-**Task**: A281 History of SpaceX series opener drafted and staged for standalone publication at editorial date 2026-07-24. Article opens a planned twelve-article series (A281-A292) but is being published standalone under human-pilot direction; A282-A292 to be drafted and published in subsequent sessions.
+**Task**: A281 History of SpaceX series opener published as standalone at editorial date 2026-07-24 via two-commit sequence pushed to origin/master. Article opens a planned twelve-article series (A281-A292); A282-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit standalone publication sequence:
+Two-commit standalone publication sequence pushed to origin/master 2026-07-24:
 
-1. **Staging commit** — adds `_drafts/spacex_history_framing.markdown` and syncs process files describing the drafting-complete state
-2. **Publication commit** — performs `git mv` from `_drafts/spacex_history_framing.markdown` to `_posts/2026-07-24-spacex_history_framing.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then push to origin/master
+1. **Staging commit** `9f43278` — added `_drafts/spacex_history_framing.markdown` and synced process files describing the drafting-complete state
+2. **Publication commit** — performed `git mv` from `_drafts/spacex_history_framing.markdown` to `_posts/2026-07-24-spacex_history_framing.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state
 
 ---
 
-## Drafted File
+## Published File
 
-- `_drafts/spacex_history_framing.markdown` (A281, series opener, series `spacex_history`, index 1 of 12)
-
-## Planned File Path After Publication
-
-- `_posts/2026-07-24-spacex_history_framing.markdown` (editorial date 2026-07-24, categories `history business aerospace`)
+- `_posts/2026-07-24-spacex_history_framing.markdown` (A281, series opener, series `spacex_history`, index 1 of 12, editorial date 2026-07-24, categories `history business aerospace`)
 
 ---
 
