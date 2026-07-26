@@ -9,67 +9,91 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-25
-**Task**: Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) published as a two-commit batch filling the 2026-01-18 and 2026-01-19 editorial-date gap, pushed to origin/master. This miniseries is independent of the on-hold History of SpaceX thread (A283-A292 remain to be drafted).
+**Task**: A283 History of SpaceX Anchor Demand article drafted and staged for standalone publication at editorial date 2026-07-26 with 09:00 UTC publication time. Article is the third of the twelve-article History of SpaceX series (A281-A292) and treats the anchor-demand forcing-function condition through the 2008 near-death moment, the December 2008 CRS-1 salvation, the Cargo Resupply Services execution, the Commercial Crew Program, the Human Landing System Artemis Program, and the Starshield defense-service line. A284 through A292 to be published in subsequent sessions.
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit batch publication sequence pushed to origin/master 2026-07-25:
+Two-commit standalone publication sequence:
 
-1. **Staging commit** `f903826` — added `_drafts/enhanced_luxury_restrooms.markdown` and `_drafts/enhanced_luxury_bathing.markdown` with process files describing the drafting-complete state
-2. **Publication commit** — performed `git mv` from `_drafts/` to `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` and `_posts/2026-01-19-enhanced_luxury_bathing.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then pushed to origin/master
+1. **Staging commit** — adds `_drafts/spacex_history_anchor_demand.markdown` and syncs process files describing the drafting-complete state
+2. **Publication commit** — performs `git mv` from `_drafts/spacex_history_anchor_demand.markdown` to `_posts/2026-07-26-spacex_history_anchor_demand.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then push to origin/master
 
 ---
 
-## Published Files
+## Drafted File
 
-- `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` (A293, series `enhanced_luxury_facilities`, index 1 of 2, editorial date 2026-01-18, categories `culture architecture design`)
-- `_posts/2026-01-19-enhanced_luxury_bathing.markdown` (A294, series `enhanced_luxury_facilities`, index 2 of 2, editorial date 2026-01-19, categories `culture architecture design`)
+- `_drafts/spacex_history_anchor_demand.markdown` (A283, series `spacex_history`, index 3 of 12)
+
+## Planned File Path After Publication
+
+- `_posts/2026-07-26-spacex_history_anchor_demand.markdown` (editorial date 2026-07-26 09:00 UTC, categories `history business aerospace`)
 
 ---
 
 ## Article Metrics
 
-| Metric | A293 Restrooms | A294 Bathing |
-|---|---|---|
-| Lines | 1,006 | 961 |
-| Words | ~17,702 | ~15,571 |
-| Display equations | 70 | 68 |
-| H2 sections | 31 | 32 |
-| Total reference anchors | 203 | 209 |
-| Books | 51 | 66 |
-| Reference | 106 | 93 |
-| Research | 46 | 49 |
-| Related Post | 0 | 1 |
-| Em-dashes / en-dashes / prose contractions | 0 / 0 / 0 | 0 / 0 / 0 |
-| Missing / unused / duplicate anchors | 0 / 0 / 0 | 0 / 0 / 0 |
+| Metric | Value |
+|---|---|
+| Lines | 1,100 |
+| Words | ~15,332 |
+| Display equations | 66 |
+| H2 sections | 21 |
+| Total reference anchors | 232 |
+| Books | 82 |
+| Reference | 90 |
+| Research | 49 |
+| Related Post | 11 |
+| Em-dashes / en-dashes / prose parens / prose contractions | 0 / 0 / 0 / 0 |
+| Missing / unused / duplicate anchors | 0 / 0 / 0 |
+
+Twenty-one H2 sections: Anchor-Demand Mapping Problem, Methodological Commitments, Anchor Demand as an Economic Property, Cross-Disciplinary Framings, The 2008 Near-Death Moment, The COTS-1 Salvation of December 2008, Cargo Resupply Services Execution 2008-2026, Commercial Crew Program 2014-2026, Human Landing System Artemis 2021-2026, Starshield and National Security Anchor Portfolio 2022-2026, Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Contemporary Comparative Landscape, Comparative Cross-Sectional Analysis, Data Sources and Reconstruction Methodology, Alternative Analytical Frameworks, Pattern Extraction, Cross-References to the Series, Terminological Note, Load-Bearing Open Questions, References.
 
 ---
 
-## Shared Analytical Framework
+## Anchor-Demand Content Coverage
 
-Both articles apply the six-dimension facility-elevation framework introduced in A293 and generalized across facility classes in A294. The six dimensions are hygienic sufficiency (the gating base), discretion and privacy, sensory and aesthetic enrichment, throughput and access equity, social and ritual signification, and technological augmentation, aggregated into a gated elevation index. A293 treats the elimination facility (with the queueing and potty-parity apparatus, acoustic masking, ventilation, hygiene and flush hydraulics), and A294 treats the immersion facility (with heat-transfer, thermoregulation, hot-spring geochemistry and geothermometry, disinfection kinetics, and bath-hall acoustics), closing with the cross-facility generalization that the dimension weights are set by the nature of the bodily act the facility serves.
+- **The 2008 Near-Death Moment**: three consecutive Falcon 1 launch failures, approximately 4 to 6 million dollars remaining cash, parallel Tesla crisis, founder cross-firm capital allocation
+- **The COTS-1 Salvation of December 2008**: 1.6 billion dollar CRS-1 contract four days after fourth Falcon 1 success, 1.9 billion dollar parallel award to Orbital Sciences, fixed-price milestone-payment mechanism under Space Act Agreement authority
+- **Cargo Resupply Services Execution 2008-2026**: CRS-1 mission October 8 2012, CRS-7 loss June 28 2015, CRS-2 award January 2016 to SpaceX and Orbital ATK and Sierra Nevada, Dragon 2 cargo first flight December 6 2020, contemporary 3-5 missions per year cadence
+- **Commercial Crew Program 2014-2026**: CCtCap September 16 2014 (Boeing 4.2B, SpaceX 2.6B), Demo-1 uncrewed March 2019, Demo-2 crewed May 30 2020, Crew-1 November 15 2020, subsequent operational rotation, Boeing Starliner CFT June 2024 with subsequent problems requiring uncrewed return
+- **Human Landing System Artemis 2021-2026**: Option A April 16 2021 (2.89B to SpaceX), Blue Origin GAO protest and denial July 30 2021, Blue Origin lawsuit dismissal November 4 2021, Option B November 15 2022 (1.15B additional), Blue Origin sustaining award May 19 2023 (3.4B)
+- **Starshield and National Security Anchor Portfolio 2022-2026**: Starshield announcement December 2022, reported 1.8B NRO contract, T-Mobile direct-to-cell partnership August 2022, direct-to-cell FCC authorization 2024, NSSL Phase 1A/Phase 2/Phase 3 Lane 2 certification progression
 
 ---
 
-## Reference Coverage
+## Pattern Extraction
 
-Both articles carry a primary-source layer beneath their secondary scholarship. A293 cites the classical Roman engineering texts (Frontinus, Vitruvius, Pliny), the primary legal and standards documents (10 CFR Part 430, US Access Board ADA standards, EPA WaterSense specification and program, UN General Assembly resolution 67/291), and primary institutional data (WHO sanitation fact sheet, WHO and UNICEF Joint Monitoring Programme), alongside the queueing, acoustic, hygiene, servicescape, potty-parity, and toilet-plume literature. A294 cites the classical primary texts (Frontinus, Vitruvius, Celsus, Pliny, Strabo, Pausanias) and the Meiji-era travel accounts, alongside the archaeological, balneological, sauna-cohort, onsen, geochemical, and heat-transfer literature.
+Article closes with pattern-extraction section stating the abstract anchor-demand mechanic requires joint satisfaction of five sub-properties: identifiable anchor customer, incentive-compatible payment structure, multi-year sustainment, technical-standard-setting, anchor-portfolio diversification.
+
+---
+
+## Cross-Reference Verification
+
+All eleven post_url cross-references to existing published corpus verified as of drafting date, including back-references to A281 series opener and A282 Value Gradient article.
+
+---
+
+## Publication Time Convention
+
+Series-wide convention: SpaceX History series articles publish at 09:00 UTC. A283 uses this convention. Note that A281 (published at 00:00 UTC) and A282 (published at 00:00 UTC) predate this convention. A retroactive update to A281 and A282 dates is available if desired but has not been performed as of the A283 publication.
 
 ---
 
 ## Article Number State
 
-- This miniseries occupies A293 and A294.
-- Next available article number after this miniseries publishes: A295.
-- The History of SpaceX series reserves A283-A292; those articles remain to be drafted and are unaffected by this miniseries.
+- Next available article number after A283 publishes: A284 (currently drafted, awaiting expansion passes).
+- A283 is the third standalone publication of the History of SpaceX series.
+- A284 through A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
+- The A293/A294 Enhanced and Luxury Facilities miniseries was published as an independent thread on 2026-07-25 and does not affect the SpaceX series article-number reservation A281-A292.
 
 ---
 
 ## Notes
 
-- Editorial dates 2026-01-18 and 2026-01-19 verified free of collision with the published corpus, filling the two-day gap between 2026-01-17 nonblocking-getchar-in-c and 2026-01-20 timezones_for_trading_and_remote_teams.
-- A294 back-references A293 via a `post_url` tag that resolves at publication once A293 is in `_posts/`; A293 references the companion in prose only, per the back-reference-only convention. A `DRAFTS=1` preview will abort until publication because that tag cannot resolve against a draft filename; this is expected.
-- All reference URLs verified this session via WebFetch (the WebSearch budget was exhausted). A handful of canonical book citations use guaranteed-resolving Open Library search URLs rather than specific work-record IDs and can be upgraded in a later session. The CDC clean-hands page was dropped after a 403 with an uncertain post-reorganization path rather than cite an unverified URL.
-- In-text flags remain on the manufacturer water-saving figure, the wellness-economy sector totals, and the dossier-flagged contested points (Baths of Caracalla capacity, Çemberlitaş attribution, thalassotherapy 1865 dating, Cumming patent number), each marked as estimate or contested.
+- Editorial date 2026-07-26 verified free of collision with published corpus.
+- Two-commit sequence isolates the drafting-complete state on the staging commit and the publication act on the publication commit.
+- URL verification not exhaustively performed. Memory flags .mil sites, docs.fcc.gov, oig.nasa.gov, JSTOR, ScienceDirect, and journal-publisher paths as prone to 403 responses under scripted checks; those URLs have not been individually curl-verified and should be re-checked in any future URL verification pass.
+- Series continues to proceed standalone rather than as twelve-article batch per human-pilot direction. A283 follows the A281 and A282 pattern of standalone-single-article publication with process files updated per the two-commit convention.
+- A284 draft `_drafts/spacex_history_value_capture.markdown` exists (initial draft) and awaits equation-density, reference-density, and publication-review expansion passes before publication in a subsequent session. The A284 draft is not included in this staging commit and remains untracked.

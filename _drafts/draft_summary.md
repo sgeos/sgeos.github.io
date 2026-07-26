@@ -18,6 +18,30 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## Draft Status
 
+### History of SpaceX Anchor Demand article (A283) — Drafted
+
+**Files**:
+- `_drafts/spacex_history_anchor_demand.markdown` (A283, third article of the History of SpaceX series, series `spacex_history`, series_index 3 of 12)
+
+**Topic**: Third article in the History of SpaceX series treating the anchor-demand forcing-function condition. Article walks the SpaceX anchor-demand trajectory through the 2008 near-death moment following three consecutive Falcon 1 launch failures, the December 23 2008 CRS-1 salvation with the 1.6 billion dollar Commercial Resupply Services contract, the Cargo Resupply Services execution across the CRS-1 and CRS-2 rounds, the Commercial Crew Program across the September 16 2014 CCtCap award through the May 30 2020 Demo-2 first commercial crewed flight, the Human Landing System Artemis Program across the April 16 2021 Option A award through the May 19 2023 Blue Origin sustaining second-provider award, the Starshield defense-service line launched in December 2022, and the parallel Space Force National Security Space Launch certification progression through Phase 1A, Phase 2, and Phase 3 Lane 2. Article closes with pattern-extraction section stating the abstract anchor-demand mechanic requires joint satisfaction of five sub-properties: identifiable anchor customer, incentive-compatible payment structure, multi-year sustainment, technical-standard-setting, and anchor-portfolio diversification.
+
+**Article Numbers**: A283 (with A284 currently drafted at initial-draft state and A285 through A292 planned in subsequent sessions)
+**Completion**: 100% ready for standalone publication at editorial date 2026-07-26 with 09:00 UTC publication time per new series-wide convention
+**Publication Sensibility**: High (comprehensive literature-survey article at publication-review parity with A281 and A282; editorial date 2026-07-26 verified free of collision with published corpus)
+**Status**: Drafted 2026-07-25 with equation-density expansion pass (8 to 60 display equations), reference-density expansion pass (97 to 190 total anchors), and comprehensive publication-review expansion pass (190 to 232 total anchors, adding two new H2 sections and expanding Cross-Disciplinary Framings, Deep Historical Comparative Precedents, Historiographical Gap, and Alternative Analytical Frameworks sections). 1,100 lines, ~15,332 words, 66 display equations, 21 H2 sections, 82 book references, 49 research references, 90 primary reference URLs, 11 related-post cross-references, 232 total reference anchors with zero missing/unused/duplicated. Zero em-dashes/en-dashes/prose contractions/prose parentheticals outside math notation. Categories `history business aerospace`. Debug tags on lines 13-14. Front matter `series: spacex_history, series_title: History of SpaceX, series_index: 3`. Publication time 09:00 UTC per new series-wide convention. All 11 post_url cross-references to existing published corpus verified including back-references to A281 series opener and A282 Value Gradient article.
+
+### History of SpaceX Value Capture article (A284) — Drafted (initial only)
+
+**Files**:
+- `_drafts/spacex_history_value_capture.markdown` (A284, fourth article of the History of SpaceX series, series `spacex_history`, series_index 4 of 12)
+
+**Topic**: Fourth article in the History of SpaceX series treating the value-capture forcing-function condition. Article walks the launch-service pricing evolution and dollar-per-kilogram trajectory, the Starlink vertical integration into satellite-broadband, and contrasts with the canonical Xerox PARC and Bell Labs value-capture negation cases. Article closes with pattern-extraction section stating the abstract value-capture mechanic requires joint satisfaction of five sub-properties.
+
+**Article Numbers**: A284
+**Completion**: Initial draft only. Equation-density, reference-density, and publication-review expansion passes pending.
+**Publication Sensibility**: High (initial draft covers all required content; awaits expansion passes to reach publication-review parity with A281, A282, and A283)
+**Status**: Initial draft 2026-07-25. 489 lines, ~7,624 words, 12 display equations, 22 H2 sections, 67 total reference anchors with zero missing/unused/duplicated. Zero em-dashes/en-dashes/prose contractions/prose parentheticals outside math notation. Categories `history business aerospace`. Debug tags on lines 13-14. Front matter `series: spacex_history, series_title: History of SpaceX, series_index: 4`. Awaits equation-density expansion pass, reference-density expansion pass, and comprehensive publication-review expansion pass.
+
 ### Enhanced and Luxury Facilities miniseries (A293-A294) — Published
 
 **Files**:
