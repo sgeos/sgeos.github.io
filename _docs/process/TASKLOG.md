@@ -9,7 +9,7 @@ Current task state and verification log. This file is the shared source of truth
 ## Current Task
 
 **Name**: Publish the Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) as a two-commit batch filling the 2026-01-18 and 2026-01-19 editorial-date gap, pushed to origin/master. Standalone miniseries independent of the on-hold History of SpaceX thread.
-**Status**: Staged for publication (drafts complete, staging commit pending)
+**Status**: Complete (published as batch)
 **Started**: 2026-07-25
 
 ## Success Criteria
@@ -22,7 +22,7 @@ Current task state and verification log. This file is the shared source of truth
 - [x] Anchor integrity verified (zero missing, zero unused, zero duplicate on both articles).
 - [x] A294 back-references A293 via post_url; A293 references the companion in prose only per the back-reference-only convention.
 - [x] Editorial dates 2026-01-18 and 2026-01-19 verified free of collision (gap between 2026-01-17 nonblocking-getchar-in-c and 2026-01-20 timezones_for_trading_and_remote_teams).
-- [ ] Two-commit batch publication pushed to origin/master. Staging commit adds drafts and process files describing the drafting-complete state; publication commit performs `git mv` from `_drafts/` to `_posts/` with date prefixes and syncs process files to published state.
+- [x] Two-commit batch publication pushed to origin/master. Staging commit `f903826` added drafts and process files describing the drafting-complete state; publication commit performed `git mv` from `_drafts/` to `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` and `_posts/2026-01-19-enhanced_luxury_bathing.markdown` and synced process files to the published state.
 
 ### Prior Task (A282 History of SpaceX Value Gradient) — Complete
 
