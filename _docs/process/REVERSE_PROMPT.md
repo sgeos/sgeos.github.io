@@ -9,26 +9,22 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-25
-**Task**: A283 History of SpaceX Anchor Demand article drafted and staged for standalone publication at editorial date 2026-07-26 with 09:00 UTC publication time. Article is the third of the twelve-article History of SpaceX series (A281-A292) and treats the anchor-demand forcing-function condition through the 2008 near-death moment, the December 2008 CRS-1 salvation, the Cargo Resupply Services execution, the Commercial Crew Program, the Human Landing System Artemis Program, and the Starshield defense-service line. A284 through A292 to be published in subsequent sessions.
+**Task**: A283 History of SpaceX Anchor Demand article published as standalone at editorial date 2026-07-26 with 09:00 UTC publication time via two-commit sequence pushed to origin/master. Article is the third of the twelve-article History of SpaceX series (A281-A292). A284 through A292 to be published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit standalone publication sequence:
+Two-commit standalone publication sequence pushed to origin/master 2026-07-25:
 
-1. **Staging commit** — adds `_drafts/spacex_history_anchor_demand.markdown` and syncs process files describing the drafting-complete state
-2. **Publication commit** — performs `git mv` from `_drafts/spacex_history_anchor_demand.markdown` to `_posts/2026-07-26-spacex_history_anchor_demand.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then push to origin/master
+1. **Staging commit** `11caa98` — added `_drafts/spacex_history_anchor_demand.markdown` and synced process files describing the drafting-complete state
+2. **Publication commit** — performed `git mv` from `_drafts/spacex_history_anchor_demand.markdown` to `_posts/2026-07-26-spacex_history_anchor_demand.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state
 
 ---
 
-## Drafted File
+## Published File
 
-- `_drafts/spacex_history_anchor_demand.markdown` (A283, series `spacex_history`, index 3 of 12)
-
-## Planned File Path After Publication
-
-- `_posts/2026-07-26-spacex_history_anchor_demand.markdown` (editorial date 2026-07-26 09:00 UTC, categories `history business aerospace`)
+- `_posts/2026-07-26-spacex_history_anchor_demand.markdown` (A283, series `spacex_history`, index 3 of 12, editorial date 2026-07-26 09:00 UTC, categories `history business aerospace`)
 
 ---
 
