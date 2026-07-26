@@ -9,77 +9,67 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-25
-**Task**: A282 History of SpaceX Value Gradient article published as standalone at editorial date 2026-07-25 via two-commit sequence pushed to origin/master. Article is the second of the twelve-article History of SpaceX series (A281-A292); A283-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
+**Task**: Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) staged for two-commit batch publication filling the 2026-01-18 and 2026-01-19 editorial-date gap. This miniseries is independent of the on-hold History of SpaceX thread (A283-A292 remain to be drafted).
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit standalone publication sequence pushed to origin/master 2026-07-25:
+Two-commit batch publication sequence (staging commit created; publication commit and push to follow):
 
-1. **Staging commit** `c28a6a0` — added `_drafts/spacex_history_value_gradient.markdown` and synced process files describing the drafting-complete state
-2. **Publication commit** — performed `git mv` from `_drafts/spacex_history_value_gradient.markdown` to `_posts/2026-07-25-spacex_history_value_gradient.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state
+1. **Staging commit** — adds `_drafts/enhanced_luxury_restrooms.markdown` and `_drafts/enhanced_luxury_bathing.markdown` with process files describing the drafting-complete state
+2. **Publication commit** — performs `git mv` from `_drafts/` to `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` and `_posts/2026-01-19-enhanced_luxury_bathing.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then pushes to origin/master
 
 ---
 
-## Published File
+## Staged Files
 
-- `_posts/2026-07-25-spacex_history_value_gradient.markdown` (A282, series `spacex_history`, index 2 of 12, editorial date 2026-07-25, categories `history business aerospace`)
+- `_drafts/enhanced_luxury_restrooms.markdown` (A293, series `enhanced_luxury_facilities`, index 1 of 2, editorial date 2026-01-18, categories `culture architecture design`)
+- `_drafts/enhanced_luxury_bathing.markdown` (A294, series `enhanced_luxury_facilities`, index 2 of 2, editorial date 2026-01-19, categories `culture architecture design`)
 
 ---
 
 ## Article Metrics
 
-| Metric | Value |
-|---|---|
-| Lines | 1,235 |
-| Words | ~24,367 |
-| Display equations | 64 |
-| H2 sections | 20 |
-| Total reference anchors | 236 |
-| Books | 85 |
-| Reference | 79 |
-| Research | 60 |
-| Related Post | 12 |
-| Em-dashes / en-dashes / prose parens / prose contractions | 0 / 0 / 0 / 0 |
-| Missing / unused / duplicate anchors | 0 / 0 / 0 |
-
-Twenty H2 sections: Value-Gradient Mapping Problem, Methodological Commitments, Value Gradient as an Economic Property, Cross-Disciplinary Framings, Falcon 1 Development Period 2002-2008, Falcon 9 Development Period 2005-2010, Reusability Progression 2011-2026, Iridium Single-Bet Contrast, Deep Historical Comparative Precedents, Historiographical Gap and Recent Scholarship, Regulatory and Technical Framework, Contemporary Comparative Landscape, Comparative Cross-Sectional Analysis, Data Sources and Reconstruction Methodology, Alternative Analytical Frameworks, Pattern Extraction, Cross-References to the Series, Terminological Note, Load-Bearing Open Questions, References.
+| Metric | A293 Restrooms | A294 Bathing |
+|---|---|---|
+| Lines | 1,006 | 961 |
+| Words | ~17,702 | ~15,571 |
+| Display equations | 70 | 68 |
+| H2 sections | 31 | 32 |
+| Total reference anchors | 203 | 209 |
+| Books | 51 | 66 |
+| Reference | 106 | 93 |
+| Research | 46 | 49 |
+| Related Post | 0 | 1 |
+| Em-dashes / en-dashes / prose contractions | 0 / 0 / 0 | 0 / 0 / 0 |
+| Missing / unused / duplicate anchors | 0 / 0 / 0 | 0 / 0 / 0 |
 
 ---
 
-## Value-Gradient Content Coverage
+## Shared Analytical Framework
 
-The article walks the SpaceX value-gradient trajectory through:
-
-- **Falcon 1 Development Period 2002-2008**: SpaceX founding, Merlin engine development from TR-107 lineage, Kwajalein Omelek Island launch site, four failed launch attempts culminating in September 28 2008 fourth-flight orbital success, fifth-flight July 14 2009 RazakSAT commercial payload
-- **Falcon 9 Development Period 2005-2010**: nine-engine octaweb architecture, COTS Round 1 278 million dollar award August 2006, June 4 2010 first Falcon 9 flight, December 8 2010 Dragon C1 first spacecraft flight, CRS-1 December 23 2008 anchor demand, May 22 2012 Dragon C2/C3 ISS berthing, SES-8 December 3 2013 first geostationary transfer orbit, Falcon 9 v1.0 through v1.1 through Full Thrust vehicle-block progression
-- **Reusability Progression 2011-2026**: Grasshopper vertical takeoff and landing testbed 2011-2013, F9R Dev1 continuation, initial CRS-6 April 2015 recovery attempt, December 21 2015 Orbcomm-2 first successful land landing, April 8 2016 CRS-8 first drone-ship landing, March 30 2017 SES-10 first refly, Falcon 9 Full Thrust and Block 5 configurations, contemporary routine-refly cadence with boosters flying low double-digit flights
-- **Iridium Single-Bet Contrast**: 1988 Motorola concept, 5 billion dollar investment, 1998 commercial service, 55000 subscribers vs 500000 forecast, August 13 1999 Chapter 11 filing, 25 million dollar salvage at 0.5 percent recovery, subsequent Iridium NEXT deployment on Falcon 9 launches
-
-## Pattern Extraction
-
-Article closes with pattern-extraction section stating the abstract value-gradient mechanic requires joint satisfaction of five sub-properties: architectural decomposability, incentive-structure alignment, process discipline, strategic patience, demand-configuration absorption. Counterfactual cases identified in the article negate one or more sub-properties.
+Both articles apply the six-dimension facility-elevation framework introduced in A293 and generalized across facility classes in A294. The six dimensions are hygienic sufficiency (the gating base), discretion and privacy, sensory and aesthetic enrichment, throughput and access equity, social and ritual signification, and technological augmentation, aggregated into a gated elevation index. A293 treats the elimination facility (with the queueing and potty-parity apparatus, acoustic masking, ventilation, hygiene and flush hydraulics), and A294 treats the immersion facility (with heat-transfer, thermoregulation, hot-spring geochemistry and geothermometry, disinfection kinetics, and bath-hall acoustics), closing with the cross-facility generalization that the dimension weights are set by the nature of the bodily act the facility serves.
 
 ---
 
-## Cross-Reference Verification
+## Reference Coverage
 
-All twelve post_url cross-references to existing published corpus verified as of drafting date, including back-reference to A281 series opener and forward references to specific subsequent articles A283 through A292 (which have not yet been drafted, referenced narratively without post_url tags).
+Both articles carry a primary-source layer beneath their secondary scholarship. A293 cites the classical Roman engineering texts (Frontinus, Vitruvius, Pliny), the primary legal and standards documents (10 CFR Part 430, US Access Board ADA standards, EPA WaterSense specification and program, UN General Assembly resolution 67/291), and primary institutional data (WHO sanitation fact sheet, WHO and UNICEF Joint Monitoring Programme), alongside the queueing, acoustic, hygiene, servicescape, potty-parity, and toilet-plume literature. A294 cites the classical primary texts (Frontinus, Vitruvius, Celsus, Pliny, Strabo, Pausanias) and the Meiji-era travel accounts, alongside the archaeological, balneological, sauna-cohort, onsen, geochemical, and heat-transfer literature.
 
 ---
 
 ## Article Number State
 
-- Next available article number: A283 (once A282 publishes).
-- A282 is the second standalone publication of the History of SpaceX series.
-- A283-A292 to be drafted and published in subsequent sessions per the handoff prompt at `tmp/spacex_series_handoff_prompt.md`.
+- This miniseries occupies A293 and A294.
+- Next available article number after this miniseries publishes: A295.
+- The History of SpaceX series reserves A283-A292; those articles remain to be drafted and are unaffected by this miniseries.
 
 ---
 
 ## Notes
 
-- Editorial date 2026-07-25 verified free of collision with published corpus (last published post before this is 2026-07-24 A281).
-- Two-commit sequence isolates the drafting-complete state on the staging commit and the publication act on the publication commit.
-- URL verification not exhaustively performed. Memory flags .mil sites, docs.fcc.gov, oig.nasa.gov, JSTOR, ScienceDirect, and journal-publisher paths as prone to 403 responses under scripted checks; those URLs have not been individually curl-verified and should be re-checked in any future URL verification pass.
-- Series continues to proceed standalone rather than as twelve-article batch per human-pilot direction. A282 follows the A281 pattern of standalone-single-article publication with process files updated per the two-commit convention.
+- Editorial dates 2026-01-18 and 2026-01-19 verified free of collision with the published corpus, filling the two-day gap between 2026-01-17 nonblocking-getchar-in-c and 2026-01-20 timezones_for_trading_and_remote_teams.
+- A294 back-references A293 via a `post_url` tag that resolves at publication once A293 is in `_posts/`; A293 references the companion in prose only, per the back-reference-only convention. A `DRAFTS=1` preview will abort until publication because that tag cannot resolve against a draft filename; this is expected.
+- All reference URLs verified this session via WebFetch (the WebSearch budget was exhausted). A handful of canonical book citations use guaranteed-resolving Open Library search URLs rather than specific work-record IDs and can be upgraded in a later session. The CDC clean-hands page was dropped after a 403 with an uncertain post-reorganization path rather than cite an unverified URL.
+- In-text flags remain on the manufacturer water-saving figure, the wellness-economy sector totals, and the dossier-flagged contested points (Baths of Caracalla capacity, Çemberlitaş attribution, thalassotherapy 1865 dating, Cumming patent number), each marked as estimate or contested.
