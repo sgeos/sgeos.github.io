@@ -8,21 +8,25 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Publish A282 History of SpaceX Value Gradient article at editorial date 2026-07-25 as a standalone two-commit publication pushed to origin/master. Article is the second of the planned twelve-article History of SpaceX series (A281-A292) and treats the value-gradient forcing-function condition through the Falcon 1, Falcon 9, and reusability progression against the Iridium single-bet contrast. A283-A292 to be drafted and published in subsequent sessions.
-**Status**: Complete (published as standalone)
+**Name**: Publish the Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) as a two-commit batch filling the 2026-01-18 and 2026-01-19 editorial-date gap, pushed to origin/master. Standalone miniseries independent of the on-hold History of SpaceX thread.
+**Status**: Staged for publication (drafts complete, staging commit pending)
 **Started**: 2026-07-25
 
 ## Success Criteria
 
-- [x] A282 Value Gradient article drafted at `_drafts/spacex_history_value_gradient.markdown` treating the value-gradient forcing-function condition through the Falcon 1 development period 2002-2008, the Falcon 9 development period 2005-2010, the reusability progression 2011-2026, and the Iridium single-bet contrast, with pattern-extraction section stating the abstract value-gradient mechanic requires joint satisfaction of five sub-properties (architectural decomposability, incentive-structure alignment, process discipline, strategic patience, demand-configuration absorption).
-- [x] A282 equation-density expansion pass complete at 64 display equations (target 60-72).
-- [x] A282 reference-density expansion pass complete at 236 total reference anchors (target 190-292).
-- [x] A282 publication-review expansion pass complete adding Comparative Cross-Sectional Analysis and Data Sources and Reconstruction Methodology H2 sections, expanding Cross-Disciplinary Framings with six additional traditions (institutional economics, financial sociology, absorptive capacity, ecosystem strategy, reliability engineering), expanding Deep Historical Comparative Precedents with six additional cases (Tesla lineage, Airbus A300-A380 family, ISS assembly, Boeing 787, NASA Constellation cancellation, Toyota Production System), and expanding Alternative Analytical Frameworks with four additional framings (political-economy critique, public-choice/rent-seeking, national-champion, actor-network-theory).
-- [x] Style discipline verified on A282 (zero em-dashes, zero en-dashes, zero prose contractions, zero prose parentheticals outside math, categories `history business aerospace`, debug tags on lines 13-14, series metadata `series: spacex_history, series_title: History of SpaceX, series_index: 2`).
-- [x] Anchor integrity verified (zero missing, zero unused, zero duplicate across 236 anchors).
-- [x] All twelve post_url cross-references to existing published corpus verified against `_posts/` filenames, including back-reference to A281 series opener.
-- [x] Editorial date 2026-07-25 verified free of collision (last published post before this is 2026-07-24 A281).
-- [x] Publication as standalone two-commit sequence pushed to origin/master. Staging commit `c28a6a0` added draft and process files describing drafting-complete state. Publication commit performed `git mv` from `_drafts/spacex_history_value_gradient.markdown` to `_posts/2026-07-25-spacex_history_value_gradient.markdown` and synced process files to published state.
+- [x] A293 Enhanced and Luxury Restrooms drafted at `_drafts/enhanced_luxury_restrooms.markdown` and A294 Enhanced and Luxury Bathing at `_drafts/enhanced_luxury_bathing.markdown`, sharing the six-dimension facility-elevation framework (hygienic sufficiency as gating base, discretion and privacy, sensory enrichment, throughput and access equity, social signification, technological augmentation) with A294 carrying the cross-facility generalization.
+- [x] Equation-density: A293 at 70 display equations, A294 at 68 (target 60-72).
+- [x] Reference-density: A293 at 203 total anchors (51 books, 106 reference, 46 research), A294 at 209 total anchors (66 books, 93 reference, 49 research, 1 related post), including a primary-source pass adding classical primary texts (Frontinus, Vitruvius, Celsus, Pliny, Strabo, Pausanias) and primary legal, standards, and institutional documents (10 CFR Part 430, UN resolution 67/291, US Access Board, EPA WaterSense, WHO sanitation, WHO and UNICEF Joint Monitoring Programme).
+- [x] Publication-review pass strengthening the contemporary-literature survey character across both articles.
+- [x] Style discipline verified (zero em-dashes, zero en-dashes, zero prose contractions, zero prose parentheticals or prose colons outside math, categories `culture architecture design`, debug tags on lines 13-14, series metadata `series: enhanced_luxury_facilities, series_title: Enhanced and Luxury Facilities, series_index: 1 and 2`).
+- [x] Anchor integrity verified (zero missing, zero unused, zero duplicate on both articles).
+- [x] A294 back-references A293 via post_url; A293 references the companion in prose only per the back-reference-only convention.
+- [x] Editorial dates 2026-01-18 and 2026-01-19 verified free of collision (gap between 2026-01-17 nonblocking-getchar-in-c and 2026-01-20 timezones_for_trading_and_remote_teams).
+- [ ] Two-commit batch publication pushed to origin/master. Staging commit adds drafts and process files describing the drafting-complete state; publication commit performs `git mv` from `_drafts/` to `_posts/` with date prefixes and syncs process files to published state.
+
+### Prior Task (A282 History of SpaceX Value Gradient) — Complete
+
+- [x] A282 published as standalone at editorial date 2026-07-25 via two-commit sequence pushed to origin/master (staging commit `c28a6a0`, publication commit `cb444bb`). Detail retained in git history and `_drafts/draft_summary.md`.
 
 ### Prior Task (A281 History of SpaceX Series Opener) — Complete
 
