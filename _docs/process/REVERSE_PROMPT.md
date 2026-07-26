@@ -9,23 +9,23 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-07-25
-**Task**: Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) staged for two-commit batch publication filling the 2026-01-18 and 2026-01-19 editorial-date gap. This miniseries is independent of the on-hold History of SpaceX thread (A283-A292 remain to be drafted).
+**Task**: Enhanced and Luxury Facilities two-part miniseries (A293 Restrooms, A294 Bathing) published as a two-commit batch filling the 2026-01-18 and 2026-01-19 editorial-date gap, pushed to origin/master. This miniseries is independent of the on-hold History of SpaceX thread (A283-A292 remain to be drafted).
 
 ---
 
 ## Publication Commit Sequence
 
-Two-commit batch publication sequence (staging commit created; publication commit and push to follow):
+Two-commit batch publication sequence pushed to origin/master 2026-07-25:
 
-1. **Staging commit** — adds `_drafts/enhanced_luxury_restrooms.markdown` and `_drafts/enhanced_luxury_bathing.markdown` with process files describing the drafting-complete state
-2. **Publication commit** — performs `git mv` from `_drafts/` to `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` and `_posts/2026-01-19-enhanced_luxury_bathing.markdown` and syncs draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then pushes to origin/master
+1. **Staging commit** `f903826` — added `_drafts/enhanced_luxury_restrooms.markdown` and `_drafts/enhanced_luxury_bathing.markdown` with process files describing the drafting-complete state
+2. **Publication commit** — performed `git mv` from `_drafts/` to `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` and `_posts/2026-01-19-enhanced_luxury_bathing.markdown` and synced draft_summary.md, TASKLOG.md, and REVERSE_PROMPT.md to the published state, then pushed to origin/master
 
 ---
 
-## Staged Files
+## Published Files
 
-- `_drafts/enhanced_luxury_restrooms.markdown` (A293, series `enhanced_luxury_facilities`, index 1 of 2, editorial date 2026-01-18, categories `culture architecture design`)
-- `_drafts/enhanced_luxury_bathing.markdown` (A294, series `enhanced_luxury_facilities`, index 2 of 2, editorial date 2026-01-19, categories `culture architecture design`)
+- `_posts/2026-01-18-enhanced_luxury_restrooms.markdown` (A293, series `enhanced_luxury_facilities`, index 1 of 2, editorial date 2026-01-18, categories `culture architecture design`)
+- `_posts/2026-01-19-enhanced_luxury_bathing.markdown` (A294, series `enhanced_luxury_facilities`, index 2 of 2, editorial date 2026-01-19, categories `culture architecture design`)
 
 ---
 
