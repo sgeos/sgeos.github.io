@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-02
-**Task**: A289 History of SpaceX Government-Anchor Capital-Formation Leg drafted at `_drafts/spacex_history_government_anchor_leg.markdown` for editorial date 2026-08-01 at 09:00 UTC. Complete draft with the full structural section set and reference apparatus. One density pass remains.
+**Task**: A289 History of SpaceX Government-Anchor Capital-Formation Leg drafted at `_drafts/spacex_history_government_anchor_leg.markdown` for editorial date 2026-08-01 at 09:00 UTC, with both density passes complete. Reference density at 203 and equation density at 70, each in the series band.
 
 ---
 
@@ -42,9 +42,9 @@ I gave equal prominence to what the analysis does **not** establish: it does not
 
 | Metric | Value |
 |---|---|
-| Lines | 866 |
-| Words | ~13,620 |
-| Display equations | 26 |
+| Lines | 1,042 |
+| Words | ~15,846 |
+| Display equations | 70 |
 | H2 sections | 27 |
 | H3 subsections | 11 |
 | Total reference anchors | 203 |
@@ -59,7 +59,7 @@ I gave equal prominence to what the analysis does **not** establish: it does not
 
 ## Items Requiring Your Attention
 
-1. **One density pass remains.** 26 display equations against the 60-72 series band. Reference density is already in band at 203, and primary references at 91 are the second highest in the series after A286. Say the word and I will run the equation pass.
+1. **Both density passes are complete.** Equations 70 in the 60-72 band, references 203 in the 190-234 band, primary references 91 and second highest in the series after A286. A publication-review expansion pass of the kind A286 through A288 received would still add survey breadth, but nothing is outstanding against the baseline.
 
 2. **A sequencing constraint, not a blocker.** A289 back-references A288 by `post_url`, and A288 is still a draft. A289 must publish with A288 or after it. Every other cross-reference resolves, including the three SBIR series links.
 
