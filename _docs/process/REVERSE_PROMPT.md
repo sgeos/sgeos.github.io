@@ -9,61 +9,75 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-02
-**Task**: A284 through A287 of the History of SpaceX series published as a four-article batch at editorial dates 2026-07-27 through 2026-07-30, all at 09:00 UTC, via the two-commit publication sequence pushed to origin/master.
+**Task**: A289 History of SpaceX Government-Anchor Capital-Formation Leg drafted at `_drafts/spacex_history_government_anchor_leg.markdown` for editorial date 2026-08-01 at 09:00 UTC. Complete draft with the full structural section set and reference apparatus. One density pass remains.
 
 ---
 
-## Published Articles
+## The Distinction the Article Is Built On
 
-| # | Editorial date | File | Words | Equations | Anchors |
-|---|---|---|---|---|---|
-| A284 | 2026-07-27 09:00 | `_posts/2026-07-27-spacex_history_value_capture.markdown` | ~14,954 | 65 | 234 |
-| A285 | 2026-07-28 09:00 | `_posts/2026-07-28-spacex_history_decomposability.markdown` | ~16,942 | 69 | 257 |
-| A286 | 2026-07-29 09:00 | `_posts/2026-07-29-spacex_history_generality_forcing.markdown` | ~29,811 | 72 | 390 |
-| A287 | 2026-07-30 09:00 | `_posts/2026-07-30-spacex_history_governance.markdown` | ~23,648 | 72 | 287 |
+A289 is the first of the three capital-formation legs, and its main risk was duplicating A283 Anchor Demand. It does not, because the two treat different things and the article foregrounds the difference from the mapping problem onward.
 
-Seven of the twelve series articles are now live. A288 through A292 remain to be drafted at editorial dates 2026-07-31 through 2026-08-04.
+**Anchor demand** concerns a customer who buys an output. **Government-anchor capital formation** concerns capital supplied to build a capability *before any output existed*, on terms conveying no equity and no votes:
 
----
+- revenue requires a delivered quantity
+- development capital requires only a demonstrated milestone
 
-## Commit Sequence
+The COTS awards are the second category. The CRS contracts are the first. The December 2008 transition between them is the moment the channel stopped supplying capital and started supplying revenue, which means **this leg is historically bounded** — it operated roughly 2006 through 2012 and then stopped. Commentary describing the firm as government-funded conflates a bounded historical capital contribution with a continuing commercial relationship, and the two have different implications for every question the series asks.
 
-1. **Staging commit** `ad18c06` added the four drafts to `_drafts/` with process files describing the drafting-complete state, and aligned the series publication-time convention at 09:00 UTC by correcting A284 from 00:00 UTC.
-2. **Publication commit** performed `git mv` from `_drafts/` to `_posts/` with date prefixes for all four articles and synced `draft_summary.md`, `TASKLOG.md`, and `REVERSE_PROMPT.md` to the published state.
+### The analytical core
 
-Both pushed to origin/master. Deployment proceeds via the GitHub Actions build.
+The non-dilutive property, and specifically its compounding. Capital received without surrendering equity raises the founder share entering *every subsequent round*, not just the round it displaced. That connects directly to the control condition A287 analyzes.
 
----
+I gave equal prominence to what the analysis does **not** establish: it does not show the government capital was necessary, and it does not show it was efficiently deployed. It shows the terms were better than the alternatives available at the time, and that the advantage compounded.
 
-## Verification Performed Before Push
+### Two findings I would flag
 
-The interlock across these four articles was the main publication risk. A286 cross-references A284 and A285 by `post_url`, and A287 cross-references A286. Publishing any of them alone would have failed the site build and blocked deployment of the whole site. Publishing them together resolves it, and I verified that rather than assuming it.
+**The Rocketplane Kistler termination is more interesting than its usual telling.** The failed milestone was a *financing* milestone, not a technical one. The instrument conditioned public capital on the provider's ability to raise private capital, which makes the two channels complements by explicit design and uses the private market as an external validator. It also supplies the counterfactual observation the identification problem needs — a similarly situated competitor tried the private path and could not complete it.
 
-- **Pre-flight.** Editorial dates 2026-07-27 through 2026-07-30 confirmed free of collision. Front matter, series metadata, categories, debug tags, and 09:00 UTC times confirmed correct on all four. Anchor integrity confirmed at 234, 257, 390, and 287 with zero missing, unused, or duplicate in each.
-- **Build.** The local bundle environment is broken by the documented gem issue, so I built a Gemfile-free scratch copy under `tmp/` with the unavailable archives plugin stripped. The build completed without error, which is what confirms every `post_url` resolves.
-- **Render.** All four articles generated at their expected permalinks. The A287 page renders with correct title, MathJax include, series navigation reading Part 7 of 7, zero unresolved Liquid tags, and all seven intra-series links resolving to existing files.
-
-The scratch build directory was removed before the publication commit.
+**The SBIR analogy identifies what the leg actually transfers.** Phase III sole-source authority is the statutory recognition that a development award creates a provider who is thereafter uniquely positioned. The COTS-to-CRS sequence was formally competed and the SBIR sequence is formally exempt from competition, and both produce substantially the same outcome. **The leg does not principally transfer money. It transfers position, and the money is the mechanism.**
 
 ---
 
-## Notes You Should Have
+## Article Metrics
 
-1. **95 broken reference URLs were repaired** across A286 and A287 during their expansion passes, all inherited from the sibling reference corpus. The already-published A281, A282, and A283 still carry many of the same dead links, including three SpaceX user's-guide PDFs, both NASA Human Landing System award press releases, the NASA Space Act Agreements guide, and the FAA current-licenses database. A sweep of those three is worth scheduling and was outside the scope of this task.
+| Metric | Value |
+|---|---|
+| Lines | 866 |
+| Words | ~13,620 |
+| Display equations | 26 |
+| H2 sections | 27 |
+| H3 subsections | 11 |
+| Total reference anchors | 203 |
+| Books | 50 |
+| Reference | 91 |
+| Research | 43 |
+| Related Post | 19 |
+| Em-dashes / en-dashes / prose parens / prose contractions / prose colons / prose semicolons | 0 / 0 / 0 / 0 / 0 / 0 |
+| Missing / unused / duplicate anchors | 0 / 0 / 0 |
 
-2. **Open Library search URLs.** 32 of A286's and 32 of A287's book references point to Open Library search queries rather than publisher editions. This is a consequence of repairing rotted publisher links for older works, not a preference. The form is stable and matches existing repo convention, but it is a weaker citation than an edition page. A later pass could resolve them to specific work identifiers.
+---
 
-3. **A285 had no `draft_summary.md` entry.** I wrote one at publication so the record is complete, reconstructed from the file itself rather than from session history I did not have.
+## Items Requiring Your Attention
 
-4. **A287 carries a critical case I did not soften.** The article states plainly that a configuration resisting capital capture resists every other form of external accountability by the same mechanism, and it does not resolve the tension. If you would prefer the article take a side, it currently does not.
+1. **One density pass remains.** 26 display equations against the 60-72 series band. Reference density is already in band at 203, and primary references at 91 are the second highest in the series after A286. Say the word and I will run the equation pass.
 
-5. **A284's summary entry was stale** before this session, recording initial-draft metrics rather than its expanded state. The entry is now marked published; the metrics in it may still understate the article.
+2. **A sequencing constraint, not a blocker.** A289 back-references A288 by `post_url`, and A288 is still a draft. A289 must publish with A288 or after it. Every other cross-reference resolves, including the three SBIR series links.
+
+3. **I recorded a tension the advocacy literature does not.** The procurement mechanism-design result is that optimal incentive power *falls* as project uncertainty rises, because a fixed-price instrument on a poorly specified requirement produces a risk premium exceeding the efficiency gain. That is directly contrary to the policy lesson usually drawn from COTS. The article states the tension and does not resolve it.
+
+4. **The cost comparison is confounded and I said so.** The cost-plus programmes pursued a crewed beyond-low-Earth-orbit capability with no commercial market; the fixed-price instruments pursued a low-Earth-orbit logistics capability with a plausible one. The instrument choice may have been appropriate in both cases. The agency's published counterfactual cost estimate is treated as a model output, not a measurement, and it is the single most cited number in the advocacy literature.
+
+5. **The strongest evidentiary position in the series, and the article says why.** The government party to every transaction has disclosure obligations the private party does not. Award amounts, milestone structures, terminations, and competitive outcomes are directly documented. What remains unknown is the provider's actual development costs, so the article can state with confidence what the government supplied and cannot state what it bought.
+
+6. **A policy question I raised and did not answer.** An instrument justified as opening a market to a challenger now operates in a market where that challenger is dominant. Whether it should be applied unchanged is outside the article's scope and not outside a reader's legitimate interest.
+
+7. **Source repairs.** Four dead NASA URLs fixed. I also dropped an NTRS accession number I had substituted for the 2014 COTS final report, because I could not confirm the accession was that document, and citing it under that title would have been a fabrication.
 
 ---
 
 ## Suggested Next Steps
 
-- Confirm the GitHub Actions build succeeded and the four new pages are live.
-- Draft A288 Portfolio Patience next, at editorial date 2026-07-31 09:00 UTC. A287 forward-references it in plain prose as the article treating the internalized portfolio across which the controller allocates capital without external review.
-- Schedule the broken-link sweep across A281, A282, and A283.
-- Consider whether the remaining five articles publish individually as drafted or as a second batch. Nothing in A288 through A292 is written yet, so the interlock question does not bind until they cross-reference one another.
+- Run the equation-density pass on A289.
+- Consider publishing A288 and A289 as a pair once both are at parity, which clears the sequencing constraint.
+- Draft A290 Patient-Private Capital-Formation Leg next, at editorial date 2026-08-02 09:00 UTC. A289 forward-references it twice in plain prose, including for the point that the private leg financed the litigation that opened the government channel.
+- Schedule the broken-link sweep across A281, A282, and A283, which remain live with dead reference URLs.
