@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "History of SpaceX: Value Gradient from Falcon 1 to Falcon 9 to Reusability"
-date:   2026-07-25 00:00:00 +0000
+date:   2026-07-25 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
