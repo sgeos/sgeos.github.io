@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "History of SpaceX: Series Framing and the Seven-Plus-Three Forcing-Function Framework"
-date:   2026-07-24 00:00:00 +0000
+date:   2026-07-24 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
