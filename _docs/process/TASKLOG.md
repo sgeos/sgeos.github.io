@@ -8,20 +8,18 @@ Current task state and verification log. This file is the shared source of truth
 
 ## Current Task
 
-**Name**: Pathological word-usage pass across all twelve History of SpaceX articles, A281 through A292, published and drafted. Identify words used at rates far above natural usage and tone them down to normal levels.
-**Status**: Complete
+**Name**: Publish the five remaining History of SpaceX articles A288 through A292 as an interlocked batch at editorial dates 2026-07-31 through 2026-08-04, all at 09:00 UTC, using the two-commit publication sequence. The batch also carries corrections to the seven already-published articles from the consistency and word-usage passes.
+**Status**: Staged for publication
 **Started**: 2026-08-04
 
 ## Success Criteria
 
-- [x] Frequency analysis run across all twelve articles against a 40-post baseline drawn from the non-SpaceX corpus, separating genuine tics from topic vocabulary by comparing per-thousand-word rates.
-- [x] The dominant pathology confirmed as "specific" at 87.17 per thousand words against a baseline of 1.73, a factor of 44, with 16,230 occurrences of which 12,260 were the bare filler phrase "the specific".
-- [x] "specific" reduced from 16,230 to 44 occurrences, a rate of 0.20 per thousand words. Genuine technical terms preserved, comprising specific impulse, specific heat, specific thrust, specific power, and specific strength, by stashing them before any transformation ran.
-- [x] Contrastive uses preserved where the construction attaches to the noun phrase, as in "specific X rather than general Y".
-- [x] Grammar verified after removal. Zero a-before-vowel errors, zero an-before-consonant errors, zero doubled words, zero "the the" occurrences.
-- [x] Second tic addressed. The equation-introduction formula "admits the compact form" and "admits the compact statement" accounted for 429 of 488 introductions and was varied across nine alternatives with no single phrase exceeding 59 instances.
-- [x] Third and fourth tics addressed. "supplies" reduced from 1.73 to 0.53 per thousand by rotating through provides, offers, gives, yields, and contributes. "configuration" left as domain vocabulary except for 191 within-sentence repeats, which were varied; sentences containing three or more occurrences fell from 37 to 2.
-- [x] Full integrity verification after the pass. All twelve articles show zero missing, unused, or duplicate anchors, zero duplicate bullets, zero duplicate URLs, balanced LaTeX with matched left and right pairs, unchanged equation counts, and zero style violations.
+- [x] All five drafts at publication-review parity with verified integrity.
+- [x] Staging commit with the drafts in `_drafts/` and process files describing the staged state.
+- [ ] `git mv` from `_drafts/` to `_posts/` with the date prefix taken from front matter.
+- [ ] Build verification in a Gemfile-free scratch copy, confirming every `post_url` resolves. This is the first point in the series at which a full build can succeed, because every previously unresolved target points inside this batch.
+- [ ] Publication commit with process files synced to the published state.
+- [ ] Push to origin/master.
 
 ### Prior Task (A289 Government-Anchor Leg) — Complete
 
