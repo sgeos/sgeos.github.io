@@ -50,7 +50,7 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | Tesla Investor Relations | ir.tesla.com | Corporate investor-relations bot-detection |
 | National Venture Capital Association | nvca.org | Trade-association bot-detection |
 | OpenAI | openai.com | Corporate bot-detection, observed 2026-08-02 |
-| Academic publishers | jstor.org, sciencedirect.com, onlinelibrary.wiley.com, academic.oup.com, journals.uchicago.edu, mitpress.mit.edu, jhupbooks.press.jhu.edu, liebertpub.com, pubsonline.informs.org | Publisher bot-detection across the set |
+| Academic publishers | jstor.org, sciencedirect.com, onlinelibrary.wiley.com, academic.oup.com, journals.uchicago.edu, mitpress.mit.edu, jhupbooks.press.jhu.edu, liebertpub.com, pubsonline.informs.org, cambridge.org, sup.org, e-elgar.com, simonandschuster.com, si.edu | Publisher bot-detection across the set |
 
 If a new 403 site appears during a publication, add it to this catalogue with one line of context.
 
@@ -64,6 +64,31 @@ If a new 403 site appears during a publication, add it to this catalogue with on
 | connection reset | washingtonpost.com | Blocks curl outright. Verify by web search. |
 
 Two hosts rate-limit aggressive sweeps and will make every link look dead if paced too tightly. `openlibrary.org` is the worst offender and `blueorigin.com` the second. Pace verification or isolate the suspect URL and retest it alone before concluding anything is broken.
+
+## An HTTP 200 Does Not Verify a Citation
+
+A status check confirms that a URL resolves. It does not confirm that the document at the other end is the work the citation names. Those are different properties, and the second is the one that matters.
+
+An audit on 2026-08-02 across the History of SpaceX corpus found **thirteen citations whose anchor title and target document did not correspond at all**. Each URL returned HTTP 200. Several pointed at real, well-formed journal articles by unrelated authors on unrelated subjects. A link-status sweep of any depth would have passed every one of them.
+
+Check DOI-bearing citations against the registry rather than against the HTTP status.
+
+```sh
+# does the DOI resolve at all? no redirect means it was constructed
+curl -sI "https://doi.org/10.xxxx/yyyy" | grep -i '^location:'
+
+# does the registered work match the citation?
+curl -s "https://api.crossref.org/works/10.xxxx/yyyy" \
+  | python3 -c "import json,sys; m=json.load(sys.stdin)['message']; \
+    print(m.get('title'), [a.get('family') for a in m.get('author',[])], m.get('issued'))"
+```
+
+Two distinct failure modes appeared, and both are invisible to a status check.
+
+- **Unregistered DOI.** `doi.org` returns no redirect. The identifier was fabricated. The containing URL may still return 200 because the publisher serves a generic page for unknown paths.
+- **Mismatched DOI.** The identifier resolves to a real paper that is not the cited one. This is the more dangerous case, because every automated check passes and only reading the target reveals it.
+
+Never introduce a citation whose target you have not confirmed names the work you are citing. When a source cannot be confirmed, drop it. A missing citation is a gap; a confident citation pointing at the wrong document is a fabrication, and it is worse than the gap it was added to fill.
 
 ## Common 404 Patterns
 
