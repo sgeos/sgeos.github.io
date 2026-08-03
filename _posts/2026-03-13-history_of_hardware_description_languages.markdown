@@ -220,7 +220,7 @@ and
 the present
 appeared
 in response to
-a specific abstraction gap
+an abstraction gap
 that
 prior languages
 did not close.
@@ -1546,7 +1546,7 @@ hardware description languages
 appeared
 in response to
 a
-specific abstraction gap
+abstraction gap
 that
 prior languages
 did not
@@ -1863,7 +1863,7 @@ readers
 who need
 detail
 on
-specific languages
+languages
 should consult
 the primary sources
 that

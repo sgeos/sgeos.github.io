@@ -394,7 +394,7 @@ processes it correctly,
 or its deviation
 is recorded in a ledger entry
 that names
-the specific upstream stage
+the upstream stage
 that will correct it.
 An entry records
 three things,
@@ -461,7 +461,7 @@ is a debt against it.
 
 A further gate
 belongs at the end
-and is specific to self-hosting
+and is to self-hosting
 rather than to migration in general.
 The engineer compiles
 the compiler's own source
@@ -926,7 +926,7 @@ each of these tensions
 in
 technical detail
 and produced
-specific recommendations.
+recommendations.
 
 The recursion question
 was resolved
@@ -1550,7 +1550,7 @@ depends on
 V0.4.0.
 Each step
 retires
-a specific dependency
+a dependency
 that the current shape
 carries.
 
@@ -1564,7 +1564,7 @@ independent of Keleusma
 and
 [a V0.3.0 self-hosting strategy document][ref_v030_self_hosting]
 that applies the method
-to the specific case.
+to the case.
 The subproject scaffold
 described in
 [the recent V0.2.2 getting-started article][related_post_keleusma_022]

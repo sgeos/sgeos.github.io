@@ -30,7 +30,7 @@ the program
 that has decided
 that off-the-shelf platforms
 do not solve
-its specific problem,
+its problem,
 or that
 its program staff
 includes
@@ -428,7 +428,7 @@ The
 [Small Business Innovation Research programme at DHS S&T][ref_dhs_sbir]
 admits
 proposals
-in topics specifically released
+in topics released
 each year.
 
 **Small Business Innovation Research
@@ -1231,7 +1231,7 @@ under
 when finalised,
 or
 under
-specific exemptions
+exemptions
 granted through
 Section 44807
 or
@@ -1710,7 +1710,7 @@ the bulk of this article addresses.
 The program manager
 should consult
 intellectual property counsel
-on the specific contractual arrangements
+on the contractual arrangements
 that
 non-federal funding
 typically requires.
@@ -1781,7 +1781,7 @@ admit
 the program
 to operational deployment
 under
-specific conditions
+conditions
 that
 the program must design for
 from the proposal stage.

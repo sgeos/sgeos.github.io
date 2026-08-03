@@ -519,7 +519,7 @@ the rest of
 the article
 and
 notes
-the specific operating environments
+the operating environments
 where
 the cooled MWIR core
 remains necessary
@@ -1535,7 +1535,7 @@ the unacceptable endurance penalty.
 Multispectral and hyperspectral imagers
 detect
 the reflected light
-at specific narrow bands
+at narrow bands
 that
 correspond to
 the spectral signatures
@@ -3732,7 +3732,7 @@ the optional sensor
 provides
 the supplementary capability
 that
-the specific operating environment
+the operating environment
 benefits from.
 The programme
 that
@@ -3851,7 +3851,7 @@ The article
 does not address
 the operator training
 on
-the specific sensor configurations,
+the sensor configurations,
 which
 [A149][related_post_a149_training]
 treated

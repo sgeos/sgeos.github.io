@@ -16,15 +16,15 @@ This article treats audits at the class level, identifies the properties shared 
 
 ## What All Audits Share
 
-Every audit exhibits four properties. The properties hold across engineering, documentation, and compliance instances and do not depend on the specific domain.
+Every audit exhibits four properties. The properties hold across engineering, documentation, and compliance instances and do not depend on the domain.
 
 **Scope and procedure.** The audit begins with a written scope naming what is under review and what is not. The procedure defines what evidence will be examined, in what order, and against what criteria. An audit without a written scope is not an audit. It is a conversation. An audit without a defined procedure produces findings that cannot be reproduced by another auditor with the same evidence, which defeats the reason for auditing in the first place.
 
 **Independent review.** The auditor is separate from the auditee. Full independence means the auditor has no reporting relationship, financial interest, or personal stake in the auditee's outcome. Practical independence often falls short of the full standard but must preserve enough separation that the auditor can produce adverse findings without adverse consequence. An audit conducted by the auditee's manager is not an audit. It is an evaluation. The distinction is not pedantic. The evaluator has authority over the evaluee's future employment. The auditor does not. The theoretical treatment of audit quality by [DeAngelo][research_deangelo_audit_quality] establishes that quality is jointly determined by the probability of finding a breach and the probability of reporting it. Both depend on independence, and both degrade when independence is compromised.
 
-**Evidence artifacts.** The audit produces reviewable artifacts. Working papers document what was examined and what was concluded. Findings identify specific instances of conformance and non-conformance with specific citations to the evidence. A summary report communicates the findings to the auditee and to the audit's client. All three artifacts survive after the audit closes. A second auditor should be able to review the artifacts and reach substantially similar findings from the same evidence.
+**Evidence artifacts.** The audit produces reviewable artifacts. Working papers document what was examined and what was concluded. Findings identify instances of conformance and non-conformance with citations to the evidence. A summary report communicates the findings to the auditee and to the audit's client. All three artifacts survive after the audit closes. A second auditor should be able to review the artifacts and reach substantially similar findings from the same evidence.
 
-**Findings, remediation, and re-verification.** Findings are actionable. Each non-conformance names a specific fact, a criterion it fails against, and a remediation path. The audit closes when remediation is agreed and, in the case of high-severity findings, when re-verification confirms the remediation was applied. Audits that produce findings without remediation are theater. Audits whose remediation is never verified are half-completed workflows.
+**Findings, remediation, and re-verification.** Findings are actionable. Each non-conformance names a fact, a criterion it fails against, and a remediation path. The audit closes when remediation is agreed and, in the case of high-severity findings, when re-verification confirms the remediation was applied. Audits that produce findings without remediation are theater. Audits whose remediation is never verified are half-completed workflows.
 
 Any activity omitting one of the four properties is something other than an audit. Peer conversations, informal reviews, project retrospectives, and casual testing all have value but should not be labeled audits. The naming discipline matters because organizations that conflate the categories end up with neither the benefits of formal audit nor the benefits of informal review.
 
@@ -68,7 +68,7 @@ Compliance audits examine controls, the procedures the organization has adopted 
 
 ## Provenance and Audit Trails
 
-Provenance is the recorded history of how an artifact came to be. An audit trail is a specific form of provenance record that documents actions taken by identifiable actors against identifiable resources at identifiable times, sequenced in a way that can be reconstructed after the fact.
+Provenance is the recorded history of how an artifact came to be. An audit trail is a form of provenance record that documents actions taken by identifiable actors against identifiable resources at identifiable times, sequenced in a way that can be reconstructed after the fact.
 
 Provenance is the substrate that makes all three audit categories possible. An engineering audit that cannot trace a bug back to the commit that introduced it, the review that missed it, and the specification that permitted it produces findings the auditee cannot act upon. A documentation audit that cannot trace a documented claim back to the decision record that established it cannot determine whether the claim is current. A compliance audit that cannot show the operating log for a control cannot demonstrate that the control was actually operating.
 

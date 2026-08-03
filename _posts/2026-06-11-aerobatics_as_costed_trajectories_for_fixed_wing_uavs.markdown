@@ -62,14 +62,14 @@ $$ h_e = h + \frac{V^2}{2g}, $$
 
 the altitude the aircraft would reach if it traded all of its speed for height,
 the same energy height the boosted-propulsion article used.
-The rate at which the aircraft can add to it is the specific excess power,
+The rate at which the aircraft can add to it is the excess power,
 
 $$ P_s = \frac{V(T - D)}{W} = \frac{dh_e}{dt}, $$
 
 the heart of [energy-maneuverability theory][ref_em_theory], the surplus of
 thrust over drag carried at the current speed.
 A maneuver is then a path traced in the plane of speed and energy height, and
-the specific excess power says which way the path can go.
+the excess power says which way the path can go.
 A climb or an acceleration spends excess power to raise the energy height, a
 dive or a zoom trades kinetic for potential energy along a line of nearly
 constant energy height, and a hard turn raises the drag so far that the excess
@@ -139,7 +139,7 @@ The turning bounds are usually drawn together as the
 [maneuverability][ref_maneuverability] diagram, the turn rate against the
 airspeed, closed by three walls, the lift limit where the wing stalls, the
 structural limit where the load factor reaches the corner of the
-load-versus-speed diagram, and the sustained limit where the specific excess
+load-versus-speed diagram, and the sustained limit where the excess
 power falls to zero and the turn can no longer be held without shedding energy
 height.
 The instantaneous turn may sit anywhere inside the first two walls for as long
@@ -215,7 +215,7 @@ is flown in full.
 
 As the aircraft approaches and passes the speed of sound the character of
 maneuvering changes.
-[Wave drag][ref_wave_drag] appears and grows, so the specific excess power
+[Wave drag][ref_wave_drag] appears and grows, so the excess power
 collapses and a turn bleeds energy height fast, which makes every hard maneuver
 an energy decision rather than a free choice.
 Compressibility shifts the aerodynamic center rearward and can reduce control
@@ -367,7 +367,7 @@ costed trajectory.
 
 A maneuver is a path through the energy state, priced in energy, in structure,
 and in heat.
-The price is read from the specific excess power that says where the path may
+The price is read from the excess power that says where the path may
 go, the load-versus-speed diagram that says how hard it may be bent, and the
 stagnation temperature that says how fast it may be flown, and the three are
 paid together rather than apart.

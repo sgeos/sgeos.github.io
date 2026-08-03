@@ -27,7 +27,7 @@ under competitive expansion assumptions
 is effectively irreversible.
 That article developed the theoretical framework.
 This article applies it
-to the specific galaxies
+to the galaxies
 and galaxy groups
 in our neighborhood.
 
@@ -387,8 +387,8 @@ the total work a SMBH-based system
 can perform over its lifetime.
 The power projection determines
 whether that work can be delivered
-at a specific target
-at a specific time.
+at a target
+at a time.
 
 Assuming comparable $\eta$ and $f$,
 Andromeda's SMBH
@@ -872,7 +872,7 @@ This framework is correct
 for civilizations
 of comparable resource bases.
 It is insufficient
-for the specific case
+for the case
 of the Milky Way and Andromeda.
 
 Andromeda is not a peer.
@@ -1117,7 +1117,7 @@ is on the order of 30 MW.
 This is within the capability
 of a Type 0 civilization.
 Selective chromatic cloaking,
-targeting specific wavelength bands
+targeting wavelength bands
 used by transit surveys,
 requires even less power.
 
@@ -2089,7 +2089,7 @@ to match the threat.
 
 This has a recursive implication,
 but one that applies
-only within specific conditions.
+only within conditions.
 In a universe
 populated by competing civilizations,
 selection pressure
@@ -2640,7 +2640,7 @@ Detection and arrival
 would be nearly simultaneous.
 This is the same logic
 developed in the companion article,
-applied to a specific threat vector
+applied to a threat vector
 and stated as a conditional assessment
 rather than a prediction.
 

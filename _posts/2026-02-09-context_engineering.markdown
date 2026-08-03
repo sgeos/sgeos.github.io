@@ -34,7 +34,7 @@ that structured markdown is the practical specification format for agent instruc
 [LLM Knowledge Graphs][blog_knowledge_graphs] examines
 how documentation repositories function as navigable knowledge structures for agents.
 This article steps back to survey the broader field
-that these specific practices exist within.
+that these practices exist within.
 
 ## Software Versions
 
@@ -248,7 +248,7 @@ At startup, only the skill name and description load,
 consuming roughly 50 tokens per skill.
 If the agent determines a skill is relevant,
 it loads the full SKILL.md body at roughly 500 tokens.
-Supplementary resources load only when specific sub-tasks require them.
+Supplementary resources load only when sub-tasks require them.
 This design treats context as a scarce resource
 and allocates it incrementally based on demonstrated need.
 
@@ -639,7 +639,7 @@ The central insight of context engineering
 is that the quality of the context
 determines the quality of the agent's output.
 A model's training data provides general capability.
-Context provides specific capability.
+Context provides capability.
 The most capable model in the world
 will produce generic, off-target results
 without project-specific context.

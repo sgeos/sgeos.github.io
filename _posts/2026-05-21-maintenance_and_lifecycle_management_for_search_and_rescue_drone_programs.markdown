@@ -1794,7 +1794,7 @@ The constructed programme
 is
 an illustrative composite
 rather than
-a specific operating entity,
+an operating entity,
 and
 the figures
 that

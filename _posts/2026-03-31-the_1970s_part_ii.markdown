@@ -20,7 +20,7 @@ that
 had established
 and produced
 a small number
-of specific technical results
+of technical results
 that the following four decades
 would develop.
 Hindley's principal type theorem
@@ -59,7 +59,7 @@ William Howard's manuscript
 on the correspondence
 between formulas and types
 made explicit
-a specific structural analogy
+a structural analogy
 that would organize
 type theory
 for the rest of the century.
@@ -168,7 +168,7 @@ a permanent record
 of its work.
 Every article in the remainder of this series
 that names
-a specific technical result
+a technical result
 from
 the nineteen seventies onward
 either
@@ -199,7 +199,7 @@ through sixty,
 in nineteen sixty-nine.
 The paper
 proved
-a specific result
+a result
 about
 combinatory logic
 that would become
@@ -515,7 +515,7 @@ the term admits.
 The Hindley-Milner type system,
 which ML implements,
 has
-a specific technical property
+a technical property
 that makes
 type inference
 practical.
@@ -863,7 +863,7 @@ and J. Roger Hindley.
 
 Howard's correspondence
 established
-a specific systematic connection.
+a systematic connection.
 Propositions
 of intuitionistic propositional logic
 correspond
@@ -1020,7 +1020,7 @@ that information.
 
 The paper
 gave
-a specific example lattice
+an example lattice
 for
 a two-level security system
 with classes

@@ -27,7 +27,7 @@ The claim is falsifiable in principle. If a nation that industrialized early end
 
 ## The Framework the Series Applies
 
-Each article after this one treats a specific nation or group of nations. Every article applies the same six axes.
+Each article after this one treats a nation or group of nations. Every article applies the same six axes.
 
 **Wave.** Which industrialization wave the nation belongs to. First-mover Britain, continental European followers, American ascent, Meiji Japan as first non-Western case, Soviet forced industrialization, postwar Japan and West Germany under United States security umbrella, East Asian tigers, China's post-1978 rise, Indian and other late arrivals, and the non-industrializers. The wave determines the global institutional environment within which the nation industrialized.
 
@@ -161,7 +161,7 @@ The Acemoglu, Johnson, and Robinson study of [The Colonial Origins of Comparativ
 
 Industrialization changes the world through a compounding cascade. This subsection previews the cascade in schematic form. The subsequent articles work through the cascade at national resolution.
 
-Energy density unlocks per-capita productivity. Coal-fired steam engines produced mechanical work at costs and volumes that no organic energy source could match. The mechanical work was applied to spinning, weaving, pumping, hauling, and eventually every mechanized production task, raising per-worker output by factors ranging from ten to a hundred across specific sectors.
+Energy density unlocks per-capita productivity. Coal-fired steam engines produced mechanical work at costs and volumes that no organic energy source could match. The mechanical work was applied to spinning, weaving, pumping, hauling, and eventually every mechanized production task, raising per-worker output by factors ranging from ten to a hundred across sectors.
 
 Per-capita productivity unlocks fiscal capacity. Higher per-capita output means more surplus above subsistence, which means more taxable capacity per subject. Industrializing states extracted a growing share of a growing per-capita base, producing revenue gains that dwarfed preindustrial fiscal expansion.
 
@@ -173,7 +173,7 @@ Force projection unlocks further resource capture. Nineteenth-century European p
 
 The cascade is self-reinforcing for nations on it. Every stage feeds the next. Every gain compounds. The cascade is marginalizing for nations off it. Every stage the leader completes puts additional distance between the leader and any would-be follower. Late industrializers face a leader who has already extracted the resources, built the institutions, and captured the geopolitical positions the late industrializer would need to catch up.
 
-The cascade is quantitatively compounding. Let $Y_{\text{lead}}(t)$ and $Y_{\text{follow}}(t)$ denote per-capita output of the leading industrializer and a specific follower over time, and let $g_{\text{lead}}$ and $g_{\text{follow}}$ denote their respective per-capita growth rates. The ratio between them evolves as
+The cascade is quantitatively compounding. Let $Y_{\text{lead}}(t)$ and $Y_{\text{follow}}(t)$ denote per-capita output of the leading industrializer and a follower over time, and let $g_{\text{lead}}$ and $g_{\text{follow}}$ denote their respective per-capita growth rates. The ratio between them evolves as
 
 $$
 \frac{Y_{\text{lead}}(t)}{Y_{\text{follow}}(t)} = \frac{Y_{\text{lead}}(0)}{Y_{\text{follow}}(0)} \cdot e^{(g_{\text{lead}} - g_{\text{follow}}) \cdot t}
@@ -189,7 +189,7 @@ $$
 
 which was on the order of one and a half to two circa 1500, on the order of two to three circa 1800 on the eve of the industrial revolution, and on the order of twenty to fifty by 2000 depending on which industrial leader is chosen as the numerator. The century in which the ratio grew fastest was the second half of the nineteenth century, when British and later American industrialization compounded and no non-Western economy had yet begun the transition.
 
-This asymmetry, and the historical responses of specific nations to it, is the subject matter of the remaining eleven articles.
+This asymmetry, and the historical responses of nations to it, is the subject matter of the remaining eleven articles.
 
 ## Primary Structural, Not Sufficient
 
@@ -199,11 +199,11 @@ The series stakes an explicitly non-sufficient claim. The following are cases wh
 
 **Russian post-Soviet positioning.** Russia industrialized under Soviet forced-development policies that produced a distinctive industrial base heavily weighted toward military-industrial output and resource extraction. The post-Soviet trajectory is shaped as much by the collapse of the Soviet institutional apparatus, the resource-rent economy that followed, and the security-legacy relationships with former Warsaw Pact states as by the industrialization order per se. The sixth article treats the Soviet industrialization directly. The eleventh article treats the post-Soviet complications.
 
-**Israeli-Palestinian border configuration.** The specific boundary configuration in the eastern Mediterranean owes more to post-World War II decolonization dynamics, the specific decisions of the British Mandate authorities, the 1948 and 1967 wars, and the demographic questions that these events generated, than to industrialization order. Israel is an industrialized state and Palestine is not, but the industrialization gap is a consequence of the political configuration rather than a cause of it.
+**Israeli-Palestinian border configuration.** The boundary configuration in the eastern Mediterranean owes more to post-World War II decolonization dynamics, the decisions of the British Mandate authorities, the 1948 and 1967 wars, and the demographic questions that these events generated, than to industrialization order. Israel is an industrialized state and Palestine is not, but the industrialization gap is a consequence of the political configuration rather than a cause of it.
 
-**Sub-Saharan African borders.** The current borders of most Sub-Saharan African states were drawn at the 1884-1885 Berlin Conference, in the middle of the second industrial revolution, by European powers negotiating spheres of colonial influence with no reference to the political geography of the African polities that occupied the territories. Post-independence borders largely inherited these lines. The industrialization theory has less to say about the specific border configuration than the colonial-origins theory of Acemoglu, Johnson, and Robinson has to say about the resulting institutional trajectories.
+**Sub-Saharan African borders.** The current borders of most Sub-Saharan African states were drawn at the 1884-1885 Berlin Conference, in the middle of the second industrial revolution, by European powers negotiating spheres of colonial influence with no reference to the political geography of the African polities that occupied the territories. Post-independence borders largely inherited these lines. The industrialization theory has less to say about the border configuration than the colonial-origins theory of Acemoglu, Johnson, and Robinson has to say about the resulting institutional trajectories.
 
-**Central Asian state configuration.** The five Central Asian republics that emerged from the Soviet dissolution inherited borders that Soviet nationalities policy had drawn on top of a preexisting Islamic cultural geography. Their contemporary positioning reflects Soviet infrastructure, Russian security expectations, Chinese Belt and Road investment flows, and Islamic transnational networks in a specific superposition that industrialization order alone does not fully explain.
+**Central Asian state configuration.** The five Central Asian republics that emerged from the Soviet dissolution inherited borders that Soviet nationalities policy had drawn on top of a preexisting Islamic cultural geography. Their contemporary positioning reflects Soviet infrastructure, Russian security expectations, Chinese Belt and Road investment flows, and Islamic transnational networks in a superposition that industrialization order alone does not fully explain.
 
 The theory treats these cases honestly. Where a supplementary explanation carries more weight than industrialization order, the article names the supplementary explanation and works with it. Where industrialization order carries substantial weight but not all the weight, the article says so. The primary-structural framing preserves the theory's utility across the full case set at the cost of the tighter but less defensible sufficient-explanation framing.
 
@@ -241,7 +241,7 @@ Paul Kennedy's [Rise and Fall of the Great Powers][book_kennedy_great_powers] is
 
 Daron Acemoglu and James A. Robinson's [Why Nations Fail][book_acemoglu_robinson_why_nations_fail] argues that inclusive versus extractive institutions determine long-run development trajectories more than geography, culture, or resource endowment. The Acemoglu-Robinson framework is complementary to the Gerschenkron framework. Gerschenkron explains how late industrializers can catch up given the right institutional response, and Acemoglu-Robinson explains which institutional responses are politically feasible in a given historical setting.
 
-Ronald Findlay and Kevin H. O'Rourke's [Power and Plenty][book_findlay_orourke_power_and_plenty] traces the interaction between trade, war, and empire across the second millennium, providing the empirical scaffolding for many of the specific historical claims the series makes about individual industrialization waves.
+Ronald Findlay and Kevin H. O'Rourke's [Power and Plenty][book_findlay_orourke_power_and_plenty] traces the interaction between trade, war, and empire across the second millennium, providing the empirical scaffolding for many of the historical claims the series makes about individual industrialization waves.
 
 E. A. Wrigley's [Continuity, Chance and Change][book_wrigley_continuity] and [Energy and the English Industrial Revolution][book_wrigley_energy] establish the organic-economy framing that this article uses to describe the preindustrial energy ceiling and the transition it took to break.
 

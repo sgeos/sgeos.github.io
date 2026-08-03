@@ -475,12 +475,12 @@ Additionally, this book provides a list of useful resources that can help
 further your learning.
 
 For those eager to purchase hardware to learn on, it's wise to identify a
-learning resource and specifically purchase the hardware it recommends.
+learning resource and purchase the hardware it recommends.
 For example, the [Discovery Book][rust_book_discovery] is highly recommended
 for beginners.
 It provides step-by-step instructions and ready-to-run examples that are
 extremely helpful when you are just starting out.
-These examples are tailored for specific development boards, ensuring
+These examples are tailored for development boards, ensuring
 that you can follow along without compatibility issues given the right
 hardware.
 Alternatively, the [embedded Rust setup explained][rust_video_embedded]

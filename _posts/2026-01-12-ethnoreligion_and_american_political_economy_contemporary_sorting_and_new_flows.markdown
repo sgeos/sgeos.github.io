@@ -39,7 +39,7 @@ per Pew Research US Religious Landscape Study and American Religious Identificat
 
 ## September 11 2001 and Post-9/11 Muslim American Backlash
 
-The 11 September 2001 al-Qaeda attacks on the World Trade Center and Pentagon produced appreciable American religious institutional response and ongoing Muslim American backlash. Primary presidential addresses included 17 September 2001 [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center] address at Islamic Center of Washington specifically distinguishing Islam from terrorism and 20 September 2001 [Bush 2001 Joint Session Address][ref_bush_2001_joint_session] Joint Session of Congress address. The 22 July 2004 [9/11 Commission Report 2004][ref_9_11_commission_2004] 9/11 Commission Report provided the comprehensive federal investigation. Total casualties reached
+The 11 September 2001 al-Qaeda attacks on the World Trade Center and Pentagon produced appreciable American religious institutional response and ongoing Muslim American backlash. Primary presidential addresses included 17 September 2001 [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center] address at Islamic Center of Washington distinguishing Islam from terrorism and 20 September 2001 [Bush 2001 Joint Session Address][ref_bush_2001_joint_session] Joint Session of Congress address. The 22 July 2004 [9/11 Commission Report 2004][ref_9_11_commission_2004] 9/11 Commission Report provided the comprehensive federal investigation. Total casualties reached
 
 $$N_{\text{9/11 attacks total dead}} = 2977, \quad N_{\text{9/11 attacks injured}} \gtrsim 6 \times 10^3, \quad N_{\text{first responder deaths, subsequent 9/11-related illness through 2020}} \gtrsim 5 \times 10^2$$
 
@@ -57,7 +57,7 @@ The 26 October 2001 [USA PATRIOT Act 2001][ref_usa_patriot_act_2001] USA PATRIOT
 
 ## Iraq War 2003 and American Religious Mobilization
 
-The 20 March 2003 US-led invasion of Iraq produced substantial American religious institutional response combining evangelical Protestant war support with mainline Protestant, Catholic, and various religious body opposition. Primary presidential documents include 29 January 2002 [Bush 2002 Axis of Evil][ref_bush_2002_axis_of_evil] Bush State of the Union address specifically identifying "axis of evil" (Iraq, Iran, and North Korea) and 17 March 2003 [Bush 2003 War Ultimatum][ref_bush_2003_war_ultimatum] Bush ultimatum address preceding invasion. The [Wallis 2005][book_wallis_2005] God's Politics, [Marsh 2007][book_marsh_2007] Wayward Christian Soldiers, and [Lincoln 2003][book_lincoln_2003] Holy Terrors provide the treatments.
+The 20 March 2003 US-led invasion of Iraq produced substantial American religious institutional response combining evangelical Protestant war support with mainline Protestant, Catholic, and various religious body opposition. Primary presidential documents include 29 January 2002 [Bush 2002 Axis of Evil][ref_bush_2002_axis_of_evil] Bush State of the Union address identifying "axis of evil" (Iraq, Iran, and North Korea) and 17 March 2003 [Bush 2003 War Ultimatum][ref_bush_2003_war_ultimatum] Bush ultimatum address preceding invasion. The [Wallis 2005][book_wallis_2005] God's Politics, [Marsh 2007][book_marsh_2007] Wayward Christian Soldiers, and [Lincoln 2003][book_lincoln_2003] Holy Terrors provide the treatments.
 
 Iraq War casualties reached marked proportions,
 
@@ -79,7 +79,7 @@ $$N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}
 
 per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Boston Globe Spotlight 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
 
-Institutional consequences included 2002 US Conference of Catholic Bishops [Charter for the Protection of Children and Young People 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report specifically documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [Vatican McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
+Institutional consequences included 2002 US Conference of Catholic Bishops [Charter for the Protection of Children and Young People 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [Vatican McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
 
 $$N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10$$
 
@@ -222,7 +222,7 @@ $$P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\b
 
 per SBC Annual Church Profile records. The 2018-2024 SBC decline accelerated approximately 20% cumulative membership loss across 2010-2024 window, reflecting broader Protestant institutional decline documented above.
 
-The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executive Committee investigation report by Guidepost Solutions documented approximately 700 systematic sexual abuse cases across SBC-affiliated churches through 2000-2021 window, with institutional leadership specifically covering up abuses. The 2022 investigation followed 2019 Houston Chronicle investigative reporting series [Houston Chronicle Abuse of Faith 2019][ref_houston_chronicle_2019] documenting 400 SBC ministers with credible sexual abuse allegations. The SBC 2022-2024 institutional response combined formal apology, database creation, and ongoing institutional restructuring, though systematic Southern Baptist response lagged 2002 Catholic Dallas Charter framework documented above.
+The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executive Committee investigation report by Guidepost Solutions documented approximately 700 systematic sexual abuse cases across SBC-affiliated churches through 2000-2021 window, with institutional leadership covering up abuses. The 2022 investigation followed 2019 Houston Chronicle investigative reporting series [Houston Chronicle Abuse of Faith 2019][ref_houston_chronicle_2019] documenting 400 SBC ministers with credible sexual abuse allegations. The SBC 2022-2024 institutional response combined formal apology, database creation, and ongoing institutional restructuring, though systematic Southern Baptist response lagged 2002 Catholic Dallas Charter framework documented above.
 
 ## African Migration Expansion
 
@@ -324,7 +324,7 @@ The 6 April 2018 [Zero Tolerance Policy 2018][ref_zero_tolerance_2018] Trump adm
 
 $$N_{\text{documented US-Mexico border family separations, April 2018 to June 2018}} \approx 5500, \quad N_{\text{additional undocumented separations, cumulative}} \gtrsim 1 \times 10^3$$
 
-per US Department of Homeland Security Office of Inspector General reports. Religious institutional condemnation emerged rapidly, with 13 June 2018 US Conference of Catholic Bishops [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018] statement specifically characterizing separation as "immoral" providing most pronounced American Catholic institutional immigration opposition of twenty-first century. Comparable evangelical Protestant (Franklin Graham, Southern Baptist Ethics and Religious Liberty Commission under Russell Moore), mainline Protestant (United Methodist Church, Presbyterian Church USA, Episcopal Church), Jewish (Union for Reform Judaism, American Jewish Committee), and several religious institutional condemnation accelerated administration policy reversal 20 June 2018 Executive Order.
+per US Department of Homeland Security Office of Inspector General reports. Religious institutional condemnation emerged rapidly, with 13 June 2018 US Conference of Catholic Bishops [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018] statement characterizing separation as "immoral" providing most pronounced American Catholic institutional immigration opposition of twenty-first century. Comparable evangelical Protestant (Franklin Graham, Southern Baptist Ethics and Religious Liberty Commission under Russell Moore), mainline Protestant (United Methodist Church, Presbyterian Church USA, Episcopal Church), Jewish (Union for Reform Judaism, American Jewish Committee), and several religious institutional condemnation accelerated administration policy reversal 20 June 2018 Executive Order.
 
 ## Trump Muslim Ban 2017 and Trump v. Hawaii 2018
 
@@ -338,7 +338,7 @@ The 26 June 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Trump v. Hawaii
 
 $$V_{\text{Trump v. Hawaii majority}} = 5, \quad V_{\text{Trump v. Hawaii dissent}} = 4$$
 
-upheld third revision of travel ban under broad executive authority framework. Chief Justice John Roberts's majority opinion specifically repudiated 1944 Korematsu v. United States precedent documented in [A272][related_post_a272_depression_war_and_refuge] while upholding travel ban itself, producing characteristic doctrinal tension. Religious institutional opposition through amicus brief filings preceded 2021 Biden administration Executive Order rescission of travel ban.
+upheld third revision of travel ban under broad executive authority framework. Chief Justice John Roberts's majority opinion repudiated 1944 Korematsu v. United States precedent documented in [A272][related_post_a272_depression_war_and_refuge] while upholding travel ban itself, producing characteristic doctrinal tension. Religious institutional opposition through amicus brief filings preceded 2021 Biden administration Executive Order rescission of travel ban.
 
 ## Afghan Operation Allies Welcome 2021
 
@@ -486,7 +486,7 @@ Subsequent January 2020 [UMC Protocol Agreement 2020][ref_umc_protocol_2020] Pro
 
 $$N_{\text{UMC congregations approved for disaffiliation, 2019 to 2023}} \approx 7660, \quad f_{\text{UMC US congregation disaffiliation share}} \approx 0.25, \quad P_{\text{GMC membership, 2024}} \approx 5 \times 10^5$$
 
-per institutional records. The 3 May 2024 UMC General Conference at Charlotte, North Carolina specifically removed historic denominational prohibitions on same-sex marriage and LGBT clergy ordination completing denominational restructuring, though ongoing institutional recalibration continued through 2024-2026 window.
+per institutional records. The 3 May 2024 UMC General Conference at Charlotte, North Carolina removed historic denominational prohibitions on same-sex marriage and LGBT clergy ordination completing denominational restructuring, though ongoing institutional recalibration continued through 2024-2026 window.
 
 ## DACA 2012 and Dreamers Movement
 
@@ -496,7 +496,7 @@ DACA program scale reached considerable proportions,
 
 $$N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5$$
 
-per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) specifically failed Congressional passage through 2024 window.
+per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) failed Congressional passage through 2024 window.
 
 ## October 7 2023 Hamas Attack and American Jewish Response
 

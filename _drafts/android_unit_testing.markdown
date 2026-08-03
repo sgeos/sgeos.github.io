@@ -415,7 +415,7 @@ They execute in seconds rather than minutes because they do not deploy to a devi
 #### Pure Logic Tests
 
 The `ClmmCalculatorTest` class tests the Kotlin calculator with standard JUnit 4 assertions.
-Each test method verifies a specific price regime or edge case.
+Each test method verifies a price regime or edge case.
 The `assertEquals` overload with a delta parameter handles floating-point comparison tolerance.
 
 `app/src/test/java/com/example/clmm/ClmmCalculatorTest.kt` full listing
@@ -894,13 +894,13 @@ The following table summarizes the Gradle tasks available for running tests.
 | `lint` | Run Android Lint on all variants |
 | `lintDebug` | Run Android Lint on the debug variant |
 
-Run a specific test class by passing the `--tests` flag.
+Run a test class by passing the `--tests` flag.
 
 ```sh
 $ ./gradlew testDebugUnitTest --tests "com.example.clmm.ClmmCalculatorTest"
 ```
 
-Run a specific test method.
+Run a test method.
 
 ```sh
 $ ./gradlew testDebugUnitTest \

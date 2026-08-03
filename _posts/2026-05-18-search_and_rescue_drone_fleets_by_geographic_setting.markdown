@@ -67,7 +67,7 @@ that
 the mission-profile-only analysis of A146
 cannot capture.
 A program manager
-in a specific jurisdiction
+in a jurisdiction
 benefits from
 an explicit
 geographic-setting filter
@@ -147,7 +147,7 @@ the
 [Low Altitude Authorization
 and Notification Capability][ref_laanc]
 programme
-or through a specific Certificate of Waiver or Authorization
+or through a Certificate of Waiver or Authorization
 for each operation.
 A program operating in
 Class G
@@ -541,7 +541,7 @@ that pass
 the ASTM F3322 standard,
 or
 operate under
-specific approvals
+approvals
 for closed sets
 of operations.
 
@@ -570,7 +570,7 @@ and the surrounding
 agricultural, wooded, or coastal terrain.
 The geographic balance
 shifts
-with the specific county.
+with the county.
 A coastal Level 2 county
 emphasises water rescue
 more than an inland Level 2 county.
@@ -1387,7 +1387,7 @@ the development,
 and the geographic deployment
 of a search and rescue
 unmanned aerial vehicle programme.
-The detailed engineering of specific airframes,
+The detailed engineering of airframes,
 the regulatory deep-dive,
 and
 the operations-in-the-field manuals
@@ -1426,7 +1426,7 @@ that this article does not address.
 **Detailed airspace charting and waiver preparation.**
 A program manager
 preparing
-specific airspace authorisations
+airspace authorisations
 should
 consult
 the

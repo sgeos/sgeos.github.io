@@ -344,7 +344,7 @@ The capabilities that extend the model beyond text generation.
 ### Claude 4.5 Model Family
 
 As of early 2026, Claude Code is powered by the Claude 4.5 model family,
-specifically utilizing Claude Sonnet 4.5 as its default balanced engine
+utilizing Claude Sonnet 4.5 as its default balanced engine
 and Claude Opus 4.5 for high-complexity reasoning tasks.
 Sonnet is primarily used for speed, coding precision, and agentic loops.
 Opus is employed for complex architecture and multi-system debugging.
@@ -355,7 +355,7 @@ Opus is employed for complex architecture and multi-system debugging.
 Claude automatically reads at the start of each session,
 providing project-specific context without needing to repeat yourself.
 It is case-sensitive and must be exactly `CLAUDE.md`,
-specifically uppercase `CLAUDE` with a lowercase `.md` extension.
+uppercase `CLAUDE` with a lowercase `.md` extension.
 
 This file should include the following.
 - **Project context:** A single line summarizing the project.
@@ -464,7 +464,7 @@ and then address each one systematically.
 ### External Documentation References
 
 Rather than cramming everything into `CLAUDE.md`,
-you can reference other markdown files with specific instructions like:
+you can reference other markdown files with instructions like:
 
 > For complex usage or if you encounter a `FooError`,
 > see `path/to/relevantdoc.md` for advanced troubleshooting steps.

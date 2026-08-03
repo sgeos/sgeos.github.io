@@ -68,7 +68,7 @@ $ claude --version
 
 Every AI coding agent faces the same fundamental challenge.
 The model has been trained on public code and documentation,
-but it knows nothing about the specific project it is working on.
+but it knows nothing about the project it is working on.
 The architecture, the naming conventions,
 the build commands, the test strategy,
 the reasons behind past design decisions,
@@ -151,7 +151,7 @@ with explicit precedence ordering.
 3. **Project Memory**. Project-level instructions in `CLAUDE.md` and `.claude/rules/` at the project root.
 4. **Directory-Scoped Memory**. `CLAUDE.md` files in subdirectories, loaded on demand when the agent works in that subtree.
 
-More specific rules override more general ones on conflict.
+More rules override more general ones on conflict.
 Directory-scoped files load only when needed,
 which means the agent does not carry the full weight
 of every subdirectory's knowledge in every interaction.
@@ -163,7 +163,7 @@ consuming roughly 50 tokens per skill.
 If the agent determines a skill is relevant to the current task,
 it loads the full `SKILL.md` body at roughly 500 tokens.
 Supplementary resources like scripts and reference files
-load only when specific sub-tasks require them.
+load only when sub-tasks require them.
 This design is analogous to lazy evaluation in graph traversal,
 where nodes are fully expanded only when visited.
 
@@ -177,7 +177,7 @@ following three structural principles documented in `DOCUMENTATION_STRATEGY.md`.
 The full strategy file is reproduced below for reference.
 Readers building a knowledge graph for their own project
 will need to adapt these conventions
-to fit their specific directory structure, tooling, and team workflow.
+to fit their directory structure, tooling, and team workflow.
 
 **`DOCUMENTATION_STRATEGY.md` full listing**
 ````markdown

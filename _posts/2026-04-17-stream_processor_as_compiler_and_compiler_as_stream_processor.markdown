@@ -1248,7 +1248,7 @@ require
 academic
 toys.
 
-**Thesis three: the streaming discipline has a specific applicability boundary.**
+**Thesis three: the streaming discipline has an applicability boundary.**
 The discipline
 is
 the correct choice
@@ -1500,7 +1500,7 @@ in
 the present.
 The discipline
 has
-specific applicability
+applicability
 that
 target contexts
 either
