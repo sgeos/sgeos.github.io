@@ -12,10 +12,10 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `ec25680`
-- **Written**: 2026-08-04
-- **Tree at write**: clean, in sync with `origin/master`, nothing unpushed
-- **Context**: written before a planned compaction, with two tasks queued and neither started.
+- **Parent commit** (the repository state this handoff describes): `510b9ed`
+- **Written**: 2026-08-05
+- **Tree at write**: clean; FOUR word-usage commits plus this one are UNPUSHED, awaiting your authorization
+- **Context**: Task 1 is COMPLETE and verified. Task 2 has not started.
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
@@ -28,18 +28,51 @@ advances the tip by one, so the state it describes is the parent of the handoff 
   familiarize from the live channels — `REVERSE_PROMPT.md`, `TASKLOG.md`, `_drafts/draft_summary.md`,
   and the git log, always authoritative — and wait for instruction.
 
-## Resume prompt — two queued tasks, neither started
+## Resume prompt — Task 1 done, Task 2 queued, four commits unpushed
 
 The History of SpaceX series A281 through A292 is complete, published, and pushed. Do not resume it.
 
-Two tasks are queued. **Confirm with the pilot which to start**; they were given together and the order
-was not specified.
+**Task 1 is COMPLETE.** The corpus-wide word-usage pass landed in four commits over 110 files. Do not
+redo it. Its results, method, and deliberate omissions are recorded in `REVERSE_PROMPT.md` and in the
+2026-08-05 TASKLOG entry; the scripts are under `tmp/wordpass/` and are gitignored, so they will not
+survive a clean checkout. Read those before touching word usage again.
+
+**Two things remain.**
+
+1. **Four commits are unpushed.** They edit 110 published articles. The build verifies clean, 294 posts
+   in and 294 HTML out with zero Liquid errors, but the push needs pilot authorization.
+2. **Task 2 has not started.** See below.
 
 ---
 
-## Task 1 — pathological word-usage pass over the whole corpus
+## Task 1 — COMPLETE, retained for its method rules only
 
-Extend to every article the pass already completed on the twelve SpaceX articles.
+The findings table below is SUPERSEDED by the work itself. What stays useful is the method.
+
+**Rules earned, all four found by verification rather than by reading a diff:**
+
+1. **Guard hyphenated compounds.** A word-boundary rule turned `case-specific supplementary` into
+   `case-supplementary`.
+2. **Terminate every alternation with `\b`.** Without it `in` matched "Indian" and `for` matched
+   "forward", silently protecting roughly 90 targets as though they were legitimate.
+3. **Repair agreement after substitution**, both articles ("a extensive") and superlatives ("the most
+   appreciable"), restricted to words the pass itself inserted.
+4. **Make cosmetic normalization conditional on a rule having fired**, or it rewrites lines nothing
+   touched and the diff stops meaning anything.
+5. **Compare against the MEDIAN article rate, not the mean**, which the pathological articles drag up.
+6. **Ratio against the rest of the corpus is the WRONG discriminator.** It surfaces topic vocabulary.
+   Restrict to content-independent words, then apply an explicit, written-down exclusion table.
+
+**What was deliberately left**, so a later agent does not "fix" it: `framework` at 2.08 per thousand is
+1379 modified technical phrases against 149 bare ones; `specific impulse` keeps the rocket propellant
+articles at their original counts; and the repeated SENTENCE PATTERN behind "X and Y provide the
+treatments" was not restructured, being an editorial call rather than a mechanical one.
+
+**The root cause is still open.** Nothing in any writing or process document instructs the use of
+`specific`. It is self-imitation drift. A preventive line for `_docs/writing/STYLE_GUIDE.md` was offered
+and not yet decided.
+
+### Superseded reconnaissance, retained only as a record
 
 **Scope**: 257 non-SpaceX posts plus 8 drafts, roughly 1.46 million words. The 12 SpaceX articles are
 **already remediated** and must be excluded from the worklist and from any baseline.
