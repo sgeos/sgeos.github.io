@@ -29,13 +29,23 @@ $$T^{\text{mission}} \gg T^{\text{fund}}$$
 
 with the specific typical venture fund life at approximately ten years subject to specific extensions and the specific mission horizon measured in decades. The specific mismatch is the specific central problem, and the specific patient-private leg closes only where a specific mechanism resolves it.
 
-The specific mechanism cannot be that the specific investors simply wait, because the specific fund's specific obligation runs to the specific limited partners rather than to the specific portfolio company. The specific resolution admits three logical forms and the article examines which of them the specific case employed. The specific first is a specific longer fund. The specific second is a specific different vehicle without a specific fund-life clock. The specific third is a specific mechanism by which the specific fund realizes its specific position without the specific portfolio company undergoing a specific liquidity event. The specific third is the specific one that operated, and it is the specific tender-offer mechanism the [Governance article A287][related_post_a287_spacex_governance] treats from the specific control side and this article treats from the specific capital side.
+The specific mechanism cannot be that the specific investors simply wait, because the specific fund's specific obligation runs to the specific limited partners rather than to the specific portfolio company. The specific resolution admits three logical forms and the article examines which of them the specific case employed. The specific first is a specific longer fund. The specific second is a specific different vehicle without a specific fund-life clock. The specific third is a specific mechanism by which the specific fund realizes its specific position without the specific portfolio company undergoing a specific liquidity event. The three admit the compact disjunctive statement
+
+$$\text{mismatch resolved} \iff \left( T^{\text{fund}} \geq T^{\text{holding}} \right) \; \vee \; \left( \nexists \; T^{\text{fund}} \right) \; \vee \; \left( \text{realization} \perp \text{exit} \right)$$
+
+with the first disjunct requiring a term the venture industry does not offer, the second requiring a change in the composition of the supplying vehicles rather than in their behavior, and the third requiring an arrangement internal to the firm. The specific third is the specific one that operated, and it is the specific tender-offer mechanism the [Governance article A287][related_post_a287_spacex_governance] treats from the specific control side and this article treats from the specific capital side.
 
 The specific identification problem is the specific counterfactual. The specific counterfactual differential admits the compact form
 
 $$\Delta V^{\text{patient-private}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{impatient-capital counterfactual}}_i(t)$$
 
 with the specific attribution equal to the difference between the specific observed trajectory and the specific counterfactual in which the specific same capital was supplied on specific ordinary terms with a specific ordinary exit expectation. The specific counterfactual is partially observable in this specific case, because the specific sector supplies specific contemporaneous ventures that raised capital on specific ordinary terms and encountered the specific consequences.
+
+The quantity the article isolates must be separated from the larger and less interesting quantity with which it is habitually conflated. The decomposition admits the compact form
+
+$$\underbrace{V^{\text{observed}}_i - V^{\text{no external capital}}_i}_{\text{total financing effect}} = \underbrace{\left( V^{\text{ordinary terms}}_i - V^{\text{no external capital}}_i \right)}_{\text{supply component}} + \underbrace{\left( V^{\text{observed}}_i - V^{\text{ordinary terms}}_i \right)}_{\text{terms component}}$$
+
+with the article addressing only the second summand. The specific first summand is large, is uncontroversial, and establishes merely that a specific capital-intensive venture requires capital. The specific second summand is the specific one on which the specific patience claim rests, and it is the specific one the specific commentary leaves unmeasured.
 
 ## Methodological Commitments
 
@@ -79,11 +89,23 @@ $$\text{TVPI} = \frac{\sum_i V^{\text{carrying}}_i + \text{distributions}}{K^{\t
 
 with the specific first term in the specific numerator being unrealized. The specific measure sustains the specific relationship across the specific interval and does not pay the specific carry, which is the specific reason it is a partial substitute rather than a complete one.
 
+The carry is moreover not merely deferred but discounted, and the distinction sharpens the constraint considerably. The present value of a carried interest realized at a horizon $T$ admits the compact form
+
+$$\operatorname{PV}\left[ \Pi^{\text{carry}} \right] = c \cdot \frac{\mathbb{E}\left[ V^{\text{realized}}_T - K \right]}{\left( 1 + r^{\text{GP}} \right)^{T}}$$
+
+with the specific value declining in $T$ even where the specific terminal amount is certain. A specific general partner therefore prefers a specific earlier realization at a specific lower valuation to a specific later realization at a specific higher one whenever the specific valuation growth rate falls short of the specific discount rate, which is a specific preference the specific limited partners do not necessarily share and which no specific quantity of specific conviction about the specific mission alters.
+
 The specific duration-matching condition that a specific capital supplier must satisfy admits the compact form
 
 $$T^{\text{vehicle}} \geq T^{\text{holding required}}$$
 
 with the specific vehicle life required to exceed the specific holding period. The specific condition is satisfied trivially by a specific vehicle with no specific stated life, which is the specific structural reason the specific investor-base composition shifted as it did.
+
+The condition is furthermore not evaluated once at entry but continuously, because the vehicle's remaining life declines while the required holding period does not. The remaining life of a specific supplying vehicle admits the compact form
+
+$$T^{\text{remaining}}_i(t) = T^{\text{vehicle}}_i - \left( t - t^{\text{inception}}_i \right)$$
+
+with the specific quantity declining at unit rate. A specific fund that satisfied the specific duration condition comfortably at the specific moment it invested violates it at a specific later date without any specific change in the specific venture, the specific investor's specific view, or the specific development schedule. The specific observation is the specific reason the article treats the specific constraint as a specific clock rather than as a specific threshold, and it is the specific reason a specific arrangement adequate at one date requires replacement at another.
 
 The specific dilution the specific channel costs admits the compact recursion the [Governance article A287][related_post_a287_spacex_governance] develops
 
@@ -95,7 +117,11 @@ with the specific product declining monotonically. The specific patient-private 
 
 The patient-private capital-formation property admits characterization from several disciplinary traditions beyond the mission-oriented-innovation framework the series adopts as primary.
 
-The entrepreneurial-finance tradition traces from [Sahlman 1990][research_sahlman_1990] through [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Lerner 1994][research_lerner_1994_syndication] The Syndication of Venture Capital Investments, [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003] Financial Contracting Theory Meets the Real World, [Kaplan and Stromberg 2004][research_kaplan_stromberg_2004], [Gompers and Lerner 2001][book_gompers_lerner_2001], [Metrick and Yasuda 2011][book_metrick_yasuda_2011], [Lerner 2009][book_lerner_2009], [Kortum and Lerner 2000][research_kortum_lerner_2000] Assessing the Contribution of Venture Capital to Innovation, [Hall and Lerner 2010][research_hall_lerner_2010] The Financing of R and D and Innovation, and [Lerner 1996][research_lerner_1996_government_program]. The framing supplies the specific fund apparatus and the specific staging apparatus, and its specific central observation for this article is that the specific staging instrument and the specific fund-life instrument pull in specific opposite directions. Staging preserves the specific investor's option to discontinue and thereby shortens the specific effective commitment, while the specific mission requires lengthening it.
+The entrepreneurial-finance tradition traces from [Sahlman 1990][research_sahlman_1990] through [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Lerner 1994][research_lerner_1994_syndication] The Syndication of Venture Capital Investments, [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003] Financial Contracting Theory Meets the Real World, [Kaplan and Stromberg 2004][research_kaplan_stromberg_2004], [Gompers and Lerner 2001][book_gompers_lerner_2001], [Metrick and Yasuda 2011][book_metrick_yasuda_2011], [Lerner 2009][book_lerner_2009], [Kortum and Lerner 2000][research_kortum_lerner_2000] Assessing the Contribution of Venture Capital to Innovation, [Hall and Lerner 2010][research_hall_lerner_2010] The Financing of R and D and Innovation, and [Lerner 1996][research_lerner_1996_government_program]. The framing supplies the specific fund apparatus and the specific staging apparatus, and its specific central observation for this article is that the specific staging instrument and the specific fund-life instrument pull in specific opposite directions. Staging preserves the specific investor's option to discontinue and thereby shortens the specific effective commitment, while the specific mission requires lengthening it. The specific tension admits the compact statement
+
+$$T^{\text{effective commitment}} = \min_{n} \left\{ t_n \; : \; \text{continuation declined at stage } n \right\} \;\; \ll \;\; T^{\text{holding required}}$$
+
+with the specific staged structure rendering the specific committed horizon equal to the specific interval to the specific next decision point rather than to the specific stated fund life. The specific instrument the specific literature treats as the specific principal protection against a specific adverse selection is therefore also the specific principal obstacle to a specific long-horizon commitment, and the specific literature does not generally note the specific second property because the specific ventures it studies do not require a specific long horizon.
 
 The corporate-finance tradition traces from [Myers 1977][research_myers_1977] Determinants of Corporate Borrowing through [Jensen and Meckling 1976][research_jensen_meckling_1976], [Jensen 1986][research_jensen_1986], [Fama and Jensen 1983][research_fama_jensen_1983], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure, and [Tirole 2006][book_tirole_2006]. The framing supplies the specific account of the specific claims each specific instrument creates and the specific reason a specific debt claim and a specific equity claim behave differently under a specific development delay. The specific difference admits the compact statement
 
@@ -109,15 +135,35 @@ $$K^{\text{private available}}(t) \gg K^{\text{private available}}(t_0)$$
 
 across the specific period, with the specific consequence that a specific firm requiring a specific magnitude of capital that would once have compelled a specific listing can now obtain it privately.
 
-The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982], [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986], [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the specific round terms as a specific negotiated outcome and supplies the specific explanation for the specific terms improving across the specific sequence, because the specific founder's specific outside option improved as the specific venture demonstrated capability while the specific investors' specific outside options in the specific sector did not.
+The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982], [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986], [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the specific round terms as a specific negotiated outcome and supplies the specific explanation for the specific terms improving across the specific sequence, because the specific founder's specific outside option improved as the specific venture demonstrated capability while the specific investors' specific outside options in the specific sector did not. The specific asymmetry admits the compact form
 
-The real-options tradition traces from [Myers 1977][research_myers_1977], [Black and Scholes 1973][research_black_scholes_1973], [Merton 1973][research_merton_1973], [McDonald and Siegel 1986][research_mcdonald_siegel_1986], [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994], [Dixit and Pindyck 1994][book_dixit_pindyck_1994], [Trigeorgis 1996][book_trigeorgis_1996], and [Copeland and Antikarov 2001][book_copeland_antikarov_2001]. The framing treats each specific round as a specific option exercise and supplies the specific account of the specific investor's specific decision at each specific stage.
+$$\sigma^{\text{founder}}_n = \sigma\!\left( u^{\text{founder}}_n, \; u^{\text{investor}}_n \right) \qquad \text{with} \qquad \frac{d u^{\text{founder}}_n}{d n} > 0 \quad \text{and} \quad \frac{d u^{\text{investor}}_n}{d n} \approx 0$$
 
-The financial-sociology tradition traces from [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera through [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, [Preda 2009][book_preda_2009] Framing Finance, and [Krippner 2011][book_krippner_2011] Capitalizing on Crisis. The framing treats the specific horizon norms as institutionally constructed rather than natural, and it supplies the specific most direct support for the article's claim that patience is manufactured rather than possessed, because it establishes that the specific short horizon the specific arrangement circumvents is itself a specific artifact of specific practices rather than a specific property of specific capital.
+with $\sigma^{\text{founder}}_n$ the specific founder's specific negotiated share at round $n$ and $u$ the specific disagreement payoffs. The specific investor's specific outside option is approximately flat because the specific sector offered no specific comparable alternative position, which is a specific consequence of the specific concentration the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents rather than of any specific negotiating skill.
 
-The behavioral tradition traces from [Kahneman and Tversky 1979][research_kahneman_tversky_1979] Prospect Theory, [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow, [Simon 1957][book_simon_1957] Administrative Behavior, [Staw 1976][research_staw_1976], and [Ross and Staw 1993][research_ross_staw_1993]. The framing supplies the specific skeptical reading under which the specific continued participation across the specific later rounds reflects a specific commitment escalation rather than a specific reassessment.
+The real-options tradition traces from [Myers 1977][research_myers_1977], [Black and Scholes 1973][research_black_scholes_1973], [Merton 1973][research_merton_1973], [McDonald and Siegel 1986][research_mcdonald_siegel_1986], [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994], [Dixit and Pindyck 1994][book_dixit_pindyck_1994], [Trigeorgis 1996][book_trigeorgis_1996], and [Copeland and Antikarov 2001][book_copeland_antikarov_2001]. The framing treats each specific round as a specific option exercise and supplies the specific account of the specific investor's specific decision at each specific stage. The specific staged valuation admits the compact recursion
 
-The venture-ecosystem and regional tradition traces from [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Klepper 2016][book_klepper_2016] Experimental Capitalism, and [Berlin 2005][book_berlin_2005] The Man Behind the Microchip. The framing supplies the specific institutional context within which the specific investor set formed and the specific norms it operated under, and the [Silicon Valley from Defense Contracting article A246][related_post_a246_silicon_valley_defense] treats the specific defense-procurement substrate from which the specific regional capability originally derived.
+$$W_n = \max \left\{ 0, \; \mathbb{E}\left[ W_{n+1} \mid \mathcal{F}_n \right] - k_n \right\}$$
+
+with $W_n$ the specific value of the specific participation right at stage $n$, $k_n$ the specific capital the specific stage requires, and $\mathcal{F}_n$ the specific information available at the specific decision. The specific framing's specific contribution to this article is that it identifies the specific abandonment option as valuable to the specific investor and costly to the specific venture, so that the specific instrument maximizing the specific investor's specific option value is not the specific instrument maximizing the specific probability the specific mission is completed.
+
+The financial-sociology tradition traces from [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera through [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, [Preda 2009][book_preda_2009] Framing Finance, and [Krippner 2011][book_krippner_2011] Capitalizing on Crisis. The framing treats the specific horizon norms as institutionally constructed rather than natural, and it supplies the specific most direct support for the article's claim that patience is manufactured rather than possessed, because it establishes that the specific short horizon the specific arrangement circumvents is itself a specific artifact of specific practices rather than a specific property of specific capital. The specific claim admits the compact contrast
+
+$$T^{\text{norm}} = T^{\text{norm}}\!\left( \text{prevailing institutional practice} \right) \qquad \text{against} \qquad T^{\text{norm}} = \text{constant}$$
+
+with the specific left form holding and the specific right form being the specific implicit assumption of the specific commentary that treats a specific ten-year fund life as a specific fact about capital. The specific ten-year term is a specific convention that emerged from a specific particular institutional history, and a specific convention is precisely the specific kind of object a specific sufficiently large counterparty can renegotiate.
+
+The behavioral tradition traces from [Kahneman and Tversky 1979][research_kahneman_tversky_1979] Prospect Theory, [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow, [Simon 1957][book_simon_1957] Administrative Behavior, [Staw 1976][research_staw_1976], and [Ross and Staw 1993][research_ross_staw_1993]. The framing supplies the specific skeptical reading under which the specific continued participation across the specific later rounds reflects a specific commitment escalation rather than a specific reassessment. The specific two readings generate specific different comparative statics, admitting the compact contrast
+
+$$\frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} \approx 0 \;\; \text{under escalation} \qquad \text{against} \qquad \frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} < 0 \;\; \text{under reassessment}$$
+
+with $s^{\text{adverse}}$ a specific adverse signal about the specific venture. The specific discrimination between the specific two readings requires observing a specific investor's specific response to a specific adverse signal, and the specific record supplies few specific adverse signals after the specific 2008 period, which is the specific reason the Alternative Analytical Frameworks section records the specific two as not distinguishable on the specific available evidence.
+
+The venture-ecosystem and regional tradition traces from [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Klepper 2016][book_klepper_2016] Experimental Capitalism, and [Berlin 2005][book_berlin_2005] The Man Behind the Microchip. The framing supplies the specific institutional context within which the specific investor set formed and the specific norms it operated under, and the [Silicon Valley from Defense Contracting article A246][related_post_a246_silicon_valley_defense] treats the specific defense-procurement substrate from which the specific regional capability originally derived. The specific framing's specific contribution to this article is that the specific secondary market on which the specific whole arrangement depends is itself an institutional product requiring a specific density of specific informed counterparties, admitting the compact condition
+
+$$N^{\text{informed counterparties}} \geq N^{\text{minimum}} \quad \text{for a functioning transfer market}$$
+
+with the specific density available in a specific small number of specific locations. The specific observation qualifies the specific generality of the article's central finding in a specific way distinct from the specific state-dependence limitation, because a specific venture may satisfy every specific structural condition the article states and still lack the specific counterparty population that makes the specific transfer market operate.
 
 The practitioner tradition traces from [Thiel 2014][book_thiel_2014] Zero to One, [Ries 2011][book_ries_2011] The Lean Startup, [Blank 2013][book_blank_2013] The Four Steps to the Epiphany, [Moore 1991][book_moore_1991] Crossing the Chasm, and [Christensen 1997][book_christensen_1997] The Innovator's Dilemma. The framing is the specific one the specific participants themselves employed and is cited here as evidence about the specific decision environment rather than as analytical authority.
 
@@ -126,6 +172,12 @@ The practitioner tradition traces from [Thiel 2014][book_thiel_2014] Zero to One
 The specific constraint deserves treatment before the specific history, because it is the specific obstacle every specific subsequent event either circumvents or fails to.
 
 A specific venture fund is organized as a specific limited partnership under the specific [Delaware Limited Partnership Act][ref_delaware_lp_act] or a specific comparable regime, with a specific stated term customarily of approximately ten years subject to specific extensions of one or two years at the specific general partner's election or with specific limited-partner consent. The specific fund is exempt from registration as an investment company under the specific [Investment Company Act][ref_investment_company_act] provisions, and the specific manager is registered or exempt under the specific [Investment Advisers Act][ref_investment_advisers_act]. The specific limited-partner community's specific standards are documented through the specific [Institutional Limited Partners Association][ref_ilpa], and the specific industry-level structures through the specific [National Venture Capital Association][ref_nvca].
+
+The specific term decomposes into two periods with specific different functions, admitting the compact form
+
+$$T^{\text{fund}} = T^{\text{investment}} + T^{\text{harvest}} + \epsilon^{\text{extension}} \qquad \text{with} \qquad T^{\text{investment}} \approx T^{\text{harvest}} \approx 5 \text{ years}, \;\; \epsilon^{\text{extension}} \leq 2 \text{ years}$$
+
+with capital deployed during the specific first period and positions realized during the specific second. The specific decomposition matters because a specific position taken late in the specific investment period faces a specific available holding period of approximately the specific harvest period alone rather than the specific full term, so that the specific nominal ten-year figure overstates the specific patience available to a specific late-deployed position by a specific factor approaching two.
 
 The specific structure imposes the specific constraint through three distinct channels that the specific commentary generally collapses into one.
 
@@ -141,25 +193,41 @@ The specific third is reputational and is the specific one that binds most tight
 
 $$\text{DPI} = \frac{\text{distributions to limited partners}}{\text{capital drawn}}$$
 
-with a specific low value impeding the specific successor fundraise irrespective of the specific reported unrealized value. A specific general partner therefore faces a specific pressure to realize that operates on the specific fundraising cycle of approximately three to four years rather than on the specific fund life of ten.
+with a specific low value impeding the specific successor fundraise irrespective of the specific reported unrealized value. A specific general partner therefore faces a specific pressure to realize that operates on the specific fundraising cycle of approximately three to four years rather than on the specific fund life of ten. The specific binding clock admits the compact identification
+
+$$T^{\text{binding}} = \min \left\{ T^{\text{fund}}, \; \Delta^{\text{fundraise cycle}} \right\} = \Delta^{\text{fundraise cycle}} \approx 3 \text{ to } 4 \text{ years}$$
+
+with the specific reputational channel binding well before the specific contractual one. The specific identification is the specific reason the article treats the specific commentary's collapse of the specific three channels into one as a specific substantive error rather than a specific simplification, because the specific channel that actually binds is the specific one the specific partnership agreement does not mention.
 
 The specific mismatch against a specific mission horizon is severe. The specific required holding period for a specific position taken in the specific 2008 period against a specific mission whose specific completion lies beyond the drafting date exceeds
 
 $$T^{\text{holding}} > 18 \text{ years}$$
 
-which is approximately twice the specific nominal fund life and approximately five times the specific successor-fundraise cycle. No specific amount of specific investor conviction reconciles the specific figures. Only a specific structural mechanism does.
+which is approximately twice the specific nominal fund life and approximately five times the specific successor-fundraise cycle. The specific mismatch ratios admit the compact statement
+
+$$\rho^{\text{fund}} = \frac{T^{\text{holding}}}{T^{\text{fund}}} \approx 2 \qquad \text{and} \qquad \rho^{\text{cycle}} = \frac{T^{\text{holding}}}{\Delta^{\text{fundraise cycle}}} \approx 5$$
+
+with both quantities exceeding unity by a specific margin no specific extension provision closes. No specific amount of specific investor conviction reconciles the specific figures. Only a specific structural mechanism does.
 
 ## The 2008 Founders Fund Entry
 
 The specific August 2008 investment constitutes the specific first substantial external capital and occurred at the specific moment the [series opener][related_post_a281_spacex_framing] identifies as the specific near-death period, between the specific third and fourth Falcon 1 flights. The specific investor's specific own account is published at the specific [Founders Fund][ref_founders_fund] and the specific narrative record appears in [Berger 2021][book_berger_2021] Liftoff, [Vance 2015][book_vance_2015] Elon Musk, and [Isaacson 2023][book_isaacson_2023] Elon Musk.
 
-The specific analytically interesting feature of the specific investment is the specific terms rather than the specific timing. The specific bargaining apparatus predicts that an investor supplying capital to a specific venture with a specific runway measured in weeks should extract specific control terms in proportion to the specific asymmetry. The specific terms agreed did not transfer control, which the [Governance article A287][related_post_a287_spacex_governance] treats from the specific control side.
+The specific analytically interesting feature of the specific investment is the specific terms rather than the specific timing. The specific bargaining position at the specific moment admits the compact statement through the specific runway quantity
+
+$$T^{\text{runway}} = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}$$
+
+with the specific quantity at the specific August 2008 date measured in weeks rather than in quarters. The specific bargaining apparatus predicts that an investor supplying capital to a specific venture at a specific such runway should extract specific control terms in proportion to the specific asymmetry, because the specific founder's specific disagreement payoff approaches the specific liquidation value. The specific terms agreed did not transfer control, which the [Governance article A287][related_post_a287_spacex_governance] treats from the specific control side.
 
 The specific capital-side reading supplies a specific complementary explanation the specific control-side reading does not. The specific investor's specific stated thesis was that specific existing venture practice systematically underfunded specific technically ambitious ventures, so that the specific investor's specific competitive position depended on being willing to fund specifically what others would not. Under the specific thesis, the specific terms are not a specific concession extracted from a specific weak position but a specific product the specific investor was selling. The specific distinction admits the compact statement
 
 $$\text{terms} = \arg\max \left[ \text{value captured in this transaction} \right] \qquad \text{against} \qquad \arg\max \left[ \text{deal flow across future transactions} \right]$$
 
-with the specific second objective recommending specific founder-favorable terms as a specific reputational investment. The specific reading is consistent with the specific investor's specific subsequent positioning and does not require attributing any specific unusual generosity.
+with the specific second objective recommending specific founder-favorable terms as a specific reputational investment. The specific condition under which the specific second objective dominates admits the compact form
+
+$$\underbrace{\Delta u^{\text{this transaction}}}_{< 0} \; + \; \sum_{m > 0} \pi_m \, \Delta u^{\text{transaction } m} \; > \; 0$$
+
+with $\pi_m$ the specific probability that the specific reputation secures a specific future transaction $m$ that would otherwise have been unavailable. The specific inequality holds where the specific investor expects a specific long sequence of specific future transactions in a specific category where specific founder selection of specific investors is the specific operative constraint. The specific reading is consistent with the specific investor's specific subsequent positioning and does not require attributing any specific unusual generosity.
 
 ## The 2009 Draper Fisher Jurvetson Entry
 
@@ -169,19 +237,33 @@ The specific sequencing is analytically important and connects this article to t
 
 $$r^{\text{private}}\big|_{\text{post-award}} < r^{\text{private}}\big|_{\text{pre-award}}$$
 
-with the specific award functioning as a specific credit enhancement supplied by a specific third party at no specific cost to the specific venture. The specific interaction is the specific reason the specific three capital-formation legs are treated as a specific system rather than as specific independent channels, and it runs in the specific opposite direction from the specific interaction the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] identifies, in which the specific private capital financed the specific litigation that opened the specific government channel.
+with the specific award functioning as a specific credit enhancement supplied by a specific third party at no specific cost to the specific venture. The specific mechanism operating on the specific discount rate is the specific removal of a specific distinct failure mode from the specific risk decomposition, admitting the compact form
+
+$$P^{\text{failure}} = 1 - \left( 1 - p^{\text{technical}} \right)\left( 1 - p^{\text{market}} \right) \qquad \text{with} \qquad p^{\text{market}} \big|_{\text{post-award}} \ll p^{\text{market}} \big|_{\text{pre-award}}$$
+
+with the specific fourth Falcon 1 flight reducing the specific first factor and the specific award reducing the specific second. The specific two reductions arrived within four months of one another, which is the specific reason the specific 2009 round priced as it did and the specific reason the specific separate contributions cannot be identified from the specific price alone. The specific interaction is the specific reason the specific three capital-formation legs are treated as a specific system rather than as specific independent channels, and it runs in the specific opposite direction from the specific interaction the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] identifies, in which the specific private capital financed the specific litigation that opened the specific government channel.
 
 ## The January 2015 Google and Fidelity Round
 
 The specific January 2015 round in which approximately 1 billion dollars was supplied for approximately 10 percent of the specific firm is treated from the specific portfolio side in the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] and from the specific governance side in the [Governance article A287][related_post_a287_spacex_governance]. The specific capital-formation reading adds a specific third element.
 
-The specific round introduced a specific class of investor with a specific structurally different horizon. A specific corporate strategic investor holds a specific position on a specific balance sheet with no specific fund life, and a specific large asset manager holds a specific position in a specific open-ended vehicle with no specific stated term. Neither faces the specific constraint the preceding section describes. The specific duration-matching condition is therefore satisfied trivially for both.
+The specific round introduced a specific class of investor with a specific structurally different horizon. A specific corporate strategic investor holds a specific position on a specific balance sheet with no specific fund life, and a specific large asset manager holds a specific position in a specific open-ended vehicle with no specific stated term. Neither faces the specific constraint the preceding section describes. The specific duration-matching condition is therefore satisfied trivially for both, admitting the compact statement
+
+$$T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \geq T^{\text{holding required}} \; \text{ for every } \; T^{\text{holding required}}$$
+
+with the specific condition satisfied without reference to the specific development schedule, the specific mission horizon, or any specific forecast whatever. The specific point deserves emphasis because it is the specific clearest instance in the article of the specific central claim. The specific balance-sheet holder is not more patient in any specific psychological sense than the specific venture fund. It is subject to a specific different instrument.
 
 The specific shift admits the compact statement as a specific change in the specific weighted average vehicle life across the specific investor base
 
 $$\bar{T}^{\text{vehicle}}(t) = \sum_i w_i(t) \, T^{\text{vehicle}}_i \qquad \text{with} \qquad \frac{d \bar{T}^{\text{vehicle}}}{dt} > 0$$
 
 with the specific weighted average rising as the specific base broadened from specific closed-end venture funds toward specific evergreen and specific balance-sheet holders. The specific rise is the specific principal structural development in the specific financing history and it is substantially independent of any specific investor's specific conviction.
+
+The specific weighted average is moreover the specific wrong summary statistic for the specific purpose, and the specific correct one behaves differently. What binds is the specific earliest term across the specific base rather than the specific average, because a specific single holder reaching its specific term generates a specific realization demand irrespective of the specific horizons the specific remaining holders enjoy. The specific binding quantity admits the compact form
+
+$$T^{\text{binding}}(t) = \min_i \; T^{\text{remaining}}_i(t)$$
+
+with the specific minimum rather than the specific mean governing. The specific broadening of the specific base therefore does not by itself relieve the specific pressure, because adding a specific perpetual holder to a specific base containing a specific fund near term leaves the specific minimum unchanged. The specific observation is what makes the specific tender mechanism necessary rather than merely convenient, because the specific mechanism operates precisely on the specific holder attaining the specific minimum.
 
 ## The Round Sequence and Valuation Trajectory
 
@@ -193,7 +275,15 @@ The specific trajectory's specific analytical function in this article is not to
 
 $$g_n = \frac{V_n}{V_{n-1}} - 1$$
 
-with the specific positive sequence of $g_n$ supplying the specific carrying-value increases that sustained the specific limited-partner relationships across the specific interval. The specific mechanism is the specific partial substitute the economic-property section identifies, and its specific limitation is that it pays no specific carried interest and satisfies no specific distribution metric.
+with the specific positive sequence of $g_n$ supplying the specific carrying-value increases that sustained the specific limited-partner relationships across the specific interval. The specific cumulative effect on a specific position held from the specific 2015 round admits the compact product
+
+$$\frac{V_N}{V_0} = \prod_{n=1}^{N} \left( 1 + g_n \right) \approx 29 \qquad \text{over} \qquad N \approx 10 \text{ rounds across } 10 \text{ years}$$
+
+corresponding to a specific implied annualized rate
+
+$$\bar{g} = \left( \frac{V_N}{V_0} \right)^{1/\Delta t} - 1 \approx 0.40$$
+
+with $\Delta t$ the specific elapsed interval in years. The specific figures are reconstructions and inherit every specific limitation the Data Sources section records, and their specific analytical function is not to establish a specific return but to establish that the specific sequence was monotone. A specific monotone sequence is what the specific mechanism requires, and a specific single interruption would have suspended it. The specific mechanism is the specific partial substitute the economic-property section identifies, and its specific limitation is that it pays no specific carried interest and satisfies no specific distribution metric.
 
 ## The Tender-Offer Mechanism as Liquidity Without Exit
 
@@ -201,7 +291,17 @@ The specific semi-annual tender-offer mechanism is the specific decisive structu
 
 The specific mechanism is described from the specific control side in the [Governance article A287][related_post_a287_spacex_governance]. The specific capital-side description is that the specific firm periodically arranges for specific incoming investors to purchase specific shares from specific existing holders at a specific price the specific firm sets, conducted under the specific [Rule 13e-4][ref_rule_13e4] and [Regulation 14E][ref_reg_14e] provisions where the specific issuer participates and under the specific [Rule 144][ref_rule_144] resale provisions for the specific selling holders.
 
-The specific consequence for the specific fund-life constraint is complete. A specific fund approaching its specific term can realize its specific position at a specific market-tested price without the specific portfolio company undergoing any specific liquidity event whatever. The specific realization triggers the specific carried interest, produces the specific distribution, and improves the specific distributed-capital metric on which the specific successor fundraise depends. The specific mechanism satisfies all three channels through which the specific constraint operates.
+The specific consequence for the specific fund-life constraint is complete. A specific fund approaching its specific term can realize its specific position at a specific market-tested price without the specific portfolio company undergoing any specific liquidity event whatever. The specific realization triggers the specific carried interest, produces the specific distribution, and improves the specific distributed-capital metric on which the specific successor fundraise depends. The specific mechanism satisfies all three channels through which the specific constraint operates, admitting the compact conjunctive statement
+
+$$\left[ \text{wind-up satisfied} \right] \wedge \left[ \frac{\partial \Pi^{\text{GP}}}{\partial \, \text{tender}} = c > 0 \right] \wedge \left[ \Delta \, \text{DPI} > 0 \right]$$
+
+with the specific three conjuncts corresponding to the specific contractual, specific compensatory, and specific reputational channels the preceding section separates. The specific completeness is the specific reason the article treats the specific mechanism as decisive rather than as helpful. A specific mechanism satisfying two of the specific three channels would leave a specific residual pressure, and the specific arrangement leaves none.
+
+The specific clearing condition the specific mechanism must satisfy at each specific occasion admits the compact form
+
+$$\sum_{i \in \mathcal{S}_t} q_i \; \leq \; \sum_{j \in \mathcal{B}_t} d_j \big( P_t \big)$$
+
+with $\mathcal{S}_t$ the specific set of holders seeking to sell at the specific occasion, $\mathcal{B}_t$ the specific set of incoming buyers, and $d_j$ the specific demand each buyer brings at the specific price the firm sets. The specific issuer sets $P_t$ rather than discovering it, which means the specific issuer selects the specific point at which the specific inequality binds. The specific control over the specific clearing price is the specific feature the market-microstructure objection in the Alternative Analytical Frameworks section identifies as the specific principal challenge to the specific quantitative material, and the article accepts the specific objection.
 
 The specific resolution admits the compact statement
 
@@ -213,7 +313,11 @@ The specific mechanism's specific availability conditions deserve statement, bec
 
 $$\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}$$
 
-at each specific tender. A specific firm whose specific prospects deteriorate finds the specific mechanism unavailable precisely when it would be most needed, which means the specific mechanism supplies patience in specific good states and supplies none in specific bad ones. The specific asymmetry is the specific principal limitation on the specific generality of the article's central finding.
+at each specific tender. A specific firm whose specific prospects deteriorate finds the specific mechanism unavailable precisely when it would be most needed, which means the specific mechanism supplies patience in specific good states and supplies none in specific bad ones. The specific state dependence admits the compact form
+
+$$\mathbf{1}\left[ \text{mechanism available at } t \right] = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right]$$
+
+with the specific availability indicator equal to the specific indicator of improving prospects. The specific identity is the specific formal statement of the specific asymmetry, and it establishes that the specific mechanism is not a specific hedge. A specific hedge pays in the specific adverse state. The specific mechanism described here is unavailable in it. The specific asymmetry is the specific principal limitation on the specific generality of the article's central finding.
 
 ## Investor-Base Composition and Horizon Heterogeneity
 
@@ -225,7 +329,17 @@ $$T^{\text{closed-end venture fund}} < T^{\text{growth fund}} < T^{\text{open-en
 
 with the specific rightmost classes facing no specific stated term at all. The specific composition shift toward the specific right of the specific ordering reduced the specific aggregate pressure on the specific firm independently of the specific tender mechanism, and the specific two effects are complementary rather than substitutable.
 
-The specific dispersion of the specific base has a specific second effect the [Governance article A287][related_post_a287_spacex_governance] treats, namely that a specific dispersed base faces a specific coordination cost in assembling any specific coalition. The specific capital-formation reading adds that a specific dispersed base also faces a specific coordination cost in demanding a specific exit, so that the specific dispersion serves the specific patience objective and the specific control objective through the specific same mechanism.
+The specific dispersion admits measurement through a specific concentration index over the specific holdings, taking the compact form
+
+$$H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}$$
+
+with $s_{i,t}$ the specific holding of investor $i$ and the specific index declining across the specific period as the specific base broadened. The specific quantity is not observable in the specific present case, because the specific position sizes are not disclosed, and it is stated here to identify precisely which specific unobserved quantity the article's specific dispersion argument depends upon.
+
+The specific dispersion of the specific base has a specific second effect the [Governance article A287][related_post_a287_spacex_governance] treats, namely that a specific dispersed base faces a specific coordination cost in assembling any specific coalition. The specific cost admits the compact statement
+
+$$c^{\text{coalition}} \sim \left| \left\{ i : \text{holders required for a blocking position} \right\} \right| \;\; \text{increasing as } H_t \text{ falls}$$
+
+with a specific lower concentration requiring a specific larger coalition and therefore a specific higher coordination cost. The specific capital-formation reading adds that a specific dispersed base also faces a specific coordination cost in demanding a specific exit, so that the specific dispersion serves the specific patience objective and the specific control objective through the specific same mechanism. The specific coincidence is not accidental, because both objectives are defeated by the specific same event, namely a specific coordinated action by a specific sufficient bloc of specific holders.
 
 ## Dilution Management and Control Preservation
 
@@ -237,7 +351,17 @@ $$\delta_n = \frac{k_n}{V_n + k_n} \qquad \text{with} \qquad V_n = V\!\left( \te
 
 with the specific dilution of the specific round depending on the specific valuation the specific prior rounds' specific patience produced. The specific structure means the specific total dilution across a specific financing sequence is not the specific sum of a specific fixed set of costs but depends on the specific sequencing, and that a specific single impatient round early in the specific sequence raises the specific total cost of every specific subsequent round.
 
-The specific interaction with the specific government leg the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats is direct. The specific non-dilutive capital displaced specific rounds that would otherwise have been raised at the specific lowest valuations in the specific sequence, which is where the specific dilution per dollar is highest. The specific two legs therefore interact multiplicatively rather than additively, and the specific combined effect on the specific terminal founder share exceeds the specific sum of the specific separate effects.
+The specific sensitivity of the specific terminal founder share to the specific dilution at any specific single round admits the compact form
+
+$$\frac{\partial e^{\text{founder}}_N}{\partial \delta_n} = - \frac{e^{\text{founder}}_N}{1 - \delta_n}$$
+
+with the specific magnitude increasing in $\delta_n$, so that the specific rounds carrying the specific largest dilution are also the specific rounds at which a specific marginal improvement in terms is worth most. The specific early rounds satisfy both conditions simultaneously, being the specific rounds at the specific lowest valuations and therefore the specific rounds at which the specific dilution per dollar is highest.
+
+The specific interaction with the specific government leg the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats is direct. The specific non-dilutive capital displaced specific rounds that would otherwise have been raised at the specific lowest valuations in the specific sequence, which is where the specific dilution per dollar is highest. The specific effect admits the compact statement
+
+$$e^{\text{founder}}_N \Big|_{\text{both legs}} \; = \; e^{\text{founder}}_0 \prod_{n \notin \mathcal{D}} \left( 1 - \delta_n \right) \qquad \text{with} \qquad \mathcal{D} = \left\{ n : \text{round displaced by non-dilutive capital} \right\}$$
+
+with the specific displaced set concentrated at the specific low-valuation end of the specific sequence. The specific two legs therefore interact multiplicatively rather than additively, and the specific combined effect on the specific terminal founder share exceeds the specific sum of the specific separate effects.
 
 ## The Iridium Capital-Structure Counter-Example
 
@@ -247,7 +371,11 @@ The specific programme was financed to a specific substantial degree with specif
 
 $$\text{default} \iff \text{cash available at } t < D_t$$
 
-with $D_t$ contractually specified and independent of the specific operating reality. The specific case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the specific primary record at the specific [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the specific proceeding conducted under the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions.
+with $D_t$ contractually specified and independent of the specific operating reality. The specific consequence is a specific difference in the specific sensitivity of the specific failure probability to a specific schedule delay, admitting the compact contrast
+
+$$\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{debt-financed}} \;\; \gg \;\; \frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{equity-financed}}$$
+
+with the specific delay converting directly into a specific missed payment under the specific first structure and into a specific deferred return under the specific second. The specific case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the specific primary record at the specific [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the specific proceeding conducted under the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions.
 
 The specific comparison to the specific SpaceX financing is the specific cleanest available demonstration that the specific instrument matters more than the specific quantity. Both specific ventures raised specific large sums for a specific capital-intensive constellation. The specific one raised equity from holders who could wait and the specific other raised debt from holders who could not. The specific difference admits the compact statement
 
@@ -271,7 +399,11 @@ The specific case also isolates the specific mechanism the specific SpaceX arran
 
 $$P\!\left( \text{terminal} \mid \text{holder withdraws} \right) = \begin{cases} \approx 0 & \text{secondary market exists} \\ \approx 1 & \text{otherwise} \end{cases}$$
 
-with the specific secondary market functioning as a specific insurance mechanism against a specific single-holder failure. The specific mechanism is the specific same tender arrangement the preceding section describes, which therefore performs two distinct functions and is doubly load-bearing.
+with the specific secondary market functioning as a specific insurance mechanism against a specific single-holder failure. The specific concentration measure the Investor-Base section introduces separates the specific two cases directly, admitting the compact contrast
+
+$$H^{\text{OneWeb}} \approx 1 \qquad \text{against} \qquad H^{\text{SpaceX}} \ll 1$$
+
+with the specific first configuration placing substantially the entire supply obligation on a specific single holder. The specific two failure conditions the article identifies, namely the specific absent transfer market and the specific concentrated base, therefore both obtained in the specific OneWeb case and neither obtained in the specific comparison case. The specific mechanism is the specific same tender arrangement the preceding section describes, which therefore performs two distinct functions and is doubly load-bearing.
 
 ## The Contemporary Defense-Technology Venture Wave
 
@@ -283,13 +415,21 @@ The specific analytical question the article poses about the specific wave is wh
 
 $$\left| \left\{ \text{ventures with functioning secondary markets} \right\} \right| \ll \left| \left\{ \text{ventures in the category} \right\} \right|$$
 
-with the specific mechanism concentrated among a specific few. The specific implication is that the specific wave's specific capital is patient for the specific few ventures that attain the specific secondary market and is ordinary venture capital for the specific remainder, which is a specific distinction the specific category-level advocacy does not draw.
+with the specific mechanism concentrated among a specific few. The specific joint requirement across the specific three conditions compounds the specific restriction, admitting the compact form
+
+$$P\!\left( \text{all three conditions} \right) = P\!\left( \text{realization path} \right) \cdot P\!\left( \text{vehicle composition} \mid \cdot \right) \cdot P\!\left( \text{government relationship} \mid \cdot \right) \; \ll \; P\!\left( \text{realization path} \right)$$
+
+with the specific conjunction rarer than its specific rarest conjunct. The specific implication is that the specific wave's specific capital is patient for the specific few ventures that attain the specific secondary market and is ordinary venture capital for the specific remainder, which is a specific distinction the specific category-level advocacy does not draw.
 
 ## The Anduril and Palantir Comparisons
 
 The specific two ventures most frequently offered as the specific template comparisons deserve specific separate treatment, because they differ from the specific SpaceX case and from each other in ways the specific comparison generally elides.
 
-The specific Palantir case, documented through the specific [Palantir investor materials][ref_palantir_ir], is the specific instance of a specific long private period followed by a specific direct listing rather than a specific conventional offering. The specific direct listing supplies the specific liquidity a specific conventional offering supplies without the specific capital raise or the specific underwriting, and it therefore constitutes a specific third resolution of the specific fund-life constraint distinct from the specific two the article treats. The specific firm also adopted a specific multi-class structure preserving specific founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes.
+The specific Palantir case, documented through the specific [Palantir investor materials][ref_palantir_ir], is the specific instance of a specific long private period followed by a specific direct listing rather than a specific conventional offering. The specific direct listing supplies the specific liquidity a specific conventional offering supplies without the specific capital raise or the specific underwriting, and it therefore constitutes a specific third resolution of the specific fund-life constraint distinct from the specific two the article treats. The specific resolutions available to a specific venture admit compact enumeration
+
+$$\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listing}, \;\; \text{acquisition}, \;\; \text{recurring private tender} \; \right\}$$
+
+with the specific first three terminating the specific private configuration and only the specific fourth preserving it. The specific enumeration clarifies what the specific SpaceX arrangement purchased, which is not liquidity as such but liquidity compatible with remaining private, and the [Governance article A287][related_post_a287_spacex_governance] establishes why remaining private was the specific objective. The specific firm also adopted a specific multi-class structure preserving specific founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes.
 
 The specific Anduril case, documented through the specific [Anduril corporate record][ref_anduril], is the specific instance of a specific venture founded after the specific thesis had been articulated and funded by the specific investors who articulated it. The specific case is therefore not an independent confirmation of the specific thesis but a specific consequence of it, and the specific evidentiary weight it can bear is correspondingly limited. The specific distinction admits the compact statement
 
@@ -303,15 +443,27 @@ The specific broader comparison the specific advocacy draws treats the specific 
 
 The patient-private capital-formation mechanic admits comparison with specific deep historical precedents in which specific private capital financed a specific undertaking across a specific horizon exceeding the specific ordinary commercial one.
 
-The specific chartered-company form supplies the specific earliest systematic instance and is treated from specific other angles in the [Governance article A287][related_post_a287_spacex_governance] and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience]. The specific capital-formation reading is that the specific permanent joint-stock company solved precisely the specific problem this article treats, by permitting a specific investor to realize a specific position through a specific transfer to another specific investor rather than through a specific liquidation of the specific underlying venture. The specific innovation is the specific ancestor of the specific tender mechanism, separated by four centuries. The [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World treatments document the specific development, and the specific market structures that supported the specific transfers are treated in [Preda 2009][book_preda_2009] Framing Finance and [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera.
+The specific chartered-company form supplies the specific earliest systematic instance and is treated from specific other angles in the [Governance article A287][related_post_a287_spacex_governance] and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience]. The specific capital-formation reading is that the specific permanent joint-stock company solved precisely the specific problem this article treats, by permitting a specific investor to realize a specific position through a specific transfer to another specific investor rather than through a specific liquidation of the specific underlying venture. The specific innovation admits the compact statement in the specific terms this article uses throughout
 
-The specific canal and specific railway financing of the specific eighteenth and nineteenth centuries supplies the specific instance of a specific private capital market financing a specific infrastructure with a specific construction period exceeding the specific investors' specific ordinary horizon, and the specific instance in which the specific mismatch produced specific repeated financial crises. The [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Landes 1969][book_landes_1969] The Unbound Prometheus, and [Hughes 1983][book_hughes_1983] Networks of Power treatments document the specific arrangements. The specific record is substantially less favorable than the specific contemporary infrastructure-finance advocacy suggests.
+$$\text{voyage-terminated venture} \; : \; \text{realization} \equiv \text{exit} \qquad \text{against} \qquad \text{permanent joint stock} \; : \; \text{realization} \perp \text{exit}$$
+
+with the specific separation this article treats as the specific decisive modern innovation having been accomplished in the specific early seventeenth century. The specific tender mechanism is therefore not a specific novel instrument but a specific reconstruction of a specific four-century-old one under conditions where the specific ordinary vehicle for it, namely a specific listed market, was deliberately declined. The [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World treatments document the specific development, and the specific market structures that supported the specific transfers are treated in [Preda 2009][book_preda_2009] Framing Finance and [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera.
+
+The specific canal and specific railway financing of the specific eighteenth and nineteenth centuries supplies the specific instance of a specific private capital market financing a specific infrastructure with a specific construction period exceeding the specific investors' specific ordinary horizon, and the specific instance in which the specific mismatch produced specific repeated financial crises. The specific mismatch is the specific same one this article formalizes, admitting the compact statement
+
+$$T^{\text{construction}} \gg T^{\text{subscriber horizon}} \quad \Longrightarrow \quad \text{repeated refinancing at intervals of } T^{\text{subscriber horizon}}$$
+
+with each specific refinancing constituting a specific occasion on which the specific undertaking could fail for reasons unrelated to its specific engineering. The [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Landes 1969][book_landes_1969] The Unbound Prometheus, and [Hughes 1983][book_hughes_1983] Networks of Power treatments document the specific arrangements. The specific record is substantially less favorable than the specific contemporary infrastructure-finance advocacy suggests, and the specific reason is that the specific era supplied no specific equivalent of the specific transfer mechanism at the specific scale the specific undertakings required.
 
 The specific Standard Oil and the specific late-nineteenth-century industrial consolidations supply the specific instance in which a specific retained-earnings financing displaced a specific external capital market entirely, documented in [Chernow 2004][book_chernow_2004] Titan. The specific route is the specific one the Category-Dominating Commercial Spinoff article A291 will treat in the specific present case, and it is the specific route that dispenses with the specific patience problem by dispensing with the specific external claim.
 
 The specific electrification and specific telephone build-outs supply the specific instance of a specific regulated monopoly's specific access to a specific patient bond market on the specific strength of a specific regulated revenue base. The [Hughes 1983][book_hughes_1983], [Nye 1990][book_nye_1990] Electrifying America, [Temin and Galambos 1987][book_temin_galambos_1987] The Fall of the Bell System, [Wu 2010][book_wu_2010] The Master Switch, and [Levin 2010][book_levin_2010] The Wires That Bind treatments document the specific arrangements. The specific case establishes that a specific regulated revenue base substitutes for the specific patience mechanisms this article treats, at the specific cost of the specific regulatory constraint.
 
-The specific semiconductor and specific early computing financings supply the specific instance most proximate to the specific present case in its specific institutional form. The [Berlin 2005][book_berlin_2005] The Man Behind the Microchip, [Malone 2014][book_malone_2014] The Intel Trinity, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Riordan and Hoddeson 1997][book_riordan_hoddeson_1997] Crystal Fire, [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, and [Klepper 2016][book_klepper_2016] Experimental Capitalism document the specific emergence of the specific venture form itself. The specific relevant observation is that the specific form was designed for a specific development horizon of a specific few years, and that substantially every specific difficulty this article treats follows from applying it to a specific horizon it was not designed for.
+The specific semiconductor and specific early computing financings supply the specific instance most proximate to the specific present case in its specific institutional form. The [Berlin 2005][book_berlin_2005] The Man Behind the Microchip, [Malone 2014][book_malone_2014] The Intel Trinity, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Riordan and Hoddeson 1997][book_riordan_hoddeson_1997] Crystal Fire, [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, and [Klepper 2016][book_klepper_2016] Experimental Capitalism document the specific emergence of the specific venture form itself. The specific relevant observation is that the specific form was designed for a specific development horizon of a specific few years, and that substantially every specific difficulty this article treats follows from applying it to a specific horizon it was not designed for. The specific design point and the specific application admit the compact contrast
+
+$$T^{\text{design point of the venture form}} \approx 3 \text{ to } 7 \text{ years} \qquad \text{against} \qquad T^{\text{holding required}} > 18 \text{ years}$$
+
+with the specific instrument applied at approximately three times the specific horizon for which its specific terms were calibrated. The specific observation reframes the specific article's subject matter. The specific question is not why the specific investors were unusually patient but why a specific instrument calibrated for a specific semiconductor startup was the specific one available to a specific launch venture at all, and the specific answer is that no specific alternative instrument existed in the specific market the specific venture could reach.
 
 ## Historiographical Gap and Recent Scholarship
 
@@ -345,13 +497,21 @@ Substantially every specific quantitative claim in this article rests on the spe
 
 The contemporary landscape for the patient-private leg differs from that of the preceding legs because the specific mechanism the article identifies is available to a specific small number of ventures rather than to a specific category.
 
-Blue Origin occupies the specific configuration in which the specific patient-private leg is unnecessary, because the specific single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats supplies the specific capital directly from a specific balance sheet with no specific fund life and no specific realization requirement. The specific configuration satisfies the specific duration condition trivially and dispenses with the specific dilution entirely, at the specific cost of the specific dependence on a specific single source. The specific record appears at the specific [Blue Origin press releases][ref_blue_origin_press].
+Blue Origin occupies the specific configuration in which the specific patient-private leg is unnecessary, because the specific single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats supplies the specific capital directly from a specific balance sheet with no specific fund life and no specific realization requirement. The specific configuration satisfies the specific duration condition trivially and dispenses with the specific dilution entirely, at the specific cost of the specific dependence on a specific single source. The specific trade admits the compact statement in the specific terms the article uses
+
+$$T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{purchased at} \quad H = 1$$
+
+with the specific configuration attaining the specific duration and specific dilution objectives outright while failing the specific dispersion sub-property completely. The specific configuration is therefore the specific exact complement of the specific OneWeb failure, holding the specific concentration constant at its specific maximum and varying the specific supplier's specific willingness to continue. The specific record appears at the specific [Blue Origin press releases][ref_blue_origin_press].
 
 Rocket Lab took the specific conventional route, listing publicly and thereby resolving the specific fund-life constraint through the specific ordinary mechanism at the specific ordinary cost in specific disclosure and specific quarterly scrutiny. The specific record appears at the specific [Rocket Lab press releases][ref_rocket_lab_press]. The specific comparison against the specific SpaceX route is the specific most direct available within the specific sector.
 
 The United Launch Alliance is a specific joint venture of specific listed parents and therefore raises no specific external capital of its specific own, documented through the specific [United Launch Alliance news][ref_ula_press] and the specific parent disclosures at the specific [Boeing press releases][ref_boeing_press] and the specific [Northrop Grumman press releases][ref_northrop_grumman_press].
 
-The specific broader entrant set faces the specific ordinary constraint without the specific secondary-market relief, which is the specific structural reason the specific sector exhibits a specific pattern of specific ventures raising specific successive rounds at specific rising valuations until a specific round fails and the specific venture is sold or wound up. The specific pattern is visible in the specific record the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents.
+The specific broader entrant set faces the specific ordinary constraint without the specific secondary-market relief, which is the specific structural reason the specific sector exhibits a specific pattern of specific ventures raising specific successive rounds at specific rising valuations until a specific round fails and the specific venture is sold or wound up. The specific survival pattern admits the compact form
+
+$$P\!\left( \text{survive to round } N \right) = \prod_{n=1}^{N} \left( 1 - q_n \right) \qquad \text{with} \qquad q_n = P\!\left( \text{round } n \text{ fails to close} \right)$$
+
+with the specific product declining geometrically in the specific number of rounds a specific venture must raise. A specific venture requiring a specific longer development period requires a specific larger $N$ and therefore faces a specific lower survival probability for a specific reason having nothing to do with its specific engineering. The specific mechanism this article treats operates by removing the specific rounds from the specific product rather than by improving the specific per-round probability. The specific pattern is visible in the specific record the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents.
 
 ## Comparative Cross-Sectional Analysis
 
@@ -385,17 +545,33 @@ The specific empirical-record limitations are severe and comprise the following.
 
 The patient-private capital-formation framing the article develops is one of several analytical frameworks the surrounding literature applies.
 
-The conviction framing, which is the specific framing the specific participants themselves employ, treats the specific outcome as attributable to specific investor belief in the specific mission and specific founder. The framing is not refuted by the specific evidence and is incomplete, because it supplies no account of how the specific belief was converted into a specific contractual capacity to act on it. The article treats the specific structural framing as a specific complement rather than as a specific replacement.
+The conviction framing, which is the specific framing the specific participants themselves employ, treats the specific outcome as attributable to specific investor belief in the specific mission and specific founder. The framing is not refuted by the specific evidence and is incomplete, because it supplies no account of how the specific belief was converted into a specific contractual capacity to act on it. The specific incompleteness admits the compact statement
 
-The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] treats the specific general partner as a specific agent of the specific limited partners and the specific fund-life constraint as a specific bonding mechanism that exists precisely to prevent the specific general partner from holding indefinitely. Under the framing, the specific mechanism this article describes as manufacturing patience is a specific circumvention of a specific control designed to protect the specific limited partners, and whether it benefits them is an empirical question the article cannot answer.
+$$\text{observed patience} = \underbrace{\text{willingness}}_{\text{conviction framing}} \; \wedge \; \underbrace{\text{capacity}}_{\text{structural framing}}$$
 
-The market-microstructure framing treats the specific tender mechanism as a specific thin periodic auction whose specific price is set by the specific issuer rather than discovered, and it raises the specific question whether the specific reported valuations bear the specific informational content that a specific public market price would. The specific framing supplies the specific most serious challenge to the specific quantitative material in this article and is the specific reason the Data Sources section states the specific limitation explicitly.
+with the specific conjunction requiring both conjuncts and the specific conviction account supplying only the specific first. The article treats the specific structural framing as a specific complement rather than as a specific replacement, and the specific OneWeb case is the specific demonstration that the specific first conjunct alone is insufficient.
+
+The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] treats the specific general partner as a specific agent of the specific limited partners and the specific fund-life constraint as a specific bonding mechanism that exists precisely to prevent the specific general partner from holding indefinitely. Under the framing, the specific mechanism this article describes as manufacturing patience is a specific circumvention of a specific control designed to protect the specific limited partners, and whether it benefits them is an empirical question the article cannot answer. The specific question admits compact statement without admitting resolution
+
+$$\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]$$
+
+with the specific ordering undetermined on the specific available evidence. The specific left side benefits from the specific continued appreciation and suffers from the specific loss of the specific bonding the specific term supplied. The specific article notes that the specific general partner selects when to invoke the specific mechanism and the specific limited partners do not, which is a specific asymmetry the specific agency framing predicts will be resolved in the specific general partner's favor.
+
+The market-microstructure framing treats the specific tender mechanism as a specific thin periodic auction whose specific price is set by the specific issuer rather than discovered, and it raises the specific question whether the specific reported valuations bear the specific informational content that a specific public market price would. The specific concern admits the compact statement
+
+$$P_t^{\text{tender}} = P^{\text{issuer-set}} \quad \text{subject only to} \quad \sum_{j} d_j\big( P_t \big) \geq \sum_{i} q_i$$
+
+with the specific price constrained by a specific participation condition rather than determined by a specific market-clearing one. A specific range of specific prices satisfies the specific inequality and the specific issuer selects within it, so that the specific reported valuation is a specific upper region of a specific feasible set rather than a specific point estimate of a specific value. The specific framing supplies the specific most serious challenge to the specific quantitative material in this article and is the specific reason the Data Sources section states the specific limitation explicitly.
 
 The behavioral framing developed in [Kahneman and Tversky 1979][research_kahneman_tversky_1979], [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011], [Staw 1976][research_staw_1976], and [Ross and Staw 1993][research_ross_staw_1993] treats the specific continued participation as a specific escalation, and it generates the specific prediction that the specific participation should be insensitive to specific adverse information. The specific prediction is not distinguishable from the specific favorable reading on the specific available evidence.
 
 The financial-sociology framing developed in [MacKenzie 2006][book_mackenzie_2006], [Ho 2009][book_ho_2009], [Zaloom 2006][book_zaloom_2006], [Preda 2009][book_preda_2009], and [Krippner 2011][book_krippner_2011] treats the specific horizon norms as institutionally constructed and supplies the specific strongest support for the article's central claim.
 
-The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the specific selection caution, which is unusually sharp here because the specific mechanism the article identifies operates only in specific favorable states and is therefore present in substantially every specific surviving case and absent from substantially every specific failed one by construction.
+The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the specific selection caution, which is unusually sharp here because the specific mechanism the article identifies operates only in specific favorable states and is therefore present in substantially every specific surviving case and absent from substantially every specific failed one by construction. The specific hazard admits the compact statement
+
+$$P\!\left( \text{mechanism observed} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \text{mechanism observed} \right) \; \text{remains unidentified}$$
+
+with the specific first quantity carrying no specific information about the specific second. The specific caution bears directly on the specific article's central empirical claim in the Comparative Cross-Sectional Analysis section, and the specific claim should be read as a specific structural argument supported by a specific negation case rather than as a specific estimated effect.
 
 ## Pattern Extraction
 
@@ -421,7 +597,11 @@ $$\tau = \left( \text{claim residual}, \;\; T^{\text{vehicle}} \geq T^{\text{hol
 
 with the third component the one a candidate case will usually fail and the one an assessment will usually not examine.
 
-The mechanic carries a limitation the statement should not conceal. The realization path exists only where incoming buyers appear at a rising price, which is to say only where the venture's prospects are improving. The mechanism therefore supplies patience in good states and none in bad ones, which is the opposite of what the word patience ordinarily connotes. A venture relying on it has not obtained capital that will wait through difficulty. It has obtained capital that need not leave during success.
+The mechanic carries a limitation the statement should not conceal. The realization path exists only where incoming buyers appear at a rising price, which is to say only where the venture's prospects are improving. The third component of the test vector is therefore not a fixed property of the arrangement but a state-contingent one, admitting the compact restatement
+
+$$\tau_3(t) = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right] \qquad \text{rather than} \qquad \tau_3 = \text{constant}$$
+
+with the component that does the most work being the one least stable across states. The mechanism therefore supplies patience in good states and none in bad ones, which is the opposite of what the word patience ordinarily connotes. A venture relying on it has not obtained capital that will wait through difficulty. It has obtained capital that need not leave during success.
 
 ## Cross-References to the Series
 
