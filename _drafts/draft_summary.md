@@ -32,7 +32,7 @@ All twelve articles were analyzed for word frequency against a 40-post baseline 
 
 ## Draft Status
 
-**Batch staged for publication 2026-08-04.** A288 through A292 are staged for the two-commit publication sequence at editorial dates 2026-07-31 through 2026-08-04, all at 09:00 UTC. The five are interlocked by `post_url` cross-references and publish together. On completion the History of SpaceX series is complete at twelve articles and no further article in the series is planned.
+**Batch published 2026-08-04.** A288 through A292 were published at editorial dates 2026-07-31 through 2026-08-04, all at 09:00 UTC, via the two-commit publication sequence pushed to origin/master. Build verification passed before push with 294 posts in and 294 HTML files out, zero Liquid errors, and every `post_url` in the corpus resolving. **The History of SpaceX series is complete at twelve articles A281 through A292.** No further article in the series is planned. All twelve are now in `_posts/` and none remains in `_drafts/`.
 
 ### History of SpaceX Synthesis and Projection article (A292) — Drafted (publication-review parity, series complete)
 
