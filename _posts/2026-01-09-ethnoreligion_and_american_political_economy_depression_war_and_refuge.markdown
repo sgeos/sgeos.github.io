@@ -43,7 +43,7 @@ $$N_{\text{Mexican Catholic parishes, US, 1929}} \approx 220, \quad N_{\text{Mex
 
 per Official Catholic Directory data, reflecting substantial Depression-era institutional contraction. Concurrent 1926-1929 Cristero War in Mexico treated in [A271][related_post_a271_mass_immigration_and_closure] and 1929 Modus Vivendi providing partial accommodation between Mexican government and Catholic Church reshaped transnational Mexican Catholic religious life during the Repatriation window.
 
-The 2005 California Apology Act for the 1930s Mexican Repatriation Program and subsequent 2012 Kansas apology provided the limited state-level acknowledgment of the historical injustice. Federal acknowledgment has remained specifically limited through the present, though 2005 Congressional resolution introduced by Representative Hilda Solis provided limited formal recognition. The historical relationship between the Mexican Repatriation and 1954 Operation Wetback treated in article eight reflects persistent restrictionist framework specifically deploying against Mexican and broader Latino populations.
+The 2005 California Apology Act for the 1930s Mexican Repatriation Program and subsequent 2012 Kansas apology provided the limited state-level acknowledgment of the historical injustice. Federal acknowledgment has remained limited through the present, though 2005 Congressional resolution introduced by Representative Hilda Solis provided limited formal recognition. The historical relationship between the Mexican Repatriation and 1954 Operation Wetback treated in article eight reflects persistent restrictionist framework deploying against Mexican and broader Latino populations.
 
 ## The Great Depression and American Religious Response
 
@@ -100,7 +100,7 @@ Catholic Worker houses of hospitality expanded substantially,
 
 $$N_{\text{Catholic Worker houses, US, 1936}} \approx 30, \quad N_{\text{Catholic Worker houses, US, 1941}} \approx 32, \quad N_{\text{Catholic Worker houses, contemporary}} \approx 200$$
 
-providing direct hospitality service alongside journalistic and speaking mobilization. Day's pacifism during World War II produced substantial tension with mainstream American Catholic institutional war support, though Day maintained personal fidelity to Catholic institutional structure throughout her life. Day's canonization cause was specifically initiated in 2000 and specifically continues through the present.
+providing direct hospitality service alongside journalistic and speaking mobilization. Day's pacifism during World War II produced substantial tension with mainstream American Catholic institutional war support, though Day maintained personal fidelity to Catholic institutional structure throughout her life. Day's canonization cause was specifically initiated in 2000 and continues through the present.
 
 ## Neo-Orthodoxy and Reinhold Niebuhr
 
@@ -150,13 +150,13 @@ $$C_{\text{Social Justice weekly circulation, peak c. 1938}} \approx 1 \times 10
 
 per institutional records and historical reconstruction.
 
-Detroit Archbishop Edward Mooney's 1942 order (following the US entry into World War II) required Coughlin to specifically cease political broadcasting, ending Coughlin's public influence. Coughlin continued parish ministry through 1966 without national broadcasting. Primary sources include Coughlin's [Coughlin Radio Sermons Collection][ref_coughlin_sermons] archive of broadcast transcripts, [Coughlin 1934 Money][ref_coughlin_1934_money] Money! Questions and Answers, [Coughlin 1935 Social Justice Lectures][ref_coughlin_1935_lectures] A Series of Lectures on Social Justice, and [Social Justice Magazine][ref_social_justice_magazine] archived issues.
+Detroit Archbishop Edward Mooney's 1942 order (following the US entry into World War II) required Coughlin to cease political broadcasting, ending Coughlin's public influence. Coughlin continued parish ministry through 1966 without national broadcasting. Primary sources include Coughlin's [Coughlin Radio Sermons Collection][ref_coughlin_sermons] archive of broadcast transcripts, [Coughlin 1934 Money][ref_coughlin_1934_money] Money! Questions and Answers, [Coughlin 1935 Social Justice Lectures][ref_coughlin_1935_lectures] A Series of Lectures on Social Justice, and [Social Justice Magazine][ref_social_justice_magazine] archived issues.
 
 ## Vatican Encyclicals of the 1930s
 
 The 1930s Vatican produced substantial encyclicals responding to rising totalitarian regimes and economic crisis, shaping American Catholic institutional positioning. Pius XI's papacy (1922-1939) provided the systematic articulation. The [Ventresca 2013][book_ventresca_2013] Soldier of Christ, [Chadwick 1986][book_chadwick_1986] Britain and the Vatican, and [Pollard 2014][book_pollard_2014] The Papacy in the Age of Totalitarianism provide the comprehensive treatments.
 
-Pius XI's 29 June 1931 [Non abbiamo bisogno 1931][ref_non_abbiamo_bisogno_1931] Non abbiamo bisogno encyclical condemned Italian Fascism's suppression of Catholic Action youth organizations. The 15 May 1931 [Quadragesimo Anno 1931][ref_quadragesimo_anno_1931] Quadragesimo Anno encyclical (already cited above for Catholic Worker context) provided systematic Catholic social teaching on fortieth anniversary of Rerum Novarum. Pius XI's 14 March 1937 [Mit Brennender Sorge 1937][ref_mit_brennender_sorge_1937] Mit Brennender Sorge encyclical, specifically written in German and specifically smuggled into Nazi Germany for Palm Sunday reading, provided the most substantial Vatican condemnation of Nazism. Pius XI's 19 March 1937 [Divini Redemptoris 1937][ref_divini_redemptoris_1937] Divini Redemptoris encyclical provided the parallel systematic condemnation of atheistic Communism. Approximate encyclical distribution scales were substantial,
+Pius XI's 29 June 1931 [Non abbiamo bisogno 1931][ref_non_abbiamo_bisogno_1931] Non abbiamo bisogno encyclical condemned Italian Fascism's suppression of Catholic Action youth organizations. The 15 May 1931 [Quadragesimo Anno 1931][ref_quadragesimo_anno_1931] Quadragesimo Anno encyclical (already cited above for Catholic Worker context) provided systematic Catholic social teaching on fortieth anniversary of Rerum Novarum. Pius XI's 14 March 1937 [Mit Brennender Sorge 1937][ref_mit_brennender_sorge_1937] Mit Brennender Sorge encyclical, written in German and smuggled into Nazi Germany for Palm Sunday reading, provided the most substantial Vatican condemnation of Nazism. Pius XI's 19 March 1937 [Divini Redemptoris 1937][ref_divini_redemptoris_1937] Divini Redemptoris encyclical provided the parallel systematic condemnation of atheistic Communism. Approximate encyclical distribution scales were substantial,
 
 $$N_{\text{Mit Brennender Sorge copies smuggled into Nazi Germany}} \gtrsim 3 \times 10^5, \quad N_{\text{parish Palm Sunday 1937 readings}} \gtrsim 1.15 \times 10^4$$
 
@@ -168,7 +168,7 @@ The American Catholic institutional reception of 1930s Vatican encyclicals combi
 
 Reform Judaism's 1937 [Columbus Platform 1937][ref_columbus_platform_1937] Guiding Principles of Reform Judaism, adopted at the Central Conference of American Rabbis annual meeting at Columbus, Ohio, revised the 1885 Pittsburgh Platform treated in [A270][related_post_a270_civil_war_and_reconstruction] and [A271][related_post_a271_mass_immigration_and_closure]. The revision reflected substantial institutional response to Nazi persecution and American Zionist mobilization. The [Meyer 1988][book_meyer_1988_response] Response to Modernity and [Sarna 2004][book_sarna_2004] American Judaism (already cited) provide the comprehensive treatments.
 
-The Columbus Platform reversed Pittsburgh Platform positions on Palestinian restoration and Jewish peoplehood, specifically affirming "obligation of all Jewry to aid in the up-building" of Palestine as "Jewish homeland" while retaining religious rather than national self-identification. The platform's vote reflected substantial denominational division,
+The Columbus Platform reversed Pittsburgh Platform positions on Palestinian restoration and Jewish peoplehood, affirming "obligation of all Jewry to aid in the up-building" of Palestine as "Jewish homeland" while retaining religious rather than national self-identification. The platform's vote reflected substantial denominational division,
 
 $$V_{\text{Columbus Platform, Central Conference vote 1937}} = 81 \text{ favor}, \quad V_{\text{opposition}} = 25, \quad V_{\text{abstain}} = 6$$
 
@@ -194,7 +194,7 @@ $$A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres},
 
 reversing the approximately 65-year continuous decline through allotment era.
 
-The religious dimensions of the Indian Reorganization Act included substantial formal federal recognition of traditional Native religious practices, Native American Church legal protection, reversal of systematic religious suppression through 1934 termination of Indian Bureau religious crimes regulation ("Religious Crimes Code" specifically implemented from 1883). The 1978 [American Indian Religious Freedom Act 1978][ref_airfa_1978] treated in article eight extended the IRA-era religious protection framework, though effective religious protection continued to specifically require ongoing legislative and judicial intervention.
+The religious dimensions of the Indian Reorganization Act included substantial formal federal recognition of traditional Native religious practices, Native American Church legal protection, reversal of systematic religious suppression through 1934 termination of Indian Bureau religious crimes regulation ("Religious Crimes Code" implemented from 1883). The 1978 [American Indian Religious Freedom Act 1978][ref_airfa_1978] treated in article eight extended the IRA-era religious protection framework, though effective religious protection continued to require ongoing legislative and judicial intervention.
 
 Primary sources include John Collier's 1947 [Collier 1947][ref_collier_1947] The Indians of the Americas providing the comprehensive articulation of Collier's Indian New Deal framework, and [Bureau of Indian Affairs Annual Reports 1933-1945][ref_bia_reports_1933_1945] institutional documentation. Concurrent 1936 [Alaska Reorganization Act 1936][ref_alaska_reorganization_act_1936] extended IRA provisions to Alaska Native populations. The 1953 termination policy under House Concurrent Resolution 108 and 1953-1968 termination period treated in article eight reversed IRA framework for 109 tribes before 1970 restoration policy under Nixon administration.
 
@@ -208,7 +208,7 @@ with approximately
 
 $$N_{\text{Jewish refugee admissions, US, 1933 to 1945}} \approx 1.5 \times 10^5, \quad f_{\text{Jewish share of total refugee admissions, US}}\bigg|_{1933 \text{ to } 1945} \approx 0.55$$
 
-per US Immigration Bureau and historical reconstruction. The American response constrained under Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Total refugee admissions below quota capacity produced what historians have specifically characterized as systematic American failure to specifically use available quota positions for refugee admission. The [Wyman 1985][book_wyman_1985] The Abandonment of the Jews, [Feingold 1970][book_feingold_1970] The Politics of Rescue, and [Breitman and Kraut 1987][book_breitman_kraut_1987] American Refugee Policy provide the comprehensive treatments.
+per US Immigration Bureau and historical reconstruction. The American response constrained under Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Total refugee admissions below quota capacity produced what historians have characterized as systematic American failure to use available quota positions for refugee admission. The [Wyman 1985][book_wyman_1985] The Abandonment of the Jews, [Feingold 1970][book_feingold_1970] The Politics of Rescue, and [Breitman and Kraut 1987][book_breitman_kraut_1987] American Refugee Policy provide the comprehensive treatments.
 
 Country distribution of Jewish refugee admissions reflected quota framework disadvantaging Eastern European source populations,
 
@@ -263,7 +263,7 @@ per institutional records. The 20 February 1939 Madison Square Garden rally drew
 
 $$N_{\text{Bund Madison Square Garden rally attendance, 20 February 1939}} \approx 2 \times 10^4$$
 
-featuring "true Americanism" nativist framework combined with explicit Nazi symbolism and extensive anti-Semitic mobilization. Kuhn's November 1939 embezzlement conviction and subsequent 1946 deportation to Germany disrupted the Bund, and the December 1941 US entry into WWII specifically ended the organization.
+featuring "true Americanism" nativist framework combined with explicit Nazi symbolism and extensive anti-Semitic mobilization. Kuhn's November 1939 embezzlement conviction and subsequent 1946 deportation to Germany disrupted the Bund, and the December 1941 US entry into WWII ended the organization.
 
 The Silver Legion of America (Silver Shirts), founded 1933 at Asheville, North Carolina by William Dudley Pelley, provided the parallel American fascist organization combining occult mysticism (Pelley's "clairvoyant" experience), Christian identity theology, and systematic anti-Semitic mobilization. Silver Legion membership reached approximately
 
@@ -281,7 +281,7 @@ America First membership reached approximately
 
 $$P_{\text{America First Committee membership, peak c. 1941}} \approx 8 \times 10^5, \quad N_{\text{America First chapters}} \approx 450$$
 
-per institutional records. Charles Lindbergh's 11 September 1941 [Lindbergh 1941 Des Moines Speech][ref_lindbergh_1941_des_moines] Des Moines address specifically identified "British, Jewish, and Roosevelt administration" as three "war agitators" pressing US entry, providing the inflection point that discredited America First given explicit anti-Semitic framing. The December 7, 1941 Pearl Harbor attack specifically dissolved the organization within days.
+per institutional records. Charles Lindbergh's 11 September 1941 [Lindbergh 1941 Des Moines Speech][ref_lindbergh_1941_des_moines] Des Moines address identified "British, Jewish, and Roosevelt administration" as three "war agitators" pressing US entry, providing the inflection point that discredited America First given explicit anti-Semitic framing. The December 7, 1941 Pearl Harbor attack dissolved the organization within days.
 
 The religious dimensions of America First combined substantial mainstream Protestant clerical participation (Herbert Hoover as prominent Quaker isolationist, various mainline Protestant clergy including pacifist framework participants), Catholic isolationist participation (particularly Irish Catholic community), and historic peace church support. Ecumenical Protestant institutional opposition emerged through Federal Council of Churches and Union Theological Seminary Christianity and Crisis magazine treated above under Niebuhr and neo-orthodox interventionism.
 
@@ -319,7 +319,7 @@ $$f_{\text{Protestant among USO volunteers}} \approx 0.55, \quad f_{\text{Cathol
 
 approximately mirroring US denominational composition of the period. The [Coffey 1991][book_coffey_1991] Always Home treats the USO history.
 
-The religious dimensions of interfaith wartime cooperation transformed American Protestant-Catholic-Jewish institutional relations. The "Judeo-Christian tradition" phrase specifically emerged in late 1930s-early 1940s American discourse (first documented mainstream usage in 1939-1940 Federal Council of Churches statements) providing the ecumenical framework distinguishing American democratic religious pluralism from Nazi and communist totalitarian religious frameworks. The [Silk 1988][book_silk_1988] Spiritual Politics and [Schultz 2011][book_schultz_2011] Tri-Faith America provide the comprehensive treatments of the "Judeo-Christian" framework emergence.
+The religious dimensions of interfaith wartime cooperation transformed American Protestant-Catholic-Jewish institutional relations. The "Judeo-Christian tradition" phrase emerged in late 1930s-early 1940s American discourse (first documented mainstream usage in 1939-1940 Federal Council of Churches statements) providing the ecumenical framework distinguishing American democratic religious pluralism from Nazi and communist totalitarian religious frameworks. The [Silk 1988][book_silk_1988] Spiritual Politics and [Schultz 2011][book_schultz_2011] Tri-Faith America provide the comprehensive treatments of the "Judeo-Christian" framework emergence.
 
 ## Historic Peace Churches and Civilian Public Service
 
@@ -351,7 +351,7 @@ $$N_{\text{documented anti-Jehovah's Witness violence incidents, 1940 to 1943}} 
 
 per American Civil Liberties Union records. Wave of state-level flag salute prosecutions and Kingdom Hall damage produced substantial denominational persecution.
 
-West Virginia State Board of Education v. Barnette [West Virginia v. Barnette 1943][ref_west_virginia_v_barnette_1943] decided 14 June 1943 specifically overturned Gobitis in reversed decision,
+West Virginia State Board of Education v. Barnette [West Virginia v. Barnette 1943][ref_west_virginia_v_barnette_1943] decided 14 June 1943 overturned Gobitis in reversed decision,
 
 $$V_{\text{Barnette majority}} = 6, \quad V_{\text{Barnette dissent}} = 3, \quad \Delta t_{\text{Gobitis to Barnette}} \approx 3 \text{ years}$$
 
@@ -385,7 +385,7 @@ $$C_{\text{Japanese American property losses, internment estimate}} \approx 4 \t
 
 per 1948 Japanese American Evacuation Claims Act and subsequent 1980 Commission on Wartime Relocation and Internment of Civilians reconstruction. The [CWRIC 1982][ref_cwric_1982] Personal Justice Denied report provides the comprehensive federal investigation.
 
-Landmark Supreme Court decisions on the internment included [Hirabayashi v. United States 1943][ref_hirabayashi_v_united_states_1943] upholding curfew, [Yasui v. United States 1943][ref_yasui_v_united_states_1943] companion case upholding Portland military exclusion, [Korematsu v. United States 1944][ref_korematsu_v_united_states_1944] upholding exclusion, and [Ex parte Endo 1944][ref_ex_parte_endo_1944] ordering release of "loyal" internees. The Korematsu decision was specifically repudiated in 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Supreme Court decision (in Roberts majority opinion though the decision itself upheld travel ban) and 2011 Solicitor General acknowledgment of factual misrepresentation in original briefing. The 1983 coram nobis proceedings under Peter Irons's archival research producing Korematsu, Hirabayashi, and Yasui convictions vacated. The [Irons 1983][book_irons_1983] Justice at War treats the decisions.
+Landmark Supreme Court decisions on the internment included [Hirabayashi v. United States 1943][ref_hirabayashi_v_united_states_1943] upholding curfew, [Yasui v. United States 1943][ref_yasui_v_united_states_1943] companion case upholding Portland military exclusion, [Korematsu v. United States 1944][ref_korematsu_v_united_states_1944] upholding exclusion, and [Ex parte Endo 1944][ref_ex_parte_endo_1944] ordering release of "loyal" internees. The Korematsu decision was repudiated in 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Supreme Court decision (in Roberts majority opinion though the decision itself upheld travel ban) and 2011 Solicitor General acknowledgment of factual misrepresentation in original briefing. The 1983 coram nobis proceedings under Peter Irons's archival research producing Korematsu, Hirabayashi, and Yasui convictions vacated. The [Irons 1983][book_irons_1983] Justice at War treats the decisions.
 
 The 1988 [Civil Liberties Act 1988][ref_civil_liberties_act_1988] Civil Liberties Act signed by President Reagan provided formal federal apology and $20,000 individual redress payments to approximately 82,000 surviving internees, reaching total approximately
 
@@ -405,9 +405,9 @@ Shinto institutional presence in the pre-war United States was smaller than Budd
 
 $$N_{\text{Shinto shrines, US mainland, 1940}} \sim 10, \quad N_{\text{Shinto shrines, Hawaii, 1940}} \approx 40$$
 
-per denominational and Territorial records. Wartime suppression destroyed most pre-war Shinto institutional infrastructure. The 1945 US occupation of Japan specifically decreed state Shinto disestablishment through 15 December 1945 [Shinto Directive 1945][ref_shinto_directive_1945] (SCAPIN-448), transforming Japanese religious framework though not specifically applying directly to American Shinto institutional revival. Contemporary American Shinto populations remain small compared to Buddhist Japanese American populations. The [Nakano 2005][book_nakano_2005] Japanese American Women in Contemporary Society treats the religious continuity questions.
+per denominational and Territorial records. Wartime suppression destroyed most pre-war Shinto institutional infrastructure. The 1945 US occupation of Japan decreed state Shinto disestablishment through 15 December 1945 [Shinto Directive 1945][ref_shinto_directive_1945] (SCAPIN-448), transforming Japanese religious framework though not applying directly to American Shinto institutional revival. Contemporary American Shinto populations remain small compared to Buddhist Japanese American populations. The [Nakano 2005][book_nakano_2005] Japanese American Women in Contemporary Society treats the religious continuity questions.
 
-Japanese American Christian populations (approximately 15% of pre-war Japanese American population per [A271][related_post_a271_mass_immigration_and_closure]) faced dual identity challenges combining loyalty to American Christian denominational structure with ethnic community solidarity under internment. Christian denominational advocacy for internees emerged from American Friends Service Committee, American Baptist Home Mission Society, American Board of Commissioners for Foreign Missions, and various Protestant relief agencies. Some Christian denominational bodies (Methodist, Presbyterian, Congregational) provided substantial institutional advocacy against internment through national bodies while local mainstream Protestant congregations often specifically accommodated internment policy.
+Japanese American Christian populations (approximately 15% of pre-war Japanese American population per [A271][related_post_a271_mass_immigration_and_closure]) faced dual identity challenges combining loyalty to American Christian denominational structure with ethnic community solidarity under internment. Christian denominational advocacy for internees emerged from American Friends Service Committee, American Baptist Home Mission Society, American Board of Commissioners for Foreign Missions, and various Protestant relief agencies. Some Christian denominational bodies (Methodist, Presbyterian, Congregational) provided substantial institutional advocacy against internment through national bodies while local mainstream Protestant congregations often accommodated internment policy.
 
 ## Japanese American Wartime Service
 
@@ -423,7 +423,7 @@ per Department of Defense records. The [Duus 2005][book_duus_2005] Unlikely Libe
 
 The Military Intelligence Service (MIS) enrolled approximately 6,000 Nisei linguists providing Japanese-language military intelligence support in Pacific theater, contributing to American war effort against Japan. General Charles Willoughby's postwar assessment that MIS Nisei "shortened the Pacific War by two years and saved possibly a million American lives" reflects the substantial military evaluation, though quantitative claim exceeds verifiable documentation. The [McNaughton 2006][book_mcnaughton_2006] Nisei Linguists treats the MIS history.
 
-The 1943 loyalty questionnaire administered to internees producing "loyalty" versus "disloyalty" classification (Questions 27-28 asking willingness to serve in armed forces and willingness to swear unqualified allegiance to US) produced substantial community trauma and institutional fragmentation. Approximately 12,000 internees ("no-no boys" answering No to both questions) were specifically segregated at Tule Lake Segregation Center, and 5,589 ultimately renounced US citizenship (approximately 5,409 of whom subsequently regained citizenship through Wayne Collins's extensive litigation). The [Muller 2007][book_muller_2007] American Inquisition (already cited) treats the loyalty questionnaire history.
+The 1943 loyalty questionnaire administered to internees producing "loyalty" versus "disloyalty" classification (Questions 27-28 asking willingness to serve in armed forces and willingness to swear unqualified allegiance to US) produced substantial community trauma and institutional fragmentation. Approximately 12,000 internees ("no-no boys" answering No to both questions) were segregated at Tule Lake Segregation Center, and 5,589 ultimately renounced US citizenship (approximately 5,409 of whom subsequently regained citizenship through Wayne Collins's extensive litigation). The [Muller 2007][book_muller_2007] American Inquisition (already cited) treats the loyalty questionnaire history.
 
 ## Filipino Wartime Service
 
@@ -433,7 +433,7 @@ $$N_{\text{Filipino military service, WWII, cumulative}} \approx 2.6 \times 10^5
 
 per historical reconstruction, exceeding US mainland Filipino population share.
 
-The 1946 Philippine Independence (7 October 1946 [Treaty of Manila 1946][ref_treaty_of_manila_1946]) fulfilled the 1934 Tydings-McDuffie Act commitment. The 1946 [Rescission Act 1946][ref_rescission_act_1946] (Public Law 79-301) specifically retroactively rescinded Filipino wartime service veteran status, denying approximately 260,000 Filipino veterans US military veterans benefits despite service under US command. The 2009 Filipino Veterans Equity Compensation Fund under American Recovery and Reinvestment Act provided redress amount
+The 1946 Philippine Independence (7 October 1946 [Treaty of Manila 1946][ref_treaty_of_manila_1946]) fulfilled the 1934 Tydings-McDuffie Act commitment. The 1946 [Rescission Act 1946][ref_rescission_act_1946] (Public Law 79-301) retroactively rescinded Filipino wartime service veteran status, denying approximately 260,000 Filipino veterans US military veterans benefits despite service under US command. The 2009 Filipino Veterans Equity Compensation Fund under American Recovery and Reinvestment Act provided redress amount
 
 $$C_{\text{Filipino Veterans Equity Compensation Fund 2009}} \approx 1.98 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{per surviving veteran, US citizens}} = 1.5 \times 10^4 \text{ USD}, \quad C_{\text{per surviving veteran, non-US citizens}} = 9 \times 10^3 \text{ USD}, \quad N_{\text{surviving Filipino WWII veterans, 2009}} \approx 1.8 \times 10^4$$
 
@@ -473,15 +473,15 @@ Chinese American military service was substantial despite pre-war Chinese Americ
 
 $$N_{\text{Chinese American military service, WWII}} \approx 2 \times 10^4, \quad f_{\text{Chinese American adult male military service}} \approx 0.20$$
 
-per War Department records. Chinese American service reflected US-China wartime alliance and opportunity for Chinese American youth to specifically demonstrate US loyalty against persistent anti-Chinese discrimination. The [Wong 2005][book_wong_2005] Americans First and [Chen 2015][book_chen_2015] Chinese San Francisco (revised edition of Chen 2000 already cited) provide the comprehensive treatments.
+per War Department records. Chinese American service reflected US-China wartime alliance and opportunity for Chinese American youth to demonstrate US loyalty against persistent anti-Chinese discrimination. The [Wong 2005][book_wong_2005] Americans First and [Chen 2015][book_chen_2015] Chinese San Francisco (revised edition of Chen 2000 already cited) provide the comprehensive treatments.
 
-The Magnuson Act (Chinese Exclusion Repeal Act) of 17 December 1943 [Magnuson Act 1943][ref_magnuson_act_1943] specifically repealed 1882 Chinese Exclusion Act and subsequent extensions treated in [A270][related_post_a270_civil_war_and_reconstruction], providing naturalization eligibility for Chinese and limited annual quota,
+The Magnuson Act (Chinese Exclusion Repeal Act) of 17 December 1943 [Magnuson Act 1943][ref_magnuson_act_1943] repealed 1882 Chinese Exclusion Act and subsequent extensions treated in [A270][related_post_a270_civil_war_and_reconstruction], providing naturalization eligibility for Chinese and limited annual quota,
 
 $$Q_{\text{Chinese quota, Magnuson Act 1943}} = 105, \quad Q_{\text{compared to pre-1943 Chinese quota}} = 0, \quad Q_{\text{compared to 1965 Hart-Celler quota after expansion}} \approx 2 \times 10^4$$
 
 under national origins framework. The 61-year Chinese Exclusion period ending reflected US-China wartime alliance rather than comprehensive restrictionist reform, though act provided the inflection point that subsequent 1946 War Brides Act, 1946 Luce-Celler Act extending reform to Filipino and South Asian populations, and 1952 McCarran-Walter Act treated in article eight continued.
 
-The 1946 [War Brides Act 1945][ref_war_brides_act_1945] specifically permitted approximately 6,000 Chinese wives of US servicemen to enter outside quota. Chinese American population effects were substantial,
+The 1946 [War Brides Act 1945][ref_war_brides_act_1945] permitted approximately 6,000 Chinese wives of US servicemen to enter outside quota. Chinese American population effects were substantial,
 
 $$P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4, \quad P_{\text{Chinese American, US}}(1950) \approx 1.18 \times 10^5, \quad P_{\text{Chinese American, US}}(1960) \approx 2.4 \times 10^5$$
 
@@ -511,7 +511,7 @@ Religious dimensions of Bracero migration combined persistent Mexican Catholic d
 
 ## Sephardic and Ashkenazi Holocaust Refugees
 
-Refugee admissions to the United States during the 1938-1945 window admitted substantial Jewish refugee populations across Sephardic and Ashkenazi origins, though total admissions remained specifically limited by Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Approximate totals were
+Refugee admissions to the United States during the 1938-1945 window admitted substantial Jewish refugee populations across Sephardic and Ashkenazi origins, though total admissions remained limited by Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Approximate totals were
 
 $$N_{\text{Jewish refugee admissions, US, 1933 to 1945, cumulative}} \approx 1.5 \times 10^5, \quad N_{\text{admissions from Sephardic source populations}} \approx 1.5 \times 10^4$$
 
@@ -547,7 +547,7 @@ The 19-30 April 1943 Bermuda Conference on Refugee Problem, held at Horizons Hot
 
 The Struma disaster of 24 February 1942 (Palestinian refugee ship carrying 769 Romanian Jewish refugees sinking in Black Sea following Turkish government denial of transit visa and Soviet submarine torpedo strike) produced 768 deaths with single survivor, providing the most substantial single refugee ship disaster of WWII period. The [Frantz and Collins 2003][book_frantz_collins_2003] Death on the Black Sea treats the Struma disaster.
 
-The 1944 [We Will Never Die pageant][ref_we_will_never_die_1943] specifically produced by Ben Hecht at Madison Square Garden (9 March 1943 with subsequent national tour), and Bergson Group (American Jewish emergency organization under Peter Bergson) provided the substantial public awareness mobilization ultimately motivating War Refugee Board establishment.
+The 1944 [We Will Never Die pageant][ref_we_will_never_die_1943] produced by Ben Hecht at Madison Square Garden (9 March 1943 with subsequent national tour), and Bergson Group (American Jewish emergency organization under Peter Bergson) provided the substantial public awareness mobilization ultimately motivating War Refugee Board establishment.
 
 ## National Association of Evangelicals 1942 and Evangelical Consolidation
 
@@ -565,7 +565,7 @@ The institutional consolidation reflected substantial evangelical break from fun
 
 Federal Council of Churches (FCC, formed 1908 as documented in [A270][related_post_a270_civil_war_and_reconstruction]) provided the institutional coordination of American mainline Protestant response to WWII and postwar planning. The FCC Commission to Study the Bases of a Just and Durable Peace, formed 1940 under John Foster Dulles (Presbyterian layman and subsequent 1953-1959 Secretary of State), produced systematic postwar planning documentation. The [Dulles 1950][book_dulles_1950] War or Peace, [Toulouse 1985][book_toulouse_1985] The Transformation of John Foster Dulles, and [Warren 1997][book_warren_1997_theologians] Theologians of a New World Order provide the comprehensive treatments.
 
-The March 1943 [Six Pillars of Peace 1943][ref_six_pillars_of_peace_1943] Six Pillars of Peace statement adopted by FCC Commission provided the framework combining international political-economic cooperation, colonial and dependent peoples framework, international economic cooperation, religious and intellectual liberty protection, arms limitation, and initial UN institutional design. Approximately 200,000 copies of Six Pillars document were specifically distributed through Protestant denominational infrastructure, shaping American religious response to 1944 Bretton Woods and 1945 United Nations founding.
+The March 1943 [Six Pillars of Peace 1943][ref_six_pillars_of_peace_1943] Six Pillars of Peace statement adopted by FCC Commission provided the framework combining international political-economic cooperation, colonial and dependent peoples framework, international economic cooperation, religious and intellectual liberty protection, arms limitation, and initial UN institutional design. Approximately 200,000 copies of Six Pillars document were distributed through Protestant denominational infrastructure, shaping American religious response to 1944 Bretton Woods and 1945 United Nations founding.
 
 Dulles's 1946 [Dulles 1946][ref_dulles_1946] The Christian Basis of a Just and Durable Peace and extensive FCC-related pamphlet distribution produced substantial American Protestant support for United Nations framework. Approximately
 
@@ -629,9 +629,9 @@ $$\begin{aligned}
 \text{Harlem Race Riot} &: \text{August 1943}, \quad N_{\text{Black dead}} = 6
 \end{aligned}$$
 
-per historical reconstruction. The Zoot Suit Riots produced substantial US Navy and US Marine service member attacks on Mexican American youth in Los Angeles combining pachuco cultural mobilization with racialized wartime tensions. Los Angeles City Council specifically banned zoot suit wearing during the rioting, subsequently specifically overturned. The [Alvarez 2008][book_alvarez_2008] The Power of the Zoot and [Pagan 2003][book_pagan_2003] Murder at the Sleepy Lagoon provide the comprehensive treatments.
+per historical reconstruction. The Zoot Suit Riots produced substantial US Navy and US Marine service member attacks on Mexican American youth in Los Angeles combining pachuco cultural mobilization with racialized wartime tensions. Los Angeles City Council banned zoot suit wearing during the rioting, subsequently overturned. The [Alvarez 2008][book_alvarez_2008] The Power of the Zoot and [Pagan 2003][book_pagan_2003] Murder at the Sleepy Lagoon provide the comprehensive treatments.
 
-The Detroit Race Riot of 20-21 June 1943 at Belle Isle Park expanded across city producing substantial property destruction and casualties. Federal troops specifically deployed to restore order. Approximately 5,000 arrests were made specifically producing racial disparity in criminal charging patterns. The [Capeci and Wilkerson 1991][book_capeci_wilkerson_1991] Layered Violence provides the comprehensive treatment.
+The Detroit Race Riot of 20-21 June 1943 at Belle Isle Park expanded across city producing substantial property destruction and casualties. Federal troops deployed to restore order. Approximately 5,000 arrests were made producing racial disparity in criminal charging patterns. The [Capeci and Wilkerson 1991][book_capeci_wilkerson_1991] Layered Violence provides the comprehensive treatment.
 
 ## March on Washington Movement and FEPC
 
@@ -651,9 +651,9 @@ Congress of Racial Equality (CORE) formed 1942 at Chicago under James Farmer, Be
 
 $$N_{\text{CORE chapters, US}}(1943) \approx 12, \quad N_{\text{CORE chapters, US}}(1960) \approx 30, \quad N_{\text{CORE chapters, US, peak c. 1964}} \approx 180, \quad P_{\text{CORE membership, peak c. 1964}} \approx 8 \times 10^4$$
 
-per institutional records. CORE would specifically contribute to 1960s civil rights movement treated in article eight. The [Meier and Rudwick 1975][book_meier_rudwick_1975] CORE and [Farmer 1985][book_farmer_1985] Lay Bare the Heart provide the comprehensive treatments.
+per institutional records. CORE would contribute to 1960s civil rights movement treated in article eight. The [Meier and Rudwick 1975][book_meier_rudwick_1975] CORE and [Farmer 1985][book_farmer_1985] Lay Bare the Heart provide the comprehensive treatments.
 
-The religious dimensions of the March on Washington Movement, FEPC, and CORE formation combined Christian pacifist tradition (FOR, American Friends Service Committee), ecumenical Protestant civil rights engagement (Federal Council of Churches), Jewish civil rights institutional support (American Jewish Committee, Anti-Defamation League), and increasing Catholic institutional support that would specifically expand in postwar period.
+The religious dimensions of the March on Washington Movement, FEPC, and CORE formation combined Christian pacifist tradition (FOR, American Friends Service Committee), ecumenical Protestant civil rights engagement (Federal Council of Churches), Jewish civil rights institutional support (American Jewish Committee, Anti-Defamation League), and increasing Catholic institutional support that would expand in postwar period.
 
 ## Applying the Six-Axis Framework to the 1924-1945 Substrates
 
@@ -677,7 +677,7 @@ This article follows the terminological conventions established in [A266][relate
 
 ## Load-Bearing Open Questions
 
-- What is the correct empirical characterization of the American failure to specifically use available quota positions for Jewish refugee admission during the 1938-1945 window, and what were institutional versus popular contributors to restrictionist maintenance?
+- What is the correct empirical characterization of the American failure to use available quota positions for Jewish refugee admission during the 1938-1945 window, and what were institutional versus popular contributors to restrictionist maintenance?
 - What is the correct assessment of the relationship between the Indian Reorganization Act and subsequent 1953-1968 termination policy reversal?
 - What is the correct empirical characterization of the 1932-1936 African American Republican-to-Democratic electoral realignment mechanism?
 - What is the correct assessment of Catholic Worker Movement's relationship to mainstream American Catholic institutional structure through twentieth century?

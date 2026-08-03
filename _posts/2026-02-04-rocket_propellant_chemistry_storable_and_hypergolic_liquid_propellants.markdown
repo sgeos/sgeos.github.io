@@ -20,7 +20,7 @@ requires. The intersection of these two properties defines the storable
 hypergolic propellants that dominate spacecraft propulsion, launch
 vehicle upper-stage restart engines, and the strategic ballistic missile
 liquid systems that flew before solid propellants displaced them. This
-article treats the specific chemistries, delivered performance, and
+article treats the chemistries, delivered performance, and
 handling requirements that make each combination viable at the level
 [the opening article of this series][related_post_a217] establishes
 and by the same taxonomy that [the article on cryogenic liquid

@@ -25,35 +25,35 @@ This article opens a five-part series on rocket propellant chemistry. It
 establishes the vocabulary that the family articles will use, sketches the
 three principal families of chemical rocket propellants (solid, liquid, and
 hybrid), and characterizes the tradeoffs that determine which family and
-which specific combination a given mission favors. The four articles that
+which combination a given mission favors. The four articles that
 follow each treat one family or subfamily in depth.
 
 - A218 covers solid propellants. Composite propellants built on ammonium
-  perchlorate oxidizer with a hydroxyl-terminated polybutadiene binder and
-  aluminum fuel dominate the industrial family. Double-base propellants
-  built on nitrocellulose and nitroglycerin form the older munitions
-  tradition. Composite modified double-base combinations, ammonium
-  dinitramide alternatives, and hydroxyl-terminated polyether binder
-  systems represent the current research frontier.
+ perchlorate oxidizer with a hydroxyl-terminated polybutadiene binder and
+ aluminum fuel dominate the industrial family. Double-base propellants
+ built on nitrocellulose and nitroglycerin form the older munitions
+ tradition. Composite modified double-base combinations, ammonium
+ dinitramide alternatives, and hydroxyl-terminated polyether binder
+ systems represent the current research frontier.
 - A219 covers cryogenic liquid propellants. Liquid oxygen paired with
-  liquid hydrogen produces the highest specific impulse of any practical
-  combination. Liquid oxygen paired with methane is the current commercial
-  choice for reusable engines. Liquid oxygen paired with kerosene remains
-  the workhorse of high-thrust first stages. The V-2 pairing of liquid
-  oxygen with ethanol appears for historical reference.
+ liquid hydrogen produces the highest specific impulse of any practical
+ combination. Liquid oxygen paired with methane is the current commercial
+ choice for reusable engines. Liquid oxygen paired with kerosene remains
+ the workhorse of high-thrust first stages. The V-2 pairing of liquid
+ oxygen with ethanol appears for historical reference.
 - A220 covers storable and hypergolic liquid propellants and
-  monopropellants. Nitrogen tetroxide paired with monomethylhydrazine,
-  unsymmetrical dimethylhydrazine, and Aerozine 50 dominates spacecraft
-  propulsion. Inhibited red fuming nitric acid paired with kerosene
-  variants appears in tactical missile applications. Hydrazine
-  monopropellant and high-test peroxide monopropellant cover attitude
-  control and reaction control. The green propellant LMP-103S is
-  discussed in its current-deployment context.
+ monopropellants. Nitrogen tetroxide paired with monomethylhydrazine,
+ unsymmetrical dimethylhydrazine, and Aerozine 50 dominates spacecraft
+ propulsion. Inhibited red fuming nitric acid paired with kerosene
+ variants appears in tactical missile applications. Hydrazine
+ monopropellant and high-test peroxide monopropellant cover attitude
+ control and reaction control. The green propellant LMP-103S is
+ discussed in its current-deployment context.
 - A221 covers hybrid propellants. Hydroxyl-terminated polybutadiene fuel
-  grain paired with liquid oxygen or nitrous oxide is the classical form.
-  Paraffin fuels with higher regression rates represent the modern
-  research direction. Metallized hybrids, storable hybrid combinations,
-  and specific mission niches close the article.
+ grain paired with liquid oxygen or nitrous oxide is the classical form.
+ Paraffin fuels with higher regression rates represent the modern
+ research direction. Metallized hybrids, storable hybrid combinations,
+ and mission niches close the article.
 
 The historical context and the propulsion physics that underlie the design
 space are covered in
@@ -468,7 +468,7 @@ oxidizer. The oxidizer, typically liquid oxygen or nitrous oxide, is
 injected into the chamber through an axial port in the fuel grain, and
 combustion occurs at the flame front established over the port surface.
 Delivered specific impulse ranges from $230$ to $350$ seconds depending on
-the specific combination and chamber conditions.
+the combination and chamber conditions.
 
 Hybrid propellants offer intermediate specific impulse, throttleability
 through oxidizer flow control, restart capability, and substantially
@@ -530,14 +530,14 @@ production volumes.
 Historical inertia. Propulsion architectures embed substantial
 institutional knowledge in the flight-history records of specific
 combinations. A propellant combination that has flown thousands of times in
-a specific engine class carries lower development risk than a
+an engine class carries lower development risk than a
 higher-performance combination that has never flown. This consideration
 often overrides theoretical performance advantages in mission selection.
 
 ## What This Series Is Not
 
 This series treats propellant chemistry as a design-tradeoff space and
-covers the specific chemistries, performance characteristics, and
+covers the chemistries, performance characteristics, and
 tradeoffs of each family. It does not treat the mechanical design of
 turbopumps, injectors, valves, or nozzles beyond the constraints those
 components impose on chemistry. It does not treat combustion instability
@@ -559,7 +559,7 @@ choice largely determines vehicle capability. The three principal
 families (solid, liquid, and hybrid) each occupy a distinct region of
 that space defined by specific impulse, density specific impulse,
 storability, throttleability, restart capability, safety, and cost.
-Within each family, specific fuel and oxidizer combinations further
+Within each family, fuel and oxidizer combinations further
 subdivide the tradespace with their own chemistry constraints and
 performance characteristics.
 

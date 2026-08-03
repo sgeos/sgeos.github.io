@@ -85,7 +85,7 @@ A representative modern formulation contains approximately $68$ percent
 ammonium perchlorate by mass, $18$ percent aluminum by mass, and $12$
 percent hydroxyl-terminated polybutadiene by mass, with the remaining $2$
 percent divided among bond agents, curing agents, plasticizers, and
-ballistic modifiers. The specific fractions vary across manufacturers and
+ballistic modifiers. The fractions vary across manufacturers and
 applications by a few percentage points. The Space Shuttle solid rocket
 booster propellant, produced by Thiokol and later ATK, used $69.6$
 percent ammonium perchlorate, $16$ percent aluminum, $12.04$ percent
@@ -229,7 +229,7 @@ r = a \, P_c^n
 $$
 
 The coefficient $a$ has units that depend on the units of $r$ and $P_c$
-and is typically tabulated for a specific reference temperature. The
+and is typically tabulated for a reference temperature. The
 pressure exponent $n$ is dimensionless and typically ranges from $0.2$ to
 $0.4$ for modern composite propellants. Stable combustion requires $n$
 less than $1$. If $n$ were $1$ or greater, small pressure increases would
@@ -308,7 +308,7 @@ the pourable slurry is more shock sensitive than the extruded dough.
 
 The delivered specific impulse of a double-base propellant ranges from
 approximately $210$ to $240$ seconds at sea level, depending on the
-specific composition and the chamber conditions. The chamber temperature
+composition and the chamber conditions. The chamber temperature
 is approximately $2600$ to $3000$ kelvin, lower than a composite propellant
 because the fuel-oxygen balance is more constrained by the fixed
 nitrocellulose and nitroglycerin chemistry. The exhaust contains no
@@ -397,7 +397,7 @@ solution known as LMP-103S, treated in [the next article on storable
 liquid propellants][related_post_a220], but has seen only limited
 adoption in production solid propellants because the cost premium over
 ammonium perchlorate is not justified for most industrial applications
-absent a specific environmental driver.
+absent an environmental driver.
 
 ### Hydroxyl-Terminated Polyether
 
