@@ -38,8 +38,32 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | Transportation.gov | transportation.gov | Federal bot-detection |
 | US Department of Energy | various sub-paths | Some sub-paths return 403 |
 | Various .mil hosts | military.com et al. | Defense department bot-detection |
+| Securities and Exchange Commission | sec.gov | Includes EDGAR search and the Archives document paths |
+| Congressional Research Service | crsreports.congress.gov, congress.gov | Federal bot-detection |
+| Government Accountability Office | gao.gov | Federal bot-detection |
+| Space Force | spaceforce.mil | Federal bot-detection, consistent with other .mil hosts |
+| Department of Defense | defense.gov | Federal bot-detection |
+| Bloomberg | bloomberg.com | Financial-press bot-detection |
+| Breaking Defense | breakingdefense.com | Trade-press bot-detection |
+| Nasdaq Listing Center | listingcenter.nasdaq.com | Exchange rulebook bot-detection |
+| S and P Global | spglobal.com | Index-provider bot-detection |
+| Tesla Investor Relations | ir.tesla.com | Corporate investor-relations bot-detection |
+| National Venture Capital Association | nvca.org | Trade-association bot-detection |
+| OpenAI | openai.com | Corporate bot-detection, observed 2026-08-02 |
+| Academic publishers | jstor.org, sciencedirect.com, onlinelibrary.wiley.com, academic.oup.com, journals.uchicago.edu, mitpress.mit.edu, jhupbooks.press.jhu.edu, liebertpub.com, pubsonline.informs.org | Publisher bot-detection across the set |
 
 If a new 403 site appears during a publication, add it to this catalogue with one line of context.
+
+## Other Non-200 Responses That Are Not Failures
+
+| Code | Site | Meaning |
+|------|------|---------|
+| 202 | eur-lex.europa.eu | Accepted while the document renders. The document is present. |
+| 401 | wsj.com | Paywall. The URL is canonical. |
+| 429 | blueorigin.com | Persistent rate-limit response to curl rather than a transient one. Retried after a pause and still 429, so treat as bot-detection rather than as a dead link. |
+| connection reset | washingtonpost.com | Blocks curl outright. Verify by web search. |
+
+Two hosts rate-limit aggressive sweeps and will make every link look dead if paced too tightly. `openlibrary.org` is the worst offender and `blueorigin.com` the second. Pace verification or isolate the suspect URL and retest it alone before concluding anything is broken.
 
 ## Common 404 Patterns
 

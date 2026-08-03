@@ -71,6 +71,8 @@ The patient-private capital-formation property is treated as a specific economic
 
 The specific property is a property of the specific arrangement rather than of the specific investor, and the article's central analytical move is to state it that way. A specific investor with a specific twenty-year conviction operating a specific ten-year fund supplies ten-year capital. The specific conviction affects the specific investor's specific willingness to advocate internally and does not affect the specific contractual obligation.
 
+The legal apparatus that produces the constraint is documentary rather than theoretical, and identifying it precisely matters because the article's claim is that the constraint is manufactured. The entity is formed under a state statute, either the [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act] with the corporate provisions at the [Delaware General Corporation Law][ref_dgcl] governing the portfolio companies, or the [Texas Business Organizations Code][ref_texas_boc] following the reincorporation wave of the mid 2020s that the [Governance article A287][related_post_a287_spacex_governance] treats. Formation and standing are recorded through the [Delaware Division of Corporations][ref_delaware_division_corporations] and disputes are resolved before the [Delaware Court of Chancery][ref_delaware_chancery], whose [published opinions][ref_delaware_opinions] supply the operative interpretations of what a partnership agreement may and may not waive. The manager's obligations run through the [Investment Advisers Act][ref_investment_advisers_act] as amended by the [Dodd-Frank Wall Street Reform and Consumer Protection Act][ref_dodd_frank_2010], which withdrew the private-adviser exemption on which the industry had previously relied, and the investor-facing description of the resulting regime is published at [the Securities and Exchange Commission investor education service][ref_sec_investor_gov]. Every element of the constraint is therefore locatable in a statute, a partnership agreement, or a market convention, and none of it is a property of capital as such.
+
 The specific fund structure that generates the specific constraint admits compact description. A specific fund is a specific limited partnership with a specific stated term, a specific investment period during which capital is deployed, and a specific harvest period during which positions are realized and proceeds distributed. The specific general partner is compensated by a specific management fee on committed capital and a specific carried interest on realized gains. The specific carried-interest structure admits the compact form
 
 $$\Pi^{\text{GP}} = f \cdot K^{\text{committed}} \cdot T^{\text{fund}} + c \cdot \left[ \sum_{i} \left( V^{\text{realized}}_i - K_i \right) \right]^{+}$$
@@ -134,6 +136,8 @@ The listing-choice and private-markets tradition traces from [Ewens and Farre-Me
 $$K^{\text{private available}}(t) \gg K^{\text{private available}}(t_0)$$
 
 across the specific period, with the specific consequence that a specific firm requiring a specific magnitude of capital that would once have compelled a specific listing can now obtain it privately.
+
+The framing also identifies what a firm forgoes by declining to list, which is a concrete set of obligations and entitlements rather than a diffuse loss of prestige. The obligations are the continuous disclosure regime at [Regulation S-K][ref_sec_regulation_sk], the internal-control and certification requirements the [Sarbanes-Oxley Act of 2002][ref_sarbanes_oxley_2002] imposed, and the exchange governance standards at the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual] and the [Nasdaq listing rules][ref_nasdaq_listing_rules]. The entitlements are access to index inclusion under the methodologies the [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji] providers publish, which mechanically supplies a class of price-insensitive buyers, and the shareholder-proposal channel at [Rule 14a-8][ref_rule_14a8] through which the [Council of Institutional Investors][ref_cii] and the proxy advisers press governance change. A firm that remains private declines both sides of that exchange, and the article treats the second side as the more consequential because index-driven demand is precisely the recurring supply of incoming buyers that the tender mechanism must otherwise manufacture by hand.
 
 The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982], [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986], [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the specific round terms as a specific negotiated outcome and supplies the specific explanation for the specific terms improving across the specific sequence, because the specific founder's specific outside option improved as the specific venture demonstrated capability while the specific investors' specific outside options in the specific sector did not. The specific asymmetry admits the compact form
 
@@ -211,7 +215,9 @@ with both quantities exceeding unity by a specific margin no specific extension 
 
 ## The 2008 Founders Fund Entry
 
-The specific August 2008 investment constitutes the specific first substantial external capital and occurred at the specific moment the [series opener][related_post_a281_spacex_framing] identifies as the specific near-death period, between the specific third and fourth Falcon 1 flights. The specific investor's specific own account is published at the specific [Founders Fund][ref_founders_fund] and the specific narrative record appears in [Berger 2021][book_berger_2021] Liftoff, [Vance 2015][book_vance_2015] Elon Musk, and [Isaacson 2023][book_isaacson_2023] Elon Musk.
+The specific August 2008 investment constitutes the specific first substantial external capital and occurred at the specific moment the [series opener][related_post_a281_spacex_framing] identifies as the specific near-death period, between the specific third and fourth Falcon 1 flights. The specific investor's specific own account is published at the specific [Founders Fund][ref_founders_fund] and the specific narrative record appears in [Berger 2021][book_berger_2021] Liftoff, [Vance 2015][book_vance_2015] Elon Musk, and [Isaacson 2023][book_isaacson_2023] Elon Musk. The vehicle record for the flights bracketing the investment is published in the firm's own archive at the [SpaceX news archive][ref_spacex_news_archive] and the [SpaceX corporate record][ref_spacex_company], with the [fourth Falcon 1 flight of September 2008][ref_spacex_press_falcon1_flight4_2008] following the investment by approximately six weeks.
+
+The macroeconomic setting is not incidental and is documented independently of any participant account. The [National Bureau of Economic Research][ref_nber] business-cycle chronology dates the contraction as beginning in December 2007 and continuing through June 2009, so the investment fell near the midpoint of the deepest financial dislocation of the period, and the contemporaneous deterioration in business conditions is recorded in the [Conference Board][ref_conference_board] indicator series. The observation cuts against the ordinary telling rather than supporting it. Capital was contracting across the whole venture market at the moment this position was taken, which means the transaction cannot be explained by an abundance of capital seeking risk and must be explained by something specific to the counterparties.
 
 The specific analytically interesting feature of the specific investment is the specific terms rather than the specific timing. The specific bargaining position at the specific moment admits the compact statement through the specific runway quantity
 
@@ -231,7 +237,7 @@ with $\pi_m$ the specific probability that the specific reputation secures a spe
 
 ## The 2009 Draper Fisher Jurvetson Entry
 
-The specific 2009 entry by the specific firm whose record appears at the specific [Draper Fisher Jurvetson][ref_dfj] archive extended the specific investor base and occurred after the specific fourth Falcon 1 flight had succeeded and the specific CRS-1 contract the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats had been awarded.
+The specific 2009 entry by the specific firm whose record appears at the specific [Draper Fisher Jurvetson][ref_dfj] archive extended the specific investor base and occurred after the specific fourth Falcon 1 flight had succeeded and the specific CRS-1 contract the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats had been awarded. The vehicle record is at the [fifth Falcon 1 flight of July 2009][ref_spacex_press_falcon1_flight5_2009], the programme record at the [NASA Commercial Resupply Services programme][ref_nasa_crs_program] and the broader [NASA commercial space programmes][ref_nasa_commercial_space_programs] and [NASA commercial space office][ref_nasa_commercial_space], and the award record is traceable through the [USAspending][ref_usaspending] and [Federal Procurement Data System][ref_fpds] databases, which supply obligation-level detail that no participant account does.
 
 The specific sequencing is analytically important and connects this article to the preceding one. The specific government award of the specific December 2008 period materially altered the specific risk profile the specific private investor evaluated, converting a specific venture with a specific demonstrated vehicle and no specific customer into a specific venture with both. The specific effect on the specific private capital cost admits the compact statement
 
@@ -246,6 +252,8 @@ with the specific fourth Falcon 1 flight reducing the specific first factor and 
 ## The January 2015 Google and Fidelity Round
 
 The specific January 2015 round in which approximately 1 billion dollars was supplied for approximately 10 percent of the specific firm is treated from the specific portfolio side in the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] and from the specific governance side in the [Governance article A287][related_post_a287_spacex_governance]. The specific capital-formation reading adds a specific third element.
+
+The round is the clearest case in the series of capital raised against a business that did not yet exist. The constellation programme was announced in January 2015 at the event recorded in the [SpaceX Seattle announcement][ref_spacex_seattle_announcement_2015], with the programme record subsequently at [SpaceX Starlink][ref_spacex_starlink], the [first operational satellite batch of May 2019][ref_spacex_press_starlink_v0_9_2019], and the [service beta of 2020][ref_spacex_press_beta_2020]. The round therefore priced an option on a business line whose first hardware flew more than four years later. The corporate investor's own disclosure obligations are discharged through the [Alphabet investor relations][ref_alphabet_ir] materials, which record the position at the parent level without disclosing terms, and the general corporate record is at the [SpaceX corporate record][ref_spacex_company].
 
 The specific two reported quantities imply a specific third by arithmetic, admitting the compact form
 
@@ -291,6 +299,8 @@ $$\bar{g} = \left( \frac{V_N}{V_0} \right)^{1/\Delta t} - 1 \approx 0.40$$
 
 with $\Delta t$ the specific elapsed interval in years. The specific figures are reconstructions and inherit every specific limitation the Data Sources section records, and their specific analytical function is not to establish a specific return but to establish that the specific sequence was monotone. A specific monotone sequence is what the specific mechanism requires, and a specific single interruption would have suspended it. The specific mechanism is the specific partial substitute the economic-property section identifies, and its specific limitation is that it pays no specific carried interest and satisfies no specific distribution metric.
 
+The operational milestones against which each successive round was priced are documented in the firm's own record and can be checked independently of any valuation report. They comprise the [first Falcon 9 flight of June 2010][ref_spacex_press_falcon9_first_flight_2010], the [first Dragon orbital demonstration of December 2010][ref_spacex_press_dragon_c1_2010], the [constellation deployment sequence][ref_spacex_press_starlink_v0_9_2019], the [next-generation vehicle programme][ref_spacex_starship_program], the [crewed spaceflight line][ref_spacex_human_spaceflight], and the [defense services line][ref_spacex_starshield], with the consolidated record at the [SpaceX news archive][ref_spacex_news_archive]. The article's position is that the milestone sequence and the valuation sequence are separately observable and that only their conjunction supports treating the latter as informative, since a rising sequence of issuer-set prices unaccompanied by demonstrated capability would carry no evidential weight at all.
+
 ## The Tender-Offer Mechanism as Liquidity Without Exit
 
 The specific semi-annual tender-offer mechanism is the specific decisive structural innovation in the specific financing history and the specific element the article treats as the specific answer to the specific question the mapping problem poses.
@@ -321,6 +331,8 @@ $$\text{realization} \perp \text{company exit}$$
 
 with the specific two events rendered independent. The specific independence is what manufactures the specific patience, and it is manufactured rather than possessed because it is a specific property of a specific recurring institutional arrangement rather than of any specific party's specific preferences.
 
+The disclosure asymmetry the arrangement produces deserves statement alongside the mechanism itself. A holder crossing a beneficial-ownership threshold in a listed issuer files under [Schedule 13D][ref_schedule_13d] and the position becomes public, whereas the equivalent transfer in this arrangement generates no public filing at all beyond the exempt-offering notices at [Form D][ref_sec_form_d]. The consequence is that the identity and size of the incoming buyers at each occasion are unavailable to any outside party, including to the selling holders, and that the mechanism this article describes as manufacturing patience simultaneously withdraws from public view the transactions through which it operates. The [Delaware Court of Chancery][ref_delaware_chancery] supplies whatever after-the-fact scrutiny exists, and it operates only when a participant sues. The critical literature the Historiographical Gap section records treats this as the central objection, and the article regards the objection as correct on the facts while disputing that it is an argument against describing the mechanism accurately.
+
 The specific mechanism's specific availability conditions deserve statement, because they determine how far the specific arrangement generalizes. The specific mechanism requires a specific continuing supply of specific incoming investors willing to purchase at a specific rising price, which requires in turn that the specific firm's specific prospects continue to improve on the specific incoming investors' specific assessment. The specific condition admits the compact form
 
 $$\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}$$
@@ -345,7 +357,7 @@ The specific dispersion admits measurement through a specific concentration inde
 
 $$H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}$$
 
-with $s_{i,t}$ the specific holding of investor $i$ and the specific index declining across the specific period as the specific base broadened. The specific quantity is not observable in the specific present case, because the specific position sizes are not disclosed, and it is stated here to identify precisely which specific unobserved quantity the article's specific dispersion argument depends upon.
+with $s_{i,t}$ the specific holding of investor $i$ and the specific index declining across the specific period as the specific base broadened. The specific quantity is not observable in the specific present case, because the specific position sizes are not disclosed, and it is stated here to identify precisely which specific unobserved quantity the article's specific dispersion argument depends upon. The comparison classes are observable, however. A balance-sheet holder of the kind exemplified in the [Berkshire Hathaway][ref_berkshire] and [Ford investor relations][ref_ford_ir] disclosures reports positions at the parent level under the ordinary regime, as does the corporate strategic holder at [Alphabet][ref_alphabet_ir], while the open-ended asset manager reports portfolio holdings periodically under the regime described at [the Securities and Exchange Commission investor education service][ref_sec_investor_gov]. The article's dispersion argument therefore rests on a quantity that is routinely disclosed for every class of holder except in the arrangement under study.
 
 The specific dispersion of the specific base has a specific second effect the [Governance article A287][related_post_a287_spacex_governance] treats, namely that a specific dispersed base faces a specific coordination cost in assembling any specific coalition. The specific cost admits the compact statement
 
@@ -356,6 +368,8 @@ with a specific lower concentration requiring a specific larger coalition and th
 ## Dilution Management and Control Preservation
 
 The specific cumulative dilution across the specific sequence is the specific cost of the specific leg and is the specific quantity the specific control configuration was designed to tolerate.
+
+The instruments through which the dilution was absorbed without control passing are documented in the corporate-law materials rather than in any transaction record. The differential-voting structure operates under the [Delaware General Corporation Law][ref_dgcl] provisions the [Governance article A287][related_post_a287_spacex_governance] analyzes, with the interpretive record at the [Delaware Court of Chancery][ref_delaware_chancery] and its [published opinions][ref_delaware_opinions], and the employee equity that constitutes a further dilution channel is issued under the [Rule 701][ref_rule_701] compensatory exemption and resold under [Rule 144][ref_rule_144]. The institutional objection to the arrangement is stated in the [Council of Institutional Investors dual-class policy][ref_cii_dual_class] and in the proxy-adviser positions at [Institutional Shareholder Services][ref_iss_governance] and [Glass Lewis][ref_glass_lewis], none of which reaches a firm that never lists.
 
 The specific arithmetic is stated in the economic-property section and in the [Governance article A287][related_post_a287_spacex_governance]. The specific point this article adds is that the specific dilution and the specific patience are jointly determined rather than independent. A specific round raised at a specific higher valuation dilutes less for the specific same capital, and a specific higher valuation is available only where the specific prior capital was patient enough to permit the specific intervening progress. The specific relationship admits the compact form
 
@@ -387,7 +401,7 @@ with $D_t$ contractually specified and independent of the specific operating rea
 
 $$\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{debt-financed}} \;\; \gg \;\; \frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{equity-financed}}$$
 
-with the specific delay converting directly into a specific missed payment under the specific first structure and into a specific deferred return under the specific second. The specific case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the specific primary record at the specific [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the specific proceeding conducted under the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions.
+with the specific delay converting directly into a specific missed payment under the specific first structure and into a specific deferred return under the specific second. The specific case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the specific primary record at the specific [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the specific proceeding conducted under the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions and administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy]. The operator's own contemporaneous record survives at the [Iridium corporate news archive][ref_iridium_press_archive_1998] and the financial-press reconstruction of the 1999 failure at [Bloomberg][ref_bloomberg]. The successor entity continues to operate the constellation, which is the detail most often omitted from the citation of this case as a failure. The system worked. The capital structure did not.
 
 The specific comparison to the specific SpaceX financing is the specific cleanest available demonstration that the specific instrument matters more than the specific quantity. Both specific ventures raised specific large sums for a specific capital-intensive constellation. The specific one raised equity from holders who could wait and the specific other raised debt from holders who could not. The specific difference admits the compact statement
 
@@ -399,7 +413,7 @@ with the specific quantity of capital appearing nowhere in the specific expressi
 
 The specific OneWeb constellation programme supplies the specific complementary negation, in which the specific capital was equity rather than debt and proved impatient nonetheless.
 
-The specific programme was funded substantially by a specific large investment vehicle whose specific stated horizon was long and whose specific announced thesis emphasized specific patient support for specific capital-intensive technology ventures. The specific vehicle declined to supply a specific further round in the specific early 2020 period, and the specific programme filed for specific Chapter 11 protection in the specific March 2020 period with a specific portion of its specific constellation deployed. The specific programme was subsequently acquired and continued under specific different ownership, documented through the specific [OneWeb corporate record][ref_oneweb] and the specific [Eutelsat corporate record][ref_eutelsat_oneweb].
+The specific programme was funded substantially by a specific large investment vehicle whose specific stated horizon was long and whose specific announced thesis emphasized specific patient support for specific capital-intensive technology ventures. The specific vehicle declined to supply a specific further round in the specific early 2020 period, and the specific programme filed for specific Chapter 11 protection in the specific March 2020 period with a specific portion of its specific constellation deployed. The specific programme was subsequently acquired and continued under specific different ownership, documented through the specific [OneWeb corporate record][ref_oneweb] and the specific [Eutelsat corporate record][ref_eutelsat_oneweb], with the proceeding administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy] and the sector reporting at [European Spaceflight][ref_european_spaceflight] and [Space Policy Online][ref_space_policy_online]. The Virgin Orbit wind-up documented in the [Virgin Orbit court record][ref_virgin_orbit_court] supplies a third instance of the same sequence within the same sector and the same decade, which is the reason the article treats the pattern as structural rather than as a property of any single sponsor.
 
 The specific case establishes the specific proposition the article most needs established, which is that a specific stated horizon is not a specific structural property. The specific vehicle in question had a specific stated life and a specific set of specific investors with their specific own claims, and the specific decision to discontinue was available to it at every specific round irrespective of any specific prior representation. The specific distinction admits the compact statement
 
@@ -421,7 +435,9 @@ with the specific first configuration placing substantially the entire supply ob
 
 The specific investor set that funded the specific venture across its specific early period subsequently articulated a specific broader thesis, and the specific resulting capital flow into the specific defense and specific national-security technology sector constitutes the specific principal downstream consequence of the specific case.
 
-The specific thesis holds that specific ventures addressing specific national-security and specific hard-technology requirements had been systematically underfunded by a specific venture industry oriented toward specific software, and that the specific SpaceX outcome demonstrated the specific category was investable. The specific articulation appears in the specific [Andreessen Horowitz American Dynamism][ref_a16z_american_dynamism] practice, the specific [Founders Fund][ref_founders_fund] positioning, the specific [Lux Capital][ref_lux_capital] thesis, the specific [8VC][ref_8vc] positioning, and the specific [Shield Capital][ref_shield_capital] focus.
+The specific thesis holds that specific ventures addressing specific national-security and specific hard-technology requirements had been systematically underfunded by a specific venture industry oriented toward specific software, and that the specific SpaceX outcome demonstrated the specific category was investable. The specific articulation appears in the specific [Andreessen Horowitz American Dynamism][ref_a16z_american_dynamism] practice, the specific [Founders Fund][ref_founders_fund] positioning, the specific [Lux Capital][ref_lux_capital] thesis, the specific [8VC][ref_8vc] positioning, and the specific [Shield Capital][ref_shield_capital] focus. The sector reporting against which the thesis can be checked appears at [Breaking Defense][ref_breaking_defense], [Defense News][ref_defense_news], and [Aviation Week][ref_aviation_week].
+
+The demand side of the thesis is measurable in a way the supply side is not, and the article notes that the advocacy rarely cites it. Award-level obligations are published through [USAspending][ref_usaspending] and the [Federal Procurement Data System][ref_fpds], the daily award record at the [Department of Defense contract announcements][ref_dod_contracts], and the flexible instruments on which the category most depends are the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] described in the [Department of Defense other-transaction guidance][ref_dod_other_transactions], which the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats at length. A category thesis asserting that a government customer will fund a class of ventures is testable against those records, and the article's position is that the test is available and is not generally performed.
 
 The specific analytical question the article poses about the specific wave is whether the specific structural conditions that made the specific original case work are present in the specific subsequent ones. The specific conditions the article identifies are a specific realization path independent of company exit, a specific investor base weighted toward vehicles without a specific fund-life clock, and a specific government relationship supplying non-dilutive capital and credit enhancement at the specific early stage. The specific first condition requires a specific secondary market, which requires in turn a specific continuing supply of specific incoming buyers at a specific rising price, which is available to a specific small number of specific ventures at any specific time. The specific condition admits the compact statement
 
@@ -441,7 +457,7 @@ The specific Palantir case, documented through the specific [Palantir investor m
 
 $$\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listing}, \;\; \text{acquisition}, \;\; \text{recurring private tender} \; \right\}$$
 
-with the specific first three terminating the specific private configuration and only the specific fourth preserving it. The specific enumeration clarifies what the specific SpaceX arrangement purchased, which is not liquidity as such but liquidity compatible with remaining private, and the [Governance article A287][related_post_a287_spacex_governance] establishes why remaining private was the specific objective. The specific firm also adopted a specific multi-class structure preserving specific founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes.
+with the specific first three terminating the specific private configuration and only the specific fourth preserving it. The specific enumeration clarifies what the specific SpaceX arrangement purchased, which is not liquidity as such but liquidity compatible with remaining private, and the [Governance article A287][related_post_a287_spacex_governance] establishes why remaining private was the specific objective. The specific firm also adopted a specific multi-class structure preserving specific founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes. The listing placed it inside the regime the private arrangement declines, comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual] standards, the [Regulation S-K][ref_sec_regulation_sk] disclosure obligations, and exposure to the [Council of Institutional Investors dual-class policy][ref_cii_dual_class] and the proxy-adviser recommendations at [Institutional Shareholder Services][ref_iss_governance] and [Glass Lewis][ref_glass_lewis]. The multi-class structure also carries index consequences under the [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji] methodologies, which have at points restricted inclusion of firms with unequal voting rights. The case therefore demonstrates that the fund-life constraint can be resolved by listing while retaining founder control, at the cost of accepting every scrutiny mechanism the private arrangement avoids, and the article declines to characterize that trade as favorable or unfavorable because the two configurations optimize different objectives.
 
 The specific Anduril case, documented through the specific [Anduril corporate record][ref_anduril], is the specific instance of a specific venture founded after the specific thesis had been articulated and funded by the specific investors who articulated it. The specific case is therefore not an independent confirmation of the specific thesis but a specific consequence of it, and the specific evidentiary weight it can bear is correspondingly limited. The specific distinction admits the compact statement
 
@@ -467,9 +483,15 @@ $$T^{\text{construction}} \gg T^{\text{subscriber horizon}} \quad \Longrightarro
 
 with each specific refinancing constituting a specific occasion on which the specific undertaking could fail for reasons unrelated to its specific engineering. The [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Landes 1969][book_landes_1969] The Unbound Prometheus, and [Hughes 1983][book_hughes_1983] Networks of Power treatments document the specific arrangements. The specific record is substantially less favorable than the specific contemporary infrastructure-finance advocacy suggests, and the specific reason is that the specific era supplied no specific equivalent of the specific transfer mechanism at the specific scale the specific undertakings required.
 
-The specific Standard Oil and the specific late-nineteenth-century industrial consolidations supply the specific instance in which a specific retained-earnings financing displaced a specific external capital market entirely, documented in [Chernow 2004][book_chernow_2004] Titan. The specific route is the specific one the Category-Dominating Commercial Spinoff article A291 will treat in the specific present case, and it is the specific route that dispenses with the specific patience problem by dispensing with the specific external claim.
+The specific Standard Oil and the specific late-nineteenth-century industrial consolidations supply the specific instance in which a specific retained-earnings financing displaced a specific external capital market entirely, documented in [Chernow 2004][book_chernow_2004] Titan. The specific route is the specific one the Category-Dominating Commercial Spinoff article A291 will treat in the specific present case, and it is the specific route that dispenses with the specific patience problem by dispensing with the specific external claim. The primary record of the consolidation and its dissolution is the [Supreme Court decision of 1911][ref_standard_oil_1911], which supplies the finding of fact about the financing structure that the secondary literature paraphrases.
+
+The two twentieth-century telecommunications settlements supply the regulated counterpart and are documented in the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984]. The pairing is instructive for this article because the first settlement purchased a patient capital position with a commitment to license, and the second dissolved the arrangement once the bargain was no longer politically sustainable, which establishes that a regulated revenue base is a patience mechanism with a termination risk of its own rather than a permanent substitute for the instruments this article treats.
+
+The corporate archives of the two American firms whose long development programmes are most often compared to the present case are at the [IBM archives][ref_ibm_archives] and the [Boeing historical archives][ref_boeing_historical_archives].
 
 The specific electrification and specific telephone build-outs supply the specific instance of a specific regulated monopoly's specific access to a specific patient bond market on the specific strength of a specific regulated revenue base. The [Hughes 1983][book_hughes_1983], [Nye 1990][book_nye_1990] Electrifying America, [Temin and Galambos 1987][book_temin_galambos_1987] The Fall of the Bell System, [Wu 2010][book_wu_2010] The Master Switch, and [Levin 2010][book_levin_2010] The Wires That Bind treatments document the specific arrangements. The specific case establishes that a specific regulated revenue base substitutes for the specific patience mechanisms this article treats, at the specific cost of the specific regulatory constraint.
+
+The foundation-ownership form supplies the one historical arrangement that solves the duration problem outright rather than by mechanism, and it is the comparison the article regards as most instructive because the [Governance article A287][related_post_a287_spacex_governance] establishes that the present case does not satisfy it. The [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung] statute of 1889 and the [Zeiss corporate record][ref_zeiss_corporate], the [Robert Bosch Stiftung][ref_bosch_stiftung] and the [Bosch corporate record][ref_bosch_company], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings] under the supervisory regime the [Danish Business Authority][ref_danish_business_authority] administers each place ownership in an entity with no term, no beneficiary entitled to demand realization, and no successor problem. The duration condition is satisfied by construction rather than by a recurring transaction. The arrangement this article describes purchases a comparable effect through a mechanism that must be re-executed every six months and that is unavailable in adverse states, which is a materially weaker guarantee obtained at materially lower cost in surrendered ownership.
 
 The specific semiconductor and specific early computing financings supply the specific instance most proximate to the specific present case in its specific institutional form. The [Berlin 2005][book_berlin_2005] The Man Behind the Microchip, [Malone 2014][book_malone_2014] The Intel Trinity, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Riordan and Hoddeson 1997][book_riordan_hoddeson_1997] Crystal Fire, [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, and [Klepper 2016][book_klepper_2016] Experimental Capitalism document the specific emergence of the specific venture form itself. The specific relevant observation is that the specific form was designed for a specific development horizon of a specific few years, and that substantially every specific difficulty this article treats follows from applying it to a specific horizon it was not designed for. The specific design point and the specific application admit the compact contrast
 
@@ -499,7 +521,11 @@ The specific case-study record appears in the specific [Anadol Cohen and Ferrari
 
 ### Critical and Skeptical Literature
 
-A specific critical literature reads the specific arrangement as a specific instance of a specific broader shift of specific economic activity into specific private markets beyond the specific reach of specific public disclosure and specific public accountability. The specific position draws on [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [Ho 2009][book_ho_2009] Liquidated, [Srnicek 2017][book_srnicek_2017] Platform Capitalism, [Zuboff 2019][book_zuboff_2019] The Age of Surveillance Capitalism, [Foster and McChesney 2011][book_foster_mcchesney_2011] The Endless Crisis, and [Melman 1970][book_melman_1970] Pentagon Capitalism, with the specific governance dimension in [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] and [Berle and Means 1932][book_berle_means_1932]. The specific concern is that the specific mechanisms this article describes as manufacturing patience equally manufacture opacity, and that the specific two are the specific same mechanism viewed from specific different positions. The specific concern is well founded and the article does not resolve it.
+A specific critical literature reads the specific arrangement as a specific instance of a specific broader shift of specific economic activity into specific private markets beyond the specific reach of specific public disclosure and specific public accountability. The specific position draws on [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [Ho 2009][book_ho_2009] Liquidated, [Srnicek 2017][book_srnicek_2017] Platform Capitalism, [Zuboff 2019][book_zuboff_2019] The Age of Surveillance Capitalism, [Foster and McChesney 2011][book_foster_mcchesney_2011] The Endless Crisis, and [Melman 1970][book_melman_1970] Pentagon Capitalism, with the specific governance dimension in [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] and [Berle and Means 1932][book_berle_means_1932]. The specific concern is that the specific mechanisms this article describes as manufacturing patience equally manufacture opacity, and that the specific two are the specific same mechanism viewed from specific different positions. The specific concern is well founded and the article does not resolve it. The institutional expression of the concern appears in the [Council of Institutional Investors][ref_cii] positions and the [Rule 14a-8][ref_rule_14a8] shareholder-proposal channel, neither of which reaches a firm that never lists, and the governance scholarship at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum] documents the resulting accountability gap.
+
+### Comparative Contemporary Configurations
+
+The mission-directed venture attempting to bind itself against later capital capture has produced several contemporary arrangements that supply a comparison set for the present case without being instances of it. The [OpenAI charter][ref_openai_charter] and the subsequent restructuring recorded in the [OpenAI news record][ref_openai_news] and the [Microsoft news record][ref_microsoft_news] constitute the most-discussed failure of such a binding, which the [Governance article A287][related_post_a287_spacex_governance] treats as its principal negation case. The [Anthropic long-term benefit trust][ref_anthropic_ltbt] is a distinct attempt at the same problem through a trust rather than a nonprofit parent. The founder-control comparisons among listed technology firms are documented at [Meta investor relations][ref_meta_ir], [Snap investor relations][ref_snap_ir], and [Tesla investor relations][ref_tesla_ir]. None of these arrangements resolves the fund-life constraint this article treats, because each concerns the allocation of control rather than the duration of the supplying vehicle, and the article records them to mark the boundary between the two problems, which the commentary routinely conflates.
 
 ### Trade Press and Journalistic Record
 
@@ -515,7 +541,9 @@ $$T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{
 
 with the specific configuration attaining the specific duration and specific dilution objectives outright while failing the specific dispersion sub-property completely. The specific configuration is therefore the specific exact complement of the specific OneWeb failure, holding the specific concentration constant at its specific maximum and varying the specific supplier's specific willingness to continue. The specific record appears at the specific [Blue Origin press releases][ref_blue_origin_press].
 
-Rocket Lab took the specific conventional route, listing publicly and thereby resolving the specific fund-life constraint through the specific ordinary mechanism at the specific ordinary cost in specific disclosure and specific quarterly scrutiny. The specific record appears at the specific [Rocket Lab press releases][ref_rocket_lab_press]. The specific comparison against the specific SpaceX route is the specific most direct available within the specific sector.
+Rocket Lab took the specific conventional route, listing publicly and thereby resolving the specific fund-life constraint through the specific ordinary mechanism at the specific ordinary cost in specific disclosure and specific quarterly scrutiny. The specific record appears at the specific [Rocket Lab press releases][ref_rocket_lab_press] and in the periodic filings retrievable through [Securities and Exchange Commission EDGAR][ref_sec_edgar]. The specific comparison against the specific SpaceX route is the specific most direct available within the specific sector, because the two firms entered at comparable dates into the same market with the same customer set and resolved the same constraint by opposite means. The comparison is nonetheless confounded by scale, since the capital requirement the larger programme faced was of a different order and may itself explain the divergent choice.
+
+The comparison set extends beyond the domestic entrants. [Arianespace][ref_arianespace] operates under a governmental-shareholder arrangement in which the duration question is answered by state ownership rather than by any market mechanism, [Axiom Space][ref_axiom_space] pursues the private-station line under conventional venture financing, and the broader European entrant record appears at [European Spaceflight][ref_european_spaceflight] with the sector-wide launch and licensing record at the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast], the [Space Force National Security Space Launch programme][ref_space_force_nssl], and the technical reporting at [NASASpaceflight][ref_nasaspaceflight] and [Space Policy Online][ref_space_policy_online].
 
 The United Launch Alliance is a specific joint venture of specific listed parents and therefore raises no specific external capital of its specific own, documented through the specific [United Launch Alliance news][ref_ula_press] and the specific parent disclosures at the specific [Boeing press releases][ref_boeing_press] and the specific [Northrop Grumman press releases][ref_northrop_grumman_press].
 
@@ -580,7 +608,9 @@ The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckl
 
 $$\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]$$
 
-with the specific ordering undetermined on the specific available evidence. The specific left side benefits from the specific continued appreciation and suffers from the specific loss of the specific bonding the specific term supplied. The specific article notes that the specific general partner selects when to invoke the specific mechanism and the specific limited partners do not, which is a specific asymmetry the specific agency framing predicts will be resolved in the specific general partner's favor.
+with the specific ordering undetermined on the specific available evidence. The specific left side benefits from the specific continued appreciation and suffers from the specific loss of the specific bonding the specific term supplied. The specific article notes that the specific general partner selects when to invoke the specific mechanism and the specific limited partners do not, which is a specific asymmetry the specific agency framing predicts will be resolved in the specific general partner's favor. The scholarly and practitioner apparatus through which the framing is currently argued is collected at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum], with the investor-side positions at the [Council of Institutional Investors][ref_cii].
+
+The comparative-institutional framing asks whether the arrangement is a feature of United States corporate law specifically or of the venture form generally, and the answer bears on how far the article's finding travels. The [United Kingdom Companies Act 2006][ref_uk_companies_act_2006] imposes a pre-emption regime that constrains the issuance sequence this article describes, the German [Aktiengesetz][ref_german_aktiengesetz] embeds codetermination and a two-tier board that alter the control calculus entirely, and the [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive] imposes engagement obligations on institutional holders that have no United States analogue. The article's finding is therefore jurisdiction-bound to a degree its abstract statement conceals, and a reader applying the pattern outside the United States should treat the control-preservation sub-property as the one most likely to fail for reasons unrelated to the financing.
 
 The market-microstructure framing treats the specific tender mechanism as a specific thin periodic auction whose specific price is set by the specific issuer rather than discovered, and it raises the specific question whether the specific reported valuations bear the specific informational content that a specific public market price would. The specific concern admits the compact statement
 
@@ -705,59 +735,140 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Reference
 
+- [10 United States Code 2371b Other Transaction Authority][ref_10_usc_2371b]
 - [8VC][ref_8vc]
+- [Alphabet Investor Relations][ref_alphabet_ir]
 - [Andreessen Horowitz American Dynamism][ref_a16z_american_dynamism]
 - [Anduril Corporate Record][ref_anduril]
+- [Anthropic Long-Term Benefit Trust][ref_anthropic_ltbt]
+- [Arianespace][ref_arianespace]
 - [Ars Technica Space Coverage][ref_arstechnica_space]
+- [AT and T Consent Decree of 1956][ref_att_consent_decree_1956]
+- [AT and T Divestiture of 1984][ref_att_divestiture_1984]
+- [Aviation Week][ref_aviation_week]
+- [Axiom Space][ref_axiom_space]
 - [Baillie Gifford][ref_baillie_gifford]
+- [Berkshire Hathaway Shareholder Letters][ref_berkshire]
 - [Bloomberg][ref_bloomberg]
 - [Blue Origin Press Releases][ref_blue_origin_press]
+- [Boeing Historical Archives][ref_boeing_historical_archives]
 - [Boeing Press Releases][ref_boeing_press]
+- [Bosch Corporate Record][ref_bosch_company]
+- [Breaking Defense][ref_breaking_defense]
 - [BryceTech Sector Reports][ref_bryce_tech]
 - [Cambridge Associates Benchmark Data][ref_cambridge_associates]
+- [Carl Zeiss Stiftung Statute][ref_carl_zeiss_stiftung]
+- [Conference Board Business Cycle Indicators][ref_conference_board]
+- [Council of Institutional Investors][ref_cii]
+- [Council of Institutional Investors Dual-Class Policy][ref_cii_dual_class]
+- [Danish Business Authority][ref_danish_business_authority]
+- [Defense News][ref_defense_news]
+- [Delaware Court of Chancery][ref_delaware_chancery]
+- [Delaware Courts Published Opinions][ref_delaware_opinions]
+- [Delaware Division of Corporations][ref_delaware_division_corporations]
+- [Delaware General Corporation Law][ref_dgcl]
 - [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act]
+- [Department of Defense Contract Announcements][ref_dod_contracts]
+- [Department of Defense Other Transaction Guidance][ref_dod_other_transactions]
+- [Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010][ref_dodd_frank_2010]
 - [Draper Fisher Jurvetson Archive][ref_dfj]
+- [European Corporate Governance Institute][ref_ecgi]
+- [European Spaceflight][ref_european_spaceflight]
+- [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive]
 - [Eutelsat Corporate Record][ref_eutelsat_oneweb]
+- [FAA Office of Commercial Space Transportation][ref_faa_ast]
+- [Federal Procurement Data System][ref_fpds]
+- [Ford Investor Relations][ref_ford_ir]
 - [Founders Fund][ref_founders_fund]
+- [FTSE Russell Index Methodology][ref_ftse_russell]
+- [German Aktiengesetz Stock Corporation Act][ref_german_aktiengesetz]
+- [Glass Lewis Proxy Voting Guidelines][ref_glass_lewis]
+- [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum]
+- [IBM Archives][ref_ibm_archives]
 - [Institutional Limited Partners Association][ref_ilpa]
+- [Institutional Shareholder Services Governance][ref_iss_governance]
 - [Investment Advisers Act Section 203 Registration][ref_investment_advisers_act]
 - [Investment Company Act Section 3 Definition of Investment Company][ref_investment_company_act]
+- [Iridium Corporate News Archive][ref_iridium_press_archive_1998]
 - [Jumpstart Our Business Startups Act of 2012][ref_jobs_act_2012]
 - [Lux Capital][ref_lux_capital]
+- [Meta Investor Relations][ref_meta_ir]
+- [Microsoft News Record][ref_microsoft_news]
+- [NASA Commercial Resupply Services Program][ref_nasa_crs_program]
+- [NASA Commercial Space Office][ref_nasa_commercial_space]
+- [NASA Commercial Space Programs][ref_nasa_commercial_space_programs]
+- [NASASpaceflight][ref_nasaspaceflight]
+- [Nasdaq Listing Rules][ref_nasdaq_listing_rules]
+- [National Bureau of Economic Research Business Cycle Dating][ref_nber]
 - [National Venture Capital Association][ref_nvca]
+- [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual]
 - [New York Times Space Coverage][ref_nyt]
 - [Northrop Grumman Press Releases][ref_northrop_grumman_press]
+- [Novo Holdings][ref_novo_holdings]
+- [Novo Nordisk Foundation][ref_novo_nordisk_foundation]
 - [OneWeb Corporate Record][ref_oneweb]
+- [OpenAI Charter][ref_openai_charter]
+- [OpenAI News Record][ref_openai_news]
 - [Palantir Investor Materials][ref_palantir_ir]
 - [Payload][ref_payload]
 - [Payload Research][ref_payload_research]
 - [PitchBook Transaction Data][ref_pitchbook]
+- [Robert Bosch Stiftung][ref_bosch_stiftung]
 - [Rocket Lab Press Releases][ref_rocket_lab_press]
+- [S and P Dow Jones Indices Methodology][ref_spdji]
+- [Sarbanes-Oxley Act of 2002][ref_sarbanes_oxley_2002]
 - [SEC Archive Iridium Chapter 11 Filing 1999][ref_iridium_chapter_11_1999]
 - [SEC EDGAR Company Search][ref_sec_edgar]
 - [SEC Form D Exempt Offering Notices][ref_sec_form_d]
+- [SEC Investor Education Service][ref_sec_investor_gov]
 - [SEC Regulation 14E Tender Offer Requirements][ref_reg_14e]
 - [SEC Regulation D and Securities Act Rules 17 CFR Part 230][ref_reg_d]
 - [SEC Regulation S-K Disclosure Requirements][ref_sec_regulation_sk]
 - [SEC Rule 12g-1 Registration Threshold][ref_rule_12g1]
 - [SEC Rule 13e-4 Issuer Tender Offers][ref_rule_13e4]
 - [SEC Rule 144 Resale of Restricted Securities][ref_rule_144]
+- [SEC Rule 14a-8 Shareholder Proposals][ref_rule_14a8]
 - [SEC Rule 506 Private Placement Safe Harbor][ref_rule_506]
 - [SEC Rule 701 Compensatory Benefit Plan Exemption][ref_rule_701]
+- [SEC Schedule 13D Beneficial Ownership Reporting][ref_schedule_13d]
 - [Securities Act Section 4 Exempted Transactions][ref_securities_act_4a2]
 - [Securities Exchange Act Section 12 Registration Requirements][ref_exchange_act_12g]
 - [Sequoia Capital][ref_sequoia]
 - [Shield Capital][ref_shield_capital]
+- [Snap Investor Relations][ref_snap_ir]
 - [Space Capital Quarterly Reports][ref_space_capital]
+- [Space Force National Security Space Launch Program][ref_space_force_nssl]
+- [Space Policy Online][ref_space_policy_online]
 - [SpaceNews][ref_spacenews]
+- [SpaceX Corporate Record][ref_spacex_company]
+- [SpaceX Dragon C1 Orbital Demonstration 2010][ref_spacex_press_dragon_c1_2010]
+- [SpaceX Falcon 1 Flight 4 2008][ref_spacex_press_falcon1_flight4_2008]
+- [SpaceX Falcon 1 Flight 5 2009][ref_spacex_press_falcon1_flight5_2009]
+- [SpaceX Falcon 9 First Flight 2010][ref_spacex_press_falcon9_first_flight_2010]
+- [SpaceX Human Spaceflight][ref_spacex_human_spaceflight]
+- [SpaceX News Archive][ref_spacex_news_archive]
+- [SpaceX Seattle Announcement 2015][ref_spacex_seattle_announcement_2015]
+- [SpaceX Starlink][ref_spacex_starlink]
+- [SpaceX Starlink Service Beta 2020][ref_spacex_press_beta_2020]
+- [SpaceX Starlink v0.9 First Operational Batch 2019][ref_spacex_press_starlink_v0_9_2019]
+- [SpaceX Starshield][ref_spacex_starshield]
+- [SpaceX Starship Program][ref_spacex_starship_program]
+- [Standard Oil Company v United States 1911][ref_standard_oil_1911]
 - [Stanford Graduate School of Business Case Collection][ref_stanford_spacex_case]
+- [Tesla Investor Relations][ref_tesla_ir]
+- [Texas Business Organizations Code][ref_texas_boc]
 - [The Space Review][ref_the_space_review]
+- [United Kingdom Companies Act 2006][ref_uk_companies_act_2006]
 - [United Launch Alliance News][ref_ula_press]
 - [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11]
+- [United States Bankruptcy Courts][ref_uscourts_bankruptcy]
+- [USAspending Federal Award Data][ref_usaspending]
 - [Valor Equity Partners][ref_valor_equity]
+- [Virgin Orbit Court Record][ref_virgin_orbit_court]
 - [Wall Street Journal Technology Coverage][ref_wsj]
 - [Washington Post Technology Coverage][ref_washington_post]
 - [Wharton Knowledge Repository][ref_wharton_spacex_case]
+- [Zeiss Corporate Record][ref_zeiss_corporate]
 
 ### Research
 
@@ -869,32 +980,84 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
 [book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
+[ref_10_usc_2371b]: https://www.law.cornell.edu/uscode/text/10/2371b
 [ref_8vc]: https://www.8vc.com/
 [ref_a16z_american_dynamism]: https://a16z.com/american-dynamism/
+[ref_alphabet_ir]: https://abc.xyz/investor/
 [ref_anduril]: https://www.anduril.com/
+[ref_anthropic_ltbt]: https://www.anthropic.com/news/the-long-term-benefit-trust
+[ref_arianespace]: https://www.arianespace.com/
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
+[ref_att_consent_decree_1956]: https://www.corp.att.com/history/nethistory/consent-decree.html
+[ref_att_divestiture_1984]: https://www.corp.att.com/history/nethistory/divestiture.html
+[ref_aviation_week]: https://aviationweek.com/
+[ref_axiom_space]: https://www.axiomspace.com/
 [ref_baillie_gifford]: https://www.bailliegifford.com/
 [ref_bankruptcy_code_ch11]: https://www.law.cornell.edu/uscode/text/11/chapter-11
+[ref_berkshire]: https://www.berkshirehathaway.com/
 [ref_bloomberg]: https://www.bloomberg.com/
 [ref_blue_origin_press]: https://www.blueorigin.com/news/
+[ref_boeing_historical_archives]: https://www.boeing.com/history/
 [ref_boeing_press]: https://boeing.mediaroom.com/
+[ref_bosch_company]: https://www.bosch.com/company/
+[ref_bosch_stiftung]: https://www.bosch-stiftung.de/en
+[ref_breaking_defense]: https://breakingdefense.com/
 [ref_bryce_tech]: https://brycetech.com/reports
 [ref_cambridge_associates]: https://www.cambridgeassociates.com/
+[ref_carl_zeiss_stiftung]: https://www.carl-zeiss-stiftung.de/en/
+[ref_cii]: https://www.cii.org/
+[ref_cii_dual_class]: https://www.cii.org/dualclass_stock
+[ref_conference_board]: https://www.conference-board.org/
+[ref_danish_business_authority]: https://danishbusinessauthority.dk/
+[ref_defense_news]: https://www.defensenews.com/
+[ref_delaware_chancery]: https://courts.delaware.gov/chancery/
+[ref_delaware_division_corporations]: https://corp.delaware.gov/
 [ref_delaware_lp_act]: https://delcode.delaware.gov/title6/c017/
+[ref_delaware_opinions]: https://courts.delaware.gov/opinions/
 [ref_dfj]: https://www.dfj.com/
+[ref_dgcl]: https://delcode.delaware.gov/title8/c001/
+[ref_dod_contracts]: https://www.defense.gov/News/Contracts/
+[ref_dod_other_transactions]: https://aida.mitre.org/ota/
+[ref_dodd_frank_2010]: https://www.congress.gov/111/plaws/publ203/PLAW-111publ203.pdf
+[ref_ecgi]: https://www.ecgi.global/
+[ref_eu_shareholder_rights_directive]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017L0828
+[ref_european_spaceflight]: https://europeanspaceflight.com/
 [ref_eutelsat_oneweb]: https://www.eutelsat.com/
 [ref_exchange_act_12g]: https://www.law.cornell.edu/uscode/text/15/78l
+[ref_faa_ast]: https://www.faa.gov/space
+[ref_ford_ir]: https://shareholder.ford.com/
 [ref_founders_fund]: https://foundersfund.com/
+[ref_fpds]: https://www.fpds.gov/
+[ref_ftse_russell]: https://www.lseg.com/en/ftse-russell
+[ref_german_aktiengesetz]: https://www.gesetze-im-internet.de/aktg/
+[ref_glass_lewis]: https://www.glasslewis.com/
+[ref_harvard_corpgov_forum]: https://corpgov.law.harvard.edu/
+[ref_ibm_archives]: https://www.ibm.com/history/
 [ref_ilpa]: https://ilpa.org/
 [ref_investment_advisers_act]: https://www.law.cornell.edu/uscode/text/15/80b-3
 [ref_investment_company_act]: https://www.law.cornell.edu/uscode/text/15/80a-3
 [ref_iridium_chapter_11_1999]: https://www.sec.gov/Archives/edgar/data/1029074/0000912057-99-034228.txt
+[ref_iridium_press_archive_1998]: https://www.iridium.com/
+[ref_iss_governance]: https://www.issgovernance.com/
 [ref_jobs_act_2012]: https://www.congress.gov/112/plaws/publ106/PLAW-112publ106.pdf
 [ref_lux_capital]: https://www.luxcapital.com/
+[ref_meta_ir]: https://investor.atmeta.com/
+[ref_microsoft_news]: https://news.microsoft.com/
+[ref_nasa_commercial_space]: https://www.nasa.gov/commercial-space/
+[ref_nasa_commercial_space_programs]: https://www.nasa.gov/humans-in-space/commercial-space/
+[ref_nasa_crs_program]: https://www.nasa.gov/international-space-station/commercial-resupply/
+[ref_nasaspaceflight]: https://www.nasaspaceflight.com/
+[ref_nasdaq_listing_rules]: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules
+[ref_nber]: https://www.nber.org/
 [ref_northrop_grumman_press]: https://news.northropgrumman.com/
+[ref_novo_holdings]: https://www.novoholdings.dk/
+[ref_novo_nordisk_foundation]: https://novonordiskfonden.dk/en/
 [ref_nvca]: https://nvca.org/
+[ref_nyse_listed_company_manual]: https://nyseguide.srorules.com/listed-company-manual
 [ref_nyt]: https://www.nytimes.com/section/science/space
 [ref_oneweb]: https://oneweb.net/
+[ref_openai_charter]: https://openai.com/charter/
+[ref_openai_news]: https://openai.com/news/
 [ref_palantir_ir]: https://investors.palantir.com/
 [ref_payload]: https://payloadspace.com/
 [ref_payload_research]: https://payloadspace.com/research/
@@ -905,23 +1068,71 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_rule_12g1]: https://www.ecfr.gov/current/title-17/section-240.12g-1
 [ref_rule_13e4]: https://www.ecfr.gov/current/title-17/section-240.13e-4
 [ref_rule_144]: https://www.ecfr.gov/current/title-17/section-230.144
+[ref_rule_14a8]: https://www.ecfr.gov/current/title-17/section-240.14a-8
 [ref_rule_506]: https://www.ecfr.gov/current/title-17/section-230.506
 [ref_rule_701]: https://www.ecfr.gov/current/title-17/section-230.701
+[ref_sarbanes_oxley_2002]: https://www.congress.gov/107/plaws/publ204/PLAW-107publ204.pdf
+[ref_schedule_13d]: https://www.ecfr.gov/current/title-17/section-240.13d-101
 [ref_sec_edgar]: https://www.sec.gov/edgar/searchedgar/companysearch
 [ref_sec_form_d]: https://www.sec.gov/answers/formd.htm
+[ref_sec_investor_gov]: https://www.investor.gov/
 [ref_sec_regulation_sk]: https://www.ecfr.gov/current/title-17/part-229
 [ref_securities_act_4a2]: https://www.law.cornell.edu/uscode/text/15/77d
 [ref_sequoia]: https://www.sequoiacap.com/
 [ref_shield_capital]: https://www.shieldcap.com/
+[ref_snap_ir]: https://investor.snap.com/
 [ref_space_capital]: https://www.spacecapital.com/
+[ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
+[ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacenews]: https://spacenews.com/
+[ref_spacex_company]: https://www.spacex.com/
+[ref_spacex_human_spaceflight]: https://www.spacex.com/humanspaceflight/
+[ref_spacex_news_archive]: https://www.spacex.com/updates/
+[ref_spacex_press_beta_2020]: https://www.spacex.com/updates/
+[ref_spacex_press_dragon_c1_2010]: https://www.spacex.com/updates/
+[ref_spacex_press_falcon1_flight4_2008]: https://www.spacex.com/news/2013/02/11/spacex-successfully-launches-falcon-1-orbit
+[ref_spacex_press_falcon1_flight5_2009]: https://www.spacex.com/updates/
+[ref_spacex_press_falcon9_first_flight_2010]: https://www.spacex.com/updates/
+[ref_spacex_press_starlink_v0_9_2019]: https://www.spacex.com/updates/
+[ref_spacex_seattle_announcement_2015]: https://www.spacex.com/updates/
+[ref_spacex_starlink]: https://www.starlink.com/
+[ref_spacex_starshield]: https://www.spacex.com/starshield/
+[ref_spacex_starship_program]: https://www.spacex.com/vehicles/starship/
+[ref_spdji]: https://www.spglobal.com/spdji/en/
+[ref_standard_oil_1911]: https://supreme.justia.com/cases/federal/us/221/1/
 [ref_stanford_spacex_case]: https://www.gsb.stanford.edu/faculty-research/case-studies
+[ref_tesla_ir]: https://ir.tesla.com/
+[ref_texas_boc]: https://statutes.capitol.texas.gov/Docs/BO/htm/BO.21.htm
 [ref_the_space_review]: https://www.thespacereview.com/
+[ref_uk_companies_act_2006]: https://www.legislation.gov.uk/ukpga/2006/46/contents
 [ref_ula_press]: https://www.ulalaunch.com/about/news
+[ref_usaspending]: https://www.usaspending.gov/
+[ref_uscourts_bankruptcy]: https://www.uscourts.gov/court-programs/bankruptcy
 [ref_valor_equity]: https://www.valorep.com/
+[ref_virgin_orbit_court]: https://www.deb.uscourts.gov/
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/
 [ref_wharton_spacex_case]: https://knowledge.wharton.upenn.edu/
 [ref_wsj]: https://www.wsj.com/tech
+[ref_zeiss_corporate]: https://www.zeiss.com/corporate/en/home.html
+[related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
+[related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}
+[related_post_a164_patents_trade_secrets]: {% post_url 2026-05-06-patents_trade_secrets_and_the_disclosure_tradeoff %}
+[related_post_a167_startup_failure]: {% post_url 2026-05-09-why_startups_actually_fail %}
+[related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
+[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-23-contemporary_snapshot_and_extrapolation %}
+[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
+[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
+[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
+[related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
+[related_post_a285_spacex_decomposability]: {% post_url 2026-07-28-spacex_history_decomposability %}
+[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-29-spacex_history_generality_forcing %}
+[related_post_a287_spacex_governance]: {% post_url 2026-07-30-spacex_history_governance %}
+[related_post_a288_spacex_portfolio_patience]: {% post_url 2026-07-31-spacex_history_portfolio_patience %}
+[related_post_a289_spacex_government_anchor_leg]: {% post_url 2026-08-01-spacex_history_government_anchor_leg %}
+[related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
+[related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [research_bebchuk_kastiel_2017]: https://www.virginialawreview.org/articles/untenable-case-perpetual-dual-class-stock/
 [research_binmore_rubinstein_wolinsky_1986]: https://www.jstor.org/stable/2555382
@@ -953,22 +1164,3 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
 [research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
 [research_zimmerman_2011]: https://openlibrary.org/search?q=Zimmerman+Economics+Satellite+Communications
-[related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-[related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
-[related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
-[related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
-[related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}
-[related_post_a164_patents_trade_secrets]: {% post_url 2026-05-06-patents_trade_secrets_and_the_disclosure_tradeoff %}
-[related_post_a167_startup_failure]: {% post_url 2026-05-09-why_startups_actually_fail %}
-[related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
-[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-23-contemporary_snapshot_and_extrapolation %}
-[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
-[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
-[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
-[related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
-[related_post_a285_spacex_decomposability]: {% post_url 2026-07-28-spacex_history_decomposability %}
-[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-29-spacex_history_generality_forcing %}
-[related_post_a287_spacex_governance]: {% post_url 2026-07-30-spacex_history_governance %}
-[related_post_a288_spacex_portfolio_patience]: {% post_url 2026-07-31-spacex_history_portfolio_patience %}
-[related_post_a289_spacex_government_anchor_leg]: {% post_url 2026-08-01-spacex_history_government_anchor_leg %}
