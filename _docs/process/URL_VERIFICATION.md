@@ -57,6 +57,7 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | Organisation for Economic Co-operation and Development | oecd.org | Bot-detection |
 | Justia | supreme.justia.com | Case-law host bot-detection |
 | ArianeGroup | arianegroup.com | Blocks curl outright with a connection failure |
+| European Corporate Governance Institute | ecgi.global | Returned 200 earlier in the same session and then refused connections; treat as intermittent bot-detection, observed 2026-08-04 |
 
 If a new 403 site appears during a publication, add it to this catalogue with one line of context.
 

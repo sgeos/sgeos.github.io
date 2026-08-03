@@ -53,7 +53,7 @@ The first commitment is descriptive-analytical framing rather than prescriptive 
 
 The second commitment is dual-register composition with both general-history and abstract-mechanic registers.
 
-The third commitment is primary-source anchoring, with the qualification that a synthesis article rests principally on the eleven preceding articles and their apparatus rather than on new primary research.
+The third commitment is primary-source anchoring, with the qualification that a synthesis article rests principally on the eleven preceding articles and their apparatus rather than on new primary research. The layers that apparatus comprises are worth naming once in one place, because no component article carries all of them. The agency and programme record is at [NASA history][ref_nasa_history], the [NASA commercial space office][ref_nasa_commercial_space], the [commercial space programmes][ref_nasa_commercial_space_programs], the [Commercial Resupply Services programme][ref_nasa_crs_program], the [Commercial Crew documents][ref_nasa_ccp_documents], the [Human Landing System programme][ref_nasa_hls_program], and the [International Space Station record][ref_nasa_iss], with the statutory basis at the [National Aeronautics and Space Act][ref_nasa_act_1958] and the [Space Act Agreement authority][ref_51_usc_51302_saa]. The oversight record is at the [Government Accountability Office][ref_gao_reports] and the [Congressional Research Service][ref_crs_reports], with the deliberative record at the [Congressional Record][ref_congressional_record] and the [House Science Committee hearings][ref_house_science_committee_hearings]. The contracting record is at [USAspending][ref_usaspending], the [Federal Procurement Data System][ref_fpds], and the [Department of Defense contract announcements][ref_dod_contracts]. The regulatory record is at the [Federal Communications Commission filing system][ref_fcc_filings], the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], and the [Office of Commercial Space Transportation][ref_faa_ast]. The securities and corporate record is at [Securities and Exchange Commission EDGAR][ref_sec_edgar], the [Delaware General Corporation Law][ref_dgcl], and the [Delaware Court of Chancery][ref_delaware_chancery]. The firm's own record is at the [SpaceX corporate record][ref_spacex_company] and the [news archive][ref_spacex_news_archive].
 
 The fourth commitment is contested-claim marking, which applies with unusual force to the projective sections, where every statement is conditional on assumptions the article states explicitly and cannot verify.
 
@@ -67,19 +67,19 @@ The seventh commitment is thesis-not-proof framing, which the closing article re
 
 The framework comprises seven forcing-function conditions and three capital-formation legs. The restatement below gives each condition, the article that developed it, and the finding the article reached, in a form that does not require the reader to have the component articles at hand.
 
-The value-gradient condition holds that a mission-directed venture requires a path along which intermediate progress is separately valuable rather than a binary outcome. The [Value Gradient article A282][related_post_a282_spacex_value_gradient] develops the vehicle progression and finds the condition satisfied by construction rather than by discovery.
+The value-gradient condition holds that a mission-directed venture requires a path along which intermediate progress is separately valuable rather than a binary outcome. The [Value Gradient article A282][related_post_a282_spacex_value_gradient] develops the vehicle progression and finds the condition satisfied by construction rather than by discovery. The vehicle record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], the [Falcon Heavy vehicle page][ref_spacex_falcon_heavy_vehicle], the [Starship programme][ref_spacex_starship_program], and the [first booster landing][ref_spacex_press_falcon9_first_landing_2015].
 
-The anchor-demand condition holds that a venture requires an identifiable customer buying an output at a scale sustaining development, rather than a speculative future market. The [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] develops the government customer and finds that the condition was satisfied at the moment of maximum distress and that its timing rather than its existence carried the explanatory weight.
+The anchor-demand condition holds that a venture requires an identifiable customer buying an output at a scale sustaining development, rather than a speculative future market. The [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] develops the government customer and finds that the condition was satisfied at the moment of maximum distress and that its timing rather than its existence carried the explanatory weight. The award record is at the [Commercial Resupply Services programme][ref_nasa_crs_program], the [Commercial Crew documents][ref_nasa_ccp_documents], the [Human Landing System programme][ref_nasa_hls_program], the [Space Force National Security Space Launch programme][ref_space_force_nssl], and the obligation-level detail at [USAspending][ref_usaspending] and the [Federal Procurement Data System][ref_fpds].
 
-The value-capture condition holds that a venture must retain a share of the value it creates rather than dissipating it to customers or suppliers. The [Value Capture article A284][related_post_a284_spacex_value_capture] develops the pricing and integration record and identifies control of complementary assets as the operative mechanism.
+The value-capture condition holds that a venture must retain a share of the value it creates rather than dissipating it to customers or suppliers. The [Value Capture article A284][related_post_a284_spacex_value_capture] develops the pricing and integration record and identifies control of complementary assets as the operative mechanism. The commercial record is at the [SpaceX news archive][ref_spacex_news_archive] and the sector reconstructions at [Space Capital][ref_space_capital] and [BryceTech][ref_bryce_tech].
 
 The decomposability condition holds that a development programme must divide into independently valuable stages. The [Decomposability article A285][related_post_a285_spacex_decomposability] develops the rung structure and finds that decomposability is a design choice rather than a property of the problem.
 
-The generality-forcing condition holds that a mission requirement must force capability that is general rather than idiosyncratic. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] develops the requirement structure and contrasts it against the union-construction failure mode that produced the negation cases.
+The generality-forcing condition holds that a mission requirement must force capability that is general rather than idiosyncratic. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] develops the requirement structure and contrasts it against the union-construction failure mode that produced the negation cases. The mission-architecture statements are at the [2017 International Astronautical Congress presentation][ref_musk_iac_2017] and the [Starship programme][ref_spacex_starship_program], and the acquisition regime that produced the contrasting cases is at [Federal Acquisition Regulation Part 15][ref_far_part_15] and [Part 16][ref_far_part_16].
 
-The governance condition holds that a venture must hold a control configuration resisting capital capture. The [Governance article A287][related_post_a287_spacex_governance] develops the control wedge and identifies successor commitment as the sub-property the configuration does not satisfy.
+The governance condition holds that a venture must hold a control configuration resisting capital capture. The [Governance article A287][related_post_a287_spacex_governance] develops the control wedge and identifies successor commitment as the sub-property the configuration does not satisfy. The corporate-law apparatus is at the [Delaware General Corporation Law][ref_dgcl], the [Court of Chancery][ref_delaware_chancery] and its [published opinions][ref_delaware_opinions], the [Delaware Division of Corporations][ref_delaware_division_corporations], and the [Texas Business Organizations Code][ref_texas_boc], with the institutional objection at the [Council of Institutional Investors dual-class policy][ref_cii_dual_class] and the proxy-adviser positions at [Institutional Shareholder Services][ref_iss_governance] and [Glass Lewis][ref_glass_lewis].
 
-The portfolio-patience condition holds that a venture must hold multiple lines reducing ruin probability rather than variance. The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] develops the five-line structure and finds that four of five lines share a vehicle family, so the portfolio supplies little protection against the failure mode that would matter most.
+The portfolio-patience condition holds that a venture must hold multiple lines reducing ruin probability rather than variance. The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] develops the five-line structure and finds that four of five lines share a vehicle family, so the portfolio supplies little protection against the failure mode that would matter most. The line record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], [Starlink][ref_spacex_starlink], [Starshield][ref_spacex_starshield], [human spaceflight][ref_spacex_human_spaceflight], and the [Starship programme][ref_spacex_starship_program], with the risk-transfer instruments at [Aon space insurance][ref_aon_space_insurance] and the [Lloyd's market][ref_lloyds_market].
 
 The seven conditions assemble into a vector whose components the component articles establish separately
 
@@ -97,7 +97,7 @@ The three capital-formation legs are the government-anchor leg the [Government-A
 
 $$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
 
-with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The sequence is not arbitrary and admits the compact ordering
+with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and admits the compact ordering
 
 $$t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}$$
 
@@ -211,7 +211,7 @@ $$\frac{\partial \, \text{consequence of a key-person event}}{\partial \, \text{
 
 with the concentration that satisfies condition six increasing the damage condition seven was supposed to limit. Conditions six and seven therefore interact adversely, and the framework as stated contains no place to record an adverse interaction between conditions it presents as jointly desirable. A framework of conjunctive conditions implicitly assumes the conditions are at worst neutral toward one another, and this pair is not.
 
-The succession question the [Governance article A287][related_post_a287_spacex_governance] identifies as the unsatisfied sub-property is therefore not one weakness among ten. It is the weakness through which the correlated failure of the others would propagate, and the closing article ranks it first among the failure modes below.
+The alternatives that would sever the dependency are ownership forms rather than governance provisions, and the instruments are documented at the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], the [Novo Nordisk Foundation][ref_novo_nordisk_foundation], and the supervisory regime the [Danish Business Authority][ref_danish_business_authority] administers. None has been adopted. The succession question the [Governance article A287][related_post_a287_spacex_governance] identifies as the unsatisfied sub-property is therefore not one weakness among ten. It is the weakness through which the correlated failure of the others would propagate, and the closing article ranks it first among the failure modes below.
 
 ## The Attention Bottleneck
 
@@ -355,7 +355,7 @@ with the assumptions rather than the arithmetic carrying the weight. The sensiti
 
 $$\sigma_i = \left| \frac{\partial X(2050)}{\partial A_i} \right| \qquad \text{with the reported assumption being} \qquad \arg\max_i \; \sigma_i$$
 
-with the largest term identifying where a reader who disagrees should direct the disagreement. The article states the assumption set for each projection and marks which assumption each projection is most sensitive to, which is the useful content of a projection exercise and is generally the part omitted.
+with the largest term identifying where a reader who disagrees should direct the disagreement. The article states the assumption set for each projection and marks which assumption each projection is most sensitive to, which is the useful content of a projection exercise and is generally the part omitted. The observable series against which any of these projections could later be checked are the launch and licensing record at the [Office of Commercial Space Transportation][ref_faa_ast], the authorization record at the [Federal Communications Commission filing system][ref_fcc_filings], the award record at [USAspending][ref_usaspending], and the sector reconstructions at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research]. A projection whose falsifying data are not identified is not falsifiable in practice, and the article identifies them.
 
 The projection horizon is deliberately long enough that the exercise is not a forecast. Twenty-four years exceeds the period the venture has existed. The horizon exceeds the venture's own age, admitting the compact comparison
 
@@ -375,13 +375,13 @@ Under those assumptions the trajectory continues to fall and the rate of fall de
 
 $$\dot{n}(t) \; \to \; \dot{n}^{\max} \qquad \text{with} \qquad \dot{n}^{\max} \; \text{set by} \; q^{\text{internal}} + q^{\text{external}}$$
 
-with the internal term the constellation replenishment the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] treats. The projection is most sensitive to the assumption that the learning exponent persists across a vehicle-family transition, admitting the compact contrast
+with the internal term the constellation replenishment the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] treats. The authorization record on which the revenue base depends is at the [initial authorization][ref_fcc_starlink_2018], the [second-generation authorization][ref_fcc_starlink_gen2_2022], the [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024], and the coordination regime at the [Radio Regulations][ref_itu_radio_regulations_2020], with the service record at [Starlink][ref_spacex_starlink], the [technology description][ref_starlink_technology], and the [first operational batch][ref_spacex_press_starlink_v0_9_2019]. The projection is most sensitive to the assumption that the learning exponent persists across a vehicle-family transition, admitting the compact contrast
 
 $$\beta^{\text{post-transition}} = \beta \quad \text{assumed} \qquad \text{against} \qquad n \to n_0 \; \text{reset at transition}$$
 
-with the second case flattening the trajectory for a period the article cannot estimate. The historical record contains no instance of a learning curve surviving such a transition unchanged. If the exponent resets at the transition, the trajectory flattens for a period whose length the article cannot estimate.
+with the second case flattening the trajectory for a period the article cannot estimate. The historical record contains no instance of a learning curve surviving such a transition unchanged. The flight and licensing record against which the projection would be checked is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], the [Starship programme][ref_spacex_starship_program], the [Office of Commercial Space Transportation][ref_faa_ast] with its [licensing regulations][ref_faa_ast_regulations] and the [Part 450 rule][ref_faa_ast_licensing_regs_450], and the environmental approvals at the [Starship programmatic assessment][ref_faa_starship_pea]. The technical reporting appears at [NASASpaceflight][ref_nasaspaceflight], [Ars Technica space coverage][ref_arstechnica_space], and [SpaceNews][ref_spacenews]. If the exponent resets at the transition, the trajectory flattens for a period whose length the article cannot estimate.
 
-The capability trajectory is more uncertain than the cost trajectory and the article says so. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] establishes that the requirement structure forces general capability, and general capability applied over twenty-four years produces applications the article cannot enumerate, which is the general-purpose-technology position that is simultaneously the strongest form of the case and the least testable claim in the series.
+The capability trajectory is more uncertain than the cost trajectory and the article says so. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] establishes that the requirement structure forces general capability, and general capability applied over twenty-four years produces applications the article cannot enumerate, which is the general-purpose-technology position that is simultaneously the strongest form of the case and the least testable claim in the series. The statutory and treaty environment within which any such applications would arise is at the [Commercial Space Launch Act][ref_csla_1984] and its [amendments][ref_csla_amendments_2004], the [current provisions][ref_uscsla_2015], the [export-control regime][ref_itar_22_cfr_120_130], and the [Outer Space Treaty][ref_un_outer_space_treaty_1967].
 
 ## Projection of the Revenue and Capital Position
 
@@ -401,7 +401,7 @@ The capital position projects more confidently than either component. If the cro
 
 $$R^{\text{free}}(t) \geq B(t) \quad \text{for all } t > t^{\ast} \qquad \Longrightarrow \qquad K^{\text{external}}(t) = 0$$
 
-with the external requirement vanishing once the crossover holds durably rather than momentarily. The article marks that this conclusion is conditional on a crossover date it cannot observe, and that a crossover which holds in favorable states and fails in adverse ones is precisely the pattern the independence-failure sections describe.
+with the external requirement vanishing once the crossover holds durably rather than momentarily. The article marks that this conclusion is conditional on a crossover date it cannot observe, and that a crossover which holds in favorable states and fails in adverse ones is precisely the pattern the independence-failure sections describe. The revenue reconstructions on which any assessment rests are at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], [Payload Research][ref_payload_research], and [PitchBook][ref_pitchbook], with the reported company statements at [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], and the [Wall Street Journal][ref_wsj].
 
 ## Projection of the Governance and Succession Position
 
@@ -413,7 +413,9 @@ $$P\!\left( \text{succession event occurs before } 2050 \right) \; \to \; 1$$
 
 since the horizon exceeds any reasonable expectation of continuous individual involvement. The succession event is therefore the only failure mode in the entire series whose probability is not a matter of judgement.
 
-The available resolutions are the ones the historical precedents supply. The foundation-ownership form solves the problem outright at the cost of surrendering capital ownership, and the article notes that it has not been adopted and that adopting it becomes harder as the enterprise value rises. The dual-class inheritance form transfers votes to heirs and carries the base rate the mass-production precedent supplies, which is unfavorable. The listing-and-dispersal form abandons the governance condition entirely, and its consequence for the framework admits the compact statement
+The available resolutions are the ones the historical precedents supply. The foundation-ownership form solves the problem outright at the cost of surrendering capital ownership, and the article notes that it has not been adopted and that adopting it becomes harder as the enterprise value rises. The dual-class inheritance form transfers votes to heirs and carries the base rate the mass-production precedent supplies, which is unfavorable. The foundation route would operate under statutes of the kind the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings] exemplify. The listing route would place the firm inside the regime comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual], the [Nasdaq listing rules][ref_nasdaq_listing_rules], [Regulation S-K][ref_sec_regulation_sk], the [Sarbanes-Oxley Act][ref_sarbanes_oxley_2002], the shareholder-proposal channel at [Rule 14a-8][ref_rule_14a8], and the index methodologies at [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji], with the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012]. The comparative regimes at the [United Kingdom Companies Act 2006][ref_uk_companies_act_2006], the German [Aktiengesetz][ref_german_aktiengesetz], and the [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive] would each constrain the choice differently, and the governance scholarship at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum] surveys the arguments.
+
+The listing-and-dispersal form abandons the governance condition entirely, and its consequence for the framework admits the compact statement
 
 $$\phi^{\text{governance}} = 0 \; \Longrightarrow \; \Phi = 0$$
 
@@ -447,9 +449,9 @@ The second is a vehicle-family grounding, which the [Portfolio Patience article 
 
 $$R^{\text{subscription}} \; > \; C^{\text{fixed}} \quad \text{during the grounding} \; \Longrightarrow \; T^{\text{runway}} \to \infty$$
 
-with the runway unbounded so long as the surviving revenue covers the fixed cost. The article's assessment is that this failure mode is survivable but would consume the capital position the third leg produces.
+with the runway unbounded so long as the surviving revenue covers the fixed cost. The grounding and return-to-flight precedents are documented in the [Columbia Accident Investigation Board report][ref_caib_report_2003] and the [Rogers Commission report][ref_rogers_commission_1986], and the risk-transfer instruments at [Aon space insurance][ref_aon_space_insurance] and the [Lloyd's market][ref_lloyds_market] do not cover consequential or programme loss. The article's assessment is that this failure mode is survivable but would consume the capital position the third leg produces.
 
-The third is a regulatory or geopolitical reversal affecting the jurisdictional access on which the constellation revenue depends. The [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] identifies this as the channel through which the operational constraint the third leg installs would first bind, and the article notes that the risk is diplomatic rather than technical or competitive and is therefore outside the venture's control in a way the other failure modes are not.
+The third is a regulatory or geopolitical reversal affecting the jurisdictional access on which the constellation revenue depends. The [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] identifies this as the channel through which the operational constraint the third leg installs would first bind, and the article notes that the risk is diplomatic rather than technical or competitive and is therefore outside the venture's control in a way the other failure modes are not. The instruments through which such a reversal would operate are the per-jurisdiction authorizations the [Radio Regulations][ref_itu_radio_regulations_2020] coordinate, the domestic proceedings at the [Federal Communications Commission filing system][ref_fcc_filings], the [export-control regime][ref_itar_22_cfr_120_130], and the state responsibility the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976] establish.
 
 The fourth is competitive erosion of the constellation position, which the durability relation suggests is structurally available but which no contemporaneous competitor has demonstrated the capacity to execute.
 
@@ -462,6 +464,18 @@ with the fifth manifesting as a gradual change in decision latency that no exter
 ## Historiographical Gap and Recent Scholarship
 
 The scholarly literature bearing on a synthesis of this kind is the union of the literatures the eleven component articles survey, and the gap the closing article identifies is specific and different from theirs.
+
+### Primary Source Documentation Across the Series
+
+The primary record the series rests upon is strongest on regulation and government contracting and weakest on private financing, and the closing article states the asymmetry in one place because it determines which of the series' claims are well supported.
+
+The regulatory layer is complete and authoritative. It comprises the [Federal Communications Commission filing system][ref_fcc_filings] with the [initial][ref_fcc_starlink_2018], [second-generation][ref_fcc_starlink_gen2_2022], and [direct-to-cell][ref_fcc_direct_to_cell_2024] authorizations, the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], the [Office of Commercial Space Transportation][ref_faa_ast] with its [regulations][ref_faa_ast_regulations], [Part 450 rule][ref_faa_ast_licensing_regs_450], and [financial responsibility regime][ref_faa_financial_responsibility], the statutory chain at the [Commercial Space Launch Act][ref_csla_1984], its [amendments][ref_csla_amendments_2004], and the [current provisions][ref_uscsla_2015], the agency authority at [Title 51 Section 20113][ref_51_usc_20113], the [export-control regime][ref_itar_22_cfr_120_130], the debris regime at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], and the treaty framework at the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976].
+
+The government-contracting layer is substantially complete. It comprises the programme records at [NASA history][ref_nasa_history], the [commercial space office][ref_nasa_commercial_space], the [Commercial Resupply Services programme][ref_nasa_crs_program], the [Commercial Crew documents][ref_nasa_ccp_documents], the [Human Landing System programme][ref_nasa_hls_program], and the [Space Force National Security Space Launch programme][ref_space_force_nssl], the instrument authorities at [Title 51 Section 51302][ref_51_usc_51302_saa] and [10 United States Code 2371b][ref_10_usc_2371b] with the [Department of Defense other-transaction guidance][ref_dod_other_transactions], the acquisition regime at [Federal Acquisition Regulation Part 12][ref_far_part_12], [Part 15][ref_far_part_15], and [Part 16][ref_far_part_16], the oversight record at the [Government Accountability Office][ref_gao_reports] including the [COTS review][ref_gao_cots_2011] and the [National Security Space Launch review][ref_gao_nssl_2023], and the obligation-level data at [USAspending][ref_usaspending], the [Federal Procurement Data System][ref_fpds], and the [Department of Defense contract announcements][ref_dod_contracts].
+
+The securities and corporate layer establishes the legal framework and almost nothing about the particular transactions. It comprises the exemption regime at the [Securities Act private-placement exemption][ref_securities_act_4a2], [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], [Rule 701][ref_rule_701], and [Rule 144][ref_rule_144], the tender provisions at [Rule 13e-4][ref_rule_13e4] and [Regulation 14E][ref_reg_14e], the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012], the disclosure regime at [Regulation S-K][ref_sec_regulation_sk] and the post-crisis statutes at [Sarbanes-Oxley][ref_sarbanes_oxley_2002] and [Dodd-Frank][ref_dodd_frank_2010], the beneficial-ownership channel at [Schedule 13D][ref_schedule_13d], the entity law at the [Delaware General Corporation Law][ref_dgcl], the [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act], and the [Texas Business Organizations Code][ref_texas_boc], the fund regime at the [Investment Company Act][ref_investment_company_act] and [Investment Advisers Act][ref_investment_advisers_act] with the limited-partner standards at the [Institutional Limited Partners Association][ref_ilpa] and the industry structures at the [National Venture Capital Association][ref_nvca], and the filing record at [Securities and Exchange Commission EDGAR][ref_sec_edgar] and the [Form D notices][ref_sec_form_d].
+
+The reconstruction layer supplies substantially every quantitative claim in the series and is the weakest. It comprises [SpaceNews][ref_spacenews], [Ars Technica space coverage][ref_arstechnica_space], [Payload][ref_payload], [Payload Research][ref_payload_research], [The Space Review][ref_the_space_review], [NASASpaceflight][ref_nasaspaceflight], [Space Policy Online][ref_space_policy_online], [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], the [Wall Street Journal][ref_wsj], and the benchmark data at [Cambridge Associates][ref_cambridge_associates] and [PitchBook][ref_pitchbook], with the teaching-case reconstructions at [Stanford][ref_stanford_spacex_case], [Harvard Business School][ref_hbs_spacex_case], and [Wharton][ref_wharton_spacex_case] and the working-paper record at [SSRN][ref_ssrn].
 
 ### The Absent Comparative Literature
 
@@ -525,13 +539,15 @@ with the rarest conditions being the ones the advocacy literature treats as the 
 
 $$\Phi^{\text{matrix}} = \left[ \phi_{j,k} \right]_{j \in J, \; k = 1 \ldots 10} \qquad \text{with} \qquad \sum_k \phi_{\text{subject},k} = 10 \; \text{and} \; \sum_k \phi_{j,k} \leq 7 \; \text{otherwise}$$
 
-with the row sums rather than any individual cell carrying the comparative claim.
+with the row sums rather than any individual cell carrying the comparative claim. The data behind the rows are the regulatory and contracting records the preceding sections identify for the subject, the [Eutelsat][ref_eutelsat_oneweb] and [OneWeb][ref_oneweb] corporate records and the [Chapter 11][ref_bankruptcy_code_ch11] proceedings at the [United States bankruptcy courts][ref_uscourts_bankruptcy] for the failed constellation cases, the [Iridium filing][ref_iridium_chapter_11_1999] lodged with [EDGAR][ref_sec_edgar] for the earlier one, and the sector compilations at [Space Capital][ref_space_capital] and [BryceTech][ref_bryce_tech] for the remainder.
 
 ## Data Sources and Reconstruction Methodology
 
 The closing article rests on the eleven component articles and their apparatus rather than on new primary research, and its evidentiary position is therefore the union of theirs with the additional weakness that a synthesis inherits every uncertainty in its components.
 
 The strongest evidentiary layers across the series are the regulatory record, which is public and complete, and the government contracting record, which is public and substantially complete. The weakest are the private financing terms, which are entirely unavailable, and the internal transfer prices and capacity-allocation rules, which are unavailable and which several component articles identify as the quantities their arguments most depend upon.
+
+The layers are enumerated in the Historiographical Gap section above rather than repeated here. The asymmetry between them is the series' central evidentiary fact and admits blunt statement. Claims about what the government bought, on what instrument, and under what regulatory authority are well supported and checkable by any reader through [USAspending][ref_usaspending], the [Federal Procurement Data System][ref_fpds], the [Government Accountability Office][ref_gao_reports], and the [Federal Communications Commission filing system][ref_fcc_filings]. Claims about what private investors paid, on what terms, and with what protective provisions are not supported at all, because the [Form D notices][ref_sec_form_d] establish existence and approximate size and nothing further, and the [Securities and Exchange Commission investor education service][ref_sec_investor_gov] describes a disclosure regime that does not reach a private issuer.
 
 The projective sections rest on assumptions rather than on evidence and are labelled as such throughout. The article states that a reader who rejects any stated assumption should reject the corresponding projection and that no projection in this article should be read as a forecast.
 
@@ -676,32 +692,156 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 
 ### Reference
 
+- [10 United States Code 2371b Other Transaction Authority][ref_10_usc_2371b]
+- [14 CFR Chapter III FAA Commercial Space Regulations][ref_faa_ast_regulations]
+- [14 CFR Part 450 Launch and Reentry Licensing][ref_faa_ast_licensing_regs_450]
 - [1956 AT&T Consent Decree][ref_att_consent_decree_1956]
 - [1984 AT&T Divestiture Modification of Final Judgment][ref_att_divestiture_1984]
+- [22 CFR 120 through 130 International Traffic in Arms Regulations][ref_itar_22_cfr_120_130]
+- [51 U.S.C. Chapter 509 Commercial Space Launch Act 1984][ref_csla_1984]
 - [8VC][ref_8vc]
 - [Andreessen Horowitz American Dynamism][ref_a16z_american_dynamism]
 - [Anduril Corporate Record][ref_anduril]
 - [Anthropic Long-Term Benefit Trust][ref_anthropic_ltbt]
+- [Aon Space and Aviation Risk Brokerage][ref_aon_space_insurance]
 - [ArianeGroup Press Releases][ref_arianegroup_press]
 - [Arianespace][ref_arianespace]
+- [Ars Technica Space Coverage][ref_arstechnica_space]
+- [Bloomberg Business News][ref_bloomberg]
 - [Blue Origin Press Releases][ref_blue_origin_press]
 - [Boeing Historical Archives][ref_boeing_historical_archives]
+- [BryceTech Sector Reports][ref_bryce_tech]
+- [Cambridge Associates Benchmark Data][ref_cambridge_associates]
 - [Carl Zeiss Stiftung Statute][ref_carl_zeiss_stiftung]
 - [Chinese Space Program Documentation][ref_chinese_space_program]
+- [Columbia Accident Investigation Board Report 2003][ref_caib_report_2003]
+- [Commercial Space Authority 51 USC 51302][ref_51_usc_51302_saa]
+- [Commercial Space Launch Amendments Act 2004][ref_csla_amendments_2004]
+- [Congressional Record][ref_congressional_record]
+- [Congressional Research Service Reports Database][ref_crs_reports]
+- [Council of Institutional Investors Dual-Class Policy][ref_cii_dual_class]
+- [Danish Business Authority][ref_danish_business_authority]
+- [Delaware Court of Chancery][ref_delaware_chancery]
+- [Delaware Courts Published Opinions][ref_delaware_opinions]
+- [Delaware Division of Corporations][ref_delaware_division_corporations]
+- [Delaware General Corporation Law Title 8 Chapter 1][ref_dgcl]
+- [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act]
+- [Department of Defense Other Transaction Guidance][ref_dod_other_transactions]
+- [DOD Contract Announcements][ref_dod_contracts]
+- [Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010][ref_dodd_frank_2010]
+- [European Corporate Governance Institute][ref_ecgi]
+- [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive]
+- [Eutelsat Corporate Record][ref_eutelsat_oneweb]
+- [FAA Financial Responsibility Requirements 14 CFR Part 440][ref_faa_financial_responsibility]
+- [FAA Office of Commercial Space Transportation][ref_faa_ast]
+- [FAA Starship Programmatic Environmental Assessment][ref_faa_starship_pea]
+- [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
+- [FCC Filings Database][ref_fcc_filings]
+- [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
+- [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
+- [Federal Acquisition Regulation Part 12 Acquisition of Commercial Products][ref_far_part_12]
+- [Federal Acquisition Regulation Part 15 Contracting by Negotiation][ref_far_part_15]
+- [Federal Acquisition Regulation Part 16 Types of Contracts][ref_far_part_16]
+- [Federal Procurement Data System][ref_fpds]
 - [Ford Investor Relations][ref_ford_ir]
 - [Founders Fund][ref_founders_fund]
+- [FTSE Russell][ref_ftse_russell]
+- [GAO 2011 Commercial Cargo Programme Evaluation][ref_gao_cots_2011]
+- [GAO 2023 National Security Space Launch Evaluation][ref_gao_nssl_2023]
+- [GAO Reports and Testimonies Database][ref_gao_reports]
+- [German Aktiengesetz Stock Corporation Act][ref_german_aktiengesetz]
+- [Glass Lewis Proxy Voting Guidelines][ref_glass_lewis]
+- [Harvard Business School SpaceX Case][ref_hbs_spacex_case]
+- [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum]
+- [House Committee on Science Space and Technology Hearings on Commercial Crew][ref_house_science_committee_hearings]
+- [Institutional Limited Partners Association][ref_ilpa]
+- [Institutional Shareholder Services Governance][ref_iss_governance]
+- [Inter-Agency Space Debris Coordination Committee][ref_iadc_guidelines]
+- [Investment Advisers Act Section 203 Registration][ref_investment_advisers_act]
+- [Investment Company Act Section 3 Definition of Investment Company][ref_investment_company_act]
+- [Iridium Chapter 11 Bankruptcy Filing 1999][ref_iridium_chapter_11_1999]
+- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
+- [Jumpstart Our Business Startups Act of 2012][ref_jobs_act_2012]
+- [Lloyd's of London Market][ref_lloyds_market]
 - [Lux Capital][ref_lux_capital]
 - [Microsoft News Record][ref_microsoft_news]
+- [Musk 2017 International Astronautical Congress Making Life Multi-Planetary][ref_musk_iac_2017]
+- [NASA Commercial Crew Program Documentation][ref_nasa_ccp_documents]
+- [NASA Commercial Resupply Services Program][ref_nasa_crs_program]
+- [NASA Commercial Space Office][ref_nasa_commercial_space]
+- [NASA Commercial Space Programs][ref_nasa_commercial_space_programs]
+- [NASA History Archives][ref_nasa_history]
+- [NASA Human Landing System Program Documentation][ref_nasa_hls_program]
+- [NASA International Space Station Documentation][ref_nasa_iss]
+- [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
+- [NASA Orbital Debris Program Office][ref_nasa_orbital_debris]
+- [NASASpaceflight Coverage][ref_nasaspaceflight]
+- [Nasdaq Listing Rules][ref_nasdaq_listing_rules]
+- [National Aeronautics and Space Act of 1958][ref_nasa_act_1958]
+- [National Venture Capital Association][ref_nvca]
+- [New York Times][ref_nyt]
 - [Novo Holdings][ref_novo_holdings]
 - [Novo Nordisk Foundation][ref_novo_nordisk_foundation]
+- [NYSE Listed Company Manual][ref_nyse_listed_company_manual]
+- [OneWeb Corporate Record][ref_oneweb]
 - [OpenAI Charter][ref_openai_charter]
 - [OpenAI News Record][ref_openai_news]
 - [Palantir Investor Materials][ref_palantir_ir]
+- [Payload Newsletter][ref_payload]
+- [Payload Research][ref_payload_research]
+- [PitchBook Transaction Data][ref_pitchbook]
 - [Robert Bosch Stiftung][ref_bosch_stiftung]
 - [Rocket Lab Press Releases][ref_rocket_lab_press]
+- [Rogers Commission Report 1986][ref_rogers_commission_1986]
+- [S&P Dow Jones Indices][ref_spdji]
+- [Sarbanes-Oxley Act of 2002][ref_sarbanes_oxley_2002]
+- [SEC EDGAR Company Search][ref_sec_edgar]
+- [SEC Form D Exempt Offering Notices][ref_sec_form_d]
+- [SEC Investor Education Materials][ref_sec_investor_gov]
+- [SEC Regulation 14E Tender Offer Requirements][ref_reg_14e]
+- [SEC Regulation D and Securities Act Rules 17 CFR Part 230][ref_reg_d]
+- [SEC Regulation S-K Disclosure Requirements][ref_sec_regulation_sk]
+- [SEC Rule 13e-4 Issuer Tender Offers][ref_rule_13e4]
+- [SEC Rule 144 Resale of Restricted Securities][ref_rule_144]
+- [SEC Rule 14a-8 Shareholder Proposals][ref_rule_14a8]
+- [SEC Rule 506 Private Placement Safe Harbor][ref_rule_506]
+- [SEC Rule 701 Compensatory Benefit Plan Exemption][ref_rule_701]
+- [SEC Schedule 13D Beneficial Ownership Reporting][ref_schedule_13d]
+- [Securities Act Section 4 Exempted Transactions][ref_securities_act_4a2]
+- [Securities Exchange Act Section 12 Registration Requirements][ref_exchange_act_12g]
 - [Shield Capital][ref_shield_capital]
+- [Social Science Research Network][ref_ssrn]
+- [Space Act Agreement Authority 51 USC 20113][ref_51_usc_20113]
+- [Space Capital Quarterly Reports][ref_space_capital]
+- [Space Force National Security Space Launch][ref_space_force_nssl]
+- [Space Policy Online][ref_space_policy_online]
+- [SpaceNews][ref_spacenews]
+- [SpaceX Corporate Site][ref_spacex_company]
+- [SpaceX Falcon 9 Vehicle Documentation][ref_spacex_falcon9_vehicle]
+- [SpaceX Falcon Heavy Vehicle Documentation][ref_spacex_falcon_heavy_vehicle]
+- [SpaceX Human Spaceflight][ref_spacex_human_spaceflight]
+- [SpaceX News Archive][ref_spacex_news_archive]
+- [SpaceX Press Release Falcon 9 First Landing December 2015][ref_spacex_press_falcon9_first_landing_2015]
+- [SpaceX Press Release Starlink First 60 Operational Satellites May 2019][ref_spacex_press_starlink_v0_9_2019]
+- [SpaceX Starlink Program Page][ref_spacex_starlink]
+- [SpaceX Starshield Product Page][ref_spacex_starshield]
+- [SpaceX Starship Program Page][ref_spacex_starship_program]
 - [Standard Oil Dissolution Supreme Court Decision 1911][ref_standard_oil_1911]
+- [Stanford Graduate School of Business SpaceX Case][ref_stanford_spacex_case]
+- [Starlink Technology][ref_starlink_technology]
+- [Texas Business Organizations Code][ref_texas_boc]
+- [The Space Review][ref_the_space_review]
+- [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
+- [United Kingdom Companies Act 2006][ref_uk_companies_act_2006]
 - [United Launch Alliance Press Releases][ref_ula_press]
+- [United Nations Liability Convention 1972][ref_un_liability_convention_1972]
+- [United Nations Outer Space Treaty 1967][ref_un_outer_space_treaty_1967]
+- [United Nations Registration Convention 1976][ref_un_registration_convention_1976]
+- [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11]
+- [United States Bankruptcy Courts][ref_uscourts_bankruptcy]
+- [USAspending Federal Award Data][ref_usaspending]
+- [Wall Street Journal][ref_wsj]
+- [Wharton SpaceX Case][ref_wharton_spacex_case]
 
 ### Research
 
@@ -784,32 +924,156 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
+[ref_10_usc_2371b]: https://www.law.cornell.edu/uscode/text/10/2371b
+[ref_51_usc_20113]: https://www.law.cornell.edu/uscode/text/51/20113
+[ref_51_usc_51302_saa]: https://www.law.cornell.edu/uscode/text/51/51302
 [ref_8vc]: https://www.8vc.com/
 [ref_a16z_american_dynamism]: https://a16z.com/american-dynamism/
 [ref_anduril]: https://www.anduril.com/
 [ref_anthropic_ltbt]: https://www.anthropic.com/news/the-long-term-benefit-trust
+[ref_aon_space_insurance]: https://www.aon.com/
 [ref_arianegroup_press]: https://www.arianegroup.com/en/news/press-releases/
 [ref_arianespace]: https://www.arianespace.com/
+[ref_arstechnica_space]: https://arstechnica.com/science/space/
 [ref_att_consent_decree_1956]: https://www.corp.att.com/history/nethistory/consent-decree.html
 [ref_att_divestiture_1984]: https://www.corp.att.com/history/nethistory/divestiture.html
+[ref_bankruptcy_code_ch11]: https://www.law.cornell.edu/uscode/text/11/chapter-11
+[ref_bloomberg]: https://www.bloomberg.com/
 [ref_blue_origin_press]: https://www.blueorigin.com/news/
 [ref_boeing_historical_archives]: https://www.boeing.com/history/
 [ref_bosch_stiftung]: https://www.bosch-stiftung.de/en
+[ref_bryce_tech]: https://brycetech.com/reports
+[ref_caib_report_2003]: https://www.govinfo.gov/app/details/GPO-CAIB
+[ref_cambridge_associates]: https://www.cambridgeassociates.com/
 [ref_carl_zeiss_stiftung]: https://www.carl-zeiss-stiftung.de/en/
 [ref_chinese_space_program]: https://www.cnsa.gov.cn/english/
+[ref_cii_dual_class]: https://www.cii.org/dualclass_stock
+[ref_congressional_record]: https://www.congress.gov/congressional-record
+[ref_crs_reports]: https://crsreports.congress.gov/
+[ref_csla_1984]: https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509
+[ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
+[ref_danish_business_authority]: https://danishbusinessauthority.dk/
+[ref_delaware_chancery]: https://courts.delaware.gov/chancery/
+[ref_delaware_division_corporations]: https://corp.delaware.gov/
+[ref_delaware_lp_act]: https://delcode.delaware.gov/title6/c017/
+[ref_delaware_opinions]: https://courts.delaware.gov/opinions/
+[ref_dgcl]: https://delcode.delaware.gov/title8/c001/
+[ref_dod_contracts]: https://www.defense.gov/News/Contracts/
+[ref_dod_other_transactions]: https://aida.mitre.org/ota/
+[ref_dodd_frank_2010]: https://www.congress.gov/111/plaws/publ203/PLAW-111publ203.pdf
+[ref_ecgi]: https://www.ecgi.global/
+[ref_eu_shareholder_rights_directive]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017L0828
+[ref_eutelsat_oneweb]: https://www.eutelsat.com/
+[ref_exchange_act_12g]: https://www.law.cornell.edu/uscode/text/15/78l
+[ref_faa_ast]: https://www.faa.gov/space
+[ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
+[ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
+[ref_faa_financial_responsibility]: https://www.ecfr.gov/current/title-14/part-440
+[ref_faa_starship_pea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
+[ref_far_part_12]: https://www.acquisition.gov/far/part-12
+[ref_far_part_15]: https://www.acquisition.gov/far/part-15
+[ref_far_part_16]: https://www.acquisition.gov/far/part-16
+[ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
+[ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
+[ref_fcc_starlink_2018]: https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf
+[ref_fcc_starlink_gen2_2022]: https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf
 [ref_ford_ir]: https://shareholder.ford.com/
 [ref_founders_fund]: https://foundersfund.com/
+[ref_fpds]: https://www.fpds.gov/
+[ref_ftse_russell]: https://www.lseg.com/en/ftse-russell
+[ref_gao_cots_2011]: https://www.gao.gov/products/gao-11-692t
+[ref_gao_nssl_2023]: https://www.gao.gov/products/gao-23-105815
+[ref_gao_reports]: https://www.gao.gov/reports-testimonies
+[ref_german_aktiengesetz]: https://www.gesetze-im-internet.de/aktg/
+[ref_glass_lewis]: https://www.glasslewis.com/
+[ref_harvard_corpgov_forum]: https://corpgov.law.harvard.edu/
+[ref_hbs_spacex_case]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
+[ref_house_science_committee_hearings]: https://science.house.gov/
+[ref_iadc_guidelines]: https://www.iadc-home.org/
+[ref_ilpa]: https://ilpa.org/
+[ref_investment_advisers_act]: https://www.law.cornell.edu/uscode/text/15/80b-3
+[ref_investment_company_act]: https://www.law.cornell.edu/uscode/text/15/80a-3
+[ref_iridium_chapter_11_1999]: https://www.sec.gov/Archives/edgar/data/1029074/0000912057-99-034228.txt
+[ref_iss_governance]: https://www.issgovernance.com/
+[ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
+[ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
+[ref_jobs_act_2012]: https://www.congress.gov/112/plaws/publ106/PLAW-112publ106.pdf
+[ref_lloyds_market]: https://www.lloyds.com/
 [ref_lux_capital]: https://www.luxcapital.com/
 [ref_microsoft_news]: https://news.microsoft.com/
+[ref_musk_iac_2017]: https://arc.aiaa.org/doi/10.1089/space.2018.29013.emu
+[ref_nasa_act_1958]: https://history.nasa.gov/spaceact.html
+[ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
+[ref_nasa_commercial_space]: https://www.nasa.gov/commercial-space/
+[ref_nasa_commercial_space_programs]: https://www.nasa.gov/humans-in-space/commercial-space/
+[ref_nasa_crs_program]: https://www.nasa.gov/international-space-station/commercial-resupply/
+[ref_nasa_history]: https://history.nasa.gov/
+[ref_nasa_hls_program]: https://www.nasa.gov/humans-in-space/human-landing-system/
+[ref_nasa_iss]: https://www.nasa.gov/international-space-station/
+[ref_nasa_orbital_debris]: https://orbitaldebris.jsc.nasa.gov/
+[ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/mitigation/
+[ref_nasaspaceflight]: https://www.nasaspaceflight.com/
+[ref_nasdaq_listing_rules]: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules
 [ref_novo_holdings]: https://www.novoholdings.dk/
 [ref_novo_nordisk_foundation]: https://novonordiskfonden.dk/en/
+[ref_nvca]: https://nvca.org/
+[ref_nyse_listed_company_manual]: https://nyseguide.srorules.com/listed-company-manual
+[ref_nyt]: https://www.nytimes.com/section/science/space
+[ref_oneweb]: https://oneweb.net/
 [ref_openai_charter]: https://openai.com/charter/
 [ref_openai_news]: https://openai.com/news/
 [ref_palantir_ir]: https://investors.palantir.com/
+[ref_payload]: https://payloadspace.com/
+[ref_payload_research]: https://payloadspace.com/research/
+[ref_pitchbook]: https://pitchbook.com/
+[ref_reg_14e]: https://www.ecfr.gov/current/title-17/section-240.14e-1
+[ref_reg_d]: https://www.ecfr.gov/current/title-17/part-230
 [ref_rocket_lab_press]: https://www.rocketlabusa.com/updates/
+[ref_rogers_commission_1986]: https://history.nasa.gov/rogersrep/genindex.htm
+[ref_rule_13e4]: https://www.ecfr.gov/current/title-17/section-240.13e-4
+[ref_rule_144]: https://www.ecfr.gov/current/title-17/section-230.144
+[ref_rule_14a8]: https://www.ecfr.gov/current/title-17/section-240.14a-8
+[ref_rule_506]: https://www.ecfr.gov/current/title-17/section-230.506
+[ref_rule_701]: https://www.ecfr.gov/current/title-17/section-230.701
+[ref_sarbanes_oxley_2002]: https://www.congress.gov/107/plaws/publ204/PLAW-107publ204.pdf
+[ref_schedule_13d]: https://www.ecfr.gov/current/title-17/section-240.13d-101
+[ref_sec_edgar]: https://www.sec.gov/edgar/searchedgar/companysearch
+[ref_sec_form_d]: https://www.sec.gov/answers/formd.htm
+[ref_sec_investor_gov]: https://www.investor.gov/
+[ref_sec_regulation_sk]: https://www.ecfr.gov/current/title-17/part-229
+[ref_securities_act_4a2]: https://www.law.cornell.edu/uscode/text/15/77d
 [ref_shield_capital]: https://www.shieldcap.com/
+[ref_space_capital]: https://www.spacecapital.com/
+[ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
+[ref_space_policy_online]: https://spacepolicyonline.com/
+[ref_spacenews]: https://spacenews.com/
+[ref_spacex_company]: https://www.spacex.com/
+[ref_spacex_falcon9_vehicle]: https://www.spacex.com/vehicles/falcon-9/
+[ref_spacex_falcon_heavy_vehicle]: https://www.spacex.com/vehicles/falcon-heavy/
+[ref_spacex_human_spaceflight]: https://www.spacex.com/humanspaceflight/
+[ref_spacex_news_archive]: https://www.spacex.com/updates/
+[ref_spacex_press_falcon9_first_landing_2015]: https://www.spacex.com/news/2015/12/22/orbcomm-2-mission-successful-first-landing-orbital-rocket
+[ref_spacex_press_starlink_v0_9_2019]: https://www.spacex.com/updates/
+[ref_spacex_starlink]: https://www.starlink.com/
+[ref_spacex_starshield]: https://www.spacex.com/starshield/
+[ref_spacex_starship_program]: https://www.spacex.com/vehicles/starship/
+[ref_spdji]: https://www.spglobal.com/spdji/en/
+[ref_ssrn]: https://www.ssrn.com/
 [ref_standard_oil_1911]: https://supreme.justia.com/cases/federal/us/221/1/
+[ref_stanford_spacex_case]: https://www.gsb.stanford.edu/faculty-research/case-studies
+[ref_starlink_technology]: https://www.starlink.com/technology
+[ref_texas_boc]: https://statutes.capitol.texas.gov/Docs/BO/htm/BO.21.htm
+[ref_the_space_review]: https://www.thespacereview.com/
+[ref_uk_companies_act_2006]: https://www.legislation.gov.uk/ukpga/2006/46/contents
 [ref_ula_press]: https://www.ulalaunch.com/about/news
+[ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
+[ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
+[ref_un_registration_convention_1976]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html
+[ref_usaspending]: https://www.usaspending.gov/
+[ref_uscourts_bankruptcy]: https://www.uscourts.gov/court-programs/bankruptcy
+[ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
+[ref_wharton_spacex_case]: https://knowledge.wharton.upenn.edu/
+[ref_wsj]: https://www.wsj.com/tech
 [related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
 [related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}
 [related_post_a167_startup_failure]: {% post_url 2026-05-09-why_startups_actually_fail %}
