@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Synthesis, the Independence Assumption, and Projection through 2050"
-date:   2026-08-04 09:00:00 +0000
+title: "History of SpaceX: Synthesis, the Independence Assumption, and Projection through 2050"
+date: 2026-08-04 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -1135,26 +1135,26 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - [A290 History of SpaceX The Patient-Private Capital-Formation Leg and the Manufacture of Patience][related_post_a290_spacex_patient_private_leg]
 - [A291 History of SpaceX The Category-Dominating Commercial Spinoff and the Internalization of Anchor Demand][related_post_a291_spacex_category_dominating_spinoff]
 
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
 [book_berle_means_1932]: https://www.routledge.com/The-Modern-Corporation-and-Private-Property/Berle-Means/p/book/9780887388873
 [book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
 [book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
-[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
 [book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
-[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan+Rockefeller
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
 [book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
 [book_devries_vanderwoude_1997]: https://www.cambridge.org/9780521578257
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_easterbrook_fischel_1991]: https://www.hup.harvard.edu/books/9780674235397
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
@@ -1222,11 +1222,11 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 [book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
 [book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
 [book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+Asian+Trade+Revolution
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+The+Asian+Trade+Revolution+of+the+Seventeenth+Century
 [book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
 [book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
 [book_thiel_2014]: https://www.penguinrandomhouse.com/books/226845/zero-to-one-by-peter-thiel-with-blake-masters/
@@ -1238,7 +1238,7 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
 [book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch

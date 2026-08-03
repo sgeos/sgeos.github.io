@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: The Category-Dominating Commercial Spinoff and the Internalization of Anchor Demand"
-date:   2026-08-03 09:00:00 +0000
+title: "History of SpaceX: The Category-Dominating Commercial Spinoff and the Internalization of Anchor Demand"
+date: 2026-08-03 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -1096,7 +1096,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [A289 History of SpaceX The Government-Anchor Capital-Formation Leg and Non-Dilutive Development Finance][related_post_a289_spacex_government_anchor_leg]
 - [A290 History of SpaceX The Patient-Private Capital-Formation Leg and the Manufacture of Patience][related_post_a290_spacex_patient_private_leg]
 
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
 [book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
@@ -1105,12 +1105,12 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_berle_means_1932]: https://www.routledge.com/The-Modern-Corporation-and-Private-Property/Berle-Means/p/book/9780887388873
 [book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
 [book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
-[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
 [book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
-[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan+Rockefeller
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
@@ -1148,7 +1148,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_mackenzie_1990]: https://mitpress.mit.edu/9780262631471/inventing-accuracy/
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
-[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+McMillan+Incentives+in+Government+Contracting
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+and+McMillan+Incentives+in+Government+Contracting
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
@@ -1175,12 +1175,12 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
 [book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
 [book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_sobel_1995]: https://www.bloomsbury.com/us/longitude-9780802715296/
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+Asian+Trade+Revolution
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+The+Asian+Trade+Revolution+of+the+Seventeenth+Century
 [book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
 [book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
 [book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
@@ -1190,7 +1190,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
 [book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch

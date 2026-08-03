@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Value Capture from Launch-Service Pricing and Vertical Integration into Starlink"
-date:   2026-07-27 09:00:00 +0000
+title: "History of SpaceX: Value Capture from Launch-Service Pricing and Vertical Integration into Starlink"
+date: 2026-07-27 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -51,7 +51,7 @@ The first commitment is descriptive-analytical framing rather than prescriptive 
 
 The second commitment is dual-register composition with both general-history and abstract-mechanic registers.
 
-The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, [FAA AST current licenses database][ref_faa_launch_licenses_current] records, [SpaceX news archive][ref_spacex_news_archive] press releases, and secondary sources including [Berger 2024][book_berger_2024] Reentry and the trade-press coverage.
+The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, [FAA AST current licenses database][ref_faa_ast] records, [SpaceX news archive][ref_spacex_news_archive] press releases, and secondary sources including [Berger 2024][book_berger_2024] Reentry and the trade-press coverage.
 
 The fourth commitment is contested-claim marking, with specific attention to the Starlink revenue and subscriber estimates that the private-firm status renders substantially reconstructive rather than directly documented.
 
@@ -165,9 +165,9 @@ with the specific product structure reflecting the specific series-parallel reli
 
 ## Launch-Service Pricing Evolution
 
-The launch-service pricing evolution across the Falcon 1, Falcon 9, and Falcon Heavy vehicle configurations constitutes the first specific value-capture channel the article treats. The evolution is documented in the trade-press coverage at [SpaceNews][ref_spacenews], [Ars Technica Space Coverage][ref_arstechnica_space], the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide], and the specific per-mission press releases in the [SpaceX news archive][ref_spacex_news_archive].
+The launch-service pricing evolution across the Falcon 1, Falcon 9, and Falcon Heavy vehicle configurations constitutes the first specific value-capture channel the article treats. The evolution is documented in the trade-press coverage at [SpaceNews][ref_spacenews], [Ars Technica Space Coverage][ref_arstechnica_space], the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_vehicle], and the specific per-mission press releases in the [SpaceX news archive][ref_spacex_news_archive].
 
-The Falcon 1 pricing at approximately 6 to 8 million dollars per launch reflected the specific initial-market positioning against the incumbent Pegasus, Taurus, and Minotaur small-launch vehicles that priced substantially above the specific target. The specific Falcon 1 pricing is documented in the specific SpaceX historical press releases in the [SpaceX news archive][ref_spacex_news_archive] and the [Bjelde et al 2007][research_bjelde_et_al_2007] AIAA conference paper on The Falcon 1 Launch Vehicle. The specific Falcon 1 dollar-per-kilogram calculation admits
+The Falcon 1 pricing at approximately 6 to 8 million dollars per launch reflected the specific initial-market positioning against the incumbent Pegasus, Taurus, and Minotaur small-launch vehicles that priced substantially above the specific target. The specific Falcon 1 pricing is documented in the specific SpaceX historical press releases in the [SpaceX news archive][ref_spacex_news_archive] and the AIAA conference paper on The Falcon 1 Launch Vehicle. The specific Falcon 1 dollar-per-kilogram calculation admits
 
 $$\text{DPK}_{\text{Falcon 1}} = \frac{P_{\text{Falcon 1}}}{m^{\text{payload}}_{\text{Falcon 1}}} = \frac{7 \text{ M dollars}}{570 \text{ kg}} \approx 12280 \text{ dollars per kilogram}$$
 
@@ -209,7 +209,7 @@ The dollar-per-kilogram-to-orbit trajectory across the specific launch-vehicle g
 
 $$\text{DPK}^{\text{Falcon lineage}}(t) = \{18000, 8000, 2700, 1500, 200\text{-}400\}$$
 
-corresponding to the specific values for Space Shuttle era, Delta IV Heavy and Atlas V, Falcon 9 expendable, Falcon 9 reusable, and projected Starship configurations respectively. The specific reduction from the Space Shuttle era 18000 dollars per kilogram to the contemporary Falcon 9 reusable 1500 dollars per kilogram represents an approximately 92 percent reduction across the observed trajectory. The specific projected further reduction to approximately 200 to 400 dollars per kilogram under Starship would represent an additional approximately 73 to 87 percent reduction.
+corresponding to the specific values for Space Shuttle era, Delta IV Heavy and Atlas V, Falcon 9 expendable, Falcon 9 reusable, and projected Starship configurations respectively. The specific reduction from the Space Shuttle era 18000 dollars per kilogram to the contemporary Falcon 9 reusable 1500 dollars per kilogram represents an approximately 92 percent reduction across the observed trajectory. The specific projected further reduction to approximately 200 to 400 dollars per kilogram under Starship would represent an additional approximately 73 to 87 percent reduction. The specific reuse milestones underlying the specific trajectory are the specific [first booster landing of December 2015][ref_spacex_press_falcon9_first_landing_2015], the specific [first reflight of March 2017][ref_spacex_press_ses10_2017], and the specific [Block 5 introduction of May 2018][ref_spacex_press_block5_bangabandhu_2018], with the specific vehicle records at the specific [Falcon 9][ref_spacex_falcon9_vehicle] and specific [Starship][ref_spacex_starship_program] pages. The specific figures are reconstructions drawn from the specific sector analyses at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research] rather than from any specific disclosed cost accounting, and the specific reader should treat them as illustrative of a specific trajectory rather than as measurements.
 
 The specific per-mission price evolution admits the compact log-linear characterization
 
@@ -247,7 +247,7 @@ with $h_{\text{altitude}}$ the specific satellite altitude and $c$ the speed of 
 
 The specific FCC regulatory process for the Starlink constellation proceeded from the initial [FCC Starlink authorization of March 2018][ref_fcc_starlink_2018] for the specific initial constellation of approximately 4425 satellites through the subsequent [FCC Starlink Generation 2 authorization of December 2022][ref_fcc_starlink_gen2_2022] for the specific Gen 2 constellation of an additional approximately 7500 satellites. The specific International Telecommunication Union coordination process documented in the [ITU Radio Regulations][ref_itu_radio_regulations_2020] governed the international-level spectrum-coordination requirements.
 
-The specific first two Starlink test satellites Tintin A and Tintin B launched on [February 22 2018 as secondary payloads on the specific PAZ mission][ref_spacex_press_tintin_2018] validated the specific vehicle-configuration and provided the initial constellation-technology demonstration. The specific launch-vehicle context is documented in the [FAA AST current launch licenses database][ref_faa_launch_licenses_current] and the [FCC filings database][ref_fcc_filings] entries for the specific mission. The specific first operational batch of sixty Starlink satellites launched on [May 23 2019][ref_spacex_press_starlink_v0_9_2019] constituted the specific first operational-configuration deployment and initiated the specific constellation deployment trajectory.
+The specific first two Starlink test satellites Tintin A and Tintin B launched on [February 22 2018 as secondary payloads on the specific PAZ mission][ref_spacex_press_tintin_2018] validated the specific vehicle-configuration and provided the initial constellation-technology demonstration. The specific launch-vehicle context is documented in the [FAA AST current launch licenses database][ref_faa_ast] and the [FCC filings database][ref_fcc_filings] entries for the specific mission. The specific first operational batch of sixty Starlink satellites launched on [May 23 2019][ref_spacex_press_starlink_v0_9_2019] constituted the specific first operational-configuration deployment and initiated the specific constellation deployment trajectory.
 
 The specific pre-operational Starlink capital investment across the 2015 through 2019 development period reached approximately 500 million to 1 billion dollars for the specific satellite-design, manufacturing-infrastructure, ground-infrastructure, and initial-deployment costs. The specific launch-vehicle-development context within which the Falcon and Starlink integration admits placement is developed in the [History of Rocketplanes article][related_post_a96_history_rocketplanes] treatment of the launch-vehicle lineage. The specific broader-space context is developed in the [Introduction to Space Studies article][related_post_a90_intro_space_studies]. The specific pre-operational capital-consumption trajectory admits the compact form
 
@@ -263,7 +263,7 @@ The specific cumulative-satellite trajectory admits the compact logistic-approac
 
 $$N^{\text{Starlink}}(t) = \frac{N^{\text{max}}}{1 + e^{-\lambda (t - t_0)}}$$
 
-with $N^{\text{max}}$ the specific constellation cap (approximately 12000 satellites for Gen 1 plus 7500 satellites for Gen 2), $\lambda$ the specific growth-rate parameter, and $t_0$ the specific inflection time. The specific cumulative operational Starlink satellite count reached approximately 60 by the May 2019 first operational launch, approximately 700 by January 2021, approximately 2000 by January 2022, approximately 3500 by January 2023, approximately 5300 by January 2024, approximately 6500 by January 2025, and approximately 7000+ by mid-2026. The specific annual deployment cadence has ranged from approximately 800 satellites per year to approximately 2000 satellites per year across the observed deployment period. The specific deployment-cadence identity admits the compact form
+with $N^{\text{max}}$ the specific constellation cap of approximately 12000 satellites for the specific first generation plus approximately 7500 satellites for the specific second generation, $\lambda$ the specific growth-rate parameter, and $t_0$ the specific inflection time. The specific cumulative operational Starlink satellite count reached approximately 60 by the May 2019 first operational launch, approximately 700 by January 2021, approximately 2000 by January 2022, approximately 3500 by January 2023, approximately 5300 by January 2024, approximately 6500 by January 2025, and approximately 7000+ by mid-2026. The specific annual deployment cadence has ranged from approximately 800 satellites per year to approximately 2000 satellites per year across the observed deployment period. The specific deployment-cadence identity admits the compact form
 
 $$\dot N^{\text{deploy}}(t) = q^{\text{Falcon 9}}(t) \cdot n^{\text{per-launch}}(t)$$
 
@@ -331,7 +331,7 @@ The specific institutional-configuration cause of the value-capture failure incl
 
 The specific counter-example dynamics are also illustrated by additional cases including the specific Kodak digital-photography value-capture failure, the specific Nokia smartphone value-capture failure, and the specific Blockbuster streaming-video value-capture failure. The specific historical treatments include [Munir and Phillips 2005][research_munir_phillips_2005] The Birth of the Kodak Moment on the specific Kodak trajectory and additional business-case treatments of the specific patterns.
 
-The specific applicability of the Xerox PARC counter-example to the SpaceX case is direct. The specific SpaceX firm has retained the specific Starlink capability within the specific firm boundary rather than licensing the specific technology to unaffiliated telecommunications providers as the [Teece 1986][research_teece_1986] framing identifies as critical for the value capture. The specific SpaceX manufacturing operations at the specific Hawthorne and Bastrop facilities directly commercialize the specific satellite-manufacturing capability documented in the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide], the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], and the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide]. The specific SpaceX operational integration between the launch-service and the Starlink-service segments internalizes the specific complementary-asset configuration. The specific additional Xerox PARC treatments include [Kearns and Nadler 1992][book_kearns_nadler_1992] Prophets in the Dark on the specific Xerox corporate perspective, [Ceruzzi 2003][book_ceruzzi_2003] A History of Modern Computing on the specific personal-computer development context, and [Freiberger and Swaine 2000][book_freiberger_swaine_2000] Fire in the Valley on the specific Silicon Valley context.
+The specific applicability of the Xerox PARC counter-example to the SpaceX case is direct. The specific SpaceX firm has retained the specific Starlink capability within the specific firm boundary rather than licensing the specific technology to unaffiliated telecommunications providers as the [Teece 1986][research_teece_1986] framing identifies as critical for the value capture. The specific SpaceX manufacturing operations at the specific Hawthorne and Bastrop facilities directly commercialize the specific satellite-manufacturing capability documented in the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_vehicle], the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_vehicle], and the [SpaceX Starship User's Guide][ref_spacex_starship_program]. The specific SpaceX operational integration between the launch-service and the Starlink-service segments internalizes the specific complementary-asset configuration. The specific additional Xerox PARC treatments include [Kearns and Nadler 1992][book_kearns_nadler_1992] Prophets in the Dark on the specific Xerox corporate perspective, [Ceruzzi 2003][book_ceruzzi_2003] A History of Modern Computing on the specific personal-computer development context, and [Freiberger and Swaine 2000][book_freiberger_swaine_2000] Fire in the Valley on the specific Silicon Valley context.
 
 ## The Bell Labs Counter-Example
 
@@ -423,7 +423,7 @@ The scholarly literature specifically on the SpaceX value-capture trajectory rem
 
 ### Primary Source Documentation
 
-The primary source documentation for the launch-service pricing evolution includes the specific per-mission press releases in the [SpaceX news archive][ref_spacex_news_archive], the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide], and the specific FAA AST launch-license filings accessible through the [FAA AST current licenses database][ref_faa_launch_licenses_current]. The primary source documentation for the Starlink program includes the [SpaceX Starlink program page][ref_spacex_starlink], the [FCC Starlink authorization of March 2018][ref_fcc_starlink_2018], the [FCC Starlink Generation 2 authorization of December 2022][ref_fcc_starlink_gen2_2022], the [FCC direct-to-cell authorization of 2024][ref_fcc_direct_to_cell_2024], and the specific FCC filings accessible through the [FCC filings database][ref_fcc_filings].
+The primary source documentation for the launch-service pricing evolution includes the specific per-mission press releases in the [SpaceX news archive][ref_spacex_news_archive], the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_vehicle], and the specific FAA AST launch-license filings accessible through the [FAA AST current licenses database][ref_faa_ast]. The primary source documentation for the Starlink program includes the [SpaceX Starlink program page][ref_spacex_starlink], the [FCC Starlink authorization of March 2018][ref_fcc_starlink_2018], the [FCC Starlink Generation 2 authorization of December 2022][ref_fcc_starlink_gen2_2022], the [FCC direct-to-cell authorization of 2024][ref_fcc_direct_to_cell_2024], and the specific FCC filings accessible through the [FCC filings database][ref_fcc_filings].
 
 ### Biographical and Founding-Team Literature
 
@@ -443,7 +443,7 @@ The specific absorptive-capacity literature that treats the specific firm-level 
 
 ### Space-Economics Literature
 
-The space-economics literature that treats the specific launch-service pricing trajectory and the specific satellite-broadband market includes [Hertzfeld 2002][research_hertzfeld_2002], [Peeters 2018][research_peeters_2018], [Weinzierl 2018][research_weinzierl_2018], [Zimmerman 2011][research_zimmerman_2011] Economics of Satellite Communications, [Del Monte 2010][research_del_monte_2010] Access to Space Economics of Government Involvement, the [Anderson 2023][book_anderson_2023] The Space Economy consolidation, and specific specialist publications including [Space Policy Journal][ref_space_policy_journal] and [Payload Research][ref_payload_research]. The specific low-Earth-orbit-constellation-astronomy interference literature that has emerged following the Starlink deployment includes [Walker et al 2020][research_walker_et_al_2020] Impact of Satellite Constellations on Optical Astronomy, [Hall 2019][research_hall_2019] Starlink Constellation Astronomy Impact, and additional treatments in specialist astronomy publications. The specific orbital-debris-economics literature that treats the specific low-Earth-orbit-constellation externalities includes [Adilov et al 2018][research_adilov_et_al_2018] An Economic Analysis of Earth Orbit Pollution and [Weeden and Chow 2012][research_weeden_chow_2012] Taking a Common-Pool Resources Approach to Space Sustainability.
+The space-economics literature that treats the specific launch-service pricing trajectory and the specific satellite-broadband market includes [Hertzfeld 2002][research_hertzfeld_2002], [Peeters 2018][research_peeters_2018], [Weinzierl 2018][research_weinzierl_2018], [Zimmerman 2011][research_zimmerman_2011] Economics of Satellite Communications, [Del Monte 2010][research_del_monte_2010] Access to Space Economics of Government Involvement, the [Anderson 2023][book_anderson_2023] The Space Economy consolidation, and specific specialist publications including [Space Policy Journal][ref_space_policy_journal] and [Payload Research][ref_payload_research]. The specific low-Earth-orbit-constellation-astronomy interference literature that has emerged following the Starlink deployment includes [Walker et al 2020][research_walker_et_al_2020] Impact of Satellite Constellations on Optical Astronomy Starlink Constellation Astronomy Impact, and additional treatments in specialist astronomy publications. The specific orbital-debris-economics literature that treats the specific low-Earth-orbit-constellation externalities includes [Adilov et al 2018][research_adilov_et_al_2018] An Economic Analysis of Earth Orbit Pollution and [Weeden and Chow 2012][research_weeden_chow_2012] Taking a Common-Pool Resources Approach to Space Sustainability.
 
 ### Platform-Strategy Literature
 
@@ -455,7 +455,7 @@ The trade-press coverage of the value-capture trajectory appears extensively in 
 
 ### Emerging Literature on Specific Topics
 
-Several specific topics have generated distinct emerging scholarly literatures relevant to the specific SpaceX-Starlink value-capture trajectory. The literature on the specific low-Earth-orbit-constellation astronomy interference including [Walker et al 2020][research_walker_et_al_2020] and [Hall 2019][research_hall_2019] treats the specific Starlink astronomy-impact question that has generated substantial regulatory-adjacent controversy. The literature on orbital-debris economics including [Adilov et al 2018][research_adilov_et_al_2018] and [Weeden and Chow 2012][research_weeden_chow_2012] treats the specific low-Earth-orbit-constellation externality question. The literature on space-traffic-management including [Bergstresser 2020][research_bergstresser_2020] Space Traffic Management Priorities treats the specific traffic-coordination question that Starlink specifically has raised. The literature on space-based direct-to-cell service including specific FCC filings and industry-analyst analyses treats the specific emerging Starlink direct-to-cell service. The literature on the specific Amazon Kuiper direct competitor and the specific Chinese and European constellation entrants continues to develop through trade-press and industry-analyst coverage.
+Several specific topics have generated distinct emerging scholarly literatures relevant to the specific SpaceX-Starlink value-capture trajectory. The literature on the specific low-Earth-orbit-constellation astronomy interference including [Walker et al 2020][research_walker_et_al_2020] treats the specific Starlink astronomy-impact question that has generated substantial regulatory-adjacent controversy. The literature on orbital-debris economics including [Adilov et al 2018][research_adilov_et_al_2018] and [Weeden and Chow 2012][research_weeden_chow_2012] treats the specific low-Earth-orbit-constellation externality question. The literature on space-traffic-management treats the specific traffic-coordination question that Starlink specifically has raised. The literature on space-based direct-to-cell service including specific FCC filings and industry-analyst analyses treats the specific emerging Starlink direct-to-cell service. The literature on the specific Amazon Kuiper direct competitor and the specific Chinese and European constellation entrants continues to develop through trade-press and industry-analyst coverage.
 
 ### Public Policy and Space-Governance Literature
 
@@ -479,17 +479,17 @@ The specific antitrust literature relevant to the specific value-capture configu
 
 ## Contemporary Comparative Landscape
 
-The contemporary comparative landscape for the value-capture condition across the space-launch-plus-satellite-services sector reflects the specific SpaceX-Starlink configuration as the sector benchmark.
+The contemporary comparative landscape for the value-capture condition across the space-launch-plus-satellite-services sector reflects the specific SpaceX-Starlink configuration as the sector benchmark. The specific service and vehicle records against which the comparison is drawn are the specific [Starlink technology description][ref_starlink_technology], the specific [Falcon 9 vehicle record][ref_spacex_falcon9_vehicle], the specific [Falcon Heavy vehicle record][ref_spacex_falcon_heavy_vehicle], and the specific [Starship programme record][ref_spacex_starship_program], with the specific authorization record at the specific [second-generation Commission authorization][ref_fcc_starlink_gen2_2022] and the specific [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024].
 
-The Amazon Kuiper satellite-broadband configuration announced in 2019 and beginning operational deployment in 2024 represents the specific direct competitor to the Starlink service. The specific Kuiper configuration integrates the specific Amazon retail and logistics infrastructure with the specific Blue Origin launch-service and the specific Kuiper satellite constellation, illustrating a specific alternative vertical-integration configuration in the same sector. The specific Kuiper-versus-Starlink deployment-timing comparison admits the compact form
+The Amazon Kuiper satellite-broadband configuration announced in 2019 and beginning operational deployment in 2024 represents the specific direct competitor to the Starlink service. The specific Kuiper configuration integrates the specific Amazon retail and logistics infrastructure with the specific [Blue Origin][ref_blue_origin_press] launch-service and the specific Kuiper satellite constellation, illustrating a specific alternative vertical-integration configuration in the same sector. The specific Kuiper-versus-Starlink deployment-timing comparison admits the compact form
 
 $$\Delta T^{\text{deployment lead}}_{\text{Starlink vs Kuiper}} = T^{\text{Starlink operational}} - T^{\text{Kuiper operational}} \approx 2019 - 2024 = -5 \text{ years}$$
 
 illustrating the specific approximately five-year Starlink lead in the specific operational-deployment trajectory.
 
-The OneWeb constellation acquired by the Bharti Global consortium following the specific March 2020 Chapter 11 bankruptcy operates the specific broadband-satellite service under the specific different vertical-integration configuration that includes the specific SES satellite-services partnership and the specific Eutelsat merger completed in September 2023.
+The OneWeb constellation acquired by the Bharti Global consortium following the specific March 2020 Chapter 11 bankruptcy operates the specific broadband-satellite service under the specific different vertical-integration configuration that includes the specific SES satellite-services partnership and the specific Eutelsat merger completed in September 2023. The specific corporate records are at the specific [OneWeb corporate record][ref_oneweb] and the specific [Eutelsat corporate record][ref_eutelsat_oneweb], with the specific proceeding conducted under the specific [Chapter 11][ref_bankruptcy_code_ch11] provisions and administered through the specific [United States bankruptcy court system][ref_uscourts_bankruptcy].
 
-The traditional geostationary satellite operators including Viasat, Hughes Network Systems, SES, Intelsat, and Eutelsat operate the specific geostationary-satellite-broadband service under substantially different vertical-integration configurations. The market-share evolution in the satellite-broadband sector admits the compact form
+The traditional geostationary satellite operators including Viasat, Hughes Network Systems, SES, Intelsat, and Eutelsat operate the specific geostationary-satellite-broadband service under substantially different vertical-integration configurations, coordinated through the specific [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020]. The specific launch-provider comparison set comprises the specific [Rocket Lab][ref_rocket_lab_press], the specific [United Launch Alliance][ref_ula_press] with its specific parents at the specific [Boeing][ref_boeing_press] and specific [Northrop Grumman][ref_northrop_grumman_press] records, the specific [Arianespace][ref_arianespace] and [ArianeGroup][ref_arianegroup_press] configuration, the specific [ISRO][ref_isro_press] and [JAXA][ref_jaxa_press] programmes, the specific [China commercial space][ref_china_commercial_space] record, and the specific entrant coverage at [European Spaceflight][ref_european_spaceflight], with the specific licensing record at the specific [Office of Commercial Space Transportation][ref_faa_ast] and the specific [Space Force National Security Space Launch programme][ref_space_force_nssl]. The market-share evolution in the satellite-broadband sector admits the compact form
 
 $$s^{\text{Starlink}}(t) = \frac{N^{\text{Starlink subscribers}}(t)}{N^{\text{total satellite-broadband subscribers}}(t)}$$
 
@@ -509,7 +509,7 @@ with each firm's closure vector indicating the specific satisfaction status acro
 
 ## Data Sources and Reconstruction Methodology
 
-The article draws on primary and secondary sources to reconstruct the value-capture trajectory. The primary-source layer includes SpaceX corporate press releases accessible through the [SpaceX news archive][ref_spacex_news_archive], FCC filings accessible through the [FCC filings database][ref_fcc_filings], FAA AST launch-license records accessible through the [FAA AST current launch licenses database][ref_faa_launch_licenses_current], NASA Technical Reports Server documents accessible through the [NASA Technical Reports Server][ref_nasa_ntrs], the [Commercial Space Launch Act 1984][ref_csla_1984] and [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015] statutory framework, the [1956 AT&T consent decree][ref_att_consent_decree_1956] and the [AT&T divestiture of 1984][ref_att_divestiture_1984] antitrust-consent-decree records for the Bell Labs counter-example, and the [Standard Oil dissolution 1911 Supreme Court decision][ref_standard_oil_1911] for the vertical-integration precedent context. The secondary-source layer includes the trade-press coverage identified in the Historiographical Gap section, the biographical literature dominated by [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires. The empirical-record limitations include the SpaceX private-firm status that precludes access to direct financial disclosure of Starlink revenue and subscriber count, the classification restrictions on Starshield revenue, and the confidentiality restrictions on specific contract terms.
+The article draws on primary and secondary sources to reconstruct the value-capture trajectory. The primary-source layer includes SpaceX corporate press releases accessible through the [SpaceX news archive][ref_spacex_news_archive], FCC filings accessible through the [FCC filings database][ref_fcc_filings], FAA AST launch-license records accessible through the [FAA AST current launch licenses database][ref_faa_ast], NASA Technical Reports Server documents accessible through the [NASA Technical Reports Server][ref_nasa_ntrs], the [Commercial Space Launch Act 1984][ref_csla_1984] and [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015] statutory framework, the [1956 AT&T consent decree][ref_att_consent_decree_1956] and the [AT&T divestiture of 1984][ref_att_divestiture_1984] antitrust-consent-decree records for the Bell Labs counter-example, and the [Standard Oil dissolution 1911 Supreme Court decision][ref_standard_oil_1911] for the vertical-integration precedent context. The secondary-source layer includes the trade-press coverage identified in the Historiographical Gap section, the biographical literature dominated by [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires. The empirical-record limitations include the SpaceX private-firm status that precludes access to direct financial disclosure of Starlink revenue and subscriber count, the classification restrictions on Starshield revenue, and the confidentiality restrictions on specific contract terms.
 
 ## Alternative Analytical Frameworks
 
@@ -641,15 +641,15 @@ The specific extension of the vertical-integration configuration to additional s
 - [Auffarth 2016 Carl Zeiss Foundation History][book_auffarth_2016]
 - [Bain 1968 Industrial Organization][book_bain_1968]
 - [Berger 2021 Liftoff][book_berger_2021]
+- [Berger 2024 Reentry][book_berger_2024]
 - [Berlin 2005 The Man Behind the Microchip][book_berlin_2005]
 - [Bijker 1995 Of Bicycles Bakelites and Bulbs][book_bijker_1995]
 - [Bilby 1986 The General The Life and Times of David Sarnoff][book_bilby_1986]
+- [Bilstein 2001 Flight in America][book_bilstein_2001]
 - [Bird and Sherwin 2005 American Prometheus][book_bird_sherwin_2005]
 - [Blank 2013 The Four Steps to the Epiphany][book_blank_2013]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Berger 2024 Reentry][book_berger_2024]
-- [Bilstein 2001 Flight in America][book_bilstein_2001]
 - [Bork 1978 The Antitrust Paradox][book_bork_1978]
+- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
 - [Ceruzzi 2003 A History of Modern Computing][book_ceruzzi_2003]
 - [Chandler 1962 Strategy and Structure][book_chandler_1962]
 - [Chandler 1977 The Visible Hand][book_chandler_1977]
@@ -665,8 +665,8 @@ The specific extension of the vertical-integration configuration to additional s
 - [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
 - [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
 - [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
-- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
 - [Foster 1986 Innovation The Attacker's Advantage][book_foster_1986]
+- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
 - [Freiberger and Swaine 2000 Fire in the Valley][book_freiberger_swaine_2000]
 - [Gertner 2012 The Idea Factory][book_gertner_2012]
 - [Goldberg and Robson 1983 Smalltalk-80 The Language and Its Implementation][book_goldberg_robson_1983]
@@ -712,14 +712,14 @@ The specific extension of the vertical-integration configuration to additional s
 - [Robins 2006 The Corporation That Changed the World][book_robins_2006]
 - [Rogers 1962 Diffusion of Innovations][book_rogers_1962]
 - [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
-- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
-- [Stern 2011 The Company-State][book_stern_2011]
 - [Saxenian 1994 Regional Advantage][book_saxenian_1994]
 - [Scherer and Ross 1990 Industrial Market Structure and Economic Performance][book_scherer_ross_1990]
-- [Sharkey 1982 The Theory of Natural Monopoly][book_sharkey_1982]
 - [Schroeder 2008 The Snowball Warren Buffett and the Business of Life][book_schroeder_2008]
 - [Serling 1992 Legend and Legacy][book_serling_1992]
+- [Sharkey 1982 The Theory of Natural Monopoly][book_sharkey_1982]
 - [Smith and Alexander 1988 Fumbling the Future][book_smith_alexander_1988]
+- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
+- [Stern 2011 The Company-State][book_stern_2011]
 - [Stone 2013 The Everything Store][book_stone_2013]
 - [Temin and Galambos 1987 The Fall of the Bell System][book_temin_galambos_1987]
 - [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
@@ -738,69 +738,91 @@ The specific extension of the vertical-integration configuration to additional s
 
 - [1956 AT&T Consent Decree][ref_att_consent_decree_1956]
 - [1984 AT&T Divestiture Modification of Final Judgment][ref_att_divestiture_1984]
+- [ArianeGroup Press Releases][ref_arianegroup_press]
+- [Arianespace][ref_arianespace]
 - [Ars Technica Space Coverage][ref_arstechnica_space]
 - [Aviation Week Coverage][ref_aviation_week]
 - [Bloomberg Business News][ref_bloomberg]
+- [Blue Origin Press Releases][ref_blue_origin_press]
+- [Boeing Press Releases][ref_boeing_press]
 - [Breaking Defense Coverage][ref_breaking_defense]
+- [BryceTech Sector Reports][ref_bryce_tech]
+- [China Commercial Space Industry Analysis][ref_china_commercial_space]
 - [Commercial Space Launch Act 1984][ref_csla_1984]
 - [Commercial Space Launch Amendments Act 2004][ref_csla_amendments_2004]
 - [Defense News Coverage][ref_defense_news]
 - [European Spaceflight Coverage][ref_european_spaceflight]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
-- [FAA Office of Commercial Space Transportation][ref_faa_ast]
+- [Eutelsat Corporate Record][ref_eutelsat_oneweb]
+- [FAA AST Current Launch Licenses Database][ref_faa_ast]
 - [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Filings Database][ref_fcc_filings]
 - [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
 - [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
 - [INCOSE Systems Engineering Handbook][ref_incose_handbook]
+- [Indian Space Research Organisation Press Releases][ref_isro_press]
 - [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130]
 - [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
+- [Japanese Aerospace Exploration Agency Press Releases][ref_jaxa_press]
 - [Journal of Space Law][ref_journal_space_law]
 - [NASA Space Act Agreements Guide][ref_nasa_saa_guide]
 - [NASA Technical Reports Server][ref_nasa_ntrs]
 - [NASASpaceflight Coverage][ref_nasaspaceflight]
 - [New York Times][ref_nyt]
+- [Northrop Grumman Press Releases][ref_northrop_grumman_press]
+- [OneWeb Corporate Record][ref_oneweb]
 - [Payload Newsletter][ref_payload]
 - [Payload Research][ref_payload_research]
+- [Public Administration Review][ref_public_admin_review]
+- [Rocket Lab Press Releases][ref_rocket_lab_press]
+- [Space Capital Quarterly Reports][ref_space_capital]
 - [Space Force National Security Space Launch][ref_space_force_nssl]
 - [Space Legislation Review][ref_space_legislation_review]
 - [Space Policy Journal][ref_space_policy_journal]
 - [Space Policy Online][ref_space_policy_online]
 - [SpaceNews][ref_spacenews]
 - [SpaceX Better Than Nothing Beta Press October 2020][ref_spacex_press_beta_2020]
-- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
-- [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
-- [SpaceX Starship User's Guide][ref_spacex_starship_users_guide]
+- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_vehicle]
+- [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_vehicle]
 - [SpaceX News Archive][ref_spacex_news_archive]
+- [SpaceX Press Release Block 5 Bangabandhu-1 May 2018][ref_spacex_press_block5_bangabandhu_2018]
+- [SpaceX Press Release Falcon 9 First Landing December 2015][ref_spacex_press_falcon9_first_landing_2015]
+- [SpaceX Press Release SES-10 First Refly March 2017][ref_spacex_press_ses10_2017]
 - [SpaceX Press Release Starlink First 60 Operational Satellites May 2019][ref_spacex_press_starlink_v0_9_2019]
 - [SpaceX Press Release Tintin A and B February 2018][ref_spacex_press_tintin_2018]
 - [SpaceX Seattle Facility Announcement January 2015][ref_spacex_seattle_announcement_2015]
 - [SpaceX Starlink Direct-to-Cell T-Mobile Partnership August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022]
 - [SpaceX Starlink Program Page][ref_spacex_starlink]
+- [SpaceX Starship Program][ref_spacex_starship_program]
 - [Standard Oil Dissolution Supreme Court Decision 1911][ref_standard_oil_1911]
+- [Starlink Technology][ref_starlink_technology]
 - [The Space Review][ref_the_space_review]
 - [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
+- [United Launch Alliance News][ref_ula_press]
 - [United Nations Liability Convention 1972][ref_un_liability_convention_1972]
 - [United Nations Outer Space Treaty 1967][ref_un_outer_space_treaty_1967]
+- [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11]
+- [United States Bankruptcy Courts][ref_uscourts_bankruptcy]
 - [Wall Street Journal][ref_wsj]
 - [Washington Post][ref_washington_post]
 
 ### Research
 
 - [Adilov Alexander Cunningham 2018 An Economic Analysis of Earth Orbit Pollution][research_adilov_et_al_2018]
+- [Adner 2017 Ecosystem as Structure An Actionable Construct for Strategy][research_adner_2017]
 - [Anadol Cohen Ferrari 2018 SpaceX Case Study][research_anadol_cohen_2018]
 - [Armstrong 2006 Competition in Two-Sided Markets][research_armstrong_2006]
 - [Bardeen and Brattain 1948 The Transistor A Semi-Conductor Triode][research_bardeen_brattain_1948]
 - [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
 - [Baumol 1977 On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry][research_baumol_1977]
-- [Bjelde et al 2007 The Falcon 1 Launch Vehicle][research_bjelde_et_al_2007]
 - [Bonvillian 2018 DARPA and the Advanced Research Projects Agency][research_bonvillian_2018]
 - [Boudreau 2010 Open Platform Strategies and Innovation][research_boudreau_2010]
 - [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
+- [Callon 1986 Some Elements of a Sociology of Translation][research_callon_1986]
 - [Christensen Raynor McDonald 2015 What Is Disruptive Innovation][research_christensen_raynor_mcdonald_2015]
 - [Coase 1937 The Nature of the Firm][research_coase_1937]
 - [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
 - [Del Monte 2010 Access to Space Economics of Government Involvement][research_del_monte_2010]
+-
 - [Eisenhardt and Martin 2000 Dynamic Capabilities What Are They][research_eisenhardt_martin_2000]
 - [Eisenmann Parker Van Alstyne 2006 Strategies for Two-Sided Markets][research_eisenmann_et_al_2006]
 - [Evans 2003 The Antitrust Economics of Multi-Sided Platform Markets][research_evans_2003]
@@ -810,15 +832,20 @@ The specific extension of the vertical-integration configuration to additional s
 - [Gawer and Cusumano 2014 Industry Platforms and Ecosystem Innovation][research_gawer_cusumano_2014]
 - [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
 - [Hagiu and Wright 2015 Multi-Sided Platforms][research_hagiu_wright_2015]
-- [Hall 2019 Starlink Constellation Astronomy Impact][research_hall_2019]
 - [Hart 1988 Incomplete Contracts and the Theory of the Firm][research_hart_1988]
 - [Hart and Moore 1990 Property Rights and the Nature of the Firm][research_hart_moore_1990]
 - [Hertzfeld 2002 Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfer][research_hertzfeld_2002]
+- [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
 - [Katz and Shapiro 1985 Network Externalities Competition and Compatibility][research_katz_shapiro_1985]
 - [Khan 2017 Amazon's Antitrust Paradox][research_khan_2017]
 - [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
+-
+- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
 - [Lafontaine and Slade 2007 Vertical Integration and Firm Boundaries The Evidence][research_lafontaine_slade_2007]
 - [Lane Koka Pathak 2006 The Reification of Absorptive Capacity][research_lane_koka_pathak_2006]
+- [Law 1987 Technology and Heterogeneous Engineering][research_law_1987]
+- [Maier 1998 Architecting Principles for Systems-of-Systems][research_maier_1998]
+- [March 1991 Exploration and Exploitation in Organizational Learning][research_march_1991]
 - [Masten 1984 The Organization of Production Evidence from the Aerospace Industry][research_masten_1984]
 - [Metcalfe and Boggs 1976 Ethernet Distributed Packet Switching for Local Computer Networks][research_metcalfe_boggs_1976]
 - [Monteverde and Teece 1982 Supplier Switching Costs and Vertical Integration in the Automobile Industry][research_monteverde_teece_1982]
@@ -833,8 +860,10 @@ The specific extension of the vertical-integration configuration to additional s
 - [Rochet and Tirole 2003 Platform Competition in Two-Sided Markets][research_rochet_tirole_2003]
 - [Rochet and Tirole 2006 Two-Sided Markets A Progress Report][research_rochet_tirole_2006]
 - [Rysman 2009 The Economics of Two-Sided Markets][research_rysman_2009]
+- [Sage and Cuppan 2001 On the Systems Engineering and Management of Systems of Systems][research_sage_cuppan_2001]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
 - [Shockley 1949 The Theory of p-n Junctions in Semiconductors][research_shockley_1949]
+- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
 - [Teece 1986 Profiting from Technological Innovation][research_teece_1986]
 - [Teece 2018 Profiting from Innovation in the Digital Economy][research_teece_2018]
 - [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
@@ -868,237 +897,253 @@ The specific extension of the vertical-integration configuration to additional s
 - [A282 History of SpaceX Value Gradient from Falcon 1 to Falcon 9 to Reusability][related_post_a282_spacex_value_gradient]
 - [A283 History of SpaceX Anchor Demand from COTS-1 Salvation Through Commercial Crew, HLS, and Starshield][related_post_a283_spacex_anchor_demand]
 
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
+[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
+[book_auffarth_2016]: https://global.oup.com/academic/product/business-planning-for-turbulent-times-9780199689460
+[book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
+[book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
+[book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
+[book_bilby_1986]: https://openlibrary.org/search?q=Bilby+General+Sarnoff+RCA
+[book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
+[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+and+Sherwin+American+Prometheus
+[book_blank_2013]: https://kswebs.com/steve-blank-books/the-four-steps-to-the-epiphany/
+[book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
+[book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
+[book_ceruzzi_2003]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
-[book_chandler_1990]: https://www.hup.harvard.edu/books/9780674789944
-[book_chernow_2004]: https://www.penguinrandomhouse.com/books/98060/titan-by-ron-chernow/
+[book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
+[book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
+[book_crouch_2003]: https://wwnorton.com/books/Wings/
+[book_cusumano_2010]: https://global.oup.com/academic/product/staying-power-9780199678501
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
+[book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
+[book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
+[book_foster_1986]: https://openlibrary.org/search?q=Foster+Innovation+Attackers+Advantage
+[book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
+[book_freiberger_swaine_2000]: https://www.mheducation.com/highered/product/fire-valley-freiberger-swaine/M9780071358927.html
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
-[book_hiltzik_1999]: https://www.harpercollins.com/products/dealers-of-lightning-michael-hiltzik
+[book_goldberg_robson_1983]: https://openlibrary.org/search?q=Smalltalk-80+Language+Implementation+Goldberg
+[book_grief_2006]: https://www.cambridge.org/9780521671347
+[book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
+[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
+[book_hiltzik_1999]: https://openlibrary.org/search?q=Hiltzik+Dealers+of+Lightning
+[book_ho_2009]: https://www.dukeupress.edu/liquidated
+[book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
+[book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
+[book_iansiti_levien_2004]: https://www.hbsp.harvard.edu/product/5219-HBK-ENG
+[book_isaacson_2011]: https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
-[book_mazzucato_2013]: https://marianamazzucato.com/entrepreneurial-state/
+[book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
+[book_kearns_nadler_1992]: https://openlibrary.org/search?q=Kearns+Nadler+Prophets+Dark
+[book_kenney_2000]: https://www.sup.org/books/title/?id=1354
+[book_kernighan_ritchie_1978]: https://openlibrary.org/search?q=C+Programming+Language+Kernighan+Ritchie
+[book_kim_1997]: https://www.hbsp.harvard.edu/product/8730-HBK-ENG
+[book_krippner_2011]: https://www.hup.harvard.edu/books/9780674066199
+[book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
+[book_lecuyer_2006]: https://mitpress.mit.edu/9780262622110/making-silicon-valley/
+[book_levin_2010]: https://openlibrary.org/search?q=Levin+Wires+That+Bind
+[book_levy_1994]: https://openlibrary.org/search?q=Levy+Insanely+Great+Macintosh
+[book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
+[book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
+[book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
+[book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
-[book_newhouse_1982]: https://www.penguinrandomhouse.com/books/44693/the-sporty-game-by-john-newhouse/
+[book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
+[book_musa_1998]: https://openlibrary.org/search?q=Musa+Software+Reliability+Engineering
+[book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
+[book_north_1990]: https://www.cambridge.org/9780521397346
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
+[book_ostrom_1990]: https://www.cambridge.org/9780521405997
+[book_penrose_1959]: https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844
+[book_porter_1980]: https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489
 [book_porter_1985]: https://www.simonandschuster.com/books/Competitive-Advantage/Michael-E-Porter/9780684841465
-[book_serling_1992]: https://www.harpercollins.com/products/legend-legacy-robert-j-serling
+[book_posner_2001]: https://openlibrary.org/search?q=Posner+Antitrust+Law
+[book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
+[book_ries_2011]: https://www.crownpublishing.com/archives/feature/lean-startup
+[book_riordan_hoddeson_1997]: https://wwnorton.com/books/Crystal-Fire/
+[book_robins_2006]: https://www.pluto.co.uk/9780745325248/the-corporation-that-changed-the-world/
+[book_rogers_1962]: https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743258234
+[book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
+[book_saxenian_1994]: https://www.hup.harvard.edu/books/9780674753402
+[book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
+[book_schroeder_2008]: https://openlibrary.org/search?q=Schroeder+The+Snowball+Warren+Buffett+and+the+Business+of+Life
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
+[book_sharkey_1982]: https://www.cambridge.org/9780521271943
 [book_smith_alexander_1988]: https://williammorrow.com/fumbling-the-future/
+[book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
+[book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
+[book_stone_2013]: https://www.hachettebookgroup.com/titles/brad-stone/the-everything-store/9780316219259/
+[book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
+[book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
+[book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
+[book_utterback_1994]: https://www.hbsp.harvard.edu/product/4855-HBK-ENG
+[book_vanalstyne_parker_choudary_2016]: https://wwnorton.com/books/Platform-Revolution/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
+[book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
+[book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
+[book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
+[book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
+[book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
+[ref_arianegroup_press]: https://www.arianegroup.com/en/news/press-releases/
+[ref_arianespace]: https://www.arianespace.com/
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
+[ref_att_consent_decree_1956]: https://www.corp.att.com/history/nethistory/consent-decree.html
+[ref_att_divestiture_1984]: https://www.corp.att.com/history/nethistory/divestiture.html
+[ref_aviation_week]: https://aviationweek.com/
+[ref_bankruptcy_code_ch11]: https://www.law.cornell.edu/uscode/text/11/chapter-11
 [ref_bloomberg]: https://www.bloomberg.com/
+[ref_blue_origin_press]: https://www.blueorigin.com/news/
+[ref_boeing_press]: https://boeing.mediaroom.com/
+[ref_breaking_defense]: https://breakingdefense.com/
+[ref_bryce_tech]: https://brycetech.com/reports
+[ref_china_commercial_space]: https://spacenews.com/topic/china/
+[ref_csla_1984]: https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509
+[ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
+[ref_defense_news]: https://www.defensenews.com/
 [ref_european_spaceflight]: https://europeanspaceflight.com/
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses_permits/current_licenses
+[ref_eutelsat_oneweb]: https://www.eutelsat.com/
+[ref_faa_ast]: https://www.faa.gov/space
 [ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
 [ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
 [ref_fcc_starlink_2018]: https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf
 [ref_fcc_starlink_gen2_2022]: https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf
+[ref_incose_handbook]: https://www.incose.org/products-and-publications/se-handbook
+[ref_isro_press]: https://www.isro.gov.in/
+[ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
 [ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
+[ref_jaxa_press]: https://global.jaxa.jp/press/
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
+[ref_nasa_saa_guide]: https://ntrs.nasa.gov/search?q=Space+Act+Agreement
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
+[ref_northrop_grumman_press]: https://news.northropgrumman.com/
 [ref_nyt]: https://www.nytimes.com/section/science/space
+[ref_oneweb]: https://oneweb.net/
 [ref_payload]: https://payloadspace.com/
 [ref_payload_research]: https://payloadspace.com/research/
+[ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
+[ref_rocket_lab_press]: https://www.rocketlabusa.com/updates/
+[ref_space_capital]: https://www.spacecapital.com/
+[ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
+[ref_space_legislation_review]: https://www.mcgill.ca/iasl/
 [ref_space_policy_journal]: https://www.sciencedirect.com/journal/space-policy
+[ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacenews]: https://spacenews.com/
-[ref_spacex_falcon9_users_guide]: https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
+[ref_spacex_falcon9_vehicle]: https://www.spacex.com/vehicles/falcon-9/
+[ref_spacex_falcon_heavy_vehicle]: https://www.spacex.com/vehicles/falcon-heavy/
 [ref_spacex_news_archive]: https://www.spacex.com/updates/
-[ref_spacex_starlink]: https://www.starlink.com/
-[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.t-mobile.com/news/business/coverage-above-and-beyond
-[ref_wsj]: https://www.wsj.com/tech
-[ref_washington_post]: https://www.washingtonpost.com/business/technology/
-[related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
-[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
-[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
-[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
-[research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
-[research_barney_1991]: https://journals.sagepub.com/doi/10.1177/014920639101700108
-[research_farrell_saloner_1985]: https://www.jstor.org/stable/2555277
-[research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
-[research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
-[research_katz_shapiro_1985]: https://www.jstor.org/stable/1814809
-[research_masten_1984]: https://www.jstor.org/stable/725228
-[research_monteverde_teece_1982]: https://www.jstor.org/stable/3003400
-[research_novak_eppinger_2001]: https://pubsonline.informs.org/doi/10.1287/mnsc.47.1.189.10662
-[research_peeters_2018]: https://www.sciencedirect.com/science/article/pii/S0265964617302175
-[research_rochet_tirole_2003]: https://www.jstor.org/stable/40007911
-[research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
-[research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
-[research_teece_2018]: https://www.sciencedirect.com/science/article/pii/S0048733317301993
-[research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
-[research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
-[research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
-[research_williamson_1971]: https://www.jstor.org/stable/1815199
-[book_adner_2012]: https://press.princeton.edu/books/paperback/9780691160177/the-wide-lens
-[book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
-[book_crouch_2003]: https://wwnorton.com/books/Wings/
-[book_cusumano_2010]: https://global.oup.com/academic/product/staying-power-9780199678501
-[book_goldberg_robson_1983]: https://openlibrary.org/search?q=Smalltalk-80+Language+Implementation+Goldberg
-[book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
-[book_kernighan_ritchie_1978]: https://openlibrary.org/search?q=C+Programming+Language+Kernighan+Ritchie
-[book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
-[book_schroeder_2008]: https://www.penguinrandomhouse.com/books/199103/the-snowball-by-alice-schroeder/
-[book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
-[ref_att_consent_decree_1956]: https://www.corp.att.com/history/nethistory/consent-decree.html
-[ref_att_divestiture_1984]: https://www.corp.att.com/history/nethistory/divestiture.html
-[ref_csla_1984]: https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509
 [ref_spacex_press_beta_2020]: https://www.spacex.com/updates/
+[ref_spacex_press_block5_bangabandhu_2018]: https://www.spacex.com/updates/
+[ref_spacex_press_falcon9_first_landing_2015]: https://www.spacex.com/news/2015/12/22/orbcomm-2-mission-successful-first-landing-orbital-rocket
+[ref_spacex_press_ses10_2017]: https://www.spacex.com/news/2017/03/30/spacex-successfully-launches-first-reused-rocket
 [ref_spacex_press_starlink_v0_9_2019]: https://www.spacex.com/updates/
 [ref_spacex_press_tintin_2018]: https://www.spacex.com/updates/
 [ref_spacex_seattle_announcement_2015]: https://www.spacex.com/updates/
+[ref_spacex_starlink]: https://www.starlink.com/
+[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.starlink.com/business/direct-to-cell
+[ref_spacex_starship_program]: https://www.spacex.com/vehicles/starship/
 [ref_standard_oil_1911]: https://supreme.justia.com/cases/federal/us/221/1/
+[ref_starlink_technology]: https://www.starlink.com/technology
+[ref_the_space_review]: https://www.thespacereview.com/
+[ref_ula_press]: https://www.ulalaunch.com/about/news
+[ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
+[ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
+[ref_uscourts_bankruptcy]: https://www.uscourts.gov/court-programs/bankruptcy
 [ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
+[ref_washington_post]: https://www.washingtonpost.com/business/technology/
+[ref_wsj]: https://www.wsj.com/tech
 [related_post_a132_sbir_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_a138_sbir_phase3]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
+[related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}
 [related_post_a164_patents_trade_secrets]: {% post_url 2026-05-06-patents_trade_secrets_and_the_disclosure_tradeoff %}
 [related_post_a167_startup_failure]: {% post_url 2026-05-09-why_startups_actually_fail %}
 [related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 [related_post_a242_apollo_guidance]: {% post_url 2026-07-17-apollo_guidance_computer %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
 [related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
+[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
+[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
+[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
 [related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
+[research_adilov_et_al_2018]: https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591
+[research_adner_2017]: https://doi.org/10.1177/0149206316678451
+[research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [research_armstrong_2006]: https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00037.x
 [research_bardeen_brattain_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
-[research_bjelde_et_al_2007]: https://arc.aiaa.org/doi/10.2514/6.2007-6021
-[research_eisenmann_et_al_2006]: https://hbr.org/2006/10/strategies-for-two-sided-markets
-[research_evans_2003]: https://academic.oup.com/yjolt/article/20/1/325/2379723
-[research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
-[research_hagiu_wright_2015]: https://www.sciencedirect.com/science/article/pii/S0167718715000156
-[research_hart_moore_1990]: https://www.jstor.org/stable/2937861
-[research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
-[research_lafontaine_slade_2007]: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.629
-[research_metcalfe_boggs_1976]: https://dl.acm.org/doi/10.1145/360248.360253
-[research_parker_vanalstyne_2005]: https://pubsonline.informs.org/doi/10.1287/mnsc.1050.0400
-[research_ritchie_thompson_1974]: https://dl.acm.org/doi/10.1145/361011.361061
-[research_rochet_tirole_2006]: https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00036.x
-[research_shannon_1948]: https://ieeexplore.ieee.org/document/6773024
-[research_shockley_1949]: https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1949.tb03645.x
-[research_thacker_alto_1979]: https://www.digibarn.com/friends/curbow/star/XeroxAlto.pdf
-[research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/
-[book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
-[book_hovenkamp_2005]: https://www.hup.harvard.edu/books/9780674025819
-[book_isaacson_2011]: https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539
-[book_posner_2001]: https://press.uchicago.edu/ucp/books/book/chicago/A/bo3627998.html
-[book_stone_2013]: https://www.hachettebookgroup.com/titles/brad-stone/the-everything-store/9780316219259/
-[ref_aviation_week]: https://aviationweek.com/
-[ref_breaking_defense]: https://breakingdefense.com/
-[ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
-[ref_defense_news]: https://www.defensenews.com/
-[ref_journal_space_law]: https://law.olemiss.edu/journal-of-space-law/
-[ref_space_legislation_review]: https://www.mcgill.ca/iasl/research/publications
-[ref_space_policy_online]: https://spacepolicyonline.com/
-[ref_the_space_review]: https://www.thespacereview.com/
-[ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
-[ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
-[research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
-[book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
-[book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
-[book_ceruzzi_2003]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
-[book_freiberger_swaine_2000]: https://www.mheducation.com/highered/product/fire-valley-freiberger-swaine/M9780071358927.html
-[book_kearns_nadler_1992]: https://openlibrary.org/search?q=Kearns+Nadler+Prophets+Dark
-[book_malone_2014]: https://www.harpercollins.com/products/the-intel-trinity-michael-malone
-[book_penrose_1959]: https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844
-[book_porter_1980]: https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489
-[book_riordan_hoddeson_1997]: https://wwnorton.com/books/Crystal-Fire/
-[book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
-[book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
-[book_vanalstyne_parker_choudary_2016]: https://wwnorton.com/books/Platform-Revolution/
+[research_barney_1991]: https://journals.sagepub.com/doi/10.1177/014920639101700108
+[research_baumol_1977]: https://www.jstor.org/stable/1807012
+[research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
 [research_boudreau_2010]: https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1215
-[research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
-[research_gawer_2014]: https://www.sciencedirect.com/science/article/abs/pii/S0048733314001292
-[research_peteraf_1993]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250140303
-[ref_spacex_falcon_heavy_users_guide]: https://www.spacex.com/media/falcon_heavy_users_guide.pdf
-[ref_spacex_starship_users_guide]: https://www.spacex.com/media/starship_users_guide.pdf
+[research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
+[research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
+[research_christensen_raynor_mcdonald_2015]: https://hbr.org/2015/12/what-is-disruptive-innovation
 [research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
 [research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
-[research_hart_1988]: https://www.jstor.org/stable/764953
-[research_lane_koka_pathak_2006]: https://journals.aom.org/doi/10.5465/amr.2006.22527456
-[research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
-[research_williamson_1975]: https://www.jstor.org/stable/40751236
-[research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
-[research_zahra_george_2002]: https://journals.aom.org/doi/10.5465/amr.2002.6587995
-[research_adilov_et_al_2018]: https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591
 [research_del_monte_2010]: https://www.sciencedirect.com/science/article/pii/S0265964610000160
-[research_hall_2019]: https://iopscience.iop.org/article/10.3847/2515-5172/ab8016
-[research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513
-[research_zimmerman_2011]: https://openlibrary.org/search?q=Zimmerman+Economics+Satellite+Communications
-[book_blank_2013]: https://kswebs.com/steve-blank-books/the-four-steps-to-the-epiphany/
-[book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
-[book_foster_1986]: https://openlibrary.org/search?q=Foster+Innovation+Attackers+Advantage
-[book_levin_2010]: https://openlibrary.org/search?q=Levin+Wires+That+Bind
-[book_ries_2011]: https://www.crownpublishing.com/archives/feature/lean-startup
-[book_rogers_1962]: https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743258234
-[book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
-[book_utterback_1994]: https://www.hbsp.harvard.edu/product/4855-HBK-ENG
-[book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
-[book_wu_2010]: https://www.penguinrandomhouse.com/books/181430/the-master-switch-by-tim-wu/
-[research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
-[research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
-[research_christensen_raynor_mcdonald_2015]: https://hbr.org/2015/12/what-is-disruptive-innovation
+[research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
+[research_eisenmann_et_al_2006]: https://hbr.org/2006/10/strategies-for-two-sided-markets
+[research_evans_2003]: https://academic.oup.com/yjolt/article/20/1/325/2379723
+[research_farrell_saloner_1985]: https://www.jstor.org/stable/2555277
 [research_fuchs_2010]: https://direct.mit.edu/rest/article/92/1/168/58109/
-[research_nelson_1977]: https://www.jstor.org/stable/1817191
-[book_kenney_2000]: https://www.sup.org/books/title/?id=1354
-[book_lecuyer_2006]: https://mitpress.mit.edu/9780262622110/making-silicon-valley/
-[book_saxenian_1994]: https://www.hup.harvard.edu/books/9780674753402
-[research_munir_phillips_2005]: https://journals.sagepub.com/doi/10.1177/0170840605057071
-[research_pisano_teece_2007]: https://journals.sagepub.com/doi/10.2307/41166323
-[book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
-[book_levy_1994]: https://openlibrary.org/search?q=Levy+Insanely+Great+Macintosh
-[book_sharkey_1982]: https://www.cambridge.org/9780521271943
-[research_baumol_1977]: https://www.jstor.org/stable/1807012
-[ref_faa_ast]: https://www.faa.gov/space
-[ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
-[ref_nasa_saa_guide]: https://www.nasa.gov/partnerships/space-act-agreements/
-[ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
-[book_acemoglu_robinson_2012]: https://www.penguinrandomhouse.com/books/213331/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/
-[book_auffarth_2016]: https://global.oup.com/academic/product/business-planning-for-turbulent-times-9780199689460
-[book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
-[book_bilby_1986]: https://openlibrary.org/search?q=Bilby+General+Sarnoff+RCA
-[book_bird_sherwin_2005]: https://vintage.knopfdoubleday.com/book/62038/american-prometheus/
-[book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
-[book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
-[book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
-[book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
-[book_grief_2006]: https://www.cambridge.org/9780521671347
-[book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
-[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+Anderson+New+World+Manhattan+Project
-[book_ho_2009]: https://www.dukeupress.edu/liquidated
-[book_iansiti_levien_2004]: https://www.hbsp.harvard.edu/product/5219-HBK-ENG
-[book_kim_1997]: https://www.hbsp.harvard.edu/product/8730-HBK-ENG
-[book_krippner_2011]: https://www.hup.harvard.edu/books/9780674066199
-[book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
-[book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
-[book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
-[book_musa_1998]: https://openlibrary.org/search?q=Musa+Software+Reliability+Engineering
-[book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
-[book_north_1990]: https://www.cambridge.org/9780521397346
-[book_oconnor_kleyner_2012]: https://www.wiley.com/en-us/Practical+Reliability+Engineering%2C+5th+Edition-p-9780470979815
-[book_ostrom_1990]: https://www.cambridge.org/9780521405997
-[book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
-[book_robins_2006]: https://www.pluto.co.uk/9780745325248/the-corporation-that-changed-the-world/
-[book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
-[book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
-[book_zaloom_2006]: https://press.uchicago.edu/ucp/books/book/chicago/O/bo3618241.html
-[book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
-[ref_incose_handbook]: https://www.incose.org/products-and-publications/se-handbook
-[ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
-[research_adner_2017]: https://journals.sagepub.com/doi/10.1177/0149206316678451
-[research_bergstresser_2020]: https://onlinelibrary.wiley.com/doi/10.1111/jofi.12855
-[research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
+[research_gawer_2014]: https://www.sciencedirect.com/science/article/abs/pii/S0048733314001292
+[research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
+[research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
+[research_hagiu_wright_2015]: https://www.sciencedirect.com/science/article/pii/S0167718715000156
+[research_hart_1988]: https://www.jstor.org/stable/764953
+[research_hart_moore_1990]: https://www.jstor.org/stable/2937861
+[research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
 [research_jacobides_et_al_2018]: https://onlinelibrary.wiley.com/doi/10.1002/smj.2904
+[research_katz_shapiro_1985]: https://www.jstor.org/stable/1814809
+[research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
+[research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
+[research_lafontaine_slade_2007]: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.629
+[research_lane_koka_pathak_2006]: https://journals.aom.org/doi/10.5465/amr.2006.22527456
 [research_law_1987]: https://www.jstor.org/stable/687075
 [research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
 [research_march_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.71
-[research_sage_cuppan_2001]: https://link.springer.com/article/10.1023/A:1011365109287
+[research_masten_1984]: https://www.jstor.org/stable/725228
+[research_metcalfe_boggs_1976]: https://dl.acm.org/doi/10.1145/360248.360253
+[research_monteverde_teece_1982]: https://www.jstor.org/stable/3003400
+[research_munir_phillips_2005]: https://doi.org/10.1177/0170840605056395
+[research_nelson_1977]: https://www.jstor.org/stable/1817191
+[research_novak_eppinger_2001]: https://pubsonline.informs.org/doi/10.1287/mnsc.47.1.189.10662
+[research_parker_vanalstyne_2005]: https://pubsonline.informs.org/doi/10.1287/mnsc.1050.0400
+[research_peeters_2018]: https://www.sciencedirect.com/science/article/pii/S0265964617302175
+[research_peteraf_1993]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250140303
+[research_pisano_teece_2007]: https://doi.org/10.2307/41166428
+[research_ritchie_thompson_1974]: https://dl.acm.org/doi/10.1145/361011.361061
+[research_rochet_tirole_2003]: https://www.jstor.org/stable/40007911
+[research_rochet_tirole_2006]: https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00036.x
+[research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
+[research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
+[research_shannon_1948]: https://ieeexplore.ieee.org/document/6773024
+[research_shockley_1949]: https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1949.tb03645.x
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
+[research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
+[research_teece_2018]: https://www.sciencedirect.com/science/article/pii/S0048733317301993
+[research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
+[research_thacker_alto_1979]: https://www.digibarn.com/friends/curbow/star/XeroxAlto.pdf
+[research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
+[research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/
+[research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513
+[research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
+[research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
+[research_williamson_1971]: https://www.jstor.org/stable/1815199
+[research_williamson_1975]: https://www.jstor.org/stable/40751236
+[research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
+[research_zahra_george_2002]: https://journals.aom.org/doi/10.5465/amr.2002.6587995
+[research_zimmerman_2011]: https://openlibrary.org/search?q=Zimmerman+Economics+Satellite+Communications

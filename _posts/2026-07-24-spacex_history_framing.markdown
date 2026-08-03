@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Series Framing and the Seven-Plus-Three Forcing-Function Framework"
-date:   2026-07-24 09:00:00 +0000
+title: "History of SpaceX: Series Framing and the Seven-Plus-Three Forcing-Function Framework"
+date: 2026-07-24 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -187,7 +187,7 @@ The developmental-state framing traces from [Johnson 1982][book_johnson_1982] MI
 
 The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001] The Architecture of Markets through [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [Zaloom 2006][book_zaloom_2006] Out of the Pits, [Ho 2009][book_ho_2009] Liquidated, and [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera. The framing treats the SpaceX capital-formation trajectory as embedded in a specific financial-market institutional configuration whose properties shape the accessible capital-raising terms, the acceptable dilution trajectories, and the plausible exit paths. The framing draws attention to the specific role of the private-market secondary tender offer mechanism in permitting SpaceX to remain private across multiple decades without an initial public offering, in contrast to earlier venture-backed technology firms that were compelled to conduct initial public offerings within a shorter horizon. The [Preda 2009][book_preda_2009] Framing Finance treatment on the sociology of financial-market infrastructure provides the framework within which the specific mechanics of the SpaceX capital raises admit interpretation.
 
-The real-options-and-entrepreneurial-finance-under-uncertainty framing traces from [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty through [McDonald and Siegel 1986][research_mcdonald_siegel_1986] The Value of Waiting to Invest, [Adner and Levinthal 2004][research_adner_levinthal_2004] What Is Not a Real Option, [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994] Operating Flexibility Global Manufacturing and the Option Value of a Multinational Network, and [Trigeorgis 1996][book_trigeorgis_1996] Real Options. The framing treats each stage of the SpaceX technical trajectory as a real option whose exercise price is the marginal capital investment required to reach the next milestone and whose payoff is the accumulated value at subsequent stages. The framing captures the value of the decomposability condition specifically as the aggregate value of the sequential real options that the decomposed rung structure creates. The [Sanchez 1993][research_sanchez_1993] Strategic Flexibility Firm Organization and Managerial Work extension provides the strategic-flexibility framework within which the specific SpaceX architectural decisions admit interpretation.
+The real-options-and-entrepreneurial-finance-under-uncertainty framing traces from [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty through [McDonald and Siegel 1986][research_mcdonald_siegel_1986] The Value of Waiting to Invest, [Adner and Levinthal 2004][research_adner_levinthal_2004] What Is Not a Real Option, [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994] Operating Flexibility Global Manufacturing and the Option Value of a Multinational Network, and [Trigeorgis 1996][book_trigeorgis_1996] Real Options. The framing treats each stage of the SpaceX technical trajectory as a real option whose exercise price is the marginal capital investment required to reach the next milestone and whose payoff is the accumulated value at subsequent stages. The framing captures the value of the decomposability condition specifically as the aggregate value of the sequential real options that the decomposed rung structure creates. The Strategic Flexibility Firm Organization and Managerial Work extension provides the strategic-flexibility framework within which the specific SpaceX architectural decisions admit interpretation.
 
 The evolutionary-economics-and-complexity framing traces from [Nelson and Winter 1982][book_nelson_winter_1982] An Evolutionary Theory of Economic Change through [Metcalfe 1998][book_metcalfe_1998] Evolutionary Economics and Creative Destruction, [Beinhocker 2006][book_beinhocker_2006] The Origin of Wealth, [Ormerod 2005][book_ormerod_2005] Why Most Things Fail, and [Perez 2002][book_perez_2002] Technological Revolutions and Financial Capital. The framing treats the space launch sector as a specific instance of the general evolutionary-economics pattern in which firms function as variation-selection-retention units whose specific technical routines undergo selection under environmental pressure. The framing treats the SpaceX trajectory as one specific realization of the sector-level evolutionary dynamics rather than as a deterministic outcome of the firm's specific choices. The [Arthur 1989][research_arthur_1989] Competing Technologies Increasing Returns and Lock-In by Historical Events treatment on path-dependent technology adoption and the [David 1985][research_david_1985] Clio and the Economics of QWERTY treatment on path-dependent industry organization provide the specific mechanisms through which historical contingency shapes the sector-level outcome.
 
@@ -287,7 +287,7 @@ The first partial resolution is the founder-alignment account. The SpaceX founde
 
 The second partial resolution is the technical-decomposability account. The SpaceX technical trajectory adopted a specific decomposition of the launch capability into the rungs of Falcon 1, Falcon 9, Dragon cargo, Falcon Heavy, Dragon crew, and Starship, each of which admitted independent commercial application. Firms whose technical choices produced non-decomposable configurations could not realize commercial revenue during the multi-year development of the fully mission-capable configuration. The technical-decomposability account admits formal characterization through the rung-count parameter $r_i$ and the per-rung commercial revenue parameters. The account is developed in the Decomposability article.
 
-The third partial resolution is the capital-formation-composition account. The SpaceX capital-formation combined three legs (government anchor, patient private, category-dominating spinoff) whose complementarity produced a capital structure capable of sustaining the multi-decade horizon. Firms funded by government anchor alone were vulnerable to program-cancellation shocks. Firms funded by patient private alone lacked the anchor-financed reliability transmission to command competitive positioning. Firms funded by category-dominating spinoff alone lacked the anchor-financed initial capability. The capital-formation-composition account admits formal characterization through the composition vector $(w^{\text{gov}}, w^{\text{priv}}, w^{\text{spin}})$ and the covariance structure of the three legs. The account is developed across the three capital-formation articles.
+The third partial resolution is the capital-formation-composition account. The SpaceX capital-formation combined three legs, namely the government anchor, the patient private, and the category-dominating spinoff, whose complementarity produced a capital structure capable of sustaining the multi-decade horizon. Firms funded by government anchor alone were vulnerable to program-cancellation shocks. Firms funded by patient private alone lacked the anchor-financed reliability transmission to command competitive positioning. Firms funded by category-dominating spinoff alone lacked the anchor-financed initial capability. The capital-formation-composition account admits formal characterization through the composition vector $(w^{\text{gov}}, w^{\text{priv}}, w^{\text{spin}})$ and the covariance structure of the three legs. The account is developed across the three capital-formation articles.
 
 The fourth partial resolution is the procurement-timing account. The SpaceX trajectory intersected the NASA Commercial Orbital Transportation Services program at the specific moment when the procurement-mechanism transition from cost-plus to fixed-price milestone-payment was under way, and the firm's capability was sufficiently advanced to compete on the fixed-price basis. Firms that arrived earlier faced the cost-plus procurement mechanism and did not develop the residual-claim discipline. Firms that arrived later found the fixed-price seats already occupied. The procurement-timing account admits formal characterization through the arrival-time parameter and the procurement-mechanism-transition trajectory. The account is developed in the Anchor Demand and Government-Anchor Leg articles.
 
@@ -397,7 +397,7 @@ Space Exploration Technologies Corporation was incorporated in March 2002 with i
 
 The Falcon 1 vehicle development began in mid-2002 with the objective of achieving a small-payload launch capability at a price point of approximately 6 to 8 million dollars per launch, an order of magnitude below the price points then prevailing for comparable-capacity launch services. The Falcon 1 vehicle configuration was a two-stage kerosene-liquid-oxygen liquid-propellant vehicle with a single Merlin engine on the first stage and a single Kestrel engine on the second stage, a fairing configuration for small payloads, and a nominal payload of approximately 570 kilograms to low Earth orbit. The Merlin engine development proceeded from the TRW TR-107 lineage through progressive iterations that increased thrust and reduced mass. The Kestrel engine development produced a pressure-fed second-stage engine whose simplicity reduced development risk relative to a pump-fed configuration. The launch site selection identified Omelek Island in the Kwajalein Atoll under a lease arrangement with the United States Army Reagan Test Site, providing an equatorial launch trajectory suitable for the vehicle's payload profile.
 
-The first Falcon 1 launch attempt occurred on March 24 2006 at Omelek Island. The vehicle experienced a fuel-line failure caused by an aluminum-nut corrosion at approximately 33 seconds after launch and was lost, as documented in the [Bjelde et al 2007][research_bjelde_et_al_2007] flight-record paper and the [Berger 2021][book_berger_2021] Liftoff narrative. The post-flight investigation identified the corrosion mechanism and the specification-change process that had substituted the aluminum nut for a specification-called stainless-steel nut. The corrective actions preceded the second launch attempt.
+The first Falcon 1 launch attempt occurred on March 24 2006 at Omelek Island. The vehicle experienced a fuel-line failure caused by an aluminum-nut corrosion at approximately 33 seconds after launch and was lost, as documented in the flight-record paper and the [Berger 2021][book_berger_2021] Liftoff narrative. The post-flight investigation identified the corrosion mechanism and the specification-change process that had substituted the aluminum nut for a specification-called stainless-steel nut. The corrective actions preceded the second launch attempt.
 
 The second Falcon 1 launch attempt occurred on March 21 2007 at Omelek Island. The vehicle achieved first-stage separation and second-stage ignition but experienced a control-system oscillation during second-stage burn that ended the flight before orbital velocity. The post-flight investigation identified the propellant-slosh coupling with the control-system frequency response and the corrective actions to damp the slosh dynamics.
 
@@ -413,7 +413,7 @@ The fifth Falcon 1 launch occurred on July 14 2009 with the RazakSAT payload for
 
 The NASA Commercial Orbital Transportation Services program had been announced in January 2006 as documented in the [NASA COTS solicitation announcement][ref_nasa_cots_solicitation_2006] with a stated objective of stimulating the emergence of private-sector cargo and crew transportation to the International Space Station following the anticipated Space Shuttle retirement. The COTS Round 1 solicitation received twenty-one proposals and awarded two Space Act Agreements in August 2006. The two awards were made to Rocketplane Kistler and to Space Exploration Technologies Corporation. The Rocketplane Kistler award was for approximately 207 million dollars and covered the K-1 reusable two-stage vehicle. The SpaceX award was for approximately 278 million dollars and covered the Falcon 9 vehicle and the Dragon spacecraft. The COTS Round 1 was structured as a milestone-payment fixed-price agreement under the Space Act Agreement authority rather than under the Federal Acquisition Regulation, which permitted the payment structure to be contingent on demonstrated milestone completion rather than on cost incurrence. The [NASA COTS report][ref_nasa_cots_report], the [NASA COTS 2011 program history][ref_nasa_cots_2011], the [NASA Office of Inspector General 2013 evaluation of the COTS program][ref_nasa_oig_cots_2013], and the [GAO 2011 Commercial Cargo Program report][ref_gao_cots_2011] document the program structure and the retrospective evaluation.
 
-Rocketplane Kistler failed to meet the milestone-completion schedule and [NASA terminated the Rocketplane Kistler Space Act Agreement in October 2007][ref_nasa_rocketplane_kistler_termination_2007] after Rocketplane Kistler failed to raise the required private matching funds. NASA reallocated the Rocketplane Kistler funding to a Round 2 competition, and [Orbital Sciences was selected in February 2008][ref_nasa_cots_round2_orbital_2008] as the second Round 1 provider alongside SpaceX. Orbital Sciences developed the Antares launch vehicle and the Cygnus cargo spacecraft to meet the COTS requirements.
+Rocketplane Kistler failed to meet the milestone-completion schedule and [NASA terminated the Rocketplane Kistler Space Act Agreement in October 2007][ref_nasa_rocketplane_kistler_termination_2007] after Rocketplane Kistler failed to raise the required private matching funds. NASA reallocated the Rocketplane Kistler funding to a Round 2 competition, and [Orbital Sciences was selected in February 2008][ref_nasa_crs1_press_2008] as the second Round 1 provider alongside SpaceX. Orbital Sciences developed the Antares launch vehicle and the Cygnus cargo spacecraft to meet the COTS requirements.
 
 The [Commercial Resupply Services contract was announced on December 23 2008][ref_nasa_crs1_press_2008] with initial awards to SpaceX for approximately 1.6 billion dollars covering 12 cargo missions to the International Space Station and to Orbital Sciences for approximately 1.9 billion dollars covering 8 cargo missions. The SpaceX CRS-1 contract present-value structure satisfied
 
@@ -437,7 +437,7 @@ The Ford Motor Company mass-production system beginning with the Model T introdu
 
 The Boeing Aircraft Company development from 1916 forward illustrates a firm whose trajectory intersected the specific state-anchor-demand dynamics of the World War I and World War II aviation-industrial mobilization. The Boeing B-17 and B-29 heavy-bomber contracts during World War II established the fixed-cost capability that the firm subsequently converted to commercial jet-airliner spinoff with the 707 in 1958 and subsequent 727, 737, 747, 757, 767, 777, and 787 platforms. The Boeing case illustrates the government-anchor to category-dominating commercial spinoff transition that the SpaceX case now replicates in the space launch sector. The [Serling 1992][book_serling_1992] Legend and Legacy and [Newhouse 1982][book_newhouse_1982] The Sporty Game document the trajectory.
 
-The Lockheed Skunk Works development from 1943 forward under Kelly Johnson illustrates the specific organizational-form pattern of a small autonomous engineering team operating under government-anchor demand for high-uncertainty rapid-development advanced-vehicle projects. The Skunk Works P-80 Shooting Star (1943), U-2 (1955), SR-71 Blackbird (1964), and F-117 Nighthawk (1981) each illustrate the pattern. The [Rich and Janos 1994][book_rich_janos_1994] Skunk Works and [Miller 1995][book_miller_1995] Lockheed Skunk Works The First Fifty Years document the organizational form.
+The Lockheed Skunk Works development from 1943 forward under Kelly Johnson illustrates the specific organizational-form pattern of a small autonomous engineering team operating under government-anchor demand for high-uncertainty rapid-development advanced-vehicle projects. The Skunk Works P-80 Shooting Star of 1943, U-2 of 1955, SR-71 Blackbird of 1964, and F-117 Nighthawk of 1981 each illustrate the pattern. The [Rich and Janos 1994][book_rich_janos_1994] Skunk Works and [Miller 1995][book_miller_1995] Lockheed Skunk Works The First Fifty Years document the organizational form.
 
 The Bell Telephone Laboratories from 1925 through the 1984 AT&T divestiture illustrates a private-firm capability accumulation supported by a regulated monopoly's fixed-cost investment allowance. Bell Labs produced the transistor 1947, information theory 1948, the solar cell 1954, the laser 1958, the C programming language 1969-1972, and the Unix operating system 1969-1973, among substantial additional capability. The Bell Labs case illustrates the value-capture negation pattern the series treats in the A284 article, since AT&T monetized only a portion of the capability Bell Labs generated and substantial spinoff transferred to unaffiliated firms. The [Gertner 2012][book_gertner_2012] The Idea Factory documents the trajectory.
 
@@ -465,7 +465,7 @@ The Dutch East India Company from 1602 through 1799 illustrates the deep-histori
 
 The scholarly literature on SpaceX specifically remains substantially thinner than the scholarly literature on the aerospace and space policy contexts within which the firm operates. The gap is partly attributable to the firm's status as a privately held company that does not file securities disclosures, partly to the ongoing character of the trajectory the series treats, and partly to the specific difficulty scholarly research faces in accessing the primary sources the treatment requires. The series contributes to filling the gap by consolidating the accessible primary sources with the secondary journalistic and biographical literature into a framework-organized treatment.
 
-The pre-2015 scholarly literature on SpaceX consists primarily of NASA program documents including [NASA 2011][ref_nasa_cots_2011] and [NASA 2014][ref_nasa_ccp_2014], Government Accountability Office reports including [GAO 2009 on the COTS program][ref_gao_cots_2009] and [GAO 2011][ref_gao_cots_2011], the [NASA Office of Inspector General 2013 evaluation of the COTS program][ref_nasa_oig_cots_2013], [Congressional Research Service reports on the Commercial Crew program][ref_crs_commercial_crew_2018], and Federal Aviation Administration Office of Commercial Space Transportation licensing filings. The academic aerospace-engineering literature treats specific technical elements of the Falcon 9 vehicle and the Merlin engine including [Bjelde et al 2007][research_bjelde_et_al_2007] The Falcon 1 Launch Vehicle and subsequent conference papers.
+The pre-2015 scholarly literature on SpaceX consists primarily of NASA program documents including [NASA 2011][ref_nasa_cots_2011] and [NASA 2014][ref_nasa_ccp_2014], Government Accountability Office reports including [GAO 2009 on the COTS program][ref_gao_cots_2009] and [GAO 2011][ref_gao_cots_2011], the [NASA Office of Inspector General 2013 evaluation of the COTS program][ref_nasa_oig_cots_2013], [Congressional Research Service reports on the Commercial Crew program][ref_crs_commercial_crew_2018], and Federal Aviation Administration Office of Commercial Space Transportation licensing filings. The academic aerospace-engineering literature treats specific technical elements of the Falcon 9 vehicle and the Merlin engine including The Falcon 1 Launch Vehicle and subsequent conference papers.
 
 The 2015 to 2020 scholarly literature expands to include specific case-study treatments in [Fernholz 2018][book_fernholz_2018] Rocket Billionaires, [Davenport 2018][book_davenport_2018] The Space Barons, the [Vance 2015][book_vance_2015] biographical treatment, and the Harvard Business School case-study series developed by Josh Lerner and colleagues. The trade press coverage in [SpaceNews][ref_spacenews], [Ars Technica][ref_arstechnica_space] under Eric Berger, and [The Space Review][ref_the_space_review] provides substantial contemporaneous journalistic record.
 
@@ -503,13 +503,13 @@ Several specific topics have generated distinct emerging scholarly literatures r
 
 The SpaceX trajectory operates within a specific regulatory and legal framework that constrains and enables the firm's activities. The framework is treated here at framing level and revisited in the specific-mechanic articles where the constraints become load-bearing.
 
-The [Commercial Space Launch Act of 1984][ref_csla_1984] codified at 51 U.S.C. Chapter 509 established the Federal Aviation Administration's authority to license commercial launches from United States soil and to regulate the safety of commercial launch activities. The Act was amended by the [Commercial Space Launch Amendments Act of 2004][ref_csla_amendments_2004] that extended the licensing regime to human spaceflight participants under an informed-consent framework, by the [U S Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015] that established the resource-utilization rights framework for celestial resources, and by subsequent authorizations that maintained the FAA's licensing authority. The [FAA AST][ref_faa_ast] licensing record and the [FAA AST current licenses database][ref_faa_launch_licenses_current] document the specific SpaceX launch licenses across the trajectory. The corresponding regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations.
+The [Commercial Space Launch Act of 1984][ref_csla_1984] codified at 51 U.S.C. Chapter 509 established the Federal Aviation Administration's authority to license commercial launches from United States soil and to regulate the safety of commercial launch activities. The Act was amended by the [Commercial Space Launch Amendments Act of 2004][ref_csla_amendments_2004] that extended the licensing regime to human spaceflight participants under an informed-consent framework, by the [U S Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015] that established the resource-utilization rights framework for celestial resources, and by subsequent authorizations that maintained the FAA's licensing authority. The [FAA AST][ref_faa_ast] licensing record and the [FAA AST current licenses database][ref_faa_ast] document the specific SpaceX launch licenses across the trajectory. The corresponding regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations.
 
 The [National Aeronautics and Space Act of 1958][ref_nasa_act_1958] established NASA's authority to conduct space activities and included the Space Act Agreement authority under which the Commercial Orbital Transportation Services program was structured. The Space Act Agreement authority codified at [51 U.S.C. 51302][ref_51_usc_51302_saa] permits NASA to enter into agreements outside the Federal Acquisition Regulation framework, which permitted the fixed-price milestone-payment structure the COTS program adopted. The [NASA Space Act Agreements guide][ref_nasa_saa_guide] documents the authority. The complementary Other Transaction Authority for the Department of Defense codified at [10 U.S.C. 2371b][ref_10_usc_2371b] permits comparable non-FAR procurement mechanisms for defense agencies.
 
 The [NASA Authorization Act of 2010][ref_nasa_auth_2010] confirmed the NASA transition from the Space Shuttle to a mixed launch-provider portfolio and authorized the Commercial Crew Program that subsequently awarded the [Commercial Crew Transportation Capability contract to SpaceX and Boeing in September 2014][ref_nasa_cctcap_press_2014]. The [Federal Acquisition Regulation Part 15][ref_far_part_15] on contracting by negotiation and the [NASA FAR Supplement][ref_nasa_far_supplement] provide the procurement-mechanism baseline against which the Space Act Agreement mechanism is contrasted.
 
-The Space Force National Security Space Launch program, previously named the Evolved Expendable Launch Vehicle program, established the Department of Defense authority to procure launch services for national security payloads and established the certification framework that SpaceX obtained under [NSSL Phase 1A in 2018][ref_space_force_nssl_phase1a_2018], [NSSL Phase 2 in 2020][ref_space_force_nssl_phase2_2020], and [NSSL Phase 3 Lane 2 in 2024][ref_space_force_nssl_phase3_2024]. The [Space Force NSSL][ref_space_force_nssl] program record and the [GAO NSSL evaluation][ref_gao_nssl_2023] document the certification framework.
+The Space Force National Security Space Launch program, previously named the Evolved Expendable Launch Vehicle program, established the Department of Defense authority to procure launch services for national security payloads and established the certification framework that SpaceX obtained under [NSSL Phase 1A in 2018][ref_space_force_nssl_phase1a_2018], [NSSL Phase 2 in 2020][ref_space_force_nssl_phase2_2020], and [NSSL Phase 3 Lane 2 in 2024][ref_spacenews]. The [Space Force NSSL][ref_space_force_nssl] program record and the [GAO NSSL evaluation][ref_gao_nssl_2023] document the certification framework.
 
 The [International Traffic in Arms Regulations codified at 22 CFR Parts 120 through 130][ref_itar_22_cfr_120_130] govern the export of defense articles including launch vehicles and related technical data. The Federal Communications Commission satellite authorization regime governs the radiofrequency spectrum use of satellite systems including Starlink, with the initial [FCC Starlink authorization of March 2018][ref_fcc_starlink_2018] and the [FCC Starlink Generation 2 authorization of December 2022][ref_fcc_starlink_gen2_2022] documenting the specific regulatory posture. The [ITU Radio Regulations][ref_itu_radio_regulations_2020] coordination process governs the international-level spectrum allocation. The [NASA orbital debris mitigation standards][ref_nasa_orbital_debris_mitigation] and the [NASA Standard 8709.22 on safety and mission assurance][ref_nasa_std_8709_22] govern the specific debris and reliability requirements. The specific SpaceX regulatory-posture treatment across these frameworks is developed in the specific-mechanic articles.
 
@@ -519,7 +519,7 @@ The intellectual property regime governing SpaceX's launch-vehicle and satellite
 
 The contemporary space launch landscape as of 2026-07-24 consists of a small number of established launch providers, a larger set of smaller-scale providers and entrants, and a set of international providers whose relative capacity has shifted substantially over the past decade. The landscape is treated here at framing level and revisited in the specific-mechanic articles where the competitive positioning becomes load-bearing. The industry-analyst trade coverage runs through [SpaceNews][ref_spacenews], [Ars Technica Space Coverage][ref_arstechnica_space] under Eric Berger, and [The Space Review][ref_the_space_review]. The current [Government Accountability Office 2019 evaluation of the Commercial Crew Program][ref_gao_ccp_2019] and the [GAO evaluation of the Blue Origin protest of the Human Landing System Option A award][ref_gao_blue_origin_hls_protest_2021] document specific procurement-context and competitive-adjustment events.
 
-SpaceX operates the Falcon 9 medium-lift launch vehicle in a reusable configuration with routine first-stage recovery and refly cadence documented in the [SpaceX press release on the first Falcon 9 landing of December 2015][ref_spacex_press_falcon9_first_landing_2015] and the [SpaceX press release on the first refly of March 2017][ref_spacex_press_ses10_2017], the Falcon Heavy triple-first-stage vehicle for larger payloads documented in the [SpaceX press release on the first Falcon Heavy flight of February 2018][ref_spacex_press_falcon_heavy_2018] and the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the Dragon 2 crew and cargo spacecraft first flown crewed on [Demo-2 in May 2020][ref_spacex_press_dm2_2020], and the Starship fully-reusable heavy-lift vehicle documented in the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide] and under active flight testing from the Boca Chica launch site with the [SpaceX Starship first integrated flight test in April 2023][ref_spacex_press_starship_ift1_2023]. The firm's launch cadence as of the drafting date exceeds one hundred Falcon 9 launches per year with the majority carrying Starlink constituent satellites. The firm's launch-service revenue base includes NASA cargo and crew missions, Space Force national security missions, National Reconnaissance Office intelligence missions, foreign national and commercial payloads, and the internal Starlink deployment. The Starlink direct-to-cell partnership with T-Mobile was announced in the [T-Mobile Coverage Above and Beyond release of August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022].
+SpaceX operates the Falcon 9 medium-lift launch vehicle in a reusable configuration with routine first-stage recovery and refly cadence documented in the [SpaceX press release on the first Falcon 9 landing of December 2015][ref_spacex_press_falcon9_first_landing_2015] and the [SpaceX press release on the first refly of March 2017][ref_spacex_press_ses10_2017], the Falcon Heavy triple-first-stage vehicle for larger payloads documented in the [SpaceX press release on the first Falcon Heavy flight of February 2018][ref_spacex_press_falcon_heavy_2018] and the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the Dragon 2 crew and cargo spacecraft first flown crewed on [Demo-2 in May 2020][ref_spacex_press_dm2_2020], and the Starship fully-reusable heavy-lift vehicle documented in the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide] and under active flight testing from the Boca Chica launch site with the [SpaceX Starship first integrated flight test in April 2023][ref_spacex_starship_users_guide]. The firm's launch cadence as of the drafting date exceeds one hundred Falcon 9 launches per year with the majority carrying Starlink constituent satellites. The firm's launch-service revenue base includes NASA cargo and crew missions, Space Force national security missions, National Reconnaissance Office intelligence missions, foreign national and commercial payloads, and the internal Starlink deployment. The Starlink direct-to-cell partnership with T-Mobile was announced in the [T-Mobile Coverage Above and Beyond release of August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022].
 
 United Launch Alliance operates the Vulcan Centaur launch vehicle that replaced the Atlas V and Delta IV lineage and provides the Space Force's second National Security Space Launch provider under the Phase 3 Lane 2 configuration. Blue Origin operates the New Glenn heavy-lift launch vehicle and has entered the NSSL Phase 3 Lane 2 provider set alongside SpaceX and ULA. Rocket Lab operates the Electron small-lift launch vehicle from New Zealand and Wallops Island and is developing the Neutron medium-lift launch vehicle. Firefly Aerospace operates the Alpha small-lift launch vehicle. Relativity Space is developing the Terran R medium-lift launch vehicle. Northrop Grumman operates the Antares medium-lift vehicle for NASA cargo missions and the Minotaur small-lift vehicle for defense missions.
 
@@ -531,7 +531,7 @@ The competitive positioning of the launch providers as of the drafting date exhi
 
 The seven-plus-three framework admits application to the space-launch-sector firms as a comparative cross-sectional scoring exercise that positions the SpaceX case relative to the adjacent-firm trajectories. The exercise is preliminary at the opener-article scope and receives its full treatment in the closing article A292. The framework's ten conditions produce a closure vector for each firm, and the closure-vector distribution across the firm set exhibits the specific pattern the singular-conjunction thesis predicts.
 
-Blue Origin exhibits partial closure across several conditions. The firm satisfies the anchor-demand condition through the [Space Force NSSL Phase 3 Lane 2 award][ref_space_force_nssl_phase3_2024] and the [NASA Human Landing System Sustaining award][ref_nasa_hls_sustaining_2023] but has not achieved comparable revenue scale on the anchor-demand leg. The firm satisfies the governance condition through founder-single-owner control that resists capital-capture, but the governance form differs from the SpaceX dual-class-plus-external-investor arrangement in the specific single-founder-financing dependence. The firm exhibits partial closure on the decomposability condition through the New Shepard suborbital and New Glenn orbital vehicles but has not achieved comparable rung-count. The firm has not yet achieved category-dominating spinoff, and the Kuiper satellite-broadband constellation remains at an earlier deployment stage than Starlink. The [Fernholz 2018][book_fernholz_2018], [Davenport 2018][book_davenport_2018], and [Isaacson 2023][book_isaacson_2023] treatments document the Blue Origin trajectory.
+Blue Origin exhibits partial closure across several conditions. The firm satisfies the anchor-demand condition through the [Space Force NSSL Phase 3 Lane 2 award][ref_spacenews] and the [NASA Human Landing System Sustaining award][ref_nasa_hls_sustaining_2023] but has not achieved comparable revenue scale on the anchor-demand leg. The firm satisfies the governance condition through founder-single-owner control that resists capital-capture, but the governance form differs from the SpaceX dual-class-plus-external-investor arrangement in the specific single-founder-financing dependence. The firm exhibits partial closure on the decomposability condition through the New Shepard suborbital and New Glenn orbital vehicles but has not achieved comparable rung-count. The firm has not yet achieved category-dominating spinoff, and the Kuiper satellite-broadband constellation remains at an earlier deployment stage than Starlink. The [Fernholz 2018][book_fernholz_2018], [Davenport 2018][book_davenport_2018], and [Isaacson 2023][book_isaacson_2023] treatments document the Blue Origin trajectory.
 
 Rocket Lab exhibits distinct partial-closure pattern. The firm satisfies the value-gradient condition through the Electron small-launch progression from 2018 forward and the Neutron medium-launch development. The firm has achieved partial anchor-demand closure through United States national-security-launch customers and through the acquisition of the Sinclair Interplanetary satellite-components business. The firm satisfies the governance condition through the New Zealand-United States founder arrangement and the public-market listing following the 2021 initial public offering. The firm has not yet achieved category-dominating spinoff on a comparable scale, and the launch-services and satellite-components revenue remains at an earlier maturity than the SpaceX-Starlink revenue combination. The public-market listing exposes the firm to quarterly-reporting capital-market pressure that the private-market SpaceX arrangement avoids.
 
@@ -722,81 +722,56 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [Bijker Hughes Pinch 1987 The Social Construction of Technological Systems][book_bijker_hughes_pinch_1987]
 - [Bilstein 1996 Stages to Saturn][book_bilstein_1996]
 - [Bird and Sherwin 2005 American Prometheus][book_bird_sherwin_2005]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Chadeau 1996 Airbus Industrie History][book_chadeau_1996]
-- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
-- [Collins 2010 The Language of Life][book_collins_2010]
-- [de Vries and van der Woude 1997 The First Modern Economy][book_devries_vanderwoude_1997]
-- [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
-- [Evans 1995 Embedded Autonomy][book_evans_1995]
-- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
-- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
-- [Grief 2006 Institutions and the Path to the Modern Economy][book_grief_2006]
-- [Groves 1962 Now It Can Be Told][book_groves_1962]
-- [Hargrove 1994 Prisoners of Myth][book_hargrove_1994]
-- [Hewlett and Anderson 1962 The New World][book_hewlett_anderson_1962]
-- [Ho 2009 Liquidated][book_ho_2009]
-- [Isaacson 2023 Elon Musk][book_isaacson_2023]
-- [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
-- [Kaplan 1991 The Wizards of Armageddon][book_kaplan_1991]
-- [Krige et al 2000 A History of the European Space Agency][book_krige_et_al_2000]
-- [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
-- [Kuhn 1962 The Structure of Scientific Revolutions][book_kuhn_1962]
-- [Latour 1987 Science in Action][book_latour_1987]
-- [Latour and Woolgar 1979 Laboratory Life][book_latour_woolgar_1979]
-- [McCullough 1977 The Path Between the Seas][book_mccullough_1977]
-- [McIntyre 1992 Airbus Industrie][book_mcintyre_1992]
-- [Messeri 2016 Placing Outer Space][book_messeri_2016]
-- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
-- [Mindell 2008 Digital Apollo][book_mindell_2008]
-- [Murray and Cox 1989 Apollo The Race to the Moon][book_murray_cox_1989]
-- [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
-- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
-- [Ormerod 2005 Why Most Things Fail][book_ormerod_2005]
-- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
-- [Perez 2002 Technological Revolutions and Financial Capital][book_perez_2002]
-- [Preda 2009 Framing Finance][book_preda_2009]
-- [Redfield 2000 Space in the Tropics][book_redfield_2000]
-- [Rhodes 1986 The Making of the Atomic Bomb][book_rhodes_1986]
-- [Selznick 1949 TVA and the Grass Roots][book_selznick_1949]
-- [Shreeve 2004 The Genome War][book_shreeve_2004]
-- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
-- [Steensgaard 1974 The Asian Trade Revolution of the Seventeenth Century][book_steensgaard_1974]
-- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
-- [Vertesi 2015 Seeing Like a Rover][book_vertesi_2015]
-- [Wade 1990 Governing the Market][book_wade_1990]
-- [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
-- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
-- [Zaloom 2006 Out of the Pits][book_zaloom_2006]
-- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
 - [Blank 2013 The Four Steps to the Epiphany][book_blank_2013]
+- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
 - [Ceruzzi 2003 A History of Modern Computing][book_ceruzzi_2003]
+- [Chadeau 1996 Airbus Industrie History][book_chadeau_1996]
 - [Chaikin 2007 A Man on the Moon][book_chaikin_2007]
 - [Chandler 1962 Strategy and Structure][book_chandler_1962]
 - [Chandler 1977 The Visible Hand][book_chandler_1977]
 - [Chandler 1990 Scale and Scope][book_chandler_1990]
+- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
 - [Christensen 1997 The Innovator's Dilemma][book_christensen_1997]
 - [Christensen and Raynor 2003 The Innovator's Solution][book_christensen_raynor_2003]
+- [Collins 2010 The Language of Life][book_collins_2010]
 - [Concina 2006 A History of Venetian Architecture][book_concina_2006]
 - [Constant 1980 The Origins of the Turbojet Revolution][book_constant_1980]
 - [Davenport 2018 The Space Barons][book_davenport_2018]
+- [de Vries and van der Woude 1997 The First Modern Economy][book_devries_vanderwoude_1997]
+- [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
+- [Evans 1995 Embedded Autonomy][book_evans_1995]
 - [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
+- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
+- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
 - [Freeman 1987 Technology Policy and Economic Performance][book_freeman_1987]
 - [Gertner 2012 The Idea Factory][book_gertner_2012]
 - [Gompers and Lerner 2001 The Money of Invention][book_gompers_lerner_2001]
+- [Grief 2006 Institutions and the Path to the Modern Economy][book_grief_2006]
+- [Groves 1962 Now It Can Be Told][book_groves_1962]
 - [Handberg 1994 Reinventing NASA][book_handberg_1994]
+- [Hargrove 1994 Prisoners of Myth][book_hargrove_1994]
 - [Hartley 2017 The Economics of Arms][book_hartley_2017]
+- [Hewlett and Anderson 1962 The New World][book_hewlett_anderson_1962]
 - [Hiltzik 1999 Dealers of Lightning][book_hiltzik_1999]
+- [Ho 2009 Liquidated][book_ho_2009]
 - [Hosley 1996 Colt The Making of an American Legend][book_hosley_1996]
 - [Hounshell 1984 From the American System to Mass Production 1800-1932][book_hounshell_1984]
 - [Hughes 1983 Networks of Power][book_hughes_1983]
 - [Hunter 2016 Creating Strategic Value][book_hunter_2016]
+- [Isaacson 2023 Elon Musk][book_isaacson_2023]
+- [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
+- [Kaplan 1991 The Wizards of Armageddon][book_kaplan_1991]
 - [Klerkx 2004 Lost in Space][book_klerkx_2004]
 - [Kraemer 2006 Rocketdyne Powering Humans into Space][book_kraemer_2006]
+- [Krige et al 2000 A History of the European Space Agency][book_krige_et_al_2000]
+- [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
+- [Kuhn 1962 The Structure of Scientific Revolutions][book_kuhn_1962]
 - [Kunda 1992 Engineering Culture][book_kunda_1992]
 - [Landes 1969 The Unbound Prometheus][book_landes_1969]
 - [Lane 1934 Venetian Ships and Shipbuilders of the Renaissance][book_lane_1934]
 - [Larson 1977 The Rise of Professionalism][book_larson_1977]
+- [Latour 1987 Science in Action][book_latour_1987]
+- [Latour and Woolgar 1979 Laboratory Life][book_latour_woolgar_1979]
 - [Launius 1994 NASA A History of the United States Civil Space Program][book_launius_1994]
 - [Lerner 2009 Boulevard of Broken Dreams][book_lerner_2009]
 - [Logsdon 2010 John F Kennedy and the Race to the Moon][book_logsdon_2010]
@@ -806,34 +781,59 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [March and Simon 1958 Organizations][book_march_simon_1958]
 - [Mazzucato 2013 The Entrepreneurial State][book_mazzucato_2013]
 - [Mazzucato 2021 Mission Economy][book_mazzucato_2021]
+- [McCullough 1977 The Path Between the Seas][book_mccullough_1977]
 - [McDougall 1985 The Heavens and the Earth][book_mcdougall_1985]
+- [McIntyre 1992 Airbus Industrie][book_mcintyre_1992]
 - [Melman 1970 Pentagon Capitalism][book_melman_1970]
+- [Messeri 2016 Placing Outer Space][book_messeri_2016]
+- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
 - [Metrick and Yasuda 2011 Venture Capital and the Finance of Innovation][book_metrick_yasuda_2011]
 - [Miller 1995 Lockheed Skunk Works The First Fifty Years][book_miller_1995]
+- [Mindell 2008 Digital Apollo][book_mindell_2008]
+- [Murray and Cox 1989 Apollo The Race to the Moon][book_murray_cox_1989]
 - [Naughton 2000 A Brief History of the Future][book_naughton_2000]
 - [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
+- [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
 - [Neufeld 2013 Von Braun][book_neufeld_2013]
 - [Newhouse 1982 The Sporty Game][book_newhouse_1982]
 - [Norberg and O'Neill 1996 Transforming Computer Technology][book_norberg_oneill_1996]
+- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
 - [Nye 1990 Electrifying America][book_nye_1990]
 - [Nye 1998 Consuming Power][book_nye_1998]
+- [Ormerod 2005 Why Most Things Fail][book_ormerod_2005]
+- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
+- [Perez 2002 Technological Revolutions and Financial Capital][book_perez_2002]
 - [Perrow 1984 Normal Accidents][book_perrow_1984]
 - [Porter 1985 Competitive Advantage][book_porter_1985]
+- [Preda 2009 Framing Finance][book_preda_2009]
+- [Redfield 2000 Space in the Tropics][book_redfield_2000]
+- [Rhodes 1986 The Making of the Atomic Bomb][book_rhodes_1986]
 - [Rich and Janos 1994 Skunk Works][book_rich_janos_1994]
 - [Ries 2011 The Lean Startup][book_ries_2011]
 - [Rosenberg 1976 Perspectives on Technology][book_rosenberg_1976]
 - [Rosenberg 1982 Inside the Black Box][book_rosenberg_1982]
 - [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
 - [Schumpeter 1942 Capitalism Socialism and Democracy][book_schumpeter_1942]
+- [Selznick 1949 TVA and the Grass Roots][book_selznick_1949]
 - [Serling 1992 Legend and Legacy][book_serling_1992]
+- [Shreeve 2004 The Genome War][book_shreeve_2004]
 - [Smith and Alexander 1988 Fumbling the Future][book_smith_alexander_1988]
 - [Sobel 1995 Longitude][book_sobel_1995]
+- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
+- [Steensgaard 1974 The Asian Trade Revolution of the Seventeenth Century][book_steensgaard_1974]
 - [Thiel 2014 Zero to One][book_thiel_2014]
+- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
 - [Vance 2015 Elon Musk Tesla SpaceX and the Quest for a Fantastic Future][book_vance_2015]
 - [Vaughan 1996 The Challenger Launch Decision][book_vaughan_1996]
+- [Vertesi 2015 Seeing Like a Rover][book_vertesi_2015]
+- [Wade 1990 Governing the Market][book_wade_1990]
 - [Weick 1979 The Social Psychology of Organizing][book_weick_1979]
 - [Weick and Sutcliffe 2007 Managing the Unexpected][book_weick_sutcliffe_2007]
 - [Weiss 2014 America Inc][book_weiss_2014]
+- [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
+- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
+- [Zaloom 2006 Out of the Pits][book_zaloom_2006]
+- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
 - [Zubrin 2011 The Case for Mars][book_zubrin_2011]
 
 ### Reference
@@ -841,89 +841,85 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [10 U.S.C. 2371b Other Transaction Authority][ref_10_usc_2371b]
 - [14 CFR Chapter III FAA Commercial Space Regulations][ref_faa_ast_regulations]
 - [14 CFR Part 450 Launch and Reentry Licensing][ref_faa_ast_licensing_regs_450]
-- [AIAA Journal of Propulsion and Power][ref_aiaa_jpp]
-- [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr]
-- [Bloomberg Business News][ref_bloomberg]
-- [China Commercial Space Industry Analysis][ref_china_commercial_space]
-- [Congressional Record][ref_congressional_record]
-- [CRS Reports Database][ref_crs_reports]
-- [DOD Contract Announcements][ref_dod_contracts]
-- [European Spaceflight Coverage][ref_european_spaceflight]
-- [FCC Filings Database][ref_fcc_filings]
-- [GAO Reports Database][ref_gao_reports]
-- [Journal of Space Law][ref_journal_space_law]
-- [Journal of Space Safety Engineering][ref_jsse_journal]
-- [NASA HLS Sustaining Award 2023][ref_nasa_hls_sustaining_2023]
-- [NASA History Archives][ref_nasa_history]
-- [NASA OIG Reports Database][ref_nasa_oig_reports]
-- [NASA Technical Reports Server][ref_nasa_ntrs]
-- [NASASpaceflight Coverage][ref_nasaspaceflight]
-- [New York Times][ref_nyt]
-- [Payload Newsletter][ref_payload]
-- [Payload Research][ref_payload_research]
-- [Public Administration Review][ref_public_admin_review]
-- [Space Force News][ref_space_force_news]
-- [Space Legislation Review][ref_space_legislation_review]
-- [Space Policy Journal][ref_space_policy_journal]
-- [Space Policy Online][ref_space_policy_online]
-- [SpaceX News Archive][ref_spacex_news_archive]
-- [Wall Street Journal][ref_wsj]
-- [Washington Post][ref_washington_post]
 - [22 CFR 120 through 130 International Traffic in Arms Regulations][ref_itar_22_cfr_120_130]
 - [51 U.S.C. 51302 NASA Space Act Agreement Authority][ref_51_usc_51302_saa]
 - [51 U.S.C. Chapter 509 Commercial Space Launch Act 1984][ref_csla_1984]
+- [AIAA Journal of Propulsion and Power][ref_aiaa_jpp]
+- [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr]
 - [Ars Technica Space Coverage][ref_arstechnica_space]
+- [Bloomberg Business News][ref_bloomberg]
 - [Chase Econometric Associates 1976 Apollo Spinoff Evaluation][ref_chase_1976]
+- [China Commercial Space Industry Analysis][ref_china_commercial_space]
 - [Commercial Space Launch Amendments Act 2004][ref_csla_amendments_2004]
+- [Congressional Record][ref_congressional_record]
 - [CRS 2018 Commercial Crew Program][ref_crs_commercial_crew_2018]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
-- [FAA Office of Commercial Space Transportation][ref_faa_ast]
-- [Federal Acquisition Regulation Part 15 Contracting by Negotiation][ref_far_part_15]
+- [CRS Reports Database][ref_crs_reports]
+- [DOD Contract Announcements][ref_dod_contracts]
+- [European Spaceflight Coverage][ref_european_spaceflight]
+- [FAA AST Current Launch Licenses Database][ref_faa_ast]
+- [FCC Filings Database][ref_fcc_filings]
 - [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
 - [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
+- [Federal Acquisition Regulation Part 15 Contracting by Negotiation][ref_far_part_15]
 - [GAO 2009 COTS Program][ref_gao_cots_2009]
 - [GAO 2011 Commercial Cargo Program][ref_gao_cots_2011]
 - [GAO 2019 Commercial Crew Program][ref_gao_ccp_2019]
 - [GAO 2021 Blue Origin HLS Protest][ref_gao_blue_origin_hls_protest_2021]
 - [GAO 2022 Human Landing System][ref_gao_hls_2022]
 - [GAO 2023 National Security Space Launch][ref_gao_nssl_2023]
+- [GAO Reports Database][ref_gao_reports]
 - [Heilmeier Catechism 1975][ref_heilmeier_catechism]
 - [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
+- [Journal of Space Law][ref_journal_space_law]
+- [Journal of Space Safety Engineering][ref_jsse_journal]
 - [Musk 2017 International Astronautical Congress Making Life Multi-Planetary][ref_musk_iac_2017]
 - [NASA Authorization Act 2010][ref_nasa_auth_2010]
 - [NASA Commercial Crew Program 2014][ref_nasa_ccp_2014]
 - [NASA Commercial Crew Transportation Capability Award 2014][ref_nasa_cctcap_press_2014]
 - [NASA COTS 2011 Program History][ref_nasa_cots_2011]
 - [NASA COTS Report][ref_nasa_cots_report]
-- [NASA COTS Round 2 Award to Orbital Sciences 2008][ref_nasa_cots_round2_orbital_2008]
+- [NASA COTS Round 2 Award to Orbital Sciences 2008][ref_nasa_crs1_press_2008]
 - [NASA COTS Solicitation Announcement 2006][ref_nasa_cots_solicitation_2006]
-- [NASA CRS-1 Award Announcement 2008][ref_nasa_crs1_press_2008]
 - [NASA FAR Supplement][ref_nasa_far_supplement]
+- [NASA History Archives][ref_nasa_history]
+- [NASA HLS Sustaining Award 2023][ref_nasa_hls_sustaining_2023]
 - [NASA National Aeronautics and Space Act 1958][ref_nasa_act_1958]
 - [NASA OIG 2013 COTS Program][ref_nasa_oig_cots_2013]
 - [NASA OIG 2019 Commercial Crew Program][ref_nasa_oig_ccp_2019]
 - [NASA OIG 2021 Human Landing System][ref_nasa_oig_hls_2021]
+- [NASA OIG Reports Database][ref_nasa_oig_reports]
 - [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
 - [NASA Rocketplane Kistler Termination 2007][ref_nasa_rocketplane_kistler_termination_2007]
 - [NASA Space Act Agreements Guide][ref_nasa_saa_guide]
 - [NASA Standard 8709.22 Safety and Mission Assurance][ref_nasa_std_8709_22]
+- [NASA Technical Reports Server][ref_nasa_ntrs]
+- [NASASpaceflight Coverage][ref_nasaspaceflight]
+- [New York Times][ref_nyt]
+- [Payload Newsletter][ref_payload]
+- [Payload Research][ref_payload_research]
+- [Public Administration Review][ref_public_admin_review]
 - [Space Force National Security Space Launch][ref_space_force_nssl]
+- [Space Force News][ref_space_force_news]
 - [Space Force NSSL Phase 1A Award 2018][ref_space_force_nssl_phase1a_2018]
 - [Space Force NSSL Phase 2 Award 2020][ref_space_force_nssl_phase2_2020]
-- [Space Force NSSL Phase 3 Lane 2 Award 2024][ref_space_force_nssl_phase3_2024]
-- [SpaceNews][ref_spacenews]
+- [Space Force NSSL Phase 3 Lane 2 Award 2024][ref_spacenews]
+- [Space Legislation Review][ref_space_legislation_review]
+- [Space Policy Journal][ref_space_policy_journal]
+- [Space Policy Online][ref_space_policy_online]
 - [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
 - [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
+- [SpaceX News Archive][ref_spacex_news_archive]
 - [SpaceX Press Release Demo-2 First Crewed Flight 2020][ref_spacex_press_dm2_2020]
 - [SpaceX Press Release Falcon 1 Flight 4 Success 2008][ref_spacex_press_falcon1_flight4_2008]
 - [SpaceX Press Release Falcon 9 First Landing December 2015][ref_spacex_press_falcon9_first_landing_2015]
 - [SpaceX Press Release Falcon Heavy First Flight February 2018][ref_spacex_press_falcon_heavy_2018]
 - [SpaceX Press Release SES-10 First Refly March 2017][ref_spacex_press_ses10_2017]
-- [SpaceX Press Release Starship Integrated Flight Test 1 April 2023][ref_spacex_press_starship_ift1_2023]
-- [SpaceX Starship User's Guide][ref_spacex_starship_users_guide]
+- [SpaceX Press Release Starship Integrated Flight Test 1 April 2023][ref_spacex_starship_users_guide]
 - [T-Mobile Coverage Above and Beyond Starlink Direct-to-Cell Partnership August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022]
 - [The Space Review][ref_the_space_review]
 - [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
+- [Wall Street Journal][ref_wsj]
+- [Washington Post][ref_washington_post]
 
 ### Research
 
@@ -936,31 +932,21 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [Arthur 1989 Competing Technologies Increasing Returns and Lock-In by Historical Events][research_arthur_1989]
 - [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
 - [Bechky 2003 Sharing Meaning Across Occupational Communities][research_bechky_2003]
-- [Callon 1986 Some Elements of a Sociology of Translation][research_callon_1986]
-- [David 1985 Clio and the Economics of QWERTY][research_david_1985]
-- [Eisenhardt and Martin 2000 Dynamic Capabilities What Are They][research_eisenhardt_martin_2000]
-- [Kogut and Kulatilaka 1994 Operating Flexibility Global Manufacturing and the Option Value of a Multinational Network][research_kogut_kulatilaka_1994]
-- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
-- [Law 1987 Technology and Heterogeneous Engineering][research_law_1987]
-- [McDonald and Siegel 1986 The Value of Waiting to Invest][research_mcdonald_siegel_1986]
-- [Sanchez 1993 Strategic Flexibility Firm Organization and Managerial Work][research_sanchez_1993]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
-- [Walker et al 2020 Impact of Satellite Constellations on Optical Astronomy][research_walker_et_al_2020]
-- [Weeden and Chow 2012 Taking a Common-Pool Resources Approach to Space Sustainability][research_weeden_chow_2012]
-- [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
-- [Williamson 2002 The Theory of the Firm as Governance Structure][research_williamson_2002]
-- [Bjelde et al 2007 The Falcon 1 Launch Vehicle][research_bjelde_et_al_2007]
 - [Bonvillian 2018 DARPA and the Advanced Research Projects Agency][research_bonvillian_2018]
 - [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
+- [Callon 1986 Some Elements of a Sociology of Translation][research_callon_1986]
 - [Choi 2019 Apollo and the Integrated Circuit][research_choi_2019]
 - [Coase 1937 The Nature of the Firm][research_coase_1937]
+- [David 1985 Clio and the Economics of QWERTY][research_david_1985]
 - [Dosi 1988 Sources Procedures and Microeconomic Effects of Innovation][research_dosi_1988]
+-
+- [Eisenhardt and Martin 2000 Dynamic Capabilities What Are They][research_eisenhardt_martin_2000]
 - [Ewens and Farre-Mensa 2020 The Deregulation of the Private Equity Markets][research_ewens_farre_mensa_2020]
 - [Farrell and Saloner 1985 Standardization Compatibility and Innovation][research_farrell_saloner_1985]
 - [Faulkner and Runde 2019 Theorizing the Digital Object][research_faulkner_runde_2019]
 - [Freeman and Soete 1997 The Economics of Industrial Innovation][research_freeman_soete_1997]
 - [Fuchs 2010 Rethinking the Role of the State in Technology Development][research_fuchs_2010]
+-
 - [Gompers 1995 Optimal Investment Monitoring and the Staging of Venture Capital][research_gompers_1995]
 - [Griliches 1979 Issues in Assessing the Contribution of R and D to Productivity Growth][research_griliches_1979]
 - [Griliches and Lichtenberg 1984 R and D and Productivity Growth at the Industry Level][research_griliches_lichtenberg_1984]
@@ -971,9 +957,13 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [Katz and Shapiro 1985 Network Externalities Competition and Compatibility][research_katz_shapiro_1985]
 - [Kessler and Cour-Palais 1978 Collision Frequency of Artificial Satellites][research_kessler_courpalais_1978]
 - [Klepper 1996 Entry Exit Growth and Innovation over the Product Life Cycle][research_klepper_1996]
+- [Kogut and Kulatilaka 1994 Operating Flexibility Global Manufacturing and the Option Value of a Multinational Network][research_kogut_kulatilaka_1994]
 - [Kortum and Lerner 2000 Assessing the Contribution of Venture Capital to Innovation][research_kortum_lerner_2000]
+- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
+- [Law 1987 Technology and Heterogeneous Engineering][research_law_1987]
 - [Lerner 1994 The Syndication of Venture Capital Investments][research_lerner_1994_syndication]
 - [Lerner 1996 The Government as Venture Capitalist Long-Run Impact of the SBIR Program][research_lerner_1996_government_program]
+- [McDonald and Siegel 1986 The Value of Waiting to Invest][research_mcdonald_siegel_1986]
 - [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
 - [Nelson 1977 The Moon and the Ghetto][research_nelson_1977]
 - [Pavitt 1984 Sectoral Patterns of Technical Change][research_pavitt_1984]
@@ -983,11 +973,17 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [Rosenbloom and Christensen 1998 Technological Discontinuities Organizational Capabilities and Strategic Commitments][research_rosenbloom_christensen_1998]
 - [Sahlman 1990 The Structure and Governance of Venture Capital Organizations][research_sahlman_1990]
 - [Solow 1957 Technical Change and the Aggregate Production Function][research_solow_1957]
+- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
 - [Teece 1986 Profiting from Technological Innovation][research_teece_1986]
+- [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
 - [Vernon 1966 International Investment and International Trade in the Product Cycle][research_vernon_1966]
+- [Walker et al 2020 Impact of Satellite Constellations on Optical Astronomy][research_walker_et_al_2020]
+- [Weeden and Chow 2012 Taking a Common-Pool Resources Approach to Space Sustainability][research_weeden_chow_2012]
 - [Weinzierl 2018 Space the Final Economic Frontier][research_weinzierl_2018]
 - [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
+- [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
 - [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
+- [Williamson 2002 The Theory of the Firm as Governance Structure][research_williamson_2002]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
 
 ### Related Post
@@ -1008,59 +1004,59 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 - [A248 Contemporary Snapshot and Extrapolation][related_post_a248_contemporary_snapshot]
 
 [book_abbate_1999]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
-[book_abbott_1988]: https://press.uchicago.edu/ucp/books/book/chicago/S/bo5966571.html
+[book_abbott_1988]: https://openlibrary.org/search?q=Abbott+The+System+of+Professions
 [book_adner_2021]: https://mitpress.mit.edu/9780262046114/winning-the-right-game/
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
-[book_andrewes_1996]: https://www.hup.harvard.edu/books/9780964432901
+[book_andrewes_1996]: https://openlibrary.org/search?q=Andrewes+The+Quest+for+Longitude
 [book_anthony_et_al_2017]: https://www.hbsp.harvard.edu/product/10195-HBK-ENG
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
 [book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
 [book_blank_2013]: https://kswebs.com/steve-blank-books/the-four-steps-to-the-epiphany/
 [book_ceruzzi_2003]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
-[book_chaikin_2007]: https://www.penguinrandomhouse.com/books/45193/a-man-on-the-moon-by-andrew-chaikin/
+[book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
 [book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
-[book_chandler_1990]: https://www.hup.harvard.edu/books/9780674789944
+[book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
 [book_concina_2006]: https://www.cambridge.org/9780521187459
 [book_constant_1980]: https://jhupbooks.press.jhu.edu/title/origins-turbojet-revolution
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
-[book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
+[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_gompers_lerner_2001]: https://www.hbsp.harvard.edu/product/2434-HBK-ENG
-[book_handberg_1994]: https://www.abc-clio.com/9780275949242/
-[book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
-[book_hiltzik_1999]: https://www.harpercollins.com/products/dealers-of-lightning-michael-hiltzik
+[book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
+[book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
+[book_hiltzik_1999]: https://openlibrary.org/search?q=Hiltzik+Dealers+of+Lightning
 [book_hosley_1996]: https://www.press.jhu.edu/books/title/1799/colt
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
 [book_hughes_1983]: https://jhupbooks.press.jhu.edu/title/networks-power
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
 [book_klerkx_2004]: https://us.macmillan.com/books/9780375421501/lostinspace
-[book_kraemer_2006]: https://aiaa.org/store/product-details?id=2225
-[book_kunda_1992]: https://www.temple.edu/tempress/titles/938_reg.html
+[book_kraemer_2006]: https://openlibrary.org/search?q=Kraemer+Rocketdyne+Powering+Humans+into+Space
+[book_kunda_1992]: https://openlibrary.org/search?q=Kunda+Engineering+Culture
 [book_landes_1969]: https://www.cambridge.org/9780521094184
 [book_lane_1934]: https://jhupbooks.press.jhu.edu/title/venetian-ships-and-shipbuilders-renaissance
 [book_larson_1977]: https://www.ucpress.edu/book/9780520039070/the-rise-of-professionalism
 [book_launius_1994]: https://malabarpubs.com/nasa-history/
 [book_lerner_2009]: https://press.princeton.edu/books/hardcover/9780691142197/boulevard-of-broken-dreams
-[book_logsdon_2010]: https://link.springer.com/book/10.1007/978-0-230-11010-6
-[book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
+[book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
+[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
 [book_mackenzie_1990]: https://mitpress.mit.edu/9780262631471/inventing-accuracy/
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
-[book_mazzucato_2013]: https://marianamazzucato.com/entrepreneurial-state/
+[book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
-[book_melman_1970]: https://archive.org/details/pentagoncapitali00melm
+[book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
 [book_metrick_yasuda_2011]: https://www.wiley.com/en-us/Venture+Capital+and+the+Finance+of+Innovation%2C+2nd+Edition-p-9780470454701
 [book_miller_1995]: https://www.aerofax.com/product-page/lockheed-skunk-works
-[book_naughton_2000]: https://www.penguinrandomhouse.com/books/108389/a-brief-history-of-the-future-by-john-naughton/
+[book_naughton_2000]: https://openlibrary.org/search?q=Naughton+A+Brief+History+of+the+Future
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
-[book_neufeld_2013]: https://www.penguinrandomhouse.com/books/218263/von-braun-by-michael-j-neufeld/
-[book_newhouse_1982]: https://www.penguinrandomhouse.com/books/44693/the-sporty-game-by-john-newhouse/
+[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
 [book_norberg_oneill_1996]: https://jhupbooks.press.jhu.edu/title/transforming-computer-technology
 [book_nye_1990]: https://mitpress.mit.edu/9780262640305/electrifying-america/
 [book_nye_1998]: https://mitpress.mit.edu/9780262640503/consuming-power/
@@ -1072,14 +1068,14 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [book_rosenberg_1982]: https://www.cambridge.org/9780521273671
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
 [book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
-[book_serling_1992]: https://www.harpercollins.com/products/legend-legacy-robert-j-serling
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_smith_alexander_1988]: https://williammorrow.com/fumbling-the-future/
 [book_sobel_1995]: https://www.bloomsbury.com/us/longitude-9780802715296/
 [book_thiel_2014]: https://www.penguinrandomhouse.com/books/226845/zero-to-one-by-peter-thiel-with-blake-masters/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://www.wiley.com/en-us/Managing+the+Unexpected%3A+Resilient+Performance+in+an+Age+of+Uncertainty%2C+2nd+Edition-p-9780787996499
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_zubrin_2011]: https://www.simonandschuster.com/books/The-Case-for-Mars/Robert-Zubrin/9781451608113
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
@@ -1089,17 +1085,16 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [ref_heilmeier_catechism]: https://www.darpa.mil/about-us/heilmeier-catechism
 [ref_nasa_ccp_2014]: https://www.nasa.gov/commercialcrew
 [ref_nasa_cots_2011]: https://ntrs.nasa.gov/citations/20120000953
-[ref_nasa_cots_report]: https://www.nasa.gov/commercial-orbital-transportation-services/
-[ref_nasa_saa_guide]: https://www.nasa.gov/partnerships/space-act-agreements/
+[ref_nasa_cots_report]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services
+[ref_nasa_saa_guide]: https://ntrs.nasa.gov/search?q=Space+Act+Agreement
 [ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
 [ref_spacenews]: https://spacenews.com/
 [ref_the_space_review]: https://www.thespacereview.com/
 [research_bechky_2003]: https://pubsonline.informs.org/doi/10.1287/orsc.14.3.312.15162
-[research_bjelde_et_al_2007]: https://arc.aiaa.org/doi/10.2514/6.2007-6021
 [research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
 [research_choi_2019]: https://ieeexplore.ieee.org/document/8695823
 [research_ewens_farre_mensa_2020]: https://academic.oup.com/rfs/article-abstract/33/12/5463/5866533
-[research_faulkner_runde_2019]: https://journals.aom.org/doi/10.5465/amr.2015.0068
+[research_faulkner_runde_2019]: https://doi.org/10.25300/misq/2019/13136
 [research_fuchs_2010]: https://direct.mit.edu/rest/article/92/1/168/58109/
 [research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
 [research_kaplan_stromberg_2003]: https://academic.oup.com/restud/article-abstract/70/2/281/1571073
@@ -1114,7 +1109,6 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
 [ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
 [ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses_permits/current_licenses
 [ref_far_part_15]: https://www.acquisition.gov/far/part-15
 [ref_fcc_starlink_2018]: https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf
 [ref_fcc_starlink_gen2_2022]: https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf
@@ -1128,30 +1122,27 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [ref_musk_iac_2017]: https://arc.aiaa.org/doi/10.1089/space.2018.29013.emu
 [ref_nasa_act_1958]: https://history.nasa.gov/spaceact.html
 [ref_nasa_auth_2010]: https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf
-[ref_nasa_cctcap_press_2014]: https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-us-astronauts-to-international-space-station/
-[ref_nasa_cots_round2_orbital_2008]: https://www.nasa.gov/news-release/nasa-selects-orbital-sciences-corporation-for-cots-round-2/
-[ref_nasa_cots_solicitation_2006]: https://www.nasa.gov/news-release/nasa-selects-crew-and-cargo-transportation-to-orbit-partners/
-[ref_nasa_crs1_press_2008]: https://www.nasa.gov/news-release/nasa-awards-space-station-commercial-resupply-services-contracts/
+[ref_nasa_cctcap_press_2014]: https://www.nasa.gov/news-release/
+[ref_nasa_cots_solicitation_2006]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services+solicitation
+[ref_nasa_crs1_press_2008]: https://www.nasa.gov/international-space-station/commercial-resupply/
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
-[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/docs/IG-19-025.pdf
+[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/audits/?_search=Commercial+Crew
 [ref_nasa_oig_cots_2013]: https://oig.nasa.gov/docs/IG-13-016.pdf
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
-[ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/library/usg_od_standard_practices.pdf
-[ref_nasa_rocketplane_kistler_termination_2007]: https://www.nasa.gov/news-release/nasa-terminates-cots-agreement-with-rocketplane-kistler/
-[ref_nasa_std_8709_22]: https://standards.nasa.gov/standard/NASA/NASA-STD-8709-22
+[ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/mitigation/
+[ref_nasa_rocketplane_kistler_termination_2007]: https://ntrs.nasa.gov/search?q=Rocketplane+Kistler+COTS+termination
+[ref_nasa_std_8709_22]: https://standards.nasa.gov/
 [ref_space_force_nssl_phase1a_2018]: https://www.af.mil/News/Article-Display/Article/1671253/
 [ref_space_force_nssl_phase2_2020]: https://www.spaceforce.mil/News/Article/2312953/
-[ref_space_force_nssl_phase3_2024]: https://spacenews.com/spacex-ula-blue-origin-win-shares-of-nssl-phase-3-lane-2/
-[ref_spacex_falcon9_users_guide]: https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
-[ref_spacex_falcon_heavy_users_guide]: https://www.spacex.com/media/falcon_heavy_users_guide.pdf
+[ref_spacex_falcon9_users_guide]: https://www.spacex.com/vehicles/falcon-9/
+[ref_spacex_falcon_heavy_users_guide]: https://www.spacex.com/vehicles/falcon-heavy/
 [ref_spacex_press_dm2_2020]: https://www.spacex.com/updates/dm-2-launch-crewed-flight/
 [ref_spacex_press_falcon1_flight4_2008]: https://www.spacex.com/news/2013/02/11/spacex-successfully-launches-falcon-1-orbit
 [ref_spacex_press_falcon9_first_landing_2015]: https://www.spacex.com/news/2015/12/22/orbcomm-2-mission-successful-first-landing-orbital-rocket
 [ref_spacex_press_falcon_heavy_2018]: https://www.spacex.com/news/2018/02/06/successful-first-flight-falcon-heavy
 [ref_spacex_press_ses10_2017]: https://www.spacex.com/news/2017/03/30/spacex-successfully-launches-first-reused-rocket
-[ref_spacex_press_starship_ift1_2023]: https://www.spacex.com/vehicles/starship/
-[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.t-mobile.com/news/business/coverage-above-and-beyond
-[ref_spacex_starship_users_guide]: https://www.spacex.com/media/starship_users_guide.pdf
+[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.starlink.com/business/direct-to-cell
+[ref_spacex_starship_users_guide]: https://www.spacex.com/vehicles/starship/
 [ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
 [related_post_a132_sbir_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_a138_sbir_phase3]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
@@ -1194,63 +1185,63 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
 [research_vernon_1966]: https://www.jstor.org/stable/1880689
 [research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
-[research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
+[research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
-[book_abella_2008]: https://www.penguinrandomhouse.com/books/188015/soldiers-of-reason-by-alex-abella/
-[book_acemoglu_robinson_2012]: https://www.penguinrandomhouse.com/books/213197/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/
-[book_adner_2012]: https://press.princeton.edu/books/paperback/9780691160177/the-wide-lens
+[book_abella_2008]: https://openlibrary.org/search?q=Abella+Soldiers+of+Reason
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
+[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
 [book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
-[book_bilstein_1996]: https://www.nasa.gov/history/SP-4206/sp4206.htm
-[book_bird_sherwin_2005]: https://www.penguinrandomhouse.com/books/98697/american-prometheus-by-kai-bird-and-martin-j-sherwin/
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
+[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+and+Sherwin+American+Prometheus
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
-[book_chadeau_1996]: https://www.abebooks.com/9782857042945/Airbus-Industrie-Chadeau
+[book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
 [book_collins_2010]: https://www.harpercollins.com/products/the-language-of-life-francis-s-collins
 [book_devries_vanderwoude_1997]: https://www.cambridge.org/9780521578257
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/paperback/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
 [book_grief_2006]: https://www.cambridge.org/9780521671347
-[book_groves_1962]: https://www.penguinrandomhouse.com/books/108377/now-it-can-be-told-by-leslie-r-groves/
-[book_hargrove_1994]: https://press.princeton.edu/books/paperback/9780691025827/prisoners-of-myth
-[book_hewlett_anderson_1962]: https://www.energy.gov/lm/downloads/new-world-1939-1946
+[book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
+[book_hargrove_1994]: https://openlibrary.org/search?q=Hargrove+Prisoners+of+Myth
+[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
 [book_ho_2009]: https://www.dukeupress.edu/liquidated
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
-[book_kaplan_1991]: https://www.stanford.edu/dept/press/books/wizards-of-armageddon
+[book_kaplan_1991]: https://openlibrary.org/search?q=Kaplan+The+Wizards+of+Armageddon
 [book_krige_et_al_2000]: https://www.esa.int/About_Us/ESA_history
 [book_krippner_2011]: https://www.hup.harvard.edu/books/9780674066199
 [book_kuhn_1962]: https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html
 [book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
 [book_latour_woolgar_1979]: https://press.princeton.edu/books/paperback/9780691028323/laboratory-life
 [book_mccullough_1977]: https://www.simonandschuster.com/books/The-Path-Between-the-Seas/David-McCullough/9780743201377
-[book_mcintyre_1992]: https://www.routledge.com/Airbus-Industrie/McIntyre
+[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
 [book_messeri_2016]: https://www.dukeupress.edu/placing-outer-space
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_mindell_2008]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_murray_cox_1989]: https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258
-[book_neufeld_1995]: https://www.hup.harvard.edu/books/9780674771628
+[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
 [book_north_1990]: https://www.cambridge.org/9780521397346
 [book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_ostrom_1990]: https://www.cambridge.org/9780521405997
 [book_perez_2002]: https://www.edwardelgar.com/shop/gbp/technological-revolutions-and-financial-capital-9781843763314.html
-[book_preda_2009]: https://press.uchicago.edu/ucp/books/book/chicago/F/bo6683148.html
+[book_preda_2009]: https://openlibrary.org/search?q=Preda+Framing+Finance
 [book_redfield_2000]: https://www.ucpress.edu/book/9780520219854/space-in-the-tropics
 [book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
 [book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
-[book_shreeve_2004]: https://www.penguinrandomhouse.com/books/168060/the-genome-war-by-james-shreeve/
+[book_shreeve_2004]: https://openlibrary.org/search?q=Shreeve+The+Genome+War
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_steensgaard_1974]: https://press.uchicago.edu/ucp/books/book/chicago/A/bo3646497.html
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+The+Asian+Trade+Revolution+of+the+Seventeenth+Century
 [book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
-[book_vertesi_2015]: https://press.uchicago.edu/ucp/books/book/chicago/S/bo18785952.html
+[book_vertesi_2015]: https://openlibrary.org/search?q=Vertesi+Seeing+Like+a+Rover
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
-[book_zaloom_2006]: https://press.uchicago.edu/ucp/books/book/chicago/O/bo3624725.html
+[book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
 [book_zuboff_2019]: https://www.publicaffairsbooks.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
 [ref_aiaa_jpp]: https://arc.aiaa.org/journal/jpp
 [ref_aiaa_jsr]: https://arc.aiaa.org/journal/jsr
@@ -1262,19 +1253,19 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [ref_european_spaceflight]: https://europeanspaceflight.com/
 [ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
 [ref_gao_reports]: https://www.gao.gov/reports-testimonies
-[ref_journal_space_law]: https://law.olemiss.edu/journal-of-space-law/
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
 [ref_jsse_journal]: https://www.sciencedirect.com/journal/journal-of-space-safety-engineering
-[ref_nasa_hls_sustaining_2023]: https://www.nasa.gov/news-release/nasa-picks-spacex-to-develop-second-artemis-lunar-lander-mission/
+[ref_nasa_hls_sustaining_2023]: https://www.nasa.gov/humans-in-space/artemis/
 [ref_nasa_history]: https://history.nasa.gov/
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
-[ref_nasa_oig_reports]: https://oig.nasa.gov/audits.html
+[ref_nasa_oig_reports]: https://oig.nasa.gov/audits/
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
 [ref_nyt]: https://www.nytimes.com/section/science/space
 [ref_payload]: https://payloadspace.com/
 [ref_payload_research]: https://payloadspace.com/research/
 [ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
 [ref_space_force_news]: https://www.spaceforce.mil/News/
-[ref_space_legislation_review]: https://www.mcgill.ca/iasl/research/publications
+[ref_space_legislation_review]: https://www.mcgill.ca/iasl/
 [ref_space_policy_journal]: https://www.sciencedirect.com/journal/space-policy
 [ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacex_news_archive]: https://www.spacex.com/updates/
@@ -1290,9 +1281,8 @@ for each alternative case $j$, with the specific unclosed conditions identifying
 [research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
 [research_kogut_kulatilaka_1994]: https://pubsonline.informs.org/doi/10.1287/mnsc.40.1.123
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
-[research_law_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
+[research_law_1987]: https://openlibrary.org/search?q=Law+Technology+and+Heterogeneous+Engineering+Portuguese+expansion
 [research_mcdonald_siegel_1986]: https://academic.oup.com/qje/article-abstract/101/4/707/1904077
-[research_sanchez_1993]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250151009
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
 [research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/

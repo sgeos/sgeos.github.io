@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: The Government-Anchor Capital-Formation Leg and Non-Dilutive Development Finance"
-date:   2026-08-01 09:00:00 +0000
+title: "History of SpaceX: The Government-Anchor Capital-Formation Leg and Non-Dilutive Development Finance"
+date: 2026-08-01 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -141,7 +141,7 @@ $$s^{\ast} = \frac{r^{\text{social}} - r^{\text{private}}}{r^{\text{social}}}$$
 
 giving the specific fraction of the specific investment the specific public should bear. The specific expression is the specific formal answer to the specific question of how large a specific cost share the specific instrument should require, and the specific COTS requirement was set by negotiation rather than by any specific such calculation.
 
-The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships, [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004], and [Vining and Weimer 2005][research_vining_weimer_2005]. The framing situates the specific instrument within the specific broader family of specific hybrid arrangements and supplies the specific comparative record against which the specific COTS outcome should be assessed, which is substantially less favorable than the specific COTS advocacy literature suggests. The specific risk-allocation principle the tradition states is that each specific risk should be borne by the specific party best able to manage it, admitting the compact form
+The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships, [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004]. The framing situates the specific instrument within the specific broader family of specific hybrid arrangements and supplies the specific comparative record against which the specific COTS outcome should be assessed, which is substantially less favorable than the specific COTS advocacy literature suggests. The specific risk-allocation principle the tradition states is that each specific risk should be borne by the specific party best able to manage it, admitting the compact form
 
 $$\text{assign risk } k \text{ to } \arg\min_{i} \; c_i(k)$$
 
@@ -511,7 +511,7 @@ The specific theoretical literature is surveyed in the Cross-Disciplinary Framin
 
 ### Public-Private-Partnership and Innovation-Policy Literature
 
-The specific literature comprising [Grimsey and Lewis 2004][book_grimsey_lewis_2004], [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004], and [Vining and Weimer 2005][research_vining_weimer_2005] supplies the specific comparative record for specific hybrid arrangements, and the specific innovation-policy literature comprising [Nelson 1959][research_nelson_1959], [Arrow 1962][research_arrow_1962], [Lerner 1996][research_lerner_1996_government_program], [Kortum and Lerner 2000][research_kortum_lerner_2000], [Hall and Lerner 2010][research_hall_lerner_2010], [Bonvillian 2018][research_bonvillian_2018], [Mazzucato 2013][book_mazzucato_2013], and [Mazzucato 2021][book_mazzucato_2021] supplies the specific rationale and evaluation apparatus. The specific finding the specific partnership literature reports, that specific outcomes are substantially more variable than the specific advocacy predicts, is the specific principal caution the article carries into its specific assessment.
+The specific literature comprising [Grimsey and Lewis 2004][book_grimsey_lewis_2004], [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004] supplies the specific comparative record for specific hybrid arrangements, and the specific innovation-policy literature comprising [Nelson 1959][research_nelson_1959], [Arrow 1962][research_arrow_1962], [Lerner 1996][research_lerner_1996_government_program], [Kortum and Lerner 2000][research_kortum_lerner_2000], [Hall and Lerner 2010][research_hall_lerner_2010], [Bonvillian 2018][research_bonvillian_2018], [Mazzucato 2013][book_mazzucato_2013], and [Mazzucato 2021][book_mazzucato_2021] supplies the specific rationale and evaluation apparatus. The specific finding the specific partnership literature reports, that specific outcomes are substantially more variable than the specific advocacy predicts, is the specific principal caution the article carries into its specific assessment.
 
 ### Small Business Innovation Research Literature
 
@@ -1019,7 +1019,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [Staw 1976 Knee-Deep in the Big Muddy][research_staw_1976]
 - [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
 - [Tversky and Kahneman 1992 Advances in Prospect Theory][research_tversky_kahneman_1992]
-- [Vining and Weimer 2005 Establishing Public-Private Partnership Contracts][research_vining_weimer_2005]
+-
 - [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
 - [Williamson 1971 The Vertical Integration of Production][research_williamson_1971]
 - [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
@@ -1050,7 +1050,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 [book_abbate_1999]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
 [book_abbott_1988]: https://openlibrary.org/search?q=Abbott+The+System+of+Professions
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_argote_1999]: https://openlibrary.org/search?q=Argote+Organizational+Learning+Creating+Retaining+Transferring+Knowledge
 [book_argyris_schon_1978]: https://www.pearson.com/en-us/subject-catalog/p/organizational-learning-a-theory-of-action-perspective/P200000005949
@@ -1059,7 +1059,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
 [book_berger_2024]: https://openlibrary.org/search?q=Berger+Reentry+SpaceX
 [book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
-[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
 [book_blanchard_fabrycky_2011]: https://www.pearson.com/en-us/subject-catalog/p/systems-engineering-and-analysis/P200000003302
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
@@ -1074,20 +1074,20 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_crouch_2003]: https://wwnorton.com/books/Wings/
 [book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
-[book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
+[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
 [book_gompers_lerner_2001]: https://www.hbsp.harvard.edu/product/2434-HBK-ENG
 [book_grief_2006]: https://www.cambridge.org/9780521671347
 [book_grimsey_lewis_2004]: https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html
 [book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
 [book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
 [book_hargrove_1994]: https://openlibrary.org/search?q=Hargrove+Prisoners+of+Myth
-[book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
-[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+Anderson+New+World+Manhattan+Project
+[book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
+[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
 [book_hosley_1996]: https://www.press.jhu.edu/books/title/1799/colt
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
 [book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
@@ -1113,12 +1113,12 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_lerner_2009]: https://press.princeton.edu/books/hardcover/9780691142197/boulevard-of-broken-dreams
 [book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
 [book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
-[book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
+[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
 [book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
-[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+McMillan+Incentives+in+Government+Contracting
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+and+McMillan+Incentives+in+Government+Contracting
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
@@ -1137,7 +1137,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_nonaka_takeuchi_1995]: https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691
 [book_norberg_oneill_1996]: https://jhupbooks.press.jhu.edu/title/transforming-computer-technology
 [book_north_1990]: https://www.cambridge.org/9780521397346
-[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O%27Connor+Kleyner+Practical+Reliability+Engineering
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
 [book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_osborne_2000]: https://www.routledge.com/Public-Private-Partnerships/Osborne/p/book/9780415225236
 [book_ostrom_1990]: https://www.cambridge.org/9780521405997
@@ -1156,7 +1156,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
 [book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
 [book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_suh_2001]: https://global.oup.com/academic/product/axiomatic-design-9780195134667
@@ -1165,7 +1165,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
@@ -1199,7 +1199,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_dod_other_transactions]: https://aida.mitre.org/ota/
 [ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
 [ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses
+[ref_faa_launch_licenses_current]: https://www.faa.gov/space
 [ref_far_part_12]: https://www.acquisition.gov/far/part-12
 [ref_far_part_15]: https://www.acquisition.gov/far/part-15
 [ref_far_part_16]: https://www.acquisition.gov/far/part-16
@@ -1222,24 +1222,24 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
 [ref_jaxa_press]: https://global.jaxa.jp/press/
 [ref_journal_public_procurement]: https://www.emerald.com/insight/publication/issn/1535-0118
-[ref_journal_space_law]: https://law.olemiss.edu/
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
 [ref_ksc_lc39a_lease]: https://www.nasa.gov/kennedy/
 [ref_kwajalein_atoll_documentation]: https://www.army.mil/usakwajalein
 [ref_nasa_act_1958]: https://history.nasa.gov/spaceact.html
 [ref_nasa_auth_2010]: https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf
-[ref_nasa_ccp_certification]: https://www.nasa.gov/commercialcrew
+[ref_nasa_ccp_certification]: https://www.nasa.gov/humans-in-space/commercial-space/
 [ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
 [ref_nasa_commercial_space]: https://www.nasa.gov/commercial-space/
-[ref_nasa_constellation]: https://ntrs.nasa.gov/search?q=Constellation
+[ref_nasa_constellation]: https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/
 [ref_nasa_cots_2011]: https://ntrs.nasa.gov/citations/20120000953
-[ref_nasa_cots_report]: https://ntrs.nasa.gov/search?q=Commercial%20Orbital%20Transportation%20Services
-[ref_nasa_cots_solicitation_2006]: https://www.nasa.gov/humans-in-space/commercial-space/
+[ref_nasa_cots_report]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services
+[ref_nasa_cots_solicitation_2006]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services+solicitation
 [ref_nasa_crs2_press_2016]: https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/
 [ref_nasa_crs_program_overview]: https://www.nasa.gov/commercial-resupply/
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
 [ref_nasa_history]: https://history.nasa.gov/
-[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/press-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/press-release/nasa-awards-spacex-second-contract-option-for-artemis-moon-landing/
+[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/humans-in-space/artemis/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/mission/artemis-iii/
 [ref_nasa_hls_program]: https://www.nasa.gov/humans-in-space/human-landing-system/
 [ref_nasa_hls_solicitation]: https://sam.gov/opp/human-landing-system/
 [ref_nasa_hls_sustainable_2023]: https://www.nasa.gov/press-release/nasa-selects-blue-origin-as-second-artemis-lunar-lander-provider/
@@ -1250,7 +1250,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_nasa_oig_ccp_cargo_2018]: https://oig.nasa.gov/docs/IG-18-016.pdf
 [ref_nasa_oig_cots_2013]: https://oig.nasa.gov/docs/IG-13-016.pdf
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
-[ref_nasa_oig_reports]: https://oig.nasa.gov/
+[ref_nasa_oig_reports]: https://oig.nasa.gov/audits/
 [ref_nasa_partnerships]: https://www.nasa.gov/partnerships/
 [ref_nasa_se_handbook]: https://www.nasa.gov/reference/systems-engineering-handbook/
 [ref_nasa_sls_program]: https://www.nasa.gov/humans-in-space/space-launch-system/
@@ -1303,7 +1303,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_wsj]: https://www.wsj.com/tech
 [research_adler_clark_1991]: https://pubsonline.informs.org/doi/10.1287/mnsc.37.3.267
 [research_aghion_howitt_1992]: https://www.jstor.org/stable/2951599
-[research_alchian_1963]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1963.tb00723.x
+[research_alchian_1963]: https://doi.org/10.2307/1909166
 [research_argote_epple_1990]: https://www.science.org/doi/10.1126/science.247.4945.920
 [research_argote_ingram_2000]: https://www.sciencedirect.com/science/article/abs/pii/S0749597800928930
 [research_argote_miron_spektor_2011]: https://pubsonline.informs.org/doi/10.1287/orsc.1100.0621
@@ -1311,15 +1311,15 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [research_bajari_mcmillan_tadelis_2009]: https://academic.oup.com/jleo/article-abstract/25/2/372/845776
 [research_bajari_tadelis_2001]: https://www.jstor.org/stable/2696367
 [research_baumol_1977]: https://www.jstor.org/stable/1807012
-[research_block_2008]: https://journals.sagepub.com/doi/10.1177/0032329207312349
+[research_block_2008]: https://doi.org/10.1177/0032329208318731
 [research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
-[research_bovaird_2004]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9299.2004.00405.x
+[research_bovaird_2004]: https://doi.org/10.1177/0020852304044250
 [research_che_chung_1999]: https://academic.oup.com/rand/article-abstract/30/1/97/2701540
 [research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
 [research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
 [research_corts_singh_2004]: https://academic.oup.com/jleo/article-abstract/20/1/230/970131
 [research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
-[research_dutton_thomas_1984]: https://journals.aom.org/doi/10.5465/amr.1984.4277938
+[research_dutton_thomas_1984]: https://doi.org/10.2307/258437
 [research_gagnepain_ivaldi_2002]: https://academic.oup.com/rand/article-abstract/33/4/605/2603099
 [research_gompers_1995]: https://www.jstor.org/stable/2329227
 [research_grant_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171110
@@ -1331,7 +1331,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [research_hodge_greve_2007]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6210.2007.00736.x
 [research_huber_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.88
 [research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
-[research_kalnins_mayer_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0223
+[research_kalnins_mayer_2004]: https://doi.org/10.1093/jleo/ewh030
 [research_kaplan_stromberg_2003]: https://academic.oup.com/restud/article-abstract/70/2/281/1571073
 [research_kaplan_stromberg_2004]: https://academic.oup.com/rfs/article-abstract/17/1/1/1601330
 [research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
@@ -1357,15 +1357,14 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [research_rapping_1965]: https://www.jstor.org/stable/1928223
 [research_reuters_starshield_2024]: https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/
 [research_romer_1990]: https://www.journals.uchicago.edu/doi/10.1086/261725
-[research_ross_staw_1993]: https://journals.aom.org/doi/10.5465/256640
-[research_sage_cuppan_2001]: https://link.springer.com/journal/11213
+[research_ross_staw_1993]: https://doi.org/10.2307/256756
+[research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
 [research_sahlman_1990]: https://www.sciencedirect.com/science/article/pii/0304405X9090065E
 [research_simon_1962]: https://www.jstor.org/stable/985254
 [research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
 [research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
-[research_vining_weimer_2005]: https://link.springer.com/journal/11115
-[research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
+[research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [research_williamson_1971]: https://www.jstor.org/stable/1815199
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776

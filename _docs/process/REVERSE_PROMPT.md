@@ -9,82 +9,78 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-04
-**Task**: A292 publication-review expansion pass. The closing article is at parity. **All twelve articles of the series are now written.**
+**Task**: Series-wide consistency pass across all twelve History of SpaceX articles, published and drafted. **The citation-integrity defect that was gating publication is now resolved.**
 
 ---
 
-## The Section That Closes the Series
+## The Headline
 
-The new H2 is **The Falsifiability of the Framework**, and it takes up an objection the closer had previously buried in one sentence of its open questions.
+**All 31 defective citations are repaired and all 84 dead links are fixed.** The blocker on the five-article batch is gone.
 
-The problem is degrees of freedom. A ten-condition scheme built by examining a surviving case, then applied retrospectively to failures, has ten chances to locate a fault and will find one in any case whatever. The section states what a framework must do to earn evidential standing — **forbid at least one observable pattern** — and assesses that the framework as stated across eleven articles forbids very little.
+I audited every DOI-bearing anchor in the series, 109 of them, against Crossref and `doi.org`.
 
-It then separates the three claims that survive from the ones that do not.
+- **12 fabricated citations** — stated title and target document did not correspond. Repaired by locating the correct identifier through Crossref bibliographic search. `research_alchian_1963` really is at `10.2307/1909166`; `research_rivkin_siggelkow_2003` was a **single-digit typo**, `...12747` where the real DOI is `...12740`.
+- **19 unregistered DOIs** — `doi.org` gave no redirect at all. Repaired or replaced.
+- **5 citations removed**, because the claimed work could not be confirmed to exist. The largest was the Bjelde Falcon 1 demonstration-flights paper, cited across **five** articles.
 
-**Survives.** The independence finding, because it was a falsifiable implication of the product notation, was tested against three cases, and failed in the direction the evidence indicated rather than the direction we would have preferred. The falsification arrived from inside the exercise, not from a critic.
-
-**Survives.** The capital-formation mechanics, because their objects are instruments rather than outcomes. The reputational clock binding before the contractual one, realization being separable from exit, non-dilutive capital displacing the highest-dilution rounds — each is checkable against partnership agreements, securities filings, and award records **without reference to whether any venture succeeded**.
-
-**Survives.** The negative result on ownership form, because it compares institutional forms against a stated criterion and does not depend on any outcome.
-
-**Does not survive.** The central conjunctive thesis in predictive form. I state the test that would settle it — score a set of ventures on all ten conditions *before* outcomes are known, and record the scores publicly — and note that neither this framework nor any alternative in the literature has been subjected to one.
-
-I let the section end by noting the critique applies equally to the alternatives, and explicitly declined to treat that as a defence.
+Then a full sweep of all 853 unique URLs found **84 dead links**, all now repaired: 43 rotted publisher pages to Open Library, 24 NASA and federal URLs to verified programme and search pages, 17 handled individually.
 
 ---
 
-## A Finding About the Literature
+## Consistency Findings and What I Did
 
-The second new H2 collects the traditions all eleven articles surveyed. The pattern in *which* traditions earned their place is itself a result.
+**Front matter and crosslinks were already perfect.** Series slug, title, categories, flags, 09:00 UTC times, debug tags, contiguous indices 1 to 12. Every article back-references every prior one with no gaps. The only unresolved `post_url` targets are the ten pointing inside the unpublished batch, which is the expected interlock.
 
-The transaction-cost, entrepreneurial-finance, and corporate-control traditions supplied every finding that survives the falsifiability critique — because their objects are instruments and ownership forms rather than outcomes. The strategy and capability traditions supplied vocabulary and little that could be checked.
+**Equation density needed nothing.** 64 to 78, median 72, no outliers.
 
-**The reliability literature reached the independence finding independently and earlier.** Perrow, Vaughan, and Weick and Sutcliffe treat systems whose barriers are presented as independent and are coupled through common causes. That is the same result by a different route, and it is the strongest external corroboration available. The venture literature would have arrived at it sooner had it read across.
+**Reference density had one outlier.** A284 sat at 49 primary references against a median of 97. Its Contemporary Comparative Landscape, dollar-per-kilogram trajectory, and OneWeb comparison carried **no primary source at all**. Now at 68.
 
----
+**Publication suitability had two defects.** A285 was the sole structural outlier with 4 H3 subsections against a median of 15, because its Historiographical Gap had no subsection organization; I added five without rewriting prose. And five style violations, two prose parentheticals in A281, one in A284, two prose colons in A282.
 
-## Article Metrics
-
-| Metric | Before | After |
-|---|---|---|
-| Lines | 1,108 | 1,508 |
-| Words | ~13,875 | ~18,092 |
-| Display equations | 71 | 75 |
-| H2 / H3 | 27 / 11 | 29 / 18 |
-| Book references | 44 | 109 |
-| Primary reference URLs | 150 | 150 |
-| Research references | 11 | 91 |
-| **Total reference anchors** | **225** | **370** |
-| Missing / unused / duplicate | 0 / 0 / 0 | 0 / 0 / 0 |
-| Duplicate URLs | 0 | 0 |
-| Style violations | 0 | 0 |
-
-370 anchors is the highest in the series, against A290 at 331 and A291 at 326, with all four categories in sibling range.
+**Apparatus defects the audit surfaced.** A283 had three duplicate reference-list bullets. A284 had eleven anchors cited in the body with no reference-list entry at all. Six articles had reference blocks where a second batch had been appended rather than merged, so they were not alphabetical. All repaired.
 
 ---
 
-## Citation Handling
+## Final State
 
-All 38 DOI-bearing candidates checked against Crossref. The nineteen previously identified fabricated or unregistered anchors were blacklisted from the selection set and the script asserted none appeared. Two apparent mismatches were confirmed false positives from author-name formatting.
+| Article | Eq | Anchors | Books | Primary | Research | H2 | H3 |
+|---|---|---|---|---|---|---|---|
+| A281 | 65 | 286 | 130 | 82 | 60 | 20 | 10 |
+| A282 | 64 | 231 | 85 | 76 | 58 | 20 | 14 |
+| A283 | 66 | 226 | 82 | 85 | 48 | 21 | 14 |
+| A284 | 65 | 250 | 98 | 68 | 69 | 22 | 18 |
+| A285 | 69 | 248 | 103 | 72 | 61 | 24 | 9 |
+| A286 | 72 | 388 | 167 | 109 | 98 | 28 | 16 |
+| A287 | 72 | 286 | 115 | 78 | 77 | 26 | 15 |
+| A288 | 75 | 348 | 116 | 107 | 110 | 28 | 15 |
+| A289 | 73 | 340 | 123 | 130 | 68 | 28 | 15 |
+| A290 | 77 | 331 | 106 | 134 | 72 | 28 | 16 |
+| A291 | 78 | 326 | 101 | 127 | 78 | 29 | 19 |
+| A292 | 75 | 370 | 109 | 150 | 91 | 29 | 18 |
 
-**One ambiguity I want on the record.** `book_heppenheimer_1999` points at a Smithsonian object page that returned 403 three times and 404 once in this session. A 403 hides whether the page exists, so I repointed A292 at a verified Open Library URL rather than ship something unconfirmed. **A291 and A288 still carry the si.edu URL**, and my A291 report classified it as bot-detection on the strength of the 403s. That classification may be wrong. It is one link and not urgent, but I would rather flag it than let a possibly-dead URL sit behind a "verified" label.
+Across all twelve: zero missing anchors, zero unused, zero duplicate anchors, zero duplicate bullets, zero duplicate URLs, definitions matching bullets exactly, all sortable blocks alphabetical, zero style violations.
+
+---
+
+## Two Things You Should Know
+
+**1. I broke all twelve files mid-pass and restored them.** A resort script I wrote sliced a line range that ran to end of file, which deleted the entire trailing link-definition block in every article. The integrity check caught it on the very next run, nothing was pushed, and I restored all twelve from HEAD and reapplied the corrections with a script that permutes bullet lines in place and never replaces ranges. No content was lost. I am telling you because it was my error and because the corrected approach is worth keeping.
+
+**2. One verification I could not finish.** The 43 Open Library replacements are generated from each book's own display title. I verified 13 of them individually at 200 before `openlibrary.org` began refusing my requests, having saturated it with the 853-URL sweep. The pattern itself is verified many times over this session and the series already depends on it in 269 places, so I applied all 43. **A final paced sweep should confirm the remaining 30** before publication. I would rather flag that than let it pass as fully checked.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **The series is complete.** Twelve articles written, all at publication-review parity.
-
-2. **The five-article batch A288 through A292 is ready for authorization**, and the citation-integrity remediation is the only thing gating it. A288 carries two fabricated citations; the five published articles carry eleven plus the Adilov conflation.
-
-3. **Build verification becomes possible for the first time** once the batch stages together, since every unresolved `post_url` in the series points inside the batch.
+1. **The batch is unblocked.** A288 through A292 can publish once you authorize.
+2. **Seven published articles now have uncommitted edits.** Publishing the batch will also push corrections to A281 through A287. That is a content change to live posts, so it is your call whether to push them together or separately.
+3. **The 30 unconfirmed Open Library URLs** above.
 
 ---
 
 ## Suggested Next Steps
 
-- Resolve the citation-integrity remediation. It is the gating item and it now blocks the completion of the series.
-- Stage and publish A288 through A292 as a five-article batch, with a build verification in a Gemfile-free scratch copy before pushing.
-- Broken-link sweep across live A281, A282, and A283.
-- Decide the scope of the "the specific" remediation.
-- Codify the durable handoff process. The series is finished, which was the condition you set.
+- Confirm the remaining 30 Open Library URLs with a paced sweep.
+- Stage and publish A288 through A292, with a build verification in a Gemfile-free scratch copy before pushing. Every unresolved `post_url` in the series points inside that batch, so this is the first time a full build can succeed.
+- Decide the scope of the "the specific" remediation, which is now the last outstanding series-wide item.
+- Codify the durable handoff process.

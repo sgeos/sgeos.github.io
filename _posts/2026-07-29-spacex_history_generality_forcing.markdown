@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Generality-Forcing from Mars Requirements as a Cross-Domain Capability Substrate"
-date:   2026-07-29 09:00:00 +0000
+title: "History of SpaceX: Generality-Forcing from Mars Requirements as a Cross-Domain Capability Substrate"
+date: 2026-07-29 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -65,7 +65,7 @@ The first commitment is descriptive-analytical framing rather than prescriptive 
 
 The second commitment is dual-register composition with both general-history and abstract-mechanic registers.
 
-The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FAA AST current licenses database][ref_faa_launch_licenses_current] records, [SpaceX news archive][ref_spacex_news_archive] press releases, the [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle], the [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle], the [SpaceX Starship vehicle documentation][ref_spacex_starship_vehicle], the specific [NASA Design Reference Architecture 5.0 for Mars][ref_nasa_dra_5_0], the specific [NASA Human Landing System solicitation][ref_nasa_hls_solicitation], the specific [NASA Artemis Program documentation][ref_nasa_artemis_program], the specific [Musk 2017 IAC][research_musk_2017_iac] and [Musk 2018 IAC][research_musk_2018_iac] technical papers, and the specific [Musk 2024 Starship Update][research_musk_2024_starship_update]. The article draws on secondary sources including [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Zubrin 1996][book_zubrin_1996] The Case for Mars, and [Zubrin 2019][book_zubrin_2019] The Case for Space.
+The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FAA AST current licenses database][ref_faa_ast] records, [SpaceX news archive][ref_spacex_news_archive] press releases, the [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle], the [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle], the [SpaceX Starship vehicle documentation][ref_spacex_starship_vehicle], the specific [NASA Design Reference Architecture 5.0 for Mars][ref_nasa_dra_5_0], the specific [NASA Human Landing System solicitation][ref_nasa_hls_solicitation], the specific [NASA Artemis Program documentation][ref_nasa_artemis_program], the specific [Musk 2017 IAC][research_musk_2017_iac] and [Musk 2018 IAC][research_musk_2018_iac] technical papers, and the specific [Musk 2024 Starship Update][research_musk_2024_starship_update]. The article draws on secondary sources including [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Zubrin 1996][book_zubrin_1996] The Case for Mars, and [Zubrin 2019][book_zubrin_2019] The Case for Space.
 
 The fourth commitment is contested-claim marking, with specific attention to the Mars-mission-architecture cost estimates and the Starship development-cost estimates that the private-firm status renders substantially reconstructive rather than directly documented.
 
@@ -465,7 +465,7 @@ with the specific ratio approaching zero when the specific primary-mission capab
 
 ## Geostationary Satellite Deployment Application
 
-The specific geostationary satellite deployment application admits the specific comprehensive generality-forcing treatment. The specific Falcon 9 and Falcon Heavy configurations support the specific commercial and government geostationary satellite missions across the specific 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The specific December 3 2013 SES-8 mission constituted the specific first SpaceX geostationary-transfer-orbit delivery and the specific entry of the specific firm into the specific commercial telecommunications segment that had been served by the specific Arianespace, International Launch Services, and Sea Launch providers. The specific mission record is reconstructible from the specific [SpaceX news archive][ref_spacex_news_archive] and the specific [FAA current launch licenses][ref_faa_launch_licenses_current]. The specific orbital-slot and specific spectrum assignments that govern the specific segment operate under the specific [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the specific launch-state registration and liability framework operates under the specific [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967] and the specific [United States Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015].
+The specific geostationary satellite deployment application admits the specific comprehensive generality-forcing treatment. The specific Falcon 9 and Falcon Heavy configurations support the specific commercial and government geostationary satellite missions across the specific 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The specific December 3 2013 SES-8 mission constituted the specific first SpaceX geostationary-transfer-orbit delivery and the specific entry of the specific firm into the specific commercial telecommunications segment that had been served by the specific Arianespace, International Launch Services, and Sea Launch providers. The specific mission record is reconstructible from the specific [SpaceX news archive][ref_spacex_news_archive] and the specific [FAA current launch licenses][ref_faa_ast]. The specific orbital-slot and specific spectrum assignments that govern the specific segment operate under the specific [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the specific launch-state registration and liability framework operates under the specific [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967] and the specific [United States Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015].
 
 The specific geostationary satellite deployment revenue realizes approximately 3 billion dollars across the specific commercial and government mission portfolio across the specific SES, Intelsat, Eutelsat, DirecTV, Arabsat, and specific other commercial geostationary satellite operators.
 
@@ -619,7 +619,7 @@ The specific space-policy literature treats the specific comparative program rec
 
 ### Comparative-Firm and Case-Study Literature
 
-The specific business case-study literature on the specific firm appears in the specific [Anadol Cohen and Ferrari 2018][research_anadol_cohen_2018] Harvard Business School treatment, the specific [Stanford Graduate School of Business case collection][ref_stanford_spacex_case], and the specific [Wharton knowledge repository][ref_wharton_spacex_case]. The specific biographical literature comprising [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires supplies the specific narrative record of the specific requirement-articulation sequence. The specific technical-record literature comprising [Bjelde et al 2007][research_bjelde_et_al_2007] The Falcon 1 Launch Vehicle Demonstration Flights, [Blackmore 2016][research_blackmore_2016] Autonomous Precision Landing of Space Rockets, and [Acikmese and Ploen 2007][research_acikmese_ploen_2007] Convex Programming Approach to Powered Descent Guidance supplies the specific engineering documentation of the specific propulsive-landing capability whose specific transfer to the specific lunar and specific Mars applications the article treats.
+The specific business case-study literature on the specific firm appears in the specific [Anadol Cohen and Ferrari 2018][research_anadol_cohen_2018] Harvard Business School treatment, the specific [Stanford Graduate School of Business case collection][ref_stanford_spacex_case], and the specific [Wharton knowledge repository][ref_wharton_spacex_case]. The specific biographical literature comprising [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires supplies the specific narrative record of the specific requirement-articulation sequence. The specific technical-record literature comprising The Falcon 1 Launch Vehicle Demonstration Flights, [Blackmore 2016][research_blackmore_2016] Autonomous Precision Landing of Space Rockets, and [Acikmese and Ploen 2007][research_acikmese_ploen_2007] Convex Programming Approach to Powered Descent Guidance supplies the specific engineering documentation of the specific propulsive-landing capability whose specific transfer to the specific lunar and specific Mars applications the article treats.
 
 ### Recent Scholarship and the Contemporary Debate
 
@@ -984,9 +984,8 @@ The article closes with the specific load-bearing open questions that the specif
 - [Department of Defense Contract Announcements][ref_dod_contracts]
 - [European Spaceflight][ref_european_spaceflight]
 - [FAA 14 CFR Part 450 Launch and Reentry Licensing Requirements][ref_faa_ast_licensing_regs_450]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
+- [FAA AST Current Launch Licenses Database][ref_faa_ast]
 - [FAA Commercial Space Transportation Regulations 14 CFR Chapter III][ref_faa_ast_regulations]
-- [FAA Office of Commercial Space Transportation][ref_faa_ast]
 - [FAA SpaceX Starship Environmental Review][ref_faa_starship_ea]
 - [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Electronic Comment Filing System][ref_fcc_filings]
@@ -1037,9 +1036,9 @@ The article closes with the specific load-bearing open questions that the specif
 - [NASA Supersonic Retropropulsion Literature][ref_ntrs_supersonic_retropropulsion]
 - [NASA Systems Engineering Handbook][ref_nasa_se_handbook]
 - [NASA Technical Reports Server][ref_nasa_ntrs]
+- [NASA Technical Standards System][ref_nasa_std_8709_22]
 - [NASA TechPort Technology Database][ref_nasa_techport]
 - [NASA Vision for Space Exploration Literature][ref_ntrs_vision_space_exploration]
-- [NASA Technical Standards System][ref_nasa_std_8709_22]
 - [NASASpaceflight][ref_nasaspaceflight]
 - [New York Times 2024 Starshield Coverage][ref_nyt_starshield_2024]
 - [New York Times Space Coverage][ref_nyt]
@@ -1090,7 +1089,7 @@ The article closes with the specific load-bearing open questions that the specif
 - [Arthur 1989 Competing Technologies Increasing Returns and Lock-In by Historical Events][research_arthur_1989]
 - [Bardeen and Brattain 1948 The Transistor A Semi-Conductor Triode][research_bardeen_brattain_1948]
 - [Baumol 1977 On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry][research_baumol_1977]
-- [Bjelde et al 2007 The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans][research_bjelde_et_al_2007]
+-
 - [Blackmore 2016 Autonomous Precision Landing of Space Rockets][research_blackmore_2016]
 - [Block 2008 Swimming Against the Current The Rise of a Hidden Developmental State][research_block_2008]
 - [Boudreau 2010 Open Platform Strategies and Innovation][research_boudreau_2010]
@@ -1194,7 +1193,7 @@ The article closes with the specific load-bearing open questions that the specif
 - [A285 History of SpaceX Decomposability of Falcon, Dragon, Heavy, and Starship as Independently Valuable Rungs][related_post_a285_spacex_decomposability]
 
 [book_abbate_1999]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
@@ -1204,19 +1203,19 @@ The article closes with the specific load-bearing open questions that the specif
 [book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
 [book_baldwin_clark_2000]: https://mitpress.mit.edu/9780262024662/design-rules/
 [book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
-[book_benson_faherty_1978]: https://openlibrary.org/search?q=Benson+Faherty+Moonport+History+Apollo+Launch+Facilities
+[book_benson_faherty_1978]: https://ntrs.nasa.gov/search?q=Moonport+History+of+Apollo+Launch+Facilities
 [book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
 [book_berger_2024]: https://openlibrary.org/search?q=Berger+Reentry+SpaceX
 [book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
 [book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
 [book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
-[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
 [book_blanchard_fabrycky_2011]: https://www.pearson.com/en-us/subject-catalog/p/systems-engineering-and-analysis/P200000003302
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
 [book_buede_2009]: https://openlibrary.org/search?q=Buede+Engineering+Design+of+Systems+Models+and+Methods
-[book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie
+[book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History
 [book_chaikin_1994]: https://www.penguinrandomhouse.com/books/74211/a-man-on-the-moon-by-andrew-chaikin/
 [book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
@@ -1229,19 +1228,19 @@ The article closes with the specific load-bearing open questions that the specif
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
 [book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
-[book_ezell_ezell_1978]: https://openlibrary.org/search?q=Ezell+The+Partnership+Apollo+Soyuz
+[book_ezell_ezell_1978]: https://ntrs.nasa.gov/search?q=On+Mars+Exploration+of+the+Red+Planet
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_ford_crowther_1922]: https://openlibrary.org/search?q=Ford+My+Life+and+Work
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
-[book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
+[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_golley_1987]: https://www.crecy.co.uk/whittle-the-true-story
-[book_green_lomask_1970]: https://openlibrary.org/search?q=Green+Lomask+Vanguard+A+History
+[book_green_lomask_1970]: https://ntrs.nasa.gov/search?q=Vanguard+a+History
 [book_grief_2006]: https://www.cambridge.org/9780521671347
-[book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
+[book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
 [book_hendrickx_vis_2007]: https://link.springer.com/book/10.1007/978-0-387-73984-7
 [book_heppenheimer_1999]: https://www.si.edu/object/space-shuttle-decision%3Anmah_1197080
 [book_horwitch_1982]: https://mitpress.mit.edu/9780262580620/clipped-wings/
@@ -1251,7 +1250,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_humble_henry_larson_1995]: https://www.mheducation.com/highered/product/space-propulsion-analysis-design-humble-henry/M9780070313200.html
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
-[book_jenkins_2001]: https://openlibrary.org/search?q=Jenkins+Space+Shuttle+History+National+Space+Transportation+System
+[book_jenkins_2001]: https://ntrs.nasa.gov/search?q=Space+Shuttle+History+of+the+National+Space+Transportation+System
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
 [book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
 [book_kahneman_2011]: https://us.macmillan.com/books/9780374533557/thinkingfastandslow
@@ -1275,7 +1274,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_lipsey_carlaw_bekar_2005]: https://global.oup.com/academic/product/economic-transformations-9780199290895
 [book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
 [book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
-[book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
+[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
 [book_mackenzie_1990]: https://mitpress.mit.edu/9780262631471/inventing-accuracy/
 [book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
@@ -1283,7 +1282,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
-[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Story
+[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
 [book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
 [book_messeri_2016]: https://www.dukeupress.edu/placing-outer-space
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
@@ -1296,7 +1295,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_nelson_1993]: https://global.oup.com/academic/product/national-innovation-systems-9780195076172
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
 [book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
-[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun+Dreamer+of+Space
+[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun
 [book_nevins_1954]: https://openlibrary.org/search?q=Nevins+Ford+The+Times+The+Man+The+Company
 [book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
 [book_newhouse_2007]: https://us.macmillan.com/books/9781400079131/boeingversusairbus
@@ -1304,7 +1303,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_norberg_oneill_1996]: https://jhupbooks.press.jhu.edu/title/transforming-computer-technology
 [book_north_1990]: https://www.cambridge.org/9780521397346
 [book_nye_1990]: https://mitpress.mit.edu/9780262640305/electrifying-america/
-[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O%27Connor+Kleyner+Practical+Reliability+Engineering
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
 [book_ohno_1988]: https://openlibrary.org/search?q=Ohno+Toyota+Production+System
 [book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_ostrom_1990]: https://www.cambridge.org/9780521405997
@@ -1325,13 +1324,13 @@ The article closes with the specific load-bearing open questions that the specif
 [book_rosenberg_1976]: https://www.cambridge.org/9780521290111
 [book_rosenberg_1982]: https://www.cambridge.org/9780521273671
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+Uzumeri+Managing+Product+Families
+[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+and+Uzumeri+Managing+Product+Families
 [book_saxenian_1994]: https://www.hup.harvard.edu/books/9780674753402
 [book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
 [book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
-[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+Study+of+the+Toyota+Production+System
+[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+A+Study+of+the+Toyota+Production+System
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_sommerville_sawyer_1997]: https://www.wiley.com/en-us/Requirements+Engineering%3A+A+Good+Practice+Guide-p-9780471974444
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
@@ -1348,7 +1347,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_vertesi_2015]: https://openlibrary.org/search?q=Vertesi+Seeing+Like+a+Rover
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_wertz_everett_puschell_2011]: https://openlibrary.org/search?q=Wertz+Everett+Puschell+Space+Mission+Engineering+New+SMAD
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
@@ -1383,7 +1382,6 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_faa_ast]: https://www.faa.gov/space
 [ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
 [ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses
 [ref_faa_starship_ea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
 [ref_far_part_15]: https://www.acquisition.gov/far/part-15
 [ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
@@ -1405,12 +1403,12 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_nasa_artemis_program]: https://www.nasa.gov/artemis/
 [ref_nasa_auth_2010]: https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf
 [ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
-[ref_nasa_constellation]: https://ntrs.nasa.gov/search?q=Constellation
+[ref_nasa_constellation]: https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/
 [ref_nasa_dra_5_0]: https://ntrs.nasa.gov/citations/20090012109
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
 [ref_nasa_history]: https://history.nasa.gov/
-[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/press-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/press-release/nasa-awards-spacex-second-contract-option-for-artemis-moon-landing/
+[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/humans-in-space/artemis/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/mission/artemis-iii/
 [ref_nasa_hls_program]: https://www.nasa.gov/humans-in-space/human-landing-system/
 [ref_nasa_hls_solicitation]: https://sam.gov/opp/human-landing-system/
 [ref_nasa_hls_sustainable_2023]: https://www.nasa.gov/press-release/nasa-selects-blue-origin-as-second-artemis-lunar-lander-provider/
@@ -1421,7 +1419,7 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
 [ref_nasa_oig_artemis_2022]: https://oig.nasa.gov/docs/IG-22-003.pdf
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
-[ref_nasa_oig_reports]: https://oig.nasa.gov/
+[ref_nasa_oig_reports]: https://oig.nasa.gov/audits/
 [ref_nasa_orbital_debris]: https://orbitaldebris.jsc.nasa.gov/
 [ref_nasa_partnerships]: https://www.nasa.gov/partnerships/
 [ref_nasa_science_mars]: https://science.nasa.gov/mars/
@@ -1484,9 +1482,8 @@ The article closes with the specific load-bearing open questions that the specif
 [research_arthur_1989]: https://www.jstor.org/stable/2234208
 [research_bardeen_brattain_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
 [research_baumol_1977]: https://www.jstor.org/stable/1807012
-[research_bjelde_et_al_2007]: https://arc.aiaa.org/doi/10.2514/6.2007-6021
 [research_blackmore_2016]: https://ieeexplore.ieee.org/document/7735311
-[research_block_2008]: https://journals.sagepub.com/doi/10.1177/0032329207312349
+[research_block_2008]: https://doi.org/10.1177/0032329208318731
 [research_boudreau_2010]: https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1215
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
 [research_bresnahan_trajtenberg_1995]: https://www.sciencedirect.com/science/article/abs/pii/030440769401598T
@@ -1499,7 +1496,7 @@ The article closes with the specific load-bearing open questions that the specif
 [research_del_monte_2010]: https://www.sciencedirect.com/science/article/pii/S0265964610000160
 [research_dosi_1988]: https://www.jstor.org/stable/2726526
 [research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
-[research_dutton_thomas_1984]: https://journals.aom.org/doi/10.5465/amr.1984.4277938
+[research_dutton_thomas_1984]: https://doi.org/10.2307/258437
 [research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
 [research_eisenmann_et_al_2006]: https://hbr.org/2006/10/strategies-for-two-sided-markets
 [research_farrell_saloner_1985]: https://www.jstor.org/stable/2555277
@@ -1548,15 +1545,15 @@ The article closes with the specific load-bearing open questions that the specif
 [research_romer_1990]: https://www.journals.uchicago.edu/doi/10.1086/261725
 [research_rosenberg_trajtenberg_2004]: https://www.nber.org/papers/w8485
 [research_rosenbloom_christensen_1998]: https://academic.oup.com/icc/article-abstract/7/2/173/661731
-[research_ross_staw_1993]: https://journals.aom.org/doi/10.5465/256640
+[research_ross_staw_1993]: https://doi.org/10.2307/256756
 [research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
-[research_sage_cuppan_2001]: https://link.springer.com/journal/11213
+[research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
 [research_sanchez_mahoney_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171107
 [research_shockley_1949]: https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1949.tb03645.x
 [research_simon_1962]: https://www.jstor.org/stable/985254
 [research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
-[research_suarez_utterback_1995]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250160603
+[research_suarez_utterback_1995]: https://doi.org/10.1002/smj.4250160602
 [research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
 [research_teece_2007]: https://onlinelibrary.wiley.com/doi/10.1002/smj.640
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
@@ -1565,7 +1562,7 @@ The article closes with the specific load-bearing open questions that the specif
 [research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/
 [research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513
 [research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
-[research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
+[research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_winter_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.318
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155

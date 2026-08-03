@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Portfolio Patience and the Internalization of Tail Risk"
-date:   2026-07-31 09:00:00 +0000
+title: "History of SpaceX: Portfolio Patience and the Internalization of Tail Risk"
+date: 2026-07-31 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -61,7 +61,7 @@ The first commitment is descriptive-analytical framing rather than prescriptive 
 
 The second commitment is dual-register composition with both general-history and abstract-mechanic registers.
 
-The third commitment is primary-source anchoring. The article cites primary sources with preference for the specific [SpaceX news archive][ref_spacex_news_archive], the specific [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle], the specific [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle], the specific [SpaceX Starship vehicle documentation][ref_spacex_starship_vehicle], the specific [Starlink service documentation][ref_spacex_starlink], the specific [SpaceX Starshield documentation][ref_spacex_starshield], the specific [FAA current launch licenses][ref_faa_launch_licenses_current], the specific [FCC Starlink authorizations][ref_fcc_starlink_2018] and [FCC Starlink Gen2 authorizations][ref_fcc_starlink_gen2_2022], the specific [NASA Commercial Crew Program documentation][ref_nasa_ccp_documents], the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], and the specific [Space Force National Security Space Launch][ref_space_force_nssl] framework and the specific [Space Force news][ref_space_force_news], the specific [Department of Defense contract announcements][ref_dod_contracts], the specific [NASA Commercial Resupply Services program overview][ref_nasa_crs_program_overview], the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, and the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions under which the specific negation cases were resolved. The article draws on secondary sources including [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires.
+The third commitment is primary-source anchoring. The article cites primary sources with preference for the specific [SpaceX news archive][ref_spacex_news_archive], the specific [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle], the specific [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle], the specific [SpaceX Starship vehicle documentation][ref_spacex_starship_vehicle], the specific [Starlink service documentation][ref_spacex_starlink], the specific [SpaceX Starshield documentation][ref_spacex_starshield], the specific [FAA current launch licenses][ref_faa_ast], the specific [FCC Starlink authorizations][ref_fcc_starlink_2018] and [FCC Starlink Gen2 authorizations][ref_fcc_starlink_gen2_2022], the specific [NASA Commercial Crew Program documentation][ref_nasa_ccp_documents], the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], and the specific [Space Force National Security Space Launch][ref_space_force_nssl] framework and the specific [Space Force news][ref_space_force_news], the specific [Department of Defense contract announcements][ref_dod_contracts], the specific [NASA Commercial Resupply Services program overview][ref_nasa_crs_program_overview], the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, and the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions under which the specific negation cases were resolved. The article draws on secondary sources including [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires.
 
 The fourth commitment is contested-claim marking. The commitment binds heavily here. The specific per-line revenue figures, the specific margins, and above all the specific internal transfer prices at which one specific line charges another are not disclosed. The specific transfer price is the single most important unobserved quantity in this article, because substantially every claim about cross-subsidization depends on it.
 
@@ -215,7 +215,7 @@ with the specific components differing by an order of magnitude across the speci
 
 ## The Launch-Service Line
 
-The specific launch-service line is the specific oldest revenue-bearing line and the specific one from which the specific others were generated. The specific line sells specific delivery to orbit under the specific commercial terms the specific [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle] and the specific [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle] describe, and the specific mission record is reconstructible from the specific [FAA current launch licenses][ref_faa_launch_licenses_current], the specific [FAA Office of Commercial Space Transportation][ref_faa_ast] records, and the specific [SpaceX news archive][ref_spacex_news_archive]. The specific milestones that established the specific line's specific cost position include the specific [first orbital-class booster landing of December 2015][ref_spacex_press_falcon9_first_landing_2015], the specific [first reflight of a recovered booster in March 2017][ref_spacex_press_ses10_2017], the specific [Block 5 introduction of May 2018][ref_spacex_press_block5_bangabandhu_2018], and the specific [first Falcon Heavy flight of February 2018][ref_spacex_press_falcon_heavy_2018].
+The specific launch-service line is the specific oldest revenue-bearing line and the specific one from which the specific others were generated. The specific line sells specific delivery to orbit under the specific commercial terms the specific [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle] and the specific [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle] describe, and the specific mission record is reconstructible from the specific [FAA current launch licenses][ref_faa_ast], the specific [FAA Office of Commercial Space Transportation][ref_faa_ast] records, and the specific [SpaceX news archive][ref_spacex_news_archive]. The specific milestones that established the specific line's specific cost position include the specific [first orbital-class booster landing of December 2015][ref_spacex_press_falcon9_first_landing_2015], the specific [first reflight of a recovered booster in March 2017][ref_spacex_press_ses10_2017], the specific [Block 5 introduction of May 2018][ref_spacex_press_block5_bangabandhu_2018], and the specific [first Falcon Heavy flight of February 2018][ref_spacex_press_falcon_heavy_2018].
 
 The specific line's specific role in the specific portfolio is distinctive. It is the specific line that generates the specific capability the specific other lines consume, and it is therefore the specific line whose specific failure would be least survivable. The specific line is also the specific one whose specific external revenue has grown most slowly relative to the specific others across the specific recent period, because a specific increasing fraction of the specific launch capacity is consumed internally by the specific constellation line. The specific internal consumption fraction admits the compact form
 
@@ -531,7 +531,7 @@ The scholarly literature bearing on the portfolio-patience condition is unusual 
 
 ### Primary Source Documentation
 
-The specific primary-source documentation comprises the specific [SpaceX news archive][ref_spacex_news_archive], the specific vehicle documentation at [Falcon 9][ref_spacex_falcon9_vehicle], [Falcon Heavy][ref_spacex_falcon_heavy_vehicle], and [Starship][ref_spacex_starship_vehicle], the specific [Starlink service documentation][ref_spacex_starlink], the specific [SpaceX Starshield documentation][ref_spacex_starshield], the specific [SpaceX corporate site][ref_spacex_company], the specific [FAA current launch licenses][ref_faa_launch_licenses_current] and [FAA Part 450 licensing regulations][ref_faa_ast_licensing_regs_450], the specific [FAA Starship environmental review][ref_faa_starship_ea], the specific [FCC Starlink authorization of 2018][ref_fcc_starlink_2018], the specific [FCC Starlink Gen2 authorization of 2022][ref_fcc_starlink_gen2_2022], the specific [FCC direct-to-cell authorization of 2024][ref_fcc_direct_to_cell_2024], the specific [FCC filing system][ref_fcc_filings], the specific [NASA Commercial Crew Program documentation][ref_nasa_ccp_documents], the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], the specific [Space Force National Security Space Launch][ref_space_force_nssl] framework, the specific [GAO 2023 National Security Space Launch evaluation][ref_gao_nssl_2023], the specific [ITU Radio Regulations][ref_itu_radio_regulations_2020], the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system and the specific [Form D exempt-offering notices][ref_sec_form_d], the specific [Regulation S-K][ref_sec_regulation_sk] disclosure requirements, the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions, and the specific [FAA financial responsibility requirements][ref_faa_financial_responsibility].
+The specific primary-source documentation comprises the specific [SpaceX news archive][ref_spacex_news_archive], the specific vehicle documentation at [Falcon 9][ref_spacex_falcon9_vehicle], [Falcon Heavy][ref_spacex_falcon_heavy_vehicle], and [Starship][ref_spacex_starship_vehicle], the specific [Starlink service documentation][ref_spacex_starlink], the specific [SpaceX Starshield documentation][ref_spacex_starshield], the specific [SpaceX corporate site][ref_spacex_company], the specific [FAA current launch licenses][ref_faa_ast] and [FAA Part 450 licensing regulations][ref_faa_ast_licensing_regs_450], the specific [FAA Starship environmental review][ref_faa_starship_ea], the specific [FCC Starlink authorization of 2018][ref_fcc_starlink_2018], the specific [FCC Starlink Gen2 authorization of 2022][ref_fcc_starlink_gen2_2022], the specific [FCC direct-to-cell authorization of 2024][ref_fcc_direct_to_cell_2024], the specific [FCC filing system][ref_fcc_filings], the specific [NASA Commercial Crew Program documentation][ref_nasa_ccp_documents], the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], the specific [Space Force National Security Space Launch][ref_space_force_nssl] framework, the specific [GAO 2023 National Security Space Launch evaluation][ref_gao_nssl_2023], the specific [ITU Radio Regulations][ref_itu_radio_regulations_2020], the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system and the specific [Form D exempt-offering notices][ref_sec_form_d], the specific [Regulation S-K][ref_sec_regulation_sk] disclosure requirements, the specific [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions, and the specific [FAA financial responsibility requirements][ref_faa_financial_responsibility].
 
 ### Portfolio and Diversification Literature
 
@@ -625,7 +625,7 @@ The specific primary-source layer comprises the specific regulatory, specific co
 
 The specific secondary-source layer comprises the specific trade-press and specific analyst reconstructions identified above.
 
-The specific reconstruction methodology for the specific portfolio claims proceeds by triangulating the specific launch manifest, which is well documented through the specific [FAA current launch licenses][ref_faa_launch_licenses_current] and the specific [FAA Office of Commercial Space Transportation][ref_faa_ast] records, against the specific reported contract values appearing in the specific [Department of Defense contract announcements][ref_dod_contracts] and the specific NASA award announcements, and against the specific reported subscriber counts and the specific sector estimates that [BryceTech][ref_bryce_tech] and [Space Capital][ref_space_capital] publish. The specific method produces a specific defensible ordering of the specific line magnitudes and a specific poorly determined estimate of their specific absolute values.
+The specific reconstruction methodology for the specific portfolio claims proceeds by triangulating the specific launch manifest, which is well documented through the specific [FAA current launch licenses][ref_faa_ast] and the specific [FAA Office of Commercial Space Transportation][ref_faa_ast] records, against the specific reported contract values appearing in the specific [Department of Defense contract announcements][ref_dod_contracts] and the specific NASA award announcements, and against the specific reported subscriber counts and the specific sector estimates that [BryceTech][ref_bryce_tech] and [Space Capital][ref_space_capital] publish. The specific method produces a specific defensible ordering of the specific line magnitudes and a specific poorly determined estimate of their specific absolute values.
 
 The specific empirical-record limitations are severe and comprise the following. The specific firm publishes no specific segment reporting. The specific internal transfer prices are unknown and are the specific single most consequential unobserved quantity, because the specific per-line profitability is entirely determined by them. The specific capital expenditure allocation across the specific lines is unknown. The specific Starshield revenue and specific mission composition are classified. The specific consequence is that the specific article's specific qualitative claims about the specific portfolio structure are substantially better supported than its specific quantitative claims about the specific magnitudes, and the specific reader should weight them accordingly.
 
@@ -869,9 +869,8 @@ The article closes with the specific load-bearing open questions the treatment l
 - [European Spaceflight][ref_european_spaceflight]
 - [Eutelsat Corporate Record][ref_eutelsat_oneweb]
 - [FAA 14 CFR Part 450 Launch and Reentry Licensing Requirements][ref_faa_ast_licensing_regs_450]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
+- [FAA AST Current Launch Licenses Database][ref_faa_ast]
 - [FAA Financial Responsibility Requirements 14 CFR Part 440][ref_faa_financial_responsibility]
-- [FAA Office of Commercial Space Transportation][ref_faa_ast]
 - [FAA SpaceX Starship Environmental Review][ref_faa_starship_ea]
 - [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Electronic Comment Filing System][ref_fcc_filings]
@@ -1096,34 +1095,34 @@ The article closes with the specific load-bearing open questions the treatment l
 [book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
 [book_berger_2024]: https://openlibrary.org/search?q=Berger+Reentry+SpaceX
 [book_berle_means_1932]: https://www.routledge.com/The-Modern-Corporation-and-Private-Property/Berle-Means/p/book/9780887388873
-[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+Sherwin+American+Prometheus
+[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+and+Sherwin+American+Prometheus
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
 [book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
-[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan+Rockefeller
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan
 [book_concina_2006]: https://www.cambridge.org/9780521187459
-[book_copeland_antikarov_2001]: https://openlibrary.org/search?q=Copeland+Antikarov+Real+Options
+[book_copeland_antikarov_2001]: https://openlibrary.org/search?q=Copeland+and+Antikarov+Real+Options+A+Practitioners+Guide
 [book_creswell_2014]: https://us.sagepub.com/en-us/nam/research-design/book255675
 [book_cusumano_2010]: https://global.oup.com/academic/product/staying-power-9780199678501
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
 [book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_easterbrook_fischel_1991]: https://www.hup.harvard.edu/books/9780674235397
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_fine_1998]: https://www.hachettebookgroup.com/titles/charles-h-fine/clockspeed/9780738201535/
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_ford_crowther_1922]: https://openlibrary.org/search?q=Ford+My+Life+and+Work
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
-[book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
+[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_gompers_lerner_2001]: https://www.hbsp.harvard.edu/product/2434-HBK-ENG
 [book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
 [book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
 [book_hart_1995]: https://global.oup.com/academic/product/firms-contracts-and-financial-structure-9780198288817
-[book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
-[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+Anderson+New+World+Manhattan+Project
+[book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
+[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
 [book_horwitch_1982]: https://mitpress.mit.edu/9780262580620/clipped-wings/
 [book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
@@ -1139,7 +1138,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [book_lerner_2009]: https://press.princeton.edu/books/hardcover/9780691142197/boulevard-of-broken-dreams
 [book_levin_2010]: https://openlibrary.org/search?q=Levin+Wires+That+Bind
 [book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
-[book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
+[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
 [book_markowitz_1959]: https://yalebooks.yale.edu/book/9780300013726/portfolio-selection/
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
@@ -1157,7 +1156,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
 [book_newhouse_2007]: https://us.macmillan.com/books/9781400079131/boeingversusairbus
 [book_nonaka_takeuchi_1995]: https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691
-[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O%27Connor+Kleyner+Practical+Reliability+Engineering
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
 [book_ohno_1988]: https://openlibrary.org/search?q=Ohno+Toyota+Production+System
 [book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_owen_1997]: https://openlibrary.org/search?q=Owen+Concorde+Story+of+a+Supersonic+Pioneer
@@ -1176,15 +1175,15 @@ The article closes with the specific load-bearing open questions the treatment l
 [book_roe_1994]: https://press.princeton.edu/books/paperback/9780691026312/strong-managers-weak-owners
 [book_rogers_1962]: https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743258234
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+Uzumeri+Managing+Product+Families
+[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+and+Uzumeri+Managing+Product+Families
 [book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
 [book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
-[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+Study+of+the+Toyota+Production+System
+[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+A+Study+of+the+Toyota+Production+System
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+Asian+Trade+Revolution
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+The+Asian+Trade+Revolution+of+the+Seventeenth+Century
 [book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
 [book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
 [book_tirole_2006]: https://press.princeton.edu/books/hardcover/9780691125565/the-theory-of-corporate-finance
@@ -1194,7 +1193,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_womack_jones_2003]: https://www.simonandschuster.com/books/Lean-Thinking/James-P-Womack/9780743249270
@@ -1228,7 +1227,6 @@ The article closes with the specific load-bearing open questions the treatment l
 [ref_faa_ast]: https://www.faa.gov/space
 [ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
 [ref_faa_financial_responsibility]: https://www.ecfr.gov/current/title-14/part-440
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses
 [ref_faa_starship_ea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
 [ref_fasb_asc280]: https://www.fasb.org/
 [ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
@@ -1248,17 +1246,17 @@ The article closes with the specific load-bearing open questions the treatment l
 [ref_isro_press]: https://www.isro.gov.in/
 [ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
 [ref_jaxa_press]: https://global.jaxa.jp/press/
-[ref_journal_space_law]: https://law.olemiss.edu/
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
 [ref_jsse_journal]: https://www.sciencedirect.com/journal/journal-of-space-safety-engineering
 [ref_lloyds_market]: https://www.lloyds.com/
 [ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
 [ref_nasa_crs2_press_2016]: https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/
 [ref_nasa_crs_program_overview]: https://www.nasa.gov/commercial-resupply/
-[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/press-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/press-release/nasa-awards-spacex-second-contract-option-for-artemis-moon-landing/
+[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/humans-in-space/artemis/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/mission/artemis-iii/
 [ref_nasa_hls_program]: https://www.nasa.gov/humans-in-space/human-landing-system/
 [ref_nasa_news]: https://www.nasa.gov/news/
-[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/
+[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/audits/?_search=Commercial+Crew
 [ref_nasa_oig_ccp_cargo_2018]: https://oig.nasa.gov/docs/IG-18-016.pdf
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
 [ref_nasa_orbital_debris]: https://orbitaldebris.jsc.nasa.gov/
@@ -1295,7 +1293,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [ref_spacex_press_starlink_v0_9_2019]: https://www.spacex.com/updates/
 [ref_spacex_seattle_announcement_2015]: https://www.spacex.com/updates/
 [ref_spacex_starlink]: https://www.starlink.com/
-[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.t-mobile.com/news
+[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.starlink.com/business/direct-to-cell
 [ref_spacex_starshield]: https://www.spacex.com/starshield/
 [ref_spacex_starship_vehicle]: https://www.spacex.com/vehicles/starship/
 [ref_ssrn]: https://www.ssrn.com/
@@ -1314,7 +1312,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [research_adilov_et_al_2018]: https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591
 [research_adler_clark_1991]: https://pubsonline.informs.org/doi/10.1287/mnsc.37.3.267
 [research_adner_kapoor_2010]: https://onlinelibrary.wiley.com/doi/10.1002/smj.821
-[research_alchian_1963]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1963.tb00723.x
+[research_alchian_1963]: https://doi.org/10.2307/1909166
 [research_amihud_lev_1981]: https://www.jstor.org/stable/3003457
 [research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [research_anderson_tushman_1990]: https://www.jstor.org/stable/2393511
@@ -1333,11 +1331,11 @@ The article closes with the specific load-bearing open questions the treatment l
 [research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
 [research_deangelo_deangelo_1985]: https://www.sciencedirect.com/science/article/abs/pii/0304405X85900436
 [research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
-[research_dutton_thomas_1984]: https://journals.aom.org/doi/10.5465/amr.1984.4277938
+[research_dutton_thomas_1984]: https://doi.org/10.2307/258437
 [research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
 [research_ethiraj_levinthal_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1030.0145
 [research_fama_jensen_1983]: https://www.jstor.org/stable/725104
-[research_finkelstein_sanford_2000]: https://sloanreview.mit.edu/
+[research_finkelstein_sanford_2000]: https://doi.org/10.1016/S0090-2616(00)00020-6
 [research_fixson_2005]: https://www.sciencedirect.com/science/article/abs/pii/S0272696304000816
 [research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
 [research_gertner_scharfstein_stein_1994]: https://academic.oup.com/qje/article-abstract/109/4/1211/1866357
@@ -1375,7 +1373,7 @@ The article closes with the specific load-bearing open questions the treatment l
 [research_lewellen_1971]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1971.tb00912.x
 [research_lieberman_1984]: https://www.jstor.org/stable/2555589
 [research_lintner_1965]: https://www.jstor.org/stable/1924119
-[research_maccormack_baldwin_rusnak_2012]: https://doi.org/10.1287/mnsc.1110.1374
+[research_maccormack_baldwin_rusnak_2012]: https://doi.org/10.1016/j.respol.2012.04.011
 [research_march_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.71
 [research_markowitz_1952]: https://www.jstor.org/stable/2975974
 [research_mcdonald_siegel_1986]: https://academic.oup.com/qje/article-abstract/101/4/707/1885353
@@ -1391,25 +1389,25 @@ The article closes with the specific load-bearing open questions the treatment l
 [research_rajan_servaes_zingales_2000]: https://onlinelibrary.wiley.com/doi/10.1111/0022-1082.00200
 [research_rapping_1965]: https://www.jstor.org/stable/1928223
 [research_reuters_starshield_2024]: https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/
-[research_rivkin_siggelkow_2003]: https://pubsonline.informs.org/doi/10.1287/mnsc.49.3.290.12747
+[research_rivkin_siggelkow_2003]: https://doi.org/10.1287/mnsc.49.3.290.12740
 [research_robertson_ulrich_1998]: https://sloanreview.mit.edu/article/planning-for-product-platforms/
-[research_ross_staw_1993]: https://journals.aom.org/doi/10.5465/256640
+[research_ross_staw_1993]: https://doi.org/10.2307/256756
 [research_sahlman_1990]: https://www.sciencedirect.com/science/article/pii/0304405X9090065E
 [research_sanchez_mahoney_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171107
 [research_scharfstein_stein_2000]: https://onlinelibrary.wiley.com/doi/10.1111/0022-1082.00299
 [research_sharpe_1964]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1964.tb02865.x
 [research_shleifer_vishny_1997]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb04820.x
 [research_simon_1962]: https://www.jstor.org/stable/985254
-[research_sosa_eppinger_rowles_2003]: https://pubsonline.informs.org/doi/10.1287/mnsc.49.12.1674.25113
+[research_sosa_eppinger_rowles_2003]: https://doi.org/10.1115/1.1564074
 [research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
 [research_stein_1997]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb03810.x
-[research_suarez_utterback_1995]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250160603
+[research_suarez_utterback_1995]: https://doi.org/10.1002/smj.4250160602
 [research_teece_2007]: https://onlinelibrary.wiley.com/doi/10.1002/smj.640
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
 [research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
 [research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
 [research_ulrich_1995]: https://www.sciencedirect.com/science/article/abs/pii/0048733394000513
-[research_villalonga_2004]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00636.x
+[research_villalonga_2004]: https://doi.org/10.2139/ssrn.227828
 [research_volberda_foss_lyles_2010]: https://pubsonline.informs.org/doi/10.1287/orsc.1090.0503
 [research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/
 [research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513

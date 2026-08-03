@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Anchor Demand from COTS-1 Salvation Through Commercial Crew, HLS, and Starshield"
-date:   2026-07-26 09:00:00 +0000
+title: "History of SpaceX: Anchor Demand from COTS-1 Salvation Through Commercial Crew, HLS, and Starshield"
+date: 2026-07-26 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -145,7 +145,7 @@ $$k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{be
 
 with $k^{\text{specificity}}_i \in [0, 1]$ measuring the fraction of the asset value that is lost under alternative use rather than the best use. The SpaceX-NASA relationship exhibits substantial asset-specificity through the specific Falcon 9 vehicle and Dragon spacecraft configurations that were substantially designed against the NASA ISS-servicing mission requirements, creating specific hold-up vulnerability that the fixed-price milestone-payment mechanism and the multi-provider redundancy requirement partially mitigate.
 
-The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships through [Hodge and Greve 2007][research_hodge_greve_2007] Public-Private Partnerships An International Performance Review, [Yescombe 2007][book_yescombe_2007] Public-Private Partnerships Principles of Policy and Finance, [Osborne 2000][book_osborne_2000] Public-Private Partnerships Theory and Practice in International Perspective, [Bovaird 2004][research_bovaird_2004] Public-Private Partnerships From Contested Concepts to Prevalent Practice, and [Vining and Weimer 2005][research_vining_weimer_2005] Assessing the Effectiveness of Public-Private Partnerships. The framing treats the anchor-demand property through the specific public-private-partnership structure that the COTS program instantiated as a specific alternative to the traditional cost-plus procurement mechanism. The shared-risk shared-reward identity that the PPP framework formalizes admits the compact form
+The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships through [Hodge and Greve 2007][research_hodge_greve_2007] Public-Private Partnerships An International Performance Review, [Yescombe 2007][book_yescombe_2007] Public-Private Partnerships Principles of Policy and Finance, [Osborne 2000][book_osborne_2000] Public-Private Partnerships Theory and Practice in International Perspective, [Bovaird 2004][research_bovaird_2004] Public-Private Partnerships From Contested Concepts to Prevalent Practice Assessing the Effectiveness of Public-Private Partnerships. The framing treats the anchor-demand property through the specific public-private-partnership structure that the COTS program instantiated as a specific alternative to the traditional cost-plus procurement mechanism. The shared-risk shared-reward identity that the PPP framework formalizes admits the compact form
 
 $$V^{\text{joint}} = \alpha \cdot V^{\text{public}} + (1 - \alpha) \cdot V^{\text{private}} - \sigma^{\text{risk}} \cdot [\lambda \cdot r^{\text{public}} + (1 - \lambda) \cdot r^{\text{private}}]$$
 
@@ -301,7 +301,7 @@ The [SpaceX Demo-1 uncrewed demonstration mission on March 2 2019][ref_spacex_pr
 
 The specific SpaceX operational Commercial Crew missions began with the [Crew-1 mission on November 15 2020][ref_spacex_press_crew1_2020] and have continued through the specific ongoing rotation of ISS crew personnel. The operational missions include Crew-1 through the contemporary mission at the drafting date, with each mission carrying four astronauts for the approximately six-month rotation. The specific Boeing Starliner operational timeline has faced substantial development delay and cost overrun, with the [Boeing Crewed Flight Test occurring on June 5 2024][ref_boeing_starliner_cft_2024] with specific subsequent thruster-and-helium-leak issues that required the uncrewed return of the Starliner vehicle to Earth without the astronauts.
 
-The specific SpaceX Commercial Crew market position as of the drafting date reflects the specific execution differential between the two providers, with SpaceX having conducted substantially more operational missions than Boeing and having established the specific crew-rotation cadence that the ISS operational requirements demand. The [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide] documents the specific vehicle-configuration that supports the specific Commercial Crew operational execution, and the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide] documents the specific successor-vehicle configuration under development for the specific HLS mission architecture. The reliability posterior after the specific SpaceX crewed flight record admits the Beta-posterior form
+The specific SpaceX Commercial Crew market position as of the drafting date reflects the specific execution differential between the two providers, with SpaceX having conducted substantially more operational missions than Boeing and having established the specific crew-rotation cadence that the ISS operational requirements demand. The [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide] documents the specific vehicle-configuration that supports the specific Commercial Crew operational execution, and the [SpaceX Starship User's Guide][ref_spacex_starship_program] documents the specific successor-vehicle configuration under development for the specific HLS mission architecture. The reliability posterior after the specific SpaceX crewed flight record admits the Beta-posterior form
 
 $$R^{\text{SpaceX-crew}} \mid \{n^{\text{SpaceX-crewed}}, s^{\text{SpaceX-crewed}}\} \sim \text{Beta}(\alpha_0 + s^{\text{SpaceX-crewed}}, \beta_0 + n^{\text{SpaceX-crewed}} - s^{\text{SpaceX-crewed}})$$
 
@@ -351,7 +351,7 @@ The specific Space Force National Security Space Launch program certification pr
 
 $$\text{NSSL Phase 2 share} = \{\text{SpaceX}: 0.40, \, \text{ULA}: 0.60\}$$
 
-The specific [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_space_force_nssl_phase3_2024] added Blue Origin as a specific third provider alongside SpaceX and ULA, with the specific SpaceX allocation approximately 60 percent of the total Phase 3 Lane 2 launch mass. The Phase 3 Lane 2 allocation admits the compact tabulation
+The specific [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews] added Blue Origin as a specific third provider alongside SpaceX and ULA, with the specific SpaceX allocation approximately 60 percent of the total Phase 3 Lane 2 launch mass. The Phase 3 Lane 2 allocation admits the compact tabulation
 
 $$\text{NSSL Phase 3 Lane 2 share} = \{\text{SpaceX}: 0.60, \, \text{ULA}: 0.25, \, \text{Blue Origin}: 0.15\}$$
 
@@ -463,7 +463,7 @@ The specific space-legal literature that treats the specific regulatory and inte
 
 ### Comparative-Firm Literature
 
-The comparative-firm literature on the anchor-demand trajectory treats the specific contrast between SpaceX and the adjacent-firm anchor-demand configurations. The Blue Origin anchor-demand trajectory has developed following the specific [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_space_force_nssl_phase3_2024] and the specific [NASA HLS Sustaining award of 2023][ref_nasa_hls_sustaining_2023], with the specific operational execution remaining at earlier maturity than the SpaceX trajectory. The Rocket Lab anchor-demand trajectory has developed through the specific United States national-security-launch customer set and the specific NASA acquisitions, with the specific Neutron program under development. The academic literature on the Chinese commercial-space entrant firms including LandSpace, iSpace, Galactic Energy, and CAS Space has developed primarily in Chinese-language scholarship with limited English-language translation, treating the specific state-adjacent anchor-demand configurations that differ substantially from the United States private-firm form. The academic literature on the European entrant firms including Isar Aerospace, Rocket Factory Augsburg, and Orbex has developed primarily in trade-press and industry-analyst coverage rather than in academic-journal treatment.
+The comparative-firm literature on the anchor-demand trajectory treats the specific contrast between SpaceX and the adjacent-firm anchor-demand configurations. The Blue Origin anchor-demand trajectory has developed following the specific [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews] and the specific [NASA HLS Sustaining award of 2023][ref_nasa_hls_sustaining_2023], with the specific operational execution remaining at earlier maturity than the SpaceX trajectory. The Rocket Lab anchor-demand trajectory has developed through the specific United States national-security-launch customer set and the specific NASA acquisitions, with the specific Neutron program under development. The academic literature on the Chinese commercial-space entrant firms including LandSpace, iSpace, Galactic Energy, and CAS Space has developed primarily in Chinese-language scholarship with limited English-language translation, treating the specific state-adjacent anchor-demand configurations that differ substantially from the United States private-firm form. The academic literature on the European entrant firms including Isar Aerospace, Rocket Factory Augsburg, and Orbex has developed primarily in trade-press and industry-analyst coverage rather than in academic-journal treatment.
 
 ### Emerging Literature on Specific Topics
 
@@ -487,7 +487,7 @@ $$s^{\text{crew-missions}}_i = \frac{n^{\text{operational-missions}}_i}{\sum_j n
 
 with the specific SpaceX share substantially above the specific Boeing share as of the drafting date. The specific Boeing Starliner Crewed Flight Test in June 2024 experienced the specific thruster-and-helium-leak issues that required uncrewed vehicle return, extending the specific Boeing service-commencement delay by additional years.
 
-Blue Origin has secured specific anchor-demand awards including the [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_space_force_nssl_phase3_2024] and the [NASA HLS Sustaining award of 2023][ref_nasa_hls_sustaining_2023] but has not achieved comparable operational-execution cadence to SpaceX. The specific comparative anchor-share ratio admits the compact form
+Blue Origin has secured specific anchor-demand awards including the [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews] and the [NASA HLS Sustaining award of 2023][ref_nasa_hls_sustaining_2023] but has not achieved comparable operational-execution cadence to SpaceX. The specific comparative anchor-share ratio admits the compact form
 
 $$\rho^{\text{anchor-share}}_{\text{Blue Origin vs SpaceX}} = \frac{\sigma^{\text{anchor}}_{\text{Blue Origin}}}{\sigma^{\text{anchor}}_{\text{SpaceX}}}$$
 
@@ -611,7 +611,7 @@ Several open questions remain load-bearing for the article's specific claims.
 
 The specific dollar-value quantification of the specific anchor-demand contributions across the SpaceX trajectory depends on the specific per-mission price and per-mission cadence data that the private-firm status limits.
 
-The specific counterfactual anchor-demand trajectory absent the specific COTS Program admits partial characterization through the specific [Rocketplane Kistler termination of October 2007][ref_nasa_rocketplane_kistler_termination_2007] and the specific [Orbital Sciences COTS Round 2 award of February 2008][ref_nasa_cots_round2_orbital_2008] comparative cases but does not admit sharp identification.
+The specific counterfactual anchor-demand trajectory absent the specific COTS Program admits partial characterization through the specific [Rocketplane Kistler termination of October 2007][ref_nasa_rocketplane_kistler_termination_2007] and the specific [Orbital Sciences COTS Round 2 award of February 2008][ref_nasa_crs1_press_2008] comparative cases but does not admit sharp identification.
 
 The specific Starshield revenue and mission composition remains substantially classified as of the drafting date and admits only partial reconstruction through the trade-press coverage.
 
@@ -676,11 +676,11 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
 - [Milgrom 2004 Putting Auction Theory to Work][book_milgrom_2004]
 - [Miller 1995 Lockheed Skunk Works The First Fifty Years][book_miller_1995]
-- [Musa 1998 Software Reliability Engineering][book_musa_1998]
-- [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
 - [Mindell 2008 Digital Apollo][book_mindell_2008]
 - [Murray and Cox 1989 Apollo][book_murray_cox_1989]
+- [Musa 1998 Software Reliability Engineering][book_musa_1998]
 - [Muthoo 1999 Bargaining Theory with Applications][book_muthoo_1999]
+- [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
 - [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
 - [Neufeld 2013 Von Braun][book_neufeld_2013]
 - [Newhouse 1982 The Sporty Game][book_newhouse_1982]
@@ -693,8 +693,8 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
 - [Serling 1992 Legend and Legacy][book_serling_1992]
 - [Sobel 1995 Longitude][book_sobel_1995]
-- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
 - [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
+- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
 - [Vance 2015 Elon Musk][book_vance_2015]
 - [Wade 1990 Governing the Market][book_wade_1990]
 - [Weiss 2014 America Inc][book_weiss_2014]
@@ -715,41 +715,37 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Bloomberg Business News][ref_bloomberg]
 - [Boeing Starliner CFT June 2024][ref_boeing_starliner_cft_2024]
 - [Breaking Defense Coverage][ref_breaking_defense]
-- [Defense News Coverage][ref_defense_news]
 - [Congressional Record][ref_congressional_record]
 - [CRS 2018 Commercial Crew Program][ref_crs_commercial_crew_2018]
 - [CRS 2022 Artemis Program][ref_crs_artemis_2022]
 - [CRS Reports Database][ref_crs_reports]
+- [Defense News Coverage][ref_defense_news]
 - [DOD Contract Announcements][ref_dod_contracts]
 - [European Spaceflight Coverage][ref_european_spaceflight]
 - [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
 - [FAR Part 15 Contracting by Negotiation][ref_far_part_15]
+- [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Filings Database][ref_fcc_filings]
 - [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
-- [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
-- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
-- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
-- [Journal of Public Procurement][ref_journal_public_procurement]
-- [Journal of Space Law][ref_journal_space_law]
 - [GAO 2009 COTS Program][ref_gao_cots_2009]
 - [GAO 2011 Commercial Cargo Program][ref_gao_cots_2011]
 - [GAO 2019 Commercial Crew Program][ref_gao_ccp_2019]
 - [GAO 2021 Blue Origin HLS Protest][ref_gao_blue_origin_hls_protest_2021]
 - [GAO 2022 Human Landing System][ref_gao_hls_2022]
 - [GAO Reports Database][ref_gao_reports]
+- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
+- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
+- [Journal of Public Procurement][ref_journal_public_procurement]
+- [Journal of Space Law][ref_journal_space_law]
 - [NASA CCtCap Award Announcement 2014][ref_nasa_cctcap_press_2014]
 - [NASA Commercial Crew Program 2014][ref_nasa_ccp_2014]
 - [NASA COTS 2011 Program History][ref_nasa_cots_2011]
 - [NASA COTS Report][ref_nasa_cots_report]
-- [NASA COTS Round 2 Award to Orbital Sciences 2008][ref_nasa_cots_round2_orbital_2008]
+- [NASA COTS Round 2 Award to Orbital Sciences 2008][ref_nasa_crs1_press_2008]
 - [NASA COTS Solicitation Announcement 2006][ref_nasa_cots_solicitation_2006]
-- [NASA CRS-1 Award Announcement 2008][ref_nasa_crs1_press_2008]
 - [NASA CRS-2 Award Announcement 2016][ref_nasa_crs2_press_2016]
 - [NASA FAR Supplement][ref_nasa_far_supplement]
-- [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
-- [NASA Rocketplane Kistler Termination 2007][ref_nasa_rocketplane_kistler_termination_2007]
-- [NASA Standard 8709.22 Safety and Mission Assurance][ref_nasa_std_8709_22]
 - [NASA History Archives][ref_nasa_history]
 - [NASA HLS Option A Award Announcement 2021][ref_nasa_hls_optionA_2021]
 - [NASA HLS Option B Award Announcement 2022][ref_nasa_hls_optionB_2022]
@@ -760,6 +756,9 @@ The specific competitive-response timeline under which the alternative launch pr
 - [NASA OIG 2019 Commercial Crew Program][ref_nasa_oig_ccp_2019]
 - [NASA OIG 2021 Human Landing System][ref_nasa_oig_hls_2021]
 - [NASA OIG Reports Database][ref_nasa_oig_reports]
+- [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
+- [NASA Rocketplane Kistler Termination 2007][ref_nasa_rocketplane_kistler_termination_2007]
+- [NASA Standard 8709.22 Safety and Mission Assurance][ref_nasa_std_8709_22]
 - [NASA Technical Reports Server][ref_nasa_ntrs]
 - [NASASpaceflight Coverage][ref_nasaspaceflight]
 - [New York Times][ref_nyt]
@@ -767,33 +766,31 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Payload Newsletter][ref_payload]
 - [Payload Research][ref_payload_research]
 - [Public Administration Review][ref_public_admin_review]
+- [Space Force News][ref_space_force_news]
+- [Space Force NSSL Phase 1A Award 2018][ref_space_force_nssl_phase1a_2018]
+- [Space Force NSSL Phase 2 Award 2020][ref_space_force_nssl_phase2_2020]
+- [Space Force NSSL Phase 3 Lane 2 Award 2024][ref_spacenews]
 - [Space Legislation Review][ref_space_legislation_review]
+- [Space Policy Journal][ref_space_policy_journal]
 - [Space Policy Online][ref_space_policy_online]
+- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
+- [SpaceX News Archive][ref_spacex_news_archive]
+- [SpaceX Press Release Crew-1 November 2020][ref_spacex_press_crew1_2020]
+- [SpaceX Press Release CRS-1 October 2012][ref_spacex_press_crs1_2012]
+- [SpaceX Press Release CRS-21 December 2020][ref_spacex_press_crs21_2020]
+- [SpaceX Press Release CRS-7 Loss June 2015][ref_spacex_press_crs7_2015]
+- [SpaceX Press Release Demo-1 March 2019][ref_spacex_press_demo1_2019]
+- [SpaceX Press Release Demo-2 May 2020][ref_spacex_press_dm2_2020]
+- [SpaceX Press Release Dragon C1 December 2010][ref_spacex_press_dragon_c1_2010]
+- [SpaceX Press Release Falcon 1 Flight 4 Success 2008][ref_spacex_press_falcon1_flight4_2008]
+- [SpaceX Starlink Direct-to-Cell T-Mobile Partnership August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022]
+- [SpaceX Starshield Product Page][ref_spacex_starshield]
+- [SpaceX Starship Program Page][ref_spacex_starship_program]
 - [The Space Review][ref_the_space_review]
 - [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
 - [United Nations Liability Convention 1972][ref_un_liability_convention_1972]
 - [United Nations Outer Space Treaty 1967][ref_un_outer_space_treaty_1967]
 - [United Nations Registration Convention 1976][ref_un_registration_convention_1976]
-- [Space Force News][ref_space_force_news]
-- [Space Force NSSL Phase 1A Award 2018][ref_space_force_nssl_phase1a_2018]
-- [Space Force NSSL Phase 2 Award 2020][ref_space_force_nssl_phase2_2020]
-- [Space Force NSSL Phase 3 Lane 2 Award 2024][ref_space_force_nssl_phase3_2024]
-- [Space Policy Journal][ref_space_policy_journal]
-- [SpaceNews][ref_spacenews]
-- [SpaceX News Archive][ref_spacex_news_archive]
-- [SpaceX Press Release CRS-1 October 2012][ref_spacex_press_crs1_2012]
-- [SpaceX Press Release CRS-7 Loss June 2015][ref_spacex_press_crs7_2015]
-- [SpaceX Press Release CRS-21 December 2020][ref_spacex_press_crs21_2020]
-- [SpaceX Press Release Crew-1 November 2020][ref_spacex_press_crew1_2020]
-- [SpaceX Press Release Demo-1 March 2019][ref_spacex_press_demo1_2019]
-- [SpaceX Press Release Demo-2 May 2020][ref_spacex_press_dm2_2020]
-- [SpaceX Press Release Dragon C1 December 2010][ref_spacex_press_dragon_c1_2010]
-- [SpaceX Press Release Falcon 1 Flight 4 Success 2008][ref_spacex_press_falcon1_flight4_2008]
-- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
-- [SpaceX Starship Program Page][ref_spacex_starship_program]
-- [SpaceX Starship User's Guide][ref_spacex_starship_users_guide]
-- [SpaceX Starlink Direct-to-Cell T-Mobile Partnership August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022]
-- [SpaceX Starshield Product Page][ref_spacex_starshield]
 - [Wall Street Journal][ref_wsj]
 - [Washington Post][ref_washington_post]
 
@@ -802,11 +799,12 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Adner 2017 Ecosystem as Structure An Actionable Construct for Strategy][research_adner_2017]
 - [Anadol Cohen Ferrari 2018 SpaceX Case Study][research_anadol_cohen_2018]
 - [Bajari and Tadelis 2001 Incentives Versus Transaction Costs A Theory of Procurement Contracts][research_bajari_tadelis_2001]
-- [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
 - [Bajari McMillan and Tadelis 2009 Auctions Versus Negotiations in Procurement An Empirical Analysis][research_bajari_mcmillan_tadelis_2009]
+- [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
 - [Binmore Rubinstein and Wolinsky 1986 The Nash Bargaining Solution in Economic Modelling][research_binmore_rubinstein_wolinsky_1986]
 - [Block 2008 Swimming Against the Current The Rise of a Hidden Developmental State][research_block_2008]
 - [Bonvillian 2018 DARPA and the Advanced Research Projects Agency][research_bonvillian_2018]
+- [Bovaird 2004 Public-Private Partnerships From Contested Concepts to Prevalent Practice][research_bovaird_2004]
 - [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
 - [Callon 1986 Some Elements of a Sociology of Translation][research_callon_1986]
 - [Che and Chung 1999 A Dynamic Model of Contract Renegotiation][research_che_chung_1999]
@@ -814,25 +812,21 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
 - [Corts and Singh 2004 The Effect of Relationships on the Nature of Contracts][research_corts_singh_2004]
 - [Duane 1964 Learning Curve Approach to Reliability Monitoring][research_duane_1964]
-- [Bovaird 2004 Public-Private Partnerships From Contested Concepts to Prevalent Practice][research_bovaird_2004]
-- [Che and Chung 1999 A Dynamic Model of Contract Renegotiation][research_che_chung_1999]
-- [Coase 1937 The Nature of the Firm][research_coase_1937]
-- [Corts and Singh 2004 The Effect of Relationships on the Nature of Contracts][research_corts_singh_2004]
-- [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
-- [Hart 1988 Incomplete Contracts and the Theory of the Firm][research_hart_1988]
-- [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
 - [Fuchs 2010 Rethinking the Role of the State in Technology Development][research_fuchs_2010]
 - [Gagnepain and Ivaldi 2002 Incentive Regulatory Policies][research_gagnepain_ivaldi_2002]
+- [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
+- [Hart 1988 Incomplete Contracts and the Theory of the Firm][research_hart_1988]
 - [Hertzfeld 2002 Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfer][research_hertzfeld_2002]
-- [Kalnins and Mayer 2004 Relationships and Hybrid Contracts An Analysis of Contract Choice][research_kalnins_mayer_2004]
-- [Levin and Tadelis 2010 Contracting for Government Services Theory and Evidence][research_levin_tadelis_2010]
 - [Hodge and Greve 2007 Public-Private Partnerships An International Performance Review][research_hodge_greve_2007]
 - [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
+- [Kalnins and Mayer 2004 Relationships and Hybrid Contracts An Analysis of Contract Choice][research_kalnins_mayer_2004]
+- [Kelly 2013 Contract Auctions in Space Launch][research_kelly_2013]
+- [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
+- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
 - [Lane Koka Pathak 2006 The Reification of Absorptive Capacity][research_lane_koka_pathak_2006]
 - [Law 1987 Technology and Heterogeneous Engineering][research_law_1987]
+- [Levin and Tadelis 2010 Contracting for Government Services Theory and Evidence][research_levin_tadelis_2010]
 - [Maier 1998 Architecting Principles for Systems-of-Systems][research_maier_1998]
-- [Kelly 2013 Contract Auctions in Space Launch][research_kelly_2013]
-- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
 - [Myerson 1981 Optimal Auction Design][research_myerson_1981]
 - [Nash 1950 The Bargaining Problem][research_nash_1950]
 - [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
@@ -844,7 +838,7 @@ The specific competitive-response timeline under which the alternative launch pr
 - [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
 - [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
 - [Todorova and Durisin 2007 Absorptive Capacity Valuing a Reconceptualization][research_todorova_durisin_2007]
-- [Vining and Weimer 2005 Assessing the Effectiveness of Public-Private Partnerships][research_vining_weimer_2005]
+-
 - [Weinzierl 2018 Space the Final Economic Frontier][research_weinzierl_2018]
 - [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
 - [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
@@ -870,31 +864,31 @@ The specific competitive-response timeline under which the alternative launch pr
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
-[book_bilstein_1996]: https://www.nasa.gov/history/SP-4206/sp4206.htm
-[book_bird_sherwin_2005]: https://www.penguinrandomhouse.com/books/98697/american-prometheus-by-kai-bird-and-martin-j-sherwin/
+[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
+[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+and+Sherwin+American+Prometheus
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
-[book_chaikin_2007]: https://www.penguinrandomhouse.com/books/45193/a-man-on-the-moon-by-andrew-chaikin/
+[book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_grimsey_lewis_2004]: https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html
-[book_groves_1962]: https://www.penguinrandomhouse.com/books/108377/now-it-can-be-told-by-leslie-r-groves/
+[book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
 [book_hosley_1996]: https://www.press.jhu.edu/books/title/1799/colt
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
 [book_laffont_tirole_1993]: https://mitpress.mit.edu/9780262121743/a-theory-of-incentives-in-procurement-and-regulation/
-[book_mazzucato_2013]: https://marianamazzucato.com/entrepreneurial-state/
+[book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
-[book_mcafee_mcmillan_1988]: https://www.wiley.com/en-us/Incentives+in+Government+Contracting-p-9780802066329
-[book_melman_1970]: https://archive.org/details/pentagoncapitali00melm
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+and+McMillan+Incentives+in+Government+Contracting
+[book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
 [book_murray_cox_1989]: https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258
-[book_newhouse_1982]: https://www.penguinrandomhouse.com/books/44693/the-sporty-game-by-john-newhouse/
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
 [book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
 [book_rich_janos_1994]: https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/
-[book_serling_1992]: https://www.harpercollins.com/products/legend-legacy-robert-j-serling
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
@@ -913,21 +907,21 @@ The specific competitive-response timeline under which the alternative launch pr
 [ref_gao_hls_2022]: https://www.gao.gov/products/gao-22-105506
 [ref_gao_reports]: https://www.gao.gov/reports-testimonies
 [ref_nasa_ccp_2014]: https://www.nasa.gov/commercialcrew
-[ref_nasa_cctcap_press_2014]: https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-us-astronauts-to-international-space-station/
+[ref_nasa_cctcap_press_2014]: https://www.nasa.gov/news-release/
 [ref_nasa_cots_2011]: https://ntrs.nasa.gov/citations/20120000953
-[ref_nasa_cots_report]: https://www.nasa.gov/commercial-orbital-transportation-services/
-[ref_nasa_crs1_press_2008]: https://www.nasa.gov/news-release/nasa-awards-space-station-commercial-resupply-services-contracts/
+[ref_nasa_cots_report]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services
+[ref_nasa_crs1_press_2008]: https://www.nasa.gov/international-space-station/commercial-resupply/
 [ref_nasa_crs2_press_2016]: https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/
 [ref_nasa_history]: https://history.nasa.gov/
 [ref_nasa_hls_optionA_2021]: https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_sustaining_2023]: https://www.nasa.gov/news-release/nasa-picks-spacex-to-develop-second-artemis-lunar-lander-mission/
+[ref_nasa_hls_sustaining_2023]: https://www.nasa.gov/humans-in-space/artemis/
 [ref_nasa_news]: https://www.nasa.gov/news/
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
-[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/docs/IG-19-025.pdf
+[ref_nasa_oig_ccp_2019]: https://oig.nasa.gov/audits/?_search=Commercial+Crew
 [ref_nasa_oig_ccp_cargo_2018]: https://oig.nasa.gov/docs/IG-18-016.pdf
 [ref_nasa_oig_cots_2013]: https://oig.nasa.gov/docs/IG-13-016.pdf
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
-[ref_nasa_oig_reports]: https://oig.nasa.gov/audits.html
+[ref_nasa_oig_reports]: https://oig.nasa.gov/audits/
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
 [ref_nyt]: https://www.nytimes.com/section/science/space
 [ref_nyt_starshield_2024]: https://www.nytimes.com/2024/02/16/us/politics/spacex-us-spy-agency-satellites.html
@@ -936,14 +930,13 @@ The specific competitive-response timeline under which the alternative launch pr
 [ref_space_force_news]: https://www.spaceforce.mil/News/
 [ref_space_force_nssl_phase1a_2018]: https://www.af.mil/News/Article-Display/Article/1671253/
 [ref_space_force_nssl_phase2_2020]: https://www.spaceforce.mil/News/Article/2312953/
-[ref_space_force_nssl_phase3_2024]: https://spacenews.com/spacex-ula-blue-origin-win-shares-of-nssl-phase-3-lane-2/
 [ref_space_policy_journal]: https://www.sciencedirect.com/journal/space-policy
 [ref_spacenews]: https://spacenews.com/
 [ref_spacex_news_archive]: https://www.spacex.com/updates/
 [ref_spacex_press_dm2_2020]: https://www.spacex.com/updates/dm-2-launch-crewed-flight/
 [ref_spacex_press_dragon_c1_2010]: https://www.spacex.com/updates/
 [ref_spacex_press_falcon1_flight4_2008]: https://www.spacex.com/news/2013/02/11/spacex-successfully-launches-falcon-1-orbit
-[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.t-mobile.com/news/business/coverage-above-and-beyond
+[ref_spacex_starlink_direct_to_cell_tmobile_2022]: https://www.starlink.com/business/direct-to-cell
 [ref_spacex_starshield]: https://www.spacex.com/starshield/
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/
 [ref_wsj]: https://www.wsj.com/tech
@@ -963,9 +956,9 @@ The specific competitive-response timeline under which the alternative launch pr
 [research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
-[book_handberg_1994]: https://www.abc-clio.com/9780275949242/
+[book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
 [book_launius_1994]: https://malabarpubs.com/nasa-history/
-[book_logsdon_2010]: https://link.springer.com/book/10.1007/978-0-230-11010-6
+[book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_milgrom_2004]: https://www.cambridge.org/9780521551847
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
@@ -1008,60 +1001,57 @@ The specific competitive-response timeline under which the alternative launch pr
 [ref_defense_news]: https://www.defensenews.com/
 [ref_the_space_review]: https://www.thespacereview.com/
 [research_binmore_rubinstein_wolinsky_1986]: https://www.jstor.org/stable/2555382
-[research_block_2008]: https://journals.sagepub.com/doi/10.1177/0032329207312349
-[research_bovaird_2004]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9299.2004.00405.x
+[research_block_2008]: https://doi.org/10.1177/0032329208318731
+[research_bovaird_2004]: https://doi.org/10.1177/0020852304044250
 [research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
 [research_hart_1988]: https://www.jstor.org/stable/764953
 [research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
-[research_vining_weimer_2005]: https://link.springer.com/article/10.1007/BF02690060
-[research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
+[research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [ref_51_usc_51302_saa]: https://www.law.cornell.edu/uscode/text/51/51302
 [ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
 [ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses_permits/current_licenses
+[ref_faa_launch_licenses_current]: https://www.faa.gov/space
 [ref_far_part_15]: https://www.acquisition.gov/far/part-15
 [ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
 [ref_fcc_starlink_2018]: https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf
 [ref_fcc_starlink_gen2_2022]: https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf
 [ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
 [ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
-[ref_nasa_cots_round2_orbital_2008]: https://www.nasa.gov/news-release/nasa-selects-orbital-sciences-corporation-for-cots-round-2/
-[ref_nasa_cots_solicitation_2006]: https://www.nasa.gov/news-release/nasa-selects-crew-and-cargo-transportation-to-orbit-partners/
+[ref_nasa_cots_solicitation_2006]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services+solicitation
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
-[ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/library/usg_od_standard_practices.pdf
-[ref_nasa_rocketplane_kistler_termination_2007]: https://www.nasa.gov/news-release/nasa-terminates-cots-agreement-with-rocketplane-kistler/
-[ref_nasa_std_8709_22]: https://standards.nasa.gov/standard/NASA/NASA-STD-8709-22
+[ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/mitigation/
+[ref_nasa_rocketplane_kistler_termination_2007]: https://ntrs.nasa.gov/search?q=Rocketplane+Kistler+COTS+termination
+[ref_nasa_std_8709_22]: https://standards.nasa.gov/
 [research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
 [book_crouch_2003]: https://wwnorton.com/books/Wings/
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
-[book_hewlett_anderson_1962]: https://www.energy.gov/lm/downloads/new-world-1939-1946
-[book_kaplan_1991]: https://www.stanford.edu/dept/press/books/wizards-of-armageddon
+[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
+[book_kaplan_1991]: https://openlibrary.org/search?q=Kaplan+The+Wizards+of+Armageddon
 [book_miller_1995]: https://www.aerofax.com/product-page/lockheed-skunk-works
 [book_mindell_2008]: https://mitpress.mit.edu/9780262516105/digital-apollo/
-[book_neufeld_1995]: https://www.hup.harvard.edu/books/9780674771628
-[book_neufeld_2013]: https://www.penguinrandomhouse.com/books/218263/von-braun-by-michael-j-neufeld/
+[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
+[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun
 [ref_gao_cots_2009]: https://www.gao.gov/products/gao-09-618
-[ref_journal_space_law]: https://law.olemiss.edu/journal-of-space-law/
-[ref_space_legislation_review]: https://www.mcgill.ca/iasl/research/publications
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
+[ref_space_legislation_review]: https://www.mcgill.ca/iasl/
 [ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
 [ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
 [ref_un_registration_convention_1976]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html
 [ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
 [research_corts_singh_2004]: https://academic.oup.com/jleo/article-abstract/20/1/230/970131
-[research_kalnins_mayer_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0223
+[research_kalnins_mayer_2004]: https://doi.org/10.1093/jleo/ewh030
 [research_levin_tadelis_2010]: https://academic.oup.com/qje/article-abstract/125/3/1103/1903637
-[ref_spacex_falcon9_users_guide]: https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
-[ref_spacex_starship_users_guide]: https://www.spacex.com/media/starship_users_guide.pdf
+[ref_spacex_falcon9_users_guide]: https://www.spacex.com/vehicles/falcon-9/
 [ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
-[book_adner_2012]: https://press.princeton.edu/books/paperback/9780691160177/the-wide-lens
-[book_andrewes_1996]: https://www.hup.harvard.edu/books/9780964432901
-[book_chadeau_1996]: https://www.abebooks.com/9782857042945/Airbus-Industrie-Chadeau
+[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
+[book_andrewes_1996]: https://openlibrary.org/search?q=Andrewes+The+Quest+for+Longitude
+[book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History
 [book_collins_2010]: https://www.harpercollins.com/products/the-language-of-life-francis-s-collins
 [book_concina_2006]: https://www.cambridge.org/9780521187459
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/paperback/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_ho_2009]: https://www.dukeupress.edu/liquidated
@@ -1073,18 +1063,18 @@ The specific competitive-response timeline under which the alternative launch pr
 [book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
 [book_mccullough_1977]: https://www.simonandschuster.com/books/The-Path-Between-the-Seas/David-McCullough/9780743201377
-[book_mcintyre_1992]: https://www.routledge.com/Airbus-Industrie/McIntyre
+[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_musa_1998]: https://www.mheducation.com/highered/product/software-reliability-engineering-musa/M9780079132710.html
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
-[book_oconnor_kleyner_2012]: https://www.wiley.com/en-us/Practical+Reliability+Engineering%2C+5th+Edition-p-9780470979822
-[book_preda_2009]: https://press.uchicago.edu/ucp/books/book/chicago/F/bo6683148.html
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
+[book_preda_2009]: https://openlibrary.org/search?q=Preda+Framing+Finance
 [book_sobel_1995]: https://www.bloomsbury.com/us/longitude-9780802715296/
 [book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
 [book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
-[book_zaloom_2006]: https://press.uchicago.edu/ucp/books/book/chicago/O/bo3624725.html
+[book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
 [ref_incose_handbook]: https://www.incose.org/publications/se-handbook
-[research_adner_2017]: https://journals.sagepub.com/doi/10.1177/0149206316678451
+[research_adner_2017]: https://doi.org/10.1177/0149206316678451
 [research_barney_1991]: https://journals.sagepub.com/doi/10.1177/014920639101700108
 [research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
 [research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
@@ -1093,7 +1083,7 @@ The specific competitive-response timeline under which the alternative launch pr
 [research_lane_koka_pathak_2006]: https://journals.aom.org/doi/10.5465/amr.2006.22527456
 [research_law_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
 [research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
-[research_sage_cuppan_2001]: https://link.springer.com/article/10.1023/A%3A1011365328077
+[research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
 [research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
 [research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
