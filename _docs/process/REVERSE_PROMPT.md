@@ -63,10 +63,21 @@ The closer's substantive contribution is the finding that the framework's own in
 
 ---
 
+## Deploy Result
+
+**Deploy succeeded.** Eleven of the twelve articles are live and returning 200, including the seven whose corrections this push carried.
+
+**A292 is correctly withheld for one day.** Its editorial date is 2026-08-04 and the deploy ran on 2026-08-03, and `_config.yml` sets `future: false`. It will appear automatically when its date arrives. No build error occurred, because the series back-reference-only convention means no published article points forward at it. That convention is what protected the build here.
+
+---
+
 ## Items Requiring Your Attention
 
-1. **Verify the live URLs** once GitHub Pages finishes building. The five new posts are under `/history/business/aerospace/2026/07/31/` through `/2026/08/04/`.
+1. **A documentation defect, and it is the one worth your time.** `_docs/process/FORWARD_DATED_POSTS.md` says the site sets `future: true`, quotes a config excerpt asserting it, and calls that setting foundational because `future: false` would break `post_url` references to forward-dated posts. **The live `_config.yml` line 86 sets `future: false`**, with its own deliberate comment describing the opposite policy. Commit `4cf5dd5` set it to true at some earlier point, so one of the two was changed and the other was not. I left both alone, because whether to align the config to the doc or the doc to the config is your call. It did no harm this time, but the doc would mislead anyone relying on it.
+
 2. **`_publish.sh` is broken on macOS**, per above.
+
+3. **Confirm A292 appears on 2026-08-04** at `/history/business/aerospace/2026/08/04/spacex_history_synthesis_and_projection.html`.
 
 ---
 
