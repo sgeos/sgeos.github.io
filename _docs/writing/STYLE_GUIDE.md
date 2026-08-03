@@ -19,6 +19,39 @@ These rules are enforced both by the global CLAUDE.md and by the publication rev
 - **Broken-phrase line structure.** Each phrase or clause on its own line. This affects diffs and review without changing the rendered output.
 - **Spell out acronyms on first use.** See [Acronym Handling](./ACRONYM_HANDLING.md) for the rule and the exemption list.
 
+## Diction and Repetition
+
+The rules above constrain punctuation. These constrain word choice, which is where the
+corpus has actually gone wrong.
+
+- **Do not calibrate density against recent siblings.** When drafting article N of a series, the
+  preceding articles are context for continuity of argument, cross-reference, and terminology.
+  They are not a target to match for prose texture. Write each article at ordinary density.
+- **Delete the empty intensifier.** If removing an adjective does not change the claim, it was
+  not doing work. `the specific mechanism` almost always means `the mechanism`. The same applies
+  to `substantial`, `significant`, and `comprehensive` used as generic emphasis rather than as a
+  measured quantity.
+- **Vary formulaic phrasing.** A sentence pattern that introduces equations, closes citations, or
+  opens paragraphs should not repeat verbatim across an article. Where a phrase is genuinely
+  needed many times, rotate among several forms rather than substituting one fixed formula for
+  another, which only moves the problem.
+- **Preserve the word when it carries meaning.** `specific impulse` is a technical term.
+  `any specific case` is a real quantifier claim, weaker than `any case`. `X rather than the
+  general Y` is a real contrast. Never strip a word from an article whose subject is that word,
+  such as `context` in an article about context windows.
+
+### Why this section exists
+
+Between 2026-01 and 2026-07 the word `specific` escalated to 46.2 uses per thousand words in the
+worst article, against a natural corpus rate near 1.7, and one series used `specifically` as an
+adjective, producing ungrammatical prose such as "the specifically Gulf oil states". None of it
+was caused by an instruction. It was self-imitation drift, an agent calibrating to its own prior
+output, and it survived every context reset because nothing in the review pass could see it. The
+publication review verified punctuation and reported prose style clean on the worst offenders.
+
+The measurement method and the remediation history are in the 2026-08-05 entry of
+[TASKLOG](../process/TASKLOG.md).
+
 ## Code Conventions
 
 - Use triple-backtick markdown fences with a language specifier for all code blocks.

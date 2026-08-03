@@ -92,12 +92,12 @@ For a series of cross-linked articles published together, see [Cross-Linked Seri
 
 ## Forward-Dated and Back-Dated Posts
 
-The site sets `future: true` in `_config.yml`. Forward-dated posts render at deploy time and sit at their future date position in chronological listings until the date arrives. Back-dated posts render immediately at their past position. See [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the full behaviour.
+The site sets `future: false` in `_config.yml`. Forward-dated posts are excluded from the build until their date arrives, so they return 404 rather than appearing low in the feed. Back-dated posts render immediately at their past position. A `{% post_url %}` from a published post to a forward-dated one fails the entire site build, which is why the convention is back-reference-only. See [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the full behaviour and the verified build-failure case.
 
 ## Related Sections
 
 - [Cross-Linked Series](./CROSS_LINKED_SERIES.md) for series-level publication patterns
-- [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the `future: true` configuration
+- [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the `future: false` configuration and the post_url interlock
 - [Publication Review](./PUBLICATION_REVIEW.md) for the pre-publish review pass
 - [Style Verification](./STYLE_VERIFICATION.md) for the verification scripts
 - [URL Verification](./URL_VERIFICATION.md) for URL checking

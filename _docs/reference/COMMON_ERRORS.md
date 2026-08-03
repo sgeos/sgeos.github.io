@@ -92,6 +92,33 @@ Aquarius Reef Base sits at approximately **18 metres** depth (60 feet), not 20 m
 
 ## Stylistic Errors
 
+### Filler Adjectives, Above All "Specific"
+
+Added 2026-08-05. The single most damaging stylistic error in this corpus to date.
+
+`specific` escalated to **46.2 uses per thousand words** in the worst article against a natural
+corpus rate near 1.7, and one series used `specifically` as an adjective, producing ungrammatical
+prose such as "the specifically Gulf oil states" and "the specifically Saudi ratio". Remediation
+touched 110 files.
+
+**No instruction caused it.** Every writing and process document was searched and none encourages
+the word. It was self-imitation drift, an agent calibrating to its own prior output while
+drafting a series. The documented exemplar articles were measured and are clean at 0.0 to 1.6 per
+thousand, so imitation of a named model was not the vector either.
+
+**It survived every context reset because nothing could see it.** The publication review verified
+punctuation and reported prose style clean on the worst offenders in the corpus. The gap was in
+the checks, not in the rules.
+
+Three sibling formulas from the same drift: `the comprehensive treatments` closing a citation 234
+times, `The framework provides` or `The framework has` opening 106 of 273 sentences in one
+article, and `X admits the compact form` introducing a display equation 130 times.
+
+The word-frequency check in [Style Verification](../process/STYLE_VERIFICATION.md) now detects
+this class. The rules are in the Diction and Repetition section of the
+[Style Guide](../writing/STYLE_GUIDE.md). Do not strip a word from an article whose subject is
+that word: `specific impulse` in a propellant article is a technical term, not a tic.
+
 ### LoRa as Mesh Protocol
 
 LoRa is a point-to-point spread-spectrum physical layer, not a mesh protocol. LoRaWAN is a star-topology MAC. Mesh networking over LoRa is provided by third-party protocols such as Meshtastic, MeshCore, and Reticulum.

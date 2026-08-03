@@ -9,12 +9,12 @@ Key terms used in the documentation and blog infrastructure.
 | Architectural keystone | The single dominant constraint around which a subsystem deep-dive is structured. Each dependent component is dimensioned against the keystone. Examples include battery storage for an electrical subsystem and the link budget for a communications subsystem. |
 | Article genre | One of three article types on the blog: tutorial, subsystem deep-dive, or analytical essay. Each genre has its own section structure and length norm. See [Article Genres](../writing/ARTICLE_GENRES.md). |
 | Article number | A monotonically increasing identifier, recorded in an HTML comment and `console.log` debug tag at the top of each post. Forms the basis of the Ax-Py-Tz work item coding system. |
-| Back-dated post | A post with a `date:` earlier than the current build time. Renders at deploy time and appears at its past position in chronological listings. Does not depend on `future: true`. |
+| Back-dated post | A post with a `date:` earlier than the current build time. Renders at deploy time and appears at its past position in chronological listings. Unaffected by the `future:` setting, since its date has already passed. |
 | Batch publication | The publication pattern where every article of a cross-linked series is moved into `_posts/` together so internal `{% post_url %}` tags resolve at once. Contrasts with incremental publication. |
 | Debug markers | The `<!-- AXXX -->` HTML comment and the `<script>console.log("AXXX");</script>` tag immediately after the front matter. They record the article number and provide an in-browser confirmation of which article is rendering. |
 | Draft | A work-in-progress post in `_drafts/`. Not published until moved to `_posts/`. |
 | Epistemic State | A section in an analytical essay that sorts the article's claims into classes, typically historical fact, structural analysis, and inference, so the reader can evaluate each on appropriate grounds. |
-| Forward-dated post | A post with a `date:` later than the current build time. Renders at deploy time under `future: true` and appears at its future date position in chronological listings until the date arrives. |
+| Forward-dated post | A post with a `date:` later than the current build time. Under the site's `future: false` setting it is excluded from the build entirely, returning 404, until its date arrives. A `{% post_url %}` pointing at one from an already-published post fails the whole site build. |
 | Front matter | YAML metadata block at the top of every post, delimited by `---`. |
 | Forward prompt | A human-to-AI instruction staged in `PROMPT.md`. |
 | Hidden draft | A draft file prefixed with `hidden.` that is excluded from version control by `.gitignore`. |

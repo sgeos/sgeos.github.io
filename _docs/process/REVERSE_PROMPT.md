@@ -9,111 +9,106 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: Task 1 complete. Pathological word-usage pass over every blog post and draft. Task 2, the documentation review, remains queued and unstarted.
+**Task**: Task 2 complete. Documentation and process files reviewed for pathological instructions,
+and every finding rectified. Both queued tasks are now done.
 
 ---
 
-## Result
+## Your Hypothesis Was Half Right, and I Can Say Which Half
 
-110 files changed across four commits. Corpus-wide rates per thousand prose words:
+You suggested the surviving `specific` overuse came either from faulty instructions or from a
+pathological reference article. I tested both. **Both are false.**
 
-| Word | Before | After |
-|---|---|---|
-| `specific` | 1715 (1.68) | 501 (0.49) |
-| `specifically` | 887 (0.87) | below the reporting floor |
-| `substantial` | 1613 (1.58) | 522 (0.51) |
-| `substantially` | 924 (0.90) | 370 (0.36) |
-| `admits` | 755 corpus-wide | 321 |
-| `comprehensive` | 405 (0.40) | below the reporting floor |
-| `various` | 218 (0.21) | below the reporting floor |
+**Not an exemplar.** The writing documentation names two exemplar ranges, `A152` through `A160`
+in `ARTICLE_GENRES.md` and `A153` through `A160` in `SUBSYSTEM_DEEPDIVE_STRUCTURE.md`. I measured
+every one, before and after the remediation pass. They run **0.0 to 1.6 uses per thousand**
+against a natural rate near 1.7. The documented models were never contaminated.
 
-Two kinds of remediation, because the words are not alike. **Deletion** for adjectival
-`specific` and `specifically`, which were filler. **Rotation** for `comprehensive`,
-`framework`, `substantial`, and `admits`, which carry meaning, so removing them would have
-changed claims. Rotation is deterministic rather than random, so reruns reproduce the same
-output and the diff stays reviewable.
+**Not a faulty instruction.** No writing or process document encourages the word, and none tells
+an agent to match sibling prose style.
 
----
+**It was a missing check.** `STYLE_GUIDE.md` constrained punctuation, links, references, and
+slugs, and said nothing whatever about word choice. `PUBLICATION_REVIEW.md` scoped "Prose Style"
+to contractions, dashes, colons, semicolons, parentheticals, and line structure. The verification
+script counted em-dashes, contractions, math, and anchors. **Nothing in the pipeline could see a
+repeated word.**
 
-## What I Found That You Should Know
-
-**The comparative industrialization series was ungrammatical, not merely repetitive.** It used
-`specifically` as an adjective: "the specifically Gulf oil states", "the specifically Saudi
-ratio", "the specifically structural dependence". 571 of roughly 600 uses were preceded by
-"the" and followed by a proper adjective. Against that, 2 legitimate adverbial uses in the
-entire cluster. This is a grammar defect that shipped, not a style preference.
-
-**Three formulas did most of the damage.** `the comprehensive treatments` closed a citation
-**234 times** across the ethnoreligion series. `The framework provides` or `The framework has`
-opened **106 of 273** sentences in one machines-that-learn article. `X admits the compact form`
-preceded a display equation **130 times**.
-
-**Two pre-existing defects, which I did not introduce and have not fixed.** An unused
-`elixir-syslog` anchor in the 2016-01-17 post. More seriously, an undefined `rust_book`
-reference link in the 2025-12-17 Solana post, which renders literally as
-`[The Rust Programming Language][rust_book]` in the built HTML on the live site.
+That is why it survived resets. Each new session inherited a review process structurally blind to
+the defect, so the worst article in the corpus, at 46.2 uses per thousand, passed publication
+review with prose style reported clean. The rules were fine. The instruments were missing.
 
 ---
 
-## What I Deliberately Did Not Do
+## What I Changed to Close It
 
-**`framework` remains the highest generic word at 2.08 per thousand.** That residual is
-**1379 modified phrases against 149 bare ones** -- "reinforcement learning framework",
-"predictive coding framework", "the options framework" -- in a series that surveys learning
-frameworks. Pushing it lower means substituting synonyms into technical terms, which risks
-semantic drift for no real gain. It is topic vocabulary, in the same way `specific impulse` is.
-
-**The rocket propellant articles are almost untouched**, at 71, 61, 44, 43, and 23 uses of
-`specific`. 201 of roughly 222 uses were `specific impulse`. The earlier reconnaissance had
-flagged this cluster as pathological; that was wrong, and the guard now proves it by leaving
-those files at 71 uses to 71.
-
-**Structural monotony is untouched.** Rotating the adjective in "X and Y provide the
-comprehensive treatments" fixes the word frequency but leaves the sentence pattern repeating
-234 times. Restructuring that many sentences is an editorial judgment, not something I should
-automate silently. Say if you want it.
+- **`STYLE_GUIDE.md`** gains a Diction and Repetition section: do not calibrate density against
+  recent siblings, delete the empty intensifier, vary formulaic phrasing across a rotation, and
+  preserve the word where it carries meaning.
+- **`PUBLICATION_REVIEW.md`** gains a Diction and Repetition check, framed as a flag needing
+  judgment rather than a verdict, with three outcomes: legitimate, filler, formulaic.
+- **`STYLE_VERIFICATION.md`** gains a word-frequency script restricted to content-independent
+  words. **Verified end to end**: it flags the worst pre-pass article at 39.2 per thousand and
+  passes that same article after remediation.
+- **`COMMON_ERRORS.md`** records the whole episode, including both falsified hypotheses.
 
 ---
 
-## The Method Note Worth Keeping
+## The Serious Find, Which Was Not About Word Usage
 
-**Four bugs were caught by verification, and none by reading the diff.** This is the whole
-argument for checking counts on things you did not intend to change.
+**`FORWARD_DATED_POSTS.md` contained build-breaking advice.** It asserted `future: true` in five
+places, quoted a `_config.yml` excerpt that does not exist, called the setting foundational, and
+stated that a post may cross-reference a forward-dated post in either direction.
 
-1. A word-boundary rule spliced hyphenated compounds: `case-specific supplementary` became
-   `case-supplementary`. Silent text corruption, caught by a unit test.
-2. The adverbial guard omitted a trailing word boundary, so its alternation matched PREFIXES:
-   `in` matched "Indian", `for` matched "forward". Roughly 90 adjectival uses were silently
-   protected as though adverbial. Caught by counting what survived the pass.
-3. Rotation produced "a extensive" and "the most appreciable".
-4. Whitespace collapse ran unconditionally and rewrote pre-existing double spaces on 21 lines
-   the word rules never touched.
+The live setting is `future: false`. Rather than reason about the consequence, I built a minimal
+two-post site to find out:
 
-**The discriminator remains the hard part.** Ratio against the rest of the corpus surfaces
-topic vocabulary, not tics. Restricting to content-independent words and comparing against the
-MEDIAN article rate works, because the mean is dragged upward by the articles under
-investigation. Even then, a 44-entry exclusion table was needed to record why each surviving
-outlier is legitimate.
+```
+Liquid Exception: Could not find post "2027-01-01-futurepost" in tag 'post_url'.
+ERROR: YOUR SITE COULD NOT BE BUILT
+```
+
+An agent following that document would have taken **the entire site** down, not one page. The
+error had propagated to five further locations, all corrected.
+
+`CROSS_LINKED_SERIES.md` carried a related defect: it claimed that staging a batch together makes
+all internal tags resolve. That holds **only when every article in the batch is back-dated**. The
+three safe date configurations are now enumerated.
+
+---
+
+## Also Fixed
+
+- **`_publish.sh` works again.** Its bracket expression `[+-:0-9 ]` reads as the range `+` to `:`,
+  which BSD sed rejects. On macOS it reported every file as undated, moved nothing, and **exited
+  zero**. Moving the hyphen to the front is portable across BSD and GNU sed. Confirmed to extract
+  a date where it previously extracted none.
+- **`CROSS_LINKED_SERIES.md` no longer tells you to publish unverified.** It had named the deploy
+  build the authoritative verification because the local bundle is broken, which means letting the
+  live site find the errors. It now carries the Gemfile-free scratch-copy procedure.
+- **`STYLE_VERIFICATION.md`** wrote scratch to `/tmp` against your project-local convention, and
+  said "expect 200 across the board" without recording that a 200 does not verify a citation, the
+  failure mode behind the thirteen fabricated citations.
+- **`CLAUDE.md`** now records that `_preview.sh` passes `--future` while the live site does not,
+  so a clean preview is **not** evidence that a forward-dated cross-reference is safe.
+- A relative-link example in `DOCUMENTATION_STRATEGY.md` corrected.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **Task 2 has not started.** The documentation review is still queued. Two defects are
-   already confirmed and recorded in [`HANDOFF.md`](./HANDOFF.md): `FORWARD_DATED_POSTS.md`
-   contradicts the live `future: false` setting, and 25 documentation references point at a
-   `_publish.sh` that fails silently on macOS.
-2. **The root cause is unaddressed.** No writing or process document instructs the use of
-   `specific`. This is self-imitation drift, an agent calibrating to its own prior output. The
-   prose is fixed; the mechanism that produced it is not. I can propose a preventive line for
-   `_docs/writing/STYLE_GUIDE.md` if you want one.
-3. **Nothing is pushed.** Four commits sit local. The build verifies clean, but these edit 110
-   published articles, so the push is yours to authorize.
+1. **I changed `_publish.sh`.** It is your tooling and I had left it alone twice before. You told
+   me to rectify what I found, and it was broken in a way that fails silently. Revert if you
+   disagree with touching it.
+2. **`future: false` is now documented as the intended policy**, because that is what the
+   configuration says and what the site does. If you actually want `future: true`, that is a
+   configuration change with real consequences, and it would invalidate the back-reference-only
+   convention. I did not touch `_config.yml`.
+3. **`_preview.sh` could drop `--future`** to make previews match the live site. I did not change
+   it, since seeing forward-dated work is probably why the flag is there. Documented instead.
 
 ---
 
 ## State
 
-Branch `master`, four commits ahead of `origin/master`, tree clean once the process-file commit
-lands. Full site build verified in a Gemfile-free scratch copy: 294 posts in, 294 HTML out,
-zero Liquid errors, equation counts unchanged in every changed file. No background jobs running.
+Branch `master`. Full site build verified in a Gemfile-free scratch copy after the edits. Zero
+broken relative links across all documentation. No background jobs running.

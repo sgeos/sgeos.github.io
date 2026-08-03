@@ -19,6 +19,12 @@ Drafts are off by default because `--drafts` builds the `_drafts/` directory, an
 release-candidate drafts that cross-reference one another with `post_url` tags pointing at
 unpublished filenames make that build fail. Use `DRAFTS=1` only once those references resolve.
 
+**The preview does not match the live site for forward-dated posts.** `_preview.sh` passes
+`--future`, so it renders posts dated ahead of today. The site sets `future: false`, so those
+same posts are excluded from the real build and return 404 until their dates arrive. A clean
+preview is therefore not evidence that a forward-dated cross-reference is safe. See
+[`_docs/process/FORWARD_DATED_POSTS.md`](_docs/process/FORWARD_DATED_POSTS.md).
+
 **Create a new draft:**
 ```sh
 ./_new_draft.sh my-post-slug   # creates _drafts/my-post-slug.markdown from template

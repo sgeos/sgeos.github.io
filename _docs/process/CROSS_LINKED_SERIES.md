@@ -20,9 +20,28 @@ The next article in the series may now reference this one via `{% post_url %}` b
 
 ## Batch Publication
 
-Stage every article of the series into `_posts/` together, at which point all internal `{% post_url %}` tags resolve at once, including forward references between articles in the series.
+Stage every article of the series into `_posts/` together, at which point all internal
+`{% post_url %}` tags resolve at once, including forward references between articles in the
+series.
 
-This pattern fits a tightly cross-linked set authored in advance, where forward references are unavoidable. The patents-and-startup series at A161 through A172 used this batch pattern.
+**This holds only when every article in the batch is back-dated.** The site sets `future: false`,
+so a forward-dated article is excluded from the build even though its file sits in `_posts/`.
+Staging the batch together does not help if part of it is dated ahead: a reference from an
+included article to an excluded one fails the entire build. See
+[Forward-Dated Posts](./FORWARD_DATED_POSTS.md).
+
+The three safe configurations are:
+
+- **All dates passed.** Every article is in the build and every internal tag resolves. This is
+  the case the batch pattern is designed for.
+- **All dates in the future.** Every article is excluded together, so no internal tag is
+  evaluated. The whole cluster becomes eligible as its dates arrive.
+- **Mixed dates with back-reference-only.** Articles whose dates have passed may reference each
+  other, and nothing points forward at an article still excluded.
+
+This pattern fits a tightly cross-linked set authored in advance, where forward references are
+unavoidable. The patents-and-startup series at A161 through A172 used this batch pattern, and it
+worked because that series was back-dated in full.
 
 Workflow for the batch:
 - Confirm article numbers, dates, and slugs across the full batch.
@@ -45,10 +64,26 @@ Both patterns produce identical deployed content. The choice is operational, not
 
 Both patterns require the GitHub Actions deploy build to resolve every `{% post_url %}` tag. A `could not find post_url` error in the build log indicates a typo in a slug or a forward reference that should have been prose-only under the incremental pattern.
 
-The local bundle build is broken on macOS per project memory. The deploy build is the authoritative verification. Watch the GitHub Actions log on the push commit to confirm the build completes without `post_url` errors.
+The local bundle build is broken on macOS by a gem-environment issue. **Do not treat that as a
+reason to publish unverified and let the deploy find the errors.** The failure is in the bundle,
+not in Jekyll, and it is avoidable:
+
+```sh
+rm -rf tmp/buildcheck && mkdir -p tmp/buildcheck
+rsync -a --exclude tmp --exclude .git --exclude _site \
+      --exclude Gemfile --exclude Gemfile.lock ./ tmp/buildcheck/
+sed -i '' '/jekyll-archives/d' tmp/buildcheck/_config.yml
+cd tmp/buildcheck && jekyll build --destination _site
+```
+
+Build in a Gemfile-free scratch copy before any publishing push, and confirm the post count in
+matches the HTML count out. Add `--future` only to check that forward-dated articles would build
+once their dates arrive; without it the build reflects what the live site will actually render.
+
+Watch the GitHub Actions log on the push commit as confirmation, not as the primary check.
 
 ## Related Sections
 
 - [Content Workflow](./CONTENT_WORKFLOW.md) for the per-article publication flow
-- [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the `future: true` configuration that lets future-dated posts deploy immediately
+- [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) for the `future: false` configuration that withholds future-dated posts until their dates arrive
 - [Git Strategy](./GIT_STRATEGY.md) for commit conventions

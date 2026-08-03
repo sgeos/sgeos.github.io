@@ -11,7 +11,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Handoff Prompt](./HANDOFF.md) | Self-contained resume prompt written before a planned compaction, with a commit-stamped validity check |
 | [Content Workflow](./CONTENT_WORKFLOW.md) | Draft, preview, and publish pipeline with the two-commit pattern |
 | [Cross-Linked Series](./CROSS_LINKED_SERIES.md) | Incremental and batch publication patterns for cross-linked series |
-| [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) | Behaviour of forward-dated and back-dated posts under `future: true` |
+| [Forward-Dated Posts](./FORWARD_DATED_POSTS.md) | Behaviour of forward-dated and back-dated posts under `future: false`, and the post_url build-failure interlock |
 | [Publication Review](./PUBLICATION_REVIEW.md) | Systematic review pass before publication |
 | [Research Agent](./RESEARCH_AGENT.md) | Pattern for verifying factual claims with a background agent |
 | [URL Verification](./URL_VERIFICATION.md) | URL response-code rules and the catalogue of canonical bot-detected sites |
