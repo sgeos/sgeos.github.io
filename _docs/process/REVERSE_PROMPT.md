@@ -9,106 +9,90 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: Task 2 complete. Documentation and process files reviewed for pathological instructions,
-and every finding rectified. Both queued tasks are now done.
+**Task**: Infrastructure audit and remediation. Every mechanical defect resolved. Four items need
+your judgment and are listed at the bottom.
 
 ---
 
-## Your Hypothesis Was Half Right, and I Can Say Which Half
+## Resolved
 
-You suggested the surviving `specific` overuse came either from faulty instructions or from a
-pathological reference article. I tested both. **Both are false.**
+**PDF downloads, the significant one.** Every post links a `.pdf` that has never existed. Cause was
+a missing `lmodern` package, which pandoc's default LaTeX template loads. Added it. Separately,
+`_downloads.rb` now **exits nonzero on systemic failure**, meaning a format produced zero outputs
+across all posts. That is the reason this shipped undetected: the script only warned, so CI stayed
+green through roughly 293 dead links. Individual failures still only warn, so one bad post cannot
+block a deploy.
 
-**Not an exemplar.** The writing documentation names two exemplar ranges, `A152` through `A160`
-in `ARTICLE_GENRES.md` and `A153` through `A160` in `SUBSYSTEM_DEEPDIVE_STRUCTURE.md`. I measured
-every one, before and after the remediation pass. They run **0.0 to 1.6 uses per thousand**
-against a natural rate near 1.7. The documented models were never contaminated.
+**EPUB paths.** `_downloads.rb` reconstructed each permalink from the source **filename** date;
+Jekyll derives it from the front matter date. Nineteen posts diverge, so their EPUB landed where no
+HTML exists. It now **discovers the emitted HTML by globbing the built site**, which removes date
+arithmetic from the problem entirely. Verified: 293 of 294 posts resolve to exactly one HTML file,
+the exception being the forward-dated article legitimately absent from the build.
 
-**Not a faulty instruction.** No writing or process document encourages the word, and none tells
-an agent to match sibling prose style.
+**A latent trap I did not expect to find.** `_config.yml` set no `timezone:`, so permalinks
+depended on the build machine. The `2026-03-06 01:14 +0000` post builds as `/03/06/` on the UTC
+runner and `/03/05/` in Pacific time. **A local URL check was not evidence about production.**
+Pinned `timezone: UTC`, which the runner already uses, so no live URL changes. Verified by
+comparing a local build against the live sitemap: **291 local pages, 291 live, zero differences.**
 
-**It was a missing check.** `STYLE_GUIDE.md` constrained punctuation, links, references, and
-slugs, and said nothing whatever about word choice. `PUBLICATION_REVIEW.md` scoped "Prose Style"
-to contractions, dashes, colons, semicolons, parentheticals, and line structure. The verification
-script counted em-dashes, contractions, math, and anchors. **Nothing in the pipeline could see a
-repeated word.**
+**Reference integrity, now clean corpus-wide.** Added the missing `[rust_book]` definition to the
+2025-12-17 Solana post, which had been rendering literally as `[The Rust Programming
+Language][rust_book]` on the live site. Removed four orphan definitions in 2016 posts. Zero
+undefined, zero unused.
 
-That is why it survived resets. Each new session inherited a review process structurally blind to
-the defect, so the worst article in the corpus, at 46.2 uses per thousand, passed publication
-review with prose style reported clean. The rules were fine. The instruments were missing.
+**Dependency.** `json` 2.19.7 to 2.21.2, clearing the Dependabot advisory. The lockfile diff is
+that one line.
 
----
-
-## What I Changed to Close It
-
-- **`STYLE_GUIDE.md`** gains a Diction and Repetition section: do not calibrate density against
-  recent siblings, delete the empty intensifier, vary formulaic phrasing across a rotation, and
-  preserve the word where it carries meaning.
-- **`PUBLICATION_REVIEW.md`** gains a Diction and Repetition check, framed as a flag needing
-  judgment rather than a verdict, with three outcomes: legitimate, filler, formulaic.
-- **`STYLE_VERIFICATION.md`** gains a word-frequency script restricted to content-independent
-  words. **Verified end to end**: it flags the worst pre-pass article at 39.2 per thousand and
-  passes that same article after remediation.
-- **`COMMON_ERRORS.md`** records the whole episode, including both falsified hypotheses.
+**Documentation.** Recorded that the scratch build strips `jekyll-archives` and skips
+`_downloads.rb`, so category, tag, and download links appear broken in it. A crawl reported 740
+broken targets on that basis alone, all fine in production. I nearly reported those to you as real.
 
 ---
 
-## The Serious Find, Which Was Not About Word Usage
+## Needing Your Judgment
 
-**`FORWARD_DATED_POSTS.md` contained build-breaking advice.** It asserted `future: true` in five
-places, quoted a `_config.yml` excerpt that does not exist, called the setting foundational, and
-stated that a post may cross-reference a forward-dated post in either direction.
+**1. A post is six days from where its filename says.**
+`_posts/2026-03-12-error_correction_recursion_problem.markdown` carries `date: 2026-03-06`. Jekyll
+uses the front matter, so it is live at **2026-03-06**, not 03-12. Given how deliberately you place
+articles into calendar gaps, this looks like a real editorial slip rather than a rounding artifact.
+Three others differ by one day and are probably harmless: `single-file-elixir-programs` (2016),
+`mission_command_management_style`, and `telemeritocracy`. **I changed none of them**, because
+which date is correct is a content decision, and changing the front matter would change a live URL.
 
-The live setting is `future: false`. Rather than reason about the consequence, I built a minimal
-two-post site to find out:
+**2. 171 of 294 posts have unsorted link-definition blocks.**
+The style guide requires alphabetical sorting by anchor and the verification script checks it, so
+they technically fail. Sorting them means touching 171 files for **zero rendering change**. I did
+not do it. Worth it only if you want the check to run clean.
 
-```
-Liquid Exception: Could not find post "2027-01-01-futurepost" in tag 'post_url'.
-ERROR: YOUR SITE COULD NOT BE BUILT
-```
+**3. I deleted four unused link definitions.**
+`elixir-syslog`, `unix-case-insensitive`, `ion-dtn-users`, `postgresql-install`, all in 2016 posts.
+They were invisible in the rendered output. An unused definition can mean the author meant to cite
+something and never linked it, so if you would rather have kept them as leads, revert that part.
 
-An agent following that document would have taken **the entire site** down, not one page. The
-error had propagated to five further locations, all corrected.
-
-`CROSS_LINKED_SERIES.md` carried a related defect: it claimed that staging a batch together makes
-all internal tags resolve. That holds **only when every article in the batch is back-dated**. The
-three safe date configurations are now enumerated.
-
----
-
-## Also Fixed
-
-- **`_publish.sh` works again.** Its bracket expression `[+-:0-9 ]` reads as the range `+` to `:`,
-  which BSD sed rejects. On macOS it reported every file as undated, moved nothing, and **exited
-  zero**. Moving the hyphen to the front is portable across BSD and GNU sed. Confirmed to extract
-  a date where it previously extracted none.
-- **`CROSS_LINKED_SERIES.md` no longer tells you to publish unverified.** It had named the deploy
-  build the authoritative verification because the local bundle is broken, which means letting the
-  live site find the errors. It now carries the Gemfile-free scratch-copy procedure.
-- **`STYLE_VERIFICATION.md`** wrote scratch to `/tmp` against your project-local convention, and
-  said "expect 200 across the board" without recording that a 200 does not verify a citation, the
-  failure mode behind the thirteen fabricated citations.
-- **`CLAUDE.md`** now records that `_preview.sh` passes `--future` while the live site does not,
-  so a clean preview is **not** evidence that a forward-dated cross-reference is safe.
-- A relative-link example in `DOCUMENTATION_STRATEGY.md` corrected.
+**4. The `json` bump is untested locally.**
+The local bundle is broken by the gem-environment issue, so `bundle lock` resolved cleanly but I
+could not run a build against it. **CI is the first real test.** Watch the next deploy.
 
 ---
 
-## Items Requiring Your Attention
+## What I Audited and Found Healthy
 
-1. **I changed `_publish.sh`.** It is your tooling and I had left it alone twice before. You told
-   me to rectify what I found, and it was broken in a way that fails silently. Revert if you
-   disagree with touching it.
-2. **`future: false` is now documented as the intended policy**, because that is what the
-   configuration says and what the site does. If you actually want `future: true`, that is a
-   configuration change with real consequences, and it would invalidate the back-reference-only
-   convention. I did not touch `_config.yml`.
-3. **`_preview.sh` could drop `--future`** to make previews match the live site. I did not change
-   it, since seeing forward-dated work is probably why the flag is there. Documented instead.
+All top-level pages, feeds, sitemap, robots, favicon, manifest, and the Pagefind index return 200.
+Zero broken internal links, zero missing asset references. No duplicate article numbers, no front
+matter defects, complete debug-tag coverage across 294 posts. MathJax flags correct, with all six
+apparent unrendered-math cases proving to be shell variables, Makefile syntax, or a currency
+figure. Category and tag archives live, including `/categories/keleusma/`, which does not hit the
+shadowed-path trap. `draft_summary.md` in sync with all eight drafts. Next article number A295
+matches the highest present. No build artifacts tracked. The four unresolved draft `post_url` tags
+are the documented, expected interlock condition.
+
+Housekeeping, not a defect: `tmp/` holds roughly fifty scratch files from earlier sessions. It is
+gitignored. I left it alone rather than delete work you may still want.
 
 ---
 
 ## State
 
-Branch `master`. Full site build verified in a Gemfile-free scratch copy after the edits. Zero
-broken relative links across all documentation. No background jobs running.
+Branch `master`. Build verified after every change. Two commits unpushed, the earlier documentation
+one and this one. The PDF fix cannot be confirmed until a deploy runs, since pandoc and xelatex are
+not installed locally.

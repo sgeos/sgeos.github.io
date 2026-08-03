@@ -80,6 +80,21 @@ Build in a Gemfile-free scratch copy before any publishing push, and confirm the
 matches the HTML count out. Add `--future` only to check that forward-dated articles would build
 once their dates arrive; without it the build reflects what the live site will actually render.
 
+**Know what this build cannot tell you.** It is not the CI build, and two omissions produce
+alarming but meaningless results:
+
+- **`jekyll-archives` is stripped**, so `/categories/:name/` and `/tags/:name/` pages are not
+  generated. Every link to them appears broken. On 2026-08-05 a link crawl of this build reported
+  740 broken targets on that basis alone. All of them were fine in production.
+- **`_downloads.rb` does not run**, so the per-post `.pdf` and `.epub` links appear broken. That
+  accounts for roughly two apparent breakages per post.
+
+Exclude both classes before believing a link crawl, or verify against the live site instead.
+
+Permalinks in this build DO match production, because `_config.yml` pins `timezone: UTC`. Before
+that pin, a post stamped near midnight resolved to a different day locally than on the UTC runner,
+so a local URL check was not evidence about the live URL.
+
 Watch the GitHub Actions log on the push commit as confirmation, not as the primary check.
 
 ## Related Sections

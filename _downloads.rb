@@ -41,24 +41,46 @@ def slug_and_date(basename)
   { year: m[1], month: m[2], day: m[3], slug: m[4] }
 end
 
-def post_permalink(basename, fm)
-  info = slug_and_date(basename)
-  return nil unless info
+def categories_of(fm)
   cats = fm['categories']
   cats = cats.split if cats.is_a?(String)
-  cats ||= []
-  path = (cats + [info[:year], info[:month], info[:day], "#{info[:slug]}.html"]).join('/')
-  "/#{path}"
+  cats || []
+end
+
+# Locate the HTML Jekyll actually emitted for this post, rather than
+# reconstructing the path from the source filename.
+#
+# The filename date and the front matter `date:` are not always the same, and
+# even when they agree Jekyll derives the permalink from the front matter date
+# converted to the build machine's timezone. Nineteen posts in this corpus
+# resolve to a different day than their filename implies, sixteen of them 2016
+# posts stamped +0900 in the early morning. Reconstructing the path wrote their
+# EPUB into a directory with no matching HTML, producing a 404 download link on
+# the post page and an orphan file in the artifact.
+#
+# Globbing the built site sidesteps date arithmetic and timezone configuration
+# entirely: whatever Jekyll produced is the truth.
+def find_permalink(fm, slug)
+  cats = categories_of(fm)
+  pattern = File.join(SITE_DIR, *cats, '*', '*', '*', "#{slug}.html")
+  matches = Dir.glob(pattern)
+  return nil unless matches.size == 1
+  "/#{matches.first.sub(%r{\A#{Regexp.escape(SITE_DIR)}/}, '')}"
 end
 
 # Build post_url resolution map keyed by source basename (without extension).
 url_map = {}
+permalinks = {}
 Dir.glob(File.join(POSTS_DIR, '*.markdown')).each do |path|
   basename = File.basename(path, '.markdown')
   fm, _ = parse_front_matter(File.read(path))
   next unless fm
-  permalink = post_permalink(basename, fm)
-  url_map[basename] = "#{SITE_URL}#{permalink}" if permalink
+  info = slug_and_date(basename)
+  next unless info
+  permalink = find_permalink(fm, info[:slug])
+  next unless permalink
+  permalinks[basename] = permalink
+  url_map[basename] = "#{SITE_URL}#{permalink}"
 end
 
 def preprocess(body, url_map)
@@ -90,15 +112,15 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   end
   info = slug_and_date(basename)
 
-  permalink = post_permalink(basename, fm)
+  permalink = permalinks[basename]
   out_dir = File.join(SITE_DIR, File.dirname(permalink))
   slug = info[:slug]
   pdf_out  = File.join(out_dir, "#{slug}.pdf")
   epub_out = File.join(out_dir, "#{slug}.epub")
 
   unless Dir.exist?(out_dir)
-    # Jekyll should have created this. If missing, the post was skipped or
-    # its permalink was overridden; skip rather than guess.
+    # The directory came from a file Jekyll emitted, so this should be
+    # unreachable. Skip rather than guess if it ever is not.
     skipped += 1
     next
   end
@@ -160,4 +182,26 @@ end
 puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} skipped=#{skipped} failed=#{failed.size}"
 unless failed.empty?
   warn "[_downloads.rb] failures: #{failed.join(', ')}"
+end
+
+# Fail the build on SYSTEMIC failure, meaning a format was attempted for every
+# post and produced nothing at all. That is a broken toolchain, not a bad post.
+#
+# This script previously only warned. A missing `lmodern.sty` made every single
+# PDF fail while the workflow step still reported success, so roughly 293 posts
+# linked a PDF that had never existed and nothing surfaced it. An exit code is
+# the only signal CI reads.
+#
+# Individual failures still only warn, so one malformed post cannot block a
+# deploy.
+attempted = pdf_ok + epub_ok + failed.size
+if attempted.positive?
+  systemic = []
+  systemic << 'PDF' if have_xelatex && pdf_ok.zero?
+  systemic << 'EPUB' if epub_ok.zero?
+  unless systemic.empty?
+    warn "[_downloads.rb] SYSTEMIC FAILURE: #{systemic.join(' and ')} generation produced zero outputs."
+    warn '[_downloads.rb] This indicates a broken toolchain rather than bad content. Failing the build.'
+    exit 1
+  end
 end

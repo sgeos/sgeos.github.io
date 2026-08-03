@@ -296,7 +296,6 @@ Any user can use find out if **iondtn** is running with `service iondtn status`.
 - [UNIX, Linux / Unix sed: Delete Word From File / Input][unix-sed-delete]
 - [UNIX, Bourne Shell Reference][unix-sh]
 
-[ion-dtn-users]: https://sourceforge.net/p/ion-dtn/mailman/message/34856065/
 [freebsd-rc]: https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html
 [freebsd-dir]: https://www.freebsd.org/doc/handbook/dirstructure.html
 [freebsd-book]: https://books.google.com/books?id=7Y5kfaRmtKUC&pg=PA659&lpg=PA659&dq=/usr/local+log&source=bl&ots=jIhRwf_w1L&sig=m0-alnfyrujbdVvNCulbzgdoups&hl=en&sa=X&ved=0ahUKEwiQuLyNgPvKAhXMXR4KHS8OBgw4ChDoAQhSMAg#v=onepage&q=%2Fusr%2Flocal%20log&f=false

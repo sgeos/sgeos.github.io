@@ -461,7 +461,6 @@ The HTML document is served without issue.
 [unix-sed-newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
 [unix-sed-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
 [unix-sed-whole-line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
-[unix-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
 [unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
 [unix-ascii]: http://www.asciitable.com
 [networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
