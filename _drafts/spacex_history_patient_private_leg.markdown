@@ -247,6 +247,12 @@ with the specific fourth Falcon 1 flight reducing the specific first factor and 
 
 The specific January 2015 round in which approximately 1 billion dollars was supplied for approximately 10 percent of the specific firm is treated from the specific portfolio side in the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] and from the specific governance side in the [Governance article A287][related_post_a287_spacex_governance]. The specific capital-formation reading adds a specific third element.
 
+The specific two reported quantities imply a specific third by arithmetic, admitting the compact form
+
+$$V^{\text{post-money}} = \frac{k}{\delta} = \frac{1 \text{ billion}}{0.10} = 10 \text{ billion dollars} \qquad \text{implying} \qquad V^{\text{pre-money}} = 9 \text{ billion dollars}$$
+
+against the specific figure of approximately 12 billion dollars that the specific trade press reported for the specific round. The specific discrepancy is stated here rather than reconciled, because the specific available record does not establish whether the specific reported figure is pre-money or post-money, whether the specific round included a specific secondary component that would not dilute, or whether the specific percentage is approximate to within the specific margin the specific gap requires. The specific reader should treat the specific arithmetic as a specific consistency check that the specific reported figures do not quite pass, and the Data Sources section records the specific general limitation of which this is a specific instance.
+
 The specific round introduced a specific class of investor with a specific structurally different horizon. A specific corporate strategic investor holds a specific position on a specific balance sheet with no specific fund life, and a specific large asset manager holds a specific position in a specific open-ended vehicle with no specific stated term. Neither faces the specific constraint the preceding section describes. The specific duration-matching condition is therefore satisfied trivially for both, admitting the compact statement
 
 $$T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \geq T^{\text{holding required}} \; \text{ for every } \; T^{\text{holding required}}$$
@@ -290,6 +296,12 @@ with $\Delta t$ the specific elapsed interval in years. The specific figures are
 The specific semi-annual tender-offer mechanism is the specific decisive structural innovation in the specific financing history and the specific element the article treats as the specific answer to the specific question the mapping problem poses.
 
 The specific mechanism is described from the specific control side in the [Governance article A287][related_post_a287_spacex_governance]. The specific capital-side description is that the specific firm periodically arranges for specific incoming investors to purchase specific shares from specific existing holders at a specific price the specific firm sets, conducted under the specific [Rule 13e-4][ref_rule_13e4] and [Regulation 14E][ref_reg_14e] provisions where the specific issuer participates and under the specific [Rule 144][ref_rule_144] resale provisions for the specific selling holders.
+
+The specific recurrence interval is itself load-bearing and is generally reported without being used. A specific holder reaching its specific term at an arbitrary specific date waits at most one specific interval for the specific next occasion, admitting the compact bound
+
+$$t^{\text{wait}}_{\max} = \frac{1}{f^{\text{tender}}} = \frac{1}{2 \text{ per year}} = 6 \text{ months}$$
+
+with the specific residual mismatch between the specific fund term and the specific realization opportunity bounded at approximately five percent of the specific ten-year term. The specific bound is what permits the specific mechanism to be treated as continuously available rather than as a specific episodic event. A specific arrangement conducting a specific tender every three years would leave a specific residual mismatch of the specific same order as the specific harvest period itself and would not resolve the specific constraint, which establishes that the specific frequency and not merely the specific existence of the specific mechanism is doing the work.
 
 The specific consequence for the specific fund-life constraint is complete. A specific fund approaching its specific term can realize its specific position at a specific market-tested price without the specific portfolio company undergoing any specific liquidity event whatever. The specific realization triggers the specific carried interest, produces the specific distribution, and improves the specific distributed-capital metric on which the specific successor fundraise depends. The specific mechanism satisfies all three channels through which the specific constraint operates, admitting the compact conjunctive statement
 
@@ -522,6 +534,19 @@ $$\boldsymbol{\phi}_j^{\text{patient-private}} \in \{0,1\}^{5}$$
 with each specific venture's specific vector indicating the specific satisfaction status across the specific claim-type, specific vehicle-duration, specific realization-path, specific investor-dispersion, and specific control-preservation sub-properties.
 
 SpaceX exhibits specific closure on all five. Blue Origin exhibits specific closure on the specific claim-type, specific vehicle-duration, and specific control-preservation sub-properties, with the specific realization-path sub-property inapplicable and the specific investor-dispersion sub-property failing by construction. Rocket Lab exhibits specific closure on the specific claim-type, specific realization-path, and specific investor-dispersion sub-properties and specific non-closure on the specific control-preservation sub-property. Iridium exhibited specific non-closure on the specific claim-type sub-property, which was decisive. OneWeb exhibited specific closure on the specific claim-type sub-property and specific non-closure on the specific investor-dispersion and specific realization-path sub-properties, which was jointly decisive.
+
+The specific scoring assembles into a specific matrix whose specific rows are the specific ventures and whose specific columns are the specific sub-properties in the specific order the pattern-extraction section states
+
+$$\begin{array}{lccccc}
+ & \phi_1 & \phi_2 & \phi_3 & \phi_4 & \phi_5 \\
+\text{SpaceX} & 1 & 1 & 1 & 1 & 1 \\
+\text{Blue Origin} & 1 & 1 & \dagger & 0 & 1 \\
+\text{Rocket Lab} & 1 & 1 & 1 & 1 & 0 \\
+\text{Iridium} & 0 & \ast & \ast & \ast & \ast \\
+\text{OneWeb} & 1 & \ast & 0 & 0 & \ast
+\end{array}$$
+
+with $\dagger$ marking a specific sub-property the specific configuration renders inapplicable rather than satisfied or failed, and $\ast$ marking a specific cell the specific available record does not establish. The specific empty cells are reported rather than imputed, and their specific number is the specific reason the section is a specific scoring exercise rather than a specific estimation. A specific reader should note that the specific two failed cases carry the specific most missing cells, which is precisely the specific pattern a specific survivorship problem produces.
 
 The specific cross-sectional pattern indicates that the specific realization-path sub-property is the specific one that discriminates most sharply and the specific one least frequently discussed. The specific correlation with the specific outcome admits the compact statement
 

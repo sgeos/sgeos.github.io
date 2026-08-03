@@ -9,81 +9,67 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-02
-**Task**: A290 equation-density expansion pass. 41 display equations added, 30 to 71, bringing the absolute count into the 60-72 series band. Reference-density pass remains.
+**Task**: A290 equation-density review for remaining candidates. 3 further display equations added, 71 to 74. Reference-density pass remains.
 
 ---
 
-## How the Pass Was Scoped
+## How the Review Was Conducted
 
-I measured the per-section equation distribution of A289, which sits at 73 and is at publication-review parity, and matched its shape rather than applying a uniform per-word ratio. The series holds absolute counts, so a ratio would have overshot.
+The expansion pass had already brought A290 from 30 to 71. This review tested whether that pass was exhaustive rather than assuming it.
 
-The six sections that carry zero equations in every sibling stayed at zero. Those are Methodological Commitments, Historiographical Gap, Data Sources, Cross-References, Terminological Note, and Load-Bearing Open Questions.
+I scanned every prose paragraph for quantitative or structural language with no display equation within four lines. That returned seven paragraphs. Five sit in sections that carry zero equations in every sibling, namely Methodological Commitments, Historiographical Gap, Data Sources, Cross-References, and Terminological Note. Those were correctly left alone. The remaining two were already well covered by adjacent math.
 
-| Section | Before | After |
-|---|---|---|
-| Cross-Disciplinary Framings | 2 | 8 |
-| Fund-Life Constraint | 3 | 6 |
-| Patient Private Capital as an Economic Property | 5 | 7 |
-| Tender-Offer Mechanism | 2 | 5 |
-| Mapping Problem | 2 | 4 |
-| Alternative Analytical Frameworks | 0 | 4 |
-| Deep Historical Comparative Precedents | 0 | 3 |
-| Contemporary Comparative Landscape | 0 | 2 |
-| Remaining narrative and negation sections | 1 to 2 each | 2 to 3 each |
+A mechanical scan is weak evidence on its own, so I then read for load-bearing claims the scan would not catch. That found three worth formalizing.
 
 ---
 
-## Five Additions That Carry New Argument
+## The Three Additions
 
-These are not restatements of adjacent prose. Each changes or sharpens a claim, and they are the ones worth your eye.
+**1. The January 2015 round does not reconcile.** The article reported approximately one billion dollars for approximately ten percent, and separately reported an approximately twelve billion dollar valuation. The arithmetic gives ten billion post-money and nine billion pre-money.
 
-1. **The binding clock is not the fund life.** Formalizing the three channels separately gives a minimum over the contractual term and the fundraise cycle, and the fundraise cycle wins at three to four years against ten. The channel that actually binds is the one the partnership agreement does not mention. That upgrades the article's complaint about the commentary from a simplification to a substantive error.
+I did **not** reconcile the gap, because the record does not support reconciling it. The reported figure may be pre-money or post-money, the round may have carried a secondary component that does not dilute, or the percentage may be loose enough to absorb the difference. The article now states the discrepancy and says which of those it cannot distinguish. **This is the kind of thing worth your eye**, because it is a genuine internal inconsistency in the reconstructed figures rather than a presentational matter, and I have surfaced it rather than smoothing it.
 
-2. **The minimum governs, not the average.** The draft argued the investor base broadened toward longer-lived vehicles and computed a weighted average. The weighted average is the wrong statistic. A single holder reaching its term generates a realization demand regardless of everyone else's horizon, so the binding quantity is the minimum remaining term across the base. **This is the addition I think matters most**, because it explains why the tender mechanism is necessary rather than merely convenient. Broadening the base does not relieve the pressure, since adding a perpetual holder leaves the minimum unchanged.
+**2. The tender interval was reported but never used.** The article calls the mechanism semi-annual throughout and never does anything with the frequency. It bounds the wait from an arbitrary date to the next occasion at six months, which is roughly five percent of the ten-year term. That bound is what licenses treating the mechanism as continuously available rather than episodic.
 
-3. **The duration condition is a clock, not a threshold.** Remaining vehicle life declines at unit rate while the required holding period does not, so a fund that comfortably satisfied the condition at entry violates it later with no change in the venture, the investor's view, or the schedule.
+The counterfactual sharpens it. A triennial tender would leave a residual mismatch of the same order as the harvest period and would not resolve the constraint at all. So the frequency and not merely the existence of the mechanism is load-bearing, which the article had not said.
 
-4. **The carry is discounted, not merely deferred.** Present-valuing it shows a general partner can rationally prefer an earlier realization at a lower valuation whenever valuation growth trails the discount rate. Conviction does not touch that.
+**3. The closure matrix now shows its own gaps.** The cross-sectional scoring was prose. It is now a matrix with two distinct markers, one for cells the configuration renders inapplicable and one for cells the record does not establish. Neither is imputed.
 
-5. **The mechanism is not a hedge.** The state-dependence identity sets the availability indicator equal to the indicator of improving prospects. A hedge pays in the adverse state. This is unavailable in it. That states the limitation you flagged as formally as it can be stated.
+Making it explicit surfaced something the prose concealed. The two failed cases, Iridium and OneWeb, carry the most missing cells. That is exactly the pattern a survivorship problem produces, and the section now says so.
 
 ---
 
 ## Article Metrics
 
-| Metric | Before | After |
+| Metric | After expansion | After review |
 |---|---|---|
-| Lines | 770 | 950 |
-| Words | ~11,668 | ~15,277 |
-| Display equations | 30 | **71** |
-| H2 / H3 sections | 27 / 10 | 27 / 10 |
+| Lines | 950 | 975 |
+| Words | ~15,277 | ~15,771 |
+| Display equations | 71 | **74** |
 | Total reference anchors | 157 | 157 |
 | Missing / unused / duplicate anchors | 0 / 0 / 0 | 0 / 0 / 0 |
-| Duplicate URLs | 0 | 0 |
 | Em-dash / en-dash / paren / contraction / colon / semicolon | 0 | 0 |
 
-LaTeX balanced at 64 matched `\left` and `\right` pairs with balanced braces. Every macro used was checked against the MathJax `tex-mml-chtml` default package set, which is what this site loads. Nothing requires a package the site does not have.
+LaTeX balanced with matched `\left` and `\right` pairs, balanced braces, and matched `array` environments. All macros within the MathJax `tex-mml-chtml` default package set.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **Reference-density pass is the remaining item on A290.** 157 anchors against the 190-234 baseline. Books at 54 and research at 31 are the series lows and are where the gap sits.
+1. **74 is above the nominal 60-72 band.** I judged this acceptable because A288 sits at 75, so the observed series range accommodates it, and because each addition carries argument rather than padding. Say the word if you would rather hold the nominal ceiling and I will drop the weakest of the three, which is the closure matrix.
 
-2. **New prose was written at ordinary phrasing density.** Per your direction the "the specific" question waits for its own pass, so I did not add to the problem while working inside the article. New passages therefore read slightly cleaner than their surroundings. The remediation pass will normalize both, so this should not need separate handling.
+2. **The 2015 round figures do not reconcile.** See addition one above. The article now says so plainly. If you know which reading is correct, that is a one-line fix and would tighten the section.
 
-3. **Two process-file defects found and repaired.** The TASKLOG History table had a duplicated header and five byte-identical duplicate rows covering A287 through A290. Removed. The A288 and A289 history entries recorded pre-publication-review counts as final metrics, understating them at 260 and 203 anchors against the actual 349 and 341. Corrected to agree with `draft_summary.md` and with the files themselves.
+3. **Reference-density pass is the only remaining item on A290.** 157 anchors against the 190-234 baseline, with books at 54 and research at 31 as the series lows.
 
-4. **No build verification was run and none is possible yet.** A290 back-references A288 and A289 by `post_url` and both are unpublished, so any build fails by construction until the batch stages together. This is the documented interlock, not a defect. Build verification belongs at publication.
-
-5. **The publication batch is still three.** A288, A289, and A290 publish together or in strict order. A288 has zero missing `post_url` targets, so the batch is publishable in that order once A290 reaches parity.
+4. **Still no build verification, and still none possible.** A290's `post_url` references to unpublished A288 and A289 fail any build by construction. Documented interlock, not a defect.
 
 ---
 
 ## Suggested Next Steps
 
-- Run the reference-density pass on A290, concentrating on books and research where the gap is widest.
-- Then A291 Category-Dominating Commercial Spinoff at editorial date 2026-08-03 09:00 UTC. A290 forward-references it as the retained-earnings channel that ultimately displaces the need for the patient-private leg.
-- Publish A288, A289, and A290 as a batch once all three are at parity, which clears the sequencing constraint in one step.
-- Schedule the broken-link sweep across A281, A282, and A283, which remain live with dead reference URLs.
-- Decide the scope of the "the specific" remediation. The three unpublished drafts are the cheap containment; the seven live articles are the larger call.
+- Run the reference-density pass on A290, concentrating on books and research.
+- Then A291 Category-Dominating Commercial Spinoff at editorial date 2026-08-03 09:00 UTC.
+- Publish A288, A289, and A290 as a batch once all three are at parity.
+- Schedule the broken-link sweep across live A281, A282, and A283.
+- Decide the scope of the "the specific" remediation. Three unpublished drafts is the cheap containment; the seven live articles are the larger call.
