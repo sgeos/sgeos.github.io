@@ -50,7 +50,13 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | Tesla Investor Relations | ir.tesla.com | Corporate investor-relations bot-detection |
 | National Venture Capital Association | nvca.org | Trade-association bot-detection |
 | OpenAI | openai.com | Corporate bot-detection, observed 2026-08-02 |
-| Academic publishers | jstor.org, sciencedirect.com, onlinelibrary.wiley.com, academic.oup.com, journals.uchicago.edu, mitpress.mit.edu, jhupbooks.press.jhu.edu, liebertpub.com, pubsonline.informs.org, cambridge.org, sup.org, e-elgar.com, simonandschuster.com, si.edu | Publisher bot-detection across the set |
+| Academic publishers | jstor.org, sciencedirect.com, onlinelibrary.wiley.com, academic.oup.com, journals.uchicago.edu, mitpress.mit.edu, jhupbooks.press.jhu.edu, liebertpub.com, pubsonline.informs.org, cambridge.org, sup.org, e-elgar.com, simonandschuster.com, si.edu, arc.aiaa.org, emerald.com | Publisher bot-detection across the set |
+| Federal Communications Commission | fcc.gov | Federal bot-detection, observed 2026-08-03 |
+| Financial Accounting Standards Board | fasb.org | Standards-body bot-detection |
+| International Council on Systems Engineering | incose.org | Standards-body bot-detection |
+| Organisation for Economic Co-operation and Development | oecd.org | Bot-detection |
+| Justia | supreme.justia.com | Case-law host bot-detection |
+| ArianeGroup | arianegroup.com | Blocks curl outright with a connection failure |
 
 If a new 403 site appears during a publication, add it to this catalogue with one line of context.
 
