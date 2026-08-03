@@ -9,80 +9,74 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-04
-**Task**: A288 through A292 published via the two-commit sequence and pushed. **The History of SpaceX series is complete at twelve articles.**
+**Task**: Imported the handoff-prompt protocol from `keleusma` and adapted it to this project. This completes the durable handoff process you deferred on 2026-08-02 until the series was finished.
 
 ---
 
-## What Was Published
+## What the Protocol Actually Is
 
-| Article | Date | Index | Equations | Anchors |
-|---|---|---|---|---|
-| A288 Portfolio Patience | 2026-07-31 | 8 | 75 | 348 |
-| A289 Government-Anchor Leg | 2026-08-01 | 9 | 73 | 340 |
-| A290 Patient-Private Leg | 2026-08-02 | 10 | 77 | 331 |
-| A291 Category-Dominating Spinoff | 2026-08-03 | 11 | 78 | 326 |
-| A292 Synthesis and Projection | 2026-08-04 | 12 | 75 | 370 |
+The idea worth importing is one design decision, and it is counterintuitive.
 
-All at 09:00 UTC. Staging commit `0a442c9`, then the publication commit with `git mv`, which git recorded as five clean renames with zero content change.
+**The handoff is deliberately not kept current.** Every other channel here is maintained — `TASKLOG.md` incrementally, `REVERSE_PROMPT.md` overwritten each task. `HANDOFF.md` is the opposite: a snapshot stamped with the commit it describes.
 
-The push also carried the corrections to the seven previously published articles from the consistency and word-usage passes — the citation repairs, the 84 dead-link repairs, the A284 and A285 structural fixes, and the word-usage remediation.
+That is what makes it safe. A resuming agent compares the recorded parent commit to `git rev-parse HEAD~1`:
 
----
+- **Match** — the handoff commit is still the tip, nothing landed after it, so the handoff describes the live state. Trust it.
+- **Mismatch** — something landed after. The handoff is stale **by construction**, says so itself, and the agent falls back to the live channels instead.
 
-## Build Verification
-
-Run before pushing, in a Gemfile-free scratch copy with `jekyll-archives` stripped from the config.
-
-- **294 posts in, 294 HTML files out.** Zero Liquid errors.
-- **Every `post_url` in the entire `_posts` corpus resolves.** This was the interlock the batch existed to clear, and it is the first time in the series a full build could succeed.
-- All twelve series pages generated with correct titles, MathJax loading, series navigation reporting part N of 12, debug tags present, and 75 rendered equations in the closer.
+A handoff kept perpetually "current" cannot do this. It would look authoritative while quietly describing a state that no longer exists, which is precisely the failure a post-compaction agent cannot detect from the inside.
 
 ---
 
-## One Defect I Did Not Fix
+## What I Adapted
 
-**`_publish.sh` does not work on macOS.** Its date-extraction line is:
+The source is written for a Rust compiler project with a release gate, feature branches, and a byte-identical differential oracle. I substituted this project's equivalents rather than importing the shape wholesale.
 
-```sh
-DATE=$(sed -n "/^date:[+-:0-9 ]*$/{p; q;}" "${FILENAME}" | awk '{ print $2 }')
-```
+| Source | Here |
+|---|---|
+| `docs/process/` | `_docs/process/` |
+| Three resume channels including a design journal | Two channels plus `_drafts/draft_summary.md` |
+| `scripts/release-gate.sh`, differential oracle | Build check, anchor integrity, style discipline, URL sweeps, DOI registry checks |
+| Branch hierarchy, no-ff merges | `master`, two-commit publication pattern |
+| Boundary counts pinned by a test | Density conventions as absolute counts |
 
-BSD sed rejects `[+-:0-9 ]` as an invalid character range, because `+-:` reads as a range from `+` to `:`. The script therefore reports *"does not have a date"* for every file and moves nothing. It failed silently in that sense — exit status looked fine and no files were touched.
-
-I performed the five `git mv` operations directly with identical semantics rather than edit your script. **The fix is to escape or reposition the hyphen**, for example `[-+:0-9 ]` or `[+:0-9 -]`, but that is your call since it is your tooling and it may behave differently under GNU sed on another machine.
-
----
-
-## Series Summary
-
-Twelve articles, A281 through A292, editorial dates 2026-07-24 through 2026-08-04.
-
-Across the series: **3,391 reference anchors**, **860 display equations**, roughly 250,000 words. Every article carries the seven methodological commitments, a pattern-extraction section, and complete back-referencing to every prior article.
-
-The closer's substantive contribution is the finding that the framework's own independence assumption fails, that the conditions are separable in favourable states and correlated in adverse ones, and that this biases the assessment in opposite directions — overstating the rarity of the conjunction while understating its fragility.
+**One addition the source does not have.** I added a **Writing a New Handoff** section. Without it the protocol is a one-off document that decays the moment the state moves; with it, the format perpetuates itself and the next agent knows to set the parent commit from `HEAD` rather than carrying forward a remembered value.
 
 ---
 
-## Deploy Result
+## Where It Is Wired
 
-**Deploy succeeded.** Eleven of the twelve articles are live and returning 200, including the seven whose corrections this push carried.
+- **`_docs/process/HANDOFF.md`** — the protocol, stamped with parent commit `7c2c97b`.
+- **`CLAUDE.md`** — session startup now validates the handoff first; a new **Compact Instructions** section lists what to preserve on compaction, adapted to this project's channels and governing rules.
+- **`_docs/process/README.md`** — indexed and added to the session working documents table and startup protocol.
+- **`_docs/process/COMMUNICATION.md`** — described as a channel, with the not-kept-current property stated explicitly so nobody "helpfully" maintains it.
 
-**A292 is correctly withheld for one day.** Its editorial date is 2026-08-04 and the deploy ran on 2026-08-03, and `_config.yml` sets `future: false`. It will appear automatically when its date arrives. No build error occurred, because the series back-reference-only convention means no published article points forward at it. That convention is what protected the build here.
+---
+
+## What the First Handoff Says
+
+I stamped it with the real current state rather than leaving a template, so it is immediately usable.
+
+It records that the series is complete and **no work is in flight**, and explicitly tells a resuming agent not to resume drafting or re-verifying it. It then carries forward the four open observations, seven method rules earned during the series, and six governing constraints.
+
+The method rules are the part I would not want lost. They include that an HTTP 200 does not verify a citation, that a source which cannot be confirmed should be dropped rather than guessed at, that a script's blast radius should be checked before running it over the corpus, and that counts should be verified on things you did not intend to change. Each of those was learned from an actual failure in this series, two of them my own.
+
+---
+
+## Verification
+
+The validity check passes against the committed state: the handoff's recorded parent matches `HEAD~1`.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **A documentation defect, and it is the one worth your time.** `_docs/process/FORWARD_DATED_POSTS.md` says the site sets `future: true`, quotes a config excerpt asserting it, and calls that setting foundational because `future: false` would break `post_url` references to forward-dated posts. **The live `_config.yml` line 86 sets `future: false`**, with its own deliberate comment describing the opposite policy. Commit `4cf5dd5` set it to true at some earlier point, so one of the two was changed and the other was not. I left both alone, because whether to align the config to the doc or the doc to the config is your call. It did no harm this time, but the doc would mislead anyone relying on it.
-
-2. **`_publish.sh` is broken on macOS**, per above.
-
-3. **Confirm A292 appears on 2026-08-04** at `/history/business/aerospace/2026/08/04/spacex_history_synthesis_and_projection.html`.
+1. **The ephemeral handoff at `tmp/spacex_series_post_compaction_handoff.md` is now superseded.** It remains untracked and gitignored. Delete it whenever you like; I left it alone since it costs nothing.
+2. **Two carried-forward defects are recorded in the handoff, not fixed**: the `future:` config-versus-documentation contradiction, and `_publish.sh` failing under BSD sed. Both are your call.
 
 ---
 
 ## Suggested Next Steps
 
-- Confirm the deploy succeeded and spot-check a couple of the new pages.
-- Consider resolving the 269 Open Library search URLs to specific work identifiers. Citation quality, not link rot.
-- Codify the durable handoff process. The series is finished, which was the condition you set for taking it up.
+- Nothing is pending. The series is published and the handoff protocol is in place.
+- When you next plan a compaction, ask for a handoff and I will overwrite `HANDOFF.md` per its own instructions.
