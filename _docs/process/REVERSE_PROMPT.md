@@ -66,7 +66,11 @@ Across all twelve: zero missing anchors, zero unused, zero duplicate anchors, ze
 
 **1. I broke all twelve files mid-pass and restored them.** A resort script I wrote sliced a line range that ran to end of file, which deleted the entire trailing link-definition block in every article. The integrity check caught it on the very next run, nothing was pushed, and I restored all twelve from HEAD and reapplied the corrections with a script that permutes bullet lines in place and never replaces ranges. No content was lost. I am telling you because it was my error and because the corrected approach is worth keeping.
 
-**2. One verification I could not finish.** The 43 Open Library replacements are generated from each book's own display title. I verified 13 of them individually at 200 before `openlibrary.org` began refusing my requests, having saturated it with the 853-URL sweep. The pattern itself is verified many times over this session and the series already depends on it in 269 places, so I applied all 43. **A final paced sweep should confirm the remaining 30** before publication. I would rather flag that than let it pass as fully checked.
+**2. One verification I could not finish, and a sharper way to think about it.** The 43 Open Library replacements are generated from each book's own display title. **20 are confirmed at 200.** The remaining 23 could not be checked because `openlibrary.org` hard-blocked this address after the 853-URL sweep, returning 429 and then connection refusals regardless of pacing; a retest at 30-second spacing after a cooldown did not recover.
+
+The framing matters more than the count. `openlibrary.org/search?q=...` is a **search endpoint**, so it cannot 404 on a query. It returns a results page for any query string, empty or not. HTTP status is therefore close to meaningless as a check here, which is why I am not going to keep hammering the host for it.
+
+The real weakness is one a status code would never have caught: **a search URL is a weaker citation than an edition page**, because it points at a query rather than at a specific work, and nothing guarantees the top result is the book named. That applies to all **269** Open Library URLs the series already carried, not only to my 43. Resolving them to specific work identifiers is a genuine quality improvement and is worth its own pass. It is not a link-rot problem and does not block publication.
 
 ---
 
@@ -74,13 +78,13 @@ Across all twelve: zero missing anchors, zero unused, zero duplicate anchors, ze
 
 1. **The batch is unblocked.** A288 through A292 can publish once you authorize.
 2. **Seven published articles now have uncommitted edits.** Publishing the batch will also push corrections to A281 through A287. That is a content change to live posts, so it is your call whether to push them together or separately.
-3. **The 30 unconfirmed Open Library URLs** above.
+3. **23 unconfirmed Open Library URLs**, with the caveat reframed above. Not a publication blocker.
 
 ---
 
 ## Suggested Next Steps
 
-- Confirm the remaining 30 Open Library URLs with a paced sweep.
+- Consider a pass resolving all 269 Open Library search URLs to specific work identifiers. This is a citation-quality improvement rather than a link-rot fix.
 - Stage and publish A288 through A292, with a build verification in a Gemfile-free scratch copy before pushing. Every unresolved `post_url` in the series points inside that batch, so this is the first time a full build can succeed.
 - Decide the scope of the "the specific" remediation, which is now the last outstanding series-wide item.
 - Codify the durable handoff process.

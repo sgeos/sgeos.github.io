@@ -23,7 +23,7 @@ All twelve History of SpaceX articles A281 through A292, published and drafted, 
 
 A citation-integrity audit of all 109 DOI-bearing anchors found twelve fabricated citations and nineteen unregistered DOIs, all repaired, plus five citations removed because the claimed work could not be confirmed to exist. A full sweep of all 853 unique URLs found 84 dead links, all repaired. Final state across all twelve is zero missing, unused, or duplicate anchors, zero duplicate bullets, zero duplicate URLs, all reference blocks alphabetical, and zero style violations.
 
-Outstanding from this pass: 30 of the 43 Open Library replacement URLs were applied without individual confirmation, because openlibrary.org began refusing requests after the 853-URL sweep saturated it. The pattern was verified 13 times during the pass and the series already relies on it in 269 places. A paced sweep should confirm the remainder before publication.
+Outstanding from this pass: 20 of the 43 Open Library replacement URLs are confirmed at 200 and 23 could not be checked because openlibrary.org hard-blocked this address after the 853-URL sweep, with a retest at 30-second spacing failing to recover. The status check is close to meaningless for this host in any case, because an Open Library search URL is a search endpoint that cannot return 404 for a query. The substantive weakness is that a search URL is a weaker citation than an edition page, which applies equally to the 269 such URLs the series already carried, and resolving them to specific work identifiers is worth a dedicated pass. It is not link rot and does not block publication.
 
 ## Draft Status
 
