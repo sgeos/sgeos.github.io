@@ -8,93 +8,70 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-08-02
-**Task**: A290 publication-review expansion pass. Article is at parity. **The pass also uncovered a citation-integrity defect affecting five published articles that needs your decision.**
+**Date**: 2026-08-03
+**Task**: A291 History of SpaceX Category-Dominating Commercial Spinoff drafted at `_drafts/spacex_history_category_dominating_spinoff.markdown` for editorial date 2026-08-03 at 09:00 UTC. Complete initial draft. Both density passes remain.
 
 ---
 
-## Read This First
+## The Claim the Article Is Built On
 
-A Crossref and `doi.org` audit of every DOI-bearing citation in the History of SpaceX corpus found **thirteen citations whose stated title and target document do not correspond**, plus five DOIs that are not registered at all.
+**The spinoff is not a diversification. It is the internalization of an anchor customer.**
 
-**Every one of these URLs returns HTTP 200.** The link sweeps run at each prior publication passed all of them, including mine. A status check confirms a URL resolves. It does not confirm the document is the work the citation names.
+Where A283 treats a government customer buying launches, this article treats the venture becoming the customer it had previously needed someone else to be.
 
-| Anchor | Claimed | Actually resolves to | Where |
-|---|---|---|---|
-| research_alchian_1963 | Alchian 1963 Reliability of Progress Curves in Airframe Production | "Leverage and the Cost of Capital", Solomon | **A282 live** |
-| research_sanchez_1993 | Sanchez 1993 Strategic Flexibility Firm Organization | "Strategic resources", Black and Boal 2007 | **A282 live** |
-| research_munir_phillips_2005 | Munir and Phillips 2005 The Birth of the Kodak Moment | "The Integration Journey", Yu et al | **A284 live** |
-| research_pisano_teece_2007 | Pisano and Teece 2007 How to Capture Value from Innovation | "From the Editor", Vogel 2005 | **A284 live** |
-| research_bergstresser_2020 | Bergstresser 2020 Space Traffic Management Priorities | "Robust Inference for Consumption-Based Asset Pricing", Kleibergen and Zhan | **A284 live** |
-| research_kilmichael_musk_2003 | Kilmichael Musk 2003 Falcon Launch Vehicles An Overview | "Control of Wing Rock Motion", Xin and Balakrishnan | **A285 live** |
-| research_zahra_2015 | Zahra 2015 Corporate Entrepreneurship as Knowledge Creation | "Proposing Social Resources as the Fundamental Catalyst", Tocher et al | **A285 live** |
-| research_bjelde_et_al_2007 | Bjelde et al 2007 Falcon 1 Demonstration Flights | "Space Hardware Cost Improvement Curve Update", Mackenzie and Parlanti | **A286 live** |
-| research_dutton_thomas_1984 | Dutton and Thomas 1984 Treating Progress Functions | "Self-Fulfilling Prophecy as a Management Tool", Eden | **A286 live** |
-| research_suarez_utterback_1995 | Suarez and Utterback 1995 Dominant Designs | "Japanese spinoffs", Ito 1995 | **A286 live** |
-| research_kalnins_mayer_2004 | Kalnins and Mayer 2004 Relationships and Hybrid Contracts | "Focusing Firm Evolution", Williams and Mitchell | **A287 live** |
-| research_maccormack_baldwin_rusnak_2012 | MacCormack Baldwin and Rusnak 2012 | "CEO Overconfidence and Innovation", Galasso and Simcoe | A288 draft |
-| research_villalonga_2004 | Villalonga 2004 Does Diversification Cause the Discount | "Convertible Bond Design", Korkeamaki and Moore | A288 draft |
+The ordinary account says a launch company entered telecommunications. That is not false and it is not an explanation, because it gives no reason why a launch company should have any advantage in telecommunications, and without one the diversification destroys value for every reason the literature A288 surveys documents.
 
-Five more DOIs are unregistered, meaning `doi.org` returns no redirect and the identifier was constructed: `research_block_2008`, `research_weiss_thurbon_2021`, `research_ross_staw_1993`, `book_logsdon_2010`, and `book_lundvall_1992` whose DOI resolves to an unrelated book called "Gales".
-
-**What I did.** All six that would have entered A290 were removed before this commit, including `research_ross_staw_1993`, which was already in the draft from the original drafting session. **A290 is clean.** I extended `_docs/process/URL_VERIFICATION.md` with a section on why a 200 does not verify a citation and the two registry commands that catch this.
-
-**What I did not do.** I have not touched the published articles. Removing citations from five live posts is your call, not mine. The affected passages will need rewriting or re-sourcing rather than a find-and-replace, since in most cases the claim is fine and only the reference is wrong.
-
-I would treat this as higher priority than publishing the A288 to A290 batch. A288 carries two of them and would ship them into a sixth live article.
+The decisive property is the cost position. The spinoff pays the parent's marginal cost. Every competitor pays a market price the parent sets. The per-launch gap is the parent's entire margin, and it is incurred on every launch of a campaign requiring hundreds. That is why the advantage matters for a constellation and would be irrelevant for a business needing one launch.
 
 ---
 
-## The Publication Review Itself
+## Three Findings I Think Are New to the Series
 
-**New H2: The Adverse-State Financing Regime.** The article had established that the mechanism supplies patience in good states and none in bad ones, and then never said what happens in the bad state. The new section says.
+**1. The deployment threshold explains why this leg needed the other two.** A constellation supplies continuous service only once enough orbital planes are populated. Below that, the service is intermittent and unsellable. So a partially deployed constellation earns **approximately nothing, not a proportional fraction**. The business cannot be built incrementally against revenue and must be financed entirely ahead of income. That is what connects the spinoff leg back to the government and private legs rather than leaving it as a separate commercial story.
 
-A venture whose prospects deteriorate does not stop raising. It raises on down rounds, senior liquidation preferences, participating preferred, full-ratchet anti-dilution, pay-to-play, and venture debt. Every one of those moves the supplying claim toward a fixed prioritized position. **So the claim-type sub-property is not a property of equity as an instrument. It is a state-contingent property of the equity a venture can issue**, and it degrades exactly where it would carry the most value.
+**2. Spectrum priority is where the capital-formation account and the regulatory account become the same account.** This is the finding I would most want you to check. Coordination runs on a first-filed basis subject to bring-into-use deadlines. So deployment speed is not merely an economic advantage — it is the mechanism by which a regulatory option is exercised before it expires. Captive launch capacity let the venture meet a deadline it controlled. A competitor buying launch at market faced a deadline it did not. The scarce asset in this business is not orbital volume and not capital. It is priority.
 
-That forces a correction to the article's own framework. The pattern extraction states five sub-properties and writes them as a product, which assumes independent failure. They are not independent. An adverse state withdraws the realization path, degrades the claim type, and concentrates the holder base simultaneously. **Three of five fail on one common cause**, so the product overstates joint survival and is a diagnostic checklist rather than a probability model. I updated the Pattern Extraction and the open questions to carry this rather than leaving it buried in the new section.
-
-This is the financing analogue of the A288 finding that four of five portfolio lines share a vehicle family. In both cases an arrangement that looks like it distributes risk turns out to concentrate it, and in both cases the concentration is invisible in the observed history. I have directed A292 to examine whether the correlation is general across all ten conditions.
-
-The section is marked as weakly evidenced, because no adverse-state round is observable in this case and the reasoning is from the documented instrument set rather than from any transaction.
-
-**Survey expansion.** Seven new cross-disciplinary traditions, five historical precedent cases including the Venetian and Genoese partnership forms and East Asian state-directed industrial finance, five Historiographical Gap subsections, five analytical framings.
+**3. The replenishment treadmill limits durability more than either side admits.** Short orbital lifetimes convert the constellation from a capital asset into a consumable, so incumbency advantage scales roughly as satellite lifetime over competitor deployment time, which is a small number. An incumbent whose fleet must be wholly replaced every few years cannot rest on it. **This cuts against the natural-monopoly reading that critics use and against the permanent-moat reading that advocates use.**
 
 ---
 
 ## Article Metrics
 
-| Metric | Before | After |
-|---|---|---|
-| Lines | 1,167 | 1,439 |
-| Words | ~18,734 | ~23,301 |
-| Display equations | 74 | 77 |
-| H2 / H3 | 27 / 11 | 28 / 16 |
-| Book references | 54 | 106 |
-| Primary reference URLs | 134 | 134 |
-| Research references | 31 | 72 |
-| **Total reference anchors** | **238** | **331** |
-| Missing / unused / duplicate | 0 / 0 / 0 | 0 / 0 / 0 |
-| Duplicate URLs | 0 | 0 |
-| Style violations | 0 | 0 |
-
-LaTeX balanced at 68 matched pairs, braces and array environments matched, all macros within the MathJax default package set. Full sweep of all 178 book and research URLs returned **zero 404 responses**; every non-200 is documented publisher bot-detection or rate-limiting.
+| Metric | Value |
+|---|---|
+| Lines | 796 |
+| Words | ~10,203 |
+| Display equations | 26 |
+| H2 / H3 sections | 28 / 12 |
+| Total reference anchors | 173 |
+| Books / Reference / Research / Related Post | 46 / 68 / 39 / 20 |
+| Missing / unused / duplicate anchors | 0 / 0 / 0 |
+| Duplicate URLs | 0 |
+| Style violations | 0 |
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **The citation-integrity defect above.** Needs a decision before the batch publishes.
-2. **Consolidated two Zubrin anchors** that pointed at the same publisher page for The Case for Mars.
-3. **A290 is at parity** and the three-article batch is otherwise ready for authorization.
-4. **Still no build verification and still none possible** until the batch stages together.
+1. **Both density passes remain.** 26 equations against the 60-72 band and 173 anchors against the 190-234 baseline.
+
+2. **The publication batch is now four.** A291 back-references A288, A289, and A290, all unpublished. Those four publish together or in strict order. A284 through A287 are live and unaffected.
+
+3. **Citation handling given last turn's audit.** Every anchor was drawn from the verified corpus and rechecked before use. Five dead inherited URLs were replaced with verified pages, and one anchor whose DOI is unregistered was excluded rather than shipped. **A291 introduces no unverified citation.**
+
+4. **The direct-to-cell business is the real qualification to the dominance claim.** It runs on carrier spectrum, not the operator's. It is the one part of the spinoff where the venture does not hold the complementary asset, so the appropriability tradition predicts value gets divided by bargaining power rather than captured. I gave that its own section rather than burying it.
+
+5. **I declined to credit foresight where the record does not show it.** The Iridium contrast partly turns on terrestrial buildout economics moving favorably for broadband where they moved unfavorably for voice. Nothing in the 2015 decision demonstrates anyone predicted that, so I marked it a favorable contingency rather than a strategic insight.
+
+6. **The orbital-commons objection is stated as sound.** The resource is finite, shared, and unpriced. I also recorded the fairness point that short lifetimes and active deorbit are better practice than the geostationary precedents while aggregate risk still rises, because the commentary usually asserts only one of those two.
 
 ---
 
 ## Suggested Next Steps
 
-- Decide how to handle the fabricated citations in A282, A284, A285, A286, and A287, and fix the two in A288 before it publishes.
-- Consider a corpus-wide DOI audit beyond this series, since nothing about the failure is specific to these articles.
-- Then A291 Category-Dominating Commercial Spinoff at editorial date 2026-08-03 09:00 UTC.
-- Publish A288, A289, and A290 as a batch.
+- Equation-density and reference-density passes on A291.
+- Then A292, the closing article. It should carry forward the A290 finding that the conditions are separable in favorable states and correlated in adverse ones, and test it across all ten rather than only the two where it has been shown.
+- Decide the citation-integrity remediation for A282 through A287 before the batch publishes. A288 still carries two fabricated citations.
+- Publish A288 through A291 as a four-article batch once all are at parity.
 - Broken-link sweep across live A281, A282, and A283.
 - Decide the scope of the "the specific" remediation.
