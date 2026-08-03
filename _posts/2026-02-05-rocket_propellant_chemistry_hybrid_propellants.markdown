@@ -23,7 +23,7 @@ propellants. The solid fuel grain is mechanically simple and cheap to
 manufacture, has no explosive constituents, and cannot self-ignite from
 the fuel side. The liquid or gaseous oxidizer permits throttling by
 oxidizer flow control, shutdown by closing the oxidizer valve, and
-restart by reopening it. This article treats the specific chemistries,
+restart by reopening it. This article treats the chemistries,
 delivered performance, and characteristic combustion behavior of hybrid
 propellants at the level [the opening article of this
 series][related_post_a217] establishes and by the same taxonomy that
@@ -100,7 +100,7 @@ perforation in kilograms per square meter per second. The exponent $n$
 is dimensionless and typically ranges from $0.5$ to $0.8$ depending on
 fuel chemistry and oxidizer identity. The coefficient $a$ has units
 dependent on the units of $\dot{r}$ and $G_{ox}$ and is tabulated for
-specific fuel-oxidizer combinations at reference conditions.
+fuel-oxidizer combinations at reference conditions.
 
 The pressure dependence that dominates solid propellant regression is
 absent from the leading-order hybrid regression rate. This absence has
