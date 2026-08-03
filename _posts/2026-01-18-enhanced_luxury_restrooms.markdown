@@ -61,7 +61,7 @@ $$E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d$$
 
 with nonnegative weights $w_d$ that sum to one. The gate encodes the framework commitment that hygienic failure suppresses the perceived elevation of a facility regardless of its scores on the enrichment dimensions, because $\Phi(x_H) \to 0$ as $x_H \to 0$ drives $E \to 0$ irrespective of the bracketed sum.
 
-The additive aggregate within the bracket admits a substitution-elastic generalization when the analyst wishes to model complementarity among the enrichment dimensions rather than pure substitutability. The constant-elasticity-of-substitution form
+The additive aggregate within the bracket permits a substitution-elastic generalization when the analyst wishes to model complementarity among the enrichment dimensions rather than pure substitutability. The constant-elasticity-of-substitution form
 
 $$E_{\text{CES}} = \Phi(x_H) \cdot \left( \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d^{\rho} \right)^{1/\rho}$$
 
@@ -73,7 +73,7 @@ is the appropriate choice when the analyst holds that a facility scoring near ze
 
 ## Throughput and Access Equity as an Economic Property
 
-The throughput dimension of the framework admits the most complete formal treatment, because the arrival of users to an elimination facility and the time each user occupies a fixture together constitute a stochastic service system of the kind that queueing theory describes. The treatment in this section supplies the quantitative apparatus that the potty-parity discussion later in the article applies to the question of sex-based provision.
+The throughput dimension of the framework allows the most complete formal treatment, because the arrival of users to an elimination facility and the time each user occupies a fixture together constitute a stochastic service system of the kind that queueing theory describes. The treatment in this section supplies the quantitative apparatus that the potty-parity discussion later in the article applies to the question of sex-based provision.
 
 Model the facility as a service system with $c$ interchangeable fixtures. Users arrive according to a Poisson process of rate $\lambda$, so that the number of arrivals in a time interval is Poisson-distributed and the interarrival times are exponential with mean $1/\lambda$. Each user occupies a fixture for a service time with mean $1/\mu$, so that $\mu$ is the per-fixture service rate. The offered load is the dimensionless quantity
 
@@ -141,7 +141,7 @@ $$c \geq \frac{\beta \lambda_{\text{mean}}}{\mu \, \rho^{\star}}$$
 
 which shows that the required provisioning scales linearly in the peaking factor. A facility designed to the mean rather than to the peak fails precisely at the moments of heaviest demand, which are the moments at which the failure is most visible.
 
-The provisioning problem admits a compact heuristic in the square-root staffing rule, which states that the fixture count required to hold a target probability of delay under offered load $a$ is approximately
+The provisioning problem supports a compact heuristic in the square-root staffing rule, which states that the fixture count required to hold a target probability of delay under offered load $a$ is approximately
 
 $$c \approx a + \beta \sqrt{a}$$
 
@@ -153,7 +153,7 @@ $$\min_{c} \; \Big[ \, c \, \kappa + \gamma \, \lambda \, W_q(c) \, \Big]$$
 
 which is convex in $c$, because the fixture cost rises linearly while the waiting cost falls convexly as fixtures are added, so that an interior optimum $c^{\star}$ balances the marginal fixture cost against the marginal waiting saving. The elevated facility is characteristically one whose operator assigns a high value to $\gamma$, whether because the facility serves a clientele whose time is valuable or because the operator treats the absence of a queue as a component of the experience it sells, and therefore provisions beyond the point a minimal-cost public facility would choose.
 
-The throughput dimension also admits a spatial efficiency measure in the served demand per unit floor area,
+The throughput dimension also permits a spatial efficiency measure in the served demand per unit floor area,
 
 $$\Theta = \frac{c \, \mu \, \rho^{\star}}{A_{\text{floor}}}$$
 
@@ -185,7 +185,7 @@ The potty-parity analysis illustrates the general point that access equity, the 
 
 ## Discretion and Privacy as an Acoustic and Olfactory Property
 
-The discretion dimension of the framework admits formal treatment along its acoustic and its olfactory axes. The acoustic axis concerns the concealment of the sounds of elimination, and the olfactory axis concerns the dilution and removal of odor. Both axes reduce to mass-and-energy transport problems that admit standard models.
+The discretion dimension of the framework allows formal treatment along its acoustic and its olfactory axes. The acoustic axis concerns the concealment of the sounds of elimination, and the olfactory axis concerns the dilution and removal of odor. Both axes reduce to mass-and-energy transport problems that admit standard models.
 
 The acoustic environment of a restroom is governed in the first place by its reverberation. The restroom is characteristically a hard-surfaced room, finished in tile, porcelain, stone, and glass, whose surfaces absorb little sound. The reverberation time, defined as the time for the sound energy density to decay by sixty decibels after a source ceases, is given for a diffuse field by the Sabine relation established in the founding work of architectural acoustics by [Sabine 1922][book_sabine_1922_acoustics] and treated in the modern references such as [Long 2006][book_long_2006_architectural_acoustics] Architectural Acoustics,
 
@@ -245,7 +245,7 @@ so that a higher air-change rate both lowers the steady-state odor level and sho
 
 ## Hygienic Sufficiency as a Sanitation Property
 
-The hygienic-sufficiency dimension, the gating base of the framework, admits treatment as a set of transport and inactivation problems. The dimension comprises the removal of waste, the interruption of pathogen transmission through surface and aerosol pathways, and the provision of hand hygiene.
+The hygienic-sufficiency dimension, the gating base of the framework, supports treatment as a set of transport and inactivation problems. The dimension comprises the removal of waste, the interruption of pathogen transmission through surface and aerosol pathways, and the provision of hand hygiene.
 
 The disinfection of a surface or a volume of water is governed to first approximation by first-order inactivation kinetics. Let $N$ denote the viable pathogen count and $N_0$ its initial value. Under a constant disinfectant exposure the count decays as
 
@@ -319,7 +319,7 @@ with $\rho$ the density of water and $g$ the gravitational acceleration, so that
 
 ## Sensory Enrichment and Thermal Comfort
 
-The sensory-enrichment dimension is the dimension along which luxury is most visibly signaled, and it comprises the material, the illumination, the acoustic character treated above, the scent treated above, and the thermal comfort of the facility. The thermal-comfort axis admits the standard formal treatment of the built environment.
+The sensory-enrichment dimension is the dimension along which luxury is most visibly signaled, and it comprises the material, the illumination, the acoustic character treated above, the scent treated above, and the thermal comfort of the facility. The thermal-comfort axis permits the standard formal treatment of the built environment.
 
 The perceived thermal state of an occupant is predicted by the [Fanger comfort model][book_fanger_1970_thermal_comfort], standardized in [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730][ref_iso_7730], which relates the thermal load on the body to a predicted mean vote on a seven-point thermal-sensation scale. The predicted mean vote is
 
@@ -521,7 +521,7 @@ The feminist and gender-order framework treats the facility as a principal site 
 
 ## The Elevation Trajectory and the Dynamics of Diffusion
 
-The elevation of the elimination facility is not a static condition but a trajectory through the dimension space of the framework, and the history the preceding sections traced admits reading as such a trajectory. The Roman latrine occupied a position high on the sensory dimension and near the minimum on the discretion dimension. The medieval garderobe fell to the minimum on nearly every dimension. The sanitary revolution raised the hygienic base at the scale of the city and made the subsequent elevation of the individual facility possible. The Victorian public convenience advanced the access dimension unevenly across the sexes. The twentieth century advanced the hygienic and thermal dimensions through the domestic bathroom, and the contemporary Japanese washroom advanced the sensory, discretion, and augmentation dimensions to their present frontier. The trajectory is neither monotone nor uniform, because different cultures and periods advanced different dimensions, and the framework represents this history as a path through a six-dimensional space rather than as movement along a single scale.
+The elevation of the elimination facility is not a static condition but a trajectory through the dimension space of the framework, and the history the preceding sections traced allows reading as such a trajectory. The Roman latrine occupied a position high on the sensory dimension and near the minimum on the discretion dimension. The medieval garderobe fell to the minimum on nearly every dimension. The sanitary revolution raised the hygienic base at the scale of the city and made the subsequent elevation of the individual facility possible. The Victorian public convenience advanced the access dimension unevenly across the sexes. The twentieth century advanced the hygienic and thermal dimensions through the domestic bathroom, and the contemporary Japanese washroom advanced the sensory, discretion, and augmentation dimensions to their present frontier. The trajectory is neither monotone nor uniform, because different cultures and periods advanced different dimensions, and the framework represents this history as a path through a six-dimensional space rather than as movement along a single scale.
 
 The diffusion of an elevation from its point of introduction to general adoption follows the characteristic pattern of the diffusion of an innovation, in which the adopting fraction rises along a sigmoid curve from an early minority through a rapid middle phase to a saturating majority. The washlet in Japan traced such a curve, rising from a penetration near one tenth in the early period to above four fifths in the contemporary period over the course of a generation, and the same curve describes the diffusion of the flush closet, the domestic bathroom, and the low-flow fixture. The diffusion is governed by the interaction of the cost of the elevation, the value the adopter places on it, and the social signal that adoption sends, so that an elevation diffuses rapidly when its cost falls and its social meaning rises, and stalls when either condition fails. The uneven international diffusion of the washlet, rapid in Japan and slow elsewhere, illustrates that the value placed on an elevation is culturally conditioned rather than universal, which is the framework claim that the dimension weights vary across cultures expressed as a claim about the rate of diffusion.
 
@@ -529,7 +529,7 @@ The elevation trajectory is bounded above by the resource and spatial constraint
 
 ## Pattern Extraction
 
-The elevation mechanic that the history of the elimination facility illustrates admits abstract characterization in a form other readers can recognize in adjacent facility contexts. This section states the abstract mechanic without naming any specific downstream application. The companion article on bathing states the cross-facility generalization once the second instantiation is in hand.
+The elevation mechanic that the history of the elimination facility illustrates supports abstract characterization in a form other readers can recognize in adjacent facility contexts. This section states the abstract mechanic without naming any specific downstream application. The companion article on bathing states the cross-facility generalization once the second instantiation is in hand.
 
 The abstract elevation mechanic is the property of a facility serving a universal somatic necessity that raises the facility from a utilitarian minimum toward an enhanced and luxury experience by ascending a partially ordered ladder of six value dimensions rooted at a gating hygienic base. The mechanic has several load-bearing features that jointly produce the observed elevation.
 
@@ -545,7 +545,7 @@ Fifth, the technological-augmentation dimension interacts non-monotonically with
 
 The elevation of a facility class thus requires advancement along the multidimensional ladder subject to the hygienic gate, the partial-order dependencies, the efficiency trade, and the non-monotone augmentation interaction. The elimination-facility history closes the ladder in the ways the historical treatment documents, and the counter-examples of unelevated or failed facilities negate one or more dimensions. The abstract mechanic admits application to any facility serving a universal necessity in which the provider faces the choice whether to spend capital and area on elevation, and the systematic evaluation of any candidate facility requires the evaluation of the six dimensions against the technical, hygienic, logistical, and social conditions the facility faces.
 
-The joint-elevation condition admits a compact form. Let $\theta$ denote a threshold on the elevation index above which a facility is recognized as elevated. The facility is elevated when
+The joint-elevation condition permits a compact form. Let $\theta$ denote a threshold on the elevation index above which a facility is recognized as elevated. The facility is elevated when
 
 $$E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d \; \geq \; \theta$$
 

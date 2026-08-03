@@ -37,7 +37,7 @@ $$P^{\text{ruin}}(T) = P\!\left( \exists \, t \leq T \; : \; C(t) \leq 0 \right)
 
 with $C(t)$ the cash position and the event being the first passage below zero. The distinction between variance reduction and ruin-probability reduction is the analytical hinge of this article, because the two objectives recommend different portfolios and because substantially the entire corporate-diversification literature evaluates the former.
 
-The relationship between the portfolio composition and the ruin probability admits the compact statement that for a portfolio of lines with independent failure events,
+The relationship between the portfolio composition and the ruin probability takes the compact statement that for a portfolio of lines with independent failure events,
 
 $$P^{\text{ruin}}_{\text{portfolio}} \approx \prod_{\ell \in \mathcal{L}} P^{\text{failure}}_\ell \qquad \text{against} \qquad P^{\text{ruin}}_{\text{single bet}} = P^{\text{failure}}_1$$
 
@@ -47,7 +47,7 @@ $$\boldsymbol{\rho} = \left[ \rho_{\ell m} \right]_{\ell, m \in \mathcal{L}}$$
 
 rather than any summary of it, because the ruin probability depends on the joint distribution of the adverse events rather than on their marginal probabilities. The empirical question for the SpaceX case is where between the two extremes the realized correlation structure lies, and the answer the article develops is that it lies substantially closer to the correlated extreme than the line count alone would suggest, because the lines share a launch vehicle.
 
-The identification problem is that the counterfactual is unobservable in the same way it was for the governance condition. The counterfactual differential admits the compact form
+The identification problem is that the counterfactual is unobservable in the same way it was for the governance condition. The counterfactual differential has the concise form
 
 $$\Delta V^{\text{portfolio}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{single-line counterfactual}}_i(t)$$
 
@@ -77,17 +77,17 @@ The portfolio-patience property is treated as an economic property of a firm's l
 
 The property has two components that the name joins and that are analytically separable. The portfolio component concerns the composition of the line set at an instant. The patience component concerns the willingness to sustain a line across the interval before it returns anything. A venture can hold a diversified portfolio without patience, in which case it terminates each line at the first adverse signal and holds a portfolio of short-lived undertakings. A venture can exhibit patience without a portfolio, in which case it is the single-bet configuration the negation cases illustrate. The condition requires both.
 
-The patience component admits formalization through the horizon over which the venture evaluates a line. Let $\tau_\ell$ denote the interval the venture will sustain the line $\ell$ before requiring a positive return, and let $\tau^{\ast}_\ell$ denote the interval the line in fact requires. The patience condition is
+The patience component permits formalization through the horizon over which the venture evaluates a line. Let $\tau_\ell$ denote the interval the venture will sustain the line $\ell$ before requiring a positive return, and let $\tau^{\ast}_\ell$ denote the interval the line in fact requires. The patience condition is
 
 $$\tau_\ell \geq \tau^{\ast}_\ell \qquad \forall \ell \in \mathcal{L}$$
 
-and the condition fails for a venture whose evaluation horizon is set by an external party with a shorter horizon. The patience admits equivalent expression as a discount rate rather than as a horizon, through the correspondence
+and the condition fails for a venture whose evaluation horizon is set by an external party with a shorter horizon. The patience allows equivalent expression as a discount rate rather than as a horizon, through the correspondence
 
 $$\tau_\ell \; \longleftrightarrow \; \rho_\ell \qquad \text{with} \qquad \frac{\partial \tau_\ell}{\partial \rho_\ell} < 0$$
 
 with a lower discount rate and a longer tolerated horizon being two descriptions of the same underlying parameter. The formulation is useful because it connects the patience component directly to the horizon divergence between controller and investor that the [Governance article A287][related_post_a287_spacex_governance] formalizes. The connection to the [Governance article A287][related_post_a287_spacex_governance] is direct and is the reason the two conditions are adjacent in the framework. The governance configuration is what permits $\tau_\ell$ to be set by the controller rather than by the capital market, and without it the patience component cannot be satisfied whatever the portfolio composition.
 
-The portfolio component admits formalization through the effective line count. A portfolio of $L$ lines with pairwise correlation $\rho$ behaves for variance purposes like a portfolio of
+The portfolio component supports formalization through the effective line count. A portfolio of $L$ lines with pairwise correlation $\rho$ behaves for variance purposes like a portfolio of
 
 $$L^{\text{effective}} = \frac{L}{1 + (L-1)\rho}$$
 
@@ -159,7 +159,7 @@ $$\Sigma(t) = \sum_{k \in K} \left[ \bar{u}_k - u_k(t) \right]^{+}$$
 
 with $\bar{u}_k$ the capacity of the capability $k$ and $u_k(t)$ its utilization, and with a positive slack constituting the resource from which a new line can be generated at a marginal rather than a full cost. The expression is the formal statement of why the lines were generated rather than acquired, and it is the quantity that distinguishes this growth path from an acquisitive one.
 
-The platform and ecosystem tradition traces from [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997] The Power of Product Platforms, [Sanderson and Uzumeri 1997][book_sanderson_uzumeri_1997] Managing Product Families, [Robertson and Ulrich 1998][research_robertson_ulrich_1998], [Baldwin and Clark 2000][book_baldwin_clark_2000] Design Rules, [Cusumano and Gawer 2002][book_cusumano_gawer_2002] Platform Leadership, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2021][book_adner_2021] Winning the Right Game, [Adner and Kapoor 2010][research_adner_kapoor_2010], and [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018]. The framing treats the shared capability base as a platform from which the lines derive. The platform leverage admits the compact form
+The platform and ecosystem tradition traces from [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997] The Power of Product Platforms, [Sanderson and Uzumeri 1997][book_sanderson_uzumeri_1997] Managing Product Families, [Robertson and Ulrich 1998][research_robertson_ulrich_1998], [Baldwin and Clark 2000][book_baldwin_clark_2000] Design Rules, [Cusumano and Gawer 2002][book_cusumano_gawer_2002] Platform Leadership, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2021][book_adner_2021] Winning the Right Game, [Adner and Kapoor 2010][research_adner_kapoor_2010], and [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018]. The framing treats the shared capability base as a platform from which the lines derive. The platform leverage permits the concise form
 
 $$\Lambda^{\text{platform}} = \frac{\sum_{\ell} V_\ell}{C^{\text{shared base}}}$$
 
@@ -217,7 +217,7 @@ with the components differing by an order of magnitude across the categories. Re
 
 The launch-service line is the oldest revenue-bearing line and the one from which the others were generated. The line sells delivery to orbit under the commercial terms the [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle] and the [SpaceX Falcon Heavy vehicle documentation][ref_spacex_falcon_heavy_vehicle] describe, and the mission record is reconstructible from the [FAA current launch licenses][ref_faa_ast], the [FAA Office of Commercial Space Transportation][ref_faa_ast] records, and the [SpaceX news archive][ref_spacex_news_archive]. The milestones that established the line's cost position include the [first orbital-class booster landing of December 2015][ref_spacex_press_falcon9_first_landing_2015], the [first reflight of a recovered booster in March 2017][ref_spacex_press_ses10_2017], the [Block 5 introduction of May 2018][ref_spacex_press_block5_bangabandhu_2018], and the [first Falcon Heavy flight of February 2018][ref_spacex_press_falcon_heavy_2018].
 
-The line's role in the portfolio is distinctive. It is the line that generates the capability the other lines consume, and it is therefore the line whose failure would be least survivable. The line is also the one whose external revenue has grown most slowly relative to the others across the recent period, because an increasing fraction of the launch capacity is consumed internally by the constellation line. The internal consumption fraction admits the compact form
+The line's role in the portfolio is distinctive. It is the line that generates the capability the other lines consume, and it is therefore the line whose failure would be least survivable. The line is also the one whose external revenue has grown most slowly relative to the others across the recent period, because an increasing fraction of the launch capacity is consumed internally by the constellation line. The internal consumption fraction yields the compact form
 
 $$\iota(t) = \frac{n^{\text{internal launches}}(t)}{n^{\text{total launches}}(t)}$$
 
@@ -233,13 +233,13 @@ The value-gradient progression by which the line reached its present cost positi
 
 The spacecraft line comprises the Dragon 1 cargo configuration operating across the 2010 through 2020 period and the Dragon 2 arrangement operating in crew and cargo variants from the 2019 period forward. The line is documented in the [NASA Commercial Crew Program documentation][ref_nasa_ccp_documents], the [NASA Commercial Resupply Services program overview][ref_nasa_crs_program_overview], the [CRS-2 award announcement of January 2016][ref_nasa_crs2_press_2016], and the award announcements published through the [NASA news releases][ref_nasa_news], and treated at length in the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand]. The programme-evaluation record appears in the [GAO 2019 Commercial Crew Program evaluation][ref_gao_ccp_2019], the [NASA Office of Inspector General 2019 Commercial Crew evaluation][ref_nasa_oig_ccp_2019], the [NASA Office of Inspector General 2018 Commercial Cargo evaluation][ref_nasa_oig_ccp_cargo_2018], and the [Congressional Research Service Commercial Crew report][ref_crs_commercial_crew].
 
-The line occupies a distinctive position in the portfolio because its revenue derives substantially from a single customer under a small number of contracts. The concentration admits the compact statement through a Herfindahl index over the customer set
+The line occupies a distinctive position in the portfolio because its revenue derives substantially from a single customer under a small number of contracts. The concentration allows the brief statement through a Herfindahl index over the customer set
 
 $$H_\ell = \sum_{j} s_{j\ell}^2$$
 
 with $s_{j\ell}$ the revenue share of the customer $j$ in the line $\ell$, and with the spacecraft line exhibiting an index approaching unity. A line with a customer Herfindahl near unity contributes limited diversification benefit irrespective of its revenue magnitude, because the line fails whenever the single customer's budget or programmatic priorities change.
 
-The offsetting feature is that the single customer is a government agency operating under a multi-year appropriation with a statutory mission, which makes the customer's demand substantially less correlated with the commercial cycle than a commercial customer's would be. The spacecraft line therefore contributes specific counter-cyclical rather than uncorrelated variance, which is the more valuable of the two under a survival objective. The ordering admits the compact statement that for a line added to a portfolio,
+The offsetting feature is that the single customer is a government agency operating under a multi-year appropriation with a statutory mission, which makes the customer's demand substantially less correlated with the commercial cycle than a commercial customer's would be. The spacecraft line therefore contributes specific counter-cyclical rather than uncorrelated variance, which is the more valuable of the two under a survival objective. The ordering takes the compact statement that for a line added to a portfolio,
 
 $$\left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell < 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell = 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell > 0}$$
 
@@ -249,7 +249,7 @@ with a negatively correlated line reducing the ruin probability more than an unc
 
 The constellation line comprising Starlink is the dominant revenue line at the drafting date and is treated at length in the [Value Capture article A284][related_post_a284_spacex_value_capture]. The service is documented in the [Starlink service documentation][ref_spacex_starlink] and the constellation parameters in the [FCC Starlink authorization of 2018][ref_fcc_starlink_2018] and the [FCC Starlink Gen2 authorization of 2022][ref_fcc_starlink_gen2_2022]. The deployment milestones comprise the [Seattle announcement of January 2015][ref_spacex_seattle_announcement_2015], the [first operational batch of May 2019][ref_spacex_press_starlink_v0_9_2019], the [service beta of 2020][ref_spacex_press_beta_2020], and the [direct-to-cell partnership announced in 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022].
 
-The line transformed the portfolio's character. Before the line reached scale the firm held a portfolio of project-based lines whose revenue was lumpy, contract-dependent, and concentrated in a small customer set. The constellation line supplies a subscription revenue stream with different statistical properties entirely. The difference admits the compact statement through the revenue autocorrelation
+The line transformed the portfolio's character. Before the line reached scale the firm held a portfolio of project-based lines whose revenue was lumpy, contract-dependent, and concentrated in a small customer set. The constellation line supplies a subscription revenue stream with different statistical properties entirely. The difference has the concise statement through the revenue autocorrelation
 
 $$\phi_\ell = \operatorname{corr}\!\left( r_\ell(t), \; r_\ell(t-1) \right)$$
 
@@ -303,13 +303,13 @@ with the value accruing from the application set the [Generality-Forcing article
 
 The cross-subsidization structure is the mechanism by which the portfolio serves the mission rather than merely coexisting with it. The structure is also the least observable feature of the case, because the transfers are internal and the transfer prices are not published.
 
-The historical sequence of the flows admits reconstruction at a qualitative level. Across the 2006 through 2012 period the state-anchored spacecraft development that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats supplied the capital that sustained the launch-vehicle development. Across the 2013 through 2019 period the launch-service line supplied the capital that sustained the reusability development and the early constellation development. Across the 2020 through drafting-date period the constellation line has supplied the dominant share of the capital sustaining the next-generation vehicle development. The sequence exhibits a consistent pattern in which the line that has most recently matured funds the line that is next to mature.
+The historical sequence of the flows permits reconstruction at a qualitative level. Across the 2006 through 2012 period the state-anchored spacecraft development that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats supplied the capital that sustained the launch-vehicle development. Across the 2013 through 2019 period the launch-service line supplied the capital that sustained the reusability development and the early constellation development. Across the 2020 through drafting-date period the constellation line has supplied the dominant share of the capital sustaining the next-generation vehicle development. The sequence exhibits a consistent pattern in which the line that has most recently matured funds the line that is next to mature.
 
 The pattern admits the compact statement as an ordered relation over the lines
 
 $$f_{\ell \to m} > 0 \quad \text{predominantly for} \quad \text{maturity}(\ell) > \text{maturity}(m)$$
 
-with the capital flowing consistently from the more mature to the less mature line. The maturity ordering that governs the flows admits the compact statement through a line lifecycle position
+with the capital flowing consistently from the more mature to the less mature line. The maturity ordering that governs the flows permits the concise statement through a line lifecycle position
 
 $$\mu_\ell(t) = \frac{\text{cumulative revenue}_\ell(t)}{\text{cumulative investment}_\ell(t)}$$
 
@@ -321,7 +321,7 @@ $$\pi_{\text{launch}} + \pi_{\text{constellation}} = \text{invariant} \qquad \te
 
 with the total invariant to the transfer price and the split entirely determined by it. Every published estimate of the per-line profitability of this firm rests on an assumed transfer price that the estimator has chosen, and the reader should treat the line-level figures accordingly.
 
-The internal allocation quality is the question the internal-capital-markets literature poses. The favorable reading is the winner-picking account that [Stein 1997][research_stein_1997] develops, under which a headquarters with superior information directs capital better than an external market could. The unfavorable reading is the dark-side account that [Scharfstein and Stein 2000][research_scharfstein_stein_2000] develops, under which division managers extract rents and the allocation becomes socialistic. The SpaceX configuration exhibits a feature that bears on which reading applies, namely that the allocation is directed by a party with an overriding preference over the outcome rather than by a party balancing divisional claims. The configuration is therefore substantially immune to the socialistic failure the dark-side account describes and substantially exposed to a different failure in which the allocation reflects the controller's commitment rather than the investment opportunity. The allocation-quality correlation the Cross-Disciplinary Framings section defines would be measured against the mission rather than against the return. The substitution admits the compact statement
+The internal allocation quality is the question the internal-capital-markets literature poses. The favorable reading is the winner-picking account that [Stein 1997][research_stein_1997] develops, under which a headquarters with superior information directs capital better than an external market could. The unfavorable reading is the dark-side account that [Scharfstein and Stein 2000][research_scharfstein_stein_2000] develops, under which division managers extract rents and the allocation becomes socialistic. The SpaceX configuration exhibits a feature that bears on which reading applies, namely that the allocation is directed by a party with an overriding preference over the outcome rather than by a party balancing divisional claims. The configuration is therefore substantially immune to the socialistic failure the dark-side account describes and substantially exposed to a different failure in which the allocation reflects the controller's commitment rather than the investment opportunity. The allocation-quality correlation the Cross-Disciplinary Framings section defines would be measured against the mission rather than against the return. The substitution yields the compact statement
 
 $$Q^{\text{mission}} = \operatorname{corr}\!\left( \Delta k_\ell, \; \frac{\partial P(\text{reach } M)}{\partial k_\ell} \right) \qquad \text{against} \qquad Q^{\text{return}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)$$
 
@@ -333,7 +333,7 @@ The question the article must answer is whether the portfolio in fact reduces th
 
 The dominant common factor is the launch vehicle. A Falcon 9 loss-of-mission event triggers a grounding pending an investigation, and the grounding halts the launch-service revenue, the spacecraft missions, the constellation deployment, and the national-security launches simultaneously. The event does not halt the constellation subscription revenue from the already-deployed satellites, which is the single most important qualification in the opposite direction, because it means the constellation line contributes a revenue stream that survives the common-mode event.
 
-The structure therefore admits a compact characterization. Let $S$ denote the event of an extended vehicle grounding. The surviving revenue fraction is
+The structure therefore allows a compact characterization. Let $S$ denote the event of an extended vehicle grounding. The surviving revenue fraction is
 
 $$\theta = \frac{r^{\text{constellation subscription}}}{r^{\text{total}}} \qquad \text{conditional on } S$$
 
@@ -359,7 +359,7 @@ with the two uninsured components being precisely the ones that determine whethe
 
 The second common factor is the regulatory environment, which affects the launch cadence through the [FAA Part 450 licensing][ref_faa_ast_licensing_regs_450] regime and the [FAA Starship environmental review][ref_faa_starship_ea], and affects the constellation through the spectrum process. The two regulatory channels are institutionally distinct and the correlation between them is low, which is a favorable feature.
 
-The third common factor is the controller. Every line depends on a single individual to a degree that the [Governance article A287][related_post_a287_spacex_governance] documents, and the dependency is perfectly correlated across the lines by construction. The portfolio gives substantially no protection against a key-person event, and a key-person event is precisely the event the governance configuration makes most consequential. The interaction admits the compact statement. Let $\phi_6$ and $\phi_7$ denote the governance and portfolio-patience closures. The framework treats the joint closure as a product of independent indicators, and the key-person channel establishes that
+The third common factor is the controller. Every line depends on a single individual to a degree that the [Governance article A287][related_post_a287_spacex_governance] documents, and the dependency is perfectly correlated across the lines by construction. The portfolio gives substantially no protection against a key-person event, and a key-person event is precisely the event the governance configuration makes most consequential. The interaction allows the brief statement. Let $\phi_6$ and $\phi_7$ denote the governance and portfolio-patience closures. The framework treats the joint closure as a product of independent indicators, and the key-person channel establishes that
 
 $$P\!\left( \text{survive} \mid \phi_6 = 1, \phi_7 = 1 \right) < P\!\left( \text{survive} \mid \phi_6 = 1 \right) \cdot P\!\left( \text{survive} \mid \phi_7 = 1 \right) \big/ P\!\left( \text{survive} \right)$$
 
@@ -375,7 +375,7 @@ $$\frac{dL}{dt} \leq \gamma \cdot M(t) \qquad \text{with} \qquad \dot{M}(t) = h\
 
 with the rate of line addition bounded by the available managerial capacity rather than by the capital position. A venture holding substantial capital and insufficient managerial capacity cannot convert the former into the latter by spending it.
 
-The attention constraint operates at the level of the controller with particular force in this case. The bounded-rationality tradition from [Simon 1957][book_simon_1957] Administrative Behavior through [March and Simon 1958][book_march_simon_1958] Organizations, [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm, and [Weick 1979][book_weick_1979] The Social Psychology of Organizing treats attention as a scarce resource allocated across a problem set, and it predicts that an increase in the line count reduces the attention available to each. The allocation admits the compact form
+The attention constraint operates at the level of the controller with particular force in this case. The bounded-rationality tradition from [Simon 1957][book_simon_1957] Administrative Behavior through [March and Simon 1958][book_march_simon_1958] Organizations, [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm, and [Weick 1979][book_weick_1979] The Social Psychology of Organizing treats attention as a scarce resource allocated across a problem set, and it predicts that an increase in the line count reduces the attention available to each. The allocation takes the compact form
 
 $$\sum_{\ell \in \mathcal{L}} a_\ell(t) \leq \bar{A} \qquad \text{with} \qquad \frac{\partial \, \text{progress}_\ell}{\partial a_\ell} > 0$$
 
@@ -417,7 +417,7 @@ The objective differs more fundamentally. The investor diversifies to reduce the
 
 $$\text{investor solves} \; \min_w \sigma^2(w) \quad \text{s.t.} \; E[R] \geq \bar{R} \qquad \text{venture solves} \; \min_w P^{\text{ruin}}(w, T^{\text{mission}})$$
 
-with the two programmes yielding different optima. An investor holding a fractional position in a mission-directed venture and a portfolio of other assets has diversified the investor's exposure and has done nothing whatever to the venture's ruin probability. The asymmetry admits the compact statement
+with the two programmes yielding different optima. An investor holding a fractional position in a mission-directed venture and a portfolio of other assets has diversified the investor's exposure and has done nothing whatever to the venture's ruin probability. The asymmetry has the concise statement
 
 $$\frac{\partial \sigma^2_{\text{investor}}}{\partial \text{diversification}} < 0 \qquad \text{while} \qquad \frac{\partial P^{\text{ruin}}_{\text{venture}}}{\partial \text{investor diversification}} = 0$$
 
@@ -455,7 +455,7 @@ The Superconducting Super Collider constitutes the negation case in the publicly
 
 The case is a portfolio-patience negation in the same structural sense as the Iridium case and in a different institutional setting. The programme was a single indivisible undertaking that would return its scientific value only upon completion and that returned substantially nothing at any intermediate stage. The programme therefore faced an annual appropriation decision in which the decision maker compared a continuing cost against a benefit that remained entirely prospective, and the comparison is one a single-line configuration loses whenever the appropriator's horizon is shorter than the programme's.
 
-The structure admits the compact form. The programme survives to completion only if
+The structure permits the concise form. The programme survives to completion only if
 
 $$\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0$$
 
@@ -481,7 +481,7 @@ The aggregate statement may be written
 
 $$\hat{P}\!\left( \text{survival} \mid \text{single line} \right) \ll \hat{P}\!\left( \text{survival} \mid \text{portfolio} \right)$$
 
-with the inequality supported by the sector record and with the important caveat that the comparison is confounded, because the ventures that assembled portfolios were disproportionately the ventures that had survived long enough to assemble them. The confounding admits the compact statement. Let $A$ denote the event that a venture assembled a portfolio and $S$ the event that it survived to a horizon. The observed association satisfies
+with the inequality supported by the sector record and with the important caveat that the comparison is confounded, because the ventures that assembled portfolios were disproportionately the ventures that had survived long enough to assemble them. The confounding yields the compact statement. Let $A$ denote the event that a venture assembled a portfolio and $S$ the event that it survived to a horizon. The observed association satisfies
 
 $$P(S \mid A) > P(S) \qquad \text{with} \qquad P(A \mid S^{\text{early}}) > P(A)$$
 
@@ -489,7 +489,7 @@ so that the ventures observed with portfolios are disproportionately those that 
 
 ## Deep Historical Comparative Precedents
 
-The portfolio-patience mechanic admits comparison with deep historical precedents that establish the property as a recurring feature of undertakings requiring sustained investment across horizons longer than any single revenue source supports.
+The portfolio-patience mechanic supports comparison with deep historical precedents that establish the property as a recurring feature of undertakings requiring sustained investment across horizons longer than any single revenue source supports.
 
 The chartered-company form supplies the earliest systematic instance. The Dutch and English East India Companies held portfolios of voyages, trading posts, and commodity lines whose individual outcomes were substantially independent, and the portfolio structure was the mechanism by which a single lost vessel did not terminate the enterprise. The treatments in [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution of the Seventeenth Century, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World document the arrangements. The voyage portfolio admits the same treatment the article applies throughout, with the ruin probability for a venture financing $n$ simultaneous voyages each carrying an independent loss probability $q$ satisfying
 
@@ -499,7 +499,7 @@ with the improvement geometric in the voyage count. The move from the single-voy
 
 The Venetian Arsenal and the broader Venetian maritime economy supply a parallel instance in which risk was distributed across vessels and voyages through partial ownership and early insurance arrangements. The [Lane 1934][book_lane_1934] Venetian Ships and Shipbuilders of the Renaissance and [Concina 2006][book_concina_2006] treatments document the structures. The arrangement diversified across ventures rather than within a firm, which makes it the historical antecedent of the venture-capital form rather than of the configuration this article treats.
 
-The Manhattan Project supplies the purest historical instance of a portfolio held under irreducible technical uncertainty. The programme pursued gaseous diffusion, electromagnetic separation, and plutonium production simultaneously, at a cost far exceeding that of selecting one, precisely because no party could determine in advance which route would succeed. The treatments in [Rhodes 1986][book_rhodes_1986] The Making of the Atomic Bomb, [Groves 1962][book_groves_1962] Now It Can Be Told, [Hewlett and Anderson 1962][book_hewlett_anderson_1962] The New World, and [Bird and Sherwin 2005][book_bird_sherwin_2005] American Prometheus document the decision. The structure admits the compact statement that for independent routes each with success probability $p_r$,
+The Manhattan Project supplies the purest historical instance of a portfolio held under irreducible technical uncertainty. The programme pursued gaseous diffusion, electromagnetic separation, and plutonium production simultaneously, at a cost far exceeding that of selecting one, precisely because no party could determine in advance which route would succeed. The treatments in [Rhodes 1986][book_rhodes_1986] The Making of the Atomic Bomb, [Groves 1962][book_groves_1962] Now It Can Be Told, [Hewlett and Anderson 1962][book_hewlett_anderson_1962] The New World, and [Bird and Sherwin 2005][book_bird_sherwin_2005] American Prometheus document the decision. The structure allows the brief statement that for independent routes each with success probability $p_r$,
 
 $$P(\text{at least one succeeds}) = 1 - \prod_{r} \left( 1 - p_r \right)$$
 
@@ -519,7 +519,7 @@ The Boeing progression from the military contracts through the commercial airlin
 
 The Ford and Toyota manufacturing trajectories supply the instance in which a single product line sustained across a long horizon was subsequently displaced by a configuration holding multiple lines with shared production capability. The [Ford and Crowther 1922][book_ford_crowther_1922], [Nevins 1954][book_nevins_1954], [Ohno 1988][book_ohno_1988], [Shingo 1989][book_shingo_1989], [Womack Jones and Roos 1990][book_womack_jones_roos_1990], [Womack and Jones 2003][book_womack_jones_2003], and [Liker 2004][book_liker_2004] treatments document the progression. The relevant feature is that the shared production capability is what made the multiple lines affordable, which is the generated-portfolio structure in a manufacturing setting.
 
-The conglomerate wave of the mid-twentieth century yields the negative precedent that the discount literature was written to explain. The configurations assembled unrelated lines by acquisition on the explicit rationale of risk reduction, and the subsequent record was sufficiently poor that the form was substantially abandoned. The treatments in [Chandler 1962][book_chandler_1962], [Chandler 1977][book_chandler_1977], [Chandler 1990][book_chandler_1990], [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, and [Montgomery 1994][research_montgomery_1994] document the episode. The precedent set admits summary through the pair of indicators the article's central distinction defines
+The conglomerate wave of the mid-twentieth century yields the negative precedent that the discount literature was written to explain. The configurations assembled unrelated lines by acquisition on the explicit rationale of risk reduction, and the subsequent record was sufficiently poor that the form was substantially abandoned. The treatments in [Chandler 1962][book_chandler_1962], [Chandler 1977][book_chandler_1977], [Chandler 1990][book_chandler_1990], [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, and [Montgomery 1994][research_montgomery_1994] document the episode. The precedent set permits summary through the pair of indicators the article's central distinction defines
 
 $$\chi = \left( \mathbb{1}\!\left[ L > 1 \right], \; \mathbb{1}\!\left[ \textstyle\bigcap_\ell K_\ell \neq \varnothing \right] \right)$$
 
@@ -601,7 +601,7 @@ with the ruin probability governed by whichever specific protection is stronger 
 
 ## Comparative Cross-Sectional Analysis
 
-The portfolio-patience condition admits application to the organization set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector admits the compact form
+The portfolio-patience condition allows application to the organization set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector takes the compact form
 
 $$\boldsymbol{\phi}_j^{\text{portfolio-patience}} \in \{0,1\}^{5}$$
 
@@ -661,7 +661,7 @@ $$\frac{\partial P\!\left( \text{continue} \right)}{\partial \, \text{signal}} \
 
 with the two readings distinguishable in principle by observing whether the resource commitment responds to the programme's setbacks. The prediction is not distinguishable from the favorable reading using the evidence available while the programme remains incomplete, because the observed setbacks have been followed by the continued commitment under both readings.
 
-The evolutionary and selection framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the caution that the observed configuration is a survivor and that the portfolio may be a consequence of survival rather than a cause of it. The caution is stronger for this condition than for any other in the framework, because the causal direction is genuinely ambiguous. The identification failure admits the compact statement
+The evolutionary and selection framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the caution that the observed configuration is a survivor and that the portfolio may be a consequence of survival rather than a cause of it. The caution is stronger for this condition than for any other in the framework, because the causal direction is genuinely ambiguous. The identification failure has the concise statement
 
 $$\text{Cov}\!\left( \text{portfolio}, \; \text{survival} \right) = \underbrace{\beta_1}_{\text{portfolio causes survival}} + \underbrace{\beta_2}_{\text{survival permits portfolio}}$$
 
@@ -679,7 +679,7 @@ The actor-network framing developed in [Latour 1987][book_latour_1987], [Callon 
 
 ## Pattern Extraction
 
-The portfolio-patience pattern that the SpaceX case exhibits admits the following abstract statement without naming any downstream application. A mission-directed technology venture achieves the portfolio-patience closure when it holds several revenue-bearing lines generated from a shared capability base, whose adverse outcomes are imperfectly correlated, each of which it will sustain across the interval that line requires, with the capital directed among them according to the mission rather than according to the return.
+The portfolio-patience pattern that the SpaceX case exhibits supports the following abstract statement without naming any downstream application. A mission-directed technology venture achieves the portfolio-patience closure when it holds several revenue-bearing lines generated from a shared capability base, whose adverse outcomes are imperfectly correlated, each of which it will sustain across the interval that line requires, with the capital directed among them according to the mission rather than according to the return.
 
 The abstract mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 

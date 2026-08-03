@@ -97,7 +97,7 @@ The three capital-formation legs are the government-anchor leg the [Government-A
 
 $$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
 
-with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and admits the compact ordering
+with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and takes the compact ordering
 
 $$t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}$$
 
@@ -107,7 +107,7 @@ with each leg becoming available only after the preceding one had financed the c
 
 The framework is a conjunction and the series has written it as a product. The product form carries an assumption that the series stated nowhere and examined only in its final three articles, which is that the conditions are independent in the sense that satisfying or failing one carries no information about the others.
 
-The assumption admits precise statement. Writing the framework as a product is licensed only where
+The assumption permits precise statement. Writing the framework as a product is licensed only where
 
 $$P\!\left( \phi_j = 1 \mid \phi_k = 1 \right) = P\!\left( \phi_j = 1 \right) \qquad \text{for all } j \neq k$$
 
@@ -151,7 +151,7 @@ The conditions are not independent in the favorable direction either. A venture 
 
 $$P\!\left( \Phi = 1 \right) \; > \; \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)$$
 
-with the conjunction substantially more attainable than the product suggests. The magnitude of the overstatement admits a bound under the factor representation. If the ten conditions load on $d$ underlying factors and each factor is satisfied with probability $q$, the joint probability approaches
+with the conjunction substantially more attainable than the product suggests. The magnitude of the overstatement allows a bound under the factor representation. If the ten conditions load on $d$ underlying factors and each factor is satisfied with probability $q$, the joint probability approaches
 
 $$P\!\left( \Phi = 1 \right) \; \approx \; q^{\,d} \qquad \text{rather than} \qquad \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right) \approx q^{\,10}$$
 
@@ -205,7 +205,7 @@ $$\text{protection} \; \sim \; 1 - \bar{\rho} \qquad \text{with} \qquad \bar{\rh
 
 with the protective value vanishing exactly at the correlation the key-person event induces.
 
-The interaction with the governance condition is adverse rather than neutral, and this is the part worth stating precisely. The governance configuration the [Governance article A287][related_post_a287_spacex_governance] describes concentrates decision authority in order to resist capital capture. That concentration is the mechanism by which the mission is protected from external redirection. It is also the mechanism by which a key-person event becomes maximally consequential, because the decisions the arrangement reserves to the controller have no institutional path to being made by anyone else. The amplification admits the compact statement as a derivative with the wrong sign
+The interaction with the governance condition is adverse rather than neutral, and this is the part worth stating precisely. The governance configuration the [Governance article A287][related_post_a287_spacex_governance] describes concentrates decision authority in order to resist capital capture. That concentration is the mechanism by which the mission is protected from external redirection. It is also the mechanism by which a key-person event becomes maximally consequential, because the decisions the arrangement reserves to the controller have no institutional path to being made by anyone else. The amplification has the concise statement as a derivative with the wrong sign
 
 $$\frac{\partial \, \text{consequence of a key-person event}}{\partial \, \text{concentration of decision authority}} \; > \; 0$$
 
@@ -291,7 +291,7 @@ with the product notation being what made the assumption visible enough to falsi
 
 The preceding section credits the framework with a diagnostic record. This section asks whether that record is evidence of anything, and the answer is less favorable than the section above implies.
 
-The problem is one of degrees of freedom. The framework was constructed by examining a surviving case and identifying its properties, and it is applied to failures after their outcomes are known. A scheme with ten conditions applied retrospectively to a known failure has ten opportunities to locate a fault, and a sufficiently rich scheme will locate one in any case whatever. The condition admits compact statement as a comparison between the scheme's flexibility and the evidence available
+The problem is one of degrees of freedom. The framework was constructed by examining a surviving case and identifying its properties, and it is applied to failures after their outcomes are known. A scheme with ten conditions applied retrospectively to a known failure has ten opportunities to locate a fault, and a sufficiently rich scheme will locate one in any case whatever. The condition supports compact statement as a comparison between the scheme's flexibility and the evidence available
 
 $$\left| \left\{ \text{conditions available to assign blame} \right\} \right| = 10 \qquad \text{against} \qquad \left| \left\{ \text{observations} \right\} \right| \; \text{small}$$
 
@@ -697,7 +697,7 @@ with the first quantity guaranteed by the construction of the framework and carr
 
 ## Pattern Extraction
 
-The pattern the series as a whole exhibits admits the following abstract statement, which supersedes the ten individual pattern-extraction sections rather than summarizing them.
+The pattern the series as a whole exhibits permits the following abstract statement, which supersedes the ten individual pattern-extraction sections rather than summarizing them.
 
 A mission-directed technology venture closes the seven-plus-three conjunction when a small number of underlying properties generate the ten observable conditions. The properties are a mission-directed objective function that is not a profit-maximizing one, a control configuration permitting that objective to be pursued against capital-market preference, a technical capability whose generality is forced by the mission requirement rather than chosen for the market, and access to a government customer supplying both demand and non-dilutive capital before any commercial market exists. The remaining conditions follow from these largely as consequences, admitting the compact statement
 

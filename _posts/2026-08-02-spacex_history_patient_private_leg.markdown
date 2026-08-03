@@ -73,7 +73,7 @@ The property is a property of the arrangement rather than of the investor, and t
 
 The legal apparatus that produces the constraint is documentary rather than theoretical, and identifying it precisely matters because the article's claim is that the constraint is manufactured. The entity is formed under a state statute, either the [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act] with the corporate provisions at the [Delaware General Corporation Law][ref_dgcl] governing the portfolio companies, or the [Texas Business Organizations Code][ref_texas_boc] following the reincorporation wave of the mid 2020s that the [Governance article A287][related_post_a287_spacex_governance] treats. Formation and standing are recorded through the [Delaware Division of Corporations][ref_delaware_division_corporations] and disputes are resolved before the [Delaware Court of Chancery][ref_delaware_chancery], whose [published opinions][ref_delaware_opinions] supply the operative interpretations of what a partnership agreement may and may not waive. The manager's obligations run through the [Investment Advisers Act][ref_investment_advisers_act] as amended by the [Dodd-Frank Wall Street Reform and Consumer Protection Act][ref_dodd_frank_2010], which withdrew the private-adviser exemption on which the industry had previously relied, and the investor-facing description of the resulting regime is published at [the Securities and Exchange Commission investor education service][ref_sec_investor_gov]. Every element of the constraint is therefore locatable in a statute, a partnership agreement, or a market convention, and none of it is a property of capital as such.
 
-The fund structure that generates the constraint admits compact description. A fund is a limited partnership with a stated term, an investment period during which capital is deployed, and a harvest period during which positions are realized and proceeds distributed. The general partner is compensated by a management fee on committed capital and a carried interest on realized gains. The carried-interest structure may be written
+The fund structure that generates the constraint permits compact description. A fund is a limited partnership with a stated term, an investment period during which capital is deployed, and a harvest period during which positions are realized and proceeds distributed. The general partner is compensated by a management fee on committed capital and a carried interest on realized gains. The carried-interest structure may be written
 
 $$\Pi^{\text{GP}} = f \cdot K^{\text{committed}} \cdot T^{\text{fund}} + c \cdot \left[ \sum_{i} \left( V^{\text{realized}}_i - K_i \right) \right]^{+}$$
 
@@ -85,7 +85,7 @@ $$\text{patience achievable} \iff \exists \; \text{realization path independent 
 
 with the existence of the path being the operative condition.
 
-The valuation step-up gives a partial substitute. A fund reports an unrealized position at a carrying value derived from the most recent round price, so that a rising valuation produces a reportable return that satisfies limited-partner expectations without any realization. The reported return admits the compact form
+The valuation step-up gives a partial substitute. A fund reports an unrealized position at a carrying value derived from the most recent round price, so that a rising valuation produces a reportable return that satisfies limited-partner expectations without any realization. The reported return takes the compact form
 
 $$\text{TVPI} = \frac{\sum_i V^{\text{carrying}}_i + \text{distributions}}{K^{\text{drawn}}}$$
 
@@ -125,7 +125,7 @@ $$T^{\text{effective commitment}} = \min_{n} \left\{ t_n \; : \; \text{continuat
 
 with the staged structure rendering the committed horizon equal to the interval to the next decision point rather than to the stated fund life. The instrument the literature treats as the principal protection against an adverse selection is therefore also the principal obstacle to a long-horizon commitment, and the literature does not generally note the second property because the ventures it studies do not require a long horizon.
 
-The corporate-finance tradition traces from [Myers 1977][research_myers_1977] Determinants of Corporate Borrowing through [Jensen and Meckling 1976][research_jensen_meckling_1976], [Jensen 1986][research_jensen_1986], [Fama and Jensen 1983][research_fama_jensen_1983], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure, and [Tirole 2006][book_tirole_2006]. The framing contributes the account of the claims each instrument creates and the reason a debt claim and an equity claim behave differently under a development delay. The difference admits the compact statement
+The corporate-finance tradition traces from [Myers 1977][research_myers_1977] Determinants of Corporate Borrowing through [Jensen and Meckling 1976][research_jensen_meckling_1976], [Jensen 1986][research_jensen_1986], [Fama and Jensen 1983][research_fama_jensen_1983], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure, and [Tirole 2006][book_tirole_2006]. The framing contributes the account of the claims each instrument creates and the reason a debt claim and an equity claim behave differently under a development delay. The difference has the concise statement
 
 $$\text{debt obligation} \; : \; \text{fixed in amount and date} \qquad \text{against} \qquad \text{equity claim} \; : \; \text{residual and undated}$$
 
@@ -235,7 +235,7 @@ The August 2008 investment constitutes the first substantial external capital an
 
 The macroeconomic setting is not incidental and is documented independently of any participant account. The [National Bureau of Economic Research][ref_nber] business-cycle chronology dates the contraction as beginning in December 2007 and continuing through June 2009, so the investment fell near the midpoint of the deepest financial dislocation of the period, and the contemporaneous deterioration in business conditions is recorded in the [Conference Board][ref_conference_board] indicator series. The observation cuts against the ordinary telling rather than supporting it. Capital was contracting across the whole venture market at the moment this position was taken, which means the transaction cannot be explained by an abundance of capital seeking risk and must be explained by something to the counterparties.
 
-The analytically interesting feature of the investment is the terms rather than the timing. The bargaining position at the moment admits the compact statement through the runway quantity
+The analytically interesting feature of the investment is the terms rather than the timing. The bargaining position at the moment permits the concise statement through the runway quantity
 
 $$T^{\text{runway}} = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}$$
 
@@ -255,7 +255,7 @@ with $\pi_m$ the probability that the reputation secures a future transaction $m
 
 The 2009 entry by the firm whose record appears at the [Draper Fisher Jurvetson][ref_dfj] archive extended the investor base and occurred after the fourth Falcon 1 flight had succeeded and the CRS-1 contract the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats had been awarded. The vehicle record is at the [fifth Falcon 1 flight of July 2009][ref_spacex_press_falcon1_flight5_2009], the programme record at the [NASA Commercial Resupply Services programme][ref_nasa_crs_program] and the broader [NASA commercial space programmes][ref_nasa_commercial_space_programs] and [NASA commercial space office][ref_nasa_commercial_space], and the award record is traceable through the [USAspending][ref_usaspending] and [Federal Procurement Data System][ref_fpds] databases, which supply obligation-level detail that no participant account does.
 
-The sequencing is analytically important and connects this article to the preceding one. The government award of the December 2008 period materially altered the risk profile the private investor evaluated, converting a venture with a demonstrated vehicle and no customer into a venture with both. The effect on the private capital cost admits the compact statement
+The sequencing is analytically important and connects this article to the preceding one. The government award of the December 2008 period materially altered the risk profile the private investor evaluated, converting a venture with a demonstrated vehicle and no customer into a venture with both. The effect on the private capital cost yields the compact statement
 
 $$r^{\text{private}}\big|_{\text{post-award}} < r^{\text{private}}\big|_{\text{pre-award}}$$
 
@@ -283,7 +283,7 @@ $$T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \
 
 with the condition satisfied without reference to the development schedule, the mission horizon, or any forecast whatever. The point deserves emphasis because it is the clearest instance in the article of the central claim. The balance-sheet holder is not more patient in any psychological sense than the venture fund. It is subject to a different instrument.
 
-The shift admits the compact statement as a change in the weighted average vehicle life across the investor base
+The shift allows the brief statement as a change in the weighted average vehicle life across the investor base
 
 $$\bar{T}^{\text{vehicle}}(t) = \sum_i w_i(t) \, T^{\text{vehicle}}_i \qquad \text{with} \qquad \frac{d \bar{T}^{\text{vehicle}}}{dt} > 0$$
 
@@ -349,7 +349,7 @@ with the two events rendered independent. The independence is what manufactures 
 
 The disclosure asymmetry the arrangement produces deserves statement alongside the mechanism itself. A holder crossing a beneficial-ownership threshold in a listed issuer files under [Schedule 13D][ref_schedule_13d] and the position becomes public, whereas the equivalent transfer in this arrangement generates no public filing at all beyond the exempt-offering notices at [Form D][ref_sec_form_d]. The consequence is that the identity and size of the incoming buyers at each occasion are unavailable to any outside party, including to the selling holders, and that the mechanism this article describes as manufacturing patience simultaneously withdraws from public view the transactions through which it operates. The [Delaware Court of Chancery][ref_delaware_chancery] supplies whatever after-the-fact scrutiny exists, and it operates only when a participant sues. The critical literature the Historiographical Gap section records treats this as the central objection, and the article regards the objection as correct on the facts while disputing that it is an argument against describing the mechanism accurately.
 
-The mechanism's availability conditions deserve statement, because they determine how far the arrangement generalizes. The mechanism requires a continuing supply of incoming investors willing to purchase at a rising price, which requires in turn that the firm's prospects continue to improve on the incoming investors' assessment. The condition admits the compact form
+The mechanism's availability conditions deserve statement, because they determine how far the arrangement generalizes. The mechanism requires a continuing supply of incoming investors willing to purchase at a rising price, which requires in turn that the firm's prospects continue to improve on the incoming investors' assessment. The condition takes the compact form
 
 $$\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}$$
 
@@ -369,7 +369,7 @@ $$T^{\text{closed-end venture fund}} < T^{\text{growth fund}} < T^{\text{open-en
 
 with the rightmost classes facing no stated term at all. The composition shift toward the right of the ordering reduced the aggregate pressure on the firm independently of the tender mechanism, and the two effects are complementary rather than substitutable.
 
-The dispersion admits measurement through a concentration index over the holdings, taking the compact form
+The dispersion allows measurement through a concentration index over the holdings, taking the compact form
 
 $$H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}$$
 
@@ -419,7 +419,7 @@ $$\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|
 
 with the delay converting directly into a missed payment under the first structure and into a deferred return under the second. The case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the primary record at the [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the proceeding conducted under the [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions and administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy]. The operator's own contemporaneous record survives at the [Iridium corporate news archive][ref_iridium_press_archive_1998] and the financial-press reconstruction of the 1999 failure at [Bloomberg][ref_bloomberg]. The successor entity continues to operate the constellation, which is the detail most often omitted from the citation of this case as a failure. The system worked. The capital structure did not.
 
-The comparison to the SpaceX financing is the cleanest available demonstration that the instrument matters more than the quantity. Both ventures raised large sums for a capital-intensive constellation. The one raised equity from holders who could wait and the other raised debt from holders who could not. The difference admits the compact statement
+The comparison to the SpaceX financing is the cleanest available demonstration that the instrument matters more than the quantity. Both ventures raised large sums for a capital-intensive constellation. The one raised equity from holders who could wait and the other raised debt from holders who could not. The difference has the concise statement
 
 $$\text{patience} = f\!\left( \text{claim type}, \; \text{vehicle life}, \; \text{realization path} \right)$$
 
@@ -503,7 +503,7 @@ $$\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listin
 
 with the first three terminating the private configuration and only the fourth preserving it. The enumeration clarifies what the SpaceX arrangement purchased, which is not liquidity as such but liquidity compatible with remaining private, and the [Governance article A287][related_post_a287_spacex_governance] establishes why remaining private was the objective. The firm also adopted a multi-class structure preserving founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes. The listing placed it inside the regime the private arrangement declines, comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual] standards, the [Regulation S-K][ref_sec_regulation_sk] disclosure obligations, and exposure to the [Council of Institutional Investors dual-class policy][ref_cii_dual_class] and the proxy-adviser recommendations at [Institutional Shareholder Services][ref_iss_governance] and [Glass Lewis][ref_glass_lewis]. The multi-class structure also carries index consequences under the [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji] methodologies, which have at points restricted inclusion of firms with unequal voting rights. The case therefore demonstrates that the fund-life constraint can be resolved by listing while retaining founder control, at the cost of accepting every scrutiny mechanism the private arrangement avoids, and the article declines to characterize that trade as favorable or unfavorable because the two configurations optimize different objectives.
 
-The Anduril case, documented through the [Anduril corporate record][ref_anduril], is the instance of a venture founded after the thesis had been articulated and funded by the investors who articulated it. The case is therefore not an independent confirmation of the thesis but a consequence of it, and the evidentiary weight it can bear is correspondingly limited. The distinction admits the compact statement
+The Anduril case, documented through the [Anduril corporate record][ref_anduril], is the instance of a venture founded after the thesis had been articulated and funded by the investors who articulated it. The case is therefore not an independent confirmation of the thesis but a consequence of it, and the evidentiary weight it can bear is correspondingly limited. The distinction permits the concise statement
 
 $$P\!\left( \text{funded} \mid \text{thesis held} \right) \neq P\!\left( \text{succeeds} \mid \text{funded} \right)$$
 
@@ -515,7 +515,7 @@ The broader comparison the advocacy draws treats the three ventures as instances
 
 The patient-private capital-formation mechanic can be compared with deep historical precedents in which private capital financed an undertaking across a horizon exceeding the ordinary commercial one.
 
-The chartered-company form yields the earliest systematic instance and is treated from other angles in the [Governance article A287][related_post_a287_spacex_governance] and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience]. The capital-formation reading is that the permanent joint-stock company solved precisely the problem this article treats, by permitting an investor to realize a position through a transfer to another investor rather than through a liquidation of the underlying venture. The innovation admits the compact statement in the terms this article uses throughout
+The chartered-company form yields the earliest systematic instance and is treated from other angles in the [Governance article A287][related_post_a287_spacex_governance] and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience]. The capital-formation reading is that the permanent joint-stock company solved precisely the problem this article treats, by permitting an investor to realize a position through a transfer to another investor rather than through a liquidation of the underlying venture. The innovation yields the compact statement in the terms this article uses throughout
 
 $$\text{voyage-terminated venture} \; : \; \text{realization} \equiv \text{exit} \qquad \text{against} \qquad \text{permanent joint stock} \; : \; \text{realization} \perp \text{exit}$$
 
@@ -609,7 +609,7 @@ Substantially every quantitative claim in this article rests on the trade-press 
 
 The contemporary landscape for the patient-private leg differs from that of the preceding legs because the mechanism the article identifies is available to a small number of ventures rather than to a category.
 
-Blue Origin occupies the configuration in which the patient-private leg is unnecessary, because the single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats contributes the capital directly from a balance sheet with no fund life and no realization requirement. The configuration satisfies the duration condition trivially and dispenses with the dilution entirely, at the cost of the dependence on a single source. The trade admits the compact statement in the terms the article uses
+Blue Origin occupies the configuration in which the patient-private leg is unnecessary, because the single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats contributes the capital directly from a balance sheet with no fund life and no realization requirement. The configuration satisfies the duration condition trivially and dispenses with the dilution entirely, at the cost of the dependence on a single source. The trade allows the brief statement in the terms the article uses
 
 $$T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{purchased at} \quad H = 1$$
 
@@ -678,7 +678,7 @@ $$\text{observed patience} = \underbrace{\text{willingness}}_{\text{conviction f
 
 with the conjunction requiring both conjuncts and the conviction account supplying only the first. The article treats the structural framing as a complement rather than as a replacement, and the OneWeb case is the demonstration that the first conjunct alone is insufficient.
 
-The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] treats the general partner as an agent of the limited partners and the fund-life constraint as a bonding mechanism that exists precisely to prevent the general partner from holding indefinitely. Under the framing, the mechanism this article describes as manufacturing patience is a circumvention of a control designed to protect the limited partners, and whether it benefits them is an empirical question the article cannot answer. The question admits compact statement without admitting resolution
+The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] treats the general partner as an agent of the limited partners and the fund-life constraint as a bonding mechanism that exists precisely to prevent the general partner from holding indefinitely. Under the framing, the mechanism this article describes as manufacturing patience is a circumvention of a control designed to protect the limited partners, and whether it benefits them is an empirical question the article cannot answer. The question supports compact statement without admitting resolution
 
 $$\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]$$
 
@@ -706,7 +706,7 @@ The political-economy and developmental-state framing developed in [Mazzucato 20
 
 The organizational-capability framing developed in [Penrose 1959][book_penrose_1959], [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Teece 1986][research_teece_1986], [March 1991][research_march_1991], and [Nelson and Winter 1982][book_nelson_winter_1982] treats capital as the non-binding constraint and managerial attention as the binding one. Under the framing the entire subject of this article is a solved problem after some date and the interesting question moves elsewhere, which the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] develops. The framing is a useful corrective to the financing-centric reading this article necessarily adopts.
 
-The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the selection caution, which is unusually sharp here because the mechanism the article identifies operates only in favorable states and is therefore present in substantially every surviving case and absent from substantially every failed one by construction. The hazard admits the compact statement
+The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the selection caution, which is unusually sharp here because the mechanism the article identifies operates only in favorable states and is therefore present in substantially every surviving case and absent from substantially every failed one by construction. The hazard takes the compact statement
 
 $$P\!\left( \text{mechanism observed} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \text{mechanism observed} \right) \; \text{remains unidentified}$$
 
@@ -732,7 +732,7 @@ Fifth, the control configuration must survive the cumulative dilution, which is 
 
 The five are stated as a conjunction and written as a product, and both the statement and the notation carry an independence assumption the Adverse-State Financing Regime section shows to be false. An adverse state withdraws the realization path, degrades the claim type through the preference structure that adverse-state instruments carry, and concentrates the holder base through the participation provisions those instruments impose. Three of the five therefore fail together on a single common cause. The product form should be read as a diagnostic checklist, in which each component is a question worth asking separately, and not as a probability model, in which the components could be multiplied. A reader estimating the likelihood that a candidate venture satisfies all five should expect the joint probability to be substantially below the product of the marginals.
 
-The mechanic admits a diagnostic procedure stated as an ordered test vector
+The mechanic permits a diagnostic procedure stated as an ordered test vector
 
 $$\tau = \left( \text{claim residual}, \;\; T^{\text{vehicle}} \geq T^{\text{holding}}, \;\; \text{realization} \perp \text{exit}, \;\; \text{base dispersed}, \;\; v^{\text{founder}} > \tfrac{1}{2} \right)$$
 

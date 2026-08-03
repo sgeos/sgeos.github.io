@@ -33,13 +33,13 @@ $$s(t) = \frac{q^{\text{internal}}(t)}{q^{\text{total}}(t)} \qquad \text{with} \
 
 with the date at which the majority of the firm's own launches served its own constellation being the point at which the launch business ceased to be primarily a merchant business. The quantity is reconstructible from public launch manifests and is one of the few claims in this article that does not depend on unpublished financial data. The manifest record is traceable through the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast] licensing file and its [licensing regulations][ref_faa_ast_regulations], with the sector compilations at [Space Capital][ref_space_capital] and [BryceTech][ref_bryce_tech] and the programme history at [NASA history][ref_nasa_history]. The scholarly outlets in which such reconstructions are published are surveyed at [SSRN][ref_ssrn].
 
-The relation among the three capital-formation legs admits compact statement as a decomposition of the external requirement
+The relation among the three capital-formation legs permits compact statement as a decomposition of the external requirement
 
 $$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
 
 with the government term the subject of the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg], the residual met by the private leg the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] describes, and the third term the subject of this article. The three legs are therefore not parallel alternatives but terms in a single budget identity, and the sequence in which they arrived is the sequence in which each became available.
 
-The identification problem is the counterfactual, and it admits the compact form
+The identification problem is the counterfactual, and it takes the compact form
 
 $$\Delta V^{\text{spinoff}}(t) = V^{\text{observed}}(t) - V^{\text{no spinoff counterfactual}}(t)$$
 
@@ -111,7 +111,7 @@ after which external capital becomes optional. The article's position is that th
 
 ## Cross-Disciplinary Framings
 
-The commercial-spinoff property admits characterization from several disciplinary traditions beyond the mission-oriented-innovation framework the series adopts as primary.
+The commercial-spinoff property allows characterization from several disciplinary traditions beyond the mission-oriented-innovation framework the series adopts as primary.
 
 The vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1971][research_williamson_1971], [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], and [Grossman and Hart 1986][research_grossman_hart_1986]. The framing provides the account of when a firm should make rather than buy, and its contribution here is to identify the condition the case satisfies. The ordinary condition compares costs and may be written
 
@@ -123,7 +123,7 @@ $$\text{make} \iff \nexists \; \text{supplier with} \; \dot{q}^{\text{available}
 
 with the make decision following from supply unavailability rather than from a cost comparison. The distinction matters because it means the integration would have been correct even had it been more expensive than buying, which is not the case the transaction-cost literature ordinarily treats.
 
-The appropriability tradition traces from [Teece 1986][research_teece_1986] Profiting from Technological Innovation. The framing is the most directly applicable of any in this survey. It holds that an innovator captures value only where it controls the complementary assets an innovation requires, and it identifies launch capacity as precisely such an asset for a constellation business. The captured share admits the compact form
+The appropriability tradition traces from [Teece 1986][research_teece_1986] Profiting from Technological Innovation. The framing is the most directly applicable of any in this survey. It holds that an innovator captures value only where it controls the complementary assets an innovation requires, and it identifies launch capacity as precisely such an asset for a constellation business. The captured share has the concise form
 
 $$\sigma^{\text{innovator}} = \sigma\!\left( \text{control of complementary assets}, \; \text{strength of the appropriability regime} \right)$$
 
@@ -231,7 +231,7 @@ with the density rising toward $|\lambda| \to i$ and vanishing beyond it. Covera
 
 The internal transfer price is the quantity on which every financial claim about the spinoff depends, and it is unobservable.
 
-The parent supplies launch services to the spinoff and the spinoff provides revenue to the consolidated entity. The price at which the internal transaction is recorded determines how the consolidated profit is attributed between the two, and it determines nothing about the consolidated profit itself. The identity admits the compact form
+The parent supplies launch services to the spinoff and the spinoff provides revenue to the consolidated entity. The price at which the internal transaction is recorded determines how the consolidated profit is attributed between the two, and it determines nothing about the consolidated profit itself. The identity permits the concise form
 
 $$\Pi^{\text{consolidated}} = \Pi^{\text{launch}}\!\left( p^{\text{transfer}} \right) + \Pi^{\text{constellation}}\!\left( p^{\text{transfer}} \right) \qquad \text{with} \qquad \frac{\partial \Pi^{\text{consolidated}}}{\partial p^{\text{transfer}}} = 0$$
 
@@ -271,7 +271,7 @@ $$\dot{N}^{\text{replenish}} \; > \; \dot{N}^{\text{global commercial, pre-progr
 
 with the steady-state obligation of a single constellation exceeding what the entire world launch industry had previously demonstrated. The comparison establishes that the capability had to be created rather than procured and is the quantitative form of the supply-unavailability condition the vertical-integration framing states. The vehicle set through which the cadence was delivered is documented at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], the [Falcon Heavy vehicle page][ref_spacex_falcon_heavy_vehicle] and its [first flight record][ref_spacex_press_falcon_heavy_2018], and the [Starship programme page][ref_spacex_starship_program], with the site environmental approvals at the [Starship programmatic environmental assessment][ref_faa_starship_pea]. Systems-engineering practice for programmes of this class is documented in the [NASA programme management requirements][ref_nasa_npr_7120_5f] and the [International Council on Systems Engineering handbook][ref_incose_handbook], and the technical literature appears in the [Journal of Spacecraft and Rockets][ref_aiaa_jsr] and the [Journal of Propulsion and Power][ref_aiaa_jpp].
 
-The coupling runs in both directions and that is what makes it consequential. The constellation offers the launch business with a demand stream large enough to justify the cadence, and the cadence drives the reuse experience that the [Decomposability article A285][related_post_a285_spacex_decomposability] and the [Value Gradient article A282][related_post_a282_spacex_value_gradient] identify as the source of cost reduction. The learning relationship admits the conventional form
+The coupling runs in both directions and that is what makes it consequential. The constellation offers the launch business with a demand stream large enough to justify the cadence, and the cadence drives the reuse experience that the [Decomposability article A285][related_post_a285_spacex_decomposability] and the [Value Gradient article A282][related_post_a282_spacex_value_gradient] identify as the source of cost reduction. The learning relationship supports the conventional form
 
 $$c_n = c_1 \cdot n^{-\beta}$$
 
@@ -279,7 +279,7 @@ with $c_n$ the cost at cumulative flight $n$ and $\beta$ the learning exponent. 
 
 $$\dot{N}^{\ast} = \Psi\!\left( c\big( \dot{N}^{\ast} \big) \right) \qquad \text{with} \qquad \Psi' < 0 \;\; \text{and} \;\; c' < 0$$
 
-with the composition increasing, so that the system admits a self-reinforcing equilibrium at high cadence and low cost rather than converging to the industry's prior operating point. The structure is the mechanical core of the case and it is what the ordinary account of a launch company entering telecommunications entirely omits. The reuse record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle] and the milestone sequence at the [first booster landing][ref_spacex_press_falcon9_first_landing_2015], the [first reflight][ref_spacex_press_ses10_2017], and the [Block 5 introduction][ref_spacex_press_block5_bangabandhu_2018].
+with the composition increasing, so that the system permits a self-reinforcing equilibrium at high cadence and low cost rather than converging to the industry's prior operating point. The structure is the mechanical core of the case and it is what the ordinary account of a launch company entering telecommunications entirely omits. The reuse record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle] and the milestone sequence at the [first booster landing][ref_spacex_press_falcon9_first_landing_2015], the [first reflight][ref_spacex_press_ses10_2017], and the [Block 5 introduction][ref_spacex_press_block5_bangabandhu_2018].
 
 The self-reinforcing structure is the strongest available argument that the spinoff was not a diversification. A diversification consumes the parent's resources. This arrangement improved the parent's core economics as a direct consequence of consuming its output.
 
@@ -293,7 +293,7 @@ $$R^{\text{consumer}}(t) = n^{\text{sub}}(t) \cdot \text{ARPU} + R^{\text{hardwa
 
 with the hardware term historically negative or near zero, because terminals were supplied below manufacturing cost as a subscriber-acquisition expense. The negative hardware margin is a conventional subscription-business structure and is the reason early revenue figures understate the eventual contribution.
 
-The segment composition matters more than the aggregate. Consumer broadband carries the lowest revenue per unit of capacity, while maritime, aviation, enterprise, and government services carry substantially higher figures for the same bandwidth. The blended figure admits the form
+The segment composition matters more than the aggregate. Consumer broadband carries the lowest revenue per unit of capacity, while maritime, aviation, enterprise, and government services carry substantially higher figures for the same bandwidth. The blended figure allows the form
 
 $$\text{ARPU}^{\text{blended}} = \sum_j w_j \cdot \text{ARPU}_j \qquad \text{with} \qquad \frac{d}{dt} w^{\text{high-value}} > 0$$
 
@@ -311,7 +311,7 @@ The service was announced through a carrier partnership in 2022 and developed th
 
 The arrangement differs from the broadband business in three respects the article regards as material. The first is that it uses terrestrial mobile spectrum licensed to the carrier rather than spectrum licensed to the satellite operator, which makes the carrier relationship a legal necessity rather than a distribution convenience. The second is that it requires no customer equipment whatever, which removes the terminal cost that constrains broadband subscriber acquisition. The third is that it is genuinely two-sided in the sense the platform tradition describes, because the value to a carrier rises with coverage and the value to a subscriber rises with carrier participation.
 
-The spectrum arrangement admits the compact statement
+The spectrum arrangement yields the compact statement
 
 $$\text{service} = f\!\left( \text{satellite capability}, \; \text{carrier spectrum rights} \right)$$
 
@@ -421,7 +421,7 @@ with the value collapsing to zero on failure rather than degrading gracefully. T
 
 The constellation imposes costs on other operators and on future entrants that it does not bear, and the article states the externality plainly rather than treating it as a critics' talking point.
 
-The debris and conjunction regime is documented at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [orbital debris mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], with the economic treatments at [Adilov Alexander and Cunningham 2014][research_adilov_et_al_2014] and [Weeden and Chow 2012][research_weeden_chow_2012]. The externality admits the compact statement
+The debris and conjunction regime is documented at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [orbital debris mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], with the economic treatments at [Adilov Alexander and Cunningham 2014][research_adilov_et_al_2014] and [Weeden and Chow 2012][research_weeden_chow_2012]. The externality allows the brief statement
 
 $$\frac{\partial \, \text{collision risk}_j}{\partial \, S_i} > 0 \qquad \text{with the cost borne by } j \neq i$$
 
@@ -447,7 +447,7 @@ $$\Delta C^{\text{1990s programmes}} = N \cdot m \qquad \text{with} \qquad N \si
 
 with the full external margin incurred across every launch of the deployment. The record is at the [Iridium corporate archive][ref_iridium_press_archive_1998], the [Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, and the case treatments at [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] and [Zimmerman 2011][research_zimmerman_2011].
 
-The second and less frequently noted contrast concerns the market rather than the cost. Both programmes targeted voice telephony against a terrestrial cellular buildout that expanded faster than either anticipated, so that the addressable market contracted during deployment. The failure mode admits the compact statement as a race between deployment and market erosion
+The second and less frequently noted contrast concerns the market rather than the cost. Both programmes targeted voice telephony against a terrestrial cellular buildout that expanded faster than either anticipated, so that the addressable market contracted during deployment. The failure mode takes the compact statement as a race between deployment and market erosion
 
 $$\frac{d M^{\text{addressable}}}{dt} < 0 \qquad \text{while} \qquad S < S^{\ast}$$
 
@@ -465,7 +465,7 @@ with each condition raising the probability of the next. The [Patient-Private Ca
 
 The Amazon programme contributes the comparison the article regards as most informative, because the sponsor's capital position removes the financing constraint entirely and isolates the launch-supply variable. A programme financed from a balance sheet of that scale cannot fail for want of capital, so its outcome tests the launch-supply proposition specifically. The programme has contracted launch capacity from multiple providers including, notably, the parent firm this article treats, and the sector record is at [SpaceNews][ref_spacenews], [Ars Technica space coverage][ref_arstechnica_space], and [Space Policy Online][ref_space_policy_online].
 
-The comparison admits the compact statement as a controlled contrast
+The comparison has the concise statement as a controlled contrast
 
 $$\left\{ \text{capital} \right\} \; \text{held approximately constant}, \qquad \left\{ \text{captive launch} \right\} \; \text{varied}$$
 
@@ -505,7 +505,7 @@ The evidentiary position of this section is weak in the same way the A290 advers
 
 ## Deep Historical Comparative Precedents
 
-The category-dominating spinoff mechanic admits comparison with historical precedents in which a firm built a business on top of a capability developed for another purpose.
+The category-dominating spinoff mechanic supports comparison with historical precedents in which a firm built a business on top of a capability developed for another purpose.
 
 The Standard Oil consolidation supplies the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The relevant parallel is the vertical control of transport, because the firm's position rested substantially on rail and pipeline arrangements that competitors could not obtain on comparable terms. The structural identity with the present case may be stated compactly
 
@@ -629,7 +629,7 @@ The scarcity of the configuration is best appreciated against the historical alt
 
 ## Comparative Cross-Sectional Analysis
 
-The commercial-spinoff leg admits application to the venture set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector admits the compact form
+The commercial-spinoff leg admits application to the venture set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector permits the concise form
 
 $$\boldsymbol{\phi}_j^{\text{spinoff}} \in \{0,1\}^{5}$$
 
@@ -686,7 +686,7 @@ $$T^{\text{asset life, conventional utility}} \sim 10^{1} \; \text{to} \; 10^{2}
 
 with the conventional natural monopoly resting on an asset base that outlives any plausible entrant response and this one resting on an asset base that does not. The finite resource here is spectrum priority rather than infrastructure, and priority is a legal position that an administration can in principle revisit.
 
-The commons framing treats the orbital environment as a shared resource being appropriated without compensation and generates the strongest available critique. The article accepts the framing's factual premise. The allocation the framing would require admits the compact statement as a corrective price
+The commons framing treats the orbital environment as a shared resource being appropriated without compensation and generates the strongest available critique. The article accepts the framing's factual premise. The allocation the framing would require yields the compact statement as a corrective price
 
 $$p^{\text{orbital}}_i = \sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}$$
 
@@ -710,7 +710,7 @@ The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winte
 
 ## Pattern Extraction
 
-The category-dominating commercial spinoff pattern that the SpaceX case exhibits admits the following abstract statement without naming any downstream application. A mission-directed technology venture achieves the commercial-spinoff closure when it builds a downstream business that consumes its own principal output at marginal cost, in a market whose value depends on a deployment threshold the venture's own capacity allows it to reach faster than any competitor, and at a scale whose retained earnings exceed the mission burn.
+The category-dominating commercial spinoff pattern that the SpaceX case exhibits permits the following abstract statement without naming any downstream application. A mission-directed technology venture achieves the commercial-spinoff closure when it builds a downstream business that consumes its own principal output at marginal cost, in a market whose value depends on a deployment threshold the venture's own capacity allows it to reach faster than any competitor, and at a scale whose retained earnings exceed the mission burn.
 
 The abstract mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
@@ -726,13 +726,13 @@ Fourth, the position must be protected by a priority rule the venture can satisf
 
 Fifth, the resulting earnings must reach the scale of the mission burn, since a profitable spinoff below that scale improves the financial position without closing the capital-formation problem.
 
-The mechanic admits a diagnostic procedure stated as an ordered test vector
+The mechanic allows a diagnostic procedure stated as an ordered test vector
 
 $$\tau = \left( \text{input captive}, \;\; q^{\text{external}} < \bar{q}, \;\; \text{threshold market}, \;\; \text{priority attainable}, \;\; R \geq B \right)$$
 
 with the first component the one a candidate case will usually fail and the fifth the one an assessment will usually assert without evidence.
 
-The mechanic carries a limitation the statement should not conceal. The arrangement converts a capital asset into a consumable, because the downstream business imposes a permanent replenishment obligation that scales with its own size. The limitation admits the compact statement
+The mechanic carries a limitation the statement should not conceal. The arrangement converts a capital asset into a consumable, because the downstream business imposes a permanent replenishment obligation that scales with its own size. The limitation allows the brief statement
 
 $$\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}} \qquad \text{rather than} \qquad \text{durability} \to \infty$$
 
