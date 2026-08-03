@@ -37,13 +37,13 @@ $$e^{\text{founder}}_n = e^{\text{founder}}_{n-1} \left( 1 - \delta_n \right) \q
 
 with the product declining monotonically in the round count. Under a one-share-one-vote configuration the voting share follows the identical recursion, and the control condition therefore fails at a finite round count determined by the initial share and the per-round dilution. Under a dual-class configuration in which the issued shares carry inferior voting rights, the voting recursion decouples from the cash-flow recursion, and the control condition can hold for arbitrarily large $N$.
 
-The decoupling admits the compact statement
+The decoupling takes the compact statement
 
 $$\frac{\partial v^{\text{founder}}}{\partial \delta_n} \approx 0 \qquad \text{while} \qquad \frac{\partial e^{\text{founder}}}{\partial \delta_n} < 0$$
 
 with the voting share substantially insensitive to the dilution that the cash-flow share absorbs. The decoupling is the whole of the technical content of the dual-class instrument, and the remainder of the analytical question concerns what the decoupling is used for.
 
-The capital-capture event that the condition is designed to prevent admits definition as a change in the mission objective attributable to the preferences of the capital providers. Let $M(t)$ denote the mission objective and let $\mathcal{F}_t$ denote the information available at time $t$. The capture indicator admits the compact form
+The capital-capture event that the condition is designed to prevent permits definition as a change in the mission objective attributable to the preferences of the capital providers. Let $M(t)$ denote the mission objective and let $\mathcal{F}_t$ denote the information available at time $t$. The capture indicator has the concise form
 
 $$\kappa(t) = \mathbb{1}\!\left[ M(t) \neq M(t^-) \; \wedge \; \Delta M \in \arg\max_{M'} \sum_{i \neq \text{founder}} e_i \cdot U_i(M') \right]$$
 
@@ -75,7 +75,7 @@ The seventh commitment is thesis-not-proof framing of the governance closure cla
 
 ## Governance as an Economic Property
 
-The governance property is treated in the article as an economic property of a firm's control allocation that distinguishes ventures able to sustain a mission objective across an extended financing sequence from ventures whose objective is reset by the preferences of whichever capital providers hold the decisive claim at each stage. The property admits formal characterization, measurement, and comparison across firms and legal regimes.
+The governance property is treated in the article as an economic property of a firm's control allocation that distinguishes ventures able to sustain a mission objective across an extended financing sequence from ventures whose objective is reset by the preferences of whichever capital providers hold the decisive claim at each stage. The property allows formal characterization, measurement, and comparison across firms and legal regimes.
 
 The formal characterization begins from the separation of the two rights that a share ordinarily bundles. The cash-flow right entitles the holder to a fraction of the residual, and the control right entitles the holder to a fraction of the decision authority. The aggregate identities are
 
@@ -149,7 +149,7 @@ $$\frac{\partial q}{\partial w} < 0 \qquad \text{and} \qquad \frac{\partial^2 q}
 
 with $q$ a valuation ratio, $w$ the wedge, and $\tau$ the time since listing. The SpaceX case lies outside the estimation sample because the firm has never listed, and the applicability of the finding to an unlisted firm is precisely the question the article must address rather than assume.
 
-The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the control terms as the outcome of a negotiation between the founder and the investors whose outcome depends on the outside options each party holds. The split admits the compact form
+The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the control terms as the outcome of a negotiation between the founder and the investors whose outcome depends on the outside options each party holds. The split permits the concise form
 
 $$\left( u^{\text{founder}}, u^{\text{investor}} \right) = \arg\max \left( u^{\text{founder}} - d^{\text{founder}} \right)^{\beta} \left( u^{\text{investor}} - d^{\text{investor}} \right)^{1-\beta}$$
 
@@ -221,7 +221,7 @@ $$w^{\text{founder}} = \frac{v^{\text{founder}}}{e^{\text{founder}}} \approx \fr
 
 and to a control condition satisfied with substantial margin. Both figures are reconstructive estimates drawn from the trade-press reporting and investor communications rather than from any disclosure, and the precise class structure and the per-class voting ratios are not public. The reported reincorporation of the firm from the state of Delaware to the state of Texas in the 2024 period, which the [Texas Business Organizations Code][ref_texas_boc] would govern, is reported rather than documented in a public filing available to the article, and the corresponding registry is the [Texas Secretary of State][ref_texas_sos]. The corporate identity and the public-facing corporate materials appear at the [SpaceX corporate site][ref_spacex_company].
 
-The general form of the two-class arrangement admits compact statement. Let $n_A$ and $n_B$ denote the share counts of the superior and inferior classes and let $\lambda$ denote the votes per superior share with the inferior share carrying one vote. The voting share of a holder of the entire superior class is
+The general form of the two-class arrangement supports compact statement. Let $n_A$ and $n_B$ denote the share counts of the superior and inferior classes and let $\lambda$ denote the votes per superior share with the inferior share carrying one vote. The voting share of a holder of the entire superior class is
 
 $$v = \frac{\lambda \, n_A}{\lambda \, n_A + n_B}$$
 
@@ -245,7 +245,7 @@ The analytically important feature of the sequence is not the valuation trajecto
 
 $$K^{\text{cumulative}} = \sum_{n=1}^{N} k_n$$
 
-and the cumulative voting transferred admits the compact form
+and the cumulative voting transferred yields the compact form
 
 $$\Delta v^{\text{transferred}} = \sum_{n=1}^{N} \Delta v_n \approx 0$$
 
@@ -291,7 +291,7 @@ The firm has conducted periodic tender offers, reported at approximately semi-an
 
 The problem the mechanism solves is that a private firm's equity compensation is illiquid, and that the illiquidity becomes intolerable to employees as the holding period extends across the decade-scale horizon a mission-directed venture requires. The ordinary solution is a public listing, which provides the liquidity and simultaneously transfers the governance obligations that the condition seeks to avoid. The tender-offer mechanism decouples the two.
 
-The decoupling admits the compact statement. Let $L$ denote the liquidity supplied to existing holders and let $G$ denote the governance obligations incurred. A public listing produces
+The decoupling allows the brief statement. Let $L$ denote the liquidity supplied to existing holders and let $G$ denote the governance obligations incurred. A public listing produces
 
 $$\left( L^{\text{IPO}}, \; G^{\text{IPO}} \right) \qquad \text{with both terms large}$$
 
@@ -325,7 +325,7 @@ with the two premia compensating the investor for the absence of a liquid market
 
 The second determinant is the governance obligation a listing imposes. The obligations comprise the periodic disclosure and the internal-control attestation that the [Sarbanes-Oxley Act of 2002][ref_sarbanes_oxley_2002] imposes, the quarterly earnings cycle, the proxy access through which shareholders present proposals under [Rule 14a-8][ref_rule_14a8], the say-on-pay advisory vote that the [Dodd-Frank Act of 2010][ref_dodd_frank_2010] introduced, the beneficial-ownership disclosure on [Schedule 13D][ref_schedule_13d] that makes an accumulating position visible, the listing standards that the [NYSE Listed Company Manual][ref_nyse_listed_company_manual] and the [Nasdaq listing rules][ref_nasdaq_listing_rules] impose, the market for corporate control that [Manne 1965][research_manne_1965] Mergers and the Market for Corporate Control describes, and the exposure to activist campaigns. The obligations are individually survivable under a dual-class structure and jointly constitute an ongoing constraint that an unlisted firm does not face.
 
-The third determinant is to the mission-directed case. The disclosure obligation would require the firm to publish the cost and schedule performance of a development program whose difficulties are severe and whose timeline is long. The publication would supply the raw material for a narrative of failure at each intermediate setback, and the narrative would in turn affect the cost of capital and the customer relationships. The effect admits the compact statement
+The third determinant is to the mission-directed case. The disclosure obligation would require the firm to publish the cost and schedule performance of a development program whose difficulties are severe and whose timeline is long. The publication would supply the raw material for a narrative of failure at each intermediate setback, and the narrative would in turn affect the cost of capital and the customer relationships. The effect takes the compact statement
 
 $$\text{Var}\!\left[ V^{\text{market}} \mid \text{disclosed} \right] \gg \text{Var}\!\left[ V^{\text{market}} \mid \text{undisclosed} \right]$$
 
@@ -373,7 +373,7 @@ The structural conditions that produced the outcome admit compact statement. Let
 
 $$\theta \cdot \alpha < \bar{\tau}$$
 
-for a threshold $\bar{\tau}$ determined by the switching costs the personnel would face. A research organization whose value is substantially its researchers and whose researchers hold substantial equity-linked claims sits far above the threshold. The condition is not a defect of the particular board or the particular individuals, and a differently composed board facing the identical conditions would have faced the identical outcome. The coordination structure that produced the rapid reversal admits the compact statement as a threshold model in which each individual departs once a sufficient fraction of colleagues has committed to depart
+for a threshold $\bar{\tau}$ determined by the switching costs the personnel would face. A research organization whose value is substantially its researchers and whose researchers hold substantial equity-linked claims sits far above the threshold. The condition is not a defect of the particular board or the particular individuals, and a differently composed board facing the identical conditions would have faced the identical outcome. The coordination structure that produced the rapid reversal has the concise statement as a threshold model in which each individual departs once a sufficient fraction of colleagues has committed to depart
 
 $$\text{depart}_i \iff f^{\text{committed}} \geq \theta_i$$
 
@@ -417,7 +417,7 @@ The comparison establishes that the SpaceX configuration is not simply an expres
 
 The foundation-ownership arrangements of the German and Danish industrial tradition constitute the longest-running experiments in a control configuration insulated from the capital market. The arrangements are the positive precedents for the governance condition, and they are the only available evidence on the question of whether a capture-resistant configuration can persist beyond the lifetime of the founder.
 
-The Carl Zeiss Stiftung established in the 1889 period by the physicist Ernst Abbe, with the governing statute completed in the 1896 period, is the earliest of the arrangements. The founder transferred the ownership of the optical works to a foundation whose statute defined the purposes and constrained the successors, and the foundation remains the owner of the Carl Zeiss and Schott enterprises at the drafting date. The record is accessible through the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung] documentation and the [Carl Zeiss corporate][ref_zeiss_corporate] materials, and the German legal form within which the arrangement operates is governed by the [Aktiengesetz][ref_german_aktiengesetz] provisions on share classes and corporate organs. The statute is analytically remarkable because it constrained the foundation itself rather than merely establishing it, prohibiting family control, fixing labor conditions including a limited working day and a pension provision, and specifying that no individual could derive a personal claim from the enterprise. The instrument is therefore a commitment device operating against the founder's own successors as much as against the external capital market. The statutory constraint admits the compact form
+The Carl Zeiss Stiftung established in the 1889 period by the physicist Ernst Abbe, with the governing statute completed in the 1896 period, is the earliest of the arrangements. The founder transferred the ownership of the optical works to a foundation whose statute defined the purposes and constrained the successors, and the foundation remains the owner of the Carl Zeiss and Schott enterprises at the drafting date. The record is accessible through the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung] documentation and the [Carl Zeiss corporate][ref_zeiss_corporate] materials, and the German legal form within which the arrangement operates is governed by the [Aktiengesetz][ref_german_aktiengesetz] provisions on share classes and corporate organs. The statute is analytically remarkable because it constrained the foundation itself rather than merely establishing it, prohibiting family control, fixing labor conditions including a limited working day and a pension provision, and specifying that no individual could derive a personal claim from the enterprise. The instrument is therefore a commitment device operating against the founder's own successors as much as against the external capital market. The statutory constraint permits the concise form
 
 $$\mathcal{A}^{\text{permitted}} = \mathcal{A} \setminus \mathcal{A}^{\text{prohibited by statute}}$$
 
@@ -427,7 +427,7 @@ The Robert Bosch arrangement gives the cleanest available separation of the two 
 
 $$w^{\text{foundation}} = \frac{0.0001}{0.94} \approx 0.0001 \qquad \text{and} \qquad w^{\text{trust}} = \frac{0.93}{0.0001} \approx 9300$$
 
-with the separation approaching the theoretical limit in both directions. The arrangement demonstrates that the wedge admits values orders of magnitude beyond anything a dual-class listed company exhibits, and that a configuration at that extreme has operated a major industrial enterprise across approximately six decades without the expropriation the agency tradition predicts.
+with the separation approaching the theoretical limit in both directions. The arrangement demonstrates that the wedge permits values orders of magnitude beyond anything a dual-class listed company exhibits, and that a configuration at that extreme has operated a major industrial enterprise across approximately six decades without the expropriation the agency tradition predicts.
 
 The Novo Nordisk arrangement places the Novo Nordisk Foundation, through the Novo Holdings entity, in control of the operating company by means of a two-class share structure in which the superior class carries a tenfold voting right. The reported position is approximately 28 percent of the capital and approximately 77 percent of the votes, corresponding to
 
@@ -449,7 +449,7 @@ The literature on the arrangements is thinner than their significance warrants, 
 
 The sub-property the cross-sectional analysis identifies as unsatisfied deserves treatment on its own terms, because it is the respect in which the configuration differs from every arrangement that has demonstrated centurial persistence.
 
-The policy literature that [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] represents proposes the sunset provision as the remedy for the perpetual dual-class structure. A sunset converts the superior class to an ordinary class upon a triggering event, which may be the passage of a fixed interval, the death or incapacity of the founder, the transfer of the shares outside a permitted class of holders, or the decline of the founder's economic stake below a threshold. The instrument admits the compact statement as a stopping time
+The policy literature that [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] represents proposes the sunset provision as the remedy for the perpetual dual-class structure. A sunset converts the superior class to an ordinary class upon a triggering event, which may be the passage of a fixed interval, the death or incapacity of the founder, the transfer of the shares outside a permitted class of holders, or the decline of the founder's economic stake below a threshold. The instrument yields the compact statement as a stopping time
 
 $$\lambda^{\text{effective}}(t) = \lambda \cdot \mathbb{1}\!\left[ t < T^{\text{sunset}} \right] + 1 \cdot \mathbb{1}\!\left[ t \geq T^{\text{sunset}} \right]$$
 
@@ -469,7 +469,7 @@ The analytical significance of the open question is that it determines which of 
 
 ## Deep Historical Comparative Precedents
 
-The governance mechanic admits comparison with deep historical precedents that establish the property as a recurring feature of enterprises pursuing objectives beyond the horizon of their capital providers.
+The governance mechanic allows comparison with deep historical precedents that establish the property as a recurring feature of enterprises pursuing objectives beyond the horizon of their capital providers.
 
 The chartered-company form of the early modern period constitutes the origin of the problem. The English and Dutch East India Companies separated the ownership from the control at a scale and across a distance that made the agency problem acute, and the governance instruments the companies developed comprise the earliest systematic attempts at its solution. The treatments in [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution of the Seventeenth Century, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World document the arrangements. The relevance to the present case is that the chartered form was created precisely to permit an enterprise requiring capital beyond any individual's means to pursue an objective across a horizon longer than any individual investment, which is the problem the governance condition restates.
 
@@ -497,7 +497,7 @@ The Iridium case contributes the instance in which a governance structure permit
 
 The research-university and national-laboratory forms supply the institutional precedent for a long-horizon research enterprise governed without a residual claimant at all. The treatments in [Selznick 1949][book_selznick_1949] TVA and the Grass Roots, [Hargrove 1994][book_hargrove_1994] Prisoners of Myth, [Norberg and O'Neill 1996][book_norberg_oneill_1996] Transforming Computer Technology, and [Bonvillian 2018][research_bonvillian_2018] on the DARPA institutional configuration document the arrangements. The goal-displacement failure mode that [Selznick 1949][book_selznick_1949] names is the canonical statement of what the governance condition seeks to prevent, and the fact that it was named in a study of a public agency rather than of a firm establishes that the hazard is not to the capital market.
 
-The precedent set admits summary through a comparison of the hazard rates governing the loss of the configuration. Let $h_c(t)$ denote the instantaneous hazard for the class $c$. The ordering the record supports is
+The precedent set supports summary through a comparison of the hazard rates governing the loss of the configuration. Let $h_c(t)$ denote the instantaneous hazard for the class $c$. The ordering the record supports is
 
 $$h^{\text{foundation}} < h^{\text{family dual class}} < h^{\text{founder dual class}} < h^{\text{regulated monopoly}}$$
 
@@ -569,7 +569,7 @@ The adjacent technology sector offers the richer comparative material. The dual-
 
 The broader private-market landscape gives the relevant base rate. The expansion of the private capital pool that [Ewens and Farre-Mensa 2020][research_ewens_farre_mensa_2020] document has produced a cohort of firms that reach substantial scale without listing, and the venture-capital literature in [Gompers and Lerner 2001][book_gompers_lerner_2001], [Metrick and Yasuda 2011][book_metrick_yasuda_2011], [Lerner 2009][book_lerner_2009], [Kortum and Lerner 2000][research_kortum_lerner_2000], and [Hall and Lerner 2010][research_hall_lerner_2010] documents the institutional apparatus that supports them. The practitioner literature in [Thiel 2014][book_thiel_2014] Zero to One, [Ries 2011][book_ries_2011] The Lean Startup, [Blank 2013][book_blank_2013] The Four Steps to the Epiphany, and [Moore 1991][book_moore_1991] Crossing the Chasm has substantially normalized the founder-control preference within the sector, and the regional-institutional treatments in [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, and [Klepper 2016][book_klepper_2016] Experimental Capitalism document the conditions under which the preference became enforceable.
 
-The institutional-investor and index-provider response constitutes a countervailing force that the landscape must include. The [Council of Institutional Investors][ref_cii] has advocated one-share-one-vote policies and mandatory sunset provisions in its [dual-class stock position][ref_cii_dual_class], the proxy advisers whose recommendations shape institutional voting publish their policies through [ISS][ref_iss_governance] and [Glass Lewis][ref_glass_lewis], and index providers including [S&P Dow Jones Indices][ref_spdji] and [FTSE Russell][ref_ftse_russell] have at various points restricted the inclusion of multi-class issuers. The corporate-governance practice literature that the [Conference Board][ref_conference_board] publishes documents the diffusion of the policies. The pressure operates only on listed firms, which is a further reason the unlisted configuration is attractive to a controller who values control. The effect admits the compact statement that the governance-pressure gradient runs
+The institutional-investor and index-provider response constitutes a countervailing force that the landscape must include. The [Council of Institutional Investors][ref_cii] has advocated one-share-one-vote policies and mandatory sunset provisions in its [dual-class stock position][ref_cii_dual_class], the proxy advisers whose recommendations shape institutional voting publish their policies through [ISS][ref_iss_governance] and [Glass Lewis][ref_glass_lewis], and index providers including [S&P Dow Jones Indices][ref_spdji] and [FTSE Russell][ref_ftse_russell] have at various points restricted the inclusion of multi-class issuers. The corporate-governance practice literature that the [Conference Board][ref_conference_board] publishes documents the diffusion of the policies. The pressure operates only on listed firms, which is a further reason the unlisted configuration is attractive to a controller who values control. The effect allows the brief statement that the governance-pressure gradient runs
 
 $$P^{\text{pressure}}\!\left( \text{listed, single class} \right) > P^{\text{pressure}}\!\left( \text{listed, dual class} \right) \gg P^{\text{pressure}}\!\left( \text{unlisted} \right)$$
 
@@ -619,13 +619,13 @@ $$V\!\left( w, \tau \right) = V^{\ast} - \beta_1 w - \beta_2 w \tau, \qquad \bet
 
 with the value declining in the wedge and the decline compounding with the tenure. The framing is not refuted by the SpaceX record. It is untested by it.
 
-The stewardship framing treats the controller as a steward whose objective is aligned with the long-run enterprise rather than as an agent whose objective diverges from it, and it predicts that a control configuration insulating the steward improves rather than degrades the outcome. The stewardship premise admits the compact statement as a restriction on the objective
+The stewardship framing treats the controller as a steward whose objective is aligned with the long-run enterprise rather than as an agent whose objective diverges from it, and it predicts that a control configuration insulating the steward improves rather than degrades the outcome. The stewardship premise takes the compact statement as a restriction on the objective
 
 $$U^{\text{controller}} = U^{\text{enterprise}} \qquad \text{against the agency premise} \qquad U^{\text{controller}} = e \cdot U^{\text{enterprise}} + B^{\text{private}}$$
 
 with the two framings differing in whether the private-benefit term is present rather than in any empirical claim about the observed behavior. The framing is the mirror image of the agency framing and shares its weakness, in that both derive their predictions from an assumption about the controller's objective that the evidence is asked to confirm rather than to establish.
 
-The resource-dependence framing, whose organizational-sociology antecedents appear in [Selznick 1949][book_selznick_1949] TVA and the Grass Roots and whose market-architecture development appears in [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, treats the effective control as determined by the pattern of dependencies rather than by the formal authority. The dependence-weighted control admits the compact form
+The resource-dependence framing, whose organizational-sociology antecedents appear in [Selznick 1949][book_selznick_1949] TVA and the Grass Roots and whose market-architecture development appears in [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, treats the effective control as determined by the pattern of dependencies rather than by the formal authority. The dependence-weighted control has the concise form
 
 $$v^{\text{effective}}_i = \frac{d_i \, \sigma_i}{\sum_j d_j \, \sigma_j}$$
 
@@ -687,7 +687,7 @@ Fifth, the mission must be specified with sufficient precision that a deviation 
 
 The relationship among the sub-properties is not symmetric. The first is the easiest to obtain and receives substantially all of the attention in the practitioner literature. The second is the one whose failure the OpenAI case demonstrates and which the voting-rights literature does not address. The fourth is the one that distinguishes an arrangement lasting a career from one lasting a century.
 
-The abstract mechanic admits a diagnostic procedure applicable to a candidate case in an adjacent domain, stated as an ordered test vector
+The abstract mechanic permits a diagnostic procedure applicable to a candidate case in an adjacent domain, stated as an ordered test vector
 
 $$\tau = \left( w > 1, \;\; v^{\text{effective}} \approx v^{\text{formal}}, \;\; G^{\text{channel}} \approx 0, \;\; \exists \, \text{successor binding}, \;\; \text{mission falsifiable} \right)$$
 

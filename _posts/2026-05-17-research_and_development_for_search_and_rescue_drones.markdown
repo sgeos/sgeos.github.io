@@ -197,7 +197,7 @@ of a full custom build
 at one tenth
 the cost.
 The modification path
-admits
+permits
 custom sensors,
 custom communications equipment,
 custom mission planning,
@@ -411,7 +411,7 @@ research and development
 for first responder applications.
 The
 [Long Range Broad Agency Announcement][ref_dhs_st_lrbaa]
-admits
+allows
 proposals
 in
 all hazards
@@ -426,7 +426,7 @@ that the Directorate then funds
 through research solicitations.
 The
 [Small Business Innovation Research programme at DHS S&T][ref_dhs_sbir]
-admits
+supports
 proposals
 in topics released
 each year.
@@ -708,7 +708,7 @@ Education and Research.**
 operates
 several unmanned aerial vehicle research programmes
 and
-admits
+permits
 collaborative arrangements
 with public safety agencies
 through formal partnership agreements.
@@ -750,14 +750,14 @@ DJI publishes
 three SDK families
 for different layers of the stack.
 [The DJI Mobile SDK][ref_dji_mobile_sdk]
-admits
+allows
 Android and iOS applications
 that
 communicate with
 the drone
 through the remote control.
 [The DJI Onboard SDK][ref_dji_onboard_sdk]
-admits
+supports
 embedded applications
 running on
 a companion computer attached to the drone
@@ -776,7 +776,7 @@ for third-party sensor and accessory development.
 **Parrot software development kits.**
 Parrot's
 [Olympe SDK][ref_parrot_olympe]
-admits
+permits
 Python applications
 that
 communicate with
@@ -793,14 +793,14 @@ development.
 Parrot's
 [Open Flight Control][ref_parrot_open_flight_control]
 on the ANAFI Ai
-admits
+allows
 deeper firmware modification
 than Parrot's smaller platforms.
 
 **Skydio software development kit.**
 Skydio's
 [Connect ecosystem][ref_skydio_connect]
-admits
+supports
 third-party integrations
 on the Skydio X10 platform
 through
@@ -834,7 +834,7 @@ and the
 for inter-process communication
 within the flight stack.
 PX4
-also admits
+also permits
 [hardware-in-the-loop][ref_px4_hitl]
 and
 [software-in-the-loop simulation][ref_px4_sitl]
@@ -1161,7 +1161,7 @@ beyond the remote pilot certificate.
 
 **FAA Section 44807 exemption.**
 [Section 44807 of Title 49 United States Code][ref_section_44807]
-admits
+allows
 the Secretary of Transportation
 to grant exemptions
 from the standard commercial-operations rules
@@ -1180,7 +1180,7 @@ from application to grant.
 
 **FAA Certificate of Waiver or Authorization.**
 [A Certificate of Waiver or Authorization][ref_faa_coa]
-admits
+supports
 a public agency or research organisation
 to operate
 unmanned aircraft
@@ -1284,7 +1284,7 @@ signing the award agreement.
 [The Bayh-Dole Act of 1980][ref_bayh_dole],
 codified at
 35 USC 200-212,
-admits
+permits
 universities, non-profits,
 and small businesses
 to retain ownership
@@ -1471,7 +1471,7 @@ produces fielded systems.
 
 **The SBIR Phase III sole-source authority.**
 [The federal SBIR programme][ref_sbir_gov]
-admits
+allows
 a sole-source procurement authority
 for Phase III work
 that
@@ -1521,7 +1521,7 @@ must achieve
 through
 [the FAA Aircraft Certification Service][ref_faa_acs]
 before
-the platform admits
+the platform supports
 non-experimental commercial operation.
 Type Certification
 for an unmanned aircraft

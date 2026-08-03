@@ -59,7 +59,7 @@ Behavior cloning treats imitation as a supervised-learning problem in which the 
 
 $$L_{\text{BC}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}_{\text{demo}}}\!\left[\log \pi_\theta(a \mid s)\right]$$
 
-treats state-action pairs from the demonstration dataset as training data and fits the learner's policy through maximum-likelihood estimation. The framework is conceptually simple and admits arbitrary function approximators, but suffers from covariate shift under sequential deployment.
+treats state-action pairs from the demonstration dataset as training data and fits the learner's policy through maximum-likelihood estimation. The framework is conceptually simple and permits arbitrary function approximators, but suffers from covariate shift under sequential deployment.
 
 The covariate shift problem arises because the learner's induced state distribution at test time differs from the training-time state distribution. Small action errors compound over trajectory rollouts, driving the learner into states poorly covered by the demonstration data. The [Ross and Bagnell 2010][research_ross_bagnell_2010_efficient] efficient reductions analysis established the fundamental result that behavior cloning suffers regret bounds that scale quadratically with the horizon, in contrast to the linear scaling of policies trained with online access to a demonstrator.
 
@@ -115,7 +115,7 @@ Maximum-entropy IRL of Ziebart Maas Bagnell Dey 2008 provides the modern probabi
 
 $$p(\tau) = \frac{1}{Z} \exp\!\left(\sum_t R_\phi(s_t, a_t)\right)$$
 
-and estimates the reward parameters $\phi$ by maximum-likelihood on the demonstration data. The partition function $Z$ is intractable to compute exactly but admits variational approximations that produce practical algorithms.
+and estimates the reward parameters $\phi$ by maximum-likelihood on the demonstration data. The partition function $Z$ is intractable to compute exactly but allows variational approximations that produce practical algorithms.
 
 Guided Cost Learning of Finn Levine Abbeel 2016 introduced a sampling-based approach to maximum-entropy IRL that avoids the partition-function computation through importance-sampled policy optimization. The treatment alternates between reward-function updates on the demonstration data and policy-improvement updates on the current reward, achieving marked scaling improvements over prior IRL methods.
 
@@ -231,7 +231,7 @@ The language-model alignment application of preference-based learning has consid
 
 ## Reward Modeling: Architecture, Uncertainty, and Overoptimization
 
-The reward model is a central component of the RLHF pipeline and admits distinctive design and training considerations that have received significant recent attention. The general reward model $\hat{R}_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
+The reward model is a central component of the RLHF pipeline and supports distinctive design and training considerations that have received significant recent attention. The general reward model $\hat{R}_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
 
 Scaling laws for reward modeling of [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The model identified reward overoptimization as a failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
 
@@ -339,7 +339,7 @@ Observation-only imitation is particularly valuable in robotics, where action da
 
 ## Sim-to-Real and Cross-Embodiment Imitation
 
-Sim-to-real transfer is a central concern for practical deployment of imitation learning in robotics. Policies trained in simulation from simulated demonstrations must transfer to physical hardware whose dynamics differ from the simulated approximation. The problem intersects with the sim-to-real treatments of article nine and admits distinctive algorithmic approaches to the imitation-learning setting.
+Sim-to-real transfer is a central concern for practical deployment of imitation learning in robotics. Policies trained in simulation from simulated demonstrations must transfer to physical hardware whose dynamics differ from the simulated approximation. The problem intersects with the sim-to-real treatments of article nine and permits distinctive algorithmic approaches to the imitation-learning setting.
 
 Domain-randomized imitation learning of [Bousmalis Irpan Wohlhart Bai Kelcey Kalakrishnan Downs Ibarz Ibarz Levine Vanhoucke Konolige Kalakrishnan 2018][research_bousmalis_et_al_2018] extended the domain randomization framework to imitation learning through simulated demonstrations across randomized visual conditions, providing policies that transfer to real robotic grasping despite the appreciable sim-to-real gap in the visual channel.
 
@@ -377,7 +377,7 @@ QMIX of Rashid et al 2018 introduced value-decomposition through a mixing networ
 
 $$Q_{\text{tot}}(s, a) = f_{\text{mix}}(Q^1(o^1, a^1), \ldots, Q^n(o^n, a^n) \, ; \, s)$$
 
-where $f_{\text{mix}}$ is constrained to be monotonic in each per-agent value, admits decentralized action selection through per-agent argmax while preserving centralized training. This formulation has become the standard baseline for cooperative MARL.
+where $f_{\text{mix}}$ is constrained to be monotonic in each per-agent value, allows decentralized action selection through per-agent argmax while preserving centralized training. This formulation has become the standard baseline for cooperative MARL.
 
 Value-Decomposition Networks (VDN) of [Sunehag Lever Gruslys Czarnecki Zambaldi Jaderberg et al 2018][research_sunehag_et_al_2018_vdn] provided the simpler predecessor to QMIX through additive rather than monotonic value decomposition,
 
@@ -463,7 +463,7 @@ Cooperative Inverse Reinforcement Learning (CIRL) of Hadfield-Menell Russell Abb
 
 $$V^*(s, \theta) = \max_{\pi^H, \pi^R} \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t R_\theta(s_t, a_t^H, a_t^R) \, \middle| \, s_0 = s, \pi^H, \pi^R\right]$$
 
-The assistance-game formulation admits distinctive equilibrium concepts including the assistant's Bayes-adaptive optimal policy under uncertainty about the principal's reward. The account provides a normative account of AI systems that defer to human judgment on contested value questions.
+The assistance-game formulation supports distinctive equilibrium concepts including the assistant's Bayes-adaptive optimal policy under uncertainty about the principal's reward. The account provides a normative account of AI systems that defer to human judgment on contested value questions.
 
 Off-Switch Games of [Hadfield-Menell Dragan Abbeel Russell 2017][research_hadfield_menell_et_al_2017_off_switch] extended this formulation to analyze the case of an AI system that can be shut down by the human principal, deriving conditions under which the AI's optimal policy actively preserves the human's shutdown capability.
 

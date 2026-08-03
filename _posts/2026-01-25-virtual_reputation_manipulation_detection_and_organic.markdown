@@ -39,7 +39,7 @@ with significant category variance and with the range's upper bound reflecting t
 
 ## Cross-Disciplinary Framings
 
-The detection-and-countermeasure-and-organic-establishment landscape admits characterization from several disciplinary traditions beyond the economic-signaling framework the miniseries adopts as primary. The closing article surveys the principal alternative disciplinary treatments and identifies their analytical leverage.
+The detection-and-countermeasure-and-organic-establishment landscape permits characterization from several disciplinary traditions beyond the economic-signaling framework the miniseries adopts as primary. The closing article surveys the principal alternative disciplinary treatments and identifies their analytical leverage.
 
 The signal-detection-theory framing traces from [Green and Swets 1966][book_green_swets_1966] Signal Detection Theory and Psychophysics through the subsequent detection-theory literature. The framing treats manipulation detection as a hypothesis-testing problem with characterization of the ROC curve, decision-threshold optimization, and observer-sensitivity-versus-response-criterion decomposition. The [Macmillan and Creelman 2005][book_macmillan_creelman_2005] Detection Theory User's Guide treatment provides the reference modern framework. The signal-detection-theory framing complements the machine-learning-classifier framing by treating the detection problem in the classical statistical-decision-theory tradition rather than in the algorithmic-optimization tradition.
 
@@ -133,7 +133,7 @@ for a chosen threshold, with the [Chung 1997][book_chung_1997] Spectral Graph Th
 
 Machine-learning classifier approaches train on labeled instances of manipulation and non-manipulation and apply the trained classifiers to unlabeled instances. The methodology class includes stylometric text classifiers, behavior-pattern classifiers, embedding-based classifiers, and multi-modal ensemble classifiers. The [Ott et al 2011][research_ott_et_al_2011] treatment initiated the classifier-based reputation-manipulation detection subfield. The [Cresci 2020][research_cresci_2020] Decade of Social Bot Detection survey establishes the reference summary for the bot-detection subclass. Standing reference datasets for classifier training and evaluation include the [Yelp Open Dataset][ref_yelp_open_dataset], the [Amazon Reviews Dataset][ref_amazon_reviews_dataset], the [YelpChi Fake Review Dataset][ref_yelpchi_dataset], the [Ott Deceptive Opinion Spam Corpus][ref_ott_deceptive_corpus], the [Cresci-2015 Fake Followers Dataset][ref_cresci_2015_dataset], the [Cresci-2017 Genuine and Spambot Dataset][ref_cresci_2017_dataset], the [Bot Repository Indiana OSoMe][ref_bot_repository], the [Twitter Election Integrity Dataset Archive][ref_twitter_election_integrity], the [Stanford Internet Observatory Data Catalog][ref_stanford_internet_observatory], and the [Cross-Platform Sharing Dataset][ref_cross_platform_sharing_dataset].
 
-Ensemble classifier accuracy under standard averaging admits characterization as
+Ensemble classifier accuracy under standard averaging allows characterization as
 
 $$P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}$$
 
@@ -163,7 +163,7 @@ with the prior shifting under manipulation-prevalence changes over time and requ
 
 Adversarial machine learning defenses target the detection-evasion techniques characterized in the preceding articles under the generative-model and adaptive-manipulation-technique headings. The methodology class includes adversarial training (training the detector on labeled adversarial examples), ensemble robustness (combining diverse classifier types to reduce single-attack-vector vulnerability), certified robustness (mathematical guarantees against bounded-perturbation attacks), and watermarking (marking authentic content to enable verification). The [Goodfellow Shlens Szegedy 2014][research_goodfellow_shlens_szegedy_2014] adversarial-examples treatment and the [Carlini and Wagner 2017][research_carlini_wagner_2017] Towards Evaluating the Robustness of Neural Networks treatment establish the adversarial-attack reference framework. The [Madry et al 2018][research_madry_et_al_2018] Towards Deep Learning Models Resistant to Adversarial Attacks treatment establishes the adversarial-training framework. The [Cohen Rosenfeld Kolter 2019][research_cohen_rosenfeld_kolter_2019] Certified Adversarial Robustness via Randomized Smoothing treatment establishes the certified-robustness framework.
 
-The adversarial-example detection difficulty admits partial characterization via the fundamental result that under sufficient generative-model quality the detection accuracy approaches the random-classifier baseline
+The adversarial-example detection difficulty supports partial characterization via the fundamental result that under sufficient generative-model quality the detection accuracy approaches the random-classifier baseline
 
 $$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
 
@@ -253,7 +253,7 @@ with $t_v^*$ the inflection point at which verification passes the majority adop
 
 Content-authentication and provenance countermeasures target the content-provenance channel through cryptographic content-signing, watermarking, and provenance-attestation. The [C2PA content provenance standard][ref_c2pa_standard], the [Coalition for Content Provenance and Authenticity][ref_c2pa_coalition], the [Content Authenticity Initiative][ref_content_authenticity_initiative], the [Meta AI-generated content labeling policy][ref_meta_ai_content_labeling], and the [Kirchenbauer et al 2023][research_kirchenbauer_et_al_2023] watermarking framework represent the field's current state. Adjacent generative-model deployment infrastructure includes the [OpenAI ChatGPT 2022 release][ref_openai_chatgpt_2022], the [OpenAI GPT-4 2023 release][ref_openai_gpt4_2023], the [Anthropic Claude][ref_anthropic_claude], and the [Meta Llama][ref_meta_llama] model families that produced the generative-model transition characterized in the framing article. The [Sohail et al 2024][research_sohail_et_al_2024] Detection of Large-Language-Model Generated Reviews and adjacent contemporary detection literature address the detection challenge under the transition.
 
-The content-provenance verification admits characterization as the signature-validity check
+The content-provenance verification permits characterization as the signature-validity check
 
 $$V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]$$
 
@@ -287,7 +287,7 @@ with $\bar{N}$ the ceiling adopter population and $\lambda$ the adoption rate, s
 
 ## The Organic-Establishment Minority
 
-The organic-establishment-minority puzzle introduced in the framing article at A277 admits empirical characterization through detailed case studies of parties who sustain organic reputation under manipulation-saturated conditions. The closing article surveys the principal cases and identifies the common structural features that enable organic-establishment persistence.
+The organic-establishment-minority puzzle introduced in the framing article at A277 allows empirical characterization through detailed case studies of parties who sustain organic reputation under manipulation-saturated conditions. The closing article surveys the principal cases and identifies the common structural features that enable organic-establishment persistence.
 
 ### Wikipedia and the Consensus-Editing Model
 
@@ -315,7 +315,7 @@ $$V_{\text{commit}}(\text{commit}, \sigma) = \mathbb{1}[\text{Verify}(\text{gpg 
 
 with the commit-signing infrastructure providing cryptographic attestation of contributor identity that resists sockpuppet-and-impersonation manipulation.
 
-The downstream-user-verification dynamic operates through the fact that open-source contributor reputation is verified by downstream users through actual use of the contributed code, which produces reputation-signal-informativeness that pure claim-based reputation systems lack. The [Kalliamvakou et al 2016][research_kalliamvakou_et_al_2016] Depth of Programmer Skill treatment addresses the skill-verification dynamics. The GitHub contributor-reputation growth trajectory admits characterization via the accumulation function
+The downstream-user-verification dynamic operates through the fact that open-source contributor reputation is verified by downstream users through actual use of the contributed code, which produces reputation-signal-informativeness that pure claim-based reputation systems lack. The [Kalliamvakou et al 2016][research_kalliamvakou_et_al_2016] Depth of Programmer Skill treatment addresses the skill-verification dynamics. The GitHub contributor-reputation growth trajectory supports characterization via the accumulation function
 
 $$R_{\text{contributor}}(t) = \int_0^t \gamma(s) \cdot q(s) \, ds$$
 
@@ -325,13 +325,13 @@ with $\gamma(s)$ the contribution-attention weight at time $s$ and $q(s)$ the co
 
 Academic reputation and citation networks represent a third case of organic-establishment infrastructure. The reputation system operates through peer-review publication, citation-network accumulation, retraction-tracking infrastructure, and institutional-affiliation verification. The [Retraction Watch Database][ref_retraction_watch] provides the standing infrastructure for post-publication accountability. The [Google Scholar citation counts][ref_google_scholar] provide the reference citation-metric infrastructure. The [ORCID identifier system][ref_orcid] provides the cryptographic-identity infrastructure. The [Van Noorden 2020][research_van_noorden_2020] Nature Investigates Citation Manipulation treatment documents the citation-manipulation-adjacent detection.
 
-The peer-review accuracy characterization admits partial estimation via the reference-classifier framework
+The peer-review accuracy characterization permits partial estimation via the reference-classifier framework
 
 $$P_{\text{peer-review}}(\text{correct classification}) = f(\text{reviewer expertise}, \text{review depth}, \text{editorial oversight})$$
 
 with the parameter values varying by field, journal, and time period. Empirical estimates from meta-analyses of peer-review reliability place $P_{\text{peer-review}}$ in the range of 0.6 to 0.8 for typical review, with sizable variation across contexts. The [Bornmann 2011][research_bornmann_2011] Scientific Peer Review treatment provides the reference meta-analysis.
 
-The citation-network reputation dynamic admits the PageRank-analog characterization
+The citation-network reputation dynamic allows the PageRank-analog characterization
 
 $$R_{\text{author}}(a) = (1 - d)/N + d \sum_{a' : \text{cites } a} R_{\text{author}}(a') / L(a')$$
 
@@ -349,7 +349,7 @@ with academic-citation reputation exhibiting considerable concentration ($G > 0.
 
 Stack Exchange and the broader question-and-answer-community family represent a fourth case of organic-establishment through reputation-weighted community moderation. The reputation system awards points for question-and-answer quality assessed by community voting, with reputation gating access to moderation privileges. The [Stack Exchange reputation policies][ref_stack_exchange_reputation] document the reference infrastructure. The [Movshovitz-Attias et al 2013][research_movshovitz_attias_et_al_2013] Analysis of the Reputation System and User Contributions treatment addresses the empirical reputation-dynamics.
 
-The Stack Exchange reputation-cascade dynamic admits characterization as the reinforcing feedback
+The Stack Exchange reputation-cascade dynamic supports characterization as the reinforcing feedback
 
 $$\frac{dR_u}{dt} = \gamma \, \Pr(\text{contribution accepted} \mid R_u) \cdot \bar{q}(R_u)$$
 
@@ -391,7 +391,7 @@ The six-axis analytical framework introduced at [A277][related_post_a277_theory]
 
 ### Signal Axis Retrospective
 
-The signal-axis retrospective observes that self-promotion techniques produce positive-direction signal injection while competitor-attack techniques produce negative-direction signal injection, and that the detection methodology treats both under the general anomaly-detection framework. The distinction between the two classes on the signal axis is the sign of the injected signal rather than the injection mechanism, which explains why detection methodology transfers between the two technique classes with modest adaptation. The generative-model transition since 2022 has shifted the signal-axis characterization across both technique classes toward higher volume, higher fidelity, and lower cost. The composite signal-axis characterization at the ecosystem level admits
+The signal-axis retrospective observes that self-promotion techniques produce positive-direction signal injection while competitor-attack techniques produce negative-direction signal injection, and that the detection methodology treats both under the general anomaly-detection framework. The distinction between the two classes on the signal axis is the sign of the injected signal rather than the injection mechanism, which explains why detection methodology transfers between the two technique classes with modest adaptation. The generative-model transition since 2022 has shifted the signal-axis characterization across both technique classes toward higher volume, higher fidelity, and lower cost. The composite signal-axis characterization at the ecosystem level permits
 
 $$\sigma_{\text{ecosystem}}^{\text{signal}}(t) = \sigma_{\text{authentic}}(t) + \sum_k \sigma_{\text{manip}}^k(t) \cdot \text{sign}_k$$
 
@@ -399,7 +399,7 @@ with the authentic and manipulation-injected signal components additive at the a
 
 ### Objective Axis Retrospective
 
-The objective-axis retrospective observes the distinction between self-promotion (target-actor's-own-reputation uplift) and competitor-attack (target's reputation decrement) objectives, together with the shared platform-mediated audience-response optimization. The detection methodology is largely objective-agnostic (identifying manipulation from signal characteristics rather than from objective inference), while the countermeasure landscape is more objective-sensitive (defamation law for competitor-attack, false-advertising law for self-promotion). The organic-establishment cases share the objective of sustained genuine reputation and differ from both self-promotion and competitor-attack in their objective structure. The composite objective-decomposition at the actor level admits
+The objective-axis retrospective observes the distinction between self-promotion (target-actor's-own-reputation uplift) and competitor-attack (target's reputation decrement) objectives, together with the shared platform-mediated audience-response optimization. The detection methodology is largely objective-agnostic (identifying manipulation from signal characteristics rather than from objective inference), while the countermeasure landscape is more objective-sensitive (defamation law for competitor-attack, false-advertising law for self-promotion). The organic-establishment cases share the objective of sustained genuine reputation and differ from both self-promotion and competitor-attack in their objective structure. The composite objective-decomposition at the actor level allows
 
 $$U_i(x) = w_i^{\text{self-promo}} U^{\text{sp}}_i(x) + w_i^{\text{attack}} U^{\text{att}}_i(x) + w_i^{\text{organic}} U^{\text{org}}_i(x)$$
 
@@ -423,7 +423,7 @@ with the aggregate distance quantifying the technique-space diversity at time $t
 
 ### Interaction Axis Retrospective
 
-The interaction-axis retrospective observes the distinction between self-promotion techniques (typically target-unaware relative to the audience, minimal direct target-manipulation interaction) and competitor-attack techniques (direct attacker-target interaction, target-aware attacks, legal-recourse activation). The detection methodology addresses the platform-side interaction structure. The organic-establishment cases exhibit distinctive community-audience-mutual-verification interaction structures. The interaction-axis ecosystem-level signed-graph density admits
+The interaction-axis retrospective observes the distinction between self-promotion techniques (typically target-unaware relative to the audience, minimal direct target-manipulation interaction) and competitor-attack techniques (direct attacker-target interaction, target-aware attacks, legal-recourse activation). The detection methodology addresses the platform-side interaction structure. The organic-establishment cases exhibit distinctive community-audience-mutual-verification interaction structures. The interaction-axis ecosystem-level signed-graph density supports
 
 $$\rho_{\text{interact}}(t) = \frac{|E^{+}(t)| - |E^{-}(t)|}{|V(t)|^2}$$
 
@@ -481,7 +481,7 @@ The contemporary reputation-manipulation ecosystem admits comparative treatment 
 
 **Federal Trade Commission establishment 1914**: the [Federal Trade Commission Act 1914][ref_ftc_act_1914_founding] established the federal consumer-protection infrastructure that continues to serve as the reference regulatory apparatus for reputation-manipulation-adjacent commercial practices. The Wheeler-Lea Act 1938 extended the FTC authority to unfair-or-deceptive-acts-or-practices, establishing this formulation that the contemporary FTC 2024 Final Rule on Fake Reviews extends.
 
-**Journalism verification-standards evolution**: the emergence of journalism verification-standards infrastructure through the late-nineteenth and twentieth centuries (fact-checking, editorial review, attribution requirements, retraction protocols) provides a comparative case of organic-establishment infrastructure development. The [Kovach and Rosenstiel 2001][book_kovach_rosenstiel_2001] The Elements of Journalism treatment documents the reference framework. The [Silverman 2007][book_silverman_2007] Regret the Error treatment addresses the retraction-and-correction infrastructure. The composite historical-precedent lesson admits characterization as the observation that manipulation-resistant reputation infrastructure emerges through the combination of institutional-verification investment, community-norm enforcement, and legal-regulatory backstop, with the relative weighting varying by domain
+**Journalism verification-standards evolution**: the emergence of journalism verification-standards infrastructure through the late-nineteenth and twentieth centuries (fact-checking, editorial review, attribution requirements, retraction protocols) provides a comparative case of organic-establishment infrastructure development. The [Kovach and Rosenstiel 2001][book_kovach_rosenstiel_2001] The Elements of Journalism treatment documents the reference framework. The [Silverman 2007][book_silverman_2007] Regret the Error treatment addresses the retraction-and-correction infrastructure. The composite historical-precedent lesson permits characterization as the observation that manipulation-resistant reputation infrastructure emerges through the combination of institutional-verification investment, community-norm enforcement, and legal-regulatory backstop, with the relative weighting varying by domain
 
 $$\text{stability}(\text{domain}) = w_{\text{institution}} \cdot I(\text{domain}) + w_{\text{community}} \cdot C(\text{domain}) + w_{\text{legal}} \cdot L(\text{domain})$$
 
@@ -489,7 +489,7 @@ with the domain-appropriate weighting driven by the technology-and-social-struct
 
 ## Alternative American Trajectories Counterfactuals
 
-The contemporary reputation-manipulation-ecosystem trajectory admits partial counterfactual analysis against alternative regulatory, technological, and platform-design paths that might have produced different equilibria.
+The contemporary reputation-manipulation-ecosystem trajectory allows partial counterfactual analysis against alternative regulatory, technological, and platform-design paths that might have produced different equilibria.
 
 **Alternative Section 230 trajectory**: an alternative counterfactual under which Section 230 CDA had been narrowed significantly in the late 1990s or early 2000s would have produced substantially higher platform-side liability for user-generated reputation content. The counterfactual likely would have produced markedly higher platform-integrity investment, higher-friction user-generated-content environments, and potentially lower manipulation prevalence at the cost of appreciable legitimate-speech chilling.
 
@@ -507,7 +507,7 @@ with $\mathbf{y}$ the outcome-vector including manipulation prevalence, detectio
 
 ## Forward Projection 2026-2050
 
-The forward projection over the 2026-2050 window admits substantial uncertainty across several critical parameters. The closing article develops a central projection and four alternative scenarios with a falsification framework for empirical adjudication.
+The forward projection over the 2026-2050 window supports substantial uncertainty across several critical parameters. The closing article develops a central projection and four alternative scenarios with a falsification framework for empirical adjudication.
 
 ### Central Projection
 
@@ -571,7 +571,7 @@ with $\pi_s$ the subjective probability weight on scenario $s$ and $p_{\text{man
 
 ### Falsification Framework
 
-The forward projection admits falsification through observable measurements over the 2026-2050 window. The falsification framework identifies predictions and time horizons for empirical adjudication:
+The forward projection permits falsification through observable measurements over the 2026-2050 window. The falsification framework identifies predictions and time horizons for empirical adjudication:
 
 - **Prevalence-estimate trajectory**: annual measurements from the Luca-Zervas Yelp methodology, He-Hollenbeck-Proserpio Amazon methodology, and adjacent platform-specific empirical work should produce the trajectory predicted by the scenario-specific characterization. Deviation of observed prevalence from the central-projection range by more than a factor of 2 in any given year should trigger scenario-attribution reconsideration.
 - **Enforcement-volume trajectory**: platform-transparency-report enforcement volumes should grow appreciably through 2030 under the central and regulatory-response scenarios, plateau under the AI-acceleration scenario, and decline greatly under the trust-collapse scenario.
@@ -582,7 +582,7 @@ The uncertainty growth in the projection is captured by approximately linear in 
 
 $$\sigma_{\text{projection}}(t) \approx \sigma_0 + \gamma (t - t_0)$$
 
-with $\gamma$ the uncertainty-growth rate empirically estimated from historical scenario-attribution error rates. The projection uncertainty by 2050 is significant and admits multiple non-negligible-probability scenarios. The scenario-attribution likelihood under observed empirical trajectory admits Bayesian updating
+with $\gamma$ the uncertainty-growth rate empirically estimated from historical scenario-attribution error rates. The projection uncertainty by 2050 is significant and allows multiple non-negligible-probability scenarios. The scenario-attribution likelihood under observed empirical trajectory supports Bayesian updating
 
 $$\Pr(s \mid \text{observed}) = \frac{\Pr(\text{observed} \mid s) \, \Pr(s)}{\sum_{s'} \Pr(\text{observed} \mid s') \, \Pr(s')}$$
 
@@ -664,9 +664,9 @@ The four-article miniseries has surfaced substantial open questions that recur a
 
 The miniseries has developed a comprehensive treatment of virtual reputation manipulation across the theoretical framework, technique inventories, and detection-and-countermeasure landscape. The analytical framework treats the manipulation-saturated equilibrium as the empirical default in most contemporary online reputation systems, the technique inventory as marked and evolving, the detection-and-countermeasure landscape as developing but structurally lagged behind the manipulation adaptation, and the organic-establishment minority as persistent under structural conditions but not automatically extensible to all platform categories.
 
-The contemporary reputation-manipulation ecosystem represents an extensive welfare loss relative to the counterfactual in which reputation signals carried greatly higher informativeness. The welfare-loss magnitude depends on the assumptions about consumer response, alternative reputation-infrastructure availability, and the parameters of the manipulation-detection arms race. The forward projection admits sizable uncertainty across the 2026-2050 window, with multiple non-negligible-probability scenarios and falsification opportunities that admit empirical adjudication as the window unfolds.
+The contemporary reputation-manipulation ecosystem represents an extensive welfare loss relative to the counterfactual in which reputation signals carried greatly higher informativeness. The welfare-loss magnitude depends on the assumptions about consumer response, alternative reputation-infrastructure availability, and the parameters of the manipulation-detection arms race. The forward projection permits sizable uncertainty across the 2026-2050 window, with multiple non-negligible-probability scenarios and falsification opportunities that admit empirical adjudication as the window unfolds.
 
-The organic-establishment cases surveyed in the closing sections identify the structural conditions under which organic reputation persists in the contemporary environment. The conditions include costly verifiable signaling, community-based detection, cryptographic-or-institutional identity attestation, barrier-to-entry cost, and retraction-and-correction infrastructure. Each of these conditions admits partial replication in other platform categories, and the interventions that would extend organic-establishment infrastructure to broader consumer-facing platforms remain an open policy-and-design question.
+The organic-establishment cases surveyed in the closing sections identify the structural conditions under which organic reputation persists in the contemporary environment. The conditions include costly verifiable signaling, community-based detection, cryptographic-or-institutional identity attestation, barrier-to-entry cost, and retraction-and-correction infrastructure. Each of these conditions allows partial replication in other platform categories, and the interventions that would extend organic-establishment infrastructure to broader consumer-facing platforms remain an open policy-and-design question.
 
 The composite miniseries contribution has the form the aggregate coverage of the technique-space and analytical-framework-space combined,
 
@@ -692,7 +692,7 @@ The historiographical gap that the closing article addresses lies in the absence
 
 ## Alternative Analytical Frameworks
 
-The economic-signaling-and-detection-methodology framework the closing article adopts is one of several analytical frameworks under which the detection-and-countermeasure-and-organic-establishment landscape admits treatment. The closing article surveys the principal alternatives.
+The economic-signaling-and-detection-methodology framework the closing article adopts is one of several analytical frameworks under which the detection-and-countermeasure-and-organic-establishment landscape supports treatment. The closing article surveys the principal alternatives.
 
 The enforcement-economics framework of [Becker 1968][research_becker_1968] and [Polinsky and Shavell 2000][research_polinsky_shavell_2000] treats manipulation-enforcement as a Becker-crime-and-punishment optimization problem, characterizing the optimal-detection-intensity-and-penalty combination that maximizes deterrence net of enforcement cost. This account produces different conclusions than the miniseries's economic-signaling framework in that it emphasizes the sanction-severity-versus-probability tradeoff and provides policy-design recommendations that the signaling framework does not directly generate.
 

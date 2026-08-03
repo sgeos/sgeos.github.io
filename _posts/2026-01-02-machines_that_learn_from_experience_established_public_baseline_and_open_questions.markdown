@@ -29,7 +29,7 @@ The general form of the synthesis-problem update follows the same recursive lear
 
 $$B_{t+1} = B_t + \eta \, \Delta(B_t, E_t)$$
 
-with $B_t$ the established public baseline at time $t$, $E_t$ the empirical developments in the intervening period, $\Delta$ the update function that admits new findings into the baseline as they meet the reproducibility criteria, and $\eta$ the rate at which the field's institutional processes update the baseline. The dynamics of $B$ across time provide the meta-level object of study for the history and sociology of the field.
+with $B_t$ the established public baseline at time $t$, $E_t$ the empirical developments in the intervening period, $\Delta$ the update function that permits new findings into the baseline as they meet the reproducibility criteria, and $\eta$ the rate at which the field's institutional processes update the baseline. The dynamics of $B$ across time provide the meta-level object of study for the history and sociology of the field.
 
 ## The Established Public Baseline as a Concept
 
@@ -53,7 +53,7 @@ The Markov decision process of [Bellman 1957][book_bellman_1957] and [Howard 196
 
 $$\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)$$
 
-specifies the state space, action space, transition kernel, reward function, discount factor, and initial state distribution. The treatment organizes the mathematical treatment of experiential learning and continues to provide the canonical vocabulary for the field. The formal apparatus admits several standard extensions including the partially observable Markov decision process, the semi-Markov decision process, the constrained Markov decision process, and the multi-agent Markov game. Each extension has been substantially formalized and continues to organize modern research.
+specifies the state space, action space, transition kernel, reward function, discount factor, and initial state distribution. The treatment organizes the mathematical treatment of experiential learning and continues to provide the canonical vocabulary for the field. The formal apparatus allows several standard extensions including the partially observable Markov decision process, the semi-Markov decision process, the constrained Markov decision process, and the multi-agent Markov game. Each extension has been substantially formalized and continues to organize modern research.
 
 The agent's objective is formalized through the discounted return
 
@@ -285,7 +285,7 @@ The consolidated empirical findings constitute the settled public domain of the 
 
 ## The Six-Axis Framework Revisited
 
-The six-axis analytical framework introduced in [A250 Framing][related_post_a250_framing] provides the dimensional structure through which the subsequent articles have been organized. The model names six axes (signal, objective, structure, model, interaction, and adaptation) along which any experiential learning problem admits characterization. The present section recapitulates each axis, records the position along the axis at which each article's subject sits, and identifies the empirical loci along each axis at which the settled-versus-open partition currently rests.
+The six-axis analytical framework introduced in [A250 Framing][related_post_a250_framing] provides the dimensional structure through which the subsequent articles have been organized. The model names six axes (signal, objective, structure, model, interaction, and adaptation) along which any experiential learning problem supports characterization. The present section recapitulates each axis, records the position along the axis at which each article's subject sits, and identifies the empirical loci along each axis at which the settled-versus-open partition currently rests.
 
 The signal axis characterizes the form of the training information the learner receives. The axis positions include dense scalar reward, sparse scalar reward, preference between trajectories, demonstration of desired behavior, and intrinsic motivation computed from the learner's own predictions. The series treats each position through the corresponding articles. Dense and sparse reward are the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] and [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Preference is the subject of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration] alongside demonstration and inverse reinforcement learning. Intrinsic motivation is the subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The settled public baseline on this axis identifies the canonical algorithms per signal type. The residual open problem is the characterization of when hybrid signals provide practical benefits over pure single-signal training.
 
@@ -303,7 +303,7 @@ The interaction axis characterizes the relationship between the learner's data s
 
 The adaptation axis characterizes the temporal structure of the tasks the learner faces across its lifetime. The axis positions include stationary (a single fixed task), non-stationary (a task with drifting distribution), a task family requiring rapid adaptation for each new task, and an open-ended stream of tasks with no clear end. The series treats each position through the corresponding articles. Meta-learning across a task family is the subject of [A258 Meta-Learning and Online Adaptation][related_post_a258_meta_learning]. Continual and lifelong learning across a non-stationary stream is the subject of [A259 Continual and Lifelong Learning][related_post_a259_continual]. Open-ended adaptation is the subject of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]. Developmental adaptation across the lifespan is the subject of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied]. The settled public baseline identifies the canonical algorithms per adaptation regime. The residual open problem is the formal characterization of open-endedness in the sense that human cultures and biological evolution exhibit.
 
-The six-axis framework provides the analytical vocabulary through which any experiential learning problem admits characterization. This formulation's stability across the sixteen articles of the series provides evidence for its analytical power, and the correspondences between the axes and the algorithmic and empirical developments organize the research directions that this article surveys. The treatment also identifies the implicit dimensions along which the field has organized itself, and the residual open problems identified per axis constitute the research frontier at the closing of the editorial window.
+The six-axis framework provides the analytical vocabulary through which any experiential learning problem permits characterization. This formulation's stability across the sixteen articles of the series provides evidence for its analytical power, and the correspondences between the axes and the algorithmic and empirical developments organize the research directions that this article surveys. The treatment also identifies the implicit dimensions along which the field has organized itself, and the residual open problems identified per axis constitute the research frontier at the closing of the editorial window.
 
 ## Established Neuroscience Correspondences
 
@@ -319,7 +319,7 @@ The hippocampal-replay-experience-replay correspondence provides the memory-cons
 
 The complementary-learning-systems correspondence of [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the dual-memory-system correspondence. The finding that fast hippocampal learning and slow cortical consolidation constitute complementary memory systems has been appreciably replicated and provides the biological correspondence to the interleaved-training-and-consolidation approaches in machine learning.
 
-The predictive-coding correspondence of [Rao and Ballard 1999][research_rao_ballard_1999] provides the perceptual-inference correspondence. The finding that cortical hierarchies implement predictive coding through the top-down expectation and bottom-up prediction-error signaling admits the hierarchical formalization
+The predictive-coding correspondence of [Rao and Ballard 1999][research_rao_ballard_1999] provides the perceptual-inference correspondence. The finding that cortical hierarchies implement predictive coding through the top-down expectation and bottom-up prediction-error signaling allows the hierarchical formalization
 
 $$\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \epsilon_l + \frac{\partial g_{l-1}(x_l)}{\partial x_l}^\top \epsilon_{l-1} \right)$$
 
@@ -353,7 +353,7 @@ The Rescorla-Wagner-temporal-difference correspondence of [Rescorla and Wagner 1
 
 The model-free-model-based-dual-system correspondence of [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] provides the dual-system correspondence. The finding that habitual behavior corresponds to model-free learning and goal-directed behavior corresponds to model-based learning has been greatly characterized in both animal and human experiments and provides the bridge between the psychology of instrumental behavior and modern machine learning.
 
-The prospect-theory-loss-aversion correspondence of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] provides the decision-making correspondence. The finding that human decision-making under uncertainty exhibits systematic deviations from expected-utility theory admits the formalization through the value function
+The prospect-theory-loss-aversion correspondence of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] provides the decision-making correspondence. The finding that human decision-making under uncertainty exhibits systematic deviations from expected-utility theory supports the formalization through the value function
 
 $$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda (-x)^\beta & x < 0 \end{cases}$$
 
@@ -467,7 +467,7 @@ The meta-learning-scale problem identifies the gap between the successes of meta
 
 The world-model-scale problem identifies the gap between the successes of world models at low-dimensional continuous-control problems and the empirical performance of world models at the scale of complex environments. The representation-learning objectives that suffice for effective world-modeling remain greatly open and provide the research frontier for [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models].
 
-The offline-reinforcement-learning-generalization problem identifies the difficulty of achieving policies that generalize considerably beyond the coverage of the offline dataset. The formal characterization of when offline reinforcement learning admits strong generalization guarantees remains significantly open and provides the research frontier for [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline].
+The offline-reinforcement-learning-generalization problem identifies the difficulty of achieving policies that generalize considerably beyond the coverage of the offline dataset. The formal characterization of when offline reinforcement learning permits strong generalization guarantees remains significantly open and provides the research frontier for [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline].
 
 The multi-agent-learning-and-coordination problem identifies the difficulty of achieving coordinated behavior in multi-agent settings without explicit central coordination. The empirical findings on emergent coordination in multi-agent reinforcement learning remain substantially uncharacterized and provide the research frontier for the multi-agent extensions of experiential learning.
 

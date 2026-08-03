@@ -13,15 +13,15 @@ series_index: 2
 <!-- A278 -->
 <script>console.log("A278");</script>
 
-This article is the second in a four-article miniseries treating virtual reputation manipulation as a first-class analytical object. The opening article at [Virtual Reputation Manipulation Theory and Analytical Framework][related_post_a277_theory] established the economic-signaling framework, characterized the manipulation equilibrium as a prisoner's dilemma over a two-sided platform market, developed the organic-establishment-minority puzzle, and introduced the six-axis analytical framework the miniseries applies. The present article catalogs the principal technique classes of self-promotion oriented reputation manipulation, characterizes each along the six-axis framework, surveys the documented enforcement cases and the academic detection literature, and identifies the detection signatures and platform countermeasures each technique admits. The treatment is descriptive-analytical rather than operational. The material is organized for detection engineers, platform integrity teams, legal practitioners, and academic researchers rather than for readers seeking operational manipulation guidance, and where a technique admits both descriptive and operational specification the treatment stops at the descriptive level. Subsequent articles treat the techniques of competitor-attack oriented reputation manipulation and the detection, countermeasure, and organic-establishment landscape that responds to both self-promotion and competitor-attack techniques.
+This article is the second in a four-article miniseries treating virtual reputation manipulation as a first-class analytical object. The opening article at [Virtual Reputation Manipulation Theory and Analytical Framework][related_post_a277_theory] established the economic-signaling framework, characterized the manipulation equilibrium as a prisoner's dilemma over a two-sided platform market, developed the organic-establishment-minority puzzle, and introduced the six-axis analytical framework the miniseries applies. The present article catalogs the principal technique classes of self-promotion oriented reputation manipulation, characterizes each along the six-axis framework, surveys the documented enforcement cases and the academic detection literature, and identifies the detection signatures and platform countermeasures each technique admits. The treatment is descriptive-analytical rather than operational. The material is organized for detection engineers, platform integrity teams, legal practitioners, and academic researchers rather than for readers seeking operational manipulation guidance, and where a technique permits both descriptive and operational specification the treatment stops at the descriptive level. Subsequent articles treat the techniques of competitor-attack oriented reputation manipulation and the detection, countermeasure, and organic-establishment landscape that responds to both self-promotion and competitor-attack techniques.
 
 ## The Self-Promotion Taxonomy
 
 Self-promotion oriented reputation manipulation refers to the class of techniques by which an actor injects favorable reputation signal about the actor's own product, service, identity, or attributes into a reputation system. The class is distinguished from competitor-attack oriented manipulation (treated in the third article of the miniseries) by the direction of the intended reputation shift and by the resulting differences in technique inventory, detection signature, legal exposure, and market effect. Self-promotion techniques are the more prevalent class in most consumer-facing reputation ecosystems, and the empirical detection literature has focused proportionally more attention on self-promotion than on competitor-attack techniques.
 
-The technique landscape admits partition into several groupings organized by the signal channel each technique class targets. The review-signal group includes individual review fabrication, coordinated review campaigns and review farming, sockpuppet-driven review deposition, and generative-model-produced review content. The engagement-signal group includes follower purchase, engagement purchase (likes, shares, comments, saves), view-count and impression inflation, and coordinated engagement pods. The search-ranking group includes aggressive search-engine optimization at the manipulative end of the spectrum, link-building manipulation, keyword and content manipulation, and app-store optimization gaming. The network-scale coordinated group includes sockpuppet networks and Sybil attacks, cross-platform amplification rings, click farms and human-operator networks, and state-sponsored operations extending into commercial reputation. The grassroots-manufacturing group includes corporate astroturfing, political astroturfing, and front-organization structures. The identity group includes verified-badge acquisition, professional-credential fabrication, and identity impersonation. The reputation-laundering group includes endorsement acquisition, cross-platform reputation transfer, and acquisition-based laundering. The generative-model-content group cuts across the other groupings and represents the most substantial recent development in the technique landscape.
+The technique landscape allows partition into several groupings organized by the signal channel each technique class targets. The review-signal group includes individual review fabrication, coordinated review campaigns and review farming, sockpuppet-driven review deposition, and generative-model-produced review content. The engagement-signal group includes follower purchase, engagement purchase (likes, shares, comments, saves), view-count and impression inflation, and coordinated engagement pods. The search-ranking group includes aggressive search-engine optimization at the manipulative end of the spectrum, link-building manipulation, keyword and content manipulation, and app-store optimization gaming. The network-scale coordinated group includes sockpuppet networks and Sybil attacks, cross-platform amplification rings, click farms and human-operator networks, and state-sponsored operations extending into commercial reputation. The grassroots-manufacturing group includes corporate astroturfing, political astroturfing, and front-organization structures. The identity group includes verified-badge acquisition, professional-credential fabrication, and identity impersonation. The reputation-laundering group includes endorsement acquisition, cross-platform reputation transfer, and acquisition-based laundering. The generative-model-content group cuts across the other groupings and represents the most substantial recent development in the technique landscape.
 
-The technique-space partition admits compact formalization as follows. Let $\mathcal{T} = \{t_1, t_2, \ldots, t_K\}$ denote the technique inventory, and let each technique $t_k$ be characterized by its position on the six analytical axes introduced in the framing article,
+The technique-space partition supports compact formalization as follows. Let $\mathcal{T} = \{t_1, t_2, \ldots, t_K\}$ denote the technique inventory, and let each technique $t_k$ be characterized by its position on the six analytical axes introduced in the framing article,
 
 $$\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})$$
 
@@ -31,13 +31,13 @@ $$d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)$$
 
 with $w_c$ the axis weight and $\delta_c$ the axis-specific distance function. The technique-space partition into the groupings above corresponds to clustering under the distance $d$ with the review-signal, engagement-signal, and search-ranking groupings emerging as the natural clusters under channel-weighted distance.
 
-The aggregate empirical prevalence of self-promotion techniques across the reputation ecosystem admits estimation through the sum
+The aggregate empirical prevalence of self-promotion techniques across the reputation ecosystem permits estimation through the sum
 
 $$V_{\text{self-promo}}(t) = \sum_{k \in \mathcal{T}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)$$
 
 with $n_{k,c}(t)$ the signal-event volume for technique $k$ in category $c$ at time $t$ and $p_{k,c}(t)$ the technique-and-category-specific prevalence rate. The empirical estimates surveyed in this article establish that $V_{\text{self-promo}}$ dominates the aggregate manipulation volume across most platform categories, with only political-manipulation-dominant contexts (state-sponsored operations targeting elections) exhibiting comparable competitor-attack volume.
 
-The taxonomy's coverage completeness against the observed technique population admits characterization as the recall-analog statistic
+The taxonomy's coverage completeness against the observed technique population allows characterization as the recall-analog statistic
 
 $$\text{Coverage}(\mathcal{T}, \Omega) = \frac{|\{\omega \in \Omega : \exists t_k \in \mathcal{T}, \omega \text{ assigned to } t_k\}|}{|\Omega|}$$
 
@@ -45,7 +45,7 @@ with $\Omega$ the observed manipulation-instance population. The taxonomy the ar
 
 ## Cross-Disciplinary Framings
 
-The self-promotion technique landscape admits characterization from several disciplinary traditions beyond the economic-signaling framework the miniseries adopts as primary. The framing article surveys the principal alternative disciplinary treatments and identifies their analytical leverage.
+The self-promotion technique landscape supports characterization from several disciplinary traditions beyond the economic-signaling framework the miniseries adopts as primary. The framing article surveys the principal alternative disciplinary treatments and identifies their analytical leverage.
 
 The marketing-and-advertising-theory framing traces from [Aaker 1991][book_aaker_1991] Managing Brand Equity through [Kotler and Keller 2016][book_kotler_keller_2016] Marketing Management and the broader marketing literature. The framing treats self-promotion techniques as extensions of the traditional advertising and word-of-mouth marketing toolkit into digital reputation systems. The [Berger 2016][book_berger_2016] Contagious Why Things Catch On treatment addresses the contemporary word-of-mouth-adjacent literature. The [Godin 2018][book_godin_2018] This is Marketing treatment addresses the practitioner-side framing of the transition from broadcast advertising to earned-reputation marketing. The [Trusov Bucklin Pauwels 2009][research_trusov_bucklin_pauwels_2009] Effects of Word-of-Mouth versus Traditional Marketing treatment provides the reference empirical framework for the word-of-mouth-effectiveness comparison. The marketing-and-advertising framing complements the reputation-manipulation framing by treating the manipulation technique as a boundary case of legitimate promotion rather than as a categorically distinct phenomenon, which surfaces the technique-vs-legitimate-promotion boundary that regulatory frameworks must draw.
 
@@ -165,7 +165,7 @@ Sockpuppetry as a review-signal manipulation technique refers to the operation o
 
 The academic detection literature for sockpuppet identity operates through account-linkage analysis, including [Solorio et al 2014][research_solorio_et_al_2014] Sockpuppet Detection in Wikipedia authoring context, [Zheng et al 2011][research_zheng_et_al_2011] Detecting Sockpuppets in Deceptive Opinion Spam, and [Kumar et al 2017 An Army of Me][research_kumar_army_2017] on cross-community sockpuppet behavior. The [Tsikerdekis and Zeadally 2014][research_tsikerdekis_zeadally_2014] Multiple Account Identity Deception Detection treatment surveys the field.
 
-The economic structure of sockpuppet operations differs from ordinary coordinated campaigns in the amortization of identity-construction cost. Sockpuppet identity construction requires per-identity investment in profile buildout, activity history, and behavioral patterns, and the marginal identity cost falls with automation. The identity-construction cost admits characterization as
+The economic structure of sockpuppet operations differs from ordinary coordinated campaigns in the amortization of identity-construction cost. Sockpuppet identity construction requires per-identity investment in profile buildout, activity history, and behavioral patterns, and the marginal identity cost falls with automation. The identity-construction cost permits characterization as
 
 $$C_{\text{sockpuppet}}(n) = c_{\text{fixed}} + n \cdot c_{\text{marginal}}(n)$$
 
@@ -213,7 +213,7 @@ with the watermarked-versus-unmarked likelihood ratio serving as the detection s
 
 $$\text{PPL}(x) = \exp\left(-\frac{1}{|x|} \sum_{i} \log p_{\text{ref}}(x_i \mid x_{<i})\right)$$
 
-with the detection thresholding on $\text{PPL}(x) < \tau_{\text{PPL}}$. The paraphrase-attack degradation of watermarking admits characterization via the bit-error-rate under paraphrase transformation
+with the detection thresholding on $\text{PPL}(x) < \tau_{\text{PPL}}$. The paraphrase-attack degradation of watermarking allows characterization via the bit-error-rate under paraphrase transformation
 
 $$\text{BER}_{\text{para}}(x, x') = \frac{|\{i : w_i(x) \neq w_i(x')\}|}{|w(x)|}$$
 
@@ -263,7 +263,7 @@ with per-action pricing structured similarly to follower purchase. Engagement po
 
 The [Ellis Ott 2018][ref_ellis_ott_2018_pods] The Atlantic investigation documented the Instagram engagement-pod economy and the participation-rate estimates within influencer categories. The [Meta Community Standards on Inauthentic Behavior][ref_meta_cib_policy] establishes the platform-side policy framework for engagement manipulation. The [Ferrara et al 2016][research_ferrara_et_al_2016] Rise of Social Bots treatment provides the foundational empirical treatment of automated engagement production. The [Papakyriakopoulos et al 2020][research_papakyriakopoulos_et_al_2020] Political Communication on Social Media treatment addresses the political-engagement-manipulation adjacent literature. The [Nielsen Trust in Advertising Global Report][ref_nielsen_trust_advertising] provides the industry-side survey evidence on consumer trust in different reputation-signal categories that shapes the incentive to manipulate engagement metrics.
 
-The detection signatures for engagement-purchase include the temporal-anomaly patterns (engagement bursts inconsistent with the natural arrival rate for content of the observed quality), the engagement-source-account signatures (bot-account signatures for automated engagement, click-farm-account signatures for human engagement), and the engagement-content-mismatch patterns (engagement content unrelated to the target content). The detection of engagement pods requires different signatures because the participating accounts are authentic and the engagement content is often plausible. Pod detection typically relies on graph-clustering of the engagement pattern and on the account-clustering of frequent pod participants. Pod participation admits characterization via the reciprocity-and-clustering coefficient over the account-engagement graph,
+The detection signatures for engagement-purchase include the temporal-anomaly patterns (engagement bursts inconsistent with the natural arrival rate for content of the observed quality), the engagement-source-account signatures (bot-account signatures for automated engagement, click-farm-account signatures for human engagement), and the engagement-content-mismatch patterns (engagement content unrelated to the target content). The detection of engagement pods requires different signatures because the participating accounts are authentic and the engagement content is often plausible. Pod detection typically relies on graph-clustering of the engagement pattern and on the account-clustering of frequent pod participants. Pod participation supports characterization via the reciprocity-and-clustering coefficient over the account-engagement graph,
 
 $$\rho_{\text{pod}}(G) = \frac{|\{(i,j) : (i \to j) \wedge (j \to i)\}|}{|E(G)|} \cdot C(G)$$
 
@@ -339,7 +339,7 @@ $$\Phi(S) = \frac{|E(S, \bar{S})|}{\min(|E(S)|, |E(\bar{S})|)}$$
 
 with the Sybil region admitting characterization as the subset $S$ that achieves anomalously low $\Phi(S)$ relative to the null-model conductance distribution. The detection accuracy under the social-graph-based approaches depends on the assumption that Sybil accounts have limited authentic-account connections; the assumption has weakened as Sybil operators have invested in constructing plausible connection graphs.
 
-The economic characterization of a Sybil operation includes the identity-construction cost treated above plus the ongoing maintenance cost for activity generation. The aggregate Sybil-network operation cost admits characterization as
+The economic characterization of a Sybil operation includes the identity-construction cost treated above plus the ongoing maintenance cost for activity generation. The aggregate Sybil-network operation cost permits characterization as
 
 $$C_{\text{Sybil}}(N, T) = c_{\text{setup}} + N \cdot (c_{\text{ident}} + T \cdot c_{\text{activity}})$$
 
@@ -355,7 +355,7 @@ Cross-platform amplification rings operate through coordinated content-sharing a
 
 The [Bradshaw and Howard 2019][research_bradshaw_howard_2019] Global Disinformation Order treatment surveys the cross-platform information-operation landscape. The [DiResta et al 2019][research_diresta_et_al_2019] Tactics and Tropes of the Internet Research Agency treatment documents the cross-platform operations of the Russian Internet Research Agency across Facebook, Twitter, Instagram, YouTube, and other platforms. The [Zannettou et al 2019][research_zannettou_et_al_2019] Disinformation Warfare Understanding State-Sponsored Trolls treatment analyzes the cross-platform information-operation graph. The [Starbird 2019][research_starbird_2019] Disinformation's Spread Bots Trolls and All of Us treatment provides the theoretical framing.
 
-Cross-platform amplification produces content-appearance-correlation across platforms that admits detection through the cross-platform Pearson correlation of content appearance timestamps
+Cross-platform amplification produces content-appearance-correlation across platforms that allows detection through the cross-platform Pearson correlation of content appearance timestamps
 
 $$r_{\text{cross}}(P_1, P_2) = \frac{\sum_c (t_c^{P_1} - \bar{t}^{P_1})(t_c^{P_2} - \bar{t}^{P_2})}{\sqrt{\sum_c (t_c^{P_1} - \bar{t}^{P_1})^2 \sum_c (t_c^{P_2} - \bar{t}^{P_2})^2}}$$
 
@@ -371,7 +371,7 @@ Click farms refer to the physical or virtual facilities in which human operators
 
 Click farm operations occupy an intermediate detection difficulty because the individual operator actions are authentic human actions from an identity and behavioral perspective; the manipulation signature emerges at the operator-network scale in the patterns of task assignment and coordination. The [Wang et al 2012][research_wang_et_al_2012] Serf and Turf Crowdturfing for Fun and Profit treatment provides the academic characterization of the crowdturfing marketplace.
 
-The throughput characterization of a click farm admits estimation as
+The throughput characterization of a click farm supports estimation as
 
 $$\Lambda_{\text{click-farm}} = N_{\text{operator}} \cdot h \cdot r$$
 
@@ -481,7 +481,7 @@ with $\kappa_{P_1 \to P_2}$ the platform-pair-specific transfer coefficient and 
 
 ### Acquisition-Based Laundering
 
-Acquisition-based laundering operates through the purchase of established websites, social-media accounts, or businesses to inherit the target's accumulated reputation for redirection to the acquirer's purposes. The technique class has been documented in the [Kanich et al 2011][research_kanich_et_al_2011] No Plan Survives Contact Experience with Cybercrime Measurement treatment of the domain-market abuse ecosystem, and in the [Krebs 2013][ref_krebs_2013_expired_domains] documentation of the expired-domain reputation-transfer ecosystem. The domain-age reputation value function admits characterization as an increasing function of age
+Acquisition-based laundering operates through the purchase of established websites, social-media accounts, or businesses to inherit the target's accumulated reputation for redirection to the acquirer's purposes. The technique class has been documented in the [Kanich et al 2011][research_kanich_et_al_2011] No Plan Survives Contact Experience with Cybercrime Measurement treatment of the domain-market abuse ecosystem, and in the [Krebs 2013][ref_krebs_2013_expired_domains] documentation of the expired-domain reputation-transfer ecosystem. The domain-age reputation value function permits characterization as an increasing function of age
 
 $$V_{\text{domain}}(a) = V_0 \, \bigl(1 - e^{-\alpha a}\bigr)$$
 
@@ -489,7 +489,7 @@ with $a$ the domain age since first content publication and $\alpha$ the reputat
 
 ## Six-Axis Framework Application
 
-The self-promotion technique inventory admits systematic characterization along the six-axis framework introduced in the framing article. The characterization identifies each technique's position on each axis and enables cross-technique comparison.
+The self-promotion technique inventory allows systematic characterization along the six-axis framework introduced in the framing article. The characterization identifies each technique's position on each axis and enables cross-technique comparison.
 
 The signal axis characterization varies markedly across techniques. Individual review fabrication produces low-volume single-channel signal on the review channel. Coordinated review campaigns produce medium-volume single-channel signal on the review channel with coordination in the injection pattern. Sockpuppet networks produce medium-to-high-volume single-channel signal with persistent identity infrastructure. Follower purchase produces high-volume single-channel signal on the follower channel. Engagement purchase produces high-volume single-channel signal on the engagement channel. Click farm operations produce high-volume multi-channel signal with human-operator fidelity. Generative-model-produced content produces very-high-volume potentially-multi-channel signal at collapsed cost. Cross-platform amplification produces medium-volume multi-channel signal with cross-channel coordination. Astroturfing produces medium-volume multi-channel signal with narrative coordination across the operator population. The signal-axis position of each technique class is summarized by the tuple
 
@@ -523,7 +523,7 @@ The cross-axis coupling matrix to the self-promotion technique inventory identif
 
 $$C^{\text{self-promo}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}$$
 
-encodes these dependencies and admits estimation from the cross-technique empirical variation in axis positions.
+encodes these dependencies and supports estimation from the cross-technique empirical variation in axis positions.
 
 ## Detection Methodology Summary
 
@@ -575,7 +575,7 @@ Legal enforcement countermeasures operate through the regulatory and case-law fr
 
 The empirical prevalence estimates for each self-promotion technique class vary greatly across platforms and categories. The framing article presents the aggregate summary estimates from the surveyed empirical literature. The composite estimates should be treated as order-of-magnitude summaries rather than as precise measurements, and the closing article treats the methodological considerations for prevalence estimation more fully.
 
-Individual and coordinated review fabrication prevalence on consumer-review platforms is documented in [Luca and Zervas 2016][research_luca_zervas_2016] for Yelp at approximately sixteen percent filter rate, [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] for Amazon at approximately thirty percent fake-review estimate in categories, [Mayzlin Dover Chevalier 2014][research_mayzlin_dover_chevalier_2014] for Tripadvisor at approximately ten to fifteen percent estimate under the natural-experiment methodology, and the [European Commission 2023][ref_ec_2023_sweep] cross-platform sweep at rates varying by category from five to forty percent. The composite category-weighted prevalence estimator under sampling admits characterization as
+Individual and coordinated review fabrication prevalence on consumer-review platforms is documented in [Luca and Zervas 2016][research_luca_zervas_2016] for Yelp at approximately sixteen percent filter rate, [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] for Amazon at approximately thirty percent fake-review estimate in categories, [Mayzlin Dover Chevalier 2014][research_mayzlin_dover_chevalier_2014] for Tripadvisor at approximately ten to fifteen percent estimate under the natural-experiment methodology, and the [European Commission 2023][ref_ec_2023_sweep] cross-platform sweep at rates varying by category from five to forty percent. The composite category-weighted prevalence estimator under sampling permits characterization as
 
 $$\hat{p}^{\text{comp}} = \sum_c w_c \hat{p}_c, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}$$
 
@@ -583,7 +583,7 @@ with $w_c$ the volume-weighted category weight and $\hat{p}_c$ the category-spec
 
 $$\text{Var}(\hat{p}^{\text{comp}}) = \sum_c w_c^2 \cdot \text{Var}(\hat{p}_c)$$
 
-that admits standard confidence-interval construction under the delta-method approximation.
+that allows standard confidence-interval construction under the delta-method approximation.
 
 Follower-purchase and engagement-purchase prevalence on major social platforms varies by platform and account category, with typical estimates for the fraction of purchased or otherwise inauthentic followers on major accounts in the range of five to thirty percent, and higher rates in categories including cryptocurrency promotion and political mobilization. The [Cresci 2020][research_cresci_2020] survey and [Yang et al 2020][research_yang_et_al_2020] provide the reference estimates.
 
@@ -601,7 +601,7 @@ with $n_c(t)$ the total signal-event volume in category $c$ at time $t$ and $p_c
 
 ## Alternative Analytical Frameworks
 
-The economic-signaling framework the miniseries adopts is one of several analytical frameworks under which the self-promotion technique inventory admits treatment. The framing article surveys the principal alternatives and identifies where the alternative frameworks would produce different conclusions from the model the miniseries adopts.
+The economic-signaling framework the miniseries adopts is one of several analytical frameworks under which the self-promotion technique inventory supports treatment. The framing article surveys the principal alternatives and identifies where the alternative frameworks would produce different conclusions from the model the miniseries adopts.
 
 The advertising-and-marketing-theory framework treats self-promotion techniques as extensions of the advertising toolkit into digital reputation systems. The [Aaker 1991][book_aaker_1991] Managing Brand Equity, [Kotler and Keller 2016][book_kotler_keller_2016] Marketing Management, and adjacent treatments establish the framework. This formulation produces different conclusions than the reputation-manipulation framework in that it treats the manipulation-vs-legitimate-promotion boundary as a matter of degree along the advertising-effectiveness continuum rather than as a categorical distinction. The treatment predicts that platform-integrity enforcement will produce systematic advertising-market inefficiencies through the enforcement's effect on legitimate word-of-mouth marketing operating adjacent to the manipulation techniques.
 
