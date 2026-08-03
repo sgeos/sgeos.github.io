@@ -17,7 +17,12 @@ do
   then
     echo "'${FILENAME}' cannot be read."
   else
-    DATE=$(sed -n "/^date:[+-:0-9 ]*$/{p; q;}" "${FILENAME}" | awk '{ print $2 }')
+    # The hyphen must come first in the bracket expression. Written as
+    # [+-:0-9 ] it reads as the range + to :, which BSD sed on macOS rejects
+    # with "invalid character range". The script then found no date, reported
+    # every file as undated, and silently moved nothing. GNU sed accepted the
+    # range, so this failed only on macOS.
+    DATE=$(sed -n "/^date:[-+:0-9 ]*$/{p; q;}" "${FILENAME}" | awk '{ print $2 }')
     if [ -n "$DATE" ]
     then
       echo "git add '${FILENAME}'"

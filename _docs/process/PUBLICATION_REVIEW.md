@@ -22,6 +22,26 @@ Verify against the [Style Guide](../writing/STYLE_GUIDE.md):
 
 Run the style verification script from [Style Verification](./STYLE_VERIFICATION.md) to confirm zero counts for em-dashes, en-dashes, and contractions.
 
+### Diction and Repetition
+
+The checks above are punctuation checks. They do not detect an overused word, and for a long time
+nothing else did either, which is how one article reached 46.2 uses of `specific` per thousand
+words while passing this review with prose style reported clean.
+
+Run the word-frequency section of the verification script. Investigate any content-independent
+word above roughly 5 uses per thousand, and any formulaic phrase repeating more than a handful of
+times. Then apply judgment, because the count alone does not decide:
+
+- **Legitimate.** The word is the article's subject or a technical term. `specific impulse` in a
+  propellant article, `context` in an article about context windows, `sort key` in an article
+  about draw order. Leave these alone and say why in the review report.
+- **Filler.** Removing the word does not change the claim. Delete it.
+- **Formulaic.** The word carries meaning but one phrasing repeats. Vary across a rotation rather
+  than substituting a single replacement formula.
+
+See the Diction and Repetition section of the [Style Guide](../writing/STYLE_GUIDE.md) for the
+rules and for why this check exists.
+
 ### Acronym Spell-Out on First Use
 
 Verify against [Acronym Handling](../writing/ACRONYM_HANDLING.md). Trace every multi-letter acronym to its first body occurrence and confirm the spell-out is present. Model designations and program brand names are exempt.

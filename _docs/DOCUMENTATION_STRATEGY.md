@@ -73,7 +73,7 @@ _docs/
 
 ## Cross-Reference Conventions
 
-- Use relative markdown links between files. Example: `[Style Guide](../writing/STYLE_GUIDE.md)`.
+- Use relative markdown links between files, resolved from the linking file's own directory. From a file in `_docs/process/`, the style guide is `[Style Guide](../writing/STYLE_GUIDE.md)`. From a file in `_docs/` itself, the same target is `[Style Guide](./writing/STYLE_GUIDE.md)`.
 - Include a "Related Sections" footer in content files where cross-references are useful.
 - Navigation breadcrumbs always point upward to the parent table of contents.
 

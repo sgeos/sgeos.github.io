@@ -12,10 +12,10 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `510b9ed`
+- **Parent commit** (the repository state this handoff describes): `ba70a52`
 - **Written**: 2026-08-05
-- **Tree at write**: clean; FOUR word-usage commits plus this one are UNPUSHED, awaiting your authorization
-- **Context**: Task 1 is COMPLETE and verified. Task 2 has not started.
+- **Tree at write**: clean; the word-usage commits are pushed, the documentation-review commit is UNPUSHED
+- **Context**: BOTH queued tasks are COMPLETE and verified. No task is in flight.
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
@@ -28,7 +28,7 @@ advances the tip by one, so the state it describes is the parent of the handoff 
   familiarize from the live channels — `REVERSE_PROMPT.md`, `TASKLOG.md`, `_drafts/draft_summary.md`,
   and the git log, always authoritative — and wait for instruction.
 
-## Resume prompt — Task 1 done, Task 2 queued, four commits unpushed
+## Resume prompt — both tasks done, no work in flight
 
 The History of SpaceX series A281 through A292 is complete, published, and pushed. Do not resume it.
 
@@ -37,11 +37,19 @@ redo it. Its results, method, and deliberate omissions are recorded in `REVERSE_
 2026-08-05 TASKLOG entry; the scripts are under `tmp/wordpass/` and are gitignored, so they will not
 survive a clean checkout. Read those before touching word usage again.
 
-**Two things remain.**
+**Task 2 is also COMPLETE.** The documentation review found and fixed a document whose advice would
+have failed the entire site build, a publication script broken on macOS, and the reason the `specific`
+pathology survived context resets. Details in `REVERSE_PROMPT.md` and the second 2026-08-05 TASKLOG
+entry.
 
-1. **Four commits are unpushed.** They edit 110 published articles. The build verifies clean, 294 posts
-   in and 294 HTML out with zero Liquid errors, but the push needs pilot authorization.
-2. **Task 2 has not started.** See below.
+**Nothing is in flight.** One documentation commit is unpushed. Wait for pilot instruction.
+
+**The durable finding, worth not relearning:** the `specific` pathology was neither a bad instruction
+nor a contaminated exemplar. Both were tested and falsified, the exemplars measuring 0.0 to 1.6 uses
+per thousand. It was a MISSING CHECK. The review pass verified punctuation and reported prose style
+clean on the worst article in the corpus. A word-frequency check now exists in `STYLE_VERIFICATION.md`
+and is verified to catch it. If a stylistic defect ever again survives resets, suspect the instruments
+before the instructions.
 
 ---
 
@@ -167,7 +175,7 @@ Work in batches with a commit per batch. Do not attempt 265 articles in one tran
 
 ---
 
-## Task 2 — review documentation and process files for pathological instructions
+## Task 2 — COMPLETE, retained for the rules it produced
 
 Scope: 31 files under `_docs/`, plus `CLAUDE.md`. About 42,000 tokens.
 
@@ -196,7 +204,16 @@ and guidance that would have prevented a defect this project actually hit but is
 Absolute-directive density is modest, the highest being `CROSS_LINKED_SERIES.md` at 14 per 1k, so
 volume is not the problem. Correctness is.
 
-**Report findings and let the pilot decide.** Do not rewrite process documents unilaterally.
+**Rules this review produced, which outlive it:**
+
+- **Verify a behavioural claim by running it, not by reasoning about it.** The `post_url` build-failure
+  claim was settled with a two-post throwaway site in under a minute.
+- **A wrong fact propagates.** The `future: true` error had spread from one document to five others.
+  After correcting any factual claim, grep the whole documentation set for its copies.
+- **A silently failing script is worse than a missing one.** `_publish.sh` exited zero while moving
+  nothing.
+- **"The deploy build is the authoritative verification" is not a verification strategy.** It means
+  publishing unverified. A Gemfile-free scratch build costs ten seconds.
 
 ---
 

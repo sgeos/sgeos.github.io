@@ -42,19 +42,75 @@ print('Definitions sorted:', defs == sorted(defs))
 
 All zero counts for em-dashes, en-dashes, and contractions. Used and defined reference counts equal with empty missing and unused sets. Definitions sorted alphabetically.
 
+## Word Frequency
+
+The check above sees punctuation only. It reported prose style clean on an article using
+`specific` 46.2 times per thousand words, because no check looked at word choice. This one does.
+
+```python
+import re
+from collections import Counter
+
+content = open('_drafts/article_filename.markdown').read()
+
+# Strip what is not prose: front matter, fenced code, Jekyll highlight blocks,
+# display math, headings, tables, link definitions, inline math, code spans.
+body = re.sub(r'(?s)\A---.*?\n---\n', '', content)
+body = re.sub(r'(?s)```.*?```', ' ', body)
+body = re.sub(r'(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}', ' ', body)
+body = re.sub(r'(?s)\$\$.*?\$\$', ' ', body)
+body = re.sub(r'(?m)^(#|\||\[[^\]]+\]:|\s*[-*]\s*\[).*$', ' ', body)
+body = re.sub(r'\$[^$\n]+\$|`[^`\n]+`|\{%.*?%\}', ' ', body)
+
+words = [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z'-]*", body)]
+counts = Counter(words)
+total = len(words)
+
+# Content-independent words only. Ratio against the corpus is the WRONG
+# discriminator: it surfaces topic vocabulary such as `kotlin` or `raycasting`.
+WATCH = """specific specifically various comprehensive substantial substantially
+particular significant considerable notable essential fundamental crucial critical
+key core central primary framework configuration structure mechanism approach
+aspect factor element component dimension context scenario distinct underlying
+appropriate relevant robust effective efficient relatively typically largely
+admits compact leverage utilize facilitate encompass underscore highlight
+myriad nuanced holistic pivotal seamless intricate paradigm realm landscape""".split()
+
+print(f'{total} prose words')
+for w in WATCH:
+    n = counts.get(w, 0)
+    if n and n * 1000.0 / total >= 5.0:
+        print(f'  {n:>4}  {n * 1000.0 / total:>6.1f}/1k  {w}')
+```
+
+A word above roughly 5 per thousand is a flag, not a verdict. Natural corpus rate for `specific`
+is near 1.7. Decide each flag against the Diction and Repetition section of the
+[Style Guide](../writing/STYLE_GUIDE.md): the word may be the article's subject, in which case
+leave it. Also scan for a repeating sentence pattern, which the word counts will not catch.
+
 ## URL Response
 
 A bash check that batches every URL in the draft through curl.
 
 ```bash
-grep -oE "https?://[^ ]+" _drafts/article_filename.markdown | sort -u > /tmp/urls.txt
+mkdir -p tmp
+grep -oE "https?://[^ ]+" _drafts/article_filename.markdown | sort -u > tmp/urls.txt
 while read url; do
   status=$(curl -sI -o /dev/null -w "%{http_code}" -L --max-time 10 "$url" 2>/dev/null)
   echo "$status $url"
-done < /tmp/urls.txt
+done < tmp/urls.txt
 ```
 
+Scratch goes in the project-local `tmp/`, which is gitignored, rather than the system `/tmp`.
+
 Expect 200 responses across the board. See [URL Verification](./URL_VERIFICATION.md) for the catalogue of canonical sites that return 403 to curl despite the URL being correct.
+
+**A 200 does not verify a citation.** It verifies that something is served at that address, not
+that the something is the work being cited. A 2026-08-02 audit found thirteen citations whose
+title and target did not correspond, every one of them returning 200, including one whose DOI
+resolved to an entirely different paper in an unrelated field. For any citation carrying a DOI,
+check the DOI against Crossref and confirm the returned title matches the citation. See the
+section "An HTTP 200 Does Not Verify a Citation" in [URL Verification](./URL_VERIFICATION.md).
 
 ## Acronym Scan
 
