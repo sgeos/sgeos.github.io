@@ -31,7 +31,7 @@ with the ordinary treatment of a launch business considering only the second ter
 
 $$s(t) = \frac{q^{\text{internal}}(t)}{q^{\text{total}}(t)} \qquad \text{with} \qquad \frac{ds}{dt} > 0 \;\; \text{and} \;\; s(t) > \tfrac{1}{2} \;\; \text{after some date}$$
 
-with the date at which the majority of the firm's own launches served its own constellation being the point at which the launch business ceased to be primarily a merchant business. The quantity is reconstructible from public launch manifests and is one of the few claims in this article that does not depend on unpublished financial data.
+with the date at which the majority of the firm's own launches served its own constellation being the point at which the launch business ceased to be primarily a merchant business. The quantity is reconstructible from public launch manifests and is one of the few claims in this article that does not depend on unpublished financial data. The manifest record is traceable through the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast] licensing file and its [licensing regulations][ref_faa_ast_regulations], with the sector compilations at [Space Capital][ref_space_capital] and [BryceTech][ref_bryce_tech] and the programme history at [NASA history][ref_nasa_history]. The scholarly outlets in which such reconstructions are published are surveyed at [SSRN][ref_ssrn].
 
 The relation among the three capital-formation legs admits compact statement as a decomposition of the external requirement
 
@@ -97,7 +97,7 @@ The effect on the parent's own cost structure follows directly, because a fixed 
 
 $$\bar{c}(q) = \frac{F}{q} + c^{\text{marginal}} \qquad \text{with} \qquad \frac{d\bar{c}}{dq} < 0$$
 
-with $F$ the fixed cost of maintaining production and operations. The spinoff therefore lowers the cost at which the parent can serve its external customers as a by-product of serving itself, which is the reverse of the resource-diversion the diversification literature predicts and which the article regards as the strongest single piece of evidence that the arrangement is not a diversification.
+with $F$ the fixed cost of maintaining production and operations. The fixed component includes the launch-site tenancies documented in the [Kennedy Space Center Launch Complex 39A lease][ref_ksc_lc39a_lease] and the [Vandenberg Space Launch Complex 4E environmental record][ref_vandenberg_slc4e_ea], together with the range and licensing obligations the [Office of Commercial Space Transportation regulations][ref_faa_ast_regulations] and the [Part 450 licensing rule][ref_faa_ast_licensing_regs_450] impose, all of which are incurred whether or not a given vehicle flies. The spinoff therefore lowers the cost at which the parent can serve its external customers as a by-product of serving itself, which is the reverse of the resource-diversion the diversification literature predicts and which the article regards as the strongest single piece of evidence that the arrangement is not a diversification.
 
 The capital-formation function admits statement as a crossover condition. Let $R(t)$ denote the spinoff's free cash contribution and $B(t)$ the parent's mission-directed burn. The external capital requirement is
 
@@ -161,7 +161,9 @@ with $\ell$ the propagation latency and $h$ the orbital altitude. The two-order 
 
 The capability tradition traces from [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm through [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Wernerfelt 1984][research_wernerfelt_1984], [Barney 1991][research_barney_1991], [Nelson and Winter 1982][book_nelson_winter_1982], and [Metcalfe 1998][book_metcalfe_1998]. The framing supplies the account of the spinoff as an application of surplus capability, which is the reading closest to the article's own.
 
-The telecommunications-history tradition traces from [Wu 2010][book_wu_2010] The Master Switch, [Temin and Galambos 1987][book_temin_galambos_1987] The Fall of the Bell System, [Levin 2010][book_levin_2010], [Sobel 1995][book_sobel_1995], [Nye 1990][book_nye_1990] Electrifying America, and [Hughes 1983][book_hughes_1983] Networks of Power. The framing supplies the base rates and is the tradition that most consistently predicts a regulatory intervention following the attainment of a dominant position in a communications infrastructure.
+The telecommunications-history tradition traces from [Wu 2010][book_wu_2010] The Master Switch, [Temin and Galambos 1987][book_temin_galambos_1987] The Fall of the Bell System, [Levin 2010][book_levin_2010], [Sobel 1995][book_sobel_1995], [Nye 1990][book_nye_1990] Electrifying America, and [Hughes 1983][book_hughes_1983] Networks of Power. The framing supplies the base rates and is the tradition that most consistently predicts a regulatory intervention following the attainment of a dominant position in a communications infrastructure. The institutional apparatus through which such an intervention would be argued is at the [European Corporate Governance Institute][ref_ecgi], the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum], the [Council of Institutional Investors][ref_cii], and the [Organisation for Economic Co-operation and Development corporate-governance principles][ref_oecd_corporate_governance], with the listing and index regimes at the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual], the [Nasdaq listing rules][ref_nasdaq_listing_rules], [FTSE Russell][ref_ftse_russell], and [S and P Dow Jones Indices][ref_spdji]. None of it reaches a firm that never lists, which is the observation the [Governance article A287][related_post_a287_spacex_governance] develops and which this article notes applies with equal force to a communications infrastructure of this scale.
+
+The public-administration and procurement tradition surveyed at [Public Administration Review][ref_public_admin_review] and the [Journal of Public Procurement][ref_journal_public_procurement] supplies the account of how a government buyer relates to a supplier that has become dominant in a commercial category, and the macroeconomic context in which the buildout occurred is documented at the [National Bureau of Economic Research][ref_nber] and the [Conference Board][ref_conference_board].
 
 The space-economics tradition traces from [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier through [Hertzfeld 2002][research_hertzfeld_2002], [Adilov Alexander and Cunningham 2018][research_adilov_et_al_2018], [Weeden and Chow 2012][research_weeden_chow_2012], and [Zimmerman 2011][research_zimmerman_2011], with the policy histories at [Launius 2004][book_launius_2004], [McCurdy 1994][book_mccurdy_1994], [Logsdon 1970][book_logsdon_1970], [Handberg 1994][book_handberg_1994], [McDougall 1985][book_mcdougall_1985], and [Heppenheimer 1999][book_heppenheimer_1999].
 
@@ -177,7 +179,7 @@ with the middle quantity being the mission burn the spinoff was intended to fund
 
 $$\sigma^{\text{required}} = \frac{B^{\text{mission}}}{\text{TAM}^{\text{telecom}} \cdot \mu}$$
 
-with $\mu$ the achievable margin. The quantity is small, which is what makes the argument survivable, and it is not zero, which is what makes it an argument rather than an assertion. The article's position is that a rationale of this form is checkable only in order of magnitude and that it was treated at the time as more precise than it was.
+with $\mu$ the achievable margin. The quantity is small, which is what makes the argument survivable, and it is not zero, which is what makes it an argument rather than an assertion. The mission against which the burn is defined is documented in the architecture statements at the [2017 International Astronautical Congress presentation][ref_musk_iac_2017], the [SpaceX Starship programme][ref_spacex_starship_program], and the agency reference architectures at the [NASA Mars programme][ref_nasa_mars_program], the [NASA Mars science record][ref_nasa_science_mars], and the [Design Reference Architecture 5.0][ref_nasa_dra_5_0]. The article's position is that a rationale of this form is checkable only in order of magnitude and that it was treated at the time as more precise than it was.
 
 The capacity argument is the second and less frequently stated rationale, and the article regards it as the stronger of the two. By 2015 the vehicle programme the [Value Gradient article A282][related_post_a282_spacex_value_gradient] traces had produced a launch capability whose production and operations infrastructure was sized above the external demand available to it. A constellation is the application that consumes launch capacity in the largest quantity available anywhere, and it was the application most naturally matched to the specific surplus the firm held. The matching condition admits the compact statement
 
@@ -217,7 +219,7 @@ with the transfer price redistributing profit between the segments and leaving t
 
 $$\frac{\partial \Pi^{\text{launch}}}{\partial p^{\text{transfer}}} = q^{\text{internal}} = - \frac{\partial \Pi^{\text{constellation}}}{\partial p^{\text{transfer}}}$$
 
-with the two derivatives equal in magnitude and opposite in sign. The consequence is that any externally reported claim about the profitability of either segment separately is a claim about an accounting choice rather than about an economic fact, and the article declines to make such claims.
+with the two derivatives equal in magnitude and opposite in sign. The consequence is that any externally reported claim about the profitability of either segment separately is a claim about an accounting choice rather than about an economic fact, and the article declines to make such claims. The point is not peculiar to this firm. Segment reporting for a listed issuer operates under the management-approach standard at [Financial Accounting Standards Board Topic 280][ref_fasb_asc280] and the disclosure regime at [Regulation S-K][ref_sec_regulation_sk], under which reported segments follow the internal reporting structure rather than any economically defined boundary. A private firm publishes nothing at all, so the ambiguity that a listed issuer at least discloses the basis for is here entirely unresolved.
 
 The observation has a sharper implication for the competitive analysis. A competitor evaluating entry compares its own launch cost against the price it observes the parent charging external customers. That price is not the cost the spinoff bears. The competitor's inference error admits the compact form
 
@@ -229,7 +231,7 @@ The vertical structure also creates the conflict the competition-policy traditio
 
 $$q^{\text{internal}} + q^{\text{external}} \leq \bar{q} \qquad \text{with} \qquad \bar{q} \; \text{finite at any date}$$
 
-with every internal launch displacing an external one whenever the constraint binds. The arrangement is documented in the general [SpaceX corporate record][ref_spacex_company] and no public allocation rule exists, which means the question of whether the constraint has bound and how it was resolved is unanswerable from outside the firm.
+with every internal launch displacing an external one whenever the constraint binds. The arrangement is documented in the general [SpaceX corporate record][ref_spacex_company] and no public allocation rule exists, which means the question of whether the constraint has bound and how it was resolved is unanswerable from outside the firm. The corporate-law instruments through which such a conflict would ordinarily be tested are the fiduciary provisions of the [Delaware General Corporation Law][ref_dgcl] as interpreted by the [Delaware Court of Chancery][ref_delaware_chancery], or the equivalent provisions of the [Texas Business Organizations Code][ref_texas_boc] following the reincorporation the [Governance article A287][related_post_a287_spacex_governance] treats. A launch customer harmed by an allocation decision is a counterparty rather than a shareholder, so none of those instruments is available to it, and the [Securities and Exchange Commission investor education service][ref_sec_investor_gov] describes a disclosure regime that does not apply.
 
 ## The Launch-Cadence Coupling
 
@@ -247,7 +249,7 @@ launches per year thereafter. For a constellation of several thousand satellites
 
 $$\dot{N}^{\text{replenish}} \; > \; \dot{N}^{\text{global commercial, pre-programme}}$$
 
-with the steady-state obligation of a single constellation exceeding what the entire world launch industry had previously demonstrated. The comparison establishes that the capability had to be created rather than procured and is the quantitative form of the supply-unavailability condition the vertical-integration framing states.
+with the steady-state obligation of a single constellation exceeding what the entire world launch industry had previously demonstrated. The comparison establishes that the capability had to be created rather than procured and is the quantitative form of the supply-unavailability condition the vertical-integration framing states. The vehicle set through which the cadence was delivered is documented at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], the [Falcon Heavy vehicle page][ref_spacex_falcon_heavy_vehicle] and its [first flight record][ref_spacex_press_falcon_heavy_2018], and the [Starship programme page][ref_spacex_starship_program], with the site environmental approvals at the [Starship programmatic environmental assessment][ref_faa_starship_pea]. Systems-engineering practice for programmes of this class is documented in the [NASA programme management requirements][ref_nasa_npr_7120_5f] and the [International Council on Systems Engineering handbook][ref_incose_handbook], and the technical literature appears in the [Journal of Spacecraft and Rockets][ref_aiaa_jsr] and the [Journal of Propulsion and Power][ref_aiaa_jpp].
 
 The coupling runs in both directions and that is what makes it consequential. The constellation supplies the launch business with a demand stream large enough to justify the cadence, and the cadence drives the reuse experience that the [Decomposability article A285][related_post_a285_spacex_decomposability] and the [Value Gradient article A282][related_post_a282_spacex_value_gradient] identify as the source of cost reduction. The learning relationship admits the conventional form
 
@@ -335,7 +337,9 @@ Satellites in low Earth orbit experience atmospheric drag and deorbit within a p
 
 $$C^{\text{replenishment}} = \frac{S}{L} \cdot \left( c^{\text{satellite}} + \frac{c^{\text{launch}}}{b} \right)$$
 
-with the whole quantity recurring annually and indefinitely. The obligation is the reason satellite production rate rather than launch rate became the binding constraint on the programme, admitting the compact statement
+with the whole quantity recurring annually and indefinitely. The design choice is not purely commercial. The mitigation regime documented at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines] establishes post-mission disposal expectations that a low-orbit constellation satisfies most cheaply by operating at an altitude where drag performs the disposal without a dedicated manoeuvre. The regulatory obligation and the short lifetime are therefore the same design decision viewed from two directions, and the financial burden this section describes is in part the cost of compliance.
+
+The obligation is the reason satellite production rate rather than launch rate became the binding constraint on the programme, admitting the compact statement
 
 $$\dot{S}^{\text{production required}} = \frac{S}{L} \qquad \text{with} \qquad \dot{S}^{\text{production}} < b \cdot \dot{N}^{\text{launch capacity}}$$
 
@@ -357,7 +361,7 @@ with the advantage small where the replacement interval is short relative to the
 
 The regulatory position is the second structural constraint and it operates on a resource the venture cannot manufacture.
 
-The domestic authorization record comprises the [initial authorization][ref_fcc_starlink_2018], the [second-generation authorization][ref_fcc_starlink_gen2_2022], the [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024], and the general [filing system][ref_fcc_filings]. The international coordination operates through the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], under which spectrum and orbital-slot rights are coordinated among administrations rather than allocated by any single authority. Launch licensing runs through the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast]. The treaty framework comprises the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976], under which the launching state bears international responsibility for national activities.
+The domestic authorization record comprises the [initial authorization][ref_fcc_starlink_2018], the [second-generation authorization][ref_fcc_starlink_gen2_2022], the [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024], and the general [filing system][ref_fcc_filings]. The international coordination operates through the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], under which spectrum and orbital-slot rights are coordinated among administrations rather than allocated by any single authority. Launch licensing runs through the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast] under the [Commercial Space Launch Act][ref_csla_1984], its [amendments][ref_csla_amendments_2004], the [current provisions][ref_uscsla_2015], the [Part 450 licensing rule][ref_faa_ast_licensing_regs_450], the general [licensing regulations][ref_faa_ast_regulations], and the [financial responsibility and indemnification regime][ref_faa_financial_responsibility]. The agency's own authorities derive from [Title 51 Section 20113][ref_51_usc_20113], and export control over the spacecraft themselves operates through the [International Traffic in Arms Regulations][ref_itar_22_cfr_120_130], which is the reason a constellation operator's manufacturing footprint is less internationally distributable than its market. The treaty framework comprises the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976], under which the launching state bears international responsibility for national activities.
 
 Service in any national market requires that market's own authorization, which makes the regulatory position a per-country matter rather than a single approval. The addressable market admits the compact form
 
@@ -385,7 +389,7 @@ The deadline imposes a rate requirement rather than a quantity requirement, admi
 
 $$\dot{S}^{\text{deployed}} \; \geq \; \frac{S^{\text{filed}}}{T^{\text{bring-into-use}} - t^{\text{start}}}$$
 
-with failure to satisfy it forfeiting the filed position in whole or in part. A venture holding captive launch capacity controls the numerator's feasibility directly. A venture buying launch at market controls neither the rate nor the schedule, because its supplier allocates capacity across a manifest the venture does not set.
+with failure to satisfy it forfeiting the filed position in whole or in part. The domestic implementation of the milestone regime appears in the [initial authorization][ref_fcc_starlink_2018] and the [second-generation authorization][ref_fcc_starlink_gen2_2022], and the statutory basis for the licensing of the launches required to satisfy it runs through the [Commercial Space Launch Act][ref_csla_1984], its [subsequent amendments][ref_csla_amendments_2004], the [current commercial space launch provisions][ref_uscsla_2015], and the [Part 450 licensing rule][ref_faa_ast_licensing_regs_450]. A venture holding captive launch capacity controls the numerator's feasibility directly. A venture buying launch at market controls neither the rate nor the schedule, because its supplier allocates capacity across a manifest the venture does not set.
 
 The observation reframes the launch-cadence coupling. The cadence was not merely an economic advantage. It was the mechanism by which a regulatory option was exercised before it expired, and the option's value admits the compact statement
 
@@ -409,7 +413,7 @@ with the quadratic term the reason an increment to an already-populated shell is
 
 $$S^{\text{private}} : \; \frac{\partial \Pi_i}{\partial S_i} = 0 \qquad \text{against} \qquad S^{\text{social}} : \; \frac{\partial}{\partial S_i}\left[ \Pi_i + \sum_{j \neq i} \Pi_j \right] = 0$$
 
-with the private optimum exceeding the social one by the uninternalized external term. The structure is a standard common-pool problem and the literature the regulated-industry tradition supplies predicts under-provision of mitigation absent an allocation regime.
+with the private optimum exceeding the social one by the uninternalized external term. The structure is a standard common-pool problem and the literature the regulated-industry tradition supplies predicts under-provision of mitigation absent an allocation regime. The instruments that exist are liability and insurance rather than allocation. International responsibility runs through the [Liability Convention][ref_un_liability_convention_1972], domestic financial responsibility through the [Federal Aviation Administration indemnification regime][ref_faa_financial_responsibility], and the commercial risk-transfer market through the underwriters documented at [Aon space insurance][ref_aon_space_insurance] and the [Lloyd's market][ref_lloyds_market]. The article notes that none of these instruments prices the marginal congestion an additional satellite imposes, because each responds to a realized loss rather than to an increment in risk, so the externality survives the existence of an active insurance market.
 
 The article notes in fairness that the short design lifetime and active deorbit capability the constellation employs are substantially better mitigation practice than the geostationary and medium-orbit precedents exhibited, and that the aggregate risk nonetheless rises because the object count rises faster than the per-object risk falls. Both statements are true and the commentary generally asserts only one of them.
 
@@ -525,7 +529,7 @@ with separate budgets destroying the incentive compatibility irrespective of any
 
 The Chinese position documented at [China commercial space][ref_china_commercial_space] pursues constellation programmes with state financing and domestic launch capacity, which satisfies the captive-launch condition through common state ownership rather than through common corporate ownership. The article regards this as the closest structural analogue currently in existence and notes that it achieves the coupling by a different institutional route.
 
-The Indian and Japanese positions at [ISRO][ref_isro_press] and [JAXA][ref_jaxa_press] hold launch capability without a commercial constellation of comparable scale.
+The Indian and Japanese positions at [ISRO][ref_isro_press] and [JAXA][ref_jaxa_press] hold launch capability without a commercial constellation of comparable scale, and the broader Chinese programme record is at [China's space programme][ref_chinese_space_program]. The crewed-spaceflight and station lines that other commercial operators pursue are documented at the [Polaris programme][ref_polaris_program], the [NASA International Space Station record][ref_nasa_iss], and the general [NASA news record][ref_nasa_news], and the large-scale international scientific collaboration at the [ITER Organization][ref_iter_organization] supplies the contrasting institutional form in which no commercial spinoff is contemplated at all.
 
 The scarcity of the configuration admits the compact statement
 
@@ -554,7 +558,7 @@ $$\begin{array}{lccccc}
 \text{Chinese state programmes} & 1 & \ast & 1 & \ast & \ast
 \end{array}$$
 
-with $\ast$ marking a cell the available record does not establish. SpaceX exhibits closure on all five. Iridium exhibited non-closure on captive input and surplus capacity, closure on threshold market and regulatory priority, and non-closure on reinvestment scale. OneWeb exhibited the same pattern with an additional failure on regulatory priority following its deployment interruption. The Amazon programme exhibits non-closure on captive input, closure on reinvestment scale by virtue of its sponsor, and an unresolved position on regulatory priority. The Chinese state programmes exhibit closure on captive input through common ownership and an unresolved position on the remainder.
+with $\ast$ marking a cell the available record does not establish. The underlying deployment and financing data are reconstructed from [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], [Payload Research][ref_payload_research], and [PitchBook][ref_pitchbook], and the corporate comparators whose balance-sheet positions the reinvestment-scale column reflects are documented at [Alphabet investor relations][ref_alphabet_ir], [Meta investor relations][ref_meta_ir], and the [Berkshire Hathaway shareholder letters][ref_berkshire]. SpaceX exhibits closure on all five. Iridium exhibited non-closure on captive input and surplus capacity, closure on threshold market and regulatory priority, and non-closure on reinvestment scale. OneWeb exhibited the same pattern with an additional failure on regulatory priority following its deployment interruption. The Amazon programme exhibits non-closure on captive input, closure on reinvestment scale by virtue of its sponsor, and an unresolved position on regulatory priority. The Chinese state programmes exhibit closure on captive input through common ownership and an unresolved position on the remainder.
 
 The cross-sectional pattern indicates that the captive-input sub-property is the one that discriminates most sharply, and the correlation with the outcome admits the compact statement
 
@@ -566,7 +570,7 @@ with the availability of captive launch capacity carrying more information than 
 
 The article draws on primary and secondary sources with a pronounced asymmetry between the regulatory and financial layers.
 
-The primary-source layer on regulatory matters is complete and authoritative. Authorizations, filings, coordination records, and licensing decisions are public and were consulted directly.
+The primary-source layer on regulatory matters is complete and authoritative. Authorizations, filings, coordination records, and licensing decisions are public and were consulted directly through the [Commission filing system][ref_fcc_filings], the [Radio Regulations][ref_itu_radio_regulations_2020], and the [Office of Commercial Space Transportation][ref_faa_ast] record. Congressional deliberation on the statutory framework is at the [Congressional Record][ref_congressional_record] and the [House Science Committee hearing record][ref_house_science_committee_hearings]. The teaching-case reconstructions at the [Stanford Graduate School of Business case collection][ref_stanford_spacex_case], the [Harvard Business School case collection][ref_hbs_spacex_case], and the [Wharton knowledge repository][ref_wharton_spacex_case] supply secondary reconstructions assembled from the same public record and were used as cross-checks rather than as sources.
 
 The primary-source layer on financial matters is substantially absent. The firm is private, the spinoff has never been separately reported, and no segment disclosure exists. The reconstruction methodology therefore takes the regulatory record as the spine for anything concerning satellite counts, authorizations, and deployment dates, and relies on trade-press reconstruction for everything concerning subscribers, revenue, and cost.
 
@@ -598,7 +602,9 @@ The commons framing treats the orbital environment as a shared resource being ap
 
 $$p^{\text{orbital}}_i = \sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}$$
 
-with each operator charged the marginal external cost it imposes on the others. No such instrument exists in any jurisdiction. The framing therefore argues for an allocation regime rather than against any particular operator, and the article notes that the first operator to reach scale in an unpriced commons is the one an eventual regime would most constrain, which gives the incumbent an interest in the regime's design that is worth stating explicitly.
+with each operator charged the marginal external cost it imposes on the others. No such instrument exists in any jurisdiction. The framing therefore argues for an allocation regime rather than against any particular operator, and the article notes that the first operator to reach scale in an unpriced commons is the one an eventual regime would most constrain, which gives the incumbent an interest in the regime's design that is worth stating explicitly. The forums in which such a regime would be negotiated are the [International Telecommunication Union][ref_itu_radio_regulations_2020] process, the treaty framework at the [Outer Space Treaty][ref_un_outer_space_treaty_1967] and the [Registration Convention][ref_un_registration_convention_1976], and the domestic rulemaking record at the [Commission filing system][ref_fcc_filings].
+
+The comparative-institutional framing asks whether the arrangement is a feature of United States law and industrial structure specifically. The [United Kingdom Companies Act 2006][ref_uk_companies_act_2006] pre-emption regime and the corporate-governance expectations at the [Organisation for Economic Co-operation and Development][ref_oecd_corporate_governance] would each constrain the financing sequence that produced the capability, and the flexible contracting authorities at the [Department of Defense other-transaction guidance][ref_dod_other_transactions] have no direct analogue in most jurisdictions. The configuration is therefore less portable than its abstract statement suggests, which the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] develops for the procurement side.
 
 The industrial-policy framing treats the outcome as the return on the government investment the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] documents, and it generates the claim that the public has an equity-like interest in the result that the non-dilutive instrument failed to secure. The article regards the framing as analytically serious and notes that it is a claim about what the instrument should have been rather than about what it was.
 
@@ -703,46 +709,95 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Reference
 
+- [14 CFR Chapter III FAA Commercial Space Regulations][ref_faa_ast_regulations]
+- [14 CFR Part 450 Launch and Reentry Licensing][ref_faa_ast_licensing_regs_450]
 - [1956 AT&T Consent Decree][ref_att_consent_decree_1956]
 - [1984 AT&T Divestiture Modification of Final Judgment][ref_att_divestiture_1984]
+- [22 CFR 120 through 130 International Traffic in Arms Regulations][ref_itar_22_cfr_120_130]
+- [51 U.S.C. Chapter 509 Commercial Space Launch Act 1984][ref_csla_1984]
+- [AIAA Journal of Propulsion and Power][ref_aiaa_jpp]
+- [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr]
+- [Alphabet Investor Relations][ref_alphabet_ir]
+- [Aon Space and Aviation Risk Brokerage][ref_aon_space_insurance]
 - [ArianeGroup Press Releases][ref_arianegroup_press]
 - [Arianespace][ref_arianespace]
 - [Ars Technica Space Coverage][ref_arstechnica_space]
 - [Aviation Week Coverage][ref_aviation_week]
+- [Berkshire Hathaway Shareholder Materials][ref_berkshire]
 - [Bloomberg Business News][ref_bloomberg]
 - [Blue Origin Press Releases][ref_blue_origin_press]
 - [Boeing Press Releases][ref_boeing_press]
 - [Breaking Defense Coverage][ref_breaking_defense]
 - [BryceTech Sector Reports][ref_bryce_tech]
 - [China Commercial Space Industry Analysis][ref_china_commercial_space]
+- [Chinese Space Program Documentation][ref_chinese_space_program]
+- [Commercial Space Launch Amendments Act 2004][ref_csla_amendments_2004]
+- [Congressional Record][ref_congressional_record]
+- [Council of Institutional Investors][ref_cii]
 - [Defense News Coverage][ref_defense_news]
+- [Delaware Court of Chancery][ref_delaware_chancery]
+- [Delaware General Corporation Law Title 8 Chapter 1][ref_dgcl]
+- [Department of Defense Other Transaction Guidance][ref_dod_other_transactions]
 - [DOD Contract Announcements][ref_dod_contracts]
+- [European Corporate Governance Institute][ref_ecgi]
 - [European Spaceflight Coverage][ref_european_spaceflight]
 - [Eutelsat Corporate Record][ref_eutelsat_oneweb]
+- [FAA Financial Responsibility Requirements 14 CFR Part 440][ref_faa_financial_responsibility]
 - [FAA Office of Commercial Space Transportation][ref_faa_ast]
+- [FAA Starship Programmatic Environmental Assessment][ref_faa_starship_pea]
 - [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
 - [FCC Filings Database][ref_fcc_filings]
 - [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
 - [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
 - [Federal Procurement Data System][ref_fpds]
+- [Financial Accounting Standards Board][ref_fasb_asc280]
+- [FTSE Russell][ref_ftse_russell]
+- [Harvard Business School SpaceX Case][ref_hbs_spacex_case]
+- [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum]
+- [House Committee on Science Space and Technology Hearings on Commercial Crew][ref_house_science_committee_hearings]
 - [IBM Archives][ref_ibm_archives]
+- [INCOSE 2015 Systems Engineering Handbook][ref_incose_handbook]
 - [Indian Space Research Organisation Press Releases][ref_isro_press]
 - [Inter-Agency Space Debris Coordination Committee][ref_iadc_guidelines]
 - [Iridium Chapter 11 Bankruptcy Filing 1999][ref_iridium_chapter_11_1999]
 - [Iridium World Communications Press Release Archive 1998][ref_iridium_press_archive_1998]
+- [ITER Organization][ref_iter_organization]
 - [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
 - [Japanese Aerospace Exploration Agency Press Releases][ref_jaxa_press]
+- [Journal of Public Procurement][ref_journal_public_procurement]
+- [KSC LC-39A Lease Agreement][ref_ksc_lc39a_lease]
+- [Lloyd's of London Market][ref_lloyds_market]
+- [Meta Investor Relations][ref_meta_ir]
+- [Musk 2017 International Astronautical Congress Making Life Multi-Planetary][ref_musk_iac_2017]
+- [NASA Design Reference Architecture 5.0 for Mars][ref_nasa_dra_5_0]
+- [NASA History Archives][ref_nasa_history]
+- [NASA International Space Station Documentation][ref_nasa_iss]
+- [NASA Mars Exploration Program][ref_nasa_mars_program]
+- [NASA Mars Science Documentation][ref_nasa_science_mars]
+- [NASA News][ref_nasa_news]
 - [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
 - [NASA Orbital Debris Program Office][ref_nasa_orbital_debris]
+- [NASA Program and Project Life Cycle Requirements NPR 7120.5F][ref_nasa_npr_7120_5f]
 - [NASASpaceflight Coverage][ref_nasaspaceflight]
+- [Nasdaq Listing Rules][ref_nasdaq_listing_rules]
+- [National Bureau of Economic Research][ref_nber]
 - [New York Times][ref_nyt]
 - [Northrop Grumman Press Releases][ref_northrop_grumman_press]
+- [NYSE Listed Company Manual][ref_nyse_listed_company_manual]
+- [OECD Principles of Corporate Governance][ref_oecd_corporate_governance]
 - [OneWeb Corporate Record][ref_oneweb]
 - [Payload Newsletter][ref_payload]
 - [Payload Research][ref_payload_research]
 - [PitchBook Transaction Data][ref_pitchbook]
+- [Polaris Program][ref_polaris_program]
+- [Public Administration Review][ref_public_admin_review]
 - [Rocket Lab Press Releases][ref_rocket_lab_press]
+- [S&P Dow Jones Indices][ref_spdji]
 - [SEC EDGAR Company Search][ref_sec_edgar]
+- [SEC Investor Education Materials][ref_sec_investor_gov]
+- [SEC Regulation S-K Disclosure Requirements][ref_sec_regulation_sk]
+- [Social Science Research Network][ref_ssrn]
+- [Space Act Agreement Authority 51 USC 20113][ref_51_usc_20113]
 - [Space Capital Quarterly Reports][ref_space_capital]
 - [Space Force National Security Space Launch][ref_space_force_nssl]
 - [Space Policy Online][ref_space_policy_online]
@@ -750,19 +805,27 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [SpaceX Better Than Nothing Beta Press October 2020][ref_spacex_press_beta_2020]
 - [SpaceX Corporate Site][ref_spacex_company]
 - [SpaceX Falcon 9 Vehicle Documentation][ref_spacex_falcon9_vehicle]
+- [SpaceX Falcon Heavy Vehicle Documentation][ref_spacex_falcon_heavy_vehicle]
 - [SpaceX News Archive][ref_spacex_news_archive]
 - [SpaceX Press Release Block 5 Bangabandhu-1 May 2018][ref_spacex_press_block5_bangabandhu_2018]
 - [SpaceX Press Release Falcon 9 First Landing December 2015][ref_spacex_press_falcon9_first_landing_2015]
+- [SpaceX Press Release Falcon Heavy First Flight February 2018][ref_spacex_press_falcon_heavy_2018]
 - [SpaceX Press Release SES-10 First Refly March 2017][ref_spacex_press_ses10_2017]
 - [SpaceX Press Release Starlink First 60 Operational Satellites May 2019][ref_spacex_press_starlink_v0_9_2019]
 - [SpaceX Press Release Tintin A and B February 2018][ref_spacex_press_tintin_2018]
 - [SpaceX Seattle Facility Announcement January 2015][ref_spacex_seattle_announcement_2015]
 - [SpaceX Starlink Program Page][ref_spacex_starlink]
 - [SpaceX Starshield Product Page][ref_spacex_starshield]
+- [SpaceX Starship Program Page][ref_spacex_starship_program]
 - [Standard Oil Dissolution Supreme Court Decision 1911][ref_standard_oil_1911]
+- [Stanford Graduate School of Business SpaceX Case][ref_stanford_spacex_case]
 - [Starlink Direct to Cell][ref_starlink_direct_to_cell]
 - [Starlink Technology][ref_starlink_technology]
+- [Texas Business Organizations Code][ref_texas_boc]
+- [The Conference Board][ref_conference_board]
 - [The Space Review][ref_the_space_review]
+- [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
+- [United Kingdom Companies Act 2006][ref_uk_companies_act_2006]
 - [United Launch Alliance Press Releases][ref_ula_press]
 - [United Nations Liability Convention 1972][ref_un_liability_convention_1972]
 - [United Nations Outer Space Treaty 1967][ref_un_outer_space_treaty_1967]
@@ -770,7 +833,9 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11]
 - [United States Bankruptcy Courts][ref_uscourts_bankruptcy]
 - [USAspending Federal Award Data][ref_usaspending]
+- [Vandenberg SLC-4E Environmental Assessment][ref_vandenberg_slc4e_ea]
 - [Wall Street Journal][ref_wsj]
+- [Wharton SpaceX Case][ref_wharton_spacex_case]
 
 ### Research
 
@@ -883,6 +948,11 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_wu_2010]: https://www.penguinrandomhouse.com/books/181430/the-master-switch-by-tim-wu/
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
+[ref_51_usc_20113]: https://www.law.cornell.edu/uscode/text/51/20113
+[ref_aiaa_jpp]: https://arc.aiaa.org/journal/jpp
+[ref_aiaa_jsr]: https://arc.aiaa.org/journal/jsr
+[ref_alphabet_ir]: https://abc.xyz/investor/
+[ref_aon_space_insurance]: https://www.aon.com/
 [ref_arianegroup_press]: https://www.arianegroup.com/en/news/press-releases/
 [ref_arianespace]: https://www.arianespace.com/
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
@@ -890,66 +960,120 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_att_divestiture_1984]: https://www.corp.att.com/history/nethistory/divestiture.html
 [ref_aviation_week]: https://aviationweek.com/
 [ref_bankruptcy_code_ch11]: https://www.law.cornell.edu/uscode/text/11/chapter-11
+[ref_berkshire]: https://www.berkshirehathaway.com/
 [ref_bloomberg]: https://www.bloomberg.com/
 [ref_blue_origin_press]: https://www.blueorigin.com/news/
 [ref_boeing_press]: https://boeing.mediaroom.com/
 [ref_breaking_defense]: https://breakingdefense.com/
 [ref_bryce_tech]: https://brycetech.com/reports
 [ref_china_commercial_space]: https://spacenews.com/topic/china/
+[ref_chinese_space_program]: https://www.cnsa.gov.cn/english/
+[ref_cii]: https://www.cii.org/
+[ref_conference_board]: https://www.conference-board.org/
+[ref_congressional_record]: https://www.congress.gov/congressional-record
+[ref_csla_1984]: https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509
+[ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
 [ref_defense_news]: https://www.defensenews.com/
+[ref_delaware_chancery]: https://courts.delaware.gov/chancery/
+[ref_dgcl]: https://delcode.delaware.gov/title8/c001/
 [ref_dod_contracts]: https://www.defense.gov/News/Contracts/
+[ref_dod_other_transactions]: https://aida.mitre.org/ota/
+[ref_ecgi]: https://www.ecgi.global/
 [ref_european_spaceflight]: https://europeanspaceflight.com/
 [ref_eutelsat_oneweb]: https://www.eutelsat.com/
 [ref_faa_ast]: https://www.faa.gov/space
+[ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
+[ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
+[ref_faa_financial_responsibility]: https://www.ecfr.gov/current/title-14/part-440
+[ref_faa_starship_pea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
+[ref_fasb_asc280]: https://www.fasb.org/
 [ref_fcc_direct_to_cell_2024]: https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf
 [ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
 [ref_fcc_starlink_2018]: https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf
 [ref_fcc_starlink_gen2_2022]: https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf
 [ref_fpds]: https://www.fpds.gov/
+[ref_ftse_russell]: https://www.lseg.com/en/ftse-russell
+[ref_harvard_corpgov_forum]: https://corpgov.law.harvard.edu/
+[ref_hbs_spacex_case]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
+[ref_house_science_committee_hearings]: https://science.house.gov/
 [ref_iadc_guidelines]: https://www.iadc-home.org/
 [ref_ibm_archives]: https://www.ibm.com/history/
+[ref_incose_handbook]: https://www.incose.org/products-and-publications/se-handbook
 [ref_iridium_chapter_11_1999]: https://www.sec.gov/Archives/edgar/data/1029074/0000912057-99-034228.txt
 [ref_iridium_press_archive_1998]: https://www.iridium.com/
 [ref_isro_press]: https://www.isro.gov.in/
+[ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
+[ref_iter_organization]: https://www.iter.org/
 [ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
 [ref_jaxa_press]: https://global.jaxa.jp/press/
+[ref_journal_public_procurement]: https://www.emerald.com/insight/publication/issn/1535-0118
+[ref_ksc_lc39a_lease]: https://www.nasa.gov/kennedy/
+[ref_lloyds_market]: https://www.lloyds.com/
+[ref_meta_ir]: https://investor.atmeta.com/
+[ref_musk_iac_2017]: https://arc.aiaa.org/doi/10.1089/space.2018.29013.emu
+[ref_nasa_dra_5_0]: https://ntrs.nasa.gov/citations/20090012109
+[ref_nasa_history]: https://history.nasa.gov/
+[ref_nasa_iss]: https://www.nasa.gov/international-space-station/
+[ref_nasa_mars_program]: https://mars.nasa.gov/
+[ref_nasa_news]: https://www.nasa.gov/news/
+[ref_nasa_npr_7120_5f]: https://nodis3.gsfc.nasa.gov/npg_img/N_PR_7120_005F_/N_PR_7120_005F_.pdf
 [ref_nasa_orbital_debris]: https://orbitaldebris.jsc.nasa.gov/
 [ref_nasa_orbital_debris_mitigation]: https://orbitaldebris.jsc.nasa.gov/mitigation/
+[ref_nasa_science_mars]: https://science.nasa.gov/mars/
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
+[ref_nasdaq_listing_rules]: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules
+[ref_nber]: https://www.nber.org/
 [ref_northrop_grumman_press]: https://news.northropgrumman.com/
+[ref_nyse_listed_company_manual]: https://nyseguide.srorules.com/listed-company-manual
 [ref_nyt]: https://www.nytimes.com/section/science/space
+[ref_oecd_corporate_governance]: https://www.oecd.org/corporate/principles-corporate-governance/
 [ref_oneweb]: https://oneweb.net/
 [ref_payload]: https://payloadspace.com/
 [ref_payload_research]: https://payloadspace.com/research/
 [ref_pitchbook]: https://pitchbook.com/
+[ref_polaris_program]: https://polarisprogram.com/
+[ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
 [ref_rocket_lab_press]: https://www.rocketlabusa.com/updates/
 [ref_sec_edgar]: https://www.sec.gov/edgar/searchedgar/companysearch
+[ref_sec_investor_gov]: https://www.investor.gov/
+[ref_sec_regulation_sk]: https://www.ecfr.gov/current/title-17/part-229
 [ref_space_capital]: https://www.spacecapital.com/
 [ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
 [ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacenews]: https://spacenews.com/
 [ref_spacex_company]: https://www.spacex.com/
 [ref_spacex_falcon9_vehicle]: https://www.spacex.com/vehicles/falcon-9/
+[ref_spacex_falcon_heavy_vehicle]: https://www.spacex.com/vehicles/falcon-heavy/
 [ref_spacex_news_archive]: https://www.spacex.com/updates/
 [ref_spacex_press_beta_2020]: https://www.spacex.com/updates/
 [ref_spacex_press_block5_bangabandhu_2018]: https://www.spacex.com/updates/
 [ref_spacex_press_falcon9_first_landing_2015]: https://www.spacex.com/news/2015/12/22/orbcomm-2-mission-successful-first-landing-orbital-rocket
+[ref_spacex_press_falcon_heavy_2018]: https://www.spacex.com/news/2018/02/06/successful-first-flight-falcon-heavy
 [ref_spacex_press_ses10_2017]: https://www.spacex.com/news/2017/03/30/spacex-successfully-launches-first-reused-rocket
 [ref_spacex_press_starlink_v0_9_2019]: https://www.spacex.com/updates/
 [ref_spacex_press_tintin_2018]: https://www.spacex.com/updates/
 [ref_spacex_seattle_announcement_2015]: https://www.spacex.com/updates/
 [ref_spacex_starlink]: https://www.starlink.com/
 [ref_spacex_starshield]: https://www.spacex.com/starshield/
+[ref_spacex_starship_program]: https://www.spacex.com/vehicles/starship/
+[ref_spdji]: https://www.spglobal.com/spdji/en/
+[ref_ssrn]: https://www.ssrn.com/
 [ref_standard_oil_1911]: https://supreme.justia.com/cases/federal/us/221/1/
+[ref_stanford_spacex_case]: https://www.gsb.stanford.edu/faculty-research/case-studies
 [ref_starlink_direct_to_cell]: https://www.starlink.com/business/direct-to-cell
 [ref_starlink_technology]: https://www.starlink.com/technology
+[ref_texas_boc]: https://statutes.capitol.texas.gov/Docs/BO/htm/BO.21.htm
 [ref_the_space_review]: https://www.thespacereview.com/
+[ref_uk_companies_act_2006]: https://www.legislation.gov.uk/ukpga/2006/46/contents
 [ref_ula_press]: https://www.ulalaunch.com/about/news
 [ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
 [ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
 [ref_un_registration_convention_1976]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html
 [ref_usaspending]: https://www.usaspending.gov/
 [ref_uscourts_bankruptcy]: https://www.uscourts.gov/court-programs/bankruptcy
+[ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
+[ref_vandenberg_slc4e_ea]: https://www.faa.gov/space/environmental
+[ref_wharton_spacex_case]: https://knowledge.wharton.upenn.edu/
 [ref_wsj]: https://www.wsj.com/tech
 [related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
 [related_post_a161_patent_intro]: {% post_url 2026-05-03-what_a_patent_is_and_is_not %}

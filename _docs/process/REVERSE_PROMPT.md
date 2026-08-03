@@ -9,43 +9,35 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-03
-**Task**: A291 equation-density expansion pass. 49 display equations added, 26 to 75. Reference-density pass remains.
+**Task**: A291 primary-reference expansion pass. 59 primary reference URLs added, 68 to 127. Total anchors 173 to 232.
 
 ---
 
-## How the Pass Was Scoped
+## How the Audit Found the Gaps
 
-I measured A290's per-section distribution, which sits at 77 and is at publication-review parity, and matched its shape rather than applying a per-word ratio. The six sections that carry zero equations in every sibling stayed at zero.
+I measured primary-reference density per section. Seven carried **no primary sources at all**:
 
-| Section | Before | After |
-|---|---|---|
-| Cross-Disciplinary Framings | 0 | 8 |
-| The Commercial Spinoff as an Economic Property | 5 | 7 |
-| The Launch-Cadence Coupling | 3 | 5 |
-| Vertical Integration and the Internal Transfer Price | 1 | 4 |
-| Capital Intensity and the Replenishment Treadmill | 2 | 4 |
-| Alternative Analytical Frameworks | 0 | 4 |
-| Mapping Problem | 2 | 4 |
-| Deep Historical Comparative Precedents | 0 | 3 |
-| Remaining narrative and comparison sections | 0 to 2 each | 2 to 3 each |
+- The Category-Dominating Spinoff Mapping Problem
+- The Commercial Spinoff as an Economic Property
+- Cross-Disciplinary Framings
+- Capital Intensity and the Replenishment Treadmill
+- Comparative Cross-Sectional Analysis
+- Data Sources and Reconstruction Methodology
+- Alternative Analytical Frameworks
+
+Every added URL came from the verified sibling corpus and was rechecked by HTTP request before use.
 
 ---
 
-## Six Additions That Carry New Argument
+## Two Placements That Changed the Argument
 
-Most of the 49 formalize claims already present. These six change or sharpen something.
+Most of the 59 attach sources to claims already made. These two altered what the article says.
 
-1. **Make-or-buy is the wrong test here.** The transaction-cost condition compares internal cost plus governance cost against market price. This case does not turn on that inequality at all. No supplier existed at the required cadence at any price, so the condition is an existence claim rather than a comparison. **The integration would have been correct even had it been more expensive than buying**, which is not the case the literature ordinarily treats.
+**1. The short satellite lifetime is partly a compliance cost, not purely a commercial choice.** Placing the orbital-debris mitigation regime behind the design decision made the connection visible. A low-orbit constellation satisfies post-mission disposal expectations most cheaply by operating where drag performs the disposal without a dedicated manoeuvre.
 
-2. **The spinoff lowers the parent's cost of serving its own external customers.** Spreading fixed cost across more flights drops average cost, so the constellation improves the merchant launch business as a by-product of consuming it. That is the reverse of the resource diversion the diversification literature predicts, and I now treat it as **the strongest single piece of evidence that this is not a diversification**.
+That has an uncomfortable consequence for the article's own structure. **The replenishment treadmill I treat as the spinoff's principal structural liability is in part the price of the mitigation practice I credit the operator for.** The two sections were making opposing points about the same design decision without acknowledging each other. They now do.
 
-3. **Consumer broadband fails the two-sided-market test.** A genuine platform requires each side's utility to rise in the other's participation. For shared-capacity broadband, an additional subscriber weakly *degrades* service. So importing platform pricing conclusions into the broadband business is an error, and only the direct-to-cell service qualifies.
-
-4. **The latency ratio explains the incumbents' non-response.** Low orbit cuts propagation latency by about two orders of magnitude, which moves the service across the threshold where interactive applications become usable. That is a discontinuity in the served application set, not an improvement along an existing dimension — which is why operators optimized for a different design point did not react.
-
-5. **Bring-into-use is a rate requirement, and the option collapses rather than degrades.** The filing's value is an indicator times the protected position, so missing the deadline forfeits it discontinuously. This is the formal core of the spectrum-priority finding and makes it sharper than the prose alone had it.
-
-6. **The treadmill has a favorable side I had not stated.** Uniform replacement fixes the fleet's average age at half a design lifetime, so the constellation is permanently refreshed with current-generation hardware instead of ageing toward obsolescence as a geostationary fleet does. That partially offsets the capital burden the same section describes.
+**2. The insurance market does not solve the congestion externality.** I placed the Liability Convention, the federal indemnification regime, and the commercial underwriting market behind the externality section, expecting them to qualify the common-pool claim. They do not. Each instrument responds to a **realized loss** rather than to an **increment in risk**, so none of them prices the marginal congestion an additional satellite imposes. The externality survives the existence of an active risk-transfer market, which is a stronger version of the claim than the section previously made.
 
 ---
 
@@ -53,34 +45,39 @@ Most of the 49 formalize claims already present. These six change or sharpen som
 
 | Metric | Before | After |
 |---|---|---|
-| Lines | 796 | 1,013 |
-| Words | ~10,203 | ~13,199 |
-| **Display equations** | **26** | **75** |
-| H2 / H3 sections | 28 / 12 | 28 / 12 |
-| Total reference anchors | 173 | 173 |
+| Lines | 1,013 | 1,137 |
+| Words | ~13,199 | ~14,839 |
+| Display equations | 75 | 75 |
+| Book references | 46 | 46 |
+| **Primary reference URLs** | **68** | **127** |
+| Research references | 39 | 39 |
+| Related-post cross-references | 20 | 20 |
+| **Total reference anchors** | **173** | **232** |
 | Missing / unused / duplicate | 0 / 0 / 0 | 0 / 0 / 0 |
 | Duplicate URLs | 0 | 0 |
 | Style violations | 0 | 0 |
 
-LaTeX balanced at 32 matched `\left` and `\right` pairs, braces and array environments matched, every macro within the MathJax `tex-mml-chtml` default package set.
+Primary references at 127 are comparable to A289 at 130 and A290 at 134. All three reference blocks verified alphabetical.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **Reference-density pass is the remaining item.** 173 anchors against the 190-234 baseline, with books at 46 and research at 39 as the gap.
+1. **Books at 46 and research at 39 are the remaining gap.** A288 carries 116 and 110, A290 carries 106 and 72. You asked specifically for primary references, so this is deliberate rather than an oversight, and it is the target for the publication-review pass.
 
-2. **One equation is an approximation I want flagged.** The coverage-density relation over latitude is a simplified dwell-time expression, correct in form and in its limiting behaviour but not a rigorous derivation of constellation coverage. It is doing illustrative work in explaining why deployment ran high-latitude first, and it should not be read as a design formula.
+2. **Three dead inherited URLs were dropped rather than replaced.** The Journal of Space Law, the NASA technical standard for orbital debris, and the McGill space-law publication list all 404. None was load-bearing, and guessing at replacements is how the fabricated citations in the published articles got there. Dropping was the safer call.
 
-3. **The publication batch is still four**, A288 through A291, and A288 still carries two of the fabricated citations from the earlier audit.
+3. **Two Starship anchors shared a URL** and were consolidated.
 
-4. **No build verification is possible** until the batch stages together.
+4. **URL sweep.** All 127 primary URLs checked. **Zero 404s.** 106 confirmed 200; the other 21 are documented bot-detection, paywall, or rate-limit hosts. I extended `URL_VERIFICATION.md` with eight new ones observed here, including the Federal Communications Commission and the Financial Accounting Standards Board.
+
+5. **The publication batch is still four**, and A288 still carries two fabricated citations from the earlier audit.
 
 ---
 
 ## Suggested Next Steps
 
-- Reference-density pass on A291, concentrating on books and research.
+- Publication-review pass on A291, targeting books and research where the gap now sits.
 - Then A292, the closing article.
 - Resolve the citation-integrity remediation before the batch publishes.
 - Publish A288 through A291 as a four-article batch.
