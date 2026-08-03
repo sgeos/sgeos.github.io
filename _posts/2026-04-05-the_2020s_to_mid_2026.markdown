@@ -31,7 +31,7 @@ into
 mature programming languages
 and toolchains
 that
-substantial industrial software
+considerable industrial software
 runs on.
 The fourth History of Programming Languages conference,
 originally scheduled for London
@@ -51,7 +51,7 @@ by
 two thousand eleven,
 which
 consolidated
-substantial portions
+significant portions
 of
 [the twenty tens][related_post_a214]
 programming-language history.
@@ -212,7 +212,7 @@ the designers
 of
 significant programming languages,
 subject to
-substantial peer review
+marked peer review
 comparable to
 the review process
 of
@@ -272,11 +272,11 @@ of
 HOPL IV
 established
 that
-substantial peer-reviewed conferences
+extensive peer-reviewed conferences
 could be held
 online
 without
-substantial loss
+sizable loss
 of
 technical content,
 which
@@ -292,7 +292,7 @@ the papers,
 which
 made
 the historical material
-substantially more accessible
+considerably more accessible
 than
 the physical proceedings alone
 had been.
@@ -331,7 +331,7 @@ the language.
 
 Lean 4
 was
-substantially
+significantly
 a working programming language
 in addition to
 a proof assistant.
@@ -345,7 +345,7 @@ were
 written in Lean itself.
 The design
 allowed
-substantial libraries
+appreciable libraries
 including
 Mathlib,
 the mathematical library,
@@ -385,7 +385,7 @@ which acts
 as
 a foundation
 for
-substantial mathematical formalization work.
+considerable mathematical formalization work.
 By
 the middle of
 two thousand twenty-six,
@@ -393,7 +393,7 @@ Mathlib
 contained
 formalizations
 of
-substantial portions
+significant portions
 of
 undergraduate mathematics
 including
@@ -429,7 +429,7 @@ from
 Coq to Lean 4
 across
 the middle of the decade
-was substantial
+was marked
 enough
 to
 prompt
@@ -489,7 +489,7 @@ Persian mythology.
 
 The rename
 was
-substantially
+markedly
 a marketing decision
 rather than
 a technical one.
@@ -527,7 +527,7 @@ Lean 4.
 The Rocq Prover
 continues
 to be
-substantially used
+appreciably used
 for
 mathematical formalization
 including
@@ -538,7 +538,7 @@ began
 in
 [the two thousands][related_post_a213]
 and
-substantial software-verification work
+extensive software-verification work
 including
 CompCert,
 CertiKOS,
@@ -671,7 +671,7 @@ to
 Standard ML.
 CakeML
 was
-substantially the first
+greatly the first
 verified compiler
 whose
 input language
@@ -734,7 +734,7 @@ including
 Mozilla Firefox's NSS library,
 the Linux kernel's WireGuard implementation,
 and
-substantial portions of
+sizable portions of
 the Windows kernel's cryptographic subsystem.
 The library's adoption
 established that
@@ -755,7 +755,7 @@ of production-scale software
 was
 practical
 in
-substantial industrial contexts.
+appreciable industrial contexts.
 The pattern
 of using
 a proof assistant's programming language
@@ -875,7 +875,7 @@ adjacent contexts.
 The Rhai scripting language
 for Rust
 carries
-substantial dynamic-typing features
+considerable dynamic-typing features
 in
 an embedded-scripting-language niche
 that
@@ -922,7 +922,7 @@ certain embedded scripting languages.
 The WCET analysis
 tradition
 had begun
-substantially
+considerably
 in
 avionics
 and
@@ -991,7 +991,7 @@ of
 its resource claims.
 The property
 is
-substantially
+significantly
 a synthesis
 of
 [the definitive-bound tradition][related_post_a207]
@@ -1033,7 +1033,7 @@ is
 a general direction
 that
 the following decade
-will substantially develop.
+will markedly develop.
 
 ## New Languages of the Decade So Far
 
@@ -1041,7 +1041,7 @@ Three new statically typed programming languages
 of
 the twenty twenties
 have gained
-substantial developer attention,
+significant developer attention,
 though
 none
 has
@@ -1067,7 +1067,7 @@ substantial development
 across
 the twenty twenties,
 became
-substantially adopted
+appreciably adopted
 as
 a modern C alternative
 whose
@@ -1097,7 +1097,7 @@ mid two thousand twenty-six,
 but
 its adoption
 in
-substantial systems programming projects
+marked systems programming projects
 suggests
 that
 the language
@@ -1154,7 +1154,7 @@ a version one point zero release
 by
 mid two thousand twenty-six
 but had
-substantial developer attention
+extensive developer attention
 in
 functional-programming-adjacent contexts.
 
@@ -1171,7 +1171,7 @@ is
 a functional logic programming language
 whose design
 was
-substantially influenced
+greatly influenced
 by Simon Peyton Jones,
 who joined Epic Games
 in
@@ -1190,7 +1190,7 @@ in
 Epic Games' Unreal Editor for Fortnite.
 The language
 carries
-substantial functional-logic-programming features
+sizable functional-logic-programming features
 that
 [the article on the nineteen seventies][related_post_a209]
 covers
@@ -1200,7 +1200,7 @@ through Prolog's declarative discipline.
 
 The twenty twenties
 have seen
-substantial development
+appreciable development
 in
 large language model-assisted
 programming
@@ -1226,7 +1226,7 @@ and
 premise-selection
 mechanisms,
 which
-has substantially
+has considerably
 accelerated
 the mechanization
 of
@@ -1285,7 +1285,7 @@ of the decade
 carry
 features
 that
-were substantially designed
+were significantly designed
 to be
 accessible
 to large language models
@@ -1297,11 +1297,11 @@ with
 substantially reduced
 implicit-behavior surfaces
 and
-substantially explicit
+markedly explicit
 type discipline.
 The design pattern
 has
-substantial precedent
+considerable precedent
 in
 [the compact-toolchain discipline][related_post_a214]
 that
@@ -1316,9 +1316,9 @@ that
 a language
 whose surface
 carries
-substantially explicit type discipline
+appreciably explicit type discipline
 and
-substantially reduced
+greatly reduced
 implicit behavior
 is
 easier
@@ -1334,7 +1334,7 @@ integration
 into
 programming
 is
-substantially
+considerably
 a current-events story
 that
 this article
@@ -1370,7 +1370,7 @@ that
 [the opener article][related_post_a206]
 introduces,
 alongside
-substantial industrial announcements
+significant industrial announcements
 and
 open-source developments
 that
@@ -1477,7 +1477,7 @@ The gaps
 between
 research and production
 are
-substantial
+marked
 in
 programming language theory.
 The historical arc
@@ -1549,7 +1549,7 @@ CompCert,
 seL4,
 and HACL asterisk
 in
-substantial production deployments
+extensive production deployments
 in
 avionics,
 security-adjacent systems,
@@ -1639,7 +1639,7 @@ has drawn on.
 
 The current state of practice
 carries
-substantial evidence
+sizable evidence
 that
 the arc
 is
@@ -1649,9 +1649,9 @@ Rust
 and
 TypeScript
 have
-substantial industrial adoption.
+appreciable industrial adoption.
 Lean 4
-has substantial adoption
+has considerable adoption
 in mechanized mathematics.
 OCaml 5
 carries effect handlers

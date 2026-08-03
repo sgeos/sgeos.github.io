@@ -969,7 +969,7 @@ The picking and hit-testing framework
 gathers the inverse-map material
 of the previous projection-mode articles
 into a single cross-cutting treatment.
-The framework
+The account
 distinguishes the three disambiguation strategies
 that the inverse map admits,
 treats the numerical stability of the inverse

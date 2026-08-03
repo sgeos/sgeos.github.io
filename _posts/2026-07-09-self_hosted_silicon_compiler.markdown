@@ -274,7 +274,7 @@ The compiler-tradition literature
 addresses
 the self-hosting
 question
-substantially.
+considerably.
 A self-hosted compiler
 is
 a compiler
@@ -554,7 +554,7 @@ that
 Somlo's project
 demonstrates
 is
-substantial.
+considerable.
 The system
 is
 capable of
@@ -660,7 +660,7 @@ technology
 ends
 and
 where
-substantially harder
+significantly harder
 research directions
 begin.
 Above
@@ -684,7 +684,7 @@ depends on
 physical fabrication processes
 that
 require
-substantial industrial infrastructure
+significant industrial infrastructure
 including
 photolithographic steppers,
 chemical vapour deposition equipment,
@@ -774,7 +774,7 @@ that
 future fabrication processes
 might
 be
-substantially more
+markedly more
 representable
 in
 description languages
@@ -828,7 +828,7 @@ the self-hosting property
 below
 the silicon boundary
 requires
-substantial advances
+marked advances
 in
 fabrication technology
 that
@@ -846,7 +846,7 @@ that
 would be
 required
 is
-substantial
+extensive
 but
 not
 unprecedented,
@@ -882,7 +882,7 @@ partial progress.
 **Compact synthesis toolchains.**
 Yosys
 is
-substantially
+appreciably
 more compact
 than
 the proprietary
@@ -937,7 +937,7 @@ a
 minimal grammar
 requires
 a
-substantially smaller compiler
+greatly smaller compiler
 than
 a language
 with
@@ -953,7 +953,7 @@ in Digital Science and Technology
 in France,
 provides
 a
-substantially simpler
+considerably simpler
 grammar
 than
 Verilog or VHDL
@@ -978,7 +978,7 @@ but
 its grammar
 suggests
 that
-substantially simpler
+significantly simpler
 languages
 are
 compatible with
@@ -1064,7 +1064,7 @@ register-transfer-level
 simulation
 suggests
 that
-substantial parts
+sizable parts
 of
 the synthesis pipeline
 are
@@ -1085,7 +1085,7 @@ device
 as
 the target design
 would
-substantially
+markedly
 reduce
 the compile-cycle time
 that
@@ -1258,7 +1258,7 @@ can inspect
 and modify
 provides
 a
-substantially more
+appreciably more
 transparent
 learning environment
 than
@@ -1278,7 +1278,7 @@ the entire toolchain
 even when
 the compile-cycle time
 is
-substantially longer
+greatly longer
 than
 the industrial alternative.
 
@@ -1306,7 +1306,7 @@ such systems
 require.
 The application
 is
-substantially
+considerably
 longer-term
 than
 the trust-adjacent
@@ -1367,7 +1367,7 @@ the silicon boundary.
 The reproducible-hardware-builds
 community
 is
-substantially
+significantly
 smaller than
 the reproducible-software-builds
 community
@@ -1479,7 +1479,7 @@ the loop
 is
 complete
 without
-substantial additional
+appreciable additional
 components.
 Article A202
 identified
@@ -1577,7 +1577,7 @@ articles A201 and A202
 identified.
 The concept
 has
-substantial existing prior art
+considerable existing prior art
 in
 the software compiler tradition,
 which
@@ -1587,7 +1587,7 @@ articles A188 through A199
 developed
 in detail,
 and
-substantial
+significant
 current-generation
 demonstration
 in
@@ -1655,7 +1655,7 @@ that
 extending self-hosting
 would require
 is
-substantial
+marked
 but
 not unprecedented,
 and
@@ -1681,7 +1681,7 @@ reproducible-builds
 hardware distribution.
 The applications
 are
-substantial
+extensive
 enough
 to
 justify
@@ -1754,7 +1754,7 @@ across
 both
 components
 is
-substantial
+sizable
 enough
 to
 justify

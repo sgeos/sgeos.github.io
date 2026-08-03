@@ -13,15 +13,15 @@ series_index: 10
 <!-- A275 -->
 <script>console.log("A275");</script>
 
-This tenth article of the series treats the 2000-2024 period during which the American ethnoreligious landscape underwent substantial post-9/11 transformation, Catholic clergy sexual abuse crisis, same-sex marriage trajectory culminating in Obergefell 2015 and Dobbs v. Jackson 2022 overturning Roe, expansion of religious "Nones" to approximately 30% by 2020, Christian nationalism emergence, and new refugee and immigration flows including Afghan Operation Allies Welcome 2021 and Ukrainian Uniting for Ukraine 2022 alongside expanded African, Latino, and South Asian population diversification. Coverage includes the 11 September 2001 attacks and post-9/11 Muslim American backlash, USA PATRIOT Act 2001 and religious surveillance expansion, Iraq War 2003 and American religious mobilization combining evangelical support and mainline Protestant/Catholic opposition, Catholic clergy sexual abuse crisis and Boston Globe Spotlight 2002 revelations reaching approximately $4 billion cumulative American Catholic diocesan settlement expenditure, 2004 Bush reelection and evangelical voter consolidation, same-sex marriage trajectory from Massachusetts Goodridge 2003 through California Proposition 8 2008 through Obergefell v. Hodges 2015 and 2022 Respect for Marriage Act, Burwell v. Hobby Lobby 2014 religious exemption framework and 2015-2024 religious liberty jurisprudence, Obama election 2008 and religious politics including Jeremiah Wright controversy, prosperity gospel expansion through Joel Osteen, Joyce Meyer, Kenneth Copeland, and various figures, New Atheism 2004-2010 under Richard Dawkins, Christopher Hitchens, Sam Harris, and Daniel Dennett, rise of religious "Nones" to approximately 30% by 2020, deconstruction and "exvangelical" movements, Christian nationalism emergence and 2020 election contest religious dimensions, Southern Baptist Convention post-1979 trajectory and 2021 sexual abuse crisis, African migration expansion including Nigerian, Ethiopian, Somali, and Ghanaian populations reaching approximately 2.4 million African-born US population by 2020, Latino diversification through Guatemalan, Salvadoran, Honduran, and Venezuelan flows, South Asian mainstreaming through second-generation Indian American, Pakistani American, and Bangladeshi American populations reaching substantial professional integration, post-2001 refugee dynamics including Afghan population from Operation Allies Welcome 2021 (approximately 80,000 admissions), Iraqi refugee admissions primarily under 2007 Iraqi Refugee Admissions Program (approximately 145,000 cumulative admissions through 2020), and Syrian refugee admissions under Obama administration (approximately 21,000 admissions 2011-2017), Ukrainian Uniting for Ukraine 2022 (approximately 260,000 admissions), Central American migration and 2018 family separation policy under Trump zero tolerance framework, Trump Muslim ban 2017 (Executive Order 13769 subsequently modified) and Trump v. Hawaii 2018 Supreme Court decision, refugee admissions decline from approximately 85,000 annual ceiling under Obama to approximately 18,000 under Trump before Biden restoration, Cuban 2022 exodus, Haitian 2021 Del Rio bridge crisis, DACA 2012 Deferred Action for Childhood Arrivals program, religious-motivated attacks including 2012 Oak Creek Sikh temple shooting, 2015 Charleston Emanuel AME shooting, 2018 Tree of Life synagogue Pittsburgh shooting, COVID-19 pandemic 2020-2022 and American religious institutional response, 2020 racial justice mobilization following George Floyd killing, Dobbs v. Jackson Women's Health Organization 2022 overturning Roe v. Wade, contemporary religious sorting producing characteristic evangelical Protestant-Republican and mainline Protestant/Catholic/Jewish/Nones-Democratic partisan realignment, Ground Zero mosque controversy 2010 as inflection point in twenty-first-century Islamophobia expansion, Pope Benedict XVI 2013 resignation and Pope Francis March 2013 election as first Latin American Pope and Jesuit Pope inaugurating contemporary Catholic reforms, 2016 Trump election and 81% white evangelical Protestant Trump vote producing substantial religious-political realignment, 6 January 2021 Capitol attack combining Christian nationalist iconography with systematic election denial mobilization, judicial religious right consolidation through Justice Amy Coney Barrett 2020 confirmation completing 6-3 conservative Supreme Court majority, mainline Protestant continued splits including United Methodist Church 2019-2024 Global Methodist Church schism, DACA 2012 Deferred Action for Childhood Arrivals affecting approximately 800,000 recipients, contemporary Islamophobia and antisemitism expansion following October 7 2023 Hamas attack and campus protests, He Gets Us campaign 2023 as evangelical mainstream advertising mobilization, contemporary progressive Christianity and emergent church movement continuation, and the systematic application of the six-axis analytical framework to the 2000-2024 substrates.
+This tenth article of the series treats the 2000-2024 period during which the American ethnoreligious landscape underwent considerable post-9/11 transformation, Catholic clergy sexual abuse crisis, same-sex marriage trajectory culminating in Obergefell 2015 and Dobbs v. Jackson 2022 overturning Roe, expansion of religious "Nones" to approximately 30% by 2020, Christian nationalism emergence, and new refugee and immigration flows including Afghan Operation Allies Welcome 2021 and Ukrainian Uniting for Ukraine 2022 alongside expanded African, Latino, and South Asian population diversification. Coverage includes the 11 September 2001 attacks and post-9/11 Muslim American backlash, USA PATRIOT Act 2001 and religious surveillance expansion, Iraq War 2003 and American religious mobilization combining evangelical support and mainline Protestant/Catholic opposition, Catholic clergy sexual abuse crisis and Boston Globe Spotlight 2002 revelations reaching approximately $4 billion cumulative American Catholic diocesan settlement expenditure, 2004 Bush reelection and evangelical voter consolidation, same-sex marriage trajectory from Massachusetts Goodridge 2003 through California Proposition 8 2008 through Obergefell v. Hodges 2015 and 2022 Respect for Marriage Act, Burwell v. Hobby Lobby 2014 religious exemption framework and 2015-2024 religious liberty jurisprudence, Obama election 2008 and religious politics including Jeremiah Wright controversy, prosperity gospel expansion through Joel Osteen, Joyce Meyer, Kenneth Copeland, and several figures, New Atheism 2004-2010 under Richard Dawkins, Christopher Hitchens, Sam Harris, and Daniel Dennett, rise of religious "Nones" to approximately 30% by 2020, deconstruction and "exvangelical" movements, Christian nationalism emergence and 2020 election contest religious dimensions, Southern Baptist Convention post-1979 trajectory and 2021 sexual abuse crisis, African migration expansion including Nigerian, Ethiopian, Somali, and Ghanaian populations reaching approximately 2.4 million African-born US population by 2020, Latino diversification through Guatemalan, Salvadoran, Honduran, and Venezuelan flows, South Asian mainstreaming through second-generation Indian American, Pakistani American, and Bangladeshi American populations reaching significant professional integration, post-2001 refugee dynamics including Afghan population from Operation Allies Welcome 2021 (approximately 80,000 admissions), Iraqi refugee admissions primarily under 2007 Iraqi Refugee Admissions Program (approximately 145,000 cumulative admissions through 2020), and Syrian refugee admissions under Obama administration (approximately 21,000 admissions 2011-2017), Ukrainian Uniting for Ukraine 2022 (approximately 260,000 admissions), Central American migration and 2018 family separation policy under Trump zero tolerance framework, Trump Muslim ban 2017 (Executive Order 13769 subsequently modified) and Trump v. Hawaii 2018 Supreme Court decision, refugee admissions decline from approximately 85,000 annual ceiling under Obama to approximately 18,000 under Trump before Biden restoration, Cuban 2022 exodus, Haitian 2021 Del Rio bridge crisis, DACA 2012 Deferred Action for Childhood Arrivals program, religious-motivated attacks including 2012 Oak Creek Sikh temple shooting, 2015 Charleston Emanuel AME shooting, 2018 Tree of Life synagogue Pittsburgh shooting, COVID-19 pandemic 2020-2022 and American religious institutional response, 2020 racial justice mobilization following George Floyd killing, Dobbs v. Jackson Women's Health Organization 2022 overturning Roe v. Wade, contemporary religious sorting producing characteristic evangelical Protestant-Republican and mainline Protestant/Catholic/Jewish/Nones-Democratic partisan realignment, Ground Zero mosque controversy 2010 as inflection point in twenty-first-century Islamophobia expansion, Pope Benedict XVI 2013 resignation and Pope Francis March 2013 election as first Latin American Pope and Jesuit Pope inaugurating contemporary Catholic reforms, 2016 Trump election and 81% white evangelical Protestant Trump vote producing substantial religious-political realignment, 6 January 2021 Capitol attack combining Christian nationalist iconography with systematic election denial mobilization, judicial religious right consolidation through Justice Amy Coney Barrett 2020 confirmation completing 6-3 conservative Supreme Court majority, mainline Protestant continued splits including United Methodist Church 2019-2024 Global Methodist Church schism, DACA 2012 Deferred Action for Childhood Arrivals affecting approximately 800,000 recipients, contemporary Islamophobia and antisemitism expansion following October 7 2023 Hamas attack and campus protests, He Gets Us campaign 2023 as evangelical mainstream advertising mobilization, contemporary progressive Christianity and emergent church movement continuation, and the systematic application of the six-axis analytical framework to the 2000-2024 substrates.
 
 ## 2000-2024 Ethnoreligious Landscape
 
-The 2000-2024 window produced substantial American ethnoreligious transformation continuing trends documented in [A274][related_post_a274_diversification_and_consolidation]. Total US foreign-born population reached approximately
+The 2000-2024 window produced marked American ethnoreligious transformation continuing trends documented in [A274][related_post_a274_diversification_and_consolidation]. Total US foreign-born population reached approximately
 
 $$P_{\text{foreign-born, US}}\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2010} \approx 3.99 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7, \quad f_{\text{foreign-born share}}\bigg|_{2020} \approx 0.135$$
 
-approximately restoring pre-1924 foreign-born share for the first time since 1924 Johnson-Reed Act documented in [A271][related_post_a271_mass_immigration_and_closure]. Religious composition transformation was substantial. Approximate religious composition trajectory reached
+approximately restoring pre-1924 foreign-born share for the first time since 1924 Johnson-Reed Act documented in [A271][related_post_a271_mass_immigration_and_closure]. Religious composition transformation was extensive. Approximate religious composition trajectory reached
 
 $$\begin{aligned}
 f_{\text{Christian, US}}\bigg|_{2000} &\approx 0.82, \quad f\bigg|_{2010} \approx 0.78, \quad f\bigg|_{2020} \approx 0.63, \quad f\bigg|_{2024} \approx 0.62 \\
@@ -35,41 +35,41 @@ f_{\text{Buddhist, US}}\bigg|_{2020} &\approx 0.007 \\
 f_{\text{Unaffiliated, US}}\bigg|_{2000} &\approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30
 \end{aligned}$$
 
-per Pew Research US Religious Landscape Study and American Religious Identification Survey reconstruction. The 2000-2024 window represented most substantial twenty-four-year American religious demographic transformation in US history. The [Jones 2016][book_jones_2016] The End of White Christian America and [Chaves 2011][book_chaves_2011] American Religion (already cited in A274) provide the comprehensive treatments.
+per Pew Research US Religious Landscape Study and American Religious Identification Survey reconstruction. The 2000-2024 window represented most substantial twenty-four-year American religious demographic transformation in US history. The [Jones 2016][book_jones_2016] The End of White Christian America and [Chaves 2011][book_chaves_2011] American Religion (already cited in A274) provide the standard treatments.
 
 ## September 11 2001 and Post-9/11 Muslim American Backlash
 
-The 11 September 2001 al-Qaeda attacks on the World Trade Center and Pentagon produced substantial American religious institutional response and ongoing Muslim American backlash. Primary presidential addresses included 17 September 2001 [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center] address at Islamic Center of Washington specifically distinguishing Islam from terrorism and 20 September 2001 [Bush 2001 Joint Session Address][ref_bush_2001_joint_session] Joint Session of Congress address. The 22 July 2004 [9/11 Commission Report 2004][ref_9_11_commission_2004] 9/11 Commission Report provided the comprehensive federal investigation. Total casualties reached
+The 11 September 2001 al-Qaeda attacks on the World Trade Center and Pentagon produced appreciable American religious institutional response and ongoing Muslim American backlash. Primary presidential addresses included 17 September 2001 [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center] address at Islamic Center of Washington specifically distinguishing Islam from terrorism and 20 September 2001 [Bush 2001 Joint Session Address][ref_bush_2001_joint_session] Joint Session of Congress address. The 22 July 2004 [9/11 Commission Report 2004][ref_9_11_commission_2004] 9/11 Commission Report provided the comprehensive federal investigation. Total casualties reached
 
 $$N_{\text{9/11 attacks total dead}} = 2977, \quad N_{\text{9/11 attacks injured}} \gtrsim 6 \times 10^3, \quad N_{\text{first responder deaths, subsequent 9/11-related illness through 2020}} \gtrsim 5 \times 10^2$$
 
-per National September 11 Memorial and Museum records. The [Bergen 2011][book_bergen_2011] The Longest War, [Wright 2006][book_wright_2006] The Looming Tower, and [Beydoun 2018][book_beydoun_2018] American Islamophobia provide the comprehensive treatments.
+per National September 11 Memorial and Museum records. The [Bergen 2011][book_bergen_2011] The Longest War, [Wright 2006][book_wright_2006] The Looming Tower, and [Beydoun 2018][book_beydoun_2018] American Islamophobia provide the fullest treatments.
 
-Post-9/11 Muslim American backlash produced substantial hate incidents,
+Post-9/11 Muslim American backlash produced considerable hate incidents,
 
 $$N_{\text{documented anti-Muslim hate crimes, US, 2001}} \approx 481, \quad N\bigg|_{2002} \approx 155, \quad N\bigg|_{2015} \approx 257, \quad N\bigg|_{2016} \approx 307$$
 
-per FBI hate crime statistics, with substantial peaks in 2001 immediately following attacks and 2015-2016 following Trump campaign anti-Muslim rhetoric and San Bernardino attack. American Muslim institutional response combined Council on American-Islamic Relations (CAIR) civil rights litigation, Islamic Society of North America (ISNA) public engagement, Muslim Public Affairs Council (MPAC) policy advocacy, and extensive interfaith engagement documented in [A274][related_post_a274_diversification_and_consolidation].
+per FBI hate crime statistics, with significant peaks in 2001 immediately following attacks and 2015-2016 following Trump campaign anti-Muslim rhetoric and San Bernardino attack. American Muslim institutional response combined Council on American-Islamic Relations (CAIR) civil rights litigation, Islamic Society of North America (ISNA) public engagement, Muslim Public Affairs Council (MPAC) policy advocacy, and extensive interfaith engagement documented in [A274][related_post_a274_diversification_and_consolidation].
 
-Sikh American violence emerged from mistaken identity, including 15 September 2001 Balbir Singh Sodhi murder at Mesa, Arizona (first documented post-9/11 hate murder), 5 August 2012 Oak Creek Wisconsin Sikh Gurdwara mass shooting (6 dead, 4 injured), and various incidents. The Sikh American Legal Defense and Education Fund (SALDEF) and Sikh Coalition provided the institutional advocacy framework.
+Sikh American violence emerged from mistaken identity, including 15 September 2001 Balbir Singh Sodhi murder at Mesa, Arizona (first documented post-9/11 hate murder), 5 August 2012 Oak Creek Wisconsin Sikh Gurdwara mass shooting (6 dead, 4 injured), and a range of incidents. The Sikh American Legal Defense and Education Fund (SALDEF) and Sikh Coalition provided the institutional advocacy framework.
 
 The 26 October 2001 [USA PATRIOT Act 2001][ref_usa_patriot_act_2001] USA PATRIOT Act expanded federal surveillance authority including Section 215 business records provisions, Section 214 pen register expansion, and extensive additional investigative authority affecting religious institutions, particularly mosques and American Muslim organizations subjected to systematic FBI surveillance. The [Cole and Dempsey 2006][book_cole_dempsey_2006] Terrorism and the Constitution treats the comprehensive PATRIOT Act framework.
 
 ## Iraq War 2003 and American Religious Mobilization
 
-The 20 March 2003 US-led invasion of Iraq produced substantial American religious institutional response combining evangelical Protestant war support with mainline Protestant, Catholic, and various religious body opposition. Primary presidential documents include 29 January 2002 [Bush 2002 Axis of Evil][ref_bush_2002_axis_of_evil] Bush State of the Union address specifically identifying "axis of evil" (Iraq, Iran, and North Korea) and 17 March 2003 [Bush 2003 War Ultimatum][ref_bush_2003_war_ultimatum] Bush ultimatum address preceding invasion. The [Wallis 2005][book_wallis_2005] God's Politics, [Marsh 2007][book_marsh_2007] Wayward Christian Soldiers, and [Lincoln 2003][book_lincoln_2003] Holy Terrors provide the comprehensive treatments.
+The 20 March 2003 US-led invasion of Iraq produced substantial American religious institutional response combining evangelical Protestant war support with mainline Protestant, Catholic, and various religious body opposition. Primary presidential documents include 29 January 2002 [Bush 2002 Axis of Evil][ref_bush_2002_axis_of_evil] Bush State of the Union address specifically identifying "axis of evil" (Iraq, Iran, and North Korea) and 17 March 2003 [Bush 2003 War Ultimatum][ref_bush_2003_war_ultimatum] Bush ultimatum address preceding invasion. The [Wallis 2005][book_wallis_2005] God's Politics, [Marsh 2007][book_marsh_2007] Wayward Christian Soldiers, and [Lincoln 2003][book_lincoln_2003] Holy Terrors provide the treatments.
 
-Iraq War casualties reached substantial proportions,
+Iraq War casualties reached marked proportions,
 
 $$N_{\text{US military dead, Iraq War 2003-2011}} \approx 4491, \quad N_{\text{US military wounded}} \approx 3.2 \times 10^4, \quad N_{\text{Iraqi civilian dead, various estimates}} \gtrsim 1 \times 10^5, \quad C_{\text{Iraq War aggregate US cost, cumulative through 2020}} \approx 2 \times 10^{12} \text{ USD nominal}$$
 
-per US Department of Defense, Iraq Body Count, and Congressional Research Service records. Religious institutional opposition emerged through United States Conference of Catholic Bishops (13 November 2002 [USCCB Iraq Statement 2002][ref_usccb_iraq_2002] statement questioning just war criteria compliance), National Council of Churches, various mainline Protestant denominational bodies, American Jewish Committee, and Interfaith Alliance. Evangelical Protestant war support emerged through Family Research Council, Focus on the Family, various organizations, with approximate 2003 polling reflecting substantial denominational divergence,
+per US Department of Defense, Iraq Body Count, and Congressional Research Service records. Religious institutional opposition emerged through United States Conference of Catholic Bishops (13 November 2002 [USCCB Iraq Statement 2002][ref_usccb_iraq_2002] statement questioning just war criteria compliance), National Council of Churches, assorted mainline Protestant denominational bodies, American Jewish Committee, and Interfaith Alliance. Evangelical Protestant war support emerged through Family Research Council, Focus on the Family, a number of organizations, with approximate 2003 polling reflecting extensive denominational divergence,
 
 $$f_{\text{Iraq War support, white evangelical Protestants}}\bigg|_{2003} \approx 0.77, \quad f_{\text{white mainline Protestants}} \approx 0.55, \quad f_{\text{white Catholics}} \approx 0.42, \quad f_{\text{Black Protestants}} \approx 0.28, \quad f_{\text{Jewish Americans}} \approx 0.36$$
 
 per Pew Research 2003 polling reconstruction.
 
-Pope John Paul II's extensive anti-Iraq War advocacy including 5 March 2003 Cardinal Pio Laghi mission to Bush administration providing most substantial Vatican opposition to US war initiation of twentieth or twenty-first century. The opposition preceded 2007 evangelical shifts and broader American Catholic reception treated in various literature.
+Pope John Paul II's extensive anti-Iraq War advocacy including 5 March 2003 Cardinal Pio Laghi mission to Bush administration providing most extensive Vatican opposition to US war initiation of twentieth or twenty-first century. The opposition preceded 2007 evangelical shifts and broader American Catholic reception treated in differing literature.
 
 ## Catholic Clergy Sexual Abuse Crisis
 
@@ -77,9 +77,9 @@ The 2002 Boston Globe Spotlight reporting on Boston Archdiocese Catholic clergy 
 
 $$N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}} \approx 4400, \quad N_{\text{documented US Catholic clergy sexual abuse victims, 1950 to 2020}} \gtrsim 2 \times 10^4, \quad C_{\text{US Catholic diocesan aggregate settlement expenditure, 1950 to 2020}} \approx 4 \times 10^9 \text{ USD nominal}$$
 
-per John Jay College of Criminal Justice 2004 and 2011 reports and various institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Boston Globe Spotlight 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the comprehensive treatments.
+per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Boston Globe Spotlight 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
 
-Institutional consequences included 2002 US Conference of Catholic Bishops [Charter for the Protection of Children and Young People 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report specifically documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [Vatican McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and various institutional restructuring. Approximate diocesan bankruptcy filings reached
+Institutional consequences included 2002 US Conference of Catholic Bishops [Charter for the Protection of Children and Young People 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report specifically documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [Vatican McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
 
 $$N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10$$
 
@@ -87,15 +87,15 @@ per US Bankruptcy Court records.
 
 ## 2004 Bush Reelection and Evangelical Consolidation
 
-The 2004 George W. Bush reelection reflected evangelical Protestant voter consolidation combining same-sex marriage state ballot initiative mobilization with evangelical religious framework. Election results reflected substantial voter alignment,
+The 2004 George W. Bush reelection reflected evangelical Protestant voter consolidation combining same-sex marriage state ballot initiative mobilization with evangelical religious framework. Election results reflected appreciable voter alignment,
 
 $$V_{\text{Bush 2004 popular}} \approx 6.20 \times 10^7, \quad V_{\text{Kerry 2004 popular}} \approx 5.90 \times 10^7, \quad V_{\text{Bush 2004 electoral}} = 286, \quad V_{\text{Kerry 2004 electoral}} = 251, \quad f_{\text{white evangelical Bush vote}} \approx 0.78, \quad f_{\text{white Catholic Bush vote}} \approx 0.52, \quad f_{\text{Jewish Bush vote}} \approx 0.24, \quad f_{\text{Black Protestant Bush vote}} \approx 0.13$$
 
-per exit polling reconstruction. 2004 election same-sex marriage state ballot measures in 11 states (all approving state constitutional definitions of marriage as between one man and one woman) produced substantial evangelical voter mobilization, particularly decisive Ohio ballot measure contributing to Bush's Ohio electoral college victory. The [Frank 2004][book_frank_2004] What's the Matter with Kansas and [Wallis 2005][book_wallis_2005] God's Politics (already cited) treat the religious-political dynamics.
+per exit polling reconstruction. 2004 election same-sex marriage state ballot measures in 11 states (all approving state constitutional definitions of marriage as between one man and one woman) produced considerable evangelical voter mobilization, particularly decisive Ohio ballot measure contributing to Bush's Ohio electoral college victory. The [Frank 2004][book_frank_2004] What's the Matter with Kansas and [Wallis 2005][book_wallis_2005] God's Politics (already cited) treat the religious-political dynamics.
 
 ## Same-Sex Marriage Trajectory 2003-2015
 
-The same-sex marriage legal trajectory 2003-2015 produced most substantial American religious-political controversy of twenty-first century's first two decades. Primary judicial documents include 18 November 2003 [Goodridge v. Department of Public Health 2003][ref_goodridge_2003] Goodridge v. Department of Public Health (Massachusetts Supreme Judicial Court decision) and 26 June 2013 [Windsor v. United States 2013][ref_windsor_v_us_2013] Windsor v. United States (5-4 Supreme Court decision striking down 1996 Defense of Marriage Act Section 3). Major landmarks included
+The same-sex marriage legal trajectory 2003-2015 produced most significant American religious-political controversy of twenty-first century's first two decades. Primary judicial documents include 18 November 2003 [Goodridge v. Department of Public Health 2003][ref_goodridge_2003] Goodridge v. Department of Public Health (Massachusetts Supreme Judicial Court decision) and 26 June 2013 [Windsor v. United States 2013][ref_windsor_v_us_2013] Windsor v. United States (5-4 Supreme Court decision striking down 1996 Defense of Marriage Act Section 3). Major landmarks included
 
 $$\begin{aligned}
 \text{Massachusetts Goodridge decision} &: 2003, \text{ first US state same-sex marriage} \\
@@ -124,23 +124,23 @@ The 30 June 2014 [Burwell v. Hobby Lobby 2014][ref_burwell_v_hobby_lobby_2014] B
 
 $$V_{\text{Hobby Lobby majority}} = 5, \quad V_{\text{Hobby Lobby dissent}} = 4, \quad N_{\text{closely-held US corporations potentially affected}} \gtrsim 9 \times 10^4$$
 
-permitting religious objection to 2010 Affordable Care Act contraception mandate. Justice Samuel Alito's majority opinion expanded RFRA framework beyond individual and nonprofit religious institution protection to for-profit business framework. The [Sepper 2014][book_sepper_2014_religious] Free Exercise Lochnerism and [Laycock 2018][book_laycock_2018] Religious Liberty Volume 5 provide the comprehensive treatments.
+permitting religious objection to 2010 Affordable Care Act contraception mandate. Justice Samuel Alito's majority opinion expanded RFRA framework beyond individual and nonprofit religious institution protection to for-profit business framework. The [Sepper 2014][book_sepper_2014_religious] Free Exercise Lochnerism and [Laycock 2018][book_laycock_2018] Religious Liberty Volume 5 provide the leading treatments.
 
 Religious exemption jurisprudence expanded through 2015-2024 window. Major decisions included 2015 [Zubik v. Burwell 2016][ref_zubik_v_burwell_2016] (religious nonprofit contraception accommodation), 2017 [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018] (religious refusal of same-sex wedding cake service), 2020 [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020] (religious exemption from contraception mandate), 2020 [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020] (Title VII extension to sexual orientation and gender identity), and 2023 [303 Creative v. Elenis 2023][ref_303_creative_2023] (religious exemption to state anti-discrimination law).
 
 ## Obama Election 2008 and Religious Politics
 
-The 2008 Barack Obama election produced substantial religious politics dynamics combining first African American major-party presidential candidacy with Obama's United Church of Christ religious identification and Reverend Jeremiah Wright controversy. Election results reflected substantial voter alignment,
+The 2008 Barack Obama election produced marked religious politics dynamics combining first African American major-party presidential candidacy with Obama's United Church of Christ religious identification and Reverend Jeremiah Wright controversy. Election results reflected extensive voter alignment,
 
 $$V_{\text{Obama 2008 popular}} \approx 6.95 \times 10^7, \quad V_{\text{McCain 2008 popular}} \approx 5.99 \times 10^7, \quad V_{\text{Obama 2008 electoral}} = 365, \quad V_{\text{McCain 2008 electoral}} = 173, \quad f_{\text{Obama Black Protestant vote}} \approx 0.96, \quad f_{\text{Obama white evangelical vote}} \approx 0.24, \quad f_{\text{Obama Catholic vote}} \approx 0.54, \quad f_{\text{Obama Jewish vote}} \approx 0.78, \quad f_{\text{Obama Muslim vote}} \approx 0.89, \quad f_{\text{Obama Nones vote}} \approx 0.75$$
 
-per Pew Research and various exit polling reconstruction. The [Miller 2013][book_miller_2013] The Political Voice of Black America and [Cohen 2010][book_cohen_2010] Democracy Remixed provide the comprehensive treatments.
+per Pew Research and assorted exit polling reconstruction. The [Miller 2013][book_miller_2013] The Political Voice of Black America and [Cohen 2010][book_cohen_2010] Democracy Remixed provide the principal treatments.
 
-The 13 March 2008 Reverend Jeremiah Wright controversy (ABC News release of Trinity United Church of Christ sermons including "God damn America" and "chickens coming home to roost" statements) produced substantial Obama religious controversy requiring 18 March 2008 [Obama 2008 A More Perfect Union][ref_obama_2008_race_speech] "A More Perfect Union" race address at Philadelphia providing systematic response. Obama's subsequent 29 April 2008 Trinity United Church of Christ resignation concluded controversy. The Rick Warren invitation to deliver 2009 inauguration invocation similarly produced substantial progressive controversy regarding Warren's same-sex marriage positions.
+The 13 March 2008 Reverend Jeremiah Wright controversy (ABC News release of Trinity United Church of Christ sermons including "God damn America" and "chickens coming home to roost" statements) produced sizable Obama religious controversy requiring 18 March 2008 [Obama 2008 A More Perfect Union][ref_obama_2008_race_speech] "A More Perfect Union" race address at Philadelphia providing systematic response. Obama's subsequent 29 April 2008 Trinity United Church of Christ resignation concluded controversy. The Rick Warren invitation to deliver 2009 inauguration invocation similarly produced appreciable progressive controversy regarding Warren's same-sex marriage positions.
 
 ## Prosperity Gospel Expansion
 
-Prosperity gospel expansion through 2000-2024 window produced substantial American evangelical popular religion continuation building on late twentieth-century framework documented in [A274][related_post_a274_diversification_and_consolidation]. Major prosperity gospel figures included Joel Osteen (Lakewood Church Houston, weekly attendance approximately 45,000-55,000), Joyce Meyer (Joyce Meyer Ministries, annual revenue approximately $100 million), Kenneth Copeland (Kenneth Copeland Ministries, personal net worth estimated approximately $760 million), Creflo Dollar (World Changers Church International, Atlanta), and various figures. The [Bowler 2013][book_bowler_2013] Blessed, [Harrison 2005][book_harrison_2005] Righteous Riches, and [Sinitiere 2015][book_sinitiere_2015] Salvation with a Smile provide the comprehensive treatments. Osteen's Your Best Life Now 2004 and various books reached substantial sales,
+Prosperity gospel expansion through 2000-2024 window produced considerable American evangelical popular religion continuation building on late twentieth-century framework documented in [A274][related_post_a274_diversification_and_consolidation]. Major prosperity gospel figures included Joel Osteen (Lakewood Church Houston, weekly attendance approximately 45,000-55,000), Joyce Meyer (Joyce Meyer Ministries, annual revenue approximately $100 million), Kenneth Copeland (Kenneth Copeland Ministries, personal net worth estimated approximately $760 million), Creflo Dollar (World Changers Church International, Atlanta), and a number of figures. The [Bowler 2013][book_bowler_2013] Blessed, [Harrison 2005][book_harrison_2005] Righteous Riches, and [Sinitiere 2015][book_sinitiere_2015] Salvation with a Smile provide the most complete treatments. Osteen's Your Best Life Now 2004 and differing books reached significant sales,
 
 $$N_{\text{Osteen "Your Best Life Now" cumulative sales through 2020}} \approx 8 \times 10^6, \quad N_{\text{Osteen aggregate book sales, cumulative}} \gtrsim 2 \times 10^7, \quad C_{\text{Lakewood Church annual revenue, peak c. 2020}} \approx 9 \times 10^7 \text{ USD}$$
 
@@ -154,13 +154,13 @@ per Life Way Research and Pew Research reconstruction. The approximately 44% cro
 
 ## New Atheism 2004-2010
 
-New Atheism emerged in 2004-2010 window producing most substantial American atheist public intellectual mobilization of twenty-first century. Major New Atheism figures included Richard Dawkins (2006 [Dawkins 2006][ref_dawkins_2006_god] The God Delusion reaching approximately 3.5 million cumulative sales), Sam Harris (2004 [Harris 2004][ref_harris_2004_end] The End of Faith), Christopher Hitchens (2007 [Hitchens 2007][ref_hitchens_2007_god] God Is Not Great), and Daniel Dennett (2006 [Dennett 2006][ref_dennett_2006_spell] Breaking the Spell). The [LeDrew 2015][book_ledrew_2015] The Evolution of Atheism and [Cimino and Smith 2014][book_cimino_smith_2014] Atheist Awakening provide the comprehensive treatments.
+New Atheism emerged in 2004-2010 window producing most significant American atheist public intellectual mobilization of twenty-first century. Major New Atheism figures included Richard Dawkins (2006 [Dawkins 2006][ref_dawkins_2006_god] The God Delusion reaching approximately 3.5 million cumulative sales), Sam Harris (2004 [Harris 2004][ref_harris_2004_end] The End of Faith), Christopher Hitchens (2007 [Hitchens 2007][ref_hitchens_2007_god] God Is Not Great), and Daniel Dennett (2006 [Dennett 2006][ref_dennett_2006_spell] Breaking the Spell). The [LeDrew 2015][book_ledrew_2015] The Evolution of Atheism and [Cimino and Smith 2014][book_cimino_smith_2014] Atheist Awakening provide the standard treatments.
 
-Approximate American atheist and agnostic self-identification reached substantial expansion,
+Approximate American atheist and agnostic self-identification reached extensive expansion,
 
 $$f_{\text{atheist self-identification, US}}\bigg|_{2000} \approx 0.02, \quad f\bigg|_{2020} \approx 0.05, \quad f_{\text{agnostic self-identification, US}}\bigg|_{2000} \approx 0.03, \quad f\bigg|_{2020} \approx 0.06$$
 
-per Pew Research reconstruction, though "nothing in particular" unaffiliation exceeded explicit atheist/agnostic identification documented in [A274][related_post_a274_diversification_and_consolidation]. The 2010s New Atheism institutional decline reflected internal controversies including 2011 "Elevatorgate" atheist community sexism disputes and various Sam Harris political controversies producing movement fragmentation.
+per Pew Research reconstruction, though "nothing in particular" unaffiliation exceeded explicit atheist/agnostic identification documented in [A274][related_post_a274_diversification_and_consolidation]. The 2010s New Atheism institutional decline reflected internal controversies including 2011 "Elevatorgate" atheist community sexism disputes and several Sam Harris political controversies producing movement fragmentation.
 
 ## Rise of Nones and Deconstruction
 
@@ -168,55 +168,55 @@ The rise of religiously unaffiliated Americans continued through 2000-2024 windo
 
 $$f_{\text{religiously unaffiliated, US}}\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2015} \approx 0.23, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30$$
 
-per Pew Research and American Religious Identification Survey reconstruction. 2015-2024 window produced "deconstruction" and "exvangelical" movements documenting evangelical departures. The [Whitehead and Perry 2020][book_whitehead_perry_2020] Taking America Back for God and [Burge 2021][book_burge_2021] The Nones provide the comprehensive treatments.
+per Pew Research and American Religious Identification Survey reconstruction. 2015-2024 window produced "deconstruction" and "exvangelical" movements documenting evangelical departures. The [Whitehead and Perry 2020][book_whitehead_perry_2020] Taking America Back for God and [Burge 2021][book_burge_2021] The Nones provide the fullest treatments.
 
-Contemporary "exvangelical" figures include Rachel Held Evans (1981-2019, author of 2015 [Evans 2015][ref_evans_2015_searching] Searching for Sunday), Rob Bell (2011 [Bell 2011][ref_bell_2011_love] Love Wins producing substantial evangelical controversy over universalist reading), Frank Schaeffer (former Francis Schaeffer son subsequently critical of evangelical movement), and various "deconstruction" podcast, book, and social media figures producing what researchers have characterized as systematic 2015-2024 evangelical outmigration. The 2020 Christianity Today Mark Galli editorial calling for Trump removal following first impeachment reflected mainstream evangelical publication distancing from Trump-evangelical alignment treated below.
+Contemporary "exvangelical" figures include Rachel Held Evans (1981-2019, author of 2015 [Evans 2015][ref_evans_2015_searching] Searching for Sunday), Rob Bell (2011 [Bell 2011][ref_bell_2011_love] Love Wins producing sizable evangelical controversy over universalist reading), Frank Schaeffer (former Francis Schaeffer son subsequently critical of evangelical movement), and a range of "deconstruction" podcast, book, and social media figures producing what researchers have characterized as systematic 2015-2024 evangelical outmigration. The 2020 Christianity Today Mark Galli editorial calling for Trump removal following first impeachment reflected mainstream evangelical publication distancing from Trump-evangelical alignment treated below.
 
 ## Christian Nationalism Emergence
 
-Christian nationalism as systematic 2000-2024 American political-theological framework produced substantial scholarly analysis and political mobilization. The [Whitehead and Perry 2020][book_whitehead_perry_2020] Taking America Back for God (already cited), [Gorski and Perry 2022][book_gorski_perry_2022] The Flag and the Cross, and [Butler 2021][book_butler_2021] White Evangelical Racism provide the comprehensive treatments.
+Christian nationalism as systematic 2000-2024 American political-theological framework produced appreciable scholarly analysis and political mobilization. The [Whitehead and Perry 2020][book_whitehead_perry_2020] Taking America Back for God (already cited), [Gorski and Perry 2022][book_gorski_perry_2022] The Flag and the Cross, and [Butler 2021][book_butler_2021] White Evangelical Racism provide the treatments.
 
-Approximate Christian nationalist orientation identification reached substantial proportions,
+Approximate Christian nationalist orientation identification reached considerable proportions,
 
 $$f_{\text{US Christian nationalist "Ambassadors" (systematic Christian nationalism affirmation)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{"Accommodators" (partial affirmation)}}\bigg|_{2020} \approx 0.32, \quad f_{\text{"Resisters" (partial rejection)}}\bigg|_{2020} \approx 0.27, \quad f_{\text{"Rejecters" (systematic rejection)}}\bigg|_{2020} \approx 0.21$$
 
-per Baylor Religion Survey and Whitehead-Perry reconstruction. The 6 January 2021 Capitol attack incorporated Christian nationalist imagery and participants, producing substantial scholarly and journalistic attention to Christian nationalism as analytical category.
+per Baylor Religion Survey and Whitehead-Perry reconstruction. The 6 January 2021 Capitol attack incorporated Christian nationalist imagery and participants, producing significant scholarly and journalistic attention to Christian nationalism as analytical category.
 
 ## 2016 Trump Election and Evangelical Realignment
 
-The 2016 Donald Trump election produced substantial evangelical Protestant voter realignment completing 1970s-2016 Religious Right trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening], [A274][related_post_a274_diversification_and_consolidation], and above. Election results reflected substantial voter alignment,
+The 2016 Donald Trump election produced substantial evangelical Protestant voter realignment completing 1970s-2016 Religious Right trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening], [A274][related_post_a274_diversification_and_consolidation], and above. Election results reflected marked voter alignment,
 
 $$V_{\text{Trump 2016 popular}} \approx 6.29 \times 10^7, \quad V_{\text{Clinton 2016 popular}} \approx 6.58 \times 10^7, \quad V_{\text{Trump 2016 electoral}} = 304, \quad V_{\text{Clinton 2016 electoral}} = 227, \quad f_{\text{Trump white evangelical vote}} \approx 0.81, \quad f_{\text{Trump white Catholic vote}} \approx 0.60, \quad f_{\text{Clinton Jewish vote}} \approx 0.71, \quad f_{\text{Clinton Muslim vote}} \approx 0.72, \quad f_{\text{Clinton Nones vote}} \approx 0.68$$
 
-per Pew Research reconstruction. The [Alberta 2019][book_alberta_2019] American Carnage, [Fea 2018][book_fea_2018] Believe Me, and [Balmer 2021][book_balmer_2021_bad] Bad Faith provide the comprehensive treatments.
+per Pew Research reconstruction. The [Alberta 2019][book_alberta_2019] American Carnage, [Fea 2018][book_fea_2018] Believe Me, and [Balmer 2021][book_balmer_2021_bad] Bad Faith provide the detailed treatments.
 
-The 81% white evangelical Protestant Trump support exceeded 2012 Romney (79%), 2008 McCain (74%), 2004 Bush (78%), and 2000 Bush (71%) white evangelical vote shares, producing most substantial white evangelical Republican presidential vote share in US history. 2016 white evangelical Protestant Trump support proceeded despite Trump's documented sexual misconduct allegations, irregular personal religious practice, and various tensions with traditional evangelical moral framework, producing what scholars have characterized as evangelical political-alignment consolidation transcending traditional evangelical individual moral character concerns.
+The 81% white evangelical Protestant Trump support exceeded 2012 Romney (79%), 2008 McCain (74%), 2004 Bush (78%), and 2000 Bush (71%) white evangelical vote shares, producing most extensive white evangelical Republican presidential vote share in US history. 2016 white evangelical Protestant Trump support proceeded despite Trump's documented sexual misconduct allegations, irregular personal religious practice, and various tensions with traditional evangelical moral framework, producing what scholars have characterized as evangelical political-alignment consolidation transcending traditional evangelical individual moral character concerns.
 
 ## Ground Zero Mosque Controversy 2010
 
-The 2010 Park51 Islamic Community Center controversy (colloquially termed "Ground Zero mosque") at 45-47 Park Place, Manhattan, approximately 2 blocks from World Trade Center site produced substantial American Islamophobia expansion. The Cordoba Initiative under Imam Feisal Abdul Rauf's 2009-2011 development plan for 13-story Islamic community center including mosque, fitness facility, auditorium, and various various facilities attracted national controversy. The [Elliott 2011][book_elliott_2011_park51] Park51 and [Beydoun 2018][book_beydoun_2018] American Islamophobia (already cited) provide the comprehensive treatments.
+The 2010 Park51 Islamic Community Center controversy (colloquially termed "Ground Zero mosque") at 45-47 Park Place, Manhattan, approximately 2 blocks from World Trade Center site produced sizable American Islamophobia expansion. The Cordoba Initiative under Imam Feisal Abdul Rauf's 2009-2011 development plan for 13-story Islamic community center including mosque, fitness facility, auditorium, and other facilities attracted national controversy. The [Elliott 2011][book_elliott_2011_park51] Park51 and [Beydoun 2018][book_beydoun_2018] American Islamophobia (already cited) provide the leading treatments.
 
-Approximate opposition mobilization reached substantial proportions,
+Approximate opposition mobilization reached appreciable proportions,
 
 $$f_{\text{US public opposing Park51 project location, 2010 polling}} \approx 0.68, \quad N_{\text{documented anti-Muslim protests at Park51 site, 2010 to 2011}} \gtrsim 15$$
 
-per various 2010-2011 polling. The 2011 project cancellation and successor Community Center opening 2013 (reduced scope) completed controversy while broader Islamophobia mobilization framework continued through 2015-2024 window including 2015 Trump campaign anti-Muslim rhetoric, 2017 Muslim ban treated below, and various Islamophobia events.
+per differing 2010-2011 polling. The 2011 project cancellation and successor Community Center opening 2013 (reduced scope) completed controversy while broader Islamophobia mobilization framework continued through 2015-2024 window including 2015 Trump campaign anti-Muslim rhetoric, 2017 Muslim ban treated below, and several Islamophobia events.
 
 ## Pope Benedict XVI 2013 Resignation and Pope Francis Election
 
-The 11 February 2013 Pope Benedict XVI resignation announcement (first papal resignation since Gregory XII 1415) followed by 13 March 2013 Jorge Mario Bergoglio SJ election as Pope Francis produced substantial American Catholic institutional reception. Francis's Argentine origin (first Latin American Pope), Jesuit membership (first Jesuit Pope), and "Francis" name choice honoring Francis of Assisi provided substantial institutional novelty. The [Ivereigh 2014][book_ivereigh_2014_francis] The Great Reformer, [Faggioli 2015][book_faggioli_2015_francis] Pope Francis, and [Rowland 2017][book_rowland_2017_francis] Catholic Theology provide the comprehensive treatments.
+The 11 February 2013 Pope Benedict XVI resignation announcement (first papal resignation since Gregory XII 1415) followed by 13 March 2013 Jorge Mario Bergoglio SJ election as Pope Francis produced considerable American Catholic institutional reception. Francis's Argentine origin (first Latin American Pope), Jesuit membership (first Jesuit Pope), and "Francis" name choice honoring Francis of Assisi provided significant institutional novelty. The [Ivereigh 2014][book_ivereigh_2014_francis] The Great Reformer, [Faggioli 2015][book_faggioli_2015_francis] Pope Francis, and [Rowland 2017][book_rowland_2017_francis] Catholic Theology provide the principal treatments.
 
-Major Pope Francis documents produced substantial American Catholic reception. Approximate major documents included 24 November 2013 [Evangelii Gaudium 2013][ref_evangelii_gaudium_2013] Evangelii Gaudium (Apostolic Exhortation), 24 May 2015 [Laudato Si 2015][ref_laudato_si_2015] Laudato Si (encyclical on environmental care and climate change), 8 April 2016 [Amoris Laetitia 2016][ref_amoris_laetitia_2016] Amoris Laetitia (Apostolic Exhortation on family and marriage producing substantial American Catholic controversy over communion for divorced-and-remarried Catholics), 3 October 2020 [Fratelli Tutti 2020][ref_fratelli_tutti_2020] Fratelli Tutti (encyclical on fraternity and social friendship), and 2021 [Traditionis Custodes 2021][ref_traditionis_custodes_2021] motu proprio restricting Latin Mass authorization producing substantial American traditionalist Catholic controversy.
+Major Pope Francis documents produced substantial American Catholic reception. Approximate major documents included 24 November 2013 [Evangelii Gaudium 2013][ref_evangelii_gaudium_2013] Evangelii Gaudium (Apostolic Exhortation), 24 May 2015 [Laudato Si 2015][ref_laudato_si_2015] Laudato Si (encyclical on environmental care and climate change), 8 April 2016 [Amoris Laetitia 2016][ref_amoris_laetitia_2016] Amoris Laetitia (Apostolic Exhortation on family and marriage producing marked American Catholic controversy over communion for divorced-and-remarried Catholics), 3 October 2020 [Fratelli Tutti 2020][ref_fratelli_tutti_2020] Fratelli Tutti (encyclical on fraternity and social friendship), and 2021 [Traditionis Custodes 2021][ref_traditionis_custodes_2021] motu proprio restricting Latin Mass authorization producing extensive American traditionalist Catholic controversy.
 
 American Catholic institutional reception of Pope Francis divided along ideological lines. Approximate 2014 US Catholic Francis approval reached
 
 $$f_{\text{Pope Francis approval, US Catholics}}\bigg|_{2014} \approx 0.85, \quad f_{\text{same}}\bigg|_{2018} \approx 0.75, \quad f_{\text{same}}\bigg|_{2024} \approx 0.75$$
 
-per Pew Research polling, with substantial American conservative Catholic institutional opposition to Francis emerging through various controversies including 2018 Cardinal Vigano allegations regarding McCarrick case coverup and 2020-2024 various ongoing institutional contests.
+per Pew Research polling, with sizable American conservative Catholic institutional opposition to Francis emerging through a range of controversies including 2018 Cardinal Vigano allegations regarding McCarrick case coverup and 2020-2024 various ongoing institutional contests.
 
 ## Southern Baptist Convention Trajectory and 2021 Abuse Crisis
 
-Southern Baptist Convention (SBC) post-1979 fundamentalist takeover trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening] continued through 2000-2024 window with substantial institutional consolidation combined with membership decline. Approximate SBC trajectory reached
+Southern Baptist Convention (SBC) post-1979 fundamentalist takeover trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening] continued through 2000-2024 window with appreciable institutional consolidation combined with membership decline. Approximate SBC trajectory reached
 
 $$P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\bigg|_{2010} \approx 1.61 \times 10^7, \quad P\bigg|_{2020} \approx 1.4 \times 10^7, \quad P\bigg|_{2024} \approx 1.28 \times 10^7$$
 
@@ -226,7 +226,7 @@ The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executiv
 
 ## African Migration Expansion
 
-African immigration through 2000-2024 window continued substantial expansion building on 1990s Diversity Visa Program documented in [A274][related_post_a274_diversification_and_consolidation]. Total African-born US population reached approximately
+African immigration through 2000-2024 window continued considerable expansion building on 1990s Diversity Visa Program documented in [A274][related_post_a274_diversification_and_consolidation]. Total African-born US population reached approximately
 
 $$P_{\text{African-born, US}}\bigg|_{2000} \approx 8.8 \times 10^5, \quad P\bigg|_{2010} \approx 1.6 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^6$$
 
@@ -241,9 +241,9 @@ P_{\text{Kenyan American, US}}\bigg|_{2020} &\approx 1.5 \times 10^5 \\
 P_{\text{Egyptian American, US}}\bigg|_{2020} &\approx 2.5 \times 10^5
 \end{aligned}$$
 
-per US Census records. The [Arthur 2010][book_arthur_2010] African Diaspora Identities (already cited in A274), [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism (already cited in A274), and [Traore 2019][book_traore_2019] African Immigrants provide the comprehensive treatments.
+per US Census records. The [Arthur 2010][book_arthur_2010] African Diaspora Identities (already cited in A274), [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism (already cited in A274), and [Traore 2019][book_traore_2019] African Immigrants provide the most complete treatments.
 
-African American religious institutional formation continued substantial expansion. Nigerian Pentecostal denominational American establishment reached substantial institutional presence,
+African American religious institutional formation continued significant expansion. Nigerian Pentecostal denominational American establishment reached substantial institutional presence,
 
 $$N_{\text{Redeemed Christian Church of God parishes, US}}\bigg|_{2010} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{Church of Pentecost (Ghanaian) parishes, US}}\bigg|_{2020} \approx 150$$
 
@@ -270,9 +270,9 @@ Venezuelan migration accelerated through 2013-2024 window following Nicolás Mad
 
 $$P_{\text{Venezuelan American, US}}\bigg|_{2000} \approx 9 \times 10^4, \quad P\bigg|_{2010} \approx 2.2 \times 10^5, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P\bigg|_{2024} \approx 9 \times 10^5$$
 
-per US Census records. The [Garcia-Ferrer 2022][book_garcia_ferrer_2022] Venezuelan Migration and [Anguiano 2023][book_anguiano_2023] Latino Immigration provide the comprehensive treatments.
+per US Census records. The [Garcia-Ferrer 2022][book_garcia_ferrer_2022] Venezuelan Migration and [Anguiano 2023][book_anguiano_2023] Latino Immigration provide the standard treatments.
 
-Latino religious composition continued substantial transformation through 2000-2024 window. Approximate trajectory reached
+Latino religious composition continued marked transformation through 2000-2024 window. Approximate trajectory reached
 
 $$f_{\text{Catholic among US Hispanics}}\bigg|_{2000} \approx 0.67, \quad f\bigg|_{2013} \approx 0.55, \quad f\bigg|_{2020} \approx 0.47, \quad f_{\text{Protestant/Pentecostal among US Hispanics}}\bigg|_{2000} \approx 0.19, \quad f\bigg|_{2020} \approx 0.23, \quad f_{\text{unaffiliated among US Hispanics}}\bigg|_{2000} \approx 0.11, \quad f\bigg|_{2020} \approx 0.23$$
 
@@ -280,31 +280,31 @@ per Pew Research and American Religious Identification Survey reconstruction. Th
 
 ## South Asian Mainstreaming
 
-South Asian mainstreaming through 2000-2024 window produced substantial American Indian American, Pakistani American, and Bangladeshi American professional and institutional integration. Combined South Asian American population reached approximately
+South Asian mainstreaming through 2000-2024 window produced extensive American Indian American, Pakistani American, and Bangladeshi American professional and institutional integration. Combined South Asian American population reached approximately
 
 $$P_{\text{Indian American, US}}\bigg|_{2020} \approx 4.6 \times 10^6, \quad P_{\text{Pakistani American, US}}\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{2020} \approx 2.1 \times 10^5, \quad P_{\text{Nepalese American, US}}\bigg|_{2020} \approx 2 \times 10^5, \quad P_{\text{Sri Lankan American, US}}\bigg|_{2020} \approx 6 \times 10^4$$
 
-per US Census records. Professional integration produced substantial over-representation in medical, engineering, technology, and various professional occupations. The [Lal 2008][book_lal_2008] The Other Indians and [Prashad 2020][book_prashad_2020] India's Search for National Efficiency provide the comprehensive treatments.
+per US Census records. Professional integration produced sizable over-representation in medical, engineering, technology, and assorted professional occupations. The [Lal 2008][book_lal_2008] The Other Indians and [Prashad 2020][book_prashad_2020] India's Search for National Efficiency provide the fullest treatments.
 
-Indian American religious institutional expansion continued substantially,
+Indian American religious institutional expansion continued considerably,
 
 $$N_{\text{US Hindu temples}}\bigg|_{2000} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{US Sikh gurdwaras}}\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad N_{\text{US Jain temples}}\bigg|_{2020} \approx 100$$
 
-per institutional records. Political mainstreaming reached inflection points through 2010-2024 window including first Indian American Governor Bobby Jindal (Louisiana 2008-2016), Nikki Haley (South Carolina 2011-2017, subsequently UN Ambassador and 2024 Republican presidential candidate), first Sikh American Vice President Kamala Harris (2021-2025, though Harris's Sikh American paternal grandmother line combined with Jamaican paternal ancestry provided complex ethnic-religious background), first Bangladeshi American state legislator Hansen Clarke (Michigan), first Muslim American state legislator Rashida Tlaib (Michigan) and Ilhan Omar (Minnesota), and various others.
+per institutional records. Political mainstreaming reached inflection points through 2010-2024 window including first Indian American Governor Bobby Jindal (Louisiana 2008-2016), Nikki Haley (South Carolina 2011-2017, subsequently UN Ambassador and 2024 Republican presidential candidate), first Sikh American Vice President Kamala Harris (2021-2025, though Harris's Sikh American paternal grandmother line combined with Jamaican paternal ancestry provided complex ethnic-religious background), first Bangladeshi American state legislator Hansen Clarke (Michigan), first Muslim American state legislator Rashida Tlaib (Michigan) and Ilhan Omar (Minnesota), and a number of others.
 
 ## Post-2001 Refugee Dynamics
 
-Post-2001 US refugee admissions produced substantial admission composition transformation reflecting 2001-2024 Middle Eastern and broader conflict-related refugee flows. Annual US refugee admissions trajectory reached
+Post-2001 US refugee admissions produced appreciable admission composition transformation reflecting 2001-2024 Middle Eastern and broader conflict-related refugee flows. Annual US refugee admissions trajectory reached
 
 $$N_{\text{US refugee admissions}}\bigg|_{2000} \approx 7.2 \times 10^4, \quad N\bigg|_{2010} \approx 7.3 \times 10^4, \quad N\bigg|_{2016} \approx 8.5 \times 10^4, \quad N\bigg|_{2017} \approx 5.4 \times 10^4, \quad N\bigg|_{2020} \approx 1.2 \times 10^4, \quad N\bigg|_{2022} \approx 2.6 \times 10^4, \quad N\bigg|_{2024} \approx 1 \times 10^5$$
 
-per US Office of Refugee Resettlement records. The 2017-2020 Trump administration refugee admission reduction represented 86% decline from 2016 baseline. The [Bruno 2020][book_bruno_2020_refugee] Refugee Admissions and [Bon Tempo 2020][book_bon_tempo_2020] Americans at the Gate provide the comprehensive treatments.
+per US Office of Refugee Resettlement records. The 2017-2020 Trump administration refugee admission reduction represented 86% decline from 2016 baseline. The [Bruno 2020][book_bruno_2020_refugee] Refugee Admissions and [Bon Tempo 2020][book_bon_tempo_2020] Americans at the Gate provide the treatments.
 
 Iraqi refugee admissions accelerated through 2007-2020 window following 2007 [Iraqi Refugee Admissions Program 2007][ref_iraqi_refugee_program_2007] framework and 2008 [Refugee Crisis in Iraq Act][ref_refugee_crisis_iraq_act_2008] Refugee Crisis in Iraq Act. Total Iraqi refugee admissions reached approximately
 
 $$N_{\text{Iraqi refugee admissions, US, 2007 to 2020}} \approx 1.45 \times 10^5, \quad f_{\text{Christian among Iraqi refugee admissions}} \approx 0.35, \quad f_{\text{Muslim (Sunni and Shia)}} \approx 0.55, \quad f_{\text{Yazidi and other minority}} \approx 0.10$$
 
-per US State Department Bureau of Population, Refugees, and Migration records. Iraqi Christian (Chaldean Catholic, Assyrian Church of the East, Syriac Orthodox, various evangelical Protestant) admissions reflected Iraqi Christian persecution under 2003-2020 window conflicts.
+per US State Department Bureau of Population, Refugees, and Migration records. Iraqi Christian (Chaldean Catholic, Assyrian Church of the East, Syriac Orthodox, differing evangelical Protestant) admissions reflected Iraqi Christian persecution under 2003-2020 window conflicts.
 
 Syrian refugee admissions began in 2011 following Syrian Civil War onset. Total Syrian refugee admissions reached approximately
 
@@ -314,17 +314,17 @@ per US State Department records, with dramatic decline reflecting Trump administ
 
 ## Central American Migration and Family Separation 2018
 
-Central American migration through 2000-2024 window continued substantial expansion documented in [A274][related_post_a274_diversification_and_consolidation]. Central American migration events reached numerical scale,
+Central American migration through 2000-2024 window continued considerable expansion documented in [A274][related_post_a274_diversification_and_consolidation]. Central American migration events reached numerical scale,
 
 $$N_{\text{unaccompanied minors, US-Mexico border, 2014}} \approx 6.8 \times 10^4, \quad N_{\text{2018 Central American caravan participants, peak}} \approx 7 \times 10^3, \quad N_{\text{US Southwest border encounters, fiscal year 2022}} \approx 2.4 \times 10^6, \quad N_{\text{US Southwest border encounters, fiscal year 2023}} \approx 2.5 \times 10^6$$
 
-producing substantial institutional response combining religious voluntary agency (VOLAG) resettlement documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A274][related_post_a274_diversification_and_consolidation] with Sanctuary Movement continuation. The [De Genova and Peutz 2010][book_de_genova_peutz_2010] The Deportation Regime and [Hondagneu-Sotelo 2007][book_hondagneu_sotelo_2007] Religion and Social Justice for Immigrants provide the comprehensive treatments.
+producing significant institutional response combining religious voluntary agency (VOLAG) resettlement documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A274][related_post_a274_diversification_and_consolidation] with Sanctuary Movement continuation. The [De Genova and Peutz 2010][book_de_genova_peutz_2010] The Deportation Regime and [Hondagneu-Sotelo 2007][book_hondagneu_sotelo_2007] Religion and Social Justice for Immigrants provide the detailed treatments.
 
 The 6 April 2018 [Zero Tolerance Policy 2018][ref_zero_tolerance_2018] Trump administration Zero Tolerance immigration policy producing systematic family separation at US-Mexico border produced substantial religious institutional opposition. Approximate separations reached
 
 $$N_{\text{documented US-Mexico border family separations, April 2018 to June 2018}} \approx 5500, \quad N_{\text{additional undocumented separations, cumulative}} \gtrsim 1 \times 10^3$$
 
-per US Department of Homeland Security Office of Inspector General reports. Religious institutional condemnation emerged rapidly, with 13 June 2018 US Conference of Catholic Bishops [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018] statement specifically characterizing separation as "immoral" providing most substantial American Catholic institutional immigration opposition of twenty-first century. Comparable evangelical Protestant (Franklin Graham, Southern Baptist Ethics and Religious Liberty Commission under Russell Moore), mainline Protestant (United Methodist Church, Presbyterian Church USA, Episcopal Church), Jewish (Union for Reform Judaism, American Jewish Committee), and various religious institutional condemnation accelerated administration policy reversal 20 June 2018 Executive Order.
+per US Department of Homeland Security Office of Inspector General reports. Religious institutional condemnation emerged rapidly, with 13 June 2018 US Conference of Catholic Bishops [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018] statement specifically characterizing separation as "immoral" providing most pronounced American Catholic institutional immigration opposition of twenty-first century. Comparable evangelical Protestant (Franklin Graham, Southern Baptist Ethics and Religious Liberty Commission under Russell Moore), mainline Protestant (United Methodist Church, Presbyterian Church USA, Episcopal Church), Jewish (Union for Reform Judaism, American Jewish Committee), and several religious institutional condemnation accelerated administration policy reversal 20 June 2018 Executive Order.
 
 ## Trump Muslim Ban 2017 and Trump v. Hawaii 2018
 
@@ -332,7 +332,7 @@ The 27 January 2017 [Executive Order 13769][ref_executive_order_13769_2017] Exec
 
 $$N_{\text{countries initially banned, EO 13769}} = 7, \quad t_{\text{initial entry suspension}} = 90 \text{ days}, \quad t_{\text{Syrian refugee suspension, complete}} = \text{indefinite}, \quad N_{\text{documented travelers detained at US airports, first weekend}} \gtrsim 700, \quad N_{\text{documented protesters at US airports, first weekend}} \gtrsim 5 \times 10^4$$
 
-producing substantial immediate national reaction. Revisions through 6 March 2017 [Executive Order 13780 2017][ref_executive_order_13780_2017] Executive Order 13780, 24 September 2017 [Presidential Proclamation 9645 2017][ref_pp_9645_2017] Presidential Proclamation 9645, and 31 January 2020 [Presidential Proclamation 9983 2020][ref_pp_9983_2020] Presidential Proclamation 9983 modified covered countries while maintaining substantial Muslim-majority country restriction framework. The [Chishti and Bolter 2020][book_chishti_bolter_2020] The Trump Administration Immigration Legacy and [Cohn 2019][book_cohn_2019] Trump v. Hawaii provide the comprehensive treatments.
+producing extensive immediate national reaction. Revisions through 6 March 2017 [Executive Order 13780 2017][ref_executive_order_13780_2017] Executive Order 13780, 24 September 2017 [Presidential Proclamation 9645 2017][ref_pp_9645_2017] Presidential Proclamation 9645, and 31 January 2020 [Presidential Proclamation 9983 2020][ref_pp_9983_2020] Presidential Proclamation 9983 modified covered countries while maintaining sizable Muslim-majority country restriction framework. The [Chishti and Bolter 2020][book_chishti_bolter_2020] The Trump Administration Immigration Legacy and [Cohn 2019][book_cohn_2019] Trump v. Hawaii provide the leading treatments.
 
 The 26 June 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Trump v. Hawaii Supreme Court decision,
 
@@ -342,7 +342,7 @@ upheld third revision of travel ban under broad executive authority framework. C
 
 ## Afghan Operation Allies Welcome 2021
 
-The 2021 Afghan evacuation and Operation Allies Welcome program produced substantial American Afghan population expansion following 15 August 2021 Taliban recapture of Kabul. Total Afghan admissions reached approximately
+The 2021 Afghan evacuation and Operation Allies Welcome program produced appreciable American Afghan population expansion following 15 August 2021 Taliban recapture of Kabul. Total Afghan admissions reached approximately
 
 $$N_{\text{Afghan Operation Allies Refuge/Welcome admissions, US, 2021 to 2023}} \approx 8 \times 10^4, \quad P_{\text{Afghan American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad P\bigg|_{2024} \approx 2.5 \times 10^5$$
 
@@ -358,11 +358,11 @@ The 21 April 2022 [Uniting for Ukraine 2022][ref_uniting_for_ukraine_2022] Biden
 
 $$N_{\text{Uniting for Ukraine admissions, 2022 to 2024}} \approx 2.6 \times 10^5, \quad P_{\text{Ukrainian American, US}}\bigg|_{2020} \approx 1 \times 10^6, \quad P\bigg|_{2024} \approx 1.3 \times 10^6$$
 
-per US Citizenship and Immigration Services records. American Ukrainian institutional response through Ukrainian Orthodox Church of the USA (Ecumenical Patriarchate jurisdiction), Ukrainian Greek Catholic Church, Ukrainian National Association, and various institutional networks provided substantial reception infrastructure combining pre-existing Ukrainian American community with new arrivals.
+per US Citizenship and Immigration Services records. American Ukrainian institutional response through Ukrainian Orthodox Church of the USA (Ecumenical Patriarchate jurisdiction), Ukrainian Greek Catholic Church, Ukrainian National Association, and a range of institutional networks provided considerable reception infrastructure combining pre-existing Ukrainian American community with new arrivals.
 
 ## Cuban 2022 and Haitian 2021 Del Rio
 
-Cuban migration accelerated through 2021-2024 window producing most substantial single-nationality US migration flow of period. Total Cuban arrivals reached approximately
+Cuban migration accelerated through 2021-2024 window producing most significant single-nationality US migration flow of period. Total Cuban arrivals reached approximately
 
 $$N_{\text{Cuban arrivals, US, fiscal year 2022}} \approx 2.24 \times 10^5, \quad N_{\text{cumulative Cuban arrivals 2021 to 2024}} \gtrsim 5 \times 10^5$$
 
@@ -372,7 +372,7 @@ The September 2021 Del Rio, Texas Haitian migration crisis produced approximatel
 
 ## Religious-Motivated Attacks
 
-The 2000-2024 window produced substantial American religious-motivated attacks reflecting religious pluralism tensions. Major documented incidents included
+The 2000-2024 window produced marked American religious-motivated attacks reflecting religious pluralism tensions. Major documented incidents included
 
 $$\begin{aligned}
 \text{Oak Creek Sikh Gurdwara shooting} &: 5 \text{ August } 2012, \quad N_{\text{dead}} = 6, \quad N_{\text{shooter Wade Michael Page (white supremacist)}} = 1 \\
@@ -383,15 +383,15 @@ $$\begin{aligned}
 \text{Colleyville Beth Israel synagogue hostage} &: 15 \text{ January } 2022, \quad N_{\text{dead}} = 1
 \end{aligned}$$
 
-per FBI hate crime and various incident documentation. The [Byman 2022][book_byman_2022] Spreading Hate treats the comprehensive contemporary religious-motivated violence framework.
+per FBI hate crime and assorted incident documentation. The [Byman 2022][book_byman_2022] Spreading Hate treats the comprehensive contemporary religious-motivated violence framework.
 
 ## COVID-19 Pandemic 2020-2022
 
-The 2020-2022 COVID-19 pandemic produced substantial American religious institutional response. US COVID-19 mortality reached approximately
+The 2020-2022 COVID-19 pandemic produced extensive American religious institutional response. US COVID-19 mortality reached approximately
 
 $$N_{\text{US COVID-19 cumulative deaths through 2024}} \gtrsim 1.2 \times 10^6, \quad N_{\text{US COVID-19 peak monthly deaths, January 2021}} \approx 1 \times 10^5$$
 
-per Centers for Disease Control and Prevention records. Religious institutional pandemic response combined mainline Protestant, Catholic, and various religious body compliance with public health measures and evangelical Protestant, Orthodox Jewish, and various religious body resistance combining religious exemption claims with broader pandemic skepticism. The [Djupe and Burge 2022][book_djupe_burge_2022] The Politics of Vaccine Hesitancy and [Perry Whitehead and Grubbs 2023][book_perry_whitehead_grubbs_2023] Save the Souls provide the comprehensive treatments.
+per Centers for Disease Control and Prevention records. Religious institutional pandemic response combined mainline Protestant, Catholic, and a number of religious body compliance with public health measures and evangelical Protestant, Orthodox Jewish, and differing religious body resistance combining religious exemption claims with broader pandemic skepticism. The [Djupe and Burge 2022][book_djupe_burge_2022] The Politics of Vaccine Hesitancy and [Perry Whitehead and Grubbs 2023][book_perry_whitehead_grubbs_2023] Save the Souls provide the principal treatments.
 
 Approximate vaccine acceptance across religious traditions reached
 
@@ -401,13 +401,13 @@ per Public Religion Research Institute polling. The 24 November 2020 [Roman Cath
 
 ## 2020 Racial Justice Mobilization and Religious Response
 
-The 25 May 2020 George Floyd killing at Minneapolis produced substantial American racial justice mobilization combined with religious institutional response. Approximate mobilization scales reached
+The 25 May 2020 George Floyd killing at Minneapolis produced sizable American racial justice mobilization combined with religious institutional response. Approximate mobilization scales reached
 
 $$N_{\text{documented US 2020 racial justice protests, cumulative May to August 2020}} \approx 1 \times 10^4, \quad N_{\text{estimated cumulative US 2020 racial justice protest participants}} \approx 1.5 \times 10^7 \text{ to } 2.6 \times 10^7$$
 
-per Crowd Counting Consortium and various tracking projects, producing what historians have characterized as most substantial single American protest movement in US history. The [Kendi 2019][book_kendi_2019] How to Be an Antiracist and [Tisby 2019][book_tisby_2019] The Color of Compromise provide the religious-adjacent treatments.
+per Crowd Counting Consortium and several tracking projects, producing what historians have characterized as most substantial single American protest movement in US history. The [Kendi 2019][book_kendi_2019] How to Be an Antiracist and [Tisby 2019][book_tisby_2019] The Color of Compromise provide the religious-adjacent treatments.
 
-Religious institutional response combined Black church mobilization, mainline Protestant institutional support, Catholic institutional condemnation of killing (12 June 2020 US Conference of Catholic Bishops [USCCB Racism Statement 2020][ref_usccb_racism_2020] statement), Jewish institutional support, American Muslim mobilization, and various religious body responses. Evangelical Protestant institutional response divided between "racial reconciliation" framework (Southern Baptist Ethics and Religious Liberty Commission under Russell Moore) and opposition to "critical race theory" framework, with approximate polling reflecting substantial tradition-based support divergence,
+Religious institutional response combined Black church mobilization, mainline Protestant institutional support, Catholic institutional condemnation of killing (12 June 2020 US Conference of Catholic Bishops [USCCB Racism Statement 2020][ref_usccb_racism_2020] statement), Jewish institutional support, American Muslim mobilization, and a range of religious body responses. Evangelical Protestant institutional response divided between "racial reconciliation" framework (Southern Baptist Ethics and Religious Liberty Commission under Russell Moore) and opposition to "critical race theory" framework, with approximate polling reflecting considerable tradition-based support divergence,
 
 $$f_{\text{support for Black Lives Matter, US Nones}}\bigg|_{2020} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.86, \quad f_{\text{Jewish Americans}} \approx 0.66, \quad f_{\text{white mainline Protestants}} \approx 0.58, \quad f_{\text{white Catholics}} \approx 0.48, \quad f_{\text{white evangelicals}} \approx 0.28$$
 
@@ -415,9 +415,9 @@ per Pew Research 2020 polling. Denominational contests through 2020-2024 window 
 
 ## Dobbs v. Jackson 2022 and Post-Roe Landscape
 
-The 24 June 2022 [Dobbs v. Jackson Women's Health Organization 2022][ref_dobbs_v_jackson_2022] Dobbs v. Jackson Women's Health Organization Supreme Court decision (6-3 with 5 justice majority opinion) overturned 1973 Roe v. Wade documented in [A273][related_post_a273_postwar_transformation_and_reopening] and 1992 Casey documented in [A274][related_post_a274_diversification_and_consolidation]. Justice Samuel Alito's majority opinion characterized abortion right as "not deeply rooted in this Nation's history and tradition" providing abortion jurisprudence framework return to state-level regulation. The [Ziegler 2020][book_ziegler_2020] Abortion and the Law in America and [Ziegler 2022][book_ziegler_2022_dollars] Dollars for Life provide the comprehensive treatments.
+The 24 June 2022 [Dobbs v. Jackson Women's Health Organization 2022][ref_dobbs_v_jackson_2022] Dobbs v. Jackson Women's Health Organization Supreme Court decision (6-3 with 5 justice majority opinion) overturned 1973 Roe v. Wade documented in [A273][related_post_a273_postwar_transformation_and_reopening] and 1992 Casey documented in [A274][related_post_a274_diversification_and_consolidation]. Justice Samuel Alito's majority opinion characterized abortion right as "not deeply rooted in this Nation's history and tradition" providing abortion jurisprudence framework return to state-level regulation. The [Ziegler 2020][book_ziegler_2020] Abortion and the Law in America and [Ziegler 2022][book_ziegler_2022_dollars] Dollars for Life provide the most complete treatments.
 
-Post-Dobbs state-level trajectory produced substantial institutional contests. Approximate state abortion status by 2024 reached
+Post-Dobbs state-level trajectory produced significant institutional contests. Approximate state abortion status by 2024 reached
 
 $$\begin{aligned}
 N_{\text{US states with full abortion bans, 2024}} &\approx 14 \\
@@ -452,37 +452,37 @@ f_{\text{Biden 2020 Nones}} &\approx 0.72 \\
 f_{\text{Biden 2020 Black Protestant}} &\approx 0.90
 \end{aligned}$$
 
-per Pew Research and various exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell Green and Layman 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the comprehensive treatments.
+per Pew Research and assorted exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell Green and Layman 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the standard treatments.
 
-Contemporary religious sorting exceeds mid-twentieth-century religious-political alignment, with approximately 30-percentage-point white evangelical Protestant-Nones partisan gap exceeding 1950s-1970s religious-political alignment. The 6 January 2021 Capitol attack, 2024 Trump reelection, and religious-political controversies through 2024-2026 window reflect ongoing religious-political sorting treated in various ongoing literature.
+Contemporary religious sorting exceeds mid-twentieth-century religious-political alignment, with approximately 30-percentage-point white evangelical Protestant-Nones partisan gap exceeding 1950s-1970s religious-political alignment. The 6 January 2021 Capitol attack, 2024 Trump reelection, and religious-political controversies through 2024-2026 window reflect ongoing religious-political sorting treated in a number of ongoing literature.
 
 ## 6 January 2021 Capitol Attack and Christian Nationalism
 
-The 6 January 2021 US Capitol attack following Trump "Save America" rally at Ellipse produced substantial American religious-political inflection combining Christian nationalist iconography with systematic election denial mobilization. Approximate participation reached
+The 6 January 2021 US Capitol attack following Trump "Save America" rally at Ellipse produced marked American religious-political inflection combining Christian nationalist iconography with systematic election denial mobilization. Approximate participation reached
 
 $$N_{\text{Trump rally attendance, 6 January 2021 Ellipse}} \approx 5 \times 10^4, \quad N_{\text{documented Capitol attackers}} \approx 2 \times 10^3, \quad N_{\text{Capitol attack deaths (rioter and police, immediate and subsequent)}} = 9, \quad N_{\text{federal charges filed through 2024}} \gtrsim 1500$$
 
-per US Department of Justice Capitol attack investigation records. The [Stewart 2022][book_stewart_2022] The Power Worshippers, [Miller 2022][book_miller_2022_capitol] The Battle for the American Mind, and [Djupe and Wagner 2022][book_djupe_wagner_2022] Christian Nationalism and the January 6th Insurrection provide the comprehensive treatments.
+per US Department of Justice Capitol attack investigation records. The [Stewart 2022][book_stewart_2022] The Power Worshippers, [Miller 2022][book_miller_2022_capitol] The Battle for the American Mind, and [Djupe and Wagner 2022][book_djupe_wagner_2022] Christian Nationalism and the January 6th Insurrection provide the fullest treatments.
 
-Christian nationalist iconography documented at Capitol attack included "Jesus Saves" banners, "Trump 2020 Jesus 2024" signs, "Appeal to Heaven" flag (Revolutionary War pine tree ensign adopted by New Apostolic Reformation movement), Christian flag adjacent to Confederate flags, extensive prayer scenes documented in rotunda and various spaces. The 7 January 2021 Senate floor prayer by Chaplain Barry Black providing systematic religious response reflected institutional religious response.
+Christian nationalist iconography documented at Capitol attack included "Jesus Saves" banners, "Trump 2020 Jesus 2024" signs, "Appeal to Heaven" flag (Revolutionary War pine tree ensign adopted by New Apostolic Reformation movement), Christian flag adjacent to Confederate flags, extensive prayer scenes documented in rotunda and differing spaces. The 7 January 2021 Senate floor prayer by Chaplain Barry Black providing systematic religious response reflected institutional religious response.
 
 The January 6 Committee investigation through 2021-2022 window and 2022 Committee Final Report documented religious-political dimensions. Trump's November 2024 reelection victory (defeating Kamala Harris in popular and electoral college votes) completed 2020-2024 political trajectory producing ongoing religious-political controversies through 2025-2026 window.
 
 ## Judicial Religious Right Consolidation
 
-The 2017-2020 Trump Supreme Court appointments (Neil Gorsuch April 2017, Brett Kavanaugh October 2018, Amy Coney Barrett October 2020) completed 6-3 conservative Supreme Court majority aligned with evangelical Protestant and conservative Catholic religious right framework. The [Toobin 2021][book_toobin_2021_court] The Nine and [Millhiser 2020][book_millhiser_2020] The Agenda provide the comprehensive treatments.
+The 2017-2020 Trump Supreme Court appointments (Neil Gorsuch April 2017, Brett Kavanaugh October 2018, Amy Coney Barrett October 2020) completed 6-3 conservative Supreme Court majority aligned with evangelical Protestant and conservative Catholic religious right framework. The [Toobin 2021][book_toobin_2021_court] The Nine and [Millhiser 2020][book_millhiser_2020] The Agenda provide the treatments.
 
 Amy Coney Barrett's 26 October 2020 Senate confirmation (52-48 vote, first Justice confirmed without any opposing party support since 1869) followed Ruth Bader Ginsburg's 18 September 2020 death reshaping Supreme Court ideological composition. Approximate religious identification of Court composition post-Barrett confirmation reached
 
 $$f_{\text{Catholic among US Supreme Court Justices, 2020}} \approx 0.78, \quad N_{\text{Catholic Justices, 2020}} = 7, \quad N_{\text{Jewish Justices, 2020}} = 2, \quad N_{\text{Justices with Catholic secondary education}} \gtrsim 8$$
 
-exceeding Catholic share of US population (approximately 21%) documented above. The religious right jurisprudential expansion through 2020-2024 window included 2022 Dobbs decision documented above, 2022 Kennedy v. Bremerton School District (school prayer), 2023 303 Creative decision documented above, and various religious liberty expansion cases reflecting consolidated religious right jurisprudential framework.
+exceeding Catholic share of US population (approximately 21%) documented above. The religious right jurisprudential expansion through 2020-2024 window included 2022 Dobbs decision documented above, 2022 Kennedy v. Bremerton School District (school prayer), 2023 303 Creative decision documented above, and several religious liberty expansion cases reflecting consolidated religious right jurisprudential framework.
 
 ## United Methodist Church Schism 2019-2024
 
-The United Methodist Church (UMC) 2019-2024 schism produced substantial American mainline Protestant institutional restructuring, building on 1970s-2020s ongoing denominational tensions over homosexuality documented in [A274][related_post_a274_diversification_and_consolidation]. The 26 February 2019 UMC Special General Conference at St. Louis, Missouri vote adopting "Traditional Plan" (438-384 vote) maintaining historic UMC restrictions on same-sex marriage and LGBT clergy ordination produced substantial institutional response. The [Frank 2020][book_frank_2020_umc] The United Methodist Church and [Hunt 2022][book_hunt_2022_gmc] Methodism produce the comprehensive treatments.
+The United Methodist Church (UMC) 2019-2024 schism produced extensive American mainline Protestant institutional restructuring, building on 1970s-2020s ongoing denominational tensions over homosexuality documented in [A274][related_post_a274_diversification_and_consolidation]. The 26 February 2019 UMC Special General Conference at St. Louis, Missouri vote adopting "Traditional Plan" (438-384 vote) maintaining historic UMC restrictions on same-sex marriage and LGBT clergy ordination produced sizable institutional response. The [Frank 2020][book_frank_2020_umc] The United Methodist Church and [Hunt 2022][book_hunt_2022_gmc] Methodism produce the detailed treatments.
 
-Subsequent January 2020 [UMC Protocol Agreement 2020][ref_umc_protocol_2020] Protocol of Reconciliation and Grace Through Separation provided bilateral separation framework, though COVID-19 pandemic and delays prevented formal implementation. 1 May 2022 Global Methodist Church (GMC) formation provided alternative traditionalist denomination attracting substantial UMC congregations. Approximate UMC-to-GMC disaffiliation reached
+Subsequent January 2020 [UMC Protocol Agreement 2020][ref_umc_protocol_2020] Protocol of Reconciliation and Grace Through Separation provided bilateral separation framework, though COVID-19 pandemic and delays prevented formal implementation. 1 May 2022 Global Methodist Church (GMC) formation provided alternative traditionalist denomination attracting appreciable UMC congregations. Approximate UMC-to-GMC disaffiliation reached
 
 $$N_{\text{UMC congregations approved for disaffiliation, 2019 to 2023}} \approx 7660, \quad f_{\text{UMC US congregation disaffiliation share}} \approx 0.25, \quad P_{\text{GMC membership, 2024}} \approx 5 \times 10^5$$
 
@@ -490,17 +490,17 @@ per institutional records. The 3 May 2024 UMC General Conference at Charlotte, N
 
 ## DACA 2012 and Dreamers Movement
 
-The 15 June 2012 [DACA 2012][ref_daca_2012] Deferred Action for Childhood Arrivals policy under Obama administration Executive Branch discretion (initial memorandum by Secretary of Homeland Security Janet Napolitano) provided two-year renewable deferred action and work authorization for approximately 800,000 undocumented immigrants brought to US as children. The [Cebulko 2018][book_cebulko_2018_daca] Documented Dreams and [Nicholls 2013][book_nicholls_2013_dreamers] The DREAMers provide the comprehensive treatments.
+The 15 June 2012 [DACA 2012][ref_daca_2012] Deferred Action for Childhood Arrivals policy under Obama administration Executive Branch discretion (initial memorandum by Secretary of Homeland Security Janet Napolitano) provided two-year renewable deferred action and work authorization for approximately 800,000 undocumented immigrants brought to US as children. The [Cebulko 2018][book_cebulko_2018_daca] Documented Dreams and [Nicholls 2013][book_nicholls_2013_dreamers] The DREAMers provide the leading treatments.
 
-DACA program scale reached substantial proportions,
+DACA program scale reached considerable proportions,
 
 $$N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5$$
 
-per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, various Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) specifically failed Congressional passage through 2024 window.
+per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) specifically failed Congressional passage through 2024 window.
 
 ## October 7 2023 Hamas Attack and American Jewish Response
 
-The 7 October 2023 Hamas attack on Israel produced substantial American Jewish institutional response and ongoing religious-political consequences. Attack casualties reached
+The 7 October 2023 Hamas attack on Israel produced significant American Jewish institutional response and ongoing religious-political consequences. Attack casualties reached
 
 $$N_{\text{Israeli dead, 7 October 2023 Hamas attack}} \approx 1200, \quad N_{\text{Israeli hostages taken}} \approx 250, \quad N_{\text{Americans among 7 October dead}} \approx 40$$
 
@@ -508,35 +508,35 @@ per Israeli government and US State Department records. Subsequent 2023-2024 Isr
 
 $$N_{\text{Gazan dead, 7 October 2023 to 2024, various estimates}} \gtrsim 4.5 \times 10^4, \quad N_{\text{Gazans displaced}} \gtrsim 1.7 \times 10^6$$
 
-per Gaza Health Ministry and UN OCHA estimates. The [Beinart 2024][book_beinart_2024_gaza] Being Jewish After Gaza and [Chomsky 2024][book_chomsky_2024_gaza] Notes on Gaza provide the comprehensive treatments.
+per Gaza Health Ministry and UN OCHA estimates. The [Beinart 2024][book_beinart_2024_gaza] Being Jewish After Gaza and [Chomsky 2024][book_chomsky_2024_gaza] Notes on Gaza provide the principal treatments.
 
-American Jewish institutional response divided along pre-existing denominational and political lines. Mainstream American Jewish institutional support for Israeli military response through American Israel Public Affairs Committee, Jewish Federations of North America, Orthodox Union, and various institutional bodies preceded critical American Jewish institutional response through J Street, IfNotNow, Jewish Voice for Peace, and various alternative organizations.
+American Jewish institutional response divided along pre-existing denominational and political lines. Mainstream American Jewish institutional support for Israeli military response through American Israel Public Affairs Committee, Jewish Federations of North America, Orthodox Union, and assorted institutional bodies preceded critical American Jewish institutional response through J Street, IfNotNow, Jewish Voice for Peace, and a number of alternative organizations.
 
 2023-2024 American antisemitism increase reached
 
 $$N_{\text{documented anti-Semitic incidents, US, 2023}} \approx 8873, \quad N\bigg|_{2024} \approx 9354, \quad \Delta_{\text{2022 to 2023 increase}} \approx +\text{140\%}$$
 
-per Anti-Defamation League records, producing most substantial American anti-Semitic incident increase in ADL tracking history. Concurrent 2023-2024 American Islamophobia and anti-Palestinian and anti-Arab incidents similarly increased substantially. 2023-2024 university campus protests over Israeli Gaza military operation produced substantial religious-political controversies through university encampments, various student and faculty mobilization, and administrative response producing ongoing twenty-first-century religious-political contest treated in subsequent literature.
+per Anti-Defamation League records, producing most substantial American anti-Semitic incident increase in ADL tracking history. Concurrent 2023-2024 American Islamophobia and anti-Palestinian and anti-Arab incidents similarly increased significantly. 2023-2024 university campus protests over Israeli Gaza military operation produced marked religious-political controversies through university encampments, differing student and faculty mobilization, and administrative response producing ongoing twenty-first-century religious-political contest treated in subsequent literature.
 
 ## He Gets Us and Contemporary Evangelical Mobilization
 
-The He Gets Us evangelical advertising campaign, launched March 2022 under The Servant Foundation with approximately $100 million initial funding, produced most substantial single American evangelical mainstream media mobilization of 2020s. Campaign scope included Super Bowl LVII (2023) two 30-second commercials and Super Bowl LVIII (2024) 60-second commercial reaching approximately
+The He Gets Us evangelical advertising campaign, launched March 2022 under The Servant Foundation with approximately $100 million initial funding, produced most extensive single American evangelical mainstream media mobilization of 2020s. Campaign scope included Super Bowl LVII (2023) two 30-second commercials and Super Bowl LVIII (2024) 60-second commercial reaching approximately
 
 $$N_{\text{He Gets Us Super Bowl 2024 60-second commercial audience}} \approx 1.23 \times 10^8, \quad C_{\text{He Gets Us cumulative campaign expenditure, 2022 to 2024}} \gtrsim 3 \times 10^8 \text{ USD}$$
 
 per institutional records. The [Willmer 2024][book_willmer_2024_hegetsus] He Gets Us Campaign treats the institutional development.
 
-Contemporary American evangelical institutional mobilization combined He Gets Us campaign Jesus-centered mainstream advertising with systematic denominational political mobilization treated above. Institutional coordination between Family Research Council, Focus on the Family, American Family Association, various evangelical political mobilization organizations, and broader Christian Right framework continued through 2020-2026 window treated in various ongoing literature.
+Contemporary American evangelical institutional mobilization combined He Gets Us campaign Jesus-centered mainstream advertising with systematic denominational political mobilization treated above. Institutional coordination between Family Research Council, Focus on the Family, American Family Association, several evangelical political mobilization organizations, and broader Christian Right framework continued through 2020-2026 window treated in a range of ongoing literature.
 
 ## Applying the Six-Axis Framework to the 2000-2024 Substrates
 
 The six-axis analytical framework introduced in [A266][related_post_a266_framing] admits systematic application to the substrates treated in this article.
 
-The signal axis characterizes information transmission. Post-9/11 Muslim American backlash combined mainstream news media coverage with social media amplification producing ongoing hate crime patterns. Same-sex marriage trajectory combined judicial decisions with media coverage producing substantial ongoing public opinion shift. New Atheism combined book publication with extensive digital media presence producing inflection point in American secular institutional visibility.
+The signal axis characterizes information transmission. Post-9/11 Muslim American backlash combined mainstream news media coverage with social media amplification producing ongoing hate crime patterns. Same-sex marriage trajectory combined judicial decisions with media coverage producing sizable ongoing public opinion shift. New Atheism combined book publication with extensive digital media presence producing inflection point in American secular institutional visibility.
 
 The objective axis characterizes goals. Christian nationalism optimized for systematic American Christian religious-political identification with particular political framework. Religious exemption framework optimized for institutional religious autonomy from various state and federal regulatory requirements. Latino diversification optimized for ethnic community formation and religious institutional adaptation to rapid Catholic-to-Pentecostal-to-unaffiliated demographic shifts.
 
-The structure axis characterizes ecclesiastical form. Catholic clergy sexual abuse crisis produced substantial institutional restructuring including approximately 30 diocesan bankruptcies. Southern Baptist Convention 2021 abuse crisis followed Catholic institutional pattern with approximately 20-year lag. African migration expansion produced denominational transplantation including approximately 800 Redeemed Christian Church of God parishes.
+The structure axis characterizes ecclesiastical form. Catholic clergy sexual abuse crisis produced appreciable institutional restructuring including approximately 30 diocesan bankruptcies. Southern Baptist Convention 2021 abuse crisis followed Catholic institutional pattern with approximately 20-year lag. African migration expansion produced denominational transplantation including approximately 800 Redeemed Christian Church of God parishes.
 
 The model axis characterizes theological content. Prosperity gospel expansion combined evangelical theological framework with material blessing emphasis reaching approximately 44% cross-tradition affirmation. New Atheism combined systematic religious rejection with rationalist framework derived from twentieth-century scientific-philosophical traditions. Christian nationalism combined evangelical theological framework with ethnonationalist political theology producing characteristic contemporary religious-political synthesis.
 

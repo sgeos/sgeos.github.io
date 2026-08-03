@@ -51,7 +51,7 @@ Meta-reinforcement learning emerged as a distinct research area in the mid 2010s
 
 [Finn Abbeel and Levine 2017][research_finn_abbeel_levine_2017] Model-Agnostic Meta-Learning (MAML) provided a gradient-based alternative that has become the canonical modern meta-learning framework. MAML optimizes initial parameters that are one gradient step away from good task-parameters, providing a general-purpose adaptation mechanism applicable to any differentiable model.
 
-The 2018-2020 period produced substantial algorithmic diversification. Reptile of [Nichol Achiam Schulman 2018][research_nichol_achiam_schulman_2018] provided a simpler first-order approximation to MAML. Probabilistic Meta-Reinforcement Learning (PEARL) of [Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl] combined off-policy meta-learning with variational task inference. Variational Bayes-Adaptive Deep RL (VariBAD) of [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020][research_zintgraf_et_al_2020_varibad] introduced Bayes-optimal meta-reinforcement learning through variational task inference.
+The 2018-2020 period produced considerable algorithmic diversification. Reptile of [Nichol Achiam Schulman 2018][research_nichol_achiam_schulman_2018] provided a simpler first-order approximation to MAML. Probabilistic Meta-Reinforcement Learning (PEARL) of [Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl] combined off-policy meta-learning with variational task inference. Variational Bayes-Adaptive Deep RL (VariBAD) of [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020][research_zintgraf_et_al_2020_varibad] introduced Bayes-optimal meta-reinforcement learning through variational task inference.
 
 Meta-gradient methods matured in parallel through [Xu van Hasselt Silver 2018][research_xu_van_hasselt_silver_2018] meta-gradient RL and subsequent work on learning hyperparameters, auxiliary rewards, and discount factors through outer-loop gradients.
 
@@ -99,7 +99,7 @@ Learning to Reinforcement Learn of Wang et al 2016 provided the concurrent formu
 
 The recurrent framework's principal advantage is generality. It requires no assumptions about the task structure or the adaptation mechanism, and the recurrent network can in principle learn arbitrarily-complex adaptation strategies. Its principal disadvantage is data-hungry meta-training. The recurrent policy must experience many tasks to learn the meta-strategy, and the amount of meta-training data required scales with the complexity of the task distribution.
 
-Modern variants extend the framework with transformer sequence models in place of recurrent networks, treating the adaptation trajectory as a sequence to be autoregressively modeled. [Ni Eysenbach and Levine 2022][research_ni_eysenbach_levine_2022] documented that transformer-based sequence models substantially outperform recurrent baselines on POMDP-based meta-reinforcement learning benchmarks when trained at sufficient scale. The transformer-based approach connects meta-reinforcement learning to the sequence modeling framework treated in articles four and eight.
+Modern variants extend the account with transformer sequence models in place of recurrent networks, treating the adaptation trajectory as a sequence to be autoregressively modeled. [Ni Eysenbach and Levine 2022][research_ni_eysenbach_levine_2022] documented that transformer-based sequence models considerably outperform recurrent baselines on POMDP-based meta-reinforcement learning benchmarks when trained at sufficient scale. The transformer-based approach connects meta-reinforcement learning to the sequence modeling framework treated in articles four and eight.
 
 ## Model-Agnostic Meta-Learning
 
@@ -133,7 +133,7 @@ producing a gradient approximation that has empirically proved to be sufficient 
 
 $$\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)$$
 
-where $\text{SGD}_k^{\mathcal{T}}(\theta)$ is the parameters obtained after $k$ steps of stochastic gradient descent on task $\mathcal{T}$. Reptile achieves comparable performance to MAML with substantially simpler implementation.
+where $\text{SGD}_k^{\mathcal{T}}(\theta)$ is the parameters obtained after $k$ steps of stochastic gradient descent on task $\mathcal{T}$. Reptile achieves comparable performance to MAML with significantly simpler implementation.
 
 The policy-gradient specialization of MAML for reinforcement learning uses the REINFORCE gradient in the inner loop,
 
@@ -149,15 +149,15 @@ The empirical analysis of [Raghu Raghu Bengio Vinyals 2020][research_raghu_raghu
 
 ## Metric-Based Meta-Learning
 
-Metric-based meta-learning approaches parameterize the learning algorithm as a distance function in a learned embedding space. Given a small support set of examples from a novel task, the meta-learned algorithm classifies or acts by comparing new inputs to the support set through the learned metric. The framework originated in few-shot supervised classification but has direct analogues in reinforcement learning through embedding-based task representations and value function approximation.
+Metric-based meta-learning approaches parameterize the learning algorithm as a distance function in a learned embedding space. Given a small support set of examples from a novel task, the meta-learned algorithm classifies or acts by comparing new inputs to the support set through the learned metric. The model originated in few-shot supervised classification but has direct analogues in reinforcement learning through embedding-based task representations and value function approximation.
 
-Siamese networks of [Koch Zemel Salakhutdinov 2015][research_koch_zemel_salakhutdinov_2015] provided the initial architecture, training paired networks to produce embeddings such that same-class pairs are close and different-class pairs are far in the embedding space. The framework is trained with a contrastive or triplet loss
+Siamese networks of [Koch Zemel Salakhutdinov 2015][research_koch_zemel_salakhutdinov_2015] provided the initial architecture, training paired networks to produce embeddings such that same-class pairs are close and different-class pairs are far in the embedding space. This formulation is trained with a contrastive or triplet loss
 
 $$L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\theta(x_j)\|^2 + (1 - y_{ij}) \, \max(0, m - \|f_\theta(x_i) - f_\theta(x_j)\|)^2$$
 
 with $y_{ij} = 1$ if the pair is same-class and $y_{ij} = 0$ otherwise, and $m$ a margin hyperparameter.
 
-Matching Networks of [Vinyals Blundell Lillicrap Kavukcuoglu Wierstra 2016][research_vinyals_et_al_2016_matching] extended the framework to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}_{i=1}^N$ and a query $x^*$, the predicted label is
+Matching Networks of [Vinyals Blundell Lillicrap Kavukcuoglu Wierstra 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}_{i=1}^N$ and a query $x^*$, the predicted label is
 
 $$\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}$$
 
@@ -171,7 +171,7 @@ and query classification proceeds by softmax over squared distances to prototype
 
 $$p_\theta(y = k \mid x^*) = \frac{\exp(-\|f_\theta(x^*) - c_k\|^2)}{\sum_{k'} \exp(-\|f_\theta(x^*) - c_{k'}\|^2)}$$
 
-The framework provides a Bayes-optimal classifier under an assumed spherical Gaussian likelihood in embedding space and generalizes to zero-shot settings when class embeddings are computed from side information rather than support examples.
+This account provides a Bayes-optimal classifier under an assumed spherical Gaussian likelihood in embedding space and generalizes to zero-shot settings when class embeddings are computed from side information rather than support examples.
 
 Relation Networks of [Sung Yang Zhang Xiang Torr Hospedales 2018][research_sung_et_al_2018] replaced the fixed metric with a learned neural comparison function that operates on concatenated support-query embedding pairs, producing a similarity score directly rather than through a distance calculation. The framework subsumes matching and prototypical networks and often achieves stronger performance when the underlying similarity is highly non-Euclidean.
 
@@ -181,7 +181,7 @@ In reinforcement learning settings, metric-based meta-learning appears through s
 
 Context-conditioned policy approaches separate the task representation from the policy itself. A task inference network $q_\phi(z \mid \tau_{1:H})$ maps a short trajectory of experience to a latent task representation $z$, and a task-conditioned policy $\pi_\theta(a \mid s, z)$ uses this representation for action selection.
 
-The framework provides several conceptual advantages over the recurrent and gradient-based approaches. The task inference network is trained specifically for the inference task, which can leverage supervised learning objectives such as reconstruction, contrastive learning, or variational inference. The task-conditioned policy can be trained by standard reinforcement learning methods with $z$ as an additional input, avoiding the specialized meta-training procedures of MAML.
+The account provides several conceptual advantages over the recurrent and gradient-based approaches. The task inference network is trained specifically for the inference task, which can leverage supervised learning objectives such as reconstruction, contrastive learning, or variational inference. The task-conditioned policy can be trained by standard reinforcement learning methods with $z$ as an additional input, avoiding the specialized meta-training procedures of MAML.
 
 PEARL of Rakelly Zhou Quillen Finn Levine 2019 provides the canonical modern instantiation. The task inference network uses variational inference on a set of context transitions,
 
@@ -207,7 +207,7 @@ PEARL has proved to be one of the most sample-efficient meta-reinforcement learn
 
 ## Bayesian Meta-Reinforcement Learning
 
-Bayesian meta-reinforcement learning provides a principled framework that treats task identity as a latent variable and derives Bayes-optimal exploration policies. The framework produces exploration behavior that trades off task inference against reward exploitation in a normatively-optimal way.
+Bayesian meta-reinforcement learning provides a principled framework that treats task identity as a latent variable and derives Bayes-optimal exploration policies. The model produces exploration behavior that trades off task inference against reward exploitation in a normatively-optimal way.
 
 The Bayes-adaptive MDP formalism casts meta-reinforcement learning as a POMDP over the joint state-plus-task-identity space. The optimal Bayes-adaptive policy conditions on the belief over task identity,
 
@@ -231,17 +231,17 @@ producing behavior that trades off task-identifying exploration against reward-s
 
 VariBAD produces near-Bayes-optimal behavior on tabular meta-reinforcement learning problems and scales to deep function approximation on standard benchmarks. Its principal advantage over MAML and PEARL is the explicit uncertainty representation, which supports normatively-optimal exploration in a way that gradient-based and point-estimate methods do not directly provide.
 
-Extensions include HyperX of [Zintgraf Feng Igl Whiteson 2021][research_zintgraf_et_al_2021_hyperx] that incorporates hypernetwork-based task adaptation and reward-based exploration bonuses tuned for Bayes-adaptive exploration, and BOReL of [Dorfman Shenfeld Tamar 2021][research_dorfman_shenfeld_tamar_2021] that extends the framework to offline meta-reinforcement learning.
+Extensions include HyperX of [Zintgraf Feng Igl Whiteson 2021][research_zintgraf_et_al_2021_hyperx] that incorporates hypernetwork-based task adaptation and reward-based exploration bonuses tuned for Bayes-adaptive exploration, and BOReL of [Dorfman Shenfeld Tamar 2021][research_dorfman_shenfeld_tamar_2021] that extends the treatment to offline meta-reinforcement learning.
 
 ## Hypernetworks and Amortized Adaptation
 
-Hypernetworks provide a distinct route to meta-learning in which a meta-network directly outputs the parameters of a task-policy or value function. The framework was introduced by [Ha Dai Le 2016][research_ha_dai_le_2016] in the general context of dynamic neural network generation and has been applied to meta-reinforcement learning through several routes.
+Hypernetworks provide a distinct route to meta-learning in which a meta-network directly outputs the parameters of a task-policy or value function. The treatment was introduced by [Ha Dai Le 2016][research_ha_dai_le_2016] in the general context of dynamic neural network generation and has been applied to meta-reinforcement learning through several routes.
 
 The hypernetwork meta-learner formalizes as
 
 $$\theta_{\text{policy}} = H_\phi(z_{\text{task}}), \quad z_{\text{task}} = q_\psi(\tau_{1:H})$$
 
-where $H_\phi$ is the hypernetwork with meta-parameters $\phi$, $z_{\text{task}}$ is a task embedding produced by a task inference network $q_\psi$ from adaptation trajectory $\tau_{1:H}$, and $\theta_{\text{policy}}$ are the parameters of the task-policy $\pi_{\theta_{\text{policy}}}$. The framework combines the task-inference approach of PEARL with the direct policy-parameter generation of hypernetworks, avoiding both the second-order gradients of MAML and the recurrent state maintenance of RL-squared.
+where $H_\phi$ is the hypernetwork with meta-parameters $\phi$, $z_{\text{task}}$ is a task embedding produced by a task inference network $q_\psi$ from adaptation trajectory $\tau_{1:H}$, and $\theta_{\text{policy}}$ are the parameters of the task-policy $\pi_{\theta_{\text{policy}}}$. This account combines the task-inference approach of PEARL with the direct policy-parameter generation of hypernetworks, avoiding both the second-order gradients of MAML and the recurrent state maintenance of RL-squared.
 
 The primary appeal of the hypernetwork framework is expressive task-dependent structure. A policy with parameters generated by a hypernetwork can implement arbitrarily different task-behaviors without requiring the shared-representation constraint of context-conditioned policies. The primary challenge is training stability, since the meta-parameter space of $\phi$ is typically much larger than the task-policy parameters, and hypernetwork training exhibits characteristic sensitivity to weight initialization and normalization.
 
@@ -253,7 +253,7 @@ Recent work by [Kirsch Sohl-Dickstein Metz 2019][research_kirsch_sohl_dickstein_
 
 Meta-gradient methods use outer-loop gradients to optimize aspects of the inner learning process that are typically treated as hyperparameters. The framework provides a principled alternative to grid search over hyperparameters and enables online adaptation of the learning process itself.
 
-The core observation is that if the inner learning process is differentiable, then gradients with respect to its hyperparameters can be computed and used to optimize a meta-objective. Xu van Hasselt and Silver 2018 introduced the framework by optimizing the discount factor and $\lambda$-return parameter online,
+The core observation is that if the inner learning process is differentiable, then gradients with respect to its hyperparameters can be computed and used to optimize a meta-objective. Xu van Hasselt and Silver 2018 introduced this formulation by optimizing the discount factor and $\lambda$-return parameter online,
 
 $$\gamma \leftarrow \gamma - \eta \nabla_\gamma J_{\text{outer}}(\theta_\gamma)$$
 
@@ -263,7 +263,7 @@ $$\nabla_\gamma J_{\text{outer}} = \frac{\partial J_{\text{outer}}}{\partial \th
 
 with the second factor requiring backpropagation through the inner-loop training dynamics.
 
-Meta-Gradient Reinforcement Learning of Xu van Hasselt Silver 2018 documented that meta-gradient adaptation of $\gamma$ and $\lambda$ produces substantial improvements on Atari benchmarks. Subsequent work extended the framework to auxiliary reward functions [Zheng Oh Singh 2018][research_zheng_oh_singh_2018_lirpg], auxiliary tasks, exploration bonuses, and learning rates.
+Meta-Gradient Reinforcement Learning of Xu van Hasselt Silver 2018 documented that meta-gradient adaptation of $\gamma$ and $\lambda$ produces significant improvements on Atari benchmarks. Subsequent work extended the treatment to auxiliary reward functions [Zheng Oh Singh 2018][research_zheng_oh_singh_2018_lirpg], auxiliary tasks, exploration bonuses, and learning rates.
 
 Learned Intrinsic Reward Policy Gradient (LIRPG) of Zheng Oh Singh 2018 optimizes an intrinsic reward function online through meta-gradients. The intrinsic reward augments the extrinsic reward during policy optimization,
 
@@ -273,11 +273,11 @@ with $\phi$ optimized to maximize the outer-loop objective (extrinsic return onl
 
 Meta-Gradient learned rewards of [Oh Guo Warde-Farley Wayne Ostrovski Silver 2020][research_oh_et_al_2020] extended the framework to learn broader reward-shaping structures, and Never Give Up + Meta-Gradient of subsequent work combined the approach with the exploration methods of article five.
 
-Self-tuning actor-critic architectures of [Zahavy Xu Veeriah Hessel Oh van Hasselt Silver Singh 2020][research_zahavy_et_al_2020_stac] STAC and STACX combined meta-gradient adaptation of multiple hyperparameters (return coefficients, auxiliary loss weights, entropy regularization) across parallel actor-critic training. The framework demonstrated that meta-gradient adaptation of even a modest number of hyperparameters yields substantial improvements over hand-tuned baselines on Atari and DeepMind Control Suite benchmarks, and provided evidence that meta-gradient methods scale to production-scale reinforcement learning training.
+Self-tuning actor-critic architectures of [Zahavy Xu Veeriah Hessel Oh van Hasselt Silver Singh 2020][research_zahavy_et_al_2020_stac] STAC and STACX combined meta-gradient adaptation of multiple hyperparameters (return coefficients, auxiliary loss weights, entropy regularization) across parallel actor-critic training. The treatment demonstrated that meta-gradient adaptation of even a modest number of hyperparameters yields substantial improvements over hand-tuned baselines on Atari and DeepMind Control Suite benchmarks, and provided evidence that meta-gradient methods scale to production-scale reinforcement learning training.
 
-The [Xu Van Hasselt Hessel Modayil et al 2020][research_xu_et_al_2020_meta_a2c] Meta-Gradient A2C extension demonstrated that meta-gradient adaptation of the discount factor and bootstrap parameter under an on-policy actor-critic training regime substantially improves benchmark performance without requiring hyperparameter search.
+The [Xu Van Hasselt Hessel Modayil et al 2020][research_xu_et_al_2020_meta_a2c] Meta-Gradient A2C extension demonstrated that meta-gradient adaptation of the discount factor and bootstrap parameter under an on-policy actor-critic training regime markedly improves benchmark performance without requiring hyperparameter search.
 
-Meta-gradient methods provide a general framework for online adaptation of the learning process. Their principal challenge is the compute cost of meta-training, which requires inner-loop training to convergence for each outer-loop gradient, and the potential instability of nested optimization. Practical implementations use truncated inner loops and various stabilization techniques. Bootstrapped meta-learning of [Flennerhag et al 2022][research_flennerhag_et_al_2022] addressed the truncation-bias problem through target-network-based meta-gradient estimation, enabling stable long-horizon meta-training. The [Zheng Oh Wang Ha Weber Hafner Wu Levine et al 2020][research_zheng_et_al_2020_learning_reward] Learning to Reward framework extended meta-gradient reward learning to arbitrary parametric reward functions with theoretical guarantees on convergence to reward-shaping equivalence.
+Meta-gradient methods provide a general framework for online adaptation of the learning process. Their principal challenge is the compute cost of meta-training, which requires inner-loop training to convergence for each outer-loop gradient, and the potential instability of nested optimization. Practical implementations use truncated inner loops and several stabilization techniques. Bootstrapped meta-learning of [Flennerhag et al 2022][research_flennerhag_et_al_2022] addressed the truncation-bias problem through target-network-based meta-gradient estimation, enabling stable long-horizon meta-training. The [Zheng Oh Wang Ha Weber Hafner Wu Levine et al 2020][research_zheng_et_al_2020_learning_reward] Learning to Reward framework extended meta-gradient reward learning to arbitrary parametric reward functions with theoretical guarantees on convergence to reward-shaping equivalence.
 
 ## Meta-Learning of Optimizers and Auxiliary Losses
 
@@ -287,7 +287,7 @@ Learning to Learn by Gradient Descent by Gradient Descent of [Andrychowicz Denil
 
 $$\Delta \theta_t = m_\phi(\nabla_\theta L, h_t), \quad h_{t+1} = f_\phi(\nabla_\theta L, h_t)$$
 
-trained to minimize the loss achieved by iteratively applying the update rule. The framework produced learned optimizers that outperformed standard first-order methods on the training task distribution but generalized poorly to novel tasks.
+trained to minimize the loss achieved by iteratively applying the update rule. This account produced learned optimizers that outperformed standard first-order methods on the training task distribution but generalized poorly to novel tasks.
 
 Subsequent work by [Metz Maheswaranathan Cheung Sohl-Dickstein 2019][research_metz_et_al_2019] documented the challenges of training generalizable learned optimizers and proposed training procedures that produce optimizers robust to task shift. The [Li and Malik 2017][research_li_malik_2017] Learning to Optimize framework provided a reinforcement-learning-based approach to optimizer meta-learning that treats optimization as a sequential decision process.
 
@@ -295,11 +295,11 @@ Meta-learning of auxiliary losses provides a related direction. The framework pa
 
 $$L_{\text{aux}}(\theta) = L_{\text{primary}}(\theta) + \lambda \, L_{\phi}(\theta)$$
 
-with $\phi$ optimized through outer-loop gradients to maximize the primary objective. The learned auxiliary loss can encode auxiliary tasks, regularizers, or representation-learning objectives that support the primary objective without being explicitly designed. [Wichrowska Maheswaranathan Hoffman Colmenarejo Denil de Freitas Sohl-Dickstein 2017][research_wichrowska_et_al_2017] provided scaled-up learned optimizers with cross-task generalization, and [Chen Hoffman Colmenarejo Denil Lillicrap de Freitas 2017][research_chen_et_al_2017_learned_optimizer] demonstrated that learned optimizers can generalize substantially beyond the training distribution when trained on diverse task ensembles.
+with $\phi$ optimized through outer-loop gradients to maximize the primary objective. The learned auxiliary loss can encode auxiliary tasks, regularizers, or representation-learning objectives that support the primary objective without being explicitly designed. [Wichrowska Maheswaranathan Hoffman Colmenarejo Denil de Freitas Sohl-Dickstein 2017][research_wichrowska_et_al_2017] provided scaled-up learned optimizers with cross-task generalization, and [Chen Hoffman Colmenarejo Denil Lillicrap de Freitas 2017][research_chen_et_al_2017_learned_optimizer] demonstrated that learned optimizers can generalize appreciably beyond the training distribution when trained on diverse task ensembles.
 
 ## Multi-Task Reinforcement Learning
 
-Multi-task reinforcement learning treats the setting in which the agent learns a shared policy or value function across many related tasks simultaneously. The framework overlaps substantially with meta-learning but has distinctive algorithmic considerations.
+Multi-task reinforcement learning treats the setting in which the agent learns a shared policy or value function across many related tasks simultaneously. The account overlaps greatly with meta-learning but has distinctive algorithmic considerations.
 
 Shared representation multi-task learning trains a single network with task-heads,
 
@@ -321,19 +321,19 @@ removing the conflicting component before averaging across the multi-task ensemb
 
 ## Task Distribution Design and Automatic Curriculum
 
-The design of the meta-training task distribution has substantial effect on the resulting meta-learner. A distribution that is too narrow produces meta-learners that specialize to the training tasks without providing useful transfer to novel tasks. A distribution that is too broad produces meta-learners that adapt slowly because the meta-prior cannot support strong fast-adaptation structure. Task distribution design has thus emerged as an active research area distinct from the meta-learning algorithm design itself.
+The design of the meta-training task distribution has marked effect on the resulting meta-learner. A distribution that is too narrow produces meta-learners that specialize to the training tasks without providing useful transfer to novel tasks. A distribution that is too broad produces meta-learners that adapt slowly because the meta-prior cannot support strong fast-adaptation structure. Task distribution design has thus emerged as an active research area distinct from the meta-learning algorithm design itself.
 
 Manually-curated task distributions such as Meta-World and Alchemy provide the empirical benchmarks against which meta-learning methods are compared. The choice of task distribution however has strong effects on the ranking of meta-learning algorithms, and results that hold on one distribution often fail to generalize to others. Modern practice emphasizes evaluating across multiple task distributions to assess robustness of meta-learning methods to distributional choice.
 
-Automatic curriculum construction provides an alternative to manual task-distribution design. Rather than specifying the training distribution directly, the meta-training procedure searches over tasks to construct a curriculum that maximizes some notion of learning progress. The framework connects to the developmental robotics tradition treated in article twelve and to the intrinsic motivation methods treated in article five.
+Automatic curriculum construction provides an alternative to manual task-distribution design. Rather than specifying the training distribution directly, the meta-training procedure searches over tasks to construct a curriculum that maximizes some notion of learning progress. The model connects to the developmental robotics tradition treated in article twelve and to the intrinsic motivation methods treated in article five.
 
 Teacher-Student Curriculum Learning of [Portelas Colas Hofmann Oudeyer 2019][research_portelas_et_al_2019] provided one systematic framework. A teacher policy $\pi_{\text{teacher}}(\mathcal{T})$ proposes tasks that maximize expected learning progress of the student, quantified as the change in expected return per unit training compute. The teacher is trained by reinforcement learning with learning progress as the reward, producing task distributions that automatically adapt to the current capability of the student.
 
-POET of [Wang Lehman Clune Stanley 2019][research_wang_et_al_2019_poet] extended the framework to open-ended coevolution of environments and agents. New environments are proposed by mutating existing environments, and environments that are neither too easy nor too hard for the current agent population are preserved. The framework produces continually-expanding sets of environments and agents that co-adapt over evolutionary time.
+POET of [Wang Lehman Clune Stanley 2019][research_wang_et_al_2019_poet] extended the model to open-ended coevolution of environments and agents. New environments are proposed by mutating existing environments, and environments that are neither too easy nor too hard for the current agent population are preserved. This formulation produces continually-expanding sets of environments and agents that co-adapt over evolutionary time.
 
 Unsupervised Environment Design of [Dennis Jaques Hughes Gleave Wang Peng Turner Foerster Torr Stone 2020][research_dennis_et_al_2020_paired] PAIRED introduced a game-theoretic formulation in which an adversarial environment generator proposes environments that maximize the regret of the current agent against an antagonist policy. The regret objective automatically balances difficulty and learnability, producing environments that are challenging but solvable at the agent's current capability level.
 
-Reverse curriculum of [Florensa Held Geng Abbeel 2018][research_florensa_et_al_2018_reverse_curriculum] provided a related framework for goal-conditioned reinforcement learning in which the curriculum is generated by starting near the goal state and progressively expanding outward. The framework is particularly effective for sparse-reward manipulation tasks where random exploration would fail to encounter reward. Prioritized Level Replay of [Jiang Grefenstette Rocktäschel 2020][research_jiang_grefenstette_rocktaschel_2020] adapted prioritized-replay ideas to procedurally-generated environments, sampling levels that maximize learning progress.
+Reverse curriculum of [Florensa Held Geng Abbeel 2018][research_florensa_et_al_2018_reverse_curriculum] provided a related framework for goal-conditioned reinforcement learning in which the curriculum is generated by starting near the goal state and progressively expanding outward. This account is particularly effective for sparse-reward manipulation tasks where random exploration would fail to encounter reward. Prioritized Level Replay of [Jiang Grefenstette Rocktäschel 2020][research_jiang_grefenstette_rocktaschel_2020] adapted prioritized-replay ideas to procedurally-generated environments, sampling levels that maximize learning progress.
 
 Automatic Curriculum Learning of [Portelas Romac Hofmann Oudeyer 2020][research_portelas_et_al_2020_acl_survey] provided a systematic survey of the automatic curriculum literature circa the early 2020s. The framework connects meta-learning to the broader intelligent-tutoring-system and self-paced-learning traditions.
 
@@ -341,9 +341,9 @@ Automatic Curriculum Learning of [Portelas Romac Hofmann Oudeyer 2020][research_
 
 Meta-learning methods are prone to a distinctive failure mode of meta-overfitting, in which the meta-learner memorizes task-information from the meta-training tasks rather than acquiring genuine fast-adaptation capability. Meta-overfitting manifests as strong performance on meta-training tasks but poor performance on held-out tasks from the same distribution, even when the adaptation trajectory would in principle suffice to identify the task.
 
-The [Yin Tucker Zhou Levine Finn 2020][research_yin_et_al_2020_memorization] Meta-Learning without Memorization framework provided the systematic diagnosis. The framework identified that when the task distribution admits a shortcut solution, in which the task-conditional policy can be constructed without inspecting the adaptation data, gradient-based meta-learning methods often converge to the shortcut solution rather than the intended fast-adaptation solution. The proposed remedy is a mutual-information regularizer that forces the adapted parameters to depend on the adaptation data.
+The [Yin Tucker Zhou Levine Finn 2020][research_yin_et_al_2020_memorization] Meta-Learning without Memorization framework provided the systematic diagnosis. The account identified that when the task distribution admits a shortcut solution, in which the task-conditional policy can be constructed without inspecting the adaptation data, gradient-based meta-learning methods often converge to the shortcut solution rather than the intended fast-adaptation solution. The proposed remedy is a mutual-information regularizer that forces the adapted parameters to depend on the adaptation data.
 
-Meta-overfitting is closely related to the meta-generalization gap, defined as the difference between meta-training and meta-test performance. The gap widens with the effective complexity of the meta-learner and narrows with the number of meta-training tasks. Empirical scaling analyses of [Al-Shedivat Diaz-Rodriguez Guo Hospedales 2021][research_al_shedivat_et_al_2021_meta_generalization] documented that many meta-learning methods on standard benchmarks require substantially more tasks than the typical evaluation protocol provides for reliable meta-generalization.
+Meta-overfitting is closely related to the meta-generalization gap, defined as the difference between meta-training and meta-test performance. The gap widens with the effective complexity of the meta-learner and narrows with the number of meta-training tasks. Empirical scaling analyses of [Al-Shedivat Diaz-Rodriguez Guo Hospedales 2021][research_al_shedivat_et_al_2021_meta_generalization] documented that many meta-learning methods on standard benchmarks require considerably more tasks than the typical evaluation protocol provides for reliable meta-generalization.
 
 The related failure mode of meta-underfitting occurs when the meta-learner fails to acquire task-adaptation and instead produces a task-agnostic policy that achieves mediocre performance across the distribution. Meta-underfitting is often caused by insufficient meta-training data, inadequate meta-learner capacity, or overly-constrained inner-loop update rules.
 
@@ -351,13 +351,13 @@ Robust meta-learning approaches address distribution shift between meta-training
 
 ## Continual and Online Adaptation
 
-Continual adaptation extends the meta-learning framework to settings in which the agent faces a sequence of related tasks and must adapt to each without forgetting the previous ones. The framework connects meta-learning to the continual learning of article ten.
+Continual adaptation extends the meta-learning framework to settings in which the agent faces a sequence of related tasks and must adapt to each without forgetting the previous ones. The model connects meta-learning to the continual learning of article ten.
 
-Online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta_online] provides the direct link between meta-learning and continual online adaptation. The framework trains a meta-learned initialization such that few-shot gradient updates produce task-parameters that generalize to unseen environmental conditions. At each online step, the current parameters are updated from the meta-initialization based on a sliding window of recent transitions,
+Online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta_online] provides the direct link between meta-learning and continual online adaptation. This formulation trains a meta-learned initialization such that few-shot gradient updates produce task-parameters that generalize to unseen environmental conditions. At each online step, the current parameters are updated from the meta-initialization based on a sliding window of recent transitions,
 
 $$\theta_t = \theta_{\text{meta}} - \alpha \sum_{s=1}^{k} \nabla_{\theta_{\text{meta}}} \ell(\theta_{\text{meta}}; \tau_{t-s})$$
 
-where $\ell$ is the per-transition prediction loss. Applied to legged robot control, the framework enables rapid adaptation to novel terrain, actuator faults, and payload variations through a small number of online gradient steps.
+where $\ell$ is the per-transition prediction loss. Applied to legged robot control, this formulation enables rapid adaptation to novel terrain, actuator faults, and payload variations through a small number of online gradient steps.
 
 Continuous Adaptation via Meta-Learning (CAML) of [Al-Shedivat Bansal Burda Sutskever Mordatch Abbeel 2018][research_al_shedivat_et_al_2018] extended MAML to continuously-changing environments in multi-agent settings where the changing behavior of other agents produces non-stationarity.
 
@@ -365,7 +365,7 @@ MOLe of [Nagabandi Finn Levine 2019][research_nagabandi_finn_levine_2019_mole] d
 
 ## In-Context Reinforcement Learning
 
-In-context reinforcement learning extends the in-context learning of large language models to the reinforcement learning setting. The framework treats meta-learning as sequence modeling. A transformer trained on a distribution of learning-algorithm traces produces reinforcement learning behavior at test time by autoregressively predicting the algorithm's next action.
+In-context reinforcement learning extends the in-context learning of large language models to the reinforcement learning setting. This account treats meta-learning as sequence modeling. A transformer trained on a distribution of learning-algorithm traces produces reinforcement learning behavior at test time by autoregressively predicting the algorithm's next action.
 
 Algorithm Distillation of Laskin Wang Oh Parisotto Spencer et al 2023 provided the systematic treatment. A transformer is trained on trajectories
 
@@ -395,7 +395,7 @@ where $\text{Comp}(\mathcal{A})$ is a complexity measure of the meta-algorithm c
 
 Modern analyses including [Denevi Ciliberto Grazzi Pontil 2019][research_denevi_et_al_2019] and [Khodak Balcan Talwalkar 2019][research_khodak_balcan_talwalkar_2019] provide refined bounds for gradient-based meta-learning under favorable geometric assumptions on the task loss landscape. The [Balcan Blum Sharma 2018][research_balcan_blum_sharma_2018] work on algorithm design principles for meta-learning extended the framework to structured hypothesis classes.
 
-The theory of PAC-Bayesian meta-learning provides bounds that are often practical to compute and use for meta-algorithm selection. The [Amit and Meir 2018][research_amit_meir_2018] PAC-Bayes bounds for meta-learning and the [Rothfuss Fortuin Josifoski Krause 2021][research_rothfuss_et_al_2021_pacoh] PACOH framework for principled Bayesian meta-learning provided the modern development. The framework connects meta-learning to broader statistical learning theory and clarifies when meta-learning theoretical guarantees hold.
+The theory of PAC-Bayesian meta-learning provides bounds that are often practical to compute and use for meta-algorithm selection. The [Amit and Meir 2018][research_amit_meir_2018] PAC-Bayes bounds for meta-learning and the [Rothfuss Fortuin Josifoski Krause 2021][research_rothfuss_et_al_2021_pacoh] PACOH framework for principled Bayesian meta-learning provided the modern development. The account connects meta-learning to broader statistical learning theory and clarifies when meta-learning theoretical guarantees hold.
 
 Convergence analyses of MAML including [Fallah Mokhtari Ozdaglar 2020][research_fallah_mokhtari_ozdaglar_2020] established sample-complexity bounds for gradient-based meta-learning under standard smoothness conditions, providing theoretical justification for the empirical success of first-order MAML variants.
 
@@ -403,9 +403,9 @@ Sample-complexity analyses to meta-reinforcement learning remain limited by the 
 
 ## Model-Based Meta-Reinforcement Learning
 
-Model-based meta-reinforcement learning combines the sample-efficiency advantages of the model-based methods treated in article seven with the fast adaptation of meta-learning. The framework meta-learns a world model that adapts rapidly to new tasks, then uses the adapted model for planning or model-based policy optimization.
+Model-based meta-reinforcement learning combines the sample-efficiency advantages of the model-based methods treated in article seven with the fast adaptation of meta-learning. The model meta-learns a world model that adapts rapidly to new tasks, then uses the adapted model for planning or model-based policy optimization.
 
-The Nagabandi et al 2018 deep online adaptation via meta-learning framework treated earlier provides the direct instantiation. A meta-learned dynamics model rapidly adapts to novel environmental conditions through few-shot gradient updates, and the adapted model is used for model-based control via MPC. The framework achieves substantially better real-robot adaptation efficiency than model-free alternatives.
+The Nagabandi et al 2018 deep online adaptation via meta-learning framework treated earlier provides the direct instantiation. A meta-learned dynamics model rapidly adapts to novel environmental conditions through few-shot gradient updates, and the adapted model is used for model-based control via MPC. This formulation achieves significantly better real-robot adaptation efficiency than model-free alternatives.
 
 Model-based meta-policy optimization of [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018] combined MAML with model-based reinforcement learning through ensemble dynamics models. The mechanism supports uncertainty-aware planning during meta-testing when the task is not fully identified. Learning-to-adapt for legged robotics of [Nagabandi Finn Levine 2018][research_nagabandi_finn_levine_2018_learn_to_adapt] applied a similar framework to real-robot control and provided evidence that model-based meta-learning generalizes to physical hardware with acceptable data budgets.
 
@@ -417,7 +417,7 @@ with the task embedding inferred from a short adaptation trajectory. The joint t
 
 $$L_{\text{TCWM}}(\theta, \phi) = -\mathbb{E}_{q_\phi(z \mid \tau)}\!\left[\sum_t \log \hat{P}_\theta(s_{t+1} \mid s_t, a_t, z)\right] + \beta \, D_{\text{KL}}(q_\phi(z \mid \tau) \, \| \, p(z))$$
 
-The framework supports zero-shot generalization to new tasks that share structure with the training distribution through the shared world model.
+The treatment supports zero-shot generalization to new tasks that share structure with the training distribution through the shared world model.
 
 Recent developments including task-conditioned world models in the Dreamer family provide model-based meta-learning at foundation-model scale. The relationship between meta-learning and generalist agents is bidirectional. Meta-learning provides principled adaptation mechanisms for generalist agents, and generalist agents provide the task-scaled infrastructure for meta-learning to reach practical relevance.
 
@@ -425,15 +425,15 @@ Recent developments including task-conditioned world models in the Dreamer famil
 
 The foundation-model paradigm has substantially reshaped the practice of meta-reinforcement learning in the mid 2020s. Rather than training specialized meta-learners on hand-curated task distributions, foundation-scale meta-reinforcement learning trains large sequence models on vast collections of experience data spanning many embodiments, tasks, and modalities.
 
-Gato of [Reed Zolna Parisotto Colmenarejo Novikov Barth-Maron Giménez et al 2022][research_reed_et_al_2022_gato] demonstrated that a single 1.2-billion-parameter transformer trained on tokenized experience data from 604 distinct tasks including robotics, Atari, image captioning, and dialogue can perform all tasks competitively at test time by conditioning on task identity. The framework does not perform meta-adaptation in the traditional sense, but exhibits in-context task inference through the shared sequence model.
+Gato of [Reed Zolna Parisotto Colmenarejo Novikov Barth-Maron Giménez et al 2022][research_reed_et_al_2022_gato] demonstrated that a single 1.2-billion-parameter transformer trained on tokenized experience data from 604 distinct tasks including robotics, Atari, image captioning, and dialogue can perform all tasks competitively at test time by conditioning on task identity. This account does not perform meta-adaptation in the traditional sense, but exhibits in-context task inference through the shared sequence model.
 
-RT-1 of [Brohan Brown Carbajal Chebotar Dabis et al 2022][research_brohan_et_al_2022_rt1] and RT-2 of [Brohan Brown Carbajal Chebotar Chen et al 2023][research_brohan_et_al_2023_rt2] extended the framework to real-robot manipulation across diverse tasks and objects. RT-2's contribution was the integration of pretrained vision-language models with reinforcement learning trajectory data, enabling zero-shot generalization to novel objects and instructions through the shared representational structure of the underlying foundation model.
+RT-1 of [Brohan Brown Carbajal Chebotar Dabis et al 2022][research_brohan_et_al_2022_rt1] and RT-2 of [Brohan Brown Carbajal Chebotar Chen et al 2023][research_brohan_et_al_2023_rt2] extended the account to real-robot manipulation across diverse tasks and objects. RT-2's contribution was the integration of pretrained vision-language models with reinforcement learning trajectory data, enabling zero-shot generalization to novel objects and instructions through the shared representational structure of the underlying foundation model.
 
-Cross-embodiment meta-learning of [Open X-Embodiment Collaboration et al 2023][research_open_x_embodiment_2023] demonstrated that policies trained jointly on data from 22 different robotic embodiments outperform embodiment-baselines on held-out embodiments, providing evidence for positive transfer across substantially different action and observation spaces. The framework connects meta-reinforcement learning to the broader multimodal foundation model literature and establishes an emerging pattern of scaled cross-domain training.
+Cross-embodiment meta-learning of [Open X-Embodiment Collaboration et al 2023][research_open_x_embodiment_2023] demonstrated that policies trained jointly on data from 22 different robotic embodiments outperform embodiment-baselines on held-out embodiments, providing evidence for positive transfer across markedly different action and observation spaces. The account connects meta-reinforcement learning to the broader multimodal foundation model literature and establishes an emerging pattern of scaled cross-domain training.
 
-The relationship between foundation-scale meta-learning and traditional specialized meta-learning remains an open research question. Traditional meta-learners achieve strong adaptation from small task distributions with modest compute budgets, while foundation-scale meta-learners achieve broad generalization with substantial compute and data investment. The two approaches likely complement rather than substitute for one another in the mature engineering practice.
+The relationship between foundation-scale meta-learning and traditional specialized meta-learning remains an open research question. Traditional meta-learners achieve strong adaptation from small task distributions with modest compute budgets, while foundation-scale meta-learners achieve broad generalization with extensive compute and data investment. The two approaches likely complement rather than substitute for one another in the mature engineering practice.
 
-Instruction-following meta-learning provides a related direction connecting meta-reinforcement learning to language-conditioned control. Language-instructed manipulation, navigation, and dialogue policies exhibit in-context adaptation to novel task specifications provided through natural language, effectively performing task inference through language rather than through trajectory observations. The framework connects to the reinforcement learning from human feedback approaches of the language model literature.
+Instruction-following meta-learning provides a related direction connecting meta-reinforcement learning to language-conditioned control. Language-instructed manipulation, navigation, and dialogue policies exhibit in-context adaptation to novel task specifications provided through natural language, effectively performing task inference through language rather than through trajectory observations. The model connects to the reinforcement learning from human feedback approaches of the language model literature.
 
 ## Sim-to-Real Adaptation and Domain Randomization
 
@@ -445,15 +445,15 @@ Formally, domain randomization solves
 
 $$\pi^*_{\text{DR}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi)\right]$$
 
-which is the multi-task objective without task-adaptation. The framework produces zero-shot generalization to any task in the randomization support at the cost of task-optimality.
+which is the multi-task objective without task-adaptation. This formulation produces zero-shot generalization to any task in the randomization support at the cost of task-optimality.
 
-Dynamics randomization of [Peng Andrychowicz Zaremba Abbeel 2018][research_peng_et_al_2018_dynamics_rand] extended domain randomization to dynamical properties including mass, friction, and actuator characteristics. The framework combined with LSTM policies produced substantially better sim-to-real transfer for legged robotics than either component alone.
+Dynamics randomization of [Peng Andrychowicz Zaremba Abbeel 2018][research_peng_et_al_2018_dynamics_rand] extended domain randomization to dynamical properties including mass, friction, and actuator characteristics. The treatment combined with LSTM policies produced appreciably better sim-to-real transfer for legged robotics than either component alone.
 
 Adaptive domain randomization approaches combine the two paradigms. The [Akkaya Andrychowicz Chociej Litwin McGrew Petron Paino Plappert et al 2019][research_openai_et_al_2019_rubiks] Rubik's Cube framework used automatic domain randomization to progressively expand the randomization distribution during training, producing policies that transferred to physical hand manipulation. The policy retained sufficient adaptation capability through the LSTM recurrence to specialize to the physical hand at deployment time.
 
 The tradeoff between domain randomization and meta-learning is subtle. Domain randomization requires no test-time compute for adaptation but requires the randomization distribution to encompass the deployment conditions. Meta-learning tolerates deployment conditions outside the training distribution when the adaptation trajectory reveals the discrepancy, at the cost of test-time adaptation compute. In practice modern robotics systems often combine both approaches, using domain randomization to establish a robust prior policy and meta-adaptation to specialize to the deployment environment.
 
-The related framework of system identification meta-learning of [Yu Tan Bai Xu Liu 2017][research_yu_et_al_2017_sysid] used a small adaptation trajectory to identify physical parameters of the deployment environment, then used the identified parameters to select or specialize a policy. The framework provides a middle ground between pure meta-learning and pure domain randomization by making the task representation explicit and physically-interpretable.
+The related framework of system identification meta-learning of [Yu Tan Bai Xu Liu 2017][research_yu_et_al_2017_sysid] used a small adaptation trajectory to identify physical parameters of the deployment environment, then used the identified parameters to select or specialize a policy. This account provides a middle ground between pure meta-learning and pure domain randomization by making the task representation explicit and physically-interpretable.
 
 ## Empirical Landscape
 
@@ -469,7 +469,7 @@ Empirical performance across these benchmarks shows several patterns. Recurrent 
 
 MiniHack of [Samvelyan Kirk Kurin et al 2021][research_samvelyan_et_al_2021_minihack] provides a diverse and configurable NetHack-based environment specifically designed for meta-reinforcement learning research. NLE of [Küttler Nardelli et al 2020][research_kuttler_et_al_2020_nle] provides the underlying NetHack Learning Environment that has served as one of the most challenging open benchmarks for reinforcement learning generalization.
 
-Crafter of [Hafner 2022][research_hafner_2022_crafter] provides a Minecraft-inspired procedurally-generated benchmark that supports both meta-learning and long-horizon reinforcement learning research with substantially lower computational requirements than 3D game engines.
+Crafter of [Hafner 2022][research_hafner_2022_crafter] provides a Minecraft-inspired procedurally-generated benchmark that supports both meta-learning and long-horizon reinforcement learning research with greatly lower computational requirements than 3D game engines.
 
 Empirical comparison across meta-reinforcement learning benchmarks is complicated by the sensitivity of results to hyperparameter choices, task distribution details, and evaluation protocols. Standardized evaluation practices are an active area of methodological development.
 
@@ -493,15 +493,15 @@ Wireless network resource allocation uses meta-reinforcement learning to adapt s
 
 The practical realization of meta-reinforcement learning depends on software tooling for differentiating through inner-loop training procedures, managing task distributions, and reproducing benchmark results. Several open-source frameworks have emerged to support the practical work.
 
-Higher of [Grefenstette Amos Yarats Htut Riedel Chintala 2019][research_grefenstette_et_al_2019_higher] provides a PyTorch extension for computing higher-order gradients through arbitrary training loops. The framework is the standard tool for implementing MAML and related gradient-based meta-learning methods, supporting both first-order and full second-order gradients through a functional module rewrite.
+Higher of [Grefenstette Amos Yarats Htut Riedel Chintala 2019][research_grefenstette_et_al_2019_higher] provides a PyTorch extension for computing higher-order gradients through arbitrary training loops. The account is the standard tool for implementing MAML and related gradient-based meta-learning methods, supporting both first-order and full second-order gradients through a functional module rewrite.
 
 Learn2learn of [Arnold Mahajan Datta Bunner Zarkias 2020][research_arnold_et_al_2020_learn2learn] provides a broader library of meta-learning algorithms and benchmarks. The library implements MAML, ANIL, Reptile, PEARL, matching networks, prototypical networks, and other standard methods on both few-shot supervised and meta-reinforcement learning benchmarks.
 
 Torchmeta of [Deleu Warde-Farley Sygnowski Bengio 2019][research_deleu_et_al_2019_torchmeta] provides an alternative library focused on few-shot supervised meta-learning with support for standard benchmarks including Omniglot and miniImageNet. The library provides task-generator utilities that abstract away the boilerplate of episode construction.
 
-Garage of [Duan Chen Houthooft Schulman Abbeel 2016 et al][research_duan_et_al_garage] and its successor libraries provide reinforcement-learning-implementations of PEARL, MAML, RL-squared, and related methods. The framework enables direct benchmark comparison across meta-reinforcement learning algorithms with consistent evaluation protocols.
+Garage of [Duan Chen Houthooft Schulman Abbeel 2016 et al][research_duan_et_al_garage] and its successor libraries provide reinforcement-learning-implementations of PEARL, MAML, RL-squared, and related methods. The model enables direct benchmark comparison across meta-reinforcement learning algorithms with consistent evaluation protocols.
 
-Reproducibility of meta-reinforcement learning results has been a persistent challenge. The [Henderson Islam Bachman Pineau Precup Meger 2018][research_henderson_et_al_2018_reproducibility] analysis of reinforcement learning reproducibility documented substantial variation in reported results across random seeds and implementation details, and subsequent analyses have documented similar patterns to meta-reinforcement learning. The [Beck Vuorio Liu Xiong Zintgraf Finn Whiteson 2023][research_beck_et_al_2023_metarl_survey] survey of meta-reinforcement learning provided consolidated reproducibility guidelines that are increasingly adopted in the modern practice.
+Reproducibility of meta-reinforcement learning results has been a persistent challenge. The [Henderson Islam Bachman Pineau Precup Meger 2018][research_henderson_et_al_2018_reproducibility] analysis of reinforcement learning reproducibility documented sizable variation in reported results across random seeds and implementation details, and subsequent analyses have documented similar patterns to meta-reinforcement learning. The [Beck Vuorio Liu Xiong Zintgraf Finn Whiteson 2023][research_beck_et_al_2023_metarl_survey] survey of meta-reinforcement learning provided consolidated reproducibility guidelines that are increasingly adopted in the modern practice.
 
 Standardization of benchmark protocols including consistent task distributions, evaluation horizons, and adaptation budgets has become a research priority. Meta-World v2 in particular introduced standardized benchmarking that has improved cross-paper comparability. Ongoing work on Meta-RL reproducibility infrastructure continues to strengthen the empirical foundation of the field.
 
@@ -509,7 +509,7 @@ Standardization of benchmark protocols including consistent task distributions, 
 
 The prefrontal cortex has been proposed as implementing meta-reinforcement learning in biological brains. The [Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2018][research_wang_et_al_2018_prefrontal] framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. The proposal provides a computational-level explanation for prefrontal cortex behavior across a wide range of experimental paradigms.
 
-The framework predicts that lesions to prefrontal cortex should impair fast adaptation but leave slow reinforcement learning intact. The prediction is broadly consistent with the neuropsychological literature on prefrontal damage, though the specificity of the mapping remains under investigation.
+This formulation predicts that lesions to prefrontal cortex should impair fast adaptation but leave slow reinforcement learning intact. The prediction is broadly consistent with the neuropsychological literature on prefrontal damage, though the specificity of the mapping remains under investigation.
 
 [Botvinick et al 2019][research_botvinick_et_al_2019_meta] provided a broader review of the neuroscience-machine-learning connection, treating meta-reinforcement learning as a instance of the broader principle that the brain implements algorithms shaped by evolutionary and developmental meta-learning across distributions of environmental challenges.
 

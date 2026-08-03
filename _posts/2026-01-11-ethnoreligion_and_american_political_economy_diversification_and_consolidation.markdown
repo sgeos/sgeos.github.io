@@ -13,11 +13,11 @@ series_index: 9
 <!-- A274 -->
 <script>console.log("A274");</script>
 
-This ninth article of the series treats the 1980-2000 period during which the American ethnoreligious landscape underwent full post-Hart-Celler demographic diversification through Asian, Latin American, African, and Middle Eastern immigration waves combined with substantial refugee admissions from Central American civil wars, Iranian revolution aftermath, Southeast Asian post-conflict displacement, Ethiopian and Somali collapse, Bosnian ethnic cleansing, and post-Tiananmen Chinese and post-Cold War Eastern European flows. Coverage includes the Immigration Reform and Control Act 1986 (IRCA) legalizing approximately 2.7 million undocumented residents through amnesty and Special Agricultural Workers programs, Immigration Act 1990 establishing Diversity Visa Program and Temporary Protected Status framework, Illegal Immigration Reform and Immigrant Responsibility Act 1996 (IIRIRA) and 1996 Personal Responsibility and Work Opportunity Reconciliation Act, Nicaraguan Adjustment and Central American Relief Act 1997 (NACARA), Central American civil war refugees from El Salvador, Guatemala, and Nicaragua producing substantial Sanctuary Movement institutional response beginning 1982 under Reverend John Fife, Iranian refugee consolidation combining Jewish, Baha'i, Christian, and Zoroastrian religious minorities alongside Muslim populations, Cambodian refugees post-Khmer Rouge, Ethiopian refugees and Beta Israel Operations Moses 1984-1985 and Solomon 1991 airlifts to Israel, Somali refugees post-1991 state collapse concentrating in Minneapolis-St. Paul metropolitan area, Bosnian refugees 1992-1999 combining Muslim, Serbian Orthodox, and Croatian Catholic populations, post-Tiananmen Chinese student and broader Chinese migration through Chinese Student Protection Act 1992, Korean Christian institutional formation reaching approximately 4,000 US Korean congregations by 2020, Indian immigration and Hindu temple movement reaching approximately 800 US Hindu temples by 2020 alongside Sikh gurdwara expansion and Jain, Zoroastrian, and Buddhist Indian populations, Pakistani and Bangladeshi Muslim immigration and American Muslim institutional consolidation through Islamic Society of North America 1981, Islamic Circle of North America 1968, Muslim American Society 1993, and Council on American-Islamic Relations 1994, Filipino migration continuation reaching approximately 4.4 million Filipino Americans by 2020, post-1965 African immigration from Nigeria, Ghana, Kenya, and other countries producing substantial African Christian institutional formation including African Independent Church transplants and Redeemed Christian Church of God expansion, Vietnamese second-wave and Amerasian Homecoming Act 1988, Cuban Balseros 1994 rafters crisis and US-Cuba Migration Accord 1994-1995, Haitian migration under 1980 Refugee Act framework and Temporary Protected Status designations, American Muslim institutional formation reaching approximately 3.5 million by 2020, Buddhism mainstream expansion combining ethnic Asian Buddhist immigrant populations with American convert Buddhist populations including Zen, Tibetan, and Vipassana traditions, Hindu temple movement, Sikh American institutional expansion reaching approximately 350 gurdwaras by 2020, Reagan religious politics 1981-1989 and Religious Right consolidation, Christian Coalition 1989 formation under Pat Robertson and Ralph Reed replacing 1989 Moral Majority dissolution, Focus on the Family under James Dobson expansion, Promise Keepers 1990 formation, megachurch movement and Church Growth Movement, Willow Creek Community Church under Bill Hybels and Saddleback Church under Rick Warren, televangelism scandals 1987-1988 (Jim Bakker PTL Ministry fraud conviction, Jimmy Swaggart 1988 confession), third wave Charismatic movement including Vineyard Church and Toronto Blessing 1994, mainline Protestant denominational decline through 1970s-2000s window, Waco Branch Davidian siege 1993 and Oklahoma City bombing 1995 religious dimensions, 1995 Million Man March under Louis Farrakhan and Nation of Islam trajectory, rise of "Nones" and religiously unaffiliated Americans reaching approximately 15% by 2000, and the systematic application of the six-axis analytical framework to the 1980-2000 substrates.
+This ninth article of the series treats the 1980-2000 period during which the American ethnoreligious landscape underwent full post-Hart-Celler demographic diversification through Asian, Latin American, African, and Middle Eastern immigration waves combined with considerable refugee admissions from Central American civil wars, Iranian revolution aftermath, Southeast Asian post-conflict displacement, Ethiopian and Somali collapse, Bosnian ethnic cleansing, and post-Tiananmen Chinese and post-Cold War Eastern European flows. Coverage includes the Immigration Reform and Control Act 1986 (IRCA) legalizing approximately 2.7 million undocumented residents through amnesty and Special Agricultural Workers programs, Immigration Act 1990 establishing Diversity Visa Program and Temporary Protected Status framework, Illegal Immigration Reform and Immigrant Responsibility Act 1996 (IIRIRA) and 1996 Personal Responsibility and Work Opportunity Reconciliation Act, Nicaraguan Adjustment and Central American Relief Act 1997 (NACARA), Central American civil war refugees from El Salvador, Guatemala, and Nicaragua producing significant Sanctuary Movement institutional response beginning 1982 under Reverend John Fife, Iranian refugee consolidation combining Jewish, Baha'i, Christian, and Zoroastrian religious minorities alongside Muslim populations, Cambodian refugees post-Khmer Rouge, Ethiopian refugees and Beta Israel Operations Moses 1984-1985 and Solomon 1991 airlifts to Israel, Somali refugees post-1991 state collapse concentrating in Minneapolis-St. Paul metropolitan area, Bosnian refugees 1992-1999 combining Muslim, Serbian Orthodox, and Croatian Catholic populations, post-Tiananmen Chinese student and broader Chinese migration through Chinese Student Protection Act 1992, Korean Christian institutional formation reaching approximately 4,000 US Korean congregations by 2020, Indian immigration and Hindu temple movement reaching approximately 800 US Hindu temples by 2020 alongside Sikh gurdwara expansion and Jain, Zoroastrian, and Buddhist Indian populations, Pakistani and Bangladeshi Muslim immigration and American Muslim institutional consolidation through Islamic Society of North America 1981, Islamic Circle of North America 1968, Muslim American Society 1993, and Council on American-Islamic Relations 1994, Filipino migration continuation reaching approximately 4.4 million Filipino Americans by 2020, post-1965 African immigration from Nigeria, Ghana, Kenya, and other countries producing substantial African Christian institutional formation including African Independent Church transplants and Redeemed Christian Church of God expansion, Vietnamese second-wave and Amerasian Homecoming Act 1988, Cuban Balseros 1994 rafters crisis and US-Cuba Migration Accord 1994-1995, Haitian migration under 1980 Refugee Act framework and Temporary Protected Status designations, American Muslim institutional formation reaching approximately 3.5 million by 2020, Buddhism mainstream expansion combining ethnic Asian Buddhist immigrant populations with American convert Buddhist populations including Zen, Tibetan, and Vipassana traditions, Hindu temple movement, Sikh American institutional expansion reaching approximately 350 gurdwaras by 2020, Reagan religious politics 1981-1989 and Religious Right consolidation, Christian Coalition 1989 formation under Pat Robertson and Ralph Reed replacing 1989 Moral Majority dissolution, Focus on the Family under James Dobson expansion, Promise Keepers 1990 formation, megachurch movement and Church Growth Movement, Willow Creek Community Church under Bill Hybels and Saddleback Church under Rick Warren, televangelism scandals 1987-1988 (Jim Bakker PTL Ministry fraud conviction, Jimmy Swaggart 1988 confession), third wave Charismatic movement including Vineyard Church and Toronto Blessing 1994, mainline Protestant denominational decline through 1970s-2000s window, Waco Branch Davidian siege 1993 and Oklahoma City bombing 1995 religious dimensions, 1995 Million Man March under Louis Farrakhan and Nation of Islam trajectory, rise of "Nones" and religiously unaffiliated Americans reaching approximately 15% by 2000, and the systematic application of the six-axis analytical framework to the 1980-2000 substrates.
 
 ## Post-1965 Full Demographic Diversification
 
-The 1980-2000 window produced substantial completion of post-1965 Hart-Celler Act demographic transformation documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Total foreign-born US population reached substantial levels,
+The 1980-2000 window produced marked completion of post-1965 Hart-Celler Act demographic transformation documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Total foreign-born US population reached extensive levels,
 
 $$P_{\text{foreign-born, US}}\bigg|_{1970} \approx 9.6 \times 10^6, \quad P\bigg|_{1980} \approx 1.42 \times 10^7, \quad P\bigg|_{1990} \approx 1.98 \times 10^7, \quad P\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7$$
 
@@ -25,9 +25,9 @@ producing approximately fourfold expansion across the fifty-year post-1965 windo
 
 $$f_{\text{foreign-born, US population}}\bigg|_{1970} \approx 0.048, \quad f\bigg|_{2000} \approx 0.110, \quad f\bigg|_{2020} \approx 0.135$$
 
-approximately restoring pre-1924 foreign-born share exceeded through mid-twentieth-century restrictionist framework. The [Waters and Ueda 2007][book_waters_ueda_2007] The New Americans, [Zolberg 2006][book_zolberg_2006] A Nation by Design (already cited), and [Foner 2000][book_foner_2000] From Ellis Island to JFK provide the comprehensive treatments.
+approximately restoring pre-1924 foreign-born share exceeded through mid-twentieth-century restrictionist framework. The [Waters and Ueda 2007][book_waters_ueda_2007] The New Americans, [Zolberg 2006][book_zolberg_2006] A Nation by Design (already cited), and [Foner 2000][book_foner_2000] From Ellis Island to JFK provide the standard treatments.
 
-Religious composition diversification was substantial. Approximate religious composition shifts across 1948-2020 window reached
+Religious composition diversification was sizable. Approximate religious composition shifts across 1948-2020 window reached
 
 $$\begin{aligned}
 f_{\text{Christian, US}}\bigg|_{1948} &\approx 0.91, \quad f\bigg|_{2000} \approx 0.82, \quad f\bigg|_{2020} \approx 0.63 \\
@@ -43,7 +43,7 @@ per [Gallup Religion Surveys][ref_gallup_religion_surveys], [Pew Research US Rel
 
 ## Immigration Reform and Control Act 1986 (IRCA)
 
-The Immigration Reform and Control Act (IRCA) of 6 November 1986 [IRCA 1986][ref_irca_1986] provided the first substantial federal immigration enforcement and legalization legislation of the post-Hart-Celler era. IRCA combined employer sanctions (I-9 employment verification framework), legalization program admitting approximately 2.7 million previously undocumented residents to legal status, Special Agricultural Workers (SAW) program admitting approximately 1.1 million agricultural workers, and border enforcement expansion. The [Reimers 1985][book_reimers_1985] Still the Golden Door, [Massey Durand and Malone 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors (already cited in A273), and [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271) provide the comprehensive treatments.
+The Immigration Reform and Control Act (IRCA) of 6 November 1986 [IRCA 1986][ref_irca_1986] provided the first considerable federal immigration enforcement and legalization legislation of the post-Hart-Celler era. IRCA combined employer sanctions (I-9 employment verification framework), legalization program admitting approximately 2.7 million previously undocumented residents to legal status, Special Agricultural Workers (SAW) program admitting approximately 1.1 million agricultural workers, and border enforcement expansion. The [Reimers 1985][book_reimers_1985] Still the Golden Door, [Massey Durand and Malone 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors (already cited in A273), and [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271) provide the fullest treatments.
 
 IRCA legalization program totals reached approximately
 
@@ -56,17 +56,17 @@ f_{\text{Mexican origin among IRCA legalizations}} &\approx 0.75
 
 per US Citizenship and Immigration Services records. The Mexican-origin majority among IRCA legalizations reflected ongoing US-Mexico labor migration through post-Bracero and pre-IRCA period documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening].
 
-Religious institutional support for IRCA legalization proceeded through US Conference of Catholic Bishops, Migration and Refugee Services, Lutheran Immigration and Refugee Service, Church World Service, American Jewish organizations, and evangelical organizations including World Relief. The 1988 Amnesty implementation combined substantial parish-based application assistance with broader religious institutional advocacy for legalization outreach.
+Religious institutional support for IRCA legalization proceeded through US Conference of Catholic Bishops, Migration and Refugee Services, Lutheran Immigration and Refugee Service, Church World Service, American Jewish organizations, and evangelical organizations including World Relief. The 1988 Amnesty implementation combined significant parish-based application assistance with broader religious institutional advocacy for legalization outreach.
 
 IRCA's employer sanctions provisions proved ineffective in reducing undocumented migration through subsequent decades, producing substantial undocumented US population expansion,
 
 $$P_{\text{undocumented US population, estimated}}\bigg|_{1986} \approx 5 \times 10^6, \quad P\bigg|_{2000} \approx 8.5 \times 10^6, \quad P\bigg|_{2007} \approx 1.22 \times 10^7, \quad P\bigg|_{2020} \approx 1.05 \times 10^7$$
 
-per Pew Research Center reconstruction. The 2007 peak reflected substantial pre-2008 financial crisis Mexican and Central American migration.
+per Pew Research Center reconstruction. The 2007 peak reflected marked pre-2008 financial crisis Mexican and Central American migration.
 
 ## Immigration Act 1990 and Diversity Visa Program
 
-The Immigration Act of 29 November 1990 [Immigration Act 1990][ref_immigration_act_1990] provided approximately 40% expansion of annual legal immigration ceiling and creation of Diversity Visa (DV) Program providing 55,000 annual permanent resident visas through lottery framework prioritizing countries with low recent US immigration. The [Zolberg 2006][book_zolberg_2006] and [Tichenor 2002][book_tichenor_2002] Dividing Lines (already cited in A273) provide the comprehensive treatments.
+The Immigration Act of 29 November 1990 [Immigration Act 1990][ref_immigration_act_1990] provided approximately 40% expansion of annual legal immigration ceiling and creation of Diversity Visa (DV) Program providing 55,000 annual permanent resident visas through lottery framework prioritizing countries with low recent US immigration. The [Zolberg 2006][book_zolberg_2006] and [Tichenor 2002][book_tichenor_2002] Dividing Lines (already cited in A273) provide the treatments.
 
 Act provisions included expansion of employment-based preference categories (EB-1 through EB-5 framework), family-based preference expansion, creation of Temporary Protected Status (TPS) framework treated below, Diversity Visa lottery, and removal of 1952 McCarran-Walter ideological exclusion provisions documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Approximate Diversity Visa Program admissions reached
 
@@ -89,9 +89,9 @@ per US Citizenship and Immigration Services records, with extensions across subs
 
 ## IIRIRA 1996 and Immigration Enforcement Expansion
 
-The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 30 September 1996 [IIRIRA 1996][ref_iirira_1996] provided substantial expansion of immigration enforcement combining expedited removal procedures, aggravated felony deportation expansion, three-year and ten-year bars for unlawful presence, 287(g) state-federal enforcement cooperation framework, and criminalization of various immigration violations. The [Ngai 2004][book_ngai_2004] (already cited), [Kanstroom 2007][book_kanstroom_2007] Deportation Nation, and [Chacon 2018][book_chacon_2018] Producing Undocumented Migration provide the comprehensive treatments.
+The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 30 September 1996 [IIRIRA 1996][ref_iirira_1996] provided extensive expansion of immigration enforcement combining expedited removal procedures, aggravated felony deportation expansion, three-year and ten-year bars for unlawful presence, 287(g) state-federal enforcement cooperation framework, and criminalization of several immigration violations. The [Ngai 2004][book_ngai_2004] (already cited), [Kanstroom 2007][book_kanstroom_2007] Deportation Nation, and [Chacon 2018][book_chacon_2018] Producing Undocumented Migration provide the detailed treatments.
 
-The 1996 [Personal Responsibility and Work Opportunity Reconciliation Act 1996][ref_prwora_1996] (PRWORA, welfare reform) restricted legal immigrant access to federal welfare programs, and 1996 [Antiterrorism and Effective Death Penalty Act 1996][ref_aedpa_1996] (AEDPA) provided additional expedited removal framework. Combined enforcement effects produced substantial deportation expansion,
+The 1996 [Personal Responsibility and Work Opportunity Reconciliation Act 1996][ref_prwora_1996] (PRWORA, welfare reform) restricted legal immigrant access to federal welfare programs, and 1996 [Antiterrorism and Effective Death Penalty Act 1996][ref_aedpa_1996] (AEDPA) provided additional expedited removal framework. Combined enforcement effects produced sizable deportation expansion,
 
 $$N_{\text{annual formal removals, US}}(1990) \approx 3 \times 10^4, \quad N\bigg|_{2000} \approx 1.9 \times 10^5, \quad N\bigg|_{2013} \approx 4.4 \times 10^5, \quad N_{\text{cumulative formal removals 1996 to 2020}} \gtrsim 5 \times 10^6$$
 
@@ -101,7 +101,7 @@ The 1997 [Nicaraguan Adjustment and Central American Relief Act 1997][ref_nacara
 
 ## Central American Civil War Refugees
 
-Central American civil war refugee flows through 1980s-1990s produced substantial American demographic transformation and religious institutional mobilization. Total Central American refugee arrivals reached approximately
+Central American civil war refugee flows through 1980s-1990s produced appreciable American demographic transformation and religious institutional mobilization. Total Central American refugee arrivals reached approximately
 
 $$\begin{aligned}
 N_{\text{Salvadoran arrivals, US, 1980 to 2000}} &\approx 1.2 \times 10^6 \\
@@ -110,25 +110,25 @@ N_{\text{Nicaraguan arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5 \\
 N_{\text{Honduran arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5
 \end{aligned}$$
 
-per US Immigration and Naturalization Service records. The [Menjivar 2000][book_menjivar_2000] Fragmented Ties, [Coutin 2000][book_coutin_2000] Legalizing Moves, and [Hagan 1994][book_hagan_1994] Deciding to Be Legal provide the comprehensive treatments.
+per US Immigration and Naturalization Service records. The [Menjivar 2000][book_menjivar_2000] Fragmented Ties, [Coutin 2000][book_coutin_2000] Legalizing Moves, and [Hagan 1994][book_hagan_1994] Deciding to Be Legal provide the leading treatments.
 
-Religious composition of Central American refugee populations combined substantial Catholic majority (approximately 65% Catholic identification through 1990s, declining through twenty-first century), rapidly expanding Pentecostal populations (approximately 25% by 2000, expanding to approximately 40% by 2020 in various Central American national populations), mainline Protestant minorities, and various traditional and syncretic religious practices particularly among Guatemalan Maya populations. The [Chesnut 2003][book_chesnut_2003] Competitive Spirits and [Stoll 1990][book_stoll_1990] Is Latin America Turning Protestant provide the comprehensive treatments of Latin American religious transformation.
+Religious composition of Central American refugee populations combined considerable Catholic majority (approximately 65% Catholic identification through 1990s, declining through twenty-first century), rapidly expanding Pentecostal populations (approximately 25% by 2000, expanding to approximately 40% by 2020 in a range of Central American national populations), mainline Protestant minorities, and various traditional and syncretic religious practices particularly among Guatemalan Maya populations. The [Chesnut 2003][book_chesnut_2003] Competitive Spirits and [Stoll 1990][book_stoll_1990] Is Latin America Turning Protestant provide the principal treatments of Latin American religious transformation.
 
 Sanctuary Movement expansion continued 1982-1990 window documented in [A273][related_post_a273_postwar_transformation_and_reopening]. By 1990 approximately
 
 $$N_{\text{Sanctuary Movement congregations, US, peak c. 1988 to 1990}} \approx 6 \times 10^2, \quad N_{\text{Sanctuary Movement participating religious denominations}} \approx 25$$
 
-per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987] Supreme Court decision lowered asylum evidentiary standard from "clear probability" to "well-founded fear of persecution" framework consistent with 1980 Refugee Act statutory language, producing substantial asylum grant expansion. The 1990 [American Baptist Churches v. Thornburgh 1991][ref_abc_v_thornburgh_1991] American Baptist Churches v. Thornburgh settlement produced substantial relief for approximately 500,000 Salvadoran and Guatemalan asylum applicants previously denied under Reagan administration framework. The settlement's institutional impact preceded NACARA framework treated above.
+per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987] Supreme Court decision lowered asylum evidentiary standard from "clear probability" to "well-founded fear of persecution" framework consistent with 1980 Refugee Act statutory language, producing significant asylum grant expansion. The 1990 [American Baptist Churches v. Thornburgh 1991][ref_abc_v_thornburgh_1991] American Baptist Churches v. Thornburgh settlement produced substantial relief for approximately 500,000 Salvadoran and Guatemalan asylum applicants previously denied under Reagan administration framework. The settlement's institutional impact preceded NACARA framework treated above.
 
 ## Iranian Refugee Consolidation
 
-Iranian refugee migration continuing from 1979 revolution through 1980s-2000s produced substantial Iranian American community formation. Total Iranian arrivals reached approximately
+Iranian refugee migration continuing from 1979 revolution through 1980s-2000s produced marked Iranian American community formation. Total Iranian arrivals reached approximately
 
 $$N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad N_{\text{Iranian arrivals, US, 1979 to 2020}} \approx 5 \times 10^5, \quad P_{\text{Iranian American, US}}\bigg|_{2020} \approx 5 \times 10^5$$
 
-per US Census records. Concentration in Los Angeles ("Tehrangeles" Westwood district) reflected pre-1979 educational and business linkages combined with post-1979 institutional community formation. The [Mostofi 2003][book_mostofi_2003] Iranian Americans (already cited in A273), [Bozorgmehr 1998][book_bozorgmehr_1998] From Iranian Studies, and [Kelley 1993][book_kelley_1993] Irangeles provide the comprehensive treatments.
+per US Census records. Concentration in Los Angeles ("Tehrangeles" Westwood district) reflected pre-1979 educational and business linkages combined with post-1979 institutional community formation. The [Mostofi 2003][book_mostofi_2003] Iranian Americans (already cited in A273), [Bozorgmehr 1998][book_bozorgmehr_1998] From Iranian Studies, and [Kelley 1993][book_kelley_1993] Irangeles provide the most complete treatments.
 
-Iranian religious minority admissions were substantial through US refugee framework. Approximate religious composition of Iranian American population reached
+Iranian religious minority admissions were extensive through US refugee framework. Approximate religious composition of Iranian American population reached
 
 $$f_{\text{Iranian Muslim (Shia and Sunni), US}} \approx 0.30, \quad f_{\text{Iranian Jewish, US}} \approx 0.25, \quad f_{\text{Iranian Baha'i, US}} \approx 0.10, \quad f_{\text{Iranian Christian (Armenian, Assyrian, Persian evangelical), US}} \approx 0.15, \quad f_{\text{Iranian Zoroastrian, US}} \approx 0.05, \quad f_{\text{Iranian secular or unaffiliated, US}} \approx 0.15$$
 
@@ -136,7 +136,7 @@ per Public Affairs Alliance of Iranian Americans and Pew Research reconstruction
 
 ## Cambodian Refugees Post-Khmer Rouge
 
-Cambodian refugee admission through 1975-1994 window continued the 1975 initial wave documented in [A273][related_post_a273_postwar_transformation_and_reopening], with substantial 1979-1980 acceleration following Vietnamese overthrow of Khmer Rouge regime and consequent Cambodian refugee flow to Thai border camps. Total Cambodian arrivals reached approximately
+Cambodian refugee admission through 1975-1994 window continued the 1975 initial wave documented in [A273][related_post_a273_postwar_transformation_and_reopening], with sizable 1979-1980 acceleration following Vietnamese overthrow of Khmer Rouge regime and consequent Cambodian refugee flow to Thai border camps. Total Cambodian arrivals reached approximately
 
 $$N_{\text{Cambodian arrivals, US, 1975 to 1994}} \approx 1.5 \times 10^5, \quad P_{\text{Cambodian American, US}}\bigg|_{2020} \approx 3.4 \times 10^5$$
 
@@ -146,17 +146,17 @@ Cambodian American religious composition was Theravada Buddhist (approximately 9
 
 $$N_{\text{Cambodian Buddhist temples (wats), US, 1985}} \approx 30, \quad N_{\text{Cambodian wats, US, 2020}} \approx 150, \quad N_{\text{ordained Cambodian Buddhist monks, US}} \approx 400$$
 
-per institutional records. Cambodian American concentration in Long Beach, California ("Cambodia Town" designation 2007), Lowell, Massachusetts, Providence, Rhode Island, and various other concentrations produced characteristic post-refugee Cambodian community formation.
+per institutional records. Cambodian American concentration in Long Beach, California ("Cambodia Town" designation 2007), Lowell, Massachusetts, Providence, Rhode Island, and assorted other concentrations produced characteristic post-refugee Cambodian community formation.
 
 ## Ethiopian Refugees and Beta Israel
 
-Ethiopian refugee migration through 1980-2000 window combined substantial Amhara, Oromo, Tigray, and other Ethiopian populations displaced by 1974-1991 Derg regime persecution, 1983-1985 famine, and 1974-1991 Ethiopian Civil War. Total Ethiopian arrivals reached approximately
+Ethiopian refugee migration through 1980-2000 window combined appreciable Amhara, Oromo, Tigray, and other Ethiopian populations displaced by 1974-1991 Derg regime persecution, 1983-1985 famine, and 1974-1991 Ethiopian Civil War. Total Ethiopian arrivals reached approximately
 
 $$N_{\text{Ethiopian arrivals, US, 1980 to 2000}} \approx 8 \times 10^4, \quad P_{\text{Ethiopian American, US}}\bigg|_{2020} \approx 3 \times 10^5$$
 
-per US Immigration and Naturalization Service records. Concentration in Washington DC metropolitan area ("Little Ethiopia" 9th and U Streets NW neighborhood) reflected 1970s Ethiopian student population combined with 1980s-1990s refugee expansion. The [Levine 2000][book_levine_2000] Greater Ethiopia and [Chacko 2003][book_chacko_2003] Identity and Assimilation among Young Ethiopian Immigrants provide the comprehensive treatments.
+per US Immigration and Naturalization Service records. Concentration in Washington DC metropolitan area ("Little Ethiopia" 9th and U Streets NW neighborhood) reflected 1970s Ethiopian student population combined with 1980s-1990s refugee expansion. The [Levine 2000][book_levine_2000] Greater Ethiopia and [Chacko 2003][book_chacko_2003] Identity and Assimilation among Young Ethiopian Immigrants provide the standard treatments.
 
-Ethiopian American religious composition combined substantial Ethiopian Orthodox Tewahedo Church (approximately 45%), Ethiopian Islam (approximately 25%), Ethiopian Protestant (approximately 25% including Pentecostal, Baptist, and various evangelical denominations), and traditional and Ethiopian Catholic minorities. Ethiopian Orthodox Church congregations in the US reached approximately
+Ethiopian American religious composition combined considerable Ethiopian Orthodox Tewahedo Church (approximately 45%), Ethiopian Islam (approximately 25%), Ethiopian Protestant (approximately 25% including Pentecostal, Baptist, and a number of evangelical denominations), and traditional and Ethiopian Catholic minorities. Ethiopian Orthodox Church congregations in the US reached approximately
 
 $$N_{\text{Ethiopian Orthodox Tewahedo parishes, US, 2020}} \approx 100, \quad P_{\text{Ethiopian Orthodox affiliation, US}}\bigg|_{2020} \approx 1.3 \times 10^5$$
 
@@ -184,11 +184,11 @@ per institutional records. Twenty-first-century Somali American religious instit
 
 ## Bosnian Refugees 1992-1999
 
-Bosnian refugee admission through 1992-1999 Balkan conflicts window produced substantial American Bosnian community formation. Total Bosnian arrivals reached approximately
+Bosnian refugee admission through 1992-1999 Balkan conflicts window produced significant American Bosnian community formation. Total Bosnian arrivals reached approximately
 
 $$N_{\text{Bosnian arrivals, US, 1992 to 2000}} \approx 1.3 \times 10^5, \quad P_{\text{Bosnian American, US}}\bigg|_{2020} \approx 1.4 \times 10^5$$
 
-per US Office of Refugee Resettlement records. Concentration in Saint Louis, Missouri ("Little Bosnia" Bevo Mill neighborhood containing approximately 50,000 Bosnian American residents), Chicago, and Utica, New York produced characteristic Bosnian diaspora community formation. The [Franz 2005][book_franz_2005] Uprooted and Unwanted, [Coughlan and Owens-Manley 2005][book_coughlan_owens_manley_2005] Bosnian Refugees in America, and [Robinson 1998][book_robinson_1998] Terms of Refuge (already cited in A273) provide the comprehensive treatments.
+per US Office of Refugee Resettlement records. Concentration in Saint Louis, Missouri ("Little Bosnia" Bevo Mill neighborhood containing approximately 50,000 Bosnian American residents), Chicago, and Utica, New York produced characteristic Bosnian diaspora community formation. The [Franz 2005][book_franz_2005] Uprooted and Unwanted, [Coughlan and Owens-Manley 2005][book_coughlan_owens_manley_2005] Bosnian Refugees in America, and [Robinson 1998][book_robinson_1998] Terms of Refuge (already cited in A273) provide the fullest treatments.
 
 Bosnian religious composition combined substantial Bosnian Muslim (Bosniak) majority (approximately 70%), Serbian Orthodox minority (approximately 15%), Croatian Catholic minority (approximately 10%), and mixed and secular populations. Institutional Bosnian Muslim religious formation proceeded through 1990s-2000s window,
 
@@ -198,7 +198,7 @@ per institutional records. The 21 November 1995 [Dayton Peace Accords 1995][ref_
 
 ## Vietnamese Second-Wave and Amerasian Homecoming Act 1988
 
-Vietnamese refugee admission continued through 1980-2000 window building on 1975 first-wave documented in [A273][related_post_a273_postwar_transformation_and_reopening]. The Orderly Departure Program 1979 (US-Socialist Republic of Vietnam bilateral agreement) provided approximately 500,000 additional Vietnamese admissions through 1994. The 22 December 1987 [Amerasian Homecoming Act 1987][ref_amerasian_homecoming_act_1987] Amerasian Homecoming Act (signed 1988) provided admission framework for approximately 25,000 Amerasian children (children of US servicemen and Vietnamese women) and approximately 75,000 accompanying family members. The [Bass 1996][book_bass_1996_vietnamerica] Vietnamerica and [Freeman 1995][book_freeman_1995] Changing Identities provide the comprehensive treatments.
+Vietnamese refugee admission continued through 1980-2000 window building on 1975 first-wave documented in [A273][related_post_a273_postwar_transformation_and_reopening]. The Orderly Departure Program 1979 (US-Socialist Republic of Vietnam bilateral agreement) provided approximately 500,000 additional Vietnamese admissions through 1994. The 22 December 1987 [Amerasian Homecoming Act 1987][ref_amerasian_homecoming_act_1987] Amerasian Homecoming Act (signed 1988) provided admission framework for approximately 25,000 Amerasian children (children of US servicemen and Vietnamese women) and approximately 75,000 accompanying family members. The [Bass 1996][book_bass_1996_vietnamerica] Vietnamerica and [Freeman 1995][book_freeman_1995] Changing Identities provide the treatments.
 
 Total Vietnamese admissions across frameworks reached approximately
 
@@ -214,33 +214,33 @@ per US Office of Refugee Resettlement and US Citizenship and Immigration Service
 
 ## Cuban Balseros 1994 and Haitian Migration
 
-The 1994 Cuban Balseros crisis (Rafters Crisis) produced substantial Caribbean migration flow to the United States. Following 5 August 1994 Havana Malecón riots and Fidel Castro's "we will not stop anyone" policy announcement, approximately
+The 1994 Cuban Balseros crisis (Rafters Crisis) produced marked Caribbean migration flow to the United States. Following 5 August 1994 Havana Malecón riots and Fidel Castro's "we will not stop anyone" policy announcement, approximately
 
 $$N_{\text{Cuban Balseros arrivals, August to September 1994}} \approx 3.5 \times 10^4, \quad N_{\text{Cuban Balseros interdicted at sea}} \approx 5 \times 10^4$$
 
 per US Coast Guard records. The 9 September 1994 [US-Cuba Migration Accord 1994][ref_us_cuba_migration_accord_1994] Clinton-Castro migration accord established "wet foot dry foot" framework combining 20,000 annual visa lottery with interdiction of Cuban migrants at sea. The 12 January 2017 Obama policy reversal ending "wet foot dry foot" modified framework. The [Ackerman and Clark 1995][book_ackerman_clark_1995] The Cuban Balseros treats the comprehensive Balseros formation.
 
-Haitian migration under 1980 Refugee Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] produced substantial American Haitian community formation. Total Haitian arrivals reached approximately
+Haitian migration under 1980 Refugee Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] produced extensive American Haitian community formation. Total Haitian arrivals reached approximately
 
 $$N_{\text{Haitian arrivals, US, 1980 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Haitian American, US}}\bigg|_{2020} \approx 1.1 \times 10^6$$
 
-per US Census records. Concentration in New York City (Flatbush and Crown Heights Brooklyn neighborhoods) and Miami (Little Haiti neighborhood) produced characteristic Haitian diaspora community formation. Haitian American religious composition combined substantial Catholic majority (approximately 55%), Protestant and Pentecostal populations (approximately 30%), and Vodou (Vodun) syncretic religious practices preserved despite ongoing institutional Catholic and evangelical Protestant opposition. The [Stepick 1998][book_stepick_1998] Pride Against Prejudice and [Richman 2005][book_richman_2005] Migration and Vodou provide the comprehensive treatments.
+per US Census records. Concentration in New York City (Flatbush and Crown Heights Brooklyn neighborhoods) and Miami (Little Haiti neighborhood) produced characteristic Haitian diaspora community formation. Haitian American religious composition combined sizable Catholic majority (approximately 55%), Protestant and Pentecostal populations (approximately 30%), and Vodou (Vodun) syncretic religious practices preserved despite ongoing institutional Catholic and evangelical Protestant opposition. The [Stepick 1998][book_stepick_1998] Pride Against Prejudice and [Richman 2005][book_richman_2005] Migration and Vodou provide the detailed treatments.
 
 The 1998 [Haitian Refugee Immigration Fairness Act 1998][ref_hrifa_1998] Haitian Refugee Immigration Fairness Act provided approximately 50,000 legalization opportunities for pre-1996 Haitian arrivals, responding to religious institutional and civil rights advocacy for Haitian community parity with Cuban Adjustment Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] and NACARA framework treated above.
 
 ## Post-Tiananmen Chinese Migration
 
-Chinese immigration through 1980-2000 window combined substantial post-Cultural Revolution educational and family migration with 1989 Tiananmen Square aftermath refugee framework. Total Chinese arrivals reached approximately
+Chinese immigration through 1980-2000 window combined appreciable post-Cultural Revolution educational and family migration with 1989 Tiananmen Square aftermath refugee framework. Total Chinese arrivals reached approximately
 
 $$N_{\text{Chinese arrivals, US, 1980 to 2000}} \approx 1 \times 10^6, \quad P_{\text{Chinese American, US}}\bigg|_{2020} \approx 5.4 \times 10^6$$
 
-per US Immigration and Naturalization Service records. The 11 April 1990 [Executive Order 12711 1990][ref_executive_order_12711_1990] Bush Executive Order provided deferred enforced departure protection for Chinese nationals in US, superseded by 1992 [Chinese Student Protection Act 1992][ref_chinese_student_protection_1992] Chinese Student Protection Act providing permanent resident status for approximately 80,000 Chinese nationals in US on 4 June 1989 (Tiananmen Square Massacre date), expanding Chinese American academic and professional population. The [Zhou 1992][book_zhou_1992] Chinatown, [Lee 2015][book_lee_2015] The Making of Asian America (already cited in A273), and [Ling 2004][book_ling_2004] Chinese Chicago provide the comprehensive treatments.
+per US Immigration and Naturalization Service records. The 11 April 1990 [Executive Order 12711 1990][ref_executive_order_12711_1990] Bush Executive Order provided deferred enforced departure protection for Chinese nationals in US, superseded by 1992 [Chinese Student Protection Act 1992][ref_chinese_student_protection_1992] Chinese Student Protection Act providing permanent resident status for approximately 80,000 Chinese nationals in US on 4 June 1989 (Tiananmen Square Massacre date), expanding Chinese American academic and professional population. The [Zhou 1992][book_zhou_1992] Chinatown, [Lee 2015][book_lee_2015] The Making of Asian America (already cited in A273), and [Ling 2004][book_ling_2004] Chinese Chicago provide the leading treatments.
 
-Chinese American religious composition reached substantial proportions,
+Chinese American religious composition reached considerable proportions,
 
 $$f_{\text{Chinese American traditional/Buddhist}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Chinese American Christian}}\bigg|_{2020} \approx 0.30, \quad f_{\text{Chinese American unaffiliated}}\bigg|_{2020} \approx 0.25, \quad f_{\text{Chinese American other}}\bigg|_{2020} \approx 0.05$$
 
-per Pew Research reconstruction. expanded Chinese Christian identification reflected post-1965 American immigrant conversion pattern, with substantial evangelical Protestant and Catholic populations. various new religious movements included Falun Gong (founded 1992 by Li Hongzhi at Changchun, subsequently persecuted by Chinese Communist Party from 1999 producing substantial US Falun Gong practitioner community estimated at
+per Pew Research reconstruction. expanded Chinese Christian identification reflected post-1965 American immigrant conversion pattern, with significant evangelical Protestant and Catholic populations. differing new religious movements included Falun Gong (founded 1992 by Li Hongzhi at Changchun, subsequently persecuted by Chinese Communist Party from 1999 producing substantial US Falun Gong practitioner community estimated at
 
 $$P_{\text{Falun Gong practitioners, US}}\bigg|_{2020} \approx 5 \times 10^4$$
 
@@ -248,33 +248,33 @@ per institutional estimates). The [Fenggang Yang 1999][book_yang_1999] Chinese C
 
 ## Korean Migration and American Korean Protestantism
 
-Korean immigration through 1965-2000 window produced substantial American Korean community and religious institutional formation. Korean American population reached approximately
+Korean immigration through 1965-2000 window produced marked American Korean community and religious institutional formation. Korean American population reached approximately
 
 $$P_{\text{Korean American, US}}\bigg|_{1970} \approx 7 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 1.9 \times 10^6$$
 
-per US Census records. Korean American religious composition was Christian (approximately 70% Christian identification, primarily Presbyterian and Methodist, reflecting twentieth-century Korean Protestant expansion documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]). Korean American Christian institutional formation was substantial,
+per US Census records. Korean American religious composition was Christian (approximately 70% Christian identification, primarily Presbyterian and Methodist, reflecting twentieth-century Korean Protestant expansion documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]). Korean American Christian institutional formation was extensive,
 
 $$N_{\text{Korean American Christian congregations, US, 1980}} \approx 500, \quad N\bigg|_{2000} \approx 2500, \quad N\bigg|_{2020} \approx 4000$$
 
 per denominational and Association of Korean American Churches records. The [Kwon Kim and Warner 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions (already cited in A273), [Min 2010][book_min_2010] Preserving Ethnicity through Religion in America, and [Chai 2001][book_chai_2001] Beyond Strictness treat the comprehensive Korean American Christian formation.
 
-Korean Presbyterian denominational formation produced Korean American Presbyterian Church (KAPC, formed 1976 as Korean-language denomination), Presbyterian Church USA Korean congregations (approximately 400 by 2020), and various Korean Presbyterian denominational bodies. Korean Methodist Episcopal congregations under United Methodist Church Korean American National Association reached approximately 700 by 2020. Korean American evangelical, Pentecostal, and various other Protestant denominational formation provided the broader institutional framework.
+Korean Presbyterian denominational formation produced Korean American Presbyterian Church (KAPC, formed 1976 as Korean-language denomination), Presbyterian Church USA Korean congregations (approximately 400 by 2020), and several Korean Presbyterian denominational bodies. Korean Methodist Episcopal congregations under United Methodist Church Korean American National Association reached approximately 700 by 2020. Korean American evangelical, Pentecostal, and a range of other Protestant denominational formation provided the broader institutional framework.
 
 Korean American Catholic and Buddhist populations were smaller, reflecting twentieth-century Korean Protestant predominance. Approximate Korean American Buddhist temples reached approximately 100 by 2020, primarily Jogye Order Zen Buddhist tradition transplants.
 
 ## Indian Migration and Hindu, Sikh, Jain American Institutional Formation
 
-Indian immigration through 1965-2000 window produced substantial American Indian community and religious institutional formation. Indian American population reached approximately
+Indian immigration through 1965-2000 window produced sizable American Indian community and religious institutional formation. Indian American population reached approximately
 
 $$P_{\text{Indian American, US}}\bigg|_{1970} \approx 5 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 4.6 \times 10^6$$
 
-per US Census records, producing approximately 92-fold expansion across 50-year post-1965 window. Indian American religious composition combined substantial Hindu (approximately 55%), Muslim (approximately 15%), Sikh (approximately 5%), Christian (approximately 15% including Syrian Christian, Roman Catholic, various evangelical Protestant populations), Jain (approximately 3%), and various other traditions. The [Kurien 2007][book_kurien_2007] A Place at the Multicultural Table and [Prashad 2000][book_prashad_2000] The Karma of Brown Folk provide the comprehensive treatments.
+per US Census records, producing approximately 92-fold expansion across 50-year post-1965 window. Indian American religious composition combined appreciable Hindu (approximately 55%), Muslim (approximately 15%), Sikh (approximately 5%), Christian (approximately 15% including Syrian Christian, Roman Catholic, various evangelical Protestant populations), Jain (approximately 3%), and assorted other traditions. The [Kurien 2007][book_kurien_2007] A Place at the Multicultural Table and [Prashad 2000][book_prashad_2000] The Karma of Brown Folk provide the principal treatments.
 
-Hindu temple movement expansion was substantial through 1970s-2020s window,
+Hindu temple movement expansion was considerable through 1970s-2020s window,
 
 $$N_{\text{Hindu temples, US, 1980}} \approx 50, \quad N_{\text{Hindu temples, US, 2000}} \approx 400, \quad N_{\text{Hindu temples, US, 2020}} \approx 800$$
 
-per Hindu American Foundation and Hindu Mandir Executives' Conference records. Major American Hindu temple complexes include BAPS Shri Swaminarayan Mandir at Robbinsville, New Jersey (dedicated 2014, approximately 500,000 square feet), Hindu Temple of Atlanta, Sri Venkateswara Temple at Pittsburgh (dedicated 1977 as first traditional-style South Indian Hindu temple in the US), and various others. The [Prema Kurien 1998][book_kurien_1998] Becoming American, Becoming Indian treats the institutional formation.
+per Hindu American Foundation and Hindu Mandir Executives' Conference records. Major American Hindu temple complexes include BAPS Shri Swaminarayan Mandir at Robbinsville, New Jersey (dedicated 2014, approximately 500,000 square feet), Hindu Temple of Atlanta, Sri Venkateswara Temple at Pittsburgh (dedicated 1977 as first traditional-style South Indian Hindu temple in the US), and a number of others. The [Prema Kurien 1998][book_kurien_1998] Becoming American, Becoming Indian treats the institutional formation.
 
 Sikh American gurdwara expansion proceeded through 1980-2020 window building on pre-1924 Punjabi arrivals documented in [A271][related_post_a271_mass_immigration_and_closure] and post-1965 South Asian immigration expansion. Approximate institutional counts reached
 
@@ -290,19 +290,19 @@ per Jain Center of America and Federation of Jain Associations in North America 
 
 ## Pakistani, Bangladeshi Migration and American Muslim Institutional Formation
 
-Pakistani and Bangladeshi immigration through 1965-2000 window produced substantial American South Asian Muslim community formation. Pakistani American and Bangladeshi American populations reached approximately
+Pakistani and Bangladeshi immigration through 1965-2000 window produced significant American South Asian Muslim community formation. Pakistani American and Bangladeshi American populations reached approximately
 
 $$P_{\text{Pakistani American, US}}\bigg|_{1980} \approx 1.5 \times 10^4, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{1980} \approx 5 \times 10^3, \quad P\bigg|_{2020} \approx 2.1 \times 10^5$$
 
-per US Census records. Concentration in New York City metropolitan area (Coney Island Avenue Little Pakistan and Jackson Heights Little Bangladesh), Chicago, Houston, and San Francisco Bay Area produced characteristic community formations. The [Rangaswamy 2000][book_rangaswamy_2000] Namasté America and [Bald 2013][book_bald_2013] Bengali Harlem (already cited in A271) provide the comprehensive treatments.
+per US Census records. Concentration in New York City metropolitan area (Coney Island Avenue Little Pakistan and Jackson Heights Little Bangladesh), Chicago, Houston, and San Francisco Bay Area produced characteristic community formations. The [Rangaswamy 2000][book_rangaswamy_2000] Namasté America and [Bald 2013][book_bald_2013] Bengali Harlem (already cited in A271) provide the most complete treatments.
 
-American Muslim institutional consolidation proceeded through 1980s-2000s window. Major institutional formations included Islamic Society of North America (ISNA, formed 1981 as consolidation of Muslim Students Association 1963 network), Islamic Circle of North America (ICNA, formed 1968 primarily among Pakistani American population), Muslim American Society (MAS, formed 1993 as Muslim Brotherhood-adjacent institutional framework), and Council on American-Islamic Relations (CAIR, formed 1994 as civil rights advocacy organization). The [Curtis 2009][book_curtis_2009] Muslims in America, [GhaneaBassiri 2010][book_ghaneabassiri_2010] A History of Islam in America, and [Bilici 2012][book_bilici_2012] Finding Mecca in America provide the comprehensive treatments.
+American Muslim institutional consolidation proceeded through 1980s-2000s window. Major institutional formations included Islamic Society of North America (ISNA, formed 1981 as consolidation of Muslim Students Association 1963 network), Islamic Circle of North America (ICNA, formed 1968 primarily among Pakistani American population), Muslim American Society (MAS, formed 1993 as Muslim Brotherhood-adjacent institutional framework), and Council on American-Islamic Relations (CAIR, formed 1994 as civil rights advocacy organization). The [Curtis 2009][book_curtis_2009] Muslims in America, [GhaneaBassiri 2010][book_ghaneabassiri_2010] A History of Islam in America, and [Bilici 2012][book_bilici_2012] Finding Mecca in America provide the standard treatments.
 
 American Muslim population reached approximately
 
 $$P_{\text{Muslim American, US}}\bigg|_{1980} \approx 1 \times 10^6, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 3.5 \times 10^6, \quad N_{\text{US mosques and Islamic centers, 1980}} \approx 200, \quad N\bigg|_{2020} \approx 2800$$
 
-per Islamic Society of North America and Pew Research reconstruction. Approximate American Muslim demographic composition combined substantial African American Muslim populations (approximately 20% including Warith Deen Muhammad successor community and Farrakhan-led Nation of Islam documented in [A273][related_post_a273_postwar_transformation_and_reopening]), South Asian Muslim (approximately 30% including Pakistani, Bangladeshi, and Indian populations), Arab Muslim (approximately 25%), Iranian, Turkish, and Central Asian Muslim (approximately 15%), and various other Muslim populations. The [Bagby 2020][book_bagby_2020] The American Mosque Study treats the institutional infrastructure.
+per Islamic Society of North America and Pew Research reconstruction. Approximate American Muslim demographic composition combined substantial African American Muslim populations (approximately 20% including Warith Deen Muhammad successor community and Farrakhan-led Nation of Islam documented in [A273][related_post_a273_postwar_transformation_and_reopening]), South Asian Muslim (approximately 30% including Pakistani, Bangladeshi, and Indian populations), Arab Muslim (approximately 25%), Iranian, Turkish, and Central Asian Muslim (approximately 15%), and differing other Muslim populations. The [Bagby 2020][book_bagby_2020] The American Mosque Study treats the institutional infrastructure.
 
 ## Filipino Migration Continuation
 
@@ -310,7 +310,7 @@ Filipino immigration through 1965-2020 window continued the pre-1965 pattern doc
 
 $$P_{\text{Filipino American, US}}\bigg|_{1970} \approx 3.4 \times 10^5, \quad P\bigg|_{1990} \approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 4.4 \times 10^6$$
 
-per US Census records, producing approximately thirteen-fold expansion across 50-year post-1965 window. Concentration in California (approximately 30% of US Filipino Americans), Hawaii, New York, and various major metropolitan areas produced characteristic community formation. The [España-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila (already cited in A271) and [Bonus 2000][book_bonus_2000] Locating Filipino Americans provide the comprehensive treatments.
+per US Census records, producing approximately thirteen-fold expansion across 50-year post-1965 window. Concentration in California (approximately 30% of US Filipino Americans), Hawaii, New York, and several major metropolitan areas produced characteristic community formation. The [España-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila (already cited in A271) and [Bonus 2000][book_bonus_2000] Locating Filipino Americans provide the fullest treatments.
 
 Filipino American religious composition trajectory,
 
@@ -320,23 +320,23 @@ reflecting 350-year Spanish colonial Catholic evangelization and 1898-1946 Ameri
 
 ## Post-1965 African Immigration
 
-Post-1965 African immigration produced substantial American African community formation particularly through 1990-2020 window under Diversity Visa Program framework documented above. African immigrant population reached approximately
+Post-1965 African immigration produced marked American African community formation particularly through 1990-2020 window under Diversity Visa Program framework documented above. African immigrant population reached approximately
 
 $$P_{\text{African-born, US}}\bigg|_{1970} \approx 8 \times 10^4, \quad P\bigg|_{1990} \approx 3.6 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6$$
 
-per US Census records. Major source countries included Nigeria (approximately 25% of African-born US population), Ethiopia (documented above), Ghana (approximately 8%), Egypt (approximately 8%), Kenya (approximately 6%), and various others. The [Arthur 2010][book_arthur_2010] African Diaspora Identities and [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism provide the comprehensive treatments.
+per US Census records. Major source countries included Nigeria (approximately 25% of African-born US population), Ethiopia (documented above), Ghana (approximately 8%), Egypt (approximately 8%), Kenya (approximately 6%), and a range of others. The [Arthur 2010][book_arthur_2010] African Diaspora Identities and [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism provide the treatments.
 
-African immigrant religious composition combined substantial Christian majority (approximately 70% across various denominations), Muslim minority (approximately 25%, reflecting West African Muslim populations from Senegal, Guinea, and Mali plus North African Muslim populations from Egypt and Morocco), and traditional religions minorities. Nigerian and Ghanaian Pentecostal denominational transplants produced substantial institutional expansion,
+African immigrant religious composition combined extensive Christian majority (approximately 70% across various denominations), Muslim minority (approximately 25%, reflecting West African Muslim populations from Senegal, Guinea, and Mali plus North African Muslim populations from Egypt and Morocco), and traditional religions minorities. Nigerian and Ghanaian Pentecostal denominational transplants produced sizable institutional expansion,
 
 $$N_{\text{African-affiliated Christian congregations, US, 2020}} \approx 3 \times 10^3, \quad N_{\text{Redeemed Christian Church of God parishes, US, 2020}} \approx 8 \times 10^2$$
 
-per institutional records. The Redeemed Christian Church of God (RCCG, founded 1952 at Lagos, Nigeria) expanded through 1990s-2020s American establishment producing most substantial African Pentecostal denominational US presence. The [Adogame 2013][book_adogame_2013] The African Christian Diaspora treats the African Christian institutional formation in US and Europe.
+per institutional records. The Redeemed Christian Church of God (RCCG, founded 1952 at Lagos, Nigeria) expanded through 1990s-2020s American establishment producing most extensive African Pentecostal denominational US presence. The [Adogame 2013][book_adogame_2013] The African Christian Diaspora treats the African Christian institutional formation in US and Europe.
 
 ## American Muslim Institutional Consolidation
 
-American Muslim institutional consolidation through 1980-2000 window produced substantial systematic institutional framework combining ethnic and pan-Muslim organizational structures. Beyond ISNA, ICNA, MAS, and CAIR treated above, additional major institutional formations included Council of Islamic Schools in North America (CISNA, formed 1990), Islamic Medical Association of North America (IMANA), Association of Muslim Scientists and Engineers (AMSE), Muslim Public Affairs Council (MPAC, formed 1988 at Los Angeles), and various ethnic Muslim organizations. The [Haddad and Esposito 2000][book_haddad_esposito_2000] Muslims on the Americanization Path and [Smith 2010][book_smith_2010_islam] Islam in America provide the comprehensive treatments.
+American Muslim institutional consolidation through 1980-2000 window produced considerable systematic institutional framework combining ethnic and pan-Muslim organizational structures. Beyond ISNA, ICNA, MAS, and CAIR treated above, additional major institutional formations included Council of Islamic Schools in North America (CISNA, formed 1990), Islamic Medical Association of North America (IMANA), Association of Muslim Scientists and Engineers (AMSE), Muslim Public Affairs Council (MPAC, formed 1988 at Los Angeles), and assorted ethnic Muslim organizations. The [Haddad and Esposito 2000][book_haddad_esposito_2000] Muslims on the Americanization Path and [Smith 2010][book_smith_2010_islam] Islam in America provide the detailed treatments.
 
-American Muslim educational institutional development reached substantial scale,
+American Muslim educational institutional development reached significant scale,
 
 $$N_{\text{full-time Islamic schools, US, 2020}} \approx 300, \quad N_{\text{Islamic weekend schools, US, 2020}} \approx 1500, \quad P_{\text{ISNA annual convention attendance, peak c. 2010}} \approx 4 \times 10^4$$
 
@@ -348,23 +348,23 @@ per Islamic Food and Nutrition Council of America records.
 
 ## Buddhism Mainstream Expansion
 
-American Buddhism expansion through 1965-2020 window combined substantial ethnic Asian Buddhist immigrant populations documented above (Chinese, Vietnamese, Cambodian, Laotian, Thai, Sri Lankan, Burmese, Korean, Japanese) with substantial American convert Buddhist populations across various traditions. The [Prebish 1999][book_prebish_1999] Luminous Passage (already cited in A270), [Seager 1999][book_seager_1999] Buddhism in America, [Fields 1992][book_fields_1992] How the Swans Came to the Lake, and [Coleman 2001][book_coleman_2001] The New Buddhism provide the comprehensive treatments.
+American Buddhism expansion through 1965-2020 window combined substantial ethnic Asian Buddhist immigrant populations documented above (Chinese, Vietnamese, Cambodian, Laotian, Thai, Sri Lankan, Burmese, Korean, Japanese) with marked American convert Buddhist populations across a number of traditions. The [Prebish 1999][book_prebish_1999] Luminous Passage (already cited in A270), [Seager 1999][book_seager_1999] Buddhism in America, [Fields 1992][book_fields_1992] How the Swans Came to the Lake, and [Coleman 2001][book_coleman_2001] The New Buddhism provide the leading treatments.
 
 American Buddhist population reached approximately
 
 $$P_{\text{Buddhist American, US}}\bigg|_{1980} \approx 5 \times 10^5, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 2.5 \times 10^6, \quad f_{\text{convert (non-Asian ancestry) among US Buddhists, c. 2000}} \approx 0.30$$
 
-per American Religious Identification Survey and Pew Research reconstruction. Major American Buddhist institutional streams reached substantial institutional presence,
+per American Religious Identification Survey and Pew Research reconstruction. Major American Buddhist institutional streams reached extensive institutional presence,
 
 $$N_{\text{ethnic Asian Buddhist temples, US, 2020}} \approx 2 \times 10^3, \quad N_{\text{Tibetan Buddhist centers, US, 2020}} \approx 500, \quad N_{\text{Zen centers (American convert), US, 2020}} \approx 300, \quad N_{\text{Insight Meditation (Vipassana) centers, US, 2020}} \approx 250, \quad N_{\text{Soka Gakkai centers, US, 2020}} \approx 100$$
 
-per Pluralism Project and Association of Religion Data Archives records. San Francisco Zen Center (founded 1962 by Shunryu Suzuki), various Tibetan Buddhist centers particularly following 14th Dalai Lama's American tours from 1979 forward, Insight Meditation Society (founded 1975 at Barre, Massachusetts as American Vipassana center), and various other centers provided the institutional infrastructure. The 14th Dalai Lama's 1989 Nobel Peace Prize amplified American Tibetan Buddhism reception.
+per Pluralism Project and Association of Religion Data Archives records. San Francisco Zen Center (founded 1962 by Shunryu Suzuki), differing Tibetan Buddhist centers particularly following 14th Dalai Lama's American tours from 1979 forward, Insight Meditation Society (founded 1975 at Barre, Massachusetts as American Vipassana center), and several other centers provided the institutional infrastructure. The 14th Dalai Lama's 1989 Nobel Peace Prize amplified American Tibetan Buddhism reception.
 
-American convert Buddhist prominent figures included Jack Kornfield, Joseph Goldstein, Sharon Salzberg (Insight Meditation Society founders), Richard Baker, Robert Aitken, Bernard Glassman (Zen tradition), Chogyam Trungpa (Shambhala International founder), Pema Chodron (Shambhala nun), Robert Thurman (first American Tibetan Buddhist monk under Dalai Lama 1965, subsequently Columbia University Sanskrit professor and Uma Thurman's father), and various others.
+American convert Buddhist prominent figures included Jack Kornfield, Joseph Goldstein, Sharon Salzberg (Insight Meditation Society founders), Richard Baker, Robert Aitken, Bernard Glassman (Zen tradition), Chogyam Trungpa (Shambhala International founder), Pema Chodron (Shambhala nun), Robert Thurman (first American Tibetan Buddhist monk under Dalai Lama 1965, subsequently Columbia University Sanskrit professor and Uma Thurman's father), and a range of others.
 
 ## Reagan Religious Politics and Christian Right Consolidation
 
-Reagan administration religious mobilization through 1981-1989 period built on 1979 Moral Majority framework documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Reagan's Southern California evangelical religious identification, 1980 endorsement by Jerry Falwell and Moral Majority mobilization, and systematic administration outreach to evangelical Protestant institutional networks produced most substantial systematic Republican-evangelical political alignment of American twentieth century. Reagan election results reflected substantial evangelical realignment,
+Reagan administration religious mobilization through 1981-1989 period built on 1979 Moral Majority framework documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Reagan's Southern California evangelical religious identification, 1980 endorsement by Jerry Falwell and Moral Majority mobilization, and systematic administration outreach to evangelical Protestant institutional networks produced most significant systematic Republican-evangelical political alignment of American twentieth century. Reagan election results reflected appreciable evangelical realignment,
 
 $$V_{\text{Reagan 1980 popular}} \approx 4.4 \times 10^7, \quad V_{\text{Carter 1980 popular}} \approx 3.55 \times 10^7, \quad V_{\text{Reagan 1980 electoral}} = 489, \quad V_{\text{Carter 1980 electoral}} = 49$$
 
@@ -372,9 +372,9 @@ with 1984 reelection producing larger margin,
 
 $$V_{\text{Reagan 1984 popular}} \approx 5.48 \times 10^7, \quad V_{\text{Mondale 1984 popular}} \approx 3.75 \times 10^7, \quad V_{\text{Reagan 1984 electoral}} = 525, \quad V_{\text{Mondale 1984 electoral}} = 13$$
 
-representing second largest electoral college margin in twentieth-century US presidential elections. The [Williams 2010][book_williams_2010] God's Own Party (already cited in A273) and [Sutton 2014][book_sutton_2014] American Apocalypse provide the comprehensive treatments.
+representing second largest electoral college margin in twentieth-century US presidential elections. The [Williams 2010][book_williams_2010] God's Own Party (already cited in A273) and [Sutton 2014][book_sutton_2014] American Apocalypse provide the principal treatments.
 
-Reagan's 8 March 1983 [Reagan 1983 Evil Empire Speech][ref_reagan_1983_evil_empire] "Evil Empire" address to National Association of Evangelicals annual convention at Orlando provided the most substantial presidential religious-political address of Cold War period. Reagan's 6 March 1984 [Reagan 1984 NAE Address][ref_reagan_1984_nae] address to NAE at Columbus, Ohio and 12 March 1984 second Evil Empire-style address to NAE annual convention continued religious-political framework. The address's "evil empire" characterization of Soviet Union combined with systematic religious framework shaped Reagan administration Cold War mobilization.
+Reagan's 8 March 1983 [Reagan 1983 Evil Empire Speech][ref_reagan_1983_evil_empire] "Evil Empire" address to National Association of Evangelicals annual convention at Orlando provided the most pronounced presidential religious-political address of Cold War period. Reagan's 6 March 1984 [Reagan 1984 NAE Address][ref_reagan_1984_nae] address to NAE at Columbus, Ohio and 12 March 1984 second Evil Empire-style address to NAE annual convention continued religious-political framework. The address's "evil empire" characterization of Soviet Union combined with systematic religious framework shaped Reagan administration Cold War mobilization.
 
 1980s religious institutional political formation included Christian Legal Society (formed 1961, expanding through 1980s), Family Research Council (formed 1983 by James Dobson through Focus on the Family), Concerned Women for America (formed 1978 by Beverly LaHaye), American Family Association (formed 1977 by Donald Wildmon as National Federation for Decency), American Center for Law and Justice (formed 1990 by Pat Robertson), and various organizations. Approximate membership reach across Religious Right organizations reached
 
@@ -384,19 +384,19 @@ per institutional records.
 
 ## Christian Coalition, Focus on the Family, and Promise Keepers
 
-The Christian Coalition, formed 1989 at Chesapeake, Virginia by Pat Robertson following Robertson's 1988 unsuccessful Republican presidential primary campaign, provided the replacement institutional framework for dissolving Moral Majority documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Ralph Reed's 1989-1997 Christian Coalition executive director leadership provided the institutional expansion. The [Diamond 1998][book_diamond_1998] Not by Politics Alone and [Reed 1994][book_reed_1994_active] Politically Incorrect provide the comprehensive treatments.
+The Christian Coalition, formed 1989 at Chesapeake, Virginia by Pat Robertson following Robertson's 1988 unsuccessful Republican presidential primary campaign, provided the replacement institutional framework for dissolving Moral Majority documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Ralph Reed's 1989-1997 Christian Coalition executive director leadership provided the institutional expansion. The [Diamond 1998][book_diamond_1998] Not by Politics Alone and [Reed 1994][book_reed_1994_active] Politically Incorrect provide the most complete treatments.
 
 Christian Coalition membership reached approximately
 
 $$P_{\text{Christian Coalition membership, peak c. 1995}} \approx 1.7 \times 10^6, \quad N_{\text{Christian Coalition local chapters, peak}} \approx 2 \times 10^3, \quad C_{\text{Christian Coalition annual budget, peak c. 1994}} \approx 2.6 \times 10^7 \text{ USD nominal}$$
 
-per institutional records. The Christian Coalition distributed approximately 45 million voter guides in 1994 election producing substantial mobilization contributing to 1994 Republican Congressional wave election, aligned with 27 September 1994 [Contract with America 1994][ref_contract_with_america_1994] Republican Contract with America. Christian Coalition's 17 May 1995 [Contract with the American Family 1995][ref_contract_american_family_1995] Contract with the American Family provided parallel Religious Right programmatic articulation combining school prayer, tax reform, home-school protection, and various religious-cultural framework. Subsequent 1997-2001 IRS challenges producing tax-exempt status revocation and Reed 1997 departure disrupted institutional operation.
+per institutional records. The Christian Coalition distributed approximately 45 million voter guides in 1994 election producing significant mobilization contributing to 1994 Republican Congressional wave election, aligned with 27 September 1994 [Contract with America 1994][ref_contract_with_america_1994] Republican Contract with America. Christian Coalition's 17 May 1995 [Contract with the American Family 1995][ref_contract_american_family_1995] Contract with the American Family provided parallel Religious Right programmatic articulation combining school prayer, tax reform, home-school protection, and assorted religious-cultural framework. Subsequent 1997-2001 IRS challenges producing tax-exempt status revocation and Reed 1997 departure disrupted institutional operation.
 
 Focus on the Family under James Dobson (born 1936, founded 1977 at Colorado Springs, Colorado) provided the most substantial evangelical family-life ministry combining radio broadcasting (approximately 220 million weekly worldwide listeners at peak), extensive publishing, and policy advocacy through Family Research Council partnership. Focus on the Family employment reached approximately
 
 $$N_{\text{Focus on the Family employees, peak c. 2000}} \approx 1.4 \times 10^3, \quad C_{\text{Focus on the Family annual budget, peak c. 2005}} \approx 1.5 \times 10^8 \text{ USD nominal}$$
 
-per institutional records. Dobson's 1970 [Dobson 1970][ref_dobson_1970_dare] Dare to Discipline provided the foundational evangelical child-rearing text that reached approximately 3.5 million cumulative copies. The [Dobson 1970][ref_dobson_1970_dare] and subsequent extensive Dobson publication provided substantial evangelical family theology framework.
+per institutional records. Dobson's 1970 [Dobson 1970][ref_dobson_1970_dare] Dare to Discipline provided the foundational evangelical child-rearing text that reached approximately 3.5 million cumulative copies. The [Dobson 1970][ref_dobson_1970_dare] and subsequent extensive Dobson publication provided marked evangelical family theology framework.
 
 Promise Keepers, founded 1990 by Bill McCartney (University of Colorado football coach), provided men's evangelical mobilization framework combining stadium rallies with systematic small-group men's ministry. Total Promise Keepers stadium event attendance reached approximately
 
@@ -406,11 +406,11 @@ per institutional records. The 4 October 1997 "Stand in the Gap" Washington DC M
 
 ## Megachurch Movement and Church Growth
 
-The 1970s-2000s megachurch movement produced substantial American Protestant institutional restructuring toward large-congregation format combining contemporary worship, extensive programmatic ministry, and systematic evangelistic outreach. Approximate megachurch (congregations with 2,000+ weekly attendance) counts reached
+The 1970s-2000s megachurch movement produced extensive American Protestant institutional restructuring toward large-congregation format combining contemporary worship, extensive programmatic ministry, and systematic evangelistic outreach. Approximate megachurch (congregations with 2,000+ weekly attendance) counts reached
 
 $$N_{\text{US megachurches, 1970}} \approx 25, \quad N\bigg|_{1990} \approx 300, \quad N\bigg|_{2020} \approx 1750, \quad P_{\text{aggregated US megachurch attendance, 2020}} \approx 8 \times 10^6$$
 
-per Hartford Institute for Religion Research reconstruction. The [Thumma and Travis 2007][book_thumma_travis_2007] Beyond Megachurch Myths and [Ellingson 2010][book_ellingson_2010] The Megachurch and the Mainline provide the comprehensive treatments.
+per Hartford Institute for Religion Research reconstruction. The [Thumma and Travis 2007][book_thumma_travis_2007] Beyond Megachurch Myths and [Ellingson 2010][book_ellingson_2010] The Megachurch and the Mainline provide the standard treatments.
 
 Willow Creek Community Church under Bill Hybels (founded 1975 at South Barrington, Illinois) provided the "seeker-sensitive" model shaping subsequent megachurch development. Willow Creek Association (formed 1992) provided network reaching approximately 12,000 affiliated congregations at peak. Saddleback Church under Rick Warren (founded 1980 at Lake Forest, California) provided the parallel megachurch model. Approximate individual megachurch attendance figures reached
 
@@ -418,21 +418,21 @@ $$P_{\text{Willow Creek weekly attendance, peak c. 2005}} \approx 2.4 \times 10^
 
 with Lakewood Church at Houston (subsequently under Joel Osteen from 1999) providing largest American megachurch by weekly attendance through 2010s-2020s. Warren's 2002 [Warren 2002][ref_warren_2002_purpose] Purpose Driven Life bestselling text reached approximately 30 million cumulative sales through 2010. The [Warren 1995][book_warren_1995] The Purpose Driven Church treated the institutional framework.
 
-Concurrent evangelical publishing and media expansion included Christianity Today, Group Publishing, Baker Publishing, Zondervan (NIV Bible publisher), Word Publishing, and various Christian bookstore chain (Family Christian Stores, LifeWay Christian Resources) reaching substantial market presence through 1990s-2000s window before 2010s decline treated in subsequent articles.
+Concurrent evangelical publishing and media expansion included Christianity Today, Group Publishing, Baker Publishing, Zondervan (NIV Bible publisher), Word Publishing, and a number of Christian bookstore chain (Family Christian Stores, LifeWay Christian Resources) reaching sizable market presence through 1990s-2000s window before 2010s decline treated in subsequent articles.
 
 ## Televangelism Scandals 1987-1988
 
-Televangelism scandals of 1987-1988 produced substantial institutional disruption of evangelical broadcasting infrastructure documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Major 1987-1988 scandals included March 1987 Jim Bakker PTL Ministry sexual assault allegations and subsequent 1989 fraud conviction (45-year sentence subsequently reduced), February 1988 Jimmy Swaggart prostitute confession, 1991-1994 Robert Tilton Success N Life investigation, and various parallel scandals. The [Barnhart 1988][book_barnhart_1988] Jim and Tammy, [Shepard 1989][book_shepard_1989] Forgiven, and [Hedges 2008][book_hedges_2008] American Fascists provide the comprehensive treatments.
+Televangelism scandals of 1987-1988 produced appreciable institutional disruption of evangelical broadcasting infrastructure documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Major 1987-1988 scandals included March 1987 Jim Bakker PTL Ministry sexual assault allegations and subsequent 1989 fraud conviction (45-year sentence subsequently reduced), February 1988 Jimmy Swaggart prostitute confession, 1991-1994 Robert Tilton Success N Life investigation, and differing parallel scandals. The [Barnhart 1988][book_barnhart_1988] Jim and Tammy, [Shepard 1989][book_shepard_1989] Forgiven, and [Hedges 2008][book_hedges_2008] American Fascists provide the fullest treatments.
 
-Bakker PTL Ministry financial scale had reached substantial levels before scandal,
+Bakker PTL Ministry financial scale had reached considerable levels before scandal,
 
 $$C_{\text{PTL Ministry annual revenue, peak c. 1986}} \approx 1.5 \times 10^8 \text{ USD nominal}, \quad N_{\text{Heritage USA park attendance, peak c. 1986}} \approx 6 \times 10^6 \text{ annual}, \quad C_{\text{Bakker documented fraud amount}} \approx 1.58 \times 10^8 \text{ USD nominal}$$
 
-per court records and institutional documentation. Bakker's 1989 conviction produced substantial religious broadcasting industry restructuring and IRS scrutiny expansion. Swaggart's ministry survived through reduced institutional framework, though 1991 additional scandal produced further decline. The scandals discredited "prosperity gospel" theological framework in mainstream American religious perception, though successor prosperity gospel ministries (Kenneth Copeland, Joel Osteen, various others) continued.
+per court records and institutional documentation. Bakker's 1989 conviction produced significant religious broadcasting industry restructuring and IRS scrutiny expansion. Swaggart's ministry survived through reduced institutional framework, though 1991 additional scandal produced further decline. The scandals discredited "prosperity gospel" theological framework in mainstream American religious perception, though successor prosperity gospel ministries (Kenneth Copeland, Joel Osteen, several others) continued.
 
 ## Third Wave Charismatic Movement
 
-Third Wave Charismatic movement emerged in 1980s combining Pentecostal pneumatic emphasis with evangelical theological framework without denominational Pentecostal identification. C. Peter Wagner's 1988 [Wagner 1988][ref_wagner_1988_third_wave] The Third Wave of the Holy Spirit provided the inaugural articulation. The [Wacker 2001][book_wacker_2001] Heaven Below (already cited in A271), [Blumhofer 1993][book_blumhofer_1993_restoring] Restoring the Faith (already cited in A272), and [Anderson 2004][book_anderson_2004_pentecostalism] An Introduction to Pentecostalism provide the comprehensive treatments.
+Third Wave Charismatic movement emerged in 1980s combining Pentecostal pneumatic emphasis with evangelical theological framework without denominational Pentecostal identification. C. Peter Wagner's 1988 [Wagner 1988][ref_wagner_1988_third_wave] The Third Wave of the Holy Spirit provided the inaugural articulation. The [Wacker 2001][book_wacker_2001] Heaven Below (already cited in A271), [Blumhofer 1993][book_blumhofer_1993_restoring] Restoring the Faith (already cited in A272), and [Anderson 2004][book_anderson_2004_pentecostalism] An Introduction to Pentecostalism provide the treatments.
 
 Vineyard Church movement under John Wimber (1934-1997), formalized 1982 as Association of Vineyard Churches, provided the most substantial Third Wave denominational formation combining "signs and wonders" theological emphasis with contemporary worship music and accessible church-planting framework. Vineyard USA membership reached approximately
 
@@ -440,7 +440,7 @@ $$P_{\text{Vineyard USA membership, 2020}} \approx 1.9 \times 10^5, \quad N_{\te
 
 per institutional records. Vineyard music (Andy Park, Brian Doerksen, Vineyard Music Group) shaped broader American evangelical contemporary worship music.
 
-The 20 January 1994 Toronto Blessing (Toronto Airport Vineyard church revival subsequently spreading internationally) produced substantial charismatic phenomena including "holy laughter," "resting in the Spirit," and various manifestations. Toronto Airport Christian Fellowship (subsequent 1996 Vineyard withdrawal producing separate identity as Catch The Fire) attracted approximately
+The 20 January 1994 Toronto Blessing (Toronto Airport Vineyard church revival subsequently spreading internationally) produced marked charismatic phenomena including "holy laughter," "resting in the Spirit," and a range of manifestations. Toronto Airport Christian Fellowship (subsequent 1996 Vineyard withdrawal producing separate identity as Catch The Fire) attracted approximately
 
 $$N_{\text{Toronto Blessing cumulative visitor attendance, 1994 to 1998}} \approx 3.5 \times 10^6, \quad N_{\text{countries reporting Toronto Blessing spread}} \approx 55$$
 
@@ -448,7 +448,7 @@ per institutional records. The concurrent 18 June 1995 Brownsville Assembly of G
 
 ## Mainline Protestant Decline
 
-Mainline Protestant denominational decline through 1965-2020 window produced substantial American Protestant institutional restructuring. Major mainline denominations experienced substantial membership decline,
+Mainline Protestant denominational decline through 1965-2020 window produced extensive American Protestant institutional restructuring. Major mainline denominations experienced sizable membership decline,
 
 $$\begin{aligned}
 P_{\text{United Methodist Church, US}}\bigg|_{1968} &\approx 1.1 \times 10^7, \quad P\bigg|_{2020} \approx 6.3 \times 10^6, \quad \Delta \approx -43\% \\
@@ -460,17 +460,17 @@ P_{\text{United Church of Christ}}\bigg|_{1965} &\approx 2.1 \times 10^6, \quad 
 
 per denominational records. Combined aggregate mainline Protestant membership declined from approximately 30 million in 1965 to approximately 12 million by 2020, producing approximately 60% decline while US population expanded approximately 65%. The [Roozen and Hadaway 1993][book_roozen_hadaway_1993] Church and Denominational Growth, [Wuthnow 1988][book_wuthnow_1988] The Restructuring of American Religion (already cited in A273), and [Hout Greeley and Wilde 2001][book_hout_greeley_wilde_2001] The Demographic Imperative treat the comprehensive mainline decline analysis.
 
-Multiple hypothesized causes include denominational fertility decline (Hout, Greeley, and Wilde thesis attributing substantial share of mainline decline to below-replacement mainline fertility), denominational disaffiliation to evangelical alternatives or unaffiliation, ongoing denominational contests over homosexuality and other issues producing schism (2009 Evangelical Presbyterian Church, 2010 Presbyterian Church Covenant Order of Evangelical Presbyterians, 2018-2024 Global Methodist Church splits from UMC), and broader institutional trust decline.
+Multiple hypothesized causes include denominational fertility decline (Hout, Greeley, and Wilde thesis attributing appreciable share of mainline decline to below-replacement mainline fertility), denominational disaffiliation to evangelical alternatives or unaffiliation, ongoing denominational contests over homosexuality and other issues producing schism (2009 Evangelical Presbyterian Church, 2010 Presbyterian Church Covenant Order of Evangelical Presbyterians, 2018-2024 Global Methodist Church splits from UMC), and broader institutional trust decline.
 
 ## Waco 1993 and Oklahoma City 1995
 
-The 28 February to 19 April 1993 [Waco Branch Davidian siege][ref_waco_branch_davidian_1993] Waco Branch Davidian siege at Mount Carmel Center near Waco, Texas produced substantial casualties,
+The 28 February to 19 April 1993 [Waco Branch Davidian siege][ref_waco_branch_davidian_1993] Waco Branch Davidian siege at Mount Carmel Center near Waco, Texas produced considerable casualties,
 
 $$N_{\text{Branch Davidian deaths, Waco siege}} = 82, \quad N_{\text{deaths during final 19 April 1993 fire}} = 76, \quad N_{\text{Branch Davidian children among dead}} = 25, \quad N_{\text{ATF agent deaths, 28 February 1993 raid}} = 4, \quad t_{\text{Waco siege duration}} = 51 \text{ days}$$
 
 per FBI records and US Department of Justice investigation. The event reshaped American federal law enforcement approach to religious communities and new religious movement categorization. Primary official investigations included [Waco DOJ Report 1993][ref_waco_doj_1993] Department of Justice initial report and 21 July 2000 [Danforth Report 2000][ref_danforth_report_2000] final Office of Special Counsel report under John C. Danforth (Republican Senator and Episcopal priest) providing comprehensive federal review exonerating federal action of initial claims of fire-setting and gunfire directed at fleeing Branch Davidians. The [Wright 1995][book_wright_1995] Armageddon in Waco and [Tabor and Gallagher 1995][book_tabor_gallagher_1995] Why Waco treat the comprehensive analysis.
 
-The 19 April 1995 [Oklahoma City bombing 1995][ref_oklahoma_city_bombing_1995] Oklahoma City Federal Building bombing by Timothy McVeigh and Terry Nichols produced substantial casualties,
+The 19 April 1995 [Oklahoma City bombing 1995][ref_oklahoma_city_bombing_1995] Oklahoma City Federal Building bombing by Timothy McVeigh and Terry Nichols produced significant casualties,
 
 $$N_{\text{Oklahoma City bombing dead}} = 168, \quad N_{\text{children among dead}} = 19, \quad N_{\text{injured}} \approx 684, \quad C_{\text{property damage estimate}} \approx 6.5 \times 10^8 \text{ USD nominal}$$
 
@@ -482,23 +482,23 @@ The 16 October 1995 Million Man March under Louis Farrakhan's leadership attract
 
 $$N_{\text{Million Man March attendance}} \approx 8 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{National Park Service estimate}} \approx 4 \times 10^5, \quad N_{\text{ABC News aerial photo estimate}} \approx 8.7 \times 10^5$$
 
-per various reconstructions producing substantial ongoing dispute over exact attendance figures. Farrakhan's 16 October 1995 [Farrakhan 1995 Million Man March Address][ref_farrakhan_1995_mmm] Million Man March keynote address provided 2.5-hour extensive theological-political articulation combining Nation of Islam theology with Black nationalist mobilization framework, providing the inflection point in Farrakhan-led Nation of Islam's public presence documented in [A273][related_post_a273_postwar_transformation_and_reopening]. The [Cottman 1995][book_cottman_1995] Million Man March and [Madhubuti 1996][book_madhubuti_1996] Million Man March/Day of Absence treat the event.
+per various reconstructions producing marked ongoing dispute over exact attendance figures. Farrakhan's 16 October 1995 [Farrakhan 1995 Million Man March Address][ref_farrakhan_1995_mmm] Million Man March keynote address provided 2.5-hour extensive theological-political articulation combining Nation of Islam theology with Black nationalist mobilization framework, providing the inflection point in Farrakhan-led Nation of Islam's public presence documented in [A273][related_post_a273_postwar_transformation_and_reopening]. The [Cottman 1995][book_cottman_1995] Million Man March and [Madhubuti 1996][book_madhubuti_1996] Million Man March/Day of Absence treat the event.
 
 The 1995 March preceded 25 October 1997 Million Woman March at Philadelphia (approximately 300,000-1,000,000 attendance) and 16 October 2000 Million Family March at Washington DC (approximately 5,000-15,000 attendance) providing Nation of Islam-adjacent public mobilization. Louis Farrakhan's continued leadership through present maintained Nation of Islam institutional presence though membership declined from approximately 50,000 peak of 1970s documented in [A272][related_post_a272_depression_war_and_refuge] to approximately 20,000 by 2020.
 
 ## Rise of Nones and Religious Unaffiliation
 
-The rise of "Nones" (religiously unaffiliated) reached substantial proportions through 1990-2020 window, producing most substantial American religious demographic transformation of late-twentieth and early twenty-first century. Approximate unaffiliated trajectory reached
+The rise of "Nones" (religiously unaffiliated) reached extensive proportions through 1990-2020 window, producing most substantial American religious demographic transformation of late-twentieth and early twenty-first century. Approximate unaffiliated trajectory reached
 
 $$f_{\text{religiously unaffiliated, US}}\bigg|_{1948} \approx 0.02, \quad f\bigg|_{1990} \approx 0.08, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29$$
 
-per Gallup, American Religious Identification Survey (ARIS), and Pew Research reconstruction. The 2000-2020 window produced most rapid unaffiliation acceleration. The [Kosmin and Keysar 2009][book_kosmin_keysar_2009] American Religious Identification Survey, [Putnam and Campbell 2010][book_putnam_campbell_2010] American Grace, and [Chaves 2011][book_chaves_2011] American Religion provide the comprehensive treatments, with primary sources including [Pew Nones on the Rise 2012][ref_pew_nones_2012] Pew Research "Nones on the Rise" and [Pew Religious Landscape 2014][ref_pew_religious_landscape_2014] Religious Landscape Study.
+per Gallup, American Religious Identification Survey (ARIS), and Pew Research reconstruction. The 2000-2020 window produced most rapid unaffiliation acceleration. The [Kosmin and Keysar 2009][book_kosmin_keysar_2009] American Religious Identification Survey, [Putnam and Campbell 2010][book_putnam_campbell_2010] American Grace, and [Chaves 2011][book_chaves_2011] American Religion provide the detailed treatments, with primary sources including [Pew Nones on the Rise 2012][ref_pew_nones_2012] Pew Research "Nones on the Rise" and [Pew Religious Landscape 2014][ref_pew_religious_landscape_2014] Religious Landscape Study.
 
-Multiple hypothesized causes for unaffiliation expansion include generational replacement (American cohorts exhibiting progressively lower religious affiliation), 1980s-2020s Religious Right political mobilization producing institutional Christianity association with political conservatism alienating younger and liberal Americans, 2002 Boston Globe reporting on Catholic clergy sexual abuse and subsequent institutional revelations discrediting Catholic and various mainstream Christian institutional authority, and broader institutional trust decline patterns. Approximate unaffiliated composition included
+Multiple hypothesized causes for unaffiliation expansion include generational replacement (American cohorts exhibiting progressively lower religious affiliation), 1980s-2020s Religious Right political mobilization producing institutional Christianity association with political conservatism alienating younger and liberal Americans, 2002 Boston Globe reporting on Catholic clergy sexual abuse and subsequent institutional revelations discrediting Catholic and assorted mainstream Christian institutional authority, and broader institutional trust decline patterns. Approximate unaffiliated composition included
 
 $$f_{\text{"nothing in particular" among Nones}}\bigg|_{2020} \approx 0.60, \quad f_{\text{atheist among Nones}}\bigg|_{2020} \approx 0.20, \quad f_{\text{agnostic among Nones}}\bigg|_{2020} \approx 0.20$$
 
-per Pew Research reconstruction. Generational unaffiliation trajectory reflected substantial cohort replacement,
+per Pew Research reconstruction. Generational unaffiliation trajectory reflected appreciable cohort replacement,
 
 $$f_{\text{unaffiliated among Silent Generation cohort (born 1928-1945)}}\bigg|_{2020} \approx 0.12, \quad f_{\text{Baby Boomer (born 1946-1964)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{Generation X (born 1965-1980)}}\bigg|_{2020} \approx 0.31, \quad f_{\text{Millennial (born 1981-1996)}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Generation Z (born 1997-2012)}}\bigg|_{2020} \approx 0.34$$
 
@@ -506,7 +506,7 @@ per Pew Research generational reconstruction.
 
 ## Fall of Communism 1989-1991 and Post-Cold War Religious Reconfiguration
 
-The 9 November 1989 fall of the Berlin Wall and 26 December 1991 dissolution of the Soviet Union produced substantial reconfiguration of American religious institutional Cold War framework documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]. The end of anti-Communist religious mobilization reduced institutional Cold War religious framework across mainline Protestant, evangelical Protestant, Catholic, and Jewish institutional bodies. The [Kirby 2003][book_kirby_2003] Religion and the Cold War, [Herzog 2011][book_herzog_2011] The Spiritual-Industrial Complex (already cited in A273), and [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith (already cited in A271) provide the comprehensive treatments.
+The 9 November 1989 fall of the Berlin Wall and 26 December 1991 dissolution of the Soviet Union produced considerable reconfiguration of American religious institutional Cold War framework documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]. The end of anti-Communist religious mobilization reduced institutional Cold War religious framework across mainline Protestant, evangelical Protestant, Catholic, and Jewish institutional bodies. The [Kirby 2003][book_kirby_2003] Religion and the Cold War, [Herzog 2011][book_herzog_2011] The Spiritual-Industrial Complex (already cited in A273), and [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith (already cited in A271) provide the leading treatments.
 
 American religious institutional reengagement with former Communist Bloc emerged rapidly. Approximate scales included
 
@@ -516,25 +516,25 @@ per institutional records. The 1990 Congress on World Evangelization at Manila a
 
 ## AIDS Crisis 1981-1996 and American Religious Response
 
-The AIDS crisis emerging in 1981 (initial CDC Morbidity and Mortality Weekly Report of 5 June 1981 documenting Pneumocystis carinii pneumonia cases in Los Angeles gay men) produced substantial American religious institutional response combining initial religious moralization with institutional care mobilization. Approximate US AIDS mortality reached
+The AIDS crisis emerging in 1981 (initial CDC Morbidity and Mortality Weekly Report of 5 June 1981 documenting Pneumocystis carinii pneumonia cases in Los Angeles gay men) produced significant American religious institutional response combining initial religious moralization with institutional care mobilization. Approximate US AIDS mortality reached
 
 $$N_{\text{cumulative US AIDS deaths, 1981 to 1996}} \approx 3.5 \times 10^5, \quad N_{\text{annual US AIDS deaths, peak 1995}} \approx 5.1 \times 10^4$$
 
-per Centers for Disease Control and Prevention records, with 1996 highly active antiretroviral therapy (HAART) introduction producing substantial mortality decline through subsequent decades. The [Cohen 1997][book_cohen_1997] The Boundaries of Blackness, [Petro 2015][book_petro_2015] After the Wrath of God, and [Fetner 2008][book_fetner_2008] How the Religious Right Shaped Lesbian and Gay Activism provide the comprehensive treatments.
+per Centers for Disease Control and Prevention records, with 1996 highly active antiretroviral therapy (HAART) introduction producing substantial mortality decline through subsequent decades. The [Cohen 1997][book_cohen_1997] The Boundaries of Blackness, [Petro 2015][book_petro_2015] After the Wrath of God, and [Fetner 2008][book_fetner_2008] How the Religious Right Shaped Lesbian and Gay Activism provide the principal treatments.
 
-Religious institutional response combined substantial initial evangelical Protestant and Catholic institutional interpretations framing AIDS as divine judgment on homosexuality (Jerry Falwell's 1983 "AIDS is the wrath of God upon homosexuals" statement providing representative articulation), mainline Protestant and Reform Jewish institutional support for care ministry and antidiscrimination frameworks, Catholic institutional care through hospice and Catholic Charities operations, and ACT UP (AIDS Coalition to Unleash Power, formed 1987) direct action against institutional religious opposition. The 10 December 1989 ACT UP Stop the Church demonstration at St. Patrick's Cathedral disrupting Mass produced most substantial institutional religious-LGBT confrontation of period.
+Religious institutional response combined marked initial evangelical Protestant and Catholic institutional interpretations framing AIDS as divine judgment on homosexuality (Jerry Falwell's 1983 "AIDS is the wrath of God upon homosexuals" statement providing representative articulation), mainline Protestant and Reform Jewish institutional support for care ministry and antidiscrimination frameworks, Catholic institutional care through hospice and Catholic Charities operations, and ACT UP (AIDS Coalition to Unleash Power, formed 1987) direct action against institutional religious opposition. The 10 December 1989 ACT UP Stop the Church demonstration at St. Patrick's Cathedral disrupting Mass produced most extensive institutional religious-LGBT confrontation of period.
 
-Catholic response evolved through 1980s-1990s. Cardinal John O'Connor's establishment of Cardinal Cook Memorial AIDS Center (1985) and Cardinal Cook Health Care Center providing approximately 5,000 patient-year AIDS care through 1990s-2000s reflected Catholic institutional care mobilization. 1987 US Catholic Bishops [USCCB AIDS Statement 1987][ref_usccb_aids_1987] pastoral statement The Many Faces of AIDS provided substantial pastoral framework distinguishing institutional care from moralistic condemnation. Mainline Protestant denominational bodies including Episcopal Church, Presbyterian Church USA, and United Church of Christ preceded institutional AIDS ministry through 1980s.
+Catholic response evolved through 1980s-1990s. Cardinal John O'Connor's establishment of Cardinal Cook Memorial AIDS Center (1985) and Cardinal Cook Health Care Center providing approximately 5,000 patient-year AIDS care through 1990s-2000s reflected Catholic institutional care mobilization. 1987 US Catholic Bishops [USCCB AIDS Statement 1987][ref_usccb_aids_1987] pastoral statement The Many Faces of AIDS provided sizable pastoral framework distinguishing institutional care from moralistic condemnation. Mainline Protestant denominational bodies including Episcopal Church, Presbyterian Church USA, and United Church of Christ preceded institutional AIDS ministry through 1980s.
 
 ## Abortion Politics and Operation Rescue
 
-Abortion politics escalation through 1980-2000 window produced substantial religious institutional mobilization and direct action confrontation. The 22 January 1973 [Roe v. Wade 1973][ref_roe_v_wade_1973] Roe v. Wade decision documented in [A273][related_post_a273_postwar_transformation_and_reopening] motivated institutional abortion opposition mobilization. Major landmarks included 1976 Hyde Amendment prohibiting federal funding of abortion, 1988 Operation Rescue founding under Randall Terry, 29 June 1992 [Planned Parenthood v. Casey 1992][ref_pp_v_casey_1992] Planned Parenthood v. Casey Supreme Court decision upholding Roe framework while expanding state regulatory authority, and 26 May 1994 [Freedom of Access to Clinic Entrances Act 1994][ref_face_act_1994] Freedom of Access to Clinic Entrances Act. The [Risen and Thomas 1998][book_risen_thomas_1998] Wrath of Angels and [Blanchard 1994][book_blanchard_1994] The Anti-Abortion Movement and the Rise of the Religious Right provide the comprehensive treatments.
+Abortion politics escalation through 1980-2000 window produced appreciable religious institutional mobilization and direct action confrontation. The 22 January 1973 [Roe v. Wade 1973][ref_roe_v_wade_1973] Roe v. Wade decision documented in [A273][related_post_a273_postwar_transformation_and_reopening] motivated institutional abortion opposition mobilization. Major landmarks included 1976 Hyde Amendment prohibiting federal funding of abortion, 1988 Operation Rescue founding under Randall Terry, 29 June 1992 [Planned Parenthood v. Casey 1992][ref_pp_v_casey_1992] Planned Parenthood v. Casey Supreme Court decision upholding Roe framework while expanding state regulatory authority, and 26 May 1994 [Freedom of Access to Clinic Entrances Act 1994][ref_face_act_1994] Freedom of Access to Clinic Entrances Act. The [Risen and Thomas 1998][book_risen_thomas_1998] Wrath of Angels and [Blanchard 1994][book_blanchard_1994] The Anti-Abortion Movement and the Rise of the Religious Right provide the most complete treatments.
 
-Operation Rescue direct action reached substantial institutional scale,
+Operation Rescue direct action reached considerable institutional scale,
 
 $$N_{\text{Operation Rescue documented arrests, 1988 to 1994}} \approx 7 \times 10^4, \quad N_{\text{Operation Rescue "rescues" at abortion clinics, cumulative}} \gtrsim 700, \quad P_{\text{Operation Rescue affiliated demonstrators, peak c. 1991}} \gtrsim 1 \times 10^5$$
 
-per institutional records. The July 1991 "Summer of Mercy" campaign at Wichita, Kansas producing approximately 2,700 arrests over 46-day period provided most substantial single-city Operation Rescue mobilization.
+per institutional records. The July 1991 "Summer of Mercy" campaign at Wichita, Kansas producing approximately 2,700 arrests over 46-day period provided most significant single-city Operation Rescue mobilization.
 
 Anti-abortion violence produced substantial tragedy through 1978-2015 window. Documented clinic bombings and murders included
 
@@ -544,9 +544,9 @@ per National Abortion Federation records. The 10 March 1993 murder of Dr. David 
 
 ## Native American Graves Protection Act 1990 (NAGPRA)
 
-The Native American Graves Protection and Repatriation Act of 16 November 1990 [NAGPRA 1990][ref_nagpra_1990] provided the most substantial twentieth-century federal Native American religious repatriation framework, requiring federal agencies and federally-funded institutions to return Native American human remains, funerary objects, sacred objects, and objects of cultural patrimony to culturally-affiliated tribes and Native Hawaiian organizations. The [Fine-Dare 2002][book_fine_dare_2002] Grave Injustice and [Riding In and Trope 2011][book_riding_in_trope_2011] Repatriation Reader provide the comprehensive treatments.
+The Native American Graves Protection and Repatriation Act of 16 November 1990 [NAGPRA 1990][ref_nagpra_1990] provided the most extensive twentieth-century federal Native American religious repatriation framework, requiring federal agencies and federally-funded institutions to return Native American human remains, funerary objects, sacred objects, and objects of cultural patrimony to culturally-affiliated tribes and Native Hawaiian organizations. The [Fine-Dare 2002][book_fine_dare_2002] Grave Injustice and [Riding In and Trope 2011][book_riding_in_trope_2011] Repatriation Reader provide the standard treatments.
 
-Approximate NAGPRA implementation reached substantial institutional scale,
+Approximate NAGPRA implementation reached extensive institutional scale,
 
 $$N_{\text{NAGPRA-implicated Native American human remains in US museums and federal collections, 1990}} \approx 1.2 \times 10^5, \quad N_{\text{NAGPRA repatriations completed, 1990 to 2020}} \approx 6 \times 10^4, \quad N_{\text{Native American associated funerary objects repatriated, cumulative}} \gtrsim 1.5 \times 10^6$$
 
@@ -554,23 +554,23 @@ per National Park Service NAGPRA program records. Ongoing repatriation continued
 
 ## City of Boerne v. Flores 1997 and RFRA Litigation
 
-The 25 June 1997 [City of Boerne v. Flores 1997][ref_city_boerne_v_flores_1997] City of Boerne v. Flores Supreme Court decision struck down 1993 Religious Freedom Restoration Act (RFRA) as applied to state and local governments, holding that Congressional Section 5 enforcement power under Fourteenth Amendment could not expand Court's interpretation of First Amendment. The 6-3 decision produced substantial religious freedom jurisprudence recalibration. The [Long 2000][book_long_2000] Religious Freedom and Indian Rights and [Laycock 2004][book_laycock_2004_conflicts] Religious Liberty provide the comprehensive treatments.
+The 25 June 1997 [City of Boerne v. Flores 1997][ref_city_boerne_v_flores_1997] City of Boerne v. Flores Supreme Court decision struck down 1993 Religious Freedom Restoration Act (RFRA) as applied to state and local governments, holding that Congressional Section 5 enforcement power under Fourteenth Amendment could not expand Court's interpretation of First Amendment. The 6-3 decision produced sizable religious freedom jurisprudence recalibration. The [Long 2000][book_long_2000] Religious Freedom and Indian Rights and [Laycock 2004][book_laycock_2004_conflicts] Religious Liberty provide the fullest treatments.
 
 Congressional response through 2000 [Religious Land Use and Institutionalized Persons Act 2000][ref_rluipa_2000] Religious Land Use and Institutionalized Persons Act (RLUIPA) restored religious freedom protection under narrower jurisdictional framework combining Spending Clause and Commerce Clause authority. Approximately 26 states subsequently enacted state RFRAs providing parallel state-level religious freedom protection. Twenty-first-century religious freedom litigation combining business exemption claims (2014 Burby Lobby v. Hobby Lobby, 2015 Obergefell v. Hodges religious dissent claims) built on Boerne and RLUIPA framework treated in subsequent articles.
 
 ## Left Behind Series and Popular Dispensationalism
 
-The 1995-2007 Left Behind series by Tim LaHaye and Jerry B. Jenkins (16 novels plus approximately 40 additional collateral publications) provided the most substantial American popular dispensationalist theological framework of late twentieth century. Series sales reached substantial scale,
+The 1995-2007 Left Behind series by Tim LaHaye and Jerry B. Jenkins (16 novels plus approximately 40 additional collateral publications) provided the most significant American popular dispensationalist theological framework of late twentieth century. Series sales reached considerable scale,
 
 $$N_{\text{Left Behind series copies sold, cumulative 1995 to 2020}} \approx 8 \times 10^7, \quad N_{\text{Left Behind film adaptations}} = 4$$
 
-per Tyndale House Publishers records. The dispensationalist theological framework derived from John Nelson Darby's mid-nineteenth-century systematization and 1909 Scofield Reference Bible dispensationalist annotations documented in [A270][related_post_a270_civil_war_and_reconstruction] reached American mainstream Protestant reception through Left Behind narrative popularization. The [Weber 2004][book_weber_2004_road] On the Road to Armageddon and [Frykholm 2004][book_frykholm_2004_rapture] Rapture Culture provide the comprehensive treatments.
+per Tyndale House Publishers records. The dispensationalist theological framework derived from John Nelson Darby's mid-nineteenth-century systematization and 1909 Scofield Reference Bible dispensationalist annotations documented in [A270][related_post_a270_civil_war_and_reconstruction] reached American mainstream Protestant reception through Left Behind narrative popularization. The [Weber 2004][book_weber_2004_road] On the Road to Armageddon and [Frykholm 2004][book_frykholm_2004_rapture] Rapture Culture provide the treatments.
 
-Concurrent 1990s-2000s Christian contemporary music (CCM) mainstream expansion reached substantial commercial scale,
+Concurrent 1990s-2000s Christian contemporary music (CCM) mainstream expansion reached significant commercial scale,
 
 $$C_{\text{US Christian contemporary music sales, peak c. 2000}} \approx 8 \times 10^8 \text{ USD annual}, \quad P_{\text{major Christian rock artists (Amy Grant, Michael W. Smith, Steven Curtis Chapman) aggregate album sales, cumulative}} \gtrsim 5 \times 10^7$$
 
-per Gospel Music Association records. Concurrent Christian bookstore chain expansion (Family Christian Stores reaching approximately 300 stores at peak, Berean Christian Stores, various others) provided the distribution infrastructure reshaping mainstream American Christian consumer culture through 1990s-2000s window before 2010s decline.
+per Gospel Music Association records. Concurrent Christian bookstore chain expansion (Family Christian Stores reaching approximately 300 stores at peak, Berean Christian Stores, a number of others) provided the distribution infrastructure reshaping mainstream American Christian consumer culture through 1990s-2000s window before 2010s decline.
 
 ## Applying the Six-Axis Framework to the 1980-2000 Substrates
 
@@ -584,7 +584,7 @@ The structure axis characterizes ecclesiastical form. Megachurch movement produc
 
 The model axis characterizes theological content. Third Wave Charismatic movement combined evangelical theological framework with Pentecostal pneumatic emphasis without denominational Pentecostal identification. Prosperity gospel expanded through 1980s-1990s televangelism before 1987-1988 scandal disruption. Black Liberation Theology documented in [A273][related_post_a273_postwar_transformation_and_reopening] continued through 1980s-2000s institutional development.
 
-The interaction axis characterizes external relationships. IIRIRA 1996 produced substantial deportation expansion affecting undocumented immigrant populations. Sanctuary Movement produced ecclesiastical civil disobedience framework reflecting pre-existing religious institutional networks. American Muslim institutional consolidation produced systematic institutional framework exceeding pre-1965 American Muslim institutional presence.
+The interaction axis characterizes external relationships. IIRIRA 1996 produced marked deportation expansion affecting undocumented immigrant populations. Sanctuary Movement produced ecclesiastical civil disobedience framework reflecting pre-existing religious institutional networks. American Muslim institutional consolidation produced systematic institutional framework exceeding pre-1965 American Muslim institutional presence.
 
 The adaptation axis characterizes response to novel circumstances. Iranian religious minority admission adapted to Islamic Republic religious persecution producing selective refugee flow. Bosnian refugee admission adapted to ethnic cleansing producing religious institutional support. American Muslim institutional consolidation adapted to post-1965 diverse Muslim source populations producing systematic pan-Muslim institutional framework.
 
