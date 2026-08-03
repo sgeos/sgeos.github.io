@@ -9,97 +9,74 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-04
-**Task**: A292 History of SpaceX Synthesis and Projection drafted at `_drafts/spacex_history_synthesis_and_projection.markdown` for editorial date 2026-08-04 at 09:00 UTC. Closing article of the series. Both density passes remain.
+**Task**: A292 equation-density expansion pass. 57 display equations added, 14 to 71. Reference-density pass remains.
 
 ---
 
-## What the Closer Argues
+## How the Pass Was Scoped
 
-I did not write a summary. A summary of eleven articles would have added nothing you cannot get from their pattern-extraction sections. The closer instead makes a claim about the framework itself, and it is a critical one.
+Matched against A290 at 77 and A291 at 78, both at publication-review parity, using their per-section distribution rather than a per-word ratio. The six sections that carry zero equations in every sibling stayed at zero.
 
-**The framework's independence assumption fails, and the series discovered this three times without noticing.**
-
-The seven-plus-three framework is a conjunction written as a product. A product assumes the conditions carry information independently. Three articles, written for unrelated purposes, each found the opposite:
-
-- **A288** — a portfolio that appears to distribute risk across five lines concentrates it, because four share a vehicle family.
-- **A290** — five sub-properties that appear to fail independently fail together, because an adverse state withdraws the realization path, degrades the claim type, and concentrates the holder base at once.
-- **A291** — a leg that appears to remove the capital constraint installs an operational one in its place.
-
-Three routes, one finding. The closer treats it as a property of the framework: **the conditions are approximately separable in favorable states and correlated in adverse ones.**
+The closer's equations differ in kind from the rest of the series. Everywhere else the equations formalize claims about the case. Here they formalize claims about the framework, which is what the article is actually arguing about.
 
 ---
 
-## The Part That Cuts Against Our Own Thesis
+## The Device That Carries the Article
 
-This is the section I most want you to look at, because it weakens the series' headline claim and I think it should.
+The **factor representation** is the central addition and it appears in four sections. Writing each observable condition as a function of a lower-dimensional vector of underlying properties turns the article's central claim from an assertion into something with consequences that can be traced.
 
-The singular-conjunction thesis draws its force from the apparent improbability of ten conditions holding at once. But the conditions are **positively dependent in the favorable direction too**. Value-gradient and decomposability describe one underlying property from two angles. Anchor demand and the government-anchor leg are the same institution. Governance and the patient-private leg are the same control configuration doing two jobs.
+Once the factor structure is written down, three results follow that the prose had been asserting separately:
 
-So the joint probability **exceeds** the product of the marginals, and the conjunction is considerably more attainable than the framework's notation implies. The honest reading is not that ten independent miracles coincided but that roughly four underlying properties generated most of the ten conditions.
+1. **The covariance decomposition** shows why conditions sharing a loading cannot be independent. This is the technical content of the independence-failure claim, and it was previously just a list of three examples.
 
-I did not abandon the thesis. I restated it. The defensible claim is that this is the only modern case to have closed the conjunction, which is an observation about the record. The claim that the conjunction is astronomically improbable does not survive, and **the policy and investment literature treating the case as inimitable is drawing the wrong conclusion from the right observation**.
+2. **The reproduction-probability contrast** — $q^{10}$ under independence against $q^{4}$ under the factor reading — makes the practical implication concrete. This is the article's most consequential claim and it now has a form you can argue with.
 
-The fragility direction points the opposite way and both hold simultaneously. The configuration is easier to attain than the product implies and easier to lose than the product implies. No single adjustment captures both.
-
----
-
-## The Two A288 Interactions, Taken Up
-
-You flagged these for the closer and they carried more weight than I expected.
-
-**The key-person dependency is perfectly correlated across every line, every leg, and the governance configuration.** The portfolio supplies exactly zero mitigation against the one event most likely to affect everything at once.
-
-**Conditions six and seven interact adversely**, and the framework has no place to record that. The concentration of decision authority is what protects the mission from capital capture. It is also what makes a key-person event maximally consequential, because the decisions the arrangement reserves to the controller have no institutional path to being made by anyone else. The succession question A287 identified is therefore not one weakness among ten. It is the channel through which correlated failure of the others would propagate, and I ranked it first among the failure modes.
+3. **The paired inequalities** are stated adjacently rather than in separate sections. A reader meeting them apart would take them for a contradiction, since one puts joint probability above the product of marginals and the other puts it below. Placed together it is obvious they concern attainment and retention respectively.
 
 ---
 
-## Projection
+## Five Other Additions Worth Noting
 
-Method stated before conclusions, assumptions enumerated per projection, and the assumption each projection is most sensitive to identified — which is the useful part and usually the omitted one. Failure modes ranked rather than listed.
-
-The structural conclusion is worth stating plainly: **the configuration the series documents is not a steady state.** It is a transitional arrangement whose defining feature is one person's continued involvement, and it has adopted none of the ownership forms that historically resolved succession. Every projection to 2050 is therefore a projection about what replaces it.
-
-I declined to project the mission outcome. It depends on technical questions the series never treated and I have no basis for a view.
+- **The mutual-independence requirement**, stated explicitly to show the product form demands something considerably stronger than pairwise independence, and that nothing in the series' construction ensures it.
+- **The shared-shock indicator model**, supplying the actual mechanism behind correlated failure and identifying the loadings as what determines how far joint survival falls below the independent product.
+- **The succession partition**, an array showing each available resolution surrenders a different condition and no row preserves all ten. Paired with the single-component implication that a governance failure zeroes the entire conjunction, this is what makes succession a framework problem rather than only a firm problem.
+- **The failure-mode ranking criterion**, combining event probability with the fraction of the configuration the event removes, so the ordering is auditable rather than asserted.
+- **The leg-sequence ordering**, establishing that the three capital-formation legs form a dependency chain rather than a chronology, since each financed the capability the next required.
 
 ---
 
 ## Article Metrics
 
-| Metric | Value |
-|---|---|
-| Lines | 598 |
-| Words | ~8,348 |
-| Display equations | 14 |
-| H2 / H3 sections | 27 / 10 |
-| Total reference anchors | 101 |
-| Books / Reference / Research / Related Post | 44 / 26 / 11 / 20 |
-| Missing / unused / duplicate anchors | 0 / 0 / 0 |
-| Duplicate URLs | 0 |
-| Style violations | 0 |
+| Metric | Before | After |
+|---|---|---|
+| Lines | 598 | 844 |
+| Words | ~8,348 | ~11,249 |
+| **Display equations** | **14** | **71** |
+| H2 / H3 sections | 27 / 10 | 27 / 10 |
+| Total reference anchors | 101 | 101 |
+| Missing / unused / duplicate | 0 / 0 / 0 | 0 / 0 / 0 |
+| Duplicate URLs | 0 | 0 |
+| Style violations | 0 | 0 |
 
-Both figures are lower at initial draft than any sibling. That is expected for a synthesis, which introduces few new sources, and the density passes will correct it.
+LaTeX balanced at 68 matched `\left` and `\right` pairs, braces and the array environment matched, every macro within the MathJax `tex-mml-chtml` default set.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **Both density passes remain.** 14 equations against the 60-72 band and 101 anchors against the 190-234 baseline.
+1. **Reference-density pass is the remaining item** before the publication review. 101 anchors against the 190-234 baseline, with all four categories below sibling range.
 
-2. **The publication batch is now five**, A288 through A292. A292 back-references all four unpublished articles.
+2. **Two equations are illustrative rather than estimated, and I want that on the record.** The factor dimension of four is offered as an illustration of the argument's form, not as a measurement. The overstatement factor $q^{10-d}$ follows from it and inherits the same status. The article says so in its own text, but the notation lends both more authority than they have earned, and if you think that trade is wrong the dimension can be dropped in favour of the inequality alone.
 
-3. **Citations.** Every anchor came from the A290 and A291 apparatus, the two fully verified and repaired articles. The nineteen fabricated or unregistered anchors were excluded from the source pool outright. All 26 primary URLs rechecked, zero 404s. **A292 introduces no unverified citation.**
-
-4. **A section you may want to push back on.** "What the Framework Gets Right" exists because a closer that only criticized its own framework would misrepresent the exercise. If you think it reads as defensive, it can go, but I judged the balance necessary given how much of the article is self-critical.
-
-5. **A288 still carries two fabricated citations**, and the five published articles carry eleven plus the Adilov conflation. That decision is still open and it now blocks a five-article batch rather than a four-article one.
+3. **The publication batch is still five**, A288 through A292, and the citation-integrity remediation still gates it.
 
 ---
 
 ## Suggested Next Steps
 
-- Equation-density and reference-density passes on A292, then the publication review.
-- Resolve the citation-integrity remediation. It is now the gating item for the whole batch.
-- Publish A288 through A292 as a five-article batch, which completes the series.
+- Reference-density pass on A292, then the publication review. That completes all twelve articles.
+- Resolve the citation-integrity remediation. It is the gating item for the whole batch.
+- Publish A288 through A292 as a five-article batch, completing the series.
 - Broken-link sweep across live A281, A282, and A283.
 - Decide the scope of the "the specific" remediation.
 - The durable handoff process you deferred until the series was finished is now nearly due.
