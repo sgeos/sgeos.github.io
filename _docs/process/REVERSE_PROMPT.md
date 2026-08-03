@@ -9,80 +9,69 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-04
-**Task**: Pathological word-usage pass across all twelve History of SpaceX articles. **"specific" reduced from 16,230 occurrences to 44.**
+**Task**: A288 through A292 published via the two-commit sequence and pushed. **The History of SpaceX series is complete at twelve articles.**
 
 ---
 
-## What the Measurement Showed
+## What Was Published
 
-I compared per-thousand-word rates across the series against a 40-post baseline from the rest of the corpus, which separates a genuine tic from ordinary topic vocabulary.
+| Article | Date | Index | Equations | Anchors |
+|---|---|---|---|---|
+| A288 Portfolio Patience | 2026-07-31 | 8 | 75 | 348 |
+| A289 Government-Anchor Leg | 2026-08-01 | 9 | 73 | 340 |
+| A290 Patient-Private Leg | 2026-08-02 | 10 | 77 | 331 |
+| A291 Category-Dominating Spinoff | 2026-08-03 | 11 | 78 | 326 |
+| A292 Synthesis and Projection | 2026-08-04 | 12 | 75 | 370 |
 
-You were right that `specific` was the problem, and it was worse than the earlier sample suggested. **87.17 per thousand words against a baseline of 1.73 — a factor of 44.** 16,230 occurrences, of which 12,260 were the bare filler `the specific`.
+All at 09:00 UTC. Staging commit `0a442c9`, then the publication commit with `git mv`, which git recorded as five clean renames with zero content change.
 
-Per-article density before the pass ran from 0.0 in A292 and 0.1 in A291, the two written after the problem was identified, up to **88.4 in A286**.
-
-Three other words cleared the bar for a genuine tic. Everything else that looked elevated turned out to be topic vocabulary — spacex, falcon, launch, capital, venture and so on — and I left those alone.
-
----
-
-## What Changed
-
-| Word | Before | After | Baseline |
-|---|---|---|---|
-| specific | 87.17 /1k | **0.20 /1k** | 1.73 |
-| compact | 3.62 | 1.85 | 0.02 |
-| admits | 4.74 | 2.69 | 0.28 |
-| supplies | 1.73 | 0.53 | 0.05 |
-
-**`specific`**: 16,230 to 44 occurrences. Below natural baseline now.
-
-**The equation-introduction formula.** `admits the compact form` and `admits the compact statement` accounted for **429 of 488** equation introductions. Varied across nine alternatives, no single phrase now over 59 instances. Applied only to line-final occurrences preceding a display equation, so sentence-medial uses stayed intact.
-
-**`supplies`** rotated through provides, offers, gives, yields, contributes.
-
-**`configuration`** I deliberately left as domain vocabulary, since 774 of its sentences contain a single occurrence and the series is genuinely about configurations. But 37 sentences used it three or more times, which is just repetitive. I varied the within-sentence repeats only; that count is now 2.
+The push also carried the corrections to the seven previously published articles from the consistency and word-usage passes — the citation repairs, the 84 dead-link repairs, the A284 and A285 structural fixes, and the word-usage remediation.
 
 ---
 
-## What I Protected
+## Build Verification
 
-**Technical terms.** `specific impulse`, `specific heat`, `specific thrust`, `specific power`, `specific strength` — stashed before any rule ran so nothing could touch them. All 16 genuine instances survive.
+Run before pushing, in a Gemfile-free scratch copy with `jekyll-archives` stripped from the config.
 
-**Contrastive uses.** Kept where the contrast attaches to the same noun phrase, as in "specific X rather than general Y". My first attempt used a proximity window, which was too loose and protected whole regions merely because "rather than" appeared somewhere nearby; I tightened it to require the construction itself.
-
-**Everything structural.** Math blocks, headings, reference bullets, link definitions. Equation counts are identical in all twelve.
-
----
-
-## Verification
-
-All twelve articles: zero missing, unused, or duplicate anchors; zero duplicate bullets; zero duplicate URLs; balanced LaTeX with matched `\left`/`\right`; **unchanged equation counts**; zero style violations.
-
-Grammar after removal: zero a-before-vowel errors, zero an-before-consonant errors, zero doubled words, zero `the the`. Two flagged "doubled words" were false positives on my part — `lock-in in shaping` and `Falcon Heavy Heavy-Lift Vehicle` are both correct English.
+- **294 posts in, 294 HTML files out.** Zero Liquid errors.
+- **Every `post_url` in the entire `_posts` corpus resolves.** This was the interlock the batch existed to clear, and it is the first time in the series a full build could succeed.
+- All twelve series pages generated with correct titles, MathJax loading, series navigation reporting part N of 12, debug tags present, and 75 rendered equations in the closer.
 
 ---
 
-## Two Implementation Notes Worth Keeping
+## One Defect I Did Not Fix
 
-**1. My math-skipping logic was silently wrong at first.** It toggled state on lines *beginning* with `$$`, so a block closing with `\end{array}$$` never toggled back and every line after it was skipped. That is why an early run looked like it had plateaued. Rewritten to track delimiters by cumulative count.
+**`_publish.sh` does not work on macOS.** Its date-extraction line is:
 
-**2. The technical-term guard ran too late.** Placed after the determiner rules, it was already defeated — `the specific impulse` had become `the impulse` before the guard saw it, losing 12 of 17 terms. Moved to run before everything else.
+```sh
+DATE=$(sed -n "/^date:[+-:0-9 ]*$/{p; q;}" "${FILENAME}" | awk '{ print $2 }')
+```
 
-Both were caught by verification rather than by reading, which is an argument for checking counts on things you did not intend to change.
+BSD sed rejects `[+-:0-9 ]` as an invalid character range, because `+-:` reads as a range from `+` to `:`. The script therefore reports *"does not have a date"* for every file and moves nothing. It failed silently in that sense — exit status looked fine and no files were touched.
+
+I performed the five `git mv` operations directly with identical semantics rather than edit your script. **The fix is to escape or reposition the hyphen**, for example `[-+:0-9 ]` or `[+:0-9 -]`, but that is your call since it is your tooling and it may behave differently under GNU sed on another machine.
+
+---
+
+## Series Summary
+
+Twelve articles, A281 through A292, editorial dates 2026-07-24 through 2026-08-04.
+
+Across the series: **3,391 reference anchors**, **860 display equations**, roughly 250,000 words. Every article carries the seven methodological commitments, a pattern-extraction section, and complete back-referencing to every prior article.
+
+The closer's substantive contribution is the finding that the framework's own independence assumption fails, that the conditions are separable in favourable states and correlated in adverse ones, and that this biases the assessment in opposite directions — overstating the rarity of the conjunction while understating its fragility.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **The prose reads noticeably better.** The A290 opening paragraph, which previously carried 31 instances of `the specific` in a single line, now reads normally. Worth a spot-read before you publish.
-2. **Nothing outstanding blocks publication.** The batch A288 through A292 is ready.
-3. **Seven published articles carry uncommitted edits** from this pass and the consistency pass. Publishing will push content changes to live posts either way.
+1. **Verify the live URLs** once GitHub Pages finishes building. The five new posts are under `/history/business/aerospace/2026/07/31/` through `/2026/08/04/`.
+2. **`_publish.sh` is broken on macOS**, per above.
 
 ---
 
 ## Suggested Next Steps
 
-- Spot-read a couple of the rewritten passages to confirm the register is what you want.
-- Stage and publish A288 through A292, with a build verification in a Gemfile-free scratch copy first.
+- Confirm the deploy succeeded and spot-check a couple of the new pages.
 - Consider resolving the 269 Open Library search URLs to specific work identifiers. Citation quality, not link rot.
-- Codify the durable handoff process.
+- Codify the durable handoff process. The series is finished, which was the condition you set for taking it up.
