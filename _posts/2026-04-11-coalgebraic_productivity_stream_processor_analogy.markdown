@@ -277,7 +277,7 @@ the classical
 Newton-Leibniz calculus.
 The parallel
 provides
-a substantial
+a considerable
 proof technique
 for stream identities
 that would
@@ -783,7 +783,7 @@ observes
 the codata
 being defined.
 
-The framework
+The account
 distinguishes
 data
 from codata
@@ -855,7 +855,7 @@ that
 distinguish
 data
 from codata.
-The framework
+The model
 has been implemented
 in
 the Agda proof assistant
@@ -1027,10 +1027,10 @@ for
 a practical compiler
 do not
 appear directly
-in the framework.
+in this formulation.
 
 **Resource cost of each step.**
-The framework
+The treatment
 requires
 that
 each productivity step
@@ -1057,7 +1057,7 @@ layered on top of
 the productivity guarantee.
 
 **Amount of buffering.**
-The framework
+This account
 allows
 the productivity function $m$
 to be
@@ -1135,10 +1135,10 @@ These
 limitations
 do not
 undermine
-the framework's value.
+the model's value.
 They
 locate
-the framework
+this formulation
 correctly
 within
 the broader

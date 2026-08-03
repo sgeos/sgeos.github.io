@@ -26,7 +26,7 @@ them
 in
 production programming languages
 that
-substantial industrial software
+considerable industrial software
 was written in.
 Rust,
 whose stable one point zero release
@@ -91,7 +91,7 @@ that
 extended
 their applicability
 to
-substantial distributed protocols.
+significant distributed protocols.
 Gradual typing,
 which
 [Siek and Taha had opened as an intellectual project][related_post_a213]
@@ -123,7 +123,7 @@ mathematical objects.
 The twenty tens
 also
 produced
-substantial new statically typed programming languages
+marked new statically typed programming languages
 that
 combined
 existing techniques
@@ -177,7 +177,7 @@ The years
 between two thousand ten
 and two thousand fifteen
 saw
-substantial redesign
+extensive redesign
 of
 the language's type system
 around
@@ -235,7 +235,7 @@ the ownership discipline.
 
 The Rust ownership discipline
 was
-substantially indebted to
+considerably indebted to
 the substructural type systems
 that
 programming language research
@@ -280,7 +280,7 @@ the discipline
 in
 a form
 that
-carried substantial ergonomic engineering
+carried sizable ergonomic engineering
 alongside
 its formal foundation.
 
@@ -295,7 +295,7 @@ consolidated
 the ownership discipline,
 the borrow checker,
 and
-a substantial standard library
+an appreciable standard library
 into
 a stable programming language.
 Rust's memory safety guarantees
@@ -307,7 +307,7 @@ the other statically typed languages
 of
 the following decade,
 which
-substantially relied
+significantly relied
 on
 garbage collection
 for
@@ -337,7 +337,7 @@ operating-system kernels,
 distributed-systems infrastructure,
 cryptographic libraries,
 and
-substantial industrial software
+considerable industrial software
 generally.
 The Linux kernel
 began
@@ -434,7 +434,7 @@ allowed
 F-star
 to
 produce
-substantial industrial verified code,
+significant industrial verified code,
 including
 the miTLS Transport Layer Security implementation
 and
@@ -523,7 +523,7 @@ in
 its types.
 Idris
 became
-substantially
+markedly
 the reference implementation
 of
 practical dependent-type programming
@@ -623,7 +623,7 @@ that expression `e`
 might perform.
 The mechanism
 was
-substantially more expressive
+appreciably more expressive
 than
 the monadic approach
 that
@@ -710,7 +710,7 @@ a dependently typed setting.
 
 The effect-handler discipline
 became
-substantially
+greatly
 the twenty-tens successor
 to
 the monadic approach
@@ -797,7 +797,7 @@ on
 the application
 of Liquid Haskell
 to
-substantial Haskell libraries
+marked Haskell libraries
 including
 Data.ByteString,
 Data.Text,
@@ -814,7 +814,7 @@ and
 that
 the resulting refinement annotations
 carried
-substantial documentation value
+extensive documentation value
 for
 future readers
 of
@@ -825,12 +825,12 @@ their verification content.
 
 Liquid Haskell
 became
-substantially
+considerably
 the first production-scale
 refinement-type system.
 Its users
 were
-substantially outside
+significantly outside
 the original research group,
 which
 distinguished it
@@ -845,7 +845,7 @@ would be used
 across
 the following decade
 in
-substantial industrial verification work
+sizable industrial verification work
 including
 the Amazon Web Services
 IronFleet
@@ -916,7 +916,7 @@ participating parties.
 
 The twenty tens
 saw
-substantial industrial application
+appreciable industrial application
 of
 multiparty session types.
 The Scribble protocol description language,
@@ -939,7 +939,7 @@ could translate
 into
 executable code
 in
-substantial mainstream languages
+considerable mainstream languages
 including
 Java,
 Python,
@@ -960,7 +960,7 @@ runtime session-type checking.
 
 The technique
 matured
-substantially
+markedly
 through
 industrial use cases
 in
@@ -975,7 +975,7 @@ interaction protocols
 between
 distinct services
 was
-a substantial engineering problem.
+a significant engineering problem.
 Session types
 supplied
 a specific technical framework
@@ -1041,7 +1041,7 @@ static type checking.
 
 TypeScript's adoption
 was
-substantially rapid
+appreciably rapid
 across
 the following decade.
 Major JavaScript frameworks
@@ -1061,14 +1061,14 @@ untyped JavaScript.
 By the end of
 the decade,
 TypeScript
-had substantially replaced
+had greatly replaced
 JavaScript
 as
 the default choice
 for
 new web-application code
 in
-substantial portions
+marked portions
 of
 industrial practice.
 
@@ -1137,7 +1137,7 @@ Sorbet
 brought
 gradual typing
 to
-a substantial industrial Ruby codebase
+an extensive industrial Ruby codebase
 and
 demonstrated
 that
@@ -1218,7 +1218,7 @@ by
 The Univalent Foundations Program.
 The book
 was
-substantially
+considerably
 a collective work
 of
 the participants
@@ -1245,7 +1245,7 @@ as
 mathematical objects.
 The axiom
 was
-substantially controversial
+significantly controversial
 within
 the type theory community
 because
@@ -1279,7 +1279,7 @@ formulation
 of univalence.
 
 The homotopy type theory program
-had substantial consequences
+had sizable consequences
 for
 the interpretation
 of programs
@@ -1311,7 +1311,7 @@ The impact
 on
 programming language design
 was
-substantially
+markedly
 indirect,
 through
 the influence
@@ -1361,7 +1361,7 @@ from Standard ML
 and Haskell,
 value-type discipline,
 and
-a substantial standard library.
+an appreciable standard library.
 The language
 became
 the primary programming language
@@ -1433,7 +1433,7 @@ into
 a language
 whose learning curve
 was
-substantially shorter
+appreciably shorter
 than Haskell's
 and whose runtime
 did not carry
@@ -1467,7 +1467,7 @@ that
 mentions.
 Elixir
 provided
-a substantially more approachable surface syntax
+a greatly more approachable surface syntax
 than
 Erlang
 along with
@@ -1475,7 +1475,7 @@ macro-based metaprogramming
 that
 gave
 library designers
-substantial expressive power.
+considerable expressive power.
 The language
 became
 the primary programming language
@@ -1523,7 +1523,7 @@ for
 scientific computing,
 and
 achieved
-substantial adoption
+significant adoption
 in
 scientific-computing contexts
 where
@@ -1610,7 +1610,7 @@ outside its declared resource bounds.
 
 WebAssembly
 became
-substantially
+considerably
 the second half
 of a portability story
 that
@@ -1636,7 +1636,7 @@ without
 requiring
 their runtime systems
 to be
-substantially reengineered.
+significantly reengineered.
 The Wasmtime,
 Wasmer,
 and WasmEdge runtimes
@@ -1787,7 +1787,7 @@ entered
 industrial distributed-system practice.
 Gradual typing
 reached
-substantial portions of
+marked portions of
 web,
 scripting,
 and

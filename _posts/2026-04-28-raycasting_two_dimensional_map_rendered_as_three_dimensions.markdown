@@ -798,7 +798,7 @@ or roll around the forward axis,
 the per-column projection of raycasting
 loses its perpendicular-distance simplification.
 The look-up-and-down variant
-extends the framework with an approximation,
+extends the account with an approximation,
 but significant pitch
 warps the wall slices in a way
 that purer perspective projection avoids.

@@ -48,7 +48,7 @@ et en Automatique
 delivered CompCert,
 the first
 mechanically verified optimizing compiler
-for a substantial fragment of C.
+for a considerable fragment of C.
 The Coq proof assistant
 proved
 the Four Color Theorem
@@ -158,7 +158,7 @@ the following two decades.
 
 The book's approach
 was
-substantially indebted
+considerably indebted
 to
 [Wright and Felleisen's nineteen ninety-four syntactic type soundness paper][related_post_a212].
 Every type system
@@ -211,7 +211,7 @@ higher-order subtyping
 including F sub.
 The chapters on
 each topic
-were substantially self-contained,
+were significantly self-contained,
 which
 allowed
 the book to be used
@@ -290,7 +290,7 @@ covers
 into
 its stabilized late-nineteen-nineties form,
 saw
-substantial mathematical work
+significant mathematical work
 across
 the two thousands.
 The Four Color Theorem,
@@ -366,7 +366,7 @@ to lead
 the Mathematical Components library,
 which
 formalized
-substantial portions
+marked portions
 of
 abstract algebra
 in Coq
@@ -404,7 +404,7 @@ at Chalmers
 in
 the mid nineteen nineties,
 but the new implementation
-was substantially different
+was markedly different
 in
 design
 and
@@ -425,7 +425,7 @@ over
 its proof aspects.
 The surface syntax
 was
-substantially closer to
+appreciably closer to
 Haskell
 than to
 the tactic-based Coq syntax,
@@ -435,7 +435,7 @@ Agda 2 programs
 readable
 as ordinary functional programs
 whose types
-were substantially more expressive
+were greatly more expressive
 than
 those of ordinary functional programs.
 The system
@@ -500,7 +500,7 @@ as
 a mechanically verified
 optimizing compiler
 for
-a substantial fragment
+an extensive fragment
 of the C programming language,
 called Clight,
 that
@@ -578,7 +578,7 @@ mechanically verified.
 
 CompCert
 was
-substantially
+considerably
 the first demonstration
 that
 mechanical verification
@@ -633,7 +633,7 @@ with
 two specific technical contributions
 that made
 practical adoption
-substantially easier
+significantly easier
 than
 prior refinement-type systems
 had allowed.
@@ -710,7 +710,7 @@ The predicate language
 was
 chosen
 to cover
-the substantial majority
+the sizable majority
 of
 practical refinement use cases.
 
@@ -736,7 +736,7 @@ allowed
 the compiler
 to
 handle
-substantial arithmetic reasoning
+appreciable arithmetic reasoning
 without
 implementing
 the arithmetic reasoner
@@ -775,7 +775,7 @@ production-oriented
 refinement-type system
 whose users
 were
-substantially outside
+markedly outside
 the original research group.
 
 ## Gradual Typing as an Intellectual Project
@@ -887,7 +887,7 @@ match anything.
 
 Gradual typing
 was
-substantially
+appreciably
 an intellectual response
 to
 the ascendancy
@@ -918,7 +918,7 @@ each.
 The gradual-typing research program
 would
 develop
-substantially
+greatly
 across
 the following decade.
 Typed Scheme,
@@ -997,7 +997,7 @@ the intervening period.
 
 HOPL III
 produced
-substantial retrospectives
+considerable retrospectives
 on
 several languages
 of
@@ -1043,7 +1043,7 @@ HOPL I and HOPL II
 had established.
 Each retrospective paper
 was
-substantially
+considerably
 a design memoir
 written by
 the language's designer
@@ -1152,7 +1152,7 @@ and colleagues
 across the decade.
 The language
 was
-substantially
+significantly
 an OCaml derivative
 targeting
 the Microsoft dot-NET runtime,
@@ -1228,7 +1228,7 @@ and hash-map
 implementations.
 Clojure
 became
-a substantial industrial programming language
+a significant industrial programming language
 across
 the following decade,
 particularly
@@ -1274,7 +1274,7 @@ in Japan,
 but its
 industrial adoption
 began
-substantially
+markedly
 with
 the two thousand four
 release
@@ -1355,12 +1355,12 @@ the Chrome browser.
 V8
 made
 JavaScript execution
-substantially faster
+appreciably faster
 than
 prior implementations,
 which
 enabled
-substantial web applications
+marked web applications
 to be
 written
 primarily in JavaScript
@@ -1392,7 +1392,7 @@ of the decade.
 The environment
 they created,
 in which
-substantial industrial software
+extensive industrial software
 was written
 in
 dynamically typed languages,
@@ -1450,7 +1450,7 @@ the properties.
 
 QuickCheck
 was
-substantially
+greatly
 an application
 of
 Wadler's monadic programming
@@ -1478,7 +1478,7 @@ for their components.
 The composition mechanism
 made
 QuickCheck
-substantially easier
+considerably easier
 to use
 than
 prior random-testing tools
@@ -1486,7 +1486,7 @@ had been.
 
 The property-based-testing methodology
 spread
-substantially
+significantly
 across languages
 in
 the following decade.
@@ -1614,7 +1614,7 @@ became
 a practical technique.
 Proof assistants
 proved
-substantial mathematical theorems.
+sizable mathematical theorems.
 Type theory
 received
 its consolidation textbook.

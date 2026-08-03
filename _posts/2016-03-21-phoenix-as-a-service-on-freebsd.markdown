@@ -258,7 +258,7 @@ pw adduser $PROJECT -d $INSTALL_DIR/$PROJECT -s /usr/sbin/nologin -c "$PROJECT s
 chown -R $PROJECT:$PROJECT $INSTALL_DIR/$PROJECT
 {% endhighlight %}
 
-An rc script defines the the service.
+An rc script defines the service.
 
 - **phoenix_service_run()** is called from the other functions.
   It configures and calls the release.

@@ -17,7 +17,7 @@ Model-based reinforcement learning treats the transition and reward structure of
 
 ## The Case for Model-Based Reinforcement Learning
 
-Model-based reinforcement learning offers several potential advantages over the model-free apparatus treated in prior articles. Sample efficiency is the most frequently-cited advantage. A learned model amortizes real-environment experience across many simulated rollouts, permitting substantial policy updates with modest real-experience budgets. Transfer across tasks is another advantage. A world model learned in one task can be reused for planning against different reward functions or goal specifications, provided the transition structure remains stable.
+Model-based reinforcement learning offers several potential advantages over the model-free apparatus treated in prior articles. Sample efficiency is the most frequently-cited advantage. A learned model amortizes real-environment experience across many simulated rollouts, permitting considerable policy updates with modest real-experience budgets. Transfer across tasks is another advantage. A world model learned in one task can be reused for planning against different reward functions or goal specifications, provided the transition structure remains stable.
 
 Uncertainty quantification is a third advantage. Because a learned model can be probed for its uncertainty at arbitrary states, an agent can use this signal to drive exploration (article five) or to constrain policy updates to states where the model is trustworthy. Interpretability is a fourth. An explicit dynamics model provides more human-interpretable structure than the implicit policy or value function that model-free methods produce.
 
@@ -35,9 +35,9 @@ The deep learning wave of the 2010s produced neural network dynamics models and 
 
 The Dreamer series of [Hafner et al 2019][research_hafner_et_al_2019], [Hafner et al 2020][research_hafner_et_al_2020], [Hafner et al 2023][research_hafner_et_al_2023] extended the latent-dynamics-plus-controller architecture with progressively more capable recurrent state-space models and actor-critic learning entirely in imagined trajectories. MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] took a distinct approach in which the learned model produces value and policy targets that support MCTS planning without predicting observations directly.
 
-The 2020s have produced transformer-based world models including IRIS of [Micheli et al 2023][research_micheli_et_al_2023], TWM of [Robine et al 2023][research_robine_et_al_2023], and STORM of [Zhang et al 2023][research_zhang_et_al_2023], each demonstrating that autoregressive sequence modeling of tokenized trajectories provides an effective alternative to the recurrent state-space model. Foundation-model-scale world models including [Bruce et al 2024][research_bruce_et_al_2024] Genie for controllable video generation have extended the framework to generative video modeling.
+The 2020s have produced transformer-based world models including IRIS of [Micheli et al 2023][research_micheli_et_al_2023], TWM of [Robine et al 2023][research_robine_et_al_2023], and STORM of [Zhang et al 2023][research_zhang_et_al_2023], each demonstrating that autoregressive sequence modeling of tokenized trajectories provides an effective alternative to the recurrent state-space model. Foundation-model-scale world models including [Bruce et al 2024][research_bruce_et_al_2024] Genie for controllable video generation have extended the account to generative video modeling.
 
-Predictive coding treated later in this article provides the neuroscience-adjacent parallel line of development, with the [Rao and Ballard 1999][research_rao_ballard_1999] hierarchical predictive coding model providing the canonical treatment. The [Friston 2010][research_friston_2010] free-energy principle and active inference framework extends predictive coding to a broader theory of perception, action, and learning that overlaps substantially with model-based reinforcement learning.
+Predictive coding treated later in this article provides the neuroscience-adjacent parallel line of development, with the [Rao and Ballard 1999][research_rao_ballard_1999] hierarchical predictive coding model providing the canonical treatment. The [Friston 2010][research_friston_2010] free-energy principle and active inference framework extends predictive coding to a broader theory of perception, action, and learning that overlaps considerably with model-based reinforcement learning.
 
 ## Partial Observability and Belief-Based World Models
 
@@ -61,7 +61,7 @@ The recurrent state-space model architectures of the Dreamer family treated belo
 
 ## Model Types and Learning Objectives
 
-Model-based reinforcement learning admits several distinct model formulations and learning objectives. The choice among them substantially affects downstream algorithmic behavior.
+Model-based reinforcement learning admits several distinct model formulations and learning objectives. The choice among them significantly affects downstream algorithmic behavior.
 
 Forward dynamics models predict the next state given the current state and action,
 
@@ -115,7 +115,7 @@ Prioritized sweeping extends Dyna by maintaining a priority queue of state-actio
 
 $$\text{priority}(s, a) = \left| \hat{R}(s, a) + \gamma \max_{a'} Q(\hat{s}', a') - Q(s, a) \right|$$
 
-and the algorithm sweeps the pairs with the highest priorities first. The mechanism focuses computation on the parts of the state space with the largest uncertainty about value, providing substantial acceleration in problems with sparse reward.
+and the algorithm sweeps the pairs with the highest priorities first. The mechanism focuses computation on the parts of the state space with the largest uncertainty about value, providing significant acceleration in problems with sparse reward.
 
 Real-time dynamic programming updates value estimates only along trajectories the agent actually visits, providing asymptotic guarantees while restricting computation to the reachable portion of the state space.
 
@@ -187,7 +187,7 @@ $$w_j = \frac{\exp(\lambda R_j)}{\sum_{j'} \exp(\lambda R_{j'})}, \quad \mu_{i+1
 
 with temperature $\lambda$ controlling the weighting sharpness. The iCEM algorithm of [Pinneri et al 2021][research_pinneri_et_al_2021] provided a widely-used variant with adaptive noise schedules and colored-noise action distributions.
 
-Gradient-based planners exploit differentiability of the model to compute analytical gradients of return with respect to action sequences, permitting efficient trajectory optimization when the model is smooth. Methods including iterative linear quadratic regulator (iLQR) of [Todorov and Li 2005][research_todorov_li_2005] and its variants provide efficient trajectory optimization for smooth dynamics through quadratic approximation of value around a reference trajectory. Deep dynamics MPC of [Nagabandi Kahn Fearing Levine 2018][research_nagabandi_et_al_2018] combined learned neural dynamics models with random-shooting MPC and demonstrated substantial sample-efficiency gains on locomotion tasks.
+Gradient-based planners exploit differentiability of the model to compute analytical gradients of return with respect to action sequences, permitting efficient trajectory optimization when the model is smooth. Methods including iterative linear quadratic regulator (iLQR) of [Todorov and Li 2005][research_todorov_li_2005] and its variants provide efficient trajectory optimization for smooth dynamics through quadratic approximation of value around a reference trajectory. Deep dynamics MPC of [Nagabandi Kahn Fearing Levine 2018][research_nagabandi_et_al_2018] combined learned neural dynamics models with random-shooting MPC and demonstrated marked sample-efficiency gains on locomotion tasks.
 
 Tree-search-based planners including Monte Carlo tree search (MCTS) treat planning as tree exploration over action sequences with the model providing state transitions. MuZero treated below combines learned models with MCTS for board games and Atari.
 
@@ -205,7 +205,7 @@ with the mean-return statistic accumulating across simulations that pass through
 
 Sampled MuZero extended the approach to continuous action spaces by sampling a small set of candidate actions at each node from the learned policy prior. Efficient Zero of [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021] improved sample efficiency through several algorithmic refinements including self-supervised consistency losses on the internal state representation.
 
-Beyond MCTS, tree-search variants including limited-depth expectimax, alpha-beta with learned evaluators, and various pruning heuristics provide alternative search structures. The choice among search algorithms depends on the structure of the environment (deterministic vs stochastic, discrete vs continuous actions) and the compute budget for planning.
+Beyond MCTS, tree-search variants including limited-depth expectimax, alpha-beta with learned evaluators, and several pruning heuristics provide alternative search structures. The choice among search algorithms depends on the structure of the environment (deterministic vs stochastic, discrete vs continuous actions) and the compute budget for planning.
 
 Search combined with sampling-based planners produces hybrid methods that alternate tree expansion with trajectory sampling from the tree leaves. Such hybrids can capture the coverage properties of tree search with the coordinate-descent properties of sampling-based planners.
 
@@ -247,7 +247,7 @@ with the KL regularizer aligning the belief maintained from observations with th
 
 ## The Dreamer Series
 
-The Dreamer series of Hafner et al 2019, 2020, 2023 extends the world-model framework with actor-critic learning entirely in imagination through the learned world model. The framework has proved among the most successful modern model-based reinforcement learning approaches, achieving competitive or state-of-the-art performance across a wide range of continuous control and discrete action tasks with a single set of hyperparameters.
+The Dreamer series of Hafner et al 2019, 2020, 2023 extends the world-model framework with actor-critic learning entirely in imagination through the learned world model. The model has proved among the most successful modern model-based reinforcement learning approaches, achieving competitive or state-of-the-art performance across a wide range of continuous control and discrete action tasks with a single set of hyperparameters.
 
 Dreamer of [Hafner Lillicrap Ba Norouzi 2020][research_hafner_lillicrap_ba_norouzi_2020_dreamer] introduced the imagination-based actor-critic training. The world model produces latent trajectories
 
@@ -263,21 +263,21 @@ $$\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \
 
 which is possible because the model is differentiable and the gradient flows through the model dynamics as well as the reward function. The entropy regularizer with coefficient $\eta$ prevents premature policy collapse.
 
-DreamerV2 of [Hafner Lillicrap Norouzi Ba 2020][research_hafner_lillicrap_norouzi_ba_2020] extended the framework to Atari with a discrete latent representation and improved training stability. The discrete latent representation
+DreamerV2 of [Hafner Lillicrap Norouzi Ba 2020][research_hafner_lillicrap_norouzi_ba_2020] extended this formulation to Atari with a discrete latent representation and improved training stability. The discrete latent representation
 
 $$z_t = \text{OneHot}(\arg\max_i \pi_\theta^{(i)}(h_t))$$
 
-with straight-through estimator gradients enabled substantially larger effective latent space capacity than continuous latents while maintaining differentiability.
+with straight-through estimator gradients enabled markedly larger effective latent space capacity than continuous latents while maintaining differentiability.
 
-DreamerV3 of [Hafner Pasukonis Ba Lillicrap 2023][research_hafner_et_al_2023] provided the mature version of the framework with domain-general hyperparameter settings, achieving competitive performance across continuous control, discrete action, and video game domains without task-tuning. The paper demonstrated that world models had reached practical maturity as a general-purpose reinforcement learning approach.
+DreamerV3 of [Hafner Pasukonis Ba Lillicrap 2023][research_hafner_et_al_2023] provided the mature version of the treatment with domain-general hyperparameter settings, achieving competitive performance across continuous control, discrete action, and video game domains without task-tuning. The paper demonstrated that world models had reached practical maturity as a general-purpose reinforcement learning approach.
 
-Distributed variants including DayDreamer of [Wu Escontrela Hafner Abbeel Goldberg 2022][research_wu_et_al_2022] scaled world-model learning to real-robot learning with substantial sample efficiency advantages.
+Distributed variants including DayDreamer of [Wu Escontrela Hafner Abbeel Goldberg 2022][research_wu_et_al_2022] scaled world-model learning to real-robot learning with extensive sample efficiency advantages.
 
 ## Model-Based Policy Optimization
 
 Model-based policy optimization frameworks combine learned models with policy optimization algorithms rather than direct planning. The approach provides the sample-efficiency advantages of model-based data augmentation while retaining the flexibility of policy-gradient or actor-critic methods.
 
-MBPO of [Janner Fu Zhang Levine 2019][research_janner_fu_zhang_levine_2019] uses ensemble dynamics models to generate short rollouts of length $k \ll H$ starting from real states, then trains a policy (SAC) on the union of real and imagined data. The short-rollout strategy addresses the compounding-error problem while retaining substantial sample-efficiency gains, with rollout length adjusted based on model accuracy.
+MBPO of [Janner Fu Zhang Levine 2019][research_janner_fu_zhang_levine_2019] uses ensemble dynamics models to generate short rollouts of length $k \ll H$ starting from real states, then trains a policy (SAC) on the union of real and imagined data. The short-rollout strategy addresses the compounding-error problem while retaining sizable sample-efficiency gains, with rollout length adjusted based on model accuracy.
 
 Model-Value Expansion (MVE) of [Feinberg Wan Stoica Jordan Gonzalez Levine 2018][research_feinberg_et_al_2018] uses fixed-length model rollouts to extend the TD target with model-based multi-step returns,
 
@@ -299,7 +299,7 @@ providing an alternative to policy gradient that has proved effective on continu
 
 Model-based reinforcement learning provides distinctive advantages for meta-learning and rapid adaptation to new tasks, since a world model learned across a distribution of tasks can be quickly specialized to a new task using few real environment interactions. Article nine treats meta-reinforcement learning as its principal subject, this section previews the model-based line.
 
-Deep online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta] trains a meta-learned dynamics model that supports rapid on-line adaptation through few-shot gradient updates. The framework combines MAML-style meta-learning with model-based planning, achieving substantial adaptation efficiency on legged robots facing novel terrain.
+Deep online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta] trains a meta-learned dynamics model that supports rapid on-line adaptation through few-shot gradient updates. This account combines MAML-style meta-learning with model-based planning, achieving appreciable adaptation efficiency on legged robots facing novel terrain.
 
 Model-based meta-policy optimization of [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018] trains an ensemble of dynamics models jointly with a meta-policy that can be quickly specialized to individual ensemble members. The mechanism combines uncertainty-aware planning with policy meta-learning.
 
@@ -323,7 +323,7 @@ $$\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)$$
 
 where $u(s, a)$ is an uncertainty estimate from the model ensemble and $\lambda$ controls the trade-off between exploiting the model and staying within its trustworthy region.
 
-COMBO of [Yu Kumar Rafailov Rajeswaran Levine Finn 2021][research_yu_et_al_2021_combo] and RAMBO of [Rigter Lacerda Hawes 2022][research_rigter_lacerda_hawes_2022] extended the framework with conservative Q-learning integration and robust adversarial model training respectively. Each method provides different trade-offs between model exploitation and conservatism.
+COMBO of [Yu Kumar Rafailov Rajeswaran Levine Finn 2021][research_yu_et_al_2021_combo] and RAMBO of [Rigter Lacerda Hawes 2022][research_rigter_lacerda_hawes_2022] extended the model with conservative Q-learning integration and robust adversarial model training respectively. Each method provides different trade-offs between model exploitation and conservatism.
 
 Empirical results on the D4RL benchmark treated in article eight show that model-based offline methods often outperform model-free offline methods when the offline dataset is small or narrowly-distributed, providing evidence for the sample-efficiency and out-of-distribution generalization advantages of model-based approaches in the offline setting.
 
@@ -337,13 +337,13 @@ focusing model capacity on aspects of state relevant for value prediction rather
 
 MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] pursues this approach. Three neural networks parameterize the learned model. A representation function encodes past observations into an internal state, a dynamics function predicts reward and next internal state given an action, and a prediction function predicts policy and value from the internal state. The internal state is never grounded through observation reconstruction, instead the model is trained to produce accurate reward, value, and policy predictions along MCTS-search trajectories. MuZero achieved state-of-the-art performance across board games and Atari.
 
-Sampled MuZero and Efficient MuZero of [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021] extended the framework to continuous action spaces and improved sample efficiency respectively.
+Sampled MuZero and Efficient MuZero of [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021] extended this formulation to continuous action spaces and improved sample efficiency respectively.
 
 Transformer-based world models including IRIS of [Micheli Alonso Fleuret 2023][research_micheli_et_al_2023], TWM of [Robine Hoftmann Uelwer Harmeling 2023][research_robine_et_al_2023], and STORM of [Zhang et al 2023][research_zhang_et_al_2023] tokenize trajectories and use transformer sequence models as world models. The architectural change from recurrent state-space models to transformer models has proved effective on Atari 100k where sample efficiency is the primary metric.
 
 ## Sample Complexity of Model-Based Methods
 
-Theoretical sample complexity of model-based reinforcement learning has received substantial attention. For tabular MDPs, model-based methods achieve minimax-optimal sample complexity bounds of order
+Theoretical sample complexity of model-based reinforcement learning has received considerable attention. For tabular MDPs, model-based methods achieve minimax-optimal sample complexity bounds of order
 
 $$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}| |\mathcal{A}| H^3}{\epsilon^2}\right)$$
 
@@ -381,7 +381,7 @@ The correspondence to model-based reinforcement learning is direct. The generati
 
 ## Active Inference and the Free Energy Principle
 
-The [Friston 2010][research_friston_2010] free energy principle extends predictive coding to a broader theory of perception, action, and learning that provides an alternative formulation of model-based reinforcement learning. The framework treats agents as minimizing a variational free energy
+The [Friston 2010][research_friston_2010] free energy principle extends predictive coding to a broader theory of perception, action, and learning that provides an alternative formulation of model-based reinforcement learning. This formulation treats agents as minimizing a variational free energy
 
 $$F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(s, o \mid m)\right] = D_{\text{KL}}(q(s) \, \| \, p(s \mid o, m)) - \log p(o \mid m)$$
 
@@ -401,7 +401,7 @@ $$q(\pi) \propto \exp(-G(\pi))$$
 
 providing a probabilistic action selection that trades off exploration and exploitation through a single unified criterion.
 
-The framework provides a unified account of perception, action, and learning that has proved influential in computational neuroscience. Correspondence to model-based reinforcement learning is not exact but close. Model-based reinforcement learning minimizes expected negative return under the model, while active inference minimizes expected free energy including an information-gain term. Under choices of the generative model and preference structure, the two frameworks coincide.
+This account provides a unified account of perception, action, and learning that has proved influential in computational neuroscience. Correspondence to model-based reinforcement learning is not exact but close. Model-based reinforcement learning minimizes expected negative return under the model, while active inference minimizes expected free energy including an information-gain term. Under choices of the generative model and preference structure, the two frameworks coincide.
 
 The [Tschantz Millidge Seth Buckley 2020][research_tschantz_millidge_seth_buckley_2020] and [Millidge Tschantz Buckley 2021][research_millidge_tschantz_buckley_2021] work on active inference for reinforcement learning provides a systematic translation between the frameworks. The [Buckley Kim Ma McGregor 2017][research_buckley_kim_ma_mcgregor_2017] and [Sajid Ball Friston 2021][research_sajid_ball_friston_2021] tutorials provide accessible mathematical introductions to active inference for machine learning audiences.
 
@@ -435,37 +435,37 @@ The prefrontal cortex is implicated in maintaining task-relevant internal models
 
 The dorsolateral prefrontal cortex versus dorsomedial striatum distinction between goal-directed and habitual behavior treated in article fifteen corresponds directly to the model-based versus model-free reinforcement learning distinction. [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] proposed a computational-level account of the two systems as parallel model-based and model-free learners with an arbitration mechanism that selects between them based on uncertainty.
 
-Successor representations of [Dayan 1993][research_dayan_1993] provide an intermediate between fully model-free and fully model-based approaches, encoding expected discounted future state occupancy in a way that supports flexible re-planning when reward changes without requiring full explicit model-based simulation. Article three treated the successor representation and its neural correspondence in the hippocampus, the framework extends to hierarchical successor representations that connect to hierarchical reinforcement learning treated in article six.
+Successor representations of [Dayan 1993][research_dayan_1993] provide an intermediate between fully model-free and fully model-based approaches, encoding expected discounted future state occupancy in a way that supports flexible re-planning when reward changes without requiring full explicit model-based simulation. Article three treated the successor representation and its neural correspondence in the hippocampus, this formulation extends to hierarchical successor representations that connect to hierarchical reinforcement learning treated in article six.
 
 ## Empirical Landscape
 
-Model-based reinforcement learning benchmarks emphasize sample efficiency, with the Atari 100k regime restricting training to 100000 environment steps as the canonical measure. On this benchmark, model-based methods including DreamerV3, EfficientZero, IRIS, TWM, and STORM substantially outperform model-free baselines, providing empirical evidence for the sample-efficiency advantages of the model-based approach.
+Model-based reinforcement learning benchmarks emphasize sample efficiency, with the Atari 100k regime restricting training to 100000 environment steps as the canonical measure. On this benchmark, model-based methods including DreamerV3, EfficientZero, IRIS, TWM, and STORM appreciably outperform model-free baselines, providing empirical evidence for the sample-efficiency advantages of the model-based approach.
 
 Continuous control benchmarks including MuJoCo, DeepMind Control Suite, and MetaWorld provide the standard evaluation for model-based methods in continuous action settings. DreamerV3, MBPO, and PETS-family methods achieve competitive performance, though the relative ranking depends on task properties.
 
-Real-world robotics benchmarks including DayDreamer's real-robot learning demonstrations provide the ultimate test of sample efficiency. Model-based methods have achieved substantial sample-efficiency improvements over model-free baselines in real robot learning, though the sim-to-real gap treated in article four remains a concern.
+Real-world robotics benchmarks including DayDreamer's real-robot learning demonstrations provide the ultimate test of sample efficiency. Model-based methods have achieved significant sample-efficiency improvements over model-free baselines in real robot learning, though the sim-to-real gap treated in article four remains a concern.
 
-The [Wang and Ba 2020][research_wang_ba_2020] benchmarking study documented the practical performance of various model-based reinforcement learning methods across standard continuous control tasks, providing a systematic empirical comparison. The general finding is that no single model-based method dominates across all tasks, and method selection depends on task-properties.
+The [Wang and Ba 2020][research_wang_ba_2020] benchmarking study documented the practical performance of a range of model-based reinforcement learning methods across standard continuous control tasks, providing a systematic empirical comparison. The general finding is that no single model-based method dominates across all tasks, and method selection depends on task-properties.
 
 ## Sim-to-Real Transfer with Learned Models
 
 Real-robot learning presents distinctive challenges for model-based reinforcement learning. Real-world data is expensive to collect, physical damage risks constrain exploration, and reset mechanisms (returning the environment to a known state) may be unavailable or costly. Model-based methods with their sample-efficiency advantages have shown promise in this regime, and techniques have been developed to bridge simulation and reality.
 
-Domain randomization treated in article four extends naturally to the model-based setting. A world model trained across a distribution of simulated environments with randomized dynamics parameters can generalize to real-world dynamics that fall within the training distribution. [Rusu Vecerik Rothorl Heess Pascanu Hadsell 2017][research_rusu_et_al_2017] Sim-to-Real Robotic Reinforcement Learning provided an early demonstration of the framework applied to model-based methods.
+Domain randomization treated in article four extends naturally to the model-based setting. A world model trained across a distribution of simulated environments with randomized dynamics parameters can generalize to real-world dynamics that fall within the training distribution. [Rusu Vecerik Rothorl Heess Pascanu Hadsell 2017][research_rusu_et_al_2017] Sim-to-Real Robotic Reinforcement Learning provided an early demonstration of the treatment applied to model-based methods.
 
-Learning agile quadrupedal control of [Hwangbo Lee Dosovitskiy Bellicoso Tsounis Koltun Hutter 2019][research_hwangbo_et_al_2019] combined actuator identification, simulator calibration, and model-based control to achieve robust quadruped locomotion transferred from simulation to physical hardware. The approach demonstrated that careful model calibration substantially reduces the sim-to-real gap.
+Learning agile quadrupedal control of [Hwangbo Lee Dosovitskiy Bellicoso Tsounis Koltun Hutter 2019][research_hwangbo_et_al_2019] combined actuator identification, simulator calibration, and model-based control to achieve robust quadruped locomotion transferred from simulation to physical hardware. The approach demonstrated that careful model calibration greatly reduces the sim-to-real gap.
 
-Domain adaptation via learned dynamics of [Chebotar Handa Makoviichuk Lu Fox Yashchuk Tremblay Birchfield Coste 2019][research_chebotar_et_al_2019] adapted a simulator's parameters to match real-world observations, closing the sim-to-real gap through explicit calibration. The framework combined simulation-based training with real-world adaptation in an iterative closed loop.
+Domain adaptation via learned dynamics of [Chebotar Handa Makoviichuk Lu Fox Yashchuk Tremblay Birchfield Coste 2019][research_chebotar_et_al_2019] adapted a simulator's parameters to match real-world observations, closing the sim-to-real gap through explicit calibration. This formulation combined simulation-based training with real-world adaptation in an iterative closed loop.
 
 DayDreamer of Wu et al 2022 treated earlier demonstrated real-robot learning entirely from real-world experience through a learned world model, achieving substantial sample-efficiency gains without any simulation. The result provided evidence that model-based reinforcement learning has reached the sample efficiency required for practical real-robot deployment on select tasks.
 
-Real-world robotic manipulation benchmarks including RRC of [Byravan et al 2022][research_byravan_et_al_2022] and various real-robot demonstrations have shown that model-based methods can achieve competitive performance with substantially less real-robot interaction than model-free baselines require. The gap between simulation-based demonstration and real-world deployment remains a research frontier.
+Real-world robotic manipulation benchmarks including RRC of [Byravan et al 2022][research_byravan_et_al_2022] and various real-robot demonstrations have shown that model-based methods can achieve competitive performance with considerably less real-robot interaction than model-free baselines require. The gap between simulation-based demonstration and real-world deployment remains a research frontier.
 
 ## Load-Bearing Open Questions
 
 - What is the correct trade-off between model expressiveness and computational cost in world model design? Larger models capture more environment structure but at proportionally larger compute cost.
 - How can compounding model errors over long rollouts be reliably controlled? Short rollouts partially address the problem but limit the horizon over which model-based planning provides value.
-- What is the correct theoretical framework for characterizing when model-based reinforcement learning provides sample-efficiency advantages? Empirical gains are substantial but theoretical characterization remains incomplete.
+- What is the correct theoretical framework for characterizing when model-based reinforcement learning provides sample-efficiency advantages? Empirical gains are marked but theoretical characterization remains incomplete.
 - How should the tension between model likelihood and value equivalence be resolved? Value-equivalent models produce compact task-relevant representations but sacrifice the flexibility that observation-predicting models provide.
 - What is the correct treatment of aleatoric versus epistemic uncertainty in learned models? Practical methods conflate the two, but theoretical treatment suggests they should be handled distinctly.
 - How closely do the internal models of biological brains correspond to the world models of contemporary machine learning? Correspondence at a functional level is well documented, but detailed algorithmic correspondence remains open.

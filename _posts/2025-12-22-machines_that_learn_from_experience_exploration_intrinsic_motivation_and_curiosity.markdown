@@ -17,7 +17,7 @@ Exploration is the process by which a reinforcement learning agent gathers infor
 
 ## The Exploration-Exploitation Trade-off in Markov Decision Processes
 
-The classical Markov decision process setting inherits the exploration-exploitation trade-off from the bandit setting of article two, but extends its structure in ways that make analysis substantially harder. The value function estimate that a bandit-like algorithm bases exploration decisions on now depends on the transition and reward structure at other states, and the exploration bonus that would guarantee optimality in the bandit setting does not straightforwardly extend to the MDP setting.
+The classical Markov decision process setting inherits the exploration-exploitation trade-off from the bandit setting of article two, but extends its structure in ways that make analysis considerably harder. The value function estimate that a bandit-like algorithm bases exploration decisions on now depends on the transition and reward structure at other states, and the exploration bonus that would guarantee optimality in the bandit setting does not straightforwardly extend to the MDP setting.
 
 Formally, define the sub-optimality gap of a policy $\pi$ at state $s$ as
 
@@ -129,7 +129,7 @@ The reward-free framework was formalized by [Jin Krishnamurthy Simchowitz Yu 202
 
 The main result establishes that reward-free exploration requires $\tilde{\mathcal{O}}(H^5 |\mathcal{S}|^2 |\mathcal{A}| / \epsilon^2)$ episodes to achieve $\epsilon$-near-optimality for any reward function with probability at least $1 - \delta$, comparable to reward-informed exploration up to logarithmic factors. The bound demonstrates that the reward signal provides little advantage in the tabular setting.
 
-Extensions to linear MDPs of [Wang Salakhutdinov and Yang 2020][research_wang_salakhutdinov_yang_2020] and to low-rank MDPs of [Modi Chen Krishnamurthy Jiang Agarwal 2021][research_modi_chen_krishnamurthy_2021] extend the framework to function-approximation settings. The reward-free framework has proved productive as a theoretical setting for exploration analysis and connects to the intrinsic-motivation methods surveyed above through the shared emphasis on task-agnostic state coverage.
+Extensions to linear MDPs of [Wang Salakhutdinov and Yang 2020][research_wang_salakhutdinov_yang_2020] and to low-rank MDPs of [Modi Chen Krishnamurthy Jiang Agarwal 2021][research_modi_chen_krishnamurthy_2021] extend the account to function-approximation settings. The reward-free framework has proved productive as a theoretical setting for exploration analysis and connects to the intrinsic-motivation methods surveyed above through the shared emphasis on task-agnostic state coverage.
 
 Practical instantiations of reward-free exploration include the RF-Express and RF-UCRL algorithms, which combine optimistic model estimation with policy computation against imagined "worst-case" reward functions. The empirical performance of reward-free exploration matches or exceeds reward-informed exploration on hard-exploration benchmarks including Montezuma's Revenge in some experiments.
 
@@ -147,7 +147,7 @@ $$b(s, a) = \beta / \sqrt{\hat{N}(s) + 1}$$
 
 or a variant, and reduces the exploration problem to the density-estimation problem. The choice of density model determines the effective inductive bias for what counts as a novel state.
 
-CTS density models based on context-tree switching provided the original density model in the Bellemare et al pseudocount paper. Subsequent work explored PixelCNN, pixel-based autoregressive models, and other density estimators for the pseudocount role. The pseudocount approach achieved substantial improvements on hard-exploration Atari games including Montezuma's Revenge, where naive $\epsilon$-greedy DQN reaches essentially zero score.
+CTS density models based on context-tree switching provided the original density model in the Bellemare et al pseudocount paper. Subsequent work explored PixelCNN, pixel-based autoregressive models, and other density estimators for the pseudocount role. The pseudocount approach achieved considerable improvements on hard-exploration Atari games including Montezuma's Revenge, where naive $\epsilon$-greedy DQN reaches essentially zero score.
 
 The connection between pseudocounts and information gain provides an alternative theoretical framing. If the density model $\rho$ can be interpreted as a Bayesian predictive distribution, the log-likelihood improvement from observing $s$ provides an information-gain quantity that can serve as an intrinsic reward,
 
@@ -157,7 +157,7 @@ The pseudocount can be derived from the information-gain formulation under assum
 
 ## Density-Based Pseudocounts
 
-The pseudocount framework generalized to hash-based counts, latent-space counts, and various other density-estimation strategies. [Tang et al 2017][research_tang_et_al_2017] hash-based counts use SimHash or learned hash functions to project high-dimensional states to a small discrete bucket space, then count buckets. The approach provides substantial computational simplification while retaining much of the exploration benefit.
+The pseudocount framework generalized to hash-based counts, latent-space counts, and several other density-estimation strategies. [Tang et al 2017][research_tang_et_al_2017] hash-based counts use SimHash or learned hash functions to project high-dimensional states to a small discrete bucket space, then count buckets. The approach provides significant computational simplification while retaining much of the exploration benefit.
 
 Latent-space pseudocounts of [Machado Bellemare and Bowling 2020][research_machado_bellemare_bowling_2020] count in a learned latent space $\phi(s)$ that captures task-relevant features while discarding task-irrelevant variation. The pseudocount
 
@@ -171,7 +171,7 @@ at a computational cost far below the density-model approach.
 
 Deep density models including PixelCNN of [van den Oord Kalchbrenner Kavukcuoglu 2016][research_van_den_oord_et_al_2016] and flow-based models such as RealNVP and Glow provide expressive density estimators that scale to high-dimensional pixel observations. Their use as pseudocount density models produces stronger exploration bonuses at higher computational cost.
 
-The choice of density model shapes the exploration inductive bias substantially. Sensitive density models produce exploration bonuses that reward every novel pixel arrangement, potentially including irrelevant background noise. Insensitive density models miss genuinely novel states embedded in familiar visual contexts. The trade-off is analogous to the one between overfitting and underfitting in supervised learning, and no single choice dominates across problems.
+The choice of density model shapes the exploration inductive bias significantly. Sensitive density models produce exploration bonuses that reward every novel pixel arrangement, potentially including irrelevant background noise. Insensitive density models miss genuinely novel states embedded in familiar visual contexts. The trade-off is analogous to the one between overfitting and underfitting in supervised learning, and no single choice dominates across problems.
 
 ## Prediction-Error Curiosity
 
@@ -233,7 +233,7 @@ Empowerment of [Klyubin Polani and Nehaniv 2005][research_klyubin_polani_nehaniv
 
 $$\mathfrak{E}(s) = \max_{p(a_{t:t+k-1})} I(A_{t:t+k-1} ; S_{t+k} \mid S_t = s)$$
 
-where the maximization is over action-sequence distributions. States with high empowerment provide the agent with substantial control over its future outcomes, and empowerment-driven exploration seeks such states.
+where the maximization is over action-sequence distributions. States with high empowerment provide the agent with marked control over its future outcomes, and empowerment-driven exploration seeks such states.
 
 The computational challenge of empowerment is the mutual-information maximization over action sequences. The definition expands as
 
@@ -247,7 +247,7 @@ where $q(a \mid s')$ is a learned decoder that predicts the action from the resu
 
 Other information-theoretic exploration objectives include mutual information between latent skills and observations for skill discovery, treated in the multi-goal section below, and information gain about model parameters for model-based exploration. The common thread is the use of information theory to formalize "interesting" states or trajectories in a way that captures the exploration desiderata without appealing to extrinsic reward.
 
-Free-energy based exploration from active inference of [Friston 2010][research_friston_2010_active_inference] provides an alternative information-theoretic framework in which exploration and exploitation both minimize a variational free energy. The framework treats action selection as expected-free-energy minimization,
+Free-energy based exploration from active inference of [Friston 2010][research_friston_2010_active_inference] provides an alternative information-theoretic framework in which exploration and exploitation both minimize a variational free energy. The model treats action selection as expected-free-energy minimization,
 
 $$G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]$$
 
@@ -255,13 +255,13 @@ with the expected free energy decomposing into an epistemic (information-gain) t
 
 ## Compression Progress and Schmidhuber's Framework
 
-Schmidhuber's formal theory of creativity, fun, and intrinsic motivation of [Schmidhuber 2010][research_schmidhuber_2010] provides a unified information-theoretic framework in which curiosity, creativity, and aesthetic pleasure all arise from compression progress on the agent's world model. The framework interprets the intrinsic reward as the improvement in world-model compression rate on the observations,
+Schmidhuber's formal theory of creativity, fun, and intrinsic motivation of [Schmidhuber 2010][research_schmidhuber_2010] provides a unified information-theoretic framework in which curiosity, creativity, and aesthetic pleasure all arise from compression progress on the agent's world model. This formulation interprets the intrinsic reward as the improvement in world-model compression rate on the observations,
 
 $$r^{\text{CP}}_t = L(o_t \mid M_{t-1}) - L(o_t \mid M_t)$$
 
 where $L(o \mid M)$ is the compression length of observation $o$ under world model $M$, $M_{t-1}$ is the model before observing $o_t$, and $M_t$ is the model after. The compression-progress reward captures the intuition that learning progress itself is intrinsically rewarding.
 
-The framework provides a common analytical vocabulary for intrinsic-motivation methods. Prediction-error curiosity approximates compression progress when the world model is trained to minimize prediction loss. Density-based pseudocounts approximate compression progress when the density model can be interpreted as an implicit compressor. Empowerment relates to compression progress through the mutual-information formulation.
+The treatment provides a common analytical vocabulary for intrinsic-motivation methods. Prediction-error curiosity approximates compression progress when the world model is trained to minimize prediction loss. Density-based pseudocounts approximate compression progress when the density model can be interpreted as an implicit compressor. Empowerment relates to compression progress through the mutual-information formulation.
 
 The compression-progress framework connects to broader theories of algorithmic information theory, minimum description length, and probabilistic prediction. It provides a theoretical anchor for intrinsic motivation that predates the deep reinforcement learning era and has continued to inform algorithmic development throughout the deep learning wave.
 
@@ -337,7 +337,7 @@ with the recurrent state $h_t$ implicitly tracking task uncertainty.
 
 MAESN of [Gupta Mendonca Liu Abbeel Levine 2018][research_gupta_mendonca_liu_2018] introduces a per-task latent variable trained through variational inference alongside the meta-learned policy, providing an explicit uncertainty representation that supports structured exploration in the multi-task setting.
 
-VariBAD of [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020][research_zintgraf_et_al_2020] combines variational Bayesian task inference with policy optimization, producing exploration policies with theoretical connections to Bayes-optimal exploration under uncertainty about the task identity. The framework recovers PSRL-like behavior when the task distribution is broad and behaves closer to a fixed exploration policy when the task distribution is narrow.
+VariBAD of [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020][research_zintgraf_et_al_2020] combines variational Bayesian task inference with policy optimization, producing exploration policies with theoretical connections to Bayes-optimal exploration under uncertainty about the task identity. This account recovers PSRL-like behavior when the task distribution is broad and behaves closer to a fixed exploration policy when the task distribution is narrow.
 
 Meta-exploration algorithms scale poorly when the task distribution is narrow (little benefit from meta-learning) and when task identification requires extensive exploration (the meta-learned policy struggles to identify tasks quickly). Successful applications typically involve moderately-diverse task distributions where task inference is feasible from a few dozen environment steps.
 
@@ -351,7 +351,7 @@ Teacher-Student Curriculum Learning of [Matiisen Oliver Cohen Schulman 2019][res
 
 POET of [Wang Lehman Clune Stanley 2019][research_wang_lehman_clune_stanley_2019] and its successor Enhanced POET of [Wang Lehman Rawal Zhi Zhang Clune Stanley 2020][research_wang_lehman_rawal_2020] coevolve environments and agents in an open-ended framework where environments proliferate and diversify alongside agent capabilities. The approach treats the environment distribution as itself an object of optimization, producing an emergent curriculum without hand-specified difficulty gradations.
 
-ALP-GMM of [Portelas Colas Hofmann Oudeyer 2020][research_portelas_colas_hofmann_oudeyer_2020] uses a Gaussian mixture model over the task parameter space and biases sampling toward tasks with high Absolute Learning Progress (ALP), tracking both improvement and regression in performance. The framework connects to the developmental IAC family treated earlier while scaling to continuous task parameterizations.
+ALP-GMM of [Portelas Colas Hofmann Oudeyer 2020][research_portelas_colas_hofmann_oudeyer_2020] uses a Gaussian mixture model over the task parameter space and biases sampling toward tasks with high Absolute Learning Progress (ALP), tracking both improvement and regression in performance. The account connects to the developmental IAC family treated earlier while scaling to continuous task parameterizations.
 
 Curriculum learning provides both a practical mechanism for tackling hard problems and an analytical lens through which to understand the relationship between exploration difficulty and task structure. Article twelve treats open-ended learning at greater length.
 
@@ -363,7 +363,7 @@ Independent exploration by each agent treats the multi-agent setting as a collec
 
 Centralized-training decentralized-execution frameworks treated in article four for multi-agent policy learning admit centralized exploration bonuses that condition on the full joint state. Coordinated exploration of [Iqbal and Sha 2019][research_iqbal_sha_2019] introduces per-agent exploration bonuses that reward diverse behavior across the agent team, encouraging behavioral heterogeneity that expands the effective exploration coverage.
 
-Influence-based exploration of [Wang Xu Sanketi Bousmalis 2020][research_wang_xu_sanketi_bousmalis_2020] rewards actions that meaningfully change other agents' behavior, capturing an information-theoretic notion of causal influence in the multi-agent setting. The framework connects to empowerment applied at the level of inter-agent interactions.
+Influence-based exploration of [Wang Xu Sanketi Bousmalis 2020][research_wang_xu_sanketi_bousmalis_2020] rewards actions that meaningfully change other agents' behavior, capturing an information-theoretic notion of causal influence in the multi-agent setting. The model connects to empowerment applied at the level of inter-agent interactions.
 
 Emergent communication provides another form of coordinated exploration, in which agents develop signaling protocols that support joint exploratory behavior. Article eleven treats learning from other agents systematically and returns to these questions.
 
@@ -421,11 +421,11 @@ The empirical landscape of exploration research has consolidated around a few st
 
 Procgen and MiniHack provide procedurally-generated environments that stress generalization alongside exploration. The MiniGrid family of grid-world environments provides simpler exploration problems useful for algorithmic development and diagnostic experiments.
 
-Continuous-control exploration benchmarks include the DeepMind Control Suite tasks with sparse-reward variants, the Meta-World robotic manipulation suite, and various procedural navigation environments. The MineRL competition of [Guss et al 2019][research_guss_et_al_2019] provided a Minecraft-based benchmark that emphasized exploration in open-world settings with human-provided demonstrations.
+Continuous-control exploration benchmarks include the DeepMind Control Suite tasks with sparse-reward variants, the Meta-World robotic manipulation suite, and a range of procedural navigation environments. The MineRL competition of [Guss et al 2019][research_guss_et_al_2019] provided a Minecraft-based benchmark that emphasized exploration in open-world settings with human-provided demonstrations.
 
 The [Bsuite behavior suite][research_osband_et_al_2020_bsuite] of Osband et al 2020 includes several exploration-diagnostic environments including Deep Sea and Cartpole Swingup that isolate exploration performance from other reinforcement learning capabilities.
 
-Empirical practice for exploration research includes reporting results on multiple hard-exploration games rather than average scores across a benchmark, reporting sample efficiency at fixed compute budgets, and reporting the sensitivity of results to intrinsic-reward scaling coefficients. The hyperparameters that control the intrinsic-reward magnitude often affect final performance substantially, and reporting standards have been slower to standardize than for other subareas of deep reinforcement learning.
+Empirical practice for exploration research includes reporting results on multiple hard-exploration games rather than average scores across a benchmark, reporting sample efficiency at fixed compute budgets, and reporting the sensitivity of results to intrinsic-reward scaling coefficients. The hyperparameters that control the intrinsic-reward magnitude often affect final performance markedly, and reporting standards have been slower to standardize than for other subareas of deep reinforcement learning.
 
 ## Load-Bearing Open Questions
 
