@@ -272,6 +272,5 @@ This script could be customized to work with other APIs.
 [phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
 [phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
 [elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
-[postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
 [rest-patch-put]: http://stackoverflow.com/questions/24241893/rest-api-patch-or-put
 

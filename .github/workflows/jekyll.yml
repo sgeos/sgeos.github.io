@@ -46,12 +46,19 @@ jobs:
       - name: Install pandoc and LaTeX toolchain for downloads
         run: |
           sudo apt-get update
+          # lmodern is required. Pandoc's default LaTeX template loads
+          # lmodern.sty, and without it xelatex aborts with "File `lmodern.sty'
+          # not found" for every post. That made PDF generation fail 100% while
+          # the step still reported success, because _downloads.rb only warned.
+          # _downloads.rb now exits nonzero on systemic failure, so a regression
+          # here fails the build instead of shipping ~293 dead download links.
           sudo apt-get install -y --no-install-recommends \
             pandoc \
             texlive-xetex \
             texlive-fonts-recommended \
             texlive-latex-recommended \
             texlive-latex-extra \
+            lmodern \
             fonts-dejavu \
             fonts-noto-cjk
       - name: Build with Jekyll

@@ -85,3 +85,14 @@ excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll
 # posts are safe because both sides are excluded together.
 future: false
 
+# Pin permalink date arithmetic to UTC. Without this Jekyll falls back to the
+# build machine's timezone, so a post stamped near midnight resolves to a
+# different day locally than in CI. The 2026-03-06 01:14 +0000 post builds as
+# /2026/03/06/ on the UTC runner, which is the live URL, but as /2026/03/05/ on
+# a machine in Pacific time. Local verification of a URL was therefore not
+# evidence about production.
+#
+# UTC is what the GitHub Actions runner already uses, so this changes no
+# existing URL. It makes local builds agree with the deployed site.
+timezone: UTC
+

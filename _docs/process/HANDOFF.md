@@ -12,10 +12,10 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `ba70a52`
+- **Parent commit** (the repository state this handoff describes): `e803d20`
 - **Written**: 2026-08-05
-- **Tree at write**: clean; the word-usage commits are pushed, the documentation-review commit is UNPUSHED
-- **Context**: BOTH queued tasks are COMPLETE and verified. No task is in flight.
+- **Tree at write**: clean; the word-usage commits are pushed, the documentation-review and infrastructure commits are UNPUSHED
+- **Context**: both queued tasks and a follow-on infrastructure audit are COMPLETE. No task is in flight. Four items await pilot judgment, listed in `REVERSE_PROMPT.md`.
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
@@ -42,7 +42,18 @@ have failed the entire site build, a publication script broken on macOS, and the
 pathology survived context resets. Details in `REVERSE_PROMPT.md` and the second 2026-08-05 TASKLOG
 entry.
 
-**Nothing is in flight.** One documentation commit is unpushed. Wait for pilot instruction.
+**Nothing is in flight.** Two commits are unpushed, the documentation review and an infrastructure
+audit. Wait for pilot instruction.
+
+**The infrastructure audit found PDF downloads 100% broken while CI reported success**, caused by a
+missing `lmodern` package plus a script that only warned. `_downloads.rb` now exits nonzero on
+systemic failure. It also reconstructed download paths from the source FILENAME date while Jekyll
+uses the front matter date, so nineteen posts had their EPUB written where no HTML exists; it now
+globs the built site instead. `_config.yml` gained `timezone: UTC`, without which permalinks
+depended on the build machine and a local URL check was not evidence about production.
+
+**The PDF fix is UNVERIFIED locally** because pandoc and xelatex are not installed here. Confirm on
+the next deploy that PDFs return 200 before considering it closed.
 
 **The durable finding, worth not relearning:** the `specific` pathology was neither a bad instruction
 nor a contaminated exemplar. Both were tested and falsified, the exemplars measuring 0.0 to 1.6 uses

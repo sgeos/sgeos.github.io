@@ -769,6 +769,7 @@ Rust is very well documented, and it has books dedicated to a variety of topics.
 - [Solana, Explorer][solana_explorer]
 - [Solana, CLI Installation Guide][solana_cli_install]
 
+[rust_book]: https://doc.rust-lang.org/book/
 [rust_install]: https://www.rust-lang.org/learn/get-started
 [solana_anchor]: https://www.anchor-lang.com/docs
 [solana_explorer]: https://explorer.solana.com

@@ -438,7 +438,6 @@ Elixir and Erlang applications and perform hot-code upgrades."
 [elixir-exrm-config]:    https://exrm.readme.io/docs/release-configuration
 [elixir-exrm-deploy]:    https://hexdocs.pm/exrm/extra-deployment.html
 [elixir-edeliver]:       https://github.com/boldpoker/edeliver
-[elixir-syslog]:         https://hex.pm/packages?search=syslog&sort=downloads
 [elixir-book]:           https://pragprog.com/book/elixir12/programming-elixir-1-2
 [freebsd-opt]:           https://forums.freebsd.org/threads/opt-directory-replacement.12614/
 [freebsd-rc]:            https://www.freebsd.org/doc/en/articles/rc-scripting/index.html
