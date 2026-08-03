@@ -484,7 +484,7 @@ and improves taste and odour,
 or through
 ion exchange
 that removes hardness ions
-or specific contaminants of concern.
+or contaminants of concern.
 
 The
 [National Sanitation Foundation Standard 61][ref_nsf_61]
@@ -1195,7 +1195,7 @@ to several billion tonnes
 in concentrations
 that range from
 trace to several weight percent
-depending on the specific deposit.
+depending on the deposit.
 A lunar polar colony
 extracting water ice from regolith
 faces a heating energy cost

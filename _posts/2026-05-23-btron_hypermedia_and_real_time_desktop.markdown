@@ -90,7 +90,7 @@ The objective is to leave the reader
 with enough structural understanding
 to recognize the design space
 when it appears in a working environment,
-not to argue for a specific product.
+not to argue for a product.
 
 ## The BTRON Proposition
 
@@ -1287,8 +1287,8 @@ Every part has a stable identifier
 that survives renames and moves.
 The user-facing implication is
 that one can refer
-to a specific paragraph
-of a specific document
+to a paragraph
+of a document
 without quoting it,
 without copying it,
 and without depending
@@ -2090,7 +2090,7 @@ is moving from optional best practice
 to regulatory requirement.
 
 The convergence of these four developments
-points at a specific opportunity.
+points at an opportunity.
 A hypermedia substrate
 that exposes its parts via
 the Model Context Protocol,
@@ -3141,7 +3141,7 @@ in the user interface.
 
 **Afternoon, defect investigation.**
 A failed test result
-references a specific commit
+references a commit
 in the source repository.
 The analyst opens the commit
 through a typed link
@@ -3221,7 +3221,7 @@ The day described above
 is presently impossible
 on any shipping platform.
 Each step requires
-a specific feature
+a feature
 that the file-and-application model
 or any of the named incumbent products
 withholds at the operating system level.
@@ -3491,7 +3491,7 @@ of typed handler composition,
 and discuss cross-domain solutions
 for multi-classification material.
 
-The specific data-model engineering
+The data-model engineering
 of the link store
 is out of scope.
 The article calls for
@@ -3699,8 +3699,8 @@ to have in one place.
 A model of access control
 in which a subject possesses
 an unforgeable token, called a capability,
-that confers a specific authority
-on a specific object.
+that confers an authority
+on an object.
 The model is contrasted with
 access-control-list discipline,
 in which the object holds a list

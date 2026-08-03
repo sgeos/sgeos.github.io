@@ -89,7 +89,7 @@ onto each item,
 and reports the verdict
 with illustrative code samples
 for the load-bearing claims.
-The specific vertical
+The vertical
 in which a Keleusma-based hypermedia system
 would be deployed first,
 namely the choice
@@ -173,7 +173,7 @@ that converts pipelined cycles
 to wall-clock time.
 A host applies the factor
 to bound the actual execution time
-on its specific hardware.
+on its hardware.
 
 **Information-flow control at the type level.**
 A type may carry
@@ -369,7 +369,7 @@ as distinct from
 the file-and-application model.
 Each commitment maps
 onto Keleusma
-with a specific verdict.
+with a verdict.
 
 **The document is a tree of typed parts.**
 A typed part in Keleusma
@@ -1233,7 +1233,7 @@ that A113 said
 no plausible entrant should attempt.
 
 This article does not commit
-to a specific vertical.
+to a vertical.
 The vertical-specific treatment
 is the subject
 of a separate follow-up article.
@@ -1493,7 +1493,7 @@ are deliberately deferred
 to follow-up articles.
 
 The first deferred topic
-is the specific vertical
+is the vertical
 in which a Keleusma-based hypermedia system
 should be deployed first.
 The choice between
@@ -1531,7 +1531,7 @@ under
 [DO-178C][ref_do_178c]
 or comparable standards
 requires
-specific verification artefacts
+verification artefacts
 and an interaction with
 a certification authority
 that this article cannot anticipate.

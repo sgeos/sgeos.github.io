@@ -201,7 +201,7 @@ of a program
 should be
 a mathematical object
 in
-a specific domain,
+a domain,
 namely
 a partial order
 of computational elements
@@ -224,7 +224,7 @@ in three directions.
 The first direction
 was
 the treatment
-of specific language features.
+of language features.
 Denotational descriptions
 of assignment,
 of higher-order functions,
@@ -885,7 +885,7 @@ practical logic programming language.
 
 The discovery
 that
-a specific fragment of first-order logic,
+a fragment of first-order logic,
 namely
 Horn clauses
 of the form
@@ -931,7 +931,7 @@ prove
 a goal
 using
 SLD resolution,
-a specific strategy
+a strategy
 that
 processes
 clauses
@@ -1237,7 +1237,7 @@ smaller programs
 using
 a small set of
 combining forms.
-Backus's specific proposal
+Backus's proposal
 was
 a language
 called
@@ -1282,7 +1282,7 @@ was
 influential
 substantially
 beyond
-its specific technical proposal.
+its technical proposal.
 Its central diagnosis,
 that
 the assignment statement

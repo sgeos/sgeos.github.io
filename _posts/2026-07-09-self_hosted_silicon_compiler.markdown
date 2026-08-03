@@ -43,7 +43,7 @@ production-adjacent
 open-source flows.
 This article
 addresses
-the specific concept
+the concept
 of a
 self-hosted silicon compiler
 as
@@ -474,7 +474,7 @@ Carnegie Mellon University's
 Software Engineering Institute.
 Somlo's project
 addresses
-a specific goal,
+a goal,
 namely
 building
 a free-and-open-source
@@ -1168,7 +1168,7 @@ for
 the underlying
 trust concern,
 though
-the specific integration
+the integration
 of
 Diverse Double-Compilation
 into
@@ -1191,7 +1191,7 @@ for
 self-hosted silicon compilation
 concentrate
 in
-specific target contexts
+target contexts
 where
 the tooling complexity
 that
@@ -1513,7 +1513,7 @@ the entire lifecycle.
 The self-hosted silicon compiler
 addresses
 only
-the specific integration point
+the integration point
 between
 the
 hardware description tradition

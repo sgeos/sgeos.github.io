@@ -175,7 +175,7 @@ higher-level synthesis targets,
 embedded-domain-specific-language work,
 and
 research prototypes.
-The specific percentages
+The percentages
 depend on
 the sampling methodology
 and
@@ -519,7 +519,7 @@ compete
 with
 the device-vendor tools
 in
-specific market segments.
+market segments.
 
 ## The Open-Source Toolchain Landscape
 
@@ -1037,7 +1037,7 @@ approximately
 sixty percent
 in
 two thousand twenty-four.
-The specific percentages
+The percentages
 vary
 across
 industry segments,
@@ -1059,7 +1059,7 @@ articles A200 and A201
 did not
 substantively cover
 occupy
-specific niches
+niches
 in
 the current landscape.
 
@@ -1280,7 +1280,7 @@ substantially
 across
 industry segments.
 Recording
-the specific patterns
+the patterns
 by domain
 identifies
 where

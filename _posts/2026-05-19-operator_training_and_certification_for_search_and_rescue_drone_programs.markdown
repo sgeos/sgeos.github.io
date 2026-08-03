@@ -236,7 +236,7 @@ a training programme
 that
 qualifies the operator
 on
-the specific platform's
+the platform's
 flight characteristics,
 mission planning interface,
 ground control station,
@@ -494,7 +494,7 @@ the test passage.
 The platform vendor's training programme
 qualifies the operator
 on
-the specific platform.
+the platform.
 This layer
 is administratively independent of
 Layer 1
@@ -503,7 +503,7 @@ operationally essential.
 A Part-107-certified operator
 without manufacturer training
 on
-a specific platform
+a platform
 will
 struggle with
 the platform's
@@ -1004,7 +1004,7 @@ of in-person attendance.
 
 The fifth training layer
 addresses
-the specific operations
+the operations
 that
 particular missions require
 beyond
@@ -1086,7 +1086,7 @@ or eventually
 [the Part 108 final rule][ref_part_108]
 must train operators
 in
-the specific BVLOS procedures
+the BVLOS procedures
 that the authorisation requires.
 The training
 typically costs
@@ -1291,11 +1291,11 @@ drone mission
 runs
 with a crew
 of three to five people
-in specific roles
+in roles
 that
 each
 have
-specific training requirements.
+training requirements.
 
 **Remote Pilot in Command.**
 The
@@ -1485,7 +1485,7 @@ A146 noted
 the typical operator population
 of three to five operators
 per platform type.
-The specific composition
+The composition
 depends on
 the programme size
 and

@@ -372,7 +372,7 @@ with assumptions about probe velocity,
 replication time,
 and mission architecture.
 The key insight
-is not the specific number
+is not the number
 but the exponential nature
 of self-replication,
 which means that the colonization wave
@@ -1411,7 +1411,7 @@ or on the lunar surface,
 where raw materials
 for replication are accessible.
 The paper proposed
-specific observational strategies
+observational strategies
 for detecting
 technosignatures of probes,
 including anomalous
@@ -1456,7 +1456,7 @@ The International Journal of Astrobiology
 at Cambridge University Press
 has published
 a series of papers
-specifically addressing
+addressing
 von Neumann probes.
 Eckersley (2022)
 published
@@ -1574,7 +1574,7 @@ and certain specialty materials,
 cannot yet be manufactured
 from raw regolith or asteroidal material.
 
-The specific closure gaps include the following.
+The closure gaps include the following.
 
 **Semiconductor fabrication.**
 Modern integrated circuits
@@ -1669,7 +1669,7 @@ may require materials
 that are not available
 in the local environment.
 Rare earth elements,
-specific isotopes for power generation,
+isotopes for power generation,
 and radiation shielding materials
 may not be present
 in sufficient concentrations
@@ -2263,7 +2263,7 @@ Target: 2030s.
 
 4. **Fund semiconductor fabrication from raw materials.**
 Initiate a research program
-specifically targeting
+targeting
 the ability to produce
 simple integrated circuits
 from raw silicon-bearing ore

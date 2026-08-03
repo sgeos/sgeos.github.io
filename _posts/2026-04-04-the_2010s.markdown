@@ -110,7 +110,7 @@ two thousand thirteen book,
 extended
 Martin-Löf type theory
 with
-a specific mathematical structure
+a mathematical structure
 that
 had substantial consequences
 for
@@ -144,7 +144,7 @@ had established
 into
 a form
 that fit
-a specific industrial demand.
+an industrial demand.
 The languages
 were
 not
@@ -152,7 +152,7 @@ primary theoretical contributions
 but
 each
 supplied
-a specific working environment
+a working environment
 that
 subsequent programming language research
 would engage with.
@@ -585,7 +585,7 @@ An operation
 was
 declared
 without
-a specific implementation.
+an implementation.
 A program
 invoked an operation
 by writing
@@ -978,7 +978,7 @@ was
 a significant engineering problem.
 Session types
 supplied
-a specific technical framework
+a technical framework
 for
 that specification
 that

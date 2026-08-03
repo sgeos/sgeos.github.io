@@ -401,7 +401,7 @@ for the South Pole overland traverse logistics.
 
 A planetary surface rover
 adapts the wheeled architecture
-to the specific environmental conditions
+to the environmental conditions
 of the lunar or Martian surface.
 The
 [Apollo Lunar Roving Vehicle][ref_lrv]

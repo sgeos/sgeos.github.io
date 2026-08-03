@@ -697,7 +697,7 @@ by which a propulsive maneuver
 produces a greater change in orbital energy
 when performed at higher orbital velocity.
 
-The change in specific kinetic energy
+The change in kinetic energy
 from an impulsive burn adding $\Delta v$
 in the direction of motion is
 

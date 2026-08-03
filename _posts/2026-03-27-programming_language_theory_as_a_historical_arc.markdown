@@ -84,7 +84,7 @@ that describe circuits
 rather than programs,
 and
 [the stream-based compilers series][related_post_compilers_streaming]
-covers a specific compiler-architecture tradition
+covers a compiler-architecture tradition
 across twelve articles.
 The present series
 is the third
@@ -144,7 +144,7 @@ and reintroduce it
 in the following article.
 The gain
 is the coherent picture
-of a specific research moment,
+of a research moment,
 which is what the reader
 needs
 if the destination
@@ -450,7 +450,7 @@ are the following.
 A reader who follows one thread
 across the arc
 sees
-a specific intellectual project
+an intellectual project
 develop.
 A reader who reads
 the arc chronologically
@@ -585,7 +585,7 @@ The stream-based compilers series
 at
 [A188 through A199][related_post_compilers_streaming]
 covers
-a specific compiler-architecture tradition
+a compiler-architecture tradition
 from Wirth's PL/0 pedagogy
 of nineteen seventy-six
 to the present-day
@@ -600,7 +600,7 @@ readable.
 Wirth's PL/0
 is not a random choice
 of a pedagogical language.
-It sits in a specific place
+It sits in a place
 in the type-systems
 and structured-programming
 threads.
@@ -691,7 +691,7 @@ establishes the context.
 The current-event surveys
 consume the context
 and apply it
-to specific developments
+to developments
 as they emerge.
 A reader
 who wants

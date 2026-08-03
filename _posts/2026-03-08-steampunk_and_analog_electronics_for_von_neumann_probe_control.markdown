@@ -224,8 +224,8 @@ execute complex manufacturing sequences
 through the geometry
 of a rotating cam shaft,
 with each cam lobe
-triggering a specific operation
-at a specific point in the cycle.
+triggering an operation
+at a point in the cycle.
 Automatic screw machines,
 which have manufactured
 precision threaded fasteners
@@ -266,7 +266,7 @@ enclosed by a curve
 through mechanical integration.
 These devices demonstrate
 that calculus-level operations,
-specifically integration
+integration
 and differentiation,
 are achievable
 with purely mechanical systems.
@@ -1058,7 +1058,7 @@ with analog hardware.
 Several research groups
 and companies
 are developing analog computing
-for specific applications
+for applications
 where analog offers
 advantages over digital.
 
@@ -2050,7 +2050,7 @@ The primary limitation
 is access speed.
 Tape is sequential access,
 requiring minutes
-to locate specific data.
+to locate data.
 For a probe
 that can plan its data access
 in advance,
@@ -2061,7 +2061,7 @@ and mechanically encoded storage.**
 Punched tape
 encodes data
 as the presence or absence
-of holes at specific positions.
+of holes at positions.
 The medium is durable,
 simple to manufacture,
 and readable
@@ -2606,7 +2606,7 @@ that predate the transistor.
 The engineering challenge
 is not inventing new computing technologies
 but adapting century-old technologies
-to the specific requirements
+to the requirements
 of autonomous, self-replicating
 extraterrestrial manufacturing.
 

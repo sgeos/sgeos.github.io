@@ -1620,7 +1620,7 @@ cross-range maneuvers
 of up to several thousand kilometers.
 This cross-range capability
 enables the vehicle to reach
-a specific landing site
+a landing site
 from a variety of orbital inclinations
 and positions.
 
@@ -1752,7 +1752,7 @@ after an adversary
 destroys or disables
 existing orbital assets,
 or placing new sensors
-in orbit over a specific theater
+in orbit over a theater
 of operations.
 
 ### Hypersonic Reconnaissance

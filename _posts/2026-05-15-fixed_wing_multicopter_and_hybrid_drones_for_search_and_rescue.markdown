@@ -1297,7 +1297,7 @@ must hold a
 [Part 91 airworthiness exemption][ref_part_91_exemption]
 or a
 [Part 137 certificate][ref_part_137]
-for specific commercial operations,
+for commercial operations,
 or operate
 under a
 [public-aircraft exemption][ref_public_aircraft]
@@ -1318,7 +1318,7 @@ once it is finalised.
 **Manufacturer-specific training.**
 Each platform manufacturer
 offers training
-on the specific platform.
+on the platform.
 [DJI Academy][ref_dji_academy]
 courses
 range from
@@ -1363,7 +1363,7 @@ provide an objective test framework
 that public-safety programs use
 for operator proficiency evaluation.
 
-**Search-and-rescue specific training.**
+**Search-and-rescue training.**
 [The National Association for Search and Rescue][ref_nasar]
 and
 [the Search and Rescue Society of British Columbia][ref_sarbc]
@@ -1594,7 +1594,7 @@ would be a useful follow-up.
 The wind, precipitation,
 temperature, altitude,
 and icing limits
-of specific platforms
+of platforms
 are vendor-specific
 and operationally critical.
 This article gives
@@ -1619,7 +1619,7 @@ This article gives
 price ranges
 for platform classes,
 not procurement recommendations
-for specific platforms.
+for platforms.
 The
 [SBIR and STTR
 worked campaign article][related_post_sbir_worked]

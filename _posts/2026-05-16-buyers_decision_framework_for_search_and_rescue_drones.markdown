@@ -105,7 +105,7 @@ or in the supply chain.
 The list of covered foreign entities
 centres on the People's Republic of China
 and extends to
-several specific manufacturers
+several manufacturers
 including
 [DJI Technology Co. Ltd.][ref_dji_entity_list]
 and
@@ -256,7 +256,7 @@ as federal.
 is the relevant authority.
 Most program managers
 take legal advice
-on the specific funding mix
+on the funding mix
 before committing.
 
 ## Branch Two, the Mission Profile
@@ -324,7 +324,7 @@ the long-shore search corridor
 that multicopters cannot cover.
 Water-resistant
 or amphibious platforms
-deserve specific consideration
+deserve consideration
 within both classes.
 
 **Avalanche and winter mountaineering rescue.**
@@ -985,7 +985,7 @@ Manufacturer training
 for eight operators
 at three thousand each,
 total twenty-four thousand.
-Search and rescue specific training
+Search and rescue training
 at fifteen thousand.
 First-year insurance
 at six thousand.
@@ -1284,7 +1284,7 @@ provide near-absolute immunity
 for emergency response activities.
 Other states
 limit immunity
-or require specific procedural compliance.
+or require procedural compliance.
 A program manager
 should consult
 state-specific legal advice
@@ -1394,14 +1394,14 @@ of the budget.
 Operators complete
 Part 107 certification,
 manufacturer-specific training,
-and search-and-rescue specific training.
+and search-and-rescue training.
 The certification
 takes about a month
 including study and the test.
 Manufacturer training
 takes one to two weeks
 per platform type.
-Search-and-rescue specific training
+Search-and-rescue training
 takes one to four weeks
 spread across the period.
 
@@ -1456,7 +1456,7 @@ Several substantive topics
 are deliberately deferred.
 
 **Detailed regulatory compliance
-for specific waivers and authorisations.**
+for waivers and authorisations.**
 A program
 operating
 beyond visual line of sight,
@@ -1550,7 +1550,7 @@ the platform classes essential.
 The third branch
 asks the budget tier,
 which determines
-the specific configuration
+the configuration
 within the admissible class.
 
 The four budget tiers

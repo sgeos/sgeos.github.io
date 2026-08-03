@@ -446,7 +446,7 @@ computed.
 The strategy
 also
 provided
-a specific form
+a form
 of modularity,
 namely
 the separation of
@@ -579,11 +579,11 @@ namely that
 a function
 whose type
 does not mention
-a specific type
+a type
 cannot depend
 on
 its structure.
-A specific consequence
+A consequence
 is that
 any polymorphic list-to-list function
 `f : ∀α. [α] → [α]`
@@ -808,15 +808,15 @@ was
 a set of atomic effects,
 each of which
 described
-a specific operation
+an operation
 that a program
 might perform,
 such as
 reading from
-a specific memory region
+a memory region
 or
 writing to
-a specific input-output channel.
+an input-output channel.
 An effect discipline
 allowed
 the compiler
@@ -831,7 +831,7 @@ compiler optimizations
 that
 depended on
 the absence
-of specific effects,
+of effects,
 including
 parallelization
 of expressions
