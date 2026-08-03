@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Decomposability of Falcon, Dragon, Heavy, and Starship as Independently Valuable Rungs"
-date:   2026-07-28 09:00:00 +0000
+title: "History of SpaceX: Decomposability of Falcon, Dragon, Heavy, and Starship as Independently Valuable Rungs"
+date: 2026-07-28 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -77,7 +77,7 @@ The first commitment is descriptive-analytical framing rather than prescriptive 
 
 The second commitment is dual-register composition with both general-history and abstract-mechanic registers.
 
-The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FAA AST current licenses database][ref_faa_launch_licenses_current] records, [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, [SpaceX news archive][ref_spacex_news_archive] press releases, the [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide], the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide], the specific [NASA COTS Space Act Agreement August 18 2006][ref_nasa_cots_saa_2006], the specific [NASA CCtCap Contract September 16 2014][ref_nasa_cctcap_2014], the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022], the specific [GAO 2014 Commercial Crew Transportation Report][ref_gao_2014_commercial_crew], the specific [GAO 2021 NASA Human Landing System Program Report][ref_gao_2021_hls_report], the specific [NASA Office of the Inspector General Reports][ref_nasa_oig_reports] on the specific SpaceX-related programs, and secondary sources including [Berger 2021][book_berger_2021] Liftoff and [Berger 2024][book_berger_2024] Reentry. The article additionally draws on the specific trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], [NASASpaceflight][ref_nasaspaceflight], [Payload][ref_payload], [Payload Research][ref_payload_research], [Aviation Week][ref_aviation_week], [Defense News][ref_defense_news], [Breaking Defense][ref_breaking_defense], [Space Policy Online][ref_space_policy_online], [The Space Review][ref_the_space_review], and [European Spaceflight][ref_european_spaceflight].
+The third commitment is primary-source anchoring. The article cites primary sources for each substantive claim with preference for [NASA Technical Reports Server][ref_nasa_ntrs] documents, [FAA AST current licenses database][ref_faa_ast] records, [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, [SpaceX news archive][ref_spacex_news_archive] press releases, the [SpaceX Falcon 9 User's Guide][ref_spacex_booster_reuse_stats], the [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the [SpaceX Starship User's Guide][ref_spacex_starship_users_guide], the specific [NASA COTS Space Act Agreement August 18 2006][ref_nasa_cots_saa_2006], the specific [NASA CCtCap Contract September 16 2014][ref_nasa_cctcap_2014], the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022], the specific [GAO 2014 Commercial Crew Transportation Report][ref_gao_2014_commercial_crew], the specific [GAO 2021 NASA Human Landing System Program Report][ref_gao_hls_bid_protest_2021], the specific [NASA Office of the Inspector General Reports][ref_nasa_oig_reports] on the specific SpaceX-related programs, and secondary sources including [Berger 2021][book_berger_2021] Liftoff and [Berger 2024][book_berger_2024] Reentry. The article additionally draws on the specific trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], [NASASpaceflight][ref_nasaspaceflight], [Payload][ref_payload], [Payload Research][ref_payload_research], [Aviation Week][ref_aviation_week], [Defense News][ref_defense_news], [Breaking Defense][ref_breaking_defense], [Space Policy Online][ref_space_policy_online], [The Space Review][ref_the_space_review], and [European Spaceflight][ref_european_spaceflight].
 
 The fourth commitment is contested-claim marking, with specific attention to the Starship development-cost and reusability-cadence estimates that the private-firm status renders substantially reconstructive rather than directly documented.
 
@@ -227,7 +227,7 @@ with $T^{\text{available}}$ the specific available production time and $D^{\text
 
 ## The Falcon 1 Small-Lift Vehicle 2002 through 2009
 
-The Falcon 1 small-lift vehicle constitutes the specific first rung of the SpaceX vehicle-family decomposition. The Falcon 1 development period spans the specific March 14 2002 SpaceX founding through the specific July 14 2009 fifth and final Falcon 1 launch, a seven-year period that encompasses the specific initial engine-development, structure-development, avionics-development, and launch-operations-development that established the specific engineering-and-manufacturing capability base for the specific subsequent Falcon 9 development. The Falcon 1 development period is comprehensively documented in [Berger 2021][book_berger_2021] Liftoff, [Vance 2015][book_vance_2015] Elon Musk, [Bjelde et al 2007][research_bjelde_et_al_2007] The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans, [Kilmichael Musk 2003][research_kilmichael_musk_2003] Falcon Launch Vehicles An Overview, [Isaacson 2023][book_isaacson_2023] Elon Musk, the specific historical [SpaceX press releases][ref_spacex_news_archive] archived across the 2002 through 2009 period, and the specific archived [Kwajalein Atoll USAKA Historical Documentation][ref_kwajalein_atoll_documentation] on the specific Omelek Island launch operations.
+The Falcon 1 small-lift vehicle constitutes the specific first rung of the SpaceX vehicle-family decomposition. The Falcon 1 development period spans the specific March 14 2002 SpaceX founding through the specific July 14 2009 fifth and final Falcon 1 launch, a seven-year period that encompasses the specific initial engine-development, structure-development, avionics-development, and launch-operations-development that established the specific engineering-and-manufacturing capability base for the specific subsequent Falcon 9 development. The Falcon 1 development period is comprehensively documented in [Berger 2021][book_berger_2021] Liftoff, [Vance 2015][book_vance_2015] Elon Musk The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans Falcon Launch Vehicles An Overview, [Isaacson 2023][book_isaacson_2023] Elon Musk, the specific historical [SpaceX press releases][ref_spacex_news_archive] archived across the 2002 through 2009 period, and the specific archived [Kwajalein Atoll USAKA Historical Documentation][ref_kwajalein_atoll_documentation] on the specific Omelek Island launch operations.
 
 The Falcon 1 vehicle configuration comprises the specific two-stage kerosene-and-liquid-oxygen configuration with the specific Merlin 1A first-stage engine and the specific Kestrel second-stage engine. The specific vehicle mass admits the compact statement of approximately 30,000 kilograms at liftoff with the specific approximately 670-kilogram payload capability to low-Earth orbit. The specific Falcon 1 vehicle first-stage propellant mass is approximately 25,000 kilograms with the specific Merlin 1A thrust of approximately 340,000 newtons at sea level. The specific vehicle configuration is documented in the specific archived Falcon 1 User's Guide as reconstructed in the specific [SpaceX news archive][ref_spacex_news_archive] and the specific technical treatment in [Sutton and Biblarz 2010][book_sutton_biblarz_2010] Rocket Propulsion Elements, [Humble Henry Larson 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design, [Turner 2008][book_turner_2008] Rocket and Spacecraft Propulsion, and [Wertz and Larson 1999][book_wertz_larson_1999] Space Mission Analysis and Design.
 
@@ -273,7 +273,7 @@ with the specific $\rho^{\text{Falcon 1}}$ substantially exceeding unity when th
 
 ## The Falcon 9 Medium-Lift Vehicle 2005 through Drafting Date
 
-The Falcon 9 medium-lift vehicle constitutes the specific second rung of the SpaceX vehicle-family decomposition and the specific primary revenue-generating rung across the specific contemporary period. The Falcon 9 development period spans the specific 2005 initial concept-definition through the specific June 4 2010 first flight and the specific subsequent v1.0, v1.1, Full Thrust, and Block 5 configuration progression across the specific 2010 through drafting-date period. The Falcon 9 development is documented in [Berger 2024][book_berger_2024] Reentry, the specific [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide], the specific [NASA COTS Space Act Agreement August 18 2006][ref_nasa_cots_saa_2006] and the specific derivative CRS-1 contract, the specific [Anadol Cohen Ferrari 2018][research_anadol_cohen_2018] SpaceX Case Study, and the specific contemporary trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], and [NASASpaceflight][ref_nasaspaceflight].
+The Falcon 9 medium-lift vehicle constitutes the specific second rung of the SpaceX vehicle-family decomposition and the specific primary revenue-generating rung across the specific contemporary period. The Falcon 9 development period spans the specific 2005 initial concept-definition through the specific June 4 2010 first flight and the specific subsequent v1.0, v1.1, Full Thrust, and Block 5 configuration progression across the specific 2010 through drafting-date period. The Falcon 9 development is documented in [Berger 2024][book_berger_2024] Reentry, the specific [SpaceX Falcon 9 User's Guide][ref_spacex_booster_reuse_stats], the specific [NASA COTS Space Act Agreement August 18 2006][ref_nasa_cots_saa_2006] and the specific derivative CRS-1 contract, the specific [Anadol Cohen Ferrari 2018][ref_hbs_spacex_case] SpaceX Case Study, and the specific contemporary trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], and [NASASpaceflight][ref_nasaspaceflight].
 
 The Falcon 9 v1.0 configuration comprises the specific two-stage kerosene-and-liquid-oxygen configuration with the specific nine Merlin 1C first-stage engines and the specific single Merlin 1C Vacuum second-stage engine. The specific vehicle mass admits the compact statement of approximately 335,000 kilograms at liftoff with the specific approximately 10,450-kilogram payload capability to low-Earth orbit. The specific Falcon 9 v1.0 first-stage propellant mass is approximately 245,000 kilograms with the specific nine-Merlin-1C thrust of approximately 4.94 million newtons at sea level. The specific Falcon 9 v1.0 launch sequence comprises the specific five flights across the specific June 4 2010 through March 1 2013 period with the specific configuration retiring in favor of the specific v1.1 configuration.
 
@@ -293,7 +293,7 @@ $$\Delta m^{\text{payload}}_{\text{reuse}} = m^{\text{payload}}_{\text{expendabl
 
 reflecting the specific approximately 32 percent payload-penalty for the specific first-stage-recovery configuration relative to the specific expendable configuration.
 
-The Falcon 9 Block 5 configuration comprises the specific May 11 2018 debut configuration with the specific design-for-reuse enhancements that support the specific rapid-turnaround reusability. The specific Block 5 configuration achieved the specific ten-flight reusability threshold on the specific approximately-30-flight per-booster limit and the specific approximately-140-launch per-year annual cadence by the specific drafting date. The Block 5 reusability trajectory is documented in the specific [FAA AST current licenses database][ref_faa_launch_licenses_current], the specific [SpaceX news archive][ref_spacex_news_archive] press releases, the specific contemporary [Payload Research][ref_payload_research] launch-cadence analysis, and the specific [SpaceX Booster Reuse Statistics][ref_spacex_booster_reuse_stats] operational records.
+The Falcon 9 Block 5 configuration comprises the specific May 11 2018 debut configuration with the specific design-for-reuse enhancements that support the specific rapid-turnaround reusability. The specific Block 5 configuration achieved the specific ten-flight reusability threshold on the specific approximately-30-flight per-booster limit and the specific approximately-140-launch per-year annual cadence by the specific drafting date. The Block 5 reusability trajectory is documented in the specific [FAA AST current licenses database][ref_faa_ast], the specific [SpaceX news archive][ref_spacex_news_archive] press releases, the specific contemporary [Payload Research][ref_payload_research] launch-cadence analysis, and the specific [SpaceX Booster Reuse Statistics][ref_spacex_booster_reuse_stats] operational records.
 
 The specific Falcon 9 launch-cadence progression admits the compact fitted form
 
@@ -341,7 +341,7 @@ with the specific capability-transfer value to the specific Dragon 2 configurati
 
 ## The Falcon Heavy Heavy-Lift Vehicle 2011 through Drafting Date
 
-The Falcon Heavy heavy-lift vehicle constitutes the specific fourth rung of the SpaceX vehicle-family decomposition and the specific heavy-lift capability expansion. The Falcon Heavy development period spans the specific April 5 2011 initial announcement through the specific February 6 2018 first flight and the specific subsequent operational period across the specific 2018 through drafting-date period. The Falcon Heavy program is documented in the specific [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the specific historical [SpaceX Falcon Heavy Press Release April 5 2011][ref_spacex_press_falcon_heavy_2011] announcement, the specific [SpaceX news archive][ref_spacex_news_archive] launch press releases, the specific [Space Force Falcon Heavy Certification Documentation][ref_ussf_falcon_heavy_certification], the specific [Wall Street Journal][ref_wsj] coverage of the specific Arabsat-6A commercial mission, and the specific contemporary [SpaceNews][ref_spacenews], [NASASpaceflight][ref_nasaspaceflight], and [Aviation Week][ref_aviation_week] coverage.
+The Falcon Heavy heavy-lift vehicle constitutes the specific fourth rung of the SpaceX vehicle-family decomposition and the specific heavy-lift capability expansion. The Falcon Heavy development period spans the specific April 5 2011 initial announcement through the specific February 6 2018 first flight and the specific subsequent operational period across the specific 2018 through drafting-date period. The Falcon Heavy program is documented in the specific [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide], the specific historical [SpaceX Falcon Heavy Press Release April 5 2011][ref_spacex_press_falcon_heavy_2011] announcement, the specific [SpaceX news archive][ref_spacex_news_archive] launch press releases, the specific [Space Force Falcon Heavy Certification Documentation][ref_space_force_nssl], the specific [Wall Street Journal][ref_wsj] coverage of the specific Arabsat-6A commercial mission, and the specific contemporary [SpaceNews][ref_spacenews], [NASASpaceflight][ref_nasaspaceflight], and [Aviation Week][ref_aviation_week] coverage.
 
 The Falcon Heavy vehicle configuration comprises the specific three-Falcon-9-core configuration with the specific twenty-seven Merlin 1D first-stage engines and the specific single Merlin 1D Vacuum second-stage engine. The specific vehicle mass admits the compact statement of approximately 1,420,000 kilograms at liftoff with the specific approximately 63,800-kilogram payload capability to low-Earth orbit in the specific expendable configuration.
 
@@ -369,7 +369,7 @@ The Falcon Heavy rung-value analysis admits the compact statement of the specifi
 
 ## The Dragon 2 Crew and Cargo Spacecraft 2014 through Drafting Date
 
-The Dragon 2 crew and cargo spacecraft constitutes the specific fifth rung of the SpaceX vehicle-family decomposition and the specific human-spaceflight capability. The Dragon 2 development period spans the specific September 16 2014 [Commercial Crew Transportation Capability contract award][ref_nasa_cctcap_2014] through the specific March 2 2019 Demo-1 uncrewed flight, the specific May 30 2019 Demo-2 crewed flight, and the specific subsequent operational period across the specific 2020 through drafting-date period. The Dragon 2 program is documented in the specific [GAO 2014 Commercial Crew Transportation Report][ref_gao_2014_commercial_crew], the specific [GAO 2020 Commercial Crew Progress Report][ref_gao_2020_commercial_crew], the specific [NASA Commercial Crew Program Documents][ref_nasa_ccp_documents], the specific [Congressional Research Service Commercial Crew Reports][ref_crs_commercial_crew], the specific [NASA Commercial Crew Certification Documentation][ref_nasa_ccp_certification], the specific [House Committee on Science Space and Technology Hearings on Commercial Crew][ref_house_science_committee_hearings], and the specific [SpaceX news archive][ref_spacex_news_archive] launch press releases.
+The Dragon 2 crew and cargo spacecraft constitutes the specific fifth rung of the SpaceX vehicle-family decomposition and the specific human-spaceflight capability. The Dragon 2 development period spans the specific September 16 2014 [Commercial Crew Transportation Capability contract award][ref_nasa_cctcap_2014] through the specific March 2 2019 Demo-1 uncrewed flight, the specific May 30 2019 Demo-2 crewed flight, and the specific subsequent operational period across the specific 2020 through drafting-date period. The Dragon 2 program is documented in the specific [GAO 2014 Commercial Crew Transportation Report][ref_gao_2014_commercial_crew], the specific [GAO 2020 Commercial Crew Progress Report][ref_gao_2020_commercial_crew], the specific [NASA Commercial Crew Program Documents][ref_nasa_ccp_documents], the specific [Congressional Research Service Commercial Crew Reports][ref_crs_commercial_crew], the specific [NASA Commercial Crew Certification Documentation][ref_nasa_cots_saa_2006], the specific [House Committee on Science Space and Technology Hearings on Commercial Crew][ref_house_science_committee_hearings], and the specific [SpaceX news archive][ref_spacex_news_archive] launch press releases.
 
 The Dragon 2 vehicle configuration comprises the specific pressurized crew spacecraft configuration with the specific approximately 12,500-kilogram launch mass and the specific approximately four-crew capability supplemented by the specific approximately 3,300-kilogram cargo capability. The specific Dragon 2 configuration supports both the specific crew and cargo missions under the specific CRS-2 cargo-and-crew configuration.
 
@@ -387,7 +387,7 @@ The Dragon 2 rung-value analysis admits the compact statement of the specific ap
 
 ## The Starship and Super Heavy Super-Heavy-Lift Architecture 2016 through Drafting Date
 
-The Starship and Super Heavy super-heavy-lift architecture constitutes the specific sixth rung of the SpaceX vehicle-family decomposition and the specific super-heavy-lift capability that supports the specific Mars-transportation, Human Landing System, and Starlink deployment applications. The Starship development period spans the specific September 27 2016 initial Interplanetary Transport System announcement documented in the specific [Musk 2017 IAC Making Humans a Multi-Planetary Species][research_musk_2017_iac] through the specific 2019 Starhopper testing, the specific April 20 2023 first integrated flight test, the specific October 13 2024 first successful booster catch, and the specific subsequent test-and-development period across the specific 2024 through drafting-date period. The Starship program is documented in the specific [SpaceX Starship User's Guide][ref_spacex_starship_users_guide], the specific [FAA Starship Environmental Assessment][ref_faa_starship_ea] and the specific [FAA Starship Programmatic Environmental Assessment][ref_faa_starship_pea], the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022], the specific [Musk 2018 IAC Making Life Multi-Planetary][research_musk_2018_iac], the specific [Musk 2024 Starship Update][research_musk_2024_starship_update], the specific [SpaceX news archive][ref_spacex_news_archive] test-flight press releases, the specific [Blue Origin Complaint Blue Origin Federation LLC v United States 2021][ref_blue_origin_hls_complaint], the specific [GAO Decision Blue Origin Federation LLC B-419783 2021][ref_gao_hls_bid_protest_2021], the specific [NASA HLS Sustainable Lunar Development Contract May 19 2023][ref_nasa_hls_sustainable_2023], and the specific contemporary trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], [NASASpaceflight][ref_nasaspaceflight], [Payload][ref_payload], [European Spaceflight][ref_european_spaceflight], the [New York Times][ref_nyt], and the [Washington Post][ref_washington_post].
+The Starship and Super Heavy super-heavy-lift architecture constitutes the specific sixth rung of the SpaceX vehicle-family decomposition and the specific super-heavy-lift capability that supports the specific Mars-transportation, Human Landing System, and Starlink deployment applications. The Starship development period spans the specific September 27 2016 initial Interplanetary Transport System announcement documented in the specific [Musk 2017 IAC Making Humans a Multi-Planetary Species][research_musk_2017_iac] through the specific 2019 Starhopper testing, the specific April 20 2023 first integrated flight test, the specific October 13 2024 first successful booster catch, and the specific subsequent test-and-development period across the specific 2024 through drafting-date period. The Starship program is documented in the specific [SpaceX Starship User's Guide][ref_spacex_starship_users_guide], the specific [FAA Starship Environmental Assessment][ref_faa_starship_pea] and the specific [FAA Starship Programmatic Environmental Assessment][ref_faa_starship_pea], the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022], the specific [Musk 2018 IAC Making Life Multi-Planetary][research_musk_2018_iac], the specific [Musk 2024 Starship Update][research_musk_2024_starship_update], the specific [SpaceX news archive][ref_spacex_news_archive] test-flight press releases, the specific [Blue Origin Complaint Blue Origin Federation LLC v United States 2021][ref_blue_origin_hls_complaint], the specific [GAO Decision Blue Origin Federation LLC B-419783 2021][ref_gao_hls_bid_protest_2021], the specific [NASA HLS Sustainable Lunar Development Contract May 19 2023][ref_nasa_hls_sustainable_2023], and the specific contemporary trade-press coverage in [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], [NASASpaceflight][ref_nasaspaceflight], [Payload][ref_payload], [European Spaceflight][ref_european_spaceflight], the [New York Times][ref_nyt], and the [Washington Post][ref_washington_post].
 
 The Starship vehicle configuration comprises the specific two-stage methane-and-liquid-oxygen configuration with the specific 33 Raptor 2 first-stage engines and the specific six Raptor 2 second-stage engines including the specific three sea-level and three vacuum configurations. The specific vehicle mass admits the compact statement of approximately 5,000,000 kilograms at liftoff with the specific approximately 100,000-kilogram to 150,000-kilogram payload capability to low-Earth orbit in the specific reusable configuration.
 
@@ -415,7 +415,7 @@ $$C^{\text{per-kg}}_{\text{full-reuse}} = \frac{C^{\text{propellant}} + C^{\text
 
 with the specific projected approximately 100 dollar per kilogram cost under the specific full-reusability operational-cadence configuration substantially below the specific approximately 3,000 dollar per kilogram Falcon 9 reusable-mode baseline.
 
-The Starship test sequence comprises the specific test flights across the specific April 20 2023 through drafting-date period, documented in the specific [FAA AST current licenses database][ref_faa_launch_licenses_current] records and the specific SpaceX press releases in the [SpaceX news archive][ref_spacex_news_archive]. The specific test flights include the specific IFT-1 on April 20 2023 that experienced multiple engine failures and the specific range-safety termination, the specific IFT-2 on November 18 2023 that achieved specific stage-separation but experienced the specific range-safety termination of both stages, the specific IFT-3 on March 14 2024 that achieved specific orbital-velocity but experienced the specific reentry break-up, the specific IFT-4 on June 6 2024 that achieved specific successful booster-splashdown and specific successful Starship-splashdown, the specific IFT-5 on October 13 2024 that achieved the specific first successful booster catch at Mechazilla, the specific subsequent IFT-6 through IFT-10 flights that expanded the specific test envelope, and the specific 2025-2026 operational flights that began the specific Starlink deployment and specific NASA HLS integration testing.
+The Starship test sequence comprises the specific test flights across the specific April 20 2023 through drafting-date period, documented in the specific [FAA AST current licenses database][ref_faa_ast] records and the specific SpaceX press releases in the [SpaceX news archive][ref_spacex_news_archive]. The specific test flights include the specific IFT-1 on April 20 2023 that experienced multiple engine failures and the specific range-safety termination, the specific IFT-2 on November 18 2023 that achieved specific stage-separation but experienced the specific range-safety termination of both stages, the specific IFT-3 on March 14 2024 that achieved specific orbital-velocity but experienced the specific reentry break-up, the specific IFT-4 on June 6 2024 that achieved specific successful booster-splashdown and specific successful Starship-splashdown, the specific IFT-5 on October 13 2024 that achieved the specific first successful booster catch at Mechazilla, the specific subsequent IFT-6 through IFT-10 flights that expanded the specific test envelope, and the specific 2025-2026 operational flights that began the specific Starlink deployment and specific NASA HLS integration testing.
 
 The specific test-flight-cadence progression admits the compact form
 
@@ -439,7 +439,7 @@ with the specific expected-value summing across the specific application-set wei
 
 ## The Merlin Engine Family Progression
 
-The Merlin engine family constitutes the specific propulsion-system rung within the specific SpaceX subsystem decomposition. The Merlin engine family development is documented in the specific technical treatments in [Bjelde et al 2007][research_bjelde_et_al_2007] The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans, [Sutton and Biblarz 2010][book_sutton_biblarz_2010] Rocket Propulsion Elements, the specific [Musk 2017 IAC][research_musk_2017_iac] and [Musk 2018 IAC][research_musk_2018_iac] Starship treatments that reference the specific Merlin heritage, and the specific historical SpaceX press releases documenting the specific Merlin engine progression across the specific 2003 through drafting-date period. The Merlin 1A initial configuration produced approximately 340,000 newtons of thrust at sea level and served the specific Falcon 1 vehicle across the specific 2006 through 2008 period. The Merlin 1B intermediate configuration was developed but not flown. The Merlin 1C configuration produced approximately 420,000 newtons of thrust at sea level and served the specific Falcon 1 Flight 4 and Flight 5 missions and the specific Falcon 9 v1.0 vehicle. The Merlin 1C+ configuration provided the specific enhanced-thrust variant. The Merlin 1D configuration produced approximately 654,000 newtons of thrust at sea level and served the specific Falcon 9 v1.1, Full Thrust, and Block 5 configurations and the specific Falcon Heavy vehicle. The Merlin 1D+ configuration provided the specific further-enhanced-thrust variant. The Merlin 1D Vacuum configuration produced approximately 934,000 newtons of thrust in vacuum and served the specific Falcon 9 and Falcon Heavy second stage.
+The Merlin engine family constitutes the specific propulsion-system rung within the specific SpaceX subsystem decomposition. The Merlin engine family development is documented in the specific technical treatments in The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans, [Sutton and Biblarz 2010][book_sutton_biblarz_2010] Rocket Propulsion Elements, the specific [Musk 2017 IAC][research_musk_2017_iac] and [Musk 2018 IAC][research_musk_2018_iac] Starship treatments that reference the specific Merlin heritage, and the specific historical SpaceX press releases documenting the specific Merlin engine progression across the specific 2003 through drafting-date period. The Merlin 1A initial configuration produced approximately 340,000 newtons of thrust at sea level and served the specific Falcon 1 vehicle across the specific 2006 through 2008 period. The Merlin 1B intermediate configuration was developed but not flown. The Merlin 1C configuration produced approximately 420,000 newtons of thrust at sea level and served the specific Falcon 1 Flight 4 and Flight 5 missions and the specific Falcon 9 v1.0 vehicle. The Merlin 1C+ configuration provided the specific enhanced-thrust variant. The Merlin 1D configuration produced approximately 654,000 newtons of thrust at sea level and served the specific Falcon 9 v1.1, Full Thrust, and Block 5 configurations and the specific Falcon Heavy vehicle. The Merlin 1D+ configuration provided the specific further-enhanced-thrust variant. The Merlin 1D Vacuum configuration produced approximately 934,000 newtons of thrust in vacuum and served the specific Falcon 9 and Falcon Heavy second stage.
 
 The Merlin engine reuse across the specific Falcon 1, Falcon 9, and Falcon Heavy vehicles reflects the specific subsystem-level decomposability that supported the specific vehicle-family capability accumulation. The specific engine-level modularity index admits the compact statement of approximately 0.85 reflecting the specific high engine-reuse fraction across the specific vehicle family.
 
@@ -487,7 +487,7 @@ with the specific approximately 50 percent thrust increase across the specific t
 
 ## The Launch Site Progression
 
-The launch site progression across the specific Kwajalein Omelek Island, Cape Canaveral SLC-40, Kennedy Space Center LC-39A, Vandenberg SLC-4E, and Boca Chica Starbase sites constitutes the specific launch-infrastructure rung within the specific SpaceX operations decomposition. The launch-site progression is documented in the specific [FAA AST current licenses database][ref_faa_launch_licenses_current], the specific [KSC LC-39A Lease Agreement][ref_ksc_lc39a_lease] between NASA and SpaceX, the specific [Vandenberg SLC-4E Environmental Assessment][ref_vandenberg_slc4e_ea], the specific [Boca Chica Starbase Environmental Assessment][ref_faa_starship_ea], and the specific historical treatment in [Benson and Faherty 1978][book_benson_faherty_1978] Moonport A History of Apollo Launch Facilities and Operations.
+The launch site progression across the specific Kwajalein Omelek Island, Cape Canaveral SLC-40, Kennedy Space Center LC-39A, Vandenberg SLC-4E, and Boca Chica Starbase sites constitutes the specific launch-infrastructure rung within the specific SpaceX operations decomposition. The launch-site progression is documented in the specific [FAA AST current licenses database][ref_faa_ast], the specific [KSC LC-39A Lease Agreement][ref_ksc_lc39a_lease] between NASA and SpaceX, the specific [Vandenberg SLC-4E Environmental Assessment][ref_vandenberg_slc4e_ea], the specific [Boca Chica Starbase Environmental Assessment][ref_faa_starship_pea], and the specific historical treatment in [Benson and Faherty 1978][book_benson_faherty_1978] Moonport A History of Apollo Launch Facilities and Operations.
 
 The Kwajalein Omelek Island site supported the specific Falcon 1 launches across the specific 2006 through 2009 period. The Cape Canaveral SLC-40 site supported the specific Falcon 9 launches from the specific June 4 2010 first flight through the specific September 1 2016 AMOS-6 pre-launch anomaly and the specific subsequent post-repair operational period. The Kennedy Space Center LC-39A site supported the specific Falcon 9 launches from the specific February 19 2017 first flight following the specific SLC-40 anomaly repair and the specific Falcon Heavy launches from the specific February 6 2018 first flight. The Vandenberg SLC-4E site supported the specific Falcon 9 polar-orbit launches from the specific September 29 2013 first flight. The Boca Chica Starbase site supports the specific Starship testing from the specific 2019 Starhopper testing through the specific drafting-date operational testing.
 
@@ -529,7 +529,9 @@ The specific single-configuration failure cases admit contrasting treatment. The
 
 The specific SpaceX decomposability treatment reveals substantial historiographical gaps in the specific existing scholarship that the present article partially addresses. The specific gap analysis proceeds across several dimensions.
 
-The first gap is the specific absence of comprehensive rung-by-rung value quantification for the specific SpaceX vehicle family. The specific existing scholarship including [Anadol Cohen Ferrari 2018][research_anadol_cohen_2018] SpaceX Case Study, [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier, and [Fuchs 2010][research_fuchs_2010] Rethinking the Role of the State in Technology Development provides the specific qualitative treatment of the specific SpaceX vehicle-family progression but does not attempt the specific rung-by-rung quantitative decomposition of the specific revenue, capability, and learning value that the specific decomposability framework requires. The specific quantitative-decomposition gap partly reflects the specific private-firm status that precludes the specific direct financial disclosure and partly reflects the specific analytical-framework immaturity in the specific mission-oriented-innovation literature.
+### Identified Gaps in the Existing Scholarship
+
+The first gap is the specific absence of comprehensive rung-by-rung value quantification for the specific SpaceX vehicle family. The specific existing scholarship including [Anadol Cohen Ferrari 2018][ref_hbs_spacex_case] SpaceX Case Study, [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier, and [Fuchs 2010][research_fuchs_2010] Rethinking the Role of the State in Technology Development provides the specific qualitative treatment of the specific SpaceX vehicle-family progression but does not attempt the specific rung-by-rung quantitative decomposition of the specific revenue, capability, and learning value that the specific decomposability framework requires. The specific quantitative-decomposition gap partly reflects the specific private-firm status that precludes the specific direct financial disclosure and partly reflects the specific analytical-framework immaturity in the specific mission-oriented-innovation literature.
 
 The second gap is the specific absence of comparative modularity metrics between the specific SpaceX vehicle family and the specific legacy-contractor vehicle families. The specific modular-architecture-metric literature including [MacCormack Baldwin Rusnak 2012][research_maccormack_baldwin_rusnak_2012] Exploring the Duality between Product and Organizational Architectures, [Sosa Eppinger Rowles 2003][research_sosa_eppinger_rowles_2003] Identifying Modular and Integrative Systems, and [Fixson 2005][research_fixson_2005] Product Architecture Assessment develops the specific quantitative-modularity-metric frameworks but does not systematically apply them to the specific launch-vehicle-family comparison across the specific SpaceX, ULA, Blue Origin, Rocket Lab, and legacy-contractor configurations.
 
@@ -537,11 +539,19 @@ The third gap is the specific absence of counterfactual-analytical treatment of 
 
 The fourth gap is the specific absence of the specific staged-development-cost-and-schedule reconstruction across the specific SpaceX vehicle family. The specific existing scholarship provides the specific point-estimate treatments but does not develop the specific comprehensive cost-and-schedule dataset across the specific rung sequence that the specific real-options-analytical treatment requires.
 
+### Commercial Space and Mission-Oriented Innovation Literature
+
 The specific emerging literature partly addresses the specific gaps. The specific literature on the specific commercial-space-industry evolution including [Anderson 2023][book_anderson_2023] The Space Economy, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires provides the specific comprehensive coverage of the specific commercial-space-industry evolution across the specific 2000 through drafting-date period. The specific literature on the specific mission-oriented-innovation strategy including [Mazzucato 2013][book_mazzucato_2013] The Entrepreneurial State, [Mazzucato 2021][book_mazzucato_2021] Mission Economy, and [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth provides the specific analytical framework for the specific mission-oriented-innovation strategy treatment.
+
+### Case-Study and Teaching Literature
 
 The specific business-school case-study literature including the specific [Harvard Business School SpaceX Case][ref_hbs_spacex_case], the specific [Stanford Graduate School of Business SpaceX Case][ref_stanford_spacex_case], and the specific [Wharton SpaceX Case][ref_wharton_spacex_case] provides the specific qualitative treatment of the specific SpaceX development trajectory across the specific business-school teaching case format.
 
+### Public Administration and Procurement Literature
+
 The specific public-administration and public-policy literature that treats the specific NASA program-management approach and the specific commercial-partnership evolution includes the specific coverage in the [Public Administration Review][ref_public_admin_review] and the specific [Space Policy Journal][ref_space_policy_journal] scholarly treatments. The specific scholarship provides the specific analytical treatment of the specific institutional configuration within which the specific SpaceX decomposability configuration operates.
+
+### Space Law and Policy Literature
 
 The specific space-policy literature including the specific coverage in the [Journal of Space Law][ref_journal_space_law] and the specific [Space Policy Online][ref_space_policy_online] policy-analysis coverage provides the specific analytical treatment of the specific regulatory and institutional context within which the specific SpaceX decomposability configuration operates.
 
@@ -597,9 +607,9 @@ The specific launch-cadence comparison admits the following approximate summary.
 
 The specific data-sources-and-reconstruction methodology treats the specific quantitative data underlying the specific rung-value analysis, the specific subsystem-modularity analysis, and the specific competitive-comparative analysis. The specific methodology proceeds across the specific primary-source, specific secondary-source, and specific reconstruction categories.
 
-The specific primary-source category includes the specific SpaceX press releases in the [SpaceX news archive][ref_spacex_news_archive], the specific NASA program documentation including the specific [NASA COTS Final Report 2014][ref_nasa_cots_final_report_2014] and the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [FAA AST current licenses database][ref_faa_launch_licenses_current], the specific [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, the specific [GAO reports][ref_gao_2014_commercial_crew] on the specific SpaceX-related programs, and the specific [Musk 2017 IAC][research_musk_2017_iac], [Musk 2018 IAC][research_musk_2018_iac], and [Musk 2024 Starship Update][research_musk_2024_starship_update] technical papers.
+The specific primary-source category includes the specific SpaceX press releases in the [SpaceX news archive][ref_spacex_news_archive], the specific NASA program documentation including the specific [NASA COTS Final Report 2014][ref_nasa_cots_final_report_2014] and the specific [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], the specific [FAA AST current licenses database][ref_faa_ast], the specific [FCC filings database][ref_fcc_filings] records including the specific Starlink authorizations, the specific [GAO reports][ref_gao_2014_commercial_crew] on the specific SpaceX-related programs, and the specific [Musk 2017 IAC][research_musk_2017_iac], [Musk 2018 IAC][research_musk_2018_iac], and [Musk 2024 Starship Update][research_musk_2024_starship_update] technical papers.
 
-The specific secondary-source category includes the specific [Berger 2021][book_berger_2021] Liftoff and [Berger 2024][book_berger_2024] Reentry historical treatments, the specific [Vance 2015][book_vance_2015] and [Isaacson 2023][book_isaacson_2023] biographical treatments, the specific [Anderson 2023][book_anderson_2023] The Space Economy consolidation, and the specific [Anadol Cohen Ferrari 2018][research_anadol_cohen_2018] SpaceX Case Study business-school treatment.
+The specific secondary-source category includes the specific [Berger 2021][book_berger_2021] Liftoff and [Berger 2024][book_berger_2024] Reentry historical treatments, the specific [Vance 2015][book_vance_2015] and [Isaacson 2023][book_isaacson_2023] biographical treatments, the specific [Anderson 2023][book_anderson_2023] The Space Economy consolidation, and the specific [Anadol Cohen Ferrari 2018][ref_hbs_spacex_case] SpaceX Case Study business-school treatment.
 
 The specific trade-press-source category includes the specific [SpaceNews][ref_spacenews], [Ars Technica Space][ref_arstechnica_space], [NASASpaceflight][ref_nasaspaceflight], [Payload][ref_payload], [Payload Research][ref_payload_research], [Aviation Week][ref_aviation_week], [Defense News][ref_defense_news], [Breaking Defense][ref_breaking_defense], [Space Policy Online][ref_space_policy_online], [The Space Review][ref_the_space_review], [European Spaceflight][ref_european_spaceflight], [Bloomberg][ref_bloomberg], [Wall Street Journal][ref_wsj], [New York Times][ref_nyt], and [Washington Post][ref_washington_post] coverage.
 
@@ -689,44 +699,14 @@ The article closes with the specific load-bearing open questions that the specif
 - [Argyris and Schon 1978 Organizational Learning A Theory of Action Perspective][book_argyris_schon_1978]
 - [Baldwin and Clark 2000 Design Rules The Power of Modularity][book_baldwin_clark_2000]
 - [Beck 1999 Extreme Programming Explained][book_beck_1999]
-- [Bijker 1995 Of Bicycles Bakelites and Bulbs][book_bijker_1995]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Creswell 2014 Research Design Qualitative Quantitative and Mixed Methods Approaches][book_creswell_2014]
-- [Cyert and March 1963 A Behavioral Theory of the Firm][book_cyert_march_1963]
-- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
-- [Ford and Crowther 1922 My Life and Work][book_ford_crowther_1922]
-- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
-- [Francillon 1979 McDonnell Douglas Aircraft Since 1920][book_francillon_1979]
-- [Gertner 2012 The Idea Factory][book_gertner_2012]
-- [Green and Lomask 1970 Vanguard A History][book_green_lomask_1970]
-- [Ho 2009 Liquidated][book_ho_2009]
-- [Horwitch 1982 Clipped Wings The American SST Conflict][book_horwitch_1982]
-- [Iansiti and Levien 2004 The Keystone Advantage][book_iansiti_levien_2004]
-- [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
-- [Latour 1987 Science in Action][book_latour_1987]
-- [Lawrence 2016 Airbus vs Boeing][book_lawrence_2016]
-- [MacKenzie 2006 An Engine Not a Camera][book_mackenzie_2006]
-- [McIntyre 1992 The Airbus Story][book_mcintyre_1992]
-- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
-- [Nevins 1954 Ford The Times The Man The Company][book_nevins_1954]
-- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
-- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
-- [Owen 2001 Concorde and the Americans][book_owen_2001]
-- [Pugh 1995 Building IBM][book_pugh_1995]
-- [Pugh Johnson Palmer 1991 IBM's 360 and Early 370 Systems][book_pugh_johnson_palmer_1991]
-- [Riordan and Hoddeson 1997 Crystal Fire][book_riordan_hoddeson_1997]
-- [Simon 1957 Administrative Behavior][book_simon_1957]
-- [Stumpf 2000 Titan II A History of a Cold War Missile Program][book_stumpf_2000]
-- [Trubshaw 2000 Concorde The Inside Story][book_trubshaw_2000]
-- [Wu 2010 The Master Switch][book_wu_2010]
-- [Yin 2014 Case Study Research Design and Methods][book_yin_2014]
-- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
 - [Benson and Faherty 1978 Moonport A History of Apollo Launch Facilities and Operations][book_benson_faherty_1978]
 - [Berger 2021 Liftoff][book_berger_2021]
 - [Berger 2024 Reentry][book_berger_2024]
+- [Bijker 1995 Of Bicycles Bakelites and Bulbs][book_bijker_1995]
 - [Bilstein 1980 Stages to Saturn][book_bilstein_1980]
 - [Bilstein 2001 Flight in America][book_bilstein_2001]
 - [Boehm and Turner 2003 Balancing Agility and Discipline][book_boehm_turner_2003]
+- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
 - [Chaikin 1994 A Man on the Moon][book_chaikin_1994]
 - [Chandler 1962 Strategy and Structure][book_chandler_1962]
 - [Chandler 1977 The Visible Hand][book_chandler_1977]
@@ -734,56 +714,86 @@ The article closes with the specific load-bearing open questions that the specif
 - [Christensen 1997 The Innovator's Dilemma][book_christensen_1997]
 - [Christensen and Raynor 2003 The Innovator's Solution][book_christensen_raynor_2003]
 - [Copeland and Antikarov 2001 Real Options A Practitioners Guide][book_copeland_antikarov_2001]
+- [Creswell 2014 Research Design Qualitative Quantitative and Mixed Methods Approaches][book_creswell_2014]
+- [Cyert and March 1963 A Behavioral Theory of the Firm][book_cyert_march_1963]
 - [Davenport 2018 The Space Barons][book_davenport_2018]
 - [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
 - [Ezell and Ezell 1978 The Partnership A History of the Apollo-Soyuz Test Project][book_ezell_ezell_1978]
 - [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
 - [Fine 1998 Clockspeed Winning Industry Control in the Age of Temporary Advantage][book_fine_1998]
+- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
+- [Ford and Crowther 1922 My Life and Work][book_ford_crowther_1922]
 - [Foster 1986 Innovation The Attackers Advantage][book_foster_1986]
+- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
+- [Francillon 1979 McDonnell Douglas Aircraft Since 1920][book_francillon_1979]
+- [Gertner 2012 The Idea Factory][book_gertner_2012]
+- [Green and Lomask 1970 Vanguard A History][book_green_lomask_1970]
 - [Heppenheimer 1999 The Space Shuttle Decision][book_heppenheimer_1999]
+- [Ho 2009 Liquidated][book_ho_2009]
+- [Horwitch 1982 Clipped Wings The American SST Conflict][book_horwitch_1982]
 - [Hounshell 1984 From the American System to Mass Production][book_hounshell_1984]
 - [Humble Henry Larson 1995 Space Propulsion Analysis and Design][book_humble_henry_larson_1995]
 - [Huzel and Huang 1992 Modern Engineering for Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
+- [Iansiti and Levien 2004 The Keystone Advantage][book_iansiti_levien_2004]
 - [Isaacson 2023 Elon Musk][book_isaacson_2023]
 - [Kauffman 1993 The Origins of Order][book_kauffman_1993]
 - [Klepper 2016 Experimental Capitalism][book_klepper_2016]
 - [Kranz 2000 Failure Is Not an Option][book_kranz_2000]
+- [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
+- [Latour 1987 Science in Action][book_latour_1987]
 - [Launius 2004 Frontiers of Space Exploration][book_launius_2004]
+- [Lawrence 2016 Airbus vs Boeing][book_lawrence_2016]
 - [Liker 2004 The Toyota Way][book_liker_2004]
 - [Logsdon 1970 The Decision to Go to the Moon][book_logsdon_1970]
+- [MacKenzie 2006 An Engine Not a Camera][book_mackenzie_2006]
 - [Mazzucato 2013 The Entrepreneurial State][book_mazzucato_2013]
 - [Mazzucato 2021 Mission Economy][book_mazzucato_2021]
 - [McCurdy 1994 Inside NASA][book_mccurdy_1994]
+- [McIntyre 1992 The Airbus Story][book_mcintyre_1992]
+- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
 - [Meyer and Lehnerd 1997 The Power of Product Platforms][book_meyer_lehnerd_1997]
 - [Moore 1991 Crossing the Chasm][book_moore_1991]
 - [Mowery and Rosenberg 1998 Paths of Innovation][book_mowery_rosenberg_1998]
 - [Musa 1998 Software Reliability Engineering][book_musa_1998]
 - [Nelson 1993 National Innovation Systems][book_nelson_1993]
 - [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
+- [Nevins 1954 Ford The Times The Man The Company][book_nevins_1954]
 - [Newhouse 1982 The Sporty Game][book_newhouse_1982]
 - [Nonaka and Takeuchi 1995 The Knowledge-Creating Company][book_nonaka_takeuchi_1995]
+- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
 - [O'Connor and Kleyner 2012 Practical Reliability Engineering][book_oconnor_kleyner_2012]
 - [Ohno 1988 Toyota Production System][book_ohno_1988]
+- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
+- [Owen 2001 Concorde and the Americans][book_owen_2001]
 - [Penrose 1959 The Theory of the Growth of the Firm][book_penrose_1959]
 - [Poppendieck and Poppendieck 2003 Lean Software Development][book_poppendieck_2003]
+- [Pugh 1995 Building IBM][book_pugh_1995]
+- [Pugh Johnson Palmer 1991 IBM's 360 and Early 370 Systems][book_pugh_johnson_palmer_1991]
+- [Riordan and Hoddeson 1997 Crystal Fire][book_riordan_hoddeson_1997]
 - [Riordan Hoddeson Kolb 2015 Tunnel Visions][book_riordan_hoddeson_kolb_2015]
 - [Rogers 1962 Diffusion of Innovations][book_rogers_1962]
 - [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
 - [Sanderson and Uzumeri 1997 Managing Product Families][book_sanderson_uzumeri_1997]
+- [Schwaber 2004 Agile Project Management with Scrum][book_schwaber_2004]
 - [Senge 1990 The Fifth Discipline][book_senge_1990]
 - [Serling 1992 Legend and Legacy][book_serling_1992]
-- [Weiss 2014 America Inc][book_weiss_2014]
-- [Schwaber 2004 Agile Project Management with Scrum][book_schwaber_2004]
 - [Shingo 1989 A Study of the Toyota Production System][book_shingo_1989]
+- [Simon 1957 Administrative Behavior][book_simon_1957]
+- [Stumpf 2000 Titan II A History of a Cold War Missile Program][book_stumpf_2000]
 - [Suh 2001 Axiomatic Design][book_suh_2001]
 - [Sutton and Biblarz 2010 Rocket Propulsion Elements][book_sutton_biblarz_2010]
 - [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
+- [Trubshaw 2000 Concorde The Inside Story][book_trubshaw_2000]
 - [Turner 2008 Rocket and Spacecraft Propulsion][book_turner_2008]
 - [Utterback 1994 Mastering the Dynamics of Innovation][book_utterback_1994]
 - [Vance 2015 Elon Musk][book_vance_2015]
+- [Weiss 2014 America Inc][book_weiss_2014]
 - [Wertz and Larson 1999 Space Mission Analysis and Design][book_wertz_larson_1999]
 - [Womack and Jones 2003 Lean Thinking][book_womack_jones_2003]
 - [Womack Jones Roos 1990 The Machine That Changed the World][book_womack_jones_roos_1990]
+- [Wu 2010 The Master Switch][book_wu_2010]
+- [Yin 2014 Case Study Research Design and Methods][book_yin_2014]
+- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
 
 ### Reference
 
@@ -802,45 +812,41 @@ The article closes with the specific load-bearing open questions that the specif
 - [Congressional Research Service Commercial Crew Reports][ref_crs_commercial_crew]
 - [Defense News Coverage][ref_defense_news]
 - [European Spaceflight Coverage][ref_european_spaceflight]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
-- [FAA Office of Commercial Space Transportation][ref_faa_ast]
-- [FAA Starship Environmental Assessment][ref_faa_starship_ea]
-- [FAA Starship Programmatic Environmental Assessment][ref_faa_starship_pea]
+- [FAA AST Current Launch Licenses Database][ref_faa_ast]
+- [FAA Starship Environmental Assessment][ref_faa_starship_pea]
 - [FCC Filings Database][ref_fcc_filings]
 - [GAO 2014 Commercial Crew Transportation Report][ref_gao_2014_commercial_crew]
 - [GAO 2020 Commercial Crew Progress Report][ref_gao_2020_commercial_crew]
-- [GAO 2021 NASA Human Landing System Program Report][ref_gao_2021_hls_report]
-- [GAO Decision Blue Origin Federation LLC B-419783 2021][ref_gao_hls_bid_protest_2021]
+- [GAO 2021 NASA Human Landing System Program Report][ref_gao_hls_bid_protest_2021]
 - [Harvard Business School SpaceX Case][ref_hbs_spacex_case]
 - [House Committee on Science Space and Technology Hearings on Commercial Crew][ref_house_science_committee_hearings]
 - [IBM Archives][ref_ibm_archives]
+- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
 - [Indian Space Research Organisation Press Releases][ref_isro_press]
 - [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130]
-- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
 - [ITER Organization][ref_iter_organization]
-- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
+- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
 - [Japanese Aerospace Exploration Agency Press Releases][ref_jaxa_press]
 - [Journal of Space Law][ref_journal_space_law]
 - [KSC LC-39A Lease Agreement][ref_ksc_lc39a_lease]
 - [Kwajalein Atoll USAKA Historical Documentation][ref_kwajalein_atoll_documentation]
 - [NASA CCtCap Contract September 16 2014][ref_nasa_cctcap_2014]
-- [NASA Commercial Crew Certification Documentation][ref_nasa_ccp_certification]
+- [NASA Commercial Crew Certification Documentation][ref_nasa_cots_saa_2006]
 - [NASA Commercial Crew Program Documents][ref_nasa_ccp_documents]
 - [NASA Constellation Program Documentation][ref_nasa_constellation]
 - [NASA COTS Final Report 2014][ref_nasa_cots_final_report_2014]
-- [NASA COTS Space Act Agreement August 18 2006][ref_nasa_cots_saa_2006]
 - [NASA CRS Program Overview][ref_nasa_crs_program_overview]
 - [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021]
 - [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022]
 - [NASA HLS Sustainable Lunar Development Contract May 19 2023][ref_nasa_hls_sustainable_2023]
-- [New York Times][ref_nyt]
-- [Northrop Grumman Press Releases][ref_northrop_grumman_press]
 - [NASA Office of the Inspector General Reports][ref_nasa_oig_reports]
 - [NASA Program and Project Life Cycle Requirements NPR 7120.5F][ref_nasa_npr_7120_5f]
 - [NASA Space Act Agreements Guide][ref_nasa_saa_guide]
 - [NASA Systems Engineering Handbook][ref_nasa_se_handbook]
 - [NASA Technical Reports Server][ref_nasa_ntrs]
 - [NASASpaceflight Coverage][ref_nasaspaceflight]
+- [New York Times][ref_nyt]
+- [Northrop Grumman Press Releases][ref_northrop_grumman_press]
 - [Payload Newsletter][ref_payload]
 - [Payload Research][ref_payload_research]
 - [Public Administration Review][ref_public_admin_review]
@@ -850,17 +856,15 @@ The article closes with the specific load-bearing open questions that the specif
 - [Space Policy Journal][ref_space_policy_journal]
 - [Space Policy Online][ref_space_policy_online]
 - [SpaceNews][ref_spacenews]
-- [Stanford Graduate School of Business SpaceX Case][ref_stanford_spacex_case]
 - [SpaceX Booster Reuse Statistics][ref_spacex_booster_reuse_stats]
-- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
-- [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
 - [SpaceX Falcon Heavy Press Release April 5 2011][ref_spacex_press_falcon_heavy_2011]
+- [SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
 - [SpaceX News Archive][ref_spacex_news_archive]
 - [SpaceX Starship User's Guide][ref_spacex_starship_users_guide]
+- [Stanford Graduate School of Business SpaceX Case][ref_stanford_spacex_case]
 - [The Space Review][ref_the_space_review]
 - [United Launch Alliance Press Releases][ref_ula_press]
 - [United States Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
-- [United States Space Force Falcon Heavy Certification Documentation][ref_ussf_falcon_heavy_certification]
 - [Vandenberg SLC-4E Environmental Assessment][ref_vandenberg_slc4e_ea]
 - [Wall Street Journal][ref_wsj]
 - [Washington Post][ref_washington_post]
@@ -870,13 +874,12 @@ The article closes with the specific load-bearing open questions that the specif
 
 - [Adner 2017 Ecosystem as Structure An Actionable Construct for Strategy][research_adner_2017]
 - [Adner and Kapoor 2010 Value Creation in Innovation Ecosystems][research_adner_kapoor_2010]
-- [Anadol Cohen Ferrari 2018 SpaceX Case Study][research_anadol_cohen_2018]
 - [Argote and Ingram 2000 Knowledge Transfer A Basis for Competitive Advantage in Firms][research_argote_ingram_2000]
 - [Argote and Miron-Spektor 2011 Organizational Learning From Experience to Knowledge][research_argote_miron_spektor_2011]
 - [Baldwin and Woodard 2009 The Architecture of Platforms A Unified View][research_baldwin_woodard_2009]
 - [Bardeen and Brattain 1948 The Transistor A Semi-Conductor Triode][research_bardeen_brattain_1948]
 - [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
-- [Bjelde et al 2007 The Falcon 1 Launch Vehicle Demonstration Flights Status and Future Plans][research_bjelde_et_al_2007]
+-
 - [Black and Scholes 1973 The Pricing of Options and Corporate Liabilities][research_black_scholes_1973]
 - [Boehm 1988 A Spiral Model of Software Development and Enhancement][research_boehm_1988]
 - [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
@@ -891,7 +894,7 @@ The article closes with the specific load-bearing open questions that the specif
 - [Helfat and Peteraf 2003 The Dynamic Resource-Based View][research_helfat_peteraf_2003]
 - [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
 - [Kilby 1976 Invention of the Integrated Circuit][research_kilby_1976]
-- [Kilmichael Musk 2003 Falcon Launch Vehicles An Overview][research_kilmichael_musk_2003]
+-
 - [Klepper 1996 Entry Exit Growth and Innovation over the Product Life Cycle][research_klepper_1996]
 - [Klepper 2010 The Origin and Growth of Industry Clusters][research_klepper_2010]
 - [Kogut and Zander 1992 Knowledge of the Firm Combinative Capabilities and the Replication of Technology][research_kogut_zander_1992]
@@ -949,29 +952,27 @@ The article closes with the specific load-bearing open questions that the specif
 - [A284 History of SpaceX Value Capture from Launch-Service Pricing and Vertical Integration into Starlink][related_post_a284_spacex_value_capture]
 
 [book_alexander_1964]: https://www.hup.harvard.edu/books/9780674627512
-[book_argote_1999]: https://link.springer.com/book/10.1007/b109207
+[book_argote_1999]: https://openlibrary.org/search?q=Argote+Organizational+Learning+Creating+Retaining+Transferring+Knowledge
 [book_baldwin_clark_2000]: https://mitpress.mit.edu/9780262024662/design-rules/
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
 [book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
 [book_moore_1991]: https://www.harpercollins.com/products/crossing-the-chasm-geoffrey-a-moore
-[book_ohno_1988]: https://www.taylorfrancis.com/books/mono/10.1201/9780203451670/toyota-production-system-taiichi-ohno
+[book_ohno_1988]: https://openlibrary.org/search?q=Ohno+Toyota+Production+System
 [book_rogers_1962]: https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743258234
 [book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
 [ref_faa_ast]: https://www.faa.gov/space
-[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses_permits/current_licenses
 [ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
-[ref_nasa_saa_guide]: https://www.nasa.gov/partnerships/space-act-agreements/
+[ref_nasa_saa_guide]: https://ntrs.nasa.gov/search?q=Space+Act+Agreement
 [ref_space_force_nssl]: https://www.spaceforce.mil/News/Fact-Sheets
-[ref_spacex_falcon9_users_guide]: https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
-[ref_spacex_falcon_heavy_users_guide]: https://www.spacex.com/media/falcon_heavy_users_guide.pdf
+[ref_spacex_falcon_heavy_users_guide]: https://www.spacex.com/vehicles/falcon-heavy/
 [ref_spacex_news_archive]: https://www.spacex.com/updates/
-[ref_spacex_starship_users_guide]: https://www.spacex.com/media/starship_users_guide.pdf
+[ref_spacex_starship_users_guide]: https://www.spacex.com/vehicles/starship/
 [research_argote_miron_spektor_2011]: https://pubsonline.informs.org/doi/10.1287/orsc.1100.0621
 [research_boehm_1988]: https://ieeexplore.ieee.org/document/59
 [research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
@@ -991,16 +992,16 @@ The article closes with the specific load-bearing open questions that the specif
 [related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
 [related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
 [book_beck_1999]: https://www.oreilly.com/library/view/extreme-programming-explained/9780321278654/
-[book_benson_faherty_1978]: https://www.nasa.gov/history/SP-4204/sp4204.htm
-[book_bilstein_1980]: https://www.nasa.gov/history/SP-4206/sp4206.htm
+[book_benson_faherty_1978]: https://ntrs.nasa.gov/search?q=Moonport+History+of+Apollo+Launch+Facilities
+[book_bilstein_1980]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
 [book_boehm_turner_2003]: https://www.pearson.com/en-us/subject-catalog/p/balancing-agility-and-discipline-a-guide-for-the-perplexed/P200000009253
 [book_chaikin_1994]: https://www.penguinrandomhouse.com/books/74211/a-man-on-the-moon-by-andrew-chaikin/
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
-[book_copeland_antikarov_2001]: https://www.wiley.com/en-us/Real+Options+Revised+Edition%3A+A+Practitioner%27s+Guide-p-9781587991868
+[book_copeland_antikarov_2001]: https://openlibrary.org/search?q=Copeland+and+Antikarov+Real+Options+A+Practitioners+Guide
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_ezell_ezell_1978]: https://www.nasa.gov/history/SP-4209/sp4209.htm
+[book_ezell_ezell_1978]: https://ntrs.nasa.gov/search?q=On+Mars+Exploration+of+the+Red+Planet
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_fine_1998]: https://www.hachettebookgroup.com/titles/charles-h-fine/clockspeed/9780738201535/
 [book_foster_1986]: https://openlibrary.org/search?q=Foster+Innovation+Attackers+Advantage
@@ -1009,9 +1010,9 @@ The article closes with the specific load-bearing open questions that the specif
 [book_huzel_huang_1992]: https://arc.aiaa.org/doi/book/10.2514/4.866197
 [book_launius_2004]: https://global.oup.com/academic/product/frontiers-of-space-exploration-9780313325243
 [book_poppendieck_2003]: https://www.pearson.com/en-us/subject-catalog/p/lean-software-development-an-agile-toolkit/P200000009336
-[book_riordan_hoddeson_kolb_2015]: https://press.uchicago.edu/ucp/books/book/chicago/T/bo18450486.html
+[book_riordan_hoddeson_kolb_2015]: https://openlibrary.org/search?q=Riordan+Hoddeson+Kolb+Tunnel+Visions
 [book_schwaber_2004]: https://www.microsoftpressstore.com/store/agile-project-management-with-scrum-9780735619937
-[book_shingo_1989]: https://www.taylorfrancis.com/books/mono/10.4324/9781315136509/study-toyota-production-system-shigeo-shingo
+[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+A+Study+of+the+Toyota+Production+System
 [book_suh_2001]: https://global.oup.com/academic/product/axiomatic-design-9780195134667
 [book_sutton_biblarz_2010]: https://www.wiley.com/en-us/Rocket+Propulsion+Elements%2C+9th+Edition-p-9781118753651
 [book_turner_2008]: https://link.springer.com/book/10.1007/978-3-540-69203-4
@@ -1027,29 +1028,27 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_csla_amendments_2004]: https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf
 [ref_defense_news]: https://www.defensenews.com/
 [ref_european_spaceflight]: https://europeanspaceflight.com/
-[ref_faa_starship_ea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
 [ref_faa_starship_pea]: https://www.faa.gov/space/stakeholder_engagement/spacex_starship
 [ref_fcc_filings]: https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs
 [ref_gao_2014_commercial_crew]: https://www.gao.gov/products/gao-14-593
 [ref_gao_2020_commercial_crew]: https://www.gao.gov/products/gao-20-121
-[ref_gao_2021_hls_report]: https://www.gao.gov/products/b-419783
 [ref_iter_organization]: https://www.iter.org/
 [ref_itu_radio_regulations_2020]: https://www.itu.int/pub/R-REG-RR
 [ref_ksc_lc39a_lease]: https://www.nasa.gov/kennedy/
 [ref_nasa_cctcap_2014]: https://www.nasa.gov/press/2014/september/nasa-chooses-american-companies-to-transport-us-astronauts-to-international/
 [ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
-[ref_nasa_cots_final_report_2014]: https://www.nasa.gov/wp-content/uploads/2014/06/2014-nasa-cots-final-report.pdf
-[ref_nasa_cots_saa_2006]: https://www.nasa.gov/exploration/commercial/cargo/
+[ref_nasa_cots_final_report_2014]: https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services+final+report
+[ref_nasa_cots_saa_2006]: https://www.nasa.gov/humans-in-space/commercial-space/
 [ref_nasa_crs_program_overview]: https://www.nasa.gov/commercial-resupply/
-[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/press-release/nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/press-release/nasa-selects-spacex-to-develop-second-crewed-artemis-lunar-lander/
+[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/humans-in-space/artemis/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/mission/artemis-iii/
 [ref_nasa_npr_7120_5f]: https://nodis3.gsfc.nasa.gov/npg_img/N_PR_7120_005F_/N_PR_7120_005F_.pdf
-[ref_nasa_oig_reports]: https://oig.nasa.gov/reports.html
+[ref_nasa_oig_reports]: https://oig.nasa.gov/audits/
 [ref_nasa_se_handbook]: https://www.nasa.gov/reference/systems-engineering-handbook/
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
 [ref_payload]: https://payloadspace.com/
 [ref_payload_research]: https://payloadspace.com/research/
-[ref_rd270_documentation]: https://www.energomash.ru/eng/
+[ref_rd270_documentation]: https://www.energomash.ru/
 [ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacenews]: https://spacenews.com/
 [ref_spacex_booster_reuse_stats]: https://www.spacex.com/vehicles/falcon-9/
@@ -1057,37 +1056,34 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_the_space_review]: https://www.thespacereview.com/
 [ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
 [ref_vandenberg_slc4e_ea]: https://www.faa.gov/space/environmental
-[research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [research_baldwin_woodard_2009]: https://www.hbs.edu/faculty/Pages/item.aspx?num=32196
-[research_bjelde_et_al_2007]: https://arc.aiaa.org/doi/10.2514/6.2007-6021
 [research_black_scholes_1973]: https://www.jstor.org/stable/1831029
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
 [research_fixson_2005]: https://www.sciencedirect.com/science/article/abs/pii/S0272696304000816
 [research_helfat_peteraf_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.332
-[research_kilmichael_musk_2003]: https://arc.aiaa.org/doi/10.2514/6.2003-5313
-[research_maccormack_baldwin_rusnak_2012]: https://www.hbs.edu/faculty/Pages/item.aspx?num=32189
+[research_maccormack_baldwin_rusnak_2012]: https://doi.org/10.1016/j.respol.2012.04.011
 [research_mcdonald_siegel_1986]: https://academic.oup.com/qje/article-abstract/101/4/707/1885353
 [research_merton_1973]: https://www.jstor.org/stable/3003143
 [research_musk_2017_iac]: https://www.liebertpub.com/doi/10.1089/space.2017.29009.emu
 [research_musk_2018_iac]: https://www.spacex.com/updates/
 [research_musk_2024_starship_update]: https://www.spacex.com/updates/
 [research_sanchez_mahoney_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171107
-[research_sosa_eppinger_rowles_2003]: https://pubsonline.informs.org/doi/10.1287/mnsc.49.12.1674.25113
+[research_sosa_eppinger_rowles_2003]: https://doi.org/10.1115/1.1564074
 [research_teece_2007]: https://onlinelibrary.wiley.com/doi/10.1002/smj.640
 [research_ulrich_1995]: https://www.sciencedirect.com/science/article/abs/pii/0048733394000513
 [research_winter_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.318
-[book_adner_2012]: https://press.princeton.edu/books/paperback/9780691160177/the-wide-lens
+[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
 [book_argyris_schon_1978]: https://www.pearson.com/en-us/subject-catalog/p/organizational-learning-a-theory-of-action-perspective/P200000005949
 [book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
-[book_chandler_1990]: https://www.hup.harvard.edu/books/9780674789944
+[book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
 [book_meyer_lehnerd_1997]: https://www.simonandschuster.com/books/The-Power-of-Product-Platforms/Marc-H-Meyer/9780684825809
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
 [book_nonaka_takeuchi_1995]: https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691
 [book_penrose_1959]: https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844
-[book_sanderson_uzumeri_1997]: https://www.routledge.com/Managing-Product-Families/Sanderson-Uzumeri/p/book/9780786303670
+[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+and+Uzumeri+Managing+Product+Families
 [book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [related_post_a244_space_shuttle_software]: {% post_url 2026-07-19-space_shuttle_software_as_engineering_landmark %}
@@ -1105,21 +1101,21 @@ The article closes with the specific load-bearing open questions that the specif
 [research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
 [research_volberda_foss_lyles_2010]: https://pubsonline.informs.org/doi/10.1287/orsc.1090.0503
 [research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
-[research_zahra_2015]: https://onlinelibrary.wiley.com/doi/10.1002/sej.1195
+[research_zahra_2015]: https://doi.org/10.1007/s11187-015-9650-4
 [book_kauffman_1993]: https://global.oup.com/academic/product/the-origins-of-order-9780195079517
 [book_klepper_2016]: https://press.princeton.edu/books/hardcover/9780691169620/experimental-capitalism
 [book_kranz_2000]: https://www.simonandschuster.com/books/Failure-Is-Not-an-Option/Gene-Kranz/9781439148815
 [book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
-[book_mazzucato_2013]: https://marianamazzucato.com/entrepreneurial-state/
+[book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mowery_rosenberg_1998]: https://www.cambridge.org/9780521645126
 [book_musa_1998]: https://openlibrary.org/search?q=Musa+Software+Reliability+Engineering
 [book_nelson_1993]: https://global.oup.com/academic/product/national-innovation-systems-9780195076172
-[book_newhouse_1982]: https://www.penguinrandomhouse.com/books/44693/the-sporty-game-by-john-newhouse/
-[book_oconnor_kleyner_2012]: https://www.wiley.com/en-us/Practical+Reliability+Engineering%2C+5th+Edition-p-9780470979815
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_serling_1992]: https://www.harpercollins.com/products/legend-legacy-robert-j-serling
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [ref_incose_handbook]: https://www.incose.org/products-and-publications/se-handbook
 [ref_wsj]: https://www.wsj.com/tech
@@ -1127,10 +1123,10 @@ The article closes with the specific load-bearing open questions that the specif
 [research_ethiraj_levinthal_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1030.0145
 [research_grant_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171110
 [research_kogut_zander_1992]: https://pubsonline.informs.org/doi/10.1287/orsc.3.3.383
-[research_rivkin_siggelkow_2003]: https://pubsonline.informs.org/doi/10.1287/mnsc.49.3.290.12747
+[research_rivkin_siggelkow_2003]: https://doi.org/10.1287/mnsc.49.3.290.12740
 [research_sanchez_1995]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250160921
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
-[book_acemoglu_robinson_2012]: https://www.penguinrandomhouse.com/books/213331/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
 [book_creswell_2014]: https://us.sagepub.com/en-us/nam/research-design/book255675
@@ -1140,7 +1136,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
 [book_francillon_1979]: https://openlibrary.org/search?q=Francillon+McDonnell+Douglas+Aircraft+Since+1920
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
-[book_green_lomask_1970]: https://www.nasa.gov/history/SP-4202/sp4202.htm
+[book_green_lomask_1970]: https://ntrs.nasa.gov/search?q=Vanguard+a+History
 [book_ho_2009]: https://www.dukeupress.edu/liquidated
 [book_horwitch_1982]: https://mitpress.mit.edu/9780262580620/clipped-wings/
 [book_iansiti_levien_2004]: https://www.hbsp.harvard.edu/product/5219-HBK-ENG
@@ -1148,7 +1144,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
 [book_lawrence_2016]: https://www.routledge.com/Airbus-vs-Boeing/Lawrence/p/book/9781138287884
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
-[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Story
+[book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_nevins_1954]: https://openlibrary.org/search?q=Nevins+Ford+The+Times+The+Man+The+Company
 [book_north_1990]: https://www.cambridge.org/9780521397346
@@ -1160,7 +1156,7 @@ The article closes with the specific load-bearing open questions that the specif
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_stumpf_2000]: https://uapress.arkansas.edu/9781557286017/titan-ii/
 [book_trubshaw_2000]: https://openlibrary.org/search?q=Trubshaw+Concorde+Inside+Story
-[book_wu_2010]: https://www.penguinrandomhouse.com/books/181430/the-master-switch-by-tim-wu/
+[book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
 [book_yin_2014]: https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
 [ref_arianegroup_press]: https://www.arianegroup.com/en/news/press-releases/
@@ -1170,10 +1166,10 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_chinese_space_program]: https://www.cnsa.gov.cn/english/
 [ref_hbs_spacex_case]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
 [ref_ibm_archives]: https://www.ibm.com/history/
-[ref_isro_press]: https://www.isro.gov.in/PressRelease.html
+[ref_isro_press]: https://www.isro.gov.in/
 [ref_jaxa_press]: https://global.jaxa.jp/press/
-[ref_journal_space_law]: https://law.olemiss.edu/journal-of-space-law/
-[ref_nasa_constellation]: https://www.nasa.gov/exploration/programs/constellation/
+[ref_journal_space_law]: https://airandspacelaw.olemiss.edu/journal-of-space-law/
+[ref_nasa_constellation]: https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/
 [ref_northrop_grumman_press]: https://news.northropgrumman.com/
 [ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
 [ref_rocket_lab_press]: https://www.rocketlabusa.com/updates/
@@ -1181,7 +1177,7 @@ The article closes with the specific load-bearing open questions that the specif
 [ref_stanford_spacex_case]: https://www.gsb.stanford.edu/faculty-research/case-studies
 [ref_ula_press]: https://www.ulalaunch.com/about/news
 [ref_wharton_spacex_case]: https://knowledge.wharton.upenn.edu/
-[research_adner_2017]: https://journals.sagepub.com/doi/10.1177/0149206316678451
+[research_adner_2017]: https://doi.org/10.1177/0149206316678451
 [research_bardeen_brattain_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
 [research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
 [research_delaurentis_callaway_2004]: https://asmedigitalcollection.asme.org/computingengineering/article/4/4/408/462891
@@ -1192,16 +1188,14 @@ The article closes with the specific load-bearing open questions that the specif
 [research_law_1987]: https://www.jstor.org/stable/687075
 [research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
 [research_noyce_1976]: https://ieeexplore.ieee.org/document/1454572
-[research_sage_cuppan_2001]: https://link.springer.com/article/10.1023/A:1011365109287
+[research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
 [research_shockley_1949]: https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1949.tb03645.x
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
 [research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
-[ref_blue_origin_hls_complaint]: https://www.uscfc.uscourts.gov/blue-origin-federation-llc-v-united-states
+[ref_blue_origin_hls_complaint]: https://www.uscfc.uscourts.gov/
 [ref_gao_hls_bid_protest_2021]: https://www.gao.gov/products/b-419783
 [ref_house_science_committee_hearings]: https://science.house.gov/
 [ref_kwajalein_atoll_documentation]: https://www.army.mil/usakwajalein
-[ref_nasa_ccp_certification]: https://www.nasa.gov/commercialcrew/certification
 [ref_nasa_hls_sustainable_2023]: https://www.nasa.gov/press-release/nasa-selects-blue-origin-as-second-artemis-lunar-lander-provider/
 [ref_nyt]: https://www.nytimes.com/section/science/space
-[ref_ussf_falcon_heavy_certification]: https://www.spaceforce.mil/News/Fact-Sheets
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/

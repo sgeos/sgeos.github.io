@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "History of SpaceX: Governance That Resists Capital Capture Across Thirty-Plus Funding Rounds"
-date:   2026-07-30 09:00:00 +0000
+title: "History of SpaceX: Governance That Resists Capital Capture Across Thirty-Plus Funding Rounds"
+date: 2026-07-30 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -541,7 +541,7 @@ The specific methodological problem is more severe here than elsewhere in the se
 
 ### Adjacent Literature on Mission-Directed and Public-Purpose Organizations
 
-The specific literature on organizations constituted to pursue a specific purpose other than a specific financial return bears directly on the specific question and is largely disjoint from the specific corporate-governance literature. The specific public-private-partnership treatments in [Grimsey and Lewis 2004][book_grimsey_lewis_2004], [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004], and [Vining and Weimer 2005][research_vining_weimer_2005] treat the specific hybrid forms. The specific public-agency treatments in [Selznick 1949][book_selznick_1949], [Hargrove 1994][book_hargrove_1994], [Handberg 1994][book_handberg_1994] Reinventing NASA, and [McCurdy 1994][book_mccurdy_1994] Inside NASA treat the specific goal-displacement hazard in organizations with no specific residual claimant at all. The specific finding that the specific hazard appears in substantially every organizational form is the specific reason the article treats the governance condition as a specific general problem rather than as a specific artifact of the specific capital market.
+The specific literature on organizations constituted to pursue a specific purpose other than a specific financial return bears directly on the specific question and is largely disjoint from the specific corporate-governance literature. The specific public-private-partnership treatments in [Grimsey and Lewis 2004][book_grimsey_lewis_2004], [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004] treat the specific hybrid forms. The specific public-agency treatments in [Selznick 1949][book_selznick_1949], [Hargrove 1994][book_hargrove_1994], [Handberg 1994][book_handberg_1994] Reinventing NASA, and [McCurdy 1994][book_mccurdy_1994] Inside NASA treat the specific goal-displacement hazard in organizations with no specific residual claimant at all. The specific finding that the specific hazard appears in substantially every organizational form is the specific reason the article treats the governance condition as a specific general problem rather than as a specific artifact of the specific capital market.
 
 ### Critical and Skeptical Literature
 
@@ -987,7 +987,7 @@ The article closes with the specific load-bearing open questions the governance 
 - [Teece 2018 Profiting from Innovation in the Digital Economy][research_teece_2018]
 - [Teece Pisano and Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
 - [Tversky and Kahneman 1992 Advances in Prospect Theory][research_tversky_kahneman_1992]
-- [Vining and Weimer 2005 Establishing Public-Private Partnership Contracts][research_vining_weimer_2005]
+-
 - [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
 - [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
 - [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
@@ -1013,7 +1013,7 @@ The article closes with the specific load-bearing open questions the governance 
 - [A286 History of SpaceX Generality-Forcing from Mars Requirements as a Cross-Domain Capability Substrate][related_post_a286_spacex_generality_forcing]
 
 [book_abbott_1988]: https://openlibrary.org/search?q=Abbott+The+System+of+Professions
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
 [book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
@@ -1027,19 +1027,19 @@ The article closes with the specific load-bearing open questions the governance 
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
 [book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
-[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan+Rockefeller
-[book_copeland_antikarov_2001]: https://openlibrary.org/search?q=Copeland+Antikarov+Real+Options
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan
+[book_copeland_antikarov_2001]: https://openlibrary.org/search?q=Copeland+and+Antikarov+Real+Options+A+Practitioners+Guide
 [book_creswell_2014]: https://us.sagepub.com/en-us/nam/research-design/book255675
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
 [book_easterbrook_fischel_1991]: https://www.hup.harvard.edu/books/9780674235397
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_ford_crowther_1922]: https://openlibrary.org/search?q=Ford+My+Life+and+Work
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
-[book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
+[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_gompers_lerner_2001]: https://www.hbsp.harvard.edu/product/2434-HBK-ENG
 [book_grief_2006]: https://www.cambridge.org/9780521671347
@@ -1048,7 +1048,7 @@ The article closes with the specific load-bearing open questions the governance 
 [book_hansmann_1996]: https://www.hup.harvard.edu/books/9780674001718
 [book_hargrove_1994]: https://openlibrary.org/search?q=Hargrove+Prisoners+of+Myth
 [book_hart_1995]: https://global.oup.com/academic/product/firms-contracts-and-financial-structure-9780198288817
-[book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
+[book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
 [book_hiltzik_1999]: https://openlibrary.org/search?q=Hiltzik+Dealers+of+Lightning
 [book_ho_2009]: https://www.dukeupress.edu/liquidated
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
@@ -1070,12 +1070,12 @@ The article closes with the specific load-bearing open questions the governance 
 [book_lecuyer_2006]: https://mitpress.mit.edu/9780262622110/making-silicon-valley/
 [book_lerner_2009]: https://press.princeton.edu/books/hardcover/9780691142197/boulevard-of-broken-dreams
 [book_levin_2010]: https://openlibrary.org/search?q=Levin+Wires+That+Bind
-[book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
+[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
 [book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
-[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+McMillan+Incentives+in+Government+Contracting
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+and+McMillan+Incentives+in+Government+Contracting
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
@@ -1104,12 +1104,12 @@ The article closes with the specific load-bearing open questions the governance 
 [book_roe_1994]: https://press.princeton.edu/books/paperback/9780691026312/strong-managers-weak-owners
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
 [book_saxenian_1994]: https://www.hup.harvard.edu/books/9780674753402
-[book_schroeder_2008]: https://openlibrary.org/search?q=Schroeder+The+Snowball+Buffett
+[book_schroeder_2008]: https://openlibrary.org/search?q=Schroeder+The+Snowball+Warren+Buffett+and+the+Business+of+Life
 [book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
 [book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
 [book_smith_alexander_1988]: https://openlibrary.org/search?q=Smith+Alexander+Fumbling+the+Future
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
-[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+Asian+Trade+Revolution
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+The+Asian+Trade+Revolution+of+the+Seventeenth+Century
 [book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
 [book_stone_2013]: https://www.hachettebookgroup.com/titles/brad-stone/the-everything-store/9780316219259/
 [book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
@@ -1214,9 +1214,9 @@ The article closes with the specific load-bearing open questions the governance 
 [research_bebchuk_kraakman_triantis_2000]: https://www.nber.org/chapters/c9013
 [research_binmore_rubinstein_wolinsky_1986]: https://www.jstor.org/stable/2555382
 [research_black_scholes_1973]: https://www.jstor.org/stable/1831029
-[research_block_2008]: https://journals.sagepub.com/doi/10.1177/0032329207312349
+[research_block_2008]: https://doi.org/10.1177/0032329208318731
 [research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
-[research_bovaird_2004]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9299.2004.00405.x
+[research_bovaird_2004]: https://doi.org/10.1177/0020852304044250
 [research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
 [research_che_chung_1999]: https://academic.oup.com/rand/article-abstract/30/1/97/2701540
 [research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
@@ -1227,7 +1227,7 @@ The article closes with the specific load-bearing open questions the governance 
 [research_eisenmann_et_al_2006]: https://hbr.org/2006/10/strategies-for-two-sided-markets
 [research_ewens_farre_mensa_2020]: https://academic.oup.com/rfs/article-abstract/33/12/5463/5866533
 [research_fama_jensen_1983]: https://www.jstor.org/stable/725104
-[research_finkelstein_sanford_2000]: https://sloanreview.mit.edu/
+[research_finkelstein_sanford_2000]: https://doi.org/10.1016/S0090-2616(00)00020-6
 [research_gagnepain_ivaldi_2002]: https://academic.oup.com/rand/article-abstract/33/4/605/2603099
 [research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
 [research_gompers_1995]: https://www.jstor.org/stable/2329227
@@ -1244,7 +1244,7 @@ The article closes with the specific load-bearing open questions the governance 
 [research_jensen_1986]: https://www.jstor.org/stable/1818789
 [research_jensen_meckling_1976]: https://www.sciencedirect.com/science/article/pii/0304405X7690026X
 [research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
-[research_kalnins_mayer_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0223
+[research_kalnins_mayer_2004]: https://doi.org/10.1093/jleo/ewh030
 [research_kaplan_stromberg_2003]: https://academic.oup.com/restud/article-abstract/70/2/281/1571073
 [research_kaplan_stromberg_2004]: https://academic.oup.com/rfs/article-abstract/17/1/1/1601330
 [research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
@@ -1267,7 +1267,7 @@ The article closes with the specific load-bearing open questions the governance 
 [research_peteraf_1993]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250140303
 [research_rochet_tirole_2003]: https://www.jstor.org/stable/40007911
 [research_rochet_tirole_2006]: https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00036.x
-[research_ross_staw_1993]: https://journals.aom.org/doi/10.5465/256640
+[research_ross_staw_1993]: https://doi.org/10.2307/256756
 [research_rubinstein_1982]: https://www.jstor.org/stable/1912531
 [research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
 [research_sahlman_1990]: https://www.sciencedirect.com/science/article/pii/0304405X9090065E
@@ -1278,8 +1278,7 @@ The article closes with the specific load-bearing open questions the governance 
 [research_teece_2018]: https://www.sciencedirect.com/science/article/pii/S0048733317301993
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
 [research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
-[research_vining_weimer_2005]: https://link.springer.com/journal/11115
-[research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
+[research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_winter_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.318

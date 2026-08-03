@@ -16,6 +16,15 @@ and that appropriate ecosystem standard choices will replace any tooling that ha
 Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
+
+## Series-Wide Consistency Pass 2026-08-04
+
+All twelve History of SpaceX articles A281 through A292, published and drafted, were audited together for equation density, reference density, publication suitability, crosslinks, and link validity. Front matter and crosslinks were already fully consistent. Equation density needed no change at 64 to 78 with median 72. A284 was the sole reference-density outlier at 49 primary references and was raised to 68. A285 was the sole structural outlier at 4 H3 subsections and received five Historiographical Gap subsections. Five prose style violations were repaired across A281, A282, and A284.
+
+A citation-integrity audit of all 109 DOI-bearing anchors found twelve fabricated citations and nineteen unregistered DOIs, all repaired, plus five citations removed because the claimed work could not be confirmed to exist. A full sweep of all 853 unique URLs found 84 dead links, all repaired. Final state across all twelve is zero missing, unused, or duplicate anchors, zero duplicate bullets, zero duplicate URLs, all reference blocks alphabetical, and zero style violations.
+
+Outstanding from this pass: 30 of the 43 Open Library replacement URLs were applied without individual confirmation, because openlibrary.org began refusing requests after the 853-URL sweep saturated it. The pattern was verified 13 times during the pass and the series already relies on it in 269 places. A paced sweep should confirm the remainder before publication.
+
 ## Draft Status
 
 ### History of SpaceX Synthesis and Projection article (A292) — Drafted (publication-review parity, series complete)
