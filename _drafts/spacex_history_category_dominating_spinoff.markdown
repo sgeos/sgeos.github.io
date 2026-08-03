@@ -27,7 +27,17 @@ The general form of the problem can be stated compactly. Let $q^{\text{internal}
 
 $$q^{\text{total}} = q^{\text{internal}} + q^{\text{external}}$$
 
-with the ordinary treatment of a launch business considering only the second term. The article's position is that the first term became the larger one and that the transition is the central event in the firm's commercial history.
+with the ordinary treatment of a launch business considering only the second term. The article's position is that the first term became the larger one and that the transition is the central event in the firm's commercial history. The transition admits statement as a share crossing one half
+
+$$s(t) = \frac{q^{\text{internal}}(t)}{q^{\text{total}}(t)} \qquad \text{with} \qquad \frac{ds}{dt} > 0 \;\; \text{and} \;\; s(t) > \tfrac{1}{2} \;\; \text{after some date}$$
+
+with the date at which the majority of the firm's own launches served its own constellation being the point at which the launch business ceased to be primarily a merchant business. The quantity is reconstructible from public launch manifests and is one of the few claims in this article that does not depend on unpublished financial data.
+
+The relation among the three capital-formation legs admits compact statement as a decomposition of the external requirement
+
+$$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
+
+with the government term the subject of the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg], the residual met by the private leg the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] describes, and the third term the subject of this article. The three legs are therefore not parallel alternatives but terms in a single budget identity, and the sequence in which they arrived is the sequence in which each became available.
 
 The identification problem is the counterfactual, and it admits the compact form
 
@@ -71,11 +81,23 @@ $$\Delta C = N \cdot m$$
 
 with the disadvantage scaling linearly in the campaign size. A constellation is precisely the application in which $N$ is large, which is the structural reason the advantage matters here and would not matter for a business requiring a single launch.
 
+The condition a competitor must satisfy to remain viable against the gap admits the compact form
+
+$$\Pi^{\text{competitor}} > 0 \iff \left( \text{ARPU} - c^{\text{operating}} \right) \cdot n^{\text{sub}} \; > \; C^{\text{deployment}} + N \cdot m$$
+
+with the final term the disadvantage the integrated operator does not bear. A competitor must therefore either serve more subscribers, charge more, or operate more cheaply than the integrated operator merely to reach the same margin, and it must do so while holding an identical satellite technology and an identical spectrum position. The article's position is that no contemporaneous competitor has demonstrated any of the three.
+
 The capacity argument that motivates the arrangement admits statement as a utilization condition. A launch capability has a fixed cost of maintaining production and operations that is incurred whether or not vehicles fly. Let $\bar{q}$ denote the capacity the fixed cost sustains and $q^{\text{external}}$ the external demand. Where
 
 $$q^{\text{external}} < \bar{q}$$
 
 the residual capacity is idle and its marginal cost of use is low. The spinoff converts that residual into a revenue stream, and the arrangement is best understood as the monetization of a by-product rather than as an entry into a new market.
+
+The effect on the parent's own cost structure follows directly, because a fixed cost spread across more flights falls per flight. The average cost admits the compact form
+
+$$\bar{c}(q) = \frac{F}{q} + c^{\text{marginal}} \qquad \text{with} \qquad \frac{d\bar{c}}{dq} < 0$$
+
+with $F$ the fixed cost of maintaining production and operations. The spinoff therefore lowers the cost at which the parent can serve its external customers as a by-product of serving itself, which is the reverse of the resource-diversion the diversification literature predicts and which the article regards as the strongest single piece of evidence that the arrangement is not a diversification.
 
 The capital-formation function admits statement as a crossover condition. Let $R(t)$ denote the spinoff's free cash contribution and $B(t)$ the parent's mission-directed burn. The external capital requirement is
 
@@ -91,19 +113,51 @@ after which external capital becomes optional. The article's position is that th
 
 The commercial-spinoff property admits characterization from several disciplinary traditions beyond the mission-oriented-innovation framework the series adopts as primary.
 
-The vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1971][research_williamson_1971], [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], and [Grossman and Hart 1986][research_grossman_hart_1986]. The framing supplies the account of when a firm should make rather than buy, and its contribution here is to identify the specific condition the case satisfies. The constellation requires a launch cadence no external supplier could commit to at any price the programme could bear, so the make decision follows from supply unavailability rather than from a cost comparison.
+The vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1971][research_williamson_1971], [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], and [Grossman and Hart 1986][research_grossman_hart_1986]. The framing supplies the account of when a firm should make rather than buy, and its contribution here is to identify the specific condition the case satisfies. The ordinary condition compares costs and admits the compact form
 
-The appropriability tradition traces from [Teece 1986][research_teece_1986] Profiting from Technological Innovation. The framing is the most directly applicable of any in this survey. It holds that an innovator captures value only where it controls the complementary assets an innovation requires, and it identifies launch capacity as precisely such an asset for a constellation business. The [Value Capture article A284][related_post_a284_spacex_value_capture] develops the general point and this article supplies the sharpest instance of it in the series.
+$$\text{make} \iff c^{\text{internal}} + g < p^{\text{market}}$$
 
-The network-effects and standards tradition traces from [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility, [Farrell and Saloner 1985][research_farrell_saloner_1985], [Arthur 1989][research_arthur_1989] Competing Technologies Increasing Returns and Lock-In, and [David 1985][research_david_1985] Clio and the Economics of QWERTY. The framing supplies the account of why a constellation business exhibits increasing returns, because coverage completeness is a step function of satellite count and a partially deployed constellation is worth substantially less than a proportional fraction of a complete one.
+with $g$ the governance cost of operating the activity inside the firm. The present case does not turn on that inequality. The constellation requires a launch cadence no external supplier could commit to at any price the programme could bear, so the relevant condition is
 
-The two-sided-market and platform tradition traces from [Rochet and Tirole 2003][research_rochet_tirole_2003] and [Rochet and Tirole 2006][research_rochet_tirole_2006] through [Rysman 2009][research_rysman_2009], [Parker and Van Alstyne 2005][research_parker_vanalstyne_2005], [Evans 2003][research_evans_2003], [Boudreau 2010][research_boudreau_2010], [Hagiu and Wright 2015][research_hagiu_wright_2015], [Gawer 2014][research_gawer_2014], [Gawer and Cusumano 2014][research_gawer_cusumano_2014], [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018], with the book-length treatments at [Cusumano and Gawer 2002][book_cusumano_gawer_2002], [Iansiti and Levien 2004][book_iansiti_levien_2004], and [Van Alstyne Parker and Choudary 2016][book_vanalstyne_parker_choudary_2016]. The framing applies partially and the article marks the limit. The direct-to-cell extension is genuinely two-sided, because it serves subscribers through carriers and its value to each depends on the other. The consumer broadband service is not two-sided and is an ordinary subscription business with a satellite delivery mechanism.
+$$\text{make} \iff \nexists \; \text{supplier with} \; \dot{q}^{\text{available}} \geq \dot{q}^{\text{required}}$$
 
-The regulated-industry and natural-monopoly tradition traces from [Sharkey 1982][book_sharkey_1982] The Theory of Natural Monopoly through [Kahn 1988][book_kahn_1988] The Economics of Regulation, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, [Krueger 1974][research_krueger_1974], [Bain 1968][book_bain_1968], [Scherer and Ross 1990][book_scherer_ross_1990], and [Tirole 1988][book_tirole_1988]. The framing supplies the account of what a finite orbital and spectral resource implies, and it is the tradition most likely to generate the regulatory response the article's closing questions anticipate.
+with the make decision following from supply unavailability rather than from a cost comparison. The distinction matters because it means the integration would have been correct even had it been more expensive than buying, which is not the case the transaction-cost literature ordinarily treats.
 
-The competition-policy tradition traces from [Bork 1978][book_bork_1978] The Antitrust Paradox through [Posner 2001][book_posner_2001], [Hovenkamp 2005][book_hovenkamp_2005], and [Khan 2017][research_khan_2017] Amazon's Antitrust Paradox. The [Khan 2017][research_khan_2017] treatment is directly relevant because it concerns a vertically integrated firm that competes with the parties who depend on its infrastructure, which is the exact structure this article describes once external launch customers and the constellation compete for the same capacity.
+The appropriability tradition traces from [Teece 1986][research_teece_1986] Profiting from Technological Innovation. The framing is the most directly applicable of any in this survey. It holds that an innovator captures value only where it controls the complementary assets an innovation requires, and it identifies launch capacity as precisely such an asset for a constellation business. The captured share admits the compact form
 
-The technology-cycle tradition traces from [Abernathy and Clark 1985][research_abernathy_clark_1985] through [Anderson and Tushman 1990][research_anderson_tushman_1990], [Henderson and Clark 1990][research_henderson_clark_1990] Architectural Innovation, [Bower and Christensen 1995][research_bower_christensen_1995], [Christensen and Rosenbloom 1995][research_christensen_rosenbloom_1995], [Utterback 1994][book_utterback_1994], [Christensen 1997][book_christensen_1997], [Christensen and Raynor 2003][book_christensen_raynor_2003], and [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies. The framing treats the constellation as a discontinuity in the delivery of connectivity rather than as an improvement in satellite communications, which is the reading that best explains why the incumbent operators did not respond.
+$$\sigma^{\text{innovator}} = \sigma\!\left( \text{control of complementary assets}, \; \text{strength of the appropriability regime} \right)$$
+
+with the value accruing to the holder of the scarce complement where the innovation itself is imitable. Satellite manufacture is imitable and launch capacity at the required cadence was not, which is the framing's explanation for where the value settled. The [Value Capture article A284][related_post_a284_spacex_value_capture] develops the general point and this article supplies the sharpest instance of it in the series.
+
+The network-effects and standards tradition traces from [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility, [Farrell and Saloner 1985][research_farrell_saloner_1985], [Arthur 1989][research_arthur_1989] Competing Technologies Increasing Returns and Lock-In, and [David 1985][research_david_1985] Clio and the Economics of QWERTY. The framing supplies the account of why a constellation business exhibits increasing returns, because coverage completeness is a step function of satellite count. The value relation admits the compact form
+
+$$V(S) \ll \frac{S}{S^{\ast}} \cdot V(S^{\ast}) \qquad \text{for} \qquad S < S^{\ast}$$
+
+with $S^{\ast}$ the count at which continuous coverage is attained. The convexity below the threshold is what makes the business unfinanceable against its own early revenue and is the point at which this article's subject connects to the two preceding capital-formation legs.
+
+The two-sided-market and platform tradition traces from [Rochet and Tirole 2003][research_rochet_tirole_2003] and [Rochet and Tirole 2006][research_rochet_tirole_2006] through [Rysman 2009][research_rysman_2009], [Parker and Van Alstyne 2005][research_parker_vanalstyne_2005], [Evans 2003][research_evans_2003], [Boudreau 2010][research_boudreau_2010], [Hagiu and Wright 2015][research_hagiu_wright_2015], [Gawer 2014][research_gawer_2014], [Gawer and Cusumano 2014][research_gawer_cusumano_2014], [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018], with the book-length treatments at [Cusumano and Gawer 2002][book_cusumano_gawer_2002], [Iansiti and Levien 2004][book_iansiti_levien_2004], and [Van Alstyne Parker and Choudary 2016][book_vanalstyne_parker_choudary_2016]. The framing applies partially and the article marks the limit. A genuinely two-sided market exhibits a cross-side externality, admitting the compact condition
+
+$$\frac{\partial u^{A}}{\partial n^{B}} > 0 \qquad \text{and} \qquad \frac{\partial u^{B}}{\partial n^{A}} > 0$$
+
+with the utility of each side rising in the participation of the other. The direct-to-cell extension satisfies the condition, because it serves subscribers through carriers and the value to each rises with the other. The consumer broadband service does not, because a subscriber's service quality is weakly decreasing in the number of other subscribers sharing a cell. The broadband business is therefore an ordinary subscription business with a satellite delivery mechanism, and importing platform conclusions into it is an error the commentary makes routinely.
+
+The regulated-industry and natural-monopoly tradition traces from [Sharkey 1982][book_sharkey_1982] The Theory of Natural Monopoly through [Kahn 1988][book_kahn_1988] The Economics of Regulation, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, [Krueger 1974][research_krueger_1974], [Bain 1968][book_bain_1968], [Scherer and Ross 1990][book_scherer_ross_1990], and [Tirole 1988][book_tirole_1988]. The framing supplies the account of what a finite orbital and spectral resource implies. Natural monopoly in the technical sense requires cost subadditivity, admitting the compact condition
+
+$$C\!\left( \textstyle\sum_i y_i \right) < \sum_i C(y_i)$$
+
+for the relevant output vectors, meaning a single operator serves the market more cheaply than several. The condition plausibly holds for a constellation, because coverage must be complete regardless of subscriber count and duplicating it duplicates the entire fixed cost. The tradition is therefore the one most likely to generate the regulatory response the article's closing questions anticipate, and the article notes that the subadditivity argument is stronger here than in most industries where it is asserted.
+
+The competition-policy tradition traces from [Bork 1978][book_bork_1978] The Antitrust Paradox through [Posner 2001][book_posner_2001], [Hovenkamp 2005][book_hovenkamp_2005], and [Khan 2017][research_khan_2017] Amazon's Antitrust Paradox. The [Khan 2017][research_khan_2017] treatment is directly relevant because it concerns a vertically integrated firm that competes with the parties who depend on its infrastructure, which is the exact structure this article describes once external launch customers and the constellation compete for the same capacity. The foreclosure incentive admits the compact statement
+
+$$\frac{\partial \Pi^{\text{consolidated}}}{\partial q^{\text{external to a rival constellation}}} = m - \frac{\partial \Pi^{\text{constellation}}}{\partial \left( \text{rival capability} \right)}$$
+
+with the sign ambiguous and turning on whether the margin from selling a launch exceeds the downstream harm from enabling a competitor. The article notes that the firm has in fact sold launch capacity to a rival constellation programme, which is evidence that the first term has so far dominated, and that the observation cuts against the strongest form of the foreclosure concern.
+
+The technology-cycle tradition traces from [Abernathy and Clark 1985][research_abernathy_clark_1985] through [Anderson and Tushman 1990][research_anderson_tushman_1990], [Henderson and Clark 1990][research_henderson_clark_1990] Architectural Innovation, [Bower and Christensen 1995][research_bower_christensen_1995], [Christensen and Rosenbloom 1995][research_christensen_rosenbloom_1995], [Utterback 1994][book_utterback_1994], [Christensen 1997][book_christensen_1997], [Christensen and Raynor 2003][book_christensen_raynor_2003], and [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies. The framing treats the constellation as a discontinuity in the delivery of connectivity rather than as an improvement in satellite communications. The relevant performance comparison admits the compact form
+
+$$\ell^{\text{LEO}} \approx \frac{h^{\text{LEO}}}{h^{\text{GEO}}} \cdot \ell^{\text{GEO}} \qquad \text{with} \qquad \frac{h^{\text{LEO}}}{h^{\text{GEO}}} \sim 10^{-2}$$
+
+with $\ell$ the propagation latency and $h$ the orbital altitude. The two-order reduction moves the service across the threshold at which interactive applications become usable, which is a discontinuity in the served application set rather than an improvement along an existing performance dimension. That is the reading which best explains why the incumbent geostationary operators, whose assets were optimized for a different point in the design space, did not respond.
 
 The capability tradition traces from [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm through [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Wernerfelt 1984][research_wernerfelt_1984], [Barney 1991][research_barney_1991], [Nelson and Winter 1982][book_nelson_winter_1982], and [Metcalfe 1998][book_metcalfe_1998]. The framing supplies the account of the spinoff as an application of surplus capability, which is the reading closest to the article's own.
 
@@ -119,9 +173,17 @@ The stated rationale at announcement was that the revenue required to fund the m
 
 $$\text{TAM}^{\text{launch}} \ll B^{\text{mission}} \ll \text{TAM}^{\text{telecom}}$$
 
-with the middle quantity being the mission burn the spinoff was intended to fund. The reasoning does not establish that the venture could capture any particular share of the larger market, and the article marks the distinction between the size of a market and the accessibility of it.
+with the middle quantity being the mission burn the spinoff was intended to fund. The reasoning does not establish that the venture could capture any particular share of the larger market, and the article marks the distinction between the size of a market and the accessibility of it. The share the argument actually requires admits the compact form
 
-The capacity argument is the second and less frequently stated rationale, and the article regards it as the stronger of the two. By 2015 the vehicle programme the [Value Gradient article A282][related_post_a282_spacex_value_gradient] traces had produced a launch capability whose production and operations infrastructure was sized above the external demand available to it. A constellation is the application that consumes launch capacity in the largest quantity available anywhere, and it was the application most naturally matched to the specific surplus the firm held.
+$$\sigma^{\text{required}} = \frac{B^{\text{mission}}}{\text{TAM}^{\text{telecom}} \cdot \mu}$$
+
+with $\mu$ the achievable margin. The quantity is small, which is what makes the argument survivable, and it is not zero, which is what makes it an argument rather than an assertion. The article's position is that a rationale of this form is checkable only in order of magnitude and that it was treated at the time as more precise than it was.
+
+The capacity argument is the second and less frequently stated rationale, and the article regards it as the stronger of the two. By 2015 the vehicle programme the [Value Gradient article A282][related_post_a282_spacex_value_gradient] traces had produced a launch capability whose production and operations infrastructure was sized above the external demand available to it. A constellation is the application that consumes launch capacity in the largest quantity available anywhere, and it was the application most naturally matched to the specific surplus the firm held. The matching condition admits the compact statement
+
+$$\arg\max_{a \in \mathcal{A}} \; \left[ \text{capacity consumed by application } a \right] \quad \text{subject to} \quad \text{capability already held}$$
+
+with the constellation the maximizer over the application set the firm could reach. The formulation makes the decision look less like market entry and more like an allocation problem, which is the reading the article adopts.
 
 ## The Deployment Sequence from 2019 to 2021
 
@@ -131,9 +193,17 @@ The deployment exhibits the step-function property the network-effects framing p
 
 $$\text{continuous service at latitude } \lambda \iff n^{\text{planes}}(\lambda) \geq n^{\text{minimum}}(\lambda)$$
 
-with the revenue from a partially deployed constellation being not a proportional fraction of the complete one but approximately zero until the threshold is crossed. The property is the structural reason a constellation cannot be built incrementally against revenue and must be financed ahead of any income whatever, which is what connects this article to the two preceding capital-formation legs.
+with the revenue from a partially deployed constellation being not a proportional fraction of the complete one but approximately zero until the threshold is crossed. The revenue relation is therefore a step rather than a ramp, admitting the compact form
 
-The threshold property also explains the deployment sequence's geographic order. Coverage was established first at the latitudes the orbital inclination favored and extended subsequently, so that revenue began at high northern latitudes where terrestrial broadband was poorest and the competing alternatives weakest.
+$$R(S) = \begin{cases} \approx 0 & S < S^{\ast} \\ R^{\text{full}} \cdot \left( S / S^{\ast} \right)^{\gamma} & S \geq S^{\ast} \end{cases}$$
+
+with $\gamma$ governing how capacity growth beyond the coverage threshold converts into further revenue. The property is the structural reason a constellation cannot be built incrementally against revenue and must be financed ahead of any income whatever, which is what connects this article to the two preceding capital-formation legs.
+
+The threshold property also explains the deployment sequence's geographic order. A satellite in a circular orbit at inclination $i$ spends time over latitudes in proportion to the geometry, and the dwell density peaks near the turning latitudes, admitting the approximate relation
+
+$$\text{coverage density}(\lambda) \; \propto \; \frac{1}{\sqrt{\sin^2 i - \sin^2 \lambda}} \qquad \text{for} \qquad |\lambda| < i$$
+
+with the density rising toward $|\lambda| \to i$ and vanishing beyond it. Coverage was therefore established first at the latitudes the inclination favored and extended subsequently, so that revenue began at high northern latitudes where terrestrial broadband was poorest and the competing alternatives weakest. The commercial sequence follows from orbital geometry rather than from a market-selection decision.
 
 ## Vertical Integration and the Internal Transfer Price
 
@@ -143,11 +213,23 @@ The parent supplies launch services to the spinoff and the spinoff supplies reve
 
 $$\Pi^{\text{consolidated}} = \Pi^{\text{launch}}\!\left( p^{\text{transfer}} \right) + \Pi^{\text{constellation}}\!\left( p^{\text{transfer}} \right) \qquad \text{with} \qquad \frac{\partial \Pi^{\text{consolidated}}}{\partial p^{\text{transfer}}} = 0$$
 
-with the transfer price redistributing profit between the segments and leaving the total unchanged. The consequence is that any externally reported claim about the profitability of either segment separately is a claim about an accounting choice rather than about an economic fact, and the article declines to make such claims.
+with the transfer price redistributing profit between the segments and leaving the total unchanged. The redistribution is exact and admits the compact statement
 
-The observation has a sharper implication for the competitive analysis. A competitor evaluating entry compares its own launch cost against the price it observes the parent charging external customers. That price is not the cost the spinoff bears. The competitor therefore systematically overestimates the parent's constellation cost, and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] identifies the same transfer price as the single most consequential unobserved quantity from the portfolio side. The two articles converge on the same missing number from different directions.
+$$\frac{\partial \Pi^{\text{launch}}}{\partial p^{\text{transfer}}} = q^{\text{internal}} = - \frac{\partial \Pi^{\text{constellation}}}{\partial p^{\text{transfer}}}$$
 
-The vertical structure also creates the conflict the competition-policy tradition identifies. The parent sells launch services to firms that compete with its own constellation, and the capacity it allocates internally is capacity unavailable to them. The arrangement is documented in the general [SpaceX corporate record][ref_spacex_company] and no public allocation rule exists.
+with the two derivatives equal in magnitude and opposite in sign. The consequence is that any externally reported claim about the profitability of either segment separately is a claim about an accounting choice rather than about an economic fact, and the article declines to make such claims.
+
+The observation has a sharper implication for the competitive analysis. A competitor evaluating entry compares its own launch cost against the price it observes the parent charging external customers. That price is not the cost the spinoff bears. The competitor's inference error admits the compact form
+
+$$\hat{c}^{\text{parent}}_{\text{competitor}} = p^{\text{market}} \; > \; c^{\text{marginal}} = c^{\text{parent}}_{\text{actual}}$$
+
+with the observable price exceeding the unobservable cost by the full margin. The competitor therefore systematically overestimates the parent's constellation cost, which means an entry decision that looks marginal on the competitor's information may be clearly unprofitable on the parent's. The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] identifies the same transfer price as the single most consequential unobserved quantity from the portfolio side. The two articles converge on the same missing number from different directions.
+
+The vertical structure also creates the conflict the competition-policy tradition identifies. The parent sells launch services to firms that compete with its own constellation, and the capacity it allocates internally is capacity unavailable to them. The allocation operates under a binding constraint admitting the compact form
+
+$$q^{\text{internal}} + q^{\text{external}} \leq \bar{q} \qquad \text{with} \qquad \bar{q} \; \text{finite at any date}$$
+
+with every internal launch displacing an external one whenever the constraint binds. The arrangement is documented in the general [SpaceX corporate record][ref_spacex_company] and no public allocation rule exists, which means the question of whether the constraint has bound and how it was resolved is unanswerable from outside the firm.
 
 ## The Launch-Cadence Coupling
 
@@ -161,13 +243,21 @@ launches for initial deployment, and a satellite operational lifetime of $L$ yea
 
 $$\dot{N}^{\text{replenish}} = \frac{S}{b \cdot L}$$
 
-launches per year thereafter. For a constellation of several thousand satellites at a lifetime of roughly five years, the replenishment requirement alone exceeds the entire global commercial launch cadence of the period preceding the programme.
+launches per year thereafter. For a constellation of several thousand satellites at a lifetime of roughly five years, the replenishment requirement alone exceeds the entire global commercial launch cadence of the period preceding the programme, admitting the compact comparison
+
+$$\dot{N}^{\text{replenish}} \; > \; \dot{N}^{\text{global commercial, pre-programme}}$$
+
+with the steady-state obligation of a single constellation exceeding what the entire world launch industry had previously demonstrated. The comparison establishes that the capability had to be created rather than procured and is the quantitative form of the supply-unavailability condition the vertical-integration framing states.
 
 The coupling runs in both directions and that is what makes it consequential. The constellation supplies the launch business with a demand stream large enough to justify the cadence, and the cadence drives the reuse experience that the [Decomposability article A285][related_post_a285_spacex_decomposability] and the [Value Gradient article A282][related_post_a282_spacex_value_gradient] identify as the source of cost reduction. The learning relationship admits the conventional form
 
 $$c_n = c_1 \cdot n^{-\beta}$$
 
-with $c_n$ the cost at cumulative flight $n$ and $\beta$ the learning exponent. The constellation increases $n$ faster than external demand could, which lowers $c_n$, which lowers the constellation's own cost, which improves the economics that justify further deployment. The reuse record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle] and the milestone sequence at the [first booster landing][ref_spacex_press_falcon9_first_landing_2015], the [first reflight][ref_spacex_press_ses10_2017], and the [Block 5 introduction][ref_spacex_press_block5_bangabandhu_2018].
+with $c_n$ the cost at cumulative flight $n$ and $\beta$ the learning exponent. The constellation increases $n$ faster than external demand could, which lowers $c_n$, which lowers the constellation's own cost, which improves the economics that justify further deployment. The loop admits statement as a fixed point in the deployment rate
+
+$$\dot{N}^{\ast} = \Psi\!\left( c\big( \dot{N}^{\ast} \big) \right) \qquad \text{with} \qquad \Psi' < 0 \;\; \text{and} \;\; c' < 0$$
+
+with the composition increasing, so that the system admits a self-reinforcing equilibrium at high cadence and low cost rather than converging to the industry's prior operating point. The structure is the mechanical core of the case and it is what the ordinary account of a launch company entering telecommunications entirely omits. The reuse record is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle] and the milestone sequence at the [first booster landing][ref_spacex_press_falcon9_first_landing_2015], the [first reflight][ref_spacex_press_ses10_2017], and the [Block 5 introduction][ref_spacex_press_block5_bangabandhu_2018].
 
 The self-reinforcing structure is the strongest available argument that the spinoff was not a diversification. A diversification consumes the parent's resources. This arrangement improved the parent's core economics as a direct consequence of consuming its output.
 
@@ -185,7 +275,11 @@ The segment composition matters more than the aggregate. Consumer broadband carr
 
 $$\text{ARPU}^{\text{blended}} = \sum_j w_j \cdot \text{ARPU}_j \qquad \text{with} \qquad \frac{d}{dt} w^{\text{high-value}} > 0$$
 
-with the mix shifting toward the higher-value segments across the period. The defense line the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats and the [Starshield record][ref_spacex_starshield] documents is the extreme case of the same shift.
+with the mix shifting toward the higher-value segments across the period. The shift is not merely a revenue preference but a capacity-allocation necessity, because a satellite's bandwidth over a given cell is finite and admits the compact constraint
+
+$$\sum_{j} n_j \cdot b_j \; \leq \; B^{\text{cell}}$$
+
+with $b_j$ the bandwidth a subscriber of class $j$ consumes. A consumer subscriber in a congested cell therefore displaces capacity that a maritime or enterprise subscriber would pay several times more to obtain, which means the mix shift is what a capacity-constrained operator does under any reasonable pricing rule. The defense line the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats and the [Starshield record][ref_spacex_starshield] documents is the extreme case of the same shift.
 
 ## Direct-to-Cell and the Carrier Partnerships
 
@@ -199,7 +293,17 @@ The spectrum arrangement admits the compact statement
 
 $$\text{service} = f\!\left( \text{satellite capability}, \; \text{carrier spectrum rights} \right)$$
 
-with neither input substitutable for the other. The consequence is that the direct-to-cell business is the one part of the spinoff in which the venture does not hold the complementary asset, and the appropriability tradition predicts that value will be divided by relative bargaining power rather than captured. The article regards this as the most significant structural qualification to the category-dominance claim.
+with neither input substitutable for the other. The consequence is that the direct-to-cell business is the one part of the spinoff in which the venture does not hold the complementary asset, and the appropriability tradition predicts that value will be divided by relative bargaining power rather than captured. The division admits the compact bargaining form
+
+$$\sigma^{\text{operator}} = \sigma\!\left( u^{\text{operator}}, \; u^{\text{carrier}} \right) \qquad \text{with} \qquad u^{\text{carrier}} \; \text{rising in the number of competing operators}$$
+
+with the carrier's disagreement payoff improving as alternative satellite partners appear. The operator's share is therefore highest while it is the only viable partner and falls as the category develops, which is the reverse of the trajectory the broadband business exhibits. The article regards this as the most significant structural qualification to the category-dominance claim.
+
+The offsetting advantage is that the addressable population is not limited by terminal ownership, admitting the compact contrast
+
+$$M^{\text{direct-to-cell}} = n^{\text{handsets in coverage}} \qquad \text{against} \qquad M^{\text{broadband}} = n^{\text{terminals sold}}$$
+
+with the first quantity larger than the second by several orders of magnitude and requiring no subscriber-acquisition hardware subsidy. The two effects run in opposite directions and the article does not claim to know which dominates.
 
 ## The Revenue Trajectory and the Mission-Funding Crossover
 
@@ -207,13 +311,21 @@ The revenue trajectory is the quantity the capital-formation argument requires a
 
 Reported figures across the 2020 through drafting-date period rise from negligible to a scale exceeding the launch business, with the sector analyses at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research] supplying the reconstructions and the business press at [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], and the [Wall Street Journal][ref_wsj] supplying the reported company statements.
 
-The crossover condition the economic-property section states requires comparing revenue against mission burn, and neither quantity is published. The article's position is therefore explicitly conditional. If the reported revenue figures are approximately correct and if the mission burn is of the order the programme's public scale suggests, then the crossover falls somewhere in the middle of the decade and the capital-formation problem is substantially closed. The article states the conditional rather than asserting the conclusion, and the Load-Bearing Open Questions section records the crossover date as the series' principal unresolved empirical question.
+The crossover condition the economic-property section states requires comparing revenue against mission burn, and neither quantity is published. The article's position is therefore explicitly conditional. If the reported revenue figures are approximately correct and if the mission burn is of the order the programme's public scale suggests, then the crossover falls somewhere in the middle of the decade and the capital-formation problem is substantially closed. The crossover date is the solution of an equation neither of whose sides is published, admitting the compact form
+
+$$t^{\ast} = \inf \left\{ t \; : \; R^{\text{free}}(t) \geq B(t) \right\}$$
+
+with the infimum taken over dates at which the condition first holds and continues to hold. The article states the conditional rather than asserting the conclusion, and the Load-Bearing Open Questions section records the crossover date as the series' principal unresolved empirical question.
 
 The distinction between revenue and free cash contribution deserves emphasis, because the replenishment obligation the next section describes consumes a substantial and continuing fraction of gross revenue. The relevant quantity is
 
 $$R^{\text{free}}(t) = R^{\text{gross}}(t) - C^{\text{operating}}(t) - C^{\text{replenishment}}(t)$$
 
-with the third term structural rather than discretionary. A constellation business cannot reduce replenishment spending without shrinking, which distinguishes it from a software business at comparable revenue and which the commentary comparing the two routinely omits.
+with the third term structural rather than discretionary. The distinction from a business whose marginal cost is near zero admits the compact contrast
+
+$$\frac{\partial C^{\text{replenishment}}}{\partial S} > 0 \qquad \text{against} \qquad \frac{\partial C^{\text{marginal}}}{\partial n^{\text{user}}} \approx 0$$
+
+with the first structure obliging continuing capital expenditure proportional to the deployed asset base and the second not. A constellation business cannot reduce replenishment spending without shrinking, which distinguishes it from a software business at comparable revenue and which the commentary comparing the two routinely omits.
 
 ## Capital Intensity and the Replenishment Treadmill
 
@@ -223,9 +335,17 @@ Satellites in low Earth orbit experience atmospheric drag and deorbit within a p
 
 $$C^{\text{replenishment}} = \frac{S}{L} \cdot \left( c^{\text{satellite}} + \frac{c^{\text{launch}}}{b} \right)$$
 
-with the whole quantity recurring annually and indefinitely. The obligation is the reason satellite production rate rather than launch rate became the binding constraint on the programme, and it is the reason the venture built satellite manufacturing at a scale without precedent in the sector.
+with the whole quantity recurring annually and indefinitely. The obligation is the reason satellite production rate rather than launch rate became the binding constraint on the programme, admitting the compact statement
 
-The manufacturing achievement deserves statement in its own terms. Producing spacecraft at a rate measured in units per day rather than units per year is a discontinuity in the industry's production practice, and it follows the same learning relationship the launch business exhibits. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats the design commonality that makes the rate attainable.
+$$\dot{S}^{\text{production required}} = \frac{S}{L} \qquad \text{with} \qquad \dot{S}^{\text{production}} < b \cdot \dot{N}^{\text{launch capacity}}$$
+
+with the production term the smaller of the two and therefore governing. The relation is the reason the venture built satellite manufacturing at a scale without precedent in the sector, and it inverts the sector's historical constraint, in which launch availability governed and spacecraft were produced individually.
+
+The manufacturing achievement deserves statement in its own terms. Producing spacecraft at a rate measured in units per day rather than units per year is a discontinuity in the industry's production practice, and it follows the same learning relationship the launch business exhibits. The steady state the treadmill implies also fixes the fleet's average age, admitting the compact result
+
+$$\bar{a} = \frac{L}{2} \qquad \text{in steady state with uniform replacement}$$
+
+with the deployed constellation permanently averaging half a design lifetime. The property is favorable and is rarely stated, because it means the operational fleet is continuously refreshed with current-generation hardware rather than ageing toward obsolescence as a conventional geostationary fleet does. The [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats the design commonality that makes the rate attainable.
 
 The treadmill also supplies the strongest argument against the natural-monopoly reading of the position. An incumbent whose asset base must be entirely replaced every few years cannot rest on it, and a competitor entering later deploys a newer generation against an incumbent carrying a partially obsolete fleet. The advantage admits the compact statement
 
@@ -239,7 +359,17 @@ The regulatory position is the second structural constraint and it operates on a
 
 The domestic authorization record comprises the [initial authorization][ref_fcc_starlink_2018], the [second-generation authorization][ref_fcc_starlink_gen2_2022], the [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024], and the general [filing system][ref_fcc_filings]. The international coordination operates through the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], under which spectrum and orbital-slot rights are coordinated among administrations rather than allocated by any single authority. Launch licensing runs through the [Federal Aviation Administration Office of Commercial Space Transportation][ref_faa_ast]. The treaty framework comprises the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976], under which the launching state bears international responsibility for national activities.
 
-Service in any national market requires that market's own authorization, which makes the regulatory position a per-country matter rather than a single approval. The consequence is that the addressable market is not the world but the union of jurisdictions that have granted access, and the difference is substantial and politically contingent.
+Service in any national market requires that market's own authorization, which makes the regulatory position a per-country matter rather than a single approval. The addressable market admits the compact form
+
+$$M^{\text{addressable}}(t) = \sum_{k \in \mathcal{J}(t)} M_k \qquad \text{with} \qquad \mathcal{J}(t) = \left\{ k : \text{authorization granted in jurisdiction } k \right\}$$
+
+with the index set growing by administrative decision rather than by commercial effort. The consequence is that the addressable market is not the world but the union of jurisdictions that have granted access, and the difference is substantial and politically contingent.
+
+The structure also creates a distinct category of risk that the sector's financial commentary treats poorly. An authorization is revocable, and the revenue attaching to a jurisdiction is therefore conditional, admitting the compact statement
+
+$$\mathbb{E}\left[ R_k \right] = R_k \cdot P\!\left( \text{authorization retained} \right)$$
+
+with the second factor a political rather than an operational quantity. The article notes that the largest single risk to the revenue base described here may be diplomatic rather than technical or competitive.
 
 ## Spectrum Priority as the Scarce Asset
 
@@ -251,7 +381,17 @@ $$\text{priority}_i > \text{priority}_j \iff t^{\text{filing}}_i < t^{\text{fili
 
 with the second conjunct being the reason deployment speed carries a regulatory value independent of its commercial value. A constellation deployed quickly converts a filing into a protected right, and a constellation deployed slowly forfeits it.
 
-The observation reframes the launch-cadence coupling. The cadence was not merely an economic advantage. It was the mechanism by which a regulatory option was exercised before it expired, and a competitor lacking captive launch capacity faced a deadline it could not control. The article regards this as the single most underappreciated element of the case and as the point at which the capital-formation story and the regulatory story become the same story.
+The deadline imposes a rate requirement rather than a quantity requirement, admitting the compact condition
+
+$$\dot{S}^{\text{deployed}} \; \geq \; \frac{S^{\text{filed}}}{T^{\text{bring-into-use}} - t^{\text{start}}}$$
+
+with failure to satisfy it forfeiting the filed position in whole or in part. A venture holding captive launch capacity controls the numerator's feasibility directly. A venture buying launch at market controls neither the rate nor the schedule, because its supplier allocates capacity across a manifest the venture does not set.
+
+The observation reframes the launch-cadence coupling. The cadence was not merely an economic advantage. It was the mechanism by which a regulatory option was exercised before it expired, and the option's value admits the compact statement
+
+$$W^{\text{filing}} = \mathbf{1}\left[ \text{bring-into-use satisfied} \right] \cdot V^{\text{protected position}}$$
+
+with the value collapsing to zero on failure rather than degrading gracefully. The article regards this as the single most underappreciated element of the case and as the point at which the capital-formation story and the regulatory story become the same story.
 
 ## Orbital Shells and the Congestion Externality
 
@@ -261,7 +401,15 @@ The debris and conjunction regime is documented at the [NASA Orbital Debris Prog
 
 $$\frac{\partial \, \text{collision risk}_j}{\partial \, S_i} > 0 \qquad \text{with the cost borne by } j \neq i$$
 
-with each operator's deployment raising every other operator's risk and no mechanism pricing the increment. The structure is a standard common-pool problem and the literature the regulated-industry tradition supplies predicts under-provision of mitigation absent an allocation regime.
+with each operator's deployment raising every other operator's risk and no mechanism pricing the increment. The conjunction rate between resident objects scales approximately with the square of the population in a shell, admitting the compact relation
+
+$$\dot{n}^{\text{conjunction}} \; \propto \; \frac{S_{\text{shell}}^{2}}{V_{\text{shell}}}$$
+
+with the quadratic term the reason an increment to an already-populated shell is more costly than the same increment to an empty one. The divergence between the private and social optimum follows directly
+
+$$S^{\text{private}} : \; \frac{\partial \Pi_i}{\partial S_i} = 0 \qquad \text{against} \qquad S^{\text{social}} : \; \frac{\partial}{\partial S_i}\left[ \Pi_i + \sum_{j \neq i} \Pi_j \right] = 0$$
+
+with the private optimum exceeding the social one by the uninternalized external term. The structure is a standard common-pool problem and the literature the regulated-industry tradition supplies predicts under-provision of mitigation absent an allocation regime.
 
 The article notes in fairness that the short design lifetime and active deorbit capability the constellation employs are substantially better mitigation practice than the geostationary and medium-orbit precedents exhibited, and that the aggregate risk nonetheless rises because the object count rises faster than the per-object risk falls. Both statements are true and the commentary generally asserts only one of them.
 
@@ -269,15 +417,27 @@ The article notes in fairness that the short design lifetime and active deorbit 
 
 The two 1990s constellation programmes supply the precedents in which the same business was attempted without a captive launch capability, and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] and the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] treat the capital-structure dimension of the first.
 
-The relevant contrast for this article is the cost position rather than the financing. Both programmes purchased launch at market prices from external providers, and both therefore incurred the full disadvantage the economic-property section states, on a campaign requiring dozens of launches. The record is at the [Iridium corporate archive][ref_iridium_press_archive_1998], the [Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, and the case treatments at [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] and [Zimmerman 2011][research_zimmerman_2011].
+The relevant contrast for this article is the cost position rather than the financing. Both programmes purchased launch at market prices from external providers, and both therefore incurred the full disadvantage the economic-property section states, on a campaign requiring dozens of launches. The disadvantage they bore admits the compact application of the economic-property result
 
-The second and less frequently noted contrast concerns the market rather than the cost. Both programmes targeted voice telephony against a terrestrial cellular buildout that expanded faster than either anticipated, so that the addressable market contracted during deployment. The present case targeted broadband against a terrestrial buildout whose rural economics have not improved comparably, and the article marks this as a favorable contingency rather than as a strategic insight, because nothing in the 2015 decision demonstrates foresight about terrestrial deployment economics.
+$$\Delta C^{\text{1990s programmes}} = N \cdot m \qquad \text{with} \qquad N \sim 10^{1} \; \text{to} \; 10^{2}$$
+
+with the full external margin incurred across every launch of the deployment. The record is at the [Iridium corporate archive][ref_iridium_press_archive_1998], the [Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, and the case treatments at [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] and [Zimmerman 2011][research_zimmerman_2011].
+
+The second and less frequently noted contrast concerns the market rather than the cost. Both programmes targeted voice telephony against a terrestrial cellular buildout that expanded faster than either anticipated, so that the addressable market contracted during deployment. The failure mode admits the compact statement as a race between deployment and market erosion
+
+$$\frac{d M^{\text{addressable}}}{dt} < 0 \qquad \text{while} \qquad S < S^{\ast}$$
+
+with the market contracting during the very interval in which the threshold property guarantees no revenue. The combination is close to unsurvivable and it is the sharper reading of those failures than the capital-structure account alone supplies. The present case targeted broadband against a terrestrial buildout whose rural economics have not improved comparably, and the article marks this as a favorable contingency rather than as a strategic insight, because nothing in the 2015 decision demonstrates foresight about terrestrial deployment economics.
 
 ## The OneWeb and Kuiper Comparisons
 
 The two contemporary competitors supply the cleanest available test of the article's central claim, because both attempted the same business in the same period under different vertical arrangements.
 
-OneWeb purchased launch services externally and its trajectory is documented at the [OneWeb corporate record][ref_oneweb] and the [Eutelsat corporate record][ref_eutelsat_oneweb], with the insolvency administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy] under the [Chapter 11][ref_bankruptcy_code_ch11] provisions. The programme faced the full external launch cost, faced a deployment deadline set by its own spectrum filings, and depended on a capital supplier whose withdrawal proved terminal.
+OneWeb purchased launch services externally and its trajectory is documented at the [OneWeb corporate record][ref_oneweb] and the [Eutelsat corporate record][ref_eutelsat_oneweb], with the insolvency administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy] under the [Chapter 11][ref_bankruptcy_code_ch11] provisions. The programme faced the full external launch cost, faced a deployment deadline set by its own spectrum filings, and depended on a capital supplier whose withdrawal proved terminal. The three failures were not independent, admitting the compact statement
+
+$$\left[ \text{no captive launch} \right] \Rightarrow \left[ \text{deadline uncontrolled} \right] \Rightarrow \left[ \text{capital requirement uncertain} \right] \Rightarrow \left[ \text{supplier withdrawal} \right]$$
+
+with each condition raising the probability of the next. The [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] treats the same case as a financing failure and this article treats it as a supply failure, and the two readings are compatible because the supply position is what made the financing requirement unbounded.
 
 The Amazon programme supplies the comparison the article regards as most informative, because the sponsor's capital position removes the financing constraint entirely and isolates the launch-supply variable. A programme financed from a balance sheet of that scale cannot fail for want of capital, so its outcome tests the launch-supply proposition specifically. The programme has contracted launch capacity from multiple providers including, notably, the parent firm this article treats, and the sector record is at [SpaceNews][ref_spacenews], [Ars Technica space coverage][ref_arstechnica_space], and [Space Policy Online][ref_space_policy_online].
 
@@ -285,17 +445,33 @@ The comparison admits the compact statement as a controlled contrast
 
 $$\left\{ \text{capital} \right\} \; \text{held approximately constant}, \qquad \left\{ \text{captive launch} \right\} \; \text{varied}$$
 
-with the outcome difference attributable to the varied factor to the extent the other factors are genuinely comparable. The article marks the limits of the inference. The programmes began at different dates, hold different spectrum priorities, and pursue partially different market segments, so the contrast is suggestive rather than clean.
+with the outcome difference attributable to the varied factor to the extent the other factors are genuinely comparable. The design is the closest the sector offers to holding the financing constraint fixed, admitting the compact statement
+
+$$\left. \frac{\partial \, \text{outcome}}{\partial \, \text{captive launch}} \right|_{\text{capital held high}}$$
+
+as the estimand the comparison identifies. The article marks the limits of the inference. The programmes began at different dates, hold different spectrum priorities, and pursue partially different market segments, so the contrast is suggestive rather than clean.
 
 ## Deep Historical Comparative Precedents
 
 The category-dominating spinoff mechanic admits comparison with historical precedents in which a firm built a business on top of a capability developed for another purpose.
 
-The Standard Oil consolidation supplies the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The relevant parallel is the vertical control of transport, because the firm's position rested substantially on rail and pipeline arrangements that competitors could not obtain on comparable terms, which is structurally the same advantage this article describes with launch substituted for rail.
+The Standard Oil consolidation supplies the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The relevant parallel is the vertical control of transport, because the firm's position rested substantially on rail and pipeline arrangements that competitors could not obtain on comparable terms. The structural identity with the present case admits the compact statement
 
-The Bell System supplies the precedent for a communications infrastructure attaining a dominant position and the regulatory settlement that followed, documented in [Temin and Galambos 1987][book_temin_galambos_1987], [Wu 2010][book_wu_2010], [Levin 2010][book_levin_2010], and [Sobel 1995][book_sobel_1995], with the primary record at the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984]. The case supplies the base rate that the telecommunications-history tradition applies, and the article's reading is that the settlement terms in both instances turned on the treatment of the vertical relationship rather than on market share as such.
+$$c^{\text{integrated}}_{\text{transport}} = c^{\text{marginal}} \qquad \text{against} \qquad c^{\text{rival}}_{\text{transport}} = p^{\text{posted}} - r$$
 
-The electrification build-outs supply the precedent for a capital-intensive network whose value depends on coverage completeness, documented in [Hughes 1983][book_hughes_1983] and [Nye 1990][book_nye_1990]. The threshold property the deployment section describes is the same property those systems exhibited, and the historical resolution was a regulated monopoly with a universal-service obligation, which is one of the available outcomes for the present case.
+with $r$ the rebate a rival could not obtain, which is the same relation this article states with launch substituted for rail. The article notes that the historical case resolved through dissolution rather than through competitive erosion, which is the base rate the competition-policy tradition applies.
+
+The Bell System supplies the precedent for a communications infrastructure attaining a dominant position and the regulatory settlement that followed, documented in [Temin and Galambos 1987][book_temin_galambos_1987], [Wu 2010][book_wu_2010], [Levin 2010][book_levin_2010], and [Sobel 1995][book_sobel_1995], with the primary record at the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984]. The case supplies the base rate that the telecommunications-history tradition applies, and the article's reading is that the settlement terms in both instances turned on the treatment of the vertical relationship rather than on market share as such. The regulated bargain admits the compact statement
+
+$$\Pi^{\text{permitted}} = \bar{r} \cdot K^{\text{rate base}} \qquad \text{subject to} \qquad \text{universal-service obligation}$$
+
+with a permitted return on invested capital exchanged for a coverage obligation. The form is one of the available outcomes for the present case and the article notes that a firm whose asset base must be continuously replaced would find a rate-base regime unusually favorable, since the rate base would never depreciate away.
+
+The electrification build-outs supply the precedent for a capital-intensive network whose value depends on coverage completeness, documented in [Hughes 1983][book_hughes_1983] and [Nye 1990][book_nye_1990]. The threshold property the deployment section describes is the same property those systems exhibited, admitting the compact statement of the coverage economics
+
+$$\frac{C^{\text{network}}}{n^{\text{user}}} \; \text{decreasing in} \; n^{\text{user}} \qquad \text{with} \qquad C^{\text{network}} \; \text{largely independent of} \; n^{\text{user}}$$
+
+with the fixed coverage cost incurred before any user is served. The historical resolution was a regulated monopoly with a universal-service obligation, which is one of the available outcomes for the present case.
 
 The railroad and canal financings supply the precedent for infrastructure whose construction period exceeded its financiers' horizon, documented in [Chandler 1977][book_chandler_1977] The Visible Hand and [Chandler 1990][book_chandler_1990] Scale and Scope, with the general treatments at [Landes 1969][book_landes_1969], [North 1990][book_north_1990], and [Perez 2002][book_perez_2002] Technological Revolutions and Financial Capital. The [Perez 2002][book_perez_2002] periodization is the most directly applicable, because it treats the availability of capital for a technology class as a function of the installation and deployment cycle rather than as a constant.
 
@@ -341,11 +517,21 @@ Substantially every quantitative claim in this article rests on the reconstructi
 
 The contemporary landscape for the commercial-spinoff leg is the emptiest of the three capital-formation legs, because the conditions the pattern requires are jointly satisfied almost nowhere.
 
-The European position operates through [Arianespace][ref_arianespace] and [ArianeGroup][ref_arianegroup_press] under a governmental-shareholder arrangement, with a constellation programme pursued at the union level rather than by a commercial operator, and the entrant record at [European Spaceflight][ref_european_spaceflight]. The configuration cannot produce the arrangement this article describes, because the launch provider and the constellation operator are separate institutions with separate budgets.
+The European position operates through [Arianespace][ref_arianespace] and [ArianeGroup][ref_arianegroup_press] under a governmental-shareholder arrangement, with a constellation programme pursued at the union level rather than by a commercial operator, and the entrant record at [European Spaceflight][ref_european_spaceflight]. The configuration cannot produce the arrangement this article describes, because the launch provider and the constellation operator are separate institutions with separate budgets, so the internal transaction occurs at a negotiated price rather than at marginal cost. The condition the arrangement requires admits the compact statement
+
+$$\text{common residual claimant over both stages} \iff \text{transfer at } c^{\text{marginal}} \text{ is incentive-compatible}$$
+
+with separate budgets destroying the incentive compatibility irrespective of any policy intention, because each institution is assessed on its own result.
 
 The Chinese position documented at [China commercial space][ref_china_commercial_space] pursues constellation programmes with state financing and domestic launch capacity, which satisfies the captive-launch condition through common state ownership rather than through common corporate ownership. The article regards this as the closest structural analogue currently in existence and notes that it achieves the coupling by a different institutional route.
 
 The Indian and Japanese positions at [ISRO][ref_isro_press] and [JAXA][ref_jaxa_press] hold launch capability without a commercial constellation of comparable scale.
+
+The scarcity of the configuration admits the compact statement
+
+$$\left| \left\{ \text{entities holding captive launch at constellation cadence} \right\} \right| \; \sim \; 2$$
+
+counting the present case and the Chinese state programmes, and the article notes that this is the smallest comparison set of any condition treated in the series. The pattern the closing section states is therefore extracted from close to a single observation, and the reader should weight it accordingly.
 
 Among commercial entrants, [Rocket Lab][ref_rocket_lab_press] holds launch capability at a vehicle scale below constellation deployment economics while developing a larger vehicle, [Blue Origin][ref_blue_origin_press] holds a launch programme under the single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats and is affiliated with the constellation competitor this article discusses, and [United Launch Alliance][ref_ula_press] with its parents at [Boeing][ref_boeing_press] and [Northrop Grumman][ref_northrop_grumman_press] operates as a launch provider without a downstream service business. The [Space Force National Security Space Launch programme][ref_space_force_nssl] record documents the government-customer side of the same set.
 
@@ -357,7 +543,18 @@ $$\boldsymbol{\phi}_j^{\text{spinoff}} \in \{0,1\}^{5}$$
 
 with each venture's vector indicating satisfaction across the captive-input, surplus-capacity, threshold-market, regulatory-priority, and reinvestment-scale sub-properties.
 
-SpaceX exhibits closure on all five. Iridium exhibited non-closure on captive input and surplus capacity, closure on threshold market and regulatory priority, and non-closure on reinvestment scale. OneWeb exhibited the same pattern with an additional failure on regulatory priority following its deployment interruption. The Amazon programme exhibits non-closure on captive input, closure on reinvestment scale by virtue of its sponsor, and an unresolved position on regulatory priority. The Chinese state programmes exhibit closure on captive input through common ownership and an unresolved position on the remainder.
+The scoring assembles into a matrix whose rows are the ventures and whose columns are the sub-properties in the order the pattern-extraction section states
+
+$$\begin{array}{lccccc}
+ & \phi_1 & \phi_2 & \phi_3 & \phi_4 & \phi_5 \\
+\text{SpaceX} & 1 & 1 & 1 & 1 & 1 \\
+\text{Iridium} & 0 & 0 & 1 & 1 & 0 \\
+\text{OneWeb} & 0 & 0 & 1 & 0 & 0 \\
+\text{Amazon programme} & 0 & 0 & 1 & \ast & 1 \\
+\text{Chinese state programmes} & 1 & \ast & 1 & \ast & \ast
+\end{array}$$
+
+with $\ast$ marking a cell the available record does not establish. SpaceX exhibits closure on all five. Iridium exhibited non-closure on captive input and surplus capacity, closure on threshold market and regulatory priority, and non-closure on reinvestment scale. OneWeb exhibited the same pattern with an additional failure on regulatory priority following its deployment interruption. The Amazon programme exhibits non-closure on captive input, closure on reinvestment scale by virtue of its sponsor, and an unresolved position on regulatory priority. The Chinese state programmes exhibit closure on captive input through common ownership and an unresolved position on the remainder.
 
 The cross-sectional pattern indicates that the captive-input sub-property is the one that discriminates most sharply, and the correlation with the outcome admits the compact statement
 
@@ -379,13 +576,29 @@ The empirical-record limitations comprise the following. The internal transfer p
 
 The commercial-spinoff framing the article develops is one of several the surrounding literature applies.
 
-The diversification framing treats the constellation as an entry into an unrelated market and predicts value destruction on the evidence the corporate-diversification literature supplies. The article's response is that the framing misidentifies the relationship, because the businesses share the input rather than merely the owner, and that the framing's prediction would apply to a constellation operator purchasing launch at market.
+The diversification framing treats the constellation as an entry into an unrelated market and predicts value destruction on the evidence the corporate-diversification literature supplies. The article's response is that the framing misidentifies the relationship, and the distinction admits the compact statement
 
-The platform framing treats the constellation as a two-sided market and imports the pricing and market-structure conclusions of the platform literature. The article accepts the framing for the direct-to-cell service and rejects it for consumer broadband, on the ground that the latter has one side and a positive marginal cost.
+$$\text{related} \iff \frac{\partial c^{\text{segment } A}}{\partial q^{\text{segment } B}} \neq 0$$
 
-The natural-monopoly framing treats the position as a durable dominance arising from scale economies and a finite resource, and it generates the regulatory prescriptions the regulated-industry tradition supplies. The article's response is that the replenishment treadmill limits durability in a way conventional network monopolies did not experience, and that the finite resource is spectrum priority rather than infrastructure.
+with genuine relatedness requiring that one segment's activity alter the other's cost. The businesses here share the input rather than merely the owner, so the derivative is nonzero and negative. The framing's prediction would apply to a constellation operator purchasing launch at market, for whom the derivative is zero.
 
-The commons framing treats the orbital environment as a shared resource being appropriated without compensation and generates the strongest available critique. The article accepts the framing's factual premise and notes that it argues for an allocation regime rather than against any particular operator.
+The platform framing treats the constellation as a two-sided market and imports the pricing and market-structure conclusions of the platform literature. The article accepts the framing for the direct-to-cell service and rejects it for consumer broadband, on the ground that the latter has one side and a positive marginal cost. The rejection admits the compact test
+
+$$\frac{\partial u^{\text{subscriber}}}{\partial n^{\text{subscriber}}} \leq 0 \quad \text{for shared-capacity broadband}$$
+
+with additional subscribers degrading rather than improving the service, which is the opposite of the network externality the platform conclusions presuppose.
+
+The natural-monopoly framing treats the position as a durable dominance arising from scale economies and a finite resource, and it generates the regulatory prescriptions the regulated-industry tradition supplies. The article's response admits compact statement as a contrast in the durability of the underlying asset
+
+$$T^{\text{asset life, conventional utility}} \sim 10^{1} \; \text{to} \; 10^{2} \; \text{years} \qquad \text{against} \qquad L \sim 5 \; \text{years}$$
+
+with the conventional natural monopoly resting on an asset base that outlives any plausible entrant response and this one resting on an asset base that does not. The finite resource here is spectrum priority rather than infrastructure, and priority is a legal position that an administration can in principle revisit.
+
+The commons framing treats the orbital environment as a shared resource being appropriated without compensation and generates the strongest available critique. The article accepts the framing's factual premise. The allocation the framing would require admits the compact statement as a corrective price
+
+$$p^{\text{orbital}}_i = \sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}$$
+
+with each operator charged the marginal external cost it imposes on the others. No such instrument exists in any jurisdiction. The framing therefore argues for an allocation regime rather than against any particular operator, and the article notes that the first operator to reach scale in an unpriced commons is the one an eventual regime would most constrain, which gives the incumbent an interest in the regime's design that is worth stating explicitly.
 
 The industrial-policy framing treats the outcome as the return on the government investment the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] documents, and it generates the claim that the public has an equity-like interest in the result that the non-dilutive instrument failed to secure. The article regards the framing as analytically serious and notes that it is a claim about what the instrument should have been rather than about what it was.
 
@@ -415,7 +628,11 @@ $$\tau = \left( \text{input captive}, \;\; q^{\text{external}} < \bar{q}, \;\; \
 
 with the first component the one a candidate case will usually fail and the fifth the one an assessment will usually assert without evidence.
 
-The mechanic carries a limitation the statement should not conceal. The arrangement converts a capital asset into a consumable, because the downstream business imposes a permanent replenishment obligation that scales with its own size. The venture does not obtain an annuity. It obtains a business that must rebuild itself continuously and whose dominance lasts precisely as long as it continues to do so faster than anyone else.
+The mechanic carries a limitation the statement should not conceal. The arrangement converts a capital asset into a consumable, because the downstream business imposes a permanent replenishment obligation that scales with its own size. The limitation admits the compact statement
+
+$$\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}} \qquad \text{rather than} \qquad \text{durability} \to \infty$$
+
+with the ratio small wherever the replacement interval is short. The venture does not obtain an annuity. It obtains a business that must rebuild itself continuously and whose dominance lasts precisely as long as it continues to do so faster than anyone else.
 
 ## Cross-References to the Series
 

@@ -9,69 +9,80 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-03
-**Task**: A291 History of SpaceX Category-Dominating Commercial Spinoff drafted at `_drafts/spacex_history_category_dominating_spinoff.markdown` for editorial date 2026-08-03 at 09:00 UTC. Complete initial draft. Both density passes remain.
+**Task**: A291 equation-density expansion pass. 49 display equations added, 26 to 75. Reference-density pass remains.
 
 ---
 
-## The Claim the Article Is Built On
+## How the Pass Was Scoped
 
-**The spinoff is not a diversification. It is the internalization of an anchor customer.**
+I measured A290's per-section distribution, which sits at 77 and is at publication-review parity, and matched its shape rather than applying a per-word ratio. The six sections that carry zero equations in every sibling stayed at zero.
 
-Where A283 treats a government customer buying launches, this article treats the venture becoming the customer it had previously needed someone else to be.
-
-The ordinary account says a launch company entered telecommunications. That is not false and it is not an explanation, because it gives no reason why a launch company should have any advantage in telecommunications, and without one the diversification destroys value for every reason the literature A288 surveys documents.
-
-The decisive property is the cost position. The spinoff pays the parent's marginal cost. Every competitor pays a market price the parent sets. The per-launch gap is the parent's entire margin, and it is incurred on every launch of a campaign requiring hundreds. That is why the advantage matters for a constellation and would be irrelevant for a business needing one launch.
+| Section | Before | After |
+|---|---|---|
+| Cross-Disciplinary Framings | 0 | 8 |
+| The Commercial Spinoff as an Economic Property | 5 | 7 |
+| The Launch-Cadence Coupling | 3 | 5 |
+| Vertical Integration and the Internal Transfer Price | 1 | 4 |
+| Capital Intensity and the Replenishment Treadmill | 2 | 4 |
+| Alternative Analytical Frameworks | 0 | 4 |
+| Mapping Problem | 2 | 4 |
+| Deep Historical Comparative Precedents | 0 | 3 |
+| Remaining narrative and comparison sections | 0 to 2 each | 2 to 3 each |
 
 ---
 
-## Three Findings I Think Are New to the Series
+## Six Additions That Carry New Argument
 
-**1. The deployment threshold explains why this leg needed the other two.** A constellation supplies continuous service only once enough orbital planes are populated. Below that, the service is intermittent and unsellable. So a partially deployed constellation earns **approximately nothing, not a proportional fraction**. The business cannot be built incrementally against revenue and must be financed entirely ahead of income. That is what connects the spinoff leg back to the government and private legs rather than leaving it as a separate commercial story.
+Most of the 49 formalize claims already present. These six change or sharpen something.
 
-**2. Spectrum priority is where the capital-formation account and the regulatory account become the same account.** This is the finding I would most want you to check. Coordination runs on a first-filed basis subject to bring-into-use deadlines. So deployment speed is not merely an economic advantage — it is the mechanism by which a regulatory option is exercised before it expires. Captive launch capacity let the venture meet a deadline it controlled. A competitor buying launch at market faced a deadline it did not. The scarce asset in this business is not orbital volume and not capital. It is priority.
+1. **Make-or-buy is the wrong test here.** The transaction-cost condition compares internal cost plus governance cost against market price. This case does not turn on that inequality at all. No supplier existed at the required cadence at any price, so the condition is an existence claim rather than a comparison. **The integration would have been correct even had it been more expensive than buying**, which is not the case the literature ordinarily treats.
 
-**3. The replenishment treadmill limits durability more than either side admits.** Short orbital lifetimes convert the constellation from a capital asset into a consumable, so incumbency advantage scales roughly as satellite lifetime over competitor deployment time, which is a small number. An incumbent whose fleet must be wholly replaced every few years cannot rest on it. **This cuts against the natural-monopoly reading that critics use and against the permanent-moat reading that advocates use.**
+2. **The spinoff lowers the parent's cost of serving its own external customers.** Spreading fixed cost across more flights drops average cost, so the constellation improves the merchant launch business as a by-product of consuming it. That is the reverse of the resource diversion the diversification literature predicts, and I now treat it as **the strongest single piece of evidence that this is not a diversification**.
+
+3. **Consumer broadband fails the two-sided-market test.** A genuine platform requires each side's utility to rise in the other's participation. For shared-capacity broadband, an additional subscriber weakly *degrades* service. So importing platform pricing conclusions into the broadband business is an error, and only the direct-to-cell service qualifies.
+
+4. **The latency ratio explains the incumbents' non-response.** Low orbit cuts propagation latency by about two orders of magnitude, which moves the service across the threshold where interactive applications become usable. That is a discontinuity in the served application set, not an improvement along an existing dimension — which is why operators optimized for a different design point did not react.
+
+5. **Bring-into-use is a rate requirement, and the option collapses rather than degrades.** The filing's value is an indicator times the protected position, so missing the deadline forfeits it discontinuously. This is the formal core of the spectrum-priority finding and makes it sharper than the prose alone had it.
+
+6. **The treadmill has a favorable side I had not stated.** Uniform replacement fixes the fleet's average age at half a design lifetime, so the constellation is permanently refreshed with current-generation hardware instead of ageing toward obsolescence as a geostationary fleet does. That partially offsets the capital burden the same section describes.
 
 ---
 
 ## Article Metrics
 
-| Metric | Value |
-|---|---|
-| Lines | 796 |
-| Words | ~10,203 |
-| Display equations | 26 |
-| H2 / H3 sections | 28 / 12 |
-| Total reference anchors | 173 |
-| Books / Reference / Research / Related Post | 46 / 68 / 39 / 20 |
-| Missing / unused / duplicate anchors | 0 / 0 / 0 |
-| Duplicate URLs | 0 |
-| Style violations | 0 |
+| Metric | Before | After |
+|---|---|---|
+| Lines | 796 | 1,013 |
+| Words | ~10,203 | ~13,199 |
+| **Display equations** | **26** | **75** |
+| H2 / H3 sections | 28 / 12 | 28 / 12 |
+| Total reference anchors | 173 | 173 |
+| Missing / unused / duplicate | 0 / 0 / 0 | 0 / 0 / 0 |
+| Duplicate URLs | 0 | 0 |
+| Style violations | 0 | 0 |
+
+LaTeX balanced at 32 matched `\left` and `\right` pairs, braces and array environments matched, every macro within the MathJax `tex-mml-chtml` default package set.
 
 ---
 
 ## Items Requiring Your Attention
 
-1. **Both density passes remain.** 26 equations against the 60-72 band and 173 anchors against the 190-234 baseline.
+1. **Reference-density pass is the remaining item.** 173 anchors against the 190-234 baseline, with books at 46 and research at 39 as the gap.
 
-2. **The publication batch is now four.** A291 back-references A288, A289, and A290, all unpublished. Those four publish together or in strict order. A284 through A287 are live and unaffected.
+2. **One equation is an approximation I want flagged.** The coverage-density relation over latitude is a simplified dwell-time expression, correct in form and in its limiting behaviour but not a rigorous derivation of constellation coverage. It is doing illustrative work in explaining why deployment ran high-latitude first, and it should not be read as a design formula.
 
-3. **Citation handling given last turn's audit.** Every anchor was drawn from the verified corpus and rechecked before use. Five dead inherited URLs were replaced with verified pages, and one anchor whose DOI is unregistered was excluded rather than shipped. **A291 introduces no unverified citation.**
+3. **The publication batch is still four**, A288 through A291, and A288 still carries two of the fabricated citations from the earlier audit.
 
-4. **The direct-to-cell business is the real qualification to the dominance claim.** It runs on carrier spectrum, not the operator's. It is the one part of the spinoff where the venture does not hold the complementary asset, so the appropriability tradition predicts value gets divided by bargaining power rather than captured. I gave that its own section rather than burying it.
-
-5. **I declined to credit foresight where the record does not show it.** The Iridium contrast partly turns on terrestrial buildout economics moving favorably for broadband where they moved unfavorably for voice. Nothing in the 2015 decision demonstrates anyone predicted that, so I marked it a favorable contingency rather than a strategic insight.
-
-6. **The orbital-commons objection is stated as sound.** The resource is finite, shared, and unpriced. I also recorded the fairness point that short lifetimes and active deorbit are better practice than the geostationary precedents while aggregate risk still rises, because the commentary usually asserts only one of those two.
+4. **No build verification is possible** until the batch stages together.
 
 ---
 
 ## Suggested Next Steps
 
-- Equation-density and reference-density passes on A291.
-- Then A292, the closing article. It should carry forward the A290 finding that the conditions are separable in favorable states and correlated in adverse ones, and test it across all ten rather than only the two where it has been shown.
-- Decide the citation-integrity remediation for A282 through A287 before the batch publishes. A288 still carries two fabricated citations.
-- Publish A288 through A291 as a four-article batch once all are at parity.
+- Reference-density pass on A291, concentrating on books and research.
+- Then A292, the closing article.
+- Resolve the citation-integrity remediation before the batch publishes.
+- Publish A288 through A291 as a four-article batch.
 - Broken-link sweep across live A281, A282, and A283.
 - Decide the scope of the "the specific" remediation.
