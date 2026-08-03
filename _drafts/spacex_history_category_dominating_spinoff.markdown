@@ -165,7 +165,27 @@ The telecommunications-history tradition traces from [Wu 2010][book_wu_2010] The
 
 The public-administration and procurement tradition surveyed at [Public Administration Review][ref_public_admin_review] and the [Journal of Public Procurement][ref_journal_public_procurement] supplies the account of how a government buyer relates to a supplier that has become dominant in a commercial category, and the macroeconomic context in which the buildout occurred is documented at the [National Bureau of Economic Research][ref_nber] and the [Conference Board][ref_conference_board].
 
-The space-economics tradition traces from [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier through [Hertzfeld 2002][research_hertzfeld_2002], [Adilov Alexander and Cunningham 2018][research_adilov_et_al_2018], [Weeden and Chow 2012][research_weeden_chow_2012], and [Zimmerman 2011][research_zimmerman_2011], with the policy histories at [Launius 2004][book_launius_2004], [McCurdy 1994][book_mccurdy_1994], [Logsdon 1970][book_logsdon_1970], [Handberg 1994][book_handberg_1994], [McDougall 1985][book_mcdougall_1985], and [Heppenheimer 1999][book_heppenheimer_1999].
+The dynamic-capabilities tradition traces from [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997] through [Teece 2007][research_teece_2007], [Teece 2018][research_teece_2018], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], [Winter 2003][research_winter_2003], [Peteraf 1993][research_peteraf_1993], and [Grant 1996][research_grant_1996], with the absorptive-capacity and knowledge lines at [Cohen and Levinthal 1990][research_cohen_levinthal_1990] and [Kogut and Zander 1992][research_kogut_zander_1992] and the exploration and exploitation framing at [March 1991][research_march_1991] and [Levitt and March 1988][research_levitt_march_1988]. The tradition's contribution here is to identify the spinoff as an application of a capability rather than an acquisition of one, which is the distinction that separates it from a conglomerate entry and which the diversification objection elides.
+
+The innovation-systems and endogenous-growth tradition traces from [Arrow 1962][research_arrow_1962] and [Nelson 1959][research_nelson_1959] through [Romer 1990][research_romer_1990], [Griliches 1979][research_griliches_1979], [Dosi 1988][research_dosi_1988], [Pavitt 1984][research_pavitt_1984], [Freeman and Soete 1997][research_freeman_soete_1997], and [Bonvillian 2018][research_bonvillian_2018], with the book-length treatments at [Nelson 1993][book_nelson_1993], [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998], [Ruttan 2006][book_ruttan_2006], and [Lipsey Carlaw and Bekar 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations. The tradition supplies the general-purpose-technology framing under which cheap access to orbit is an input to activities not yet identified, which is the strongest form of the case for the arrangement and the one least susceptible to measurement.
+
+The contract-and-procurement tradition traces from [Bajari and Tadelis 2001][research_bajari_tadelis_2001] through [Levin and Tadelis 2010][research_levin_tadelis_2010], [Lafontaine and Slade 2007][research_lafontaine_slade_2007] Vertical Integration and Firm Boundaries, [Corts and Singh 2004][research_corts_singh_2004], and [Gagnepain and Ivaldi 2002][research_gagnepain_ivaldi_2002], with the regulatory-contracting treatment at [Laffont and Tirole 1993][book_laffont_tirole_1993]. The [Lafontaine and Slade 2007][research_lafontaine_slade_2007] survey is the most directly useful, because it collects the empirical evidence on when integration improves outcomes and finds the evidence considerably more favorable to integration than the theoretical literature's caution suggests.
+
+The organizational-reliability tradition traces from [Perrow 1984][book_perrow_1984] Normal Accidents through [Vaughan 1996][book_vaughan_1996] The Challenger Launch Decision, [Weick 1979][book_weick_1979], [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007], [Selznick 1949][book_selznick_1949], and [Mindell 2008][book_mindell_2008]. The tradition bears on the replenishment treadmill in a way the financial treatment does not, because a production and launch tempo sustained indefinitely is an organizational condition rather than a capital one, and the tradition's central finding is that sustained high tempo erodes the margins that absorb error.
+
+The commons and institutional tradition traces from [Ostrom 1990][book_ostrom_1990] Governing the Commons through [North 1990][book_north_1990] and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012], with the historical instances at [Grief 2006][book_grief_2006], [Lane 1934][book_lane_1934], and [de Vries and van der Woude 1997][book_devries_vanderwoude_1997]. The [Ostrom 1990][book_ostrom_1990] treatment matters because it establishes that unpriced common-pool resources are not invariably destroyed and that the conditions under which local governance succeeds are identifiable, which reframes the orbital-congestion question from a prediction of catastrophe into a question about whether those conditions obtain.
+
+The science-and-technology-studies tradition traces from [Bijker Hughes and Pinch 1987][book_bijker_hughes_pinch_1987] through [Bijker 1995][book_bijker_1995], [Latour 1987][book_latour_1987], [MacKenzie 1990][book_mackenzie_1990] Inventing Accuracy, [Hughes 1983][book_hughes_1983], and [Nye 1998][book_nye_1998]. The tradition supplies the account of how a technical system and its user expectations are co-constructed, which is relevant because the service category this article calls category-dominating did not exist as a consumer expectation before the system that serves it.
+
+The financial-sociology tradition traces from [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera through [Ho 2009][book_ho_2009], [Preda 2009][book_preda_2009], [Zaloom 2006][book_zaloom_2006], [Krippner 2011][book_krippner_2011], [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, and [Berle and Means 1932][book_berle_means_1932]. The tradition treats the categories through which a business is valued as institutionally produced, which bears directly on this article's observation that the reported segmentation of a private firm is an accounting choice rather than an economic fact.
+
+The corporate-control tradition traces from [Manne 1965][research_manne_1965] through [Grossman and Hart 1988][research_grossman_hart_1988], [Harris and Raviv 1988][research_harris_raviv_1988], [DeAngelo and DeAngelo 1985][research_deangelo_deangelo_1985], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Bebchuk Kraakman and Triantis 2000][research_bebchuk_kraakman_triantis_2000], [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017], [Gompers Ishii and Metrick 2003][research_gompers_ishii_metrick_2003], [La Porta Lopez-de-Silanes Shleifer and Vishny 1998][research_laporta_et_al_1998], [Hart and Moore 1990][research_hart_moore_1990], [Hart 1988][research_hart_1988], and [Williamson 2002][research_williamson_2002], with the book-length treatments at [Hansmann 1996][book_hansmann_1996], [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991], and [Roe 1994][book_roe_1994]. The tradition is the one the new Constraint the Spinoff Installs section draws upon, and its relevant limitation is that it theorizes control exercised through ownership and has comparatively little to say about control exercised through a service or licensing relationship.
+
+The developmental-state tradition traces from [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle through [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Chang 2002][book_chang_2002], and [Woo-Cumings 1999][book_woo_cumings_1999], and the project-finance apparatus at [Grimsey and Lewis 2004][book_grimsey_lewis_2004] and [Yescombe 2007][book_yescombe_2007] supplies the contemporary institutional form for infrastructure whose construction period exceeds its financiers' horizon.
+
+The market-design tradition traces from [Myerson 1981][research_myerson_1981] through [Milgrom 2004][book_milgrom_2004] and [McAfee and McMillan 1988][book_mcafee_mcmillan_1988], and it bears on the spectrum-coordination regime rather than on the tender arrangement the preceding article treats, because an administration allocating priority among filings is conducting an assignment without prices.
+
+The space-economics tradition traces from [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier through [Hertzfeld 2002][research_hertzfeld_2002], [Adilov Alexander and Cunningham 2014][research_adilov_et_al_2014], [Weeden and Chow 2012][research_weeden_chow_2012], and [Zimmerman 2011][research_zimmerman_2011], with the policy histories at [Launius 2004][book_launius_2004], [McCurdy 1994][book_mccurdy_1994], [Logsdon 1970][book_logsdon_1970], [Handberg 1994][book_handberg_1994], [McDougall 1985][book_mcdougall_1985], and [Heppenheimer 1999][book_heppenheimer_1999].
 
 ## The January 2015 Announcement and the Capacity Argument
 
@@ -401,7 +421,7 @@ with the value collapsing to zero on failure rather than degrading gracefully. T
 
 The constellation imposes costs on other operators and on future entrants that it does not bear, and the article states the externality plainly rather than treating it as a critics' talking point.
 
-The debris and conjunction regime is documented at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [orbital debris mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], with the economic treatments at [Adilov Alexander and Cunningham 2018][research_adilov_et_al_2018] and [Weeden and Chow 2012][research_weeden_chow_2012]. The externality admits the compact statement
+The debris and conjunction regime is documented at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [orbital debris mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], with the economic treatments at [Adilov Alexander and Cunningham 2014][research_adilov_et_al_2014] and [Weeden and Chow 2012][research_weeden_chow_2012]. The externality admits the compact statement
 
 $$\frac{\partial \, \text{collision risk}_j}{\partial \, S_i} > 0 \qquad \text{with the cost borne by } j \neq i$$
 
@@ -455,6 +475,34 @@ $$\left. \frac{\partial \, \text{outcome}}{\partial \, \text{captive launch}} \r
 
 as the estimand the comparison identifies. The article marks the limits of the inference. The programmes began at different dates, hold different spectrum priorities, and pursue partially different market segments, so the contrast is suggestive rather than clean.
 
+## The Constraint the Spinoff Installs
+
+The mapping-problem section states that the spinoff leg terminates the capital-formation problem rather than managing it, on the ground that retained earnings carry neither a milestone requirement nor a dilution. That statement is too strong, and correcting it is the most consequential revision this review makes.
+
+Retained earnings carry no financial claim. They carry an operational one, and the operational claim is not smaller than the financial claim it replaced. A subscriber base is a continuing service obligation. A carrier partnership is a contractual obligation with a counterparty holding an asset the venture does not own. A national authorization is a political obligation to a regulator with the power to withdraw it. None of these parties supplied capital and none holds equity, so none of them appears anywhere in the capital-formation accounting the series has developed across the three legs.
+
+The correct statement of the leg's contribution nets the spinoff's own claims against its gross generation, admitting the compact form
+
+$$R^{\text{available to mission}} = R^{\text{gross}} - C^{\text{operating}} - C^{\text{replenishment}} - C^{\text{regulatory and service obligations}}$$
+
+with the final term rising in the size of the subscriber base and the number of jurisdictions served. The term is not merely financial. It consumes decision capacity at the level of the firm, which is the resource the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] identifies as binding before capital does, drawing on the managerial-services limit that [Penrose 1959][book_penrose_1959] states and that [March and Simon 1958][book_march_simon_1958], [Cyert and March 1963][book_cyert_march_1963], and [Simon 1957][book_simon_1957] develop.
+
+The consequence is that the leg's net contribution need not be monotone in the spinoff's scale. There exists in principle a scale beyond which the marginal subscriber consumes more mission-relevant capacity than the marginal revenue funds, admitting the compact stationarity condition
+
+$$\frac{\partial R^{\text{available to mission}}}{\partial n^{\text{sub}}} = 0 \qquad \text{at some} \qquad n^{\text{sub}} = n^{\dagger}$$
+
+with the article unable to say whether $n^{\dagger}$ has been passed, or whether it lies far beyond any attainable scale, because both the mission burn and the obligation cost are unpublished. The article states the possibility because the ordinary account treats the relationship as monotone by assumption and never examines it.
+
+The sharper point concerns governance rather than arithmetic. The [Governance article A287][related_post_a287_spacex_governance] establishes a control configuration designed to resist capital capture, in which an investor seeking to redirect the firm must assemble votes it cannot obtain. That defence is exact against the party it was designed against and is entirely absent against the parties this section identifies. The asymmetry admits the compact statement
+
+$$\text{defence} = f\!\left( \text{votes required} \right) \qquad \text{but} \qquad \frac{\partial \, \text{leverage}^{\text{regulator, carrier, subscriber}}}{\partial \, \text{votes held}} = 0$$
+
+with the leverage of these parties independent of any equity position. A telecommunications regulator withdrawing an authorization, a carrier declining to renew a spectrum arrangement, or a subscriber base migrating to a competitor each constrains the firm without holding a single share. The dual-class structure the series treats as the mechanism protecting the mission from capital is therefore no protection whatever against the constituencies the third leg creates.
+
+The observation completes a pattern the series has now encountered three times, and the article states it as a pattern rather than as a third isolated finding. The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] found that a portfolio which appears to distribute risk concentrates it on a shared vehicle family. The [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] found that sub-properties which appear to fail independently fail together under adverse states. The present article finds that a leg which appears to remove a constraint substitutes a different one. In all three cases the framework's own decomposition understates the coupling between the conditions it separates, and the coupling becomes visible only under conditions the observed history does not contain. The closing article A292 should treat this as a general property of the seven-plus-three framework rather than as three coincidences.
+
+The evidentiary position of this section is weak in the same way the A290 adverse-state treatment is weak. No instance is observable in which a regulatory or service obligation visibly constrained a mission-directed decision at this firm. The section reasons from the structure of the obligations rather than from any observed event, and its claims are conditional predictions. The article notes that the direct-to-cell arrangement and the per-jurisdiction authorization structure are the two channels through which such a constraint would first become visible, and that both are recent enough that an absence of observed constraint carries little information.
+
 ## Deep Historical Comparative Precedents
 
 The category-dominating spinoff mechanic admits comparison with historical precedents in which a firm built a business on top of a capability developed for another purpose.
@@ -478,6 +526,16 @@ $$\frac{C^{\text{network}}}{n^{\text{user}}} \; \text{decreasing in} \; n^{\text
 with the fixed coverage cost incurred before any user is served. The historical resolution was a regulated monopoly with a universal-service obligation, which is one of the available outcomes for the present case.
 
 The railroad and canal financings supply the precedent for infrastructure whose construction period exceeded its financiers' horizon, documented in [Chandler 1977][book_chandler_1977] The Visible Hand and [Chandler 1990][book_chandler_1990] Scale and Scope, with the general treatments at [Landes 1969][book_landes_1969], [North 1990][book_north_1990], and [Perez 2002][book_perez_2002] Technological Revolutions and Financial Capital. The [Perez 2002][book_perez_2002] periodization is the most directly applicable, because it treats the availability of capital for a technology class as a function of the installation and deployment cycle rather than as a constant.
+
+The medieval and early-modern partnership forms supply the deepest precedent for a capital arrangement terminating with a single undertaking rather than persisting, documented in [Lane 1934][book_lane_1934], [Grief 2006][book_grief_2006] Institutions and the Path to the Modern Economy, [de Vries and van der Woude 1997][book_devries_vanderwoude_1997], [Steensgaard 1974][book_steensgaard_1974], [Stern 2011][book_stern_2011], and [Robins 2006][book_robins_2006]. The relevance to this article is narrower than to its predecessor and concerns the chartered company's combination of a commercial monopoly with a delegated public function, which is the historical arrangement closest to an operator holding an effectively exclusive position in a communications infrastructure across many jurisdictions.
+
+The aircraft industry supplies the sectoral precedent for a privately financed development programme at a scale exceeding the sponsoring firm's capacity to absorb failure, documented in [Newhouse 1982][book_newhouse_1982] The Sporty Game, [Newhouse 2007][book_newhouse_2007], [Serling 1992][book_serling_1992], [Bilstein 1996][book_bilstein_1996], and [Neufeld 1995][book_neufeld_1995]. The relevant finding is that such programmes were repeatedly sustained by government orders rather than by commercial demand alone, which is the same conjunction the series treats and which suggests the pattern is sectoral rather than singular.
+
+The corporate research laboratory supplies the precedent for patience obtained through monopoly rents rather than through a commercial spinoff, documented in [Gertner 2012][book_gertner_2012] The Idea Factory, [Hiltzik 1999][book_hiltzik_1999] Dealers of Lightning, [Kearns and Nadler 1992][book_kearns_nadler_1992], [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998], and [Ruttan 2006][book_ruttan_2006]. The arrangement produced long horizons with no external claim at all and dissolved when the rents did, which is the precedent most directly relevant to the new Constraint the Spinoff Installs section, because it is a case in which the commercial base that funded the research eventually constrained it.
+
+The postwar East Asian industrial financings supply the case in which the duration problem was solved by policy rather than by instrument, documented in [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Chang 2002][book_chang_2002], [Woo-Cumings 1999][book_woo_cumings_1999], and the institutional treatments at [North 1990][book_north_1990] and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012]. The comparison is the closest available to the Chinese state programmes the contemporary landscape describes.
+
+The modern project-finance apparatus documented at [Grimsey and Lewis 2004][book_grimsey_lewis_2004] and [Yescombe 2007][book_yescombe_2007] supplies the contemporary institutional answer to infrastructure whose construction period exceeds its financiers' horizon, through a special-purpose vehicle matched to a contracted revenue stream. The form is unavailable to a constellation before deployment for the reason the threshold property states, since the structure presupposes a contracted revenue stream and a pre-threshold constellation has none.
 
 The computing industry supplies the precedent for a firm that supplied a platform while competing with the parties depending on it, documented at the [IBM archives][ref_ibm_archives] with the analytical treatments at [Cusumano and Gawer 2002][book_cusumano_gawer_2002] and [Iansiti and Levien 2004][book_iansiti_levien_2004]. The pattern is the one the competition-policy tradition treats and it is the closest structural analogue to the launch-allocation conflict this article identifies.
 
@@ -503,7 +561,35 @@ The principal works are [Sharkey 1982][book_sharkey_1982], [Kahn 1988][book_kahn
 
 ### Sector and Policy Literature
 
-The principal works are [Weinzierl 2018][research_weinzierl_2018], [Hertzfeld 2002][research_hertzfeld_2002], [Adilov Alexander and Cunningham 2018][research_adilov_et_al_2018], [Weeden and Chow 2012][research_weeden_chow_2012], and [Zimmerman 2011][research_zimmerman_2011], with the policy histories at [Launius 2004][book_launius_2004], [McCurdy 1994][book_mccurdy_1994], [Logsdon 1970][book_logsdon_1970], [Handberg 1994][book_handberg_1994], [McDougall 1985][book_mcdougall_1985], and [Heppenheimer 1999][book_heppenheimer_1999]. The literature treats the sector as a government-programme domain and has not substantially absorbed the transition to a commercially financed one.
+The principal works are [Weinzierl 2018][research_weinzierl_2018], [Hertzfeld 2002][research_hertzfeld_2002], [Adilov Alexander and Cunningham 2014][research_adilov_et_al_2014], [Weeden and Chow 2012][research_weeden_chow_2012], and [Zimmerman 2011][research_zimmerman_2011], with the policy histories at [Launius 2004][book_launius_2004], [McCurdy 1994][book_mccurdy_1994], [Logsdon 1970][book_logsdon_1970], [Handberg 1994][book_handberg_1994], [McDougall 1985][book_mcdougall_1985], and [Heppenheimer 1999][book_heppenheimer_1999]. The literature treats the sector as a government-programme domain and has not substantially absorbed the transition to a commercially financed one.
+
+### Capability and Organization Literature
+
+The literature bearing on the spinoff as an application of existing capability comprises [Penrose 1959][book_penrose_1959], [March and Simon 1958][book_march_simon_1958], [Cyert and March 1963][book_cyert_march_1963], [Simon 1957][book_simon_1957], [Nelson and Winter 1982][book_nelson_winter_1982], [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Teece 2007][research_teece_2007], [Teece 2018][research_teece_2018], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], [Winter 2003][research_winter_2003], [Peteraf 1993][research_peteraf_1993], [Grant 1996][research_grant_1996], [Cohen and Levinthal 1990][research_cohen_levinthal_1990], [Kogut and Zander 1992][research_kogut_zander_1992], [March 1991][research_march_1991], and [Levitt and March 1988][research_levitt_march_1988]. The gap is that the literature theorizes capability application within a market and has little to say about a case where the firm creates the downstream market it then applies the capability to.
+
+### Contract Theory and Empirical Integration Literature
+
+The literature comprises [Coase 1937][research_coase_1937], [Williamson 1971][research_williamson_1971], [Williamson 1985][book_williamson_1985], [Williamson 2002][research_williamson_2002], [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], [Grossman and Hart 1986][research_grossman_hart_1986], [Hart and Moore 1990][research_hart_moore_1990], [Hart 1988][research_hart_1988], with the empirical surveys at [Lafontaine and Slade 2007][research_lafontaine_slade_2007], [Bajari and Tadelis 2001][research_bajari_tadelis_2001], [Levin and Tadelis 2010][research_levin_tadelis_2010], [Corts and Singh 2004][research_corts_singh_2004], and [Gagnepain and Ivaldi 2002][research_gagnepain_ivaldi_2002]. The gap is that the empirical literature studies integration decisions with observable transfer prices and this case supplies none.
+
+### Corporate Control and Ownership Literature
+
+The literature comprises [Manne 1965][research_manne_1965], [Grossman and Hart 1988][research_grossman_hart_1988], [Harris and Raviv 1988][research_harris_raviv_1988], [DeAngelo and DeAngelo 1985][research_deangelo_deangelo_1985], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Bebchuk Kraakman and Triantis 2000][research_bebchuk_kraakman_triantis_2000], [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017], [Gompers Ishii and Metrick 2003][research_gompers_ishii_metrick_2003], [La Porta Lopez-de-Silanes Shleifer and Vishny 1998][research_laporta_et_al_1998], [Hansmann 1996][book_hansmann_1996], [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991], [Roe 1994][book_roe_1994], [Berle and Means 1932][book_berle_means_1932], and [Fligstein 2001][book_fligstein_2001]. The gap the new Constraint the Spinoff Installs section identifies is that this literature theorizes control exercised through ownership and has almost nothing to say about control exercised by a regulator, a licensing counterparty, or a subscriber base, none of which holds equity and each of which constrains the firm.
+
+### Innovation Systems and Growth Literature
+
+The literature comprises [Arrow 1962][research_arrow_1962], [Nelson 1959][research_nelson_1959], [Romer 1990][research_romer_1990], [Griliches 1979][research_griliches_1979], [Dosi 1988][research_dosi_1988], [Pavitt 1984][research_pavitt_1984], [Freeman and Soete 1997][research_freeman_soete_1997], [Bonvillian 2018][research_bonvillian_2018], [Nelson 1993][book_nelson_1993], [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998], [Ruttan 2006][book_ruttan_2006], [Lipsey Carlaw and Bekar 2005][book_lipsey_carlaw_bekar_2005], and [Beinhocker 2006][book_beinhocker_2006]. The gap is that the general-purpose-technology framing predicts downstream effects that are by construction not yet observable, so the strongest form of the case for the arrangement is also the least testable.
+
+### Reliability and Organizational Safety Literature
+
+The literature comprises [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Weick 1979][book_weick_1979], [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007], [Selznick 1949][book_selznick_1949], [Mindell 2008][book_mindell_2008], and [MacKenzie 1990][book_mackenzie_1990]. The gap is that the sector's reliability literature was developed for low-tempo high-consequence programmes and the replenishment treadmill describes a high-tempo regime for which the accumulated findings may not transfer.
+
+### Commons and Institutional Governance Literature
+
+The literature comprises [Ostrom 1990][book_ostrom_1990], [North 1990][book_north_1990], [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012], and the historical instances at [Grief 2006][book_grief_2006], [Lane 1934][book_lane_1934], and [de Vries and van der Woude 1997][book_devries_vanderwoude_1997]. The [Ostrom 1990][book_ostrom_1990] design principles supply the most useful available checklist for whether an orbital-allocation regime could work, and the article notes that the orbital case satisfies few of them, principally because the resource boundary is poorly defined and the appropriator community is not a community in any meaningful sense.
+
+### Science and Technology Studies Literature
+
+The literature comprises [Bijker Hughes and Pinch 1987][book_bijker_hughes_pinch_1987], [Bijker 1995][book_bijker_1995], [Latour 1987][book_latour_1987], [MacKenzie 1990][book_mackenzie_1990], [Hughes 1983][book_hughes_1983], [Nye 1990][book_nye_1990], and [Nye 1998][book_nye_1998], with the financial-sociology line at [MacKenzie 2006][book_mackenzie_2006], [Ho 2009][book_ho_2009], [Preda 2009][book_preda_2009], [Zaloom 2006][book_zaloom_2006], and [Krippner 2011][book_krippner_2011]. The gap is that the sector has attracted comparatively little constructivist attention relative to its cultural prominence.
 
 ### Critical and Skeptical Literature
 
@@ -538,6 +624,8 @@ $$\left| \left\{ \text{entities holding captive launch at constellation cadence}
 counting the present case and the Chinese state programmes, and the article notes that this is the smallest comparison set of any condition treated in the series. The pattern the closing section states is therefore extracted from close to a single observation, and the reader should weight it accordingly.
 
 Among commercial entrants, [Rocket Lab][ref_rocket_lab_press] holds launch capability at a vehicle scale below constellation deployment economics while developing a larger vehicle, [Blue Origin][ref_blue_origin_press] holds a launch programme under the single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats and is affiliated with the constellation competitor this article discusses, and [United Launch Alliance][ref_ula_press] with its parents at [Boeing][ref_boeing_press] and [Northrop Grumman][ref_northrop_grumman_press] operates as a launch provider without a downstream service business. The [Space Force National Security Space Launch programme][ref_space_force_nssl] record documents the government-customer side of the same set.
+
+The scarcity of the configuration is best appreciated against the historical alternatives rather than against contemporary entrants alone. The regulated-monopoly form the [Bell System][ref_att_consent_decree_1956] settlement produced, the state-directed form the East Asian financings employed, and the foundation-ownership form the [Governance article A287][related_post_a287_spacex_governance] treats each solved the duration problem by a route unavailable to a commercially financed venture in a common-law jurisdiction. The arrangement this article describes is therefore not the general solution to a general problem but a particular solution available under a narrow conjunction of conditions, which is the qualification the closing article should carry into any forward projection.
 
 ## Comparative Cross-Sectional Analysis
 
@@ -608,6 +696,16 @@ The comparative-institutional framing asks whether the arrangement is a feature 
 
 The industrial-policy framing treats the outcome as the return on the government investment the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] documents, and it generates the claim that the public has an equity-like interest in the result that the non-dilutive instrument failed to secure. The article regards the framing as analytically serious and notes that it is a claim about what the instrument should have been rather than about what it was.
 
+The capability framing developed in [Penrose 1959][book_penrose_1959], [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Teece 2007][research_teece_2007], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], and [Winter 2003][research_winter_2003] treats the spinoff as the application of a capability the firm already possessed rather than as an entry into a market it did not understand. Under the framing the interesting question is not why the firm entered but why no other holder of comparable capability did, and the answer the article supplies is that no other holder had surplus capacity at the required cadence.
+
+The contract-and-boundaries framing developed in [Lafontaine and Slade 2007][research_lafontaine_slade_2007], [Bajari and Tadelis 2001][research_bajari_tadelis_2001], [Levin and Tadelis 2010][research_levin_tadelis_2010], and [Corts and Singh 2004][research_corts_singh_2004] asks whether the observed integration is consistent with the empirical regularities the literature has established. It is, and unusually strongly, because the activity exhibits high asset specificity, high measurement difficulty, and high coordination requirements, which are the three conditions the empirical literature most consistently associates with integration.
+
+The corporate-control framing developed in [Manne 1965][research_manne_1965], [Grossman and Hart 1988][research_grossman_hart_1988], [Harris and Raviv 1988][research_harris_raviv_1988], [Fama and Jensen 1983][research_fama_jensen_1983], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hansmann 1996][book_hansmann_1996], and [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991] treats the arrangement as an ownership question and asks which class of party should hold residual control. The new Constraint the Spinoff Installs section develops the framing's principal limitation for this case, which is that the parties acquiring leverage over the firm through the spinoff acquire it without ownership and are therefore invisible to the framing entirely.
+
+The reliability framing developed in [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007], and [Mindell 2008][book_mindell_2008] treats the replenishment treadmill as an organizational condition rather than a financial one and generates the prediction that sustained high tempo erodes the margins that absorb error. The prediction is testable against the programme's own anomaly record and the article does not attempt the test, which is a gap a subsequent treatment could close.
+
+The commons-governance framing developed in [Ostrom 1990][book_ostrom_1990], [North 1990][book_north_1990], and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] asks whether an orbital-allocation regime could work rather than whether one is needed. Applying the design principles yields a pessimistic answer, principally because the resource boundary is poorly defined and the appropriators are sovereign states rather than a community, and the article regards this as a more useful contribution than a further restatement that the externality exists.
+
 The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], and [Klepper 1996][research_klepper_1996] supplies the selection caution, which applies with particular force here because the spinoff is observed only in the case that succeeded and the contemporaneous attempts that failed are the comparison set the article uses to argue for the mechanism.
 
 ## Pattern Extraction
@@ -640,6 +738,8 @@ $$\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}} \qquad
 
 with the ratio small wherever the replacement interval is short. The venture does not obtain an annuity. It obtains a business that must rebuild itself continuously and whose dominance lasts precisely as long as it continues to do so faster than anyone else.
 
+A second limitation is stated in the Constraint the Spinoff Installs section and belongs in the abstract statement rather than only in the analysis. The fifth sub-property requires that retained earnings reach the scale of the mission burn, and it is written as though the spinoff's contribution were its gross generation. It is not. A spinoff at mission-funding scale is also an operating business with service obligations, counterparty commitments, and regulatory dependencies in every jurisdiction it serves, and those obligations consume the same decision capacity the mission requires. The closure the pattern describes is therefore a substitution of constraints rather than a removal of one, and a candidate case should be assessed on the net rather than on the gross.
+
 ## Cross-References to the Series
 
 The article back-references the [series opener][related_post_a281_spacex_framing] for the seven-plus-three framework and the mission burn the spinoff is intended to fund. The article back-references the [Value Gradient article A282][related_post_a282_spacex_value_gradient] for the vehicle progression whose surplus capacity the spinoff consumes. The article back-references the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] for the external anchor customer the spinoff internalizes. The article back-references the [Value Capture article A284][related_post_a284_spacex_value_capture] for the complementary-asset argument this article supplies the sharpest instance of. The article back-references the [Decomposability article A285][related_post_a285_spacex_decomposability] for the reuse progression the cadence coupling accelerates. The article back-references the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] for the design commonality that makes the satellite production rate attainable. The article back-references the [Governance article A287][related_post_a287_spacex_governance] for the control configuration that permitted the programme to be undertaken over the objection external shareholders would likely have raised. The article back-references the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] for the line structure the spinoff occupies and for the transfer price both articles identify as the critical unobserved quantity. The article back-references the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] for the non-dilutive channel that financed the capability the spinoff exploits. The article back-references the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] for the January 2015 round raised against the business this article describes.
@@ -660,51 +760,106 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Books
 
+- [Acemoglu and Robinson 2012 Why Nations Fail][book_acemoglu_robinson_2012]
+- [Amsden 1989 Asia's Next Giant][book_amsden_1989]
 - [Bain 1968 Industrial Organization][book_bain_1968]
+- [Beinhocker 2006 The Origin of Wealth][book_beinhocker_2006]
 - [Berger 2021 Liftoff][book_berger_2021]
 - [Berger 2024 Reentry][book_berger_2024]
+- [Berle and Means 1932 The Modern Corporation and Private Property][book_berle_means_1932]
+- [Bijker 1995 Of Bicycles Bakelites and Bulbs][book_bijker_1995]
+- [Bijker Hughes Pinch 1987 The Social Construction of Technological Systems][book_bijker_hughes_pinch_1987]
+- [Bilstein 1996 Stages to Saturn][book_bilstein_1996]
 - [Bork 1978 The Antitrust Paradox][book_bork_1978]
 - [Chandler 1977 The Visible Hand][book_chandler_1977]
 - [Chandler 1990 Scale and Scope][book_chandler_1990]
+- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
 - [Chernow 2004 Titan][book_chernow_2004]
 - [Christensen 1997 The Innovator's Dilemma][book_christensen_1997]
 - [Christensen and Raynor 2003 The Innovator's Solution][book_christensen_raynor_2003]
 - [Cusumano and Gawer 2002 Platform Leadership][book_cusumano_gawer_2002]
+- [Cyert and March 1963 A Behavioral Theory of the Firm][book_cyert_march_1963]
 - [Davenport 2018 The Space Barons][book_davenport_2018]
+- [de Vries and van der Woude 1997 The First Modern Economy][book_devries_vanderwoude_1997]
+- [Easterbrook and Fischel 1991 The Economic Structure of Corporate Law][book_easterbrook_fischel_1991]
+- [Evans 1995 Embedded Autonomy][book_evans_1995]
 - [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
+- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
+- [Gertner 2012 The Idea Factory][book_gertner_2012]
+- [Grief 2006 Institutions and the Path to the Modern Economy][book_grief_2006]
+- [Grimsey and Lewis 2004 Public Private Partnerships][book_grimsey_lewis_2004]
 - [Handberg 1994 Reinventing NASA][book_handberg_1994]
+- [Hansmann 1996 The Ownership of Enterprise][book_hansmann_1996]
 - [Heppenheimer 1999 The Space Shuttle Decision][book_heppenheimer_1999]
+- [Hiltzik 1999 Dealers of Lightning][book_hiltzik_1999]
+- [Ho 2009 Liquidated][book_ho_2009]
 - [Hovenkamp 2005 The Antitrust Enterprise][book_hovenkamp_2005]
 - [Hughes 1983 Networks of Power][book_hughes_1983]
 - [Iansiti and Levien 2004 The Keystone Advantage][book_iansiti_levien_2004]
 - [Isaacson 2023 Elon Musk][book_isaacson_2023]
+- [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
 - [Kahn 1988 The Economics of Regulation][book_kahn_1988]
+- [Kearns and Nadler 1992 Prophets in the Dark][book_kearns_nadler_1992]
 - [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
+- [Laffont and Tirole 1993 A Theory of Incentives in Procurement and Regulation][book_laffont_tirole_1993]
 - [Landes 1969 The Unbound Prometheus][book_landes_1969]
+- [Lane 1934 Venetian Ships and Shipbuilders of the Renaissance][book_lane_1934]
+- [Latour 1987 Science in Action][book_latour_1987]
 - [Launius 2004 Frontiers of Space Exploration][book_launius_2004]
 - [Levin 2010 The Wires That Bind][book_levin_2010]
+- [Lipsey Carlaw and Bekar 2005 Economic Transformations General Purpose Technologies and Long-Term Economic Growth][book_lipsey_carlaw_bekar_2005]
 - [Logsdon 1970 The Decision to Go to the Moon][book_logsdon_1970]
+- [MacKenzie 1990 Inventing Accuracy][book_mackenzie_1990]
+- [MacKenzie 2006 An Engine Not a Camera][book_mackenzie_2006]
+- [March and Simon 1958 Organizations][book_march_simon_1958]
+- [McAfee and McMillan 1988 Incentives in Government Contracting][book_mcafee_mcmillan_1988]
 - [McCurdy 1994 Inside NASA][book_mccurdy_1994]
 - [McDougall 1985 The Heavens and the Earth][book_mcdougall_1985]
 - [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
+- [Milgrom 2004 Putting Auction Theory to Work][book_milgrom_2004]
+- [Mindell 2008 Digital Apollo][book_mindell_2008]
+- [Mowery and Rosenberg 1998 Paths of Innovation][book_mowery_rosenberg_1998]
+- [Nelson 1993 National Innovation Systems][book_nelson_1993]
 - [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
+- [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
 - [Nevins 1954 Ford The Times The Man The Company][book_nevins_1954]
+- [Newhouse 1982 The Sporty Game][book_newhouse_1982]
+- [Newhouse 2007 Boeing versus Airbus][book_newhouse_2007]
 - [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
 - [Nye 1990 Electrifying America][book_nye_1990]
+- [Nye 1998 Consuming Power][book_nye_1998]
+- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
 - [Penrose 1959 The Theory of the Growth of the Firm][book_penrose_1959]
 - [Perez 2002 Technological Revolutions and Financial Capital][book_perez_2002]
+- [Perrow 1984 Normal Accidents][book_perrow_1984]
 - [Posner 2001 Antitrust Law][book_posner_2001]
+- [Preda 2009 Framing Finance][book_preda_2009]
+- [Robins 2006 The Corporation That Changed the World][book_robins_2006]
+- [Roe 1994 Strong Managers Weak Owners][book_roe_1994]
+- [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
 - [Scherer and Ross 1990 Industrial Market Structure and Economic Performance][book_scherer_ross_1990]
+- [Selznick 1949 TVA and the Grass Roots][book_selznick_1949]
+- [Serling 1992 Legend and Legacy][book_serling_1992]
 - [Sharkey 1982 The Theory of Natural Monopoly][book_sharkey_1982]
+- [Simon 1957 Administrative Behavior][book_simon_1957]
 - [Sobel 1995 Longitude][book_sobel_1995]
 - [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
+- [Steensgaard 1974 The Asian Trade Revolution of the Seventeenth Century][book_steensgaard_1974]
+- [Stern 2011 The Company-State][book_stern_2011]
 - [Temin and Galambos 1987 The Fall of the Bell System][book_temin_galambos_1987]
 - [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
 - [Utterback 1994 Mastering the Dynamics of Innovation][book_utterback_1994]
 - [Van Alstyne Parker Choudary 2016 Platform Revolution][book_vanalstyne_parker_choudary_2016]
 - [Vance 2015 Elon Musk Tesla SpaceX and the Quest for a Fantastic Future][book_vance_2015]
+- [Vaughan 1996 The Challenger Launch Decision][book_vaughan_1996]
+- [Wade 1990 Governing the Market][book_wade_1990]
+- [Weick 1979 The Social Psychology of Organizing][book_weick_1979]
+- [Weick and Sutcliffe 2007 Managing the Unexpected][book_weick_sutcliffe_2007]
 - [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
+- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
 - [Wu 2010 The Master Switch][book_wu_2010]
+- [Yescombe 2007 Public-Private Partnerships Principles of Policy and Finance][book_yescombe_2007]
+- [Zaloom 2006 Out of the Pits][book_zaloom_2006]
 - [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
 
 ### Reference
@@ -840,43 +995,82 @@ The article closes with the load-bearing open questions the treatment leaves unr
 ### Research
 
 - [Abernathy and Clark 1985 Innovation Mapping the Winds of Creative Destruction][research_abernathy_clark_1985]
-- [Adilov Alexander Cunningham 2018 An Economic Analysis of Earth Orbit Pollution][research_adilov_et_al_2018]
+- [Adilov Alexander and Cunningham 2014 An Economic Analysis of Earth Orbit Pollution][research_adilov_et_al_2014]
 - [Anderson and Tushman 1990 Technological Discontinuities and Dominant Designs][research_anderson_tushman_1990]
+- [Arrow 1962 Economic Welfare and the Allocation of Resources for Invention][research_arrow_1962]
 - [Arthur 1989 Competing Technologies Increasing Returns and Lock-In by Historical Events][research_arthur_1989]
+- [Bajari and Tadelis 2001 Incentives Versus Transaction Costs A Theory of Procurement Contracts][research_bajari_tadelis_2001]
 - [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
+- [Bebchuk and Kastiel 2017 The Untenable Case for Perpetual Dual-Class Stock][research_bebchuk_kastiel_2017]
+- [Bebchuk Kraakman and Triantis 2000 Stock Pyramids Cross-Ownership and Dual Class Equity][research_bebchuk_kraakman_triantis_2000]
+- [Bonvillian 2018 DARPA and the Advanced Research Projects Agency][research_bonvillian_2018]
 - [Boudreau 2010 Open Platform Strategies and Innovation][research_boudreau_2010]
 - [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
 - [Bresnahan and Trajtenberg 1995 General Purpose Technologies Engines of Growth][research_bresnahan_trajtenberg_1995]
 - [Christensen and Rosenbloom 1995 Explaining the Attackers Advantage][research_christensen_rosenbloom_1995]
 - [Coase 1937 The Nature of the Firm][research_coase_1937]
+- [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
+- [Corts and Singh 2004 The Effect of Relationships on the Nature of Contracts][research_corts_singh_2004]
 - [David 1985 Clio and the Economics of QWERTY][research_david_1985]
+- [DeAngelo and DeAngelo 1985 Managerial Ownership of Voting Rights][research_deangelo_deangelo_1985]
+- [Dosi 1988 Sources Procedures and Microeconomic Effects of Innovation][research_dosi_1988]
+- [Eisenhardt and Martin 2000 Dynamic Capabilities What Are They][research_eisenhardt_martin_2000]
 - [Evans 2003 The Antitrust Economics of Multi-Sided Platform Markets][research_evans_2003]
+- [Fama and Jensen 1983 Separation of Ownership and Control][research_fama_jensen_1983]
 - [Farrell and Saloner 1985 Standardization Compatibility and Innovation][research_farrell_saloner_1985]
 - [Finkelstein and Sanford 2000 Learning from Corporate Mistakes Iridium][research_finkelstein_sanford_2000]
+- [Freeman and Soete 1997 The Economics of Industrial Innovation][research_freeman_soete_1997]
+- [Gagnepain and Ivaldi 2002 Incentive Regulatory Policies][research_gagnepain_ivaldi_2002]
 - [Gawer 2014 Bridging Differing Perspectives on Technological Platforms][research_gawer_2014]
 - [Gawer and Cusumano 2014 Industry Platforms and Ecosystem Innovation][research_gawer_cusumano_2014]
+- [Gompers Ishii and Metrick 2003 Corporate Governance and Equity Prices][research_gompers_ishii_metrick_2003]
+- [Grant 1996 Toward a Knowledge-Based Theory of the Firm][research_grant_1996]
+- [Griliches 1979 Issues in Assessing the Contribution of R and D to Productivity Growth][research_griliches_1979]
 - [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
+- [Grossman and Hart 1988 One Share-One Vote and the Market for Corporate Control][research_grossman_hart_1988]
 - [Hagiu and Wright 2015 Multi-Sided Platforms][research_hagiu_wright_2015]
+- [Harris and Raviv 1988 Corporate Governance Voting Rights and Majority Rules][research_harris_raviv_1988]
+- [Hart 1988 Incomplete Contracts and the Theory of the Firm][research_hart_1988]
+- [Hart and Moore 1990 Property Rights and the Nature of the Firm][research_hart_moore_1990]
+- [Helfat and Peteraf 2003 The Dynamic Resource-Based View][research_helfat_peteraf_2003]
 - [Henderson and Clark 1990 Architectural Innovation The Reconfiguration of Existing Product Technologies][research_henderson_clark_1990]
 - [Hertzfeld 2002 Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfer][research_hertzfeld_2002]
 - [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
+- [Jensen 1986 Agency Costs of Free Cash Flow Corporate Finance and Takeovers][research_jensen_1986]
 - [Katz and Shapiro 1985 Network Externalities Competition and Compatibility][research_katz_shapiro_1985]
 - [Khan 2017 Amazon's Antitrust Paradox][research_khan_2017]
 - [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
 - [Klepper 1996 Entry Exit Growth and Innovation over the Product Life Cycle][research_klepper_1996]
+- [Kogut and Zander 1992 Knowledge of the Firm Combinative Capabilities and the Replication of Technology][research_kogut_zander_1992]
 - [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
+- [La Porta Lopez-de-Silanes Shleifer and Vishny 1998 Law and Finance][research_laporta_et_al_1998]
+- [Lafontaine and Slade 2007 Vertical Integration and Firm Boundaries The Evidence][research_lafontaine_slade_2007]
+- [Levin and Tadelis 2010 Contracting for Government Services Theory and Evidence][research_levin_tadelis_2010]
+- [Levitt and March 1988 Organizational Learning][research_levitt_march_1988]
+- [Manne 1965 Mergers and the Market for Corporate Control][research_manne_1965]
+- [March 1991 Exploration and Exploitation in Organizational Learning][research_march_1991]
 - [Monteverde and Teece 1982 Supplier Switching Costs and Vertical Integration in the Automobile Industry][research_monteverde_teece_1982]
+- [Myerson 1981 Optimal Auction Design][research_myerson_1981]
+- [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
 - [Parker and Van Alstyne 2005 Two-Sided Network Effects A Theory of Information Product Design][research_parker_vanalstyne_2005]
+- [Pavitt 1984 Sectoral Patterns of Technical Change][research_pavitt_1984]
+- [Peteraf 1993 The Cornerstones of Competitive Advantage][research_peteraf_1993]
 - [Rochet and Tirole 2003 Platform Competition in Two-Sided Markets][research_rochet_tirole_2003]
 - [Rochet and Tirole 2006 Two-Sided Markets A Progress Report][research_rochet_tirole_2006]
+- [Romer 1990 Endogenous Technological Change][research_romer_1990]
 - [Rysman 2009 The Economics of Two-Sided Markets][research_rysman_2009]
+- [Shleifer and Vishny 1997 A Survey of Corporate Governance][research_shleifer_vishny_1997]
 - [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
 - [Teece 1986 Profiting from Technological Innovation][research_teece_1986]
+- [Teece 2007 Explicating Dynamic Capabilities The Nature and Microfoundations of Sustainable Enterprise Performance][research_teece_2007]
+- [Teece 2018 Profiting from Innovation in the Digital Economy][research_teece_2018]
 - [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
 - [Weeden and Chow 2012 Taking a Common-Pool Resources Approach to Space Sustainability][research_weeden_chow_2012]
 - [Weinzierl 2018 Space the Final Economic Frontier][research_weinzierl_2018]
 - [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
 - [Williamson 1971 The Vertical Integration of Production Market Failure Considerations][research_williamson_1971]
+- [Williamson 2002 The Theory of the Firm as Governance Structure][research_williamson_2002]
+- [Winter 2003 Understanding Dynamic Capabilities][research_winter_2003]
 - [Zimmerman 2011 Economics of Satellite Communications][research_zimmerman_2011]
 
 ### Related Post
@@ -902,51 +1096,106 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [A289 History of SpaceX The Government-Anchor Capital-Formation Leg and Non-Dilutive Development Finance][related_post_a289_spacex_government_anchor_leg]
 - [A290 History of SpaceX The Patient-Private Capital-Formation Leg and the Manufacture of Patience][related_post_a290_spacex_patient_private_leg]
 
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
+[book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
+[book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
+[book_berle_means_1932]: https://www.routledge.com/The-Modern-Corporation-and-Private-Property/Berle-Means/p/book/9780887388873
+[book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
+[book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
+[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
-[book_chandler_1990]: https://www.hup.harvard.edu/books/9780674789944
-[book_chernow_2004]: https://www.penguinrandomhouse.com/books/98060/titan-by-ron-chernow/
+[book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
+[book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
+[book_chernow_2004]: https://openlibrary.org/search?q=Chernow+Titan+Rockefeller
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
+[book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
+[book_devries_vanderwoude_1997]: https://www.cambridge.org/9780521578257
+[book_easterbrook_fischel_1991]: https://www.hup.harvard.edu/books/9780674235397
+[book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
-[book_handberg_1994]: https://www.abc-clio.com/9780275949242/
+[book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
+[book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
+[book_grief_2006]: https://www.cambridge.org/9780521671347
+[book_grimsey_lewis_2004]: https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html
+[book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
+[book_hansmann_1996]: https://www.hup.harvard.edu/books/9780674001718
 [book_heppenheimer_1999]: https://www.si.edu/object/space-shuttle-decision%3Anmah_1197080
-[book_hovenkamp_2005]: https://www.hup.harvard.edu/books/9780674025819
+[book_hiltzik_1999]: https://openlibrary.org/search?q=Hiltzik+Dealers+of+Lightning
+[book_ho_2009]: https://www.dukeupress.edu/liquidated
+[book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
 [book_hughes_1983]: https://jhupbooks.press.jhu.edu/title/networks-power
 [book_iansiti_levien_2004]: https://www.hbsp.harvard.edu/product/5219-HBK-ENG
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
+[book_johnson_1982]: https://www.sup.org/books/title/?id=2143
 [book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
+[book_kearns_nadler_1992]: https://openlibrary.org/search?q=Kearns+Nadler+Prophets+Dark
 [book_krippner_2011]: https://www.hup.harvard.edu/books/9780674066199
+[book_laffont_tirole_1993]: https://mitpress.mit.edu/9780262121743/a-theory-of-incentives-in-procurement-and-regulation/
 [book_landes_1969]: https://www.cambridge.org/9780521094184
+[book_lane_1934]: https://jhupbooks.press.jhu.edu/title/venetian-ships-and-shipbuilders-renaissance
+[book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
 [book_launius_2004]: https://global.oup.com/academic/product/frontiers-of-space-exploration-9780313325243
 [book_levin_2010]: https://openlibrary.org/search?q=Levin+Wires+That+Bind
+[book_lipsey_carlaw_bekar_2005]: https://global.oup.com/academic/product/economic-transformations-9780199290895
 [book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
+[book_mackenzie_1990]: https://mitpress.mit.edu/9780262631471/inventing-accuracy/
+[book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
+[book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+McMillan+Incentives+in+Government+Contracting
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
+[book_milgrom_2004]: https://www.cambridge.org/9780521551847
+[book_mindell_2008]: https://mitpress.mit.edu/9780262516105/digital-apollo/
+[book_mowery_rosenberg_1998]: https://www.cambridge.org/9780521645126
+[book_nelson_1993]: https://global.oup.com/academic/product/national-innovation-systems-9780195076172
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
+[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
 [book_nevins_1954]: https://openlibrary.org/search?q=Nevins+Ford+The+Times+The+Man+The+Company
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
+[book_newhouse_2007]: https://us.macmillan.com/books/9781400079131/boeingversusairbus
 [book_north_1990]: https://www.cambridge.org/9780521397346
 [book_nye_1990]: https://mitpress.mit.edu/9780262640305/electrifying-america/
+[book_nye_1998]: https://mitpress.mit.edu/9780262640503/consuming-power/
+[book_ostrom_1990]: https://www.cambridge.org/9780521405997
 [book_penrose_1959]: https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844
 [book_perez_2002]: https://www.edwardelgar.com/shop/gbp/technological-revolutions-and-financial-capital-9781843763314.html
-[book_posner_2001]: https://press.uchicago.edu/ucp/books/book/chicago/A/bo3627998.html
+[book_perrow_1984]: https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
+[book_posner_2001]: https://openlibrary.org/search?q=Posner+Antitrust+Law
+[book_preda_2009]: https://openlibrary.org/search?q=Preda+Framing+Finance
+[book_robins_2006]: https://www.pluto.co.uk/9780745325248/the-corporation-that-changed-the-world/
+[book_roe_1994]: https://press.princeton.edu/books/paperback/9780691026312/strong-managers-weak-owners
+[book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
 [book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
+[book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
+[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
+[book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_sobel_1995]: https://www.bloomsbury.com/us/longitude-9780802715296/
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
+[book_steensgaard_1974]: https://openlibrary.org/search?q=Steensgaard+Asian+Trade+Revolution
+[book_stern_2011]: https://global.oup.com/academic/product/the-company-state-9780195393736
 [book_temin_galambos_1987]: https://openlibrary.org/search?q=Temin+Galambos+Fall+Bell+System
 [book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
 [book_utterback_1994]: https://www.hbsp.harvard.edu/product/4855-HBK-ENG
 [book_vanalstyne_parker_choudary_2016]: https://wwnorton.com/books/Platform-Revolution/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
+[book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
+[book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
+[book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
-[book_wu_2010]: https://www.penguinrandomhouse.com/books/181430/the-master-switch-by-tim-wu/
+[book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
+[book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
+[book_yescombe_2007]: https://www.sciencedirect.com/book/9780750680547/public-private-partnerships
+[book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
 [ref_51_usc_20113]: https://www.law.cornell.edu/uscode/text/51/20113
 [ref_aiaa_jpp]: https://arc.aiaa.org/journal/jpp
@@ -1096,41 +1345,80 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [research_abernathy_clark_1985]: https://www.sciencedirect.com/science/article/abs/pii/0048733385900217
-[research_adilov_et_al_2018]: https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591
+[research_adilov_et_al_2014]: https://doi.org/10.1007/s10640-013-9758-4
 [research_anderson_tushman_1990]: https://www.jstor.org/stable/2393511
+[research_arrow_1962]: https://www.jstor.org/stable/2295952
 [research_arthur_1989]: https://www.jstor.org/stable/2234208
+[research_bajari_tadelis_2001]: https://www.jstor.org/stable/2696367
 [research_barney_1991]: https://journals.sagepub.com/doi/10.1177/014920639101700108
+[research_bebchuk_kastiel_2017]: https://www.virginialawreview.org/articles/untenable-case-perpetual-dual-class-stock/
+[research_bebchuk_kraakman_triantis_2000]: https://www.nber.org/chapters/c9013
+[research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
 [research_boudreau_2010]: https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1215
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
 [research_bresnahan_trajtenberg_1995]: https://www.sciencedirect.com/science/article/abs/pii/030440769401598T
 [research_christensen_rosenbloom_1995]: https://www.sciencedirect.com/science/article/abs/pii/004873339400794D
 [research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
+[research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
+[research_corts_singh_2004]: https://academic.oup.com/jleo/article-abstract/20/1/230/970131
 [research_david_1985]: https://www.jstor.org/stable/1805621
+[research_deangelo_deangelo_1985]: https://www.sciencedirect.com/science/article/abs/pii/0304405X85900436
+[research_dosi_1988]: https://www.jstor.org/stable/2726526
+[research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
 [research_evans_2003]: https://academic.oup.com/yjolt/article/20/1/325/2379723
+[research_fama_jensen_1983]: https://www.jstor.org/stable/725104
 [research_farrell_saloner_1985]: https://www.jstor.org/stable/2555277
-[research_finkelstein_sanford_2000]: https://sloanreview.mit.edu/article/learning-from-corporate-mistakes-the-rise-and-fall-of-iridium/
+[research_finkelstein_sanford_2000]: https://doi.org/10.1016/S0090-2616(00)00020-6
+[research_freeman_soete_1997]: https://mitpress.mit.edu/9780262561136/the-economics-of-industrial-innovation/
+[research_gagnepain_ivaldi_2002]: https://academic.oup.com/rand/article-abstract/33/4/605/2603099
 [research_gawer_2014]: https://www.sciencedirect.com/science/article/abs/pii/S0048733314001292
 [research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
+[research_gompers_ishii_metrick_2003]: https://academic.oup.com/qje/article/118/1/107/1917017
+[research_grant_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171110
+[research_griliches_1979]: https://www.jstor.org/stable/3003318
 [research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
+[research_grossman_hart_1988]: https://www.sciencedirect.com/science/article/abs/pii/0304405X88900443
 [research_hagiu_wright_2015]: https://www.sciencedirect.com/science/article/pii/S0167718715000156
+[research_harris_raviv_1988]: https://www.sciencedirect.com/science/article/abs/pii/0304405X88900455
+[research_hart_1988]: https://www.jstor.org/stable/764953
+[research_hart_moore_1990]: https://www.jstor.org/stable/2937861
+[research_helfat_peteraf_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.332
 [research_henderson_clark_1990]: https://www.jstor.org/stable/2393549
 [research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
 [research_jacobides_et_al_2018]: https://onlinelibrary.wiley.com/doi/10.1002/smj.2904
+[research_jensen_1986]: https://www.jstor.org/stable/1818789
 [research_katz_shapiro_1985]: https://www.jstor.org/stable/1814809
 [research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
 [research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
 [research_klepper_1996]: https://www.jstor.org/stable/2118234
+[research_kogut_zander_1992]: https://pubsonline.informs.org/doi/10.1287/orsc.3.3.383
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
+[research_lafontaine_slade_2007]: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.629
+[research_laporta_et_al_1998]: https://www.journals.uchicago.edu/doi/10.1086/250042
+[research_levin_tadelis_2010]: https://academic.oup.com/qje/article-abstract/125/3/1103/1903637
+[research_levitt_march_1988]: https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+[research_manne_1965]: https://www.journals.uchicago.edu/doi/10.1086/259036
+[research_march_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.71
 [research_monteverde_teece_1982]: https://www.jstor.org/stable/3003400
+[research_myerson_1981]: https://pubsonline.informs.org/doi/10.1287/moor.6.1.58
+[research_nelson_1959]: https://www.journals.uchicago.edu/doi/10.1086/258177
 [research_parker_vanalstyne_2005]: https://pubsonline.informs.org/doi/10.1287/mnsc.1050.0400
+[research_pavitt_1984]: https://www.sciencedirect.com/science/article/abs/pii/0048733384900215
+[research_peteraf_1993]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250140303
 [research_rochet_tirole_2003]: https://www.jstor.org/stable/40007911
 [research_rochet_tirole_2006]: https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00036.x
+[research_romer_1990]: https://www.journals.uchicago.edu/doi/10.1086/261725
 [research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
+[research_shleifer_vishny_1997]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb04820.x
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
 [research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
+[research_teece_2007]: https://onlinelibrary.wiley.com/doi/10.1002/smj.640
+[research_teece_2018]: https://www.sciencedirect.com/science/article/pii/S0048733317301993
 [research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
 [research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513
 [research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
 [research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
 [research_williamson_1971]: https://www.jstor.org/stable/1815199
+[research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
+[research_winter_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.318
 [research_zimmerman_2011]: https://openlibrary.org/search?q=Zimmerman+Economics+Satellite+Communications
