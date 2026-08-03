@@ -19,9 +19,9 @@ This article closes the History of SpaceX series. It has three tasks. The first 
 
 The mapping problem for a closing article differs from that of the eleven that precede it. Those articles each asked what happened along one dimension. This one asks whether the dimensions were the right ones, whether the framework built from them holds together, and what it predicts.
 
-The series advanced a specific thesis, which the [series opener][related_post_a281_spacex_framing] states as the singular-conjunction claim. The claim is that a particular venture is the only modern case satisfying all seven forcing-function conditions and all three capital-formation legs simultaneously, and that the conjunction rather than any individual condition explains the outcome. The closing article's first duty is to assess whether the intervening ten articles established that claim, weakened it, or changed its meaning.
+The series advanced a thesis, which the [series opener][related_post_a281_spacex_framing] states as the singular-conjunction claim. The claim is that a particular venture is the only modern case satisfying all seven forcing-function conditions and all three capital-formation legs simultaneously, and that the conjunction rather than any individual condition explains the outcome. The closing article's first duty is to assess whether the intervening ten articles established that claim, weakened it, or changed its meaning.
 
-The general form of the claim admits compact statement. Let $\phi_k \in \{0,1\}$ denote satisfaction of condition $k$ across the seven conditions and three legs, so that
+The general form of the claim can be stated compactly. Let $\phi_k \in \{0,1\}$ denote satisfaction of condition $k$ across the seven conditions and three legs, so that
 
 $$\Phi = \prod_{k=1}^{10} \phi_k$$
 
@@ -131,7 +131,7 @@ with $\boldsymbol{\theta}$ the underlying properties and $h_k$ the map from them
 
 $$\operatorname{cov}\left( \phi_j, \phi_k \right) = \sum_{m} \frac{\partial h_j}{\partial \theta_m} \frac{\partial h_k}{\partial \theta_m} \operatorname{var}\left( \theta_m \right) \; \neq \; 0$$
 
-for conditions sharing a loading. Three findings arrived at independently, by three different routes, all reporting that the framework's decomposition understates the coupling between the elements it separates. The closing article treats this as a property of the framework rather than as a coincidence, and states the correction as follows. The conditions are approximately separable in favorable states and become correlated in adverse ones. The correlation structure admits the compact statement
+for conditions sharing a loading. Three findings arrived at independently, by three different routes, all reporting that the framework's decomposition understates the coupling between the elements it separates. The closing article treats this as a property of the framework rather than as a coincidence, and states the correction as follows. The conditions are approximately separable in favorable states and become correlated in adverse ones. The correlation structure may be stated compactly
 
 $$\operatorname{corr}\left( \phi_j, \phi_k \mid \text{favorable state} \right) \approx 0 \qquad \text{against} \qquad \operatorname{corr}\left( \phi_j, \phi_k \mid \text{adverse state} \right) \gg 0$$
 
@@ -167,7 +167,7 @@ with the first statement established as well as a single-case study can establis
 
 The second direction concerns fragility and it points the other way.
 
-A configuration whose conditions fail together is more fragile than the same configuration with independent conditions, because a single common cause removes several supports at once. The survival probability under correlated failure satisfies
+A configuration whose conditions fail together is more fragile than the same arrangement with independent conditions, because a single common cause removes several supports at once. The survival probability under correlated failure satisfies
 
 $$P\!\left( \text{all conditions hold at } t + \Delta \right) \; < \; \prod_{k=1}^{10} P\!\left( \phi_k \; \text{holds at } t + \Delta \right)$$
 
@@ -177,7 +177,7 @@ $$P\!\left( \Phi = 1 \; \text{at attainment} \right) > \prod_k P\!\left( \phi_k 
 
 with the first concerning whether the configuration can be reached and the second whether it can be held. The article's position is that both inequalities hold simultaneously and that they concern different questions. The configuration is easier to attain than the product implies and easier to lose than the product implies, and no single adjustment to the framework captures both.
 
-The mechanism producing the second inequality is a shared shock. Writing $Z$ for a common adverse event and $\varepsilon_k$ for condition-specific noise, the failure of condition $k$ follows
+The mechanism producing the second inequality is a shared shock. Writing $Z$ for a common adverse event and $\varepsilon_k$ for condition-noise, the failure of condition $k$ follows
 
 $$\phi_k = \mathbf{1}\left[ \, \alpha_k Z + \varepsilon_k \; < \; \kappa_k \, \right]$$
 
@@ -185,7 +185,7 @@ with the loadings $\alpha_k$ nonzero for the conditions that fail together. Join
 
 The common causes the series has identified are three. The first is the shared vehicle family the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents, which couples four of five business lines. The second is the state-dependence of the financing conditions the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] documents, which couples the capital-formation legs to the firm's own prospects. The third is the key-person dependency the next section treats, which couples the governance condition to everything else.
 
-The practical consequence for anyone applying the framework is stated plainly. A diagnostic checklist of ten conditions gives a false impression of redundancy. The error admits the compact statement
+The practical consequence for anyone applying the framework is stated plainly. A diagnostic checklist of ten conditions gives a false impression of redundancy. The error is stated compactly as
 
 $$\frac{\left| \left\{ k : \phi_k = 1 \right\} \right|}{10} \quad \text{is not a measure of proximity to} \quad \Phi = 1$$
 
@@ -195,7 +195,7 @@ because the count treats conditions as exchangeable and the dependence structure
 
 The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] recorded two cross-condition interactions that no single article could develop, and the closing article takes them up.
 
-The first is the key-person dependency. Every line of the portfolio, every capital-formation leg, and the governance configuration itself depend on the continued involvement of a single individual, and the dependency is perfectly correlated across all of them. The portfolio therefore supplies no protection against it whatever, admitting the compact statement
+The first is the key-person dependency. Every line of the portfolio, every capital-formation leg, and the governance configuration itself depend on the continued involvement of a single individual, and the dependency is perfectly correlated across all of them. The portfolio therefore provides no protection against it whatever, admitting the compact statement
 
 $$\operatorname{corr}\left( \text{line}_i \; \text{failure}, \; \text{line}_j \; \text{failure} \mid \text{key-person event} \right) = 1 \qquad \text{for all } i,j$$
 
@@ -217,7 +217,7 @@ The alternatives that would sever the dependency are ownership forms rather than
 
 The second interaction the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] recorded concerns attention rather than continuity.
 
-Concentrating decision authority concentrates the attention bottleneck. The decisions the governance arrangement reserves to the controller cannot be delegated without dissolving the arrangement, so the arrangement's own logic caps the rate at which those decisions can be made. The constraint admits the compact form
+Concentrating decision authority concentrates the attention bottleneck. The decisions the governance arrangement reserves to the controller cannot be delegated without dissolving the arrangement, so the arrangement's own logic caps the rate at which those decisions can be made. The constraint has the form
 
 $$\sum_{i} d_i \; \leq \; D^{\max} \qquad \text{with} \qquad D^{\max} \; \text{fixed by a single decision-maker}$$
 
@@ -263,7 +263,7 @@ with the second considerably more tractable. The policy and investment literatur
 
 A closing article that only criticized its own framework would misrepresent what the exercise produced, and the article states the framework's successes with the same directness as its failures.
 
-The framework's principal success is diagnostic rather than predictive. Applied to the negation cases across the eleven articles, it identifies in each instance a specific condition that failed and does so in a way that survives comparison against the case-specific explanations the existing literature offers. The Iridium failure is a claim-type failure and not a market-forecast failure. The OneWeb failure is a holder-concentration and realization-path failure and not a bad-luck failure. The Space Shuttle programme is a requirement-construction failure and not a management failure. The OpenAI governance crisis is an effective-control failure and not a personality failure. The diagnostic claim admits compact statement as an identification rather than a prediction
+The framework's principal success is diagnostic rather than predictive. Applied to the negation cases across the eleven articles, it identifies in each instance a condition that failed and does so in a way that survives comparison against the case-explanations the existing literature offers. The Iridium failure is a claim-type failure and not a market-forecast failure. The OneWeb failure is a holder-concentration and realization-path failure and not a bad-luck failure. The Space Shuttle programme is a requirement-construction failure and not a management failure. The OpenAI governance crisis is an effective-control failure and not a personality failure. The diagnostic claim is stated compactly as an identification rather than a prediction
 
 $$k^{\ast}_j = \arg\min_k \; \phi_{j,k} \qquad \text{recovered correctly for every negation case the series examined}$$
 
@@ -391,21 +391,21 @@ so the observed diversity of failure points is weaker evidence for a ten-dimensi
 
 The historical cases the series has drawn upon across eleven articles are restated here as a set, because the closing article's projective sections rest on the base rates they supply.
 
-The industrial consolidation supplies the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The base rate it supplies is unfavorable to the durability of a vertically integrated dominant position, admitting the compact statement
+The industrial consolidation offers the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The base rate it gives is unfavorable to the durability of a vertically integrated dominant position, admitting the compact statement
 
 $$P\!\left( \text{resolution by regulatory action} \mid \text{dominant vertically integrated position} \right) \; \gg \; P\!\left( \text{resolution by competitive erosion} \right)$$
 
 on the historical record this and the telecommunications case supply. The base rate bears directly on the projection sections and is the one the contemporary commentary most consistently omits.
 
-The corporate research laboratory supplies the precedent for long horizons obtained through monopoly rents rather than through capital-market instruments, documented in [Gertner 2012][book_gertner_2012] The Idea Factory and [Hiltzik 1999][book_hiltzik_1999] Dealers of Lightning, with the regulatory record at the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984] and the analytical treatments at [Temin and Galambos 1987][book_temin_galambos_1987] and [Wu 2010][book_wu_2010]. The base rate it supplies admits the compact conditional
+The corporate research laboratory gives the precedent for long horizons obtained through monopoly rents rather than through capital-market instruments, documented in [Gertner 2012][book_gertner_2012] The Idea Factory and [Hiltzik 1999][book_hiltzik_1999] Dealers of Lightning, with the regulatory record at the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984] and the analytical treatments at [Temin and Galambos 1987][book_temin_galambos_1987] and [Wu 2010][book_wu_2010]. The base rate it yields admits the compact conditional
 
 $$T^{\text{research horizon}} \; \approx \; T^{\text{rent duration}}$$
 
 with the long horizon terminating when the monopoly position that funded it terminates. The relevance is direct rather than analogical, because the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] establishes that the present case funds its mission from a commercial position of a comparable kind.
 
-The endowed foundation supplies the precedent for an ownership form that solves the duration problem outright, documented at the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings]. The [Governance article A287][related_post_a287_spacex_governance] establishes that the present case does not satisfy the successor condition these arrangements do, and the closing article treats this as the single most consequential unadopted alternative in the series.
+The endowed foundation yields the precedent for an ownership form that solves the duration problem outright, documented at the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings]. The [Governance article A287][related_post_a287_spacex_governance] establishes that the present case does not satisfy the successor condition these arrangements do, and the closing article treats this as the single most consequential unadopted alternative in the series.
 
-The mass-production firm supplies the precedent for a founder-controlled venture pursuing an objective the capital markets did not endorse, documented in [Ford and Crowther 1922][book_ford_crowther_1922] and [Hounshell 1984][book_hounshell_1984], with the successor record at [Ford investor relations][ref_ford_ir]. The base rate it supplies concerns succession specifically, and it is unfavorable, admitting the compact statement
+The mass-production firm contributes the precedent for a founder-controlled venture pursuing an objective the capital markets did not endorse, documented in [Ford and Crowther 1922][book_ford_crowther_1922] and [Hounshell 1984][book_hounshell_1984], with the successor record at [Ford investor relations][ref_ford_ir]. The base rate it contributes concerns succession specifically, and it is unfavorable, admitting the compact statement
 
 $$P\!\left( \text{objective preserved across founder succession} \mid \text{no ownership form binding it} \right) \; \text{is low on the historical record}$$
 
@@ -467,7 +467,7 @@ The third assumption is the one the projection is most sensitive to and the one 
 
 $$\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}}$$
 
-which is a small number, so the position is not structurally protected against a competitor that attains captive launch capacity. The article's assessment is that the most likely source of such a competitor is a state programme rather than a commercial entrant, because the institutional coupling the arrangement requires is easier to achieve through common state ownership than through common corporate ownership. The condition admits the compact statement
+which is a small number, so the position is not structurally protected against a competitor that attains captive launch capacity. The article's assessment is that the most likely source of such a competitor is a state programme rather than a commercial entrant, because the institutional coupling the arrangement requires is easier to achieve through common state ownership than through common corporate ownership. The condition can be stated as
 
 $$\text{captive launch attainable} \iff \text{common residual claimant over launch and constellation}$$
 
@@ -489,9 +489,9 @@ $$P\!\left( \text{succession event occurs before } 2050 \right) \; \to \; 1$$
 
 since the horizon exceeds any reasonable expectation of continuous individual involvement. The succession event is therefore the only failure mode in the entire series whose probability is not a matter of judgement.
 
-The available resolutions are the ones the historical precedents supply. The foundation-ownership form solves the problem outright at the cost of surrendering capital ownership, and the article notes that it has not been adopted and that adopting it becomes harder as the enterprise value rises. The dual-class inheritance form transfers votes to heirs and carries the base rate the mass-production precedent supplies, which is unfavorable. The foundation route would operate under statutes of the kind the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings] exemplify. The listing route would place the firm inside the regime comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual], the [Nasdaq listing rules][ref_nasdaq_listing_rules], [Regulation S-K][ref_sec_regulation_sk], the [Sarbanes-Oxley Act][ref_sarbanes_oxley_2002], the shareholder-proposal channel at [Rule 14a-8][ref_rule_14a8], and the index methodologies at [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji], with the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012]. The comparative regimes at the [United Kingdom Companies Act 2006][ref_uk_companies_act_2006], the German [Aktiengesetz][ref_german_aktiengesetz], and the [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive] would each constrain the choice differently, and the governance scholarship at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum] surveys the arguments.
+The available resolutions are the ones the historical precedents supply. The foundation-ownership form solves the problem outright at the cost of surrendering capital ownership, and the article notes that it has not been adopted and that adopting it becomes harder as the enterprise value rises. The dual-class inheritance form transfers votes to heirs and carries the base rate the mass-production precedent provides, which is unfavorable. The foundation route would operate under statutes of the kind the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung], the [Robert Bosch Stiftung][ref_bosch_stiftung], and the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] with its holding company at [Novo Holdings][ref_novo_holdings] exemplify. The listing route would place the firm inside the regime comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual], the [Nasdaq listing rules][ref_nasdaq_listing_rules], [Regulation S-K][ref_sec_regulation_sk], the [Sarbanes-Oxley Act][ref_sarbanes_oxley_2002], the shareholder-proposal channel at [Rule 14a-8][ref_rule_14a8], and the index methodologies at [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji], with the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012]. The comparative regimes at the [United Kingdom Companies Act 2006][ref_uk_companies_act_2006], the German [Aktiengesetz][ref_german_aktiengesetz], and the [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive] would each constrain the choice differently, and the governance scholarship at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum] surveys the arguments.
 
-The listing-and-dispersal form abandons the governance condition entirely, and its consequence for the framework admits the compact statement
+The listing-and-dispersal form abandons the governance condition entirely, and its consequence for the framework may be stated compactly
 
 $$\phi^{\text{governance}} = 0 \; \Longrightarrow \; \Phi = 0$$
 
@@ -505,7 +505,7 @@ $$\begin{array}{lcl}
 
 with no row preserving every condition. The article assesses that no path preserves the configuration the series has described, and that the interesting question is which condition is surrendered rather than whether one is.
 
-The projection therefore states a structural conclusion rather than a prediction. **The configuration the series documents is not a steady state.** It is a transitional arrangement whose defining feature is the continued involvement of a specific individual, and every projection to 2050 is a projection about what replaces it.
+The projection therefore states a structural conclusion rather than a prediction. **The configuration the series documents is not a steady state.** It is a transitional arrangement whose defining feature is the continued involvement of an individual, and every projection to 2050 is a projection about what replaces it.
 
 ## Failure Modes Ranked
 
@@ -519,7 +519,7 @@ The first is the succession event, for the reasons the key-person and governance
 
 $$r_{\text{succession}} = 1 \times \left| \left\{ k : \phi_k \; \text{fails} \right\} \right| \; \text{with the second factor large}$$
 
-because the first factor is unity and the correlation sections establish that the second is not small. It is the one against which the portfolio supplies no protection, and it is the one the governance configuration makes maximally consequential.
+because the first factor is unity and the correlation sections establish that the second is not small. It is the one against which the portfolio offers no protection, and it is the one the governance configuration makes maximally consequential.
 
 The second is a vehicle-family grounding, which the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] identifies as removing four of five business lines simultaneously. The surviving subscription revenue and the resulting unbounded stressed runway are the offsetting features, admitting the compact survival condition
 
@@ -539,7 +539,7 @@ with the fifth manifesting as a gradual change in decision latency that no exter
 
 ## Historiographical Gap and Recent Scholarship
 
-The scholarly literature bearing on a synthesis of this kind is the union of the literatures the eleven component articles survey, and the gap the closing article identifies is specific and different from theirs.
+The scholarly literature bearing on a synthesis of this kind is the union of the literatures the eleven component articles survey, and the gap the closing article identifies is and different from theirs.
 
 ### Primary Source Documentation Across the Series
 
@@ -551,7 +551,7 @@ The government-contracting layer is substantially complete. It comprises the pro
 
 The securities and corporate layer establishes the legal framework and almost nothing about the particular transactions. It comprises the exemption regime at the [Securities Act private-placement exemption][ref_securities_act_4a2], [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], [Rule 701][ref_rule_701], and [Rule 144][ref_rule_144], the tender provisions at [Rule 13e-4][ref_rule_13e4] and [Regulation 14E][ref_reg_14e], the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012], the disclosure regime at [Regulation S-K][ref_sec_regulation_sk] and the post-crisis statutes at [Sarbanes-Oxley][ref_sarbanes_oxley_2002] and [Dodd-Frank][ref_dodd_frank_2010], the beneficial-ownership channel at [Schedule 13D][ref_schedule_13d], the entity law at the [Delaware General Corporation Law][ref_dgcl], the [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act], and the [Texas Business Organizations Code][ref_texas_boc], the fund regime at the [Investment Company Act][ref_investment_company_act] and [Investment Advisers Act][ref_investment_advisers_act] with the limited-partner standards at the [Institutional Limited Partners Association][ref_ilpa] and the industry structures at the [National Venture Capital Association][ref_nvca], and the filing record at [Securities and Exchange Commission EDGAR][ref_sec_edgar] and the [Form D notices][ref_sec_form_d].
 
-The reconstruction layer supplies substantially every quantitative claim in the series and is the weakest. It comprises [SpaceNews][ref_spacenews], [Ars Technica space coverage][ref_arstechnica_space], [Payload][ref_payload], [Payload Research][ref_payload_research], [The Space Review][ref_the_space_review], [NASASpaceflight][ref_nasaspaceflight], [Space Policy Online][ref_space_policy_online], [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], the [Wall Street Journal][ref_wsj], and the benchmark data at [Cambridge Associates][ref_cambridge_associates] and [PitchBook][ref_pitchbook], with the teaching-case reconstructions at [Stanford][ref_stanford_spacex_case], [Harvard Business School][ref_hbs_spacex_case], and [Wharton][ref_wharton_spacex_case] and the working-paper record at [SSRN][ref_ssrn].
+The reconstruction layer gives substantially every quantitative claim in the series and is the weakest. It comprises [SpaceNews][ref_spacenews], [Ars Technica space coverage][ref_arstechnica_space], [Payload][ref_payload], [Payload Research][ref_payload_research], [The Space Review][ref_the_space_review], [NASASpaceflight][ref_nasaspaceflight], [Space Policy Online][ref_space_policy_online], [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], the [Wall Street Journal][ref_wsj], and the benchmark data at [Cambridge Associates][ref_cambridge_associates] and [PitchBook][ref_pitchbook], with the teaching-case reconstructions at [Stanford][ref_stanford_spacex_case], [Harvard Business School][ref_hbs_spacex_case], and [Wharton][ref_wharton_spacex_case] and the working-paper record at [SSRN][ref_ssrn].
 
 ### The Absent Comparative Literature
 
@@ -623,9 +623,9 @@ with the conditions chosen by examining the case that satisfies them. A framewor
 
 ## Comparative Cross-Sectional Analysis
 
-The full framework admits application to the venture set as a cross-sectional scoring exercise across all ten conditions, and the closing article presents the assembled matrix the component articles built piecewise.
+The full framework applies to the venture set as a cross-sectional scoring exercise across all ten conditions, and the closing article presents the assembled matrix the component articles built piecewise.
 
-The closure vector for venture $j$ admits the compact form
+The closure vector for venture $j$ may be written
 
 $$\boldsymbol{\phi}_j \in \{0,1\}^{10}$$
 
@@ -679,13 +679,13 @@ The luck framing holds that the outcome is a draw from a distribution and that t
 
 $$P\!\left( \text{outcome} \mid \boldsymbol{\phi} \right) = P\!\left( \text{outcome} \right)$$
 
-meaning the conditions carry no information whatever, and the framework's diagnostic performance on the negation cases is evidence against that specific equality without bearing on weaker versions of the framing. The article concedes it cannot be dismissed.
+meaning the conditions carry no information whatever, and the framework's diagnostic performance on the negation cases is evidence against that equality without bearing on weaker versions of the framing. The article concedes it cannot be dismissed.
 
 The critical political-economy framing at [Srnicek 2017][book_srnicek_2017], [Zuboff 2019][book_zuboff_2019], [Krippner 2011][book_krippner_2011], and [Melman 1970][book_melman_1970] treats the arrangement as a private appropriation of publicly financed capability and of a global commons. The article regards the factual premises as well founded, and notes that the framing and the series' own account describe the same mechanisms and differ in their evaluation rather than in their description.
 
 The transaction-cost framing developed in [Coase 1937][research_coase_1937], [Williamson 1985][book_williamson_1985], [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978], [Grossman and Hart 1986][research_grossman_hart_1986], and [Hart 1995][book_hart_1995] treats the whole configuration as an answer to a make-or-buy question asked repeatedly across a development programme. Under the framing the seven conditions reduce substantially to statements about which assets the venture had to own, and the framing is the strongest competitor to the series' own, because it is more parsimonious and explains most of the same record.
 
-The ownership-form framing developed in [Hansmann 1996][book_hansmann_1996], [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991], and [Roe 1994][book_roe_1994] asks which class of party should hold residual control given the costs of contracting with each. It generates the observation the [Governance article A287][related_post_a287_spacex_governance] reaches by another route, that the configuration is legible as an answer to that question rather than as a governance anomaly, and it supplies the foundation comparison the succession sections use.
+The ownership-form framing developed in [Hansmann 1996][book_hansmann_1996], [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991], and [Roe 1994][book_roe_1994] asks which class of party should hold residual control given the costs of contracting with each. It generates the observation the [Governance article A287][related_post_a287_spacex_governance] reaches by another route, that the configuration is legible as an answer to that question rather than as a governance anomaly, and it yields the foundation comparison the succession sections use.
 
 The reliability framing developed in [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007], and [Mindell 2008][book_mindell_2008] treats the configuration as a system whose failure requires a conjunction and whose barriers are coupled. It reaches the closing article's central finding independently and earlier, which is the strongest available external corroboration of the independence result and is recorded as such.
 
@@ -711,7 +711,7 @@ $$P\!\left( \text{attain} \right) > \prod_k P\!\left( \phi_k \right) \qquad \tex
 
 and they concern different questions. A practitioner reading the framework as a target should expect it to be more reachable than it looks. A practitioner reading it as a description of a durable position should expect it to be less stable than it looks.
 
-The configuration the conjunction produces is not a steady state. It depends on the continued involvement of a specific individual, it concentrates decision authority in a way that makes that dependency maximally consequential, and it has not adopted any of the ownership forms that historically resolved the succession problem. The non-durability admits the compact statement
+The configuration the conjunction produces is not a steady state. It depends on the continued involvement of an individual, it concentrates decision authority in a way that makes that dependency maximally consequential, and it has not adopted any of the ownership forms that historically resolved the succession problem. The non-durability is stated compactly as
 
 $$P\!\left( \boldsymbol{\phi} = \mathbf{1} \; \text{at } t \right) \; \to \; 0 \qquad \text{as} \qquad t \to t^{\text{succession}}$$
 

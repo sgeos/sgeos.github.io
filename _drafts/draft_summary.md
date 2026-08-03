@@ -25,6 +25,11 @@ A citation-integrity audit of all 109 DOI-bearing anchors found twelve fabricate
 
 Outstanding from this pass: 20 of the 43 Open Library replacement URLs are confirmed at 200 and 23 could not be checked because openlibrary.org hard-blocked this address after the 853-URL sweep, with a retest at 30-second spacing failing to recover. The status check is close to meaningless for this host in any case, because an Open Library search URL is a search endpoint that cannot return 404 for a query. The substantive weakness is that a search URL is a weaker citation than an edition page, which applies equally to the 269 such URLs the series already carried, and resolving them to specific work identifiers is worth a dedicated pass. It is not link rot and does not block publication.
 
+
+## Pathological Word-Usage Pass 2026-08-04
+
+All twelve articles were analyzed for word frequency against a 40-post baseline from the non-SpaceX corpus. The dominant pathology was "specific" at 87.17 per thousand words against a baseline of 1.73, a factor of 44, with 16,230 occurrences of which 12,260 were the bare filler "the specific". It was reduced series-wide to 44 occurrences at 0.20 per thousand, below natural baseline, with technical terms and genuine contrastive uses preserved. Three further tics were toned down: the equation-introduction formula, which accounted for 429 of 488 introductions, was varied across nine alternatives; "supplies" fell from 1.73 to 0.53 per thousand; and "configuration" was retained as domain vocabulary while its 191 within-sentence repeats were varied. All twelve articles verify clean afterward on anchors, LaTeX, equation counts, grammar, and style.
+
 ## Draft Status
 
 ### History of SpaceX Synthesis and Projection article (A292) — Drafted (publication-review parity, series complete)
