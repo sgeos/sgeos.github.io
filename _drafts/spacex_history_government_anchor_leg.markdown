@@ -165,6 +165,24 @@ $$\text{fund} \iff \left[ \text{objective specifiable} \right] \wedge \left[ \te
 
 with the specific conjunction required. The framing supplies the specific comparative set of specific public instruments against which the specific Space Act Agreement should be located.
 
+The systems-engineering tradition traces from [Blanchard and Fabrycky 2011][book_blanchard_fabrycky_2011] Systems Engineering and Analysis and [Buede 2009][book_buede_2009] The Engineering Design of Systems through [Suh 2001][book_suh_2001] Axiomatic Design, [Maier 1998][research_maier_1998] Architecting Principles for Systems-of-Systems, [Sage and Cuppan 2001][research_sage_cuppan_2001], the specific [INCOSE Systems Engineering Handbook][ref_incose_handbook], and the specific [NASA Systems Engineering Handbook][ref_nasa_se_handbook]. The framing supplies the specific apparatus for the specific question the milestone decomposition poses, which is how a specific development is partitioned into specific increments that are separately verifiable. The specific partition problem is a specific systems-architecture problem before it is a specific contracting problem, and the specific X-33 comparison the article develops turns entirely on it.
+
+The organizational-learning tradition traces from [March and Simon 1958][book_march_simon_1958] Organizations and [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm through [Argyris and Schon 1978][book_argyris_schon_1978] Organizational Learning, [Levitt and March 1988][research_levitt_march_1988], [Huber 1991][research_huber_1991], [March 1991][research_march_1991], [Nonaka 1994][research_nonaka_1994], [Nonaka and Takeuchi 1995][book_nonaka_takeuchi_1995] The Knowledge-Creating Company, [Senge 1990][book_senge_1990] The Fifth Discipline, [Cohen and Levinthal 1990][research_cohen_levinthal_1990], [Kogut and Zander 1992][research_kogut_zander_1992], [Grant 1996][research_grant_1996], [Argote and Ingram 2000][research_argote_ingram_2000], and [Argote and Miron-Spektor 2011][research_argote_miron_spektor_2011]. The framing applies to the specific agency rather than to the specific provider and supplies the specific account of how a specific programme office accumulates the specific evaluative capability the preceding section identifies as the specific binding constraint.
+
+The learning-curve tradition traces from [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes through [Alchian 1963][research_alchian_1963] Reliability of Progress Curves, [Rapping 1965][research_rapping_1965], [Argote and Epple 1990][research_argote_epple_1990], [Argote 1999][book_argote_1999] Organizational Learning, [Adler and Clark 1991][research_adler_clark_1991], [Lieberman 1984][research_lieberman_1984], and [Dutton and Thomas 1984][research_dutton_thomas_1984]. The framing bears on the specific counterfactual cost estimate the article treats as contested, because the specific parametric models the specific estimate employs are calibrated on a specific historical experience base whose specific learning rates may not transfer to a specific different production organization. The specific transfer question admits the compact statement
+
+$$b^{\text{historical}} \stackrel{?}{=} b^{\text{provider}}$$
+
+with the specific estimate assuming equality and the specific case being one in which the specific production organization differed substantially from the specific calibration sample.
+
+The institutional-economics tradition traces from [North 1990][book_north_1990] Institutions Institutional Change and Economic Performance through [Ostrom 1990][book_ostrom_1990] Governing the Commons, [Greif 2006][book_grief_2006] Institutions and the Path to the Modern Economy, and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] Why Nations Fail. The framing situates the specific instrument as one specific rule within a specific broader institutional configuration and supplies the specific caution that a specific rule transplanted without its specific supporting institutions does not reproduce its specific effects.
+
+The reliability and mission-assurance tradition traces from [Perrow 1984][book_perrow_1984] Normal Accidents through [Vaughan 1996][book_vaughan_1996] The Challenger Launch Decision, [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007] Managing the Unexpected, [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012] Practical Reliability Engineering, [Musa 1998][book_musa_1998] Software Reliability Engineering, [Duane 1964][research_duane_1964], and the specific [NASA reliability and mission-assurance standards][ref_nasa_std_8709_22]. The framing supplies the specific content of the specific mission-assurance concessions the economic-property section identifies as part of the specific cost of the specific channel, and the specific [Columbia Accident Investigation Board report][ref_caib_report_2003] and [Rogers Commission report][ref_rogers_commission_1986] supply the specific institutional history from which the specific requirements derive.
+
+The industrial-organization tradition traces from [Bain 1968][book_bain_1968] Industrial Organization through [Scherer and Ross 1990][book_scherer_ross_1990] Industrial Market Structure and Economic Performance, [Tirole 1988][book_tirole_1988] The Theory of Industrial Organization, [Porter 1980][book_porter_1980] Competitive Strategy, [Porter 1985][book_porter_1985] Competitive Advantage, [Baumol 1977][research_baumol_1977], [Kahn 1988][book_kahn_1988] The Economics of Regulation, and [Sharkey 1982][book_sharkey_1982] The Theory of Natural Monopoly. The framing supplies the specific apparatus for the specific concentration question the article raises in its specific closing sections, and the specific antitrust treatments in [Bork 1978][book_bork_1978], [Posner 2001][book_posner_2001], [Hovenkamp 2005][book_hovenkamp_2005], and [Khan 2017][research_khan_2017] supply the specific normative frame.
+
+The economic-history tradition traces from [Landes 1969][book_landes_1969] The Unbound Prometheus, [Rosenberg 1976][book_rosenberg_1976] Perspectives on Technology, [Rosenberg 1982][book_rosenberg_1982] Inside the Black Box, [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998] Paths of Innovation, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1990][book_chandler_1990] Scale and Scope, and [Hughes 1983][book_hughes_1983] Networks of Power. The framing supplies the specific long-run comparative record within which the specific arrangement is a specific recent instance of a specific recurring relationship between a specific state and a specific private producer.
+
 ## The Space Act Agreement Instrument
 
 The specific legal instrument under which the specific COTS development capital was extended deserves treatment before the specific history, because substantially every distinctive feature of the specific arrangement follows from it and because the specific commentary routinely describes the specific arrangement as a contract when it was not one.
@@ -391,6 +409,30 @@ $$V^{\text{award}} = \underbrace{K^{\text{development}}}_{\text{visible}} + \und
 
 with the specific second term ordinarily exceeding the specific first by a specific substantial multiple. This is the specific assessment the specific SBIR practitioner literature the specific series treats makes explicitly.
 
+## The Agency-Side Capability Requirement
+
+The article to this point has treated the specific instrument as though its specific properties inhered in the specific document. They do not. Every specific property the preceding sections attribute to the specific instrument requires a specific agency capable of exercising it, and the specific capability is neither automatic nor evenly distributed. The specific section states the requirement because the specific advocacy literature that recommends extending the specific instrument to specific other domains substantially omits it.
+
+The specific instrument requires the specific agency to perform four functions that a specific cost-reimbursement arrangement does not require. The specific agency must specify a specific milestone that is verifiable without access to the specific provider's specific cost records. The specific agency must verify the specific milestone when the specific provider claims it. The specific agency must decline to pay when the specific milestone is not met. And the specific agency must terminate when the specific pattern of failures warrants it, against the specific institutional pressure that every specific programme generates in favor of continuation.
+
+The specific fourth function is the specific one that fails most often. The specific termination decision admits the compact statement
+
+$$\text{terminate} \iff E\!\left[ V^{\text{completion}} \mid \mathcal{F}_t \right] < \sum_{j > J(t)} m_j + C^{\text{political}}$$
+
+with $C^{\text{political}}$ the specific institutional cost the specific deciding official bears personally and the specific benefit accruing diffusely. The specific asymmetry between a specific concentrated cost and a specific diffuse benefit is the specific standard public-choice account of why specific programmes persist, and the specific Space Act Agreement reduces the specific first term in the specific inequality without touching the specific second.
+
+The specific capability the specific functions jointly require is what the specific developmental-state literature terms embedded autonomy. The specific concept that [Evans 1995][book_evans_1995] Embedded Autonomy develops requires a specific agency close enough to the specific industry to evaluate a specific technical claim and distant enough from it to decline one. The specific two requirements pull against each other, and the specific balance admits the compact statement
+
+$$\Sigma^{\text{agency}} = \min\left\{ \text{technical proximity}, \; \text{institutional distance} \right\}$$
+
+with the specific capability governed by whichever specific element is weaker rather than by their specific sum. A specific agency with specific deep technical knowledge and specific close industry ties evaluates well and cannot refuse. A specific agency with specific strong independence and specific thin technical knowledge refuses arbitrarily. The specific comparative literature in [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle, [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, and [Chang 2002][book_chang_2002] Kicking Away the Ladder documents the specific institutional arrangements under which specific other states have attempted the specific balance.
+
+The specific agency-side literature on the specific particular agency is unusually candid and is worth citing directly rather than through the specific procurement abstraction. The treatments in [McCurdy 1994][book_mccurdy_1994] Inside NASA, [Handberg 1994][book_handberg_1994] Reinventing NASA, [Launius 1994][book_launius_1994] NASA A History of the United States Civil Space Program, [McDougall 1985][book_mcdougall_1985] The Heavens and the Earth, [Hargrove 1994][book_hargrove_1994] Prisoners of Myth, [Selznick 1949][book_selznick_1949] TVA and the Grass Roots, and [Klerkx 2004][book_klerkx_2004] Lost in Space document the specific organizational culture and the specific goal-displacement hazard within which the specific programme office operated. The specific programme-office model the specific [DARPA institutional treatment][research_bonvillian_2018] describes and the specific [Heilmeier Catechism][ref_heilmeier_catechism] states supplies the specific comparative benchmark for a specific agency-side selection capability.
+
+The specific personnel dimension is the specific one the specific documentary record covers least well and the specific participant accounts cover best. The specific programme required a specific small number of specific individuals willing to accept a specific personal career risk in exchange for a specific institutional outcome, which is a specific resource no specific appropriation creates. The specific accounts in [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires document the specific individuals on both sides of the specific transaction.
+
+The specific implication for the specific policy question is direct and is the specific reason the section exists. A specific jurisdiction that adopts the specific instrument without the specific agency-side capability obtains the specific reduced oversight without the specific compensating selection discipline, which is strictly worse than the specific arrangement it replaced. The specific instrument is not a specific substitute for a specific capable agency. It is a specific tool that a specific capable agency can use and that a specific incapable one should not.
+
 ## The Cost-Plus Counterfactual
 
 The specific counterfactual against which the specific instrument should be assessed is not a specific absence of government funding but the specific alternative instrument the specific same agency employed contemporaneously for a specific comparable objective.
@@ -443,6 +485,12 @@ $$\left| \{ m_j \} \right|^{\text{X-33}} \approx 1 \qquad \text{against} \qquad 
 
 with the specific single integrated demonstration supplying neither the specific payer's intermediate option to discontinue nor the specific provider's intermediate validation. The specific comparison establishes that the specific instrument alone is insufficient and that the specific milestone decomposition is doing substantial work.
 
+The specific transcontinental-railroad land grants and the specific associated federal bond issues of the specific 1860s supply the specific instance in which a specific state supplied capital on specific terms that conveyed a specific asset rather than an equity claim, and in which the specific subsequent disposition of the specific asset became the specific dominant political question. The specific parallel to the specific Space Act Agreement's specific conveyance of no asset is instructive, because the specific agreement resolves in advance the specific question the specific land grants left open. The specific broader institutional treatments in [Chandler 1977][book_chandler_1977] The Visible Hand and [Fligstein 2001][book_fligstein_2001] The Architecture of Markets situate the specific arrangement within the specific development of the specific American corporate form.
+
+The specific Apollo contractor set supplies the specific instance in which a specific state programme funded a specific private industrial capability at a specific scale and under a specific cost-reimbursement instrument, producing a specific capability that substantially did not survive the specific programme. The specific treatments in [Bilstein 1996][book_bilstein_1996] Stages to Saturn, [Murray and Cox 1989][book_murray_cox_1989] Apollo, [Chaikin 2007][book_chaikin_2007] A Man on the Moon, [Kranz 2000][book_kranz_2000] Failure Is Not an Option, [Logsdon 1970][book_logsdon_1970] The Decision to Go to the Moon, [Logsdon 2010][book_logsdon_2010] John F Kennedy and the Race to the Moon, [Kraemer 2006][book_kraemer_2006] Rocketdyne, and [Mindell 2008][book_mindell_2008] Digital Apollo document the specific arrangement. The specific contrast with the specific COTS instrument is the specific clearest available within the specific same agency, because the specific two instruments funded specific comparable capability development sixty years apart and produced specific opposite dispositions of the specific resulting capability.
+
+The specific Skunk Works and specific classified-programme arrangements documented in [Rich and Janos 1994][book_rich_janos_1994] Skunk Works and [Miller 1995][book_miller_1995] Lockheed Skunk Works supply the specific instance in which the specific reduced oversight the specific Space Act Agreement provides was obtained instead through specific classification. The specific comparison establishes that the specific oversight reduction is separable from the specific instrument and can be achieved by specific several institutional routes, each with specific different accountability consequences.
+
 The specific European and specific Japanese launch programmes documented through the specific [Arianespace record][ref_arianespace], the specific [JAXA press releases][ref_jaxa_press], and the [Krige et al 2000][book_krige_et_al_2000] A History of the European Space Agency supply the specific comparative institutional arrangements, in which the specific public capital is supplied through specific national and specific consortium structures with specific equity or specific quasi-equity positions rather than through specific non-dilutive milestone payments. The specific comparison is the specific most direct available test of whether the specific non-dilutive property matters, and the specific European record of specific slower cost reduction is consistent with the specific proposition without establishing it.
 
 ## Historiographical Gap and Recent Scholarship
@@ -469,6 +517,22 @@ The specific literature comprising [Grimsey and Lewis 2004][book_grimsey_lewis_2
 
 The specific SBIR literature supplies the specific closest statutory analogue and is developed at length in the specific series that the [Introduction to the SBIR and STTR Programs article A132][related_post_a132_sbir_intro], the [Phase III and the Valley of Death article A138][related_post_a138_sbir_phase3], and the [Money Behind an SBIR or STTR Award article A140][related_post_a140_sbir_money] represent. The specific statutory and administrative materials are the specific [statute at 15 USC 638][ref_sbir_statute_15usc638], the specific [Small Business Administration policy directive][ref_sba_sbir_policy_directive], and the specific [programme portal][ref_sbir_gov].
 
+### Agency-Side and Public-Administration Literature
+
+The specific literature on the specific purchasing agency is substantial and is systematically underused in the specific procurement-economics treatments, which model the specific agency as a specific unitary rational actor. The specific principal works are [McCurdy 1994][book_mccurdy_1994] Inside NASA, [Handberg 1994][book_handberg_1994] Reinventing NASA, [Launius 1994][book_launius_1994], [Launius 2004][book_launius_2004] Frontiers of Space Exploration, [McDougall 1985][book_mcdougall_1985] The Heavens and the Earth, [Logsdon 1970][book_logsdon_1970], [Logsdon 2010][book_logsdon_2010], [Klerkx 2004][book_klerkx_2004] Lost in Space, [Selznick 1949][book_selznick_1949], and [Hargrove 1994][book_hargrove_1994] Prisoners of Myth. The specific organizational-culture strand in [Kunda 1992][book_kunda_1992] Engineering Culture and the specific professions strand in [Abbott 1988][book_abbott_1988] The System of Professions and [Larson 1977][book_larson_1977] The Rise of Professionalism supply the specific account of how a specific technical workforce inside a specific agency forms and defends a specific jurisdiction, which bears directly on the specific agency's specific willingness to cede a specific development to a specific outside provider.
+
+### Institutional and Comparative-Political-Economy Literature
+
+The specific comparative literature comprising [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Woo-Cumings 1999][book_woo_cumings_1999], [Chang 2002][book_chang_2002], [Block 2008][research_block_2008], and [Weiss and Thurbon 2021][research_weiss_thurbon_2021] supplies the specific state-capacity apparatus, and the specific institutional-economics strand in [North 1990][book_north_1990], [Ostrom 1990][book_ostrom_1990], [Greif 2006][book_grief_2006], and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] supplies the specific account of why a specific rule transplanted without its specific supporting institutions fails. The specific innovation-systems strand in [Freeman 1987][book_freeman_1987], [Lundvall 1992][book_lundvall_1992], [Nelson 1993][book_nelson_1993], [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998], [Perez 2002][book_perez_2002] Technological Revolutions and Financial Capital, and [Schumpeter 1942][book_schumpeter_1942] Capitalism Socialism and Democracy supplies the specific macro framing.
+
+### Systems-Engineering and Reliability Literature
+
+The specific literature comprising [Blanchard and Fabrycky 2011][book_blanchard_fabrycky_2011], [Buede 2009][book_buede_2009], [Suh 2001][book_suh_2001], [Maier 1998][research_maier_1998], [Sage and Cuppan 2001][research_sage_cuppan_2001], the specific [INCOSE Systems Engineering Handbook][ref_incose_handbook], and the specific [NASA Systems Engineering Handbook][ref_nasa_se_handbook] supplies the specific milestone-decomposition apparatus. The specific reliability strand comprising [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Weick and Sutcliffe 2007][book_weick_sutcliffe_2007], [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012], [Musa 1998][book_musa_1998], and [Duane 1964][research_duane_1964], together with the specific [Rogers Commission report][ref_rogers_commission_1986] and the specific [Columbia Accident Investigation Board report][ref_caib_report_2003], supplies the specific institutional history from which the specific mission-assurance requirements derive.
+
+### Methodological Literature
+
+The specific case-study methodology literature comprising [Yin 2014][book_yin_2014] Case Study Research and Applications and [Creswell 2014][book_creswell_2014] Research Design supplies the specific inferential standards. The specific selection problem for this specific article is that the specific instrument's specific successes are documented in specific detail by specific participants and its specific failures are documented thinly, so that the specific readily available evidence is systematically favorable. The specific evolutionary and failure treatments in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Ormerod 2005][book_ormerod_2005] Why Most Things Fail, [Kauffman 1993][book_kauffman_1993], and [Beinhocker 2006][book_beinhocker_2006] The Origin of Wealth supply the specific base-rate framing. The specific working-paper record through which the specific procurement-economics frontier circulates is accessible at the specific [National Bureau of Economic Research][ref_nber] and the specific [Social Science Research Network][ref_ssrn].
+
 ### Critical and Skeptical Literature
 
 A specific critical literature reads the specific arrangement as a specific transfer to a specific concentrated private interest rather than as a specific efficient procurement innovation. The specific position draws on [Melman 1970][book_melman_1970] Pentagon Capitalism, [Fallows 1981][book_fallows_1981] National Defense, [Buchanan and Tullock 1962][book_buchanan_tullock_1962] The Calculus of Consent, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, [Krueger 1974][research_krueger_1974] The Political Economy of the Rent-Seeking Society, and [Hunter 2016][book_hunter_2016] Creating Strategic Value. The specific concern that the specific instrument's specific reduced oversight is a specific feature for the specific provider and a specific defect for the specific public is well founded and the article does not resolve it. The specific concern that the specific resulting position is now substantially unchallengeable is treated in the Contemporary Comparative Landscape section.
@@ -490,6 +554,8 @@ $$\frac{\partial \, \text{capability}}{\partial K^{\text{gov}}} \approx 0 \quad 
 with the specific instrument performing its specific capital-formation function only for a specific provider whose specific capital constraint binds. The specific award therefore functions for that specific provider substantially as a specific validation and a specific revenue commitment rather than as a specific capital-formation channel. The specific record appears in the specific [Blue Origin press releases][ref_blue_origin_press].
 
 Rocket Lab and the specific smaller entrant set receive specific awards under the specific instrument at a specific scale where the specific capital-formation function is substantially operative, which is the specific population for which the specific instrument was designed. The specific record appears in the specific [Rocket Lab press releases][ref_rocket_lab_press]. The specific United Launch Alliance operates substantially outside the specific development-capital channel and within the specific services channel, documented through the specific [United Launch Alliance news][ref_ula_press].
+
+The specific broader defense-industrial context within which the specific instrument now operates is treated in [Hunter 2016][book_hunter_2016] Creating Strategic Value, [Hartley 2017][book_hartley_2017] The Economics of Arms, [Melman 1970][book_melman_1970] Pentagon Capitalism, and [Fallows 1981][book_fallows_1981] National Defense, and the specific incumbent portfolios against which the specific entrant competes are documented through the specific [Boeing press releases][ref_boeing_press], the specific [Boeing historical archives][ref_boeing_historical_archives], and the specific [Northrop Grumman press releases][ref_northrop_grumman_press]. The specific aerospace-industry comparative record in [Serling 1992][book_serling_1992] Legend and Legacy, [Newhouse 1982][book_newhouse_1982] The Sporty Game, [Newhouse 2007][book_newhouse_2007] Boeing versus Airbus, and [Lawrence 2016][book_lawrence_2016] Airbus versus Boeing supplies the specific longer arc within which the specific present contest sits.
 
 The specific comparative-national picture is that specific other jurisdictions have adopted specific variants of the specific instrument. The specific European arrangements documented through the specific [Arianespace record][ref_arianespace], the specific Japanese arrangements through the specific [JAXA press releases][ref_jaxa_press], the specific Indian arrangements through the specific [ISRO press releases][ref_isro_press], and the specific Chinese arrangements through the specific [China National Space Administration][ref_chinese_space_program] and the specific [China sector reporting][ref_china_commercial_space] exhibit specific different balances between specific public ownership and specific private provision.
 
@@ -567,7 +633,15 @@ $$U^{\text{agency}} = w^{\text{outcome}} \cdot V^{\text{programme}} + w^{\text{v
 
 with the specific second term entering the specific agency's objective and not the specific social objective. The framing supplies the specific explanation for the specific instrument's specific rapid extension to specific programmes whose specific characteristics differ substantially from those the specific original application suited.
 
-The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982] and [Metcalfe 1998][book_metcalfe_1998] supplies the specific caution that the specific single observed success is a specific poor basis for the specific policy generalization the specific advocacy literature draws, and that the specific relevant population includes the specific programmes that received the specific same instrument and failed. The specific correction admits the compact statement
+The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982] and [Metcalfe 1998][book_metcalfe_1998] supplies the specific caution that the specific single observed success is a specific poor basis for the specific policy generalization the specific advocacy literature draws, and that the specific relevant population includes the specific programmes that received the specific same instrument and failed. The specific behavioral framing developed in [Kahneman and Tversky 1979][research_kahneman_tversky_1979], [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow, [Simon 1957][book_simon_1957] Administrative Behavior, [Staw 1976][research_staw_1976], [Ross and Staw 1993][research_ross_staw_1993], and [Weick 1979][book_weick_1979] The Social Psychology of Organizing treats the specific agency's specific termination decision as a specific judgment subject to the specific escalation hazard, and it predicts that the specific programmes hardest to terminate are those in which the specific deciding officials made the specific original selection. The framing supplies the specific behavioral complement to the specific public-choice account of the specific same failure.
+
+The specific state-capacity framing developed in [Evans 1995][book_evans_1995], [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], and [Woo-Cumings 1999][book_woo_cumings_1999] treats the specific outcome as attributable to the specific agency's specific evaluative capability rather than to the specific instrument, and it generates the specific prediction that the specific same instrument applied by a specific less capable agency produces specific worse outcomes. The specific prediction is the specific most policy-relevant claim in the article and is the specific one the specific single case cannot test.
+
+The specific institutional-transplant framing developed in [North 1990][book_north_1990], [Greif 2006][book_grief_2006], and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] treats the specific instrument as a specific rule whose specific effects depend on the specific surrounding institutional configuration, and it supplies the specific formal reason the specific advocacy for extending the specific instrument to specific other jurisdictions should be discounted.
+
+The specific systems-architecture framing developed in [Simon 1962][research_simon_1962] The Architecture of Complexity, [Maier 1998][research_maier_1998], and [Suh 2001][book_suh_2001] treats the specific milestone decomposition rather than the specific payment structure as the specific operative variable, and it is the specific framing under which the specific X-33 comparison carries the specific most weight.
+
+The specific correction admits the compact statement
 
 $$\hat{P}\!\left( \text{success} \mid \text{instrument} \right) = \frac{n^{\text{success}}}{n^{\text{success}} + n^{\text{failure}}}$$
 
@@ -624,55 +698,128 @@ The article closes with the load-bearing open questions the treatment leaves unr
 ### Books
 
 - [Abbate 1999 Inventing the Internet][book_abbate_1999]
+- [Abbott 1988 The System of Professions][book_abbott_1988]
+- [Acemoglu and Robinson 2012 Why Nations Fail][book_acemoglu_robinson_2012]
 - [Amsden 1989 Asia's Next Giant][book_amsden_1989]
+- [Argote 1999 Organizational Learning][book_argote_1999]
+- [Argyris and Schon 1978 Organizational Learning][book_argyris_schon_1978]
+- [Bain 1968 Industrial Organization][book_bain_1968]
+- [Beinhocker 2006 The Origin of Wealth][book_beinhocker_2006]
+- [Berger 2021 Liftoff][book_berger_2021]
+- [Berger 2024 Reentry][book_berger_2024]
 - [Berlin 2005 The Man Behind the Microchip][book_berlin_2005]
+- [Bilstein 1996 Stages to Saturn][book_bilstein_1996]
 - [Bilstein 2001 Flight in America][book_bilstein_2001]
+- [Blanchard and Fabrycky 2011 Systems Engineering and Analysis][book_blanchard_fabrycky_2011]
+- [Bork 1978 The Antitrust Paradox][book_bork_1978]
 - [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
+- [Buede 2009 The Engineering Design of Systems Models and Methods][book_buede_2009]
+- [Chaikin 2007 A Man on the Moon][book_chaikin_2007]
+- [Chandler 1962 Strategy and Structure][book_chandler_1962]
+- [Chandler 1977 The Visible Hand][book_chandler_1977]
+- [Chandler 1990 Scale and Scope][book_chandler_1990]
+- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
+- [Creswell 2014 Research Design][book_creswell_2014]
 - [Crouch 2003 Wings A History of Aviation from Kites to the Space Age][book_crouch_2003]
+- [Cyert and March 1963 A Behavioral Theory of the Firm][book_cyert_march_1963]
+- [Davenport 2018 The Space Barons][book_davenport_2018]
 - [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
 - [Evans 1995 Embedded Autonomy][book_evans_1995]
 - [Fallows 1981 National Defense][book_fallows_1981]
+- [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
+- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
 - [Freeman 1987 Technology Policy and Economic Performance][book_freeman_1987]
 - [Gompers and Lerner 2001 The Money of Invention][book_gompers_lerner_2001]
+- [Greif 2006 Institutions and the Path to the Modern Economy][book_grief_2006]
 - [Grimsey and Lewis 2004 Public Private Partnerships][book_grimsey_lewis_2004]
 - [Groves 1962 Now It Can Be Told][book_groves_1962]
+- [Handberg 1994 Reinventing NASA][book_handberg_1994]
+- [Hargrove 1994 Prisoners of Myth][book_hargrove_1994]
 - [Hartley 2017 The Economics of Arms][book_hartley_2017]
 - [Hewlett and Anderson 1962 The New World][book_hewlett_anderson_1962]
 - [Hosley 1996 Colt The Making of an American Legend][book_hosley_1996]
 - [Hounshell 1984 From the American System to Mass Production][book_hounshell_1984]
+- [Hovenkamp 2005 The Antitrust Enterprise][book_hovenkamp_2005]
+- [Hughes 1983 Networks of Power][book_hughes_1983]
 - [Hunter 2016 Creating Strategic Value][book_hunter_2016]
 - [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
 - [Kahn 1988 The Economics of Regulation][book_kahn_1988]
+- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
 - [Kaplan 1991 The Wizards of Armageddon][book_kaplan_1991]
+- [Kauffman 1993 The Origins of Order][book_kauffman_1993]
+- [Klerkx 2004 Lost in Space][book_klerkx_2004]
+- [Kraemer 2006 Rocketdyne Powering Humans into Space][book_kraemer_2006]
+- [Kranz 2000 Failure Is Not an Option][book_kranz_2000]
 - [Krige et al 2000 A History of the European Space Agency][book_krige_et_al_2000]
+- [Kunda 1992 Engineering Culture][book_kunda_1992]
 - [Laffont and Tirole 1993 A Theory of Incentives in Procurement and Regulation][book_laffont_tirole_1993]
+- [Landes 1969 The Unbound Prometheus][book_landes_1969]
+- [Larson 1977 The Rise of Professionalism][book_larson_1977]
+- [Launius 1994 NASA A History of the United States Civil Space Program][book_launius_1994]
+- [Launius 2004 Frontiers of Space Exploration][book_launius_2004]
+- [Lawrence 2016 Airbus versus Boeing][book_lawrence_2016]
 - [Lecuyer 2006 Making Silicon Valley][book_lecuyer_2006]
 - [Lerner 2009 Boulevard of Broken Dreams][book_lerner_2009]
+- [Logsdon 1970 The Decision to Go to the Moon][book_logsdon_1970]
+- [Logsdon 2010 John F Kennedy and the Race to the Moon][book_logsdon_2010]
 - [Lundvall 1992 National Systems of Innovation][book_lundvall_1992]
 - [Malone 2014 The Intel Trinity][book_malone_2014]
+- [March and Simon 1958 Organizations][book_march_simon_1958]
 - [Mazzucato 2013 The Entrepreneurial State][book_mazzucato_2013]
 - [Mazzucato 2021 Mission Economy][book_mazzucato_2021]
 - [McAfee and McMillan 1988 Incentives in Government Contracting][book_mcafee_mcmillan_1988]
+- [McCurdy 1994 Inside NASA][book_mccurdy_1994]
+- [McDougall 1985 The Heavens and the Earth][book_mcdougall_1985]
 - [Melman 1970 Pentagon Capitalism][book_melman_1970]
 - [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
 - [Metrick and Yasuda 2011 Venture Capital and the Finance of Innovation][book_metrick_yasuda_2011]
 - [Milgrom 2004 Putting Auction Theory to Work][book_milgrom_2004]
+- [Miller 1995 Lockheed Skunk Works The First Fifty Years][book_miller_1995]
 - [Mindell 2008 Digital Apollo][book_mindell_2008]
 - [Mowery and Rosenberg 1998 Paths of Innovation][book_mowery_rosenberg_1998]
+- [Murray and Cox 1989 Apollo][book_murray_cox_1989]
+- [Musa 1998 Software Reliability Engineering][book_musa_1998]
 - [Nelson 1993 National Innovation Systems][book_nelson_1993]
 - [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
+- [Newhouse 1982 The Sporty Game][book_newhouse_1982]
+- [Newhouse 2007 Boeing versus Airbus][book_newhouse_2007]
+- [Nonaka and Takeuchi 1995 The Knowledge-Creating Company][book_nonaka_takeuchi_1995]
 - [Norberg and O'Neill 1996 Transforming Computer Technology][book_norberg_oneill_1996]
+- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
+- [O'Connor and Kleyner 2012 Practical Reliability Engineering][book_oconnor_kleyner_2012]
+- [Ormerod 2005 Why Most Things Fail][book_ormerod_2005]
 - [Osborne 2000 Public-Private Partnerships][book_osborne_2000]
+- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
+- [Perez 2002 Technological Revolutions and Financial Capital][book_perez_2002]
+- [Perrow 1984 Normal Accidents][book_perrow_1984]
+- [Porter 1980 Competitive Strategy][book_porter_1980]
+- [Porter 1985 Competitive Advantage][book_porter_1985]
+- [Posner 2001 Antitrust Law][book_posner_2001]
 - [Rhodes 1986 The Making of the Atomic Bomb][book_rhodes_1986]
+- [Rich and Janos 1994 Skunk Works][book_rich_janos_1994]
 - [Riordan Hoddeson and Kolb 2015 Tunnel Visions][book_riordan_hoddeson_kolb_2015]
+- [Rosenberg 1976 Perspectives on Technology][book_rosenberg_1976]
+- [Rosenberg 1982 Inside the Black Box][book_rosenberg_1982]
 - [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
+- [Scherer and Ross 1990 Industrial Market Structure and Economic Performance][book_scherer_ross_1990]
+- [Schumpeter 1942 Capitalism Socialism and Democracy][book_schumpeter_1942]
+- [Selznick 1949 TVA and the Grass Roots][book_selznick_1949]
+- [Senge 1990 The Fifth Discipline][book_senge_1990]
 - [Serling 1992 Legend and Legacy][book_serling_1992]
 - [Sharkey 1982 The Theory of Natural Monopoly][book_sharkey_1982]
+- [Simon 1957 Administrative Behavior][book_simon_1957]
+- [Suh 2001 Axiomatic Design Advances and Applications][book_suh_2001]
+- [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
 - [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
+- [Vaughan 1996 The Challenger Launch Decision][book_vaughan_1996]
 - [Wade 1990 Governing the Market][book_wade_1990]
+- [Weick 1979 The Social Psychology of Organizing][book_weick_1979]
+- [Weick and Sutcliffe 2007 Managing the Unexpected][book_weick_sutcliffe_2007]
 - [Weiss 2014 America Inc][book_weiss_2014]
 - [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
+- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
 - [Yescombe 2007 Public-Private Partnerships Principles of Policy and Finance][book_yescombe_2007]
+- [Yin 2014 Case Study Research and Applications][book_yin_2014]
 
 ### Reference
 
@@ -682,11 +829,13 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [Aviation Week][ref_aviation_week]
 - [Bloomberg][ref_bloomberg]
 - [Blue Origin Press Releases][ref_blue_origin_press]
+- [Boeing Historical Archives][ref_boeing_historical_archives]
 - [Boeing Press Releases][ref_boeing_press]
 - [Boeing Starliner Programme Record][ref_boeing_starliner_cft_2024]
 - [Breaking Defense][ref_breaking_defense]
 - [China Commercial Space Sector Coverage][ref_china_commercial_space]
 - [China National Space Administration][ref_chinese_space_program]
+- [Columbia Accident Investigation Board Report 2003][ref_caib_report_2003]
 - [Commercial Space Authority 51 USC 51302][ref_51_usc_51302_saa]
 - [Commercial Space Launch Act][ref_csla_1984]
 - [Commercial Space Launch Amendments Act of 2004][ref_csla_amendments_2004]
@@ -719,6 +868,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [GAO Bid Protest Function][ref_gao_bid_protest]
 - [GAO Reports and Testimonies Database][ref_gao_reports]
 - [House Science Space and Technology Committee Hearing Record][ref_house_science_committee_hearings]
+- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
 - [ISRO Press Releases][ref_isro_press]
 - [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130]
 - [JAXA Press Releases][ref_jaxa_press]
@@ -752,21 +902,27 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [NASA Office of Inspector General Reports Database][ref_nasa_oig_reports]
 - [NASA Partnerships and Space Act Agreements][ref_nasa_partnerships]
 - [NASA Space Launch System Program Documentation][ref_nasa_sls_program]
+- [NASA Systems Engineering Handbook][ref_nasa_se_handbook]
 - [NASA Technical Reports Server][ref_nasa_ntrs]
+- [NASA Technical Standards System][ref_nasa_std_8709_22]
 - [NASA X-33 and Reusable Launch Vehicle Literature][ref_ntrs_x33]
 - [NASASpaceflight][ref_nasaspaceflight]
 - [National Aeronautics and Space Act of 1958][ref_nasa_act_1958]
+- [National Bureau of Economic Research][ref_nber]
 - [New York Times 2024 Starshield Coverage][ref_nyt_starshield_2024]
 - [New York Times Space Coverage][ref_nyt]
+- [Northrop Grumman Press Releases][ref_northrop_grumman_press]
 - [OMB Circulars][ref_omb_circular_a11]
 - [Payload][ref_payload]
 - [Payload Research][ref_payload_research]
 - [Public Administration Review][ref_public_admin_review]
 - [Rocket Lab Press Releases][ref_rocket_lab_press]
+- [Rogers Commission Report 1986][ref_rogers_commission_1986]
 - [SBIR and STTR Programme Portal][ref_sbir_gov]
 - [SBIR and STTR Statutory Authority 15 USC 638][ref_sbir_statute_15usc638]
 - [SEC EDGAR Company Search][ref_sec_edgar]
 - [Small Business Administration SBIR Policy Directive][ref_sba_sbir_policy_directive]
+- [Social Science Research Network][ref_ssrn]
 - [Space Act Agreement Authority 51 USC 20113][ref_51_usc_20113]
 - [Space Force National Security Space Launch][ref_space_force_nssl]
 - [Space Force News][ref_space_force_news]
@@ -800,49 +956,75 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Research
 
+- [Adler and Clark 1991 Behind the Learning Curve][research_adler_clark_1991]
 - [Aghion and Howitt 1992 A Model of Growth Through Creative Destruction][research_aghion_howitt_1992]
+- [Alchian 1963 Reliability of Progress Curves in Airframe Production][research_alchian_1963]
+- [Argote and Epple 1990 Learning Curves in Manufacturing][research_argote_epple_1990]
+- [Argote and Ingram 2000 Knowledge Transfer A Basis for Competitive Advantage in Firms][research_argote_ingram_2000]
+- [Argote and Miron-Spektor 2011 Organizational Learning From Experience to Knowledge][research_argote_miron_spektor_2011]
 - [Arrow 1962 Economic Welfare and the Allocation of Resources for Invention][research_arrow_1962]
 - [Bajari and Tadelis 2001 Incentives Versus Transaction Costs A Theory of Procurement Contracts][research_bajari_tadelis_2001]
 - [Bajari McMillan and Tadelis 2009 Auctions Versus Negotiations in Procurement][research_bajari_mcmillan_tadelis_2009]
+- [Baumol 1977 On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry][research_baumol_1977]
 - [Block 2008 Swimming Against the Current The Rise of a Hidden Developmental State][research_block_2008]
 - [Bonvillian 2018 DARPA and the Advanced Research Projects Agency Model][research_bonvillian_2018]
 - [Bovaird 2004 Public-Private Partnerships From Contested Concepts to Prevalent Practice][research_bovaird_2004]
 - [Che and Chung 1999 Contractual Remedies to the Holdup Problem][research_che_chung_1999]
 - [Coase 1937 The Nature of the Firm][research_coase_1937]
+- [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
 - [Corts and Singh 2004 The Effect of Repeated Interaction on Contract Choice][research_corts_singh_2004]
+- [Duane 1964 Learning Curve Approach to Reliability Monitoring][research_duane_1964]
+- [Dutton and Thomas 1984 Treating Progress Functions as a Managerial Opportunity][research_dutton_thomas_1984]
 - [Gagnepain and Ivaldi 2002 Incentive Regulatory Policies][research_gagnepain_ivaldi_2002]
 - [Gompers 1995 Optimal Investment Monitoring and the Staging of Venture Capital][research_gompers_1995]
+- [Grant 1996 Toward a Knowledge-Based Theory of the Firm][research_grant_1996]
 - [Griliches 1979 Issues in Assessing the Contribution of Research and Development to Productivity Growth][research_griliches_1979]
 - [Griliches and Lichtenberg 1984 R and D and Productivity Growth at the Industry Level][research_griliches_lichtenberg_1984]
 - [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
 - [Hall and Lerner 2010 The Financing of R and D and Innovation][research_hall_lerner_2010]
 - [Hart and Moore 1990 Property Rights and the Nature of the Firm][research_hart_moore_1990]
 - [Hodge and Greve 2007 Public-Private Partnerships An International Performance Review][research_hodge_greve_2007]
+- [Huber 1991 Organizational Learning The Contributing Processes][research_huber_1991]
+- [Kahneman and Tversky 1979 Prospect Theory][research_kahneman_tversky_1979]
 - [Kalnins and Mayer 2004 Relationships and Hybrid Contracts][research_kalnins_mayer_2004]
 - [Kaplan and Stromberg 2003 Financial Contracting Theory Meets the Real World][research_kaplan_stromberg_2003]
 - [Kaplan and Stromberg 2004 Characteristics Contracts and Actions][research_kaplan_stromberg_2004]
+- [Khan 2017 Amazon's Antitrust Paradox][research_khan_2017]
 - [Kilby 1976 Invention of the Integrated Circuit][research_kilby_1976]
 - [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
+- [Kogut and Zander 1992 Knowledge of the Firm Combinative Capabilities and the Replication of Technology][research_kogut_zander_1992]
 - [Kortum and Lerner 2000 Assessing the Contribution of Venture Capital to Innovation][research_kortum_lerner_2000]
 - [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
 - [Lafontaine and Slade 2007 Vertical Integration and Firm Boundaries][research_lafontaine_slade_2007]
 - [Lerner 1994 The Syndication of Venture Capital Investments][research_lerner_1994_syndication]
 - [Lerner 1996 The Government as Venture Capitalist][research_lerner_1996_government_program]
 - [Levin and Tadelis 2010 Contracting for Government Services Theory and Evidence][research_levin_tadelis_2010]
+- [Levitt and March 1988 Organizational Learning][research_levitt_march_1988]
+- [Lieberman 1984 The Learning Curve and Pricing in the Chemical Processing Industries][research_lieberman_1984]
+- [Maier 1998 Architecting Principles for Systems-of-Systems][research_maier_1998]
+- [March 1991 Exploration and Exploitation in Organizational Learning][research_march_1991]
 - [Masten 1984 The Organization of Production][research_masten_1984]
 - [Monteverde and Teece 1982 Supplier Switching Costs and Vertical Integration][research_monteverde_teece_1982]
 - [Myerson 1981 Optimal Auction Design][research_myerson_1981]
 - [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
+- [Nonaka 1994 A Dynamic Theory of Organizational Knowledge Creation][research_nonaka_1994]
 - [Noyce 1976 Microelectronics][research_noyce_1976]
+- [Rapping 1965 Learning and World War II Production Functions][research_rapping_1965]
 - [Reuters 2024 Starshield Investigation][research_reuters_starshield_2024]
 - [Romer 1990 Endogenous Technological Change][research_romer_1990]
+- [Ross and Staw 1993 Organizational Escalation and Exit][research_ross_staw_1993]
+- [Sage and Cuppan 2001 On the Systems Engineering and Management of Systems of Systems][research_sage_cuppan_2001]
 - [Sahlman 1990 The Structure and Governance of Venture-Capital Organizations][research_sahlman_1990]
+- [Simon 1962 The Architecture of Complexity][research_simon_1962]
+- [Staw 1976 Knee-Deep in the Big Muddy][research_staw_1976]
 - [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
+- [Tversky and Kahneman 1992 Advances in Prospect Theory][research_tversky_kahneman_1992]
 - [Vining and Weimer 2005 Establishing Public-Private Partnership Contracts][research_vining_weimer_2005]
 - [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
 - [Williamson 1971 The Vertical Integration of Production][research_williamson_1971]
 - [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
 - [Williamson 2002 The Theory of the Firm as Governance Structure][research_williamson_2002]
+- [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
 
 ### Related Post
 
@@ -867,55 +1049,128 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [A288 History of SpaceX Portfolio Patience and the Internalization of Tail Risk][related_post_a288_spacex_portfolio_patience]
 
 [book_abbate_1999]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
+[book_abbott_1988]: https://openlibrary.org/search?q=Abbott+The+System+of+Professions
+[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+Robinson+Why+Nations+Fail
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
+[book_argote_1999]: https://openlibrary.org/search?q=Argote+Organizational+Learning+Creating+Retaining+Transferring+Knowledge
+[book_argyris_schon_1978]: https://www.pearson.com/en-us/subject-catalog/p/organizational-learning-a-theory-of-action-perspective/P200000005949
+[book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
+[book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
+[book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
+[book_berger_2024]: https://openlibrary.org/search?q=Berger+Reentry+SpaceX
 [book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
+[book_bilstein_1996]: https://openlibrary.org/search?q=Bilstein+Stages+to+Saturn
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
+[book_blanchard_fabrycky_2011]: https://www.pearson.com/en-us/subject-catalog/p/systems-engineering-and-analysis/P200000003302
+[book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
+[book_buede_2009]: https://openlibrary.org/search?q=Buede+Engineering+Design+of+Systems+Models+and+Methods
+[book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
+[book_chandler_1962]: https://mitpress.mit.edu/9780262530095/strategy-and-structure/
+[book_chandler_1977]: https://www.hup.harvard.edu/books/9780674940529
+[book_chandler_1990]: https://openlibrary.org/search?q=Chandler+Scale+and+Scope
+[book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
+[book_creswell_2014]: https://us.sagepub.com/en-us/nam/research-design/book255675
 [book_crouch_2003]: https://wwnorton.com/books/Wings/
+[book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
+[book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
 [book_dixit_pindyck_1994]: https://press.princeton.edu/books/hardcover/9780691034102/investment-under-uncertainty
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
+[book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
+[book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_freeman_1987]: https://www.taylorfrancis.com/books/mono/10.4324/9781315014647/technology-policy-economic-performance-christopher-freeman
 [book_gompers_lerner_2001]: https://www.hbsp.harvard.edu/product/2434-HBK-ENG
+[book_grief_2006]: https://www.cambridge.org/9780521671347
 [book_grimsey_lewis_2004]: https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html
 [book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
+[book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
+[book_hargrove_1994]: https://openlibrary.org/search?q=Hargrove+Prisoners+of+Myth
 [book_hartley_2017]: https://www.taylorfrancis.com/books/mono/10.4324/9781315617831/economics-arms-keith-hartley
 [book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+Anderson+New+World+Manhattan+Project
 [book_hosley_1996]: https://www.press.jhu.edu/books/title/1799/colt
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
+[book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
+[book_hughes_1983]: https://jhupbooks.press.jhu.edu/title/networks-power
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
 [book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
+[book_kahneman_2011]: https://us.macmillan.com/books/9780374533557/thinkingfastandslow
 [book_kaplan_1991]: https://openlibrary.org/search?q=Kaplan+The+Wizards+of+Armageddon
+[book_kauffman_1993]: https://global.oup.com/academic/product/the-origins-of-order-9780195079517
+[book_klerkx_2004]: https://us.macmillan.com/books/9780375421501/lostinspace
+[book_kraemer_2006]: https://openlibrary.org/search?q=Kraemer+Rocketdyne+Powering+Humans+into+Space
+[book_kranz_2000]: https://www.simonandschuster.com/books/Failure-Is-Not-an-Option/Gene-Kranz/9781439148815
 [book_krige_et_al_2000]: https://www.esa.int/About_Us/ESA_history
+[book_kunda_1992]: https://openlibrary.org/search?q=Kunda+Engineering+Culture
 [book_laffont_tirole_1993]: https://mitpress.mit.edu/9780262121743/a-theory-of-incentives-in-procurement-and-regulation/
+[book_landes_1969]: https://www.cambridge.org/9780521094184
+[book_larson_1977]: https://www.ucpress.edu/book/9780520039070/the-rise-of-professionalism
+[book_launius_1994]: https://openlibrary.org/search?q=Launius+NASA+History+United+States+Civil+Space+Program
+[book_launius_2004]: https://global.oup.com/academic/product/frontiers-of-space-exploration-9780313325243
+[book_lawrence_2016]: https://www.routledge.com/Airbus-vs-Boeing/Lawrence/p/book/9781138287884
 [book_lecuyer_2006]: https://mitpress.mit.edu/9780262622110/making-silicon-valley/
 [book_lerner_2009]: https://press.princeton.edu/books/hardcover/9780691142197/boulevard-of-broken-dreams
+[book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
+[book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
 [book_lundvall_1992]: https://www.taylorfrancis.com/books/edit/10.4324/9781315199665/national-systems-innovation-bengt-ke-lundvall
 [book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
+[book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
 [book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+McMillan+Incentives+in+Government+Contracting
+[book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
+[book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_metrick_yasuda_2011]: https://openlibrary.org/search?q=Metrick+Yasuda+Venture+Capital+Finance+of+Innovation
 [book_milgrom_2004]: https://www.cambridge.org/9780521551847
+[book_miller_1995]: https://openlibrary.org/search?q=Miller+Lockheed+Skunk+Works+First+Fifty+Years
 [book_mindell_2008]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_mowery_rosenberg_1998]: https://openlibrary.org/search?q=Mowery+Rosenberg+Paths+of+Innovation
+[book_murray_cox_1989]: https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258
+[book_musa_1998]: https://openlibrary.org/search?q=Musa+Software+Reliability+Engineering
 [book_nelson_1993]: https://global.oup.com/academic/product/national-innovation-systems-9780195076172
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
+[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
+[book_newhouse_2007]: https://us.macmillan.com/books/9781400079131/boeingversusairbus
+[book_nonaka_takeuchi_1995]: https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691
 [book_norberg_oneill_1996]: https://jhupbooks.press.jhu.edu/title/transforming-computer-technology
+[book_north_1990]: https://www.cambridge.org/9780521397346
+[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O%27Connor+Kleyner+Practical+Reliability+Engineering
+[book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_osborne_2000]: https://www.routledge.com/Public-Private-Partnerships/Osborne/p/book/9780415225236
+[book_ostrom_1990]: https://www.cambridge.org/9780521405997
+[book_perez_2002]: https://openlibrary.org/search?q=Perez+Technological+Revolutions+and+Financial+Capital
+[book_perrow_1984]: https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
+[book_porter_1980]: https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489
+[book_porter_1985]: https://www.simonandschuster.com/books/Competitive-Advantage/Michael-E-Porter/9780684841465
+[book_posner_2001]: https://openlibrary.org/search?q=Posner+Antitrust+Law
 [book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
+[book_rich_janos_1994]: https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/
 [book_riordan_hoddeson_kolb_2015]: https://openlibrary.org/search?q=Riordan+Hoddeson+Kolb+Tunnel+Visions
+[book_rosenberg_1976]: https://www.cambridge.org/9780521290111
+[book_rosenberg_1982]: https://www.cambridge.org/9780521273671
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
+[book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
+[book_schumpeter_1942]: https://www.harpercollins.com/products/capitalism-socialism-and-democracy-joseph-a-schumpeter
+[book_selznick_1949]: https://www.ucpress.edu/book/9780520000384/tva-and-the-grass-roots
+[book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
 [book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy+Boeing
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
+[book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
+[book_suh_2001]: https://global.oup.com/academic/product/axiomatic-design-9780195134667
+[book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
 [book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
+[book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
+[book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
+[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+Sutcliffe+Managing+the+Unexpected
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
+[book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
 [book_yescombe_2007]: https://www.sciencedirect.com/book/9780750680547/public-private-partnerships
+[book_yin_2014]: https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
 [ref_10_usc_2371b]: https://www.law.cornell.edu/uscode/text/10/2371b
 [ref_51_usc_20113]: https://www.law.cornell.edu/uscode/text/51/20113
 [ref_51_usc_51302_saa]: https://www.law.cornell.edu/uscode/text/51/51302
@@ -925,9 +1180,11 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_aviation_week]: https://aviationweek.com/
 [ref_bloomberg]: https://www.bloomberg.com/
 [ref_blue_origin_press]: https://www.blueorigin.com/news/
+[ref_boeing_historical_archives]: https://www.boeing.com/history/
 [ref_boeing_press]: https://boeing.mediaroom.com/
 [ref_boeing_starliner_cft_2024]: https://www.boeing.com/space/starliner
 [ref_breaking_defense]: https://breakingdefense.com/
+[ref_caib_report_2003]: https://www.govinfo.gov/app/details/GPO-CAIB
 [ref_china_commercial_space]: https://spacenews.com/topic/china/
 [ref_chinese_space_program]: https://www.cnsa.gov.cn/english/
 [ref_congressional_record]: https://www.congress.gov/congressional-record
@@ -960,6 +1217,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_gao_reports]: https://www.gao.gov/reports-testimonies
 [ref_heilmeier_catechism]: https://www.darpa.mil/about-us/heilmeier-catechism
 [ref_house_science_committee_hearings]: https://science.house.gov/
+[ref_incose_handbook]: https://www.incose.org/products-and-publications/se-handbook
 [ref_isro_press]: https://www.isro.gov.in/
 [ref_itar_22_cfr_120_130]: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
 [ref_jaxa_press]: https://global.jaxa.jp/press/
@@ -994,8 +1252,12 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_nasa_oig_hls_2021]: https://oig.nasa.gov/docs/IG-21-024.pdf
 [ref_nasa_oig_reports]: https://oig.nasa.gov/
 [ref_nasa_partnerships]: https://www.nasa.gov/partnerships/
+[ref_nasa_se_handbook]: https://www.nasa.gov/reference/systems-engineering-handbook/
 [ref_nasa_sls_program]: https://www.nasa.gov/humans-in-space/space-launch-system/
+[ref_nasa_std_8709_22]: https://standards.nasa.gov/
 [ref_nasaspaceflight]: https://www.nasaspaceflight.com/
+[ref_nber]: https://www.nber.org/
+[ref_northrop_grumman_press]: https://news.northropgrumman.com/
 [ref_ntrs_x33]: https://ntrs.nasa.gov/search?q=X-33%20reusable%20launch%20vehicle
 [ref_nyt]: https://www.nytimes.com/section/science/space
 [ref_nyt_starshield_2024]: https://www.nytimes.com/2024/02/16/us/politics/spacex-us-spy-agency-satellites.html
@@ -1004,6 +1266,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_payload_research]: https://payloadspace.com/research/
 [ref_public_admin_review]: https://onlinelibrary.wiley.com/journal/15406210
 [ref_rocket_lab_press]: https://www.rocketlabusa.com/updates/
+[ref_rogers_commission_1986]: https://history.nasa.gov/rogersrep/genindex.htm
 [ref_sba_sbir_policy_directive]: https://www.sbir.gov/about
 [ref_sbir_gov]: https://www.sbir.gov/
 [ref_sbir_statute_15usc638]: https://www.law.cornell.edu/uscode/text/15/638
@@ -1026,6 +1289,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_spacex_press_dm2_2020]: https://www.spacex.com/updates/dm-2-launch-crewed-flight/
 [ref_spacex_press_dragon_c1_2010]: https://www.spacex.com/updates/
 [ref_spacex_starshield]: https://www.spacex.com/starshield/
+[ref_ssrn]: https://www.ssrn.com/
 [ref_the_space_review]: https://www.thespacereview.com/
 [ref_ula_press]: https://www.ulalaunch.com/about/news
 [ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
@@ -1037,49 +1301,75 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_vandenberg_slc4e_ea]: https://www.faa.gov/space/environmental
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/
 [ref_wsj]: https://www.wsj.com/tech
+[research_adler_clark_1991]: https://pubsonline.informs.org/doi/10.1287/mnsc.37.3.267
 [research_aghion_howitt_1992]: https://www.jstor.org/stable/2951599
+[research_alchian_1963]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1963.tb00723.x
+[research_argote_epple_1990]: https://www.science.org/doi/10.1126/science.247.4945.920
+[research_argote_ingram_2000]: https://www.sciencedirect.com/science/article/abs/pii/S0749597800928930
+[research_argote_miron_spektor_2011]: https://pubsonline.informs.org/doi/10.1287/orsc.1100.0621
 [research_arrow_1962]: https://www.nber.org/system/files/chapters/c2144/c2144.pdf
 [research_bajari_mcmillan_tadelis_2009]: https://academic.oup.com/jleo/article-abstract/25/2/372/845776
 [research_bajari_tadelis_2001]: https://www.jstor.org/stable/2696367
+[research_baumol_1977]: https://www.jstor.org/stable/1807012
 [research_block_2008]: https://journals.sagepub.com/doi/10.1177/0032329207312349
 [research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
 [research_bovaird_2004]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9299.2004.00405.x
 [research_che_chung_1999]: https://academic.oup.com/rand/article-abstract/30/1/97/2701540
 [research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
+[research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
 [research_corts_singh_2004]: https://academic.oup.com/jleo/article-abstract/20/1/230/970131
+[research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
+[research_dutton_thomas_1984]: https://journals.aom.org/doi/10.5465/amr.1984.4277938
 [research_gagnepain_ivaldi_2002]: https://academic.oup.com/rand/article-abstract/33/4/605/2603099
 [research_gompers_1995]: https://www.jstor.org/stable/2329227
+[research_grant_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171110
 [research_griliches_1979]: https://www.jstor.org/stable/3003318
 [research_griliches_lichtenberg_1984]: https://www.nber.org/system/files/chapters/c10054/c10054.pdf
 [research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
 [research_hall_lerner_2010]: https://www.sciencedirect.com/science/article/pii/S0169721810010142
 [research_hart_moore_1990]: https://www.jstor.org/stable/2937861
 [research_hodge_greve_2007]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6210.2007.00736.x
+[research_huber_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.88
+[research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
 [research_kalnins_mayer_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0223
 [research_kaplan_stromberg_2003]: https://academic.oup.com/restud/article-abstract/70/2/281/1571073
 [research_kaplan_stromberg_2004]: https://academic.oup.com/rfs/article-abstract/17/1/1/1601330
+[research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
 [research_kilby_1976]: https://ieeexplore.ieee.org/document/1454570
 [research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
+[research_kogut_zander_1992]: https://pubsonline.informs.org/doi/10.1287/orsc.3.3.383
 [research_kortum_lerner_2000]: https://www.rand.org/pubs/reprints/RP924.html
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
 [research_lafontaine_slade_2007]: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.629
 [research_lerner_1994_syndication]: https://www.jstor.org/stable/3665602
 [research_lerner_1996_government_program]: https://www.nber.org/papers/w5753
 [research_levin_tadelis_2010]: https://academic.oup.com/qje/article-abstract/125/3/1103/1903637
+[research_levitt_march_1988]: https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+[research_lieberman_1984]: https://www.jstor.org/stable/2555589
+[research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
+[research_march_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.71
 [research_masten_1984]: https://www.jstor.org/stable/725228
 [research_monteverde_teece_1982]: https://www.jstor.org/stable/3003400
 [research_myerson_1981]: https://pubsonline.informs.org/doi/10.1287/moor.6.1.58
 [research_nelson_1959]: https://www.journals.uchicago.edu/doi/10.1086/258177
+[research_nonaka_1994]: https://pubsonline.informs.org/doi/10.1287/orsc.5.1.14
 [research_noyce_1976]: https://ieeexplore.ieee.org/document/1454572
+[research_rapping_1965]: https://www.jstor.org/stable/1928223
 [research_reuters_starshield_2024]: https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/
 [research_romer_1990]: https://www.journals.uchicago.edu/doi/10.1086/261725
+[research_ross_staw_1993]: https://journals.aom.org/doi/10.5465/256640
+[research_sage_cuppan_2001]: https://link.springer.com/journal/11213
 [research_sahlman_1990]: https://www.sciencedirect.com/science/article/pii/0304405X9090065E
+[research_simon_1962]: https://www.jstor.org/stable/985254
+[research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
 [research_stigler_1971]: https://www.jstor.org/stable/3003160
+[research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
 [research_vining_weimer_2005]: https://link.springer.com/journal/11115
 [research_weiss_thurbon_2021]: https://journals.sagepub.com/doi/10.1177/0032329220950247
 [research_williamson_1971]: https://www.jstor.org/stable/1815199
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
+[research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
 [related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
