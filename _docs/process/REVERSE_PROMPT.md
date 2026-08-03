@@ -42,14 +42,14 @@ I gave equal prominence to what the analysis does **not** establish: it does not
 
 | Metric | Value |
 |---|---|
-| Lines | 1,042 |
-| Words | ~15,846 |
+| Lines | 1,102 |
+| Words | ~16,501 |
 | Display equations | 70 |
 | H2 sections | 27 |
 | H3 subsections | 11 |
-| Total reference anchors | 203 |
+| Total reference anchors | 233 |
 | Books | 50 |
-| Reference | 91 |
+| Reference | 121 |
 | Research | 43 |
 | Related Post | 19 |
 | Em-dashes / en-dashes / prose parens / prose contractions / prose colons / prose semicolons | 0 / 0 / 0 / 0 / 0 / 0 |
@@ -59,19 +59,21 @@ I gave equal prominence to what the analysis does **not** establish: it does not
 
 ## Items Requiring Your Attention
 
-1. **Both density passes are complete.** Equations 70 in the 60-72 band, references 203 in the 190-234 band, primary references 91 and second highest in the series after A286. A publication-review expansion pass of the kind A286 through A288 received would still add survey breadth, but nothing is outstanding against the baseline.
+1. **Primary references were already in good shape, and I want to be straight about that.** They stood at 91, third highest in the series, before this pass. The audit still found real uncited claims and those are now cited, taking primary references to 121, the highest in the series. But the honest finding is that primary was not the gap.
 
-2. **A sequencing constraint, not a blocker.** A289 back-references A288 by `post_url`, and A288 is still a draft. A289 must publish with A288 or after it. Every other cross-reference resolves, including the three SBIR series links.
+2. **The actual gap is books and research.** At 50 and 43 those are the lowest in the series by a wide margin, against 116 and 110 in A288 and 167 and 99 in A286. That is a publication-review expansion rather than a primary-reference one, and I have logged it as the remaining headroom rather than padding the primary category to disguise it.
 
-3. **I recorded a tension the advocacy literature does not.** The procurement mechanism-design result is that optimal incentive power *falls* as project uncertainty rises, because a fixed-price instrument on a poorly specified requirement produces a risk premium exceeding the efficiency gain. That is directly contrary to the policy lesson usually drawn from COTS. The article states the tension and does not resolve it.
+3. **A sequencing constraint, not a blocker.** A289 back-references A288 by `post_url`, and A288 is still a draft. A289 must publish with A288 or after it. Every other cross-reference resolves, including the three SBIR series links.
 
-4. **The cost comparison is confounded and I said so.** The cost-plus programmes pursued a crewed beyond-low-Earth-orbit capability with no commercial market; the fixed-price instruments pursued a low-Earth-orbit logistics capability with a plausible one. The instrument choice may have been appropriate in both cases. The agency's published counterfactual cost estimate is treated as a model output, not a measurement, and it is the single most cited number in the advocacy literature.
+4. **I recorded a tension the advocacy literature does not.** The procurement mechanism-design result is that optimal incentive power *falls* as project uncertainty rises, because a fixed-price instrument on a poorly specified requirement produces a risk premium exceeding the efficiency gain. That is directly contrary to the policy lesson usually drawn from COTS. The article states the tension and does not resolve it.
 
-5. **The strongest evidentiary position in the series, and the article says why.** The government party to every transaction has disclosure obligations the private party does not. Award amounts, milestone structures, terminations, and competitive outcomes are directly documented. What remains unknown is the provider's actual development costs, so the article can state with confidence what the government supplied and cannot state what it bought.
+5. **The cost comparison is confounded and I said so.** The cost-plus programmes pursued a crewed beyond-low-Earth-orbit capability with no commercial market; the fixed-price instruments pursued a low-Earth-orbit logistics capability with a plausible one. The instrument choice may have been appropriate in both cases. The agency's published counterfactual cost estimate is treated as a model output, not a measurement, and it is the single most cited number in the advocacy literature.
 
-6. **A policy question I raised and did not answer.** An instrument justified as opening a market to a challenger now operates in a market where that challenger is dominant. Whether it should be applied unchanged is outside the article's scope and not outside a reader's legitimate interest.
+6. **The strongest evidentiary position in the series, and the article says why.** The government party to every transaction has disclosure obligations the private party does not. Award amounts, milestone structures, terminations, and competitive outcomes are directly documented. What remains unknown is the provider's actual development costs, so the article can state with confidence what the government supplied and cannot state what it bought.
 
-7. **Source repairs.** Four dead NASA URLs fixed. I also dropped an NTRS accession number I had substituted for the 2014 COTS final report, because I could not confirm the accession was that document, and citing it under that title would have been a fabrication.
+7. **A policy question I raised and did not answer.** An instrument justified as opening a market to a challenger now operates in a market where that challenger is dominant. Whether it should be applied unchanged is outside the article's scope and not outside a reader's legitimate interest.
+
+8. **Source repairs.** Four dead NASA URLs fixed. I also dropped an NTRS accession number I had substituted for the 2014 COTS final report, because I could not confirm the accession was that document, and citing it under that title would have been a fabrication.
 
 ---
 

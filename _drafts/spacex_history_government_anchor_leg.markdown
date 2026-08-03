@@ -169,9 +169,9 @@ with the specific conjunction required. The framing supplies the specific compar
 
 The specific legal instrument under which the specific COTS development capital was extended deserves treatment before the specific history, because substantially every distinctive feature of the specific arrangement follows from it and because the specific commentary routinely describes the specific arrangement as a contract when it was not one.
 
-The specific [National Aeronautics and Space Act][ref_nasa_act_1958] confers on the specific agency an authority to enter into specific agreements other than specific contracts, specific grants, and specific cooperative agreements, codified at the specific [51 USC 20113 provisions][ref_51_usc_20113] and described in the specific [NASA partnerships and Space Act Agreements guidance][ref_nasa_partnerships]. The specific authority is the specific civil-agency analogue of the specific other-transaction authority that the specific defense agencies hold and that the specific [Department of Defense other-transactions resources][ref_dod_other_transactions] describe.
+The specific [National Aeronautics and Space Act][ref_nasa_act_1958] confers on the specific agency an authority to enter into specific agreements other than specific contracts, specific grants, and specific cooperative agreements, codified at the specific [51 USC 20113 provisions][ref_51_usc_20113] and described in the specific [NASA partnerships and Space Act Agreements guidance][ref_nasa_partnerships]. The specific authority is the specific civil-agency analogue of the specific other-transaction authority that the specific defense agencies hold at the specific [10 USC 2371b provisions][ref_10_usc_2371b] and that the specific [Department of Defense other-transactions resources][ref_dod_other_transactions] describe. The specific related commercial-space authority appears at the specific [51 USC 51302 provisions][ref_51_usc_51302_saa], and the specific agency's specific internal programme-management framework at the specific [NASA programme and project management requirements][ref_nasa_npr_7120_5f].
 
-The specific consequence of proceeding under the specific authority rather than under the specific [Federal Acquisition Regulation][ref_far_part_15] is that substantially the entire specific regulatory apparatus governing specific federal procurement does not apply. The specific cost-accounting standards do not apply. The specific certified cost-or-pricing-data requirements do not apply. The specific specific contract-type framework that the specific [Federal Acquisition Regulation Part 16][ref_far_part_16] establishes does not apply. The specific intellectual-property allocation is negotiated rather than prescribed, which the specific [Data Rights and Intellectual Property article A164][related_post_a164_patents_trade_secrets] treats in the specific adjacent context. The specific bid-protest jurisdiction is substantially narrower.
+The specific consequence of proceeding under the specific authority rather than under the specific [Federal Acquisition Regulation][ref_far_part_15] is that substantially the entire specific regulatory apparatus governing specific federal procurement does not apply. The specific cost-accounting standards do not apply. The specific certified cost-or-pricing-data requirements do not apply. The specific contract-type framework that the specific [Federal Acquisition Regulation Part 16][ref_far_part_16] establishes does not apply, nor do the specific commercial-item procedures at [Part 12][ref_far_part_12] or the specific research-and-development contracting provisions at [Part 35][ref_far_part_35]. The specific intellectual-property allocation is negotiated rather than prescribed, which the specific [Data Rights and Intellectual Property article A164][related_post_a164_patents_trade_secrets] treats in the specific adjacent context. The specific bid-protest jurisdiction is substantially narrower. The specific international framework within which the specific resulting launches operate is unaffected by the specific instrument choice and comprises the specific [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967], the specific [Liability Convention of 1972][ref_un_liability_convention_1972], and the specific [Registration Convention of 1976][ref_un_registration_convention_1976], with the specific scholarly treatment in the specific [Journal of Space Law][ref_journal_space_law].
 
 The specific regulatory burden removed admits compact statement as the specific difference in the specific compliance cost a specific provider must bear
 
@@ -197,7 +197,7 @@ The specific round-one awards went to two providers. The specific SpaceX award w
 
 $$P(\text{at least one succeeds}) = 1 - \prod_{j} \left( 1 - p_j \right)$$
 
-which exceeds the specific single-provider probability at a specific cost equal to the specific sum of the specific awards. The specific structure is the specific same parallel-track logic the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] treats, applied by the specific payer across specific providers rather than by a specific venture across specific lines. The specific figures are reported in the specific programme documentation and are among the specific few quantities in this series that are directly documented rather than reconstructed.
+which exceeds the specific single-provider probability at a specific cost equal to the specific sum of the specific awards. The specific structure is the specific same parallel-track logic the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] treats, applied by the specific payer across specific providers rather than by a specific venture across specific lines. The specific figures are reported in the specific [NASA COTS programme history of 2011][ref_nasa_cots_2011] and the specific [NASA COTS programme literature][ref_nasa_cots_report], and are among the specific few quantities in this series that are directly documented rather than reconstructed.
 
 The specific structural features of the specific round-one awards that bear on the capital-formation question are four. The specific awards were milestone-based rather than cost-reimbursed. The specific awards required a specific private cost share. The specific awards conveyed no specific equity and no specific governance rights. The specific awards were terminable at the specific agency's discretion upon a specific milestone failure without a specific termination-for-convenience settlement of the specific kind a specific Federal Acquisition Regulation contract would require.
 
@@ -217,7 +217,7 @@ The specific Rocketplane Kistler agreement was terminated in the specific 2007 p
 
 The specific case is analytically important for three reasons that the specific commentary generally reduces to one.
 
-The specific first and most frequently noted is that the specific instrument permitted a specific rapid termination. The specific agency recovered the specific unobligated balance and re-competed the specific position, awarding it to a specific second provider in the specific 2008 period. The specific recovery admits the compact statement
+The specific first and most frequently noted is that the specific instrument permitted a specific rapid termination. The specific agency recovered the specific unobligated balance and re-competed the specific position, awarding it to a specific second provider in the specific 2008 period as the specific [NASA news releases][ref_nasa_news] record. The specific recovery admits the compact statement
 
 $$R^{\text{agency}} = K^{\text{obligated}} - K^{\text{disbursed}} \qquad \text{against} \qquad R^{\text{agency}} = -S \quad \text{under a cost-plus termination}$$
 
@@ -277,7 +277,7 @@ $$\frac{K^{\text{gov}}}{K^{\text{total}}} \Bigg|_{\text{cumulative, development 
 
 with the specific first a specific historical capital share that is fixed and the specific second a specific current revenue share that has declined as the specific commercial lines grew. The specific distinction matters because the specific commentary that describes the specific firm as government-funded conflates a specific bounded historical capital contribution with a specific continuing commercial relationship, and the specific two have specific different implications for substantially every question the series treats.
 
-The specific subsequent [CRS-2 award][ref_nasa_crs2_press_2016] of the specific 2016 period extended the specific services relationship without reopening the specific capital-formation channel.
+The specific subsequent [CRS-2 award][ref_nasa_crs2_press_2016] of the specific 2016 period extended the specific services relationship without reopening the specific capital-formation channel. The specific execution record across the specific two contracts is documented in the specific [NASA Commercial Resupply Services programme overview][ref_nasa_crs_program_overview] and in the specific SpaceX press record covering the specific [Dragon C1 demonstration of 2010][ref_spacex_press_dragon_c1_2010], the specific [CRS-1 mission of 2012][ref_spacex_press_crs1_2012], the specific [CRS-7 loss of 2015][ref_spacex_press_crs7_2015], and the specific [CRS-21 mission of 2020][ref_spacex_press_crs21_2020].
 
 ## Commercial Crew and the Fixed-Price Competition
 
@@ -289,7 +289,7 @@ $$b^{\ast}(t) = b^{\ast}\!\left( \sigma^2_{\text{cost}}(t) \right) \qquad \text{
 
 with the specific instrument tightening as the specific requirement becomes specifiable. The specific arrangement applies the specific high-powered instrument at the specific stage where the specific provider knows more than the specific agency and the specific specified instrument at the specific stage where the specific requirement is stable.
 
-The specific CCtCap awards were approximately 4.2 billion dollars to one specific provider and approximately 2.6 billion dollars to the specific second. The specific award structure is a specific fixed-price arrangement with specific milestone payments, so the specific incentive-power parameter sits near unity. The specific dual-award structure preserved the specific parallel-track property at the specific operational stage, and the specific price differential between the specific two awards admits the compact expression
+The specific CCtCap awards were approximately 4.2 billion dollars to one specific provider and approximately 2.6 billion dollars to the specific second, recorded in the specific [NASA Commercial Crew certification record][ref_nasa_ccp_certification]. The specific award structure is a specific fixed-price arrangement with specific milestone payments, so the specific incentive-power parameter sits near unity. The specific dual-award structure preserved the specific parallel-track property at the specific operational stage, and the specific price differential between the specific two awards admits the compact expression
 
 $$\frac{P^{\text{high}} - P^{\text{low}}}{P^{\text{low}}} \approx 0.6$$
 
@@ -299,7 +299,7 @@ which the specific agency accepted in exchange for the specific redundancy the s
 
 The specific comparison between the specific two Commercial Crew providers constitutes the specific clearest available natural experiment in the specific procurement literature, because the specific two providers executed a specific substantially identical requirement under a specific substantially identical instrument across a specific identical period.
 
-The specific outcome differed substantially. The specific one provider achieved the specific crewed demonstration flight in the specific May 2020 period. The specific other encountered a specific sequence of specific development difficulties including a specific uncrewed flight-test anomaly in the specific December 2019 period, a specific repeat uncrewed flight in the specific 2022 period, and specific propulsion difficulties during the specific crewed flight test of the specific June 2024 period.
+The specific outcome differed substantially. The specific one provider achieved the specific uncrewed demonstration flight of the specific [Demo-1 mission in March 2019][ref_spacex_press_demo1_2019], the specific crewed demonstration flight of the specific [Demo-2 mission in May 2020][ref_spacex_press_dm2_2020], and the specific first operational rotation of the specific [Crew-1 mission in November 2020][ref_spacex_press_crew1_2020]. The specific other encountered a specific sequence of specific development difficulties including a specific uncrewed flight-test anomaly in the specific December 2019 period, a specific repeat uncrewed flight in the specific 2022 period, and specific propulsion difficulties during the specific crewed flight test of the specific June 2024 period that the specific [Boeing Starliner programme record][ref_boeing_starliner_cft_2024] documents.
 
 The specific capital-formation significance is not the specific schedule difference but the specific cost incidence. Under the specific fixed-price instrument the specific overrun was borne by the specific provider and recorded as a specific charge against its specific earnings, rather than being reimbursed. The specific reported cumulative charges are substantial and are documented in the specific provider's specific public filings accessible through the specific [Securities and Exchange Commission EDGAR][ref_sec_edgar] system and summarized in the specific [Boeing press releases][ref_boeing_press]. The specific transfer admits the compact statement
 
@@ -321,7 +321,7 @@ with $W^{\text{provider}}$ the specific provider's specific capacity to absorb t
 
 The specific defense channel operated on a specific different principle from the specific civil channel and deserves separate treatment. The specific National Security Space Launch programme, formerly the specific Evolved Expendable Launch Vehicle programme, purchases specific launch services rather than funding specific development, and the specific channel therefore supplied substantially revenue rather than capital across most of its specific history. The specific record appears in the specific [Space Force National Security Space Launch][ref_space_force_nssl] framework documentation, the specific [Phase 1A award record][ref_space_force_nssl_phase1a_2018], the specific [Phase 2 award record][ref_space_force_nssl_phase2_2020], the specific [Phase 3 Lane 2 coverage][ref_spacenews_nssl_phase3], the specific [GAO 2023 National Security Space Launch evaluation][ref_gao_nssl_2023], and the specific [Space Force news][ref_space_force_news] and [Department of Defense contract announcements][ref_dod_contracts].
 
-The specific capital-formation content of the specific defense channel lies in a specific different place. The specific certification process itself is a specific substantial fixed investment that the specific provider must make and that the specific programme partially funds, and the specific certification once obtained is a specific durable asset that raises the specific provider's value independently of any specific specific mission awarded. The specific certification therefore functions as a specific capital contribution in kind rather than in cash, admitting the compact statement
+The specific launch infrastructure on which the specific certified missions depend is itself partly a specific government asset made available on specific negotiated terms, comprising the specific [Kennedy Space Center Launch Complex 39A arrangement][ref_ksc_lc39a_lease], the specific [Vandenberg environmental record][ref_vandenberg_slc4e_ea], and in the specific earliest period the specific [Kwajalein Atoll range documentation][ref_kwajalein_atoll_documentation]. The specific licensing regime under which the specific operations proceed is the specific [FAA commercial space transportation regulations][ref_faa_ast_regulations] and the specific [Part 450 licensing requirements][ref_faa_ast_licensing_regs_450], with the specific current authorizations recorded in the specific [FAA current launch licenses][ref_faa_launch_licenses_current]. The specific capital-formation content of the specific defense channel lies in a specific different place. The specific certification process itself is a specific substantial fixed investment that the specific provider must make and that the specific programme partially funds, and the specific certification once obtained is a specific durable asset that raises the specific provider's value independently of any specific specific mission awarded. The specific certification therefore functions as a specific capital contribution in kind rather than in cash, admitting the compact statement
 
 $$\Delta V^{\text{certification}} = \sum_{t} \frac{p^{\text{award}}(t) \cdot \pi^{\text{margin}}}{(1+\rho)^t} \; - \; C^{\text{certification}}$$
 
@@ -481,7 +481,7 @@ The specific programme record reaches the public substantially through [SpaceNew
 
 The contemporary landscape for the government-anchor capital-formation leg differs from the landscape for the forcing-function conditions, because the specific leg is available to any specific provider the specific agency selects and is therefore a specific policy variable rather than a specific firm attribute.
 
-The specific instrument has been extended substantially since the specific COTS period. The specific Human Landing System awards that the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], the specific [Option A award][ref_nasa_hls_option_a_2021], and the specific [sustaining award][ref_nasa_hls_sustainable_2023] record employ a specific comparable milestone structure at a specific substantially larger scale, and the specific evaluations at the specific [NASA Office of Inspector General 2021 HLS evaluation][ref_nasa_oig_hls_2021] and the specific [GAO 2022 HLS evaluation][ref_gao_hls_2022] apply the specific same analytical apparatus. The specific commercial low-Earth-orbit destinations programme and the specific commercial lunar payload arrangements extend it further. The specific broader agency posture appears in the specific [NASA commercial space documentation][ref_nasa_commercial_space].
+The specific instrument has been extended substantially since the specific COTS period. The specific Human Landing System awards that the specific [NASA Human Landing System program documentation][ref_nasa_hls_program], the specific [HLS solicitation][ref_nasa_hls_solicitation], the specific [Option A award][ref_nasa_hls_option_a_2021], the specific [Option B award][ref_nasa_hls_option_b_2022], and the specific [sustaining award][ref_nasa_hls_sustainable_2023] record employ a specific comparable milestone structure at a specific substantially larger scale, and the specific protest and litigation record at the specific [GAO 2021 protest decision][ref_gao_hls_bid_protest_2021] and the specific [United States Court of Federal Claims][ref_uscfc] record documents the specific contest the specific larger scale invited, and the specific evaluations at the specific [NASA Office of Inspector General 2021 HLS evaluation][ref_nasa_oig_hls_2021] and the specific [GAO 2022 HLS evaluation][ref_gao_hls_2022] apply the specific same analytical apparatus. The specific commercial low-Earth-orbit destinations programme and the specific commercial lunar payload arrangements extend it further. The specific broader agency posture appears in the specific [NASA commercial space documentation][ref_nasa_commercial_space].
 
 Blue Origin has received specific awards under the specific extended instrument including the specific sustaining lunar-lander award and the specific National Security Space Launch Phase 3 allocation, and its specific position illustrates a specific structural point. The specific instrument supplies specific capital to a specific provider that in that specific case did not require it, because the specific single-funder configuration the [Governance article A287][related_post_a287_spacex_governance] treats already supplied the specific development capital. The specific distinction admits the compact statement through the specific marginal effect of the specific award on the specific provider's specific capital constraint
 
@@ -523,7 +523,7 @@ The specific primary-source layer comprises the specific statutory, regulatory, 
 
 The specific secondary-source layer comprises the specific trade-press and specific evaluative literature identified above.
 
-The specific reconstruction methodology proceeds by taking the specific documented award and milestone record as the specific spine and using the specific secondary sources only for the specific private-side quantities the specific public record does not contain.
+The specific reconstruction methodology proceeds by taking the specific documented award and milestone record as the specific spine and using the specific secondary sources only for the specific private-side quantities the specific public record does not contain. The specific supporting technical and programme literature is accessible through the specific [NASA Technical Reports Server][ref_nasa_ntrs], and the specific provider's specific own announcements through the specific [SpaceX news archive][ref_spacex_news_archive] and the specific [SpaceX corporate site][ref_spacex_company].
 
 The specific empirical-record limitations are correspondingly narrower than elsewhere in the series and comprise the following. The specific provider's specific actual development costs are not public, so the specific relation between the specific milestone payments and the specific costs they defrayed is unknown. The specific private cost-share amounts are reported in aggregate rather than in detail. The specific classified portions of the specific defense relationship are not documented. The specific counterfactual cost estimates the specific agency published are model outputs whose specific calibration is not independently verifiable. The specific consequence is that the article can state with confidence what the specific government supplied and cannot state with confidence what it bought.
 
@@ -683,9 +683,11 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [Bloomberg][ref_bloomberg]
 - [Blue Origin Press Releases][ref_blue_origin_press]
 - [Boeing Press Releases][ref_boeing_press]
+- [Boeing Starliner Programme Record][ref_boeing_starliner_cft_2024]
 - [Breaking Defense][ref_breaking_defense]
 - [China Commercial Space Sector Coverage][ref_china_commercial_space]
 - [China National Space Administration][ref_chinese_space_program]
+- [Commercial Space Authority 51 USC 51302][ref_51_usc_51302_saa]
 - [Commercial Space Launch Act][ref_csla_1984]
 - [Commercial Space Launch Amendments Act of 2004][ref_csla_amendments_2004]
 - [Congressional Record][ref_congressional_record]
@@ -697,14 +699,21 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [Defense News][ref_defense_news]
 - [Department of Defense Contract Announcements][ref_dod_contracts]
 - [Department of Defense Other Transactions Resources][ref_dod_other_transactions]
+- [DOD Other Transaction Authority 10 USC 2371b][ref_10_usc_2371b]
+- [FAA 14 CFR Part 450 Launch and Reentry Licensing Requirements][ref_faa_ast_licensing_regs_450]
+- [FAA Commercial Space Transportation Regulations 14 CFR Chapter III][ref_faa_ast_regulations]
+- [FAA Current Launch Licenses][ref_faa_launch_licenses_current]
+- [Federal Acquisition Regulation Part 12 Acquisition of Commercial Products][ref_far_part_12]
 - [Federal Acquisition Regulation Part 15 Contracting by Negotiation][ref_far_part_15]
 - [Federal Acquisition Regulation Part 16 Types of Contracts][ref_far_part_16]
+- [Federal Acquisition Regulation Part 35 Research and Development Contracting][ref_far_part_35]
 - [Federal Procurement Data System][ref_fpds]
 - [GAO 2009 COTS Programme Evaluation][ref_gao_cots_2009]
 - [GAO 2011 Commercial Cargo Programme Evaluation][ref_gao_cots_2011]
 - [GAO 2014 Commercial Crew Programme Evaluation][ref_gao_2014_commercial_crew]
 - [GAO 2019 Commercial Crew Program Evaluation][ref_gao_ccp_2019]
 - [GAO 2020 Commercial Crew Programme Evaluation][ref_gao_2020_commercial_crew]
+- [GAO 2021 Human Landing System Protest Decision][ref_gao_hls_bid_protest_2021]
 - [GAO 2022 Human Landing System Evaluation][ref_gao_hls_2022]
 - [GAO 2023 National Security Space Launch Evaluation][ref_gao_nssl_2023]
 - [GAO Bid Protest Function][ref_gao_bid_protest]
@@ -715,20 +724,27 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [JAXA Press Releases][ref_jaxa_press]
 - [Journal of Public Procurement][ref_journal_public_procurement]
 - [Journal of Space Law][ref_journal_space_law]
+- [Kennedy Space Center Launch Complex 39A Arrangement][ref_ksc_lc39a_lease]
+- [Kwajalein Atoll Range Documentation][ref_kwajalein_atoll_documentation]
 - [NASA Authorization Act of 2010][ref_nasa_auth_2010]
 - [NASA Commercial Crew Certification Record][ref_nasa_ccp_certification]
 - [NASA Commercial Crew Program Documentation][ref_nasa_ccp_documents]
-- [NASA COTS Programme Literature][ref_nasa_cots_report]
+- [NASA Commercial Resupply Services Programme Overview][ref_nasa_crs_program_overview]
 - [NASA Commercial Space Documentation][ref_nasa_commercial_space]
-- [NASA Constellation Program Documentation][ref_nasa_constellation]
 - [NASA Commercial Space Documentation][ref_nasa_cots_solicitation_2006]
+- [NASA Constellation Program Documentation][ref_nasa_constellation]
+- [NASA COTS Programme History 2011][ref_nasa_cots_2011]
+- [NASA COTS Programme Literature][ref_nasa_cots_report]
 - [NASA CRS-2 Award Announcement January 2016][ref_nasa_crs2_press_2016]
 - [NASA FAR Supplement][ref_nasa_far_supplement]
 - [NASA History Archives][ref_nasa_history]
 - [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021]
+- [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022]
 - [NASA HLS Sustaining Lander Award 2023][ref_nasa_hls_sustainable_2023]
 - [NASA Human Landing System Program Documentation][ref_nasa_hls_program]
+- [NASA Human Landing System Solicitation][ref_nasa_hls_solicitation]
 - [NASA News Releases][ref_nasa_news]
+- [NASA NPR 7120.5 Programme and Project Management Requirements][ref_nasa_npr_7120_5f]
 - [NASA Office of Inspector General 2013 COTS Evaluation][ref_nasa_oig_cots_2013]
 - [NASA Office of Inspector General 2018 Commercial Cargo Evaluation][ref_nasa_oig_ccp_cargo_2018]
 - [NASA Office of Inspector General 2021 Human Landing System Evaluation][ref_nasa_oig_hls_2021]
@@ -736,6 +752,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [NASA Office of Inspector General Reports Database][ref_nasa_oig_reports]
 - [NASA Partnerships and Space Act Agreements][ref_nasa_partnerships]
 - [NASA Space Launch System Program Documentation][ref_nasa_sls_program]
+- [NASA Technical Reports Server][ref_nasa_ntrs]
 - [NASA X-33 and Reusable Launch Vehicle Literature][ref_ntrs_x33]
 - [NASASpaceflight][ref_nasaspaceflight]
 - [National Aeronautics and Space Act of 1958][ref_nasa_act_1958]
@@ -759,12 +776,25 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - [Space Policy Online][ref_space_policy_online]
 - [SpaceNews][ref_spacenews]
 - [SpaceNews National Security Space Launch Phase 3 Coverage][ref_spacenews_nssl_phase3]
+- [SpaceX Corporate Site][ref_spacex_company]
+- [SpaceX Crew-1 Operational Rotation 2020][ref_spacex_press_crew1_2020]
+- [SpaceX CRS-1 Mission 2012][ref_spacex_press_crs1_2012]
+- [SpaceX CRS-21 Mission 2020][ref_spacex_press_crs21_2020]
+- [SpaceX CRS-7 Mission Loss 2015][ref_spacex_press_crs7_2015]
+- [SpaceX Demo-1 Uncrewed Demonstration 2019][ref_spacex_press_demo1_2019]
+- [SpaceX Demo-2 Crewed Demonstration 2020][ref_spacex_press_dm2_2020]
+- [SpaceX Dragon C1 Demonstration 2010][ref_spacex_press_dragon_c1_2010]
+- [SpaceX News Archive][ref_spacex_news_archive]
 - [SpaceX Starshield Documentation][ref_spacex_starshield]
 - [The Space Review][ref_the_space_review]
 - [United Launch Alliance News][ref_ula_press]
+- [United Nations Liability Convention of 1972][ref_un_liability_convention_1972]
+- [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967]
+- [United Nations Registration Convention of 1976][ref_un_registration_convention_1976]
 - [United States Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015]
 - [United States Court of Federal Claims][ref_uscfc]
 - [USAspending Federal Award Data][ref_usaspending]
+- [Vandenberg Environmental Record][ref_vandenberg_slc4e_ea]
 - [Wall Street Journal Technology Coverage][ref_wsj]
 - [Washington Post Technology Coverage][ref_washington_post]
 
@@ -886,7 +916,9 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_yescombe_2007]: https://www.sciencedirect.com/book/9780750680547/public-private-partnerships
+[ref_10_usc_2371b]: https://www.law.cornell.edu/uscode/text/10/2371b
 [ref_51_usc_20113]: https://www.law.cornell.edu/uscode/text/51/20113
+[ref_51_usc_51302_saa]: https://www.law.cornell.edu/uscode/text/51/51302
 [ref_aiaa_jsr]: https://arc.aiaa.org/journal/jsr
 [ref_arianespace]: https://www.arianespace.com/
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
@@ -894,6 +926,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_bloomberg]: https://www.bloomberg.com/
 [ref_blue_origin_press]: https://www.blueorigin.com/news/
 [ref_boeing_press]: https://boeing.mediaroom.com/
+[ref_boeing_starliner_cft_2024]: https://www.boeing.com/space/starliner
 [ref_breaking_defense]: https://breakingdefense.com/
 [ref_china_commercial_space]: https://spacenews.com/topic/china/
 [ref_chinese_space_program]: https://www.cnsa.gov.cn/english/
@@ -907,8 +940,13 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_defense_news]: https://www.defensenews.com/
 [ref_dod_contracts]: https://www.defense.gov/News/Contracts/
 [ref_dod_other_transactions]: https://aida.mitre.org/ota/
+[ref_faa_ast_licensing_regs_450]: https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450
+[ref_faa_ast_regulations]: https://www.ecfr.gov/current/title-14/chapter-III
+[ref_faa_launch_licenses_current]: https://www.faa.gov/space/licenses
+[ref_far_part_12]: https://www.acquisition.gov/far/part-12
 [ref_far_part_15]: https://www.acquisition.gov/far/part-15
 [ref_far_part_16]: https://www.acquisition.gov/far/part-16
+[ref_far_part_35]: https://www.acquisition.gov/far/part-35
 [ref_fpds]: https://www.fpds.gov/
 [ref_gao_2014_commercial_crew]: https://www.gao.gov/products/gao-14-593
 [ref_gao_2020_commercial_crew]: https://www.gao.gov/products/gao-20-121
@@ -917,6 +955,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_gao_cots_2009]: https://www.gao.gov/products/gao-09-618
 [ref_gao_cots_2011]: https://www.gao.gov/products/gao-11-692t
 [ref_gao_hls_2022]: https://www.gao.gov/products/gao-22-105506
+[ref_gao_hls_bid_protest_2021]: https://www.gao.gov/products/b-419783
 [ref_gao_nssl_2023]: https://www.gao.gov/products/gao-23-105815
 [ref_gao_reports]: https://www.gao.gov/reports-testimonies
 [ref_heilmeier_catechism]: https://www.darpa.mil/about-us/heilmeier-catechism
@@ -926,21 +965,29 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_jaxa_press]: https://global.jaxa.jp/press/
 [ref_journal_public_procurement]: https://www.emerald.com/insight/publication/issn/1535-0118
 [ref_journal_space_law]: https://law.olemiss.edu/
+[ref_ksc_lc39a_lease]: https://www.nasa.gov/kennedy/
+[ref_kwajalein_atoll_documentation]: https://www.army.mil/usakwajalein
 [ref_nasa_act_1958]: https://history.nasa.gov/spaceact.html
 [ref_nasa_auth_2010]: https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf
 [ref_nasa_ccp_certification]: https://www.nasa.gov/commercialcrew
 [ref_nasa_ccp_documents]: https://www.nasa.gov/commercialcrew/
 [ref_nasa_commercial_space]: https://www.nasa.gov/commercial-space/
 [ref_nasa_constellation]: https://ntrs.nasa.gov/search?q=Constellation
+[ref_nasa_cots_2011]: https://ntrs.nasa.gov/citations/20120000953
 [ref_nasa_cots_report]: https://ntrs.nasa.gov/search?q=Commercial%20Orbital%20Transportation%20Services
 [ref_nasa_cots_solicitation_2006]: https://www.nasa.gov/humans-in-space/commercial-space/
 [ref_nasa_crs2_press_2016]: https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/
+[ref_nasa_crs_program_overview]: https://www.nasa.gov/commercial-resupply/
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
 [ref_nasa_history]: https://history.nasa.gov/
 [ref_nasa_hls_option_a_2021]: https://www.nasa.gov/press-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/press-release/nasa-awards-spacex-second-contract-option-for-artemis-moon-landing/
 [ref_nasa_hls_program]: https://www.nasa.gov/humans-in-space/human-landing-system/
+[ref_nasa_hls_solicitation]: https://sam.gov/opp/human-landing-system/
 [ref_nasa_hls_sustainable_2023]: https://www.nasa.gov/press-release/nasa-selects-blue-origin-as-second-artemis-lunar-lander-provider/
 [ref_nasa_news]: https://www.nasa.gov/news/
+[ref_nasa_npr_7120_5f]: https://nodis3.gsfc.nasa.gov/npg_img/N_PR_7120_005F_/N_PR_7120_005F_.pdf
+[ref_nasa_ntrs]: https://ntrs.nasa.gov/
 [ref_nasa_oig_artemis_2022]: https://oig.nasa.gov/docs/IG-22-003.pdf
 [ref_nasa_oig_ccp_cargo_2018]: https://oig.nasa.gov/docs/IG-18-016.pdf
 [ref_nasa_oig_cots_2013]: https://oig.nasa.gov/docs/IG-13-016.pdf
@@ -969,12 +1016,25 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_space_policy_online]: https://spacepolicyonline.com/
 [ref_spacenews]: https://spacenews.com/
 [ref_spacenews_nssl_phase3]: https://spacenews.com/?s=NSSL+Phase+3
+[ref_spacex_company]: https://www.spacex.com/
+[ref_spacex_news_archive]: https://www.spacex.com/updates/
+[ref_spacex_press_crew1_2020]: https://www.spacex.com/updates/
+[ref_spacex_press_crs1_2012]: https://www.spacex.com/updates/
+[ref_spacex_press_crs21_2020]: https://www.spacex.com/updates/
+[ref_spacex_press_crs7_2015]: https://www.spacex.com/updates/
+[ref_spacex_press_demo1_2019]: https://www.spacex.com/updates/
+[ref_spacex_press_dm2_2020]: https://www.spacex.com/updates/dm-2-launch-crewed-flight/
+[ref_spacex_press_dragon_c1_2010]: https://www.spacex.com/updates/
 [ref_spacex_starshield]: https://www.spacex.com/starshield/
 [ref_the_space_review]: https://www.thespacereview.com/
 [ref_ula_press]: https://www.ulalaunch.com/about/news
+[ref_un_liability_convention_1972]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html
+[ref_un_outer_space_treaty_1967]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
+[ref_un_registration_convention_1976]: https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html
 [ref_usaspending]: https://www.usaspending.gov/
 [ref_uscfc]: https://www.uscfc.uscourts.gov/
 [ref_uscsla_2015]: https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf
+[ref_vandenberg_slc4e_ea]: https://www.faa.gov/space/environmental
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/
 [ref_wsj]: https://www.wsj.com/tech
 [research_aghion_howitt_1992]: https://www.jstor.org/stable/2951599
