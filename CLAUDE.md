@@ -84,6 +84,20 @@ The AI agent commits once after all tasks in a prompt are complete, including th
 
 ## Session Startup Protocol
 
-1. Read [`_docs/process/TASKLOG.md`](_docs/process/TASKLOG.md) for current task state.
-2. Read [`_docs/process/REVERSE_PROMPT.md`](_docs/process/REVERSE_PROMPT.md) for last AI communication.
-3. Wait for human prompt before proceeding.
+1. Read [`_docs/process/HANDOFF.md`](_docs/process/HANDOFF.md) and run its validity check, comparing its recorded parent commit to `git rev-parse HEAD~1`. Report it as valid, or as invalid-and-stale on a mismatch, per its Validity section. A stale handoff must not be trusted.
+2. Read [`_docs/process/TASKLOG.md`](_docs/process/TASKLOG.md) for current task state.
+3. Read [`_docs/process/REVERSE_PROMPT.md`](_docs/process/REVERSE_PROMPT.md) for last AI communication.
+4. Wait for human prompt before proceeding.
+
+## Compact Instructions
+
+When compacting this conversation, automatically or via `/compact`, preserve the following so a post-compaction turn resumes without loss. Prefer pointers to the on-disk source of truth over prose, since those files are authoritative and current while the summary is a convenience.
+
+- **The handoff prompt** [`_docs/process/HANDOFF.md`](_docs/process/HANDOFF.md), the self-contained imperative resume prompt. It is overwritten before a planned compaction and stamped with the commit it describes. On resume, validate it by comparing its recorded parent commit to `git rev-parse HEAD~1`, and report it invalid-and-stale on a mismatch rather than trusting it.
+- **The resume channels**, plus the instruction to re-read them fresh after compaction: [`_docs/process/REVERSE_PROMPT.md`](_docs/process/REVERSE_PROMPT.md) for the latest AI-to-human report, [`_docs/process/TASKLOG.md`](_docs/process/TASKLOG.md) for current task state and the history table, and [`_drafts/draft_summary.md`](_drafts/draft_summary.md) for per-draft status.
+- **The active article and its stage.** Which article number is in progress, which of the four passes it has completed, and its editorial date. Do not re-derive what the process files already record.
+- **Git position.** Branch, head commit, whether anything is unpushed, and any uncommitted work with its verification status.
+- **In-flight verification.** Any running build, URL sweep, or background job, and what its result gates.
+- **The governing rules that are easy to lose**: the `post_url` build-failure interlock and the back-reference-only convention, the two-commit publication pattern, build verification in a Gemfile-free scratch copy before any publishing push, the prose style rules, that density conventions are absolute counts rather than ratios, that an HTTP 200 does not verify a citation, and that irreversible or outward-facing actions need confirmation.
+
+After compaction, before acting, validate `HANDOFF.md` and re-read the resume channels. They and the git state are the true resume anchors.

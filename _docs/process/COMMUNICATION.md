@@ -13,6 +13,11 @@ Three working documents maintain state across AI sessions and enable asynchronou
 | [PROMPT.md](./PROMPT.md) | Human to AI | Committed to preserve prompt history |
 | [REVERSE_PROMPT.md](./REVERSE_PROMPT.md) | AI to Human | Overwritten after each completed task |
 | [TASKLOG.md](./TASKLOG.md) | Shared | Updated incrementally as tasks complete |
+| [HANDOFF.md](./HANDOFF.md) | AI to AI | Overwritten before a planned compaction, stamped with the commit it describes |
+
+## Handoff Prompt (AI to AI)
+
+`HANDOFF.md` is the post-compaction continuity channel and is the one file here that is deliberately **not** kept current. It is a snapshot stamped with the commit it describes, so a stale handoff self-reports as stale rather than misleading a resuming agent. On resume, compare its recorded parent commit to `git rev-parse HEAD~1`; a mismatch means it is invalid and the live channels govern instead. See [`HANDOFF.md`](./HANDOFF.md) for the full protocol and for how to write a new one.
 
 ## Forward Prompt (Human to AI)
 
