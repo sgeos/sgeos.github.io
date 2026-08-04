@@ -112,7 +112,11 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache/downloads
-          key: downloads-v1-${{ github.sha }}
+          # Keyed on the post sources and the generator, not the commit SHA.
+          # Keying on the SHA saved a fresh copy of the whole cache on every
+          # deploy, churning the repository cache budget for no benefit; an
+          # unchanged corpus now hits the existing entry and re-saves nothing.
+          key: downloads-v1-${{ hashFiles('_posts/**', '_downloads.rb') }}
           restore-keys: |
             downloads-v1-
 
