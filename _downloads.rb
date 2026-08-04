@@ -89,9 +89,38 @@ def preprocess(body, url_map)
   body = body.gsub(/\{%\s*post_url\s+([\w-]+)\s*%\}/) do
     url_map[$1] || '#'
   end
+  # Convert Jekyll highlight blocks into fenced code BEFORE stripping Liquid.
+  #
+  # Stripping the tags and leaving the code behind turned every such block into
+  # ordinary paragraph text, so pandoc typographed it: straight quotes in
+  # `printf("Hello, World!")` became curly quotes, and braces, backslashes and
+  # dollar signs reached LaTeX unescaped. That produced "Undefined control
+  # sequence" and killed the PDF for 36 posts, all of them from the era when
+  # this blog used {% highlight %} rather than backtick fences.
+  #
+  # Order matters: this must run before the generic Liquid strip below, which
+  # would otherwise remove the delimiters and leave the code exposed.
+  body = body.gsub(
+    /\{%\s*highlight\s+(\S+)[^%]*%\}\r?\n?(.*?)\r?\n?\s*\{%\s*endhighlight\s*%\}/m
+  ) do
+    lang = Regexp.last_match(1)
+    code = Regexp.last_match(2)
+    "\n\n```#{lang}\n#{code}\n```\n\n"
+  end
+
+  # {% raw %} blocks wrap literal text; keep the contents, drop the markers.
+  body = body.gsub(/\{%\s*raw\s*%\}(.*?)\{%\s*endraw\s*%\}/m) { Regexp.last_match(1) }
+
   # Strip remaining Liquid statements and expressions.
   body = body.gsub(/\{%[\s\S]*?%\}/, '')
   body = body.gsub(/\{\{[\s\S]*?\}\}/, '')
+  # Point site-absolute asset references at the built site on disk.
+  #
+  # Markdown carries these as `/assets/...`, which is correct for the web but
+  # reads as a filesystem absolute path to pandoc, so every image silently
+  # failed to resolve and the PDF and EPUB shipped without it.
+  body = body.gsub(%r{(\]\(|src=["'])/assets/}) { "#{Regexp.last_match(1)}#{SITE_DIR}/assets/" }
+
   # Strip inline debug scripts and HTML comments.
   body = body.gsub(/<script[\s\S]*?<\/script>/i, '')
   body = body.gsub(/<!--[\s\S]*?-->/, '')
