@@ -16,23 +16,23 @@ The goal was to create a sphere with one parameter.
 This is a parametric equation for a single parameter "spiral" sphere.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\cos {c^0 t}\right) \\
 \notag t & \in \mathbb{R}, 0 \le t \le 2 \pi \\
 \notag c & \in \mathbb{R}, 1 \le c \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 This version gives a "beachball" sphere.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^1 t}\right) \left(\sin {c^0 t}\right) \\
 \notag y & = \left(\sin {c^1 t}\right) \left(\cos {c^0 t}\right) \\
 \notag z & = \left(\cos {c^1 t}\right) \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 $\bbox[cyan] {x = \sin t, y = \cos t}$ is the parametric equation for a circle.
@@ -56,28 +56,28 @@ and the "beachball" rotates a circle around the z axis.
 The following equation is a solid 2D circle when $c$ is $\infty$.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 One of these is probably the equation for a solid sphere.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^2 t}\right) \left(\cos {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^2 t}\right) \\
 \notag z & = \left(\sin {c^1 t}\right) \left(\cos {c^0 t}\right) \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \left(\sin {c^2 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \left(\cos {c^2 t}\right) \\
 \notag z & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 A circle is formed in the xy, xy and yz planes.
@@ -91,92 +91,92 @@ $\bbox[cyan] {\star}$ is used to indicate modifications to the spiral sphere.
 An hourglass.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\sin {c^0 t}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 Rounded hourglass.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\cos {\frac {c^0 t} {2}}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 An hourglass from one directection and a circle from the other two.
 $cos$ or $sin$ can be used for $z$.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\cos {c^1 t}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 A tornado.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = 2 \left|\sin {c^0 t}\right| - 1 & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 Top or turnip.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = 2 \left(\sin {\frac {c^0 t} {2}}\right) - 1 & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 This spirals up from the inside center, down around the outside, and then in up through the center.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\sin {2 c^0 t}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 This spirals down from the center and up around the outside instead.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = -\left(\sin {2 c^0 t}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 A tall rounded hill.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\sin {c^0 t}\right) \left(\cos {c^1 t}\right) \\
 \notag z & = \left(\cos {2 c^0 t}\right) & \bbox[cyan] {\star} \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 This strange shape is round when plotted in xz, a square in xy, and an hourglass in yz.
 
 $$
-\begin{align}
+\begin{aligned}
 x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \notag y & = \left(\cos {c^0 t}\right) \left(\cos {c^1 t}\right) & \bbox[cyan] {\star} \\
 \notag z & = \left(\cos {c^0 t}\right) \\
-\end{align} \\
+\end{aligned} \\
 $$
 
 ## Links:
