@@ -6,7 +6,7 @@ title: "Wire Formats: Implementation Tradeoffs"
 date: 2026-01-28 09:00:00 +0000
 categories: engineering protocols computing
 series: wire_formats
-series_title: "Wire Formats"
+series_title: Wire Formats
 series_index: 2
 ---
 
