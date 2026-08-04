@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Serving a Web Page with ION-DTN bpsendfile and bprecvfile"
-date:   2016-02-18 07:12:10 +0900
+date: 2016-02-17 22:12:10 +0000
 categories: freebsd ion dtn
 ---
 

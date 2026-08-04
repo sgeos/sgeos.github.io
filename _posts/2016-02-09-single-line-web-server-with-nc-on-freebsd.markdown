@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Single Line Web Server With nc on FreeBSD"
-date:   2016-02-07 02:27:30 +0900
+date: 2016-02-09 17:27:30 +0000
 categories: freebsd nc
 ---
 

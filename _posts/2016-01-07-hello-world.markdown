@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Hello, World!"
-date:   2016-01-08 02:49:39 +0900
+date: 2016-01-07 17:49:39 +0000
 categories: test
 ---
 

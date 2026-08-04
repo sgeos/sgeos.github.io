@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "npm, Adding a CC0 License to package.json"
-date:   2016-02-03 04:05:29 +0900
+date: 2016-02-02 19:05:29 +0000
 categories: npm
 ---
 

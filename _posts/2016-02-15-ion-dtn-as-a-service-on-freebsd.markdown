@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "ION DTN as a Service on FreeBSD"
-date:   2016-02-16 06:36:10 +0900
+date: 2016-02-15 21:36:10 +0000
 categories: freebsd ion dtn
 ---
 
