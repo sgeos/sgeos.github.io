@@ -128,7 +128,7 @@ $$
 \end{aligned}
 $$
 
-Cofunction identities.  All take the form $ \operatorname{f} \left( \frac {\pi} {2} - {\phi} \right) = \operatorname{cof} {\phi}$ and vice versa.
+Cofunction identities.  All take the form $\operatorname{f} \left( \frac {\pi} {2} - {\phi} \right) = \operatorname{cof} {\phi}$ and vice versa.
 
 $$
 \begin{aligned}
