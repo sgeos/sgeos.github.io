@@ -13,7 +13,7 @@ categories: phoenix elixir git
 This is a good thing.
 The problem is that when a repository is cloned, **prod.secret.exs** is missing.
 The file can usually be copied over, but this is a hassle when possible.
-I'm sure there are people out there who can type up a new **prod.secret.exs** from scratch.
+I am sure there are people out there who can type up a new **prod.secret.exs** from scratch.
 I want an easier path.
 
 This post covers adding a **prod.secret.exs.example** file to a project.

@@ -1,0 +1,80 @@
+# Documented exemptions for _verify.py.
+#
+# A warning nobody ever acts on becomes noise, and noise is how the original
+# `specific` problem stayed invisible for months. So every warning should either
+# be fixed or recorded here with a reason. An entry is a claim that the flag is
+# a false positive for a stated cause, and it is auditable precisely because the
+# cause is written down.
+#
+# `post` is matched as a substring of the filename, so a series can be exempted
+# with one entry. `check` is the check name reported by _verify.py.
+
+word-frequency:
+  - post: machines_that_learn_from_experience
+    word: framework
+    reason: >
+      A twelve-article survey OF learning frameworks. Measured 2026-08-05: 1379
+      modified phrases naming distinct technical frameworks, such as
+      "reinforcement learning framework" and "predictive coding framework",
+      against 149 bare uses. Pushing the count lower means substituting
+      synonyms into technical terms.
+
+  - post: ethnoreligion_and_american_political_economy
+    word: framework
+    reason: >
+      The series argues from an explicit analytical framework and names it
+      repeatedly by design. Remediated on 2026-08-05 for the formulaic uses;
+      what remains is the load-bearing term.
+
+  - post: storing-elixir-release-configuration
+    word: configuration
+    reason: Release configuration is the subject of the article, and its title.
+
+  - post: virtual_reputation_manipulation
+    word: framework
+    reason: >
+      The series builds and names a detection framework. Reduced on 2026-08-05
+      from the formulaic openers; the residue is the subject matter.
+
+  - post: rocket_propellant_chemistry
+    word: specific
+    reason: >
+      `specific impulse` is the articles' core measure. 201 of roughly 222 uses
+      are that term. Verified 2026-08-05.
+
+  - post: side_scrolling_with_parallax_layers
+    word: factor
+    reason: >
+      `scroll factor` is a term the article defines and then uses throughout.
+      Recorded in the 2026-08-05 word-pass exclusion table.
+
+  - post: structures_and_the_flight_envelope
+    word: factor
+    reason: >
+      `load factor` is a defined aerodynamic term and the article's subject.
+
+  - post: operator_training_and_certification
+    word: typically
+    reason: >
+      The article makes hedged claims about typical practice, so the hedge is
+      load-bearing rather than filler.
+
+  - post: axonometric_projection
+    word: factor
+    reason: Projection factors are the article's subject.
+
+  - post: sprite_scaling
+    word: factor
+    reason: Scaling factor is a defined term.
+
+  - post: context_engineering
+    word: configuration
+    reason: >
+      Context-window configuration is the article's subject; `context` itself
+      was already excluded on the same grounds.
+
+style-contraction:
+  - post: virtual_reputation_manipulation_competitor_attack
+    reason: >
+      "You Can't Stay Here" is the title of the Chandrasekharan et al 2017
+      paper, cited in prose rather than inside quotation marks.

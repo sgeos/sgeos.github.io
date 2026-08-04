@@ -60,7 +60,7 @@ $ ls $ANDROID_SDK/build-tools/
 ## Instructions
 
 The first thing I did was download the latest version of [IntelliJ IDEA EAP][idea-eap-16].
-I'm not afraid of using software that is not necessarily "stable".
+I am not afraid of using software that is not necessarily "stable".
 The next thing I did, was use the `android` command to update Android SDK components.
 
 After the setup, I worked through the [guide][kotlin-android] on the Kotlin site.

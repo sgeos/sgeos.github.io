@@ -14,7 +14,7 @@ gem "jekyll", "~> 4.3"
 # site's existing SCSS. Both are the versions verified to build the site
 # with correct Keleusma highlighting.
 gem "rouge", "~> 3.30"
-gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-sass-converter", "~> 3.0"
 
 # Plugins the stock github-pages build used to auto-enable. Only the ones
 # that produce artifacts this site relies on are kept.

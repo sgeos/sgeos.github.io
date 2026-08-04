@@ -14,6 +14,13 @@ description: > # this means to ignore newlines until "baseurl:"
   A personal technical notebook covering systems programming,
   systems philosophy, tooling, mathematics, and emerging software paradigms.
 baseurl: "" # the subpath of your site, e.g. /blog
+
+# Default social preview image, used for og:image and twitter:image on every
+# page that does not set its own `image:` in front matter. Leave unset and both
+# tags are omitted, which previews better than pointing at a missing or tiny
+# image. Supply a 1200x630 asset, for example /assets/image/social-card.png,
+# then set the path here.
+# og_image: /assets/image/social-card.png
 url: "https://sgeos.github.io" # the base hostname & protocol for your site
 twitter_username: brendan_sechter
 github_username:  sgeos

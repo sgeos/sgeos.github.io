@@ -1,0 +1,27 @@
+#!/bin/sh
+# pre-push: run the corpus invariant checks before anything reaches the remote.
+#
+# _verify.py takes about three seconds. A CI rejection takes about seventeen
+# minutes, because the deploy installs a TeX toolchain and regenerates
+# downloads. Catching a defect here is worth the three seconds.
+#
+# Enable once per clone:
+#     git config core.hooksPath _hooks
+#
+# Bypass for a single push when you know better:
+#     git push --no-verify
+
+if ! command -v python3 > /dev/null 2>&1; then
+    printf '%s\n' "pre-push: python3 not found, skipping corpus checks." >&2
+    exit 0
+fi
+
+printf '%s\n' "pre-push: verifying corpus invariants..."
+if ! python3 "$(git rev-parse --show-toplevel)/_verify.py" --quiet; then
+    printf '%s\n' "" >&2
+    printf '%s\n' "pre-push: corpus checks FAILED. Push aborted." >&2
+    printf '%s\n' "Fix the errors above, or push with --no-verify to override." >&2
+    exit 1
+fi
+printf '%s\n' "pre-push: corpus checks passed."
+exit 0
