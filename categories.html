@@ -17,7 +17,7 @@ hide_from_nav: true
       {% assign category_name = category | first %}
       {% assign category_posts = category | last %}
       <li>
-        <a href="{{ '/categories/' | prepend: site.baseurl | append: category_name | append: '/' }}">
+        <a href="{{ category_name | slugify | prepend: '/categories/' | prepend: site.baseurl | append: '/' }}">
           <span class="category-name">{{ category_name }}</span>
           <span class="category-count">{{ category_posts | size }}</span>
         </a>
