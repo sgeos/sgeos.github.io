@@ -103,6 +103,8 @@ and the total text size is $k \bar{c}$. A compressed encoding reduces $\bar{c}$,
 
 Virtual machine encodings make the wire-format character explicit, because the bytes genuinely travel. WebAssembly, specified by the [W3C WebAssembly Core Specification][ref_wasm_spec], is a binary instruction encoding designed to be transmitted over a network, validated on arrival, and executed. It carries an explicit type section so that a consumer can check the module before running it, which is precisely the schema-versus-self-description question in another guise. The corpus demonstrates delivering such a module in [WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll].
 
+A bytecode designed for verification makes the wire-format character explicit in a different way. The Keleusma project treats its bytecode as a versioned artifact with a stated compatibility boundary rather than as an implementation detail, described in [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting], with the surface language introduced in [Getting Started with Keleusma 0.1.1][related_post_keleusma_getting_started]. Attaching a version number to an instruction stream is the same discipline the interchange family arrived at independently, reached from the opposite direction.
+
 Blockchain instruction encodings share the same shape with an additional constraint. A transaction is an instruction stream that must be interpreted identically by every participant, since disagreement is a consensus failure rather than a bug in one implementation. That requirement forces canonical encoding, which the companion article treats as a general concern. The corpus covers the practical side in [Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor].
 
 ## What the Three Families Share
@@ -110,6 +112,8 @@ Blockchain instruction encodings share the same shape with an additional constra
 Set side by side, the same questions recur.
 
 Every family must decide where the schema lives, whether inline with the data, distributed out of band, or fixed by a standard. Every family must decide how a reader knows where a unit ends, whether by length prefix, delimiter, fixed width, or derivation from content. Every family must decide what a reader does with something it does not recognise, whether it skips it, fails, or refuses to proceed. Every family must decide how much it will pay in bytes for the ability to inspect the representation without special tooling. Every family must decide whether two encoders given the same value are required to produce the same bytes.
+
+How much structure a format exposes to a machine rather than to a human is the same question the hypermedia literature asks of markup, where link typing and machine-readable structure are exactly the axes on which a format either supports automated processing or forces the reader to guess. That comparison is developed in [Deficiencies of the HTML Hypermedia Model][related_post_html_hypermedia].
 
 The vocabulary differs. An interchange format has fields and a schema, a protocol has frames and a specification, an architecture has instructions and an instruction set manual. The decisions are the same decisions, and an engineer who has made them carefully in one family has most of what is needed to reason about another.
 
@@ -167,9 +171,12 @@ The families were developed by different communities with different vocabularies
 - [RISC-V Unprivileged Specification][ref_riscv_spec]
 - [W3C WebAssembly Core Specification][ref_wasm_spec]
 - [Related Post, Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat]
+- [Related Post, Deficiencies of the HTML Hypermedia Model][related_post_html_hypermedia]
 - [Related Post, Getting Started with ION-DTN 3.4.0 on FreeBSD][related_post_ion_dtn_getting_started]
+- [Related Post, Getting Started with Keleusma 0.1.1][related_post_keleusma_getting_started]
 - [Related Post, Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor]
 - [Related Post, Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started]
+- [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
 - [Related Post, Serving a Web Page with ION-DTN bpsendfile and bprecvfile][related_post_ion_dtn_serving]
 - [Related Post, UNIX ARM Assembler on Android][related_post_unix_arm_assembler]
 - [Related Post, WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll]
@@ -192,9 +199,12 @@ The families were developed by different communities with different vocabularies
 [ref_rfc9171]: https://www.rfc-editor.org/rfc/rfc9171
 [ref_riscv_spec]: https://riscv.org/technical/specifications/
 [ref_wasm_spec]: https://www.w3.org/TR/wasm-core-2/
+[related_post_html_hypermedia]: {% post_url 2026-03-07-html_hypermedia_deficiencies %}
 [related_post_ion_dtn_bpchat]: {% post_url 2016-02-12-almost-serving-a-web-page-with-ion-dtn-bpchat %}
 [related_post_ion_dtn_getting_started]: {% post_url 2016-02-07-getting-started-with-ion-dtn-3-4-0-on-freebsd %}
 [related_post_ion_dtn_serving]: {% post_url 2016-02-17-serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile %}
+[related_post_keleusma_getting_started]: {% post_url 2026-03-14-keleusma_getting_started %}
+[related_post_keleusma_self_hosting]: {% post_url 2026-07-12-keleusma_self_hosting_strategy %}
 [related_post_no_std_rust_bin_lib]: {% post_url 2022-10-06-no_std_rust_with_bin_and_lib %}
 [related_post_no_std_rust_getting_started]: {% post_url 2026-01-16-no_std_rust_getting_started %}
 [related_post_solana_anchor]: {% post_url 2025-12-17-solana_with_rust_and_anchor_getting_started %}
