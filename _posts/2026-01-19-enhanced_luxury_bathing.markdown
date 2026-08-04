@@ -952,7 +952,7 @@ The sustainability question asks whether the large water and energy commitments 
 [research_stevens_thermalism]: https://doi.org/10.1080/24721735.2018.1432451
 [research_takeda_gut_microbiota]: https://doi.org/10.1038/s41598-024-52895-7
 [research_tipton_2017_cold]: https://pubmed.ncbi.nlm.nih.gov/28833689/
-[research_tomlin_curses_sulis]: https://doi.org/10.1017/s1047759400011314
+[research_tomlin_curses_sulis]: https://doi.org/10.1002/9781444338386.wbeah17428
 [research_trumper_stabian]: https://www.academia.edu/49183462/
 [research_ukai_tub_bathing]: https://doi.org/10.1136/heartjnl-2019-315752
 [research_verhagen_2015_balneotherapy]: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000518.pub2/abstract

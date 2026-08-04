@@ -2700,7 +2700,7 @@ the topics discussed in this article.
 - [Analysis of Problems in Dynamics by Electronic Circuits (Proceedings of the IRE), Ragazzini, Randall, and Russell, 1947][research_ragazzini]
 - [Lifetimes of Interstellar Dust from Cosmic Ray Exposure Ages of Presolar Silicon Carbide (PNAS), Heck et al., 2020][research_heck]
 - [Near-Term Self-Replicating Probes: A Concept Design (Acta Astronautica), Borgue and Hein, 2021][research_borgue]
-- [Radiation-Resistant MEMS Logic Gates (Sensors and Actuators), Tabib-Azar, Chowdhury, and Saab, 2012][research_tabib_azar]
+- [MEMS-Based XOR and AND Logic Gates for LSI Mechanical Processors, Chowdhury, Han, Saab, and Tabib-Azar, 2012][research_tabib_azar]
 - [The Inherent Adversarial Robustness of Analog In-Memory Computing (Nature Communications), Lammie et al., 2025][research_lammie]
 
 [future_campbell_kelly]: https://en.wikipedia.org/wiki/Computing:_A_Concise_History
@@ -2781,6 +2781,6 @@ the topics discussed in this article.
 [research_lammie]: https://doi.org/10.1038/s41467-025-56595-2
 [research_metzger]: https://doi.org/10.1061/(ASCE)AS.1943-5525.0000236
 [research_nasa_aasm]: https://ntrs.nasa.gov/citations/19830007077
-[research_ragazzini]: https://doi.org/10.1109/JRPROC.1947.226503
-[research_tabib_azar]: https://doi.org/10.1016/j.sna.2012.02.028
+[research_ragazzini]: https://doi.org/10.1109/jrproc.1947.232616
+[research_tabib_azar]: https://doi.org/10.31438/trf.hh2012.110
 [research_von_neumann_automata]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf

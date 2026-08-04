@@ -176,5 +176,5 @@ The sixth article of the series treats Soviet forced industrialization, the soci
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [research_bassino_japan_divergence]: https://doi.org/10.1016/j.eeh.2018.11.005
 [research_bassino_ma_wages]: https://www.sciencedirect.com/science/article/pii/S036332680523006X
-[research_kohli_korea]: https://doi.org/10.1016/0305-750X(94)90007-8
+[research_kohli_korea]: https://doi.org/10.1016/0305-750x(94)90004-3
 [research_squicciarini_voigtlander_human_capital]: https://doi.org/10.1093/qje/qjv025

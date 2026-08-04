@@ -2817,7 +2817,7 @@ reaches ours.
 [research_freitas]: https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract
 [research_frisbee]: https://doi.org/10.2514/6.2003-4676
 [research_griffith_ghat]: https://arxiv.org/abs/1504.03418
-[research_hair_hedman]: https://doi.org/10.1017/S1473550412000316
+[research_hair_hedman]: https://doi.org/10.1017/s1473550412000420
 [research_hanson_grabby]: https://arxiv.org/abs/2102.01522
 [research_haqq_misra]: https://arxiv.org/abs/0906.0568
 [research_heller_hippke]: https://arxiv.org/abs/1701.08803

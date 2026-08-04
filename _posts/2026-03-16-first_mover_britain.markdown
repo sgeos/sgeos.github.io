@@ -232,15 +232,15 @@ The subsequent ten articles of the series treat later industrialization waves. E
 [book_williams_capitalism_slavery]: https://uncpress.org/book/9781469663685/capitalism-and-slavery/
 [book_wrigley_energy]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-history/energy-and-english-industrial-revolution
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
-[research_allen_spinning_jenny]: https://doi.org/10.1017/S0022050709001004
-[research_clark_jacks_coal]: https://doi.org/10.1017/S1361491607001967
-[research_crafts_harley_restatement]: https://doi.org/10.1111/j.1468-0289.1992.tb01311.x
-[research_cuenca_esteban_india]: https://doi.org/10.1016/j.eeh.2006.02.001
+[research_allen_spinning_jenny]: https://doi.org/10.1017/s0022050709001326
+[research_clark_jacks_coal]: https://doi.org/10.1017/s1361491606001870
+[research_crafts_harley_restatement]: https://doi.org/10.2307/2597415
+[research_cuenca_esteban_india]: https://doi.org/10.1016/j.eeh.2005.10.007
 [research_eichengreen_flandreau_dollar]: https://doi.org/10.1017/S1361491609990153
 [research_feinstein_pessimism]: https://doi.org/10.1017/S0022050700021100
 [research_karaman_pamuk_modern_state]: https://doi.org/10.1017/S0003055413000312
 [research_north_weingast_constitutions]: https://doi.org/10.1017/S0022050700009451
 [research_nunn_slave_trades]: https://doi.org/10.1162/qjec.2008.123.1.139
-[research_obrien_british_taxation]: https://doi.org/10.2307/2596483
-[research_sussman_yafeh_reforms]: https://doi.org/10.1017/S0022050706000350
+[research_obrien_british_taxation]: https://doi.org/10.2307/2597330
+[research_sussman_yafeh_reforms]: https://doi.org/10.1017/s0022050706000374
 [research_wright_slavery]: https://doi.org/10.1111/ehr.12962

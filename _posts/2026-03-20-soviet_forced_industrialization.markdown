@@ -173,7 +173,7 @@ The seventh article of the series treats postwar Japan and West Germany, the two
 [related_post_continental_followers]: {% post_url 2026-03-17-continental_european_followers %}
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [related_post_meiji_japan]: {% post_url 2026-03-19-meiji_japan %}
-[research_cheremukhin_stalin]: https://doi.org/10.1086/692226
+[research_cheremukhin_stalin]: https://doi.org/10.3386/w19425
 [research_easterly_fischer_decline]: https://doi.org/10.1093/wber/9.3.341
 [research_harrison_khanin]: https://doi.org/10.1080/09668139308412073
 [research_naumenko_ukrainian_famine]: https://doi.org/10.1017/S0022050720000625

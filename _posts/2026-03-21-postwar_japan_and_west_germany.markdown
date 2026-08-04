@@ -174,5 +174,5 @@ The 2020s pressure on the American security-commitment framework that both Germa
 [related_post_meiji_japan]: {% post_url 2026-03-19-meiji_japan %}
 [related_post_soviet_forced_industrialization]: {% post_url 2026-03-20-soviet_forced_industrialization %}
 [research_delong_eichengreen_marshall]: https://www.nber.org/papers/w3899
-[research_eichengreen_ritschl_west_germany]: https://doi.org/10.1007/s11698-008-0031-y
+[research_eichengreen_ritschl_west_germany]: https://doi.org/10.1007/s11698-008-0035-7
 [research_hoshi_kashyap_banking]: https://doi.org/10.1257/089533004773563412
