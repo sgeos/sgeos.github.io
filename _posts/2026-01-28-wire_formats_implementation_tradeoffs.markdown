@@ -75,6 +75,8 @@ The permissive position skips the unknown and continues. Protocol Buffers achiev
 
 The strict position rejects anything unrecognised. This is correct where the reader must fully understand a message to act safely on it, and it is the right default in consensus systems, where a participant that silently ignores part of a transaction may compute a different result from its peers and cause a chain split rather than a local bug.
 
+The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost rather than removing it and that divergent implementations become a maintenance and security burden.
+
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
 Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. Write $\operatorname{dec}_R$ for the reader's decode function and $\operatorname{enc}_W$ for the writer's encode function, and let $\preceq$ order schema versions. Backward compatibility is the requirement
@@ -135,7 +137,7 @@ Instruction encodings face the identical calculation with different units. A com
 
 Byte order and alignment are the oldest portability hazards in the field and the ones most often assumed away.
 
-A format that fixes byte order imposes a conversion on machines of the opposite convention. A format that carries a byte-order marker avoids the conversion and requires every reader to handle both, which doubles the paths through the decoder and therefore doubles what must be tested. Network protocols overwhelmingly fix big-endian order, and [RFC 4506][ref_rfc4506] fixed it for XDR, which is a decision in favour of decoder simplicity over encoder convenience.
+A format that fixes byte order imposes a conversion on machines of the opposite convention. A format that carries a byte-order marker avoids the conversion and requires every reader to handle both, which doubles the paths through the decoder and therefore doubles what must be tested. Network protocols overwhelmingly fix big-endian order, and [RFC 4506][ref_rfc4506] fixed it for XDR, which is a decision in favour of decoder simplicity over encoder convenience. The argument that the choice is largely arbitrary and that agreeing matters far more than which convention is agreed was made directly by [Cohen][research_cohen_holy_wars] in the paper that gave the field its vocabulary.
 
 Alignment is the same tradeoff in space. XDR pads everything to four-byte boundaries so that a reader can load fields directly, and pays in wasted bytes. For a field of size $f$ aligned to boundary $a$, the padding is
 
@@ -149,7 +151,7 @@ Zero-copy formats must respect alignment because they hand out direct references
 
 A format that succeeds becomes difficult to change, and the difficulty grows with the number of independent implementations that have made assumptions about it.
 
-Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
+Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. It went further and published the small set of properties that will not change across versions as [RFC 8999][ref_rfc8999], which converts an implicit and unbounded dependency surface into an explicit and bounded one. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
 
 A project that treats a change to its bytecode as requiring explicit authorisation rather than as a routine version bump has recognised the same pressure early. [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting] records a bytecode-format change as a stop that needs a deliberate decision, which is an acknowledgement that the encoding is a contract with every artifact already compiled against it rather than an internal detail of the current compiler.
 
@@ -217,12 +219,16 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 - [Apache Avro Specification][ref_avro_spec]
 - [Cap'n Proto Encoding Specification][ref_capnproto_encoding]
 - [ITU-T X.690, ASN.1 Encoding Rules, BER, CER and DER][ref_itu_x690]
+- [RFC 8999, Version-Independent Properties of QUIC][ref_rfc8999]
 - [Protocol Buffers Field Presence Documentation][ref_protobuf_field_presence]
 - [RFC 4506, XDR, External Data Representation Standard][ref_rfc4506]
 - [RFC 7541, HPACK, Header Compression for HTTP/2][ref_rfc7541]
 - [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
 - [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
+- [RFC 9413, Maintaining Robust Protocols][ref_rfc9413]
 - [RISC-V Unprivileged Specification][ref_riscv_spec]
+- [Cohen, Danny, On Holy Wars and a Plea for Peace, Computer 14, 1981][research_cohen_holy_wars]
+- [Sassaman, Len, Patterson, Meredith L. and Bratus, Sergey, A Patch for Postel's Robustness Principle, IEEE Security and Privacy 10, 2012][research_sassaman_postel]
 - [Related Post, Block-Structured Control Flow and Single-Pass Validation][related_post_single_pass_validation]
 - [Related Post, Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables]
 - [Related Post, Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor]
@@ -241,7 +247,9 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 [ref_rfc4506]: https://www.rfc-editor.org/rfc/rfc4506
 [ref_rfc7541]: https://www.rfc-editor.org/rfc/rfc7541
 [ref_rfc8949]: https://www.rfc-editor.org/rfc/rfc8949
+[ref_rfc8999]: https://www.rfc-editor.org/rfc/rfc8999
 [ref_rfc9000]: https://www.rfc-editor.org/rfc/rfc9000
+[ref_rfc9413]: https://www.rfc-editor.org/rfc/rfc9413
 [ref_riscv_spec]: https://riscv.org/technical/specifications/
 [related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
 [related_post_keleusma_self_hosting]: {% post_url 2026-07-12-keleusma_self_hosting_strategy %}
@@ -250,3 +258,5 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 [related_post_symbol_tables]: {% post_url 2026-04-14-symbol_tables_scope_popping_bounded_memory %}
 [related_post_wasm_on_jekyll]: {% post_url 2026-01-26-webasm_on_jekyll %}
 [related_post_wire_formats_what]: {% post_url 2026-01-27-wire_formats_what_they_are %}
+[research_cohen_holy_wars]: https://doi.org/10.1109/c-m.1981.220208
+[research_sassaman_postel]: https://doi.org/10.1109/msp.2012.31

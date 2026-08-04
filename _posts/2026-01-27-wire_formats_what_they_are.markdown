@@ -21,13 +21,13 @@ This article is descriptive rather than evaluative. It does not recommend a form
 
 ## A Brief History
 
-The problem is older than computer networking. Telegraphy already required agreement on how letters map to signals, and the Baudot code settled that question for its era in a way that later character encodings inherited. What changed with stored-program computers is that the values crossing the boundary stopped being characters and became structures, and structures admit far more representational freedom than alphabets do.
+The problem is older than computer networking. Telegraphy already required agreement on how letters map to signals, and the [Baudot code][ref_baudot_code] settled that question for its era in a way that later character encodings inherited. What changed with stored-program computers is that the values crossing the boundary stopped being characters and became structures, and structures admit far more representational freedom than alphabets do.
 
 The first sustained attempt to standardise that freedom was Abstract Syntax Notation One, hereafter ASN.1, standardised by the International Telegraph and Telephone Consultative Committee and now maintained as [ITU-T X.680][ref_itu_x680] with encoding rules in [ITU-T X.690][ref_itu_x690]. ASN.1 separated the abstract shape of a message from the rules that turn it into bytes, which is the single most consequential idea in the field. A schema describes what a message contains. Encoding rules describe how it is written. The same schema can be paired with different encoding rules to obtain a verbose self-describing form or a compact canonical one. Nearly every later design either adopts this separation or deliberately rejects it.
 
-The Sun Microsystems External Data Representation standard, published as [RFC 4506][ref_rfc4506] and used by the Network File System, took a different position. It fixed a single encoding, aligned everything to four-byte boundaries, and accepted the resulting padding in exchange for decoders that were trivial to write and fast to run. That tradeoff between compactness and decode simplicity recurs continuously.
+The Sun Microsystems External Data Representation standard, published as [RFC 4506][ref_rfc4506] and used by the [Network File System][ref_rfc1813], took a different position. It fixed a single encoding, aligned everything to four-byte boundaries, and accepted the resulting padding in exchange for decoders that were trivial to write and fast to run. That tradeoff between compactness and decode simplicity recurs continuously.
 
-The web pushed the field toward human-readable, self-describing text. The Extensible Markup Language and later JavaScript Object Notation, specified in [RFC 8259][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, MessagePack, and Concise Binary Object Representation, hereafter CBOR, standardised as [RFC 8949][ref_rfc8949].
+The web pushed the field toward human-readable, self-describing text. The [Extensible Markup Language][ref_w3c_xml] and later JavaScript Object Notation, specified in [RFC 8259][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, [MessagePack][ref_messagepack_spec], and Concise Binary Object Representation, hereafter CBOR, standardised as [RFC 8949][ref_rfc8949]. [Apache Thrift][ref_thrift_idl] arrived from the same pressure with an interface definition language attached.
 
 Instruction encodings developed on a parallel track with almost no cross-pollination. The design questions there were framed as instruction set architecture rather than serialisation, and the vocabulary differs, but the underlying problem is the same one.
 
@@ -43,7 +43,7 @@ Three properties are jointly necessary. A representation that lacks any one of t
 
 $$\forall b \in B, \quad \left| \left\{ v \in V \;:\; (b, v) \in D \right\} \right| = 1$$
 
-A format that permits two readings of one byte sequence has failed this, and the failure is rarely benign. Formats that fail this admit multiple readings of the same bytes, which is a correctness problem in ordinary use and a security problem when two implementations disagree about which reading is correct.
+A format that permits two readings of one byte sequence has failed this, and the failure is rarely benign. Where two implementations resolve the ambiguity differently, the disagreement becomes an attack surface, which is the argument [Sassaman, Patterson and Bratus][research_sassaman_formal_language] make in placing protocol parsing inside formal language theory. Formats that fail this admit multiple readings of the same bytes, which is a correctness problem in ordinary use and a security problem when two implementations disagree about which reading is correct.
 
 A useful consequence follows from the second property. Because the agreement precedes the exchange, every wire format faces the question of what happens when the two parties hold different versions of the agreement. That question, treated in the companion article, is where most of the engineering difficulty lives.
 
@@ -79,15 +79,15 @@ $$x < 2^{49}$$
 
 since a value of fifty bits or more already requires eight varint bytes. Varints are a bet that the distribution is concentrated near zero, and like any bet they can be lost.
 
-Zero-copy formats such as Cap'n Proto and FlatBuffers take a further step and arrange the encoded bytes so that they can be read in place without a decode pass. The [Cap'n Proto encoding specification][ref_capnproto_encoding] describes the layout. Access becomes pointer arithmetic over a buffer rather than construction of new objects, which changes the cost model substantially, and the price is a less compact representation and a stricter layout contract.
+Zero-copy formats such as Cap'n Proto and [FlatBuffers][ref_flatbuffers] take a further step and arrange the encoded bytes so that they can be read in place without a decode pass. The [Cap'n Proto encoding specification][ref_capnproto_encoding] describes the layout. Access becomes pointer arithmetic over a buffer rather than construction of new objects, which changes the cost model substantially, and the price is a less compact representation and a stricter layout contract.
 
 ## Protocol Framing
 
 This family carries the structure of a conversation rather than the values within it. Its central question is not how to represent an integer but where a message ends.
 
-A byte stream such as a Transmission Control Protocol connection delivers ordered bytes with no record boundaries. Any structure above that must be imposed by the format. Three strategies dominate. Length prefixing writes the size before the payload, which lets a reader allocate once and know exactly when it is finished. Delimiting reserves a byte sequence to mark the end, which is simple but requires escaping any occurrence of the delimiter inside the payload. Self-describing framing derives the extent from the content itself, as a decoder does when it reads a nested structure and knows it is complete.
+A byte stream such as a [Transmission Control Protocol][ref_rfc9293] connection delivers ordered bytes with no record boundaries. Any structure above that must be imposed by the format. Three strategies dominate. Length prefixing writes the size before the payload, which lets a reader allocate once and know exactly when it is finished. Delimiting reserves a byte sequence to mark the end, which is simple but requires escaping any occurrence of the delimiter inside the payload. Self-describing framing derives the extent from the content itself, as a decoder does when it reads a nested structure and knows it is complete.
 
-The HyperText Transfer Protocol shows both the older and newer approaches. Version 1.1 uses delimiters for headers, terminating them with a blank line, and a length prefix for bodies via the content-length header, with chunked transfer encoding as the fallback when the length is not known in advance. Version 2, specified in [RFC 9113][ref_rfc9113], abandons the text framing entirely for fixed nine-octet binary frame headers carrying length, type, flags, and stream identifier. That change was made to allow many logical streams to share one connection, which text framing cannot express without ambiguity.
+The HyperText Transfer Protocol shows both the older and newer approaches. [Version 1.1][ref_rfc9112] uses delimiters for headers, terminating them with a blank line, and a length prefix for bodies via the content-length header, with chunked transfer encoding as the fallback when the length is not known in advance. Version 2, specified in [RFC 9113][ref_rfc9113], abandons the text framing entirely for fixed nine-octet binary frame headers carrying length, type, flags, and stream identifier. That change was made to allow many logical streams to share one connection, which text framing cannot express without ambiguity.
 
 Header compression illustrates that framing formats face the same metadata pressure as interchange formats. HTTP/2 introduced [HPACK][ref_rfc7541], which maintains a shared table of previously seen header fields so that a repeated header can be sent as a small index rather than a full name and value. This is the same insight as Avro's external schema, applied to a conversation instead of a record, and arrived at independently.
 
@@ -121,7 +121,7 @@ $$\bar{c}_{\text{compressed}} = \bar{c} \left( 1 - \frac{\rho}{2} \right)$$
 
 so compressing half the instruction stream saves a quarter of the text. A compressed encoding reduces $\bar{c}$, which matters when instruction memory is the binding constraint, as it is on the embedded targets discussed in [Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started] and [no_std Rust with bin and lib][related_post_no_std_rust_bin_lib].
 
-Virtual machine encodings make the wire-format character explicit, because the bytes genuinely travel. WebAssembly, specified by the [W3C WebAssembly Core Specification][ref_wasm_spec], is a binary instruction encoding designed to be transmitted over a network, validated on arrival, and executed. It carries an explicit type section so that a consumer can check the module before running it, which is precisely the schema-versus-self-description question in another guise. The corpus demonstrates delivering such a module in [WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll].
+Virtual machine encodings make the wire-format character explicit, because the bytes genuinely travel. WebAssembly, specified by the [W3C WebAssembly Core Specification][ref_wasm_spec] and introduced by [Haas and colleagues][research_haas_webassembly], is a binary instruction encoding designed to be transmitted over a network, validated on arrival, and executed. It carries an explicit type section so that a consumer can check the module before running it, which is precisely the schema-versus-self-description question in another guise. The corpus demonstrates delivering such a module in [WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll].
 
 A bytecode designed for verification makes the wire-format character explicit in a different way. The Keleusma project treats its bytecode as a versioned artifact with a stated compatibility boundary rather than as an implementation detail, described in [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting], with the surface language introduced in [Getting Started with Keleusma 0.1.1][related_post_keleusma_getting_started]. Attaching a version number to an instruction stream is the same discipline the interchange family arrived at independently, reached from the opposite direction.
 
@@ -177,19 +177,29 @@ The families were developed by different communities with different vocabularies
 - [Stevens, W. Richard, TCP/IP Illustrated, Volume 1, The Protocols, Addison-Wesley][book_stevens_tcpip]
 - [Tanenbaum, Andrew S. and Wetherall, David J., Computer Networks, Pearson][book_tanenbaum_networks]
 - [Apache Avro Specification][ref_avro_spec]
+- [Baudot Code][ref_baudot_code]
 - [Cap'n Proto Encoding Specification][ref_capnproto_encoding]
+- [FlatBuffers Documentation][ref_flatbuffers]
 - [ITU-T X.680, Abstract Syntax Notation One, Specification of Basic Notation][ref_itu_x680]
 - [ITU-T X.690, ASN.1 Encoding Rules, BER, CER and DER][ref_itu_x690]
+- [MessagePack Specification][ref_messagepack_spec]
 - [Protocol Buffers Encoding Documentation][ref_protobuf_encoding]
+- [RFC 1813, NFS Version 3 Protocol Specification][ref_rfc1813]
 - [RFC 4506, XDR, External Data Representation Standard][ref_rfc4506]
 - [RFC 7541, HPACK, Header Compression for HTTP/2][ref_rfc7541]
 - [RFC 8259, The JavaScript Object Notation Data Interchange Format][ref_rfc8259]
 - [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
 - [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
+- [RFC 9112, HTTP/1.1][ref_rfc9112]
 - [RFC 9113, HTTP/2][ref_rfc9113]
 - [RFC 9171, Bundle Protocol Version 7][ref_rfc9171]
+- [RFC 9293, Transmission Control Protocol][ref_rfc9293]
 - [RISC-V Unprivileged Specification][ref_riscv_spec]
+- [Apache Thrift Interface Definition Language][ref_thrift_idl]
+- [W3C Extensible Markup Language][ref_w3c_xml]
 - [W3C WebAssembly Core Specification][ref_wasm_spec]
+- [Haas, Andreas et al., Bringing the Web up to Speed with WebAssembly, PLDI, 2017][research_haas_webassembly]
+- [Sassaman, Len, Patterson, Meredith L. and Bratus, Sergey, Security Applications of Formal Language Theory, IEEE Systems Journal, 2013][research_sassaman_formal_language]
 - [Related Post, Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat]
 - [Related Post, Deficiencies of the HTML Hypermedia Model][related_post_html_hypermedia]
 - [Related Post, Getting Started with ION-DTN 3.4.0 on FreeBSD][related_post_ion_dtn_getting_started]
@@ -206,18 +216,26 @@ The families were developed by different communities with different vocabularies
 [book_stevens_tcpip]: https://openlibrary.org/search?q=Stevens+TCP+IP+Illustrated+Volume+1
 [book_tanenbaum_networks]: https://openlibrary.org/search?q=Tanenbaum+Computer+Networks
 [ref_avro_spec]: https://avro.apache.org/docs/current/specification/
+[ref_baudot_code]: https://en.wikipedia.org/wiki/Baudot_code
 [ref_capnproto_encoding]: https://capnproto.org/encoding.html
+[ref_flatbuffers]: https://flatbuffers.dev/
 [ref_itu_x680]: https://www.itu.int/rec/T-REC-X.680
 [ref_itu_x690]: https://www.itu.int/rec/T-REC-X.690
+[ref_messagepack_spec]: https://github.com/msgpack/msgpack/blob/master/spec.md
 [ref_protobuf_encoding]: https://protobuf.dev/programming-guides/encoding/
+[ref_rfc1813]: https://www.rfc-editor.org/rfc/rfc1813
 [ref_rfc4506]: https://www.rfc-editor.org/rfc/rfc4506
 [ref_rfc7541]: https://www.rfc-editor.org/rfc/rfc7541
 [ref_rfc8259]: https://www.rfc-editor.org/rfc/rfc8259
 [ref_rfc8949]: https://www.rfc-editor.org/rfc/rfc8949
 [ref_rfc9000]: https://www.rfc-editor.org/rfc/rfc9000
+[ref_rfc9112]: https://www.rfc-editor.org/rfc/rfc9112
 [ref_rfc9113]: https://www.rfc-editor.org/rfc/rfc9113
 [ref_rfc9171]: https://www.rfc-editor.org/rfc/rfc9171
+[ref_rfc9293]: https://www.rfc-editor.org/rfc/rfc9293
 [ref_riscv_spec]: https://riscv.org/technical/specifications/
+[ref_thrift_idl]: https://thrift.apache.org/docs/idl
+[ref_w3c_xml]: https://www.w3.org/TR/xml/
 [ref_wasm_spec]: https://www.w3.org/TR/wasm-core-2/
 [related_post_html_hypermedia]: {% post_url 2026-03-07-html_hypermedia_deficiencies %}
 [related_post_ion_dtn_bpchat]: {% post_url 2016-02-12-almost-serving-a-web-page-with-ion-dtn-bpchat %}
@@ -230,3 +248,5 @@ The families were developed by different communities with different vocabularies
 [related_post_solana_anchor]: {% post_url 2025-12-17-solana_with_rust_and_anchor_getting_started %}
 [related_post_unix_arm_assembler]: {% post_url 2016-01-10-unix-arm-assembler-on-android %}
 [related_post_wasm_on_jekyll]: {% post_url 2026-01-26-webasm_on_jekyll %}
+[research_haas_webassembly]: https://doi.org/10.1145/3062341.3062363
+[research_sassaman_formal_language]: https://doi.org/10.1109/jsyst.2012.2222000
