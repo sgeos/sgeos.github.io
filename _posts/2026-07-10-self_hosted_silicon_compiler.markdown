@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "The Self-Hosted Silicon Compiler"
-date:   2026-07-09 09:00:00 +0000
+date: 2026-07-10 09:00:00 +0000
 categories: hdl hardware self-hosting
 series: hdl_thread
 series_title: Hardware Description Languages
@@ -1794,7 +1794,7 @@ their integration.
 
 [related_post_hdl_design_space]: {% post_url 2026-07-07-design_space_next_generation_hardware_description_languages %}
 [related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
-[related_post_hdl_practice]: {% post_url 2026-07-08-hardware_description_languages_state_of_the_practice %}
+[related_post_hdl_practice]: {% post_url 2026-07-09-hardware_description_languages_state_of_the_practice %}
 [related_post_meta_factory]: {% post_url 2026-07-08-meta_factory_prior_art_and_the_reproduction_loop %}
 [related_post_stream_processor]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
 

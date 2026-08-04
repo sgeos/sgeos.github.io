@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Early Cold War Air Defense and SAGE"
-date: 2026-07-15 09:00:00 +0000
+date: 2026-07-16 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -173,9 +173,9 @@ The next article in the series treats aerospace simulation and real-time systems
 [ref_mitre_history]: https://www.mitre.org/who-we-are/our-history
 [ref_sage_chm]: https://www.computerhistory.org/revolution/real-time-computing/6
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}
-[related_post_a239_wartime_computing]: {% post_url 2026-07-14-wartime_computing_and_code_breaking %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a238_pre_war_computing]: {% post_url 2026-07-14-pre_war_computing_origins_and_ballistics %}
+[related_post_a239_wartime_computing]: {% post_url 2026-07-15-wartime_computing_and_code_breaking %}
 
 [research_astrahan_jacobs_1983]: https://ieeexplore.ieee.org/document/4640386
 [research_benington_1983]: https://ieeexplore.ieee.org/document/4640375

@@ -800,4 +800,4 @@ before nineteen sixty.
 [related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}
 [related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
-[related_post_keleusma_022]: {% post_url 2026-07-10-keleusma_0_2_2_getting_started %}
+[related_post_keleusma_022]: {% post_url 2026-07-11-keleusma_0_2_2_getting_started %}

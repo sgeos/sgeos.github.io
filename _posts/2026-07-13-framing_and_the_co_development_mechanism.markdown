@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism"
-date: 2026-07-12 09:00:00 +0000
+date: 2026-07-13 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -309,7 +309,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 
 [related_post_a112_fixed_wing_uav]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_a200_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
-[related_post_a203_hdl_state_of_practice]: {% post_url 2026-07-08-hardware_description_languages_state_of_the_practice %}
+[related_post_a203_hdl_state_of_practice]: {% post_url 2026-07-09-hardware_description_languages_state_of_the_practice %}
 [related_post_a206_programming_language_theory]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_a215_2020s]: {% post_url 2026-04-05-the_2020s_to_mid_2026 %}
 

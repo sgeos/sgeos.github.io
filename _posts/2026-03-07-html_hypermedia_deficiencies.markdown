@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Deficiencies of the HTML Hypermedia Model"
-date: 2026-02-17 09:00:00 +0000
+date: 2026-03-07 09:00:00 +0000
 categories: hypermedia web history
 ---
 

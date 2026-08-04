@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Space Shuttle Software as Engineering Landmark"
-date: 2026-07-19 09:00:00 +0000
+date: 2026-07-20 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -165,11 +165,11 @@ The next article in the series treats safety-critical software as an engineering
 [ref_ibm_fsd]: https://en.wikipedia.org/wiki/IBM_Federal_Systems_Division
 [ref_nasa_shuttle_avionics]: https://ntrs.nasa.gov/citations/19910023576
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-15-early_cold_war_air_defense_and_sage %}
-[related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}
-[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-17-apollo_guidance_computer %}
-[related_post_a243_arpanet_networking]: {% post_url 2026-07-18-arpanet_and_networking_origins %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
+[related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
+[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
+[related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
 
 [research_fagan_1976]: https://ieeexplore.ieee.org/document/5388086
 [research_fishman_1996]: https://www.fastcompany.com/28121/they-write-right-stuff

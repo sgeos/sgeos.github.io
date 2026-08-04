@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Silicon Valley from Defense Contracting"
-date: 2026-07-21 09:00:00 +0000
+date: 2026-07-22 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -153,13 +153,13 @@ The next article in the series treats software-defined aerospace and autonomy, i
 [ref_nasa_ames]: https://www.nasa.gov/ames/
 [ref_stanford_research_park]: https://stanfordresearchpark.com/
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-15-early_cold_war_air_defense_and_sage %}
-[related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}
-[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-17-apollo_guidance_computer %}
-[related_post_a243_arpanet_networking]: {% post_url 2026-07-18-arpanet_and_networking_origins %}
-[related_post_a244_space_shuttle_software]: {% post_url 2026-07-19-space_shuttle_software_as_engineering_landmark %}
-[related_post_a245_safety_critical_software]: {% post_url 2026-07-20-safety_critical_software %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
+[related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
+[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
+[related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
+[related_post_a244_space_shuttle_software]: {% post_url 2026-07-20-space_shuttle_software_as_engineering_landmark %}
+[related_post_a245_safety_critical_software]: {% post_url 2026-07-21-safety_critical_software %}
 
 [research_krugman_1991]: https://www.journals.uchicago.edu/doi/10.1086/261763
 [research_noyce_hoff_1981]: https://ieeexplore.ieee.org/document/1653970

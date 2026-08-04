@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "History of SpaceX: Portfolio Patience and the Internalization of Tail Risk"
-date: 2026-07-31 09:00:00 +0000
+date: 2026-08-01 09:00:00 +0000
 categories: history business aerospace
 series: spacex_history
 series_title: History of SpaceX
@@ -1309,17 +1309,17 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_wharton_spacex_case]: https://knowledge.wharton.upenn.edu/
 [ref_wsj]: https://www.wsj.com/tech
 [related_post_a167_startup_failure]: {% post_url 2026-05-09-why_startups_actually_fail %}
-[related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
-[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
-[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-23-contemporary_snapshot_and_extrapolation %}
-[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
-[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
-[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
-[related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
-[related_post_a285_spacex_decomposability]: {% post_url 2026-07-28-spacex_history_decomposability %}
-[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-29-spacex_history_generality_forcing %}
-[related_post_a287_spacex_governance]: {% post_url 2026-07-30-spacex_history_governance %}
+[related_post_a237_aerospace_framing]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-22-silicon_valley_from_defense_contracting %}
+[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-23-software_defined_aerospace_and_autonomy %}
+[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-24-contemporary_snapshot_and_extrapolation %}
+[related_post_a281_spacex_framing]: {% post_url 2026-07-25-spacex_history_framing %}
+[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-26-spacex_history_value_gradient %}
+[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-27-spacex_history_anchor_demand %}
+[related_post_a284_spacex_value_capture]: {% post_url 2026-07-28-spacex_history_value_capture %}
+[related_post_a285_spacex_decomposability]: {% post_url 2026-07-29-spacex_history_decomposability %}
+[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-30-spacex_history_generality_forcing %}
+[related_post_a287_spacex_governance]: {% post_url 2026-07-31-spacex_history_governance %}
 [related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}

@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: The Apollo Guidance Computer"
-date: 2026-07-17 09:00:00 +0000
+date: 2026-07-18 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -177,11 +177,11 @@ The next article in the series treats the Advanced Research Projects Agency Netw
 [ref_draper_iag]: https://en.wikipedia.org/wiki/Charles_Stark_Draper_Laboratory
 [ref_virtual_agc]: https://www.ibiblio.org/apollo/
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}
-[related_post_a239_wartime_computing]: {% post_url 2026-07-14-wartime_computing_and_code_breaking %}
-[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-15-early_cold_war_air_defense_and_sage %}
-[related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a238_pre_war_computing]: {% post_url 2026-07-14-pre_war_computing_origins_and_ballistics %}
+[related_post_a239_wartime_computing]: {% post_url 2026-07-15-wartime_computing_and_code_breaking %}
+[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
+[related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
 
 [research_battin_1982]: https://arc.aiaa.org/doi/10.2514/3.19717
 [research_eyles_2004]: https://www.doneyles.com/LM/Tales.html
