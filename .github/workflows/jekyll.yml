@@ -46,12 +46,19 @@ jobs:
       - name: Install pandoc and LaTeX toolchain for downloads
         run: |
           sudo apt-get update
-          # lmodern is required. Pandoc's default LaTeX template loads
-          # lmodern.sty, and without it xelatex aborts with "File `lmodern.sty'
-          # not found" for every post. That made PDF generation fail 100% while
-          # the step still reported success, because _downloads.rb only warned.
-          # _downloads.rb now exits nonzero on systemic failure, so a regression
-          # here fails the build instead of shipping ~293 dead download links.
+          # Two packages beyond the obvious TeX set are load-bearing, and both
+          # were found the hard way, one CI run at a time.
+          #
+          # lmodern: pandoc's default LaTeX template loads lmodern.sty. Without
+          # it xelatex aborted for every post, and because _downloads.rb only
+          # warned, the step still reported success while ~293 dead PDF links
+          # shipped. _downloads.rb now exits nonzero on systemic failure, which
+          # is what surfaced the second package below.
+          #
+          # texlive-lang-chinese: supplies xeCJK.sty, which the template loads
+          # whenever CJKmainfont is set. _downloads.rb now sets that option only
+          # for the 2 posts that actually contain CJK, so a gap here can no
+          # longer fail the other 292.
           sudo apt-get install -y --no-install-recommends \
             pandoc \
             texlive-xetex \
@@ -59,6 +66,7 @@ jobs:
             texlive-latex-recommended \
             texlive-latex-extra \
             lmodern \
+            texlive-lang-chinese \
             fonts-dejavu \
             fonts-noto-cjk
       - name: Build with Jekyll
