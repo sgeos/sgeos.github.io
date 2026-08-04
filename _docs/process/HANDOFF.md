@@ -12,10 +12,10 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `9b4d0e3`
+- **Parent commit** (the repository state this handoff describes): `8b5c8cd`
 - **Written**: 2026-08-05
 - **Tree at write**: clean, in sync with `origin/master`, all work pushed and deployed
-- **Context**: both queued tasks, an infrastructure audit, and a full download-pipeline repair are COMPLETE and verified live. Nothing in flight. Four items await pilot judgment, listed in `REVERSE_PROMPT.md`.
+- **Context**: all queued tasks, the infrastructure audit, the download-pipeline repair, and the follow-up rectifications are COMPLETE and verified live. Nothing in flight. One editorial item is noted for the pilot in `REVERSE_PROMPT.md`.
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
