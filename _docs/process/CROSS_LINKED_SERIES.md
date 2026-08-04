@@ -64,36 +64,37 @@ Both patterns produce identical deployed content. The choice is operational, not
 
 Both patterns require the GitHub Actions deploy build to resolve every `{% post_url %}` tag. A `could not find post_url` error in the build log indicates a typo in a slug or a forward reference that should have been prose-only under the incremental pattern.
 
-The local bundle build is broken on macOS by a gem-environment issue. **Do not treat that as a
-reason to publish unverified and let the deploy find the errors.** The failure is in the bundle,
-not in Jekyll, and it is avoidable:
+Build locally the way CI does. The bundle was long believed broken on macOS; it was simply never
+installed. `bundle install` succeeds, native extensions and all.
 
 ```sh
-rm -rf tmp/buildcheck && mkdir -p tmp/buildcheck
-rsync -a --exclude tmp --exclude .git --exclude _site \
-      --exclude Gemfile --exclude Gemfile.lock ./ tmp/buildcheck/
-sed -i '' '/jekyll-archives/d' tmp/buildcheck/_config.yml
-cd tmp/buildcheck && jekyll build --destination _site
+bundle install                      # one time, installs into vendor/bundle (gitignored)
+JEKYLL_ENV=production bundle exec jekyll build --baseurl ""
 ```
 
-Build in a Gemfile-free scratch copy before any publishing push, and confirm the post count in
-matches the HTML count out. Add `--future` only to check that forward-dated articles would build
-once their dates arrive; without it the build reflects what the live site will actually render.
+That reproduces the deploy closely: the same Jekyll 4.4.1 from `Gemfile.lock`, the same production
+environment, and `jekyll-archives` active so category and tag pages are generated. Measured against
+the live sitemap it produces 451 pages to the live site's 450 URLs, the difference being two asset
+PDFs the sitemap lists and three pages carrying `sitemap: false`.
 
-**Know what this build cannot tell you.** It is not the CI build, and two omissions produce
-alarming but meaningless results:
+**Do not use a Gemfile-free build with `jekyll-archives` stripped.** That was the earlier workaround
+and it is actively misleading. A link crawl of such a build reported 740 broken targets, every one
+of them fine in production, because the archive pages it links to were never generated. Worse, it
+cannot see the class of defect that a faithful build finds: on 2026-08-05 the faithful build
+surfaced two genuinely broken category links live on the site, `/categories/c++/` and
+`/categories/no_std/`, where the templates emitted the raw category while `jekyll-archives`
+slugifies it.
 
-- **`jekyll-archives` is stripped**, so `/categories/:name/` and `/tags/:name/` pages are not
-  generated. Every link to them appears broken. On 2026-08-05 a link crawl of this build reported
-  740 broken targets on that basis alone. All of them were fine in production.
-- **`_downloads.rb` does not run**, so the per-post `.pdf` and `.epub` links appear broken. That
-  accounts for roughly two apparent breakages per post.
+Two steps still require tooling CI installs and a workstation may not have. Both degrade
+gracefully, so their absence shows up only as missing `.pdf` and `.epub` links and a missing
+`/pagefind/` directory in a crawl:
 
-Exclude both classes before believing a link crawl, or verify against the live site instead.
+```sh
+ruby _downloads.rb                  # needs pandoc, texlive-xetex, lmodern, texlive-lang-chinese
+npx -y pagefind --site _site        # needs node
+```
 
-Permalinks in this build DO match production, because `_config.yml` pins `timezone: UTC`. Before
-that pin, a post stamped near midnight resolved to a different day locally than on the UTC runner,
-so a local URL check was not evidence about the live URL.
+`_downloads.rb` reads and writes `_site`, so run the build without `--destination` if you want it.
 
 Watch the GitHub Actions log on the push commit as confirmation, not as the primary check.
 

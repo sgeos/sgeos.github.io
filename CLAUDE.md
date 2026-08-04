@@ -19,6 +19,12 @@ Drafts are off by default because `--drafts` builds the `_drafts/` directory, an
 release-candidate drafts that cross-reference one another with `post_url` tags pointing at
 unpublished filenames make that build fail. Use `DRAFTS=1` only once those references resolve.
 
+**Build the way CI does when verifying.** `bundle install` works; the bundle was never broken,
+merely never installed. `JEKYLL_ENV=production bundle exec jekyll build --baseurl ""` reproduces
+the deploy closely, including `jekyll-archives`. Do not verify against a Gemfile-free build with
+plugins stripped; it reports hundreds of phantom broken links and hides real ones. See
+[`_docs/process/CROSS_LINKED_SERIES.md`](_docs/process/CROSS_LINKED_SERIES.md).
+
 **The preview does not match the live site for forward-dated posts.** `_preview.sh` passes
 `--future`, so it renders posts dated ahead of today. The site sets `future: false`, so those
 same posts are excluded from the real build and return 404 until their dates arrive. A clean

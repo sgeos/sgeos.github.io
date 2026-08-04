@@ -31,7 +31,7 @@
             <ul class="category-menu-list">
               {% for cat in sorted_categories %}
                 <li>
-                  <a href="{{ '/categories/' | append: cat[0] | append: '/' | prepend: site.baseurl }}">
+                  <a href="{{ cat[0] | slugify | prepend: '/categories/' | append: '/' | prepend: site.baseurl }}">
                     <span class="cat-name">{{ cat[0] }}</span>
                     <span class="cat-count">{{ cat[1] | size }}</span>
                   </a>
