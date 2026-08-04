@@ -12,10 +12,10 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `e803d20`
+- **Parent commit** (the repository state this handoff describes): `9b4d0e3`
 - **Written**: 2026-08-05
-- **Tree at write**: clean; the word-usage commits are pushed, the documentation-review and infrastructure commits are UNPUSHED
-- **Context**: both queued tasks and a follow-on infrastructure audit are COMPLETE. No task is in flight. Four items await pilot judgment, listed in `REVERSE_PROMPT.md`.
+- **Tree at write**: clean, in sync with `origin/master`, all work pushed and deployed
+- **Context**: both queued tasks, an infrastructure audit, and a full download-pipeline repair are COMPLETE and verified live. Nothing in flight. Four items await pilot judgment, listed in `REVERSE_PROMPT.md`.
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
@@ -52,8 +52,16 @@ uses the front matter date, so nineteen posts had their EPUB written where no HT
 globs the built site instead. `_config.yml` gained `timezone: UTC`, without which permalinks
 depended on the build machine and a local URL check was not evidence about production.
 
-**The PDF fix is UNVERIFIED locally** because pandoc and xelatex are not installed here. Confirm on
-the next deploy that PDFs return 200 before considering it closed.
+**The download pipeline is now fully repaired and verified live**: `pdf=293 epub=293 skipped=1
+failed=0`, with a 28-post sample spanning 2016 to 2026 returning 200 for both formats. Six deploys
+were needed because LaTeX aborts at the FIRST error in a document, so each fix exposed the next
+defect. Do not read a flat failure count as a stalled fix; check whether the ERROR TEXT changed.
+
+**Six of the causes were latent defects in the CORPUS, not tooling**: `align` nested in display
+delimiters, two double subscripts, two under-declared array column specs, MathJax-only macros, and
+an opening `$` followed by a space. All are invalid LaTeX that MathJax renders leniently and that
+the delimiter-balance check cannot see. The PDF pipeline is the only process here that parses the
+mathematics strictly, so treat it as a math linter and keep it green.
 
 **The durable finding, worth not relearning:** the `specific` pathology was neither a bad instruction
 nor a contaminated exemplar. Both were tested and falsified, the exemplars measuring 0.0 to 1.6 uses
