@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "UNIX ARM Assembler on Android"
-date:   2016-01-08 07:12:57 +0900
+date: 2016-01-11 07:12:57 +0900
 categories: jekyll github freebsd
 ---
 
