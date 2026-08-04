@@ -23,7 +23,11 @@ The schema is the agreement about what the bytes mean. It can travel inline with
 
 Inline schemas make a message self-contained. Any reader can decode it with no prior arrangement, which is why JavaScript Object Notation succeeded far beyond the cases its designers anticipated. The cost is paid on every single message, forever, for information that almost never changes.
 
-Out-of-band schemas move that cost to a one-time distribution step. Apache Avro writes the schema once in a file header and then emits values with almost no per-record metadata, which is close to optimal for large homogeneous batches and poor for a single small message to an unknown party. Header compression in HTTP/2 is the same idea applied to a live conversation, where the [HPACK][ref_rfc7541] dynamic table is a schema that both ends build cooperatively as they talk.
+Out-of-band schemas move that cost to a one-time distribution step. Apache Avro writes the schema once in a file header and then emits values with almost no per-record metadata, which is close to optimal for large homogeneous batches and poor for a single small message to an unknown party. Header compression in HTTP/2 is the same idea applied to a live conversation, where the [HPACK][ref_rfc7541] dynamic table is a schema that both ends build cooperatively as they talk. For a header field of full size $H$ that the table can render as an index of size $I$, a table hit rate $\theta$ gives an effective size
+
+$$\bar{H} = \theta I + \left( 1 - \theta \right) H$$
+
+so a table hitting nine times in ten reduces a fifty-byte header to under six bytes when the index costs one. The gain comes entirely from repetition, which is why the technique helps a long conversation and does nothing for a single request.
 
 Fixed schemas are the instruction-encoding position. A processor does not receive a description of its instruction set, because the set is fixed by the architecture specification and burned into the decoder. This gives the lowest possible overhead and the least possible flexibility, and it is why adding an instruction is a multi-year undertaking rather than a deployment.
 
@@ -45,9 +49,17 @@ The threshold is a ratio, not a constant. A format with heavy inline metadata re
 
 Every reader must know where a unit stops. Length prefixing, delimiting, and fixed width are the three answers, and each fails differently.
 
-Length prefixing lets a reader allocate exactly once and detect truncation immediately, and it makes the length an attacker-controlled input. A declared length that the sender never fulfils is a resource-exhaustion vector, which is why serious implementations bound the declared length before allocating rather than after.
+Length prefixing lets a reader allocate exactly once and detect truncation immediately, and it makes the length an attacker-controlled input. A declared length that the sender never fulfils is a resource-exhaustion vector. A reader must therefore enforce
 
-Delimiting requires no lookahead and permits streaming without knowing the total size in advance, and it forces an escaping scheme for payloads that contain the delimiter. Escaping is where subtle bugs live, because encoder and decoder must agree exactly on what is escaped and the failure mode is silent corruption rather than a clean error.
+$$\ell \leq \ell_{\max}$$
+
+on the declared length $\ell$ before allocating, where $\ell_{\max}$ is a bound the reader chooses independently of the sender. Checking after allocation is not a check.
+
+Delimiting requires no lookahead and permits streaming without knowing the total size in advance, and it forces an escaping scheme for payloads that contain the delimiter. Escaping is where subtle bugs live, because encoder and decoder must agree exactly on what is escaped and the failure mode is silent corruption rather than a clean error. Escaping also costs size. If the delimiter occurs in payload with probability $q$ per byte and each occurrence expands to two bytes, a payload of $p$ bytes becomes
+
+$$p' = p \left( 1 + q \right)$$
+
+in expectation, so a delimiter chosen to be rare in the expected data costs almost nothing and one chosen carelessly approaches a doubling.
 
 Fixed width removes the question entirely at the cost of flexibility. The base RISC-V integer instruction set fixes instructions at thirty-two bits, so the address of the next instruction is always known without decoding the current one, which is what makes wide superscalar fetch practical. The compressed extension reintroduces variable width for density and pays for it with a more complex decoder.
 
@@ -65,7 +77,11 @@ The strict position rejects anything unrecognised. This is correct where the rea
 
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
-Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. A format supports backward compatibility when a reader at $R$ can read data written at an older $W$, and forward compatibility when a reader at $R$ can read data written at a newer $W$. Avro resolves the two schemas explicitly at read time, as described in its [specification][ref_avro_spec], which makes the compatibility rules a stated part of the format rather than an emergent property. Protocol Buffers obtains forward compatibility from skippable unknown fields and constrains what changes are safe, and its [proto3 field presence rules][ref_protobuf_field_presence] document where the constraints bite.
+Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. Write $\operatorname{dec}_R$ for the reader's decode function and $\operatorname{enc}_W$ for the writer's encode function, and let $\preceq$ order schema versions. Backward compatibility is the requirement
+
+$$\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R$$
+
+and forward compatibility is the same condition for all $W \succeq R$. A format supports backward compatibility when a reader at $R$ can read data written at an older $W$, and forward compatibility when a reader at $R$ can read data written at a newer $W$. Avro resolves the two schemas explicitly at read time, as described in its [specification][ref_avro_spec], which makes the compatibility rules a stated part of the format rather than an emergent property. Protocol Buffers obtains forward compatibility from skippable unknown fields and constrains what changes are safe, and its [proto3 field presence rules][ref_protobuf_field_presence] document where the constraints bite.
 
 The rule that follows applies to all three families. A format cannot be simultaneously strict about the unrecognised and tolerant of independent deployment. Choosing strictness is choosing coordinated upgrades.
 
@@ -81,7 +97,11 @@ A common resolution is to keep the format binary and invest in tooling that rend
 
 ## Canonical Encoding
 
-Canonical encoding requires that a given value have exactly one valid byte representation. Most formats do not require this, because it constrains encoders for no benefit in ordinary use.
+Canonical encoding requires that a given value have exactly one valid byte representation. Let $E(v)$ be the set of byte sequences a format permits for the value $v$. Canonicity is the condition
+
+$$\forall v, \quad \left| E(v) \right| = 1$$
+
+which is strictly stronger than the unambiguity every wire format already requires. Unambiguity says each byte sequence denotes one value. Canonicity says each value has one byte sequence. A format can satisfy the first and violate the second, and most do. Most formats do not require this, because it constrains encoders for no benefit in ordinary use.
 
 It becomes mandatory the moment bytes are hashed, signed, or compared. If two encoders may legitimately produce different bytes for the same value, then a signature over those bytes verifies the encoding rather than the value, and a hash cannot serve as an identity. CBOR addresses this with the deterministic encoding requirements in [RFC 8949][ref_rfc8949], and ASN.1 has carried the distinction since its Distinguished Encoding Rules in [ITU-T X.690][ref_itu_x690], where Basic Encoding Rules permit choices that Distinguished Encoding Rules remove.
 
@@ -135,7 +155,11 @@ A project that treats a change to its bytecode as requiring explicit authorisati
 
 Instruction encodings ossify hardest of all, because the dependent implementations are shipped silicon that cannot be updated. Opcode space is allocated once and reclaimed almost never, and the practical consequence is that architectures reserve encoding space long before they know what will occupy it.
 
-Version negotiation is the usual mitigation and carries its own cost. It adds a round trip or a field, it creates a downgrade surface if an attacker can influence the negotiation, and it multiplies the combinations that must be tested. A format with $k$ supported versions on each side has $k^2$ interoperability pairs in principle, which is why deployed systems support far fewer versions than their specifications permit.
+Version negotiation is the usual mitigation and carries its own cost. It adds a round trip or a field, it creates a downgrade surface if an attacker can influence the negotiation, and it multiplies the combinations that must be tested. With $k$ versions supported on each side, the number of ordered pairs is $k^2$, while negotiation that always selects the highest common version yields only $k$ distinct outcomes. The testing burden $T$ therefore lies between
+
+$$k \leq T \leq k^2$$
+
+depending on how much of the pair space the negotiation can actually reach, which is why deployed systems support far fewer versions than their specifications permit.
 
 ## Where the Tradeoffs Interact
 

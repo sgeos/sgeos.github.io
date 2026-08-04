@@ -39,7 +39,11 @@ Three properties are jointly necessary. A representation that lacks any one of t
 
 **It is agreed in advance.** Both parties know how to read it before any bytes move. The agreement may be carried in a schema distributed out of band, embedded in the stream itself, or fixed by a published standard, but it exists prior to the exchange. Bytes without a prior agreement are noise.
 
-**It is unambiguous over its domain.** For any byte sequence the format admits, there is exactly one value it denotes. Formats that fail this admit multiple readings of the same bytes, which is a correctness problem in ordinary use and a security problem when two implementations disagree about which reading is correct.
+**It is unambiguous over its domain.** For any byte sequence the format admits, there is exactly one value it denotes. Let $B$ be the set of byte sequences the format accepts and $V$ the set of values it can represent. The decode relation $D \subseteq B \times V$ must be a function, which is to say
+
+$$\forall b \in B, \quad \left| \left\{ v \in V \;:\; (b, v) \in D \right\} \right| = 1$$
+
+A format that permits two readings of one byte sequence has failed this, and the failure is rarely benign. Formats that fail this admit multiple readings of the same bytes, which is a correctness problem in ordinary use and a security problem when two implementations disagree about which reading is correct.
 
 A useful consequence follows from the second property. Because the agreement precedes the exchange, every wire format faces the question of what happens when the two parties hold different versions of the agreement. That question, treated in the companion article, is where most of the engineering difficulty lives.
 
@@ -49,7 +53,11 @@ This family carries application values. The sender has a record, a list, a numbe
 
 The primary division within the family is whether the bytes describe themselves. A self-describing format carries type and field information inline, so a decoder can walk the stream without external help. JSON and CBOR are self-describing. A schema-dependent format carries only values, with field identity and type supplied by a schema both parties already hold. Apache Avro, specified in the [Avro specification][ref_avro_spec], takes this position in its pure form and writes almost nothing but the values.
 
-Protocol Buffers, whose encoding is described in the [Protocol Buffers encoding documentation][ref_protobuf_encoding], occupies a middle position that has proved durable. Each field is preceded by a tag combining a field number and a wire type. The field number identifies the field without naming it, which costs far less than a name, and the wire type tells a decoder how to skip a field it does not recognise even when it lacks the schema. That single decision is what makes unknown fields survivable.
+Protocol Buffers, whose encoding is described in the [Protocol Buffers encoding documentation][ref_protobuf_encoding], occupies a middle position that has proved durable. Each field is preceded by a tag combining a field number and a wire type. For field number $f$ and three-bit wire type $w$, the tag is the varint encoding of
+
+$$\tau = 8f + w$$
+
+which places the wire type in the low three bits and the field number above them, so that any field numbered below sixteen yields a single-byte tag. That is why the low field numbers are worth reserving for the fields that appear most often. The field number identifies the field without naming it, which costs far less than a name, and the wire type tells a decoder how to skip a field it does not recognise even when it lacks the schema. That single decision is what makes unknown fields survivable.
 
 The cost of self-description can be stated directly. For a message of $n$ fields, let $v_i$ be the encoded size of the $i$th value and $m_i$ the size of its inline metadata, meaning names, type tags, or field tags. The total size is
 
@@ -65,7 +73,11 @@ Variable-length integer encoding illustrates how representation choices interact
 
 $$L(x) = \max\left(1, \left\lceil \frac{\lfloor \log_2 x \rfloor + 1}{7} \right\rceil \right)$$
 
-bytes. Small numbers become short, which is the intent, but a value near $2^{64}$ takes ten bytes where a fixed-width encoding would take eight. Varints are a bet that the distribution is concentrated near zero, and like any bet they can be lost.
+bytes. Small numbers become short, which is the intent, but a value near $2^{64}$ takes ten bytes where a fixed-width encoding would take eight. The bet pays only below a threshold. A varint is strictly smaller than a fixed encoding of $W$ bytes when $L(x) < W$, and for $W = 8$ that condition is
+
+$$x < 2^{49}$$
+
+since a value of fifty bits or more already requires eight varint bytes. Varints are a bet that the distribution is concentrated near zero, and like any bet they can be lost.
 
 Zero-copy formats such as Cap'n Proto and FlatBuffers take a further step and arrange the encoded bytes so that they can be read in place without a decode pass. The [Cap'n Proto encoding specification][ref_capnproto_encoding] describes the layout. Access becomes pointer arithmetic over a buffer rather than construction of new objects, which changes the cost model substantially, and the price is a less compact representation and a stricter layout contract.
 
@@ -83,7 +95,11 @@ Framing overhead is a ratio worth stating. For a frame carrying payload of size 
 
 $$\eta = \frac{p}{p + h}$$
 
-For an HTTP/2 frame with $h = 9$ carrying a kilobyte, $\eta$ exceeds ninety nine percent and the header is irrelevant. For the same header carrying a four-byte acknowledgement, $\eta$ falls below one third. Protocols that exchange many small messages therefore care enormously about header size, which is why QUIC, specified in [RFC 9000][ref_rfc9000], works to keep its packet headers short and why it moved framing into the encrypted payload to permit change without ossification.
+Framing also nests, and each layer of encapsulation charges its own header. For $n$ layers with header sizes $h_1$ through $h_n$, the useful fraction is
+
+$$\eta_{\text{stack}} = \frac{p}{p + \sum_{i=1}^{n} h_i}$$
+
+so a bundle inside a transport segment inside a network packet pays all three, and a small payload can carry more framing than content once the stack is deep enough. For an HTTP/2 frame with $h = 9$ carrying a kilobyte, $\eta$ exceeds ninety nine percent and the header is irrelevant. For the same header carrying a four-byte acknowledgement, $\eta$ falls below one third. Protocols that exchange many small messages therefore care enormously about header size, which is why QUIC, specified in [RFC 9000][ref_rfc9000], works to keep its packet headers short and why it moved framing into the encrypted payload to permit change without ossification.
 
 Delay-tolerant networking pushes framing into an environment where the round trip may be hours. The Bundle Protocol, now [RFC 9171][ref_rfc9171], frames application data into bundles that carry enough context to be forwarded and stored by intermediaries that may hold them for a long time before onward transmission. The corpus covers the practical side of this in [Getting Started with ION-DTN on FreeBSD][related_post_ion_dtn_getting_started], with bundle-level exchange demonstrated in [Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat] and [Serving a Web Page with ION-DTN bpsendfile and bprecvfile][related_post_ion_dtn_serving]. When storage time is measured in hours, a bundle is closer to a self-contained document than to a packet, and its framing reflects that.
 
@@ -99,7 +115,11 @@ Instruction density can be treated the same way as encoding overhead. For a prog
 
 $$\bar{c} = \frac{1}{k} \sum_{j=1}^{k} c_j$$
 
-and the total text size is $k \bar{c}$. A compressed encoding reduces $\bar{c}$, which matters when instruction memory is the binding constraint, as it is on the embedded targets discussed in [Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started] and [no_std Rust with bin and lib][related_post_no_std_rust_bin_lib].
+and the total text size is $k \bar{c}$. If a compressed encoding renders a fraction $\rho$ of instructions at half width, the mean becomes
+
+$$\bar{c}_{\text{compressed}} = \bar{c} \left( 1 - \frac{\rho}{2} \right)$$
+
+so compressing half the instruction stream saves a quarter of the text. A compressed encoding reduces $\bar{c}$, which matters when instruction memory is the binding constraint, as it is on the embedded targets discussed in [Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started] and [no_std Rust with bin and lib][related_post_no_std_rust_bin_lib].
 
 Virtual machine encodings make the wire-format character explicit, because the bytes genuinely travel. WebAssembly, specified by the [W3C WebAssembly Core Specification][ref_wasm_spec], is a binary instruction encoding designed to be transmitted over a network, validated on arrival, and executed. It carries an explicit type section so that a consumer can check the module before running it, which is precisely the schema-versus-self-description question in another guise. The corpus demonstrates delivering such a module in [WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll].
 
