@@ -451,7 +451,7 @@ reflecting the approximately doubling of engine thrust across the Merlin family 
 
 The Merlin specific-impulse progression allows the brief form
 
-$$I_{sp}^{\text{Merlin 1D}}_{\text{sea-level}} \approx 282 \text{ s}, \quad I_{sp}^{\text{Merlin 1D Vacuum}} \approx 348 \text{ s}$$
+$$I_{sp}^{\text{Merlin 1D, sea level}} \approx 282 \text{ s}, \quad I_{sp}^{\text{Merlin 1D Vacuum}} \approx 348 \text{ s}$$
 
 with the vacuum-configuration substantially exceeding the sea-level-arrangement specific impulse.
 
