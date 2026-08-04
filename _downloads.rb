@@ -184,11 +184,24 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
                    '-V', 'monofont=DejaVu Sans Mono']
       font_opts += ['-V', 'CJKmainfont=Noto Sans CJK JP'] if cjk
 
+      # Define MathJax-only macros as no-ops so LaTeX renders their content
+      # rather than aborting on an undefined control sequence.
+      #
+      # \bbox[colour]{maths} is a MathJax extension with no LaTeX equivalent. It
+      # appears 15 times in the 2016 sphere-equation article as cyan emphasis.
+      # Stripping it from the source would silently change how that published
+      # page looks, so instead LaTeX is taught to ignore the decoration and
+      # typeset the argument. \providecommand leaves any real definition alone.
+      mathjax_shims = [
+        '-V', 'header-includes=\\providecommand{\\bbox}[2][]{#2}',
+      ]
+
       pdf_cmd = ['pandoc', tmp.path,
                  '--from', reader,
                  '--standalone',
                  '--pdf-engine=xelatex',
                  *font_opts,
+                 *mathjax_shims,
                  '-V', 'geometry:margin=1in',
                  '-V', 'colorlinks=true',
                  '-V', 'linkcolor=RoyalBlue',
