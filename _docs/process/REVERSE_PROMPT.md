@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: Infrastructure audit and remediation. Every mechanical defect resolved. Four items need
-your judgment and are listed at the bottom.
+**Task**: Infrastructure audit, download-pipeline repair, and the follow-up rectifications. All
+complete, deployed, and verified live. One editorial item remains for you.
 
 ---
 
@@ -37,8 +37,9 @@ comparing a local build against the live sitemap: **291 local pages, 291 live, z
 
 **Reference integrity, now clean corpus-wide.** Added the missing `[rust_book]` definition to the
 2025-12-17 Solana post, which had been rendering literally as `[The Rust Programming
-Language][rust_book]` on the live site. Removed four orphan definitions in 2016 posts. Zero
-undefined, zero unused.
+Language][rust_book]` on the live site. The four orphan definitions in 2016 posts were initially
+removed and, per your instruction, subsequently restored and cited instead. Zero undefined, zero
+unused.
 
 **Dependency.** `json` 2.19.7 to 2.21.2, clearing the Dependabot advisory. The lockfile diff is
 that one line.
@@ -106,6 +107,19 @@ gitignored. I left it alone rather than delete work you may still want.
 
 ## State
 
-Branch `master`. Build verified after every change. Two commits unpushed, the earlier documentation
-one and this one. The PDF fix cannot be confirmed until a deploy runs, since pandoc and xelatex are
-not installed locally.
+Branch `master`, tree clean, everything pushed and deployed.
+
+**The download pipeline is fully repaired and verified live**: `pdf=293 epub=293 skipped=1
+failed=0`, from an initial 293 PDF failures and 19 misplaced EPUBs. A 28-post sample spanning 2016
+to 2026 returns 200 for both formats. Six deploys were needed because LaTeX aborts at the FIRST
+error in a document, so each fix exposed the next defect. Do not read a flat failure count as a
+stalled fix; check whether the ERROR TEXT changed.
+
+Six of the ten root causes were latent defects in the CORPUS, not tooling: `align` nested in
+display delimiters, two double subscripts, two under-declared array column specs, MathJax-only
+macros, and an opening `$` followed by a space. All are invalid LaTeX that MathJax renders
+leniently and that the delimiter-balance check cannot see. The PDF pipeline is the only process
+here that parses the mathematics strictly, so treat it as a math linter and keep it green.
+
+Corpus-wide: zero undefined anchors, zero unused definitions, zero unsorted definition blocks, zero
+filename-versus-front-matter date mismatches, zero broken internal links, zero missing assets.
