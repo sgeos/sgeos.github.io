@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Getting Started with Keleusma 0.2.2"
-date:   2026-07-10 12:00:00 +0000
+date: 2026-07-11 12:00:00 +0000
 categories: rust embedded programming
 series: keleusma_getting_started
 series_title: Keleusma Getting Started
@@ -850,4 +850,4 @@ lays the groundwork for.
 [related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}
 [related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
-[related_post_self_hosted_silicon]: {% post_url 2026-07-09-self_hosted_silicon_compiler %}
+[related_post_self_hosted_silicon]: {% post_url 2026-07-10-self_hosted_silicon_compiler %}

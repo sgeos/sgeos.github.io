@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Hardware Description Languages, the State of the Practice"
-date:   2026-07-08 12:00:00 +0000
+date: 2026-07-09 12:00:00 +0000
 categories: hdl hardware adoption
 series: hdl_thread
 series_title: Hardware Description Languages

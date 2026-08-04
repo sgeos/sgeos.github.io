@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Pre-War Computing Origins and Ballistics"
-date: 2026-07-13 09:00:00 +0000
+date: 2026-07-14 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -196,7 +196,7 @@ The next article in the series treats the wartime computing efforts that ran in 
 [ref_kerrison_predictor]: https://collection.sciencemuseumgroup.org.uk/objects/co51067/predictor-no-3-mk-i-kerrison-anti-aircraft-fire-control-predictor
 [ref_zuse_z3]: https://en.wikipedia.org/wiki/Z3_(computer)
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
 
 [research_aiken_hopper_1946]: https://ieeexplore.ieee.org/document/5222878
 [research_bromley_1990]: https://ieeexplore.ieee.org/document/4638384

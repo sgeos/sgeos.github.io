@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Contemporary Snapshot and Extrapolation"
-date: 2026-07-23 09:00:00 +0000
+date: 2026-07-24 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -203,12 +203,12 @@ This concludes the twelve-article series on aerospace, programming languages, an
 [ref_nist_pqc]: https://csrc.nist.gov/projects/post-quantum-cryptography
 [ref_tsmc]: https://www.tsmc.com/english
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-17-apollo_guidance_computer %}
-[related_post_a243_arpanet_networking]: {% post_url 2026-07-18-arpanet_and_networking_origins %}
-[related_post_a245_safety_critical_software]: {% post_url 2026-07-20-safety_critical_software %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
-[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
+[related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
+[related_post_a245_safety_critical_software]: {% post_url 2026-07-21-safety_critical_software %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-22-silicon_valley_from_defense_contracting %}
+[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-23-software_defined_aerospace_and_autonomy %}
 
 [research_bernstein_lange_2017]: https://www.nature.com/articles/nature23461
 [research_hoffmann_et_al_2022]: https://arxiv.org/abs/2203.15556

@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Aerospace Simulation and Real-Time Systems"
-date: 2026-07-16 09:00:00 +0000
+date: 2026-07-17 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -173,10 +173,10 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 [ref_siso]: https://www.sisostds.org/
 [ref_vxworks]: https://www.windriver.com/products/vxworks
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}
-[related_post_a239_wartime_computing]: {% post_url 2026-07-14-wartime_computing_and_code_breaking %}
-[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-15-early_cold_war_air_defense_and_sage %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a238_pre_war_computing]: {% post_url 2026-07-14-pre_war_computing_origins_and_ballistics %}
+[related_post_a239_wartime_computing]: {% post_url 2026-07-15-wartime_computing_and_code_breaking %}
+[related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
 
 [research_baarspul_1990]: https://www.sciencedirect.com/science/article/pii/0376042190900175
 [research_dahmann_fujimoto_weatherly_1997]: https://dl.acm.org/doi/10.1109/WSC.1997.640388

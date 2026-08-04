@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Aerospace, Programming Languages, and Information Technology Co-Development: Software-Defined Aerospace and Autonomy"
-date: 2026-07-22 09:00:00 +0000
+date: 2026-07-23 09:00:00 +0000
 categories: history technology aerospace
 series: co_development_aerospace_computing
 series_title: Aerospace, Programming Languages, and Information Technology Co-Development
@@ -165,12 +165,12 @@ The next article in the series takes the contemporary snapshot as of 2026, appli
 [ref_ansi_jaus_autonomy]: https://en.wikipedia.org/wiki/JAUS
 [ref_arinc_661]: https://www.aviation-ia.com/products/661-cockpit-display-system-interfaces-user-systems
 
-[related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}
-[related_post_a243_arpanet_networking]: {% post_url 2026-07-18-arpanet_and_networking_origins %}
-[related_post_a244_space_shuttle_software]: {% post_url 2026-07-19-space_shuttle_software_as_engineering_landmark %}
-[related_post_a245_safety_critical_software]: {% post_url 2026-07-20-safety_critical_software %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
+[related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
+[related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
+[related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
+[related_post_a244_space_shuttle_software]: {% post_url 2026-07-20-space_shuttle_software_as_engineering_landmark %}
+[related_post_a245_safety_critical_software]: {% post_url 2026-07-21-safety_critical_software %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-22-silicon_valley_from_defense_contracting %}
 
 [research_dijkstra_1959]: https://link.springer.com/article/10.1007/BF01386390
 [research_hart_nilsson_raphael_1968]: https://ieeexplore.ieee.org/document/4082128
