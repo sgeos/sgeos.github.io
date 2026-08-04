@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Creating A Jekyll GitHub Pages Blog and Managing it With FreeBSD"
-date:   2016-01-08 03:07:15 +0900
+date: 2016-01-09 03:07:15 +0900
 categories: jekyll github freebsd
 ---
 

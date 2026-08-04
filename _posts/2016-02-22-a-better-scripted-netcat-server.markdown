@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "A Better Scripted Netcat Server"
-date:   2016-02-18 07:53:00 +0900
+date: 2016-02-22 07:53:00 +0900
 categories: freebsd nc
 ---
 

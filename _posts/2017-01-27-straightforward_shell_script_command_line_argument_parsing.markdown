@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Straightforward Shell Script Command Line Argument Parsing"
-date:   2017-01-25 14:27:00 +0000
+date: 2017-01-27 14:27:00 +0000
 categories: sh freebsd
 ---
 

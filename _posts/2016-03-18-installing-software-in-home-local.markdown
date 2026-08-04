@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Installing Software in $HOME/local"
-date:   2016-03-17 17:49:50 +0000
+date: 2016-03-18 17:49:50 +0000
 categories: unix
 ---
 

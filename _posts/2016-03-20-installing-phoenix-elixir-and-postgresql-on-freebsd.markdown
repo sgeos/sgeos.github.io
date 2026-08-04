@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Installing Phoenix, Elixir and PostgreSQL on FreeBSD"
-date:   2016-03-19 07:35:02 +0000
+date: 2016-03-20 07:35:02 +0000
 categories: phoenix elixir postgresql freebsd
 ---
 
