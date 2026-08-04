@@ -186,7 +186,7 @@ You pressed: q
 Normal exit. Terminal settings restored.
 ```
 
-If you terminate with `Ctrl+C`, the signal handler triggers, ensuring your terminal doesn't stay in a bugged, non-echoing state.
+If you terminate with `Ctrl+C`, the signal handler triggers, ensuring your terminal does not stay in a bugged, non-echoing state.
 
 ## References:
 - [UNIX, How do you do non-blocking console I/O on Linux in C?][unix-nonblock]

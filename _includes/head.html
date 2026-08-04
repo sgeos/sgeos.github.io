@@ -39,8 +39,19 @@
   {% if page.layout == 'post' %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
+  {%- comment -%}
+    Social preview image. Per-post `image:` wins, otherwise `og_image` from
+    _config.yml. Both tags are omitted entirely when neither is set, because a
+    tag pointing at a missing or tiny image previews worse than no tag at all.
+    Recommended source asset is 1200x630.
+  {%- endcomment -%}
+  {% assign social_image = page.image | default: site.og_image %}
+  {% if social_image %}
+  <meta property="og:image" content="{{ social_image | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ social_image | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="{% if social_image %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ meta_description }}">
   {% if site.twitter_username %}

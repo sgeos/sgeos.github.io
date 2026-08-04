@@ -474,7 +474,7 @@ with hardware.
 Additionally, this book provides a list of useful resources that can help
 further your learning.
 
-For those eager to purchase hardware to learn on, it's wise to identify a
+For those eager to purchase hardware to learn on, it is wise to identify a
 learning resource and purchase the hardware it recommends.
 For example, the [Discovery Book][rust_book_discovery] is highly recommended
 for beginners.

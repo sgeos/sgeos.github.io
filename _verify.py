@@ -42,7 +42,10 @@ SHADOWED = {"keleusma"}
 
 # MathJax accepts these; LaTeX does not, so they break PDF generation. Found on
 # 2026-08-05 when the repaired PDF pipeline turned into a de facto math linter.
-MATHJAX_ONLY = re.compile(r"\\(bbox|lt|gt|cssId|require|class)\b")
+# _downloads.rb defines \bbox, \lt and \gt as LaTeX no-ops, so those are
+# handled. Anything else MathJax-only would break PDF generation silently.
+MATHJAX_SHIMMED = {"bbox", "lt", "gt"}
+MATHJAX_ONLY = re.compile(r"\\(bbox|lt|gt|cssId|require|class|style|texttip|toggle)\b")
 
 CONTRACTIONS = re.compile(
     r"\b(?:can't|won't|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|hasn't|"
@@ -60,6 +63,47 @@ distinct underlying appropriate relevant robust effective relatively typically
 admits compact leverage utilize facilitate encompass underscore
 myriad nuanced holistic pivotal seamless intricate paradigm realm landscape""".split()
 WORD_RATE_LIMIT = 5.0  # per thousand prose words; a flag, not a verdict
+
+EXEMPTIONS_FILE = "_verify_exemptions.yml"
+
+
+def load_exemptions():
+    """Documented false positives, so warnings that remain carry signal.
+
+    Parsed without PyYAML, which is not guaranteed present on a bare runner.
+    The file is a fixed two-level shape, so a small reader is enough and adds
+    no dependency to the deploy path.
+    """
+    if not os.path.exists(EXEMPTIONS_FILE):
+        return {}
+    out, check, entry = {}, None, None
+    for raw in open(EXEMPTIONS_FILE, encoding="utf-8"):
+        line = raw.rstrip("\n")
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if not line.startswith(" ") and line.rstrip().endswith(":"):
+            check = line.rstrip()[:-1].strip()
+            out[check] = []
+            continue
+        m = re.match(r"\s*-\s*(\w+):\s*(.*)", line)
+        if m and check:
+            entry = {m.group(1): m.group(2).strip()}
+            out[check].append(entry)
+            continue
+        m = re.match(r"\s+(\w+):\s*(.*)", line)
+        if m and entry is not None:
+            entry[m.group(1)] = m.group(2).strip()
+    return out
+
+
+def exempt(exemptions, check, name, word=None):
+    for e in exemptions.get(check, []):
+        if e.get("post") and e["post"] not in name:
+            continue
+        if word is not None and e.get("word") and e["word"] != word:
+            continue
+        return True
+    return False
 
 
 class Report:
@@ -133,7 +177,8 @@ def prose_text(text):
     return "\n".join(body)
 
 
-def check_post(path, text, rep):
+def check_post(path, text, rep, exemptions=None, is_draft=False):
+    exemptions = exemptions or {}
     name = os.path.basename(path)
 
     fm = front_matter(text)
@@ -252,9 +297,12 @@ def check_post(path, text, rep):
             if e2 and e2 < len(text) and text[e2] == "_":
                 rep.error("math-double-subscript", f"{name}: double subscript near {text[mm.start():e2+6]!r}")
                 break
-    mo = MATHJAX_ONLY.search(text)
-    if mo:
-        rep.warn("math-mathjax-only", f"{name}: {mo.group(0)} is MathJax-only; PDF relies on a shim")
+    for mo in MATHJAX_ONLY.finditer(text):
+        macro = mo.group(1)
+        if macro in MATHJAX_SHIMMED:
+            continue
+        rep.warn("math-mathjax-only", f"{name}: \\{macro} is MathJax-only and is NOT shimmed; PDF generation will fail")
+        break
 
     body = prose_text(text)
     for i, line in prose_lines(text):
@@ -264,8 +312,11 @@ def check_post(path, text, rep):
             break
     for i, line in prose_lines(text):
         clean = re.sub(r"\$[^$\n]+\$|`[^`\n]+`|\{%.*?%\}|\[[^\]]*\]\[[^\]]*\]", " ", line)
-        if CONTRACTIONS.search(clean):
-            rep.warn("style-contraction", f"{name}:{i+1}: {CONTRACTIONS.search(clean).group(0)}")
+        # Strip quoted spans first: a quoted title such as "Cool URIs don't
+        # change" or a quoted error message is not the author's prose.
+        unquoted = re.sub(r'"[^"\n]*"|\u201c[^\u201d\n]*\u201d', " ", clean)
+        if CONTRACTIONS.search(unquoted) and not exempt(exemptions, "style-contraction", name):
+            rep.warn("style-contraction", f"{name}:{i+1}: {CONTRACTIONS.search(unquoted).group(0)}")
             break
 
     words = [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z'-]*", body)]
@@ -275,6 +326,8 @@ def check_post(path, text, rep):
             n = counts.get(w, 0)
             rate = n * 1000.0 / len(words)
             if n >= 10 and rate >= WORD_RATE_LIMIT:
+                if exempt(exemptions, "word-frequency", name, w):
+                    continue
                 rep.warn("word-frequency", f"{name}: `{w}` {n}x = {rate:.1f}/1k (limit {WORD_RATE_LIMIT})")
 
     return d
@@ -290,10 +343,11 @@ def main():
     dates = collections.defaultdict(list)
     numbers = collections.defaultdict(list)
 
+    exemptions = load_exemptions()
     posts = sorted(glob.glob(os.path.join(POSTS, "*.markdown")))
     for p in posts:
         text = open(p, encoding="utf-8").read()
-        d = check_post(p, text, rep)
+        d = check_post(p, text, rep, exemptions)
         if d:
             dates[d].append(os.path.basename(p))
         num = re.search(r"<!--\s*(A\d+)\s*-->", text)
@@ -324,6 +378,15 @@ def main():
                 "draft-date-taken",
                 f"{os.path.basename(p)}: dated {m.group(1)}, already used by {dates[m.group(1)][0]}",
             )
+        # Run the full battery over the draft, downgraded to warnings. A draft
+        # is work in progress and must never fail the build, but its defects
+        # should be visible before publication rather than after.
+        sub = Report()
+        check_post(p, text, sub, exemptions, is_draft=True)
+        for check, detail in sub.errors + sub.warnings:
+            if check in ("date-filename", "draft-date-taken", "debug-tag"):
+                continue
+            rep.warn(f"draft-{check}", detail)
 
     if not args.quiet:
         print(f"checked {len(posts)} posts")
@@ -341,11 +404,15 @@ def main():
             if len(by[check]) > 12:
                 print(f"    ... and {len(by[check]) - 12} more")
 
-    show(rep.warnings, "WARN ")
+    if not args.quiet:
+        show(rep.warnings, "WARN ")
     show(rep.errors, "ERROR")
 
     failed = rep.errors or (args.strict and rep.warnings)
-    print(f"\n{len(rep.errors)} error(s), {len(rep.warnings)} warning(s)")
+    if args.quiet:
+        print(f"{len(rep.errors)} error(s), {len(rep.warnings)} warning(s) (warnings hidden by --quiet)")
+    else:
+        print(f"\n{len(rep.errors)} error(s), {len(rep.warnings)} warning(s)")
     return 1 if failed else 0
 
 
