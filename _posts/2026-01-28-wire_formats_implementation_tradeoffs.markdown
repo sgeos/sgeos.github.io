@@ -51,6 +51,8 @@ Delimiting requires no lookahead and permits streaming without knowing the total
 
 Fixed width removes the question entirely at the cost of flexibility. The base RISC-V integer instruction set fixes instructions at thirty-two bits, so the address of the next instruction is always known without decoding the current one, which is what makes wide superscalar fetch practical. The compressed extension reintroduces variable width for density and pays for it with a more complex decoder.
 
+A decoder constrained to a single pass cannot look ahead, which turns boundary discovery from a convenience into a hard constraint. The compiler literature treats the same problem as the forward reference, where a jump target is not yet known at the moment the jump must be emitted, and the standard resolution is to write a placeholder and patch it once the target resolves. [Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables] develops that mechanism, and [Block-Structured Control Flow and Single-Pass Validation][related_post_single_pass_validation] shows how a format can be shaped so the problem does not arise. A streaming decoder faces the identical choice between buffering until the extent is known and emitting provisional structure that a later byte corrects.
+
 Instruction encodings show the tradeoff at its sharpest because the decoder is silicon. A variable-width encoding means the processor cannot know where instruction $j+1$ begins until it has partly decoded instruction $j$, which serialises a step that the designer very much wants parallel.
 
 ## The Unrecognised
@@ -105,6 +107,8 @@ $$\frac{\alpha}{B} + \frac{\alpha}{\beta D} < \frac{1}{B} + \frac{1}{D}$$
 
 On a slow link the bandwidth term dominates and compactness wins. Within a data centre, where $B$ is large, the decode term dominates and the same choice loses. This is why formats that win on mobile networks lose on local interconnects, and why the correct answer changes with deployment rather than being a property of the format.
 
+Where the decoder rather than the link is the constrained resource, the calculation shifts again. [Symbol Tables, Scope Popping, and Bounded Working Memory][related_post_symbol_tables] treats the compiler case in which the binding constraint is the working set a decoder must hold rather than the size of what it consumes, which is the situation for any device decoding a stream larger than its memory.
+
 Instruction encodings face the identical calculation with different units. A compressed encoding reduces instruction memory and increases decoder complexity, and whether that is worth it depends on whether the design is constrained by memory or by decode throughput.
 
 ## Alignment, Endianness, and the Cost of Portability
@@ -126,6 +130,8 @@ Zero-copy formats must respect alignment because they hand out direct references
 A format that succeeds becomes difficult to change, and the difficulty grows with the number of independent implementations that have made assumptions about it.
 
 Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
+
+A project that treats a change to its bytecode as requiring explicit authorisation rather than as a routine version bump has recognised the same pressure early. [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting] records a bytecode-format change as a stop that needs a deliberate decision, which is an acknowledgement that the encoding is a contract with every artifact already compiled against it rather than an internal detail of the current compiler.
 
 Instruction encodings ossify hardest of all, because the dependent implementations are shipped silicon that cannot be updated. Opcode space is allocated once and reclaimed almost never, and the practical consequence is that architectures reserve encoding space long before they know what will occupy it.
 
@@ -193,7 +199,11 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 - [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
 - [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
 - [RISC-V Unprivileged Specification][ref_riscv_spec]
+- [Related Post, Block-Structured Control Flow and Single-Pass Validation][related_post_single_pass_validation]
+- [Related Post, Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables]
 - [Related Post, Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor]
+- [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
+- [Related Post, Symbol Tables, Scope Popping, and Bounded Working Memory][related_post_symbol_tables]
 - [Related Post, WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll]
 - [Related Post, Wire Formats, What They Are][related_post_wire_formats_what]
 
@@ -209,6 +219,10 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 [ref_rfc8949]: https://www.rfc-editor.org/rfc/rfc8949
 [ref_rfc9000]: https://www.rfc-editor.org/rfc/rfc9000
 [ref_riscv_spec]: https://riscv.org/technical/specifications/
+[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
+[related_post_keleusma_self_hosting]: {% post_url 2026-07-12-keleusma_self_hosting_strategy %}
+[related_post_single_pass_validation]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
 [related_post_solana_anchor]: {% post_url 2025-12-17-solana_with_rust_and_anchor_getting_started %}
+[related_post_symbol_tables]: {% post_url 2026-04-14-symbol_tables_scope_popping_bounded_memory %}
 [related_post_wasm_on_jekyll]: {% post_url 2026-01-26-webasm_on_jekyll %}
 [related_post_wire_formats_what]: {% post_url 2026-01-27-wire_formats_what_they_are %}
