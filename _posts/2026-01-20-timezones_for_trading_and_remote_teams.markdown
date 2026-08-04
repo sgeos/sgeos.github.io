@@ -65,10 +65,10 @@ labor laws, culture, and commuting realities.
 - **The 9-Hour Reality:** In many countries, full-time “8-hour” shifts are
 actually **8.5 to 9 hours** long, accommodating mandatory unpaid lunch breaks.
 - **The Social Offset:** Shifts are often moved by an hour to manage traffic
-patterns. A **07:00–15:30** shift avoids congestion, while **09:00–18:00** is
+patterns. A **07:00 to 15:30** shift avoids congestion, while **09:00 to 18:00** is
 common in professional services.
 - **Managerial Interpolation:** Team leads frequently work interpolated hours,
-such as **05:30–14:00**, to oversee overnight handovers and stabilize the
+such as **05:30 to 14:00**, to oversee overnight handovers and stabilize the
 morning workforce.
 
 ## Global Regions: Asia Pacific, Europe, and the United States

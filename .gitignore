@@ -16,6 +16,9 @@ vendor/
 # drafts not worth commiting
 hidden.*.markdown
 
+# Generated download cache, populated by _downloads.rb
+.cache/
+
 # Project-local temporary files
 secret/*
 tmp/*

@@ -13,6 +13,7 @@ Jekyll-based static blog deployed to GitHub Pages at [sgeos.github.io](https://s
 ./_preview.sh            # serves at http://localhost:4000/
 ./_preview.sh 8080       # custom port
 DRAFTS=1 ./_preview.sh   # include drafts (aborts if a draft has an unresolved post_url)
+FUTURE=0 ./_preview.sh   # hide forward-dated posts, matching the live site
 ```
 
 Drafts are off by default because `--drafts` builds the `_drafts/` directory, and
@@ -25,11 +26,23 @@ the deploy closely, including `jekyll-archives`. Do not verify against a Gemfile
 plugins stripped; it reports hundreds of phantom broken links and hides real ones. See
 [`_docs/process/CROSS_LINKED_SERIES.md`](_docs/process/CROSS_LINKED_SERIES.md).
 
-**The preview does not match the live site for forward-dated posts.** `_preview.sh` passes
-`--future`, so it renders posts dated ahead of today. The site sets `future: false`, so those
-same posts are excluded from the real build and return 404 until their dates arrive. A clean
-preview is therefore not evidence that a forward-dated cross-reference is safe. See
+**The preview does not match the live site for forward-dated posts by default.** `_preview.sh`
+passes `--future`, so it renders posts dated ahead of today. The site sets `future: false`, so
+those same posts are excluded from the real build and return 404 until their dates arrive. A
+clean default preview is therefore not evidence that a forward-dated cross-reference is safe.
+Run `FUTURE=0 ./_preview.sh` to match production. See
 [`_docs/process/FORWARD_DATED_POSTS.md`](_docs/process/FORWARD_DATED_POSTS.md).
+
+**Verify corpus invariants (runs in CI before every build):**
+```sh
+python3 _verify.py           # errors and warnings; exits nonzero on error
+python3 _verify.py --strict  # treat warnings as errors too
+```
+
+Checks date collisions, filename versus front matter dates, UTC offsets, reference integrity,
+link-definition ordering, duplicate article numbers, shadowed first categories, math validity,
+prose style, and word-frequency outliers. Every check exists because that defect actually
+shipped. Citation and URL verification needs the network and lives separately.
 
 **Create a new draft:**
 ```sh
