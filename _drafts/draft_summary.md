@@ -17,6 +17,26 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Wire Formats Mini-Series 2026-01-27 and 2026-01-28
+
+Two release-candidate drafts written to fill the only interior gap remaining in the 2026 calendar,
+a two-day slot between the WebAssembly-on-Jekyll post at 2026-01-26 and the constant-AMM-mathematics
+post at 2026-01-29.
+
+- `wire_formats_what_they_are.markdown`, A295, 2026-01-27, 203 lines, 5 display equations.
+  Defines the wire-format class through three membership properties and walks three families that
+  are usually treated separately, namely data interchange encodings, protocol framing, and
+  instruction encodings.
+- `wire_formats_implementation_tradeoffs.markdown`, A296, 2026-01-28, 215 lines, 6 display
+  equations. Takes nine tradeoffs that cut across all three families and treats each as a choice
+  with no correct answer, closing on the combinations that are mutually contradictory.
+
+Both are analytical essays with the genre's Epistemic State and Out of Scope sections. Every
+external URL was checked, and each cited RFC was confirmed by title rather than by response code.
+Part two back-references part one, which is legal because 2026-01-27 precedes 2026-01-28; part one
+makes no forward reference. Both dates have passed, so batch publication resolves the internal
+cross-reference immediately.
+
 ## Series-Wide Consistency Pass 2026-08-04
 
 All twelve History of SpaceX articles A281 through A292, published and drafted, were audited together for equation density, reference density, publication suitability, crosslinks, and link validity. Front matter and crosslinks were already fully consistent. Equation density needed no change at 64 to 78 with median 72. A284 was the sole reference-density outlier at 49 primary references and was raised to 68. A285 was the sole structural outlier at 4 H3 subsections and received five Historiographical Gap subsections. Five prose style violations were repaired across A281, A282, and A284.
