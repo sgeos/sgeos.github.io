@@ -142,13 +142,24 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
     ]
 
     if have_xelatex
+      # Request the CJK font only for documents that actually contain CJK.
+      #
+      # Passing CJKmainfont unconditionally makes pandoc's template load
+      # xeCJK.sty, so every post depended on a package supplied by
+      # texlive-lang-chinese. When that package was absent, all 294 PDFs failed
+      # on a dependency that only 2 posts need, 88 and 20 characters
+      # respectively. Scoping the option keeps a missing CJK toolchain from
+      # taking down the entire corpus.
+      cjk = body.match?(/[぀-ヿ㐀-䶿一-鿿가-힯]/)
+      font_opts = ['-V', 'mainfont=DejaVu Serif',
+                   '-V', 'monofont=DejaVu Sans Mono']
+      font_opts += ['-V', 'CJKmainfont=Noto Sans CJK JP'] if cjk
+
       pdf_cmd = ['pandoc', tmp.path,
                  '--from', reader,
                  '--standalone',
                  '--pdf-engine=xelatex',
-                 '-V', 'mainfont=DejaVu Serif',
-                 '-V', 'monofont=DejaVu Sans Mono',
-                 '-V', 'CJKmainfont=Noto Sans CJK JP',
+                 *font_opts,
                  '-V', 'geometry:margin=1in',
                  '-V', 'colorlinks=true',
                  '-V', 'linkcolor=RoyalBlue',
