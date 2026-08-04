@@ -1019,8 +1019,7 @@ in single-pass validation.
 - [Brinch Hansen, The Programming Language Concurrent Pascal, IEEE Transactions on Software Engineering SE-1, 1975][research_brinch_hansen_concurrent_pascal]
 
 [research_brinch_hansen_concurrent_pascal]: https://doi.org/10.1109/TSE.1975.6312842
-[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060509
-
+[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060504
 ## Erratum
 
 Two corrections apply to earlier revisions of this article.

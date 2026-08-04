@@ -1418,4 +1418,4 @@ single-pass tractability.
 
 - [Brinch Hansen, SuperPascal, a Publication Language for Parallel Scientific Computing, Concurrency Practice and Experience 6, 1994][research_brinch_hansen_superpascal]
 
-[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060509
+[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060504

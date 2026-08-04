@@ -194,11 +194,11 @@ The contemporary continental European positioning reflects the mechanisms of the
 [related_post_first_mover_britain]: {% post_url 2026-03-16-first_mover_britain %}
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [research_baumol_convergence]: https://www.jstor.org/stable/1813352
-[research_cameron_credit_mobilier]: https://doi.org/10.1086/257428
-[research_fremdling_railroads]: https://doi.org/10.1017/S0022050700094626
+[research_cameron_credit_mobilier]: https://doi.org/10.1086/257433
+[research_fremdling_railroads]: https://doi.org/10.1017/s0022050700095395
 [research_guinnane_german_banking]: https://doi.org/10.1257/jel.40.1.73
-[research_nye_free_trade_myth]: https://doi.org/10.1017/S0022050700038420
-[research_peters_german_coal_cartels]: https://doi.org/10.1017/S0022050700007920
+[research_nye_free_trade_myth]: https://doi.org/10.1017/s0022050700038341
+[research_peters_german_coal_cartels]: https://doi.org/10.1017/s0022050700008032
 [research_prados_roses_spain]: https://doi.org/10.1016/j.eeh.2010.02.001
 [research_pritchett_divergence]: https://doi.org/10.1257/jep.11.3.3
 [research_squicciarini_voigtlander_human_capital]: https://doi.org/10.1093/qje/qjv025

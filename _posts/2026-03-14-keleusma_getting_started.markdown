@@ -903,7 +903,7 @@ and worst-case execution time analysis.
 [future_keleusma_language_design]: https://github.com/sgeos/keleusma/blob/master/docs/architecture/LANGUAGE_DESIGN.md
 [future_keleusma_related_work]: https://github.com/sgeos/keleusma/blob/master/docs/reference/RELATED_WORK.md
 [future_rust_embedded]: https://docs.rust-embedded.org/book/
-[future_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d
+[future_turner]: https://doi.org/10.3217/jucs-010-07-0751
 [ref_arena_allocator]: https://en.wikipedia.org/wiki/Region-based_memory_management
 [ref_bytecode]: https://en.wikipedia.org/wiki/Bytecode
 [ref_coroutine]: https://en.wikipedia.org/wiki/Coroutine
@@ -926,5 +926,5 @@ and worst-case execution time analysis.
 [ref_zero_copy_serialization]: https://en.wikipedia.org/wiki/Zero-copy
 [related_post_no_std_rust]: {% post_url 2026-01-16-no_std_rust_getting_started %}
 [research_rutten]: https://doi.org/10.1016/S0304-3975(00)00056-6
-[research_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d
+[research_turner]: https://doi.org/10.3217/jucs-010-07-0751
 [research_wilhelm]: https://doi.org/10.1145/1347375.1347389

@@ -762,7 +762,7 @@ The convergence question asks whether the elevation trajectories of elimination 
 - [Larson 1995 APIC Guideline for Handwashing and Hand Antisepsis][research_larson_1995]
 - [Barker and Jones 2005 Aerosol Contamination of Surfaces After Flushing a Domestic Toilet][research_barker_jones_2005]
 - [Best and Redway 2014 Comparison of Hand-Drying Methods and Airborne Microbe Dispersal][research_best_redway_2014]
-- [Best Sandoe and Wilcox 2012 Aerosolization of Clostridium difficile and the Role of Toilet Lids][research_best_wilcox_2012]
+- [Best Sandoe and Wilcox 2012 Potential for Aerosolization of Clostridium difficile after Flushing Toilets, the Role of Toilet Lids][research_best_wilcox_2012]
 - [Huesca-Espitia and colleagues 2018 Deposition of Bacteria by Bathroom Hot-Air Hand Dryers][research_huesca_espitia_2018]
 - [Kimmitt and Redway 2016 Virus Dispersal During Hand Drying][research_kimmitt_redway_2016]
 - [Park and colleagues 2020 A Mountable Toilet System for Personalized Health Monitoring][research_park_2020_smart_toilet]
@@ -963,8 +963,8 @@ The convergence question asks whether the elevation trajectories of elimination 
 [research_barber_2009]: https://doi.org/10.1111/j.1748-0159.2009.00155.x
 [research_barber_2010]: https://doi.org/10.1108/09604521011011630
 [research_barker_jones_2005]: https://doi.org/10.1111/j.1365-2672.2005.02610.x
-[research_best_redway_2014]: https://doi.org/10.1016/j.jhin.2014.11.006
-[research_best_wilcox_2012]: https://doi.org/10.1016/j.jhin.2011.12.008
+[research_best_redway_2014]: https://doi.org/10.1016/j.jhin.2014.11.007
+[research_best_wilcox_2012]: https://doi.org/10.1016/j.jhin.2011.08.010
 [research_beyond_potty_parity]: https://www.mdpi.com/2075-471X/15/3/55
 [research_bitner]: https://doi.org/10.1177/002224299205600205
 [research_bmcr_roman_toilets]: https://bmcr.brynmawr.edu/2012/2012.03.34/

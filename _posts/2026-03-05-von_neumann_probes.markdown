@@ -2382,11 +2382,11 @@ with the subject.
 - [Are Self-Replicating Machines Feasible? (JBIS), Ellery, 2017][future_ellery_feasible]
 - [Artificial Intelligence for Interstellar Travel (JBIS), Hein and Baxter, 2019][future_hein_ai]
 - [Deep Space Probes: To the Outer Solar System and Beyond, Matloff, 2005][future_matloff]
-- [Galactic Exploration by Directed Self-Replicating Probes (Int J Astrobiol), Nicholson and Forgan, 2013][future_nicholson]
+- [Slingshot Dynamics for Self-Replicating Probes (Int J Astrobiol), Nicholson and Forgan, 2013][future_nicholson]
 - [Interstellar Travel and Multi-Generational Space Ships, Kondo et al., 2003][future_kondo]
 - [Kinematic Self-Replicating Machines, Freitas and Merkle, 2004][research_freitas_merkle]
 - [Nanosystems: Molecular Machinery, Manufacturing, and Computation, Drexler, 1992][future_drexler_nanosystems]
-- [Self-Replicating Lunar Factory Design (Artificial Life), Ellery, 2020][future_ellery_lunar]
+- [Building Physical Self-Replicating Machines (ECAL), Ellery, 2017][future_ellery_lunar]
 - [Starwisp: An Ultra-Light Interstellar Probe (JBIS), Forward, 1985][future_forward]
 - [The Case for Interstellar Probes (JBIS), Freitas, 1983][future_freitas_case]
 - [The Colonization of Space (Physics Today), O'Neill, 1974][future_oneill]
@@ -2493,16 +2493,16 @@ with the subject.
 - [Von Neumann Probes: Rationale, Propulsion, Interstellar Transfer Timing, Cambridge, 2022][research_vn_rationale]
 
 [future_drexler_nanosystems]: https://en.wikipedia.org/wiki/Nanosystems:_Molecular_Machinery,_Manufacturing,_and_Computation
-[future_ellery_feasible]: https://doi.org/10.14403/jbis.2017.70.11-12.404
-[future_ellery_lunar]: https://doi.org/10.1162/artl_a_00317
-[future_forward]: https://doi.org/10.2514/6.1984-1396
+[future_ellery_feasible]: https://doi.org/10.2514/6.2015-4653
+[future_ellery_lunar]: https://doi.org/10.7551/ecal_a_026
+[future_forward]: https://doi.org/10.2514/3.25754
 [future_freitas_case]: https://www.rfreitas.com/Astro/ProbesJBIS1983.htm
-[future_hein_ai]: https://doi.org/10.14403/jbis.2019.72.02.49
+[future_hein_ai]: https://arxiv.org/abs/1811.06526
 [future_kaku]: https://en.wikipedia.org/wiki/Physics_of_the_Impossible
 [future_kondo]: https://en.wikipedia.org/wiki/Generation_ship
 [future_mallove]: https://en.wikipedia.org/wiki/The_Starflight_Handbook
 [future_matloff]: https://link.springer.com/book/10.1007/b104370
-[future_nicholson]: https://doi.org/10.1017/S1473550413000122
+[future_nicholson]: https://doi.org/10.1017/s1473550413000244
 [future_oneill]: https://en.wikipedia.org/wiki/Gerard_K._O%27Neill#The_High_Frontier
 [ref_additive_manufacturing]: https://en.wikipedia.org/wiki/3D_printing
 [ref_antimatter_rocket]: https://en.wikipedia.org/wiki/Antimatter_rocket
@@ -2563,7 +2563,7 @@ with the subject.
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-[research_bjork]: https://doi.org/10.1017/S1473550407003813
+[research_bjork]: https://doi.org/10.1017/s1473550407003709
 [research_borgue]: https://arxiv.org/abs/2005.12303
 [research_bracewell]: https://doi.org/10.1038/186670a0
 [research_brin]: https://www.researchgate.net/publication/234496344_The_'Great_Silence'_The_Controversy_Concerning_Extraterrestrial_Intelligent_Life
@@ -2575,10 +2575,10 @@ with the subject.
 [research_eternity]: https://doi.org/10.1016/j.actaastro.2013.04.002
 [research_freitas]: https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm
 [research_freitas_merkle]: https://en.wikipedia.org/wiki/Self-replicating_machine#Further_reading
-[research_hart]: https://doi.org/10.1093/qjras/16.2.128
+[research_hart]: https://doi.org/10.1017/cbo9780511564970.003
 [research_jones]: https://ui.adsabs.harvard.edu/abs/1981Icar...46..328J
 [research_langford]: https://ieeexplore.ieee.org/document/7943956/
-[research_langton]: https://doi.org/10.1016/0167-2789(84)90259-2
+[research_langton]: https://doi.org/10.1016/0167-2789(84)90256-2
 [research_liu]: https://en.wikipedia.org/wiki/The_Dark_Forest
 [research_lubin]: https://arxiv.org/abs/1604.01356
 [research_muller]: https://link.springer.com/article/10.1140/epjp/s13360-022-03320-3
@@ -2588,9 +2588,9 @@ with the subject.
 [research_osmanov_dyson]: https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/dyson-swarms-of-von-neumann-probes-prospects-and-predictions/F974CC6EF4F32ED5040EBCFD50631764
 [research_parkin]: https://arxiv.org/abs/1805.01306
 [research_penrose]: https://doi.org/10.1111/j.1469-1809.1958.tb01442.x
-[research_reprap_jones]: https://doi.org/10.1017/S0263574711000613
+[research_reprap_jones]: https://doi.org/10.1017/s026357471000069x
 [research_sagan]: https://ui.adsabs.harvard.edu/abs/1983QJRAS..24..113S
-[research_sipper]: https://doi.org/10.1162/artl.1998.4.3.237
+[research_sipper]: https://doi.org/10.1162/106454698568576
 [research_starshot_demise]: https://www.scientificamerican.com/article/the-quiet-demise-of-breakthrough-starshot-a-billionaires-interstellar-mission-to-alpha-centauri/
 [research_tipler]: https://adsabs.harvard.edu/full/1980QJRAS..21..267T
 [research_vn_rationale]: https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/von-neumann-probes-rationale-propulsion-interstellar-transfer-timing/5202679D74645D3707248FE5D5FA0124

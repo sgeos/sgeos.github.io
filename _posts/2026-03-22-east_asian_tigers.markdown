@@ -156,9 +156,9 @@ The tenth article of the series treats India and other late arrivals whose post-
 [related_post_postwar_japan_and_west_germany]: {% post_url 2026-03-21-postwar_japan_and_west_germany %}
 [related_post_soviet_forced_industrialization]: {% post_url 2026-03-20-soviet_forced_industrialization %}
 [research_cumings_northeast_asia]: https://doi.org/10.1017/S0020818300026734
-[research_huff_singapore]: https://doi.org/10.1016/0305-750X(95)00068-N
-[research_kohli_korea]: https://doi.org/10.1016/0305-750X(94)90007-8
+[research_huff_singapore]: https://doi.org/10.1016/0305-750x(95)00043-c
+[research_kohli_korea]: https://doi.org/10.1016/0305-750x(94)90004-3
 [research_krugman_asian_myth]: https://www.foreignaffairs.com/articles/asia/1994-11-01/myth-asias-miracle
 [research_radelet_sachs_crisis]: https://www.brookings.edu/articles/the-east-asian-financial-crisis-diagnosis-remedies-prospects/
 [research_rodrik_interventions]: https://doi.org/10.2307/1344538
-[research_young_tyranny_of_numbers]: https://doi.org/10.2307/2946642
+[research_young_tyranny_of_numbers]: https://doi.org/10.2307/2946695

@@ -225,6 +225,6 @@ The subsequent articles of the series treat the industrializers who followed the
 [research_north_weingast_constitutions]: https://doi.org/10.1017/S0022050700009451
 [research_nunn_slave_trades]: https://doi.org/10.1162/qjec.2008.123.1.139
 [research_pierce_schott_manufacturing]: https://doi.org/10.1257/aer.20131578
-[research_sokoloff_patents]: https://doi.org/10.1017/S0022050700006653
+[research_sokoloff_patents]: https://doi.org/10.1017/s002205070000663x
 [research_wright_american_success]: https://www.jstor.org/stable/2006429
 [research_wright_slavery]: https://doi.org/10.1111/ehr.12962

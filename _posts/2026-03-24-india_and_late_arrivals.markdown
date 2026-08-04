@@ -152,5 +152,5 @@ The eleventh article of the series treats the non-industrializers and edge cases
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [related_post_soviet_forced_industrialization]: {% post_url 2026-03-20-soviet_forced_industrialization %}
 [research_bosworth_collins_china_india]: https://doi.org/10.1257/jep.22.1.45
-[research_eichengreen_park_shin_slowdowns]: https://doi.org/10.1016/j.japwor.2014.07.001
-[research_rodrik_subramanian_india]: https://doi.org/10.2307/30035948
+[research_eichengreen_park_shin_slowdowns]: https://doi.org/10.1016/j.japwor.2014.07.003
+[research_rodrik_subramanian_india]: https://doi.org/10.2307/30035894

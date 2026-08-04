@@ -352,5 +352,5 @@ The remaining eleven articles walk the waves in order. The framework introduced 
 [research_clark_working_class]: https://doi.org/10.1086/498123
 [research_karaman_pamuk_modern_state]: https://doi.org/10.1017/S0003055413000312
 [research_north_weingast_constitutions]: https://doi.org/10.1017/S0022050700009451
-[research_obrien_british_taxation]: https://doi.org/10.2307/2596483
+[research_obrien_british_taxation]: https://doi.org/10.2307/2597330
 [research_scheidel_friesen_roman]: https://doi.org/10.3815/007543509789745223
