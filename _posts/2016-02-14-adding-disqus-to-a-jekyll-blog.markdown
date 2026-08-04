@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Adding Disqus to a Jekyll Blog"
-date:   2016-02-15 05:56:57 +0900
+date: 2016-02-14 20:56:57 +0000
 categories: jekyll disqus
 ---
 

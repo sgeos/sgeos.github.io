@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Single File Elixir Programs"
-date: 2016-01-12 17:35:06 +0900
+date: 2016-01-12 08:35:06 +0000
 categories: elixir erlang
 ---
 

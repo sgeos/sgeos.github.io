@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Elixir, Executing AST"
-date:   2016-02-01 04:49:00 +0900
+date: 2016-01-31 19:49:00 +0000
 categories: elixir metaprogramming ast
 ---
 

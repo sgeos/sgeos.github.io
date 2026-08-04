@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Getting Started With Command Line Swift"
-date:   2016-01-18 09:01:44 +0900
+date: 2016-01-18 00:01:44 +0000
 categories: swift
 ---
 

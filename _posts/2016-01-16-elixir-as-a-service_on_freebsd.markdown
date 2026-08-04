@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Elixir as a Service on FreeBSD"
-date:   2016-01-17 07:36:31 +0900
+date: 2016-01-16 22:36:31 +0000
 categories: elixir erlang
 ---
 
