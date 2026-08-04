@@ -228,22 +228,22 @@ proposal rather than discovering it at the prototype's edge.
 - [Research, SBIR and STTR at the National Science Foundation (America's Seed Fund)][research_nsf]
 - [Research, The Defense SBIR and STTR Innovation Portal][research_dod]
 
+[ref_acquisition]: https://en.wikipedia.org/wiki/Military_acquisition
 [ref_commercialization]: https://en.wikipedia.org/wiki/Commercialization
 [ref_crada]: https://en.wikipedia.org/wiki/Cooperative_Research_and_Development_Agreement
 [ref_dual_use]: https://en.wikipedia.org/wiki/Dual-use_technology
 [ref_fda]: https://en.wikipedia.org/wiki/Food_and_Drug_Administration
-[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
-[ref_acquisition]: https://en.wikipedia.org/wiki/Military_acquisition
 [ref_prime]: https://en.wikipedia.org/wiki/Prime_contractor
+[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
 [ref_program_of_record]: https://en.wikipedia.org/wiki/Program_of_record
-[ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_technology_transfer]: https://en.wikipedia.org/wiki/Technology_transfer
+[ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_venture_capital]: https://en.wikipedia.org/wiki/Venture_capital
+[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_phase_two]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
-[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[research_nih]: https://grants.nih.gov/
-[research_sbir_gov]: https://www.sbir.gov/
-[research_nsf]: https://seedfund.nsf.gov/
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_nih]: https://grants.nih.gov/
+[research_nsf]: https://seedfund.nsf.gov/
+[research_sbir_gov]: https://www.sbir.gov/

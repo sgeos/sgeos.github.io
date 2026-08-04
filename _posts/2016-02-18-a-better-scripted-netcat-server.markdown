@@ -197,8 +197,8 @@ curl -v 127.0.0.1:4000
 - [UNIX, How to get full path of a file?][unix-fullpath]
 
 [blog-nc]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
-[unix-minimum-nc]: http://stackoverflow.com/questions/16640054/minimal-web-server-using-netcat
-[unix-sh-loop]: http://www.tutorialspoint.com/unix/unix-loop-control.htm
 [unix-bash-concat]: http://stackoverflow.com/questions/4181703/how-can-i-concatenate-string-variables-in-bash
 [unix-fullpath]: http://stackoverflow.com/questions/5265702/how-to-get-full-path-of-a-file
+[unix-minimum-nc]: http://stackoverflow.com/questions/16640054/minimal-web-server-using-netcat
+[unix-sh-loop]: http://www.tutorialspoint.com/unix/unix-loop-control.htm
 

@@ -412,6 +412,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [Elixir exrm Deployment][elixir-exrm-deploy]
 - [Elixir, edeliver][elixir-edeliver]
 - [Elixir, Programming Elixir 1.2][elixir-book]
+- [Elixir, syslog Packages on Hex][elixir-syslog]
 - [FreeBSD Forums, /opt directory replacement][freebsd-opt]
 - [FreeBSD Forums, Creating a System User (like www)][freebsd-system-user]
 - [FreeBSD Forums, Configurable rc.d Script Template?][freebsd-rc-template]
@@ -432,30 +433,31 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [Erlang, rebar Releases][erlang-rebar-releases]
 - [IRC #elixir-lang on Freenode][irc-elixir-lang]
 
-[elixir-gen-tcp]:        http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html
-[elixir-system]:         http://elixir-lang.org/docs/v1.0/elixir/System.html#get_env/1
+[bash-arg]:              http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script
+[elixir-book]:           https://pragprog.com/book/elixir12/programming-elixir-1-2
+[elixir-edeliver]:       https://github.com/boldpoker/edeliver
 [elixir-exrm]:           https://github.com/bitwalker/exrm
 [elixir-exrm-config]:    https://exrm.readme.io/docs/release-configuration
 [elixir-exrm-deploy]:    https://hexdocs.pm/exrm/extra-deployment.html
-[elixir-edeliver]:       https://github.com/boldpoker/edeliver
-[elixir-book]:           https://pragprog.com/book/elixir12/programming-elixir-1-2
+[elixir-gen-tcp]:        http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html
+[elixir-syslog]: https://hex.pm/packages?search=syslog&sort=downloads
+[elixir-system]:         http://elixir-lang.org/docs/v1.0/elixir/System.html#get_env/1
+[erlang-config]:         http://www.erlang.org/doc/man/config.html
+[erlang-distributed]:    http://www.erlang.org/doc/reference_manual/distributed.html
+[erlang-rebar-releases]: https://www.rebar3.org/docs/releases
+[erlang-sys-config]:     http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/
 [freebsd-opt]:           https://forums.freebsd.org/threads/opt-directory-replacement.12614/
 [freebsd-rc]:            https://www.freebsd.org/doc/en/articles/rc-scripting/index.html
 [freebsd-rc-subr]:       https://www.freebsd.org/cgi/man.cgi?query=rc.subr&sektion=8
 [freebsd-rc-template]:   https://forums.freebsd.org/threads/configurable-rc-d-script-template.53308/
 [freebsd-shells]:        https://www.freebsd.org/doc/handbook/shells.html
-[unix-opt]:              http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
-[unix-users]:            http://www.greenend.org.uk/rjk/tech/useradd.html
-[bash-arg]:              http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script
-[unix-shell-contains]:   http://stackoverflow.com/questions/229551/string-contains-in-bash/229585#229585
-[unix-shell-case]:       http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
-[sh-cheat-sheet]:        https://www.joedog.org/articles-cheat-sheet/
-[freebsd-system-user]:   https://forums.freebsd.org/threads/creating-a-system-user-like-www.2152/
 [freebsd-su]:            http://stackoverflow.com/questions/285658/run-as-different-user-under-freebsd
-[unix-chown]:            http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively
-[erlang-distributed]:    http://www.erlang.org/doc/reference_manual/distributed.html
-[erlang-config]:         http://www.erlang.org/doc/man/config.html
-[erlang-sys-config]:     http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/
-[erlang-rebar-releases]: https://www.rebar3.org/docs/releases
+[freebsd-system-user]:   https://forums.freebsd.org/threads/creating-a-system-user-like-www.2152/
 [irc-elixir-lang]:       irc://irc.freenode.net/elixir-lang
+[sh-cheat-sheet]:        https://www.joedog.org/articles-cheat-sheet/
+[unix-chown]:            http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively
+[unix-opt]:              http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
+[unix-shell-case]:       http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
+[unix-shell-contains]:   http://stackoverflow.com/questions/229551/string-contains-in-bash/229585#229585
+[unix-users]:            http://www.greenend.org.uk/rjk/tech/useradd.html
 

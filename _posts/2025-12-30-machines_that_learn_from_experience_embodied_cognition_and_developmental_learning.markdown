@@ -911,8 +911,8 @@ Modern artificial cognitive systems increasingly recognize the value of the comp
 [research_asada_et_al_2001_cognitive_dev]: https://ieeexplore.ieee.org/document/954823
 [research_asada_et_al_2009]: https://ieeexplore.ieee.org/document/4838369
 [research_aslin_newport_2014]: https://onlinelibrary.wiley.com/doi/10.1111/cdep.12057
-[research_baddeley_2003_wm]: https://www.nature.com/articles/nrn1201
 [research_bach_y_rita_1969]: https://www.nature.com/articles/221963a0
+[research_baddeley_2003_wm]: https://www.nature.com/articles/nrn1201
 [research_baillargeon_1987]: https://psycnet.apa.org/doi/10.1037/0012-1649.23.5.655
 [research_baillargeon_spelke_wasserman_1985]: https://www.sciencedirect.com/science/article/abs/pii/0010027785900085
 [research_baranes_oudeyer_2013_playful]: https://www.sciencedirect.com/science/article/pii/S0921889012001571

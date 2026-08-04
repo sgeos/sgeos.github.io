@@ -536,9 +536,9 @@ when each method can and cannot be trusted.
 - [Tool, Binomial Distribution Calculator][tool_binomial]
 - [Tool, Standard Normal Z-Table][tool_z_table]
 
-[book_wasserman]: https://link.springer.com/book/10.1007/978-0-387-21736-9
-[book_ross]: https://shop.elsevier.com/books/introduction-to-probability-and-statistics-for-engineers-and-scientists/ross/978-0-12-824346-6
 [book_bruce]: https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/
+[book_ross]: https://shop.elsevier.com/books/introduction-to-probability-and-statistics-for-engineers-and-scientists/ross/978-0-12-824346-6
+[book_wasserman]: https://link.springer.com/book/10.1007/978-0-387-21736-9
 [reference_khan]: https://www.khanacademy.org/math/statistics-probability
 [reference_nist]: https://www.itl.nist.gov/div898/handbook/
 [reference_notation]: https://en.wikipedia.org/wiki/Notation_in_probability_and_statistics

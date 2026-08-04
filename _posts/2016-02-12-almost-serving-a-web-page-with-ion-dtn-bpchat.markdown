@@ -424,6 +424,7 @@ The HTML document is served without issue.
 - [UNIX, Trouble with piping through sed][unix-sed-unbuffered]
 - [UNIX, how can I get sed to quit after the first matching address range?][unix-sed-match-quit]
 - [UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)][unix-match-block]
+- [UNIX, Case Insensitive Search and Replace with sed][unix-case-insensitive]
 - [UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters][unix-sed-control]
 - [UNIX, Can sed remove 'double' newline characters?][unix-sed-newline]
 - [UNIX, Case-insensitive search & replace with sed][unix-sed-case-insensitive]
@@ -440,36 +441,37 @@ The HTML document is served without issue.
 - [Wikipedia, End-of-Transmission character][wikipedia-eot]
 - [Wikipedia, Escape sequences in C][wikipedia-escape-c]
 
+[freebsd-bridging]: https://www.freebsd.org/doc/handbook/network-bridging.html
+[freebsd-singleline]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
 [ion-bp]: http://bundleprotocol.com
 [ion-dtn-support]: https://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/
 [ion-getting-started]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
-[freebsd-bridging]: https://www.freebsd.org/doc/handbook/network-bridging.html
-[freebsd-singleline]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
-[unix-sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Debugging_and_signal_handling
-[unix-bourne-shell]: http://www.grymoire.com/Unix/Sh.html
-[unix-trap]: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156
-[unix-sigint]: http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/
-[unix-netcat-easy]: http://www.stearns.org/doc/nc-intro.current.html
-[unix-netcat-proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
-[unix-sed-utf8]: http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding
-[unix-last-lines]: https://kb.iu.edu/d/acrj
-[unix-fifo]: http://www.tldp.org/LDP/lpg/node18.html
-[unix-sed-unbuffered]: http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed
-[unix-sed-match-quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
-[unix-match-block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
-[unix-sed-control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
-[unix-sed-newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
-[unix-sed-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
-[unix-sed-whole-line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
-[unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
-[unix-ascii]: http://www.asciitable.com
-[networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
-[networking-proxy2]: http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
 [jekyll-posts]: http://jekyllrb.com/docs/posts/
 [jekyll-subscript1]: http://stackoverflow.com/questions/15155778/superscript-in-markdown-github-flavored
 [jekyll-subscript2]: http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586
-[wikipedia-utf8]: https://en.wikipedia.org/wiki/UTF-8
-[wikipedia-greek]: https://en.wikipedia.org/wiki/Greek_alphabet
+[networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
+[networking-proxy2]: http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
+[unix-ascii]: http://www.asciitable.com
+[unix-bourne-shell]: http://www.grymoire.com/Unix/Sh.html
+[unix-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
+[unix-fifo]: http://www.tldp.org/LDP/lpg/node18.html
+[unix-last-lines]: https://kb.iu.edu/d/acrj
+[unix-match-block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
+[unix-netcat-easy]: http://www.stearns.org/doc/nc-intro.current.html
+[unix-netcat-proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
+[unix-sed-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
+[unix-sed-control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
+[unix-sed-match-quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
+[unix-sed-newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
+[unix-sed-unbuffered]: http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed
+[unix-sed-utf8]: http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding
+[unix-sed-whole-line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
+[unix-sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Debugging_and_signal_handling
+[unix-sigint]: http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/
+[unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
+[unix-trap]: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156
 [wikipedia-eot]: https://en.wikipedia.org/wiki/End-of-Transmission_character
 [wikipedia-escape-c]: https://en.wikipedia.org/wiki/Escape_sequences_in_C
+[wikipedia-greek]: https://en.wikipedia.org/wiki/Greek_alphabet
+[wikipedia-utf8]: https://en.wikipedia.org/wiki/UTF-8
 

@@ -431,5 +431,5 @@ and the shape of the language alike.
 [ref_refinement_type]: https://en.wikipedia.org/wiki/Refinement_type
 [ref_total_functional]: https://en.wikipedia.org/wiki/Total_functional_programming
 [ref_wcet]: https://en.wikipedia.org/wiki/Worst-case_execution_time
-[related_post_truthful_machine]: {% post_url 2026-05-26-neurosymbolic_blueprint_for_truthful_machines %}
 [related_post_keleusma]: {% post_url 2026-03-14-keleusma_getting_started %}
+[related_post_truthful_machine]: {% post_url 2026-05-26-neurosymbolic_blueprint_for_truthful_machines %}

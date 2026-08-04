@@ -370,10 +370,10 @@ exists only to deliver the thing it was built to carry.
 
 [ref_aerial_recon]: https://en.wikipedia.org/wiki/Aerial_reconnaissance
 [ref_agricultural_drone]: https://en.wikipedia.org/wiki/Agricultural_drone
-[ref_atlo]: https://en.wikipedia.org/wiki/Air-launch-to-orbit
 [ref_angular_resolution]: https://en.wikipedia.org/wiki/Angular_resolution
 [ref_apogee_kick]: https://en.wikipedia.org/wiki/Apogee_kick_motor
 [ref_apsis]: https://en.wikipedia.org/wiki/Apsis
+[ref_atlo]: https://en.wikipedia.org/wiki/Air-launch-to-orbit
 [ref_circular_orbit]: https://en.wikipedia.org/wiki/Circular_orbit
 [ref_data_compression]: https://en.wikipedia.org/wiki/Data_compression
 [ref_delivery_drone]: https://en.wikipedia.org/wiki/Delivery_drone
@@ -397,13 +397,13 @@ exists only to deliver the thing it was built to carry.
 [ref_orbital_speed]: https://en.wikipedia.org/wiki/Orbital_speed
 [ref_payload]: https://en.wikipedia.org/wiki/Payload
 [ref_pegasus]: https://en.wikipedia.org/wiki/Pegasus_(rocket)
+[ref_sar]: https://en.wikipedia.org/wiki/Synthetic-aperture_radar
 [ref_sensor_fusion]: https://en.wikipedia.org/wiki/Sensor_fusion
 [ref_sigint]: https://en.wikipedia.org/wiki/Signals_intelligence
 [ref_sounding_rocket]: https://en.wikipedia.org/wiki/Sounding_rocket
 [ref_spaceplane]: https://en.wikipedia.org/wiki/Spaceplane
 [ref_stanag]: https://en.wikipedia.org/wiki/STANAG_4586
 [ref_suborbital]: https://en.wikipedia.org/wiki/Sub-orbital_spaceflight
-[ref_sar]: https://en.wikipedia.org/wiki/Synthetic-aperture_radar
 [ref_vibration_isolation]: https://en.wikipedia.org/wiki/Vibration_isolation
 [related_post_aerobatics]: {% post_url 2026-06-11-aerobatics_as_costed_trajectories_for_fixed_wing_uavs %}
 [related_post_comms]: {% post_url 2026-06-09-communications_and_the_command_and_control_data_link_for_fixed_wing_uavs %}

@@ -1624,6 +1624,7 @@ that informs telemeritocratic authority distribution.
 [book_political_parties]: https://en.wikipedia.org/wiki/Political_Parties_(book)
 [book_tva]: https://en.wikipedia.org/wiki/Philip_Selznick
 [ref_compartmentalization]: https://en.wikipedia.org/wiki/Compartmentalization_(information_security)
+[ref_council_ten]: https://en.wikipedia.org/wiki/Council_of_Ten
 [ref_counterintelligence]: https://en.wikipedia.org/wiki/Counterintelligence
 [ref_cryptocracy]: https://en.wiktionary.org/wiki/cryptocracy
 [ref_devils_advocate]: https://www.britannica.com/topic/devils-advocate
@@ -1631,11 +1632,10 @@ that informs telemeritocratic authority distribution.
 [ref_ostracism]: https://en.wikipedia.org/wiki/Ostracism
 [ref_sox]: https://www.whistleblowers.gov/statutes/sox_amended
 [ref_tribune]: https://en.wikipedia.org/wiki/Tribune_of_the_plebs
-[ref_council_ten]: https://en.wikipedia.org/wiki/Council_of_Ten
-[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}
-[related_post_telemeritocracy]: {% post_url 2026-02-19-telemeritocracy %}
+[related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
+[related_post_telemeritocracy]: {% post_url 2026-02-18-telemeritocracy %}
 [research_burkett]: https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls/
+[research_jensen_meckling]: https://www.sciencedirect.com/science/article/pii/0304405X7690026X
 [research_merton]: https://www.ebsco.com/research-starters/social-sciences-and-humanities/mertons-dysfunctions-bureaucracies
 [research_mission_drift]: https://www.researchgate.net/publication/265969563_Understanding_and_combating_mission_drift_in_social_enterprises
 [research_morselli]: https://www.sciencedirect.com/science/article/abs/pii/S0378873306000268
-[research_jensen_meckling]: https://www.sciencedirect.com/science/article/pii/0304405X7690026X

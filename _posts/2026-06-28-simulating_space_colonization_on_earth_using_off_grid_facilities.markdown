@@ -1989,10 +1989,10 @@ will build on.
 [ref_3d_habitat_challenge]: https://www.nasa.gov/centennial-challenges/
 [ref_amundsen_scott]: https://en.wikipedia.org/wiki/Amundsen%E2%80%93Scott_South_Pole_Station
 [ref_antarctic_starlink]: https://www.nsf.gov/news/news_summ.jsp?cntn_id=307974
-[ref_artemis_iceland]: https://science.nasa.gov/missions/artemis/nasas-artemis-ii-crew-uses-iceland-terrain-for-lunar-training/
 [ref_aquarius]: https://en.wikipedia.org/wiki/Aquarius_Reef_Base
 [ref_arads]: https://www.nasa.gov/universe/atacama-rover-astrobiology-drilling-studies-arads/
 [ref_arizona_biosphere]: https://biosphere2.org/
+[ref_artemis_iceland]: https://science.nasa.gov/missions/artemis/nasas-artemis-ii-crew-uses-iceland-terrain-for-lunar-training/
 [ref_atacama]: https://en.wikipedia.org/wiki/Atacama_Desert
 [ref_bios_3]: https://en.wikipedia.org/wiki/BIOS-3
 [ref_biosphere_2]: https://en.wikipedia.org/wiki/Biosphere_2

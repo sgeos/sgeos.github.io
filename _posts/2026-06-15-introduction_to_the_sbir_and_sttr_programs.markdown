@@ -262,20 +262,20 @@ money.
 - [Research, Small Business Research Programs, Overview and Issues for Reauthorization (Congressional Research Service)][research_crs]
 
 [ref_bayh_dole]: https://en.wikipedia.org/wiki/Bayh%E2%80%93Dole_Act
-[ref_grant]: https://en.wikipedia.org/wiki/Federal_grants_in_the_United_States
+[ref_dilution]: https://en.wikipedia.org/wiki/Stock_dilution
 [ref_ffrdc]: https://en.wikipedia.org/wiki/Federally_funded_research_and_development_center
+[ref_grant]: https://en.wikipedia.org/wiki/Federal_grants_in_the_United_States
 [ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
 [ref_rnd]: https://en.wikipedia.org/wiki/Research_and_development
-[ref_seed_money]: https://en.wikipedia.org/wiki/Seed_money
 [ref_sba]: https://en.wikipedia.org/wiki/Small_Business_Administration
 [ref_sbir]: https://en.wikipedia.org/wiki/Small_Business_Innovation_Research
+[ref_seed_money]: https://en.wikipedia.org/wiki/Seed_money
 [ref_sttr]: https://en.wikipedia.org/wiki/Small_Business_Technology_Transfer
-[ref_dilution]: https://en.wikipedia.org/wiki/Stock_dilution
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_venture_capital]: https://en.wikipedia.org/wiki/Venture_capital
 [related_post_engineering]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_regulatory]: {% post_url 2026-06-14-regulatory_and_operations_layer_for_fixed_wing_uavs %}
-[research_seedfund]: https://seedfund.nsf.gov/
-[research_sbir_gov]: https://www.sbir.gov/
 [research_crs]: https://www.congress.gov/crs-product/IF12874
+[research_sbir_gov]: https://www.sbir.gov/
+[research_seedfund]: https://seedfund.nsf.gov/

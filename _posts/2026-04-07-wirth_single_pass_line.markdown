@@ -969,11 +969,11 @@ under the closed-source constraint.
 - [PL/0 language description][ref_pl0]
 - [Modula-2 programming language][ref_modula2]
 
-[ref_wirth]: https://en.wikipedia.org/wiki/Niklaus_Wirth
+[ref_modula2]: https://en.wikipedia.org/wiki/Modula-2
 [ref_oberon]: https://en.wikipedia.org/wiki/Oberon_(programming_language)
 [ref_pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 [ref_pl0]: https://en.wikipedia.org/wiki/PL/0
-[ref_modula2]: https://en.wikipedia.org/wiki/Modula-2
+[ref_wirth]: https://en.wikipedia.org/wiki/Niklaus_Wirth
 
 ### Related Post
 
@@ -988,5 +988,5 @@ under the closed-source constraint.
 - [Wirth, The Programming Language Oberon, Software Practice and Experience 18, 1988][research_wirth_oberon]
 
 [research_haas_webassembly]: https://dl.acm.org/doi/10.1145/3062341.3062363
-[research_wirth_pascal]: https://doi.org/10.1007/BF00264291
 [research_wirth_oberon]: https://doi.org/10.1002/spe.4380180707
+[research_wirth_pascal]: https://doi.org/10.1007/BF00264291

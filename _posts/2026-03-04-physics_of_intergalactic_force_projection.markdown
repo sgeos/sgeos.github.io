@@ -2768,8 +2768,8 @@ reaches ours.
 [ref_lmc]: https://en.wikipedia.org/wiki/Large_Magellanic_Cloud
 [ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
 [ref_lotka_volterra]: https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
-[ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
 [ref_m87]: https://en.wikipedia.org/wiki/Messier_87
+[ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
 [ref_milky_way]: https://en.wikipedia.org/wiki/Milky_Way
 [ref_nuclear_pulse]: https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion
 [ref_penrose]: https://en.wikipedia.org/wiki/Penrose_process
@@ -2785,8 +2785,8 @@ reaches ours.
 [ref_supernova]: https://en.wikipedia.org/wiki/Supernova
 [ref_von_neumann_machine]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
 [ref_wormhole]: https://en.wikipedia.org/wiki/Wormhole
-[related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
+[related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [research_andrews_zubrin]: https://ui.adsabs.harvard.edu/abs/1991JSpRo..28..197Z/abstract
 [research_balbi]: https://arxiv.org/abs/1711.11318

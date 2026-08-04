@@ -809,10 +809,10 @@ Modern computational treatments of reproducibility include the frameworks for au
 [research_gentner_1983]: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0702_3
 [research_glascher_et_al_2010]: https://www.cell.com/neuron/fulltext/S0896-6273(10)00287-4
 [research_gopnik_et_al_2004]: https://psycnet.apa.org/doi/10.1037/0033-295X.111.1.3
+[research_griffiths_et_al_2010]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(10)00113-X
 [research_harlow_1949]: https://psycnet.apa.org/doi/10.1037/h0062474
 [research_herrnstein_1961]: https://onlinelibrary.wiley.com/doi/10.1901/jeab.1961.4-267
 [research_higgins_1997]: https://psycnet.apa.org/doi/10.1037/0003-066X.52.12.1280
-[research_griffiths_et_al_2010]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(10)00113-X
 [research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
 [research_kamin_1968]: https://scholar.google.com/scholar?q=kamin+1968+predictability+surprise+attention+conditioning
 [research_kemp_tenenbaum_2008]: https://www.pnas.org/doi/10.1073/pnas.0802631105

@@ -231,21 +231,21 @@ campaign that the rest of the series began.
 - [Research, The Defense SBIR and STTR Innovation Portal][research_dod]
 
 [ref_audit_trail]: https://en.wikipedia.org/wiki/Audit_trail
+[ref_cmmc]: https://en.wikipedia.org/wiki/Cybersecurity_Maturity_Model_Certification
+[ref_compliance]: https://en.wikipedia.org/wiki/Regulatory_compliance
 [ref_contracting_officer]: https://en.wikipedia.org/wiki/Contracting_Officer
 [ref_cui]: https://en.wikipedia.org/wiki/Controlled_Unclassified_Information
-[ref_cmmc]: https://en.wikipedia.org/wiki/Cybersecurity_Maturity_Model_Certification
-[ref_debarment]: https://en.wikipedia.org/wiki/Debarment
 [ref_dcaa]: https://en.wikipedia.org/wiki/Defense_Contract_Audit_Agency
+[ref_debarment]: https://en.wikipedia.org/wiki/Debarment
 [ref_false_claims]: https://en.wikipedia.org/wiki/False_Claims_Act
 [ref_far]: https://en.wikipedia.org/wiki/Federal_Acquisition_Regulation
-[ref_compliance]: https://en.wikipedia.org/wiki/Regulatory_compliance
 [ref_single_audit]: https://en.wikipedia.org/wiki/Single_Audit
 [ref_termination]: https://en.wikipedia.org/wiki/Termination_for_convenience
 [related_post_data_rights]: {% post_url 2026-06-22-data_rights_and_intellectual_property_for_sbir_and_sttr %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
 [related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[research_dod]: https://www.dodsbirsttr.mil/
 [research_nih]: https://grants.nih.gov/
 [research_sbir_gov]: https://www.sbir.gov/
-[research_dod]: https://www.dodsbirsttr.mil/

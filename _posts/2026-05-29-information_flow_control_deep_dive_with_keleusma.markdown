@@ -472,18 +472,18 @@ where the guarantee is proved before the program runs.
 - [Research, Security Policies and Security Models][research_goguen_noninterference]
 - [Research, A Sound Type System for Secure Flow Analysis][research_volpano]
 
+[kel_github]: https://github.com/sgeos/keleusma
+[kel_guide_ifc]: https://github.com/sgeos/keleusma/blob/main/docs/guide/24_information_flow_labels.md
 [ref_jif]: https://www.cs.cornell.edu/jif/
 [ref_lattice_ac]: https://en.wikipedia.org/wiki/Lattice-based_access_control
 [ref_noninterference]: https://en.wikipedia.org/wiki/Non-interference_(security)
 [ref_taint]: https://en.wikipedia.org/wiki/Taint_checking
-[kel_github]: https://github.com/sgeos/keleusma
-[kel_guide_ifc]: https://github.com/sgeos/keleusma/blob/main/docs/guide/24_information_flow_labels.md
 [related_post_control_kernel]: {% post_url 2026-05-27-verifiable_control_kernel_in_keleusma %}
 [related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
-[research_denning_certification]: https://dl.acm.org/doi/10.1145/359636.359712
 [research_declassification]: https://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf
-[research_sabelfeld_survey]: https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf
+[research_denning_certification]: https://dl.acm.org/doi/10.1145/359636.359712
 [research_denning_lattice]: https://dl.acm.org/doi/10.1145/360051.360056
-[research_myers_dlm]: https://www.cs.cornell.edu/andru/papers/iflow-tosem.pdf
 [research_goguen_noninterference]: https://www.cs.purdue.edu/homes/ninghui/readings/AccessControl/goguen_meseguer_82.pdf
+[research_myers_dlm]: https://www.cs.cornell.edu/andru/papers/iflow-tosem.pdf
+[research_sabelfeld_survey]: https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf
 [research_volpano]: https://people.mpi-sws.org/~dg/teaching/lis2014/modules/ifc-1-volpano96.pdf

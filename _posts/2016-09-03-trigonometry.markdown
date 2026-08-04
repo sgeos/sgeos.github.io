@@ -338,16 +338,16 @@ $$
 - [WolframAlpha, Multi Function Plot][wolfram-alpha-multi]
 - [MathJax Preview][mathjax-preview]
 
-[wiki-trig]: https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+[mathjax-preview]: https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html
+[polar-complex]: http://hotmath.com/hotmath_help/topics/polar-form-of-a-complex-number.html
+[trig-ident]: http://math2.org/math/trig/identities.htm
+[trig-range]: http://users.math.msu.edu/users/systeven/mth103/t3.7.pdf
+[trig-sum]: http://www.sosmath.com/trig/prodform/prodform.html
 [wiki-polar]: https://en.wikipedia.org/wiki/Polar_coordinate_system
 [wiki-sphere]: https://en.wikipedia.org/wiki/Spherical_coordinate_system#Cartesian_coordinates
-[trig-range]: http://users.math.msu.edu/users/systeven/mth103/t3.7.pdf
-[trig-ident]: http://math2.org/math/trig/identities.htm
-[trig-sum]: http://www.sosmath.com/trig/prodform/prodform.html
-[polar-complex]: http://hotmath.com/hotmath_help/topics/polar-form-of-a-complex-number.html
+[wiki-trig]: https://en.wikipedia.org/wiki/List_of_trigonometric_identities
 [wolfram-alpha]: http://www.wolframalpha.com/input/?i=csc+x+-+sec+x,+-pi+%3C%3D+x+%3C%3D+pi
+[wolfram-alpha-multi]: https://www.wolframalpha.com/input/?i=Plot%5B%7Bx%5E2%2By%5E2%3D5%5E2,y%3D-atan(pi%2F6)(x-(5+sin+(pi%2F6)))+%2B+(5+cos+(pi%2F6)),y%3D-atan(pi%2F6)(x%2B(5+sin+(pi%2F6)))+-+(5+cos+(pi%2F6))%7D%5D
 [wolfram-alpha-param]: http://www.wolframalpha.com/input/?i=parametric+plot+(cot+t,+(t%2Fpi)+tan+t),+-2pi+%3C%3D+t+%3C%3D+2pi
 [wolfram-alpha-polar]: http://www.wolframalpha.com/input/?i=polar+plot+r%3Dcot(phi)+*+tan(phi)+%2B+phi+%2F+pi,+-pi+%3C%3D+phi+%3C%3D+pi
-[wolfram-alpha-multi]: https://www.wolframalpha.com/input/?i=Plot%5B%7Bx%5E2%2By%5E2%3D5%5E2,y%3D-atan(pi%2F6)(x-(5+sin+(pi%2F6)))+%2B+(5+cos+(pi%2F6)),y%3D-atan(pi%2F6)(x%2B(5+sin+(pi%2F6)))+-+(5+cos+(pi%2F6))%7D%5D
-[mathjax-preview]: https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html
 

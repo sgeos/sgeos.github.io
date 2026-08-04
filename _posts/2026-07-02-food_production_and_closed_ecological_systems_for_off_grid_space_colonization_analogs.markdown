@@ -1636,7 +1636,7 @@ that the survey opener identified.
 [ref_veggie]: https://en.wikipedia.org/wiki/Vegetable_Production_System
 [ref_yuegong]: https://en.wikipedia.org/wiki/Lunar_Palace_1
 [related_post_analog_intro]: {% post_url 2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities %}
+[related_post_communications]: {% post_url 2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs %}
 [related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
 [related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
-[related_post_communications]: {% post_url 2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs %}
 

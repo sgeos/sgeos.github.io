@@ -1301,6 +1301,25 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [ref_vandenberg_slc4e_ea]: https://www.faa.gov/space/environmental
 [ref_washington_post]: https://www.washingtonpost.com/business/technology/
 [ref_wsj]: https://www.wsj.com/tech
+[related_post_a132_sbir_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
+[related_post_a138_sbir_phase3]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
+[related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
+[related_post_a164_patents_trade_secrets]: {% post_url 2026-05-06-patents_trade_secrets_and_the_disclosure_tradeoff %}
+[related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
+[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
+[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
+[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-23-contemporary_snapshot_and_extrapolation %}
+[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
+[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
+[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
+[related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
+[related_post_a285_spacex_decomposability]: {% post_url 2026-07-28-spacex_history_decomposability %}
+[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-29-spacex_history_generality_forcing %}
+[related_post_a287_spacex_governance]: {% post_url 2026-07-30-spacex_history_governance %}
+[related_post_a288_spacex_portfolio_patience]: {% post_url 2026-07-31-spacex_history_portfolio_patience %}
+[related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
+[related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [research_adler_clark_1991]: https://pubsonline.informs.org/doi/10.1287/mnsc.37.3.267
 [research_aghion_howitt_1992]: https://www.jstor.org/stable/2951599
 [research_alchian_1963]: https://doi.org/10.2307/1909166
@@ -1369,22 +1388,3 @@ The article closes with the load-bearing open questions the treatment leaves unr
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
 [research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
 [research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
-[related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-[related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
-[related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
-[related_post_a132_sbir_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
-[related_post_a138_sbir_phase3]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
-[related_post_a140_sbir_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
-[related_post_a164_patents_trade_secrets]: {% post_url 2026-05-06-patents_trade_secrets_and_the_disclosure_tradeoff %}
-[related_post_a237_aerospace_framing]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
-[related_post_a246_silicon_valley_defense]: {% post_url 2026-07-21-silicon_valley_from_defense_contracting %}
-[related_post_a247_software_defined_aerospace]: {% post_url 2026-07-22-software_defined_aerospace_and_autonomy %}
-[related_post_a248_contemporary_snapshot]: {% post_url 2026-07-23-contemporary_snapshot_and_extrapolation %}
-[related_post_a281_spacex_framing]: {% post_url 2026-07-24-spacex_history_framing %}
-[related_post_a282_spacex_value_gradient]: {% post_url 2026-07-25-spacex_history_value_gradient %}
-[related_post_a283_spacex_anchor_demand]: {% post_url 2026-07-26-spacex_history_anchor_demand %}
-[related_post_a284_spacex_value_capture]: {% post_url 2026-07-27-spacex_history_value_capture %}
-[related_post_a285_spacex_decomposability]: {% post_url 2026-07-28-spacex_history_decomposability %}
-[related_post_a286_spacex_generality_forcing]: {% post_url 2026-07-29-spacex_history_generality_forcing %}
-[related_post_a287_spacex_governance]: {% post_url 2026-07-30-spacex_history_governance %}
-[related_post_a288_spacex_portfolio_patience]: {% post_url 2026-07-31-spacex_history_portfolio_patience %}

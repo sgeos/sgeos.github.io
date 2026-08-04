@@ -564,11 +564,11 @@ and which become bulk junk.
 - [Tool, Scryfall Card Database and API][tool_scryfall]
 
 [blog_metagaming]: {% post_url 2026-01-14-metagaming_framework_for_life_strategy %}
-[book_rifkin]: https://us.macmillan.com/books/9781137280114/thezeromarginalcostsociety/
 [book_lehdonvirta]: https://mitpress.mit.edu/9780262027250/virtual-economies/
-[industry_gamesradar]: https://www.gamesradar.com/tabletop-gaming/magic-the-gathering-creator-richard-garfield-talks-game-design-players-look-back-now-and-see-a-bunch-of-broken-cards/
+[book_rifkin]: https://us.macmillan.com/books/9781137280114/thezeromarginalcostsociety/
 [industry_gamedeveloper]: https://www.gamedeveloper.com/design/what-magic-the-gathering-can-teach-us
+[industry_gamesradar]: https://www.gamesradar.com/tabletop-gaming/magic-the-gathering-creator-richard-garfield-talks-game-design-players-look-back-now-and-see-a-bunch-of-broken-cards/
 [reference_mtg_wiki_footer]: https://mtg.fandom.com/wiki/Information_below_the_text_box
-[reference_mtg_wikipedia]: https://en.wikipedia.org/wiki/Magic:_The_Gathering
 [reference_mtg_wiki_parts]: https://mtg.fandom.com/wiki/Parts_of_a_card
+[reference_mtg_wikipedia]: https://en.wikipedia.org/wiki/Magic:_The_Gathering
 [tool_scryfall]: https://scryfall.com/

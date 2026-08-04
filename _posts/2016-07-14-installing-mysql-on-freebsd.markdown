@@ -111,11 +111,11 @@ portmaster -e databases/mysql57-server databases/mysql57-client
 - [FreeBSD, Upgrade MySQL 5.1.70 to 5.6.12][freebsd-mysql-upgrade]
 - [FreeBSD, Properly deinstall ports and dependencies][freebsd-deinstall]
 
-[mysql-freebsd]: https://dev.mysql.com/doc/refman/5.7/en/freebsd-installation.html
-[mysql-reset-password]: http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html
-[mysql-commandline-query]: http://www.cyberciti.biz/faq/run-sql-query-directly-on-the-command-line/
-[mysql-version]: http://www.cyberciti.biz/faq/tell-version-mysql-unix-linux-command/
+[freebsd-deinstall]: https://forums.freebsd.org/threads/35457/
 [freebsd-mysql-failure]: http://www.gamecreatures.com/blog/2016/02/22/freebsd-mysql-server-failed-precmd-routine/
 [freebsd-mysql-upgrade]: https://forums.freebsd.org/threads/40833/
-[freebsd-deinstall]: https://forums.freebsd.org/threads/35457/
+[mysql-commandline-query]: http://www.cyberciti.biz/faq/run-sql-query-directly-on-the-command-line/
+[mysql-freebsd]: https://dev.mysql.com/doc/refman/5.7/en/freebsd-installation.html
+[mysql-reset-password]: http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html
+[mysql-version]: http://www.cyberciti.biz/faq/tell-version-mysql-unix-linux-command/
 

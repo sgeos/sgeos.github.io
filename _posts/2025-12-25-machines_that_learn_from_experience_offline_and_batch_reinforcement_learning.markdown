@@ -666,8 +666,8 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 [research_brohan_et_al_2022_rt1]: https://arxiv.org/abs/2212.06817
 [research_brohan_et_al_2023_rt2]: https://arxiv.org/abs/2307.15818
 [research_buckman_gelada_bellemare_2020]: https://arxiv.org/abs/2009.06799
-[research_chen_et_al_2019_youtube]: https://dl.acm.org/doi/10.1145/3289600.3290999
 [research_chebotar_et_al_2023_q_transformer]: https://arxiv.org/abs/2309.10150
+[research_chen_et_al_2019_youtube]: https://dl.acm.org/doi/10.1145/3289600.3290999
 [research_chen_et_al_2021_dt]: https://papers.nips.cc/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html
 [research_chen_jiang_2019]: https://proceedings.mlr.press/v97/chen19e.html
 [research_chen_wang_zhou_ross_2021_redq]: https://openreview.net/forum?id=AY8zfZm0tDd

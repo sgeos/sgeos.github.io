@@ -200,8 +200,8 @@ int mainLoop(ProgramState *pProgramState)
 - [ION-DTN, Serving a Web Page with ION-DTN bpsendfile and bprecvfile][ion-web]
 
 [freebsd-man-signal]: https://www.freebsd.org/cgi/man.cgi?sektion=3&query=signal
-[unix-linux-signals]: http://www.thegeekstuff.com/2012/03/catch-signals-sample-c-code/
-[unix-signals-traps]: http://www.tutorialspoint.com/unix/unix-signals-traps.htm
-[unix-signal-arg]: http://stackoverflow.com/questions/6970224/providing-passing-argument-to-signal-handler
 [ion-web]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html
+[unix-linux-signals]: http://www.thegeekstuff.com/2012/03/catch-signals-sample-c-code/
+[unix-signal-arg]: http://stackoverflow.com/questions/6970224/providing-passing-argument-to-signal-handler
+[unix-signals-traps]: http://www.tutorialspoint.com/unix/unix-signals-traps.htm
 

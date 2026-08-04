@@ -469,15 +469,15 @@ chmod +x tor_memo_api.sh
 
 [elixir-exrm]: https://github.com/bitwalker/exrm
 [elixir-exrm-release-config]: https://exrm.readme.io/docs/release-configuration
+[freebsd-phoenix]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
+[freebsd-phoenix-install]: https://sgeos.github.io/phoenix/elixir/postgresql/freebsd/2016/03/19/installing-phoenix-elixir-and-postgresql-on-freebsd.html
+[freebsd-tor]: https://sgeos.github.io/tor/freebsd/nc/curl/2016/02/06/getting-started-with-tor-hidden-services-on-freebsd.html
+[man-curl]:                https://www.freebsd.org/cgi/man.cgi?query=curl&manpath=SuSE+Linux/i386+11.3
 [phoenix-json]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
 [tor]:                     https://www.torproject.org/index.html.en
-[tor-tor2web]:             https://tor2web.org
 [tor-config]:              https://www.torproject.org/docs/tor-hidden-service.html.en
-[tor-torrc]:               https://www.torproject.org/docs/faq.html.en#torrc
 [tor-curl]:                https://github.com/curl/curl/issues/232
 [tor-curl-onion]:          http://stackoverflow.com/questions/18146295/curl-an-onion-url-over-an-http-proxy-does-not-return-expected-source
-[man-curl]:                https://www.freebsd.org/cgi/man.cgi?query=curl&manpath=SuSE+Linux/i386+11.3
-[freebsd-phoenix]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
-[freebsd-tor]: https://sgeos.github.io/tor/freebsd/nc/curl/2016/02/06/getting-started-with-tor-hidden-services-on-freebsd.html
-[freebsd-phoenix-install]: https://sgeos.github.io/phoenix/elixir/postgresql/freebsd/2016/03/19/installing-phoenix-elixir-and-postgresql-on-freebsd.html
+[tor-tor2web]:             https://tor2web.org
+[tor-torrc]:               https://www.torproject.org/docs/faq.html.en#torrc
 

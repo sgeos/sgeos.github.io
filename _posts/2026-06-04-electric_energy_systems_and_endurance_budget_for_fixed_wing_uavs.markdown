@@ -379,5 +379,5 @@ endurance with numbers rather than hope.
 [related_post_propulsion]: {% post_url 2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs %}
 [related_post_staged]: {% post_url 2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs %}
 [research_frontiers_electric]: https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2022.752012/full
-[research_mdpi_solar]: https://www.mdpi.com/2504-446X/9/12/846
 [research_mdpi_hybrid]: https://www.mdpi.com/2226-4310/9/2/63
+[research_mdpi_solar]: https://www.mdpi.com/2504-446X/9/12/846

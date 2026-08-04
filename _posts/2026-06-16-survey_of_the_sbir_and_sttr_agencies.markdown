@@ -275,26 +275,26 @@ choice into an award.
 
 [ref_afwerx]: https://en.wikipedia.org/wiki/AFWERX
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
+[ref_dhs]: https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security
+[ref_dod]: https://en.wikipedia.org/wiki/United_States_Department_of_Defense
+[ref_doe]: https://en.wikipedia.org/wiki/United_States_Department_of_Energy
+[ref_dot]: https://en.wikipedia.org/wiki/United_States_Department_of_Transportation
+[ref_ed]: https://en.wikipedia.org/wiki/United_States_Department_of_Education
+[ref_epa]: https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency
 [ref_grant]: https://en.wikipedia.org/wiki/Federal_grants_in_the_United_States
-[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
 [ref_nasa]: https://en.wikipedia.org/wiki/NASA
-[ref_nist]: https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology
 [ref_nih]: https://en.wikipedia.org/wiki/National_Institutes_of_Health
+[ref_nist]: https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology
 [ref_noaa]: https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration
 [ref_nsf]: https://en.wikipedia.org/wiki/National_Science_Foundation
+[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
 [ref_usda]: https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture
-[ref_dod]: https://en.wikipedia.org/wiki/United_States_Department_of_Defense
-[ref_ed]: https://en.wikipedia.org/wiki/United_States_Department_of_Education
-[ref_doe]: https://en.wikipedia.org/wiki/United_States_Department_of_Energy
-[ref_dhs]: https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security
-[ref_dot]: https://en.wikipedia.org/wiki/United_States_Department_of_Transportation
-[ref_epa]: https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency
-[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_engineering]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
+[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_doe]: https://science.osti.gov/sbir
 [research_nasa]: https://www.nasa.gov/sbir_sttr/
 [research_nih]: https://seed.nih.gov/
-[research_sbir_gov]: https://www.sbir.gov/
-[research_doe]: https://science.osti.gov/sbir
 [research_nsf]: https://seedfund.nsf.gov/
+[research_sbir_gov]: https://www.sbir.gov/

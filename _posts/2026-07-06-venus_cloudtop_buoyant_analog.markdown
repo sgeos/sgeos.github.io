@@ -1402,11 +1402,11 @@ that provided the framing.
 [ref_venus_atmosphere]: https://en.wikipedia.org/wiki/Atmosphere_of_Venus
 [ref_world_view]: https://worldview.space/
 [related_post_analog_intro]: {% post_url 2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities %}
-[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
-[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 [related_post_communications]: {% post_url 2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs %}
+[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
 [related_post_food]: {% post_url 2026-07-02-food_production_and_closed_ecological_systems_for_off_grid_space_colonization_analogs %}
 [related_post_habitat]: {% post_url 2026-07-03-habitat_and_physical_operations_for_off_grid_space_colonization_analogs %}
 [related_post_waste]: {% post_url 2026-07-04-waste_and_sewage_management_for_off_grid_space_colonization_analogs %}
 [related_post_waste_transport]: {% post_url 2026-07-05-garbage_and_transportation_for_off_grid_space_colonization_analogs %}
+[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 

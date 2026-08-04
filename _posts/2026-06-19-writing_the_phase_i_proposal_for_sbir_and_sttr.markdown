@@ -293,11 +293,11 @@ the subject of the next article.
 [ref_technical_writing]: https://en.wikipedia.org/wiki/Technical_writing
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_wbs]: https://en.wikipedia.org/wiki/Work_breakdown_structure
-[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
-[related_post_solicitation]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[research_nih]: https://grants.nih.gov/
-[research_sbir_gov]: https://www.sbir.gov/
-[research_nsf]: https://seedfund.nsf.gov/
+[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[related_post_solicitation]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_nih]: https://grants.nih.gov/
+[research_nsf]: https://seedfund.nsf.gov/
+[research_sbir_gov]: https://www.sbir.gov/

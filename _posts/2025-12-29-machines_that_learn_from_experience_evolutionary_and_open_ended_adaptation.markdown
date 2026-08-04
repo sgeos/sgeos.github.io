@@ -821,10 +821,10 @@ Article fourteen returns to the NeuroAI bridge and treats the evolutionary corre
 [research_kriegman_et_al_2020]: https://www.pnas.org/doi/10.1073/pnas.1910837117
 [research_lacava_et_al_2021]: https://arxiv.org/abs/2107.14351
 [research_langton_1986_alife]: https://www.sciencedirect.com/science/article/abs/pii/0167278986902374
-[research_lenski_et_al_2003]: https://www.nature.com/articles/nature01568
 [research_lehman_et_al_2023_elm]: https://arxiv.org/abs/2206.08896
 [research_lehman_stanley_2011_abandoning]: https://direct.mit.edu/evco/article-abstract/19/2/189/1365
 [research_lehman_stanley_2011_novelty]: https://direct.mit.edu/evco/article-abstract/19/2/189/1365
+[research_lenski_et_al_2003]: https://www.nature.com/articles/nature01568
 [research_liu_simonyan_yang_2019_darts]: https://openreview.net/forum?id=S1eYHoC5FX
 [research_lohn_hornby_linden_2006]: https://ntrs.nasa.gov/citations/20060005022
 [research_ma_et_al_2023_eureka]: https://arxiv.org/abs/2310.12931

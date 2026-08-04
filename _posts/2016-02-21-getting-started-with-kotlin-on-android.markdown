@@ -239,23 +239,23 @@ android:id="@+id/message"
 - [Kotlin, Using Gradle][kotlin-gradle]
 - [Wikipedia, Kotlin (programming language)][wikipedia-kotlin]
 
-[android-dex-limit]: http://developer.android.com/tools/building/multidex.html
-[android-version]: http://stackoverflow.com/questions/24447687/check-android-developer-tools-version-command-line
-[android-example]: https://github.com/JetBrains/kotlin-examples/blob/master/gradle/android-mixed-java-kotlin-project/app/build.gradle
-[android-get-id]: http://stackoverflow.com/questions/17203454/how-to-use-getresource-getidentifier-to-get-layout
-[android-owner]: http://stackoverflow.com/questions/20360506/get-owner-name-of-an-android-device
-[android-update-contacts]: http://stackoverflow.com/questions/17247851/trying-to-write-and-update-contacts
 [android-contacts-profile]: http://developer.android.com/reference/android/provider/ContactsContract.Profile.html
 [android-content-permissions]: http://developer.android.com/guide/topics/providers/content-provider-basics.html#Permissions
+[android-dex-limit]: http://developer.android.com/tools/building/multidex.html
+[android-example]: https://github.com/JetBrains/kotlin-examples/blob/master/gradle/android-mixed-java-kotlin-project/app/build.gradle
+[android-get-id]: http://stackoverflow.com/questions/17203454/how-to-use-getresource-getidentifier-to-get-layout
 [android-manifest]: http://developer.android.com/guide/topics/manifest/manifest-intro.html
+[android-owner]: http://stackoverflow.com/questions/20360506/get-owner-name-of-an-android-device
+[android-update-contacts]: http://stackoverflow.com/questions/17247851/trying-to-write-and-update-contacts
+[android-version]: http://stackoverflow.com/questions/24447687/check-android-developer-tools-version-command-line
 [idea-eap-16]: https://confluence.jetbrains.com/display/IDEADEV/IDEA+16+EAP
 [idea-eap-command]: https://www.jetbrains.com/idea/help/working-with-intellij-idea-features-from-command-line.html
 [idea-sync]: http://stackoverflow.com/questions/20815998/cant-find-sync-project-with-gradle-files-button-in-intellij-idea
 [jetbrains]: https://www.jetbrains.com
 [kotlin]: https://kotlinlang.org
 [kotlin-1-0]: https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/
-[kotlin-getting-started]: https://kotlinlang.org/docs/reference/basic-syntax.html
 [kotlin-android]: https://kotlinlang.org/docs/tutorials/kotlin-android.html
+[kotlin-getting-started]: https://kotlinlang.org/docs/reference/basic-syntax.html
 [kotlin-gradle]: https://kotlinlang.org/docs/reference/using-gradle.html
 [wikipedia-kotlin]: https://en.wikipedia.org/wiki/Kotlin_(programming_language)
 

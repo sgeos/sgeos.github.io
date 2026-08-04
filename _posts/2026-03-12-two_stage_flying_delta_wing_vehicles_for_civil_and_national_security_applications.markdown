@@ -2325,6 +2325,12 @@ to an aircraft-like operation.
 - [Future Reading, The Hypersonic Revolution edited by Hallion][future_hallion]
 - [Future Reading, The Aerodynamic Design of Aircraft by Kuchemann][future_kuchemann]
 
+[future_anderson]: https://www.mheducation.com/highered/product/fundamentals-aerodynamics-anderson/M9781264151929.html
+[future_anderson_hypersonic]: https://arc.aiaa.org/doi/book/10.2514/4.105142
+[future_hallion]: https://ntrs.nasa.gov/citations/19980169782
+[future_heiser]: https://arc.aiaa.org/doi/book/10.2514/4.470356
+[future_kuchemann]: https://arc.aiaa.org/doi/book/10.2514/4.869228
+[future_raymer]: https://arc.aiaa.org/doi/book/10.2514/4.104909
 [ref_aerospike]: https://en.wikipedia.org/wiki/Aerospike_engine
 [ref_avangard]: https://en.wikipedia.org/wiki/Avangard_(hypersonic_glide_vehicle)
 [ref_b2]: https://en.wikipedia.org/wiki/Northrop_Grumman_B-2_Spirit
@@ -2400,8 +2406,10 @@ to an aircraft-like operation.
 [ref_x33]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-33
 [ref_x37b]: https://en.wikipedia.org/wiki/Boeing_X-37
 [ref_x43]: https://en.wikipedia.org/wiki/NASA_X-43
+
 [ref_x47b]: https://en.wikipedia.org/wiki/Northrop_Grumman_X-47B
 [ref_x48]: https://en.wikipedia.org/wiki/Boeing_X-48
+
 [ref_x51]: https://en.wikipedia.org/wiki/Boeing_X-51_Waverider
 [ref_xf92]: https://en.wikipedia.org/wiki/Convair_XF-92
 [ref_yb35]: https://en.wikipedia.org/wiki/Northrop_YB-35
@@ -2409,15 +2417,7 @@ to an aircraft-like operation.
 
 [related_post_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-
 [research_clipped_delta]: https://ntrs.nasa.gov/citations/19950003616
 [research_nasa_staging]: https://ntrs.nasa.gov/citations/20200002873
-[research_x43_separation]: https://ntrs.nasa.gov/citations/20000091005
 [research_polhamus]: https://ntrs.nasa.gov/citations/19670003842
-
-[future_anderson]: https://www.mheducation.com/highered/product/fundamentals-aerodynamics-anderson/M9781264151929.html
-[future_anderson_hypersonic]: https://arc.aiaa.org/doi/book/10.2514/4.105142
-[future_raymer]: https://arc.aiaa.org/doi/book/10.2514/4.104909
-[future_heiser]: https://arc.aiaa.org/doi/book/10.2514/4.470356
-[future_hallion]: https://ntrs.nasa.gov/citations/19980169782
-[future_kuchemann]: https://arc.aiaa.org/doi/book/10.2514/4.869228
+[research_x43_separation]: https://ntrs.nasa.gov/citations/20000091005

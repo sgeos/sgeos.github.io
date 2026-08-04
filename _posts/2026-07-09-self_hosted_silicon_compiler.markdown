@@ -1776,12 +1776,12 @@ their integration.
 - [Von Neumann probe concept][ref_von_neumann_probe]
 
 [ref_bootstrap]: https://en.wikipedia.org/wiki/Bootstrapping_(compilers)
-[ref_somlo_project]: https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 [ref_keleusma]: https://github.com/sgeos/keleusma
 [ref_litex]: https://github.com/enjoy-digital/litex
 [ref_project_trellis]: https://github.com/YosysHQ/prjtrellis
 [ref_rocket_chip]: https://github.com/chipsalliance/rocket-chip
 [ref_silice]: https://github.com/sylefeb/Silice
+[ref_somlo_project]: https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 [ref_von_neumann_probe]: https://en.wikipedia.org/wiki/Von_Neumann_probe
 
 ### Related Post
@@ -1792,10 +1792,10 @@ their integration.
 - [Hardware Description Languages, the State of the Practice][related_post_hdl_practice], article A203 in this blog
 - [The Stream Processor as Compiler and the Compiler as Stream Processor][related_post_stream_processor], article A199 in the compilers streaming series
 
-[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_hdl_design_space]: {% post_url 2026-07-07-design_space_next_generation_hardware_description_languages %}
-[related_post_meta_factory]: {% post_url 2026-07-08-meta_factory_prior_art_and_the_reproduction_loop %}
+[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_hdl_practice]: {% post_url 2026-07-08-hardware_description_languages_state_of_the_practice %}
+[related_post_meta_factory]: {% post_url 2026-07-08-meta_factory_prior_art_and_the_reproduction_loop %}
 [related_post_stream_processor]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
 
 ### Research
@@ -1803,5 +1803,5 @@ their integration.
 - [Wheeler, Fully Countering Trusting Trust through Diverse Double-Compiling, arxiv 2010][research_wheeler_ddc]
 - [Somlo, Bootstrapping a Libre, Self-Hosting RISC-V Computer, 2021][research_somlo_bootstrapping]
 
-[research_wheeler_ddc]: https://arxiv.org/abs/1004.5534
 [research_somlo_bootstrapping]: https://open-src-soc.org/2021-03/media/slides/3rd-RISC-V-Meeting-2021-03-31-13h30-Gabriel-Somlo.pdf
+[research_wheeler_ddc]: https://arxiv.org/abs/1004.5534

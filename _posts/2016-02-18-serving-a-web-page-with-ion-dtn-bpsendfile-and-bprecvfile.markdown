@@ -448,11 +448,11 @@ ionstart -I host1.rc
 - [UNIX, Convert seconds to hours, minutes, seconds in BASH][unix-time]
 - [UNIX, Sh - the Bourne Shell][unix-sh]
 
-[ion-almost]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html
-[ion-started]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
-[ion-service]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html
 [freebsd-better-nc]: https://sgeos.github.io/freebsd/nc/2016/02/17/a-better-scripted-netcat-server.html
+[ion-almost]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html
+[ion-service]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html
+[ion-started]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
+[unix-sh]: http://www.grymoire.com/Unix/Sh.html#uh-36
 [unix-silent]: http://stackoverflow.com/questions/2292847/how-to-silence-output-in-a-bash-script
 [unix-time]: http://stackoverflow.com/questions/12199631/convert-seconds-to-hours-minutes-seconds-in-bash
-[unix-sh]: http://www.grymoire.com/Unix/Sh.html#uh-36
 

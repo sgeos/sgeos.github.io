@@ -1519,8 +1519,8 @@ what was once extraordinary.
 - [Research, Smithsonian NASM Paperclip and American Rocketry][research_nasm_paperclip]
 - [Research, Sutton-Graves 1971 Stagnation-Point Convective Heating][research_sutton_graves]
 
-[book_edge_space]: https://books.google.com/books/about/At_the_Edge_of_Space.html?id=9dtTAAAAMAAJ
 [book_dyna_soar]: https://books.google.com/books?id=V7N-AgAAQBAJ
+[book_edge_space]: https://books.google.com/books/about/At_the_Edge_of_Space.html?id=9dtTAAAAMAAJ
 [book_right_stuff]: https://en.wikipedia.org/wiki/The_Right_Stuff_(book)
 [book_skunk_works]: https://books.google.com/books/about/Skunk_Works.html?id=MAHoAAAACAAJ
 [ref_ansari_x_prize]: https://en.wikipedia.org/wiki/Ansari_X_Prize

@@ -1929,13 +1929,13 @@ or vertical discovery.
 [ref_ksc]: https://en.wikipedia.org/wiki/Kennedy_Space_Center
 [ref_lcc]: https://www.nasa.gov/humans-in-space/exploration-ground-systems/rocco-a-petrone-launch-control-center/
 [ref_lcs]: https://www.nasa.gov/humans-in-space/exploration-ground-systems/rocco-a-petrone-launch-control-center/
-[ref_msfn]: https://en.wikipedia.org/wiki/Manned_Space_Flight_Network
 [ref_mcc_jsc]: https://www.nasa.gov/johnson/jsc-mission-control-center/
-[ref_mocr]: https://en.wikipedia.org/wiki/Christopher_C._Kraft_Jr._Mission_Control_Center
-[ref_mission_simulators]: https://en.wikipedia.org/wiki/Apollo_program_training
 [ref_mcp]: https://modelcontextprotocol.io/
-[ref_nascom]: https://en.wikipedia.org/wiki/NASCOM
+[ref_mission_simulators]: https://en.wikipedia.org/wiki/Apollo_program_training
+[ref_mocr]: https://en.wikipedia.org/wiki/Christopher_C._Kraft_Jr._Mission_Control_Center
+[ref_msfn]: https://en.wikipedia.org/wiki/Manned_Space_Flight_Network
 [ref_nasa_std_8719]: https://standards.nasa.gov/standard/NASA/NASA-STD-871913
+[ref_nascom]: https://en.wikipedia.org/wiki/NASCOM
 [ref_npr_7150]: https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Preface
 [ref_npr_8705]: https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=8705&s=2C
 [ref_ntrs]: https://ntrs.nasa.gov/

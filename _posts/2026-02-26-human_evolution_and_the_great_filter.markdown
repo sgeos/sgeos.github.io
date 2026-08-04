@@ -1454,8 +1454,8 @@ and the ongoing search for technosignatures.
 [book_wonderful_life]: https://en.wikipedia.org/wiki/Wonderful_Life_(book)
 [ref_acanthostega]: https://en.wikipedia.org/wiki/Acanthostega
 [ref_aegyptopithecus]: https://en.wikipedia.org/wiki/Aegyptopithecus
-[ref_archaeplastida]: https://en.wikipedia.org/wiki/Archaeplastida
 [ref_amniote]: https://en.wikipedia.org/wiki/Amniote
+[ref_archaeplastida]: https://en.wikipedia.org/wiki/Archaeplastida
 [ref_archicebus]: https://en.wikipedia.org/wiki/Archicebus
 [ref_ardipithecus]: https://en.wikipedia.org/wiki/Ardipithecus
 [ref_australopithecus]: https://en.wikipedia.org/wiki/Australopithecus
@@ -1485,8 +1485,8 @@ and the ongoing search for technosignatures.
 [ref_kpg_extinction]: https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event
 [ref_luca]: https://en.wikipedia.org/wiki/Last_universal_common_ancestor
 [ref_morganucodon]: https://en.wikipedia.org/wiki/Morganucodon
-[ref_ordovician_extinction]: https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction
 [ref_opisthokont]: https://en.wikipedia.org/wiki/Opisthokont
+[ref_ordovician_extinction]: https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction
 [ref_panspermia]: https://en.wikipedia.org/wiki/Panspermia
 [ref_pelycosaur]: https://en.wikipedia.org/wiki/Pelycosaur
 [ref_permian_triassic]: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event

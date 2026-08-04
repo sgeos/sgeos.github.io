@@ -114,6 +114,7 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 - [MathJax, Mathjax inline mode not rendering][mathjax_no_inline]
 - [MathJax, Using MathJax on a Github Page?][mathjax_github]
 
+[disqus]: https://disqus.com
 [github_pages]: https://pages.github.com
 [jekyll]: https://jekyllrb.com
 [jekyll-frontmatter]: http://jekyllrb.com/docs/frontmatter/
@@ -121,8 +122,7 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 [mathjax]: https://www.mathjax.org
 [mathjax_config]: http://docs.mathjax.org/en/latest/configuration.html
 [mathjax_config_blog]: https://vincenttam.github.io/blog/2014/11/09/mathjax-local-configuration-file/
-[mathjax_no_inline]: http://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering
 [mathjax_github]: http://stackoverflow.com/questions/34347818/using-mathjax-on-a-github-page
+[mathjax_no_inline]: http://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering
 [mathjax_preview]: https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html
-[disqus]: https://disqus.com
 

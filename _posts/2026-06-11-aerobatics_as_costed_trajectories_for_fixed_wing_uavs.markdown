@@ -458,14 +458,14 @@ physically possible the budget will actually allow.
 [ref_split_s]: https://en.wikipedia.org/wiki/Split_S
 [ref_stagnation_temperature]: https://en.wikipedia.org/wiki/Stagnation_temperature
 [ref_supersonic]: https://en.wikipedia.org/wiki/Supersonic_speed
-[ref_transonic]: https://en.wikipedia.org/wiki/Transonic
 [ref_trajectory]: https://en.wikipedia.org/wiki/Trajectory
+[ref_transonic]: https://en.wikipedia.org/wiki/Transonic
 [ref_wave_drag]: https://en.wikipedia.org/wiki/Wave_drag
 [related_post_dynamic]: {% post_url 2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs %}
 [related_post_gnc]: {% post_url 2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs %}
 [related_post_landing]: {% post_url 2026-06-07-landing_gear_and_the_physics_of_touchdown_for_fixed_wing_uavs %}
-[related_post_staged]: {% post_url 2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs %}
 [related_post_stability]: {% post_url 2026-06-05-stability_control_and_configuration_for_fixed_wing_uavs %}
+[related_post_staged]: {% post_url 2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs %}
 [related_post_structures]: {% post_url 2026-06-10-structures_and_the_flight_envelope_for_fixed_wing_uavs %}
 [research_entry_guidance]: https://ntrs.nasa.gov/citations/19930029282
 [research_taem]: https://ntrs.nasa.gov/api/citations/19920010688/downloads/19920010688.pdf

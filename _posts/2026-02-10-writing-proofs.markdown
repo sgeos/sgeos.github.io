@@ -613,18 +613,18 @@ over AI-assisted development.
 - [Research, VeriBench: Benchmarking Verified Code Generation][research_veribench]
 - [Tool, Lean Copilot][tool_lean_copilot]
 
-[blog_kleppmann]: https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html
 [blog_congdon]: https://benjamincongdon.me/blog/2025/12/12/The-Coming-Need-for-Formal-Specification/
+[blog_kleppmann]: https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html
 [book_hammack]: https://richardhammack.github.io/BookOfProof/
-[book_velleman]: https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/how-prove-it-structured-approach-3rd-edition
 [book_solow]: https://www.wiley.com/en-us/How+to+Read+and+Do+Proofs:+An+Introduction+to+Mathematical+Thought+Processes,+6th+Edition-p-9781118164020
-[industry_compcert]: https://compcert.org/
+[book_velleman]: https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/how-prove-it-structured-approach-3rd-edition
 [industry_aws_formal]: https://cacm.acm.org/research/how-amazon-web-services-uses-formal-methods/
+[industry_compcert]: https://compcert.org/
 [research_alphaproof_blog]: https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/
 [research_alphaproof_nature]: https://www.nature.com/articles/s41586-025-09833-y
 [research_apollo]: https://arxiv.org/abs/2505.05758
 [research_hilbert]: https://machinelearning.apple.com/research/hilbert
-[research_wadler]: https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
 [research_safe]: https://arxiv.org/abs/2506.04592
 [research_veribench]: https://openreview.net/forum?id=rWkGFmnSNl
+[research_wadler]: https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
 [tool_lean_copilot]: https://github.com/lean-dojo/LeanCopilot

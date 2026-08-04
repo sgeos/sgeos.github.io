@@ -462,21 +462,21 @@ than either unstructured English or a formal language alone.
 - [Research, Quote Origin: The Hottest New Programming Language Is English][research_quote_investigator]
 
 [ai_agentic_course]: https://www.deeplearning.ai/courses/agentic-ai/
+[ai_brooker_nl_programming]: https://brooker.co.za/blog/2025/12/16/natural-language.html
 [ai_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+[ai_end_of_programming]: https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext
 [ai_english_terrible]: https://www.lesswrong.com/posts/GidPzba7Qj8B5Guiw/english-is-a-terrible-programming-language-and-other-reasons
 [ai_good_spec]: https://addyosmani.com/blog/good-spec/
-[ai_llm_workflow]: https://addyosmani.com/blog/ai-coding-workflow/
-[ai_brooker_nl_programming]: https://brooker.co.za/blog/2025/12/16/natural-language.html
-[ai_end_of_programming]: https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext
 [ai_karpathy_tweet]: https://x.com/karpathy/status/1617979122625712128
+[ai_llm_workflow]: https://addyosmani.com/blog/ai-coding-workflow/
 [blog_bidirectional]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [cc_agent_skills]: https://agentskills.io
 [cc_best_practices]: https://code.claude.com/docs/en/best-practices
-[github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
 [github_sdd_markdown]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/
+[github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
 [industry_huang_human]: https://dig.watch/updates/nvidias-huang-the-new-programming-language-is-human
-[industry_sdd_tools]: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 [industry_sdd_thoughtworks]: https://www.thoughtworks.com/en-us/insights/blog/agile-engineering-practices/spec-driven-development-unpacking-2025-new-engineering-practices
+[industry_sdd_tools]: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 [industry_sdd_waterfall]: https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html
 [protocol_agents_md]: https://agents.md/
 [research_prompt_formatting]: https://arxiv.org/html/2411.10541v1

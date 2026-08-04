@@ -2492,16 +2492,29 @@ with the subject.
 - [Theory of Self-Reproducing Automata, Von Neumann (ed. Burks), 1966][research_von_neumann]
 - [Von Neumann Probes: Rationale, Propulsion, Interstellar Transfer Timing, Cambridge, 2022][research_vn_rationale]
 
+[future_drexler_nanosystems]: https://en.wikipedia.org/wiki/Nanosystems:_Molecular_Machinery,_Manufacturing,_and_Computation
+[future_ellery_feasible]: https://doi.org/10.14403/jbis.2017.70.11-12.404
+[future_ellery_lunar]: https://doi.org/10.1162/artl_a_00317
+[future_forward]: https://doi.org/10.2514/6.1984-1396
+[future_freitas_case]: https://www.rfreitas.com/Astro/ProbesJBIS1983.htm
+[future_hein_ai]: https://doi.org/10.14403/jbis.2019.72.02.49
+[future_kaku]: https://en.wikipedia.org/wiki/Physics_of_the_Impossible
+[future_kondo]: https://en.wikipedia.org/wiki/Generation_ship
+[future_mallove]: https://en.wikipedia.org/wiki/The_Starflight_Handbook
+[future_matloff]: https://link.springer.com/book/10.1007/b104370
+[future_nicholson]: https://doi.org/10.1017/S1473550413000122
+[future_oneill]: https://en.wikipedia.org/wiki/Gerard_K._O%27Neill#The_High_Frontier
 [ref_additive_manufacturing]: https://en.wikipedia.org/wiki/3D_printing
 [ref_antimatter_rocket]: https://en.wikipedia.org/wiki/Antimatter_rocket
 [ref_artificial_intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [ref_asteroid_mining]: https://en.wikipedia.org/wiki/Asteroid_mining
 [ref_beam_powered_propulsion]: https://en.wikipedia.org/wiki/Beam-powered_propulsion
 [ref_berserker]: https://en.wikipedia.org/wiki/Berserker_hypothesis
+[ref_bowyer]: https://en.wikipedia.org/wiki/Adrian_Bowyer
 [ref_bracewell]: https://en.wikipedia.org/wiki/Bracewell_probe
 [ref_bracewell_person]: https://en.wikipedia.org/wiki/Ronald_N._Bracewell
-[ref_brin]: https://en.wikipedia.org/wiki/David_Brin
 [ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
+[ref_brin]: https://en.wikipedia.org/wiki/David_Brin
 [ref_burks]: https://en.wikipedia.org/wiki/Arthur_Burks
 [ref_cellular_automaton]: https://en.wikipedia.org/wiki/Cellular_automaton
 [ref_cognisat]: https://ubotica.com/project/https-gadgetbond-com-nasa-cognisat6-cubesat-ai-autonomous-satellite/
@@ -2528,6 +2541,7 @@ with the subject.
 [ref_nuclear_pulse]: https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion
 [ref_osiris_rex]: https://en.wikipedia.org/wiki/OSIRIS-REx
 [ref_perseverance]: https://en.wikipedia.org/wiki/Perseverance_(rover)
+
 [ref_project_daedalus]: https://en.wikipedia.org/wiki/Project_Daedalus
 [ref_regolith]: https://en.wikipedia.org/wiki/Regolith
 [ref_reprap]: https://en.wikipedia.org/wiki/RepRap_project
@@ -2535,34 +2549,20 @@ with the subject.
 [ref_saberhagen]: https://en.wikipedia.org/wiki/Fred_Saberhagen
 [ref_sagan]: https://en.wikipedia.org/wiki/Carl_Sagan
 [ref_smbh]: https://en.wikipedia.org/wiki/Supermassive_black_hole
+
 [ref_tipler]: https://en.wikipedia.org/wiki/Frank_Tipler
 [ref_total_ionizing_dose]: https://en.wikipedia.org/wiki/Total_ionizing_dose
 [ref_universal_constructor]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
 [ref_von_neumann]: https://en.wikipedia.org/wiki/John_von_Neumann
 [ref_von_neumann_probe]: https://en.wikipedia.org/wiki/Self-replicating_spacecraft
 [ref_world_energy]: https://en.wikipedia.org/wiki/World_energy_consumption
-
-[related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
+[related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_force_projection]: {% post_url 2026-03-04-physics_of_intergalactic_force_projection %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-
-[ref_bowyer]: https://en.wikipedia.org/wiki/Adrian_Bowyer
-[future_drexler_nanosystems]: https://en.wikipedia.org/wiki/Nanosystems:_Molecular_Machinery,_Manufacturing,_and_Computation
-[future_ellery_feasible]: https://doi.org/10.14403/jbis.2017.70.11-12.404
-[future_ellery_lunar]: https://doi.org/10.1162/artl_a_00317
-[future_forward]: https://doi.org/10.2514/6.1984-1396
-[future_freitas_case]: https://www.rfreitas.com/Astro/ProbesJBIS1983.htm
-[future_hein_ai]: https://doi.org/10.14403/jbis.2019.72.02.49
-[future_kaku]: https://en.wikipedia.org/wiki/Physics_of_the_Impossible
-[future_kondo]: https://en.wikipedia.org/wiki/Generation_ship
-[future_mallove]: https://en.wikipedia.org/wiki/The_Starflight_Handbook
-[future_matloff]: https://link.springer.com/book/10.1007/b104370
-[future_nicholson]: https://doi.org/10.1017/S1473550413000122
-[future_oneill]: https://en.wikipedia.org/wiki/Gerard_K._O%27Neill#The_High_Frontier
 [research_bjork]: https://doi.org/10.1017/S1473550407003813
 [research_borgue]: https://arxiv.org/abs/2005.12303
 [research_bracewell]: https://doi.org/10.1038/186670a0
@@ -2593,6 +2593,6 @@ with the subject.
 [research_sipper]: https://doi.org/10.1162/artl.1998.4.3.237
 [research_starshot_demise]: https://www.scientificamerican.com/article/the-quiet-demise-of-breakthrough-starshot-a-billionaires-interstellar-mission-to-alpha-centauri/
 [research_tipler]: https://adsabs.harvard.edu/full/1980QJRAS..21..267T
-[research_von_neumann]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
 [research_vn_rationale]: https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/von-neumann-probes-rationale-propulsion-interstellar-transfer-timing/5202679D74645D3707248FE5D5FA0124
+[research_von_neumann]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
 [research_wiley]: https://arxiv.org/abs/1111.6131

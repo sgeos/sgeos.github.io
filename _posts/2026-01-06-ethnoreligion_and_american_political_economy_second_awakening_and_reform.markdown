@@ -994,12 +994,12 @@ This article follows the terminological conventions established in [A266][relate
 [book_barry_1953]: https://cuapress.org/9780813205104/the-catholic-church-and-german-americans/
 [book_barton_1994]: https://uofcpress.com/9780809318681/a-folk-divided/
 [book_bass_1936]: https://scholar.google.com/scholar?q=bass+1936+cherokee+messenger+worcester
-[book_bishop_hill_beijbom]: https://scholar.google.com/scholar?q=beijbom+bishop+hill+jansonists
-[book_blegen_1931]: https://mnhs.org/mnhspress/books/norwegian-migration-to-america
 [book_beidler_2013]: https://global.oup.com/academic/product/murder-on-the-reservation-9780806143637
 [book_berkhofer_1965]: https://scholar.google.com/scholar?q=berkhofer+1965+salvation+savage
 [book_billington_1938]: https://global.oup.com/academic/product/the-protestant-crusade-9780814703786
+[book_bishop_hill_beijbom]: https://scholar.google.com/scholar?q=beijbom+bishop+hill+jansonists
 [book_blassingame_1972]: https://global.oup.com/academic/product/the-slave-community-9780195025637
+[book_blegen_1931]: https://mnhs.org/mnhspress/books/norwegian-migration-to-america
 [book_blight_2018]: https://www.simonandschuster.com/books/Frederick-Douglass/David-W-Blight/9781416590316
 [book_blocker_1989]: https://scholar.google.com/scholar?q=blocker+1989+american+temperance+movements
 [book_bodnar_1985]: https://iupress.org/9780253203960/the-transplanted/
@@ -1022,6 +1022,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_camarillo_1979]: https://www.hup.harvard.edu/books/9780674113954
 [book_cassidy_2011]: https://scholar.google.com/scholar?q=cassidy+2011+mexican+american+religions
 [book_cather_1927]: https://www.penguinrandomhouse.com/books/25611/death-comes-for-the-archbishop-by-willa-cather/
+[book_champagne_1992]: https://sup.org/books/title/?id=2946
 [book_chan_1991]: https://scholar.google.com/scholar?q=chan+1991+asian+americans+interpretive+history
 [book_chang_2003]: https://www.penguinrandomhouse.com/books/28712/the-chinese-in-america-by-iris-chang/
 [book_chang_2019]: https://wwnorton.com/books/9781328971258
@@ -1031,7 +1032,6 @@ This article follows the terminological conventions established in [A266][relate
 [book_conkin_1990]: https://www.wisc.edu/press/books/9780299127442
 [book_conley_2007]: https://scholar.google.com/scholar?q=conley+2007+cherokee+encyclopedia
 [book_conzen_1976]: https://www.hup.harvard.edu/books/9780674443648
-[book_champagne_1992]: https://sup.org/books/title/?id=2946
 [book_cornelius_1999]: https://uscpress.com/Slave-Missions
 [book_cott_1977]: https://yalebooks.yale.edu/book/9780300071962/the-bonds-of-womanhood/
 [book_cox_2003]: https://global.oup.com/academic/product/body-and-soul-9780813922232
@@ -1040,8 +1040,8 @@ This article follows the terminological conventions established in [A266][relate
 [book_curti_1929]: https://scholar.google.com/scholar?q=curti+1929+american+peace+crusade
 [book_cushman_2011]: https://www.oupress.com/9780806142418/the-cherokee-syllabary/
 [book_daniels_1990]: https://www.harpercollins.com/products/coming-to-america-roger-daniels
-[book_debo_1934]: https://www.oupress.com/9780806133805/the-rise-and-fall-of-the-choctaw-republic/
 [book_de_leon_1983]: https://utpress.utexas.edu/books/deltha
+[book_debo_1934]: https://www.oupress.com/9780806133805/the-rise-and-fall-of-the-choctaw-republic/
 [book_delano_2004]: https://www.hup.harvard.edu/books/9780674014800
 [book_deverell_2004]: https://www.ucpress.edu/book/9780520246423/whitewashed-adobe
 [book_diner_1983]: https://jhupress.jhu.edu/9780801830174/erins-daughters-in-america/
@@ -1218,10 +1218,10 @@ This article follows the terminological conventions established in [A266][relate
 [book_thornwell_1850]: https://oll.libertyfund.org/titles/thornwell-rights-and-duties-of-masters
 [book_thurman_1975]: https://global.oup.com/academic/product/deep-river-9780935016543
 [book_tise_1987]: https://uga.edu/press/tise-proslavery
-[book_tyler_mcgraw_2007]: https://uncpress.org/book/9780807858585/an-african-republic/
 [book_trinterud_1949]: https://scholar.google.com/scholar?q=trinterud+1949+forming+american+tradition
-[book_turner_confessions_1831]: https://oll.libertyfund.org/titles/turner-confessions-of-nat-turner
 [book_turner_2016]: https://yalebooks.yale.edu/book/9780300220803/the-mormon-jesus/
+[book_turner_confessions_1831]: https://oll.libertyfund.org/titles/turner-confessions-of-nat-turner
+[book_tyler_mcgraw_2007]: https://uncpress.org/book/9780807858585/an-african-republic/
 [book_tyrrell_1979]: https://scholar.google.com/scholar?q=tyrrell+1979+sobering+up
 [book_walch_2003]: https://global.oup.com/academic/product/parish-school-9780814332047
 [book_wallace_1993]: https://www.harpercollins.com/products/the-long-bitter-trail-anthony-fc-wallace

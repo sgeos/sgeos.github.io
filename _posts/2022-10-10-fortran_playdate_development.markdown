@@ -618,8 +618,8 @@ This post is based on the
 [arm_gnu_toolchain_downloads]: https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 [arm_gnu_toolchain_macos_11_3_rel1]: arm-gnu-toolchain-11.3.rel1-darwin-x86_64-arm-none-eabi.pkg
 [fortran]: https://fortran-lang.org/
-[fortran_tutorial_derived_types]: https://fortran-lang.org/en/learn/quickstart/derived_types/
 [fortran_gcc_c_interop]: https://gcc.gnu.org/onlinedocs/gfortran/Interoperability-with-C.html
+[fortran_tutorial_derived_types]: https://fortran-lang.org/en/learn/quickstart/derived_types/
 [playdate]: https://play.date/
 [playdate_asm]: /gamedev/playdate/asm/arm/x86/2022/10/05/asm_playdate_development.html
 [playdate_dev_forum]: https://devforum.play.date/

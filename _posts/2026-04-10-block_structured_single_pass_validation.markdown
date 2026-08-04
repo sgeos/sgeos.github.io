@@ -1068,9 +1068,9 @@ stream processors.
 - [Java Virtual Machine bytecode format][ref_jvm]
 - [Aho, Sethi, Ullman, and Lam Dragon Book on compiler construction][ref_dragon_book]
 
-[ref_webassembly]: https://en.wikipedia.org/wiki/WebAssembly
-[ref_jvm]: https://en.wikipedia.org/wiki/Java_bytecode
 [ref_dragon_book]: https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools
+[ref_jvm]: https://en.wikipedia.org/wiki/Java_bytecode
+[ref_webassembly]: https://en.wikipedia.org/wiki/WebAssembly
 
 ### Related Post
 
@@ -1078,9 +1078,9 @@ stream processors.
 - [Wirth's Single-Pass Line, PL/0 through Oberon][related_post_wirth], article A189 in this series
 - [Brinch Hansen's Pipeline-of-Processes Compilers][related_post_brinch_hansen], article A191 in this series
 
+[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
 [related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
 
 ### Research
 

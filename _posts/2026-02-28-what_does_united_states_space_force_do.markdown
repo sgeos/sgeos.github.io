@@ -1138,11 +1138,11 @@ defends, and sustains.
 - [Research, Space Officer Promotion][research_space_promotion]
 - [Research, Space Warfighting Framework][research_warfighting_framework]
 
+[ref_10usc9081]: https://www.law.cornell.edu/uscode/text/10/9081
 [ref_abma]: https://en.wikipedia.org/wiki/Army_Ballistic_Missile_Agency
 [ref_aehf]: https://en.wikipedia.org/wiki/Advanced_Extremely_High_Frequency
 [ref_af_founding]: https://www.heritage.org/defense/commentary/how-the-air-force-got-its-start-72-years-ago
 [ref_afspc]: https://en.wikipedia.org/wiki/Air_Force_Space_Command
-[ref_10usc9081]: https://www.law.cornell.edu/uscode/text/10/9081
 [ref_buckley]: https://en.wikipedia.org/wiki/Buckley_Space_Force_Base
 [ref_cape_canaveral]: https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Force_Station
 [ref_cfc]: https://www.spaceforce.mil/News/Article-Display/Article/4337269/us-space-force-establishes-combat-forces-command-welcomes-new-fldcom-commander/
@@ -1165,8 +1165,8 @@ defends, and sustains.
 [ref_schriever]: https://en.wikipedia.org/wiki/Schriever_Space_Force_Base
 [ref_space_fence]: https://en.wikipedia.org/wiki/Space_Fence
 [ref_spd4]: https://trumpwhitehouse.archives.gov/presidential-actions/text-space-policy-directive-4-establishment-united-states-space-force/
-[ref_ssn]: https://en.wikipedia.org/wiki/United_States_Space_Surveillance_Network
 [ref_ssc]: https://en.wikipedia.org/wiki/Space_Systems_Command
+[ref_ssn]: https://en.wikipedia.org/wiki/United_States_Space_Surveillance_Network
 [ref_usaf]: https://en.wikipedia.org/wiki/United_States_Air_Force
 [ref_ussf]: https://en.wikipedia.org/wiki/United_States_Space_Force
 [ref_ussf_organization]: https://www.spaceforce.mil/About-Us/About-Space-Force/Space-Force-Organization/

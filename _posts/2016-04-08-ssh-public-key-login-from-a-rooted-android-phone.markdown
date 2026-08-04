@@ -301,23 +301,23 @@ echo "Done."
 - [UNIX, Bash: Strip trailing linebreak from output][unix-newline]
 - [UNIX, Find and Replace Inside a Text File from a ash Command][unix-replace]
 
+[android-man-mksh]: https://www.mirbsd.org/htman/i386/man1/false.htm
+[android-mkshrc]: http://android.stackexchange.com/questions/53389/can-i-update-the-adb-shells-environment-variables
+[android-partitions]: http://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/
 [android-profile]: http://forum.xda-developers.com/showthread.php?t=514470
 [android-remount]: http://stackoverflow.com/questions/5467881/a-terminal-command-for-a-rooted-android-to-remount-system-as-read-write
-[android-partitions]: http://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/
-[android-mkshrc]: http://android.stackexchange.com/questions/53389/can-i-update-the-adb-shells-environment-variables
-[android-man-mksh]: https://www.mirbsd.org/htman/i386/man1/false.htm
 [ssh-force-key]: http://askubuntu.com/questions/346857/how-do-i-force-ssh-to-only-allow-uses-with-a-key-to-log-in
 [ssh-key-connection]: https://coolestguidesontheplanet.com/make-passwordless-ssh-connection-osx-10-9-mavericks-linux/
 [ssh-keygen]: https://kb.iu.edu/d/aews
-[ssh-rsa]: http://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys
-[ssh-osx]: http://www.techradar.com/us/how-to/computing/apple/how-to-enable-ssh-on-your-mac-1305644
-[ssh-osx-restart]: http://serverfault.com/questions/194832/how-to-start-stop-restart-launchd-services-from-the-command-line
-[ssh-osx-disable]: http://apple.stackexchange.com/questions/84523/disable-password-authentication-on-ssh-server-on-os-x-server-10-8
 [ssh-man]: https://www.freebsd.org/cgi/man.cgi?query=ssh&sektion=1
+[ssh-osx]: http://www.techradar.com/us/how-to/computing/apple/how-to-enable-ssh-on-your-mac-1305644
+[ssh-osx-disable]: http://apple.stackexchange.com/questions/84523/disable-password-authentication-on-ssh-server-on-os-x-server-10-8
+[ssh-osx-restart]: http://serverfault.com/questions/194832/how-to-start-stop-restart-launchd-services-from-the-command-line
+[ssh-rsa]: http://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys
 [sshd_config-man]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/sshd_config.5.html
-[unix-workon]: https://sgeos.github.io/unix/sh/2016/03/17/using-shell-functions-to-jump-into-terminal-projects.html
-[unix-symlink]: https://kb.iu.edu/d/abbe
-[unix-unlink]: http://www.cyberciti.biz/faq/linux-remove-delete-symbolic-softlink-command/
 [unix-newline]: http://stackoverflow.com/questions/12524308/bash-strip-trailing-linebreak-from-output
 [unix-replace]: http://stackoverflow.com/questions/16974797/find-and-replace-inside-a-text-file-from-a-ash-command
+[unix-symlink]: https://kb.iu.edu/d/abbe
+[unix-unlink]: http://www.cyberciti.biz/faq/linux-remove-delete-symbolic-softlink-command/
+[unix-workon]: https://sgeos.github.io/unix/sh/2016/03/17/using-shell-functions-to-jump-into-terminal-projects.html
 

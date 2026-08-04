@@ -380,5 +380,5 @@ tells the aircraft what to do and watches it do it.
 [related_post_gnc]: {% post_url 2026-06-08-guidance_navigation_and_automatic_landing_for_fixed_wing_uavs %}
 [related_post_recovery]: {% post_url 2026-06-01-launch_and_recovery_systems_for_fixed_wing_uavs %}
 [research_kstate_datalink]: https://kstatelibraries.pressbooks.pub/unmannedaircraftsystems/chapter/chapter-13-data-links-functions-attributes-and-latency/
-[research_nasa_satcom]: https://ntrs.nasa.gov/api/citations/20170005641/downloads/20170005641.pdf
 [research_mdpi_security]: https://www.mdpi.com/2504-446X/9/8/583
+[research_nasa_satcom]: https://ntrs.nasa.gov/api/citations/20170005641/downloads/20170005641.pdf

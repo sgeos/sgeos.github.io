@@ -108,9 +108,9 @@ mix main arg_a arg_b arg_c
 - [Writing a Command Line Application in Elixir][elixir-cli]
 - [Elixir, Create Command Line Tools][elixir-cli-github]
 
+[elixir-cli]:        http://asquera.de/blog/2015-04-10/writing-a-commandline-app-in-elixir/
+[elixir-cli-github]: http://asquera.de/blog/2015-04-10/writing-a-commandline-app-in-elixir/
 [erlang-book]:       http://learnyousomeerlang.com
 [erlang-escript]:    http://erlang.org/doc/man/escript.html
 [irc-elixir-lang]:   irc://irc.freenode.net/elixir-lang
-[elixir-cli]:        http://asquera.de/blog/2015-04-10/writing-a-commandline-app-in-elixir/
-[elixir-cli-github]: http://asquera.de/blog/2015-04-10/writing-a-commandline-app-in-elixir/
 

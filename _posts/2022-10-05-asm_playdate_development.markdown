@@ -581,9 +581,9 @@ This post is based on the
 - [Playdate Homepage][playdate]
 - [X86 and AMD64 Instruction Reference][x86_reference]
 
+[arm_armv8_card]: https://courses.cs.washington.edu/courses/cse469/19wi/arm64.pdf
 [arm_cortex_m7]: https://developer.arm.com/documentation/ddi0489/f/introduction/about-the-cortex-m7-processor/features
 [arm_thumb_card]: https://users.ece.utexas.edu/~valvano/Volume1/QuickReferenceCard.pdf
-[arm_armv8_card]: https://courses.cs.washington.edu/courses/cse469/19wi/arm64.pdf
 [playdate]: https://play.date/
 [playdate_dev_forum]: https://devforum.play.date/
 [playdate_dev_forum_asm]: https://devforum.play.date/t/adding-asm-s-file-to-a-project/3804/2

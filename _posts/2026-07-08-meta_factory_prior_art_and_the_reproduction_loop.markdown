@@ -1434,9 +1434,9 @@ new base technologies.
 - [*Advanced Automation for Space Missions*][book_nasa_cp2255], NASA Conference Publication 2255, edited by Robert A. Freitas Jr. and William P. Gilbreath, November 1982
 - [*Kinematic Self-Replicating Machines*][book_freitas_merkle_ksrm], Robert A. Freitas Jr. and Ralph C. Merkle, Landes Bioscience, 2004
 
-[book_von_neumann_automata]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
-[book_nasa_cp2255]: https://ntrs.nasa.gov/citations/19830007077
 [book_freitas_merkle_ksrm]: http://www.molecularassembler.com/KSRM.htm
+[book_nasa_cp2255]: https://ntrs.nasa.gov/citations/19830007077
+[book_von_neumann_automata]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
 
 ### Reference
 
@@ -1446,10 +1446,10 @@ new base technologies.
 - [RepRap project][ref_reprap]
 - [Self-replicating spacecraft, including von Neumann probe][ref_von_neumann_probe]
 
-[ref_von_neumann_constructor]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
 [ref_hmgics_meta_factory]: https://www.hyundaimotorgroup.com/newsroom
 [ref_keleusma]: https://github.com/sgeos/keleusma
 [ref_reprap]: https://reprap.org/
+[ref_von_neumann_constructor]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
 [ref_von_neumann_probe]: https://en.wikipedia.org/wiki/Von_Neumann_probe
 
 ### Related Post
@@ -1457,8 +1457,8 @@ new base technologies.
 - [A History of Hardware Description Languages][related_post_hdl_history], article A200 in this blog
 - [The Design Space for Next-Generation Hardware Description Languages][related_post_hdl_design_space], article A201 in this blog
 
-[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_hdl_design_space]: {% post_url 2026-07-07-design_space_next_generation_hardware_description_languages %}
+[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 
 ### Research
 

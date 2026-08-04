@@ -144,7 +144,7 @@ ALPHA: hi
 - [Programming Elixir 1.2][elixir-book]
 - [Elixir GenServer][elixir-genserver]
 
-[stackoverflow-elixir-nodes]: http://stackoverflow.com/questions/17351882/how-to-connect-two-elixir-nodes-via-local-network
 [elixir-book]:                https://pragprog.com/book/elixir12/programming-elixir-1-2
 [elixir-genserver]:           http://elixir-lang.org/docs/v1.2/elixir/GenServer.html
+[stackoverflow-elixir-nodes]: http://stackoverflow.com/questions/17351882/how-to-connect-two-elixir-nodes-via-local-network
 

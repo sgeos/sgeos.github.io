@@ -224,18 +224,18 @@ is complete.
 [ref_dual_use]: https://en.wikipedia.org/wiki/Dual-use_technology
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_uav]: https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle
-[related_post_agencies]: {% post_url 2026-06-16-survey_of_the_sbir_and_sttr_agencies %}
 [related_post_after_award]: {% post_url 2026-06-24-after_the_award_for_sbir_and_sttr %}
-[related_post_introduction]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
+[related_post_agencies]: {% post_url 2026-06-16-survey_of_the_sbir_and_sttr_agencies %}
 [related_post_data_rights]: {% post_url 2026-06-22-data_rights_and_intellectual_property_for_sbir_and_sttr %}
-[related_post_topic]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
-[related_post_international]: {% post_url 2026-06-26-international_analogs_to_sbir_and_sttr %}
-[related_post_phase_two]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
-[related_post_phase_three]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[related_post_strategy]: {% post_url 2026-06-25-strategy_and_the_portfolio_of_sbir_and_sttr_awards %}
+[related_post_international]: {% post_url 2026-06-26-international_analogs_to_sbir_and_sttr %}
+[related_post_introduction]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
 [related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
-[research_sbir_gov]: https://www.sbir.gov/
+[related_post_phase_three]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
+[related_post_phase_two]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[related_post_strategy]: {% post_url 2026-06-25-strategy_and_the_portfolio_of_sbir_and_sttr_awards %}
+[related_post_topic]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_sbir_gov]: https://www.sbir.gov/

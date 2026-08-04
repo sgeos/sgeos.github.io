@@ -1090,16 +1090,16 @@ at the identifier level.
 - [*Project Oberon, The Design of an Operating System and Compiler*][book_wirth_project_oberon], Niklaus Wirth and Jürg Gutknecht, revised edition 2013
 - [*Compiler Construction*][book_wirth_compiler_construction], Niklaus Wirth, Addison-Wesley, 1996
 
-[book_wirth_project_oberon]: https://people.inf.ethz.ch/wirth/ProjectOberon/
 [book_wirth_compiler_construction]: https://en.wikipedia.org/wiki/Compiler_Construction_(Wirth_book)
+[book_wirth_project_oberon]: https://people.inf.ethz.ch/wirth/ProjectOberon/
 
 ### Reference
 
 - [WebAssembly single-pass validator and its fixup structure][ref_webassembly]
 - [Backpatching in the classical compiler-construction tradition][ref_backpatching]
 
-[ref_webassembly]: https://en.wikipedia.org/wiki/WebAssembly
 [ref_backpatching]: https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools
+[ref_webassembly]: https://en.wikipedia.org/wiki/WebAssembly
 
 ### Related Post
 
@@ -1107,9 +1107,9 @@ at the identifier level.
 - [Wirth's Single-Pass Line, PL/0 through Oberon][related_post_wirth], article A189 in this series
 - [Block-Structured Control Flow and Single-Pass Validation][related_post_block_structured], article A192 in this series
 
+[related_post_block_structured]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
 [related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_block_structured]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
 
 ### Research
 

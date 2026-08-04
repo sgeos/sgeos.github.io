@@ -183,8 +183,8 @@ The next article in the series treats the transition from wartime to peacetime c
 [ref_flowers_colossus]: https://www.tnmoc.org/colossus
 [ref_polish_cryptanalysis]: https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/wwii/enigma_cryptologic_mathematician.pdf
 [ref_rowlett_purple]: https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/wwii/friedman_documents/friedman_documents_1.pdf
-[ref_tutte_tunny]: https://en.wikipedia.org/wiki/Lorenz_cipher
 [ref_turing_bletchley]: https://bletchleypark.org.uk/our-story/people/alan-turing
+[ref_tutte_tunny]: https://en.wikipedia.org/wiki/Lorenz_cipher
 
 [related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 [related_post_a238_pre_war_computing]: {% post_url 2026-07-13-pre_war_computing_origins_and_ballistics %}

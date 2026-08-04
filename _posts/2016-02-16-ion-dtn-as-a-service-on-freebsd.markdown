@@ -281,7 +281,7 @@ Note that due to the **su** commands in the rc script, the service can only be s
 Any user can use find out if **iondtn** is running with `service iondtn status`.
 
 ## References:
-- [ION-DTN, Re: {% raw %}[Ion-dtn-users]{% endraw %} Blog Post: Getting Started with ION-DTN 3.4.0 on FreeBSD][freebsd-rc]
+- [ION-DTN, Re: {% raw %}[Ion-dtn-users]{% endraw %} Blog Post: Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-dtn-users]
 - [FreeBSD, Giving more flexibility to an rc.d script][freebsd-rc]
 - [FreeBSD, Directory Structure][freebsd-dir]
 - [FreeBSD, The Complete FreeBSD: Documentation from the Source][freebsd-book]
@@ -296,17 +296,18 @@ Any user can use find out if **iondtn** is running with `service iondtn status`.
 - [UNIX, Linux / Unix sed: Delete Word From File / Input][unix-sed-delete]
 - [UNIX, Bourne Shell Reference][unix-sh]
 
-[freebsd-rc]: https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html
-[freebsd-dir]: https://www.freebsd.org/doc/handbook/dirstructure.html
 [freebsd-book]: https://books.google.com/books?id=7Y5kfaRmtKUC&pg=PA659&lpg=PA659&dq=/usr/local+log&source=bl&ots=jIhRwf_w1L&sig=m0-alnfyrujbdVvNCulbzgdoups&hl=en&sa=X&ved=0ahUKEwiQuLyNgPvKAhXMXR4KHS8OBgw4ChDoAQhSMAg#v=onepage&q=%2Fusr%2Flocal%20log&f=false
-[freebsd-ion]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
+[freebsd-dir]: https://www.freebsd.org/doc/handbook/dirstructure.html
 [freebsd-elixir]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
-[unix-opt]: http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
-[unix-rc]: https://docs.oracle.com/cd/E19455-01/805-7228/6j6q7uepi/index.html
-[unix-ps]: http://unix.stackexchange.com/questions/106847/what-does-aux-mean-in-ps-aux
-[unix-name-kill]: http://notetodogself.blogspot.com/2006/07/how-to-terminate-process-by-name-in.html
+[freebsd-ion]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
+[freebsd-rc]: https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html
+[ion-dtn-users]: https://sourceforge.net/p/ion-dtn/mailman/message/34856065/
 [unix-grep-without]: http://stackoverflow.com/questions/13260031/grep-without-string
-[unix-sed-skip]: http://stackoverflow.com/questions/6684857/how-to-skip-lines-matching-a-string
+[unix-name-kill]: http://notetodogself.blogspot.com/2006/07/how-to-terminate-process-by-name-in.html
+[unix-opt]: http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
+[unix-ps]: http://unix.stackexchange.com/questions/106847/what-does-aux-mean-in-ps-aux
+[unix-rc]: https://docs.oracle.com/cd/E19455-01/805-7228/6j6q7uepi/index.html
 [unix-sed-delete]: http://www.cyberciti.biz/faq/howto-delete-word-using-sed-under-unix-linux-bsd-appleosx/
+[unix-sed-skip]: http://stackoverflow.com/questions/6684857/how-to-skip-lines-matching-a-string
 [unix-sh]: http://cis.stvincent.edu/html/tutorials/unix/bshellref
 

@@ -308,21 +308,21 @@ one budget of energy and one error driven steadily toward zero.
 [ref_autoland]: https://en.wikipedia.org/wiki/Autoland
 [ref_autopilot]: https://en.wikipedia.org/wiki/Autopilot
 [ref_dead_reckoning]: https://en.wikipedia.org/wiki/Dead_reckoning
+[ref_flare]: https://en.wikipedia.org/wiki/Landing_flare
 [ref_geofencing]: https://en.wikipedia.org/wiki/Geofencing
-[ref_spoofing]: https://en.wikipedia.org/wiki/GPS_spoofing
 [ref_gnc]: https://en.wikipedia.org/wiki/Guidance,_navigation,_and_control
+[ref_gnss]: https://en.wikipedia.org/wiki/Satellite_navigation
+[ref_ils]: https://en.wikipedia.org/wiki/Instrument_landing_system
 [ref_imu]: https://en.wikipedia.org/wiki/Inertial_measurement_unit
 [ref_ins]: https://en.wikipedia.org/wiki/Inertial_navigation_system
-[ref_ils]: https://en.wikipedia.org/wiki/Instrument_landing_system
 [ref_kalman]: https://en.wikipedia.org/wiki/Kalman_filter
-[ref_flare]: https://en.wikipedia.org/wiki/Landing_flare
 [ref_pid]: https://en.wikipedia.org/wiki/PID_controller
 [ref_pitot]: https://en.wikipedia.org/wiki/Pitot-static_system
 [ref_pixhawk]: https://en.wikipedia.org/wiki/Pixhawk
 [ref_radar_altimeter]: https://en.wikipedia.org/wiki/Radar_altimeter
 [ref_rtk]: https://en.wikipedia.org/wiki/Real-time_kinematic_positioning
-[ref_gnss]: https://en.wikipedia.org/wiki/Satellite_navigation
 [ref_sensor_fusion]: https://en.wikipedia.org/wiki/Sensor_fusion
+[ref_spoofing]: https://en.wikipedia.org/wiki/GPS_spoofing
 [ref_visual_odometry]: https://en.wikipedia.org/wiki/Visual_odometry
 [ref_wind_triangle]: https://en.wikipedia.org/wiki/Wind_triangle
 [related_post_dynamics]: {% post_url 2026-06-06-dynamic_stability_and_control_for_fixed_wing_uavs %}

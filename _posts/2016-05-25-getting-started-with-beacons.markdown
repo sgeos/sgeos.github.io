@@ -87,23 +87,23 @@ A Raspberry Pi (or other Linux box) with a Bluetooth LE dongle can
 - [Quora, How much do iBeacons cost?][quora-beacon-cost]
 - [Wikipedia, iBeacons][wikipedia-ibeacon]
 
-[article-beacons-2016]: http://blog.beaconstac.com/2016/02/beacons-in-2016-what-to-expect-from-ibeacon-eddystone-and-more/
-[article-beacons-at-scale]: https://www.brooklynmuseum.org/community/blogosphere/2015/02/04/the-realities-of-installing-ibeacon-to-scale/
+[android-altbeacon]: https://github.com/AltBeacon/android-beacon-library
+[android-beacon-layouts]: https://beaconlayout.wordpress.com
+[android-ibeacon-transmit]: http://stackoverflow.com/questions/19602913/can-an-android-device-act-as-an-ibeacon
+[android-locate-beacon]: https://play.google.com/store/apps/details?id=com.radiusnetworks.locate
 [apple-ibeacon]: https://developer.apple.com/ibeacon/
 [apple-ibeacon-getting-started]: https://developer.apple.com/ibeacon/Getting-Started-with-iBeacon.pdf
-[android-ibeacon-transmit]: http://stackoverflow.com/questions/19602913/can-an-android-device-act-as-an-ibeacon
 [apple-maps]: https://developer.apple.com/maps/
-[android-altbeacon]: https://github.com/AltBeacon/android-beacon-library
-[android-locate-beacon]: https://play.google.com/store/apps/details?id=com.radiusnetworks.locate
-[android-beacon-layouts]: https://beaconlayout.wordpress.com
+[article-beacons-2016]: http://blog.beaconstac.com/2016/02/beacons-in-2016-what-to-expect-from-ibeacon-eddystone-and-more/
+[article-beacons-at-scale]: https://www.brooklynmuseum.org/community/blogosphere/2015/02/04/the-realities-of-installing-ibeacon-to-scale/
+[cordova-ibeacon]: https://github.com/petermetz/cordova-plugin-ibeacon
 [ios-core-location]: https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation_Framework/index.htm://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation_Framework/index.html
 [ios-locate-beacon]: https://itunes.apple.com/us/app/locate-beacon/id738709014?mt=8
-[unity3d-ibeacon]: https://www.assetstore.unity3d.com/en/#!/content/15260
-[cordova-ibeacon]: https://github.com/petermetz/cordova-plugin-ibeacon
-[osx-beacon-scanner]: https://github.com/mlwelles/BeaconScanner
 [osx-beacon-mactsasbeacon]: https://github.com/timd/MactsAsBeacon
+[osx-beacon-scanner]: https://github.com/mlwelles/BeaconScanner
 [osx-macbook-ibeacon]: http://stackoverflow.com/questions/19410398/turn-macbook-into-ibeacon
-[rpi-beacon]: https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview
 [quora-beacon-cost]: https://www.quora.com/How-much-do-ibeacons-cost
+[rpi-beacon]: https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview
+[unity3d-ibeacon]: https://www.assetstore.unity3d.com/en/#!/content/15260
 [wikipedia-ibeacon]: https://en.wikipedia.org/wiki/IBeacon
 

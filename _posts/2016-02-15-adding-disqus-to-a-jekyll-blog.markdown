@@ -127,22 +127,22 @@ The [Disqus Migration Tools][disqus-migrate] can be used move comments to the ne
 - [Disqus, Preserve Disqus Comments with Jekyll][disqus-preserve]
 - [Google, Use canonical URLs][google-canonical]
 
+[disqus]: https://disqus.com
+[disqus-embed]: https://disqus.com/admin/universalcode/
+[disqus-install-config]: https://help.disqus.com/customer/en/portal/articles/2158629
+[disqus-install-random]: http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
+[disqus-jekyll-install]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
+[disqus-jekyll-notes]: http://blog.pzheng.me/2014/07/03/Jekyll-Notes/
+[disqus-migrate]: https://help.disqus.com/customer/portal/articles/286778-migration-tools
+[disqus-preserve]: http://haacked.com/archive/2013/12/09/preserving-disqus-comments-with-jekyll/
+[disqus-registration]: https://disqus.com/admin/create/
+[google-canonical]: https://support.google.com/webmasters/answer/139066?hl=en
 [jekyll]: https://jekyllrb.com
-[jekyll-variables]: http://jekyllrb.com/docs/variables/
-[jekyll-templates]: http://jekyllrb.com/docs/templates/
-[jekyll-frontmatter]: http://jekyllrb.com/docs/frontmatter/
-[jekyll-highlight-liquid-code]: http://tesoriere.com/2010/08/25/liquid-code-in-a-liquid-template-with-jekyll/
 [jekyll-beautiful]: http://joshualande.com/jekyll-github-pages-poole/
 [jekyll-dynamic]: http://stackoverflow.com/questions/22725754/dynamic-links-in-jekyll
 [jekyll-freebsd]: https://sgeos.github.io/jekyll/github/freebsd/2016/01/07/creating-a-jekyll-github-pages-blog-and-managing-it-with-freebsd.html
-[disqus]: https://disqus.com
-[disqus-registration]: https://disqus.com/admin/create/
-[disqus-embed]: https://disqus.com/admin/universalcode/
-[disqus-jekyll-install]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
-[disqus-install-config]: https://help.disqus.com/customer/en/portal/articles/2158629
-[disqus-migrate]: https://help.disqus.com/customer/portal/articles/286778-migration-tools
-[disqus-install-random]: http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
-[disqus-jekyll-notes]: http://blog.pzheng.me/2014/07/03/Jekyll-Notes/
-[disqus-preserve]: http://haacked.com/archive/2013/12/09/preserving-disqus-comments-with-jekyll/
-[google-canonical]: https://support.google.com/webmasters/answer/139066?hl=en
+[jekyll-frontmatter]: http://jekyllrb.com/docs/frontmatter/
+[jekyll-highlight-liquid-code]: http://tesoriere.com/2010/08/25/liquid-code-in-a-liquid-template-with-jekyll/
+[jekyll-templates]: http://jekyllrb.com/docs/templates/
+[jekyll-variables]: http://jekyllrb.com/docs/variables/
 

@@ -1889,17 +1889,17 @@ below identifies.
 - [High-level synthesis overview][ref_hls]
 - [Yosys open-source synthesis toolchain][ref_yosys]
 
-[ref_verilog]: https://en.wikipedia.org/wiki/Verilog
-[ref_vhdl]: https://en.wikipedia.org/wiki/VHDL
-[ref_systemverilog]: https://en.wikipedia.org/wiki/SystemVerilog
-[ref_systemc]: https://en.wikipedia.org/wiki/SystemC
+[ref_amaranth]: https://amaranth-lang.org/
 [ref_bluespec]: https://en.wikipedia.org/wiki/Bluespec
 [ref_chisel]: https://en.wikipedia.org/wiki/Chisel_(programming_language)
-[ref_spinalhdl]: https://spinalhdl.github.io/SpinalDoc-RTD/
-[ref_amaranth]: https://amaranth-lang.org/
-[ref_myhdl]: https://www.myhdl.org/
 [ref_clash]: https://clash-lang.org/
-[ref_psl]: https://en.wikipedia.org/wiki/Property_Specification_Language
-[ref_uvm]: https://en.wikipedia.org/wiki/Universal_Verification_Methodology
 [ref_hls]: https://en.wikipedia.org/wiki/High-level_synthesis
+[ref_myhdl]: https://www.myhdl.org/
+[ref_psl]: https://en.wikipedia.org/wiki/Property_Specification_Language
+[ref_spinalhdl]: https://spinalhdl.github.io/SpinalDoc-RTD/
+[ref_systemc]: https://en.wikipedia.org/wiki/SystemC
+[ref_systemverilog]: https://en.wikipedia.org/wiki/SystemVerilog
+[ref_uvm]: https://en.wikipedia.org/wiki/Universal_Verification_Methodology
+[ref_verilog]: https://en.wikipedia.org/wiki/Verilog
+[ref_vhdl]: https://en.wikipedia.org/wiki/VHDL
 [ref_yosys]: https://yosyshq.net/yosys/

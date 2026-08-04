@@ -723,9 +723,9 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_puckett_1926]: https://uncpress.org/book/9780807806586/folk-beliefs-of-the-southern-negro/
 [book_raboteau_1978]: https://global.oup.com/academic/product/slave-religion-9780195174137
 [book_reich_2018]: https://global.oup.com/academic/product/who-we-are-and-how-we-got-here-9780198821267
-[book_rutherford_1644]: https://oll.libertyfund.org/titles/rutherford-lex-rex-or-the-law-and-the-prince
 [book_richter_1992]: https://uncpress.org/book/9780807820605/the-ordeal-of-the-longhouse/
 [book_richter_2001]: https://www.hup.harvard.edu/books/9780674011175
+[book_rutherford_1644]: https://oll.libertyfund.org/titles/rutherford-lex-rex-or-the-law-and-the-prince
 [book_salisbury_1982]: https://global.oup.com/academic/product/manitou-and-providence-9780195031126
 [book_samuelsson_1961]: https://scholar.google.com/scholar?q=samuelsson+1961+religion+economic+action
 [book_sarna_2004]: https://yalebooks.yale.edu/book/9780300109764/american-judaism/

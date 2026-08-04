@@ -481,23 +481,23 @@ For deployment, [edeliver][edeliver] is worth looking at.
 - [Distillery][distillery]
 - [Distillery, Runtime Configuration][distillery-config]
 
+[blog-json-api-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
+[config-gist]: https://gist.github.com/bitwalker/a4f73b33aea43951fe19b242d06da7b9
+[conform]: https://github.com/bitwalker/conform
+[distillery]: https://github.com/bitwalker/distillery
+[distillery-config]: https://hexdocs.pm/distillery/runtime-configuration.html
+[edeliver]: https://github.com/boldpoker/edeliver
+[elixir-service]: http://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
+[elixir-understanding-config]: http://sheldonkreger.com/understanding-config-in-elixir.html
+[erlang-man-config]: http://erlang.org/doc/man/config.html
+[erlang-man-erl]: http://erlang.org/doc/man/erl.html
 [exrm]: https://github.com/bitwalker/exrm
 [exrm-config]: https://exrm.readme.io/docs/release-configuration
 [exrm-environment-config]: http://blog.plataformatec.com.br/2016/05/how-to-config-environment-variables-with-elixir-and-exrm/
 [exrm-migration]: http://blog.plataformatec.com.br/2016/04/running-migration-in-an-exrm-release/
 [exrm-migration-gist]: https://gist.github.com/antipax/90cc36d29c2a2a5d4629
-[config-gist]: https://gist.github.com/bitwalker/a4f73b33aea43951fe19b242d06da7b9
-[elixir-understanding-config]: http://sheldonkreger.com/understanding-config-in-elixir.html
-[elixir-service]: http://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
-[erlang-man-erl]: http://erlang.org/doc/man/erl.html
-[erlang-man-config]: http://erlang.org/doc/man/config.html
-[phoenix-dynamic-gist]: https://gist.github.com/chrismccord/e0eaefe30d2ecd85b4ac
-[blog-json-api-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
-[phoenix-service]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
-[mix-release]: https://github.com/bitwalker/exrm/issues/67#issuecomment-183457937
 [mix-ecto-gist]: https://gist.github.com/sgeos/1fed5eb24d80b97a338249dd95d55082
-[distillery]: https://github.com/bitwalker/distillery
-[distillery-config]: https://hexdocs.pm/distillery/runtime-configuration.html
-[conform]: https://github.com/bitwalker/conform
-[edeliver]: https://github.com/boldpoker/edeliver
+[mix-release]: https://github.com/bitwalker/exrm/issues/67#issuecomment-183457937
+[phoenix-dynamic-gist]: https://gist.github.com/chrismccord/e0eaefe30d2ecd85b4ac
+[phoenix-service]: https://sgeos.github.io/phoenix/elixir/erlang/freebsd/2016/03/21/phoenix-as-a-service-on-freebsd.html
 

@@ -1228,10 +1228,10 @@ must solve.
 - [Brinch Hansen's Pipeline-of-Processes Compilers][related_post_brinch_hansen], article A191 in this series
 - [Block-Structured Control Flow and Single-Pass Validation][related_post_block_structured], article A192 in this series
 
+[related_post_block_structured]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
+[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
 [related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
-[related_post_block_structured]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
 
 ### Research
 

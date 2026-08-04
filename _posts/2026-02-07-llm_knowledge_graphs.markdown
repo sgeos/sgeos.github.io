@@ -563,23 +563,23 @@ from the first session.
 - [Standard, ThoughtWorks Technology Radar: AGENTS.md][standard_thoughtworks_radar]
 - [Tool, GraphMD: Turning Markdown into Knowledge Graphs][tool_graphmd]
 
-[anthropic_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 [anthropic_agent_skills]: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+[anthropic_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 [blog_bidirectional]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [blog_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
 [cc_memory]: https://code.claude.com/docs/en/memory
-[industry_kilo_docs]: https://blog.kilo.ai/p/agentsmd-may-trick-us-into-writing
-[industry_fowler_context]: https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
-[industry_episodic_memory]: https://blog.fsck.com/2025/10/23/episodic-memory/
 [industry_eclipsesource]: https://eclipsesource.com/blogs/2025/11/20/mastering-project-context-files-for-ai-coding-agents/
+[industry_episodic_memory]: https://blog.fsck.com/2025/10/23/episodic-memory/
+[industry_fowler_context]: https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
+[industry_humanlayer]: https://www.humanlayer.dev/blog/writing-a-good-claude-md
+[industry_kilo_docs]: https://blog.kilo.ai/p/agentsmd-may-trick-us-into-writing
 [industry_miessler_pai]: https://danielmiessler.com/blog/personal-ai-infrastructure
 [industry_spotify_context]: https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2
-[industry_humanlayer]: https://www.humanlayer.dev/blog/writing-a-good-claude-md
 [protocol_agents_md]: https://agents.md/
 [research_agent_readmes]: https://arxiv.org/abs/2511.12884
-[research_santos_config]: https://arxiv.org/abs/2511.09268
-[research_agents_md_impact]: https://arxiv.org/abs/2601.20404
 [research_agentic_manifests]: https://arxiv.org/abs/2509.14744
+[research_agents_md_impact]: https://arxiv.org/abs/2601.20404
+[research_santos_config]: https://arxiv.org/abs/2511.09268
 [standard_llms_txt]: https://llmstxt.org/
 [standard_thoughtworks_radar]: https://www.thoughtworks.com/en-us/radar/techniques/agents-md
 [tool_graphmd]: https://medium.com/generative-ai-revolution-ai-native-transformation/introducing-graphmd-turning-markdown-documents-into-executable-knowledge-graphs-6925d936423f

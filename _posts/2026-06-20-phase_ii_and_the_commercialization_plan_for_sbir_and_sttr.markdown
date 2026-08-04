@@ -253,15 +253,15 @@ plan, which points directly at Phase III, the subject of the next article.
 [ref_mou]: https://en.wikipedia.org/wiki/Memorandum_of_understanding
 [ref_pmf]: https://en.wikipedia.org/wiki/Product-market_fit
 [ref_prototype]: https://en.wikipedia.org/wiki/Prototype
-[ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_technology_transfer]: https://en.wikipedia.org/wiki/Technology_transfer
+[ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_value_proposition]: https://en.wikipedia.org/wiki/Value_proposition
 [related_post_agencies]: {% post_url 2026-06-16-survey_of_the_sbir_and_sttr_agencies %}
-[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
+[related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
-[research_nih]: https://grants.nih.gov/
-[research_sbir_gov]: https://www.sbir.gov/
-[research_nsf]: https://seedfund.nsf.gov/
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_nih]: https://grants.nih.gov/
+[research_nsf]: https://seedfund.nsf.gov/
+[research_sbir_gov]: https://www.sbir.gov/
