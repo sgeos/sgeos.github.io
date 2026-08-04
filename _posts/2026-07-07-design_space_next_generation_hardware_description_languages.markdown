@@ -1566,9 +1566,9 @@ answer.
 - [Compilation as a Streaming Discipline][related_post_streaming_discipline], article A188 in the compilers streaming series
 - [Coalgebraic Productivity and the Stream-Processor Analogy][related_post_coalgebraic], article A193 in the compilers streaming series
 
+[related_post_coalgebraic]: {% post_url 2026-04-11-coalgebraic_productivity_stream_processor_analogy %}
 [related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
-[related_post_coalgebraic]: {% post_url 2026-04-11-coalgebraic_productivity_stream_processor_analogy %}
 
 ### Research
 
@@ -1579,9 +1579,9 @@ answer.
 - [Turner, Total Functional Programming, Journal of Universal Computer Science 10 number 7, 2004][research_turner_total]
 - [Wilhelm and colleagues, The Worst-Case Execution-Time Problem, Overview of Methods and Survey of Tools, ACM Transactions on Embedded Computing Systems 7, 2008][research_wilhelm_wcet]
 
+[research_cdc_verification]: https://arxiv.org/abs/2406.06533
 [research_kami]: https://dl.acm.org/doi/10.1145/3110268
 [research_koika]: https://dl.acm.org/doi/10.1145/3385412.3385965
-[research_cdc_verification]: https://arxiv.org/abs/2406.06533
 [research_rutten_universal_coalgebra]: https://doi.org/10.1016/S0304-3975(00)00056-6
 [research_turner_total]: https://doi.org/10.3217/jucs-010-07-0751
 [research_wilhelm_wcet]: https://dl.acm.org/doi/10.1145/1347375.1347389

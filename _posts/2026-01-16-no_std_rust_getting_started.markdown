@@ -579,8 +579,8 @@ performance on platforms where the standard library is not an option.
 [openocd_debugging]: http://openocd.org/doc-release/html/GDB-and-OpenOCD.html
 [probe_rs]: https://probe.rs
 [qemu_guide]: https://www.qemu.org/docs/master/system/index.html
-[rubble]: https://github.com/jonas-schievink/rubble
 [rtic]: https://rtic.rs
+[rubble]: https://github.com/jonas-schievink/rubble
 [rust_book_cargo]: https://doc.rust-lang.org/cargo/
 [rust_book_continuous_integration]: https://doc.rust-lang.org/cargo/guide/continuous-integration.html
 [rust_book_discovery]: https://docs.rust-embedded.org/discovery/

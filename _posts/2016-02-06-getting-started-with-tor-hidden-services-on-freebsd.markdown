@@ -166,22 +166,22 @@ tor_enable="NO"
 - [UNIX, Faking Services using Netcat (For Testing Nagios)][unix-faking-services]
 - [Wikipedia, Netcat: Setting up a one-shot webserver on port 8080 to present the content of a file][wikipedia-netcat]
 
+[bash-command-sub]:        http://www.tldp.org/LDP/abs/html/commandsub.html
+[bash-heredoc]:            http://stackoverflow.com/questions/1167746/how-to-assign-a-heredoc-value-to-a-variable-in-bash
+[bash-string-length]:      http://stackoverflow.com/questions/17368067/length-of-string-in-bash
+[bash-while]:              http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
+[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/
+[man-curl]:                https://www.freebsd.org/cgi/man.cgi?query=curl&manpath=SuSE+Linux/i386+11.3
+[man-nc]:                  https://www.freebsd.org/cgi/man.cgi?nc
 [tor]:                     https://www.torproject.org/index.html.en
-[tor-tor2web]:             https://tor2web.org
 [tor-config]:              https://www.torproject.org/docs/tor-hidden-service.html.en
-[tor-torrc]:               https://www.torproject.org/docs/faq.html.en#torrc
 [tor-curl]:                https://github.com/curl/curl/issues/232
 [tor-curl-onion]:          http://stackoverflow.com/questions/18146295/curl-an-onion-url-over-an-http-proxy-does-not-return-expected-source
 [tor-nc]:                  http://vicendominguez.blogspot.com/2014/08/using-nc-and-ncat-with-tor-without.html
-[man-nc]:                  https://www.freebsd.org/cgi/man.cgi?nc
-[man-curl]:                https://www.freebsd.org/cgi/man.cgi?query=curl&manpath=SuSE+Linux/i386+11.3
-[freebsd-forum-nc]:        https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/
-[bash-heredoc]:            http://stackoverflow.com/questions/1167746/how-to-assign-a-heredoc-value-to-a-variable-in-bash
-[bash-while]:              http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
-[bash-string-length]:      http://stackoverflow.com/questions/17368067/length-of-string-in-bash
-[bash-command-sub]:        http://www.tldp.org/LDP/abs/html/commandsub.html
+[tor-tor2web]:             https://tor2web.org
+[tor-torrc]:               https://www.torproject.org/docs/faq.html.en#torrc
 [unix-faking-services]:    http://notes.rioastamal.net/2014/02/faking-services-using-netcat-for-nagios-testing.html
-[unix-single-line-server]: http://unix.stackexchange.com/questions/32182/simple-command-line-http-server
 [unix-one-command-server]: http://www.commandlinefu.com/commands/view/9164/one-command-line-web-server-on-port-80-using-nc-netcat
+[unix-single-line-server]: http://unix.stackexchange.com/questions/32182/simple-command-line-http-server
 [wikipedia-netcat]:        https://en.wikipedia.org/wiki/Netcat#Setting_up_a_one-shot_webserver_on_port_8080_to_present_the_content_of_a_file
 

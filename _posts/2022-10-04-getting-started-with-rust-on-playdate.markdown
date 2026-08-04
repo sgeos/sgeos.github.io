@@ -243,14 +243,14 @@ from the [Playdate Developer Forum][playdate_dev_forum].
 [crankstart-klondike]: https://github.com/pd-rs/crankstart-klondike
 [crankstart-ninelives]: https://github.com/bravely/nine_lives
 [playdate]: https://play.date/
+[playdate-getting-started]: /gamedev/playdate/c/c++/lua/2022/10/03/getting-started-with-playdate.html
 [playdate_c_api_docs]: https://sdk.play.date/inside-playdate-with-c
 [playdate_dev]: https://play.date/dev/
 [playdate_dev_forum]: https://devforum.play.date
 [playdate_dev_forum_rust]: https://devforum.play.date/t/rust-development-thread/3999
-[playdate-getting-started]: /gamedev/playdate/c/c++/lua/2022/10/03/getting-started-with-playdate.html
 [playdate_lua_docs]: https://sdk.play.date/Inside%20Playdate.html
 [playdate_sdk_latest]: https://download.panic.com/playdate_sdk/PlaydateSDK-latest.zip
 [rust]: https://www.rust-lang.org
-[rustup]: https://rustup.rs
 [rust_cargo_xbuild]: https://docs.rs/crate/cargo-xbuild/latest
+[rustup]: https://rustup.rs
 

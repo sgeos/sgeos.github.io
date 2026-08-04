@@ -751,10 +751,10 @@ in complex systems.
 - [Research, Pace Layering][research_pace_layering]
 
 [book_accelerate]: https://en.wikipedia.org/wiki/Accelerate_(book)
+[book_lean_startup]: https://en.wikipedia.org/wiki/The_Lean_Startup
 [book_leveson]: https://direct.mit.edu/books/oa-monograph/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied
 [book_normal_accidents]: https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
 [book_sommerville]: https://en.wikipedia.org/wiki/Ian_Sommerville_(software_engineer)
-[book_lean_startup]: https://en.wikipedia.org/wiki/The_Lean_Startup
 [ref_bimodal_it]: https://www.gartner.com/en/information-technology/glossary/bimodal
 [ref_critical_system]: https://en.wikipedia.org/wiki/Critical_system
 [ref_cynefin]: https://en.wikipedia.org/wiki/Cynefin_framework
@@ -763,7 +763,7 @@ in complex systems.
 [ref_iso_26262]: https://en.wikipedia.org/wiki/ISO_26262
 [ref_safety_integrity_level]: https://en.wikipedia.org/wiki/Safety_integrity_level
 [ref_therac_25]: https://en.wikipedia.org/wiki/Therac-25
-[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}
-[related_post_telemeritocracy]: {% post_url 2026-02-19-telemeritocracy %}
+[related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
+[related_post_telemeritocracy]: {% post_url 2026-02-18-telemeritocracy %}
 [research_dora]: https://dora.dev/research/
 [research_pace_layering]: https://jods.mitpress.mit.edu/pub/issue3-brand

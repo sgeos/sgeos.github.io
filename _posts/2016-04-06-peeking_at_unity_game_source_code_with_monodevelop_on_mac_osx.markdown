@@ -69,7 +69,7 @@ Change **Visibility** to **All members** and **Language** to **C#** to see a com
 - [Unity3D, Exploring Unity With Reflection And The Assembly Browser][unity-reflect]
 - [UNIX, man unzip][man-unzip]
 
+[man-unzip]: https://www.freebsd.org/cgi/man.cgi?query=unzip&sektion=1
 [unity-decompile]: http://unitylore.com/articles/monodevelop-assembly-browser/
 [unity-reflect]: http://purdyjotut.blogspot.com/2013/10/exploring-unity-with-reflection-and.html
-[man-unzip]: https://www.freebsd.org/cgi/man.cgi?query=unzip&sektion=1
 

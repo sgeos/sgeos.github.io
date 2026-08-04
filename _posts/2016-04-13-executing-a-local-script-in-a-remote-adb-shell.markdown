@@ -102,8 +102,8 @@ This case needs to be placed above the other case statements.
 - [Android, SSH Public Key Login From a Rooted Android Phone][android-ssh-public]
 - [Unix, Passing commands through an SSH shell in a bash script][unix-ssh-command]
 
-[android-man-mksh]: https://sgeos.github.io
 [android-cyanogenmod-ssh]: https://wiki.cyanogenmod.org/w/Doc:_sshd
+[android-man-mksh]: https://sgeos.github.io
 [android-ssh-public]: https://sgeos.github.io/ssh/android/unix/2016/04/08/ssh-public-key-login-from-a-rooted-android-phone.html
 [unix-ssh-command]: http://www.linuxquestions.org/questions/linux-newbie-8/passing-commands-through-an-ssh-shell-in-a-bash-script-817072/
 

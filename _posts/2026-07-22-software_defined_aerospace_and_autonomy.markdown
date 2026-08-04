@@ -161,9 +161,9 @@ The next article in the series takes the contemporary snapshot as of 2026, appli
 [book_newcome_unmanned_aviation]: https://openlibrary.org/works/OL5844562W/Unmanned_aviation
 [book_spitzer_digital_avionics_handbook]: https://openlibrary.org/works/OL8081940W/Digital_avionics_handbook
 
-[ref_arinc_661]: https://www.aviation-ia.com/products/661-cockpit-display-system-interfaces-user-systems
 [ref_airbus_a320_fbw]: https://en.wikipedia.org/wiki/Airbus_A320_family
 [ref_ansi_jaus_autonomy]: https://en.wikipedia.org/wiki/JAUS
+[ref_arinc_661]: https://www.aviation-ia.com/products/661-cockpit-display-system-interfaces-user-systems
 
 [related_post_a237_framing_co_development]: {% post_url 2026-07-12-framing_and_the_co_development_mechanism %}
 [related_post_a241_aerospace_simulation]: {% post_url 2026-07-16-aerospace_simulation_and_real_time_systems %}

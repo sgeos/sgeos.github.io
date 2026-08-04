@@ -359,30 +359,30 @@ others being the permission to use what was built.
 [ref_airworthiness]: https://en.wikipedia.org/wiki/Airworthiness
 [ref_automation]: https://en.wikipedia.org/wiki/Vehicular_automation
 [ref_bvlos]: https://en.wikipedia.org/wiki/Beyond_visual_line_of_sight
-[ref_caac]: https://en.wikipedia.org/wiki/Civil_Aviation_Administration_of_China
 [ref_caa_uk]: https://en.wikipedia.org/wiki/Civil_Aviation_Authority_(United_Kingdom)
+[ref_caac]: https://en.wikipedia.org/wiki/Civil_Aviation_Administration_of_China
 [ref_casa]: https://en.wikipedia.org/wiki/Civil_Aviation_Safety_Authority
 [ref_chicago]: https://en.wikipedia.org/wiki/Convention_on_International_Civil_Aviation
 [ref_daa]: https://en.wikipedia.org/wiki/Detect_and_avoid
-[ref_easa]: https://en.wikipedia.org/wiki/European_Union_Aviation_Safety_Agency
 [ref_ear]: https://en.wikipedia.org/wiki/Export_Administration_Regulations
+[ref_easa]: https://en.wikipedia.org/wiki/European_Union_Aviation_Safety_Agency
 [ref_faa]: https://en.wikipedia.org/wiki/Federal_Aviation_Administration
 [ref_flight_termination]: https://en.wikipedia.org/wiki/Flight_termination_system
 [ref_gdpr]: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
 [ref_geofence]: https://en.wikipedia.org/wiki/Geo-fence
 [ref_icao]: https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization
-[ref_itu]: https://en.wikipedia.org/wiki/International_Telecommunication_Union
 [ref_itar]: https://en.wikipedia.org/wiki/International_Traffic_in_Arms_Regulations
+[ref_itu]: https://en.wikipedia.org/wiki/International_Telecommunication_Union
 [ref_just_culture]: https://en.wikipedia.org/wiki/Just_culture
 [ref_karman]: https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line
 [ref_kinetic_energy]: https://en.wikipedia.org/wiki/Kinetic_energy
 [ref_ost]: https://en.wikipedia.org/wiki/Outer_Space_Treaty
-[ref_uav_regulation]: https://en.wikipedia.org/wiki/Regulation_of_unmanned_aerial_vehicles
 [ref_remote_id]: https://en.wikipedia.org/wiki/Remote_ID
 [ref_sms]: https://en.wikipedia.org/wiki/Safety_management_system
 [ref_space_law]: https://en.wikipedia.org/wiki/Space_law
 [ref_transport_canada]: https://en.wikipedia.org/wiki/Transport_Canada
 [ref_type_cert]: https://en.wikipedia.org/wiki/Type_certificate
+[ref_uav_regulation]: https://en.wikipedia.org/wiki/Regulation_of_unmanned_aerial_vehicles
 [ref_uspace]: https://en.wikipedia.org/wiki/U-space
 [ref_utm]: https://en.wikipedia.org/wiki/Unmanned_aircraft_system_traffic_management
 [ref_wassenaar]: https://en.wikipedia.org/wiki/Wassenaar_Arrangement
@@ -392,5 +392,5 @@ others being the permission to use what was built.
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_structures]: {% post_url 2026-06-10-structures_and_the_flight_envelope_for_fixed_wing_uavs %}
 [research_easa]: https://www.easa.europa.eu/en/domains/civil-drones
-[research_jarus]: http://jarus-rpas.org/
 [research_icao]: https://www.icao.int/safety/UA/Pages/default.aspx
+[research_jarus]: http://jarus-rpas.org/

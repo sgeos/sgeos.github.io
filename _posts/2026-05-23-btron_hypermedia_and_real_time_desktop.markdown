@@ -4109,8 +4109,8 @@ for that type.
 [ref_relativity]: https://www.relativity.com/data-solutions/ediscovery/
 [ref_roam]: https://roamresearch.com/
 [ref_rtems]: https://www.rtems.org/
-[ref_self]: https://selflanguage.org/
 [ref_sel4]: https://sel4.systems/
+[ref_self]: https://selflanguage.org/
 [ref_servo]: https://servo.org/
 [ref_sharepoint]: https://en.wikipedia.org/wiki/SharePoint
 [ref_sketchpad]: https://en.wikipedia.org/wiki/Sketchpad
@@ -4137,7 +4137,7 @@ for that type.
 [ref_yjs]: https://yjs.dev/
 [ref_zephyr]: https://www.zephyrproject.org/
 [related_post_fast_moving_mission_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
-[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}
+[related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
 [research_amazon_freertos]: https://aws.amazon.com/blogs/aws/announcing-amazon-freertos/
 [research_berners_lee_1989]: https://www.w3.org/History/1989/proposal.html
 [research_derouiche_agentic]: https://arxiv.org/abs/2508.10146

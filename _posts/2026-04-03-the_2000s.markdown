@@ -1657,15 +1657,14 @@ the twenty tens.
 - [Related Post, The 1980s][related_post_a211]
 - [Related Post, The 1990s][related_post_a212]
 
-[book_pierce_tpl]: https://mitpress.mit.edu/9780262162098/types-and-programming-languages/
 [book_pierce_atpl]: https://mitpress.mit.edu/9780262162289/advanced-topics-in-types-and-programming-languages/
+[book_pierce_tpl]: https://mitpress.mit.edu/9780262162098/types-and-programming-languages/
 [paper_claessen_hughes]: https://dl.acm.org/doi/10.1145/351240.351266
 [paper_gonthier_four_colour]: https://www.ams.org/notices/200811/tx081101382p.pdf
-[paper_leroy_compcert_popl]: https://dl.acm.org/doi/10.1145/1111037.1111042
 [paper_leroy_compcert_jar]: https://link.springer.com/article/10.1007/s10817-009-9155-4
+[paper_leroy_compcert_popl]: https://dl.acm.org/doi/10.1145/1111037.1111042
 [paper_rondon_liquid]: https://dl.acm.org/doi/10.1145/1375581.1375602
 [paper_siek_taha_gradual]: http://scheme2006.cs.uchicago.edu/13-siek.pdf
-[thesis_norell]: https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf
 [related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
 [related_post_a208]: {% post_url 2026-03-29-the_1960s %}
@@ -1674,3 +1673,4 @@ the twenty tens.
 [related_post_a211]: {% post_url 2026-04-01-the_1980s %}
 [related_post_a212]: {% post_url 2026-04-02-the_1990s %}
 [related_post_a214]: {% post_url 2026-04-04-the_2010s %}
+[thesis_norell]: https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf

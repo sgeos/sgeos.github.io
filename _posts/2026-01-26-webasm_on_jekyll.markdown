@@ -359,6 +359,6 @@ optimizing for WASM loading can be found in the
 - [Rust and WebAssembly Book][rust_wasm_book]
 - [Jekyll Assets][jekyll_assets]
 
-[rust_wasm_book]: https://rustwasm.github.io/docs/book/
 [jekyll_assets]: https://jekyllrb.com/docs/assets/
+[rust_wasm_book]: https://rustwasm.github.io/docs/book/
 

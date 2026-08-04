@@ -1542,9 +1542,9 @@ that the survey opener identified.
 - [Related Post, Water Systems and Life Support Recovery for Off-Grid Space Colonization Analogs][related_post_water]
 
 [ref_3d_habitat_challenge]: https://www.nasa.gov/centennial-challenges/
+[ref_aquarius]: https://en.wikipedia.org/wiki/Aquarius_Reef_Base
 [ref_ashrae_901]: https://en.wikipedia.org/wiki/ASHRAE_90.1
 [ref_atcs]: https://en.wikipedia.org/wiki/External_Active_Thermal_Control_System
-[ref_aquarius]: https://en.wikipedia.org/wiki/Aquarius_Reef_Base
 [ref_beam]: https://en.wikipedia.org/wiki/Bigelow_Expandable_Activity_Module
 [ref_commercial_stations]: https://www.nasa.gov/humans-in-space/commercial-space/
 [ref_concordia]: https://en.wikipedia.org/wiki/Concordia_Station
@@ -1562,8 +1562,8 @@ that the survey opener identified.
 [ref_suit_port]: https://en.wikipedia.org/wiki/Suitport
 [ref_whipple]: https://en.wikipedia.org/wiki/Whipple_shield
 [related_post_analog_intro]: {% post_url 2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities %}
-[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
-[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 [related_post_communications]: {% post_url 2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs %}
+[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
 [related_post_food]: {% post_url 2026-07-02-food_production_and_closed_ecological_systems_for_off_grid_space_colonization_analogs %}
+[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 

@@ -1611,6 +1611,6 @@ is being realized.
 [ref_v030_self_hosting]: https://github.com/sgeos/keleusma/blob/main/docs/roadmap/V0_3_0_SELF_HOSTING.md
 [ref_wirth_compiler_construction]: https://people.inf.ethz.ch/wirth/CompilerConstruction/index.html
 [related_post_compilers_streaming]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
-[related_post_self_hosted_silicon]: {% post_url 2026-07-09-self_hosted_silicon_compiler %}
-[related_post_pl_theory_arc]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_keleusma_022]: {% post_url 2026-07-10-keleusma_0_2_2_getting_started %}
+[related_post_pl_theory_arc]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
+[related_post_self_hosted_silicon]: {% post_url 2026-07-09-self_hosted_silicon_compiler %}

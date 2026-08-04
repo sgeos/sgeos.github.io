@@ -718,13 +718,13 @@ Article fourteen returns to the NeuroAI bridge and treats the continual learning
 [research_beaulieu_et_al_2020_anml]: https://arxiv.org/abs/2002.09571
 [research_bennani_doan_sugiyama_2020]: https://arxiv.org/abs/2010.09543
 [research_buzzega_et_al_2020_der]: https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html
+[research_caccia_et_al_2020_osaka]: https://papers.nips.cc/paper/2020/hash/c0a271bc0ecb776a094786474322cb82-Abstract.html
 [research_casado_et_al_2022]: https://arxiv.org/abs/2201.11976
 [research_castro_et_al_2018_e2eil]: https://openaccess.thecvf.com/content_ECCV_2018/html/Francisco_M._Castro_End-to-End_Incremental_Learning_ECCV_2018_paper.html
-[research_chen_et_al_2023_moe_cl]: https://arxiv.org/abs/2211.01452
-[research_caccia_et_al_2020_osaka]: https://papers.nips.cc/paper/2020/hash/c0a271bc0ecb776a094786474322cb82-Abstract.html
 [research_chaudhry_et_al_2018_riemannian_walk]: https://openaccess.thecvf.com/content_ECCV_2018/html/Arslan_Chaudhry__Riemannian_ECCV_2018_paper.html
 [research_chaudhry_et_al_2019_agem]: https://openreview.net/forum?id=Hkf2_sC5FX
 [research_chaudhry_et_al_2019_er]: https://arxiv.org/abs/1902.10486
+[research_chen_et_al_2023_moe_cl]: https://arxiv.org/abs/2211.01452
 [research_chen_wang_2023]: https://arxiv.org/abs/2205.12393
 [research_cheung_et_al_2019_superposition]: https://papers.nips.cc/paper/2019/hash/4c7a167bb329bd92580a99ce422d6fa6-Abstract.html
 [research_cichon_gan_2015]: https://www.nature.com/articles/nature14251
@@ -782,9 +782,9 @@ Article fourteen returns to the NeuroAI bridge and treats the continual learning
 [research_lomonaco_maltoni_2017_core50]: https://proceedings.mlr.press/v78/lomonaco17a.html
 [research_lopez_paz_ranzato_2017_gem]: https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html
 [research_mai_et_al_2022_online_survey]: https://www.sciencedirect.com/science/article/pii/S0925231221014995
-[research_masana_et_al_2023_cil_survey]: https://ieeexplore.ieee.org/document/9915459
 [research_mallya_davis_lazebnik_2018_piggyback]: https://openaccess.thecvf.com/content_ECCV_2018/html/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.html
 [research_mallya_lazebnik_2018_packnet]: https://openaccess.thecvf.com/content_cvpr_2018/html/Mallya_PackNet_Adding_Multiple_CVPR_2018_paper.html
+[research_masana_et_al_2023_cil_survey]: https://ieeexplore.ieee.org/document/9915459
 [research_mcclelland_mcnaughton_oreilly_1995]: https://psycnet.apa.org/doi/10.1037/0033-295X.102.3.419
 [research_mccloskey_cohen_1989]: https://www.sciencedirect.com/science/article/pii/S0079742108605368
 [research_mirzadeh_et_al_2020]: https://papers.nips.cc/paper/2020/hash/518a38cc9a0173d0b2dc088166981cf8-Abstract.html

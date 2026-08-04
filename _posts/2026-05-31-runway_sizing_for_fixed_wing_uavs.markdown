@@ -535,16 +535,16 @@ a builder can defend with numbers rather than guess at.
 [ref_runway]: https://en.wikipedia.org/wiki/Runway
 [ref_runway_lighting]: https://skybrary.aero/articles/runway-lighting
 [ref_scaneagle]: https://en.wikipedia.org/wiki/Boeing_Insitu_MQ-27_ScanEagle
-[ref_slope_surface]: https://www.boldmethod.com/learn-to-fly/performance/runway-surface-and-slope/
 [ref_ski_jump]: https://en.wikipedia.org/wiki/Ski-jump_(aviation)
+[ref_slope_surface]: https://www.boldmethod.com/learn-to-fly/performance/runway-surface-and-slope/
 [ref_square_cube]: https://en.wikipedia.org/wiki/Square%E2%80%93cube_law
 [ref_tricycle_gear]: https://en.wikipedia.org/wiki/Tricycle_landing_gear
 [ref_vortex_lift]: https://en.wikipedia.org/wiki/Vortex_lift
 [ref_wing_loading]: https://en.wikipedia.org/wiki/Wing_loading
 [related_post_lwpla]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
-[research_vt_to]: https://pressbooks.lib.vt.edu/aerodynamics/chapter/chapter-7-accelerated-performance-takeoff-and-landing/
+[research_erau_to]: https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/takeoff-landing-performance/
 [research_faa_da]: https://www.faasafety.gov/files/events/NM/NM07/2023/NM07120280/FAA-P-8740-02-DensityAltitude.pdf
 [research_part107_29]: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29
-[research_uav_landing]: https://www.uavnavigation.com/company/blog/uav-navigation-depth-precision-runway-landing-without-dgpsrtk
 [research_rcsd_scaling]: https://www.rcsoaringdigest.com/SquareCube.html
-[research_erau_to]: https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/takeoff-landing-performance/
+[research_uav_landing]: https://www.uavnavigation.com/company/blog/uav-navigation-depth-precision-runway-landing-without-dgpsrtk
+[research_vt_to]: https://pressbooks.lib.vt.edu/aerodynamics/chapter/chapter-7-accelerated-performance-takeoff-and-landing/

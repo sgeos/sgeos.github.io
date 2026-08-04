@@ -872,9 +872,9 @@ The readers of the series are encouraged to consult the individual survey articl
 [research_nosofsky_1986]: https://psycnet.apa.org/doi/10.1037/0096-3445.115.1.39
 [research_okeefe_dostrovsky_1971]: https://www.sciencedirect.com/science/article/pii/0006899371903581
 [research_openended_team_2021]: https://arxiv.org/abs/2107.12808
+[research_oregan_noe_2001]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC
 [research_osband_et_al_2020]: https://openreview.net/forum?id=rygf-kSYwH
 [research_osc_2015]: https://www.science.org/doi/10.1126/science.aac4716
-[research_oregan_noe_2001]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC
 [research_ouyang_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html
 [research_pathak_et_al_2017]: https://proceedings.mlr.press/v70/pathak17a.html
 [research_rao_ballard_1999]: https://www.nature.com/articles/nn0199_79

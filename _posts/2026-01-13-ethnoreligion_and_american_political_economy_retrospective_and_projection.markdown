@@ -522,12 +522,12 @@ The series concludes acknowledging marked ongoing research agenda combining empi
 [ref_pew_modeling_future_2022]: https://www.pewresearch.org/religion/2022/09/13/modeling-the-future-of-religion-in-america/
 [ref_pew_religious_landscape_2014]: https://www.pewresearch.org/religion/religious-landscape-study/
 [ref_quebec_act_1774]: https://www.canadiana.ca/view/oocihm.9_00949
-[ref_statscan_2021_religion]: https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 [ref_stats_nz_2018_religion]: https://www.stats.govt.nz/information-releases/2018-census-totals-by-topic-national-highlights-updated
+[ref_statscan_2021_religion]: https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 [ref_treaty_of_waitangi_1840]: https://nzhistory.govt.nz/politics/treaty-of-waitangi
 [ref_uk_ons_2021_religion]: https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion
-[ref_us_census_projections_2023]: https://www.census.gov/programs-surveys/popproj.html
 [ref_us_census_historical]: https://www.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970.html
+[ref_us_census_projections_2023]: https://www.census.gov/programs-surveys/popproj.html
 [related_post_a266_framing]: {% post_url 2026-01-03-ethnoreligion_and_american_political_economy_framing %}
 [related_post_a267_colonial_folkways]: {% post_url 2026-01-04-ethnoreligion_and_american_political_economy_colonial_folkways %}
 [related_post_a268_awakening_and_founding]: {% post_url 2026-01-05-ethnoreligion_and_american_political_economy_awakening_and_founding %}

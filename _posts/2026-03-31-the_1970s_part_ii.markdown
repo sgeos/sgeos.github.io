@@ -1331,7 +1331,9 @@ the nineteen eighties.
 - [Related Post, The 1960s][related_post_a208]
 - [Related Post, The 1970s Part I][related_post_a209]
 
+[book_edinburgh_lcf]: https://link.springer.com/book/10.1007/3-540-09724-4
 [book_martinlof_1984]: https://en.wikipedia.org/wiki/Intuitionistic_type_theory
+[paper_damas_milner]: https://dl.acm.org/doi/10.1145/582153.582176
 [paper_denning_lattice]: https://dl.acm.org/doi/10.1145/360051.360056
 [paper_hindley]: https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system
 [paper_howard]: https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence
@@ -1341,10 +1343,8 @@ the nineteen eighties.
 [paper_robinson_resolution]: https://en.wikipedia.org/wiki/Robinson%27s_resolution
 [paper_scott_lcf_note]: https://en.wikipedia.org/wiki/Logic_for_Computable_Functions
 [ref_popl]: https://en.wikipedia.org/wiki/Symposium_on_Principles_of_Programming_Languages
-[paper_damas_milner]: https://dl.acm.org/doi/10.1145/582153.582176
-[book_edinburgh_lcf]: https://link.springer.com/book/10.1007/3-540-09724-4
-[thesis_damas]: https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system
 [related_post_a206]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_a207]: {% post_url 2026-03-28-foundations_before_1960 %}
 [related_post_a208]: {% post_url 2026-03-29-the_1960s %}
 [related_post_a209]: {% post_url 2026-03-30-the_1970s_part_i %}
+[thesis_damas]: https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system

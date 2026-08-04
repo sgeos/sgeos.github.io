@@ -13,7 +13,7 @@ series_index: 2
 <script>console.log("A87");</script>
 
 The
-[previous article]({% post_url 2026-02-18-mission_command_management_style %})
+[previous article]({% post_url 2026-02-17-mission_command_management_style %})
 examined mission command
 as a structural doctrine
 for distributing decision-making authority
@@ -400,7 +400,7 @@ degenerates into an informal oligarchy.
 ### Mission Command
 
 The
-[previous article]({% post_url 2026-02-18-mission_command_management_style %})
+[previous article]({% post_url 2026-02-17-mission_command_management_style %})
 on mission command
 describes a military doctrine
 that is structurally telemeritocratic.
@@ -674,7 +674,7 @@ of formalized meritocratic governance for open source projects.
 RFC 7282 describes the IETF's consensus model
 in detail.
 The companion article on
-[mission command]({% post_url 2026-02-18-mission_command_management_style %})
+[mission command]({% post_url 2026-02-17-mission_command_management_style %})
 examines a military doctrine
 that is structurally telemeritocratic.
 
@@ -697,7 +697,7 @@ that is structurally telemeritocratic.
 [ref_apache]: https://www.apache.org/foundation/how-it-works/
 [ref_rfc_7282]: https://datatracker.ietf.org/doc/rfc7282/
 [ref_valve]: https://archive.org/details/ValveEmployeeHandbook
-[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}
+[related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
 [research_cheang]: https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/why-missiondirected-governance-risks-authoritarianism-lessons-from-east-asia/E0254D7CFB996C52FC24FDFE768DD925
 [research_cheung_hayek]: https://cosmosandtaxis.org/wp-content/uploads/2014/11/ct_1_2_cheung.pdf
 [research_freeman]: https://www.jofreeman.com/joreen/tyranny.htm

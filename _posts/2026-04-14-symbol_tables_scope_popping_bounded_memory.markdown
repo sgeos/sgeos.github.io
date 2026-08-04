@@ -1419,8 +1419,8 @@ approach.
 - [Symbol table data structures in compiler construction][ref_symbol_table]
 - [Lexical scoping in programming languages][ref_lexical_scoping]
 
-[ref_symbol_table]: https://en.wikipedia.org/wiki/Symbol_table
 [ref_lexical_scoping]: https://en.wikipedia.org/wiki/Scope_(computer_science)
+[ref_symbol_table]: https://en.wikipedia.org/wiki/Symbol_table
 
 ### Related Post
 
@@ -1429,10 +1429,10 @@ approach.
 - [Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables], article A194 in this series
 - [Declare-Before-Use and Forward Declarations][related_post_declare_before_use], article A195 in this series
 
+[related_post_declare_before_use]: {% post_url 2026-04-13-declare_before_use_forward_declarations %}
+[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
 [related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
-[related_post_declare_before_use]: {% post_url 2026-04-13-declare_before_use_forward_declarations %}
 
 ## Erratum
 

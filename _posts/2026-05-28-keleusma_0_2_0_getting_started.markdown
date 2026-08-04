@@ -639,23 +639,23 @@ For a systems programmer, it is the embedding track.
 - [Related Post, Getting Started with Keleusma 0.1.1][related_post_keleusma_011]
 - [Related Post, A Verifiable Control Kernel in Keleusma][related_post_control_kernel]
 
-[kel_crate]: https://crates.io/crates/keleusma
 [kel_cli_crate]: https://crates.io/crates/keleusma-cli
+[kel_crate]: https://crates.io/crates/keleusma
 [kel_docs_rs]: https://docs.rs/keleusma
 [kel_embedding]: https://github.com/sgeos/keleusma/blob/main/docs/guide/EMBEDDING.md
 [kel_examples]: https://github.com/sgeos/keleusma/tree/main/examples/scripts
 [kel_github]: https://github.com/sgeos/keleusma
 [kel_guide]: https://github.com/sgeos/keleusma/blob/main/docs/guide/README.md
-[kel_guide_ch1]: https://github.com/sgeos/keleusma/blob/main/docs/guide/01_what_keleusma_is.md
-[kel_guide_install]: https://github.com/sgeos/keleusma/blob/main/docs/guide/02_installing_and_running.md
-[kel_guide_categories]: https://github.com/sgeos/keleusma/blob/main/docs/guide/15_three_function_categories.md
 [kel_guide_budgets]: https://github.com/sgeos/keleusma/blob/main/docs/guide/20_time_and_memory_budgets.md
+[kel_guide_categories]: https://github.com/sgeos/keleusma/blob/main/docs/guide/15_three_function_categories.md
+[kel_guide_ch1]: https://github.com/sgeos/keleusma/blob/main/docs/guide/01_what_keleusma_is.md
 [kel_guide_generics]: https://github.com/sgeos/keleusma/blob/main/docs/guide/21_generics_and_traits.md
-[kel_guide_refinement]: https://github.com/sgeos/keleusma/blob/main/docs/guide/22_newtypes_and_refinement.md
 [kel_guide_ifc]: https://github.com/sgeos/keleusma/blob/main/docs/guide/24_information_flow_labels.md
+[kel_guide_install]: https://github.com/sgeos/keleusma/blob/main/docs/guide/02_installing_and_running.md
+[kel_guide_refinement]: https://github.com/sgeos/keleusma/blob/main/docs/guide/22_newtypes_and_refinement.md
 [kel_guide_signing]: https://github.com/sgeos/keleusma/blob/main/docs/guide/26_signed_modules_and_hot_swap.md
 [kel_isa]: https://github.com/sgeos/keleusma/blob/main/docs/spec/INSTRUCTION_SET.md
 [ref_refinement_type]: https://en.wikipedia.org/wiki/Refinement_type
 [ref_wcet]: https://en.wikipedia.org/wiki/Worst-case_execution_time
-[related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
 [related_post_control_kernel]: {% post_url 2026-05-27-verifiable_control_kernel_in_keleusma %}
+[related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}

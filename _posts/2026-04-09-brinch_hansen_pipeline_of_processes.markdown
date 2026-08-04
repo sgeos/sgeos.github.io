@@ -986,8 +986,8 @@ in single-pass validation.
 - [*Brinch Hansen on Pascal Compilers*][book_brinch_hansen_pascal_compilers], Per Brinch Hansen, Prentice-Hall, 1985, ISBN 0-13-083098-4
 - [*Operating System Principles*][book_brinch_hansen_operating_systems], Per Brinch Hansen, Prentice-Hall, 1973, ISBN 0-13-637843-9
 
-[book_brinch_hansen_pascal_compilers]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
 [book_brinch_hansen_operating_systems]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
+[book_brinch_hansen_pascal_compilers]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
 
 ### Reference
 
@@ -999,9 +999,9 @@ in single-pass validation.
 
 [ref_brinch_hansen]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
 [ref_concurrent_pascal]: https://en.wikipedia.org/wiki/Concurrent_Pascal
-[ref_occam]: https://en.wikipedia.org/wiki/Occam_(programming_language)
 [ref_erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
 [ref_go]: https://en.wikipedia.org/wiki/Go_(programming_language)
+[ref_occam]: https://en.wikipedia.org/wiki/Occam_(programming_language)
 
 ### Related Post
 
@@ -1010,16 +1010,16 @@ in single-pass validation.
 - [Turbo Pascal, the Closed-Source Demonstration][related_post_turbo_pascal], article A190 in this series
 
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
-[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
 [related_post_turbo_pascal]: {% post_url 2026-04-08-turbo_pascal_closed_source_demonstration %}
+[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
 
 ### Research
 
 - [Brinch Hansen, SuperPascal, a Publication Language for Parallel Scientific Computing, Concurrency Practice and Experience 6, 1994][research_brinch_hansen_superpascal]
 - [Brinch Hansen, The Programming Language Concurrent Pascal, IEEE Transactions on Software Engineering SE-1, 1975][research_brinch_hansen_concurrent_pascal]
 
-[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060509
 [research_brinch_hansen_concurrent_pascal]: https://doi.org/10.1109/TSE.1975.6312842
+[research_brinch_hansen_superpascal]: https://doi.org/10.1002/cpe.4330060509
 
 ## Erratum
 

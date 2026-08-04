@@ -1534,9 +1534,9 @@ that the survey opener identified.
 [ref_moonlight]: https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Moonlight
 [ref_oneweb]: https://oneweb.net/
 [ref_solar_conjunction]: https://mars.nasa.gov/news/9387/whats-mars-solar-conjunction-and-why-does-it-matter/
-[ref_stars]: https://en.wikipedia.org/wiki/Software-defined_radio
 [ref_starlink]: https://www.starlink.com/
 [ref_starlink_dishy]: https://www.starlink.com/technology
+[ref_stars]: https://en.wikipedia.org/wiki/Software-defined_radio
 [ref_viasat]: https://www.viasat.com/
 [ref_voyager]: https://voyager.jpl.nasa.gov/
 [related_post_analog_intro]: {% post_url 2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities %}

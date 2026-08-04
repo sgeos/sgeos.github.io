@@ -291,19 +291,19 @@ that staircase in full.
 [ref_eic]: https://en.wikipedia.org/wiki/European_Innovation_Council
 [ref_eureka]: https://en.wikipedia.org/wiki/Eureka_(organisation)
 [ref_horizon]: https://en.wikipedia.org/wiki/Horizon_Europe
+[ref_iia]: https://en.wikipedia.org/wiki/Israel_Innovation_Authority
 [ref_industrial_policy]: https://en.wikipedia.org/wiki/Industrial_policy
 [ref_innovate_uk]: https://en.wikipedia.org/wiki/Innovate_UK
-[ref_iia]: https://en.wikipedia.org/wiki/Israel_Innovation_Authority
 [ref_market_failure]: https://en.wikipedia.org/wiki/Market_failure
 [ref_nedo]: https://en.wikipedia.org/wiki/New_Energy_and_Industrial_Technology_Development_Organization
 [ref_sred]: https://en.wikipedia.org/wiki/Scientific_Research_and_Experimental_Development_Tax_Credit_Program
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_introduction]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
-[related_post_valley_of_death]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
+[related_post_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_strategy]: {% post_url 2026-06-25-strategy_and_the_portfolio_of_sbir_and_sttr_awards %}
-[related_post_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
+[related_post_valley_of_death]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
 [research_eic]: https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en
 [research_innovate_uk]: https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/innovate-uk-contracts-for-innovation/
 [research_isc]: https://ised-isde.canada.ca/site/innovative-solutions-canada/en

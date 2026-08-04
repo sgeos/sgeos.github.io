@@ -222,9 +222,9 @@ end
 - [Elixir, Single File Elixir Programs][elixir-single]
 - [IRC #elixir-lang on Freenode][elixir-irc]
 
-[elixir-metaprogramming]: https://pragprog.com/book/cmelixir/metaprogramming-elixir
-[elixir-macros]:          http://elixir-lang.org/getting-started/meta/macros.html
 [elixir-code]:            http://elixir-lang.org/docs/master/elixir/Code.html
-[elixir-single]:          https://sgeos.github.io/elixir/erlang/2016/01/08/single-file-elixir-programs.html
 [elixir-irc]:             irc://irc.freenode.net/elixir-lang
+[elixir-macros]:          http://elixir-lang.org/getting-started/meta/macros.html
+[elixir-metaprogramming]: https://pragprog.com/book/cmelixir/metaprogramming-elixir
+[elixir-single]:          https://sgeos.github.io/elixir/erlang/2016/01/08/single-file-elixir-programs.html
 

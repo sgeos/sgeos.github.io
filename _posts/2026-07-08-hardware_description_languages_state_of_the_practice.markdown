@@ -1751,8 +1751,8 @@ engage with.
 - [A History of Hardware Description Languages][related_post_hdl_history], article A200 in this blog
 - [The Design Space for Next-Generation Hardware Description Languages][related_post_hdl_design_space], article A201 in this blog
 
-[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_hdl_design_space]: {% post_url 2026-07-07-design_space_next_generation_hardware_description_languages %}
+[related_post_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 
 ### Research
 

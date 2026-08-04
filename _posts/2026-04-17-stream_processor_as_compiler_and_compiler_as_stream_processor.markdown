@@ -1549,9 +1549,9 @@ the series.
 - [*Project Oberon, The Design of an Operating System and Compiler*][book_wirth_project_oberon], Niklaus Wirth and Jürg Gutknecht, revised edition 2013
 - [*Brinch Hansen on Pascal Compilers*][book_brinch_hansen_pascal_compilers], Per Brinch Hansen, Prentice-Hall, 1985, ISBN 0-13-083098-4
 
+[book_brinch_hansen_pascal_compilers]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
 [book_wirth_compiler_construction]: https://en.wikipedia.org/wiki/Compiler_Construction_(Wirth_book)
 [book_wirth_project_oberon]: https://people.inf.ethz.ch/wirth/ProjectOberon/
-[book_brinch_hansen_pascal_compilers]: https://en.wikipedia.org/wiki/Per_Brinch_Hansen
 
 ### Reference
 
@@ -1559,9 +1559,9 @@ the series.
 - [Self-hosting compilers][ref_self_hosting]
 - [Bootstrap compilers][ref_bootstrap]
 
+[ref_bootstrap]: https://en.wikipedia.org/wiki/Bootstrapping_(compilers)
 [ref_keleusma]: https://github.com/sgeos/keleusma
 [ref_self_hosting]: https://en.wikipedia.org/wiki/Self-hosting_(compilers)
-[ref_bootstrap]: https://en.wikipedia.org/wiki/Bootstrapping_(compilers)
 
 ### Related Post
 
@@ -1577,17 +1577,17 @@ the series.
 - [Integrated Single-Pass versus Decomposed Pipeline][related_post_integrated_pipeline], article A197 in this series
 - [When Multi-Pass Wins, Whole-Program Optimisation and Hindley-Milner Inference][related_post_multi_pass], article A198 in this series
 
-[related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
-[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_turbo_pascal]: {% post_url 2026-04-08-turbo_pascal_closed_source_demonstration %}
-[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
 [related_post_block_structured]: {% post_url 2026-04-10-block_structured_single_pass_validation %}
+[related_post_brinch_hansen]: {% post_url 2026-04-09-brinch_hansen_pipeline_of_processes %}
 [related_post_coalgebraic]: {% post_url 2026-04-11-coalgebraic_productivity_stream_processor_analogy %}
-[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
 [related_post_declare_before_use]: {% post_url 2026-04-13-declare_before_use_forward_declarations %}
-[related_post_symbol_tables]: {% post_url 2026-04-14-symbol_tables_scope_popping_bounded_memory %}
+[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
 [related_post_integrated_pipeline]: {% post_url 2026-04-15-integrated_single_pass_versus_decomposed_pipeline %}
 [related_post_multi_pass]: {% post_url 2026-04-16-when_multi_pass_wins %}
+[related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
+[related_post_symbol_tables]: {% post_url 2026-04-14-symbol_tables_scope_popping_bounded_memory %}
+[related_post_turbo_pascal]: {% post_url 2026-04-08-turbo_pascal_closed_source_demonstration %}
+[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
 
 ### Research
 

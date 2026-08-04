@@ -233,14 +233,14 @@ curl -H 'Content-Type: application/json' -X DELETE http://localhost:4000/api/mem
 - [Sh - the Bourne Shell][sh-tutorial]
 - [FreeBSD, Installing FreeBSD][freebsd-install]
 
+[elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
+[freebsd-install]: https://www.freebsd.org/doc/handbook/bsdinstall.html
 [phoenix-deployment]: http://www.phoenixframework.org/docs/deployment
 [phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
-[phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
 [phoenix-shell]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
-[elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
+[phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
 [postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
 [postgresql-install2]: http://www.rhyous.com/2010/08/27/installing-and-using-postgresql-on-freebsd/
 [postgresql-install3]: http://www.freebsddiary.org/postgresql.php
 [sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
-[freebsd-install]: https://www.freebsd.org/doc/handbook/bsdinstall.html
 

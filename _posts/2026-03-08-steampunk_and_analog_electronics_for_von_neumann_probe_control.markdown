@@ -2703,6 +2703,14 @@ the topics discussed in this article.
 - [Radiation-Resistant MEMS Logic Gates (Sensors and Actuators), Tabib-Azar, Chowdhury, and Saab, 2012][research_tabib_azar]
 - [The Inherent Adversarial Robustness of Analog In-Memory Computing (Nature Communications), Lammie et al., 2025][research_lammie]
 
+[future_campbell_kelly]: https://en.wikipedia.org/wiki/Computing:_A_Concise_History
+[future_freitas_merkle]: http://www.molecularassembler.com/KSRM.htm
+[future_goldstine]: https://en.wikipedia.org/wiki/The_Computer_from_Pascal_to_von_Neumann
+[future_karplus]: https://en.wikipedia.org/wiki/Analog_computer
+[future_korn]: https://en.wikipedia.org/wiki/Analog_computer
+[future_neuromorphic]: https://iopscience.iop.org/journal/2634-4386
+[future_nrc_nuclear]: https://doi.org/10.17226/5432
+[future_ulmann]: https://www.degruyterbrill.com/document/doi/10.1515/9783110787740/html
 [ref_5d_optical_storage]: https://en.wikipedia.org/wiki/5D_optical_data_storage
 [ref_ada_lovelace]: https://en.wikipedia.org/wiki/Ada_Lovelace
 [ref_agc]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
@@ -2719,9 +2727,9 @@ the topics discussed in this article.
 [ref_emp]: https://en.wikipedia.org/wiki/Electromagnetic_pulse
 [ref_eniac]: https://en.wikipedia.org/wiki/ENIAC
 [ref_fleming_valve]: https://en.wikipedia.org/wiki/Fleming_valve
-[ref_fly_by_wire]: https://en.wikipedia.org/wiki/Fly-by-wire
 [ref_flodac]: https://en.wikipedia.org/wiki/FLODAC
 [ref_fluidics]: https://en.wikipedia.org/wiki/Fluidics
+[ref_fly_by_wire]: https://en.wikipedia.org/wiki/Fly-by-wire
 [ref_harvard_mark_i]: https://en.wikipedia.org/wiki/Harvard_Mark_I
 [ref_jacquard_loom]: https://en.wikipedia.org/wiki/Jacquard_loom
 [ref_kerrison_predictor]: https://en.wikipedia.org/wiki/Kerrison_Predictor
@@ -2746,34 +2754,26 @@ the topics discussed in this article.
 [ref_rangekeeper]: https://en.wikipedia.org/wiki/Rangekeeper
 [ref_rosetta_disk]: https://en.wikipedia.org/wiki/Rosetta_Project
 [ref_saturn_v]: https://en.wikipedia.org/wiki/Saturn_V
-[ref_servomechanism]: https://en.wikipedia.org/wiki/Servomechanism
 [ref_science_museum]: https://en.wikipedia.org/wiki/Science_Museum,_London
+[ref_servomechanism]: https://en.wikipedia.org/wiki/Servomechanism
 [ref_sperry]: https://en.wikipedia.org/wiki/Sperry_Corporation
 [ref_strowger_switch]: https://en.wikipedia.org/wiki/Strowger_switch
 [ref_tide_predictor]: https://en.wikipedia.org/wiki/Tide-predicting_machine
 [ref_tmr]: https://en.wikipedia.org/wiki/Triple_modular_redundancy
+
 [ref_torpedo_data_computer]: https://en.wikipedia.org/wiki/Torpedo_Data_Computer
 [ref_v2_rocket]: https://en.wikipedia.org/wiki/V-2_rocket
 [ref_vacuum_tube]: https://en.wikipedia.org/wiki/Vacuum_tube
 [ref_vannevar_bush]: https://en.wikipedia.org/wiki/Vannevar_Bush
+
 [ref_voyager_golden_record]: https://en.wikipedia.org/wiki/Voyager_Golden_Record
 [ref_watt_governor]: https://en.wikipedia.org/wiki/Centrifugal_governor
 [ref_z1]: https://en.wikipedia.org/wiki/Z1_(computer)
 [ref_zuse]: https://en.wikipedia.org/wiki/Konrad_Zuse
-
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
-[related_post_error_correction]: {% post_url 2026-03-12-error_correction_recursion_problem %}
+[related_post_error_correction]: {% post_url 2026-03-06-error_correction_recursion_problem %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
-
-[future_campbell_kelly]: https://en.wikipedia.org/wiki/Computing:_A_Concise_History
-[future_freitas_merkle]: http://www.molecularassembler.com/KSRM.htm
-[future_goldstine]: https://en.wikipedia.org/wiki/The_Computer_from_Pascal_to_von_Neumann
-[future_karplus]: https://en.wikipedia.org/wiki/Analog_computer
-[future_korn]: https://en.wikipedia.org/wiki/Analog_computer
-[future_neuromorphic]: https://iopscience.iop.org/journal/2634-4386
-[future_nrc_nuclear]: https://doi.org/10.17226/5432
-[future_ulmann]: https://www.degruyterbrill.com/document/doi/10.1515/9783110787740/html
 
 [research_borgue]: https://doi.org/10.1016/j.actaastro.2021.03.004
 [research_freitas_1980]: https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm

@@ -2944,6 +2944,12 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 - [The SpiNNaker Project (Proceedings of the IEEE), Furber et al., 2014][research_furber]
 - [Towards Artificial General Intelligence with Hybrid Tianjic Chip Architecture (Nature), Pei et al., 2019][research_pei]
 
+[future_cui_2016]: https://www.wiley.com/en-us/Printed+Electronics%3A+Materials%2C+Technologies+and+Applications-p-9781118920923
+[future_james_2021]: https://link.springer.com/book/10.1007/978-3-031-79777-0
+[future_mead_1989]: https://en.wikipedia.org/wiki/Analog_VLSI_and_Neural_Systems
+[future_nature_neuro_2024]: https://www.nature.com/collections/jaidjgeceb
+[future_prucnal_2017]: https://www.cambridge.org/core/books/neuromorphic-photonics/3A5A0EA7A5A99A1CDA03B57B2E22B908
+[future_so_2010]: https://www.routledge.com/Organic-Electronics-Materials-Processing-Devices-and-Applications/So/p/book/9780367383596
 [ref_6502]: https://en.wikipedia.org/wiki/MOS_Technology_6502
 [ref_additive_manufacturing]: https://en.wikipedia.org/wiki/3D_printing
 [ref_aerosol_jet]: https://en.wikipedia.org/wiki/Aerosol_jet_printing
@@ -2974,35 +2980,29 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 [ref_perovskite]: https://en.wikipedia.org/wiki/Perovskite_solar_cell
 [ref_printed_electronics]: https://en.wikipedia.org/wiki/Printed_electronics
 [ref_reprap]: https://en.wikipedia.org/wiki/RepRap_project
-[ref_rram]: https://en.wikipedia.org/wiki/Resistive_random-access_memory
 [ref_riscv]: https://en.wikipedia.org/wiki/RISC-V
+[ref_rram]: https://en.wikipedia.org/wiki/Resistive_random-access_memory
 [ref_screen_printing]: https://en.wikipedia.org/wiki/Screen_printing
+
 [ref_snn]: https://en.wikipedia.org/wiki/Spiking_neural_network
 [ref_spinnaker]: https://en.wikipedia.org/wiki/SpiNNaker
 [ref_stdp]: https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity
 [ref_tft]: https://en.wikipedia.org/wiki/Thin-film_transistor
+
 [ref_thick_film]: https://en.wikipedia.org/wiki/Thick-film_technology
 [ref_truenorth]: https://en.wikipedia.org/wiki/TrueNorth
-
-[related_post_error_correction]: {% post_url 2026-03-12-error_correction_recursion_problem %}
+[related_post_error_correction]: {% post_url 2026-03-06-error_correction_recursion_problem %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_steampunk]: {% post_url 2026-03-08-steampunk_and_analog_electronics_for_von_neumann_probe_control %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
 
-[future_cui_2016]: https://www.wiley.com/en-us/Printed+Electronics%3A+Materials%2C+Technologies+and+Applications-p-9781118920923
-[future_james_2021]: https://link.springer.com/book/10.1007/978-3-031-79777-0
-[future_mead_1989]: https://en.wikipedia.org/wiki/Analog_VLSI_and_Neural_Systems
-[future_nature_neuro_2024]: https://www.nature.com/collections/jaidjgeceb
-[future_prucnal_2017]: https://www.cambridge.org/core/books/neuromorphic-photonics/3A5A0EA7A5A99A1CDA03B57B2E22B908
-[future_so_2010]: https://www.routledge.com/Organic-Electronics-Materials-Processing-Devices-and-Applications/So/p/book/9780367383596
-
 [research_biesterfeld]: https://doi.org/10.1038/s41586-021-03625-w
 [research_borgue]: https://doi.org/10.1016/j.actaastro.2021.03.004
-[research_hills]: https://doi.org/10.1038/s41586-019-1493-8
 [research_davies_2018]: https://doi.org/10.1109/MM.2018.112130359
 [research_davies_2021]: https://doi.org/10.1109/JPROC.2021.3067593
 [research_freitas_1980]: https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm
 [research_furber]: https://doi.org/10.1109/JPROC.2014.2304638
+[research_hills]: https://doi.org/10.1038/s41586-019-1493-8
 [research_mead_1990]: https://doi.org/10.1109/5.58356
 [research_merolla]: https://doi.org/10.1126/science.1254642
 [research_metzger]: https://doi.org/10.1061/(ASCE)AS.1943-5525.0000236

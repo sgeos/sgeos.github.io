@@ -553,8 +553,8 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 [research_mcgovern_barto_2001]: https://scholarworks.umass.edu/cs_faculty_pubs/8/
 [research_menache_mannor_shimkin_2002]: https://link.springer.com/chapter/10.1007/3-540-36755-1_25
 [research_merel_et_al_2019]: https://openreview.net/forum?id=BJl6TjRcY7
-[research_nachum_gu_lee_levine_2018]: https://papers.nips.cc/paper/2018/hash/e6384711491713d29bc63fc5eeb5ba4f-Abstract.html
 [research_nachum_et_al_2019]: https://openreview.net/forum?id=H1emus0qF7
+[research_nachum_gu_lee_levine_2018]: https://papers.nips.cc/paper/2018/hash/e6384711491713d29bc63fc5eeb5ba4f-Abstract.html
 [research_nachum_tang_lee_2019]: https://openreview.net/forum?id=SkljlBEtvS
 [research_parr_russell_1998]: https://papers.nips.cc/paper/1997/hash/5487315b1286f907165907aa8fc96619-Abstract.html
 [research_peng_chang_zhang_2019]: https://papers.nips.cc/paper/2019/hash/95192c98732387165bf8e396c0f2dad2-Abstract.html

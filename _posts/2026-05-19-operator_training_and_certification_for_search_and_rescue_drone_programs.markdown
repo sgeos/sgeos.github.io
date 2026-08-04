@@ -2004,6 +2004,7 @@ in a SAR drone capability.
 - [Related Post, Search and Rescue Drone Fleets by Geographic Setting][related_post_a148_geographic]
 
 [ref_aerovironment_training]: https://www.avinc.com/solution/puma-3-ae/
+[ref_astm_e54_09]: https://www.astm.org/COMMITTEE/E54.htm
 [ref_astm_f3322]: https://store.astm.org/f3322-24a.html
 [ref_dji_academy]: https://enterprise-insights.dji.com/learning-center
 [ref_droneresponders]: https://www.droneresponders.org/
@@ -2020,6 +2021,7 @@ in a SAR drone capability.
 [ref_faa_study_guide]: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf
 [ref_faa_waivers]: https://www.faa.gov/uas/commercial_operators/part_107_waivers
 [ref_fema_is]: https://training.fema.gov/is/
+[ref_fema_rtlt_suas]: https://rtlt.preptoolkit.fema.gov/Public/Resource/View/2-508-1246?q=unmanned
 [ref_ics_300]: https://training.fema.gov/emicourses/emicatalog.aspx?cid=E0300&ctype=R
 [ref_ics_400]: https://training.fema.gov/emicourses/emicatalog.aspx?cid=E0400&ctype=R
 [ref_ics_framework]: https://www.fema.gov/emergency-managers/nims/components
@@ -2032,14 +2034,12 @@ in a SAR drone capability.
 [ref_nasar_sartech]: https://nasar.org/page/SARTECH
 [ref_ndsu_uas]: https://www.npuasts.com/about
 [ref_nims_framework]: https://www.fema.gov/emergency-managers/nims
+[ref_nist_tests]: https://www.nist.gov/el/intelligent-systems-division-73500/standard-test-methods-response-robots/aerial-drone-tests-0
 [ref_nwcg]: https://www.nwcg.gov/
 [ref_nwcg_taskbooks]: https://www.nwcg.gov/page/position-task-book-revisions
-[ref_nwcg_uasp]: https://www.nwcg.gov/positions/unmanned-aircraft-systems-pilot
-[ref_nwcg_uasm]: https://www.nwcg.gov/positions/unmanned-aircraft-systems-manager
 [ref_nwcg_uasl]: https://www.nwcg.gov/positions/unmanned-aircraft-systems-module-leader
-[ref_fema_rtlt_suas]: https://rtlt.preptoolkit.fema.gov/Public/Resource/View/2-508-1246?q=unmanned
-[ref_nist_tests]: https://www.nist.gov/el/intelligent-systems-division-73500/standard-test-methods-response-robots/aerial-drone-tests-0
-[ref_astm_e54_09]: https://www.astm.org/COMMITTEE/E54.htm
+[ref_nwcg_uasm]: https://www.nwcg.gov/positions/unmanned-aircraft-systems-manager
+[ref_nwcg_uasp]: https://www.nwcg.gov/positions/unmanned-aircraft-systems-pilot
 [ref_oop_final_rule]: https://www.federalregister.gov/documents/2021/01/15/2020-28947/operation-of-small-unmanned-aircraft-systems-over-people
 [ref_parrot_training]: https://www.parrot.com/en/newsroom/parrot-certified-training-program
 [ref_part_107_night]: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29

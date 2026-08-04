@@ -725,33 +725,33 @@ an AI agent that helps and one that hinders.
 - [Standard, ThoughtWorks Technology Radar: AGENTS.md][standard_thoughtworks_radar]
 - [Tool, Set Up a Context Engineering Flow in VS Code][tool_vscode]
 
-[anthropic_trends_report]: https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026
-[anthropic_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 [anthropic_agent_skills]: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+[anthropic_context_engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 [anthropic_mcp]: https://www.anthropic.com/news/model-context-protocol
+[anthropic_trends_report]: https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026
 [blog_bidirectional]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
+[blog_karpathy]: https://karpathy.bearblog.dev/year-in-review-2025/
 [blog_knowledge_graphs]: {% post_url 2026-02-07-llm_knowledge_graphs %}
 [blog_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
 [blog_willison]: https://simonwillison.net/2025/jun/27/context-engineering/
-[blog_karpathy]: https://karpathy.bearblog.dev/year-in-review-2025/
 [cc_memory]: https://code.claude.com/docs/en/memory
-[industry_humanlayer]: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
-[industry_manus]: https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
-[industry_fowler_context]: https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
-[industry_osmani]: https://addyo.substack.com/p/context-engineering-bringing-engineering
 [industry_episodic_memory]: https://blog.fsck.com/2025/10/23/episodic-memory/
-[industry_langchain]: https://blog.langchain.com/context-engineering-for-agents/
-[industry_miessler_pai]: https://danielmiessler.com/blog/personal-ai-infrastructure
-[industry_spotify_context]: https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2
 [industry_factory_context]: https://factory.ai/news/context-window-problem
+[industry_fowler_context]: https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
+[industry_humanlayer]: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
+[industry_langchain]: https://blog.langchain.com/context-engineering-for-agents/
+[industry_manus]: https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
+[industry_miessler_pai]: https://danielmiessler.com/blog/personal-ai-infrastructure
+[industry_osmani]: https://addyo.substack.com/p/context-engineering-bringing-engineering
+[industry_spotify_context]: https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2
 [industry_venturebeat]: https://venturebeat.com/ai/why-ai-coding-agents-arent-production-ready-brittle-context-windows-broken
 [protocol_agents_md]: https://agents.md/
 [research_agent_readmes]: https://arxiv.org/abs/2511.12884
-[research_oss_context]: https://arxiv.org/abs/2510.21413
-[research_multi_agent]: https://arxiv.org/abs/2508.08322
-[research_santos_config]: https://arxiv.org/abs/2511.09268
-[research_agents_md_impact]: https://arxiv.org/abs/2601.20404
 [research_agentic_manifests]: https://arxiv.org/abs/2509.14744
+[research_agents_md_impact]: https://arxiv.org/abs/2601.20404
+[research_multi_agent]: https://arxiv.org/abs/2508.08322
+[research_oss_context]: https://arxiv.org/abs/2510.21413
+[research_santos_config]: https://arxiv.org/abs/2511.09268
 [standard_llms_txt]: https://llmstxt.org/
 [standard_thoughtworks_radar]: https://www.thoughtworks.com/en-us/radar/techniques/agents-md
 [tool_vscode]: https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide

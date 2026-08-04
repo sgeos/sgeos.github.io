@@ -767,12 +767,12 @@ This article follows the terminological conventions established in [A266][relate
 [book_din_1988]: https://lsupress.org/9780807114186/the-canary-islanders-of-louisiana/
 [book_din_1999]: https://lsupress.org/9780807124352/spaniards-planters-and-slaves/
 [book_draper_1881]: https://archive.org/details/kingsmountainits00drap
-[book_egerton_2009]: https://global.oup.com/academic/product/death-or-liberty-9780195330267
 [book_edwards_1737]: https://oll.libertyfund.org/titles/edwards-a-faithful-narrative
 [book_edwards_1741_sinners]: https://oll.libertyfund.org/titles/edwards-sinners-in-the-hands-of-an-angry-god
 [book_edwards_1746]: https://yalebooks.yale.edu/book/9780300158397/religious-affections/
 [book_edwards_1754]: https://oll.libertyfund.org/titles/edwards-freedom-of-the-will
 [book_edwards_1758]: https://oll.libertyfund.org/titles/edwards-the-nature-of-true-virtue
+[book_egerton_2009]: https://global.oup.com/academic/product/death-or-liberty-9780195330267
 [book_fea_2011]: https://www.wjkbooks.com/Products/0664235042/was-america-founded-as-a-christian-nation.aspx
 [book_fenton_2006]: https://scholar.google.com/scholar?q=fenton+2006+religious+liberties
 [book_fischer_1989]: https://global.oup.com/academic/product/albions-seed-9780195069051
@@ -896,9 +896,9 @@ This article follows the terminological conventions established in [A266][relate
 [book_tabbert_2005]: https://nyupress.org/9780814783023/american-freemasons/
 [book_taylor_2006]: https://global.oup.com/academic/product/the-divided-ground-9780679761174
 [book_taylor_2016]: https://wwnorton.com/books/9780393082814
-[book_tiro_2011]: https://www.umasspress.com/9781625340009/the-people-of-the-standing-stone/
 [book_tennent_1740]: https://quod.lib.umich.edu/e/evans/N04128.0001.001
 [book_thornton_1987]: https://www.oupress.com/9780806121758/american-indian-holocaust-and-survival/
+[book_tiro_2011]: https://www.umasspress.com/9781625340009/the-people-of-the-standing-stone/
 [book_trinterud_1949]: https://scholar.google.com/scholar?q=trinterud+1949+forming+american+tradition
 [book_usner_1992]: https://uncpress.org/book/9780807820803/indians-settlers-and-slaves-in-a-frontier-exchange-economy/
 [book_vidal_2014]: https://www.pennpress.org/9780812246025/louisiana/

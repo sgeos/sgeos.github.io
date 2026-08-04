@@ -64,7 +64,7 @@ The executable can be run from the command line.
 - [Minimal Swift command line Hello World][swift-minimal]
 - [Swift for CLI tools][swift-cli]
 
-[swift-script]:  http://practicalswift.com/2014/06/07/swift-scripts-how-to-write-small-command-line-scripts-in-swift/
-[swift-minimal]: https://gist.github.com/kavu/79f05be2383e97843867
 [swift-cli]:     https://speakerdeck.com/supermarin/swift-for-cli-tools
+[swift-minimal]: https://gist.github.com/kavu/79f05be2383e97843867
+[swift-script]:  http://practicalswift.com/2014/06/07/swift-scripts-how-to-write-small-command-line-scripts-in-swift/
 

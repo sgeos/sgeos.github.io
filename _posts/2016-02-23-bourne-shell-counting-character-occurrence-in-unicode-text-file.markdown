@@ -170,12 +170,12 @@ chmod +x character_count.sh
 - [UNIX, Sh - the Bourne Shell][unix-sh]
 
 [freebsd-man-getopt]: https://www.freebsd.org/cgi/man.cgi?query=getopt
+[unix-charloop]: http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash
 [unix-count]: http://www.unix.com/hp-ux/19176-count-occurences-specific-character-file.html
 [unix-count2]: http://stackoverflow.com/questions/1603566/count-occurrences-of-a-char-in-plain-text-file
-[unix-charloop]: http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash
-[unix-replace]: http://stackoverflow.com/questions/10748453/replace-comma-with-newline-in-sed
-[unix-space]: http://unix.stackexchange.com/questions/5980/how-do-i-insert-a-space-every-four-characters-in-a-long-line
 [unix-exit]: http://www.cyberciti.biz/faq/bourne-shell-exit-status-examples/
-[unix-sh-flow]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Control_flow
+[unix-replace]: http://stackoverflow.com/questions/10748453/replace-comma-with-newline-in-sed
 [unix-sh]: http://www.grymoire.com/Unix/Sh.html
+[unix-sh-flow]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Control_flow
+[unix-space]: http://unix.stackexchange.com/questions/5980/how-do-i-insert-a-space-every-four-characters-in-a-long-line
 

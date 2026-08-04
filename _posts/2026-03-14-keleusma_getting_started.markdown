@@ -898,33 +898,33 @@ and worst-case execution time analysis.
 - [Research, Rutten (2000), Universal Coalgebra][research_rutten]
 - [Research, Wilhelm et al. (2008), WCET Survey][research_wilhelm]
 
+[future_keleusma_docs]: https://github.com/sgeos/keleusma/tree/master/docs
+[future_keleusma_grammar]: https://github.com/sgeos/keleusma/blob/master/docs/design/GRAMMAR.md
+[future_keleusma_language_design]: https://github.com/sgeos/keleusma/blob/master/docs/architecture/LANGUAGE_DESIGN.md
+[future_keleusma_related_work]: https://github.com/sgeos/keleusma/blob/master/docs/reference/RELATED_WORK.md
+[future_rust_embedded]: https://docs.rust-embedded.org/book/
+[future_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d
 [ref_arena_allocator]: https://en.wikipedia.org/wiki/Region-based_memory_management
 [ref_bytecode]: https://en.wikipedia.org/wiki/Bytecode
 [ref_coroutine]: https://en.wikipedia.org/wiki/Coroutine
 [ref_keleusma_crate]: https://crates.io/crates/keleusma
-[ref_keleusma_github]: https://github.com/sgeos/keleusma
 [ref_keleusma_docs]: https://github.com/sgeos/keleusma/tree/master/docs
 [ref_keleusma_examples]: https://github.com/sgeos/keleusma/tree/master/examples/scripts
+[ref_keleusma_github]: https://github.com/sgeos/keleusma
 [ref_keleusma_rust_examples]: https://github.com/sgeos/keleusma/tree/master/examples
 [ref_pattern_matching]: https://en.wikipedia.org/wiki/Pattern_matching
 [ref_productivity]: https://en.wikipedia.org/wiki/Productivity_(computer_science)
 [ref_rkyv]: https://crates.io/crates/rkyv
+
 [ref_sdl3]: https://wiki.libsdl.org/SDL3/FrontPage
+
 [ref_stack_machine]: https://en.wikipedia.org/wiki/Stack_machine
 [ref_stream_processing]: https://en.wikipedia.org/wiki/Stream_processing
 [ref_total_functional_programming]: https://en.wikipedia.org/wiki/Total_functional_programming
+
 [ref_wcet]: https://en.wikipedia.org/wiki/Worst-case_execution_time
 [ref_zero_copy_serialization]: https://en.wikipedia.org/wiki/Zero-copy
-
 [related_post_no_std_rust]: {% post_url 2026-01-16-no_std_rust_getting_started %}
-
-[research_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d
 [research_rutten]: https://doi.org/10.1016/S0304-3975(00)00056-6
+[research_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d
 [research_wilhelm]: https://doi.org/10.1145/1347375.1347389
-
-[future_keleusma_docs]: https://github.com/sgeos/keleusma/tree/master/docs
-[future_keleusma_language_design]: https://github.com/sgeos/keleusma/blob/master/docs/architecture/LANGUAGE_DESIGN.md
-[future_keleusma_grammar]: https://github.com/sgeos/keleusma/blob/master/docs/design/GRAMMAR.md
-[future_keleusma_related_work]: https://github.com/sgeos/keleusma/blob/master/docs/reference/RELATED_WORK.md
-[future_rust_embedded]: https://docs.rust-embedded.org/book/
-[future_turner]: https://doi.org/10.1023/B:JUFP.0000020967.94916.1d

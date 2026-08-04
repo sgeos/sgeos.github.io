@@ -583,6 +583,6 @@ next article, A218, covers solid propellants.
 [ref_sutton_biblarz]: https://www.wiley.com/en-us/Rocket+Propulsion+Elements%2C+9th+Edition-p-9781118753651
 [ref_sutton_history]: https://arc.aiaa.org/doi/book/10.2514/4.868870
 [ref_turner]: https://link.springer.com/book/10.1007/978-3-540-69203-4
-[related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_boost]: {% post_url 2026-06-03-staged_and_boosted_propulsion_for_fixed_wing_uavs %}
+[related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_transport]: {% post_url 2026-07-05-garbage_and_transportation_for_off_grid_space_colonization_analogs %}

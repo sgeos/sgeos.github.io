@@ -161,14 +161,14 @@ Note that **:runtime_tools** must be in the applications list to observe an app 
 - [Elixir, Multiplayer Elixir][elixir-multiplayer]
 - [UNIX, SSH tunneling error: “channel 1: open failed: administratively prohibited: open failed”][unix-ssh-fail]
 
-[observer-remote]: https://gist.github.com/pnc/9e957e17d4f9c6c81294
-[erlang-epmd]: http://erlang.org/doc/man/epmd.html
-[observer-macports]: http://jjw.in/server/install-erlang-with-wxwidgets-macports
-[erlang-wxwidget]: http://smyck.net/2014/02/28/erlang-r16-64bit-on-os-x-10-9-with-wxwidgets/
-[erlang-15b-observer]: http://ebanshi.cc/questions/1453208/fixing-erlang-15b-observer-from-macports-fails-to-run
 [elixir-iex-arg]: https://github.com/elixir-lang/elixir/blob/master/bin/iex
-[elixir-no-observer]: http://stackoverflow.com/questions/32449234/observer-is-not-available-elixir
 [elixir-multiplayer]: https://sgeos.github.io/elixir/erlang/2016/01/09/multiplayer-elixir.html
+[elixir-no-observer]: http://stackoverflow.com/questions/32449234/observer-is-not-available-elixir
+[erlang-15b-observer]: http://ebanshi.cc/questions/1453208/fixing-erlang-15b-observer-from-macports-fails-to-run
 [erlang-connect]: http://stackoverflow.com/questions/26474591/connecting-erlang-nodes-when-an-internal-and-external-ip-address-are-at-play
+[erlang-epmd]: http://erlang.org/doc/man/epmd.html
+[erlang-wxwidget]: http://smyck.net/2014/02/28/erlang-r16-64bit-on-os-x-10-9-with-wxwidgets/
+[observer-macports]: http://jjw.in/server/install-erlang-with-wxwidgets-macports
+[observer-remote]: https://gist.github.com/pnc/9e957e17d4f9c6c81294
 [unix-ssh-fail]: http://unix.stackexchange.com/questions/14160/ssh-tunneling-error-channel-1-open-failed-administratively-prohibited-open
 

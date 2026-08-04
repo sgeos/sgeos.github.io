@@ -194,8 +194,8 @@ If you terminate with `Ctrl+C`, the signal handler triggers, ensuring your termi
 - [UNIX, non blocking input from keyboard][unix-rpi]
 - [UNIX, Linux time.h][unix-time]
 
+[unix-getchar-q]: http://ubuntuforums.org/showthread.php?t=1396108
 [unix-nonblock]: http://stackoverflow.com/questions/717572/how-do-you-do-non-blocking-console-i-o-on-linux-in-c
 [unix-rpi]: https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=23495
-[unix-getchar-q]: http://ubuntuforums.org/showthread.php?t=1396108
 [unix-time]: http://linux.die.net/include/sys/time.h
 

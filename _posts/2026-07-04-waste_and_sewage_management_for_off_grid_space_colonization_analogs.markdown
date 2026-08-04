@@ -1489,18 +1489,18 @@ that the survey opener identified.
 [ref_iaea]: https://www.iaea.org/
 [ref_lioh]: https://en.wikipedia.org/wiki/Lithium_hydroxide
 [ref_marpol]: https://en.wikipedia.org/wiki/MARPOL_73/78
+[ref_nsf_350]: https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-350
 [ref_nsf_40]: https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-40
 [ref_nsf_41]: https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-41
-[ref_nsf_350]: https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-350
 [ref_rcra]: https://www.epa.gov/rcra
 [ref_sabatier]: https://en.wikipedia.org/wiki/Sabatier_reaction
 [ref_tb_med_593]: https://armypubs.army.mil/
 [ref_tccs]: https://ntrs.nasa.gov/citations/20140002884
 [ref_uwms]: https://en.wikipedia.org/wiki/Space_toilet
 [related_post_analog_intro]: {% post_url 2026-06-28-simulating_space_colonization_on_earth_using_off_grid_facilities %}
-[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
-[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 [related_post_communications]: {% post_url 2026-07-01-communications_and_the_link_budget_for_off_grid_space_colonization_analogs %}
+[related_post_electricity]: {% post_url 2026-06-29-electricity_and_energy_storage_for_off_grid_space_colonization_analogs %}
 [related_post_food]: {% post_url 2026-07-02-food_production_and_closed_ecological_systems_for_off_grid_space_colonization_analogs %}
 [related_post_habitat]: {% post_url 2026-07-03-habitat_and_physical_operations_for_off_grid_space_colonization_analogs %}
+[related_post_water]: {% post_url 2026-06-30-water_systems_and_life_support_recovery_for_off_grid_space_colonization_analogs %}
 

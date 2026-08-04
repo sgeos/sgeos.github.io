@@ -2618,6 +2618,18 @@ the topics discussed in this article.
 - [Threshold for Quantum Computation (Proc. Royal Society A), Knill, Laflamme, and Zurek, 1998][research_knill]
 - [Why Is There No Von Neumann Probe on Ceres? Error Catastrophe Can Explain the Fermi-Hart Paradox (arXiv), Kowald, 2015][research_kowald]
 
+[future_cachin]: https://link.springer.com/book/10.1007/978-3-642-15260-3
+[future_chen_goel]: https://doi.org/10.1007/11493785_6
+[future_eigen_quasi]: https://doi.org/10.1146/annurev.bb.22.060193.001343
+[future_eigen_schuster_book]: https://link.springer.com/book/10.1007/978-3-642-67247-7
+[future_freitas_merkle]: http://www.molecularassembler.com/KSRM.htm
+[future_gottesman_thesis]: https://arxiv.org/abs/quant-ph/9705052
+[future_kitano]: https://doi.org/10.1038/nrg1471
+[future_nasa_reliability]: https://ntrs.nasa.gov/citations/20090029327
+[future_nielsen_chuang]: https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information
+[future_pradhan]: https://en.wikipedia.org/wiki/Fault-tolerant_system
+[future_sole]: https://press.princeton.edu/books/paperback/9780691150758/phase-transitions
+[future_torok]: https://link.springer.com/book/10.1007/978-3-031-21755-4
 [ref_5g]: https://en.wikipedia.org/wiki/5G_NR
 [ref_cosmic_rays]: https://en.wikipedia.org/wiki/Galactic_cosmic_ray
 [ref_dna_polymerase]: https://en.wikipedia.org/wiki/DNA_polymerase
@@ -2626,6 +2638,7 @@ the topics discussed in this article.
 [ref_ecc_memory]: https://en.wikipedia.org/wiki/ECC_memory
 [ref_error_catastrophe]: https://en.wikipedia.org/wiki/Error_catastrophe
 [ref_fault_tolerant_computing]: https://en.wikipedia.org/wiki/Fault_tolerance
+[ref_fermi_paradox]: https://en.wikipedia.org/wiki/Fermi_paradox
 [ref_fpga]: https://en.wikipedia.org/wiki/Field-programmable_gate_array
 [ref_hamming]: https://en.wikipedia.org/wiki/Hamming_code
 [ref_hamming_distance]: https://en.wikipedia.org/wiki/Hamming_distance
@@ -2635,48 +2648,41 @@ the topics discussed in this article.
 [ref_metrology]: https://en.wikipedia.org/wiki/Metrology
 [ref_mismatch_repair]: https://en.wikipedia.org/wiki/Mismatch_repair
 [ref_mullers_ratchet]: https://en.wikipedia.org/wiki/Muller%27s_ratchet
+
 [ref_nobel_2015]: https://www.nobelprize.org/prizes/chemistry/2015/summary/
 [ref_perseverance]: https://en.wikipedia.org/wiki/Perseverance_(rover)
 [ref_physical_constants]: https://en.wikipedia.org/wiki/Physical_constant
 [ref_quantum_error_correction]: https://en.wikipedia.org/wiki/Quantum_error_correction
 [ref_reed_solomon]: https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction
 [ref_shannon]: https://en.wikipedia.org/wiki/Claude_Shannon
+
 [ref_si]: https://en.wikipedia.org/wiki/International_System_of_Units
 [ref_single_event_upset]: https://en.wikipedia.org/wiki/Single-event_upset
 [ref_space_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
 [ref_surface_code]: https://en.wikipedia.org/wiki/Toric_code
 [ref_threshold_theorem]: https://en.wikipedia.org/wiki/Threshold_theorem
-[ref_fermi_paradox]: https://en.wikipedia.org/wiki/Fermi_paradox
 [ref_von_neumann]: https://en.wikipedia.org/wiki/John_von_Neumann
-
-[related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
+[related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_force_projection]: {% post_url 2026-03-04-physics_of_intergalactic_force_projection %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
-
-[future_cachin]: https://link.springer.com/book/10.1007/978-3-642-15260-3
-[future_chen_goel]: https://doi.org/10.1007/11493785_6
-[future_gottesman_thesis]: https://arxiv.org/abs/quant-ph/9705052
-[future_sole]: https://press.princeton.edu/books/paperback/9780691150758/phase-transitions
-[future_eigen_quasi]: https://doi.org/10.1146/annurev.bb.22.060193.001343
-[future_eigen_schuster_book]: https://link.springer.com/book/10.1007/978-3-642-67247-7
-[future_freitas_merkle]: http://www.molecularassembler.com/KSRM.htm
-[future_kitano]: https://doi.org/10.1038/nrg1471
-[future_nasa_reliability]: https://ntrs.nasa.gov/citations/20090029327
-[future_nielsen_chuang]: https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information
-[future_pradhan]: https://en.wikipedia.org/wiki/Fault-tolerant_system
-[future_torok]: https://link.springer.com/book/10.1007/978-3-031-21755-4
 [research_aharonov]: https://arxiv.org/abs/quant-ph/9611025
 [research_avizienis]: https://doi.org/10.1109/TC.1971.223316
+[research_avizienis_2004]: https://doi.org/10.1109/TDSC.2004.2
 [research_berrou]: https://doi.org/10.1109/ICC.1993.397441
 [research_binder]: https://doi.org/10.1109/TNS.1975.4327987
+[research_burt]: https://doi.org/10.1038/s41586-021-03571-7
 [research_byzantine]: https://doi.org/10.1145/357172.357176
+[research_dorigo]: https://doi.org/10.1109/JPROC.2021.3072740
 [research_eigen]: https://doi.org/10.1007/BF00623322
 [research_eigen_schuster]: https://doi.org/10.1007/BF00450633
 [research_fowler]: https://doi.org/10.1103/PhysRevA.86.032324
+[research_gacs]: https://doi.org/10.1023/A:1004823720305
 [research_gallager]: https://doi.org/10.1109/TIT.1962.1057868
+[research_ghosh]: https://doi.org/10.1038/s41598-026-40325-9
+[research_gottesman]: https://arxiv.org/abs/0904.2557
 [research_hamming]: https://doi.org/10.1002/j.1538-7305.1950.tb00463.x
 [research_jcgm]: https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf
 [research_kitaev]: https://arxiv.org/abs/quant-ph/9707021
@@ -2688,27 +2694,21 @@ the topics discussed in this article.
 [research_lindahl]: https://www.nobelprize.org/prizes/chemistry/2015/lindahl/lecture/
 [research_lindahl_1993]: https://doi.org/10.1038/362709a0
 [research_mackay]: https://doi.org/10.1109/18.748992
+[research_merkle_assembly]: https://doi.org/10.1088/0957-4484/8/1/005
+[research_pippenger]: https://doi.org/10.1109/18.2628
 [research_reed_solomon]: https://doi.org/10.1137/0108018
+[research_riesebos]: https://doi.org/10.1103/v477-jw8l
+[research_schulman]: https://doi.org/10.1073/pnas.1117813109
 [research_shannon]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 [research_shor]: https://doi.org/10.1103/PhysRevA.52.R2493
 [research_sklaroff]: https://doi.org/10.1147/rd.201.0020
 [research_steane]: https://doi.org/10.1109/18.661798
 [research_steane_prl]: https://doi.org/10.1103/PhysRevLett.77.793
-[research_stoica]: https://doi.org/10.1109/ICES.2000.867381
-[research_von_neumann_automata]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
-[research_von_neumann_reliable]: https://doi.org/10.1515/9781400882618-003
-[research_avizienis_2004]: https://doi.org/10.1109/TDSC.2004.2
-[research_burt]: https://doi.org/10.1038/s41586-021-03571-7
-[research_dorigo]: https://doi.org/10.1109/JPROC.2021.3072740
-[research_gacs]: https://doi.org/10.1023/A:1004823720305
-[research_ghosh]: https://doi.org/10.1038/s41598-026-40325-9
-[research_gottesman]: https://arxiv.org/abs/0904.2557
-[research_merkle_assembly]: https://doi.org/10.1088/0957-4484/8/1/005
-[research_pippenger]: https://doi.org/10.1109/18.2628
-[research_riesebos]: https://doi.org/10.1103/v477-jw8l
-[research_schulman]: https://doi.org/10.1073/pnas.1117813109
 [research_sterpone]: https://doi.org/10.1109/TNS.2005.856543
+[research_stoica]: https://doi.org/10.1109/ICES.2000.867381
 [research_strobel]: https://doi.org/10.3389/frobt.2020.00054
 [research_tarapore]: https://doi.org/10.1371/journal.pone.0182058
+[research_von_neumann_automata]: https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf
+[research_von_neumann_reliable]: https://doi.org/10.1515/9781400882618-003
 [research_white]: https://doi.org/10.1038/35057232
 [research_winfree]: https://doi.org/10.1007/978-3-540-24628-2_13

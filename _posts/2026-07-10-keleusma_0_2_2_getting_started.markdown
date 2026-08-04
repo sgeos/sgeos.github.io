@@ -833,21 +833,21 @@ lays the groundwork for.
 - [Related Post, Streaming Compilers Series Conclusion][related_post_compilers_streaming]
 - [Related Post, The Self-Hosted Silicon Compiler][related_post_self_hosted_silicon]
 
-[kel_crate]: https://crates.io/crates/keleusma
 [kel_cli_crate]: https://crates.io/crates/keleusma-cli
+[kel_crate]: https://crates.io/crates/keleusma
 [kel_docs_rs]: https://docs.rs/keleusma/0.2.2
 [kel_examples]: https://github.com/sgeos/keleusma/tree/v0.2.2/examples/scripts
 [kel_github]: https://github.com/sgeos/keleusma
 [kel_guide]: https://sgeos.github.io/keleusma/
-[kel_playground]: https://sgeos.github.io/keleusma/playground/
+[kel_guide_automation]: https://sgeos.github.io/keleusma/AUTOMATION_SCRIPTING.html
+[kel_guide_ifc]: https://sgeos.github.io/keleusma/24_information_flow_labels.html
 [kel_guide_install]: https://sgeos.github.io/keleusma/02_installing_and_running.html
 [kel_guide_partial]: https://sgeos.github.io/keleusma/23_big_numbers.html
-[kel_guide_ifc]: https://sgeos.github.io/keleusma/24_information_flow_labels.html
-[kel_guide_automation]: https://sgeos.github.io/keleusma/AUTOMATION_SCRIPTING.html
 [kel_guide_security]: https://sgeos.github.io/keleusma/SECURITY_POLICY.html
-[related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
-[related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
+[kel_playground]: https://sgeos.github.io/keleusma/playground/
+[related_post_compilers_streaming]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
 [related_post_control_kernel]: {% post_url 2026-05-27-verifiable_control_kernel_in_keleusma %}
 [related_post_ifc_deep_dive]: {% post_url 2026-05-29-information_flow_control_deep_dive_with_keleusma %}
-[related_post_compilers_streaming]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
+[related_post_keleusma_011]: {% post_url 2026-03-14-keleusma_getting_started %}
+[related_post_keleusma_020]: {% post_url 2026-05-28-keleusma_0_2_0_getting_started %}
 [related_post_self_hosted_silicon]: {% post_url 2026-07-09-self_hosted_silicon_compiler %}

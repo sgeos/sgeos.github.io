@@ -577,8 +577,8 @@ Empirical practice for exploration research includes reporting results on multip
 [research_gottlieb_et_al_2013]: https://www.sciencedirect.com/science/article/pii/S1364661313002052
 [research_gregor_rezende_wierstra_2016]: https://arxiv.org/abs/1611.07507
 [research_guo_et_al_2022_byol_explore]: https://papers.nips.cc/paper/2022/hash/49e28d29dc4b7b5e6c3ea1e4d3c0f2a5-Abstract-Conference.html
-[research_guss_et_al_2019]: https://arxiv.org/abs/1907.13440
 [research_gupta_mendonca_liu_2018]: https://papers.nips.cc/paper/2018/hash/2c8ebb46c2d97c9dab9a9d40a8e3d1c8-Abstract.html
+[research_guss_et_al_2019]: https://arxiv.org/abs/1907.13440
 [research_houthooft_et_al_2016]: https://papers.nips.cc/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html
 [research_iqbal_sha_2019]: https://proceedings.mlr.press/v97/iqbal19a.html
 [research_jaksch_ortner_auer_2010]: https://www.jmlr.org/papers/v11/jaksch10a.html

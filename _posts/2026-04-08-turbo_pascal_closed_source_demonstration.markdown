@@ -1205,11 +1205,11 @@ in this series.
 - [Turbo Pascal history and technical details][ref_turbo_pascal]
 - [TypeScript programming language][ref_typescript]
 
-[ref_hejlsberg]: https://en.wikipedia.org/wiki/Anders_Hejlsberg
+[ref_8088]: https://en.wikipedia.org/wiki/Intel_8088
 [ref_borland]: https://en.wikipedia.org/wiki/Borland
 [ref_csharp]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 [ref_delphi]: https://en.wikipedia.org/wiki/Delphi_(software)
-[ref_8088]: https://en.wikipedia.org/wiki/Intel_8088
+[ref_hejlsberg]: https://en.wikipedia.org/wiki/Anders_Hejlsberg
 [ref_object_pascal]: https://en.wikipedia.org/wiki/Object_Pascal
 [ref_turbo_pascal]: https://en.wikipedia.org/wiki/Turbo_Pascal
 [ref_typescript]: https://en.wikipedia.org/wiki/TypeScript

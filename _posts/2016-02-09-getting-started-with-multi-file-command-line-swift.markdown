@@ -114,17 +114,17 @@ The executable can be run from the command line.
 - [Swift, Update current line with command line tool in Swift][swift-update]
 - [Swift, Does swift has trim method on String?][swift-strip]
 
-[swift-started]:    https://sgeos.github.io/swift/2016/01/18/getting-started-with-command-line-swift.html
-[swift-multi]:      http://stackoverflow.com/questions/28069043/is-there-a-way-to-have-a-swift-script-use-multiple-files
-[swift-include]:    http://stackoverflow.com/questions/25342940/how-to-include-swift-file-from-other-swift-file-in-an-immediate-mode
 [swift-awesome]:    http://krakendev.io/blog/scripting-in-swift
-[swift-script]:     http://practicalswift.com/2014/06/07/swift-scripts-how-to-write-small-command-line-scripts-in-swift/
-[swift-minimal]:    https://gist.github.com/kavu/79f05be2383e97843867
 [swift-cli]:        https://speakerdeck.com/supermarin/swift-for-cli-tools
 [swift-functions]:  https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html
+[swift-include]:    http://stackoverflow.com/questions/25342940/how-to-include-swift-file-from-other-swift-file-in-an-immediate-mode
 [swift-input]:      http://stackoverflow.com/questions/24004776/input-from-the-keyboard-in-command-line-application
-[swift-unresolved]: http://stackoverflow.com/questions/28996730/use-of-unresolved-identifier-in-swift
+[swift-minimal]:    https://gist.github.com/kavu/79f05be2383e97843867
+[swift-multi]:      http://stackoverflow.com/questions/28069043/is-there-a-way-to-have-a-swift-script-use-multiple-files
 [swift-newline]:    http://stackoverflow.com/questions/30865233/print-without-newline-in-swift-2-0
-[swift-update]:     http://stackoverflow.com/questions/25483292/update-current-line-with-command-line-tool-in-swift
+[swift-script]:     http://practicalswift.com/2014/06/07/swift-scripts-how-to-write-small-command-line-scripts-in-swift/
+[swift-started]:    https://sgeos.github.io/swift/2016/01/18/getting-started-with-command-line-swift.html
 [swift-strip]:      http://stackoverflow.com/questions/26797739/does-swift-has-trim-method-on-string
+[swift-unresolved]: http://stackoverflow.com/questions/28996730/use-of-unresolved-identifier-in-swift
+[swift-update]:     http://stackoverflow.com/questions/25483292/update-current-line-with-command-line-tool-in-swift
 

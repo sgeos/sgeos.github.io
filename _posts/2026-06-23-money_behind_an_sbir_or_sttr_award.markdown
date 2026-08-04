@@ -265,16 +265,16 @@ them to chance.
 [ref_cost_accounting]: https://en.wikipedia.org/wiki/Cost_accounting
 [ref_cost_plus]: https://en.wikipedia.org/wiki/Cost-plus_contract
 [ref_dcaa]: https://en.wikipedia.org/wiki/Defense_Contract_Audit_Agency
-[ref_fringe]: https://en.wikipedia.org/wiki/Employee_benefits
 [ref_far]: https://en.wikipedia.org/wiki/Federal_Acquisition_Regulation
 [ref_fixed_price]: https://en.wikipedia.org/wiki/Fixed-price_contract
+[ref_fringe]: https://en.wikipedia.org/wiki/Employee_benefits
 [ref_indirect]: https://en.wikipedia.org/wiki/Indirect_costs
 [ref_line_of_credit]: https://en.wikipedia.org/wiki/Line_of_credit
 [ref_overhead]: https://en.wikipedia.org/wiki/Overhead_(business)
-[related_post_phase_two]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
-[related_post_phase_three]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
+[related_post_phase_three]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
+[related_post_phase_two]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[research_dod]: https://www.dodsbirsttr.mil/
 [research_nih]: https://grants.nih.gov/
 [research_sbir_gov]: https://www.sbir.gov/
-[research_dod]: https://www.dodsbirsttr.mil/

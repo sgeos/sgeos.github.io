@@ -256,10 +256,10 @@ most valuable thing it owns, which they are.
 [ref_patent]: https://en.wikipedia.org/wiki/Patent
 [ref_software_license]: https://en.wikipedia.org/wiki/Software_license
 [ref_trade_secret]: https://en.wikipedia.org/wiki/Trade_secret
+[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
+[related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
 [related_post_phase_three]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
-[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[related_post_phase_one]: {% post_url 2026-06-19-writing_the_phase_i_proposal_for_sbir_and_sttr %}
-[research_sbir_gov]: https://www.sbir.gov/
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_sbir_gov]: https://www.sbir.gov/

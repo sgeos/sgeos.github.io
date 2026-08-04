@@ -266,20 +266,20 @@ vlc dvd://
 - [xdm, xorg-xdm uses the depreceated xsm as default session management][xdm-xsm]
 - [xorg, How to get a desktop on DragonFly][xorg-desktop]
 
-[freebsd-display-manager]: https://www.freebsd.org/doc/handbook/x-xdm.html
-[freebsd-fonts]: https://www.freebsd.org/doc/handbook/x-fonts.html
+[dvd-fs]: https://ubuntuforums.org/archive/index.php/t-1536685.html
 [freebsd-browsers]: https://www.freebsd.org/doc/handbook/desktop-browsers.html
-[freebsd-video-playback]: https://www.freebsd.org/doc/handbook/video-playback.html
-[freebsd-japanese-lumina]: http://freebsd.sing.ne.jp/desktop/08/01.html
-[freebsd-play]: http://legacyos.ichmy.0t0.jp/virtualbsd/
-[freebsd-mate]: http://silversack.my.coocan.jp/bsd/mate10x-buildmate.htm
+[freebsd-display-manager]: https://www.freebsd.org/doc/handbook/x-xdm.html
 [freebsd-dvd-backup]: https://ryogan.org/blog/2012/12/08/freebsd-での-dvd-の再生やバックアップなど/
+[freebsd-fonts]: https://www.freebsd.org/doc/handbook/x-fonts.html
+[freebsd-japanese-lumina]: http://freebsd.sing.ne.jp/desktop/08/01.html
+[freebsd-mate]: http://silversack.my.coocan.jp/bsd/mate10x-buildmate.htm
+[freebsd-pkg-timeout]: https://forums.freebsd.org/threads/51501/
+[freebsd-play]: http://legacyos.ichmy.0t0.jp/virtualbsd/
 [freebsd-scim-anthy]: http://www.kishiro.com/FreeBSD/scim-anthy.html
 [freebsd-scim-anthy2]: http://d.hatena.ne.jp/hateua123/20121205/1354666208
-[freebsd-pkg-timeout]: https://forums.freebsd.org/threads/51501/
+[freebsd-video-playback]: https://www.freebsd.org/doc/handbook/video-playback.html
 [vlc-cli]: https://wiki.videolan.org/Documentation:Command_line/#Opening_a_DVD_or_VCD.2C_or_an_audio_CD
 [vlc-dvd-problem]: https://ubuntuforums.org/archive/index.php/t-1536685.html
-[dvd-fs]: https://ubuntuforums.org/archive/index.php/t-1536685.html
 [xdm-xsession]: http://unix.stackexchange.com/questions/47359/what-is-xsession-for
 [xdm-xsm]: https://bugs.archlinux.org/task/13755
 [xorg-desktop]: https://www.dragonflybsd.org/docs/how_to_get_to_the_desktop/

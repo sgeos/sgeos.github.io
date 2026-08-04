@@ -2218,14 +2218,14 @@ reaches us.
 [ref_stellar_engine]: https://en.wikipedia.org/wiki/Stellar_engine
 [ref_terraforming]: https://en.wikipedia.org/wiki/Terraforming
 [ref_virgo_cluster]: https://en.wikipedia.org/wiki/Virgo_Cluster
-[related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
-[related_post_cryptotelemeritocracy]: {% post_url 2026-02-20-cryptotelemeritocracy %}
+[related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_crypto_space]: {% post_url 2026-02-23-cryptotelemeritocracy_for_space_exploitation %}
+[related_post_cryptotelemeritocracy]: {% post_url 2026-02-20-cryptotelemeritocracy %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-[related_post_telemeritocracy]: {% post_url 2026-02-19-telemeritocracy %}
+[related_post_telemeritocracy]: {% post_url 2026-02-18-telemeritocracy %}
 [research_eternity]: https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148
 [research_fogg]: https://ui.adsabs.harvard.edu/abs/1988JBIS...41..491F
 [research_ghat]: https://arxiv.org/abs/1408.1133

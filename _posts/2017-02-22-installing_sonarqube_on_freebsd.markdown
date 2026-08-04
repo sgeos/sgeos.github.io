@@ -115,10 +115,10 @@ curl localhost:9000
 - [SonarQube, SonarQube with Postgres DB][sonarqube-postgres]
 
 [sonarqube]: https://www.sonarqube.org
-[sonarqube-documentation]: https://docs.sonarqube.org/display/HOME/SonarQube+Platform
-[sonarqube-github]: https://github.com/SonarSource/sonarqube
 [sonarqube-dockerhub]: https://hub.docker.com/_/sonarqube/
+[sonarqube-documentation]: https://docs.sonarqube.org/display/HOME/SonarQube+Platform
 [sonarqube-freshports]: https://www.freshports.org/devel/sonarqube/
+[sonarqube-github]: https://github.com/SonarSource/sonarqube
 [sonarqube-jenkins]: http://macoscope.com/blog/using-sonarqube-with-jenkins-continuous-integration-and-github-to-improve-code-review/
 [sonarqube-nginx-ubuntu]: http://linoxide.com/linux-how-to/install-sonarqube-ubuntu-16-04-ngnix/
 [sonarqube-postgres]: http://stackoverflow.com/questions/30778850/sonarqube-with-postgres-db

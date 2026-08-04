@@ -85,9 +85,9 @@ fi
 - [UNIX, How to terminate process by name in UNIX][unix-terminate]
 - [sgeos.github.io Post History][blog-history]
 
+[blog-history]: https://github.com/sgeos/sgeos.github.io/commit/5c4dcf97faced6fefe5e29e4a8c95ed94ce599ef
 [freebsd-man-pgrep]: https://www.freebsd.org/cgi/man.cgi?query=pgrep&sektion=1
 [freebsd-man-pidof]: https://www.freebsd.org/cgi/man.cgi?query=pidof&manpath=SuSE+Linux/i386+11.3
 [freebsd-psmisc]: https://www.freshports.org/sysutils/psmisc
 [unix-terminate]: http://notetodogself.blogspot.com/2006/07/how-to-terminate-process-by-name-in.html
-[blog-history]: https://github.com/sgeos/sgeos.github.io/commit/5c4dcf97faced6fefe5e29e4a8c95ed94ce599ef
 

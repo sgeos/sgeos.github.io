@@ -1259,9 +1259,9 @@ bounded.
 - [Rust name resolution model][ref_rust]
 - [Zig compile-time ordering][ref_zig]
 
-[ref_pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
-[ref_modula2]: https://en.wikipedia.org/wiki/Modula-2
 [ref_go]: https://en.wikipedia.org/wiki/Go_(programming_language)
+[ref_modula2]: https://en.wikipedia.org/wiki/Modula-2
+[ref_pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 [ref_rust]: https://en.wikipedia.org/wiki/Rust_(programming_language)
 [ref_zig]: https://en.wikipedia.org/wiki/Zig_(programming_language)
 
@@ -1271,6 +1271,6 @@ bounded.
 - [Wirth's Single-Pass Line, PL/0 through Oberon][related_post_wirth], article A189 in this series
 - [Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables], article A194 in this series
 
+[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
 [related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
 [related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
-[related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}

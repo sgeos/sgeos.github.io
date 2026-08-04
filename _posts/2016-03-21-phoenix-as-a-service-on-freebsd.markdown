@@ -546,24 +546,24 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - [FreeBSD, KDE4 localization][freebsd-locale]
 - [ION DTN as a Service on FreeBSD][freebsd-ion]
 
-[phoenix-deployment]: http://www.phoenixframework.org/docs/deployment
-[phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
-[phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
-[phoenix-default-port]: https://github.com/phoenixframework/phoenix/issues/962
-[phoenix-custom-port]: http://stackoverflow.com/questions/30540466/start-phoenix-app-with-cowboy-server-on-different-port
-[phoenix-runtime-env]: https://github.com/phoenixframework/phoenix/issues/354
-[phoenix-install]: https://sgeos.github.io/phoenix/elixir/postgresql/freebsd/2016/03/19/installing-phoenix-elixir-and-postgresql-on-freebsd.html
-[phoenix-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
+[elixir-edeliver]: https://github.com/boldpoker/edeliver
 [elixir-exrm]: https://github.com/bitwalker/exrm
+[elixir-exrm-hex]: https://hex.pm/packages?search=exrm
 [elixir-exrm-release-config]: https://exrm.readme.io/docs/release-configuration
 [elixir-exrm-vm-args]: https://github.com/bitwalker/exrm/issues/42
-[elixir-exrm-hex]: https://hex.pm/packages?search=exrm
-[ruby-adamkittelson-cap]: https://github.com/adamkittelson/apathy-drive-ex/blob/master/config/deploy.rb
-[elixir-edeliver]: https://github.com/boldpoker/edeliver
 [elixir-mix-config]: http://elixir-lang.org/docs/stable/mix/Mix.Config.html
 [elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
-[postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
-[sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
-[freebsd-locale]: https://forums.freebsd.org/threads/9120/
 [freebsd-ion]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/15/ion-dtn-as-a-service-on-freebsd.html
+[freebsd-locale]: https://forums.freebsd.org/threads/9120/
+[phoenix-custom-port]: http://stackoverflow.com/questions/30540466/start-phoenix-app-with-cowboy-server-on-different-port
+[phoenix-default-port]: https://github.com/phoenixframework/phoenix/issues/962
+[phoenix-deployment]: http://www.phoenixframework.org/docs/deployment
+[phoenix-install]: https://sgeos.github.io/phoenix/elixir/postgresql/freebsd/2016/03/19/installing-phoenix-elixir-and-postgresql-on-freebsd.html
+[phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
+[phoenix-runtime-env]: https://github.com/phoenixframework/phoenix/issues/354
+[phoenix-script]: https://sgeos.github.io/phoenix/elixir/sh/2016/03/19/a-shell-script-for-working-with-phoenix-json-apis.html
+[phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
+[postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
+[ruby-adamkittelson-cap]: https://github.com/adamkittelson/apathy-drive-ex/blob/master/config/deploy.rb
+[sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
 

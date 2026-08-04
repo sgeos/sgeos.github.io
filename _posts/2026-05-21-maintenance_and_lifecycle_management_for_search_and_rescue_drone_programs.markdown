@@ -2999,7 +2999,6 @@ the multi-year programme cycle imposes.
 [ref_49_cfr_173]: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-E/section-173.185
 [ref_a2la]: https://a2la.org/accreditation/calibration/
 [ref_call2recycle]: https://www.call2recycle.org/
-[ref_phmsa_lithium]: https://www.phmsa.dot.gov/lithiumbatteries
 [ref_ddtc]: https://www.pmddtc.state.gov/
 [ref_dji_battery]: https://support.dji.com/help/content?customId=en-us03400006549
 [ref_dji_care]: https://www.dji.com/support/service
@@ -3013,6 +3012,7 @@ the multi-year programme cycle imposes.
 [ref_itar_a151]: https://www.pmddtc.state.gov/ddtc_public?id=ddtc_public_portal_itar_landing
 [ref_microsoft_esu]: https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates
 [ref_nist_traceability_a151]: https://www.nist.gov/pml/owm/metrology/nist-traceability
+[ref_phmsa_lithium]: https://www.phmsa.dot.gov/lithiumbatteries
 [ref_skydio_trust]: https://www.skydio.com/security-trust-center
 [ref_un_38_3]: https://unece.org/transport/dangerous-goods/un-manual-tests-and-criteria-rev7
 [related_post_a145_physics]: {% post_url 2026-05-15-fixed_wing_multicopter_and_hybrid_drones_for_search_and_rescue %}

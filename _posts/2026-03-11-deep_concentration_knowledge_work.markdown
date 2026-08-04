@@ -187,13 +187,13 @@ Framing the class at the cognitive-requirements level rather than at the profess
 [book_csikszentmihalyi_flow]: https://www.harpercollins.com/products/flow-mihaly-csikszentmihalyi
 [book_newport_deep_work]: https://www.calnewport.com/books/deep-work/
 [ref_graham_maker]: http://www.paulgraham.com/makersschedule.html
+[related_post_bidirectional_agentic]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
+[related_post_fast_vs_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
+[related_post_long_form_writing]: {% post_url 2026-02-25-long_form_writing_in_age_of_large_language_models %}
+[related_post_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
+[related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
 [research_cowan_four]: https://doi.org/10.1017/S0140525X01003922
 [research_leroy_attention_residue]: https://doi.org/10.1016/j.obhdp.2009.04.002
 [research_mark_interrupted_work]: https://doi.org/10.1145/1357054.1357072
 [research_miller_seven]: https://doi.org/10.1037/h0043158
 [research_rasch_born_sleep]: https://doi.org/10.1152/physrev.00032.2012
-[related_post_bidirectional_agentic]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
-[related_post_fast_vs_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
-[related_post_long_form_writing]: {% post_url 2026-02-25-long_form_writing_in_age_of_large_language_models %}
-[related_post_markdown_spec]: {% post_url 2026-02-08-markdown_as_a_specification_language %}
-[related_post_mission_command]: {% post_url 2026-02-18-mission_command_management_style %}

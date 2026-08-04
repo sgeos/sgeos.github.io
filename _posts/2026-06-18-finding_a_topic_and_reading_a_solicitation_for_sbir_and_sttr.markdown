@@ -257,18 +257,18 @@ ready to write, which is the subject of the next article.
 - [Research, The Defense SBIR and STTR Innovation Portal][research_dod]
 
 [ref_dual_use]: https://en.wikipedia.org/wiki/Dual-use_technology
-[ref_grant]: https://en.wikipedia.org/wiki/Federal_grants_in_the_United_States
 [ref_ffrdc]: https://en.wikipedia.org/wiki/Federally_funded_research_and_development_center
-[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
+[ref_grant]: https://en.wikipedia.org/wiki/Federal_grants_in_the_United_States
 [ref_grants_gov]: https://en.wikipedia.org/wiki/Grants.gov
 [ref_peer_review]: https://en.wikipedia.org/wiki/Peer_review
+[ref_procurement]: https://en.wikipedia.org/wiki/Government_procurement_in_the_United_States
 [ref_rfp]: https://en.wikipedia.org/wiki/Request_for_proposal
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [related_post_agencies]: {% post_url 2026-06-16-survey_of_the_sbir_and_sttr_agencies %}
+[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_intro]: {% post_url 2026-06-15-introduction_to_the_sbir_and_sttr_programs %}
 [related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
-[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[research_nih]: https://grants.nih.gov/
-[research_sbir_gov]: https://www.sbir.gov/
-[research_nsf]: https://seedfund.nsf.gov/
 [research_dod]: https://www.dodsbirsttr.mil/
+[research_nih]: https://grants.nih.gov/
+[research_nsf]: https://seedfund.nsf.gov/
+[research_sbir_gov]: https://www.sbir.gov/

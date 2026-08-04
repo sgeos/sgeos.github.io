@@ -1443,11 +1443,11 @@ worked example.
 - [Lisp macros][ref_lisp_macros]
 - [C-plus-plus templates][ref_cpp_templates]
 
-[ref_lto]: https://en.wikipedia.org/wiki/Interprocedural_optimization
-[ref_hm]: https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system
-[ref_rust_traits]: https://en.wikipedia.org/wiki/Rust_(programming_language)
-[ref_lisp_macros]: https://en.wikipedia.org/wiki/Macro_(computer_science)
 [ref_cpp_templates]: https://en.wikipedia.org/wiki/Template_(C%2B%2B)
+[ref_hm]: https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system
+[ref_lisp_macros]: https://en.wikipedia.org/wiki/Macro_(computer_science)
+[ref_lto]: https://en.wikipedia.org/wiki/Interprocedural_optimization
+[ref_rust_traits]: https://en.wikipedia.org/wiki/Rust_(programming_language)
 
 ### Related Post
 
@@ -1456,10 +1456,10 @@ worked example.
 - [Declare-Before-Use and Forward Declarations][related_post_declare_before_use], article A195 in this series
 - [Integrated Single-Pass versus Decomposed Pipeline][related_post_integrated_pipeline], article A197 in this series
 
-[related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
-[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
 [related_post_declare_before_use]: {% post_url 2026-04-13-declare_before_use_forward_declarations %}
 [related_post_integrated_pipeline]: {% post_url 2026-04-15-integrated_single_pass_versus_decomposed_pipeline %}
+[related_post_streaming_discipline]: {% post_url 2026-04-06-compilation_as_streaming_discipline %}
+[related_post_wirth]: {% post_url 2026-04-07-wirth_single_pass_line %}
 
 ### Research
 

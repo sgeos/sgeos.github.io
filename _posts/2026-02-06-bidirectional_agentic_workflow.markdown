@@ -519,15 +519,15 @@ structured enough to prevent drift, lightweight enough to avoid ceremony.
 [aider_pair_programming]: https://aider.chat/
 [cc_best_practices]: https://code.claude.com/docs/en/best-practices
 [cc_common_workflows]: https://code.claude.com/docs/en/common-workflows
-[cc_eight_trends]: https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026
 [cc_creator_workflow]: https://www.infoq.com/news/2026/01/claude-code-creator-workflow/
+[cc_eight_trends]: https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026
 [cc_plan_mode]: https://lord.technology/2025/07/03/understanding-claude-code-plan-mode-and-the-architecture-of-intent.html
 [devin_agents_101]: https://devin.ai/agents101
 [github_blog_repo]: https://github.com/sgeos/sgeos.github.io
 [github_spec_kit]: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
+[protocol_acp]: https://zed.dev/acp
 [protocol_agents_md]: https://agents.md/
 [protocol_agents_md_article]: https://addozhang.medium.com/agents-md-a-new-standard-for-unified-coding-agent-instructions-0635fc5cb759
-[protocol_acp]: https://zed.dev/acp
 [protocol_agents_md_tessl]: https://tessl.io/blog/from-prompts-to-agents-md-what-survives-across-thousands-of-runs/
 [protocol_breadcrumb]: https://dasith.me/2025/04/02/vibe-coding-breadcrumbs/
 [research_iclr_bidirectional]: https://arxiv.org/pdf/2409.08622

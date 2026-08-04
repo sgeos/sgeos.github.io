@@ -261,16 +261,18 @@ This script could be customized to work with other APIs.
 - [Phoenix, Deployment][phoenix-deployment]
 - [Phoenix, Building a JSON API With Phoenix][phoenix-json]
 - [Phoenix, Building a versioned REST API with Phoenix Framework][phoenix-versioned-rest]
+- [PostgreSQL, Installing PostgreSQL on FreeBSD][postgresql-install]
 - [Elixir as a Service on FreeBSD][elixir-service]
 - [REST API PATCH or PUT][rest-patch-put]
 
-[sh-getopts]: http://www.shelldorado.com/goodcoding/cmdargs.html
-[sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
-[sh-comma]: http://stackoverflow.com/questions/15758814/turning-multiple-lines-into-one-line-with-comma-separated-perl-sed-awk
-[sh-count]: https://sgeos.github.io/sh/2016/02/23/bourne-shell-counting-character-occurrence-in-unicode-text-file.html
+[elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
 [phoenix-deployment]: http://www.phoenixframework.org/docs/deployment
 [phoenix-json]: http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/
 [phoenix-versioned-rest]: https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html
-[elixir-service]: https://sgeos.github.io/elixir/erlang/2016/01/16/elixir-as-a-service_on_freebsd.html
+[postgresql-install]: https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/
 [rest-patch-put]: http://stackoverflow.com/questions/24241893/rest-api-patch-or-put
+[sh-comma]: http://stackoverflow.com/questions/15758814/turning-multiple-lines-into-one-line-with-comma-separated-perl-sed-awk
+[sh-count]: https://sgeos.github.io/sh/2016/02/23/bourne-shell-counting-character-occurrence-in-unicode-text-file.html
+[sh-getopts]: http://www.shelldorado.com/goodcoding/cmdargs.html
+[sh-tutorial]: http://www.grymoire.com/Unix/Sh.html
 

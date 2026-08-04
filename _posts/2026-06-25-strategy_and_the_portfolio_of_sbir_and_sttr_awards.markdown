@@ -241,21 +241,21 @@ it.
 
 [ref_angel]: https://en.wikipedia.org/wiki/Angel_investor
 [ref_commercialization]: https://en.wikipedia.org/wiki/Commercialization
+[ref_dilution]: https://en.wikipedia.org/wiki/Stock_dilution
 [ref_diversification]: https://en.wikipedia.org/wiki/Diversification_(finance)
 [ref_dual_use]: https://en.wikipedia.org/wiki/Dual-use_technology
 [ref_matching_funds]: https://en.wikipedia.org/wiki/Matching_funds
 [ref_opportunity_cost]: https://en.wikipedia.org/wiki/Opportunity_cost
-[ref_seed]: https://en.wikipedia.org/wiki/Seed_money
 [ref_sba]: https://en.wikipedia.org/wiki/Small_Business_Administration
-[ref_dilution]: https://en.wikipedia.org/wiki/Stock_dilution
+[ref_seed]: https://en.wikipedia.org/wiki/Seed_money
 [ref_trl]: https://en.wikipedia.org/wiki/Technology_readiness_level
 [ref_venture_capital]: https://en.wikipedia.org/wiki/Venture_capital
-[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
-[related_post_topic]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
 [related_post_commercialization]: {% post_url 2026-06-20-phase_ii_and_the_commercialization_plan_for_sbir_and_sttr %}
-[related_post_valley_of_death]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
-[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[related_post_eligibility]: {% post_url 2026-06-17-eligibility_and_the_registration_stack_for_sbir_and_sttr %}
 [related_post_money]: {% post_url 2026-06-23-money_behind_an_sbir_or_sttr_award %}
+[related_post_prototyping]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
+[related_post_topic]: {% post_url 2026-06-18-finding_a_topic_and_reading_a_solicitation_for_sbir_and_sttr %}
+[related_post_valley_of_death]: {% post_url 2026-06-21-phase_iii_and_the_valley_of_death_for_sbir_and_sttr %}
 [research_nsf]: https://seedfund.nsf.gov/
-[research_sbir_gov]: https://www.sbir.gov/
 [research_sba]: https://www.sba.gov/
+[research_sbir_gov]: https://www.sbir.gov/

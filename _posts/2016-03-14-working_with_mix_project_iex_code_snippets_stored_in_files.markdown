@@ -116,9 +116,9 @@ chmod +x snippets/mix-snippet-hello.exs
 - [Elixir, Erlang/Elixir Syntax: A Crash Course][elixir-crash]
 - [Elixir, expect iex][elixir-expect]
 
-[elixir-mix-run]: http://elixir-lang.org/docs/stable/mix/Mix.Tasks.Run.html
-[elixir-single]: https://sgeos.github.io/elixir/erlang/2016/01/08/single-file-elixir-programs.html
 [elixir-crash]: http://elixir-lang.org/crash-course.html
 [elixir-expect]: https://bitbucket.org/vincit/mebe/src/b33c48c8db76ae4943a5ae193eb13eeaa7fa4311/refresh.exp?fileviewer=file-view-default
+[elixir-mix-run]: http://elixir-lang.org/docs/stable/mix/Mix.Tasks.Run.html
+[elixir-single]: https://sgeos.github.io/elixir/erlang/2016/01/08/single-file-elixir-programs.html
 
 
