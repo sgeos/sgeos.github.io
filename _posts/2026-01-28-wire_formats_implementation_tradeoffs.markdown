@@ -13,7 +13,7 @@ series_index: 2
 <!-- A296 -->
 <script>console.log("A296");</script>
 
-The companion article [Wire Formats, What They Are][related_post_wire_formats_what] established that data interchange encodings, protocol framing, and instruction encodings are the same kind of artifact, and closed by naming five questions that every wire format must answer. This article takes those questions, adds four more that emerge once a format has to survive contact with time and with adversaries, and treats each as a tradeoff rather than a problem with a correct answer. The families are not separated here. Each section shows how one tradeoff appears in all three, because the point of the pairing is that the decisions transfer.
+The companion article [Wire Formats, What They Are][related_post_wire_formats_what] established that data interchange encodings, protocol framing, and instruction encodings are the same kind of artifact, and closed by naming five questions that every wire format must answer. This article takes those questions, adds six more that emerge once a format has to survive contact with time, with tooling, and with adversaries, and treats each as a tradeoff rather than a problem with a correct answer. The families are not separated here. Each section shows how one tradeoff appears in all three, because the point of the pairing is that the decisions transfer.
 
 A tradeoff in this sense is a choice where improving one property necessarily degrades another. Where a design appears to escape a tradeoff, it has usually moved the cost somewhere less visible rather than eliminated it, and part of the work below is saying where the cost went.
 
@@ -75,7 +75,7 @@ The permissive position skips the unknown and continues. Protocol Buffers achiev
 
 The strict position rejects anything unrecognised. This is correct where the reader must fully understand a message to act safely on it, and it is the right default in consensus systems, where a participant that silently ignores part of a transaction may compute a different result from its peers and cause a chain split rather than a local bug.
 
-The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost rather than removing it and that divergent implementations become a maintenance and security burden.
+The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. The language-theoretic security position holds that a parser should recognise exactly the language the specification defines and nothing beyond it, and that the discipline of building parsers from an explicit grammar rather than from ad hoc control flow eliminates whole categories of defect, an argument [Anantharaman and colleagues][research_anantharaman_input_handling] develop with worked construction rather than exhortation. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost rather than removing it and that divergent implementations become a maintenance and security burden.
 
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
@@ -151,7 +151,7 @@ Zero-copy formats must respect alignment because they hand out direct references
 
 A format that succeeds becomes difficult to change, and the difficulty grows with the number of independent implementations that have made assumptions about it.
 
-Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. It went further and published the small set of properties that will not change across versions as [RFC 8999][ref_rfc8999], which converts an implicit and unbounded dependency surface into an explicit and bounded one. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
+Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. This is not a theoretical concern, and the evidence is measured rather than argued. [Honda and colleagues][research_honda_extend_tcp] tested whether new TCP options could still traverse the public internet and found that a substantial fraction of paths interfered with anything unfamiliar, which is the empirical result that reframed extensibility as a deployment problem rather than a specification problem. [Edeline and Donnet][research_edeline_path_brokenness] later quantified how path brokenness specifically affects TCP options, and [Papastergiou and colleagues][research_papastergiou_deossifying] survey the resulting body of work and the mitigations proposed against it. [RFC 9170][ref_rfc9170] distils the operational lesson, which is that an extension point not exercised in practice will not work when it is finally needed, so the only reliable defence is to use the mechanism continuously rather than reserve it. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. It went further and published the small set of properties that will not change across versions as [RFC 8999][ref_rfc8999], which converts an implicit and unbounded dependency surface into an explicit and bounded one. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
 
 A project that treats a change to its bytecode as requiring explicit authorisation rather than as a routine version bump has recognised the same pressure early. [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting] records a bytecode-format change as a stop that needs a deliberate decision, which is an acknowledgement that the encoding is a contract with every artifact already compiled against it rather than an internal detail of the current compiler.
 
@@ -162,6 +162,24 @@ Version negotiation is the usual mitigation and carries its own cost. It adds a 
 $$k \leq T \leq k^2$$
 
 depending on how much of the pair space the negotiation can actually reach, which is why deployed systems support far fewer versions than their specifications permit.
+
+## The Schema Language and What Generates From It
+
+A format is rarely deployed without a companion notation for describing messages, and the choice of notation constrains the format more than it first appears.
+
+ASN.1 separated abstract syntax from encoding rules, and the modern equivalents repeat the separation. The Concise Data Definition Language, [RFC 8610][ref_rfc8610], describes valid CBOR without prescribing how it is written. Protocol Buffers, Thrift, Cap'n Proto, and FlatBuffers each ship an interface definition language whose primary output is generated code rather than a validation rule, which is a different emphasis with different consequences.
+
+Generated code is fast and rigid. It turns field access into a compile-time-checked member reference, and it requires a build step, a toolchain, and a regeneration discipline whenever the schema changes. Reflective decoding is slow and flexible, since it can handle a message whose shape is discovered at run time, and it moves errors from compile time to run time. Systems that must accept messages from parties they do not control tend toward the reflective end regardless of what their performance budget would prefer.
+
+The schema language also determines what evolution is expressible. A notation with no way to say that a field is optional cannot describe a message that adds one. A notation that cannot express a discriminated union forces the union into a convention, and conventions are not checked.
+
+## Streaming Against Whole-Message Processing
+
+A decoder that must produce output before it has seen the whole message faces constraints that a decoder allowed to buffer does not.
+
+Streaming forbids any construct whose interpretation depends on bytes that arrive later. A length prefix is streaming-friendly because it arrives first. A trailing checksum is not, since nothing can be trusted until it is verified, which is why protocols that stream and authenticate must either accept provisional processing or chunk the stream into independently verified units.
+
+The constraint compounds with canonicity. A canonical format that requires map keys in sorted order cannot be produced by an encoder that discovers keys as it goes, so the encoder must buffer, and the buffering it must do is exactly what the streaming design was trying to avoid.
 
 ## Where the Tradeoffs Interact
 
@@ -179,9 +197,11 @@ The practical consequence is that a format cannot be evaluated against a checkli
 
 ## Epistemic State
 
-The nine tradeoffs are an organising choice rather than a standard list. Other treatments would divide the space differently, and the boundaries between sections are not sharp. Alignment could reasonably be folded into compactness, and ossification could be treated as a consequence of the unrecognised-handling decision rather than as a separate concern.
+The eleven tradeoffs are an organising choice rather than a standard list. Other treatments would divide the space differently, and the boundaries between sections are not sharp. Alignment could reasonably be folded into compactness, and ossification could be treated as a consequence of the unrecognised-handling decision rather than as a separate concern.
 
 The equations are definitional and illustrative. They state how the schema-distribution threshold, transmission and decode time, and alignment padding are computed. They are not measurements, they use simplified models that ignore latency, caching, and instruction-level parallelism, and no benchmark in this article supports any performance claim.
+
+The ossification section is the one place where the argument rests on measurement rather than on reasoning. The cited studies establish that unfamiliar TCP options are interfered with on a substantial fraction of internet paths, and the generalisation from that finding to wire formats as a class is this article's extrapolation rather than a claim those authors make.
 
 The claim that the tradeoffs transfer across the three families is an argument advanced by this pair of articles, not a reported consensus. It is supported by pointing at structurally similar decisions in each family. A reader who considers the resemblance superficial rather than structural will reasonably discount the conclusion.
 
@@ -219,15 +239,21 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 - [Apache Avro Specification][ref_avro_spec]
 - [Cap'n Proto Encoding Specification][ref_capnproto_encoding]
 - [ITU-T X.690, ASN.1 Encoding Rules, BER, CER and DER][ref_itu_x690]
+- [RFC 8610, Concise Data Definition Language][ref_rfc8610]
 - [RFC 8999, Version-Independent Properties of QUIC][ref_rfc8999]
 - [Protocol Buffers Field Presence Documentation][ref_protobuf_field_presence]
 - [RFC 4506, XDR, External Data Representation Standard][ref_rfc4506]
 - [RFC 7541, HPACK, Header Compression for HTTP/2][ref_rfc7541]
 - [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
 - [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
+- [RFC 9170, Long-Term Viability of Protocol Extension Mechanisms][ref_rfc9170]
 - [RFC 9413, Maintaining Robust Protocols][ref_rfc9413]
 - [RISC-V Unprivileged Specification][ref_riscv_spec]
+- [Anantharaman, Prashant, Millian, Michael and Bratus, Sergey, Input Handling Done Right, IEEE SecDev, 2017][research_anantharaman_input_handling]
 - [Cohen, Danny, On Holy Wars and a Plea for Peace, Computer 14, 1981][research_cohen_holy_wars]
+- [Edeline, Korian and Donnet, Benoit, Evaluating the Impact of Path Brokenness on TCP Options, ACM ANRW, 2020][research_edeline_path_brokenness]
+- [Honda, Michio, Nishida, Yoshifumi and Raiciu, Costin, Is It Still Possible to Extend TCP, ACM IMC, 2011][research_honda_extend_tcp]
+- [Papastergiou, Giorgos, Fairhurst, Gorry and Ros, David, De-Ossifying the Internet Transport Layer, IEEE Communications Surveys and Tutorials 19, 2017][research_papastergiou_deossifying]
 - [Sassaman, Len, Patterson, Meredith L. and Bratus, Sergey, A Patch for Postel's Robustness Principle, IEEE Security and Privacy 10, 2012][research_sassaman_postel]
 - [Related Post, Block-Structured Control Flow and Single-Pass Validation][related_post_single_pass_validation]
 - [Related Post, Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables]
@@ -246,9 +272,11 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 [ref_protobuf_field_presence]: https://protobuf.dev/programming-guides/field_presence/
 [ref_rfc4506]: https://www.rfc-editor.org/rfc/rfc4506
 [ref_rfc7541]: https://www.rfc-editor.org/rfc/rfc7541
+[ref_rfc8610]: https://www.rfc-editor.org/rfc/rfc8610
 [ref_rfc8949]: https://www.rfc-editor.org/rfc/rfc8949
 [ref_rfc8999]: https://www.rfc-editor.org/rfc/rfc8999
 [ref_rfc9000]: https://www.rfc-editor.org/rfc/rfc9000
+[ref_rfc9170]: https://www.rfc-editor.org/rfc/rfc9170
 [ref_rfc9413]: https://www.rfc-editor.org/rfc/rfc9413
 [ref_riscv_spec]: https://riscv.org/technical/specifications/
 [related_post_fixup_tables]: {% post_url 2026-04-12-fixup_tables_forward_jump_problem %}
@@ -258,5 +286,9 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 [related_post_symbol_tables]: {% post_url 2026-04-14-symbol_tables_scope_popping_bounded_memory %}
 [related_post_wasm_on_jekyll]: {% post_url 2026-01-26-webasm_on_jekyll %}
 [related_post_wire_formats_what]: {% post_url 2026-01-27-wire_formats_what_they_are %}
+[research_anantharaman_input_handling]: https://doi.org/10.1109/secdev.2017.12
 [research_cohen_holy_wars]: https://doi.org/10.1109/c-m.1981.220208
+[research_edeline_path_brokenness]: https://doi.org/10.1145/3404868.3406662
+[research_honda_extend_tcp]: https://doi.org/10.1145/2068816.2068834
+[research_papastergiou_deossifying]: https://doi.org/10.1109/comst.2016.2626780
 [research_sassaman_postel]: https://doi.org/10.1109/msp.2012.31
