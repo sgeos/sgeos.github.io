@@ -192,8 +192,14 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
       # Stripping it from the source would silently change how that published
       # page looks, so instead LaTeX is taught to ignore the decoration and
       # typeset the argument. \providecommand leaves any real definition alone.
+      #
+      # \lt and \gt are MathJax spellings of < and > with no LaTeX definition.
+      # They only surfaced after the \bbox shim landed, because LaTeX reports
+      # one undefined control sequence per run and \bbox was masking them.
       mathjax_shims = [
         '-V', 'header-includes=\\providecommand{\\bbox}[2][]{#2}',
+        '-V', 'header-includes=\\providecommand{\\lt}{<}',
+        '-V', 'header-includes=\\providecommand{\\gt}{>}',
       ]
 
       pdf_cmd = ['pandoc', tmp.path,
