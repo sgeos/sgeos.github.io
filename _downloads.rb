@@ -10,8 +10,14 @@ require 'yaml'
 require 'fileutils'
 require 'tempfile'
 require 'date'
+require 'digest'
 
 POSTS_DIR   = File.expand_path('_posts', __dir__)
+# Content-addressed cache of generated downloads. Regenerating all 293 posts
+# took 13m22s on every deploy even when a single file changed, or none did.
+# Keyed on the preprocessed body plus every option that affects output, so a
+# genuine content change misses the cache and anything else hits it.
+CACHE_DIR   = File.expand_path(ENV.fetch('DOWNLOADS_CACHE', '.cache/downloads'), __dir__)
 SITE_DIR    = File.expand_path('_site',  __dir__)
 SITE_URL    = 'https://sgeos.github.io'
 DEFAULT_AUTHOR = 'Brendan Sechter'
@@ -127,9 +133,14 @@ def preprocess(body, url_map)
   body.strip
 end
 
+# Bump when a change to this script alters generated output, to invalidate every
+# cache entry deliberately rather than by accident.
+CACHE_VERSION = 'v1'
+
 pdf_ok = 0
 epub_ok = 0
 skipped = 0
+cached  = 0
 failed  = []
 
 Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
@@ -157,6 +168,32 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   body = preprocess(raw_body, url_map)
   title = fm['title'].to_s
   date  = fm['date'] ? fm['date'].to_s.split(/[ T]/).first : ''
+
+  cjk_doc = body.match?(/[぀-ヿ㐀-䶿一-鿿가-힯]/)
+  fingerprint = Digest::SHA256.hexdigest(
+    [CACHE_VERSION, body, title, DEFAULT_AUTHOR, date, cjk_doc, have_xelatex].join("\x00")
+  )
+  FileUtils.mkdir_p(CACHE_DIR)
+  cached_pdf  = File.join(CACHE_DIR, "#{fingerprint}.pdf")
+  cached_epub = File.join(CACHE_DIR, "#{fingerprint}.epub")
+
+  # A cache hit still has to place the file, because the output directory is
+  # derived from the permalink and a post can move without its content changing.
+  hit_pdf  = have_xelatex && File.exist?(cached_pdf)
+  hit_epub = File.exist?(cached_epub)
+  if hit_pdf
+    FileUtils.cp(cached_pdf, pdf_out)
+    pdf_ok += 1
+    cached += 1
+  end
+  if hit_epub
+    FileUtils.cp(cached_epub, epub_out)
+    epub_ok += 1
+    cached += 1
+  end
+  if (hit_pdf || !have_xelatex) && hit_epub
+    next
+  end
 
   tmp = Tempfile.new(['post', '.md'])
   begin
@@ -214,8 +251,11 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
                  '-V', 'urlcolor=RoyalBlue',
                  *common_meta,
                  '-o', pdf_out]
-      if system(*pdf_cmd)
+      if hit_pdf
+        # already placed from cache
+      elsif system(*pdf_cmd)
         pdf_ok += 1
+        FileUtils.cp(pdf_out, cached_pdf) if File.exist?(pdf_out)
       else
         failed << "#{basename} (pdf)"
       end
@@ -228,8 +268,11 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
                 '--mathml',
                 *common_meta,
                 '-o', epub_out]
-    if system(*epub_cmd)
+    if hit_epub
+      # already placed from cache
+    elsif system(*epub_cmd)
       epub_ok += 1
+      FileUtils.cp(epub_out, cached_epub) if File.exist?(epub_out)
     else
       failed << "#{basename} (epub)"
     end
@@ -238,7 +281,7 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   end
 end
 
-puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} skipped=#{skipped} failed=#{failed.size}"
+puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size}"
 unless failed.empty?
   warn "[_downloads.rb] failures: #{failed.join(', ')}"
 end

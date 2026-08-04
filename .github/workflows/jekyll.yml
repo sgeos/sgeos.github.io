@@ -14,6 +14,16 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  # GitHub Pages builds on push, not on a timer, and the site sets
+  # future: false. Without a scheduled run a forward-dated post stays a 404
+  # past its own date until something else triggers a build, which defeats the
+  # dated-series cadence the blog relies on. Runs shortly after midnight UTC
+  # because post dates are UTC.
+  #
+  # Two caveats. GitHub disables scheduled workflows after 60 days with no
+  # repository activity, and cron firing is best effort rather than punctual.
+  schedule:
+    - cron: "17 0 * * *"
 
 permissions:
   contents: read
@@ -31,6 +41,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # Seconds of work, placed before the multi-minute toolchain install so a
+      # corpus defect fails fast instead of after a long build.
+      - name: Verify corpus invariants
+        run: python3 _verify.py
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -43,8 +57,21 @@ jobs:
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
+      # The toolchain install measured 7m31s on every run. Caching the
+      # downloaded .deb archives removes the download half; the package list is
+      # the cache key so a change to it invalidates the cache.
+      - name: Cache apt archives
+        uses: actions/cache@v4
+        with:
+          path: ~/apt-archives
+          key: apt-tex-v1-${{ hashFiles('.github/workflows/jekyll.yml') }}
+
       - name: Install pandoc and LaTeX toolchain for downloads
         run: |
+          # Seed apt from the cache, if any, so install skips re-downloading.
+          if compgen -G "$HOME/apt-archives/*.deb" > /dev/null; then
+            sudo cp "$HOME"/apt-archives/*.deb /var/cache/apt/archives/ || true
+          fi
           sudo apt-get update
           # Two packages beyond the obvious TeX set are load-bearing, and both
           # were found the hard way, one CI run at a time.
@@ -69,10 +96,26 @@ jobs:
             texlive-lang-chinese \
             fonts-dejavu \
             fonts-noto-cjk
+          # Stage the archives somewhere the cache action can actually read.
+          mkdir -p "$HOME/apt-archives"
+          sudo cp /var/cache/apt/archives/*.deb "$HOME/apt-archives/" 2>/dev/null || true
+          sudo chown -R "$(id -u):$(id -g)" "$HOME/apt-archives" || true
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      # Content-addressed cache of generated downloads. Regenerating all 293
+      # posts measured 13m22s on every deploy, even for a docs-only push.
+      # restore-keys lets a new run start from the most recent prior cache and
+      # regenerate only what actually changed.
+      - name: Cache generated downloads
+        uses: actions/cache@v4
+        with:
+          path: .cache/downloads
+          key: downloads-v1-${{ github.sha }}
+          restore-keys: |
+            downloads-v1-
+
       - name: Generate PDF and EPUB downloads
         run: ruby _downloads.rb
       - name: Build Pagefind search index

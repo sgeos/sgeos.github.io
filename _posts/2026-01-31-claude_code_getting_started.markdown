@@ -623,7 +623,7 @@ to an agentic workflow.
 
 Specifically, developers should prioritize the study
 of [Agent Hooks][claude_hooks], which allow for the injection of deterministic
-checks—such as security linters or formatters—directly into the agent's
+checks, such as security linters or formatters, directly into the agent's
 execution loop.
 To manage the high context demands of modern projects,
 understanding the [300 Line Rule][claude_best_practices]

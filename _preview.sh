@@ -15,14 +15,22 @@
 #     DRAFTS=1 ./_preview.sh
 # Note that DRAFTS=1 will abort if any draft still has an unresolved post_url.
 #
+# FUTURE controls whether forward-dated posts are rendered. It defaults to 1,
+# preserving the long-standing behaviour, but that does NOT match the live site:
+# _config.yml sets future: false, so forward-dated posts are excluded from the
+# real build and return 404 until their dates arrive. A clean preview is
+# therefore not evidence that a forward-dated cross-reference is safe. Run with
+# FUTURE=0 to see what the deploy will actually publish.
+#
 # The Bundler require is disabled and GEM_HOME defaults to the user gem
 # directory so the script runs against the locally installed gems rather than
 # an unsatisfied bundle. The github-pages-free bundle is built in CI, not here.
 #
 # Usage:
-#     ./_preview.sh            # port 4000, drafts off
-#     ./_preview.sh 8080       # custom port, drafts off
+#     ./_preview.sh            # port 4000, drafts off, future-dated shown
+#     ./_preview.sh 8080       # custom port
 #     DRAFTS=1 ./_preview.sh   # include drafts (may fail, see above)
+#     FUTURE=0 ./_preview.sh   # match the live site: hide forward-dated posts
 
 set -eu
 
@@ -43,6 +51,16 @@ fi
 # Print the blog preview link
 printf '\nView blog at: http://localhost:%s/\n' "${PORT}"
 
+# Forward-dated posts are shown unless FUTURE=0 is set. See the note above:
+# the default does not match production.
+if [ "${FUTURE:-1}" = "0" ]; then
+    FUTURE_FLAG=""
+    printf '%s\n' "FUTURE=0: hiding forward-dated posts, matching the live site."
+else
+    FUTURE_FLAG="--future"
+    printf '%s\n' "Showing forward-dated posts. The live site hides them; use FUTURE=0 to match."
+fi
+
 # Check if `jekyll` is available
 command -v jekyll > /dev/null || {
     printf '%s\n' "jekyll is not installed or not in PATH." >&2
@@ -50,4 +68,4 @@ command -v jekyll > /dev/null || {
 }
 
 # Start the Jekyll server
-jekyll serve --host 0.0.0.0 --port "${PORT}" ${DRAFTS_FLAG} --future --watch
+jekyll serve --host 0.0.0.0 --port "${PORT}" ${DRAFTS_FLAG} ${FUTURE_FLAG} --watch
