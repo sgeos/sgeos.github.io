@@ -469,7 +469,7 @@ The Raptor engine development represents the step-change from the kerosene-and-l
 
 The Raptor specific-impulse takes the compact statement
 
-$$I_{sp}^{\text{Raptor 2}}_{\text{sea-level}} \approx 327 \text{ s}, \quad I_{sp}^{\text{Raptor Vacuum}} \approx 380 \text{ s}$$
+$$I_{sp}^{\text{Raptor 2, sea level}} \approx 327 \text{ s}, \quad I_{sp}^{\text{Raptor Vacuum}} \approx 380 \text{ s}$$
 
 with the vacuum-configuration approaching the theoretical maximum for the methane-and-liquid-oxygen propellant arrangement.
 

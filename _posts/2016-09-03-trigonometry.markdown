@@ -66,7 +66,7 @@ value of the function to either side of the specified point.
 Lower values of $\phi$ indicated by the sign on the top.
 
 $$
-\begin{array}{c|lcr}
+\begin{array}{c|cccccc}
 \phi & \sin & \cos & \tan & \csc & \sec & \cot \\
 \hline
 \frac {0} {2} \pi & \mp0 & +1 & \mp0 & \mp\infty & +1 & \mp\infty \\
@@ -80,7 +80,7 @@ $$
 Transposed version.
 
 $$
-\begin{array}{c|lcr}
+\begin{array}{c|ccccc}
 \phi & \frac {0} {2} \pi & \frac {1} {2} \pi & \frac {2} {2} \pi & \frac {3} {2} \pi & \frac {4} {2} \pi \\
 \hline
 \sin & \mp0 & +1 & \pm0 & -1 & \mp0 \\
