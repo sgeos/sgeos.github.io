@@ -49,7 +49,20 @@ broken targets on that basis alone, all fine in production. I nearly reported th
 
 ---
 
-## Needing Your Judgment
+## Everything Below Was Subsequently Rectified
+
+The four items that had needed your judgment are done, per your instruction. The orphan links were
+restored and cited rather than deleted, the 171 unsorted definition blocks were sorted block-wise
+so categorised sub-blocks survive, and the four filename dates were corrected to match their front
+matter. `tmp/` was left alone as intentionally gitignored.
+
+**One editorial item remains, and only you can decide it.** A224 was backdated to 2026-02-17 to
+fill what that day's log called the gap between A85 at 02-16 and A86 at 02-18. That reasoning
+trusted A86's misleading filename. A86's real date is 02-17, so the gap never existed and
+2026-02-17 now visibly carries two articles. The genuine remaining gap in that window is
+**2026-03-07**. Moving A224 would change a published URL.
+
+## Original Judgment Items, For The Record
 
 **1. A post is six days from where its filename says.**
 `_posts/2026-03-12-error_correction_recursion_problem.markdown` carries `date: 2026-03-06`. Jekyll
