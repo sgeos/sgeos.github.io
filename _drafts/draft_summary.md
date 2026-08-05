@@ -17,6 +17,26 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-2 A299 2025-10-08
+
+`x_planes_bell_x2.markdown`, A299, editorial date 2025-10-08, series `x_planes` index 3 of 72.
+
+1189 lines, 97 display equations, 287 reference definitions, 13,821 words. Primary sources 42.2
+percent of external references, contemporary coverage 31.5 percent. Both lines and equations sit
+below band after two expansion passes and have not been padded.
+
+The keystone is aerodynamic heating, with the binding constraint being time at temperature rather
+than temperature. Two findings carry the article. Dynamic pressure at the fatal condition was 39.2
+kilopascals, higher than the X-15 at Mach 6.7, so the accident was not a thin-air failure but a
+lift-curve-slope failure. And the divergence is derived rather than asserted, giving a 0.45 second
+e-folding time and 1.5 seconds from a one degree disturbance to thirty degrees.
+
+Verification complete. All 41 worked examples re-derived with four corrections. All 287 references
+cited with zero undefined and zero orphaned, all 149 meaningful-404 URLs swept at 200, `_verify.py`
+clean, zero style violations, zero duplicated seams, isolated build succeeding.
+
+**Publication order dependency is now three deep.** A299 cites A298 and A297, and A298 cites A297.
+
 ## X-Planes Bell X-1 A298 2025-10-07
 
 `x_planes_bell_x1.markdown`, A298, editorial date 2025-10-07, series `x_planes` index 2 of 72. The
