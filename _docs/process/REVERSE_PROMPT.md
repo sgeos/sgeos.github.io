@@ -9,8 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A298 drafted, then taken through equation-density and primary-reference reviews. A297 is
-unchanged and already pushed. Neither article is published. Both remain in `_drafts/`.
+**Task**: A298 drafted, then taken through equation-density, primary-reference, and publication
+reviews. Committed and pushed. A297 is unchanged. **Neither article is published.** Both remain in
+`_drafts/`.
 
 ---
 
@@ -18,7 +19,7 @@ unchanged and already pushed. Neither article is published. Both remain in `_dra
 
 `_drafts/x_planes_bell_x1.markdown`, editorial date 2025-10-07, series index 2 of 72.
 
-**1329 lines, 108 display equations, 314 reference definitions, 16,758 words.** Drafted at 1095
+**1387 lines, 108 display equations, 337 reference definitions, 17,565 words.** Drafted at 1095
 lines, 80 equations, and 259 references, then taken through the equation-density and
 primary-reference reviews you asked for. **The line count now sits inside the 1300 to 1600 band**
 without anything having been padded, which is what happens when the gap is closed with content.
@@ -85,11 +86,38 @@ did not. At Mach 1.45 the same two relations differ by 5.5 percent.
 **One publication-order dependency.** A298 cites A297 through `post_url`. Publishing A298 while A297
 is still a draft fails the entire site build. They publish together or A297 first.
 
-**One measure moved the wrong way and you should see it stated plainly.** Contemporary coverage,
-meaning references dated 2010 or later, fell from 21.4 percent to 18.2. That is a denominator effect
-rather than a regression, since the absolute count rose from 33 to 38 while 55 mostly historical
-primaries entered the denominator. A297 sits at 28.8 percent for comparison. If you want A298 brought
-to parity on that measure the fix is another contemporary harvest rather than anything structural.
+## What the Publication Review Found
+
+**The contemporary gap I flagged last round is closed.** Coverage went from 18.2 percent to **26.3
+percent**, against A297 at 28.8, by adding 23 journal articles harvested from Crossref under a 2018
+date filter and curated to drop off-topic and weak-venue hits. Three of them land directly on threads
+this article already runs. [Bai and Cao 2022][research_bai_cao_2022] analyse the coupled thermal,
+aerodynamic, and elastic behaviour of an all-moving control surface, which is the X-1 trade at higher
+temperature. [Jurado and McGehee 2019][research_jurado_mcgehee_2019] give a complete online algorithm
+for air data system calibration, the automated descendant of the 1950 flight calibration campaigns,
+and [Takahashi and Hirotani 2026][research_takahashi_2026_airdata] describe flush air-data sensing
+for a hypersonic experiment where no probe can be exposed at all. Finding live literature sitting
+exactly on an article's own arguments is the best evidence the arguments were the right ones.
+
+**Primary sources are now 52.1 percent of external references.**
+
+**A formulaic-repetition finding, modest but real.** Citations were introduced by the preposition
+`in` about half the time, and two constructions repeated verbatim six times each, being `appear in`
+and `reported in`. That is the tic the style guide's diction rules exist for and the same class as
+the equation-introduction formula remediated in the SpaceX series. 26 constructions were rotated. The
+underlying verbs were already varied, so this was a lighter defect than the raw preposition count
+suggested, and I am reporting the measurement rather than claiming it was severe.
+
+**Word frequency needs one note.** `naca` measures 8.71 per thousand, which would look alarming
+against the five per thousand threshold. 101 of its 127 occurrences are citation labels of the form
+`[NACA 1953]` rather than prose, leaving 26 in running text. The check counts link text as prose, and
+that is worth knowing before someone remediates a citation index for a style violation it does not
+have.
+
+**Structural conformance.** The twelve-section genre order is present and in sequence, with three
+additional sections inserted at sensible points, being Comparison With Ground Prediction, The
+Contemporary Literature, and The Source Base. The genre document specifies an order rather than
+forbidding additions, and A297 does the same.
 
 **A genre-document change you should look at.** The full-aircraft equation band was 60 to 80, taken
 from the History of SpaceX medians before this series existed. Both A297 and A298 have now been
@@ -103,8 +131,9 @@ articles be the exceptions.
 
 ## Verification of A298
 
-All 314 references cited, zero undefined, zero orphaned. **All 197 URLs whose status code carries
-information were swept and all returned 200.**
+All 337 references cited, zero undefined, zero orphaned. All 197 URLs whose status code carries
+information were swept and all returned 200, and **all 57 digital object identifiers were resolved
+through Crossref with authors present**.
 
 All 75 worked numerical examples re-derived independently, being the original 54 plus 21 introduced
 by the equation pass. Two disagreed across the two rounds and were corrected, a learning-curve figure
