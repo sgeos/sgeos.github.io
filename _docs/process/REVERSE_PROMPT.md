@@ -9,137 +9,110 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A297, the X-Planes series opener, drafted and verified. One article only, per your
-stated preference to review shape and depth before the pattern is set across seventy-two.
+**Task**: A297 drafted, then taken through equation-density, primary-reference, and publication
+review passes. Committed and pushed. **Not published.** It remains in `_drafts/`.
 
 ---
 
-## What Was Written
+## Final State of A297
 
-`_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes`, index 1.
+`_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes`, index 1 of 72.
 
-1623 lines, 147 display equations, 372 reference definitions, 19,822 words. The History of SpaceX
-medians for comparison are 1345 lines, 72 equations, and 306 references.
+**1765 lines, 147 display equations, 421 reference definitions, 21,933 words.** The History of
+SpaceX medians for comparison are 1345 lines, 72 equations, and 306 references.
 
-**The equation count is deliberately double the parity figure and you should know why.** The article
-was drafted at 76 equations, which sat at parity. You then asked for an equation-density review with
-all candidate equations added. The audit found 19 results that the prose named or relied on without
-ever showing, including Sutherland's law, the Kantrowitz starting condition, Fay-Riddell, Wright's
-learning curve, the Shannon capacity, the area rule as a design statement, the exponential
-atmosphere, and the elliptic lift distribution. Closing those gaps plus the derivation steps they
-depended on added 71 equations across 44 edits. Nothing was added to raise a count. The filter was
-that the prose already asserted the relation or that a cited result was named but not given.
-
-The argument is that a research aircraft is an instrument rather than a vehicle. Ground facilities
-cannot match Mach, Reynolds, Prandtl, wall temperature ratio, Damkohler, and Knudsen numbers
-simultaneously, and the residue is what each aircraft was built to measure. That residue then
-dominates the design, which the article states as a constrained optimization whose largest shadow
-price identifies the keystone. The remaining sections derive the sizing relations the per-aircraft
-articles will reference rather than repeat, covering the flight envelope, transonic drag, propulsion
-and mass budget, structures and aeroelasticity, aerothermodynamics, stability and control, and
-instrumentation.
-
-Two results are worth your attention because they are the article's own rather than borrowed. A
-binomial attrition calculation at a two percent per-flight loss rate over twenty-five flights and
-ninety-five percent completion confidence returns three airframes, and both the X-1 and the X-15
-were built in threes. The article explicitly declines to claim anyone performed that calculation.
-Separately, the Sutton-Graves heating correlation and a radiation equilibrium balance put the
-X-15A-2 stagnation point at 1880 kelvin against an Inconel X working limit near 1200, which is why
-the Mach 6.7 flight needed ablative coating and returned damaged. The arithmetic explains the
-historical fact rather than merely accompanying it.
+It grew across four passes and each step is traceable. Drafted at 1245 lines, 76 equations, and 327
+references, which was parity. The equation review took it to 147 equations by closing 19 places where
+the prose named a result without showing it. The primary-reference review took it to 372 references
+and raised primary sources from 13.5 to 24.5 percent. The publication review added the contemporary
+literature and brought it here.
 
 ---
 
-## Verification Performed
+## What the Publication Review Found
 
-All 34 worked numerical examples were re-derived independently from stated inputs. Every one agrees.
+Two classes of defect, one procedural and one substantive.
 
-All 372 references are cited in the body. Zero undefined anchors, zero orphaned definitions.
+**Three acronym violations, all now fixed.** NACA was first used at character 14,960 but spelled out
+only at 86,636. **NASA was never spelled out anywhere in the article.** DARPA's expansion trailed its
+first use. Both agency names are now introduced in the opening paragraph and DARPA is expanded at its
+genuine first occurrence. These are exactly the defects the acronym check exists to catch, and none
+of the other verification would have found them.
 
-159 Wikipedia URLs were swept. Five titles were wrong and were corrected against the Wikipedia API,
-and seven additional confirmed pages were added.
+**The contemporary literature was largely absent, and that was the real finding.** Measuring the
+reference index by decade showed only 10.2 percent of dated references were 2010 or later and exactly
+one was from the 2020s. The distribution peaked in the 2000s and fell off a cliff. Against your
+standing directive that these articles serve as a comprehensive survey and review of the contemporary
+literature, that was a straightforward failure rather than a matter of taste.
 
-**All 22 digital object identifiers were resolved through Crossref and compared on author and title.
-Two of the original 11 were defective.** The Sears 1947 identifier did not exist, and the Weisshaar 1980 identifier
-resolved to an unrelated 1979 paper on bipropellant exhaust optics. Both were replaced with
-identifiers confirmed against the correct works. This is the exact defect class that produced the 47
-broken citations in the existing corpus, and it appeared on the first article of a new series.
+I added a `## The Contemporary Literature` section with eight subsections, covering hypersonics and
+airbreathing propulsion, boundary-layer transition, thermal protection, aeroelasticity and active
+control, configuration and propulsion integration, sonic boom, experiment design and system
+identification, and reusable launch. It closes by naming where the contemporary literature is thin,
+which is on the designation system as an administrative object, on cancelled programmes, and on
+experiment rather than computation.
 
-`_verify.py` reports zero errors and the same 21 pre-existing warnings as before the draft landed.
-Zero prose style violations. The article builds clean in an isolated tree and renders with every
-`post_url` resolved.
+**Contemporary coverage is now 28.8 percent, up from 10.2. Primary sources are 33.7 percent, up from
+24.5.** 49 contemporary references were added, being 41 journal articles with digital object
+identifiers harvested from Crossref under a 2015 date filter and 8 NASA reports from the NTRS API.
 
----
-
-## The Reference Pass, and What It Found
-
-You asked for a reference-density review of primary sources specifically. Measuring first was the
-right move, because the index was worse than the raw count suggested. Of 327 references, **only 42
-were primary, or 13.5 percent.** Wikipedia accounted for 159 at 51 percent and books for 109 at 35
-percent. Meanwhile the article asserts in its own Historiographical section that the NACA and NASA
-report series is the backbone of the series. The index did not support that claim.
-
-Worse, six results were named in the prose as results while carrying no citation at all, namely
-Ackeret, Sutherland, Buckingham, Bredt-Batho, the Newtonian stagnation velocity gradient, and the
-Reynolds analogy. That is precisely the defect a reference index exists to prevent, and the equation
-pass had introduced most of them.
-
-**Primary references are now 87 of 372, or 24.5 percent.** 45 were added and 22 existing citations
-were upgraded.
-
-The upgrade matters as much as the additions. NTRS turns out to expose a citations API, so instead of
-adding more search endpoints I resolved reports to real document identifiers. Twenty-two citations
-that previously pointed at `ntrs.nasa.gov/search?q=...`, which returns 200 for any query including
-nonsense, now point at `ntrs.nasa.gov/citations/<id>`. **All 63 fixed identifiers were swept and all
-returned 200**, so for the first time a status code on these citations means something.
-
-One methodological note worth keeping. Title-token overlap alone is not proof of identity. A query
-about the X-1 returned an X-2 document and a query about the X-2 returned an X-1 document, both with
-perfect token scores. Two other queries returned "Lunar and Planetary Science XXXIV". The rule I
-applied is that every entry is labelled with the title the API actually returned rather than the
-title I searched for, and anything whose returned title did not describe a usable primary source was
-dropped rather than relabelled into plausibility.
-
-## A Genre-Document Question the Equation Pass Raised
-
-`RESEARCH_AIRCRAFT_STRUCTURE.md` bands a full-aircraft article at 60 to 80 display equations. At 147
-this opener now sits far outside that band, and the band has no row for a series opener. I have added
-one, describing the opener as the article that carries the shared derivations so the seventy-one
-per-aircraft articles can reference rather than repeat them. That is a description of what the
-article now is rather than a new target, and it is the smallest change that stops the genre document
-contradicting the article. Revert it if you would rather the opener be held to the per-aircraft band.
-
-## Three Things You Should Decide
-
-1. **Categories.** I used `aerospace history engineering`, which renders the URL as
-   `/aerospace/history/engineering/2025/10/06/x_planes_framing.html`. This is still my assumption
-   rather than your decision. It is free to change while the article sits in `_drafts/` and fixed
-   permanently once published, across all seventy-two.
-
-2. **Citation strength, now narrowed but not closed.** The NASA side is fixed. What remains is 109
-   Open Library search URLs for books and 3 NTRS reports the API could not resolve, so 112 citations
-   still point at endpoints that cannot return a not-found. Open Library does expose a search API, so
-   the same treatment that fixed the NASA citations would work on the books and would resolve them to
-   edition pages with work identifiers. Say the word and I will do that pass.
-
-3. **Wikipedia is still the largest single class at 159, or 43 percent.** For the aircraft entries
-   that is defensible, since for many of these designations no better public overview exists. For the
-   concept entries it is weaker, and several now sit alongside a primary source that could carry the
-   citation alone. Pruning that is a judgement call about what a reference index is for, and it is
-   yours rather than mine.
+The section is a review rather than a citation dump. It argues, for instance, that transition
+prediction is the clearest case of a question the X-series opened and did not close, that
+contemporary aeroelastic tailoring generalizes the X-29 solution rather than repeating it through
+tow-steered laminates and active suppression, and that the X-59 is the purest contemporary instance
+of this article's own information-economics argument, being an aircraft built to produce a number
+that a rulemaking body has already agreed to accept.
 
 ---
 
-## One Roster Correction Found
+## Verification
+
+All 34 worked numerical examples re-derived independently and agreeing.
+
+All 421 references cited in the body, zero undefined, zero orphaned.
+
+All 65 NTRS fixed identifiers swept at 200. All 22 original digital object identifiers resolved
+through Crossref and compared on author and title, of which two were defective and were repaired. The
+41 contemporary identifiers came out of Crossref itself and are cited with the titles and authors it
+returned.
+
+`_verify.py` clean at zero errors with the same 21 pre-existing warnings the corpus already carried.
+Zero prose style violations. Word frequency clean, with `flight`, `aircraft`, and `series` above five
+per thousand but all three being the article's literal subject, which the style guide treats as
+legitimate. Isolated production build succeeding with every `post_url` resolved.
+
+---
+
+## Pushed, Not Published
+
+Six commits are now on `origin/master`. The article is in `_drafts/`, and the deploy workflow runs
+`bundle exec jekyll build` without `--drafts`, so nothing about A297 is live. Publishing still
+requires the two-commit sequence and your instruction to run it.
+
+---
+
+## One Roster Correction Found Earlier
 
 Wikipedia titles the X-62 as the **General Dynamics** X-62 VISTA, because the airframe is a modified
-F-16D. The roster in `HANDOFF.md` calls it the Lockheed Martin X-62 VISTA. Both are defensible,
-since Lockheed Martin and Calspan performed the modification, but A359 should name the disagreement
-rather than pick silently. No change has been made to the roster.
+F-16D. The roster in `HANDOFF.md` calls it the Lockheed Martin X-62 VISTA. Both are defensible, since
+Lockheed Martin and Calspan performed the modification, but A359 should name the disagreement rather
+than pick silently. No change has been made to the roster.
 
 ---
 
-## State
+## Still Waiting On You
 
-Branch `master`, three commits unpushed including this one. The draft is committed but not
-published, so nothing is live and the two-commit publication sequence has not begun.
+1. **Categories.** `aerospace history engineering` remains my assumption, rendering the URL as
+   `/aerospace/history/engineering/2025/10/06/x_planes_framing.html`. Free to change now, fixed
+   permanently at publication across all seventy-two articles.
+
+2. **109 Open Library book citations still point at search endpoints**, which cannot return a
+   not-found. Open Library exposes a search API and the same upgrade that fixed the NASA citations
+   would resolve these to edition pages. The NASA side is done and this is what remains.
+
+3. **Wikipedia is still the largest single class.** For the aircraft entries that is defensible,
+   since for many designations no better public overview exists. For the concept entries it is
+   weaker, and many now sit alongside a primary source that could carry the citation alone.
+
+4. **A298, the Bell X-1**, is next whenever you are ready. Your stated preference was to review A297
+   before the pattern is set across seventy-two articles.

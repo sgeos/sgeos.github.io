@@ -13,7 +13,7 @@ series_index: 1
 <!-- A297 -->
 <script>console.log("A297");</script>
 
-This article opens a seventy-two-article series that treats the United States X-series research aircraft as a single object of analysis, one designation at a time, from the Bell X-1 of 1946 through the Bell Textron X-76 announced in 2026. The series covers every designation in that range, including aircraft that flew, aircraft that were cancelled before metal was cut, aircraft whose existence remains classified, designations that were requested and refused, designations reserved and never formalized, one designation that was assigned twice, and a block of seven consecutive numbers that were leapfrogged entirely. The roster is drawn from the [Wikipedia list of X-planes][ref_list_of_x_planes] and the [tri-service designation list][ref_tri_service_designations], cross-checked against [Miller 2001][book_miller_2001_x_planes] The X-Planes X-1 to X-45, [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003] American X-Vehicles, and [Winchester 2005][book_winchester_2005_x_planes] X-Planes and Prototypes, with the broader category context in the general treatments of [experimental aircraft][ref_experimental_aircraft] and the [list of experimental aircraft][ref_list_experimental_aircraft]. The organizing claim is that a research aircraft is an instrument rather than a vehicle, that it exists to reduce uncertainty about one quantity that ground facilities cannot resolve at acceptable fidelity, and that the airframe, the propulsion, the structure, the control system, and the instrumentation were each dimensioned against that one quantity. This opening article establishes the analytical model the series applies, derives the sizing relations that recur across the individual articles so that each of them can reference a common derivation rather than repeat it, formalizes the designation system itself as an object with measurable properties, and states what the series can and cannot establish from the surviving record. The series overlaps deliberately with the earlier [A96 History of Rocketplanes][related_post_a96_history_rocketplanes] article, which treats the rocket-powered subset as a technological lineage. The present series takes each airframe separately and asks an engineering question about it rather than a narrative one.
+This article opens a seventy-two-article series that treats the United States X-series research aircraft as a single object of analysis, one designation at a time, from the Bell X-1 of 1946 through the Bell Textron X-76 announced in 2026. The series covers every designation in that range, including aircraft that flew, aircraft that were cancelled before metal was cut, aircraft whose existence remains classified, designations that were requested and refused, designations reserved and never formalized, one designation that was assigned twice, and a block of seven consecutive numbers that were leapfrogged entirely. The roster is drawn from the [Wikipedia list of X-planes][ref_list_of_x_planes] and the [tri-service designation list][ref_tri_service_designations], cross-checked against [Miller 2001][book_miller_2001_x_planes] The X-Planes X-1 to X-45, [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003] American X-Vehicles, and [Winchester 2005][book_winchester_2005_x_planes] X-Planes and Prototypes, with the broader category context in the general treatments of [experimental aircraft][ref_experimental_aircraft] and the [list of experimental aircraft][ref_list_experimental_aircraft]. Throughout, the National Advisory Committee for Aeronautics is abbreviated NACA and its successor the National Aeronautics and Space Administration is abbreviated NASA, since both appear constantly from here on. The organizing claim is that a research aircraft is an instrument rather than a vehicle, that it exists to reduce uncertainty about one quantity that ground facilities cannot resolve at acceptable fidelity, and that the airframe, the propulsion, the structure, the control system, and the instrumentation were each dimensioned against that one quantity. This opening article establishes the analytical model the series applies, derives the sizing relations that recur across the individual articles so that each of them can reference a common derivation rather than repeat it, formalizes the designation system itself as an object with measurable properties, and states what the series can and cannot establish from the surviving record. The series overlaps deliberately with the earlier [A96 History of Rocketplanes][related_post_a96_history_rocketplanes] article, which treats the rocket-powered subset as a technological lineage. The present series takes each airframe separately and asks an engineering question about it rather than a narrative one.
 
 ## The Research Aircraft as an Instrument
 
@@ -743,9 +743,9 @@ $$\eta = \frac{|D| - |U|}{|D|} = \frac{76 - 11}{76} = 0.855$$
 
 so roughly one designation in seven in the nominal range corresponds to nothing.
 
-Injectivity fails at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme. It is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D PRIME while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the [DARPA Falcon Project][ref_darpa_falcon] is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
+Injectivity fails at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme. It is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D PRIME while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the Falcon Project run by the Defense Advanced Research Projects Agency, or [DARPA][ref_darpa_falcon], is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
 
-Monotonicity fails at the X-76. The [Defense Advanced Research Projects Agency][ref_darpa] announced the Bell Textron X-76 SPRINT in 2026 with the number chosen as a deliberate reference to 1776 for the country's two hundred and fiftieth anniversary, as stated in the [agency announcement][ref_darpa_x76], while the next unused sequential number at the time was X-69. This matters methodologically and not merely as trivia. A reference work stating that the next available design number is X-69 is describing the next unused sequential slot, not an upper bound on assigned numbers, and reading it as a ceiling excludes a real aircraft. When a roster looks like a sequence, it is worth verifying that it is one.
+Monotonicity fails at the X-76. [DARPA][ref_darpa] announced the Bell Textron X-76 SPRINT in 2026 with the number chosen as a deliberate reference to 1776 for the country's two hundred and fiftieth anniversary, as stated in the [agency announcement][ref_darpa_x76], while the next unused sequential number at the time was X-69. This matters methodologically and not merely as trivia. A reference work stating that the next available design number is X-69 is describing the next unused sequential slot, not an upper bound on assigned numbers, and reading it as a ceiling excludes a real aircraft. When a roster looks like a sequence, it is worth verifying that it is one.
 
 The assignment rate over the eighty years from the X-1 in 1946 to the X-76 in 2026 is
 
@@ -806,6 +806,50 @@ The reference literature provides the roster and the administrative record. It i
 The contemporary record thins sharply. Programmes after roughly 2000 generate press releases, fact sheets, and conference papers rather than technical reports, and the [agency web presence][ref_darpa_official] together with the [NASA Armstrong centre site][ref_nasa_armstrong] is frequently the only public source. Several are classified in whole or in part. For the X-37 the flight record is public in the sense that launch and landing dates are announced while the mission is not described. For the X-41 essentially nothing is public. The series states these limits in each article rather than filling them with inference.
 
 Three specific gaps are worth naming in advance. The X-23 attribution conflict has not been resolved in the public literature. The X-42 is described inconsistently across the two sources that mention it at all, one calling it an expendable liquid-propellant upper stage and the other a military spaceplane test vehicle, and no dedicated treatment exists anywhere. The X-44 duplication is documented but the sequence of events that produced it is not.
+
+## The Contemporary Literature
+
+The historical literature above describes the programmes. A survey that stopped there would misrepresent the field, because most of the questions these aircraft opened are still open and are still being worked. This section reviews where the contemporary literature stands on each of the threads the series follows, and it is written from the position that a reader who wants to act on any of this should be reading the last ten years rather than the archive.
+
+### Hypersonics and Airbreathing Propulsion
+
+The scramjet question the X-43 and X-51 were built to answer has moved from whether positive net thrust is achievable to how the transition between operating modes is managed. [Fotia 2015][research_fotia_2015] treats combustion mode transition in a direct-connect isolator as a controllable process rather than an operating hazard, and [Wu and Wei 2023][research_wu_wei_2023] together with [Wu and Wei 2022][research_wu_wei_2022] compare dual-combustion ramjet and scramjet operation across the same envelope. The configuration side has consolidated around the waverider idea that gave the X-51 its name, with direct optimization frameworks in [Son and Son 2022][research_son_son_2022] and quasi-waverider methods that relax the exact shock-fitting constraint in [Liu and Zhang 2020][research_liu_zhang_2020]. Vehicle-level design has become an optimization problem rather than a configuration selection, as in the structural work of [Rodriguez-Segade and Hernandez 2024][research_segade_hernandez_2024], the aerodynamic modelling of [Ma and Xue 2025][research_ma_xue_2025], and the combined-cycle booster study of [Suzuki 2016][research_suzuki_2016].
+
+The facility problem this article opened with has not gone away. [Lee and Kang 2015][research_lee_kang_2015] describe what a modern airbreathing ground test facility can and cannot reproduce, and [Ji and Li 2019][research_ji_li_2019] report the development of hypersonic flutter test capability, which is an admission that the coupled aerothermoelastic problem still cannot be closed analytically. The similarity gap that justified the X-15 justifies flight experiments now for the same reason.
+
+### Boundary-Layer Transition
+
+Transition prediction is the single clearest case of a question the X-series opened and did not close. It remains the largest source of uncertainty in hypersonic vehicle sizing, because laminar and turbulent heating differ by a factor of several and the transition location is not reliably predictable. The contemporary work runs from criteria-based engineering methods in [Zhou and Zhao 2018][research_zhou_zhao_2018] to receptivity-based prediction in [Niu and Su 2023][research_niu_su_2023]. On the flight side, [NASA 2016][research_blt_shuttle_2016] reports the verification of a transition prediction tool against a flight experiment, [NASA 2020][research_blt_modeling_2020] addresses transition modelling at flight conditions specifically, [NASA 2018][research_blt_vortex_2018] examines deliberate transition delay using vortex generators, and [NASA 2020][research_blt_ground_2020] describes the ground tests supporting the same effort. That a flight experiment is still the arbiter is the strongest available evidence for this article's central claim.
+
+### Thermal Protection
+
+The Sutton-Graves and Fay-Riddell correlations used above remain the sizing tools, but the material response behind them has become the research subject. [Martin and Panesi 2022][research_martin_panesi_2022] treat radiative transmission and absorption within the thermal protection material rather than as a surface boundary condition, and [Vigil and Perez 2026][research_vigil_perez_2026] optimize the protection geometry rather than sizing a uniform thickness. Both are refinements of the blunt-body insight rather than departures from it.
+
+### Aeroelasticity and Active Control
+
+This is the thread where the contemporary literature has moved furthest from the X-29. Aeroelastic tailoring is no longer a fixed laminate choice made once at design time. [Stodieck and Cooper 2015][research_stodieck_cooper_2015] optimize tow-steered laminates in which the fibre path varies continuously across the cover, which generalizes the X-29 solution rather than repeating it, and [Chen and Han 2017][research_chen_han_2017] extend the same treatment to joined-wing configurations. Alongside that, the passive solution has been joined by an active one. [Waitman and Marcos 2020][research_waitman_marcos_2020] design robust controllers for active flutter suppression, and [Chen and Shi 2023][research_chen_shi_2023a] and [Chen and Shi 2023][research_chen_shi_2023b] demonstrate suppression using leading-edge and trailing-edge control respectively. The X-56A was built to explore exactly this territory, and [NASA 2018][research_fiber_optic_loads_2018] reports fibre-optic load sensing of the kind that makes closed-loop control of a flexible wing practical. [NASA 2015][research_vcctef_2015] describes the variable-camber continuous trailing edge flap that turns the wing itself into the actuator, and the morphing literature reviewed by [Sun and Guan 2016][research_sun_guan_2016] and controlled by [Cheng and Li 2023][research_cheng_li_2023] takes that idea to its limit. [Ritter and Neumann 2016][research_ritter_neumann_2016] address the aeroelastic simulation of these configurations at flight Reynolds number, which is the same scaling problem in a new place.
+
+### Configuration and Propulsion Integration
+
+The two most recent designations in the series sit directly on active literatures. The X-66 truss-braced wing has a design literature of its own, including the slotted-cruise optimization of [Chau and Piotrowski 2026][research_chau_piotrowski_2026] and the stability-margin study of [Li and Qiao 2023][research_li_qiao_2023]. The X-57 distributed electric propulsion concept is now a design discipline rather than a demonstration, with structural modelling in [Alonso Castilla and Lutz 2021][research_castilla_lutz_2021], propeller design for the high-disc-loading case in [Shi and Huo 2024][research_shi_huo_2024], and hybrid architectures in [Xiao and Tan 2024][research_xiao_tan_2024]. The adjacent electric vertical takeoff and landing sector described in [NASA 2021][research_evtol_2021] inherits the vertical-flight questions that the X-13 through X-22 block opened and never resolved, which is one of the more striking continuities in the whole series.
+
+### Sonic Boom and the Supersonic Transport Question
+
+The X-59 exists because the overland supersonic ban is a regulatory fact rather than a physical one, and the contemporary literature is aimed squarely at changing the regulation. [Xiao and Chao 2026][research_xiao_chao_2026] present multifidelity low-boom design methods and [Yamazaki and Ishida 2025][research_yamazaki_ishida_2025] evaluate combined aerodynamic and boom performance. This is the clearest contemporary example of a research aircraft built to produce a number that a rulemaking body has already agreed to accept, which is the information-economics argument of this article in its purest form.
+
+### Experiment Design, System Identification, and Uncertainty
+
+The Bayesian framing this article opens with is itself an active field. [Kennamer and Walton 2023][research_kennamer_walton_2023] address the computational cost of optimal design directly through amortization, and [Zemplenyi and Miller 2023][research_zemplenyi_miller_2023] extend optimal design to structural inference. On the flight-test side, [Grauer and Morelli 2023][research_grauer_morelli_2023] introduce a collection surveying advances in aircraft system identification, which is the discipline that turns the measurements of the previous section into the derivatives of the section before it. Model credibility has become a formal subject in its own right through [Nagaraja and Loughran 2020][research_nagaraja_loughran_2020] and [Liu and Li 2026][research_liu_li_2026], and parameter identification for unconventional configurations is treated by [Wang and Tai 2022][research_wang_tai_2022] and [Wang and Zhao 2022][research_wang_zhao_2022]. The measurement side has advanced too, with [Ahlefeldt 2017][research_ahlefeldt_2017] describing microphone array measurement in a transonic tunnel.
+
+Two adjacent literatures now bear on all of the above. Machine learning has entered fluid mechanics as a modelling tool rather than a curiosity, surveyed by [Brunton and Noack 2020][research_brunton_noack_2020] and constrained toward physical realisability by [McConkey and Kalia 2025][research_mcconkey_kalia_2025]. And the certification of autonomy, treated for the unmanned case by [NASA 2017][research_uas_nas_2017], is the question the X-62 exists to address in the manned case.
+
+### Reusable Launch and the Recovery Problem
+
+The X-33 and X-34 failed at a problem that has since been solved commercially rather than experimentally, which is a finding about how research aircraft relate to the industries around them. The contemporary design literature treats reusable vehicle sizing and landing control as ordinary engineering, as in [Wang and Chen 2020][research_wang_chen_2020] and [Tariq and Wasim 2026][research_tariq_wasim_2026]. The relationship between that outcome and the two cancelled X-designations is taken up in the closing article and in the [A281 History of SpaceX][related_post_a281_spacex_framing] series.
+
+### Where the Contemporary Literature Is Thin
+
+Three gaps are worth naming. There is very little recent scholarship on the designation system itself as an administrative object, which is part of why this series treats it as one. There is almost nothing published on the programmes that were cancelled before flight, since a cancelled programme generates no results to report and the institutional record is usually closed. And the contemporary literature is overwhelmingly analytical and computational rather than experimental, which is the predictable consequence of flight experiments being expensive, and which makes the handful of recent flight demonstrators disproportionately valuable relative to their number.
 
 ## Where the Framing Breaks Down
 
@@ -1147,17 +1191,25 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 ### Research
 
 - [Ackeret 1925 Air Forces on Airfoils Moving Faster Than Sound][research_ackeret_1925]
+- [Ahlefeldt 2017 Microphone Array Measurement in a European Transonic Wind Tunnel][research_ahlefeldt_2017]
 - [Allen and Eggers 1958 A Study of the Motion and Aerodynamic Heating of Ballistic Missiles Entering the Earth's Atmosphere][research_allen_eggers_1958]
+- [Alonso Castilla and Lutz 2021 Wing Structural Model for Overall Aircraft Design of Distributed Electric Propulsion][research_castilla_lutz_2021]
 - [Banner Kuhl and Quinn 1962 Preliminary Results of Aerodynamic Heating Studies on the X-15][research_banner_kuhl_quinn_1962]
 - [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
 - [Beranek 2019 The Making of a MAD MUTT, the X-56A Multi-Utility Technology Testbed Aircraft][research_beranek_2019_x56a]
 - [Billig 1993 Research on Supersonic Combustion][research_billig_1993]
 - [Borer 2016 Design and Performance of the NASA SCEPTOR Distributed Electric Propulsion Flight Demonstrator][research_borer_2016_x57]
 - [Bosworth and Stoliker 1996 The X-31A Quasi-Tailless Flight Test Results][research_bosworth_1996_x31]
+- [Brunton and Noack 2020 Machine Learning for Fluid Mechanics][research_brunton_noack_2020]
 - [Buckingham 1914 On Physically Similar Systems][research_buckingham_1914]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Chapman 1958 An Approximate Analytical Method for Studying Entry into Planetary Atmospheres][research_chapman_1958]
 - [Chapman and Rubesin 1949 Temperature and Velocity Profiles in the Compressible Laminar Boundary Layer][research_chapman_rubesin_1949]
+- [Chau and Piotrowski 2026 Aerodynamic Optimization of a Cruise-Slotted Transonic Truss-Braced Wing][research_chau_piotrowski_2026]
+- [Chen and Han 2017 Aeroelastic Tailoring of High-Aspect-Ratio Composite Joined Wings][research_chen_han_2017]
+- [Chen and Shi 2023 Active Flutter Suppression for a Flexible Wing Model with Trailing-Edge Control][research_chen_shi_2023b]
+- [Chen and Shi 2023 Active Flutter Suppression on a Flexible Wing via Leading-Edge Control][research_chen_shi_2023a]
+- [Cheng and Li 2023 L1 Adaptive Control Based on Dynamic Inversion for Morphing Aircraft][research_cheng_li_2023]
 - [Collar 1946 The Expanding Domain of Aeroelasticity][research_collar_1946]
 - [Cox 2011 X-48B Blended Wing Body Ground to Flight Correlation Update][research_cox_2011_x48b]
 - [Curran 2001 Scramjet Engines, The First Forty Years][research_curran_2001]
@@ -1168,29 +1220,41 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [Eggers Allen and Neice 1955 A Comparative Analysis of the Performance of Long-Range Hypervelocity Vehicles][research_eggers_allen_neice_1955]
 - [Engelund 2000 Aerodynamic Database Development for the Hyper-X Airframe Integrated Scramjet][research_engelund_2000_x43]
 - [Fay and Riddell 1958 Theory of Stagnation Point Heat Transfer in Dissociated Air][research_fay_riddell_1958]
+- [Fotia 2015 Mechanics of Combustion Mode Transition in a Direct-Connect Isolator][research_fotia_2015]
 - [Garrick and Reed 1981 Historical Development of Aircraft Flutter][research_garrick_reed_1981]
 - [Gera and Bosworth 1989 A Design Procedure for the Handling Qualities Optimization of the X-29A][research_gera_bosworth_1987]
 - [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
+- [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
 - [Hank Murphy and Mutzman 2008 The X-51A Scramjet Engine Flight Demonstration Program][research_hank_2008_x51a]
 - [Hicks 1989 Preliminary Flight-Determined Subsonic Lift and Drag Characteristics of the X-29A][research_hicks_1989_x29]
 - [Hoey and Day 1961 X-15 Mission Planning and Operational Procedures][research_hoey_day_1961]
+- [Ji and Li 2019 Development and Testing of Hypersonic Flutter Test Capability][research_ji_li_2019]
 - [Jones 1946 Properties of Low-Aspect-Ratio Pointed Wings at Speeds Below and Above the Speed of Sound][research_jones_1946_low_aspect]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1946_wing_plan_forms]
 - [Kantrowitz and Donaldson 1945 Preliminary Investigation of Supersonic Diffusers][research_kantrowitz_donaldson_1945]
+- [Kennamer and Walton 2023 Design Amortization for Bayesian Optimal Experimental Design][research_kennamer_walton_2023]
 - [Kordes and Noll Flight Loads Measurements on the X-15][research_kordes_noll_x15_loads]
 - [Krone 1975 Divergence Elimination with Advanced Composites][research_krone_1975]
 - [Kullback and Leibler 1951 On Information and Sufficiency][research_kullback_leibler_1951]
+- [Lee and Kang 2015 A Study on the Hypersonic Air-Breathing Engine Ground Test Facility][research_lee_kang_2015]
 - [Lees 1956 Laminar Heat Transfer over Blunt-Nosed Bodies at Hypersonic Flight Speeds][research_lees_1956]
+- [Li and Qiao 2023 Effects of Static Stability Margin on Aerodynamic Design Optimization of a Truss-Braced Wing][research_li_qiao_2023]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
+- [Liu and Li 2026 Model Validation Under Interval Uncertainty][research_liu_li_2026]
+- [Liu and Zhang 2020 Design and Optimization Method for Hypersonic Quasi-Waverider][research_liu_zhang_2020]
+- [Ma and Xue 2025 An Efficient and High-Precision Aerodynamic Modeling Method for Hypersonic Vehicles][research_ma_xue_2025]
 - [Marshall et al 2005 Overview With Results and Lessons Learned of the X-43A Mach 10 Flight][research_marshall_et_al_2005]
+- [Martin and Panesi 2022 Radiative Transmission and Absorption Within the Thermal Protection System][research_martin_panesi_2022]
 - [Matranga 1961 Analysis of X-15 Landing Approach and Flare Characteristics][research_matranga_1961]
 - [McClinton 2006 X-43 Scramjet Power Breaks the Hypersonic Barrier][research_mcclinton_2006]
+- [McConkey and Kalia 2025 Realisability-Informed Machine Learning for Turbulence Anisotropy][research_mcconkey_kalia_2025]
 - [Munk 1921 The Minimum Induced Drag of Aerofoils][research_munk_1921]
 - [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
 - [NACA 1953 Fuselage Pressures Measured on the Bell X-1 Research Airplane in Transonic Flight][research_x1_fuselage_1953]
 - [NACA 1953 Measurements Obtained During the Glide-Flight Program of the Bell X-2][research_x2_glide_1953]
 - [NACA 1953 Measurements of Maximum Lift and Buffeting Intensities Obtained on the Northrop X-4][research_x4_buffet_1953]
 - [NACA 1954 Flight-Determined Pressure Measurements over the Wing of the Douglas D-558][research_d558_pressures_1954]
+- [Nagaraja and Loughran 2020 Verification, Validation, and Uncertainty Quantification][research_nagaraja_loughran_2020]
 - [NASA 1958 Research-Airplane-Committee Report on the Conference on the Progress of the X-15 Project][research_x15_conference_1958]
 - [NASA 1973 Flight-Measured X-24A Lifting Body Control Surface Hinge Moments][research_x24a_hinge_1973]
 - [NASA 1992 Laminar Flow Flight Experiments, A Review][research_laminar_flow_review_1992]
@@ -1200,7 +1264,16 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [NASA 2005 Parachute Testing for the NASA X-38 Crew Return Vehicle][research_x38_parachute_2005]
 - [NASA 2005 Shock Location Dominated Transonic Flight Loads on the Active Aeroelastic Wing][research_x53_aaw_2005]
 - [NASA 2008 X-43A Flight-Test-Determined Aerodynamic Force and Moment Characteristics][research_x43a_forces_2008]
+- [NASA 2015 Development of a Variable Camber Continuous Trailing Edge Flap][research_vcctef_2015]
+- [NASA 2016 Flight Experiment Verification of Shuttle Boundary Layer Transition Prediction Tool][research_blt_shuttle_2016]
+- [NASA 2017 Unmanned Aircraft Systems Integration in the National Airspace System][research_uas_nas_2017]
+- [NASA 2018 Adaptive Load Control of Flexible Aircraft Wings Using Fiber Optic Sensing][research_fiber_optic_loads_2018]
+- [NASA 2018 Transition Delay via Vortex Generators in a Hypersonic Boundary Layer at Flight Conditions][research_blt_vortex_2018]
+- [NASA 2020 Langley Aerothermodynamic Ground Tests in Support of Boundary Layer Transition][research_blt_ground_2020]
+- [NASA 2020 Toward Transition Modeling in a Hypersonic Boundary Layer at Flight Conditions][research_blt_modeling_2020]
+- [NASA 2021 Electric Vertical Takeoff and Landing Aircraft Technology][research_evtol_2021]
 - [NASA 2022 High Speed Inlet Distortion Test for the X-59 Low Boom Flight Demonstrator][research_x59_inlet_2022]
+- [Niu and Su 2023 Receptivity and Its Influence on Transition Prediction][research_niu_su_2023]
 - [Nonweiler 1959 Aerodynamic Problems of Manned Space Vehicles][research_nonweiler_1959]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
 - [Oswald 1932 General Formulas and Charts for the Calculation of Airplane Performance][research_oswald_1932]
@@ -1209,17 +1282,30 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Putnam 1984 X-29 Flight Research Program][research_putnam_1984_x29]
 - [Rausch 2001 Hyper-X Program Status][research_rausch_2001_hyper_x]
+- [Ritter and Neumann 2016 Aeroelastic Simulations of High Reynolds Number Aero-Structural Configurations][research_ritter_neumann_2016]
+- [Rodriguez-Segade and Hernandez 2024 Multi-Level and Multi-Objective Structural Optimization for Hypersonic Vehicles][research_segade_hernandez_2024]
 - [Saltzman and Garringer 1966 Summary of Full-Scale Lift and Drag Characteristics of the X-15][research_saltzman_garringer_1966]
 - [Sears 1947 On Projectiles of Minimum Wave Drag][research_sears_1947]
 - [Sefic and Maxwell 1986 X-29A Technology Demonstrator Flight Test Program Overview][research_sefic_maxwell_1986]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Shi and Huo 2024 Rapid Design Method of Heavy-Loaded Propeller for Distributed Electric Propulsion][research_shi_huo_2024]
+- [Son and Son 2022 A Novel Direct Optimization Framework for Hypersonic Waverider Design][research_son_son_2022]
 - [Stillwell 1964 The X-15 Project, Results and New Research][research_stillwell_1964_x15]
+- [Stodieck and Cooper 2015 Optimization of Tow-Steered Composite Wing Laminates for Aeroelastic Tailoring][research_stodieck_cooper_2015]
+- [Sun and Guan 2016 Morphing Aircraft Based on Smart Materials and Structures, A State-of-the-Art Review][research_sun_guan_2016]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
 - [Sutton and Graves 1971 A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures][research_sutton_graves_1971]
+- [Suzuki 2016 Aerodynamic Shape Design of a Hypersonic Booster with a Rocket-Based Combined Cycle Engine][research_suzuki_2016]
+- [Tariq and Wasim 2026 Design of a Gain-Scheduled Controller for Landing of a Reusable Launch Vehicle][research_tariq_wasim_2026]
 - [Tauber 1989 A Review of High-Speed Convective Heat-Transfer Computation Methods][research_tauber_1989]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Van Driest 1952 Investigation of Laminar Boundary Layer in Compressible Fluids][research_van_driest_1952]
+- [Vigil and Perez 2026 Optimization of the Thermal Protection System Geometry][research_vigil_perez_2026]
 - [Voland Huebner and McClinton 2005 X-43 Hypersonic Vehicle Technology Development][research_voland_2005_x43]
+- [Waitman and Marcos 2020 H-Infinity Control Design for Active Flutter Suppression of Flexible Aircraft][research_waitman_marcos_2020]
+- [Wang and Chen 2020 Parameterized Design and Dynamic Analysis of a Reusable Launch Vehicle][research_wang_chen_2020]
+- [Wang and Tai 2022 Longitudinal Aerodynamic Parameter Identification for Blended Wing Body][research_wang_tai_2022]
+- [Wang and Zhao 2022 Aircraft Lateral-Directional Aerodynamic Parameter Identification][research_wang_zhao_2022]
 - [Weil 1962 Review of the X-15 Program][research_weil_1962_x15]
 - [Weisshaar 1980 Divergence of Forward Swept Composite Wings][research_weisshaar_1980]
 - [Weisshaar 1981 Aeroelastic Tailoring of Forward Swept Composite Wings][research_weisshaar_1981]
@@ -1227,7 +1313,14 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [Whitcomb and Clark 1965 An Airfoil Shape for Efficient Flight at Supercritical Mach Numbers][research_whitcomb_clark_1965]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
+- [Wu and Wei 2022 Comparison of Dual-Combustion Ramjet and Scramjet Performance][research_wu_wei_2022]
+- [Wu and Wei 2023 Analysis of the Characteristics of Scramjet Mode and Ramjet Mode][research_wu_wei_2023]
+- [Xiao and Chao 2026 Reduced Multifidelity Low-Sonic-Boom Design for Supersonic Transport][research_xiao_chao_2026]
+- [Xiao and Tan 2024 Distributed Hybrid Electric Propulsion Aircraft Design][research_xiao_tan_2024]
+- [Yamazaki and Ishida 2025 Evaluation of Aerodynamic and Sonic Boom Performance of Supersonic Aircraft][research_yamazaki_ishida_2025]
 - [Yancey 1964 Flight Measurements of Stability and Control Derivatives of the X-15 Research Airplane][research_yancey_1964_x15]
+- [Zemplenyi and Miller 2023 Bayesian Optimal Experimental Design for Inferring Causal Structure][research_zemplenyi_miller_2023]
+- [Zhou and Zhao 2018 A Combined Criteria-Based Method for Hypersonic Three-Dimensional Transition][research_zhou_zhao_2018]
 
 ### Related Post
 
@@ -1540,17 +1633,29 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
+[research_ahlefeldt_2017]: https://doi.org/10.2514/1.j055262
 [research_allen_eggers_1958]: https://ntrs.nasa.gov/citations/19930091020
 [research_banner_kuhl_quinn_1962]: https://ntrs.nasa.gov/citations/19660020178
 [research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
 [research_beranek_2019_x56a]: https://ntrs.nasa.gov/citations/20190002269
 [research_billig_1993]: https://doi.org/10.2514/3.23652
+[research_blt_ground_2020]: https://ntrs.nasa.gov/citations/20200003493
+[research_blt_modeling_2020]: https://ntrs.nasa.gov/citations/20200002932
+[research_blt_shuttle_2016]: https://ntrs.nasa.gov/citations/20160010109
+[research_blt_vortex_2018]: https://ntrs.nasa.gov/citations/20200002316
 [research_borer_2016_x57]: https://ntrs.nasa.gov/citations/20160010157
 [research_bosworth_1996_x31]: https://ntrs.nasa.gov/citations/19960029101
+[research_brunton_noack_2020]: https://doi.org/10.1146/annurev-fluid-010719-060214
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
+[research_castilla_lutz_2021]: https://doi.org/10.3390/aerospace9010005
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_chapman_1958]: https://ntrs.nasa.gov/citations/19930085059
 [research_chapman_rubesin_1949]: https://doi.org/10.2514/8.11853
+[research_chau_piotrowski_2026]: https://doi.org/10.2514/1.c038646
+[research_chen_han_2017]: https://doi.org/10.21595/mme.2017.18505
+[research_chen_shi_2023a]: https://doi.org/10.1063/5.0162013
+[research_chen_shi_2023b]: https://doi.org/10.1063/5.0130370
+[research_cheng_li_2023]: https://doi.org/10.3390/aerospace10090786
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
 [research_cox_2011_x48b]: https://ntrs.nasa.gov/citations/20110011973
 [research_curran_2001]: https://doi.org/10.2514/2.5875
@@ -1561,27 +1666,42 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [research_eckert_1956]: https://doi.org/10.1115/1.4014011
 [research_eggers_allen_neice_1955]: https://ntrs.nasa.gov/citations/19930092363
 [research_engelund_2000_x43]: https://ntrs.nasa.gov/citations/20000092515
+[research_evtol_2021]: https://ntrs.nasa.gov/citations/20205000636
 [research_fay_riddell_1958]: https://doi.org/10.2514/8.7517
+[research_fiber_optic_loads_2018]: https://ntrs.nasa.gov/citations/20190033242
+[research_fotia_2015]: https://doi.org/10.2514/1.b35171
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
 [research_gera_bosworth_1987]: https://ntrs.nasa.gov/citations/19900002437
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
+[research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
 [research_hank_2008_x51a]: https://doi.org/10.2514/6.2008-2540
 [research_hicks_1989_x29]: https://ntrs.nasa.gov/citations/19910019863
 [research_hoey_day_1961]: https://ntrs.nasa.gov/citations/19710070140
+[research_ji_li_2019]: https://doi.org/10.2514/1.j056165
 [research_jones_1946_low_aspect]: https://ntrs.nasa.gov/citations/19930084600
 [research_jones_1946_wing_plan_forms]: https://ntrs.nasa.gov/citations/19930091936
 [research_kantrowitz_donaldson_1945]: https://ntrs.nasa.gov/citations/19930093667
+[research_kennamer_walton_2023]: https://doi.org/10.1609/aaai.v37i7.25992
 [research_kordes_noll_x15_loads]: https://ntrs.nasa.gov/search?q=flight%20loads%20measurements%20X-15%20airplane
 [research_krone_1975]: https://ntrs.nasa.gov/search?q=Krone%20divergence%20elimination%20with%20advanced%20composites%20forward%20swept%20wing
 [research_kullback_leibler_1951]: https://doi.org/10.1214/aoms/1177729694
 [research_laminar_flow_review_1992]: https://ntrs.nasa.gov/citations/19930057781
+[research_lee_kang_2015]: https://doi.org/10.6108/kspe.2015.19.6.081
 [research_lees_1956]: https://doi.org/10.2514/8.6977
+[research_li_qiao_2023]: https://doi.org/10.3390/aerospace10070603
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
+[research_liu_li_2026]: https://doi.org/10.1016/j.ast.2026.112780
+[research_liu_zhang_2020]: https://doi.org/10.2514/1.j059087
+[research_ma_xue_2025]: https://doi.org/10.1016/j.ast.2025.110382
 [research_marshall_et_al_2005]: https://ntrs.nasa.gov/citations/20050175679
+[research_martin_panesi_2022]: https://doi.org/10.2514/1.a35029
 [research_matranga_1961]: https://ntrs.nasa.gov/citations/19980227282
 [research_mcclinton_2006]: https://ntrs.nasa.gov/search?q=X-43%20scramjet%20power%20breaks%20the%20hypersonic%20barrier%20Dryden%20lectureship
+[research_mcconkey_kalia_2025]: https://doi.org/10.1017/jfm.2025.10618
 [research_munk_1921]: https://ntrs.nasa.gov/citations/19800006779
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
+[research_nagaraja_loughran_2020]: https://doi.org/10.1115/1.4046329
+[research_niu_su_2023]: https://doi.org/10.1063/5.0141000
 [research_nonweiler_1959]: https://doi.org/10.1017/s0368393100071662
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
 [research_oswald_1932]: https://ntrs.nasa.gov/citations/19930091482
@@ -1590,17 +1710,32 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
 [research_putnam_1984_x29]: https://ntrs.nasa.gov/citations/19840030937
 [research_rausch_2001_hyper_x]: https://ntrs.nasa.gov/citations/20010021138
+[research_ritter_neumann_2016]: https://doi.org/10.2514/1.j053384
 [research_saltzman_garringer_1966]: https://ntrs.nasa.gov/citations/19660010056
 [research_sears_1947]: https://doi.org/10.1090/qam/20394
 [research_sefic_maxwell_1986]: https://ntrs.nasa.gov/citations/19860016856
+[research_segade_hernandez_2024]: https://doi.org/10.1016/j.ast.2024.109346
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+[research_shi_huo_2024]: https://doi.org/10.3390/en17040786
+[research_son_son_2022]: https://doi.org/10.3390/aerospace9070348
 [research_stillwell_1964_x15]: https://ntrs.nasa.gov/citations/19640012152
+[research_stodieck_cooper_2015]: https://doi.org/10.2514/1.j053599
+[research_sun_guan_2016]: https://doi.org/10.1177/1045389x16629569
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
 [research_sutton_graves_1971]: https://ntrs.nasa.gov/citations/19720003329
+[research_suzuki_2016]: https://doi.org/10.2322/tastj.14.pe_71
+[research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
 [research_tauber_1989]: https://ntrs.nasa.gov/citations/19890017745
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
+[research_uas_nas_2017]: https://ntrs.nasa.gov/citations/20170006091
 [research_van_driest_1952]: https://ntrs.nasa.gov/citations/19930083425
+[research_vcctef_2015]: https://ntrs.nasa.gov/citations/20150023531
+[research_vigil_perez_2026]: https://doi.org/10.1016/j.euromechflu.2026.204537
 [research_voland_2005_x43]: https://ntrs.nasa.gov/citations/20050239566
+[research_waitman_marcos_2020]: https://doi.org/10.2514/1.g004618
+[research_wang_chen_2020]: https://doi.org/10.3390/sym12091572
+[research_wang_tai_2022]: https://doi.org/10.3390/aerospace9110689
+[research_wang_zhao_2022]: https://doi.org/10.3390/aerospace9080433
 [research_weil_1962_x15]: https://ntrs.nasa.gov/citations/19620003289
 [research_weisshaar_1980]: https://doi.org/10.2514/3.57922
 [research_weisshaar_1981]: https://doi.org/10.2514/3.57542
@@ -1608,6 +1743,8 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [research_whitcomb_clark_1965]: https://ntrs.nasa.gov/citations/19720066117
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wright_1936]: https://doi.org/10.2514/8.155
+[research_wu_wei_2022]: https://doi.org/10.3390/app13010480
+[research_wu_wei_2023]: https://doi.org/10.1016/j.actaastro.2022.11.034
 [research_x15_conference_1958]: https://ntrs.nasa.gov/citations/19710070129
 [research_x1_fuselage_1953]: https://ntrs.nasa.gov/citations/19930089110
 [research_x24a_hinge_1973]: https://ntrs.nasa.gov/citations/19730016322
@@ -1620,4 +1757,9 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [research_x4_buffet_1953]: https://ntrs.nasa.gov/citations/19930087804
 [research_x53_aaw_2005]: https://ntrs.nasa.gov/citations/20060002813
 [research_x59_inlet_2022]: https://ntrs.nasa.gov/citations/20220010443
+[research_xiao_chao_2026]: https://doi.org/10.2514/1.c039004
+[research_xiao_tan_2024]: https://doi.org/10.3390/aerospace11050408
+[research_yamazaki_ishida_2025]: https://doi.org/10.3390/aerospace12050421
 [research_yancey_1964_x15]: https://ntrs.nasa.gov/citations/19650001037
+[research_zemplenyi_miller_2023]: https://doi.org/10.1214/22-ba1335
+[research_zhou_zhao_2018]: https://doi.org/10.1016/j.ast.2017.12.002

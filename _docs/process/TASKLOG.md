@@ -22,7 +22,13 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Six results named in prose with no citation at all corrected, namely Ackeret, Sutherland, Buckingham, Bredt-Batho, the Newtonian stagnation velocity gradient, and the Reynolds analogy.
 - [x] 22 NASA citations upgraded from search endpoints to fixed NTRS document identifiers through the citations API, and all 63 fixed identifiers swept at 200.
 - [x] 11 further journal primaries resolved through Crossref with an author-surname match required. 4 candidates were rejected rather than guessed.
-- [ ] 112 citations still point at search endpoints, being 109 Open Library book URLs and 3 unresolved NTRS reports. Open Library exposes a search API and the same upgrade is available.
+- [x] Publication review performed per `_docs/process/PUBLICATION_REVIEW.md`. Prose style, diction, acronym spell-out, reference integrity, URL response, numerical sanity, and structural conformance all checked.
+- [x] Three acronym violations found and fixed. NACA was spelled out 71,000 characters after first use, NASA was never spelled out at all, and DARPA's expansion trailed its first use.
+- [x] Contemporary literature gap found and closed. Only 10.2 percent of dated references were 2010 or later and one was from the 2020s, against a directive to survey the contemporary literature. A `## The Contemporary Literature` section with eight subsections was added and 49 contemporary references harvested, 41 through Crossref under a 2015 date filter and 8 through the NTRS API. Contemporary coverage is now 28.8 percent and primary sources 33.7 percent.
+- [x] Final state 1765 lines, 147 display equations, 421 reference definitions, 21,933 words, all cited with zero undefined and zero orphaned, all 65 NTRS fixed identifiers swept at 200.
+- [x] Committed and pushed to `origin/master`. Not published. The article remains in `_drafts/` and the deploy workflow builds without `--drafts`.
+- [ ] 109 Open Library book citations still point at search endpoints, which cannot return a not-found. Open Library exposes a search API and the same upgrade that fixed the NASA citations is available.
+- [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
 - [x] All 159 Wikipedia citations swept, where a 404 is a meaningful signal. Five wrong titles corrected against the Wikipedia API and seven further confirmed pages added.
