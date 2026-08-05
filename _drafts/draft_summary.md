@@ -22,8 +22,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_bell_x1.markdown`, A298, editorial date 2025-10-07, series `x_planes` index 2 of 72. The
 first per-aircraft article, using the twelve-section research-aircraft order.
 
-1209 lines, 108 display equations, 259 reference definitions, 14,960 words. Drafted at 1095 lines and
-80 equations, then taken through an equation-density review that added 28 equations across 17 edits.
+1329 lines, 108 display equations, 314 reference definitions, 16,758 words. Drafted at 1095 lines, 80
+equations, and 259 references, then taken through equation-density and primary-reference reviews. The
+first added 28 equations across 17 edits. The second added 55 NASA and NACA primaries resolved to
+fixed NTRS identifiers, raising primary sources from 37.1 to 48.5 percent of external references and
+bringing the line count inside the 1300 to 1600 band with content rather than padding.
 The review exposed one arithmetic error in the drafted text, an axial acceleration stated as 1.6 that
 computes to 1.25. The genre document full-aircraft equation band was raised from 60-to-80 to 90-to-130
 to record what the series actually does. The line count remains about 90 below band and has

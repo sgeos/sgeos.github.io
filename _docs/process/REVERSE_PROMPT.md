@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A298 drafted, then taken through an equation-density review. A297 is unchanged and already
-pushed. Neither article is published. Both remain in `_drafts/`.
+**Task**: A298 drafted, then taken through equation-density and primary-reference reviews. A297 is
+unchanged and already pushed. Neither article is published. Both remain in `_drafts/`.
 
 ---
 
@@ -18,9 +18,30 @@ pushed. Neither article is published. Both remain in `_drafts/`.
 
 `_drafts/x_planes_bell_x1.markdown`, editorial date 2025-10-07, series index 2 of 72.
 
-**1209 lines, 108 display equations, 259 reference definitions, 14,960 words.** Drafted at 1095
-lines and 80 equations, then taken through the equation-density review you asked for, which added 28
-equations across 17 edits and closed the line gap by about half as a side effect.
+**1329 lines, 108 display equations, 314 reference definitions, 16,758 words.** Drafted at 1095
+lines, 80 equations, and 259 references, then taken through the equation-density and
+primary-reference reviews you asked for. **The line count now sits inside the 1300 to 1600 band**
+without anything having been padded, which is what happens when the gap is closed with content.
+
+**Primary sources are now 147 of 303 external references, or 48.5 percent, up from 37.1.** 55 were
+added, all NASA and NACA reports resolved to fixed NTRS document identifiers through the citations
+API.
+
+The gap was coverage rather than volume, and three cases are worth naming because each was an
+assertion the reference index did not support. The article claimed a decade of NACA compressibility
+work preceded the X-1 and cited none of it, so it now cites [Stack 1935][research_stack_1935_burble]
+naming the compressibility burble, the sixteen-airfoil series of the same year, the 1939 pressure and
+force measurements through the burble, and the delay-by-section-design effort running to 1944. It
+described the free-fall method and cited no free-fall report, where five exist covering the technique,
+airfoil sections, wing-body combinations, and interference. And it built an entire argument about
+supersonic pitot measurement while never citing the 1948 NACA investigation of pitot-static tubes at
+supersonic speeds, or the 1950 flight calibration of four airspeed systems through Mach one, which is
+the literature that actually establishes how the Mach number was known.
+
+Also added were the Navy D-558 parallel, the pitch-up thread, the experimental road to the area rule,
+the flight-determined transonic summaries that are the programme's consolidated deliverable, and the
+squadron-service instrumentation of the F-86A and F-84G, which is the point at which a research
+programme has succeeded.
 
 **The review found one arithmetic error in the drafted text.** The axial acceleration available with
 two chambers burning was stated as 1.6 metres per second squared and computes to 1.25. Writing the
@@ -64,6 +85,12 @@ did not. At Mach 1.45 the same two relations differ by 5.5 percent.
 **One publication-order dependency.** A298 cites A297 through `post_url`. Publishing A298 while A297
 is still a draft fails the entire site build. They publish together or A297 first.
 
+**One measure moved the wrong way and you should see it stated plainly.** Contemporary coverage,
+meaning references dated 2010 or later, fell from 21.4 percent to 18.2. That is a denominator effect
+rather than a regression, since the absolute count rose from 33 to 38 while 55 mostly historical
+primaries entered the denominator. A297 sits at 28.8 percent for comparison. If you want A298 brought
+to parity on that measure the fix is another contemporary harvest rather than anything structural.
+
 **A genre-document change you should look at.** The full-aircraft equation band was 60 to 80, taken
 from the History of SpaceX medians before this series existed. Both A297 and A298 have now been
 through an explicit equation-density review at your request and landed at 147 and 108. Treating that
@@ -75,6 +102,9 @@ articles be the exceptions.
 ---
 
 ## Verification of A298
+
+All 314 references cited, zero undefined, zero orphaned. **All 197 URLs whose status code carries
+information were swept and all returned 200.**
 
 All 75 worked numerical examples re-derived independently, being the original 54 plus 21 introduced
 by the equation pass. Two disagreed across the two rounds and were corrected, a learning-curve figure
