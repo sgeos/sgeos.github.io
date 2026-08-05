@@ -2,9 +2,9 @@
 
 > **Navigation**: [Writing](./README.md) | [Documentation Root](../README.md)
 
-The blog runs three article genres. Identify the genre before drafting, because the section structure, the length norm, and the mathematics density differ by genre.
+The blog runs four article genres. Identify the genre before drafting, because the section structure, the length norm, and the mathematics density differ by genre.
 
-## The Three Genres
+## The Four Genres
 
 ### Subsystem Deep-Dive
 
@@ -17,6 +17,12 @@ Use the [Subsystem Deep-Dive Structure](./SUBSYSTEM_DEEPDIVE_STRUCTURE.md) and t
 Cited, reasoned articles that map a design space, a history, or a strategy. Headings are chosen for the argument rather than from a fixed template. The BTRON article, the fixed-wing unmanned-aerial-vehicle series, and the patents-and-startup series at A161 through A172 are examples.
 
 Use the [Analytical Essay Structure](./ANALYTICAL_ESSAY_STRUCTURE.md) for this genre. Mathematics appears only where a real quantitative relationship exists.
+
+### Research Aircraft
+
+A hybrid of the subsystem deep-dive and the analytical essay, used where the subject is a vehicle built to answer a single research question. The question serves as the architectural keystone, so systems are dimensioned against it as in a deep-dive, while programme origin, flight-test record, and the Epistemic State come from the essay. The X-Planes series at A297 through A368 is the canonical example.
+
+Use the [Research Aircraft Structure](./RESEARCH_AIRCRAFT_STRUCTURE.md) for this genre. It defines three article classes, because depth is a function of the surviving record rather than of effort, and a designation that was refused or skipped warrants a short article rather than a padded one.
 
 ### Tutorial
 

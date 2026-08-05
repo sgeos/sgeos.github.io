@@ -113,7 +113,7 @@ Slugs are lowercase and underscored. They do not begin with English articles suc
 ## Related Sections
 
 - [Post Structure](./POST_STRUCTURE.md) for front matter, debug markers, and section templates
-- [Article Genres](./ARTICLE_GENRES.md) for the three genre framework
+- [Article Genres](./ARTICLE_GENRES.md) for the genre framework
 - [Acronym Handling](./ACRONYM_HANDLING.md) for the spell-out rule
 - [MathJax Conventions](./MATHJAX_CONVENTIONS.md) for math conventions
 - [Publication Review](../process/PUBLICATION_REVIEW.md) for the review pass that verifies these rules
