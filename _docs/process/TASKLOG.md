@@ -79,7 +79,8 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] A301 equation-density review performed on request. 30 equations added across 14 edits, taking the article from 1017 lines and 68 equations to 1149 and 98. Equations now inside band.
 - [x] Handling-qualities closure added. The X-4 damping ratio of 0.244 falls below the Level 1 floor of 0.35 in the criteria the discipline later codified, with a control anticipation parameter of 0.247 also marginally below band, while the tailed comparison at 0.749 sits inside Level 1 on both counts. Quoted as a restatement rather than a standard the programme was judged against.
 - [x] One numeric correction. A span efficiency stated as 0.78 that the quoted correlation returns as 0.95, with the dependent induced drag ratio falling from 2.1 to 1.7.
-- [ ] A301 lines remain 151 short of the 1300 to 1600 band at 1149. Primary 43.3 percent. Not padded.
+- [x] Post-compaction handoff written per the protocol in `_docs/process/HANDOFF.md`, stamped at parent commit `24cbd59` and committed as the branch tip. Records the four-pass rhythm as the primary instruction, carries nine earned method rules, embeds the full seventy-two-row roster because the working copy is gitignored, and instructs a resuming agent to raise the categories decision once more before A302.
+- [ ] A301 lines remain 151 short of the 1300 to 1600 band at 1149. Primary 43.3 percent. Not padded. Primary-reference and publication reviews still outstanding.
 - [ ] **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297. A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
