@@ -17,6 +17,27 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Douglas X-3 Stiletto A300 2025-10-09
+
+`x_planes_douglas_x3.markdown`, A300, editorial date 2025-10-09, series `x_planes` index 4 of 72.
+
+1163 lines, 86 display equations, 301 reference definitions, 12,453 words. References inside band,
+lines and equations below band after four expansion passes and not padded. Primary 44.1 percent,
+contemporary 24.4 percent.
+
+The article where the keystone framework fails hardest. The sizing does not close, which is the
+finding. A thirty percent engine shortfall compounds with a fixed inlet recovering only 0.721 of
+total pressure at Mach 2, halving available thrust and predicting Mach 1.42 against a design 2.0. The
+aircraft managed 1.21. Separately, a pitch-to-roll inertia ratio of 37.2 against the X-2's 7.5 puts
+the critical roll rate at 45 degrees per second, an ordinary control input, and the load factor
+increment at 4.3 rather than 11.7, which is why the X-3 survived its departures and the X-2 did not.
+
+Verification complete. All 34 worked examples re-derived, all 301 references cited with zero
+undefined and zero orphaned, all 165 meaningful-404 URLs swept at 200, `_verify.py` clean, zero style
+violations, isolated build succeeding.
+
+**Publication order dependency now four deep.** A300 cites A299, A298, and A297.
+
 ## X-Planes Bell X-2 A299 2025-10-08
 
 `x_planes_bell_x2.markdown`, A299, editorial date 2025-10-08, series `x_planes` index 3 of 72.

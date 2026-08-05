@@ -59,7 +59,11 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Word-frequency artifact documented rather than remediated. `nasa` measures 8.03 per thousand but 110 occurrences are citation labels, not prose.
 - [x] A299 final state 1497 lines, 126 display equations, 370 references, 17,743 words, all inside band. All 370 cited with zero undefined and zero orphaned, all 115 NTRS identifiers swept at 200, all 80 DOIs Crossref-resolved with authors present, `_verify.py` clean, zero style violations, zero duplicated seams, isolated build succeeding.
 - [x] Committed and pushed. Not published.
-- [ ] **Publication order dependency now three deep.** A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
+- [x] A300, the Douglas X-3 Stiletto, drafted as `_drafts/x_planes_douglas_x3.markdown`, editorial date 2025-10-09, series index 4. 1163 lines, 86 display equations, 301 references, 12,453 words.
+- [x] A300 verification: all 34 worked examples re-derived and agreeing, all 301 references cited with zero undefined and zero orphaned, all 165 meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, zero duplicated seams, zero malformed links, isolated build succeeding with Part 4 navigation.
+- [x] Method note recorded. Twelve anchors were cited and never defined because the reference data was built by importing A299's generator, which had drifted from A299's markdown after later additions were made directly to the article. A generator is a source of truth only while it still generates the file.
+- [ ] A300 sits below band at 1163 lines against 1300 to 1600 and 86 equations against 90 to 130, after four expansion passes. Primary 44.1 percent and contemporary 24.4 percent, both below where A299 finished. Not padded.
+- [ ] **Publication order dependency now four deep.** A300 cites A299, A298, and A297. A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
