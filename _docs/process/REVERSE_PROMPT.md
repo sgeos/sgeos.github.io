@@ -9,9 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A300 drafted, then taken through equation-density and primary-reference reviews. A297
-through A299 are unchanged and already pushed. **No article in this series is published.** All four
-remain in `_drafts/`.
+**Task**: A300 drafted, then taken through equation-density, primary-reference, and publication
+reviews. Committed and pushed. A297 through A299 are unchanged. **No article in this series is
+published.** All four remain in `_drafts/`.
 
 ---
 
@@ -19,9 +19,39 @@ remain in `_drafts/`.
 
 `_drafts/x_planes_douglas_x3.markdown`, editorial date 2025-10-09, series index 4 of 72.
 
-**1359 lines, 114 display equations, 341 reference definitions, 14,823 words.** All three are now
-inside band, reached with content. **Primary sources are 50.9 percent, up from 44.1**, which brings
-A300 into line with A298 and A299.
+**1415 lines, 114 display equations, 365 reference definitions, 15,583 words.** All three inside
+band. **Primary sources 54.3 percent and contemporary coverage 28.9 percent**, both in line with the
+rest of the series.
+
+## What the Publication Review Found
+
+**Contemporary coverage stood at 21.6 percent**, the lowest of the four articles, as a denominator
+effect from the 40 historical primaries added in the previous pass. 24 contemporary journal articles
+were added under a 2019 date filter, taking it to 28.9 percent. Four land on threads the article
+runs, and two are worth naming.
+
+The inlet literature has moved onto **exactly the failure the X-3 suffered**. Unstart, the violent
+expulsion of the terminal shock that follows from operating outside the swallowing condition, is now
+studied as a controllable boundary rather than an accident, with designs intended to be free of it,
+deliberate boundary broadening, and measurement of the hysteresis that makes recovery harder than
+avoidance. And [Goulos and Otter 2021][research_goulos_otter_2021] formalize thrust and drag
+bookkeeping, which is the modern answer to the question this article had to leave open about where
+the X-3's missing performance actually went. Separately, [Ni and Wang 2025][research_ni_wang_2025]
+present a yaw-roll coupling suppression method, which is the capability the X-3 lacked entirely and
+the reason its critical roll rate was a hard boundary rather than a soft one.
+
+**A formulaic-repetition finding, the worst of the four articles.** Citations were introduced by the
+preposition `in` **70 percent** of the time, against about 50 percent in A299 before its own
+correction. The cause is identifiable: 40 primaries were added in a single pass with a repeated
+construction, so the defect was introduced wholesale rather than accumulating. Twenty-two
+constructions were rotated, bringing the share to 34.3 percent, the best of the four.
+
+**Word frequency needs the same note A298 and A299 carry.** The tokens `nasa` and `naca` measure
+above the five per thousand threshold, but 116 of their occurrences are citation labels rather than
+prose.
+
+**Structural conformance is clean.** The genre order is present and in sequence, with the three
+additional sections at the positions A299 settled on.
 
 The primary pass added 40 NASA and NACA reports from the sixty that the two harvests had returned and
 the article had not used. Four gaps are worth naming.
@@ -80,8 +110,8 @@ flight research programme depends on a survivability the information framing doe
 
 ## Verification of A300
 
-All 341 references cited, zero undefined, zero orphaned. **All 116 NTRS fixed identifiers swept at
-200.** Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
+All 365 references cited, zero undefined, zero orphaned. All 116 NTRS fixed identifiers swept at 200
+and **all 72 digital object identifiers resolved through Crossref with authors present**. Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
 count rising while 40 historical primaries entered the denominator, and it is now the lowest of the
 four articles.
 
@@ -435,8 +465,8 @@ that a rulemaking body has already agreed to accept.
 
 ## Verification
 
-All 341 references cited, zero undefined, zero orphaned. **All 116 NTRS fixed identifiers swept at
-200.** Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
+All 365 references cited, zero undefined, zero orphaned. All 116 NTRS fixed identifiers swept at 200
+and **all 72 digital object identifiers resolved through Crossref with authors present**. Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
 count rising while 40 historical primaries entered the denominator, and it is now the lowest of the
 four articles.
 

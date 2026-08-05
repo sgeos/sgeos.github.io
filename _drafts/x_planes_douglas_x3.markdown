@@ -41,7 +41,7 @@ The flutter boundary that follows depends on the ratio of torsional to bending f
 
 $$\omega_\alpha = \sqrt{\frac{K_\theta}{I_\theta}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}$$
 
-and reducing $K_\theta$ by a factor of three reduces $\omega_\alpha$ by $\sqrt{3}$ and the flutter speed with it. The unsteady aerodynamics that determine where that boundary actually lies were not computable in 1952 and became so only gradually, through the shear-flow treatments of [NASA 1977][research_shear_flow_flutter_1977], the panel methods evaluated in [NASA 1988][research_constant_pressure_panel_1988], the correlation studies of [NASA 1982][research_subsonic_flutter_wings_1982], and eventually the constrained optimization of [NASA 1990][research_flutter_optimization_1990]. Related coupled instabilities on rotating systems are treated in [NASA 2004][research_whirl_flutter_2004], and the wider structures community record is the conference series exemplified by [NASA 1993][research_structures_conference_1993]. Torsional stiffness is worse. The enclosed area of the box scales as $A_m \approx \tau c^2$, and the Bredt relation gives a torsion constant
+and reducing $K_\theta$ by a factor of three reduces $\omega_\alpha$ by $\sqrt{3}$ and the flutter speed with it. The unsteady aerodynamics that determine where that boundary actually lies were not computable in 1952 and became so only gradually, through the shear-flow treatments of [NASA 1977][research_shear_flow_flutter_1977], the panel methods evaluated by [NASA 1988][research_constant_pressure_panel_1988], the correlation studies of [NASA 1982][research_subsonic_flutter_wings_1982], and eventually the constrained optimization of [NASA 1990][research_flutter_optimization_1990]. Related coupled instabilities on rotating systems occupy [NASA 2004][research_whirl_flutter_2004], and the wider structures community record is the conference series exemplified by [NASA 1993][research_structures_conference_1993]. Torsional stiffness is worse. The enclosed area of the box scales as $A_m \approx \tau c^2$, and the Bredt relation gives a torsion constant
 
 $$J = \frac{4 A_m^2}{\oint ds / t} \propto \tau^2$$
 
@@ -319,7 +319,7 @@ which for titanium is roughly twice the aluminium value. The springback of a she
 
 $$\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3$$
 
-with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. Elastic recovery after forming is therefore roughly twice as large as for aluminium and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [NACA 1950][research_titanium_compressive_1950] reports compressive properties of titanium sheet at elevated temperature, which is the relevant loading for an upper wing surface and the relevant condition for a supersonic aircraft. Long-term exposure changes the properties again, and [NASA 2012][research_titanium_thermal_exposure_2012] measures what sustained heating does to titanium elevated-temperature strength, which is the life question rather than the strength question. Later alloy and fabrication development appears in [NASA 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], and the composite alternatives that eventually displaced some of it in [NASA 1978][research_arrow_wing_composite_1978]. Contemporary work on exactly these problems appears in [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025], which is a measure of how far from solved it remains. The later supersonic cruise programmes inherited the same difficulties, documented in [NASA 1977][research_titanium_mach27_1977], [NASA 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [NASA 1972][research_titanium_rene41_bonding_1972].
+with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. Elastic recovery after forming is therefore roughly twice as large as for aluminium and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [NACA 1950][research_titanium_compressive_1950] supplies compressive properties of titanium sheet at elevated temperature, which is the relevant loading for an upper wing surface and the relevant condition for a supersonic aircraft. Long-term exposure changes the properties again, and [NASA 2012][research_titanium_thermal_exposure_2012] measures what sustained heating does to titanium elevated-temperature strength, which is the life question rather than the strength question. Later alloy and fabrication development runs through [NASA 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], with the composite alternatives that eventually displaced some of it described by [NASA 1978][research_arrow_wing_composite_1978]. Contemporary work on exactly these problems appears in [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025], which is a measure of how far from solved it remains. The later supersonic cruise programmes inherited the same difficulties, documented in [NASA 1977][research_titanium_mach27_1977], [NASA 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [NASA 1972][research_titanium_rene41_bonding_1972].
 
 ### Propulsion and the Inlet
 
@@ -331,13 +331,13 @@ with $\pi_c$ the compressor pressure ratio, and the [afterburner][ref_afterburne
 
 $$\frac{T_{AB}}{T_{\text{dry}}} \approx \sqrt{\frac{T_{07}}{T_{05}}}$$
 
-with the subscripts denoting nozzle and turbine exit total temperatures. The J34 with afterburner produced roughly 4900 pounds against 3370 dry, a ratio near 1.45 consistent with that relation. The engine was characterized directly in an altitude chamber in [NACA 1949][research_j34_afterburner_1949], which is a measurement of the actual powerplant this aircraft flew with and establishes that its altitude performance was known before the substitution rather than discovered afterward. Afterburner behaviour at altitude was a sustained research subject in its own right, treated for other engines of the period in [NACA 1955][research_j71_afterburner_1955] and [NACA 1958][research_iroquois_afterburner_1958] and continuing much later in [NASA 1977][research_afterburner_configs_1977] and [NASA 1979][research_swirl_afterburner_1979], with the nozzle and cooling arrangement that surrounds it in [NACA 1951][research_cooling_shroud_ejector_1951]. Installed performance degrades further from causes the test cell does not see, as [NASA 1981][research_engine_deterioration_1981] documents, and the eventual answer to the whole class of problem is to control engine and airframe together, which is the subject of [NASA 1995][research_integrated_propulsion_control_1995]. Propulsion effects on stability specifically, which a side-inlet arrangement invites, appear in [NASA 1972][research_thrust_reverser_stability_1972]. Compressor behaviour away from the design point, which is what a fixed inlet forces, is the subject of [NASA 1974][research_compressor_offnominal_1974], with the flow characteristics that govern it compared in [NASA 1974][research_compressor_flow_1974].
+with the subscripts denoting nozzle and turbine exit total temperatures. The J34 with afterburner produced roughly 4900 pounds against 3370 dry, a ratio near 1.45 consistent with that relation. The engine was characterized directly in an altitude chamber in [NACA 1949][research_j34_afterburner_1949], which is a measurement of the actual powerplant this aircraft flew with and establishes that its altitude performance was known before the substitution rather than discovered afterward. Afterburner behaviour at altitude was a sustained research subject in its own right, pursued for other engines of the period by [NACA 1955][research_j71_afterburner_1955] and [NACA 1958][research_iroquois_afterburner_1958] and continuing much later through [NASA 1977][research_afterburner_configs_1977] and [NASA 1979][research_swirl_afterburner_1979], with the nozzle and cooling arrangement that surrounds it characterized by [NACA 1951][research_cooling_shroud_ejector_1951]. Installed performance degrades further from causes the test cell does not see, as [NASA 1981][research_engine_deterioration_1981] documents, and the eventual answer to the whole class of problem is to control engine and airframe together, which [NASA 1995][research_integrated_propulsion_control_1995] takes up. Propulsion effects on stability specifically, which a side-inlet arrangement invites, are measured by [NASA 1972][research_thrust_reverser_stability_1972]. Compressor behaviour away from the design point, which is what a fixed inlet forces, is examined by [NASA 1974][research_compressor_offnominal_1974], with the flow characteristics that govern it compared by [NASA 1974][research_compressor_flow_1974].
 
 Separating thrust from drag in flight is itself a discipline, since only their difference is measurable from the trajectory,
 
 $$T - D = m \frac{dV}{dt} + m g \sin \gamma$$
 
-and assigning the two requires an independent thrust model. The bookkeeping conventions that make such an assignment reproducible are set out in [NASA 1975][research_propulsion_forces_1975], and the consequence for the X-3 is that the published thrust shortfall and the inferred drag excess are not independently measured quantities but a single measured difference apportioned by assumption.
+and assigning the two requires an independent thrust model. The bookkeeping conventions that make such an assignment reproducible are set out by [NASA 1975][research_propulsion_forces_1975], and the consequence for the X-3 is that the published thrust shortfall and the inferred drag excess are not independently measured quantities but a single measured difference apportioned by assumption.
 
 Installed thrust is a different quantity from uninstalled thrust, and the difference is the inlet. Ram compression is what makes a turbojet work at supersonic speed, since the total pressure available at the compressor face is
 
@@ -347,7 +347,7 @@ with $\eta_d$ the inlet pressure recovery. A fixed normal-shock inlet has $\eta_
 
 $$\tan \theta = 2 \cot \beta_o \frac{M_1^2 \sin^2 \beta_o - 1}{M_1^2 \left( \gamma + \cos 2 \beta_o \right) + 2}$$
 
-and the normal Mach number ahead of the shock is $M_{1n} = M_1 \sin \beta_o$, so the total pressure loss is that of a normal shock at $M_{1n}$ rather than at $M_1$. Because the loss grows steeply with normal Mach number, splitting one strong shock into several weak ones recovers most of the total pressure. A two-shock system at Mach 2 recovers roughly 0.90 against 0.72 for a single normal shock, and a three-shock system approaches 0.95. Thrust scales with that recovery directly, so the difference between a fixed and a variable inlet at Mach 2 is roughly a quarter of the installed thrust. The remedy known at the time was a variable geometry inlet using oblique shocks, since a sequence of $n$ oblique shocks followed by a weak normal shock recovers far more total pressure than a single strong normal shock. The NACA was investigating precisely this while the X-3 was being built, in [NACA 1946][research_supersonic_inlet_new_1946], [NACA 1951][research_conical_spike_side_inlet_1951], [NACA 1952][research_normal_shock_side_inlet_1952], [NACA 1953][research_conical_spike_recovery_1953], [NACA 1953][research_conical_nose_inlet_1953], and later with throat bleed in [NACA 1957][research_ramp_inlet_bleed_1957] and active control in [NASA 1958][research_inlet_control_1958]. Side-inlet placement specifically, which is the X-3 arrangement, was studied in [NACA 1953][research_scoop_inlet_locations_1953]. The X-3 did not receive any of it. The problem did not go away, and improved compression surfaces are still being designed and flight tested, as [NASA 1997][research_hypersonic_inlet_strut_1997], [NASA 2001][research_rbcc_inlet_2001], and [NASA 2013][research_channeled_inlet_flight_2013] show, the last of these addressing off-design behaviour specifically, which is the X-3's failure mode. Modern treatments of the same loss mechanism appear in [Lee and Choi 2021][research_lee_choi_2021], [Yang and Jin 2024][research_yang_jin_2024], and [Sakamoto and Sasaki 2021][research_sakamoto_2021], with off-design behaviour in [Nikolaidis and Pellegrini 2022][research_nikolaidis_2022] and airframe integration in [Su and Liu 2025][research_su_liu_2025].
+and the normal Mach number ahead of the shock is $M_{1n} = M_1 \sin \beta_o$, so the total pressure loss is that of a normal shock at $M_{1n}$ rather than at $M_1$. Because the loss grows steeply with normal Mach number, splitting one strong shock into several weak ones recovers most of the total pressure. A two-shock system at Mach 2 recovers roughly 0.90 against 0.72 for a single normal shock, and a three-shock system approaches 0.95. Thrust scales with that recovery directly, so the difference between a fixed and a variable inlet at Mach 2 is roughly a quarter of the installed thrust. The remedy known at the time was a variable geometry inlet using oblique shocks, since a sequence of $n$ oblique shocks followed by a weak normal shock recovers far more total pressure than a single strong normal shock. The NACA was investigating precisely this while the X-3 was being built, through [NACA 1946][research_supersonic_inlet_new_1946], [NACA 1951][research_conical_spike_side_inlet_1951], [NACA 1952][research_normal_shock_side_inlet_1952], [NACA 1953][research_conical_spike_recovery_1953], [NACA 1953][research_conical_nose_inlet_1953], and later with throat bleed by [NACA 1957][research_ramp_inlet_bleed_1957] and active control by [NASA 1958][research_inlet_control_1958]. Side-inlet placement specifically, which is the X-3 arrangement, was studied by [NACA 1953][research_scoop_inlet_locations_1953]. The X-3 did not receive any of it. The problem did not go away, and improved compression surfaces are still being designed and flight tested, as [NASA 1997][research_hypersonic_inlet_strut_1997], [NASA 2001][research_rbcc_inlet_2001], and [NASA 2013][research_channeled_inlet_flight_2013] show, the last of these confronting off-design behaviour specifically, which is the X-3's failure mode. Modern treatments of the same loss mechanism appear in [Lee and Choi 2021][research_lee_choi_2021], [Yang and Jin 2024][research_yang_jin_2024], and [Sakamoto and Sasaki 2021][research_sakamoto_2021], with off-design behaviour in [Nikolaidis and Pellegrini 2022][research_nikolaidis_2022] and airframe integration in [Su and Liu 2025][research_su_liu_2025].
 
 ### Inertia Distribution and the Coupling Problem
 
@@ -401,9 +401,9 @@ $$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right
 
 A small span appears twice in the steady-rate expression, once directly and once through the damping, so the X-3 reaches a high roll rate for a modest input and has little to arrest it.
 
-The loads a rolling manoeuvre imposes were also understood, and [NACA 1946][research_rolling_pullout_loads_1946] analyses wing and aileron loads in rolling pull-outs specifically, which is the manoeuvre class that produced the departure. The analytical and experimental groundwork for predicting what happened to the X-3 was therefore substantially complete before the aircraft flew, with the supporting flight measurement technique established in [NACA 1947][research_flight_stability_data_1947] and further damping data in [NACA 1948][research_damping_triangular_alt_1948]. What was missing was its application to this configuration.
+The loads a rolling manoeuvre imposes were also understood, and [NACA 1946][research_rolling_pullout_loads_1946] analyses wing and aileron loads in rolling pull-outs specifically, which is the manoeuvre class that produced the departure. The analytical and experimental groundwork for predicting what happened to the X-3 was therefore substantially complete before the aircraft flew, with the supporting flight measurement technique established by [NACA 1947][research_flight_stability_data_1947] and further damping data supplied by [NACA 1948][research_damping_triangular_alt_1948]. What was missing was its application to this configuration.
 
-The phenomenon did not stop with the X-3. Uncommanded lateral-directional motions at transonic conditions recurred across the fleet for decades, and [NASA 2003][research_uncommanded_lateral_2003] reviews that history directly, which is the document that places the X-3 events in their full sequence rather than treating them as an isolated incident. Reynolds number proves to matter for the derivatives involved, as [NASA 2002][research_reynolds_sst_stability_2002] shows for a supersonic transport, and control-surface effectiveness on the low aspect ratio planforms that provoke the problem is characterized in [NASA 2000][research_clipped_delta_control_2000]. Where the uncertainty in those derivatives itself governs a control design, the consequences are analysed in [NASA 1984][research_entry_aoa_uncertainty_1984].
+The phenomenon did not stop with the X-3. Uncommanded lateral-directional motions at transonic conditions recurred across the fleet for decades, and [NASA 2003][research_uncommanded_lateral_2003] reviews that history directly, which is the document that places the X-3 events in their full sequence rather than treating them as an isolated incident. Reynolds number proves to matter for the derivatives involved, as [NASA 2002][research_reynolds_sst_stability_2002] shows for a supersonic transport, and control-surface effectiveness on the low aspect ratio planforms that provoke the problem is characterized by [NASA 2000][research_clipped_delta_control_2000]. Where the uncertainty in those derivatives itself governs a control design, [NASA 1984][research_entry_aoa_uncertainty_1984] analyses the consequences.
 
 The growth rate past the threshold follows as before,
 
@@ -485,13 +485,13 @@ which for the period was near 100 metres per second and which the X-3 approached
 
 $$s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}$$
 
-so a three metre per second sink at a two g limit needs 0.46 metres of stroke, and every increment of sink rate costs stroke quadratically. The oleo strut that provides that stroke is a velocity-dependent damper, and its behaviour under impact depends on orifice sizing and fluid properties, characterized in drop testing as in [NACA 1954][research_oleo_drop_hammer_1954]. Active control of the same load path became possible much later, as [NASA 1976][research_active_gear_model_1976], [NASA 1990][research_f106b_gear_drop_1990], and [NASA 1990][research_f106b_gear_alt_1990] describe. The high-lift devices that would have relieved the takeoff and landing problem at its source, and which the X-3 wing could not accommodate, are surveyed in [NASA 1996][research_high_lift_systems_1996]. The loads that result were measured and reported in [NACA 1958][research_x3_landing_loads_1958], which exists precisely because they were unusual. Contemporary landing gear load work continues in [Arena and Chiariello 2021][research_arena_2021].
+so a three metre per second sink at a two g limit needs 0.46 metres of stroke, and every increment of sink rate costs stroke quadratically. The oleo strut that provides that stroke is a velocity-dependent damper, and its behaviour under impact depends on orifice sizing and fluid properties, characterized in drop testing as in [NACA 1954][research_oleo_drop_hammer_1954]. Active control of the same load path became possible much later, as [NASA 1976][research_active_gear_model_1976], [NASA 1990][research_f106b_gear_drop_1990], and [NASA 1990][research_f106b_gear_alt_1990] describe. The high-lift devices that would have relieved the takeoff and landing problem at its source, and which the X-3 wing could not accommodate, are surveyed by [NASA 1996][research_high_lift_systems_1996]. The loads that result were measured and reported in [NACA 1958][research_x3_landing_loads_1958], which exists precisely because they were unusual. Contemporary landing gear load work continues in [Arena and Chiariello 2021][research_arena_2021].
 
 ### Instrumentation
 
 The X-3 carried a conventional NACA installation of the period, and the measurements that matter for this article are the loads and the rates.
 
-Structural loads came from calibrated [strain gauge][ref_strain_gauge] bridges, whose calibration on a thin low aspect ratio wing is itself a documented difficulty in [NASA 1975][research_thin_wing_strain_1975]. External strain-gauge installation, used where an internal fit is impossible on a thin structure, is described in [NASA 1976][research_flight_loads_external_1976]. The lifting pressure distributions that such a wing produces were measured in flight much later in [NASA 1977][research_thin_wing_pressures_1977] and compared against tunnel and computation in [NASA 1991][research_cryo_tunnel_thin_wing_1991].
+Structural loads came from calibrated [strain gauge][ref_strain_gauge] bridges, whose calibration on a thin low aspect ratio wing is itself a documented difficulty in [NASA 1975][research_thin_wing_strain_1975]. External strain-gauge installation, used where an internal fit is impossible on a thin structure, is described by [NASA 1976][research_flight_loads_external_1976]. The lifting pressure distributions that such a wing produces were measured in flight much later in [NASA 1977][research_thin_wing_pressures_1977] and compared against tunnel and computation in [NASA 1991][research_cryo_tunnel_thin_wing_1991].
 
 Angle of attack and sideslip on a research aircraft come from a nose boom carrying vanes, whose indicated values require correction for the aircraft's own rotation,
 
@@ -573,13 +573,13 @@ whose fifth-power dependence makes ballasting exacting but not impossible, and t
 
 The theoretical prediction existed as well. [Phillips 1948][research_phillips_1948] had published the analysis six years before Walker's flights, and the programme history in [NASA 1997][research_coupling_history_1997] traces how slowly that prediction propagated into practice. The gap here was not instrumental and not theoretical. It was that nobody connected an available analysis and an available facility to a specific aircraft until an aircraft did it for them.
 
-The comparison between tunnel and flight for stability and control had itself been studied as a methodological question in [NACA 1945][research_tunnel_flight_comparison_1945], and rocket-boosted free-flight models supplied an independent route to low-lift drag and directional stability, reported for a Douglas configuration in [NACA 1952][research_rocket_model_douglas_1952]. Low-speed lateral characteristics of comparable models appear in [NACA 1953][research_low_speed_lateral_1953]. Static aerodynamic prediction for the wing itself was reasonable. Low aspect ratio and thin wing behaviour had been characterized in [NACA 1947][research_lowar_triangular_1947], [NACA 1948][research_thin_triangular_1948], and [NACA 1947][research_wave_drag_swept_1947], with flow characteristics measured later in [NASA 1959][research_thin_wings_flow_1959] and thickness effects on zero-lift drag in [NASA 1965][research_zero_lift_drag_thickness_1965]. Planform details that matter at these thicknesses, such as trailing-edge truncation, were quantified in [NASA 1974][research_trailing_edge_truncation_1974], and the interference at wing-body junctions that a thin wing on a large fuselage aggravates in [NASA 1992][research_juncture_flow_1992]. The eventual answer to transonic wing design, which the X-3 predates entirely, is the supercritical section, flight-measured in [NASA 1975][research_f8_liftdrag_1975] and [NASA 1977][research_f8_supercritical_1977]. The contemporary fighter against which the X-3 configuration should be judged is characterized in [NACA 1953][research_yf100a_drag_trim_1953], and an all-wing alternative that took the low aspect ratio argument further in [NACA 1946][research_all_wing_qualities_1946]. The comparative summary of research airplane lift and drag in [NASA 1959][research_transonic_summary_1959] places the X-3 alongside its contemporaries.
+The comparison between tunnel and flight for stability and control had itself been studied as a methodological question in [NACA 1945][research_tunnel_flight_comparison_1945], and rocket-boosted free-flight models supplied an independent route to low-lift drag and directional stability, reported for a Douglas configuration by [NACA 1952][research_rocket_model_douglas_1952]. Low-speed lateral characteristics of comparable models come from [NACA 1953][research_low_speed_lateral_1953]. Static aerodynamic prediction for the wing itself was reasonable. Low aspect ratio and thin wing behaviour had been characterized in [NACA 1947][research_lowar_triangular_1947], [NACA 1948][research_thin_triangular_1948], and [NACA 1947][research_wave_drag_swept_1947], with flow characteristics measured later by [NASA 1959][research_thin_wings_flow_1959] and thickness effects on zero-lift drag quantified by [NASA 1965][research_zero_lift_drag_thickness_1965]. Planform details that matter at these thicknesses, such as trailing-edge truncation, were quantified by [NASA 1974][research_trailing_edge_truncation_1974], and the interference at wing-body junctions that a thin wing on a large fuselage aggravates in [NASA 1992][research_juncture_flow_1992]. The eventual answer to transonic wing design, which the X-3 predates entirely, is the supercritical section, flight-measured in [NASA 1975][research_f8_liftdrag_1975] and [NASA 1977][research_f8_supercritical_1977]. The contemporary fighter against which the X-3 configuration should be judged is characterized by [NACA 1953][research_yf100a_drag_trim_1953], and an all-wing alternative that took the low aspect ratio argument further appears as [NACA 1946][research_all_wing_qualities_1946]. The comparative summary of research airplane lift and drag in [NASA 1959][research_transonic_summary_1959] places the X-3 alongside its contemporaries.
 
 ## What the Data Changed
 
 Three consequences are traceable and they are unequal in importance.
 
-The coupling data are the first. Walker's flights produced an instrumented record of an inertia-coupled departure and a recovery from one, in an aircraft that survived to fly again. That is a category of data no other programme supplied. It arrived while the F-100 fleet was experiencing the same phenomenon in service and two years before it killed [Mel Apt][related_post_a299_bell_x2] in the X-2, and it fed directly into the roll rate limits, the artificial damping requirements, and the vertical tail sizing described in the previous article. The historical account in [NASA 1997][research_coupling_history_1997] treats the X-3 as a principal source. The wider stability and control envelope across the supersonic and hypersonic range is surveyed in [NASA 1983][research_stability_supersonic_hypersonic_1983], transonic stability characteristics continued to be flight-evaluated as in [NASA 1978][research_transonic_stability_flight_1978], and the departure and spin research that grew out of the same concerns is summarized in [NASA 1979][research_spin_research_summary_1979]. The research aircraft that inherited the resulting understanding include the F-15 programme summarized in [NASA 1986][research_f15_research_summary_1986] and the oblique-wing vehicles whose deliberate asymmetry makes coupling a design variable rather than a hazard, treated in [NASA 1986][research_oblique_wing_control_1986] and [NASA 1988][research_oblique_wing_piloted_1988].
+The coupling data are the first. Walker's flights produced an instrumented record of an inertia-coupled departure and a recovery from one, in an aircraft that survived to fly again. That is a category of data no other programme supplied. It arrived while the F-100 fleet was experiencing the same phenomenon in service and two years before it killed [Mel Apt][related_post_a299_bell_x2] in the X-2, and it fed directly into the roll rate limits, the artificial damping requirements, and the vertical tail sizing described in the previous article. The historical account in [NASA 1997][research_coupling_history_1997] treats the X-3 as a principal source. The wider stability and control envelope across the supersonic and hypersonic range is surveyed in [NASA 1983][research_stability_supersonic_hypersonic_1983], transonic stability characteristics continued to be flight-evaluated, as [NASA 1978][research_transonic_stability_flight_1978] records, and the departure and spin research that grew out of the same concerns is summarized by [NASA 1979][research_spin_research_summary_1979]. The research aircraft that inherited the resulting understanding include the F-15 programme summarized by [NASA 1986][research_f15_research_summary_1986] and the oblique-wing vehicles whose deliberate asymmetry makes coupling a design variable rather than a hazard, explored by [NASA 1986][research_oblique_wing_control_1986] and [NASA 1988][research_oblique_wing_piloted_1988].
 
 The information the flights returned can be quantified against what a purpose-built campaign would have needed. Two departures at two Mach numbers is a sample of two, so the posterior uncertainty in any coupling parameter after those flights is
 
@@ -593,7 +593,7 @@ $$E_{\text{gear}} = \frac{1}{2} m w_s^2, \qquad V_{TD} \propto \sqrt{\frac{W/S}{
 
 and a gear already qualified against those numbers is a substantial transfer. An aircraft that failed to reach its design speed nonetheless supplied a wing and a gear to the aircraft that did.
 
-The supersonic cruise programmes that followed inherited both the structural and the propulsion problems, as [NASA 1975][research_hypersonic_aircraft_study_1975] and [NASA 1977][research_flexible_supersonic_liftdrag_1977] record for the large flexible high-speed aircraft that the X-3 configuration anticipated at small scale, with the structural design problem in [NASA 1976][research_sst_structural_1976] and the successor research vehicle studies in [NASA 1977][research_x24c_configuration_1977]. The boom that such aircraft generate, which became the binding constraint on civil supersonic flight rather than any of the problems the X-3 met, was measured in [NASA 1974][research_sonic_boom_mach35_1974] and designed against in [NASA 1992][research_hsct_lowboom_1992]. Propulsion integration at the extreme end of the same lineage appears in [NASA 1976][research_hre_integration_1976]. The titanium experience is the third and is the hardest to trace. The manufacturing lessons were real but were embedded in Douglas process knowledge rather than published, and the aircraft that carried titanium into routine primary structure did so a decade later on the basis of a much larger industrial effort. The X-3 is better described as an early datum than as a cause.
+The supersonic cruise programmes that followed inherited both the structural and the propulsion problems, as [NASA 1975][research_hypersonic_aircraft_study_1975] and [NASA 1977][research_flexible_supersonic_liftdrag_1977] record for the large flexible high-speed aircraft that the X-3 configuration anticipated at small scale, with the structural design problem taken up by [NASA 1976][research_sst_structural_1976] and the successor research vehicle studies by [NASA 1977][research_x24c_configuration_1977]. The boom that such aircraft generate, which became the binding constraint on civil supersonic flight rather than any of the problems the X-3 met, was measured by [NASA 1974][research_sonic_boom_mach35_1974] and designed against by [NASA 1992][research_hsct_lowboom_1992]. Propulsion integration at the extreme end of the same lineage occupies [NASA 1976][research_hre_integration_1976]. The titanium experience is the third and is the hardest to trace. The manufacturing lessons were real but were embedded in Douglas process knowledge rather than published, and the aircraft that carried titanium into routine primary structure did so a decade later on the basis of a much larger industrial effort. The X-3 is better described as an early datum than as a cause.
 
 There is a fourth consequence that is negative and worth stating. The X-3 demonstrated conclusively that a fixed inlet is unacceptable on a supersonic aircraft intended to hold a condition, and that engine and airframe cannot be procured on independent schedules. Both lessons were available in principle beforehand. The programme made them expensive enough to be learned.
 
@@ -607,7 +607,15 @@ Low aspect ratio and thin wing behaviour continues to be studied, with dynamic c
 
 Coupled rotational dynamics has become a nonlinear dynamical systems subject, with the coupling ratio itself parameterized in [Shen and Huang 2019][research_shen_huang_2019], chaotic regimes in [Xu and Yue 2019][research_xu_yue_2019], departure prediction in [Tu and Yan 2024][research_tu_yan_2024] and [Askari and Cremaschi 2023][research_askari_2023], and bifurcation analysis in [Nguyen and Lowenberg 2021][research_nguyen_lowenberg_2021]. Prevention is a control problem in [Altunkaya and Catak 2025][research_altunkaya_2025] and [Moreira and Gripp 2022][research_moreira_gripp_2022], and the institutional continuation is the loss of control research programme documented in [NASA 2014][research_loc_directions_2014] and [NASA 2014][research_loc_precursors_2014].
 
-Titanium forming remains difficult enough to sustain an active literature, as [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025] show. Mass properties estimation, which the coupling analysis depends on, is treated in [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha and Moore 2019][research_mwenegoha_2019]. Machine learning has entered the modelling of all of it, as [Brunton and Noack 2020][research_brunton_noack_2020] survey, and dynamically scaled flight testing continues as described in [Kong and Pan 2023][research_kong_pan_2023].
+The inlet is where the contemporary literature has moved furthest, and it has moved onto exactly the failure the X-3 suffered. Unstart, which is the violent expulsion of the terminal shock that follows from operating outside the swallowing condition, is now studied as a controllable boundary rather than an accident. [Chen and Tan 2019][research_chen_tan_2019] present an external-compression design intended to be free of it, [Jin and Zhang 2023][research_jin_zhang_2023] broaden the unstart and restart boundary deliberately, [Wang and Wang 2023][research_wang_wang_unstart_2023] characterize the effect of backpressure on both, and [Jin and Tan 2023][research_jin_tan_2023] measure the hysteresis between them, which is the property that makes recovery from an unstart harder than avoiding one. Multi-objective optimization of the whole inlet appears in [Wang and Eri 2023][research_wang_eri_2023], separation control on the swept interaction in [Kim and Park 2026][research_kim_park_sbli_2026], bleed plenum design in [Turkkahraman and Ozcan 2024][research_turkkahraman_2024], and oscillation suppression in [Luo and Wei 2020][research_luo_wei_2020]. Configuration-level computation is treated by [Ezzeldin and Wu 2025][research_ezzeldin_wu_2025].
+
+The accounting problem the X-3 exposed has also been formalized. Thrust and drag cannot be separated by measurement alone, and [Goulos and Otter 2021][research_goulos_otter_2021] set out the bookkeeping conventions that make an installed-performance claim reproducible, which is the modern answer to the question this article had to leave open about where the X-3's missing performance actually went. Propulsion and airframe are now designed together as in [Li and Geiselhart 2024][research_li_geiselhart_2024] and [Hutchinson and Lawrence 2021][research_hutchinson_2021], with supersonic transport configuration optimization in [Habibniarami and Lundbladh 2026][research_habibniarami_2026].
+
+Coupled rotational motion is now something to be suppressed by control rather than avoided by limitation. [Ni and Wang 2025][research_ni_wang_2025] present a yaw-roll coupling suppression method, which is the capability the X-3 lacked entirely and the reason its critical roll rate was a hard boundary rather than a soft one. Parameter identification, which is how a modern programme would have found that boundary before flying into it, is treated by [Metodiev 2024][research_metodiev_2024], [Wang and Zhao 2022][research_wang_zhao_latdir_2022], and [Singh and Ghosh 2023][research_singh_ghosh_2023].
+
+Thin and slender wing aeroelasticity has become computable. [Miyaji and Takegawa 2022][research_miyaji_2022] predict transonic wing flutter directly, [Yuan and Kou 2024][research_yuan_kou_2024] apply resolvent analysis to the flutter boundary, and high aspect ratio cases are treated by [Yang and Li 2022][research_yang_li_aeroelastic_2022] and [Ghalandari and Mahariq 2022][research_ghalandari_2022]. The X-3's designers had none of this and sized against margins instead.
+
+Titanium forming remains difficult enough to sustain an active literature, and the springback that this article derives is now predicted rather than compensated by trial, as [Pham and Song 2019][research_pham_song_2019] and [Wu and Gong 2020][research_wu_gong_2020] show, with machine learning applied to dimensional accuracy by [Huang and Wang 2024][research_huang_wang_dl_2024]. The forming problems themselves persist, as [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025] show. Mass properties estimation, which the coupling analysis depends on, is treated in [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha and Moore 2019][research_mwenegoha_2019]. Machine learning has entered the modelling of all of it, as [Brunton and Noack 2020][research_brunton_noack_2020] survey, and dynamically scaled flight testing continues as described in [Kong and Pan 2023][research_kong_pan_2023].
 
 ## Where the Framing Breaks Down
 
@@ -846,24 +854,38 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Chandra Sekar and Sundararaj 2022 Performance of a Turbojet Engine with Fluidic Thrust Vectoring][research_chandra_sekar_2022]
 - [Chapman and Rubesin 1949 Temperature and Velocity Profiles in the Compressible Laminar Boundary Layer][research_chapman_rubesin_1949]
+- [Chen and Tan 2019 External-Compression Supersonic Inlet Free from Unstart][research_chen_tan_2019]
 - [Collar 1946 The Expanding Domain of Aeroelasticity][research_collar_1946]
 - [Dehghan Manshadi and Saghafi 2021 Aircraft Mass Properties Estimation][research_manshadi_2021]
 - [Derbel and Beneda 2025 Investigation of Turbojet Engine Performance in Supersonic Conditions][research_derbel_beneda_2025]
 - [Eckert 1956 Engineering Relations for Heat Transfer and Friction in High-Velocity Flow][research_eckert_1956]
+- [Ezzeldin and Wu 2025 Computational Enhancement for Supersonic Aircraft Configurations][research_ezzeldin_wu_2025]
 - [Fay and Riddell 1958 Theory of Stagnation Point Heat Transfer in Dissociated Air][research_fay_riddell_1958]
 - [Fu and Song 2024 Flight Trajectory Optimization of a Variable-Cycle Propulsion Vehicle][research_fu_song_2024]
 - [Garrick and Reed 1981 Historical Development of Aircraft Flutter][research_garrick_reed_1981]
+- [Ghalandari and Mahariq 2022 Aeroelastic Optimization of a High Aspect Ratio Wing][research_ghalandari_2022]
 - [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
+- [Goulos and Otter 2021 Civil Turbofan Propulsion Aerodynamics, Thrust and Drag Accounting][research_goulos_otter_2021]
 - [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
+- [Habibniarami and Lundbladh 2026 Optimization of a Supersonic Transport Aircraft][research_habibniarami_2026]
 - [Huang and Friedmann 2019 Aerothermoelastic Scaling Laws for Hypersonic Skin Panels][research_huang_friedmann_2019]
+- [Huang and Wang 2024 Deep Learning-Driven Dimensional Accuracy Prediction in Forming][research_huang_wang_dl_2024]
+- [Hutchinson and Lawrence 2021 Conceptual Design and Integration of a Propulsion System][research_hutchinson_2021]
+- [Jin and Tan 2023 Experimental Investigation of Unstart and Restart Hysteresis][research_jin_tan_2023]
+- [Jin and Zhang 2023 Unstart and Restart Boundary Broadening Method for a Supersonic Inlet][research_jin_zhang_2023]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
 - [Kim and Lee 2022 Evaluation of Deformation for Titanium Alloy Sheet][research_kim_lee_ti_2022]
+- [Kim and Park 2026 Flow Separation Suppression of Swept Shock Wave Boundary Layer Interaction][research_kim_park_sbli_2026]
 - [Kong and Pan 2023 Research on Key Technologies of Scaled Model Flight Testing][research_kong_pan_2023]
 - [Kuznetsova and Loshkareva 2021 Moment of Inertia of a Solid Body and Its Measurement][research_kuznetsova_2021]
 - [Lee and Choi 2021 Study on the Effect of Total Pressure Loss in a Supersonic Inlet][research_lee_choi_2021]
 - [Lees 1956 Laminar Heat Transfer over Blunt-Nosed Bodies at Hypersonic Flight Speeds][research_lees_1956]
+- [Li and Geiselhart 2024 Propulsion and Airframe Integration for Conceptual Design][research_li_geiselhart_2024]
 - [Lin and Liu 2021 Numerical Study on the Influence of Wall Temperature on High-Speed Flow][research_lin_liu_2021]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
+- [Luo and Wei 2020 Spatiotemporal Characterization and Suppression of Flow Oscillation][research_luo_wei_2020]
+- [Metodiev 2024 System Identification of Aircraft Longitudinal Motion][research_metodiev_2024]
+- [Miyaji and Takegawa 2022 Prediction of Transonic Two-Dimensional Wing Flutter][research_miyaji_2022]
 - [Moreira and Gripp 2022 Longitudinal Flight Control Law Design with Integrated Protection][research_moreira_gripp_2022]
 - [Mwenegoha and Moore 2019 Model-Based Navigation with Moment of Inertia Estimation][research_mwenegoha_2019]
 - [NACA 1945 Comparison of Wind-Tunnel and Flight Measurements of Stability and Control Characteristics][research_tunnel_flight_comparison_1945]
@@ -948,8 +970,8 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 - [NASA 1986 Summary of Results of the F-15 Flight Research Program][research_f15_research_summary_1986]
 - [NASA 1988 A Piloted Evaluation of an Oblique-Wing Research Aircraft Motion Simulation][research_oblique_wing_piloted_1988]
 - [NASA 1988 Evaluation of the Constant Pressure Panel Method for Unsteady Air Loads Prediction][research_constant_pressure_panel_1988]
-- [NASA 1990 Active Control Landing Gear Drop Test Performance][research_f106b_gear_drop_1990]
 - [NASA 1990 Active Control Landing Gear Drop Test Performance][research_f106b_gear_alt_1990]
+- [NASA 1990 Active Control Landing Gear Drop Test Performance][research_f106b_gear_drop_1990]
 - [NASA 1990 Advanced Fabrication Technology for High Speed Aircraft Structures][research_advanced_fabrication_1990]
 - [NASA 1990 Influence of Structural and Aerodynamic Modeling on Optimization with Flutter Constraints][research_flutter_optimization_1990]
 - [NASA 1991 Comparison of Cryogenic Wind Tunnel, Flight, and Computational Results for a Thin Low-Aspect-Ratio Wing][research_cryo_tunnel_thin_wing_1991]
@@ -975,9 +997,11 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 - [NASA 2014 Preliminary Analysis of Aircraft Loss of Control Accidents, Worst Case Precursor Combinations][research_loc_precursors_2014]
 - [NASA 2015 Testing and Validation of the Dynamic Inertia Measurement Method][research_dynamic_inertia_2015]
 - [Nguyen and Lowenberg 2021 Frequency-Domain Bifurcation Analysis of a Nonlinear Flight Dynamics Model][research_nguyen_lowenberg_2021]
+- [Ni and Wang 2025 A Yaw-Roll Coupling Suppression Control Method][research_ni_wang_2025]
 - [Nikolaidis and Pellegrini 2022 Off-Design Performance Comparison of Propulsion Configurations][research_nikolaidis_2022]
 - [Nonweiler 1959 Aerodynamic Problems of Manned Space Vehicles][research_nonweiler_1959]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
+- [Pham and Song 2019 Investigation of Springback Prediction for Sheet Forming][research_pham_song_2019]
 - [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
 - [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Saidi and Giraud Moreau 2021 Accuracy and Sheet Thinning Improvement in Titanium Forming][research_saidi_2021]
@@ -986,18 +1010,26 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
 - [Shen and Huang 2019 Effects of the Yaw-to-Roll Coupling Ratio on Lateral-Directional Behaviour][research_shen_huang_2019]
 - [Shu and Ren 2025 Gradient Thickness-Dependent Distribution of Residual Stress in Titanium Sheet][research_shu_ren_2025]
+- [Singh and Ghosh 2023 Longitudinal Parameter Estimation from Wind Tunnel and Flight Data][research_singh_ghosh_2023]
 - [Stubblefield and Kunz 2025 Visualization and Measurement of Shock Movement During Transonic Flutter][research_stubblefield_kunz_2025]
 - [Su and Liu 2025 Computational Investigation of Airframe and Propulsion Integration][research_su_liu_2025]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Tu and Yan 2024 Prediction of Aircraft Departure and Spin Characteristics][research_tu_yan_2024]
+- [Turkkahraman and Ozcan 2024 Optimization of a Plenum for Boundary Layer Control][research_turkkahraman_2024]
 - [Wang 2019 Transonic Static Aeroelastic and Longitudinal Aerodynamic Behaviour][research_wang_aeroelastic_2019]
+- [Wang and Eri 2023 Multi-Objective Aerodynamic Optimization of a Supersonic Inlet][research_wang_eri_2023]
 - [Wang and Wang 2023 Control of Cowl Shock and Boundary Layer Interaction in a Supersonic Inlet][research_wang_wang_2023]
+- [Wang and Wang 2023 Effects of Backpressure on Unstart and Restart Characteristics][research_wang_wang_unstart_2023]
+- [Wang and Zhao 2022 Aircraft Lateral-Directional Aerodynamic Parameter Identification][research_wang_zhao_latdir_2022]
 - [Whitcomb, A Study of the Zero-Lift Drag-Rise Characteristics of Wing-Body Combinations][research_whitcomb_1952]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
+- [Wu and Gong 2020 Springback Prediction of Dieless Forming][research_wu_gong_2020]
 - [Xu and Yue 2019 Study on the Chaotic Dynamics in Yaw, Pitch, and Roll Coupling][research_xu_yue_2019]
 - [Yang and Jin 2024 The Law of Total Pressure Loss in Supersonic Flow][research_yang_jin_2024]
+- [Yang and Li 2022 Numerical Aeroelastic Analysis of a High-Aspect-Ratio Wing][research_yang_li_aeroelastic_2022]
+- [Yuan and Kou 2024 Resolvent Analysis for Flutter Boundary Prediction][research_yuan_kou_2024]
 - [Zeng and Zhao 2022 Research on Dynamic Aerodynamic Characteristics of a Low-Aspect-Ratio Configuration][research_zeng_zhao_2022]
 
 ### Related Post
@@ -1212,6 +1244,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_chandra_sekar_2022]: https://doi.org/10.1017/aer.2022.27
 [research_channeled_inlet_flight_2013]: https://ntrs.nasa.gov/citations/20140000927
 [research_chapman_rubesin_1949]: https://doi.org/10.2514/8.11853
+[research_chen_tan_2019]: https://doi.org/10.2514/1.j057811
 [research_clipped_delta_control_2000]: https://ntrs.nasa.gov/citations/20010009849
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
 [research_compressor_flow_1974]: https://ntrs.nasa.gov/citations/19740053438
@@ -1234,6 +1267,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_eckert_1956]: https://doi.org/10.1115/1.4014011
 [research_engine_deterioration_1981]: https://ntrs.nasa.gov/citations/19810014553
 [research_entry_aoa_uncertainty_1984]: https://ntrs.nasa.gov/citations/19840015584
+[research_ezzeldin_wu_2025]: https://doi.org/10.3390/app15179825
 [research_f106b_gear_alt_1990]: https://ntrs.nasa.gov/citations/19910004132
 [research_f106b_gear_drop_1990]: https://ntrs.nasa.gov/citations/19910018850
 [research_f15_research_summary_1986]: https://ntrs.nasa.gov/citations/19860052326
@@ -1247,14 +1281,19 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_flutter_optimization_1990]: https://ntrs.nasa.gov/citations/19940004721
 [research_fu_song_2024]: https://doi.org/10.1515/tjj-2024-0085
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
+[research_ghalandari_2022]: https://doi.org/10.32604/cmc.2022.020884
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
+[research_goulos_otter_2021]: https://doi.org/10.1016/j.ast.2021.106533
 [research_gps_pitot_calibration_2011]: https://ntrs.nasa.gov/citations/20110015011
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
+[research_habibniarami_2026]: https://doi.org/10.1016/j.ast.2026.111943
 [research_high_altitude_1957]: https://ntrs.nasa.gov/citations/19820068145
 [research_high_lift_systems_1996]: https://ntrs.nasa.gov/citations/19960052267
 [research_hre_integration_1976]: https://ntrs.nasa.gov/citations/19760016172
 [research_hsct_lowboom_1992]: https://ntrs.nasa.gov/citations/19920076746
 [research_huang_friedmann_2019]: https://doi.org/10.2514/1.j057499
+[research_huang_wang_dl_2024]: https://doi.org/10.3390/app14093938
+[research_hutchinson_2021]: https://doi.org/10.1177/09544100211016952
 [research_hypersonic_aircraft_study_1975]: https://ntrs.nasa.gov/citations/19750055459
 [research_hypersonic_inlet_strut_1997]: https://ntrs.nasa.gov/citations/19990080047
 [research_induction_bonding_1999]: https://ntrs.nasa.gov/citations/19990041100
@@ -1263,24 +1302,32 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_iroquois_afterburner_1958]: https://ntrs.nasa.gov/citations/20090026526
 [research_j34_afterburner_1949]: https://ntrs.nasa.gov/citations/20090023627
 [research_j71_afterburner_1955]: https://ntrs.nasa.gov/citations/20090026462
+[research_jin_tan_2023]: https://doi.org/10.1016/j.cja.2023.08.004
+[research_jin_zhang_2023]: https://doi.org/10.1061/jaeeez.aseng-4615
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
 [research_juncture_flow_1992]: https://ntrs.nasa.gov/citations/19920074234
 [research_kim_lee_ti_2022]: https://doi.org/10.1007/s12289-022-01712-5
+[research_kim_park_sbli_2026]: https://doi.org/10.6112/kscfe.2026.31.2.084
 [research_kong_pan_2023]: https://doi.org/10.1088/1742-6596/2658/1/012047
 [research_kuznetsova_2021]: https://doi.org/10.54072/18192173_2021_2_151
 [research_lee_choi_2021]: https://doi.org/10.6108/kspe.2021.25.6.029
 [research_lees_1956]: https://doi.org/10.2514/8.6977
+[research_li_geiselhart_2024]: https://doi.org/10.2514/1.c037310
 [research_lin_liu_2021]: https://doi.org/10.1038/s41598-021-94261-x
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
 [research_loc_directions_2014]: https://ntrs.nasa.gov/citations/20200007706
 [research_loc_precursors_2014]: https://ntrs.nasa.gov/citations/20140003949
 [research_low_speed_lateral_1953]: https://ntrs.nasa.gov/citations/20050029410
 [research_lowar_triangular_1947]: https://ntrs.nasa.gov/citations/19930082119
+[research_luo_wei_2020]: https://doi.org/10.3390/en13010217
 [research_manshadi_2021]: https://doi.org/10.2514/1.c035941
+[research_metodiev_2024]: https://doi.org/10.3897/arb.v36.e10
+[research_miyaji_2022]: https://doi.org/10.1299/jfst.2022jfst0004
 [research_moreira_gripp_2022]: https://doi.org/10.2514/1.g006443
 [research_mwenegoha_2019]: https://doi.org/10.3390/s19112467
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
 [research_nguyen_lowenberg_2021]: https://doi.org/10.2514/1.g005197
+[research_ni_wang_2025]: https://doi.org/10.1088/1742-6596/3044/1/012001
 [research_nikolaidis_2022]: https://doi.org/10.1115/1.4054749
 [research_nonweiler_1959]: https://doi.org/10.1017/s0368393100071662
 [research_normal_shock_side_inlet_1952]: https://ntrs.nasa.gov/citations/19930087106
@@ -1288,6 +1335,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_oblique_wing_control_1986]: https://ntrs.nasa.gov/citations/19860020395
 [research_oblique_wing_piloted_1988]: https://ntrs.nasa.gov/citations/19890006559
 [research_oleo_drop_hammer_1954]: https://ntrs.nasa.gov/citations/19930093858
+[research_pham_song_2019]: https://doi.org/10.4028/www.scientific.net/amm.889.203
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
 [research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
 [research_propulsion_forces_1975]: https://ntrs.nasa.gov/citations/19750057617
@@ -1305,6 +1353,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_shear_flow_flutter_1977]: https://ntrs.nasa.gov/citations/19770037012
 [research_shen_huang_2019]: https://doi.org/10.1016/j.cja.2019.04.007
 [research_shu_ren_2025]: https://doi.org/10.1007/s00170-025-15429-7
+[research_singh_ghosh_2023]: https://doi.org/10.61653/joast.v59i2.2007.567
 [research_sonic_boom_mach35_1974]: https://ntrs.nasa.gov/citations/19740026373
 [research_spin_research_summary_1979]: https://ntrs.nasa.gov/citations/19790052693
 [research_sst_structural_1976]: https://ntrs.nasa.gov/citations/19770011094
@@ -1332,14 +1381,19 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_transonic_summary_1959]: https://ntrs.nasa.gov/citations/19980228028
 [research_tu_yan_2024]: https://doi.org/10.1007/s42405-024-00735-3
 [research_tunnel_flight_comparison_1945]: https://ntrs.nasa.gov/citations/19930092456
+[research_turkkahraman_2024]: https://doi.org/10.2339/politeknik.1247300
 [research_uncommanded_lateral_2003]: https://ntrs.nasa.gov/citations/20030010279
 [research_wang_aeroelastic_2019]: https://doi.org/10.1063/1.5087963
+[research_wang_eri_2023]: https://doi.org/10.1016/j.ast.2023.108189
 [research_wang_wang_2023]: https://doi.org/10.3390/aerospace10080729
+[research_wang_wang_unstart_2023]: https://doi.org/10.1017/aer.2023.19
+[research_wang_zhao_latdir_2022]: https://doi.org/10.3390/aerospace9080433
 [research_wave_drag_swept_1947]: https://ntrs.nasa.gov/citations/19930082080
 [research_whirl_flutter_2004]: https://ntrs.nasa.gov/citations/20040081235
 [research_whitcomb_1952]: https://ntrs.nasa.gov/citations/19930092271
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wright_1936]: https://doi.org/10.2514/8.155
+[research_wu_gong_2020]: https://doi.org/10.3390/met10060780
 [research_x15_first_flight_1959]: https://ntrs.nasa.gov/citations/19980236840
 [research_x15_heating_1962]: https://ntrs.nasa.gov/citations/19660020178
 [research_x15_lessons_1993]: https://ntrs.nasa.gov/citations/19930039008
@@ -1354,6 +1408,8 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [research_x3_tail_loads_1956]: https://ntrs.nasa.gov/citations/19930090107
 [research_xu_yue_2019]: https://doi.org/10.1007/s11071-019-05159-3
 [research_yang_jin_2024]: https://doi.org/10.1088/1742-6596/2860/1/012009
+[research_yang_li_aeroelastic_2022]: https://doi.org/10.3390/aerospace9090515
 [research_yf100a_drag_trim_1953]: https://ntrs.nasa.gov/citations/20090023638
+[research_yuan_kou_2024]: https://doi.org/10.2514/1.j064214
 [research_zeng_zhao_2022]: https://doi.org/10.1088/1742-6596/2228/1/012011
 [research_zero_lift_drag_thickness_1965]: https://ntrs.nasa.gov/citations/19650014089
