@@ -75,11 +75,12 @@ There is no limit on article length. An article should be as long as the subject
 
 ## Section Structure by Genre
 
-The section structure depends on the article's genre. The blog runs three genres:
+The section structure depends on the article's genre. The blog runs four genres:
 
 - **Tutorial.** Practical how-to posts with a Software Versions section and an Instructions section. The standard sections below are the tutorial template.
 - **Subsystem deep-dive.** Equation-dense engineering articles built on the architectural-keystone pattern. See [Subsystem Deep-Dive Structure](./SUBSYSTEM_DEEPDIVE_STRUCTURE.md).
 - **Analytical essay or survey.** Cited, reasoned articles that map a design space, a history, or a strategy. See [Analytical Essay Structure](./ANALYTICAL_ESSAY_STRUCTURE.md).
+- **Research aircraft.** A hybrid of the deep-dive and the essay, where a vehicle's research question serves as the keystone. See [Research Aircraft Structure](./RESEARCH_AIRCRAFT_STRUCTURE.md).
 
 Identify the genre before drafting. See [Article Genres](./ARTICLE_GENRES.md) for the framework.
 
@@ -176,7 +177,7 @@ Slugs should not begin with English articles such as "a," "an," or "the." This f
 
 ## Related Sections
 
-- [Article Genres](./ARTICLE_GENRES.md) for the three genre framework
+- [Article Genres](./ARTICLE_GENRES.md) for the genre framework
 - [Style Guide](./STYLE_GUIDE.md) for prose rules
 - [Subsystem Deep-Dive Structure](./SUBSYSTEM_DEEPDIVE_STRUCTURE.md) for the engineering-article structure
 - [Analytical Essay Structure](./ANALYTICAL_ESSAY_STRUCTURE.md) for the essay structure
