@@ -47,7 +47,7 @@ Before going further it is worth confirming that the perfect-gas assumption behi
 
 $$\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \frac{\theta_v / T}{e^{\theta_v / T} - 1} \right)^2 e^{\theta_v / T}$$
 
-with $\theta_v$ the characteristic vibrational temperature, near 2270 kelvin for oxygen and 3390 for nitrogen. Dissociation follows well above that. At a stagnation temperature of 659 kelvin the vibrational contribution is a few percent and dissociation is absent entirely, so air behaves as a calorically perfect gas throughout the X-2 envelope and $\gamma = 1.4$ holds. That is a real simplification the aircraft enjoyed and the X-15 did not. That number is the whole programme. Aluminium alloys of the period lose useful strength above roughly 400 kelvin and are unusable above 500. At 611 kelvin steady state an aluminium airframe does not fail dramatically. It creeps, which is worse, because [creep][ref_creep_deformation] is time-dependent and a structure that survives a two-minute exposure may not survive a ten-minute one. The design question was therefore not whether the aircraft could reach Mach 3 but what it should be made of, and how long it could stay there.
+with $\theta_v$ the characteristic vibrational temperature, near 2270 kelvin for oxygen and 3390 for nitrogen. Dissociation follows well above that. At a stagnation temperature of 659 kelvin the vibrational contribution is a few percent and dissociation is absent entirely, so air behaves as a calorically perfect gas throughout the X-2 envelope and $\gamma = 1.4$ holds. Where that assumption fails, which is everywhere above roughly Mach 5, the consequences reach into the boundary layer as in [NASA 1986][research_real_gas_boundary_layer_1986], into its stability as in [NASA 1991][research_real_gas_stability_1991], into trim as in [NASA 1989][research_real_gas_trim_1989], and into whether a ground facility can reproduce the flow at all, which is the subject of [NASA 1987][research_real_gas_facility_1987]. That is a real simplification the aircraft enjoyed and the X-15 did not. That number is the whole programme. Aluminium alloys of the period lose useful strength above roughly 400 kelvin and are unusable above 500. At 611 kelvin steady state an aluminium airframe does not fail dramatically. It creeps, which is worse, because [creep][ref_creep_deformation] is time-dependent and a structure that survives a two-minute exposure may not survive a ten-minute one. The design question was therefore not whether the aircraft could reach Mach 3 but what it should be made of, and how long it could stay there.
 
 Three sub-questions follow, and the article treats each in turn. What is the actual heat flux into the structure, as opposed to the temperature of the air. How does the structure respond in time, since a short exposure and a steady state are different problems. And what does a material chosen for temperature rather than for strength cost in mass.
 
@@ -177,7 +177,7 @@ The figure of merit is not the room-temperature allowable but the allowable at t
 
 $$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}$$
 
-Aluminium alloys hold useful strength to roughly 400 kelvin. [Titanium alloys][ref_titanium_alloys] reach roughly 800. [Stainless steel][ref_stainless_steel] and the nickel-copper K-Monel used on the X-2 reach roughly 900 to 1000 in short exposure. Against a recovery temperature of 611 kelvin the aluminium option is excluded outright and the steel option has margin, at a cost in density of nearly a factor of three.
+The evidence for that selection is a body of sheet-property testing that ran alongside the airframe programmes and is rarely cited with them. Compressive strength and creep lifetime of the standard aluminium of the period were measured directly in [NACA 1955][research_creep_2024t3_1955] and [NACA 1957][research_creep_2024t3_1957], and the stainless steels that replaced it were characterized under rapid heating, which is the relevant condition for a heat-sink structure rather than a soaked one, in [NASA 1961][research_stainless_rapid_heat_1961] and [NASA 1961][research_rapid_compression_1961]. Testing practice itself had to be established, since a short-time elevated-temperature test is not a room-temperature test performed hot, and [NASA 1960][research_elevated_tensile_practice_1960] addresses that. Earlier aluminium property work appears in [NACA 1943][research_alclad_aging_1943]. Aluminium alloys hold useful strength to roughly 400 kelvin. [Titanium alloys][ref_titanium_alloys] reach roughly 800. [Stainless steel][ref_stainless_steel] and the nickel-copper K-Monel used on the X-2 reach roughly 900 to 1000 in short exposure. Against a recovery temperature of 611 kelvin the aluminium option is excluded outright and the steel option has margin, at a cost in density of nearly a factor of three.
 
 That density penalty propagates through the whole airframe. For a given bending moment the required spar cap area is
 
@@ -221,7 +221,7 @@ with $E$ the elastic modulus, $\alpha_T$ the coefficient of [thermal expansion][
 
 $$\sigma_{\text{th}} = \frac{193 \times 10^{9} \times 17.3 \times 10^{-6} \times 100}{0.7} = 477 \ \text{megapascals}$$
 
-which already exceeds the yield strength of annealed stainless steel. At the three-hundred-kelvin difference a real transient produces, the figure is 1431 megapascals, which is structurally meaningless because the material would have yielded long before. The conclusion is not that the structure fails. It is that the structure must not be fully constrained. High-speed airframes use floating skin panels, slip joints, and corrugated webs precisely so that $\Delta T$ never acts across a rigid load path, and the X-2 is an early instance of that discipline. Two conventional checks accompany it. Thin panels buckle before they yield, at
+which already exceeds the yield strength of annealed stainless steel. At the three-hundred-kelvin difference a real transient produces, the figure is 1431 megapascals, which is structurally meaningless because the material would have yielded long before. The conclusion is not that the structure fails. It is that the structure must not be fully constrained. High-speed airframes use floating skin panels, slip joints, and corrugated webs precisely so that $\Delta T$ never acts across a rigid load path, and the X-2 is an early instance of that discipline. The joint problem is treated explicitly in [NASA 1990][research_dissimilar_joints_1990], and the prediction against measurement, which is the only way to know whether the discipline worked, in [NASA 1979][research_thermal_stress_correlation_1979] and later on a dedicated test article in [NASA 1990][research_dryden_hwts_thermal_1990] and [NASA 1975][research_hypersonic_wing_structure_1975]. Structural concepts for sustained rather than transient exposure are surveyed in [NASA 1980][research_thermostructural_hypersonic_1980] and [NASA 1976][research_hypersonic_research_structure_1976], and active cooling as an alternative to material capability in [NASA 1991][research_cooling_hypersonic_1991]. Two conventional checks accompany it. Thin panels buckle before they yield, at
 
 $$\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2$$
 
@@ -235,7 +235,7 @@ $$\frac{W}{S}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
 
 The aircraft was never manoeuvre-limited in the sense the [X-1][ref_bell_x1] was, because at 39 kilopascals and a low maximum lift coefficient it could not generate limit load aerodynamically at altitude at all. The theory is [Boley and Weiner 1960][book_boley_weiner_1960], with modern treatments of the temperature-dependent case in [Su and Hwu 2021][research_su_hwu_2021] and the graded case in [Yildirim and Yarimpabuc 2020][research_yildirim_2020].
 
-Oxidation is the third effect and the least discussed. A nickel-bearing alloy at 800 kelvin in moving air loses material to oxidation over time, which is a life limit rather than a strength limit. Contemporary coating work addressing the same mechanism appears in [Zubair and Ejaz 2022][research_zubair_ejaz_2022] and [Tian and Zhang 2023][research_tian_zhang_2023].
+Oxidation is the third effect and the least discussed. A nickel-bearing alloy at 800 kelvin in moving air loses material to oxidation over time, which is a life limit rather than a strength limit. The NACA characterized the mechanism in metals directly in [NACA 1956][research_oxidation_ignition_1956], which treats oxidation and ignition together because at sufficient temperature in moving air the two are the same phenomenon at different rates. The nickel-copper alloy family the X-2 used has continued to receive attention, as [NASA 1989][research_monel_k500_1989] shows, and the creep behaviour of the nickel-base alloys that succeeded it is measured in [NASA 1985][research_creep_single_crystal_1985] and [NASA 1993][research_creep_rupture_superalloy_1993], with the panel fabrication problem in [NASA 1975][research_rene41_panels_1975]. Contemporary coating work addressing the same mechanism appears in [Zubair and Ejaz 2022][research_zubair_ejaz_2022] and [Tian and Zhang 2023][research_tian_zhang_2023].
 
 ### The Swept Wing
 
@@ -269,7 +269,7 @@ above which a roll input produces roll in the wrong direction. Dynamic behaviour
 
 $$k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}$$
 
-following [Theodorsen 1935][research_theodorsen_1935], with the programme history in [Garrick and Reed 1981][research_garrick_reed_1981] and the field bounded by [Collar 1946][research_collar_1946]. A heated structure is a softer structure, so the aeroelastic boundaries move down exactly as the thermal ones are approached, which is the coupling that makes the aerothermoelastic problem a single problem rather than two. Contemporary treatment of swept-wing aerodynamic characteristics appears in [Samputh and Moey 2024][research_samputh_moey_2024].
+following [Theodorsen 1935][research_theodorsen_1935], with the programme history in [Garrick and Reed 1981][research_garrick_reed_1981] and the field bounded by [Collar 1946][research_collar_1946]. A heated structure is a softer structure, so the aeroelastic boundaries move down exactly as the thermal ones are approached, which is the coupling that makes the aerothermoelastic problem a single problem rather than two. That the modal characteristics themselves shift with temperature was later measured directly in [NASA 1991][research_heated_plate_modes_1991] and correlated against analysis in [NASA 1993][research_hot_structure_vibration_1993]. Control reversal on a flexible swept wing had already been formulated in [NACA 1951][research_flexible_wing_lateral_1951], and the divergence problem in its most severe form, on forward-swept wings, generated a literature of its own in [NASA 1980][research_fsw_divergence_tunnel_1980], [NASA 1980][research_fsw_airfoil_divergence_1980], [NASA 1986][research_fsw_divergence_study_1986], [NASA 1988][research_fsw_flight_divergence_1988], and [NASA 1982][research_flexible_fsw_dynamics_1982], with the oblique-wing case in [NASA 1973][research_oblique_wing_divergence_1973] and asymmetric sweep flutter in [NASA 1976][research_asymmetric_sweep_flutter_1976]. Contemporary treatment of swept-wing aerodynamic characteristics appears in [Samputh and Moey 2024][research_samputh_moey_2024].
 
 Supersonic aerodynamics of the [swept wing][ref_swept_wing] follow the linearized result of [Ackeret 1925][research_ackeret_1925], which for a thin surface at incidence gives
 
@@ -329,7 +329,9 @@ A [turbopump][ref_turbopump]-fed engine, unlike the pressure-fed X-1 installatio
 
 $$\mathcal{P}_{\text{pump}} = \frac{\dot{m} \, \Delta p}{\rho_{\text{prop}} \, \eta_{\text{pump}}}$$
 
-and at 32.4 kilograms per second against a pressure rise of a few megapascals this is hundreds of kilowatts, supplied by a gas generator that is itself a combustion device requiring its own development. The turbine that drives the pumps must balance that demand,
+and at 32.4 kilograms per second against a pressure rise of a few megapascals this is hundreds of kilowatts, supplied by a gas generator that is itself a combustion device requiring its own development, with even the material compatibility of the pump internals a research question, as [NASA 1986][research_turbopump_ignition_1986] shows for ignition resistance in oxygen-rich environments.
+
+Throttling deserves emphasis because it is the part of the engine that took the years. A rocket chamber is stable over a narrow range of injector pressure drop and mixture ratio, and reducing thrust attacks both. The problem has a substantial modern literature, surveyed comprehensively in [NASA 2009][research_throttling_review_2009] and traced historically in [NASA 2010][research_throttling_history_2010], with deep-throttling demonstrators reported in [NASA 2007][research_cece_throttling_2007], alternative architectures in [NASA 2005][research_throttleable_engine_2005], and the injector scaling that governs it in [NASA 2006][research_injector_throttling_2006]. That a capability the X-2 needed in 1955 still supports a review literature in 2010 is the measure of how hard it was. The turbine that drives the pumps must balance that demand,
 
 $$\mathcal{P}_{\text{turb}} = \dot{m}_{gg} \, c_p \, T_{gg} \, \eta_t \left[ 1 - \left( \frac{p_{\text{out}}}{p_{gg}} \right)^{\frac{\gamma - 1}{\gamma}} \right] = \mathcal{P}_{\text{pump}}$$
 
@@ -383,7 +385,7 @@ with $V_V$ the vertical tail volume coefficient, $S_v$ and $l_v$ the tail area a
 
 $$C_{n\beta}(M) \propto \frac{1}{\sqrt{M_\infty^2 - 1}}$$
 
-and directional stiffness at Mach 3.196 is 2.72 times weaker than at Mach 1.5 for the same geometry. Longitudinal stiffness behaves similarly, and the [aerodynamic centre][ref_aerodynamic_center] has by then migrated aft, so the aircraft is stiff in pitch and weak in yaw. The longitudinal counterpart is the [static margin][ref_longitudinal_static_stability],
+and directional stiffness at Mach 3.196 is 2.72 times weaker than at Mach 1.5 for the same geometry. The vertical tail also sits in a flow field disturbed by everything ahead of it, and the interference effects that result were measured at supersonic speeds in [NACA 1956][research_vtail_interference_1956]. Later approaches to recovering directional control when the tail alone cannot supply it include forebody shaping, as in [NASA 1959][research_forebody_deflection_1959], actuated strakes combined with thrust vectoring in [NASA 1998][research_thrust_vectoring_strakes_1998], and the general effector prediction problem in [NASA 1990][research_control_effectors_1990]. The related departure mode on slender configurations is modelled in [NASA 1993][research_wing_rock_delta_1993]. Longitudinal stiffness behaves similarly, and the [aerodynamic centre][ref_aerodynamic_center] has by then migrated aft, so the aircraft is stiff in pitch and weak in yaw. The longitudinal counterpart is the [static margin][ref_longitudinal_static_stability],
 
 $$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM$$
 
@@ -521,7 +523,7 @@ as set out in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and 
 
 $$\dot{q}_{\text{conv}} = C_A \frac{dT_w}{dt} + \varepsilon \sigma_{SB} T_w^4$$
 
-and differentiation amplifies noise, so a temperature record good to one percent does not give a flux good to one percent. [Strain gauges][ref_strain_gauge], [accelerometers][ref_accelerometer], and [telemetry][ref_telemetry] carried the remainder, and the modern descendant of the whole discipline is surveyed in [Grauer and Morelli 2023][research_grauer_morelli_2023]. The uncertainty framing that now accompanies such campaigns is treated by [Weiss and Staudacher 2022][research_weiss_staudacher_2022], and modern air data practice by [Jurado and McGehee 2019][research_jurado_mcgehee_2019] and [Takahashi and Hirotani 2026][research_takahashi_2026_airdata].
+and differentiation amplifies noise, so a temperature record good to one percent does not give a flux good to one percent. Strain gauging a hot structure is itself a research problem, since the gauge, its adhesive, and its lead wires all respond to temperature as well as to strain, and the apparent strain that results must be calibrated out. [NASA 1979][research_yf12_strain_gauges_1979] documents that on a supersonic aircraft wing, and the loads calibration methodology it feeds is described in [NASA 1977][research_loads_calibration_1977]. [Strain gauges][ref_strain_gauge], [accelerometers][ref_accelerometer], and [telemetry][ref_telemetry] carried the remainder, and the modern descendant of the whole discipline is surveyed in [Grauer and Morelli 2023][research_grauer_morelli_2023]. The uncertainty framing that now accompanies such campaigns is treated by [Weiss and Staudacher 2022][research_weiss_staudacher_2022], and modern air data practice by [Jurado and McGehee 2019][research_jurado_mcgehee_2019] and [Takahashi and Hirotani 2026][research_takahashi_2026_airdata].
 
 ### Escape
 
@@ -555,7 +557,7 @@ and for a 450 kilogram capsule descending at seven metres per second at sea leve
 
 $$F_{\text{open}} = C_X \, q \, C_D A_p$$
 
-with $C_X$ the opening shock factor, so deployment must be delayed until dynamic pressure has fallen or the canopy must be reefed. That delay is itself a link, and it is the link that failed. The wind tunnel stability work on such a capsule in [NACA 1949][research_nose_capsule_1949] addresses one link. It cannot address the others. The [X-15][ref_na_x15] programme chose a seat instead, as documented in [NASA 1958][research_x15_escape_1958], accepting the windblast problem in exchange for a shorter chain.
+with $C_X$ the opening shock factor, so deployment must be delayed until dynamic pressure has fallen or the canopy must be reefed. That delay is itself a link, and it is the link that failed. Supersonic deceleration and parachute deployment remain difficult enough that they are still flight-tested as their own problem, as [NASA 2015][research_ldsd_ballute_2015] and [NASA 2015][research_ldsd_dynamics_2015] report for a planetary decelerator six decades later. The wind tunnel stability work on such a capsule in [NACA 1949][research_nose_capsule_1949] addresses one link. It cannot address the others. The [X-15][ref_na_x15] programme chose a seat instead, as documented in [NASA 1958][research_x15_escape_1958], accepting the windblast problem in exchange for a shorter chain.
 
 ## The Flight Test Record
 
@@ -565,7 +567,7 @@ Powered flying with 46-674 proceeded through 1955 and 1956 by the incremental me
 
 On 27 September 1956 Milburn Apt flew the aircraft for the first time. He reached Mach 3.196 at 65,589 feet, becoming the first person to exceed Mach 3. The engine burned about twelve and a half seconds longer than planned, which carried him further and faster than the profile intended and left him further from the lake bed than he should have been. He initiated a turn back toward [Edwards Air Force Base][ref_edwards_afb] while still above Mach 3. The aircraft departed into an inertia-coupled divergence and tumbled. Apt separated the nose capsule. The capsule's primary parachute did not deploy successfully and he was killed on impact. The aircraft was destroyed and the programme ended with that flight.
 
-The flight behaviour is reported in [NASA 1959][research_x2_mach32_1959], which is the primary technical account and should be read by anyone who wants the details rather than the narrative.
+The state of the art the programme was operating within is captured in the [NACA 1958 conference on high-speed aerodynamics][research_highspeed_conference_1958], which convened as the X-2 was flying. The flight behaviour is reported in [NASA 1959][research_x2_mach32_1959], which is the primary technical account and should be read by anyone who wants the details rather than the narrative.
 
 Two arithmetic points about the record are worth stating. First, the recorded speed of 2094 miles per hour and the recorded Mach number of 3.196 are not exactly consistent under the standard atmosphere, which gives 943 metres per second or 2109 miles per hour at that Mach number and altitude. The 0.7 percent discrepancy reflects a real atmosphere differing from the standard model, and neither figure should be quoted to four significant figures. Second, the twelve and a half seconds of extra burn is a large fraction of the eighteen-second thermal margin derived above, and while the aircraft was not lost to heating, the overburn is the same kind of margin erosion.
 
@@ -607,7 +609,7 @@ An approach flown at 1.3 times stall is 88 metres per second with a sink rate of
 
 $$w_s = \frac{88}{11.2} = 7.9 \ \text{metres per second}$$
 
-That is a fast, steep, single-attempt arrival with no engine and a wing optimized for Mach 3 rather than for landing. The low aspect ratio that suits supersonic flight is precisely what makes the glide poor, and the sweep that raises the critical Mach number is precisely what raises the stall speed. Both penalties are paid on every return, and they are the routine cost of the configuration rather than an incidental one.
+That is a fast, steep, single-attempt arrival with no engine and a wing optimized for Mach 3 rather than for landing. The [X-15][ref_na_x15] inherited the same problem and its first-flight launch and landing characteristics are reported in [NASA 1959][research_x15_first_flight_1959] and [NASA 1959][research_x15_first_landing_1959], which are the closest available comparison. Low-speed behaviour of the thin unswept research airplanes, for contrast, appears in [NACA 1950][research_x4_stall_1950]. The low aspect ratio that suits supersonic flight is precisely what makes the glide poor, and the sweep that raises the critical Mach number is precisely what raises the stall speed. Both penalties are paid on every return, and they are the routine cost of the configuration rather than an incidental one.
 
 ## Comparison With Ground Prediction
 
@@ -631,13 +633,13 @@ A geometrically scaled force model built for a balance matches the first two gro
 
 $$m_m = \frac{m_f}{k^3} \cdot \frac{\rho_m}{\rho_f}, \qquad I_m = \frac{I_f}{k^5} \cdot \frac{\rho_m}{\rho_f}$$
 
-with subscripts $m$ and $f$ for model and full scale and $\rho$ the ambient density in each case, and the fifth-power dependence means an inertia error that is trivial at full scale is enormous when scaled back. Meeting it requires ballasting a hollow model to a specified inertia tensor, which is a different craft from machining a force model and was not routine in 1955. The analysis that eventually made the phenomenon predictable, including the effect of a non-constant pitching-moment derivative in [NASA 1977][research_nonconstant_cma_1977], came after the aircraft it would have saved.
+with subscripts $m$ and $f$ for model and full scale and $\rho$ the ambient density in each case, and the fifth-power dependence means an inertia error that is trivial at full scale is enormous when scaled back. Meeting it requires ballasting a hollow model to a specified inertia tensor, which is a different craft from machining a force model. It was not unknown. The Langley free-flight tunnel had been investigating dynamic stability and control on dynamically scaled models since at least [NACA 1952][research_free_flight_tunnel_1952], and the free-spinning tunnel applied the same discipline to departure and recovery, as [NASA 1960][research_spin_tunnel_1960] shows. Those facilities were the right instrument for the X-2 question and were not used on it. Later research aircraft were characterized this way as a matter of course, as [NASA 1974][research_supercritical_dynamic_1974] illustrates, and the quality of the flow in which such tests are run became a design subject in its own right in [NASA 1990][research_low_disturbance_tunnels_1990]. The analysis that eventually made the phenomenon predictable, including the effect of a non-constant pitching-moment derivative in [NASA 1977][research_nonconstant_cma_1977], came after the aircraft it would have saved.
 
 Heating prediction had a parallel problem. The correlations were validated against free-flight bodies at conditions the tunnels could not reach, including [NACA 1958][research_heat_transfer_mach146_1958] at Mach numbers up to 14.6, the rocket-propelled models of [NASA 1959][research_rocket_model_heating_1959], cone measurements in [NASA 1961][research_cone_heat_transfer_1961], and polished-nose skin temperature measurements in [NASA 1961][research_skin_temp_freeflight_1961]. Transition location remained the dominant uncertainty, because laminar and turbulent heating differ by a large factor and the transition point was not predictable, a difficulty measured in flight by [NACA 1958][research_transition_flight_1958] and still under active study in [Nie and Song 2022][research_nie_song_2022] and [Egorov 2025][research_egorov_2025].
 
 ## What the Data Changed
 
-The thermal result was delivered and it was used. The X-2 established that a steel airframe could carry a Mach 3 exposure of limited duration, that the binding constraint is time at temperature rather than temperature alone, and that thermal stress rather than thermal weakening governs the structural design. Those conclusions fed directly into the [X-15][ref_na_x15], whose heating results appear in [NASA 1962][research_x15_heating_1962] and whose programme lessons are gathered in [NASA 1993][research_x15_lessons_1993], and into the survey of heating across the hypersonic research fleet in [NASA 1981][research_hypersonic_heating_survey_1981]. The design lineage runs onward to sustained high-temperature cruise in the [XB-70][ref_xb70] and the [SR-71][ref_sr71], the latter treated by [Merlin 2009][book_merlin_2009_blackbird], and to actively cooled structures of the kind studied in [NASA 1978][research_cooled_honeycomb_1978] and trajectory shaping for cold-wall vehicles in [NASA 1975][research_coldwall_descent_1975].
+The thermal result was delivered and it was used. The X-2 established that a steel airframe could carry a Mach 3 exposure of limited duration, that the binding constraint is time at temperature rather than temperature alone, and that thermal stress rather than thermal weakening governs the structural design. Those conclusions fed directly into the [X-15][ref_na_x15], whose skin and structural temperatures were measured in flight in [NASA 1961][research_x15_skin_temps_1961] and whose heating results appear in [NASA 1962][research_x15_heating_1962] and whose programme lessons are gathered in [NASA 1993][research_x15_lessons_1993], and into the survey of heating across the hypersonic research fleet in [NASA 1981][research_hypersonic_heating_survey_1981]. The design lineage runs onward to sustained high-temperature cruise in the [XB-70][ref_xb70] and the [SR-71][ref_sr71], the latter treated by [Merlin 2009][book_merlin_2009_blackbird], and to actively cooled structures of the kind studied in [NASA 1978][research_cooled_honeycomb_1978] and trajectory shaping for cold-wall vehicles in [NASA 1975][research_coldwall_descent_1975].
 
 The coupling result was more consequential and was not the result anyone wanted. Apt's loss, following the [X-3][ref_douglas_x3] encounters and the near-losses on early swept-wing fighters, converted inertia coupling from a predicted curiosity into a design constraint. The consequences are visible in three places. Roll rate limits entered flight manuals across the fleet. Artificial damping became standard, as [NASA 1959][research_artificial_pitch_damping_1959] anticipated and every subsequent high-speed aircraft implemented. And vertical tails grew, because the only way to hold $C_{n\beta}$ at Mach 3 against the $1/\beta_s$ falloff is to increase $V_V$, which is why the [XB-70][ref_xb70] and the [SR-71][ref_sr71] carry the tail areas they do. The requirement is explicit. Holding $C_{n\beta}$ constant from Mach 1.5 to Mach 3.2 against the falloff demands
 
@@ -931,10 +933,14 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
 - [Martin and Panesi 2022 Radiative Transmission and Absorption Within the Thermal Protection System][research_martin_panesi_2022]
 - [NACA 1940 The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers][research_heating_ice_1940]
+- [NACA 1943 The Effect of Artificial Aging on the Tensile Properties of Alclad Aluminium][research_alclad_aging_1943]
 - [NACA 1948 Investigation of Two Pitot-Static Tubes at Supersonic Speeds][research_pitot_supersonic_1948]
 - [NACA 1949 Supplementary Wind-Tunnel Investigation of the Stability of a Jettisonable Nose Section][research_nose_capsule_1949]
 - [NACA 1950 Flight Calibration of Four Airspeed Systems on a Swept-Wing Airplane][research_airspeed_calibration_1950]
+- [NACA 1950 Stall Characteristics Obtained from Flight of the Northrop X-4][research_x4_stall_1950]
+- [NACA 1951 Calculation of the Lateral Control of Swept and Unswept Flexible Wings][research_flexible_wing_lateral_1951]
 - [NACA 1952 First Landing of the Bell X-2 Research Airplane][research_x2_first_landing_1952]
+- [NACA 1952 Free-Flight-Tunnel Investigation of Dynamic Stability and Control Characteristics][research_free_flight_tunnel_1952]
 - [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
 - [NACA 1953 Flight Determination of the Static Longitudinal Stability Boundaries of the Bell X-5][research_x5_stability_1953]
 - [NACA 1953 Flight Measurements of Lift and Drag for the Bell X-1 Research Airplane][research_x1_liftdrag_1953]
@@ -943,10 +949,15 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [NACA 1954 Wind-Tunnel Investigation at Subsonic and Supersonic Speeds of a Fighter Model][research_fighter_sweep_model_1954]
 - [NACA 1955 A Flight Evaluation of the Longitudinal Stability Characteristics Associated with Pitch-Up][research_pitchup_evaluation_1955]
 - [NACA 1955 Flight Measurements of Horizontal-Tail Loads on the Bell X-5 Research Airplane][research_x5_tail_loads_1955]
+- [NACA 1955 Preliminary Investigation of the Compressive Strength and Creep Lifetime of 2024-T3 Aluminium][research_creep_2024t3_1955]
+- [NACA 1956 High-Temperature Oxidation and Ignition of Metals][research_oxidation_ignition_1956]
 - [NACA 1956 Some Effects of Aircraft Configuration on Static Longitudinal and Directional Stability][research_config_stability_1956]
+- [NACA 1956 Some Interference Effects That Influence Vertical-Tail Loads at Supersonic Speeds][research_vtail_interference_1956]
 - [NACA 1957 Conference on Aircraft Loads, Structures, and Flutter][research_loads_flutter_conf_1957]
 - [NACA 1957 Flight Research at High Altitude][research_high_altitude_1957]
+- [NACA 1957 Investigation of the Compressive Strength and Creep Lifetime of 2024-T3 Aluminium-Alloy Plates][research_creep_2024t3_1957]
 - [NACA 1958 Boundary-Layer-Transition Measurements in Full-Scale Flight][research_transition_flight_1958]
+- [NACA 1958 Conference on High-Speed Aerodynamics][research_highspeed_conference_1958]
 - [NACA 1958 Heat-Transfer Measurements in Free Flight at Mach Numbers up to 14.6][research_heat_transfer_mach146_1958]
 - [NACA 1958 Investigation of the Static Lateral Stability and Aileron Characteristics of a Scale Model][research_x2_lateral_model_1958]
 - [NACA 1958 Research-Airplane-Committee Report on the Conference on the Progress of the X-15 Project][research_x15_conference_1958]
@@ -954,28 +965,75 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [NASA 1958 Wind-Tunnel Investigation of Some Effects of Wing Sweep and Horizontal-Tail Height on Stability][research_sweep_tail_height_1958]
 - [NASA 1959 A Summary of Flight-Determined Transonic Lift and Drag Characteristics of Several Research Airplanes][research_transonic_summary_1959]
 - [NASA 1959 Effect of Artificial Pitch Damping on the Longitudinal and Rolling Stability of Aircraft][research_artificial_pitch_damping_1959]
+- [NASA 1959 Effects of Forebody Deflection on Stability and Control Characteristics][research_forebody_deflection_1959]
 - [NASA 1959 Flight Behavior of the X-2 Research Airplane to a Mach Number of 3.20 and a Geometric Altitude][research_x2_mach32_1959]
 - [NASA 1959 Free-Flight Investigation of a Rocket-Propelled Model to Determine Aerodynamic Heating][research_rocket_model_heating_1959]
+- [NASA 1959 Launch, Low-Speed, and Landing Characteristics from the First Flight of the X-15][research_x15_first_flight_1959]
+- [NASA 1959 Measurements Obtained During the First Landing of the X-15 Research Airplane][research_x15_first_landing_1959]
+- [NASA 1960 An Evaluation of Some Current Practices for Short-Time Elevated-Temperature Tensile Testing][research_elevated_tensile_practice_1960]
 - [NASA 1960 Flight Investigation of an Automatic Pitch-Up Control][research_pitchup_control_1960]
+- [NASA 1960 Free-Spinning-Tunnel Investigation of a Scale Model of a Twin-Jet Swept-Wing Fighter][research_spin_tunnel_1960]
 - [NASA 1961 Free-Flight Skin-Temperature and Surface-Pressure Measurements on a Highly Polished Nose][research_skin_temp_freeflight_1961]
 - [NASA 1961 Measurements of Aerodynamic Heat Transfer and Boundary-Layer Transition on a Cone][research_cone_heat_transfer_1961]
+- [NASA 1961 Rapid-Rate Compression Testing of Sheet Materials at High Temperatures][research_rapid_compression_1961]
+- [NASA 1961 Skin and Structural Temperatures Measured on the X-15 Airplane During a Flight][research_x15_skin_temps_1961]
+- [NASA 1961 Tensile Properties of 17-7 PH and 12 MoV Stainless-Steel Sheet Under Rapid-Heating Conditions][research_stainless_rapid_heat_1961]
 - [NASA 1962 Preliminary Results of Aerodynamic Heating Studies on the X-15 Airplane][research_x15_heating_1962]
 - [NASA 1972 Simulation Study of the Lift Roll Coupling Problem][research_lift_roll_coupling_1972]
+- [NASA 1973 A Study of the Effects of Aeroelastic Divergence on an Oblique-Wing Structure][research_oblique_wing_divergence_1973]
 - [NASA 1973 Model Support Roll Balance and Roll Coupling][research_roll_coupling_balance_1973]
 - [NASA 1973 Summary of Stability and Control Characteristics of the XB-70 Airplane][research_xb70_stability_1973]
+- [NASA 1974 Dynamic Stability Characteristics in Pitch, Yaw, and Roll of a Supercritical-Wing Research Aircraft][research_supercritical_dynamic_1974]
 - [NASA 1975 Analysis of Various Descent Trajectories for a Hypersonic-Cruise Cold-Wall Research Airplane][research_coldwall_descent_1975]
+- [NASA 1975 Design and Fabrication of Rene 41 Advanced Structural Panels][research_rene41_panels_1975]
+- [NASA 1975 Hypersonic Wing Test Structure Design, Analysis, and Fabrication][research_hypersonic_wing_structure_1975]
+- [NASA 1976 A Structural Design for a Hypersonic Research Aircraft][research_hypersonic_research_structure_1976]
+- [NASA 1976 Flutter of Asymmetrically Swept Wings][research_asymmetric_sweep_flutter_1976]
 - [NASA 1977 Effect of a Nonconstant Pitching-Moment Derivative on the Stability of Rolling Aircraft][research_nonconstant_cma_1977]
+- [NASA 1977 Recent Loads Calibration Experience with a Delta Wing Airplane][research_loads_calibration_1977]
 - [NASA 1978 Design and Fabrication of a Radiative Actively Cooled Honeycomb Sandwich Structural Panel][research_cooled_honeycomb_1978]
+- [NASA 1979 Correlation of Predicted and Measured Thermal Stresses on an Advanced Aircraft Structure][research_thermal_stress_correlation_1979]
+- [NASA 1979 Elevated-Temperature Effects on Strain Gauges on the YF-12A Wing][research_yf12_strain_gauges_1979]
+- [NASA 1980 Illustration of Airfoil Shape Effect on Forward-Swept Wing Divergence][research_fsw_airfoil_divergence_1980]
+- [NASA 1980 Thermostructural Analyses of Structural Concepts for Hypersonic Cruise Vehicles][research_thermostructural_hypersonic_1980]
+- [NASA 1980 Wind-Tunnel Experiments on Divergence of Forward-Swept Wings][research_fsw_divergence_tunnel_1980]
 - [NASA 1981 A Survey of Heating and Turbulent Boundary Layer Characteristics of Several Hypersonic Research Airplanes][research_hypersonic_heating_survey_1981]
+- [NASA 1982 Dynamic Stability of Flexible Forward-Swept Wing Aircraft][research_flexible_fsw_dynamics_1982]
+- [NASA 1985 Elevated Temperature Creep-Rupture Behaviour of a Single Crystal Nickel-Base Superalloy][research_creep_single_crystal_1985]
+- [NASA 1986 Compressible Laminar Boundary Layer with Real Gas Effects][research_real_gas_boundary_layer_1986]
+- [NASA 1986 Determination of the Relative Resistance to Ignition of Selected Turbopump Materials][research_turbopump_ignition_1986]
+- [NASA 1986 Divergence Study of a High-Aspect-Ratio Forward-Swept Wing][research_fsw_divergence_study_1986]
+- [NASA 1987 A Feasibility Study of a Hypersonic Real-Gas Facility][research_real_gas_facility_1987]
+- [NASA 1988 Current Flight Test Experience Related to Structural Divergence of Forward-Swept Wings][research_fsw_flight_divergence_1988]
+- [NASA 1989 Calculation of Real-Gas Effects on Blunt-Body Trim Angles][research_real_gas_trim_1989]
+- [NASA 1989 Surface Modification of Monel K-500 to Reduce Friction and Wear][research_monel_k500_1989]
+- [NASA 1990 Design and Operational Features of Low-Disturbance Wind Tunnels at Langley][research_low_disturbance_tunnels_1990]
+- [NASA 1990 Low-Thermal-Stress Structural Joints for Dissimilar Materials][research_dissimilar_joints_1990]
+- [NASA 1990 Prediction of Forces and Moments for Flight Vehicle Control Effectors][research_control_effectors_1990]
+- [NASA 1990 Thermal Stress Analysis of the Hypersonic Wing Test Structure][research_dryden_hwts_thermal_1990]
+- [NASA 1991 Analysis of Cooling Systems for Hypersonic Aircraft][research_cooling_hypersonic_1991]
+- [NASA 1991 Determination of the Effects of Heating on Modal Characteristics of a Plate][research_heated_plate_modes_1991]
+- [NASA 1991 Real Gas Effects on Hypersonic Boundary-Layer Stability][research_real_gas_stability_1991]
+- [NASA 1993 An Aerodynamic Model for Wing Rock of Slender Delta Wings][research_wing_rock_delta_1993]
+- [NASA 1993 Correlation of Analytical and Experimental Hot Structure Vibration Results][research_hot_structure_vibration_1993]
+- [NASA 1993 Creep-Rupture Strength of a Nickel-Base Superalloy at 1400 Kelvin][research_creep_rupture_superalloy_1993]
 - [NASA 1993 The X-15 Airplane, Lessons Learned][research_x15_lessons_1993]
 - [NASA 1995 Selected Examples of NACA and NASA Supersonic Flight Research][research_supersonic_research_1995]
 - [NASA 1997 Coupling Dynamics in Aircraft, A Historical Perspective][research_coupling_history_1997]
 - [NASA 1997 Piloted Simulation Tests of Propulsion Control as Backup to Loss of Primary Flight Control][research_propulsion_backup_1997]
+- [NASA 1998 A Method for Integrating Thrust-Vectoring and Actuated Forebody Strakes][research_thrust_vectoring_strakes_1998]
 - [NASA 2000 A Method for Calculating Transient Surface Temperatures and Surface Heating Rates][research_transient_surface_temp_2000]
 - [NASA 2002 Reynolds Number Effects on the Stability and Control Characteristics of a Supersonic Transport][research_reynolds_sst_2002]
+- [NASA 2005 Axisymmetric Throttleable Non-Gimballed Rocket Engine][research_throttleable_engine_2005]
+- [NASA 2006 Cold Flow Testing for Liquid Propellant Rocket Injector Scaling and Throttling][research_injector_throttling_2006]
+- [NASA 2007 A Deep Throttling Demonstrator Cryogenic Engine][research_cece_throttling_2007]
 - [NASA 2008 Practical Application of a Subscale Transport Aircraft for Flight Research in Control Upset][research_subscale_upset_2008]
+- [NASA 2009 Liquid-Propellant Rocket Engine Throttling, A Comprehensive Review][research_throttling_review_2009]
+- [NASA 2010 A Historical Systems Study of Liquid Rocket Engine Throttling Capabilities][research_throttling_history_2010]
 - [NASA 2014 Aircraft Loss of Control, Research and Technology Directions][research_loc_directions_2014]
 - [NASA 2014 Preliminary Analysis of Aircraft Loss of Control Accidents, Worst Case Precursor Combinations][research_loc_precursors_2014]
+- [NASA 2015 Aerodynamic Models for the Low Density Supersonic Decelerator Flight Dynamics][research_ldsd_dynamics_2015]
+- [NASA 2015 Pilot Deployment of a Supersonic Decelerator Parachute via a Ballute][research_ldsd_ballute_2015]
 - [NASA 2015 The NACA High Speed Flight Research Station and the Development of Reaction Control Systems][research_hsfrs_rcs_2015]
 - [NASA 2016 Flight Experiment Verification of Shuttle Boundary Layer Transition Prediction Tool][research_blt_shuttle_2016]
 - [NASA 2018 Adaptive Load Control of Flexible Aircraft Wings Using Fiber Optic Sensing][research_fiber_optic_loads_2018]
@@ -1203,14 +1261,17 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
 [research_airspeed_calibration_1950]: https://ntrs.nasa.gov/citations/19930090286
+[research_alclad_aging_1943]: https://ntrs.nasa.gov/citations/19930093377
 [research_altunkaya_2025]: https://doi.org/10.2514/1.g008188
 [research_aronov_klyagin_2021]: https://doi.org/10.34759/tpt-2021-13-10-456-466
 [research_artificial_pitch_damping_1959]: https://ntrs.nasa.gov/citations/19980228212
+[research_asymmetric_sweep_flutter_1976]: https://ntrs.nasa.gov/citations/19760014076
 [research_bai_cao_2022]: https://doi.org/10.1016/j.tsep.2022.101297
 [research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
 [research_blt_shuttle_2016]: https://ntrs.nasa.gov/citations/20160010109
 [research_brunton_noack_2020]: https://doi.org/10.1146/annurev-fluid-010719-060214
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
+[research_cece_throttling_2007]: https://ntrs.nasa.gov/citations/20090028814
 [research_cen_li_2020]: https://doi.org/10.1177/0954410020944085
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_chapman_rubesin_1949]: https://doi.org/10.2514/8.11853
@@ -1220,38 +1281,66 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
 [research_cone_heat_transfer_1961]: https://ntrs.nasa.gov/citations/19980235513
 [research_config_stability_1956]: https://ntrs.nasa.gov/citations/19930089016
+[research_control_effectors_1990]: https://ntrs.nasa.gov/citations/19900012418
 [research_cooled_honeycomb_1978]: https://ntrs.nasa.gov/citations/19780014460
+[research_cooling_hypersonic_1991]: https://ntrs.nasa.gov/citations/19920035219
 [research_coupling_history_1997]: https://ntrs.nasa.gov/citations/19970019603
+[research_creep_2024t3_1955]: https://ntrs.nasa.gov/citations/19930093819
+[research_creep_2024t3_1957]: https://ntrs.nasa.gov/citations/19930092300
+[research_creep_rupture_superalloy_1993]: https://ntrs.nasa.gov/citations/19930036559
+[research_creep_single_crystal_1985]: https://ntrs.nasa.gov/citations/19850045661
 [research_deepa_gupta_2023]: https://doi.org/10.61653/joast.v65i2.2013.727
+[research_dissimilar_joints_1990]: https://ntrs.nasa.gov/citations/19900000598
+[research_dryden_hwts_thermal_1990]: https://ntrs.nasa.gov/citations/19940004702
 [research_duan_wan_2026]: https://doi.org/10.3390/aerospace13010096
 [research_eckert_1956]: https://doi.org/10.1115/1.4014011
 [research_egorov_2025]: https://doi.org/10.7868/s3034508125030077
+[research_elevated_tensile_practice_1960]: https://ntrs.nasa.gov/citations/19980227092
 [research_fay_riddell_1958]: https://doi.org/10.2514/8.7517
 [research_fiber_optic_loads_2018]: https://ntrs.nasa.gov/citations/20190033242
 [research_fighter_sweep_model_1954]: https://ntrs.nasa.gov/citations/20090025891
+[research_flexible_fsw_dynamics_1982]: https://ntrs.nasa.gov/citations/19820055567
+[research_flexible_wing_lateral_1951]: https://ntrs.nasa.gov/citations/19930092079
+[research_forebody_deflection_1959]: https://ntrs.nasa.gov/citations/19980228222
+[research_free_flight_tunnel_1952]: https://ntrs.nasa.gov/citations/20050029465
+[research_fsw_airfoil_divergence_1980]: https://ntrs.nasa.gov/citations/19800068478
+[research_fsw_divergence_study_1986]: https://ntrs.nasa.gov/citations/19860017807
+[research_fsw_divergence_tunnel_1980]: https://ntrs.nasa.gov/citations/19800020786
+[research_fsw_flight_divergence_1988]: https://ntrs.nasa.gov/citations/19880015249
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
 [research_goud_dwivedi_2022]: https://doi.org/10.47893/gret.2022.1057
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
 [research_heat_transfer_mach146_1958]: https://ntrs.nasa.gov/citations/19930089952
+[research_heated_plate_modes_1991]: https://ntrs.nasa.gov/citations/19910012798
 [research_heating_ice_1940]: https://ntrs.nasa.gov/citations/20090014120
 [research_high_altitude_1957]: https://ntrs.nasa.gov/citations/19820068145
+[research_highspeed_conference_1958]: https://ntrs.nasa.gov/citations/19710069971
+[research_hot_structure_vibration_1993]: https://ntrs.nasa.gov/citations/19940032137
 [research_hsfrs_rcs_2015]: https://ntrs.nasa.gov/citations/20160000534
 [research_hu_mahadevan_2019]: https://doi.org/10.2514/1.j057865
 [research_hypersonic_heating_survey_1981]: https://ntrs.nasa.gov/citations/19810054730
+[research_hypersonic_research_structure_1976]: https://ntrs.nasa.gov/citations/19760062425
+[research_hypersonic_wing_structure_1975]: https://ntrs.nasa.gov/citations/19750048598
+[research_injector_throttling_2006]: https://ntrs.nasa.gov/citations/20060047749
 [research_jeon_park_2023]: https://doi.org/10.6108/kspe.2023.27.6.009
 [research_ji_xie_2022]: https://doi.org/10.32604/icces.2022.08737
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
 [research_jurado_mcgehee_2019]: https://doi.org/10.2514/1.c034964
 [research_lang_wang_2025]: https://doi.org/10.1109/taes.2025.3571683
+[research_ldsd_ballute_2015]: https://ntrs.nasa.gov/citations/20170008183
+[research_ldsd_dynamics_2015]: https://ntrs.nasa.gov/citations/20150009475
 [research_lees_1956]: https://doi.org/10.2514/8.6977
 [research_li_li_2025]: https://doi.org/10.1109/taes.2025.3596214
 [research_lift_roll_coupling_1972]: https://ntrs.nasa.gov/citations/19720020370
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
+[research_loads_calibration_1977]: https://ntrs.nasa.gov/citations/20020086520
 [research_loads_flutter_conf_1957]: https://ntrs.nasa.gov/citations/19710070068
 [research_loc_directions_2014]: https://ntrs.nasa.gov/citations/20200007706
 [research_loc_precursors_2014]: https://ntrs.nasa.gov/citations/20140003949
+[research_low_disturbance_tunnels_1990]: https://ntrs.nasa.gov/citations/19900050881
 [research_martin_panesi_2022]: https://doi.org/10.2514/1.a35029
+[research_monel_k500_1989]: https://ntrs.nasa.gov/citations/19910032246
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
 [research_nguyen_lowenberg_2021]: https://doi.org/10.2514/1.g005197
 [research_nie_song_2022]: https://doi.org/10.2514/1.c036377
@@ -1259,6 +1348,8 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_nonweiler_1959]: https://doi.org/10.1017/s0368393100071662
 [research_nose_capsule_1949]: https://ntrs.nasa.gov/citations/20050019284
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
+[research_oblique_wing_divergence_1973]: https://ntrs.nasa.gov/citations/19730009309
+[research_oxidation_ignition_1956]: https://ntrs.nasa.gov/citations/19930093830
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
 [research_pitchup_control_1960]: https://ntrs.nasa.gov/citations/19980227095
 [research_pitchup_evaluation_1955]: https://ntrs.nasa.gov/citations/19930092243
@@ -1267,6 +1358,12 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_prata_2022]: https://doi.org/10.2514/1.j060516
 [research_prelim_static_1954]: https://ntrs.nasa.gov/citations/20090026295
 [research_propulsion_backup_1997]: https://ntrs.nasa.gov/citations/19970017380
+[research_rapid_compression_1961]: https://ntrs.nasa.gov/citations/20150020857
+[research_real_gas_boundary_layer_1986]: https://ntrs.nasa.gov/citations/19860035065
+[research_real_gas_facility_1987]: https://ntrs.nasa.gov/citations/19880000661
+[research_real_gas_stability_1991]: https://ntrs.nasa.gov/citations/19910051830
+[research_real_gas_trim_1989]: https://ntrs.nasa.gov/citations/19890041076
+[research_rene41_panels_1975]: https://ntrs.nasa.gov/citations/19750015960
 [research_reynolds_sst_2002]: https://ntrs.nasa.gov/citations/20020023445
 [research_rocket_model_heating_1959]: https://ntrs.nasa.gov/citations/19980232232
 [research_roll_coupling_balance_1973]: https://ntrs.nasa.gov/citations/19740003568
@@ -1277,39 +1374,56 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_shams_khouli_2026]: https://doi.org/10.1115/1.4071374
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 [research_skin_temp_freeflight_1961]: https://ntrs.nasa.gov/citations/20040047118
+[research_spin_tunnel_1960]: https://ntrs.nasa.gov/citations/19980223580
+[research_stainless_rapid_heat_1961]: https://ntrs.nasa.gov/citations/20040006332
 [research_stall_training_2019]: https://ntrs.nasa.gov/citations/20200002681
 [research_stubblefield_kunz_2025]: https://doi.org/10.1016/j.jfluidstructs.2025.104278
 [research_su_hwu_2021]: https://doi.org/10.1080/01495739.2021.2000344
 [research_subscale_upset_2008]: https://ntrs.nasa.gov/citations/20080034480
+[research_supercritical_dynamic_1974]: https://ntrs.nasa.gov/citations/19830002753
 [research_supersonic_research_1995]: https://ntrs.nasa.gov/citations/19960016997
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
 [research_sweep_tail_height_1958]: https://ntrs.nasa.gov/citations/19980232008
 [research_takahashi_2026_airdata]: https://doi.org/10.2514/1.j065479
 [research_takovitskii_2023]: https://doi.org/10.61653/joast.v61i1.2009.632
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
+[research_thermal_stress_correlation_1979]: https://ntrs.nasa.gov/citations/19790012818
+[research_thermostructural_hypersonic_1980]: https://ntrs.nasa.gov/citations/19800039780
+[research_throttleable_engine_2005]: https://ntrs.nasa.gov/citations/20060009006
+[research_throttling_history_2010]: https://ntrs.nasa.gov/citations/20100033271
+[research_throttling_review_2009]: https://ntrs.nasa.gov/citations/20090037061
+[research_thrust_vectoring_strakes_1998]: https://ntrs.nasa.gov/citations/19980232887
 [research_tian_zhang_2023]: https://doi.org/10.3390/coatings13081427
 [research_transient_surface_temp_2000]: https://ntrs.nasa.gov/citations/20010002830
 [research_transition_flight_1958]: https://ntrs.nasa.gov/citations/19630008170
 [research_transonic_summary_1959]: https://ntrs.nasa.gov/citations/19980228028
+[research_turbopump_ignition_1986]: https://ntrs.nasa.gov/citations/19890006633
 [research_vernacchia_2022]: https://doi.org/10.2514/1.b38104
+[research_vtail_interference_1956]: https://ntrs.nasa.gov/citations/19660010448
 [research_weiss_staudacher_2022]: https://doi.org/10.3390/machines10100846
 [research_whitcomb_1952]: https://ntrs.nasa.gov/citations/19930092271
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
+[research_wing_rock_delta_1993]: https://ntrs.nasa.gov/citations/19930017961
 [research_wright_1936]: https://doi.org/10.2514/8.155
 [research_x15_conference_1958]: https://ntrs.nasa.gov/citations/19710070129
 [research_x15_escape_1958]: https://ntrs.nasa.gov/citations/19930092389
+[research_x15_first_flight_1959]: https://ntrs.nasa.gov/citations/19980236840
+[research_x15_first_landing_1959]: https://ntrs.nasa.gov/citations/19980227362
 [research_x15_heating_1962]: https://ntrs.nasa.gov/citations/19660020178
 [research_x15_lessons_1993]: https://ntrs.nasa.gov/citations/19930039008
+[research_x15_skin_temps_1961]: https://ntrs.nasa.gov/citations/19630004036
 [research_x1_liftdrag_1953]: https://ntrs.nasa.gov/citations/19930087731
 [research_x2_first_landing_1952]: https://ntrs.nasa.gov/citations/19930087318
 [research_x2_glide_1953]: https://ntrs.nasa.gov/citations/19930087801
 [research_x2_lateral_model_1958]: https://ntrs.nasa.gov/citations/19930089979
 [research_x2_mach32_1959]: https://ntrs.nasa.gov/citations/19980227870
+[research_x4_stall_1950]: https://ntrs.nasa.gov/citations/19930090543
 [research_x5_stability_1953]: https://ntrs.nasa.gov/citations/19930087479
 [research_x5_tail_loads_1955]: https://ntrs.nasa.gov/citations/19930088802
 [research_xb70_stability_1973]: https://ntrs.nasa.gov/citations/19730023226
 [research_xie_cai_2023]: https://doi.org/10.2514/1.c037239
 [research_xu_yue_2019]: https://doi.org/10.1007/s11071-019-05159-3
+[research_yf12_strain_gauges_1979]: https://ntrs.nasa.gov/citations/19790042387
 [research_yildirim_2020]: https://doi.org/10.1080/01495739.2020.1770644
 [research_yildiz_akcal_2019]: https://doi.org/10.2514/1.g004180
 [research_zubair_ejaz_2022]: https://doi.org/10.4028/p-g44bm8

@@ -9,8 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A299 drafted, then taken through an equation-density review. A297 and A298 are unchanged
-and already pushed. **No article in this series is published.** All three remain in `_drafts/`.
+**Task**: A299 drafted, then taken through equation-density and primary-reference reviews. A297 and
+A298 are unchanged and already pushed. **No article in this series is published.** All three remain in
+`_drafts/`.
 
 ---
 
@@ -18,10 +19,34 @@ and already pushed. **No article in this series is published.** All three remain
 
 `_drafts/x_planes_bell_x2.markdown`, editorial date 2025-10-08, series index 3 of 72.
 
-**1315 lines, 126 display equations, 287 reference definitions, 15,212 words.** Both figures are now
-inside the 1300-to-1600 and 90-to-130 bands, reached with content rather than padding. Primary
-sources are 42.2 percent of external references and contemporary coverage is 31.5 percent, the latter
-the highest of the three articles.
+**1429 lines, 126 display equations, 343 reference definitions, 16,883 words.** Lines, equations, and
+references are all inside band, reached with content rather than padding. **Primary sources are now
+52.0 percent of external references, up from 42.2**, which puts A299 level with A298.
+
+The primary pass added 56 NASA and NACA reports, every one a fixed NTRS document identifier resolved
+through the citations API. The gap was coverage rather than volume and four cases are worth naming,
+because each was an argument the reference index did not support.
+
+The article selected a material against temperature and cited no material property data. It now cites
+compressive strength and creep lifetime measurements on the aluminium it rejected, and tensile
+properties of stainless sheet **under rapid heating**, which is the relevant condition for a heat sink
+rather than a soaked structure. It also cites the work establishing how such a test should be run,
+since a short-time elevated-temperature test is not a room-temperature test performed hot.
+
+It described a throttleable rocket engine as the hard part of the programme and cited nothing on
+throttling. It now cites the comprehensive review and the historical systems study, and the fact that
+a capability the X-2 needed in 1955 still supports a review literature in 2010 is the measure of how
+hard it was.
+
+It asserted that a static wind tunnel model could not have found the coupling and cited no
+free-flight work. **The Langley free-flight tunnel had been doing dynamically scaled stability testing
+since at least 1952.** The right instrument existed and was not used on this aircraft, which is a
+sharper finding than the one the article originally made.
+
+It derived thermal stress at length and cited no measurement of thermal stress on a real airframe.
+That literature exists, along with the dissimilar-material joint work that is the design response,
+and the strain-gauging problem on a hot structure, where the gauge and its adhesive respond to
+temperature as well as to strain.
 
 The equation review added 29 equations across 12 edits. **It also corrected a defect the previous
 pass introduced**, a Larson-Miller step written with a meaningless trailing term and no worked
@@ -72,6 +97,10 @@ Breaks Down and will recur.
 ---
 
 ## Verification of A299
+
+All 343 references cited, zero undefined, zero orphaned. **All 115 NTRS fixed identifiers swept at
+200.** One malformed link was caught and fixed, a closing parenthesis in place of a bracket that would
+have rendered as literal text and was detected only because the anchor showed as uncited.
 
 All 55 worked numerical examples re-derived independently across both rounds. **Seven disagreed and
 were corrected.** Three came from the equation pass, being a friction drag coefficient whose Reynolds
