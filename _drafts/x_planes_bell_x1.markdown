@@ -25,7 +25,9 @@ $$C_p = \frac{C_{p,0}}{\sqrt{1 - M_\infty^2}}$$
 
 with $C_{p,0}$ the incompressible pressure coefficient and $M_\infty$ the free-stream [Mach number][ref_mach_number]. The expression [diverges][ref_prandtl_glauert_singularity] as $M_\infty$ approaches unity. That divergence is not a physical prediction of infinite drag. It is the linearization failing at exactly the condition of interest, and the supersonic counterpart of [Ackeret 1925][research_ackeret_1925] is equally singular approached from above. Theory therefore had nothing to say in the band that mattered.
 
-The experimental facilities had a matching failure. A closed-throat [wind tunnel][ref_wind_tunnel] chokes when the model blocks enough of the test section that the flow reaches sonic conditions at the minimum area, and the tunnel then cannot be driven past that condition regardless of available power. The choking condition is not a matter of insufficient power and can be written down. One-dimensional isentropic flow relates local area to Mach number through
+It is worth correcting an impression the popular account leaves, which is that the transonic problem arrived suddenly with the jet engine. It did not. The NACA had been working it for a decade using propeller tips, which reach high local Mach numbers while the aircraft itself is slow. [Stack 1935][research_stack_1935_burble] named the phenomenon the compressibility burble and described the abrupt loss of lift and rise in drag that accompanies it, with the systematic section data in [NACA 1935][research_stack_1935_16_airfoils]. [NACA 1939][research_burble_1939_pressures] measured the pressures and forces through the burble directly, and a sustained effort to delay its onset by section design ran through [NACA 1939][research_burble_delay_1939] and [NACA 1944][research_burble_delay_1944]. The same compressibility limit governed engine cowling design, treated in [NACA 1942][research_cowling_highspeed_1942].
+
+That decade of work established what the problem was and left open what happened past it, which is a precise statement of what the X-1 was for. The experimental facilities had a matching failure. A closed-throat [wind tunnel][ref_wind_tunnel] chokes when the model blocks enough of the test section that the flow reaches sonic conditions at the minimum area, and the tunnel then cannot be driven past that condition regardless of available power. The choking condition is not a matter of insufficient power and can be written down. One-dimensional isentropic flow relates local area to Mach number through
 
 $$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
 
@@ -77,7 +79,7 @@ The question the X-1 was built to answer was therefore not whether an aircraft c
 
 ## Programme Origin
 
-The programme originated in a 1944 agreement between the Army Air Forces and the NACA to build a research aircraft dedicated to the transonic problem, with the Navy pursuing a parallel and partly overlapping effort that produced the Douglas D-558 series. The rationale for a dedicated research aircraft, as opposed to instrumenting a service type, was argued in print by the people who built it in [Williams and Drake][research_williams_drake_1948], which remains the clearest contemporary statement of why the flight-only residual justified the expense. The division of labour matters for reading the record. The NACA specified the research programme and the instrumentation and wanted an aircraft that could be flown repeatedly at incrementally increasing Mach number. The Army Air Forces wanted a demonstration. Those two objectives are not the same and they produced visible friction over the flight programme, which is treated below.
+The programme originated in a 1944 agreement between the Army Air Forces and the NACA to build a research aircraft dedicated to the transonic problem, with the Navy pursuing a parallel and partly overlapping effort that produced the Douglas D-558 series, whose transonic handling qualities are reported in [NACA 1954][research_d558_handling_1954], its slat loads in [NACA 1953][research_d558_slat_1953], and the drag penalty of external stores in [NACA 1957][research_d558_stores_1957]. The two programmes are best read together, because the Navy aircraft was turbojet-powered and runway-launched where the X-1 was rocket-powered and air-launched, so the pair brackets the design space rather than duplicating a point in it. The rationale for a dedicated research aircraft, as opposed to instrumenting a service type, was argued in print by the people who built it in [Williams and Drake][research_williams_drake_1948], which remains the clearest contemporary statement of why the flight-only residual justified the expense. The division of labour matters for reading the record. The NACA specified the research programme and the instrumentation and wanted an aircraft that could be flown repeatedly at incrementally increasing Mach number. The Army Air Forces wanted a demonstration. Those two objectives are not the same and they produced visible friction over the flight programme, which is treated below.
 
 Bell Aircraft received the airframe contract in March 1945 for what was then designated the XS-1, for Experimental Supersonic, later shortened to X-1. Three airframes were built, and the fleet size agrees with the attrition sizing derived in the [series opener][related_post_a297_xplanes_framing]. Three is also close to the worst possible quantity from a unit-cost standpoint, because the learning effects quantified for airframe manufacture by [Wright 1936][research_wright_1936],
 
@@ -195,7 +197,7 @@ Wave drag reinforces the same conclusion. For a slender body the minimum wave dr
 
 $$\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2$$
 
-so thickness enters quadratically rather than linearly. The [area rule][ref_whitcomb_area_rule] that follows from the same reasoning, established by [Whitcomb][research_whitcomb_1952] several years later, was not available to the X-1 designers, and the aircraft carries no waisting.
+so thickness enters quadratically rather than linearly. The [area rule][ref_whitcomb_area_rule] that follows from the same reasoning, established by [Whitcomb][research_whitcomb_1952] several years later, was not available to the X-1 designers, and the aircraft carries no waisting. The experimental route to it is visible in the intervening literature. [NACA 1948][research_transonic_drag_wingbody_1948] measured the transonic drag of a wing-body combination, [NACA 1949][research_comparative_drag_1949] and [NACA 1950][research_comparative_drag_1950] compared rectangular against sweptback sections at the same conditions, [NACA 1954][research_fuselage_mods_drag_1954] examined what fuselage modification alone could achieve, and [NACA 1954][research_drag_rise_reduction_1954] investigated reducing the zero-lift drag rise by adding volume in the right place, which is the area rule stated experimentally. Separation-controlled variants of the same idea were still being tried in [NASA 1971][research_drag_rise_notches_1971].
 
 Lift at the test condition follows from the [lift coefficient][ref_lift_coefficient],
 
@@ -369,7 +371,7 @@ $$q_D = \frac{K_\theta}{e S C_{L\alpha}}$$
 
 and a thin unswept wing at low dynamic pressure is comfortably clear of it, which is one of the few places the X-1 had margin to spare. The standard treatments are [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955] and [Fung 1955][book_fung_1955], with wing-aileron flutter of the later thin-wing X-1E measured in [NACA 1957][research_x1e_flutter_1957].
 
-Measured wing and tail loads from the acceptance programme appear in [NACA 1948][research_xs1_loads_1948], and the flight-determined fuselage pressures in [NACA 1953][research_x1_fuselage_pressures_1953] and [NACA 1953][research_x1_base_pressures_1953]. Contemporary practice for the same measurement problem is described by [Zhao and Li 2024][research_zhao_li_2024], and the calibration of strain-gauge installations remains the same exercise it was then.
+Wing loads determined from pressure measurement on the ten-percent-thick aircraft are reported in [NACA 1953][research_x1_wing_loads_1953], and the equivalent horizontal-tail load measurements on the sibling [Bell X-5][ref_bell_x5] in [NACA 1955][research_x5_tail_loads_1955]. The loads and structures community treated these programmes together, as the [NACA 1957 conference on aircraft loads, structures, and flutter][research_loads_flutter_conf_1957] records, and flight flutter testing acquired its own literature in the [NASA 1975 symposium][research_flutter_symposium_1975]. Measured wing and tail loads from the acceptance programme appear in [NACA 1948][research_xs1_loads_1948], and the flight-determined fuselage pressures in [NACA 1953][research_x1_fuselage_pressures_1953] and [NACA 1953][research_x1_base_pressures_1953]. Contemporary practice for the same measurement problem is described by [Zhao and Li 2024][research_zhao_li_2024], and the calibration of strain-gauge installations remains the same exercise it was then.
 
 ### The All-Moving Tail
 
@@ -443,7 +445,7 @@ with damping ratio
 
 $$\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}$$
 
-so the aircraft becomes simultaneously harder to trim, quicker to respond, and relatively less damped, which is a demanding combination for a pilot. The tail also sits in the wing wake, so its effective incidence carries the downwash derivative
+so the aircraft becomes simultaneously harder to trim, quicker to respond, and relatively less damped, which is a demanding combination for a pilot. The related failure mode, in which the aircraft pitches up uncommandedly as the tail enters the wing wake at high angle of attack, became a preoccupation of the same period and is documented in [NACA 1953][research_longitudinal_accel_1953], [NACA 1955][research_pitchup_evaluation_1955], and eventually addressed by automatic intervention in [NASA 1960][research_pitchup_control_1960]. Configuration effects on the same behaviour appear in [NASA 1959][research_unswept_stability_1959], and an alternative control-feel approach using a spring-loaded tab in [NACA 1946][research_spring_tab_1946]. The tail also sits in the wing wake, so its effective incidence carries the downwash derivative
 
 $$\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0$$
 
@@ -497,7 +499,7 @@ The sensitivity can be written out rather than left as a function. Differentiati
 
 $$\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d(p_0 / p)}{p_0 / p}$$
 
-so a one percent error in the measured pressure ratio produces roughly a one percent error in Mach number at Mach one, and rather more at lower Mach number where the leading factor grows. Calibrating the static source through the transonic band, where the error itself moves as the shock crosses the port, was therefore a research task in its own right rather than a bench calibration. The uncertainty in derived quantities then propagates through
+so a one percent error in the measured pressure ratio produces roughly a one percent error in Mach number at Mach one, and rather more at lower Mach number where the leading factor grows. Calibrating the static source through the transonic band, where the error itself moves as the shock crosses the port, was therefore a research task in its own right rather than a bench calibration. The NACA treated it as one. [NACA 1948][research_pitot_supersonic_1948] investigated the behaviour of pitot-static tubes at supersonic speeds directly, which is the experimental counterpart of the Rayleigh relation above. [NACA 1950][research_airspeed_calibration_1950] reports the flight calibration of four separate airspeed systems on one aircraft through Mach one, which is the only honest way to establish what a static source is doing when theory cannot be trusted, and [NACA 1956][research_pitot_vane_1956] extends the calibration to a combined pressure and flow-angularity probe. Anyone inclined to treat the Mach 1.06 figure as a simple instrument reading should look at the length of that calibration literature. The uncertainty in derived quantities then propagates through
 
 $$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
 
@@ -573,7 +575,7 @@ The third airframe was lost in a ground explosion in 1951 attributed to a gasket
 
 The similarity-gap argument is only worth making if the flight data actually disagreed with the ground prediction, so it is worth asking what the comparison showed.
 
-Three independent ground methods were applied to the same configuration. Wind tunnel tests on a quarter-scale model are reported in [NACA 1976][research_xs1_tunnel_1976], and on a sixteenth-scale model in [NACA 1947][research_xs1_model_1947] and [NACA 1948][research_xs1_model_stability_1948]. The free-fall method, in which an instrumented body is dropped from altitude and accelerates through the transonic band under gravity, is reported in [NACA 1948][research_xs1_freefall_1948] and had the considerable advantage of reaching the choked band that tunnels could not. Rocket-propelled models provided a fourth route, used for buffet in [NACA 1953][research_buffet_rocket_models_1953].
+Three independent ground methods were applied to the same configuration. Wind tunnel tests on a quarter-scale model are reported in [NACA 1976][research_xs1_tunnel_1976], and on a sixteenth-scale model in [NACA 1947][research_xs1_model_1947] and [NACA 1948][research_xs1_model_stability_1948]. The free-fall method, in which an instrumented body is dropped from altitude and accelerates through the transonic band under gravity, is reported for this configuration in [NACA 1948][research_xs1_freefall_1948] and had the considerable advantage of reaching the choked band that tunnels could not. It was a substantial programme in its own right rather than a sideline. [NACA 1945][research_freefall_1945] established the technique, [NACA 1947][research_freefall_65009_1947] applied it to airfoil sections, [NACA 1947][research_freefall_wingbody_1947] and [NACA 1947][research_freefall_sweptfwd_1947] to wing-body combinations including a swept-forward planform, and [NACA 1953][research_freefall_interference_1953] to wing-body interference specifically. The method produced much of the transonic drag data that existed before the X-1 flew, and it is the reason the drag rise was expected rather than discovered. Rocket-propelled models provided a fourth route, used for buffet in [NACA 1953][research_buffet_rocket_models_1953].
 
 The agreement was configuration-dependent rather than uniform. Forces and moments away from the drag rise matched acceptably. Inside the band, and particularly for control surface effectiveness and for the location of separation, they did not, because those quantities depend on boundary layer state and therefore on Reynolds number, which the ground methods did not match. The mechanism is that transition location scales with Reynolds number, so a model at one sixteenth of flight Reynolds number carries laminar flow over a region that is turbulent in flight. Taking a transition criterion of the form
 
@@ -599,6 +601,12 @@ The transonic drag database fed directly into the design of the first generation
 
 The successor research airplanes inherited the configuration and the method directly. The [Bell X-2][ref_bell_x2] took the same approach into a thermal and structural regime the X-1 never reached, with glide results in [NACA 1953][research_x2_glide_1953] and the Mach 3.2 flight behaviour in [NASA 1959][research_x2_mach32_1959]. The [Bell X-5][ref_bell_x5] tested variable sweep against the same transonic problem, reported in [NACA 1953][research_x5_stability_1953]. The [Northrop X-4 Bantam][ref_northrop_x4] tested the semitailless configuration that the transonic control problem appeared to argue for. The [Douglas X-3 Stiletto][ref_douglas_x3] pursued sustained supersonic flight and produced the inertia coupling data instead. The [North American X-15][ref_na_x15], whose programme documentation begins with [NACA 1958][research_x15_conference_1958], carried the method to hypersonic speeds. The [Lockheed F-104 Starfighter][ref_f104] inherited the thin unswept wing directly.
 
+The consolidated result of the whole effort is best seen in the summaries rather than in any single report. [NASA 1959][research_transonic_summary_1959] gathers the flight-determined transonic lift and drag characteristics of several research airplanes into one comparison, which is the database the programme existed to produce, and [NASA 1995][research_supersonic_research_1995] reviews the supersonic flight research programme across four decades. [NASA 1993][research_x15_lessons_1993] performs the same service for the X-15, and [NASA 2015][research_hsfrs_rcs_2015] traces the reaction control lineage from the High Speed Flight Research Station. Operations at extreme altitude, which the X-1 opened and the X-15 completed, are surveyed in [NACA 1957][research_high_altitude_1957].
+
+Boundary layer behaviour in flight, which the tunnel comparison above identified as the weakest link, eventually acquired its own flight measurement programme in [NACA 1958][research_transition_flight_1958]. Buffet became a recurring flight-test subject on the successor fleet, documented for the [F-104][research_f104_buffet_1972], for the supercritical-wing [F-8][research_f8_buffet_1977], and in the general investigations of [NASA 1974][research_buffet_response_1974] and [NASA 1978][research_buffet_response_1978], and it is still being characterized on modern fighters as in [NASA 2000][research_f22_fin_buffet_2000]. The supercritical wing that eventually tamed the drag rise for transport aircraft appears in [NASA 1972][research_supercritical_17pct_1972].
+
+The operational counterpart is worth naming. Once the research airplanes established what the transonic band did, the NACA instrumented service aircraft in ordinary squadron use to find out what pilots actually did in it, reported for the [F-86A][research_f86_squadron_1952] and the [F-84G][research_f84g_squadron_1953]. That transition from research aircraft to fleet instrumentation is the point at which a research programme has succeeded.
+
 The programme established the research-aircraft method itself, which is the largest consequence and the least tangible. Incremental envelope expansion, dedicated instrumentation, ground data reduction between flights, and a fleet sized for attrition are all visible in the X-1 programme and were subsequently applied to every aircraft in this series. [Vincenti 1990][book_vincenti_1990] treats this kind of knowledge generation directly, and [Hallion 1981][book_hallion_1981_on_the_frontier] and [Gorn 2001][book_gorn_2001_expanding_envelope] cover the institutional consolidation at [Muroc and Edwards][ref_muroc].
 
 The contemporary literature shows how much of the underlying problem remains open. Transonic buffet onset is still predicted rather than computed with confidence, as in [Chung 2017][research_chung_2017] and [Qi and Gao 2026][research_qi_gao_2026], and its control is an active subject in [Di Pasquale and Prince 2023][research_dipasquale_prince_2023] and [Liu and Yang 2016][research_liu_yang_2016]. Shock and boundary-layer interaction remains a research problem treated by [Dai and Zhang 2023][research_dai_zhang_2023], [Ma and Yu 2024][research_ma_yu_2024], and [Natarajan 2022][research_natarajan_2022], with [vortex generators][research_vortex_generator_1952] appearing in the NACA record of 1952 and in the contemporary literature alike. Transonic wing design remains an optimization problem in [Poole and Allen 2026][research_poole_allen_2026] and [Chau and Zingg 2022][research_chau_zingg_2022], and compressibility effects in [Russo and Tognaccini 2020][research_russo_tognaccini_2020]. The transonic band the X-1 opened is characterized rather than closed.
@@ -613,7 +621,9 @@ Buffet is the second thread. Onset prediction remains empirical enough to warran
 
 Transonic design has become an optimization discipline. [Poole and Allen 2026][research_poole_allen_2026] treat the design point itself as a variable, and [Chau and Zingg 2022][research_chau_zingg_2022] optimize an entire strut-braced configuration in the same band the X-1 explored one point at a time. Compressibility corrections of the kind that failed the X-1 designers are still being refined, as in [Russo and Tognaccini 2020][research_russo_tognaccini_2020]. Machine learning has entered the modelling of exactly these flows, surveyed by [Brunton and Noack 2020][research_brunton_noack_2020].
 
-The measurement side has advanced without changing its character. Flight load calibration remains the same exercise described by [Zhao and Li 2024][research_zhao_li_2024], envelope expansion still proceeds by increments as in [Deepa and Gupta 2023][research_deepa_gupta_2023], and system identification from flight data is surveyed by [Grauer and Morelli 2023][research_grauer_morelli_2023]. Boundary layer transition, which the X-1 encountered only as a scaling nuisance, became the central uncertainty for later vehicles and is still verified against flight experiment in [NASA 2016][research_blt_shuttle_2016]. Fibre optic sensing of the kind reported in [NASA 2018][research_fiber_optic_loads_2018] is the modern version of the strain gauge installation the X-1 carried.
+Ground facilities and computation eventually took back much of the band. Two-dimensional transonic flow yielded to combined experiment and theory in [NASA 1973][research_transonic_2d_1973], lifting wing-body combinations in [NASA 1974][research_transonic_wingbody_1974], and test-section flow quality itself became a design subject in [NASA 1982][research_calspan_ejector_1982]. The modern continuation is visible in the shock and boundary layer interaction experiments summarized in [NASA 2022][research_sbli_experiments_2022], the natural-laminar-flow slotted cruise wing of [NASA 2024][research_slotted_nlf_2024], and the transonic correction method for flight dynamic stability analysis in [NASA 2021][research_transonic_correction_2021]. Control derivative extraction in the same regime is treated by [NASA 2023][research_control_derivative_2023].
+
+The measurement side has advanced without changing its character. Flight load calibration remains the same exercise described by [Zhao and Li 2024][research_zhao_li_2024], envelope expansion still proceeds by increments as in [Deepa and Gupta 2023][research_deepa_gupta_2023], and system identification from flight data is surveyed by [Grauer and Morelli 2023][research_grauer_morelli_2023]. Boundary layer transition, which the X-1 encountered only as a scaling nuisance, became the central uncertainty for later vehicles and is still verified against flight experiment in [NASA 2016][research_blt_shuttle_2016]. Fibre optic sensing of the kind reported in [NASA 2018][research_fiber_optic_loads_2018] is the modern version of the strain gauge installation the X-1 carried. Flight-determined lift and drag remains the deliverable it was, whether for a forward-swept research aircraft as in [NASA 1994][research_fsw_liftdrag_1994] or for a propulsion experiment carried on a supersonic testbed as in [NASA 1998][research_aerospike_sr71_1998]. Neither of those aircraft resembles the X-1, and both were flown by the same method.
 
 Finally, the civil supersonic question that the X-1 opened by demonstration is being reopened by regulation. [Ross 2021][research_ross_2021] reports the return of supersonic civil demonstrators, and [Coen and Loubeau 2023][research_coen_loubeau_2023] address the acceptability standard that would permit overland flight. That is the descendant of the X-1 result, and the aircraft addressing it is the X-59 rather than anything in the first generation.
 
@@ -871,48 +881,102 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 - [Liu and Yang 2016 Numerical Study on Transonic Shock Oscillation Suppression][research_liu_yang_2016]
 - [Ma and Yu 2024 Flow Control Treatment for Shock Wave and Boundary Layer Interaction][research_ma_yu_2024]
 - [Munk 1921 The Minimum Induced Drag of Aerofoils][research_munk_1921]
+- [NACA 1935 Tests of Sixteen Related Airfoils at High Speed][research_stack_1935_16_airfoils]
+- [NACA 1939 Tests of Airfoils Designed to Delay the Compressibility Burble][research_burble_delay_1939]
+- [NACA 1939 The Compressibility Burble and the Effect of Compressibility on Pressures and Forces][research_burble_1939_pressures]
+- [NACA 1942 High-Speed Tests of Conventional Radial-Engine Cowlings][research_cowling_highspeed_1942]
+- [NACA 1944 Tests of Airfoils Designed to Delay the Compressibility Burble][research_burble_delay_1944]
 - [NACA 1945 Comparison of Fixed-Stabilizer, Adjustable-Stabilizer, and All-Movable Horizontal Tails][research_allmovable_comparison_1945]
+- [NACA 1945 Drag Measurement at Transonic Speeds on a Freely Falling Body][research_freefall_1945]
 - [NACA 1945 Preliminary Flight Research on an All-Movable Horizontal Tail as a Longitudinal Control][research_allmovable_prelim_1945]
+- [NACA 1946 Flight Measurements to Determine the Effect of a Spring-Loaded Tab on Longitudinal Stability][research_spring_tab_1946]
 - [NACA 1946 Flight Tests of an All-Movable Horizontal Tail with Geared Unbalancing Tabs][research_allmovable_geared_1946]
+- [NACA 1947 Drag Measurements at Transonic Speeds of NACA 65-009 Airfoils Mounted on a Freely Falling Body][research_freefall_65009_1947]
+- [NACA 1947 Drag of a Wing-Body Configuration Consisting of a Swept-Forward Tapered Wing][research_freefall_sweptfwd_1947]
 - [NACA 1947 Force and Longitudinal Control Characteristics of a One-Sixteenth-Scale Model of the Bell XS-1][research_xs1_model_1947]
+- [NACA 1947 Free-Fall Measurements at Transonic Velocities of the Drag of a Wing-Body Configuration][research_freefall_wingbody_1947]
 - [NACA 1948 Determination by the Free-Fall Method of the Longitudinal Stability and Control Characteristics][research_xs1_freefall_1948]
 - [NACA 1948 Effect of Downwash on the Estimated Elevator Deflection Required for Trim of the XS-1][research_xs1_downwash_1948]
 - [NACA 1948 Flight Investigation of a Combined Geared Unbalancing-Tab and Servotab Control System][research_geared_tab_1948]
 - [NACA 1948 Force, Static Longitudinal Stability, and Control Characteristics of a One-Sixteenth-Scale Model of the Bell XS-1][research_xs1_model_stability_1948]
 - [NACA 1948 General Handling-Qualities Results Obtained During Acceptance Flight Tests of the Bell XS-1][research_xs1_handling_1948]
+- [NACA 1948 Investigation of Two Pitot-Static Tubes at Supersonic Speeds][research_pitot_supersonic_1948]
 - [NACA 1948 Measurements of the Wing and Tail Loads During the Acceptance Tests of the Bell XS-1][research_xs1_loads_1948]
 - [NACA 1948 Results Obtained During Accelerated Transonic Tests of the Bell XS-1 Airplane in Flight][research_xs1_accelerated_1948]
+- [NACA 1948 Transonic Drag Characteristics of a Wing-Body Combination][research_transonic_drag_wingbody_1948]
+- [NACA 1949 Comparative Drag Measurements at Transonic Speeds of Rectangular and Sweptback Airfoils][research_comparative_drag_1949]
 - [NACA 1949 Conference on Aerodynamic Problems of Transonic Airplane Design][research_transonic_conference_1949]
 - [NACA 1950 A Study of the Dynamic Stability of the Bell X-1 Research Airplane][research_x1_dynamic_stability_1950]
+- [NACA 1950 Comparative Drag Measurements at Transonic Speeds of Rectangular and Sweptback Airfoils][research_comparative_drag_1950]
 - [NACA 1950 Effects on the Lateral Oscillation of Fixing the Rudder and Reflexing the Flaps][research_x1_lateral_1950]
+- [NACA 1950 Flight Calibration of Four Airspeed Systems on a Swept-Wing Airplane][research_airspeed_calibration_1950]
 - [NACA 1952 An Investigation of the Effects of a Vortex-Generator Configuration on Aerodynamic Characteristics][research_vortex_generator_1952]
+- [NACA 1952 Time-History Data of Maneuvers Performed by an F-86A Airplane During Squadron Operations][research_f86_squadron_1952]
 - [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
+- [NACA 1953 Flight Determination of the Longitudinal Stability in Accelerated Maneuvers at Transonic Speeds][research_longitudinal_accel_1953]
 - [NACA 1953 Flight Determination of the Static Longitudinal Stability Boundaries of the Bell X-5][research_x5_stability_1953]
 - [NACA 1953 Flight Measurements of Lift and Drag for the Bell X-1 Research Airplane Having a Ten-Percent-Thick Wing][research_x1_liftdrag_1953]
 - [NACA 1953 Flight Measurements of Pressures on the Base and Rear Part of the Fuselage of the Bell X-1][research_x1_base_pressures_1953]
 - [NACA 1953 Flight Test Results of Rocket-Propelled Buffet-Research Models][research_buffet_rocket_models_1953]
 - [NACA 1953 Flight-Determined Pressure Distributions over the Wing of the Bell X-1 Research Airplane][research_x1_wing_pressures_1953]
+- [NACA 1953 Free-Fall Measurements of the Effects of Wing-Body Interference on Transonic Drag][research_freefall_interference_1953]
 - [NACA 1953 Fuselage Pressures Measured on the Bell X-1 Research Airplane in Transonic Flight][research_x1_fuselage_pressures_1953]
 - [NACA 1953 Horizontal-Tail Load Measurements at Transonic Speeds of the Bell X-1 Research Airplane][research_x1_tail_loads_1953]
 - [NACA 1953 Measurements Obtained During the Glide-Flight Program of the Bell X-2 Research Airplane][research_x2_glide_1953]
+- [NACA 1953 Time-History Data of Maneuvers Performed by a Republic F-84G Airplane During Squadron Operations][research_f84g_squadron_1953]
+- [NACA 1953 Transonic Flight Measurement of the Aerodynamic Load on the Extended Slat of the Douglas D-558][research_d558_slat_1953]
+- [NACA 1953 Wing Loads on the Bell X-1 Research Airplane with the Ten-Percent-Thick Wing][research_x1_wing_loads_1953]
+- [NACA 1954 An Experimental Investigation of the Reduction in Transonic Drag Rise at Zero Lift][research_drag_rise_reduction_1954]
+- [NACA 1954 Determination of Longitudinal Handling Qualities of the D-558-II Research Airplane at Transonic Speeds][research_d558_handling_1954]
+- [NACA 1954 Effects of Fuselage Modifications on the Drag Characteristics of a Scale Model][research_fuselage_mods_drag_1954]
+- [NACA 1955 A Flight Evaluation of the Longitudinal Stability Characteristics Associated with Pitch-Up][research_pitchup_evaluation_1955]
+- [NACA 1955 Flight Measurements of Horizontal-Tail Loads on the Bell X-5 Research Airplane][research_x5_tail_loads_1955]
 - [NACA 1956 Experimental and Theoretical Studies of Interference Effects on the Damping in Roll][research_x1a_interference_1956]
+- [NACA 1956 Wind-Tunnel Calibration of a Combined Pitot-Static Tube and Vane-Type Flow-Angularity Indicator][research_pitot_vane_1956]
 - [NACA 1956 Wind-Tunnel Investigation of the Damping in Roll of the Bell X-1A Research Airplane][research_x1a_damping_1956]
 - [NACA 1956 Wind-Tunnel Investigation of the Damping in Roll of the Bell X-1E Research Airplane][research_x1e_damping_1956]
 - [NACA 1957 A Note on the Ability to Predict Transonic Drag-Rise Changes Due to Model Modification][research_transonic_predict_1957]
+- [NACA 1957 Conference on Aircraft Loads, Structures, and Flutter][research_loads_flutter_conf_1957]
+- [NACA 1957 Effect of Wing-Mounted External Stores on the Lift and Drag of the Douglas D-558-II][research_d558_stores_1957]
 - [NACA 1957 Experimental Investigation of Wing-Aileron Flutter Characteristics of a Quarter-Scale Dynamic Model][research_x1e_flutter_1957]
+- [NACA 1957 Flight Research at High Altitude][research_high_altitude_1957]
 - [NACA 1957 Transonic Flutter Investigation of an All-Movable Horizontal Tail for a Fighter Airplane][research_allmovable_flutter_1957]
 - [NACA 1957 Wind-Tunnel Investigation of Static Lateral and Longitudinal Stability Characteristics][research_x1e_lateral_1957]
+- [NACA 1958 Boundary-Layer-Transition Measurements in Full-Scale Flight][research_transition_flight_1958]
 - [NACA 1958 Measurements of the Buffeting Loads on the Wing and Horizontal Tail of a Quarter-Scale Model][research_buffet_loads_1958]
 - [NACA 1958 Research-Airplane-Committee Report on the Conference on the Progress of the X-15 Project][research_x15_conference_1958]
 - [NACA 1976 Wind-Tunnel Tests of a One-Quarter-Scale Model of the Bell XS-1 Transonic Airplane][research_xs1_tunnel_1976]
 - [NASA 1958 Transonic Flutter Investigation of Models of the All-Movable Horizontal Tail of a Fighter][research_allmovable_flutter_1958]
+- [NASA 1959 A Summary of Flight-Determined Transonic Lift and Drag Characteristics of Several Research Airplanes][research_transonic_summary_1959]
 - [NASA 1959 Flight Behavior of the X-2 Research Airplane to a Mach Number of 3.20][research_x2_mach32_1959]
 - [NASA 1959 Flight Studies of Problems Pertinent to High-Speed Operation of Jet Transports][research_jet_transport_highspeed_1959]
+- [NASA 1959 Static Longitudinal Stability and Control Characteristics of an Unswept Wing and Unswept Tail][research_unswept_stability_1959]
 - [NASA 1959 Wind-Tunnel Investigation of the Static Stability of a Model of the X-1E Airplane][research_x1e_stability_1959]
+- [NASA 1960 Flight Investigation of an Automatic Pitch-Up Control][research_pitchup_control_1960]
 - [NASA 1971 Drag of a Supercritical Body of Revolution in Free Flight at Transonic Speeds][research_supercritical_body_1971]
+- [NASA 1971 Separation-Controlled Transonic Drag-Rise Modification][research_drag_rise_notches_1971]
+- [NASA 1972 Flight Measurements of Buffet Characteristics of the F-104 Airplane][research_f104_buffet_1972]
+- [NASA 1972 Static Aerodynamic Characteristics of a Model with a Seventeen-Percent-Thick Supercritical Wing][research_supercritical_17pct_1972]
+- [NASA 1973 Experimental and Theoretical Investigations in Two-Dimensional Transonic Flow][research_transonic_2d_1973]
+- [NASA 1974 A Detailed Investigation of Flight Buffeting Response at Subsonic and Transonic Speeds][research_buffet_response_1974]
+- [NASA 1974 Transonic Flow About Lifting Wing-Body Combinations][research_transonic_wingbody_1974]
+- [NASA 1975 Flight Flutter Testing Symposium][research_flutter_symposium_1975]
 - [NASA 1976 Computation of Wave Drag for Transonic Flow][research_wave_drag_computation_1976]
+- [NASA 1977 Buffet Characteristics of the F-8 Supercritical Wing Airplane][research_f8_buffet_1977]
+- [NASA 1978 An Investigation of Wing Buffeting Response at Subsonic and Transonic Speeds][research_buffet_response_1978]
+- [NASA 1982 The Effect of Ejector Augmentation on Test-Section Flow Quality in a Transonic Tunnel][research_calspan_ejector_1982]
+- [NASA 1993 The X-15 Airplane, Lessons Learned][research_x15_lessons_1993]
+- [NASA 1994 In-Flight Lift and Drag Characteristics for a Forward-Swept-Wing Aircraft][research_fsw_liftdrag_1994]
+- [NASA 1995 Selected Examples of NACA and NASA Supersonic Flight Research][research_supersonic_research_1995]
+- [NASA 1998 Flight Stability, Control, and Performance Results from the Linear Aerospike SR-71 Experiment][research_aerospike_sr71_1998]
+- [NASA 2000 Fin Buffeting Features of an Early F-22 Model][research_f22_fin_buffet_2000]
+- [NASA 2015 The NACA High Speed Flight Research Station and the Development of Reaction Control Systems][research_hsfrs_rcs_2015]
 - [NASA 2016 Flight Experiment Verification of Shuttle Boundary Layer Transition Prediction Tool][research_blt_shuttle_2016]
 - [NASA 2018 Adaptive Load Control of Flexible Aircraft Wings Using Fiber Optic Sensing][research_fiber_optic_loads_2018]
+- [NASA 2021 Transonic Correction Method for Flight Dynamic Stability Analysis][research_transonic_correction_2021]
+- [NASA 2022 Summary of Shock Wave Turbulent Boundary Layer Interaction Experiments][research_sbli_experiments_2022]
+- [NASA 2023 Nonlinear Dynamic Control Derivative Analysis for Aircraft with Application to Transonic Flight][research_control_derivative_2023]
+- [NASA 2024 Cruise Slotted Wing Design with Natural Laminar Flow for Transonic Commercial Transport Aircraft][research_slotted_nlf_2024]
 - [Natarajan 2022 Comment on Roles of Bulk Viscosity in Transonic Shock-Wave Interaction][research_natarajan_2022]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
 - [Oswald 1932 General Formulas and Charts for the Calculation of Airplane Performance][research_oswald_1932]
@@ -925,6 +989,7 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 - [Russo and Tognaccini 2020 Compressibility Effects in Subsonic and Transonic Flow][research_russo_tognaccini_2020]
 - [Sears 1947 On Projectiles of Minimum Wave Drag][research_sears_1947]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Stack 1935 The Compressibility Burble][research_stack_1935_burble]
 - [Sugioka and Nakakita 2021 Characteristic Unsteady Pressure Field on a Civil Aircraft Wing][research_sugioka_2021]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
@@ -1120,6 +1185,8 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
+[research_aerospike_sr71_1998]: https://ntrs.nasa.gov/citations/19980217098
+[research_airspeed_calibration_1950]: https://ntrs.nasa.gov/citations/19930090286
 [research_allmovable_comparison_1945]: https://ntrs.nasa.gov/citations/19930092948
 [research_allmovable_flutter_1957]: https://ntrs.nasa.gov/citations/19630010646
 [research_allmovable_flutter_1958]: https://ntrs.nasa.gov/citations/19660010452
@@ -1131,29 +1198,61 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [research_brunton_noack_2020]: https://doi.org/10.1146/annurev-fluid-010719-060214
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
 [research_buffet_loads_1958]: https://ntrs.nasa.gov/citations/19930093826
+[research_buffet_response_1974]: https://ntrs.nasa.gov/citations/19740043918
+[research_buffet_response_1978]: https://ntrs.nasa.gov/citations/19780025173
 [research_buffet_rocket_models_1953]: https://ntrs.nasa.gov/citations/20050041783
+[research_burble_1939_pressures]: https://ntrs.nasa.gov/citations/19930091721
+[research_burble_delay_1939]: https://ntrs.nasa.gov/citations/20090015112
+[research_burble_delay_1944]: https://ntrs.nasa.gov/citations/19930081766
+[research_calspan_ejector_1982]: https://ntrs.nasa.gov/citations/19820041123
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_chau_zingg_2022]: https://doi.org/10.2514/1.c036389
 [research_chen_wang_2024]: https://doi.org/10.1063/5.0228209
 [research_chung_2017]: https://doi.org/10.5139/ijass.2017.18.1.1
 [research_coen_loubeau_2023]: https://doi.org/10.3397/in_2022_0993
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
+[research_comparative_drag_1949]: https://ntrs.nasa.gov/citations/19930083198
+[research_comparative_drag_1950]: https://ntrs.nasa.gov/citations/19930092048
+[research_control_derivative_2023]: https://ntrs.nasa.gov/citations/20230018641
+[research_cowling_highspeed_1942]: https://ntrs.nasa.gov/citations/19930091823
+[research_d558_handling_1954]: https://ntrs.nasa.gov/citations/19930088510
+[research_d558_slat_1953]: https://ntrs.nasa.gov/citations/19930087819
+[research_d558_stores_1957]: https://ntrs.nasa.gov/citations/19930090294
 [research_dai_zhang_2023]: https://doi.org/10.3390/aerospace10060553
 [research_deepa_gupta_2023]: https://doi.org/10.61653/joast.v65i2.2013.727
 [research_dipasquale_prince_2023]: https://doi.org/10.3390/aerospace10060569
 [research_donlan_collected_1976]: https://ntrs.nasa.gov/citations/19770022115
+[research_drag_rise_notches_1971]: https://ntrs.nasa.gov/citations/19710050864
+[research_drag_rise_reduction_1954]: https://ntrs.nasa.gov/citations/19930093744
+[research_f104_buffet_1972]: https://ntrs.nasa.gov/citations/19720022354
+[research_f22_fin_buffet_2000]: https://ntrs.nasa.gov/citations/20000052124
+[research_f84g_squadron_1953]: https://ntrs.nasa.gov/citations/20050019469
+[research_f86_squadron_1952]: https://ntrs.nasa.gov/citations/20050019265
+[research_f8_buffet_1977]: https://ntrs.nasa.gov/citations/19770025136
 [research_fay_riddell_1958]: https://doi.org/10.2514/8.7517
 [research_fiber_optic_loads_2018]: https://ntrs.nasa.gov/citations/20190033242
+[research_flutter_symposium_1975]: https://ntrs.nasa.gov/citations/19760003007
+[research_freefall_1945]: https://ntrs.nasa.gov/citations/20150021184
+[research_freefall_65009_1947]: https://ntrs.nasa.gov/citations/20030063971
+[research_freefall_interference_1953]: https://ntrs.nasa.gov/citations/19930087730
+[research_freefall_sweptfwd_1947]: https://ntrs.nasa.gov/citations/19930085802
+[research_freefall_wingbody_1947]: https://ntrs.nasa.gov/citations/19930085806
+[research_fsw_liftdrag_1994]: https://ntrs.nasa.gov/citations/19950012150
+[research_fuselage_mods_drag_1954]: https://ntrs.nasa.gov/citations/20050028506
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
 [research_geared_tab_1948]: https://ntrs.nasa.gov/citations/19930082436
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
+[research_high_altitude_1957]: https://ntrs.nasa.gov/citations/19820068145
+[research_hsfrs_rcs_2015]: https://ntrs.nasa.gov/citations/20160000534
 [research_jet_transport_highspeed_1959]: https://ntrs.nasa.gov/citations/19980228311
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
 [research_lee_sim_2020]: https://doi.org/10.1007/s42405-020-00279-2
 [research_lees_1956]: https://doi.org/10.2514/8.6977
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
 [research_liu_yang_2016]: https://doi.org/10.1080/19942060.2016.1210029
+[research_loads_flutter_conf_1957]: https://ntrs.nasa.gov/citations/19710070068
+[research_longitudinal_accel_1953]: https://ntrs.nasa.gov/citations/19930087532
 [research_ma_yu_2024]: https://doi.org/10.1063/5.0241388
 [research_munk_1921]: https://ntrs.nasa.gov/citations/19800006779
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
@@ -1162,19 +1261,37 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [research_oswald_1932]: https://ntrs.nasa.gov/citations/19930091482
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
 [research_pickles_2020]: https://doi.org/10.2514/1.j059624
+[research_pitchup_control_1960]: https://ntrs.nasa.gov/citations/19980227095
+[research_pitchup_evaluation_1955]: https://ntrs.nasa.gov/citations/19930092243
+[research_pitot_supersonic_1948]: https://ntrs.nasa.gov/citations/19930085521
+[research_pitot_vane_1956]: https://ntrs.nasa.gov/citations/19930084583
 [research_poole_allen_2026]: https://doi.org/10.2514/1.c038630
 [research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
 [research_qi_gao_2026]: https://doi.org/10.3390/aerospace13060496
 [research_ross_2021]: https://doi.org/10.1109/mspec.2021.9311455
 [research_russo_tognaccini_2020]: https://doi.org/10.2514/1.j059080
+[research_sbli_experiments_2022]: https://ntrs.nasa.gov/citations/20220017569
 [research_sears_1947]: https://doi.org/10.1090/qam/20394
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+[research_slotted_nlf_2024]: https://ntrs.nasa.gov/citations/20240014322
+[research_spring_tab_1946]: https://ntrs.nasa.gov/citations/19930092531
+[research_stack_1935_16_airfoils]: https://ntrs.nasa.gov/citations/19930091566
+[research_stack_1935_burble]: https://ntrs.nasa.gov/citations/19930081326
 [research_sugioka_2021]: https://doi.org/10.1007/s00348-020-03118-y
+[research_supercritical_17pct_1972]: https://ntrs.nasa.gov/citations/19830002804
 [research_supercritical_body_1971]: https://ntrs.nasa.gov/citations/19720004249
+[research_supersonic_research_1995]: https://ntrs.nasa.gov/citations/19960016997
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
+[research_transition_flight_1958]: https://ntrs.nasa.gov/citations/19630008170
+[research_transonic_2d_1973]: https://ntrs.nasa.gov/citations/19730051411
 [research_transonic_conference_1949]: https://ntrs.nasa.gov/citations/19650074048
+[research_transonic_correction_2021]: https://ntrs.nasa.gov/citations/20210018198
+[research_transonic_drag_wingbody_1948]: https://ntrs.nasa.gov/citations/19930093786
 [research_transonic_predict_1957]: https://ntrs.nasa.gov/citations/19660024789
+[research_transonic_summary_1959]: https://ntrs.nasa.gov/citations/19980228028
+[research_transonic_wingbody_1974]: https://ntrs.nasa.gov/citations/19740036062
+[research_unswept_stability_1959]: https://ntrs.nasa.gov/citations/19980228241
 [research_vortex_generator_1952]: https://ntrs.nasa.gov/citations/20050041843
 [research_wave_drag_computation_1976]: https://ntrs.nasa.gov/citations/19770033814
 [research_whitcomb_1952]: https://ntrs.nasa.gov/citations/19930092271
@@ -1182,12 +1299,14 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wright_1936]: https://doi.org/10.2514/8.155
 [research_x15_conference_1958]: https://ntrs.nasa.gov/citations/19710070129
+[research_x15_lessons_1993]: https://ntrs.nasa.gov/citations/19930039008
 [research_x1_base_pressures_1953]: https://ntrs.nasa.gov/citations/19930087429
 [research_x1_dynamic_stability_1950]: https://ntrs.nasa.gov/citations/19930086028
 [research_x1_fuselage_pressures_1953]: https://ntrs.nasa.gov/citations/19930089110
 [research_x1_lateral_1950]: https://ntrs.nasa.gov/citations/19930086424
 [research_x1_liftdrag_1953]: https://ntrs.nasa.gov/citations/19930087731
 [research_x1_tail_loads_1953]: https://ntrs.nasa.gov/citations/19930087824
+[research_x1_wing_loads_1953]: https://ntrs.nasa.gov/citations/19930087661
 [research_x1_wing_pressures_1953]: https://ntrs.nasa.gov/citations/19930087577
 [research_x1a_damping_1956]: https://ntrs.nasa.gov/citations/19930088921
 [research_x1a_interference_1956]: https://ntrs.nasa.gov/citations/19930089573
@@ -1198,6 +1317,7 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [research_x2_glide_1953]: https://ntrs.nasa.gov/citations/19930087801
 [research_x2_mach32_1959]: https://ntrs.nasa.gov/citations/19980227870
 [research_x5_stability_1953]: https://ntrs.nasa.gov/citations/19930087479
+[research_x5_tail_loads_1955]: https://ntrs.nasa.gov/citations/19930088802
 [research_xs1_accelerated_1948]: https://ntrs.nasa.gov/citations/19930085320
 [research_xs1_downwash_1948]: https://ntrs.nasa.gov/citations/19930085539
 [research_xs1_freefall_1948]: https://ntrs.nasa.gov/citations/19930085511
