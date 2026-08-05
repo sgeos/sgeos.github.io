@@ -22,13 +22,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_bell_x1.markdown`, A298, editorial date 2025-10-07, series `x_planes` index 2 of 72. The
 first per-aircraft article, using the twelve-section research-aircraft order.
 
-1095 lines, 80 display equations, 259 reference definitions, 13,414 words, against a full-aircraft
-band of 1300 to 1600 lines, 60 to 80 equations, and 250 to 380 references. Equations sit at the top
-of the band and references inside it. The line count is about 200 short and has deliberately not been
-padded.
+1209 lines, 108 display equations, 259 reference definitions, 14,960 words. Drafted at 1095 lines and
+80 equations, then taken through an equation-density review that added 28 equations across 17 edits.
+The review exposed one arithmetic error in the drafted text, an axial acceleration stated as 1.6 that
+computes to 1.25. The genre document full-aircraft equation band was raised from 60-to-80 to 90-to-130
+to record what the series actually does. The line count remains about 90 below band and has
+deliberately not been padded.
 
-Verification complete. All 54 worked examples re-derived independently with one correction and four
-precision tightenings. All 259 references cited with zero undefined and zero orphaned. All 142
+Verification complete. All 75 worked examples re-derived independently across both rounds, with two
+corrections and four precision tightenings, and zero duplicated clauses at edit seams. All 259 references cited with zero undefined and zero orphaned. All 142
 meaningful-404 URLs swept at 200. `_verify.py` clean, zero style violations, acronyms spelled out
 before first use, isolated build succeeding with series navigation and the A297 cross-link resolving.
 

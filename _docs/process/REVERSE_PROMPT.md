@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A298, the Bell X-1, drafted and verified. A297 is unchanged and already pushed. Neither
-is published. Both remain in `_drafts/`.
+**Task**: A298 drafted, then taken through an equation-density review. A297 is unchanged and already
+pushed. Neither article is published. Both remain in `_drafts/`.
 
 ---
 
@@ -18,12 +18,29 @@ is published. Both remain in `_drafts/`.
 
 `_drafts/x_planes_bell_x1.markdown`, editorial date 2025-10-07, series index 2 of 72.
 
-**1095 lines, 80 display equations, 259 reference definitions, 13,414 words.** The genre bands a
-full-aircraft article at 1300 to 1600 lines, 60 to 80 equations, and 250 to 380 references, so
-equations sit at the top of the band and references inside it while **the line count is about 200
-short**. I have not padded to close that gap, because the genre document forbids it explicitly. If
-you want it longer the honest way to get there is more content, and there is more available, since
-the NTRS harvest returned 71 X-1 era documents and the article uses 44.
+**1209 lines, 108 display equations, 259 reference definitions, 14,960 words.** Drafted at 1095
+lines and 80 equations, then taken through the equation-density review you asked for, which added 28
+equations across 17 edits and closed the line gap by about half as a side effect.
+
+**The review found one arithmetic error in the drafted text.** The axial acceleration available with
+two chambers burning was stated as 1.6 metres per second squared and computes to 1.25. Writing the
+relation down rather than asserting the number is what exposed it, which is the argument for this
+kind of pass in one line.
+
+The additions close places where the prose named a result or relied on a relation without showing
+it. The elevator effectiveness parameter was described as a function of chord ratio without the
+function, which turns out to be worth stating because thin-airfoil theory returns 0.66 while the
+representative value used is 0.5, and the gap between them is viscous. Stick force was said to be
+proportional to hinge moment with no constant. The position-error sensitivity was written as an
+abstract $f$. The drag rise itself, the article's subject, had no functional form anywhere. Skin
+friction, base drag, and the neutral point were all used and never derived, and the unpowered lake-bed
+landing that every flight ended with had no glide relation at all.
+
+One result is worth your attention. Assembling the drag build-up from four independent contributions,
+being friction at 0.0138, fuselage wave drag at 0.0310, base drag at 0.0079, and induced drag at
+0.0052, gives 0.058 against a measured transonic peak near 0.05. An estimate from four separate
+mechanisms landing within fifteen percent of flight measurement is a good result, and it also shows
+which term is weakest, since wave drag is both the largest and the least certain.
 
 The keystone is the magnitude of the transonic drag rise and whether an aircraft could retain the
 control authority to fly through it. Two results carry the article.
@@ -47,13 +64,23 @@ did not. At Mach 1.45 the same two relations differ by 5.5 percent.
 **One publication-order dependency.** A298 cites A297 through `post_url`. Publishing A298 while A297
 is still a draft fails the entire site build. They publish together or A297 first.
 
+**A genre-document change you should look at.** The full-aircraft equation band was 60 to 80, taken
+from the History of SpaceX medians before this series existed. Both A297 and A298 have now been
+through an explicit equation-density review at your request and landed at 147 and 108. Treating that
+as a standing expectation rather than an exception, I raised the full-aircraft band to 90 to 130 and
+recorded the rule that actually produces the number, which is that any relation the prose names or
+relies on must be shown. Revert it if you would rather the band stay where it was and these two
+articles be the exceptions.
+
 ---
 
 ## Verification of A298
 
-All 54 worked numerical examples re-derived independently. One disagreed and was corrected, being a
-learning-curve figure stated as 25 percent that computes to 23. Four further figures were tightened
-for precision.
+All 75 worked numerical examples re-derived independently, being the original 54 plus 21 introduced
+by the equation pass. Two disagreed across the two rounds and were corrected, a learning-curve figure
+stated as 25 percent that computes to 23 and the axial acceleration figure above. Four further
+figures were tightened for precision. Zero duplicated clauses at edit seams, checked explicitly
+because the A297 equation pass introduced two.
 
 All 259 references cited, zero undefined, zero orphaned. **All 142 URLs whose status code carries
 information were swept and all returned 200**, being the Wikipedia entries and the fixed NTRS
