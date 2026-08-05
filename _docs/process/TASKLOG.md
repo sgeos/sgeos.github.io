@@ -37,7 +37,13 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Three unsupported assertions closed. The claimed decade of pre-X-1 NACA compressibility work now cites Stack 1935 and the delay-by-section-design series. The free-fall method now cites five free-fall reports. The supersonic pitot argument now cites the 1948 pitot-static investigation and the 1950 four-system airspeed calibration.
 - [x] A298 line count now inside the 1300 to 1600 band at 1329, reached with content rather than padding. Final state 1329 lines, 108 equations, 314 references, 16,758 words.
 - [x] A298 verification: all 314 references cited with zero undefined and zero orphaned, all 197 meaningful-404 URLs swept at 200, zero duplicated clauses at seams, `_verify.py` clean, zero style violations, isolated build succeeding with 234 fixed-identifier NTRS links rendering.
-- [ ] A298 contemporary coverage fell from 21.4 to 18.2 percent as a denominator effect, the absolute count rising from 33 to 38 while 55 historical primaries entered the denominator. A297 sits at 28.8 percent.
+- [x] A298 publication review performed per `_docs/process/PUBLICATION_REVIEW.md`. Prose style, diction, acronym spell-out, reference integrity, URL response, numerical sanity, and structural conformance all checked.
+- [x] Contemporary coverage raised from 18.2 to 26.3 percent by adding 23 curated journal articles harvested from Crossref under a 2018 date filter, three of which land directly on threads the article already runs. Primary sources now 52.1 percent.
+- [x] Formulaic-repetition finding acted on. Citations were introduced by the preposition `in` about half the time with `appear in` and `reported in` each repeating verbatim six times. 26 constructions rotated.
+- [x] Word-frequency artifact documented. `naca` measures 8.71 per thousand but 101 of 127 occurrences are citation labels rather than prose, so the check counts link text as prose.
+- [x] Structural conformance confirmed. Twelve-section genre order present and in sequence with three additional sections at sensible points.
+- [x] Final state 1387 lines, 108 display equations, 337 reference definitions, 17,565 words. All 337 cited with zero undefined and zero orphaned, all 57 DOIs Crossref-resolved with authors present, `_verify.py` clean, zero style violations, isolated build succeeding.
+- [x] Committed and pushed. Not published. Both A297 and A298 remain in `_drafts/`.
 - [ ] **Publication order dependency.** A298 cites A297 through `post_url`, so publishing A298 while A297 is a draft fails the site build. They publish together or A297 first.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
