@@ -9,116 +9,100 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A301 primary-reference review. A297 through A300 are unchanged and already pushed. **No
-article in this series is published.** All five remain in `_drafts/`. A301 is committed and **not
-pushed**, since the push is attached to the publication review.
+**Task**: A301 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All five articles in the series remain in `_drafts/`.
 
 ---
 
-## The Recorded Baseline Was Not Reproducible, and the Real One Is Worse
+## Two Mathematical Defects, One of Them Two Orders of Magnitude
 
-The process files recorded A301 at 43.3 percent primary. I could not reproduce that figure under any
-definition I could state and audit, so I defined one that is checkable and measured all five articles
-the same way. Counting NTRS-hosted programme documents as a share of all references, A301 held **41
-of 269, or 15.2 percent, against 32.6, 31.4, and 32.1 percent for A298, A299, and A300**. It carried
-roughly a third of the primary base its siblings carry. That is a larger and more specific deficit
-than the recorded number described, and it explains the line shortfall the equation pass could not
-close.
+**The wing pitch damping expression did not produce the number the article used.** The line read
 
-After this pass A301 holds **112 NTRS documents, 32.9 percent**, which is at parity with its
-siblings. References dated 1960 or earlier rose from 22.9 to **43.2 percent** of dated references,
-the highest of the five.
+> $C_{m q, \text{wing}} \approx -\frac{\pi A}{4} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 \sim -1$
 
-**The article is 1149 to 1313 lines and 269 to 340 references.** Lines are now inside the 1300 to
-1600 band, and they got there by citing new material rather than by padding.
+and for the article's own inputs, an aspect ratio of 3.60 and a static margin of 0.05, that formula
+returns **minus 0.007**. The same line asserted an order of minus one, and every subsequent
+calculation used minus 0.8. Two orders of magnitude separated the formula from its stated magnitude,
+and the draft pass, the equation pass, and the primary-reference pass all went past it.
 
----
+The physics is that a wing damps in pitch two ways and the article had conflated them. The
+parallel-axis term, which is the tail relation applied to the wing's own lift at its aerodynamic
+centre, evaluates to minus 0.02 and vanishes entirely when the centre of gravity sits at the
+aerodynamic centre. The wing's own unsteady chordwise loading does not vanish there and is of order
+unity, and that is where minus 0.8 comes from. The passage now separates them, evaluates the first,
+labels the second as adopted rather than derived, and notes that the conclusion is insensitive to it
+because any value small against the tail's minus 13 gives the same finding. **The argument is
+unchanged and better supported.**
 
-## Three Findings That Change What the Article Says
-
-**A criterion contemporaneous with the aircraft exists.** The equation pass closed on modern
-handling-qualities criteria and had to concede that they postdate the programme by two decades and
-are quoted as a restatement rather than as a standard anyone judged the X-4 against. That concession
-is now much smaller. Sternfield and Gates, NACA-TN-1859 of 1949, give a method for constructing a
-boundary in the plane of period against damping that separates satisfactory from unsatisfactory
-oscillatory behaviour, published the year before the NACA began flying the aircraft. The X-4 result
-is no longer only unsatisfactory by a rule invented afterward. It was measurable against a rule that
-existed while the aircraft was flying.
-
-**The Oswald efficiency factor now points at Oswald.** The induced-drag argument turns on a span
-efficiency the equation pass corrected from 0.78 to 0.95. The harvest returned NACA-TR-408 of 1932 by
-W. Bailey Oswald, which is the report that defined the quantity. The correlation the article uses is
-a later fit to it, and the article now says so.
-
-**The article was missing a second research role, and it is a positive one.** After the blunt trailing
-edge experiments the X-4 flew a long series of approaches with its split flap speed brakes open,
-spoiling the lift-to-drag ratio deliberately, reportedly below three to one, to generate landing data
-for future rocket-powered aircraft that would arrive unpowered and steep. The thread runs from
-Matranga and Menard 1959 on a delta-wing interceptor through the **same author's** analysis of the
-first thirty X-15 landings in 1961 and onward into routine gliding re-entry practice. An article that
-otherwise reads as a clean negative result had a positive contribution in it that no pass had found.
-
-I could not locate a primary document for the X-4's own landing series despite repeated searching, so
-that claim is attributed to the secondary account and **flagged as reported rather than verified** in
-the Epistemic State section. The successor literature is primary-documented.
+**A split-drag yaw expression divided by unity.** `\frac{y_{\text{eff}}}{1}` is meaningless and is now
+just `y_{\text{eff}}`. This is the **third instance of that malformation in the series**, after A297
+and A299. It may be worth a check across the corpus rather than per-article discovery.
 
 ---
 
-## A Defect the Previous Pass Left, and How It Survived
+## The Diction Check Earned Its Place Again
 
-The equation pass glued prose onto the same line as a closing display-math delimiter, so the
-induced-drag ratio ran straight into the next sentence with no break and the sentence itself became a
-non sequitur. **`_verify.py`, the anchor integrity check, and the isolated Jekyll build all passed
-it.** This is the third instance of the same class, after the two duplicated clauses A297 shipped
-from its own equation pass. Automated checking does not see edit seams. Only reading the connective
-lines does. It is repaired.
+`aircraft` measured **12.37 uses per thousand body words against a sibling range of 5.31 to 8.30**,
+driven by twenty instances of `tailless aircraft` and seven of `conventional aircraft`. Twenty-five
+occurrences were rotated across design, layout, configuration, case, and the designation itself,
+bringing it to **9.07**. It remains the highest of the five, which the article's constantly
+comparative structure justifies, since it contrasts two configurations in nearly every paragraph.
+`configuration` rose to 4.22 and stays under the 5.0 threshold.
 
 ---
 
-## What Was Rejected and Why
+## Contemporary Literature, and a Deliberate Departure From the Band
 
-The harvest returned 445 distinct documents from 62 queries built from this article's own terms, of
-which 129 were programme-era and uncited. I selected 75 and verified each individually against the
-citations API rather than trusting the search response.
+A twenty-eight-query Crossref harvest under a 2019 date filter returned 296 candidates, of which 143
+passed a topical screen and **32 were selected and verified individually against Crossref on author
+and title**. Contemporary references rose from 69 to **101**, and from 27.6 to **35.8 percent** of
+dated references.
 
-Seven did not survive. **Four were already cited under existing anchors**, and all four had been
-picked out of the ad-hoc probes I ran while testing the API rather than out of the filtered harvest,
-which had them flagged correctly. **One matched on title tokens alone** and proved to be a study of
-cruciform interdigitated missile models. **Two were off-configuration**, being X-1 vortex-generator
-work and a horizontal-attitude VTOL model, and precision was worth more than the count. A follow-up
-harvest supplied three low-lift-to-drag approach documents, giving 71 net.
+**That is above the 28 to 33 percent range A297 through A300 settled at, and it is deliberate.** The
+standing directive asks for a comprehensive survey of the contemporary literature, and the absolute
+count of 101 is now the highest in the series. The primary base is diluted rather than displaced,
+holding at 112 NTRS documents and 38.3 percent of dated references at 1960 or earlier. **Tell me if
+you would rather I hold the percentage band and trim.**
 
-Per the method rule, this article's reference data was built from its own harvest. No previous
-article's generator was imported, which is the defect A300 and A301 both shipped.
+Three of the additions land on arguments the article already makes rather than beside them. Actuator
+saturation treated as a nonlinear bifurcation is the rigorous form of the amplitude-dependent
+effective delay the article writes down by hand. Delay effects in longitudinal augmentation are the
+formal statement of the actuator bandwidth inequality. Configuration parameter boundaries derived
+from closed-loop flying qualities requirements are the method that, had it existed in 1946, would
+have made the X-4 an expensive confirmation rather than a discovery, which is a sharper way of saying
+what the article says about the answer being available before the aircraft flew.
+
+A wing rock paragraph was added, since it is the lateral member of the tumbling family and afflicts
+exactly this planform. The reported tendency to hunt about all three axes rather than in pitch alone
+is consistent with proximity to it. **No source consulted makes that identification, and the
+Epistemic State section now says so explicitly.**
 
 ---
 
 ## Verification
 
-340 references with zero undefined and zero orphaned. All 71 new NTRS URLs at 200. `_verify.py` at
-the 0-error, 21-warning corpus baseline with no new warning attributable to this article. Zero
-contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals. Zero
-doubled words, zero malformed links, zero display-math seam defects. Isolated build succeeding with
-Part 5 navigation and zero unresolved anchors in the rendered page. Citation-introducing prepositions
-peak at 34 percent, matching A300's corrected level rather than the 70 percent A300 first produced.
+1391 lines, 98 display equations, 372 references, 18,358 words. All three densities inside band.
+
+372 references cited with zero undefined and zero orphaned, zero duplicate URLs. All 182
+meaningful-404 URLs at 200. All 99 DOIs resolved through Crossref and compared on author and title.
+`_verify.py` at the 0-error, 21-warning corpus baseline with no new warning attributable to this
+article. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose
+parentheticals. Zero doubled words, zero malformed links, zero display-math seam defects. Genre
+section order conforming. Isolated build succeeding with Part 5 navigation and zero unresolved
+anchors in the rendered page.
+
+The 76 Open Library URLs are search queries and return 200 for anything, so they are **not** evidence
+of anything and are excluded from the meaningful-404 count. That upgrade remains offered and not
+taken up.
 
 ---
 
-## One Thing for You to Decide, and One Standing Question
+## State and the One Standing Question
 
-**Contemporary share fell from 38.5 to 27.6 percent** of dated references. The absolute count is
-unchanged at 69, so this is dilution by 71 new primaries rather than removal of anything. It moves
-the article from above the 28 to 33 percent target band to marginally below it, and into line with
-A298 at 26.3 percent. The publication review can restore it if you want it inside the band. I did not
-add contemporary references in a pass you asked to be about primary ones.
+Pushed. **Nothing in this series is published**, and the deploy workflow builds without `--drafts`,
+so the push is safe. The publication-order dependency is five deep, since A301 back-references A300,
+A299, A298, and A297 through `post_url`.
 
 **Categories remain undecided.** `aerospace history engineering` has now been carried through five
 articles and is still my assumption. It fixes 72 URLs permanently at publication and you have
-declined redirects. This is the fifth time it has been raised.
-
----
-
-## State
-
-Committed, **not pushed**, per the four-pass rhythm. Four commits are now unpushed. A301's
-publication review is the remaining pass before A302.
+declined redirects. This is the fifth time it has been raised, and A302 is next.
