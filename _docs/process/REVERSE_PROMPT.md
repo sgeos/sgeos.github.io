@@ -54,13 +54,13 @@ historical fact rather than merely accompanying it.
 
 All 34 worked numerical examples were re-derived independently from stated inputs. Every one agrees.
 
-All 327 references are cited in the body. Zero undefined anchors, zero orphaned definitions.
+All 372 references are cited in the body. Zero undefined anchors, zero orphaned definitions.
 
 159 Wikipedia URLs were swept. Five titles were wrong and were corrected against the Wikipedia API,
 and seven additional confirmed pages were added.
 
-**All 11 digital object identifiers were resolved through Crossref and compared on author and title.
-Two were defective.** The Sears 1947 identifier did not exist, and the Weisshaar 1980 identifier
+**All 22 digital object identifiers were resolved through Crossref and compared on author and title.
+Two of the original 11 were defective.** The Sears 1947 identifier did not exist, and the Weisshaar 1980 identifier
 resolved to an unrelated 1979 paper on bipropellant exhaust optics. Both were replaced with
 identifiers confirmed against the correct works. This is the exact defect class that produced the 47
 broken citations in the existing corpus, and it appeared on the first article of a new series.
@@ -109,7 +109,7 @@ per-aircraft articles can reference rather than repeat them. That is a descripti
 article now is rather than a new target, and it is the smallest change that stops the genre document
 contradicting the article. Revert it if you would rather the opener be held to the per-aircraft band.
 
-## Two Things You Should Decide
+## Three Things You Should Decide
 
 1. **Categories.** I used `aerospace history engineering`, which renders the URL as
    `/aerospace/history/engineering/2025/10/06/x_planes_framing.html`. This is still my assumption
