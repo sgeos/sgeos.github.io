@@ -5,38 +5,26 @@
 Current task state and verification log. This file is the shared source of truth for the active unit of work.
 
 ---
-
 ## Current Task
 
-**Name**: Infrastructure audit and remediation, following the two queued word-usage and documentation tasks.
-**Status**: Complete and verified. Four items await human-pilot judgment, listed in `REVERSE_PROMPT.md`.
+**Name**: X-Planes series drafting. A297, the series opener, is the first article.
+**Status**: A297 drafted and verified. Held in `_drafts/` for human-pilot review before A298, per
+the stated preference to judge shape and depth before the pattern is set across seventy-two articles.
 **Started**: 2026-08-05
 
 ## Success Criteria
 
-- [x] Handoff prompt drafted and committed as the branch tip, stamped with parent commit `ec25680`, per the protocol in `_docs/process/HANDOFF.md`.
-- [x] Reconnaissance completed for both tasks so the resuming agent does not repeat it.
-- [x] Task 1: pathological word-usage pass over every post and draft outside the already-remediated SpaceX series, plus those twelve for `admits`, which the earlier pass did not treat.
-- [x] Task 1 verification: equation counts unchanged in all 110 changed files, anchors and reference links intact, no newly introduced style or grammar defects, full site build clean at 294 posts in and 294 HTML out with zero Liquid errors.
-- [x] Task 2: review of the 31 documents under `_docs/` plus `CLAUDE.md` for instructions that are wrong, contradictory, or harmful to follow, with all findings rectified.
-- [x] Task 3: full audit of process files, scaffolding, and infrastructure, with all mechanical defects resolved.
-- [x] Task 3 verification: local build permalinks now match the live sitemap exactly at 291 of 291 post pages; corrected download path resolution confirmed to place all 293 built posts beside their HTML; reference integrity clean corpus-wide at zero undefined and zero unused; Ruby and YAML syntax checks pass on every edited file.
-- [x] Task 2 verification: the build-failure claim confirmed against an actual Jekyll build rather than asserted; the repaired `_publish.sh` date extraction confirmed to extract a date where it previously extracted none; the new word-frequency check confirmed to flag the worst pre-pass article and pass the same article after remediation; zero broken relative links across all documentation.
-
-## Success Criteria
-
-- [x] Source protocol read from `/Users/bsechter/projects/rust/keleusma/docs/process/HANDOFF.md` together with its wiring in that project's `CLAUDE.md` session-startup and compact-instructions sections.
-- [x] `_docs/process/HANDOFF.md` created, adapted to this project's paths, channels, and verification model, and stamped with parent commit `7c2c97b`.
-- [x] Validity-check mechanism carried over intact. The handoff records the parent commit, and a resuming agent compares it to `git rev-parse HEAD~1`, treating a mismatch as invalid and stale rather than trusting it.
-- [x] A "Writing a New Handoff" section added so the protocol is self-perpetuating rather than a one-off document.
-- [x] Session startup protocol updated in both `CLAUDE.md` and `_docs/process/README.md` to read and validate the handoff first.
-- [x] Compact Instructions section added to `CLAUDE.md`, adapted to this project's resume channels and governing rules.
-- [x] `_docs/process/COMMUNICATION.md` and `_docs/process/README.md` updated to list the handoff as a channel and describe it as deliberately not kept current.
-- [x] Validity check verified to pass against the committed state.
-
-### Prior Task (A289 Government-Anchor Leg) — Complete
-
-- [x] A289 drafted and taken through equation-density, primary-reference, and publication-review expansion passes to 1,392 lines, ~20,136 words, 73 display equations, and 341 reference anchors. Awaits publication authorization. Detail retained in `_drafts/draft_summary.md` and the History table below.
+- [x] A297 drafted as `_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes` index 1, following the research-aircraft genre in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`.
+- [x] Parity with the History of SpaceX medians reached without padding. 1245 lines against a 1345 median, 76 display equations against 72, and 327 reference definitions against 306.
+- [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
+- [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
+- [x] All 159 Wikipedia citations swept, where a 404 is a meaningful signal. Five wrong titles corrected against the Wikipedia API and seven further confirmed pages added.
+- [x] All 11 digital object identifiers resolved through Crossref and compared on author and title. Two defects found and repaired, one nonexistent identifier and one resolving to an unrelated paper.
+- [x] `_verify.py` clean at zero errors, with no warning introduced that did not already exist.
+- [x] Zero prose style violations against the contraction, dash, colon, semicolon, and parenthetical rules.
+- [x] Isolated production build succeeds with the draft present, every `post_url` resolving and no literal reference syntax surviving into the rendered HTML.
+- [ ] Categories confirmed by the human pilot. `aerospace history engineering` is the agent's assumption and fixes 72 URLs permanently at publication.
+- [ ] Search-endpoint citations resolved to fixed document identifiers. 109 Open Library and 27 NTRS citations point at endpoints that return 200 for any query, so their targets are unverified by the sweep.
 
 ## Notes
 
