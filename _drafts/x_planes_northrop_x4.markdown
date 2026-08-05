@@ -35,9 +35,9 @@ $$\frac{d\varepsilon}{d\alpha} = \frac{2 \times 4.0}{\pi \times 3.60} = 0.71$$
 
 which means a conventional aircraft of this planform already loses 71 percent of its tail incidence to downwash before any transonic effect is considered. The hypothesis was not foolish. The second was constructive. [Northrop][ref_northrop_corp] had been building [tailless][ref_tailless] and [flying wing][ref_flying_wing] aircraft since the 1920s and had a body of practice arguing that the tail was drag and mass without compensating benefit, a position the [YB-49][ref_yb49] represented at large scale and the wartime German [Me 163][ref_me163] at small.
 
-The transient form of the mechanism had been written down before the war. [Jones and Fehlner 1940][research_jones_fehlner_1940] treat the wake arriving at the horizontal tail as a time-dependent problem rather than a steady one, which is the correct framing when the disturbance is a shock system that forms, moves, and collapses rather than a fixed deflection of the flow. Steady downwash behind a sharply swept wing at transonic speed was later measured by placing a tail in it and weighing the result, which is the method of [Coppolino 1952][research_coppolino_1952], while the trim and dynamic response of a tail so placed were obtained by [Luoma 1953][research_luoma_1953]. Considered as turbulence rather than as a mean deflection, the wake is characterized by [Campbell 1957][research_campbell_1957]. What this body of work eventually established is that tail height relative to the wake is the governing geometric variable, a result reached from transonic wind-tunnel measurements by [Fisher and Williams 1958][research_fisher_williams_1958] and again by [Wakefield 1959][research_wakefield_1959]. A conventional aircraft can therefore escape the mechanism by moving the surface out of the wake. That is the remedy the X-4 forgoes, since it has no surface to move.
+The transient form of the mechanism had been written down before the war. [Jones and Fehlner 1940][research_jones_fehlner_1940] treat the wake arriving at the horizontal tail as a time-dependent problem rather than a steady one, which is the correct framing when the disturbance is a shock system that forms, moves, and collapses rather than a fixed deflection of the flow. Steady downwash behind a sharply swept wing at transonic speed was later measured by placing a tail in it and weighing the result, which is the method of [Coppolino 1952][research_coppolino_1952], while the trim and dynamic response of a tail so placed were obtained by [Luoma 1953][research_luoma_1953]. Considered as turbulence rather than as a mean deflection, the wake is characterized by [Campbell 1957][research_campbell_1957]. What this body of work eventually established is that tail height relative to the wake is the governing geometric variable, a result reached from transonic wind-tunnel measurements by [Fisher and Williams 1958][research_fisher_williams_1958] and again by [Wakefield 1959][research_wakefield_1959]. A conventional layout can therefore escape the mechanism by moving the surface out of the wake. That is the remedy the X-4 forgoes, since it has no surface to move. The measurement has not gone away, and [Hoang and Bui 2019][research_hoang_bui_2019] report experimental and numerical work on wingtip and downwash effects at a horizontal tail that would be recognizable to the authors of the wartime reports, conducted with instrumentation they did not have.
 
-The NACA had been studying the configuration for years before the X-4 flew. [NACA 1944][research_tailless_interim_1944] is an interim report on the stability and control of tailless airplanes that predates the aircraft by four years, with the high-speed model work of [NACA 1943][research_tailless_highspeed_1943] and the all-wing investigations of [NACA 1945][research_allwing_stability_1945] and [NACA 1945][research_allwing_modifications_1945] alongside it. The case for the configuration had been in print for over a decade, [Dufaure De Lajarte 1936][research_delajarte_1936] setting out its claimed advantages in a paper the NACA thought worth translating, and the lateral consequences of accepting it had been calculated by [Harper and Jones 1947][research_harper_jones_1947] the year before the aircraft flew. Model work ran alongside, from the free-flight tunnel study of a tailless glider by [Johnson 1949][research_johnson_glider_1949] to the low-aspect-ratio swept fighter model of [Smith 1953][research_smith_tailless_1953]. The question was live and the answer was not known.
+The NACA had been studying the configuration for years before the X-4 flew. [NACA 1944][research_tailless_interim_1944] is an interim report on the stability and control of tailless airplanes that predates the X-4 by four years, with the high-speed model work of [NACA 1943][research_tailless_highspeed_1943] and the all-wing investigations of [NACA 1945][research_allwing_stability_1945] and [NACA 1945][research_allwing_modifications_1945] alongside it. The case for the configuration had been in print for over a decade, [Dufaure De Lajarte 1936][research_delajarte_1936] setting out its claimed advantages in a paper the NACA thought worth translating, and the lateral consequences of accepting it had been calculated by [Harper and Jones 1947][research_harper_jones_1947] the year before the X-4 flew. Model work ran alongside, from the free-flight tunnel study of a tailless glider by [Johnson 1949][research_johnson_glider_1949] to the low-aspect-ratio swept fighter model of [Smith 1953][research_smith_tailless_1953]. The question was live and the answer was not known.
 
 What the hypothesis omitted is that a horizontal tail does two jobs, and the debate had been conducted almost entirely about the first. The tail trims the aircraft and it provides pitch control, which is the job everyone discussed. It also provides pitch damping, which is the job nobody weighed, and the next section shows that the second contribution is the larger one by an order of magnitude.
 
@@ -49,7 +49,7 @@ The configuration is small and clean. A swept wing of 18.58 square metres and 8.
 
 $$T = 2 \times 1600 \times 4.448 = 1.42 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{1.42 \times 10^{4}}{3547 \times 9.80665} = 0.41$$
 
-which is low, and the aircraft was never expected to exceed about Mach 0.95 in level flight. That is a deliberate choice rather than a limitation the programme regretted. The research question lives between Mach 0.85 and Mach 0.95, so an aircraft that reaches that band and no further is adequate to it, and the [X-3][related_post_a300_douglas_x3] demonstrates what happens when a research aircraft is asked to do something its engines cannot.
+which is low, and the X-4 was never expected to exceed about Mach 0.95 in level flight. That is a deliberate choice rather than a limitation the programme regretted. The research question lives between Mach 0.85 and Mach 0.95, so an aircraft that reaches that band and no further is adequate to it, and the [X-3][related_post_a300_douglas_x3] demonstrates what happens when a research aircraft is asked to do something its engines cannot.
 
 The aspect ratio and wing loading follow as
 
@@ -87,11 +87,15 @@ $$C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, \frac{S_t}{S} \left( 
 
 which shows that doubling the tail arm at constant tail area quadruples the damping contribution while only doubling the control contribution. The two jobs of a tail therefore scale differently with the same geometric parameter, which is precisely why a debate conducted about control reached the wrong conclusion about damping.
 
-The wing contributes damping too, but weakly. A wing of chord $\bar{c}$ pitching about a point near its own aerodynamic centre generates an incremental incidence that varies across the chord and largely cancels, leaving
+The wing contributes damping too, but weakly, and the two ways in which it can are worth separating.
 
-$$C_{m q, \text{wing}} \approx -\frac{\pi A}{4} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 \sim -1$$
+The first is a parallel-axis term, which is the relation derived above applied to the wing's own lift acting at its aerodynamic centre. Setting the area ratio to unity and the arm to the static margin gives
 
-for typical static margins, since the term depends on the square of a distance that is a few percent of a chord rather than a few chords.
+$$C_{m q, \text{wing, offset}} = -2 \, C_{L\alpha_w} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 = -2 \times 4.0 \times 0.05^2 = -0.02$$
+
+which is negligible, because the arm is a few percent of a chord where the tail's is a few chords and the dependence is quadratic. This term vanishes entirely when the centre of gravity sits at the aerodynamic centre.
+
+The second does not vanish there. A wing pitching at rate $q_r$ sees an incidence that varies linearly along its chord, and the resulting load distribution produces a moment about the rotation point even though the incremental incidence largely cancels in the net. Quasi-steady thin aerofoil theory returns a quantity of order unity for rotation about the quarter chord, and a low aspect ratio swept planform returns rather less. It is this second contribution, larger than the first by a factor of roughly forty, that supplies the wing-alone figure used below, and it is adopted as representative rather than derived from this airframe. Both terms together remain small against a tail, which is the point.
 
 Evaluate for a conventional configuration with $\eta_t = 0.9$, $C_{L\alpha_t} = 4.0$ per radian, $V_H = 0.6$, and $l_t / \bar{c} = 3.0$,
 
@@ -105,7 +109,7 @@ so that a conventional aircraft draws about
 
 $$\frac{13.0}{13.0 + 0.8} = 94 \ \text{percent}$$
 
-of its pitch damping from the tail. Remove the tail and 94 percent of the damping goes with it. That is the finding of the X-4 programme, available on paper before the aircraft was built, and it is not what the debate had been about.
+of its pitch damping from the tail. Remove the tail and 94 percent of the damping goes with it. That is the finding of the X-4 programme, available on paper before the X-4 was built, and it is not what the debate had been about.
 
 That the moment of inertia in pitch and the damping available jointly fix the character of the mode was among the first things flight research established, in [Norton and Carroll 1922][research_norton_carroll_1922] and the flight study of [Norton 1924][research_norton_1924]. [Soule and Wheatley 1934][research_soule_wheatley_1934] set calculated longitudinal stability against measurement on a real airframe, and [Soule 1937][research_soule_1937] took the further step of correlating measured dynamic longitudinal stability with what pilots said about the aircraft, which is the intellectual ancestor of everything the X-4 programme later reported. By the time the X-4 was designed the free-control complications had been treated theoretically by [Greenberg and Sternfield 1944][research_greenberg_sternfield_1944] and in flight by [Phillips 1942][research_phillips_shortperiod_1942], with a control-feel remedy demonstrated on a fighter by [Johnson 1946][research_johnson_p63_1946]. None of that literature contemplated removing the damping surface altogether.
 
@@ -141,7 +145,7 @@ and a damped frequency of
 
 $$\omega_d = \omega_{sp} \sqrt{1 - \zeta^2}$$
 
-which differs from the undamped value by less than three percent at the damping ratios in play, so the distinction can be neglected in what follows. The damping term is where the configurations part company. For the tailless aircraft, with $C_{mq} = -0.8$ and $M_{\dot\alpha} \approx 0$ because the downwash lag that produces $M_{\dot\alpha}$ acts on a tail that does not exist,
+which differs from the undamped value by less than three percent at the damping ratios in play, so the distinction can be neglected in what follows. The damping term is where the configurations part company. For the tailless case, with $C_{mq} = -0.8$ and $M_{\dot\alpha} \approx 0$ because the downwash lag that produces $M_{\dot\alpha}$ acts on a tail that does not exist,
 
 $$\zeta_{sp, \text{tailless}} = 0.244$$
 
@@ -149,7 +153,7 @@ For an otherwise identical aircraft with a tail, taking $C_{mq} = -13$ and $M_{\
 
 $$\zeta_{sp, \text{tailed}} = 0.749$$
 
-a factor of 3.1. Both figures are stable. Neither is a prediction of disaster. The X-4 was not an aircraft that oscillated uncontrollably at every condition, and any account claiming it was has overstated the case.
+a factor of 3.1. Both figures are stable. Neither is a prediction of disaster. The same calculation is still performed on tailless configurations, and [Kwiek 2019][research_kwiek_2019] is a numerical study of exactly this quantity for a tailless layout, arriving by computation at the class of result the X-4 established by flying. The static margin on which it depends turns out to be less straightforward for a three-dimensional configuration than the one-dimensional definition used here suggests, a point [Schmidt et al 2025][research_schmidt_static_margin_2025] develop. The X-4 was not an aircraft that oscillated uncontrollably at every condition, and any account claiming it was has overstated the case.
 
 It is worth writing the mode down properly rather than through its summary parameters. Retaining the two-degree-of-freedom short period approximation, the characteristic equation is
 
@@ -179,7 +183,7 @@ The criteria place Level 1, meaning handling adequate for the mission without pi
 
 Those criteria postdate the aircraft by two decades and are quoted here as a restatement rather than as a standard the programme was judged against. What they establish is that the pilots who called the X-4 unsatisfactory were not being fastidious. The configuration lands outside the band the discipline later drew, and it does so on the axis the tail would have supplied.
 
-The retrospective character of that comparison can be reduced, and it is worth reducing. A criterion of the same kind existed at the time. [Sternfield and Gates 1949][research_sternfield_gates_1949] give a method for constructing a boundary in the plane of period against damping that separates satisfactory from unsatisfactory oscillatory behaviour, published the year before the NACA began flying this aircraft. The construction is cruder than the later work and is stated in terms of period and time to damp rather than of frequency and damping ratio, but it is a numerical acceptability boundary contemporaneous with the programme rather than a standard imported from the following generation. The X-4 result is therefore not merely unsatisfactory by a rule invented afterward. It was measurable against a rule that existed while the aircraft was flying, which supports the reading that the pilot reports were describing something the discipline already knew how to name.
+The retrospective character of that comparison can be reduced, and it is worth reducing. A criterion of the same kind existed at the time. [Sternfield and Gates 1949][research_sternfield_gates_1949] give a method for constructing a boundary in the plane of period against damping that separates satisfactory from unsatisfactory oscillatory behaviour, published the year before the NACA began flying this aircraft. The construction is cruder than the later work and is stated in terms of period and time to damp rather than of frequency and damping ratio, but it is a numerical acceptability boundary contemporaneous with the programme rather than a standard imported from the following generation. The X-4 result is therefore not merely unsatisfactory by a rule invented afterward. It was measurable against a rule that existed while the X-4 was flying, which supports the reading that the pilot reports were describing something the discipline already knew how to name.
 
 The finding is about **margin** rather than about stability, and it can be stated exactly. Transonic flight degrades every aerodynamic derivative, through shock-induced separation, through aerodynamic centre migration, and through the collapse of control effectiveness described at length in the [X-1 article][related_post_a298_bell_x1]. Ask how much degradation each configuration tolerates before the damping ratio falls to a nominal 0.05, at which point the aircraft is effectively undamped. Writing $f$ for the fraction of nominal damping remaining,
 
@@ -187,7 +191,7 @@ $$\zeta = f \, \zeta_{\text{nominal}} = 0.05 \quad \Longrightarrow \quad f = \fr
 
 $$f_{\text{tailless}} = \frac{0.05}{0.244} = 0.205, \qquad f_{\text{tailed}} = \frac{0.05}{0.749} = 0.067$$
 
-so the tailless aircraft becomes effectively undamped once its damping derivatives have fallen to 21 percent of their nominal value, while the tailed aircraft tolerates a fall to 7 percent. **The tailless configuration has no damping margin to spend, and the transonic band is exactly where margin gets spent.** That is the answer to the keystone, and it is a quantitative answer rather than a verdict.
+so the tailless configuration becomes effectively undamped once its damping derivatives have fallen to 21 percent of their nominal value, while the tailed aircraft tolerates a fall to 7 percent. **The tailless configuration has no damping margin to spend, and the transonic band is exactly where margin gets spent.** That is the answer to the keystone, and it is a quantitative answer rather than a verdict.
 
 The oscillation that results is characterized by the number of cycles to half amplitude,
 
@@ -227,11 +231,11 @@ with $\Lambda_{c/2}$ the half-chord sweep and $\kappa$ the ratio of the section 
 
 $$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} SM$$
 
-There are two such margins and the distinction matters for a tailless aircraft. The static margin governs response to a change of angle of attack at constant speed. The manoeuvre margin governs response in a pull-up, where the aircraft is also rotating and the pitch damping therefore contributes a restoring moment of its own,
+There are two such margins and the distinction matters for a tailless design. The static margin governs response to a change of angle of attack at constant speed. The manoeuvre margin governs response in a pull-up, where the aircraft is also rotating and the pitch damping therefore contributes a restoring moment of its own,
 
 $$MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}$$
 
-with $\mu$ the relative density parameter. At the flight condition $\mu = 367$, so the tailless aircraft has
+with $\mu$ the relative density parameter. At the flight condition $\mu = 367$, so the tailless case has
 
 $$MM_{\text{tailless}} = 0.05 + \frac{0.8}{734} = 0.0511$$
 
@@ -239,17 +243,17 @@ against
 
 $$MM_{\text{tailed}} = 0.05 + \frac{13.0}{734} = 0.0677$$
 
-The tail contributes 1.7 points of manoeuvre margin that the tailless aircraft simply does not have, which is a second and independent consequence of the same missing damping term. The stick force per unit load factor follows the manoeuvre margin directly,
+The tail contributes 1.7 points of manoeuvre margin that the tailless configuration simply does not have, which is a second and independent consequence of the same missing damping term. The stick force per unit load factor follows the manoeuvre margin directly,
 
 $$\frac{F_s}{n} \propto MM$$
 
-so a tailless aircraft is also lighter in pitch than its static margin suggests, which compounds the tendency of a pilot to over-control it.
+so a tailless design is also lighter in pitch than its static margin suggests, which compounds the tendency of a pilot to over-control it.
 
-For a tailless aircraft the neutral point is essentially the wing aerodynamic centre, since the term that a tail would contribute,
+For a tailless layout the neutral point is essentially the wing aerodynamic centre, since the term that a tail would contribute,
 
 $$\Delta \frac{x_{np}}{\bar{c}} = V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)$$
 
-is zero. A conventional aircraft can place its centre of gravity over a wide range and recover stability with tail volume. A tailless aircraft cannot, and the constraint can be written down. The aft limit is set by stability,
+is zero. A conventional aircraft can place its centre of gravity over a wide range and recover stability with tail volume. A tailless one cannot, and the constraint can be written down. The aft limit is set by stability,
 
 $$x_{cg, \text{aft}} = x_{np} - SM_{\min} \bar{c}$$
 
@@ -261,11 +265,11 @@ so the usable range is the difference,
 
 $$\Delta x_{cg} = \left[ \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} - SM_{\min} \right] \bar{c} + \left( x_{np} - x_{ac} \right)$$
 
-in which the final term is the tail contribution and is zero for a tailless aircraft. Both bounds therefore collapse toward the wing aerodynamic centre, and the range is set entirely by how much control power the elevons can supply against how much stability is demanded. Fuel burn or store release that moves the centre of gravity a few percent of chord is a large fraction of that range. Sweep supplies what tail volume otherwise would, since a swept wing places its outboard sections aft and washout at the tip generates the nose-up moment at zero lift that trim requires,
+in which the final term is the tail contribution and is zero for a tailless layout. Both bounds therefore collapse toward the wing aerodynamic centre, and the range is set entirely by how much control power the elevons can supply against how much stability is demanded. Fuel burn or store release that moves the centre of gravity a few percent of chord is a large fraction of that range. Sweep supplies what tail volume otherwise would, since a swept wing places its outboard sections aft and washout at the tip generates the nose-up moment at zero lift that trim requires,
 
 $$C_{m0} > 0$$
 
-which a conventional aircraft obtains from tail incidence and a tailless aircraft must build into the wing itself. The twist distribution that supplies it is conventionally linear in span,
+which a conventional aircraft obtains from tail incidence and a tailless design must build into the wing itself. The twist distribution that supplies it is conventionally linear in span,
 
 $$\varepsilon_t(y) = \varepsilon_{\text{tip}} \frac{2y}{b}$$
 
@@ -289,13 +293,13 @@ with the efficiency factor $e$ degraded in proportion to the departure. The trim
 
 $$\Delta C_{D, \text{trim}} = \frac{C_{m0}^2}{\pi A e} \left( \frac{\bar{c}}{\ell_{\text{eff}}} \right)^2$$
 
-with $\ell_{\text{eff}}$ the effective moment arm over which the trim load acts, which for a tailless aircraft is a fraction of a chord and for a conventional one is several chords. The penalty therefore scales as the inverse square of the available arm, and it is the permanent cost of the configuration. That cost is real and permanent. The wing modification studies of [NACA 1945][research_allwing_modifications_1945] are largely about paying it as cheaply as possible.
+with $\ell_{\text{eff}}$ the effective moment arm over which the trim load acts, which for a tailless layout is a fraction of a chord and for a conventional one is several chords. The penalty therefore scales as the inverse square of the available arm, and it is the permanent cost of the configuration. That cost is real and permanent. The wing modification studies of [NACA 1945][research_allwing_modifications_1945] are largely about paying it as cheaply as possible.
 
 The aerodynamic centre migrates aft through the transonic band, typically from the quarter chord to near the half chord,
 
 $$\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50$$
 
-and for a tailless aircraft this migration is the entire change in static margin, unmoderated by a tail. The trim change that results must be absorbed by the elevons, and the trim moment increment at lift coefficient $C_L$ is
+and for a tailless design this migration is the entire change in static margin, unmoderated by a tail. The trim change that results must be absorbed by the elevons, and the trim moment increment at lift coefficient $C_L$ is
 
 $$\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}}$$
 
@@ -321,7 +325,7 @@ The pitch authority available at any instant is therefore
 
 $$\delta_{e, \text{available}} = \delta_{\max} - \left| \delta_a \right|$$
 
-so a full roll input consumes the entire pitch authority. A conventional aircraft has independent surfaces and no such coupling. This matters most in exactly the situation where it is least welcome, since a pilot correcting a roll disturbance in the transonic band gives away the pitch authority he may need in the next second.
+so a full roll input consumes the entire pitch authority. A conventional layout has independent surfaces and no such coupling. This matters most in exactly the situation where it is least welcome, since a pilot correcting a roll disturbance in the transonic band gives away the pitch authority he may need in the next second.
 
 Differential deflection also produces yaw, and on a swept wing the sign is unfavourable. The down-going elevon adds lift and therefore induced drag on the rising wing, yawing the aircraft away from the intended turn,
 
@@ -335,13 +339,13 @@ The swept planform brings its own longitudinal hazard. Tip stall on a swept wing
 
 $$\frac{\partial C_m}{\partial C_L} > 0$$
 
-which for a swept wing occurs at moderate lift coefficients and which a tail would ordinarily counter. The phenomenon was documented across the swept-wing fleet of the period. [Spooner and Martina 1948][research_spooner_martina_1948] measured it on a forty-two degree sweptback wing and tail combination at a Reynolds number high enough to be credible, [Anderson and Bray 1955][research_anderson_bray_1955] recorded it in flight during manoeuvres at transonic speed, and [Queijo Jaquet and Wolhart 1954][research_queijo_fences_1954] established that chordwise fences and tail position both bear on it, which are two remedies a tailless aircraft cannot use. Downwash and longitudinal stability were mapped together on a triangular planform by [Allen 1951][research_allen_1951]. Stall behaviour on this aircraft was measured for exactly that reason in [NACA 1950][research_x4_stall_1950], and the automatic intervention that later programmes adopted appears in [NASA 1960][research_pitchup_control_1960].
+which for a swept wing occurs at moderate lift coefficients and which a tail would ordinarily counter. The phenomenon was documented across the swept-wing fleet of the period. [Spooner and Martina 1948][research_spooner_martina_1948] measured it on a forty-two degree sweptback wing and tail combination at a Reynolds number high enough to be credible, [Anderson and Bray 1955][research_anderson_bray_1955] recorded it in flight during manoeuvres at transonic speed, and [Queijo Jaquet and Wolhart 1954][research_queijo_fences_1954] established that chordwise fences and tail position both bear on it, which are two remedies a tailless design cannot use. Downwash and longitudinal stability were mapped together on a triangular planform by [Allen 1951][research_allen_1951]. Stall behaviour on this aircraft was measured for exactly that reason in [NACA 1950][research_x4_stall_1950], and the automatic intervention that later programmes adopted appears in [NASA 1960][research_pitchup_control_1960].
 
 The control power itself is
 
 $$C_{m \delta_e} = -\frac{\partial C_L}{\partial \delta_e} \cdot \frac{x_{cp} - x_{cg}}{\bar{c}}$$
 
-and for a tailless aircraft the moment arm $x_{cp} - x_{cg}$ is a fraction of a chord rather than several chords, so the elevon must generate a large force to produce a modest moment. That is the second structural disadvantage of the configuration, and it compounds the first, since a large force from a short arm means large hinge moments,
+and for a tailless configuration the moment arm $x_{cp} - x_{cg}$ is a fraction of a chord rather than several chords, so the elevon must generate a large force to produce a modest moment. That is the second structural disadvantage of the configuration, and it compounds the first, since a large force from a short arm means large hinge moments,
 
 $$H = q \, S_e \, c_e \, C_h$$
 
@@ -455,7 +459,7 @@ The general uncertainty relation is the usual
 
 $$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
 
-and the modern descendants of this whole discipline, in which derivatives are extracted from flight data by maximum likelihood rather than from hand-reduced oscillation traces, are surveyed in [Morelli 2021][research_morelli_2021], [Lichota 2023][research_lichota_2023], and [Kumar and Ghosh 2023][research_kumar_ghosh_2023].
+and the modern descendants of this whole discipline, in which derivatives are extracted from flight data by maximum likelihood rather than from hand-reduced oscillation traces, are surveyed in [Morelli 2021][research_morelli_2021], [Lichota 2023][research_lichota_2023], and [Kumar and Ghosh 2023][research_kumar_ghosh_2023]. Longitudinal stability determined from flight test by system identification is treated by [Dias 2023][research_dias_2023], and the techniques as they now apply to small and inexpensive airframes by [Simmons et al 2023][research_simmons_sysid_2023]. The logarithmic decrement has not been abandoned so much as absorbed, since a maximum likelihood estimator fitted to a full response record uses every sample rather than the peaks alone and therefore recovers a lightly damped mode from data that would defeat a decrement taken by hand.
 
 ## The Flight Test Record
 
@@ -463,15 +467,15 @@ Two aircraft were built. 46-676 proved troublesome, suffered persistent mechanic
 
 The Air Force phase established the envelope and the NACA phase measured it. The demonstration tests closing the acceptance phase are summarized by [Sadoff and Sisk 1950][research_sadoff_sisk_1950], the earliest consolidated statement of what the aircraft did. Longitudinal stability characteristics are reported in [NACA 1950][research_x4_longitudinal_1950], stall behaviour in [NACA 1950][research_x4_stall_1950], maximum lift and buffeting in [NACA 1953][research_x4_buffet_1953], and the consolidated flight evaluation of stability and control in [NACA 1954][research_x4_flight_evaluation_1954], which is the document that answers the keystone and should be read by anyone who wants the result rather than the summary.
 
-The aircraft reached about Mach 0.92 and behaved acceptably through most of its envelope. Above roughly Mach 0.88 the longitudinal short period became progressively less damped and the aircraft developed a persistent low-amplitude oscillation in pitch that the pilots described as hunting or porpoising. It did not diverge. It did not need to. An aircraft that will not settle is an aircraft in which precise flying is impossible, and precise flying is what a transonic research aircraft exists to do.
+The aircraft reached about Mach 0.92 and behaved acceptably through most of its envelope. Above roughly Mach 0.88 the longitudinal short period became progressively less damped and the X-4 developed a persistent low-amplitude oscillation in pitch that the pilots described as hunting or porpoising. It did not diverge. It did not need to. An aircraft that will not settle is an aircraft in which precise flying is impossible, and precise flying is what a transonic research aircraft exists to do.
 
 The total flight count is reported inconsistently. Figures near 82 and near 102 both appear in reputable sources, and the difference is most plausibly whether the Air Force acceptance phase and the short career of the first airframe are counted, but no source consulted states its counting rule. The programme ended in 1953. The surviving aircraft is preserved at the National Museum of the United States Air Force.
 
 The flight count matters less here than in most articles in this series, because the answer did not require statistical accumulation. The oscillation was reproducible, it appeared at a predictable condition, and its character was the same on every flight that reached it. A single well-instrumented flight established it and the remainder confirmed and bounded it.
 
-Buffeting deserves to be separated from the damping question, because the two were easily confused in the cockpit and are distinct in origin. Buffet is a forced response to separated flow and does not require the aircraft to be lightly damped, whereas the hunting the X-4 pilots reported was a lightly damped free response to a disturbance. The buffet boundary of a comparable swept-wing aircraft at high altitude was established in flight by [Rathert Ziff and Cooper 1951][research_rathert_1951], and the loads accompanying it were measured with strain gauges on a jet bomber by [Aiken and See 1951][research_aiken_see_1951] and on rocket-propelled models by [Mason 1953][research_mason_1953]. [Crabill 1956][research_crabill_1956] mapped lift, drag, static stability, and buffet boundaries together on a fighter model across the transonic range. The measurement bearing most directly on the X-4's founding hypothesis is [Rainey and Igoe 1958][research_rainey_igoe_1958], which recorded buffeting loads on the wing and on the horizontal tail of a scale model separately, and so quantifies the very coupling the tailless configuration was built to eliminate.
+Buffeting deserves to be separated from the damping question, because the two were easily confused in the cockpit and are distinct in origin. Buffet is a forced response to separated flow and does not require the aircraft to be lightly damped, whereas the hunting the X-4 pilots reported was a lightly damped free response to a disturbance. The buffet boundary of a comparable swept-wing aircraft at high altitude was established in flight by [Rathert Ziff and Cooper 1951][research_rathert_1951], and the loads accompanying it were measured with strain gauges on a jet bomber by [Aiken and See 1951][research_aiken_see_1951] and on rocket-propelled models by [Mason 1953][research_mason_1953]. [Crabill 1956][research_crabill_1956] mapped lift, drag, static stability, and buffet boundaries together on a fighter model across the transonic range. The mechanism behind those empirical boundaries was not settled at the time and has since been reformulated as a question about the stability of the mean flow itself, with [Crouch et al 2019][research_crouch_2019] and [Timme 2020][research_timme_2020] locating buffet onset as a global instability rather than as a threshold in a correlation. That reframing is worth noting here because it is the same intellectual move the X-4 argument makes, replacing a boundary observed in flight with a quantity that can be computed before flying. The measurement bearing most directly on the X-4's founding hypothesis is [Rainey and Igoe 1958][research_rainey_igoe_1958], which recorded buffeting loads on the wing and on the horizontal tail of a scale model separately, and so quantifies the very coupling the tailless configuration was built to eliminate.
 
-The programme also acquired a second purpose that the keystone does not cover, and it is a positive contribution rather than a negative result. Opening the split flap speed brakes spoiled the lift-to-drag ratio deliberately, reportedly below three to one, and the aircraft then flew a long series of approaches in that condition to generate landing data for future rocket-powered aircraft, which would arrive at the runway unpowered and steep. That problem was worked in its own right by [Matranga and Menard 1959][research_matranga_menard_1959] on a delta-wing interceptor, and the same author subsequently analysed the approach and flare characteristics of the [X-15][ref_na_x15] over its first thirty flights in [Matranga 1961][research_matranga_1961]. The thread continues through the unpowered approach experience reported by [Hoag and Schofield 1970][research_hoag_schofield_1970] and the transport-scale investigation of [Kock Fulton and Drinkwater 1972][research_kock_1972], and it terminates in routine practice for every gliding re-entry vehicle since. An aircraft built to answer a question about horizontal tails therefore also supplied an early data point on how to land a vehicle that cannot go around.
+The programme also acquired a second purpose that the keystone does not cover, and it is a positive contribution rather than a negative result. Opening the split flap speed brakes spoiled the lift-to-drag ratio deliberately, reportedly below three to one, and the X-4 then flew a long series of approaches in that condition to generate landing data for future rocket-powered aircraft, which would arrive at the runway unpowered and steep. That problem was worked in its own right by [Matranga and Menard 1959][research_matranga_menard_1959] on a delta-wing interceptor, and the same author subsequently analysed the approach and flare characteristics of the [X-15][ref_na_x15] over its first thirty flights in [Matranga 1961][research_matranga_1961]. The thread continues through the unpowered approach experience reported by [Hoag and Schofield 1970][research_hoag_schofield_1970] and the transport-scale investigation of [Kock Fulton and Drinkwater 1972][research_kock_1972], and it terminates in routine practice for every gliding re-entry vehicle since. An aircraft built to answer a question about horizontal tails therefore also supplied an early data point on how to land a vehicle that cannot go around.
 
 ## Comparison With Ground Prediction
 
@@ -479,7 +483,7 @@ The X-4 is the case in this series where ground prediction performed best, and t
 
 Pitch damping is computable from geometry to useful accuracy, and the tail contribution derived above requires no more than a lift-curve slope and a moment arm. The NACA had characterized the effect of tail size, tail length, and vertical location experimentally in [NACA 1952][research_tail_size_effect_1952], and the tailless configuration specifically in the interim report of [NACA 1944][research_tailless_interim_alt_1944] and the model work of [NACA 1943][research_tailless_highspeed_1943]. Free-flight models supplied an independent route, reported in [NACA 1956][research_tailless_freeflight_1956] and with the reduction method in [NACA 1957][research_freeflight_longitudinal_1957]. Rocket-propelled models extended that route to structural questions, with [Lauten Lundstrom and Okelly 1954][research_lauten_1954] measuring first-bending-mode damping on swept wings while looking for transonic flutter, and [Vitale Press and Shufflebarger 1954][research_vitale_1954] applying the technique to gust loads on a tailless swept model specifically. The aeroelastic side of the ground base is [Boswinkle and Smith 1958][research_boswinkle_smith_1958] on transonic flutter of a fighter wing, [Yates 1960][research_yates_1960] on the use of measured steady-flow parameters in flutter calculation, and [Brown 1959][research_brown_1959] on predicted static aeroelastic effects. Boundary-layer transition, which governs where separation begins and therefore where the degradation starts, was measured in full-scale flight by [Banner McTigue and Petty 1958][research_banner_1958], with the sensitivity of thick low-drag sections to leading-edge roughness established earlier by [Jacobs Abbott and Davidson 1942][research_jacobs_1942] and the scale and turbulence dependence by [Tucker and Quinn 1944][research_tucker_quinn_1944].
 
-The ground base was broader than the tailless work alone. The NACA had by then accumulated flight measurements of flying qualities across a range of contemporary aircraft against which any new configuration could be read, including the two-part Lockheed P-80A evaluation of [Anderson and Christofferson 1947][research_anderson_christofferson_1947] and [Anderson and Cooper 1947][research_anderson_cooper_1947], the Chance Vought F4U-4 measurements of [Liddell Reynolds and Christofferson 1947][research_liddell_1947], and the longitudinal and stalling characteristics of an F-47D-30 reported by [Kraft Goranson and Reeder 1953][research_kraft_1953]. Pilot opinion had itself begun to be treated as data rather than as commentary, and [Creer Stewart Merrick and Drinkwater 1959][research_creer_1959] is a study of lateral control requirements conducted on that basis. A tailless aircraft entering this literature was being read against a well-populated baseline rather than against nothing.
+The ground base was broader than the tailless work alone. The NACA had by then accumulated flight measurements of flying qualities across a range of contemporary aircraft against which any new configuration could be read, including the two-part Lockheed P-80A evaluation of [Anderson and Christofferson 1947][research_anderson_christofferson_1947] and [Anderson and Cooper 1947][research_anderson_cooper_1947], the Chance Vought F4U-4 measurements of [Liddell Reynolds and Christofferson 1947][research_liddell_1947], and the longitudinal and stalling characteristics of an F-47D-30 reported by [Kraft Goranson and Reeder 1953][research_kraft_1953]. Pilot opinion had itself begun to be treated as data rather than as commentary, and [Creer Stewart Merrick and Drinkwater 1959][research_creer_1959] is a study of lateral control requirements conducted on that basis. A tailless design entering this literature was being read against a well-populated baseline rather than against nothing.
 
 The prediction was substantially correct. What the ground work could not supply was the transonic degradation, since that depends on shock position and separation, and it could not supply the pilot's assessment, since handling quality is a judgement about a coupled human and machine system rather than a derivative. A model investigation can tell you the damping ratio. It cannot tell you that a pilot will call the result unacceptable, and the estimated transonic flying qualities work of [NASA 1976][research_tailless_transonic_est_1976] is an attempt, decades later, to close exactly that gap.
 
@@ -519,7 +523,7 @@ which is amplitude-dependent and therefore nonlinear, and which is a well-known 
 
 $$\omega_{\text{act}} \gg \omega_{sp}$$
 
-and the failure of that inequality is the mechanism by which a badly implemented damper makes an aircraft worse rather than better. [NASA 1959][research_artificial_pitch_damping_1959] investigated this directly, five years after the X-4 programme ended, and the technology matured into the [stability augmentation systems][ref_stability_augmentation] that every high-performance aircraft now carries. The [XB-70][research_xb70_review_1965] flight programme and the automatic pitch-up control of [NASA 1960][research_pitchup_control_1960] belong to the same lineage, as does the control feel research of [NASA 1961][research_feel_system_1961].
+and the failure of that inequality is the mechanism by which a badly implemented damper makes an aircraft worse rather than better. [NASA 1959][research_artificial_pitch_damping_1959] investigated this directly, five years after the X-4 programme ended, and the technology matured into the [stability augmentation systems][ref_stability_augmentation] that every high-performance aircraft now carries. The bandwidth inequality above is the constraint that still governs those systems, and [Ozer 2025][research_ozer_2025] treats delay effects in longitudinal augmentation as a stability problem in its own right, which is the formal statement of why a slow actuator makes matters worse. Augmentation of a flexible airframe, where the structural modes intrude on the band the augmenter occupies, is the subject of [Bertolin et al 2021][research_bertolin_2021], and augmentation scheduled against flying qualities requirements rather than against a fixed target of [Wang et al 2024][research_wang_tvsas_2024]. The [XB-70][research_xb70_review_1965] flight programme and the automatic pitch-up control of [NASA 1960][research_pitchup_control_1960] belong to the same lineage, as does the control feel research of [NASA 1961][research_feel_system_1961].
 
 Once that technology existed, the X-4's answer expired. The [McDonnell Douglas X-36][ref_mcdonnell_x36] flew in 1997 as a tailless fighter demonstrator with no vertical surface either, and the test pilot account in [NASA 1997][research_x36_test_pilot_1997] describes an aircraft that handles well because the flight control system makes it so. The [B-2][ref_b2_spirit] is a flying wing that entered service. The blended wing body work of [NASA 2006][research_bwb_bli_2006] and the oblique flying wing study of [NASA 1989][research_oblique_flying_wing_1989] extend the same idea further.
 
@@ -529,13 +533,15 @@ The correct summary is therefore not that the X-4 proved tailless aircraft impos
 
 The tailless configuration is now mainstream and its literature is correspondingly large, which is the strongest evidence that the X-4's finding was about a missing technology rather than a physical impossibility.
 
-Stability and control of flying wing layouts is now an ordinary design subject, treated by [Wang and Tang 2020][research_wang_tang_2020], [Zhang and Liu 2024][research_zhang_liu_2024], [Pan and Huang 2019][research_pan_huang_2019], and [Lyu and Zhang 2023][research_lyu_zhang_2023], the last of these designing aerodynamic shape and control law together, which is precisely the coupling the X-4 could not exploit. Handling qualities assessments of such aircraft appear in [Humphreys-Jennings and Lappas 2020][research_humphreys_2020] and [Campos and Marques 2021][research_campos_marques_2021], with pilot-in-the-loop evaluation in [Portapas and Cooke 2020][research_portapas_2020].
+The single most useful entry point is [Hu et al 2024][research_hu_tailless_review_2024], a review of control methods for tailless aircraft, whose existence as a review is itself the evidence, since a configuration does not acquire a review literature until it has acquired a practice.
+
+Stability and control of flying wing layouts is now an ordinary design subject, treated by [Wang and Tang 2020][research_wang_tang_2020], [Zhang and Liu 2024][research_zhang_liu_2024], [Pan and Huang 2019][research_pan_huang_2019], and [Lyu and Zhang 2023][research_lyu_zhang_2023], the last of these designing aerodynamic shape and control law together, which is precisely the coupling the X-4 could not exploit. The blended wing body is the configuration in which the commercial case is being made, and its longitudinal static stability is the recurring difficulty, addressed by [Qi et al 2021][research_qi_bwb_2021] and set against certification requirements by [Wang et al 2022][research_wang_bwb_airworthiness_2022]. That last paper is worth dwelling on, because airworthiness requirements are where the X-4's finding would have to be argued today, and a configuration that could not meet them unaugmented must now demonstrate that its augmentation is as reliable as the aerodynamics it replaces. Fault-tolerant attitude control for exactly this class of airframe is treated by [Yu et al 2023][research_yu_tailless_2023]. Handling qualities assessments of such aircraft appear in [Humphreys-Jennings and Lappas 2020][research_humphreys_2020] and [Campos and Marques 2021][research_campos_marques_2021], with pilot-in-the-loop evaluation in [Portapas and Cooke 2020][research_portapas_2020].
 
 The directional problem the X-4 solved with a fin is now solved without one. The mechanism is a split surface that opens symmetrically on one wing to produce drag without net lift, generating yaw from a drag differential rather than from a side force,
 
-$$N = \Delta D \cdot \frac{y_{\text{eff}}}{1}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}$$
+$$N = \Delta D \cdot y_{\text{eff}}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}$$
 
-with $y_{\text{eff}}$ the spanwise station of the device. Because drag rises with the square of deflection while the associated lift change is small, such a device is nonlinear and single-signed, so it must be paired across the span and biased open to allow deflection in both directions, which costs drag continuously. That standing penalty is the price a finless aircraft pays for directional control, and it is why the configuration only became attractive once the drag budget could absorb it. [Shearwood and Nabawy 2020][research_shearwood_2020] present a control allocation method for yaw on a finless aircraft, [Liu and Zhang 2022][research_liu_zhang_rudder_2022] investigate a flow-coupling rudder, and [Zhang and He 2026][research_zhang_he_2026] treat yaw stabilization and manoeuvring on a tailless configuration directly. Control allocation across redundant effectors is what makes all of this possible, and it is worth stating in form. A modern tailless aircraft has more effectors than axes, so the mapping from deflections to moments,
+with $y_{\text{eff}}$ the spanwise station of the device. Because drag rises with the square of deflection while the associated lift change is small, such a device is nonlinear and single-signed, so it must be paired across the span and biased open to allow deflection in both directions, which costs drag continuously. That standing penalty is the price a finless aircraft pays for directional control, and it is why the configuration only became attractive once the drag budget could absorb it. [Shearwood and Nabawy 2020][research_shearwood_2020] present a control allocation method for yaw on a finless aircraft, [Liu and Zhang 2022][research_liu_zhang_rudder_2022] investigate a flow-coupling rudder, and [Zhang and He 2026][research_zhang_he_2026] treat yaw stabilization and manoeuvring on a tailless configuration directly. The device is still being improved, with [Guo et al 2026][research_guo_split_rudder_2026] enhancing its effectiveness using synthetic jets, and it brings a failure mode of its own that the fin it replaces did not have, since a surface held open in separated flow can flutter in stall, which [Li et al 2022][research_li_split_rudder_2022] examine. Control by fluid injection rather than by moving surfaces at all is the further extension, demonstrated across three axes in virtual flight by [Zhang and He 2026][research_zhang_he_fluidic_2026] and applied to trim on a tailless model with sweeping jets by [Jentzsch et al 2019][research_jentzsch_2019]. The elevon itself is likewise being augmented rather than retired, and [Xin et al 2019][research_xin_blown_elevon_2019] blow a jet over one to recover the longitudinal control power a blended wing body cannot obtain from geometry. Control allocation across redundant effectors is what makes all of this possible, and it is worth stating in form. A modern tailless aircraft has more effectors than axes, so the mapping from deflections to moments,
 
 $$\mathbf{m} = \mathbf{B} \, \boldsymbol{\delta}, \qquad \mathbf{m} \in \mathbb{R}^3, \quad \boldsymbol{\delta} \in \mathbb{R}^p, \quad p > 3$$
 
@@ -551,9 +557,15 @@ The X-4's elevon constraint derived above is the degenerate case of this with $p
 
 Relaxed static stability, which is the deliberate acceptance of the condition the X-4 suffered accidentally, is now a design choice, treated by [Cui and Zhang 2026][research_cui_zhang_2026] and implemented through the control architectures of [He and Hu 2022][research_he_hu_2022]. Unmanned combat aircraft have adopted the configuration wholesale, as [Khalid 2023][research_khalid_2023] describes.
 
-The damping derivative itself is still being estimated and still matters, as [Khan and Shaikh 2025][research_khan_shaikh_2025] show, and the flying qualities criteria that turn a damping ratio into a pilot rating have been refined continuously, with [Efremov 2020][research_efremov_2020] advancing the prediction of both flying qualities and pilot-induced oscillation and [Bidinotto and Moura 2021][research_bidinotto_2021] surveying the pilot models on which such predictions rest. That last thread is the direct descendant of what the X-4 pilots reported, since hunting is a closed-loop phenomenon involving the pilot and not merely an open-loop damping ratio.
+The damping derivative itself is still being estimated and still matters, as [Khan and Shaikh 2025][research_khan_shaikh_2025] show, and the flying qualities criteria that turn a damping ratio into a pilot rating have been refined continuously, with [Efremov 2020][research_efremov_2020] advancing the prediction of both flying qualities and pilot-induced oscillation and [Bidinotto and Moura 2021][research_bidinotto_2021] surveying the pilot models on which such predictions rest. The step the X-4 programme could not take, from a criterion that judges a finished aircraft to one that bounds the configuration before it is built, is what [Wang et al 2021][research_wang_criteria_2021] attempt by deriving configuration parameter boundaries from closed-loop flying qualities requirements. Had such a method existed in 1946 the X-4 would have been an expensive confirmation rather than a discovery, which is the sense in which the aircraft's own result eventually made aircraft like it unnecessary. Structural flexibility complicates the same judgement on a modern airframe, as [Cavalcanti et al 2026][research_cavalcanti_2026] show.
 
-Configuration details that a tailless design must get right are still being worked, including leading-edge cranks in [Veismann and Gharib 2023][research_veismann_2023] and forward-swept vortex behaviour in [Kanazaki and Setoguchi 2023][research_kanazaki_2023]. The tumbling mode, which is a tailless failure mode with no conventional analogue, deserves its own statement. A conventional aircraft driven past stall pitches nose-down because the tail restores it. A tailless aircraft has no such restoring surface once the wing itself has stalled, and if the inertia in pitch is low enough relative to the available aerodynamic moment the aircraft can enter a continuous rotation about the pitch axis. The condition depends on the balance between the residual aerodynamic moment and the rotational inertia,
+The pilot-induced oscillation thread has advanced in the specific direction the crossover argument above predicts. [Nguyen et al 2021][research_nguyen_saturation_pio_2021] analyse actuator saturation as a nonlinear bifurcation, which is the rigorous form of the amplitude-dependent effective delay written down earlier, and it establishes that the transition into oscillation is a change of qualitative behaviour rather than a gradual degradation. [Xu et al 2019][research_xu_pio_2019] predict the nonlinear case using a pilot model rather than a describing function, and [Newton and Kroo 2025][research_newton_kroo_2025] attack the problem from the control law by shaping the aircraft the pilot perceives. A pilot who cannot excite the mode cannot be trapped in it. That last thread is the direct descendant of what the X-4 pilots reported, since hunting is a closed-loop phenomenon involving the pilot and not merely an open-loop damping ratio.
+
+Configuration details that a tailless design must get right are still being worked, including leading-edge cranks in [Veismann and Gharib 2023][research_veismann_2023] and forward-swept vortex behaviour in [Kanazaki and Setoguchi 2023][research_kanazaki_2023] and, with a chine forebody, in [Saheby et al 2026][research_saheby_2026]. The vortex system over a very low aspect ratio wing, which is the flow the X-4 lived in, is characterized by [Dong et al 2022][research_dong_low_ar_2022]. Wingtip devices, which supply a yawing moment arm the configuration otherwise lacks, are evaluated for a tailless layout by [Kania et al 2025][research_kania_2025], and made to rotate in flight by [Wang et al 2025][research_wang_rotating_wingtip_2025]. Aeroelasticity and flight dynamics, which the X-4 could treat as separate subjects, are now solved together for a flying wing by [Liu et al 2026][research_liu_flying_wing_aero_2026].
+
+Wing rock deserves naming alongside tumbling, since it is the lateral member of the same family and it afflicts precisely this planform. A slender or highly swept wing at moderate incidence sheds an asymmetric vortex system whose reattachment lags the motion, and the lag converts roll damping into roll driving over a band of angle of attack. [Li et al 2023][research_li_wing_rock_2023] identify the mode and its mechanism on a flying wing, and [Tahir et al 2026][research_tahir_wing_rock_2026] suppress it with active flow control on a blended wing body. The X-4's reported tendency to hunt about all three axes rather than in pitch alone is consistent with a configuration sitting near the edge of this behaviour, though no source consulted makes that identification and it is offered here as a possibility rather than a finding.
+
+Ground effect closes the set, since it is the one flight condition every aircraft must enter and the one in which a tailless configuration has no independent surface to trim the moment change. [Xun et al 2026][research_xun_ground_effect_2026] extend the aerodynamics across subsonic, transonic, and supersonic conditions, which is a wider envelope than the problem was ever posed in when the X-4 flew its approach series. The tumbling mode, which is a tailless failure mode with no conventional analogue, deserves its own statement. A conventional design driven past stall pitches nose-down because the tail restores it. A tailless aircraft has no such restoring surface once the wing itself has stalled, and if the inertia in pitch is low enough relative to the available aerodynamic moment the aircraft can enter a continuous rotation about the pitch axis. The condition depends on the balance between the residual aerodynamic moment and the rotational inertia,
 
 $$\ddot{\theta} = \frac{q S \bar{c} \, C_m(\alpha)}{I_y}$$
 
@@ -589,7 +601,9 @@ Established historical fact includes the 1946 contract for two aircraft, the ser
 
 Established engineering analysis includes every relation in the sizing sections. The tail contribution to pitch damping, the short period frequency and damping expressions, the elevon deflection constraint, the static margin and neutral point relations, the directional stability and yaw damping expressions, the logarithmic decrement, and the damper augmentation relation are standard results. The worked numbers are the author's own arithmetic applied to representative inputs and are labelled as derived.
 
-Inference includes the central claim that the programme's finding is about damping margin rather than about stability. The tailless damping ratio computed here is 0.244, which is stable, and the argument that the aircraft's difficulty arises from having no margin to lose in the transonic band is an interpretation supported by the reported behaviour rather than a statement the primary reports make in those terms.
+Inference includes the suggestion that the reported tendency to hunt about all three axes is consistent with proximity to wing rock, which is offered in the contemporary literature section as a possibility and is not an identification any source consulted makes. It also includes the central claim that the programme's finding is about damping margin rather than about stability. The tailless damping ratio computed here is 0.244, which is stable, and the argument that the aircraft's difficulty arises from having no margin to lose in the transonic band is an interpretation supported by the reported behaviour rather than a statement the primary reports make in those terms.
+
+The wing-alone pitch damping derivative deserves separate mention, since the article now distinguishes a parallel-axis term it evaluates at minus 0.02 from an unsteady chordwise term of order unity, and only the first is computed here. The value of minus 0.8 used throughout is adopted as representative of a low aspect ratio swept planform rather than derived from this airframe, and the conclusion is insensitive to it, since any value small against the tail's minus 13 produces the same finding.
 
 Weakly supported are the representative values throughout. The moment of inertia and the radius of gyration behind it, the static margin, the lift-curve slopes, the tail volume coefficient and arm used for the conventional comparison, and both pitch damping derivatives are plausible values for aircraft of these classes rather than measured properties of this airframe. The ratio between the tailless and tailed damping ratios is more trustworthy than either value, since the same assumptions enter both sides, and the qualitative conclusion that the tail supplies the overwhelming majority of pitch damping is robust to any reasonable choice of inputs.
 
@@ -785,6 +799,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Banner McTigue and Petty 1958 Boundary-Layer-Transition Measurements in Full-Scale Flight][research_banner_1958]
 - [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
 - [Bellman 1959 A Summary of Flight-Determined Transonic Lift and Drag Characteristics of Several Research Airplane Configurations][research_bellman_1959]
+- [Bertolin et al 2021 Design of Stability Augmentation Systems for Flexible Aircraft Using Projective Control][research_bertolin_2021]
 - [Bidinotto and Moura 2021 A Survey of Human Pilot Models for the Study of Pilot-Induced Oscillation][research_bidinotto_2021]
 - [Boswinkle and Smith 1958 Transonic Flutter Investigation of Models of the Sweptback Wing of a Fighter Airplane][research_boswinkle_smith_1958]
 - [Brown 1959 Predicted Static Aeroelastic Effects on Wings with Supersonic Leading Edges and Streamwise Tips][research_brown_1959]
@@ -793,6 +808,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Buell and Tinling 1957 Ground Effects on the Longitudinal Characteristics of Two Models with Wings Having Low Aspect Ratio and Pointed Tips][research_buell_tinling_1957]
 - [Campbell 1957 Turbulence in the Wake of a Thin Airfoil at Low Speeds][research_campbell_1957]
 - [Campos and Marques 2021 On the Handling Qualities of Two Flying Wing Aircraft][research_campos_marques_2021]
+- [Cavalcanti et al 2026 Analysis of Structural Flexibility Effects on Handling Qualities Using Variable-Order Models][research_cavalcanti_2026]
 - [Cen and Li 2020 Post-Stall Flight Dynamics of Commercial Transport Aircraft][research_cen_li_2020]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Collar 1946 The Expanding Domain of Aeroelasticity][research_collar_1946]
@@ -801,9 +817,12 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Coppolino 1952 The Effective Downwash Characteristics at Transonic Speeds of a 6-Percent-Thick Wing with 47 Degrees of Sweepback][research_coppolino_1952]
 - [Crabill 1956 Lift, Drag, Static Stability, and Buffet Boundaries of a Model of the McDonnell F3H-1N Airplane][research_crabill_1956]
 - [Creer Stewart Merrick and Drinkwater 1959 A Pilot Opinion Study of Lateral Control Requirements for Fighter-Type Aircraft][research_creer_1959]
+- [Crouch et al 2019 Global Instability in the Onset of Transonic-Wing Buffet][research_crouch_2019]
 - [Cui and Zhang 2026 Stalled Redirection Control of a Relaxed Static Stability Aircraft][research_cui_zhang_2026]
 - [Deepa and Gupta 2023 Flight Envelope Expansion During Prototype Development][research_deepa_gupta_2023]
+- [Dias 2023 Flight-Test Determination of Longitudinal Stability Using System Identification][research_dias_2023]
 - [Dong and Zhou 2025 Dynamic Load Alleviation of Input-Redundant Flying Wings][research_dong_zhou_2025]
+- [Dong et al 2022 Development and Interaction of Vortices over a Very Low Aspect-Ratio Wing][research_dong_low_ar_2022]
 - [Donlan 1976 Collected Works of Charles J. Donlan][research_donlan_collected_1976]
 - [Drinkwater Jones and Snyder 1970 A Piloted Simulator Investigation of Ground Effect on the Landing Maneuver of a Large, Tailless, Delta-Wing Airplane][research_drinkwater_1970]
 - [Duan and Wan 2026 Multidisciplinary Design Optimization for the Conceptual Design of a Supersonic Aircraft][research_duan_wan_2026]
@@ -818,22 +837,27 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Goud and Dwivedi 2022 Effect of Twin Vertical Stabilizers on Lateral-Directional Stability][research_goud_dwivedi_2022]
 - [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
 - [Greenberg and Sternfield 1944 A Theoretical Investigation of Longitudinal Stability of Airplanes with Free Controls Including Effect of Friction in Control System][research_greenberg_sternfield_1944]
+- [Guo et al 2026 Research on Effectiveness Enhancement of Split Drag Rudder Based on Dual Synthetic Jets][research_guo_split_rudder_2026]
 - [Harman 1944 Determination of the Effect of Wing Flexibility on Lateral Maneuverability and a Comparison of Calculated Rolling Effectiveness with Flight Results][research_harman_1944]
 - [Harper and Jones 1947 A Comparison of the Lateral Motion Calculated for Tailless and Conventional Airplanes][research_harper_jones_1947]
 - [He and Hu 2022 Incremental Backstepping Sliding-Mode Trajectory Control][research_he_hu_2022]
 - [Hoag and Schofield 1970 IFR Experience with Unpowered, Low-Lift-Drag-Ratio Landing Approaches][research_hoag_schofield_1970]
+- [Hoang and Bui 2019 Experimental and Numerical Studies of Wingtip and Downwash Effects on a Horizontal Tail][research_hoang_bui_2019]
 - [Holdaway 1954 An Experimental Investigation of Reduction in Transonic Drag Rise at Zero Lift by the Addition of Volume to the Fuselage of a Wing-Body-Tail Configuration and a Comparison with Theory][research_holdaway_1954]
 - [House and Wallace 1941 Wind-Tunnel Investigation of Effect of Interference on Lateral-Stability Characteristics of Four NACA 23012 Wings, an Elliptical and a Circular Fuselage and Vertical Fins][research_house_wallace_1941]
+- [Hu et al 2024 A Review of Control Methods for Tailless Aircraft][research_hu_tailless_review_2024]
 - [Humphreys-Jennings and Lappas 2020 Conceptual Design, Flying, and Handling Qualities Assessment][research_humphreys_2020]
 - [Huston 1948 Accuracy of Airspeed Measurements and Flight Calibration Procedures][research_huston_1948]
 - [Ikard 1956 An Air-Flow-Direction Pickup Suitable for Telemetering Use on Pilotless Aircraft][research_ikard_1956]
 - [Jacobs Abbott and Davidson 1942 Investigation of Extreme Leading-Edge Roughness on Thick Low-Drag Airfoils to Indicate Those Critical to Separation][research_jacobs_1942]
+- [Jentzsch et al 2019 Using Sweeping Jets to Trim and Control a Tailless Aircraft Model][research_jentzsch_2019]
 - [Johnson 1946 Flight Investigation to Improve the Dynamic Longitudinal Stability and Control-Feel Characteristics of the P-63A-1 Airplane with Closely Balanced Experimental Elevators][research_johnson_p63_1946]
 - [Johnson 1949 Investigation of Stability and Control Characteristics of a 1/10-Scale Model of a Canadian Tailless Glider in the Langley Free-Flight Tunnel][research_johnson_glider_1949]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
 - [Jones and Fehlner 1940 Transient Effects of the Wing Wake on the Horizontal Tail][research_jones_fehlner_1940]
 - [Jurado and McGehee 2019 Complete Online Algorithm for Air Data System Calibration][research_jurado_mcgehee_2019]
 - [Kanazaki and Setoguchi 2023 Characteristics of Vortices around Forward-Swept Wings][research_kanazaki_2023]
+- [Kania et al 2025 Study on the Impact of Winglets' Size on Aircraft Stability for a Tailless Configuration][research_kania_2025]
 - [Khalid 2023 Performance of a Refurbished Unmanned Combat Air Vehicle Configuration][research_khalid_2023]
 - [Khan and Shaikh 2025 Estimation of the Damping Derivative in Pitch][research_khan_shaikh_2025]
 - [Klawans and White 1957 A Method Utilizing Data on the Spiral, Roll-Subsidence, and Dutch Roll Modes for Determining Lateral Stability Derivatives from Flight Measurements][research_klawans_white_1957]
@@ -841,15 +865,19 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Kong and Pan 2023 Research on Key Technologies of Scaled Model Flight Testing][research_kong_pan_2023]
 - [Kraft Goranson and Reeder 1953 Measurements of Flying Qualities of an F-47D-30 Airplane to Determine Longitudinal Stability and Control and Stalling Characteristics][research_kraft_1953]
 - [Kumar and Ghosh 2023 Estimation of Longitudinal and Lateral Aerodynamic Parameters][research_kumar_ghosh_2023]
+- [Kwiek 2019 A Numerical Study into the Longitudinal Dynamic Stability of the Tailless Aircraft][research_kwiek_2019]
 - [Lang and Wang 2025 Prescribed Performance-Based Envelope Protection Control][research_lang_wang_2025]
 - [Lauten Lundstrom and Okelly 1954 Free-Flight Tests of 45 Degree Swept Wings of Aspect Ratio 3.15 and Taper Ratio 0.54 to Measure Wing Damping of the First Bending Mode and to Investigate the Possibility of Flutter at Transonic Speeds][research_lauten_1954]
 - [Li and Li 2025 Event-Triggered Formation Control for High-Speed Flight Vehicles][research_li_li_2025]
+- [Li et al 2022 Numerical Investigation on Stall Flutter of an Airfoil with Split Drag Rudder][research_li_split_rudder_2022]
+- [Li et al 2023 Wing Rock Mode and Its Mechanism of a Flying-Wing Aircraft][research_li_wing_rock_2023]
 - [Lichota 2023 Maximum Likelihood Wavelet Identification of an Unstable Configuration][research_lichota_2023]
 - [Liddell Reynolds and Christofferson 1947 Measurements in Flight of the Flying Qualities of a Chance Vought F4U-4 Airplane][research_liddell_1947]
 - [Lina and Ricker 1952 Measurements of Temperature Variations in the Atmosphere near the Tropopause with Reference to Airspeed Calibration by the Temperature Method][research_lina_ricker_1952]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
 - [Lindsey 1946 Effect of Compressibility on the Pressure and Forces Acting on a Modified NACA 65,3-019 Airfoil Having a 0.20-Chord Flap][research_lindsey_1946]
 - [Liu and Zhang 2022 Investigation of a Flow-Coupling Rudder for Directional Control][research_liu_zhang_rudder_2022]
+- [Liu et al 2026 Time-Varying Aeroelastic Analysis Coupled with Flight Dynamics of a Flying-Wing Aircraft][research_liu_flying_wing_aero_2026]
 - [Luoma 1953 A Transonic Wind-Tunnel Investigation of the Trim and Dynamic Response Characteristics of the Horizontal Tail of a 1/7-Scale Model of the Complete Tail of the Grumman XF10F-1 Airplane][research_luoma_1953]
 - [Lyu and Zhang 2023 Collaborative Design Method of Aerodynamic Stability and Control][research_lyu_zhang_2023]
 - [Mason 1953 Flight Test Results of Rocket-Propelled Buffet-Research Models Having 45 Degree Sweptback Wings and 45 Degree Sweptback Tails Located in the Wing Chord Plane][research_mason_1953]
@@ -891,19 +919,23 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [NASA 1997 Flight Testing the X-36, the Test Pilot's Perspective][research_x36_test_pilot_1997]
 - [NASA 2003 Historical Review of Uncommanded Lateral-Directional Motions at Transonic Conditions][research_uncommanded_lateral_2003]
 - [NASA 2006 Designing and Testing a Blended Wing Body with Boundary Layer Ingestion Nacelles][research_bwb_bli_2006]
+- [Newton and Kroo 2025 Model Reference Control for Reducing Pilot-Induced Oscillation Tendencies][research_newton_kroo_2025]
 - [Nguyen and Lowenberg 2021 Frequency-Domain Bifurcation Analysis of a Nonlinear Flight Dynamics Model][research_nguyen_lowenberg_2021]
+- [Nguyen et al 2021 Effect of Actuator Saturation on Pilot-Induced Oscillation, A Nonlinear Bifurcation Analysis][research_nguyen_saturation_pio_2021]
 - [Ni and Wang 2025 A Yaw-Roll Coupling Suppression Control Method][research_ni_wang_2025]
 - [Nielsen Kaattari and Anastasio 1953 A Method for Calculating the Lift and Center of Pressure of Wing-Body-Tail Combinations at Subsonic, Transonic, and Supersonic Speeds][research_nielsen_1953]
 - [Norton 1924 A Study of Longitudinal Dynamic Stability in Flight][research_norton_1924]
 - [Norton and Carroll 1922 The Effect of Longitudinal Moment of Inertia upon Dynamic Stability][research_norton_carroll_1922]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
 - [Oswald 1932 General Formulas and Charts for the Calculation of Airplane Performance][research_oswald_1932]
+- [Ozer 2025 Delay Effects in the Stability Augmentation System of Aircraft Longitudinal Dynamics][research_ozer_2025]
 - [Pan and Huang 2019 Effect of Aerodynamic Configuration Parameters on Stability][research_pan_huang_2019]
 - [Phillips 1942 A Flight Investigation of Short-Period Longitudinal Oscillations of an Airplane with Free Elevator][research_phillips_shortperiod_1942]
 - [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
 - [Portapas and Cooke 2020 Simulated Pilot-in-the-Loop Testing of Handling Qualities][research_portapas_2020]
 - [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Purser and Turner 1941 Wind-Tunnel Investigation of Perforated Split Flaps for Use as Dive Brakes on a Tapered NACA 23012 Airfoil][research_purser_turner_1941]
+- [Qi et al 2021 Investigation on Improving Longitudinal Static Stability of a Blended Wing Body Aircraft][research_qi_bwb_2021]
 - [Queijo and Wells 1956 Effects of Vertical Fins near the Nose of the Fuselage on the Directional and Damping-in-Yaw Stability Derivatives of an Airplane Model][research_queijo_wells_1956]
 - [Queijo Jaquet and Wolhart 1954 Wind-Tunnel Investigation at Low Speed of the Effects of Chordwise Wing Fences and Horizontal-Tail Position on the Static Longitudinal Stability Characteristics of an Airplane Model with a 35 Degree Sweptback Wing][research_queijo_fences_1954]
 - [Rainey and Igoe 1958 Measurements of the Buffeting Loads on the Wing and Horizontal Tail of a 1/4-Scale Model of the X-1E Airplane][research_rainey_igoe_1958]
@@ -911,14 +943,17 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Ross 2021 Supersonic Travel Returns, the Boom XB-1 Test Aircraft][research_ross_2021]
 - [Sadoff and Sisk 1950 Summary Report of Results Obtained During Demonstration Tests of the Northrop X-4 Airplanes][research_sadoff_sisk_1950]
 - [Sadoff Matteson and Van Dyke 1954 The Effect of Blunt-Trailing-Edge Modifications on the High-Speed Stability and Control Characteristics of a Swept-Wing Fighter Airplane][research_sadoff_blunt_te_1954]
+- [Saheby et al 2026 Vortex Behavior over a Tailless Forward-Swept Wing with Chine Forebody Configuration][research_saheby_2026]
 - [Samputh and Moey 2024 Investigation of Aerodynamic Characteristics of Swept Wings][research_samputh_moey_2024]
 - [Sandahl 1948 Free-Flight Investigation at Transonic and Supersonic Speeds of the Rolling Effectiveness of a 42.7 Degree Sweptback Wing Having Partial-Span Ailerons][research_sandahl_swept_1948]
 - [Sandahl 1948 Free-Flight Investigation of the Rolling Effectiveness of Several Delta Wing Aileron Configurations at Transonic and Supersonic Speeds][research_sandahl_delta_1948]
+- [Schmidt et al 2025 Two-Dimensional Static Margin for Three-Dimensional Aircraft][research_schmidt_static_margin_2025]
 - [Schuldenfrei Comisarow and Goodson 1947 Stability and Control Characteristics of an Airplane Model Having a 45.1 Degree Swept-Back Wing with Aspect Ratio 2.50 and a 42.8 Degree Swept-Back Horizontal Tail][research_schuldenfrei_1947]
 - [Shams and Khouli 2026 Aircraft and Pilot Coupling, a Parametric Study Using Multibody Dynamics][research_shams_khouli_2026]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
 - [Shearwood and Nabawy 2020 A Novel Control Allocation Method for Yaw Control][research_shearwood_2020]
 - [Shen and Huang 2019 Effects of the Yaw-to-Roll Coupling Ratio on Lateral-Directional Behaviour][research_shen_huang_2019]
+- [Simmons et al 2023 Flight-Test System Identification Techniques and Applications for Small, Low-Cost Aircraft][research_simmons_sysid_2023]
 - [Singh and Ghosh 2023 Longitudinal Parameter Estimation from Wind Tunnel and Flight Data][research_singh_ghosh_2023]
 - [Smith 1953 Wind-Tunnel Investigation at Subsonic and Supersonic Speeds of a Model of a Tailless Fighter Airplane Employing a Low-Aspect-Ratio Swept-Back Wing][research_smith_tailless_1953]
 - [Soule 1937 Flight Measurements of the Dynamic Longitudinal Stability of Several Airplanes and a Correlation of the Measurements with Pilots' Observations of Handling Characteristics][research_soule_1937]
@@ -927,9 +962,11 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Sternfield and Gates 1949 A Method of Calculating a Stability Boundary That Defines a Region of Satisfactory Period-Damping Relationship of the Oscillatory Mode of Motion][research_sternfield_gates_1949]
 - [Stone 1950 Wing-Dropping Characteristics of Some Straight and Swept Wings at Transonic Speeds as Determined with Rocket-Powered Models][research_stone_1950]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
+- [Tahir et al 2026 Efficacy of Active Flow Control in Suppression of Wing Rock in Blended-Wing-Body Aircraft][research_tahir_wing_rock_2026]
 - [Takovitskii 2023 Direct Method of Aerodynamic Shape Optimization for Supersonic Flight][research_takovitskii_2023]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Thomas and Wolhart 1957 Static Longitudinal and Lateral Stability Characteristics at Low Speed of 45 Degree Sweptback-Midwing Models Having Wings with an Aspect Ratio of 2, 4, or 6][research_thomas_wolhart_1957]
+- [Timme 2020 Global Instability of Wing Shock-Buffet Onset][research_timme_2020]
 - [Tu and Yan 2024 Prediction of Aircraft Departure and Spin Characteristics][research_tu_yan_2024]
 - [Tucker and Quinn 1944 Scale and Turbulence Effects on the Lift and Drag Characteristics of the NACA 65(3)-418 Airfoil Section][research_tucker_quinn_1944]
 - [Underwood 1942 Notes on the Effects of Trailing-Edge Shapes of Low-Drag Airfoils on Profile Drag and the Trim and Balance of Control Surfaces][research_underwood_1942]
@@ -939,16 +976,25 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 - [Wang 2019 Transonic Static Aeroelastic and Longitudinal Aerodynamic Behaviour][research_wang_aeroelastic_2019]
 - [Wang and Tang 2020 Lateral Stability and Control of a Flying Wing Aircraft][research_wang_tang_2020]
 - [Wang and Zhao 2022 Aircraft Lateral-Directional Aerodynamic Parameter Identification][research_wang_zhao_latdir_2022]
+- [Wang et al 2021 Aircraft Configuration Parameter Boundaries Based on Closed-Loop Flying Qualities Requirements][research_wang_criteria_2021]
+- [Wang et al 2022 Stability Characteristics and Airworthiness Requirements of Blended Wing Body Aircraft][research_wang_bwb_airworthiness_2022]
+- [Wang et al 2024 Flying Qualities Based Time-Varying Stability Augmentation System Design][research_wang_tvsas_2024]
+- [Wang et al 2025 Aeroelastic Analysis of a Tailless Flying Wing with a Rotating Wingtip][research_wang_rotating_wingtip_2025]
 - [Weiss and Staudacher 2022 Uncertainty Quantification for Full-Flight Data Based Performance Analysis][research_weiss_staudacher_2022]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Winograd Cooper Rathert and Rolls 1950 Preliminary Flight Investigation of the Wing-Dropping Tendency and Lateral-Control Characteristics of a 35 Degree Swept-Wing Airplane at Transonic Mach Numbers][research_winograd_1950]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
 - [Xie and Cai 2023 Certification-Constrained Vertical Tail Sizing][research_xie_cai_2023]
+- [Xin et al 2019 Externally Blown Elevon Applied for the Longitudinal Control of Blended Wing Body Aircraft][research_xin_blown_elevon_2019]
 - [Xu and Yue 2019 Study on the Chaotic Dynamics in Yaw, Pitch, and Roll Coupling][research_xu_yue_2019]
+- [Xu et al 2019 Prediction of Nonlinear Pilot-Induced Oscillation Using an Intelligent Human Pilot Model][research_xu_pio_2019]
+- [Xun et al 2026 Subsonic, Transonic, and Supersonic Ground Effect Aerodynamics of an Airfoil][research_xun_ground_effect_2026]
 - [Yang and Li 2022 Numerical Aeroelastic Analysis of a High-Aspect-Ratio Wing][research_yang_li_aeroelastic_2022]
 - [Yates 1960 Use of Experimental Steady-Flow Aerodynamic Parameters in the Calculation of Flutter Characteristics for Finite-Span Swept or Unswept Wings at Subsonic, Transonic, and Supersonic Speeds][research_yates_1960]
 - [Yildiz and Akcal 2019 Switching Control Architecture with Parametric Optimization][research_yildiz_akcal_2019]
+- [Yu et al 2023 Nonsingular Fixed-Time Fault-Tolerant Attitude Control for Tailless Flying Wing Aircraft][research_yu_tailless_2023]
 - [Yuan and Kou 2024 Resolvent Analysis for Flutter Boundary Prediction][research_yuan_kou_2024]
+- [Zhang and He 2026 Virtual Flight Test for Three-Axis Decoupling Fluidic Flight Control of a Tailless Aircraft][research_zhang_he_fluidic_2026]
 - [Zhang and He 2026 Yaw Stabilization and Maneuvering Control of a Tailless Aircraft][research_zhang_he_2026]
 - [Zhang and Liu 2024 Stability Analysis of a Flying Wing Layout Aircraft][research_zhang_liu_2024]
 - [Zhou and Liu 2025 Influence of Single Engine Failure on Control of a Flying Wing][research_zhou_liu_2025]
@@ -1147,6 +1193,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_banner_1958]: https://ntrs.nasa.gov/citations/19630008170
 [research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
 [research_bellman_1959]: https://ntrs.nasa.gov/citations/19980228028
+[research_bertolin_2021]: https://doi.org/10.2514/1.g005783
 [research_bidinotto_2021]: https://doi.org/10.1017/aer.2021.82
 [research_boswinkle_smith_1958]: https://ntrs.nasa.gov/citations/19660027826
 [research_brown_1959]: https://ntrs.nasa.gov/citations/19980228294
@@ -1156,6 +1203,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_bwb_bli_2006]: https://ntrs.nasa.gov/citations/20080015860
 [research_campbell_1957]: https://ntrs.nasa.gov/citations/20040034247
 [research_campos_marques_2021]: https://doi.org/10.3390/aerospace8030077
+[research_cavalcanti_2026]: https://doi.org/10.2514/1.c038528
 [research_cen_li_2020]: https://doi.org/10.1177/0954410020944085
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
@@ -1164,9 +1212,12 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_coppolino_1952]: https://ntrs.nasa.gov/citations/19930087469
 [research_crabill_1956]: https://ntrs.nasa.gov/citations/20050030066
 [research_creer_1959]: https://ntrs.nasa.gov/citations/19980228135
+[research_crouch_2019]: https://doi.org/10.1017/jfm.2019.748
 [research_cui_zhang_2026]: https://doi.org/10.1051/jnwpu/20264410151
 [research_deepa_gupta_2023]: https://doi.org/10.61653/joast.v65i2.2013.727
 [research_delajarte_1936]: https://ntrs.nasa.gov/citations/19930094623
+[research_dias_2023]: https://doi.org/10.2514/1.c037252
+[research_dong_low_ar_2022]: https://doi.org/10.1017/jfm.2022.451
 [research_dong_zhou_2025]: https://doi.org/10.1016/j.ast.2025.110199
 [research_donlan_collected_1976]: https://ntrs.nasa.gov/citations/19770022115
 [research_drinkwater_1970]: https://ntrs.nasa.gov/citations/19700033494
@@ -1185,23 +1236,28 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_goud_dwivedi_2022]: https://doi.org/10.47893/gret.2022.1057
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
 [research_greenberg_sternfield_1944]: https://ntrs.nasa.gov/citations/19960024284
+[research_guo_split_rudder_2026]: https://doi.org/10.1016/j.ast.2026.112086
 [research_harman_1944]: https://ntrs.nasa.gov/citations/19930092577
 [research_harper_jones_1947]: https://ntrs.nasa.gov/citations/19930081822
 [research_he_hu_2022]: https://doi.org/10.3390/aerospace9070352
 [research_high_alpha_conf_1994]: https://ntrs.nasa.gov/citations/19950007815
 [research_hoag_schofield_1970]: https://ntrs.nasa.gov/citations/19710000636
+[research_hoang_bui_2019]: https://doi.org/10.1007/s12206-019-0120-9
 [research_holdaway_1954]: https://ntrs.nasa.gov/citations/19930093744
 [research_house_wallace_1941]: https://ntrs.nasa.gov/citations/19930091783
+[research_hu_tailless_review_2024]: https://doi.org/10.1142/s2737480724300026
 [research_humphreys_2020]: https://doi.org/10.3390/aerospace7050051
 [research_huston_1948]: https://ntrs.nasa.gov/citations/19930090948
 [research_ikard_1956]: https://ntrs.nasa.gov/citations/19930084540
 [research_jacobs_1942]: https://ntrs.nasa.gov/citations/19930092756
+[research_jentzsch_2019]: https://doi.org/10.2514/1.j056962
 [research_johnson_glider_1949]: https://ntrs.nasa.gov/citations/20090026465
 [research_johnson_p63_1946]: https://ntrs.nasa.gov/citations/19930092636
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
 [research_jones_fehlner_1940]: https://ntrs.nasa.gov/citations/19930081625
 [research_jurado_mcgehee_2019]: https://doi.org/10.2514/1.c034964
 [research_kanazaki_2023]: https://doi.org/10.3390/aerospace10090790
+[research_kania_2025]: https://doi.org/10.3390/app152212097
 [research_khalid_2023]: https://doi.org/10.4197/eng.33-1.5
 [research_khan_shaikh_2025]: https://doi.org/10.37934/arfmts.18.1.106117
 [research_klawans_white_1957]: https://ntrs.nasa.gov/citations/19930084970
@@ -1209,14 +1265,18 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_kong_pan_2023]: https://doi.org/10.1088/1742-6596/2658/1/012047
 [research_kraft_1953]: https://ntrs.nasa.gov/citations/19930083857
 [research_kumar_ghosh_2023]: https://doi.org/10.61653/joast.v66i4.2014.481
+[research_kwiek_2019]: https://doi.org/10.1108/aeat-01-2018-0032
 [research_lang_wang_2025]: https://doi.org/10.1109/taes.2025.3571683
 [research_lauten_1954]: https://ntrs.nasa.gov/citations/19630003991
 [research_li_li_2025]: https://doi.org/10.1109/taes.2025.3596214
+[research_li_split_rudder_2022]: https://doi.org/10.1016/j.jfluidstructs.2022.103718
+[research_li_wing_rock_2023]: https://doi.org/10.1017/flo.2023.30
 [research_lichota_2023]: https://doi.org/10.1108/aeat-01-2023-0013
 [research_liddell_1947]: https://ntrs.nasa.gov/citations/20050081862
 [research_lina_ricker_1952]: https://ntrs.nasa.gov/citations/19930083537
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
 [research_lindsey_1946]: https://ntrs.nasa.gov/citations/19930092792
+[research_liu_flying_wing_aero_2026]: https://doi.org/10.1016/j.ast.2026.112709
 [research_liu_zhang_rudder_2022]: https://doi.org/10.3390/aerospace9020079
 [research_luoma_1953]: https://ntrs.nasa.gov/citations/20050029467
 [research_lyu_zhang_2023]: https://doi.org/10.1016/j.ast.2023.108384
@@ -1228,7 +1288,9 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_moreira_gripp_2022]: https://doi.org/10.2514/1.g006443
 [research_morelli_2021]: https://doi.org/10.1007/s10957-021-01912-0
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
+[research_newton_kroo_2025]: https://doi.org/10.2514/1.g008400
 [research_nguyen_lowenberg_2021]: https://doi.org/10.2514/1.g005197
+[research_nguyen_saturation_pio_2021]: https://doi.org/10.2514/1.g005840
 [research_ni_wang_2025]: https://doi.org/10.1088/1742-6596/3044/1/012001
 [research_nielsen_1953]: https://ntrs.nasa.gov/citations/19930093732
 [research_norton_1924]: https://ntrs.nasa.gov/citations/19930091236
@@ -1236,6 +1298,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
 [research_oblique_flying_wing_1989]: https://ntrs.nasa.gov/citations/19890015862
 [research_oswald_1932]: https://ntrs.nasa.gov/citations/19930091482
+[research_ozer_2025]: https://doi.org/10.1109/access.2025.3648550
 [research_pan_huang_2019]: https://doi.org/10.5028/jatm.v11.1074
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
 [research_phillips_shortperiod_1942]: https://ntrs.nasa.gov/citations/19930092630
@@ -1243,6 +1306,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_portapas_2020]: https://doi.org/10.3846/aviation.2020.12175
 [research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
 [research_purser_turner_1941]: https://ntrs.nasa.gov/citations/19930092828
+[research_qi_bwb_2021]: https://doi.org/10.1007/s13272-021-00538-2
 [research_queijo_fences_1954]: https://ntrs.nasa.gov/citations/19930092215
 [research_queijo_wells_1956]: https://ntrs.nasa.gov/citations/19930084622
 [research_rainey_igoe_1958]: https://ntrs.nasa.gov/citations/19930093826
@@ -1250,14 +1314,17 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_ross_2021]: https://doi.org/10.1109/mspec.2021.9311455
 [research_sadoff_blunt_te_1954]: https://ntrs.nasa.gov/citations/19650075959
 [research_sadoff_sisk_1950]: https://ntrs.nasa.gov/citations/19930086420
+[research_saheby_2026]: https://doi.org/10.1016/j.ast.2025.111026
 [research_samputh_moey_2024]: https://doi.org/10.3846/aviation.2024.21495
 [research_sandahl_delta_1948]: https://ntrs.nasa.gov/citations/19930085426
 [research_sandahl_swept_1948]: https://ntrs.nasa.gov/citations/19930085384
+[research_schmidt_static_margin_2025]: https://doi.org/10.2514/1.c038107
 [research_schuldenfrei_1947]: https://ntrs.nasa.gov/citations/19930093791
 [research_shams_khouli_2026]: https://doi.org/10.1115/1.4071374
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 [research_shearwood_2020]: https://doi.org/10.3390/aerospace7100150
 [research_shen_huang_2019]: https://doi.org/10.1016/j.cja.2019.04.007
+[research_simmons_sysid_2023]: https://doi.org/10.2514/1.c037260
 [research_singh_ghosh_2023]: https://doi.org/10.61653/joast.v59i2.2007.567
 [research_smith_tailless_1953]: https://ntrs.nasa.gov/citations/19930087359
 [research_soule_1937]: https://ntrs.nasa.gov/citations/19930091661
@@ -1267,6 +1334,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_sternfield_gates_1949]: https://ntrs.nasa.gov/citations/19930082531
 [research_stone_1950]: https://ntrs.nasa.gov/citations/19930086136
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
+[research_tahir_wing_rock_2026]: https://doi.org/10.2514/1.c038034
 [research_tail_size_effect_1952]: https://ntrs.nasa.gov/citations/19930092137
 [research_tailless_delta_lowspeed_1959]: https://ntrs.nasa.gov/citations/19980232080
 [research_tailless_freeflight_1956]: https://ntrs.nasa.gov/citations/19630004110
@@ -1278,6 +1346,7 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_takovitskii_2023]: https://doi.org/10.61653/joast.v61i1.2009.632
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
 [research_thomas_wolhart_1957]: https://ntrs.nasa.gov/citations/19930085077
+[research_timme_2020]: https://doi.org/10.1017/jfm.2019.1001
 [research_tu_yan_2024]: https://doi.org/10.1007/s42405-024-00735-3
 [research_tucker_quinn_1944]: https://ntrs.nasa.gov/citations/19930092795
 [research_tumbling_characteristics_1993]: https://ntrs.nasa.gov/citations/19930064305
@@ -1288,7 +1357,11 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_vitale_1954]: https://ntrs.nasa.gov/citations/19930083881
 [research_wakefield_1959]: https://ntrs.nasa.gov/citations/19630003104
 [research_wang_aeroelastic_2019]: https://doi.org/10.1063/1.5087963
+[research_wang_bwb_airworthiness_2022]: https://doi.org/10.1016/j.cja.2021.09.002
+[research_wang_criteria_2021]: https://doi.org/10.3390/aerospace8120360
+[research_wang_rotating_wingtip_2025]: https://doi.org/10.3390/aerospace12080688
 [research_wang_tang_2020]: https://doi.org/10.1088/1742-6596/1509/1/012022
+[research_wang_tvsas_2024]: https://doi.org/10.1016/j.cja.2024.05.002
 [research_wang_zhao_latdir_2022]: https://doi.org/10.3390/aerospace9080433
 [research_weiss_staudacher_2022]: https://doi.org/10.3390/machines10100846
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
@@ -1303,11 +1376,16 @@ The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change
 [research_xb70_review_1965]: https://ntrs.nasa.gov/citations/20000011988
 [research_xf7u_semispan_1947]: https://ntrs.nasa.gov/citations/20050019378
 [research_xie_cai_2023]: https://doi.org/10.2514/1.c037239
+[research_xin_blown_elevon_2019]: https://doi.org/10.1016/j.ast.2019.105324
+[research_xu_pio_2019]: https://doi.org/10.1016/j.cja.2019.06.003
 [research_xu_yue_2019]: https://doi.org/10.1007/s11071-019-05159-3
+[research_xun_ground_effect_2026]: https://doi.org/10.2514/1.c038881
 [research_yang_li_aeroelastic_2022]: https://doi.org/10.3390/aerospace9090515
 [research_yates_1960]: https://ntrs.nasa.gov/citations/19630004021
 [research_yildiz_akcal_2019]: https://doi.org/10.2514/1.g004180
+[research_yu_tailless_2023]: https://doi.org/10.1002/rnc.6570
 [research_yuan_kou_2024]: https://doi.org/10.2514/1.j064214
 [research_zhang_he_2026]: https://doi.org/10.1016/j.cja.2025.103582
+[research_zhang_he_fluidic_2026]: https://doi.org/10.1016/j.cja.2025.103811
 [research_zhang_liu_2024]: https://doi.org/10.1108/aeat-05-2024-0128
 [research_zhou_liu_2025]: https://doi.org/10.3724/j.issn.1674-4969.20240059

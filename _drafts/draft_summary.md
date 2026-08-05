@@ -21,16 +21,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
 
-1313 lines, 98 display equations, 340 reference definitions, 16,404 words after an equation-density
-review that added 30 equations across 14 edits and a primary-reference review that added 71
-programme-era NTRS documents across 18 edits. Lines, equations, and references are all now inside
-band, reached by citing new material rather than by padding. NTRS-hosted primary documents rose from
-41 to 112, which is 32.9 percent of all references against 32.6, 31.4, and 32.1 percent for A298
-through A300, closing a deficit that had left this article with roughly a third of its siblings'
-primary base. References dated 1960 or earlier rose from 22.9 to 43.2 percent of dated references,
-the highest of the five. Contemporary references are unchanged in absolute count at 69 and fall from
-38.5 to 27.6 percent of dated references purely by dilution, which brings the article from above the
-target band to just below it and into line with A298 at 26.3 percent.
+1391 lines, 98 display equations, 372 reference definitions, 18,358 words after four passes. All
+three densities are inside band. The publication review added 32 contemporary journal articles
+harvested from Crossref under a 2019 date filter and verified individually against Crossref on author
+and title, taking contemporary references from 69 to 101 and from 27.6 to 35.8 percent of dated
+references. That is above the 28 to 33 percent range A297 through A300 settled at, and it is
+deliberate under the standing directive that these articles serve as a comprehensive survey of the
+contemporary literature. The absolute contemporary count of 101 is the highest in the series. NTRS
+primary documents hold at 112, and references dated 1960 or earlier at 38.3 percent of dated
+references, so the primary base established by the previous pass was diluted but not displaced.
 
 The keystone is whether a horizontal tail can be dispensed with at transonic speed. A tail does two
 jobs and the historical debate was conducted about the wrong one, since the damping contribution
@@ -50,12 +49,24 @@ the lift-to-drag ratio deliberately and generate low-ratio approach data for fut
 aircraft, a thread running through Matranga and Menard 1959 to the same author's analysis of the
 first thirty X-15 landings and onward to gliding re-entry practice.
 
-Verification complete. All 340 references cited with zero undefined and zero orphaned, all 71 new
-NTRS URLs swept at 200, `_verify.py` clean at the 0-error 21-warning corpus baseline, zero style
-violations, zero doubled words, zero malformed links, zero display-math seam defects, and the
+The publication review found and corrected two mathematical defects. The wing pitch damping
+expression returned minus 0.007 for the article's own inputs while the same line asserted an order of
+minus one and every subsequent number used minus 0.8, an inconsistency of two orders of magnitude.
+The passage now separates a parallel-axis term evaluated at minus 0.02 from the wing's own unsteady
+chordwise term of order unity, which is where the minus 0.8 comes from, and labels the latter as
+adopted rather than derived. A split-drag yaw expression divided by unity, the third instance of that
+malformation in the series. The diction check found `aircraft` at 12.37 uses per thousand words
+against a sibling range of 5.31 to 8.30, and a rotation across design, layout, configuration, case,
+and the designation itself brought it to 9.07.
+
+Verification complete. All 372 references cited with zero undefined and zero orphaned, zero duplicate
+URLs, all 182 meaningful-404 URLs swept at 200, all 99 DOIs resolved through Crossref and compared on
+author and title, `_verify.py` clean at the 0-error 21-warning corpus baseline, zero contractions,
+em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals, zero doubled words,
+zero malformed links, zero display-math seam defects, genre section order conforming, and the
 isolated build succeeding with Part 5 navigation and zero unresolved anchors in the rendered page. A
 display-equation seam defect introduced by the equation pass, in which the induced-drag ratio had
-prose glued to the same line, was repaired in this pass.
+prose glued to the same line, was repaired in the primary-reference pass.
 
 **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297.
 
