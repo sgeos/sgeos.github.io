@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x2.markdown`, A299, editorial date 2025-10-08, series `x_planes` index 3 of 72.
 
-1189 lines, 97 display equations, 287 reference definitions, 13,821 words. Primary sources 42.2
-percent of external references, contemporary coverage 31.5 percent. Both lines and equations sit
-below band after two expansion passes and have not been padded.
+1315 lines, 126 display equations, 287 reference definitions, 15,212 words, both figures inside band
+after an equation-density review that added 29 equations across 12 edits. Primary sources 42.2
+percent of external references, contemporary coverage 31.5 percent.
 
 The keystone is aerodynamic heating, with the binding constraint being time at temperature rather
 than temperature. Two findings carry the article. Dynamic pressure at the fatal condition was 39.2

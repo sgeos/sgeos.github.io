@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A299, the Bell X-2, drafted and verified. A297 and A298 are unchanged and already pushed.
-**No article in this series is published.** All three remain in `_drafts/`.
+**Task**: A299 drafted, then taken through an equation-density review. A297 and A298 are unchanged
+and already pushed. **No article in this series is published.** All three remain in `_drafts/`.
 
 ---
 
@@ -18,10 +18,30 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 `_drafts/x_planes_bell_x2.markdown`, editorial date 2025-10-08, series index 3 of 72.
 
-**1189 lines, 97 display equations, 287 reference definitions, 13,821 words.** Primary sources are
-42.2 percent of external references and contemporary coverage is 31.5 percent, the latter the highest
-of the three articles so far. Lines and equations both sit somewhat below the 1300-to-1600 and
-90-to-130 bands after two expansion passes, and I have not padded to close the gap.
+**1315 lines, 126 display equations, 287 reference definitions, 15,212 words.** Both figures are now
+inside the 1300-to-1600 and 90-to-130 bands, reached with content rather than padding. Primary
+sources are 42.2 percent of external references and contemporary coverage is 31.5 percent, the latter
+the highest of the three articles.
+
+The equation review added 29 equations across 12 edits. **It also corrected a defect the previous
+pass introduced**, a Larson-Miller step written with a meaningless trailing term and no worked
+numbers, which asserted three orders of magnitude without showing the arithmetic. It is now derived
+and gives two and a half.
+
+The largest genuine omission was the landing. Every X-2 flight ended with an unpowered arrival on a
+lake bed and the article covered the condition nowhere. It now does, and the result is worth having.
+The aspect ratio of 4.0 that suits supersonic flight gives a best glide of 11.2, and the sweep that
+raises the critical Mach number also raises the stall speed, so the approach is 88 metres per second
+with a 7.9 metre per second sink rate. Both penalties are paid on every return and both follow
+directly from the choices the keystone forced.
+
+Also added were the perfect-gas justification the article had been assuming silently, which holds at
+659 kelvin and would not at X-15 temperatures; the aeroelastic divergence and control-reversal limits,
+which tighten as the structure heats because the modulus falls; the thermocouple lag, which at 20
+kelvin against a 30 kelvin per second skin is not negligible; the parachute sizing that closes the
+escape chain; and the yaw-damper feedback law, with the point that artificial damping cannot raise
+the divergence threshold because that threshold is set by stiffness rather than damping. That last
+distinction is why roll rate limits were imposed alongside dampers rather than instead of them.
 
 The keystone is aerodynamic heating. A recovery temperature of 611 kelvin at Mach 3.196 excludes
 aluminium and admits steel, and the binding constraint turns out to be time at temperature rather
@@ -53,10 +73,13 @@ Breaks Down and will recur.
 
 ## Verification of A299
 
-All 41 worked numerical examples re-derived independently. **Four disagreed and were corrected.** The
-turbulent-to-laminar heating ratio omitted the coefficient ratio between the two correlations and was
-stated as a factor of eight where it is eleven, and three pitot-relation values at Mach 3.196 were
-simply miscalculated. All four are now computed values.
+All 55 worked numerical examples re-derived independently across both rounds. **Seven disagreed and
+were corrected.** Three came from the equation pass, being a friction drag coefficient whose Reynolds
+number was ambiguous until the body length was stated, a thermocouple lag understated at 15 kelvin
+where it is 20, and a parachute figure that conflated drag area with canopy area. The earlier four
+were a turbulent-to-laminar heating ratio that omitted the coefficient ratio between the two
+correlations, stated as eight where it is eleven, and three miscalculated pitot values at Mach 3.196.
+All seven are now computed values.
 
 All 287 references cited, zero undefined, zero orphaned. All 149 URLs whose status code carries
 information were swept and all returned 200. Every digital object identifier was either already
