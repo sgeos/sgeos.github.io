@@ -159,6 +159,20 @@ $$t_{1/2} = \frac{\ln 2}{\zeta_{sp} \omega_{sp}}$$
 
 which for the tailless case is 0.95 seconds and for the tailed case 0.31. A pilot making a correction every second is inside the settling time of his own aircraft in the first case and outside it in the second, and that is the difference between an aircraft that responds and one that hunts.
 
+There is a second way to state the result, in the language the discipline eventually adopted, and it is worth doing because it closes the argument.
+
+Short-period handling qualities are now specified by a pair of numbers. The first is the damping ratio itself. The second is the control anticipation parameter, which relates the initial pitch acceleration a pilot commands to the steady load factor he eventually gets,
+
+$$\text{CAP} = \frac{\omega_{sp}^2}{n / \alpha}, \qquad \frac{n}{\alpha} = \frac{C_{L\alpha} \, q \, S}{W}$$
+
+with $n/\alpha$ in units of load factor per radian. For the X-4 at the condition above,
+
+$$\frac{n}{\alpha} = \frac{4.0 \times 17{,}061 \times 18.58}{34{,}784} = 36.5 \ \text{per radian}, \qquad \text{CAP} = \frac{3.00^2}{36.5} = 0.247$$
+
+The criteria place Level 1, meaning handling adequate for the mission without pilot compensation, at a damping ratio between roughly 0.35 and 1.30 with the control anticipation parameter between roughly 0.28 and 3.6 for a precision-tracking task. **The X-4 computes to a damping ratio of 0.244, which is below the Level 1 floor and at the very bottom of Level 2, with a control anticipation parameter of 0.247, marginally below its Level 1 band as well.** The tailed comparison at 0.749 sits comfortably inside Level 1 on both counts.
+
+Those criteria postdate the aircraft by two decades and are quoted here as a restatement rather than as a standard the programme was judged against. What they establish is that the pilots who called the X-4 unsatisfactory were not being fastidious. The configuration lands outside the band the discipline later drew, and it does so on the axis the tail would have supplied.
+
 The finding is about **margin** rather than about stability, and it can be stated exactly. Transonic flight degrades every aerodynamic derivative, through shock-induced separation, through aerodynamic centre migration, and through the collapse of control effectiveness described at length in the [X-1 article][related_post_a298_bell_x1]. Ask how much degradation each configuration tolerates before the damping ratio falls to a nominal 0.05, at which point the aircraft is effectively undamped. Writing $f$ for the fraction of nominal damping remaining,
 
 $$\zeta = f \, \zeta_{\text{nominal}} = 0.05 \quad \Longrightarrow \quad f = \frac{0.05}{\zeta_{\text{nominal}}}$$
@@ -181,7 +195,15 @@ near the crossover frequency $\omega_c$, with $\tau_e$ the effective pilot time 
 
 $$\phi_m = \frac{\pi}{2} - \omega_c \tau_e$$
 
-and it vanishes when $\omega_c \tau_e$ approaches ninety degrees. An aircraft that will not settle forces the pilot to raise his gain, which raises $\omega_c$, which consumes phase margin, which is the mechanism of pilot-induced oscillation. A lightly damped short period is therefore not merely uncomfortable. It invites the pilot into an instability that neither he nor the aircraft has alone. The modern treatment of exactly this is [Efremov 2020][research_efremov_2020] and [Bidinotto and Moura 2021][research_bidinotto_2021].
+and it vanishes when $\omega_c \tau_e$ approaches ninety degrees. The delay itself is conveniently represented for analysis by a first-order Pade approximation,
+
+$$e^{-\tau_e s} \approx \frac{1 - \tau_e s / 2}{1 + \tau_e s / 2}$$
+
+whose right-half-plane zero is the formal statement of why a delay cannot be compensated away. A pilot delay near 0.25 seconds and a crossover frequency near 3 radians per second consume
+
+$$\omega_c \tau_e = 0.75 \ \text{radians} = 43 \ \text{degrees}$$
+
+of phase before any aircraft dynamics are considered, which leaves under fifty degrees of margin for everything else. An aircraft that will not settle forces the pilot to raise his gain, which raises $\omega_c$, which consumes phase margin, which is the mechanism of pilot-induced oscillation. A lightly damped short period is therefore not merely uncomfortable. It invites the pilot into an instability that neither he nor the aircraft has alone. The modern treatment of exactly this is [Efremov 2020][research_efremov_2020] and [Bidinotto and Moura 2021][research_bidinotto_2021].
 
 ## Dependent Systems
 
@@ -189,19 +211,67 @@ and it vanishes when $\omega_c \tau_e$ approaches ninety degrees. An aircraft th
 
 Everything about the configuration follows from having no horizontal surface.
 
-Longitudinal stability must come from the wing alone, so the aerodynamic centre and the centre of gravity relationship is the whole of the static margin,
+The lift-curve slope of a swept low aspect ratio wing is not the two-dimensional value and must be estimated from the planform. The standard form is
+
+$$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}$$
+
+with $\Lambda_{c/2}$ the half-chord sweep and $\kappa$ the ratio of the section lift-curve slope to $2\pi$. At an aspect ratio of 3.60 this returns a value near 4.0 per radian at low Mach number, rising with the compressibility factor as Mach number increases, which is the figure used throughout. Longitudinal stability must come from the wing alone, so the aerodynamic centre and the centre of gravity relationship is the whole of the static margin,
 
 $$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} SM$$
 
-and for a tailless aircraft the neutral point is essentially the wing aerodynamic centre, since the term that a tail would contribute,
+There are two such margins and the distinction matters for a tailless aircraft. The static margin governs response to a change of angle of attack at constant speed. The manoeuvre margin governs response in a pull-up, where the aircraft is also rotating and the pitch damping therefore contributes a restoring moment of its own,
+
+$$MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}$$
+
+with $\mu$ the relative density parameter. At the flight condition $\mu = 367$, so the tailless aircraft has
+
+$$MM_{\text{tailless}} = 0.05 + \frac{0.8}{734} = 0.0511$$
+
+against
+
+$$MM_{\text{tailed}} = 0.05 + \frac{13.0}{734} = 0.0677$$
+
+The tail contributes 1.7 points of manoeuvre margin that the tailless aircraft simply does not have, which is a second and independent consequence of the same missing damping term. The stick force per unit load factor follows the manoeuvre margin directly,
+
+$$\frac{F_s}{n} \propto MM$$
+
+so a tailless aircraft is also lighter in pitch than its static margin suggests, which compounds the tendency of a pilot to over-control it.
+
+For a tailless aircraft the neutral point is essentially the wing aerodynamic centre, since the term that a tail would contribute,
 
 $$\Delta \frac{x_{np}}{\bar{c}} = V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)$$
 
-is zero. A conventional aircraft can place its centre of gravity over a wide range and recover stability with tail volume. A tailless aircraft cannot, so its usable centre of gravity range is narrow and fuel burn or store release moves it dangerously. Sweep supplies what tail volume otherwise would, since a swept wing places its outboard sections aft and washout at the tip generates the nose-up moment at zero lift that trim requires,
+is zero. A conventional aircraft can place its centre of gravity over a wide range and recover stability with tail volume. A tailless aircraft cannot, and the constraint can be written down. The aft limit is set by stability,
+
+$$x_{cg, \text{aft}} = x_{np} - SM_{\min} \bar{c}$$
+
+and the forward limit by the control power available to trim at maximum lift,
+
+$$x_{cg, \text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} \bar{c}$$
+
+so the usable range is the difference,
+
+$$\Delta x_{cg} = \left[ \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} - SM_{\min} \right] \bar{c} + \left( x_{np} - x_{ac} \right)$$
+
+in which the final term is the tail contribution and is zero for a tailless aircraft. Both bounds therefore collapse toward the wing aerodynamic centre, and the range is set entirely by how much control power the elevons can supply against how much stability is demanded. Fuel burn or store release that moves the centre of gravity a few percent of chord is a large fraction of that range. Sweep supplies what tail volume otherwise would, since a swept wing places its outboard sections aft and washout at the tip generates the nose-up moment at zero lift that trim requires,
 
 $$C_{m0} > 0$$
 
-which a conventional aircraft obtains from tail incidence and a tailless aircraft must build into the wing itself. Reflexed or washed-out sections generate that moment by carrying negative lift outboard, so the spanwise loading departs from elliptic and the induced drag rises above the minimum,
+which a conventional aircraft obtains from tail incidence and a tailless aircraft must build into the wing itself. The twist distribution that supplies it is conventionally linear in span,
+
+$$\varepsilon_t(y) = \varepsilon_{\text{tip}} \frac{2y}{b}$$
+
+and the pitching moment it generates on a wing of sweep $\Lambda$ is approximately
+
+$$C_{m0} \approx -\frac{C_{L\alpha} \, \varepsilon_{\text{tip}} \tan \Lambda}{6}$$
+
+so the required washout scales inversely with sweep, and a lightly swept tailless wing needs a great deal of it. The span efficiency that the resulting non-elliptic loading costs can be estimated from
+
+$$e \approx 1.78 \left( 1 - 0.045 A^{0.68} \right) - 0.64$$
+
+which at an aspect ratio of 3.60 returns 0.95 before the trim penalty is applied, against 0.84 for an aspect ratio of seven, so that the induced drag at a given lift coefficient exceeds the higher aspect ratio case by
+
+$$\frac{C_{D,i}(A = 3.6)}{C_{D,i}(A = 7)} = \frac{7 \times 0.84}{3.6 \times 0.95} = 1.7$$ Reflexed or washed-out sections generate that moment by carrying negative lift outboard, so the spanwise loading departs from elliptic and the induced drag rises above the minimum,
 
 $$C_{D,i} = \frac{C_L^2}{\pi A e}, \qquad e < 1$$
 
@@ -243,6 +313,18 @@ $$\delta_{e, \text{available}} = \delta_{\max} - \left| \delta_a \right|$$
 
 so a full roll input consumes the entire pitch authority. A conventional aircraft has independent surfaces and no such coupling. This matters most in exactly the situation where it is least welcome, since a pilot correcting a roll disturbance in the transonic band gives away the pitch authority he may need in the next second.
 
+Differential deflection also produces yaw, and on a swept wing the sign is unfavourable. The down-going elevon adds lift and therefore induced drag on the rising wing, yawing the aircraft away from the intended turn,
+
+$$C_{n \delta_a} \approx -K \, C_L \, C_{l \delta_a}$$
+
+with $K$ of order 0.1 to 0.2 and the negative sign denoting adverse yaw. A tailless aircraft with a small fin has little directional stiffness with which to resist that yaw, so roll and yaw are coupled more strongly than on a conventional configuration, and the sideslip that results feeds back into roll through the dihedral effect $C_{l\beta}$.
+
+The swept planform brings its own longitudinal hazard. Tip stall on a swept wing removes lift from the aft-most part of the surface, moving the centre of pressure forward and generating a nose-up increment. The pitch-up boundary is conventionally located where
+
+$$\frac{\partial C_m}{\partial C_L} > 0$$
+
+which for a swept wing occurs at moderate lift coefficients and which a tail would ordinarily counter. Stall behaviour on this aircraft was measured for exactly that reason in [NACA 1950][research_x4_stall_1950], and the automatic intervention that later programmes adopted appears in [NASA 1960][research_pitchup_control_1960].
+
 The control power itself is
 
 $$C_{m \delta_e} = -\frac{\partial C_L}{\partial \delta_e} \cdot \frac{x_{cp} - x_{cg}}{\bar{c}}$$
@@ -255,7 +337,15 @@ and correspondingly large stick forces,
 
 $$F_s = G \, H = G \, q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha + C_{h\delta} \delta_e$$
 
-with $G$ the control system gearing. Because $H$ scales with dynamic pressure while the required moment scales with the same quantity, the stick force per unit load factor is roughly constant, but the hinge moment derivatives themselves change sign through the transonic band as the shock crosses the hinge line, so the force the pilot feels ceases to be a reliable indication of what the surface is doing. That is the same failure the [X-1][related_post_a298_bell_x1] met, and a tailless aircraft cannot escape it by moving the whole surface, because the whole surface is the wing. The X-4 was fitted at one point with blunt trailing edge elevons intended to modify the hinge moment characteristics, an experiment reported in [NACA 1955][research_x4_blunt_elevons_1955]. Elevon effectiveness at transonic speed remained a research subject long afterward, as [NASA 1977][research_elevon_transonic_1977] shows.
+with $G$ the control system gearing. The effectiveness parameter relating surface deflection to an equivalent change of incidence follows thin-airfoil theory,
+
+$$\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c} - 1$$
+
+and aerodynamic balance, in which part of the surface projects ahead of the hinge line, reduces the hinge moment without reducing the effectiveness,
+
+$$C_{h\delta, \text{balanced}} = C_{h\delta} \left[ 1 - \left( \frac{c_b}{c_e} \right)^2 \right]$$
+
+with $c_b$ the balance chord. That relation is why the blunt trailing edge experiment of [NACA 1955][research_x4_blunt_elevons_1955] was worth trying, since it attacks the same coefficient from the other end of the surface. Because $H$ scales with dynamic pressure while the required moment scales with the same quantity, the stick force per unit load factor is roughly constant, but the hinge moment derivatives themselves change sign through the transonic band as the shock crosses the hinge line, so the force the pilot feels ceases to be a reliable indication of what the surface is doing. That is the same failure the [X-1][related_post_a298_bell_x1] met, and a tailless aircraft cannot escape it by moving the whole surface, because the whole surface is the wing. The X-4 was fitted at one point with blunt trailing edge elevons intended to modify the hinge moment characteristics, an experiment reported in [NACA 1955][research_x4_blunt_elevons_1955]. Elevon effectiveness at transonic speed remained a research subject long afterward, as [NASA 1977][research_elevon_transonic_1977] shows.
 
 ### Directional Stability and the Fin
 
@@ -268,6 +358,12 @@ with the same square-of-arm sensitivity that governs pitch damping, since the ya
 $$C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} \, V_V \, \frac{l_v}{b}$$
 
 A short aircraft has a short $l_v$, so a tailless design must buy directional stability with fin area rather than with arm, and area is drag. The fin location and area tradeoff was studied directly in [NACA 1951][research_vertical_fin_location_1951], with the interaction between fuselage and tail surfaces in [NACA 1951][research_fuselage_tail_yawing_1951]. Modern tailless aircraft, which have no fin at all, must generate yaw by other means entirely, and that literature is treated below.
+
+The long-period longitudinal mode completes the set. The [phugoid][ref_phugoid] is an exchange of altitude and speed at nearly constant angle of attack, with frequency and damping
+
+$$\omega_{ph} \approx \frac{g \sqrt{2}}{V}, \qquad \zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}$$
+
+which at 273 metres per second gives a period near 124 seconds. That is long enough to be irrelevant to the hunting problem and long enough for a pilot to manage without effort, so the tailless configuration costs nothing here. The absence of a penalty is worth stating, because it locates the damage precisely in the short period rather than in longitudinal behaviour generally.
 
 The [Dutch roll][ref_dutch_roll] mode that results has frequency and damping
 
@@ -297,7 +393,15 @@ The X-4 reached about Mach 0.92 in level flight and slightly more in a shallow d
 
 $$P_s = \frac{V \left( T - D \right)}{W}$$
 
-falls to zero at the ceiling, and with a thrust-to-weight of 0.41 the aircraft had modest but sufficient climb performance. Nothing about the propulsion installation constrains the answer to the keystone, which is a favourable contrast with the [X-3][related_post_a300_douglas_x3].
+falls to zero at the ceiling, and the climb angle available follows from the same excess,
+
+$$\sin \gamma = \frac{T - D}{W}, \qquad \frac{dh_e}{dt} = P_s$$
+
+with the energy height the natural coordinate,
+
+$$h_e = h + \frac{V^2}{2 g}$$
+
+With a thrust-to-weight of 0.41 the aircraft had modest but sufficient climb performance. Nothing about the propulsion installation constrains the answer to the keystone, which is a favourable contrast with the [X-3][related_post_a300_douglas_x3].
 
 ### Instrumentation
 
@@ -387,7 +491,11 @@ so with the X-4 values and a target of 0.7, the feedback must supply an addition
 
 $$\Delta \left( \frac{1}{s} \right) = -2 \left( 0.7 - 0.244 \right) \times 3.00 = -2.74 \ \text{per second}$$
 
-which is comparable in magnitude to the $M_q$ a tail would have provided. A gain chosen to hold $\zeta_{sp}$ near 0.7 across the envelope therefore restores by feedback almost exactly what the missing tail removed, which is the sense in which the augmentation is a substitute rather than a palliative. The actuator must be fast enough not to introduce its own lag, requiring a bandwidth
+which is comparable in magnitude to the $M_q$ a tail would have provided. A gain chosen to hold $\zeta_{sp}$ near 0.7 across the envelope therefore restores by feedback almost exactly what the missing tail removed, which is the sense in which the augmentation is a substitute rather than a palliative. A rate limit is the more common practical constraint, since a surface that cannot slew fast enough introduces an effective delay that grows with commanded amplitude,
+
+$$\tau_{\text{eff}} \approx \frac{A_{\text{cmd}} \, \omega}{\dot{\delta}_{\max}}$$
+
+which is amplitude-dependent and therefore nonlinear, and which is a well-known route into pilot-induced oscillation. The actuator must also be fast enough not to introduce its own lag, requiring a bandwidth
 
 $$\omega_{\text{act}} \gg \omega_{sp}$$
 
@@ -403,13 +511,37 @@ The tailless configuration is now mainstream and its literature is corresponding
 
 Stability and control of flying wing layouts is now an ordinary design subject, treated by [Wang and Tang 2020][research_wang_tang_2020], [Zhang and Liu 2024][research_zhang_liu_2024], [Pan and Huang 2019][research_pan_huang_2019], and [Lyu and Zhang 2023][research_lyu_zhang_2023], the last of these designing aerodynamic shape and control law together, which is precisely the coupling the X-4 could not exploit. Handling qualities assessments of such aircraft appear in [Humphreys-Jennings and Lappas 2020][research_humphreys_2020] and [Campos and Marques 2021][research_campos_marques_2021], with pilot-in-the-loop evaluation in [Portapas and Cooke 2020][research_portapas_2020].
 
-The directional problem the X-4 solved with a fin is now solved without one. [Shearwood and Nabawy 2020][research_shearwood_2020] present a control allocation method for yaw on a finless aircraft, [Liu and Zhang 2022][research_liu_zhang_rudder_2022] investigate a flow-coupling rudder, and [Zhang and He 2026][research_zhang_he_2026] treat yaw stabilization and manoeuvring on a tailless configuration directly. Control allocation across redundant effectors, which is what makes all of this possible, is treated by [Cong and Hu 2023][research_cong_hu_2023] and [Dong and Zhou 2025][research_dong_zhou_2025], and the failure case that a redundant system must survive by [Zhou and Liu 2025][research_zhou_liu_2025].
+The directional problem the X-4 solved with a fin is now solved without one. The mechanism is a split surface that opens symmetrically on one wing to produce drag without net lift, generating yaw from a drag differential rather than from a side force,
+
+$$N = \Delta D \cdot \frac{y_{\text{eff}}}{1}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}$$
+
+with $y_{\text{eff}}$ the spanwise station of the device. Because drag rises with the square of deflection while the associated lift change is small, such a device is nonlinear and single-signed, so it must be paired across the span and biased open to allow deflection in both directions, which costs drag continuously. That standing penalty is the price a finless aircraft pays for directional control, and it is why the configuration only became attractive once the drag budget could absorb it. [Shearwood and Nabawy 2020][research_shearwood_2020] present a control allocation method for yaw on a finless aircraft, [Liu and Zhang 2022][research_liu_zhang_rudder_2022] investigate a flow-coupling rudder, and [Zhang and He 2026][research_zhang_he_2026] treat yaw stabilization and manoeuvring on a tailless configuration directly. Control allocation across redundant effectors is what makes all of this possible, and it is worth stating in form. A modern tailless aircraft has more effectors than axes, so the mapping from deflections to moments,
+
+$$\mathbf{m} = \mathbf{B} \, \boldsymbol{\delta}, \qquad \mathbf{m} \in \mathbb{R}^3, \quad \boldsymbol{\delta} \in \mathbb{R}^p, \quad p > 3$$
+
+is underdetermined, and the allocator chooses among the solutions. The minimum-effort choice is the pseudo-inverse,
+
+$$\boldsymbol{\delta} = \mathbf{B}^{+} \mathbf{m}_{\text{des}} = \mathbf{B}^{\top} \left( \mathbf{B} \mathbf{B}^{\top} \right)^{-1} \mathbf{m}_{\text{des}}$$
+
+subject to position and rate limits on every surface,
+
+$$\left| \delta_i \right| \le \delta_{i, \max}, \qquad \left| \dot{\delta}_i \right| \le \dot{\delta}_{i, \max}$$
+
+The X-4's elevon constraint derived above is the degenerate case of this with $p = 2$ and no redundancy at all, which is why its pitch and roll authority had to be traded rather than allocated. Redundancy converts a hard tradeoff into an optimization, and that is the structural difference between the X-4 and its successors. The subject is treated by [Cong and Hu 2023][research_cong_hu_2023] and [Dong and Zhou 2025][research_dong_zhou_2025], and the failure case that a redundant system must survive by [Zhou and Liu 2025][research_zhou_liu_2025].
 
 Relaxed static stability, which is the deliberate acceptance of the condition the X-4 suffered accidentally, is now a design choice, treated by [Cui and Zhang 2026][research_cui_zhang_2026] and implemented through the control architectures of [He and Hu 2022][research_he_hu_2022]. Unmanned combat aircraft have adopted the configuration wholesale, as [Khalid 2023][research_khalid_2023] describes.
 
 The damping derivative itself is still being estimated and still matters, as [Khan and Shaikh 2025][research_khan_shaikh_2025] show, and the flying qualities criteria that turn a damping ratio into a pilot rating have been refined continuously, with [Efremov 2020][research_efremov_2020] advancing the prediction of both flying qualities and pilot-induced oscillation and [Bidinotto and Moura 2021][research_bidinotto_2021] surveying the pilot models on which such predictions rest. That last thread is the direct descendant of what the X-4 pilots reported, since hunting is a closed-loop phenomenon involving the pilot and not merely an open-loop damping ratio.
 
-Configuration details that a tailless design must get right are still being worked, including leading-edge cranks in [Veismann and Gharib 2023][research_veismann_2023] and forward-swept vortex behaviour in [Kanazaki and Setoguchi 2023][research_kanazaki_2023]. The tumbling mode, which is a tailless failure mode with no conventional analogue, is characterized in [NASA 1993][research_tumbling_characteristics_1993].
+Configuration details that a tailless design must get right are still being worked, including leading-edge cranks in [Veismann and Gharib 2023][research_veismann_2023] and forward-swept vortex behaviour in [Kanazaki and Setoguchi 2023][research_kanazaki_2023]. The tumbling mode, which is a tailless failure mode with no conventional analogue, deserves its own statement. A conventional aircraft driven past stall pitches nose-down because the tail restores it. A tailless aircraft has no such restoring surface once the wing itself has stalled, and if the inertia in pitch is low enough relative to the available aerodynamic moment the aircraft can enter a continuous rotation about the pitch axis. The condition depends on the balance between the residual aerodynamic moment and the rotational inertia,
+
+$$\ddot{\theta} = \frac{q S \bar{c} \, C_m(\alpha)}{I_y}$$
+
+with $C_m(\alpha)$ evaluated well beyond the linear range, where it need not change sign at all. Tumbling is therefore possible when
+
+$$C_m(\alpha) > 0 \quad \text{for all } \alpha \text{ in the post-stall range}$$
+
+which is a condition on the whole post-stall moment curve rather than on any single derivative. Geometry, static stability, and mass distribution jointly determine it, as [NASA 1993][research_tumbling_characteristics_1993] characterizes, and it is why tailless configurations receive spin and departure attention out of proportion to their numbers, as [NASA 1979][research_spin_research_summary_1979] reflects.
 
 ## Where the Framing Breaks Down
 

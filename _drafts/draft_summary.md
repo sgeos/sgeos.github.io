@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
 
-1017 lines, 68 display equations, 269 reference definitions, 10,660 words. References inside band,
-lines and equations below band and not padded. Primary 43.3 percent, contemporary 38.5 percent, the
+1149 lines, 98 display equations, 269 reference definitions, 12,432 words after an equation-density
+review that added 30 equations across 14 edits. Equations and references inside band, lines 151 short
+and not padded. Primary 43.3 percent, contemporary 38.5 percent, the
 latter the highest of the five.
 
 The keystone is whether a horizontal tail can be dispensed with at transonic speed. A tail does two

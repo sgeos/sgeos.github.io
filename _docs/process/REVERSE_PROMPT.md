@@ -9,8 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A301, the Northrop X-4 Bantam, drafted and verified. A297 through A300 are unchanged and
-already pushed. **No article in this series is published.** All five remain in `_drafts/`.
+**Task**: A301 drafted, then taken through an equation-density review. A297 through A300 are
+unchanged and already pushed. **No article in this series is published.** All five remain in
+`_drafts/`.
 
 ---
 
@@ -18,9 +19,26 @@ already pushed. **No article in this series is published.** All five remain in `
 
 `_drafts/x_planes_northrop_x4.markdown`, editorial date 2025-10-10, series index 5 of 72.
 
-**1017 lines, 68 display equations, 269 reference definitions, 10,660 words.** References are inside
-band. **Lines and equations are below band** at 1017 against 1300 to 1600 and 68 against 90 to 130,
-and I have not padded. Primary sources are 43.3 percent, the lowest since A300 before its reference
+**1149 lines, 98 display equations, 269 reference definitions, 12,432 words.** Equations and
+references are inside band. **Lines are 151 short** of 1300 and have not been padded.
+
+**The equation review produced a closure the article was missing.** Short-period handling qualities
+were eventually codified into numerical criteria, and the X-4's computed damping ratio of 0.244 falls
+**below the Level 1 floor of 0.35** and at the very bottom of Level 2, with a control anticipation
+parameter of 0.247 marginally below its Level 1 band as well. The tailed comparison at 0.749 sits
+comfortably inside Level 1 on both counts. Those criteria postdate the aircraft by two decades and
+are quoted as a restatement rather than as a standard the programme was judged against, but they
+establish that the pilots who called the aircraft unsatisfactory were not being fastidious. The
+configuration lands outside the band the discipline later drew, on the axis the tail would have
+supplied.
+
+The pass also added the manoeuvre point and margin, where the tail contributes 1.7 points the
+tailless aircraft does not have; the centre of gravity range that stability and control limits bound,
+whose tail term is identically zero; adverse yaw from elevons; drag-rudder yaw control and its
+standing drag penalty; the tumbling condition; the pitch-up boundary; and the control allocation
+pseudo-inverse, which shows that **the X-4's elevon constraint is the degenerate case of modern
+allocation with no redundancy at all**. Redundancy converts a hard tradeoff into an optimization, and
+that is the structural difference between this aircraft and its successors. Primary sources are 43.3 percent, the lowest since A300 before its reference
 pass. Contemporary coverage is **38.5 percent, the highest of the five**, which reflects that tailless
 aircraft are a live subject rather than a historical one.
 
@@ -50,8 +68,9 @@ measured what the configuration costs, which is what made the remedy specifiable
 
 ## Verification of A301
 
-All 11 new worked numerical examples re-derived independently and agreeing, alongside the earlier
-sizing figures.
+All 20 worked numerical examples re-derived independently across both rounds. One disagreed and was
+corrected, a span efficiency figure stated as 0.78 that the quoted correlation returns as 0.95, with
+the induced drag ratio it feeds falling from 2.1 to 1.7.
 
 All 269 references cited, zero undefined, zero orphaned. All 115 URLs whose status code carries
 information swept at 200.
