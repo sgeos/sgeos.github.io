@@ -24,12 +24,20 @@ first article of a seventy-two-article back-dated series running 2025-10-06 thro
 per day unbroken, ending flush against the 2025-12-17 post. Held for human-pilot review before A298
 is drafted.
 
-1533 lines, 147 display equations, 327 reference definitions, 18,692 words, against History of SpaceX
+1623 lines, 147 display equations, 372 reference definitions, 19,822 words, against History of SpaceX
 medians of 1345 lines, 72 equations, and 306 references. The article was drafted at 76 equations, at
 parity, and then took a requested equation-density pass that found 19 results named or relied upon in
 prose but never displayed, adding 71 equations across 44 edits. The genre document gained a
 series-opener row to match, since an opener carries the shared derivations the seventy-one
-per-aircraft articles reference rather than repeat. The genre is the research-aircraft hybrid
+per-aircraft articles reference rather than repeat.
+
+A subsequent primary-reference pass measured the index at 42 primary sources of 327, or 13.5 percent,
+against an article that claims the NACA and NASA report series as its backbone. Primary sources are
+now 87 of 372, or 24.5 percent. 22 existing NASA citations were upgraded from search endpoints to
+fixed NTRS document identifiers resolved through the citations API, all 63 of which were swept at
+200, and 11 journal primaries were resolved through Crossref with an author match required. Six
+results that the prose named without citing at all were corrected. 112 citations still point at
+search endpoints, being 109 Open Library book URLs and 3 unresolved NTRS reports. The genre is the research-aircraft hybrid
 defined in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`, and the opener establishes the analytical
 model plus the sizing relations that the per-aircraft articles reference rather than repeat.
 

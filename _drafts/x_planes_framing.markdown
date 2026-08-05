@@ -93,7 +93,7 @@ Depth follows the surviving record rather than effort. Where the public record s
 
 The question a reader should ask of any flight research programme is why anyone flew at all. [Wind tunnels][ref_wind_tunnel] are cheaper, they are repeatable, they do not kill test pilots, and by the late 1940s the United States had the best collection of them in the world, as catalogued by [Baals and Corliss 1981][book_baals_corliss_1981] Wind Tunnels of NASA. The answer is that a ground facility can match some of the dimensionless groups that govern a flow, but not all of them at once, and the residue is what the aircraft was built to measure. The formal apparatus is [similitude][ref_similitude] and the [Buckingham pi theorem][ref_buckingham_pi], and the practical apparatus is described in [Pope and Goin 1965][book_pope_goin_1965] High-Speed Wind Tunnel Testing, [Barlow Rae and Pope 1999][book_barlow_rae_pope_1999] Low-Speed Wind Tunnel Testing, and [Lukasiewicz 1973][book_lukasiewicz_1973] Experimental Methods of Hypersonics.
 
-The governing groups follow from nondimensionalizing the Navier-Stokes equations together with the energy equation and an equation of state, a derivation given in [Anderson 2001][book_anderson_2001_fundamentals] Fundamentals of Aerodynamics and in [Kuethe and Chow 1998][book_kuethe_chow_1998] Foundations of Aerodynamics. The theorem states that a relation among $n$ physical quantities involving $k$ independent dimensions reduces to a relation among
+The governing groups follow from nondimensionalizing the Navier-Stokes equations together with the energy equation and an equation of state, a derivation given in [Anderson 2001][book_anderson_2001_fundamentals] Fundamentals of Aerodynamics and in [Kuethe and Chow 1998][book_kuethe_chow_1998] Foundations of Aerodynamics. The theorem, established by [Buckingham 1914][research_buckingham_1914], states that a relation among $n$ physical quantities involving $k$ independent dimensions reduces to a relation among
 
 $$n - k \ \text{dimensionless groups}$$
 
@@ -105,7 +105,7 @@ in which the two groups appear as the only surviving parameters, which is the fo
 
 $$M = \frac{V}{a}, \quad a = \sqrt{\gamma R T}$$
 
-where $\gamma$ is the ratio of specific heats, $R$ is the specific gas constant in joules per kilogram kelvin, and $T$ is the static temperature in kelvin. The state relation closing the system is the ideal gas law
+where $\gamma$ is the ratio of specific heats, $R$ is the specific gas constant in joules per kilogram kelvin, and $T$ is the static temperature in kelvin. The tabulated forms of every isentropic, normal-shock, and oblique-shock relation used throughout this series are collected in [NACA Report 1135][research_naca_1135], which remains the standard reference for the arithmetic below. The state relation closing the system is the ideal gas law
 
 $$p = \rho R T$$
 
@@ -119,7 +119,7 @@ The second is the [Reynolds number][ref_reynolds_number], the ratio of inertial 
 
 $$Re = \frac{\rho V L}{\mu}$$
 
-which governs [boundary layer][ref_boundary_layer] development, transition from [laminar flow][ref_laminar_flow] to turbulent flow, and separation. The canonical references are [Schlichting and Gersten 2017][book_schlichting_gersten_2017] Boundary-Layer Theory and [White 2006][book_white_2006_viscous] Viscous Fluid Flow, with the compressible extension given by [Van Driest 1952][research_van_driest_1952]. The viscosity itself is temperature dependent through Sutherland's law,
+which governs [boundary layer][ref_boundary_layer] development, transition from [laminar flow][ref_laminar_flow] to turbulent flow, and separation. The canonical references are [Schlichting and Gersten 2017][book_schlichting_gersten_2017] Boundary-Layer Theory and [White 2006][book_white_2006_viscous] Viscous Fluid Flow, with the compressible extension given by [Van Driest 1952][research_van_driest_1952]. The viscosity itself is temperature dependent through the relation of [Sutherland 1893][research_sutherland_1893],
 
 $$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
 
@@ -311,7 +311,7 @@ The [drag polar][ref_drag_polar] for a subsonic aircraft is conventionally writt
 
 $$C_D = C_{D0} + \frac{C_L^2}{\pi A e}$$
 
-and the maximum [lift-to-drag ratio][ref_lift_to_drag] follows by differentiation as
+in which the induced term traces to the minimum-induced-drag result of [Munk 1921][research_munk_1921] and the efficiency factor to the performance charts of [Oswald 1932][research_oswald_1932]. The maximum [lift-to-drag ratio][ref_lift_to_drag] follows by differentiation as
 
 $$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}$$
 
@@ -319,13 +319,13 @@ attained at the lift coefficient
 
 $$C_L^{*} = \sqrt{\pi A e \, C_{D0}}$$
 
-where induced drag equals zero-lift drag. This relation is what makes high aspect ratio valuable and what the [Northrop X-21][ref_northrop_x21] laminar-flow programme and the [Boeing X-48][ref_boeing_x48] blended wing body were each attacking from opposite directions, the first by reducing $C_{D0}$ through boundary-layer suction and the second by increasing the effective $A$ through configuration.
+where induced drag equals zero-lift drag. This relation is what makes high aspect ratio valuable and what the [Northrop X-21][ref_northrop_x21] laminar-flow programme and the [Boeing X-48][ref_boeing_x48] blended wing body were each attacking from opposite directions, the first by reducing $C_{D0}$ through boundary-layer suction, an effort reviewed across its whole history in [NASA 1992][research_laminar_flow_review_1992], and the second by increasing the effective $A$ through configuration, with the flight correlation reported by [Cox 2011][research_cox_2011_x48b].
 
 Compressibility enters first through the [Prandtl-Glauert transformation][ref_prandtl_glauert], which for small disturbances relates the compressible pressure coefficient to its incompressible value as
 
 $$C_p = \frac{C_{p,0}}{\sqrt{1 - M_\infty^2}}$$
 
-and which diverges as the free-stream Mach number approaches one. That [singularity][ref_prandtl_glauert_singularity] is not physical, it is the breakdown of the linearization, and the fact that the standard theory of the 1940s went singular at exactly the condition of interest is a large part of why the X-1 existed. There was no theory to trust and no tunnel that worked, because conventional tunnels choke near Mach one and the data in that band were worthless. The [transonic][ref_transonic] regime and the [sound barrier][ref_sound_barrier] as a cultural and technical object are treated at length in [Hallion 1972][book_hallion_1972_supersonic_flight] Supersonic Flight and [Gunston 1992][book_gunston_1992_faster_than_sound] Faster Than Sound, and the theoretical lineage through [Ludwig Prandtl][ref_prandtl], [Theodore von Karman][ref_von_karman], and [Adolf Busemann][ref_busemann] is set out in [Anderson 1997][book_anderson_1997_history_aerodynamics] A History of Aerodynamics.
+and which diverges as the free-stream Mach number approaches one, a result derived for a lifting aerofoil by [Glauert 1928][research_glauert_1928] and resting on the boundary-layer conception introduced by [Prandtl 1928][research_prandtl_1928]. That [singularity][ref_prandtl_glauert_singularity] is not physical, it is the breakdown of the linearization, and the fact that the standard theory of the 1940s went singular at exactly the condition of interest is a large part of why the X-1 existed. There was no theory to trust and no tunnel that worked, because conventional tunnels choke near Mach one and the data in that band were worthless. The [transonic][ref_transonic] regime and the [sound barrier][ref_sound_barrier] as a cultural and technical object are treated at length in [Hallion 1972][book_hallion_1972_supersonic_flight] Supersonic Flight and [Gunston 1992][book_gunston_1992_faster_than_sound] Faster Than Sound, and the theoretical lineage through [Ludwig Prandtl][ref_prandtl], [Theodore von Karman][ref_von_karman], and [Adolf Busemann][ref_busemann] is set out in [Anderson 1997][book_anderson_1997_history_aerodynamics] A History of Aerodynamics.
 
 The [critical Mach number][ref_critical_mach] is the free-stream Mach number at which the flow first reaches sonic conditions somewhere on the body, and the [drag divergence Mach number][ref_drag_divergence] is the higher value at which the drag coefficient begins to rise steeply, conventionally defined by
 
@@ -349,7 +349,7 @@ with $A_{\max}$ the maximum cross-sectional area and $L$ the body length, attain
 
 $$A(x) = A_{\max} \left[ 4 \frac{x}{L} \left( 1 - \frac{x}{L} \right) \right]^{3/2}$$
 
-The corresponding result for a lifting surface is the linearized supersonic solution of Ackeret, which for a thin flat plate at angle of attack $\alpha$ gives
+The corresponding result for a lifting surface is the linearized supersonic solution of [Ackeret 1925][research_ackeret_1925], which for a thin flat plate at angle of attack $\alpha$ gives
 
 $$C_L = \frac{4 \alpha}{\sqrt{M_\infty^2 - 1}}, \qquad C_{D,\text{wave}} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}}$$
 
@@ -357,7 +357,7 @@ so that supersonic wave drag due to lift is proportional to the square of incide
 
 $$A_{\text{total}}(x) = A_{\text{fuselage}}(x) + A_{\text{wing}}(x) + A_{\text{nacelle}}(x)$$
 
-should approximate the smooth Sears-Haack distribution above rather than carrying a bump where the wing intersects. The complementary planform insight is the [swept wing][ref_swept_wing] of [Jones 1946][research_jones_1946_wing_plan_forms], whose author [Robert Thomas Jones][ref_jones_rt] derived it independently of the German work, and whose logical extension is the [delta wing][ref_delta_wing]. The slender-body and thin-wing theory underlying all of it is developed in [Ashley and Landahl 1965][book_ashley_landahl_1965] Aerodynamics of Wings and Bodies, [Kuchemann 1978][book_kuchemann_1978] The Aerodynamic Design of Aircraft, and [Bertin and Cummings 2013][book_bertin_cummings_2013] Aerodynamics for Engineers. The X-series intersects this history directly, since the area rule emerged from Langley work in 1952 described by [Hansen 1987][book_hansen_1987_engineer_in_charge] Engineer in Charge and [Hansen 2004][book_hansen_2004_bird_on_the_wing] The Bird Is on the Wing, and was validated on aircraft whose transonic databases came from X-1 and follow-on flights.
+should approximate the smooth Sears-Haack distribution above rather than carrying a bump where the wing intersects. The complementary planform insight is the [swept wing][ref_swept_wing] of [Jones 1946][research_jones_1946_wing_plan_forms], whose author [Robert Thomas Jones][ref_jones_rt] derived it independently of the German work, and whose logical extension is the [delta wing][ref_delta_wing], analysed at low aspect ratio by [Jones 1946][research_jones_1946_low_aspect]. The waverider configuration that the X-51 name records was proposed by [Nonweiler 1959][research_nonweiler_1959] as a shape generated from a known shock solution rather than fitted to one. The slender-body and thin-wing theory underlying all of it is developed in [Ashley and Landahl 1965][book_ashley_landahl_1965] Aerodynamics of Wings and Bodies, [Kuchemann 1978][book_kuchemann_1978] The Aerodynamic Design of Aircraft, and [Bertin and Cummings 2013][book_bertin_cummings_2013] Aerodynamics for Engineers. The X-series intersects this history directly, since the area rule emerged from Langley work in 1952 described by [Hansen 1987][book_hansen_1987_engineer_in_charge] Engineer in Charge and [Hansen 2004][book_hansen_2004_bird_on_the_wing] The Bird Is on the Wing, and was validated on aircraft whose transonic databases came from X-1 and follow-on flights.
 
 ### Propulsion and the Mass Budget
 
@@ -435,7 +435,7 @@ which tightens rapidly with flight Mach number and is the reason fixed-geometry 
 
 $$\tau_{\text{res}} = \frac{L_c}{u_c} > \tau_{\text{ign}}$$
 
-with $L_c$ the combustor length and $u_c$ the internal flow velocity, and at Mach 7 the internal flow crosses a combustor of realistic length in under a millisecond. That inequality is the keystone of the entire [hypersonic][ref_hypersonic_flight] airbreathing branch of the series, and it is developed in [Heiser and Pratt 1994][book_heiser_pratt_1994] Hypersonic Airbreathing Propulsion and [Curran and Murthy 2000][book_curran_murthy_2000] Scramjet Propulsion.
+with $L_c$ the combustor length and $u_c$ the internal flow velocity, and at Mach 7 the internal flow crosses a combustor of realistic length in under a millisecond. The experimental programme behind that inequality is surveyed by [Billig 1993][research_billig_1993] and, across four decades, by [Curran 2001][research_curran_2001], with the X-51 flight demonstration reported by [Hank Murphy and Mutzman 2008][research_hank_2008_x51a]. That inequality is the keystone of the entire [hypersonic][ref_hypersonic_flight] airbreathing branch of the series, and it is developed in [Heiser and Pratt 1994][book_heiser_pratt_1994] Hypersonic Airbreathing Propulsion and [Curran and Murthy 2000][book_curran_murthy_2000] Scramjet Propulsion.
 
 ### Structures and Aeroelasticity
 
@@ -461,7 +461,7 @@ $$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_{\text{skin}}}$$
 
 evaluated at the skin temperature the trajectory produces rather than at room temperature. Aluminium retains useful strength to roughly 400 kelvin, titanium to roughly 800 kelvin, and Inconel X to roughly 1200 kelvin, and each of those thresholds appears as a design decision somewhere in the X-series. The airframe structural methods are given in [Bruhn 1973][book_bruhn_1973] Analysis and Design of Flight Vehicle Structures, [Niu 1988][book_niu_1988_airframe] Airframe Structural Design, and [Megson 2016][book_megson_2016] Aircraft Structures for Engineering Students, with the measured flight loads on the X-15 reported by [Kordes and Noll][research_kordes_noll_x15_loads] and the same sizing logic at model scale in [A127 Structures and the Flight Envelope][related_post_a127_structures_flight_envelope].
 
-[Aeroelasticity][ref_aeroelasticity] supplies the constraint that made one of these aircraft possible and killed several proposals outright. The field is defined by [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955] Aeroelasticity and [Fung 1955][book_fung_1955] An Introduction to the Theory of Aeroelasticity, with modern treatments in [Hodges and Pierce 2011][book_hodges_pierce_2011], [Dowell 2014][book_dowell_2014] A Modern Course in Aeroelasticity, and [Wright and Cooper 2014][book_wright_cooper_2014]. The torsional stiffness of a closed thin-walled box of enclosed area $A_m$, wall thickness $t$, and length $\ell_w$ follows from the Bredt-Batho relation
+[Aeroelasticity][ref_aeroelasticity] supplies the constraint that made one of these aircraft possible and killed several proposals outright. The field is defined by [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955] Aeroelasticity and [Fung 1955][book_fung_1955] An Introduction to the Theory of Aeroelasticity, with modern treatments in [Hodges and Pierce 2011][book_hodges_pierce_2011], [Dowell 2014][book_dowell_2014] A Modern Course in Aeroelasticity, and [Wright and Cooper 2014][book_wright_cooper_2014]. The torsional stiffness of a closed thin-walled box of enclosed area $A_m$, wall thickness $t$, and length $\ell_w$ follows from the Bredt-Batho relation, and the aeroelastic problem it feeds was named and bounded by [Collar 1946][research_collar_1946],
 
 $$K_\theta = \frac{G J}{\ell_w}, \qquad J = \frac{4 A_m^2}{\oint \frac{ds}{t}}$$
 
@@ -511,7 +511,7 @@ The heat actually crossing the surface is driven by the difference between the r
 
 $$\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)$$
 
-with $h_c$ the convective coefficient in watts per square metre kelvin, conventionally non-dimensionalized as the Stanton number and estimated from skin friction through the Reynolds analogy,
+with $h_c$ the convective coefficient in watts per square metre kelvin, conventionally non-dimensionalized as the Stanton number and estimated from skin friction through the Reynolds analogy in the form given by [Eckert 1956][research_eckert_1956],
 
 $$St = \frac{h_c}{\rho V c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}$$
 
@@ -519,7 +519,7 @@ The theoretical stagnation-point result behind the engineering correlation used 
 
 $$\dot{q}_s = 0.763 \, Pr^{-0.6} \left( \rho_e \mu_e \right)^{0.4} \left( \rho_w \mu_w \right)^{0.1} \sqrt{\frac{du_e}{dx}} \left( h_0 - h_w \right)$$
 
-with the subscripts $e$ and $w$ denoting boundary-layer edge and wall conditions, $h_0$ and $h_w$ the corresponding enthalpies, and the stagnation velocity gradient given by the Newtonian estimate
+with the subscripts $e$ and $w$ denoting boundary-layer edge and wall conditions, $h_0$ and $h_w$ the corresponding enthalpies, and the stagnation velocity gradient given by the Newtonian estimate, with the compressible boundary-layer profiles underlying both from [Chapman and Rubesin 1949][research_chapman_rubesin_1949] and the blunt-body solution from [Lees 1956][research_lees_1956],
 
 $$\frac{du_e}{dx} = \frac{1}{R_n} \sqrt{\frac{2 \left( p_s - p_\infty \right)}{\rho_s}}$$
 
@@ -569,7 +569,7 @@ so a light blunt vehicle decelerates high in thin air and a dense slender one de
 
 $$Q = \int_0^{t_f} \dot{q}_s \, dt$$
 
-and these are traded against one another rather than minimized together, because a shallow lifting entry lowers the peak rate while lengthening the exposure and therefore raising $Q$. The extension to lifting entry is [Chapman 1958][research_chapman_1958] and the comparative performance analysis that established the lifting-entry case is [Eggers Allen and Neice 1955][research_eggers_allen_neice_1955], with book-length treatments in [Vinh Busemann and Culp 1980][book_vinh_busemann_culp_1980] Hypersonic and Planetary Entry Flight Mechanics, [Regan and Anandakrishnan 1993][book_regan_anandakrishnan_1993] Dynamics of Atmospheric Re-Entry, and [Loh 1963][book_loh_1963] Dynamics and Thermodynamics of Planetary Entry. Lifting entry, which the [Boeing X-20 Dyna-Soar][ref_boeing_x20], the X-23, the [Martin Marietta X-24A][ref_martin_x24a] and [X-24B][ref_martin_x24b], the [Boeing X-37][ref_boeing_x37], and the [NASA X-38][ref_nasa_x38] programmes all explored in different forms, breaks that independence by adding a lift term and trading peak heating rate against total heat load. The lifting-body lineage is recounted by [Reed and Lister 1997][book_reed_lister_1997_wingless] Wingless Flight, the entry-and-recovery history by [Launius and Jenkins 2012][book_launius_jenkins_2012] Coming Home, and the Dyna-Soar programme specifically by [Houchin 2006][book_houchin_2006_dyna_soar].
+and these are traded against one another rather than minimized together, because a shallow lifting entry lowers the peak rate while lengthening the exposure and therefore raising $Q$. The extension to lifting entry is [Chapman 1958][research_chapman_1958] and the comparative performance analysis that established the lifting-entry case is [Eggers Allen and Neice 1955][research_eggers_allen_neice_1955], with book-length treatments in [Vinh Busemann and Culp 1980][book_vinh_busemann_culp_1980] Hypersonic and Planetary Entry Flight Mechanics, [Regan and Anandakrishnan 1993][book_regan_anandakrishnan_1993] Dynamics of Atmospheric Re-Entry, and [Loh 1963][book_loh_1963] Dynamics and Thermodynamics of Planetary Entry. Lifting entry, which the [Boeing X-20 Dyna-Soar][ref_boeing_x20], the X-23, the [Martin Marietta X-24A][ref_martin_x24a] and [X-24B][ref_martin_x24b], the [Boeing X-37][ref_boeing_x37], and the [NASA X-38][ref_nasa_x38] programmes all explored in different forms, breaks that independence by adding a lift term and trading peak heating rate against total heat load. The primary flight record for that lineage includes the control-surface hinge moments measured on the X-24A in [NASA 1973][research_x24a_hinge_1973] and the programme account of [Dana 1975][research_dana_1975_x24b] for the X-24B. The lifting-body lineage is recounted by [Reed and Lister 1997][book_reed_lister_1997_wingless] Wingless Flight, the entry-and-recovery history by [Launius and Jenkins 2012][book_launius_jenkins_2012] Coming Home, and the Dyna-Soar programme specifically by [Houchin 2006][book_houchin_2006_dyna_soar].
 
 ### Stability and Control
 
@@ -621,7 +621,7 @@ which vanish in single-axis analysis and grow with the product of roll rate and 
 
 $$\omega_\alpha = \sqrt{\frac{-M_\alpha}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{N_\beta}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)$$
 
-so an airframe with most of its mass in a long fuselage rather than in the wings, which is every supersonic research aircraft in this series, has a low critical roll rate precisely because $I_z - I_x$ is large. The effect is governed by the inertia ratios and is invisible to linearized single-axis analysis. It was predicted by [Phillips 1948][research_phillips_1948] before it was encountered. The [Bell X-2][ref_bell_x2] and the X-3 both met it violently, the X-2 fatally, and the resulting understanding changed how roll rates were specified across the fleet. The later high-angle-of-attack and post-stall work of the [Rockwell-MBB X-31][ref_rockwell_mbb_x31] and the flight-control research of the [General Dynamics X-62 VISTA][ref_gd_x62_vista] descend directly from this thread, as does the X-29 control work reported by [Putnam 1984][research_putnam_1984_x29], [Sefic and Maxwell 1986][research_sefic_maxwell_1986], and [Gera and Bosworth 1987][research_gera_bosworth_1987].
+so an airframe with most of its mass in a long fuselage rather than in the wings, which is every supersonic research aircraft in this series, has a low critical roll rate precisely because $I_z - I_x$ is large. The effect is governed by the inertia ratios and is invisible to linearized single-axis analysis. It was predicted by [Phillips 1948][research_phillips_1948] before it was encountered. The [Bell X-2][ref_bell_x2] and the X-3 both met it violently, the X-2 fatally, and the resulting understanding changed how roll rates were specified across the fleet. The later high-angle-of-attack and post-stall work of the [Rockwell-MBB X-31][ref_rockwell_mbb_x31] and the flight-control research of the [General Dynamics X-62 VISTA][ref_gd_x62_vista] descend directly from this thread, as does the X-29 control work reported by [Hicks 1989][research_hicks_1989_x29] and [Bosworth and Stoliker 1996][research_bosworth_1996_x31] alongside [Putnam 1984][research_putnam_1984_x29], [Sefic and Maxwell 1986][research_sefic_maxwell_1986], and [Gera and Bosworth 1987][research_gera_bosworth_1987].
 
 Where dynamic pressure falls below the level at which aerodynamic surfaces produce useful moments, control must come from reaction jets. The required time for a manoeuvre through angle $\Delta \phi$ about an axis of inertia $I$ using thrusters of moment arm $\ell$ and thrust $F_t$ in a bang-bang minimum-time manoeuvre is
 
@@ -647,7 +647,7 @@ which acquires a covariance term
 
 $$2 \sum_{i < j} \frac{\partial f}{\partial x_i} \frac{\partial f}{\partial x_j} u(x_i, x_j)$$
 
-whenever the inputs share a calibration source, as thrust and mass flow generally do. The uncorrelated form is developed in [Taylor 1997][book_taylor_1997_error_analysis] An Introduction to Error Analysis and [Bevington and Robinson 2002][book_bevington_robinson_2002] Data Reduction and Error Analysis. The important structural feature of flight-test data reduction is that the quantities of interest are frequently small differences of large measured numbers, which amplifies uncertainty. Drag in accelerating flight is obtained from
+whenever the inputs share a calibration source, as thrust and mass flow generally do. The uncorrelated form is developed in [Taylor 1997][book_taylor_1997_error_analysis] An Introduction to Error Analysis and [Bevington and Robinson 2002][book_bevington_robinson_2002] Data Reduction and Error Analysis. The technique for extracting drag from an accelerating flight, together with its error budget, was set out by [Beeler Bellman and Saltzman 1956][research_beeler_1956], and the instrumentation fit that made the X-15 measurements possible is described by [Petersen 1964][research_petersen_1964_x15_instr]. The important structural feature of flight-test data reduction is that the quantities of interest are frequently small differences of large measured numbers, which amplifies uncertainty. Drag in accelerating flight is obtained from
 
 $$D = T - m a_x$$
 
@@ -773,7 +773,7 @@ Two consequences follow for this series. First, the availability of documentatio
 
 The seventy-two articles divide by what the record supports rather than by what the aircraft did.
 
-Full treatments cover aircraft that flew, generated public technical reports, and for which a keystone can be identified and its consequences traced through the design. This class includes the X-1, the X-2, the X-3, the [Northrop X-4 Bantam][ref_northrop_x4], the [Bell X-5][ref_bell_x5], the [Ryan X-13 Vertijet][ref_ryan_x13], the [Bell X-14][ref_bell_x14], the X-15, the [Hiller X-18][ref_hiller_x18], the [Curtiss-Wright X-19][ref_curtiss_wright_x19], the X-21, the [Bell X-22][ref_bell_x22], the X-24, the X-29, the X-31, the X-32, the [Lockheed Martin X-33][ref_lm_x33], the X-35, the [McDonnell Douglas X-36][ref_mcdonnell_x36], the X-38, the X-43, the [Boeing X-45][ref_boeing_x45], the [Northrop Grumman X-47B][ref_ng_x47b], the X-48, the X-51, the [Boeing X-53 Active Aeroelastic Wing][ref_boeing_x53], the X-56, the [NASA X-57 Maxwell][ref_nasa_x57], the [Lockheed Martin X-59 Quesst][ref_lm_x59], and the X-62. These articles carry the full twelve-section order.
+Full treatments cover aircraft that flew, generated public technical reports, and for which a keystone can be identified and its consequences traced through the design. The primary flight literature for the modern members of this class is thinner than for the early ones but it is not absent, and it includes the reusable launch vehicle technology reports covering the X-33 in [NASA 1995][research_x33_rlv_1995] and the X-34 in [NASA 1997][research_x34_rlv_1997], the approach and landing test results for the X-37 in [NASA 2004][research_x37_alt_2004], the parachute qualification for the X-38 in [NASA 2005][research_x38_parachute_2005], the Hyper-X programme status of [Rausch 2001][research_rausch_2001_hyper_x] with the aerodynamic database of [Engelund 2000][research_engelund_2000_x43], the technology summary of [Voland Huebner and McClinton 2005][research_voland_2005_x43], the flight-determined forces and moments of [NASA 2008][research_x43a_forces_2008], the transonic flight loads on the Active Aeroelastic Wing in [NASA 2005][research_x53_aaw_2005], the X-56A account of [Beranek 2019][research_beranek_2019_x56a], the distributed electric propulsion design of [Borer 2016][research_borer_2016_x57], and the inlet distortion testing for the X-59 in [NASA 2022][research_x59_inlet_2022]. This class includes the X-1, the X-2, the X-3, the [Northrop X-4 Bantam][ref_northrop_x4], the [Bell X-5][ref_bell_x5], the [Ryan X-13 Vertijet][ref_ryan_x13], the [Bell X-14][ref_bell_x14], the X-15, the [Hiller X-18][ref_hiller_x18], the [Curtiss-Wright X-19][ref_curtiss_wright_x19], the X-21, the [Bell X-22][ref_bell_x22], the X-24, the X-29, the X-31, the X-32, the [Lockheed Martin X-33][ref_lm_x33], the X-35, the [McDonnell Douglas X-36][ref_mcdonnell_x36], the X-38, the X-43, the [Boeing X-45][ref_boeing_x45], the [Northrop Grumman X-47B][ref_ng_x47b], the X-48, the X-51, the [Boeing X-53 Active Aeroelastic Wing][ref_boeing_x53], the X-56, the [NASA X-57 Maxwell][ref_nasa_x57], the [Lockheed Martin X-59 Quesst][ref_lm_x59], and the X-62. These articles carry the full twelve-section order.
 
 Documentation-poor treatments cover aircraft that existed but generated little surviving public record, aircraft cancelled before flight, and aircraft whose programmes remain partly classified. This class includes the [Convair X-6][ref_convair_x6] nuclear-powered bomber testbed, the [Lockheed X-7][ref_lockheed_x7] and [Lockheed X-17][ref_lockheed_x17] propulsion and reentry testbeds, the [Aerobee][ref_aerobee] sounding rocket designated X-8, the [Bell X-9 Shrike][ref_bell_x9] and [North American X-10][ref_na_x10] missile development airframes, the X-11 and X-12 [Atlas][ref_sm65_atlas] development vehicles, the [Bell X-16][ref_bell_x16] reconnaissance aircraft cancelled in favour of the [Lockheed U-2][ref_lockheed_u2], the X-20, the [Bensen X-25][ref_bensen_x25], the [Schweizer X-26 Frigate][ref_schweizer_x26], the [Lockheed X-27][ref_lockheed_x27], the [Osprey flown as the X-28A][ref_pereira_x28], the X-30, the [Orbital Sciences X-34][ref_orbital_x34], the [Boeing X-40][ref_boeing_x40], the [Boeing X-46][ref_boeing_x46], the [Piasecki X-49][ref_piasecki_x49], the [Boeing X-50 Dragonfly][ref_boeing_x50], the [Lockheed Martin X-55][ref_lm_x55], the [Gulfstream X-54][ref_gulfstream_x54], the [Generation Orbit X-60][ref_generation_orbit_x60], the [Dynetics X-61 Gremlins][ref_dynetics_x61], the [Aurora X-65 CRANE][ref_aurora_x65], and the [Boeing X-66][ref_boeing_x66]. These articles keep the full section order but run short, and they state explicitly what the record does not contain.
 
@@ -797,7 +797,7 @@ The [A281 History of SpaceX][related_post_a281_spacex_framing] series treats the
 
 The X-series is unusually well documented at its beginning and unusually poorly documented at its end, and any survey must account for that gradient.
 
-The primary technical literature is the NACA and NASA report series. Research memoranda, technical notes, technical reports, and the later technical memoranda and contractor reports were produced in volume through the 1970s and are largely public. For the X-1, X-2, X-3, X-4, X-5, and X-15 this literature is deep enough to reconstruct flight-by-flight results, and it is the backbone of the full treatments in this series. The 1958 [research airplane committee conference report][research_x15_conference_1958] on the progress of the X-15 project is a representative example of the genre, gathering the design basis of an entire programme into one public document at the moment before first flight.
+The primary technical literature is the NACA and NASA report series. Research memoranda, technical notes, technical reports, and the later technical memoranda and contractor reports were produced in volume through the 1970s and are largely public. For the X-1, X-2, X-3, X-4, X-5, and X-15 this literature is deep enough to reconstruct flight-by-flight results, and it is the backbone of the full treatments in this series. Representative examples of what survives include the transonic fuselage pressures measured on the X-1 in [NACA 1953][research_x1_fuselage_1953], the glide-flight measurements from the X-2 programme in [NACA 1953][research_x2_glide_1953], the maximum lift and buffeting intensities obtained on the X-4 in [NACA 1953][research_x4_buffet_1953], the wing pressure distributions from the Navy-sponsored D-558 flown alongside them in [NACA 1954][research_d558_pressures_1954], and the vertical tail load investigation of [Drake and Carman 1956][research_drake_carman_1956]. For the X-15 the corresponding record runs from the programme reviews of [Weil 1962][research_weil_1962_x15] and [Stillwell 1964][research_stillwell_1964_x15] through the operational procedures of [Hoey and Day 1961][research_hoey_day_1961] to the extracted stability and control derivatives of [Yancey 1964][research_yancey_1964_x15]. The 1958 [research airplane committee conference report][research_x15_conference_1958] on the progress of the X-15 project is a representative example of the genre, gathering the design basis of an entire programme into one public document at the moment before first flight.
 
 The institutional history literature is strong and was largely written by participants or by historians with archival access. The standard works on the X-15 specifically are [Jenkins 2007][book_jenkins_2007_x15] X-15 Extending the Frontiers of Flight, [Jenkins 2000][book_jenkins_2000_hypersonics] Hypersonics Before the Shuttle, [Jenkins and Landis 2003][book_jenkins_landis_2003_hypersonic] Hypersonic, and [Godwin 2000][book_godwin_2000_x15] X-15 The NASA Mission Reports, with the wider hypersonic context in [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] Facing the Heat Barrier and the X-43 programme in [Peebles 2008][book_peebles_2008_road_to_mach_10] Road to Mach 10. For the early research airplanes the standard accounts are [Peebles 2014][book_peebles_2014_probing_the_sky] Probing the Sky, [Rotundo 1994][book_rotundo_1994_into_the_unknown] Into the Unknown, and [Pisano van der Linden and Winter 2006][book_pisano_et_al_2006] Chuck Yeager and the Bell X-1. [Jenkins 2001][book_jenkins_2001_space_shuttle] Space Shuttle covers the programme into which much of the lifting-entry work eventually flowed.
 
@@ -1146,16 +1146,36 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 
 ### Research
 
+- [Ackeret 1925 Air Forces on Airfoils Moving Faster Than Sound][research_ackeret_1925]
 - [Allen and Eggers 1958 A Study of the Motion and Aerodynamic Heating of Ballistic Missiles Entering the Earth's Atmosphere][research_allen_eggers_1958]
 - [Banner Kuhl and Quinn 1962 Preliminary Results of Aerodynamic Heating Studies on the X-15][research_banner_kuhl_quinn_1962]
+- [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
+- [Beranek 2019 The Making of a MAD MUTT, the X-56A Multi-Utility Technology Testbed Aircraft][research_beranek_2019_x56a]
+- [Billig 1993 Research on Supersonic Combustion][research_billig_1993]
+- [Borer 2016 Design and Performance of the NASA SCEPTOR Distributed Electric Propulsion Flight Demonstrator][research_borer_2016_x57]
+- [Bosworth and Stoliker 1996 The X-31A Quasi-Tailless Flight Test Results][research_bosworth_1996_x31]
+- [Buckingham 1914 On Physically Similar Systems][research_buckingham_1914]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Chapman 1958 An Approximate Analytical Method for Studying Entry into Planetary Atmospheres][research_chapman_1958]
-- [Diederich and Budiansky 1948 Divergence of Swept Wings][research_diederich_budiansky_1948]
+- [Chapman and Rubesin 1949 Temperature and Velocity Profiles in the Compressible Laminar Boundary Layer][research_chapman_rubesin_1949]
+- [Collar 1946 The Expanding Domain of Aeroelasticity][research_collar_1946]
+- [Cox 2011 X-48B Blended Wing Body Ground to Flight Correlation Update][research_cox_2011_x48b]
+- [Curran 2001 Scramjet Engines, The First Forty Years][research_curran_2001]
+- [Dana 1975 X-24B Flight Test Program][research_dana_1975_x24b]
+- [Diederich and Budiansky, and later wind-tunnel work, on Divergence of Forward-Swept Wings][research_diederich_budiansky_1948]
+- [Drake and Carman 1956 An Investigation of the Loads on the Vertical Tail of a Jet-Bomber Airplane][research_drake_carman_1956]
+- [Eckert 1956 Engineering Relations for Heat Transfer and Friction in High-Velocity Flow][research_eckert_1956]
 - [Eggers Allen and Neice 1955 A Comparative Analysis of the Performance of Long-Range Hypervelocity Vehicles][research_eggers_allen_neice_1955]
+- [Engelund 2000 Aerodynamic Database Development for the Hyper-X Airframe Integrated Scramjet][research_engelund_2000_x43]
 - [Fay and Riddell 1958 Theory of Stagnation Point Heat Transfer in Dissociated Air][research_fay_riddell_1958]
 - [Garrick and Reed 1981 Historical Development of Aircraft Flutter][research_garrick_reed_1981]
-- [Gera and Bosworth 1987 Dynamic Characteristics of the X-29A Aircraft][research_gera_bosworth_1987]
-- [Jones 1946 Wing Plan Forms for High-Speed Flight][research_jones_1946_wing_plan_forms]
+- [Gera and Bosworth 1989 A Design Procedure for the Handling Qualities Optimization of the X-29A][research_gera_bosworth_1987]
+- [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
+- [Hank Murphy and Mutzman 2008 The X-51A Scramjet Engine Flight Demonstration Program][research_hank_2008_x51a]
+- [Hicks 1989 Preliminary Flight-Determined Subsonic Lift and Drag Characteristics of the X-29A][research_hicks_1989_x29]
+- [Hoey and Day 1961 X-15 Mission Planning and Operational Procedures][research_hoey_day_1961]
+- [Jones 1946 Properties of Low-Aspect-Ratio Pointed Wings at Speeds Below and Above the Speed of Sound][research_jones_1946_low_aspect]
+- [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1946_wing_plan_forms]
 - [Kantrowitz and Donaldson 1945 Preliminary Investigation of Supersonic Diffusers][research_kantrowitz_donaldson_1945]
 - [Kordes and Noll Flight Loads Measurements on the X-15][research_kordes_noll_x15_loads]
 - [Krone 1975 Divergence Elimination with Advanced Composites][research_krone_1975]
@@ -1165,24 +1185,49 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [Marshall et al 2005 Overview With Results and Lessons Learned of the X-43A Mach 10 Flight][research_marshall_et_al_2005]
 - [Matranga 1961 Analysis of X-15 Landing Approach and Flare Characteristics][research_matranga_1961]
 - [McClinton 2006 X-43 Scramjet Power Breaks the Hypersonic Barrier][research_mcclinton_2006]
+- [Munk 1921 The Minimum Induced Drag of Aerofoils][research_munk_1921]
+- [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
+- [NACA 1953 Fuselage Pressures Measured on the Bell X-1 Research Airplane in Transonic Flight][research_x1_fuselage_1953]
+- [NACA 1953 Measurements Obtained During the Glide-Flight Program of the Bell X-2][research_x2_glide_1953]
+- [NACA 1953 Measurements of Maximum Lift and Buffeting Intensities Obtained on the Northrop X-4][research_x4_buffet_1953]
+- [NACA 1954 Flight-Determined Pressure Measurements over the Wing of the Douglas D-558][research_d558_pressures_1954]
 - [NASA 1958 Research-Airplane-Committee Report on the Conference on the Progress of the X-15 Project][research_x15_conference_1958]
+- [NASA 1973 Flight-Measured X-24A Lifting Body Control Surface Hinge Moments][research_x24a_hinge_1973]
+- [NASA 1992 Laminar Flow Flight Experiments, A Review][research_laminar_flow_review_1992]
+- [NASA 1995 The Reusable Launch Vehicle Technology Program and the X-33][research_x33_rlv_1995]
+- [NASA 1997 Reusable Launch Vehicle Technology Program][research_x34_rlv_1997]
+- [NASA 2004 X-37 Flight Demonstrator, Approach and Landing Test Vehicle Flight Test][research_x37_alt_2004]
+- [NASA 2005 Parachute Testing for the NASA X-38 Crew Return Vehicle][research_x38_parachute_2005]
+- [NASA 2005 Shock Location Dominated Transonic Flight Loads on the Active Aeroelastic Wing][research_x53_aaw_2005]
+- [NASA 2008 X-43A Flight-Test-Determined Aerodynamic Force and Moment Characteristics][research_x43a_forces_2008]
+- [NASA 2022 High Speed Inlet Distortion Test for the X-59 Low Boom Flight Demonstrator][research_x59_inlet_2022]
+- [Nonweiler 1959 Aerodynamic Problems of Manned Space Vehicles][research_nonweiler_1959]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
+- [Oswald 1932 General Formulas and Charts for the Calculation of Airplane Performance][research_oswald_1932]
+- [Petersen 1964 The X-15 Flight Test Instrumentation][research_petersen_1964_x15_instr]
 - [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
+- [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Putnam 1984 X-29 Flight Research Program][research_putnam_1984_x29]
+- [Rausch 2001 Hyper-X Program Status][research_rausch_2001_hyper_x]
 - [Saltzman and Garringer 1966 Summary of Full-Scale Lift and Drag Characteristics of the X-15][research_saltzman_garringer_1966]
 - [Sears 1947 On Projectiles of Minimum Wave Drag][research_sears_1947]
 - [Sefic and Maxwell 1986 X-29A Technology Demonstrator Flight Test Program Overview][research_sefic_maxwell_1986]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Stillwell 1964 The X-15 Project, Results and New Research][research_stillwell_1964_x15]
+- [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
 - [Sutton and Graves 1971 A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures][research_sutton_graves_1971]
 - [Tauber 1989 A Review of High-Speed Convective Heat-Transfer Computation Methods][research_tauber_1989]
-- [Theodorsen 1935 General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
+- [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Van Driest 1952 Investigation of Laminar Boundary Layer in Compressible Fluids][research_van_driest_1952]
+- [Voland Huebner and McClinton 2005 X-43 Hypersonic Vehicle Technology Development][research_voland_2005_x43]
+- [Weil 1962 Review of the X-15 Program][research_weil_1962_x15]
 - [Weisshaar 1980 Divergence of Forward Swept Composite Wings][research_weisshaar_1980]
 - [Weisshaar 1981 Aeroelastic Tailoring of Forward Swept Composite Wings][research_weisshaar_1981]
 - [Whitcomb 1952 A Study of the Zero-Lift Drag-Rise Characteristics of Wing-Body Combinations Near the Speed of Sound][research_whitcomb_1952]
 - [Whitcomb and Clark 1965 An Airfoil Shape for Efficient Flight at Supercritical Mach Numbers][research_whitcomb_clark_1965]
-- [Williams and Drake 1948 The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
+- [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
+- [Yancey 1964 Flight Measurements of Stability and Control Derivatives of the X-15 Research Airplane][research_yancey_1964_x15]
 
 ### Related Post
 
@@ -1494,40 +1539,85 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [related_post_a92_cryptotelemeritocracy]: {% post_url 2026-02-23-cryptotelemeritocracy_for_space_exploitation %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
-[research_allen_eggers_1958]: https://ntrs.nasa.gov/search?q=Allen%20Eggers%20motion%20and%20aerodynamic%20heating%20of%20ballistic%20missiles%20entering%20the%20earth%27s%20atmosphere
-[research_banner_kuhl_quinn_1962]: https://ntrs.nasa.gov/search?q=Preliminary%20results%20of%20aerodynamic%20heating%20studies%20on%20the%20X-15%20airplane
+[research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
+[research_allen_eggers_1958]: https://ntrs.nasa.gov/citations/19930091020
+[research_banner_kuhl_quinn_1962]: https://ntrs.nasa.gov/citations/19660020178
+[research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
+[research_beranek_2019_x56a]: https://ntrs.nasa.gov/citations/20190002269
+[research_billig_1993]: https://doi.org/10.2514/3.23652
+[research_borer_2016_x57]: https://ntrs.nasa.gov/citations/20160010157
+[research_bosworth_1996_x31]: https://ntrs.nasa.gov/citations/19960029101
+[research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
-[research_chapman_1958]: https://ntrs.nasa.gov/search?q=Chapman%20approximate%20analytical%20method%20for%20studying%20entry%20into%20planetary%20atmospheres
-[research_diederich_budiansky_1948]: https://ntrs.nasa.gov/search?q=Diederich%20Budiansky%20divergence%20of%20swept%20wings
-[research_eggers_allen_neice_1955]: https://ntrs.nasa.gov/search?q=comparative%20analysis%20of%20the%20performance%20of%20long%20range%20hypervelocity%20vehicles
+[research_chapman_1958]: https://ntrs.nasa.gov/citations/19930085059
+[research_chapman_rubesin_1949]: https://doi.org/10.2514/8.11853
+[research_collar_1946]: https://doi.org/10.1017/s0368393100120358
+[research_cox_2011_x48b]: https://ntrs.nasa.gov/citations/20110011973
+[research_curran_2001]: https://doi.org/10.2514/2.5875
+[research_d558_pressures_1954]: https://ntrs.nasa.gov/citations/19930088105
+[research_dana_1975_x24b]: https://ntrs.nasa.gov/citations/19760035693
+[research_diederich_budiansky_1948]: https://ntrs.nasa.gov/citations/19800020786
+[research_drake_carman_1956]: https://ntrs.nasa.gov/citations/19930084537
+[research_eckert_1956]: https://doi.org/10.1115/1.4014011
+[research_eggers_allen_neice_1955]: https://ntrs.nasa.gov/citations/19930092363
+[research_engelund_2000_x43]: https://ntrs.nasa.gov/citations/20000092515
 [research_fay_riddell_1958]: https://doi.org/10.2514/8.7517
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
-[research_gera_bosworth_1987]: https://ntrs.nasa.gov/search?q=Dynamic%20characteristics%20of%20the%20X-29A%20aircraft
-[research_jones_1946_wing_plan_forms]: https://ntrs.nasa.gov/search?q=Jones%20wing%20plan%20forms%20for%20high%20speed%20flight
-[research_kantrowitz_donaldson_1945]: https://ntrs.nasa.gov/search?q=Kantrowitz%20Donaldson%20preliminary%20investigation%20of%20supersonic%20diffusers
+[research_gera_bosworth_1987]: https://ntrs.nasa.gov/citations/19900002437
+[research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
+[research_hank_2008_x51a]: https://doi.org/10.2514/6.2008-2540
+[research_hicks_1989_x29]: https://ntrs.nasa.gov/citations/19910019863
+[research_hoey_day_1961]: https://ntrs.nasa.gov/citations/19710070140
+[research_jones_1946_low_aspect]: https://ntrs.nasa.gov/citations/19930084600
+[research_jones_1946_wing_plan_forms]: https://ntrs.nasa.gov/citations/19930091936
+[research_kantrowitz_donaldson_1945]: https://ntrs.nasa.gov/citations/19930093667
 [research_kordes_noll_x15_loads]: https://ntrs.nasa.gov/search?q=flight%20loads%20measurements%20X-15%20airplane
 [research_krone_1975]: https://ntrs.nasa.gov/search?q=Krone%20divergence%20elimination%20with%20advanced%20composites%20forward%20swept%20wing
 [research_kullback_leibler_1951]: https://doi.org/10.1214/aoms/1177729694
-[research_lees_1956]: https://ntrs.nasa.gov/search?q=Lees%20laminar%20heat%20transfer%20over%20blunt%20nosed%20bodies%20at%20hypersonic%20flight%20speeds
+[research_laminar_flow_review_1992]: https://ntrs.nasa.gov/citations/19930057781
+[research_lees_1956]: https://doi.org/10.2514/8.6977
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
-[research_marshall_et_al_2005]: https://ntrs.nasa.gov/search?q=X-43A%20Mach%2010%20flight%20overview%20results%20and%20lessons%20learned
-[research_matranga_1961]: https://ntrs.nasa.gov/search?q=Analysis%20of%20X-15%20landing%20approach%20and%20flare%20characteristics
+[research_marshall_et_al_2005]: https://ntrs.nasa.gov/citations/20050175679
+[research_matranga_1961]: https://ntrs.nasa.gov/citations/19980227282
 [research_mcclinton_2006]: https://ntrs.nasa.gov/search?q=X-43%20scramjet%20power%20breaks%20the%20hypersonic%20barrier%20Dryden%20lectureship
+[research_munk_1921]: https://ntrs.nasa.gov/citations/19800006779
+[research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
+[research_nonweiler_1959]: https://doi.org/10.1017/s0368393100071662
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
-[research_phillips_1948]: https://ntrs.nasa.gov/search?q=Phillips%20effect%20of%20steady%20rolling%20on%20longitudinal%20and%20directional%20stability
-[research_putnam_1984_x29]: https://ntrs.nasa.gov/search?q=X-29%20flight%20research%20program%20overview
-[research_saltzman_garringer_1966]: https://ntrs.nasa.gov/search?q=Summary%20of%20full%20scale%20lift%20and%20drag%20characteristics%20of%20the%20X-15%20airplane
+[research_oswald_1932]: https://ntrs.nasa.gov/citations/19930091482
+[research_petersen_1964_x15_instr]: https://ntrs.nasa.gov/citations/19640009985
+[research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
+[research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
+[research_putnam_1984_x29]: https://ntrs.nasa.gov/citations/19840030937
+[research_rausch_2001_hyper_x]: https://ntrs.nasa.gov/citations/20010021138
+[research_saltzman_garringer_1966]: https://ntrs.nasa.gov/citations/19660010056
 [research_sears_1947]: https://doi.org/10.1090/qam/20394
-[research_sefic_maxwell_1986]: https://ntrs.nasa.gov/search?q=X-29A%20technology%20demonstrator%20flight%20test%20program%20overview
+[research_sefic_maxwell_1986]: https://ntrs.nasa.gov/citations/19860016856
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
-[research_sutton_graves_1971]: https://ntrs.nasa.gov/search?q=Sutton%20Graves%20general%20stagnation%20point%20convective%20heating%20equation%20arbitrary%20gas%20mixtures
-[research_tauber_1989]: https://ntrs.nasa.gov/search?q=Tauber%20review%20of%20high%20speed%20convective%20heat%20transfer%20computation%20methods
-[research_theodorsen_1935]: https://ntrs.nasa.gov/search?q=Theodorsen%20general%20theory%20of%20aerodynamic%20instability%20and%20the%20mechanism%20of%20flutter
-[research_van_driest_1952]: https://ntrs.nasa.gov/search?q=Van%20Driest%20investigation%20of%20laminar%20boundary%20layer%20in%20compressible%20fluids%20using%20the%20Crocco%20method
+[research_stillwell_1964_x15]: https://ntrs.nasa.gov/citations/19640012152
+[research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
+[research_sutton_graves_1971]: https://ntrs.nasa.gov/citations/19720003329
+[research_tauber_1989]: https://ntrs.nasa.gov/citations/19890017745
+[research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
+[research_van_driest_1952]: https://ntrs.nasa.gov/citations/19930083425
+[research_voland_2005_x43]: https://ntrs.nasa.gov/citations/20050239566
+[research_weil_1962_x15]: https://ntrs.nasa.gov/citations/19620003289
 [research_weisshaar_1980]: https://doi.org/10.2514/3.57922
 [research_weisshaar_1981]: https://doi.org/10.2514/3.57542
-[research_whitcomb_1952]: https://ntrs.nasa.gov/search?q=Whitcomb%20study%20of%20the%20zero%20lift%20drag%20rise%20characteristics%20of%20wing%20body%20combinations%20near%20the%20speed%20of%20sound
-[research_whitcomb_clark_1965]: https://ntrs.nasa.gov/search?q=Whitcomb%20Clark%20airfoil%20shape%20for%20efficient%20flight%20at%20supercritical%20mach%20numbers
-[research_williams_drake_1948]: https://ntrs.nasa.gov/search?q=the%20research%20airplane%20past%20present%20and%20future
+[research_whitcomb_1952]: https://ntrs.nasa.gov/citations/19930092271
+[research_whitcomb_clark_1965]: https://ntrs.nasa.gov/citations/19720066117
+[research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wright_1936]: https://doi.org/10.2514/8.155
-[research_x15_conference_1958]: https://ntrs.nasa.gov/search?q=Research%20airplane%20committee%20report%20on%20conference%20on%20the%20progress%20of%20the%20X-15%20project
+[research_x15_conference_1958]: https://ntrs.nasa.gov/citations/19710070129
+[research_x1_fuselage_1953]: https://ntrs.nasa.gov/citations/19930089110
+[research_x24a_hinge_1973]: https://ntrs.nasa.gov/citations/19730016322
+[research_x2_glide_1953]: https://ntrs.nasa.gov/citations/19930087801
+[research_x33_rlv_1995]: https://ntrs.nasa.gov/citations/19960045833
+[research_x34_rlv_1997]: https://ntrs.nasa.gov/citations/19990009876
+[research_x37_alt_2004]: https://ntrs.nasa.gov/citations/20040037790
+[research_x38_parachute_2005]: https://ntrs.nasa.gov/citations/20060056201
+[research_x43a_forces_2008]: https://ntrs.nasa.gov/citations/20080021260
+[research_x4_buffet_1953]: https://ntrs.nasa.gov/citations/19930087804
+[research_x53_aaw_2005]: https://ntrs.nasa.gov/citations/20060002813
+[research_x59_inlet_2022]: https://ntrs.nasa.gov/citations/20220010443
+[research_yancey_1964_x15]: https://ntrs.nasa.gov/citations/19650001037
