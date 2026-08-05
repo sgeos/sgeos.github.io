@@ -43,7 +43,11 @@ $$T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right), \qquad r 
 
 with $r$ the recovery factor and $Pr$ the [Prandtl number][ref_prandtl_number]. At $r = 0.89$, appropriate for turbulent flow in air, the recovery temperature at Mach 3.196 is 611 kelvin.
 
-That number is the whole programme. Aluminium alloys of the period lose useful strength above roughly 400 kelvin and are unusable above 500. At 611 kelvin steady state an aluminium airframe does not fail dramatically. It creeps, which is worse, because [creep][ref_creep_deformation] is time-dependent and a structure that survives a two-minute exposure may not survive a ten-minute one. The design question was therefore not whether the aircraft could reach Mach 3 but what it should be made of, and how long it could stay there.
+Before going further it is worth confirming that the perfect-gas assumption behind every relation above survives at this condition, because it does not at the temperatures the [X-15][ref_na_x15] would later reach. Vibrational modes of diatomic nitrogen and oxygen begin to activate near 800 kelvin, at which point the ratio of specific heats departs from 1.4 through
+
+$$\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \frac{\theta_v / T}{e^{\theta_v / T} - 1} \right)^2 e^{\theta_v / T}$$
+
+with $\theta_v$ the characteristic vibrational temperature, near 2270 kelvin for oxygen and 3390 for nitrogen. Dissociation follows well above that. At a stagnation temperature of 659 kelvin the vibrational contribution is a few percent and dissociation is absent entirely, so air behaves as a calorically perfect gas throughout the X-2 envelope and $\gamma = 1.4$ holds. That is a real simplification the aircraft enjoyed and the X-15 did not. That number is the whole programme. Aluminium alloys of the period lose useful strength above roughly 400 kelvin and are unusable above 500. At 611 kelvin steady state an aluminium airframe does not fail dramatically. It creeps, which is worse, because [creep][ref_creep_deformation] is time-dependent and a structure that survives a two-minute exposure may not survive a ten-minute one. The design question was therefore not whether the aircraft could reach Mach 3 but what it should be made of, and how long it could stay there.
 
 Three sub-questions follow, and the article treats each in turn. What is the actual heat flux into the structure, as opposed to the temperature of the air. How does the structure respond in time, since a short exposure and a steady state are different problems. And what does a material chosen for temperature rather than for strength cost in mass.
 
@@ -72,6 +76,14 @@ $$\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)$$
 with $h_c$ the convective coefficient in watts per square metre kelvin and $T_w$ the wall temperature. The coefficient is conventionally non-dimensionalized as a Stanton number and tied to skin friction by the Reynolds analogy,
 
 $$St = \frac{h_c}{\rho_\infty V_\infty c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}$$
+
+where the [Prandtl number][ref_prandtl_number] and the Nusselt number, the two groups this correlation is built from, are
+
+$$Pr = \frac{\mu c_p}{k_w}, \qquad Nu = \frac{h_c L}{k_w}$$
+
+and conduction within the solid follows Fourier's law,
+
+$$\mathbf{q} = -k_w \nabla T$$
 
 in the form given by [Eckert 1956][research_eckert_1956], with the compressible boundary-layer profiles from [Chapman and Rubesin 1949][research_chapman_rubesin_1949]. For a turbulent boundary layer on a flat plate the skin friction follows
 
@@ -181,11 +193,19 @@ Two time-dependent mechanisms sit underneath that static allowable and neither a
 
 $$P_{LM} = T \left( C + \log_{10} t_r \right)$$
 
-with $T$ in kelvin, $t_r$ the rupture time in hours, and $C$ near 20 for most steels. Because $P_{LM}$ is a single-valued function of stress for a given alloy, a fixed rupture parameter trades temperature against the logarithm of time. Raising the skin from 700 to 800 kelvin at constant stress costs roughly
+with $T$ in kelvin, $t_r$ the rupture time in hours, and $C$ near 20 for most steels. Because $P_{LM}$ is a single-valued function of stress for a given alloy, a fixed rupture parameter trades temperature against the logarithm of time. Inverting the definition gives the rupture time at any temperature,
 
-$$\log_{10} \frac{t_2}{t_1} = \frac{P_{LM}}{T_2} - \frac{P_{LM}}{T_1} - 0 \quad \Longrightarrow \quad \frac{t_2}{t_1} \approx 10^{-3}$$
+$$\log_{10} t_r = \frac{P_{LM}}{T} - C$$
 
-so a hundred kelvin near this range costs about three orders of magnitude in life. That is the quantitative reason a short exposure is survivable and a sustained one is a different aircraft.
+so that at constant stress the ratio between two temperatures is
+
+$$\log_{10} \frac{t_2}{t_1} = P_{LM} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)$$
+
+Take a one-hour rupture life at 700 kelvin, which fixes $P_{LM} = 700 \times (20 + 0) = 1.4 \times 10^{4}$. Raising the skin to 800 kelvin gives
+
+$$\log_{10} \frac{t_2}{t_1} = 1.4 \times 10^{4} \left( \frac{1}{800} - \frac{1}{700} \right) = -2.5$$
+
+so a hundred kelvin near this range costs two and a half orders of magnitude in life. That is the quantitative reason a short exposure is survivable and a sustained one is a different aircraft.
 
 The second is oxidation. Protective-scale growth on a nickel-bearing alloy follows a parabolic rate law,
 
@@ -235,7 +255,21 @@ which for 40 degrees is a gain of about fourteen percent, and it lengthens the s
 
 $$M_{\text{root}, \Lambda} \approx \frac{M_{\text{root}, 0}}{\cos \Lambda}$$
 
-A swept wing is therefore heavier than a straight one of the same span carrying the same load, before any thermal penalty is applied. Contemporary treatment of swept-wing aerodynamic characteristics appears in [Samputh and Moey 2024][research_samputh_moey_2024].
+A swept wing is therefore heavier than a straight one of the same span carrying the same load, before any thermal penalty is applied.
+
+Two aeroelastic limits accompany it and both tighten as the structure heats, because the elastic modulus falls with temperature and every stiffness below is proportional to it. Static divergence of a typical section occurs at
+
+$$q_D = \frac{K_\theta}{e S C_{L\alpha}}$$
+
+with $K_\theta$ the torsional stiffness and $e$ the distance from the elastic axis to the aerodynamic centre. Aft sweep raises $q_D$, because bending washes the tip out rather than in. Control reversal is the sharper limit for a thin swept wing, since an aileron deflection twists the surface against its own rolling moment, and the reversal dynamic pressure is
+
+$$q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}$$
+
+above which a roll input produces roll in the wrong direction. Dynamic behaviour is governed by the reduced frequency and flutter speed index,
+
+$$k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}$$
+
+following [Theodorsen 1935][research_theodorsen_1935], with the programme history in [Garrick and Reed 1981][research_garrick_reed_1981] and the field bounded by [Collar 1946][research_collar_1946]. A heated structure is a softer structure, so the aeroelastic boundaries move down exactly as the thermal ones are approached, which is the coupling that makes the aerothermoelastic problem a single problem rather than two. Contemporary treatment of swept-wing aerodynamic characteristics appears in [Samputh and Moey 2024][research_samputh_moey_2024].
 
 Supersonic aerodynamics of the [swept wing][ref_swept_wing] follow the linearized result of [Ackeret 1925][research_ackeret_1925], which for a thin surface at incidence gives
 
@@ -259,7 +293,15 @@ and with a mass near 5600 kilograms the level-flight equivalent [lift coefficien
 
 $$C_D = C_{D0} + C_{D,\text{wave}} + \frac{C_L^2}{\pi A e}$$
 
-and at this lift coefficient the induced term is negligible, so the aircraft is entirely wave and friction limited. This is worth pausing on, because the intuitive account of the accident blames thin air and it is wrong. The X-2 at Mach 3.196 was in higher dynamic pressure than the [X-15][ref_na_x15] at Mach 6.7, which sees 32 kilopascals. Aerodynamic surfaces on the X-2 had force available. What they had lost was not dynamic pressure but lift-curve slope, and those are different failures with different remedies.
+and at this lift coefficient the induced term is negligible, so the aircraft is entirely wave and friction limited. The friction contribution referred to wing area follows from the turbulent flat-plate coefficient and the wetted-area ratio,
+
+$$C_{D,f} = C_f \frac{S_{\text{wet}}}{S}$$
+
+which over the 13.7 metre body length gives a length Reynolds number of $8.0 \times 10^{7}$, a skin friction coefficient of 0.0016, and, for a wetted-area ratio near four, a friction drag coefficient of about 0.006. The base contributes
+
+$$C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}$$
+
+with $C_{p,b}$ the base pressure coefficient, which for a rocket aircraft flying with the engine shut down is a substantial term and one reason the unpowered return is draggier than the powered climb. This is worth pausing on, because the intuitive account of the accident blames thin air and it is wrong. The X-2 at Mach 3.196 was in higher dynamic pressure than the [X-15][ref_na_x15] at Mach 6.7, which sees 32 kilopascals. Aerodynamic surfaces on the X-2 had force available. What they had lost was not dynamic pressure but lift-curve slope, and those are different failures with different remedies.
 
 ### Propulsion and the Throttleable Engine
 
@@ -287,7 +329,19 @@ A [turbopump][ref_turbopump]-fed engine, unlike the pressure-fed X-1 installatio
 
 $$\mathcal{P}_{\text{pump}} = \frac{\dot{m} \, \Delta p}{\rho_{\text{prop}} \, \eta_{\text{pump}}}$$
 
-and at 32.4 kilograms per second against a pressure rise of a few megapascals this is hundreds of kilowatts, supplied by a gas generator that is itself a combustion device requiring its own development. That is a large part of why the engine took as long as it did, and it is the concrete content of the claim above that the programme was inventing two things at once. Throttling changes $\dot{m}$ and therefore $p_0$, so a throttled chamber runs at lower pressure and slightly lower $c^{*}$, and the achievable throttle range is bounded below by injector stability,
+and at 32.4 kilograms per second against a pressure rise of a few megapascals this is hundreds of kilowatts, supplied by a gas generator that is itself a combustion device requiring its own development. The turbine that drives the pumps must balance that demand,
+
+$$\mathcal{P}_{\text{turb}} = \dot{m}_{gg} \, c_p \, T_{gg} \, \eta_t \left[ 1 - \left( \frac{p_{\text{out}}}{p_{gg}} \right)^{\frac{\gamma - 1}{\gamma}} \right] = \mathcal{P}_{\text{pump}}$$
+
+and the gas generator flow $\dot{m}_{gg}$ is propellant that produces no useful thrust, so the arrangement costs specific impulse directly,
+
+$$I_{sp,\text{eff}} = I_{sp} \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}} \right)$$
+
+Propellant volume follows from the densities,
+
+$$V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}$$
+
+and the exit Mach number that sets the expansion ratio is recovered by inverting the area relation numerically, since it cannot be written explicitly in $M_e$. That is a large part of why the engine took as long as it did, and it is the concrete content of the claim above that the programme was inventing two things at once. Throttling changes $\dot{m}$ and therefore $p_0$, so a throttled chamber runs at lower pressure and slightly lower $c^{*}$, and the achievable throttle range is bounded below by injector stability,
 
 $$\Delta p_{\text{inj}} \gtrsim 0.2 \, p_0$$
 
@@ -371,7 +425,15 @@ with $C_{l\delta_a}$ the aileron effectiveness and $C_{lp}$ the roll damping der
 
 $$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
 
-Both derivatives carry the supersonic $1 / \beta_s$ falloff, so aileron effectiveness and roll damping weaken together and the ratio that sets $p_{ss}$ is roughly preserved while the response slows. The practical consequence is that a control input which produced an acceptable roll rate at Mach 1.5 produces a comparable one at Mach 3.2, so the pilot has no natural feedback that the safe boundary has moved. A fighter of the period rolled at two to three hundred degrees per second. The X-2 at Mach 3.196 therefore had a critical roll rate comfortably inside what a pilot could command with a normal control input, and nothing in the cockpit told him where that boundary was. The inertia ratios that govern the severity are
+Both derivatives carry the supersonic $1 / \beta_s$ falloff, so aileron effectiveness and roll damping weaken together and the ratio that sets $p_{ss}$ is roughly preserved while the response slows. The time to reach that steady rate from a step input follows the first-order response
+
+$$p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)$$
+
+so the critical rate is crossed at
+
+$$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)$$
+
+and for a commanded rate twice the critical one with a roll time constant of half a second, the threshold is passed in about 0.35 seconds, well before the pilot could perceive the rate as excessive. The practical consequence is that a control input which produced an acceptable roll rate at Mach 1.5 produces a comparable one at Mach 3.2, so the pilot has no natural feedback that the safe boundary has moved. A fighter of the period rolled at two to three hundred degrees per second. The X-2 at Mach 3.196 therefore had a critical roll rate comfortably inside what a pilot could command with a normal control input, and nothing in the cockpit told him where that boundary was. The inertia ratios that govern the severity are
 
 $$\mu_1 = \frac{I_z - I_x}{I_y}, \qquad \mu_2 = \frac{I_x - I_y}{I_z}$$
 
@@ -427,6 +489,20 @@ The aircraft had no other means of control. It carried no [reaction control syst
 
 The measurements the programme existed to make were skin temperatures, which meant [thermocouples][ref_thermocouple] distributed through the structure rather than the pressure orifices that dominated the [X-1][related_post_a298_bell_x1] installation. A thermocouple embedded in a skin measures the skin, not the gas, and converting one to the other requires the heat balance derived above, so the data reduction is a thermal inverse problem rather than a direct reading.
 
+The sensor has its own dynamics. A [thermocouple][ref_thermocouple] junction of characteristic dimension $d$ responds with a first-order lag
+
+$$\tau_{tc} = \frac{\rho_j c_j}{h_c} \cdot \frac{V_j}{A_j} \approx \frac{\rho_j c_j d}{6 h_c}$$
+
+and for a half-millimetre steel bead against a convective coefficient of a few hundred watts per square metre kelvin this is of order half a second. Against a skin heating at thirty kelvin per second that lag is not negligible, and the indicated temperature trails the true one by
+
+$$T_{\text{true}} - T_{\text{indicated}} \approx \tau_{tc} \frac{dT}{dt} \approx 20 \ \text{kelvin}$$
+
+which must be corrected out. A probe measuring gas rather than metal has a further error, since it recovers only part of the stagnation temperature,
+
+$$T_{\text{probe}} = T_\infty \left( 1 + r_p \frac{\gamma - 1}{2} M^2 \right)$$
+
+with $r_p$ the probe recovery factor, typically between 0.85 and 0.98 and itself a calibration quantity.
+
 Airspeed and Mach number came from a pitot-static installation with the same difficulties treated at length for the X-1 and calibrated by the same methods, including [NACA 1948][research_pitot_supersonic_1948] on supersonic pitot behaviour and [NACA 1950][research_airspeed_calibration_1950] on flight calibration of airspeed systems. At Mach 3 the bow shock is strong, so the Rayleigh correction is large and unambiguous. The supersonic pitot relation is
 
 $$\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}$$
@@ -471,7 +547,15 @@ so a compact heavy capsule falls fast and must deploy a parachute to survive, wh
 
 $$a_{\max} \approx \frac{V_e^2 \sin \gamma_e}{2 e H}$$
 
-with $H$ the atmospheric scale height, which is the same Allen-Eggers result used for entry vehicles elsewhere in this series. The wind tunnel stability work on such a capsule in [NACA 1949][research_nose_capsule_1949] addresses one link. It cannot address the others. The [X-15][ref_na_x15] programme chose a seat instead, as documented in [NASA 1958][research_x15_escape_1958], accepting the windblast problem in exchange for a shorter chain.
+with $H$ the atmospheric scale height, which is the same Allen-Eggers result used for entry vehicles elsewhere in this series. Descent under canopy closes the chain. A parachute of drag area $C_D A_p$ carrying a capsule of mass $m_c$ reaches a terminal speed
+
+$$V_{\text{term}} = \sqrt{\frac{2 m_c g}{\rho \, C_D A_p}}$$
+
+and for a 450 kilogram capsule descending at seven metres per second at sea level the required drag area $C_D A_p$ is 147 square metres, which at a canopy drag coefficient of 1.4 is 105 square metres of cloth and a canopy roughly twelve metres across. Deploying something that size at speed produces an opening load
+
+$$F_{\text{open}} = C_X \, q \, C_D A_p$$
+
+with $C_X$ the opening shock factor, so deployment must be delayed until dynamic pressure has fallen or the canopy must be reefed. That delay is itself a link, and it is the link that failed. The wind tunnel stability work on such a capsule in [NACA 1949][research_nose_capsule_1949] addresses one link. It cannot address the others. The [X-15][ref_na_x15] programme chose a seat instead, as documented in [NASA 1958][research_x15_escape_1958], accepting the windblast problem in exchange for a shorter chain.
 
 ## The Flight Test Record
 
@@ -499,13 +583,43 @@ $$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
 
 a per-flight loss probability of ten percent, which is what the record actually shows, would demand five or more airframes for ninety-five percent confidence of completing twenty flights. Two were built. The programme was under-resourced against its own risk from the beginning, and continuing after the first loss with a single airframe made that worse. Total powered flights across both aircraft numbered in the low twenties, with Everest and Kincheloe flying twelve powered flights before Apt's single one. The programme therefore cost two aircraft, two pilots, and one carrier crew member across roughly twenty powered flights, which is the worst loss rate of any aircraft in this series.
 
+### The Unpowered Return
+
+Every X-2 flight ended the way every [X-1][ref_bell_x1] flight ended, with an unpowered arrival on a lake bed, and the aircraft was worse at it than its predecessor.
+
+An unpowered glide holds
+
+$$\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}$$
+
+with $\gamma_g$ the glide angle and $w_s$ the sink rate. The best glide ratio follows from the subsonic drag polar,
+
+$$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}$$
+
+and with an aspect ratio of
+
+$$A = \frac{b^2}{S} = \frac{9.83^2}{24.16} = 4.0$$
+
+an efficiency factor of 0.8 and a zero-lift drag coefficient near 0.02, this gives 11.2 and a glide angle of 5.1 degrees. The landing weight after propellant exhaustion is 55.0 kilonewtons, so with a swept-wing maximum lift coefficient reduced by $\cos \Lambda$ the stall speed is
+
+$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 55{,}048}{1.10 \times 24.16 \times 0.9}} = 68 \ \text{metres per second}$$
+
+An approach flown at 1.3 times stall is 88 metres per second with a sink rate of
+
+$$w_s = \frac{88}{11.2} = 7.9 \ \text{metres per second}$$
+
+That is a fast, steep, single-attempt arrival with no engine and a wing optimized for Mach 3 rather than for landing. The low aspect ratio that suits supersonic flight is precisely what makes the glide poor, and the sweep that raises the critical Mach number is precisely what raises the stall speed. Both penalties are paid on every return, and they are the routine cost of the configuration rather than an incidental one.
+
 ## Comparison With Ground Prediction
 
 The X-2 was predicted from ground data as the X-1 had been, and the pattern of agreement and disagreement is instructive.
 
 Static stability and control characteristics were measured on scale models, including the lateral and aileron work in [NACA 1958][research_x2_lateral_model_1958] and the configuration studies of [NACA 1956][research_config_stability_1956], with sweep and tail-height effects in [NASA 1958][research_sweep_tail_height_1958] and the wider fighter-configuration context in [NACA 1954][research_fighter_sweep_model_1954] and [NACA 1954][research_prelim_static_1954]. Those methods predict the static derivatives acceptably.
 
-What they could not predict was the coupled dynamic behaviour, for a reason that is structural rather than a matter of tunnel quality. Inertia coupling depends on the inertia distribution of the full-scale aircraft, and a wind tunnel model is not dynamically similar in inertia unless it is deliberately built to be. The formal statement is the one [Buckingham 1914][research_buckingham_1914] supplies. A dynamically similar model must match not only the [Mach number][ref_mach_number] and Reynolds number but the mass ratio and the non-dimensional inertias,
+What they could not predict was the coupled dynamic behaviour, for a reason that is structural rather than a matter of tunnel quality. Inertia coupling depends on the inertia distribution of the full-scale aircraft, and a wind tunnel model is not dynamically similar in inertia unless it is deliberately built to be. The formal statement is the one [Buckingham 1914][research_buckingham_1914] supplies, that a relation among $n$ dimensional quantities involving $k$ independent dimensions reduces to a relation among
+
+$$n - k \ \text{dimensionless groups}$$
+
+so the number of parameters a scale test must reproduce is fixed by the physics rather than chosen by the experimenter. A dynamically similar model must match not only the [Mach number][ref_mach_number] and Reynolds number but the mass ratio and the non-dimensional inertias,
 
 $$\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}, \qquad \hat{I}_z = \frac{I_z}{\rho S b^3}$$
 
@@ -529,7 +643,19 @@ The coupling result was more consequential and was not the result anyone wanted.
 
 $$\frac{S_{v,2}}{S_{v,1}} = \frac{\beta_{s,2}}{\beta_{s,1}} = \frac{\sqrt{3.196^2 - 1}}{\sqrt{1.5^2 - 1}} = 2.72$$
 
-so a tail sized for the lower Mach number must almost triple in area to give the same stiffness at the higher one, or the aircraft must accept artificial stabilization instead. Both routes were taken, and the second is why every high-speed aircraft after the X-2 carries a yaw damper. The [XB-70 stability summary][research_xb70_stability_1973] records that inheritance directly, and the modern sizing problem is treated by [Xie and Cai 2023][research_xie_cai_2023] and [Goud and Dwivedi 2022][research_goud_dwivedi_2022].
+so a tail sized for the lower Mach number must almost triple in area to give the same stiffness at the higher one, or the aircraft must accept artificial stabilization instead. Both routes were taken, and the second is why every high-speed aircraft after the X-2 carries a yaw damper. A rate feedback to the rudder,
+
+$$\delta_r = -k_r \, r$$
+
+augments the natural yaw damping derivative to
+
+$$C_{nr, \text{aug}} = C_{nr} - k_r \, C_{n \delta_r} \frac{2V}{b}$$
+
+so the Dutch roll damping ratio becomes
+
+$$\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}$$
+
+and a gain chosen to hold $\zeta_{dr}$ near 0.3 across the envelope recovers by feedback what the tail lost to Mach number. The same argument applied in pitch gives the pitch damper that [NASA 1959][research_artificial_pitch_damping_1959] investigated. Artificial damping does not, however, raise the divergence threshold derived above, because that threshold is set by stiffness rather than damping, and a damper cannot restore a stiffness that the $1 / \beta_s$ falloff has removed. That distinction is why roll rate limits were imposed alongside the dampers rather than instead of them. The [XB-70 stability summary][research_xb70_stability_1973] records that inheritance directly, and the modern sizing problem is treated by [Xie and Cai 2023][research_xie_cai_2023] and [Goud and Dwivedi 2022][research_goud_dwivedi_2022].
 
 The escape result was negative and it also propagated. The capsule concept was not abandoned but its reliability chain was taken more seriously, and the X-15 chose an ejection seat.
 
