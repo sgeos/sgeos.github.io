@@ -17,6 +17,29 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Northrop X-4 Bantam A301 2025-10-10
+
+`x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
+
+1017 lines, 68 display equations, 269 reference definitions, 10,660 words. References inside band,
+lines and equations below band and not padded. Primary 43.3 percent, contemporary 38.5 percent, the
+latter the highest of the five.
+
+The keystone is whether a horizontal tail can be dispensed with at transonic speed. A tail does two
+jobs and the historical debate was conducted about the wrong one, since the damping contribution
+scales as the square of tail length and supplies 94 percent of a conventional aircraft's pitch
+damping. The X-4's short-period damping ratio computes to 0.244 against 0.749 for a tailed aircraft,
+both stable, so the finding is about margin rather than stability. The tailless aircraft becomes
+effectively undamped once its damping falls to 21 percent of nominal where the tailed one tolerates 7
+percent. The answer expired rather than being overturned, since a pitch damper restores by feedback
+what the missing tail removed.
+
+Verification complete. All 269 references cited with zero undefined and zero orphaned, all 115
+meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, isolated build
+succeeding.
+
+**Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297.
+
 ## X-Planes Douglas X-3 Stiletto A300 2025-10-09
 
 `x_planes_douglas_x3.markdown`, A300, editorial date 2025-10-09, series `x_planes` index 4 of 72.

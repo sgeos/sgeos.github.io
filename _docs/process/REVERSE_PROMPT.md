@@ -9,9 +9,66 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A300 drafted, then taken through equation-density, primary-reference, and publication
-reviews. Committed and pushed. A297 through A299 are unchanged. **No article in this series is
-published.** All four remain in `_drafts/`.
+**Task**: A301, the Northrop X-4 Bantam, drafted and verified. A297 through A300 are unchanged and
+already pushed. **No article in this series is published.** All five remain in `_drafts/`.
+
+---
+
+## A301, Northrop X-4 Bantam
+
+`_drafts/x_planes_northrop_x4.markdown`, editorial date 2025-10-10, series index 5 of 72.
+
+**1017 lines, 68 display equations, 269 reference definitions, 10,660 words.** References are inside
+band. **Lines and equations are below band** at 1017 against 1300 to 1600 and 68 against 90 to 130,
+and I have not padded. Primary sources are 43.3 percent, the lowest since A300 before its reference
+pass. Contemporary coverage is **38.5 percent, the highest of the five**, which reflects that tailless
+aircraft are a live subject rather than a historical one.
+
+The keystone is whether a horizontal tail can be dispensed with at transonic speed, and the answer is
+one the popular account gets wrong.
+
+**A tail does two jobs and the debate was conducted about the wrong one.** It trims and controls,
+which everyone discussed, and it damps, which nobody weighed. The damping contribution scales as the
+**square** of tail length, because the arm appears once in the tail volume coefficient and again in
+the incremental incidence a pitch rate produces. Working it out gives a conventional aircraft **94
+percent of its pitch damping from the tail**. Remove the tail and almost all the damping goes.
+
+**The finding is about margin, not stability.** The X-4's short-period damping ratio computes to
+0.244 against 0.749 for an otherwise identical tailed aircraft. Both are stable, and any account
+claiming the aircraft oscillated uncontrollably has overstated it. What matters is that the transonic
+band degrades every derivative, and the tailless aircraft becomes effectively undamped once its
+damping falls to **21 percent** of nominal where the tailed one tolerates a fall to **7 percent**. It
+hunted above Mach 0.88 because it had nothing left to give.
+
+**The answer expired rather than being overturned.** A pitch damper restores by feedback what the
+missing tail removed, and the article computes the required gain and shows it is comparable in
+magnitude to the tail's own contribution. Once that was routine the configuration returned in the
+X-36, the B-2, and a large modern literature. The X-4 did not prove tailless aircraft impossible. It
+measured what the configuration costs, which is what made the remedy specifiable.
+
+---
+
+## Verification of A301
+
+All 11 new worked numerical examples re-derived independently and agreeing, alongside the earlier
+sizing figures.
+
+All 269 references cited, zero undefined, zero orphaned. All 115 URLs whose status code carries
+information swept at 200.
+
+**A repeat of the A300 defect, and worth recording as a pattern.** Twenty-one anchors were cited and
+never defined. Two causes, both mine: some contemporary references were listed in the plan and never
+entered the data dict, and some carried-over anchors were removed by an over-aggressive prune of
+A300's reference set. **This is the second consecutive article in which reusing a previous article's
+reference data produced dangling anchors.** The integrity check caught it both times, but the method
+is the problem rather than the execution, and building each article's reference data from its own
+harvest would cost less than repairing it afterward.
+
+`_verify.py` clean, zero style violations, both agency acronyms spelled out before first use, zero
+duplicated seams, zero malformed links. Isolated build succeeds with all five drafts present and the
+series navigation renders Part 5.
+
+**The publication-order dependency now runs five deep.** A301 cites A300, A299, A298, and A297.
 
 ---
 
