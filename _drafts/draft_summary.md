@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_douglas_x3.markdown`, A300, editorial date 2025-10-09, series `x_planes` index 4 of 72.
 
-1163 lines, 86 display equations, 301 reference definitions, 12,453 words. References inside band,
-lines and equations below band after four expansion passes and not padded. Primary 44.1 percent,
-contemporary 24.4 percent.
+1277 lines, 114 display equations, 301 reference definitions, 13,613 words after an equation-density
+review that added 28 equations across 12 edits. Equations and references inside band, lines 23 short
+and not padded. Primary 44.1 percent, contemporary 24.4 percent.
 
 The article where the keystone framework fails hardest. The sizing does not close, which is the
 finding. A thirty percent engine shortfall compounds with a fixed inlet recovering only 0.721 of

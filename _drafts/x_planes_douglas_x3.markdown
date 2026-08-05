@@ -93,7 +93,19 @@ with [dynamic pressure][ref_dynamic_pressure] most conveniently written as
 
 $$q = \frac{\gamma}{2} p M^2$$
 
-Substituting and solving for Mach number gives the thrust-limited maximum,
+The compressible relations behind these are the standard set, tabulated in [NACA Report 1135][research_naca_1135],
+
+$$\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2$$
+
+with the disturbance geometry fixed by the Mach angle
+
+$$\mu_M = \arcsin \frac{1}{M}$$
+
+and the area a stream tube must pass through given by
+
+$$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+
+which is the relation that sizes every inlet throat. Substituting and solving for Mach number gives the thrust-limited maximum,
 
 $$M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}$$
 
@@ -111,11 +123,41 @@ The inlet supplies most of it. The X-3 had fixed side inlets with no variable ge
 
 $$\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}$$
 
-Evaluating this shows how quickly the penalty arrives. At Mach 1.2 the recovery is 0.993 and the loss is negligible. At Mach 1.5 it is 0.930. At Mach 2.0 it is 0.721. Since turbojet thrust scales very nearly with the total pressure delivered to the compressor face,
+The static conditions behind the shock follow the rest of the Rankine-Hugoniot set,
+
+$$\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}$$
+
+$$M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}$$
+
+so that at Mach 2 the flow behind a normal shock is at Mach 0.577 and has been heated by 69 percent, which is the condition the compressor face actually sees. Evaluating the recovery shows how quickly the penalty arrives. At Mach 1.2 the recovery is 0.993 and the loss is negligible. At Mach 1.5 it is 0.930. At Mach 2.0 it is 0.721. Since turbojet thrust scales very nearly with the total pressure delivered to the compressor face,
 
 $$\frac{T}{T_{\text{ideal}}} \approx \frac{p_{02}}{p_{01}}$$
 
-the aircraft loses another 28 percent of its thrust at the design condition purely to the inlet. Combining the two effects gives an effective thrust factor of
+the aircraft loses another 28 percent of its thrust at the design condition purely to the inlet.
+
+That is only half of what a fixed inlet costs. The other half is drag. An inlet has a capture area $A_c$ set by geometry and a demanded stream tube area $A_0$ set by what the engine can swallow at the current condition, and their ratio is the mass flow ratio
+
+$$\frac{A_0}{A_c} = \frac{\dot{m}_{\text{engine}}}{\rho_\infty V_\infty A_c}$$
+
+At the design point these match. Away from it the engine demands less than the inlet captures, the excess spills around the cowl, and the momentum change of the spilled flow appears as additive drag,
+
+$$D_{\text{add}} = \dot{m}_0 \left( V_\infty - V_1 \right) + \left( p_1 - p_\infty \right) A_1$$
+
+with the subscript 1 denoting conditions at the cowl lip. Non-dimensionally,
+
+$$C_{D,\text{add}} = \frac{D_{\text{add}}}{q S} \approx \frac{2 A_c}{S} \left( 1 - \frac{A_0}{A_c} \right) \sin^2 \theta_c$$
+
+for a cowl of lip angle $\theta_c$, which grows as the square of the mismatch for small spillage and linearly thereafter. A fixed inlet flown below its design Mach number therefore suffers twice, losing thrust to poor recovery and gaining drag from spillage, and the two act in the same direction on the thrust margin,
+
+$$T_{\text{eff}} = \eta_d \, T_{\text{ideal}} - D_{\text{add}} - D_{\text{div}}$$
+
+where $D_{\text{div}}$ is the drag of the boundary layer diverter, the wedge that keeps fuselage boundary layer out of a side inlet and which for a side-mounted arrangement like the X-3 is not small.
+
+There is a stability limit as well. When spillage becomes large enough the terminal shock is expelled from the throat and oscillates, a condition called buzz, which occurs roughly when
+
+$$\frac{A_0}{A_c} < \left( \frac{A_0}{A_c} \right)_{\text{crit}}$$
+
+and which imposes an unsteady load on the compressor face. A fixed inlet has no way to avoid it except by flying nearer the design point, which is precisely what an underpowered aircraft cannot do. Combining the two effects gives an effective thrust factor of
 
 $$0.70 \times 0.721 = 0.505$$
 
@@ -157,7 +199,15 @@ which is poor for an aircraft expected to accelerate through the transonic drag 
 
 $$\frac{W}{S} = \frac{10{,}161 \times 9.80665}{15.47} = 6441 \ \text{newtons per square metre}$$
 
-more than forty percent above the [X-1][related_post_a298_bell_x1] figure. Those two numbers together describe an aircraft that is hard to accelerate and hard to slow down, which is exactly what the flight record shows.
+more than forty percent above the [X-1][related_post_a298_bell_x1] figure. The manoeuvre envelope that follows has its corner at
+
+$$V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
+
+and with the high wing loading and low maximum lift coefficient of this configuration the corner speed is high, so the aircraft cannot reach its structural limit aerodynamically over most of its envelope. The load factor available at any speed below the corner is
+
+$$n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}$$
+
+which for the X-3 falls below unity under about 108 metres per second. That figure is the stall speed derived in the takeoff section below, arrived at from the opposite direction, and the agreement is a useful internal check. The aircraft cannot sustain level flight at all below it. Those two numbers together describe an aircraft that is hard to accelerate and hard to slow down, which is exactly what the flight record shows.
 
 ## Dependent Systems
 
@@ -185,7 +235,19 @@ producing a trim change and a static margin change,
 
 $$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM$$
 
-that the horizontal tail must absorb, and the tail loads that result were measured and reported for this aircraft. Subsonically the same aspect ratio is a severe penalty, since the lift-curve slope falls toward the slender-wing limit
+The neutral point that fixes the margin is
+
+$$\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}$$
+
+and the resulting longitudinal modes are the short period and the phugoid,
+
+$$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}$$
+
+with the lateral counterpart the Dutch roll,
+
+$$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}$$
+
+whose frequency for the X-3 is low because $I_z$ is large, so the aircraft is slow to correct a yaw disturbance and quick to roll, which is the combination that feeds the coupling. That the horizontal tail must absorb the trim change is why the tail loads were measured and reported for this aircraft. Subsonically the same aspect ratio is a severe penalty, since the lift-curve slope falls toward the slender-wing limit
 
 $$C_{L\alpha} \to \frac{\pi A}{2} = 4.87 \ \text{per radian}$$
 
@@ -199,7 +261,15 @@ The supersonic drag of such a wing decomposes into three terms,
 
 $$C_D = C_{D,f} + C_{D,w} + \frac{C_L^2}{\pi A e}$$
 
-with friction, wave, and induced contributions. Friction follows the turbulent flat-plate relation referred to wetted area,
+with friction, wave, and induced contributions. The Reynolds number that sets it is
+
+$$Re_L = \frac{\rho_\infty V_\infty L}{\mu}$$
+
+with the viscosity from Sutherland's relation,
+
+$$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
+
+taking $\mu_{\text{ref}} = 1.716 \times 10^{-5}$ pascal seconds at 273.15 kelvin and $S = 110.4$ kelvin. Friction follows the turbulent flat-plate relation referred to wetted area,
 
 $$C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}$$
 
@@ -245,7 +315,11 @@ The manufacturing problem is that titanium work-hardens rapidly, galls against t
 
 $$\frac{\sigma_y}{E}$$
 
-which for titanium is roughly twice the aluminium value, so elastic recovery after forming is roughly twice as large and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [NACA 1950][research_titanium_compressive_1950] reports compressive properties of titanium sheet at elevated temperature, which is the relevant loading for an upper wing surface and the relevant condition for a supersonic aircraft. Later alloy and fabrication development appears in [NASA 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], and the composite alternatives that eventually displaced some of it in [NASA 1978][research_arrow_wing_composite_1978]. Contemporary work on exactly these problems appears in [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025], which is a measure of how far from solved it remains. The later supersonic cruise programmes inherited the same difficulties, documented in [NASA 1977][research_titanium_mach27_1977], [NASA 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [NASA 1972][research_titanium_rene41_bonding_1972].
+which for titanium is roughly twice the aluminium value. The springback of a sheet bent to radius $R_i$ and released follows
+
+$$\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3$$
+
+with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. Elastic recovery after forming is therefore roughly twice as large as for aluminium and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [NACA 1950][research_titanium_compressive_1950] reports compressive properties of titanium sheet at elevated temperature, which is the relevant loading for an upper wing surface and the relevant condition for a supersonic aircraft. Later alloy and fabrication development appears in [NASA 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], and the composite alternatives that eventually displaced some of it in [NASA 1978][research_arrow_wing_composite_1978]. Contemporary work on exactly these problems appears in [Saidi and Giraud Moreau 2021][research_saidi_2021], [Kim and Lee 2022][research_kim_lee_ti_2022], and [Shu and Ren 2025][research_shu_ren_2025], which is a measure of how far from solved it remains. The later supersonic cruise programmes inherited the same difficulties, documented in [NASA 1977][research_titanium_mach27_1977], [NASA 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [NASA 1972][research_titanium_rene41_bonding_1972].
 
 ### Propulsion and the Inlet
 
@@ -309,7 +383,23 @@ Roll damping is what would ordinarily limit the rate reached for a given input, 
 
 $$p_{ss} = -\frac{C_{l \delta_a} \delta_a}{C_{l p}} \cdot \frac{2 V}{b}$$
 
-and the damping derivative $C_{lp}$ for such a planform at supersonic speed had been calculated and measured extensively in the period immediately before the X-3 flew, in [NACA 1948][research_damping_triangular_1948], [NACA 1950][research_damping_roll_wingbody_1950], [NACA 1950][research_damping_roll_thin_1950], [NACA 1950][research_damping_roll_pressure_1950], and [NACA 1951][research_damping_roll_delta_1951], with rolling effectiveness measured in free flight in [NACA 1948][research_rolling_effectiveness_1948]. A small span appears twice in that expression, once directly and once through the damping, so the X-3 reaches a high roll rate for a modest input and has little to arrest it.
+and the damping derivative $C_{lp}$ for such a planform at supersonic speed had been calculated and measured extensively in the period immediately before the X-3 flew, in [NACA 1948][research_damping_triangular_1948], [NACA 1950][research_damping_roll_wingbody_1950], [NACA 1950][research_damping_roll_thin_1950], [NACA 1950][research_damping_roll_pressure_1950], and [NACA 1951][research_damping_roll_delta_1951], with rolling effectiveness measured in free flight in [NACA 1948][research_rolling_effectiveness_1948]. For a thin wing at supersonic speed the damping derivative itself carries the Prandtl-Glauert falloff,
+
+$$C_{lp} \approx -\frac{\pi A}{8 \sqrt{M_\infty^2 - 1}} \quad \text{for } \beta_s A \gtrsim 4$$
+
+so it weakens with Mach number exactly as the stiffness derivatives do. The roll mode time constant that results is
+
+$$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
+
+and a small $I_x$, which is the X-3's defining inertia property, makes that time constant short. The aircraft therefore reaches its steady roll rate quickly, which leaves the pilot even less time between input and threshold. The approach to steady state is first order,
+
+$$p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)$$
+
+so the critical rate is crossed at
+
+$$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)$$
+
+A small span appears twice in the steady-rate expression, once directly and once through the damping, so the X-3 reaches a high roll rate for a modest input and has little to arrest it.
 
 The loads a rolling manoeuvre imposes were also understood, and [NACA 1946][research_rolling_pullout_loads_1946] analyses wing and aileron loads in rolling pull-outs specifically, which is the manoeuvre class that produced the departure. The analytical and experimental groundwork for predicting what happened to the X-3 was therefore substantially complete before the aircraft flew. What was missing was its application to this configuration.
 
@@ -363,7 +453,15 @@ and taking the thrust-dominated approximation $a \approx T/m = 4.29$ metres per 
 
 $$\frac{1}{2} \rho V_{TO}^2 S C_{L,TO} = W$$
 
-and a wing that cannot generate a high $C_{L,TO}$ forces $V_{TO}$ up as the square root, which is why the aircraft that most needs a short field is the one least able to have one. The aircraft needed the lake bed not for safety but for length.
+and a wing that cannot generate a high $C_{L,TO}$ forces $V_{TO}$ up as the square root, which is why the aircraft that most needs a short field is the one least able to have one. The climb gradient immediately after lift-off follows the same thrust margin,
+
+$$\sin \gamma_{\text{climb}} = \frac{T}{W} - \frac{1}{L / D}$$
+
+and with a thrust-to-weight of 0.44 and a subsonic lift-to-drag near 8 at climb lift coefficient, the available gradient is
+
+$$0.44 - 0.125 = 0.315$$
+
+which is healthy, so the X-3 climbed acceptably once airborne. Its difficulty was reaching flying speed, not leaving the ground. The aircraft needed the lake bed not for safety but for length.
 
 Landing inherits the same penalty. The approach speed at 1.3 times stall is above 120 metres per second, the [landing gear][ref_landing_gear] absorbs correspondingly higher energy,
 
@@ -373,7 +471,15 @@ with $w_s$ the sink rate. The landing distance from the same relations is
 
 $$s_L = \frac{V_{TD}^2}{2 \bar{a}_{\text{brake}}}$$
 
-and the energy the brakes must absorb scales as the square of touchdown speed, so an aircraft landing at 120 metres per second dissipates roughly twice the energy of one landing at 85. The gear stroke required to hold the load factor at touchdown to a chosen value $n_g$ is
+and the energy the brakes must absorb scales as the square of touchdown speed, so an aircraft landing at 120 metres per second dissipates roughly twice the energy of one landing at 85. Stated directly, the brake energy is
+
+$$E_{\text{brake}} = \frac{1}{2} m V_{TD}^2 - \int_0^{s_L} D \, ds$$
+
+and the tire has an independent limit, since its structural speed rating is a ground speed rather than an airspeed,
+
+$$V_{\text{ground}} = V_{TD} - V_{\text{wind}} \le V_{\text{tire}}$$
+
+which for the period was near 100 metres per second and which the X-3 approached on every landing. That constraint is the reason lake bed operation mattered as much for its surface as for its length. The gear stroke required to hold the load factor at touchdown to a chosen value $n_g$ is
 
 $$s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}$$
 
@@ -389,7 +495,11 @@ Angle of attack and sideslip on a research aircraft come from a nose boom carryi
 
 $$\alpha_{\text{true}} = \alpha_{\text{vane}} - \frac{\ell_b \, q}{V}, \qquad \beta_{\text{true}} = \beta_{\text{vane}} + \frac{\ell_b \, r}{V}$$
 
-with $\ell_b$ the boom length ahead of the centre of gravity. During a coupled departure $q$ and $r$ are large, so the correction is large, and an uncorrected record overstates the excursions. That correction is why the rate gyros matter as much as the vanes. Rate measurement is what the coupling investigation depended on, and the requirement is severe. Resolving a divergence with an e-folding time near 0.8 seconds requires a sample rate satisfying
+with $\ell_b$ the boom length ahead of the centre of gravity. During a coupled departure $q$ and $r$ are large, so the correction is large, and an uncorrected record overstates the excursions. That correction is why the rate gyros matter as much as the vanes. Rate measurement is what the coupling investigation depended on, and the requirement is severe. Uncertainty in any derived quantity propagates as
+
+$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+
+and resolving a divergence with an e-folding time near 0.8 seconds requires a sample rate satisfying
 
 $$f_s > 2 f_{\max}$$
 
@@ -397,7 +507,11 @@ with practical rates several times higher, giving a recorded bit budget of
 
 $$B = N_c f_s b$$
 
-for $N_c$ channels of $b$ bits. Moments of inertia, which the analysis above depends on entirely, are not measured in flight at all. They are established by ground swing tests and by mass accounting, and their uncertainty propagates directly into any coupling prediction through
+for $N_c$ channels of $b$ bits, and the amplitude resolution follows from the converter word length,
+
+$$\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}$$
+
+with $FS$ the full-scale range. A rate gyro recorded to eight bits over a range of two radians per second resolves 0.008 radians per second, which is adequate for the rates of a departure and marginal for the small perturbations that precede one. Moments of inertia, which the analysis above depends on entirely, are not measured in flight at all. They are established by ground swing tests and by mass accounting, and their uncertainty propagates directly into any coupling prediction through
 
 $$\frac{u(p_{\text{crit}})}{p_{\text{crit}}} = \frac{1}{2} \frac{u(I)}{I}$$
 
