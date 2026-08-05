@@ -9,117 +9,76 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: Infrastructure audit, download-pipeline repair, and the follow-up rectifications. All
-complete, deployed, and verified live. One editorial item remains for you.
+**Task**: X-Planes series planned, verified, and documented. Handoff written ahead of your planned
+compaction. No articles drafted.
 
 ---
 
-## Resolved
+## Where Things Stand
 
-**PDF downloads, the significant one.** Every post links a `.pdf` that has never existed. Cause was
-a missing `lmodern` package, which pandoc's default LaTeX template loads. Added it. Separately,
-`_downloads.rb` now **exits nonzero on systemic failure**, meaning a format produced zero outputs
-across all posts. That is the reason this shipped undetected: the script only warned, so CI stayed
-green through roughly 293 dead links. Individual failures still only warn, so one bad post cannot
-block a deploy.
+The series is ready to draft. 72 articles, A297 through A368, back-dated 2025-10-06 to 2025-12-16,
+one per day unbroken, ending flush against the existing corpus. Zero collisions, zero date gaps,
+contiguous numbering, all verified rather than assumed.
 
-**EPUB paths.** `_downloads.rb` reconstructed each permalink from the source **filename** date;
-Jekyll derives it from the front matter date. Nineteen posts diverge, so their EPUB landed where no
-HTML exists. It now **discovers the emitted HTML by globbing the built site**, which removes date
-arithmetic from the problem entirely. Verified: 293 of 294 posts resolve to exactly one HTML file,
-the exception being the forward-dated article legitimately absent from the build.
+Because the series is back-dated, every article publishes immediately on push. It does not depend on
+the daily cron, which has still not fired.
 
-**A latent trap I did not expect to find.** `_config.yml` set no `timezone:`, so permalinks
-depended on the build machine. The `2026-03-06 01:14 +0000` post builds as `/03/06/` on the UTC
-runner and `/03/05/` in Pacific time. **A local URL check was not evidence about production.**
-Pinned `timezone: UTC`, which the runner already uses, so no live URL changes. Verified by
-comparing a local build against the live sitemap: **291 local pages, 291 live, zero differences.**
-
-**Reference integrity, now clean corpus-wide.** Added the missing `[rust_book]` definition to the
-2025-12-17 Solana post, which had been rendering literally as `[The Rust Programming
-Language][rust_book]` on the live site. The four orphan definitions in 2016 posts were initially
-removed and, per your instruction, subsequently restored and cited instead. Zero undefined, zero
-unused.
-
-**Dependency.** `json` 2.19.7 to 2.21.2, clearing the Dependabot advisory. The lockfile diff is
-that one line.
-
-**Documentation.** Recorded that the scratch build strips `jekyll-archives` and skips
-`_downloads.rb`, so category, tag, and download links appear broken in it. A crawl reported 740
-broken targets on that basis alone, all fine in production. I nearly reported those to you as real.
+A fourth genre was needed and now exists. `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` defines the
+research-aircraft hybrid, since neither existing genre fits a vehicle built to answer one question.
+That question behaves as an architectural keystone, so systems are dimensioned against it as in a
+deep-dive, while programme origin, flight-test record, and the Epistemic State come from the essay.
+It defines three article classes with explicit bands, because depth follows the surviving record
+rather than effort.
 
 ---
 
-## Everything Below Was Subsequently Rectified
+## The Correction You Made
 
-The four items that had needed your judgment are done, per your instruction. The orphan links were
-restored and cited rather than deleted, the 171 unsorted definition blocks were sorted block-wise
-so categorised sub-blocks survive, and the four filename dates were corrected to match their front
-matter. `tmp/` was left alone as intentionally gitignored.
+You challenged the assumption that X-plane designations are assigned monotonically, and you were
+right. I had excluded X-76 after reading `designation-systems.net`'s "the next available design
+number is X-69" as a ceiling. It is not. It describes the next unused sequential slot. The DARPA
+release you supplied confirms the Bell Textron X-76 SPRINT and states the number was chosen as a
+deliberate nod to 1776 for the country's 250th anniversary.
 
-**One editorial item remains, and only you can decide it.** A224 was backdated to 2026-02-17 to
-fill what that day's log called the gap between A85 at 02-16 and A86 at 02-18. That reasoning
-trusted A86's misleading filename. A86's real date is 02-17, so the gap never existed and
-2026-02-17 now visibly carries two articles. The genuine remaining gap in that window is
-**2026-03-07**. Moving A224 would change a published URL.
+That mattered beyond one entry. **Seven of the nine anomaly cases surfaced only after I dropped the
+sequential assumption** — the duplicated X-44, the leapfrogged X-69 to X-75 block, and the rest. It
+also reframed the closer, which is now about a designation system that skips numbers to avoid
+collisions, loses them to the parallel XQ- unmanned series, carries reservations never formalised,
+holds a disputed assignment, reuses a number, and jumps for an anniversary.
 
-## Original Judgment Items, For The Record
-
-**1. A post is six days from where its filename says.**
-`_posts/2026-03-12-error_correction_recursion_problem.markdown` carries `date: 2026-03-06`. Jekyll
-uses the front matter, so it is live at **2026-03-06**, not 03-12. Given how deliberately you place
-articles into calendar gaps, this looks like a real editorial slip rather than a rounding artifact.
-Three others differ by one day and are probably harmless: `single-file-elixir-programs` (2016),
-`mission_command_management_style`, and `telemeritocracy`. **I changed none of them**, because
-which date is correct is a content decision, and changing the front matter would change a live URL.
-
-**2. 171 of 294 posts have unsorted link-definition blocks.**
-The style guide requires alphabetical sorting by anchor and the verification script checks it, so
-they technically fail. Sorting them means touching 171 files for **zero rendering change**. I did
-not do it. Worth it only if you want the check to run clean.
-
-**3. I deleted four unused link definitions.**
-`elixir-syslog`, `unix-case-insensitive`, `ion-dtn-users`, `postgresql-install`, all in 2016 posts.
-They were invisible in the rendered output. An unused definition can mean the author meant to cite
-something and never linked it, so if you would rather have kept them as leads, revert that part.
-
-**4. The `json` bump is untested locally.**
-The local bundle is broken by the gem-environment issue, so `bundle lock` resolved cleanly but I
-could not run a build against it. **CI is the first real test.** Watch the next deploy.
+I also withdrew a title I had proposed. Renaming X-42 to "an Upper Stage with an Aircraft Number"
+embedded a conclusion drawn from a disagreement between two unequal sources into a title, where the
+Epistemic State is the right home for that uncertainty. X-41 was renamed to "Common Aero Vehicle",
+which is a genuine correction, since the previous title used a contested description rather than the
+designation's name.
 
 ---
 
-## What I Audited and Found Healthy
+## Two Things Waiting On You
 
-All top-level pages, feeds, sitemap, robots, favicon, manifest, and the Pagefind index return 200.
-Zero broken internal links, zero missing asset references. No duplicate article numbers, no front
-matter defects, complete debug-tag coverage across 294 posts. MathJax flags correct, with all six
-apparent unrendered-math cases proving to be shell variables, Makefile syntax, or a currency
-figure. Category and tag archives live, including `/categories/keleusma/`, which does not hit the
-shadowed-path trap. `draft_summary.md` in sync with all eight drafts. Next article number A295
-matches the highest present. No build artifacts tracked. The four unresolved draft `post_url` tags
-are the documented, expected interlock condition.
+1. **Categories.** I have carried `aerospace history engineering` throughout, but that is my
+   assumption and not your decision. It fixes 72 published URLs and cannot be changed later without
+   dead links, which you have declined to mitigate with redirects. Worth one sentence from you.
+2. **One commit is unpushed**, carrying the genre document the series depends on.
 
-Housekeeping, not a defect: `tmp/` holds roughly fifty scratch files from earlier sessions. It is
-gitignored. I left it alone rather than delete work you may still want.
+---
+
+## A Note on Scale
+
+At parity the series implies roughly 91,000 lines, 4,900 equations, and 20,000 reference definitions,
+against a corpus that today holds 296 articles. That is not an objection, since you have been clear
+that length is what it is, and the verification tooling now exists where it did not before.
+
+But the citation volume is precisely the condition that produced 47 broken citations in the existing
+corpus. Run `_verify_citations.py` per batch rather than at the end.
+
+My recommendation stands that we draft A297 and A298, then stop, so you can judge shape and depth
+before the pattern is set across seventy-two articles.
 
 ---
 
 ## State
 
-Branch `master`, tree clean, everything pushed and deployed.
-
-**The download pipeline is fully repaired and verified live**: `pdf=293 epub=293 skipped=1
-failed=0`, from an initial 293 PDF failures and 19 misplaced EPUBs. A 28-post sample spanning 2016
-to 2026 returns 200 for both formats. Six deploys were needed because LaTeX aborts at the FIRST
-error in a document, so each fix exposed the next defect. Do not read a flat failure count as a
-stalled fix; check whether the ERROR TEXT changed.
-
-Six of the ten root causes were latent defects in the CORPUS, not tooling: `align` nested in
-display delimiters, two double subscripts, two under-declared array column specs, MathJax-only
-macros, and an opening `$` followed by a space. All are invalid LaTeX that MathJax renders
-leniently and that the delimiter-balance check cannot see. The PDF pipeline is the only process
-here that parses the mathematics strictly, so treat it as a math linter and keep it green.
-
-Corpus-wide: zero undefined anchors, zero unused definitions, zero unsorted definition blocks, zero
-filename-versus-front-matter date mismatches, zero broken internal links, zero missing assets.
+Branch `master`, tree clean, one commit unpushed plus the handoff commit. `_verify.py` reports zero
+errors. Recent deploys succeeded. The roster is embedded in `HANDOFF.md` so it survives a clean
+checkout despite living in a gitignored scratch file.
