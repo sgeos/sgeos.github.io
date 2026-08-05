@@ -21,11 +21,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x2.markdown`, A299, editorial date 2025-10-08, series `x_planes` index 3 of 72.
 
-1429 lines, 126 display equations, 343 reference definitions, 16,883 words, all three inside band
-after equation-density and primary-reference reviews. The first added 29 equations across 12 edits.
+1497 lines, 126 display equations, 370 reference definitions, 17,743 words, all three inside band
+after equation-density, primary-reference, and publication reviews. The first added 29 equations across 12 edits.
 The second added 56 NASA and NACA primaries resolved to fixed NTRS identifiers, raising primary
 sources from 42.2 to 52.0 percent of external references and closing four arguments the index did not
-support. Contemporary coverage 31.5 percent.
+support. The publication review then raised contemporary coverage from 25.2 to 33.0 percent with 27
+curated journal articles and corrected a section-order drift. Primary sources 55.6 percent and
+contemporary coverage 33.0 percent are both the highest of the three articles. **Committed and
+pushed, not published.**
 
 The keystone is aerodynamic heating, with the binding constraint being time at temperature rather
 than temperature. Two findings carry the article. Dynamic pressure at the fatal condition was 39.2

@@ -673,6 +673,20 @@ Coupled rotational dynamics is where the contemporary literature is richest, and
 
 The institutional continuation is worth naming, because the X-2 accident belongs to a category that acquired a formal research programme. NASA treats loss of control as a named research area, with directions set out in [NASA 2014][research_loc_directions_2014], precursor analysis in [NASA 2014][research_loc_precursors_2014], subscale flight research in [NASA 2008][research_subscale_upset_2008], propulsion-only control as a backup in [NASA 1997][research_propulsion_backup_1997], and simulator fidelity for upset training in [NASA 2019][research_stall_training_2019]. Reading the 1956 accident against that programme is the clearest available demonstration that the X-2 found something real.
 
+The material side has become quantitative in a way it was not in 1955. Creep rupture life is now predicted rather than tabulated, with mechanistic treatments in [Zhou and Yuan 2024][research_zhou_yuan_2024] and [Zhang and Feng 2024][research_zhang_feng_2024] and a machine-learned correlation in [Wang and Zhao 2024][research_wang_zhao_creep_2024], which is the direct descendant of the Larson-Miller parameter used above. Oxidation is likewise treated as a kinetic problem with engineered protection, as in [Syrtanov and Kashkarov 2022][research_syrtanov_2022] and [Kilicay 2020][research_kilicay_2020], and thermal protection has become a modular design discipline in [Pan and Zhang 2026][research_pan_zhang_2026].
+
+Aerothermoelasticity has acquired the thing the X-2 most conspicuously lacked, which is a scaling theory. [Huang and Friedmann 2019][research_huang_friedmann_2019] derive scaling laws for hypersonic skin panels, so a subscale test can now be designed to represent a full-scale coupled response rather than merely to look like it. That is the formal answer to the similarity failure this article describes, arriving sixty years late. Semianalytical and coupled treatments follow in [Li and Wan 2024][research_li_wan_2024] and [Zhang and Zhao 2026][research_zhang_zhao_2026], and the dynamically scaled flight test technique itself is surveyed by [Kong and Pan 2023][research_kong_pan_2023].
+
+Rotational coupling now has a dedicated parametric literature. [Shen and Huang 2019][research_shen_huang_2019] study the effect of the yaw-to-roll coupling ratio directly, which is the non-dimensional group that governs the divergence derived above, and departure prediction has become a computable rather than an experimental question in [Tu and Yan 2024][research_tu_yan_2024] and [Askari and Cremaschi 2023][research_askari_2023]. The damping derivatives that were too weak to help the X-2 are now computed rather than measured, as [Guo and Ren 2019][research_guo_ren_2019] describe. Control laws carry envelope protection as a design requirement in [Moreira and Gripp 2022][research_moreira_gripp_2022] and [Liang and Lu 2026][research_liang_lu_2026].
+
+The unpowered return has its own guidance literature, with approach and landing for a gliding vehicle treated by [Al-Bakri 2020][research_albakri_2020] and single-segment guidance by [Hameed 2021][research_hameed_2021]. A pilot flying an X-2 to a lake bed by eye was performing unaided what is now a solved control problem.
+
+Escape configuration continues to evolve, and [Sreenivasulu and Saha 2021][research_sreenivasulu_2021] trace that evolution across programmes, which is the appropriate context for the capsule decision this article criticizes.
+
+Combustion instability, which is the mechanism that makes deep throttling hard, is simulated directly in [Xiong and Morgan 2020][research_xiong_morgan_2020] and [Xiong and Liu 2022][research_xiong_liu_2022]. Real-gas and thermochemical nonequilibrium effects, which the X-2 stayed below and the X-15 did not, are computed in [Pan and Cao 2021][research_pan_cao_2021] and [Zeng and Yuan 2023][research_zeng_yuan_2023].
+
+Measurement has advanced on exactly the two fronts this article identified as limiting. Thermocouple attachment and its effect on the indicated temperature is studied by [Yang and Yu 2020][research_yang_yu_2020], transient distribution measurement by [Ji and Duan 2021][research_ji_duan_2021], and high-temperature strain gauging, which is the problem that defeated instrumentation on hot structures for decades, by [Wang and Zong 2025][research_wang_zong_2025]. The uncertainty framework that ties it together is compared across standards by [Zhao and Zhang 2025][research_zhao_zhang_2025].
+
 Supersonic configuration design continues in [Duan and Wan 2026][research_duan_wan_2026], [Takovitskii 2023][research_takovitskii_2023], and [Samputh and Moey 2024][research_samputh_moey_2024], and the civil supersonic question that the whole lineage opened is being reopened, as [Ross 2021][research_ross_2021] reports. Envelope expansion still proceeds by increments, as [Deepa and Gupta 2023][research_deepa_gupta_2023] describe, and structural load sensing has moved to fibre optics as in [NASA 2018][research_fiber_optic_loads_2018].
 
 ## Where the Framing Breaks Down
@@ -686,6 +700,16 @@ The programme took ten years and delivered into a community already working on t
 The instrument model treats the aircraft as the unit of analysis, and for the X-2 the more informative unit may be the accident. What propagated through the community was not a data set but an event, and events propagate differently from reports. That is uncomfortable for a framework built on information economics and it should be said plainly.
 
 The safety record resists the framing entirely. Two aircraft, two pilots, and a carrier crewman lost across roughly twenty powered flights is not a rate any information-value calculation would endorse, and the attrition sizing used elsewhere in this series would have predicted a fleet larger than two. The programme continued after the first loss with a single remaining airframe and no replacement, which is a decision the framework has nothing to say about. [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Sagan 1993][book_sagan_1993], and [Reason 1990][book_reason_1990_human_error] are the appropriate correctives.
+
+## The Source Base
+
+The primary technical record is thinner than the X-1's and the reason is institutional. The X-2 was an Air Force programme with NACA participation rather than a NACA-led effort, more of its documentation was originally classified, and the programme ended abruptly with the loss of the only remaining aircraft, so there was no consolidation phase. [NASA 1959][research_x2_mach32_1959] is the substantial public technical account and the glide and landing reports of [NACA 1952][research_x2_first_landing_1952] and [NACA 1953][research_x2_glide_1953] cover the early phase. Beyond that the aircraft appears mostly in comparative summaries such as [NASA 1959][research_transonic_summary_1959] and [NASA 1995][research_supersonic_research_1995].
+
+The secondary literature is correspondingly thin and uneven. [Miller 2001][book_miller_2001_x_planes], [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003], [Winchester 2005][book_winchester_2005_x_planes], and [Peebles 2014][book_peebles_2014_probing_the_sky] give the roster treatment. [Hallion 1972][book_hallion_1972_supersonic_flight], [Hallion 1981][book_hallion_1981_on_the_frontier], and [Hallion 1981][book_hallion_1981_test_pilots] give the programme and pilot context, with the institutional account in [Gorn 2001][book_gorn_2001_expanding_envelope] and [Bilstein 1989][book_bilstein_1989_orders]. [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] is the standard history of the thermal problem the aircraft was built for and is the single best companion to this article. [Gunston 1992][book_gunston_1992_faster_than_sound] and [Wolfe 1979][book_wolfe_1979_right_stuff] supply the popular framing, the latter to be read as literature. The X-15 works of [Jenkins 2007][book_jenkins_2007_x15], [Jenkins 2000][book_jenkins_2000_hypersonics], and [Thompson 1992][book_thompson_1992_edge_of_space] are where the X-2's inheritance is visible, and [Launius and Jenkins 2012][book_launius_jenkins_2012] extends the thermal lineage to entry vehicles.
+
+The engineering texts behind the relations are [Anderson 2001][book_anderson_2001_fundamentals], [Anderson 2002][book_anderson_2002_modern_compressible], [Anderson 2006][book_anderson_2006_hypersonic], [Anderson 2012][book_anderson_2012_aircraft_performance], [Anderson 1997][book_anderson_1997_history_aerodynamics], [Bertin 1994][book_bertin_1994_hypersonic], [Bertin and Cummings 2013][book_bertin_cummings_2013], [Truitt 1960][book_truitt_1960], [Shapiro 1953][book_shapiro_1953], [Liepmann and Roshko 1957][book_liepmann_roshko_1957], [Ashley and Landahl 1965][book_ashley_landahl_1965], [Kuchemann 1978][book_kuchemann_1978], [Schlichting and Gersten 2017][book_schlichting_gersten_2017], and [White 2006][book_white_2006_viscous], with heat transfer in [Incropera and DeWitt][book_incropera_heat_transfer]. Flight dynamics is [Etkin and Reid 1996][book_etkin_reid_1996], [Nelson 1998][book_nelson_1998], [Stengel 2004][book_stengel_2004], [Stevens and Lewis 2015][book_stevens_lewis_2015], [McRuer Ashkenas and Graham 1973][book_mcruer_ashkenas_graham_1973], and [Hurt 1965][book_hurt_1965], with the design methods in [Raymer 2018][book_raymer_2018], [Nicolai and Carichner 2010][book_nicolai_carichner_2010], and [Whitford 1987][book_whitford_1987]. Structures are [Bruhn 1973][book_bruhn_1973], [Niu 1988][book_niu_1988_airframe], and [Megson 2016][book_megson_2016], aeroelasticity is [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955], [Fung 1955][book_fung_1955], and [Dowell 2014][book_dowell_2014], and propulsion is [Sutton and Biblarz 2016][book_sutton_biblarz_2016], [Huzel and Huang 1992][book_huzel_huang_1992], and [Hill and Peterson 1991][book_hill_peterson_1991]. Flight test practice is [Kimberlin 2003][book_kimberlin_2003] and [Ward Strganac and Niewoehner 2006][book_ward_strganac_niewoehner_2006]. The epistemology is [Vincenti 1990][book_vincenti_1990], [Petroski 1985][book_petroski_1985], and [Ferguson 1992][book_ferguson_1992], the information accounting is [Cover and Thomas 2006][book_cover_thomas_2006] with experimental design in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005], [Gelman et al 2013][book_gelman_et_al_2013], [Lindley 1956][research_lindley_1956], and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995], and the sampling and channel results are [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948]. Tunnel history is [Baals and Corliss 1981][book_baals_corliss_1981], [Hansen 1987][book_hansen_1987_engineer_in_charge], and [Chambers and Chambers 2008][book_chambers_2008_radical_wings].
+
+Four further primary sources bear on the arguments above without belonging to any one section. [Williams and Drake][research_williams_drake_1948] state the rationale for dedicated research aircraft. [Buckingham 1914][research_buckingham_1914] fixes how many dimensionless groups a scale test must match, which is the formal reason a static model cannot represent an inertia-coupling problem. [Sutherland 1893][research_sutherland_1893] supplies the viscosity relation behind every Reynolds number quoted here. [Collar 1946][research_collar_1946], [Theodorsen 1935][research_theodorsen_1935], [Garrick and Reed 1981][research_garrick_reed_1981], and the [NACA 1957 loads and flutter conference][research_loads_flutter_conf_1957] bound the aeroelastic problem that a hot thin structure makes worse, and [Stubblefield and Kunz 2025][research_stubblefield_kunz_2025] show the modern measurement of it. The wider drag and heating context appears in [Sears 1947][research_sears_1947], [Glauert 1928][research_glauert_1928], [Prandtl 1928][research_prandtl_1928], [Whitcomb][research_whitcomb_1952], [Eckert 1956][research_eckert_1956], [Chapman and Rubesin 1949][research_chapman_rubesin_1949], [Nonweiler 1959][research_nonweiler_1959], [NACA 1940][research_heating_ice_1940] on the earliest recognition that aerodynamic heating is measurable at all, [NASA 2022][research_sbli_experiments_2022], [NASA 2016][research_blt_shuttle_2016], and [NACA 1953][research_x1_liftdrag_1953]. Programme cost behaviour at these quantities follows [Wright 1936][research_wright_1936], the drag-measurement technique is [Beeler Bellman and Saltzman 1956][research_beeler_1956], the pitch-up thread that shares the same stability lineage is [NACA 1955][research_pitchup_evaluation_1955] and [NASA 1960][research_pitchup_control_1960], the sibling X-5 work is [NACA 1953][research_x5_stability_1953] and [NACA 1955][research_x5_tail_loads_1955], the roll-coupling analysis extends through [NASA 1977][research_nonconstant_cma_1977] and [NASA 1972][research_lift_roll_coupling_1972], the high-altitude context is [NACA 1957][research_high_altitude_1957], and Reynolds-number effects on supersonic transport stability are [NASA 2002][research_reynolds_sst_2002]. Machine learning has since entered the modelling of all of it, as [Brunton and Noack 2020][research_brunton_noack_2020] survey. The equivalent problems at model scale are worked on this blog in [A118][related_post_a118_propulsion_sizing], [A122][related_post_a122_stability_configuration], [A123][related_post_a123_dynamic_stability], and [A127][related_post_a127_structures_flight_envelope], the rocketplane lineage in [A96][related_post_a96_history_rocketplanes], large high-speed configurations in [A106][related_post_a106_two_stage_delta_wing], the computing and simulation infrastructure in [A237][related_post_a237_aerospace_framing] and [A241][related_post_a241_aerospace_simulation], and the space policy context in [A90][related_post_a90_intro_space_studies].
 
 ## Epistemic State
 
@@ -706,16 +730,6 @@ A note on temporal position. This article carries an editorial date of 2025-10-0
 This article does not treat the X-1 series beyond the comparisons drawn, which are covered in [A298][related_post_a298_bell_x1], nor the [X-15][ref_na_x15], which receives its own article later in the series and where the thermal problem is taken far further. It does not cover the Navy research airplanes, the [X-3][ref_douglas_x3], the [X-4][ref_northrop_x4], or the [X-5][ref_bell_x5] except as context, and the last two appear in their own articles. It does not derive the standard relations reused here, since the [series opener][related_post_a297_xplanes_framing] does that once for all seventy-two articles, including the [flight envelope][ref_flight_envelope], [load factor][ref_load_factor], [wing loading][ref_wing_loading], [lift][ref_lift_coefficient] and [drag][ref_drag_coefficient] coefficient, [lift-to-drag][ref_lift_to_drag], [Reynolds number][ref_reynolds_number], and [measurement uncertainty][ref_measurement_uncertainty] and [propagation][ref_propagation_of_uncertainty] machinery, and the [standard atmosphere][ref_isa] and its [tabulated form][ref_us_standard_atmosphere].
 
 It does not attempt an accident investigation. The primary report exists and this article defers to it rather than reconstructing the sequence from secondary narrative. It does not treat the biographies of [Apt][ref_mel_apt], [Kincheloe][ref_everest], or [Everest][ref_kincheloe] beyond what bears on the engineering, and the book-length account of the period by [Everest 1958][book_everest_1958_fastest_man] is a participant source to be read as such. It does not survey the [list of X-planes][ref_list_of_x_planes] or [experimental aircraft][ref_experimental_aircraft] generally, nor [Edwards][ref_edwards_afb] and the [Armstrong Flight Research Center][ref_armstrong_frc] and its [predecessor organizations][ref_nasa_armstrong] as institutions, nor the [National Museum of the United States Air Force][ref_nmusaf] holdings, nor the [sound barrier][ref_sound_barrier] as a cultural object, nor [hypersonic flight][ref_hypersonic_flight] and the [oblique shock][ref_oblique_shock], [shock wave][ref_shock_wave], [wave drag][ref_wave_drag], [flow separation][ref_flow_separation], [supersonic][ref_supersonic_speed] and [turbopump][ref_turbopump] topics beyond the sizing above, nor [Inconel][ref_inconel], [duralumin][ref_duralumin], [yield][ref_yield_strength], [liquid oxygen][ref_liquid_oxygen], the [rocket engine][ref_rocket_engine], [stabilators][ref_stabilator], the [escape crew capsule][ref_escape_crew_capsule] as a general subject, [Dutch roll][ref_dutch_roll] and the [phugoid][ref_phugoid], [flight dynamics][ref_flight_dynamics] and [longitudinal static stability][ref_longitudinal_static_stability] in general, [wind tunnels][ref_wind_tunnel], [flight testing][ref_flight_test], the [NACA][ref_naca] and [NASA][ref_nasa] as organizations, or the [NASA fact sheet][ref_nasa_x2_factsheet] beyond what is cited. The [NASA Technical Reports Server][ref_ntrs] and the [NASA History Office][ref_nasa_history] hold the record.
-
-## The Source Base
-
-The primary technical record is thinner than the X-1's and the reason is institutional. The X-2 was an Air Force programme with NACA participation rather than a NACA-led effort, more of its documentation was originally classified, and the programme ended abruptly with the loss of the only remaining aircraft, so there was no consolidation phase. [NASA 1959][research_x2_mach32_1959] is the substantial public technical account and the glide and landing reports of [NACA 1952][research_x2_first_landing_1952] and [NACA 1953][research_x2_glide_1953] cover the early phase. Beyond that the aircraft appears mostly in comparative summaries such as [NASA 1959][research_transonic_summary_1959] and [NASA 1995][research_supersonic_research_1995].
-
-The secondary literature is correspondingly thin and uneven. [Miller 2001][book_miller_2001_x_planes], [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003], [Winchester 2005][book_winchester_2005_x_planes], and [Peebles 2014][book_peebles_2014_probing_the_sky] give the roster treatment. [Hallion 1972][book_hallion_1972_supersonic_flight], [Hallion 1981][book_hallion_1981_on_the_frontier], and [Hallion 1981][book_hallion_1981_test_pilots] give the programme and pilot context, with the institutional account in [Gorn 2001][book_gorn_2001_expanding_envelope] and [Bilstein 1989][book_bilstein_1989_orders]. [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] is the standard history of the thermal problem the aircraft was built for and is the single best companion to this article. [Gunston 1992][book_gunston_1992_faster_than_sound] and [Wolfe 1979][book_wolfe_1979_right_stuff] supply the popular framing, the latter to be read as literature. The X-15 works of [Jenkins 2007][book_jenkins_2007_x15], [Jenkins 2000][book_jenkins_2000_hypersonics], and [Thompson 1992][book_thompson_1992_edge_of_space] are where the X-2's inheritance is visible, and [Launius and Jenkins 2012][book_launius_jenkins_2012] extends the thermal lineage to entry vehicles.
-
-The engineering texts behind the relations are [Anderson 2001][book_anderson_2001_fundamentals], [Anderson 2002][book_anderson_2002_modern_compressible], [Anderson 2006][book_anderson_2006_hypersonic], [Anderson 2012][book_anderson_2012_aircraft_performance], [Anderson 1997][book_anderson_1997_history_aerodynamics], [Bertin 1994][book_bertin_1994_hypersonic], [Bertin and Cummings 2013][book_bertin_cummings_2013], [Truitt 1960][book_truitt_1960], [Shapiro 1953][book_shapiro_1953], [Liepmann and Roshko 1957][book_liepmann_roshko_1957], [Ashley and Landahl 1965][book_ashley_landahl_1965], [Kuchemann 1978][book_kuchemann_1978], [Schlichting and Gersten 2017][book_schlichting_gersten_2017], and [White 2006][book_white_2006_viscous], with heat transfer in [Incropera and DeWitt][book_incropera_heat_transfer]. Flight dynamics is [Etkin and Reid 1996][book_etkin_reid_1996], [Nelson 1998][book_nelson_1998], [Stengel 2004][book_stengel_2004], [Stevens and Lewis 2015][book_stevens_lewis_2015], [McRuer Ashkenas and Graham 1973][book_mcruer_ashkenas_graham_1973], and [Hurt 1965][book_hurt_1965], with the design methods in [Raymer 2018][book_raymer_2018], [Nicolai and Carichner 2010][book_nicolai_carichner_2010], and [Whitford 1987][book_whitford_1987]. Structures are [Bruhn 1973][book_bruhn_1973], [Niu 1988][book_niu_1988_airframe], and [Megson 2016][book_megson_2016], aeroelasticity is [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955], [Fung 1955][book_fung_1955], and [Dowell 2014][book_dowell_2014], and propulsion is [Sutton and Biblarz 2016][book_sutton_biblarz_2016], [Huzel and Huang 1992][book_huzel_huang_1992], and [Hill and Peterson 1991][book_hill_peterson_1991]. Flight test practice is [Kimberlin 2003][book_kimberlin_2003] and [Ward Strganac and Niewoehner 2006][book_ward_strganac_niewoehner_2006]. The epistemology is [Vincenti 1990][book_vincenti_1990], [Petroski 1985][book_petroski_1985], and [Ferguson 1992][book_ferguson_1992], the information accounting is [Cover and Thomas 2006][book_cover_thomas_2006] with experimental design in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005], [Gelman et al 2013][book_gelman_et_al_2013], [Lindley 1956][research_lindley_1956], and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995], and the sampling and channel results are [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948]. Tunnel history is [Baals and Corliss 1981][book_baals_corliss_1981], [Hansen 1987][book_hansen_1987_engineer_in_charge], and [Chambers and Chambers 2008][book_chambers_2008_radical_wings].
-
-Four further primary sources bear on the arguments above without belonging to any one section. [Williams and Drake][research_williams_drake_1948] state the rationale for dedicated research aircraft. [Buckingham 1914][research_buckingham_1914] fixes how many dimensionless groups a scale test must match, which is the formal reason a static model cannot represent an inertia-coupling problem. [Sutherland 1893][research_sutherland_1893] supplies the viscosity relation behind every Reynolds number quoted here. [Collar 1946][research_collar_1946], [Theodorsen 1935][research_theodorsen_1935], [Garrick and Reed 1981][research_garrick_reed_1981], and the [NACA 1957 loads and flutter conference][research_loads_flutter_conf_1957] bound the aeroelastic problem that a hot thin structure makes worse, and [Stubblefield and Kunz 2025][research_stubblefield_kunz_2025] show the modern measurement of it. The wider drag and heating context appears in [Sears 1947][research_sears_1947], [Glauert 1928][research_glauert_1928], [Prandtl 1928][research_prandtl_1928], [Whitcomb][research_whitcomb_1952], [Eckert 1956][research_eckert_1956], [Chapman and Rubesin 1949][research_chapman_rubesin_1949], [Nonweiler 1959][research_nonweiler_1959], [NACA 1940][research_heating_ice_1940] on the earliest recognition that aerodynamic heating is measurable at all, [NASA 2022][research_sbli_experiments_2022], [NASA 2016][research_blt_shuttle_2016], and [NACA 1953][research_x1_liftdrag_1953]. Programme cost behaviour at these quantities follows [Wright 1936][research_wright_1936], the drag-measurement technique is [Beeler Bellman and Saltzman 1956][research_beeler_1956], the pitch-up thread that shares the same stability lineage is [NACA 1955][research_pitchup_evaluation_1955] and [NASA 1960][research_pitchup_control_1960], the sibling X-5 work is [NACA 1953][research_x5_stability_1953] and [NACA 1955][research_x5_tail_loads_1955], the roll-coupling analysis extends through [NASA 1977][research_nonconstant_cma_1977] and [NASA 1972][research_lift_roll_coupling_1972], the high-altitude context is [NACA 1957][research_high_altitude_1957], and Reynolds-number effects on supersonic transport stability are [NASA 2002][research_reynolds_sst_2002]. Machine learning has since entered the modelling of all of it, as [Brunton and Noack 2020][research_brunton_noack_2020] survey. The equivalent problems at model scale are worked on this blog in [A118][related_post_a118_propulsion_sizing], [A122][related_post_a122_stability_configuration], [A123][related_post_a123_dynamic_stability], and [A127][related_post_a127_structures_flight_envelope], the rocketplane lineage in [A96][related_post_a96_history_rocketplanes], large high-speed configurations in [A106][related_post_a106_two_stage_delta_wing], the computing and simulation infrastructure in [A237][related_post_a237_aerospace_framing] and [A241][related_post_a241_aerospace_simulation], and the space policy context in [A90][related_post_a90_intro_space_studies].
 
 ## Conclusion
 
@@ -901,8 +915,10 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 ### Research
 
 - [Ackeret 1925 Air Forces on Airfoils Moving Faster Than Sound][research_ackeret_1925]
+- [Al-Bakri 2020 Approach and Landing Guidance for an Unpowered Gliding Vehicle][research_albakri_2020]
 - [Altunkaya and Catak 2025 Loss-of-Control Prevention of an Agile Aircraft][research_altunkaya_2025]
 - [Aronov and Klyagin 2021 On Thermal Protection System Optimization Criteria Selection][research_aronov_klyagin_2021]
+- [Askari and Cremaschi 2023 Simulation-Based Prediction of Departure Performance][research_askari_2023]
 - [Bai and Cao 2022 Thermal-Aero-Elastic Analysis of a Typical All-Moving Control Surface][research_bai_cao_2022]
 - [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
 - [Brunton and Noack 2020 Machine Learning for Fluid Mechanics][research_brunton_noack_2020]
@@ -922,16 +938,25 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
 - [Goud and Dwivedi 2022 Effect of Twin Vertical Stabilizers on Lateral-Directional Stability][research_goud_dwivedi_2022]
 - [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
+- [Guo and Ren 2019 The Computation of the Pitch Damping Stability Derivative][research_guo_ren_2019]
+- [Hameed 2021 Single-Segment Approach and Landing Guidance and Control][research_hameed_2021]
 - [Hu and Mahadevan 2019 Reliability Analysis of a Hypersonic Vehicle Panel][research_hu_mahadevan_2019]
+- [Huang and Friedmann 2019 Aerothermoelastic Scaling Laws for Hypersonic Skin Panels][research_huang_friedmann_2019]
 - [Jeon and Park 2023 Development of a Numerical Method for Regenerative Cooling Analysis][research_jeon_park_2023]
+- [Ji and Duan 2021 Transient Measurement of Temperature Distribution][research_ji_duan_2021]
 - [Ji and Xie 2022 Reduced Order Model Based on Proper Orthogonal Decomposition for Aerothermoelastic Analysis][research_ji_xie_2022]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
 - [Jurado and McGehee 2019 Complete Online Algorithm for Air Data System Calibration][research_jurado_mcgehee_2019]
+- [Kilicay 2020 Development of a Protective Metal Matrix Composite Coating for High Temperature Service][research_kilicay_2020]
+- [Kong and Pan 2023 Research on Key Technologies of Scaled Model Flight Testing][research_kong_pan_2023]
 - [Lang and Wang 2025 Prescribed Performance-Based Envelope Protection Control][research_lang_wang_2025]
 - [Lees 1956 Laminar Heat Transfer over Blunt-Nosed Bodies at Hypersonic Flight Speeds][research_lees_1956]
 - [Li and Li 2025 Event-Triggered Formation Control for High-Speed Flight Vehicles][research_li_li_2025]
+- [Li and Wan 2024 Semianalytical Research on Aerothermoelastic Behaviour][research_li_wan_2024]
+- [Liang and Lu 2026 Robust Switching Control for Supersonic Civil Aircraft][research_liang_lu_2026]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
 - [Martin and Panesi 2022 Radiative Transmission and Absorption Within the Thermal Protection System][research_martin_panesi_2022]
+- [Moreira and Gripp 2022 Longitudinal Flight Control Law Design with Integrated Protection][research_moreira_gripp_2022]
 - [NACA 1940 The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers][research_heating_ice_1940]
 - [NACA 1943 The Effect of Artificial Aging on the Tensile Properties of Alclad Aluminium][research_alclad_aging_1943]
 - [NACA 1948 Investigation of Two Pitot-Static Tubes at Supersonic Speeds][research_pitot_supersonic_1948]
@@ -1043,6 +1068,8 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Nie and Song 2022 A Surrogate-Based Transition Prediction Method for Compressible Boundary Layers][research_nie_song_2022]
 - [Nonweiler 1959 Aerodynamic Problems of Manned Space Vehicles][research_nonweiler_1959]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
+- [Pan and Cao 2021 Numerical Simulation of Hypersonic Flow with High-Temperature Effects][research_pan_cao_2021]
+- [Pan and Zhang 2026 Thermal Protection Modular Design for High-Speed Aircraft][research_pan_zhang_2026]
 - [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
 - [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Prata and Schwartzentruber 2022 Air-Carbon Ablation Model for Hypersonic Flight][research_prata_2022]
@@ -1051,22 +1078,36 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Sears 1947 On Projectiles of Minimum Wave Drag][research_sears_1947]
 - [Shams and Khouli 2026 Aircraft and Pilot Coupling, a Parametric Study Using Multibody Dynamics][research_shams_khouli_2026]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Shen and Huang 2019 Effects of the Yaw-to-Roll Coupling Ratio on Lateral-Directional Behaviour][research_shen_huang_2019]
+- [Sreenivasulu and Saha 2021 Evolution of Crew Escape System Configuration][research_sreenivasulu_2021]
 - [Stubblefield and Kunz 2025 Visualization and Measurement of Shock Movement During Transonic Flutter][research_stubblefield_kunz_2025]
 - [Su and Hwu 2021 Transient Thermal Stress Analysis of Temperature-Dependent Materials][research_su_hwu_2021]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
+- [Syrtanov and Kashkarov 2022 High-Temperature Oxidation of a Zirconium Alloy][research_syrtanov_2022]
 - [Takahashi and Hirotani 2026 Flush Air-Data Sensing System for a Hypersonic Flight Experiment][research_takahashi_2026_airdata]
 - [Takovitskii 2023 Direct Method of Aerodynamic Shape Optimization for Supersonic Flight][research_takovitskii_2023]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Tian and Zhang 2023 Structure and High-Temperature Oxidation Performance of Protective Coatings][research_tian_zhang_2023]
+- [Tu and Yan 2024 Prediction of Aircraft Departure and Spin Characteristics][research_tu_yan_2024]
 - [Vernacchia and Mathesius 2022 Low-Thrust Solid Rocket Motors for Small Fast Aircraft Propulsion][research_vernacchia_2022]
+- [Wang and Zhao 2024 A Simple Formula Learned via Machine Learning for Creep Rupture Life][research_wang_zhao_creep_2024]
+- [Wang and Zong 2025 High-Temperature Strain Gauge Measurement Techniques][research_wang_zong_2025]
 - [Weiss and Staudacher 2022 Uncertainty Quantification for Full-Flight Data Based Performance Analysis][research_weiss_staudacher_2022]
 - [Whitcomb, A Study of the Zero-Lift Drag-Rise Characteristics of Wing-Body Combinations][research_whitcomb_1952]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
 - [Xie and Cai 2023 Certification-Constrained Vertical Tail Sizing][research_xie_cai_2023]
+- [Xiong and Liu 2022 Combustion Simulation of a Multi-Injector Rocket Engine][research_xiong_liu_2022]
+- [Xiong and Morgan 2020 Nonlinear Combustion Instability in a Multi-Injector Rocket Engine][research_xiong_morgan_2020]
 - [Xu and Yue 2019 Study on the Chaotic Dynamics in Yaw, Pitch, and Roll Coupling][research_xu_yue_2019]
+- [Yang and Yu 2020 Influence of Thermocouple Welding on Measured Temperature][research_yang_yu_2020]
 - [Yildirim and Yarimpabuc 2020 Transient Thermal Stress Analysis of Functionally Graded Structures][research_yildirim_2020]
 - [Yildiz and Akcal 2019 Switching Control Architecture with Parametric Optimization][research_yildiz_akcal_2019]
+- [Zeng and Yuan 2023 Numerical Simulation of Hypersonic Thermochemical Nonequilibrium Flow][research_zeng_yuan_2023]
+- [Zhang and Feng 2024 Investigation of Multiaxial Creep Rupture Mechanisms][research_zhang_feng_2024]
+- [Zhang and Zhao 2026 Numerical Study on Flow-Field Characteristics and Coupled Response][research_zhang_zhao_2026]
+- [Zhao and Zhang 2025 Comparison of Uncertainty Evaluation Methods in Measurement][research_zhao_zhang_2025]
+- [Zhou and Yuan 2024 Creep Rupture Life Prediction of High-Temperature Titanium Alloys][research_zhou_yuan_2024]
 - [Zubair and Ejaz 2022 Oxidation Resistant Nickel Aluminide Coating on Niobium][research_zubair_ejaz_2022]
 
 ### Related Post
@@ -1261,10 +1302,12 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
 [research_airspeed_calibration_1950]: https://ntrs.nasa.gov/citations/19930090286
+[research_albakri_2020]: https://doi.org/10.2514/1.g004934
 [research_alclad_aging_1943]: https://ntrs.nasa.gov/citations/19930093377
 [research_altunkaya_2025]: https://doi.org/10.2514/1.g008188
 [research_aronov_klyagin_2021]: https://doi.org/10.34759/tpt-2021-13-10-456-466
 [research_artificial_pitch_damping_1959]: https://ntrs.nasa.gov/citations/19980228212
+[research_askari_2023]: https://doi.org/10.3390/aerospace10060513
 [research_asymmetric_sweep_flutter_1976]: https://ntrs.nasa.gov/citations/19760014076
 [research_bai_cao_2022]: https://doi.org/10.1016/j.tsep.2022.101297
 [research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
@@ -1311,6 +1354,8 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
 [research_goud_dwivedi_2022]: https://doi.org/10.47893/gret.2022.1057
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
+[research_guo_ren_2019]: https://doi.org/10.1186/s42774-019-0018-3
+[research_hameed_2021]: https://doi.org/10.1016/j.ast.2021.106777
 [research_heat_transfer_mach146_1958]: https://ntrs.nasa.gov/citations/19930089952
 [research_heated_plate_modes_1991]: https://ntrs.nasa.gov/citations/19910012798
 [research_heating_ice_1940]: https://ntrs.nasa.gov/citations/20090014120
@@ -1319,19 +1364,25 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_hot_structure_vibration_1993]: https://ntrs.nasa.gov/citations/19940032137
 [research_hsfrs_rcs_2015]: https://ntrs.nasa.gov/citations/20160000534
 [research_hu_mahadevan_2019]: https://doi.org/10.2514/1.j057865
+[research_huang_friedmann_2019]: https://doi.org/10.2514/1.j057499
 [research_hypersonic_heating_survey_1981]: https://ntrs.nasa.gov/citations/19810054730
 [research_hypersonic_research_structure_1976]: https://ntrs.nasa.gov/citations/19760062425
 [research_hypersonic_wing_structure_1975]: https://ntrs.nasa.gov/citations/19750048598
 [research_injector_throttling_2006]: https://ntrs.nasa.gov/citations/20060047749
 [research_jeon_park_2023]: https://doi.org/10.6108/kspe.2023.27.6.009
+[research_ji_duan_2021]: https://doi.org/10.1109/jsen.2020.3015383
 [research_ji_xie_2022]: https://doi.org/10.32604/icces.2022.08737
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
 [research_jurado_mcgehee_2019]: https://doi.org/10.2514/1.c034964
+[research_kilicay_2020]: https://doi.org/10.1016/j.surfcoat.2020.125777
+[research_kong_pan_2023]: https://doi.org/10.1088/1742-6596/2658/1/012047
 [research_lang_wang_2025]: https://doi.org/10.1109/taes.2025.3571683
 [research_ldsd_ballute_2015]: https://ntrs.nasa.gov/citations/20170008183
 [research_ldsd_dynamics_2015]: https://ntrs.nasa.gov/citations/20150009475
 [research_lees_1956]: https://doi.org/10.2514/8.6977
 [research_li_li_2025]: https://doi.org/10.1109/taes.2025.3596214
+[research_li_wan_2024]: https://doi.org/10.3390/aerospace11070572
+[research_liang_lu_2026]: https://doi.org/10.1360/ssi-2025-0330
 [research_lift_roll_coupling_1972]: https://ntrs.nasa.gov/citations/19720020370
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
 [research_loads_calibration_1977]: https://ntrs.nasa.gov/citations/20020086520
@@ -1341,6 +1392,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_low_disturbance_tunnels_1990]: https://ntrs.nasa.gov/citations/19900050881
 [research_martin_panesi_2022]: https://doi.org/10.2514/1.a35029
 [research_monel_k500_1989]: https://ntrs.nasa.gov/citations/19910032246
+[research_moreira_gripp_2022]: https://doi.org/10.2514/1.g006443
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
 [research_nguyen_lowenberg_2021]: https://doi.org/10.2514/1.g005197
 [research_nie_song_2022]: https://doi.org/10.2514/1.c036377
@@ -1350,6 +1402,8 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
 [research_oblique_wing_divergence_1973]: https://ntrs.nasa.gov/citations/19730009309
 [research_oxidation_ignition_1956]: https://ntrs.nasa.gov/citations/19930093830
+[research_pan_cao_2021]: https://doi.org/10.1088/1742-6596/2012/1/012100
+[research_pan_zhang_2026]: https://doi.org/10.3390/en19071616
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
 [research_pitchup_control_1960]: https://ntrs.nasa.gov/citations/19980227095
 [research_pitchup_evaluation_1955]: https://ntrs.nasa.gov/citations/19930092243
@@ -1373,8 +1427,10 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_sears_1947]: https://doi.org/10.1090/qam/20394
 [research_shams_khouli_2026]: https://doi.org/10.1115/1.4071374
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+[research_shen_huang_2019]: https://doi.org/10.1016/j.cja.2019.04.007
 [research_skin_temp_freeflight_1961]: https://ntrs.nasa.gov/citations/20040047118
 [research_spin_tunnel_1960]: https://ntrs.nasa.gov/citations/19980223580
+[research_sreenivasulu_2021]: https://doi.org/10.18520/cs/v120/i1/96-104
 [research_stainless_rapid_heat_1961]: https://ntrs.nasa.gov/citations/20040006332
 [research_stall_training_2019]: https://ntrs.nasa.gov/citations/20200002681
 [research_stubblefield_kunz_2025]: https://doi.org/10.1016/j.jfluidstructs.2025.104278
@@ -1384,6 +1440,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_supersonic_research_1995]: https://ntrs.nasa.gov/citations/19960016997
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
 [research_sweep_tail_height_1958]: https://ntrs.nasa.gov/citations/19980232008
+[research_syrtanov_2022]: https://doi.org/10.1016/j.surfcoat.2022.128459
 [research_takahashi_2026_airdata]: https://doi.org/10.2514/1.j065479
 [research_takovitskii_2023]: https://doi.org/10.61653/joast.v61i1.2009.632
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
@@ -1397,9 +1454,12 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_transient_surface_temp_2000]: https://ntrs.nasa.gov/citations/20010002830
 [research_transition_flight_1958]: https://ntrs.nasa.gov/citations/19630008170
 [research_transonic_summary_1959]: https://ntrs.nasa.gov/citations/19980228028
+[research_tu_yan_2024]: https://doi.org/10.1007/s42405-024-00735-3
 [research_turbopump_ignition_1986]: https://ntrs.nasa.gov/citations/19890006633
 [research_vernacchia_2022]: https://doi.org/10.2514/1.b38104
 [research_vtail_interference_1956]: https://ntrs.nasa.gov/citations/19660010448
+[research_wang_zhao_creep_2024]: https://doi.org/10.20517/jmi.2024.33
+[research_wang_zong_2025]: https://doi.org/10.3390/ma18071588
 [research_weiss_staudacher_2022]: https://doi.org/10.3390/machines10100846
 [research_whitcomb_1952]: https://ntrs.nasa.gov/citations/19930092271
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
@@ -1422,8 +1482,16 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [research_x5_tail_loads_1955]: https://ntrs.nasa.gov/citations/19930088802
 [research_xb70_stability_1973]: https://ntrs.nasa.gov/citations/19730023226
 [research_xie_cai_2023]: https://doi.org/10.2514/1.c037239
+[research_xiong_liu_2022]: https://doi.org/10.2514/1.j061255
+[research_xiong_morgan_2020]: https://doi.org/10.2514/1.j058036
 [research_xu_yue_2019]: https://doi.org/10.1007/s11071-019-05159-3
+[research_yang_yu_2020]: https://doi.org/10.1360/sst-2019-0284
 [research_yf12_strain_gauges_1979]: https://ntrs.nasa.gov/citations/19790042387
 [research_yildirim_2020]: https://doi.org/10.1080/01495739.2020.1770644
 [research_yildiz_akcal_2019]: https://doi.org/10.2514/1.g004180
+[research_zeng_yuan_2023]: https://doi.org/10.1016/j.cja.2022.09.013
+[research_zhang_feng_2024]: https://doi.org/10.32604/icces.2024.012317
+[research_zhang_zhao_2026]: https://doi.org/10.1016/j.actaastro.2026.03.051
+[research_zhao_zhang_2025]: https://doi.org/10.3390/s25051633
+[research_zhou_yuan_2024]: https://doi.org/10.1016/j.jmst.2023.08.046
 [research_zubair_ejaz_2022]: https://doi.org/10.4028/p-g44bm8
