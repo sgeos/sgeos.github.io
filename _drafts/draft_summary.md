@@ -21,10 +21,16 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
 
-1149 lines, 98 display equations, 269 reference definitions, 12,432 words after an equation-density
-review that added 30 equations across 14 edits. Equations and references inside band, lines 151 short
-and not padded. Primary 43.3 percent, contemporary 38.5 percent, the
-latter the highest of the five.
+1313 lines, 98 display equations, 340 reference definitions, 16,404 words after an equation-density
+review that added 30 equations across 14 edits and a primary-reference review that added 71
+programme-era NTRS documents across 18 edits. Lines, equations, and references are all now inside
+band, reached by citing new material rather than by padding. NTRS-hosted primary documents rose from
+41 to 112, which is 32.9 percent of all references against 32.6, 31.4, and 32.1 percent for A298
+through A300, closing a deficit that had left this article with roughly a third of its siblings'
+primary base. References dated 1960 or earlier rose from 22.9 to 43.2 percent of dated references,
+the highest of the five. Contemporary references are unchanged in absolute count at 69 and fall from
+38.5 to 27.6 percent of dated references purely by dilution, which brings the article from above the
+target band to just below it and into line with A298 at 26.3 percent.
 
 The keystone is whether a horizontal tail can be dispensed with at transonic speed. A tail does two
 jobs and the historical debate was conducted about the wrong one, since the damping contribution
@@ -35,9 +41,21 @@ effectively undamped once its damping falls to 21 percent of nominal where the t
 percent. The answer expired rather than being overturned, since a pitch damper restores by feedback
 what the missing tail removed.
 
-Verification complete. All 269 references cited with zero undefined and zero orphaned, all 115
-meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, isolated build
-succeeding.
+The primary-reference pass produced three substantive changes beyond citation count. A criterion
+contemporaneous with the aircraft was located, so the handling-qualities closure no longer rests only
+on criteria postdating the programme by two decades. The Oswald efficiency factor used in the
+induced-drag argument is now anchored to the 1932 report that defined it. A second research role the
+article had omitted entirely was recovered, in which the split flap speed brakes were opened to spoil
+the lift-to-drag ratio deliberately and generate low-ratio approach data for future rocket-powered
+aircraft, a thread running through Matranga and Menard 1959 to the same author's analysis of the
+first thirty X-15 landings and onward to gliding re-entry practice.
+
+Verification complete. All 340 references cited with zero undefined and zero orphaned, all 71 new
+NTRS URLs swept at 200, `_verify.py` clean at the 0-error 21-warning corpus baseline, zero style
+violations, zero doubled words, zero malformed links, zero display-math seam defects, and the
+isolated build succeeding with Part 5 navigation and zero unresolved anchors in the rendered page. A
+display-equation seam defect introduced by the equation pass, in which the induced-drag ratio had
+prose glued to the same line, was repaired in this pass.
 
 **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297.
 
