@@ -24,8 +24,12 @@ first article of a seventy-two-article back-dated series running 2025-10-06 thro
 per day unbroken, ending flush against the 2025-12-17 post. Held for human-pilot review before A298
 is drafted.
 
-1245 lines, 76 display equations, 327 reference definitions, 15,951 words, against History of SpaceX
-medians of 1345 lines, 72 equations, and 306 references. The genre is the research-aircraft hybrid
+1533 lines, 147 display equations, 327 reference definitions, 18,692 words, against History of SpaceX
+medians of 1345 lines, 72 equations, and 306 references. The article was drafted at 76 equations, at
+parity, and then took a requested equation-density pass that found 19 results named or relied upon in
+prose but never displayed, adding 71 equations across 44 edits. The genre document gained a
+series-opener row to match, since an opener carries the shared derivations the seventy-one
+per-aircraft articles reference rather than repeat. The genre is the research-aircraft hybrid
 defined in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`, and the opener establishes the analytical
 model plus the sizing relations that the per-aircraft articles reference rather than repeat.
 
