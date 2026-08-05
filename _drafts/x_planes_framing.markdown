@@ -31,6 +31,24 @@ $$\Sigma_n^{-1} = \Sigma_0^{-1} + \sum_{k=1}^{n} H_k^{\top} R_k^{-1} H_k$$
 
 which states the essential economic fact about flight test. Information adds. Each flight contributes an increment to the inverse covariance, and the increments accumulate whether or not any individual flight is dramatic. The design-of-experiments literature treats the choice of which conditions to fly as an optimal design problem over exactly this matrix, and [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005] Statistics for Experimenters together with [Atkinson and Donev 1992][book_atkinson_donev_1992] Optimum Experimental Designs give the standard criteria.
 
+The posterior mean moves with the same information weighting, so that the estimate after $n$ flights is
+
+$$\mu_n = \Sigma_n \left( \Sigma_0^{-1} \mu_0 + \sum_{k=1}^{n} H_k^{\top} R_k^{-1} y_k \right)$$
+
+which shows that a flight flown at a condition where $H_k$ is nearly singular moves the estimate hardly at all regardless of how eventful the flight was. Choosing conditions is therefore the substance of test planning, and the two criteria in general use are D-optimality, which maximizes the determinant of the information matrix, and A-optimality, which minimizes the trace of the posterior covariance,
+
+$$\Phi_D = \det \left( \Sigma_n^{-1} \right), \qquad \Phi_A = \operatorname{tr} \left( \Sigma_n \right)$$
+
+with the first maximized and the second minimized over the achievable set of flight conditions. The differential entropy of the Gaussian posterior that these criteria are proxies for is
+
+$$h(\theta) = \frac{1}{2} \ln \left[ (2 \pi e)^p \det \Sigma_n \right]$$
+
+in nats, and the expected information gain from a planned flight is the expected Kullback-Leibler divergence of the posterior from the prior,
+
+$$\mathbb{E} \left[ D_{KL} \left( p(\theta \mid y) \, \| \, p(\theta) \right) \right] = \mathbb{E} \left[ \int p(\theta \mid y) \ln \frac{p(\theta \mid y)}{p(\theta)} \, d\theta \right]$$
+
+which is the quantity a test plan should maximize per unit cost.
+
 For the scalar case, where the programme targets a single quantity and every flight is a repeat measurement of that quantity with standard deviation $\sigma_m$, the update collapses to
 
 $$\sigma_n^2 = \left(\frac{1}{\sigma_0^2} + \frac{n}{\sigma_m^2}\right)^{-1}$$
@@ -49,7 +67,11 @@ The corresponding information gain, measured as the reduction in differential en
 
 $$I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
 
-which for the X-1 example evaluates to $I_n = \tfrac{1}{2}\ln 400 = 3.00$ nats, or 4.32 bits. The standard treatments in [Cover and Thomas 2006][book_cover_thomas_2006] Elements of Information Theory and [MacKay 2003][book_mackay_2003] Information Theory Inference and Learning Algorithms develop the entropy accounting in full. A programme of that size and expense returns roughly four bits about one number. That figure is worth holding onto, because it is the honest measure of what a flight research programme buys, and it explains why such programmes are only ever justified when the number in question gates something enormous downstream.
+which for the X-1 example evaluates to $I_n = \tfrac{1}{2}\ln 400 = 3.00$ nats, or 4.32 bits, converting between the two by
+
+$$I_{\text{bits}} = \frac{I_{\text{nats}}}{\ln 2}$$
+
+The standard treatments in [Cover and Thomas 2006][book_cover_thomas_2006] Elements of Information Theory and [MacKay 2003][book_mackay_2003] Information Theory Inference and Learning Algorithms develop the entropy accounting in full. A programme of that size and expense returns roughly four bits about one number. That figure is worth holding onto, because it is the honest measure of what a flight research programme buys, and it explains why such programmes are only ever justified when the number in question gates something enormous downstream.
 
 ## Methodological Commitments
 
@@ -71,17 +93,37 @@ Depth follows the surviving record rather than effort. Where the public record s
 
 The question a reader should ask of any flight research programme is why anyone flew at all. [Wind tunnels][ref_wind_tunnel] are cheaper, they are repeatable, they do not kill test pilots, and by the late 1940s the United States had the best collection of them in the world, as catalogued by [Baals and Corliss 1981][book_baals_corliss_1981] Wind Tunnels of NASA. The answer is that a ground facility can match some of the dimensionless groups that govern a flow, but not all of them at once, and the residue is what the aircraft was built to measure. The formal apparatus is [similitude][ref_similitude] and the [Buckingham pi theorem][ref_buckingham_pi], and the practical apparatus is described in [Pope and Goin 1965][book_pope_goin_1965] High-Speed Wind Tunnel Testing, [Barlow Rae and Pope 1999][book_barlow_rae_pope_1999] Low-Speed Wind Tunnel Testing, and [Lukasiewicz 1973][book_lukasiewicz_1973] Experimental Methods of Hypersonics.
 
-The governing groups follow from nondimensionalizing the Navier-Stokes equations together with the energy equation and an equation of state, a derivation given in [Anderson 2001][book_anderson_2001_fundamentals] Fundamentals of Aerodynamics and in [Kuethe and Chow 1998][book_kuethe_chow_1998] Foundations of Aerodynamics. The first is the [Mach number][ref_mach_number], the ratio of flow speed to the local [speed of sound][ref_speed_of_sound], written with $V$ the flow speed in metres per second and $a$ the sound speed in the same units as
+The governing groups follow from nondimensionalizing the Navier-Stokes equations together with the energy equation and an equation of state, a derivation given in [Anderson 2001][book_anderson_2001_fundamentals] Fundamentals of Aerodynamics and in [Kuethe and Chow 1998][book_kuethe_chow_1998] Foundations of Aerodynamics. The theorem states that a relation among $n$ physical quantities involving $k$ independent dimensions reduces to a relation among
+
+$$n - k \ \text{dimensionless groups}$$
+
+so the number of knobs a facility must match is fixed by the physics rather than by the experimenter. Nondimensionalizing the momentum equation with a reference length $L$, a reference speed $V$, and a reference density $\rho$ produces
+
+$$\frac{D \mathbf{u}^{*}}{D t^{*}} = -\frac{1}{\gamma M^2} \nabla^{*} p^{*} + \frac{1}{Re} \nabla^{*2} \mathbf{u}^{*}$$
+
+in which the two groups appear as the only surviving parameters, which is the formal reason they are the two a tunnel tries hardest to match. The first is the [Mach number][ref_mach_number], the ratio of flow speed to the local [speed of sound][ref_speed_of_sound], written with $V$ the flow speed in metres per second and $a$ the sound speed in the same units as
 
 $$M = \frac{V}{a}, \quad a = \sqrt{\gamma R T}$$
 
-where $\gamma$ is the ratio of specific heats, $R$ is the specific gas constant in joules per kilogram kelvin, and $T$ is the static temperature in kelvin. The Mach number governs compressibility, and it is the group a [supersonic][ref_supersonic_speed] tunnel is designed to match. [Shapiro 1953][book_shapiro_1953] The Dynamics and Thermodynamics of Compressible Fluid Flow, [Liepmann and Roshko 1957][book_liepmann_roshko_1957] Elements of Gasdynamics, and [Anderson 2002][book_anderson_2002_modern_compressible] Modern Compressible Flow remain the standard treatments.
+where $\gamma$ is the ratio of specific heats, $R$ is the specific gas constant in joules per kilogram kelvin, and $T$ is the static temperature in kelvin. The state relation closing the system is the ideal gas law
+
+$$p = \rho R T$$
+
+which is used repeatedly below to move between pressure, density, and temperature. The Mach number governs compressibility, and it is the group a [supersonic][ref_supersonic_speed] tunnel is designed to match. The local inclination of a weak disturbance follows from it as the Mach angle
+
+$$\mu_M = \arcsin \frac{1}{M}$$
+
+which fixes the geometry of every shock and expansion in the supersonic sections that follow. [Shapiro 1953][book_shapiro_1953] The Dynamics and Thermodynamics of Compressible Fluid Flow, [Liepmann and Roshko 1957][book_liepmann_roshko_1957] Elements of Gasdynamics, and [Anderson 2002][book_anderson_2002_modern_compressible] Modern Compressible Flow remain the standard treatments.
 
 The second is the [Reynolds number][ref_reynolds_number], the ratio of inertial to viscous forces, written with $\rho$ the density in kilograms per cubic metre, $L$ a reference length in metres, and $\mu$ the dynamic [viscosity][ref_viscosity] in pascal seconds as
 
 $$Re = \frac{\rho V L}{\mu}$$
 
-which governs [boundary layer][ref_boundary_layer] development, transition from [laminar flow][ref_laminar_flow] to turbulent flow, and separation. The canonical references are [Schlichting and Gersten 2017][book_schlichting_gersten_2017] Boundary-Layer Theory and [White 2006][book_white_2006_viscous] Viscous Fluid Flow, with the compressible extension given by [Van Driest 1952][research_van_driest_1952]. The Reynolds number is the group a tunnel usually fails to match, and the failure is structural rather than incidental.
+which governs [boundary layer][ref_boundary_layer] development, transition from [laminar flow][ref_laminar_flow] to turbulent flow, and separation. The canonical references are [Schlichting and Gersten 2017][book_schlichting_gersten_2017] Boundary-Layer Theory and [White 2006][book_white_2006_viscous] Viscous Fluid Flow, with the compressible extension given by [Van Driest 1952][research_van_driest_1952]. The viscosity itself is temperature dependent through Sutherland's law,
+
+$$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
+
+with $\mu_{\text{ref}} = 1.716 \times 10^{-5}$ pascal seconds at $T_{\text{ref}} = 273.15$ kelvin and $S = 110.4$ kelvin for air, and this is the relation used for the worked example below. The Reynolds number is the group a tunnel usually fails to match, and the failure is structural rather than incidental.
 
 To see why, substitute the ideal gas law and the sound speed into the Reynolds number to express it in terms of quantities a tunnel operator actually controls. With $p$ the static pressure in pascals, this gives
 
@@ -98,6 +140,10 @@ $$\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\ga
 with $p_0$ the reservoir stagnation pressure. The reservoir must simultaneously supply the [stagnation temperature][ref_stagnation_temperature]
 
 $$\frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2$$
+
+and, completing the isentropic set, the density ratio
+
+$$\frac{\rho_0}{\rho} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{1}{\gamma - 1}}$$
 
 because a nozzle expansion is very nearly adiabatic and the total temperature is what the reservoir sets.
 
@@ -123,13 +169,25 @@ The [Damkohler number][ref_damkohler], the ratio of a characteristic flow time t
 
 $$Da = \frac{\tau_{\text{flow}}}{\tau_{\text{chem}}} = \frac{L / V}{\tau_{\text{chem}}}$$
 
-and it decides whether the gas behind a shock is in chemical equilibrium, frozen, or somewhere between. At the conditions the X-15 reached, air dissociates, and no cold tunnel reproduces that. At the conditions the [NASA X-43][ref_nasa_x43] and [Boeing X-51 Waverider][ref_boeing_x51] reached, the same question governs whether fuel injected into a [scramjet][ref_scramjet] combustor actually burns before it leaves.
+where the chemical time carries an Arrhenius temperature dependence
+
+$$\tau_{\text{chem}} \propto \exp \left( \frac{E_a}{R_u T} \right)$$
+
+with $E_a$ the activation energy and $R_u$ the universal gas constant, so that a facility running cold is not merely quantitatively but qualitatively wrong. The Damkohler number decides whether the gas behind a shock is in chemical equilibrium, frozen, or somewhere between. At the conditions the X-15 reached, air dissociates, and no cold tunnel reproduces that. At the conditions the [NASA X-43][ref_nasa_x43] and [Boeing X-51 Waverider][ref_boeing_x51] reached, the same question governs whether fuel injected into a [scramjet][ref_scramjet] combustor actually burns before it leaves.
 
 The [Knudsen number][ref_knudsen_number], the ratio of molecular mean free path $\lambda$ to reference length, is
 
 $$Kn = \frac{\lambda}{L}$$
 
-and it decides whether the continuum assumption holds at all. Above roughly 90 kilometres, approaching the [Karman line][ref_karman_line], the X-15 was operating where $Kn$ ceased to be negligible over control surfaces, which is why it carried a [reaction control system][ref_rcs] rather than relying on aerodynamic surfaces alone.
+where the mean free path follows from kinetic theory as
+
+$$\lambda = \frac{\mu}{p} \sqrt{\frac{\pi R T}{2}}$$
+
+The three groups are not independent, since substituting this relation into the definitions gives
+
+$$Kn = \sqrt{\frac{\pi \gamma}{2}} \, \frac{M}{Re}$$
+
+so rarefaction is unavoidable at high Mach number and low Reynolds number together, which is exactly the corner of the envelope a high-altitude research aircraft occupies. The Knudsen number decides whether the continuum assumption holds at all. Above roughly 90 kilometres, approaching the [Karman line][ref_karman_line], the X-15 was operating where $Kn$ ceased to be negligible over control surfaces, which is why it carried a [reaction control system][ref_rcs] rather than relying on aerodynamic surfaces alone.
 
 Collecting these, let $\Pi = (M, Re, Pr, T_w/T_0, Da, Kn)$ denote the similarity vector. A ground facility reproduces flight when the logarithmic mismatch
 
@@ -155,7 +213,15 @@ where each $g_j$ is a physical constraint such as the maximum skin temperature, 
 
 $$\lambda_j = -\frac{\partial C^{*}}{\partial b_j}$$
 
-so that a constraint with a large multiplier is one whose relaxation would buy a large cost reduction. The keystone is then defined as the constraint with the largest normalized shadow price,
+The multipliers are the ones appearing in the Lagrangian
+
+$$\mathcal{L}(x, \lambda) = C(x) + \sum_{j=1}^{m} \lambda_j \left( g_j(x) - b_j \right)$$
+
+whose stationarity and complementary slackness conditions at the optimum are
+
+$$\nabla C(x^{*}) + \sum_{j=1}^{m} \lambda_j \nabla g_j(x^{*}) = 0, \qquad \lambda_j \left( g_j(x^{*}) - b_j \right) = 0$$
+
+the second of which says that a constraint not actually binding carries a multiplier of zero. A constraint with a large multiplier is therefore one whose relaxation would buy a large cost reduction. The keystone is then defined as the constraint with the largest normalized shadow price,
 
 $$j^{*} = \arg\max_j \ \lambda_j b_j$$
 
@@ -199,7 +265,15 @@ and the two boundaries intersect at the corner speed, the lowest speed at which 
 
 $$V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
 
-which is the leftmost point of the V-n diagram's structural ceiling. The classic pilot-facing exposition of these boundaries is [Hurt 1965][book_hurt_1965] Aerodynamics for Naval Aviators, with the performance-analysis treatment in [Anderson 2012][book_anderson_2012_aircraft_performance] Aircraft Performance and Design and the introductory development in [Anderson 2012][book_anderson_2012_introduction_flight] Introduction to Flight. Evaluate this for the Bell X-1, whose gross weight was about 5560 kilograms and whose wing area was 12.1 square metres, giving a [wing loading][ref_wing_loading] of 4510 newtons per square metre. At 12 kilometres, where $\rho = 0.311$ kilograms per cubic metre, with $n_{\max} = 8$ and $C_{L,\max} = 1.0$, the corner speed is
+which is the leftmost point of the V-n diagram's structural ceiling. The load factor also fixes the sustained turn, since a level banked turn at load factor $n$ has turn rate and radius
+
+$$\omega_t = \frac{g \sqrt{n^2 - 1}}{V}, \qquad R_t = \frac{V^2}{g \sqrt{n^2 - 1}}$$
+
+which is the pair that matters whenever a research aircraft has to be manoeuvred back onto a test heading inside a restricted range. Because loads scale with dynamic pressure rather than with true airspeed, envelopes are conventionally drawn against equivalent airspeed
+
+$$V_e = V \sqrt{\frac{\rho}{\rho_{SL}}}$$
+
+which collapses the structural boundary onto a single vertical line at all altitudes. The classic pilot-facing exposition of these boundaries is [Hurt 1965][book_hurt_1965] Aerodynamics for Naval Aviators, with the performance-analysis treatment in [Anderson 2012][book_anderson_2012_aircraft_performance] Aircraft Performance and Design and the introductory development in [Anderson 2012][book_anderson_2012_introduction_flight] Introduction to Flight. Evaluate this for the Bell X-1, whose gross weight was about 5560 kilograms and whose wing area was 12.1 square metres, giving a [wing loading][ref_wing_loading] of 4510 newtons per square metre. At 12 kilometres, where $\rho = 0.311$ kilograms per cubic metre, with $n_{\max} = 8$ and $C_{L,\max} = 1.0$, the corner speed is
 
 $$V_A = \sqrt{\frac{2 \times 8 \times 4510}{0.311 \times 1.0}} = 482 \ \text{metres per second}$$
 
@@ -209,11 +283,23 @@ The performance boundary is set by excess thrust. With $T$ the thrust and $D$ th
 
 $$P_s = \frac{V (T - D)}{W}$$
 
-in metres per second, and it is the rate at which the aircraft can add energy. The relevant energy state is the energy height
+in metres per second, and it is the rate at which the aircraft can add energy. The thrust required follows from the drag polar as
+
+$$T_{\text{req}} = \frac{1}{2} \rho V^2 S C_{D0} + \frac{2 n^2 W^2}{\rho V^2 S \pi A e}$$
+
+whose two terms move in opposite directions with speed, so the sum has a minimum that locates the best endurance condition. The absolute ceiling is the altitude at which the excess vanishes,
+
+$$P_s = 0 \quad \Longleftrightarrow \quad T = D$$
+
+which is the condition defining the absolute ceiling. The relevant energy state is the energy height
 
 $$h_e = h + \frac{V^2}{2g}$$
 
-with $h$ the geometric altitude in metres and $g$ the gravitational acceleration. Energy height is conserved in an unpowered exchange between speed and altitude, which makes it the natural coordinate for a rocket aircraft that spends most of a flight ballistic. For the X-15A-2 at 2021 metres per second and 31.1 kilometres,
+with $h$ the geometric altitude in metres and $g$ the gravitational acceleration. Energy height is conserved in an unpowered exchange between speed and altitude, which makes it the natural coordinate for a rocket aircraft that spends most of a flight ballistic. With energy height available as a coordinate, the time to climb between two energy states follows by integrating the reciprocal of the excess power,
+
+$$t_{1 \to 2} = \int_{h_{e,1}}^{h_{e,2}} \frac{dh_e}{P_s(h_e)}$$
+
+which is the relation flight planners actually used to lay out an X-15 profile. For the X-15A-2 at 2021 metres per second and 31.1 kilometres,
 
 $$h_e = 31{,}120 + \frac{2021^2}{2 \times 9.81} = 31{,}120 + 208{,}180 = 2.39 \times 10^{5} \ \text{metres}$$
 
@@ -229,7 +315,11 @@ and the maximum [lift-to-drag ratio][ref_lift_to_drag] follows by differentiatio
 
 $$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}$$
 
-attained at the lift coefficient where induced drag equals zero-lift drag. This relation is what makes high aspect ratio valuable and what the [Northrop X-21][ref_northrop_x21] laminar-flow programme and the [Boeing X-48][ref_boeing_x48] blended wing body were each attacking from opposite directions, the first by reducing $C_{D0}$ through boundary-layer suction and the second by increasing the effective $A$ through configuration.
+attained at the lift coefficient
+
+$$C_L^{*} = \sqrt{\pi A e \, C_{D0}}$$
+
+where induced drag equals zero-lift drag. This relation is what makes high aspect ratio valuable and what the [Northrop X-21][ref_northrop_x21] laminar-flow programme and the [Boeing X-48][ref_boeing_x48] blended wing body were each attacking from opposite directions, the first by reducing $C_{D0}$ through boundary-layer suction and the second by increasing the effective $A$ through configuration.
 
 Compressibility enters first through the [Prandtl-Glauert transformation][ref_prandtl_glauert], which for small disturbances relates the compressible pressure coefficient to its incompressible value as
 
@@ -241,11 +331,33 @@ The [critical Mach number][ref_critical_mach] is the free-stream Mach number at 
 
 $$\left. \frac{\partial C_D}{\partial M} \right|_{M = M_{DD}} = 0.1$$
 
+The critical Mach number is found by setting the compressible peak suction equal to the pressure coefficient corresponding to sonic flow,
+
+$$C_{p,\text{crit}} = \frac{2}{\gamma M_\infty^2} \left[ \left( \frac{1 + \frac{\gamma - 1}{2} M_\infty^2}{1 + \frac{\gamma - 1}{2}} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]$$
+
+and solving for the free-stream Mach number at which the two curves intersect. Sweep raises that value, because simple sweep theory says only the component of the free stream normal to the leading edge governs the compressible behaviour,
+
+$$M_{\text{eff}} = M_\infty \cos \Lambda, \qquad C_{L\alpha, \Lambda} = C_{L\alpha} \cos \Lambda$$
+
+with $\Lambda$ the sweep angle. That relation is the entire aerodynamic argument for the swept wing, and its cost in lift-curve slope is the reason swept wings land fast.
+
 The rise itself is [wave drag][ref_wave_drag], the momentum lost to shock waves, and for a slender body of revolution at supersonic speed the minimum attainable wave drag for a given length and volume is the [Sears-Haack][ref_sears_haack] result of [Sears 1947][research_sears_1947],
 
 $$\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2$$
 
-with $A_{\max}$ the maximum cross-sectional area and $L$ the body length. The relation says that wave drag scales as the square of the fineness of the cross-sectional area distribution, which is the theoretical content behind the [area rule][ref_whitcomb_area_rule] of [Richard T. Whitcomb][ref_whitcomb], published as [Whitcomb 1952][research_whitcomb_1952] and extended to the supercritical airfoil in [Whitcomb and Clark 1965][research_whitcomb_clark_1965]. The area rule states that the transonic wave drag of a complete configuration depends primarily on the axial distribution of total cross-sectional area rather than on the shapes that produce it, so a fuselage waisted where the wing joins can recover most of the drag penalty of the wing. The complementary planform insight is the [swept wing][ref_swept_wing] of [Jones 1946][research_jones_1946_wing_plan_forms], whose author [Robert Thomas Jones][ref_jones_rt] derived it independently of the German work, and whose logical extension is the [delta wing][ref_delta_wing]. The slender-body and thin-wing theory underlying all of it is developed in [Ashley and Landahl 1965][book_ashley_landahl_1965] Aerodynamics of Wings and Bodies, [Kuchemann 1978][book_kuchemann_1978] The Aerodynamic Design of Aircraft, and [Bertin and Cummings 2013][book_bertin_cummings_2013] Aerodynamics for Engineers. The X-series intersects this history directly, since the area rule emerged from Langley work in 1952 described by [Hansen 1987][book_hansen_1987_engineer_in_charge] Engineer in Charge and [Hansen 2004][book_hansen_2004_bird_on_the_wing] The Bird Is on the Wing, and was validated on aircraft whose transonic databases came from X-1 and follow-on flights.
+with $A_{\max}$ the maximum cross-sectional area and $L$ the body length, attained by the area distribution
+
+$$A(x) = A_{\max} \left[ 4 \frac{x}{L} \left( 1 - \frac{x}{L} \right) \right]^{3/2}$$
+
+The corresponding result for a lifting surface is the linearized supersonic solution of Ackeret, which for a thin flat plate at angle of attack $\alpha$ gives
+
+$$C_L = \frac{4 \alpha}{\sqrt{M_\infty^2 - 1}}, \qquad C_{D,\text{wave}} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}}$$
+
+so that supersonic wave drag due to lift is proportional to the square of incidence and falls with Mach number, which is the opposite of the transonic behaviour and the reason the drag curve has a peak rather than a plateau. The relation says that wave drag scales as the square of the fineness of the cross-sectional area distribution, which is the theoretical content behind the [area rule][ref_whitcomb_area_rule] of [Richard T. Whitcomb][ref_whitcomb], published as [Whitcomb 1952][research_whitcomb_1952] and extended to the supercritical airfoil in [Whitcomb and Clark 1965][research_whitcomb_clark_1965]. The area rule states that the transonic wave drag of a complete configuration depends primarily on the axial distribution of total cross-sectional area rather than on the shapes that produce it, so a fuselage waisted where the wing joins can recover most of the drag penalty of the wing. Stated as a design rule, the requirement is that the total axial area distribution
+
+$$A_{\text{total}}(x) = A_{\text{fuselage}}(x) + A_{\text{wing}}(x) + A_{\text{nacelle}}(x)$$
+
+should approximate the smooth Sears-Haack distribution above rather than carrying a bump where the wing intersects. The complementary planform insight is the [swept wing][ref_swept_wing] of [Jones 1946][research_jones_1946_wing_plan_forms], whose author [Robert Thomas Jones][ref_jones_rt] derived it independently of the German work, and whose logical extension is the [delta wing][ref_delta_wing]. The slender-body and thin-wing theory underlying all of it is developed in [Ashley and Landahl 1965][book_ashley_landahl_1965] Aerodynamics of Wings and Bodies, [Kuchemann 1978][book_kuchemann_1978] The Aerodynamic Design of Aircraft, and [Bertin and Cummings 2013][book_bertin_cummings_2013] Aerodynamics for Engineers. The X-series intersects this history directly, since the area rule emerged from Langley work in 1952 described by [Hansen 1987][book_hansen_1987_engineer_in_charge] Engineer in Charge and [Hansen 2004][book_hansen_2004_bird_on_the_wing] The Bird Is on the Wing, and was validated on aircraft whose transonic databases came from X-1 and follow-on flights.
 
 ### Propulsion and the Mass Budget
 
@@ -253,7 +365,15 @@ Rocket thrust follows from momentum and pressure terms as
 
 $$F = \dot{m} v_e + (p_e - p_a) A_e$$
 
-with $\dot{m}$ the propellant mass flow in kilograms per second, $v_e$ the exhaust velocity in metres per second, $p_e$ and $p_a$ the exit-plane and ambient pressures in pascals, and $A_e$ the nozzle exit area in square metres. The pressure term is why a rocket aircraft gains thrust with altitude and why the X-1 and X-15 both performed better high than low. The standard references are [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Huzel and Huang 1992][book_huzel_huang_1992] Modern Engineering for Design of Liquid-Propellant Rocket Engines, with the propellant tradeoff space covered on this blog in [A217 Rocket Propellant Chemistry][related_post_a217_rocket_propellant_chemistry]. Collecting both terms into an effective exhaust velocity and normalizing by standard gravity gives the [specific impulse][ref_specific_impulse]
+with $\dot{m}$ the propellant mass flow in kilograms per second, $v_e$ the exhaust velocity in metres per second, $p_e$ and $p_a$ the exit-plane and ambient pressures in pascals, and $A_e$ the nozzle exit area in square metres. The mass flow through a choked throat of area $A_t$ is fixed by the chamber conditions,
+
+$$\dot{m} = \frac{p_0 A_t}{\sqrt{T_0}} \sqrt{\frac{\gamma}{R}} \left( \frac{2}{\gamma + 1} \right)^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+
+which separates the chamber problem from the nozzle problem and lets performance be written as the product of a characteristic velocity and a thrust coefficient,
+
+$$c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}$$
+
+with $c^{*}$ measuring the quality of the combustion and $C_F$ the quality of the expansion. The pressure term is why a rocket aircraft gains thrust with altitude and why the X-1 and X-15 both performed better high than low. The standard references are [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Huzel and Huang 1992][book_huzel_huang_1992] Modern Engineering for Design of Liquid-Propellant Rocket Engines, with the propellant tradeoff space covered on this blog in [A217 Rocket Propellant Chemistry][related_post_a217_rocket_propellant_chemistry]. Collecting both terms into an effective exhaust velocity and normalizing by standard gravity gives the [specific impulse][ref_specific_impulse]
 
 $$I_{sp} = \frac{F}{\dot{m} g_0}$$
 
@@ -265,25 +385,53 @@ which sizes every rocket aircraft in the series. Apply it to the X-15. The [Reac
 
 $$\Delta v = 230 \times 9.807 \times \ln \frac{15{,}420}{6800} = 2256 \times 0.819 = 1847 \ \text{metres per second}$$
 
-against an observed maximum of about 1835 metres per second for the basic airframe. The aircraft was air-launched from a [Boeing B-52 Stratofortress][ref_boeing_b52] at roughly 240 metres per second, so the ideal budget exceeds the achieved increment by about 250 metres per second, and that difference is the gravity and drag loss on a steep climbing profile. The closure of that budget to within fifteen percent using published masses is a useful check that the published masses are consistent. Staging and boost arrangements of the same kind at much smaller scale are worked in [A120 Staged and Boosted Propulsion][related_post_a120_staged_boosted_propulsion].
+against an observed maximum of about 1835 metres per second for the basic airframe. The aircraft was air-launched from a [Boeing B-52 Stratofortress][ref_boeing_b52] at roughly 240 metres per second, so the ideal budget exceeds the achieved increment by about 250 metres per second, and that difference is the gravity and drag loss on a steep climbing profile. Those losses are the integrals
+
+$$\Delta v_{\text{grav}} = \int_0^{t_b} g \sin \gamma \, dt, \qquad \Delta v_{\text{drag}} = \int_0^{t_b} \frac{D}{m} \, dt$$
+
+taken over the burn, so that the budget closes as
+
+$$\Delta v_{\text{ideal}} = \Delta v_{\text{achieved}} + \Delta v_{\text{grav}} + \Delta v_{\text{drag}}$$
+
+and the residual quoted above is the sum of the two loss terms rather than an error in the published masses. The closure of that budget to within fifteen percent using published masses is a useful check that the published masses are consistent. Staging and boost arrangements of the same kind at much smaller scale are worked in [A120 Staged and Boosted Propulsion][related_post_a120_staged_boosted_propulsion].
 
 The mass budget is conventionally expressed as fractions of launch mass. With $m_p$ the propellant mass, $m_s$ the structural and systems mass, and $m_i$ the instrumentation and payload mass,
 
 $$\frac{m_p}{m_0} + \frac{m_s}{m_0} + \frac{m_i}{m_0} = 1$$
 
-and the propellant mass fraction is the quantity a rocket aircraft designer fights for. For the X-15 the propellant fraction was about 0.56, which is low for a rocket vehicle and high for an aircraft, and that intermediate value is a compact statement of what a rocket research aircraft is.
+with the initial thrust-to-weight ratio
+
+$$\frac{T}{W} = \frac{F}{m_0 g_0}$$
+
+setting how much of the burn is spent fighting gravity. The propellant mass fraction is the quantity a rocket aircraft designer fights for. For the X-15 the propellant fraction was about 0.56, which is low for a rocket vehicle and high for an aircraft, and that intermediate value is a compact statement of what a rocket research aircraft is.
 
 Airbreathing propulsion substitutes atmospheric oxygen and changes the accounting completely. For a [turbojet][ref_turbojet] the figure of merit is [thrust-specific fuel consumption][ref_tsfc] $c$, in kilograms of fuel per newton second, and the [range][ref_range_aeronautics] for cruising flight follows from the Breguet relation
 
 $$R = \frac{V}{c g_0} \frac{L}{D} \ln \frac{W_0}{W_1}$$
 
-with $W_0$ and $W_1$ the initial and final weights. The relation makes explicit that range is the product of a propulsive term, an aerodynamic term, and a structural term, and the X-series contains programmes attacking each factor separately. [Hill and Peterson 1991][book_hill_peterson_1991] Mechanics and Thermodynamics of Propulsion and [Mattingly 2006][book_mattingly_2006] Elements of Propulsion give the cycle analysis, and the equivalent sizing at small scale is worked in [A118 Propulsion and Power Sizing][related_post_a118_propulsion_sizing].
+with $W_0$ and $W_1$ the initial and final weights. The efficiency behind that propulsive term decomposes into a thermal and a propulsive factor,
+
+$$\eta_{th} = 1 - \frac{1}{\pi_c^{\frac{\gamma - 1}{\gamma}}}, \qquad \eta_p = \frac{2}{1 + u_e / u_\infty}, \qquad \eta_0 = \eta_{th} \, \eta_p$$
+
+with $\pi_c$ the compressor pressure ratio, and the opposition between the two factors is the whole of engine cycle selection, since raising exhaust velocity raises thermal efficiency and lowers propulsive efficiency. The Breguet relation makes explicit that range is the product of a propulsive term, an aerodynamic term, and a structural term, and the X-series contains programmes attacking each factor separately. [Hill and Peterson 1991][book_hill_peterson_1991] Mechanics and Thermodynamics of Propulsion and [Mattingly 2006][book_mattingly_2006] Elements of Propulsion give the cycle analysis, and the equivalent sizing at small scale is worked in [A118 Propulsion and Power Sizing][related_post_a118_propulsion_sizing].
 
 For [ramjet][ref_ramjet] and scramjet propulsion the thrust follows from the momentum change across the engine,
 
 $$F = \dot{m}_a \left[ (1 + f) u_e - u_\infty \right]$$
 
-with $\dot{m}_a$ the captured air mass flow, $f$ the fuel-to-air ratio, and $u_e$ and $u_\infty$ the exit and free-stream velocities. Because the exit and free-stream velocities are both large and their difference is small at high Mach number, thrust is a small difference of large numbers, which is why scramjet net thrust is so hard to demonstrate and why the X-43 and X-51 programmes were structured around proving positive net thrust at all rather than around achieving a particular value, as recounted in [McClinton 2006][research_mcclinton_2006] and [Marshall et al 2005][research_marshall_et_al_2005]. The inlet imposes a starting constraint identified by [Kantrowitz and Donaldson 1945][research_kantrowitz_donaldson_1945], and the combustor imposes a residence-time constraint that reduces to a Damkohler condition,
+with $\dot{m}_a$ the captured air mass flow, $f$ the fuel-to-air ratio, and $u_e$ and $u_\infty$ the exit and free-stream velocities. Because the exit and free-stream velocities are both large and their difference is small at high Mach number, thrust is a small difference of large numbers, which is why scramjet net thrust is so hard to demonstrate and why the X-43 and X-51 programmes were structured around proving positive net thrust at all rather than around achieving a particular value, as recounted in [McClinton 2006][research_mcclinton_2006] and [Marshall et al 2005][research_marshall_et_al_2005]. The inlet imposes a starting constraint identified by [Kantrowitz and Donaldson 1945][research_kantrowitz_donaldson_1945]. A supersonic inlet swallows its shock only if the throat is large enough to pass the captured mass flow after the total pressure loss across a normal shock at the lip. With the isentropic area relation
+
+$$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+
+and the normal shock total pressure ratio
+
+$$\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}$$
+
+the self-starting condition on the contraction ratio becomes
+
+$$\frac{A_{th}}{A_i} \ge \frac{p_{01}}{p_{02}} \cdot \frac{1}{\left( A / A^{*} \right)_{M_i}}$$
+
+which tightens rapidly with flight Mach number and is the reason fixed-geometry hypersonic inlets are designed with far less contraction than steady-state performance alone would suggest, and the combustor imposes a residence-time constraint that reduces to a Damkohler condition,
 
 $$\tau_{\text{res}} = \frac{L_c}{u_c} > \tau_{\text{ign}}$$
 
@@ -291,7 +439,11 @@ with $L_c$ the combustor length and $u_c$ the internal flow velocity, and at Mac
 
 ### Structures and Aeroelasticity
 
-The primary structural sizing parameter is wing loading, and the primary load path is the root bending moment. For a wing of semi-span $b/2$ carrying an elliptic lift distribution at load factor $n$, the root bending moment is
+The primary structural sizing parameter is wing loading, and the primary load path is the root bending moment. For a wing of semi-span $b/2$ carrying the elliptic spanwise lift distribution
+
+$$\ell(y) = \frac{4 L}{\pi b} \sqrt{1 - \left( \frac{2 y}{b} \right)^2}$$
+
+at load factor $n$, the root bending moment is
 
 $$M_{\text{root}} = \frac{2 n W}{3 \pi} \cdot \frac{b}{2}$$
 
@@ -299,9 +451,21 @@ which scales linearly in span and drives the spar cap area. The required cap are
 
 $$A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}$$
 
-and the temperature dependence of $\sigma_{\text{allow}}$ is what couples the structural problem to the thermal problem on every high-speed aircraft in the series. Aluminium retains useful strength to roughly 400 kelvin, titanium to roughly 800 kelvin, and Inconel X to roughly 1200 kelvin, and each of those thresholds appears as a design decision somewhere in the X-series. The airframe structural methods are given in [Bruhn 1973][book_bruhn_1973] Analysis and Design of Flight Vehicle Structures, [Niu 1988][book_niu_1988_airframe] Airframe Structural Design, and [Megson 2016][book_megson_2016] Aircraft Structures for Engineering Students, with the measured flight loads on the X-15 reported by [Kordes and Noll][research_kordes_noll_x15_loads] and the same sizing logic at model scale in [A127 Structures and the Flight Envelope][related_post_a127_structures_flight_envelope].
+The coupling to the thermal problem enters twice. The allowable stress falls with temperature, and a constrained structure heated non-uniformly develops thermal stress directly,
 
-[Aeroelasticity][ref_aeroelasticity] supplies the constraint that made one of these aircraft possible and killed several proposals outright. The field is defined by [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955] Aeroelasticity and [Fung 1955][book_fung_1955] An Introduction to the Theory of Aeroelasticity, with modern treatments in [Hodges and Pierce 2011][book_hodges_pierce_2011], [Dowell 2014][book_dowell_2014] A Modern Course in Aeroelasticity, and [Wright and Cooper 2014][book_wright_cooper_2014]. Consider a two-dimensional typical section with torsional stiffness $K_\theta$ in newton metres per radian, elastic axis located a distance $e$ in metres behind the [aerodynamic centre][ref_aerodynamic_center], reference area $S$, and lift-curve slope $C_{L\alpha}$ per radian. An increment of twist produces an increment of lift, which produces an increment of aerodynamic moment about the elastic axis, which produces further twist. The loop has unity gain at the divergence dynamic pressure
+$$\sigma_{\text{th}} = \frac{E \alpha_T \Delta T}{1 - \nu}$$
+
+with $E$ the elastic modulus, $\alpha_T$ the coefficient of thermal expansion, $\nu$ the Poisson ratio, and $\Delta T$ the temperature difference across the constrained region. On a skin heated to 1000 kelvin above a cool substructure this term alone can exceed the mechanical stress, which is why high-speed airframes use floating skin panels and corrugated webs rather than rigid monocoque. The relevant material figure of merit is therefore not strength but temperature-derated specific strength,
+
+$$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_{\text{skin}}}$$
+
+evaluated at the skin temperature the trajectory produces rather than at room temperature. Aluminium retains useful strength to roughly 400 kelvin, titanium to roughly 800 kelvin, and Inconel X to roughly 1200 kelvin, and each of those thresholds appears as a design decision somewhere in the X-series. The airframe structural methods are given in [Bruhn 1973][book_bruhn_1973] Analysis and Design of Flight Vehicle Structures, [Niu 1988][book_niu_1988_airframe] Airframe Structural Design, and [Megson 2016][book_megson_2016] Aircraft Structures for Engineering Students, with the measured flight loads on the X-15 reported by [Kordes and Noll][research_kordes_noll_x15_loads] and the same sizing logic at model scale in [A127 Structures and the Flight Envelope][related_post_a127_structures_flight_envelope].
+
+[Aeroelasticity][ref_aeroelasticity] supplies the constraint that made one of these aircraft possible and killed several proposals outright. The field is defined by [Bisplinghoff Ashley and Halfman 1955][book_bisplinghoff_ashley_halfman_1955] Aeroelasticity and [Fung 1955][book_fung_1955] An Introduction to the Theory of Aeroelasticity, with modern treatments in [Hodges and Pierce 2011][book_hodges_pierce_2011], [Dowell 2014][book_dowell_2014] A Modern Course in Aeroelasticity, and [Wright and Cooper 2014][book_wright_cooper_2014]. The torsional stiffness of a closed thin-walled box of enclosed area $A_m$, wall thickness $t$, and length $\ell_w$ follows from the Bredt-Batho relation
+
+$$K_\theta = \frac{G J}{\ell_w}, \qquad J = \frac{4 A_m^2}{\oint \frac{ds}{t}}$$
+
+with $G$ the shear modulus, and it is the quantity every aeroelastic result below depends on. Consider a two-dimensional typical section with torsional stiffness $K_\theta$ in newton metres per radian, elastic axis located a distance $e$ in metres behind the [aerodynamic centre][ref_aerodynamic_center], reference area $S$, and lift-curve slope $C_{L\alpha}$ per radian. An increment of twist produces an increment of lift, which produces an increment of aerodynamic moment about the elastic axis, which produces further twist. The loop has unity gain at the divergence dynamic pressure
 
 $$q_D = \frac{K_\theta}{e S C_{L\alpha}}$$
 
@@ -311,9 +475,17 @@ $$q_D = \frac{5.0 \times 10^{5}}{0.20 \times 10 \times 4.5} = 5.6 \times 10^{4} 
 
 or 56 kilopascals, which at sea-level density corresponds to a true airspeed of 301 metres per second. The number is representative rather than specific to any aircraft, and it is given to establish the order of magnitude against which the X-29 discussion later in the series should be read.
 
-Sweep modifies this relation decisively, as [Diederich and Budiansky 1948][research_diederich_budiansky_1948] established. For an aft-swept wing, bending deflection reduces the streamwise angle of attack at the tip, which unloads the tip and raises $q_D$. For a forward-swept wing the coupling reverses. Bending deflection increases the streamwise angle of attack at the tip, which loads the tip further, and $q_D$ falls, in the classical metallic case to values below any useful flight speed. That is why forward sweep was abandoned after the [Junkers Ju 287][ref_junkers_ju287], and it is why the X-29 exists. Aeroelastic tailoring of a composite cover, in which the fibre orientation is chosen so that bending induces a compensating nose-down twist, converts the divergence problem from a structural mass penalty into a laminate design problem. That conversion was proposed by [Krone 1975][research_krone_1975] and analysed by [Weisshaar 1980][research_weisshaar_1980] and [Weisshaar 1981][research_weisshaar_1981], and the composite mechanics behind it are in [Jones 1998][book_jones_1998_composites] Mechanics of Composite Materials, [Tsai and Hahn 1980][book_tsai_hahn_1980] Introduction to Composite Materials, and [Niu 1992][book_niu_1992_composite_airframe] Composite Airframe Structures. The X-29 was built to determine whether that conversion held in flight, and the entire aircraft is downstream of that one question.
+Sweep modifies this relation decisively, as [Diederich and Budiansky 1948][research_diederich_budiansky_1948] established. For an aft-swept wing, bending deflection reduces the streamwise angle of attack at the tip, which unloads the tip and raises $q_D$. For a forward-swept wing the coupling reverses. The mechanism is that a swept wing bending upward through vertical deflection $w(y)$ changes the streamwise incidence by
 
-Dynamic aeroelasticity introduces flutter, the coupling of bending and torsion modes into a self-excited oscillation extracting energy from the airstream, the theory of which is [Theodorsen 1935][research_theodorsen_1935] and the history of which is [Garrick and Reed 1981][research_garrick_reed_1981]. The flutter boundary is conventionally reported as a reduced-frequency and mass-ratio problem through the flutter speed index
+$$\Delta \alpha_{\text{eff}} = -\frac{\partial w}{\partial y} \sin \Lambda$$
+
+whose sign is set by the sweep angle. For aft sweep the increment is negative and stabilizing. For forward sweep, where $\Lambda$ is negative, bending deflection increases the streamwise angle of attack at the tip, which loads the tip further, and $q_D$ falls, in the classical metallic case to values below any useful flight speed. That is why forward sweep was abandoned after the [Junkers Ju 287][ref_junkers_ju287], and it is why the X-29 exists. Aeroelastic tailoring of a composite cover, in which the fibre orientation is chosen so that bending induces a compensating nose-down twist, converts the divergence problem from a structural mass penalty into a laminate design problem. That conversion was proposed by [Krone 1975][research_krone_1975] and analysed by [Weisshaar 1980][research_weisshaar_1980] and [Weisshaar 1981][research_weisshaar_1981], and the composite mechanics behind it are in [Jones 1998][book_jones_1998_composites] Mechanics of Composite Materials, [Tsai and Hahn 1980][book_tsai_hahn_1980] Introduction to Composite Materials, and [Niu 1992][book_niu_1992_composite_airframe] Composite Airframe Structures. The X-29 was built to determine whether that conversion held in flight, and the entire aircraft is downstream of that one question.
+
+Dynamic aeroelasticity introduces flutter, the coupling of bending and torsion modes into a self-excited oscillation extracting energy from the airstream, the theory of which is [Theodorsen 1935][research_theodorsen_1935] and the history of which is [Garrick and Reed 1981][research_garrick_reed_1981]. The governing similarity parameter is the reduced frequency
+
+$$k = \frac{\omega b}{V}$$
+
+which measures how many semichords the flow travels in one cycle of the motion and therefore how strongly the unsteady wake affects the loads. The flutter boundary is conventionally reported as a reduced-frequency and mass-ratio problem through the flutter speed index
 
 $$F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \quad \mu_m = \frac{m_w}{\pi \rho b^2}$$
 
@@ -325,13 +497,33 @@ Above roughly Mach 3 the thermal problem displaces the structural problem as the
 
 $$T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)$$
 
-and which rises as the square of Mach number. On a surface with a boundary layer the relevant quantity is the recovery temperature, which falls short of the stagnation temperature by the recovery factor $r$, approximately $Pr^{1/2}$ for laminar and $Pr^{1/3}$ for turbulent flow,
+and which rises as the square of Mach number. On a surface with a boundary layer the relevant quantity is the recovery temperature, which falls short of the stagnation temperature by the recovery factor
+
+$$r = Pr^{1/2} \ \text{(laminar)}, \qquad r = Pr^{1/3} \ \text{(turbulent)}$$
+
+giving
 
 $$T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right)$$
 
 For the X-15A-2 at Mach 6.7 and 31.1 kilometres, where $T_\infty = 227$ kelvin, the stagnation temperature is 2265 kelvin and the turbulent recovery temperature with $r = 0.89$ is 2041 kelvin. Both figures exceed the melting point of aluminium by a wide margin and exceed the useful limit of Inconel X, which is why the aircraft radiated and why the record flight required an [ablative][ref_ablation] coating. The measured heating on the aircraft is reported by [Banner Kuhl and Quinn 1962][research_banner_kuhl_quinn_1962], and the general treatment is [Truitt 1960][book_truitt_1960] Fundamentals of Aerodynamic Heating.
 
-The [heat flux][ref_heat_flux] actually entering the structure at a stagnation point is given to good accuracy by the correlation of [Sutton and Graves 1971][research_sutton_graves_1971],
+The heat actually crossing the surface is driven by the difference between the recovery temperature and the wall temperature,
+
+$$\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)$$
+
+with $h_c$ the convective coefficient in watts per square metre kelvin, conventionally non-dimensionalized as the Stanton number and estimated from skin friction through the Reynolds analogy,
+
+$$St = \frac{h_c}{\rho V c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}$$
+
+The theoretical stagnation-point result behind the engineering correlation used below is that of Fay and Riddell,
+
+$$\dot{q}_s = 0.763 \, Pr^{-0.6} \left( \rho_e \mu_e \right)^{0.4} \left( \rho_w \mu_w \right)^{0.1} \sqrt{\frac{du_e}{dx}} \left( h_0 - h_w \right)$$
+
+with the subscripts $e$ and $w$ denoting boundary-layer edge and wall conditions, $h_0$ and $h_w$ the corresponding enthalpies, and the stagnation velocity gradient given by the Newtonian estimate
+
+$$\frac{du_e}{dx} = \frac{1}{R_n} \sqrt{\frac{2 \left( p_s - p_\infty \right)}{\rho_s}}$$
+
+The [heat flux][ref_heat_flux] entering the structure at a stagnation point is given to good accuracy by the correlation of [Sutton and Graves 1971][research_sutton_graves_1971],
 
 $$\dot{q}_s = k \sqrt{\frac{\rho_\infty}{R_n}} \, V_\infty^3$$
 
@@ -339,7 +531,15 @@ with $R_n$ the effective nose radius in metres and $k = 1.7415 \times 10^{-4}$ i
 
 $$\dot{q}_s = 1.7415 \times 10^{-4} \times \sqrt{\frac{0.0157}{0.10}} \times 2021^3 = 5.7 \times 10^{5} \ \text{watts per square metre}$$
 
-or 569 kilowatts per square metre. A structure that cannot conduct that away must radiate it, and the radiation equilibrium wall temperature follows from the [Stefan-Boltzmann law][ref_stefan_boltzmann] as
+or 569 kilowatts per square metre. Whether the structure can be treated as isothermal through its thickness is decided by the Biot number
+
+$$Bi = \frac{h_c t_w}{k_w}$$
+
+with $t_w$ the wall thickness and $k_w$ the wall conductivity, and for the thin metallic skins used throughout this series $Bi \ll 1$, so a lumped transient balance applies,
+
+$$\rho_w c_w t_w \frac{dT_w}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_w^4$$
+
+whose steady state is the radiation equilibrium below and whose transient is the heat-soak problem that decides whether a short exposure is survivable. A structure that cannot conduct the heat away must radiate it, and the radiation equilibrium wall temperature follows from the [Stefan-Boltzmann law][ref_stefan_boltzmann] as
 
 $$T_{\text{eq}} = \left( \frac{\dot{q}_s}{\varepsilon \sigma_{SB}} \right)^{1/4}$$
 
@@ -349,11 +549,27 @@ For vehicles that enter rather than cruise, the governing parameter is the [ball
 
 $$\beta = \frac{m}{C_D A}$$
 
-in kilograms per square metre, and the Allen-Eggers solution for ballistic [atmospheric entry][ref_atmospheric_entry] through an exponential atmosphere of scale height $H$ gives the peak deceleration as
+in kilograms per square metre. Taking the exponential atmosphere
+
+$$\rho(h) = \rho_0 \, e^{-h / H}$$
+
+with $H$ the scale height, the Allen-Eggers solution for ballistic [atmospheric entry][ref_atmospheric_entry] gives the velocity profile
+
+$$V(h) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin \gamma_e} e^{-h / H} \right]$$
+
+from which the peak deceleration follows as
 
 $$a_{\max} = \frac{V_e^2 \sin \gamma_e}{2 e H}$$
 
-with $V_e$ the entry speed, $\gamma_e$ the entry flight path angle, and $e$ the base of natural logarithms. The striking feature is that peak deceleration is independent of the ballistic coefficient, which decides only the altitude at which it occurs. The extension to lifting entry is [Chapman 1958][research_chapman_1958] and the comparative performance analysis that established the lifting-entry case is [Eggers Allen and Neice 1955][research_eggers_allen_neice_1955], with book-length treatments in [Vinh Busemann and Culp 1980][book_vinh_busemann_culp_1980] Hypersonic and Planetary Entry Flight Mechanics, [Regan and Anandakrishnan 1993][book_regan_anandakrishnan_1993] Dynamics of Atmospheric Re-Entry, and [Loh 1963][book_loh_1963] Dynamics and Thermodynamics of Planetary Entry. Lifting entry, which the [Boeing X-20 Dyna-Soar][ref_boeing_x20], the X-23, the [Martin Marietta X-24A][ref_martin_x24a] and [X-24B][ref_martin_x24b], the [Boeing X-37][ref_boeing_x37], and the [NASA X-38][ref_nasa_x38] programmes all explored in different forms, breaks that independence by adding a lift term and trading peak heating rate against total heat load. The lifting-body lineage is recounted by [Reed and Lister 1997][book_reed_lister_1997_wingless] Wingless Flight, the entry-and-recovery history by [Launius and Jenkins 2012][book_launius_jenkins_2012] Coming Home, and the Dyna-Soar programme specifically by [Houchin 2006][book_houchin_2006_dyna_soar].
+with $V_e$ the entry speed, $\gamma_e$ the entry flight path angle, and $e$ the base of natural logarithms. The striking feature is that peak deceleration is independent of the ballistic coefficient, which decides only the altitude at which it occurs,
+
+$$h_{a,\max} = H \ln \frac{\rho_0 H}{\beta \sin \gamma_e}$$
+
+so a light blunt vehicle decelerates high in thin air and a dense slender one decelerates low in dense air, at the same peak load. The two quantities a thermal protection system must survive are the peak rate and the integrated load
+
+$$Q = \int_0^{t_f} \dot{q}_s \, dt$$
+
+and these are traded against one another rather than minimized together, because a shallow lifting entry lowers the peak rate while lengthening the exposure and therefore raising $Q$. The extension to lifting entry is [Chapman 1958][research_chapman_1958] and the comparative performance analysis that established the lifting-entry case is [Eggers Allen and Neice 1955][research_eggers_allen_neice_1955], with book-length treatments in [Vinh Busemann and Culp 1980][book_vinh_busemann_culp_1980] Hypersonic and Planetary Entry Flight Mechanics, [Regan and Anandakrishnan 1993][book_regan_anandakrishnan_1993] Dynamics of Atmospheric Re-Entry, and [Loh 1963][book_loh_1963] Dynamics and Thermodynamics of Planetary Entry. Lifting entry, which the [Boeing X-20 Dyna-Soar][ref_boeing_x20], the X-23, the [Martin Marietta X-24A][ref_martin_x24a] and [X-24B][ref_martin_x24b], the [Boeing X-37][ref_boeing_x37], and the [NASA X-38][ref_nasa_x38] programmes all explored in different forms, breaks that independence by adding a lift term and trading peak heating rate against total heat load. The lifting-body lineage is recounted by [Reed and Lister 1997][book_reed_lister_1997_wingless] Wingless Flight, the entry-and-recovery history by [Launius and Jenkins 2012][book_launius_jenkins_2012] Coming Home, and the Dyna-Soar programme specifically by [Houchin 2006][book_houchin_2006_dyna_soar].
 
 ### Stability and Control
 
@@ -361,7 +577,11 @@ Longitudinal static stability requires that a disturbance in angle of attack pro
 
 $$C_{m\alpha} = C_{L\alpha} \left( \frac{x_{cg} - x_{ac}}{\bar{c}} \right) < 0$$
 
-with $x_{cg}$ and $x_{ac}$ the centre of gravity and aerodynamic centre positions and $\bar{c}$ the mean aerodynamic chord. The normalized distance between them is the static margin
+with $x_{cg}$ and $x_{ac}$ the centre of gravity and aerodynamic centre positions and $\bar{c}$ the mean aerodynamic chord. The neutral point is the centre of gravity position at which that restoring tendency vanishes, defined implicitly by
+
+$$\left. \frac{\partial C_m}{\partial C_L} \right|_{x_{cg} = x_{np}} = 0$$
+
+and for a rigid airframe it coincides with the aerodynamic centre of the complete configuration. The normalized distance from it is the static margin
 
 $$SM = \frac{x_{ac} - x_{cg}}{\bar{c}}$$
 
@@ -371,19 +591,51 @@ The two longitudinal dynamic modes are the short period and the [phugoid][ref_ph
 
 $$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}$$
 
-in the standard dimensional stability derivative notation, and it is fast enough to be handled by the pilot as an immediate response. The phugoid is slow, lightly damped, and to first order independent of the aerodynamics, with frequency
+in the standard dimensional stability derivative notation, with damping ratio
+
+$$\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}$$
+
+and it is fast enough to be handled by the pilot as an immediate response. The phugoid is slow, lightly damped, and to first order independent of the aerodynamics, with frequency
 
 $$\omega_{ph} \approx \frac{g \sqrt{2}}{V}$$
 
-which for an aircraft at 300 metres per second gives a period of about 44 seconds. Lateral-directional stability requires positive directional stiffness $C_{n\beta}$ and negative dihedral effect $C_{l\beta}$, and the coupling between them produces the [Dutch roll][ref_dutch_roll] mode. The same modal structure at model scale is worked in [A122 Stability Control and Configuration][related_post_a122_stability_configuration] and [A123 Dynamic Stability and Control][related_post_a123_dynamic_stability].
+which for an aircraft at 300 metres per second gives a period of about 44 seconds. Its damping ratio depends only on the aerodynamic efficiency,
 
-The X-series contains the canonical demonstration that these modes do not tell the whole story. [Inertia coupling][ref_inertia_coupling], in which a rapid roll about an axis misaligned with the principal inertia axis pumps energy into pitch and yaw, is governed by the inertia ratios and is invisible to linearized single-axis analysis. It was predicted by [Phillips 1948][research_phillips_1948] before it was encountered. The [Bell X-2][ref_bell_x2] and the X-3 both met it violently, the X-2 fatally, and the resulting understanding changed how roll rates were specified across the fleet. The later high-angle-of-attack and post-stall work of the [Rockwell-MBB X-31][ref_rockwell_mbb_x31] and the flight-control research of the [General Dynamics X-62 VISTA][ref_gd_x62_vista] descend directly from this thread, as does the X-29 control work reported by [Putnam 1984][research_putnam_1984_x29], [Sefic and Maxwell 1986][research_sefic_maxwell_1986], and [Gera and Bosworth 1987][research_gera_bosworth_1987].
+$$\zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}$$
+
+so a clean high lift-to-drag airframe has a persistent, poorly damped phugoid, which is a nuisance in cruise and a hazard on an unpowered approach of the kind every rocket research aircraft in this series had to fly. Lateral-directional stability requires positive directional stiffness $C_{n\beta}$ and negative dihedral effect $C_{l\beta}$, and the coupling between them produces the [Dutch roll][ref_dutch_roll] mode, whose frequency and the roll subsidence time constant are approximately
+
+$$\omega_{dr} \approx \sqrt{\frac{N_\beta}{I_z}}, \qquad \tau_r \approx -\frac{I_x}{L_p}$$
+
+with the spiral mode stable when
+
+$$L_\beta N_r - L_r N_\beta > 0$$
+
+which is the condition that fails on many swept-wing configurations and forces artificial stabilization. The same modal structure at model scale is worked in [A122 Stability Control and Configuration][related_post_a122_stability_configuration] and [A123 Dynamic Stability and Control][related_post_a123_dynamic_stability].
+
+The X-series contains the canonical demonstration that these modes do not tell the whole story. [Inertia coupling][ref_inertia_coupling], in which a rapid roll about an axis misaligned with the principal inertia axis pumps energy into pitch and yaw, arises from the gyroscopic terms in the Euler moment equations,
+
+$$I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q$$
+
+which vanish in single-axis analysis and grow with the product of roll rate and the inertia difference. Divergence follows when the roll rate approaches the lower of the two aerodynamic natural frequencies,
+
+$$\omega_\alpha = \sqrt{\frac{-M_\alpha}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{N_\beta}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)$$
+
+so an airframe with most of its mass in a long fuselage rather than in the wings, which is every supersonic research aircraft in this series, has a low critical roll rate precisely because $I_z - I_x$ is large. The effect is governed by the inertia ratios and is invisible to linearized single-axis analysis. It was predicted by [Phillips 1948][research_phillips_1948] before it was encountered. The [Bell X-2][ref_bell_x2] and the X-3 both met it violently, the X-2 fatally, and the resulting understanding changed how roll rates were specified across the fleet. The later high-angle-of-attack and post-stall work of the [Rockwell-MBB X-31][ref_rockwell_mbb_x31] and the flight-control research of the [General Dynamics X-62 VISTA][ref_gd_x62_vista] descend directly from this thread, as does the X-29 control work reported by [Putnam 1984][research_putnam_1984_x29], [Sefic and Maxwell 1986][research_sefic_maxwell_1986], and [Gera and Bosworth 1987][research_gera_bosworth_1987].
 
 Where dynamic pressure falls below the level at which aerodynamic surfaces produce useful moments, control must come from reaction jets. The required time for a manoeuvre through angle $\Delta \phi$ about an axis of inertia $I$ using thrusters of moment arm $\ell$ and thrust $F_t$ in a bang-bang minimum-time manoeuvre is
 
 $$\Delta t = 2 \sqrt{\frac{I \Delta \phi}{F_t \ell}}$$
 
-and the propellant required follows from the thruster specific impulse. The X-15 carried hydrogen peroxide reaction controls for exactly this regime, and it is the first aircraft in the series to require an explicitly dual control system with a handover between aerodynamic and reaction control authority.
+and the propellant required follows from the total impulse and the thruster specific impulse,
+
+$$m_{p, \text{RCS}} = \frac{\int F_t \, dt}{I_{sp, \text{RCS}} \, g_0}$$
+
+The handover between the two control systems occurs at the dynamic pressure where aerodynamic and reaction authority are equal,
+
+$$q_{\times} = \frac{F_t \ell}{S b \, C_{l \delta} \, \delta_{\max}}$$
+
+below which the aerodynamic surfaces cannot produce the required moment at full deflection. The X-15 carried hydrogen peroxide reaction controls for exactly this regime, and it is the first aircraft in the series to require an explicitly dual control system with a handover between aerodynamic and reaction control authority.
 
 ### Instrumentation and Data Reduction
 
@@ -391,7 +643,11 @@ An instrument that cannot resolve the quantity is a flight wasted, so the instru
 
 $$u_c^2(y) = \sum_{i=1}^{n} \left( \frac{\partial f}{\partial x_i} \right)^2 u^2(x_i)$$
 
-assuming uncorrelated inputs, as developed in [Taylor 1997][book_taylor_1997_error_analysis] An Introduction to Error Analysis and [Bevington and Robinson 2002][book_bevington_robinson_2002] Data Reduction and Error Analysis. The important structural feature of flight-test data reduction is that the quantities of interest are frequently small differences of large measured numbers, which amplifies uncertainty. Drag in accelerating flight is obtained from
+which acquires a covariance term
+
+$$2 \sum_{i < j} \frac{\partial f}{\partial x_i} \frac{\partial f}{\partial x_j} u(x_i, x_j)$$
+
+whenever the inputs share a calibration source, as thrust and mass flow generally do. The uncorrelated form is developed in [Taylor 1997][book_taylor_1997_error_analysis] An Introduction to Error Analysis and [Bevington and Robinson 2002][book_bevington_robinson_2002] Data Reduction and Error Analysis. The important structural feature of flight-test data reduction is that the quantities of interest are frequently small differences of large measured numbers, which amplifies uncertainty. Drag in accelerating flight is obtained from
 
 $$D = T - m a_x$$
 
@@ -399,17 +655,33 @@ with $T$ the thrust, $m$ the instantaneous mass, and $a_x$ the measured axial ac
 
 $$u_c(D) = \sqrt{(801)^2 + (237)^2} = 835 \ \text{newtons}$$
 
-which is 7.1 percent of the drag. A three percent thrust uncertainty has become a 7.1 percent drag uncertainty, and the amplification factor of 2.4 is very nearly the thrust-to-drag ratio of 2.28. That relation is general. Differencing amplifies relative uncertainty by approximately the ratio of the larger quantity to the difference, and it is why thrust calibration consumed so much ground effort in these programmes and why later programmes moved toward direct force measurement wherever they could.
+which is 7.1 percent of the drag. A three percent thrust uncertainty has become a 7.1 percent drag uncertainty, and the amplification factor of 2.4 is very nearly the thrust-to-drag ratio of 2.28. That relation is general. Stated generally, for $D = T - X$ the relative uncertainty propagates as
+
+$$\frac{u(D)}{D} = \frac{T}{D} \sqrt{\left( \frac{u(T)}{T} \right)^2 + \left( \frac{X}{T} \right)^2 \left( \frac{u(X)}{X} \right)^2}$$
+
+so that differencing amplifies relative uncertainty by approximately the ratio of the larger quantity to the difference, and it is why thrust calibration consumed so much ground effort in these programmes and why later programmes moved toward direct force measurement wherever they could.
 
 Sampling imposes its own constraint. A structural mode at frequency $f_{\max}$ requires a sample rate satisfying the [Nyquist-Shannon sampling theorem][ref_nyquist_shannon], established in [Nyquist 1928][research_nyquist_1928],
 
 $$f_s > 2 f_{\max}$$
 
-with practical flight-test rates set several times higher to permit reconstruction without aggressive filtering. The resulting [telemetry][ref_telemetry] bit rate for $N_c$ channels sampled at $f_s$ with $b$ bits per word is
+with practical flight-test rates set several times higher to permit reconstruction without aggressive filtering. Amplitude resolution imposes a parallel limit, since a $b$-bit converter spanning a full-scale range $FS$ quantizes with step and noise
+
+$$\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}$$
+
+giving a signal-to-noise ratio of
+
+$$\text{SNR} \approx 6.02 \, b + 1.76 \ \text{decibels}$$
+
+so that each additional bit buys about six decibels and the word length in the telemetry frame is a direct statement of how finely any measurement can be resolved. The resulting [telemetry][ref_telemetry] bit rate for $N_c$ channels sampled at $f_s$ with $b$ bits per word is
 
 $$B = N_c f_s b$$
 
-so that one hundred channels at 200 samples per second and ten bits per word require 200 kilobits per second. Against [pulse-code modulation][ref_pcm] telemetry of the early 1960s, which operated in the tens of kilobits per second, that budget forced hard choices about which measurements were telemetered live and which were recorded on board for post-flight recovery. The ground-side computing and simulation infrastructure that consumed those data streams is treated on this blog in [A241 Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation] and [A244 Space Shuttle Software][related_post_a244_shuttle_software]. The instrumentation constraint is therefore a genuine design constraint rather than an afterthought, and several articles in this series treat it as such.
+so that one hundred channels at 200 samples per second and ten bits per word require 200 kilobits per second. Against [pulse-code modulation][ref_pcm] telemetry of the early 1960s, which operated in the tens of kilobits per second, that budget forced hard choices about which measurements were telemetered live and which were recorded on board for post-flight recovery. The hard ceiling is the channel capacity of [Shannon 1948][research_shannon_1948],
+
+$$C = B_w \log_2 \left( 1 + \frac{S}{N} \right)$$
+
+with $B_w$ the radio-frequency bandwidth in hertz, and a research aircraft at the far edge of a range at low elevation angle is operating where the signal-to-noise ratio, and therefore $C$, is at its worst precisely when the data matter most. The ground-side computing and simulation infrastructure that consumed those data streams is treated on this blog in [A241 Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation] and [A244 Space Shuttle Software][related_post_a244_shuttle_software]. The instrumentation constraint is therefore a genuine design constraint rather than an afterthought, and several articles in this series treat it as such.
 
 ## The Economics of a Flight Test Programme
 
@@ -419,13 +691,21 @@ Programme cost decomposes into a development term and a per-flight term,
 
 $$C_{\text{total}} = C_{\text{dev}} + n \, C_{\text{flight}} + n_a C_{\text{airframe}}$$
 
-with $n$ the number of flights and $n_a$ the number of airframes built. The flight count is set by the information requirement derived earlier, and the airframe count is set by attrition. The unit-cost learning effects that govern the airframe term were first quantified in aviation by [Wright 1936][research_wright_1936].
+with $n$ the number of flights and $n_a$ the number of airframes built. The flight count is set by the information requirement derived earlier, and the airframe count is set by attrition. The unit-cost learning effects that govern the airframe term were first quantified in aviation by [Wright 1936][research_wright_1936], whose result is that unit cost falls as a fixed fraction $b$ for every doubling of cumulative output,
+
+$$C_n = C_1 \, n^{\log_2 b}$$
+
+with $b$ near 0.80 for airframe manufacture. At the two and three unit quantities typical of this series the learning curve has barely begun, which is a compact statement of why research aircraft are so expensive per airframe.
 
 Attrition sizing is the part usually left implicit, and it is worth making explicit because it explains a persistent pattern in the historical record. Let $p$ denote the probability that a given flight results in loss of the airframe. The number of losses over $n$ flights follows the [binomial distribution][ref_binomial_distribution], and a programme completes its flight card if the number of losses is strictly less than the number of airframes. Requiring completion with probability at least $1 - \alpha$ gives the condition
 
 $$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
 
-Evaluate this for the X-1 example, with $n = 25$ flights, a per-flight loss probability of $p = 0.02$, and a required completion confidence of 95 percent. The cumulative probabilities are 0.603 for zero losses, 0.911 for at most one, and 0.987 for at most two. Two airframes fall short of the requirement and three satisfy it, so
+Evaluate this for the X-1 example, with $n = 25$ flights, a per-flight loss probability of $p = 0.02$, and a required completion confidence of 95 percent. The cumulative probabilities are 0.603 for zero losses, 0.911 for at most one, and 0.987 for at most two. The expected number of losses over the programme is simply
+
+$$\mathbb{E}[\text{losses}] = n p = 0.5$$
+
+but sizing to the expectation rather than to the tail is the error the condition above is written to avoid. Two airframes fall short of the requirement and three satisfy it, so
 
 $$n_a^{*} = 3$$
 
@@ -435,7 +715,11 @@ The investment decision itself compares the value of the information against its
 
 $$V(\sigma_n) - V(\sigma_0) > C_{\text{total}}$$
 
-and the structure of $V$ explains why these programmes cluster around moments of architectural commitment. When a national decision to build a fleet, an airframe family, or a launch system hangs on a number, the left-hand side is enormous, and a programme costing what a research aircraft costs is trivially justified. When no such decision is pending, the same programme is not justified at any price, which is a compact explanation for why the X-series is not uniformly distributed in time but arrives in clusters that track procurement decisions.
+where the left-hand side is the expected value of the additional information, formally
+
+$$\text{EVSI} = \mathbb{E}_y \left[ \max_a \mathbb{E}_{\theta \mid y} U(a, \theta) \right] - \max_a \mathbb{E}_\theta U(a, \theta)$$
+
+with $U$ the utility of a downstream decision $a$ taken in the state $\theta$. The structure of $V$ explains why these programmes cluster around moments of architectural commitment. When a national decision to build a fleet, an airframe family, or a launch system hangs on a number, the left-hand side is enormous, and a programme costing what a research aircraft costs is trivially justified. When no such decision is pending, the same programme is not justified at any price, which is a compact explanation for why the X-series is not uniformly distributed in time but arrives in clusters that track procurement decisions.
 
 The marginal value of an additional flight follows from differentiating the information gain,
 
@@ -467,7 +751,11 @@ The assignment rate over the eighty years from the X-1 in 1946 to the X-76 in 20
 
 $$\lambda = \frac{|D| - |U|}{\Delta t} = \frac{65}{80} = 0.81 \ \text{per year}$$
 
-but the assignments are not close to Poisson. They cluster tightly around the late 1940s and 1950s, again around the late 1990s, and again in the 2010s and 2020s, with a pronounced gap through the 1970s and early 1980s. Those clusters track procurement decision points, defence budget cycles, and the founding of new sponsoring organizations rather than any internal logic of aeronautical research, and the closing article of the series takes up that correlation directly.
+If assignments arrived as a Poisson process the counts per interval would satisfy a variance equal to their mean, so the index of dispersion
+
+$$\mathcal{D} = \frac{s^2}{\bar{x}}$$
+
+would be near unity. Counting assignments by decade gives a value well above one, and the assignments are therefore not close to Poisson. They cluster tightly around the late 1940s and 1950s, again around the late 1990s, and again in the 2010s and 2020s, with a pronounced gap through the 1970s and early 1980s. Those clusters track procurement decision points, defence budget cycles, and the founding of new sponsoring organizations rather than any internal logic of aeronautical research, and the closing article of the series takes up that correlation directly.
 
 ## The Institutional Arrangement
 

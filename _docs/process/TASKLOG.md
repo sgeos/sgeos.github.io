@@ -16,6 +16,8 @@ the stated preference to judge shape and depth before the pattern is set across 
 
 - [x] A297 drafted as `_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes` index 1, following the research-aircraft genre in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`.
 - [x] Parity with the History of SpaceX medians reached without padding. 1245 lines against a 1345 median, 76 display equations against 72, and 327 reference definitions against 306.
+- [x] Equation-density review performed on request, auditing the article for relations the prose names or relies on without displaying. 19 such results found, and 71 equations added across 44 edits, each asserted to match its anchor exactly once. Final state is 1533 lines and 147 display equations.
+- [x] Genre document updated with a series-opener row, since 147 equations sits outside the 60-to-80 full-aircraft band and no row described an opener.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
 - [x] All 159 Wikipedia citations swept, where a 404 is a meaningful signal. Five wrong titles corrected against the Wikipedia API and seven further confirmed pages added.

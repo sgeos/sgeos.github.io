@@ -35,11 +35,22 @@ Depth is a function of the surviving record, not of the author's diligence. Thre
 
 | Class | Lines | Display equations | References | Sections |
 |-------|-------|-------------------|------------|----------|
+| Series opener | 1,300 to 1,600 | 120 to 160 | 250 to 380 | Framing order, see below |
 | Full aircraft | 1,300 to 1,600 | 60 to 80 | 250 to 380 | The full order above |
 | Documentation-poor | 150 to 400 | 0 to 15 | 20 to 60 | Full order, short sections, explicit statement of what is unknown |
 | Designation anomaly | 40 to 150 | 0 to 2 | 8 to 30 | Reduced order, see below |
 
 The full-aircraft figures are the History of SpaceX medians and are descriptive rather than prescriptive. Do not pad an article to reach them. Do not strip one to stay under them.
+
+### The Series Opener
+
+A series opener is not a per-aircraft article and does not use the twelve-section order. It carries
+the analytical model, the shared sizing derivations, and the statement of what the series can and
+cannot establish. Its equation band is roughly double the per-aircraft band for a structural reason
+rather than an editorial one. Every relation derived once in the opener is a relation the
+per-aircraft articles reference instead of repeating, so density there buys brevity seventy-one times
+over. The opener should still show any relation it names. A result cited by author and year but never
+displayed is the defect this band exists to prevent.
 
 ### Designation Anomalies
 

@@ -18,9 +18,17 @@ stated preference to review shape and depth before the pattern is set across sev
 
 `_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes`, index 1.
 
-1245 lines, 76 display equations, 327 reference definitions, 15,951 words. The History of SpaceX
-medians for comparison are 1345 lines, 72 equations, and 306 references, so the article sits at
-parity without having been padded toward it.
+1533 lines, 147 display equations, 327 reference definitions, 18,692 words. The History of SpaceX
+medians for comparison are 1345 lines, 72 equations, and 306 references.
+
+**The equation count is deliberately double the parity figure and you should know why.** The article
+was drafted at 76 equations, which sat at parity. You then asked for an equation-density review with
+all candidate equations added. The audit found 19 results that the prose named or relied on without
+ever showing, including Sutherland's law, the Kantrowitz starting condition, Fay-Riddell, Wright's
+learning curve, the Shannon capacity, the area rule as a design statement, the exponential
+atmosphere, and the elliptic lift distribution. Closing those gaps plus the derivation steps they
+depended on added 71 equations across 44 edits. Nothing was added to raise a count. The filter was
+that the prose already asserted the relation or that a cited result was named but not given.
 
 The argument is that a research aircraft is an instrument rather than a vehicle. Ground facilities
 cannot match Mach, Reynolds, Prandtl, wall temperature ratio, Damkohler, and Knudsen numbers
@@ -62,6 +70,15 @@ Zero prose style violations. The article builds clean in an isolated tree and re
 `post_url` resolved.
 
 ---
+
+## A Genre-Document Question the Equation Pass Raised
+
+`RESEARCH_AIRCRAFT_STRUCTURE.md` bands a full-aircraft article at 60 to 80 display equations. At 147
+this opener now sits far outside that band, and the band has no row for a series opener. I have added
+one, describing the opener as the article that carries the shared derivations so the seventy-one
+per-aircraft articles can reference rather than repeat them. That is a description of what the
+article now is rather than a new target, and it is the smallest change that stops the genre document
+contradicting the article. Revert it if you would rather the opener be held to the per-aircraft band.
 
 ## Two Things You Should Decide
 
