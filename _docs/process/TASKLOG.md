@@ -28,6 +28,10 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Final state 1765 lines, 147 display equations, 421 reference definitions, 21,933 words, all cited with zero undefined and zero orphaned, all 65 NTRS fixed identifiers swept at 200.
 - [x] Committed and pushed to `origin/master`. Not published. The article remains in `_drafts/` and the deploy workflow builds without `--drafts`.
 - [ ] 109 Open Library book citations still point at search endpoints, which cannot return a not-found. Open Library exposes a search API and the same upgrade that fixed the NASA citations is available.
+- [x] A298, the Bell X-1, drafted as `_drafts/x_planes_bell_x1.markdown`, editorial date 2025-10-07, series index 2. 1095 lines, 80 display equations, 259 references, 13,414 words.
+- [x] A298 verification: all 54 worked examples re-derived with one correction and four precision tightenings, all 259 references cited with zero undefined and zero orphaned, all 142 meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, acronyms correct, isolated build succeeding with series navigation and cross-links resolving.
+- [ ] A298 line count is about 200 below the 1300 to 1600 genre band. Not padded, since the genre document forbids it. More content is available from the NTRS harvest, which returned 71 documents against 44 used.
+- [ ] **Publication order dependency.** A298 cites A297 through `post_url`, so publishing A298 while A297 is a draft fails the site build. They publish together or A297 first.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.

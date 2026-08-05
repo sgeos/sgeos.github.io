@@ -17,6 +17,24 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-1 A298 2025-10-07
+
+`x_planes_bell_x1.markdown`, A298, editorial date 2025-10-07, series `x_planes` index 2 of 72. The
+first per-aircraft article, using the twelve-section research-aircraft order.
+
+1095 lines, 80 display equations, 259 reference definitions, 13,414 words, against a full-aircraft
+band of 1300 to 1600 lines, 60 to 80 equations, and 250 to 380 references. Equations sit at the top
+of the band and references inside it. The line count is about 200 short and has deliberately not been
+padded.
+
+Verification complete. All 54 worked examples re-derived independently with one correction and four
+precision tightenings. All 259 references cited with zero undefined and zero orphaned. All 142
+meaningful-404 URLs swept at 200. `_verify.py` clean, zero style violations, acronyms spelled out
+before first use, isolated build succeeding with series navigation and the A297 cross-link resolving.
+
+**Publication order dependency.** A298 cites A297 through `post_url`, so publishing A298 while A297
+remains a draft fails the entire site build. They publish together or A297 first.
+
 ## X-Planes Series Opener A297 2025-10-06
 
 `x_planes_framing.markdown`, A297, editorial date 2025-10-06, series `x_planes` index 1 of 72. The
