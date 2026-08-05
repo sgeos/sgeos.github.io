@@ -24,7 +24,7 @@ first article of a seventy-two-article back-dated series running 2025-10-06 thro
 per day unbroken, ending flush against the 2025-12-17 post. Held for human-pilot review before A298
 is drafted.
 
-1623 lines, 147 display equations, 372 reference definitions, 19,822 words, against History of SpaceX
+1765 lines, 147 display equations, 421 reference definitions, 21,933 words, against History of SpaceX
 medians of 1345 lines, 72 equations, and 306 references. The article was drafted at 76 equations, at
 parity, and then took a requested equation-density pass that found 19 results named or relied upon in
 prose but never displayed, adding 71 equations across 44 edits. The genre document gained a
@@ -36,8 +36,16 @@ against an article that claims the NACA and NASA report series as its backbone. 
 now 87 of 372, or 24.5 percent. 22 existing NASA citations were upgraded from search endpoints to
 fixed NTRS document identifiers resolved through the citations API, all 63 of which were swept at
 200, and 11 journal primaries were resolved through Crossref with an author match required. Six
-results that the prose named without citing at all were corrected. 112 citations still point at
-search endpoints, being 109 Open Library book URLs and 3 unresolved NTRS reports. The genre is the research-aircraft hybrid
+results that the prose named without citing at all were corrected.
+
+The publication review then found three acronym violations, namely NACA spelled out long after first
+use, NASA never spelled out at all, and DARPA expanded after its first occurrence, all fixed. It also
+found that only 10.2 percent of dated references were 2010 or later with one from the 2020s, against
+a directive that these articles survey the contemporary literature. A `## The Contemporary Literature`
+section with eight subsections was added, along with 49 contemporary references harvested from
+Crossref under a 2015 date filter and from the NTRS API. Contemporary coverage is now 28.8 percent
+and primary sources 33.7 percent. **Committed and pushed, not published.** 109 Open Library book
+citations still point at search endpoints. The genre is the research-aircraft hybrid
 defined in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`, and the opener establishes the analytical
 model plus the sizing relations that the per-aircraft articles reference rather than repeat.
 
