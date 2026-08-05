@@ -33,7 +33,11 @@ with $A^{*}$ the area at which the flow would be sonic, tabulated for every case
 
 $$\frac{A_t - A_m}{A_t} \ge \frac{A^{*}(M_\infty)}{A_t}$$
 
-and as $M_\infty$ approaches unity the right-hand side approaches the whole test-section area. Any model of finite size therefore chokes the tunnel before the free stream reaches Mach one, and the blockage ratio $A_m / A_t$ sets how early. Reducing the model until it no longer chokes reduces the Reynolds number until the data no longer represent the aircraft, which is the similarity gap in its sharpest form. Data in the band from roughly Mach 0.85 to Mach 1.15 were unusable, and the [NACA conference on transonic design problems][research_transonic_conference_1949] held in 1949 records how completely that band had resisted ground measurement. The slotted and perforated wall treatments that eventually opened it, and the wall-interference corrections that make transonic tunnel data trustworthy even now as in [Chen and Wang 2024][research_chen_wang_2024], came after the X-1 rather than before it.
+and as $M_\infty$ approaches unity the right-hand side approaches the whole test-section area. Any model of finite size therefore chokes the tunnel before the free stream reaches Mach one, and the blockage ratio
+
+$$\varepsilon_b = \frac{A_m}{A_t}$$
+
+sets how early. Reducing the model until it no longer chokes reduces the Reynolds number until the data no longer represent the aircraft, which is the similarity gap in its sharpest form. Data in the band from roughly Mach 0.85 to Mach 1.15 were unusable, and the [NACA conference on transonic design problems][research_transonic_conference_1949] held in 1949 records how completely that band had resisted ground measurement. The slotted and perforated wall treatments that eventually opened it, and the wall-interference corrections that make transonic tunnel data trustworthy even now as in [Chen and Wang 2024][research_chen_wang_2024], came after the X-1 rather than before it.
 
 What remained was falling bodies, rocket-propelled models, and accidents. Aircraft in high-speed dives, notably the [Lockheed P-38 Lightning][ref_p38], encountered a nose-down pitching tendency that the pilot could not counter, and some of them did not recover. The phenomenon acquired the name [Mach tuck][ref_mach_tuck]. Whether it reflected a drag barrier, a stability change, a control failure, or all three was exactly the open question, and the popular framing of a [sound barrier][ref_sound_barrier] treated as a physical wall obscured that the difficulty was several distinct effects arriving together.
 
@@ -59,7 +63,11 @@ The loss that matters for drag is the entropy rise, expressed as a total pressur
 
 $$\frac{p_{02}}{p_{01}} = \exp \left( -\frac{\Delta s}{R} \right)$$
 
-which is unity for a vanishing shock and falls rapidly as shock strength grows. Wave drag is that loss integrated over the surface, which is why the drag rise begins gently and then steepens. Between the critical and divergence Mach numbers lies the region where a shock stands on the surface and the [boundary layer][ref_boundary_layer] beneath it may or may not separate. The boundary layer whose behaviour decides all of this is the one introduced by [Prandtl 1928][research_prandtl_1928], and separation occurs where the adverse pressure gradient imposed by the shock overcomes the near-wall momentum,
+which is unity for a vanishing shock and falls rapidly as shock strength grows. Wave drag is that loss integrated over the surface, which is why the drag rise begins gently and then steepens. The rise itself is conventionally fitted rather than derived, in the form
+
+$$C_D(M) = C_{D0} + \Delta C_{D_w} \left( \frac{M - M_{\text{crit}}}{M_{DD} - M_{\text{crit}}} \right)^{n}, \qquad M > M_{\text{crit}}$$
+
+with $n$ between two and four, and the whole point of the X-1 was to supply the coefficients that such a fit requires. Between the critical and divergence Mach numbers lies the region where a shock stands on the surface and the [boundary layer][ref_boundary_layer] beneath it may or may not separate. The boundary layer whose behaviour decides all of this is the one introduced by [Prandtl 1928][research_prandtl_1928], and separation occurs where the adverse pressure gradient imposed by the shock overcomes the near-wall momentum,
 
 $$\left. \frac{\partial u}{\partial y} \right|_{y=0} = 0$$
 
@@ -173,7 +181,11 @@ With two chambers burning, a mass of 4500 kilograms, and measured drag near 7.7 
 
 The wing was unswept, of [aspect ratio][ref_aspect_ratio] six and area 12.1 square metres, using [NACA 65-series][ref_naca_airfoil] sections. The decisive parameter was thickness ratio, and the programme treated it as an experiment rather than a choice. The first airframe carried an eight-percent-thick wing and the second a ten-percent-thick wing, so that the two could be compared directly at the same conditions.
 
-The reason thickness dominates is that it sets the peak suction, and the peak suction sets the critical Mach number through the relation above. Taking representative incompressible peak pressure coefficients of $C_{p,0} = -0.30$ for the eight-percent section and $C_{p,0} = -0.38$ for the ten-percent section, and solving
+The reason thickness dominates is that it sets the peak suction, and the peak suction sets the critical Mach number through the relation above. The peak suction itself scales with thickness. Linearized thin-airfoil theory at low lift gives a minimum pressure coefficient proportional to the thickness ratio,
+
+$$C_{p,\min} \approx -k_t \frac{t}{c}$$
+
+with $k_t$ of order three to four for the NACA six-series shapes, which is the relation that makes the comparison below a thickness comparison rather than an arbitrary one. Taking representative incompressible peak pressure coefficients of $C_{p,0} = -0.30$ for the eight-percent section and $C_{p,0} = -0.38$ for the ten-percent section, and solving
 
 $$\frac{C_{p,0}}{\sqrt{1 - M_\infty^2}} = C_{p,\text{crit}}(M_\infty)$$
 
@@ -189,7 +201,11 @@ Lift at the test condition follows from the [lift coefficient][ref_lift_coeffici
 
 $$C_L = \frac{W}{q S}$$
 
-and with a mass near 4500 kilograms after propellant burn the level-flight equivalent lift coefficient at the test point is 0.29, well below any stall consideration. The X-1 was never lift-limited. It was drag-limited and control-limited, which is why the [drag polar][ref_drag_polar] matters here mainly through its zero-lift term. Written out, the polar is
+The lift-curve slope that produces it is itself compressibility-corrected,
+
+$$C_{L\alpha} = \frac{C_{L\alpha,0}}{\sqrt{1 - M_\infty^2}}$$
+
+below the critical Mach number, and this relation fails in the same band and for the same reason as the pressure transformation, which is one more thing the flight data had to supply. With a mass near 4500 kilograms after propellant burn the level-flight equivalent lift coefficient at the test point is 0.29, well below any stall consideration. The X-1 was never lift-limited. It was drag-limited and control-limited, which is why the [drag polar][ref_drag_polar] matters here mainly through its zero-lift term. Written out, the polar is
 
 $$C_D = C_{D0} + \frac{C_L^2}{\pi A e}$$
 
@@ -198,6 +214,20 @@ with the efficiency factor $e$ following the charts of [Oswald 1932][research_os
 $$\frac{C_L^2}{\pi A e} = \frac{0.0841}{\pi \times 6 \times 0.85} = 0.0052$$
 
 against a transonic zero-lift value near 0.05, so induced drag is about ten percent of the total at the test point and the aircraft is overwhelmingly wave-drag limited. That ratio is the quantitative reason the programme could ignore span efficiency and concentrate on thickness and fuselage shape.
+
+The full drag build-up is worth assembling, because it can be checked against the measurement. Skin friction on a turbulent flat plate follows
+
+$$C_f = \frac{0.074}{Re^{1/5}}$$
+
+which at the flight Reynolds number of $8.15 \times 10^{6}$ gives $C_f = 0.00307$, and referred to wing area through a wetted-area ratio near 4.5 this is a friction contribution of 0.0138. The base of the fuselage, where the rocket nozzles sit, contributes
+
+$$C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}$$
+
+with $C_{p,b}$ the base pressure coefficient, and at a representative transonic value of negative 0.15 over a base area of 0.64 square metres this is 0.0079. That term is the reason the programme measured base and rear fuselage pressures separately, reported in [NACA 1953][research_x1_base_pressures_1953]. Adding the fuselage wave drag of 0.031 and the induced term of 0.0052 gives
+
+$$C_D \approx 0.0138 + 0.0310 + 0.0079 + 0.0052 = 0.058$$
+
+against a measured transonic peak near 0.05. An estimate assembled from four independent contributions landing within about fifteen percent of flight measurement is a good result for the period, and it also shows where the estimate is weakest, since the wave drag term is both the largest and the least certain.
 
 ### Reynolds Number and the Scale Problem
 
@@ -231,7 +261,19 @@ with $T_c$ about 6672 newtons. This is a genuine design constraint rather than a
 
 $$a_x = \frac{T_n - D}{m}$$
 
-and at the test condition with two chambers burning and a mass of 4500 kilograms the available acceleration is about 1.6 metres per second squared once measured drag is subtracted, so the aircraft crossed the drag rise slowly enough for the instrumentation to resolve it. That is the operational reason the quantization was tolerable.
+and at the test condition with two chambers burning and a mass of 4500 kilograms the available axial acceleration once measured drag is subtracted is
+
+$$a_x = \frac{T_2 - D}{m} = \frac{13{,}345 - 7700}{4500} = 1.25 \ \text{metres per second squared}$$
+
+and the time to cross the drag rise from Mach 0.9 to Mach 1.1 follows by integrating
+
+$$t = \int_{V_1}^{V_2} \frac{dV}{a_x(V)} \approx \frac{\Delta M \, a_\infty}{a_x} = \frac{0.2 \times 295}{1.25} = 47 \ \text{seconds}$$
+
+so the aircraft crossed the drag rise slowly enough for the instrumentation to resolve it. That excess is not free, because in a climb it must be shared,
+
+$$a_x = \frac{T - D}{m} - g \sin \gamma$$
+
+and at the 7.3 degree climb angle computed below the entire excess goes into potential energy and none into acceleration. The pilot chose between them, which is exactly what specific excess power expresses. That is the operational reason the quantization was tolerable.
 
 Thrust itself follows from the momentum and pressure terms,
 
@@ -245,7 +287,11 @@ with $p_t$ the tank pressure and $r$ the tank radius. At a tank pressure of 2.4 
 
 $$c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}$$
 
-with $A_t$ the throat area and $p_0$ the chamber pressure. The propellant combination fixes $c^{*}$. Complete combustion of ethanol in oxygen proceeds as
+with $A_t$ the throat area and $p_0$ the chamber pressure. The nozzle fixes $C_F$ through its expansion ratio, obtained by solving the area relation at the exit Mach number,
+
+$$\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+
+For a chamber pressure near 1.7 megapascals expanding to roughly 40 kilopascals with a combustion-gas ratio of specific heats near 1.2, the exit Mach number is 2.95 and the expansion ratio is 6.3, which is modest and appropriate for an engine that must work from sea level to the stratosphere without an altitude-compensating nozzle. The propellant combination fixes $c^{*}$. Complete combustion of ethanol in oxygen proceeds as
 
 $$\mathrm{C_2H_5OH} + 3\,\mathrm{O_2} \longrightarrow 2\,\mathrm{CO_2} + 3\,\mathrm{H_2O}$$
 
@@ -261,7 +307,11 @@ and with liquid oxygen at 1141 and diluted alcohol at about 810 kilograms per cu
 
 $$m_{N_2} = \frac{p_t V_{\text{tank}}}{R_{N_2} T} = \frac{2.4 \times 10^{6} \times 2.4}{297 \times 290} = 67 \ \text{kilograms}$$
 
-before accounting for the mass of the high-pressure spheres that store it, which is why the aircraft carried a bank of them. Pressure feeding trades tank mass for turbomachinery development risk, and in 1945 that trade favoured tank mass decisively.
+before accounting for the mass of the high-pressure spheres that store it, which is why the aircraft carried a bank of them. The tank pressure is not a free choice either, since it must exceed the chamber pressure by the injector drop and the line losses,
+
+$$p_t = p_c + \Delta p_{\text{inj}} + \Delta p_{\text{line}}$$
+
+and the injector drop is itself set by the requirement that the feed system be stiff enough to prevent combustion instability coupling back into the propellant lines, conventionally $\Delta p_{\text{inj}} \gtrsim 0.2 \, p_c$. That inequality is the reason a pressure-fed engine cannot simply raise chamber pressure to improve performance, and it caps the whole architecture. Pressure feeding trades tank mass for turbomachinery development risk, and in 1945 that trade favoured tank mass decisively.
 
 ### Structure and the Load Factor Unknown
 
@@ -297,7 +347,15 @@ $$\frac{m_s}{m_0} \approx 0.35$$
 
 is high for an aircraft of this size and is the direct cost of the unknown.
 
-Dynamic behaviour imposed a second constraint. Flutter clearance is governed by the reduced frequency
+Two further structural checks belong to the same sizing. Thin skin panels fail by buckling long before they reach material yield, at a critical stress
+
+$$\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2$$
+
+with $E$ the elastic modulus, $\nu$ the Poisson ratio, $t_s$ the skin thickness, $b_s$ the stiffener pitch, and $k$ near four for a simply supported panel. For aluminium at 72 gigapascals with a 1.6 millimetre skin on a 100 millimetre pitch this gives 68 megapascals, which is a small fraction of the material allowable and explains why high-speed airframes carry closely spaced stringers. Torsion is carried as a shear flow around the closed box,
+
+$$q_s = \frac{T_{\text{torque}}}{2 A_m}$$
+
+by the Bredt relation, with $A_m$ the enclosed area, and the same enclosed area appears in the torsional stiffness that sets the divergence speed below. Dynamic behaviour imposed a second constraint. Flutter clearance is governed by the reduced frequency
 
 $$k = \frac{\omega b}{V}$$
 
@@ -329,7 +387,11 @@ with $C_{L\alpha_t}$ the tail lift-curve slope and $\eta_t$ the tail efficiency.
 
 $$C_{m \delta_e} = -V_H \, C_{L \alpha_t} \, \eta_t \, \tau$$
 
-where $\tau$ is the elevator effectiveness parameter, a function of the ratio of elevator chord to tail chord, with a value near 0.5 for a thirty-percent-chord elevator in attached flow. The elevator therefore starts with half the authority of the all-moving surface.
+where $\tau$ is the elevator effectiveness parameter, a function of the ratio of elevator chord to tail chord, Thin-airfoil theory gives it explicitly as
+
+$$\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c_t} - 1$$
+
+which for a thirty-percent-chord elevator returns $\theta_h = 1.982$ radians and $\tau = 0.66$. Measured values run lower than the inviscid theory because of boundary-layer thickening near the hinge and gap leakage, and a value near 0.5 is representative for a thirty-percent-chord elevator in attached flow. The elevator therefore starts with half the authority of the all-moving surface.
 
 The decisive point is what happens to $\tau$ rather than what it is nominally. When a shock forms ahead of the hinge line and the boundary layer separates behind it, the elevator deflection no longer changes the circulation over the whole surface, and $\tau$ collapses toward zero. The all-moving surface has no hinge line inside the flow field to be blanked, so its authority is not destroyed by the same mechanism.
 
@@ -351,9 +413,25 @@ A second mechanism reinforces the first. The [hinge moment][ref_hinge_moment] on
 
 $$H = q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha_t + C_{h\delta} \delta_e$$
 
-with $S_e$ and $c_e$ the surface area and chord aft of the hinge, and the stick force in a manually reversible system is proportional to it. Through the transonic band the hinge moment derivatives change sign and magnitude unpredictably as the shock moves across the hinge line, so the stick force feedback the pilot relies on becomes an unreliable guide to what the surface is doing. An all-moving surface brings a penalty of its own, since a large surface free to rotate about a spanwise axis is a classical flutter risk, and transonic flutter clearance of all-movable tails was investigated in its own right in [NACA 1957][research_allmovable_flutter_1957] and [NASA 1958][research_allmovable_flutter_1958]. The X-1 accepted that risk because the alternative was no pitch control at all. An all-moving surface driven through an irreversible screw jack removes the pilot from that loop entirely, which is a control-system argument rather than an aerodynamic one and is at least as important. [Trim tabs][ref_trim_tab] and geared servotabs, the alternative approach of the period, are treated in [NACA 1948][research_geared_tab_1948].
+with $S_e$ and $c_e$ the surface area and chord aft of the hinge, and the stick force in a manually reversible system is proportional to it through the control system gearing $G$,
 
-Longitudinal dynamics close the picture. The [static margin][ref_longitudinal_static_stability] is
+$$F_s = G \, H = G \, q \, S_e \, c_e \, C_h$$
+
+so the force the pilot feels scales with dynamic pressure and with a coefficient whose sign is not guaranteed. Through the transonic band the hinge moment derivatives change sign and magnitude unpredictably as the shock moves across the hinge line, so the stick force feedback the pilot relies on becomes an unreliable guide to what the surface is doing. An all-moving surface brings a penalty of its own, since a large surface free to rotate about a spanwise axis is a classical flutter risk, and transonic flutter clearance of all-movable tails was investigated in its own right in [NACA 1957][research_allmovable_flutter_1957] and [NASA 1958][research_allmovable_flutter_1958]. The X-1 accepted that risk because the alternative was no pitch control at all. An all-moving surface driven through an irreversible screw jack removes the pilot from that loop entirely, which is a control-system argument rather than an aerodynamic one and is at least as important. [Trim tabs][ref_trim_tab] and geared servotabs, the alternative approach of the period, are treated in [NACA 1948][research_geared_tab_1948].
+
+Trim is the statement that the total pitching moment vanishes,
+
+$$C_{m_0} + C_{m\alpha} \alpha + C_{m \delta_s} \delta_s = 0$$
+
+which is the equation the stabilizer screw jack solves continuously as Mach number changes the first two terms. The tail contribution also fixes where the [neutral point][ref_aerodynamic_center] sits,
+
+$$\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)$$
+
+and with a wing aerodynamic centre at the quarter chord, the tail volume coefficient of 0.63 computed above, a slope ratio of 0.89, and a downwash derivative estimated from lifting-line theory as
+
+$$\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A} = \frac{2 \times 4.5}{\pi \times 6} = 0.48$$
+
+the neutral point lies at 54 percent of the mean aerodynamic chord. Longitudinal dynamics close the picture. The [static margin][ref_longitudinal_static_stability] is
 
 $$SM = \frac{x_{np} - x_{cg}}{\bar{c}}$$
 
@@ -361,7 +439,11 @@ and the aft migration of the neutral point through Mach one increases it sharply
 
 $$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}$$
 
-so the aircraft becomes simultaneously harder to trim and quicker to respond, which is a demanding combination for a pilot. The tail also sits in the wing wake, so its effective incidence carries the downwash derivative
+with damping ratio
+
+$$\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}$$
+
+so the aircraft becomes simultaneously harder to trim, quicker to respond, and relatively less damped, which is a demanding combination for a pilot. The tail also sits in the wing wake, so its effective incidence carries the downwash derivative
 
 $$\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0$$
 
@@ -411,7 +493,11 @@ The position error itself is the reason. A static port reads a local pressure th
 
 $$\Delta p_s = p_{\text{measured}} - p_\infty, \qquad \frac{\Delta M}{M} = f\left( \frac{\Delta p_s}{p_\infty}, M \right)$$
 
-and calibrating $f$ through the transonic band was itself a research task. The uncertainty in derived quantities then propagates through
+The sensitivity can be written out rather than left as a function. Differentiating the isentropic relation between pressure ratio and Mach number gives
+
+$$\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d(p_0 / p)}{p_0 / p}$$
+
+so a one percent error in the measured pressure ratio produces roughly a one percent error in Mach number at Mach one, and rather more at lower Mach number where the leading factor grows. Calibrating the static source through the transonic band, where the error itself moves as the shock crosses the port, was therefore a research task in its own right rather than a bench calibration. The uncertainty in derived quantities then propagates through
 
 $$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
 
@@ -445,9 +531,29 @@ flights per band, with the information gain measured as
 
 $$I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
 
-The decision-theoretic basis is [Lindley 1956][research_lindley_1956] and the modern survey is [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995], with the design-of-experiments framing in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005] and [Gelman et al 2013][book_gelman_et_al_2013]. A programme covering several Mach bands to five percent from an order-unity prior needs a flight count in the tens, which is the order the X-1 actually flew, and the cumulative total across three airframes is consistent with the attrition sizing that predicted three. Envelope expansion proceeded in small Mach increments, which is the standard method and remains so, as described for a modern programme by [Deepa and Gupta 2023][research_deepa_gupta_2023]. Each flight advanced the maximum Mach number by a small step, the data were reduced on the ground, and the next step was authorized only if nothing anomalous appeared. The buffet and the loss of elevator effectiveness appeared on schedule near Mach 0.88 to 0.94, and the stabilizer was used to recover trim authority.
+The rate at which the aircraft could move through that schedule is the specific excess power already derived, since
 
-The character of that schedule is worth stating because it is the method rather than a detail. A flight was flown to a target Mach number set a small increment above the previous best. The instrumentation recorded on board. The aircraft landed on the lake bed. The film and oscillograph records were developed and reduced on the ground, which took days. The reduced data were compared against the prediction, and only if the comparison held was the next increment authorized. Nothing about that loop is fast, and its slowness is the price of not losing the aircraft.
+$$\frac{dh_e}{dt} = P_s$$
+
+so at 40 metres per second the aircraft added its entire energy-height increment of 8.5 kilometres in a little over three and a half minutes, which is comparable to the powered endurance and explains why every flight was a single climbing run rather than a series of test points. The fleet size follows from the same logic through the attrition condition,
+
+$$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
+
+which returns three airframes for a per-flight loss probability of two percent over twenty-five flights at ninety-five percent confidence, and three were built. The decision-theoretic basis is [Lindley 1956][research_lindley_1956] and the modern survey is [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995], with the design-of-experiments framing in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005] and [Gelman et al 2013][book_gelman_et_al_2013]. A programme covering several Mach bands to five percent from an order-unity prior needs a flight count in the tens, which is the order the X-1 actually flew, and the cumulative total across three airframes is consistent with the attrition sizing that predicted three. Envelope expansion proceeded in small Mach increments, which is the standard method and remains so, as described for a modern programme by [Deepa and Gupta 2023][research_deepa_gupta_2023]. Each flight advanced the maximum Mach number by a small step, the data were reduced on the ground, and the next step was authorized only if nothing anomalous appeared. The buffet and the loss of elevator effectiveness appeared on schedule near Mach 0.88 to 0.94, and the stabilizer was used to recover trim authority.
+
+The character of that schedule is worth stating because it is the method rather than a detail. A flight was flown to a target Mach number set a small increment above the previous best. The instrumentation recorded on board. The aircraft landed on the lake bed, unpowered, which is a flight condition in its own right and one the programme had to clear before it cleared anything else. An unpowered glide holds
+
+$$\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}$$
+
+with $\gamma_g$ the glide angle and $w_s$ the sink rate. With a subsonic zero-lift drag coefficient near 0.04 the best glide ratio is
+
+$$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}} = \frac{1}{2} \sqrt{\frac{\pi \times 6 \times 0.85}{0.04}} = 10.0$$
+
+giving a glide angle of 5.7 degrees. The landing weight after propellant exhaustion is near 3300 kilograms, so the stall speed is
+
+$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 32{,}373}{1.10 \times 12.1 \times 1.2}} = 64 \ \text{metres per second}$$
+
+and an approach flown at 1.3 times stall is 83 metres per second with a sink rate of 8.3 metres per second. That is a fast, steep, one-attempt arrival with no engine, which is why the glide programme came first and why a dry lake bed rather than a runway was the enabling piece of infrastructure. The film and oscillograph records were developed and reduced on the ground, which took days. The reduced data were compared against the prediction, and only if the comparison held was the next increment authorized. Nothing about that loop is fast, and its slowness is the price of not losing the aircraft.
 
 The buffet boundary and the control degradation therefore arrived as expected rather than as surprises, because each had been approached in steps. What could not be approached in steps was the region above the last data point, and the whole apparatus of incremental expansion exists to keep that region as small as possible at every moment.
 
@@ -469,7 +575,15 @@ The similarity-gap argument is only worth making if the flight data actually dis
 
 Three independent ground methods were applied to the same configuration. Wind tunnel tests on a quarter-scale model are reported in [NACA 1976][research_xs1_tunnel_1976], and on a sixteenth-scale model in [NACA 1947][research_xs1_model_1947] and [NACA 1948][research_xs1_model_stability_1948]. The free-fall method, in which an instrumented body is dropped from altitude and accelerates through the transonic band under gravity, is reported in [NACA 1948][research_xs1_freefall_1948] and had the considerable advantage of reaching the choked band that tunnels could not. Rocket-propelled models provided a fourth route, used for buffet in [NACA 1953][research_buffet_rocket_models_1953].
 
-The agreement was configuration-dependent rather than uniform. Forces and moments away from the drag rise matched acceptably. Inside the band, and particularly for control surface effectiveness and for the location of separation, they did not, because those quantities depend on boundary layer state and therefore on Reynolds number, which the ground methods did not match. That pattern is the general one. Quantities set by inviscid geometry scale well and quantities set by the boundary layer do not, and the flight-only residual is concentrated in the second class.
+The agreement was configuration-dependent rather than uniform. Forces and moments away from the drag rise matched acceptably. Inside the band, and particularly for control surface effectiveness and for the location of separation, they did not, because those quantities depend on boundary layer state and therefore on Reynolds number, which the ground methods did not match. The mechanism is that transition location scales with Reynolds number, so a model at one sixteenth of flight Reynolds number carries laminar flow over a region that is turbulent in flight. Taking a transition criterion of the form
+
+$$Re_{x,\text{tr}} = \frac{\rho V x_{\text{tr}}}{\mu} \approx \text{constant}$$
+
+the transition point moves aft in proportion to $1 / Re$ per unit length, so at a sixteenth of flight Reynolds number the transition location moves aft by a factor of sixteen in fractional chord until it runs off the surface entirely. A fully laminar model and a mostly turbulent aircraft do not separate at the same place, which is precisely the quantity the control-effectiveness question depended on. The free-fall bodies avoided the tunnel walls but not this, since they too were subscale, and their equation of motion
+
+$$m \frac{dV}{dt} = m g \cos \gamma_e - \frac{1}{2} \rho V^2 S C_D$$
+
+gives drag from the measured acceleration in exactly the way the flight article did. That pattern is the general one. Quantities set by inviscid geometry scale well and quantities set by the boundary layer do not, and the flight-only residual is concentrated in the second class.
 
 The ability to predict a transonic drag change from a model modification remained poor enough to warrant its own investigation years later in [NACA 1957][research_transonic_predict_1957], and computing wave drag reliably took until the era of [NASA 1976][research_wave_drag_computation_1976]. The supercritical body work of [NASA 1971][research_supercritical_body_1971] and the supercritical airfoil of [Whitcomb and Clark 1965][research_whitcomb_clark_1965] are downstream of the same measurement problem. The wall-interference corrections that make modern transonic tunnel data trustworthy, as in [Chen and Wang 2024][research_chen_wang_2024], are the eventual answer to the question the X-1 was built to bypass. [Pope and Goin 1965][book_pope_goin_1965] and [Barlow Rae and Pope 1999][book_barlow_rae_pope_1999] document the technique that resulted, and [Baals and Corliss 1981][book_baals_corliss_1981] the facilities.
 

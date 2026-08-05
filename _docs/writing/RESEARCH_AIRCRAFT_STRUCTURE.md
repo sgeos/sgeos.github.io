@@ -36,11 +36,22 @@ Depth is a function of the surviving record, not of the author's diligence. Thre
 | Class | Lines | Display equations | References | Sections |
 |-------|-------|-------------------|------------|----------|
 | Series opener | 1,300 to 1,600 | 120 to 160 | 250 to 380 | Framing order, see below |
-| Full aircraft | 1,300 to 1,600 | 60 to 80 | 250 to 380 | The full order above |
+| Full aircraft | 1,300 to 1,600 | 90 to 130 | 250 to 380 | The full order above |
 | Documentation-poor | 150 to 400 | 0 to 15 | 20 to 60 | Full order, short sections, explicit statement of what is unknown |
 | Designation anomaly | 40 to 150 | 0 to 2 | 8 to 30 | Reduced order, see below |
 
-The full-aircraft figures are the History of SpaceX medians and are descriptive rather than prescriptive. Do not pad an article to reach them. Do not strip one to stay under them.
+The line and reference figures are the History of SpaceX medians and are descriptive rather than
+prescriptive. Do not pad an article to reach them. Do not strip one to stay under them.
+
+The equation bands are not the SpaceX medians. They were raised on 2026-08-05 after A297 and A298
+were each taken through an explicit equation-density review, which is a standing expectation for this
+series rather than an exception. Both articles landed far above the original 60 to 80 band once every
+relation the prose named or relied upon was actually displayed, at 147 and 108 respectively. The
+band now records what the series does. The rule that produces the number is the one to follow rather
+than the number itself, and it is this. **If the prose names a result, relies on a relation, or
+quotes a value that some relation produced, show the relation.** A result cited by author and year
+but never displayed is the defect these bands exist to prevent, and it is what both reviews actually
+found.
 
 ### The Series Opener
 
