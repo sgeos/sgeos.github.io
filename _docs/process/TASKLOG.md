@@ -45,6 +45,10 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Final state 1387 lines, 108 display equations, 337 reference definitions, 17,565 words. All 337 cited with zero undefined and zero orphaned, all 57 DOIs Crossref-resolved with authors present, `_verify.py` clean, zero style violations, isolated build succeeding.
 - [x] Committed and pushed. Not published. Both A297 and A298 remain in `_drafts/`.
 - [ ] **Publication order dependency.** A298 cites A297 through `post_url`, so publishing A298 while A297 is a draft fails the site build. They publish together or A297 first.
+- [x] A299, the Bell X-2, drafted as `_drafts/x_planes_bell_x2.markdown`, editorial date 2025-10-08, series index 3. 1189 lines, 97 display equations, 287 references, 13,821 words. Primary 42.2 percent, contemporary 31.5 percent.
+- [x] A299 verification: all 41 worked examples re-derived with four corrections, being a turbulent-to-laminar heating ratio that omitted the correlation coefficient ratio and three miscalculated pitot values at Mach 3.196. All 287 references cited with zero undefined and zero orphaned, all 149 meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, zero duplicated seams, isolated build succeeding with series navigation and both back-links resolving.
+- [ ] A299 sits below the 1300-to-1600 line and 90-to-130 equation bands at 1189 and 97 after two expansion passes. Not padded.
+- [ ] **Publication order dependency now three deep.** A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.

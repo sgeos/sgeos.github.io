@@ -9,9 +9,65 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A298 drafted, then taken through equation-density, primary-reference, and publication
-reviews. Committed and pushed. A297 is unchanged. **Neither article is published.** Both remain in
-`_drafts/`.
+**Task**: A299, the Bell X-2, drafted and verified. A297 and A298 are unchanged and already pushed.
+**No article in this series is published.** All three remain in `_drafts/`.
+
+---
+
+## A299, Bell X-2
+
+`_drafts/x_planes_bell_x2.markdown`, editorial date 2025-10-08, series index 3 of 72.
+
+**1189 lines, 97 display equations, 287 reference definitions, 13,821 words.** Primary sources are
+42.2 percent of external references and contemporary coverage is 31.5 percent, the latter the highest
+of the three articles so far. Lines and equations both sit somewhat below the 1300-to-1600 and
+90-to-130 bands after two expansion passes, and I have not padded to close the gap.
+
+The keystone is aerodynamic heating. A recovery temperature of 611 kelvin at Mach 3.196 excludes
+aluminium and admits steel, and the binding constraint turns out to be time at temperature rather
+than temperature. A 1.6 millimetre steel skin against a 194 kilowatt per square metre stagnation flux
+buys about **eighteen seconds** from 250 to 800 kelvin. The aircraft was a heat sink flown briefly,
+not an equilibrated structure. On the final flight the engine burned about twelve and a half seconds
+longer than planned.
+
+**Two findings are worth your attention.**
+
+The intuitive account of the accident blames thin air and it is wrong. Dynamic pressure at Apt's
+condition was 39.2 kilopascals, which is *higher* than the X-15 at Mach 6.7. What the surfaces had
+lost was not dynamic pressure but lift-curve slope, which falls as the inverse of the supersonic
+Prandtl-Glauert factor. A tail sized for Mach 1.5 is 2.72 times weaker at Mach 3.2. Those are
+different failures with different remedies, and the article says so.
+
+The divergence is now derived rather than asserted. Past the critical roll rate the unstable root is
+real, and at a roll rate of 3.5 radians per second against a pitch threshold of 2.69 the e-folding
+time is 0.45 seconds. A one degree disturbance reaches thirty degrees in **1.5 seconds**, and the
+accompanying load factor increment is 11.7. No pilot diagnoses an unfamiliar divergence and acts
+inside that window, which is why the fleet response was to prevent entry rather than train recovery.
+
+The X-2 is also the first aircraft in this series where the keystone framework reports a success and
+the historical record reports something else. It was built for heat and is remembered for coupling.
+That divergence between design intent and historical significance is stated in Where the Framing
+Breaks Down and will recur.
+
+---
+
+## Verification of A299
+
+All 41 worked numerical examples re-derived independently. **Four disagreed and were corrected.** The
+turbulent-to-laminar heating ratio omitted the coefficient ratio between the two correlations and was
+stated as a factor of eight where it is eleven, and three pitot-relation values at Mach 3.196 were
+simply miscalculated. All four are now computed values.
+
+All 287 references cited, zero undefined, zero orphaned. All 149 URLs whose status code carries
+information were swept and all returned 200. Every digital object identifier was either already
+author-checked through Crossref for A297 or A298 or harvested from Crossref for this article.
+
+`_verify.py` clean, zero style violations, both agency acronyms spelled out before first use, zero
+duplicated clauses at edit seams. Isolated production build succeeds with all three drafts present,
+the series navigation renders Part 3, and both back-links resolve.
+
+**The publication-order dependency now runs three deep.** A299 cites A298 and A297 through
+`post_url`, and A298 cites A297. They publish in order or together.
 
 ---
 
