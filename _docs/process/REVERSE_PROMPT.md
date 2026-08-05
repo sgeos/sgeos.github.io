@@ -18,7 +18,7 @@ stated preference to review shape and depth before the pattern is set across sev
 
 `_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes`, index 1.
 
-1533 lines, 147 display equations, 327 reference definitions, 18,692 words. The History of SpaceX
+1623 lines, 147 display equations, 372 reference definitions, 19,822 words. The History of SpaceX
 medians for comparison are 1345 lines, 72 equations, and 306 references.
 
 **The equation count is deliberately double the parity figure and you should know why.** The article
@@ -71,6 +71,35 @@ Zero prose style violations. The article builds clean in an isolated tree and re
 
 ---
 
+## The Reference Pass, and What It Found
+
+You asked for a reference-density review of primary sources specifically. Measuring first was the
+right move, because the index was worse than the raw count suggested. Of 327 references, **only 42
+were primary, or 13.5 percent.** Wikipedia accounted for 159 at 51 percent and books for 109 at 35
+percent. Meanwhile the article asserts in its own Historiographical section that the NACA and NASA
+report series is the backbone of the series. The index did not support that claim.
+
+Worse, six results were named in the prose as results while carrying no citation at all, namely
+Ackeret, Sutherland, Buckingham, Bredt-Batho, the Newtonian stagnation velocity gradient, and the
+Reynolds analogy. That is precisely the defect a reference index exists to prevent, and the equation
+pass had introduced most of them.
+
+**Primary references are now 87 of 372, or 24.5 percent.** 45 were added and 22 existing citations
+were upgraded.
+
+The upgrade matters as much as the additions. NTRS turns out to expose a citations API, so instead of
+adding more search endpoints I resolved reports to real document identifiers. Twenty-two citations
+that previously pointed at `ntrs.nasa.gov/search?q=...`, which returns 200 for any query including
+nonsense, now point at `ntrs.nasa.gov/citations/<id>`. **All 63 fixed identifiers were swept and all
+returned 200**, so for the first time a status code on these citations means something.
+
+One methodological note worth keeping. Title-token overlap alone is not proof of identity. A query
+about the X-1 returned an X-2 document and a query about the X-2 returned an X-1 document, both with
+perfect token scores. Two other queries returned "Lunar and Planetary Science XXXIV". The rule I
+applied is that every entry is labelled with the title the API actually returned rather than the
+title I searched for, and anything whose returned title did not describe a usable primary source was
+dropped rather than relabelled into plausibility.
+
 ## A Genre-Document Question the Equation Pass Raised
 
 `RESEARCH_AIRCRAFT_STRUCTURE.md` bands a full-aircraft article at 60 to 80 display equations. At 147
@@ -87,12 +116,17 @@ contradicting the article. Revert it if you would rather the opener be held to t
    rather than your decision. It is free to change while the article sits in `_drafts/` and fixed
    permanently once published, across all seventy-two.
 
-2. **Citation strength.** 109 Open Library and 27 NASA Technical Reports Server citations point at
-   search endpoints. Those return HTTP 200 for any query including nonsense, so the sweep confirms
-   only that the host is up. Every cited work is one I have reason to believe exists, but that
-   rests on my knowledge rather than on a check, and I have said so plainly in the article's own
-   Epistemic State rather than letting the reference count imply more rigour than it has. Resolving
-   them to fixed document identifiers is a worthwhile pass and it is not a small one.
+2. **Citation strength, now narrowed but not closed.** The NASA side is fixed. What remains is 109
+   Open Library search URLs for books and 3 NTRS reports the API could not resolve, so 112 citations
+   still point at endpoints that cannot return a not-found. Open Library does expose a search API, so
+   the same treatment that fixed the NASA citations would work on the books and would resolve them to
+   edition pages with work identifiers. Say the word and I will do that pass.
+
+3. **Wikipedia is still the largest single class at 159, or 43 percent.** For the aircraft entries
+   that is defensible, since for many of these designations no better public overview exists. For the
+   concept entries it is weaker, and several now sit alongside a primary source that could carry the
+   citation alone. Pruning that is a judgement call about what a reference index is for, and it is
+   yours rather than mine.
 
 ---
 

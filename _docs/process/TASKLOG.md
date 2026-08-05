@@ -18,6 +18,11 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Parity with the History of SpaceX medians reached without padding. 1245 lines against a 1345 median, 76 display equations against 72, and 327 reference definitions against 306.
 - [x] Equation-density review performed on request, auditing the article for relations the prose names or relies on without displaying. 19 such results found, and 71 equations added across 44 edits, each asserted to match its anchor exactly once. Final state is 1533 lines and 147 display equations.
 - [x] Genre document updated with a series-opener row, since 147 equations sits outside the 60-to-80 full-aircraft band and no row described an opener.
+- [x] Reference-density review of primary sources performed on request. Measured baseline was 42 primary of 327, or 13.5 percent, against an article claiming the NACA and NASA report series as its backbone. Final state is 87 of 372, or 24.5 percent.
+- [x] Six results named in prose with no citation at all corrected, namely Ackeret, Sutherland, Buckingham, Bredt-Batho, the Newtonian stagnation velocity gradient, and the Reynolds analogy.
+- [x] 22 NASA citations upgraded from search endpoints to fixed NTRS document identifiers through the citations API, and all 63 fixed identifiers swept at 200.
+- [x] 11 further journal primaries resolved through Crossref with an author-surname match required. 4 candidates were rejected rather than guessed.
+- [ ] 112 citations still point at search endpoints, being 109 Open Library book URLs and 3 unresolved NTRS reports. Open Library exposes a search API and the same upgrade is available.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
 - [x] All 159 Wikipedia citations swept, where a 404 is a meaningful signal. Five wrong titles corrected against the Wikipedia API and seven further confirmed pages added.
