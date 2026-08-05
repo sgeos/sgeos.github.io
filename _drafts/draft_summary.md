@@ -17,6 +17,55 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-5 A302 2025-10-11
+
+`x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
+
+1143 lines, 66 display equations, 318 reference definitions, 13,884 words at the end of the draft
+pass. Lines and references are inside band on the draft alone, which A301 was not. Equations are 24
+short of the 90 floor and await the equation-density pass. NTRS primary documents number 94 at 29.6
+percent of all references, references dated 1960 or earlier are 33.7 percent of dated references, and
+contemporary references are 22.1 percent, the last being below the target range and the item the
+publication review will have to address.
+
+The keystone is whether wing sweep can be a variable rather than a choice. The answer turns on one
+line of geometry, since a pivoting panel carries its aerodynamic centre with it and the streamwise
+travel is the panel arm times the change in the sine of the sweep angle.
+
+The central results are derived from the X-5's own published dimensions rather than quoted. Solving
+the two-span relation recovers a pivot station of 0.953 metres, or 18.7 percent of the semi-span, and
+a movable panel length of 4.42 metres. The aerodynamic centre therefore travels 0.93 metres between
+the sweep extremes, which is 58 percent of the mean chord and four to eleven times the entire static
+margin of a conventional aeroplane. Bell absorbed it with a jackscrew and rails that translated the
+wing forward as it swept aft, partially. Langley later found that an outboard pivot with a fixed
+inboard glove shrinks the same travel by the product of two factors and needs no mechanism, which is
+the finding that put variable sweep into the F-111 and its successors.
+
+The accident result is the article's strongest contribution. The NACA spin-recovery correlating
+parameter carries the square of the span in its denominator, and sweeping the X-5's wing shortens the
+span from 10.21 to 6.32 metres, so the parameter degrades by a factor of 2.61 with no change in mass
+distribution at all. The second aircraft was lost in a spin at the sweep setting where that factor is
+worst. The factor is arithmetic and the attribution is labelled as inference in Epistemic State.
+
+One inequality made the aircraft flyable. Sweep took thirty seconds and the short period took two, so
+the geometry change was fifteen times slower than the dynamics it perturbed and the pilot met a drift
+rather than a step. Much of the contemporary morphing literature concerns the case where that margin
+does not exist.
+
+Verification complete. All 318 references cited with zero undefined and zero orphaned and zero
+duplicate URLs, all 182 meaningful-404 URLs swept at 200, all 44 DOIs resolved through Crossref and
+compared on author and title, all 86 selected NTRS identifiers verified individually, `_verify.py`
+clean at the 0-error 21-warning corpus baseline, zero contractions, em-dashes, en-dashes, prose
+colons, prose semicolons, or prose parentheticals, zero doubled words, zero malformed links, genre
+section order conforming, isolated build succeeding with Part 6 navigation and zero unresolved
+anchors.
+
+The reference section is generated from the anchors the body actually uses, so orphaned definitions
+are impossible by construction and dangling anchors fail an assertion. This is the direct answer to
+the defect A300 and A301 both shipped.
+
+**Publication order dependency now six deep.** A302 cites A301, A300, A299, A298, and A297.
+
 ## X-Planes Northrop X-4 Bantam A301 2025-10-10
 
 `x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
