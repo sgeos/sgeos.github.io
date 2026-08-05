@@ -9,9 +9,61 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A299 drafted, then taken through equation-density, primary-reference, and publication
-reviews. Committed and pushed. A297 and A298 are unchanged. **No article in this series is
-published.** All three remain in `_drafts/`.
+**Task**: A300, the Douglas X-3 Stiletto, drafted and verified. A297 through A299 are unchanged and
+already pushed. **No article in this series is published.** All four remain in `_drafts/`.
+
+---
+
+## A300, Douglas X-3 Stiletto
+
+`_drafts/x_planes_douglas_x3.markdown`, editorial date 2025-10-09, series index 4 of 72.
+
+**1163 lines, 86 display equations, 301 reference definitions, 12,453 words.** References are inside
+band. **Lines and equations are below band** at 1163 against 1300 to 1600 and 86 against 90 to 130,
+after four expansion passes, and I have not padded. Primary sources are 44.1 percent and contemporary
+coverage 24.4 percent, both below where A299 finished, so the density reviews have real work to do
+here.
+
+This is the article where the keystone framework fails hardest, and the failure is the point.
+
+**The sizing does not close, and that is the finding.** The aircraft was designed around two
+Westinghouse J46 engines and flown with J34s producing seventy percent of the thrust. That alone
+predicts a maximum Mach number of 1.67 against a design 2.0. The aircraft managed 1.21. The rest is
+the inlet. A fixed normal-shock inlet recovers only 0.721 of total pressure at Mach 2, and turbojet
+thrust scales with what reaches the compressor face, so the two losses **compound** to 0.505 and
+predict Mach 1.42. Either failure alone was survivable. Together they halved the thrust.
+
+**The aircraft is the worst possible configuration for inertia coupling and that is why it mattered.**
+A twenty-metre fuselage with a six-metre wing gives a pitch-to-roll inertia ratio of 37.2 against 7.5
+for the X-2, and the critical roll rate falls to **45 degrees per second**, a third of the X-2 value
+and an entirely ordinary control input. Joe Walker made one in October 1954, departed violently in
+all three axes, recovered, and did it again. The load factor increment works out to 4.3 rather than
+the X-2's 11.7, purely because the X-3 met the phenomenon at lower dynamic pressure, and **that is
+why it survived and the X-2 did not.**
+
+The article argues that this pair makes a point neither makes alone. The information yield of a
+flight research programme depends on a survivability the information framing does not model.
+
+---
+
+## Verification of A300
+
+All 34 worked numerical examples re-derived independently and agreeing.
+
+All 301 references cited, zero undefined, zero orphaned. All 165 URLs whose status code carries
+information swept at 200.
+
+**One defect worth recording as a method note.** Twelve anchors were cited and never defined, because
+I built the reference data by importing A299's generator, and A299's later contemporary additions had
+been made directly in its markdown rather than in that generator. The generator had drifted from the
+article it produced. The integrity check caught it immediately, but the lesson is that a generator is
+only a source of truth while it is still the thing that generates the file.
+
+`_verify.py` clean, zero style violations, both agency acronyms spelled out before first use, zero
+duplicated seams, zero malformed links. Isolated build succeeds with all four drafts present and the
+series navigation renders Part 4.
+
+**The publication-order dependency now runs four deep.** A300 cites A299, A298, and A297.
 
 ---
 
