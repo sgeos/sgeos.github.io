@@ -17,6 +17,32 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Series Opener A297 2025-10-06
+
+`x_planes_framing.markdown`, A297, editorial date 2025-10-06, series `x_planes` index 1 of 72. The
+first article of a seventy-two-article back-dated series running 2025-10-06 through 2025-12-16, one
+per day unbroken, ending flush against the 2025-12-17 post. Held for human-pilot review before A298
+is drafted.
+
+1245 lines, 76 display equations, 327 reference definitions, 15,951 words, against History of SpaceX
+medians of 1345 lines, 72 equations, and 306 references. The genre is the research-aircraft hybrid
+defined in `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`, and the opener establishes the analytical
+model plus the sizing relations that the per-aircraft articles reference rather than repeat.
+
+Verification is complete. All 34 worked numerical examples re-derived independently and agreeing.
+All 327 anchors cited in the body with zero undefined and zero orphaned. All 159 Wikipedia citations
+swept, with five wrong titles corrected. All 11 digital object identifiers resolved through Crossref
+and compared on author and title, of which two were defective and were repaired, one nonexistent and
+one resolving to an unrelated paper. `_verify.py` clean, zero style violations, isolated production
+build succeeding with every `post_url` resolved.
+
+Two items are outstanding. Categories remain the agent's assumption at `aerospace history
+engineering`, which fixes the URL permanently at publication across all seventy-two articles. And
+109 Open Library plus 27 NASA Technical Reports Server citations point at search endpoints that
+return 200 for any query, so the sweep does not confirm their targets exist. The article states that
+limitation in its own Epistemic State rather than letting the reference count imply more rigour than
+it has.
+
 ## Wire Formats Mini-Series 2026-01-27 and 2026-01-28
 
 Two release-candidate drafts written to fill the only interior gap remaining in the 2026 calendar,
