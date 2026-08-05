@@ -9,9 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A300 drafted, then taken through an equation-density review. A297 through A299 are
-unchanged and already pushed. **No article in this series is published.** All four remain in
-`_drafts/`.
+**Task**: A300 drafted, then taken through equation-density and primary-reference reviews. A297
+through A299 are unchanged and already pushed. **No article in this series is published.** All four
+remain in `_drafts/`.
 
 ---
 
@@ -19,10 +19,28 @@ unchanged and already pushed. **No article in this series is published.** All fo
 
 `_drafts/x_planes_douglas_x3.markdown`, editorial date 2025-10-09, series index 4 of 72.
 
-**1277 lines, 114 display equations, 301 reference definitions, 13,613 words.** Equations and
-references are inside band. Lines are 23 short of 1300 and have not been padded. Primary sources are
-44.1 percent and contemporary coverage 24.4 percent, both below where A299 finished, so the
-reference review still has real work here.
+**1359 lines, 114 display equations, 341 reference definitions, 14,823 words.** All three are now
+inside band, reached with content. **Primary sources are 50.9 percent, up from 44.1**, which brings
+A300 into line with A298 and A299.
+
+The primary pass added 40 NASA and NACA reports from the sixty that the two harvests had returned and
+the article had not used. Four gaps are worth naming.
+
+The article argued about afterburner altitude performance from a single report and now cites the
+sustained research programme behind it. It discussed inertia measurement, on which the entire
+coupling analysis rests, and cited nothing at all. It claimed the coupling phenomenon was known and
+predicted before the X-3 flew and cited nothing about what happened to that knowledge afterward,
+where **[NASA 2003][research_uncommanded_lateral_2003] reviews uncommanded lateral-directional motions
+at transonic conditions across decades** and places the X-3 events in their full sequence rather than
+as an isolated incident. And it treated flutter on a thin wing as a consequence without citing the
+methods that eventually made it computable.
+
+One addition changes a claim the article makes about itself. The swing test described in the
+instrumentation section, whose differencing amplification the article derives, has since been
+superseded by a dynamic method that infers the inertia tensor from measured response rather than as a
+residual, validated in [NASA 2015][research_dynamic_inertia_2015]. The amplification the article
+identifies as a structural feature of the measurement turns out to be a feature of that particular
+technique, and the article now says so.
 
 **The equation review found a substantive omission rather than a cosmetic one.** The article argues
 at length that a fixed inlet cost this aircraft its performance, and treated that entirely as a total
@@ -61,6 +79,11 @@ flight research programme depends on a survivability the information framing doe
 ---
 
 ## Verification of A300
+
+All 341 references cited, zero undefined, zero orphaned. **All 116 NTRS fixed identifiers swept at
+200.** Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
+count rising while 40 historical primaries entered the denominator, and it is now the lowest of the
+four articles.
 
 All 40 worked numerical examples re-derived independently across both rounds. One disagreed and the
 correction was useful. The speed at which the available load factor falls below unity was stated as
@@ -411,6 +434,11 @@ that a rulemaking body has already agreed to accept.
 ---
 
 ## Verification
+
+All 341 references cited, zero undefined, zero orphaned. **All 116 NTRS fixed identifiers swept at
+200.** Contemporary coverage fell from 24.4 to 21.6 percent as a denominator effect, the absolute
+count rising while 40 historical primaries entered the denominator, and it is now the lowest of the
+four articles.
 
 All 40 worked numerical examples re-derived independently across both rounds. One disagreed and the
 correction was useful. The speed at which the available load factor falls below unity was stated as

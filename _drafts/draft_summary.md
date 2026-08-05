@@ -21,9 +21,12 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_douglas_x3.markdown`, A300, editorial date 2025-10-09, series `x_planes` index 4 of 72.
 
-1277 lines, 114 display equations, 301 reference definitions, 13,613 words after an equation-density
-review that added 28 equations across 12 edits. Equations and references inside band, lines 23 short
-and not padded. Primary 44.1 percent, contemporary 24.4 percent.
+1359 lines, 114 display equations, 341 reference definitions, 14,823 words after equation-density and
+primary-reference reviews. All three inside band. The first added 28 equations across 12 edits and
+closed a substantive omission on inlet spillage drag. The second added 40 NASA and NACA primaries
+from sixty the harvests had returned unused, raising primary sources from 44.1 to 50.9 percent.
+Contemporary coverage fell to 21.6 percent as a denominator effect and is the lowest of the four
+articles.
 
 The article where the keystone framework fails hardest. The sizing does not close, which is the
 finding. A thirty percent engine shortfall compounds with a fixed inlet recovering only 0.721 of
