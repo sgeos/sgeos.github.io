@@ -73,7 +73,11 @@ the stated preference to judge shape and depth before the pattern is set across 
 - [x] Formulaic-repetition finding acted on, the worst of the four articles. Citations were introduced by the preposition `in` 70 percent of the time because 40 primaries were added in a single pass with a repeated construction. 22 rotated, bringing the share to 34.3 percent, the best of the four.
 - [x] A300 final state 1415 lines, 114 display equations, 365 references, 15,583 words, all inside band. All 365 cited with zero undefined and zero orphaned, all 116 NTRS identifiers swept at 200, all 72 DOIs Crossref-resolved with authors present, `_verify.py` clean, zero style violations, zero duplicated seams, zero malformed links, isolated build succeeding.
 - [x] Committed and pushed. Not published.
-- [ ] **Publication order dependency now four deep.** A300 cites A299, A298, and A297. A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
+- [x] A301, the Northrop X-4 Bantam, drafted as `_drafts/x_planes_northrop_x4.markdown`, editorial date 2025-10-10, series index 5. 1017 lines, 68 display equations, 269 references, 10,660 words. Primary 43.3 percent, contemporary 38.5 percent, the latter the highest of the five.
+- [x] A301 verification: all 11 new worked examples re-derived and agreeing, all 269 references cited with zero undefined and zero orphaned, all 115 meaningful-404 URLs swept at 200, `_verify.py` clean, zero style violations, zero duplicated seams, zero malformed links, isolated build succeeding with Part 5 navigation.
+- [x] Method pattern recorded. Twenty-one anchors were cited and never defined, the second consecutive article in which reusing a previous article's reference data produced dangling anchors. The integrity check caught it both times, but building each article's reference data from its own harvest would cost less than repairing it afterward.
+- [ ] A301 sits below band at 1017 lines against 1300 to 1600 and 68 equations against 90 to 130. Primary 43.3 percent. Not padded.
+- [ ] **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297. A299 cites A298 and A297, and A298 cites A297, all through `post_url`. They publish in order or together.
 - [ ] Categories confirmed by the human pilot before publication.
 - [x] All 34 worked numerical examples re-derived independently from their stated inputs, with every result agreeing to the stated precision.
 - [x] Reference integrity clean. All 327 anchors cited in the body, zero undefined, zero orphaned.
