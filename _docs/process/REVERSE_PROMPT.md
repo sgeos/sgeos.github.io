@@ -9,12 +9,65 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A297 drafted, then taken through equation-density, primary-reference, and publication
-review passes. Committed and pushed. **Not published.** It remains in `_drafts/`.
+**Task**: A298, the Bell X-1, drafted and verified. A297 is unchanged and already pushed. Neither
+is published. Both remain in `_drafts/`.
 
 ---
 
-## Final State of A297
+## A298, Bell X-1
+
+`_drafts/x_planes_bell_x1.markdown`, editorial date 2025-10-07, series index 2 of 72.
+
+**1095 lines, 80 display equations, 259 reference definitions, 13,414 words.** The genre bands a
+full-aircraft article at 1300 to 1600 lines, 60 to 80 equations, and 250 to 380 references, so
+equations sit at the top of the band and references inside it while **the line count is about 200
+short**. I have not padded to close that gap, because the genre document forbids it explicitly. If
+you want it longer the honest way to get there is more content, and there is more available, since
+the NTRS harvest returned 71 X-1 era documents and the article uses 44.
+
+The keystone is the magnitude of the transonic drag rise and whether an aircraft could retain the
+control authority to fly through it. Two results carry the article.
+
+The engine was sized against an unknown. Inverting the drag relation gives the largest drag
+coefficient the aircraft could overcome at the test condition, which is 0.173. The measured
+transonic peak was near 0.05. The X-1 was built to push through a drag rise three times worse than
+the one it found, which is what designing against an unknown looks like in arithmetic.
+
+The more interesting result is that the aircraft was never thrust-limited, it was control-limited.
+As the aerodynamic centre migrates aft through Mach one the trim increment demands 1.8 degrees of
+all-moving stabilizer, which was trivially available, against 18 degrees of elevator once
+shock-induced separation degrades the effectiveness parameter, which was not available and would not
+have worked anyway. That is Mach tuck as an arithmetic shortfall rather than a mysterious barrier.
+
+A third finding is a measurement one. At Mach 1.06 the isentropic and Rayleigh supersonic pitot
+relations differ by 0.02 percent, so the pitot ratio carries almost no information about which side
+of Mach one the aircraft is on. The determination could not have rested on a cockpit Machmeter, and
+did not. At Mach 1.45 the same two relations differ by 5.5 percent.
+
+**One publication-order dependency.** A298 cites A297 through `post_url`. Publishing A298 while A297
+is still a draft fails the entire site build. They publish together or A297 first.
+
+---
+
+## Verification of A298
+
+All 54 worked numerical examples re-derived independently. One disagreed and was corrected, being a
+learning-curve figure stated as 25 percent that computes to 23. Four further figures were tightened
+for precision.
+
+All 259 references cited, zero undefined, zero orphaned. **All 142 URLs whose status code carries
+information were swept and all returned 200**, being the Wikipedia entries and the fixed NTRS
+document identifiers. Every DOI was either already author-checked through Crossref for A297 or
+harvested directly from Crossref for this article.
+
+`_verify.py` clean, zero prose style violations, both agency acronyms spelled out before first use,
+word frequency clean with only subject terms above five per thousand. Isolated production build
+succeeds with both drafts present, the series navigation renders Part 2, and the A297 cross-link
+resolves.
+
+---
+
+## Previous State of A297
 
 `_drafts/x_planes_framing.markdown`, editorial date 2025-10-06, series `x_planes`, index 1 of 72.
 
