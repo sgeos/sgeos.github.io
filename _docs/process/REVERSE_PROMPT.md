@@ -9,9 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A299 drafted, then taken through equation-density and primary-reference reviews. A297 and
-A298 are unchanged and already pushed. **No article in this series is published.** All three remain in
-`_drafts/`.
+**Task**: A299 drafted, then taken through equation-density, primary-reference, and publication
+reviews. Committed and pushed. A297 and A298 are unchanged. **No article in this series is
+published.** All three remain in `_drafts/`.
 
 ---
 
@@ -19,9 +19,9 @@ A298 are unchanged and already pushed. **No article in this series is published.
 
 `_drafts/x_planes_bell_x2.markdown`, editorial date 2025-10-08, series index 3 of 72.
 
-**1429 lines, 126 display equations, 343 reference definitions, 16,883 words.** Lines, equations, and
-references are all inside band, reached with content rather than padding. **Primary sources are now
-52.0 percent of external references, up from 42.2**, which puts A299 level with A298.
+**1497 lines, 126 display equations, 370 reference definitions, 17,743 words.** Lines, equations, and
+references are all inside band, reached with content rather than padding. **Primary sources are 55.6
+percent and contemporary coverage is 33.0 percent, both the highest of the three articles.**
 
 The primary pass added 56 NASA and NACA reports, every one a fixed NTRS document identifier resolved
 through the citations API. The gap was coverage rather than volume and four cases are worth naming,
@@ -96,11 +96,39 @@ Breaks Down and will recur.
 
 ---
 
+## What the Publication Review Found
+
+**Contemporary coverage had fallen to 25.2 percent**, the lowest of the three articles, as a
+denominator effect from adding 56 historical primaries in the previous pass. 27 contemporary journal
+articles were added under a 2019 date filter, taking it to 33.0 percent, the highest of the three.
+
+Four of them land on threads this article runs, and one is worth singling out. [Huang and Friedmann
+2019][research_huang_friedmann_2019] derive **aerothermoelastic scaling laws for hypersonic skin
+panels**, which is the formal answer to the similarity failure this article spends a section
+describing. A subscale test can now be designed to represent a full-scale coupled response rather
+than merely to resemble it. That capability arrived sixty years after the aircraft that needed it,
+and finding it is the strongest evidence that the article identified the right gap. The others are
+the yaw-to-roll coupling ratio treated as a parameter in its own right, unpowered approach and
+landing guidance, and high-temperature strain gauging.
+
+**A structural defect.** The Source Base section had drifted to sit between Out of Scope and
+Conclusion, interrupting the genre's closing sequence. It now precedes Epistemic State, which is
+where A298 places it. Section order is otherwise conformant, with three additions at sensible points.
+
+**A word-frequency artifact, the same one A298 carries.** The token `nasa` measures 8.03 per thousand
+against a five per thousand threshold, but 110 of its occurrences are citation labels rather than
+prose. The check counts link text as prose, which is worth knowing before anyone remediates a
+citation index for a style violation it does not have.
+
+---
+
 ## Verification of A299
 
-All 343 references cited, zero undefined, zero orphaned. **All 115 NTRS fixed identifiers swept at
-200.** One malformed link was caught and fixed, a closing parenthesis in place of a bracket that would
-have rendered as literal text and was detected only because the anchor showed as uncited.
+All 370 references cited, zero undefined, zero orphaned. All 115 NTRS fixed identifiers swept at 200
+and **all 80 digital object identifiers resolved through Crossref with authors present**. One
+malformed link was caught and fixed during the primary pass, a closing parenthesis in place of a
+bracket that would have rendered as literal text and was detected only because the anchor showed as
+uncited.
 
 All 55 worked numerical examples re-derived independently across both rounds. **Seven disagreed and
 were corrected.** Three came from the equation pass, being a friction drag coefficient whose Reynolds
