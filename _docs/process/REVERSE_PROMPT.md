@@ -9,9 +9,35 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A301 drafted, then taken through an equation-density review. A297 through A300 are
-unchanged and already pushed. **No article in this series is published.** All five remain in
-`_drafts/`.
+**Task**: A301 drafted and taken through an equation-density review, then a post-compaction handoff
+written per the protocol. A297 through A300 are unchanged and already pushed. **No article in this
+series is published.** All five remain in `_drafts/`.
+
+---
+
+## The Handoff Is Written and Is the Branch Tip
+
+`_docs/process/HANDOFF.md` is stamped at parent commit `24cbd59` and the validity check passes.
+
+Three things in it are worth knowing about even if you never read it.
+
+**It records the four-pass rhythm as the primary instruction.** You drive each article through draft,
+equation density, primary references, and publication review, each as a separate prompt, with the
+push attached only to the last. A resuming agent that does not know that will either do too much at
+once or wait to be told what comes next. That pattern is not written down anywhere else.
+
+**It carries nine method rules that each cost a real defect.** The one I would least want lost is
+that title-token overlap is not proof of identity, since an NTRS query about the X-1 returned an X-2
+document and vice versa, both scoring perfectly. The rule that follows is to label every entry with
+the title the API returned rather than the title searched for. Close behind is the observation that a
+generator is a source of truth only while it still generates the file, which is the defect A300 and
+A301 both shipped and which the integrity check caught by luck rather than by method.
+
+**It embeds the full seventy-two-row roster**, because the working copy at `tmp/xplane_table.md` is
+gitignored and would not survive a clean checkout.
+
+It also carries the categories decision forward with an instruction to raise it once more before
+A302 and then proceed on the assumption if no answer comes, since it has now been raised four times.
 
 ---
 
