@@ -9,8 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A300, the Douglas X-3 Stiletto, drafted and verified. A297 through A299 are unchanged and
-already pushed. **No article in this series is published.** All four remain in `_drafts/`.
+**Task**: A300 drafted, then taken through an equation-density review. A297 through A299 are
+unchanged and already pushed. **No article in this series is published.** All four remain in
+`_drafts/`.
 
 ---
 
@@ -18,11 +19,24 @@ already pushed. **No article in this series is published.** All four remain in `
 
 `_drafts/x_planes_douglas_x3.markdown`, editorial date 2025-10-09, series index 4 of 72.
 
-**1163 lines, 86 display equations, 301 reference definitions, 12,453 words.** References are inside
-band. **Lines and equations are below band** at 1163 against 1300 to 1600 and 86 against 90 to 130,
-after four expansion passes, and I have not padded. Primary sources are 44.1 percent and contemporary
-coverage 24.4 percent, both below where A299 finished, so the density reviews have real work to do
-here.
+**1277 lines, 114 display equations, 301 reference definitions, 13,613 words.** Equations and
+references are inside band. Lines are 23 short of 1300 and have not been padded. Primary sources are
+44.1 percent and contemporary coverage 24.4 percent, both below where A299 finished, so the
+reference review still has real work here.
+
+**The equation review found a substantive omission rather than a cosmetic one.** The article argues
+at length that a fixed inlet cost this aircraft its performance, and treated that entirely as a total
+pressure recovery problem. A fixed inlet operating away from its design point also spills flow around
+the cowl, and that spillage produces additive drag. **The X-3 therefore lost thrust and gained drag
+from the same component**, and the article said nothing about the second half. It now derives the
+mass flow ratio, the additive drag, the diverter penalty, and the buzz boundary, and states the
+combined effect as
+
+    T_eff = eta_d T_ideal - D_add - D_div
+
+which is the honest form of the thrust margin and makes the compounding argument stronger than it
+was. A fixed inlet flown below its design Mach number suffers twice, and an underpowered aircraft
+cannot escape by flying nearer the design point.
 
 This is the article where the keystone framework fails hardest, and the failure is the point.
 
@@ -48,7 +62,11 @@ flight research programme depends on a survivability the information framing doe
 
 ## Verification of A300
 
-All 34 worked numerical examples re-derived independently and agreeing.
+All 40 worked numerical examples re-derived independently across both rounds. One disagreed and the
+correction was useful. The speed at which the available load factor falls below unity was stated as
+100 metres per second and computes to 108, which **is the stall speed already derived in the takeoff
+section from an entirely different starting point**. The two agree exactly, so the article now states
+the cross-check rather than carrying two numbers that should have been one.
 
 All 301 references cited, zero undefined, zero orphaned. All 165 URLs whose status code carries
 information swept at 200.
@@ -394,7 +412,11 @@ that a rulemaking body has already agreed to accept.
 
 ## Verification
 
-All 34 worked numerical examples re-derived independently and agreeing.
+All 40 worked numerical examples re-derived independently across both rounds. One disagreed and the
+correction was useful. The speed at which the available load factor falls below unity was stated as
+100 metres per second and computes to 108, which **is the stall speed already derived in the takeoff
+section from an entirely different starting point**. The two agree exactly, so the article now states
+the cross-check rather than carrying two numbers that should have been one.
 
 All 421 references cited in the body, zero undefined, zero orphaned.
 
