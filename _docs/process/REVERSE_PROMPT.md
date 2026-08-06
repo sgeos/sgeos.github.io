@@ -9,88 +9,88 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A304, the Lockheed X-7, drafted. Committed and **not pushed**, per the four-pass rhythm.
-A297 through A303 are unchanged and pushed. **No article in this series is published.**
+**Task**: A304 equation-density review. Committed and **not pushed**. **No article in this series is
+published.**
+
+**33 to 94 display equations, 895 to 1157 lines.** Equations and references are inside band.
 
 ---
 
-## I Made Up Nineteen DOIs and Verification Caught It
+## The Pass Corrected a Claim the Draft Asserted Without Computing
 
-This is the most important thing in this report and it is a failure rather than a finding.
+The draft said a staged conical shock system recovers "something like half" the total pressure where
+a normal shock recovers a tenth, "a factor of five." That was an assertion from memory and it was
+wrong.
 
-While assembling the contemporary set I wrote out nineteen references with DOIs that looked right,
-constructed from the publisher prefix and a plausible article number, instead of taking them from the
-harvest records I had already downloaded. **Resolving them through Crossref showed that most pointed
-at entirely unrelated papers** — one to a study of dendrite deformation in alloys, one to a paper on
-alcohol licensing policy, one to heat flux on a hypersonic cone with a swept fin.
-
-All nineteen were discarded and the contemporary set was rebuilt from actual harvest records, each
-verified on author and title. **The rule is that an identifier which can be looked up must never be
-constructed**, and I am recording it in the task log because a reader would have had no way to detect
-the difference from the page.
-
-A second, smaller version of the same mistake followed. Thirty-one prose citations used author names I
-had guessed from document titles rather than the verified NTRS metadata, producing anchors with no
-master entry. The anchor integrity check caught those, and all 42 affected citations were remapped.
+Carrying out the oblique shock arithmetic properly, two sixteen-degree turns followed by a terminal
+normal shock give component recoveries of 0.739, 0.874, and 0.615, whose product is **0.397** against
+**0.107** for a single normal shock. That is **a factor of 3.7, not five**. The article now shows the
+three components rather than asserting the total, and the conclusion is unchanged in kind and smaller
+in size.
 
 ---
 
-## The Keystone Is Epistemic, Which Is a First for This Series
+## Three Results the Draft Did Not Have
 
-Every previous article concerns an aircraft that had to come back. This one is about what changes when
-it does not, and the interesting difference is not speed.
+**Specific impulse is the argument the draft never made.** At Mach 4.31 the ramjet returns 1850
+seconds against 250 to 450 for a chemical rocket, so it delivers **four to seven times the specific
+impulse of the rocket that starts it**. That is the entire reason for the architecture and the reason
+the booster is thrown away four seconds in.
 
-**A crewed programme approaches a destructive limit and stops short of it, so its estimate of where
-the limit lies is an extrapolation.** An expendable programme crosses the limit and interpolates. The
-cost is computable, since the prediction variance of any fitted model carries a term in the squared
-distance from the data centroid, and for twenty observations, predicting one full data span beyond
-the centroid costs a **factor of 3.6** in standard error against predicting at the centroid.
+**The subsonic-combustion ceiling can be located rather than gestured at.** Thrust vanishes when the
+stagnation temperature reaches the combustor limit, and solving that gives $M_{\lim} = 6.2$. The
+draft said the ramjet "stops being useful somewhere near Mach 5 to 6" without deriving it.
 
-The X-7 was not built for that reason and nobody in the programme described it that way. The article
-says so explicitly, in Epistemic State and again in Where the Framing Breaks Down, because the
-framing is mine.
+**The Damköhler number makes the combustion section quantitative.** The ratio of residence time to
+chemical time is 8.3 for a one millisecond chemistry, 1.7 at five, and 0.83 at ten. **A ramjet
+combustor operates within a factor of a few of not working**, which is why the flame must be anchored
+and why the whole flame-holder literature exists.
 
 ---
 
-## The Engine Explains the Whole Vehicle
+## The Keystone Got Its Machinery
 
-A ramjet's compression ratio is **1 at rest, 7.8 at Mach 2, and 152 at Mach 4**. It is worthless
-standing still and unmatched at speed, so the vehicle must be thrown. The booster delivers 1.87
-million newton seconds, a velocity increment near 575 metres per second, and takes a release Mach
-number of 0.45 to a burnout Mach number of **2.37, which is precisely where the engine becomes worth
-having**. It does so at 13 g rising to 16, which no crewed vehicle could accept, so the booster is the
-first place where having no pilot is a requirement rather than a convenience.
+The draft asserted the extrapolation argument with one variance relation. It now has the apparatus.
 
-**A single normal shock at Mach 4.31 keeps 10.7 percent of the total pressure.** A staged conical
-shock system keeps roughly half. That factor of five is the difference between an engine and a duct,
-and it is why the most conspicuous feature of the vehicle is a spike doing nothing visible.
+The **stopping rule** that separates the two kinds of programme is an expected-cost balance, in which
+a test point is bought until the marginal information no longer justifies the marginal expected loss.
+**When the vehicle cost term includes a human life the right side is effectively unbounded and the
+stopping point moves inward without limit.** That single term is the whole difference, and it explains
+why the X-7's advantage cannot be recovered by making a crewed aircraft cheaper, which is the obvious
+objection and one the draft left unanswered.
 
-Recovery temperature at Mach 4.31 and 32 kilometres is **985 kelvin, or 712 degrees**, which excludes
-aluminium and specifies steel eight years before titanium. The same stagnation temperature arrives at
-the combustor and leaves only **922 kelvin of useful temperature rise against 1600 at Mach 2**, which
-is the real ceiling on the subsonic-combustion ramjet and the reason the scramjet exists.
+Fisher information supplies the other half, since the information a sample carries about a slope grows
+with its distance from the centroid, so **the optimal design places points exactly where a crewed
+programme is forbidden to go**.
+
+The economics are now quantified too. At an eighty-five percent Wright learning curve the cumulative
+average over 130 articles is 0.41, so **130 vehicles cost about 53 times one vehicle rather than 130
+times**. That connects to Wright 1936, which has been in the series apparatus since the opener and
+has not done real work until now.
 
 ---
 
 ## Verification
 
-252 references with zero undefined, zero orphaned, and zero duplicate URLs. All 125 meaningful-404
-URLs at 200. All 58 DOIs Crossref-resolved on author and title. All 70 NTRS records verified
-individually. `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations after one
-prose semicolon was removed. Isolated build succeeding with Part 8 navigation and zero unresolved
-anchors.
+**All 33 worked values re-derived independently**, with two rounding slips corrected, a drag loss of
+9.4 metres per second stated as 9 and a scramjet residence time of 0.67 milliseconds stated as 0.7.
 
-**Independent re-derivation of all 28 worked values found two errors**, a residence time rounded from
-8.3 to 8 milliseconds, and an extrapolation figure whose prose described a different calculation from
-the one actually performed. Both corrected.
+Three seam and style defects found and repaired. **Two equations had prose glued to the same line**,
+both from insertions that landed mid-paragraph, and one sentence carried two prose semicolons. The
+unbalanced-delimiter check caught the first two and the style scan the third.
+
+253 references with zero undefined and zero orphaned. `_verify.py` at the 0-error 21-warning corpus
+baseline. Isolated build succeeding with 94 rendered display blocks matching 94 source equations and
+Part 8 navigation.
 
 ---
 
 ## What Remains
 
-**Lines at 895 and equations at 33 are well below the full-aircraft band and have not been padded.**
-References at 252 are just inside. Contemporary coverage is already 38.8 percent of dated, so A304
-enters the later passes without a deficit there.
+**Lines at 1157 are 143 short of the 1300 floor and have not been padded.** Contemporary references
+are 38.8 percent of dated, comfortably inside the target range, so A304 enters the later passes
+without a deficit there. The section with the least equation coverage remaining is the contemporary
+literature, which carries four across five subsections.
 
-**Publication order dependency is eight deep.** One commit unpushed. Categories remain
+**Publication order dependency is eight deep.** Two commits unpushed. Categories remain
 `aerospace history engineering`, eight articles deep.

@@ -21,10 +21,31 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_x7.markdown`, A304, editorial date 2025-10-13, series `x_planes` index 8 of 72.
 
-895 lines, 33 display equations, 252 reference definitions, 10,595 words at the end of the draft
-pass. References are just inside band. Lines and equations are below the full-aircraft band and await
-the passes that follow. Contemporary references are already 38.8 percent of dated references and
-references dated 1965 or earlier are 35.6 percent.
+1157 lines, 94 display equations, 253 reference definitions, 13,255 words after an equation-density
+review that added 61 equations across 27 edits. Equations and references are inside band. Lines are
+143 short of the 1300 floor and have not been padded. Contemporary references are 38.8 percent of
+dated references and references dated 1965 or earlier are 35.6 percent.
+
+**The pass corrected a claim the draft asserted without computing.** The draft said a staged conical
+shock system recovers "something like half" the total pressure against a tenth for a normal shock, "a
+factor of five." Carrying out the oblique shock arithmetic gives 0.397 for two sixteen-degree turns
+followed by a normal shock, against 0.107 for a normal shock alone, which is **a factor of 3.7 rather
+than five**. The correction is in the article with the three component recoveries shown.
+
+Three results the draft did not have. Specific impulse at Mach 4.31 works out to 1850 seconds against
+250 to 450 for a chemical rocket, so the ramjet delivers four to seven times the specific impulse of
+the rocket that starts it, which is the entire reason for the architecture. The subsonic-combustion
+ceiling can be located rather than gestured at, since thrust vanishes when stagnation temperature
+reaches the combustor limit, giving a limiting Mach number of 6.2. The Damköhler number, the ratio of
+residence time to chemical time, is 8.3 for a one millisecond chemistry and 0.83 for ten, so a ramjet
+combustor operates within a factor of a few of not working at all.
+
+Two economic and statistical relations were added that the keystone rests on. The Wright learning
+curve gives a cumulative average of 0.41 at an eighty-five percent progress ratio, so 130 vehicles
+cost about 53 times one vehicle rather than 130 times. The stopping rule that separates a crewed from
+an expendable programme was written as an expected-cost balance, in which the vehicle cost term
+becomes effectively unbounded when it includes a human life, which is why the X-7's advantage cannot
+be recovered by making a crewed aircraft cheaper.
 
 **The keystone is epistemic rather than performance-related, and it is the first in the series that
 is.** Every previous article concerns an aircraft that had to come back. A crewed programme approaches
