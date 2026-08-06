@@ -209,7 +209,15 @@ $$I_{sp} = \frac{c}{g_0} = \frac{2207}{9.81} = 225 \, \text{s}$$
 
 Real engines of the period delivered roughly 88 to 92 percent of the theoretical figure, so the working value used throughout this article is 200 seconds of [specific impulse][ref_specific_impulse], giving an effective exhaust velocity of 1,962 metres per second. The full tradeoff space this choice sits in is the subject of [A217][related_post_a217_rocket_propellant_chemistry]. The thermochemistry behind the figure is the equilibrium calculation of [Gordon and McBride 1959][research_gordon_1959], whose method underlies every performance table of the period, and the propellant class itself is surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and [Sutton 2006 History of Liquid Propellant Rocket Engines][book_sutton_2006]. **This is a poor propellant by any modern standard and it was chosen anyway.** Liquid oxygen and alcohol, flown on the V-2, gives a higher figure, and the reason for rejecting it is not performance.
 
-The reason is that liquid oxygen boils at 90 kelvin. A cryogenic vehicle must be loaded shortly before launch, must be topped continuously until it flies, and cannot be held on the tower while a cloud crosses the field of view or a telemetry station reports a fault. Nitric acid and aniline are liquids at ambient temperature and can be loaded and left. **The propellant choice buys operational tempo at the cost of performance**, which is the same trade the vehicle makes everywhere else, and the argument for it is the observing-time relation derived above. A propellant 12 percent better in exhaust velocity buys 12 percent more observing time. Being able to fly twice as often buys a factor of $\sqrt{2}$ in the precision of every mean the programme reports.
+The reason is that liquid oxygen boils at 90 kelvin. A cryogenic vehicle must be loaded shortly before launch, must be topped continuously until it flies, and cannot be held on the tower while a cloud crosses the field of view or a telemetry station reports a fault. The rate at which that matters is computable. Heat leaking into a tank at $\dot{Q}$ boils propellant off at
+
+$$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{h_{fg}} = \frac{U A \left( T_{\infty} - T_{\text{sat}} \right)}{h_{fg}}$$
+
+For the 0.34 cubic metre tank sized below, whose wetted area is about 3.9 square metres, an uninsulated wall with an overall coefficient near 5 watts per square metre kelvin, and a 210 kelvin temperature difference against a latent heat of 213 kilojoules per kilogramme,
+
+$$\dot{m}_{\text{boil}} = \frac{(5)(3.9)(210)}{2.13 \times 10^{5}} = 0.0192 \, \text{kg/s} = 69 \, \text{kg/h}$$
+
+against a liquid oxygen load of about 388 kilogrammes in that volume, which is **18 percent of the oxidiser per hour**. A vehicle held four hours on the tower for weather or for a telemetry fault would lose most of its oxidiser. Nitric acid and aniline are liquids at ambient temperature and can be loaded and left. **The propellant choice buys operational tempo at the cost of performance**, which is the same trade the vehicle makes everywhere else, and the argument for it is the observing-time relation derived above. A propellant 12 percent better in exhaust velocity buys 12 percent more observing time. Being able to fly twice as often buys a factor of $\sqrt{2}$ in the precision of every mean the programme reports.
 
 The price is paid in handling. Red fuming nitric acid attacks most metals, decomposes to nitrogen dioxide, and is acutely toxic. Aniline is absorbed through skin and is a methaemoglobin-forming poison. **The vehicle is safe to store and dangerous to touch**, and the modern successors to this trade are discussed in the contemporary literature section. The properties of the oxidiser are given in [Red Fuming Nitric Acid][ref_rfna] and of the fuel in [Aniline][ref_aniline] and [Furfuryl Alcohol][ref_furfuryl_alcohol], and the ignition behaviour that defines the class is [Hypergolic Propellant][ref_hypergolic]. The ignition-delay measurement technique of the period, at simulated altitude, is [Ladanyi 1952][research_ladanyi_1952].
 
@@ -233,11 +241,43 @@ and, at the stated expansion ratio, a throat area and diameter of
 
 $$A_t = \frac{A_e}{\varepsilon} = \frac{0.0276}{4.6} = 6.00 \times 10^{-3} \, \text{m}^{2}, \qquad d_t = 0.0874 \, \text{m}$$
 
-The chamber pressure follows from the thrust coefficient. For an expansion ratio of 4.6 with $\gamma$ of 1.22 the ideal vacuum thrust coefficient is about 1.55 and the sea-level value about 1.36, so
+The chamber pressure follows from the thrust coefficient, and the thrust coefficient follows from the expansion ratio alone. The area ratio fixes the exit Mach number $M_e$ through the isentropic area relation,
 
-$$p_c = \frac{F_{\text{SL}}}{C_F A_t} = \frac{(4100)(4.448)}{(1.36)(6.00 \times 10^{-3})} = 2.23 \times 10^{6} \, \text{Pa}$$
+$$\varepsilon = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma+1} \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right) \right]^{\frac{\gamma+1}{2(\gamma-1)}}$$
 
-which is 2.2 megapascals, or about 320 pounds per square inch. **That is a very low chamber pressure**, roughly a twentieth of a modern staged-combustion engine, and it is the direct consequence of the feed system.
+which for $\varepsilon = 4.6$ and $\gamma = 1.22$ inverts to $M_e = 2.76$, and the exit pressure ratio follows,
+
+$$\frac{p_e}{p_c} = \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right)^{-\frac{\gamma}{\gamma-1}} = 0.0344$$
+
+The thrust coefficient is then the momentum term plus the pressure term acting over the exit area,
+
+$$C_F = \sqrt{ \frac{2\gamma^{2}}{\gamma-1} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{\gamma-1}} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] } + \left( \frac{p_e - p_a}{p_c} \right) \varepsilon$$
+
+The momentum term evaluates to 1.466, so the vacuum value is
+
+$$C_{F,\text{vac}} = 1.466 + (0.0344)(4.6) = 1.624$$
+
+**The figures usually quoted for this engine, 1.55 in vacuum and 1.36 at sea level, are both low.** The sea-level value cannot be stated independently of the chamber pressure, because the ambient term contains $p_c$ in its denominator, so the two must be solved together. Setting the sea-level thrust to its reported 4,100 pounds, which is 18,237 newtons,
+
+$$F_{\text{SL}} = \left[ C_{F,\text{vac}} - \frac{p_a \varepsilon}{p_c} \right] p_c A_t = C_{F,\text{vac}} \, p_c A_t - p_a A_e$$
+
+$$p_c = \frac{F_{\text{SL}} + p_a A_e}{C_{F,\text{vac}} A_t} = \frac{18237 + (101325)(0.02756)}{(1.624)(5.99 \times 10^{-3})} = 2.16 \times 10^{6} \, \text{Pa}$$
+
+giving a sea-level coefficient of
+
+$$C_{F,\text{SL}} = 1.624 - \frac{(101325)(4.6)}{2.16 \times 10^{6}} = 1.409$$
+
+**The chain now has an independent check that the original arithmetic did not.** Carrying the same chamber pressure back to vacuum gives
+
+$$F_{\text{vac}} = C_{F,\text{vac}} \, p_c A_t = (1.624)(2.16 \times 10^{6})(5.99 \times 10^{-3}) = 21{,}030 \, \text{N} = 4727 \, \text{lbf}$$
+
+against the separately reported 4,728 pounds, which agrees to one pound in four thousand. The chamber pressure is therefore 2.16 megapascals, or about 313 pounds per square inch. **That is a very low chamber pressure**, roughly a twentieth of a modern staged-combustion engine, and it is the direct consequence of the feed system.
+
+The nozzle is also overexpanded at sea level, since the exit pressure of
+
+$$p_e = 0.0344 \, p_c = (0.0344)(2.16 \times 10^{6}) = 74.3 \, \text{kPa}$$
+
+sits below the 101.3 kilopascal ambient. The ratio $p_e / p_a$ of 0.73 is comfortably above the value near 0.4 at which the boundary layer separates from the wall, so the nozzle runs full rather than separating, and the penalty is confined to the pressure term already accounted for.
 
 The characteristic velocity, which measures the quality of the combustion independently of the nozzle, is
 
@@ -247,9 +287,37 @@ and with the mass flow implied by 4,100 pounds of thrust at 200 seconds of speci
 
 $$\dot{m} = \frac{F}{I_{sp} g_0} = \frac{(4100)(4.448)}{1962} = 9.29 \, \text{kg/s}$$
 
-$$c^{*} = \frac{(2.23 \times 10^{6})(6.00 \times 10^{-3})}{9.29} = 1440 \, \text{m/s}$$
+$$c^{*} = \frac{(2.16 \times 10^{6})(5.99 \times 10^{-3})}{9.29} = 1393 \, \text{m/s}$$
 
-against a theoretical value near 1,570 metres per second for this combination, giving a combustion efficiency of about 92 percent. That is respectable for a 1950s injector and consistent with the injection studies of [Heidmann and Auble 1955][research_heidmann_1955] and the vaporisation-limited analysis of [Heidmann 1957][research_heidmann_1957]. The nozzle relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the expansion-ratio effect on delivered performance was tabulated for the period by [Morrell 1956][research_morrell_1956]. The regenerative cooling arrangement that Aerojet had to correct is the subject of the general treatment in [Coulbert 1963][research_coulbert_1963] and the lightweight chamber development of [Noel and Massier 1962][research_noel_1962]. High-frequency combustion oscillation, which this class of engine was fortunate to avoid at its low chamber pressure, is [Mantler et al 1953][research_mantler_1953].
+The theoretical value it should be compared against comes from the choked-flow condition at the throat, where the mass flow through a sonic throat is fixed by the chamber conditions alone,
+
+$$\dot{m} = \frac{p_c A_t}{\sqrt{R T_c}} \, \Gamma, \qquad \Gamma = \sqrt{\gamma} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{2(\gamma-1)}}$$
+
+in which $R$ is the specific gas constant of the products. Comparing this with the definition of $c^{*}$ shows that the characteristic velocity is a property of the combustion gas and nothing else,
+
+$$c^{*}_{\text{ideal}} = \frac{\sqrt{R T_c}}{\Gamma}$$
+
+For $\gamma = 1.22$ the flow factor is $\Gamma = 0.652$, and with a specific gas constant of $8.314 / 0.025 = 333$ joules per kilogramme kelvin at 2,900 kelvin,
+
+$$c^{*}_{\text{ideal}} = \frac{\sqrt{(333)(2900)}}{0.652} = \frac{982}{0.652} = 1505 \, \text{m/s}$$
+
+**which is not the 1,570 metres per second the older secondary sources give**, and the combustion efficiency is therefore
+
+$$\eta_{c^{*}} = \frac{1393}{1505} = 0.926$$
+
+or about 93 percent. That is respectable for a 1950s injector and consistent with the injection studies of [Heidmann and Auble 1955][research_heidmann_1955] and the vaporisation-limited analysis of [Heidmann 1957][research_heidmann_1957]. The nozzle relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the expansion-ratio effect on delivered performance was tabulated for the period by [Morrell 1956][research_morrell_1956]. The cooling problem that produced those burnouts can be sized. The gas-side heat transfer coefficient at a rocket throat follows the correlation of Bartz, which for a throat diameter $d_t$, viscosity $\mu$, specific heat $c_p$, and Prandtl number $\mathrm{Pr}$ is
+
+$$h_g = \frac{0.026}{d_t^{0.2}} \left( \frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}} \right) \left( \frac{p_c}{c^{*}} \right)^{0.8}$$
+
+Taking a viscosity of $8 \times 10^{-5}$ pascal seconds, a specific heat of 1,900 joules per kilogramme kelvin, and a Prandtl number of 0.8,
+
+$$h_g = \frac{0.026}{(0.0874)^{0.2}} \left( \frac{(8 \times 10^{-5})^{0.2}(1900)}{(0.8)^{0.6}} \right) \left( \frac{2.16 \times 10^{6}}{1393} \right)^{0.8} = 4900 \, \text{W/m}^{2}\text{K}$$
+
+and against a gas-to-wall temperature difference of about 1,900 kelvin the throat heat flux is
+
+$$q_t = h_g \left( T_{aw} - T_w \right) = (4900)(1900) = 9.3 \, \text{MW/m}^{2}$$
+
+**Nine megawatts per square metre is why the converging section burned through when the coolant bypassed it**, and it is also why the fix Aerojet found, which was to guarantee coolant contact rather than to increase coolant flow, was the right one. The regenerative arrangement is the subject of the general treatment in [Coulbert 1963][research_coulbert_1963] and the lightweight chamber development of [Noel and Massier 1962][research_noel_1962]. High-frequency combustion oscillation, which this class of engine was fortunate to avoid at its low chamber pressure, is [Mantler et al 1953][research_mantler_1953].
 
 The exit diameter of 0.187 metres against a body diameter of 0.38 metres is worth noting on its own. **The nozzle occupies a quarter of the base area**, which for a vehicle with four fins mounted on the aft body means the fin roots sit in the plume shear layer, and the aerodynamic consequences of that are treated in the stability section.
 
@@ -267,7 +335,7 @@ For a cylindrical propellant tank of 0.38 metres diameter and 3 metres length, t
 
 $$V = \frac{\pi d^{2}}{4} L = \frac{\pi (0.38)^{2}}{4} (3) = 0.340 \, \text{m}^{3}$$
 
-and at an ullage pressure of 3.1 megapascals, which must exceed the 2.2 megapascal chamber pressure by the injector and line losses,
+and at an ullage pressure of 3.1 megapascals, which must exceed the 2.16 megapascal chamber pressure by the injector and line losses,
 
 $$m_{\text{tank}} = 2 \times \frac{2800}{2 \times 10^{8}} \times (3.1 \times 10^{6})(0.340) = 29.5 \, \text{kg}$$
 
@@ -395,7 +463,31 @@ giving a pitch natural frequency of
 
 $$\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{4061}{3000}} = 1.16 \, \text{rad/s}$$
 
-and a period of 5.4 seconds. **The vehicle leaving the tower has a pitch period five times longer than the time it spent on the tower.** The tower does not make it stable. It holds the attitude until the restoring moment is merely nonzero, after which the acceleration does the rest, since the dynamic pressure at 300 metres per second is nine times higher and the frequency three times higher.
+and a period of 5.4 seconds. That frequency is the natural frequency of a second-order system, and writing the system down shows what else it contains. For small angles the pitch motion obeys
+
+$$I_y \ddot{\alpha} + \left( \frac{q S \, C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} \right) \dot{\alpha} + q S C_{N\alpha} \left( x_{cp} - x_{cg} \right) \alpha = 0$$
+
+in which the middle term is the aerodynamic damping produced by the fins meeting the flow at the extra angle a pitch rate induces. Written in standard form,
+
+$$\ddot{\alpha} + 2 \zeta \omega_n \dot{\alpha} + \omega_n^{2} \alpha = 0, \qquad \zeta = \frac{M_q}{2 \sqrt{M_{\alpha} I_y}}$$
+
+with the damping coefficient
+
+$$M_q = \frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} = \frac{(5237)(0.1134)(12)(0.57)^{2}}{99.4} = 23.3 \, \text{N} \cdot \text{m} \cdot \text{s/rad}$$
+
+so at tower exit
+
+$$\zeta = \frac{23.3}{2\sqrt{(4061)(3000)}} = 0.0033$$
+
+**The vehicle is damped to a third of one percent of critical.** The number of cycles required to halve an oscillation is
+
+$$N_{1/2} = \frac{\ln 2}{2 \pi \zeta} = \frac{0.693}{2\pi (0.0033)} = 33$$
+
+which at a 5.4 second period is about three minutes, longer than the powered flight. **An unguided finned rocket does not damp its pitch oscillation aerodynamically in any useful sense.** What actually suppresses the motion is the rising dynamic pressure, which raises $\omega_n$ and shrinks the amplitude an initial disturbance corresponds to, together with the averaging effect of roll. The damping ratio itself gets worse with altitude, since $M_q$ scales as $\rho v$ while $\sqrt{M_{\alpha} I_y}$ scales as $v \sqrt{\rho}$, so
+
+$$\zeta \propto \sqrt{\rho}$$
+
+**The vehicle leaving the tower has a pitch period five times longer than the time it spent on the tower.** The tower does not make it stable. It holds the attitude until the restoring moment is merely nonzero, after which the acceleration does the rest, since the dynamic pressure at 300 metres per second is nine times higher and the frequency three times higher.
 
 ### Static Margin and Where the Fins Must Go
 
@@ -421,7 +513,15 @@ $$C_{N\alpha,\text{fin}} = \frac{4 (4) \left( 0.61 / 0.38 \right)^{2}}{1 + \sqrt
 
 which with the nose contribution of 2 gives a total near 24.6 per radian referenced to base area, or roughly half that at the low supersonic Mach numbers where compressibility reduces the fin effectiveness. **The value of 12 per radian assumed in the tower calculation is therefore the transonic figure**, and the low-speed value is about twice as large. The dependence matters because it means the vehicle becomes relatively less stable as it accelerates, which is the opposite of the intuition that speed helps.
 
-The centre of pressure sits close to the fins, since they dominate the sum, and the centre of gravity moves forward as propellant is consumed from tanks that straddle it. The static margin therefore changes throughout the burn, and the requirement is that it stay positive and bounded at every instant rather than at any single one. The formulation used here is the one set out for finned vehicles by [Barrowman 1967][research_barrowman_1967], whose later treatment aimed specifically at this vehicle class is [Barrowman 1982][research_barrowman_1982]. Its textbook forms are [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2001 Fundamentals of Aerodynamics][book_anderson_2001_fundamentals]. The free-flight rocket-model technique that NACA developed in exactly this period, and that [Stone and Sandahl 1951][research_stone_1951] and [Gillis and Mitchell 1957][research_gillis_1957] describe, was the standard means of measuring these coefficients before wind tunnels reached the relevant Mach numbers, with the fin-configuration measurements of [Keynton 1961][research_keynton_1961], [Jaquet 1961][research_jaquet_1961], and [Robinson 1961][research_robinson_1961] filling in the cases the theory did not cover. Thick-wedge fins with swept leading edges, which is the Aerobee planform, were measured directly by [Yuska 1966][research_yuska_1966].
+The sign of the static margin decides whether the vehicle flies at all. If the centre of pressure moves ahead of the centre of gravity the restoring stiffness reverses sign, the characteristic roots become real and of opposite sign, and the angle of attack grows exponentially with time constant
+
+$$\tau_{\text{div}} = \sqrt{\frac{I_y}{\left| M_{\alpha} \right|}}$$
+
+For the values above that is
+
+$$\tau_{\text{div}} = \sqrt{\frac{3000}{4061}} = 0.86 \, \text{s}$$
+
+**A statically unstable vehicle of this size departs in under a second and is unrecoverable in three.** The first complete Aerobee was terminated 35 seconds into flight with the tail yawing, which is forty time constants, so whatever went wrong was not marginal. The centre of pressure sits close to the fins, since they dominate the sum, and the centre of gravity moves forward as propellant is consumed from tanks that straddle it. The static margin therefore changes throughout the burn, and the requirement is that it stay positive and bounded at every instant rather than at any single one. The formulation used here is the one set out for finned vehicles by [Barrowman 1967][research_barrowman_1967], whose later treatment aimed specifically at this vehicle class is [Barrowman 1982][research_barrowman_1982]. Its textbook forms are [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2001 Fundamentals of Aerodynamics][book_anderson_2001_fundamentals]. The free-flight rocket-model technique that NACA developed in exactly this period, and that [Stone and Sandahl 1951][research_stone_1951] and [Gillis and Mitchell 1957][research_gillis_1957] describe, was the standard means of measuring these coefficients before wind tunnels reached the relevant Mach numbers, with the fin-configuration measurements of [Keynton 1961][research_keynton_1961], [Jaquet 1961][research_jaquet_1961], and [Robinson 1961][research_robinson_1961] filling in the cases the theory did not cover. Thick-wedge fins with swept leading edges, which is the Aerobee planform, were measured directly by [Yuska 1966][research_yuska_1966].
 
 ### Dispersion Without Guidance
 
@@ -439,7 +539,19 @@ $$\Delta v_{\perp} = \int_0^{t_b} \frac{F \epsilon}{m} \, \mathrm{d}t \approx \e
 
 so a misalignment of one milliradian against an ideal increment of 1,900 metres per second gives 1.9 metres per second of lateral velocity, which over a 400 second flight is 760 metres of impact displacement. **A tenth of a degree of nozzle misalignment moves the impact point by nearly a kilometre.**
 
-The third is wind. A statically stable rocket weathercocks into the relative wind, so a wind layer of speed $w$ encountered while the vehicle is still slow turns the velocity vector rather than merely displacing it, and the resulting dispersion is far larger than the wind speed alone suggests. The correction, called wind weighting, computes a launcher setting that cancels the integrated effect of the measured wind profile. The weighting function is the sensitivity of the impact point to a wind at each altitude, and the required launcher offset is
+The third is wind. A statically stable rocket weathercocks into the relative wind, so a wind layer of speed $w$ encountered while the vehicle is still slow turns the velocity vector rather than merely displacing it, and the resulting dispersion is far larger than the wind speed alone suggests. The correction, called wind weighting, computes a launcher setting that cancels the integrated effect of the measured wind profile. The size of the effect is worth deriving rather than asserting, because it is larger than intuition suggests. A statically stable vehicle holds its axis along the relative wind, so every increment of speed it gains is added along an axis tilted by $w/v$ from the vertical. Integrating that tilt over the burn gives a lateral velocity
+
+$$\Delta v_{\perp} = \int_{v_e}^{v_b} \frac{w}{v} \, \mathrm{d}v = w \ln \frac{v_b}{v_e}$$
+
+for a wind constant with altitude, and a ballistic range displacement of
+
+$$\Delta X = \frac{2 v_b \Delta v_{\perp}}{g}$$
+
+For a ten metre per second wind acting from tower exit at 99 metres per second to burnout at 1,347,
+
+$$\Delta v_{\perp} = 10 \ln \frac{1347}{99.4} = 26 \, \text{m/s}, \qquad \Delta X = \frac{2 (1347)(26)}{9.81} = 7.1 \, \text{km}$$
+
+**A ten metre per second wind moves the impact point seven kilometres.** That is the entire justification for wind weighting, for an adjustable tower, and for launching from places where seven kilometres of error is survivable. The logarithm is the reason the low-altitude wind dominates, since most of the ratio $v_b / v_e$ is accumulated while the vehicle is still slow and still low. The weighting function is the sensitivity of the impact point to a wind at each altitude, and the required launcher offset is
 
 $$\Delta \theta_{\text{launch}} = - \sum_j W_j \, w_j \, \Delta h_j$$
 
@@ -449,7 +561,19 @@ The total dispersion combines in quadrature when the sources are independent,
 
 $$\sigma_{X}^{2} = \sigma_{\text{aim}}^{2} + \sigma_{\text{thrust}}^{2} + \sigma_{\text{wind}}^{2} + \sigma_{\text{sep}}^{2}$$
 
-and the range safety requirement is that the containment ellipse at some multiple of $\sigma$ lie inside the impact area. For a three-sigma containment on a dispersion of two kilometres the required area has a radius of six kilometres, which at White Sands and Holloman was available and at most other places was not. **The X-8's dispersion is the reason it flew from deserts.** The flight-mechanics formulation behind the sensitivity coefficients is [Regan and Anandakrishnan 1993 Dynamics of Atmospheric Re-Entry][book_regan_anandakrishnan_1993] and [Vinh Busemann and Culp 1980 Hypersonic and Planetary Entry Flight Mechanics][book_vinh_busemann_culp_1980], and the range-safety practice that grew out of it is discussed in [Knothe 1970][research_knothe_1970]. [Groteluschen 1967][research_groteluschen_1967] sets out the design criteria for remote-site launchers, and the statistical treatment of dispersion samples, including the small-sample case that a programme of sixty flights actually faces, is [McGarvey 1976][research_mcgarvey_1976].
+and the range safety requirement is that the containment ellipse at some multiple of $\sigma$ lie inside the impact area. The multiple needed is not the one-dimensional intuition suggests, because the impact point scatters in two dimensions. For circular bivariate normal errors the probability of landing inside radius $R$ is the Rayleigh distribution,
+
+$$P(R) = 1 - \exp \left( -\frac{R^{2}}{2\sigma^{2}} \right)$$
+
+which at three standard deviations gives
+
+$$P(3\sigma) = 1 - e^{-4.5} = 0.989$$
+
+**not the 0.997 the one-dimensional figure would suggest**, and reaching 0.997 in two dimensions requires
+
+$$R = \sigma \sqrt{-2 \ln (1 - 0.997)} = 3.41 \, \sigma$$
+
+For a dispersion of two kilometres that is a required radius of 6.8 kilometres rather than 6, which at White Sands and Holloman was available and at most other places was not. **The X-8's dispersion is the reason it flew from deserts.** The flight-mechanics formulation behind the sensitivity coefficients is [Regan and Anandakrishnan 1993 Dynamics of Atmospheric Re-Entry][book_regan_anandakrishnan_1993] and [Vinh Busemann and Culp 1980 Hypersonic and Planetary Entry Flight Mechanics][book_vinh_busemann_culp_1980], and the range-safety practice that grew out of it is discussed in [Knothe 1970][research_knothe_1970]. [Groteluschen 1967][research_groteluschen_1967] sets out the design criteria for remote-site launchers, and the statistical treatment of dispersion samples, including the small-sample case that a programme of sixty flights actually faces, is [McGarvey 1976][research_mcgarvey_1976].
 
 ### The Roll That Averages the Error
 
@@ -625,7 +749,15 @@ $$P = m_{\text{fwd}} a = (300)(113) = 33.9 \, \text{kN}$$
 
 $$\sigma_{x} = \frac{3.39 \times 10^{4}}{2 \pi (0.19)(2.95 \times 10^{-3})} = 9.6 \times 10^{6} \, \text{Pa}$$
 
-which is 10 megapascals against an available 150. **The structure is pressure-driven, not load-driven**, and this is the fundamental reason the tanks-as-structure arrangement works. Internal pressure also stabilises the shell against buckling, adding an increment to the critical stress, so the vehicle is stiffest exactly when it is most heavily loaded and weakest when the tanks are empty, which is after burnout when the loads are gone.
+which is 10 megapascals against an available 150. **The structure is pressure-driven, not load-driven**, and this is the fundamental reason the tanks-as-structure arrangement works. Internal pressure does more than add an increment to the critical stress. It puts the shell into axial tension before any load is applied, since the pressure acting on the closed ends gives
+
+$$\sigma_{x,\text{press}} = \frac{p r}{2 t} = \frac{(3.1 \times 10^{6})(0.19)}{2 (2.95 \times 10^{-3})} = 1.0 \times 10^{8} \, \text{Pa}$$
+
+which is 100 megapascals of tension against 10 megapascals of flight compression. The net axial stress is therefore
+
+$$\sigma_{x,\text{net}} = \sigma_{x,\text{press}} - \sigma_{x,\text{comp}} = 100 - 10 = 90 \, \text{MPa}$$
+
+**and it is tensile everywhere.** The shell never sees net compression while it is pressurised, so buckling is not a failure mode at all rather than being a marginal one, and the vehicle is stiffest exactly when it is most heavily loaded and weakest when the tanks are empty, which is after burnout when the loads are gone.
 
 The design does have a failure mode that the arrangement creates. A tank that loses pressure loses structure, so a pressurisation failure is not a performance shortfall but a collapse. The burst-diaphragm hardware that isolates the pressurant until launch is therefore a flight-critical item, and its manufacture and test are documented for the later vehicles by [Hungerford and Munford 1966][research_hungerford_1966].
 
@@ -665,7 +797,19 @@ For aluminium at 2,800 kilogrammes per cubic metre and 900 joules per kilogramme
 
 $$\tau = \frac{(2800)(900)(2.95 \times 10^{-3})}{200} = 37 \, \text{s}$$
 
-which is comparable to the flight time, so the skin reaches roughly $1 - e^{-1}$ of the way from its initial temperature toward the recovery temperature, or about 740 kelvin. **That is hot enough to soften aluminium**, which anneals above about 500 kelvin, and it is the reason the nose cone rather than the tank section is where the thermal design effort went. Free-flight skin-temperature measurements on comparable bodies were made in the same period by [Rashis and Bond 1961][research_rashis_1961] and at higher Mach numbers by [Rumsey and Lee 1958][research_rumsey_1958], with skin-friction measurement by [Loposer and Rumsey 1954][research_loposer_1954]. The relations are those of [Anderson 2006 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2006_hypersonic], [Bertin 1994 Hypersonic Aerothermodynamics][book_bertin_1994_hypersonic], [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer], and [Carslaw and Jaeger 1959 Conduction of Heat in Solids][book_carslaw_jaeger_1959].
+which is comparable to the flight time, so the skin reaches roughly $1 - e^{-1}$ of the way from its initial temperature toward the recovery temperature, or about 740 kelvin. The lumped model omits radiation, which at that temperature is no longer negligible. A surface of emissivity $\epsilon$ radiates
+
+$$q_{\text{rad}} = \epsilon \sigma_{SB} T_w^{4}$$
+
+which for an oxidised aluminium emissivity of 0.3 at 744 kelvin is
+
+$$q_{\text{rad}} = (0.3)(5.67 \times 10^{-8})(744)^{4} = 5.2 \times 10^{3} \, \text{W/m}^{2}$$
+
+against a convective input of $h(T_r - T_w) = 200(1010-744) = 5.3 \times 10^{4}$ watts per square metre, so radiation removes about a tenth of what convection delivers. Balancing the two gives the steady wall temperature the surface would reach if the flight lasted long enough,
+
+$$h \left( T_r - T_w \right) = \epsilon \sigma_{SB} T_w^{4} \quad \Longrightarrow \quad T_w = 943 \, \text{K}$$
+
+**The vehicle never gets there**, because the thermal time constant is comparable to the flight time and the flight ends first, which is the same argument the whole article keeps making in different currencies. **The 744 kelvin it does reach is hot enough to soften aluminium**, which anneals above about 500 kelvin, and it is the reason the nose cone rather than the tank section is where the thermal design effort went. Free-flight skin-temperature measurements on comparable bodies were made in the same period by [Rashis and Bond 1961][research_rashis_1961] and at higher Mach numbers by [Rumsey and Lee 1958][research_rumsey_1958], with skin-friction measurement by [Loposer and Rumsey 1954][research_loposer_1954]. The relations are those of [Anderson 2006 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2006_hypersonic], [Bertin 1994 Hypersonic Aerothermodynamics][book_bertin_1994_hypersonic], [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer], and [Carslaw and Jaeger 1959 Conduction of Heat in Solids][book_carslaw_jaeger_1959].
 
 ### Drag, and the Loss It Represents
 
@@ -701,9 +845,31 @@ with a plausible range of 60 to 150 metres per second depending on the drag coef
 
 ### Instrumentation and the Absence of Attitude Control
 
-The X-8 has no attitude control. It is stabilised by fins while the air is thick enough for fins to work, and above that it coasts in whatever attitude it had at the end of the aerodynamic phase, rolling and slowly precessing. For an instrument that needs to know where it was looking, this creates a measurement problem that is solved not by controlling the attitude but by recording it.
+The X-8 has no attitude control. It is stabilised by fins while the air is thick enough for fins to work, and above that it coasts in whatever attitude it had at the end of the aerodynamic phase.
 
-Aspect determination uses two independent references. A magnetometer measures the angle between the vehicle axis and the local geomagnetic field, which fixes one degree of freedom to within the cone of that angle. A solar sensor measures the angle to the sun, fixing a second cone. The attitude lies at the intersection of the two cones, which is generically two points, and the ambiguity is resolved by continuity with the powered phase. The angular resolution of the combination degrades when the two references are nearly parallel, with an error amplification
+What it does there is not arbitrary. A torque-free axisymmetric body conserves angular momentum, so its symmetry axis sweeps a cone about the fixed momentum vector at a half-angle set by the ratio of transverse to axial momentum,
+
+$$\tan \theta_c = \frac{I_y \omega_t}{I_x p}$$
+
+in which $I_x$ is the roll inertia, $I_y$ the transverse inertia, $p$ the roll rate, and $\omega_t$ the transverse rate left over when the aerodynamic moments vanish. For a slender vehicle the roll inertia is small,
+
+$$I_x \approx \frac{m r^{2}}{2} = \frac{(232)(0.19)^{2}}{2} = 4.2 \, \text{kg} \cdot \text{m}^{2}$$
+
+against a transverse inertia of order 1,200, so the ratio $I_y / I_x$ is nearly 300 and even a small residual rate produces a large cone. At a residual transverse rate of 0.1 radians per second and a roll rate of 13.8,
+
+$$\theta_c = \arctan \frac{(1200)(0.1)}{(4.2)(13.8)} = 64^{\circ}$$
+
+**A tenth of a radian per second at burnout puts the instrument axis through a sixty-degree cone for the whole of the observing window.** This is the single most important fact about pointing on an uncontrolled sounding rocket, it is a consequence of slenderness rather than of poor workmanship, and it is why the aspect had to be recorded rather than commanded. For an instrument that needs to know where it was looking, this creates a measurement problem that is solved not by controlling the attitude but by recording it.
+
+Aspect determination uses two independent references. Each sensor returns one scalar, being the cosine of the angle between the vehicle axis $\hat{a}$ and a known direction,
+
+$$\cos \theta_B = \hat{a} \cdot \hat{b}, \qquad \cos \theta_S = \hat{a} \cdot \hat{s}$$
+
+with $\hat{b}$ the local geomagnetic field direction and $\hat{s}$ the direction to the sun. Each constrains the axis to a cone about its reference, and two cones about non-parallel axes intersect in two directions,
+
+$$\hat{a} = \frac{\cos\theta_B - \cos\theta_S \cos\psi}{\sin^{2}\psi} \, \hat{b} + \frac{\cos\theta_S - \cos\theta_B \cos\psi}{\sin^{2}\psi} \, \hat{s} \pm \lambda \left( \hat{b} \times \hat{s} \right)$$
+
+in which $\psi$ is the angle between the two references and $\lambda$ is fixed by requiring $\hat{a}$ to be a unit vector. **The sign ambiguity is real and is resolved by continuity with the powered phase rather than by measurement.** The $\sin^{2}\psi$ in the denominator is what makes the geometry fragile. The angular resolution of the combination degrades when the two references are nearly parallel, with an error amplification
 
 $$\Delta \Omega = \frac{\Delta \theta_1 \, \Delta \theta_2}{\left| \sin \psi \right|}$$
 
@@ -731,7 +897,17 @@ with $n$ typically between 0.3 and 0.4 for the double-base and composite propell
 
 $$p_c = \left( \frac{\rho_p a A_b c^{*}}{A_t} \right)^{\frac{1}{1-n}}$$
 
-in which $A_b$ is the instantaneous burning area and $\rho_p$ the propellant density. The exponent $1/(1-n)$ is the stability criterion, since a value of $n$ approaching unity makes the chamber pressure diverge, and this is why solid propellants are formulated to keep $n$ well below one. For $n = 0.35$ the exponent is 1.54, so a ten percent error in burning area produces a sixteen percent error in chamber pressure and therefore in thrust. **A solid motor has no throttle and only one chance to be right.** The internal-ballistics relations are those of [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], and the application of large solid boosters in the same period is [Ayres 1962][research_ayres_1962] and [Van Winkle 1965][research_van_winkle_1965]. A failure study of the Nike motor later used to boost the Aerobee 170 is [Hisler 1966][research_hisler_1966].
+in which $A_b$ is the instantaneous burning area and $\rho_p$ the propellant density. The exponent $1/(1-n)$ is the stability criterion, since a value of $n$ approaching unity makes the chamber pressure diverge, and this is why solid propellants are formulated to keep $n$ well below one. For $n = 0.35$ the exponent is 1.54, so a ten percent error in burning area produces a sixteen percent error in chamber pressure and therefore in thrust. The web thickness and the burning area follow from the same balance. The burn time is the web divided by the mean burning rate, and the mass flow is the burning area times the rate times the propellant density,
+
+$$t_b = \frac{w}{\bar{r}}, \qquad \dot{m} = \rho_p A_b r$$
+
+For the booster's 97 kilogrammes of propellant burned in 2.5 seconds at a rate near 10 millimetres per second and a density of 1,750 kilogrammes per cubic metre,
+
+$$w = \bar{r} \, t_b = (0.010)(2.5) = 25 \, \text{mm}$$
+
+$$A_b = \frac{\dot{m}}{\rho_p r} = \frac{38.8}{(1750)(0.010)} = 2.22 \, \text{m}^{2}$$
+
+A burning area of 2.2 square metres inside a 0.325 metre case is the internal surface of a tube roughly 2.4 metres long, which is what an internal-burning cylindrical grain of this size provides. **A 25 millimetre web is thin and it is meant to be**, because the motor's whole purpose is to deliver a large impulse quickly and then stop. **A solid motor has no throttle and only one chance to be right.** The internal-ballistics relations are those of [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], and the application of large solid boosters in the same period is [Ayres 1962][research_ayres_1962] and [Van Winkle 1965][research_van_winkle_1965]. A failure study of the Nike motor later used to boost the Aerobee 170 is [Hisler 1966][research_hisler_1966].
 
 ### Separation, Which Must Not Recontact
 
@@ -755,6 +931,20 @@ The Air Force flights, which are the X-8 proper, begin later. **USAF-1 was launc
 
 Almost everything failed. The X-ray detector foils ruptured and returned nothing. The telemetry returned some data. The parachute failed, the nose cone was lost, and it was not found until July 1950, by which time the film and the emulsions were destroyed. **The first four flights after it also lost their nose cones to parachute failure.**
 
+Five consecutive recovery failures are not a run of bad luck at any plausible reliability. If each flight recovers independently with probability $p_r$, the chance of five failures in a row is
+
+$$P = \left( 1 - p_r \right)^{5}$$
+
+which for an even-money recovery system would be
+
+$$P = (0.5)^{5} = 0.031$$
+
+and the one-sided 95 percent upper bound on the recovery probability, given no successes in five attempts, is
+
+$$p_r \le 1 - (0.05)^{1/5} = 0.45$$
+
+**The recovery system was worse than a coin toss and the programme could say so after five flights.** The expected number of launches to obtain one recovered payload is $1/p_r$, so at the observed rate the programme was spending more than two vehicles per usable photographic result before the pack was redesigned.
+
 The information-theoretic argument above explains why this was fatal rather than partial. The telemetry could carry a few kilobits per second of pressures and temperatures. It could not carry a photograph or a nuclear emulsion track, so the experiments that depended on physical return produced nothing at all from five consecutive flights. The recovery system, not the propulsion, was the programme's limiting subsystem in its first year.
 
 USAF-6 is the flight the programme was trying to fly. It carried pressure and temperature detectors for the University of Michigan, a multipurpose beacon from the Air Force Cambridge Research Center, a six-channel pulse-position modulated telemetry system, a ten-channel data recorder from Tufts College, and a camera photographing a Sperry aspect gyro for the University of Michigan. It reached 92.5 kilometres and the recovery was clean.
@@ -771,7 +961,15 @@ The wider family record dwarfs it. A total of 1,037 Aerobees of all variants wer
 
 The most useful comparison available for this vehicle is the one Aerojet made itself, because the prediction and the outcome were recorded together. The three-day hand calculation described in the Programme Origin section above came out five percent conservative against flight.
 
-That claim deserves examination, because five percent is a remarkable result for an integration performed on a mechanical calculator, and the reason it was achievable is worth stating. A sounding-rocket trajectory is a well-posed problem. The vehicle flies nearly vertically, so the equations reduce to one dimension. The atmosphere is known to within a few percent below 30 kilometres, which is where nearly all the drag is. The propulsion is a measured thrust history and a measured mass flow. The only genuinely uncertain quantity is the drag coefficient through the transonic region, and its effect is bounded by the loss estimate computed above, which is 4 to 8 percent of the burnout velocity.
+That claim deserves examination, because five percent is a remarkable result for an integration performed on a mechanical calculator, and the reason it was achievable is worth stating. A sounding-rocket trajectory is a well-posed problem. The vehicle flies nearly vertically, so the equations reduce to one dimension. The atmosphere is known to within a few percent below 30 kilometres, which is where nearly all the drag is. The propulsion is a measured thrust history and a measured mass flow. The only genuinely uncertain quantity is the drag coefficient through the transonic region, and its effect is bounded because the loss is linear in it. Since the drag loss is proportional to $C_D$ at fixed trajectory,
+
+$$\frac{\partial \left( \Delta v_{\text{drag}} \right)}{\Delta v_{\text{drag}}} = \frac{\partial C_D}{C_D}$$
+
+so a fractional error in the drag coefficient produces the same fractional error in the loss, and the loss itself is only
+
+$$\frac{\Delta v_{\text{drag}}}{v_b} = \frac{77}{1347} = 5.7 \, \text{percent}$$
+
+of the burnout velocity. **A thirty percent error in the drag coefficient therefore moves the burnout velocity by 1.7 percent**, which is the quantitative reason a hand calculation could land within five percent of a vehicle nobody had flown.
 
 Contrast this with the aircraft in the earlier articles of this series. The [X-3][related_post_a300_douglas_x3] could not predict its own transonic drag because it depended on the interference between a novel wing and a slender fuselage at Reynolds numbers the tunnels could not reach. The [X-5][related_post_a302_bell_x5] could not predict its stability across sweep because the aerodynamic centre moved with a variable geometry. **A ballistic vehicle is predictable in a way that an aircraft is not**, and the five percent is a statement about the problem more than about the engineers. The comparable exercise for a later sounding rocket, in which theoretical and actual performance are set against each other explicitly, is [Dembrow and Jamieson 1964][research_dembrow_1964].
 
@@ -799,7 +997,25 @@ The X-8's own sixty flights are a small part of what the Aerobee changed. The ho
 
 ### The Atmosphere Above the Balloons
 
-Before rockets, the atmosphere above about 30 kilometres was known by inference. Sound propagation from large explosions gave a temperature profile through the refraction of the returning waves, a technique [Cox 1948][research_cox_1948] describes, and searchlight scattering gave densities to about 60 kilometres. Both are integral methods, meaning they return a weighted average over a path rather than a local value, and both require an assumed model to invert.
+Before rockets, the atmosphere above about 30 kilometres was known by inference. Sound propagation from large explosions gave a temperature profile through the refraction of the returning waves, a technique [Cox 1948][research_cox_1948] describes. A ray launched at elevation $\theta_0$ into a stratified atmosphere conserves the Snell invariant,
+
+$$\frac{\cos \theta(z)}{c_s(z)} = \frac{\cos \theta_0}{c_s(0)}$$
+
+and turns back toward the ground where $\theta$ reaches zero, which happens at the altitude where
+
+$$c_s(z_t) = \frac{c_s(0)}{\cos \theta_0}$$
+
+Since the sound speed depends only on temperature, the return of a ray at a known launch angle locates an altitude where the temperature takes a particular value. **The method returns one temperature per ray rather than a profile**, and it requires an assumed profile to convert the returns into altitudes, which is precisely the circularity a rocket removes.
+
+Searchlight scattering gave densities to about 60 kilometres. The scattering is Rayleigh, whose cross-section per molecule varies as the inverse fourth power of wavelength,
+
+$$\sigma_R = \frac{24 \pi^{3}}{N_0^{2} \lambda^{4}} \left( \frac{n_r^{2}-1}{n_r^{2}+2} \right)^{2}$$
+
+and whose returned signal from a range $z$ falls with the inverse square of that range,
+
+$$S(z) = \frac{C \, n(z) \, \sigma_R}{z^{2}} \quad \Longrightarrow \quad n(z) \propto S(z) \, z^{2}$$
+
+so density follows directly from the received intensity once the instrument constant is known. Both are integral methods, meaning they return a weighted average over a path rather than a local value, and both require an assumed model to invert.
 
 Rockets made the measurement local and direct, and the programme that organised them was run by a standing committee of the experimenters themselves under [Homer Newell][ref_newell] and his colleagues rather than by any single agency. The consolidated result of the first six years appeared as [Panel 1952][research_panel_1952] in *Physical Review*, under the collective authorship of the Upper Atmosphere Rocket Research Panel, and it is the paper that replaced the inferred atmosphere with a measured one from 30 to 220 kilometres. The Naval Research Laboratory's Upper Atmosphere Research Report series, of which [Newell et al 1946][research_newell_1946], [Newell et al 1947, Report Number 3][research_newell_1947], [Newell et al 1947, Report Number 4][research_newell_1947_2], [Newell et al 1948][research_newell_1948], and the summary [Pressly et al 1954][research_pressly_1954] are part, is the underlying record. The standard reference atmosphere that this work produced is [US Standard Atmosphere 1976][ref_us_standard_atmosphere], and the handbook that consolidated the geophysical results is [Jursa 1985 Handbook of Geophysics and the Space Environment][book_jursa_1985].
 
@@ -829,7 +1045,15 @@ A rocket ascending through the layer while watching the sun measures the transmi
 
 $$n(z) = -\frac{1}{\sigma} \frac{\mathrm{d}\tau}{\mathrm{d}z}$$
 
-[Johnson et al 1952][research_johnson_1952] made that measurement to 70 kilometres and published the first direct vertical distribution. **The differentiation is the whole point**, and it is the reason a rocket profile is qualitatively rather than incrementally better than a ground column, since differentiating an integral recovers information that no amount of precision on the integral itself can supply.
+The measurement is made against the sun rather than at the zenith, so the path is slant rather than vertical and the optical depth is larger by the secant of the solar zenith angle $\chi$,
+
+$$\tau_{\text{slant}} = \tau_{\text{vert}} \sec \chi$$
+
+which holds while the curvature of the atmosphere can be ignored, meaning below about seventy degrees. At sixty degrees the factor is two, so the altitude at which the atmosphere becomes transparent rises by
+
+$$\Delta z = H \ln 2 = (7.6)(0.693) = 5.3 \, \text{km}$$
+
+**The observing geometry is therefore part of the altitude requirement**, and a measurement made near sunrise needs a higher apogee than the same measurement made at noon. [Johnson et al 1952][research_johnson_1952] made that measurement to 70 kilometres and published the first direct vertical distribution. **The differentiation is the whole point**, and it is the reason a rocket profile is qualitatively rather than incrementally better than a ground column, since differentiating an integral recovers information that no amount of precision on the integral itself can supply.
 
 ### The Solar Ultraviolet and the Birth of Space Astronomy
 
@@ -845,13 +1069,49 @@ Solar X-ray emission during a flare was detected from a rocket by [Chubb et al 1
 
 **The consequential result came five years later and it was not solar.** On 19 June 1962 an Aerobee 150 carrying Geiger counters intended to look for fluorescent X-rays from the moon instead recorded a bright source in the direction of Scorpius and a diffuse background. [Giacconi et al 1962][research_giacconi_1962] reported it in *Physical Review Letters* as evidence for X-rays from sources outside the solar system, and the source became Scorpius X-1. The interpretation was contested immediately, with [Hoyle 1963][research_hoyle_1963] and [Finzi 1964][research_finzi_1964] proposing mechanisms, and the sky was then surveyed in earnest. [Bowyer et al 1964, Direction of Scorpius][research_bowyer_1964_2] fixed the Scorpius emission, [Bowyer et al 1964, X-ray Sources in the Galaxy][research_bowyer_1964] found further sources across the galaxy, and [Friedman et al 1964][research_friedman_1964] proposed neutron stars as the origin. Cataloguing followed in [Bowyer et al 1965][research_bowyer_1965], and by [Byram et al 1966][research_byram_1966] the galactic and extragalactic populations were being separated, a distinction that [Friedman and White 1967][research_friedman_1967] carried into the distribution and variability of the whole set. Angular sizes came from [Bradt et al 1966][research_bradt_1966] and [Clark et al 1965][research_clark_1965], spectra from [Giacconi et al 1965, Spectral Data][research_giacconi_1965], and the programme's own account of its instruments is [Giacconi et al 1966, Programme Final Report][research_giacconi_1966].
 
-[Riccardo Giacconi][ref_giacconi] received a share of the 2002 Nobel Prize in Physics for that line of work. **The instrument that started it flew for about five minutes on a rocket that cost a small fraction of a satellite**, and the observing-time relation derived at the beginning of this article is the reason five minutes was enough. Giacconi's own account of the episode is [Giacconi 2008 Secrets of the Hoary Deep][book_giacconi_2008], the source itself is [Scorpius X-1][ref_sco_x1], and the recognition is [Nobel Prize in Physics 2002][ref_nobel_2002]. The instrumentation lineage that followed within the sounding-rocket programme is [Davis et al 1973][research_davis_1973] and [Kestenbaum et al 1971][research_kestenbaum_1971]. A source bright enough to detect at all was detectable in the time available, and the sky survey that followed was a matter of flying repeatedly rather than of flying longer.
+[Riccardo Giacconi][ref_giacconi] received a share of the 2002 Nobel Prize in Physics for that line of work. **The instrument that started it flew for about five minutes on a rocket that cost a small fraction of a satellite.** Whether five minutes is enough is a counting-statistics question and it has a definite answer. A detector accumulating source counts at rate $R_s$ against a background rate $R_b$ collects $R_s t$ and $R_b t$ counts in time $t$, and since both are Poisson the significance of the excess is
+
+$$\frac{S}{N} = \frac{R_s t}{\sqrt{\left( R_s + R_b \right) t}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + R_b}}$$
+
+Significance grows as the square root of time, so the exposure required for a detection at $k$ standard deviations is
+
+$$t_{\min} = \frac{k^{2} \left( R_s + R_b \right)}{R_s^{2}}$$
+
+For a five-sigma detection of a source giving one count per second against a background of five,
+
+$$t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}$$
+
+**which fits inside the observing window with room to spare**, while a source ten times fainter would require 12,700 seconds and is out of reach of any ballistic flight. The relation partitions the sky sharply into what a sounding rocket can find and what it cannot, and the reason X-ray astronomy began on a rocket rather than a satellite is that the brightest sources fall on the accessible side of that line. Nothing about the argument requires the flight to be long. It requires the source to be bright, and the observing-time relation derived at the beginning of this article is what makes five minutes available at all. Giacconi's own account of the episode is [Giacconi 2008 Secrets of the Hoary Deep][book_giacconi_2008], the source itself is [Scorpius X-1][ref_sco_x1], and the recognition is [Nobel Prize in Physics 2002][ref_nobel_2002]. The instrumentation lineage that followed within the sounding-rocket programme is [Davis et al 1973][research_davis_1973] and [Kestenbaum et al 1971][research_kestenbaum_1971]. A source bright enough to detect at all was detectable in the time available, and the sky survey that followed was a matter of flying repeatedly rather than of flying longer.
 
 ### The Ionosphere and the Neutral Atmosphere
 
-Electron density profiles were measured directly by propagation experiments between a rocket-borne transmitter and the ground, which recover the profile from the Doppler and phase behaviour of signals at two frequencies. [Jackson et al 1956][research_jackson_1956] and [Jackson and Seddon 1958][research_jackson_1958] report the Navy Aerobee-Hi measurements by name, and the topside extension is [Bauer and Jackson 1962][research_bauer_1962_2]. Radio-frequency impedance probes are [Jackson et al 1962][research_jackson_1962], the very-low-frequency admittance treatment is [Mlodnosky and Garriott 1962][research_mlodnosky_1962], and the later probe comparisons are [Nisbet 1960][research_nisbet_1960].
+Electron density profiles were measured directly by propagation experiments between a rocket-borne transmitter and the ground. A plasma of electron number density $N$ has a characteristic frequency
 
-Neutral composition by mass spectrometry, which is the measurement that established the altitude at which the atmosphere ceases to be well mixed, is [Meadows and Townsend 1956][research_meadows_1956], with the later rocket-borne results of [Nichols and Shaefer 1963][research_nichols_1963]. Nitric oxide, which is a minor constituent with a major effect on the D region, is [Barth 1964][research_barth_1964] and [Barth 1966, Planetary and Space Science][research_barth_1966_4], following the prediction of [Kaplan 1939][research_kaplan_1939], with the later rocket measurements of [Pearce 1968][research_pearce_1968] and the review in [Barth 1966, Upper Atmosphere][research_barth_1966_2]. Sodium in the daytime upper atmosphere is [Donahue and Meier 1967][research_donahue_1967]. The probe techniques themselves are surveyed by [Smith 1965][research_smith_1965] and compared against one another by [Fejer et al 1965][research_fejer_1965].
+$$f_p = \frac{1}{2\pi} \sqrt{\frac{N e^{2}}{\epsilon_0 m_e}} \approx 8.98 \sqrt{N} \, \text{Hz}$$
+
+with $N$ in electrons per cubic metre, which for a typical E-region density of $10^{11}$ is 2.84 megahertz. A radio wave above that frequency propagates with refractive index
+
+$$n = \sqrt{1 - \frac{f_p^{2}}{f^{2}}} = \sqrt{1 - \frac{N e^{2}}{4 \pi^{2} \epsilon_0 m_e f^{2}}}$$
+
+so the phase path differs from the geometric path by an amount that depends on the frequency and on the electron content along the ray. Transmitting two harmonically related frequencies and comparing their Doppler shifts removes the vehicle motion, which is common to both, and leaves the dispersive term,
+
+$$\Delta f_D \propto \frac{1}{f_1} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s - \frac{1}{f_2} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s$$
+
+**Differentiating the result along the trajectory returns the local density rather than the column**, which is the same trick the ozone measurement uses and the reason a rocket profile is qualitatively better than any ground-based sounding. [Jackson et al 1956][research_jackson_1956] and [Jackson and Seddon 1958][research_jackson_1958] report the Navy Aerobee-Hi measurements by name, and the topside extension is [Bauer and Jackson 1962][research_bauer_1962_2]. Radio-frequency impedance probes are [Jackson et al 1962][research_jackson_1962], the very-low-frequency admittance treatment is [Mlodnosky and Garriott 1962][research_mlodnosky_1962], and the later probe comparisons are [Nisbet 1960][research_nisbet_1960].
+
+The altitude at which the atmosphere ceases to be well mixed is set by a competition between two transport processes. Below it, turbulent eddies stir the gas faster than molecules can separate by weight, and above it the reverse holds. The dividing level is where the eddy diffusivity $K$ equals the molecular diffusion coefficient $D$, which itself varies inversely with density,
+
+$$D(z) = D_0 \frac{n_0}{n(z)}$$
+
+Setting $D = K$ gives a criterion in density alone,
+
+$$n_{\text{turbopause}} = \frac{D_0 n_0}{K}$$
+
+and with a sea-level molecular diffusivity of $2 \times 10^{-5}$ square metres per second and an eddy diffusivity near 100 in the lower thermosphere,
+
+$$n_{\text{turbopause}} = \frac{(2 \times 10^{-5})(2.5 \times 10^{25})}{100} = 5 \times 10^{18} \, \text{m}^{-3}$$
+
+which the standard atmosphere places near 107 kilometres. **Above that level each species falls off with its own scale height** rather than with the mean, so the mean molecular mass drops with altitude and the atmosphere separates. That is the prediction a mass spectrometer on a rocket was flown to test, and the measurement is [Meadows and Townsend 1956][research_meadows_1956], with the later rocket-borne results of [Nichols and Shaefer 1963][research_nichols_1963]. Nitric oxide, which is a minor constituent with a major effect on the D region, is [Barth 1964][research_barth_1964] and [Barth 1966, Planetary and Space Science][research_barth_1966_4], following the prediction of [Kaplan 1939][research_kaplan_1939], with the later rocket measurements of [Pearce 1968][research_pearce_1968] and the review in [Barth 1966, Upper Atmosphere][research_barth_1966_2]. Sodium in the daytime upper atmosphere is [Donahue and Meier 1967][research_donahue_1967]. The probe techniques themselves are surveyed by [Smith 1965][research_smith_1965] and compared against one another by [Fejer et al 1965][research_fejer_1965].
 
 ### What It Did Not Change
 
@@ -943,9 +1203,11 @@ Three consequences follow for this article. Vehicle parameters are drawn from se
 
 **Historical fact, well documented.** The Aerobee originated in a 1946 Naval Research Laboratory contract to Aerojet instigated by Van Allen at the Applied Physics Laboratory. The name is a contraction of Aerojet and Bumblebee. The first dummy flight was 25 September 1947 and the first fully successful flight 5 March 1948. The first Air Force flight was USAF-1 from Holloman on 2 December 1949, reaching 96.1 kilometres, and its nose cone was lost until July 1950 with the film destroyed. The Aerobee family flew 1,037 times, ending on 17 January 1985. The Scorpius X-1 detection was made from an Aerobee 150 on 19 June 1962 and reported by Giacconi and colleagues.
 
-**Engineering analysis, computed here.** The optical-depth altitudes of 80 and 110 kilometres, the observing-time relation and its 400 second coefficient, the theoretical specific impulse of 225 seconds, the nozzle throat and exit dimensions recovered from the thrust difference, the chamber pressure of 2.2 megapascals, the characteristic velocity of 1,440 metres per second, the tank mass fraction, the helium against air pressurant comparison, the tower exit velocity of 99 metres per second, the pitch natural frequency of 1.16 radians per second, the fin normal-force slope, the roll-resonance density scaling and its critical densities, the tumbling ballistic-coefficient reduction of a factor of 63, the parachute sizing and opening load, the telemetry link budget and the photographic comparison, the buckling and thermal calculations, and the drag-loss estimate are all derived in this article from the stated inputs. **Each depends on assumed values that are named where they are used**, and a reader substituting different assumptions will get different numbers.
+**Engineering analysis, computed here.** The optical-depth altitudes of 80 and 110 kilometres, the observing-time relation and its 400 second coefficient, the theoretical specific impulse of 225 seconds, the nozzle throat and exit dimensions recovered from the thrust difference, the exit Mach number of 2.76 and the thrust coefficients of 1.624 in vacuum and 1.409 at sea level, the chamber pressure of 2.16 megapascals recovered jointly with those coefficients, the measured characteristic velocity of 1,393 metres per second against an ideal 1,505 and the resulting 93 percent combustion efficiency, the throat heat flux of 9.3 megawatts per square metre, the booster web and burning area, the cryogenic boil-off rate of 18 percent per hour, the tank mass fraction, the helium against air pressurant comparison, the net axial tension that keeps the shell out of compression, the radiation equilibrium wall temperature of 943 kelvin, the tower exit velocity of 99 metres per second, the pitch natural frequency of 1.16 radians per second, the damping ratio of 0.0033 and the 0.86 second divergence time constant, the fin normal-force slope, the seven kilometre wind displacement, the two-dimensional containment radii, the 64 degree coning half-angle, the turbopause density criterion, the photon-counting exposure of 150 seconds, the roll-resonance density scaling and its critical densities, the tumbling ballistic-coefficient reduction of a factor of 63, the parachute sizing and opening load, the telemetry link budget and the photographic comparison, the buckling and thermal calculations, and the drag-loss estimate are all derived in this article from the stated inputs. **Each depends on assumed values that are named where they are used**, and a reader substituting different assumptions will get different numbers.
 
 **Inference, stated as such.** That the propellant was chosen for operational tempo rather than performance is an inference from the trade rather than a documented decision. That the fins were jettisoned specifically to reduce parachute opening load is an inference from the physics, since the sources record the practice without stating the reason. That the X-8 designation reflects administrative convenience rather than a decision to broaden the X-series is an inference from the absence of any recorded decision.
+
+**Secondary sources corrected here.** The thrust coefficients usually quoted for this engine, 1.55 in vacuum and 1.36 at sea level, are both low, and the theoretical characteristic velocity usually given as 1,570 metres per second is 1,505 when computed from the flow factor. Writing the relations down rather than quoting the figures is what exposed this. The corrected chain has an independent check the quoted figures did not, since carrying the recovered chamber pressure back to vacuum reproduces the separately reported thrust of 4,728 pounds to within one pound.
 
 **Not settled by the record consulted here.**
 

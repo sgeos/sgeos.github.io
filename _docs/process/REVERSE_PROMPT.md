@@ -9,8 +9,114 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A305, the Aerojet X-8 Aerobee, drafted, verified, and **committed**. Not pushed, per the
-draft-pass convention. Not published. All nine articles in the series remain in `_drafts/`.
+**Task**: A305 equation-density review, the second pass. Committed. Not pushed, per the convention
+for passes that do not ask for it. Not published. All nine articles remain in `_drafts/`.
+
+---
+
+## The Pass Paid for Itself Immediately
+
+Baseline was 136 display equations. Auditing for relations the prose names, relies on, or whose
+product it quotes found **25 such relations absent**, and writing the first of them down found that
+three numbers the draft had quoted were wrong.
+
+The article stated thrust coefficients of 1.55 in vacuum and 1.36 at sea level, and a theoretical
+characteristic velocity of 1,570 metres per second. Computed from the area relation and the flow
+factor they are **1.624, 1.409, and 1,505**. I had taken all three from secondary compilations rather
+than deriving them, which is the same class of error as taking an author's name from a title.
+
+The corrected chain is better than merely correct. Because the sea-level thrust coefficient cannot be
+stated independently of the chamber pressure, the two must be solved together, and doing so recovers a
+chamber pressure of 2.16 megapascals. Carrying that back to vacuum gives 4,727 pounds of thrust
+against a **separately reported 4,728**, which is an independent check the original arithmetic did not
+have and could not have had. Three downstream figures were corrected, including in the Epistemic
+State.
+
+---
+
+## The Stability Analysis Now Predicts What the Flight Record Blames on It
+
+The draft explained the 24 November 1947 failure, in which the tail yawed for 35 seconds before the
+flight was terminated, as "the failure mode the stability analysis above predicts". **The analysis did
+not predict it**, because I had computed a natural frequency without ever writing the equation of
+motion it solves.
+
+Writing it down gives two results the article needed. The damping ratio at tower exit is 0.0033, which
+is 33 cycles to halve an oscillation, or about three minutes against a 42 second burn, so **an
+unguided finned rocket does not damp its pitch motion aerodynamically in any useful sense**. What
+suppresses the motion is rising dynamic pressure and roll averaging, not damping, and the damping
+ratio gets worse with altitude as the square root of density. And a statically unstable vehicle of
+this size has a divergence time constant of 0.86 seconds, so a flight that yawed for 35 seconds ran
+for forty time constants and was not marginally unstable.
+
+---
+
+## Three Further Results Worth Having
+
+**Wind weighting, derived rather than named.** Integrating the weathercock tilt over the burn gives a
+lateral velocity of the wind times the logarithm of the velocity ratio. A ten metre per second wind
+therefore moves the impact point **seven kilometres**. That single number justifies the adjustable
+tower, the three-degree cant, and the choice of deserts, none of which the draft had quantified.
+
+**Containment, corrected.** The draft quoted a three-sigma radius as though the error were
+one-dimensional. In two dimensions the Rayleigh containment gives 0.989 at three sigma, not 0.997, and
+reaching 0.997 needs 3.41 sigma. The required impact radius is 6.8 kilometres rather than 6.
+
+**Coning, which settles the pointing argument.** A slender body has a transverse-to-roll inertia ratio
+near 300, so a residual transverse rate of a tenth of a radian per second at burnout swings the
+instrument axis through a **64 degree cone** for the whole observing window. That is a consequence of
+slenderness rather than of workmanship, and it is much the strongest support for the article's claim
+that the era's science was limited by pointing rather than by altitude.
+
+Six measurement methods the article named and relied on had no relations at all, and now have them,
+namely two-frequency differential Doppler for electron density, the eddy-against-molecular diffusivity
+criterion that locates the turbopause near 107 kilometres, Poisson counting statistics giving a 150
+second exposure for a five-sigma X-ray detection, the Snell invariant for acoustic sound ranging, the
+Rayleigh cross-section for searchlight densitometry, and the slant-path secant that makes observing
+geometry part of the altitude requirement.
+
+---
+
+## Verification
+
+All 64 new worked values re-derived independently, with one correction, being an exposure time for a
+ten-times-fainter source stated as 15,000 seconds against 12,750. Every previously verified value
+re-checked and still reproducing. Zero lone dollar-delimited lines that would render inline, zero
+blank-line seam defects, and **200 rendered display blocks confirmed in the built HTML against 200 in
+the source**.
+
+The seam scan caught one duplicated clause in text I had just inserted, where the aspect-cone addition
+said the sign ambiguity is resolved by continuity immediately before an existing sentence saying the
+same thing. **That is the fourth occurrence of this defect class in the series and it was again found
+by reading rather than by any check aimed at it.**
+
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build
+succeeding with Part 9 navigation and no unresolved references.
+
+---
+
+## The Count Is the Highest in the Series and I Did Not Trim It
+
+2007 lines, **200 display equations**, 370 references, 18,655 words. The equation ceiling is 130 and
+the opener A297 holds the previous high at 147.
+
+Every one of the 64 additions is a relation the prose already names, relies on, or whose product it
+quotes, so the rule that produces the number was followed rather than the number targeted. I have not
+proposed changing the genre band, because A303 and A304 sat at 92 and 94 and one outlier is not
+evidence. The subject is the reason: this article carries propulsion, flight dynamics, structures,
+heating, telemetry, and six separate measurement techniques, where a typical article in the series
+carries three or four of those.
+
+**If you would rather the article were shorter, the place to cut is the measurement-method relations
+in What the Data Changed**, which are the least load-bearing of the additions. Say so and I will
+remove them.
+
+---
+
+## Prior State, Carried Forward
+
+The draft pass is described below and remains accurate except for the metrics, which the equation pass
+superseded.
 
 ---
 

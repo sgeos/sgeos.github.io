@@ -21,9 +21,31 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
 
-1746 lines, 136 display equations, 370 reference definitions, 16,399 words after the draft pass.
-References are inside band. **Lines exceed the ceiling of 1600 by 146 and equations exceed the
-ceiling of 130 by 6**, both deliberate under the standing directive stating no length limit.
+2007 lines, 200 display equations, 370 reference definitions, 18,655 words after the draft and
+equation passes. References are inside band. **Equations at 200 are the highest in the series, above
+the A297 opener at 147 and well over the 130 ceiling, and lines exceed the 1600 ceiling by 407.** Both
+are deliberate. Every equation added in the second pass is a relation the prose names, relies on, or
+whose product it quotes, so the rule that produces the number was followed rather than the number
+targeted.
+
+**The equation review found arithmetic errors the draft pass had carried as quoted figures.** The
+thrust coefficients given as 1.55 in vacuum and 1.36 at sea level compute to 1.624 and 1.409, and the
+theoretical characteristic velocity given as 1,570 metres per second computes to 1,505. Writing the
+relations down rather than quoting the numbers is what exposed both, which is the entire case for this
+pass. The corrected chain carries an independent check the original did not, since the recovered
+chamber pressure of 2.16 megapascals reproduces the separately reported vacuum thrust of 4,728 pounds
+to within one pound.
+
+The stability analysis was completed so that it predicts what the flight record attributes to it. The
+draft appealed to a failure mode the analysis predicted without having written the equation of motion.
+Adding it gives a damping ratio of 0.0033 and 33 cycles to halve an oscillation, so **an unguided
+finned rocket does not damp its pitch motion aerodynamically in any useful sense**, and a divergence
+time constant of 0.86 seconds, so the 24 November 1947 flight that yawed for 35 seconds ran for forty
+time constants. Deriving the wind weighting the draft had only named gives **a seven kilometre impact
+displacement from a ten metre per second wind**, and the torque-free coning relation gives a **64
+degree cone** from a residual transverse rate of a tenth of a radian per second, which is the
+strongest support for the claim that the era's science was pointing-limited rather than
+altitude-limited.
 
 **This is the first article in the series whose subject is not an aircraft**, and the keystone
 follows from that. Every previous X-vehicle was the object of its own measurement. The X-1 was
