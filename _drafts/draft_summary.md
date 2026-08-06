@@ -21,11 +21,19 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
 
-1345 lines, 112 display equations, 318 reference definitions, 16,446 words after an equation-density
-review that added 46 equations across 24 edits. All three densities are now inside band. NTRS primary
-documents number 94 at 29.6 percent of all references, references dated 1960 or earlier are 33.7
-percent of dated references, and contemporary references are 22.1 percent, the last being below the
-target range and the item the publication review will have to address.
+1535 lines, 112 display equations, 406 reference definitions, 20,184 words after an equation-density
+review and a primary-reference review. **NTRS-hosted primary documents rose from 94 to 182, or 44.8
+percent of all references, which is by a wide margin the highest in the series against 30 to 33
+percent for A298 through A301.** References dated 1960 or earlier rose from 70 to 102, or 34.5
+percent of dated references, second only to A298 and A301.
+
+**Total references at 406 exceed the genre band's ceiling of 380 by 26.** The standing directive for
+this series states no reference limit, and the prompt asked that all identified references be added,
+so the overage is deliberate and is reported rather than trimmed. The pilot can call for a trim.
+
+Contemporary references stand at 49 absolute and 16.6 percent of dated references, down from 22.1
+percent purely by dilution, and that is now the furthest below the 28 to 33 percent target range of
+any article in the series. It is the publication review's business and has not been pre-empted.
 
 The equation pass produced three results the draft did not have. The Korn drag-divergence relation,
 evaluated with the streamwise thickness ratios that sweeping produces, returns 0.765 at the low sweep

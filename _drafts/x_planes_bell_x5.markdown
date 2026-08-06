@@ -25,7 +25,9 @@ Sweep is the central compromise of transonic design and it cannot be resolved in
 
 $$V_n = V \cos \Lambda, \qquad V_s = V \sin \Lambda, \qquad M_n = M \cos \Lambda$$
 
-with $V_n$ the component that must be accelerated over the section and $V_s$ the spanwise component that must not. At Mach 0.9 and 60 degrees of sweep the section sees an effective Mach number of 0.45, which is subcritical by a wide margin, while the spanwise component reaches Mach 0.78 and drags boundary layer toward the tip. The simple sweep relation states the benefit,
+with $V_n$ the component that must be accelerated over the section and $V_s$ the spanwise component that must not. At Mach 0.9 and 60 degrees of sweep the section sees an effective Mach number of 0.45, which is subcritical by a wide margin, while the spanwise component reaches Mach 0.78 and drags boundary layer toward the tip.
+
+That spanwise component is not merely a bookkeeping term. It drives an instability with no unswept analogue, in which the boundary layer profile acquires an inflection in the crossflow direction and sheds stationary vortices that trip the layer to turbulence well ahead of where a straight wing would transition. The mechanism was characterized experimentally by [Dagenhart et al 1989][research_dagenhart_1989] and [Mousseux et al 1989][research_mousseux_1989], mapped in the swept-wing boundary layer experiments of [Dagenhart et al 1990][research_dagenhart_1990] and [Dagenhart 1992][research_dagenhart_1992], resolved into its secondary instability by [Kohama et al 1991][research_kohama_1991], attacked by control in [Bridges 1994][research_bridges_1994], and is still being excited deliberately for study in [Carpenter et al 2010][research_carpenter_2010]. **The X-5 could vary the parameter this entire literature treats as fixed**, which is a point taken up at the end of this article, since that capability was eventually used for exactly that purpose on a different airframe. The simple sweep relation states the benefit,
 
 $$M_{dd}(\Lambda) \approx \frac{M_{dd}(0)}{\cos^{k} \Lambda}, \qquad 0.5 \le k \le 1$$
 
@@ -115,7 +117,7 @@ The aerodynamic centre of a tapered panel lies near the spanwise station of its 
 
 $$\frac{y_{\text{mac}}}{L} = \frac{1}{3} \, \frac{1 + 2\lambda}{1 + \lambda}$$
 
-returning 0.41 at a taper ratio of 0.3 and 0.44 at 0.5. This article uses forty percent, which is slightly inboard of that range and therefore slightly conservative, so
+returning 0.41 at a taper ratio of 0.3 and 0.44 at 0.5. Taper ratio was not a free parameter to the designers either, since it governs the rolling derivatives directly, as [Brewer and Fisher 1951][research_brewer_1951] measured across swept and unswept planforms. This article uses forty percent, which is slightly inboard of that range and therefore slightly conservative, so
 
 $$s_{ac} \approx 0.40 \, L = 0.40 \times 4.42 = 1.77 \ \text{metres}$$
 
@@ -227,7 +229,7 @@ and the stall speed follows,
 
 $$V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}$$
 
-Evaluating with a maximum lift coefficient of 1.20 at the low sweep setting and scaling by cosine,
+The increments a flap supplies were predictable by method rather than by test alone, and [Lowry and Polhamus 1957][research_lowry_1957] give one, by the same Polhamus who would shortly lead the variable-sweep work discussed below. Evaluating with a maximum lift coefficient of 1.20 at the low sweep setting and scaling by cosine,
 
 $$V_{\text{stall}}(20^\circ) = 60.6 \ \text{metres per second}, \qquad V_{\text{stall}}(60^\circ) = 83.1 \ \text{metres per second}$$
 
@@ -235,11 +237,11 @@ a rise of 37 percent. The drag-divergence side of the trade can be evaluated on 
 
 $$M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\left( t/c \right)_{\text{stream}}}{\cos^2 \Lambda} - \frac{C_L}{10 \cos^3 \Lambda}$$
 
-with $\kappa_A$ near 0.87 for a conventional section. Evaluating at a lift coefficient of 0.3 with the streamwise thickness ratios derived above,
+with $\kappa_A$ near 0.87 for a conventional section. The underlying comparison had been made directly rather than by correlation, and [Ackeret et al 1951][research_ackeret_1951] report an investigation of wings with and without sweepback at high subsonic speed, which is the controlled experiment the whole argument rests on. Twist and camber interact with the same trade, as [Spreemann and Alford 1951][research_spreemann_1951] and [Mugler 1959][research_mugler_1959] show, and the body interference a real installation adds appears in [Martina 1956][research_martina_1956]. Evaluating at a lift coefficient of 0.3 with the streamwise thickness ratios derived above,
 
 $$M_{dd}(20^\circ) = 0.765, \qquad M_{dd}(40^\circ) = 0.916, \qquad M_{dd}(60^\circ) = 1.27$$
 
-The last figure is beyond the relation's range of validity and is quoted only to show the sense of the trend. The first two are the interesting ones. **The X-5 reached about Mach 0.9, which is above the drag-rise Mach number of its own unswept setting and at the drag-rise Mach number of its middle one.** The aircraft could not have reached its top speed at low sweep. Sweeping was not a refinement of the performance. It was the performance.
+The correlation compresses a decade of transonic drag work into three terms, and the underlying measurements are worth naming because the coefficients are empirical rather than derived. Wing-body drag at transonic speed was characterized by [Cheatham and Kurbjun 1948][research_cheatham_1948] and systematically by [Whitcomb 1956][research_whitcomb_1956], whose zero-lift drag study of wing-body combinations is the work the area rule came out of, with the moment-of-area refinements in [Dickey 1959][research_dickey_1959] and the transonic characteristics of a 52 degree sweptback configuration in [Igoe et al 1961][research_igoe_1961]. The last figure is beyond the relation's range of validity and is quoted only to show the sense of the trend. The first two are the interesting ones. **The X-5 reached about Mach 0.9, which is above the drag-rise Mach number of its own unswept setting and at the drag-rise Mach number of its middle one.** The aircraft could not have reached its top speed at low sweep. Sweeping was not a refinement of the performance. It was the performance.
 
 Stated the other way at the slow end, which is the way the designer cares about, unsweeping the wing for the approach reduces the landing speed by more than a quarter. That is the entire commercial argument for variable sweep, and it is worth what it is worth because landing speed drives runway length, tyre and brake energy, and the survivability of an approach flown badly. The energy a brake must absorb scales as the square of the touchdown speed,
 
@@ -321,7 +323,7 @@ with the pin itself in double shear at
 
 $$\tau = \frac{F}{2 \left( \pi d^2 / 4 \right)} = 21 \ \text{megapascals}$$
 
-Neither figure is alarming for steel, which is the point worth making. **The pivot is not hard because the stresses are high. It is hard because the joint must carry them while rotating, repeatedly, without developing the free play that would turn a stiffness into a mechanism.** A bearing clearance $\delta$ at radius $s_{ac}$ registers as a sweep error,
+Neither figure is alarming for steel, which is the point worth making. The design of a conventional wing root and its carry-through is a well-worked subject, treated at length in [Sager et al 1993][research_sager_1993] and [Downs et al 1993][research_downs_1993], and what those treatments assume throughout is a continuous load path. The pivot replaces it with a discontinuity. **The pivot is not hard because the stresses are high. It is hard because the joint must carry them while rotating, repeatedly, without developing the free play that would turn a stiffness into a mechanism.** A bearing clearance $\delta$ at radius $s_{ac}$ registers as a sweep error,
 
 $$\Delta \Lambda_{\text{slop}} \approx \frac{\delta}{s_{ac}}$$
 
@@ -421,7 +423,7 @@ both of which contain the span explicitly and therefore both of which the sweep 
 
 $$C_{l\beta,\text{sweep}} \approx -C_L \frac{\tan \Lambda}{2}$$
 
-so that the rolling moment due to sideslip nearly quintuples between 20 and 60 degrees at fixed lift coefficient. An aircraft with strong dihedral effect and a fin of fixed area is an aircraft prone to a lightly damped Dutch roll, and the sideslip behaviour at high sweep is exactly what [Childs 1953][research_childs_1953] set out to measure. The lateral characteristics of variable-sweep configurations generally are treated in [Eckert and Maki 1973][research_eckert_1973], the rolling derivatives in [Gainer et al 1967][research_gainer_1967], and the dynamic derivatives across the transonic and supersonic range in [Kilgore 1971][research_kilgore_1971] and [Averett and Wright 1966][research_averett_1966].
+so that the rolling moment due to sideslip nearly quintuples between 20 and 60 degrees at fixed lift coefficient. The measured basis for that relation is [Lampert 1951][research_lampert_1951] on rolling and yawing moments for sweptback wings in sideslip, with the wing height and dihedral contributions separated by [Gillis and Chapman 1956][research_gillis_1956] and the yawing moment due to rolling estimated semiempirically by [Campbell and Goodman 1949][research_campbell_1949]. Fuselage and tail interference on the same characteristics is [Bird et al 1951][research_bird_1951_2], and the complete swept model case is [Schulderfrei et al 1951][research_schulderfrei_1951] and [Savage and Edwards 1959][research_savage_1959]. Lateral control at the high sweep setting is its own difficulty, treated for tip ailerons by [Moseley and Watson 1951][research_moseley_1951] and for jet control by [Vogler and Turner 1956][research_vogler_1956]. An aircraft with strong dihedral effect and a fin of fixed area is an aircraft prone to a lightly damped Dutch roll, and the sideslip behaviour at high sweep is exactly what [Childs 1953][research_childs_1953] set out to measure. The lateral characteristics of variable-sweep configurations generally are treated in [Eckert and Maki 1973][research_eckert_1973], the rolling derivatives in [Gainer et al 1967][research_gainer_1967], and the dynamic derivatives across the transonic and supersonic range in [Kilgore 1971][research_kilgore_1971] and [Averett and Wright 1966][research_averett_1966].
 
 ### The Spin, and the Term With the Span Squared in It
 
@@ -447,7 +449,11 @@ and recovery requires the rudder to break that balance, so the criterion for a r
 
 $$\left| N_{\delta_r} \right| \delta_{r,\max} \, q S b > \left| I_x - I_y \right| p q$$
 
-**The left side is aerodynamic and the right side is inertial, and sweeping the wing acts on both sides in the unfavourable direction**, since the span appears once on the left and the inertia difference is unchanged while the span it is normalized against has shrunk. Aircraft that are strongly fuselage-heavy in this parameter spin flat, spin fast, and recover poorly, because the inertial yawing moment that sustains the rotation grows while the aerodynamic moment available to oppose it does not. This correlation is the accumulated product of two decades of free-spinning-tunnel work, running from [Scudder and Seidman 1935][research_scudder_1935] through the wartime and postwar fleet in [Berman 1947][research_berman_1947], [Snyder 1947][research_snyder_1947], [Scher 1947][research_scher_1947], [Berman 1949][research_berman_1949], [Klinar and Jones 1949][research_klinar_1949], [Klinar and Wilson 1950][research_klinar_1950], and [Lee 1952][research_lee_1952], and continuing through [Burk and Healy 1955][research_burk_1955], [Bowman 1956][research_bowman_1956], and [Bowman and Healy 1959][research_bowman_1959].
+**The left side is aerodynamic and the right side is inertial, and sweeping the wing acts on both sides in the unfavourable direction**, since the span appears once on the left and the inertia difference is unchanged while the span it is normalized against has shrunk. Aircraft that are strongly fuselage-heavy in this parameter spin flat, spin fast, and recover poorly, because the inertial yawing moment that sustains the rotation grows while the aerodynamic moment available to oppose it does not. This correlation is the accumulated product of two decades of work that begins before the tunnels. [Knight 1928][research_knight_1928] tested autorotation and the flat spin directly, [Scudder 1937][research_scudder_1937] measured the forces and moments on the parts of an airplane during actual spins rather than inferring them, and [Pitkin 1943][research_pitkin_1943] established that a leading-edge slot changes the spin and recovery behaviour, which is the first hint that the configuration details govern the outcome.
+
+**One document bears on the X-5 more directly than any other and it predates the aircraft.** [Stone and Klinar 1948][research_stone_1948] investigate the influence of very heavy fuselage mass loadings and long nose lengths upon oscillations in the spin, which is precisely the loading regime the parameter above describes and precisely the regime a swept aircraft with its mass in the fuselage occupies. The regime was named, characterized, and in print three years before the X-5 flew. Whether the aircraft was assessed against it, the sources consulted do not say.
+
+The moments of inertia on which any such assessment depends were themselves measurable by 1950, and [Turner 1950][research_turner_1950] gives a simplified method for obtaining them on a complete airplane, which is worth noting here because this article treats the X-5's inertias as representative values rather than measured ones. The measurement was available. Free-spinning-tunnel work continued through the wartime and postwar fleet in [Berman 1947][research_berman_1947], [Snyder 1947][research_snyder_1947], [Scher 1947][research_scher_1947], [Berman 1949][research_berman_1949], [Klinar and Jones 1949][research_klinar_1949], [Klinar and Wilson 1950][research_klinar_1950], and [Lee 1952][research_lee_1952], and continuing through [Burk and Healy 1955][research_burk_1955], [Bowman 1956][research_bowman_1956], and [Bowman and Healy 1959][research_bowman_1959].
 
 Now apply it to the X-5. The moments of inertia are properties of the mass distribution and change only slightly with sweep, since the wing is a small part of the total mass and it moves only a metre. The span is not slightly changed. It falls from 10.21 metres to 6.32 metres. Since the span enters the parameter squared,
 
@@ -473,9 +479,11 @@ The aerodynamic side of the recovery problem degrades in the same direction at t
 
 $$\text{TDPF} = \text{TDR} \times \text{URVC}$$
 
-in which the unshielded rudder volume coefficient counts only the rudder area outside the horizontal tail's wake shadow. The dependence of rudder effectiveness on horizontal tail position in spin attitudes is precisely what [Stone and Burk 1947][research_stone_1947] measured, and the case of an aircraft with the horizontal surface placed badly is [Gale and Pumphrey 1950][research_gale_1950]. The X-5's tail was, by the accounts, poorly placed. Whether the specific spin that killed the second aircraft was predicted is treated below.
+in which the unshielded rudder volume coefficient counts only the rudder area outside the horizontal tail's wake shadow. The dependence of rudder effectiveness on horizontal tail position in spin attitudes is precisely what [Stone and Burk 1947][research_stone_1947] measured, and the case of an aircraft with the horizontal surface placed badly is [Gale and Pumphrey 1950][research_gale_1950]. The X-5's tail was, by the accounts, poorly placed. A directly comparable case exists in the record, since [Bowman and Healy 1960][research_bowman_1960] report a free-spinning-tunnel investigation of a twin-jet swept-wing fighter model, which is the configuration class the X-5 belongs to, published the year after it was lost. Whether the specific spin that killed the second aircraft was predicted is treated below.
 
 The remedy of last resort, a spin-recovery rocket, was itself a subject of NACA investigation in [Burk and Healy 1955][research_burk_1955], which is the sort of document whose existence tells you how seriously the problem was taken.
+
+The subject did not close with the X-5's generation. Spin-tunnel practice continued through the general aviation fleet in [Burk et al 1977][research_burk_1977] and into the supersonic fighters with [Scher and White 1977][research_scher_1977] on the F-5E and [Whipple and White 1984][research_whipple_1984] on the F-16XL. The configuration dependence that [Pitkin 1943][research_pitkin_1943] first noticed was pursued systematically by [Stough and Patton 1979][research_stough_1979] and, in flight rather than in a tunnel, by [Stough et al 1987][research_stough_1987], who varied tail configuration and measured what it did to stall, spin, and recovery. That thread reaches an unusual endpoint. [Stough et al 1991][research_stough_1991] show that venting the tail improves yaw damping at spinning conditions, and [Stough 1993][research_stough_1993] patents an apparatus for improving spin recovery, which is the same problem the X-5 met arriving at a device rather than a rule.
 
 ### Propulsion and Envelope
 
@@ -497,7 +505,7 @@ and specific excess power governs the climb,
 
 $$P_s = \frac{V \left( T - D \right)}{W}, \qquad h_e = h + \frac{V^2}{2g}$$
 
-The aircraft reached about Mach 0.9 at 40,000 feet. The interesting propulsion observation is not about the engine but about the wing, since the drag polar itself is a function of sweep,
+The aircraft reached about Mach 0.9 at 40,000 feet. A clean transonic airframe decelerates poorly, and the devices for dealing with that were being characterized alongside, with dive-recovery flaps in [Heath and Ward 1959][research_heath_1959], speed-brake position effects on longitudinal characteristics in [Taylor 1959][research_taylor_1959], and the load redistribution that body-mounted brakes cause in [West 1960][research_west_1960]. The interesting propulsion observation is not about the engine but about the wing, since the drag polar itself is a function of sweep,
 
 $$C_D(\Lambda) = C_{D0}(\Lambda) + \frac{C_L^2}{\pi A(\Lambda) e(\Lambda)}$$
 
@@ -529,11 +537,11 @@ with $\boldsymbol{\varepsilon}$ the measured strains and $\mathbf{C}$ the calibr
 
 $$\frac{\left\| \delta \mathbf{L} \right\|}{\left\| \mathbf{L} \right\|} \le \kappa(\mathbf{C}) \, \frac{\left\| \delta \boldsymbol{\varepsilon} \right\|}{\left\| \boldsymbol{\varepsilon} \right\|}, \qquad \kappa(\mathbf{C}) = \left\| \mathbf{C} \right\| \left\| \mathbf{C}^{-1} \right\|$$
 
-A badly conditioned calibration turns a one percent strain measurement into a ten percent load. For a pivoting wing the calibration must be repeated at each sweep setting, because the load path changes when the geometry does. Sweep angle itself becomes a measured quantity with an error budget, and its error propagates into every derivative through the geometry. Differentiating the lift-curve slope relation,
+A badly conditioned calibration turns a one percent strain measurement into a ten percent load. This is a practical discipline with its own literature rather than a theoretical caution, and the procedures are set out in [Peele and Eckstrom 1975][research_peele_1975] for a low aspect ratio thin wing, in [Jenkins et al 1977][research_jenkins_1977] for a complex wing where the load paths are not obvious, and in [Jenkins and Kuhl 1977][research_jenkins_1977_2] for the accumulated experience on a delta configuration. **A wing that changes its own load path with every sweep setting is the hardest case this literature contemplates**, since the calibration is not one matrix but a family of them. For a pivoting wing the calibration must be repeated at each sweep setting, because the load path changes when the geometry does. Sweep angle itself becomes a measured quantity with an error budget, and its error propagates into every derivative through the geometry. Differentiating the lift-curve slope relation,
 
 $$\frac{\partial C_{L\alpha}}{\partial \Lambda} \approx \frac{C_{L\alpha}(20^\circ) - C_{L\alpha}(60^\circ)}{\Lambda_2 - \Lambda_1} = \frac{4.42 - 2.11}{0.698} = 3.31 \ \text{per radian squared}$$
 
-so a one degree error in recorded sweep is an error of between 1.3 and 2.7 percent in the lift-curve slope attributed to that point, the spread depending on where in the sweep range the point lies, and all of that before any aerodynamic uncertainty is considered. Uncertainty propagates in the standard way,
+so a one degree error in recorded sweep is an error of between 1.3 and 2.7 percent in the lift-curve slope attributed to that point, the spread depending on where in the sweep range the point lies, and all of that before any aerodynamic uncertainty is considered. The tunnel-side methods for obtaining the dynamic derivatives against which such flight results are read are described in [Chambers et al 1981][research_chambers_1981], and the practice of reducing a full aircraft to locally linearized derivative sets in [Budd 1984][research_budd_1984]. Uncertainty propagates in the standard way,
 
 $$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
 
@@ -545,7 +553,7 @@ Two aircraft were built and about two hundred flights were made, to Mach 0.9 and
 
 The first aircraft proved mechanically unreliable and made only ten flights. Walter Williams, who ran the NACA unit at Muroc, is quoted in the secondary literature calling it a lemon. The second aircraft was delivered during the resulting pause, proved far more reliable, and made twenty contractor flights. Both were turned over to the Air Force and the NACA in February 1950 by one account and 1952 by the chronology of the flights themselves, which is one of several dating inconsistencies in the secondary record. Air Force pilots including [Chuck Yeager][ref_yeager] flew a short evaluation series, and the NACA programme followed with [Scott Crossfield][ref_crossfield] among the pilots.
 
-The aircraft demonstrated what it was built to demonstrate. Sweep could be changed in flight, the trim consequence was absorbable, and the low-speed benefit was real. [Finch and Briggs 1953][research_finch_1953] report the stability and control investigation, [Finch and Walker 1953][research_finch_1953_2] the static longitudinal stability boundaries at 59 degrees, [Childs 1953][research_childs_1953] the sideslip behaviour, [Bellman 1953][research_bellman_1953] the lift and drag, and [Videan 1955][research_videan_1955] the dynamic lateral and longitudinal stability, with the load measurements of [Rogers and Dunn 1952][research_rogers_1952], [Reed 1955][research_reed_1955], and [Banner et al 1955][research_banner_1955] alongside. That is a dense and complete primary record for an aircraft that flew two hundred times, and it is denser than the [X-4][related_post_a301_northrop_x4]'s.
+The aircraft demonstrated what it was built to demonstrate. Sweep could be changed in flight, the trim consequence was absorbable, and the low-speed benefit was real. [Finch and Briggs 1953][research_finch_1953] report the stability and control investigation, [Finch and Walker 1953][research_finch_1953_2] the static longitudinal stability boundaries at 59 degrees, [Childs 1953][research_childs_1953] the sideslip behaviour, [Bellman 1953][research_bellman_1953] the lift and drag, and [Videan 1955][research_videan_1955] the dynamic lateral and longitudinal stability, with the load measurements of [Rogers and Dunn 1952][research_rogers_1952], [Reed 1955][research_reed_1955], and [Banner et al 1955][research_banner_1955] alongside. That is a dense and complete primary record for an aircraft that flew two hundred times, and it is denser than the [X-4][related_post_a301_northrop_x4]'s. The buffet behaviour of swept wing-fuselage-tail combinations at high subsonic speed, which bounds the useful envelope at every sweep setting, is characterized in [Sutton 1959][research_sutton_1959], and the gust-alleviation study performed on the X-5 model has a direct companion on a 35 degree swept wing in [Croom and Huffman 1957][research_croom_1957_2].
 
 On 13 October 1953 the second aircraft failed to recover from a spin at 60 degrees of sweep and was destroyed. The pilot, an Air Force major named Raymond Popson, was killed. The surviving aircraft continued flying at Edwards until 1955 and served as a chase aircraft until 1958, when it went to the National Museum of the United States Air Force, where it remains.
 
@@ -555,7 +563,7 @@ The accident ended more than the aircraft. Tentative Air Force interest in devel
 
 The X-5 is the case in this series where the ground facilities had the most complete prior picture and the flight programme still found something they had not.
 
-The low-speed aerodynamics were predicted well. Quarter-scale model results in [Kemp and Becht 1950][research_kemp_1950] and [Becht 1950][research_becht_1950] anticipated the lateral, directional, and landing behaviour, and the pressure work of [Kemp and Few 1951][research_kemp_1951] supplied the aerodynamic centre location directly rather than by inference. The influence of fuselage and tail surfaces on low-speed static stability had been mapped generally in [Bird et al 1952][research_bird_1952], the role of horizontal tail area and wing sweep in [Hayes and Sleeman 1959][research_hayes_1959], and tail height effects in [Fisher and Williams 1958][research_fisher_1958]. Chordwise fences and tail position, which are the standard remedies for the swept-wing pitch-up the X-5 also had to contend with, appear in [Queijo et al 1954][research_queijo_1954], with the flight evaluation of the pitch-up itself in [Anderson and Bray 1955][research_anderson_1955]. Boundary-layer stability as a function of sweep angle, which governs where the spanwise flow turns into transition, was measured by [Boltz et al 1960][research_boltz_1960].
+The low-speed aerodynamics were predicted well. Quarter-scale model results in [Kemp and Becht 1950][research_kemp_1950] and [Becht 1950][research_becht_1950] anticipated the lateral, directional, and landing behaviour, and the pressure work of [Kemp and Few 1951][research_kemp_1951] supplied the aerodynamic centre location directly rather than by inference. The influence of fuselage and tail surfaces on low-speed static stability had been mapped generally in [Bird et al 1952][research_bird_1952], the role of horizontal tail area and wing sweep in [Hayes and Sleeman 1959][research_hayes_1959], and tail height effects in [Fisher and Williams 1958][research_fisher_1958]. Chordwise fences and tail position, which are the standard remedies for the swept-wing pitch-up the X-5 also had to contend with, appear in [Queijo et al 1954][research_queijo_1954], with the flight evaluation of the pitch-up itself in [Anderson and Bray 1955][research_anderson_1955]. The fence remedy specifically is [Bray 1953][research_bray_1953] and, with the tail contribution separated, [Buell and Kolbe 1957][research_buell_1957], while the leading-edge notch alternative is [Weil and Morrison 1953][research_weil_1953] and the double-slotted flap case [Naeseth 1956][research_naeseth_1956]. The free-flight model technique for obtaining longitudinal stability and control without a tunnel is set out in [Gillis and Mitchell 1957][research_gillis_1957]. Boundary-layer stability as a function of sweep angle, which governs where the spanwise flow turns into transition, was measured by [Boltz et al 1960][research_boltz_1960].
 
 The spin is the uncomfortable case. Free-spinning-tunnel technique was mature by 1951 and had been applied to essentially every American fighter prototype of the preceding decade, as the record above shows. A spin-tunnel investigation of the X-5 configuration would have been ordinary practice. No such report was located in the search behind this article, which is not evidence that none was performed. The most that can be said honestly is that the technique existed, the fleet-wide practice existed, the correlating parameter that this article uses to explain the accident was in use at the time, and the aircraft was nonetheless flown to a sweep setting at which the parameter had degraded by a factor of two and a half. Whether that was known and accepted, or not computed, the sources consulted do not say.
 
@@ -585,15 +593,17 @@ The approach speed the mechanism existed to reduce is set by wing loading and ma
 
 $$C_{L,\max} = C_{L,\max}^{\text{clean}} \cos \Lambda + \Delta C_{L,\text{slat}} + \Delta C_{L,\text{flap}}$$
 
-and increments of 0.5 to 0.8 from such devices restore at 45 degrees of fixed sweep most of what the X-5 bought by unsweeping to 20. Engine thrust removed the rest of the pressure, since the approach itself can be flown at higher wing loading when thrust is available to arrest a sink rate, and the field length that wing loading drives scales as
+and increments of 0.5 to 0.8 from such devices restore at 45 degrees of fixed sweep most of what the X-5 bought by unsweeping to 20. The development that made those increments routine is a literature of its own, running from the blowing experiments of [James and Maki 1957][research_james_1957] through the jet-flap configurations of [Vogler 1976][research_vogler_1976] and [Morehouse et al 1977][research_morehouse_1977] to the systematic leading and trailing edge flap study of [Gainer et al 1984][research_gainer_1984], and arriving at the mechanical design practice codified in [Rudolph 1998][research_rudolph_1998]. The subject remains live, with seamless flap concepts for swept wings in [Bui 2018][research_bui_2018]. **Every one of those increments is a increment the variable-sweep wing no longer has to buy with a pivot.** Engine thrust removed the rest of the pressure, since the approach itself can be flown at higher wing loading when thrust is available to arrest a sink rate, and the field length that wing loading drives scales as
 
 $$s_{\text{field}} \propto \frac{W/S}{\sigma \, C_{L,\max} \left( T/W \right)}$$
 
-so a thrust-to-weight ratio that rose from the X-5's 0.50 toward unity halves the field length at fixed wing loading and buys back the whole of the variable-sweep argument. Digital flight control then removed the handling penalties that had made highly swept fixed wings unpleasant, which is to say it made the numerator of the mass-penalty inequality smaller by making a fixed compromise acceptable rather than by improving the compromise. Substituting into the break-even condition, a configuration whose aerodynamic gain has been halved while its structural penalty is unchanged fails the test,
+so a thrust-to-weight ratio that rose from the X-5's 0.50 toward unity halves the field length at fixed wing loading and buys back the whole of the variable-sweep argument. Digital flight control then removed the handling penalties that had made highly swept fixed wings unpleasant, which is to say it made the numerator of the mass-penalty inequality smaller by making a fixed compromise acceptable rather than by improving the compromise. The performance bookkeeping that decides such a question had itself become a formal exercise. [Redin 1981][research_redin_1981] applies a performance modelling technique to an airplane with variable sweep wings specifically, which is the calculation this section is describing in words, and the trajectory optimization machinery of [Erzberger et al 1975][research_erzberger_1975] and [Hale 1976][research_hale_1976] supplies the mission-weighting the inequality requires. Where the answer still came out favourable the configuration survived on paper, and [Beissner et al 1984][research_beissner_1984] apply near-term technology to a Mach 2.0 variable-sweep supersonic-cruise executive jet as late as 1984. Substituting into the break-even condition, a configuration whose aerodynamic gain has been halved while its structural penalty is unchanged fails the test,
 
 $$\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} \ \longrightarrow \ \text{halved}, \qquad \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}} \ \longrightarrow \ \text{unchanged}$$
 
-The variable-sweep wing was a mechanical solution to a problem later solved aerodynamically and electronically, and it was abandoned for the reason good engineering solutions usually are, which is that the problem changed.
+The variable-sweep wing was a mechanical solution to a problem later solved aerodynamically and electronically, and it was abandoned for the reason good engineering solutions usually are, which is that the problem changed. What the fleet learned in the meantime was recorded along the way, with the transonic agility of the F-111 compared against a supercritical-wing variant in [Friend and Sakamoto 1978][research_friend_1978] and the research aircraft built for that comparison described in [Painter and Caw 1978][research_painter_1978].
+
+There is a coda, and it inverts the programme. A wing whose sweep can be changed in flight is a wing on which sweep can be treated as an experimental variable, and in the 1980s NASA took an [F-14][ref_f14] and used exactly that. The Variable-Sweep Transition Flight Experiment flew a gloved wing through a range of sweep angles to measure boundary-layer transition as a function of sweep, which is the crossflow problem named at the start of this article studied on a full-scale aircraft in real flight rather than in a tunnel. The techniques are described in [Anderson et al 1988][research_anderson_1988] and the results in [Anderson and Meyer 1990][research_anderson_1990] and [Anderson and Meyer 1990][research_anderson_1990_2], with the supporting stability code work in [Rozendaal 1986][research_rozendaal_1986] and [Rozendaal 1987][research_rozendaal_1987] and the flutter clearance that had to precede any of it in [Kehoe 1987][research_kehoe_1987] and [Freudinger and Kehoe 1990][research_freudinger_1990]. **The capability the X-5 was built to demonstrate ended its career as laboratory apparatus**, which is a more dignified fate than obsolescence and is not one the programme could have anticipated.
 
 ## The Contemporary Literature
 
@@ -633,9 +643,13 @@ or 13.7 degrees of sweep, and delivering it inside one short-period time constan
 
 $$\dot{\Lambda}_{\text{required}} = \frac{13.7}{0.33} = 42 \ \text{degrees per second}$$
 
-against the X-5's 1.33, **a factor of thirty-one**. A gull closes that gap with a wing weighing a few hundred grams and a joint driven by muscle. Whether an aircraft can be built on the same principle is an open question and the papers do not claim otherwise, but the gap is a rate gap rather than an authority gap, and that is a more tractable thing to be short of.
+against the X-5's 1.33, **a factor of thirty-one**. A gull closes that gap with a wing weighing a few hundred grams and a joint driven by muscle, and the aerodynamic peculiarities of a real feathered wing are their own subject, as [Lichter 1974][research_lichter_1974] shows in measuring what porosity does to the lift and drag of bird wings.
 
-The other historical alternative also survives in the literature. An [oblique wing][ref_oblique_wing] pivots as a single panel about the fuselage centreline, which keeps the total lift distribution far more nearly fixed and avoids the paired-panel problem entirely at the cost of asymmetry in every other axis. [Hopkins 1975][research_hopkins_1975] examines wing bend on a low aspect ratio oblique wing, and [Yue et al 2019][research_yue_oblique_2019] design sliding mode control for an oblique wing aircraft during the skewing process, which is the same transient problem in a different geometry.
+There is one line of aircraft work that has already crossed the gap, in a different variable. The Active Aeroelastic Wing programme used a deliberately flexible wing and drove its twist with leading and trailing edge surfaces, so that the shape of the wing became the control effector rather than the deflection of a flap on it. [Clarke et al 2005][research_clarke_2005] report the flight test, and the sensing that a shape-controlled wing requires appears in [Pena et al 2018][research_pena_2018]. That programme changed wing shape at control bandwidth rather than at trim bandwidth, which is the inequality the X-5 could not satisfy, and it did so by choosing a shape variable with a far smaller inertia than sweep. The aeroelastic behaviour that makes such a wing possible is the same divergence problem that constrains forward sweep, treated in [Ricketts and Doggett 1980][research_ricketts_1980], and the pitch-up alleviation methods of [Rao and Johnson 1982][research_rao_1982] belong to the same family of shape-based fixes. Whether an aircraft can be built on the same principle is an open question and the papers do not claim otherwise, but the gap is a rate gap rather than an authority gap, and that is a more tractable thing to be short of.
+
+The other historical alternative also survives in the literature, and it deserves more than a mention because it is the road not taken. An [oblique wing][ref_oblique_wing] pivots as a single panel about the fuselage centreline. Because the panel that sweeps forward and the panel that sweeps aft are the same panel, the total lift distribution stays far more nearly fixed and **the aerodynamic centre travel that dominates this entire article largely cancels**. The price is asymmetry in every other axis, since an oblique wing is in permanent sideslip with respect to its own structure and its rolling, yawing, and pitching responses couple in ways a symmetric aircraft never encounters.
+
+Robert T. Jones, whose 1947 planform work is cited above and whose 1940 study of the wing wake underlies the [X-4][related_post_a301_northrop_x4] article, spent much of his later career on it. The design case is set out in [Jones 1977][research_jones_1977], the aeroelastic behaviour in [Jones and Nisbet 1976][research_jones_1976] and [Jones and Nisbet 1976][research_jones_1976_2], and the divergence problem that the asymmetry creates in [NASA 1973][research_naca_1973]. The configuration was carried to wind-tunnel and flight-model work on an F-8 airframe in [Graham et al 1973][research_graham_1973] and [Graham et al 1973][research_graham_1973_2], with the control characteristics in [Smith et al 1976][research_smith_1976], the transonic testing in [Kennelly et al 1990][research_kennelly_1990], and the final aerodynamic characterization in [Kennelly et al 1999][research_kennelly_1999]. Configuration studies continued in [NASA 1977][research_naca_1977] and the scissor-wing tradeoff of [Selberg et al 1990][research_selberg_1990], and [Hopkins 1975][research_hopkins_1975] examines wing bend on a low aspect ratio oblique wing. [Yue et al 2019][research_yue_oblique_2019] design sliding mode control for an oblique wing aircraft during the skewing process, which is the same transient problem in a different geometry. **The oblique wing solved the X-5's central problem and was never built for service**, which is a reminder that dissolving a design difficulty is necessary and not sufficient.
 
 Spin research continued and has been reformulated as an optimal control problem. [Venkateswara Rao and Go 2019][research_rao_spin_2019] optimize spin recovery manoeuvres, [Salahudden and Ghosh 2021][research_salahudden_2021] design robust flat-spin recovery using optimally deflected surfaces, and [Kapuscinski et al 2020][research_kapuscinski_2020] address the measurement problem of determining aircraft state during recovery. High angle-of-attack aerodynamics of finite-span wings, which is the flow regime the X-5's accident occurred in, is treated by [Faure and Leogrande 2020][research_faure_2020]. Planform optimization as a design activity rather than a mechanism appears in [Jim et al 2021][research_jim_planform_2021] and [Dam et al 2022][research_dam_planform_2022], and aeroelastic planform design in [Hermanutz and Hornung 2020][research_hermanutz_2020]. The modern view is that if the planform can be chosen well enough by computation, the need to change it in flight recedes, which is the quiet reason variable sweep left the fighter fleet.
 
@@ -870,64 +884,98 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 
 - [Abel et al 1966 Flutter studies of simplified component models of a variable-sweep-wing airplane at Mach numbers up to 3.0][research_abel_1966]
 - [Ackeret 1925 Air Forces on Airfoils Moving Faster Than Sound][research_ackeret_1925]
+- [Ackeret et al 1951 Investigations on wings with and without sweepback at high subsonic speeds][research_ackeret_1951]
 - [Alford and Henderson 1959 An exploratory investigation of the low-speed aerodynamic characteristics of variable-wing- sweep airplane configurations][research_alford_1959_2]
 - [Alford et al 1959 Wind-tunnel Studies at Subsonic and Transonic Speeds of a Multiple-mission Variable-wing-sweep Airplane Configuration][research_alford_1959]
 - [Alford et al 1962 Subsonic and supersonic aerodynamic characteristics of an airplane configuration utilizing double-pivot variable-sweep wings][research_alford_1962]
 - [Alford et al 1966 The Transonic Aerodynamic Characteristics of Two Variable-sweep Airplane Configurations Capable of Low-level Supersonic Attack][research_alford_1966]
 - [Anderson and Bray 1955 A Flight Evaluation of the Longitudinal Stability Characteristics Associated with the Pitch-up of a Swept-Wing Airplane in Maneuvering Flight at][research_anderson_1955]
+- [Anderson and Meyer 1990 Effects of Wing Sweep on Boundary-layer Transition for a Smooth F-14A Wing at Mach Numbers from 0.700 to 0.825][research_anderson_1990_2]
+- [Anderson and Meyer 1990 Effects of Wing Sweep on In-flight Boundary-layer Transition for a Laminar Flow Wing at Mach Numbers from 0.60 to 0.79][research_anderson_1990]
+- [Anderson et al 1988 Techniques Used in the F-14 Variable-Sweep Transition Flight Experiment][research_anderson_1988]
 - [Averett and Wright 1966 Transonic aerodynamic damping and oscillatory stability in yaw and pitch for a model of a variable-sweep supersonic transport airplane][research_averett_1966]
 - [Banner et al 1955 Wing-load Measurements of the Bell X-5 Research Airplane at a Sweep Angle of 58.7 Degrees][research_banner_1955]
 - [Bartlett et al 1973 Wind-tunnel development of underwing leading-edge vortex generators on a NASA supercritical-wing research airplane configuration][research_bartlett_1973]
 - [Becht 1950 Stability and Control Characteristics of a 1/4-scale Bell X-5 Airplane Model in the Landing Configuration][research_becht_1950]
 - [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
+- [Beissner et al 1984 Application of near-term technology to a Mach 2.0 variable-sweep-wing, supersonic-cruise executive jet][research_beissner_1984]
 - [Bellman 1953 Lift and Drag Characteristics of the Bell X-5 Research Airplane at 59 Degrees Sweepback for Mach Numbers from 0.60 to 1.03][research_bellman_1953]
 - [Bellman 1959 A Summary of Flight-Determined Transonic Lift and Drag Characteristics of Several Research Airplane Configurations][research_bellman_1959]
 - [Berman 1947 Spin and Recovery Characteristics of the Curtiss-Wright XP-87 Airplane][research_berman_1947]
 - [Berman 1949 Spin and Recovery Characteristics of the Northrop XF-89 Airplane][research_berman_1949]
 - [Bielat and Pierpont 1960 Transonic aerodynamic characteristics of a variable-sweep airplane configuration having a 12-percent-thick wing and an inboard pivot location][research_bielat_1960]
 - [Bird and Jaquet 1951 A study of the use of experimental stability derivatives in the calculation of the lateral disturbed motions of a swept-wing airplane and][research_bird_1951]
+- [Bird et al 1951 Effect of Fuselage and Tail Surfaces on Low-speed Yawing Characteristics of a Swept-wing Model as Determined in Curved-flow Test Section of][research_bird_1951_2]
 - [Bird et al 1952 Investigation of the Influence of Fuselage and Tail Surfaces on Low-speed Static Stability and Rolling Characteristics of a Swept-wing Model][research_bird_1952]
 - [Bishay et al 2019 Development of a New Span-Morphing Wing Core Design][research_bishay_2019]
 - [Boltz et al 1960 Effects of Sweep Angle on the Boundary-Layer Stability Characteristics of an Untapered Wing at Low Speeds][research_boltz_1960]
 - [Bowman 1956 Concluding Report on Free-Spinning and Recovery Characteristics of a 1/24-Scale Model of the Grumman F11F-1 Airplane, TED No. NACA AD 395][research_bowman_1956]
 - [Bowman and Healy 1959 Free-Spinning-Tunnel Investigation of a 1/40-Scale Model of the McConnell F-101A Airplane][research_bowman_1959]
+- [Bowman and Healy 1960 Free-spinning-tunnel Investigation of a 1/30 Scale Model of a Twin-jet-swept-wing Fighter Airplane][research_bowman_1960]
+- [Bray 1953 The Effects of Fences on the High-speed Longitudinal Stability of a Swept-wing Airplane][research_bray_1953]
+- [Brewer and Fisher 1951 Effect of Taper Ratio on the Low-speed Rolling Stability Derivatives of Swept and Unswept Wings of Aspect Ratio 2.61][research_brewer_1951]
+- [Bridges 1994 Crossflow instability control on a swept-wing, Preliminary studies][research_bridges_1994]
 - [Buckingham 1914 On Physically Similar Systems][research_buckingham_1914]
+- [Budd 1984 Locally linearized longitudinal and lateral-directional aerodynamic stability and control derivaties for the X-29A aircraft][research_budd_1984]
+- [Buell and Kolbe 1957 The Effects at Subsonic Speeds of Wing Fences and a Tail on the Longitudinal Characteristics of a 63 Degree Swept-wing Fuselage Combination][research_buell_1957]
+- [Bui 2018 Analysis of High-Speed Aerodynamics of a Swept Wing with Seamless Flaps][research_bui_2018]
 - [Burk and Healy 1955 Free-Spinning-Tunnel Investigation to Determine the Effect of Spin-Recovery Rockets and Thrust Simulation on the Recovery Characteristics of a][research_burk_1955]
+- [Burk et al 1977 Spin-Tunnel Investigation of the Spinning Characteristics of Typical Single-Engine General Aviation Airplane Designs. 1. Low-Wing Model A, Effects][research_burk_1977]
+- [Campbell and Goodman 1949 A semiempirical method for estimating the rolling moment due to yawing of airplanes][research_campbell_1949]
+- [Carpenter et al 2010 Excitation of Crossflow Instabilities in a Swept Wing Boundary Layer][research_carpenter_2010]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
+- [Chambers et al 1981 Curved-flow, rolling-flow, and oscillatory pure-yawing wind-tunnel test methods for determination of dynamic stability derivatives][research_chambers_1981]
 - [Changchuan et al 2022 Aeroelastic Response of a Z-Shaped Folding Wing During the Morphing Process][research_changchuan_2022]
+- [Cheatham and Kurbjun 1948 Transonic Drag Characteristics of a Wing-body Combination Showing the Effect of a Large Wing Fillet][research_cheatham_1948]
 - [Cheung et al 2020 Testing of a Folding Wingtip for Gust Load Alleviation of a Flexible High-Aspect-Ratio Wing][research_cheung_folding_2020]
 - [Chiarelli and Bonomo 2019 Numerical Investigation into Flutter and Flutter-Buffet Phenomena for a Swept Wing][research_chiarelli_2019]
 - [Childs 1953 Flight Measurements of the Stability Characteristics of the Bell X-5 Research Airplane in Sideslips at 59 Deg Sweepback][research_childs_1953]
+- [Clarke et al 2005 Flight Test of the F/A-18 Active Aeroelastic Wing Airplane][research_clarke_2005]
 - [Collar 1946 The Expanding Domain of Aeroelasticity][research_collar_1946]
 - [Cornette 1961 Wind-Tunnel Investigation of the Effects of Wing Bodies, Fences, Flaps, and a Fuselage Addition on the Wing Buffet Response of a][research_cornette_1961]
 - [Croom and Huffman 1957 Investigation at Low Speeds of Deflectors and Spoilers as Gust Alleviators on a Model of the Bell X-5 Airplane with 35 Degree Swept Wings and on a][research_croom_1957]
+- [Croom and Huffman 1957 Investigation at Transonic Speeds of Deflectors and Spoilers as Gust Alleviators on a 35 Degree Swept Wing Transonic Bump Method][research_croom_1957_2]
+- [Dagenhart 1992 Crossflow Stability and Transition Experiments in a Swept-Wing Flow][research_dagenhart_1992]
+- [Dagenhart et al 1989 Crossflow-vortex instability and transition on a 45 deg swept wing][research_dagenhart_1989]
+- [Dagenhart et al 1990 Experiments on swept-wing boundary layers][research_dagenhart_1990]
 - [Dai et al 2020 Design and Aerodynamic Performance Analysis of a Variable-Sweep-Wing Morphing Aircraft][research_dai_sweep_2020]
 - [Dai et al 2021 Modeling and Nonlinear Model Predictive Control of a Variable-Sweep-Wing Morphing Aircraft][research_dai_mpc_2021]
 - [Dam et al 2022 Artificial Neural Network Based Wing Planform Aerodynamic Optimization][research_dam_planform_2022]
 - [Deyoung 1947 Theoretical Additional Span Loading Characteristics of Wings with Arbitrary Sweep, Aspect Ratio, and Taper Ratio][research_deyoung_1947]
+- [Dickey 1959 The Effect of Moment of Area Rule Modifications on the Drag, Lift and Pitching Moment Characteristics of an Unswept Aspect Ratio 6 Wing and Body][research_dickey_1959]
+- [Downs et al 1993 Aircraft wing structural detail design (wing, aileron, flaps, and subsystems)][research_downs_1993]
 - [Dussart et al 2019 Identification of In-Flight Wingtip Folding Effects on the Roll Characteristics of a Flexible Aircraft][research_dussart_roll_2019]
 - [Dussart et al 2019 In-Flight Wingtip Folding, Inspiration from the XB-70 Valkyrie][research_dussart_xb70_2019]
 - [Eckert and Maki 1973 Low-speed wind tunnel investigation of the lateral-directional characterisitcs of a large-scale variable wing-sweep fighter model in the high-lift][research_eckert_1973]
 - [Elelwi et al 2020 Comparison and Analyses of a Variable Span-Morphing of the Tapered Wing][research_elelwi_span_2020]
 - [Elelwi et al 2021 Structural Sizing and Topology Optimization Based on Weight Minimization of a Variable Tapered Span Morphing Wing][research_elelwi_topology_2021]
 - [Elelwi et al 2022 Multidisciplinary Optimization for Weight Saving in a Variable Tapered Span-Morphing Wing][research_elelwi_weight_2022]
+- [Erzberger et al 1975 Fixed-range optimum trajectories for short-haul aircraft][research_erzberger_1975]
 - [Faure and Leogrande 2020 High Angle-of-Attack Aerodynamics of a Straight Wing with Finite Span][research_faure_2020]
 - [Finch and Briggs 1953 Preliminary Results of Stability and Control Investigation of the Bell X-5 Research Airplane][research_finch_1953]
 - [Finch and Walker 1953 Flight Determination of the Static Longitudinal Stability Boundaries of the Bell X-5 Research Airplane with 59 Deg Sweepback][research_finch_1953_2]
 - [Fisher and Williams 1958 Wind-Tunnel Investigation of Some Effects of Wing Sweep and Horizontal-Tail Height on the Static Stability of an Airplane Model at Transonic Speeds][research_fisher_1958]
 - [Foster and Fitzpatrick 1948 Longitudinal-stability Investigation of High-lift and Stall-control Devices on a 52 Degree Sweptback Wing with and Without Fuselage and Horizontal][research_foster_1948]
 - [Foster and Morris 1960 Stability and Control Characteristics at a Mach Number of 1.97 of an Airplane Configuration Having Two Types of Variable-sweep Wings][research_foster_1960]
+- [Freudinger and Kehoe 1990 Flutter Clearance of the F-14A Variable-Sweep Transition Flight Experiment Airplane, Phase 2][research_freudinger_1990]
+- [Friend and Sakamoto 1978 Flight comparison of the transonic agility of the F-111A airplane and the F-111 supercritical wing airplane][research_friend_1978]
 - [Funk and Cooney 1959 Some Effects of Yaw Damping on Airplane Motions and Vertical-Tail Loads in Turbulent Air][research_funk_1959]
 - [Gainer et al 1967 Rolling stability derivatives of a variable- sweep tactical fighter model at subsonic and transonic speeds][research_gainer_1967]
+- [Gainer et al 1984 Low-speed investigation of effects of wing leading- and trailing-edge flap deflections and canard incidence on a fighter configuration equipped][research_gainer_1984]
 - [Gale and Pumphrey 1950 Spin and recovery characteristics of a model of a fighter type of airplane without a horizontal tail having either a single vertical tail or twin][research_gale_1950]
 - [Gao et al 2022 Analysis and Control for the Mode Transition of Tandem-Wing Aircraft with Variable Sweep][research_gao_tandem_2022]
 - [Garrick and Reed 1981 Historical Development of Aircraft Flutter][research_garrick_reed_1981]
 - [Geva et al 2019 Investigation of a Morphing Wing Capable of Airfoil and Span Adjustment][research_geva_2019]
+- [Gillis and Chapman 1956 Effect of Wing Height and Dihedral on the Lateral Stability Characteristics at Low Lift of a 45 Deg Swept-Wing Airplane Configuration as Obtained][research_gillis_1956]
+- [Gillis and Mitchell 1957 Determination of Longitudinal Stability and Control Characteristics from Free-Flight Model Tests with Results at Transonic Speeds for Three][research_gillis_1957]
 - [Gilyard 1972 Flight-determined derivatives and dynamic characteristics of the CV-990 airplane][research_gilyard_1972]
 - [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
 - [Goetz and Stonesifer 1961 Transonic and Supersonic Flutter Trend Investigation of a Variable-sweep Wing][research_goetz_1961]
+- [Graham et al 1973 An experimental investigation of three oblique-wing and body combinations at Mach numbers between 0.60 and 1.40][research_graham_1973_2]
+- [Graham et al 1973 Wind tunnel tests of an F-8 airplane model equipped with an oblique wing][research_graham_1973]
 - [Guo et al 2020 Unsteady Flow Simulation of a Variable-Sweep Morphing Aircraft Coupled with Dynamic Deformation][research_guo_unsteady_2020]
 - [Gurley and Ruhlin 1962 Transonic flutter investigation of models of a proposed variable-sweep wing][research_gurley_1962]
+- [Hale 1976 Best-range flight conditions for cruise-climb flight of a jet aircraft][research_hale_1976]
 - [Hamer et al 1961 Application of Monte Carlo Technique for Determining Maneuvering Loads from Statistical Information on Airplane Motions][research_hamer_1961]
 - [Hammond and Henderson 1961 Low-speed Investigation of High-lift and Lateral Control Devices on a Semispan Variable-sweep Wing Having an Outboard Pivot Location][research_hammond_1961]
 - [Hammond and Polhamus 1965 Subsonic aerodynamic characteristics of an airplane configuration utilizing a variable- sweep wing having a free-floating apex][research_hammond_1965]
@@ -936,69 +984,123 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 - [Harvey and Inman 2022 Gull Dynamic Pitch Stability Is Controlled by Wing Morphing][research_harvey_inman_2022]
 - [Harvey et al 2021 Gull-Inspired Joint-Driven Wing Morphing Allows Adaptive Longitudinal Flight Control][research_harvey_gull_2021]
 - [Hayes and Sleeman 1959 Low-Speed Investigation Of The Effects Of Horizontal-Tail Area And Wing Sweep On The Static Longitudinal Stability And Control Characteristics Of][research_hayes_1959]
+- [Heath and Ward 1959 Wind-Tunnel Measurements of Effect of Dive-Recovery Flaps at Transonic Speeds on Models of a Seaplane and a Transport][research_heath_1959]
 - [Henderson and Ray 1964 Effect of wing pivot location on longitudinal aerodynamic characteristics of a variable sweep wing having an M planform][research_henderson_1964]
 - [Henderson and Ray 1965 Effect of wing planform modification on longitudinal characteristics of a variable- sweep m wing][research_henderson_1965]
 - [Hermanutz and Hornung 2020 Aeroelastic Wing Planform Design Optimization of a Flutter Demonstrator][research_hermanutz_2020]
 - [Hopkins 1975 Effects of wing bend on the aerodynamic characteristics of a low aspect ratio oblique wing][research_hopkins_1975]
 - [Housner and Stein 1974 Flutter analysis of swept-wing subsonic aircraft with parameter studies of composite wings][research_housner_1974]
 - [Huffman 1972 Effects of wing-pivot location and forewing configuration on the low-speed aerodynamic characteristics of a variable-sweep airplane model][research_huffman_1972]
+- [Igoe et al 1961 Transonic Aerodynamic Characteristics of a Wing-Body Combination having a 52.5 deg Sweptback Wing of Aspect Ratio 3 with Conical Camber and][research_igoe_1961]
 - [Iliff and Taylor 1972 Determination of stability derivatives from flight data using a Newton-Raphson minimization technique][research_iliff_1972]
 - [James and Maki 1957 Wind-tunnel Tests of the Static Longitudinal Characteristics at Low Speed of a Swept-wing Airplane with Blowing Flaps and Leading-edge Slats][research_james_1957]
 - [James S Bowman and White 1974 Spin-Tunnel Investigation of a 1/40-Scale Model of the F-111A Airplane with Store Loadings and with Supplementary Spin-Recovery Devices][research_bowman_1974]
+- [Jenkins and Kuhl 1977 Recent Loads Calibration Experience With a Delta Wing Airplane][research_jenkins_1977_2]
+- [Jenkins et al 1977 Strain gage calibration of a complex wing][research_jenkins_1977]
 - [Jim et al 2021 Bayesian Optimization of a Low-Boom Supersonic Wing Planform][research_jim_planform_2021]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
+- [Jones 1977 The oblique wing - Aircraft design for transonic and low supersonic speeds][research_jones_1977]
+- [Jones and Nisbet 1976 Aeroelastic characteristics of an oblique wing][research_jones_1976_2]
+- [Jones and Nisbet 1976 Aeroelastic stability and control of an oblique wing][research_jones_1976]
 - [Kapuscinski et al 2020 A Vision-Based Method for Determining Aircraft State during Spin Recovery][research_kapuscinski_2020]
+- [Kehoe 1987 Flutter clearance of the F-14 variable-sweep transition flight experiment airplane, phase 1][research_kehoe_1987]
 - [Keidel et al 2020 Control Authority of a Camber Morphing Flying Wing][research_keidel_2020]
 - [Kemp and Becht 1950 Stability and control characteristics at low speed of a 1/4-scale Bell X-5 airplane model, lateral and directional stability and control][research_kemp_1950]
 - [Kemp and Few 1951 Pressure Distribution at Low Speed on a 1/4-scale Bell X-5 Airplane Model][research_kemp_1951]
+- [Kennelly et al 1990 Transonic wind tunnel test of a 14 percent thick oblique wing][research_kennelly_1990]
+- [Kennelly et al 1999 Experimental Aerodynamic Characteristics of an Oblique Wing for the F-8 OWRA][research_kennelly_1999]
 - [Kilgore 1971 Some transonic and supersonic dynamic stability characteristics of a variable-sweep-wing tactical fighter model][research_kilgore_1971]
 - [Klimczyk and Goraj 2019 Analysis and Optimization of Morphing Wing Aerodynamics][research_klimczyk_2019]
 - [Klinar and Jones 1949 Spin Investigation of a 1/29-Scale Model of the Republic XF-91 Airplane with a Conventional Tail Installed][research_klinar_1949]
 - [Klinar and Wilson 1950 Free-Spinning-Tunnel Investigation of a 1/24-Scale Model of the Grumman AF-2S, -2W Airplane][research_klinar_1950]
+- [Knight 1928 Wind Tunnel Tests on Autorotation and the "Flat Spin."][research_knight_1928]
+- [Kohama et al 1991 A high-frequency, secondary instability of crossflow vortices that leads to transition][research_kohama_1991]
 - [Kumar et al 2021 On Topology Optimization of Large Deformation Contact-Aided Shape Morphing Compliant Mechanisms][research_kumar_topology_2021]
 - [Lamar and Mc Kinney 1971 Low-speed static wind-tunnel investigation of a half-span fuselage and variable sweep pressure wing model][research_lamar_1971]
+- [Lampert 1951 Rolling and yawing moments for swept-back wings in sideslip at supersonic speeds][research_lampert_1951]
 - [Lee 1952 Investigation of Spinning and Tumbling Characteristics of a 1/20-Scale Model of the Consolidated Vultee XFY-1 Airplane in the Free-Spinning][research_lee_1952]
 - [Lee 1964 Spin Tunnel Investigation of a 1/30 Scale Model of the North American A-5A Airplane][research_lee_1964]
 - [Lee and Healy 1964 Spin-Tunnel Investigation of a 1/28-Scale Model of a Subsonic Attack Airplane][research_lee_1964_2]
 - [Li et al 2020 Simulation Analysis of the Aerodynamic Characteristics of a Variable Sweep Wing Morphing Aircraft][research_li_varsweep_2020]
+- [Lichter 1974 The Effect of Porosity on the Lift and Drag of Bird's Wings][research_lichter_1974]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
 - [Lockwood 1966 Low-speed wind-tunnel studies relating to pitch-up on a supersonic transport model with a high-aspect-ratio variable-sweep wing][research_lockwood_1966]
+- [Lowry and Polhamus 1957 A Method for Predicting Lift Increments Due to Flap Deflection at Low Angles of Attack in Incompressible Flow][research_lowry_1957]
 - [Ma et al 2021 Stability Analysis and Augmentation Design of a Bionic Multi-Section Variable-Sweep-Wing UAV][research_ma_bionic_2021]
+- [Martina 1956 The Interference Effects of a Body on the Spanwise Load Distributions of Two 45 Degree Sweptback Wings of Aspect Ratio 8.02 from Low-Speed Tests][research_martina_1956]
 - [Monfort and Whitcomb 1975 High-attitude low-speed static aerodynamic characteristics of an F-4D fighter airplane model with leading edge slats][research_monfort_1975]
+- [Morehouse et al 1977 Aerodynamic characteristics of a small-scale straight and swept-back wing with knee-blown jet flaps][research_morehouse_1977]
+- [Moseley and Watson 1951 Investigation of wing-tip ailerons on a 51.3 degrees sweptback wing at transonic speeds by the transonic-bump method][research_moseley_1951]
+- [Mousseux et al 1989 The development of crossflow vortices on a 45 degree swept wing][research_mousseux_1989]
+- [Mugler 1959 Effects of three spanwise twist variations on the longitudinal aerodynamic characteristics of a thin 45 deg sweptback highly tapered wing at][research_mugler_1959]
 - [NACA 1949 NACA Conference on Aerodynamic Problems of Transonic Airplane Design][research_naca_1949]
 - [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
 - [NACA 1957 NACA Conference on Aircraft Loads, Structures, and Flutter][research_naca_1957]
 - [NACA 1966 Summary of NACA/NASA Variable-Sweep Research and Development Leading to the F-111 (TFX)][research_naca_1966]
 - [NACA 1966 Summary of NASA Support of the F-111 Development Program, December 1962 - December 1965 - Part 1][research_naca_1966_2]
+- [NACA 1973 A study of the effects of aeroelastic divergence on the wing structure of an oblique-wing supersonic transport configuration][research_naca_1973]
+- [NACA 1977 Oblique wing transonic transport configuration development][research_naca_1977]
+- [Naeseth 1956 Low-speed Longitudinal Aerodynamic Characteristics of a 45 Degree Sweptback Wing with Double Slotted Flaps][research_naeseth_1956]
 - [Nazeer et al 2021 Sensing, Actuation, and Control of the SmartX Prototype Morphing Wing in the Wind Tunnel][research_nazeer_2021]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
+- [Painter and Caw 1978 Design and physical characteristics of the Transonic Aircraft Technology (TACT) research aircraft][research_painter_1978]
+- [Peele and Eckstrom 1975 Strain-gage bridge calibration and flight loads measurements on a low-aspect-ratio thin wing][research_peele_1975]
+- [Pena et al 2018 Adaptive Load Control of Flexible Aircraft Wings Using Fiber Optic Sensing][research_pena_2018]
 - [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
+- [Pitkin 1943 Effect of Wing Leading-edge Slots on the Spin and Recovery Characteristics of Airplanes][research_pitkin_1943]
 - [Polhamus and Hammond 1960 II. Aerodynamic research relative to variable-sweep multimission aircraft][research_polhamus_1960]
 - [Polhamus and Toll 1981 Research related to variable sweep aircraft development][research_polhamus_1981]
 - [Prandtl 1928 Motion of Fluids with Very Little Viscosity][research_prandtl_1928]
 - [Queijo et al 1954 Wind-Tunnel Investigation at Low Speed of the Effects of Chordwise Wing Fences and Horizontal-Tail Position on the Static Longitudinal Stability][research_queijo_1954]
 - [Quigley et al 1960 Flight Investigation of the Low-Speed Characteristics of a 45 deg Swept-Wing Fighter-Type Airplane with Blowing Boundary-Layer Control Applied to][research_quigley_1960]
+- [Rao and Johnson 1982 Alleviation of the subsonic pitch-up of delta wings][research_rao_1982]
 - [Rathert et al 1951 Preliminary Flight Investigation of the Maneuvering Accelerations and Buffet Boundary of a 35 Degree Swept-wing Airplane at High Altitude and][research_rathert_1951]
 - [Ray et al 1972 Maneuver and buffet characteristics of fighter aircraft][research_ray_1972]
+- [Redin 1981 Application of a performance modeling technique to an airplane with variable sweep wings][research_redin_1981]
 - [Reed 1955 Flight Measurements of Horizontal-Tail Loads on the Bell X-5 Research Airplane at a Sweep Angle of 58.7 Deg][research_reed_1955]
+- [Ricketts and Doggett 1980 Wind-tunnel experiments on divergence of forward-swept wings][research_ricketts_1980]
 - [Rogers and Dunn 1952 Preliminary Results of Horizontal-tail Load Measurements of the Bell X-5 Research Airplane][research_rogers_1952]
+- [Rozendaal 1986 Variable Sweep Transition Flight Experiment (VSTFE)-Parametric Pressure Distribution Boundary Layer Stability Study and Wing Glove Design Task][research_rozendaal_1986]
+- [Rozendaal 1987 Variable-Sweep Transition Flight Experiment (VSTFE), Stability code development and clean-up glove data analysis][research_rozendaal_1987]
+- [Rudolph 1998 Mechanical Design of High Lift Systems for High Aspect Ratio Swept Wings][research_rudolph_1998]
+- [Sager et al 1993 Aircraft wing structure detail design][research_sager_1993]
 - [Salahudden and Ghosh 2021 Robust Control Design Based Aircraft Flat-Spin Recovery Using Optimally Deflected Surfaces][research_salahudden_2021]
 - [Sanger M Burk and Libbey 1961 Large-Angle Motion Tests, Including Spins, of A Free-Flying Radio-Controlled 0.13-Scale Model of A Twin Jet Swept Wing Fighter Airplane][research_burk_1961]
+- [Savage and Edwards 1959 Subsonic Aerodynamic Characteristics of an Airplane Configuration with a 63 deg Sweptback Wing and Twin-Boom Tails][research_savage_1959]
 - [Scher 1947 Preliminary Evaluation of the Spin and Recovery Characteristics of the Douglas XF3D-1 Airplane][research_scher_1947]
-- [Scudder and Seidman 1935 A Flight Investigation of the Spinning of the F4B-2 Biplane with Various Loads and Tail Surfaces][research_scudder_1935]
+- [Scher and White 1977 Spin-Tunnel Investigation of a 1/20-Scale Model of the Northrop F-5E Airplane][research_scher_1977]
+- [Schulderfrei et al 1951 Stability and Control Characteristics of a Complete Airplane Model Having a Wing with Quarter-chord Line Swept Back 40 Degrees, Aspect Ratio 2.50,][research_schulderfrei_1951]
+- [Scudder 1937 The forces and moments acting on parts of the XN2Y-1 airplane during spins][research_scudder_1937]
+- [Selberg et al 1990 An aerodynamic tradeoff study of the scissor wing configuration][research_selberg_1990]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Smith et al 1976 Transonic lateral and longitudinal control characteristics of an F-8 airplane model equipped with an oblique wing][research_smith_1976]
 - [Snyder 1947 Estimation of the Spin and Recovery Characteristics of the North American XSN2J-1 Airplane][research_snyder_1947]
 - [Spearman and Becht 1948 The Effect of Negative Dihedral, Tip Droop, and Wing-tip Shape on the Low-speed Aerodynamic Characteristics of a Complete Model Having a 45][research_spearman_1948]
 - [Spencer 1960 Stability and control characteristics at low subsonic speeds of an airplane configuration having two types of variable-sweep wings][research_spencer_1960]
+- [Spreemann and Alford 1951 Investigation of the Effects of Twist and Camber on the Aerodynamic Characteristics of a 50 Degrees 38 Minutes Sweptback Wing of Aspect Ratio][research_spreemann_1951]
 - [Stephenson 1956 Flight Measurements of Horizontal-tail Loads on the Douglas X-3 Research Airplane][research_stephenson_1956]
 - [Stone and Burk 1947 Effect of Horizontal-tail Position on the Hinge Moments of an Unbalanced Rudder in Attitudes Simulating Spin Conditions][research_stone_1947]
+- [Stone and Klinar 1948 The influence of very heavy fuselage mass loadings and long nose lengths upon oscillations in the spin][research_stone_1948]
+- [Stough 1993 Apparatus and method for improving spin recovery on aircraft][research_stough_1993]
+- [Stough and Patton 1979 The effects of configuration changes on spin and recovery characteristics of a low-wing general aviation research airplane][research_stough_1979]
+- [Stough et al 1987 Flight investigation of the effect of tail configuration on stall, spin, and recovery characteristics of a low-wing general aviation research airplane][research_stough_1987]
+- [Stough et al 1991 Tail venting for enhanced yaw damping at spinning conditions][research_stough_1991]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
+- [Sutton 1959 A Buffet Investigation at High Subsonic Speeds of Wing-Fuselage-Tail Combinations having Sweptback Wings with NACA Four-Digit Thickness][research_sutton_1959]
+- [Taylor 1959 An Experimental Investigation to Determine the Effect of Speed-Brake Position on the Longitudinal Stability and Trim of a Swept-Wing Fighter Airplane][research_taylor_1959]
 - [Theodorsen, General Theory of Aerodynamic Instability and the Mechanism of Flutter][research_theodorsen_1935]
 - [Toll 1962 Variable sweep wing aircraft Patent][research_toll_1962]
 - [Traub 2019 Experimental Study of a Morphing Annular Wing][research_traub_2019]
 - [Tsushima et al 2019 Geometrically Nonlinear Static Aeroelastic Analysis of Composite Morphing Wings][research_tsushima_2019]
+- [Turner 1950 Measurement of the Moments of Inertia of an Airplane by a Simplified Method][research_turner_1950]
 - [Venkateswara Rao and Go 2019 Optimization of Aircraft Spin Recovery Maneuvers][research_rao_spin_2019]
 - [Videan 1955 Flight Measurements of the Dynamic Lateral and Longitudinal Stability of the Bell X-5 Research Airplane at 58.7 Degrees Sweepback][research_videan_1955]
+- [Vogler 1976 Wind tunnel investigation of internally blown jet-flap STOL airplane model][research_vogler_1976]
+- [Vogler and Turner 1956 Wind-tunnel investigation at transonic speeds of a jet control on a 35 degree swept wing, transonic-bump method][research_vogler_1956]
+- [Weil and Morrison 1953 A Study of the Use of Leading-Edge Notches as a Means for Improving the Low-Speed Pitching-Moment Characteristics of Swept Wings][research_weil_1953]
+- [West 1960 Effect of Body-Mounted Lateral Controls and Speed Brakes on the Aerodynamic Load Distribution over a 45 deg Swept Wing at Mach Numbers from 0.80][research_west_1960]
+- [Whipple and White 1984 Spin-tunnel investigation of a 1/25-scale model of the General Dynamics F-16XL airplane][research_whipple_1984]
+- [Whitcomb 1956 Zero-lift-drag characteristics of wing-body combinations at transonic speeds][research_whitcomb_1956]
 - [Whitcomb and Norton 1961 Transonic Investigation of Aerodynamic Characteristics of a Swept-Wing Fighter-Airplane Model with Leading-Edge Droop in Combination with Outboard][research_whitcomb_1961]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
@@ -1208,66 +1310,100 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_abel_1966]: https://ntrs.nasa.gov/citations/19660021918
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
+[research_ackeret_1951]: https://ntrs.nasa.gov/citations/19930093910
 [research_alford_1959]: https://ntrs.nasa.gov/citations/19650014458
 [research_alford_1959_2]: https://ntrs.nasa.gov/citations/19650014499
 [research_alford_1962]: https://ntrs.nasa.gov/citations/19660025704
 [research_alford_1966]: https://ntrs.nasa.gov/citations/19660022439
 [research_anderson_1955]: https://ntrs.nasa.gov/citations/19930092243
+[research_anderson_1988]: https://ntrs.nasa.gov/citations/19880020709
+[research_anderson_1990]: https://ntrs.nasa.gov/citations/19910015242
+[research_anderson_1990_2]: https://ntrs.nasa.gov/citations/19910015243
 [research_averett_1966]: https://ntrs.nasa.gov/citations/19660010231
 [research_banner_1955]: https://ntrs.nasa.gov/citations/19930088628
 [research_bartlett_1973]: https://ntrs.nasa.gov/citations/19830002762
 [research_becht_1950]: https://ntrs.nasa.gov/citations/19930086394
 [research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
+[research_beissner_1984]: https://ntrs.nasa.gov/citations/19840015553
 [research_bellman_1953]: https://ntrs.nasa.gov/citations/19930087480
 [research_bellman_1959]: https://ntrs.nasa.gov/citations/19980228028
 [research_berman_1947]: https://ntrs.nasa.gov/citations/20050019623
 [research_berman_1949]: https://ntrs.nasa.gov/citations/20090026468
 [research_bielat_1960]: https://ntrs.nasa.gov/citations/19650017034
 [research_bird_1951]: https://ntrs.nasa.gov/citations/19930092084
+[research_bird_1951_2]: https://ntrs.nasa.gov/citations/19930083055
 [research_bird_1952]: https://ntrs.nasa.gov/citations/19930083189
 [research_bishay_2019]: https://doi.org/10.3390/designs3010012
 [research_boltz_1960]: https://ntrs.nasa.gov/citations/19980227185
 [research_bowman_1956]: https://ntrs.nasa.gov/citations/20050028485
 [research_bowman_1959]: https://ntrs.nasa.gov/citations/19980228366
+[research_bowman_1960]: https://ntrs.nasa.gov/citations/19980223580
 [research_bowman_1974]: https://ntrs.nasa.gov/citations/20000021277
+[research_bray_1953]: https://ntrs.nasa.gov/citations/19930087758
+[research_brewer_1951]: https://ntrs.nasa.gov/citations/19930083083
+[research_bridges_1994]: https://ntrs.nasa.gov/citations/19950016863
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
+[research_budd_1984]: https://ntrs.nasa.gov/citations/19860014095
+[research_buell_1957]: https://ntrs.nasa.gov/citations/19930089929
+[research_bui_2018]: https://ntrs.nasa.gov/citations/20180004463
 [research_burk_1955]: https://ntrs.nasa.gov/citations/20050029372
 [research_burk_1961]: https://ntrs.nasa.gov/citations/19720075828
+[research_burk_1977]: https://ntrs.nasa.gov/citations/19770026167
+[research_campbell_1949]: https://ntrs.nasa.gov/citations/19930082704
+[research_carpenter_2010]: https://ntrs.nasa.gov/citations/20100002885
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
+[research_chambers_1981]: https://ntrs.nasa.gov/citations/19810022570
 [research_changchuan_2022]: https://doi.org/10.2514/1.j061138
+[research_cheatham_1948]: https://ntrs.nasa.gov/citations/19930093786
 [research_cheung_folding_2020]: https://doi.org/10.2514/1.c035732
 [research_chiarelli_2019]: https://doi.org/10.1155/2019/8210235
 [research_childs_1953]: https://ntrs.nasa.gov/citations/19930087404
+[research_clarke_2005]: https://ntrs.nasa.gov/citations/20050212234
 [research_collar_1946]: https://doi.org/10.1017/s0368393100120358
 [research_cornette_1961]: https://ntrs.nasa.gov/citations/20040003909
 [research_croom_1957]: https://ntrs.nasa.gov/citations/19930084891
+[research_croom_1957_2]: https://ntrs.nasa.gov/citations/19930084918
+[research_dagenhart_1989]: https://ntrs.nasa.gov/citations/19890054743
+[research_dagenhart_1990]: https://ntrs.nasa.gov/citations/19910055309
+[research_dagenhart_1992]: https://ntrs.nasa.gov/citations/19930012630
 [research_dai_mpc_2021]: https://doi.org/10.1109/access.2021.3074912
 [research_dai_sweep_2020]: https://doi.org/10.1016/j.ast.2020.105703
 [research_dam_planform_2022]: https://doi.org/10.1108/aeat-10-2021-0311
 [research_deyoung_1947]: https://ntrs.nasa.gov/citations/19930082544
+[research_dickey_1959]: https://ntrs.nasa.gov/citations/19980231999
+[research_downs_1993]: https://ntrs.nasa.gov/citations/19940020492
 [research_dussart_roll_2019]: https://doi.org/10.3390/aerospace6060063
 [research_dussart_xb70_2019]: https://doi.org/10.15394/ijaaa.2019.1343
 [research_eckert_1973]: https://ntrs.nasa.gov/citations/19740004601
 [research_elelwi_span_2020]: https://doi.org/10.1017/aer.2020.19
 [research_elelwi_topology_2021]: https://doi.org/10.3390/biomimetics6040055
 [research_elelwi_weight_2022]: https://doi.org/10.3390/act11050121
+[research_erzberger_1975]: https://ntrs.nasa.gov/citations/19760005964
 [research_faure_2020]: https://doi.org/10.1063/5.0025327
 [research_finch_1953]: https://ntrs.nasa.gov/citations/19930087476
 [research_finch_1953_2]: https://ntrs.nasa.gov/citations/19930087479
 [research_fisher_1958]: https://ntrs.nasa.gov/citations/19980232008
 [research_foster_1948]: https://ntrs.nasa.gov/citations/19930085540
 [research_foster_1960]: https://ntrs.nasa.gov/citations/19660022441
+[research_freudinger_1990]: https://ntrs.nasa.gov/citations/19900015819
+[research_friend_1978]: https://ntrs.nasa.gov/citations/19790004885
 [research_funk_1959]: https://ntrs.nasa.gov/citations/19980228407
 [research_gainer_1967]: https://ntrs.nasa.gov/citations/19670008821
+[research_gainer_1984]: https://ntrs.nasa.gov/citations/19840018599
 [research_gale_1950]: https://ntrs.nasa.gov/citations/19930086221
 [research_gao_tandem_2022]: https://doi.org/10.3390/aerospace9080463
 [research_garrick_reed_1981]: https://doi.org/10.2514/3.57579
 [research_geva_2019]: https://doi.org/10.3390/aerospace6080085
+[research_gillis_1956]: https://ntrs.nasa.gov/citations/20050019449
+[research_gillis_1957]: https://ntrs.nasa.gov/citations/19930092326
 [research_gilyard_1972]: https://ntrs.nasa.gov/citations/19720015377
 [research_glauert_1928]: https://doi.org/10.1098/rspa.1928.0039
 [research_goetz_1961]: https://ntrs.nasa.gov/citations/19660022440
+[research_graham_1973]: https://ntrs.nasa.gov/citations/19730024241
+[research_graham_1973_2]: https://ntrs.nasa.gov/citations/19730024193
 [research_guo_unsteady_2020]: https://doi.org/10.1142/s0217979220400731
 [research_gurley_1962]: https://ntrs.nasa.gov/citations/19660025705
+[research_hale_1976]: https://ntrs.nasa.gov/citations/19770003437
 [research_hamer_1961]: https://ntrs.nasa.gov/citations/20040027944
 [research_hammond_1961]: https://ntrs.nasa.gov/citations/19650014317
 [research_hammond_1965]: https://ntrs.nasa.gov/citations/19660025706
@@ -1276,67 +1412,121 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 [research_harvey_gull_2021]: https://doi.org/10.1098/rsif.2021.0132
 [research_harvey_inman_2022]: https://doi.org/10.1073/pnas.2204847119
 [research_hayes_1959]: https://ntrs.nasa.gov/citations/19630010604
+[research_heath_1959]: https://ntrs.nasa.gov/citations/19980228240
 [research_henderson_1964]: https://ntrs.nasa.gov/citations/19670022816
 [research_henderson_1965]: https://ntrs.nasa.gov/citations/19650024621
 [research_hermanutz_2020]: https://doi.org/10.3390/aerospace7040045
 [research_hopkins_1975]: https://ntrs.nasa.gov/citations/19750055435
 [research_housner_1974]: https://ntrs.nasa.gov/citations/19740024243
 [research_huffman_1972]: https://ntrs.nasa.gov/citations/19730003273
+[research_igoe_1961]: https://ntrs.nasa.gov/citations/20040006370
 [research_iliff_1972]: https://ntrs.nasa.gov/citations/19720012009
 [research_james_1957]: https://ntrs.nasa.gov/citations/19930089713
+[research_jenkins_1977]: https://ntrs.nasa.gov/citations/19780032273
+[research_jenkins_1977_2]: https://ntrs.nasa.gov/citations/20020086520
 [research_jim_planform_2021]: https://doi.org/10.2514/1.j060225
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
+[research_jones_1976]: https://ntrs.nasa.gov/citations/19760064883
+[research_jones_1976_2]: https://ntrs.nasa.gov/citations/19760012020
+[research_jones_1977]: https://ntrs.nasa.gov/citations/19770047158
 [research_kapuscinski_2020]: https://doi.org/10.3390/s20082401
+[research_kehoe_1987]: https://ntrs.nasa.gov/citations/19870018230
 [research_keidel_2020]: https://doi.org/10.2514/1.c035606
 [research_kemp_1950]: https://ntrs.nasa.gov/citations/19930086268
 [research_kemp_1951]: https://ntrs.nasa.gov/citations/19930086901
+[research_kennelly_1990]: https://ntrs.nasa.gov/citations/19920022969
+[research_kennelly_1999]: https://ntrs.nasa.gov/citations/20050243387
 [research_kilgore_1971]: https://ntrs.nasa.gov/citations/19710007950
 [research_klimczyk_2019]: https://doi.org/10.1108/aeat-12-2017-0289
 [research_klinar_1949]: https://ntrs.nasa.gov/citations/20050030060
 [research_klinar_1950]: https://ntrs.nasa.gov/citations/20050029448
+[research_knight_1928]: https://ntrs.nasa.gov/citations/19930091341
+[research_kohama_1991]: https://ntrs.nasa.gov/citations/19930033256
 [research_kumar_topology_2021]: https://doi.org/10.1016/j.mechmachtheory.2020.104135
 [research_lamar_1971]: https://ntrs.nasa.gov/citations/19710024300
+[research_lampert_1951]: https://ntrs.nasa.gov/citations/19930082927
 [research_lee_1952]: https://ntrs.nasa.gov/citations/20050029463
 [research_lee_1964]: https://ntrs.nasa.gov/citations/19980236423
 [research_lee_1964_2]: https://ntrs.nasa.gov/citations/19940040848
 [research_li_varsweep_2020]: https://doi.org/10.1088/1742-6596/1570/1/012073
+[research_lichter_1974]: https://ntrs.nasa.gov/citations/19990046748
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
 [research_lockwood_1966]: https://ntrs.nasa.gov/citations/19660023730
+[research_lowry_1957]: https://ntrs.nasa.gov/citations/19930084818
 [research_ma_bionic_2021]: https://doi.org/10.3390/app11198859
+[research_martina_1956]: https://ntrs.nasa.gov/citations/19920075067
 [research_monfort_1975]: https://ntrs.nasa.gov/citations/19760019102
+[research_morehouse_1977]: https://ntrs.nasa.gov/citations/19780006055
+[research_moseley_1951]: https://ntrs.nasa.gov/citations/19930086935
+[research_mousseux_1989]: https://ntrs.nasa.gov/citations/19900058397
+[research_mugler_1959]: https://ntrs.nasa.gov/citations/19650003091
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
 [research_naca_1949]: https://ntrs.nasa.gov/citations/19650074048
 [research_naca_1957]: https://ntrs.nasa.gov/citations/19710070068
 [research_naca_1966]: https://ntrs.nasa.gov/citations/20080013519
 [research_naca_1966_2]: https://ntrs.nasa.gov/citations/20080013521
+[research_naca_1973]: https://ntrs.nasa.gov/citations/19730009309
+[research_naca_1977]: https://ntrs.nasa.gov/citations/19770010094
+[research_naeseth_1956]: https://ntrs.nasa.gov/citations/19930089309
 [research_nazeer_2021]: https://doi.org/10.3390/act10060107
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
+[research_painter_1978]: https://ntrs.nasa.gov/citations/19790005843
+[research_peele_1975]: https://ntrs.nasa.gov/citations/19750023957
+[research_pena_2018]: https://ntrs.nasa.gov/citations/20190033242
 [research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
+[research_pitkin_1943]: https://ntrs.nasa.gov/citations/19930092699
 [research_polhamus_1960]: https://ntrs.nasa.gov/citations/19670023743
 [research_polhamus_1981]: https://ntrs.nasa.gov/citations/19810016532
 [research_prandtl_1928]: https://ntrs.nasa.gov/citations/19930090813
 [research_queijo_1954]: https://ntrs.nasa.gov/citations/19930092215
 [research_quigley_1960]: https://ntrs.nasa.gov/citations/19980223993
+[research_rao_1982]: https://ntrs.nasa.gov/citations/19820038517
 [research_rao_spin_2019]: https://doi.org/10.1016/j.ast.2019.04.046
 [research_rathert_1951]: https://ntrs.nasa.gov/citations/19930086490
 [research_ray_1972]: https://ntrs.nasa.gov/citations/19730006292
+[research_redin_1981]: https://ntrs.nasa.gov/citations/19810015513
 [research_reed_1955]: https://ntrs.nasa.gov/citations/19930088802
+[research_ricketts_1980]: https://ntrs.nasa.gov/citations/19800020786
 [research_rogers_1952]: https://ntrs.nasa.gov/citations/19930087176
+[research_rozendaal_1986]: https://ntrs.nasa.gov/citations/19880019510
+[research_rozendaal_1987]: https://ntrs.nasa.gov/citations/19900003232
+[research_rudolph_1998]: https://ntrs.nasa.gov/citations/19980021287
+[research_sager_1993]: https://ntrs.nasa.gov/citations/19940020025
 [research_salahudden_2021]: https://doi.org/10.1016/j.ast.2021.106823
+[research_savage_1959]: https://ntrs.nasa.gov/citations/19980228310
 [research_scher_1947]: https://ntrs.nasa.gov/citations/20050019396
-[research_scudder_1935]: https://ntrs.nasa.gov/citations/19930091602
+[research_scher_1977]: https://ntrs.nasa.gov/citations/19980227417
+[research_schulderfrei_1951]: https://ntrs.nasa.gov/citations/19930083056
+[research_scudder_1937]: https://ntrs.nasa.gov/citations/19930091634
+[research_selberg_1990]: https://ntrs.nasa.gov/citations/19900011649
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+[research_smith_1976]: https://ntrs.nasa.gov/citations/19760015098
 [research_snyder_1947]: https://ntrs.nasa.gov/citations/20050019393
 [research_spearman_1948]: https://ntrs.nasa.gov/citations/19930085498
 [research_spencer_1960]: https://ntrs.nasa.gov/citations/19660024029
+[research_spreemann_1951]: https://ntrs.nasa.gov/citations/19930086543
 [research_stephenson_1956]: https://ntrs.nasa.gov/citations/19930090107
 [research_stone_1947]: https://ntrs.nasa.gov/citations/19930081964
+[research_stone_1948]: https://ntrs.nasa.gov/citations/19930082194
+[research_stough_1979]: https://ntrs.nasa.gov/citations/19790063863
+[research_stough_1987]: https://ntrs.nasa.gov/citations/19870007382
+[research_stough_1991]: https://ntrs.nasa.gov/citations/19910069118
+[research_stough_1993]: https://ntrs.nasa.gov/citations/19940016083
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
+[research_sutton_1959]: https://ntrs.nasa.gov/citations/19980230678
+[research_taylor_1959]: https://ntrs.nasa.gov/citations/19980235623
 [research_theodorsen_1935]: https://ntrs.nasa.gov/citations/19800006788
 [research_toll_1962]: https://ntrs.nasa.gov/citations/19700023955
 [research_traub_2019]: https://doi.org/10.2514/1.c035600
 [research_tsushima_2019]: https://doi.org/10.1016/j.ast.2019.03.025
+[research_turner_1950]: https://ntrs.nasa.gov/citations/19930082849
 [research_videan_1955]: https://ntrs.nasa.gov/citations/19930089024
+[research_vogler_1956]: https://ntrs.nasa.gov/citations/19930088964
+[research_vogler_1976]: https://ntrs.nasa.gov/citations/19770005052
+[research_weil_1953]: https://ntrs.nasa.gov/citations/19930087927
+[research_west_1960]: https://ntrs.nasa.gov/citations/20040020128
+[research_whipple_1984]: https://ntrs.nasa.gov/citations/19870000608
+[research_whitcomb_1956]: https://ntrs.nasa.gov/citations/19650070830
 [research_whitcomb_1961]: https://ntrs.nasa.gov/citations/20040027948
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wright_1936]: https://doi.org/10.2514/8.155
