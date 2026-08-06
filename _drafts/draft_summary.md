@@ -21,19 +21,20 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
 
-1535 lines, 112 display equations, 406 reference definitions, 20,184 words after an equation-density
-review and a primary-reference review. **NTRS-hosted primary documents rose from 94 to 182, or 44.8
+1657 lines, 112 display equations, 466 reference definitions, 22,299 words after all four passes. **NTRS-hosted primary documents rose from 94 to 182, or 44.8
 percent of all references, which is by a wide margin the highest in the series against 30 to 33
 percent for A298 through A301.** References dated 1960 or earlier rose from 70 to 102, or 34.5
 percent of dated references, second only to A298 and A301.
 
-**Total references at 406 exceed the genre band's ceiling of 380 by 26.** The standing directive for
-this series states no reference limit, and the prompt asked that all identified references be added,
-so the overage is deliberate and is reported rather than trimmed. The pilot can call for a trim.
+The publication review added 60 contemporary journal articles, taking contemporary references from
+49 to **109 and from 16.6 to 30.6 percent of dated references**, which is inside the 28 to 33 percent
+target range and is the highest absolute contemporary count in the series against A301's 101.
 
-Contemporary references stand at 49 absolute and 16.6 percent of dated references, down from 22.1
-percent purely by dilution, and that is now the furthest below the 28 to 33 percent target range of
-any article in the series. It is the publication review's business and has not been pre-empted.
+**Two densities sit outside the genre bands and both are deliberate.** References at 466 exceed the
+380 ceiling by 86, and lines at 1657 exceed the 1600 ceiling by 57. The standing directive for this
+series states no length limit and no reference limit and asks that the articles serve as a
+comprehensive survey of the contemporary literature, which is what produced both overages. They are
+reported rather than trimmed and the pilot can call for a cut.
 
 The equation pass produced three results the draft did not have. The Korn drag-divergence relation,
 evaluated with the streamwise thickness ratios that sweeping produces, returns 0.765 at the low sweep
