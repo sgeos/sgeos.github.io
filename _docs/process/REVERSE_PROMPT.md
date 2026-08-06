@@ -9,8 +9,101 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-06
-**Task**: A306 equation-density review, the second pass. Committed. Not pushed. Not published. All
-ten articles remain in `_drafts/`.
+**Task**: A306 primary-reference review, the third pass. Committed. Not pushed. Not published. All ten
+articles remain in `_drafts/`.
+
+---
+
+## The Baseline Was Already the Highest in the Series
+
+Primary technical documents measured **125 of 229 external references, or 54.6 percent**, before this
+pass, against A298 at 52.1 and A305 at 51.4 after their own reviews. So the count was not the problem.
+
+The deficit was coverage, and it was concentrated in one place. **The equation pass created the same
+reference debt it created in A305.** Every relation added last week arrived without its period source,
+so the supplementary harvest was aimed at those topics rather than at the article's original ones.
+
+39 primary documents added across 12 edits. Primary is now **164 of 268 external, or 61.2 percent**,
+and references went from 239 to 278, which brings the last of the three densities inside band.
+
+---
+
+## What the Equation Pass Owed
+
+Blast scaling, which turns the asserted lethal radius into a statement about yield, now has [Morton
+1966] on scaling air blast against real targets. The drag buildup's flat-plate friction coefficient,
+which the article had simply stated as 0.0025, now has [Dhawan 1953] measuring it directly and
+[Rubesin et al 1951] supplying the compressibility correction, with the roughness dependence that
+makes a real missile worse than a plate.
+
+**The beacon argument is the article's strongest single claim and it had no source at all.** That a
+one watt transmitter on the missile beats a hundred kilowatt radar on the aircraft now rests on
+[Feldman et al 1962] on beacon system evaluation and improvement, including the decoder that lets the
+same link carry commands.
+
+The bomber's turn radius now has [Wrestler 1965] on aircraft agility in the turnaround manoeuvre. The
+hinge-moment balance argument now traces to [Harris 1935], and the actuator that supplies what balance
+does not remove is [Scott 1966]. The gyro bias that maps straight onto the error budget now has
+[Vaughn 1960] on test methods and [Flowe and Bright 1963] on drift.
+
+---
+
+## Two Gaps the Draft Left
+
+**The operator's display is a component of the loop and the article had treated it as furniture.** The
+operator can only close a loop around what he can see, so the console engineering of [Fluhr 1963],
+[Mitchell and Kinney 1966], and [Drake 1967] belongs in the argument, as does the radar-presentation
+interpretation problem of [Esten 1953], since relief displacement and parallax are what a radar
+picture of a ground scene actually shows an operator.
+
+**Three X-9 flights carried a warhead and the article mentioned it without a source.** Now sourced
+across warhead development and fuzing for guided missiles of the period.
+
+---
+
+## A Housekeeping Defect Worth Recording
+
+Nine reference entries carried machine-generated corporate author names, such as `Army Missile Command
+Redstone Arsenal Al 1963` and `Bell Aerospace Co Buffalo Ny 1953`. The harvest produces these from the
+defence archive's corporate-author field, which is a place name and an organisation rather than a
+person, and my author-key derivation had no way to know that.
+
+All nine are shortened in the master table, and the link-text invariant resynchronised them into the
+prose automatically. **This will recur on every article that draws on that archive**, so it is worth
+handling at harvest time rather than at review time in future.
+
+---
+
+## Verification
+
+278 references with zero undefined, zero orphaned, and zero duplicate URLs. All 77 fixed identifiers
+at 200. **All 156 DOIs Crossref-resolved on title at the 0.85 threshold with zero flagged, and this
+article contains no hand-entered identifiers at all.** All 89 worked values still reproducing.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations, zero duplicate
+headings, zero display-string collisions, zero link texts out of sync. Isolated build succeeding with
+115 rendered display blocks and Part 10 navigation.
+
+---
+
+## State, and the One Remaining Deficit
+
+1414 lines, 115 display equations, 278 references, 12,731 words. **All three densities are inside
+band**, which is the first article in the series to arrive there without an overage being argued for
+since A304.
+
+**Contemporary coverage is the deficit.** 46 references at 19.2 percent of dated, against absolute
+counts of 101 to 155 in A301 through A305. The percentage fell from 22.9 only because the denominator
+grew, but the count is what the series tracks and 46 is low. The publication review will need to add
+roughly a hundred, and the harvest already holds 349 modern records of which only 46 are cited.
+
+Committed, not pushed. Publication-order dependency ten deep. Categories still undecided at
+`aerospace history engineering`, raised nine times.
+
+---
+
+## Prior State, Carried Forward
+
+The draft and equation passes are described below and remain accurate except for the metrics.
 
 ---
 
