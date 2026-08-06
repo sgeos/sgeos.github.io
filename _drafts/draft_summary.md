@@ -21,9 +21,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_x7.markdown`, A304, editorial date 2025-10-13, series `x_planes` index 8 of 72.
 
-1157 lines, 94 display equations, 253 reference definitions, 13,255 words after an equation-density
-review that added 61 equations across 27 edits. Equations and references are inside band. Lines are
-143 short of the 1300 floor and have not been padded. Contemporary references are 38.8 percent of
+1289 lines, 94 display equations, 313 reference definitions, 15,744 words after an equation-density
+review and a primary-reference review. Equations and references are inside band. Lines are 11 short
+of the 1300 floor and have not been padded.
+
+**The primary deficit was the largest in the series and is now closed.** Primary technical documents
+rose from 49 to 109, or 19.4 to 34.8 percent of all references, against 30.1 percent for A301 and 39
+percent for A302 and A303. References dated 1965 or earlier are 51.1 percent of dated references,
+second only to A303. Contemporary references stand at 28.1 percent, just inside the target range. Contemporary references are 38.8 percent of
 dated references and references dated 1965 or earlier are 35.6 percent.
 
 **The pass corrected a claim the draft asserted without computing.** The draft said a staged conical
