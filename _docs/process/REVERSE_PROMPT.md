@@ -9,88 +9,90 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A304 equation-density review. Committed and **not pushed**. **No article in this series is
+**Task**: A304 primary-reference review. Committed and **not pushed**. **No article in this series is
 published.**
 
-**33 to 94 display equations, 895 to 1157 lines.** Equations and references are inside band.
+**253 to 313 references, 49 to 109 primary technical documents, 1157 to 1289 lines.**
 
 ---
 
-## The Pass Corrected a Claim the Draft Asserted Without Computing
+## The Deficit Was the Largest in the Series
 
-The draft said a staged conical shock system recovers "something like half" the total pressure where
-a normal shock recovers a tenth, "a factor of five." That was an assertion from memory and it was
-wrong.
+A304 came into this pass at **49 primary documents and 19.4 percent of all references**, against 30.1
+percent for A301 and 39 percent for A302 and A303. That is roughly half the series norm and it is the
+worst starting position any article has had.
 
-Carrying out the oblique shock arithmetic properly, two sixteen-degree turns followed by a terminal
-normal shock give component recoveries of 0.739, 0.874, and 0.615, whose product is **0.397** against
-**0.107** for a single normal shock. That is **a factor of 3.7, not five**. The article now shows the
-three components rather than asserting the total, and the conclusion is unchanged in kind and smaller
-in size.
+Two things caused it. **Thirty-one records I had already verified never got cited**, because the draft
+pass ran out of places to put them before it ran out of documents. And the harvest itself was barely
+tapped, with 337 documents gathered and 70 verified.
 
----
-
-## Three Results the Draft Did Not Have
-
-**Specific impulse is the argument the draft never made.** At Mach 4.31 the ramjet returns 1850
-seconds against 250 to 450 for a chemical rocket, so it delivers **four to seven times the specific
-impulse of the rocket that starts it**. That is the entire reason for the architecture and the reason
-the booster is thrown away four seconds in.
-
-**The subsonic-combustion ceiling can be located rather than gestured at.** Thrust vanishes when the
-stagnation temperature reaches the combustor limit, and solving that gives $M_{\lim} = 6.2$. The
-draft said the ramjet "stops being useful somewhere near Mach 5 to 6" without deriving it.
-
-**The Damköhler number makes the combustion section quantitative.** The ratio of residence time to
-chemical time is 8.3 for a one millisecond chemistry, 1.7 at five, and 0.83 at ten. **A ramjet
-combustor operates within a factor of a few of not working**, which is why the flame must be anchored
-and why the whole flame-holder literature exists.
+Primary documents are now **109, or 34.8 percent**, and references dated 1965 or earlier are **51.1
+percent** of dated references, second only to A303.
 
 ---
 
-## The Keystone Got Its Machinery
+## Four Additions Land on the Article's Own Derivations
 
-The draft asserted the extrapolation argument with one variance relation. It now has the apparatus.
+**[Disher et al 1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch
+ramjet.** That is the X-7's entire operating concept in miniature, flown two years into the programme,
+and it is the closest thing in the open literature to a direct antecedent. The draft had no citation
+for the architecture at all.
 
-The **stopping rule** that separates the two kinds of programme is an expected-cost balance, in which
-a test point is bought until the marginal information no longer justifies the marginal expected loss.
-**When the vehicle cost term includes a human life the right side is effectively unbounded and the
-stopping point moves inward without limit.** That single term is the whole difference, and it explains
-why the X-7's advantage cannot be recovered by making a crewed aircraft cheaper, which is the obvious
-objection and one the draft left unanswered.
+**[Evans 1951] analyses ramjet performance across Mach 3 to 7**, which is exactly the interval in which
+the engine goes from excellent to impossible, and reaches the ceiling this article derives
+independently at Mach 6.2. Having derived it, it is worth knowing someone had it in 1951.
 
-Fisher information supplies the other half, since the information a sample carries about a slope grows
-with its distance from the centroid, so **the optimal design places points exactly where a crewed
-programme is forbidden to go**.
+**[Flaherty and Stitt 1959] test an isentropic spike inlet designed for Mach 5.** The shock section
+gestures at continuous compression as the limiting case of many weak shocks; this is that limit built
+as a contoured centrebody and flown.
 
-The economics are now quantified too. At an eighty-five percent Wright learning curve the cumulative
-average over 130 articles is 0.41, so **130 vehicles cost about 53 times one vehicle rather than 130
-times**. That connects to Wright 1936, which has been in the series apparatus since the opener and
-has not done real work until now.
+**[Tower and Gammon 1953] give the analytical relation between equivalence ratio, inlet air
+temperature, and combustion pressure** that the fuel-air calculation evaluates numerically.
+
+---
+
+## Two Claims Substantiated Rather Than Repeated
+
+The Comparison With Ground Prediction section asserted that a tunnel model runs an order of magnitude
+low in Reynolds number and that this matters. **[Anderson et al 1957] compare a full-scale and a
+quarter-scale translating-spike inlet at the same Mach numbers**, which is precisely the experiment
+that settles how far a tunnel result can be trusted, and the article now cites the measurement rather
+than the reasoning.
+
+The combustion section said boron deposits solid oxide in the nozzle, which is well known and was
+standing on secondary accounts. **[Schafer et al 1953] compare theoretical and experimental oxide
+coating formation.** The claim is now attributable.
+
+---
+
+## Diction
+
+Citations introduced by the preposition `in` reached **34.2 percent** of body citations after the
+pass, because sixty references went in during one sitting with one construction. Nine passages rotated
+across `by`, `from`, `through`, and verb forms, bringing it to **22.7 percent**, with `and` at 27.7 and
+`by` at 15.1. **That is the best-distributed citation mix of any article in the series so far**, and
+it is the third consecutive article where this check has caught the same drift, which suggests the
+drift is a property of how I add references in bulk rather than of any particular article.
 
 ---
 
 ## Verification
 
-**All 33 worked values re-derived independently**, with two rounding slips corrected, a drag loss of
-9.4 metres per second stated as 9 and a scramjet residence time of 0.67 milliseconds stated as 0.7.
-
-Three seam and style defects found and repaired. **Two equations had prose glued to the same line**,
-both from insertions that landed mid-paragraph, and one sentence carried two prose semicolons. The
-unbalanced-delimiter check caught the first two and the style scan the third.
-
-253 references with zero undefined and zero orphaned. `_verify.py` at the 0-error 21-warning corpus
-baseline. Isolated build succeeding with 94 rendered display blocks matching 94 source equations and
-Part 8 navigation.
+313 references with zero undefined, zero orphaned, and zero duplicate URLs. All 185 meaningful-404
+URLs at 200. `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations, zero
+doubled words, zero display-math seam defects. Isolated build succeeding with 94 rendered display
+blocks and Part 8 navigation.
 
 ---
 
 ## What Remains
 
-**Lines at 1157 are 143 short of the 1300 floor and have not been padded.** Contemporary references
-are 38.8 percent of dated, comfortably inside the target range, so A304 enters the later passes
-without a deficit there. The section with the least equation coverage remaining is the contemporary
-literature, which carries four across five subsections.
+**Lines at 1289 are 11 short of the 1300 floor and I have not padded them.** Eleven lines is exactly
+the amount that would be tempting to manufacture, and the publication review will close it with real
+material or it will stay 11 short and be reported that way.
 
-**Publication order dependency is eight deep.** Two commits unpushed. Categories remain
+Contemporary references are 28.1 percent of dated, just inside the target range, so A304 does not
+carry a second deficit into the last pass.
+
+**Publication order dependency is eight deep.** Three commits unpushed. Categories remain
 `aerospace history engineering`, eight articles deep.

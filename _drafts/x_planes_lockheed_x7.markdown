@@ -139,7 +139,7 @@ taking the vehicle to
 
 $$M_{\text{burnout}} = \frac{134 + 575}{299.5} = 2.37$$
 
-**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having**, which is the cleanest possible statement of what a booster is for. Gravity and drag losses reduce this somewhat and the real burnout Mach number is nearer 2, which is still above the threshold.
+**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having**, which is the cleanest possible statement of what a booster is for. The NACA had flown the same architecture on a smaller scale by 1953, and [Disher et al 1953][research_disher_1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch ramjet, which is the X-7's operating concept in miniature and the closest thing in the open literature to a direct antecedent. The engine cycle behind it is charted in [Karp 1947][research_karp_1947] for the turbojet case and summarized for the ramjet by [Cervenko and Friedman 1956][research_cervenko_1956]. Gravity and drag losses reduce this somewhat and the real burnout Mach number is nearer 2, which is still above the threshold.
 
 The price is an acceleration no crewed vehicle could accept,
 
@@ -197,7 +197,9 @@ $$0.739 \times 0.874 \times 0.615 = 0.397$$
 
 A factor of 3.7 in the pressure delivered to the combustor is very nearly a factor of 3.7 in thrust. **The spike is not an aerodynamic refinement. It is most of the engine.**
 
-This is not incidental engineering. It is the subject of a NACA research programme in its own right, opened by [Ferri and Nucci 1946][research_ferri_1946] and continued through [Ferri and Nucci 1951][research_ferri_1951], with the conical-flow separation approach of [Moeckel and Evans 1951][research_moeckel_1951] and the measured characteristics of conical spike inlets in [Allen and Beke 1953][research_allen_1953] and [Obey et al 1952][research_obey_1952].
+This is not incidental engineering. It is the subject of a NACA research programme in its own right, opened by [Ferri and Nucci 1946][research_ferri_1946] and continued through [Ferri and Nucci 1951][research_ferri_1951], with the conical-flow separation approach of [Moeckel and Evans 1951][research_moeckel_1951] and the measured characteristics of conical spike inlets in [Allen and Beke 1953][research_allen_1953] and [Obey et al 1952][research_obey_1952]. The series of nose inlets surveyed by [Howard et al 1951][research_howard_1951] establishes the force and pressure characteristics across the low supersonic range, [Bernstein and Haefeli 1953][research_bernstein_1953] carry a single-conical-shock inlet to Mach 5.4, and nose and lip shaping for an underslung installation is [Pfyl 1955][research_pfyl_1955].
+
+The limit the article gestures at was approached in hardware. [Flaherty and Stitt 1959][research_flaherty_1959] test an isentropic spike inlet designed for Mach 5 at and below its design speed, which is the continuous-compression limit realized as a contoured centrebody rather than a series of cones. Making the geometry variable is the other route, and the translating-spike work of [Connors et al 1957][research_connors_1957] and [Connors et al 1957][research_connors_1957_2] shows what a moving centrebody buys, with the two-dimensional variable inlet of [Beheim and Gertsma 1956][research_beheim_1956] and [Beheim and Gertsma 1956][research_beheim_1956_2] as the alternative and the eventual requirements statement by [Beheim and Boksenbom 1968][research_beheim_1968]. Matching such an inlet to a turbojet rather than a ramjet, which is the problem the next generation of aircraft had, is [Anderson et al 1960][research_anderson_1960]. **The X-7 had none of this and flew a fixed cone**, which is the price of being cheap.
 
 ### The Temperature That Chooses the Material
 
@@ -229,7 +231,7 @@ For a 1.5 millimetre steel skin and a convective coefficient of 300 watts per sq
 
 $$\tau = \frac{7900 \times 500 \times 0.0015}{300} = 20 \ \text{seconds}$$
 
-against a powered flight lasting a few minutes. **The X-7's structure is not a heat sink. It reaches equilibrium and stays there**, which is the opposite of the short-exposure heat-sink philosophy used on rocket-boosted vehicles with shorter flights, and it is why the material choice rather than the material thickness is the design variable. The recovery factor itself was a NACA measurement programme, and [Stalder et al 1950][research_stalder_1950], [Tucker and Maslen 1951][research_tucker_1951], and [Esgar and Lea 1951][research_esgar_1951] establish the values used above, with the skin temperatures of conical bodies specifically in [Huston et al 1948][research_huston_1948].
+against a powered flight lasting a few minutes. **The X-7's structure is not a heat sink. It reaches equilibrium and stays there**, which is the opposite of the short-exposure heat-sink philosophy used on rocket-boosted vehicles with shorter flights, and it is why the material choice rather than the material thickness is the design variable. The recovery factor itself was a NACA measurement programme, and [Stalder et al 1950][research_stalder_1950], [Tucker and Maslen 1951][research_tucker_1951], and [Esgar and Lea 1951][research_esgar_1951] establish the values used above, with the skin temperatures of conical bodies specifically in [Huston et al 1948][research_huston_1948]. The convective coefficient that sets the time constant follows from the skin friction, measured in flight on a body of revolution by [Loposer and Rumsey 1954][research_loposer_1954], and the state of the boundary layer that determines it is the subject of [Blue and Low 1953][research_blue_1953] and [Higgins and Pappas 1951][research_higgins_1951]. Cooling the surface deliberately, which the X-7 did not do and later vehicles did, is analysed by [Klunker and Ivey 1949][research_klunker_1949], with protected construction for the hypersonic case from [Dukes 1962][research_dukes_1962].
 
 The consequence for the engine is worse than the consequence for the structure. Combustor materials of the period tolerated something like 2000 kelvin, and the air is arriving at 1078, so the temperature rise available from combustion is
 
@@ -259,7 +261,7 @@ against a stoichiometric ratio near 0.068, so the equivalence ratio
 
 $$\phi = \frac{f}{f_{\text{stoich}}}$$
 
-falls from 0.67 to 0.38. **At its top speed the engine is running lean not by choice but because it is forbidden to add more heat.** Against that, the mass flow captured rises with speed,
+falls from 0.67 to 0.38. **At its top speed the engine is running lean not by choice but because it is forbidden to add more heat.** That the equivalence ratio, the inlet air temperature, and the combustion pressure govern the achievable performance jointly is exactly the subject of [Tower and Gammon 1953][research_tower_1953], which is the analytical statement of the relation evaluated above. Against that, the mass flow captured rises with speed,
 
 $$\dot{m} = \rho A_c V_0$$
 
@@ -285,7 +287,9 @@ and evaluating at Mach 4.31 gives
 
 $$I_{sp} = \frac{1306}{0.026 \times 9.807} \times 0.443 = 1.85 \times 10^{3} \ \text{seconds}$$
 
-against 250 to 450 seconds for a chemical rocket. **The ramjet delivers four to seven times the specific impulse of the rocket that starts it**, which is the entire reason for the architecture and the reason the booster is discarded the moment it has done its job. That is why an airbreathing vehicle has a natural top speed rather than an arbitrary one, and it is why Mach 4.31 is a number about the engine rather than about the airframe.
+against 250 to 450 seconds for a chemical rocket. **The ramjet delivers four to seven times the specific impulse of the rocket that starts it**, which is the entire reason for the architecture and the reason the booster is discarded the moment it has done its job.
+
+The ceiling that eventually stops it was calculated before the X-7 flew. [Evans 1951][research_evans_1951] is an analytical investigation of ramjet engine performance across the flight Mach range from three to seven, which is the interval in which the engine goes from excellent to impossible, and it reaches the conclusion this article derives independently. The underwing heat-addition variant, which is a different way of using the same energy, is [Luidens and Flaherty 1959][research_luidens_1959]. That is why an airbreathing vehicle has a natural top speed rather than an arbitrary one, and it is why Mach 4.31 is a number about the engine rather than about the airframe.
 
 ### What Expendability Buys, in Mass
 
@@ -321,7 +325,7 @@ with $b$ the progress ratio. At an eighty-five percent curve the hundred and thi
 
 $$c_{130} = c_1 \times 130^{\log_2 0.85} = 0.32 \, c_1$$
 
-and the cumulative average over the whole run is $0.41 c_1$, so **130 vehicles cost about 53 times one vehicle rather than 130 times**. A programme that builds one aircraft and flies it 130 times gets no such benefit, and a programme that loses vehicles gets it in full. That relation is [Wright 1936][research_wright_1936] and it is one of the few places in this series where a cost model does real work.
+and the cumulative average over the whole run is $0.41 c_1$, so **130 vehicles cost about 53 times one vehicle rather than 130 times**. A programme that builds one aircraft and flies it 130 times gets no such benefit, and a programme that loses vehicles gets it in full. That relation is [Wright 1936][research_wright_1936] and it is one of the few places in this series where a cost model does real work. The qualification and acceptance testing that a production run of expendable articles requires is a discipline of its own, described for the electronic subsystems by [Leverone and Mandell 1963][research_leverone_1963], with the failure analysis such programmes generate reported by [Rosette 1964][research_rosette_1964]. **An expendable programme does not escape testing. It moves the testing from the vehicle to the production line.**
 
 ### The Recovery That Is Not a Landing
 
@@ -353,7 +357,7 @@ which is why the recovery was staged rather than single. A drogue slows the vehi
 
 $$F_{\text{open}} = C_x \, q \, C_D S$$
 
-tearing it, with $C_x$ the opening shock factor, and staging is the standard way to keep that product bounded.
+tearing it, with $C_x$ the opening shock factor, and staging is the standard way to keep that product bounded. Reducing that shock was a measured subject rather than a rule of thumb, and [Jones and Klinar 1950][research_jones_1950] investigate the effect on recovery behaviour of reducing the opening shock of a deployed parachute, which is the same tradeoff at a different scale.
 
 ## Dependent Systems
 
@@ -383,7 +387,9 @@ for a quarter-wave organ pipe. The oscillation is violent enough to damage struc
 
 $$\frac{A_{th}}{A_c} \ge \frac{1}{\left( p_{t2}/p_{t1} \right)_{\text{normal}}} \cdot \frac{A^{*}(M_\infty)}{A_c}$$
 
-so an inlet contracted enough to be efficient once running may be unable to start, and one able to start may be unable to be efficient. **A fixed-geometry inlet must satisfy both with one shape, which is why variable geometry exists and why the X-7 flew a narrow speed band instead.**
+so an inlet contracted enough to be efficient once running may be unable to start, and one able to start may be unable to be efficient. **A fixed-geometry inlet must satisfy both with one shape, which is why variable geometry exists and why the X-7 flew a narrow speed band instead.** The third remedy is to bleed the boundary layer at the throat, which improves both the recovery and the starting margin at a cost in captured flow, and [Stitt and Obery 1958][research_stitt_1958] measure an all-internal conical compression inlet with annular throat bleed. Later approaches control the shock system actively rather than geometrically, through [Rosenbaum and Zeiberg 1965][research_rosenbaum_1965], [Brown 1967][research_brown_1967], and [Wasserbauer and Willoh 1968][research_wasserbauer_1968], with the freely rotating cowl-face rotor of [Goldberg and Boxer 1959][research_goldberg_1959] as an unusual variant and the low-cowl-drag external compression alternative from [Connors and Flaherty 1958][research_connors_1958].
+
+An inlet also ingests whatever the atmosphere contains, and [Gelder 1958][research_gelder_1958] measures droplet impingement and ingestion by a supersonic nose inlet, which is the kind of problem that only appears once a vehicle leaves a tunnel.
 
 Neither has any analogue in a subsonic aircraft, and both are the reason inlets acquired variable geometry. The X-7 flew a fixed geometry inlet and was therefore designed around a narrow operating band, which an expendable vehicle can accept and a crewed aircraft cannot. The measured behaviour of such inlets appears in [Obey et al 1952][research_obey_1952] on subcritical stability, [Leissler and Nettles 1954][research_leissler_1954], and the shock and boundary layer interaction on the spike itself in [Wise and Sterbentz 1957][research_wise_1957].
 
@@ -409,13 +415,13 @@ and the blowoff limit follows a velocity, size, and pressure grouping of the for
 
 $$\left( \frac{V}{d_{\text{holder}} \, p^{n}} \right)_{\text{blowoff}} = \text{constant}$$
 
-so a larger holder is more stable and more expensive. Too little blockage and the flame blows off, too much and the pressure the inlet worked to recover is spent on a wake. The relevant NACA work is [Perchonok et al 1948][research_perchonok_1948] on gutter dimensions, [Perchonok and Farley 1951][research_perchonok_1951] on a 16-inch ramjet in a free jet, and the combustor configuration studies of [Meyer and Welna 1954][research_meyer_1954] and [Shillito et al 1950][research_shillito_1950]. The kinetics underneath it are treated in [Childs 1957][research_childs_1957].
+so a larger holder is more stable and more expensive. Too little blockage and the flame blows off, too much and the pressure the inlet worked to recover is spent on a wake. The relevant NACA work is [Perchonok et al 1948][research_perchonok_1948] on gutter dimensions, [Perchonok and Farley 1951][research_perchonok_1951] on a 16-inch ramjet in a free jet, and the combustor configuration studies of [Meyer and Welna 1954][research_meyer_1954], [Shillito et al 1950][research_shillito_1950], and its companion volume on combustion in [Shillito et al 1950][research_shillito_1950_2], with the effect of design changes and operating conditions in [Shillito and Nakanishi 1952][research_shillito_1952]. The kinetics underneath it are treated by [Childs 1957][research_childs_1957]. Combustor design for a long-range engine specifically is [Rayle and Koch 1954][research_rayle_1954], a rich-inner-zone arrangement is [Trout and Wentworth 1953][research_trout_1953], and the wake structure behind the flame holder that makes any of it work is [Younger et al 1952][research_younger_1952]. The related instability that afflicts afterburners, screech, is [Trout et al 1956][research_trout_1956].
 
 Fuel choice was pursued aggressively and in a direction that has not aged well. Because the achievable temperature rise falls with Mach number, the way to keep thrust is to raise the heating value. The fuel mass needed for a given heat release is
 
 $$\dot{m}_f = \frac{\dot{Q}}{h_{PR}}$$
 
-so a fuel with a higher $h_{PR}$ buys either more thrust for the same tankage or the same thrust for less. Boron compounds offer roughly forty percent more energy per kilogram than a hydrocarbon and hydrogen offers nearly three times, and both do so at a cost. Boron is toxic, corrosive, and deposits solid oxide in the nozzle, and hydrogen has a density so low that
+so a fuel with a higher $h_{PR}$ buys either more thrust for the same tankage or the same thrust for less. Boron compounds offer roughly forty percent more energy per kilogram than a hydrocarbon and hydrogen offers nearly three times, and both do so at a cost. Boron is toxic, corrosive, and deposits solid oxide in the nozzle. **That deposition was not a surprise discovered in service but a measured effect**, and [Schafer et al 1953][research_schafer_1953] compare theoretical and experimental oxide coating formation from a fuel of that class. More ordinary fuel questions were pursued in parallel, with volatility effects in [Barson and Sargent 1951][research_barson_1951] and a comparison of service fuels in [Ranscht and Farley 1957][research_ranscht_1957]. Hydrogen has a density so low that
 
 $$\rho_{\text{LH}_2} \approx 71 \ \text{kilograms per cubic metre}, \qquad \rho_{\text{RP}} \approx 800$$
 
@@ -439,7 +445,9 @@ $$C_{N\alpha, \text{fin}} = \frac{4}{\sqrt{M^{2} - 1}} \cdot \frac{S_{\text{fin}
 
 by supersonic linear theory, so their effectiveness *falls* with Mach number as the stiffness requirement rises, and the fin area must be chosen at the worst combination rather than at the design point. The cruciform or planar fin arrangements typical of the class deliver that stiffness at a drag cost nobody minds on a four-minute flight.
 
-The relevant flight-dynamics work of the period was done largely with rocket-boosted free-flight models, which are expendable vehicles used as instruments, and this article's subject is a large one. Representative results are [Mitchell and Peck 1950][research_mitchell_1950], [Niewald and Moul 1950][research_niewald_1950], [Denardo and Canning 1952][research_denardo_1952], and the cruciform canard investigation of [Moul and Wineman 1952][research_moul_1952], with later configurations in [Gloria 1958][research_gloria_1958] and [Robinson 1958][research_robinson_1958].
+The relevant flight-dynamics work of the period was done largely with rocket-boosted free-flight models, which are expendable vehicles used as instruments, and this article's subject is a large one. Representative results are [Mitchell and Peck 1950][research_mitchell_1950], [Niewald and Moul 1950][research_niewald_1950], [Denardo and Canning 1952][research_denardo_1952], and the cruciform canard investigation of [Moul and Wineman 1952][research_moul_1952], with later configurations from [Gloria 1958][research_gloria_1958], [Robinson 1958][research_robinson_1958], [Presnell 1958][research_presnell_1958], and [Foster 1959][research_foster_1959]. The technique for extracting stability and control from such flights is set out by [Gillis and Mitchell 1957][research_gillis_1957], and a roll-stabilized configuration at varying incidence is [Zarovsky and Gardiner 1957][research_zarovsky_1957], with the roll-rate stabilization of an operational missile measured by [Nason et al 1955][research_nason_1955] and the coupling that steady rolling introduces derived by [Phillips 1948][research_phillips_1948].
+
+Departure behaviour is the failure mode a stiff vehicle is designed to avoid, and the spin and tumbling literature of the period is [Bowman 1957][research_bowman_1957] and [Stone et al 1953][research_stone_1953], with low-incidence stability from flight in [Brown 1955][research_brown_1955]. **An expendable vehicle that departs is a lost data point rather than a lost pilot, which is precisely the difference this article is about.**
 
 ### Instrumentation, and the Constraint That Data Must Leave
 
@@ -461,7 +469,7 @@ and the achievable rate follows from what is left,
 
 $$C = B \log_2 \left( 1 + \frac{S}{N} \right)$$
 
-**A crewed aircraft can defer this problem to a tape recorder it brings home. An expendable vehicle cannot, so its instrumentation is bounded by a radio link rather than by a magazine.** The tradeoff is explicit and it has no counterpart in a crewed aircraft, where a recorder can hold what a radio link cannot.
+**A crewed aircraft can defer this problem to a tape recorder it brings home. An expendable vehicle cannot, so its instrumentation is bounded by a radio link rather than by a magazine.** The pressure that constraint applied is visible in the subsequent development, and [Horton et al 1966][research_horton_1966] describe the first flight package of an adaptive telemetry system, which allocates bandwidth to the channels that are changing rather than dividing it equally, and which exists because the equal division above is wasteful. The tradeoff is explicit and it has no counterpart in a crewed aircraft, where a recorder can hold what a radio link cannot.
 
 Against that, the expendable vehicle enjoys an advantage the crewed one does not. **It can be instrumented to destruction.** Sensors may be placed where they will be consumed, in the combustor, on the spike tip, inside the boundary layer, because the vehicle is not going to be reused and the sensor's survival matters only until the measurement is transmitted.
 
@@ -503,7 +511,9 @@ and a tunnel model at one tenth scale in a facility at one atmosphere total pres
 
 $$t_{\text{run}} \approx \frac{V_{\text{tank}} \, p_{\text{tank}}}{\dot{m} \, R \, T} \sim 10 \ \text{seconds}$$
 
-against a powered flight of a few minutes, so a phenomenon with a long time constant, such as the thermal equilibrium computed above at twenty seconds, is simply outside what the tunnel can show. The NACA ran both, extensively, and the free-flight programme documented in [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], and [Blanchard 1953][research_blanchard_1953] is the expendable-vehicle method applied to drag and stability rather than to propulsion.
+against a powered flight of a few minutes, so a phenomenon with a long time constant, such as the thermal equilibrium computed above at twenty seconds, is simply outside what the tunnel can show. The NACA ran both, extensively, and the free-flight programme documented in [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], and [Blanchard 1953][research_blanchard_1953] is the expendable-vehicle method applied to drag and stability rather than to propulsion, with the flutter application in [Lundstrom et al 1948][research_lundstrom_1948].
+
+The scale question can be settled by measurement rather than by argument, and it was. [Anderson et al 1957][research_anderson_1957] compare a full-scale and a quarter-scale translating-spike inlet at the same Mach numbers, which is precisely the experiment that decides how much a tunnel result can be trusted. Drag itself is measurable in flight when the vehicle is instrumented for it, as [Beeler Bellman and Saltzman 1956][research_beeler_1956] set out, and low-drag configurations at supersonic speed are characterized by [Gillespie 1960][research_gillespie_1960]. The altitude-chamber technique that supplied the engine side of the comparison is illustrated by [Grey and Brightwell 1948][research_grey_1948]. The facilities themselves were being pushed in the same period, with the free-flight wind tunnel of [Seiff 1954][research_seiff_1954] and the light-gas gun of [Charters et al 1955][research_charters_1955] extending the ground envelope toward what only a flight vehicle could otherwise reach. **The distinction between a facility and a vehicle is less sharp than it looks**, and the X-7 sits on the line.
 
 Where the X-7 exceeded either was in duration and in integration. A ramjet must be tested with its inlet, at flight Mach number, with the actual pressure recovery and distortion the inlet produces, and the connected-pipe and free-jet facilities of the period could not supply all of that at once. Free-jet testing at Mach 2.75 of the Bomarc engine appears in [Reilly and Welna 1955][research_reilly_1955], which is the ground counterpart to what the X-7 did in the air.
 
@@ -527,7 +537,9 @@ gives, for a 2000 kelvin limit in a 229 kelvin atmosphere,
 
 $$M_{\lim} = \sqrt{5 \left( 8.73 - 1 \right)} = 6.2$$
 
-**Above about Mach 6 a subsonic-combustion ramjet cannot add heat at all**, and well below that it cannot add enough to be worth the drag. The answer is to avoid decelerating the flow to subsonic speed in the first place, so that the static temperature entering the combustor stays low even though the stagnation temperature does not, which is the [scramjet][ref_scramjet]. [Evvard 1965][research_evvard_1965] is a contemporaneous statement of the idea. The nozzle recombination losses that limit it at the high end were being computed almost immediately, in [Franciscus and Lezberg 1963][research_franciscus_1963] and its companions.
+**Above about Mach 6 a subsonic-combustion ramjet cannot add heat at all**, and well below that it cannot add enough to be worth the drag. The answer is to avoid decelerating the flow to subsonic speed in the first place, so that the static temperature entering the combustor stays low even though the stagnation temperature does not, which is the [scramjet][ref_scramjet]. [Evvard 1965][research_evvard_1965] is a contemporaneous statement of the idea. The nozzle recombination losses that limit it at the high end were being computed almost immediately, in [Franciscus and Lezberg 1963][research_franciscus_1963] and its companion volumes [Franciscus and Lezberg 1963][research_franciscus_1963_2] and [Franciscus and Lezberg 1963][research_franciscus_1963_3].
+
+The other inheritance is the launch architecture itself. Optimal trajectories for winged booster vehicles, which is the problem of how to spend a booster's impulse to best effect, appear in [Elliott and Rau 1967][research_elliott_1967], and the surrounding institutional literature of the period is gathered by [NACA 1958][research_naca_1958], [Pearson 1958][research_pearson_1958], and [NACA 1962][research_naca_1962] on landing and recovery specifically.
 
 ## The Contemporary Literature
 
@@ -782,46 +794,82 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Ackeret 1925 Air Forces on Airfoils Moving Faster Than Sound][research_ackeret_1925]
 - [Allen and Beke 1953 Force and Pressure Recovery Characteristics at Supersonic Speeds of a Conical Spike Inlet with a Bypass Discharging from the Top or][research_allen_1953]
 - [Allen et al 1960 Performance Summary And Analysis Of A Mach 3.0 Design Axisymmetric All-External-Compression Double-Cone Inlet From Mach Number 3.0 To 0.8][research_allen_1960]
+- [Anderson et al 1957 Performance Comparison at Mach Numbers 1.8 and 2.0 of Full Scale and Quarter Scale Translating-Spike Inlets][research_anderson_1957]
+- [Anderson et al 1960 Performance Of A Turbojet Engine In Combination With An External-Internal-Compression Inlet To Mach 2.88][research_anderson_1960]
 - [Balaji and Venkatasubbaiah 2025 A New Approach for Studying Scramjet Inlet-Isolator Unstart Flow][research_balaji_2025]
 - [Ban et al 2026 A Comparative Numerical Study of Plasma and Spark Assisted Ignition][research_ban_2026]
+- [Barson and Sargent 1951 Effect of fuel volatility on performance of tail-pipe burner][research_barson_1951]
 - [Barzegar Gerdroodbary et al 2026 Predictive Surrogate Model for Estimation of Fuel Mixing in Transverse Injection][research_barzegar_2026]
+- [Beeler Bellman and Saltzman 1956 Flight Techniques for Determining Airplane Drag at High Mach Numbers][research_beeler_1956]
+- [Beheim and Boksenbom 1968 Variable geometry requirements in inlets and exhaust nozzles for high Mach number applications][research_beheim_1968]
+- [Beheim and Gertsma 1956 Performance of variable two-dimensional inlet designed for engine-inlet matching I, performance at design Mach number of 3.07][research_beheim_1956_2]
 - [Beheim and Gertsma 1956 Performance Of Variable Two-Dimensional Inlet Designed For Engine-Inlet Matching. I - Performance At Design Mach Number Of 3.07][research_beheim_1956]
 - [Bernot and Robinson 1958 Aerodynamic Characteristics at a Mach Number of 6.8 of Two Hypersonic Missile Configurations, One with Low-Aspect-Ratio Cruciform Fins][research_bernot_1958]
+- [Bernstein and Haefeli 1953 Investigation of Pressure Recovery of a Single-conical-shock Nose Inlet at Mach Number 5.4][research_bernstein_1953]
 - [Blanchard 1953 Drag and Longitudinal Trim at Low Lift of the North American YF-100A Airplane at Mach Numbers from 0.76 to 1.77 as Determined from the][research_blanchard_1953]
+- [Blue and Low 1953 Factors Affecting Laminar Boundary Layer Measurements in a Supersonic Stream][research_blue_1953]
+- [Bowman 1957 Concluding Report of Free-Spinning, Tumbling, and Recovery Characteristics of a 1/18-Scale Model of the Ryan X-13 Airplane, Coord. No.][research_bowman_1957]
+- [Brown 1955 Flight Investigation at Low Angles of Attack to Determine the Longitudinal Stability and Control Characteristics of the Sidewinder][research_brown_1955]
+- [Brown 1967 Analysis of a bypass air control system for a supersonic mixed-compression inlet][research_brown_1967]
 - [Buckingham 1914 On Physically Similar Systems][research_buckingham_1914]
 - [Cai and Zhuang 2025 Hypersonic Glide Vehicle Trajectory Prediction Based on Frequency Enhancement][research_cai_2025]
+- [Cervenko and Friedman 1956 Ram-jet Performance][research_cervenko_1956]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
+- [Charters et al 1955 Development of a high-velocity free-flight launcher, the Ames light-gas gun][research_charters_1955]
 - [Chen and He 2025 An Engineering Method of Aerodynamic Heating Prediction for Hypersonic Vehicles][research_chen_2025]
 - [Childs et al 1957 Relation of Turbojet and Ramjet Combustion Efficiency to Second-Order Reaction Kinetics and Fundamental Flame Speed][research_childs_1957]
+- [Connors and Flaherty 1958 High Mach Number, Low-Cowl-Drag, External-Compression Inlet With Subsonic Dump Diffuser][research_connors_1958]
+- [Connors et al 1957 Effects of Internal-Area Distribution, Spike Translation, and Throat Boundary-Layer Control on Performance of A Double-Cone Axisymmetric][research_connors_1957]
+- [Connors et al 1957 Investigation of Translating-Double-Cone Axisymmetric Inlets With Cowl Projected Areas 40 and 20 Percent of Maximum at Mach Numbers From][research_connors_1957_2]
 - [Davis and Mitchell 1960 Performance Of A Mach Number 3.0 Design Axisymmetric Double-Cone External-Compression Inlet In The Mach Number Range 1.97 To 0.79][research_davis_1960]
 - [Denardo and Canning 1952 Investigation in the Ames Supersonic Free-Flight Wind Tunnel of the Static Longitudinal Stability of the Hermes A-3B Missile at a Mach][research_denardo_1952]
+- [Disher et al 1953 Free-flight Performance of a Rocket-boosted, Air-launched 16-inch-diameter Ram-jet Engine at Mach Numbers up to 2.20][research_disher_1953]
 - [Duan et al 2026 Multifidelity Data Fusion for Aerodynamic Heating Prediction][research_duan_2026]
+- [Dukes 1962 Progress Report on the Development of Protected Construction for Hypersonic Vehicles][research_dukes_1962]
 - [El Khoury and Hickey 2026 Surrogate-Based Uncertainty Quantification for Reynolds-Averaged Simulation][research_elkhoury_2026]
+- [Elliott and Rau 1967 Optimal Payload Trajectory Characteristics for Winged Booster Vehicles][research_elliott_1967]
 - [Emele et al 2026 Integrated Qualification Workflow for AISI 316 and 304L Stainless Steels][research_emele_2026]
 - [Esgar and Lea 1951 Determination and Use of the Local Recovery Factor for Calculating the Effectiveness Gas Temperature for Turbine Blades / Jack B. Esgar][research_esgar_1951]
+- [Evans 1951 Analytical investigation of ram-jet-engine performance in flight Mach number range from 3 to 7][research_evans_1951]
 - [Evvard 1965 The Scramjet][research_evvard_1965]
 - [Farley et al 1957 Performance and operational characteristics of pentaborane fuel in 48-inch-diameter ram-jet engine][research_farley_1957]
 - [Ferri and Nucci 1946 Preliminary Investigation of a New Type of Supersonic Inlet][research_ferri_1946]
 - [Ferri and Nucci 1951 Preliminary Investigation of a New Type of Supersonic Inlet][research_ferri_1951]
+- [Flaherty and Stitt 1959 Experimental investigation of a mach 5 isentropic spike inlet at and below design speed][research_flaherty_1959]
+- [Foster 1959 Sideslip characteristics at various angles of attack for several hypersonic missile configurations with canard controls at a Mach number][research_foster_1959]
 - [Franciscus and Lezberg 1963 Effects of exhaust nozzle recombination on hypersonic ramjet performance- 1. experimental measurements][research_franciscus_1963]
+- [Franciscus and Lezberg 1963 Effects of exhaust nozzle recombination on hypersonic ramjet performance- ii. analytical investigation][research_franciscus_1963_3]
+- [Franciscus and Lezberg 1963 Effects Of Exhaust Nozzle Recombination On Hypersonic Ramjet Performance. Ii - Analytical Investigation Of The Effects Of Exhaust Nozzle][research_franciscus_1963_2]
 - [Fu et al 2026 Co-Optimized Flow Matching and Thrust Retention Control for an Adaptive Engine][research_fu_2026]
 - [Gelder 1957 Total-Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions][research_gelder_1957]
+- [Gelder 1958 Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions][research_gelder_1958]
+- [Gillespie 1960 Supersonic Aerodynamic Characteristics of a Low-Drag Aircraft Configuration having an Arrow Wing of Aspect Ratio 1.86 and a Body of][research_gillespie_1960]
+- [Gillis and Mitchell 1957 Determination of Longitudinal Stability and Control Characteristics from Free-Flight Model Tests with Results at Transonic Speeds for][research_gillis_1957]
 - [Gloria 1958 An Experimental Investigation of the Static Longitudinal Stability and Control Characteristics of a Wingless Missile Configuration at][research_gloria_1958]
+- [Goldberg and Boxer 1959 Investigation on the use of a Freely Rotating Rotor at the Cowl Face of a Supersonic Conical Inlet to Reduce Inlet Flow Distortion][research_goldberg_1959]
+- [Grey and Brightwell 1948 Preliminary Results of Nene II Engine Altitude-chamber Performance Investigation, Altitude Performance using 18.00-inch-diameter Jet][research_grey_1948]
 - [Han et al 2026 Parametric Design and Analysis of Modular-to-Annular Rocket-Based Combined Cycle Engines][research_han_2026]
 - [He et al 2026 A Review of Rocket Gain Technology in Rocket-Based Combined Cycle Engines][research_he_2026]
+- [Higgins and Pappas 1951 An experimental investigation of the effect of surface heating on boundary-layer transition on a flat plate in supersonic flow][research_higgins_1951]
 - [Hong and Kim 2026 Uncertainty-Informed Training Set Construction for Robust Extrapolation][research_hong_2026]
+- [Horton et al 1966 The first experimental flight package of an advanced telemetry system with adaptive capability Technical summary report, 1 Jul. 1963 -][research_horton_1966]
 - [Houria et al 2026 Optimization of Strut-Based Fuel Injection Using Multi-Step Hydrogen Jets][research_houria_2026]
+- [Howard et al 1951 Force and pressure characteristics for a series of nose inlets at Mach numbers from 1.59 to 1.99 V, analysis and comparison on basis of][research_howard_1951]
 - [Hu et al 2026 Design and Performance Analysis of an Electrically Controlled Solid Rocket Motor][research_hu_2026]
 - [Hunt 1960 Investigation of the Static Longitudinal Stability Characteristics of An Air-To-Surface Canard Missile Configuration in the Transonic][research_hunt_1960]
 - [Hussain and An 2026 Multi-Objective Optimization of Rocket Nozzle Thermal Performance][research_hussain_2026]
 - [Huston et al 1948 A Study of Skin Temperatures of Conical Bodies in Supersonic Flight][research_huston_1948]
 - [Jin et al 2026 Flow Characteristics of the Hypersonic Inlet Unstart and Restart Process][research_jin_2026]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
+- [Jones and Klinar 1950 Spin-tunnel Investigation to Determine the Effect on Spin Recoveries of Reducing the Opening Shock Load of Spin-recovery Parachutes][research_jones_1950]
 - [Kaneko 2026 A General Framework for Extrapolation-Aware Prediction Reliability][research_kaneko_2026]
+- [Karp 1947 Performance Charts for a Turbojet System][research_karp_1947]
 - [Kim 2026 An Uncertainty-Aware Deep Neural Network Framework for Aerospace Prediction][research_kim_2026_2]
 - [Kim and Park 2026 Flow Separation Suppression of Swept Shock Wave and Boundary Layer Interaction][research_kim_2026]
+- [Klunker and Ivey 1949 An analysis of supersonic aerodynamic heating with continuous fluid injection][research_klunker_1949]
 - [Kong et al 2026 Experimental Investigation of Inlet Shock Wave and Boundary Layer Interaction][research_kong_2026]
 - [Leissler and Nettles 1954 Investigation Of Adjustable Supersonic Inlet In Combination With J34 Engine Up To Mach 2.0][research_leissler_1954]
+- [Leverone and Mandell 1963 Electronic test procedures for the environmental design qualification and flight testing of the uk-2/s-52][research_leverone_1963]
 - [Li and Liang 2026 Experimental Investigation of Cavity Flame Characteristics for a Four-Cavity Combustor][research_li_2026_2]
 - [Li and Liang 2026 Experimental Investigation of Cavity Flame Characteristics for a Variable Geometry Combustor][research_li_2026]
 - [Li et al 2026 Control-Oriented Experimental Investigation of Combustion Mode Transition][research_li_2026_3]
@@ -831,6 +879,9 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Liu et al 2026 Experimental Study on Combustion Stability and Performance of a Rocket-Based Engine][research_liu_2026_2]
 - [Liu et al 2026 Model Validation Under Interval Uncertainty, a Novel Metric][research_liu_2026_3]
 - [Lonkar and Panda 2026 Mode Transition and Combustion-Induced Shock Train Dynamics in a Cavity Scramjet][research_lonkar_2026]
+- [Loposer and Rumsey 1954 Flight Measurements of Average Skin-Friction Coefficients on a Parabolic Body of Revolution (NACA RM-10) at Mach Numbers from 1.0 to 3.7][research_loposer_1954]
+- [Luidens and Flaherty 1959 Analysis and Evaluation of Supersonic Underwing Heat Addition][research_luidens_1959]
+- [Lundstrom et al 1948 Transonic-flutter Investigation of Wings Attached to Two Low-acceleration Rocket-propelled Vehicles][research_lundstrom_1948]
 - [Ma et al 2026 Multi-Objective and Multi-Point Adjoint Optimization of a Diverterless Inlet][research_ma_2026]
 - [MacLeod 2026 The Prospects for Microwave Actuated Airbreathing Hypersonic Spaceplanes][research_macleod_2026]
 - [Martinez Schramm and Hannemann 2026 Experiments and Simulations of Supersonic Combustion in a Small-Scale Facility][research_martinez_2026]
@@ -843,30 +894,48 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [NACA 1953 Equations, Tables, and Charts for Compressible Flow][research_naca_1135]
 - [NACA 1958 NACA Conference on High-speed Aerodynamics. a Compilation of Papers Presented][research_naca_1958]
 - [NACA 1962 Compilation of Papers Presented to Meeting on Space Vehicle Landing and Recovery Research and Technology][research_naca_1962]
+- [Nason et al 1955 An Evaluation of the Roll-Rate Stabilization System of the Sidewinder Missile at Mach Numbers from 0.9 to 2.3][research_nason_1955]
 - [Niewald and Moul 1950 The Longitudinal Stability, Control Effectiveness, and Control Hinge Moment Characteristics Obtained from a Flight Investigation of a][research_niewald_1950]
 - [Niu and Chen 2026 Proper Orthogonal and Dynamic Mode Decomposition of Supersonic Combustion Instability][research_niu_2026]
 - [Niu and Chen 2026 Supersonic Combustion Instability in a High Mach Number Hydrogen-Fuelled Scramjet][research_niu_2026_2]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
 - [Obey et al 1952 Pressure recovery, drag, and subcritical stability characteristics of conical supersonic diffusers with boundary-layer removal][research_obey_1952]
 - [Park et al 2026 Quasi-One-Dimensional Reacting-Flow Modelling for a Rocket-Based Combined Cycle][research_park_2026]
+- [Pearson 1958 Notes on Space Technology][research_pearson_1958]
 - [Perchonok and Farley 1951 Internal Flow and Burning Characteristics of 16-inch Ram Jet Operating in a Free Jet at Mach Numbers of 1.35 and 1.73][research_perchonok_1951]
 - [Perchonok et al 1948 Some Effects of Gutter Flame-holder Dimensions on Combustion-chamber Performance of 20-inch Ram Jet][research_perchonok_1948]
+- [Pfyl 1955 An Investigation of the Effects of Nose and Lip Shapes for an Underslung Scoop Inlet at Mach Numbers from 0 to 1.9][research_pfyl_1955]
+- [Phillips 1948 Effect of Steady Rolling on Longitudinal and Directional Stability][research_phillips_1948]
+- [Presnell 1958 Investigation of Control Effectiveness and Stability Characteristics of a Model of a Low-Wing Missile with Interdigitated Tail Surfaces][research_presnell_1958]
+- [Ranscht and Farley 1957 Comparison of the Combustion Performance of Shell UMF, Grade C, MIL-F-5624C, Grade JP-5, Fuels in a Heavy-Duty XRJ47-W-9 Ram-Jet Engine][research_ranscht_1957]
+- [Rayle and Koch 1954 Design of Combustor for Long-range Ram-jet Engine and Performance of Rectangular Analog][research_rayle_1954]
 - [Reilly and Welna 1955 Preliminary evaluation of flight-weight XRJ47-W-5 ram-jet engine at a Mach number of 2.75][research_reilly_1955]
 - [Robinson 1958 Wind-Tunnel Investigation at a Mach Number of 2.01 of the Aerodynamic Characteristics in Combined Angles of Attack and Sideslip of][research_robinson_1958]
+- [Rosenbaum and Zeiberg 1965 Analytical study of aerodynamic means of controlling supersonic inlet flow, part I Technical report no. 495B][research_rosenbaum_1965]
+- [Rosette 1964 Analysis of Spacecraft Failures During Thermal-Vacuum Testing][research_rosette_1964]
 - [Salmi and Stitt 1960 Performance of a mach 3.0 external-internal- compression axisymmetric inlet at mach numbers from 2.0 to 3.5][research_salmi_1960]
+- [Schafer et al 1953 Comparison of Theoretically and Experimentally Determined Effects of Oxide Coatings Supplied by Fuel Additives on Uncooled Turbine-blade][research_schafer_1953]
 - [Schram and Narayanaswamy 2026 Unstart Dynamics of a Hypersonic Busemann Inlet at Non-Zero Angles of Attack][research_schram_2026]
+- [Seiff 1954 A Free-flight Wind Tunnel for Aerodynamic Testing at Hypersonic Speeds][research_seiff_1954]
 - [Shannon 1948 A Mathematical Theory of Communication][research_shannon_1948]
+- [Shillito and Nakanishi 1952 Effect of design changes and operating conditions on combustion and operational performance of a 28-inch diameter Ram-jet engine / T. B.][research_shillito_1952]
 - [Shillito et al 1950 Altitude Test Chamber Investigation of Performance of a 28-inch Ram-jet Engine II, Effects of Gutter Width and Blocked Area on Operating][research_shillito_1950]
+- [Shillito et al 1950 Altitude-test-chamber Investigation of Performance of a 28-inch Ram-jet Engine I, Combustion and Operational Performance of Four][research_shillito_1950_2]
 - [Song et al 2026 Thrust Loss Analysis of a Turbine-Based Combined Cycle Nozzle][research_song_2026]
 - [Spakowski et al 1955 Chemical and Physical Properties of Hi-Cal-2][research_spakowski_1955]
 - [Srour and Abdulkerim 2026 Passive Fault-Tolerant Control for a Supersonic Missile][research_srour_2026]
 - [Stalder et al 1950 A Determination of the Laminar-, Transitional-, and Turbulent-boundary-layer Temperature-recovery Factors on a Flat Plate in Supersonic Flow][research_stalder_1950]
 - [Stephens 1959 Free-Flight Investigation of a Rocket-Propelled Model to Determine the Aerodynamic Heating on a Thin, Unswept, Untapered, Multispar,][research_stephens_1959]
 - [Stewart et al 2026 Flight Dynamics of a Hover-Capable Air-Launched Unmanned Aerial Vehicle][research_stewart_2026]
+- [Stitt and Obery 1958 Performance of an All-internal Conical Compression Inlet with Annular Throat Bleed at Mach Number 5.0][research_stitt_1958]
+- [Stone et al 1953 Study of Motion of Model of Personal-owner or Liaison Airplane Through the Stall and into the Incipient Spin by Means of a Free-flight][research_stone_1953]
 - [Sun et al 2026 Design and Characteristics of a Dredging Thermal Protection Structure][research_sun_2026]
 - [Sun et al 2026 Nonlinear Aeroelasticity and Ground Flutter Simulation of a Supersonic Vehicle][research_sun_2026_2]
 - [Sutherland 1893 The Viscosity of Gases and Molecular Force][research_sutherland_1893]
 - [Takahashi et al 2026 Flush Air-Data Sensing System for a Hypersonic Flight Experimental Vehicle][research_takahashi_2026]
+- [Tower and Gammon 1953 Analytical evaluation of effect of equivalence ratio inlet-air temperature and combustion pressure on performance of several possible][research_tower_1953]
+- [Trout and Wentworth 1953 Free-jet Altitude Investigation of a 20-inch Ram-jet Combustor with a Rich Inner Zone of Combustion for Improved Low-temperature-ratio][research_trout_1953]
+- [Trout et al 1956 Investigation of Afterburner Combustion Screech and Methods of Its Control at High Combustor Pressure Levels][research_trout_1956]
 - [Tucker and Maslen 1951 Turbulent boundary-layer temperature recovery factors in two-dimensional supersonic flow][research_tucker_1951]
 - [Wallskog 1954 Free-Flight Zero-Lift Drag Results from a 1/5-Scale Model and Several Small-Scale Equivalent Bodies of Revolution of the Convair F-102][research_wallskog_1954]
 - [Wallskog 1954 Summary of Free-Flight Zero-Lift Drag Results from Tests of 1/5-Scale Models of the Convair YF-102 and F-102A Airplanes and Several][research_wallskog_1954_2]
@@ -874,14 +943,17 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Wang et al 2026 Investigation of the Central Combustion of a Solid-Fuel Dual-Mode Ramjet][research_wang_2026_2]
 - [Wang et al 2026 Parametric Study of Igniter Design on Ignition Transient Performance][research_wang_2026_4]
 - [Wang et al 2026 Thermochemical Nonequilibrium Effects on Hydrogen and Ethylene Fuelled Combustion][research_wang_2026]
+- [Wasserbauer and Willoh 1968 Experimental and analytical investigation of the dynamic response of a supersonic mixed-compression inlet][research_wasserbauer_1968]
 - [Williams and Drake, The Research Airplane, Past, Present, and Future][research_williams_drake_1948]
 - [Wise and Sterbentz 1957 Investigation of shock-boundary-layer interaction on the spike of a conical-spike nose inlet][research_wise_1957]
 - [Wornom 1961 Stability and control characteristics at transonic speeds of a model of a supersonic target drone with differentially deflected][research_wornom_1961]
 - [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
 - [Xia et al 2026 Mode Transition and Combustion Characteristics of a Dual-Mode Scramjet][research_xia_2026]
 - [Xu et al 2026 Digital Twin-Enabled Flight Test Method Design][research_xu_2026]
+- [Younger et al 1952 Experimental Study of Isothermal Wake-Flow Characteristics of Various Flame-Holder Shapes][research_younger_1952]
 - [Yuan et al 2026 Uncertainty Quantification Within Full-Scale Extrapolation Procedures][research_yuan_2026]
 - [Yun et al 2026 Performance Modelling and Mode Transition of a Dual-Mode Scramjet Engine][research_yun_2026]
+- [Zarovsky and Gardiner 1957 Flight Investigation of a Roll-stabilized Missile Configuration at Varying Angles of Attack at Mach Numbers Between 0.8 and 1.79][research_zarovsky_1957]
 - [Zeng et al 2026 Airframe and Propulsion Integrated Learning Control for Hypersonic Vehicles][research_zeng_2026]
 - [Zhang et al 2026 Classification of Unstart Flow in a Two-Dimensional Hypersonic Inlet][research_zhang_2026]
 - [Zhang et al 2026 Thermal Model Test and Multi-Scale Simulation for a Lattice Structure][research_zhang_2026_2]
@@ -1052,46 +1124,82 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [research_ackeret_1925]: https://ntrs.nasa.gov/citations/19930087085
 [research_allen_1953]: https://ntrs.nasa.gov/citations/19930087574
 [research_allen_1960]: https://ntrs.nasa.gov/citations/19630006259
+[research_anderson_1957]: https://ntrs.nasa.gov/citations/19640057037
+[research_anderson_1960]: https://ntrs.nasa.gov/citations/19630002315
 [research_balaji_2025]: https://doi.org/10.1016/j.euromechflu.2025.204290
 [research_ban_2026]: https://doi.org/10.1016/j.combustflame.2025.114620
+[research_barson_1951]: https://ntrs.nasa.gov/citations/19930086502
 [research_barzegar_2026]: https://doi.org/10.1016/j.actaastro.2026.04.017
+[research_beeler_1956]: https://ntrs.nasa.gov/citations/19930084521
 [research_beheim_1956]: https://ntrs.nasa.gov/citations/19630002647
+[research_beheim_1956_2]: https://ntrs.nasa.gov/citations/19930089586
+[research_beheim_1968]: https://ntrs.nasa.gov/citations/19680058252
 [research_bernot_1958]: https://ntrs.nasa.gov/citations/19710074595
+[research_bernstein_1953]: https://ntrs.nasa.gov/citations/19930087483
 [research_blanchard_1953]: https://ntrs.nasa.gov/citations/20090023638
+[research_blue_1953]: https://ntrs.nasa.gov/citations/19930083810
+[research_bowman_1957]: https://ntrs.nasa.gov/citations/20050028487
+[research_brown_1955]: https://ntrs.nasa.gov/citations/20090026358
+[research_brown_1967]: https://ntrs.nasa.gov/citations/19670019707
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
 [research_cai_2025]: https://doi.org/10.1016/j.dt.2024.11.001
+[research_cervenko_1956]: https://ntrs.nasa.gov/citations/19670095387
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
+[research_charters_1955]: https://ntrs.nasa.gov/citations/19930093745
 [research_chen_2025]: https://doi.org/10.1177/16878132251348391
 [research_childs_1957]: https://ntrs.nasa.gov/citations/19930092323
+[research_connors_1957]: https://ntrs.nasa.gov/citations/19930089784
+[research_connors_1957_2]: https://ntrs.nasa.gov/citations/19930089639
+[research_connors_1958]: https://ntrs.nasa.gov/citations/19930089848
 [research_davis_1960]: https://ntrs.nasa.gov/citations/19630006260
 [research_denardo_1952]: https://ntrs.nasa.gov/citations/20090023659
+[research_disher_1953]: https://ntrs.nasa.gov/citations/19930087445
 [research_duan_2026]: https://doi.org/10.2514/1.j066092
+[research_dukes_1962]: https://ntrs.nasa.gov/citations/19620004480
 [research_elkhoury_2026]: https://doi.org/10.1016/j.ast.2026.113130
+[research_elliott_1967]: https://ntrs.nasa.gov/citations/19670057226
 [research_emele_2026]: https://doi.org/10.3390/eng7050247
 [research_esgar_1951]: https://ntrs.nasa.gov/citations/19930086815
+[research_evans_1951]: https://ntrs.nasa.gov/citations/19930086727
 [research_evvard_1965]: https://ntrs.nasa.gov/citations/19660017741
 [research_farley_1957]: https://ntrs.nasa.gov/citations/19650003103
 [research_ferri_1946]: https://ntrs.nasa.gov/citations/19930093800
 [research_ferri_1951]: https://ntrs.nasa.gov/citations/19930083137
+[research_flaherty_1959]: https://ntrs.nasa.gov/citations/19650003082
+[research_foster_1959]: https://ntrs.nasa.gov/citations/19670022204
 [research_franciscus_1963]: https://ntrs.nasa.gov/citations/19640000246
+[research_franciscus_1963_2]: https://ntrs.nasa.gov/citations/19630021448
+[research_franciscus_1963_3]: https://ntrs.nasa.gov/citations/19640000382
 [research_fu_2026]: https://doi.org/10.3390/en19040993
 [research_gelder_1957]: https://ntrs.nasa.gov/citations/19930093764
+[research_gelder_1958]: https://ntrs.nasa.gov/citations/19810068699
+[research_gillespie_1960]: https://ntrs.nasa.gov/citations/20040046997
+[research_gillis_1957]: https://ntrs.nasa.gov/citations/19930092326
 [research_gloria_1958]: https://ntrs.nasa.gov/citations/19650003101
+[research_goldberg_1959]: https://ntrs.nasa.gov/citations/19980230685
+[research_grey_1948]: https://ntrs.nasa.gov/citations/20090025888
 [research_han_2026]: https://doi.org/10.1063/5.0313065
 [research_he_2026]: https://doi.org/10.1016/j.paerosci.2026.101230
+[research_higgins_1951]: https://ntrs.nasa.gov/citations/19930083026
 [research_hong_2026]: https://doi.org/10.31613/ceramist.2026.00143
+[research_horton_1966]: https://ntrs.nasa.gov/citations/19660022608
 [research_houria_2026]: https://doi.org/10.1038/s41598-026-35841-7
+[research_howard_1951]: https://ntrs.nasa.gov/citations/19930086661
 [research_hu_2026]: https://doi.org/10.1016/j.energy.2026.141417
 [research_hunt_1960]: https://ntrs.nasa.gov/citations/19630004026
 [research_hussain_2026]: https://doi.org/10.1016/j.ast.2026.113308
 [research_huston_1948]: https://ntrs.nasa.gov/citations/19930082417
 [research_jin_2026]: https://doi.org/10.1088/1742-6596/3170/1/012036
 [research_jones_1947]: https://ntrs.nasa.gov/citations/19930091936
+[research_jones_1950]: https://ntrs.nasa.gov/citations/19930082723
 [research_kaneko_2026]: https://doi.org/10.1007/s44211-026-00924-y
+[research_karp_1947]: https://ntrs.nasa.gov/citations/19930093534
 [research_kim_2026]: https://doi.org/10.6112/kscfe.2026.31.2.084
 [research_kim_2026_2]: https://doi.org/10.1016/j.ast.2026.113036
+[research_klunker_1949]: https://ntrs.nasa.gov/citations/19930082730
 [research_kong_2026]: https://doi.org/10.1016/j.ast.2026.111722
 [research_leissler_1954]: https://ntrs.nasa.gov/citations/19630004111
+[research_leverone_1963]: https://ntrs.nasa.gov/citations/19650012772
 [research_li_2026]: https://doi.org/10.3390/aerospace13070577
 [research_li_2026_2]: https://doi.org/10.3390/app16125913
 [research_li_2026_3]: https://doi.org/10.1016/j.ast.2025.111255
@@ -1101,6 +1209,9 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [research_liu_2026_2]: https://doi.org/10.1016/j.cja.2025.104000
 [research_liu_2026_3]: https://doi.org/10.1016/j.ast.2026.112780
 [research_lonkar_2026]: https://doi.org/10.1016/j.ast.2026.112194
+[research_loposer_1954]: https://ntrs.nasa.gov/citations/20030068110
+[research_luidens_1959]: https://ntrs.nasa.gov/citations/19980231995
+[research_lundstrom_1948]: https://ntrs.nasa.gov/citations/19930085467
 [research_ma_2026]: https://doi.org/10.1016/j.dt.2026.07.017
 [research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
 [research_martinez_2026]: https://doi.org/10.2514/1.j066202
@@ -1113,30 +1224,48 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
 [research_naca_1958]: https://ntrs.nasa.gov/citations/19710069971
 [research_naca_1962]: https://ntrs.nasa.gov/citations/19730061695
+[research_nason_1955]: https://ntrs.nasa.gov/citations/20090023599
 [research_niewald_1950]: https://ntrs.nasa.gov/citations/19930086447
 [research_niu_2026]: https://doi.org/10.1016/j.ast.2026.111969
 [research_niu_2026_2]: https://doi.org/10.1016/j.ijhydene.2026.155962
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
 [research_obey_1952]: https://ntrs.nasa.gov/citations/19930094389
 [research_park_2026]: https://doi.org/10.3390/aerospace13040380
+[research_pearson_1958]: https://ntrs.nasa.gov/citations/19740074640
 [research_perchonok_1948]: https://ntrs.nasa.gov/citations/19930085343
 [research_perchonok_1951]: https://ntrs.nasa.gov/citations/19930086538
+[research_pfyl_1955]: https://ntrs.nasa.gov/citations/19650003100
+[research_phillips_1948]: https://ntrs.nasa.gov/citations/19930082293
+[research_presnell_1958]: https://ntrs.nasa.gov/citations/19660010698
+[research_ranscht_1957]: https://ntrs.nasa.gov/citations/20050019377
+[research_rayle_1954]: https://ntrs.nasa.gov/citations/19930088026
 [research_reilly_1955]: https://ntrs.nasa.gov/citations/19660027126
 [research_robinson_1958]: https://ntrs.nasa.gov/citations/19650014456
+[research_rosenbaum_1965]: https://ntrs.nasa.gov/citations/19660030698
+[research_rosette_1964]: https://ntrs.nasa.gov/citations/19660004831
 [research_salmi_1960]: https://ntrs.nasa.gov/citations/19650003099
+[research_schafer_1953]: https://ntrs.nasa.gov/citations/19930087542
 [research_schram_2026]: https://doi.org/10.1007/s00348-026-04215-0
+[research_seiff_1954]: https://ntrs.nasa.gov/citations/19930090989
 [research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 [research_shillito_1950]: https://ntrs.nasa.gov/citations/19930086341
+[research_shillito_1950_2]: https://ntrs.nasa.gov/citations/19930086213
+[research_shillito_1952]: https://ntrs.nasa.gov/citations/19930086772
 [research_song_2026]: https://doi.org/10.1016/j.ast.2025.110949
 [research_spakowski_1955]: https://ntrs.nasa.gov/citations/20050071619
 [research_srour_2026]: https://doi.org/10.1007/s42405-026-01219-2
 [research_stalder_1950]: https://ntrs.nasa.gov/citations/19930082751
 [research_stephens_1959]: https://ntrs.nasa.gov/citations/19980232232
 [research_stewart_2026]: https://doi.org/10.3390/aerospace13070616
+[research_stitt_1958]: https://ntrs.nasa.gov/citations/19930090164
+[research_stone_1953]: https://ntrs.nasa.gov/citations/19930083643
 [research_sun_2026]: https://doi.org/10.1016/j.ast.2026.111886
 [research_sun_2026_2]: https://doi.org/10.1016/j.tws.2026.115049
 [research_sutherland_1893]: https://doi.org/10.1080/14786449308620508
 [research_takahashi_2026]: https://doi.org/10.2514/1.j065479
+[research_tower_1953]: https://ntrs.nasa.gov/citations/19930087656
+[research_trout_1953]: https://ntrs.nasa.gov/citations/19930087605
+[research_trout_1956]: https://ntrs.nasa.gov/citations/19930089254
 [research_tucker_1951]: https://ntrs.nasa.gov/citations/19930082955
 [research_wallskog_1954]: https://ntrs.nasa.gov/citations/20090023601
 [research_wallskog_1954_2]: https://ntrs.nasa.gov/citations/20090022754
@@ -1144,14 +1273,17 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [research_wang_2026_2]: https://doi.org/10.1016/j.ast.2026.111723
 [research_wang_2026_3]: https://doi.org/10.1063/5.0307799
 [research_wang_2026_4]: https://doi.org/10.1016/j.ijthermalsci.2025.110322
+[research_wasserbauer_1968]: https://ntrs.nasa.gov/citations/19680024619
 [research_williams_drake_1948]: https://ntrs.nasa.gov/citations/19650070849
 [research_wise_1957]: https://ntrs.nasa.gov/citations/19930090210
 [research_wornom_1961]: https://ntrs.nasa.gov/citations/19710064980
 [research_wright_1936]: https://doi.org/10.2514/8.155
 [research_xia_2026]: https://doi.org/10.1063/5.0332049
 [research_xu_2026]: https://doi.org/10.1088/1742-6596/3175/1/012147
+[research_younger_1952]: https://ntrs.nasa.gov/citations/19730065793
 [research_yuan_2026]: https://doi.org/10.3390/jmse14141278
 [research_yun_2026]: https://doi.org/10.1016/j.ast.2026.111990
+[research_zarovsky_1957]: https://ntrs.nasa.gov/citations/19930084839
 [research_zeng_2026]: https://doi.org/10.1016/j.ast.2026.113306
 [research_zhang_2026]: https://doi.org/10.1016/j.ast.2026.111678
 [research_zhang_2026_2]: https://doi.org/10.1016/j.ast.2026.111885
