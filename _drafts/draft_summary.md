@@ -21,10 +21,16 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x9.markdown`, A306, editorial date 2025-10-15, series `x_planes` index 10 of 72.
 
-1228 lines, 88 display equations, 239 reference definitions, 11,063 words after the draft pass.
-**All three sit just under band**, at 1228 against a 1300 floor, 88 against 90, and 239 against 250.
-The shortfalls are small and are reported rather than padded, since the equation-density and
-reference-density passes exist to close exactly this gap.
+1336 lines, 115 display equations, 239 reference definitions, 12,337 words after the draft and
+equation passes. Lines and equations are inside band; **references remain 11 short of the 250 floor**
+and the primary-reference pass will close that.
+
+**The equation audit found a structural defect before it found an equation.** Counting equations per
+section exposed four orphaned subsections at the end of The Contemporary Literature, three of them
+duplicating headings the draft expansion had already written and one an unfilled stub. Writing the
+miss-decay function down then exposed an error in the draft's own reasoning, since the assertion that
+eight guidance time constants reduce an error by more than two orders of magnitude describes the bare
+exponential and ignores a polynomial factor of 85, so the true residual is three percent.
 
 **The X-9 is the first vehicle in the series whose keystone is a control loop rather than a physical
 question, and whose specification is a probability.** The military characteristics of 15 July 1945

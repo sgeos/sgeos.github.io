@@ -9,8 +9,95 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-06
-**Task**: A306, the Bell X-9 Shrike, drafted, verified, and **committed**. Not pushed, per the
-draft-pass convention. Not published. All ten articles in the series remain in `_drafts/`.
+**Task**: A306 equation-density review, the second pass. Committed. Not pushed. Not published. All
+ten articles remain in `_drafts/`.
+
+---
+
+## The Audit Found a Structural Defect Before It Found an Equation
+
+I began by counting equations per section, which is the usual first move, and the count exposed
+something else. **Four orphaned subsections sat at the end of The Contemporary Literature**, three of
+them duplicating headings the draft expansion had already written properly and one an unfilled stub.
+
+The cause is mechanical and worth recording. During the draft pass I replaced a block of five stub
+headings with a written section, but my replacement matched only the first heading and the paragraph
+under it, so the other four stubs survived below the new material. **Every automated check passed
+this.** The reference generator was happy, the build was clean, the style scan was clean, and the
+article rendered with three headings appearing twice.
+
+The three duplicates are removed. The fourth stub, on circular-error estimation, is now written, and
+writing it produced a finding rather than filler, which is that the estimators of the early 1960s are
+still the estimators and the modern effort has gone into predicting trajectories well enough that a
+sample is not needed.
+
+---
+
+## Writing a Relation Down Exposed an Error in the Draft's Reasoning
+
+The draft said the residual miss decays as $f(t_{go}/\tau_g, N)$ and never gave $f$. Giving it showed
+the draft's own conclusion to be wrong.
+
+I had asserted that eight guidance time constants reduce an error by more than two orders of
+magnitude. That is the behaviour of the bare exponential. The full expression carries a polynomial
+factor, which at eight time constants is $8^{3}/3! = 85$, so the residual is **three percent rather
+than three parts in a thousand**, and three time constants leave twenty-two percent rather than more
+than half. Both statements are corrected.
+
+**This is the second article running in which the equation pass caught arithmetic the draft had
+carried as an assertion**, and in both cases the error was in a quantity I had reasoned about
+qualitatively instead of computing.
+
+---
+
+## What Else Was Added
+
+27 equations across 12 edits, taking the article from 88 to 115.
+
+**Proportional navigation itself**, which the article had been naming for several sections without
+ever writing. Giving it in its line-of-sight-rate form makes the point the prose was gesturing at,
+which is that a zero line-of-sight rate is the condition for a collision, so the law drives the
+geometry toward an intercept without ever computing where the intercept will be.
+
+**Cube-root yield scaling**, which turns the article's asserted 1,500 metre lethal radius into a
+statement about a weapon of roughly 600 kilotonnes and shows that every factor of eight in yield
+doubles the tolerable circular error. That is the arithmetic behind accuracy and yield being
+substitutes, and the founding irony needed it.
+
+**The bomber's turn radius**, 5.1 kilometres at 1.5 g with a 68 second reversal, which makes the
+launch aircraft's commitment concrete rather than rhetorical. **The first bending frequency**, 19
+hertz against a 7.5 radian per second rigid-body mode, which is the number the autopilot gain limit
+was referencing. **A zero-lift drag buildup** replacing an assumed coefficient, which splits half to
+friction and half to compressibility. And **the beam-rider error**, which completes the
+three-architecture comparison the period sources make qualitatively.
+
+---
+
+## Verification
+
+All 27 new worked values re-derived independently, with the one correction above. Every previously
+verified value still reproducing. Zero lone dollar-delimited lines, zero blank-line seam defects, and
+**115 rendered display blocks confirmed in the built HTML against 115 in the source**. Two
+paragraph-level repeated citations introduced by the bending-frequency addition were caught and
+removed. Zero duplicate headings now. `_verify.py` at the 0-error 21-warning corpus baseline.
+
+---
+
+## State
+
+1336 lines, 115 display equations, 239 references, 12,337 words. **Lines and equations are now inside
+band. References remain 11 short of the 250 floor**, which the primary-reference pass will close
+without difficulty given that 125 primary documents are already cited and the harvest holds 177
+unused pre-1975 records.
+
+Committed, not pushed. Publication-order dependency ten deep. Categories still undecided at
+`aerospace history engineering`, raised nine times.
+
+---
+
+## Prior State, Carried Forward
+
+The draft pass is described below and remains accurate except for the metrics.
 
 ---
 
