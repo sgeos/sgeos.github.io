@@ -9,93 +9,152 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A304 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All eight articles in the series remain in `_drafts/`.
+**Task**: A305, the Aerojet X-8 Aerobee, drafted, verified, and **committed**. Not pushed, per the
+draft-pass convention. Not published. All nine articles in the series remain in `_drafts/`.
 
 ---
 
-## A Duplicated Clause the Equation Pass Left Behind
+## The Keystone, Which Is Specific to This Article
 
-The article contained this, in consecutive sentences:
+Every previous vehicle in this series was the object of its own measurement. The X-1 was instrumented
+to find out what happened to the X-1. Even the expendable X-7 was flying to characterise the ramjet
+bolted underneath it.
 
-> ...which is why the whole subject exists and why **the flame must be anchored rather than left to
-> propagate**. **The flame must therefore be anchored by a recirculation zone** rather than propagating
-> freely...
+**The X-8 is the first X-vehicle whose own performance is not what is being measured.** It is
+apparatus rather than subject, and the design requirement that follows is transparency, meaning that
+every way in which the carrier might perturb somebody else's instrument becomes a constraint. That
+gives six requirements, being altitude set by the physics of the phenomenon, observing time, pointing
+knowledge, non-contamination, data return, and repeatability, and the trades between them are the
+article.
 
-The same statement twice. My equation pass inserted the Damköhler paragraph ending in that clause,
-immediately before an existing sentence that already said it.
-
-**This is the A297 defect class and every automated check passed it.** The anchor integrity check, the
-seam scan, the unbalanced-delimiter scan, `_verify.py`, and the build all saw nothing. It surfaced
-only because I was reading `rather than` occurrences for the diction check and two of them turned out
-to be the same sentence written twice. That is the third time in this series that a defect of this
-kind has been found by a check aimed at something else.
-
----
-
-## Contemporary Coverage
-
-45 journal articles added from a 40-query Crossref sweep, taking contemporary references from 62 to
-**107** and from 28.1 to **40.2 percent of dated references**. The absolute count now matches A302 at
-109 and A303 at 105. The percentage is higher because this article carries fewer dated references
-overall, and it is above the range the earlier articles settled at, which is deliberate under the
-directive.
-
-**Selection was made by DOI directly from the harvest records rather than by transcription**, which is
-the rule I adopted after the draft pass hand-constructed nineteen identifiers that resolved to
-unrelated papers. All 45 verified with zero flagged at a 0.85 title-similarity threshold, against the
-0.5 threshold used previously.
-
-The strongest additions land on the keystone rather than beside it. **Optimal experimental design is a
-named modern discipline**, and [Zhong et al 2026] on the goal-oriented Bayesian case, [Attia et al
-2025] on robust A-optimal placement, and [Coons and Huan 2025] on expected information gain across
-fidelities all formalize exactly the statement this article makes about the X-7, which is that the
-value of an observation depends on where it is taken and that the most valuable places are the ones a
-cautious programme excludes. The article's central argument now has a live literature standing behind
-it rather than one textbook variance relation.
+The central relation is clean enough to be worth stating here. Observing time above burnout altitude
+is exactly twice the burnout velocity divided by gravity, so combined with the rocket equation it is
+the exhaust velocity times the log of the mass ratio, divided by half g. With the Aerobee's
+propellants that is **400 seconds of observation per factor of e in mass ratio**. Doubling the
+observing time squares the mass ratio. **This is the quantitative reason a sounding-rocket programme
+buys precision by flying often rather than by flying high**, and it is the article's answer to why
+five minutes was enough to discover Scorpius X-1.
 
 ---
 
-## Smaller Defects
+## The Published Figures Do Not Close, and the Article Says So
 
-**The fuel heating value appeared in an equation and again in prose without ever being defined.** It
-is now glossed at first use.
+A staged trajectory reconstruction reproduces the reported burnout velocity of 1,347 metres per second
+to within 2 percent. It then leaves **26 metres per second for drag, against an independent drag-loss
+estimate of 60 to 150**. One or more of the booster inert mass, the sustainer burn time, and the
+specific impulse is off by a few percent in a compensating direction, and no source consulted settles
+which.
 
-**Liquid hydrogen and kerosene densities were given as subscripts LH2 and RP**, the second of which is
-not glossed anywhere in the article and would be opaque to a reader outside propulsion. Both are now
-spelled out.
+I have shown both numbers rather than tuning an assumption until the residual looked right. The
+reconstruction is worth trusting to the extent it is because of an independent check that fell out of
+it, namely that the implied sustainer stage mass of 498 kilogrammes matches the separately reported
+1,100 pounds without being fitted to it.
 
-**Three en-dashes entered with contemporary titles.** I corrected them at the master-table level
-rather than in the article, so the fix survives the next regeneration of the reference section. One
-parenthetical report designation in a title went the same way.
+Six further items are recorded in the Epistemic State as unsettled, including the date the X-8
+designation was applied, which one source gives as 1955 and another as 1949; the relationship between
+X-8 and RM-84, where two sources cannot both be right; the flown-against-delivered counts, which
+differ by seven; and whether any fragments from the 1957 shaped-charge flight reached escape velocity,
+where Zwicky's contemporary claim and McDowell's later analysis disagree and the article takes no
+position.
 
-`rather than` measured 41 uses at 4.4 per thousand body words, above A302 at 3.7 and A303 at 2.9.
-Fourteen rotations brought it to 30 at 3.03.
+---
+
+## Three Results the Sources Do Not State
+
+**Roll resonance is unavoidable in general.** Roll rate from canted fins and pitch natural frequency
+are both linear in velocity, so velocity cancels from their ratio, which then varies as the inverse
+square root of density alone. A vehicle starting below resonance therefore crosses it at a definite
+altitude regardless of how fast it is going, and no amount of thrust avoids the crossing. At half a
+degree of cant this vehicle never crosses; at a tenth of a degree it crosses near 6 kilometres, inside
+the sustainer burn.
+
+**Blowing the fins off is worth a factor of sixty.** Tumbling cuts the ballistic coefficient from 8,180
+to 129 kilogrammes per square metre, so the dynamic pressure at parachute deployment falls by the same
+factor. That is the whole justification for a technique that looks like damage, and the sources record
+the practice without giving the reason.
+
+**A photographic frame is not telemeterable.** One 35 millimetre frame carries roughly 52 megabits
+against a six-channel link delivering 4.2 kilobits per second, so transmitting it would take 3.4 hours
+against an eight-minute flight. This is why the parachute failures on the first five Air Force flights
+destroyed the science rather than degrading it, and it is the sharpest illustration in the article of
+the difference between a vehicle that is its own experiment and one carrying somebody else's.
+
+---
+
+## Defects Found, and How
+
+**Twenty author keys guessed from document titles were all wrong.** Every one. A further 23 guessed
+during the citation pass were caught before that pass ran rather than after. This is the fourth
+article in which inferring an author from a title has produced bad citations, and it now seems fair to
+say the practice has no success rate at all rather than a poor one.
+
+**Three mis-citations were found by reading the reference list, not by any check aimed at them.** Two
+disambiguation tags were assigned to the wrong member of their pair, so both the displayed text and
+the surrounding prose description pointed at the other paper. A third citation, introduced as an
+injector-design review, resolved to a paper on thermosphere density prediction. All three would have
+survived every automated check I ran. A link-text invariant now enforces that each prose citation's
+text equals the master-table display for its anchor, and enforcing it resynchronised 53 further link
+texts that an earlier case normalisation had left stale.
+
+**The seam scan caught a duplicated passage and a repeated citation.** The Comparison With Ground
+Prediction section restated the Programme Origin passage almost verbatim, and an anchor correction had
+produced the same citation twice in one clause.
+
+**One flagged value was the check being wrong rather than the article.** The roll-resonance crossing
+altitude failed at 20.6 percent against an exponential atmosphere of a single scale height.
+Recomputing against the US Standard Atmosphere puts it between 6.0 and 6.5 kilometres, confirming the
+article.
+
+---
+
+## A Decision I Made Without Asking
+
+**Contemporary coverage was raised during the draft pass rather than left for the publication review.**
+The draft closed at 25 contemporary references, or 11.4 percent of dated, well below the 28 to 33
+percent floor the series has settled at. Since the standing directive governs every pass and the
+harvest was already in hand, deferring a known deficit through two more passes seemed worse than
+closing it. 87 journal articles were added, taking contemporary references to **112 and 36.6 percent**,
+an absolute count consistent with A301 at 101, A302 at 109, A303 at 105, and A304 at 107. Two new
+subsections came with them, on the motor such a vehicle would use today and on what a flight costs.
+
+If you would rather the four passes stayed strictly separated, say so and I will leave the later
+articles thin at the draft stage.
 
 ---
 
 ## Verification
 
-**All 53 worked numerical values re-derived independently, none disagreeing beyond four percent.**
+**All 89 worked numerical values re-derived independently from their stated inputs.** Two corrections.
+A signal-to-noise ratio was inflated 10 percent by a rounding carried through the link budget, and a
+lumped skin temperature was stated 14 kelvin low.
 
-358 references with zero undefined, zero orphaned, and zero duplicate URLs. All 185 meaningful-404
-URLs at 200. All 107 DOIs Crossref-resolved on author and title. `_verify.py` at the 0-error
-21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons,
-or prose parentheticals. Zero doubled words, zero display-math seam defects. Bullets and definitions
-sorted, acronyms spelled out, genre order conforming. Isolated build succeeding with 94 rendered
-display blocks and Part 8 navigation.
+370 references with zero undefined, zero orphaned, and zero duplicate URLs. All 147 fixed identifiers
+at 200. All 170 DOIs Crossref-resolved on title at the 0.85 threshold with zero flagged. The one
+hand-entered DOI, Shannon 1948, was verified individually and printed in full rather than trusted,
+because it did not come from a harvest record. `_verify.py` at the 0-error 21-warning corpus baseline
+with no new warning. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose
+parentheticals. Zero doubled words, zero display-math seam defects. Isolated production build
+succeeding with 136 rendered display blocks, Part 9 navigation, no unresolved reference links, and no
+surviving Liquid tags.
 
-**All three densities are inside band**, which is the first article in the series to finish that way
-without an overage being argued for.
+**Two densities are over band and it is deliberate.** 1746 lines against a ceiling of 1600, and 136
+display equations against 130. References at 370 are inside. Reported rather than trimmed, under the
+directive stating no length limit.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
-the push is safe. **The publication-order dependency is eight deep.**
+**Committed, not pushed.** The draft pass does not push, per the established rhythm. Nothing in this
+series is published.
 
-Eight articles are complete of seventy-two. **Categories remain undecided** at
-`aerospace history engineering`, still my assumption, eight articles deep and raised repeatedly. A305
-is the Aerojet X-8, the Aerobee sounding rocket, where the question is what a designation means when
-the vehicle is not an aircraft at all.
+Nine articles complete of seventy-two. **The publication-order dependency is now nine deep**, A305
+back to A297, through `post_url`.
+
+**Categories remain undecided** at `aerospace history engineering`, now nine articles deep and raised
+seven times. It fixes 72 URLs permanently at publication and remains reversible with one edit until
+the first article publishes. I have proceeded on the assumption rather than blocking.
+
+A306 is the Bell X-9 Shrike, which returns the series to a vehicle that is genuinely a missile
+testbed, and which will need the designation question this article opens to stay open rather than be
+answered early.

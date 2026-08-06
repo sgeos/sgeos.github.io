@@ -17,6 +17,82 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Aerojet X-8 Aerobee A305 2025-10-14
+
+`x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
+
+1746 lines, 136 display equations, 370 reference definitions, 16,399 words after the draft pass.
+References are inside band. **Lines exceed the ceiling of 1600 by 146 and equations exceed the
+ceiling of 130 by 6**, both deliberate under the standing directive stating no length limit.
+
+**This is the first article in the series whose subject is not an aircraft**, and the keystone
+follows from that. Every previous X-vehicle was the object of its own measurement. The X-1 was
+instrumented to find out what happened to the X-1, and even the expendable X-7 was flying to
+characterise the ramjet underneath it. The X-8 is the first X-vehicle whose own performance is not
+what is being measured. It is apparatus rather than subject, and the requirement that follows is
+transparency, meaning that every way in which the carrier might perturb somebody else's measurement
+becomes a design constraint.
+
+The central relation is that observing time above burnout altitude is exactly twice the burnout
+velocity divided by gravity, which combined with the rocket equation gives observing time as the
+exhaust velocity times the log of the mass ratio divided by half g. With the Aerobee's propellants
+the coefficient is 400 seconds per factor of e in mass ratio. **Observing time is logarithmic in the
+quantity a programme actually pays for**, which is the quantitative reason a sounding-rocket
+programme buys precision by flying often rather than by flying high, and it is the article's answer
+to why a five-minute flight was enough to discover Scorpius X-1.
+
+Required altitude is set by optical depth rather than by ambition, and the article computes it for
+three cases. Solar Lyman-alpha becomes observable at 80 kilometres, soft X-radiation at 110, and the
+ozone layer is opaque by a factor of e to the 92 so its profile is obtained by watching the sun while
+climbing through it. The X-8's 116 kilometres is the smallest altitude clearing all three, and the
+fact that it barely clears the third is why X-ray astronomy waited for a larger vehicle.
+
+**The published performance figures are not internally self-consistent, and the article says so.** A
+staged reconstruction reproduces the reported burnout velocity of 1,347 metres per second to within 2
+percent but leaves only 26 metres per second for drag, against an independent drag-loss estimate of 60
+to 150. One or more of the booster inert mass, the sustainer burn time, and the specific impulse is
+off by a few percent and the record does not say which. The reconstruction's sustainer stage mass of
+498 kilogrammes independently matches the separately reported 1,100 pounds, which is what makes the
+rest of it credible.
+
+Three results the sources do not state. Roll rate from canted fins and pitch natural frequency are
+both linear in velocity, so velocity cancels from their ratio and it varies as the inverse square root
+of density, meaning **a vehicle below roll resonance crosses it at a definite altitude regardless of
+how fast it is going**. Blowing the fins off to induce tumbling cuts the ballistic coefficient by a
+factor of 63 and therefore the parachute opening load by the same factor, which is the whole
+justification for a technique that looks like damage. And a single 35 millimetre frame carries three
+orders of magnitude more information than the entire telemetry budget of the flight, which is why the
+parachute failures on the first five Air Force flights destroyed the science rather than degrading it.
+
+The archival situation is the reverse of the X-6. That article's record lives in the Department of
+Energy archive and a standard aerospace search returns nothing. Here a search of that same archive
+returns nothing relevant at all, which was verified rather than assumed, and the record lives in the
+NASA archive instead. A sweep of 569 records from it returned 41 published in the 1950s against 161 in
+the 1960s, so the Aerobee 150 and 350 are far better documented than the X-8 itself.
+
+**Twenty author keys guessed from document titles during drafting were all wrong**, and a further 23
+guessed during the citation pass were caught before that pass ran. Reading the reference list rather
+than running a check found three mis-citations that every automated check passed, being two
+disambiguation-tag pairs assigned to the wrong member of the pair and one citation resolving to an
+unrelated paper. A link-text invariant now enforces that every prose citation text equals the
+master-table display for its anchor.
+
+Verification: all 89 worked values re-derived independently with two corrections, being a
+signal-to-noise ratio inflated 10 percent by a rounding carried through the link budget and a skin
+temperature stated 14 kelvin low. One flagged value turned out to be the check rather than the article
+being wrong. 370 references with zero undefined, zero orphaned, and zero duplicate URLs, all 147 fixed
+identifiers at 200, all 170 DOIs Crossref-resolved on title at a 0.85 threshold with zero flagged,
+`_verify.py` at the 0-error 21-warning corpus baseline, zero style violations, zero doubled words,
+zero display-math seam defects, isolated build succeeding with 136 rendered display blocks and Part 9
+navigation.
+
+Contemporary coverage was raised on the draft pass rather than left for the publication review,
+because the draft closed at 11.4 percent of dated references and the directive governs every pass. 87
+journal articles were added, taking contemporary references from 25 to 112 and to 36.6 percent, an
+absolute count consistent with A301 at 101, A302 at 109, A303 at 105, and A304 at 107.
+
+Equation-density and primary-reference reviews not yet performed.
+
 ## X-Planes Lockheed X-7 A304 2025-10-13
 
 `x_planes_lockheed_x7.markdown`, A304, editorial date 2025-10-13, series `x_planes` index 8 of 72.
