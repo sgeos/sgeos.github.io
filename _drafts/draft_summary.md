@@ -21,8 +21,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
 
-2007 lines, 200 display equations, 370 reference definitions, 18,655 words after the draft and
-equation passes. References are inside band. **Equations at 200 are the highest in the series, above
+2136 lines, 200 display equations, 431 reference definitions, 19,990 words after the draft,
+equation, and primary-reference passes. Primary technical documents are **216 of 420 external
+references, or 51.4 percent**, up from 155 and 43.2 percent, and comparable to A298 at 52.1 percent
+after its own pass. **The Defense Technical Information Center proved reachable by digital object
+identifier under a single Crossref publisher prefix**, which the draft had described as largely not
+publicly indexed, and the finding changes the article's conclusion about its own source base rather
+than decorating it. The single best result is the research and development report on the Navy
+Aerobee-Hi, which is the closest thing in the accessible record to a programme document for this
+family. References are inside band. **Equations at 200 are the highest in the series, above
 the A297 opener at 147 and well over the 130 ceiling, and lines exceed the 1600 ceiling by 407.** Both
 are deliberate. Every equation added in the second pass is a relation the prose names, relies on, or
 whose product it quotes, so the rule that produces the number was followed rather than the number
