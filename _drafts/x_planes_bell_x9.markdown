@@ -71,7 +71,7 @@ which for five contributors is 41 metres and for eight is 32 metres. **Every sub
 
 The quadrature sum has a property that matters more than the arithmetic. Because contributions add in the square, the largest single source dominates and the small ones are nearly free. Reducing a 60 metre contribution to 30 while leaving a 70 metre contribution alone moves the total from 92 to 76, whereas halving the 70 while leaving the 60 moves it to 69. **The correct order of work is therefore always to attack the largest term**, and an error budget is as much a scheduling document as a specification. [Ball 2003 The Fundamentals of Aircraft Combat Survivability][book_ball_2003] develops the same argument for survivability, where the structure of the problem is identical.
 
-This is the sense in which the X-9's keystone is a control problem rather than a physical one. The quantity being minimised is a variance, the contributions are additive in the square, and the design activity is the allocation of that budget.
+This is the sense in which the X-9's keystone is a control problem and not a physical one. The quantity being minimised is a variance, the contributions are additive in the square, and the design activity is the allocation of that budget.
 
 ### The Two Architectures Have Opposite Error Gradients
 
@@ -101,11 +101,13 @@ If instead the radar is in the missile, $R$ is the distance from the missile to 
 
 $$\varepsilon_{\perp}(2 \, \text{km}) = \frac{(2 \times 10^{3})(0.075)}{20} = 7.5 \, \text{m}$$
 
+That is the architecture the whole subsequent history adopted. A modern seeker is strapped down rather than gimballed, which trades mechanical complexity for a computation and brings a look-angle constraint the guidance law must respect, and the arrangement is [Yang et al 2022, Strapdown Seeker][research_yang_2022_2] with the constrained guidance in [Kim and Park 2022][research_kim_2022] and [Tahk et al 2024][research_tahk_2024]. Carrying two seekers of different kinds, which removes the single-sensor failure the X-9's link represented, is [Hirwani et al 2022][research_hirwani_2022].
+
 The consequence deserves stating as a relation rather than as two numbers. Writing $R_L$ for the range from the launcher and $R_T$ for the range to the target, the two architectures give
 
 $$\varepsilon_{\text{launcher}} \propto R_L, \qquad \varepsilon_{\text{missile}} \propto R_T$$
 
-and along a trajectory those two quantities move in opposite directions, since $R_L$ grows monotonically from zero while $R_T$ falls monotonically to zero. **The two architectures have opposite error gradients**, and that single fact explains the shape of the programme. It is also why the operational weapon the X-9 served was named for its guidance link rather than for its warhead or its airframe. The RASCAL acronym stands for radar scanning link, and the link in question carried a radar picture from the missile back to an operator in the launch aircraft, who designated the aimpoint on it. The sensor rode the missile and the judgement stayed behind. The general form of that arrangement is [command guidance][ref_command_guidance], and its place among the alternatives is set out in [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980], [Siouris 2004 Missile Guidance and Control Systems][book_siouris_2004], and [Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012].
+and along a trajectory those two quantities move in opposite directions, since $R_L$ grows monotonically from zero while $R_T$ falls monotonically to zero. **The two architectures have opposite error gradients**, and that single fact explains the shape of the programme. It is also why the operational weapon the X-9 served was named for its guidance link and not for its warhead or its airframe. The RASCAL acronym stands for radar scanning link, and the link in question carried a radar picture from the missile back to an operator in the launch aircraft, who designated the aimpoint on it. The sensor rode the missile and the judgement stayed behind. The general form of that arrangement is [command guidance][ref_command_guidance], and its place among the alternatives is set out in [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980], [Siouris 2004 Missile Guidance and Control Systems][book_siouris_2004], and [Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012].
 
 ### Where the Tracking Error Actually Comes From
 
@@ -143,6 +145,10 @@ with $L_t$ the target's dimension and $c_g$ of order 0.3. **Glint error falls as
 
 **None of these three sources appears in the beamwidth calculation, and together they are the reason a real command system does worse than geometry alone suggests.**
 
+All three remain live subjects. Glint is now characterised for targets the period did not have, including the multiple-vehicle formations of [Dou et al 2024][research_dou_2024], with the point-target formulation of [Klinefelter et al 2022][research_klinefelter_2022] and the super-resolution techniques of [Liu et al 2025, Angular][research_liu_2025_4] attacking it from the estimation side. Monopulse error estimation is adaptive rather than fixed in [Paine 2023][research_paine_2023], and the amplitude-comparison performance the factor of twenty stands for is analysed by [An and Lee 2020][research_an_2020]. The target's radar cross-section, which the period treated as a number, is now a computed field, and [Bużantowicz and Walenczykowska 2025][research_buzantowicz_2025] show how much the answer depends on how much of the geometry is retained, with measurement in [Tan et al 2024][research_tan_2024] and the active case in [Niu et al 2020][research_niu_2020].
+
+**The factor $k$ that this article treated as a constant of order twenty is, in the modern literature, the output of a computation.**
+
 ### The Architecture Comparison Was Being Made at the Time
 
 The argument this article reconstructs from a beamwidth was, in its qualitative form, contemporary. [Locke 1950][research_locke_1950] sets out the tactical limitations of beam-rider, command, and semi-active homing guidance side by side, which is precisely the comparison the X-9's programme was making, and [Tatum 1949][research_tatum_1949] surveys the problems of guided-missile development as they stood the year the X-9 first flew. The textbook consolidations arrive later, in [Levitt 1953][research_levitt_1953], [Clemow 1957][research_clemow_1957], and [Doersam 1965][research_doersam_1965].
@@ -167,7 +173,9 @@ $$Y_{\text{open}}(s) \approx \frac{\omega_c}{s} e^{-\tau s}$$
 
 in which $\tau$ is the operator's effective delay, of order 0.3 seconds including neuromuscular lag. The model and the measurements behind it are [McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974], with the broader treatment of the human as an element in a control loop in [Sheridan and Ferrell 1974 Man-Machine Systems][book_sheridan_ferrell_1974]. The experimental base was assembled through the 1960s by [Wilde and Westcott 1963][research_wilde_1963], [Young et al 1964][research_young_1964], and [Gagne and Wierwille 1966][research_gagne_1966], surveyed by [Mitchell 1964][research_mitchell_1964], and extended to the decision-making the crossover model omits by [Cohen and Ferrell 1969][research_cohen_1969]. The operator's information rate, which bounds how much of a display he can use, is [Baty 1970][research_baty_1970], and the optical-tracking case specifically is [Smith 1971][research_smith_1971] and [Price 1970][research_price_1970]. **The display is a component of the loop and not a convenience**, since the operator can only close a loop around what he can see, and the period's console engineering is [Fluhr 1963][research_fluhr_1963], [Mitchell and Kinney 1966][research_mitchell_1966_2], and [Drake 1967][research_drake_1967]. Radar presentation of a ground scene, which is what the RASCAL link actually carried, brings its own interpretation problem in the relief displacement and parallax of [Esten 1953][research_esten_1953].
 
-**The X-9 flew before nearly all of that work was done.** The crossover model was published in the decade after the programme ended, so the operator's bandwidth was a thing the designers accommodated by experiment rather than by calculation. Stability with a phase margin $\phi_m$ then requires
+**The X-9 flew before nearly all of that work was done.** The crossover model was published in the decade after the programme ended, so the operator's bandwidth was a thing the designers accommodated by experiment rather than by calculation.
+
+The field it became is now about how much of the loop to give the human rather than how fast he can close it. [Liu and Kaber 2025][research_liu_2025_3] model the proportion of a task that should be automated, [An and Niu 2025][research_an_2025] allocate functions dynamically as workload changes, and [Tong et al 2026][research_tong_2026] measure how presentation speed cuts both ways. Situation awareness, which is the quantity the X-9's operator had least of, is [Houweling et al 2024][research_houweling_2024] and [Chen et al 2021, Display Design][research_chen_2021_2], with the interface design problem in [Friedrich and Vollrath 2021][research_friedrich_2021]. **Whether the operator believes the automation has become its own subject**, in [Grindley et al 2026][research_grindley_2026] and [Wang et al 2024, Trust Calibration][research_wang_2024_2], and it is a question the X-9's designers never had to ask because there was nothing to believe. Stability with a phase margin $\phi_m$ then requires
 
 $$\omega_c \le \frac{\pi/2 - \phi_m}{\tau}$$
 
@@ -193,7 +201,7 @@ $$M_{\alpha} = q S C_{N\alpha} \, \Delta x = (3.06 \times 10^{4})(6.5)(3.58)(0.5
 
 $$\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{3.6 \times 10^{5}}{6.4 \times 10^{3}}} = 7.5 \, \text{rad/s}$$
 
-The supersonic lift-slope relation used here is the linearised result of [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the rigid-body equations it feeds are [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996] and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]. **The missile is about three times faster than the man flying it.** A human cannot stabilise a vehicle whose natural motion outruns his own bandwidth, so the operator cannot be given the control surfaces. He must be given a slower quantity to command, with an automatic inner loop holding the fast motion. That is why the X-9 needed an autopilot, and it is a conclusion about architecture reached from two time constants rather than from preference.
+The supersonic lift-slope relation used here is the linearised result of [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the rigid-body equations it feeds are [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996] and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]. **The missile is about three times faster than the man flying it.** A human cannot stabilise a vehicle whose natural motion outruns his own bandwidth, so the operator cannot be given the control surfaces. He must be given a slower quantity to command, with an automatic inner loop holding the fast motion. That is why the X-9 needed an autopilot, and it is a conclusion about architecture reached from two time constants and not from preference.
 
 The accuracy an operator actually achieves tracking from an aircraft was measured directly, in an airborne simulator, by [Douvillier et al 1956, Airborne Simulator][research_douvillier_1956]. **That is the closest thing in the accessible literature to a measurement of the X-9's keystone quantity**, and it was made by the National Advisory Committee for Aeronautics rather than by the programme that needed it. The companion report is [Douvillier et al 1956][research_douvillier_1956_2]. A comparable accuracy question for a tracked object of known ballistics, which is how a range establishes its own instrumental error, is [Lenhard et al 1963][research_lenhard_1963].
 
@@ -215,7 +223,7 @@ Dividing a development programme into a testbed and a weapon is a risk-reduction
 
 It does not reduce technical risk in the ordinary sense, because the testbed must solve most of the same problems. It reduces **schedule coupling**. A weapon programme carries a delivery date and a production commitment, and a failure inside it stops everything downstream. A testbed carries neither, so a failure inside it costs a vehicle and a month.
 
-The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, which is the practice of operating the thing. The Air Materiel Command wanted crews trained in checkout, launch, maintenance, and deployment before the operational missile existed. **A test programme whose output includes trained sergeants is a different kind of programme**, and it is one reason the vehicle flew from an operational bomber rather than a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which are what a service actually buys.
+The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, which is the practice of operating the thing. The Air Materiel Command wanted crews trained in checkout, launch, maintenance, and deployment before the operational missile existed. **A test programme whose output includes trained sergeants is a different kind of programme**, and it is one reason the vehicle flew from an operational bomber instead of a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which are what a service actually buys.
 
 ## Sizing From First Principles
 
@@ -253,7 +261,7 @@ The coefficient is not arbitrary. Turbulent flat-plate friction at supersonic sp
 
 $$C_{D,f} = (0.0025) \frac{25.2}{6.5} = 0.0097$$
 
-Wave drag and base drag supply the remainder. **Half the drag is friction and half is compressibility**, which is the expected split for a slender supersonic body at Mach 1.5, and it means the assumed total of 0.02 is a buildup rather than a guess. At a zero-lift drag coefficient of 0.02 on wing area the cruise drag is then of order
+Wave drag and base drag supply the remainder. **Half the drag is friction and half is compressibility**, which is the expected split for a slender supersonic body at Mach 1.5, and it means the assumed total of 0.02 is a buildup rather than a guess. Both halves are still being computed rather than looked up, with the wave-drag side in [Abraham et al 2024][research_abraham_2024] and the friction side in [Szajnecki et al 2025][research_szajnecki_2025], [Manzoor Hasan et al 2024][research_manzoor_hasan_2024], and the reduction techniques of [Zeng et al 2024][research_zeng_2024], [Takahashi et al 2019][research_takahashi_2019], and [Amico and Cafiero 2026][research_amico_2026]. The leeward-side case that a manoeuvring body actually presents is [Zou et al 2026][research_zou_2026]. The base drag that a rocket-powered body modifies with its own plume is [Kim et al 2023][research_kim_2023], [Kim and Kim 2026][research_kim_2026], and [Zhou et al 2021][research_zhou_2021]. At a zero-lift drag coefficient of 0.02 on wing area the cruise drag is then of order
 
 $$D \approx (3.06 \times 10^{4})(6.5)(0.02) = 4.0 \times 10^{3} \, \text{N}$$
 
@@ -315,7 +323,7 @@ The unpowered range after burnout follows from the glide relation, in which a ve
 
 $$R_{\text{glide}} = h \, \frac{L}{D}$$
 
-so the 80 kilometre range from a 20 kilometre apex implies an effective lift-to-drag ratio of four if the whole of it were glide. **Four is a plausible supersonic figure for a winged body of this shape**, and the fact that some of the range is powered means the true glide ratio is lower, which is the direction that makes the number more believable rather than less.
+so the 80 kilometre range from a 20 kilometre apex implies an effective lift-to-drag ratio of four if the whole of it were glide. **Four is a plausible supersonic figure for a winged body of this shape**, and the fact that some of the range is powered means the true glide ratio is lower, which is the direction that makes the number more believable, not less.
 
 The powered segment can be separated out. During the burn the vehicle covers, at a mean speed of about 400 metres per second over 101 seconds,
 
@@ -449,7 +457,7 @@ so the vehicle pulls roughly 0.8 g per degree of angle of attack. The roll axis 
 
 $$\begin{bmatrix} a_y \\ a_z \end{bmatrix} = \begin{bmatrix} \cos \Delta\phi & -\sin \Delta\phi \\ \sin \Delta\phi & \cos \Delta\phi \end{bmatrix} \begin{bmatrix} a_{y,c} \\ a_{z,c} \end{bmatrix}$$
 
-so the cross-axis leakage is $\sin \Delta\phi$ of the commanded acceleration. **A ten degree roll error puts 17 percent of every correction into the wrong axis**, and a guided vehicle must therefore hold roll to a small angle rather than merely averaging it as the [X-8][related_post_a305_aerojet_x8] did. That is why the X-9 carries twin dorsal and ventral fins with rudders rather than a symmetric cruciform tail, and it is the clearest single difference in requirement between a guided vehicle and an unguided one. The wave drag that the configuration pays for its wings is [Friedman 1951][research_friedman_1951] and [Eggers et al 1957][research_eggers_1957], with the minimum-drag body shapes of [Parker 1955][research_parker_1955] and [Eggers 1965][research_eggers_1965] and the base drag that the tail surfaces modify in [Spahr and Dickey 1951][research_spahr_1951]. Slender-body theory for the forebody is [Jones and Margolis 1946][research_jones_1946] and [Brown and Parker 1945][research_brown_1945], the yawed-cone case is [Stone 1945][research_stone_1945], and the design synthesis of the period is [Jones 1959][research_jones_1959]. Zero-lift drag at the relevant Mach numbers was measured in free flight by [Gillespie and Arbic 1951][research_gillespie_1951], the roll damping of a comparable configuration by [Scherrer and Dennis 1951][research_scherrer_1951], and the wing-tail interference that a cruciform layout cannot avoid by [Edwards and Hikido 1953][research_edwards_1953]. The effect of the plume on the aftbody, which matters for a vehicle that thrusts through most of its flight, is [Deep et al 1971][research_deep_1971]. **A five degree limit is therefore a four g vehicle**, which is ample for course correction and far short of what an interceptor needs, and that is the correct balance for a weapon that must fly accurately rather than evasively.
+so the cross-axis leakage is $\sin \Delta\phi$ of the commanded acceleration. **A ten degree roll error puts 17 percent of every correction into the wrong axis**, and a guided vehicle must therefore hold roll to a small angle instead of merely averaging it as the [X-8][related_post_a305_aerojet_x8] did. That is why the X-9 carries twin dorsal and ventral fins with rudders rather than a symmetric cruciform tail, and it is the clearest single difference in requirement between a guided vehicle and an unguided one. The wave drag that the configuration pays for its wings is [Friedman 1951][research_friedman_1951] and [Eggers et al 1957][research_eggers_1957], with the minimum-drag body shapes of [Parker 1955][research_parker_1955] and [Eggers 1965][research_eggers_1965] and the base drag that the tail surfaces modify in [Spahr and Dickey 1951][research_spahr_1951]. Slender-body theory for the forebody is [Jones and Margolis 1946][research_jones_1946] and [Brown and Parker 1945][research_brown_1945], the yawed-cone case is [Stone 1945][research_stone_1945], and the design synthesis of the period is [Jones 1959][research_jones_1959]. Zero-lift drag at the relevant Mach numbers was measured in free flight by [Gillespie and Arbic 1951][research_gillespie_1951], the roll damping of a comparable configuration by [Scherrer and Dennis 1951][research_scherrer_1951], and the wing-tail interference that a cruciform layout cannot avoid by [Edwards and Hikido 1953][research_edwards_1953]. The effect of the plume on the aftbody, which matters for a vehicle that thrusts through most of its flight, is [Deep et al 1971][research_deep_1971]. **A five degree limit is therefore a four g vehicle**, which is ample for course correction and far short of what an interceptor needs, and that is the correct balance for a weapon that must fly accurately rather than evasively.
 
 ### The Trapeze, and Why the Missile Is Lowered Before It Is Dropped
 
@@ -491,7 +499,7 @@ which for a half-metre offset gives
 
 $$\dot{q} = \frac{(1588)(9.81)(0.5)}{6.4 \times 10^{3}} = 1.22 \, \text{rad/s}^{2}$$
 
-so an asymmetric release lasting 0.1 seconds imparts 0.12 radians per second, or 7 degrees per second. **That is a large rate for a vehicle whose entire heading budget is a fraction of a degree**, and it is why the release mechanism is a guidance component rather than a piece of structure. Redundancy in that mechanism is [Paradise 1971][research_paradise_1971].
+so an asymmetric release lasting 0.1 seconds imparts 0.12 radians per second, or 7 degrees per second. **That is a large rate for a vehicle whose entire heading budget is a fraction of a degree**, and it is why the release mechanism is a guidance component and not a piece of structure. Redundancy in that mechanism is [Paradise 1971][research_paradise_1971].
 
 The store-separation problem in its general form is the subject of the free-flight tunnel technique of [Xue et al 2019][research_xue_2019] in the modern literature and was treated in the period by the store-interference calculations of [Margolis et al 1958][research_margolis_1958].
 
@@ -515,7 +523,7 @@ Integrity has an adversary. A jammer of power $P_j$ at range $R_j$ competes with
 
 $$\frac{S}{J} = \frac{P_c G_c}{P_j G_j} \left( \frac{R_j}{R_c} \right)^{2} \, \frac{B_j}{B_s}$$
 
-in which the last factor is the jammer's dilution across a bandwidth wider than the signal's. **The command link's low data rate is therefore an asset rather than a limitation**, because a narrow signal bandwidth forces the jammer to concentrate its power precisely or waste most of it. The relation also shows why a link from the launching aircraft is comparatively hard to jam and a link from a distant ground station is not, since the ratio of ranges enters squared. The bound itself is Shannon's, developed in [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the observation that a command channel is integrity-limited rather than capacity-limited is why command links are built with margin rather than with coding. A link that fails intermittently is worse than one that fails completely, because the vehicle continues on its last command. The received power follows the same relation as any radio path,
+in which the last factor is the jammer's dilution across a bandwidth wider than the signal's. **The command link's low data rate is therefore an asset rather than a limitation**, because a narrow signal bandwidth forces the jammer to concentrate its power precisely or waste most of it. The modern statement of the same trade is low probability of intercept, in which a waveform is spread and shaped so that an adversary cannot find it in the first place, treated by [Shi et al 2025][research_shi_2025], [Savci et al 2021][research_savci_2021], and, at the antenna, [Pehlivan and Yegin 2021][research_pehlivan_2021]. The countermeasure and counter-countermeasure exchange the X-9's link would now be subject to is [Xing et al 2023][research_xing_2023] and [Chen et al 2026, Deceptive Jamming][research_chen_2026]. The relation also shows why a link from the launching aircraft is comparatively hard to jam and a link from a distant ground station is not, since the ratio of ranges enters squared. The bound itself is Shannon's, developed in [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the observation that a command channel is integrity-limited rather than capacity-limited is why command links are built with margin rather than with coding. A link that fails intermittently is worse than one that fails completely, because the vehicle continues on its last command. The received power follows the same relation as any radio path,
 
 $$P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}$$
 
@@ -549,7 +557,9 @@ $$K M_{\delta} = 2 \omega_n \left( \zeta - \zeta_a \right) = (2)(7.5)(0.7 - 0.05
 
 **The autopilot is a damper, not a stabiliser**, because the airframe is already statically stable by design. That is a design choice rather than a necessity, and a statically unstable airframe with a faster autopilot would manoeuvre harder at the cost of requiring the loop to work. The classical apparatus for the analysis is [Franklin Powell and Emami-Naeini 2019 Feedback Control of Dynamic Systems][book_franklin_2019] and, for this application specifically, [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980]. The period's own servomechanism literature is [Hamer 1952][research_hamer_1952], [Merriam 1960][research_merriam_1960], [Riesel 1961][research_riesel_1961], and, later, [Etzweiler 1969][research_etzweiler_1969] and [Wilson 1970][research_wilson_1970], with the angular-position servomechanism that an all-moving control surface actually is in [Atkinson 1968][research_atkinson_1968]. The step from classical design to design against a stochastic input, which is what a noisy tracker demands, is [Fagin et al 1969][research_fagin_1969] and [Van Winkle and Rossi 1966][research_van_winkle_1966].
 
-Bias in the rate gyroscope is a distinct failure and it maps straight onto the error budget, because a constant rate error integrates into a constant heading error and thence into a lateral miss. Its elimination is [Eslinger 1964][research_eslinger_1964], the test methods that establish how large it is are [Vaughn 1960][research_vaughn_1960], and the drift of a gyroscope used as an azimuth reference rather than a rate sensor is [Flowe and Bright 1963][research_flowe_1963]. The inertial alternative to command guidance, which removes the launch aircraft from the loop at the cost of drift, is surveyed for the period by [Duncan 1958][research_duncan_1958], with the stellar update that bounds the drift in [Kochi and Dibble 1963][research_kochi_1963] and the midcourse formulation in [Eggleston and Dunning 1961][research_eggleston_1961], and the redundancy and failure-detection machinery that makes an inertial system trustworthy arrives much later in [Potter and Deckert 1972][research_potter_1972] and [Solov and Thibodeau 1973][research_solov_1973]. The gyroscope required to close it is the reason the canard airframe and the automatic pilot have to be analysed together rather than separately, which is the subject of [Gardiner et al 1950][research_gardiner_1950] on a canard airframe with a canted-axis gyroscope autopilot.
+Bias in the rate gyroscope is a distinct failure and it maps straight onto the error budget, because a constant rate error integrates into a constant heading error and thence into a lateral miss. Its elimination is [Eslinger 1964][research_eslinger_1964], the test methods that establish how large it is are [Vaughn 1960][research_vaughn_1960], and the drift of a gyroscope used as an azimuth reference rather than a rate sensor is [Flowe and Bright 1963][research_flowe_1963]. The inertial alternative to command guidance, which removes the launch aircraft from the loop at the cost of drift, is surveyed for the period by [Duncan 1958][research_duncan_1958], with the stellar update that bounds the drift in [Kochi and Dibble 1963][research_kochi_1963] and the midcourse formulation in [Eggleston and Dunning 1961][research_eggleston_1961], and the redundancy and failure-detection machinery that makes an inertial system trustworthy arrives much later in [Potter and Deckert 1972][research_potter_1972] and [Solov and Thibodeau 1973][research_solov_1973].
+
+**The drift that made inertial guidance unusable for the X-9 is now small enough that the architecture has inverted.** A modern weapon navigates inertially and uses external references to bound the drift rather than the reverse, and the bias stability now achievable from a device costing a few dollars is [Kozlov et al 2026][research_kozlov_2026]. The alignment problem that consumes the accuracy budget before flight is [Zhang et al 2022, Vision Aided][research_zhang_2022_3], [Lin et al 2022][research_lin_2022], and [Li et al 2019, Multistage][research_li_2019_5], and the satellite-denied case that returns the problem to something the X-9 would recognise is [Khalifa and Hashim 2026][research_khalifa_2026]. The gyroscope required to close it is the reason the canard airframe and the automatic pilot have to be analysed together rather than separately, which is the subject of [Gardiner et al 1950][research_gardiner_1950] on a canard airframe with a canted-axis gyroscope autopilot.
 
 Structural flexibility sets the upper limit on the gain. A rate gyroscope mounted on a bending airframe measures the bending as well as the rigid-body rate, and if the loop gain is high enough at the bending frequency the two couple. The condition for stability is that the loop gain fall below unity before the first bending mode,
 
@@ -635,7 +645,7 @@ which a spar of modest depth carries easily, and the general apparatus is [Bruhn
 
 The X-9 carried telemetry and, at the end of powered flight, could be brought down under a parachute to recover the instrumentation package.
 
-That decision is the [X-8][related_post_a305_aerojet_x8]'s argument arriving at a different answer for a different reason. The X-8 recovered its nose cone because photographic and emulsion records cannot be telemetered at any rate the period could achieve. The X-9's data is all electrical and could in principle be sent down, so the recovery exists to retrieve **hardware** rather than records, which for a programme developing a guidance system means retrieving the guidance system and finding out what it did.
+That decision is the [X-8][related_post_a305_aerojet_x8]'s argument arriving at a different answer for a different reason. The X-8 recovered its nose cone because photographic and emulsion records cannot be telemetered at any rate the period could achieve. The X-9's data is all electrical and could in principle be sent down, so the recovery exists to retrieve **hardware** instead of records, which for a programme developing a guidance system means retrieving the guidance system and finding out what it did.
 
 The descent under canopy follows the same terminal-velocity relation as any recovery,
 
@@ -717,7 +727,7 @@ That relation is worth writing down because it is what the whole argument is for
 
 $$P_k = 1 - \left( \tfrac{1}{2} \right)^{\left( R_L / \mathrm{CEP} \right)^{2}}$$
 
-which equals one half when the lethal radius equals the circular error probable, and rises steeply thereafter. The relation assumes a definite lethal radius, and neither the lethality nor the aim point is that clean in practice. [McNolty 1965][research_mcnolty_1965] treats the case where the lethal effect is itself a random variable, [Braithwaite 1962][research_braithwaite_1962] the extrapolation of sparse kill-probability data, and [Lilliefors 1957][research_lilliefors_1957] gives the hand computation the period actually used. Inverting for the accuracy required to reach a given kill probability,
+which equals one half when the lethal radius equals the circular error probable, and rises steeply thereafter. The relation assumes a definite lethal radius, and neither the lethality nor the aim point is that clean in practice. [McNolty 1965][research_mcnolty_1965] treats the case where the lethal effect is itself a random variable, [Braithwaite 1962][research_braithwaite_1962] the extrapolation of sparse kill-probability data, and [Lilliefors 1957][research_lilliefors_1957] gives the hand computation the period actually used. **The shape of the damage function turns out to matter more than the accuracy fed into it**, which is the finding of [Moon 2021][research_moon_2021], and the structural-response side that determines that shape is now simulated in [Temsah et al 2021][research_temsah_2021] and predicted by learned models in [Almustafa and Nehdi 2020][research_almustafa_2020]. Inverting for the accuracy required to reach a given kill probability,
 
 $$\mathrm{CEP} = \frac{R_L}{\sqrt{\log_2 \left( \dfrac{1}{1 - P_k} \right)}}$$
 
@@ -747,13 +757,15 @@ The cruciform canard layout the X-9 flew became common, and the measurement base
 
 ### Guidance Laws, Which Are Now Optimal Rather Than Proportional
 
-The guidance problem the X-9 solved by putting a man in the loop is now solved by an optimisation. Modern treatments derive the guidance law from a cost functional rather than from a geometric rule, and the [proportional navigation][ref_pronav] the period was working out is recovered as a special case, a connection made explicit by [Lee and Cho 2021][research_lee_2021], who show pure proportional navigation to be inverse-optimal for a particular cost, and by [Jeon et al 2020][research_jeon_2020]. The linear quadratic formulation is [Weiss and Shima 2019][research_weiss_2019], the state-dependent Riccati approach is [Lin and Xin 2019][research_lin_2019], disturbance attenuation with measurement feedback is [Or et al 2021][research_or_2021], and the multi-agent extension the period could not have imagined is [Shalumov 2019][research_shalumov_2019]. Closed-form solutions of the linearised equations, which is the analysis [Abramovitz 1952][research_abramovitz_1952] was attempting with the tools of 1952, are now available in [Markham 2019][research_markham_2019] and [Markham 2024][research_markham_2024]. The theoretical frame for all of it is [Bryson and Ho 1975 Applied Optimal Control][book_bryson_ho_1975].
+The guidance problem the X-9 solved by putting a man in the loop is now solved by an optimisation. Modern treatments derive the guidance law from a cost functional rather than from a geometric rule, and the [proportional navigation][ref_pronav] the period was working out is recovered as a special case, a connection made explicit by [Lee and Cho 2021][research_lee_2021], who show pure proportional navigation to be inverse-optimal for a particular cost, and by [Jeon et al 2020][research_jeon_2020]. The linear quadratic formulation is [Weiss and Shima 2019][research_weiss_2019] and [Weiss and Shima 2021][research_weiss_2021], the state-dependent Riccati approach is [Lin and Xin 2019][research_lin_2019], the impact-angle and impact-time constraints that a modern weapon carries and the X-9 did not are [Jung and Lee 2024][research_jung_2024] and [Erer et al 2024][research_erer_2024], the biased form that a landing or a glide requires is [Yang 2025][research_yang_2025] and [Levin and DeLaurentis 2025][research_levin_2025], and the emulation of an optimal law by a virtual target is [Merkulov et al 2025][research_merkulov_2025], disturbance attenuation with measurement feedback is [Or et al 2021][research_or_2021], and the multi-agent extension the period could not have imagined is [Shalumov 2019][research_shalumov_2019]. Closed-form solutions of the linearised equations, which is the analysis [Abramovitz 1952][research_abramovitz_1952] was attempting with the tools of 1952, are now available in [Markham 2019][research_markham_2019] and [Markham 2024][research_markham_2024]. The theoretical frame for all of it is [Bryson and Ho 1975 Applied Optimal Control][book_bryson_ho_1975].
+
+The minimum-effort formulations that bound how little control authority an intercept needs are [Weiss and Shima 2021][research_weiss_2021], and the model-predictive treatment that carries explicit constraints is [Bhattacharjee et al 2021][research_bhattacharjee_2021].
 
 **What has not changed is the error gradient argument.** A guidance law of any sophistication still cannot beat the geometry of where its sensor sits, which is why terminal seekers exist and why the modern equivalent of the RASCAL link is a synthetic-aperture radar image formed by the weapon itself, as [Sun et al 2024][research_sun_2024] describe.
 
 ### Autopilots, Which Are Now Robust Rather Than Merely Damped
 
-The inner loop the X-9 needed to hold its fast airframe while the operator flew slowly is now designed against explicit uncertainty rather than against a nominal model. [Simões and Cavalcanti 2023][research_simoes_2023] use a structured linear parameter-varying formulation, [Sun et al 2023][research_sun_2023] a gain-scheduled multifidelity design, [Zhou et al 2023][research_zhou_2023] dynamic surface control, [Lee et al 2020][research_lee_2020] robust backstepping with an explicit time-delay term, and [Gao et al 2022][research_gao_2022] a differential-game formulation. The actuator that closes the loop has its own literature, since an electromechanical surface actuator is now the default, and [Maré 2022][research_mare_2022] and [Ruan et al 2021][research_ruan_2021] treat its sizing and its friction.
+The inner loop the X-9 needed to hold its fast airframe while the operator flew slowly is now designed against explicit uncertainty rather than against a nominal model. [Simões and Cavalcanti 2023][research_simoes_2023] use a structured linear parameter-varying formulation, [Sun et al 2023][research_sun_2023] a gain-scheduled multifidelity design, [Zhou et al 2023][research_zhou_2023] dynamic surface control, [Lee et al 2020][research_lee_2020] robust backstepping with an explicit time-delay term, and [Gao et al 2022][research_gao_2022] a differential-game formulation. The actuator that closes the loop has its own literature, since an electromechanical surface actuator is now the default, and [Maré 2022][research_mare_2022] and [Ruan et al 2021][research_ruan_2021] treat its sizing and its friction, with fault identification in [Quattrocchi et al 2022][research_quattrocchi_2022] and fault-tolerant reconfiguration in [Li et al 2026, Fault Tolerant][research_li_2026_2]. **The X-9's hydraulic actuator could fail in one way and the modern electromechanical one can fail in several**, which is why the literature is about diagnosis rather than about power. The flutter boundary that an all-moving surface brings is now computed and actively suppressed in [Li et al 2023, Flutter Control][research_li_2023_4].
 
 ### Data Links and the Latency Problem
 
@@ -761,15 +773,17 @@ The X-9's loop closed across a radio path short enough that its delay was neglig
 
 ### Canard Aerodynamics, Computed Rather Than Flown
 
-The derivatives the rocket-model programme measured are now computed, and the configuration continues in service. [Zhao et al 2025][research_zhao_2025] give a nonlinear body-aerodynamic model for a canard-controlled round, and parameter identification from flight, which is what the rocket-model technique was doing by other means, is [Tai et al 2023, Flight Dynamics][research_tai_2023] and [Tai et al 2023][research_tai_2023_2].
+The derivatives the rocket-model programme measured are now computed, and the configuration continues in service. [Zhao et al 2025][research_zhao_2025] give a nonlinear body-aerodynamic model for a canard-controlled round, and parameter identification from flight, which is what the rocket-model technique was doing by other means, is [Tai et al 2023, Flight Dynamics][research_tai_2023] and [Tai et al 2023][research_tai_2023_2]. Configuration studies of the kind that filled the 1950s reports continue in [Shumway and Boranian 2025][research_shumway_2025], with the tunnel-and-simulation parameter estimation that succeeded the rocket-model technique in [Singh and Ghosh 2023][research_singh_2023], and **the modern question is not what the derivatives are but how much a wrong derivative costs**, which [Li et al 2025, Modeling Errors][research_li_2025_4] answer by propagating aerodynamic modelling error into the closed-loop dynamics. That is the question the X-9's designers could not ask, because they had no closed-loop model to propagate it through.
 
 ### Store Separation
 
-The problem the trapeze solved by avoidance is now solved by computation and by scaled free-flight testing. [Song and Ai 2021][research_song_2021_2] analyse aircraft and store compatibility for an internal weapons bay, which is the X-9's exact geometry, and the similarity laws that make a tunnel test meaningful are derived by [Xue et al 2019][research_xue_2019], [Xue et al 2020, Derivation And][research_xue_2020], and [Xue et al 2020][research_xue_2020_2]. Air launch itself persists as a category, and [Stewart et al 2026][research_stewart_2026] treat the flight dynamics of a modern air-launched vehicle.
+The problem the trapeze solved by avoidance is now solved by computation and by scaled free-flight testing. [Song and Ai 2021][research_song_2021_2] analyse aircraft and store compatibility for an internal weapons bay, which is the X-9's exact geometry, and the similarity laws that make a tunnel test meaningful are derived by [Xue et al 2019][research_xue_2019], [Xue et al 2020, Derivation And][research_xue_2020], and [Xue et al 2020][research_xue_2020_2]. Air launch itself persists as a category, and [Stewart et al 2026][research_stewart_2026] treat the flight dynamics of a modern air-launched vehicle, with the design optimisation in [Li et al 2022, Air-Launched][research_li_2022_6] and the smallest end of the category in [Elliott et al 2025][research_elliott_2025].
 
 ### Where the Mission Went
 
-The standoff strike role the RASCAL was built for did not disappear, it accelerated. Boost-glide vehicles now occupy the niche, and the guidance and control problems are recognisably the same ones scaled up, with [Bao et al 2021][research_bao_2021] integrating guidance, control, and morphing, [Autenrieb and Gruhn 2026][research_autenrieb_2026] allocating control across redundant surfaces, and [Jiang et al 2022][research_jiang_2022] treating the interception problem from the weapon's side. The defensive mirror is [Chen et al 2024][research_chen_2024] and [Zang et al 2025][research_zang_2025]. **The X-9's descendants are being shot at by systems the X-9's designers assumed would not exist.**
+The standoff strike role the RASCAL was built for did not disappear, it accelerated. Boost-glide vehicles now occupy the niche, and the guidance and control problems are recognisably the same ones scaled up, with [Bao et al 2021][research_bao_2021] integrating guidance, control, and morphing, [Autenrieb and Gruhn 2026][research_autenrieb_2026] allocating control across redundant surfaces, and [Jiang et al 2022][research_jiang_2022] treating the interception problem from the weapon's side. The defensive mirror is [Chen et al 2024][research_chen_2024] and [Zang et al 2025][research_zang_2025]. **The X-9's descendants are being shot at by systems the X-9's designers assumed would not exist**, and the counter-guidance that treats proportional navigation as something to be defeated rather than used is [Wang et al 2024, Counter Guidance][research_wang_2024]. Trajectory optimisation for the cruise case is [Shachar et al 2025][research_shachar_2025], the ascent case is [Lei et al 2025][research_lei_2025], and the flight-test control synthesis that such a vehicle now needs is [Cheah et al 2025][research_cheah_2025] and [Gao et al 2026, Morphing][research_gao_2026].
+
+The other direction the mission went is multiplication. Where the X-9 carried one operator's attention to one target, air-launched effects now go in numbers and coordinate among themselves, which changes the accuracy requirement rather than tightening it, and the cooperative localisation that makes it work is [Burchett 2019][research_burchett_2019]. **A weapon that can be produced in quantity substitutes redundancy for precision**, which is the same substitution the yield scaling above describes and a different way of buying it.
 
 ### Test Instrumentation
 
@@ -915,6 +929,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 ### Research
 
 - [Abel 1971][research_abel_1971]
+- [Abraham et al 2024][research_abraham_2024]
 - [Abramovitz 1952][research_abramovitz_1952]
 - [Abramovitz 1953][research_abramovitz_1953]
 - [Abzug 1967][research_abzug_1967]
@@ -924,6 +939,10 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Adler 1956][research_adler_1956]
 - [Advanced Fuel Research 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957]
 - [Aldrich and Krabill 1972][research_aldrich_1972]
+- [Almustafa and Nehdi 2020][research_almustafa_2020]
+- [Amico and Cafiero 2026][research_amico_2026]
+- [An and Lee 2020][research_an_2020]
+- [An and Niu 2025][research_an_2025]
 - [Anderson 1958][research_anderson_1958]
 - [Anderson 1961][research_anderson_1961]
 - [Andon 1965][research_andon_1965]
@@ -940,6 +959,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Bell Aerospace 1955][research_bell_aerospace_co_buffalo_ny_1955]
 - [Bell Aerospace 1956][research_bell_aerospace_co_buffalo_ny_1956]
 - [Berger 1971][research_berger_1971]
+- [Bhattacharjee et al 2021][research_bhattacharjee_2021]
 - [Blundell and Brashear 1962][research_blundell_1962]
 - [Braithwaite 1962][research_braithwaite_1962]
 - [Brennan 1961][research_brennan_1961]
@@ -947,8 +967,13 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Brockner 1951][research_brockner_1951]
 - [Brown 1957][research_brown_1957]
 - [Brown and Parker 1945][research_brown_1945]
+- [Burchett 2019][research_burchett_2019]
+- [Bużantowicz and Walenczykowska 2025][research_buzantowicz_2025]
+- [Cheah et al 2025][research_cheah_2025]
 - [Chen and Liu 2021][research_chen_2021]
+- [Chen et al 2021, Display Design][research_chen_2021_2]
 - [Chen et al 2024][research_chen_2024]
+- [Chen et al 2026, Deceptive Jamming][research_chen_2026]
 - [Clemow 1957][research_clemow_1957]
 - [Cohen and Ferrell 1969][research_cohen_1969]
 - [Coulbert 1963][research_coulbert_1963]
@@ -960,6 +985,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Dhawan 1953][research_dhawan_1953]
 - [Diggins 1951][research_diggins_1951]
 - [Doersam 1965][research_doersam_1965]
+- [Dou et al 2024][research_dou_2024]
 - [Douvillier et al 1956][research_douvillier_1956_2]
 - [Douvillier et al 1956, Airborne Simulator][research_douvillier_1956]
 - [Drake 1967][research_drake_1967]
@@ -971,6 +997,8 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Eggers et al 1957][research_eggers_1957]
 - [Eggleston and Dunning 1961][research_eggleston_1961]
 - [Ehricke 1955][research_ehricke_1955]
+- [Elliott et al 2025][research_elliott_2025]
+- [Erer et al 2024][research_erer_2024]
 - [Eslinger 1964][research_eslinger_1964]
 - [Esten 1953][research_esten_1953]
 - [Etzweiler 1969][research_etzweiler_1969]
@@ -984,19 +1012,24 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Foster 1959][research_foster_1959]
 - [Freed and Miller 1961][research_freed_1961]
 - [Friedman 1951][research_friedman_1951]
+- [Friedrich and Vollrath 2021][research_friedrich_2021]
 - [Gagne and Wierwille 1966][research_gagne_1966]
 - [Gallagher 1969][research_gallagher_1969]
 - [Gao et al 2022][research_gao_2022]
+- [Gao et al 2026, Morphing][research_gao_2026]
 - [Gardiner et al 1950][research_gardiner_1950]
 - [Gillespie and Arbic 1951][research_gillespie_1951]
 - [Grey 1953][research_grey_1953]
+- [Grindley et al 2026][research_grindley_2026]
 - [Gruntman 2019][research_gruntman_2019]
 - [Guelman 1974][research_guelman_1974]
 - [Głębocki and Jacewicz 2020][research_g_ebocki_2020]
 - [Hamer 1952][research_hamer_1952]
 - [Harris 1935][research_harris_1935]
 - [Harrje 1959][research_harrje_1959]
+- [Hirwani et al 2022][research_hirwani_2022]
 - [Hoch 1960][research_hoch_1960]
+- [Houweling et al 2024][research_houweling_2024]
 - [Huston et al 1948][research_huston_1948]
 - [Jacobs et al 1961][research_jacobs_1961]
 - [Jeon et al 2020][research_jeon_2020]
@@ -1004,24 +1037,42 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Jones 1959][research_jones_1959]
 - [Jones and Margolis 1946][research_jones_1946]
 - [Jones et al 1970][research_jones_1970]
+- [Jung and Lee 2024][research_jung_2024]
 - [Kamat 1962][research_kamat_1962]
 - [Kasdorf 1952][research_kasdorf_1952]
+- [Khalifa and Hashim 2026][research_khalifa_2026]
+- [Kim and Kim 2026][research_kim_2026]
+- [Kim and Park 2022][research_kim_2022]
+- [Kim et al 2023][research_kim_2023]
 - [Kim et al 2024][research_kim_2024_2]
 - [Kleckner 1946][research_kleckner_1946]
+- [Klinefelter et al 2022][research_klinefelter_2022]
 - [Kochi and Dibble 1963][research_kochi_1963]
+- [Kozlov et al 2026][research_kozlov_2026]
 - [Lee and Cho 2021][research_lee_2021]
 - [Lee et al 2020][research_lee_2020]
+- [Lei et al 2025][research_lei_2025]
 - [Lenhard et al 1963][research_lenhard_1963]
+- [Levin and DeLaurentis 2025][research_levin_2025]
 - [Levitt 1953][research_levitt_1953]
+- [Li et al 2019, Multistage][research_li_2019_5]
+- [Li et al 2022, Air-Launched][research_li_2022_6]
+- [Li et al 2023, Flutter Control][research_li_2023_4]
+- [Li et al 2025, Modeling Errors][research_li_2025_4]
+- [Li et al 2026, Fault Tolerant][research_li_2026_2]
 - [Lilliefors 1957][research_lilliefors_1957]
 - [Lin and Xin 2019][research_lin_2019]
+- [Lin et al 2022][research_lin_2022]
 - [Lindsay 1968][research_lindsay_1968]
+- [Liu and Kaber 2025][research_liu_2025_3]
+- [Liu et al 2025, Angular][research_liu_2025_4]
 - [Lo 1948][research_lo_1948]
 - [Locke 1950][research_locke_1950]
 - [Lukens et al 1961][research_lukens_1961]
 - [Ma and McDonald 2026][research_ma_2026]
 - [MacCarthy 1954][research_maccarthy_1954]
 - [Magis 1960][research_magis_1960]
+- [Manzoor Hasan et al 2024][research_manzoor_hasan_2024]
 - [Margolis et al 1958][research_margolis_1958]
 - [Markham 2019][research_markham_2019]
 - [Markham 2024][research_markham_2024]
@@ -1029,10 +1080,12 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Matthews 1957][research_matthews_1957]
 - [McNolty 1962][research_mcnolty_1962]
 - [McNolty 1965][research_mcnolty_1965]
+- [Merkulov et al 2025][research_merkulov_2025]
 - [Merriam 1960][research_merriam_1960]
 - [Meyer 1958][research_meyer_1958]
 - [Mitchell 1964][research_mitchell_1964]
 - [Mitchell and Kinney 1966][research_mitchell_1966_2]
+- [Moon 2021][research_moon_2021]
 - [Moranda 1959][research_moranda_1959]
 - [Moranda 1960][research_moranda_1960]
 - [Morton 1966][research_morton_1966]
@@ -1041,10 +1094,13 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Mungall 1948][research_mungall_1948]
 - [Naylor 1961][research_naylor_1961]
 - [Niewald and Moul 1950][research_niewald_1950]
+- [Niu et al 2020][research_niu_2020]
 - [Or et al 2021][research_or_2021]
 - [Otto and Flage 1960][research_otto_1960]
+- [Paine 2023][research_paine_2023]
 - [Paradise 1971][research_paradise_1971]
 - [Parker 1955][research_parker_1955]
+- [Pehlivan and Yegin 2021][research_pehlivan_2021]
 - [Peterson 1961][research_peterson_1961]
 - [Pfenneberger 1966][research_pfenneberger_1966]
 - [Philco 1963][research_philco_corp_palo_alto_ca_1963]
@@ -1054,6 +1110,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Price 1970][research_price_1970]
 - [Price and Warren 1973][research_price_1973]
 - [Princeton University 1952][research_princeton_univ_nj_1952]
+- [Quattrocchi et al 2022][research_quattrocchi_2022]
 - [Quillin and Parry 1962][research_quillin_1962]
 - [Riesel 1961][research_riesel_1961]
 - [Robinson 1958][research_robinson_1958]
@@ -1062,16 +1119,21 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Ruhlin and Tuovila 1961][research_ruhlin_1961]
 - [Ryu et al 2022][research_ryu_2022]
 - [Savage 1969][research_savage_1969]
+- [Savci et al 2021][research_savci_2021]
 - [Scherrer and Dennis 1951][research_scherrer_1951]
 - [Schulte and Dickinson 1968][research_schulte_1968]
 - [Scott 1966][research_scott_1966]
 - [Seiple 1960][research_seiple_1960]
+- [Shachar et al 2025][research_shachar_2025]
 - [Shalumov 2019][research_shalumov_2019]
 - [Shantz 1953][research_shantz_1953]
 - [Shen et al 2019][research_shen_2019]
+- [Shi et al 2025][research_shi_2025]
 - [Shultz 1963][research_shultz_1963]
+- [Shumway and Boranian 2025][research_shumway_2025]
 - [Sims and Graf 1969][research_sims_1969]
 - [Simões and Cavalcanti 2023][research_simoes_2023]
+- [Singh and Ghosh 2023][research_singh_2023]
 - [Sleeman 1957][research_sleeman_1957]
 - [Smith 1953][research_smith_1953]
 - [Smith 1971][research_smith_1971]
@@ -1093,32 +1155,48 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Sun et al 2024][research_sun_2024]
 - [Swanson 1963][research_swanson_1963]
 - [Swerling 1956][research_swerling_1956]
+- [Szajnecki et al 2025][research_szajnecki_2025]
+- [Tahk et al 2024][research_tahk_2024]
 - [Tai et al 2023][research_tai_2023_2]
 - [Tai et al 2023, Flight Dynamics][research_tai_2023]
+- [Takahashi et al 2019][research_takahashi_2019]
+- [Tan et al 2024][research_tan_2024]
 - [Tatum 1949][research_tatum_1949]
 - [Taylor 1956][research_taylor_1956]
+- [Temsah et al 2021][research_temsah_2021]
 - [Thompson 1970][research_thompson_1970]
 - [Timenes 1964][research_timenes_1964]
+- [Tong et al 2026][research_tong_2026]
 - [Van Winkle and Rossi 1966][research_van_winkle_1966]
 - [Vaughn 1960][research_vaughn_1960]
 - [Waddell 1961][research_waddell_1961]
 - [Walters 1959][research_walters_1959]
+- [Wang et al 2024, Counter Guidance][research_wang_2024]
+- [Wang et al 2024, Trust Calibration][research_wang_2024_2]
 - [Weiss and Shima 2019][research_weiss_2019]
+- [Weiss and Shima 2021][research_weiss_2021]
 - [White and Christoph 1972][research_white_1972]
 - [Wilde and Westcott 1963][research_wilde_1963]
 - [Wilson 1970][research_wilson_1970]
 - [Wiltse 1955][research_wiltse_1955]
 - [Woodward 1961][research_woodward_1961]
 - [Wrestler 1965][research_wrestler_1965]
+- [Xing et al 2023][research_xing_2023]
 - [Xue et al 2019][research_xue_2019]
 - [Xue et al 2020][research_xue_2020_2]
 - [Xue et al 2020, Derivation And][research_xue_2020]
+- [Yang 2025][research_yang_2025]
+- [Yang et al 2022, Strapdown Seeker][research_yang_2022_2]
 - [Young 1965][research_young_1965]
 - [Young et al 1964][research_young_1964]
 - [Zang et al 2025][research_zang_2025]
+- [Zeng et al 2024][research_zeng_2024]
+- [Zhang et al 2022, Vision Aided][research_zhang_2022_3]
 - [Zhao et al 2025][research_zhao_2025]
+- [Zhou et al 2021][research_zhou_2021]
 - [Zhou et al 2023][research_zhou_2023]
 - [Zhou et al 2026][research_zhou_2026]
+- [Zou et al 2026][research_zou_2026]
 
 ### Related Post
 
@@ -1207,6 +1285,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [related_post_a304_lockheed_x7]: {% post_url 2025-10-13-x_planes_lockheed_x7 %}
 [related_post_a305_aerojet_x8]: {% post_url 2025-10-14-x_planes_aerojet_x8 %}
 [research_abel_1971]: https://doi.org/10.2514/6.1971-343
+[research_abraham_2024]: https://doi.org/10.3390/aerospace11050359
 [research_abramovitz_1952]: https://ntrs.nasa.gov/citations/19630002663
 [research_abramovitz_1953]: https://ntrs.nasa.gov/citations/19930090424
 [research_abzug_1967]: https://doi.org/10.2514/3.28850
@@ -1216,6 +1295,10 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_adler_1956]: https://doi.org/10.1063/1.1722411
 [research_advanced_fuel_research_inc_east_hartford_ct_1957]: https://doi.org/10.21236/ada390317
 [research_aldrich_1972]: https://ntrs.nasa.gov/citations/19720055423
+[research_almustafa_2020]: https://doi.org/10.1016/j.engstruct.2020.111109
+[research_amico_2026]: https://doi.org/10.1016/j.cja.2026.104278
+[research_an_2020]: https://doi.org/10.3390/app10041246
+[research_an_2025]: https://doi.org/10.1016/j.ergon.2025.103848
 [research_anderson_1958]: https://doi.org/10.21236/ad0305026
 [research_anderson_1961]: https://doi.org/10.21236/ad0322137
 [research_andon_1965]: https://doi.org/10.21236/ad0684462
@@ -1232,6 +1315,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_bell_aerospace_co_buffalo_ny_1955]: https://doi.org/10.21236/ad0125726
 [research_bell_aerospace_co_buffalo_ny_1956]: https://doi.org/10.21236/ad0113976
 [research_berger_1971]: https://doi.org/10.1109/proc.1971.8181
+[research_bhattacharjee_2021]: https://doi.org/10.2514/1.g005879
 [research_blundell_1962]: https://ntrs.nasa.gov/citations/19630007397
 [research_braithwaite_1962]: https://doi.org/10.21236/ad0294011
 [research_brennan_1961]: https://doi.org/10.1109/tap.1961.1145000
@@ -1239,8 +1323,13 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_brockner_1951]: https://doi.org/10.1109/jrproc.1951.230421
 [research_brown_1945]: https://ntrs.nasa.gov/citations/19930091887
 [research_brown_1957]: https://ntrs.nasa.gov/citations/19710066230
+[research_burchett_2019]: https://doi.org/10.1016/j.ast.2018.12.015
+[research_buzantowicz_2025]: https://doi.org/10.1049/rsn2.70003
+[research_cheah_2025]: https://doi.org/10.2514/1.g008331
 [research_chen_2021]: https://doi.org/10.2514/1.g005714
+[research_chen_2021_2]: https://doi.org/10.3390/app11125745
 [research_chen_2024]: https://doi.org/10.1016/j.dt.2023.07.018
+[research_chen_2026]: https://doi.org/10.1049/rsn2.70110
 [research_clemow_1957]: https://doi.org/10.1108/eb032867
 [research_cohen_1969]: https://doi.org/10.1109/tmms.1969.299895
 [research_coulbert_1963]: https://doi.org/10.2514/6.1963-241
@@ -1252,6 +1341,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_dhawan_1953]: https://ntrs.nasa.gov/citations/19930092157
 [research_diggins_1951]: https://doi.org/10.21236/ad0895227
 [research_doersam_1965]: https://doi.org/10.1109/proc.1965.3739
+[research_dou_2024]: https://doi.org/10.1049/icp.2024.1335
 [research_douvillier_1956]: https://ntrs.nasa.gov/citations/19710066235
 [research_douvillier_1956_2]: https://ntrs.nasa.gov/citations/19930089453
 [research_drake_1967]: https://doi.org/10.21236/ad0380510
@@ -1263,6 +1353,8 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_eggers_1965]: https://ntrs.nasa.gov/citations/19660043224
 [research_eggleston_1961]: https://ntrs.nasa.gov/citations/19980227200
 [research_ehricke_1955]: https://doi.org/10.21236/ad0073756
+[research_elliott_2025]: https://doi.org/10.3390/aerospace12090754
+[research_erer_2024]: https://doi.org/10.2514/1.g007910
 [research_eslinger_1964]: https://doi.org/10.1177/003754976400200101
 [research_esten_1953]: https://doi.org/10.21236/ad0018579
 [research_etzweiler_1969]: https://doi.org/10.1109/tac.1969.1099278
@@ -1276,19 +1368,24 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_foster_1959]: https://ntrs.nasa.gov/citations/19630002675
 [research_freed_1961]: https://doi.org/10.1016/0032-0633(61)90283-5
 [research_friedman_1951]: https://ntrs.nasa.gov/citations/19930093733
+[research_friedrich_2021]: https://doi.org/10.3390/aerospace8030071
 [research_g_ebocki_2020]: https://doi.org/10.3390/aerospace7120168
 [research_gagne_1966]: https://ntrs.nasa.gov/citations/19670006530
 [research_gallagher_1969]: https://doi.org/10.21236/ad0689780
 [research_gao_2022]: https://doi.org/10.1080/00207179.2021.1872802
+[research_gao_2026]: https://doi.org/10.2514/1.g009823
 [research_gardiner_1950]: https://ntrs.nasa.gov/citations/19930082667
 [research_gillespie_1951]: https://ntrs.nasa.gov/citations/20050030052
 [research_grey_1953]: https://doi.org/10.21236/ad0036007
+[research_grindley_2026]: https://doi.org/10.1080/00140139.2026.2625177
 [research_gruntman_2019]: https://doi.org/10.1016/j.actaastro.2018.12.021
 [research_guelman_1974]: https://doi.org/10.21236/ada048008
 [research_hamer_1952]: https://doi.org/10.1109/ee.1952.6437583
 [research_harris_1935]: https://ntrs.nasa.gov/citations/19930091601
 [research_harrje_1959]: https://doi.org/10.21236/ad0212816
+[research_hirwani_2022]: https://doi.org/10.2514/1.g006291
 [research_hoch_1960]: https://doi.org/10.21236/ad0296546
+[research_houweling_2024]: https://doi.org/10.1016/j.apergo.2023.104213
 [research_huston_1948]: https://ntrs.nasa.gov/citations/19930082417
 [research_jacobs_1961]: https://doi.org/10.2514/8.5479
 [research_jeon_2020]: https://doi.org/10.2514/1.g004672
@@ -1296,24 +1393,42 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_jones_1946]: https://ntrs.nasa.gov/citations/19930084662
 [research_jones_1959]: https://doi.org/10.1016/b978-1-4831-9832-3.50006-1
 [research_jones_1970]: https://doi.org/10.2514/6.1970-992
+[research_jung_2024]: https://doi.org/10.2514/1.g008234
 [research_kamat_1962]: https://doi.org/10.1080/01621459.1962.10482161
 [research_kasdorf_1952]: https://doi.org/10.21236/ad0007646
+[research_khalifa_2026]: https://doi.org/10.1016/j.measurement.2026.121964
+[research_kim_2022]: https://doi.org/10.1007/s12555-021-0008-6
+[research_kim_2023]: https://doi.org/10.3390/aerospace10100836
 [research_kim_2024_2]: https://doi.org/10.3390/s24041241
+[research_kim_2026]: https://doi.org/10.1016/j.ast.2026.112974
 [research_kleckner_1946]: https://ntrs.nasa.gov/citations/19930081790
+[research_klinefelter_2022]: https://doi.org/10.1109/tmtt.2021.3136265
 [research_kochi_1963]: https://doi.org/10.2514/6.1963-357
+[research_kozlov_2026]: https://doi.org/10.1109/lsens.2025.3641436
 [research_lee_2020]: https://doi.org/10.1109/taes.2020.2990819
 [research_lee_2021]: https://doi.org/10.2514/1.g006018
+[research_lei_2025]: https://doi.org/10.1016/j.cja.2024.103333
 [research_lenhard_1963]: https://doi.org/10.21236/ad0434379
+[research_levin_2025]: https://doi.org/10.2514/1.g008757
 [research_levitt_1953]: https://doi.org/10.1016/0016-0032(53)90021-0
+[research_li_2019_5]: https://doi.org/10.3390/s19030665
+[research_li_2022_6]: https://doi.org/10.3390/aerospace9060300
+[research_li_2023_4]: https://doi.org/10.1016/j.tws.2022.110323
+[research_li_2025_4]: https://doi.org/10.3390/aerospace12070619
+[research_li_2026_2]: https://doi.org/10.1016/j.ast.2025.110887
 [research_lilliefors_1957]: https://doi.org/10.1287/opre.5.3.416
 [research_lin_2019]: https://doi.org/10.2514/1.g003544
+[research_lin_2022]: https://doi.org/10.1016/j.measurement.2022.111712
 [research_lindsay_1968]: https://doi.org/10.1109/taes.1968.5408954
+[research_liu_2025_3]: https://doi.org/10.1080/00140139.2025.2608273
+[research_liu_2025_4]: https://doi.org/10.1109/tim.2024.3485444
 [research_lo_1948]: https://ntrs.nasa.gov/citations/19930082418
 [research_locke_1950]: https://doi.org/10.21236/adc954460
 [research_lukens_1961]: https://doi.org/10.21236/ad0269015
 [research_ma_2026]: https://doi.org/10.1109/thms.2026.3691492
 [research_maccarthy_1954]: https://doi.org/10.21236/ada451760
 [research_magis_1960]: https://doi.org/10.21236/ad0321180
+[research_manzoor_hasan_2024]: https://doi.org/10.2514/1.j063335
 [research_mare_2022]: https://doi.org/10.3390/aerospace9060314
 [research_margolis_1958]: https://ntrs.nasa.gov/citations/19930084830
 [research_markham_2019]: https://doi.org/10.2514/1.g004334
@@ -1321,10 +1436,12 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_matthews_1957]: https://doi.org/10.21236/ad0127419
 [research_mcnolty_1962]: https://doi.org/10.1287/opre.10.5.693
 [research_mcnolty_1965]: https://doi.org/10.1287/opre.13.3.478
+[research_merkulov_2025]: https://doi.org/10.2514/1.g008726
 [research_merriam_1960]: https://doi.org/10.1016/s0019-9958(60)90257-6
 [research_meyer_1958]: https://doi.org/10.21236/ad0208856
 [research_mitchell_1964]: https://doi.org/10.21236/ad0449587
 [research_mitchell_1966_2]: https://doi.org/10.21236/ad0649756
+[research_moon_2021]: https://doi.org/10.1016/j.dt.2020.04.009
 [research_moranda_1959]: https://doi.org/10.1080/01621459.1959.11683599
 [research_moranda_1960]: https://doi.org/10.1080/01621459.1960.10483373
 [research_morton_1966]: https://doi.org/10.21236/ad0481144
@@ -1333,10 +1450,13 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_mungall_1948]: https://ntrs.nasa.gov/citations/19930082436
 [research_naylor_1961]: https://doi.org/10.21236/ad0323370
 [research_niewald_1950]: https://ntrs.nasa.gov/citations/19930086447
+[research_niu_2020]: https://doi.org/10.3390/s20123371
 [research_or_2021]: https://doi.org/10.2514/1.g005468
 [research_otto_1960]: https://doi.org/10.4271/600403
+[research_paine_2023]: https://doi.org/10.1049/icp.2022.2328
 [research_paradise_1971]: https://ntrs.nasa.gov/citations/19720005757
 [research_parker_1955]: https://ntrs.nasa.gov/citations/19930092224
+[research_pehlivan_2021]: https://doi.org/10.1109/tap.2021.3096952
 [research_peterson_1961]: https://ntrs.nasa.gov/citations/19980227076
 [research_pfenneberger_1966]: https://doi.org/10.2514/6.1966-755
 [research_philco_corp_palo_alto_ca_1963]: https://doi.org/10.21236/ad0296907
@@ -1346,6 +1466,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_price_1970]: https://doi.org/10.1177/001872087001200509
 [research_price_1973]: https://doi.org/10.21236/ad0761626
 [research_princeton_univ_nj_1952]: https://doi.org/10.21236/ad0036008
+[research_quattrocchi_2022]: https://doi.org/10.3390/aerospace9070341
 [research_quillin_1962]: https://doi.org/10.21236/ad0333070
 [research_riesel_1961]: https://doi.org/10.1126/science.133.3449.324-a
 [research_robinson_1958]: https://ntrs.nasa.gov/citations/19650014456
@@ -1354,16 +1475,21 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_ruhlin_1961]: https://ntrs.nasa.gov/citations/19980227183
 [research_ryu_2022]: https://doi.org/10.3390/s22239410
 [research_savage_1969]: https://doi.org/10.2514/6.1969-873
+[research_savci_2021]: https://doi.org/10.3390/rs13122372
 [research_scherrer_1951]: https://ntrs.nasa.gov/citations/19930086518
 [research_schulte_1968]: https://doi.org/10.21236/ad0666646
 [research_scott_1966]: https://doi.org/10.21236/ad0647709
 [research_seiple_1960]: https://doi.org/10.21236/ad0315737
+[research_shachar_2025]: https://doi.org/10.2514/1.g008439
 [research_shalumov_2019]: https://doi.org/10.2514/1.g004054
 [research_shantz_1953]: https://doi.org/10.21236/ad0037850
 [research_shen_2019]: https://doi.org/10.1177/0142331219860928
+[research_shi_2025]: https://doi.org/10.1109/tcomm.2025.3545623
 [research_shultz_1963]: https://doi.org/10.21236/ad0644106
+[research_shumway_2025]: https://doi.org/10.2514/1.a36230
 [research_simoes_2023]: https://doi.org/10.2514/1.g007580
 [research_sims_1969]: https://doi.org/10.21236/ad0857647
+[research_singh_2023]: https://doi.org/10.61653/joast.v59i2.2007.567
 [research_sleeman_1957]: https://ntrs.nasa.gov/citations/20050019253
 [research_smith_1953]: https://doi.org/10.21236/ad0007625
 [research_smith_1971]: https://doi.org/10.1117/12.953467
@@ -1385,29 +1511,45 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [research_sun_2024]: https://doi.org/10.1109/tcyb.2022.3231974
 [research_swanson_1963]: https://doi.org/10.21236/ad0427269
 [research_swerling_1956]: https://doi.org/10.1109/jrproc.1956.275167
+[research_szajnecki_2025]: https://doi.org/10.1017/jfm.2025.10296
+[research_tahk_2024]: https://doi.org/10.2514/1.g007806
 [research_tai_2023]: https://doi.org/10.2514/1.j062188
 [research_tai_2023_2]: https://doi.org/10.3390/aerospace10040350
+[research_takahashi_2019]: https://doi.org/10.3390/app9235199
+[research_tan_2024]: https://doi.org/10.3390/s24196315
 [research_tatum_1949]: https://doi.org/10.1002/j.2161-4296.1949.tb00471.x
 [research_taylor_1956]: https://doi.org/10.21236/ad0307706
+[research_temsah_2021]: https://doi.org/10.1016/j.engstruct.2021.112671
 [research_thompson_1970]: https://doi.org/10.21236/ad0734152
 [research_timenes_1964]: https://doi.org/10.21236/ad0450163
+[research_tong_2026]: https://doi.org/10.1080/00140139.2026.2686854
 [research_van_winkle_1966]: https://doi.org/10.1109/tieci.1966.6592656
 [research_vaughn_1960]: https://doi.org/10.21236/ad0283244
 [research_waddell_1961]: https://doi.org/10.21236/ad0258634
 [research_walters_1959]: https://doi.org/10.21236/ad0303146
+[research_wang_2024]: https://doi.org/10.2514/1.g008370
+[research_wang_2024_2]: https://doi.org/10.3390/s24247946
 [research_weiss_2019]: https://doi.org/10.1109/taes.2018.2849901
+[research_weiss_2021]: https://doi.org/10.2514/1.g005017
 [research_white_1972]: https://doi.org/10.21236/ad0757872
 [research_wilde_1963]: https://doi.org/10.1016/0005-1098(63)90003-7
 [research_wilson_1970]: https://doi.org/10.1016/b978-0-08-015812-9.50006-9
 [research_wiltse_1955]: https://doi.org/10.4271/550061
 [research_woodward_1961]: https://doi.org/10.21236/ad0255658
 [research_wrestler_1965]: https://doi.org/10.21236/ad0622404
+[research_xing_2023]: https://doi.org/10.3390/aerospace10030236
 [research_xue_2019]: https://doi.org/10.1177/1687814019853062
 [research_xue_2020]: https://doi.org/10.1016/j.actaastro.2020.04.061
 [research_xue_2020_2]: https://doi.org/10.1016/j.ast.2019.105614
+[research_yang_2022_2]: https://doi.org/10.3390/aerospace9070373
+[research_yang_2025]: https://doi.org/10.2514/1.g008911
 [research_young_1964]: https://doi.org/10.1109/thfe.1964.231648
 [research_young_1965]: https://doi.org/10.21236/ad0621085
 [research_zang_2025]: https://doi.org/10.1016/j.dt.2025.02.001
+[research_zeng_2024]: https://doi.org/10.1063/5.0222859
+[research_zhang_2022_3]: https://doi.org/10.3390/s22134691
 [research_zhao_2025]: https://doi.org/10.3390/aerospace12060558
+[research_zhou_2021]: https://doi.org/10.1016/j.dt.2020.06.016
 [research_zhou_2023]: https://doi.org/10.23919/jsee.2022.000154
 [research_zhou_2026]: https://doi.org/10.1016/j.actaastro.2026.07.044
+[research_zou_2026]: https://doi.org/10.1016/j.ast.2026.111936
