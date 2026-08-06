@@ -9,103 +9,101 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A303 primary-reference review. Committed and **not pushed**. **No article in this series is
-published.**
-
-**287 to 358 references, 85 to 156 primary technical documents, 1235 to 1385 lines.** All three
-densities are now inside band, and the line shortfall closed by citation rather than by padding.
+**Task**: A303 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All seven articles in the series remain in `_drafts/`.
 
 ---
 
-## Every Coefficient the Article Uses Now Has Its Source
+## Contemporary Coverage Was the Job
 
-The equation pass left the article quoting physical constants it could not attribute. A buildup
-factor of ten, a neutron removal cross-section of 0.095 per centimetre, a flux-to-dose conversion, a
-core pressure drop. Those are the numbers the whole shield derivation turns on, and they were
-standing on my assertion.
+A 38-query Crossref sweep returned 453 candidates, of which 365 passed a topical screen and **46 were
+selected and verified individually on author and title, zero flagged**. Contemporary references went
+from 59 to **105**, and from 23.5 to **35.4 percent of dated references**, comparable to A301 at 35.8.
 
-They are all in the programme's own record.
+Several land on the article's own coefficients rather than beside them, which is the test I applied.
 
-- **Chapman 1955** tabulates the effective neutron removal cross-sections for shielding.
-- **Auslender 1957** computes the gamma buildup factors by Monte Carlo, for layered configurations.
-- **Eggen 1961** gives the fast-neutron spectra and the dose-rate calculation.
-- **Segaser 1948** measures pressure drop through fuel element channels, and it is among the earliest
-  documents in the entire archive.
-- **Waldrop 1958** treats lithium hydride specifically as a *mobile* neutron shield, which is the
-  aircraft requirement written as a material specification.
+**The shield derivation assumes a buildup factor of ten and a single-valued neutron removal
+cross-section.** Both are still research subjects. [Sun et al 2025] carry Monte Carlo buildup
+evaluation to a hundred mean free paths, [Kang and Zu 2026] and [Yang et al 2026] replace the
+tabulations with learned models, [Hashim et al 2026] treat the multilayer case the divided shield
+requires, and [Soliman 2025] addresses the energy dependence the single value hides. **The article now
+says its two assumed coefficients are live subjects rather than settled constants**, which it should
+have said before.
 
-**The article no longer quotes a constant it cannot attribute.**
-
----
-
-## The Lexington Project Recovered in Full
-
-The draft treated the 1948 feasibility study as a one-line verdict, fifteen years and a great deal of
-money. It was a numbered report series, and OSTI holds it.
-
-There are reports on aircraft, on aircraft configuration, on a meeting with Boeing, and on something
-as specific as the tolerance of aerial reconnaissance film to nuclear radiation, plus an index
-complete enough to be a document in its own right.
-
-**Most importantly it contains its own comparison baseline.** [Shoults 1948] examined whether
-chemically propelled aircraft could complete the same missions. That is the question that eventually
-ended the programme, it was asked at the very beginning, and it was answered wrongly.
+Three threads that the draft asserted are now traced. The radiation-hardening practice the programme
+invented runs into the modern semiconductor literature. The coated particle is where the fuel-element
+problem went, through TRISO performance modelling. And **the mission itself was answered without
+nuclear propulsion at all**, by solar-powered high-altitude unmanned aircraft that achieve persistence
+by having almost no energy demand rather than by carrying an enormous supply. A programme that spent
+a billion dollars removing the fuel constraint was eventually answered by removing the crew and most
+of the aircraft.
 
 ---
 
-## The Molten Salt Pivot, Documented As It Happened
+## Four Acronym Defects
 
-The draft asserted that the Aircraft Reactor Experiment became the ancestor of the modern molten salt
-reactor. The record shows the handover in progress.
+The acronym check earned its place this time.
 
-**McPherson 1957 is titled *Molten Salts for Civilian Power* and appeared while the aircraft programme
-was still running.** Briant 1957 argues molten fluorides as power reactor fuels, Grimes 1958 sets out
-the chemistry, and by MacPherson 1960 the concept is being evaluated against a ten-year plan that has
-nothing to do with aeroplanes.
-
-The people who built a reactor for an aircraft spent the late 1950s explaining that it would be more
-useful somewhere else, and they were right.
+**TSFC appeared inside an equation before it was ever spelled out.** **ASTR was used in the Comparison
+section although the abbreviation had never been established**, since the Flight Test Record spelled
+out Aircraft Shield Test Reactor without attaching the initials. **ORNL appeared unexpanded in prose.**
+And once I fixed the first, the expansion of thrust-specific fuel consumption occurred twice in
+consecutive sentences, so that needed cleaning too.
 
 ---
 
-## Two Things With No Counterpart Elsewhere in the Series
+## Diction
 
-**Menegus 1958** computes the accidental dispersion of reactor materials in a crash and the distance
-that must be controlled around the site. No other aircraft in this series could contaminate the ground
-it fell on, and no other article has needed a citation of that kind.
+`programme` measured 5.37 uses per thousand body words and `than` 5.46, both above threshold and both
+more generic than the article's subject vocabulary of reactor, shield, and aircraft. Thirteen passages
+rotated across effort, project, work, instead of, and restructuring, bringing them to **4.82 and
+5.01**.
 
-**A NEPA medical advisory panel subcommittee report evaluates the psychological aspects** of asking
-aircrew to fly a reactor. That is an unusual document to find in an aeronautical record and it says
-something about how the problem was understood at the time. Alongside it, Leverett 1960 investigates
-lens opacity in personnel operating a portable reactor, cataract being the effect that shows up first.
+`rather than` came to 37 uses. Before acting I measured the siblings, and it runs at **4.5 per
+thousand in A301 and 3.7 in A302 against 2.9 here**, so the construction is a house norm across the
+series and not an A303 defect. I trimmed five anyway and am reporting the measurement rather than
+implying I fixed something.
+
+---
+
+## Numerical Sanity
+
+**All 46 worked values re-derived independently from the stated inputs, none disagreeing beyond four
+percent.** That includes the full shield chain from fission rate through source strength, unshielded
+dose rate, required attenuation, lead and lithium hydride thicknesses, and both mass ratios, plus the
+ASTR validation case, the decay heat and melt time, the heat exchanger relations, and the molten salt
+pressure ratio.
 
 ---
 
 ## Verification
 
-358 references with zero undefined, zero orphaned, and zero duplicate URLs. All **248 meaningful-404
-URLs at 200 across three archives**. Every added OSTI record verified individually against the API.
-`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations, zero doubled words,
-zero display-math seam defects. Isolated build succeeding with 92 rendered display blocks and Part 7
-navigation.
-
-A formulaic drift was caught and corrected. The construction `, and [Author]` reached 50 percent of
-body citations after the pass, because seventy references went in during one sitting. Nine passages
-were rotated, bringing it to 41.7 percent, with the remainder being genuine list conjunctions rather
-than a repeated citation verb.
+404 references with zero undefined, zero orphaned, and zero duplicate URLs. All **248 meaningful-404
+URLs at 200 across three archives**. All 101 DOIs Crossref-resolved on author and title. `_verify.py`
+at the 0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons,
+prose semicolons, or prose parentheticals. Zero doubled words, zero display-math seam defects.
+Reference bullets and link definitions both sorted. Genre section order conforming. Isolated build
+succeeding with 92 rendered display blocks matching 92 source equations and Part 7 navigation.
 
 ---
 
-## What Remains
+## One Density Outside the Band
 
-**Contemporary references are 59 absolute and 23.5 percent of dated, down from 32.8 percent purely by
-dilution**, and that is now below the 28 to 33 percent target. Nothing was removed and nothing was
-padded. It is the publication review's business.
+**References at 404 exceed the genre ceiling of 380 by 24.** Deliberate, under the standing directive
+stating no reference limit and asking for a comprehensive survey of the contemporary literature.
+Reported rather than trimmed. Lines at 1487 and equations at 92 are both inside band.
 
-For scale, this article now holds 156 primary technical documents at **43.6 percent of all
-references, the highest in the series**, and 63.7 percent of its dated references fall in 1965 or
-earlier. That shape is what a programme whose entire technical life fit inside fifteen years looks
-like.
+Final shape: 156 primary technical documents at 38.6 percent, **53.9 percent of dated references at
+1965 or earlier**, and 105 contemporary at 35.4 percent. That is what a programme whose entire
+technical life fit inside fifteen years looks like when it is surveyed honestly.
 
-**Publication order dependency is seven deep.** Three commits unpushed. Categories remain
-`aerospace history engineering`, seven articles deep.
+---
+
+## State
+
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is seven deep.**
+
+**Categories remain undecided.** `aerospace history engineering`, still my assumption, seven articles
+deep. A304 is the Lockheed X-7, a ramjet test vehicle that was launched rather than flown, and the
+question there is what changes when the aircraft is expendable.

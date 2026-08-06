@@ -21,16 +21,18 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
 
-1385 lines, 92 display equations, 358 reference definitions, 16,765 words after an equation-density
-review and a primary-reference review. **All three densities are now inside band.** Primary technical
-documents rose from 85 to 156, or 43.6 percent of all references, which is the highest in the series
-against A302 at 39.1 percent. References dated 1965 or earlier are 63.7 percent of dated references,
-also the series high by a wide margin, which is the expected shape for a programme whose entire
-technical life fell inside fifteen years.
+1487 lines, 92 display equations, 404 reference definitions, 18,375 words after all four passes.
+Lines and equations are inside band. Primary technical documents number 156 at 38.6 percent of all
+references, comparable to A302 at 39.1 percent, and references dated 1965 or earlier are 53.9 percent
+of dated references, the series high by a wide margin and the expected shape for a programme whose
+entire technical life fell inside fifteen years.
 
-Contemporary references stand at 59 absolute and 23.5 percent of dated, down from 32.8 percent purely
-by dilution, and that is now below the 28 to 33 percent target. It is the publication review's
-business and has not been pre-empted.
+The publication review added 46 contemporary journal articles, taking contemporary references from 59
+to **105 and from 23.5 to 35.4 percent of dated references**, comparable to A301 at 35.8 percent.
+
+**References at 404 exceed the genre band's ceiling of 380 by 24, and that is deliberate.** The
+standing directive states no reference limit and asks that the articles serve as a comprehensive
+survey of the contemporary literature. Reported rather than trimmed.
 
 **The equation pass replaced an assumed attenuation factor with a derived one, and the numbers got
 worse.** The draft assumed a ten-million-fold attenuation. Deriving the gamma source from the fission
