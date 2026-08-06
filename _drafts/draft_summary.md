@@ -17,6 +17,53 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed X-7 A304 2025-10-13
+
+`x_planes_lockheed_x7.markdown`, A304, editorial date 2025-10-13, series `x_planes` index 8 of 72.
+
+895 lines, 33 display equations, 252 reference definitions, 10,595 words at the end of the draft
+pass. References are just inside band. Lines and equations are below the full-aircraft band and await
+the passes that follow. Contemporary references are already 38.8 percent of dated references and
+references dated 1965 or earlier are 35.6 percent.
+
+**The keystone is epistemic rather than performance-related, and it is the first in the series that
+is.** Every previous article concerns an aircraft that had to come back. A crewed programme approaches
+a destructive limit and stops short of it, so its estimate of that limit is an extrapolation whose
+prediction variance grows as the square of the margin kept. An expendable programme crosses the limit
+and interpolates. For twenty observations, predicting one data span beyond the centroid costs a
+factor of 3.6 in standard error against predicting at the centroid.
+
+The physics falls out of the engine. A ramjet's compression ratio is 1 at rest, 7.8 at Mach 2, and
+152 at Mach 4, so it is worthless standing still and unmatched at speed, which is why the vehicle
+must be thrown. The booster delivers 1.87 million newton seconds and a velocity increment near 575
+metres per second, taking the vehicle from a release Mach number of 0.45 to a burnout Mach number of
+2.37, which is precisely where the engine becomes worth having, at 13 g rising to 16. A single normal
+shock at Mach 4.31 keeps only 10.7 percent of the total pressure, against roughly half for a staged
+conical shock system, which is why the nose spike exists. Recovery temperature at Mach 4.31 and 32
+kilometres is 985 kelvin, or 712 degrees, which excludes aluminium and specifies steel, and the same
+stagnation temperature leaves only 922 kelvin of useful combustion temperature rise against 1600 at
+Mach 2, which is the ceiling on the subsonic-combustion ramjet.
+
+**A method failure was caught by verification and is worth recording.** In assembling the contemporary
+set I hand-constructed nineteen plausible-looking DOIs rather than taking them from the harvest
+records. Crossref resolution showed that most pointed at entirely unrelated papers, including a paper
+on dendrite deformation and one on alcohol licensing policy. All were discarded and the contemporary
+set was rebuilt from actual harvest records. **Never construct an identifier that can be looked up.**
+
+Verification complete. All 252 references cited with zero undefined, zero orphaned, and zero duplicate
+URLs, all 125 meaningful-404 URLs swept at 200, all 58 DOIs Crossref-resolved on author and title, all
+70 NTRS records verified individually, `_verify.py` clean at the 0-error 21-warning corpus baseline,
+zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals, zero
+doubled words, zero display-math seam defects, isolated build succeeding with Part 8 navigation and
+zero unresolved anchors.
+
+Independent re-derivation of all 28 worked values found two errors, a residence time rounded from 8.3
+to 8 milliseconds and an extrapolation figure whose wording described a different calculation from the
+one performed. Both corrected.
+
+**Publication order dependency now eight deep.** A304 cites A303, A302, A301, A300, A299, A298, and
+A297.
+
 ## X-Planes Convair X-6 A303 2025-10-12
 
 `x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
