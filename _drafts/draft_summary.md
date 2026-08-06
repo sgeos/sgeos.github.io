@@ -77,7 +77,50 @@ showed all three were RTV-A vehicles, the X-8 as RTV-A-1, the X-9 as RTV-A-4, an
 The corrected claim is stronger, since three exceptions with one common origin are a pattern where three
 with distinct origins would not be.
 
-Held in `_drafts/` pending the equation-density, reference-density, and publication review passes.
+**Equation-density review performed on request.** Baseline 84 display equations across 13,382 body
+words. The structural audit found no orphaned or duplicate subsections, unlike A306. 38 equations added
+across 17 edits, taking the article from 943 lines and 84 equations to 1111 and 122, which is inside the
+90 to 130 band. References rose 213 to 218, which is the equation pass creating reference debt exactly
+as it did in A305 and A306, and the primary pass is aimed at it.
+
+**The largest omission was the argument that killed the programme.** The article stated the
+cruise-versus-ballistic exposure comparison qualitatively and never derived it. A minimum-energy
+ballistic ellipse for the same 10,000 kilometres gives a burnout speed of 7193 metres per second, an
+apogee of 1319 kilometres, and a free-flight time of 32.2 minutes against the cruise mission's 172, an
+exposure ratio of 5.35. That number is the whole cancellation case and it is now on the page.
+
+Other relations added: the drift specification is inversely proportional to range requirement, so
+growing the mission from 500 to 5500 nautical miles tightened the gyroscope specification elevenfold;
+two-system availability; static margin and the finding that a seven percent aerodynamic-centre shift
+exceeds a three percent static margin outright; the drag decomposition showing base drag at half the
+wave drag; the thrust-lapse relation; the skin thermal time constant of 48.6 seconds, which shows the
+platform oven faces a step rather than a ramp; the linear drift-temperature model; the quadrature
+variance shares, of which two attitude terms carry 94 percent; glide-slope sink rate and the
+exponential flare; full-scale Reynolds number of 46.8 million against the free-flight models' 19 to 51
+percent of it; dive-angle sensitivity of 48 metres per milliradian; and the modern gyroscope carried
+through the article's own relation, which gives 957 metres over the mission and therefore **still does
+not meet the 800 metre requirement on drift alone**.
+
+**Equation-pass verification**: all 50 new worked values re-derived independently with no corrections,
+and all 102 previously verified values still reproducing. Zero duplicate headings, zero display-math
+seam defects, zero lone dollar-delimited lines, zero paragraph-repeated citations. 122 rendered display
+blocks confirmed in the built HTML against 122 in the source.
+
+**Two seam defects found by reading and not by any check.** The equation insertion into the
+configuration subsection orphaned the canard citation list from the material it belonged to, leaving it
+dangling after a base-drag conclusion, and the ballistic insertion left three consecutive
+identically-introduced citations. Both repaired. This is the fifth article in which a seam defect
+survived every automated check.
+
+**A process error was found and corrected.** The citation-construction rotations performed during the
+draft pass were applied to the scratch build copy rather than to the article, because a previous step
+had left the shell inside the build directory and the edit script used a relative path. The
+verification then read the same scratch copy and reported success, so the draft was committed with the
+formulaic drift still present. The rotations have been re-applied to the article and the script now
+uses an absolute path. The single-word construction share is 15.1 percent for `in` and 10.1 percent for
+`is`, against 21.0 and 30.1 before.
+
+Held in `_drafts/` pending the reference-density and publication review passes.
 
 ## X-Planes Bell X-9 Shrike A306 2025-10-15
 
