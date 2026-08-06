@@ -21,9 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x9.markdown`, A306, editorial date 2025-10-15, series `x_planes` index 10 of 72.
 
-1336 lines, 115 display equations, 239 reference definitions, 12,337 words after the draft and
-equation passes. Lines and equations are inside band; **references remain 11 short of the 250 floor**
-and the primary-reference pass will close that.
+1414 lines, 115 display equations, 278 reference definitions, 12,731 words after the draft,
+equation, and primary-reference passes. **All three densities are inside band.** Primary technical
+documents are **164 of 268 external references, or 61.2 percent**, up from 125 and 54.6 percent, and
+the highest in the series against A298 at 52.1 and A305 at 51.4. Contemporary coverage at 46
+references, or 19.2 percent of dated, is the remaining deficit.
 
 **The equation audit found a structural defect before it found an equation.** Counting equations per
 section exposed four orphaned subsections at the end of The Contemporary Literature, three of them
