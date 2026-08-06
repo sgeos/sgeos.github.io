@@ -17,6 +17,60 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Convair X-6 A303 2025-10-12
+
+`x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
+
+995 lines, 37 display equations, 287 reference definitions, 11,690 words at the end of the draft
+pass. Equations and lines are below the full-aircraft band and await the equation-density pass.
+Contemporary references are already 32.8 percent of dated references, inside the target range on the
+draft alone, and references dated 1965 or earlier are 49.4 percent.
+
+**The first article in the series about an aircraft that was never built, and the class judgement went
+the other way from the obvious one.** The genre document reserves a documentation-poor class at 150
+to 400 lines and 20 to 60 references for thin cases. The X-6 is the opposite. The Aircraft Nuclear
+Propulsion programme ran fifteen years, spent about a billion dollars, and left a primary record
+larger than that of most flown aircraft in this series. It is treated at full length.
+
+**The primary record is not in the NASA archive, and that is a structural finding.** ANP was an
+Atomic Energy Commission and Air Force programme, so its reports went to the AEC and are held today
+by the Department of Energy, discoverable through the Office of Scientific and Technical Information.
+A standard NTRS search for this aircraft returns almost nothing and the standard conclusion, that the
+record is thin, is exactly wrong. This article introduces OSTI as a source archive for the series, and
+71 of its 287 references are OSTI records against 14 from NTRS.
+
+The keystone is whether the mass of shielding a reactor requires can be carried by an aircraft that
+still has a reason to fly. The derivation gives about 100 megawatts of thermal power for a B-36-class
+cruise, consuming 0.44 kilograms of uranium-235 in a hundred hours against 837 tonnes of kerosene for
+the same energy, a ratio of nearly two million. Against that stands 23.2 centimetres of lead for a
+ten-million-fold attenuation. Minimizing shield mass plus fuselage structure over the reactor-to-crew
+separation gives an interior optimum at 10.1 metres, which a 49 metre B-36 fuselage accommodates
+easily and which is the geometry the NB-36H actually used. The resulting shield weighs about 37
+tonnes, a fifth of gross weight and 95 percent of the B-36's maximum bomb load.
+
+Two consequences follow from the exponential and are the article's contribution. Shield thickness
+depends on the logarithm of reactor power, so a thousandfold power increase costs under nine
+centimetres of lead, which makes the shield a fixed overhead rather than a proportional cost and
+excludes small nuclear aircraft entirely rather than merely making them hard. The same logarithm
+means accepting ten times the crew dose saves about two percent of the aircraft, so the programme
+could not have been rescued by being braver.
+
+The durable output was a reactor rather than an aircraft. The Aircraft Reactor Experiment ran at Oak
+Ridge in 1954 as the world's first molten salt reactor, and that concept is under active commercial
+development seventy years later while the aircraft remains unbuilt.
+
+Verification complete. All 287 references cited with zero undefined, zero orphaned, and zero
+duplicate URLs, all 177 meaningful-404 URLs swept at 200 across three archives, all 74 OSTI records
+and 12 NTRS records verified individually, all 51 DOIs Crossref-resolved on author and title,
+`_verify.py` clean at the 0-error 21-warning corpus baseline, zero contractions, em-dashes, en-dashes,
+prose colons, prose semicolons, or prose parentheticals, zero doubled words, zero display-math seam
+defects, isolated build succeeding with Part 7 navigation and zero unresolved anchors.
+
+One arithmetic error was found by independent re-derivation and corrected, a decay-heat energy
+integral stated as 58 gigajoules that computes to 73.
+
+**Publication order dependency now seven deep.** A303 cites A302, A301, A300, A299, A298, and A297.
+
 ## X-Planes Bell X-5 A302 2025-10-11
 
 `x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
