@@ -9,99 +9,103 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A303 equation-density review. Committed and **not pushed**. **No article in this series is
+**Task**: A303 primary-reference review. Committed and **not pushed**. **No article in this series is
 published.**
 
-**37 to 92 display equations, 995 to 1235 lines.** Equations and references are inside band.
+**287 to 358 references, 85 to 156 primary technical documents, 1235 to 1385 lines.** All three
+densities are now inside band, and the line shortfall closed by citation rather than by padding.
 
 ---
 
-## The Pass Replaced an Assumption With a Derivation, and the Numbers Got Worse
+## Every Coefficient the Article Uses Now Has Its Source
 
-The draft assumed a ten-million-fold attenuation because that is a plausible round number. Deriving
-it instead changes the article.
+The equation pass left the article quoting physical constants it could not attribute. A buildup
+factor of ten, a neutron removal cross-section of 0.095 per centimetre, a flux-to-dose conversion, a
+core pressure drop. Those are the numbers the whole shield derivation turns on, and they were
+standing on my assertion.
 
-Working forward from the fission rate gives a gamma source of $2.5 \times 10^{19}$ photons per second,
-and at ten metres unshielded that is **9.8 grays per second, when about five grays is a lethal
-whole-body dose**. One second of exposure at ten metres from an unshielded hundred megawatt core kills
-the crew. Holding them to fifty millisieverts across a hundred-hour flight then demands an attenuation
-of $7.1 \times 10^{7}$, which is **25.7 centimetres of lead rather than 23.2**, and a gamma shield of
-**41 tonnes rather than 37**. That is 22 percent of gross weight and **106 percent of the B-36 maximum
-bomb load**, where the draft said 95 percent.
+They are all in the programme's own record.
 
-The draft also treated only gammas. Neutrons need a hydrogenous layer attenuated by a removal
-cross-section rather than a photon coefficient, and lithium hydride requires **2.2 metres and 24.5
-tonnes**. Stated as an upper bound rather than an addition, because a layered design attenuates both
-radiations in both materials and beats the sum, so the true figure lies between 41 and 66 tonnes.
+- **Chapman 1955** tabulates the effective neutron removal cross-sections for shielding.
+- **Auslender 1957** computes the gamma buildup factors by Monte Carlo, for layered configurations.
+- **Eggen 1961** gives the fast-neutron spectra and the dose-rate calculation.
+- **Segaser 1948** measures pressure drop through fuel element channels, and it is among the earliest
+  documents in the entire archive.
+- **Waldrop 1958** treats lithium hydride specifically as a *mobile* neutron shield, which is the
+  aircraft requirement written as a material specification.
 
-Either way the conclusion sharpens rather than softens. **The shield weighs at least the payload.**
-
----
-
-## A Validation the Draft Did Not Have
-
-This is the addition I would least want lost, because it is the only place in the article where the
-derivation can be checked against hardware.
-
-Apply the same chain to the one megawatt ASTR in the NB-36H at fifteen metres rather than to a
-propulsion reactor. Scaling the source and the distance gives 157 grays per hour unshielded, and
-holding the crew to fifty millisieverts across the 89 hours the reactor actually ran demands 18.7
-centimetres of lead, which for a six square metre bulkhead is **12.7 tonnes**. Repeating with the far
-more permissive occupational allowance of the 1950s gives 16.4 centimetres and **11.2 tonnes**.
-
-**The reported crew shield was eleven to twelve tonnes.** The two estimates bracket it.
-
-The method used throughout this article reproduces the one aircraft in it that actually flew, which
-is the closest thing to validation available for a programme that never built its aeroplane, and it
-is why the propulsion-reactor figures are worth taking seriously rather than treating as arithmetic
-exercises.
+**The article no longer quotes a constant it cannot attribute.**
 
 ---
 
-## What Else Went In
+## The Lexington Project Recovered in Full
 
-The compact-core argument now has its criticality relation, so the article can say why every aircraft
-reactor in the programme used highly enriched fuel rather than merely noting that it did. The
-air-scattered term now carries the exponential atmosphere, giving a factor of four reduction between
-sea level and twelve kilometres, which is why the shield cannot be sized without first choosing the
-cruise altitude.
+The draft treated the 1948 feasibility study as a one-line verdict, fifteen years and a great deal of
+money. It was a numbered report series, and OSTI holds it.
 
-The direct cycle gained the Dittus-Boelter film relation that sets how much hotter a fuel element must
-run than the air it heats, a core power density of a hundred megawatts per cubic metre, and the core
-pressure drop as a thrust penalty, since a reactor is a heat exchanger where a combustor is an open
-volume. The decay heat section gained the adiabatic heat-up, giving **23 minutes from a cooling
-failure to a melted core an hour after the aircraft has landed**.
+There are reports on aircraft, on aircraft configuration, on a meeting with Boeing, and on something
+as specific as the tolerance of aerial reconnaissance film to nuclear radiation, plus an index
+complete enough to be a document in its own right.
 
-The molten salt argument is now quantitative. Vessel mass scales with pressure through the thin-shell
-relation, and a fluoride salt at 1000 kelvin against a pressurized water reactor at 600 is a pressure
-ratio of $1.5 \times 10^{4}$, so **the vessel is four orders of magnitude lighter**. That is why the
-concept survived in a place it was not invented for.
+**Most importantly it contains its own comparison baseline.** [Shoults 1948] examined whether
+chemically propelled aircraft could complete the same missions. That is the question that eventually
+ended the programme, it was asked at the very beginning, and it was answered wrongly.
 
-The cancellation now has a relation beside it. Refuelled range is a sum over segments with no bound
-the aircraft imposes, so **unlimited range was achieved by a logistics arrangement at zero cost in
-payload**. The nuclear aircraft was competing against a solution that had already won on its own
-metric.
+---
+
+## The Molten Salt Pivot, Documented As It Happened
+
+The draft asserted that the Aircraft Reactor Experiment became the ancestor of the modern molten salt
+reactor. The record shows the handover in progress.
+
+**McPherson 1957 is titled *Molten Salts for Civilian Power* and appeared while the aircraft programme
+was still running.** Briant 1957 argues molten fluorides as power reactor fuels, Grimes 1958 sets out
+the chemistry, and by MacPherson 1960 the concept is being evaluated against a ten-year plan that has
+nothing to do with aeroplanes.
+
+The people who built a reactor for an aircraft spent the late 1950s explaining that it would be more
+useful somewhere else, and they were right.
+
+---
+
+## Two Things With No Counterpart Elsewhere in the Series
+
+**Menegus 1958** computes the accidental dispersion of reactor materials in a crash and the distance
+that must be controlled around the site. No other aircraft in this series could contaminate the ground
+it fell on, and no other article has needed a citation of that kind.
+
+**A NEPA medical advisory panel subcommittee report evaluates the psychological aspects** of asking
+aircrew to fly a reactor. That is an unusual document to find in an aeronautical record and it says
+something about how the problem was understood at the time. Alongside it, Leverett 1960 investigates
+lens opacity in personnel operating a portable reactor, cataract being the effect that shows up first.
 
 ---
 
 ## Verification
 
-**All 34 worked values re-derived independently, none disagreeing beyond 3.5 percent.**
+358 references with zero undefined, zero orphaned, and zero duplicate URLs. All **248 meaningful-404
+URLs at 200 across three archives**. Every added OSTI record verified individually against the API.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations, zero doubled words,
+zero display-math seam defects. Isolated build succeeding with 92 rendered display blocks and Part 7
+navigation.
 
-287 references with zero undefined and zero orphaned. `_verify.py` at the 0-error 21-warning corpus
-baseline. Zero style violations, zero doubled words, zero consecutive-display runs. Isolated build
-succeeding with 92 rendered display blocks matching 92 source equations and Part 7 navigation.
-
-One seam defect was found and repaired, a neutron source equation with prose glued to the same line.
-The unbalanced-delimiter check caught it, which is the check that exists because of A297.
+A formulaic drift was caught and corrected. The construction `, and [Author]` reached 50 percent of
+body citations after the pass, because seventy references went in during one sitting. Nine passages
+were rotated, bringing it to 41.7 percent, with the remainder being genuine list conjunctions rather
+than a repeated citation verb.
 
 ---
 
 ## What Remains
 
-**Lines at 1235 are 65 short of the 1300 floor and have not been padded.** Contemporary references are
-already 32.8 percent of dated, inside the target range, so A303 does not have A302's deficit going
-into the later passes.
+**Contemporary references are 59 absolute and 23.5 percent of dated, down from 32.8 percent purely by
+dilution**, and that is now below the 28 to 33 percent target. Nothing was removed and nothing was
+padded. It is the publication review's business.
 
-**Publication order dependency is seven deep.** Two commits unpushed. Categories remain
+For scale, this article now holds 156 primary technical documents at **43.6 percent of all
+references, the highest in the series**, and 63.7 percent of its dated references fall in 1965 or
+earlier. That shape is what a programme whose entire technical life fit inside fifteen years looks
+like.
+
+**Publication order dependency is seven deep.** Three commits unpushed. Categories remain
 `aerospace history engineering`, seven articles deep.
