@@ -111,13 +111,13 @@ and with the numbers above,
 
 $$t_{\times} = \frac{2 \times 9.807 \times 10^{-4}}{9.80665 \times 6.976 \times 10^{-8}} = 2867 \, \text{s} = 47.8 \, \text{minutes}$$
 
-**Before forty-eight minutes of flight the accelerometers dominate the error, and after it the gyroscopes do.** Hold that number. It is the one the rest of this article turns on, and it is the reason a vehicle that flew beautifully could not answer the question it was built for.
+**Before forty-eight minutes of flight the accelerometers dominate the error, and after it the gyroscopes do.** Hold that number. It is the one the rest of this article turns on, and it is the reason an aeroplane that flew beautifully could not answer the question it was built for.
 
 ### What the X-9 Question Was, and Why This Is Not It
 
 The [X-9][related_post_a306_bell_x9] also had an accuracy specification and also drove it down into components, but the resemblance stops there. The X-9's error was geometric. It depended on where the missile was relative to its launcher and its target, and the article showed that the two candidate guidance architectures had error gradients of opposite sign in range. Nothing about it depended on the clock.
 
-The X-10's error is dynamic. It does not care where the vehicle is. It cares only how long the instruments have been integrating, and no geometry improves it. **The only thing that resets a dynamic error is an external observation**, which is why the Navaho carried a star tracker and why the vehicle is properly described as stellar-inertial rather than inertial.
+The X-10's error is dynamic. It does not care where the missile is. It cares only how long the instruments have been integrating, and no geometry improves it. **The only thing that resets a dynamic error is an external observation**, which is why the Navaho carried a star tracker and why the vehicle is properly described as stellar-inertial rather than inertial.
 
 ### What the Star Tracker Buys, and What It Costs
 
@@ -193,7 +193,7 @@ $$\varepsilon = 0.01 \times 1 = 0.01 \, \text{deg/hr}$$
 
 which is **four times the entire requirement from one degree of temperature error**.
 
-**A quarter of a kelvin, held for three hours, inside a vehicle whose skin is at a hundred degrees Celsius or more.** The temperature-controlled oven around an inertial platform is usually described as packaging. It is not. It is the component that makes the drift specification meaningful, and the thermal environment computed in the structural section above is what it has to work against. The transient it has to work against was being characterised at the time by [Mahlmeister et al 1955][research_mahlmeister_1955] and [Chen 1958][research_chen_1958], the latter treating exactly the skin temperature and thermal stress problem of sustained high-speed flight, with the honeycomb case in [Kendall and Gonzalez 1965][research_kendall_gonzalez_1965].
+**A quarter of a kelvin, held for three hours, inside an airframe whose skin is at a hundred degrees Celsius or more.** The temperature-controlled oven around an inertial platform is usually described as packaging. It is not. It is the component that makes the drift specification meaningful, and the thermal environment computed in the structural section above is what it has to work against. The transient it has to work against was being characterised at the time by [Mahlmeister et al 1955][research_mahlmeister_1955] and [Chen 1958][research_chen_1958], the latter treating exactly the skin temperature and thermal stress problem of sustained high-speed flight, with the honeycomb case in [Kendall and Gonzalez 1965][research_kendall_gonzalez_1965].
 
 ### The Budget Does Not Close
 
@@ -243,7 +243,9 @@ $$\frac{\varepsilon_{1}}{\varepsilon_{2}} = \frac{R_{m,2}}{R_{m,1}} = \frac{5500
 
 and from an original requirement near one hundred and seventy-five nautical miles the factor is 31.4. **Nobody ordering the X-10 in 1950 knew which of those factors the vehicle would have to demonstrate**, because the range requirement was still moving, and the vehicle that had to prove compliance was contracted before the number it was proving against had settled.
 
-The technical inheritance was German. Wartime German work on long-range guided weapons, both the ballistic line that produced the V-2 and the winged extensions that were studied but never flown, was distributed among American contractors after 1945, and North American received engineers, documents, and a rocket engine to reverse-engineer. The engine work is the thread that outlived everything else in the programme, and a captured-programme engine study of exactly this kind is [Singelmann and Mueller 1948][research_singelmann_mueller_1948]. Where that thread led is visible in the Redstone programme history of [Bullard 1965][research_bullard_1965] and, at the level of a released engine specification, in [Scott 1963][research_scott_1963], which documents a Rocketdyne sustainer of the line the Navaho booster work founded. The free-flight measurement technique that the American programmes used on their own missiles from the outset is [Delsasso et al 1948][research_delsasso_1948]. The parallel American effort at Northrop under MX-775 produced the subsonic Snark, whose free-flight aerodynamic testing appears in the same NACA series as the X-10's own and is cited below, and the two programmes are the airbreathing halves of a competition that the ballistic missiles eventually won outright. The programme resolved into three flying articles. The X-10 was the aerodynamic and guidance testbed, turbojet powered and recoverable. The G-26, designated XSM-64, was the ramjet-powered vehicle launched by a liquid rocket booster. The G-38, designated XSM-64A, was the enlarged full-range weapon. Only the first two flew.
+The technical inheritance was German. Wartime German work on long-range guided weapons, both the ballistic line that produced the V-2 and the winged extensions that were studied but never flown, was distributed among American contractors after 1945, and North American received engineers, documents, and a rocket engine to reverse-engineer. The engine work is the thread that outlived everything else in the programme, and a captured-programme engine study of exactly this kind is [Singelmann and Mueller 1948][research_singelmann_mueller_1948]. Where that thread led is visible in the Redstone programme history of [Bullard 1965][research_bullard_1965] and, at the level of a released engine specification, in [Scott 1963][research_scott_1963], which documents a Rocketdyne sustainer of the line the Navaho booster work founded. The free-flight measurement technique that the American programmes used on their own missiles from the outset is [Delsasso et al 1948][research_delsasso_1948]. The parallel American effort at Northrop under MX-775 produced the subsonic Snark, whose free-flight aerodynamic testing appears in the same National Advisory Committee for Aeronautics series as the X-10's own and is cited below, and the two programmes are the airbreathing halves of a competition that the ballistic missiles eventually won outright.
+
+The programme resolved into three flying articles. The X-10 was the aerodynamic and guidance testbed, turbojet powered and recoverable. The G-26, designated XSM-64, was the ramjet-powered vehicle launched by a liquid rocket booster. The G-38, designated XSM-64A, was the enlarged full-range weapon. Only the first two flew.
 
 Setting the three side by side shows how little of the weapon the testbed represented.
 
@@ -410,7 +412,7 @@ Recovery is in any case only half of the inlet problem. What the engine sees is 
 
 ### The Vehicle's Own Speed Record Bounds Its Inlet
 
-That caution can be turned into a quantitative constraint, because the full-scale vehicle demonstrated Mach 2.05 and a vehicle that cannot balance its drag does not reach a speed. The static pressure at the service ceiling is 14,902 pascals and the isentropic ram total-pressure ratio at Mach 2.05 is
+That caution can be turned into a quantitative constraint, because the full-scale article demonstrated Mach 2.05 and a machine that cannot balance its drag does not reach a speed. The static pressure at the service ceiling is 14,902 pascals and the isentropic ram total-pressure ratio at Mach 2.05 is
 
 $$\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}} = 8.458$$
 
@@ -424,7 +426,7 @@ $$\frac{\eta_{\min}}{\eta_{\text{normal shock}}} = \frac{0.622}{0.698} = 0.892$$
 
 **The full-scale inlet had to recover within about eleven percent of normal-shock values or the vehicle could not have reached the speed it is recorded as reaching.** Working the same relation forward, a two-shock inlet gives a thrust margin of 1.43 over drag, a plain normal shock gives 1.12, ninety percent of normal shock gives 1.01, and eighty-five percent gives 0.95 and therefore fails.
 
-This is an inference rather than a measurement and it inherits every assumption in the drag estimate, so the honest statement is that it links two uncertain quantities rather than determining either. What it does establish is that the free-flight model's sub-normal-shock duct recovery cannot have been a property of the full-scale vehicle at full-scale conditions, because the vehicle's own demonstrated performance forbids it. **The model-scale explanation is the correct one, and the article can say so on the vehicle's own evidence rather than on a plausibility argument.** Supersonic inlet work of the period spans [Ferri and Nucci 1951][research_ferri_nucci_1951], [Hermann 1950][research_hermann_1950], [Diggins 1951][research_diggins_1951], [Esenwein 1952][research_esenwein_1952], [Allen and Beke 1953][research_allen_beke_1953], [Kochendorfer 1953][research_kochendorfer_1953], [Pfyl 1955][research_pfyl_1955], [Hermann 1956][research_hermann_1956], [Kouyoumjian 1957][research_kouyoumjian_1957], [Mitchell and Campbell 1957][research_mitchell_campbell_1957], [Yeager and Gertsma 1958][research_yeager_gertsma_1958], [Blackaby et al 1959][research_blackaby_1959], [Mickola 1961][research_mickola_1961], and [Mahoney 1962][research_mahoney_1962], and [Seddon and Goldsmith 1999 Intake Aerodynamics][book_seddon_goldsmith_1999] gathers the discipline, while [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible] supplies the compressible-flow relations.
+This is an inference rather than a measurement and it inherits every assumption in the drag estimate, so the honest statement is that it links two uncertain quantities rather than determining either. What it does establish is that the free-flight model's sub-normal-shock duct recovery cannot have been a property of the full-scale inlet at full-scale conditions, because the X-10's own demonstrated performance forbids it. **The model-scale explanation is the correct one, and the article can say so on the X-10's own evidence rather than on a plausibility argument.** Supersonic inlet work of the period spans [Ferri and Nucci 1951][research_ferri_nucci_1951], [Hermann 1950][research_hermann_1950], [Diggins 1951][research_diggins_1951], [Esenwein 1952][research_esenwein_1952], [Allen and Beke 1953][research_allen_beke_1953], [Kochendorfer 1953][research_kochendorfer_1953], [Pfyl 1955][research_pfyl_1955], [Hermann 1956][research_hermann_1956], [Kouyoumjian 1957][research_kouyoumjian_1957], [Mitchell and Campbell 1957][research_mitchell_campbell_1957], [Yeager and Gertsma 1958][research_yeager_gertsma_1958], [Blackaby et al 1959][research_blackaby_1959], [Mickola 1961][research_mickola_1961], and [Mahoney 1962][research_mahoney_1962], and [Seddon and Goldsmith 1999 Intake Aerodynamics][book_seddon_goldsmith_1999] gathers the discipline, while [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible] supplies the compressible-flow relations.
 
 ### Drag, and What the Reported Ranges Cannot Mean
 
@@ -468,7 +470,7 @@ $$\frac{1009}{275} = 3.67 \qquad \frac{1370}{275} = 4.98$$
 
 $$\frac{L}{D} = \frac{R g c}{v \ln (W_{0}/W_{1})} = \frac{1.009 \times 10^{6} \times 9.80665 \times (1/3600)}{265.6 \times 0.4944} = 20.9$$
 
-falling to 12.6 if the specific fuel consumption is a very optimistic 0.6 per hour, and rising to 28.4 for the larger reported range. **A wing of aspect ratio 1.87 does not achieve a lift-to-drag ratio of twelve, let alone twenty-one**, under any assumption about the rest of the aeroplane. The conclusion is therefore stronger than a caution about the maximum-Mach case. The reported ranges cannot be reconciled with the reported weights on any cruise condition the vehicle could actually fly. This matters beyond bookkeeping, because it means the operational X-10 sortie may well have spent enough time aloft to sit on the useful side of the crossover computed above, and the flight durations rather than the range figures are what the navigation question turns on. [Whitcomb 1953][research_whitcomb_1953], [Margolis et al 1958][research_margolis_1958], and [Nelson and Welsh 1960][research_nelson_welsh_1960] carry the wave-drag and area-rule work of the period, while [Englert et al 1954][research_englert_1954] and [Slocumb and Andrews 1961][research_slocumb_andrews_1961] take up base drag.
+falling to 12.6 if the specific fuel consumption is a very optimistic 0.6 per hour, and rising to 28.4 for the larger reported range. **A wing of aspect ratio 1.87 does not achieve a lift-to-drag ratio of twelve, let alone twenty-one**, under any assumption about the rest of the aeroplane. The conclusion is therefore stronger than a caution about the maximum-Mach case. The reported ranges cannot be reconciled with the reported weights on any cruise condition the X-10 could actually fly. This matters beyond bookkeeping, because it means the operational X-10 sortie may well have spent enough time aloft to sit on the useful side of the crossover computed above, and the flight durations rather than the range figures are what the navigation question turns on. [Whitcomb 1953][research_whitcomb_1953], [Margolis et al 1958][research_margolis_1958], and [Nelson and Welsh 1960][research_nelson_welsh_1960] carry the wave-drag and area-rule work of the period, while [Englert et al 1954][research_englert_1954] and [Slocumb and Andrews 1961][research_slocumb_andrews_1961] take up base drag.
 
 **The two reported ranges disagree by a factor of 1.36 and this article does not resolve which is right.** Naming the disagreement is the correct treatment, and the Epistemic State repeats it.
 
@@ -476,7 +478,7 @@ falling to 12.6 if the specific fuel consumption is a very optimistic 0.6 per ho
 
 ### The Autonavigator
 
-The guidance system was North American's N-6, an inertial platform with an automatic star tracker, sometimes rendered NAVAN. The X-10 flew earlier radio-command equipment as well, with an AN/ARW-56 receiver against an AN/ARW-55 ground transmitter, and the later Cape Canaveral vehicles carried the autonavigator proper. **The programme therefore had two guidance systems aboard the same airframe for different purposes**, one to fly the vehicle where the range wanted it and one to be measured. That arrangement is what made the vehicle recoverable at all, since a test article guided only by the thing under test cannot be relied upon to come back. Treating the two as independent, the probability that at least one is available is
+The guidance system was North American's N-6, an inertial platform with an automatic star tracker, sometimes rendered NAVAN. The X-10 flew earlier radio-command equipment as well, with an AN/ARW-56 receiver against an AN/ARW-55 ground transmitter, and the later Cape Canaveral vehicles carried the autonavigator proper. **The programme therefore had two guidance systems aboard the same airframe for different purposes**, one to fly the X-10 where the range wanted it and one to be measured. That arrangement is what made recovery possible at all, since a test article guided only by the thing under test cannot be relied upon to come back. Treating the two as independent, the probability that at least one is available is
 
 $$P = 1 - (1 - p_{1})(1 - p_{2})$$
 
@@ -500,7 +502,7 @@ to
 
 $$\omega_{n} = 2.03 \, \text{rad/s} \quad \text{at Mach 2.05 with a 10 percent margin}$$
 
-**a factor of 3.2 across conditions the vehicle passes through on every single flight.** A fixed-gain pitch loop cannot hold consistent damping across that spread, so the autopilot had to schedule on dynamic pressure or Mach number, and it had to do so with analogue hardware. This is the sense in which the X-10's autopilot was a harder piece of engineering than its guidance. [Zarovsky 1951][research_zarovsky_1951] treats roll stabilisation of a supersonic pilotless aircraft in this exact period, [Seaberg 1950][research_seaberg_1950] gives autopilot forms, and [Hart 1956][research_hart_1956] the system practice. Servomechanism engineering of the period runs from [Lebell 1956][research_lebell_1956], [Evans 1957][research_evans_1957], [Kuba and Kazda 1958][research_kuba_kazda_1958], and [Etzweiler 1969][research_etzweiler_1969], [Fagin et al 1969][research_fagin_1969] and [Johnson 1971][research_johnson_1971] formulate it later, and [Gully and Skelley 1975][research_gully_skelley_1975] takes the cruise-missile case specifically. The standard texts are [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Etkin and Reid 1996 Dynamics of Flight][book_etkin_reid_1996].
+**a factor of 3.2 across conditions the X-10 passes through on every single flight.** A fixed-gain pitch loop cannot hold consistent damping across that spread, so the autopilot had to schedule on dynamic pressure or Mach number, and it had to do so with analogue hardware. This is the sense in which the X-10's autopilot was a harder piece of engineering than its guidance. [Zarovsky 1951][research_zarovsky_1951] treats roll stabilisation of a supersonic pilotless aircraft in this exact period, [Seaberg 1950][research_seaberg_1950] gives autopilot forms, and [Hart 1956][research_hart_1956] the system practice. Servomechanism engineering of the period runs from [Lebell 1956][research_lebell_1956], [Evans 1957][research_evans_1957], [Kuba and Kazda 1958][research_kuba_kazda_1958], and [Etzweiler 1969][research_etzweiler_1969], [Fagin et al 1969][research_fagin_1969] and [Johnson 1971][research_johnson_1971] formulate it later, and [Gully and Skelley 1975][research_gully_skelley_1975] takes the cruise-missile case specifically. The standard texts are [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Etkin and Reid 1996 Dynamics of Flight][book_etkin_reid_1996].
 
 ### The Turbojets, and the Engine That Was Not Tested
 
@@ -508,7 +510,7 @@ The X-10 flew on two Westinghouse J40 turbojets, an engine whose development dif
 
 $$\frac{T}{T_{\text{SL}}} \approx \eta \, \frac{p_{\infty}}{p_{\text{SL}}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}}$$
 
-in which the ram term rises steeply with Mach number while the ambient-pressure term falls with altitude, and the two very nearly cancel for this vehicle at its ceiling. **The engine is being asked to make sea-level thrust out of about one seventh of sea-level pressure**, and it manages only because ram compression at Mach 2.05 supplies a factor of 8.46. A turbojet at Mach 2 is therefore operating far from the condition its compressor was designed for, and the design problem was being actively worked in the open literature at the time by [Hurley 1951][research_hurley_1951], [Gabriel et al 1953][research_gabriel_1953], [Alford and Auyer 1954][research_alford_auyer_1954], and [Palmer 1956][research_palmer_1956], [Cesaro and Walker 1955][research_cesaro_walker_1955] takes the non-afterburning supersonic application and [Fleming et al 1956][research_fleming_1956] the afterburner behaviour. Inlet and engine compatibility, which the thrust calculation above treats as a single recovery number, is a dynamic problem in its own right and appears as such in [Calogeras 1969][research_calogeras_1969] and [Calogeras and Coltrin 1969][research_calogeras_coltrin_1969], [Chun and Swanson 1964][research_chun_swanson_1964] simulates it dynamically and [Burris 1966][research_burris_1966] supplies a test method.
+in which the ram term rises steeply with Mach number while the ambient-pressure term falls with altitude, and the two very nearly cancel for this airframe at its ceiling. **The engine is being asked to make sea-level thrust out of about one seventh of sea-level pressure**, and it manages only because ram compression at Mach 2.05 supplies a factor of 8.46. A turbojet at Mach 2 is therefore operating far from the condition its compressor was designed for, and the design problem was being actively worked in the open literature at the time by [Hurley 1951][research_hurley_1951], [Gabriel et al 1953][research_gabriel_1953], [Alford and Auyer 1954][research_alford_auyer_1954], and [Palmer 1956][research_palmer_1956], [Cesaro and Walker 1955][research_cesaro_walker_1955] takes the non-afterburning supersonic application and [Fleming et al 1956][research_fleming_1956] the afterburner behaviour. Inlet and engine compatibility, which the thrust calculation above treats as a single recovery number, is a dynamic problem in its own right and appears as such in [Calogeras 1969][research_calogeras_1969] and [Calogeras and Coltrin 1969][research_calogeras_coltrin_1969], [Chun and Swanson 1964][research_chun_swanson_1964] simulates it dynamically and [Burris 1966][research_burris_1966] supplies a test method.
 
 **The engine the Navaho actually needed was flown by nobody in this programme.** The Wright XRJ47 ramjet intended for the weapon was evaluated separately, and [Reilly and Welna 1955][research_reilly_welna_1955] reports a preliminary evaluation of the flight-weight XRJ47-W-5, which is the single most directly relevant propulsion document in the accessible record and concerns an engine the X-10 never carried. Ramjet engine requirements for supersonic flight generally are [Walker 1952][research_walker_1952] with materials in [Besserer 1952][research_besserer_1952], and the combined-cycle idea that would have let one vehicle do both jobs appears in [Vault 1957][research_vault_1957], which postdates the X-10 and describes exactly the arrangement its recoverability requirement had forced the programme to do without.
 
@@ -572,7 +574,7 @@ and at a braking friction coefficient of 0.4 the ground roll is
 
 $$s = \frac{v^{2}}{2 \mu g} = \frac{7006}{2 \times 0.4 \times 9.80665} = 893 \, \text{m}$$
 
-The Air Force built a landing strip 200 feet wide and 10,000 feet long at Cape Canaveral specifically for this vehicle, and it survives as the Skid Strip. At 3048 metres the margin over the computed braking distance is
+The Air Force built a landing strip 200 feet wide and 10,000 feet long at Cape Canaveral specifically for the X-10, and it survives as the Skid Strip. At 3048 metres the margin over the computed braking distance is
 
 $$\frac{3048}{893} = 3.41$$
 
@@ -596,13 +598,13 @@ or 862 feet per minute, a rate that must be arrested to near zero in the last fe
 
 $$h(t) = h_{0} e^{-t / \tau_{f}}, \qquad \dot{h} = -\frac{h}{\tau_{f}}$$
 
-so a flare initiated at fifteen metres with a three-second time constant begins at five metres per second of sink and decays smoothly. **Three seconds at approach speed is 251 metres of runway**, and the vehicle has to judge its own height above the ground to a metre or so throughout, with 1953 instrumentation and nobody aboard. The period's own approach to the problem is [Payne 1968][research_payne_1968] on what a landing control law should optimise, [Lykken and Shah 1972][research_lykken_shah_1972] on using direct lift to improve the flare, [Patrick 1972][research_patrick_1972] on coupling automatic landing to microwave guidance, [Niessen 1973][research_niessen_1973] on smoothing approach guidance inertially, and [Crawford 1975][research_crawford_1975] on automatic guidance and control of a transport through the landing. Later formulations of the same control law are [Watson et al 1983][research_watson_1983], with the terminal-area problem in [Pines 1982][research_pines_1982] and a digital integrated system in [Halyo and Hueschen 1981][research_halyo_hueschen_1981].
+so a flare initiated at fifteen metres with a three-second time constant begins at five metres per second of sink and decays smoothly. **Three seconds at approach speed is 251 metres of runway**, and the aeroplane has to judge its own height above the ground to a metre or so throughout, with 1953 instrumentation and nobody aboard. The period's own approach to the problem is [Payne 1968][research_payne_1968] on what a landing control law should optimise, [Lykken and Shah 1972][research_lykken_shah_1972] on using direct lift to improve the flare, [Patrick 1972][research_patrick_1972] on coupling automatic landing to microwave guidance, [Niessen 1973][research_niessen_1973] on smoothing approach guidance inertially, and [Crawford 1975][research_crawford_1975] on automatic guidance and control of a transport through the landing. Later formulations of the same control law are [Watson et al 1983][research_watson_1983], with the terminal-area problem in [Pines 1982][research_pines_1982] and a digital integrated system in [Halyo and Hueschen 1981][research_halyo_hueschen_1981].
 
 **The X-10 was landing itself on a runway a decade before airliners did**, with a guidance loop closed through a ground radio link and an autopilot, and it is fair to say that the programme discovered how hard this was by losing vehicles to it.
 
 ### The Command Link Cannot Reach the End of the Leg
 
-The radio-command equipment is usually mentioned and never dimensioned, and dimensioning it produces a constraint that bears directly on the article's argument. A radio link between a vehicle at altitude $h$ and a station on the ground is limited by the horizon, which under standard atmospheric refraction is computed with an effective Earth radius four thirds of the true one,
+The radio-command equipment is usually mentioned and never dimensioned, and dimensioning it produces a constraint that bears directly on the article's argument. A radio link between an aircraft at altitude $h$ and a station on the ground is limited by the horizon, which under standard atmospheric refraction is computed with an effective Earth radius four thirds of the true one,
 
 $$d_{\text{horizon}} = \sqrt{2 \, k \, R_{e} \, h}, \qquad k = \frac{4}{3}$$
 
@@ -610,11 +612,11 @@ At the X-10's service ceiling this gives
 
 $$d_{\text{horizon}} = \sqrt{2 \times \tfrac{4}{3} \times 6.371 \times 10^{6} \times 13{,}650} = 482 \, \text{km}$$
 
-and adding a hundred-metre ground mast extends it only to 523 kilometres, because the vehicle's own altitude dominates. Against a reported navigation leg beyond a thousand kilometres this is
+and adding a hundred-metre ground mast extends it only to 523 kilometres, because the transmitter's own altitude dominates. Against a reported navigation leg beyond a thousand kilometres this is
 
 $$\frac{1000}{482} = 2.08$$
 
-**The leg is more than twice the radio horizon, so a single ground station cannot see the vehicle through it.** Either the range operated a chain of stations, which is what Cape Canaveral in fact developed, or the vehicle spent a substantial part of every long sortie beyond command range. Both readings support the same conclusion. Past the horizon the autonavigator is not being tested as a candidate subsystem but relied upon as the only one available, and the recoverability of the vehicle is what makes that acceptable rather than reckless.
+**The leg is more than twice the radio horizon, so a single ground station cannot see the X-10 through it.** Either the range operated a chain of stations, which is what Cape Canaveral in fact developed, or the vehicle spent a substantial part of every long sortie beyond command range. Both readings support the same conclusion. Past the horizon the autonavigator is not being tested as a candidate subsystem but relied upon as the only one available, and the recoverability of the vehicle is what makes that acceptable rather than reckless.
 
 The propagation engineering behind the horizon calculation is [Blake 1968][research_blake_1968], whose range-height-angle charts are the working form of the relation used above, with the over-horizon and low-angle measurements of [Cullen 1969][research_cullen_1969] showing how the simple geometric picture degrades in practice. Missile and space telemetry as a discipline of the period is surveyed by [Muehlner 1962][research_muehlner_1962], and the refraction corrections a range must apply before its tracking data mean anything are [Rowlandson and Herlihy 1969][research_rowlandson_herlihy_1969].
 
@@ -754,9 +756,23 @@ The programme's outputs outlived its purpose in three directions, and it is wort
 
 ## The Contemporary Literature
 
+### Identifiability, Which Became a Discipline After the Programme Ended
+
+The article's central result is that two error signatures were 97.4 percent correlated over the observation window the X-10 actually flew, so the drift rate could not be separated from the accelerometer bias with any useful precision. That is a statement about identifiability, and identifiability is now a field.
+
+The modern distinction the X-10's difficulty falls under is between structural and practical identifiability. A parameter is structurally identifiable if the model permits it to be recovered from perfect data and practically identifiable if the data actually collected suffice. **The X-10's drift rate was structurally identifiable and practically was not**, which is precisely the distinction drawn by [Simpson and Baker 2026][research_simpson_baker_2026] and by [Heitzman-Breen et al 2026][research_heitzman_breen_2026], with the structural side treated by [Salmaniw and Browning 2025][research_salmaniw_browning_2025]. The remedy, which is to choose the experiment so that the parameter becomes practically identifiable, is [Liu et al 2026, Optimal experiment design for prac][research_liu_2026_2]. The Fisher information matrix that quantifies how much an experiment tells you is [Andrade et al 2025][research_andrade_2025] and [Fayette et al 2026][research_fayette_2026], and the input-design problem of exciting a system enough to identify it is [Campregher et al 2025][research_campregher_2025], with parameter subset selection in [Wang and Qi 2024][research_wang_qi_2024].
+
+**The window sweep performed above is an optimal-experiment-design calculation with one free variable**, and the answer it returns, namely a flight of exactly one Schuler period, is the sort of answer that discipline exists to produce. Observability, the closely related property, is now analysed for inertial systems directly in [Yang et al 2026, Global Observability Analysis of R][research_yang_2026_3] and [Zhang et al 2026, Mitigating Observability-Induced I][research_zhang_2026_2], and observability-driven design of a celestial navigation observation appears in [Hou et al 2025][research_hou_2025].
+
+None of this vocabulary existed in 1953. The X-10 programme is not open to the charge that it ignored a known method, only to the observation that the method it needed had not been invented, which is the fairest reading available and the one the article adopts.
+
 ### Inertial Error Propagation, Which Is Now Computed Rather Than Bounded
 
-The error analysis this article performs by hand is now standard and automated. [Blum and Dambeck 2020][research_blum_dambeck_2020] propagates coloured noise through inertial mechanisations, [Brouk and DeMars 2021][research_brouk_demars_2021] handles uncertainty propagation with conic constraints, and [Bhatia and Geller 2020][research_bhatia_geller_2020] performs sensitivity analysis for precision inertial sensors. The relevant modern point is that the crossover time computed here as a single scalar is now the output of a full covariance propagation, and that the qualitative structure of a bounded accelerometer term against a secular gyroscope term survives unchanged.
+The error analysis this article performs by hand is now standard and automated. [Blum and Dambeck 2020][research_blum_dambeck_2020] propagates coloured noise through inertial mechanisations, [Brouk and DeMars 2021][research_brouk_demars_2021] handles uncertainty propagation with conic constraints, and [Bhatia and Geller 2020][research_bhatia_geller_2020] performs sensitivity analysis for precision inertial sensors. The relevant modern point is that the crossover time computed here as a single scalar is now the output of a full covariance propagation, and that the qualitative structure of a bounded accelerometer term against a secular gyroscope term survives unchanged. Theoretical error modelling of a strapdown system in the same tradition is [Mohammadkarimi et al 2025, Theoretical error modeling and ana][research_mohammadkarimi_2025_2].
+
+### Alignment and Calibration, Which the Article Showed to Be Worth Kilometres
+
+The relation derived above puts one arcminute of azimuth misalignment at 2.9 kilometres of cross-track error at intercontinental range, which makes ground alignment a coequal partner of airborne drift rather than a preliminary to it. That problem is still worked. Initial alignment is now attacked with learned models in [Wang et al 2025, IANet][research_wang_2025_4], the calibration and compensation of an initial-state error scheme is [Ding et al 2025][research_ding_2025], online calibration by error backpropagation is [Simak et al 2024][research_simak_2024], and Allan-variance-based noise characterisation, which is the modern form of asking what an instrument's drift actually is, appears in [Priya and Deepa 2024][research_priya_deepa_2024].
 
 ### Gyroscopes, Where the Numbers Finally Arrived
 
@@ -780,33 +796,69 @@ $$\delta x = R_{e} \varepsilon t = 6.371 \times 10^{6} \times 1.454 \times 10^{-
 
 Automatic celestial reference is now ordinary. [Siemes et al 2019][research_siemes_2019] calibrates a star tracker in orbit, [Ni et al 2019][research_ni_2019] gives attitude-correlated frame methods for weak signals, and [Ning et al 2019][research_ning_2019] integrates star pixel coordinates. The daylight tracking problem the Navaho solved with difficulty is now a design choice rather than a research question.
 
+**The architecture the N-6 pioneered has also come back under its own name.** Stellar-inertial integration is treated directly by [Kondrashkin et al 2025][research_kondrashkin_2025] and by [Yang et al 2026][research_yang_2026], which adds refraction to the celestial observation, and the strapdown version that dispenses with the gimballed platform entirely is [Teague and Chahl 2023][research_teague_chahl_2023] and [Teague and Chahl 2024][research_teague_chahl_2024]. Centroiding accuracy, which sets the arcsecond figure the article inverted from the reported circular error probable, is [Li et al 2023][research_li_2023], the benchmark problem is [Suthakar et al 2026][research_suthakar_2026], delayed measurements in the filter are [Kahraman and Soken 2023][research_kahraman_soken_2023], and the same idea applied on another planet is [Zhan et al 2022][research_zhan_2022], with a deep-space integration in [Wang et al 2024][research_wang_2024].
+
 ### Fault Detection, Which the X-10 Had No Means Of
 
 An unmanned vehicle that loses an instrument has no one aboard to notice. The X-10's losses were mechanical and terminal, but the guidance failure mode was live throughout, and the first XSM-64 launch was destroyed by a pitch gyroscope failure ten seconds after lift-off. Detecting and identifying such a failure in flight became possible only later, and the founding treatment is [Potter and Deckert 1972][research_potter_deckert_1972], with modern robustness work in [Lee et al 2024][research_lee_2024] and fault-protection architecture in [Schulte and Spencer 2020][research_schulte_spencer_2020]. **The redundancy that would have saved that vehicle was not unavailable for cost reasons. The analytical basis for using it did not yet exist.**
+
+It exists now, and the inertial case specifically is well developed. Fault detection and isolation for redundant inertial measurement units is [Xu et al 2023, A Novel Fault Detection and Isolat][research_xu_2023_3] and [Lukoyanov et al 2025][research_lukoyanov_2025], the airborne navigation case is [Dai et al 2023][research_dai_2023], estimation alongside detection is [Huang et al 2023][research_huang_2023], and active fault-tolerant control that reconfigures around a failure rather than merely reporting it is [Zhao et al 2024, Active Fault-Tolerant Strategy for][research_zhao_2024_2]. **A pitch gyroscope failing ten seconds after lift-off is now a detectable and survivable event**, which is the single clearest case in this article of a 1956 loss that modern practice would simply not incur.
 
 ### Navigation Without Satellites, Which Is Again a Live Problem
 
 The Navaho's problem was navigating with no external radio reference, and this has become topical again. Terrain-referenced navigation runs through [Park and Park 2019][research_park_park_2019], [Kang et al 2020][research_kang_2020], and [Carroll and Canciani 2021][research_carroll_canciani_2021], [Zhai and Wang 2020][research_zhai_wang_2020] and [Cui et al 2021][research_cui_2021] filter it robustly, [Alhassan and Ghahremani 2021][research_alhassan_ghahremani_2021] aligns it nonlinearly, and [Ermakov and Gogolev 2021][research_ermakov_gogolev_2021] and [Wang et al 2020][research_wang_2020] compare integration architectures. **The question the X-10 was built to answer is once more an open engineering question**, asked now about vehicles that must operate where satellite navigation is denied.
 
+The breadth of that effort is worth showing, because it is the clearest measure of how completely satellite navigation had displaced the problem and how completely the displacement has been undone. Visual localisation without satellites is [Shpagin and Panchenko 2026][research_shpagin_panchenko_2026], [Tsiopliakis 2026][research_tsiopliakis_2026], and [Li et al 2026, Mc-gvio][research_li_2026_4], terrain-relative navigation for descent is reviewed by [Rahuman and Lee 2026][research_rahuman_lee_2026], magnetic anomaly matching, which is the same trick as gravity matching on a different field, is [Pisarski et al 2026][research_pisarski_2026], the underwater case is [Praczyk and Zalewski 2026][research_praczyk_zalewski_2026], and constrained estimation in denied environments is [Yue et al 2026][research_yue_2026]. **Every one of these is a scheme for bounding a secular error with an external observation**, which is exactly what the star tracker did for the Navaho, and the modern literature has simply widened the catalogue of things that can serve as the observation.
+
 ### Reusability, Which Is Now Argued About in the Same Terms
 
 The X-10's economic case for recovery, and its failure to realise that case at 2.08 flights per airframe, is the same argument now conducted about launch vehicles. Life-cycle cost analysis of the kind the argument needs appears in [Jung et al 2022][research_jung_2022], and the recovery and reuse literature cited below approaches the problem from the trajectory side. The period's own attempt at the same reasoning is visible in the weapon-system cost material harvested for this article, which is largely about procurement rather than about the marginal cost of a flight. **The concept that the X-10 needed and did not have is the distinction between the cost of an airframe and the cost of a sortie**, and a programme that loses twelve of thirteen airframes has collapsed that distinction whether it meant to or not.
 
+The modern form of the argument is explicit about it. Lifecycle cost estimation for a reusable launch vehicle with the critical parameters identified is [Du et al 2025][research_du_2025], recovery-method comparison across mission classes is [Lee et al 2026][research_lee_2026], mission-based optimisation of a reusable unmanned vehicle is [Jung et al 2026][research_jung_2026], precision landing guidance that makes recovery repeatable is [Chen et al 2026][research_chen_2026], and the weapon-system version of the same accounting is [Setiawan et al 2025][research_setiawan_2025]. **The parameter these studies all identify as critical is the number of flights per article**, which for the X-10 was 2.08.
+
 ### Automatic Landing, Which Became Ordinary and Then Hard Again
 
-[Brukarczyk et al 2021][research_brukarczyk_2021] lands a fixed-wing unmanned aircraft automatically, reusable launch vehicle recovery trajectory planning appears in [Cheng et al 2021][research_cheng_2021] and [Mathavaraj and Padhi 2020][research_mathavaraj_padhi_2020], reusable landing structures are [Wang et al 2020, Parameterized Design and Dynamic A][research_wang_2020_3], and landing gear efficiency and failure work is [Han et al 2019][research_han_2019] and [Diltemiz 2021][research_diltemiz_2021]. The X-10's loss record is a reminder that recovery is a distinct engineering problem from flight, and the reusable-launch-vehicle literature has rediscovered this at much greater cost.
+[Brukarczyk et al 2021][research_brukarczyk_2021] lands a fixed-wing unmanned aircraft automatically, reusable launch vehicle recovery trajectory planning appears in [Cheng et al 2021][research_cheng_2021] and [Mathavaraj and Padhi 2020][research_mathavaraj_padhi_2020], reusable landing structures are [Wang et al 2020, Parameterized Design and Dynamic A][research_wang_2020_3], and landing gear efficiency and failure work is [Han et al 2019][research_han_2019] and [Diltemiz 2021][research_diltemiz_2021]. The X-10's loss record is a reminder that recovery is a distinct engineering problem from flight, and the reusable-launch-vehicle literature has rediscovered this at much greater cost. Carrier-based automatic landing is [Zhang et al 2025, Design of Automatic Landing System][research_zhang_2025_2], and the modern answer to the height-above-ground problem the X-10 had to solve with 1953 instrumentation is vision, in [Cheng and Lai 2026][research_cheng_lai_2026], [Han et al 2026][research_han_2026], and [Zhu et al 2026][research_zhu_2026].
+
+### The Landing Gear, Which Is Where the Fleet Was Actually Lost
+
+Twelve of thirteen airframes were lost, mostly on the ground, mostly to brakes, chutes, barriers, and directional control. That subject has its own current literature and it is larger than the guidance one. Terminal manoeuvres including gear dynamics are [Cacciola and Calabria 2026][research_cacciola_calabria_2026], shimmy, which is the directional instability that takes a vehicle off a runway, is [Liu et al 2026][research_liu_2026], impact loads are [Liu et al 2023, Landing Impact Load Analysis and V][research_liu_2023_2], structural design for ultimate load is [Titov and Serebryansky 2026][research_titov_serebryansky_2026] and [Chen and Chen 2026][research_chen_chen_2026], semi-active control of touchdown loads is [Durmuşoğlu 2026][research_durmusoglu_2026], and the failure side is [Xuan 2026][research_xuan_2026], [Sun et al 2024][research_sun_2024], [Chen et al 2022][research_chen_2022], and [Hsu et al 2022][research_hsu_2022] on predicting when a gear will fail before it does. **The X-10 had none of this and lost most of its fleet to it**, which is the plainest available statement of where the programme's engineering attention was not.
 
 ### Supersonic Inlets, Where the Free-Flight Anomaly Would Now Be Explained
 
-The inlet result that this article can only bound would today be resolved computationally. [Yamamoto et al 2020][research_yamamoto_2020] and [Farahani et al 2019][research_farahani_2019] predict buzz onset, [Chen and Tan 2019][research_chen_tan_2019] examines buzz diversity under strong disturbance, external-compression inlets free of violent buzz are [Chen et al 2019][research_chen_2019], suppression mechanisms are [Luo et al 2020][research_luo_2020], sideslip effects are [Dong et al 2019][research_dong_2019], and acoustic and vibration behaviour is [Zhu et al 2020][research_zhu_2020].
+The inlet result that this article can only bound would today be resolved computationally. [Yamamoto et al 2020][research_yamamoto_2020] and [Farahani et al 2019][research_farahani_2019] predict buzz onset, [Chen and Tan 2019][research_chen_tan_2019] examines buzz diversity under strong disturbance, external-compression inlets free of violent buzz are [Chen et al 2019][research_chen_2019], suppression mechanisms are [Luo et al 2020][research_luo_2020], sideslip effects are [Dong et al 2019][research_dong_2019], and acoustic and vibration behaviour is [Zhu et al 2020][research_zhu_2020], with a recent experimental study in [Sepahi-Younsi 2025][research_sepahi_younsi_2025].
+
+The failure modes that the X-10's designers could not name are now the subject matter. Unstart of the inlet and isolator is [Huang et al 2026][research_huang_2026], the shock-wave and boundary-layer interaction that drives it is [Kim and Park 2026][research_kim_park_2026], distortion delivered to the compressor is [Yang et al 2026, Effects of jet exhaust on engine i][research_yang_2026_4] and [Bond and Key 2026][research_bond_key_2026], detection of distortion from measured signals is [Wang et al 2025, Multi-level and multi-scale cross][research_wang_2025_6], the diverterless arrangement that removes the boundary-layer splitter plate the X-10 needed is [Askari and Abedi 2026][research_askari_abedi_2026], and integrated airframe and propulsion control is [Zeng et al 2026][research_zeng_2026]. **The article's inlet inference, which had to be made from the vehicle's own top speed because no full-scale duct measurement survives, is the kind of question a modern programme would answer by computation before the first article was built.**
+
+### Aerothermal Analysis, Which Would Have Placed the Aluminium Frontier Exactly
+
+The article puts the aluminium recovery-temperature limit at Mach 2.27 with a one-line relation and a representative recovery factor. A modern programme would compute it coupled to the structure. Aerothermoelastic analysis is [Kimmel et al 2026][research_kimmel_2026] and [Thawait et al 2024][research_thawait_2024], the coupled aerothermal calculation itself is [Bi et al 2024][research_bi_2024], thermal protection and drag reduction together are [Zuo et al 2025][research_zuo_2025], and optimisation across the aerothermal and structural problem at once is [İpek 2025][research_ipek_2025]. **The X-10 stopped just short of Mach 2.27 because it was made of aluminium, and the Navaho had to cross it. Nothing in the accessible record suggests the boundary was ever computed rather than met.**
 
 ### Parameter Identification, Which Is the Modern Form of the X-10's Actual Job
 
 The X-10's task was to estimate parameters of a system from flight data, and that is now a discipline. Aerodynamic parameter identification from flight test spans [Cao and Wei 2020][research_cao_wei_2020], [Hui et al 2019][research_hui_2019], and [Kulhánek 2019][research_kulhanek_2019], with in-flight lift and drag estimation in [Bergmann et al 2021][research_bergmann_2021] and unmanned flight-test evaluation in [Arif and Sasongko 2021][research_arif_sasongko_2021]. **The identifiability calculation performed above is the standard first question of that discipline and it was not asked in 1953**, which is the clearest sense in which this article applies a later method to an earlier programme.
 
+### Validation, and the Model-to-Flight Gap the Free-Flight Programme Lived In
+
+The article establishes that the free-flight models reached between a fifth and a half of full-scale Reynolds number, and that the full-scale vehicle then flew above the highest Mach number either ground method had covered. Quantifying the confidence such an extrapolation deserves is now its own subject. Uncertainty quantification of aerodynamic prediction is [Eldredge and Mousavi 2026][research_eldredge_mousavi_2026], [Zhang et al 2025, Efficient Aerodynamic Uncertainty][research_zhang_2025_10], and [Li et al 2023, Uncertainty quantification and aer][research_li_2023_4], the turbomachinery case is [Fu et al 2023][research_fu_2023], surrogate-model credibility is [Kirsch et al 2025][research_kirsch_2025], and computational estimation of lift and drag against measurement is [Ahmed et al 2024][research_ahmed_2024]. **A modern programme would attach a confidence interval to the extrapolation the X-10 programme simply made**, and the article's inability to say whether the sub-normal-shock duct recovery was real or an artefact of scale is the direct cost of that missing interval.
+
 ### Gravity Modelling, Which Removed an Error the Programme Could Not
 
 The deflection-of-the-vertical term that dominates the budget above is now largely a solved problem, because the gravity field has been surveyed from orbit to a resolution the 1950s could not approach. Satellite gravimetry and the geoid models built from it are what removed the term, and the star-tracker calibration work of [Siemes et al 2019][research_siemes_2019] belongs to the same mission family. **The single largest irreducible error in the Navaho's budget was eliminated not by a better instrument but by a better map**, and that is a kind of progress the programme could not have anticipated or purchased.
+
+The specific quantity the article computes is still being refined. A modern vertical-deflection dataset is [Schreutelkamp and Hirt 2026][research_schreutelkamp_hirt_2026], and optimising a deflection model from multidirectional data is [Li et al 2025, Tailored method for optimizing def][research_li_2025_6].
+
+**The deeper inversion is that the error term has become a navigation aid.** Where the Navaho was defeated by not knowing the gravity field, a modern vehicle matches the field it measures against a stored map and fixes its position from the residual, which turns the article's dominant error source into an observation. Gravity-aided inertial navigation is [Ahmadian 2026][research_ahmadian_2026] and [Mao et al 2024][research_mao_2024], map matching against a gravity anomaly field is [Li et al 2026, A Novel 2-d Marine Gravity Anomaly][research_li_2026_3] and [Li et al 2024, Gravity-aided navigation using Vit][research_li_2024_4], the gradient-tensor version is [Wan et al 2025][research_wan_2025], [Li et al 2025, Ggimn][research_li_2025_5], and [Gao et al 2024][research_gao_2024], and measuring the anomaly from a moving vehicle in the first place is [Zhang et al 2024, A Method for Land Vehicle Gravity][research_zhang_2024_3].
+
+### The Exposure Argument, Which Has Come Back
+
+The Navaho died because an airbreathing weapon is exposed for 172 minutes where a ballistic one is exposed for 32. That trade is live again, because the hypersonic glide vehicle is an attempt to get ballistic timelines with cruise-like manoeuvre, and the entire modern literature on tracking such a vehicle is an argument about how long the defender has.
+
+Trajectory optimisation and manoeuvrability trade-offs for a glide vehicle are [Doronzo 2026][research_doronzo_2026] and [Bonavita et al 2026][research_bonavita_2026]. The defensive side, which is prediction of where such a body will be, is [Cai and Zhuang 2025][research_cai_zhuang_2025], [Li et al 2025, Reentry glide vehicle trajectory p][research_li_2025_4], [Zang et al 2025][research_zang_2025], [Jang and Park 2026][research_jang_park_2026], and [Ünal et al 2025][research_unal_2025], with the ballistic reference case in [Dudush and Snovydovych 2026][research_dudush_snovydovych_2026]. **The reason so much effort goes into predicting a glide trajectory is that manoeuvre destroys the closed-form prediction the article used to compute 32.2 minutes**, and a defender who cannot predict has no engagement timeline at all. That is the Navaho's argument running in reverse, and it is why the airbreathing option is being reconsidered rather than merely remembered.
+
+### Command Links and Latency, Which Bounded the Test Rather Than the Weapon
+
+The article computes a radio horizon of 482 kilometres against a navigation leg beyond a thousand, so the X-10 spent much of every long sortie beyond command range. Modern unmanned operations have the same constraint and a much larger literature on living with it. Multi-hop command and telemetry is [Miura 2022][research_miura_2022], and the human-factors consequence of a delayed link, which is that an operator cannot close a loop faster than the link allows, is [Cox and Wong 2019][research_cox_wong_2019] and [Moniruzzaman et al 2021][research_moniruzzaman_2021]. **The X-10's answer was to make the vehicle autonomous past the horizon**, which is the same answer arrived at now, seventy years and a great deal of bandwidth later.
 
 ### Supersonic Cruise, Which Never Returned
 
@@ -926,16 +978,20 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 
 ### Research
 
+[research_ahmadian_2026]: https://doi.org/10.1016/j.measurement.2025.120161
+[research_ahmed_2024]: https://doi.org/10.1007/s11804-024-00420-7
 [research_aleinik_2025]: https://doi.org/10.1134/s2075108725700257
 [research_alford_1962]: https://doi.org/10.4271/620300
 [research_alford_auyer_1954]: https://doi.org/10.4271/540253
 [research_alhassan_ghahremani_2021]: https://doi.org/10.24425/mms.2021.137702
 [research_allen_beke_1953]: https://ntrs.nasa.gov/citations/19930087574
 [research_amacker_1967]: https://doi.org/10.1017/s0373463300030769
+[research_andrade_2025]: https://doi.org/10.1115/1.4067867
 [research_aoki_1966]: https://doi.org/10.1109/sap.1966.271163
 [research_arbic_gillespie_1953]: https://ntrs.nasa.gov/citations/20090026523
 [research_arif_sasongko_2021]: https://doi.org/10.47355/avia.v3i1.39
 [research_aschaffenburg_1962]: https://doi.org/10.21236/ad0400701
+[research_askari_abedi_2026]: https://doi.org/10.1016/j.flowmeasinst.2025.103045
 [research_azabi_2019]: https://doi.org/10.3390/aerospace6040042
 [research_ball_smith_1956]: https://ntrs.nasa.gov/citations/19660010446
 [research_bao_2019]: https://doi.org/10.1155/2019/6413410
@@ -943,6 +999,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_bergmann_2021]: https://doi.org/10.3390/aerospace8020043
 [research_besserer_1952]: https://doi.org/10.21236/ad0036272
 [research_bhatia_geller_2020]: https://doi.org/10.1002/navi.397
+[research_bi_2024]: https://doi.org/10.1016/j.cja.2024.06.017
 [research_biernson_1965]: https://doi.org/10.1109/tac.1965.1098076
 [research_blackaby_1959]: https://ntrs.nasa.gov/citations/19980228132
 [research_blake_1968]: https://doi.org/10.21236/ad0665018
@@ -950,6 +1007,8 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_blumenthal_denton_1962]: https://doi.org/10.21236/ad0291603
 [research_blumhagen_1963]: https://doi.org/10.1109/tane.1963.4502121
 [research_bona_hutchinson_1965]: https://doi.org/10.1002/j.2161-4296.1965.tb02129.x
+[research_bonavita_2026]: https://doi.org/10.2514/1.c038065
+[research_bond_key_2026]: https://doi.org/10.2514/1.j066481
 [research_bond_swanson_1953]: https://ntrs.nasa.gov/citations/20050029470
 [research_breakwell_1969]: https://ntrs.nasa.gov/citations/19690061381
 [research_broglio_1961]: https://doi.org/10.21236/ad0294976
@@ -960,25 +1019,34 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_bumer_1946]: https://doi.org/10.21236/ada801531
 [research_burris_1966]: https://doi.org/10.2514/6.1966-741
 [research_burstadt_1971]: https://ntrs.nasa.gov/citations/19710050036
+[research_cacciola_calabria_2026]: https://doi.org/10.3390/app16041686
+[research_cai_zhuang_2025]: https://doi.org/10.1016/j.dt.2024.11.001
 [research_callaway_1963]: https://doi.org/10.21236/ad0405121
 [research_calogeras_1969]: https://doi.org/10.2514/6.1969-487
 [research_calogeras_coltrin_1969]: https://ntrs.nasa.gov/citations/19690054687
 [research_campbell_ellis_1970]: https://doi.org/10.2514/6.1970-941
+[research_campregher_2025]: https://doi.org/10.1016/j.ifacol.2025.07.129
 [research_cao_wei_2020]: https://doi.org/10.1155/2020/5603169
 [research_carroll_canciani_2021]: https://doi.org/10.1002/navi.406
 [research_cesaro_walker_1955]: https://ntrs.nasa.gov/citations/19670022705
 [research_chen_1958]: https://doi.org/10.1115/1.4012730
 [research_chen_2019]: https://doi.org/10.2514/1.j057811
+[research_chen_2022]: https://doi.org/10.3390/s22041367
 [research_chen_2025]: https://doi.org/10.1038/s41378-025-01011-4
+[research_chen_2026]: https://doi.org/10.2514/1.g009289
+[research_chen_chen_2026]: https://doi.org/10.2514/1.c038684
 [research_chen_tan_2019]: https://doi.org/10.1016/j.ast.2019.105471
 [research_cheng_2021]: https://doi.org/10.1016/j.ast.2021.106965
+[research_cheng_lai_2026]: https://doi.org/10.1002/rob.70147
 [research_chou_smith_1974]: https://doi.org/10.21236/ada001135
 [research_chun_swanson_1964]: https://doi.org/10.2514/6.1964-598
 [research_church_taylor_1959]: https://ntrs.nasa.gov/citations/19980228032
+[research_cox_wong_2019]: https://doi.org/10.1177/1756829319869645
 [research_crane_adams_1950]: https://ntrs.nasa.gov/citations/19930086327
 [research_crawford_1975]: https://ntrs.nasa.gov/citations/19750023043
 [research_cui_2021]: https://doi.org/10.1016/j.ast.2021.106905
 [research_cullen_1969]: https://doi.org/10.21236/ad0861695
+[research_dai_2023]: https://doi.org/10.3390/aerospace10121024
 [research_dasaro_1970]: https://doi.org/10.21236/ad0706219
 [research_davies_haines_1965]: https://doi.org/10.1109/tac.1965.1098148
 [research_davis_1972]: https://ntrs.nasa.gov/citations/19740022813
@@ -986,15 +1054,21 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_diegoca_1961]: https://doi.org/10.21236/ad0843112
 [research_diggins_1951]: https://doi.org/10.21236/ad0895227
 [research_diltemiz_2021]: https://doi.org/10.1016/j.engfailanal.2021.105711
+[research_ding_2025]: https://doi.org/10.3390/s25216668
 [research_dong_2019]: https://doi.org/10.1063/1.5093559
 [research_doniger_1967]: https://doi.org/10.2514/6.1967-406
+[research_doronzo_2026]: https://doi.org/10.4236/aast.2026.113005
 [research_drakin_1963]: https://doi.org/10.21236/ad0295828
 [research_driver_1957]: https://ntrs.nasa.gov/citations/19930089678
 [research_driver_1958]: https://ntrs.nasa.gov/citations/19980232000
+[research_du_2025]: https://doi.org/10.1007/s42423-025-00187-1
+[research_dudush_snovydovych_2026]: https://doi.org/10.62524/msj.2025.3.4.20
 [research_duncan_1968]: https://doi.org/10.1002/j.2161-4296.1968.tb01584.x
 [research_dunmire_lopresti_1963]: https://doi.org/10.2514/6.1963-1024
+[research_durmusoglu_2026]: https://doi.org/10.3390/math14122195
 [research_dusek_1964_2]: https://doi.org/10.2514/3.2452
 [research_eisner_goodman_1964]: https://doi.org/10.2514/3.2430
+[research_eldredge_mousavi_2026]: https://doi.org/10.2514/1.j066257
 [research_englert_1954]: https://ntrs.nasa.gov/citations/19930088172
 [research_ermakov_gogolev_2021]: https://doi.org/10.34759/trd-2021-117-11
 [research_esenwein_1952]: https://ntrs.nasa.gov/citations/19930087252
@@ -1004,15 +1078,18 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_fairbairn_1964]: https://doi.org/10.2514/6.1964-628
 [research_farahani_2019]: https://doi.org/10.1016/j.ast.2019.02.002
 [research_faulkner_1961]: https://doi.org/10.21236/ad0265426
+[research_fayette_2026]: https://doi.org/10.1007/s11095-026-04024-4
 [research_fegley_weygandt_1963]: https://doi.org/10.1109/tce.1963.6373364
 [research_ferri_nucci_1951]: https://ntrs.nasa.gov/citations/19930083137
 [research_fleming_1956]: https://ntrs.nasa.gov/citations/19670095388
 [research_fournier_1961]: https://ntrs.nasa.gov/citations/19980228000
 [research_franklin_1954]: https://doi.org/10.1002/j.2161-4296.1954.tb00693.x
+[research_fu_2023]: https://doi.org/10.3390/aerospace10121022
 [research_fye_1966]: https://doi.org/10.21236/ada522410
 [research_gabriel_1953]: https://ntrs.nasa.gov/citations/19930087143
 [research_gallagher_1969]: https://doi.org/10.21236/ad0689780
 [research_gao_2020]: https://doi.org/10.3390/app10082898
+[research_gao_2024]: https://doi.org/10.1109/jsen.2024.3488733
 [research_gerber_1975]: https://doi.org/10.2514/6.1975-1089
 [research_gillespie_arbic_1951]: https://ntrs.nasa.gov/citations/20050030052
 [research_grammatikos_1967]: https://doi.org/10.1109/taes.1967.5408813
@@ -1023,9 +1100,11 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_hagiwara_1972]: https://doi.org/10.1007/bf02522052
 [research_halyo_hueschen_1981]: https://ntrs.nasa.gov/citations/19820036762
 [research_han_2019]: https://doi.org/10.2514/1.c035298
+[research_han_2026]: https://doi.org/10.1155/ijae/1555047
 [research_harri_1964]: https://doi.org/10.2172/4597699
 [research_hart_1956]: https://doi.org/10.21236/ad0108104
 [research_heimerl_hardrath_1965]: https://ntrs.nasa.gov/citations/20000011991
+[research_heitzman_breen_2026]: https://doi.org/10.1007/s11538-026-01639-x
 [research_hellings_1973]: https://doi.org/10.21236/ad0763718
 [research_helliwell_1952]: https://doi.org/10.1017/s0001925900000688
 [research_hermann_1950]: https://doi.org/10.21236/ada377566
@@ -1034,20 +1113,32 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_hiller_2019]: https://doi.org/10.1109/jmems.2019.2921607
 [research_horne_leland_1962]: https://ntrs.nasa.gov/citations/19620005764
 [research_horsfall_1958]: https://doi.org/10.1109/tane3.1958.4201596
+[research_hou_2025]: https://doi.org/10.1142/s273748072550030x
 [research_howard_kaufman_1964]: https://doi.org/10.21236/ad0444364
+[research_hsu_2022]: https://doi.org/10.3390/aerospace9080462
+[research_huang_2023]: https://doi.org/10.1016/j.conengprac.2023.105620
+[research_huang_2026]: https://doi.org/10.1016/j.ast.2026.112309
 [research_hui_2019]: https://doi.org/10.1061/(asce)em.1943-7889.0001542
 [research_hurley_1951]: https://doi.org/10.1115/1.4016500
+[research_ipek_2025]: https://doi.org/10.62802/qrgkjb97
+[research_jang_park_2026]: https://doi.org/10.5139/jksas.2026.54.1.33
 [research_johnson_1971]: https://doi.org/10.1109/tac.1971.1099830
 [research_johnson_mosely_1964]: https://doi.org/10.21236/ad0350496
 [research_jones_1970]: https://doi.org/10.1093/comjnl/13.3.301
 [research_jung_2022]: https://doi.org/10.5762/kais.2022.23.9.185
+[research_jung_2026]: https://doi.org/10.1007/s42405-025-01031-4
+[research_kahraman_soken_2023]: https://doi.org/10.1016/j.asr.2023.03.005
 [research_kang_2020]: https://doi.org/10.1049/iet-rsn.2020.0047
 [research_kashiwagi_1968]: https://doi.org/10.21236/ad0728502
 [research_kendall_gonzalez_1965]: https://doi.org/10.2514/3.43696
 [research_kepler_barry_1965]: https://doi.org/10.4271/650225
+[research_kim_park_2026]: https://doi.org/10.6112/kscfe.2026.31.2.084
+[research_kimmel_2026]: https://doi.org/10.2514/1.j065721
+[research_kirsch_2025]: https://doi.org/10.1115/1.4071802
 [research_klestadt_1971]: https://ntrs.nasa.gov/citations/19720012067
 [research_knoblach_1974]: https://doi.org/10.21236/ada003241
 [research_kochendorfer_1953]: https://ntrs.nasa.gov/citations/19930087800
+[research_kondrashkin_2025]: https://doi.org/10.21681/3034-4050-2025-5-55-66
 [research_kordes_mc_kay_1962]: https://ntrs.nasa.gov/citations/19630002688
 [research_kouyoumjian_1957]: https://ntrs.nasa.gov/citations/19660082192
 [research_kuang_2022]: https://doi.org/10.2139/ssrn.4161323
@@ -1059,16 +1150,30 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_lawrence_1952]: https://doi.org/10.21236/ad0021570
 [research_lebell_1956]: https://doi.org/10.1109/tac.1956.1100816
 [research_lee_2024]: https://doi.org/10.3390/aerospace11040268
+[research_lee_2026]: https://doi.org/10.3390/aerospace13010079
+[research_li_2023]: https://doi.org/10.1016/j.measurement.2022.112229
+[research_li_2023_4]: https://doi.org/10.1016/j.energy.2023.127289
 [research_li_2024]: https://doi.org/10.1088/1361-6501/ad6fc3
+[research_li_2024_4]: https://doi.org/10.1017/s0373463324000250
+[research_li_2025_4]: https://doi.org/10.1016/j.ast.2025.109960
+[research_li_2025_5]: https://doi.org/10.1109/tvt.2025.3554543
+[research_li_2025_6]: https://doi.org/10.1093/gji/ggaf484
+[research_li_2026_3]: https://doi.org/10.1109/tim.2026.3706210
+[research_li_2026_4]: https://doi.org/10.1109/tvt.2026.3707622
 [research_lichter_friedenreich_1962]: https://ntrs.nasa.gov/citations/19630007407
 [research_liu_2023]: https://doi.org/10.1364/ol.487077
+[research_liu_2023_2]: https://doi.org/10.3390/aerospace10110953
+[research_liu_2026]: https://doi.org/10.2514/1.c038663
+[research_liu_2026_2]: https://doi.org/10.1016/j.mbs.2026.109710
 [research_luce_jr_1949]: https://doi.org/10.21236/ada278113
+[research_lukoyanov_2025]: https://doi.org/10.17586/0021-3454-2025-68-1-79-88
 [research_luo_2020]: https://doi.org/10.3390/en13010217
 [research_lykken_shah_1972]: https://doi.org/10.2514/3.58988
 [research_macklnnon_madden_1972]: https://doi.org/10.2514/3.59028
 [research_mahlmeister_1955]: https://doi.org/10.21236/ad0093337
 [research_mahoney_1962]: https://doi.org/10.4271/620299
 [research_maiuzzo_1970]: https://doi.org/10.21236/ad0707129
+[research_mao_2024]: https://doi.org/10.1109/tgrs.2024.3428492
 [research_mardoc_1970]: https://doi.org/10.2514/6.1970-632
 [research_margolis_1958]: https://ntrs.nasa.gov/citations/19930084830
 [research_marstrander_lueg_1969]: https://doi.org/10.1109/tac.1969.1099322
@@ -1078,6 +1183,9 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_metzger_jircitano_1975]: https://doi.org/10.2514/6.1975-1092
 [research_mickola_1961]: https://doi.org/10.21236/ad0256347
 [research_mitchell_campbell_1957]: https://ntrs.nasa.gov/citations/19930089448
+[research_miura_2022]: https://doi.org/10.32474/arme.2022.03.000175
+[research_mohammadkarimi_2025_2]: https://doi.org/10.1038/s41598-025-25054-9
+[research_moniruzzaman_2021]: https://doi.org/10.2139/ssrn.4082840
 [research_monroe_1963]: https://doi.org/10.4271/630534
 [research_montgomery_1975]: https://ntrs.nasa.gov/citations/19770015869
 [research_morito_sidwell_1967]: https://doi.org/10.2514/6.1967-1140
@@ -1100,25 +1208,36 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_pfyl_1952]: https://ntrs.nasa.gov/citations/19710073552
 [research_pfyl_1955]: https://ntrs.nasa.gov/citations/19650003100
 [research_pines_1982]: https://ntrs.nasa.gov/citations/19820020393
+[research_pisarski_2026]: https://doi.org/10.1016/j.measurement.2026.121656
 [research_poritzky_1970]: https://doi.org/10.2514/6.1970-937
 [research_potter_deckert_1972]: https://ntrs.nasa.gov/citations/19720048522
+[research_praczyk_zalewski_2026]: https://doi.org/10.3390/s26144601
+[research_priya_deepa_2024]: https://doi.org/10.1007/s11082-024-06679-y
 [research_prizevoits_1961]: https://doi.org/10.21236/ad0273454
+[research_rahuman_lee_2026]: https://doi.org/10.1007/s42405-026-01139-1
 [research_reilly_welna_1955]: https://ntrs.nasa.gov/citations/19660027126
 [research_remmler_theobald_1967]: https://doi.org/10.2514/3.28881
 [research_rowlandson_herlihy_1969]: https://doi.org/10.21236/ad0692785
 [research_rumsey_lee_1961]: https://ntrs.nasa.gov/citations/19980235513
 [research_sakata_1975]: https://ntrs.nasa.gov/citations/19750055457
+[research_salmaniw_browning_2025]: https://doi.org/10.1007/s00285-025-02225-w
 [research_schenkel_1974]: https://doi.org/10.21236/ada008554
 [research_schoenman_doniger_1965]: https://doi.org/10.4271/650571
+[research_schreutelkamp_hirt_2026]: https://doi.org/10.1007/s00190-026-02089-y
 [research_schuler_slater_1967]: https://doi.org/10.1002/j.2161-4296.1967.tb02190.x
 [research_schulte_spencer_2020]: https://doi.org/10.2514/1.i010673
 [research_schweppe_1964]: https://doi.org/10.21236/ad0609524
 [research_scott_1963]: https://doi.org/10.21236/ad0410255
 [research_seaberg_1950]: https://ntrs.nasa.gov/citations/20050019266
+[research_sepahi_younsi_2025]: https://doi.org/10.1016/j.ast.2025.110346
+[research_setiawan_2025]: https://doi.org/10.47172/2965-730x.sdgsreview.v5.n03.pe03872
 [research_shang_2020]: https://doi.org/10.3788/col202018.120601
+[research_shpagin_panchenko_2026]: https://doi.org/10.3390/drones10020097
 [research_shufeldt_1961]: https://doi.org/10.21236/ad0259559
 [research_shultz_1963]: https://doi.org/10.21236/ad0644106
 [research_siemes_2019]: https://doi.org/10.1016/j.asr.2018.10.030
+[research_simak_2024]: https://doi.org/10.3390/s24237525
+[research_simpson_baker_2026]: https://doi.org/10.1137/24m1667968
 [research_singelmann_mueller_1948]: https://doi.org/10.21236/ada402594
 [research_slater_1956]: https://doi.org/10.21236/ada284483
 [research_sleeman_1957]: https://ntrs.nasa.gov/citations/20050019253
@@ -1132,20 +1251,33 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_stauffer_1964]: https://doi.org/10.2514/6.1964-627
 [research_stevens_1958]: https://doi.org/10.1002/j.2161-4296.1958.tb02438.x
 [research_stowell_1948]: https://ntrs.nasa.gov/citations/19930082235
+[research_sun_2024]: https://doi.org/10.1088/1742-6596/2708/1/012010
+[research_suthakar_2026]: https://doi.org/10.1038/s41597-026-07736-9
 [research_sutherland_1968]: https://doi.org/10.21236/ad0851067
 [research_suzuki_2019]: https://doi.org/10.1541/ieejsmas.139.175
 [research_swanson_1963]: https://doi.org/10.21236/ad0427269
 [research_talwani_1966]: https://doi.org/10.4095/103302
 [research_taylor_1968]: https://doi.org/10.1017/s0001924000084347
+[research_teague_chahl_2023]: https://doi.org/10.3390/drones7010052
+[research_teague_chahl_2024]: https://doi.org/10.3390/drones8110652
 [research_templeman_parker_1968]: https://doi.org/10.2514/3.43940
+[research_thawait_2024]: https://doi.org/10.1007/s00707-024-04118-3
+[research_titov_serebryansky_2026]: https://doi.org/10.1007/s42401-026-00486-x
+[research_tsiopliakis_2026]: https://doi.org/10.1134/s2075108726700112
 [research_turner_1965]: https://doi.org/10.1016/b978-0-08-011074-5.50015-4
+[research_unal_2025]: https://doi.org/10.1016/j.ifacol.2025.12.211
 [research_vault_1957]: https://doi.org/10.4271/570206
 [research_walker_1952]: https://doi.org/10.21236/ad0041745
 [research_walker_1960]: https://doi.org/10.1049/sqj.1960.0043
 [research_walker_1961]: https://doi.org/10.1049/jiee-3.1961.0061
+[research_wan_2025]: https://doi.org/10.1016/j.geog.2024.11.001
 [research_wang_2020]: https://doi.org/10.1017/s0373463319000511
 [research_wang_2020_2]: https://doi.org/10.1504/ijvd.2020.114798
 [research_wang_2020_3]: https://doi.org/10.3390/sym12091572
+[research_wang_2024]: https://doi.org/10.1186/s43020-024-00140-x
+[research_wang_2025_4]: https://doi.org/10.1109/jiot.2025.3603219
+[research_wang_2025_6]: https://doi.org/10.1016/j.eswa.2025.126782
+[research_wang_qi_2024]: https://doi.org/10.1109/access.2024.3481318
 [research_ward_myers_1967]: https://doi.org/10.21236/ad0815090
 [research_watson_1983]: https://ntrs.nasa.gov/citations/19840005130
 [research_wetzel_1954]: https://ntrs.nasa.gov/citations/20090025891
@@ -1155,16 +1287,32 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_whitcombe_1961]: https://doi.org/10.21236/ad0259865
 [research_williams_1966]: https://doi.org/10.1002/j.2161-4296.1966.tb01816.x
 [research_wu_2021]: https://doi.org/10.1109/jsen.2021.3110054
+[research_xu_2023_3]: https://doi.org/10.1109/tim.2023.3284054
+[research_xuan_2026]: https://doi.org/10.54254/2755-2721/2026.bj33521
 [research_yamamoto_2020]: https://doi.org/10.1016/j.ast.2019.105523
+[research_yang_2026]: https://doi.org/10.1109/taes.2025.3642818
+[research_yang_2026_3]: https://doi.org/10.3390/s26092599
+[research_yang_2026_4]: https://doi.org/10.2298/tsci250222228y
 [research_yeager_gertsma_1958]: https://ntrs.nasa.gov/citations/19930090049
 [research_yntema_milwitzky_1952]: https://ntrs.nasa.gov/citations/19930083424
+[research_yue_2026]: https://doi.org/10.1109/jsen.2025.3648759
+[research_zang_2025]: https://doi.org/10.1016/j.dt.2025.02.001
 [research_zarovsky_1951]: https://ntrs.nasa.gov/citations/19930090535
+[research_zeng_2026]: https://doi.org/10.1016/j.ast.2026.113306
 [research_zhai_wang_2020]: https://doi.org/10.1063/5.0019305
 [research_zhai_yang_2020]: https://doi.org/10.1016/j.jfranklin.2020.03.002
+[research_zhan_2022]: https://doi.org/10.1017/s0373463321000680
+[research_zhang_2024_3]: https://doi.org/10.3390/wevj15080368
+[research_zhang_2025_10]: https://doi.org/10.1115/1.4067439
+[research_zhang_2025_2]: https://doi.org/10.3390/act14030114
+[research_zhang_2026_2]: https://doi.org/10.1109/tim.2026.3704134
 [research_zhao_2022]: https://doi.org/10.1364/prj.443496
 [research_zhao_2024]: https://doi.org/10.1016/j.measurement.2024.114808
+[research_zhao_2024_2]: https://doi.org/10.1109/taes.2023.3333763
 [research_zhu_2020]: https://doi.org/10.3390/en13082048
 [research_zhu_2025]: https://doi.org/10.1109/tim.2025.3548235
+[research_zhu_2026]: https://doi.org/10.3390/machines14050460
+[research_zuo_2025]: https://doi.org/10.1016/j.energy.2025.138526
 
 ### Related Post
 

@@ -183,7 +183,74 @@ than padded, and the contemporary-literature work of the publication review is e
 Contemporary coverage is 55 references, or 23.0 percent of dated, an absolute count well below the 101
 to 155 of A301 through A306, and that is the publication review's principal task.
 
-Held in `_drafts/` pending the publication review.
+**Publication review performed per `_docs/process/PUBLICATION_REVIEW.md`. All checks run.**
+
+**Contemporary coverage was the principal task and is closed.** A 64-query Crossref sweep returned 728
+new records, taking contemporary references from 55 to **151, or 45.1 percent of dated**, which sits at
+the top of the A301 through A306 range of 101 to 155. The sweep was aimed at the threads the equation
+and primary passes opened rather than at the article's original topics, so the additions attach to the
+article's own derivations.
+
+**The strongest contemporary finding is that the article's central analytical move is now a named
+discipline.** The distinction between structural and practical identifiability is exactly the X-10's
+difficulty. Its drift rate was structurally identifiable and practically was not, and the window sweep
+performed in the equation pass is an optimal-experiment-design calculation with one free variable. None
+of that vocabulary existed in 1953, which means the programme is not open to the charge that it ignored
+a known method, only to the observation that the method had not been invented.
+
+Five subsections were added. Identifiability. Alignment and calibration. The landing gear, which is
+where the fleet was actually lost and which turns out to have a larger current literature than the
+guidance problem. Aerothermal analysis, which would have placed the aluminium frontier exactly.
+Validation and the model-to-flight gap. Two further subsections were added on the exposure argument,
+which has returned in the hypersonic glide vehicle literature, and on command links and latency. The
+gravity section carries the pass's best inversion, that the term which defeated the Navaho is now used
+as a navigation observation rather than suffered as an error.
+
+**Two defects found and fixed.** NACA appeared in prose with no spell-out anywhere in the article, which
+the acronym check caught. The Programme Origin section carried a paragraph merging the German
+inheritance, the Snark comparison, and the three flying articles, which was split.
+
+**Diction acted on.** `vehicle` measured 6.04 per thousand body words. Most uses are legitimate, since
+the word carries a distinction the aircraft-category argument depends on, but sixteen cases where it
+repeated inside a sentence or a short span were rotated across the X-10, the airframe, the article, the
+machine, the aeroplane, and the missile, bringing it to **5.00**. `flight` measures 5.23 and is left
+alone as the article's subject noun. No other content-independent word reaches 5.0. The apparent
+`research` outlier at 21 per thousand is the citation-anchor artefact the handoff documents and is not
+prose.
+
+**Acronyms otherwise clean.** CEP appears only in mathematical notation and circular error probable is
+spelled out at its first prose use. Every other flagged token is a model designation or programme brand
+name, which the convention exempts.
+
+**Structural conformance.** All twelve genre sections present and in order, with the three series-standard
+extras and one article-specific section on the aircraft-category question. The Source Base precedes
+Epistemic State. Zero duplicate headings.
+
+**Final verification**: 367 references with zero undefined, zero orphaned, and zero duplicate URLs. All
+66 fixed identifiers at 200, one of them after a transient read timeout that resolved on retry. **All 276
+DOIs Crossref-resolved on title at the 0.85 threshold with zero flagged, and the article contains no
+hand-entered identifier anywhere.** All 102 worked values re-derived and reproducing. `_verify.py` at the
+0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose
+semicolons, prose parentheticals, doubled words, display-math seam defects, lone dollar-delimited lines,
+or link texts out of sync. Isolated build succeeding with 122 rendered display blocks, Part 11
+navigation, both tables, the debug tag, no unresolved reference links and no surviving Liquid tags.
+
+**A generator defect was found and fixed during the pass.** The master table held 105 duplicate URLs,
+because a DOI can arrive through more than one harvest file. The DTIC prefix filter and the period date
+filter return overlapping records and the two modern sweeps overlap as well. The cited set happened to
+be clean, which was luck rather than method. The generator now deduplicates by URL. A consequence worth
+recording is that **disambiguation suffixes are not stable across regenerations**, so an anchor must be
+verified against its title and not only against its display before it is cited.
+
+**Final state: 1329 lines, 122 display equations, 367 references, 18,323 words. All three densities are
+inside band and nothing was trimmed at any point.** 1329 against 1300 to 1600, 122 against 90 to 130,
+and 367 against 250 to 380. This is the second article in the series to finish that way, after A306, and
+it was again produced by approaching the bands from below and letting the later passes fill.
+
+Primary sources are 181 of 357 external, or 50.7 percent, having peaked at 69.3 percent before the
+contemporary additions grew the denominator. The absolute count is unchanged.
+
+**Committed and pushed. Not published.** All eleven articles in the series remain in `_drafts/`.
 
 ## X-Planes Bell X-9 Shrike A306 2025-10-15
 
