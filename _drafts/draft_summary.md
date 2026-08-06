@@ -21,10 +21,27 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
 
-995 lines, 37 display equations, 287 reference definitions, 11,690 words at the end of the draft
-pass. Equations and lines are below the full-aircraft band and await the equation-density pass.
-Contemporary references are already 32.8 percent of dated references, inside the target range on the
-draft alone, and references dated 1965 or earlier are 49.4 percent.
+1235 lines, 92 display equations, 287 reference definitions, 14,425 words after an equation-density
+review that added 55 equations across 31 edits. Equations and references are inside band. Lines are
+65 short of the 1300 floor and have not been padded. Contemporary references are 32.8 percent of
+dated references, inside the target range, and references dated 1965 or earlier are 49.4 percent.
+
+**The equation pass replaced an assumed attenuation factor with a derived one, and the numbers got
+worse.** The draft assumed a ten-million-fold attenuation. Deriving the gamma source from the fission
+rate gives an unshielded dose rate of 9.8 grays per second at ten metres, when about five grays is a
+lethal whole-body dose, so one second of exposure would kill the crew. Holding them to fifty
+millisieverts across a hundred-hour flight demands an attenuation of 7.1 times ten to the seventh,
+which is 25.7 centimetres of lead rather than 23.2, and a gamma shield of 41 tonnes rather than 37.
+That is 22 percent of gross weight and 106 percent of the B-36 maximum bomb load. A separate
+lithium hydride neutron layer of 2.2 metres and 24.5 tonnes takes the upper bound to 66 tonnes, or 35
+percent of gross and 1.7 times the payload.
+
+**The pass also found a validation the draft did not have.** Applying the same derivation chain to the
+one megawatt ASTR in the NB-36H at fifteen metres gives 18.7 centimetres of lead and 12.7 tonnes for
+a six square metre bulkhead, and 16.4 centimetres and 11.2 tonnes under the far more permissive
+occupational allowance of the 1950s. The reported crew shield was eleven to twelve tonnes. The two
+estimates bracket it, so the method used throughout the article reproduces the one aircraft in it
+that actually flew.
 
 **The first article in the series about an aircraft that was never built, and the class judgement went
 the other way from the obvious one.** The genre document reserves a documentation-poor class at 150
@@ -42,11 +59,10 @@ record is thin, is exactly wrong. This article introduces OSTI as a source archi
 The keystone is whether the mass of shielding a reactor requires can be carried by an aircraft that
 still has a reason to fly. The derivation gives about 100 megawatts of thermal power for a B-36-class
 cruise, consuming 0.44 kilograms of uranium-235 in a hundred hours against 837 tonnes of kerosene for
-the same energy, a ratio of nearly two million. Against that stands 23.2 centimetres of lead for a
-ten-million-fold attenuation. Minimizing shield mass plus fuselage structure over the reactor-to-crew
-separation gives an interior optimum at 10.1 metres, which a 49 metre B-36 fuselage accommodates
-easily and which is the geometry the NB-36H actually used. The resulting shield weighs about 37
-tonnes, a fifth of gross weight and 95 percent of the B-36's maximum bomb load.
+the same energy, a ratio of nearly two million. Against that stands the shield derived above.
+Minimizing shield mass plus fuselage structure over the reactor-to-crew separation gives an interior
+optimum at 10.1 metres, which a 49 metre B-36 fuselage accommodates easily and which is the geometry
+the NB-36H actually used.
 
 Two consequences follow from the exponential and are the article's contribution. Shield thickness
 depends on the logarithm of reactor power, so a thousandfold power increase costs under nine

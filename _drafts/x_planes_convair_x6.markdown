@@ -25,13 +25,45 @@ The attraction is easy to state and it is enormous. Fission releases about eight
 
 $$E_{\text{fission}} \approx 8.2 \times 10^{13} \ \text{joules per kilogram}, \qquad E_{\text{chem}} \approx 4.3 \times 10^{7} \ \text{joules per kilogram}$$
 
+The first of those follows from the energy released per fission event and the mass of the nucleus that supplies it,
+
+$$E_f \approx 200 \ \text{MeV} = 3.20 \times 10^{-11} \ \text{joules}, \qquad E_{\text{fission}} = \frac{E_f \, N_A}{M_{235}}$$
+
 gives a ratio of
 
 $$\frac{E_{\text{fission}}}{E_{\text{chem}}} = 1.9 \times 10^{6}$$
 
-A strategic bomber of the period consumed fuel by the tens of tonnes. The same energy delivered by fission is measured in grams. The mission this bought was a bomber that could remain airborne for days or weeks, holding a target at risk continuously rather than surging to reach it, and in 1946 that was an argument nobody in the Air Force needed persuading of. The [Army Air Forces began a project on Nuclear Energy for the Propulsion of Aircraft][research_gasser_1947] in May of that year, abbreviated NEPA.
+The rate at which a reactor must consume nuclei to hold a given power follows immediately,
+
+$$\dot{N}_f = \frac{P}{E_f}$$
+
+so a hundred megawatt core is fissioning
+
+$$\dot{N}_f = \frac{10^{8}}{3.20 \times 10^{-11}} = 3.12 \times 10^{18} \ \text{nuclei per second}$$
+
+and that number, rather than the power, is what determines everything difficult about the aircraft, because each of those events emits radiation as well as heat.
+
+A strategic bomber of the period consumed fuel by the tens of tonnes. The same energy delivered by fission is measured in grams. The figure of merit that governs a conventional bomber collapses. Endurance for a fuel-burning aircraft is the fuel divided by the flow required,
+
+$$t_{\text{endurance}} = \frac{m_{\text{fuel}}}{\text{TSFC} \times F}$$
+
+and for a nuclear aircraft the thrust-specific fuel consumption is not small but effectively zero,
+
+$$\text{TSFC} = \frac{\dot{m}_{\text{fuel}}}{F} \longrightarrow 0 \quad \Longrightarrow \quad t_{\text{endurance}} \longrightarrow \text{limited by something else}$$
+
+**The quantity that had bounded every bomber ever built stops bounding anything, and the binding constraint moves to the crew, the lubricating oil, and the reactor.** The mission this bought was a bomber that could remain airborne for days or weeks, holding a target at risk continuously rather than surging to reach it, and in 1946 that was an argument nobody in the Air Force needed persuading of. The [Army Air Forces began a project on Nuclear Energy for the Propulsion of Aircraft][research_gasser_1947] in May of that year, abbreviated NEPA.
 
 The objection is equally easy to state. A reactor at power is an intense source of gamma rays and neutrons, and the crew must survive the flight. Shielding is dense material, dense material is heavy, and the aircraft must carry all of it all of the time. The keystone is therefore not whether a reactor can produce the thrust, which was never seriously in doubt, but whether what must be wrapped around it leaves an aircraft worth building.
+
+A second constraint enters through the same door and deserves stating early. A reactor sustains itself when the neutron population reproduces, which is the criticality condition
+
+$$k_{\text{eff}} = \frac{\text{production}}{\text{absorption} + \text{leakage}} = 1$$
+
+and leakage grows as a core is made small. For a bare core the non-leakage probability is approximately
+
+$$P_{\text{NL}} \approx \frac{1}{1 + B^{2} M^{2}}, \qquad B^{2} = \left( \frac{\pi}{R} \right)^{2} \ \text{for a sphere}$$
+
+with $M^2$ the migration area. **An aircraft reactor must be compact, compact cores leak, and leaked neutrons must be paid for with enrichment or with a reflector.** Every aircraft reactor in this programme therefore used highly enriched fuel, which is a proliferation fact as well as an engineering one and which had no counterpart in any other aircraft in this series.
 
 That framing was understood at the outset. The [Lexington Project][research_stever_1948] convened at the Massachusetts Institute of Technology in 1948 to assess feasibility, and its verdict, that the thing was possible but would take fifteen years and a great deal of money, turned out to be very nearly exactly right in duration and wrong only in supposing that the endpoint would be reached. The analysis of the mission case ran alongside, including [studies of nuclear aircraft for antisubmarine warfare][research_aec_1950] where endurance rather than speed is the whole of the requirement, and [the performance parameters that would govern any such aircraft][research_ruffman_1952].
 
@@ -45,7 +77,15 @@ The [direct air cycle][research_shoults_1958] was assigned to General Electric a
 
 The indirect cycle went to Pratt and Whitney at Middletown, Connecticut. A liquid metal or molten salt loop carries heat from the core to a [heat exchanger][ref_heat_exchanger], and the air is heated there without ever entering the core. It is cleaner and it costs a temperature drop across the exchanger, an entire secondary loop with pumps and radiators, and the mass of all of it. The [circulating fuel reflector-moderator reactor][research_bigelow_1957] was its central concept.
 
-Under project MX-1589 Convair was to modify two B-36 airframes. One would carry a reactor to measure shielding, and one would become the X-6. The [B-36][ref_b36] was chosen for the reason that governs this entire article, which is that it was the largest aircraft available. Follow-on aircraft would have used the swept-wing [YB-60][ref_yb60]. The X-6 itself would have been powered by General Electric X-40 engines, which were [J47][ref_j47] derivatives adapted to nuclear heating, drawing on a P-1 reactor.
+Under project MX-1589 Convair was to modify two B-36 airframes. One would carry a reactor to measure shielding, and one would become the X-6. The [B-36][ref_b36] was chosen for the reason that governs this entire article, which is that it was the largest aircraft available. Its gross mass of about 186,000 kilograms over a wing of 443 square metres gives
+
+$$\frac{W}{S} = \frac{186{,}000 \times 9.80665}{443} = 4.12 \times 10^{3} \ \text{newtons per square metre}$$
+
+at an aspect ratio of
+
+$$A = \frac{b^{2}}{S} = \frac{70.1^{2}}{443} = 11.1$$
+
+which is a high-aspect-ratio, lightly loaded aeroplane built for endurance, and therefore the right starting point for a mission defined by staying airborne. Follow-on aircraft would have used the swept-wing [YB-60][ref_yb60]. The X-6 itself would have been powered by General Electric X-40 engines, which were [J47][ref_j47] derivatives adapted to nuclear heating, drawing on a P-1 reactor.
 
 The first airframe was built and flown. The second was not.
 
@@ -81,13 +121,39 @@ against the 837 tonnes of kerosene that would deliver the same energy. **A nucle
 
 ### What the Reactor Emits
 
-A reactor at power produces prompt fission gammas, fission product decay gammas, and fast neutrons, all in quantities proportional to the fission rate and therefore to the power. The dose rate at distance $r$ from a shielded source is governed by an exponential attenuation with a buildup correction,
+A reactor at power produces prompt fission gammas, fission product decay gammas, and fast neutrons, all in quantities proportional to the fission rate and therefore to the power. Taking about eight of the two hundred megaelectronvolts per fission as escaping gamma energy,
+
+$$P_\gamma \approx 0.04 \, P = 4.0 \ \text{megawatts}$$
+
+which at a mean photon energy near one megaelectronvolt is a source strength of
+
+$$S_\gamma = \frac{P_\gamma}{\bar{E}_\gamma} = \frac{4.0 \times 10^{6}}{1.60 \times 10^{-13}} = 2.50 \times 10^{19} \ \text{photons per second}$$
+
+and the neutron source follows from the yield per fission,
+
+$$S_n = \nu \, \dot{N}_f = 2.4 \times 3.12 \times 10^{18} = 7.49 \times 10^{18} \ \text{neutrons per second}$$
+
+Both scale linearly with the power, which is the fact the next two sections turn on.
+
+The dose rate at distance $r$ from a shielded source is governed by an exponential attenuation with a buildup correction,
 
 $$\dot{D}(r, x) = \frac{k \, P}{4 \pi r^{2}} \, B(\mu x) \, e^{-\mu x}$$
 
 in which $x$ is the shield thickness, $\mu$ the linear attenuation coefficient of the shield material, and $B$ the buildup factor accounting for photons that scatter into the beam rather than being removed from it. The factor $k$ collects the source spectrum and the conversion from fluence to dose.
 
 Two features of that expression govern everything. The distance term is a power law and the shield term is an exponential, and an exponential wins every argument it is in.
+
+It is worth establishing what is being attenuated from, because the figure decides the shield. Unshielded at ten metres the photon fluence rate is
+
+$$\varphi = \frac{S_\gamma}{4 \pi r^{2}} = \frac{2.50 \times 10^{19}}{4 \pi \times 100} = 1.99 \times 10^{16} \ \text{per square metre per second}$$
+
+and the dose rate follows from the energy fluence and the mass energy-absorption coefficient of tissue,
+
+$$\dot{D} = \varphi \, \bar{E}_\gamma \left( \frac{\mu_{en}}{\rho} \right)_{\text{tissue}} = 1.99 \times 10^{16} \times 1.60 \times 10^{-13} \times 3.09 \times 10^{-3}$$
+
+$$\dot{D} = 9.8 \ \text{grays per second}$$
+
+**Ten grays per second, when about five grays is a lethal whole-body dose.** One second of exposure at ten metres from an unshielded hundred megawatt core kills the crew. That is the number the shield must reduce, and stating it makes clear why the programme could not economize.
 
 Solving for the thickness required to hold the dose at a limit $\dot{D}_0$,
 
@@ -101,11 +167,31 @@ giving a tenth-value layer of
 
 $$x_{1/10} = \frac{\ln 10}{\mu} = \frac{2.303}{0.794} = 2.90 \ \text{centimetres}$$
 
-so every 2.9 centimetres of lead removes ninety percent of what reaches it. Demanding an attenuation of $10^{7}$ with a buildup factor of ten,
+so every 2.9 centimetres of lead removes ninety percent of what reaches it.
 
-$$x = \frac{\ln \left( 10^{8} \right)}{0.794} = \frac{18.4}{0.794} = 23.2 \ \text{centimetres}$$
+The attenuation demanded follows from the mission rather than from taste. Allowing the crew fifty millisieverts over a hundred-hour flight sets a rate limit of
 
-**Twenty-three centimetres of lead.** That is the number the programme spent fifteen years trying to reduce.
+$$\dot{D}_0 = \frac{0.05}{100} = 5 \times 10^{-4} \ \text{grays per hour}$$
+
+against an unshielded rate of $3.54 \times 10^{4}$ grays per hour, so
+
+$$\mathcal{A} = \frac{\dot{D}_{\text{unshielded}}}{\dot{D}_0} = \frac{3.54 \times 10^{4}}{5 \times 10^{-4}} = 7.1 \times 10^{7}$$
+
+and with a buildup factor of ten the thickness is
+
+$$x = \frac{\ln \left( \mathcal{A} B \right)}{\mu} = \frac{\ln \left( 7.1 \times 10^{8} \right)}{0.794} = \frac{20.4}{0.794} = 25.7 \ \text{centimetres}$$
+
+**Twenty-six centimetres of lead, and that is the gamma shield alone.** That is the number the programme spent fifteen years trying to reduce.
+
+Neutrons need a different material and are attenuated by a removal cross-section rather than by a photon coefficient,
+
+$$\varphi_n(x) = \varphi_n(0) \, e^{-\Sigma_R x}$$
+
+with $\Sigma_R$ near 0.095 per centimetre for [lithium hydride][ref_lih], which is the aircraft shield material of choice because it supplies hydrogen at low density and captures the moderated neutrons in lithium without emitting a penetrating capture gamma. The unshielded fast neutron dose rate at ten metres works out to some $7.5 \times 10^{5}$ sieverts per hour, so the attenuation required is $1.5 \times 10^{9}$ and
+
+$$x_n = \frac{\ln \left( 1.5 \times 10^{9} \right)}{0.095} = 222 \ \text{centimetres}$$
+
+**Two and a quarter metres of lithium hydride.** The two shields are not simply additive, since lead scatters neutrons inelastically and lithium hydride attenuates photons, so a layered design achieves both requirements in less material than the sum. The sum is nevertheless the honest upper bound, and the true figure lies between the lead alone and the two together.
 
 ### The Result That Decides the Programme
 
@@ -149,17 +235,21 @@ $$r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{m
 
 With the separation chosen and the thickness computed, the shield mass follows,
 
-$$m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.232 = 3.7 \times 10^{4} \ \text{kilograms}$$
+$$m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.12 \times 10^{4} \ \text{kilograms}$$
 
-or 37 tonnes, which against a gross weight of 186 tonnes is
+or 41 tonnes of lead, which against a gross weight of 186 tonnes is
 
-$$\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{37{,}200}{186{,}000} = 0.20$$
+$$\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}200}{186{,}000} = 0.221$$
 
-**A fifth of the aircraft is shielding.** The comparison that matters is not with the gross weight but with the payload, since a B-36 carried a maximum bomb load of about 39,000 kilograms and the shield estimated here is 37,200.
+**Twenty-two percent of the aircraft is gamma shielding**, and adding the neutron layer computed above takes the upper bound to
 
-$$\frac{m_{\text{shield}}}{m_{\text{payload}}} \approx 0.95$$
+$$\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}200 + 24{,}500}{186{,}000} = 0.353$$
 
-**The shield weighs approximately what the bomb load weighs.** A nuclear bomber buys unlimited range by giving up the payload that made the range worth having, and that sentence is the programme in one line. The trade is not fatal in principle, since a larger aircraft dilutes a fixed shield mass, and this is exactly why the design kept growing and why the follow-on was to be the larger YB-60. It is fatal in practice because the aircraft that dilutes the shield adequately is one nobody wanted to buy.
+The comparison that matters is not with the gross weight but with the payload, since a B-36 carried a maximum bomb load of about 39,000 kilograms,
+
+$$\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}200}{39{,}000} = 1.06$$
+
+**The gamma shield alone weighs slightly more than the entire bomb load, and the full shield weighs about 1.7 times it.** A nuclear bomber buys unlimited range by giving up the payload that made the range worth having, and that sentence is the programme in one line. The trade is not fatal in principle, since a larger aircraft dilutes a fixed shield mass, and this is exactly why the design kept growing and why the follow-on was to be the larger YB-60. It is fatal in practice because the aircraft that dilutes the shield adequately is one nobody wanted to buy.
 
 The programme knew this. [Shield optimization][research_blizard_1953] was a named research subject with its own literature by 1953, [shield weights][research_woodsum_1957] were tracked as a programme metric, and the effect of the shield on the centre of gravity was itself a design problem serious enough to warrant [its own study][research_phelps_1961]. Shield synthesis was pushed to the point of [formal minimum-weight optimization][research_troubetzkoy_1961], and the computational tools were built in-house, with [shield analysis programs][research_capo_1957] and [their successors][research_edwards_1958] developed specifically for the task.
 
@@ -175,9 +265,29 @@ subject to the constraint that the direct and scattered contributions together m
 
 $$\dot{D}_{\text{direct}} \left( x_r \right) + \dot{D}_{\text{scatter}} \left( x_r, x_c \right) \le \dot{D}_0$$
 
-the optimum divides the material between the two according to the relative areas, and because the reactor shadow shield can be small in area while the crew compartment shield must wrap a larger volume, the division is not obvious in advance. This is the calculation [Blizard 1953][research_blizard_1953] set out and that the [supercritical water reactor shield design procedure][research_deganahl_1954] and the [AC-series power plant shield calculations][research_mitchell_1954] applied to particular configurations.
+the optimum divides the material between the two according to the relative areas. Forming the Lagrangian and differentiating with respect to each thickness gives the condition that the marginal dose reduction per unit mass be equal in both shields,
 
-The scattered term is the reason the trick has a floor. Radiation that leaves the reactor in any direction can scatter off the surrounding air and arrive at the crew from outside the shadow, an effect that grows with air density and therefore falls with altitude, which is why [the effect of altitude and flight speed on shielding requirements][research_edwards_1954] was a subject in its own right. A shadow shield alone is insufficient in an atmosphere. The aircraft must fly high to make its own shielding lighter, which is a coupling between the flight condition and the structural mass that no conventional aircraft has.
+$$\frac{1}{\rho_s A_r} \frac{\partial \dot{D}}{\partial x_r} = \frac{1}{\rho_c A_c} \frac{\partial \dot{D}}{\partial x_c}$$
+
+and because each partial derivative carries its own exponential, the condition reduces to a relation between the two thicknesses and the ratio of areal masses,
+
+$$\mu_r x_r - \mu_c x_c = \ln \left( \frac{\rho_c A_c \, \mu_r}{\rho_s A_r \, \mu_c} \right)$$
+
+Because the reactor shadow shield can be small in area while the crew compartment shield must wrap a larger volume, the division is not obvious in advance. This is the calculation [Blizard 1953][research_blizard_1953] set out and that the [supercritical water reactor shield design procedure][research_deganahl_1954] and the [AC-series power plant shield calculations][research_mitchell_1954] applied to particular configurations.
+
+The scattered term is the reason the trick has a floor. Radiation that leaves the reactor in any direction can scatter off the surrounding air and arrive at the crew from outside the shadow, an effect that grows with air density and therefore falls with altitude, which is why [the effect of altitude and flight speed on shielding requirements][research_edwards_1954] was a subject in its own right. The scattered contribution can be written in the same form as the direct one but with the air acting as the scattering medium, so that it scales with the density along the path,
+
+$$\dot{D}_{\text{scatter}} \propto \rho_{\text{air}}(h) \, \frac{S_\gamma}{4 \pi r^{2}} \, f_{\text{geom}}$$
+
+and the atmosphere thins exponentially with altitude,
+
+$$\rho_{\text{air}}(h) = \rho_0 \, e^{-h / H}, \qquad H \approx 8.4 \ \text{kilometres}$$
+
+so climbing from sea level to twelve kilometres reduces the scattered term by
+
+$$\frac{\rho(12{,}000)}{\rho_0} = e^{-12/8.4} = 0.24$$
+
+A shadow shield alone is insufficient in an atmosphere. **The aircraft must fly high to make its own shielding lighter, which is a coupling between the flight condition and the structural mass that no conventional aircraft has**, and it means the shield cannot be sized without first choosing the cruise altitude.
 
 Material choice attacked the same problem from the other end. Gamma attenuation wants high atomic number and density, and neutron attenuation wants hydrogen. [Lithium hydride][ref_lih] supplies hydrogen at low density and captures neutrons in the lithium without producing a penetrating capture gamma, which makes it very nearly the ideal aircraft neutron shield, and [its properties were characterized in detail][research_welch_1961] under the programme. The [investigation of metallic hydrides as moderators, reflectors, and shields][research_gilbertjr_1955] pursued the same family.
 
@@ -195,9 +305,31 @@ and the heat the reactor must add to reach turbine inlet temperature $T_4$ from 
 
 $$P_{\text{thermal}} = \dot{m} \, c_p \left( T_4 - T_3 \right)$$
 
+The cycle behind them is a Brayton cycle whose thermal efficiency depends on the compressor pressure ratio alone in the ideal case,
+
+$$\eta_{\text{th}} = 1 - \left( \frac{1}{\pi_c} \right)^{\frac{\gamma - 1}{\gamma}}, \qquad T_3 = T_2 \, \pi_c^{\frac{\gamma - 1}{\gamma}}$$
+
 Nothing in either relation cares where the heat came from. The reactor is a heat source with a temperature limit, exactly as a combustor is, and the design problem is to get $T_4$ as high as the turbine will tolerate.
 
-That is where the difficulty lies. A combustor reaches flame temperatures far above what the turbine can take and the design problem is dilution. **A reactor must reach turbine inlet temperature in its own fuel elements, which must therefore run hotter than the air they are heating.** For a 1950s turbine tolerating something like 1150 kelvin at inlet, the fuel element surface must exceed that, and a fuel element at that temperature in a fast air stream is a materials problem of the first order. The programme built an entire literature on it, from [metallic fuel element materials][research_level_1962] through [high-temperature work reported at the ANP materials meetings][research_aec_1959_3].
+That is where the difficulty lies. A combustor reaches flame temperatures far above what the turbine can take and the design problem is dilution. **A reactor must reach turbine inlet temperature in its own fuel elements, which must therefore run hotter than the air they are heating.** The margin needed follows from the convective heat transfer at the element surface,
+
+$$q'' = h \left( T_w - T_{\text{air}} \right), \qquad \mathrm{Nu} = \frac{h D_h}{k} = 0.023 \, \mathrm{Re}^{0.8} \mathrm{Pr}^{0.4}$$
+
+and the total surface the core must present follows from the power and the achievable flux,
+
+$$A_{\text{fuel}} = \frac{P_{\text{thermal}}}{q''}$$
+
+so a core transferring a hundred megawatts at a megawatt per square metre needs a hundred square metres of heated surface packed into something like a cubic metre, which is a power density of
+
+$$\frac{P}{V} \approx 100 \ \text{megawatts per cubic metre}$$
+
+That is an order of magnitude above a contemporary power reactor, and it is demanded by an aircraft's intolerance for volume. For a 1950s turbine tolerating something like 1150 kelvin at inlet, the fuel element surface must exceed that, and a fuel element at that temperature in a fast air stream is a materials problem of the first order. The programme built an entire literature on it, from [metallic fuel element materials][research_level_1962] through [high-temperature work reported at the ANP materials meetings][research_aec_1959_3].
+
+Pushing air through that core costs pressure, and pressure lost between compressor and turbine is thrust not produced. The core acts as a duct with friction,
+
+$$\frac{\Delta p}{p} = f \frac{L}{D_h} \frac{\rho V^{2}}{2 p}$$
+
+and the fractional thrust penalty follows the fractional pressure loss closely for a turbojet, so a five percent core pressure drop is roughly a five percent thrust penalty on top of everything else. **A combustor adds heat at nearly constant pressure because it is an open volume. A reactor core is a heat exchanger and behaves like one.**
 
 The air itself becomes radioactive. Natural argon is 0.93 percent of the atmosphere and argon-40 captures a neutron to become [argon-41][ref_argon41], a gamma emitter with a 110 minute half-life. The activity produced scales with the neutron flux, the residence time, and the mass flow,
 
@@ -221,6 +353,14 @@ so the reactor must run hotter than the turbine inlet by the amount the exchange
 
 $$T_{\text{reactor}} - T_4 = \left( 1 - \varepsilon \right) \left( T_{\text{reactor}} - T_3 \right)$$
 
+Effectiveness is itself bought with surface area, through the number of transfer units,
+
+$$\mathrm{NTU} = \frac{U A_{\text{HX}}}{\left( \dot{m} c_p \right)_{\min}}, \qquad \varepsilon = 1 - e^{-\mathrm{NTU}} \ \text{for a large capacity ratio}$$
+
+so that pushing effectiveness from 0.9 to 0.95 nearly doubles the required area,
+
+$$\mathrm{NTU} = -\ln \left( 1 - \varepsilon \right) : \quad 2.30 \longrightarrow 3.00$$
+
 An effectiveness of 0.9 with a compressor discharge at 600 kelvin and a required turbine inlet of 1150 kelvin demands a reactor outlet of
 
 $$T_{\text{reactor}} = T_3 + \frac{T_4 - T_3}{\varepsilon} = 600 + \frac{550}{0.9} = 1211 \ \text{kelvin}$$
@@ -229,7 +369,11 @@ which is sixty kelvin hotter than the direct cycle needs, and the exchanger mass
 
 $$m_{\text{HX}} \propto \frac{P_{\text{thermal}}}{U \, \Delta T_{\text{lm}}}$$
 
-so demanding high effectiveness, which means small $\Delta T$, makes the exchanger large exactly when the mass budget is already spent. The [Pratt and Whitney circulating fuel reflector-moderator reactor][research_bigelow_1957] and the [lithium-cooled reactor experiment][research_hedden_1962] represent the state that programme reached, which never approached flight hardware. The engine performance studies are extensive, with [reactor, shield and performance data for a nuclear turbojet][research_larson_1958], [powerplant performance for a supersonic nuclear turbojet][research_larson_1958_2], [advanced characteristics for supersonic aircraft][research_larson_1959], and [nuclear JT-11 turbojet performance][research_larson_1959_2] all by the same author, alongside the [ANP powerplant data compilation][research_meyer_1965] that closes the series.
+so demanding high effectiveness, which means small $\Delta T$, makes the exchanger large exactly when the mass budget is already spent. The loop that feeds it costs power of its own,
+
+$$P_{\text{pump}} = \frac{\dot{m}_{\text{coolant}} \, \Delta p_{\text{loop}}}{\rho_{\text{coolant}} \, \eta_{\text{pump}}}$$
+
+which for a liquid metal at aircraft flow rates is not negligible and which must be supplied from the same reactor, reducing the thrust available by the amount it consumes. The [Pratt and Whitney circulating fuel reflector-moderator reactor][research_bigelow_1957] and the [lithium-cooled reactor experiment][research_hedden_1962] represent the state that programme reached, which never approached flight hardware. The engine performance studies are extensive, with [reactor, shield and performance data for a nuclear turbojet][research_larson_1958], [powerplant performance for a supersonic nuclear turbojet][research_larson_1958_2], [advanced characteristics for supersonic aircraft][research_larson_1959], and [nuclear JT-11 turbojet performance][research_larson_1959_2] all by the same author, alongside the [ANP powerplant data compilation][research_meyer_1965] that closes the series.
 
 The NACA contribution sits here. [Humble et al 1950][research_humble_1950] give a preliminary analysis of three cycles for nuclear aircraft propulsion, [Doyle 1951][research_doyle_1951] and [Doyle 1948][research_doyle_1948] work a mercury-vapour intermediate cycle, and [Cavicchi et al 1959][research_cavicchi_1959] design a subsonic nuclear logistic aircraft around a helium-cooled reactor. The state of the art was summarized by [Finger and Rom 1962][research_finger_1962] and in the [proceedings of the nuclear propulsion conference][research_naca_1962] the same year, by which point the subject had already moved to space.
 
@@ -245,7 +389,19 @@ with $t$ in seconds after shutdown. Evaluating for a hundred megawatt core,
 
 $$P_{\text{decay}}(1 \ \text{s}) = 6.6 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{h}) = 1.28 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{day}) = 0.68 \ \text{MW}$$
 
-**An hour after landing the reactor is still producing more than a megawatt.** In a direct-cycle aircraft the cooling medium is the air flowing through the engines, so the airflow must be maintained on the ground, after shutdown, indefinitely, or the core melts. A nuclear aircraft cannot simply be parked. It requires ground equipment to sustain core cooling, and the mass of heat that must go somewhere is comparable to a large industrial furnace running continuously in a hangar.
+**An hour after landing the reactor is still producing more than a megawatt.** What that means if the cooling stops can be written down directly. With no heat removal the core heats adiabatically,
+
+$$\frac{dT}{dt} = \frac{P_{\text{decay}}(t)}{m_{\text{core}} \, c_{p,\text{core}}}$$
+
+and for a five tonne core of specific heat 500 joules per kilogram kelvin at the one-hour decay power,
+
+$$\frac{dT}{dt} = \frac{1.28 \times 10^{6}}{5000 \times 500} = 0.51 \ \text{kelvin per second}$$
+
+or 31 kelvin per minute, so a core sitting at 1000 kelvin reaches a melting point near 1700 in
+
+$$t_{\text{melt}} \approx \frac{700}{0.51} = 1.4 \times 10^{3} \ \text{seconds} = 23 \ \text{minutes}$$
+
+**Twenty-three minutes from a cooling failure to a melted core, an hour after the aircraft has landed.** In a direct-cycle aircraft the cooling medium is the air flowing through the engines, so the airflow must be maintained on the ground, after shutdown, indefinitely, or the core melts. A nuclear aircraft cannot simply be parked. It requires ground equipment to sustain core cooling, and the mass of heat that must go somewhere is comparable to a large industrial furnace running continuously in a hangar.
 
 The time integral makes the point sharper. Total energy released after shutdown up to time $T$ is
 
@@ -260,6 +416,14 @@ The crew is not the only thing that must survive the reactor.
 Dose accumulates in materials as well as people, and the failure modes differ. Organic materials cross-link or embrittle, semiconductors accumulate lattice damage and charge, and lubricants polymerize. The accumulated dose at a component is the integral of the local rate over the mission,
 
 $$D_{\text{component}} = \int_0^{t_{\text{mission}}} \dot{D}(\mathbf{r}, t) \, dt$$
+
+The damage mechanism in a solid is displacement rather than ionization, and it is measured in displacements per atom accumulated over the fluence,
+
+$$\text{dpa} = \sigma_d \int_0^{t} \varphi_n \, dt = \sigma_d \, \Phi_n$$
+
+so a component's life is set by a fluence limit rather than by a dose rate,
+
+$$t_{\text{life}} = \frac{\Phi_{n,\text{limit}}}{\varphi_n}$$
 
 and because the components are distributed through the airframe rather than concentrated in one shielded volume, they cannot all be behind the shadow shield. The programme therefore had to develop [radiation-resistant motors for nuclear aircraft controls][research_fries_1958] and an entire design practice for [electronic systems intended to work in nuclear aircraft][research_levine_1960], restated the following year as [a major influence on such designs][research_levine_1961]. That is [radiation hardening][ref_rad_hardening] as an engineering discipline, and its origins are here.
 
@@ -277,7 +441,11 @@ Choosing $\dot{D}_0$ therefore chooses the shield mass, through the logarithm,
 
 $$m_{\text{shield}} \propto \ln \left( \frac{1}{\dot{D}_0} \right)$$
 
-and because the dependence is logarithmic, accepting ten times the dose saves only one tenth-value layer of material, which is 2.9 centimetres of lead and about four and a half tonnes on the geometry above. **Relaxing the crew dose limit by a factor of ten buys back about two percent of the aircraft.** That asymmetry is worth stating plainly, because it means the programme could not have been rescued by accepting a more dangerous aircraft. The exponential that makes shielding effective also makes it insensitive to how much risk one is willing to impose on the crew.
+The sensitivity is worth writing as a derivative, since it is the quantity a programme manager would actually want,
+
+$$\frac{\partial m_{\text{shield}}}{\partial \ln \left( 1 / \dot{D}_0 \right)} = \frac{\rho_s A}{\mu} = \frac{11{,}340 \times 14.1}{79.4} = 2.01 \times 10^{3} \ \text{kilograms per e-fold}$$
+
+so each factor of $e$ in permitted dose is worth two tonnes, and because the dependence is logarithmic, accepting ten times the dose saves only one tenth-value layer of material, which is 2.9 centimetres of lead and about four and a half tonnes on the geometry above. **Relaxing the crew dose limit by a factor of ten buys back about two percent of the aircraft.** That asymmetry is worth stating plainly, because it means the programme could not have been rescued by accepting a more dangerous aircraft. The exponential that makes shielding effective also makes it insensitive to how much risk one is willing to impose on the crew.
 
 ## The Flight Test Record
 
@@ -286,6 +454,16 @@ One aircraft flew and it was not the X-6.
 The [NB-36H][ref_nb36h], a B-36H-20-CF with serial 51-5712 that had been damaged by a tornado at [Carswell Air Force Base][ref_carswell] on 1 September 1952, was rebuilt as the Nuclear Test Aircraft. It carried the Aircraft Shield Test Reactor, a one megawatt air-cooled reactor of about 16,000 kilograms, hung in a bomb bay on a hook so it could be lowered into a shielded pit between flights. Water served as moderator and coolant and dumped its heat overboard through water-to-air exchangers. **The reactor never powered the aircraft.** Its purpose was to be a source, and the aircraft's purpose was to measure what that source did to a crew compartment and to the equipment around it.
 
 The crew section was rebuilt in lead and rubber at a mass variously reported between eleven and twelve tonnes, with leaded glass in the windows. The aircraft flew 47 times between 17 September 1955 and March 1957, accumulating 215 flight hours of which the reactor was operated during 89.
+
+The dose the crew accumulated is computable from the reported operating time and is the quantity the whole exercise existed to bound,
+
+$$D_{\text{crew}} = \dot{D}_{\text{shielded}} \, t_{\text{reactor}} = \dot{D}_{\text{shielded}} \times 89 \ \text{hours}$$
+
+so an allowance of fifty millisieverts across the whole programme sets the shielded rate at
+
+$$\dot{D}_{\text{shielded}} = \frac{0.05}{89} = 5.6 \times 10^{-4} \ \text{sieverts per hour}$$
+
+which is the design point the crew shield was built to and which the flights were flown to confirm.
 
 The measurements are the programme's most valuable output and they are documented. The reactor was [calibrated][research_nance_1957], its [fast neutron spectra measured][research_schaeffer_1958], and it was operated in conjunction with the [Tower Shielding Facility][research_kress_1958] so that airborne results could be compared against a ground installation where the geometry was known exactly. The Tower Shielding Facility itself required [its own critical experiments][research_magnuson_1956] and a [conceptual design study][research_frankfort_1956], and [multilayer shield experiments][research_henry_1958] ran alongside. The comparison of measured against calculated dose is the entire point, since a shield design method that has been validated against flight is worth more than one that has not.
 
@@ -299,6 +477,24 @@ The X-6 inverts the usual relationship, because there was no flight against whic
 
 For every other aircraft in this series the interesting question is where the ground facilities were wrong. Here the ground facilities are the entire record. The Aircraft Reactor Experiment, the Heat Transfer Reactor Experiments, the Tower Shielding Facility, and the NB-36H measurements form a body of validated engineering that was never assembled into an aeroplane, and the honest assessment is that the prediction was largely right and the programme was cancelled for reasons the prediction supported rather than contradicted.
 
+There is one check available, and it is worth performing because it is the only place in this article where the derivation can be tested against hardware that existed. Apply the shield calculation to the ASTR in the NB-36H rather than to a propulsion reactor.
+
+The source is a hundred times weaker and the separation is greater, so the unshielded rate at the crew station scales as
+
+$$\dot{D}_{\text{ASTR}} = \dot{D}_{100} \left( \frac{P_{\text{ASTR}}}{P_{100}} \right) \left( \frac{r_{100}}{r_{\text{ASTR}}} \right)^{2} = 9.84 \times \frac{1}{100} \times \left( \frac{10}{15} \right)^{2}$$
+
+$$\dot{D}_{\text{ASTR}} = 0.044 \ \text{grays per second} = 157 \ \text{grays per hour}$$
+
+Holding the crew to fifty millisieverts across the 89 hours of reactor operation demands
+
+$$\mathcal{A} = \frac{157}{5.6 \times 10^{-4}} = 2.8 \times 10^{5}, \qquad x = \frac{\ln \left( 2.8 \times 10^{6} \right)}{0.794} = 18.7 \ \text{centimetres}$$
+
+The NB-36H's crew shield was a bulkhead across the front of the compartment rather than a wrap around it, so the area is the compartment cross-section rather than its surface. Taking six square metres,
+
+$$m = \rho_s A x = 11{,}340 \times 6.0 \times 0.187 = 1.27 \times 10^{4} \ \text{kilograms}$$
+
+**Against a reported crew shield of eleven to twelve tonnes.** Repeating the calculation with the far more permissive occupational allowance of the 1950s, about 0.3 sieverts, gives 16.4 centimetres and 11.2 tonnes. The two bracket the reported figure. **The method used throughout this article reproduces the one aircraft in it that actually flew**, which is the closest thing to validation available for a programme that never built its aeroplane, and it is the reason the propulsion-reactor numbers above are worth taking seriously.
+
 The one place where flight added something the ground could not is the air-scattering term. A reactor on a tower over a field is not a reactor at altitude in a moving aircraft, and the scattered dose depends on the density and geometry of the air around the source. That is why the NB-36H flew rather than merely sitting on a stand, and it is why [Edwards 1954][research_edwards_1954] is a document about altitude and flight speed rather than about geometry alone.
 
 The deeper comparison is between what the programme predicted about itself and what happened to it. The Lexington Project in 1948 said fifteen years and a great deal of money. The programme ran fifteen years, spent about a billion dollars, and was cancelled. **The feasibility study was correct about the cost and the schedule and wrong only in assuming that a correct cost and schedule would be paid.**
@@ -307,7 +503,25 @@ The deeper comparison is between what the programme predicted about itself and w
 
 The aircraft was never built and the programme's output was substantial, which is the case this article exists to make.
 
-The most durable result is a reactor. The Aircraft Reactor Experiment, abbreviated ARE, run at [Oak Ridge][ref_ornl] in 1954, was the world's first [molten salt reactor][ref_msr], using a circulating fluoride salt as both fuel and coolant. It was built because a molten salt core offers high temperature at low pressure, which is exactly what an aircraft wants, and it ran successfully. [Its operation][research_cottrell_1955_2] and [the operating account of Bettis 1957][research_bettis_1957] document the experiment, [the hazards summary][research_cottrell_1952_3] preceded it, [the components of its fused-salt and sodium circuits][research_savage_1958] are described in detail, and it was [disassembled and examined afterward][research_cottrell_1958]. [ORNL's aircraft nuclear power plant designs][research_fraas_1954] give the surrounding context.
+The most durable result is a reactor. The Aircraft Reactor Experiment, abbreviated ARE, run at [Oak Ridge][ref_ornl] in 1954, was the world's first [molten salt reactor][ref_msr], using a circulating fluoride salt as both fuel and coolant. It was built because a molten salt core offers high temperature at low pressure, which is exactly what an aircraft wants, and it ran successfully.
+
+That combination is worth quantifying, because it is the whole of the concept's appeal and it is why the concept outlived the aircraft. A water-cooled reactor must be pressurized to keep its coolant liquid, and the saturation pressure climbs steeply with temperature,
+
+$$p_{\text{sat}}(T) \approx p_c \exp \left[ \frac{\Delta H_{\text{vap}}}{R} \left( \frac{1}{T_c} - \frac{1}{T} \right) \right]$$
+
+so a pressurized water reactor at 600 kelvin sits near 15.5 megapascals while a molten fluoride salt at 1000 kelvin has a vapour pressure below a kilopascal, a ratio of
+
+$$\frac{p_{\text{PWR}}}{p_{\text{salt}}} \approx 1.5 \times 10^{4}$$
+
+The vessel mass follows the pressure directly, since a thin spherical shell of radius $R$ holding pressure $p$ at allowable stress $\sigma$ requires
+
+$$t = \frac{p R}{2 \sigma} \quad \Longrightarrow \quad m_{\text{vessel}} = 4 \pi R^{2} \rho t = \frac{2 \pi \rho \, p R^{3}}{\sigma}$$
+
+A molten salt core carries a second property that mattered less to the aircraft than it does now. Because the fuel is dissolved in the coolant, thermal expansion of the salt removes fuel from the core, so the reactivity feedback is strongly negative,
+
+$$\alpha_T = \frac{\partial k_{\text{eff}}}{\partial T} < 0, \qquad \delta k = \alpha_T \, \delta T$$
+
+and a power excursion is self-limiting without any control action at all. **The pressure vessel mass is proportional to the pressure, so a molten salt reactor's vessel is four orders of magnitude lighter than a water reactor's at the same size.** For an aircraft that is decisive, and for a ground station it is merely attractive, which is why the idea survived in a place it was not invented for. [Its operation][research_cottrell_1955_2] and [the operating account of Bettis 1957][research_bettis_1957] document the experiment, [the hazards summary][research_cottrell_1952_3] preceded it, [the components of its fused-salt and sodium circuits][research_savage_1958] are described in detail, and it was [disassembled and examined afterward][research_cottrell_1958]. [ORNL's aircraft nuclear power plant designs][research_fraas_1954] give the surrounding context.
 
 **That reactor is the ancestor of a technology now under active commercial development.** The molten salt reactor is a serious contemporary subject, and the modern literature is treated below. An aircraft programme that produced no aircraft produced a reactor concept that outlived it by seventy years and is being commercialized as this is written. That is not a consolation prize. It is a better return than most flown programmes achieve.
 
@@ -327,6 +541,16 @@ The Aircraft Reactor Experiment's direct line is now a substantial commercial an
 
 The shield-mass problem this article derives is now solved computationally rather than empirically, but it is the same problem. [Ahmed 2026][research_ahmed_2026] reviews neutron shielding mechanisms and materials, [Liu et al 2026][research_liu_2026] present a dual-stage shielding optimization method, and [Huang et al 2025][research_huang_2025] optimize the shield of a heat pipe cooled reactor, which is a compact mobile reactor and therefore the same class of problem as an aircraft. [Lee and Cho 2025][research_lee_2025] address the question this article calls the boundary condition, namely how to set the radiation target level that the whole design then follows from.
 
+The modern statement of the problem is a constrained optimization over a layered geometry rather than the closed-form estimate used above,
+
+$$\min_{\mathbf{x}} \ \sum_{j} \rho_j A_j x_j \quad \text{subject to} \quad \dot{D}\left( \mathbf{x} \right) \le \dot{D}_0, \quad x_j \ge 0$$
+
+with the dose evaluated by transport rather than by an attenuation law, which is what makes it tractable to solve well and intractable to solve by hand. The gain over a hand estimate comes from letting the layer thicknesses vary independently and from exploiting the fact that each material attenuates both radiations,
+
+$$\dot{D} \left( \mathbf{x} \right) = \dot{D}_\gamma \prod_j B_j e^{-\mu_j x_j} + \dot{D}_n \prod_j e^{-\Sigma_{R,j} x_j}$$
+
+which is the coupling this article set aside when it treated the lead and the lithium hydride separately and called their sum an upper bound.
+
 Materials work continues along the lines the programme opened. [Bhardwaj et al 2024][research_bhardwaj_2024] fabricate neutron-absorbing metal hydride ceramic matrix composites, which is the lithium hydride idea in modern form, and [Stone et al 2024][research_stone_2024], [Khan et al 2025][research_khan_2025], and [Sekkat et al 2026][research_sekkat_2026] develop composite and additively manufactured shields. Space reactor shielding specifically is [Han et al 2025][research_han_2025] and [Han et al 2025][research_han_2025_2], with [Oğul et al 2026][research_ogul_2026] treating a small modular reactor. The crewed-vehicle version of the problem, which is the X-6's problem with the source moved outside, appears in [DeWitt and Benton 2024][research_dewitt_2024] on secondary proton buildup, [Matthiä and Berger 2024][research_matthia_2024] on lunar surface exposure, and [Yıldırım and Opçin 2026][research_yildirim_2026] on multilayer composites.
 
 ### Nuclear Propulsion Where the Shield Is Affordable
@@ -343,7 +567,19 @@ The question the X-6 was built to answer, which is how to fly without carrying t
 
 Hydrogen is the leading candidate and it has the same structural character as nuclear propulsion, which is that the energy is cheap and the container is expensive. [Li 2024][research_li_2024] reviews hydrogen-powered aircraft, [Jagtap et al 2024][research_jagtap_2024] and [Wahler et al 2025][research_wahler_2025] work the conceptual design and the aerostructural trade, [Sasi et al 2025][research_sasi_2025] treat hydrogen and ammonia turbofans, [Lu et al 2025][research_lu_2025] recover exhaust heat in a cryogenic installation, and [Zhang et al 2026][research_zhang_2026] address crashworthiness, which is the hydrogen version of the question the [nuclear aircraft safety programme][research_aec_1957_3] asked about dispersing a core. Batteries are the other candidate and their specific energy remains the binding constraint, as [Cetegen et al 2025][research_cetegen_2025] and [Peng et al 2024][research_peng_2024] show.
 
-**Every one of these is a fixed-overhead problem of the kind this article derives for the shield.** A cryogenic tank, like a shield, has a mass that does not shrink in proportion to the mission and that must be carried whether or not it is doing anything at that moment. The X-6's arithmetic is a special case of a general pattern in aircraft design, and recognizing it as such is worth more than the aircraft would have been.
+**Every one of these is a fixed-overhead problem of the kind this article derives for the shield.** The general form is worth writing down, because it is what the X-6 is an instance of. Let an aircraft carry a fixed installation of mass $m_{\text{fix}}$ that enables a mission but performs no work during it. The payload available is what remains,
+
+$$m_{\text{payload}} = m_{\text{gross}} - m_{\text{empty}} - m_{\text{fix}} - m_{\text{consumed}}$$
+
+and the configuration is viable only while that difference is positive and large enough to justify the aircraft,
+
+$$\frac{m_{\text{fix}}}{m_{\text{gross}}} < 1 - \frac{m_{\text{empty}}}{m_{\text{gross}}} - \frac{m_{\text{payload,min}}}{m_{\text{gross}}}$$
+
+For hydrogen the fixed installation is the tank, characterized by a gravimetric index,
+
+$$\eta_g = \frac{m_{\text{H}_2}}{m_{\text{H}_2} + m_{\text{tank}}} \quad \Longrightarrow \quad \frac{m_{\text{tank}}}{m_{\text{H}_2}} = \frac{1 - \eta_g}{\eta_g}$$
+
+so an index of 0.35 costs 1.86 kilograms of tank per kilogram of fuel while an index of 0.7 costs 0.43, and the entire commercial argument turns on which end of that range is achievable. A cryogenic tank, like a shield, has a mass that does not shrink in proportion to the mission and that must be carried whether or not it is doing anything at that moment. The X-6's arithmetic is a special case of a general pattern in aircraft design, and recognizing it as such is worth more than the aircraft would have been.
 
 ## Where the Framing Breaks Down
 
@@ -353,7 +589,11 @@ There was no flight, so there was no measurement of the keystone. Everything in 
 
 The programme's most valuable output is unrelated to its keystone. A molten salt reactor is not an answer to the question of whether shielding can be carried. It is a reactor concept that happened to suit an aircraft's requirements for high temperature at low pressure, and it survived because those requirements recur in contexts having nothing to do with aircraft. A framework that scores a programme against its own question will miss this entirely, and it is the most important thing that happened.
 
-The cancellation was not a technical decision and the framework has no place to put that. Intercontinental ballistic missiles made the indefinitely loitering bomber strategically uninteresting, and aerial refuelling made unlimited range achievable by other means. The X-6 was not defeated by its shield. **It was made pointless by two unrelated technologies while it was still arguing with its shield**, which is a much more common way for engineering programmes to end than failure is.
+The cancellation was not a technical decision and the framework has no place to put that. Intercontinental ballistic missiles made the indefinitely loitering bomber strategically uninteresting, and aerial refuelling made unlimited range achievable by other means. The second of those can be put beside the shield directly. A tanker delivers fuel at a cost in sorties rather than in airframe mass, so the range a refuelled conventional bomber achieves is
+
+$$R_{\text{refuelled}} = \frac{V}{c_t} \frac{L}{D} \sum_{i} \ln \left( \frac{m_{i}}{m_{f,i}} \right)$$
+
+summed over refuelling segments, and the sum has no upper bound that the aircraft itself imposes. **Unlimited range was achieved by a logistics arrangement rather than by a propulsion technology, at zero cost in payload.** The nuclear aircraft was competing against a solution that had already won on the metric it was optimizing. The X-6 was not defeated by its shield. **It was made pointless by two unrelated technologies while it was still arguing with its shield**, which is a much more common way for engineering programmes to end than failure is.
 
 ## The Source Base
 
@@ -375,11 +615,11 @@ Established historical fact includes the start of Project NEPA on 28 May 1946 un
 
 Established engineering analysis includes every relation in the sizing sections. The exponential attenuation law with buildup, the logarithmic dependence of shield thickness on power and on dose limit, the separation optimum, the Way-Wigner decay heat correlation, the turbojet thrust and heat addition relations, and the heat exchanger effectiveness relation are standard results.
 
-**Derived here and not taken from a source** are the hundred megawatt thermal power estimate for a B-36-class cruise, the 0.44 kilogram uranium consumption over a hundred hours, the 23.2 centimetre lead thickness for a $10^{7}$ attenuation, the 8.7 centimetre thickness increment for a thousandfold power increase, the 10.1 metre separation optimum, the 37 tonne shield mass and its ratios to gross weight and payload, the 1211 kelvin indirect-cycle reactor outlet requirement, and the decay heat figures. These follow by arithmetic from published dimensions and standard physical constants and can be reproduced or refuted by any reader with them.
+**Derived here and not taken from a source** are the hundred megawatt thermal power estimate for a B-36-class cruise, the 0.44 kilogram uranium consumption over a hundred hours, the gamma source strength and the ten gray per second unshielded dose rate at ten metres, the attenuation requirement of $7.1 \times 10^{7}$ that follows from a fifty millisievert mission limit, the 25.7 centimetre lead thickness and the 222 centimetre lithium hydride thickness, the 8.7 centimetre thickness increment for a thousandfold power increase, the 10.1 metre separation optimum, the 41 tonne gamma shield mass with a 66 tonne upper bound including neutrons and their ratios to gross weight and payload, the 100 megawatt per cubic metre core power density, the 1211 kelvin indirect-cycle reactor outlet requirement, the 23 minute adiabatic melt time, and the decay heat figures. These follow by arithmetic from published dimensions and standard physical constants and can be reproduced or refuted by any reader with them.
 
 Inference includes the central claim that the shield mass rather than any other difficulty was the binding constraint, and the subsidiary claim that the logarithmic dependence made the programme insensitive to relaxing the crew dose limit. Both are consistent with the record and with the fact that shield optimization was a named research subject throughout the programme, but neither is a statement the primary reports make in those terms.
 
-Weakly supported are the representative values. The lift-to-drag ratio of eighteen, the overall propulsive efficiency of 0.20, the shadow shield area of 14.1 square metres, the fuselage structural mass of 400 kilograms per metre, the attenuation requirement of $10^{7}$, and the buildup factor of ten are all plausible figures for the class rather than values taken from the design. The shield mass estimate should be read as establishing an order of magnitude and a ratio, not a design number. The ratio is more trustworthy than the absolute value, and the qualitative conclusion that shielding consumes a payload-sized fraction of a B-36 is robust to any reasonable choice of inputs.
+Weakly supported are the representative values. The lift-to-drag ratio of eighteen, the overall propulsive efficiency of 0.20, the shadow shield area of 14.1 square metres, the fuselage structural mass of 400 kilograms per metre, the fifty millisievert mission dose allowance from which the attenuation requirement follows, the four percent gamma energy fraction, the mean photon energy of one megaelectronvolt, the lithium hydride removal cross-section, the buildup factor of ten, and the five tonne core mass used in the melt-time estimate are all plausible figures for the class rather than values taken from the design. The shield mass estimate should be read as establishing an order of magnitude and a ratio, not a design number. The ratio is more trustworthy than the absolute value, and the qualitative conclusion that shielding consumes a payload-sized fraction of a B-36 is robust to any reasonable choice of inputs.
 
 Contested or unresolved in the sources consulted is the total programme cost, given as about one billion dollars in one place and seven billion in another, a discrepancy most plausibly explained by inflation adjustment but not stated as such by either source. The crew shield mass is given as eleven tonnes in one account and twelve in another, the window thickness as six inches in one and ten to twelve in another, and the scrapping of the NB-36H is placed at Fort Worth in 1958 in one account and at Carswell in 1957 in another. None of these are load-bearing for the argument, and all are stated here as reported rather than resolved.
 
@@ -395,7 +635,7 @@ It does not attempt a history of the Aircraft Nuclear Propulsion programme, whic
 
 The Convair X-6 was never built, and what it would have had to carry can be computed in a page.
 
-A B-36 at cruise needs about a hundred megawatts of thermal power, and a reactor supplying it consumes less than half a kilogram of uranium in a hundred hours against 837 tonnes of kerosene for the same energy. That is the entire attraction and it is a factor of nearly two million. Against it stands twenty-three centimetres of lead, and the geometry that minimizes the total mass puts the reactor about ten metres from the crew, which a B-36 fuselage accommodates easily. The shield that results weighs about 37 tonnes, which is a fifth of the aircraft and very nearly the whole of its bomb load. **A nuclear bomber buys unlimited range by surrendering the payload that made the range worth having.**
+A B-36 at cruise needs about a hundred megawatts of thermal power, and a reactor supplying it consumes less than half a kilogram of uranium in a hundred hours against 837 tonnes of kerosene for the same energy. That is the entire attraction and it is a factor of nearly two million. Unshielded at ten metres that reactor delivers about ten grays per second, when five grays is a lethal dose, so one second of exposure would kill the crew. Holding them to fifty millisieverts over a hundred-hour flight demands an attenuation of seven times ten to the seventh, which is twenty-six centimetres of lead, and the geometry that minimizes the total mass puts the reactor about ten metres from the crew, which a B-36 fuselage accommodates easily. The gamma shield that results weighs about 41 tonnes, which is twenty-two percent of the aircraft and slightly more than the whole of its bomb load, and the neutron layer takes the upper bound to about 66 tonnes. **A nuclear bomber buys unlimited range by surrendering the payload that made the range worth having.**
 
 The exponential that makes shielding work also makes it stubborn. Shield thickness depends on the logarithm of reactor power, so a thousandfold increase in power costs under nine centimetres of lead, which means the shield is a fixed overhead rather than a proportional cost and small nuclear aircraft are not merely difficult but excluded. The same logarithm means that accepting ten times the crew dose saves about two percent of the aircraft. The programme could not have been rescued by being braver.
 
