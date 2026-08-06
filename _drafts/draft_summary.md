@@ -120,7 +120,70 @@ formulaic drift still present. The rotations have been re-applied to the article
 uses an absolute path. The single-word construction share is 15.1 percent for `in` and 10.1 percent for
 `is`, against 21.0 and 30.1 before.
 
-Held in `_drafts/` pending the reference-density and publication review passes.
+**Primary-reference review performed on request.** Baseline measured 128 primary documents of 208
+external, or **61.5 percent**, which was already the highest share in the series, so the deficit was
+coverage and count rather than share. A citation-coverage audit by section found **fourteen sections
+over 200 words at or below four citations per thousand**, and every one of them was a section the
+equation pass had either created or expanded. That is the third article running in which the equation
+pass arrived without its period sources, and the harvest was aimed at its topics rather than at the
+article's original ones.
+
+A supplementary harvest of 33 NTRS, 22 DTIC, and 16 period queries returned 129 new NTRS records, 181
+new DTIC records, and 151 new period records, taking the master index from 1034 to 1448 entries. 53
+primary documents were added across 21 edits, taking references from 218 to **271** and primary sources
+to **181 of 239 research, or 75.7 percent, and 69.3 percent of external**. Both figures are by a
+substantial margin the highest in the series, against A306 at 61.2 percent before its contemporary
+additions grew the denominator.
+
+**The strongest finding is that the article's central analytical move had no vocabulary in 1953.**
+Identifiability as a property of a system rather than of an estimator was formalised by Aoki in 1966 and
+by Staley and Yue in 1970, a decade and more after the programme ended, and the estimation machinery
+that would have separated the two error terms is later still. The X-10 was asked to measure a parameter
+at a time when the question of whether a parameter is measurable had not been posed as a question. That
+is the fairest available account of why nobody noticed the observation window was the wrong length.
+
+Other threads closed: circular error probable as a contested statistic rather than a given, including
+what a bias does to it, which matters because a drift rate is a bias; the geodetic literature behind the
+deflection-of-the-vertical term, together with the gravity-gradiometer aiding that eventually answered
+it two decades too late; inlet and engine airflow matching, whose vocabulary postdates the X-10's inlet
+design; radio propagation and range-height-angle charts behind the horizon calculation; what a test
+range can actually measure, and the point that nothing in the accessible record states the Atlantic
+Missile Range's own tracking error for these flights; the period ballistic-trajectory theory the
+cancellation derivation rests on; and the redundancy and availability literature behind the reliability
+arithmetic.
+
+**Coverage after the pass is three thin sections against fourteen at baseline**, and all three are
+synthesis sections that correctly carry no citations, namely the aircraft-category discussion, the
+Epistemic State, and the Conclusion.
+
+**Primary-pass verification**: 271 references with zero undefined, zero orphaned, and zero duplicate
+URLs. **All 66 fixed identifiers at 200 and all 180 DOIs Crossref-resolved on title at the 0.85
+threshold with zero flagged**, and the article still contains no hand-entered identifier anywhere. All
+102 worked values still reproducing. `_verify.py` at the 0-error 21-warning corpus baseline. Zero
+contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words,
+duplicate headings, display-math seam defects, or link texts out of sync. Isolated build succeeding with
+122 rendered display blocks and Part 11 navigation.
+
+**Two seam defects found by reading, not by any check.** The error-budget citation insertion split the
+finding that the budget does not close from the three readings that resolve it, and the cancellation
+insertion left a nine-item citation cluster inside the paragraph carrying the argument. Both repaired by
+moving rather than rewriting. This is the sixth article in which a seam defect survived every automated
+check.
+
+**A durable repair was made to the toolchain.** The manual correction of a Crossref OCR artefact in an
+author display had been applied to the master table directly and was silently lost when the table was
+regenerated for the supplementary harvest. The correction now lives in the normaliser, so it survives
+regeneration. The general form of the rule was already known, namely that reference-text defects belong
+in the master table rather than the markdown, and the extension is that a table which is itself
+regenerated is not a source of truth either.
+
+**State after the primary pass**: 1181 lines, 122 display equations, 271 references, 16,090 words.
+Equations and references are inside band. **Lines remain 119 short of the 1300 floor**, reported rather
+than padded, and the contemporary-literature work of the publication review is expected to close it.
+Contemporary coverage is 55 references, or 23.0 percent of dated, an absolute count well below the 101
+to 155 of A301 through A306, and that is the publication review's principal task.
+
+Held in `_drafts/` pending the publication review.
 
 ## X-Planes Bell X-9 Shrike A306 2025-10-15
 
