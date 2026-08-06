@@ -17,6 +17,68 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes North American X-10 A307 2025-10-16
+
+`x_planes_north_american_x10.markdown`, A307, editorial date 2025-10-16, series `x_planes` index 11 of 72.
+
+943 lines, 84 display equations, 213 reference definitions, 14,346 words after the draft pass.
+All three densities sit under band, at 943 against a 1300 floor, 84 against 90, and 213 against 250.
+Reported rather than padded, since the equation-density and reference-density passes exist to close
+exactly this gap, and the draft was deliberately approached from below per the rule A306 established.
+
+**The keystone is time rather than speed, which is a first for this series.** The Navaho mission is
+2.87 hours and the dominant navigation error grows with elapsed time rather than with distance or
+speed. Inverting the reported 800 metre accuracy requirement gives a gyroscope drift specification of
+0.0025 degrees per hour, and inverting the reported 1.6 kilometre per hour achieved drift gives 0.0144,
+a shortfall of 5.74 that reproduces independently by propagating the achieved drift to full range.
+
+**The central result is that the X-10 flew on the wrong side of a threshold nobody computed.** Schuler
+tuning makes accelerometer error bounded at 1274 metres and gyroscope error secular, and the two are
+equal at 47.8 minutes. The X-10's supersonic leg is 27.6 minutes. Worse than being the smaller term,
+the two error signatures are 97.4 percent correlated over that window for a variance inflation of 19.7,
+against exact orthogonality over one Schuler period, which is proved here by direct integration. A
+window sweep puts the optimum at exactly 84.4 minutes, and flying the same leg subsonically would have
+been more than ten times more informative.
+
+**Further results the sources do not state**: the reported ranges cannot be reconciled with the
+reported weights on any cruise condition, since the mass ratio of 1.640 gives 275 kilometres at maximum
+Mach and the reported figures demand subsonic lift-to-drag ratios of 12.6 to 28.4; the radio horizon of
+482 kilometres is less than half the navigation leg; the aluminium recovery-temperature frontier lies at
+Mach 2.27 against a demonstrated maximum of 2.05; the vertical channel is unstable with a 6.6 minute
+doubling time; deflection of the vertical alone consumes 77 percent of the accuracy requirement; and the
+break-even inlet recovery to sustain Mach 2.05 is 0.622, which resolves the free-flight duct anomaly as
+a model-scale artefact on the vehicle's own demonstrated performance.
+
+**The error budget does not close and this is reported rather than reconciled.** The quadrature sum
+exceeds the reported stellar-inertial accuracy by a factor of 3.3, and the deflection-of-the-vertical
+term alone exceeds it. Three readings are offered and none adopted, the most likely being that the
+demonstration was flown over surveyed range geometry rather than over the target country.
+
+**Source base finding.** The vehicle is indexed under its project number MX-770 and not under X-10 or
+Navaho, and queries on the designation return nothing while queries on the project number return the
+primary documents immediately. The DTIC route that reached Bell's own project papers for the X-9
+through the project number MX-776 returns nothing whatever for MX-770, which is the same archive, the
+same route, and adjacent project numbers, so the negative result is about the record rather than the
+method. Three documents in the accessible record concern the actual hardware.
+
+**Verification**: all 102 worked values re-derived independently with no corrections required, which is
+the second article running to pass first numeric verification clean. 213 references with zero undefined,
+zero orphaned, and zero duplicate URLs. All 132 DOIs Crossref-resolved on title at the 0.85 threshold
+with zero flagged and no hand-entered identifiers anywhere. 56 of 66 fixed identifiers at 200, the ten
+failures being the unpublished series back-references, which is expected. `_verify.py` at the 0-error
+21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, or
+prose parentheticals. Zero doubled words, zero display-math seam defects, zero duplicate headings, zero
+link texts out of sync with the master table. Isolated build succeeding with 84 rendered display blocks
+and Part 11 navigation.
+
+**Correction made during the draft pass.** The article initially claimed the X-10 was the second of
+three articles whose designation came from an administrative reorganisation. Checking A305 and A306
+showed all three were RTV-A vehicles, the X-8 as RTV-A-1, the X-9 as RTV-A-4, and the X-10 as RTV-A-5.
+The corrected claim is stronger, since three exceptions with one common origin are a pattern where three
+with distinct origins would not be.
+
+Held in `_drafts/` pending the equation-density, reference-density, and publication review passes.
+
 ## X-Planes Bell X-9 Shrike A306 2025-10-15
 
 `x_planes_bell_x9.markdown`, A306, editorial date 2025-10-15, series `x_planes` index 10 of 72.
