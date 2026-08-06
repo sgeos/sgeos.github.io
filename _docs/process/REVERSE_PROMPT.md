@@ -9,96 +9,98 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A302 equation-density review. Committed and **not pushed**. **No article in this series is
+**Task**: A302 primary-reference review. Committed and **not pushed**. **No article in this series is
 published.**
 
-**66 to 112 display equations, 1143 to 1345 lines.** All three densities are now inside band.
+**318 to 406 references, 94 to 182 NTRS-hosted primary documents, 1345 to 1535 lines.**
 
 ---
 
-## Three Results the Draft Did Not Have
+## The Primary Base Is Now the Strongest in the Series
 
-**The aircraft could not have reached its top speed unswept.** Adding the Korn drag-divergence
-relation and evaluating it with the streamwise thickness ratios that sweeping itself produces gives
-0.765 at 20 degrees of sweep and 0.916 at 40, against a maximum flight Mach number near 0.9. The
-X-5 was flying above the drag-rise Mach number of its own unswept setting. **Sweeping was not a
-refinement of the performance. It was the performance.** The draft had the mechanism and the trim
-consequence but never established that the aircraft needed the mechanism to meet its own numbers.
+NTRS documents went from 94 to **182, or 44.8 percent of all references**, against 30 to 33 percent
+for A298 through A301. References dated 1960 or earlier went from 70 to **102, or 34.5 percent of
+dated references**, second only to A298 and A301.
 
-**One geometric fact produces a performance cost and a safety cost of exactly the same size.**
-Induced drag carries the span squared in a denominator through the aspect ratio, and so does the
-NACA spin-recovery inertia parameter. Sweeping this wing therefore degrades both by the identical
-factor of 2.61. The article had the spin figure already. It did not have the observation that the
-drag penalty is numerically the same number for the same reason.
-
-**The gull result now has a number attached.** Giving sweep a control derivative in the same form as
-an elevator's returns minus 0.26 per radian at mid sweep against a conventional elevator near minus
-0.7, so **sweep is worth roughly a third of an elevator as a pitch effector**. The obstacle to using
-it that way is entirely rate. Matching a five degree elevator input inside one short-period time
-constant would demand 42 degrees per second against the X-5's 1.33, **a factor of thirty-one**. That
-converts the closing rhetorical point into an engineering statement, and it says the gap between the
-X-5 and the bird is a rate gap rather than an authority gap, which is a more tractable thing to be
-short of.
+That took two passes rather than one, and the reason is worth recording. **The first batch raised the
+absolute count of programme-era references but lowered their share**, from 33.7 to 28.4 percent,
+because the material the article's arguments most needed was post-1960 work on crossflow, the oblique
+wing, the later spin fleet, and high-lift devices. I ran a second harvest specifically restricted to
+1949 to 1960 and added twenty-five contemporaneous documents, which brought the share back to 34.5
+percent. Measuring the share rather than the count is what caught it.
 
 ---
 
-## Where the Equations Went
+## One Document Bears on the Central Inference and Predates the Aircraft
 
-The two sections that carried none were the ones A301 carries seven and six in, so the pass was
-concentrated there and on the claims elsewhere that named a result without showing the relation.
-Notable additions include the velocity decomposition normal and spanwise to the leading edge, the
-streamwise thickness ratio that a pivoting wing thins as it sweeps, the tapered-panel mean
-aerodynamic chord station **with a sensitivity statement on the one assumed quantity in the whole
-chain**, the centre-of-gravity range taken as an intersection over the sweep schedule which comes out
-empty uncompensated, the pivot-station minimization, a formal quasi-static criterion that evaluates
-to 0.81 and is therefore below unity but not comfortably, pivot bearing and pin-shear stresses with a
-relation converting bearing clearance into sweep asymmetry, the trim tail load at 4.9 percent of
-gross weight, the short-period frequency spread of 1.45 that survives even perfect trim
-compensation, the spin recovery criterion and altitude per turn, the calibration matrix condition
-number, and the time-varying inertia tensor term that exists only while a morphing wing is actually
-moving.
+The article argues that the spin-recovery inertia parameter degrades by 2.61 when the wing sweeps,
+and labels the attribution of the accident to that as inference rather than fact.
+
+**[Stone and Klinar 1948] investigate the influence of very heavy fuselage mass loadings and long
+nose lengths upon oscillations in the spin.** That is precisely the loading regime the parameter
+describes, and precisely the regime a swept jet with its mass in the fuselage occupies. It was named,
+characterized, and in print **three years before the X-5 flew**. Whether the aircraft was assessed
+against it, the sources consulted do not say, and the article now states that explicitly rather than
+implying either answer.
+
+Alongside it, Turner 1950 gives a simplified method for measuring the moments of inertia of a
+complete airplane. That matters because this article uses representative inertias rather than
+measured ones and says so. **The measurement was available at the time.** The article now notes that
+too.
 
 ---
 
-## Two Errors in My Own Additions
+## A Coda That Inverts the Programme
 
-Independent re-derivation caught both, which is the reason for doing it.
+In the 1980s NASA took an [F-14] and used its variable sweep as laboratory apparatus, flying a gloved
+wing across a range of sweep angles to measure boundary-layer transition as a function of sweep. That
+is the crossflow problem named at the top of the article, studied on a full-scale aircraft in real
+flight, using the one capability the X-5 existed to demonstrate.
 
-A spanwise velocity component was stated as **0.78 of the free stream**. That is the Mach number, not
-the fraction. The fraction is 0.87. Corrected to read as a Mach number.
+**The capability ended its career as an instrument.** The Variable-Sweep Transition Flight Experiment
+is now cited across seven documents, with the flutter clearances that had to precede any of it. The
+programme could not have anticipated that fate and it is a more dignified one than obsolescence.
 
-A sweep-angle error propagation was quoted as **1.3 percent**, which holds only at the low-sweep end.
-Across the sweep range it runs to 2.7 percent. Corrected to give the range and say what it depends on.
+The oblique wing also got its full lineage rather than a mention, because it **solved this article's
+central problem** by very nearly cancelling the aerodynamic centre travel, and was never built for
+service. Robert T. Jones, whose 1947 planform work and 1940 wing-wake study the series already cites,
+spent much of his later career on it. Twelve documents from 1973 to 1999, including the F-8 model
+programme.
+
+---
+
+## Two Things Outside the Bands, Both Deliberate, Both Yours to Rule On
+
+**Total references stand at 406, which is 26 over the genre band ceiling of 380.** The standing
+directive for this series says no reference limit, and this prompt asked that all identified
+references be added, so I added them and am reporting the overage rather than silently trimming to
+fit. Say the word and I will cut the weakest 26.
+
+**Contemporary references are 49 absolute and 16.6 percent of dated, down from 22.1 percent purely by
+dilution.** That is now the furthest below the 28 to 33 percent target of any article in the series.
+It is the publication review's business, I have not pre-empted it, and nothing was padded.
 
 ---
 
 ## Verification
 
-318 references with zero undefined and zero orphaned. `_verify.py` at the 0-error 21-warning corpus
-baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose
-parentheticals. Zero doubled words, zero display-math seam defects, zero consecutive-display runs.
-No repeated six-word shingle attributable to a duplicated clause, which is the A297 signature.
-Isolated build succeeding with **112 rendered display blocks matching 112 source equations** and Part
-6 navigation.
+406 references with zero undefined, zero orphaned, and zero duplicate URLs. All 272 meaningful-404
+URLs at 200. Every added NTRS identifier verified individually against the citations API rather than
+trusted from a search response. `_verify.py` at the 0-error 21-warning corpus baseline. Zero
+contractions, em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals. Zero
+doubled words, zero display-math seam defects. Isolated build succeeding with 112 rendered display
+blocks and Part 6 navigation.
+
+Two near-duplicates were caught before weaving, both cases of NTRS holding one report under two
+identifiers. A Jaccard comparison across research titles found the pair; a URL check would not have,
+since the identifiers differ.
+
+The reference section is still generated from the anchors the body uses, so orphans remain impossible
+by construction.
 
 ---
 
-## What Remains
+## State
 
-**Contemporary references are 22.1 percent of dated, below the target range, and I have not padded
-them.** That is the primary-reference and publication-review business. The primary base is already
-strong at 94 NTRS documents and 33.7 percent of dated references at 1960 or earlier, so A302 does not
-have the deficit A301 had.
-
-Word frequency shows `sweep` at 11.73 per thousand body words, which is the article's subject and
-unavoidable, `wing` at 8.64, and `aircraft` at 8.23. The last is now inside the sibling range without
-any rotation having been applied, which A301 needed.
-
-**Publication order dependency is six deep.** One commit unpushed.
-
----
-
-## Categories
-
-Still `aerospace history engineering`, still my assumption, now six articles deep. One line of front
-matter, reversible with a single edit until the batch publishes.
+Three commits unpushed. **Publication order dependency is six deep.** Categories remain
+`aerospace history engineering`, still my assumption, six articles deep.
