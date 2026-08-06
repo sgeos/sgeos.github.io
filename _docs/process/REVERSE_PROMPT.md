@@ -9,117 +9,99 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A303, the Convair X-6, drafted. Committed and **not pushed**, per the four-pass rhythm.
-A297 through A302 are unchanged and pushed. **No article in this series is published.**
+**Task**: A303 equation-density review. Committed and **not pushed**. **No article in this series is
+published.**
+
+**37 to 92 display equations, 995 to 1235 lines.** Equations and references are inside band.
 
 ---
 
-## The Class Judgement Went the Other Way
+## The Pass Replaced an Assumption With a Derivation, and the Numbers Got Worse
 
-The genre document reserves a **documentation-poor** class at 150 to 400 lines and 20 to 60
-references, and an aircraft that was never built is the obvious candidate for it. I let the record
-decide instead of assuming, and the record said the opposite.
+The draft assumed a ten-million-fold attenuation because that is a plausible round number. Deriving
+it instead changes the article.
 
-The Aircraft Nuclear Propulsion programme ran fifteen years, spent about a billion dollars, and left
-a primary technical record **larger than that of most flown aircraft in this series**. A303 is
-treated at full length. The draft stands at 995 lines and 287 references, and its contemporary share
-is already 32.8 percent of dated references, inside the target range on the draft pass alone.
+Working forward from the fission rate gives a gamma source of $2.5 \times 10^{19}$ photons per second,
+and at ten metres unshielded that is **9.8 grays per second, when about five grays is a lethal
+whole-body dose**. One second of exposure at ten metres from an unshielded hundred megawatt core kills
+the crew. Holding them to fifty millisieverts across a hundred-hour flight then demands an attenuation
+of $7.1 \times 10^{7}$, which is **25.7 centimetres of lead rather than 23.2**, and a gamma shield of
+**41 tonnes rather than 37**. That is 22 percent of gross weight and **106 percent of the B-36 maximum
+bomb load**, where the draft said 95 percent.
 
----
+The draft also treated only gammas. Neutrons need a hydrogenous layer attenuated by a removal
+cross-section rather than a photon coefficient, and lithium hydride requires **2.2 metres and 24.5
+tonnes**. Stated as an upper bound rather than an addition, because a layered design attenuates both
+radiations in both materials and beats the sum, so the true figure lies between 41 and 66 tonnes.
 
-## The Primary Record Is in a Different Archive, and That Is the Finding
-
-**ANP was an Atomic Energy Commission and Air Force programme, so its reports went to the AEC and are
-held today by the Department of Energy**, discoverable through the Office of Scientific and Technical
-Information rather than through the NASA Technical Reports Server.
-
-My first NTRS harvest returned 203 documents of which twelve were ANP-relevant, and the natural
-inference from that is that the record is thin. **That inference is exactly wrong.** An OSTI harvest
-returned 322 documents from the programme era, including the founding NEPA report of 1947, the
-Lexington Project minutes of 1948, Blizard's *Shield Optimization* of 1953, the Aircraft Reactor
-Experiment operating reports, the HTRE test reports, and an unbroken decade of quarterly progress
-reports.
-
-This article introduces OSTI as a source archive for the series. **71 of its 287 references are OSTI
-records against 14 from NTRS**, every one verified individually against the OSTI API. Anyone
-retracing X-plane work into programmes run by other agencies will hit the same wall, so it is worth
-having in the process record.
+Either way the conclusion sharpens rather than softens. **The shield weighs at least the payload.**
 
 ---
 
-## What the Article Derives
+## A Validation the Draft Did Not Have
 
-The keystone is whether the shielding a reactor requires can be carried by an aircraft that still has
-a reason to fly.
+This is the addition I would least want lost, because it is the only place in the article where the
+derivation can be checked against hardware.
 
-A B-36 at cruise needs **about 100 megawatts of thermal power**, which consumes **0.44 kilograms of
-uranium-235 in a hundred hours** against 837 tonnes of kerosene for the same energy. That factor of
-nearly two million is the entire attraction.
+Apply the same chain to the one megawatt ASTR in the NB-36H at fifteen metres rather than to a
+propulsion reactor. Scaling the source and the distance gives 157 grays per hour unshielded, and
+holding the crew to fifty millisieverts across the 89 hours the reactor actually ran demands 18.7
+centimetres of lead, which for a six square metre bulkhead is **12.7 tonnes**. Repeating with the far
+more permissive occupational allowance of the 1950s gives 16.4 centimetres and **11.2 tonnes**.
 
-Against it stands **23.2 centimetres of lead**. Minimizing shield mass plus fuselage structure over
-the reactor-to-crew separation gives an interior optimum at **10.1 metres**, which a 49 metre B-36
-fuselage accommodates easily and which is the geometry the NB-36H actually used. The shield that
-results weighs **37 tonnes, a fifth of gross weight and 95 percent of the B-36 maximum bomb load**. A
-nuclear bomber buys unlimited range by surrendering the payload that made the range worth having.
+**The reported crew shield was eleven to twelve tonnes.** The two estimates bracket it.
 
-**Two consequences follow from the exponential and they are the article's contribution.**
-
-Shield thickness depends on the **logarithm** of reactor power, so a thousandfold increase costs under
-nine centimetres of lead. The shield is a fixed overhead rather than a proportional cost, which means
-small nuclear aircraft are not difficult but **excluded**, and the aircraft kept growing for that
-reason.
-
-The same logarithm means **accepting ten times the crew dose saves about two percent of the
-aircraft**. The programme could not have been rescued by being braver with the crew, which is worth
-stating because it is the obvious thing to wonder.
+The method used throughout this article reproduces the one aircraft in it that actually flew, which
+is the closest thing to validation available for a programme that never built its aeroplane, and it
+is why the propulsion-reactor figures are worth taking seriously rather than treating as arithmetic
+exercises.
 
 ---
 
-## The Durable Output Was a Reactor
+## What Else Went In
 
-The Aircraft Reactor Experiment ran at Oak Ridge in 1954 as **the world's first molten salt reactor**,
-built because a molten salt core gives high temperature at low pressure, which is what an aircraft
-wants. That concept is under active commercial development seventy years later while the aircraft
-remains unbuilt, and the contemporary section traces the line directly, including a 2024 paper whose
-subject is the Molten Salt Reactor Experiment itself.
+The compact-core argument now has its criticality relation, so the article can say why every aircraft
+reactor in the programme used highly enriched fuel rather than merely noting that it did. The
+air-scattered term now carries the exponential atmosphere, giving a factor of four reduction between
+sea level and twelve kilometres, which is why the shield cannot be sized without first choosing the
+cruise altitude.
 
-A programme remembered as a failure produced a reactor technology that outlived it by generations.
-The article argues that is a defect in how programmes are scored rather than in what this one did.
+The direct cycle gained the Dittus-Boelter film relation that sets how much hotter a fuel element must
+run than the air it heats, a core power density of a hundred megawatts per cubic metre, and the core
+pressure drop as a thrust penalty, since a reactor is a heat exchanger where a combustor is an open
+volume. The decay heat section gained the adiabatic heat-up, giving **23 minutes from a cooling
+failure to a melted core an hour after the aircraft has landed**.
+
+The molten salt argument is now quantitative. Vessel mass scales with pressure through the thin-shell
+relation, and a fluoride salt at 1000 kelvin against a pressurized water reactor at 600 is a pressure
+ratio of $1.5 \times 10^{4}$, so **the vessel is four orders of magnitude lighter**. That is why the
+concept survived in a place it was not invented for.
+
+The cancellation now has a relation beside it. Refuelled range is a sum over segments with no bound
+the aircraft imposes, so **unlimited range was achieved by a logistics arrangement at zero cost in
+payload**. The nuclear aircraft was competing against a solution that had already won on its own
+metric.
 
 ---
 
 ## Verification
 
-287 references with zero undefined, zero orphaned, and zero duplicate URLs. All 177 meaningful-404
-URLs at 200 **across three archives**. All 74 OSTI records and 12 NTRS records verified individually,
-all 51 DOIs Crossref-resolved on author and title. `_verify.py` at the 0-error 21-warning corpus
-baseline. Zero style violations. Isolated build succeeding with Part 7 navigation and zero unresolved
-anchors.
+**All 34 worked values re-derived independently, none disagreeing beyond 3.5 percent.**
 
-**Independent re-derivation of all 20 worked values found one error**, a decay-heat energy integral
-stated as 58 gigajoules that computes to 73. Corrected.
+287 references with zero undefined and zero orphaned. `_verify.py` at the 0-error 21-warning corpus
+baseline. Zero style violations, zero doubled words, zero consecutive-display runs. Isolated build
+succeeding with 92 rendered display blocks matching 92 source equations and Part 7 navigation.
 
-Four source discrepancies are recorded rather than resolved, since none is load-bearing. Programme
-cost at one billion against seven billion dollars, crew shield at eleven against twelve tonnes, window
-thickness at six against ten to twelve inches, and the NB-36H scrapped at Fort Worth in 1958 against
-Carswell in 1957.
+One seam defect was found and repaired, a neutron source equation with prose glued to the same line.
+The unbalanced-delimiter check caught it, which is the check that exists because of A297.
 
 ---
 
 ## What Remains
 
-**Equations at 37 and lines at 995 are below the full-aircraft band**, and neither has been padded.
-Both are the business of the passes that follow. The physics here is unusually rich in derivable
-relations, so the equation pass has plenty to work with.
+**Lines at 1235 are 65 short of the 1300 floor and have not been padded.** Contemporary references are
+already 32.8 percent of dated, inside the target range, so A303 does not have A302's deficit going
+into the later passes.
 
-Word frequency shows `reactor` at 12.60 per thousand body words, `aircraft` at 12.04, and `shield` at
-8.96, all of which are the article's subject, with `programme` at 5.88 and `than` at 5.04 worth a look
-in the publication review.
-
-**Publication order dependency is seven deep.** One commit unpushed.
-
----
-
-## Categories
-
-Still `aerospace history engineering`, still my assumption, now seven articles deep.
+**Publication order dependency is seven deep.** Two commits unpushed. Categories remain
+`aerospace history engineering`, seven articles deep.
