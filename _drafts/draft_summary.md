@@ -17,6 +17,66 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-9 Shrike A306 2025-10-15
+
+`x_planes_bell_x9.markdown`, A306, editorial date 2025-10-15, series `x_planes` index 10 of 72.
+
+1228 lines, 88 display equations, 239 reference definitions, 11,063 words after the draft pass.
+**All three sit just under band**, at 1228 against a 1300 floor, 88 against 90, and 239 against 250.
+The shortfalls are small and are reported rather than padded, since the equation-density and
+reference-density passes exist to close exactly this gap.
+
+**The X-9 is the first vehicle in the series whose keystone is a control loop rather than a physical
+question, and whose specification is a probability.** The military characteristics of 15 July 1945
+asked for a missile that would strike within 500 feet of its target 75 percent of the time, which
+converts to an axis standard deviation of 91.5 metres and a circular error probable of 108 metres at
+a hundred miles. Every subsystem is then specified in metres of miss distance, contributions add in
+quadrature, and the design activity is the allocation of that budget.
+
+The article's central technical claim is that **the two candidate guidance architectures have
+opposite error gradients**. A radar resolves an angle, so its cross-range error is proportional to
+range. Guiding from the launch aircraft therefore makes the error grow with the standoff distance
+that is the entire purpose of the weapon, while guiding from the missile makes it shrink on approach.
+Setting the launcher-guided resolution equal to the whole error budget gives a maximum useful range
+near 72 kilometres against the X-9's demonstrated 80, which is a close enough correspondence to state
+and too loose to press. It is also why the operational weapon was named for its guidance link, since
+RASCAL stands for radar scanning link and the link carried a radar picture from the missile back to
+an operator in the launch aircraft.
+
+**The founding irony is datable.** The accuracy requirement was published on 15 July 1945, one day
+before Trinity. Inverting the damage function shows that a nuclear warhead with a 1,500 metre lethal
+radius needs a circular error probable of 823 metres for a 90 percent kill probability, against the
+108 metres the specification demanded, so the requirement was about eight times tighter than the
+weapon that flew actually needed.
+
+Three further results the sources do not state. The missile's short-period frequency of 7.5 radians
+per second against a human operator's maximum crossover of 2.6 means **the operator cannot be given
+the control surfaces** and an inner autopilot loop is forced. A guidance time constant of 0.83 seconds
+means every error still present within five kilometres of the target arrives at the target, which
+reorganises the error budget so that only terminal errors matter. And a beacon on the missile beats
+skin tracking by a factor near 10 to the 5, so **a one watt transmitter on the missile is worth more
+than a hundred kilowatts on the aircraft**.
+
+The source base is better than the X-8's and the reason is structural. A weapon programme reports to a
+service that keeps its reports, and the Defense Technical Information Center holds Bell's own project
+documents covering the Shrike and the RASCAL together. Primary technical documents are already **125
+of 229 external references, or 54.6 percent**, at the draft stage. Contemporary coverage is 46 of 201
+dated references, or 22.9 percent, and is the clearest deficit for the later passes.
+
+Verification: all 62 worked values re-derived independently from their stated inputs with no
+corrections required, 239 references with zero undefined, zero orphaned, and zero duplicate URLs, all
+70 fixed identifiers at 200, all 124 DOIs Crossref-resolved on title at the 0.85 threshold with zero
+flagged, `_verify.py` at the 0-error 21-warning corpus baseline, zero style violations, zero doubled
+words, zero display-math seam defects, isolated build succeeding with 88 rendered display blocks and
+Part 10 navigation. Reading the seams found two insertions that had split an argument from its
+conclusion and orphaned a citation from its subject, both repaired.
+
+No author key was guessed from a document title in this article, because the anchor index was resolved
+from metadata before drafting rather than after. That is the first article in the series where the
+rule cost nothing to follow.
+
+Equation-density, primary-reference, and publication reviews not yet performed.
+
 ## X-Planes Aerojet X-8 Aerobee A305 2025-10-14
 
 `x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
