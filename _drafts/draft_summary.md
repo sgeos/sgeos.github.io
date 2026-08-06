@@ -21,12 +21,25 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
 
-1143 lines, 66 display equations, 318 reference definitions, 13,884 words at the end of the draft
-pass. Lines and references are inside band on the draft alone, which A301 was not. Equations are 24
-short of the 90 floor and await the equation-density pass. NTRS primary documents number 94 at 29.6
-percent of all references, references dated 1960 or earlier are 33.7 percent of dated references, and
-contemporary references are 22.1 percent, the last being below the target range and the item the
-publication review will have to address.
+1345 lines, 112 display equations, 318 reference definitions, 16,446 words after an equation-density
+review that added 46 equations across 24 edits. All three densities are now inside band. NTRS primary
+documents number 94 at 29.6 percent of all references, references dated 1960 or earlier are 33.7
+percent of dated references, and contemporary references are 22.1 percent, the last being below the
+target range and the item the publication review will have to address.
+
+The equation pass produced three results the draft did not have. The Korn drag-divergence relation,
+evaluated with the streamwise thickness ratios that sweeping produces, returns 0.765 at the low sweep
+setting and 0.916 at the middle one against a maximum flight Mach number of about 0.9, which
+establishes that the aircraft could not have reached its top speed unswept. Sweeping was the
+performance rather than a refinement of it. Induced drag and the spin-recovery inertia parameter were
+shown to degrade by the identical factor of 2.61, because both carry the span squared in a
+denominator and the sweep lever is a span lever, so one geometric fact produces a performance cost
+and a safety cost of exactly the same size. Sweep was given a control derivative in the same form as
+an elevator's, returning minus 0.26 per radian against a conventional elevator's minus 0.7, which
+makes the gull result quantitative. Sweep is worth roughly a third of an elevator as a pitch
+effector, and the obstacle to using it that way is entirely rate, since matching a five degree
+elevator input inside one short-period time constant would require 42 degrees per second against the
+X-5's 1.33, a factor of thirty-one.
 
 The keystone is whether wing sweep can be a variable rather than a choice. The answer turns on one
 line of geometry, since a pivoting panel carries its aerodynamic centre with it and the streamwise
