@@ -23,9 +23,9 @@ Every previous vehicle in this series was the object of its own measurement. The
 
 **The X-8 is the first X-vehicle whose own performance is not what is being measured.** It exists to put an instrument above the atmosphere and to get the resulting numbers back. The vehicle is not the experiment. The vehicle is the apparatus, and the design requirement that follows from this is unusual enough to be worth stating precisely, because it drives everything else.
 
-The requirement is transparency. A carrier that is itself the subject of study may perturb the measurement freely, since the perturbation is the datum. A carrier whose job is to deliver somebody else's instrument must **not** perturb the measurement, and every way in which it might do so becomes a design constraint. It must reach an altitude set by the physics of the phenomenon rather than by ambition. It must spend enough time there. It must not vibrate the instrument to destruction, outgas onto its optics, obscure its field of view, or leave its pointing direction unknown. It must return the data. And it must do all of this cheaply enough that the measurement can be repeated, because a single measurement of a variable quantity is not a measurement of anything.
+The requirement is transparency. A carrier that is itself the subject of study may perturb the measurement freely, since the perturbation is the datum. A carrier whose job is to deliver somebody else's instrument must **not** perturb the measurement, and every way in which it might do so becomes a design constraint. It must reach an altitude the physics of the phenomenon sets, not one chosen for its own sake. It must spend enough time there. It must not vibrate the instrument to destruction, outgas onto its optics, obscure its field of view, or leave its pointing direction unknown. It must return the data. And it must do all of this cheaply enough that the measurement can be repeated, because a single measurement of a variable quantity is not a measurement of anything.
 
-Those six requirements are not independent and the trades between them are the content of this article. The institutional history of how they came to be posed at all is [DeVorkin 1992 Science With a Vengeance][book_devorkin_1992], which is the standard account of how the military created the American space sciences after 1945, and the participant's version is [Newell 1980 Beyond the Atmosphere, Early Years of Space Science][book_newell_1980].
+Those six requirements are not independent and the trades between them are the content of this article. The institutional history of how they came to be posed at all is [DeVorkin 1992 Science With a Vengeance][book_devorkin_1992], the standard account of how the military created the American space sciences after 1945, and the participant's version is [Newell 1980 Beyond the Atmosphere, Early Years of Space Science][book_newell_1980].
 
 ### Why Altitude Is Set by Optical Depth
 
@@ -39,7 +39,7 @@ The optical depth above an altitude $z$ is the column of absorbers overhead weig
 
 $$\tau(z) = \sigma \int_{z}^{\infty} n(z') \, \mathrm{d}z'$$
 
-In an isothermal layer the density falls exponentially with the scale height $H$, which is the ratio of thermal energy to gravitational potential energy per molecule,
+In an isothermal layer the density falls exponentially with the scale height $H$, the ratio of thermal energy to gravitational potential energy per molecule,
 
 $$H = \frac{k T}{m g}$$
 
@@ -59,7 +59,7 @@ and, taking $n_0$ as the sea-level number density of $2.5 \times 10^{25}$ per cu
 
 $$z^{*} = H \ln \left( \frac{n_0}{n^{*}} \right) = H \ln \left( \sigma H n_0 \right)$$
 
-The treatment originates with [Chapman 1931, Part One][research_chapman_1931] and [Chapman 1931, Part Two][research_chapman_1931_2], whose two-part paper on the absorption of monochromatic radiation in a stratified atmosphere is where the exponential layer, the unit-optical-depth level, and the slant-path function all come from. The textbook developments this article follows are [Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973], [Rees 1989 Physics and Chemistry of the Upper Atmosphere][book_rees_1989], and [Chamberlain 1961 Physics of the Aurora and Airglow][book_chamberlain_1961]. **This is the equation that sizes the vehicle**, and its most important property is that the required altitude depends on the logarithm of the cross-section. A phenomenon absorbed a hundred times more strongly does not require a hundred times the altitude. It requires an additional $H \ln 100$, which is about 35 kilometres. Optical depth is a forgiving master.
+The treatment originates with [Chapman 1931, Part One][research_chapman_1931] and [Chapman 1931, Part Two][research_chapman_1931_2], whose two-part paper on the absorption of monochromatic radiation in a stratified atmosphere is where the exponential layer, the unit-optical-depth level, and the slant-path function all come from. The textbook developments this article follows are [Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973], [Rees 1989 Physics and Chemistry of the Upper Atmosphere][book_rees_1989], and [Chamberlain 1961 Physics of the Aurora and Airglow][book_chamberlain_1961]. **This is the equation that sizes the vehicle**, and its most important property is that the required altitude depends on the logarithm of the cross-section. A phenomenon absorbed a hundred times more strongly does not require a hundred times the altitude. It requires an additional $H \ln 100$, or about 35 kilometres. Optical depth is a forgiving master.
 
 Three worked cases fix the scale. Solar Lyman-alpha radiation at 121.6 nanometres sits in a window of the molecular oxygen absorption spectrum where the cross-section is roughly $1 \times 10^{-24}$ square metres. Oxygen is 21 percent of the atmosphere by number, so the total density at which the oxygen column reaches unit optical depth is
 
@@ -103,7 +103,7 @@ and substituting into the observing-time relation with $h_t = h_b$ cancels every
 
 $$t_{\text{obs}} = 2\sqrt{\frac{2}{g} \cdot \frac{v_b^{2}}{2g}} = \frac{2 v_b}{g}$$
 
-The observing time above burnout altitude is exactly twice the burnout velocity divided by gravity, which is the elementary result that a projectile's flight time is set by its vertical velocity. Combining it with the ideal rocket relation, in which the achievable velocity increment is the effective exhaust velocity $c$ multiplied by the logarithm of the mass ratio $R$,
+The observing time above burnout altitude is exactly twice the burnout velocity divided by gravity, the elementary result that a projectile's flight time is set by its vertical velocity. Combining it with the ideal rocket relation, in which the achievable velocity increment is the effective exhaust velocity $c$ multiplied by the logarithm of the mass ratio $R$,
 
 $$\Delta v = c \ln R$$
 
@@ -125,7 +125,7 @@ Pointing knowledge is the first. An instrument with a field of view of half-angl
 
 $$P_{\text{hit}} = 1 - \exp \left( -\frac{\theta^{2}}{2 s^{2}} \right)$$
 
-which falls below one half once $s$ exceeds $0.85\theta$. **Pointing is a cliff rather than a slope**, and this is why the early flights carried wide-field detectors and why narrow-field instruments had to wait for attitude control. The determination and control problem in its general form is [Wertz 1978 Spacecraft Attitude Determination and Control][book_wertz_1978].
+which falls below one half once $s$ exceeds $0.85\theta$. **Pointing is a cliff, not a slope**, and this is why the early flights carried wide-field detectors and why narrow-field instruments had to wait for attitude control. The determination and control problem in its general form is [Wertz 1978 Spacecraft Attitude Determination and Control][book_wertz_1978].
 
 Vibration is the second. A payload structure with natural frequency $f_n$ and quality factor $Q$ driven by a broadband acceleration spectral density $S_a$ responds with a root-mean-square acceleration
 
@@ -165,13 +165,13 @@ so **precision improves as the inverse square root of unit cost at fixed budget*
 
 The origin is unusually well documented because the man who instigated it wrote it down at the time.
 
-In late 1945 [James Van Allen][ref_van_allen] was supervising the High Altitude Research Group at the [Applied Physics Laboratory][ref_apl] of [Johns Hopkins University][ref_jhu], and was asked to survey what upper-atmosphere research actually required. The available options were unsatisfactory in opposite directions. The captured [V-2][ref_v2] was capable but heavy, complex, in finite supply, and shared among many claimants under the Army's [Project Hermes][ref_hermes]. The scientific use of those vehicles, which is the immediate predecessor of everything in this article, is [V-2 Sounding Rocket][ref_v2_sounding], and the rocket-powered flight lineage the X-series came from is surveyed in [A96][related_post_a96_history_rocketplanes]. The [WAC Corporal][ref_wac_corporal], developed by the [Jet Propulsion Laboratory][ref_jpl] and the first American vehicle designed as a sounding rocket, was cheap but too small, carrying a payload measured in single kilogrammes. The V-2 research programme that both were meant to succeed is described by [Newell 1959 Sounding Rockets][book_newell_1959] and, from the German side of the lineage, by [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995] and [Ley 1968 Rockets, Missiles, and Space Travel][book_ley_1968].
+In late 1945 [James Van Allen][ref_van_allen] was supervising the High Altitude Research Group at the [Applied Physics Laboratory][ref_apl] of [Johns Hopkins University][ref_jhu], and was asked to survey what upper-atmosphere research actually required. The available options were unsatisfactory in opposite directions. The captured [V-2][ref_v2] was capable but heavy, complex, in finite supply, and shared among many claimants under the Army's [Project Hermes][ref_hermes]. The scientific use of those vehicles, the immediate predecessor of everything in this article, is [V-2 Sounding Rocket][ref_v2_sounding], and the rocket-powered flight lineage the X-series came from is surveyed in [A96][related_post_a96_history_rocketplanes]. The [WAC Corporal][ref_wac_corporal], developed by the [Jet Propulsion Laboratory][ref_jpl] and the first American vehicle designed as a sounding rocket, was cheap but too small, carrying a payload measured in single kilogrammes. The V-2 research programme that both were meant to succeed is described by [Newell 1959 Sounding Rockets][book_newell_1959] and, from the German side of the lineage, by [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995] and [Ley 1968 Rockets, Missiles, and Space Travel][book_ley_1968].
 
 Van Allen's conclusion was that the requirement fell between them and that neither existing vehicle could be stretched to meet it. In 1946 he visited Aerojet, which was then producing WAC Corporal motors and developing the thrust chamber for the [Nike Ajax][ref_nike_ajax] surface-to-air missile, and concluded that the Nike chamber scaled to a sounding rocket. He was simultaneously responsible for the sounding-rocket portion of the Applied Physics Laboratory's Bumblebee programme, and the name Aerobee is his contraction of the two.
 
 The contract followed on 17 May 1946, placed by the [Naval Research Laboratory][ref_nrl] with Aerojet, for twenty liquid-fuelled sounding rockets carrying 68 kilogrammes to 91 kilometres. Fifteen were allocated to the Applied Physics Laboratory and five to the Naval Research Laboratory. [Douglas][ref_douglas] supplied aerodynamic engineering and part of the production. The design was described publicly by [Van Allen et al 1948][research_van_allen_1948] in *Science*, which remains the primary announcement of the vehicle and is the reference this article treats as authoritative on intent. Van Allen's own retrospective account of the period is [Van Allen 1983 Origins of Magnetospheric Physics][book_van_allen_1983].
 
-Contractor and service reporting on the vehicle survives in the defence technical archive rather than in the aerospace one, and [Walker 1954][research_walker_1954] is the research and development report on the Navy Aerobee-Hi, which is the closest thing in the accessible record to a programme document for this family. The wider service context is [Ashburn 1961][research_ashburn_1961], a history of the Naval Ordnance Test Station's upper-atmosphere programme, and vehicle procurement in quantity is described much later by [Alford et al 1972][research_alford_1972].
+Contractor and service reporting on the vehicle survives in the defence technical archive rather than in the aerospace one, and [Walker 1954][research_walker_1954] is the research and development report on the Navy Aerobee-Hi, the closest thing in the accessible record to a programme document for this family. The wider service context is [Ashburn 1961][research_ashburn_1961], a history of the Naval Ordnance Test Station's upper-atmosphere programme, and vehicle procurement in quantity is described much later by [Alford et al 1972][research_alford_1972].
 
 **The Air Force was not in the room.** The X-8 designation arrives later and attaches to an Air Force procurement of a vehicle that already existed under Navy sponsorship, and this is the first thing to understand about the designation. The Air Research and Development Command initiated Project MX-1011 and ordered thirty-three of the AJ10-25-powered vehicles as RTV-A-1, meaning research test vehicle, Air Force, type 1. That designation was subsequently changed to X-8. Sources disagree about when, and the disagreement is treated in the Epistemic State below rather than resolved here.
 
@@ -187,7 +187,7 @@ The vehicle Aerojet laid out is described in its own corporate history by Carson
 
 The following sections dimension the vehicle from the requirements above. Every symbol is defined in prose before it appears. Where a published figure and a computed one disagree, the disagreement is stated rather than smoothed.
 
-The parameters taken as given are those reported for the RTV-A-1 configuration, which is the baseline X-8. Total mass at liftoff is 745 kilogrammes. Body diameter is 0.38 metres. Overall length with booster is 7.9 metres and the sustainer alone is 6.2 metres. Fin span is 1.6 metres. The booster is an Aerojet 2.5KS18000 solid motor producing 18,000 pounds of thrust, which is 80.1 kilonewtons, for 2.5 seconds. The sustainer is the XASR-2 producing 2,600 pounds of thrust, which is 11.6 kilonewtons, for approximately 40 seconds. Payload is 68 kilogrammes. Reported apogee is 116 kilometres and reported burnout velocity is 4,420 feet per second, which is 1,347 metres per second, at 17 nautical miles, which is 31.5 kilometres.
+The parameters taken as given are those reported for the RTV-A-1 configuration, the baseline X-8. Total mass at liftoff is 745 kilogrammes. Body diameter is 0.38 metres. Overall length with booster is 7.9 metres and the sustainer alone is 6.2 metres. Fin span is 1.6 metres. The booster is an Aerojet 2.5KS18000 solid motor producing 18,000 pounds of thrust, which is 80.1 kilonewtons, for 2.5 seconds. The sustainer is the XASR-2 producing 2,600 pounds of thrust, which is 11.6 kilonewtons, for approximately 40 seconds. Payload is 68 kilogrammes. Reported apogee is 116 kilometres and reported burnout velocity is 4,420 feet per second, which is 1,347 metres per second, at 17 nautical miles, which is 31.5 kilometres.
 
 ### The Propellant, and What It Costs to Choose It
 
@@ -205,7 +205,7 @@ The bracketed term evaluates to $1 - 0.5445 = 0.4555$, the leading factor is 11.
 
 $$c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.4555) } = \sqrt{4.872 \times 10^{6}} = 2207 \, \text{m/s}$$
 
-corresponding to a theoretical specific impulse, which is the exhaust velocity divided by standard gravity,
+corresponding to a theoretical specific impulse, being the exhaust velocity divided by standard gravity,
 
 $$I_{sp} = \frac{c}{g_0} = \frac{2207}{9.81} = 225 \, \text{s}$$
 
@@ -219,9 +219,9 @@ For the 0.34 cubic metre tank sized below, whose wetted area is about 3.9 square
 
 $$\dot{m}_{\text{boil}} = \frac{(5)(3.9)(210)}{2.13 \times 10^{5}} = 0.0192 \, \text{kg/s} = 69 \, \text{kg/h}$$
 
-against a liquid oxygen load of about 388 kilogrammes in that volume, which is **18 percent of the oxidiser per hour**. A vehicle held four hours on the tower for weather or for a telemetry fault would lose most of its oxidiser. Nitric acid and aniline are liquids at ambient temperature and can be loaded and left. **The propellant choice buys operational tempo at the cost of performance**, which is the same trade the vehicle makes everywhere else, and the argument for it is the observing-time relation derived above. A propellant 12 percent better in exhaust velocity buys 12 percent more observing time. Being able to fly twice as often buys a factor of $\sqrt{2}$ in the precision of every mean the programme reports.
+against a liquid oxygen load of about 388 kilogrammes in that volume, which is **18 percent of the oxidiser per hour**. A vehicle held four hours on the tower for weather or for a telemetry fault would lose most of its oxidiser. **Seventy years later the problem is still the problem.** Zero boil-off systems are being pursued by [Zhang et al 2025, Zero Boil-Off][research_zhang_2025_4], tank pressurisation under thermal load is modelled by [Lan et al 2024][research_lan_2024], and the achievable rate for an insulated vessel is measured by [Lee et al 2026][research_lee_2026]. The X-8 solved it by declining to use a cryogen at all, which remains the cheapest solution available to anyone who can accept the performance. Nitric acid and aniline are liquids at ambient temperature and can be loaded and left. **The propellant choice buys operational tempo at the cost of performance.** That is the same trade the vehicle makes everywhere else, and the argument for it is the observing-time relation derived above. A propellant 12 percent better in exhaust velocity buys 12 percent more observing time. Being able to fly twice as often buys a factor of $\sqrt{2}$ in the precision of every mean the programme reports.
 
-The price is paid in handling. Red fuming nitric acid attacks most metals, decomposes to nitrogen dioxide, and is acutely toxic. Aniline is absorbed through skin and is a methaemoglobin-forming poison. **The vehicle is safe to store and dangerous to touch**, and the modern successors to this trade are discussed in the contemporary literature section. The properties of the oxidiser are given in [Red Fuming Nitric Acid][ref_rfna] and of the fuel in [Aniline][ref_aniline] and [Furfuryl Alcohol][ref_furfuryl_alcohol], and the ignition behaviour that defines the class is [Hypergolic Propellant][ref_hypergolic]. The ignition-delay measurement technique of the period, at simulated altitude, is [Ladanyi 1952][research_ladanyi_1952], with the additive effects that shorten it in [Breen et al 1967][research_breen_1967_2] and the ignition-spike phenomenon that a hypergolic start can produce surveyed by [Christos and Perlee 1965][research_christos_1965]. The decomposition kinetics of the oxidiser itself, which is what makes red fuming nitric acid corrosive in storage as well as reactive in the chamber, are [Wise and Frech 1950][research_wise_1950].
+The price is paid in handling. Red fuming nitric acid attacks most metals, decomposes to nitrogen dioxide, and is acutely toxic. Aniline is absorbed through skin and is a methaemoglobin-forming poison. **The vehicle is safe to store and dangerous to touch**, and the modern successors to this trade are discussed in the contemporary literature section. The properties of the oxidiser are given in [Red Fuming Nitric Acid][ref_rfna] and of the fuel in [Aniline][ref_aniline] and [Furfuryl Alcohol][ref_furfuryl_alcohol], and the ignition behaviour that defines the class is [Hypergolic Propellant][ref_hypergolic]. The ignition-delay measurement technique of the period, at simulated altitude, is [Ladanyi 1952][research_ladanyi_1952], with the additive effects that shorten it in [Breen et al 1967][research_breen_1967_2] and the ignition-spike phenomenon that a hypergolic start can produce surveyed by [Christos and Perlee 1965][research_christos_1965]. The decomposition kinetics of the oxidiser itself, the property that makes red fuming nitric acid corrosive in storage as well as reactive in the chamber, are [Wise and Frech 1950][research_wise_1950].
 
 ### Chamber, Throat, and What the Nozzle Reveals
 
@@ -279,7 +279,7 @@ The nozzle is also overexpanded at sea level, since the exit pressure of
 
 $$p_e = 0.0344 \, p_c = (0.0344)(2.16 \times 10^{6}) = 74.3 \, \text{kPa}$$
 
-sits below the 101.3 kilopascal ambient. The ratio $p_e / p_a$ of 0.73 is comfortably above the value near 0.4 at which the boundary layer separates from the wall, so the nozzle runs full rather than separating, and the penalty is confined to the pressure term already accounted for.
+sits below the 101.3 kilopascal ambient. The ratio $p_e / p_a$ of 0.73 is comfortably above the value near 0.4 at which the boundary layer separates from the wall, so the nozzle runs full and the penalty is confined to the pressure term already accounted for. Separation in overexpanded nozzles remains a design concern for larger vehicles, where the side loads it generates are structurally significant, and the modern treatments are [Zebiri et al 2020][research_zebiri_2020], [Yu et al 2023][research_yu_2023_2], and [Yang et al 2023][research_yang_2023_2].
 
 The characteristic velocity, which measures the quality of the combustion independently of the nozzle, is
 
@@ -319,7 +319,9 @@ and against a gas-to-wall temperature difference of about 1,900 kelvin the throa
 
 $$q_t = h_g \left( T_{aw} - T_w \right) = (4900)(1900) = 9.3 \, \text{MW/m}^{2}$$
 
-**Nine megawatts per square metre is why the converging section burned through when the coolant bypassed it**, and it is also why the fix Aerojet found, which was to guarantee coolant contact rather than to increase coolant flow, was the right one. The failure has its own primary document, since [Bushnell and Busse 1966][research_bushnell_1966] report localised overheating in Aerobee regeneratively cooled thrust chambers directly, which is a better source for it than the manufacturer's later recollection this article otherwise relies on. The regenerative arrangement is the subject of the general treatment in [Coulbert 1963][research_coulbert_1963] and the lightweight chamber development of [Noel and Massier 1962][research_noel_1962]. High-frequency combustion oscillation, which this class of engine was fortunate to avoid at its low chamber pressure, is [Mantler et al 1953][research_mantler_1953], with the sustained programme on it at Princeton reported by [Grey 1953][research_grey_1953] and [Harrje 1959][research_harrje_1959] and the nonlinear treatment consolidated in [Harrje and Sirignano 1966][research_harrje_1966]. The same instability in the solid booster's ancestor is [Hisler 1965][research_hisler_1965].
+Estimating that flux is still an active problem rather than a settled correlation. [Concio et al 2023][research_concio_2023] compute throat heat flux numerically for an oxygen and methane chamber, [Shin et al 2022][research_shin_2022] compare the semi-empirical coefficients against measurement, [Perakis and Haidn 2019][research_perakis_2019] invert the problem to recover the flux from wall temperatures, and [Pizzarelli and Battista 2023][research_pizzarelli_2023] review the experimental base. **The correlation this article uses is from 1957 and it is still the first thing anyone reaches for**, which is a fair summary of how little the underlying physics has moved.
+
+**Nine megawatts per square metre is why the converging section burned through when the coolant bypassed it**, and it is also why the fix Aerojet found, which was to guarantee coolant contact rather than to increase coolant flow, was the right one. The failure has its own primary document, since [Bushnell and Busse 1966][research_bushnell_1966] report localised overheating in Aerobee regeneratively cooled thrust chambers directly, which is a better authority for it than the manufacturer's later recollection this article otherwise leans on. The regenerative arrangement is the subject of the general treatment in [Coulbert 1963][research_coulbert_1963] and the lightweight chamber development of [Noel and Massier 1962][research_noel_1962]. High-frequency combustion oscillation, which this class of engine was fortunate to avoid at its low chamber pressure, is [Mantler et al 1953][research_mantler_1953], with the sustained programme on it at Princeton reported by [Grey 1953][research_grey_1953] and [Harrje 1959][research_harrje_1959] and the nonlinear treatment consolidated in [Harrje and Sirignano 1966][research_harrje_1966]. The same instability in the solid booster's ancestor is [Hisler 1965][research_hisler_1965].
 
 The exit diameter of 0.187 metres against a body diameter of 0.38 metres is worth noting on its own. **The nozzle occupies a quarter of the base area**, which for a vehicle with four fins mounted on the aft body means the fin roots sit in the plume shear layer, and the aerodynamic consequences of that are treated in the stability section.
 
@@ -357,7 +359,7 @@ $$m_{\text{air}} = 1.69 \times \frac{29}{4.003} = 12.2 \, \text{kg}$$
 
 **Helium saves 10.5 kilogrammes of gas in each tank**, and the earliest Aerobees used compressed air while the vehicles from 1950 onward used helium. The change from the XASR-1 to the XASR-2 is exactly this substitution, and the ten kilogrammes it recovered went into propellant.
 
-Chemical pressurisation, in which a small gas generator supplies hot gas, saves more still, since the mass scales as $1/T$. Aerojet developed it for both thrust levels and generally preferred helium anyway, which is a reminder that mass is not the only currency. Chemical pressurisation adds a device that must work, and its development for this application is [Lee and Evans 1963][research_lee_1963]. The general sizing problem, reduced to dimensionless groups so that a pressurisation system can be scaled rather than redesigned, is [Nein and Thompson 1966][research_nein_1966]. The physical properties of the pressurant itself are given in [Helium][ref_helium].
+Chemical pressurisation, in which a small gas generator supplies hot gas, saves more still, since the mass scales as $1/T$. Aerojet developed it for both thrust levels and generally preferred helium anyway, a reminder that mass is not the only currency. Chemical pressurisation adds a device that must work, and its development for this application is [Lee and Evans 1963][research_lee_1963]. The general sizing problem, reduced to dimensionless groups so that a pressurisation system can be scaled rather than redesigned, is [Nein and Thompson 1966][research_nein_1966]. The physical properties of the pressurant itself are given in [Helium][ref_helium].
 
 ### From Apogee to Mass Ratio
 
@@ -369,7 +371,7 @@ with $\bar{g}$ the mean gravitational acceleration over the arc, which for 31.5 
 
 $$v_b = \sqrt{2 (9.6) \left( 116 - 31.5 \right) \times 10^{3}} = \sqrt{1.622 \times 10^{6}} = 1274 \, \text{m/s}$$
 
-against the reported burnout velocity of 1,347 metres per second. The reported figure is 5.7 percent higher, which is the drag the coast analysis omits, and the sign is correct.
+against the reported burnout velocity of 1,347 metres per second. The reported figure is 5.7 percent higher, the drag the coast analysis omits, and the sign is correct.
 
 The velocity increment the propulsion must supply exceeds this by the gravity and drag losses accumulated during the burn. Gravity loss for near-vertical flight is
 
@@ -759,7 +761,7 @@ which is 100 megapascals of tension against 10 megapascals of flight compression
 
 $$\sigma_{x,\text{net}} = \sigma_{x,\text{press}} - \sigma_{x,\text{comp}} = 100 - 10 = 90 \, \text{MPa}$$
 
-**and it is tensile everywhere.** The shell never sees net compression while it is pressurised, so buckling is not a failure mode at all rather than being a marginal one, and the vehicle is stiffest exactly when it is most heavily loaded and weakest when the tanks are empty, which is after burnout when the loads are gone.
+**and it is tensile everywhere.** The interaction between internal pressure and axial buckling that this bypasses is still being computed for cases where the margin is not so generous, including [Franzoni et al 2019][research_franzoni_2019] for a pressurised orthotropic cylinder, [Li et al 2021][research_li_2021_2] for ring-stiffened shells, and [Mahdy et al 2024][research_mahdy_2024] for the competition between buckling and material failure. The shell never sees net compression while it is pressurised, so buckling is not a failure mode at all rather than being a marginal one, and the vehicle is stiffest exactly when it is most heavily loaded and weakest when the tanks are empty, which is after burnout when the loads are gone.
 
 The design does have a failure mode that the arrangement creates. A tank that loses pressure loses structure, so a pressurisation failure is not a performance shortfall but a collapse. The burst-diaphragm hardware that isolates the pressurant until launch is therefore a flight-critical item, and its manufacture and test are documented for the later vehicles by [Hungerford and Munford 1966][research_hungerford_1966].
 
@@ -847,7 +849,7 @@ with a plausible range of 60 to 150 metres per second depending on the drag coef
 
 ### Instrumentation and the Absence of Attitude Control
 
-The X-8 has no attitude control. It is stabilised by fins while the air is thick enough for fins to work, and above that it coasts in whatever attitude it had at the end of the aerodynamic phase.
+The X-8 has no attitude control. It is stabilised by fins while the air is thick enough for fins to work, and above that it coasts in whatever attitude it held at the end of the aerodynamic phase.
 
 What it does there is not arbitrary. A torque-free axisymmetric body conserves angular momentum, so its symmetry axis sweeps a cone about the fixed momentum vector at a half-angle set by the ratio of transverse to axial momentum,
 
@@ -861,7 +863,7 @@ against a transverse inertia of order 1,200, so the ratio $I_y / I_x$ is nearly 
 
 $$\theta_c = \arctan \frac{(1200)(0.1)}{(4.2)(13.8)} = 64^{\circ}$$
 
-**A tenth of a radian per second at burnout puts the instrument axis through a sixty-degree cone for the whole of the observing window.** This is the single most important fact about pointing on an uncontrolled sounding rocket, it is a consequence of slenderness rather than of poor workmanship, and it is why the aspect had to be recorded rather than commanded. For an instrument that needs to know where it was looking, this creates a measurement problem that is solved not by controlling the attitude but by recording it.
+**A tenth of a radian per second at burnout puts the instrument axis through a sixty-degree cone for the whole of the observing window.** This is the single most important fact about pointing on an uncontrolled sounding rocket, it is a consequence of slenderness and not of poor workmanship, and it is why the aspect had to be recorded and not commanded. For an instrument that needs to know where it was looking, this creates a measurement problem that is solved not by controlling the attitude but by recording it.
 
 Aspect determination uses two independent references. Each sensor returns one scalar, being the cosine of the angle between the vehicle axis $\hat{a}$ and a known direction,
 
@@ -871,7 +873,7 @@ with $\hat{b}$ the local geomagnetic field direction and $\hat{s}$ the direction
 
 $$\hat{a} = \frac{\cos\theta_B - \cos\theta_S \cos\psi}{\sin^{2}\psi} \, \hat{b} + \frac{\cos\theta_S - \cos\theta_B \cos\psi}{\sin^{2}\psi} \, \hat{s} \pm \lambda \left( \hat{b} \times \hat{s} \right)$$
 
-in which $\psi$ is the angle between the two references and $\lambda$ is fixed by requiring $\hat{a}$ to be a unit vector. **The sign ambiguity is real and is resolved by continuity with the powered phase rather than by measurement.** The $\sin^{2}\psi$ in the denominator is what makes the geometry fragile. The angular resolution of the combination degrades when the two references are nearly parallel, with an error amplification
+in which $\psi$ is the angle between the two references and $\lambda$ is fixed by requiring $\hat{a}$ to be a unit vector. **The sign ambiguity is real and is resolved by continuity with the powered phase rather than by measurement.** The two-vector problem has a modern algorithmic literature, since it is what every small spacecraft solves on orbit, and [Wu and Shan 2019][research_wu_2019] and [Chebakov et al 2026][research_chebakov_2026] treat it directly while [Fialho and Mortari 2019][research_fialho_2019] and [Ma et al 2025][research_ma_2025] bound what the sensors themselves can deliver. The $\sin^{2}\psi$ in the denominator is what makes the geometry fragile. The angular resolution of the combination degrades when the two references are nearly parallel, with an error amplification
 
 $$\Delta \Omega = \frac{\Delta \theta_1 \, \Delta \theta_2}{\left| \sin \psi \right|}$$
 
@@ -957,7 +959,7 @@ Two flights outside the instrumentation programme are worth recording because th
 
 Counts are given inconsistently across sources. One accounting gives sixty X-8 flights comprising 28 X-8, 30 X-8A, 1 X-8B, and 1 X-8C. Another gives deliveries of 30 X-8, 30 X-8A, 1 X-8B, 2 X-8C, and 3 X-8D. A launch-by-launch table gives 28 RTV-A-1, 31 RTV-A-1a, 1 RTV-A-1b, and 1 RTV-A-1c. The three X-8D were never flown. These are reconcilable as a distinction between vehicles delivered and vehicles launched, but no source consulted here states which figure is which, and the discrepancy is recorded in the Epistemic State.
 
-The wider family record dwarfs it. A total of 1,037 Aerobees of all variants were launched with a success rate above 97 percent, more than half of them Aerobee 150 and 150A vehicles, from White Sands, Holloman, [Wallops Island][ref_wallops], Eglin, Fort Churchill, [Woomera][ref_woomera], Natal, Barking Sands, Nouadhibou, Vandenberg, Walker's Cay, and the deck of the research vessel [*Norton Sound*][ref_norton_sound]. Reliability across the family was reassessed formally by [Hisler 1964][research_hisler_1964], and the vehicle's own place in the wider programme is [Newell 1965][research_newell_1965], [Newell 1964][research_newell_1964], and the flight summaries of [Sterhardt 1965][research_sterhardt_1965]. Per-flight documentation of the kind the X-8 era did not leave behind exists for the later vehicles, including [Hoidale 1963, NE 3.127][research_hoidale_1963] and [Hoidale 1963][research_hoidale_1963_2] for individual meteorological rounds and [Fortney 1965][research_fortney_1965] for an instrumented Aerobee 150 pair. Where the family went next is [Richards 1967][research_richards_1967]. The last flight was an airglow payload on an Aerobee 150 MI at White Sands on 17 January 1985, thirty-eight years after the first. The compendia of [Busse and Leffler 1966][research_busse_1966], [Bushnell et al 1965][research_bushnell_1965], and [Bushnell et al 1967][research_bushnell_1967_2] record the NASA-era launches flight by flight, and [Corliss 1971][research_corliss_1971] gives the historical summary of the whole sounding-rocket programme through 1968.
+The wider family record dwarfs it. A total of 1,037 Aerobees of all variants were launched with a success rate above 97 percent, more than half of them Aerobee 150 and 150A vehicles, from White Sands, Holloman, [Wallops Island][ref_wallops], Eglin, Fort Churchill, [Woomera][ref_woomera], Natal, Barking Sands, Nouadhibou, Vandenberg, Walker's Cay, and the deck of the research vessel [*Norton Sound*][ref_norton_sound]. Reliability across the family was reassessed formally by [Hisler 1964][research_hisler_1964], and the vehicle's own place in the wider programme is [Newell 1965][research_newell_1965], [Newell 1964][research_newell_1964], and the flight summaries of [Sterhardt 1965][research_sterhardt_1965]. Per-flight documentation of the kind the X-8 era did not leave behind exists for the later vehicles, including [Hoidale 1963, Ne 3.127][research_hoidale_1963] and [Hoidale 1963][research_hoidale_1963_2] for individual meteorological rounds and [Fortney 1965][research_fortney_1965] for an instrumented Aerobee 150 pair. Where the family went next is [Richards 1967][research_richards_1967]. The last flight was an airglow payload on an Aerobee 150 MI at White Sands on 17 January 1985, thirty-eight years after the first. The compendia of [Busse and Leffler 1966][research_busse_1966], [Bushnell et al 1965][research_bushnell_1965], and [Bushnell et al 1967][research_bushnell_1967_2] record the NASA-era launches flight by flight, and [Corliss 1971][research_corliss_1971] gives the historical summary of the whole sounding-rocket programme through 1968.
 
 ## Comparison With Ground Prediction
 
@@ -1007,7 +1009,7 @@ and turns back toward the ground where $\theta$ reaches zero, which happens at t
 
 $$c_s(z_t) = \frac{c_s(0)}{\cos \theta_0}$$
 
-Since the sound speed depends only on temperature, the return of a ray at a known launch angle locates an altitude where the temperature takes a particular value. **The method returns one temperature per ray rather than a profile**, and it requires an assumed profile to convert the returns into altitudes, which is precisely the circularity a rocket removes.
+Since the sound speed depends only on temperature, the return of a ray at a known launch angle locates an altitude where the temperature takes a particular value. **The method returns one temperature per ray, not a profile**, and it requires an assumed profile to convert the returns into altitudes, which is precisely the circularity a rocket removes.
 
 Searchlight scattering gave densities to about 60 kilometres. The scattering is Rayleigh, whose cross-section per molecule varies as the inverse fourth power of wavelength,
 
@@ -1099,7 +1101,7 @@ so the phase path differs from the geometric path by an amount that depends on t
 
 $$\Delta f_D \propto \frac{1}{f_1} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s - \frac{1}{f_2} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s$$
 
-**Differentiating the result along the trajectory returns the local density rather than the column**, which is the same trick the ozone measurement uses and the reason a rocket profile is qualitatively better than any ground-based sounding. **The method is [Seddon 1953][research_seddon_1953]**, which sets out the two-frequency propagation experiment and is the primary source for everything above rather than the Aerobee papers that applied it. [Jackson et al 1956][research_jackson_1956] and [Jackson and Seddon 1958][research_jackson_1958] report the Navy Aerobee-Hi measurements by name, the independent implementation is [Haycock et al 1959][research_haycock_1959], and the topside extension is [Bauer and Jackson 1962][research_bauer_1962_2]. Interpretation of the resulting profiles is [Aikin et al 1964][research_aikin_1964] and [Kane 1969][research_kane_1969], with electron temperature added by [Brace et al 1965][research_brace_1965], the diffusion that shapes the profile in [Chandra 1964][research_chandra_1964] and [Schunk and Walker 1973][research_schunk_1973]. Radio-frequency impedance probes are [Jackson et al 1962][research_jackson_1962], the very-low-frequency admittance treatment is [Mlodnosky and Garriott 1962][research_mlodnosky_1962], and the later probe comparisons are [Nisbet 1960][research_nisbet_1960].
+**Differentiating the result along the trajectory returns the local density rather than the column**, which is the same trick the ozone measurement uses and the reason a rocket profile is qualitatively better than any ground-based sounding. **The method is [Seddon 1953][research_seddon_1953]**, which sets out the two-frequency propagation experiment and is the primary source for everything above, ahead of the Aerobee papers that applied it. [Jackson et al 1956][research_jackson_1956] and [Jackson and Seddon 1958][research_jackson_1958] report the Navy Aerobee-Hi measurements by name, the independent implementation is [Haycock et al 1959][research_haycock_1959], and the topside extension is [Bauer and Jackson 1962][research_bauer_1962_2]. Interpretation of the resulting profiles is [Aikin et al 1964][research_aikin_1964] and [Kane 1969][research_kane_1969], with electron temperature added by [Brace et al 1965][research_brace_1965], the diffusion that shapes the profile in [Chandra 1964][research_chandra_1964] and [Schunk and Walker 1973][research_schunk_1973]. Radio-frequency impedance probes are [Jackson et al 1962][research_jackson_1962], the very-low-frequency admittance treatment is [Mlodnosky and Garriott 1962][research_mlodnosky_1962], and the later probe comparisons are [Nisbet 1960][research_nisbet_1960].
 
 The altitude at which the atmosphere ceases to be well mixed is set by a competition between two transport processes. Below it, turbulent eddies stir the gas faster than molecules can separate by weight, and above it the reverse holds. The dividing level is where the eddy diffusivity $K$ equals the molecular diffusion coefficient $D$, which itself varies inversely with density,
 
@@ -1113,7 +1115,7 @@ and with a sea-level molecular diffusivity of $2 \times 10^{-5}$ square metres p
 
 $$n_{\text{turbopause}} = \frac{(2 \times 10^{-5})(2.5 \times 10^{25})}{100} = 5 \times 10^{18} \, \text{m}^{-3}$$
 
-which the standard atmosphere places near 107 kilometres. **Above that level each species falls off with its own scale height** rather than with the mean, so the mean molecular mass drops with altitude and the atmosphere separates. **That prediction was argued for long before the instruments existed to test it properly**, and [Jones et al 1951][research_jones_1951] made the case from indirect evidence five years before anyone flew a spectrometer. The measurement that settled it is [Meadows and Townsend 1956][research_meadows_1956], with [Hedin and Nier 1965][research_hedin_1965] establishing the separation by direct measurement and [Barrington 1965][research_barrington_1965] following the helium profile, which is its most sensitive indicator. Later composition work is [Nichols and Shaefer 1963][research_nichols_1963], [Nichols and Schaefer 1964][research_nichols_1964], [Kennedy and Niemann 1966][research_kennedy_1966] with an omegatron, and [Nier and Hickman 1973][research_nier_1973] at high latitude. Nitric oxide, which is a minor constituent with a major effect on the D region, is [Barth 1964][research_barth_1964] and [Barth 1966, Planetary and Space Science][research_barth_1966_4], following the prediction of [Kaplan 1939][research_kaplan_1939], with the later rocket measurements of [Pearce 1968][research_pearce_1968] and the review in [Barth 1966, Upper Atmosphere][research_barth_1966_2]. Sodium in the daytime upper atmosphere is [Donahue and Meier 1967][research_donahue_1967]. The probe techniques themselves are surveyed by [Smith 1965][research_smith_1965] and compared against one another by [Fejer et al 1965][research_fejer_1965].
+which the standard atmosphere places near 107 kilometres. **Above that level each species falls off with its own scale height** instead of with the mean, so the mean molecular mass drops with altitude and the atmosphere separates. **That prediction was argued for long before the instruments existed to test it properly**, and [Jones et al 1951][research_jones_1951] made the case from indirect evidence five years before anyone flew a spectrometer. The measurement that settled it is [Meadows and Townsend 1956][research_meadows_1956], with [Hedin and Nier 1965][research_hedin_1965] establishing the separation by direct measurement and [Barrington 1965][research_barrington_1965] following the helium profile, which is its most sensitive indicator. Later composition work is [Nichols and Shaefer 1963][research_nichols_1963], [Nichols and Schaefer 1964][research_nichols_1964], [Kennedy and Niemann 1966][research_kennedy_1966] with an omegatron, and [Nier and Hickman 1973][research_nier_1973] at high latitude. Nitric oxide, which is a minor constituent with a major effect on the D region, is [Barth 1964][research_barth_1964] and [Barth 1966, Planetary and Space Science][research_barth_1966_4], following the prediction of [Kaplan 1939][research_kaplan_1939], with the later rocket measurements of [Pearce 1968][research_pearce_1968] and the review in [Barth 1966, Upper Atmosphere][research_barth_1966_2]. Sodium in the daytime upper atmosphere is [Donahue and Meier 1967][research_donahue_1967]. The probe techniques themselves are surveyed by [Smith 1965][research_smith_1965] and compared against one another by [Fejer et al 1965][research_fejer_1965].
 
 ### What It Did Not Change
 
@@ -1129,31 +1131,31 @@ The X-8 is seventy-five years old and every problem it solved is still being wor
 
 ### Sounding Rockets, Which Did Not Stop
 
-The suborbital research vehicle remains a category with an active literature, and its justification is still the one derived above, which is that a short exposure obtained often is worth more than a long exposure obtained once. Microgravity research on suborbital vehicles is the clearest modern case, with [Ferl et al 2026][research_ferl_2026] reporting rapid gene-expression changes across a suborbital profile, [Yang et al 2025][research_yang_2025_2] examining the combined effect of extreme acceleration, microgravity, and deceleration on bacterial cultures, [Padilla et al 2025][research_padilla_2025] adapting microelectrode-array electrophysiology to the environment, and [Quadrini et al 2026][research_quadrini_2026] foaming composite cellular structures during a suborbital flight. [Silvani et al 2022][research_silvani_2022] test a printed biological platform against the profile, and [Garcia et al 2023][research_garcia_2023] follow tumour stem cells through one. **Every one of those experiments is constrained by exactly the relation between mass ratio and observing time derived at the start of this article.** Student and institutional programmes fly the same profile for the same reason, as [Dąbrowski et al 2020][research_dabrowski_2020] report from a European sounding-rocket campaign, and the operational and regulatory shape of suborbital flight is examined by [Zahari and Romli 2019][research_zahari_2019] and, for the return leg specifically, by [Kwiek et al 2023][research_kwiek_2023].
+The suborbital research vehicle remains a category with an active literature, and its justification is still the one derived above, which is that a short exposure obtained often is worth more than a long exposure obtained once. Microgravity research on suborbital vehicles is the clearest modern case, with [Ferl et al 2026][research_ferl_2026] reporting rapid gene-expression changes across a suborbital profile, [Yang et al 2025][research_yang_2025_2] examining the combined effect of extreme acceleration, microgravity, and deceleration on bacterial cultures, [Padilla et al 2025][research_padilla_2025] adapting microelectrode-array electrophysiology to the environment, and [Quadrini et al 2026][research_quadrini_2026] foaming composite cellular structures during a suborbital flight, and [Perumbil et al 2025][research_perumbil_2025] proposing an atom interferometer for the same profile. The human-rating question that a carrier of people rather than instruments raises is [Schroeder et al 2021][research_schroeder_2021]. [Silvani et al 2022][research_silvani_2022] test a printed biological platform against the profile, and [Garcia et al 2023][research_garcia_2023] follow tumour stem cells through one. **Every one of those experiments is constrained by exactly the relation between mass ratio and observing time derived at the start of this article.** Student and institutional programmes fly the same profile for the same reason, as [Dąbrowski et al 2020][research_dabrowski_2020] report from a European sounding-rocket campaign, and the operational and regulatory shape of suborbital flight is examined by [Zahari and Romli 2019][research_zahari_2019] and, for the return leg specifically, by [Kwiek et al 2023][research_kwiek_2023].
 
-The instrument side has moved further. Modern sounding rockets carry X-ray microcalorimeter spectrometers, extreme-ultraviolet spectrographs, and imaging telescopes whose pointing requirements would have been inconceivable in 1949. The flight opportunity is now often justified as technology maturation for an orbital mission rather than as science in its own right, a path [Miles 2025][research_miles_2025] traces through the development of the great observatories. Far-ultraviolet spectroscopy on a rocket is [Hoadley et al 2020][research_hoadley_2020]. Solar extreme-ultraviolet instruments continue in [Telikicherla et al 2026][research_telikicherla_2026], [Feng et al 2024][research_feng_2024], and [Calcines Rosario et al 2024][research_calcines_rosario_2024], with the calibration problem that a five-minute flight makes acute treated by [Vigil et al 2021][research_vigil_2021]. The microcalorimeter detectors that now fly on such payloads bring their own difficulties, including the blocking filters of [Eckart and Yoon 2019][research_eckart_2019] and the in-orbit gain tracking of [Sawada et al 2025][research_sawada_2025]. The programme that supplies it is the direct institutional descendant of the one the Aerobee served, described at [NASA Sounding Rocket Program][ref_nasa_sounding_rocket_program]. The broader context of what suborbital access is for is [A90][related_post_a90_intro_space_studies].
+The instrument side has moved further. Modern sounding rockets carry X-ray microcalorimeter spectrometers, extreme-ultraviolet spectrographs, and imaging telescopes whose pointing requirements would have been inconceivable in 1949. The flight opportunity is now often justified as technology maturation for an orbital mission rather than as science in its own right, a path [Miles 2025][research_miles_2025] traces through the development of the great observatories. Far-ultraviolet spectroscopy on a rocket is [Hoadley et al 2020][research_hoadley_2020]. Solar extreme-ultraviolet instruments continue in [Telikicherla et al 2026][research_telikicherla_2026], [Feng et al 2024][research_feng_2024], and [Calcines Rosario et al 2024][research_calcines_rosario_2024], with the calibration problem that a five-minute flight makes acute treated by [Vigil et al 2021][research_vigil_2021]. The microcalorimeter detectors that now fly on such payloads bring their own difficulties, including the blocking filters of [Eckart and Yoon 2019][research_eckart_2019] and the in-orbit gain tracking of [Sawada et al 2025][research_sawada_2025]. Detectors built specifically for the sounding-rocket environment continue in [Wang et al 2022][research_wang_2022], with the background modelling that the counting-statistics argument above depends on in [Roy et al 2021][research_roy_2021] and a modern flight data system in [Nagasawa et al 2026][research_nagasawa_2026]. The vibration qualification that any of them must survive is [Eun and Han 2022][research_eun_2022]. The programme that supplies it descends directly from the one the Aerobee served, described at [NASA Sounding Rocket Program][ref_nasa_sounding_rocket_program]. The broader context of what suborbital access is for is [A90][related_post_a90_intro_space_studies].
 
 ### Dispersion and Stability, Still Unsolved in the General Case
 
-The unguided rocket remains a live subject because the physics did not change. [Salehi Paniagua et al 2025][research_salehi_paniagua_2025] give a cost-efficient method for determining the dynamic stability of a missile configuration, [Joo et al 2025][research_joo_2025] validate a semi-empirical aerodynamic prediction code of the kind that succeeded the NACA free-flight technique, and [Sheng Lim and Fadhli Zulkafli 2026][research_sheng_lim_2026] treat the fluid-structure interaction of a movable fin. Fin-count and geometry studies continue in [Yamin and Hadi 2026][research_yamin_2026], and the tailfin itself is now optimised against a surrogate model by [WU et al 2026][research_wu_2026], with the whole-vehicle version of that optimisation in [Sathe et al 2026][research_sathe_2026]. Coefficient prediction for an unguided artillery rocket, which is the same problem the Aerobee posed, is [Tun et al 2020][research_tun_2020], and parameter identification from flight rather than from prediction is [Tai et al 2023][research_tai_2023]. Nose shaping as an early design variable is [Szklarski and Głębocki 2025][research_szklarski_2025]. Dispersion itself is now attacked with feedback rather than with statistics, and [Louw et al 2026][research_louw_2026] mitigate hybrid-motor performance dispersion through real-time state estimation and control, which is precisely the option the X-8 did not have.
+The unguided rocket remains a live subject because the physics did not change. [Salehi Paniagua et al 2025][research_salehi_paniagua_2025] give a cost-efficient method for determining the dynamic stability of a missile configuration, [Joo et al 2025][research_joo_2025] validate a semi-empirical aerodynamic prediction code of the kind that succeeded the NACA free-flight technique, and [Sheng Lim and Fadhli Zulkafli 2026][research_sheng_lim_2026] treat the fluid-structure interaction of a movable fin. Fin-count and geometry studies continue in [Yamin and Hadi 2026][research_yamin_2026], and the tailfin itself is now optimised against a surrogate model by [Wu et al 2026][research_wu_2026], with the whole-vehicle version of that optimisation in [Sathe et al 2026][research_sathe_2026]. Coefficient prediction for an unguided artillery rocket, which is the same problem the Aerobee posed, is [Tun et al 2020][research_tun_2020], and parameter identification from flight rather than from prediction is [Tai et al 2023][research_tai_2023]. Nose shaping as an early design variable is [Szklarski and Głębocki 2025][research_szklarski_2025]. Dispersion itself is now attacked with feedback rather than with statistics, and [Louw et al 2026][research_louw_2026] mitigate hybrid-motor performance dispersion through real-time state estimation and control, which is precisely the option the X-8 did not have. Where prediction is still the only tool, it has become statistical rather than deterministic, as [Yang et al 2024, Impact Point][research_yang_2024_3] show for impact-point estimation, with the atmospheric uncertainty that bounds it treated by [Chadalavada et al 2026][research_chadalavada_2026] and [Warner et al 2026][research_warner_2026].
 
-Roll resonance, the hazard that the density-scaling argument above shows to be unavoidable in general, remains a design concern for finned vehicles and its nonlinear treatment still traces to [Clare 1971][research_clare_1971]. The chaotic regime that the coupled yaw, pitch, and roll motion can enter is mapped by [Xu et al 2019][research_xu_2019]. Where the X-8 rolled to average out its errors, a modern projectile of similar size is genuinely spin-stabilised and steered, which [Krishna et al 2023][research_krishna_2023] and [Arnoult et al 2020][research_arnoult_2020] treat and whose drift behaviour is [Ding et al 2024][research_ding_2024]. Six-degree-of-freedom optimisation of a powered trajectory, which no unguided vehicle can use, is [Sagliano et al 2024][research_sagliano_2024].
+Roll resonance, the hazard that the density-scaling argument above shows to be unavoidable in general, remains a design concern for finned vehicles and its nonlinear treatment still traces to [Clare 1971][research_clare_1971]. The chaotic regime that the coupled yaw, pitch, and roll motion can enter is mapped by [Xu et al 2019][research_xu_2019]. Where the X-8 rolled to average out its errors, a modern projectile of similar size is genuinely spin-stabilised and steered, which [Krishna et al 2023][research_krishna_2023] and [Arnoult et al 2020][research_arnoult_2020] treat and whose drift behaviour is [Ding et al 2024][research_ding_2024]. Six-degree-of-freedom optimisation of a powered trajectory, which no unguided vehicle can use, is [Sagliano et al 2024][research_sagliano_2024]. Nutation damping, which the X-8 had no means of applying, is [Sun and Zhong 2019][research_sun_2019], and the modern answer to a spinning vehicle that must nonetheless arrive somewhere is a steering surface rather than a better prediction, as [Chang et al 2021][research_chang_2021_2] and [Chang and Li 2023][research_chang_2023] show.
 
 ### The Propellant Problem, Reopened
 
-The X-8's propellant choice was hypergolic storable, and the modern field is the same choice with the toxicity removed. The literature on green hypergolic replacements is large and active, with [Yilmaz et al 2025][research_yilmaz_2025] surveying current developments and future direction, [Zhang et al 2025, Hydrogen Peroxide Ignition][research_zhang_2025] testing 90 percent hydrogen peroxide ignition, [Mendoza et al 2025][research_mendoza_2025] optimising a monoethanolamine-based green propellant, [Cardoso et al 2026][research_cardoso_2026] developing a green hypergolic gel, and [Caffiero et al 2026][research_caffiero_2026] reviewing catalytic and reactive high-test-peroxide ignition. The underlying chemistry is being resolved at the mechanistic level by [Biswas et al 2025, Atmospheric Ignition Chemistry][research_biswas_2025] and [Biswas et al 2025, Hydrogen Peroxide Hypergols][research_biswas_2025_2]. Ionic liquids are the most-explored replacement family, and their ignition delay, which is the property the aniline blend was chosen for, is measured by [Fareghi‐Alamdari et al 2019][research_fareghi_alamdari_2019], shortened by [Sun and Tang 2020][research_sun_2020] and [Sun and Tang 2021][research_sun_2021], promoted with additives by [Bhosale et al 2020][research_bhosale_2020], and pushed toward practical fuels by [Wang et al 2021, Ionic Liquid Fuels][research_wang_2021]. A complete thruster running such a propellant was fired by [Negri and Lauck 2022][research_negri_2022], and the instability that appears when it is scaled up is [Gao et al 2022][research_gao_2022].
+The X-8's propellant choice was hypergolic storable, and the modern field is the same choice with the toxicity removed. The literature on green hypergolic replacements is large and active, with [Yilmaz et al 2025][research_yilmaz_2025] surveying current developments and future direction, [Zhang et al 2025, Hydrogen Peroxide Ignition][research_zhang_2025] testing 90 percent hydrogen peroxide ignition, [Mendoza et al 2025][research_mendoza_2025] optimising a monoethanolamine-based green propellant, [Cardoso et al 2026][research_cardoso_2026] developing a green hypergolic gel, and [Caffiero et al 2026][research_caffiero_2026] reviewing catalytic and reactive high-test-peroxide ignition, with the monopropellant alternative in [Kokal et al 2025][research_kokal_2025]. The underlying chemistry is being resolved at the mechanistic level by [Biswas et al 2025, Atmospheric Ignition Chemistry][research_biswas_2025] and [Biswas et al 2025, Hydrogen Peroxide Hypergols][research_biswas_2025_2]. Ionic liquids are the most-explored replacement family, and their ignition delay, which is the property the aniline blend was chosen for, is measured by [Fareghi‐Alamdari et al 2019][research_fareghi_alamdari_2019], shortened by [Sun and Tang 2020][research_sun_2020] and [Sun and Tang 2021][research_sun_2021], promoted with additives by [Bhosale et al 2020][research_bhosale_2020], and pushed toward practical fuels by [Wang et al 2021, Ionic Liquid Fuels][research_wang_2021]. A complete thruster running such a propellant was fired by [Negri and Lauck 2022][research_negri_2022], and the instability that appears when it is scaled up is [Gao et al 2022][research_gao_2022].
 
 **The property being preserved is the one the X-8 chose it for**, which is that the vehicle can be loaded and then left alone, and the property being discarded is the one the X-8 accepted, which is that touching the propellant is dangerous. Pressure-fed architecture likewise persists where the same logic applies, with [Montaini and Carlotti 2026][research_montaini_2026] giving a modular design and optimisation framework for pressure-fed upper stages, and pressurisation-system analysis in [Puccinelli et al 2025][research_puccinelli_2025] and [Teia 2025][research_teia_2025]. Injector design as a discipline is reviewed by [Li et al 2026, Injector Review][research_li_2026_3], with the pintle case in [Cha et al 2023][research_cha_2023]. Combustion instability, which the Aerobee's low chamber pressure spared it, is now attacked analytically by [Liang et al 2022][research_liang_2022_2] through bifurcation, experimentally by [Umeoka et al 2021][research_umeoka_2021], and numerically by [Xiong et al 2020][research_xiong_2020] and [Liu et al 2023][research_liu_2023], with the feed-coupled case in [Jin et al 2024][research_jin_2024] and the tank-side dynamics in [Wang et al 2021, Tank Pressurization][research_wang_2021_2].
 
 ### The Motor the Aerobee Would Use Today
 
-A vehicle designed now for the X-8's mission would probably not burn a storable bipropellant at all, because the two architectures that were immature in 1946 have matured. Solid motors have become the default for small sounding rockets, and the design questions are grain mechanics and thrust shaping rather than feed systems, which [Baiserikov et al 2025][research_baiserikov_2025] and [Mittal et al 2026][research_mittal_2026] treat for exactly this class of vehicle, with ageing behaviour in [Kumar Bihari et al 2022][research_kumar_bihari_2022] and variable thrust in [Cha and de Oliveira 2022][research_cha_2022]. Grain and propellant selection for an orbital-class stage is [BONDARENKO et al 2026][research_bondarenko_2026].
+A vehicle designed now for the X-8's mission would probably not burn a storable bipropellant at all, because the two architectures that were immature in 1946 have matured. Solid motors have become the default for small sounding rockets, and the design questions are grain mechanics and thrust shaping rather than feed systems, which [Baiserikov et al 2025][research_baiserikov_2025] and [Mittal et al 2026][research_mittal_2026] treat for exactly this class of vehicle, with ageing behaviour in [Kumar Bihari et al 2022][research_kumar_bihari_2022] and variable thrust in [Cha and de Oliveira 2022][research_cha_2022]. Grain and propellant selection for an orbital-class stage is [Bondarenko et al 2026][research_bondarenko_2026]. The burning-rate exponent that makes a solid motor stable or otherwise is characterised across pressure by [Zhang et al 2026, Burning Rate][research_zhang_2026_4], with grain tailoring in [Wu and Ren 2024][research_wu_2024_2] and surface-regression modelling in [Liu et al 2022][research_liu_2022_5].
 
 Hybrids are the other candidate and they recover the throttling and the abort capability that a solid gives up. [Kamps et al 2019][research_kamps_2019] establish the data-reduction framework such motors need, [Vignesh and Kumar 2020][research_vignesh_2020] and [Mengu and Kumar 2024][research_mengu_2024] pursue the combustion stability that has kept them out of service, and [Louw et al 2026][research_louw_2026] address the performance dispersion that is the hybrid's characteristic weakness. **Both alternatives trade the X-8's specific problem, which is handling a toxic acid, for a different one, which is a motor whose output cannot be predicted as precisely.**
 
 ### Recovery, Now Simulated Rather Than Tested
 
-The parachute problem that cost the X-8 its first five payloads is now largely computational. [Zhang et al 2025, Parachute Opening][research_zhang_2025_2] simulate the opening process of a payload parachute numerically, [Bergeron et al 2025][research_bergeron_2025] analyse the coupled parachute and payload system for stability, and the inflation problem itself continues in [Gao et al 2020][research_gao_2020], [Yang et al 2020][research_yang_2020], [Guan et al 2025][research_guan_2025], and [Ouyang et al 2026][research_ouyang_2026], with the computational framework validated against test by [As’ad et al 2025][research_as_ad_2025] and the clustered case in [Li et al 2023][research_li_2023_2]. Separation hardware, which on the X-8 was a drag differential and nothing else, is now a reliability problem in its own right, as [Niu et al 2022][research_niu_2022] show. The opening-shock relation written above is what all of this exists to bound, and the fact that it is still being computed rather than measured is a statement about how expensive the measurement is.
+The parachute problem that cost the X-8 its first five payloads is now largely computational. [Zhang et al 2025, Parachute Opening][research_zhang_2025_2] simulate the opening process of a payload parachute numerically, [Bergeron et al 2025][research_bergeron_2025] analyse the coupled parachute and payload system for stability, and the inflation problem itself continues in [Gao et al 2020][research_gao_2020], [Yang et al 2020][research_yang_2020], [Guan et al 2025][research_guan_2025], and [Ouyang et al 2026][research_ouyang_2026], with the computational framework validated against test by [As’ad et al 2025][research_as_ad_2025] and the clustered case in [Li et al 2023][research_li_2023_2]. Separation hardware, which on the X-8 was a drag differential and nothing else, is now a reliability problem in its own right, as [Niu et al 2022][research_niu_2022] and [Hao et al 2021][research_hao_2021] show, with the venting that governs it in [Ko et al 2019][research_ko_2019]. The opening-shock relation written above is what all of this exists to bound, and the fact that it is still being computed rather than measured is a statement about how expensive the measurement is.
 
 ### Range Safety, Which the Aerobee Helped Invent
 
@@ -1165,7 +1167,7 @@ The debris-risk analysis behind all of it is a quantitative descendant of the di
 
 The science the X-8 served has not concluded. Ionospheric irregularity and space-weather measurement continue with rocket-borne probes alongside satellites and ground radar, mesospheric and lower-thermospheric structure is still a rocket problem because it lies above balloons and below satellites, and the region the Aerobee opened remains the least accessible part of the atmosphere by any other means. Rocket-borne mass spectrometry of the kind [Meadows and Townsend 1956][research_meadows_1956] began continues in [Stude et al 2021][research_stude_2021] and [Stude et al 2025][research_stude_2025], electric-field and current measurements in the auroral ionosphere are [Pfaff et al 2022][research_pfaff_2022], [Cohen et al 2020][research_cohen_2020], and [Giono et al 2021][research_giono_2021], and the polar mesospheric winter echo campaign of [Strelnikov et al 2021][research_strelnikov_2021_2] is a direct descendant of the grenade and probe work of the 1950s. Joule heating signatures in neutral density are [Lehmacher et al 2026][research_lehmacher_2026]. The probe contamination problem that [Blanchard and Farlow 1966][research_blanchard_1966] identified has not gone away, and [Conway and Barjatya 2025][research_conway_2025] quantify it for sweeping Langmuir probes on current payloads, while [Bigelow and Velásquez-García 2024][research_bigelow_2024] rebuild the probe itself by additive manufacture.
 
-Thermosphere density, which the rocket panel first measured, is still being predicted rather than known, as [Li et al 2026][research_li_2026] and [He et al 2023][research_he_2023] show, and mesospheric energetics remain contested in [Yue and Wang 2025][research_yue_2025]. Ionospheric irregularity now has its own indices and constellations in [Yizengaw 2023][research_yizengaw_2023] and [Chartier 2022][research_chartier_2022]. Polar mesospheric clouds, first sampled by rocket, are [Duft et al 2019][research_duft_2019] and [Moriyama et al 2025][research_moriyama_2025]. **The gap between the highest balloon and the lowest satellite is the same gap it was in 1946**, and the sounding rocket is still the only vehicle that samples it in situ.
+Thermosphere density, which the rocket panel first measured, is still being predicted rather than known, as [Li et al 2026][research_li_2026] and [He et al 2023][research_he_2023] show, and mesospheric energetics remain contested in [Yue and Wang 2025][research_yue_2025]. The electron-density profile that [Seddon 1953][research_seddon_1953] first recovered from a rocket is now obtained by other means entirely, with [Forsythe et al 2020][research_forsythe_2020] validating a radio-occultation retrieval and [Jiang et al 2024][research_jiang_2024] inverting ionograms by ray tracing, while auroral electrodynamics still needs the rocket, as [Krcelic et al 2024][research_krcelic_2024] show. The sodium layer that rocket releases first mapped is now watched continuously by lidar in [Fang et al 2023][research_fang_2023] and [Liu et al 2025, Mesosphere][research_liu_2025_4], and the ozone profile that took a rocket in 1952 is retrieved from orbit by [Zhu et al 2025][research_zhu_2025] and [Yang and Liu 2019][research_yang_2019]. **Every one of those replacements measures from outside the region rather than within it**, which is why the sounding rocket has not been retired. The photochemistry that makes the distinction matter is [Bouziane et al 2026][research_bouziane_2026]. Ionospheric irregularity now has its own indices and constellations in [Yizengaw 2023][research_yizengaw_2023] and [Chartier 2022][research_chartier_2022]. Polar mesospheric clouds, first sampled by rocket, are [Duft et al 2019][research_duft_2019] and [Moriyama et al 2025][research_moriyama_2025]. **The gap between the highest balloon and the lowest satellite is the same gap it was in 1946**, and the sounding rocket is still the only vehicle that samples it in situ.
 
 ### What a Flight Costs, Which Is Still the Question
 
@@ -1175,7 +1177,7 @@ Sensor placement, which is where an experimenter spends the precision that cheap
 
 ### Thermal Protection, Which the X-8 Barely Needed
 
-The X-8's nose reached perhaps 740 kelvin, which aluminium survives, and this is the one area where the vehicle's modern descendants face a harder problem rather than the same one. Nose-cone thermal performance at genuinely hypersonic conditions is [Narayan et al 2025][research_narayan_2025] and [Le et al 2019][research_le_2019], the ablative option is [Sapozhnikov et al 2022][research_sapozhnikov_2022], and active approaches appear in [Liu et al 2024][research_liu_2024] and [Di Martino et al 2025][research_di_martino_2025]. **The X-8 avoided all of it by not going fast enough for long enough**, which is a design decision even when nobody records making it.
+The X-8's nose reached perhaps 740 kelvin, which aluminium survives, and this is the one area where the vehicle's modern descendants face a harder problem rather than the same one. Nose-cone thermal performance at genuinely hypersonic conditions is [Narayan et al 2025][research_narayan_2025] and [Le et al 2019][research_le_2019], the ablative option is [Sapozhnikov et al 2022][research_sapozhnikov_2022], and active approaches appear in [Liu et al 2024][research_liu_2024] and [Di Martino et al 2025][research_di_martino_2025]. **The X-8 avoided all of it by not going fast enough for long enough**, and that is a design decision even when nobody records making it.
 
 ## Where the Framing Breaks Down
 
@@ -1195,11 +1197,13 @@ Treating the X-8 through the keystone of transparent carriage is productive and 
 
 The archival situation for this vehicle is the reverse of the [X-6][related_post_a303_convair_x6], and the contrast is instructive enough to record.
 
-The X-6's record lives in the Department of Energy's technical archive because its subject was a reactor, and a standard aerospace search returns almost nothing. A search of that same archive, [OSTI][ref_osti], for the Aerobee and its designations returns nothing relevant at all, which was verified rather than assumed. The X-8's record is spread across two archives rather than one, and finding the second changed the picture materially.
+The X-6's record lives in the Department of Energy's technical archive because its subject was a reactor, and a standard aerospace search returns almost nothing. A search of that same archive, the [Office of Scientific and Technical Information][ref_osti], abbreviated OSTI, for the Aerobee and its designations returns nothing relevant at all, and that was verified rather than assumed.
 
-The NASA technical report archive, [NTRS][ref_ntrs], is rich from about 1959 onward and thin before it, because it accessioned NASA-era material comprehensively and the earlier Navy and Air Force material only sporadically. A sweep of 569 records from it returned 41 published in the 1950s against 161 in the 1960s. **On that evidence alone the conclusion would be that the X-8 era is poorly documented, and that conclusion would be wrong.**
+The X-8's record is spread across two archives rather than one, and finding the second changed the picture materially.
 
-Reports held by the Defense Technical Information Center are registered with Crossref under a single publisher prefix, so they resolve by digital object identifier like any journal article and verify the same way. A prefix-restricted search returned 125 records for this subject, of which 64 predate 1975. They include the research and development report on the Navy Aerobee-Hi, the Naval Research Laboratory Upper Atmosphere Research Report series, wind-variability studies underpinning impact prediction, roll-resonance analysis, and per-round meteorological data reports naming individual Aerobee vehicles. Every identifier in this article, from either archive or from the journal literature, was resolved and compared on title through [Crossref][ref_crossref]. **The material that the aerospace archive lacks for the 1946 to 1958 period is largely in the defence archive**, and reaching it needs a different query rather than a different expectation.
+The NASA Technical Reports Server, abbreviated NTRS, is rich from about 1959 onward and thin before it, because it accessioned NASA-era material comprehensively and the earlier Navy and Air Force material only sporadically. A sweep of 569 records from [NTRS][ref_ntrs] returned 41 published in the 1950s against 161 in the 1960s. **On that evidence alone the conclusion would be that the X-8 era is poorly documented, and that conclusion would be wrong.**
+
+Reports held by the Defense Technical Information Center are registered with Crossref under a single publisher prefix, so they resolve by digital object identifier like any journal article and verify the same way. A prefix-restricted search returned 125 records for this subject, of which 64 predate 1975. They include the research and development report on the Navy Aerobee-Hi, the Naval Research Laboratory Upper Atmosphere Research Report series, wind-variability studies underpinning impact prediction, roll-resonance analysis, and per-round meteorological data reports naming individual Aerobee vehicles. Every identifier in this article, from either archive or from the journal literature, was resolved and compared on title through [Crossref][ref_crossref]. **The material that the aerospace archive lacks for the 1946 to 1958 period is largely in the defence archive**, and reaching it needs a different query, not a different expectation.
 
 The bias that remains is narrower than it first appeared but it is real. **The Aerobee 150 and 350 are still better documented than the X-8 itself**, because the later vehicles were flown under an agency that published, and the Applied Physics Laboratory material of the earliest years survives mainly through the report series and through journal publication.
 
@@ -1249,7 +1253,7 @@ Sounding rockets of other nations, including the British Skylark, the Japanese K
 
 The X-8 is the first vehicle in this series that was not built to be studied. It was built to carry, and everything unusual about it follows from that.
 
-The requirement was set by optical depth rather than by ambition, and the figure of merit was observing time rather than altitude. Both are logarithmic in the quantity a programme actually pays for, which is mass ratio, and the consequence is that a sounding-rocket programme buys precision by flying often rather than by flying high. The vehicle was therefore optimised for cheapness and repeatability at every point where those competed with performance. It burned a mediocre storable propellant so it could sit on the tower. It used pressurised tanks so it needed no turbopump. It made the tanks the structure so it needed no airframe. It had no guidance, so it needed a tower and a desert. It rolled to average out its own manufacturing errors, and accepted a resonance hazard in exchange. It threw its fins away so the parachute would survive, and it recovered its nose cone physically because the information in a photographic plate exceeded the entire telemetry capacity of the flight by three orders of magnitude.
+The requirement was set by optical depth, not by ambition, and the figure of merit was observing time, not altitude. Both are logarithmic in the quantity a programme actually pays for, which is mass ratio, and the consequence is that a sounding-rocket programme buys precision by flying often rather than by flying high. The vehicle was therefore optimised for cheapness and repeatability at every point where those competed with performance. It burned a mediocre storable propellant so it could sit on the tower. It used pressurised tanks so it needed no turbopump. It made the tanks the structure so it needed no airframe. It had no guidance, so it needed a tower and a desert. It rolled to average out its own manufacturing errors, and accepted a resonance hazard in exchange. It threw its fins away so the parachute would survive, and it recovered its nose cone physically because the information in a photographic plate exceeded the entire telemetry capacity of the flight by three orders of magnitude.
 
 **None of these are good engineering in the abstract and all of them are correct for the use.** That is the lesson the vehicle carries, and it is the same lesson the X-7 carried in a different currency.
 
@@ -1397,7 +1401,8 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Boersma et al 1970][research_boersma_1970]
 - [Bollermann et al 1970][research_bollermann_1970]
 - [Bond and Swanson 1953][research_bond_1953]
-- [BONDARENKO et al 2026][research_bondarenko_2026]
+- [Bondarenko et al 2026][research_bondarenko_2026]
+- [Bouziane et al 2026][research_bouziane_2026]
 - [Bowyer et al 1964, Direction of Scorpius][research_bowyer_1964_2]
 - [Bowyer et al 1964, X-ray Sources in the Galaxy][research_bowyer_1964]
 - [Bowyer et al 1965][research_bowyer_1965]
@@ -1425,10 +1430,14 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Casey et al 1970][research_casey_1970]
 - [Cha and de Oliveira 2022][research_cha_2022]
 - [Cha et al 2023][research_cha_2023]
+- [Chadalavada et al 2026][research_chadalavada_2026]
 - [Chandra 1964][research_chandra_1964]
+- [Chang and Li 2023][research_chang_2023]
+- [Chang et al 2021][research_chang_2021_2]
 - [Chapman 1931, Part One][research_chapman_1931]
 - [Chapman 1931, Part Two][research_chapman_1931_2]
 - [Chartier 2022][research_chartier_2022]
+- [Chebakov et al 2026][research_chebakov_2026]
 - [Christos and Perlee 1965][research_christos_1965]
 - [Chubb 1952][research_chubb_1952]
 - [Chubb and Friedman 1955][research_chubb_1955]
@@ -1437,6 +1446,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Clark et al 1965][research_clark_1965]
 - [Coble and Nagy 1964][research_coble_1964]
 - [Cohen et al 2020][research_cohen_2020]
+- [Concio et al 2023][research_concio_2023]
 - [Conway and Barjatya 2025][research_conway_2025]
 - [Corliss 1971][research_corliss_1971]
 - [Corman and Guarino 1965][research_corman_1965]
@@ -1460,15 +1470,20 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Eckart and Yoon 2019][research_eckart_2019]
 - [Edmondson and Sanders 1949][research_edmondson_1949]
 - [Eggers and Wong 1961][research_eggers_1961]
+- [Eun and Han 2022][research_eun_2022]
+- [Fang et al 2023][research_fang_2023]
 - [Fareghi‐Alamdari et al 2019][research_fareghi_alamdari_2019]
 - [Fejer et al 1965][research_fejer_1965]
 - [Feng et al 2024][research_feng_2024]
 - [Ferl et al 2026][research_ferl_2026]
+- [Fialho and Mortari 2019][research_fialho_2019]
 - [Finzi 1964][research_finzi_1964]
 - [Fisher 1966][research_fisher_1966]
 - [Flores 1986][research_flores_1986]
 - [Flynn and Groves 1964][research_flynn_1964]
+- [Forsythe et al 2020][research_forsythe_2020]
 - [Fortney 1965][research_fortney_1965]
+- [Franzoni et al 2019][research_franzoni_2019]
 - [Friedman 1963][research_friedman_1963]
 - [Friedman and White 1967][research_friedman_1967]
 - [Friedman et al 1964][research_friedman_1964]
@@ -1491,6 +1506,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Groves 1966][research_groves_1966]
 - [Guadagnini et al 2023][research_guadagnini_2023]
 - [Guan et al 2025][research_guan_2025]
+- [Hao et al 2021][research_hao_2021]
 - [Harrje 1959][research_harrje_1959]
 - [Harrje and Sirignano 1966][research_harrje_1966]
 - [Harwit et al 1970][research_harwit_1970_2]
@@ -1505,7 +1521,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Hisler 1966][research_hisler_1966]
 - [Hoadley et al 2020][research_hoadley_2020]
 - [Hoidale 1963][research_hoidale_1963_2]
-- [Hoidale 1963, NE 3.127][research_hoidale_1963]
+- [Hoidale 1963, Ne 3.127][research_hoidale_1963]
 - [Hopko 1951][research_hopko_1951]
 - [Hoyle 1963][research_hoyle_1963]
 - [Hudgins and Lease 1969][research_hudgins_1969]
@@ -1517,6 +1533,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Jacobson and Minzner 1966][research_jacobson_1966]
 - [Jacobson and Morton 1972][research_jacobson_1972]
 - [Jaquet 1961][research_jaquet_1961]
+- [Jiang et al 2024][research_jiang_2024]
 - [Jin et al 2024][research_jin_2024]
 - [Johnson et al 1952][research_johnson_1952]
 - [Johnson et al 1955][research_johnson_1955]
@@ -1531,9 +1548,12 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Kestenbaum et al 1971][research_kestenbaum_1971]
 - [Keynton 1961][research_keynton_1961]
 - [Knothe 1970][research_knothe_1970]
+- [Ko et al 2019][research_ko_2019]
+- [Kokal et al 2025][research_kokal_2025]
 - [Koomen et al 1956, Airglow Distribution][research_koomen_1956]
 - [Koomen et al 1956, Airglow Measurement][research_koomen_1956_2]
 - [Kopp and Nielsen 1963][research_kopp_1963]
+- [Krcelic et al 2024][research_krcelic_2024]
 - [Krebs and Hart 1959][research_krebs_1959]
 - [Krishna et al 2023][research_krishna_2023]
 - [Krumins 1972][research_krumins_1972]
@@ -1541,21 +1561,28 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Kumar Bihari et al 2022][research_kumar_bihari_2022]
 - [Kwiek et al 2023][research_kwiek_2023]
 - [Ladanyi 1952][research_ladanyi_1952]
+- [Lan et al 2024][research_lan_2024]
 - [Lane and Redman 1970][research_lane_1970]
 - [Lawrence 1965][research_lawrence_1965]
 - [Le et al 2019][research_le_2019]
 - [Lee and Evans 1963][research_lee_1963]
 - [Lee and Wilms 1961][research_lee_1961]
+- [Lee et al 2026][research_lee_2026]
 - [Lehmacher et al 2026][research_lehmacher_2026]
+- [Li et al 2021][research_li_2021_2]
 - [Li et al 2023][research_li_2023_2]
 - [Li et al 2026][research_li_2026]
 - [Li et al 2026, Injector Review][research_li_2026_3]
 - [Liang et al 2022][research_liang_2022_2]
+- [Liu et al 2022][research_liu_2022_5]
 - [Liu et al 2023][research_liu_2023]
 - [Liu et al 2024][research_liu_2024]
+- [Liu et al 2025, Mesosphere][research_liu_2025_4]
 - [Long et al 2026][research_long_2026]
 - [Loposer and Rumsey 1954][research_loposer_1954]
 - [Louw et al 2026][research_louw_2026]
+- [Ma et al 2025][research_ma_2025]
+- [Mahdy et al 2024][research_mahdy_2024]
 - [Majoros and Sarlat 1966][research_majoros_1966]
 - [Mantler et al 1953][research_mantler_1953]
 - [Marchgraber and Armstrong 1962][research_marchgraber_1962]
@@ -1575,6 +1602,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Moore 1972][research_moore_1972]
 - [Moriyama et al 2025][research_moriyama_2025]
 - [Morrell 1956][research_morrell_1956]
+- [Nagasawa et al 2026][research_nagasawa_2026]
 - [Narayan et al 2025][research_narayan_2025]
 - [Negri and Lauck 2022][research_negri_2022]
 - [Nein and Thompson 1966][research_nein_1966]
@@ -1601,7 +1629,10 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Parkinson et al 1974][research_parkinson_1974]
 - [Pasciuti et al 2025][research_pasciuti_2025]
 - [Pearce 1968][research_pearce_1968]
+- [Perakis and Haidn 2019][research_perakis_2019]
+- [Perumbil et al 2025][research_perumbil_2025]
 - [Pfaff et al 2022][research_pfaff_2022]
+- [Pizzarelli and Battista 2023][research_pizzarelli_2023]
 - [Platus 1967][research_platus_1967]
 - [Pressly et al 1954][research_pressly_1954]
 - [Price and Woods 1968][research_price_1968]
@@ -1615,6 +1646,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Robbins and Zebrowski 1966][research_robbins_1966]
 - [Robinson 1961][research_robinson_1961]
 - [Rossi 1967][research_rossi_1967]
+- [Roy et al 2021][research_roy_2021]
 - [Rumsey and Lee 1958][research_rumsey_1958]
 - [Sabán-Fosch et al 2025][research_saban_fosch_2025]
 - [Sagliano et al 2024][research_sagliano_2024]
@@ -1623,10 +1655,12 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Sapozhnikov et al 2022][research_sapozhnikov_2022]
 - [Sathe et al 2026][research_sathe_2026]
 - [Sawada et al 2025][research_sawada_2025]
+- [Schroeder et al 2021][research_schroeder_2021]
 - [Schunk and Walker 1973][research_schunk_1973]
 - [Seddon 1953][research_seddon_1953]
 - [Sehga 1962][research_sehga_1962]
 - [Sheng Lim and Fadhli Zulkafli 2026][research_sheng_lim_2026]
+- [Shin et al 2022][research_shin_2022]
 - [Silvani et al 2022][research_silvani_2022]
 - [Smith 1965][research_smith_1965]
 - [Smith et al 1968][research_smith_1968]
@@ -1643,6 +1677,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Stude et al 2025][research_stude_2025]
 - [Sun and Tang 2020][research_sun_2020]
 - [Sun and Tang 2021][research_sun_2021]
+- [Sun and Zhong 2019][research_sun_2019]
 - [Szklarski and Głębocki 2025][research_szklarski_2025]
 - [Tai et al 2023][research_tai_2023]
 - [Tarzwell 1970][research_tarzwell_1970]
@@ -1665,6 +1700,8 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Walters 1967][research_walters_1967]
 - [Wang et al 2021, Ionic Liquid Fuels][research_wang_2021]
 - [Wang et al 2021, Tank Pressurization][research_wang_2021_2]
+- [Wang et al 2022][research_wang_2022]
+- [Warner et al 2026][research_warner_2026]
 - [Warwick and Zirin 1957][research_warwick_1957]
 - [Watson 1970][research_watson_1970]
 - [Webb 1968][research_webb_1968]
@@ -1674,19 +1711,29 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Wineman 1951][research_wineman_1951]
 - [Wise and Frech 1950][research_wise_1950]
 - [Witschas et al 2023][research_witschas_2023]
-- [WU et al 2026][research_wu_2026]
+- [Wu and Ren 2024][research_wu_2024_2]
+- [Wu and Shan 2019][research_wu_2019]
+- [Wu et al 2026][research_wu_2026]
 - [Xiong et al 2020][research_xiong_2020]
 - [Xu et al 2019][research_xu_2019]
 - [Yamin and Hadi 2026][research_yamin_2026]
+- [Yang and Liu 2019][research_yang_2019]
 - [Yang et al 2020][research_yang_2020]
+- [Yang et al 2023][research_yang_2023_2]
+- [Yang et al 2024, Impact Point][research_yang_2024_3]
 - [Yang et al 2025][research_yang_2025_2]
 - [Yilmaz et al 2025][research_yilmaz_2025]
 - [Yizengaw 2023][research_yizengaw_2023]
+- [Yu et al 2023][research_yu_2023_2]
 - [Yue and Wang 2025][research_yue_2025]
 - [Yuska 1966][research_yuska_1966]
 - [Zahari and Romli 2019][research_zahari_2019]
+- [Zebiri et al 2020][research_zebiri_2020]
 - [Zhang et al 2025, Hydrogen Peroxide Ignition][research_zhang_2025]
 - [Zhang et al 2025, Parachute Opening][research_zhang_2025_2]
+- [Zhang et al 2025, Zero Boil-Off][research_zhang_2025_4]
+- [Zhang et al 2026, Burning Rate][research_zhang_2026_4]
+- [Zhu et al 2025][research_zhu_2025]
 
 ### Related Post
 
@@ -1844,6 +1891,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_bollermann_1970]: https://ntrs.nasa.gov/citations/19700054460
 [research_bond_1953]: https://ntrs.nasa.gov/citations/20050029470
 [research_bondarenko_2026]: https://doi.org/10.15407/knit2026.03.024
+[research_bouziane_2026]: https://doi.org/10.1016/j.jastp.2026.106744
 [research_bowyer_1964]: https://doi.org/10.1038/2011307a0
 [research_bowyer_1964_2]: https://doi.org/10.1086/109364
 [research_bowyer_1965]: https://doi.org/10.1126/science.147.3656.394
@@ -1870,10 +1918,14 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_casey_1970]: https://ntrs.nasa.gov/citations/19700027277
 [research_cha_2022]: https://doi.org/10.3390/aerospace9060325
 [research_cha_2023]: https://doi.org/10.3390/aerospace10070582
+[research_chadalavada_2026]: https://doi.org/10.2514/1.a36525
 [research_chandra_1964]: https://ntrs.nasa.gov/citations/19640008590
+[research_chang_2021_2]: https://doi.org/10.2514/1.a34964
+[research_chang_2023]: https://doi.org/10.2514/1.a35566
 [research_chapman_1931]: https://doi.org/10.1088/0959-5309/43/1/305
 [research_chapman_1931_2]: https://doi.org/10.1088/0959-5309/43/5/302
 [research_chartier_2022]: https://doi.org/10.1029/2022sw003089
+[research_chebakov_2026]: https://doi.org/10.2514/1.j066070
 [research_christos_1965]: https://ntrs.nasa.gov/citations/19660030422
 [research_chubb_1952]: https://ntrs.nasa.gov/citations/19930087011
 [research_chubb_1955]: https://doi.org/10.1063/1.1771334
@@ -1882,6 +1934,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_clark_1965]: https://ntrs.nasa.gov/citations/19650038029
 [research_coble_1964]: https://ntrs.nasa.gov/citations/19640013111
 [research_cohen_2020]: https://doi.org/10.1016/j.asr.2019.04.036
+[research_concio_2023]: https://doi.org/10.2514/1.b38811
 [research_conway_2025]: https://doi.org/10.1029/2025ja034058
 [research_corliss_1971]: https://ntrs.nasa.gov/citations/19720005224
 [research_corman_1965]: https://ntrs.nasa.gov/citations/19650011192
@@ -1905,15 +1958,20 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_eckart_2019]: https://doi.org/10.1117/1.jatis.5.2.021020
 [research_edmondson_1949]: https://ntrs.nasa.gov/citations/19930085993
 [research_eggers_1961]: https://doi.org/10.2514/8.5802
+[research_eun_2022]: https://doi.org/10.2514/1.a35303
+[research_fang_2023]: https://doi.org/10.5194/amt-16-2263-2023
 [research_fareghi_alamdari_2019]: https://doi.org/10.1002/prep.201800343
 [research_fejer_1965]: https://ntrs.nasa.gov/citations/19660009897
 [research_feng_2024]: https://doi.org/10.1007/s10686-024-09961-9
 [research_ferl_2026]: https://doi.org/10.1038/s41526-026-00645-6
+[research_fialho_2019]: https://doi.org/10.3390/s19245355
 [research_finzi_1964]: https://doi.org/10.1086/147884
 [research_fisher_1966]: https://ntrs.nasa.gov/citations/19660014535
 [research_flores_1986]: https://ntrs.nasa.gov/citations/19870028472
 [research_flynn_1964]: https://ntrs.nasa.gov/citations/19650008590
+[research_forsythe_2020]: https://doi.org/10.1029/2019rs006953
 [research_fortney_1965]: https://ntrs.nasa.gov/citations/19660018740
+[research_franzoni_2019]: https://doi.org/10.1016/j.tws.2019.01.009
 [research_friedman_1963]: https://doi.org/10.1016/b978-1-4832-2872-3.50012-7
 [research_friedman_1964]: https://doi.org/10.1126/science.144.3618.562-c
 [research_friedman_1967]: https://ntrs.nasa.gov/citations/19670022264
@@ -1936,6 +1994,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_groves_1966]: https://doi.org/10.1098/rspa.1966.0038
 [research_guadagnini_2023]: https://doi.org/10.3390/aerospace11010035
 [research_guan_2025]: https://doi.org/10.1063/5.0249139
+[research_hao_2021]: https://doi.org/10.1016/j.tws.2020.107327
 [research_harrje_1959]: https://doi.org/10.21236/ad0212816
 [research_harrje_1966]: https://ntrs.nasa.gov/citations/19660026500
 [research_harwit_1970_2]: https://doi.org/10.21236/ad0724131
@@ -1962,6 +2021,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_jacobson_1966]: https://ntrs.nasa.gov/citations/19660014353
 [research_jacobson_1972]: https://ntrs.nasa.gov/citations/19720016348
 [research_jaquet_1961]: https://ntrs.nasa.gov/citations/19980227876
+[research_jiang_2024]: https://doi.org/10.1029/2024rs008086
 [research_jin_2024]: https://doi.org/10.1063/5.0236275
 [research_johnson_1952]: https://doi.org/10.1029/jz057i002p00157
 [research_johnson_1955]: https://doi.org/10.1086/107152
@@ -1976,9 +2036,12 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_kestenbaum_1971]: https://ntrs.nasa.gov/citations/19720029373
 [research_keynton_1961]: https://ntrs.nasa.gov/citations/19980227828
 [research_knothe_1970]: https://ntrs.nasa.gov/citations/19700044253
+[research_ko_2019]: https://doi.org/10.2514/1.a34319
+[research_kokal_2025]: https://doi.org/10.3390/aerospace12020136
 [research_koomen_1956]: https://doi.org/10.1029/jz061i002p00304
 [research_koomen_1956_2]: https://doi.org/10.1086/107412
 [research_kopp_1963]: https://doi.org/10.21236/ad0424008
+[research_krcelic_2024]: https://doi.org/10.1029/2024ja032623
 [research_krebs_1959]: https://ntrs.nasa.gov/citations/19980232087
 [research_krishna_2023]: https://doi.org/10.2514/1.g006758
 [research_krumins_1972]: https://ntrs.nasa.gov/citations/19720017345
@@ -1986,21 +2049,28 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_kumar_bihari_2022]: https://doi.org/10.1002/prep.202100339
 [research_kwiek_2023]: https://doi.org/10.3390/aerospace10050489
 [research_ladanyi_1952]: https://ntrs.nasa.gov/citations/19930086908
+[research_lan_2024]: https://doi.org/10.1016/j.applthermaleng.2023.121628
 [research_lane_1970]: https://ntrs.nasa.gov/citations/19710032966
 [research_lawrence_1965]: https://ntrs.nasa.gov/citations/19650021461
 [research_le_2019]: https://doi.org/10.2514/1.a34400
 [research_lee_1961]: https://doi.org/10.21236/ad0268435
 [research_lee_1963]: https://ntrs.nasa.gov/citations/19630004607
+[research_lee_2026]: https://doi.org/10.3390/aerospace13020169
 [research_lehmacher_2026]: https://doi.org/10.1029/2026ja035338
+[research_li_2021_2]: https://doi.org/10.1016/j.tws.2021.107888
 [research_li_2023_2]: https://doi.org/10.3390/aerospace10010051
 [research_li_2026]: https://doi.org/10.1029/2025sw004896
 [research_li_2026_3]: https://doi.org/10.3390/aerospace13040344
 [research_liang_2022_2]: https://doi.org/10.3390/aerospace9100593
+[research_liu_2022_5]: https://doi.org/10.3390/aerospace10010021
 [research_liu_2023]: https://doi.org/10.1016/j.ast.2023.108691
 [research_liu_2024]: https://doi.org/10.1016/j.ast.2024.109140
+[research_liu_2025_4]: https://doi.org/10.1029/2025sw004597
 [research_long_2026]: https://doi.org/10.1016/j.asr.2026.03.053
 [research_loposer_1954]: https://ntrs.nasa.gov/citations/20030068110
 [research_louw_2026]: https://doi.org/10.3390/aerospace13070639
+[research_ma_2025]: https://doi.org/10.1016/j.actaastro.2025.03.043
+[research_mahdy_2024]: https://doi.org/10.1016/j.tws.2024.111731
 [research_majoros_1966]: https://ntrs.nasa.gov/citations/19670033564
 [research_mantler_1953]: https://ntrs.nasa.gov/citations/19930087848
 [research_marchgraber_1962]: https://doi.org/10.21236/ad0274298
@@ -2020,6 +2090,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_moore_1972]: https://doi.org/10.21236/ad0754098
 [research_moriyama_2025]: https://doi.org/10.1186/s40623-025-02163-3
 [research_morrell_1956]: https://ntrs.nasa.gov/citations/19930086117
+[research_nagasawa_2026]: https://doi.org/10.1117/1.jatis.12.1.014004
 [research_narayan_2025]: https://doi.org/10.1016/j.jsse.2025.08.004
 [research_negri_2022]: https://doi.org/10.2514/1.b38413
 [research_nein_1966]: https://ntrs.nasa.gov/citations/19660019780
@@ -2047,7 +2118,10 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_parkinson_1974]: https://ntrs.nasa.gov/citations/19750025911
 [research_pasciuti_2025]: https://doi.org/10.1016/j.jsse.2025.02.003
 [research_pearce_1968]: https://ntrs.nasa.gov/citations/19690014432
+[research_perakis_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.11.048
+[research_perumbil_2025]: https://doi.org/10.1038/s41526-025-00499-4
 [research_pfaff_2022]: https://doi.org/10.1029/2021ja030191
+[research_pizzarelli_2023]: https://doi.org/10.1016/j.actaastro.2023.04.028
 [research_platus_1967]: https://doi.org/10.21236/ad0810587
 [research_pressly_1954]: https://doi.org/10.21236/adb957191
 [research_price_1968]: https://ntrs.nasa.gov/citations/19680016252
@@ -2061,6 +2135,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_robbins_1966]: https://ntrs.nasa.gov/citations/19710015274
 [research_robinson_1961]: https://ntrs.nasa.gov/citations/20040006327
 [research_rossi_1967]: https://ntrs.nasa.gov/citations/19680025238
+[research_roy_2021]: https://doi.org/10.1016/j.asr.2021.05.013
 [research_rumsey_1958]: https://ntrs.nasa.gov/citations/19930089952
 [research_saban_fosch_2025]: https://doi.org/10.1016/j.actaastro.2025.07.004
 [research_sagliano_2024]: https://doi.org/10.2514/1.g007570
@@ -2069,10 +2144,12 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_sapozhnikov_2022]: https://doi.org/10.1002/prep.202100051
 [research_sathe_2026]: https://doi.org/10.1016/j.ast.2026.113242
 [research_sawada_2025]: https://doi.org/10.1117/1.jatis.11.4.042019
+[research_schroeder_2021]: https://doi.org/10.1016/j.actaastro.2021.02.027
 [research_schunk_1973]: https://ntrs.nasa.gov/citations/19730041126
 [research_seddon_1953]: https://doi.org/10.1029/jz058i003p00323
 [research_sehga_1962]: https://ntrs.nasa.gov/citations/19620004856
 [research_sheng_lim_2026]: https://doi.org/10.30880/paat.2026.06.01.006
+[research_shin_2022]: https://doi.org/10.6108/jpne.2022.3.1.051
 [research_silvani_2022]: https://doi.org/10.1038/s41526-022-00207-6
 [research_smith_1965]: https://ntrs.nasa.gov/citations/19660003578
 [research_smith_1968]: https://doi.org/10.1007/978-1-935704-37-9_20
@@ -2087,6 +2164,7 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_stroud_1960]: https://doi.org/10.1029/jz065i008p02307
 [research_stude_2021]: https://doi.org/10.5194/amt-14-983-2021
 [research_stude_2025]: https://doi.org/10.5194/acp-25-383-2025
+[research_sun_2019]: https://doi.org/10.1016/j.actaastro.2019.03.019
 [research_sun_2020]: https://doi.org/10.1021/acs.energyfuels.9b04050
 [research_sun_2021]: https://doi.org/10.1016/j.combustflame.2021.01.041
 [research_szklarski_2025]: https://doi.org/10.3390/aerospace12070594
@@ -2111,6 +2189,8 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_walters_1967]: https://doi.org/10.21236/ad0658064
 [research_wang_2021]: https://doi.org/10.1016/j.combustflame.2021.111597
 [research_wang_2021_2]: https://doi.org/10.1016/j.energy.2021.121029
+[research_wang_2022]: https://doi.org/10.1142/s2251171722500076
+[research_warner_2026]: https://doi.org/10.2514/1.j066279
 [research_warwick_1957]: https://doi.org/10.1038/180500b0
 [research_watson_1970]: https://ntrs.nasa.gov/citations/19710006212
 [research_webb_1968]: https://doi.org/10.1007/978-1-935704-37-9_19
@@ -2120,16 +2200,26 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_wineman_1951]: https://ntrs.nasa.gov/citations/19930086425
 [research_wise_1950]: https://doi.org/10.21236/ada800133
 [research_witschas_2023]: https://doi.org/10.5194/amt-16-1087-2023
+[research_wu_2019]: https://doi.org/10.3390/aerospace6090102
+[research_wu_2024_2]: https://doi.org/10.3390/aerospace11040308
 [research_wu_2026]: https://doi.org/10.1016/j.ast.2025.111507
 [research_xiong_2020]: https://doi.org/10.2514/1.j058036
 [research_xu_2019]: https://doi.org/10.1007/s11071-019-05159-3
 [research_yamin_2026]: https://doi.org/10.56741/bst.v5i01.2026
+[research_yang_2019]: https://doi.org/10.5194/amt-12-4745-2019
 [research_yang_2020]: https://doi.org/10.1016/j.cja.2020.03.005
+[research_yang_2023_2]: https://doi.org/10.1016/j.ast.2023.108196
+[research_yang_2024_3]: https://doi.org/10.3390/aerospace11110908
 [research_yang_2025_2]: https://doi.org/10.1051/0004-6361/202452416
 [research_yilmaz_2025]: https://doi.org/10.3390/aerospace12121099
 [research_yizengaw_2023]: https://doi.org/10.1029/2023sw003469
+[research_yu_2023_2]: https://doi.org/10.3390/aerospace10110958
 [research_yue_2025]: https://doi.org/10.1016/j.jastp.2025.106492
 [research_yuska_1966]: https://ntrs.nasa.gov/citations/19660004864
 [research_zahari_2019]: https://doi.org/10.1016/j.jastp.2018.08.006
+[research_zebiri_2020]: https://doi.org/10.2514/1.j058705
 [research_zhang_2025]: https://doi.org/10.1016/j.actaastro.2025.01.033
 [research_zhang_2025_2]: https://doi.org/10.1016/j.ast.2025.110487
+[research_zhang_2025_4]: https://doi.org/10.1016/j.energy.2025.135365
+[research_zhang_2026_4]: https://doi.org/10.1016/j.actaastro.2026.02.018
+[research_zhu_2025]: https://doi.org/10.3390/rs17233784
