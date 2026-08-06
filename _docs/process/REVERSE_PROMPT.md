@@ -9,90 +9,93 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A304 primary-reference review. Committed and **not pushed**. **No article in this series is
-published.**
-
-**253 to 313 references, 49 to 109 primary technical documents, 1157 to 1289 lines.**
+**Task**: A304 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All eight articles in the series remain in `_drafts/`.
 
 ---
 
-## The Deficit Was the Largest in the Series
+## A Duplicated Clause the Equation Pass Left Behind
 
-A304 came into this pass at **49 primary documents and 19.4 percent of all references**, against 30.1
-percent for A301 and 39 percent for A302 and A303. That is roughly half the series norm and it is the
-worst starting position any article has had.
+The article contained this, in consecutive sentences:
 
-Two things caused it. **Thirty-one records I had already verified never got cited**, because the draft
-pass ran out of places to put them before it ran out of documents. And the harvest itself was barely
-tapped, with 337 documents gathered and 70 verified.
+> ...which is why the whole subject exists and why **the flame must be anchored rather than left to
+> propagate**. **The flame must therefore be anchored by a recirculation zone** rather than propagating
+> freely...
 
-Primary documents are now **109, or 34.8 percent**, and references dated 1965 or earlier are **51.1
-percent** of dated references, second only to A303.
+The same statement twice. My equation pass inserted the Damköhler paragraph ending in that clause,
+immediately before an existing sentence that already said it.
 
----
-
-## Four Additions Land on the Article's Own Derivations
-
-**[Disher et al 1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch
-ramjet.** That is the X-7's entire operating concept in miniature, flown two years into the programme,
-and it is the closest thing in the open literature to a direct antecedent. The draft had no citation
-for the architecture at all.
-
-**[Evans 1951] analyses ramjet performance across Mach 3 to 7**, which is exactly the interval in which
-the engine goes from excellent to impossible, and reaches the ceiling this article derives
-independently at Mach 6.2. Having derived it, it is worth knowing someone had it in 1951.
-
-**[Flaherty and Stitt 1959] test an isentropic spike inlet designed for Mach 5.** The shock section
-gestures at continuous compression as the limiting case of many weak shocks; this is that limit built
-as a contoured centrebody and flown.
-
-**[Tower and Gammon 1953] give the analytical relation between equivalence ratio, inlet air
-temperature, and combustion pressure** that the fuel-air calculation evaluates numerically.
+**This is the A297 defect class and every automated check passed it.** The anchor integrity check, the
+seam scan, the unbalanced-delimiter scan, `_verify.py`, and the build all saw nothing. It surfaced
+only because I was reading `rather than` occurrences for the diction check and two of them turned out
+to be the same sentence written twice. That is the third time in this series that a defect of this
+kind has been found by a check aimed at something else.
 
 ---
 
-## Two Claims Substantiated Rather Than Repeated
+## Contemporary Coverage
 
-The Comparison With Ground Prediction section asserted that a tunnel model runs an order of magnitude
-low in Reynolds number and that this matters. **[Anderson et al 1957] compare a full-scale and a
-quarter-scale translating-spike inlet at the same Mach numbers**, which is precisely the experiment
-that settles how far a tunnel result can be trusted, and the article now cites the measurement rather
-than the reasoning.
+45 journal articles added from a 40-query Crossref sweep, taking contemporary references from 62 to
+**107** and from 28.1 to **40.2 percent of dated references**. The absolute count now matches A302 at
+109 and A303 at 105. The percentage is higher because this article carries fewer dated references
+overall, and it is above the range the earlier articles settled at, which is deliberate under the
+directive.
 
-The combustion section said boron deposits solid oxide in the nozzle, which is well known and was
-standing on secondary accounts. **[Schafer et al 1953] compare theoretical and experimental oxide
-coating formation.** The claim is now attributable.
+**Selection was made by DOI directly from the harvest records rather than by transcription**, which is
+the rule I adopted after the draft pass hand-constructed nineteen identifiers that resolved to
+unrelated papers. All 45 verified with zero flagged at a 0.85 title-similarity threshold, against the
+0.5 threshold used previously.
+
+The strongest additions land on the keystone rather than beside it. **Optimal experimental design is a
+named modern discipline**, and [Zhong et al 2026] on the goal-oriented Bayesian case, [Attia et al
+2025] on robust A-optimal placement, and [Coons and Huan 2025] on expected information gain across
+fidelities all formalize exactly the statement this article makes about the X-7, which is that the
+value of an observation depends on where it is taken and that the most valuable places are the ones a
+cautious programme excludes. The article's central argument now has a live literature standing behind
+it rather than one textbook variance relation.
 
 ---
 
-## Diction
+## Smaller Defects
 
-Citations introduced by the preposition `in` reached **34.2 percent** of body citations after the
-pass, because sixty references went in during one sitting with one construction. Nine passages rotated
-across `by`, `from`, `through`, and verb forms, bringing it to **22.7 percent**, with `and` at 27.7 and
-`by` at 15.1. **That is the best-distributed citation mix of any article in the series so far**, and
-it is the third consecutive article where this check has caught the same drift, which suggests the
-drift is a property of how I add references in bulk rather than of any particular article.
+**The fuel heating value appeared in an equation and again in prose without ever being defined.** It
+is now glossed at first use.
+
+**Liquid hydrogen and kerosene densities were given as subscripts LH2 and RP**, the second of which is
+not glossed anywhere in the article and would be opaque to a reader outside propulsion. Both are now
+spelled out.
+
+**Three en-dashes entered with contemporary titles.** I corrected them at the master-table level
+rather than in the article, so the fix survives the next regeneration of the reference section. One
+parenthetical report designation in a title went the same way.
+
+`rather than` measured 41 uses at 4.4 per thousand body words, above A302 at 3.7 and A303 at 2.9.
+Fourteen rotations brought it to 30 at 3.03.
 
 ---
 
 ## Verification
 
-313 references with zero undefined, zero orphaned, and zero duplicate URLs. All 185 meaningful-404
-URLs at 200. `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations, zero
-doubled words, zero display-math seam defects. Isolated build succeeding with 94 rendered display
-blocks and Part 8 navigation.
+**All 53 worked numerical values re-derived independently, none disagreeing beyond four percent.**
+
+358 references with zero undefined, zero orphaned, and zero duplicate URLs. All 185 meaningful-404
+URLs at 200. All 107 DOIs Crossref-resolved on author and title. `_verify.py` at the 0-error
+21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons,
+or prose parentheticals. Zero doubled words, zero display-math seam defects. Bullets and definitions
+sorted, acronyms spelled out, genre order conforming. Isolated build succeeding with 94 rendered
+display blocks and Part 8 navigation.
+
+**All three densities are inside band**, which is the first article in the series to finish that way
+without an overage being argued for.
 
 ---
 
-## What Remains
+## State
 
-**Lines at 1289 are 11 short of the 1300 floor and I have not padded them.** Eleven lines is exactly
-the amount that would be tempting to manufacture, and the publication review will close it with real
-material or it will stay 11 short and be reported that way.
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is eight deep.**
 
-Contemporary references are 28.1 percent of dated, just inside the target range, so A304 does not
-carry a second deficit into the last pass.
-
-**Publication order dependency is eight deep.** Three commits unpushed. Categories remain
-`aerospace history engineering`, eight articles deep.
+Eight articles are complete of seventy-two. **Categories remain undecided** at
+`aerospace history engineering`, still my assumption, eight articles deep and raised repeatedly. A305
+is the Aerojet X-8, the Aerobee sounding rocket, where the question is what a designation means when
+the vehicle is not an aircraft at all.
