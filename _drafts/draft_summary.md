@@ -21,10 +21,16 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
 
-1235 lines, 92 display equations, 287 reference definitions, 14,425 words after an equation-density
-review that added 55 equations across 31 edits. Equations and references are inside band. Lines are
-65 short of the 1300 floor and have not been padded. Contemporary references are 32.8 percent of
-dated references, inside the target range, and references dated 1965 or earlier are 49.4 percent.
+1385 lines, 92 display equations, 358 reference definitions, 16,765 words after an equation-density
+review and a primary-reference review. **All three densities are now inside band.** Primary technical
+documents rose from 85 to 156, or 43.6 percent of all references, which is the highest in the series
+against A302 at 39.1 percent. References dated 1965 or earlier are 63.7 percent of dated references,
+also the series high by a wide margin, which is the expected shape for a programme whose entire
+technical life fell inside fifteen years.
+
+Contemporary references stand at 59 absolute and 23.5 percent of dated, down from 32.8 percent purely
+by dilution, and that is now below the 28 to 33 percent target. It is the publication review's
+business and has not been pre-empted.
 
 **The equation pass replaced an assumed attenuation factor with a derived one, and the numbers got
 worse.** The draft assumed a ten-million-fold attenuation. Deriving the gamma source from the fission
