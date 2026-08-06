@@ -43,11 +43,11 @@ $$\dot{N}_f = \frac{10^{8}}{3.20 \times 10^{-11}} = 3.12 \times 10^{18} \ \text{
 
 and that number, rather than the power, is what determines everything difficult about the aircraft, because each of those events emits radiation as well as heat.
 
-A strategic bomber of the period consumed fuel by the tens of tonnes. The same energy delivered by fission is measured in grams. The figure of merit that governs a conventional bomber collapses. Endurance for a fuel-burning aircraft is the fuel divided by the flow required,
+A strategic bomber of the period consumed fuel by the tens of tonnes. The same energy delivered by fission is measured in grams. The figure of merit that governs a conventional bomber collapses. Endurance for a fuel-burning aircraft is the fuel divided by the flow required, which is the thrust-specific fuel consumption, abbreviated TSFC, multiplied by the thrust,
 
 $$t_{\text{endurance}} = \frac{m_{\text{fuel}}}{\text{TSFC} \times F}$$
 
-and for a nuclear aircraft the thrust-specific fuel consumption is not small but effectively zero,
+and for a nuclear aircraft that consumption is not small but effectively zero,
 
 $$\text{TSFC} = \frac{\dot{m}_{\text{fuel}}}{F} \longrightarrow 0 \quad \Longrightarrow \quad t_{\text{endurance}} \longrightarrow \text{limited by something else}$$
 
@@ -63,7 +63,7 @@ and leakage grows as a core is made small. For a bare core the non-leakage proba
 
 $$P_{\text{NL}} \approx \frac{1}{1 + B^{2} M^{2}}, \qquad B^{2} = \left( \frac{\pi}{R} \right)^{2} \ \text{for a sphere}$$
 
-with $M^2$ the migration area. **An aircraft reactor must be compact, compact cores leak, and leaked neutrons must be paid for with enrichment or with a reflector.** Every aircraft reactor in this programme therefore used highly enriched fuel, which is a proliferation fact as well as an engineering one and which had no counterpart in any other aircraft in this series.
+with $M^2$ the migration area. **An aircraft reactor must be compact, compact cores leak, and leaked neutrons must be paid for with enrichment or with a reflector.** Every aircraft reactor in this programme therefore used highly enriched fuel, which is a proliferation fact as well as an engineering one, with no counterpart in any other aircraft in this series.
 
 That framing was understood at the outset. The [Lexington Project][research_stever_1948] convened at the Massachusetts Institute of Technology in 1948 to assess feasibility, and its verdict, that the thing was possible but would take fifteen years and a great deal of money, turned out to be very nearly exactly right in duration and wrong only in supposing that the endpoint would be reached. The study was thorough in a way its one-line summary conceals. It produced numbered reports on [aircraft][research_redding_1948] and on [aircraft configuration][research_hobbs_1948], recorded [a meeting with Boeing][research_klein_1948], assessed something as specific as [the tolerance of aerial reconnaissance film to nuclear radiation][research_goodman_1948], and was indexed well enough that [the index survives][research_aec_1948] as a document in its own right. **It also established the comparison baseline**, since [Shoults 1948][research_shoults_1948] examined the ability of chemically propelled aircraft to complete the same missions, which is the question that eventually killed the programme and which was therefore asked at the beginning and answered wrongly. The analysis of the mission case ran alongside, including [studies of nuclear aircraft for antisubmarine warfare][research_aec_1950] where endurance rather than speed is the whole of the requirement, and [the performance parameters that would govern any such aircraft][research_ruffman_1952]. Configuration studies followed in quantity. [Hutton 1952][research_hutton_1952] compares fourteen nuclear-powered airplanes against one another, which is the kind of document that exists only when a subject has passed from speculation into engineering.
 
@@ -139,7 +139,7 @@ The dose rate at distance $r$ from a shielded source is governed by an exponenti
 
 $$\dot{D}(r, x) = \frac{k \, P}{4 \pi r^{2}} \, B(\mu x) \, e^{-\mu x}$$
 
-in which $x$ is the shield thickness, $\mu$ the linear attenuation coefficient of the shield material, and $B$ the buildup factor accounting for photons that scatter into the beam rather than being removed from it. That factor is not a fudge but a computed quantity. [Auslender 1957][research_auslender_1957] obtains it for layered configurations by Monte Carlo, which is the method still used. The corresponding neutron quantity is the effective removal cross-section tabulated by [Chapman 1955][research_chapman_1955], and the fast-neutron spectrum and dose-rate calculations that convert a flux into a dose are [Eggen 1961][research_eggen_1961]. **Every coefficient this article uses was measured or computed under this programme or its immediate neighbours.** The factor $k$ collects the source spectrum and the conversion from fluence to dose.
+in which $x$ is the shield thickness, $\mu$ the linear attenuation coefficient of the shield material, and $B$ the buildup factor accounting for photons that scatter into the beam rather than being removed from it. That factor is not a fudge but a computed quantity. [Auslender 1957][research_auslender_1957] obtains it for layered configurations by Monte Carlo, which is the method still used. The corresponding neutron quantity is the effective removal cross-section tabulated by [Chapman 1955][research_chapman_1955], and the fast-neutron spectrum and dose-rate calculations that convert a flux into a dose are [Eggen 1961][research_eggen_1961]. **Every coefficient this article uses was measured or computed under this programme or its immediate neighbours.** Both quantities remain active research subjects rather than settled constants. Buildup factors are still being computed to greater depth and by new methods, with [Sun et al 2025][research_sun_2025_2] carrying Monte Carlo evaluation to a hundred mean free paths, [Kang and Zu 2026][research_kang_2026] and [Yang et al 2026][research_yang_2026] replacing the tabulations with learned models, and [Hashim et al 2026][research_hashim_2026] treating the multilayer case this article's divided shield requires. The neutron side is [Soliman 2025][research_soliman_2025], whose subject is the energy dependence of the removal cross-section, which is the approximation the single-value treatment above hides. Cross-section generation as a computational discipline is [Jiaju et al 2025][research_jiaju_2025]. The factor $k$ collects the source spectrum and the conversion from fluence to dose.
 
 Two features of that expression govern everything. The distance term is a power law and the shield term is an exponential, and an exponential wins every argument it is in.
 
@@ -251,7 +251,7 @@ $$\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}200}{39{,}000} = 1.0
 
 **The gamma shield alone weighs slightly more than the entire bomb load, and the full shield weighs about 1.7 times it.** A nuclear bomber buys unlimited range by giving up the payload that made the range worth having, and that sentence is the programme in one line. The trade is not fatal in principle, since a larger aircraft dilutes a fixed shield mass, and this is exactly why the design kept growing and why the follow-on was to be the larger YB-60. It is fatal in practice because the aircraft that dilutes the shield adequately is one nobody wanted to buy.
 
-The programme knew this. [Shield optimization][research_blizard_1953] was a named research subject with its own literature by 1953, [shield weights][research_woodsum_1957] were tracked as a programme metric, and the effect of the shield on the centre of gravity was itself a design problem serious enough to warrant [its own study][research_phelps_1961]. Shield synthesis was pushed to the point of [formal minimum-weight optimization][research_troubetzkoy_1961], and the computational tools were built in-house, with [shield analysis programs][research_capo_1957] and [their successors][research_edwards_1958] developed specifically for the task.
+This was understood at the time. [Shield optimization][research_blizard_1953] was a named research subject with its own literature by 1953, [shield weights][research_woodsum_1957] were tracked as a programme metric, and the effect of the shield on the centre of gravity was itself a design problem serious enough to warrant [its own study][research_phelps_1961]. Shield synthesis was pushed to the point of [formal minimum-weight optimization][research_troubetzkoy_1961], and the computational tools were built in-house, with [shield analysis programs][research_capo_1957] and [their successors][research_edwards_1958] developed specifically for the task.
 
 ### Divided Shielding and the Trick That Was Not Enough
 
@@ -323,13 +323,15 @@ so a core transferring a hundred megawatts at a megawatt per square metre needs 
 
 $$\frac{P}{V} \approx 100 \ \text{megawatts per cubic metre}$$
 
-That is an order of magnitude above a contemporary power reactor, and it is demanded by an aircraft's intolerance for volume. For a 1950s turbine tolerating something like 1150 kelvin at inlet, the fuel element surface must exceed that, and a fuel element at that temperature in a fast air stream is a materials problem of the first order. The programme built an entire literature on it, from [metallic fuel element materials][research_level_1962] through [high-temperature work reported at the ANP materials meetings][research_aec_1959_3]. Element development ran continuously, with [Conway 1956][research_conway_1956], [Butterfield 1956][research_butterfield_1956], [Conn 1957][research_conn_1957], and the shaped-wire study of [Tribus 1955][research_tribus_1955] representing the range of approaches tried. Inspection became its own discipline in [Marjon 1957][research_marjon_1957], measuring the element temperature required [thermocouples that would survive the environment][research_kuhlman_1957], and the cladding alloys are [Collins 1960][research_collins_1960]. **The fuel element is where an aircraft reactor differs most from a power reactor**, because it must be light, must run hotter, and must present a hundred square metres of surface to a fast air stream without shedding any of itself into the exhaust. What it does shed is the subject of [Wilks 1959][research_wilks_1959].
+That is an order of magnitude above a contemporary power reactor, and it is demanded by an aircraft's intolerance for volume. For a 1950s turbine tolerating something like 1150 kelvin at inlet, the fuel element surface must exceed that, and a fuel element at that temperature in a fast air stream is a materials problem of the first order. An entire literature was built on it, from [metallic fuel element materials][research_level_1962] through [high-temperature work reported at the ANP materials meetings][research_aec_1959_3]. Element development ran continuously, with [Conway 1956][research_conway_1956], [Butterfield 1956][research_butterfield_1956], [Conn 1957][research_conn_1957], and the shaped-wire study of [Tribus 1955][research_tribus_1955] representing the range of approaches tried. Inspection became its own discipline in [Marjon 1957][research_marjon_1957], measuring the element temperature required [thermocouples that would survive the environment][research_kuhlman_1957], and the cladding alloys are [Collins 1960][research_collins_1960]. **The fuel element is where an aircraft reactor differs most from a power reactor**, because it must be light, must run hotter, and must present a hundred square metres of surface to a fast air stream without shedding any of itself into the exhaust. What it does shed is the subject of [Wilks 1959][research_wilks_1959].
+
+The modern answer to that problem is to encapsulate the fuel rather than to clad it, and the coated particle is where high-temperature reactor fuel went. [Zheng et al 2026][research_zheng_2026] compute the interaction between such particles and the matrix holding them, [Liu and Liu 2025][research_liu_2025_2] and [Poschmann et al 2025][research_poschmann_2025] model their performance including the departures from sphericity that real manufacture produces, and the coupled irradiated thermal and mechanical behaviour of the elements is [Peng et al 2025][research_peng_2025], with the transmutation products that change the properties over life in [Paul et al 2025][research_paul_2025] and the multi-scale coupling problem in [Zhang et al 2026][research_zhang_2026_2]. Gas-cooled cores of the kind the programme also examined continue in [Chong and Sagara 2026][research_chong_2026] and [Owston 2025][research_owston_2025].
 
 Pushing air through that core costs pressure, and pressure lost between compressor and turbine is thrust not produced. The core acts as a duct with friction,
 
 $$\frac{\Delta p}{p} = f \frac{L}{D_h} \frac{\rho V^{2}}{2 p}$$
 
-and the fractional thrust penalty follows the fractional pressure loss closely for a turbojet, so a five percent core pressure drop is roughly a five percent thrust penalty on top of everything else. The programme measured this rather than estimating it. [Segaser 1948][research_segaser_1948] determines pressure drop factors through typical fuel element channels, which is among the earliest documents in the whole record. [Chandler 1957][research_chandler_1957] finds that surface oxidation of the elements increases the loss, which is a degradation mechanism with no combustor analogue. The temperature rise of the fluid passing the elements is computed by [Woods 1954][research_woods_1954]. **A combustor adds heat at nearly constant pressure because it is an open volume. A reactor core is a heat exchanger and behaves like one.**
+and the fractional thrust penalty follows the fractional pressure loss closely for a turbojet, so a five percent core pressure drop is roughly a five percent thrust penalty on top of everything else. The programme measured this instead of estimating it. [Segaser 1948][research_segaser_1948] determines pressure drop factors through typical fuel element channels, which is among the earliest documents in the whole record. [Chandler 1957][research_chandler_1957] finds that surface oxidation of the elements increases the loss, which is a degradation mechanism with no combustor analogue. The temperature rise of the fluid passing the elements is computed by [Woods 1954][research_woods_1954]. **A combustor adds heat at nearly constant pressure because it is an open volume. A reactor core is a heat exchanger and behaves like one.**
 
 The air itself becomes radioactive. Natural argon is 0.93 percent of the atmosphere and argon-40 captures a neutron to become [argon-41][ref_argon41], a gamma emitter with a 110 minute half-life. The activity produced scales with the neutron flux, the residence time, and the mass flow,
 
@@ -427,7 +429,9 @@ so a component's life is set by a fluence limit rather than by a dose rate,
 
 $$t_{\text{life}} = \frac{\Phi_{n,\text{limit}}}{\varphi_n}$$
 
-and because the components are distributed through the airframe rather than concentrated in one shielded volume, they cannot all be behind the shadow shield. The programme therefore had to develop [radiation-resistant motors for nuclear aircraft controls][research_fries_1958] and an entire design practice for [electronic systems intended to work in nuclear aircraft][research_levine_1960], restated the following year as [a major influence on such designs][research_levine_1961]. The material behaviour underneath it was catalogued systematically. [Radiation damage to elastomers, lubricants, fabrics, and plastics][research_aec_1954] is a title that conveys the breadth of the problem, with [plastic laminates][research_bauerlein_1959], [organic lubricants and polymers][research_bolt_1958], and [the behaviour of fuels and lubricants in dynamic test equipment under irradiation][research_krasnow_1959] treated separately, and [a bibliography of effects on aluminium, elastomers, and lubricants][research_cernak_1960] collecting the rest. Control system components have [their own damage study][research_anderson_1952], the field held [semiannual symposia][research_aec_1958], and the whole was gathered into [a handbook][research_aec_1956]. **An aircraft is mostly organic materials and precision mechanisms, and a reactor is hostile to both.** That is [radiation hardening][ref_rad_hardening] as an engineering discipline, and its origins are here.
+and because the components are distributed through the airframe rather than concentrated in one shielded volume, they cannot all be behind the shadow shield. The work therefore had to develop [radiation-resistant motors for nuclear aircraft controls][research_fries_1958] and an entire design practice for [electronic systems intended to work in nuclear aircraft][research_levine_1960], restated the following year as [a major influence on such designs][research_levine_1961]. The material behaviour underneath it was catalogued systematically. [Radiation damage to elastomers, lubricants, fabrics, and plastics][research_aec_1954] is a title that conveys the breadth of the problem, with [plastic laminates][research_bauerlein_1959], [organic lubricants and polymers][research_bolt_1958], and [the behaviour of fuels and lubricants in dynamic test equipment under irradiation][research_krasnow_1959] treated separately, and [a bibliography of effects on aluminium, elastomers, and lubricants][research_cernak_1960] collecting the rest. Control system components have [their own damage study][research_anderson_1952], the field held [semiannual symposia][research_aec_1958], and the whole was gathered into [a handbook][research_aec_1956]. **An aircraft is mostly organic materials and precision mechanisms, and a reactor is hostile to both.**
+
+That subject became an industry once electronics moved into space, and the mechanisms the ANP engineers were discovering empirically now have names and models. Displacement damage in semiconductors is reviewed by [Ha and Kim 2025][research_ha_2025], single-event effects and the hardening practices that answer them by [Aguiar and Martinelli 2026][research_aguiar_2026] and [Liu et al 2025][research_liu_2025], with circuit-level hardening in [Kumar et al 2025][research_kumar_2025] and the charge transport underneath it in [Mendes and Tomal 2025][research_mendes_2025]. **The design practice the programme invented for a bomber is now the reason a satellite works.** That is [radiation hardening][ref_rad_hardening] as an engineering discipline, and its origins are here.
 
 ### The Crew, and the Dose They Were Allowed
 
@@ -455,7 +459,7 @@ so each factor of $e$ in permitted dose is worth two tonnes, and because the dep
 
 One aircraft flew and it was not the X-6.
 
-The [NB-36H][ref_nb36h], a B-36H-20-CF with serial 51-5712 that had been damaged by a tornado at [Carswell Air Force Base][ref_carswell] on 1 September 1952, was rebuilt as the Nuclear Test Aircraft. It carried the Aircraft Shield Test Reactor, a one megawatt air-cooled reactor of about 16,000 kilograms, hung in a bomb bay on a hook so it could be lowered into a shielded pit between flights. Water served as moderator and coolant and dumped its heat overboard through water-to-air exchangers. **The reactor never powered the aircraft.** Its purpose was to be a source, and the aircraft's purpose was to measure what that source did to a crew compartment and to the equipment around it.
+The [NB-36H][ref_nb36h], a B-36H-20-CF with serial 51-5712 that had been damaged by a tornado at [Carswell Air Force Base][ref_carswell] on 1 September 1952, was rebuilt as the Nuclear Test Aircraft. It carried the Aircraft Shield Test Reactor, abbreviated ASTR, a one megawatt air-cooled reactor of about 16,000 kilograms, hung in a bomb bay on a hook so it could be lowered into a shielded pit between flights. Water served as moderator and coolant and dumped its heat overboard through water-to-air exchangers. **The reactor never powered the aircraft.** Its purpose was to be a source, and the aircraft's purpose was to measure what that source did to a crew compartment and to the equipment around it.
 
 The crew section was rebuilt in lead and rubber at a mass variously reported between eleven and twelve tonnes, with leaded glass in the windows. The aircraft flew 47 times between 17 September 1955 and March 1957, accumulating 215 flight hours of which the reactor was operated during 89.
 
@@ -479,7 +483,7 @@ The NB-36H was scrapped, the X-6 was never begun, and the programme was cancelle
 
 The X-6 inverts the usual relationship, because there was no flight against which to check the prediction, and the prediction is all there is.
 
-For every other aircraft in this series the interesting question is where the ground facilities were wrong. Here the ground facilities are the entire record. The Aircraft Reactor Experiment, the Heat Transfer Reactor Experiments, the Tower Shielding Facility, and the NB-36H measurements form a body of validated engineering that was never assembled into an aeroplane, and the honest assessment is that the prediction was largely right and the programme was cancelled for reasons the prediction supported rather than contradicted.
+For every other aircraft in this series the interesting question is where the ground facilities were wrong. Here the ground facilities are the entire record. The Aircraft Reactor Experiment, the Heat Transfer Reactor Experiments, the Tower Shielding Facility, and the NB-36H measurements form a body of validated engineering that was never assembled into an aeroplane, and the honest assessment is that the prediction was largely right and the programme was cancelled for reasons the prediction supported instead of contradicting.
 
 There is one check available, and it is worth performing because it is the only place in this article where the derivation can be tested against hardware that existed. Apply the shield calculation to the ASTR in the NB-36H rather than to a propulsion reactor.
 
@@ -493,7 +497,7 @@ Holding the crew to fifty millisieverts across the 89 hours of reactor operation
 
 $$\mathcal{A} = \frac{157}{5.6 \times 10^{-4}} = 2.8 \times 10^{5}, \qquad x = \frac{\ln \left( 2.8 \times 10^{6} \right)}{0.794} = 18.7 \ \text{centimetres}$$
 
-The NB-36H's crew shield was a bulkhead across the front of the compartment rather than a wrap around it, so the area is the compartment cross-section rather than its surface. Taking six square metres,
+The NB-36H's crew shield was a bulkhead across the front of the compartment, not a wrap around it, so the area is the compartment cross-section and not its surface. Taking six square metres,
 
 $$m = \rho_s A x = 11{,}340 \times 6.0 \times 0.187 = 1.27 \times 10^{4} \ \text{kilograms}$$
 
@@ -525,7 +529,7 @@ A molten salt core carries a second property that mattered less to the aircraft 
 
 $$\alpha_T = \frac{\partial k_{\text{eff}}}{\partial T} < 0, \qquad \delta k = \alpha_T \, \delta T$$
 
-and a power excursion is self-limiting without any control action at all. **The pressure vessel mass is proportional to the pressure, so a molten salt reactor's vessel is four orders of magnitude lighter than a water reactor's at the same size.** For an aircraft that is decisive, and for a ground station it is merely attractive, which is why the idea survived in a place it was not invented for. [Its operation][research_cottrell_1955_2] and [the operating account of Bettis 1957][research_bettis_1957] document the experiment, [the hazards summary][research_cottrell_1952_3] preceded it, [the components of its fused-salt and sodium circuits][research_savage_1958] are described in detail, and it was [disassembled and examined afterward][research_cottrell_1958]. [ORNL's aircraft nuclear power plant designs][research_fraas_1954] give the surrounding context.
+and a power excursion is self-limiting without any control action at all. **The pressure vessel mass is proportional to the pressure, so a molten salt reactor's vessel is four orders of magnitude lighter than a water reactor's at the same size.** For an aircraft that is decisive, and for a ground station it is merely attractive, which is why the idea survived in a place it was not invented for. [Its operation][research_cottrell_1955_2] and [the operating account of Bettis 1957][research_bettis_1957] document the experiment, [the hazards summary][research_cottrell_1952_3] preceded it, [the components of its fused-salt and sodium circuits][research_savage_1958] are described in detail, and it was [disassembled and examined afterward][research_cottrell_1958]. [Oak Ridge's aircraft nuclear power plant designs][research_fraas_1954] give the surrounding context.
 
 The pivot from aircraft to civilian power is visible in the record as it happens. [McPherson 1957][research_mcpherson_1957] is titled *Molten Salts for Civilian Power* and appeared while the aircraft programme was still running, [Briant 1957][research_briant_1957] argues molten fluorides as power reactor fuels, [Grimes 1958][research_grimes_1958] sets out the chemistry, and by [MacPherson 1960][research_macpherson_1960] the concept is being evaluated for a ten-year plan that has nothing to do with aeroplanes. **The people who built a reactor for an aircraft spent the late 1950s explaining that it would be more useful somewhere else, and they were right.**
 
@@ -543,7 +547,7 @@ The subject did not end. It moved, and it split into three descendants that no l
 
 ### Molten Salt Reactors
 
-The Aircraft Reactor Experiment's direct line is now a substantial commercial and academic field. [Holcomb 2025][research_holcomb_2025] treats thermal-spectrum molten salt breeder fuel cycles, [McFarlane 2024][research_mcfarlane_2024] argues that the fuel cycle rather than the reactor is the hard part, and [Creasman et al 2024][research_creasman_2024] compute fuel depletion for a molten salt demonstration reactor. Modelling work includes [Fischer and Bureš 2024][research_fischer_2024], whose subject is the Molten Salt Reactor Experiment itself, the ARE's own successor at Oak Ridge, and [Mochizuki 2024][research_mochizuki_2024] on load following. The chemistry that makes a circulating fuel salt difficult is pursued by [Cheng et al 2025][research_cheng_2025] on noble metal fission product aggregation and [Niu et al 2024][research_niu_2024] on extracting molybdenum-99 from fuel salt, with [Yilmaz et al 2025][research_yilmaz_2025] on thorium fuelling and [Mishra et al 2024][research_mishra_2024] supplying an irradiated fuel salt data library. Accident behaviour is [Dunkle and Bogetic 2026][research_dunkle_2026]. **A 1954 aircraft reactor experiment is the origin of all of it.**
+The Aircraft Reactor Experiment's direct line is now a substantial commercial and academic field. [Holcomb 2025][research_holcomb_2025] treats thermal-spectrum molten salt breeder fuel cycles, [McFarlane 2024][research_mcfarlane_2024] argues that the fuel cycle rather than the reactor is the hard part, and [Creasman et al 2024][research_creasman_2024] compute fuel depletion for a molten salt demonstration reactor. Modelling work includes [Fischer and Bureš 2024][research_fischer_2024], whose subject is the Molten Salt Reactor Experiment itself, the ARE's own successor at Oak Ridge, and [Mochizuki 2024][research_mochizuki_2024] on load following. The chemistry that makes a circulating fuel salt difficult is pursued by [Cheng et al 2025][research_cheng_2025] on noble metal fission product aggregation and [Niu et al 2024][research_niu_2024] on extracting molybdenum-99 from fuel salt, with [Yilmaz et al 2025][research_yilmaz_2025] on thorium fuelling and [Mishra et al 2024][research_mishra_2024] supplying an irradiated fuel salt data library. Accident behaviour is [Dunkle and Bogetic 2026][research_dunkle_2026]. The physical properties of the salts themselves, which the Oak Ridge chemists established by measurement, are now being computed from first principles by [Li et al 2026][research_li_2026], the tritium that a fluoride salt inevitably generates is [Jiang et al 2026][research_jiang_2026], and salt behaviour outside the reactor entirely, as a lubricant, is [Liu and Chen 2026][research_liu_2026_2]. Reactor kinetics with a circulating fuel, where the delayed neutron precursors leave the core before they decay, is a peculiarity of this reactor type that the ARE encountered first and that [Chen et al 2025][research_chen_2025_2] still treat. **A 1954 aircraft reactor experiment is the origin of all of it.**
 
 ### Shielding
 
@@ -559,6 +563,8 @@ $$\dot{D} \left( \mathbf{x} \right) = \dot{D}_\gamma \prod_j B_j e^{-\mu_j x_j} 
 
 which is the coupling this article set aside when it treated the lead and the lithium hydride separately and called their sum an upper bound.
 
+Shielding materials are being developed at a rate the programme would have envied, and the search is now for composites that combine attenuation with structure rather than for a single dense element. [Ozdemir et al 2025][research_ozdemir_2025] develop a ternary gamma-shielding composite, [Sayyed et al 2025][research_sayyed_2025], [Gomaa and El-Tayebany 2026][research_gomaa_2026], and [Yavuzkanat and Sahmaran 2026][research_yavuzkanat_2026] evaluate glass systems where the shielding and the structural role are the same material, and [Jiang 2025][research_jiang_2025] pursues carbon-bearing neutron shields, which is the lithium hydride idea with the hydrogen bound differently. Facility-scale optimization appears in [Syarip et al 2025][research_syarip_2025] and [Chen 2025][research_chen_2025].
+
 Materials work continues along the lines the programme opened. [Bhardwaj et al 2024][research_bhardwaj_2024] fabricate neutron-absorbing metal hydride ceramic matrix composites, which is the lithium hydride idea in modern form, and [Stone et al 2024][research_stone_2024], [Khan et al 2025][research_khan_2025], and [Sekkat et al 2026][research_sekkat_2026] develop composite and additively manufactured shields. Space reactor shielding specifically is [Han et al 2025][research_han_2025] and [Han et al 2025][research_han_2025_2], with [Oğul et al 2026][research_ogul_2026] treating a small modular reactor. The crewed-vehicle version of the problem, which is the X-6's problem with the source moved outside, appears in [DeWitt and Benton 2024][research_dewitt_2024] on secondary proton buildup, [Matthiä and Berger 2024][research_matthia_2024] on lunar surface exposure, and [Yıldırım and Opçin 2026][research_yildirim_2026] on multilayer composites.
 
 ### Nuclear Propulsion Where the Shield Is Affordable
@@ -567,13 +573,17 @@ Nuclear propulsion survived in the two places where the constraint this article 
 
 Space is the second case. [Alnuaimi and Kim 2026][research_alnuaimi_2026] assess a liquid uranium-manganese nuclear thermal rocket, [Guilbaud et al 2024][research_guilbaud_2024] restudy the KIWI-B-4E core from the Rover programme with modern methods, and [Aueron and Thomas 2024][research_aueron_2024] examine electric-pump-fed nuclear thermal propulsion. Nuclear electric systems appear in [Ma et al 2026][research_ma_2026] and mission studies in [Ancona et al 2025][research_ancona_2025]. **[Duan et al 2026][research_duan_2026] analyse the reactivity safety of an air-cooled nuclear thermal propulsion reactor, which is the direct air cycle returning under a different name for a different vehicle.**
 
-The microreactor is the other descendant, and it inherits the X-6's real problem, which is a reactor that must operate away from the infrastructure a power station enjoys. [Parisi and Arafat 2026][research_parisi_2026] describe the MARVEL microreactor, [Domingos et al 2026][research_domingos_2026] and [Rangel et al 2026][research_rangel_2026] treat fuel choices including designs avoiding enriched uranium, and the economics that decide whether any of it happens are [Abdussami et al 2025][research_abdussami_2025], [Kim and Macfarlane 2026][research_kim_2026], and [Shobeiri et al 2025][research_shobeiri_2025]. Accident source terms and tolerant fuels are [Sun et al 2025][research_sun_2025] and [Elkhawas et al 2025][research_elkhawas_2025], with materials in [Islam and Haque 2025][research_islam_2025] and [Lan et al 2024][research_lan_2024].
+Surface and orbital power is a further branch, and [Smith et al 2026][research_smith_2026] analyse a Kilopower-class reactor for lunar use while [Zhang et al 2026][research_zhang_2026_3] model the heat pipe startup such a system depends on. Marine propulsion never stopped, and [Delgarm et al 2025][research_delgarm_2025] optimize a naval plant while [Kim and Lee 2026][research_kim_2026_2] explicitly modernize the ML-1 architecture, which was a transportable military reactor contemporary with ANP. **Every one of those applications shares the X-6's constraint and relaxes exactly one part of it**, since a lunar reactor has no crew nearby, a ship can carry the shield, and a transportable reactor need not fly.
+
+The microreactor is the other descendant, and it inherits the X-6's real problem, which is a reactor that must operate away from the infrastructure a power station enjoys. [Parisi and Arafat 2026][research_parisi_2026] describe the MARVEL microreactor, [Domingos et al 2026][research_domingos_2026] and [Rangel et al 2026][research_rangel_2026] treat fuel choices including designs avoiding enriched uranium, and the economics that decide whether any of it happens are [Abdussami et al 2025][research_abdussami_2025], [Kim and Macfarlane 2026][research_kim_2026], and [Shobeiri et al 2025][research_shobeiri_2025]. Accident source terms and tolerant fuels are [Sun et al 2025][research_sun_2025] and [Elkhawas et al 2025][research_elkhawas_2025], with materials in [Islam and Haque 2025][research_islam_2025] and [Lan et al 2024][research_lan_2024]. The proliferation dimension, which the X-6 raised by requiring highly enriched fuel in a compact core and which no other aircraft in this series raises at all, is treated by [Mitsuboshi and Sagara 2025][research_mitsuboshi_2025] for small modular reactors, [Bolukbasi and Margulis 2026][research_bolukbasi_2026] through fuel cycle composition, and [Chong and Sagara 2025][research_chong_2025] through burnup strategy. Isotope production as a use for the flux appears in [Chandler et al 2025][research_chandler_2025].
 
 ### What Took Its Place in Aviation
 
 The question the X-6 was built to answer, which is how to fly without carrying the energy as chemical fuel, is live again and is being answered differently.
 
-Hydrogen is the leading candidate and it has the same structural character as nuclear propulsion, which is that the energy is cheap and the container is expensive. [Li 2024][research_li_2024] reviews hydrogen-powered aircraft, [Jagtap et al 2024][research_jagtap_2024] and [Wahler et al 2025][research_wahler_2025] work the conceptual design and the aerostructural trade, [Sasi et al 2025][research_sasi_2025] treat hydrogen and ammonia turbofans, [Lu et al 2025][research_lu_2025] recover exhaust heat in a cryogenic installation, and [Zhang et al 2026][research_zhang_2026] address crashworthiness, which is the hydrogen version of the question the [nuclear aircraft safety programme][research_aec_1957_3] asked about dispersing a core. Batteries are the other candidate and their specific energy remains the binding constraint, as [Cetegen et al 2025][research_cetegen_2025] and [Peng et al 2024][research_peng_2024] show.
+Hydrogen is the leading candidate and it has the same structural character as nuclear propulsion, which is that the energy is cheap and the container is expensive. [Li 2024][research_li_2024] reviews hydrogen-powered aircraft, [Jagtap et al 2024][research_jagtap_2024] and [Wahler et al 2025][research_wahler_2025] work the conceptual design and the aerostructural trade, [Sasi et al 2025][research_sasi_2025] treat hydrogen and ammonia turbofans, [Lu et al 2025][research_lu_2025] recover exhaust heat in a cryogenic installation, and [Zhang et al 2026][research_zhang_2026] address crashworthiness, which is the hydrogen version of the question the [nuclear aircraft safety programme][research_aec_1957_3] asked about dispersing a core. Batteries are the other candidate and their specific energy remains the binding constraint, as [Cetegen et al 2025][research_cetegen_2025] and [Peng et al 2024][research_peng_2024] show. The hydrogen case is surveyed by [Gopalasingam et al 2025][research_gopalasingam_2025], the tank and its ballast consequences are codesigned by [Antonakis and Glenis 2026][research_antonakis_2026], the thermodynamics of the stored liquid are [Li et al 2026][research_li_2026_2], and the drop-in alternative that avoids the tank entirely is the synthetic fuel of [Bardon et al 2025][research_bardon_2025] and [Quiroz et al 2025][research_quiroz_2025]. The same argument is being had at sea, where the mass penalty is affordable, in [Liu and Fu 2025][research_liu_2025_3].
+
+**The mission itself has also been answered without any of this.** The X-6 existed to keep an aircraft airborne indefinitely, and that requirement is now met by vehicles with no crew to shield and very little mass to lift. [Jung et al 2025][research_jung_2025] analyse the endurance of a solar-powered high-altitude unmanned aircraft, which achieves persistence by having almost no energy demand rather than by carrying an enormous energy supply, and the structural problems such an airframe meets instead are [Sampath and Kattimani 2025][research_sampath_2025]. **A programme that spent a billion dollars to remove the fuel constraint was eventually answered by removing the crew and most of the aircraft**, which is a solution nobody in 1946 would have accepted and nobody in 2026 finds surprising.
 
 **Every one of these is a fixed-overhead problem of the kind this article derives for the shield.** The general form is worth writing down, because it is what the X-6 is an instance of. Let an aircraft carry a fixed installation of mass $m_{\text{fix}}$ that enables a mission but performs no work during it. The payload available is what remains,
 
@@ -595,13 +605,13 @@ The keystone framework fits an unbuilt aircraft badly in three ways, and the way
 
 There was no flight, so there was no measurement of the keystone. Everything in the sizing section above is a calculation, and calculations were available in 1948. An instrument model that treats a research aircraft as reducing uncertainty has nothing to work with when the aircraft does not exist, and the honest reading is that the X-6 reduced uncertainty about the programme's cost rather than about its physics.
 
-The programme's most valuable output is unrelated to its keystone. A molten salt reactor is not an answer to the question of whether shielding can be carried. It is a reactor concept that happened to suit an aircraft's requirements for high temperature at low pressure, and it survived because those requirements recur in contexts having nothing to do with aircraft. A framework that scores a programme against its own question will miss this entirely, and it is the most important thing that happened.
+The programme's most valuable output is unrelated to its keystone. A molten salt reactor is not an answer to the question of whether shielding can be carried. It is a reactor concept that happened to suit an aircraft's requirements for high temperature at low pressure, and it survived because those requirements recur in contexts having nothing to do with aircraft. A framework scoring an effort against its own question will miss this entirely, and it is the most important thing that happened.
 
 The cancellation was not a technical decision and the framework has no place to put that. Intercontinental ballistic missiles made the indefinitely loitering bomber strategically uninteresting, and aerial refuelling made unlimited range achievable by other means. The second of those can be put beside the shield directly. A tanker delivers fuel at a cost in sorties rather than in airframe mass, so the range a refuelled conventional bomber achieves is
 
 $$R_{\text{refuelled}} = \frac{V}{c_t} \frac{L}{D} \sum_{i} \ln \left( \frac{m_{i}}{m_{f,i}} \right)$$
 
-summed over refuelling segments, and the sum has no upper bound that the aircraft itself imposes. **Unlimited range was achieved by a logistics arrangement rather than by a propulsion technology, at zero cost in payload.** The nuclear aircraft was competing against a solution that had already won on the metric it was optimizing. The X-6 was not defeated by its shield. **It was made pointless by two unrelated technologies while it was still arguing with its shield**, which is a much more common way for engineering programmes to end than failure is.
+summed over refuelling segments, and the sum has no upper bound that the aircraft itself imposes. **Unlimited range was achieved by a logistics arrangement rather than by a propulsion technology, at zero cost in payload.** The nuclear aircraft was competing against a solution that had already won on the metric it was optimizing. The X-6 was not defeated by its shield. **It was made pointless by two unrelated technologies while it was still arguing with its shield**, which is a far more common way for engineering work to end than outright failure.
 
 ## The Source Base
 
@@ -609,7 +619,7 @@ The source base for this article differs from every other in the series in one s
 
 **The primary record is not in the NASA archive.** ANP was an Atomic Energy Commission and Air Force programme, so its reports went to the AEC and are held today by the Department of Energy, discoverable through the Office of Scientific and Technical Information rather than through the [NASA Technical Reports Server][ref_ntrs]. The consequence for anyone retracing this work is that the standard search for an X-plane returns almost nothing, and the standard conclusion, that the record is thin, is exactly wrong. The record is enormous and is in a different building.
 
-The programme record proper is the quarterly and semiannual progress report series, running from [Cottrell 1951][research_cottrell_1951] through [1952][research_cottrell_1952], [1952][research_cottrell_1952_2], [Cottrell 1953][research_cottrell_1953], [Savolainen 1954][research_savolainen_1954], [Savolainen 1955][research_savolainen_1955], [Savolainen 1956][research_savolainen_1956], [Savolainen 1956][research_savolainen_1956_2], [1957][research_aec_1957], [Jordan 1957][research_jordan_1957], [1957][research_aec_1957_2], [1957][research_na_1957], and [1959][research_aec_1959], with the [administrative account of Dibble 1958][research_dibble_1958] and the [technical briefing of Perry 1958][research_perry_1958] giving the management view. **That series alone runs to tens of thousands of pages and is the single strongest argument against calling this a thinly documented aircraft.** The founding documents are [Gasser 1947][research_gasser_1947] on the NEPA project, the [Lexington Project minutes][research_stever_1948] and [their companion][research_stever_1948_2], and the [NEPA quarterly report of 1950][research_aec_1950_2]. Late-programme summaries are [the General Electric direct-air-cycle programme report][research_comassar_1962], [the reactor and shield physics volume][research_edwards_1962], and [the powerplant data compilation][research_meyer_1965]. [Study of seaplane systems employing nuclear power][research_aec_1959_4] shows how far the application space was searched, and [the engineering proposal for nuclear turbojet development][research_schmickrath_1960] shows what was still being proposed at the end. [Shielding computer program specifications][research_edwards_1957], [the two-component method of shield analysis][research_moteff_1960], [a shield specification][research_johnson_1960], [shield weights for a Boeing mission][research_lee_1958], [the LID tank shield study][research_kam_1961], [the seventh shielding information meeting papers][research_aec_1961], [aircraft reactor control systems][research_gorker_1955], and [HTRE fuel reprocessing studies][research_cannon_1961] fill in the technical detail. [Two-dimensional diffusion theory applied to a fuel-plate-removal experiment][research_gotsky_1959], [tungsten-uranium dioxide fuel retention][research_gedwill_1965], and [ceramic fibre development][research_gates_1961] are NACA and NASA contributions to the surrounding materials problem. Reactor kinetics has [a bibliography of its own][research_bloomfield_1959], while the computational aids of the period run to [a reactor power calculator][research_gardner_1958], both of which convey how much of this work was done before the tools existed to do it easily.
+The documentary record proper is the quarterly and semiannual progress report series, running from [Cottrell 1951][research_cottrell_1951] through [1952][research_cottrell_1952], [1952][research_cottrell_1952_2], [Cottrell 1953][research_cottrell_1953], [Savolainen 1954][research_savolainen_1954], [Savolainen 1955][research_savolainen_1955], [Savolainen 1956][research_savolainen_1956], [Savolainen 1956][research_savolainen_1956_2], [1957][research_aec_1957], [Jordan 1957][research_jordan_1957], [1957][research_aec_1957_2], [1957][research_na_1957], and [1959][research_aec_1959], with the [administrative account of Dibble 1958][research_dibble_1958] and the [technical briefing of Perry 1958][research_perry_1958] giving the management view. **That series alone runs to tens of thousands of pages and is the single strongest argument against calling this a thinly documented aircraft.** The founding documents are [Gasser 1947][research_gasser_1947] on the NEPA project, the [Lexington Project minutes][research_stever_1948] and [their companion][research_stever_1948_2], and the [NEPA quarterly report of 1950][research_aec_1950_2]. Late-programme summaries are [the General Electric direct-air-cycle programme report][research_comassar_1962], [the reactor and shield physics volume][research_edwards_1962], and [the powerplant data compilation][research_meyer_1965]. [Study of seaplane systems employing nuclear power][research_aec_1959_4] shows how far the application space was searched, and [the engineering proposal for nuclear turbojet development][research_schmickrath_1960] shows what was still being proposed at the end. [Shielding computer program specifications][research_edwards_1957], [the two-component method of shield analysis][research_moteff_1960], [a shield specification][research_johnson_1960], [shield weights for a Boeing mission][research_lee_1958], [the LID tank shield study][research_kam_1961], [the seventh shielding information meeting papers][research_aec_1961], [aircraft reactor control systems][research_gorker_1955], and [HTRE fuel reprocessing studies][research_cannon_1961] fill in the technical detail. [Two-dimensional diffusion theory applied to a fuel-plate-removal experiment][research_gotsky_1959], [tungsten-uranium dioxide fuel retention][research_gedwill_1965], and [ceramic fibre development][research_gates_1961] are NACA and NASA contributions to the surrounding materials problem. Reactor kinetics has [a bibliography of its own][research_bloomfield_1959], while the computational aids of the period run to [a reactor power calculator][research_gardner_1958], both of which convey how much of this work was done before the tools existed to do it easily.
 
 The secondary literature on the aircraft itself is thin, which is the opposite of the primary situation. [Miller 2001][book_miller_2001_x_planes], [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003], [Winchester 2005][book_winchester_2005_x_planes], and [Peebles 2014][book_peebles_2014_probing_the_sky] give the roster treatment, and [Hallion 1972][book_hallion_1972_supersonic_flight], [Hallion 1981][book_hallion_1981_on_the_frontier], [Gorn 2001][book_gorn_2001_expanding_envelope], and [Bilstein 1989][book_bilstein_1989_orders] supply institutional context, with [Gunston 1992][book_gunston_1992_faster_than_sound] the wider framing.
 
@@ -649,7 +659,7 @@ The exponential that makes shielding work also makes it stubborn. Shield thickne
 
 One aircraft flew and it was not the X-6. The NB-36H carried a one megawatt reactor 47 times to measure what shielding actually does, and it established that the shielding worked, for a source a hundred times smaller than the one that would have propelled it. A direct-cycle nuclear turbojet ran on a test stand in Idaho and produced thrust from fission. The programme reached that point and was cancelled in 1961, not because the shield defeated it but because ballistic missiles and aerial refuelling had made an indefinitely loitering bomber a solution without a problem.
 
-What survives is a reactor. The Aircraft Reactor Experiment ran at Oak Ridge in 1954 as the world's first molten salt reactor, built because a molten salt core gives high temperature at low pressure, which is what an aircraft wants and, as it turns out, what a good deal else wants too. Seventy years later that concept is under commercial development while the aircraft it was invented for remains unbuilt. A programme that produces no aircraft and one durable reactor technology has not failed in any sense worth the word, and the fact that it is remembered as a failure is a defect in how programmes are scored rather than in what this one did.
+What survives is a reactor. The Aircraft Reactor Experiment ran at Oak Ridge in 1954 as the world's first molten salt reactor, built because a molten salt core gives high temperature at low pressure, which is what an aircraft wants and, as it turns out, what a good deal else wants too. Seventy years later that concept is under commercial development while the aircraft it was invented for remains unbuilt. An effort that produces no aircraft and one durable reactor technology has not failed in any sense worth the word, and the fact that it is remembered as a failure is a defect in how such work is scored, not in what this one did.
 
 The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test vehicle that was launched rather than flown, and asks what changes when the aircraft is expendable.
 
@@ -800,11 +810,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 ### Research
 
 - [Abdussami et al 2025 Evaluation of Nuclear Microreactor Cost-Competitiveness][research_abdussami_2025]
+- [Aguiar and Martinelli 2026 Single-Event Effects, Modeling, Prediction, Testing and Radiation Hardening][research_aguiar_2026]
 - [Ahmed 2026 Neutron Shielding, Advanced Mechanisms, Challenges, and Material Strategies][research_ahmed_2026]
 - [Alnuaimi and Kim 2026 Feasibility and Performance of a Liquid Uranium-Manganese Nuclear Thermal Rocket][research_alnuaimi_2026]
 - [Alvis and Chessman 1957 An Investigation of the Application of the Gas Generator-Free Turbine Cycle to a Nuclear Powered Aircraft][research_alvis_1957]
 - [Ancona et al 2025 Feasibility Study of a Mission to Sedna, Nuclear Propulsion and Advanced Concepts][research_ancona_2025]
 - [Anderson 1952 Radiation Damage To Reactor Control System Components (Task 1404)][research_anderson_1952]
+- [Antonakis and Glenis 2026 Conceptual Codesign of Cryogenic Storage and Ballast Systems for Hydrogen Aircraft][research_antonakis_2026]
 - [Atomic Energy Commission 1948 Index to Lexington Project Reports][research_aec_1948]
 - [Atomic Energy Commission 1949 NEPA Medical Advisory Panel Subcommittee No, IX, An Evaluation of the Psychological Problem of Crew Selection Relative to the Special][research_aec_1949]
 - [Atomic Energy Commission 1950 NEPA Project quarterly progress report, April 1--June 30, 1950][research_aec_1950_2]
@@ -825,6 +837,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Aueron and Thomas 2024 Assessment of Electric-Pump-Fed Nuclear Thermal Propulsion][research_aueron_2024]
 - [Auslender 1957 A Monte Carlo Study Of The Gamma-Ray Energy Flux, Dose Rate, And Buildup Factors In A Lead-Water Slab Shield Of Finite Thickness][research_auslender_1957]
 - [Bali and Mayer 2025 Investigation of Decay Heat Removal Systems in the ALLEGRO Helium-Cooled Reactor][research_bali_2025]
+- [Bardon et al 2025 Greening Aviation with Sustainable Aviation Fuels][research_bardon_2025]
 - [Bauerlein 1959 Effects Of Irradiation On Plastic Laminates][research_bauerlein_1959]
 - [Beever and Rusling 1965 The Importance of Space Radiation Shielding Weight][research_beever_1965]
 - [Bendall 1959 A Programme For Calculating The Gamma Ray Flux Through A Multilayer Shield][research_bendall_1959]
@@ -837,6 +850,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Bloomfield and Bennet 1959 Reactor Kinetics, A Bibliography][research_bloomfield_1959]
 - [Blosser et al 1958 A Study Of The Nuclear And Physical Properties Of The Ornl Graphite Reactor Shield][research_blosser_1958]
 - [Bolt et al 1958 Organic Lubricants And Polymers For Nuclear Power Plants][research_bolt_1958]
+- [Bolukbasi and Margulis 2026 Impact of Americium-241 on a Proliferation-Resistant Fuel Cycle][research_bolukbasi_2026]
 - [Boppart 1957 Preliminary Analysis of Supercharged Nuclear Ramjet Propulsion System][research_boppart_1957]
 - [Briant and Weinberg 1957 Molten Fluorides As Power Reactor Fuels][research_briant_1957]
 - [Buckingham 1914 On Physically Similar Systems][research_buckingham_1914]
@@ -851,8 +865,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Cetegen et al 2025 Evaluating the Economic Feasibility of Lithium-Ion Battery Energy Storage][research_cetegen_2025]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Chandler et al 1957 Effect Of Surface Oxidation Of Fuel Elements On Pressure Loss][research_chandler_1957]
+- [Chandler et al 2025 Californium-252 Production at the High Flux Isotope Reactor][research_chandler_2025]
 - [Chapman and Storrs 1955 Effective Neutron Removal Cross Sections for Shielding][research_chapman_1955]
+- [Chen 2025 Radiation Shielding Analysis of a Linac Extension Area Using FLUKA][research_chen_2025]
+- [Chen et al 2025 Dynamic Effect of the Delayed Neutron Precursor Distribution on System Stability][research_chen_2025_2]
 - [Cheng et al 2025 Aggregation of Noble Metal Fission Products and Protactinium-233 in a Molten Salt Reactor][research_cheng_2025]
+- [Chong and Sagara 2025 Once-Through High Burnup Fuel Management with Dual Neutron Spectra][research_chong_2025]
+- [Chong and Sagara 2026 A High-Temperature Gas-Cooled Reactor to Directly Reuse Spent Fuel][research_chong_2026]
 - [Collins and McGurty 1960 High Temperature Cladding Alloys For Reactor Applications][research_collins_1960]
 - [Comassar 1962 General Electric Direct-Air-Cycle Aircraft Nuclear Propulsion Program, Aircraft Nuclear Propulsion Application Studies (Comprehensive][research_comassar_1962]
 - [Conn et al 1957 Progress Report-Fuel Element Task Force Applied Materials Research][research_conn_1957]
@@ -867,6 +886,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Cottrell et al 1958 Disassembly And Postoperative Examination Of The Aircraft Reactor Experiment][research_cottrell_1958]
 - [Creasman et al 2024 Fuel Depletion Study of the Molten Salt Demonstration Reactor][research_creasman_2024]
 - [deGanahl et al 1954 Supercritical Water Reactor Shield Design Procedure][research_deganahl_1954]
+- [Delgarm et al 2025 Multi-Criteria Optimization of a Nuclear Marine Propulsion System][research_delgarm_2025]
 - [DeWitt and Benton 2024 Secondary Proton Buildup in Space Radiation Shielding][research_dewitt_2024]
 - [Dibble 1958 Aircraft Nuclear Propulsion Department, Administrative Report][research_dibble_1958]
 - [Domingos et al 2026 Neutronic Behavior of Alternative Fuels in a Microreactor Design][research_domingos_2026]
@@ -895,15 +915,19 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Gates et al 1961 Development of Ceramic Fibers for Reinforcement in Composite Materials][research_gates_1961]
 - [Gedwill et al 1965 Fuel-Retention Properties of Tungsten-Uranium Dioxide Composites][research_gedwill_1965]
 - [Gilbert 1955 A Program for Investigation of Metallic Hydrides as Moderators, Reflectors, and Shields for Aircraft Reactors][research_gilbertjr_1955]
+- [Gomaa and El-Tayebany 2026 Monte Carlo Study of Cadmium Oxide Effects on Borate Glass Shielding Performance][research_gomaa_2026]
 - [Goodman 1948 Lexington Project Report #131, The Tolerance of Aerial Film to Nuclear Radiations][research_goodman_1948]
+- [Gopalasingam et al 2025 Hydrogen Propulsion Technologies for Aviation, a Review][research_gopalasingam_2025]
 - [Gorker 1955 Aircraft Reactor Control System Applicable To Turbojet And Turboprop Power Plants][research_gorker_1955]
 - [Gotsky et al 1959 Two-Dimensional Diffusion Theory Analysis of Reactivity Effects of a Fuel-Plate-Removal Experiment][research_gotsky_1959]
 - [Grimes et al 1958 Chemical Aspects of Molten Fluoride Reactors][research_grimes_1958]
 - [Guilbaud et al 2024 Full Core Study of the KIWI-B-4E Nuclear Thermal Propulsion System][research_guilbaud_2024]
+- [Ha and Kim 2025 Review of Radiation Effects in Semiconductors, Displacement Defects][research_ha_2025]
 - [Haffner 1956 Duct Mockup Experiments At The Convair Ground Test Reactor][research_haffner_1956]
 - [Haffner et al 1958 An Ibm 704 Program Report, Aircraft Nuclear Propulsion Shielding Program 10- 0][research_haffner_1958]
 - [Han et al 2025 Design of New Shielding Materials for Space Reactor Shielding Structures][research_han_2025]
 - [Han et al 2025 Optimization of Radiation Shielding Composite Materials][research_han_2025_2]
+- [Hashim et al 2026 Multilayer Shields Buildup Factor for Gamma Ray Exposure][research_hashim_2026]
 - [Hedden 1962 Design Criteria For Lithium-Cooled Reactor Experiment (Lcre) At Nrts][research_hedden_1962]
 - [Henry 1958 Multilayer Shield Experiment Iv, Otf Iii][research_henry_1958]
 - [Hobbs et al 1948 Lexington Project Report #129, Aircraft Configuration][research_hobbs_1948]
@@ -913,15 +937,22 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Hutton et al 1952 Studies of Fourteen Nuclear-Powered Airplanes][research_hutton_1952]
 - [Islam and Haque 2025 A Comparative Study and Design Optimization of Potential Cladding Materials][research_islam_2025]
 - [Jagtap et al 2024 Conceptual Design Optimisation of a Subsonic Hydrogen-Powered Long-Range Aircraft][research_jagtap_2024]
+- [Jiaju et al 2025 Verification of the Multi-Group Cross Section Generation Code ARES-MAC][research_jiaju_2025]
+- [Jiang 2025 Design and Performance Study of Carbon-Containing Neutron Shielding Materials][research_jiang_2025]
+- [Jiang et al 2026 Atomic-Scale Insights into Tritium Speciation and Interfacial Behaviour][research_jiang_2026]
 - [Johnson 1960 Shield specification No, 1025, [Reactor CRS-1018]][research_johnson_1960]
 - [Jordan et al 1957 Aircraft Nuclear Propulsion Program, Quarterly Progress Report for Period Ending December 31, 1956, Part 1 - 5][research_jordan_1957]
+- [Jung et al 2025 Long Endurance Analysis of a Solar-Powered High Altitude Unmanned Aircraft][research_jung_2025]
 - [Kam and Schamberger 1961 Military Compact Reactor Program Shield Study In The Ornl Lid Tank, Supplement][research_kam_1961]
+- [Kang and Zu 2026 Gamma-Ray Buildup Factor Calculation via an Automated Machine Learning Framework][research_kang_2026]
 - [Khan et al 2025 A Novel Neutron-Gamma Spectrum-Based Composite Shielding Material][research_khan_2025]
+- [Kim and Lee 2026 Conceptual Design of a Marine Reactor Modernizing the ML-1 Architecture][research_kim_2026_2]
 - [Kim and Macfarlane 2026 Challenges of Small Modular Reactors, A Comprehensive Exploration][research_kim_2026]
 - [Klein 1948 Lexington Project Report #130, Meeting with Withington of Boeing Aircraft, Col, Demler of A, E, C, , Washington, Col, Wassell and Col,][research_klein_1948]
 - [Krasnow et al 1959 The Behavior Of Fuels And Lubricants In Dynamic Test Equipment Operating In The Presence Of Gamma Radiation][research_krasnow_1959]
 - [Kress 1958 Equipment Modifications For The Astr-Tsf Experiment][research_kress_1958]
 - [Kuhlman and Glasgow 1957 Preliminary Report On Thermocouples For Fuel Element Plate Temperature And Control][research_kuhlman_1957]
+- [Kumar et al 2025 A Robust Triple Node Upset Radiation Hardened Latch][research_kumar_2025]
 - [Lan et al 2024 Internal Stress Analysis of Irradiated Graphite Cores in a Gas-Cooled Reactor][research_lan_2024]
 - [Larson 1958 Pilot Radiator for Nuclear Ramjet Power Plant][research_larson_1958_3]
 - [Larson 1958 Powerplant Performance for a Supersonic Nuclear Turbojet Powerplant][research_larson_1958_2]
@@ -936,7 +967,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Levine and Ekern 1960 Radiation Effects On Electronic Systems, Designing Electronic Systems For Nuclear-Powered Aircraft Requires Knowing Response Of System][research_levine_1960]
 - [Levine and Ekern 1961 RADIATION EFFECTS--A MAJOR INFLUENCE IN DESIGNING ELECTRONIC SYSTEMS FOR USE IN NUCLEAR-POWERED AIRCRAFT, Paper 8 of FOURTH RADIATION][research_levine_1961]
 - [Li 2024 A Review of Hydrogen-Powered Aircraft][research_li_2024]
+- [Li et al 2026 Machine Learning Force Field Development and Physical Properties of Molten Salts][research_li_2026]
+- [Li et al 2026 Thermodynamic Characteristics of Liquid Hydrogen Storage][research_li_2026_2]
 - [Lindley 1956 On a Measure of the Information Provided by an Experiment][research_lindley_1956]
+- [Liu and Chen 2026 Performance and Scalability of Hydrodynamic Fluoride Salt Lubrication][research_liu_2026_2]
+- [Liu and Fu 2025 Decarbonizing Ocean Shipping Propulsion Power by Liquid Ammonia][research_liu_2025_3]
+- [Liu and Liu 2025 Multiphysics Modelling of Three-Dimensional Aspherical TRISO Particle Fuel Performance][research_liu_2025_2]
+- [Liu et al 2025 Single-Event Radiation Effects and Hardening Techniques][research_liu_2025]
 - [Liu et al 2026 An Intelligent Method for Dual-Stage Radiation-Shielding Optimization][research_liu_2026]
 - [Lu et al 2025 Exhaust Heat Recovery for Cryogenic Hydrogen-Powered Aircraft][research_lu_2025]
 - [Ma et al 2026 Comparative Study of Power Control Methods for a Space Nuclear Electric System][research_ma_2026]
@@ -947,11 +984,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [McFarlane 2024 Cradle to Grave, the Importance of the Fuel Cycle to Molten Salt Reactors][research_mcfarlane_2024]
 - [McPherson 1957 Molten Salts For Civilian Power][research_mcpherson_1957]
 - [Meem and Fairbanks 1956 Shielding Requirements for the Army Package Power Reactor][research_meem_1956]
+- [Mendes and Tomal 2025 Charge Carrier Creation and Transport in Semiconductor Radiation Detectors][research_mendes_2025]
 - [Menegus and Ring 1958 Accidental Dispersion Of Reactor Poisons And The Controlled Distance Required][research_menegus_1958]
 - [Merriman and Chase 1955 Reflector Moderated Solid Fuel Element Sodium Cooled Reactor Critical Mass vs, Power Density][research_merriman_1955]
 - [Meyer 1965 ANP Powerplant Data][research_meyer_1965]
 - [Mishra et al 2024 Irradiated Fuel Salt Data Library for a Molten Salt Reactor][research_mishra_2024]
 - [Mitchell 1954 Shield Design Calculations For Ac-Series Power Plants][research_mitchell_1954]
+- [Mitsuboshi and Sagara 2025 Evaluation of Proliferation Resistance for Small and Medium Modular Reactors][research_mitsuboshi_2025]
 - [Mochizuki 2024 Load Following Characteristics of a Molten Salt Fast Reactor][research_mochizuki_2024]
 - [Mochizuki 2026 Long-Term Cooling Characteristics During Transients][research_mochizuki_2026]
 - [Moteff 1960 Proposed Two-Component Method Of Nuclear Shield Analysis][research_moteff_1960]
@@ -962,16 +1001,23 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Niu et al 2024 Selective Extraction of Molybdenum-99 from Molten Salt Reactor Fuel Salt][research_niu_2024]
 - [Nyquist 1928 Certain Topics in Telegraph Transmission Theory][research_nyquist_1928]
 - [Ogul et al 2026 Multilayer Radiation Shielding Assessment of the Korean SMART Small Modular Reactor][research_ogul_2026]
+- [Owston 2025 Assessment of a Novel Fuel Block and Core Arrangement for a Gas-Cooled Reactor][research_owston_2025]
+- [Ozdemir et al 2025 Alternative Gamma-Ray Shielding Material, a Ternary Composite][research_ozdemir_2025]
 - [Parisi and Arafat 2026 MARVEL Microreactor System Thermal-Hydraulic Design and Analysis][research_parisi_2026]
+- [Paul et al 2025 Influence of Transmutation Products on the Thermophysical Properties of Fuel][research_paul_2025]
 - [Peng et al 2024 Aircraft Lithium Battery Energy Balancing Method][research_peng_2024]
+- [Peng et al 2025 Irradiated Thermal-Mechanical Coupling Performance of Fuel Elements][research_peng_2025]
 - [Perry 1958 Technical Briefing for Aircraft Nuclear Propulsion Office Representatives on November 7 and 8, 1958][research_perry_1958]
 - [Phelps 1961 Front shield weight and C, G][research_phelps_1961]
+- [Poschmann et al 2025 Fuel Performance Simulations of TRISO Particle Geometries][research_poschmann_2025]
+- [Quiroz et al 2025 Prospective Life Cycle Assessment of Sustainable Aviation Fuel Systems][research_quiroz_2025]
 - [Rangel et al 2026 Conceptual Design of a Pressurized Water Microreactor Core Without Enriched Uranium][research_rangel_2026]
 - [Reagan 1958 RADIATION TESTING OF SHIELD SPECIMEN, TEST LTH/sub x/-5 AND 6][research_reagan_1958]
 - [Redding 1948 Lexington Project Report # 24, Aircraft][research_redding_1948]
 - [Reetz 1965 Second Symposium on Protection Against Radiations in Space][research_reetz_1965]
 - [Ross 1960 Optimization Of Reactor Coolant Flow For The Aircraft Shield Test Reactor][research_ross_1960]
 - [Ruffman 1952 Performance Parameters Pertinent to Nuclear Powered Aircraft][research_ruffman_1952]
+- [Sampath and Kattimani 2025 Flutter Prediction for Unmanned Long Endurance Aircraft][research_sampath_2025]
 - [Sasi et al 2025 Hydrogen and Ammonia Powered Turbofan Design Implications][research_sasi_2025]
 - [Savage et al 1958 Components Of The Fused-Salt And Sodium Circuits Of The Aircraft Reactor Experiment][research_savage_1958]
 - [Savic 1959 The Accident With The Zero Power Reactor On October 15, 1958][research_savic_1959]
@@ -979,6 +1025,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Savolainen 1955 Aircraft Nuclear Propulsion Project Quarterly Progress Report For Period Ending September 10, 1955][research_savolainen_1955]
 - [Savolainen 1956 Aircraft Nuclear Propulsion Project Quarterly Progress Report For Period Ending June 10, 1956][research_savolainen_1956]
 - [Savolainen 1956 Aircraft Nuclear Propulsion Project Quarterly Progress Report For Period Ending June 10, 1956][research_savolainen_1956_2]
+- [Sayyed et al 2025 PSZB Glass as a Shielding Material, Physical, Mechanical, and Radiation Properties][research_sayyed_2025]
 - [Schaeffer and Stokes 1958 Astr Fast Neutron Spectra][research_schaeffer_1958]
 - [Schmickrath 1960 Engineering Proposal for Design and Development Work on a Nuclear Turbojet Propulsion Unit - Prepared for Aircraft Nuclear Propulsion Office][research_schmickrath_1960]
 - [Schreiber 1956 LASL nuclear rocket propulsion program][research_schreiber_1956]
@@ -990,10 +1037,14 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Shobeiri et al 2025 Accelerating Small Modular Reactor Deployment and the Clean Energy Transition][research_shobeiri_2025]
 - [Shoults 1948 Strategic Objectives - The Ability of Chemically Propelled Aircraft to Complete Missions Against Russian Targets][research_shoults_1948]
 - [Shoults 1958 Test Of A Direct Cycle Nuclear Turbojet System][research_shoults_1958]
+- [Smith et al 2026 Exergy Analysis of Kilopower Nuclear Reactor Systems for Lunar Power][research_smith_2026]
+- [Soliman 2025 Energy-Dependent Neutron Removal Cross-Section][research_soliman_2025]
 - [Stever 1948 Lexington Project Report # 0 - Minutes of meeting with representatives of the Army, Air Force, AEC, and NEPA -- The Need and Use of][research_stever_1948_2]
 - [Stever 1948 Lexington Project Report #73, Minutes of Meeting Held May 12 and13, 1948 Between Representatives of NEPA and Project Lexington and AEC][research_stever_1948]
 - [Stone et al 2024 Characterization of Aluminium and Boron Carbide Based Additively Manufactured Shielding][research_stone_2024]
+- [Sun et al 2025 Calculation of Gamma-Ray Buildup Factors up to 100 Mean Free Paths by Monte Carlo][research_sun_2025_2]
 - [Sun et al 2025 Preliminary Study on the Postulated Siting Accident Source Term][research_sun_2025]
+- [Syarip et al 2025 Radiation Shielding Optimization of a Reactor Test Facility][research_syarip_2025]
 - [Szekely 1961 A-136 Nuclear Turbo-Ram Power Plant (Invention Disclosures), Part I - Direct Cycle Aerospace Plane][research_szekely_1961]
 - [Thornton and Blumberg 1961 ANP HTREs FULFILL TEST GOALS][research_thornton_1961]
 - [Tribus 1955 THE INTERPRETATION OF DATA OBTAINED ON SHAPED WIRE FUEL ELEMENTS, Cover carries title, INTERPRETATION OF THERMODYNAMIC DATA ON ADVANCED][research_tribus_1955]
@@ -1006,9 +1057,14 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Woodbridge 1955 Preliminary Htre No, 1 Project 100 Operation Manual 21, Reactor Assembly, Core "A"][research_woodbridge_1955]
 - [Woods 1954 A Method For Calculating The Temperature Rise Of The Reactant Fluid Outside The Region Of A Turbulent Boundary Layer As A Function Of][research_woods_1954]
 - [Woodsum and Rost 1957 Shield Weights][research_woodsum_1957]
+- [Yang et al 2026 A Mixture of Experts Neural Network for Calculation of Gamma-Ray Buildup Factors][research_yang_2026]
+- [Yavuzkanat and Sahmaran 2026 Radiation Shielding and Physical Properties of Zirconia-Modified Borosilicate Glass][research_yavuzkanat_2026]
 - [Yildirim and Opcin 2026 Multilayer ZTA-Core Composite with Bio-Derived Coatings for Space Radiation Shielding][research_yildirim_2026]
 - [Yilmaz et al 2025 Neutronic Analysis of a Thorium-Uranium Molten Salt Reactor with FLiBe Salt][research_yilmaz_2025]
+- [Zhang et al 2026 A Rigorous Method for Multi-Scale Coupling of Pebble Bed and Fuel Element][research_zhang_2026_2]
 - [Zhang et al 2026 Crashworthiness Design of Hydrogen-Powered Regional Aircraft][research_zhang_2026]
+- [Zhang et al 2026 Startup Model of a High Temperature Heat Pipe Applied to a Heat Pipe Reactor][research_zhang_2026_3]
+- [Zheng et al 2026 Effects of TRISO-Matrix Interactions on TRISO Fuel Performance][research_zheng_2026]
 
 ### Related Post
 
@@ -1191,14 +1247,17 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_aec_1959_4]: https://www.osti.gov/biblio/4142437
 [research_aec_1959_6]: https://www.osti.gov/biblio/4176154
 [research_aec_1961]: https://www.osti.gov/biblio/4095728
+[research_aguiar_2026]: https://doi.org/10.3390/electronics15091903
 [research_ahmed_2026]: https://doi.org/10.1016/j.radphyschem.2025.113544
 [research_alnuaimi_2026]: https://doi.org/10.1016/j.pnucene.2026.106467
 [research_alvis_1957]: https://www.osti.gov/biblio/1068544
 [research_ancona_2025]: https://doi.org/10.1007/s42496-025-00281-5
 [research_anderson_1952]: https://www.osti.gov/biblio/4813839
+[research_antonakis_2026]: https://doi.org/10.2514/1.c038389
 [research_aueron_2024]: https://doi.org/10.2514/1.a35805
 [research_auslender_1957]: https://www.osti.gov/biblio/4333843
 [research_bali_2025]: https://doi.org/10.1016/j.nucengdes.2025.113952
+[research_bardon_2025]: https://doi.org/10.1016/j.jenvman.2024.123943
 [research_bauerlein_1959]: https://www.osti.gov/biblio/4276643
 [research_beever_1965]: https://ntrs.nasa.gov/citations/19650025019
 [research_bendall_1959]: https://www.osti.gov/biblio/4245933
@@ -1211,6 +1270,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_bloomfield_1959]: https://www.osti.gov/biblio/4224678
 [research_blosser_1958]: https://www.osti.gov/biblio/4312376
 [research_bolt_1958]: https://www.osti.gov/biblio/4325443
+[research_bolukbasi_2026]: https://doi.org/10.1016/j.pnucene.2025.106220
 [research_boppart_1957]: https://www.osti.gov/biblio/1063980
 [research_briant_1957]: https://www.osti.gov/biblio/4322654
 [research_buckingham_1914]: https://doi.org/10.1103/physrev.4.345
@@ -1225,8 +1285,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_cetegen_2025]: https://doi.org/10.1016/j.energy.2025.138469
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_chandler_1957]: https://www.osti.gov/biblio/4791808
+[research_chandler_2025]: https://doi.org/10.1016/j.anucene.2024.110920
 [research_chapman_1955]: https://www.osti.gov/biblio/2565420
+[research_chen_2025]: https://doi.org/10.1080/00295639.2025.2567731
+[research_chen_2025_2]: https://doi.org/10.3390/en18030670
 [research_cheng_2025]: https://doi.org/10.1016/j.nucengdes.2025.114548
+[research_chong_2025]: https://doi.org/10.15669/pnst.7.47
+[research_chong_2026]: https://doi.org/10.1080/00295450.2025.2593803
 [research_collins_1960]: https://www.osti.gov/biblio/4756862
 [research_comassar_1962]: https://www.osti.gov/biblio/1048126
 [research_conn_1957]: https://www.osti.gov/biblio/4808952
@@ -1241,6 +1306,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_cottrell_1958]: https://www.osti.gov/biblio/4223435
 [research_creasman_2024]: https://doi.org/10.1016/j.nucengdes.2023.112881
 [research_deganahl_1954]: https://www.osti.gov/biblio/4704905
+[research_delgarm_2025]: https://doi.org/10.1080/00295450.2025.2507976
 [research_dewitt_2024]: https://doi.org/10.1016/j.lssr.2024.02.005
 [research_dibble_1958]: https://www.osti.gov/biblio/10202216
 [research_domingos_2026]: https://doi.org/10.1016/j.nucengdes.2026.115072
@@ -1269,15 +1335,19 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_gates_1961]: https://ntrs.nasa.gov/citations/20150019696
 [research_gedwill_1965]: https://ntrs.nasa.gov/citations/19730064642
 [research_gilbertjr_1955]: https://www.osti.gov/biblio/1240148
+[research_gomaa_2026]: https://doi.org/10.1016/j.apradiso.2026.112512
 [research_goodman_1948]: https://www.osti.gov/biblio/969792
+[research_gopalasingam_2025]: https://doi.org/10.3390/hydrogen6040092
 [research_gorker_1955]: https://www.osti.gov/biblio/4822720
 [research_gotsky_1959]: https://ntrs.nasa.gov/citations/19980228446
 [research_grimes_1958]: https://www.osti.gov/biblio/4305506
 [research_guilbaud_2024]: https://doi.org/10.1016/j.nucengdes.2024.113639
+[research_ha_2025]: https://doi.org/10.1109/edr.2025.3649435
 [research_haffner_1956]: https://www.osti.gov/biblio/4813405
 [research_haffner_1958]: https://www.osti.gov/biblio/4225992
 [research_han_2025]: https://doi.org/10.1109/access.2025.3610902
 [research_han_2025_2]: https://doi.org/10.1109/tns.2025.3558902
+[research_hashim_2026]: https://doi.org/10.47831/mjpas.v4i2.333
 [research_hedden_1962]: https://www.osti.gov/biblio/4728141
 [research_henry_1958]: https://www.osti.gov/biblio/4071097
 [research_hobbs_1948]: https://www.osti.gov/biblio/969790
@@ -1287,15 +1357,22 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_hutton_1952]: https://www.osti.gov/biblio/969600
 [research_islam_2025]: https://doi.org/10.1016/j.pnucene.2025.105741
 [research_jagtap_2024]: https://doi.org/10.1016/j.ijhydene.2024.11.331
+[research_jiaju_2025]: https://doi.org/10.1016/j.radphyschem.2025.112849
+[research_jiang_2025]: https://doi.org/10.54691/y3z9ma42
+[research_jiang_2026]: https://doi.org/10.1016/j.ijhydene.2026.156188
 [research_johnson_1960]: https://www.osti.gov/biblio/5146009
 [research_jordan_1957]: https://www.osti.gov/biblio/1373535
+[research_jung_2025]: https://doi.org/10.5139/jksas.2025.53.5.527
 [research_kam_1961]: https://www.osti.gov/biblio/4532885
+[research_kang_2026]: https://doi.org/10.1016/j.anucene.2025.111971
 [research_khan_2025]: https://doi.org/10.1016/j.nucengdes.2025.114215
 [research_kim_2026]: https://doi.org/10.1016/j.pnucene.2025.105989
+[research_kim_2026_2]: https://doi.org/10.1016/j.nucengdes.2026.114908
 [research_klein_1948]: https://www.osti.gov/biblio/969791
 [research_krasnow_1959]: https://www.osti.gov/biblio/4221826
 [research_kress_1958]: https://www.osti.gov/biblio/4310182
 [research_kuhlman_1957]: https://www.osti.gov/biblio/4791846
+[research_kumar_2025]: https://doi.org/10.1016/j.aeue.2025.155977
 [research_lan_2024]: https://doi.org/10.1016/j.nucengdes.2024.113647
 [research_larson_1958]: https://www.osti.gov/biblio/12376890
 [research_larson_1958_2]: https://www.osti.gov/biblio/12393299
@@ -1310,8 +1387,14 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_levine_1960]: https://www.osti.gov/biblio/4192956
 [research_levine_1961]: https://www.osti.gov/biblio/4070513
 [research_li_2024]: https://doi.org/10.37394/23202.2024.23.43
+[research_li_2026]: https://doi.org/10.1039/d6cp01382a
+[research_li_2026_2]: https://doi.org/10.1016/j.applthermaleng.2026.131139
 [research_lindley_1956]: https://doi.org/10.1214/aoms/1177728069
+[research_liu_2025]: https://doi.org/10.1007/s10825-025-02376-5
+[research_liu_2025_2]: https://doi.org/10.1016/j.nucengdes.2025.113880
+[research_liu_2025_3]: https://doi.org/10.1016/j.jclepro.2024.144462
 [research_liu_2026]: https://doi.org/10.1016/j.pnucene.2025.106098
+[research_liu_2026_2]: https://doi.org/10.3390/jne7010011
 [research_lu_2025]: https://doi.org/10.1016/j.eng.2025.12.013
 [research_ma_2026]: https://doi.org/10.1016/j.energy.2026.141802
 [research_macpherson_1960]: https://www.osti.gov/biblio/1341875
@@ -1321,11 +1404,13 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_mcfarlane_2024]: https://doi.org/10.3389/fnuen.2024.1335980
 [research_mcpherson_1957]: https://www.osti.gov/biblio/4314626
 [research_meem_1956]: https://www.osti.gov/biblio/4337928
+[research_mendes_2025]: https://doi.org/10.1016/j.radphyschem.2024.112437
 [research_menegus_1958]: https://www.osti.gov/biblio/4350588
 [research_merriman_1955]: https://www.osti.gov/biblio/1001781
 [research_meyer_1965]: https://www.osti.gov/biblio/1048071
 [research_mishra_2024]: https://doi.org/10.1016/j.dib.2023.109817
 [research_mitchell_1954]: https://www.osti.gov/biblio/4817598
+[research_mitsuboshi_2025]: https://doi.org/10.15669/pnst.7.318
 [research_mochizuki_2024]: https://doi.org/10.1016/j.nucengdes.2024.113472
 [research_mochizuki_2026]: https://doi.org/10.1016/j.nucengdes.2025.114706
 [research_moteff_1960]: https://www.osti.gov/biblio/4551077
@@ -1336,16 +1421,23 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_niu_2024]: https://doi.org/10.1016/j.seppur.2024.127424
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024
 [research_ogul_2026]: https://doi.org/10.1016/j.radphyschem.2025.113419
+[research_owston_2025]: https://doi.org/10.1016/j.nucengdes.2025.114040
+[research_ozdemir_2025]: https://doi.org/10.1016/j.net.2025.103512
 [research_parisi_2026]: https://doi.org/10.1080/00295450.2026.2678096
+[research_paul_2025]: https://doi.org/10.1016/j.jnucmat.2024.155572
 [research_peng_2024]: https://doi.org/10.1016/j.est.2024.112714
+[research_peng_2025]: https://doi.org/10.1016/j.pnucene.2025.105633
 [research_perry_1958]: https://www.osti.gov/biblio/993074
 [research_phelps_1961]: https://www.osti.gov/biblio/946508
+[research_poschmann_2025]: https://doi.org/10.1016/j.jnucmat.2025.155714
+[research_quiroz_2025]: https://doi.org/10.1021/acs.est.5c09113
 [research_rangel_2026]: https://doi.org/10.1016/j.nucengdes.2026.114923
 [research_reagan_1958]: https://www.osti.gov/biblio/4692883
 [research_redding_1948]: https://www.osti.gov/biblio/969761
 [research_reetz_1965]: https://ntrs.nasa.gov/citations/19650024974
 [research_ross_1960]: https://www.osti.gov/biblio/4080402
 [research_ruffman_1952]: https://www.osti.gov/biblio/1015812
+[research_sampath_2025]: https://doi.org/10.1177/09544100251362517
 [research_sasi_2025]: https://doi.org/10.1115/1.4066433
 [research_savage_1958]: https://www.osti.gov/biblio/4308571
 [research_savic_1959]: https://www.osti.gov/biblio/4255352
@@ -1353,6 +1445,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_savolainen_1955]: https://www.osti.gov/biblio/4164238
 [research_savolainen_1956]: https://www.osti.gov/biblio/4776381
 [research_savolainen_1956_2]: https://www.osti.gov/biblio/4137101
+[research_sayyed_2025]: https://doi.org/10.1016/j.oceram.2024.100729
 [research_schaeffer_1958]: https://www.osti.gov/biblio/4276461
 [research_schmickrath_1960]: https://www.osti.gov/biblio/12377075
 [research_schreiber_1956]: https://www.osti.gov/biblio/7365651
@@ -1364,10 +1457,14 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_shobeiri_2025]: https://doi.org/10.3390/su17083406
 [research_shoults_1948]: https://www.osti.gov/biblio/969672
 [research_shoults_1958]: https://www.osti.gov/biblio/4315621
+[research_smith_2026]: https://doi.org/10.1115/1.4072412
+[research_soliman_2025]: https://doi.org/10.1016/j.anucene.2024.111171
 [research_stever_1948]: https://www.osti.gov/biblio/969767
 [research_stever_1948_2]: https://www.osti.gov/biblio/1471204
 [research_stone_2024]: https://doi.org/10.1016/j.matdes.2023.112463
 [research_sun_2025]: https://doi.org/10.1016/j.jandt.2025.04.006
+[research_sun_2025_2]: https://doi.org/10.1016/j.radphyschem.2025.112696
+[research_syarip_2025]: https://doi.org/10.24996/ijs.2025.66.3.8
 [research_szekely_1961]: https://www.osti.gov/biblio/1821648
 [research_thornton_1961]: https://www.osti.gov/biblio/4120083
 [research_tribus_1955]: https://www.osti.gov/biblio/4840356
@@ -1380,6 +1477,11 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_woodbridge_1955]: https://www.osti.gov/biblio/4813340
 [research_woods_1954]: https://www.osti.gov/biblio/4797190
 [research_woodsum_1957]: https://www.osti.gov/biblio/991705
+[research_yang_2026]: https://doi.org/10.1016/j.anucene.2026.112245
+[research_yavuzkanat_2026]: https://doi.org/10.1016/j.radphyschem.2026.113698
 [research_yildirim_2026]: https://doi.org/10.1016/j.asr.2026.05.076
 [research_yilmaz_2025]: https://doi.org/10.1016/j.pnucene.2025.105614
 [research_zhang_2026]: https://doi.org/10.1016/j.est.2025.119987
+[research_zhang_2026_2]: https://doi.org/10.1016/j.pnucene.2025.106055
+[research_zhang_2026_3]: https://doi.org/10.3724/j.0253-3219.2026.hjs.49.250360
+[research_zheng_2026]: https://doi.org/10.1016/j.nucengdes.2026.114811
