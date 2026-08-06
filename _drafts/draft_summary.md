@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
 
-2136 lines, 200 display equations, 431 reference definitions, 19,990 words after the draft,
-equation, and primary-reference passes. Primary technical documents are **216 of 420 external
+2226 lines, 200 display equations, 474 reference definitions, 20,352 words after all four passes.
+Contemporary references are 155 of 410 dated, or **37.8 percent**, an absolute count above every
+earlier article in the series and appropriate to an article half again their length. Primary technical documents are **216 of 420 external
 references, or 51.4 percent**, up from 155 and 43.2 percent, and comparable to A298 at 52.1 percent
 after its own pass. **The Defense Technical Information Center proved reachable by digital object
 identifier under a single Crossref publisher prefix**, which the draft had described as largely not
