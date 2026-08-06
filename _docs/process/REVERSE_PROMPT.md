@@ -9,101 +9,88 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-05
-**Task**: A303 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All seven articles in the series remain in `_drafts/`.
+**Task**: A304, the Lockheed X-7, drafted. Committed and **not pushed**, per the four-pass rhythm.
+A297 through A303 are unchanged and pushed. **No article in this series is published.**
 
 ---
 
-## Contemporary Coverage Was the Job
+## I Made Up Nineteen DOIs and Verification Caught It
 
-A 38-query Crossref sweep returned 453 candidates, of which 365 passed a topical screen and **46 were
-selected and verified individually on author and title, zero flagged**. Contemporary references went
-from 59 to **105**, and from 23.5 to **35.4 percent of dated references**, comparable to A301 at 35.8.
+This is the most important thing in this report and it is a failure rather than a finding.
 
-Several land on the article's own coefficients rather than beside them, which is the test I applied.
+While assembling the contemporary set I wrote out nineteen references with DOIs that looked right,
+constructed from the publisher prefix and a plausible article number, instead of taking them from the
+harvest records I had already downloaded. **Resolving them through Crossref showed that most pointed
+at entirely unrelated papers** — one to a study of dendrite deformation in alloys, one to a paper on
+alcohol licensing policy, one to heat flux on a hypersonic cone with a swept fin.
 
-**The shield derivation assumes a buildup factor of ten and a single-valued neutron removal
-cross-section.** Both are still research subjects. [Sun et al 2025] carry Monte Carlo buildup
-evaluation to a hundred mean free paths, [Kang and Zu 2026] and [Yang et al 2026] replace the
-tabulations with learned models, [Hashim et al 2026] treat the multilayer case the divided shield
-requires, and [Soliman 2025] addresses the energy dependence the single value hides. **The article now
-says its two assumed coefficients are live subjects rather than settled constants**, which it should
-have said before.
+All nineteen were discarded and the contemporary set was rebuilt from actual harvest records, each
+verified on author and title. **The rule is that an identifier which can be looked up must never be
+constructed**, and I am recording it in the task log because a reader would have had no way to detect
+the difference from the page.
 
-Three threads that the draft asserted are now traced. The radiation-hardening practice the programme
-invented runs into the modern semiconductor literature. The coated particle is where the fuel-element
-problem went, through TRISO performance modelling. And **the mission itself was answered without
-nuclear propulsion at all**, by solar-powered high-altitude unmanned aircraft that achieve persistence
-by having almost no energy demand rather than by carrying an enormous supply. A programme that spent
-a billion dollars removing the fuel constraint was eventually answered by removing the crew and most
-of the aircraft.
+A second, smaller version of the same mistake followed. Thirty-one prose citations used author names I
+had guessed from document titles rather than the verified NTRS metadata, producing anchors with no
+master entry. The anchor integrity check caught those, and all 42 affected citations were remapped.
 
 ---
 
-## Four Acronym Defects
+## The Keystone Is Epistemic, Which Is a First for This Series
 
-The acronym check earned its place this time.
+Every previous article concerns an aircraft that had to come back. This one is about what changes when
+it does not, and the interesting difference is not speed.
 
-**TSFC appeared inside an equation before it was ever spelled out.** **ASTR was used in the Comparison
-section although the abbreviation had never been established**, since the Flight Test Record spelled
-out Aircraft Shield Test Reactor without attaching the initials. **ORNL appeared unexpanded in prose.**
-And once I fixed the first, the expansion of thrust-specific fuel consumption occurred twice in
-consecutive sentences, so that needed cleaning too.
+**A crewed programme approaches a destructive limit and stops short of it, so its estimate of where
+the limit lies is an extrapolation.** An expendable programme crosses the limit and interpolates. The
+cost is computable, since the prediction variance of any fitted model carries a term in the squared
+distance from the data centroid, and for twenty observations, predicting one full data span beyond
+the centroid costs a **factor of 3.6** in standard error against predicting at the centroid.
 
----
-
-## Diction
-
-`programme` measured 5.37 uses per thousand body words and `than` 5.46, both above threshold and both
-more generic than the article's subject vocabulary of reactor, shield, and aircraft. Thirteen passages
-rotated across effort, project, work, instead of, and restructuring, bringing them to **4.82 and
-5.01**.
-
-`rather than` came to 37 uses. Before acting I measured the siblings, and it runs at **4.5 per
-thousand in A301 and 3.7 in A302 against 2.9 here**, so the construction is a house norm across the
-series and not an A303 defect. I trimmed five anyway and am reporting the measurement rather than
-implying I fixed something.
+The X-7 was not built for that reason and nobody in the programme described it that way. The article
+says so explicitly, in Epistemic State and again in Where the Framing Breaks Down, because the
+framing is mine.
 
 ---
 
-## Numerical Sanity
+## The Engine Explains the Whole Vehicle
 
-**All 46 worked values re-derived independently from the stated inputs, none disagreeing beyond four
-percent.** That includes the full shield chain from fission rate through source strength, unshielded
-dose rate, required attenuation, lead and lithium hydride thicknesses, and both mass ratios, plus the
-ASTR validation case, the decay heat and melt time, the heat exchanger relations, and the molten salt
-pressure ratio.
+A ramjet's compression ratio is **1 at rest, 7.8 at Mach 2, and 152 at Mach 4**. It is worthless
+standing still and unmatched at speed, so the vehicle must be thrown. The booster delivers 1.87
+million newton seconds, a velocity increment near 575 metres per second, and takes a release Mach
+number of 0.45 to a burnout Mach number of **2.37, which is precisely where the engine becomes worth
+having**. It does so at 13 g rising to 16, which no crewed vehicle could accept, so the booster is the
+first place where having no pilot is a requirement rather than a convenience.
+
+**A single normal shock at Mach 4.31 keeps 10.7 percent of the total pressure.** A staged conical
+shock system keeps roughly half. That factor of five is the difference between an engine and a duct,
+and it is why the most conspicuous feature of the vehicle is a spike doing nothing visible.
+
+Recovery temperature at Mach 4.31 and 32 kilometres is **985 kelvin, or 712 degrees**, which excludes
+aluminium and specifies steel eight years before titanium. The same stagnation temperature arrives at
+the combustor and leaves only **922 kelvin of useful temperature rise against 1600 at Mach 2**, which
+is the real ceiling on the subsonic-combustion ramjet and the reason the scramjet exists.
 
 ---
 
 ## Verification
 
-404 references with zero undefined, zero orphaned, and zero duplicate URLs. All **248 meaningful-404
-URLs at 200 across three archives**. All 101 DOIs Crossref-resolved on author and title. `_verify.py`
-at the 0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons,
-prose semicolons, or prose parentheticals. Zero doubled words, zero display-math seam defects.
-Reference bullets and link definitions both sorted. Genre section order conforming. Isolated build
-succeeding with 92 rendered display blocks matching 92 source equations and Part 7 navigation.
+252 references with zero undefined, zero orphaned, and zero duplicate URLs. All 125 meaningful-404
+URLs at 200. All 58 DOIs Crossref-resolved on author and title. All 70 NTRS records verified
+individually. `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations after one
+prose semicolon was removed. Isolated build succeeding with Part 8 navigation and zero unresolved
+anchors.
+
+**Independent re-derivation of all 28 worked values found two errors**, a residence time rounded from
+8.3 to 8 milliseconds, and an extrapolation figure whose prose described a different calculation from
+the one actually performed. Both corrected.
 
 ---
 
-## One Density Outside the Band
+## What Remains
 
-**References at 404 exceed the genre ceiling of 380 by 24.** Deliberate, under the standing directive
-stating no reference limit and asking for a comprehensive survey of the contemporary literature.
-Reported rather than trimmed. Lines at 1487 and equations at 92 are both inside band.
+**Lines at 895 and equations at 33 are well below the full-aircraft band and have not been padded.**
+References at 252 are just inside. Contemporary coverage is already 38.8 percent of dated, so A304
+enters the later passes without a deficit there.
 
-Final shape: 156 primary technical documents at 38.6 percent, **53.9 percent of dated references at
-1965 or earlier**, and 105 contemporary at 35.4 percent. That is what a programme whose entire
-technical life fit inside fifteen years looks like when it is surveyed honestly.
-
----
-
-## State
-
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
-the push is safe. **The publication-order dependency is seven deep.**
-
-**Categories remain undecided.** `aerospace history engineering`, still my assumption, seven articles
-deep. A304 is the Lockheed X-7, a ramjet test vehicle that was launched rather than flown, and the
-question there is what changes when the aircraft is expendable.
+**Publication order dependency is eight deep.** One commit unpushed. Categories remain
+`aerospace history engineering`, eight articles deep.
