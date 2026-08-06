@@ -12,10 +12,12 @@ Adapted from the protocol in the `keleusma` repository at `docs/process/HANDOFF.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `24cbd59`
+- **Parent commit** (the repository state this handoff describes): `46c56ff`
 - **Written**: 2026-08-05
-- **Tree at write**: clean; commits `01e474a` and `24cbd59` plus this handoff commit are UNPUSHED
-- **Context**: the X-Planes series is IN PROGRESS. Five of seventy-two articles drafted. None published.
+- **Tree at write**: clean; everything through `46c56ff` is PUSHED. This handoff commit will be the
+  only unpushed commit.
+- **Context**: the X-Planes series is IN PROGRESS. **Eight of seventy-two articles drafted, all four
+  passes complete on each. None published.**
 
 **Validity check — run on resume, before trusting this handoff.** On the branch above, compare the
 **Parent commit** to `git rev-parse HEAD~1`. Because this handoff file is itself committed, its commit
@@ -28,25 +30,33 @@ advances the tip by one, so the state it describes is the parent of the handoff 
   familiarize from the live channels — `REVERSE_PROMPT.md`, `TASKLOG.md`, `_drafts/draft_summary.md`,
   and the git log, always authoritative — and wait for instruction.
 
-## Resume prompt — CONTINUE DRAFTING the X-Planes series at A302.
+## Resume prompt — the next prompt will be "Please draft A305, 'X-Planes: Aerojet X-8 Aerobee.'"
 
-Five articles are drafted. Sixty-seven remain. Nothing else is outstanding.
+**Nothing is outstanding.** A304 finished all four passes, is committed and pushed, and CI succeeded.
+Every article through A304 is at the same state. There is no half-finished pass to pick up.
 
-**Do not start A302 until you have asked about categories.** See Open Decisions below. Everything
-else can proceed on the established pattern without further instruction.
+**Wait for the pilot's prompt.** Do not begin A305 unprompted. When it comes, follow the rhythm below.
+
+**A305 is the first article in the series whose subject is not an aircraft.** The Aerobee is a
+sounding rocket, and the interesting question is what an X-designation meant when it was applied to a
+vehicle that does not fly in the sense the other X-planes do. That is a framing decision to make
+during the draft pass, not a research gap.
 
 ## Where the Series Stands
 
-| Article | Date | Aircraft | Lines | Eq | Refs | Passes done | Pushed |
-|---------|------|----------|-------|----|----- |-------------|--------|
-| A297 | 2025-10-06 | Series framing | 1765 | 147 | 421 | all four | yes |
-| A298 | 2025-10-07 | Bell X-1 | 1387 | 108 | 337 | all four | yes |
-| A299 | 2025-10-08 | Bell X-2 | 1497 | 126 | 370 | all four | yes |
-| A300 | 2025-10-09 | Douglas X-3 | 1415 | 114 | 365 | all four | yes |
-| A301 | 2025-10-10 | Northrop X-4 | 1149 | 98 | 269 | draft + equations | **no** |
+| Article | Date | Aircraft | Lines | Eq | Refs | Words | Passes | Pushed |
+|---------|------|----------|-------|----|----- |-------|--------|--------|
+| A297 | 2025-10-06 | Series framing | 1765 | 147 | 421 | — | all four | yes |
+| A298 | 2025-10-07 | Bell X-1 | 1387 | 108 | 337 | 17,565 | all four | yes |
+| A299 | 2025-10-08 | Bell X-2 | 1497 | 126 | 370 | 17,743 | all four | yes |
+| A300 | 2025-10-09 | Douglas X-3 | 1415 | 114 | 365 | 15,583 | all four | yes |
+| A301 | 2025-10-10 | Northrop X-4 | 1391 | 98 | 372 | 18,358 | all four | yes |
+| A302 | 2025-10-11 | Bell X-5 | 1657 | 112 | 466 | 22,299 | all four | yes |
+| A303 | 2025-10-12 | Convair X-6 | 1487 | 92 | 404 | 18,375 | all four | yes |
+| A304 | 2025-10-13 | Lockheed X-7 | 1395 | 94 | 358 | 17,330 | all four | yes |
 
-**A301 still needs its primary-reference and publication reviews.** Its primary share is 43.3
-percent, the lowest of the five, and its line count is 151 short of band. Two commits are unpushed.
+The `Eq` column is display blocks as counted and reported at the time of each publication review. A
+naive `grep -c '^\$\$'` halved does not reproduce it, so do not "correct" the table from that.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -71,40 +81,79 @@ better findings came from measuring rather than from writing.
 > goals"
 
 Contemporary means recent scholarship, not recent history. Every article carries a
-`## The Contemporary Literature` section. Target roughly 28 to 33 percent of dated references at 2010
-or later, which is where A297 through A300 landed after their publication reviews.
+`## The Contemporary Literature` section. A297 through A300 landed at 28 to 33 percent of dated
+references at 2010 or later, and that was the stated target. **From A301 onward the absolute count
+settled at 101 to 109 while the percentage swung on the denominator**, giving A301 101 at 35.8
+percent, A302 109 at 30.6, A303 105 at 35.4, and A304 107 at 40.2. The count is the stable measure
+and the percentage is not, because an article carrying fewer dated references overall reports a
+higher share for the same work. **Treat 28 to 33 percent as a floor rather than a ceiling**, since
+the directive licenses the overage, and say explicitly in the report when a figure exceeds it
+deliberately.
+
+**Assemble the contemporary set by DOI taken from the harvest records.** See the first method rule
+below for why this is stated as a rule rather than as a preference.
 
 ## Method Rules Earned the Hard Way
 
 These are the reason this handoff is worth writing. Each cost a real defect.
 
+- **An identifier that can be looked up must never be constructed.** While assembling the
+  contemporary set during the A304 draft pass I hand-built nineteen plausible-looking DOIs rather
+  than reading them out of the harvest records. Crossref showed most resolving to entirely unrelated
+  papers, including one on dendrite deformation and one on alcohol licensing policy. All were
+  discarded and the set was rebuilt from actual records. **Take every DOI, NTRS id, and OSTI id
+  verbatim from the record that returned it.** This is the single most serious defect in the series
+  so far.
+- **Author names cannot be inferred from document titles.** 31 A304 prose citations used keys guessed
+  that way; the anchor integrity check caught them and 42 citations had to be remapped. Read the
+  metadata field.
 - **Title-token overlap is not proof of identity.** An NTRS query about the X-1 returned an X-2
   document and vice versa, both scoring 1.00. Two others returned "Lunar and Planetary Science
   XXXIV". **Label every entry with the title the API returned, not the title you searched for**, and
   drop anything whose returned title does not describe a usable source.
-- **A generator is a source of truth only while it still generates the file.** A300 and A301 both
-  shipped dangling anchors because their reference data was built by importing the previous article's
-  generator, which had drifted after later additions were made directly to that article's markdown.
-  **Build each article's reference data from its own harvest.** The integrity check caught it both
-  times, which is luck rather than method.
+- **Generate the reference section from the anchors the body actually uses.** This structurally
+  eliminates the orphan-definition defect that shipped in A300 and A301. The pattern is
+  `used = sorted(set(re.findall(r"\]\[([a-z_0-9]+)\]", text)))`, then raise if any used anchor has
+  no master-table entry. **Build each article's reference data from its own harvest**, and never
+  import the previous article's generator, because **a generator is a source of truth only while it
+  still generates the file** and the imported one has drifted from additions made directly to that
+  article's markdown. The integrity check caught this in both A300 and A301, which is luck rather
+  than method; generating from body anchors is the method.
+- **Correct reference-text defects in the master table, not in the markdown.** En-dashes and
+  parentheticals fixed in the article are silently undone by the next regeneration.
+- **Check edit seams after inserting before existing text.** The A297 equation pass produced two
+  duplicated clauses, and the A304 equation pass produced another that said the flame must be
+  anchored twice in consecutive sentences. **Every automated check passed all three.** They surfaced
+  only during unrelated reads. Read the connective lines by eye.
 - **Bulk reference additions introduce formulaic repetition wholesale.** A300 reached 70 percent of
   citations introduced by the preposition `in` because 40 primaries went in during one pass with one
-  construction. Vary the construction while writing, not afterward.
+  construction. **Vary the construction while writing, not afterward.** The same drift recurred in
+  A302, A303, and A304 despite that rule being known, which means it is a property of how references
+  get added in bulk rather than an accident, so also measure the preposition mix after every
+  reference pass.
+- **Re-derive every worked number independently.** Errors were found in *every* article this way
+  except A303's final pass, including A303's decay-energy integral stated as 58 gigajoules when it
+  computes to 73, and A304's shock recovery stated as a factor of five when two sixteen-degree turns
+  give 0.397 against 0.107 for a normal shock alone, a factor of 3.7. **The verification can also be
+  the thing that is wrong**, as happened once when the article was right and the check used a
+  different Reynolds number. State the reference length and the other inputs so the check is
+  reproducible.
+- **Consecutive `$...$` lines render inline, not display.** Kramdown passes them through and MathJax
+  applies `inlineMath` (`_includes/mathjax.html:5`). Three A302 Euler equations shipped that way.
+  Separate display math with blank lines.
 - **The word-frequency check counts citation labels as prose.** `nasa` and `naca` measure above
   threshold in every per-aircraft article and are almost entirely `[NACA 1953]` link text. Report the
   split; do not remediate a citation index for a style violation it does not have.
 - **An HTTP 200 is worthless from a search endpoint.** Open Library and NTRS `search?q=` return 200
   for nonsense. Only fixed identifiers and Wikipedia titles give a meaningful 404. Say so when
-  reporting a sweep.
+  reporting a sweep, and report the meaningful-404 count rather than the total swept.
 - **Status codes mislead on DOIs in both directions.** Publishers return 403 (AIAA, APS, ASME, Royal
   Society, Taylor and Francis) or 202 (IEEE, Wiley). **Resolve every DOI through Crossref and compare
   on author and title.** This caught a nonexistent identifier and one resolving to an unrelated paper
-  on bipropellant exhaust optics.
-- **Re-derive every worked number independently.** Errors were found in *every* article this way,
-  including one where the article was right and the verification was wrong because it used a
-  different Reynolds number. State the reference length so the check is reproducible.
-- **Check edit seams after inserting before existing text.** The A297 equation pass produced two
-  duplicated clauses that all automated checks passed straight through. Read the connective lines.
+  on bipropellant exhaust optics, before it caught the nineteen above.
+- **A thin NTRS result may mean the record lives elsewhere.** ANP's record is in OSTI, not NTRS, and
+  a standard NTRS search returns almost nothing. The inference "the record is thin" was exactly
+  wrong. Check OSTI before concluding scarcity.
 - **When a roster looks like a sequence, verify that it is one.** Designations are not assigned
   monotonically. Seven of the nine anomaly cases surfaced only after dropping that assumption.
 
@@ -112,29 +161,41 @@ These are the reason this handoff is worth writing. Each cost a real defect.
 
 - `python3 _verify.py` — offline corpus invariants, about 4 seconds. Also runs in CI and via
   `_hooks/pre-push`. Baseline is **0 errors, 21 warnings**; any new warning is yours.
-- **NTRS citations API** — `https://ntrs.nasa.gov/api/citations/search?q=<terms>` returns real
-  document ids. Short queries work; long ones return nothing because matching is near-AND. Cite
-  `ntrs.nasa.gov/citations/<id>`, never a search URL.
+- **NTRS citations API** — `https://ntrs.nasa.gov/api/citations/search?q=<terms>` and
+  `/api/citations/<id>`. Short queries work; long ones return nothing because matching is near-AND.
+  Cite `ntrs.nasa.gov/citations/<id>`, never a search URL.
+- **OSTI API** — `https://www.osti.gov/api/v1/records?q=<terms>&publication_date_end=<date>` and
+  `/records/<id>`. Cite `https://www.osti.gov/biblio/<id>`. This is where Atomic Energy Commission
+  and national-laboratory material lives.
 - **Crossref** — `https://api.crossref.org/works/<doi>` to verify, and
   `works?query.bibliographic=...&filter=from-pub-date:YYYY-01-01,type:journal-article` to harvest
-  contemporary literature.
+  contemporary literature. **Verify at a 0.85 title-similarity threshold**, which is what A304 used
+  after the fabricated-DOI incident, rather than the 0.5 used earlier.
 - **Isolated build** — symlink `_posts`, `_layouts`, `_includes`, `_sass`, `css`, `assets`,
   `_plugins`, `_data`, `vendor`, `.bundle`, `_config.yml`, `Gemfile`, `Gemfile.lock` into a scratch
-  directory, copy only the series drafts into its `_drafts/`, and run
+  directory, copy only `_drafts/x_planes_*.markdown` into its `_drafts/`, and run
   `JEKYLL_ENV=production bundle exec jekyll build --drafts --baseurl "" --destination _out`.
   A full-tree `--drafts` build fails on the pre-existing empty `post_url` in `_drafts/draft_summary.md`.
+  **Confirm the rendered display-block count and the series navigation part number from the built
+  HTML**, since both have caught real defects.
 - **Genre document** — `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md`. Bands are 1300 to 1600 lines,
   90 to 130 equations for a full aircraft and 120 to 160 for the opener, and 250 to 380 references.
-  **Padding to reach a band is forbidden.** Report a shortfall instead.
+  **Padding to reach a band is forbidden.** Report a shortfall instead. Twelve genre sections plus
+  three series-standard extras, namely Comparison With Ground Prediction, The Contemporary
+  Literature, and The Source Base, the last placed before Epistemic State.
+- **Edit scripts are assertion-guarded.** Every bulk edit counts its exact-match target, collects
+  failures, and leaves the file untouched unless all edits matched exactly once. Working copies live
+  in the gitignored `tmp/`; `tmp/a304_pubrev.py` and `tmp/a304_refs.py` are the current templates.
 
 ## Open Decisions
 
-1. **Categories, and ASK BEFORE DRAFTING A302.** `aerospace history engineering` has been carried
-   through all five articles and is still the agent's assumption. It fixes 72 URLs permanently at
-   publication and the pilot has declined redirects. This has been raised four times without a
-   decision, so raise it once more and then proceed on the assumption if no answer comes.
+1. **Categories.** `aerospace history engineering` has been carried through all eight articles and is
+   still the agent's assumption. It fixes 72 URLs permanently at publication and the pilot has
+   declined redirects. **This has now been raised six times without an answer.** It remains reversible
+   with one edit until the first publication. Mention it once per publication review and proceed; do
+   not block on it.
 2. **109 Open Library search URLs remain in A297.** Open Library exposes a search API and the same
-   upgrade that fixed the NASA citations would resolve them to edition pages. Offered, not yet taken up.
+   upgrade that fixed the NASA citations would resolve them to edition pages. Offered, not taken up.
 3. **The roster names the X-62 as Lockheed Martin.** Wikipedia titles it **General Dynamics X-62
    VISTA** because the airframe is a modified F-16D. A359 should name the disagreement rather than
    pick silently.
@@ -143,15 +204,19 @@ These are the reason this handoff is worth writing. Each cost a real defect.
 
 - **The `post_url` interlock.** A tag whose target is absent from the build fails the entire site
   build. Under `future: false` that includes any forward-dated article. **The publication-order
-  dependency is now five deep**, since A301 cites A300, A299, A298, and A297. They publish in order
-  or together.
-- **Nothing in this series is published.** All five are in `_drafts/`. The deploy workflow runs
+  dependency is now eight deep**, A304 through A297. They publish in order or together.
+  Cross-references are **back-reference only**, never forward.
+- **Nothing in this series is published.** All eight are in `_drafts/`. The deploy workflow runs
   `bundle exec jekyll build` without `--drafts`, so pushing is safe. After every push, verify by
   reading `gh run view --json conclusion` directly and then curling the article URLs to confirm 404.
 - **Two-commit publication.** Staging commit with drafts in `_drafts/`, then a publication commit
   performing `git mv` into `_posts/` and syncing process files.
 - **Commit once after every prompt**, including the `REVERSE_PROMPT.md` update. Sync
   `TASKLOG.md` and `_drafts/draft_summary.md` in the same commit.
+- **Density conventions are absolute counts, not ratios.**
+- **Prose style is absolute.** No contractions, em-dashes, en-dashes, prose colons, prose semicolons,
+  or prose parentheticals. Every article ships a `<!-- Axxx -->` comment and a
+  `<script>console.log("Axxx");</script>` immediately after the front matter.
 - **Do not infer a CI verdict from a chained shell exit code.**
 - **Confirm before irreversible or outward-facing actions.** Push when asked. Never publish
   unprompted.
