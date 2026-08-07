@@ -17,6 +17,85 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Convair X-12 A309 2025-10-18
+
+`x_planes_convair_x12.markdown`, A309, editorial date 2025-10-18, series `x_planes` index 13 of 72.
+
+1066 lines, 115 display equations, 165 reference definitions, 13,142 words after the draft pass.
+**Equations are inside band at 115 against 90 to 130, which no draft in this series has achieved
+before.** Lines sit 234 below the 1300 floor and references 85 below the 250 floor. Both are reported
+rather than padded, and the shortfall is deliberately smaller than A308's, which entered its review
+passes at 678 lines and needed the largest publication-review expansion the series has performed.
+
+**The X-12 is the Atlas B**, the same airframe as the X-11 with everything the X-11 lacked. An
+operational sustainer, a separable booster section on explosive bolts, an airborne guidance computer,
+an Azusa transponder, and a detachable nose cone. The structural material is referenced to A308 and
+deliberately not re-derived, per the handoff warning that repetition was the trap for this article.
+
+**Keystone identified as terminal velocity control.** A ballistic missile falls for 34.3 minutes and
+cannot be steered during any of them, so everything is decided at cutoff. Range responds to burnout
+speed with a dimensionless sensitivity of 4.34, or 6.04 kilometres per metre per second, so a two
+nautical mile circular error probable allows 0.613 metres per second out of 7193. **One part in
+eleven thousand seven hundred.** A308 derived that sensitivity and used it in a single sentence. This
+article makes it the spine.
+
+**Central result is the orbital margin.** Grazing circular speed is 7904 metres per second against
+7193 for a ten-thousand-kilometre ballistic arc, a deficit of 711 metres per second or 9.9 percent.
+Closing it at the sustainer exhaust velocity costs a mass ratio of 1.2645, which is 20.9 percent of
+the burnout mass, or 1129 kilogrammes. **The predicted orbital allowance of 4266 kilogrammes
+reproduces the reported SCORE on-orbit mass of 3980 to within 7.2 percent**, from nothing but the
+range law, a published specific impulse, and a burnout mass taken from a different variant. The
+weapon and the satellite launcher are the same machine with the payload changed.
+
+**Results the sources do not state.** The minimum-energy trajectory is stationary in flight path
+angle, so angle errors enter at second order while speed errors enter at first, and a tenth of a
+degree costs 77 metres of range against the 0.0128 metres per second of speed that would cost the
+same. Sustainer tail-off impulse uncertainty is 1.07 metres per second, which is 1.8 times the entire
+error budget, so the verniers are a velocity-trim device before they are a roll-control device and
+they cut the required timing precision by a factor of 43.4. An accelerometer bias of only 220 micro-g
+exhausts the budget over a 280 second powered flight, which is the quantitative case for putting the
+guidance on the ground in 1958. Lethal radius scales as the cube root of yield, so **halving the
+circular error probable is worth a factor of eight in yield** and a cutoff error of one metre per
+second instead of 0.613 must be paid for with a weapon 4.34 times larger. Acceleration falls by a
+factor of 4.37 at booster jettison. **The flattening of the Earth is 21.4 kilometres, which is 5.8
+times the entire miss budget**, so an intercontinental weapon cannot be aimed on a sphere and the
+ballistic missile created a geodetic requirement it could not itself satisfy. The autopilot bandwidth
+must live in a window of 31 between a 1.14 second aerodynamic divergence and a 4.32 hertz first
+bending mode, and because the shell is pressure-stabilised that bending mode moves during the ascent.
+S-band telemetry tolerates 77 times the ionisation that very high frequency does. SCORE was a
+store-and-forward relay with a four percent duty cycle. Six of ten against the X-11's four of eight
+gives a pooled z of 0.42, so **the Atlas B is not measurably more reliable than the Atlas A** despite
+carrying far more.
+
+**The article argues against its own keystone at the end.** Accuracy decided whether the weapon
+worked and did not decide whether it was kept. A cryogenic missile needing roughly fifteen minutes to
+load consumes 44 percent of the adversary's 34.3 minute flight time, which is not a second-strike
+posture, and Minuteman loads nothing.
+
+**A method improvement was made during the pass.** The manual reference-display corrections are now
+keyed by URL rather than by anchor. A308 keyed them by anchor, and regenerating the master table for
+A309 permuted the disambiguation suffixes on the five Difficulties Review volumes so that every one
+of the five manual displays landed on a different volume than it named. A URL is the only stable
+identity a harvest record has, and each volume is now named by the subsystem it actually covers.
+
+**Verification**: all 130 worked values re-derived independently with zero corrections to the
+article. Two checker disagreements were both the checker, once on a zero-target tolerance and once on
+a missing SI-to-cgs conversion in the Sutton and Graves correlation, and the second exposed real
+sloppiness in the article's unit labelling, which was repaired. `_verify.py` at the 0-error
+21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons,
+prose parentheticals, doubled words, duplicate headings, lone dollar-delimited lines, or adjacent
+display-math seams. 22 of 22 fixed identifiers at 200, 127 of 127 DOIs Crossref-resolved on title at
+the 0.85 threshold with zero flagged, zero duplicate URLs, and no hand-entered identifier anywhere.
+Isolated build succeeding with 115 rendered display blocks matching the source count exactly, Part 13
+navigation, nine tables, and no unresolved reference links or surviving Liquid tags.
+
+**Remaining for the review passes**: equation density is already in band, so the equation pass should
+look for relations the prose relies on without displaying rather than for count. Reference density
+needs 85 or more, and primary sources are already 83.1 percent of dated. **Contemporary references
+sit at 23, or 15.5 percent of dated, which is well below the 28 to 33 percent floor and far below the
+101 to 189 absolute count the series has held since A301**, so the publication-review sweep carries
+the largest single gap.
+
 ## X-Planes Convair X-11 A308 2025-10-17
 
 `x_planes_convair_x11.markdown`, A308, editorial date 2025-10-17, series `x_planes` index 12 of 72.
