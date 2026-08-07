@@ -115,12 +115,34 @@ inversion and its square-law ratio; the variance-share relation; the speed-budge
 two, and five nautical miles; and the boil-off holding time. All 160 worked values re-derived with
 zero disagreements, isolated build clean at 135 rendered display blocks matching source exactly.
 
-**Remaining for the two review passes**: reference density needs 85 or more to reach the 250 floor,
-and primary sources are already 83.1 percent of dated, so the primary pass has less to do than usual
-and should be aimed by a citation-coverage audit rather than by count. **Contemporary references sit
-at 23, or 15.5 percent of dated, which is well below the 28 to 33 percent floor and far below the 101
-to 189 absolute count the series has held since A301**, so the publication-review sweep carries the
-largest single gap. Lines remain 138 below the floor.
+**Primary pass complete, 2026-08-07.** 165 to **263 reference definitions**, inside the 250 to 380
+band. 1286 lines, 135 display equations, 16,482 body words. **Primary sources 220 of 246, or 89.4
+percent of dated, up from 83.1 and the highest in the series.** Citation density 14.01 to 18.72 per
+thousand body words.
+
+**The pass caught two cited references that had silently become different papers.** Rebuilding the
+master on the enlarged harvest moved two already-cited anchors onto unrelated documents. The
+generator now compares each cited anchor's new URL against the URL recorded in the existing
+reference section and refuses to regenerate on any change.
+
+**The largest addition was unplanned.** The equation pass had established that the flattening of the
+Earth is 5.8 times the miss budget, and the harvest contained nothing on geodesy. A sweep returned a
+complete discipline, and a new section traces it from surface-gravity geoid determination to a
+published world datum sixteen years after the first Atlas B flight. **The source-base finding is that
+the weapon literature is classified and fragmentary while the literature the weapon depended on is
+openly published**, because the shape of the Earth was not a secret.
+
+All four debt sections closed. 251 external URLs with zero duplicates, 30 of 30 fixed identifiers at
+200, 217 of 217 DOIs Crossref-resolved at 0.85 with zero flagged, isolated build clean.
+
+**Remaining for the publication review**: **contemporary references are 23, or 9.3 percent of
+dated.** The absolute count is unchanged since the draft and the percentage fell only because the
+primary pass grew the denominator, which is the count-versus-percentage behaviour the series has
+seen before. Against the 101 to 189 absolute count held since A301 this is **the largest contemporary
+gap any article has carried into a publication review**. Lines are 14 below the 1300 floor, the
+closest any article in the series has come before its final pass, so closing the contemporary gap
+will carry the article past the floor as a side effect. Equations are five above the ceiling and are
+reported rather than trimmed.
 
 ## X-Planes Convair X-11 A308 2025-10-17
 

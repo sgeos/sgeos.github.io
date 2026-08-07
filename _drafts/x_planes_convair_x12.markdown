@@ -151,7 +151,7 @@ which evaluates to
 | 0.10 degrees | 0.0128 m/s | 1 part in 48 |
 | 0.50 degrees | 0.3209 m/s | 1 part in 1.9 |
 
-**Pointing is roughly fifty times more forgiving than speed at a tenth of a degree, and the advantage grows without limit as the errors shrink**, because one term is linear and the other quadratic. The inverse-square dependence is the whole content of the claim and it also sets its limit, since at half a degree the two contributions are comparable and the angle stops being free. An autopilot holding attitude to a tenth of a degree therefore has margin and one holding half a degree does not. This is why the Atlas guidance system is a speed-measuring instrument with an attitude system attached rather than the reverse, and it is the single structural fact that organises everything below. Related sensitivity work of the period includes [Gretz 1962][research_gretz_1962] on error sensitivities in ascent and orbital transfer and [Griner 1967][research_griner_1967] on reducing dispersion by shaping the thrust-time curve.
+**Pointing is roughly fifty times more forgiving than speed at a tenth of a degree, and the advantage grows without limit as the errors shrink**, because one term is linear and the other quadratic. The inverse-square dependence is the whole content of the claim and it also sets its limit, since at half a degree the two contributions are comparable and the angle stops being free. An autopilot holding attitude to a tenth of a degree therefore has margin and one holding half a degree does not. The optimum-trajectory literature the result belongs to opens with [Fried and Richardson 1956][research_fried_richardson_1956] and continues through the integrals of [Edelbaum and Pines 1969][research_edelbaum_pines_1969], with the Atlas-specific case worked much later in [Brusch 1977][research_brusch_1977]. This is why the Atlas guidance system is a speed-measuring instrument with an attitude system attached rather than the reverse, and it is the single structural fact that organises everything below. Related sensitivity work of the period includes [Gretz 1962][research_gretz_1962] on error sensitivities in ascent and orbital transfer and [Griner 1967][research_griner_1967] on reducing dispersion by shaping the thrust-time curve.
 
 ### Why the X-11 Could Not Address Any of This
 
@@ -171,7 +171,7 @@ The dates say something about how the programme was run. The last Atlas A flew o
 
 ### What October 1957 Did to the Schedule
 
-The Atlas B flew in the year between Sputnik and NASA, and the political environment it flew into is not incidental to what it was asked to do. Sputnik 1 reached orbit on 4 October 1957, Sputnik 2 on 3 November, and the United States responded with Explorer 1 on 1 February 1958 on a Juno I, which is a Redstone derivative rather than an Atlas. The Advanced Research Projects Agency was created in February 1958 specifically to prevent a repetition. **An Atlas B that could reach orbit was therefore politically valuable independently of whether it could deliver a warhead**, and the programme found a way to demonstrate both with the same vehicle inside six weeks.
+The Atlas B flew in the year between Sputnik and NASA, and the political environment it flew into is not incidental to what it was asked to do. Sputnik 1 reached orbit on 4 October 1957, Sputnik 2 on 3 November, and the United States responded with Explorer 1 on 1 February 1958 on a Juno I, which is a Redstone derivative rather than an Atlas. The Advanced Research Projects Agency was created in February 1958 specifically to prevent a repetition, and the Army programme that had actually delivered Explorer wrote its own account in [Satterfield and Akens 1958][research_satterfield_akens_1958]. **An Atlas B that could reach orbit was therefore politically valuable independently of whether it could deliver a warhead**, and the programme found a way to demonstrate both with the same vehicle inside six weeks.
 
 That demonstration was Project SCORE, run by the Army and by the Advanced Research Projects Agency, with the communications package designed at the Army Signal Research and Development Laboratory at Fort Monmouth under Kenneth Masterman-Smith. The reported secrecy is extreme even by the standards of the period, with the accessible accounts stating that eighty-eight people knew the project existed. The satellite communications literature the period was writing at the same moment is [Handelsman 1959][research_handelsman_1959] on a stationary passive relay, [Hagan 1960][research_hagan_1960] on polar-orbit relay, [Jakes 1961][research_jakes_1961] on the transatlantic experiment through Echo I, [Haviland 1963][research_haviland_1963] on relay techniques, and [Karrenberg and Lueders 1963][research_karrenberg_lueders_1963] on the orbital aspects of a nonsynchronous system.
 
@@ -197,7 +197,7 @@ $$\Delta t = \frac{0.613}{71.6} = 8.6 \, \text{ms}$$
 
 $$\delta v_{\text{tail}} = \frac{0.05 \times 0.3 \times 386{,}300}{5395} = 1.07 \, \text{m/s}$$
 
-which is **1.8 times the entire error budget**. A missile that simply commands its sustainer to stop cannot meet the accuracy requirement no matter how good its guidance is, because the last thing it does is the least repeatable thing it does. This is precisely the subject of [Kelly 1959][research_kelly_1959], and the model specification for the engine itself survives as [Scott 1963][research_scott_1963] on the Rocketdyne YLR105-NA-7 sustainer.
+which is **1.8 times the entire error budget**. A missile that simply commands its sustainer to stop cannot meet the accuracy requirement no matter how good its guidance is, because the last thing it does is the least repeatable thing it does. This is precisely the subject of [Kelly 1959][research_kelly_1959], with the transient itself measured in [Rodean 1959][research_rodean_1959], and the model specification for the engine itself survives as [Scott 1963][research_scott_1963] on the Rocketdyne YLR105-NA-7 sustainer. **That the problem is generic rather than peculiar to liquid engines is clear from the solid-motor literature**, where terminating thrust requires deliberately destroying the chamber pressure and the repeatability of doing so is the subject of [Jaroudi and Mcdonald 1964][research_jaroudi_mcdonald_1964] and [Coates and Horton 1970][research_coates_horton_1970]. Every propulsion system that must stop at a commanded velocity confronts the same last-instant uncertainty.
 
 ### Which Is Why the Vehicle Has Verniers
 
@@ -297,7 +297,7 @@ The prediction is testable against the flight, which is unusual for an argument 
 
 $$\frac{4266 - 3980}{3980} = +7.2 \, \text{percent}$$
 
-**A calculation carried out entirely from the range law, a published specific impulse, and a burnout mass taken from a different variant reproduces the mass of the first communications satellite to within seven percent.** The agreement should not be oversold, since the burnout mass is an Atlas D figure and the reported on-orbit mass appears elsewhere as 8,660 pounds, which is 3,928 kilogrammes, so the sources themselves disagree by 1.3 percent. What the agreement does establish is that the orbital mission and the weapon mission are the same mission with the payload changed, which is the article's central claim, and that no capability was added to make the second possible. Trajectory design for the launcher this vehicle became appears in [Frazier 1967][research_frazier_1967], and the flight performance evaluations that document the result are [NACA 1967][research_naca_1967], [NACA 1968][research_naca_1968], [NACA 1968, Atlas-Centaur Ac-12 flight perform][research_naca_1968_2], and [NACA 1969][research_naca_1969].
+**A calculation carried out entirely from the range law, a published specific impulse, and a burnout mass taken from a different variant reproduces the mass of the first communications satellite to within seven percent.** The agreement should not be oversold, since the burnout mass is an Atlas D figure and the reported on-orbit mass appears elsewhere as 8,660 pounds, which is 3,928 kilogrammes, so the sources themselves disagree by 1.3 percent. What the agreement does establish is that the orbital mission and the weapon mission are the same mission with the payload changed, which is the article's central claim, and that no capability was added to make the second possible. Trajectory design for the launcher this vehicle became appears in [Frazier 1967][research_frazier_1967], and the flight performance evaluations that document the result are [NACA 1967][research_naca_1967], [NACA 1968][research_naca_1968], [NACA 1968, Atlas-Centaur Ac-12 flight perform][research_naca_1968_2], and [NACA 1969, Flight performance of the Atlas-Ag][research_naca_1969_2].
 
 ### The Orbit SCORE Actually Reached
 
@@ -393,7 +393,7 @@ which is 5.68 percent of the burnout speed. Adding and subtracting it as a bound
 
 $$\delta R = \frac{dR}{dv} \, \omega_{e} R_{e} \cos \phi \cos A$$
 
-giving 2,466 kilometres due east, 1,744 at an azimuth of 45 degrees, and nothing due north or south. **The first-order estimate of 2,466 kilometres falls 23 percent short of the exact 3,195**, which is a useful warning in its own right, since a 408 metre per second perturbation is far outside the range over which the linear sensitivity that governs the whole article remains valid. **This is an upper bound rather than a computed range, because the launch site latitude changes along the arc**, but the order is right and it explains why a missile's stated range is meaningless without a direction. It also explains the SCORE inclination of 32.3 degrees against a launch site latitude of 28.5, since an orbit cannot be less inclined than its launch latitude and the excess measures how far the azimuth was rotated away from due east.
+giving 2,466 kilometres due east, 1,744 at an azimuth of 45 degrees, and nothing due north or south. **The first-order estimate of 2,466 kilometres falls 23 percent short of the exact 3,195**, which is a useful warning in its own right, since a 408 metre per second perturbation is far outside the range over which the linear sensitivity that governs the whole article remains valid. **This is an upper bound rather than a computed range, because the launch site latitude changes along the arc**, but the order is right and it explains why a missile's stated range is meaningless without a direction. It also makes azimuth a geodetic quantity rather than a navigational one, since the launch heading must be referred to the same figure of the Earth as the target, and the astronomical determination of a geodetic azimuth is its own discipline in [Bhattacharji 1970][research_bhattacharji_1970]. Optimising the heading rather than merely choosing it is [Frazier 1967][research_frazier_1967] and [Brusch 1977][research_brusch_1977]. It also explains the SCORE inclination of 32.3 degrees against a launch site latitude of 28.5, since an orbit cannot be less inclined than its launch latitude and the excess measures how far the azimuth was rotated away from due east.
 
 ### The Earth Is Not a Sphere, and That Matters More Than the Rotation
 
@@ -418,6 +418,18 @@ $$\Delta s \sim \tfrac{1}{2} \, \Delta a \, t_{f}^{2} = 34 \, \text{km}$$
 **Nine times the entire miss budget.** That figure is an upper bound, since the perturbation is not constant along the arc and part of it acts along-track where the range law absorbs it, but no plausible reduction brings it below the tolerance. A weapon aimed on a point-mass gravity field misses by tens of kilometres. The oblateness term that dominates it was being worked out at exactly this moment, in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], [Message 1960][research_message_1960], [King-Hele 1962][research_king_hele_1962], and [Sarychev 1962][research_sarychev_1962], and the satellites that measured it were flying on vehicles like this one.
 
 **The ballistic missile therefore created a geodetic requirement it could not itself satisfy**, and the resolution came from the same orbital capability the X-12 demonstrated. That circularity is worth naming, because it is the clearest case in this series of a weapon programme generating a scientific programme as a precondition for its own accuracy rather than as a by-product.
+
+### How the Requirement Was Actually Met
+
+The geodesy the weapon needed did not exist in 1958 and was largely built in the decade that followed, using satellites launched on vehicles of this family. Tracing it is worth doing, because the sequence is unusually clean and because it shows the article's own numbers being determined by other people for other reasons.
+
+**Before satellites the field was determined from the ground and the ground could not see across an ocean.** The classical method computes the shape of the geoid from surface gravity measurements, in [Hirvonen 1954][research_hirvonen_1954], and connects a station's astronomical position to its geodetic one through the deflection of the vertical, in [Tsuboi and Hayatu 1954][research_tsuboi_hayatu_1954] and [Wolf 1954][research_wolf_1954]. The result is a datum that is internally consistent over a continent and arbitrarily offset from the datum of any other continent, and the state of that art on the eve of the satellite era is [Fischer 1961][research_fischer_1961]. **Two continents surveyed separately are two coordinate systems**, and a weapon aimed from one at the other is aiming at a number rather than a place. That the Soviet Union was solving the same problem with its own ellipsoid is [Izotov 1959][research_izotov_1959].
+
+**A satellite sees the whole field at once, because it is inside it.** The perturbations in its orbit are a direct measurement of the harmonics of the potential, which is the theory in [Batrakov 1963][research_batrakov_1963] and [Liu 1974][research_liu_1974], and the determination proceeded rapidly once orbits were being tracked accurately. The even zonal harmonics are worked out in [King-hele et al 1963][research_king_hele_1963], [King-hele et al 1964][research_king_hele_1964], [Kozai 1964][research_kozai_1964], [Kozai 1964, New Determination of Zonal Harmoni][research_kozai_1964_2], [Cook 1965][research_cook_1965], [King-Hele and Cook 1965][research_king_hele_cook_1965], and [King-Hele et al 1966, Even zonal harmonics in the earth'][research_king_hele_1966_2], the odd ones in [King-Hele et al 1965, The odd zonal harmonics in the Ear][research_king_hele_1965_2] and [King-hele et al 1966][research_king_hele_1966], the progress summarised in [King-hele 1965][research_king_hele_1965], and the expansion pushed to the twenty-fifth order in [Felsentreger and Victor 1966][research_felsentreger_victor_1966]. **The non-zonal terms, which is to say the departures from rotational symmetry, needed Doppler tracking**, and that is [Guier 1963][research_guier_1963], with the error analysis of the Navy Doppler geodetic system itself in [Guier et al 1965][research_guier_1965].
+
+**The geoid and the datum followed.** Determining the geoid from satellite observation is [Anderle 1966][research_anderle_1966], the equatorial radius and zero-order undulation are [Rapp 1967][research_rapp_1967] and [Veis 1968][research_veis_1968], the accuracy attainable is [Rapp 1973][research_rapp_1973], and the definitional questions are [Rapp 1974][research_rapp_1974] and [Moritz 1966][research_moritz_1966] on the boundary-value problem underneath. The purely geometric route, connecting continents by simultaneous observation of a satellite from stations on both, is the triangulation net whose error behaviour is [Lortie 1966][research_lortie_1966], with the dedicated instrument in [Nichols 1974][research_nichols_1974] and the Soviet equivalent assessed in [Wareham 1972][research_wareham_1972]. **A world datum tying the continents together is the deliverable**, and it arrives in [Eitschberger and Grafarend 1974][research_eitschberger_grafarend_1974], with regional orientations such as [Mather and Fryer 1970][research_mather_fryer_1970] and [Mather 1971][research_mather_1971] as the working examples. Combining astronomical and geodetic data statistically is [Heitz 1971][research_heitz_1971] and [Jordan 1972, Self-consistent statistical models][research_jordan_1972_2], and where the field went next, to altimetry and satellite-to-satellite tracking, is [Hudson 1971][research_hudson_1971], [Comfort 1973][research_comfort_1973], and [Fubara and Mourad 1974][research_fubara_mourad_1974].
+
+**Sixteen years separate the first Atlas B flight from a published world geodetic datum.** For most of the period during which the Atlas force stood alert, the coordinates of its targets were less well known than the guidance system's contribution to the error budget, and this article's careful accounting of cutoff velocity to two thirds of a metre per second describes only the part of the problem the missile engineers owned. **The other part belonged to geodesists and was solved with the missile's own product.** [Remmer 1974][research_remmer_1974] is a small reminder that the discipline was still arguing about its own foundations while all of this was going on.
 
 ## Dependent Systems
 
@@ -496,6 +508,8 @@ $$\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}}
 $$\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}$$
 
 is a logarithm of the identical number. **The mass fraction that makes the Atlas an intercontinental weapon is the same mass fraction that makes it hard to stop**, and this is the article's first genuine tension between the [previous one's][related_post_a308_convair_x11] keystone and this one's. A heavier vehicle would be easier to terminate accurately and could not reach the target.
+
+Knowing where on that curve the engine actually sits requires knowing its specific impulse to better than the accuracy the mission demands, which is a harder measurement than it sounds and which the period solved by inference from the trajectory rather than by instrumenting the engine. [Powers 1960][research_powers_1960] determines vacuum specific impulse precisely from trajectory data, and [Dafler 1962][research_dafler_1962] sets out what the quantity does and does not mean for vehicle performance. The thermal instrumentation that a stand test relies on has its own response limits, in [Hoff 1967][research_hoff_1967], and spectroscopic monitoring of a running engine is [Strauss 1964][research_strauss_1964]. **A specific impulse quoted to three figures is a trajectory reconstruction, not a measurement**, which is worth remembering given that the 309 second figure carries most of this article's orbital arithmetic.
 
 ### Propellant Utilisation
 
@@ -593,7 +607,9 @@ which is
 
 $$\varepsilon \leq 0.329 \, \text{degrees per hour}$$
 
-**A third of a degree per hour, and gyroscopes of the period drifted at of order one degree per hour.** The gap between the available instrument and the required one is therefore a factor of about three rather than the orders of magnitude the difficulty of the problem suggests, and the honest reading is that all-inertial guidance was close in 1958 rather than remote. What the ground link bought was not a capability that did not exist but a margin, and the margin mattered because the accelerometer and the gyroscope errors add in quadrature alongside everything else in the budget. Putting the measurement on the ground removes the integration entirely, at the price of a radio link and a vehicle that cannot be fired if the link is jammed or the station is destroyed, which is exactly why the later Atlas E and F went all-inertial once components allowed. The period literature on both sides of that trade includes [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962] on damping an inertial system, [Britting 1971][research_britting_1971] on unified error analysis, [Wilkinson 1971][research_wilkinson_1971] on the floated gyroscope error model, and [Becker 1973][research_becker_1973] on command guidance as a control system.
+**A third of a degree per hour, and gyroscopes of the period drifted at of order one degree per hour.** The gap between the available instrument and the required one is therefore a factor of about three rather than the orders of magnitude the difficulty of the problem suggests, and the honest reading is that all-inertial guidance was close in 1958 rather than remote. What the ground link bought was not a capability that did not exist but a margin, and the margin mattered because the accelerometer and the gyroscope errors add in quadrature alongside everything else in the budget.
+
+The period instrument literature supports that reading rather than the one the eight-year gap suggests. Measuring drift at all required a dedicated instrument, in [Byerly 1957][research_byerly_1957], and the mechanisms that produce it were being isolated one at a time, with gimbal-supported vibration effects in [Crawley and Maunder 1966][research_crawley_maunder_1966], rate-gyroscope response in [Gryglaszewski 1963][research_gryglaszewski_1963], and low angular momentum designs in [Pijoan 1970][research_pijoan_1970]. **Alignment on the pad is a separate problem from drift in flight and is the one a ground-guided missile can avoid entirely**, since it needs no absolute azimuth reference of its own, and gyrocompass alignment to arbitrary attitudes is [Kouba and Mason 1962][research_kouba_mason_1962]. Where the technology eventually went is visible in [Harding and Lawson 1968][research_harding_lawson_1968] on a superconducting gyroscope and its drift model, and the design trends that followed are [George 1974][research_george_1974]. The statistical machinery for propagating all of it through a guidance loop arrives with [Taylor and Price 1974][research_taylor_price_1974]. Putting the measurement on the ground removes the integration entirely, at the price of a radio link and a vehicle that cannot be fired if the link is jammed or the station is destroyed, which is exactly why the later Atlas E and F went all-inertial once components allowed. The period literature on both sides of that trade includes [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962] on damping an inertial system, [Britting 1971][research_britting_1971] on unified error analysis, [Wilkinson 1971][research_wilkinson_1971] on the floated gyroscope error model, and [Becker 1973][research_becker_1973] on command guidance as a control system.
 
 The comparison with the [X-10][related_post_a307_north_american_x10] is instructive and runs the other way. The Navaho needed autonomous navigation because it flew for nearly three hours over hostile territory and a ground link was not available. The Atlas needed accurate velocity for about five minutes over friendly territory and a ground link was. **The two vehicles chose opposite architectures for the same reason, which is that each put the measurement where the physics of its own mission allowed it to be put.**
 
@@ -621,7 +637,7 @@ so at six centimetres a one-hertz frequency resolution resolves
 
 $$\dot{r} = 0.030 \, \text{m/s}$$
 
-and the 0.613 metre per second budget corresponds to about twenty hertz, which is undemanding. **The physics is on the side of the ground station, and this is the quantitative reason radio guidance was good enough to build an operational weapon around.** [Vickers and Dyer 1971][research_vickers_dyer_1971] measures radio interferometer noise in exactly this application, with Doppler position and velocity determination in [Hix 1968][research_hix_1968] and radar-derived velocity in [Saunders 1965][research_saunders_1965].
+and the 0.613 metre per second budget corresponds to about twenty hertz, which is undemanding. **The physics is on the side of the ground station, and this is the quantitative reason radio guidance was good enough to build an operational weapon around.** The technique itself is borrowed rather than invented. Radio interferometry was developed for astronomy, and the instrument that established it is [Ryle 1952][research_ryle_1952], with the tracking variant appearing in [Rowson 1962][research_rowson_1962] and the multiple-baseline arrangement that resolves the fringe ambiguity in [Gerharz 1963][research_gerharz_1963]. **A missile tracker and a radio telescope are the same instrument pointed at different things**, and the ambiguity problem is identical in both, since a single baseline gives a direction cosine only to within an integer number of fringes. [Vickers and Dyer 1971][research_vickers_dyer_1971] measures radio interferometer noise in exactly this application, with Doppler position and velocity determination in [Hix 1968][research_hix_1968] and radar-derived velocity in [Saunders 1965][research_saunders_1965].
 
 ### Where the Loop's Latency Actually Comes From
 
@@ -695,7 +711,7 @@ $$\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \fra
 
 ### Instrumentation, Telemetry, and the Range
 
-A development flight is an instrument, and the accuracy question above cannot be answered without measuring the trajectory more accurately than the missile flies it. That is a hard requirement and the period took it seriously, in [Cooper 1961][research_cooper_1961] on the accuracy of measuring ballistic missile trajectories and [Gerlach 1965][research_gerlach_1965] on high-accuracy instrumentation for non-steady flight measurement. [Schweppe 1964][research_schweppe_1964] estimates a reentry body's state and ballistic coefficient in real time from tracking data, and the Kalman techniques that later made it routine are [Aldrich and Krabill 1972][research_aldrich_krabill_1972]. Simulation support for the vehicle as a whole comes from [Juarez 1961][research_juarez_1961], whose general n-stage missile dynamics program is the kind of tool that made a ten-flight programme interpretable.
+A development flight is an instrument, and the accuracy question above cannot be answered without measuring the trajectory more accurately than the missile flies it. That is a hard requirement and the period took it seriously, in [Cooper 1961][research_cooper_1961] on the accuracy of measuring ballistic missile trajectories and [Gerlach 1965][research_gerlach_1965] on high-accuracy instrumentation for non-steady flight measurement. [Schweppe 1964][research_schweppe_1964] estimates a reentry body's state and ballistic coefficient in real time from tracking data, and the Kalman techniques that later made it routine are [Aldrich and Krabill 1972][research_aldrich_krabill_1972]. Simulation support for the vehicle as a whole comes from [Juarez 1961][research_juarez_1961], whose general n-stage missile dynamics program is the kind of tool that made a ten-flight programme interpretable. The physical instrumentation behind it is [Bonney 1960][research_bonney_1960] on radar ballistic instrumentation, [Matson 1963][research_matson_1963] on the airborne transponder that closes the tracking loop, and [Belsterling 1965][research_belsterling_1965] on the analog computer driving the range safety display. **The bottleneck was rarely the sensor and usually the reduction**, which is the subject of [Kingsley 1967][research_kingsley_1967], because a flight produces more data in five minutes than a period computing installation could process in a day.
 
 ## The Flight Test Record
 
@@ -786,7 +802,7 @@ which is heavy for a satellite and is why an object with a 185 kilometre perigee
 
 $$\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}$$
 
-Atmospheric drag on satellites was an active subject at exactly this moment, in [Jastrow and Pearse 1957][research_jastrow_pearse_1957], [Parkyn 1958][research_parkyn_1958], [Wildhack 1958][research_wildhack_1958], [Brouwer and Hori 1961][research_brouwer_hori_1961], [Westerman 1963][research_westerman_1963], and [Geyling 1964][research_geyling_1964], with the oblateness terms that dominate the orbit's other secular behaviour in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], and [Message 1960][research_message_1960].
+Atmospheric drag on satellites was an active subject at exactly this moment, in [Jastrow and Pearse 1957][research_jastrow_pearse_1957], [Parkyn 1958][research_parkyn_1958], [Wildhack 1958][research_wildhack_1958], [Brouwer and Hori 1961][research_brouwer_hori_1961], [Westerman 1963][research_westerman_1963], and [Geyling 1964][research_geyling_1964], with the oblateness terms that dominate the orbit's other secular behaviour in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], [Message 1960][research_message_1960], and [Message 1960, On Mr King-Hele's Theory of the Ef][research_message_1960_2]. **Oblateness and drag are not independent**, since the flattening changes the density a satellite meets at a given altitude and therefore its lifetime, which is [Johnston 1966][research_johnston_1966], and it torques the body as well, in [Schlegel 1966][research_schlegel_1966]. Determining where an object of this kind actually is remained hard enough to support its own literature, in [Moriarty 1966][research_moriarty_1966] and [Lubowe 1969][research_lubowe_1969].
 
 ### What the Ten Flights Support Statistically
 
@@ -806,7 +822,7 @@ $$z = \frac{0.10}{0.236} = 0.42$$
 
 $$n = \frac{p(1-p)}{\sigma^{2}} = 99 \, \text{flights}$$
 
-which is not how a missile programme establishes reliability. Reliability came from the Difficulties Review process instead, and the five surviving volumes of [General Dynamics Convair 1966, Propellant Utilization][research_div_1966], [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2], [General Dynamics Convair 1966, Pneumatics][research_div_1966_3], [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and [General Dynamics Convair 1966, Electrical][research_div_1966_5] are what that looked like written down. The flight test reports for individual missiles are [Diegoca 1961][research_diegoca_1961].
+which is not how a missile programme establishes reliability. The statistical machinery for doing better than counting successes arrived later and is [Taylor and Price 1974][research_taylor_price_1974], whose covariance analysis propagates component errors through a guidance loop without requiring flights at all. **A programme that cannot afford a hundred flights must substitute analysis for sampling**, and that substitution is the intellectual content of the entire reliability discipline that followed. Reliability came from the Difficulties Review process instead, and the five surviving volumes of [General Dynamics Convair 1966, Propellant Utilization][research_div_1966], [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2], [General Dynamics Convair 1966, Pneumatics][research_div_1966_3], [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and [General Dynamics Convair 1966, Electrical][research_div_1966_5] are what that looked like written down. The flight test reports for individual missiles are [Diegoca 1961][research_diegoca_1961].
 
 Placing the failures on the mass and acceleration history makes the pattern sharper. At the combined mass flow of 676.2 kilogrammes per second computed above, the first failure at T plus 43 seconds occurred with
 
@@ -834,7 +850,7 @@ The engine could be tested, and was, on stands that ran full-duration burns. The
 
 **The separation event could not be reproduced at all.** It occurs at about a hundred pascals of dynamic pressure, which is a vacuum by any ground standard, with two bodies of very different mass separating under thrust while a plume expands into the gap between them. Jet interference at that altitude was measured by [Binion et al 1962][research_binion_1962] and [Binion 1964][research_binion_w_1964], and the reason those papers exist is that no ground facility of the period could do it. A wind tunnel can produce the Mach number or the pressure altitude but not both at scale with a running engine.
 
-**The ground wind loads on the pad could be measured and were, and they were a genuine problem.** A slender pressure-stabilised vehicle standing on a launcher in a crosswind sheds vortices and responds to them, and the Atlas is the vehicle the extreme-value analysis of that problem was written about, in [Miller 1967][research_miller_1967]. The general treatment spans [Buell 1964][research_buell_1964], [Bohne 1964][research_bohne_1964], and the meeting record in [NACA 1966][research_naca_1966], with buffet pressures for the Mercury and Atlas configuration collated in [Shelton 1966][research_shelton_1966] and the launch-vehicle buffeting problem surveyed in [Rainey 1964][research_rainey_1964]. This is the one part of the flight environment the ground could reproduce well, because the vehicle is stationary and the wind is real.
+**The ground wind loads on the pad could be measured and were, and they were a genuine problem.** A slender pressure-stabilised vehicle standing on a launcher in a crosswind sheds vortices and responds to them, and the Atlas is the vehicle the extreme-value analysis of that problem was written about, in [Miller 1967][research_miller_1967]. The general treatment spans [Buell 1964, Some sources of ground-wind loads][research_buell_1964_2], [Bohne 1964][research_bohne_1964], and the meeting record in [NACA 1966][research_naca_1966], with buffet pressures for the Mercury and Atlas configuration collated in [Shelton 1966][research_shelton_1966] and the launch-vehicle buffeting problem surveyed in [Rainey 1964][research_rainey_1964]. This is the one part of the flight environment the ground could reproduce well, because the vehicle is stationary and the wind is real.
 
 **The cutoff transient could not be reproduced in the flight configuration.** A static test measures thrust decay against a rigid stand. In flight the same decay acts on a vehicle whose structure is a pressurised membrane, whose propellant is sloshing, and whose acceleration is falling through the transient. The one measurement that matters, namely the total impulse delivered after the command, is exactly the one the stand cannot reproduce, and this is why the article's whole error budget rests on flight data.
 
@@ -880,6 +896,8 @@ $$t_{\text{hold}} = \frac{0.05}{0.01} = 5 \, \text{days}$$
 
 **Readiness therefore has a clock on it even when nothing is wrong**, which makes indefinite alert impossible in principle rather than merely inconvenient, and every top-up is a maintenance action on a fuelled weapon.
 
+The cryogenic literature of the period is unusually direct about how hard this was. Storage vessel design is [Hallett et al 1960][research_hallett_1960], the measurement of boil-off itself is [Jacobs 1964][research_jacobs_1964] and [Flack et al 1969][research_flack_1969], and subcritical storage under varying acceleration is [Polk 1962][research_polk_1962]. Transferring the fluid without warming or contaminating it is [Humphrey 1961][research_humphrey_1961] and [Greenfield 1960][research_greenfield_1960], with contamination as a distinct hazard in [Foster et al 1960][research_foster_1960] and [Foster 1961][research_foster_1961], and the overpressure behaviour of a liquid oxygen and kerosene combination in [Smalley 1961][research_smalley_1961]. **Discharging a large tank without collapsing its pressure is its own problem** and is exactly what a balloon tank cannot tolerate, which is [Nein and Head 1962][research_nein_head_1962], with the pressurisation systems that answer it in [Morey and Koshar 1961][research_morey_koshar_1961], [Coxe and Tatom 1962][research_coxe_tatom_1962], and [Kaplan 1961][research_kaplan_1961]. **Every one of those documents is a reason the storable and solid-fuelled competitors won**, and none of them is about accuracy.
+
 Minuteman, which replaced it, loads nothing. A solid motor is ready when it is built, and the whole of the Atlas's careful accuracy engineering was made irrelevant by a propellant choice. **The keystone this article identified is real and was decisive for whether the weapon worked, and it was not decisive for whether the weapon was kept**, which is a distinction worth drawing explicitly because an article organised around a keystone will tend to blur it. Alert-rate economics belongs to [Kravitsky 2007][research_kravitsky_2007], the post-Cold-War role to [O'Rourke 2010][research_o_rourke_2010], and silo deployment survivability as an optimisation is [Dai et al 2019][research_dai_2019].
 
 The consolation is that the launch vehicle role had no such requirement. **A satellite launch can wait for its propellant**, and every property that made the Atlas a poor weapon after 1962 was irrelevant to the mission it then performed for forty years.
@@ -887,6 +905,8 @@ The consolation is that the launch vehicle role had no such requirement. **A sat
 ### Into the Communications Satellite
 
 SCORE established three things that were not obvious in 1958. A satellite could carry a useful payload rather than a beacon, a spacecraft could be commanded from the ground to record and replay, and the entire upper stage could serve as the spacecraft. The store-and-forward duty cycle of four percent computed above is precisely the constraint that drove the next decade toward higher orbits, and the geostationary answer was already being written down in [Handelsman 1959][research_handelsman_1959] before SCORE flew. **SCORE is the demonstration that made the argument about orbits a practical one rather than a theoretical one.**
+
+Its immediate successor makes the lineage explicit. Project Courier took the store-and-forward architecture SCORE had flown and built a purpose-designed satellite around it, in [Maresca 1960][research_maresca_1960] and [Mottley et al 1960][research_mottley_1960], and the tape recorder that had been the weak component became a subject in its own right, in [Clement 1965][research_clement_1965] on qualifying one for launch vibration and [Bahm and Hoffman 1971][research_bahm_hoffman_1971] on making one last in orbit. **The four percent duty cycle was attacked from both ends at once**, by raising the orbit so the satellite was visible for longer and by making the relay active so that nothing needed storing at all, and the active-repeater line runs through [Aein 1964][research_aein_1964], [Blum 1966][research_blum_1966], and [Horvath and Blum 1966][research_horvath_blum_1966]. The system studies that followed are [Whelan 1968][research_whelan_1968] and [Sundstrom and Brown 1969][research_sundstrom_brown_1969]. **Within a decade the store-and-forward satellite had become a special case rather than the only case**, which is the ordinary fate of a first demonstration.
 
 ## The Contemporary Literature
 
@@ -918,7 +938,7 @@ $$\delta v = \frac{\text{CEP}}{dR/dv}$$
 
 so at five nautical miles the problem is materially easier and at one it is roughly twice as hard as anything this article claims. **The qualitative conclusion that speed dominates angle survives any choice, because it rests on a stationarity argument rather than on a number, but the specific figures do not.**
 
-**Treating cutoff as the whole problem understates the atmosphere.** The range law used here is for a spherical non-rotating Earth with no atmosphere on the way up or down, and the reentry body's own dispersion, from ablation asymmetry, from roll resonance, and from winds at low altitude, contributes to the miss distance independently of anything the guidance system did. [Platus 1967][research_platus_1967] on roll resonance and [Ammons 1973][research_ammons_1973] on low-level wind measurement error are the shape of that contribution. An article organised around cutoff accuracy will naturally attribute the whole error to cutoff, and that is wrong.
+**Treating cutoff as the whole problem understates the atmosphere.** The range law used here is for a spherical non-rotating Earth with no atmosphere on the way up or down, and the reentry body's own dispersion, from ablation asymmetry, from roll resonance, and from winds at low altitude, contributes to the miss distance independently of anything the guidance system did. [Platus 1967][research_platus_1967] on roll resonance and [Ammons 1973][research_ammons_1973] on low-level wind measurement error are the shape of that contribution, with the high-altitude wind response of a missile in [Maas 1962][research_maas_1962], the criterion problem in [Bidwell 1967][research_bidwell_1967], and the Atlas programme's own flight-wind restriction procedure in [Mattson 1965][research_mattson_1965]. **The reentry body has a dispersion budget of its own and it was treated as a design variable**, which is exactly what [Johannessen 1964][research_johannessen_1964] does for the Mark 12 body, while the aerodynamic behaviour that produces it is [Murphy 1961][research_murphy_1961] on the pitching and yawing motion of nose cone configurations and [Sharenson 1966][research_sharenson_1966] on high-altitude drag effects. An article organised around cutoff accuracy will naturally attribute the whole error to cutoff, and that is wrong.
 
 **The orbital margin argument assumes the propellant is there to spend.** The twenty-one percent burnout mass trade holds at fixed propellant load, and it is an idealisation in which the vehicle flies the same ascent and simply stops later. A real orbital mission flies a different trajectory with different losses, so the true trade is somewhat worse than computed. The seven percent agreement with the SCORE mass is therefore partly fortuitous and should be read as an order-of-magnitude confirmation rather than as a validation.
 
@@ -954,6 +974,8 @@ The asymmetry the [previous article][related_post_a308_convair_x11] identified h
 
 The satellite side has the opposite shape. Project SCORE was run under extreme secrecy by a different service, and the accessible technical record for the payload is thin compared with the vehicle that carried it. What survives well is the surrounding orbital mechanics and communications literature, which was being written at exactly that moment for reasons that had nothing to do with SCORE.
 
+**The third body of literature this article draws on was not sought and turned out to be the largest.** The geodesy section exists because the equation pass established that the flattening of the Earth exceeds the miss budget by a factor of 5.8, and the harvest assembled for a missile article contained nothing about datums, geoids, or zonal harmonics. A sweep aimed at them returned an entire discipline, openly published in the astronomical and geodetic journals, running continuously from the early 1950s to the mid 1970s and overlapping the Atlas force's whole operational life. **The weapon literature is classified, fragmentary, and archived under project numbers. The literature the weapon depended on is none of those things**, because determining the shape of the Earth was not a secret and could not usefully have been made one. That asymmetry is the most striking source-base feature of this article and it was found by following a relation rather than a topic.
+
 ## Epistemic State
 
 **Historical fact, well supported.** Ten Atlas B vehicles flew from Cape Canaveral between 19 July 1958 and 4 February 1959 from Launch Complexes 11, 13, and 14, with six recorded successes. The Atlas B was the first Atlas with an operational sustainer, a separable booster section on explosive bolts, an airborne guidance computer, an Azusa transponder, and a detachable nose cone. Missile 12B flew 6,325 statute miles in late November 1958. Missile 10B placed the Project SCORE payload in orbit on 18 December 1958, which broadcast a recorded message from President Eisenhower, operated about twelve days on batteries, and reentered on 21 January 1959. SCORE was run by the Army and the Advanced Research Projects Agency with the payload developed at Fort Monmouth. The Atlas A through D used radio guidance and the E and F used all-inertial guidance. Azusa was a radio interferometer at Cape Canaveral developed from work at Consolidated Vultee.
@@ -965,6 +987,10 @@ The satellite side has the opposite shape. Project SCORE was run under extreme s
 **Engineering analysis, derived here and independently checkable.** The range law and its inversion for 10,000 kilometres. The range-to-velocity sensitivity of 6.04 kilometres per metre per second and its dimensionless form of 4.34. The velocity budget of 0.613 metres per second and the fractional requirement of one part in 11,728. The optimum flight path angle of 22.52 degrees, the vanishing first derivative of range with respect to it, the second derivative, and the resulting table of range losses. The cutoff timing requirement of 8.6 milliseconds. The tail-off impulse estimate of 1.07 metres per second and its ratio of 1.8 to the budget. The vernier acceleration, trim time, and authority ratio of 43.4. The grazing circular speed, the ten percent orbital margin, and the escape comparison. The mass ratio of 1.2645, the 4,266 kilogramme allowance, and the 20.9 percent trade. The comparison with the SCORE mass at 7.2 percent. The SCORE orbital elements, period, perigee and apogee speeds, and specific energies. The apogee sensitivity of 4.24 kilometres per metre per second. The ballistic semi-major axis, eccentricity, flight time of 34.3 minutes, and apogee altitude. The Earth rotation speed and the azimuth bound. The lift-off thrust-to-weight ratio, mass flows, mass at booster cutoff, the acceleration discontinuity of 4.37, the two-phase ideal velocity of 8,590 metres per second, and the sustainer burn time. The separation clearance comparison. The propellant residual sensitivity. The accelerometer bias budget of 220 micro-g. The interferometer fringe table and the Doppler resolution. The Allen and Eggers peak deceleration, altitude, and speed, the ballistic coefficient, and the stagnation heating. The unit conversions on the full-range flight and their consistency with the sensitivity relation. The SCORE revolution counts, duty cycle, Nyquist sample count, link budget, area-to-mass ratio, and energy loss per revolution. The binomial standard errors and the pooled z statistic of 0.42. The inverse-square dependence of the angle-to-speed forgiveness ratio and its table, showing 191 at a twentieth of a degree and 1.9 at half a degree. The variance-share relation, the improvement relation, and its ceiling of 14.0 percent at infinite cost. The first-order azimuth relation for the Earth rotation credit, giving 2,466 kilometres due east against an exact 3,195, a shortfall of 23 percent that measures where the linear sensitivity stops being valid. The oblateness perturbation of 1.62 parts in a thousand and the resulting impact displacement of order 34 kilometres, or nine times the miss budget. The identity that the factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio of 4.38. The static tilt allowance of 46 arcseconds, the gyroscope drift allowance of 0.329 degrees per hour, and the factor of about three separating it from period instruments. The inversion of the plasma frequency relation and the square-law ratio of 77.4. The quadrature relation setting the range instrument at 3.1 times better than the article it certifies, or 0.196 metres per second. The linear scaling of the speed budget with the assumed circular error probable across one, two, and five nautical miles. The boil-off holding time of five days.
 
 **Inference, argued but not established.** That the verniers exist primarily for velocity trim rather than for roll control, which the arithmetic supports strongly but which no document found here states. That radio guidance was the correct architecture for the accuracy requirement rather than merely the available one, which rests on the accelerometer bias and gyroscope drift comparisons. **The strength of that inference was reduced by the equation pass rather than increased**, since deriving the drift requirement put period instruments within a factor of about three of it, so the honest reading is that all-inertial guidance was close in 1958 rather than out of reach, and the ground link bought margin rather than capability. That the reported weakness of the SCORE broadcast refers to public reception rather than to the tracking link. That the Atlas B established the staging event and full range but not accuracy. That the designation question has at least two mechanisms and that this vehicle confirms the limit of the first without resolving anything.
+
+**Reported from the geodetic literature rather than derived here.** That the classical pre-satellite method determined the geoid from surface gravity and connected astronomical to geodetic position through the deflection of the vertical, leaving continental datums internally consistent and mutually offset. That satellite orbit perturbations determine the zonal harmonics of the potential directly, that Doppler tracking was required for the non-zonal terms, and that a world geodetic datum tying the continents together was published in the mid 1970s. **The claim that the target coordinates were, for much of the Atlas force's operational life, less well known than the guidance system's own contribution to the error budget is an inference from that chronology and is not established by any document found here.** It is stated as an argument and the sixteen-year interval it rests on is a matter of publication dates rather than of when the underlying knowledge became available to a targeting organisation, which may well have been earlier and classified.
+
+**A caution about the specific impulse.** The 309 second sustainer figure carries most of this article's orbital arithmetic, including the 20.9 percent mass trade and the comparison with the SCORE mass. As the sustainer discussion notes, a specific impulse quoted to three figures for a period engine is a trajectory reconstruction rather than a direct measurement, so the precision of the downstream results is lower than their presentation suggests.
 
 **Written from current knowledge.** This article is dated 2025-10-18 and draws on literature published after that date where the modern discussion is the natural continuation of the period problem, in line with the series convention.
 
@@ -998,30 +1024,48 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 ### Research
 
 [research_adkins_1970]: https://doi.org/10.2514/3.30032
+[research_aein_1964]: https://doi.org/10.1109/tset.1964.4337583
 [research_albertson_2012]: https://ntrs.nasa.gov/citations/20120014503
 [research_aldrich_krabill_1972]: https://doi.org/10.2514/6.1972-838
 [research_amacker_graff_1965]: https://doi.org/10.2514/6.1965-1247
 [research_ammons_1973]: https://doi.org/10.2514/6.1973-296
+[research_anderle_1966]: https://doi.org/10.21236/ad0631212
 [research_arthur_kemp_2025]: https://doi.org/10.1080/08929882.2025.2557088
 [research_aslanov_sizov_2020]: https://doi.org/10.1016/j.actaastro.2019.11.027
+[research_bahm_hoffman_1971]: https://ntrs.nasa.gov/citations/19720030101
+[research_batrakov_1963]: https://doi.org/10.1007/978-3-642-48130-7_8
 [research_beardslee_1964]: https://doi.org/10.21236/ad0616993
 [research_becker_1973]: https://doi.org/10.2514/6.1973-835
+[research_belsterling_1965]: https://doi.org/10.2514/3.28248
 [research_berns_1968]: https://ntrs.nasa.gov/citations/19680027035
+[research_bhattacharji_1970]: https://doi.org/10.1007/bf02585745
+[research_bidwell_1967]: https://doi.org/10.2514/3.29071
 [research_binion_1962]: https://doi.org/10.21236/ad0290303
 [research_binion_w_1964]: https://doi.org/10.21236/ad0439948
 [research_blaszak_fahrenholz_1960]: https://doi.org/10.21236/ad0321352
 [research_blitzer_1959]: https://doi.org/10.1126/science.129.3345.329
+[research_blum_1966]: https://doi.org/10.2514/6.1966-300
 [research_bohne_1964]: https://doi.org/10.2514/6.1964-1029
+[research_bonney_1960]: https://doi.org/10.1109/iret-mil.1960.5008294
 [research_boynton_1967]: https://ntrs.nasa.gov/citations/19670008816
 [research_britting_1971]: https://doi.org/10.2514/6.1971-901
 [research_brouwer_hori_1961]: https://doi.org/10.1086/108399
 [research_broxmeyer_1962]: https://doi.org/10.1016/b978-0-12-395586-9.50018-0
-[research_buell_1964]: https://doi.org/10.2514/6.1964-1017
+[research_brusch_1977]: https://ntrs.nasa.gov/citations/19770062120
+[research_buell_1964_2]: https://doi.org/10.2514/6.1964-1017
 [research_burghes_1974]: https://doi.org/10.1080/0020739740050101
+[research_byerly_1957]: https://doi.org/10.1017/s0373463300016945
 [research_callaway_1963]: https://doi.org/10.21236/ad0405121
 [research_cavacece_2024]: https://doi.org/10.1515/jmdai-2023-0005
 [research_cho_2021_2]: https://doi.org/10.1007/s42405-020-00348-6
+[research_clement_1965]: https://ntrs.nasa.gov/citations/19650022844
+[research_coates_horton_1970]: https://doi.org/10.21236/ad0871583
+[research_comfort_1973]: https://doi.org/10.1029/jb078i029p06845
+[research_cook_1965]: https://doi.org/10.1111/j.1365-246x.1965.tb03061.x
 [research_cooper_1961]: https://doi.org/10.2514/8.5546
+[research_coxe_tatom_1962]: https://doi.org/10.1007/978-1-4757-0531-7_29
+[research_crawley_maunder_1966]: https://doi.org/10.1007/978-3-662-29364-5_60
+[research_dafler_1962]: https://doi.org/10.1119/1.1941784
 [research_dai_2019]: https://doi.org/10.1088/1757-899x/677/4/042084
 [research_daly_1967]: https://doi.org/10.21236/ad0731418
 [research_denham_1965]: https://doi.org/10.21236/ad0468532
@@ -1034,111 +1078,191 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_dolton_reed_1966]: https://doi.org/10.2514/6.1966-424
 [research_dudush_snovydovych_2026]: https://doi.org/10.62524/msj.2025.3.4.20
 [research_duke_1960]: https://doi.org/10.5594/j00037
+[research_edelbaum_pines_1969]: https://doi.org/10.2514/6.1969-904
 [research_ehrsam_1978]: https://ntrs.nasa.gov/citations/19790016565
+[research_eitschberger_grafarend_1974]: https://doi.org/10.1007/bf02522149
 [research_ermakov_2025]: https://doi.org/10.1007/s42401-025-00348-y
 [research_feldman_1953]: https://doi.org/10.2514/8.4622
+[research_felsentreger_victor_1966]: https://ntrs.nasa.gov/citations/19670009425
+[research_fischer_1961]: https://doi.org/10.1007/bf02854151
+[research_flack_1969]: https://doi.org/10.1016/b978-0-08-013402-4.50050-1
+[research_foster_1960]: https://doi.org/10.21236/ad0261738
+[research_foster_1961]: https://doi.org/10.21236/ad0272377
 [research_frankenthal_1964]: https://doi.org/10.21236/ad0610257
 [research_frazier_1967]: https://ntrs.nasa.gov/citations/19670050873
+[research_fried_richardson_1956]: https://doi.org/10.1063/1.1722521
+[research_fubara_mourad_1974]: https://doi.org/10.1139/tcs-1974-0097
 [research_fuhs_1966]: https://doi.org/10.2514/6.1966-1633
 [research_fye_1966]: https://doi.org/10.21236/ada522410
 [research_geckler_1960]: https://doi.org/10.2514/8.5145
+[research_george_1974]: https://doi.org/10.4271/740873
 [research_gerald_runyan_1962]: https://doi.org/10.4271/620491
+[research_gerharz_1963]: https://doi.org/10.1080/00207216308937523
 [research_gerlach_1965]: https://doi.org/10.1016/b978-0-08-011074-5.50009-9
 [research_geyling_1964]: https://doi.org/10.2514/3.2518
 [research_golden_1969]: https://doi.org/10.21236/ad0858522
 [research_gonzalez_denny_1970]: https://doi.org/10.21236/ad0878792
 [research_gray_alexander_1965]: https://doi.org/10.2514/3.28125
+[research_greenfield_1960]: https://doi.org/10.1007/978-1-4684-3105-6_15
 [research_gretz_1962]: https://doi.org/10.2514/8.6408
 [research_griffith_byrd_1963]: https://doi.org/10.2514/6.1963-330
 [research_griner_1967]: https://doi.org/10.2514/6.1967-1322
 [research_gruenberg_johnson_1964]: https://doi.org/10.1007/978-3-7091-4687-3_22
+[research_gryglaszewski_1963]: https://doi.org/10.1109/tim.1963.4313348
+[research_guier_1963]: https://doi.org/10.1038/200124a0
+[research_guier_1965]: https://doi.org/10.21236/ad0464349
 [research_hagan_1960]: https://doi.org/10.1109/tcom.1960.1097633
+[research_hallett_1960]: https://doi.org/10.1007/978-1-4684-3099-8_3
 [research_handelsman_1959]: https://doi.org/10.1109/tcom.1959.1097536
+[research_harding_lawson_1968]: https://doi.org/10.2514/3.4494
 [research_hauser_1972]: https://ntrs.nasa.gov/citations/19730010894
 [research_haviland_1963]: https://doi.org/10.1016/b978-1-4831-9963-4.50008-7
 [research_heath_1965]: https://ntrs.nasa.gov/citations/19650017798
 [research_heath_1967]: https://ntrs.nasa.gov/citations/19670020099
+[research_heitz_1971]: https://doi.org/10.1007/bf02522008
+[research_hirvonen_1954]: https://doi.org/10.1111/j.2153-3490.1954.tb01095.x
 [research_hix_1968]: https://doi.org/10.21236/ad0393899
+[research_hoff_1967]: https://doi.org/10.2172/4228957
+[research_horvath_blum_1966]: https://doi.org/10.1016/b978-1-4832-2716-0.50026-8
+[research_hudson_1971]: https://doi.org/10.2514/6.1971-845
+[research_humphrey_1961]: https://doi.org/10.1007/978-1-4757-0534-8_29
 [research_hwang_2019]: https://doi.org/10.21914/anziamj.v60i0.14067
 [research_ingber_1965]: https://ntrs.nasa.gov/citations/19660010157
 [research_ingram_2026]: https://doi.org/10.59332/jbis-079-07-0262
+[research_izotov_1959]: https://doi.org/10.1007/bf02526703
+[research_jacobs_1964]: https://doi.org/10.1063/1.1746806
 [research_jakes_1961]: https://doi.org/10.1038/190709a0
+[research_jaroudi_mcdonald_1964]: https://doi.org/10.2514/3.2730
 [research_jastrow_pearse_1957]: https://doi.org/10.1029/jz062i003p00413
 [research_jo_2021]: https://doi.org/10.5139/jksas.2021.49.2.155
 [research_jo_ahn_2021]: https://doi.org/10.1016/j.ast.2020.106431
 [research_jo_ahn_2022]: https://doi.org/10.1016/j.ast.2022.107703
+[research_johannessen_1964]: https://doi.org/10.21236/ad0353247
 [research_johnson_mosely_1964]: https://doi.org/10.21236/ad0350496
+[research_johnston_1966]: https://doi.org/10.2514/6.1966-63
+[research_jordan_1972_2]: https://doi.org/10.1029/jb077i020p03660
 [research_juarez_1961]: https://doi.org/10.21236/ad0607874
+[research_kaplan_1961]: https://doi.org/10.2514/8.5635
 [research_karrenberg_lueders_1963]: https://doi.org/10.2514/6.1963-397
 [research_kelly_1959]: https://doi.org/10.2514/8.4794
 [research_king_hele_1958]: https://doi.org/10.1098/rspa.1958.0169
 [research_king_hele_1962]: https://doi.org/10.1007/978-3-7091-5470-0_5
+[research_king_hele_1963]: https://doi.org/10.1038/197785a0
+[research_king_hele_1964]: https://doi.org/10.1038/202996a0
+[research_king_hele_1965]: https://doi.org/10.1038/207575a0
+[research_king_hele_1965_2]: https://doi.org/10.1016/0032-0633(65)90056-5
+[research_king_hele_1966]: https://doi.org/10.1038/212271b0
+[research_king_hele_1966_2]: https://doi.org/10.1016/0032-0633(66)90058-4
+[research_king_hele_cook_1965]: https://doi.org/10.1111/j.1365-246x.1965.tb03047.x
+[research_kingsley_1967]: https://doi.org/10.1016/b978-1-4831-9967-2.50010-3
+[research_kouba_mason_1962]: https://doi.org/10.2514/8.6197
+[research_kozai_1964]: https://ntrs.nasa.gov/citations/19650010255
+[research_kozai_1964_2]: https://doi.org/10.1093/pasj/16.4.263
 [research_kravitsky_2007]: https://doi.org/10.21236/ada471939
 [research_kumar_2023]: https://doi.org/10.61653/joast.v74i4.2022.45
 [research_lall_1965]: https://ntrs.nasa.gov/citations/19660001031
 [research_lange_parkinson_1965]: https://doi.org/10.2514/6.1965-691
 [research_larson_1965]: https://doi.org/10.2514/6.1965-306
+[research_liu_1974]: https://doi.org/10.2514/6.1974-166
+[research_lortie_1966]: https://doi.org/10.21236/ad0630781
 [research_lowrey_1962]: https://doi.org/10.4271/620368
 [research_lubowe_1965]: https://doi.org/10.2514/3.28135
+[research_lubowe_1969]: https://doi.org/10.2514/3.5313
+[research_maas_1962]: https://doi.org/10.21236/ad0408258
 [research_macpherson_1963]: https://doi.org/10.21236/ad0403872
 [research_magrini_1967]: https://ntrs.nasa.gov/citations/19670027973
+[research_maresca_1960]: https://doi.org/10.21236/ad0341205
 [research_martin_1973]: https://doi.org/10.2514/3.50460
+[research_mather_1971]: https://doi.org/10.1111/j.1365-246x.1971.tb03583.x
+[research_mather_fryer_1970]: https://doi.org/10.1080/00050326.1970.10440195
+[research_matson_1963]: https://doi.org/10.21236/ad0438031
+[research_mattson_1965]: https://ntrs.nasa.gov/citations/19660010223
 [research_maxwell_dorfman_1963]: https://doi.org/10.2514/6.1963-155
 [research_mermagen_1964]: https://doi.org/10.21236/ad0444246
 [research_message_1960]: https://doi.org/10.1111/j.1365-246x.1960.tb01722.x
+[research_message_1960_2]: https://doi.org/10.1093/mnras/121.1.1
 [research_miao_2022]: https://doi.org/10.1109/taes.2021.3133310
 [research_miller_1967]: https://doi.org/10.2514/6.1967-44
+[research_morey_koshar_1961]: https://doi.org/10.1016/b978-0-12-395682-8.50010-8
+[research_moriarty_1966]: https://doi.org/10.21236/ad0633034
+[research_moritz_1966]: https://doi.org/10.21236/ad0653193
+[research_mottley_1960]: https://doi.org/10.1109/iret-mil.1960.5008220
+[research_murphy_1961]: https://doi.org/10.1016/0032-0633(61)90141-6
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19690071283
 [research_naca_1966]: https://ntrs.nasa.gov/citations/19660022936
 [research_naca_1967]: https://ntrs.nasa.gov/citations/19670031002
 [research_naca_1968]: https://ntrs.nasa.gov/citations/19680014866
 [research_naca_1968_2]: https://ntrs.nasa.gov/citations/19690000964
-[research_naca_1969]: https://ntrs.nasa.gov/citations/19690028458
+[research_naca_1969_2]: https://ntrs.nasa.gov/citations/19690028458
 [research_nash_1972]: https://doi.org/10.2514/6.1972-848
+[research_nein_head_1962]: https://doi.org/10.1007/978-1-4757-0531-7_30
+[research_nichols_1974]: https://doi.org/10.21236/ada002625
 [research_o_rourke_2010]: https://doi.org/10.21236/ada536934
 [research_ostner_1962]: https://doi.org/10.21236/ad0414825
 [research_pamadi_2016]: https://ntrs.nasa.gov/citations/20160010566
 [research_parkyn_1958]: https://doi.org/10.1038/182787b0
 [research_parkyn_1958_2]: https://doi.org/10.2307/3610466
 [research_peters_hall_1963]: https://doi.org/10.21236/ad0403115
+[research_pijoan_1970]: https://doi.org/10.2514/6.1970-1011
 [research_platt_hanner_1965]: https://doi.org/10.2172/1068247
 [research_platus_1967]: https://doi.org/10.21236/ad0810587
 [research_poehler_1961]: https://doi.org/10.1109/iret-set.1961.5008780
+[research_polk_1962]: https://doi.org/10.21236/ad0296952
+[research_powers_1960]: https://doi.org/10.1016/b978-0-12-395519-7.50008-2
 [research_punga_campbell_1962]: https://doi.org/10.2514/8.9711
 [research_rainey_1964]: https://doi.org/10.2514/6.1964-1016
 [research_randall_1970]: https://doi.org/10.2514/3.29945
+[research_rapp_1967]: https://doi.org/10.1029/jz072i002p00589
+[research_rapp_1973]: https://doi.org/10.1029/jb078i032p07589
+[research_rapp_1974]: https://ntrs.nasa.gov/citations/19760013482
+[research_remmer_1974]: https://doi.org/10.1007/bf02521923
 [research_richards_1960]: https://doi.org/10.21236/ad0419890
 [research_richards_1961]: https://doi.org/10.2514/8.5903
 [research_ringland_stubblefield_1965]: https://ntrs.nasa.gov/citations/19660013606
 [research_roberts_1960]: https://ntrs.nasa.gov/citations/19980232223
 [research_rockefeller_alfred_1960]: https://doi.org/10.21236/ada637368
+[research_rodean_1959]: https://doi.org/10.2514/8.4786
+[research_rowson_1962]: https://doi.org/10.1093/mnras/125.2.177
 [research_russell_1964]: https://doi.org/10.2514/6.1964-242
+[research_ryle_1952]: https://doi.org/10.1007/978-94-009-7752-5_12
 [research_rynaski_1967]: https://doi.org/10.2514/6.1967-592
 [research_sabaghzadeh_khansari_2022]: https://doi.org/10.5267/j.esm.2022.3.003
 [research_sarychev_1962]: https://doi.org/10.2514/8.6110
+[research_satterfield_akens_1958]: https://doi.org/10.21236/ada434326
 [research_saunders_1965]: https://doi.org/10.21236/ad0620194
 [research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
+[research_schlegel_1966]: https://doi.org/10.2514/3.3857
 [research_schurmann_1957]: https://doi.org/10.2514/8.12965
 [research_schweppe_1964]: https://doi.org/10.21236/ad0609524
 [research_scott_1963]: https://doi.org/10.21236/ad0410255
+[research_sharenson_1966]: https://doi.org/10.21236/ad0634390
 [research_shelton_1966]: https://ntrs.nasa.gov/citations/19660007993
 [research_siry_1960]: https://doi.org/10.1016/b978-1-4832-2736-8.50006-8
 [research_slifka_1960]: https://doi.org/10.1109/jrproc.1960.287405
+[research_smalley_1961]: https://doi.org/10.21236/ad0264245
 [research_stancil_1963]: https://doi.org/10.2514/6.1963-223
 [research_stephens_1965]: https://doi.org/10.2514/6.1965-1114
 [research_stetson_1964]: https://doi.org/10.2514/6.1964-433
+[research_strauss_1964]: https://doi.org/10.21236/ad0609492
 [research_su_2026]: https://doi.org/10.1080/23307706.2025.2556335
+[research_sundstrom_brown_1969]: https://www.osti.gov/biblio/4721501
+[research_taylor_price_1974]: https://doi.org/10.21236/ad0783098
 [research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
 [research_townsend_1966]: https://doi.org/10.21236/ad0633628
 [research_trushlyakov_2024]: https://doi.org/10.1016/j.cja.2023.09.018
+[research_tsuboi_hayatu_1954]: https://doi.org/10.4294/jpe1952.2.45
+[research_veis_1968]: https://doi.org/10.1007/bf02525700
 [research_vickers_dyer_1971]: https://doi.org/10.1029/rs006i012p01021
+[research_wareham_1972]: https://doi.org/10.21236/ad0754070
 [research_westerman_1963]: https://doi.org/10.1086/108986
+[research_whelan_1968]: https://doi.org/10.2514/6.1968-417
 [research_whitcombe_1961]: https://doi.org/10.21236/ad0259865
 [research_whitcombe_1961_2]: https://doi.org/10.21236/ad0266445
 [research_widnall_1974]: https://doi.org/10.2514/6.1974-867
 [research_wildhack_1958]: https://doi.org/10.1126/science.128.3319.309
 [research_wilkinson_1971]: https://doi.org/10.2514/3.30286
 [research_wilner_1960]: https://doi.org/10.1109/jrproc.1960.287484
+[research_wolf_1954]: https://doi.org/10.1007/bf02526780
 [research_wolfe_1966]: https://doi.org/10.21236/ad0486484
 [research_wood_1961]: https://doi.org/10.21236/ad0421632
 [research_wright_ruscus_1959]: https://doi.org/10.1109/iret-set.1959.5008660
