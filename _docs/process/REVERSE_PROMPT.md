@@ -8,118 +8,124 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-08-06
-**Task**: A307 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All eleven articles in the series remain in `_drafts/`.
+**Date**: 2026-08-07
+**Task**: A308, the Convair X-11, drafted, verified, and committed. **Not pushed**, per the rhythm.
+Three review passes remain.
 
 ---
 
-## Contemporary Coverage
+## First, the Outstanding A307 Item Is Closed
 
-A 64-query Crossref sweep returned 728 new records, taking contemporary references from 55 to **151, or
-45.1 percent of dated**. That sits at the top of the A301 through A306 range of 101 to 155.
-
-As in A305 and A306 the sweep was aimed at the threads the equation and primary passes opened rather
-than at the article's original topics, so the additions attach to the article's own derivations.
-
-**The strongest finding is that the article's central analytical move is now a named discipline.** The
-modern distinction between structural and practical identifiability is exactly the X-10's difficulty.
-Its drift rate was structurally identifiable and practically was not, and the window sweep performed in
-the equation pass is an optimal-experiment-design calculation with one free variable. None of that
-vocabulary existed in 1953. **The programme is therefore not open to the charge that it ignored a known
-method, only to the observation that the method it needed had not been invented**, which is a fairer
-verdict than the article previously offered and one it can now support.
-
-Seven subsections were added. Identifiability. Alignment and calibration. The landing gear, which is
-where the fleet was actually lost and which turns out to carry a larger current literature than the
-guidance problem does. Aerothermal analysis. Validation and the model-to-flight gap. The exposure
-argument, which has returned in the hypersonic glide vehicle literature, where the whole effort to
-predict a manoeuvring trajectory exists because manoeuvre destroys the closed-form prediction the
-article used to compute 32.2 minutes. And command links and latency.
-
-**The best single inversion is in the gravity section.** The deflection of the vertical consumed 77
-percent of the Navaho's accuracy requirement and could not be surveyed over hostile territory. A modern
-vehicle matches the gravity field it measures against a stored map and fixes its position from the
-residual. The term that defeated the weapon is now the observation that saves it.
+The publication review reported that GitHub had created no CI run for the A307 push. Two runs for
+`02127ae` have since appeared and **both completed successfully**. The delay was on GitHub's side, as
+suspected. The site is deployed, the root returns 200, and A307 returns 404 because it is not
+published, which is correct.
 
 ---
 
-## Checks
+## What the X-11 Is
 
-**Two defects found and fixed.** NACA appeared in prose with no spell-out anywhere in the article, which
-the acronym trace caught. The Programme Origin section carried a paragraph merging the German
-inheritance, the Snark comparison, and the three flying articles, which was split.
+**The Atlas A.** It is the first flying article of the programme whose ballistic timeline the previous
+article computed as the reason the Navaho was cancelled. The X-10 and the X-11 are separated by one
+designation and four weeks. The X-11 first flew on 11 June 1957 and the Navaho cancellation message is
+dated 12 July 1957.
 
-**Diction.** `vehicle` measured 6.04 per thousand body words. Most uses are legitimate, because the word
-carries a distinction the aircraft-category argument depends on, but sixteen cases where it repeated
-inside a sentence or a short span were rotated across the X-10, the airframe, the article, the machine,
-the aeroplane, and the missile, bringing it to **5.00**. `flight` measures 5.23 and is reported as the
-article's subject noun rather than remediated. No other content-independent word reaches 5.0.
+**The keystone is structural mass fraction, and the vehicle cannot stand up without internal pressure.**
+The skin is 301 extra-full-hard stainless at 0.014 to 0.037 inches, a radius-to-thickness ratio of 1622
+to 4286, which is **five to thirteen times thinner in proportion than an aluminium drink can**. It needs
+about five pounds per square inch of nitrogen when unfuelled or it folds.
 
-**Acronyms otherwise clean.** CEP appears only in mathematical notation and circular error probable is
-spelled out at its first prose use. Every other flagged token is a model designation or programme brand
-name, which the convention exempts.
+---
 
-**Structural conformance.** All twelve genre sections present and in order, with the three
-series-standard extras and one article-specific section on the aircraft-category question. The Source
-Base precedes Epistemic State. Zero duplicate headings.
+## The Central Result, Which Closes With A307
+
+A structural mass fraction of 4.58 percent gives a mass ratio of 21.85 and an ideal velocity of 8530
+metres per second. Subtracting the 7193 metres per second that the previous article derived for a ten
+thousand kilometre ballistic trajectory gives gravity and drag losses of 1337, adopted as a calibration.
+Scaling the structure and carrying it back through both relations gives
+
+| Structure | Range |
+|---|---|
+| as built | 9,999 km |
+| 1.5 times | 5,676 km |
+| 2 times | 3,941 km |
+| 3 times | 2,346 km |
+
+**Making the structure half as efficient costs sixty-one percent of the range**, which turns an
+intercontinental weapon into an intermediate-range one. That is the whole argument for the balloon tank.
+
+---
+
+## The Series Contribution, Which Neither Article Could Make Alone
+
+The X-10's keystone was a drift rate. It accumulates, and twenty-eight minutes of flight could not
+measure it. The X-11's keystone is a structural load. It is applied in full within the first two
+minutes, so a flight reaching only 120 kilometres of apogee and a fifth of the intercontinental burnout
+speed still applies every load the mission will ever apply.
+
+**A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.**
+The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen
+percent of its, and the difference is a property of the quantity rather than of either company.
+
+---
+
+## Other Results the Sources Do Not State
+
+The critical bending moment of a pressure-stabilised cylinder is $M = \pi p r^{3} / 2$ and is
+**independent of skin thickness**, which is the mathematical form of the claim that the pressure is
+doing the work. The tensile allowable exceeds the knocked-down compressive allowable by a factor of 67.
+The light gauge cannot exist at full pressure, which demonstrates the thickness taper rather than
+contradicting it. The common bulkhead saves about four percent of the empty vehicle. A
+constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height,
+independent of the acceleration. And the range sensitivity to burnout velocity is 4.34, so an
+eight-hundred-metre accuracy requires cutting the engines to **0.13 metres per second out of 7193**,
+which is why this weapon needs a clock where the previous one needed a navigator.
+
+---
+
+## Source Base, a Controlled Contrast
+
+The same Crossref route into the defence archive that returns nothing whatever for the Navaho project
+number MX-770 returns, for the Atlas, Flight Test Working Group reports for individual missiles, five
+volumes of a Difficulties Review of the booster and its ground support, propellant-loading system
+design, and engine system-test data. **Same archive, same route, same query form, and the difference is
+that one programme was cancelled in 1957 and the other flew for sixty years.**
+
+---
+
+## An Error I Made and Corrected
+
+The range-to-velocity sensitivity was first written as approximately 2.4, with a derivation that was
+malformed as displayed. **The correct value is 4.34**, confirmed by closed form and by numerical
+differentiation, and the dependent figures changed from 24 to 43 kilometres and from 0.24 to 0.13
+metres per second.
+
+The cause is worth recording plainly. That expansion was written without computing the values first,
+which is exactly what the compute-before-writing rule forbids, and the defect appeared the moment the
+rule was skipped. The rule has held for three articles when followed and failed immediately when not.
 
 ---
 
 ## Verification
 
-367 references with zero undefined, zero orphaned, and zero duplicate URLs. All 66 fixed identifiers at
-200, one of them after a transient read timeout that resolved on retry. **All 276 DOIs Crossref-resolved
-on title at the 0.85 threshold with zero flagged, and this article contains no hand-entered identifier
-anywhere.** All 102 worked values re-derived and reproducing. `_verify.py` at the 0-error 21-warning
+All 78 worked values re-derived independently, with no corrections beyond the one above. 160 references
+with zero undefined, zero orphaned, and zero duplicate URLs. `_verify.py` at the 0-error 21-warning
 corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose
-parentheticals, doubled words, display-math seam defects, lone dollar-delimited lines, or link texts out
-of sync. Isolated build succeeding with 122 rendered display blocks, Part 11 navigation, both tables, the
-debug tag, no unresolved reference links and no surviving Liquid tags.
-
----
-
-## A Generator Defect Worth Recording
-
-The master table held **105 duplicate URLs**, because a DOI can arrive through more than one harvest
-file. The DTIC prefix filter and the period date filter return overlapping records, and the two modern
-sweeps overlap as well. The cited set happened to be clean, which was luck rather than method. The
-generator now deduplicates by URL.
-
-The consequence is the part worth keeping. **Disambiguation suffixes are not stable across
-regenerations.** Deduplicating shifted two of them onto entirely different papers, and I caught it only
-because I dumped titles before writing rather than trusting the display strings. An anchor must be
-verified against its title, not against its display.
-
----
-
-## Final State
-
-**1329 lines, 122 display equations, 367 references, 18,323 words.**
-
-**All three densities are inside band and nothing was trimmed at any point.** 1329 against 1300 to 1600,
-122 against 90 to 130, and 367 against 250 to 380. This is the second article in the series to finish
-that way, after A306, and it was again produced by approaching the bands from below and letting the later
-passes fill rather than by restraint.
-
-The draft finished at 943 lines, 84 equations, and 213 references, which was further below band than
-A306's draft was, and the three passes closed all of it. The equation pass took equations into band, the
-primary pass took references into band, and the contemporary sweep took lines into band.
-
-Primary sources are 181 of 357 external, or 50.7 percent, having peaked at 69.3 percent before the
-contemporary additions grew the denominator. The absolute count is unchanged.
+parentheticals, doubled words, duplicate headings, display-math seam defects, or lone dollar-delimited
+lines. Isolated build succeeding with 54 rendered display blocks against 54 in source, Part 12
+navigation, both tables, no unresolved reference links and no surviving Liquid tags.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
-the push is safe. **The publication-order dependency is eleven deep**, A307 back to A297.
+**678 lines, 54 display equations, 160 references, 9,301 words.**
 
-Eleven articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, eleven articles deep and raised twelve times. It fixes 72 URLs permanently at publication
-and stays reversible with one edit until the first article publishes.
+All three densities are under band, which is the intended approach direction, but **this is further
+below than A307's draft was** at 943, 84, and 213. The three passes have more to close here than they
+did there, and I am flagging it rather than padding.
 
-A308 is the Convair X-11, which with the X-12 is a pair of Atlas test vehicles, and the series will meet
-the ballistic competitor that killed the Navaho as a subject in its own right two articles after having
-computed why it won.
+The harvest is retained for A309, since the X-12 is the Atlas B and shares most of the record.
+
+**Committed, not pushed.** The publication-order dependency is twelve deep. **Categories remain
+undecided** at `aerospace history engineering`, twelve articles deep and raised thirteen times.

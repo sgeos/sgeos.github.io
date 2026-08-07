@@ -17,6 +17,79 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Convair X-11 A308 2025-10-17
+
+`x_planes_convair_x11.markdown`, A308, editorial date 2025-10-17, series `x_planes` index 12 of 72.
+
+678 lines, 54 display equations, 160 reference definitions, 9,301 words after the draft pass. All
+three densities are under band, at 678 against a 1300 floor, 54 against 90, and 160 against 250.
+Reported rather than padded, but **this is further below band than A307's draft was** at 943, 84, and
+213, so the three review passes have more to close here than they did there.
+
+**The X-11 is the Atlas A**, the first flying article of the programme whose ballistic timeline the
+A307 article computed as the reason the Navaho was cancelled. The two vehicles are separated by one
+designation and four weeks, and the X-11 first flew on 11 June 1957 against a cancellation message
+dated 12 July.
+
+**Keystone identified as structural mass fraction**, and the vehicle cannot stand up without internal
+pressure. Skin is 301 extra-full-hard stainless at 0.014 to 0.037 inches, giving a radius-to-thickness
+ratio of 1622 to 4286, which is five to thirteen times thinner in proportion than an aluminium drink
+can. The vehicle requires about five pounds per square inch of nitrogen when unfuelled.
+
+**Central result derived and carried through to range.** The Atlas structural mass fraction of 4.58
+percent gives a mass ratio of 21.85 and an ideal velocity of 8530 metres per second. Subtracting the
+7193 metres per second that A307 established for a ten thousand kilometre ballistic trajectory gives
+gravity and drag losses of 1337 metres per second, which is adopted as a calibration. Scaling the
+structure and carrying it back through both relations gives ranges of 5676 kilometres at one and a
+half times the structural mass, 3941 at twice, and 2346 at three times. **Making the structure half as
+efficient costs sixty-one percent of the range**, which turns an intercontinental weapon into an
+intermediate-range one.
+
+**The series contribution is a contrast with A307 that neither article could make alone.** The X-10's
+keystone was a drift rate, which accumulates, and twenty-eight minutes of flight could not measure it.
+The X-11's keystone is a structural load, which is applied in full within the first two minutes, so a
+flight reaching only 120 kilometres of apogee and a fifth of the intercontinental burnout speed still
+applies every load the mission will ever apply. **A keystone that is exercised early can be validated
+cheaply and a keystone that accumulates cannot**, and the difference is a property of the quantity
+rather than of the programme.
+
+**Further results the sources do not state**: the critical bending moment of a pressure-stabilised
+cylinder is independent of skin thickness at $M = \pi p r^{3} / 2$, so five pounds per square inch
+holds the vehicle against an 8.3 kilonewton tip load; the tensile allowable exceeds the knocked-down
+compressive allowable by a factor of 67, which is where the mass saving comes from; the light gauge
+cannot exist at full pressure, which demonstrates the thickness taper rather than contradicting it;
+the common bulkhead saves about 227 kilogrammes or four percent of the empty vehicle; a
+constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height
+independent of the acceleration; and the range sensitivity to burnout velocity is 4.34, so an
+eight-hundred-metre accuracy requires cutting the engines to 0.13 metres per second out of 7193.
+
+**Source base finding, which is a controlled contrast with A307.** The same Crossref route into the
+defence archive that returns nothing for the Navaho project number MX-770 returns Flight Test Working
+Group reports for individual Atlas missiles, five volumes of a Difficulties Review of the Atlas booster
+and its ground support, propellant loading system design, and engine system-test data. Same archive,
+same route, same query form, and the difference is that one programme was cancelled in 1957 and the
+other flew for sixty years.
+
+**An error was made and corrected during the pass.** The range-to-velocity sensitivity was first
+written as approximately 2.4 with a malformed derivation, because that expansion was written without
+computing the value first. The correct value is 4.34, confirmed by closed form and by numerical
+differentiation, and the dependent figures changed from 24 to 43 kilometres and from 0.24 to 0.13
+metres per second. This is the defect the compute-before-writing rule exists to prevent and it recurred
+the moment the rule was skipped.
+
+**Verification**: all 78 worked values re-derived independently with no corrections beyond the one
+above. 160 references with zero undefined, zero orphaned, and zero duplicate URLs. `_verify.py` at the
+0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose
+semicolons, prose parentheticals, doubled words, duplicate headings, display-math seam defects, or lone
+dollar-delimited lines. Isolated build succeeding with 54 rendered display blocks against 54 in source,
+Part 12 navigation, both tables, no unresolved reference links and no surviving Liquid tags.
+
+**A generator defect was fixed before it could ship.** The master-table builder deduplicates by URL from
+the outset for this article, carrying forward the A307 repair, and the manual author-display corrections
+for the five Difficulties Review volumes live in the normaliser so they survive regeneration.
+
+Held in `_drafts/` pending the equation-density, reference-density, and publication review passes.
+
 ## X-Planes North American X-10 A307 2025-10-16
 
 `x_planes_north_american_x10.markdown`, A307, editorial date 2025-10-16, series `x_planes` index 11 of 72.
