@@ -15,7 +15,7 @@ series_index: 12
 
 The [Convair X-11][ref_x11] could not stand up. Left on its own with the tanks empty and unpressurised it would fold under its own weight, so it was kept inflated with nitrogen at five pounds per square inch from the moment it left the factory until the moment it was destroyed. This article is the twelfth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10].
 
-It is also the vehicle the previous article was about without naming. The [X-10][related_post_a307_north_american_x10] was the testbed for the Navaho, an intercontinental cruise missile that was cancelled in July 1957 because a ballistic weapon of the same range arrives in about thirty-two minutes where an airbreathing one is exposed for a hundred and seventy-two. **The X-11 is that ballistic weapon.** It is the Atlas A, the first flying article of the programme that killed the Navaho, and it first flew on 11 June 1957, four weeks before the cancellation message. The standard inventory entry is [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the structural principle has its own literature under the name [balloon tank][ref_balloon_tank].
+It is also the vehicle the previous article was about without naming. The [X-10][related_post_a307_north_american_x10] was the testbed for the Navaho, an intercontinental cruise missile that was cancelled in July 1957 because a ballistic weapon of the same range arrives in about thirty-two minutes where an airbreathing one is exposed for a hundred and seventy-two. **The X-11 is that ballistic weapon.** It is the Atlas A, the first flying article of the programme that killed the Navaho, and it first flew on 11 June 1957, four weeks before the cancellation message. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation comes from [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the structural principle has its own literature under the name [balloon tank][ref_balloon_tank].
 
 ## The Research Question
 
@@ -68,6 +68,8 @@ gives
 
 **Making the structure half as efficient costs sixty-one percent of the range.** A vehicle at one and a half times the Atlas structural mass is not a worse intercontinental missile. It is an intermediate-range missile, which is a different weapon with a different basing problem and a different strategic meaning. That is the whole argument for the balloon tank, and it is why a programme accepted a vehicle that cannot be left standing without a nitrogen supply.
 
+The trajectory machinery behind those numbers is period material rather than a modern reconstruction. [Ostner 1962][research_ostner_1962] reduces ballistic trajectory computation to what a range could run and [Walters 1967][research_walters_1967], the closed-form treatments are [Punga and Campbell 1962][research_punga_campbell_1962] and [Bell 1965][research_bell_1965], [Stancil 1963][research_stancil_1963] optimises by steepest ascent, [Lubowe 1965][research_lubowe_1965] brings dynamic programming to optimum staging, and [Randall 1970][research_randall_1970] traces the effect of staging on the resulting trajectory, with performance bookkeeping in [Adams and Stoll 1969][research_adams_stoll_1969] and payload-optimal trajectories in [Elliott and Rau 1968][research_elliott_rau_1968].
+
 The caution the table requires is that the loss figure was calibrated so the baseline reproduces the previous article's ten thousand kilometres, so the first row is fixed by construction. The **sensitivity** is the result, not the absolute range, and the sensitivity is robust because it depends on the logarithm rather than on the calibration.
 
 ### The Keystone Is Exercised Early, Which Is Why This Testbed Worked
@@ -82,13 +84,13 @@ taking the mission as the 1932 second ballistic flight time derived in the previ
 
 $$\frac{t_{\text{flown}}}{t_{\text{mission}}} = \frac{1653}{10{,}333} = 0.16$$
 
-and the keystone was still not exercised, because a drift rate is not a load. **The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen percent of its**, which is the compact form of the whole comparison. A flight that goes no further than a hundred and twenty kilometres of apogee and a fifth of the intercontinental burnout speed still applies every structural load the mission will ever apply. **A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.** The X-11 flew a fraction of the weapon's mission and tested its keystone completely, and the X-10 flew a fraction of its weapon's mission and tested its keystone hardly at all, and the difference is not programme competence but the mathematical character of the quantity each was built to establish.
+and the keystone was still not exercised, because a drift rate is not a load. **The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen percent of its**, which is the compact form of the whole comparison. That the structurally sizing events cluster early is not an accident of this vehicle but a property of any rocket ascent, and the period literature establishing where they fall runs through [Wood 1961][research_wood_1961] on missile structural dynamics, [Gerald and Runyan 1962][research_gerald_runyan_1962] on the launch-vehicle case, and the ground-wind and ascent-load material cited below. **The general point that a test article need only span the sizing envelope rather than the mission is implicit in structural test practice** and is stated directly in [Abraham 1963][research_abraham_1963], which is about how to load a large article representatively rather than exhaustively. A flight that goes no further than a hundred and twenty kilometres of apogee and a fifth of the intercontinental burnout speed still applies every structural load the mission will ever apply. **A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.** The X-11 flew a fraction of the weapon's mission and tested its keystone completely, and the X-10 flew a fraction of its weapon's mission and tested its keystone hardly at all, and the difference is not programme competence but the mathematical character of the quantity each was built to establish.
 
 ## Programme Origin
 
 Convair had been working on long-range missiles since 1946 under project MX-774, a study that the Air Force cancelled in 1947 and that Convair partly continued on its own money. The work resumed as MX-1593 in 1951 and became the Atlas. The design authority throughout was Karel Bossart, whose contribution is the pressure-stabilised tank and whose reported inspiration was a cylindrical party balloon.
 
-The German inheritance that shaped the American ballistic effort generally is [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995], and the institutional history of the Air Force missile and space organisation is [Walker Bernstein and Lang 2005 Seize the High Ground][book_walker_powell_2005]. **The point worth holding is that Convair reached the pressure-stabilised structure from an aircraft background rather than from a rocket one.** A company that builds thin-skinned pressurised fuselages has the instinct that a pressure vessel can be a primary structure, and the monocoque analysis the field already had is [Hoff 1942][research_hoff_1942], [Wang and Ramamritham 1947][research_wang_ramamritham_1947], and [Kaufman 1958][research_kaufman_1958].
+The German inheritance that shaped the American ballistic effort generally occupies [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995], and [Walker Bernstein and Lang 2005 Seize the High Ground][book_walker_powell_2005] carries the institutional history of the Air Force missile and space organisation, with a period account of the ballistic missile division's own evolution in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960]. Contemporary surveys of the whole weapon class are [Botterill 1961][research_botterill_1961] and [Lenihan 1962][research_lenihan_1962], which are useful precisely because they record what was thought at the time rather than what turned out to be true. **The point worth holding is that Convair reached the pressure-stabilised structure from an aircraft background rather than from a rocket one.** A company that builds thin-skinned pressurised fuselages has the instinct that a pressure vessel can be a primary structure, and the monocoque analysis the field already had runs from [Hoff 1942][research_hoff_1942], [Wang and Ramamritham 1947][research_wang_ramamritham_1947], and [Kaufman 1958][research_kaufman_1958].
 
 The programme designation the record actually uses is **WS 107A-1**, and the missile family became SM-65 with variants lettered A through F. The X-11 designation was assigned to the Atlas A and the X-12 to the Atlas B, which the next article treats. **Whether either designation was ever used operationally is not clear from the accessible record**, and the Epistemic State says so. What is clear is that these are the fourth and fifth consecutive X numbers attached to vehicles that were never research aircraft, following the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10], and that the pattern the previous article identified, of a separate series being absorbed rather than of the X-series broadening on the merits, now has more cases than it had exceptions.
 
@@ -96,7 +98,7 @@ The programme designation the record actually uses is **WS 107A-1**, and the mis
 
 The Atlas carries three engines and jettisons two of them. All three ignite on the ground, and at booster cutoff the two outboard engines and their skirt are dropped while the sustainer continues on the same tanks. The arrangement exists because igniting a large liquid engine at altitude was not trusted in 1955, so the vehicle stages its **engines** without staging its **tanks**.
 
-That decision interacts directly with the keystone. A conventional two-stage vehicle discards a whole tank set, which is where most of the structural benefit of staging comes from. The Atlas discards only engines and skirt, so it gets a smaller staging benefit and has to make it up in structural efficiency. **The balloon tank and the one-and-a-half stage arrangement are the same decision seen twice**, since the vehicle that cannot drop its tanks must make its tanks weigh almost nothing. Staging optimisation of the period is [Schurmann 1957][research_schurmann_1957], [Parkyn 1958][research_parkyn_1958], and [Wertheimer 1957][research_wertheimer_1957], with the gravitational term in [Sellers 1948][research_sellers_1948].
+That decision interacts directly with the keystone. A conventional two-stage vehicle discards a whole tank set, which is where most of the structural benefit of staging comes from. The Atlas discards only engines and skirt, so it gets a smaller staging benefit and has to make it up in structural efficiency. **The balloon tank and the one-and-a-half stage arrangement are the same decision seen twice**, since the vehicle that cannot drop its tanks must make its tanks weigh almost nothing. [Schurmann 1957][research_schurmann_1957], [Parkyn 1958][research_parkyn_1958], and [Wertheimer 1957][research_wertheimer_1957] optimise staging for the period, with the gravitational term in [Sellers 1948][research_sellers_1948].
 
 ## Sizing From First Principles
 
@@ -148,7 +150,7 @@ For liquid oxygen at 1141 kilogrammes per cubic metre, ten metres of head, and s
 
 $$\Delta p = 1141 \times 6 \times 9.80665 \times 10 = 671{,}000 \, \text{Pa} = 97 \, \text{psi}$$
 
-which is **more than one and a half times the ullage pressure**. The bottom of the tank is the hardest-worked part of the vehicle and it is thickest there, and this is only possible at all because a membrane structure can be thinned where the load is small without any of the discontinuities that a stiffened structure would introduce. Membrane analysis of the period is [Bahiman and Thole 1965][research_bahiman_thole_1965], with monocoque ring analysis in [Hoff 1942][research_hoff_1942] and material data in [Manning and Price 1961][research_manning_price_1961], [Johnson and Kelsen 1969][research_johnson_kelsen_1969], and [Kuentz 1969][research_kuentz_1969].
+which is **more than one and a half times the ullage pressure**. The bottom of the tank is the hardest-worked part of the vehicle and it is thickest there, and this is only possible at all because a membrane structure can be thinned where the load is small without any of the discontinuities that a stiffened structure would introduce. Membrane analysis of the period runs through [Bahiman and Thole 1965][research_bahiman_thole_1965], with monocoque ring analysis in [Hoff 1942][research_hoff_1942] and material data in [Manning and Price 1961][research_manning_price_1961], [Johnson and Kelsen 1969][research_johnson_kelsen_1969], and [Kuentz 1969][research_kuentz_1969].
 
 ### The Common Bulkhead, Which Is the Other Half of the Idea
 
@@ -164,7 +166,7 @@ so the common bulkhead removes on the order of forty square metres of shell, whi
 
 $$m_{\text{saved}} = 43.8 \times 0.000648 \times 8000 = 227 \, \text{kg}$$
 
-or **about four percent of the whole empty vehicle from one design decision**. The cost is that the bulkhead now separates a cryogen at 90 kelvin from a hydrocarbon at ambient temperature, so it must insulate as well as carry load, and a leak across it mixes the propellants inside the vehicle. **The common bulkhead is the Atlas idea that outlived the balloon tank**, and it is standard on cryogenic stages today for exactly the reason computed here.
+or **about four percent of the whole empty vehicle from one design decision**. The cost is that the bulkhead now separates a cryogen at 90 kelvin from a hydrocarbon at ambient temperature, so it must insulate as well as carry load, and a leak across it mixes the propellants inside the vehicle. **The common bulkhead is the Atlas idea that outlived the balloon tank**, and it is standard on cryogenic stages today for exactly the reason computed here. [Weiss and Goodman 1960][research_weiss_goodman_1960] takes up the insulation problem it creates, with and [Walton and Simmons 1962][research_walton_simmons_1962], and the vehicle that took the arrangement furthest in the period, and which kept the balloon tank as well, is described in [Chitwood 1962][research_chitwood_1962]. Membrane analysis of the domes themselves appears in [Bahiman and Thole 1965][research_bahiman_thole_1965] and [Adam and King 1965][research_adam_king_1965].
 
 ### What Is Inside, and the Gas That Holds It All Up
 
@@ -187,6 +189,8 @@ Against all of that, the mass of nitrogen needed to hold five pounds per square 
 $$m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}$$
 
 **Fifty-three kilogrammes of gas holds up five thousand three hundred and ninety-five kilogrammes of steel**, a ratio of 103 to one. That single comparison is the article in one line.
+
+Getting the gas in and keeping it there is a discipline of its own, and the period worked it thoroughly because every large liquid vehicle needed it. [Kaplan 1961][research_kaplan_1961] selects a pressurisation system, autogenous systems that use the propellant's own vapour are [Morey and Koshar 1961][research_morey_koshar_1961] and [Coxe and Tatom 1962][research_coxe_tatom_1962], pressurised transfer and discharge of cryogens are [Humphrey 1961][research_humphrey_1961] and [Nein and Head 1962][research_nein_head_1962], and the dilution and conditioning problems that arise before launch are [Greenfield 1960][research_greenfield_1960], with test facility practice in [Mandell and White 1960][research_mandell_white_1960]. **On a conventional vehicle this apparatus feeds the engines. On this one it also holds the vehicle up**, which is why a pressurisation fault here is a structural event.
 
 A useful figure of merit for a tank is its mass per unit of volume contained,
 
@@ -222,7 +226,7 @@ and the Euler critical load with an effective length factor of two for a fixed b
 
 $$P_{cr} = \frac{\pi^{2} E I}{(K L)^{2}} = \frac{\pi^{2} \times 193 \times 10^{9} \times 7.20 \times 10^{-3}}{(2 \times 23.11)^{2}} = 6.42 \, \text{MN}$$
 
-against an empty weight of 52.9 kilonewtons, a margin of 121. **The vehicle does not fold as a column. It crumples as a shell**, and the distinction matters because the two failure modes are separated by two orders of magnitude and only one of them is helped by pressure. Shell stability work of the period is [Nickell 1961][research_nickell_1961], [Hausrath and Dittoe 1962][research_hausrath_dittoe_1962], [Hoff et al 1962][research_hoff_1962], and [Bozich 1967][research_bozich_1967], with the external-pressure case in [Shaw et al 1952][research_shaw_1952] and dynamic buckling in [Coppa and Nash 1962][research_coppa_nash_1962].
+against an empty weight of 52.9 kilonewtons, a margin of 121. **The vehicle does not fold as a column. It crumples as a shell**, and the distinction matters because the two failure modes are separated by two orders of magnitude and only one of them is helped by pressure. Shell stability work of the period spans [Nickell 1961][research_nickell_1961], [Hausrath and Dittoe 1962][research_hausrath_dittoe_1962], [Hoff et al 1962][research_hoff_1962], and [Bozich 1967][research_bozich_1967], with the external-pressure case in [Shaw et al 1952][research_shaw_1952] and [Reynolds 1960][research_reynolds_1960], the conical case in [Mescall 1961][research_mescall_1961], torsional buckling in [Mow and Sadowsky 1962][research_mow_sadowsky_1962], and dynamic buckling in [Coppa and Nash 1962][research_coppa_nash_1962] and [Coppa and Nash 1964][research_coppa_nash_1964]. **The alternatives to a bare pressurised shell were being measured at the same time**, with stiffener sizing in [Nott 1963][research_nott_1963] and sandwich construction under combined loading in [Wang et al 1953][research_wang_1953], and the Atlas decision is only intelligible against that comparison.
 
 ### What Five Pounds per Square Inch Buys
 
@@ -240,7 +244,9 @@ which at the heavy gauge is
 
 $$p_{\text{req}} = \frac{2 \times 0.000940 \times 14.4 \times 10^{6}}{1.524} = 17{,}768 \, \text{Pa} = 2.58 \, \text{psi}$$
 
-and at the light gauge only 0.37 pounds per square inch, because the buckling allowable falls faster with thickness than the pressure tension does. **The governing case is the heavy gauge and it needs 2.58 pounds per square inch, so the reported five-pound standing specification carries a margin of 1.94 on the calculation performed here.** A specification that lands at roughly twice the computed requirement is what a designer writes when the computed requirement rests on a knockdown factor he does not trust, which is exactly the situation described above.
+and at the light gauge only 0.37 pounds per square inch, because the buckling allowable falls faster with thickness than the pressure tension does. **The governing case is the heavy gauge and it needs 2.58 pounds per square inch, so the reported five-pound standing specification carries a margin of 1.94 on the calculation performed here.**
+
+The relation used here is a first-order one and the period had a better one. [Peterson 1960][research_peterson_1960] correlates the measured buckling strength of pressurised cylinders against the pressure parameter directly, which is the empirical form the design offices actually used, and [Weingarten 1962][research_weingarten_1962] extends it. The reason such a correlation was needed rather than a theory appears in [Babcock and Sechler 1962][research_babcock_sechler_1962] and [Babcock and Sechler 1963][research_babcock_sechler_1963], which measure how much of the classical strength an initial imperfection removes, with the post-buckling behaviour that makes the sensitivity so severe in [Thielemann 1962][research_thielemann_1962] and [Greenspon 1963][research_greenspon_1963]. A specification that lands at roughly twice the computed requirement is what a designer writes when the computed requirement rests on a knockdown factor he does not trust, which is exactly the situation described above.
 
 The cleanest statement of the principle is in bending rather than in compression. For a thin-walled cylinder the second moment of area is $I = \pi r^{3} t$, so a bending moment produces an extreme-fibre stress of $M r / I$. Setting that equal to the axial tension from pressure gives the moment at which the most compressed fibre first reaches zero stress,
 
@@ -250,7 +256,9 @@ $$\frac{M r}{\pi r^{3} t} = \frac{p r}{2 t} \quad \Longrightarrow \quad M_{\text
 
 $$M_{\text{crit}} = \frac{\pi \times 34{,}474 \times 1.524^{3}}{2} = 0.192 \, \text{MN m}$$
 
-equivalent to a lateral force of 8.3 kilonewtons at the top of a 23 metre vehicle, and at flight pressure it is 2.30 meganewton metres, or 99.5 kilonewtons. **The vehicle standing on the pad in a wind is held up by a pressure a bicycle tyre would find low**, and the flight case is twelve times stiffer because the tanks are pressurised harder once loaded. Pressure-stabilised beams under load are treated directly by [Steeves 1975][research_steeves_1975] and [Steeves 1975, A Linear Analysis of the Deformati][research_steeves_1975_2], the effect of internal pressure on cylinder buckling specifically is [Weingarten 1962][research_weingarten_1962], and collapse tests of pressurised membrane-like cylinders are [Leaumont 1965][research_leaumont_1965], with monocoque dome stability in [Adam and King 1965][research_adam_king_1965].
+equivalent to a lateral force of 8.3 kilonewtons at the top of a 23 metre vehicle, and at flight pressure it is 2.30 meganewton metres, or 99.5 kilonewtons. **The vehicle standing on the pad in a wind is held up by a pressure a bicycle tyre would find low**, and the flight case is twelve times stiffer because the tanks are pressurised harder once loaded. **The measurement this whole section describes was actually made.** [Miller and Gerus 1966][research_miller_gerus_1966] reports the bending strength of a large thin-walled pressure-stabilised cylinder, which is the relation derived above tested on hardware of the right size, and it is the single most directly relevant document found for this article. [Ichino and Takahashi 1965][research_ichino_takahashi_1965] treats the non-symmetrical bending state of such a shell, [Ugural and Cheng 1968][research_ugural_cheng_1968] takes pure bending, [Kempner and Chen 1974][research_kempner_chen_1974] handles the oval case that an imperfect cylinder becomes, and [Wang 1973][research_wang_1973] measures post-buckling of cold-formed thin-walled stainless specifically.
+
+Pressure-stabilised beams under load are treated directly by [Steeves 1975][research_steeves_1975] and [Steeves 1975, A Linear Analysis of the Deformati][research_steeves_1975_2], [Weingarten 1962][research_weingarten_1962] isolates the effect of internal pressure on cylinder buckling, and collapse tests of pressurised membrane-like cylinders are [Leaumont 1965][research_leaumont_1965], with monocoque dome stability in [Adam and King 1965][research_adam_king_1965] and creep buckling, which matters for a tank held pressurised for long periods, in [Samuelson 1968][research_samuelson_1968].
 
 ### What the Structure Actually Weighs
 
@@ -272,7 +280,7 @@ so the ratio of the two depends on the ratio of the allowables, which for this m
 
 $$\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4} = 67$$
 
-**The tensile allowable is sixty-seven times the compressive one.** That factor does not translate directly into a mass ratio, because the two walls carry different loads and the stiffened one adds material in a different place, but it is the reason the comparison comes out the way it does and it is the number a designer in 1951 would have been looking at.
+**The tensile allowable is sixty-seven times the compressive one.** That factor does not translate directly into a mass ratio, because the two walls carry different loads and the stiffened one adds material in a different place, but it is the reason the comparison comes out the way it does and it is the number a designer in 1951 would have been looking at. Stiffened-shell optimisation as the period practised it appears in [Nickell 1961][research_nickell_1961] and [Nott 1963][research_nott_1963], the structural design practice belongs to [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973], and the material behaviour that fixes the tensile allowable comes from [Manning and Price 1961][research_manning_price_1961], [Johnson and Kelsen 1969][research_johnson_kelsen_1969], and [Kuentz 1969][research_kuentz_1969].
 
 ## Dependent Systems
 
@@ -286,7 +294,7 @@ and the propellant flow follows from the exhaust velocity,
 
 $$\dot{m} = \frac{T}{v_{e}} = \frac{1.517 \times 10^{6}}{2765} = 549 \, \text{kg/s}$$
 
-so a 133 second burn consumes 73.0 tonnes, which is 65 percent of the full Atlas propellant load. Liquid engine practice of the period is [Summerfield 1960][research_summerfield_1960], with a released Rocketdyne specification of the same line in [Scott 1963][research_scott_1963] and the specific-impulse bookkeeping in [Dafler 1962][research_dafler_1962]. Combustion instability, which was the era's most persistent liquid-engine problem, is [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959]. Gimbal actuation for thrust vector control is [Hegg 1964][research_hegg_1964].
+so a 133 second burn consumes 73.0 tonnes, which is 65 percent of the full Atlas propellant load. Liquid engine practice of the period runs from [Summerfield 1960][research_summerfield_1960], with a released Rocketdyne specification of the same line in [Scott 1963][research_scott_1963] and the specific-impulse bookkeeping in [Dafler 1962][research_dafler_1962]. Combustion instability, which was the era's most persistent liquid-engine problem, is [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959]. [Hegg 1964][research_hegg_1964] designs the gimbal actuation for thrust vector control, and the turbopump that feeds the whole arrangement has its own design-criteria treatment in [NACA 1975][research_naca_1975], with propellant flow calibration in [Berg 1968][research_berg_1968].
 
 ### Ascent Loads, and the Worst Two Minutes
 
@@ -322,7 +330,9 @@ so at lift-off it is 1.31 and near booster cutoff, with two thirds of the propel
 
 $$n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80665} = 3.44$$
 
-**The vehicle therefore meets its worst bending load and its worst axial load at different times**, which is fortunate, because a pressure-stabilised structure that had to carry both at once would need a pressure it could not contain. Ascent load analysis of the period is [Wood 1961][research_wood_1961], with the aerodynamic side in [Binion et al 1962][research_binion_1962].
+**The vehicle therefore meets its worst bending load and its worst axial load at different times**, which is fortunate, because a pressure-stabilised structure that had to carry both at once would need a pressure it could not contain. Ascent load analysis of the period begins with [Wood 1961][research_wood_1961], with the aerodynamic side in [Binion et al 1962][research_binion_1962].
+
+**The load case that is easiest to forget is the one before the engines light.** A slender vehicle standing on a pad sheds vortices in a steady wind and can be driven into resonant transverse oscillation, and for a pressure-stabilised vehicle the pressure that resists it is the standing five pounds rather than the flight sixty. The period treated this as a subject in its own right, in [Bohne 1964][research_bohne_1964] and [Buell 1964][research_buell_1964] on the sources of ground-wind loads, [Simon 1965][research_simon_1965] on the flow-field parameters that govern the oscillation, [Jones and Farmer 1966][research_jones_farmer_1966] and [Jones and Farmer 1967][research_jones_farmer_1967] on wind-tunnel studies of the Saturn vehicles, [Coffin 1970][research_coffin_1970] on simulating the response, and the extreme-value statistics that decide what wind to design against in [Miller 1967][research_miller_1967]. A whole meeting was devoted to it, reported in [NACA 1966][research_naca_1966]. **The axial equivalent, in which an elastically supported vehicle oscillates along its own axis on the pad, is [Radovcich 1965][research_radovcich_1965].**
 
 Angle of attack is what turns dynamic pressure into a bending moment. The normal force on a slender body at small incidence is
 
@@ -382,7 +392,7 @@ against an assumed ultimate of 1276, a margin of 1.27 on the material rather tha
 
 $$\sigma_{\theta} = 1.25 \times 671 = 839 \, \text{MPa}$$
 
-which is 87 percent of the assumed yield, so the proof test is a genuine test and not a formality. Structural testing of large articles as the period practised it is [Abraham 1963][research_abraham_1963]. **The design's failure mode is its own acceptance test**, and that is a real and rarely stated advantage of the balloon tank over a stiffened shell whose critical load can only be estimated.
+which is 87 percent of the assumed yield, so the proof test is a genuine test and not a formality. [Abraham 1963][research_abraham_1963] shows how the period tested large articles structurally, with the combined static and dynamic loading problem in [Roberts and Wilhem 1964][research_roberts_wilhem_1964]. **The design's failure mode is its own acceptance test**, and that is a real and rarely stated advantage of the balloon tank over a stiffened shell whose critical load can only be estimated.
 
 ### The Thermal Environment, Which Is Mild by the Standards of This Series
 
@@ -394,7 +404,7 @@ and for stainless steel at the Atlas gauge, taking a density of 8000 kilogrammes
 
 $$\tau_{\text{skin}} = \frac{8000 \times 500 \times 0.00094}{200} = 18.8 \, \text{s}$$
 
-which is comparable to the time spent near maximum dynamic pressure rather than short against it. **The skin does partially equilibrate, but it does so against a recovery temperature that is only high for a few tens of seconds**, and the propellant behind it is a very large heat sink at cryogenic temperature. The structural problem is therefore mechanical rather than thermal, which is the reverse of every vehicle in this series since the [X-2][related_post_a299_bell_x2]. Aerodynamic heating of entry vehicles is [Allen 1966][research_allen_1966] and [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and the thermal control of a cryogenic vehicle is [Winstead 1966][research_winstead_1966], with propellant leakage effects in [Nast and Williams 1967][research_nast_williams_1967].
+which is comparable to the time spent near maximum dynamic pressure rather than short against it. **The skin does partially equilibrate, but it does so against a recovery temperature that is only high for a few tens of seconds**, and the propellant behind it is a very large heat sink at cryogenic temperature. The structural problem is therefore mechanical rather than thermal, which is the reverse of every vehicle in this series since the [X-2][related_post_a299_bell_x2]. Aerodynamic heating of entry vehicles runs through [Allen 1966][research_allen_1966] and [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and [Winstead 1966][research_winstead_1966] handles the thermal control of a cryogenic vehicle, with propellant leakage effects in [Nast and Williams 1967][research_nast_williams_1967].
 
 ### The Acoustic and Vibration Environment
 
@@ -416,7 +426,7 @@ falling to 142 decibels at a hundred metres. The pressure fluctuation follows fr
 
 $$p_{\text{rms}} = \sqrt{I \rho c} = \sqrt{1855 \times 1.225 \times 343} = 883 \, \text{Pa}$$
 
-so **a hundred and fifty-three decibels is a pressure fluctuation of about 0.13 pounds per square inch**, which is small against the sixty inside the tank but is applied at hundreds of hertz for the duration of the lift-off transient, and fatigue does not care about the mean. Vibration environment specification and correlation is [Snyder et al 1974][research_snyder_1974], and the acoustic measurement practice of the period is [Keast 1961][research_keast_1961].
+so **a hundred and fifty-three decibels is a pressure fluctuation of about 0.13 pounds per square inch**, which is small against the sixty inside the tank but is applied at hundreds of hertz for the duration of the lift-off transient, and fatigue does not care about the mean. The mechanism has its own period discipline under the name sonic fatigue. [Vreeland 1960][research_vreeland_1960] gives a test method, [Wang 1966][research_wang_1966] a prediction model, [Ballentine et al 1966][research_ballentine_1966] the combined-environment case, and [Hines 1966][research_hines_1966] the specimen fabrication such tests require. The statistical machinery it rests on comes from [Crandall and Mark 1963][research_crandall_mark_1963], with transmission in [Crandall and Mark 1963, Transmission of Random Vibration][research_crandall_mark_1963_2] and failure in [Crandall and Mark 1963, Failure Due to Random Vibration][research_crandall_mark_1963_3]. [Boyd 1963][research_boyd_1963] measured the environment at the launch site itself for Cape Canaveral, with facility acoustics in [Tyzzer and Pernet 1964][research_tyzzer_pernet_1964], the launch-vehicle dynamics overview in [Hung and Hunt 1964][research_hung_hunt_1964], and vibration environment specification and correlation in [Snyder et al 1974][research_snyder_1974], with the acoustic measurement practice of the period in [Keast 1961][research_keast_1961].
 
 ### Slosh, Which a Balloon Tank Makes Worse
 
@@ -430,21 +440,21 @@ and under acceleration the effective gravity is the axial load factor times $g$,
 
 $$\omega_{s} = \sqrt{\frac{1.841 \times 3 \times 9.80665}{1.524}} = 5.96 \, \text{rad/s}$$
 
-or 0.95 hertz, which sits uncomfortably close to the bandwidth of a thrust-vector control loop. Slosh damping by flexible baffles is [Stephens 1965][research_stephens_1965], with measurement in [Wilner et al 1960][research_wilner_1960] and the shell-vibration side in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
+or 0.95 hertz, which sits uncomfortably close to the bandwidth of a thrust-vector control loop. [Stephens 1965][research_stephens_1965] damps slosh with flexible baffles, with measurement in [Wilner et al 1960][research_wilner_1960] and the shell-vibration side in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
 
 ### Pogo, Which Is the Structure and the Propulsion Talking to Each Other
 
-A liquid rocket whose structure has a longitudinal mode near the frequency at which its feed system and engine respond can close a loop through the propellant column, and the vehicle oscillates along its own axis. The mechanism is [Rubin 1965][research_rubin_1965] and [Rubin 1966][research_rubin_1966], the naming and early study are [Goldman and Miessner 1965][research_goldman_miessner_1965] and [Goldman and Miessner 1966][research_goldman_miessner_1966], the accumulator remedy is [Marcus et al 1969][research_marcus_1969], and the best-known case is [Hill et al 1969][research_hill_1969] on Saturn V. **A pressure-stabilised vehicle is unusually exposed to this**, because its longitudinal stiffness is partly a function of tank pressure and therefore changes as the tanks drain.
+A liquid rocket whose structure has a longitudinal mode near the frequency at which its feed system and engine respond can close a loop through the propellant column, and the vehicle oscillates along its own axis. [Rubin 1965][research_rubin_1965] and [Rubin 1966][research_rubin_1966] set out the mechanism, the naming and early study are [Goldman and Miessner 1965][research_goldman_miessner_1965] and [Goldman and Miessner 1966][research_goldman_miessner_1966], [Marcus et al 1969][research_marcus_1969] develops the accumulator remedy, and the best-known case is [Hill et al 1969][research_hill_1969] on Saturn V. **A pressure-stabilised vehicle is unusually exposed to this**, because its longitudinal stiffness is partly a function of tank pressure and therefore changes as the tanks drain.
 
 The scale of the problem is set by how soft the vehicle is. A solid steel bar of the same length has a fixed-free axial mode at
 
 $$f_{1} = \frac{c}{4L} = \frac{1}{4L} \sqrt{\frac{E}{\rho}} = \frac{4912}{4 \times 23.11} = 53 \, \text{Hz}$$
 
-but a launch vehicle is not a solid bar. It is a thin shell containing a large mass of liquid, and its first axial mode sits an order of magnitude lower, in the region of twenty hertz, which is uncomfortably close to the response of a feed system and turbopump. **The instability condition is that the structural mode and the propulsion response overlap in frequency with enough gain around the loop**, and both quantities move during the flight, the structure because the tanks drain and the propulsion because the inlet pressure falls. Missile structural dynamics of the period is [Wood 1961][research_wood_1961], with clustered-vehicle bending in [Loewy 1965][research_loewy_1965] and shell vibration in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
+but a launch vehicle is not a solid bar. It is a thin shell containing a large mass of liquid, and its first axial mode sits an order of magnitude lower, in the region of twenty hertz, which is uncomfortably close to the response of a feed system and turbopump. **The instability condition is that the structural mode and the propulsion response overlap in frequency with enough gain around the loop**, and both quantities move during the flight, the structure because the tanks drain and the propulsion because the inlet pressure falls. Missile structural dynamics of the period runs through [Wood 1961][research_wood_1961], with clustered-vehicle bending in [Loewy 1965][research_loewy_1965], shell vibration in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965], the ribbed-shell stability case in [Amiro 1962][research_amiro_1962], and the launch-vehicle overview in [Gerald and Runyan 1962][research_gerald_runyan_1962].
 
 ### Guidance, Which the Atlas A Did Not Carry
 
-The Atlas A flew without an operational guidance system. Its flights were programmed, and the guidance question belonged to later variants and to the radio-inertial system the early Atlas used before an all-inertial set replaced it. Ballistic missile guidance of the period is [Whitcombe 1961][research_whitcombe_1961], field testing of such a system is [Slifka 1960][research_slifka_1960], the measurement problem of establishing where a missile actually went is [Cooper 1961][research_cooper_1961], and a later integrated formulation is [Russell 1964][research_russell_1964] with [Larson 1965][research_larson_1965] on Titan III.
+The Atlas A flew without an operational guidance system. Its flights were programmed, and the guidance question belonged to later variants and to the radio-inertial system the early Atlas used before an all-inertial set replaced it. Ballistic missile guidance of the period spans [Whitcombe 1961][research_whitcombe_1961], [Slifka 1960][research_slifka_1960] field-tests such a system, the measurement problem of establishing where a missile actually went is [Cooper 1961][research_cooper_1961], the explicit guidance equations that a self-contained system must solve are [MacPherson 1963][research_macpherson_1963], and a later integrated formulation is [Russell 1964][research_russell_1964] with [Larson 1965][research_larson_1965] on Titan III and cost-driven inertial development in [Crose 1965][research_crose_1965]. The simulation apparatus such work depends on is [Juarez 1961][research_juarez_1961].
 
 **The accuracy relation is worth stating even though the X-11 did not exercise it**, because it explains why a ballistic weapon is a velocity-control problem rather than a navigation problem, and because it can be derived from the range relation the previous article established rather than asserted.
 
@@ -486,13 +496,15 @@ where $\gamma$ is the entry flight path angle and $H$ the scale height, and the 
 
 $$a_{\max} = \frac{7000^{2} \times 0.5}{2 \times 2.718 \times 7200} = 626 \, \text{m/s}^{2} = 64 g$$
 
-**The reentry body is decelerated at sixty-four times gravity while the booster that launched it never exceeded three and a half.** The two halves of a ballistic missile are different structural problems by a factor of nearly twenty, which is the reason they are different articles built by different people, and the reason the X-11 could be a complete test of one while carrying none of the other. Nose-cone and ablation work of the period is [Stetson 1964][research_stetson_1964], [Wachi and Gilmartin 1966][research_wachi_gilmartin_1966], and [Rindal and Dahm 1967][research_rindal_dahm_1967], with hemispherical-nose heat transfer in [Nardo and Sadler 1962][research_nardo_sadler_1962], flight heating measurements in [Snodgrass 1955][research_snodgrass_1955], and the roll-resonance problem in [Platus 1967][research_platus_1967].
+The result is period material and not a later reconstruction. [Scherberg and Rubin 1953][research_scherberg_rubin_1953] computes the decelerations of a ballistic missile on reentry in exactly this form, four years before the X-11 flew, and the closed-form lifting extension is [Bell 1965][research_bell_1965]. The motion of the body about its own axes while this is happening is [Murphy 1961][research_murphy_1961], the char-layer response of the heat shield is [Dolton and Reed 1966][research_dolton_reed_1966], and estimating where such a body actually is while it flies is [Schweppe 1964][research_schweppe_1964]. The defensive problem this creates, which the [previous article][related_post_a307_north_american_x10] found revived in the modern glide-vehicle literature, was already being posed in the period by [Faulkner 1961][research_faulkner_1961] and [Faulkner and Ward 1961][research_faulkner_ward_1961].
+
+**The reentry body is decelerated at sixty-four times gravity while the booster that launched it never exceeded three and a half.** The two halves of a ballistic missile are different structural problems by a factor of nearly twenty, which is the reason they are different articles built by different people, and the reason the X-11 could be a complete test of one while carrying none of the other. Nose-cone and ablation work of the period covers [Stetson 1964][research_stetson_1964], [Wachi and Gilmartin 1966][research_wachi_gilmartin_1966], and [Rindal and Dahm 1967][research_rindal_dahm_1967], with hemispherical-nose heat transfer in [Nardo and Sadler 1962][research_nardo_sadler_1962], flight heating measurements in [Snodgrass 1955][research_snodgrass_1955], and the roll-resonance problem in [Platus 1967][research_platus_1967].
 
 ### Ground Handling, Which the Structure Dictates
 
 A vehicle that collapses unpressurised cannot be handled like an aeroplane. It requires a nitrogen supply at every point in its life, transport fixtures that support it without imposing a bending moment above the pressure-stabilised limit computed above, and a launch complex that keeps it inflated while it is fuelled. **The structural decision propagates into buildings and vehicles and procedures**, and the accessible record of that apparatus is unusually good, in [General Dynamics Convair 1966][research_div_1966] and its companion volumes and in [Peters and Hall 1963][research_peters_hall_1963] on system-test data for the engine system.
 
-The propellant loading problem deserves its own note, because a balloon tank couples loading to structure in a way a conventional tank does not. Filling the tank changes the pressure the walls must hold, changes the mass the walls must carry, and changes the temperature of the material, and all three happen while the vehicle is standing unsupported on a pad. **Loading is a structural operation and not merely a fluid transfer.** Optimum propellant loading and utilisation is [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2], and ground support equipment practice of the period is [Moore 1958][research_moore_1958] and [Newton and Makrides 1954][research_newton_makrides_1954], with launch complex activation in [Powell 1962][research_powell_1962].
+The propellant loading problem deserves its own note, because a balloon tank couples loading to structure in a way a conventional tank does not. Filling the tank changes the pressure the walls must hold, changes the mass the walls must carry, and changes the temperature of the material, and all three happen while the vehicle is standing unsupported on a pad. **Loading is a structural operation and not merely a fluid transfer.** [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2] optimises propellant loading and utilisation, and ground support equipment practice of the period runs from [Moore 1958][research_moore_1958] and [Newton and Makrides 1954][research_newton_makrides_1954], with launch complex activation in [Powell 1962][research_powell_1962].
 
 The boil-off that follows is a second coupling, and its rate explains why topping continues until moments before launch. With a wetted area of
 
@@ -506,7 +518,7 @@ and at a latent heat of 213 kilojoules per kilogramme the boil-off is
 
 $$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}$$
 
-or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. Pressure buildup analysis for a cryogenic tank is [Slider 1967][research_slider_1967], and two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
+or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. The insulation that reduces the rate appears in [Weiss and Goodman 1960][research_weiss_goodman_1960] and [Walton and Simmons 1962][research_walton_simmons_1962], and the conditioning of the propellant before launch is [Greenfield 1960][research_greenfield_1960]. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. [Slider 1967][research_slider_1967] analyses pressure buildup in a cryogenic tank, and two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
 
 ## The Flight Test Record
 
@@ -559,7 +571,7 @@ which no ballistic missile programme was ever going to fly as development articl
 
 The Atlas structure was tested on the ground more thoroughly than most, because a pressure-stabilised tank can be proof-tested to its actual failure mode simply by pressurising it, which is not true of a stiffened shell whose failure mode is compressive buckling under a load that is hard to apply. **The design is unusually testable on the ground for the same reason it is unusual in flight.**
 
-The gap between ground and flight is therefore not in the structure but in the combined environment. A tank can be pressure-tested, a shell can be buckling-tested, and neither test applies the acoustic field, the vibration, the thermal gradient, and the axial acceleration at once. Shell-buckling experiment of the period is [Nickell 1961][research_nickell_1961] and [Leaumont 1965][research_leaumont_1965], and the standing difficulty that experiments scatter far below theory is the subject of [Karman and Tsien 1941][research_karman_tsien_1941] and remains the reason a knockdown factor exists at all.
+The gap between ground and flight is therefore not in the structure but in the combined environment. A tank can be pressure-tested, a shell can be buckling-tested, and neither test applies the acoustic field, the vibration, the thermal gradient, and the axial acceleration at once. [Nickell 1961][research_nickell_1961] and [Leaumont 1965][research_leaumont_1965] carry the period's shell-buckling experiment, and the standing difficulty that experiments scatter far below theory is the subject of [Karman and Tsien 1941][research_karman_tsien_1941] and remains the reason a knockdown factor exists at all.
 
 The scatter deserves a number, because it is the largest single uncertainty in the article. Experimental buckling loads for cylinders in this range of radius to thickness fall between roughly fifteen and sixty percent of the classical value,
 
@@ -587,7 +599,7 @@ $$v_{\text{orb}} - v_{bo} = 595 \, \text{m/s}$$
 
 or seven percent of the ideal velocity. **An intercontinental ballistic missile is already ninety-two percent of the way to orbit**, and the remaining eight percent is a small upper stage. That is why every early space programme was built on a ballistic missile and why none was built on a cruise missile, and it is the deepest reason the Atlas outlived the Navaho by six decades.
 
-Trajectory optimisation for the Atlas and Agena combination is [Frazier 1967][research_frazier_1967], and the control systems that a large launch vehicle of the following generation required are [Borelli and Carroll 1967][research_borelli_carroll_1967].
+Trajectory [Frazier 1967][research_frazier_1967] optimises for the Atlas and Agena combination, and the control systems that a large launch vehicle of the following generation required are [Borelli and Carroll 1967][research_borelli_carroll_1967].
 
 **The reason the Atlas became a launcher and the Navaho became nothing is worth stating in the terms this pair of articles has established.** A booster is a machine for adding velocity, and velocity is useful for any mission that needs it. A cruise missile is a machine for carrying a warhead a particular distance at a particular speed, and nothing else wants that. The Atlas survived its own obsolescence as a weapon because its keystone quantity, mass fraction, is valuable to every customer, while the Navaho's keystone quantity, sustained autonomous navigation accuracy, was valuable only to the mission that was cancelled.
 
@@ -601,11 +613,11 @@ The pressure-stabilised structure did not become the standard way to build launc
 
 The design allowable used above is a blanket factor applied to a classical result, which is an admission that the theory does not predict the experiment. That has been the state of the art since [Karman and Tsien 1941][research_karman_tsien_1941] and it is now being dismantled in favour of methods that model the imperfection instead of hiding behind a factor.
 
-Imperfection sensitivity as a computed rather than assumed quantity is [Evkin 2026][research_evkin_2026], the asymptotic numerical route to pressurised-cylinder buckling is [Ventura et al 2023][research_ventura_2023], stochastic and dynamic treatments are [Yu et al 2024][research_yu_2024] and [Ozoigbo et al 2025][research_ozoigbo_2025], thin-walled behaviour under combined loading is [Jiao et al 2023][research_jiao_2023], and gauge-sensitivity methods for assessing and mitigating buckling risk are [Zhang 2022][research_zhang_2022]. **The most directly relevant modern paper derives knockdown factors for common-bulkhead structures**, which is the Atlas configuration exactly, in [Lee et al 2024][research_lee_2024]. Grid-stiffened composite cylinders, which are the design the Atlas rejected, are [Velmurugan and Buragohain 2023][research_velmurugan_buragohain_2023], and multiscale buckling-aware design is [Liu et al 2026][research_liu_2026].
+[Evkin 2026][research_evkin_2026] computes imperfection sensitivity rather than assuming it, the asymptotic numerical route to pressurised-cylinder buckling is [Ventura et al 2023][research_ventura_2023], stochastic and dynamic treatments are [Yu et al 2024][research_yu_2024] and [Ozoigbo et al 2025][research_ozoigbo_2025], thin-walled behaviour under combined loading is [Jiao et al 2023][research_jiao_2023], and gauge-sensitivity methods for assessing and mitigating buckling risk are [Zhang 2022][research_zhang_2022]. **The most directly relevant modern paper derives knockdown factors for common-bulkhead structures**, which is the Atlas configuration exactly, in [Lee et al 2024][research_lee_2024]. Grid-stiffened composite cylinders, which are the design the Atlas rejected, are [Velmurugan and Buragohain 2023][research_velmurugan_buragohain_2023], and multiscale buckling-aware design is [Liu et al 2026][research_liu_2026].
 
 ### Propellant Tanks, Where the Rocket Equation Has Not Changed
 
-Tank structure remains the place where launch-vehicle mass is won and lost, and the modern literature is dominated by cryogenics rather than by kerosene because the propellants moved. Structural design optimisation of a launch vehicle propellant tank is [Kim et al 2025][research_kim_2025], the common-bulkhead arrangement the Atlas pioneered is [Zhang et al 2025, Improving storage performance of a][research_zhang_2025_2] and [Zhang et al 2025, Feasibility study on synthermal st][research_zhang_2025_3], thermo-structural analysis with vacuum insulation is [Yenugula et al 2025][research_yenugula_2025], all-composite cryogenic tanks are [Rhee et al 2025][research_rhee_2025], concurrent coupled analysis is [Cheng et al 2025][research_cheng_2025], and verification of a tank operational-pressure model is [Bershadskyi et al 2022][research_bershadskyi_2022]. **The common bulkhead is the Atlas idea that survived without argument**, since it removes an entire pressure dome and the intertank structure with it, and it is now standard where the balloon tank is not.
+Tank structure remains the place where launch-vehicle mass is won and lost, and the modern literature is dominated by cryogenics rather than by kerosene because the propellants moved. [Kim et al 2025][research_kim_2025] optimises a launch vehicle propellant tank structurally, the common-bulkhead arrangement the Atlas pioneered is [Zhang et al 2025, Improving storage performance of a][research_zhang_2025_2] and [Zhang et al 2025, Feasibility study on synthermal st][research_zhang_2025_3], thermo-structural analysis with vacuum insulation is [Yenugula et al 2025][research_yenugula_2025], all-composite cryogenic tanks are [Rhee et al 2025][research_rhee_2025], concurrent coupled analysis is [Cheng et al 2025][research_cheng_2025], and verification of a tank operational-pressure model is [Bershadskyi et al 2022][research_bershadskyi_2022]. **The common bulkhead is the Atlas idea that survived without argument**, since it removes an entire pressure dome and the intertank structure with it, and it is now standard where the balloon tank is not.
 
 ### Slosh and Pogo, Which Are Now Designed Against Rather Than Discovered
 
@@ -613,23 +625,23 @@ Both phenomena were discovered in flight during the period this article covers a
 
 ### Ascent Loads and Load Relief, Which Became a Control Problem
 
-The bending moment computed above is a load the vehicle can also steer away from, and doing so is now an optimisation rather than a fixed programme. Convex and concave optimisation of the ascent is [Sun et al 2024][research_sun_2024], approximate analytical ascent solutions are [Yu et al 2023][research_yu_2023] and [Yu et al 2024, Approximate analytical solutions f][research_yu_2024_2], rolling active load relief is [He et al 2024][research_he_2024], learned load-relief attitude control is [Zhou et al 2025][research_zhou_2025], dynamic ascent load estimation for a winged vehicle is [Jayan et al 2024][research_jayan_2024], and computational fluid dynamics for ascent is [Dalle et al 2024][research_dalle_2024] with Reynolds-number and aeroelastic scaling in [Ivanco et al 2024][research_ivanco_2024]. **The X-11 flew a fixed pitch programme and absorbed whatever bending moment the wind imposed**, which is the option available to a vehicle with no way to measure its own angle of attack in real time.
+The bending moment computed above is a load the vehicle can also steer away from, and doing so is now an optimisation rather than a fixed programme. [Sun et al 2024][research_sun_2024] optimises the ascent by convex and concave methods, approximate analytical ascent solutions are [Yu et al 2023][research_yu_2023] and [Yu et al 2024, Approximate analytical solutions f][research_yu_2024_2], rolling active load relief is [He et al 2024][research_he_2024], learned load-relief attitude control is [Zhou et al 2025][research_zhou_2025], dynamic ascent load estimation for a winged vehicle is [Jayan et al 2024][research_jayan_2024], and computational fluid dynamics for ascent is [Dalle et al 2024][research_dalle_2024] with Reynolds-number and aeroelastic scaling in [Ivanco et al 2024][research_ivanco_2024]. **The X-11 flew a fixed pitch programme and absorbed whatever bending moment the wind imposed**, which is the option available to a vehicle with no way to measure its own angle of attack in real time.
 
 ### Engines and Health Monitoring, Which Is Where the Failures Actually Were
 
-Four of eight Atlas A flights failed and the failures were propulsion and plumbing. That is now the most instrumented part of a launch vehicle. Fault diagnosis of the startup transient is [Cha et al 2024][research_cha_2024], general fault-factor health monitoring is [Cha and Ko 2025][research_cha_ko_2025], current-state monitoring is [Kamenskii and Martirosov 2021][research_kamenskii_martirosov_2021], the priming pressure surge that damages feed systems is [Das and Padmanabhan 2022][research_das_padmanabhan_2022], turbopump flow behaviour is [Zhou et al 2022][research_zhou_2022], thrust control is [Yao et al 2022][research_yao_2022], and thrust vector control appears in [Benfriha et al 2026][research_benfriha_2026] and [Saiki et al 2026][research_saiki_2026]. **The Atlas A programme diagnosed its failures by reading telemetry and inspecting wreckage.** A modern vehicle carries the diagnosis aboard.
+Four of eight Atlas A flights failed and the failures were propulsion and plumbing. That is now the most instrumented part of a launch vehicle. [Cha et al 2024][research_cha_2024] diagnoses faults in the startup transient, general fault-factor health monitoring is [Cha and Ko 2025][research_cha_ko_2025], current-state monitoring is [Kamenskii and Martirosov 2021][research_kamenskii_martirosov_2021], the priming pressure surge that damages feed systems is [Das and Padmanabhan 2022][research_das_padmanabhan_2022], turbopump flow behaviour is [Zhou et al 2022][research_zhou_2022], thrust control is [Yao et al 2022][research_yao_2022], and thrust vector control appears in [Benfriha et al 2026][research_benfriha_2026] and [Saiki et al 2026][research_saiki_2026]. **The Atlas A programme diagnosed its failures by reading telemetry and inspecting wreckage.** A modern vehicle carries the diagnosis aboard.
 
 ### Reliability Estimation, Which Answers the Question Eight Flights Could Not
 
-The binomial interval computed above is wide because eight is a small number, and the modern discipline addresses exactly that. Statistical reliability estimation for launch vehicles is [Wagenblast and Bettinger 2024][research_wagenblast_bettinger_2024], reliability design and management on an operational vehicle is [Li et al 2025, Reliability design and management][research_li_2025_2], system reliability estimation for a control system is [Muthukumar et al 2020][research_muthukumar_2020], and safety and operational reliability methodology is [Khamlak 2026][research_khamlak_2026]. **The methods now used to certify a vehicle on a handful of flights are the methods the Atlas A programme needed and did not have.**
+The binomial interval computed above is wide because eight is a small number, and the modern discipline addresses exactly that. [Wagenblast and Bettinger 2024][research_wagenblast_bettinger_2024] estimates launch vehicle reliability statistically, reliability design and management on an operational vehicle is [Li et al 2025, Reliability design and management][research_li_2025_2], system reliability estimation for a control system is [Muthukumar et al 2020][research_muthukumar_2020], and safety and operational reliability methodology is [Khamlak 2026][research_khamlak_2026]. **The methods now used to certify a vehicle on a handful of flights are the methods the Atlas A programme needed and did not have.**
 
 ### Manufacture, Where a Thin Welded Shell Is Still Difficult
 
-The Atlas skin is a welded stainless assembly at a gauge where welding distortion is comparable to the thickness. Fatigue of welded joints in thin-walled structure is [Płaczek et al 2023][research_paczek_2023] and [Qiu et al 2023][research_qiu_2023], high-frequency mechanical impact treatment of welds is [Zhang and He 2024][research_zhang_he_2024], microstructure modelling in duplex stainless is [Edwards et al 2023][research_edwards_2023], springback and cold-roll forming of shells is [Engineering 2024][research_engineering_2024], and additive manufacture of stainless for rocket application is [Thomas 2022][research_thomas_2022]. The period's own difficulties with the same material are [Nolan 1964][research_nolan_1964], [Apatovskii et al 1967][research_apatovskii_1967], [Tozawa 1969][research_tozawa_1969], and [Khil'chevskii and Kadyshev 1973][research_khil_chevskii_kadyshev_1973].
+The Atlas skin is a welded stainless assembly at a gauge where welding distortion is comparable to the thickness. [Płaczek et al 2023][research_paczek_2023] fatigues welded joints in thin-walled structure and [Qiu et al 2023][research_qiu_2023], high-frequency mechanical impact treatment of welds is [Zhang and He 2024][research_zhang_he_2024], microstructure modelling in duplex stainless is [Edwards et al 2023][research_edwards_2023], springback and cold-roll forming of shells is [Engineering 2024][research_engineering_2024], and additive manufacture of stainless for rocket application is [Thomas 2022][research_thomas_2022]. The period's own difficulties with the same material are [Nolan 1964][research_nolan_1964], [Apatovskii et al 1967][research_apatovskii_1967], [Tozawa 1969][research_tozawa_1969], and [Khil'chevskii and Kadyshev 1973][research_khil_chevskii_kadyshev_1973], with the electron-beam process that made thin aerospace welds practical in [Kern and Lubin 1963][research_kern_lubin_1963] and fatigue-spectrum development in [McCulloch 1960][research_mcculloch_1960].
 
 ### Reentry, Which the X-11 Did Not Carry and Which Is Again Contested
 
-Reentry aerothermodynamics is [Morgado et al 2022][research_morgado_2022] and [Sharma et al 2024][research_sharma_2024], ablation at the fluid-solid interface is [Appar and Kumar 2021][research_appar_kumar_2021], reachability of a manoeuvring reentry body is [Webb et al 2026][research_webb_2026] and [Su et al 2026][research_su_2026], learned guidance for a reentry vehicle is [Marchetti and Minisci 2021][research_marchetti_minisci_2021], and the defensive problem of identifying what is coming is [Tonko and Lambiase 2024][research_tonko_lambiase_2024]. **This is the same argument the [previous article][related_post_a307_north_american_x10] found revived in the hypersonic glide literature**, approached from the other end.
+Reentry aerothermodynamics spans [Morgado et al 2022][research_morgado_2022] and [Sharma et al 2024][research_sharma_2024], ablation at the fluid-solid interface is [Appar and Kumar 2021][research_appar_kumar_2021], reachability of a manoeuvring reentry body is [Webb et al 2026][research_webb_2026] and [Su et al 2026][research_su_2026], learned guidance for a reentry vehicle is [Marchetti and Minisci 2021][research_marchetti_minisci_2021], and the defensive problem of identifying what is coming is [Tonko and Lambiase 2024][research_tonko_lambiase_2024]. **This is the same argument the [previous article][related_post_a307_north_american_x10] found revived in the hypersonic glide literature**, approached from the other end.
 
 ## Where the Framing Breaks Down
 
@@ -637,7 +649,7 @@ Treating the X-11 through the mass-fraction keystone illuminates the design but 
 
 **It was not a complete missile.** No operational guidance, no reentry vehicle, no warhead, and a range a fifth of the requirement. The X-11 is the airframe and the booster propulsion and nothing else.
 
-**The structure was not the programme's actual difficulty.** Four of eight flights failed, and the failures were plumbing, heating, and pneumatics. An article organised around the balloon tank gives the impression that the daring part was the hard part, and the flight record says the opposite.
+**The structure was not the programme's actual difficulty.** Four of eight flights failed, and the failures were plumbing, heating, and pneumatics. An article organised around the balloon tank gives the impression that the daring part was the hard part, and the flight record says the opposite, and the record that shows it is the Difficulties Review of [General Dynamics Convair 1966][research_div_1966] rather than any structural document.
 
 **Mass fraction stopped being binding.** The keystone that justified the design is the reason the design was abandoned, since later vehicles could afford heavier structure and could not afford the handling.
 
@@ -647,7 +659,7 @@ Treating the X-11 through the mass-fraction keystone illuminates the design but 
 
 The contrast with the previous article is sharp and it is worth stating as a controlled result.
 
-**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a RASCAL weapon system report. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.**
+**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a RASCAL weapon system report. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.** The specific documents are [Diegoca 1961][research_diegoca_1961] and its companion flight test reports, the five volumes of [General Dynamics Convair 1966][research_div_1966], and [Peters and Hall 1963][research_peters_hall_1963] on engine system-test data, with the programme-level history in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960].
 
 The aerospace archive holds the structural literature rather than the vehicle, which suits this article because the keystone is a structural principle and not a vehicle detail. The shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable.
 
@@ -702,22 +714,41 @@ There is a second result and it belongs to the series rather than to the vehicle
 
 [research_abraham_1963]: https://doi.org/10.2514/6.1963-2899
 [research_adam_king_1965]: https://doi.org/10.1007/bf02327532
+[research_adams_stoll_1969]: https://ntrs.nasa.gov/citations/19690027905
 [research_allen_1966]: https://ntrs.nasa.gov/citations/19660045863
+[research_amiro_1962]: https://doi.org/10.21236/ad0295442
 [research_apatovskii_1967]: https://doi.org/10.1007/bf00559980
 [research_appar_kumar_2021]: https://doi.org/10.1080/10618562.2021.2017900
+[research_babcock_sechler_1962]: https://ntrs.nasa.gov/citations/19630000943
+[research_babcock_sechler_1963]: https://ntrs.nasa.gov/citations/19630008791
 [research_bahiman_thole_1965]: https://doi.org/10.21236/ada451677
+[research_ballentine_1966]: https://doi.org/10.21236/ad0637506
 [research_beer_lennox_1965]: https://ntrs.nasa.gov/citations/19660004121
+[research_bell_1965]: https://doi.org/10.21236/ad0631590
 [research_benfriha_2026]: https://doi.org/10.51485/ajss.v11i2.293
+[research_berg_1968]: https://doi.org/10.21236/ad0833157
 [research_bershadskyi_2022]: https://doi.org/10.33950/spacetech-2308-7625-2022-1-56-69
 [research_binion_1962]: https://doi.org/10.21236/ad0290303
 [research_binion_w_1964]: https://doi.org/10.21236/ad0439948
+[research_bohne_1964]: https://doi.org/10.2514/6.1964-1029
 [research_borelli_carroll_1967]: https://doi.org/10.2514/6.1967-591
+[research_botterill_1961]: https://doi.org/10.1016/0010-2180(61)90122-5
+[research_boyd_1963]: https://doi.org/10.21236/ad0299033
 [research_bozich_1967]: https://doi.org/10.21236/ad0656302
+[research_buell_1964]: https://doi.org/10.2514/6.1964-1017
 [research_cha_2024]: https://doi.org/10.3390/s24092798
 [research_cha_ko_2025]: https://doi.org/10.2514/1.a36337
 [research_cheng_2025]: https://doi.org/10.1016/j.cryogenics.2025.104098
+[research_chitwood_1962]: https://doi.org/10.4271/620375
+[research_coffin_1970]: https://ntrs.nasa.gov/citations/19720013170
 [research_cooper_1961]: https://doi.org/10.2514/8.5546
 [research_coppa_nash_1962]: https://doi.org/10.21236/ad0295491
+[research_coppa_nash_1964]: https://doi.org/10.21236/ad0610514
+[research_coxe_tatom_1962]: https://doi.org/10.1007/978-1-4757-0531-7_29
+[research_crandall_mark_1963]: https://doi.org/10.1016/b978-1-4832-3259-1.50005-8
+[research_crandall_mark_1963_2]: https://doi.org/10.1016/b978-1-4832-3259-1.50006-x
+[research_crandall_mark_1963_3]: https://doi.org/10.1016/b978-1-4832-3259-1.50007-1
+[research_crose_1965]: https://doi.org/10.2514/6.1965-1202
 [research_dafler_1962]: https://doi.org/10.1119/1.1941784
 [research_dalle_2024]: https://doi.org/10.2514/1.a35809
 [research_das_padmanabhan_2022]: https://doi.org/10.1016/j.jppr.2022.07.003
@@ -725,29 +756,46 @@ There is a second result and it belongs to the series rather than to the vehicle
 [research_digiovanii_dugundji_1965]: https://doi.org/10.21236/ad0617269
 [research_div_1966]: https://doi.org/10.21236/ada028047
 [research_dolgopolov_nikolayev_2024]: https://doi.org/10.1007/s12567-024-00541-3
+[research_dolton_reed_1966]: https://doi.org/10.2514/6.1966-424
 [research_edwards_2023]: https://doi.org/10.1016/j.addma.2022.103300
+[research_elliott_rau_1968]: https://ntrs.nasa.gov/citations/19680037547
 [research_engineering_2024]: https://doi.org/10.14775/ksmpe.2024.23.04.009
 [research_evkin_2026]: https://doi.org/10.1016/j.tws.2025.114153
+[research_faulkner_1961]: https://doi.org/10.21236/ad0265426
+[research_faulkner_ward_1961]: https://doi.org/10.21236/ad0266582
 [research_feodosiev_siniarev_1959]: https://doi.org/10.1016/b978-1-4832-3201-0.50013-9
 [research_frazier_1967]: https://ntrs.nasa.gov/citations/19670050873
+[research_gerald_runyan_1962]: https://doi.org/10.4271/620491
 [research_goldman_miessner_1965]: https://doi.org/10.1177/003754976500400504
 [research_goldman_miessner_1966]: https://doi.org/10.1177/003754976600600117
+[research_greenfield_1960]: https://doi.org/10.1007/978-1-4684-3105-6_15
+[research_greenspon_1963]: https://doi.org/10.21236/ad0429850
 [research_grey_1953]: https://doi.org/10.21236/ad0036007
 [research_harrje_1959]: https://doi.org/10.21236/ad0212816
 [research_hausrath_dittoe_1962]: https://ntrs.nasa.gov/citations/19630000935
 [research_he_2024]: https://doi.org/10.1088/1742-6596/2764/1/012061
 [research_hegg_1964]: https://ntrs.nasa.gov/citations/19650011485
 [research_hill_1969]: https://doi.org/10.2514/6.1969-548
+[research_hines_1966]: https://doi.org/10.21236/ad0642490
 [research_hoff_1942]: https://doi.org/10.2514/8.10872
 [research_hoff_1962]: https://doi.org/10.21236/ad0400282
+[research_humphrey_1961]: https://doi.org/10.1007/978-1-4757-0534-8_29
+[research_hung_hunt_1964]: https://doi.org/10.2514/6.1964-1043
+[research_ichino_takahashi_1965]: https://doi.org/10.1299/jsme1958.8.169
 [research_ivanco_2024]: https://doi.org/10.2514/1.a35930
 [research_jayan_2024]: https://doi.org/10.4271/2024-26-0452
 [research_jiao_2023]: https://doi.org/10.1142/s0219455423501973
 [research_johnson_kelsen_1969]: https://doi.org/10.1520/stp45893s
+[research_jones_farmer_1966]: https://doi.org/10.2514/6.1966-1735
+[research_jones_farmer_1967]: https://doi.org/10.2514/3.28838
+[research_juarez_1961]: https://doi.org/10.21236/ad0607874
 [research_kamenskii_martirosov_2021]: https://doi.org/10.34759/vst-2021-2-46-53
+[research_kaplan_1961]: https://doi.org/10.2514/8.5635
 [research_karman_tsien_1941]: https://doi.org/10.2514/8.10722
 [research_kaufman_1958]: https://doi.org/10.2514/8.7521
 [research_keast_1961]: https://doi.org/10.21236/ad0273892
+[research_kempner_chen_1974]: https://doi.org/10.1111/j.2164-0947.1974.tb01564.x
+[research_kern_lubin_1963]: https://doi.org/10.21236/ad0403681
 [research_khamlak_2026]: https://doi.org/10.37547/tajet/book-26-01
 [research_khil_chevskii_kadyshev_1973]: https://doi.org/10.1007/bf00762829
 [research_kim_2025]: https://doi.org/10.5139/jksas.2025.53.10.1027
@@ -755,50 +803,78 @@ There is a second result and it belongs to the series rather than to the vehicle
 [research_larson_1965]: https://doi.org/10.2514/6.1965-306
 [research_leaumont_1965]: https://ntrs.nasa.gov/citations/19650014222
 [research_lee_2024]: https://doi.org/10.6108/kspe.2024.28.2.023
+[research_lenihan_1962]: https://doi.org/10.1088/0031-9112/13/10/007
 [research_li_2025_2]: https://doi.org/10.1088/3050-2454/ae0b71
 [research_liu_2020]: https://doi.org/10.2514/1.a34551
 [research_liu_2026]: https://doi.org/10.1016/j.matdes.2026.116280
 [research_loewy_1965]: https://doi.org/10.2514/6.1965-1147
+[research_lubowe_1965]: https://doi.org/10.2514/3.28135
+[research_macpherson_1963]: https://doi.org/10.21236/ad0403872
+[research_mandell_white_1960]: https://doi.org/10.1007/978-1-4757-0537-9_14
 [research_manning_price_1961]: https://ntrs.nasa.gov/citations/20040006332
 [research_marchetti_minisci_2021]: https://doi.org/10.3390/math9161868
 [research_marcus_1969]: https://doi.org/10.2514/6.1969-547
 [research_matthews_1957]: https://doi.org/10.21236/ad0127419
+[research_mcculloch_1960]: https://doi.org/10.1520/stp45922s
+[research_mescall_1961]: https://doi.org/10.21236/ad0254653
 [research_michielsen_1948]: https://doi.org/10.2514/8.11706
+[research_miller_1967]: https://doi.org/10.2514/6.1967-44
+[research_miller_gerus_1966]: https://doi.org/10.4271/660676
 [research_mitra_2021]: https://doi.org/10.1007/s42423-021-00073-6
 [research_moore_1958]: https://doi.org/10.21236/ad0404839
+[research_morey_koshar_1961]: https://doi.org/10.1016/b978-0-12-395682-8.50010-8
 [research_morgado_2022]: https://doi.org/10.2514/1.j061071
+[research_mow_sadowsky_1962]: https://doi.org/10.21236/ad0286039
+[research_murphy_1961]: https://doi.org/10.1016/0032-0633(61)90141-6
 [research_murphy_rubesin_1965]: https://ntrs.nasa.gov/citations/19660010795
 [research_muthukumar_2020]: https://doi.org/10.14429/dsj.70.13708
+[research_naca_1966]: https://ntrs.nasa.gov/citations/19660022936
+[research_naca_1975]: https://ntrs.nasa.gov/citations/19750000135
 [research_nardo_sadler_1962]: https://doi.org/10.21236/ad0273837
 [research_nast_williams_1967]: https://doi.org/10.1007/978-1-4757-0489-1_24
+[research_nein_head_1962]: https://doi.org/10.1007/978-1-4757-0531-7_30
 [research_newton_makrides_1954]: https://doi.org/10.21236/ad0039437
 [research_nickell_1961]: https://doi.org/10.21236/ad0619097
 [research_nolan_1964]: https://doi.org/10.4095/325184
+[research_nott_1963]: https://doi.org/10.21236/ad0297244
+[research_ostner_1962]: https://doi.org/10.21236/ad0414825
 [research_ozoigbo_2025]: https://doi.org/10.1134/s0025654425602733
 [research_paczek_2023]: https://doi.org/10.3390/ma16186259
 [research_parkyn_1958]: https://doi.org/10.2307/3610466
 [research_pei_2021]: https://doi.org/10.2514/1.a35024
 [research_peters_hall_1963]: https://doi.org/10.21236/ad0403115
+[research_peterson_1960]: https://ntrs.nasa.gov/citations/20040016415
 [research_platus_1967]: https://doi.org/10.21236/ad0810587
 [research_powell_1962]: https://doi.org/10.21236/ad0424725
+[research_punga_campbell_1962]: https://doi.org/10.2514/8.9711
 [research_qiu_2023]: https://doi.org/10.1016/j.tws.2023.110871
+[research_radovcich_1965]: https://doi.org/10.2514/6.1965-1406
 [research_raji_2019]: https://doi.org/10.1088/1742-6596/1355/1/012020
+[research_randall_1970]: https://doi.org/10.2514/3.29945
+[research_reynolds_1960]: https://doi.org/10.21236/ad0491094
 [research_rhee_2025]: https://doi.org/10.1016/j.jer.2025.01.008
 [research_rindal_dahm_1967]: https://doi.org/10.2172/12817504
+[research_roberts_wilhem_1964]: https://doi.org/10.21236/ad0604407
+[research_rockefeller_alfred_1960]: https://doi.org/10.21236/ada637368
 [research_rubin_1965]: https://doi.org/10.2514/6.1965-1151
 [research_rubin_1966]: https://doi.org/10.2514/3.28626
 [research_russell_1964]: https://doi.org/10.2514/6.1964-242
 [research_saiki_2026]: https://doi.org/10.29322/ijsrp.16.05.2026.p17329
+[research_samuelson_1968]: https://doi.org/10.1115/1.3604693
+[research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
 [research_schurmann_1957]: https://doi.org/10.2514/8.12965
+[research_schweppe_1964]: https://doi.org/10.21236/ad0609524
 [research_scott_1963]: https://doi.org/10.21236/ad0410255
 [research_sellers_1948]: https://doi.org/10.2514/8.4244
 [research_sharma_2024]: https://doi.org/10.1063/5.0191101
 [research_shaw_1952]: https://doi.org/10.21236/ad0219218
+[research_simon_1965]: https://doi.org/10.2514/6.1965-1146
 [research_slider_1967]: https://doi.org/10.2118/1765-ms
 [research_slifka_1960]: https://doi.org/10.1109/jrproc.1960.287405
 [research_snodgrass_1955]: https://doi.org/10.2514/8.6860
 [research_snyder_1974]: https://ntrs.nasa.gov/citations/19750032829
 [research_solomon_tamiru_2026]: https://doi.org/10.11648/j.rd.20260703.11
+[research_stancil_1963]: https://doi.org/10.2514/6.1963-223
 [research_steeves_1975]: https://doi.org/10.21236/ada010702
 [research_steeves_1975_2]: https://doi.org/10.21236/ada006493
 [research_stephens_1965]: https://doi.org/10.2514/6.1965-1114
@@ -808,16 +884,26 @@ There is a second result and it belongs to the series rather than to the vehicle
 [research_summerfield_1960]: https://doi.org/10.1515/9781400879953-005
 [research_sun_2024]: https://doi.org/10.1016/j.jfranklin.2024.106849
 [research_tan_2023]: https://doi.org/10.1016/j.actaastro.2023.02.004
+[research_thielemann_1962]: https://ntrs.nasa.gov/citations/19630000948
 [research_thomas_2022]: https://doi.org/10.1016/j.jmapro.2021.12.037
 [research_tonko_lambiase_2024]: https://doi.org/10.1093/europace/euae102.358
 [research_tozawa_1969]: https://doi.org/10.4262/denkiseiko.40.126
+[research_tyzzer_pernet_1964]: https://doi.org/10.21236/ad0601611
+[research_ugural_cheng_1968]: https://doi.org/10.2514/3.4501
 [research_velmurugan_buragohain_2023]: https://doi.org/10.61653/joast.v59i4.2007.584
 [research_ventura_2023]: https://doi.org/10.1016/j.tws.2023.110835
+[research_vreeland_1960]: https://doi.org/10.1520/stp45923s
 [research_wachi_gilmartin_1966]: https://doi.org/10.21236/ad0488914
 [research_wagenblast_bettinger_2024]: https://doi.org/10.1016/j.jsse.2024.10.001
+[research_walters_1967]: https://doi.org/10.21236/ad0658064
+[research_walton_simmons_1962]: https://doi.org/10.21236/ad0286392
+[research_wang_1953]: https://doi.org/10.21236/ad0013969
+[research_wang_1966]: https://doi.org/10.21236/ad0648078
+[research_wang_1973]: https://doi.org/10.1016/0045-7949(73)90058-8
 [research_wang_ramamritham_1947]: https://doi.org/10.2514/8.1498
 [research_webb_2026]: https://doi.org/10.1016/j.ast.2026.112231
 [research_weingarten_1962]: https://doi.org/10.2514/8.9608
+[research_weiss_goodman_1960]: https://doi.org/10.1007/978-1-4757-0537-9_18
 [research_wertheimer_1957]: https://doi.org/10.1119/1.1934474
 [research_whitcombe_1961]: https://doi.org/10.21236/ad0259865
 [research_whitcombe_1961_2]: https://doi.org/10.21236/ad0266445

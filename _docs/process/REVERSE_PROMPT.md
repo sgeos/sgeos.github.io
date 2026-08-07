@@ -9,101 +9,106 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-07
-**Task**: A308 equation-density review, the second of four passes. Committed. **Not pushed.**
+**Task**: A308 primary-reference review, the third of four passes. Committed. **Not pushed.**
 
 ---
 
-## Baseline and Result
+## Baseline
 
-54 display equations across 8697 body words, 6.2 per thousand. **38 added across 18 edits**, taking the
-article from 678 lines and 54 equations to **854 and 92**, which is inside the 90 to 130 band. The
-structural audit found no orphaned or duplicate subsections, and no zero-equation subsection over 180
-words remains against two at baseline.
+79 primary of 149 external, or **53.0 percent**, which is below A307's 61.5 baseline, and only 11 NTRS
+records cited. That last figure was the tell. An article whose keystone is shell stability should not be
+drawing eleven documents from the aerospace archive, and the supplementary sweep confirmed it.
 
----
-
-## The Pass Corrected the Draft's Own Claim
-
-The draft wrote the staging-gain relation down and then asserted, without evaluating it, that the gain
-was modest. Evaluating it gives **1044 metres per second for a three-tonne jettison, or twelve percent
-of the whole ideal velocity.**
-
-The intuition was wrong for a reason worth keeping. **The benefit of staging depends on the ratio of
-jettisoned mass to burnout mass, not to gross mass.** Three tonnes of engine against a burnout mass of
-5395 kilogrammes is an enormous fraction even though it is under three percent of the vehicle at
-lift-off. So the one-and-a-half stage arrangement captures most of the value of staging rather than
-giving it up, and the balloon tank is what makes the burnout mass small enough for that to be true. The
-two decisions reinforce each other instead of trading against each other, which is the opposite of what
-the draft said, and the section was rewritten.
-
-**This is the second time in this article that writing a relation down caught a claim the prose was
-carrying on assertion.** It is now the standing argument for the equation pass existing at all.
+The citation-coverage audit found **eleven sections over 180 words at or below four citations per
+thousand**, and every one was a section the equation pass created or expanded. **Fourth article running.**
 
 ---
 
-## The Pass Also Explained the Article's Headline Number
+## Result
 
-The five pounds per square inch of standing nitrogen is the vehicle's most quotable fact and the draft
-reported it without accounting for it. Inverting the buckling relation for the pressure that produces
-an equal axial tension gives
+A supplementary harvest of 43 NTRS, 20 DTIC, and 18 period queries returned 158, 171, and 172 new
+records, taking the master index from 845 to 1289 entries with zero duplicate URLs. **74 primary
+documents added across 22 edits.**
 
-**2.58 pounds per square inch at the governing heavy gauge**, so the reported five-pound specification
-carries a margin of 1.94 on the calculation. A specification at roughly twice the computed requirement
-is what a designer writes when the requirement rests on a knockdown factor he does not trust, which is
-exactly the situation the article describes two sections earlier.
+References **160 to 234**. Primary sources to **153 of 212 research, 72.2 percent, and 68.6 percent of
+external** — the highest in the series, against A307's 69.3 percent peak.
+
+Coverage is now **four thin sections against eleven**, and three of the four are synthesis sections that
+correctly carry no citations.
 
 ---
 
-## Other Relations Now Shown
+## The Best Find
 
-Euler column buckling of the whole vehicle at 121 times the empty weight, which rules out the global
-mode and establishes that local shell buckling is the failure. The fixed hoop-to-axial ratio of two,
-which is why a tank splits lengthwise. Tank volume and propellant split, with the finding that **52.6
-kilogrammes of nitrogen holds up 5395 kilogrammes of steel, a ratio of 103 to one**. The acoustic
-environment at 153 decibels and 883 pascals at thirty metres. The pogo coupling condition against a
-53 hertz solid-bar mode. The Allen and Eggers result that peak reentry deceleration is independent of
-ballistic coefficient, giving **64 g for the reentry body against 3.44 for the booster that launched
-it**. Boil-off at seven and a half percent of the oxygen load per hour. Maximum dynamic pressure of
-9736 pascals, which is **two percent of the internal tank pressure** and is the clearest statement of
-where this structure's loads come from. The aerodynamic bending moment at three percent of the
-pressure-stabilised capacity. The proof and burst factor chain. The tank figure of merit at under seven
-kilogrammes per tonne of propellant. The four-to-one experimental scatter in shell buckling with the
-design factor sitting at the eleventh percentile of the observed band.
+**The measurement the article's keystone section describes was actually made, and the article did not
+know it.** [Miller and Gerus 1966] reports the bending strength of a large thin-walled
+pressure-stabilised cylinder, which is precisely the relation the equation pass derived, tested on
+hardware of the right size. I had derived $M = \pi p r^{3} / 2$, computed with it, and drawn the
+article's central conclusion from it, without knowing the period had measured the same thing directly.
 
-**And the orbital comparison, which is the best single addition.** Circular orbital speed at two hundred
-kilometres is 7788 metres per second against the 7193 an intercontinental trajectory needs, a difference
-of 595 or seven percent of the ideal velocity. **An intercontinental ballistic missile is already
-ninety-two percent of the way to orbit.** That is why every early space programme was built on a
-ballistic missile and none on a cruise missile, and it is the deepest reason the Atlas outlived the
-Navaho by six decades.
+The second find explains a choice the article had only described. **Peterson 1960 correlates measured
+buckling strength of pressurised cylinders against the pressure parameter**, which is the empirical form
+the design offices actually used, and Babcock and Sechler in 1962 and 1963 measure how much of the
+classical strength an initial imperfection removes. That is why the allowable is a knockdown factor
+rather than a theory.
+
+---
+
+## What Else Closed
+
+**Ground-wind induced oscillation on the pad**, which the article had omitted entirely. A slender vehicle
+in a steady wind sheds vortices and can be driven into resonance, and for a pressure-stabilised vehicle
+the pressure resisting it is the standing five pounds rather than the flight sixty. The period devoted a
+whole meeting to the problem.
+
+Sonic fatigue as a named discipline with its own test methods and statistical machinery. Cryogenic
+pressurisation, autogenous systems, and pre-launch conditioning. The period trajectory and staging
+machinery the range table rests on. And the reentry deceleration result, which **Scherberg and Rubin
+computed in 1953, four years before the X-11 flew**, so the article's use of it is period practice rather
+than hindsight.
+
+---
+
+## A Defect I Introduced and Repaired Inside the Pass
+
+The additions drove the leading citation construction to **39.1 percent**, against a house norm of 20 to
+27, because I did not vary the construction while writing. Fifty-four rotations brought it to **18.8
+percent** with the top actual construction at 3.2 percent.
+
+The rule says to vary while writing rather than afterwards, and it is the third time this session that a
+rule has held while followed and failed the moment it was skipped.
 
 ---
 
 ## Verification
 
-All 42 new worked values re-derived independently, with **one correction**. The pressure fluctuation at
-153 decibels was first written as roughly six hundred pascals and is 883. The relation was rewritten to
-compute it from intensity directly rather than from the rounded sound pressure level, which removes the
-rounding sensitivity that produced the discrepancy.
-
-All 78 previously verified values still reproducing. Zero duplicate headings, zero display-math seam
-defects, zero lone dollar-delimited lines, zero paragraph-repeated citations. Zero contractions,
-em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals. 92 rendered display
-blocks confirmed in the built HTML against 92 in the source, with Part 12 navigation, no unresolved
-reference links and no surviving Liquid tags. `_verify.py` at the 0-error 21-warning corpus baseline.
+234 references with zero undefined, zero orphaned, and zero duplicate URLs. **All 23 fixed identifiers at
+200 and all 192 DOIs Crossref-resolved on title at the 0.85 threshold with zero flagged**, and this
+article contains no hand-entered identifier anywhere. All 78 worked values still reproducing.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose
+colons, prose semicolons, prose parentheticals, doubled words, duplicate headings, or display-math seam
+defects. Isolated build succeeding with 92 rendered display blocks, Part 12 navigation, no unresolved
+reference links and no surviving Liquid tags.
 
 ---
 
-## State
+## State, and a Warning About the Last Pass
 
-**854 lines, 92 display equations, 160 references, 11,180 words.**
+**940 lines, 92 display equations, 234 references, 12,447 words.**
 
-Equations are inside band. **Lines remain 446 short of the 1300 floor and references 90 short of the
-250 floor**, and that gap is larger than it was at the same point in A307, which stood at 1111 lines
-and 218 references after its equation pass. The two remaining passes have correspondingly more to do
-here, and the primary harvest should be aimed at what this pass opened, namely shell stability under
-combined loading, acoustic and vibration environments, cryogenic boil-off and loading, reentry body
-dynamics, and the launch-vehicle transition.
+Equations are inside band. References remain 16 short of the 250 floor, which the publication review will
+close comfortably since it added 96 to A307.
+
+**The line count is the problem.** At 940 against a 1300 floor the gap is 360 lines, and that is larger
+than any article in this series has carried into a publication review. A307 entered its final pass at
+1181 and finished at 1329, a gain of 148. A gain of that size here would finish at about 1090, which is
+short of band.
+
+The contemporary work therefore has to be substantially larger than usual, and the threads this pass
+opened are the ones to aim it at, namely shell stability under combined loading and modern knockdown
+methods, ground-wind and buffet loads, sonic fatigue and acoustic environments, cryogenic tank
+pressurisation and boil-off, and reentry body dynamics. If it still finishes short I will report the
+shortfall rather than pad, per the standing rule.
 
 **Committed, not pushed.** The publication-order dependency is twelve deep. **Categories remain
-undecided** at `aerospace history engineering`, twelve articles deep and raised fourteen times.
+undecided** at `aerospace history engineering`, twelve articles deep and raised fifteen times.
