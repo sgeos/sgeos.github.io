@@ -53,7 +53,11 @@ or 15.7 percent of the ideal velocity, which is a reasonable figure for gravity 
 
 $$v_{bo}(k) = v_{e} \ln \frac{m_{p} + k m_{s}}{k m_{s}} - v_{\text{loss}}$$
 
-and feeding the result into the range relation of the previous article gives
+and feeding the result into the range relation of the previous article, which is
+
+$$\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi$$
+
+gives
 
 | Structure | Burnout speed | Range |
 |-----------|---------------|-------|
@@ -122,6 +126,12 @@ and the axial stress from the same pressure acting on the ends is half of it,
 
 $$\sigma_{z} = \frac{p r}{2 t}$$
 
+The ratio is fixed by geometry and not by design,
+
+$$\frac{\sigma_{\theta}}{\sigma_{z}} = 2$$
+
+which has a consequence every pressure vessel shares. **The hoop direction is always the first to yield, so a tank that bursts splits along its length rather than around its circumference**, and the weld that runs longitudinally is therefore the one that decides the vehicle.
+
 At a flight tank pressure of about 60 pounds per square inch and the heavy gauge this gives
 
 $$\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000940} = 671 \, \text{MPa}$$
@@ -156,6 +166,38 @@ $$m_{\text{saved}} = 43.8 \times 0.000648 \times 8000 = 227 \, \text{kg}$$
 
 or **about four percent of the whole empty vehicle from one design decision**. The cost is that the bulkhead now separates a cryogen at 90 kelvin from a hydrocarbon at ambient temperature, so it must insulate as well as carry load, and a leak across it mixes the propellants inside the vehicle. **The common bulkhead is the Atlas idea that outlived the balloon tank**, and it is standard on cryogenic stages today for exactly the reason computed here.
 
+### What Is Inside, and the Gas That Holds It All Up
+
+The tank volume follows from the geometry,
+
+$$V = \pi r^{2} L = \pi \times 1.524^{2} \times 18 = 131 \, \text{m}^{3}$$
+
+and at a mixture ratio near 2.25 the propellant load divides into
+
+$$m_{\text{LOX}} = m_{p} \frac{MR}{1 + MR} = 112{,}505 \times \frac{2.25}{3.25} = 77{,}888 \, \text{kg}$$
+
+with the balance of 34,617 kilogrammes as kerosene. At densities of 1141 and 800 kilogrammes per cubic metre the volumes are 68.3 and 43.3 cubic metres, so the propellant occupies
+
+$$\frac{111.5}{131} = 0.85$$
+
+of the tank, leaving fifteen percent for ullage, insulation, and the domes, which is a sane figure and a weak confirmation that the assumed tank length is about right.
+
+Against all of that, the mass of nitrogen needed to hold five pounds per square inch of gauge pressure through the whole volume is
+
+$$m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}$$
+
+**Fifty-three kilogrammes of gas holds up five thousand three hundred and ninety-five kilogrammes of steel**, a ratio of 103 to one. That single comparison is the article in one line.
+
+A useful figure of merit for a tank is its mass per unit of volume contained,
+
+$$\eta_{\text{tank}} = \frac{m_{\text{skin}}}{V} = \frac{893}{131} = 6.8 \, \text{kg/m}^{3}$$
+
+which can be read as the penalty paid for carrying a cubic metre of propellant. Against a propellant density averaging
+
+$$\bar{\rho}_{p} = \frac{m_{p}}{V_{p}} = \frac{112{,}505}{111.5} = 1009 \, \text{kg/m}^{3}$$
+
+the tank costs **less than seven kilogrammes for every tonne of propellant it holds**, which is the number that makes a mass ratio of twenty-two possible at all.
+
 ### Buckling, Which Is the Failure Mode That Matters
 
 A thin cylinder in axial compression does not fail by crushing. It buckles, and the classical critical stress is
@@ -170,7 +212,17 @@ and for the light gauge 27.3 megapascals. **That figure is not what a real shell
 
 $$\sigma_{\text{allow}} = 0.2 \times 72.0 = 14.4 \, \text{MPa}$$
 
-for the heavy gauge and 5.5 megapascals for the light one. **A structure whose tensile capacity is 965 megapascals has a compressive capacity of five**, a ratio of nearly two hundred, and that asymmetry is the entire reason the design exists. Shell stability work of the period is [Nickell 1961][research_nickell_1961], [Hausrath and Dittoe 1962][research_hausrath_dittoe_1962], [Hoff et al 1962][research_hoff_1962], and [Bozich 1967][research_bozich_1967], with the external-pressure case in [Shaw et al 1952][research_shaw_1952] and dynamic buckling in [Coppa and Nash 1962][research_coppa_nash_1962].
+for the heavy gauge and 5.5 megapascals for the light one. **A structure whose tensile capacity is 965 megapascals has a compressive capacity of five**, a ratio of nearly two hundred, and that asymmetry is the entire reason the design exists.
+
+It is worth ruling out the other buckling mode explicitly, because a twenty-three metre column is an obvious candidate for it. Treating the vehicle as a cantilever beam of thin-walled section, the second moment of area is
+
+$$I = \pi r^{3} t = \pi \times 1.524^{3} \times 0.000648 = 7.20 \times 10^{-3} \, \text{m}^{4}$$
+
+and the Euler critical load with an effective length factor of two for a fixed base and free top is
+
+$$P_{cr} = \frac{\pi^{2} E I}{(K L)^{2}} = \frac{\pi^{2} \times 193 \times 10^{9} \times 7.20 \times 10^{-3}}{(2 \times 23.11)^{2}} = 6.42 \, \text{MN}$$
+
+against an empty weight of 52.9 kilonewtons, a margin of 121. **The vehicle does not fold as a column. It crumples as a shell**, and the distinction matters because the two failure modes are separated by two orders of magnitude and only one of them is helped by pressure. Shell stability work of the period is [Nickell 1961][research_nickell_1961], [Hausrath and Dittoe 1962][research_hausrath_dittoe_1962], [Hoff et al 1962][research_hoff_1962], and [Bozich 1967][research_bozich_1967], with the external-pressure case in [Shaw et al 1952][research_shaw_1952] and dynamic buckling in [Coppa and Nash 1962][research_coppa_nash_1962].
 
 ### What Five Pounds per Square Inch Buys
 
@@ -179,6 +231,16 @@ Internal pressure produces axial tension, and a fibre that is in tension cannot 
 $$\sigma_{z} = \frac{34{,}474 \times 1.524}{2 \times 0.000940} = 27.9 \, \text{MPa}$$
 
 at the heavy gauge and 73.9 megapascals at the light one. Set those against the knocked-down buckling allowables of 14.4 and 5.5 megapascals respectively and the result is stark. **Five pounds per square inch of nitrogen roughly doubles the effective compressive capability of the heavy gauge and multiplies the light gauge by more than thirteen.** The pressure is not a convenience. It is the larger part of the structure.
+
+The relation can also be inverted, and inverting it explains where the number five came from. Requiring the axial tension from pressure to equal the knocked-down buckling allowable gives
+
+$$p_{\text{req}} = \frac{2 t \sigma_{\text{allow}}}{r}$$
+
+which at the heavy gauge is
+
+$$p_{\text{req}} = \frac{2 \times 0.000940 \times 14.4 \times 10^{6}}{1.524} = 17{,}768 \, \text{Pa} = 2.58 \, \text{psi}$$
+
+and at the light gauge only 0.37 pounds per square inch, because the buckling allowable falls faster with thickness than the pressure tension does. **The governing case is the heavy gauge and it needs 2.58 pounds per square inch, so the reported five-pound standing specification carries a margin of 1.94 on the calculation performed here.** A specification that lands at roughly twice the computed requirement is what a designer writes when the computed requirement rests on a knockdown factor he does not trust, which is exactly the situation described above.
 
 The cleanest statement of the principle is in bending rather than in compression. For a thin-walled cylinder the second moment of area is $I = \pi r^{3} t$, so a bending moment produces an extreme-fibre stress of $M r / I$. Setting that equal to the axial tension from pressure gives the moment at which the most compressed fibre first reaches zero stress,
 
@@ -244,7 +306,15 @@ For a scale height of 7200 metres and an acceleration of three metres per second
 
 $$t_{q} = \sqrt{\frac{2 \times 7200}{3}} = 69 \, \text{s}$$
 
-at an altitude of $\tfrac{1}{2} a t_{q}^{2} = H = 7.2$ kilometres, which is the pleasing result that **a constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height**, independent of the acceleration. The real trajectory is not vertical and the acceleration is not constant, so the actual figure is nearer eleven kilometres and a little over a minute, but the structure of the answer is the structure of the real one. Axial acceleration does the opposite. It grows monotonically as propellant burns away,
+at an altitude of $\tfrac{1}{2} a t_{q}^{2} = H = 7.2$ kilometres, which is the pleasing result that **a constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height**, independent of the acceleration. The value at that point follows by substitution,
+
+$$q_{\max} = \tfrac{1}{2} \rho_{0} e^{-1} (a t_{q})^{2} = \tfrac{1}{2} \rho_{0} e^{-1} \times 2 a H$$
+
+which for the same numbers gives
+
+$$q_{\max} = \tfrac{1}{2} \times 1.225 \times 0.3679 \times 2 \times 3 \times 7200 = 9736 \, \text{Pa}$$
+
+or about 1.4 pounds per square inch of dynamic pressure. **The aerodynamic pressure the vehicle must survive is two percent of the pressure it carries internally**, which is the clearest possible statement of where this structure's loads actually come from. It is a pressure vessel that happens to fly, not an aeroplane that happens to hold propellant. The real trajectory is not vertical and the acceleration is not constant, so the actual figure is nearer eleven kilometres and a little over a minute, but the structure of the answer is the structure of the real one. Axial acceleration does the opposite. It grows monotonically as propellant burns away,
 
 $$n(t) = \frac{T}{\left( m_{0} - \dot{m} t \right) g}$$
 
@@ -254,7 +324,15 @@ $$n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80
 
 **The vehicle therefore meets its worst bending load and its worst axial load at different times**, which is fortunate, because a pressure-stabilised structure that had to carry both at once would need a pressure it could not contain. Ascent load analysis of the period is [Wood 1961][research_wood_1961], with the aerodynamic side in [Binion et al 1962][research_binion_1962].
 
-Angle of attack is what turns dynamic pressure into a bending moment, and it comes from wind. A vehicle rising through a shear layer sees a lateral relative wind and must either fly at an angle to it, which costs bending moment, or steer into it, which costs trajectory. That trade is the reason load-relief steering exists and it is treated below in its modern form.
+Angle of attack is what turns dynamic pressure into a bending moment. The normal force on a slender body at small incidence is
+
+$$N = q S C_{N\alpha} \alpha$$
+
+and taking the reference area as the cross-section, $S = \pi r^{2} = 7.30$ square metres, a normal-force slope of two per radian, and three degrees of incidence at maximum dynamic pressure,
+
+$$N = 9736 \times 7.30 \times 2 \times 0.0524 = 7447 \, \text{N}$$
+
+which acting at a lever arm of ten metres gives a bending moment of 74 kilonewton metres. Against the pressure-stabilised capacity of 2.30 meganewton metres at flight pressure this is **three percent**, so the vehicle has an enormous margin in bending while pressurised and essentially none while not. The incidence comes from wind. A vehicle rising through a shear layer sees a lateral relative wind and must either fly at an angle to it, which costs bending moment, or steer into it, which costs trajectory. That trade is the reason load-relief steering exists and it is treated below in its modern form.
 
 ### The Sustainer, and What Staging Actually Buys
 
@@ -262,9 +340,27 @@ Dropping two engines and a skirt at booster cutoff removes mass that the remaini
 
 $$\Delta v_{\text{gain}} = v_{e} \left[ \ln \frac{m_{1}}{m_{f}} - \ln \frac{m_{1} + m_{j}}{m_{f} + m_{j}} \right]$$
 
-where $m_j$ is the jettisoned mass and $m_1$ is the mass at staging. The expression is small when $m_j$ is small against $m_f$ and grows quickly when it is comparable. **The Atlas jettisons engines and skirt but not tanks**, so $m_j$ is a modest fraction of the burnout mass and the staging gain is correspondingly modest.
+where $m_j$ is the jettisoned mass and $m_1$ is the mass at staging. That expression is worth evaluating rather than describing, and evaluating it overturns the obvious reading.
 
-That is the arithmetic behind the claim made in the origin section. A conventional two-stage vehicle discards the first-stage tanks, which for a vehicle of this mass fraction is by far the largest single item of jettisonable mass. **The one-and-a-half stage arrangement gives up most of the benefit of staging in exchange for not having to light an engine at altitude**, and the balloon tank is what pays for that decision. Staging optimisation of the period is [Schurmann 1957][research_schurmann_1957] and [Parkyn 1958][research_parkyn_1958], and the separation event itself, which imposes its own aerodynamic and jet-interference loads, is [Binion et al 1962][research_binion_1962] and [Binion 1964][research_binion_w_1964].
+The booster phase consumes $\dot{m} t_b = 549 \times 133 = 72{,}977$ kilogrammes, leaving
+
+$$m_{\text{sust}} = m_{p} - \dot{m} t_{b} = 112{,}505 - 72{,}977 = 39{,}528 \, \text{kg}$$
+
+for the sustainer, so the mass at staging after jettison is $m_1 = 5395 + 39{,}528 = 44{,}923$ kilogrammes. Taking a jettisoned booster package of three tonnes, the sustainer phase delivers
+
+$$\Delta v_{\text{dropped}} = 2765 \ln \frac{44{,}923}{5395} = 5861 \, \text{m/s}$$
+
+if the package is discarded and
+
+$$\Delta v_{\text{carried}} = 2765 \ln \frac{47{,}923}{8395} = 4817 \, \text{m/s}$$
+
+if it is not, so the gain is
+
+$$\Delta v_{\text{gain}} = 5861 - 4817 = 1044 \, \text{m/s}$$
+
+**That is twelve percent of the whole ideal velocity for the sake of dropping three tonnes of engine.** The intuition that a half-stage gives up most of the benefit of staging is wrong, and it is wrong because the benefit of staging depends on the ratio of jettisoned mass to burnout mass rather than to gross mass. Three tonnes against a burnout mass of five and a half is an enormous fraction, even though it is under three percent of the vehicle at lift-off.
+
+**The one-and-a-half stage arrangement therefore captures most of the value of staging while avoiding an altitude ignition**, which is a considerably better bargain than it looks, and the balloon tank is what makes the burnout mass small enough for the bargain to be that good. The two decisions reinforce each other rather than trading against each other. Staging optimisation of the period is [Schurmann 1957][research_schurmann_1957] and [Parkyn 1958][research_parkyn_1958], and the separation event itself, which imposes its own aerodynamic and jet-interference loads, is [Binion et al 1962][research_binion_1962] and [Binion 1964][research_binion_w_1964].
 
 ### Structural Proof Testing, Which This Design Makes Unusually Easy
 
@@ -274,7 +370,15 @@ The proof factor relates the test pressure to the design pressure,
 
 $$k_{p} = \frac{p_{\text{proof}}}{p_{\text{design}}}$$
 
-and a factor between 1.1 and 1.25 is conventional for a pressure vessel that will be reused, with the burst factor higher still. Applying a proof factor of 1.25 to the 60 pound flight pressure gives a hoop stress at the heavy gauge of
+and a factor between 1.1 and 1.25 is conventional for a pressure vessel that will be reused, with the burst factor higher still,
+
+$$k_{b} = \frac{p_{\text{burst}}}{p_{\text{design}}} \geq 1.5$$
+
+which at the flight pressure and heavy gauge implies a burst hoop stress of
+
+$$\sigma_{\text{burst}} = 1.5 \times 671 = 1007 \, \text{MPa}$$
+
+against an assumed ultimate of 1276, a margin of 1.27 on the material rather than on the design. Applying a proof factor of 1.25 to the 60 pound flight pressure gives a hoop stress at the heavy gauge of
 
 $$\sigma_{\theta} = 1.25 \times 671 = 839 \, \text{MPa}$$
 
@@ -294,7 +398,25 @@ which is comparable to the time spent near maximum dynamic pressure rather than 
 
 ### The Acoustic and Vibration Environment
 
-A rocket at lift-off sits in its own exhaust noise, and the overall sound pressure level near the base of a large booster reaches values that damage thin panels by fatigue rather than by static overload. The relation that governs the damage is not a stress but a spectrum, and the accumulated damage over an exposure follows a cycle count rather than a peak. **A thin welded shell is the structure most exposed to that mechanism**, and the weld lines are where it acts. Vibration environment specification and correlation is [Snyder et al 1974][research_snyder_1974], and the acoustic measurement practice of the period is [Keast 1961][research_keast_1961].
+A rocket at lift-off sits in its own exhaust noise, and the overall sound pressure level near the base of a large booster reaches values that damage thin panels by fatigue rather than by static overload. The relation that governs the damage is not a stress but a spectrum, and the accumulated damage over an exposure follows a cycle count rather than a peak. **A thin welded shell is the structure most exposed to that mechanism**, and the weld lines are where it acts.
+
+The level can be estimated. The mechanical power in the jet is
+
+$$P_{\text{jet}} = \tfrac{1}{2} \dot{m} v_{e}^{2} = \tfrac{1}{2} \times 549 \times 2765^{2} = 2.10 \, \text{GW}$$
+
+of which rocket exhausts convert something near half of one percent into sound, so the radiated acoustic power is about 10.5 megawatts. Spreading that over a hemisphere at thirty metres gives an intensity of
+
+$$I = \frac{P_{\text{ac}}}{2 \pi d^{2}} = \frac{1.05 \times 10^{7}}{2 \pi \times 900} = 1855 \, \text{W/m}^{2}$$
+
+and a sound pressure level of
+
+$$L_{p} = 10 \log_{10} \frac{I}{10^{-12}} = 153 \, \text{dB}$$
+
+falling to 142 decibels at a hundred metres. The pressure fluctuation follows from the intensity directly, which avoids rounding the level,
+
+$$p_{\text{rms}} = \sqrt{I \rho c} = \sqrt{1855 \times 1.225 \times 343} = 883 \, \text{Pa}$$
+
+so **a hundred and fifty-three decibels is a pressure fluctuation of about 0.13 pounds per square inch**, which is small against the sixty inside the tank but is applied at hundreds of hertz for the duration of the lift-off transient, and fatigue does not care about the mean. Vibration environment specification and correlation is [Snyder et al 1974][research_snyder_1974], and the acoustic measurement practice of the period is [Keast 1961][research_keast_1961].
 
 ### Slosh, Which a Balloon Tank Makes Worse
 
@@ -312,7 +434,13 @@ or 0.95 hertz, which sits uncomfortably close to the bandwidth of a thrust-vecto
 
 ### Pogo, Which Is the Structure and the Propulsion Talking to Each Other
 
-A liquid rocket whose structure has a longitudinal mode near the frequency at which its feed system and engine respond can close a loop through the propellant column, and the vehicle oscillates along its own axis. The mechanism is [Rubin 1965][research_rubin_1965] and [Rubin 1966][research_rubin_1966], the naming and early study are [Goldman and Miessner 1965][research_goldman_miessner_1965] and [Goldman and Miessner 1966][research_goldman_miessner_1966], the accumulator remedy is [Marcus et al 1969][research_marcus_1969], and the best-known case is [Hill et al 1969][research_hill_1969] on Saturn V. **A pressure-stabilised vehicle is unusually exposed to this**, because its longitudinal stiffness is partly a function of tank pressure and therefore changes as the tanks drain. Missile structural dynamics of the period is [Wood 1961][research_wood_1961], with clustered-vehicle bending in [Loewy 1965][research_loewy_1965] and shell vibration in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
+A liquid rocket whose structure has a longitudinal mode near the frequency at which its feed system and engine respond can close a loop through the propellant column, and the vehicle oscillates along its own axis. The mechanism is [Rubin 1965][research_rubin_1965] and [Rubin 1966][research_rubin_1966], the naming and early study are [Goldman and Miessner 1965][research_goldman_miessner_1965] and [Goldman and Miessner 1966][research_goldman_miessner_1966], the accumulator remedy is [Marcus et al 1969][research_marcus_1969], and the best-known case is [Hill et al 1969][research_hill_1969] on Saturn V. **A pressure-stabilised vehicle is unusually exposed to this**, because its longitudinal stiffness is partly a function of tank pressure and therefore changes as the tanks drain.
+
+The scale of the problem is set by how soft the vehicle is. A solid steel bar of the same length has a fixed-free axial mode at
+
+$$f_{1} = \frac{c}{4L} = \frac{1}{4L} \sqrt{\frac{E}{\rho}} = \frac{4912}{4 \times 23.11} = 53 \, \text{Hz}$$
+
+but a launch vehicle is not a solid bar. It is a thin shell containing a large mass of liquid, and its first axial mode sits an order of magnitude lower, in the region of twenty hertz, which is uncomfortably close to the response of a feed system and turbopump. **The instability condition is that the structural mode and the propulsion response overlap in frequency with enough gain around the loop**, and both quantities move during the flight, the structure because the tanks drain and the propulsion because the inlet pressure falls. Missile structural dynamics of the period is [Wood 1961][research_wood_1961], with clustered-vehicle bending in [Loewy 1965][research_loewy_1965] and shell vibration in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
 
 ### Guidance, Which the Atlas A Did Not Carry
 
@@ -348,7 +476,17 @@ or **0.13 metres per second out of 7193**. Cutting the engines at the right inst
 
 ### The Reentry Vehicle, Which Is Not the Missile
 
-Everything above concerns a vehicle whose job ends at burnout. What arrives at the target is a separate body that must survive a reentry the booster never experiences, and the Atlas A carried no operational reentry vehicle at all. Nose-cone and ablation work of the period is [Stetson 1964][research_stetson_1964], [Wachi and Gilmartin 1966][research_wachi_gilmartin_1966], and [Rindal and Dahm 1967][research_rindal_dahm_1967], with hemispherical-nose heat transfer in [Nardo and Sadler 1962][research_nardo_sadler_1962], flight heating measurements in [Snodgrass 1955][research_snodgrass_1955], and the roll-resonance problem in [Platus 1967][research_platus_1967].
+Everything above concerns a vehicle whose job ends at burnout. What arrives at the target is a separate body that must survive a reentry the booster never experiences, and the Atlas A carried no operational reentry vehicle at all.
+
+The governing result is worth stating because it is unusually clean. For a ballistic body entering an exponential atmosphere on a straight path, the peak deceleration is
+
+$$a_{\max} = \frac{v_{e}^{2} \sin \gamma}{2 e H}$$
+
+where $\gamma$ is the entry flight path angle and $H$ the scale height, and the striking feature is that **the ballistic coefficient does not appear**. A heavy dense body and a light one decelerate equally hard, and differ only in the altitude at which they do it. For an entry speed of seven kilometres per second at thirty degrees,
+
+$$a_{\max} = \frac{7000^{2} \times 0.5}{2 \times 2.718 \times 7200} = 626 \, \text{m/s}^{2} = 64 g$$
+
+**The reentry body is decelerated at sixty-four times gravity while the booster that launched it never exceeded three and a half.** The two halves of a ballistic missile are different structural problems by a factor of nearly twenty, which is the reason they are different articles built by different people, and the reason the X-11 could be a complete test of one while carrying none of the other. Nose-cone and ablation work of the period is [Stetson 1964][research_stetson_1964], [Wachi and Gilmartin 1966][research_wachi_gilmartin_1966], and [Rindal and Dahm 1967][research_rindal_dahm_1967], with hemispherical-nose heat transfer in [Nardo and Sadler 1962][research_nardo_sadler_1962], flight heating measurements in [Snodgrass 1955][research_snodgrass_1955], and the roll-resonance problem in [Platus 1967][research_platus_1967].
 
 ### Ground Handling, Which the Structure Dictates
 
@@ -356,7 +494,19 @@ A vehicle that collapses unpressurised cannot be handled like an aeroplane. It r
 
 The propellant loading problem deserves its own note, because a balloon tank couples loading to structure in a way a conventional tank does not. Filling the tank changes the pressure the walls must hold, changes the mass the walls must carry, and changes the temperature of the material, and all three happen while the vehicle is standing unsupported on a pad. **Loading is a structural operation and not merely a fluid transfer.** Optimum propellant loading and utilisation is [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2], and ground support equipment practice of the period is [Moore 1958][research_moore_1958] and [Newton and Makrides 1954][research_newton_makrides_1954], with launch complex activation in [Powell 1962][research_powell_1962].
 
-The boil-off that follows is a second coupling. Liquid oxygen at 90 kelvin against an ambient near 290 boils continuously, so the tank must be topped until moments before launch and the ullage pressure must be regulated throughout. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. Pressure buildup analysis for a cryogenic tank is [Slider 1967][research_slider_1967], and two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
+The boil-off that follows is a second coupling, and its rate explains why topping continues until moments before launch. With a wetted area of
+
+$$A = 2 \pi r L = 2 \pi \times 1.524 \times 18 = 172 \, \text{m}^{2}$$
+
+an uninsulated tank at a convective coefficient of ten watts per square metre kelvin against a two hundred kelvin difference admits
+
+$$\dot{Q} = h A \Delta T = 10 \times 172 \times 200 = 345 \, \text{kW}$$
+
+and at a latent heat of 213 kilojoules per kilogramme the boil-off is
+
+$$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}$$
+
+or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. Pressure buildup analysis for a cryogenic tank is [Slider 1967][research_slider_1967], and two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
 
 ## The Flight Test Record
 
@@ -373,7 +523,15 @@ Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 
 | 1958-04-05 | 15A | 100 km | failure |
 | 1958-06-03 | 16A | 120 km | success |
 
-The first flight reached two kilometres and was destroyed, and the reported detail that matters for this article is that **the vehicle tumbled and the structure held**. A pressure-stabilised shell that survives a tumble at low altitude has demonstrated the one thing about it that everyone doubted, and it did so under a load case nobody designed for. A tumbling vehicle sees its bending moment applied at an arbitrary angle and reversed once per revolution, which is the worst possible use of a structure whose compressive capacity is two hundred times smaller than its tensile one. That it held is evidence that the pressure stabilisation was working exactly as the relation above says it should, since the relation does not care about the direction of the moment.
+The first flight reached two kilometres and was destroyed, and the reported detail that matters for this article is that **the vehicle tumbled and the structure held**. A pressure-stabilised shell that survives a tumble at low altitude has demonstrated the one thing about it that everyone doubted, and it did so under a load case nobody designed for. A tumbling vehicle sees its bending moment applied at an arbitrary angle and reversed once per revolution, which is the worst possible use of a structure whose compressive capacity is two hundred times smaller than its tensile one. That it held is evidence that the pressure stabilisation was working exactly as the relation above says it should, since the relation does not care about the direction of the moment. A tumbling vehicle at rotation rate $\Omega$ also loads itself centrifugally, and the transverse acceleration at the tip of a body of length $L$ rotating about its centre is
+
+$$a_{\text{tip}} = \Omega^{2} \frac{L}{2}$$
+
+so even a slow tumble at one revolution per second gives
+
+$$a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g$$
+
+at the nose, applied as a bending load along the whole vehicle. **The structure that everyone expected to fold survived a load case nobody had designed for.**
 
 The flight-by-flight record for the operational variants is in the Flight Test Working Group reports, of which [Diegoca 1961][research_diegoca_1961] is one, and the survival-probability analysis such a programme generates is [Beer and Lennox 1965][research_beer_lennox_1965].
 
@@ -403,13 +561,31 @@ The Atlas structure was tested on the ground more thoroughly than most, because 
 
 The gap between ground and flight is therefore not in the structure but in the combined environment. A tank can be pressure-tested, a shell can be buckling-tested, and neither test applies the acoustic field, the vibration, the thermal gradient, and the axial acceleration at once. Shell-buckling experiment of the period is [Nickell 1961][research_nickell_1961] and [Leaumont 1965][research_leaumont_1965], and the standing difficulty that experiments scatter far below theory is the subject of [Karman and Tsien 1941][research_karman_tsien_1941] and remains the reason a knockdown factor exists at all.
 
-The scatter deserves a number, because it is the largest single uncertainty in the article. Experimental buckling loads for cylinders in this range of radius to thickness fall between roughly fifteen and sixty percent of the classical value, a spread of four to one, and the design factor is chosen near the bottom of that band. **A structure designed against a four-to-one experimental scatter is being designed against ignorance rather than against a load**, and the pressure-stabilised solution sidesteps the whole difficulty by arranging that no fibre goes into compression at all. That is the deepest sense in which the balloon tank is not merely lighter but epistemically cleaner. Its failure mode is yield, which is predictable to a few percent, rather than buckling, which is not. The standard treatments are [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961] and [Brush and Almroth 1975 Buckling of Bars, Plates and Shells][book_brush_almroth_1975], with vehicle structural practice in [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973].
+The scatter deserves a number, because it is the largest single uncertainty in the article. Experimental buckling loads for cylinders in this range of radius to thickness fall between roughly fifteen and sixty percent of the classical value,
+
+$$0.15 \leq \frac{\sigma_{\exp}}{\sigma_{cr}} \leq 0.60 \qquad \frac{0.60}{0.15} = 4$$
+
+a spread of four to one, and the design factor of 0.20 used above sits at
+
+$$\frac{0.20 - 0.15}{0.60 - 0.15} = 0.11$$
+
+or the eleventh percentile of the observed band, which is to say very near the worst case observed. **A structure designed against a four-to-one experimental scatter is being designed against ignorance rather than against a load**, and the pressure-stabilised solution sidesteps the whole difficulty by arranging that no fibre goes into compression at all. That is the deepest sense in which the balloon tank is not merely lighter but epistemically cleaner. Its failure mode is yield, which is predictable to a few percent, rather than buckling, which is not. The standard treatments are [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961] and [Brush and Almroth 1975 Buckling of Bars, Plates and Shells][book_brush_almroth_1975], with vehicle structural practice in [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973].
 
 ## What the Data Changed
 
 ### Into Atlas, and Then Into Everything
 
 The X-11 fed directly into the Atlas B, which is the [X-12][ref_series_close] and the next article, and thence into the operational Atlas D, E, and F. The line then did something no other early ballistic missile did. **It became a launch vehicle and stayed one for sixty years.** Atlas launched Mercury, the Agena upper stage, and a long series of planetary missions, and the balloon-tank principle carried into the Centaur upper stage, which still uses it.
+
+The reason it could is arithmetic rather than sentiment. Circular orbital speed at two hundred kilometres is
+
+$$v_{\text{orb}} = \sqrt{\frac{\mu}{R_{e} + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.571 \times 10^{6}}} = 7788 \, \text{m/s}$$
+
+against the 7193 metres per second an intercontinental trajectory needs, a difference of
+
+$$v_{\text{orb}} - v_{bo} = 595 \, \text{m/s}$$
+
+or seven percent of the ideal velocity. **An intercontinental ballistic missile is already ninety-two percent of the way to orbit**, and the remaining eight percent is a small upper stage. That is why every early space programme was built on a ballistic missile and why none was built on a cruise missile, and it is the deepest reason the Atlas outlived the Navaho by six decades.
 
 Trajectory optimisation for the Atlas and Agena combination is [Frazier 1967][research_frazier_1967], and the control systems that a large launch vehicle of the following generation required are [Borelli and Carroll 1967][research_borelli_carroll_1967].
 
