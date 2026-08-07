@@ -9,123 +9,101 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-07
-**Task**: A308, the Convair X-11, drafted, verified, and committed. **Not pushed**, per the rhythm.
-Three review passes remain.
+**Task**: A308 equation-density review, the second of four passes. Committed. **Not pushed.**
 
 ---
 
-## First, the Outstanding A307 Item Is Closed
+## Baseline and Result
 
-The publication review reported that GitHub had created no CI run for the A307 push. Two runs for
-`02127ae` have since appeared and **both completed successfully**. The delay was on GitHub's side, as
-suspected. The site is deployed, the root returns 200, and A307 returns 404 because it is not
-published, which is correct.
-
----
-
-## What the X-11 Is
-
-**The Atlas A.** It is the first flying article of the programme whose ballistic timeline the previous
-article computed as the reason the Navaho was cancelled. The X-10 and the X-11 are separated by one
-designation and four weeks. The X-11 first flew on 11 June 1957 and the Navaho cancellation message is
-dated 12 July 1957.
-
-**The keystone is structural mass fraction, and the vehicle cannot stand up without internal pressure.**
-The skin is 301 extra-full-hard stainless at 0.014 to 0.037 inches, a radius-to-thickness ratio of 1622
-to 4286, which is **five to thirteen times thinner in proportion than an aluminium drink can**. It needs
-about five pounds per square inch of nitrogen when unfuelled or it folds.
+54 display equations across 8697 body words, 6.2 per thousand. **38 added across 18 edits**, taking the
+article from 678 lines and 54 equations to **854 and 92**, which is inside the 90 to 130 band. The
+structural audit found no orphaned or duplicate subsections, and no zero-equation subsection over 180
+words remains against two at baseline.
 
 ---
 
-## The Central Result, Which Closes With A307
+## The Pass Corrected the Draft's Own Claim
 
-A structural mass fraction of 4.58 percent gives a mass ratio of 21.85 and an ideal velocity of 8530
-metres per second. Subtracting the 7193 metres per second that the previous article derived for a ten
-thousand kilometre ballistic trajectory gives gravity and drag losses of 1337, adopted as a calibration.
-Scaling the structure and carrying it back through both relations gives
+The draft wrote the staging-gain relation down and then asserted, without evaluating it, that the gain
+was modest. Evaluating it gives **1044 metres per second for a three-tonne jettison, or twelve percent
+of the whole ideal velocity.**
 
-| Structure | Range |
-|---|---|
-| as built | 9,999 km |
-| 1.5 times | 5,676 km |
-| 2 times | 3,941 km |
-| 3 times | 2,346 km |
+The intuition was wrong for a reason worth keeping. **The benefit of staging depends on the ratio of
+jettisoned mass to burnout mass, not to gross mass.** Three tonnes of engine against a burnout mass of
+5395 kilogrammes is an enormous fraction even though it is under three percent of the vehicle at
+lift-off. So the one-and-a-half stage arrangement captures most of the value of staging rather than
+giving it up, and the balloon tank is what makes the burnout mass small enough for that to be true. The
+two decisions reinforce each other instead of trading against each other, which is the opposite of what
+the draft said, and the section was rewritten.
 
-**Making the structure half as efficient costs sixty-one percent of the range**, which turns an
-intercontinental weapon into an intermediate-range one. That is the whole argument for the balloon tank.
-
----
-
-## The Series Contribution, Which Neither Article Could Make Alone
-
-The X-10's keystone was a drift rate. It accumulates, and twenty-eight minutes of flight could not
-measure it. The X-11's keystone is a structural load. It is applied in full within the first two
-minutes, so a flight reaching only 120 kilometres of apogee and a fifth of the intercontinental burnout
-speed still applies every load the mission will ever apply.
-
-**A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.**
-The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen
-percent of its, and the difference is a property of the quantity rather than of either company.
+**This is the second time in this article that writing a relation down caught a claim the prose was
+carrying on assertion.** It is now the standing argument for the equation pass existing at all.
 
 ---
 
-## Other Results the Sources Do Not State
+## The Pass Also Explained the Article's Headline Number
 
-The critical bending moment of a pressure-stabilised cylinder is $M = \pi p r^{3} / 2$ and is
-**independent of skin thickness**, which is the mathematical form of the claim that the pressure is
-doing the work. The tensile allowable exceeds the knocked-down compressive allowable by a factor of 67.
-The light gauge cannot exist at full pressure, which demonstrates the thickness taper rather than
-contradicting it. The common bulkhead saves about four percent of the empty vehicle. A
-constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height,
-independent of the acceleration. And the range sensitivity to burnout velocity is 4.34, so an
-eight-hundred-metre accuracy requires cutting the engines to **0.13 metres per second out of 7193**,
-which is why this weapon needs a clock where the previous one needed a navigator.
+The five pounds per square inch of standing nitrogen is the vehicle's most quotable fact and the draft
+reported it without accounting for it. Inverting the buckling relation for the pressure that produces
+an equal axial tension gives
 
----
-
-## Source Base, a Controlled Contrast
-
-The same Crossref route into the defence archive that returns nothing whatever for the Navaho project
-number MX-770 returns, for the Atlas, Flight Test Working Group reports for individual missiles, five
-volumes of a Difficulties Review of the booster and its ground support, propellant-loading system
-design, and engine system-test data. **Same archive, same route, same query form, and the difference is
-that one programme was cancelled in 1957 and the other flew for sixty years.**
+**2.58 pounds per square inch at the governing heavy gauge**, so the reported five-pound specification
+carries a margin of 1.94 on the calculation. A specification at roughly twice the computed requirement
+is what a designer writes when the requirement rests on a knockdown factor he does not trust, which is
+exactly the situation the article describes two sections earlier.
 
 ---
 
-## An Error I Made and Corrected
+## Other Relations Now Shown
 
-The range-to-velocity sensitivity was first written as approximately 2.4, with a derivation that was
-malformed as displayed. **The correct value is 4.34**, confirmed by closed form and by numerical
-differentiation, and the dependent figures changed from 24 to 43 kilometres and from 0.24 to 0.13
-metres per second.
+Euler column buckling of the whole vehicle at 121 times the empty weight, which rules out the global
+mode and establishes that local shell buckling is the failure. The fixed hoop-to-axial ratio of two,
+which is why a tank splits lengthwise. Tank volume and propellant split, with the finding that **52.6
+kilogrammes of nitrogen holds up 5395 kilogrammes of steel, a ratio of 103 to one**. The acoustic
+environment at 153 decibels and 883 pascals at thirty metres. The pogo coupling condition against a
+53 hertz solid-bar mode. The Allen and Eggers result that peak reentry deceleration is independent of
+ballistic coefficient, giving **64 g for the reentry body against 3.44 for the booster that launched
+it**. Boil-off at seven and a half percent of the oxygen load per hour. Maximum dynamic pressure of
+9736 pascals, which is **two percent of the internal tank pressure** and is the clearest statement of
+where this structure's loads come from. The aerodynamic bending moment at three percent of the
+pressure-stabilised capacity. The proof and burst factor chain. The tank figure of merit at under seven
+kilogrammes per tonne of propellant. The four-to-one experimental scatter in shell buckling with the
+design factor sitting at the eleventh percentile of the observed band.
 
-The cause is worth recording plainly. That expansion was written without computing the values first,
-which is exactly what the compute-before-writing rule forbids, and the defect appeared the moment the
-rule was skipped. The rule has held for three articles when followed and failed immediately when not.
+**And the orbital comparison, which is the best single addition.** Circular orbital speed at two hundred
+kilometres is 7788 metres per second against the 7193 an intercontinental trajectory needs, a difference
+of 595 or seven percent of the ideal velocity. **An intercontinental ballistic missile is already
+ninety-two percent of the way to orbit.** That is why every early space programme was built on a
+ballistic missile and none on a cruise missile, and it is the deepest reason the Atlas outlived the
+Navaho by six decades.
 
 ---
 
 ## Verification
 
-All 78 worked values re-derived independently, with no corrections beyond the one above. 160 references
-with zero undefined, zero orphaned, and zero duplicate URLs. `_verify.py` at the 0-error 21-warning
-corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose
-parentheticals, doubled words, duplicate headings, display-math seam defects, or lone dollar-delimited
-lines. Isolated build succeeding with 54 rendered display blocks against 54 in source, Part 12
-navigation, both tables, no unresolved reference links and no surviving Liquid tags.
+All 42 new worked values re-derived independently, with **one correction**. The pressure fluctuation at
+153 decibels was first written as roughly six hundred pascals and is 883. The relation was rewritten to
+compute it from intensity directly rather than from the rounded sound pressure level, which removes the
+rounding sensitivity that produced the discrepancy.
+
+All 78 previously verified values still reproducing. Zero duplicate headings, zero display-math seam
+defects, zero lone dollar-delimited lines, zero paragraph-repeated citations. Zero contractions,
+em-dashes, en-dashes, prose colons, prose semicolons, or prose parentheticals. 92 rendered display
+blocks confirmed in the built HTML against 92 in the source, with Part 12 navigation, no unresolved
+reference links and no surviving Liquid tags. `_verify.py` at the 0-error 21-warning corpus baseline.
 
 ---
 
 ## State
 
-**678 lines, 54 display equations, 160 references, 9,301 words.**
+**854 lines, 92 display equations, 160 references, 11,180 words.**
 
-All three densities are under band, which is the intended approach direction, but **this is further
-below than A307's draft was** at 943, 84, and 213. The three passes have more to close here than they
-did there, and I am flagging it rather than padding.
-
-The harvest is retained for A309, since the X-12 is the Atlas B and shares most of the record.
+Equations are inside band. **Lines remain 446 short of the 1300 floor and references 90 short of the
+250 floor**, and that gap is larger than it was at the same point in A307, which stood at 1111 lines
+and 218 references after its equation pass. The two remaining passes have correspondingly more to do
+here, and the primary harvest should be aimed at what this pass opened, namely shell stability under
+combined loading, acoustic and vibration environments, cryogenic boil-off and loading, reentry body
+dynamics, and the launch-vehicle transition.
 
 **Committed, not pushed.** The publication-order dependency is twelve deep. **Categories remain
-undecided** at `aerospace history engineering`, twelve articles deep and raised thirteen times.
+undecided** at `aerospace history engineering`, twelve articles deep and raised fourteen times.

@@ -88,7 +88,55 @@ Part 12 navigation, both tables, no unresolved reference links and no surviving 
 the outset for this article, carrying forward the A307 repair, and the manual author-display corrections
 for the five Difficulties Review volumes live in the normaliser so they survive regeneration.
 
-Held in `_drafts/` pending the equation-density, reference-density, and publication review passes.
+**Equation-density review performed on request.** Baseline 54 display equations across 8697 body words,
+6.2 per thousand. The structural audit found no orphaned or duplicate subsections. 38 equations added
+across 18 edits, taking the article from 678 lines and 54 equations to 854 and **92**, which is inside
+the 90 to 130 band. References unchanged at 160.
+
+**The pass corrected the draft's own claim.** The draft wrote the staging-gain relation and then
+asserted without evaluating it that the gain was modest. Evaluating it gives **1044 metres per second
+for a three-tonne jettison, or 12 percent of the whole ideal velocity**. The intuition is wrong because
+the benefit of staging depends on the ratio of jettisoned mass to burnout mass rather than to gross
+mass, and three tonnes against a burnout mass of 5395 kilogrammes is an enormous fraction. The
+one-and-a-half stage arrangement therefore captures most of the value of staging rather than giving it
+up, and the article's argument was rewritten accordingly.
+
+**The pass also explained the article's own headline number.** Inverting the buckling relation for the
+pressure that produces an equal axial tension gives **2.58 pounds per square inch at the governing
+heavy gauge**, so the reported five-pound standing specification carries a margin of 1.94 on the
+calculation. A specification at roughly twice the computed requirement is what a designer writes when
+the requirement rests on a knockdown factor he does not trust.
+
+Other relations added: Euler column buckling of the whole vehicle at 121 times the empty weight, which
+rules out the global mode and establishes that local shell buckling is the failure; the fixed hoop-to-axial
+ratio of two, which is why a tank splits lengthwise; tank volume, propellant split, and the finding that
+**52.6 kilogrammes of nitrogen holds up 5395 kilogrammes of steel, a ratio of 103 to one**; the acoustic
+environment at 153 decibels and 883 pascals at thirty metres; the pogo coupling condition against a
+53 hertz solid-bar mode; the Allen and Eggers result that peak reentry deceleration is independent of
+ballistic coefficient, giving 64 g against the booster's 3.44; boil-off at 7.5 percent of the oxygen load
+per hour; the maximum dynamic pressure of 9736 pascals, which is **two percent of the internal tank
+pressure**; the aerodynamic bending moment at three percent of the pressure-stabilised capacity; the
+proof and burst factor chain; the tank figure of merit of under seven kilogrammes per tonne of
+propellant; the four-to-one experimental scatter in shell buckling with the design factor at the
+eleventh percentile; and the orbital comparison showing that **an intercontinental missile is already
+92 percent of the way to orbit**, which is why the Atlas became a launcher and the Navaho became nothing.
+
+**Equation-pass verification**: all 42 new worked values re-derived independently, with one correction.
+The pressure fluctuation at 153 decibels was first written as roughly six hundred pascals and is 883,
+and the relation was rewritten to compute it from intensity directly rather than from the rounded level.
+All 78 previously verified values still reproducing. Zero duplicate headings, zero display-math seam
+defects, zero lone dollar-delimited lines, zero paragraph-repeated citations. 92 rendered display blocks
+confirmed in the built HTML against 92 in the source, Part 12 navigation, `_verify.py` at the 0-error
+21-warning corpus baseline.
+
+**No zero-equation subsections over 180 words remain**, against two at baseline.
+
+**State after the equation pass**: 854 lines, 92 display equations, 160 references, 11,180 words.
+Equations inside band. Lines remain 446 short of the 1300 floor and references 90 short of the 250
+floor, both of which the reference-density and publication review passes must close, and the gap is
+larger than it was at the same point in A307.
+
+Held in `_drafts/` pending the reference-density and publication review passes.
 
 ## X-Planes North American X-10 A307 2025-10-16
 
