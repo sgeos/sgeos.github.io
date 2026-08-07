@@ -135,7 +135,35 @@ openly published**, because the shape of the Earth was not a secret.
 All four debt sections closed. 251 external URLs with zero duplicates, 30 of 30 fixed identifiers at
 200, 217 of 217 DOIs Crossref-resolved at 0.85 with zero flagged, isolated build clean.
 
-**Remaining for the publication review**: **contemporary references are 23, or 9.3 percent of
+**Publication review complete, 2026-08-07. All four passes done.** **1505 lines, 137 display
+equations, 399 references, 18,179 body words. Lines inside band at 1505 against 1300 to 1600.**
+Equations seven above the ceiling and references nineteen above, both reported rather than trimmed
+under the standing directive of no length limit and no reference limit. **Nothing was trimmed at any
+point in any of the four passes.**
+
+**The review ran the article's own arithmetic forward**, recomputing the accuracy chain at a modern
+circular error probable. A 120 metre weapon needs its burnout speed correct to one part in 362,029,
+with 7.24 micro-g of accelerometer bias and 0.0107 degrees per hour of drift, **thirty-one times
+better than the Atlas needed**. The cube-root yield scaling then gives a factor of **2.94 times ten
+to the fourth**, so a warhead delivered to 120 metres does the work of one nearly thirty thousand
+times larger delivered to two nautical miles. That ratio is why the arsenals grew more accurate
+rather than larger.
+
+**Contemporary coverage closed with an 84-query sweep returning 923 records**, taking contemporary
+references from 23 to **158, or 41.4 percent of dated**, inside the 101 to 189 range held since A301.
+Fourteen subsections replaced seven paragraphs.
+
+**Two further anchor-drift cases, one caught by each guard.** The URL-stability guard fired on the
+very next regeneration; the link-text invariant caught two more in citations being added. The two
+mechanisms are complementary and neither covers the other's case.
+
+399 reference definitions, 387 external URLs with zero duplicates, 31 of 31 fixed identifiers at 200
+after two retries, 352 of 352 DOIs Crossref-resolved at 0.85 with zero flagged, 176 worked values
+reproducing, isolated build clean at 137 rendered display blocks matching source exactly.
+
+**Status**: committed and **pushed**. **Not published.** Thirteen of seventy-two complete.
+
+**Superseded, retained for the record**: **contemporary references are 23, or 9.3 percent of
 dated.** The absolute count is unchanged since the draft and the percentage fell only because the
 primary pass grew the denominator, which is the count-versus-percentage behaviour the series has
 seen before. Against the 101 to 189 absolute count held since A301 this is **the largest contemporary

@@ -9,140 +9,151 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-07
-**Task**: A309 primary-reference pass, the third of four. Committed and **not pushed**. **Not
+**Task**: A309 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.** All thirteen articles in the series remain in `_drafts/`.
 
 ---
 
-## Two Cited References Had Silently Become Different Papers
+## The Review Ran the Article's Own Arithmetic Forward
 
-This belongs first because it is a defect that shipped undetected in the previous two passes and
-would have shipped in the article.
+This is the most useful thing the pass did and it is the new lead of the contemporary section.
 
-Rebuilding the master table on the enlarged harvest **moved two anchors the article was already
-citing onto entirely different documents.** `research_buell_1964` went from a paper on ground-wind
-loads in launch vehicles to one on Doppler-inertial techniques, and `research_naca_1969` went from an
-Atlas-Agena flight performance report to a study of inflatable falling spheres. Both were cited in
-passages where the original document was the correct one, so the article would have carried two
-citations pointing at unrelated work.
+Nothing in the range law has changed since 1958, so the accuracy chain can be recomputed against a
+modern requirement by substituting a smaller circular error probable. Doing so gives, for a
+hundred-and-twenty-metre weapon, a burnout speed correct to **one part in 362,029**, which is two
+centimetres per second, requiring an accelerometer bias of 7.24 micro-g and a gyroscope drift of
+0.0107 degrees per hour. **Instruments about thirty-one times better than the Atlas needed, in both
+terms.**
 
-The cause is the one the handoff already records. Disambiguation suffixes are assigned in generator
-iteration order, so a larger harvest reshuffles them. **What was new is that this can happen to
-already-cited anchors and not merely to ones being chosen**, which the previous statement of the rule
-did not cover.
+The consequence is the one that actually shaped the arsenals. Carrying the cube-root yield scaling
+through the same improvement gives
 
-**The toolchain now prevents it structurally.** The reference section already in the file records the
-URL each anchor had when it was cited, so it is ground truth for what the prose meant. The generator
-compares every cited anchor's new URL against that record and refuses to regenerate if any changed.
-It is a guard rather than a habit, which is what this defect class needed after biting twice.
+**a factor of 2.94 times ten to the fourth.**
 
----
-
-## The Pass Found an Entire Missing Literature
-
-**The largest addition was not planned and came from following a relation rather than a topic.**
-
-The equation pass established that the flattening of the Earth is 21.4 kilometres, or 5.8 times the
-miss budget, and that the oblate field displaces the impact point by of order 34 kilometres. The
-article named the consequence in one sentence, that the ballistic missile created a geodetic
-requirement it could not itself satisfy. The harvest assembled for a missile article contained
-**nothing at all** about datums, geoids, deflection of the vertical, or zonal harmonics.
-
-A sweep aimed at them returned a complete discipline, and a new section now traces it. The classical
-pre-satellite method determined the geoid from surface gravity and left continental datums internally
-consistent and mutually offset, so **two continents surveyed separately are two coordinate systems
-and a weapon aimed from one at the other is aiming at a number rather than a place.** Satellite
-perturbations then determined the zonal harmonics directly, Doppler tracking supplied the non-zonal
-terms, and a world datum tying the continents together arrives in the mid 1970s.
-
-**Sixteen years separate the first Atlas B flight from a published world geodetic datum**, so for
-much of the force's operational life the target coordinates were plausibly less well known than the
-guidance system's own contribution to the error budget. That inference is flagged in the Epistemic
-State as resting on publication dates rather than on when the knowledge reached a targeting
-organisation, which may well have been earlier and classified.
-
-**The source-base observation is the sharpest in the article.** The weapon literature is classified,
-fragmentary, and archived under project numbers. The literature the weapon depended on is openly
-published in astronomical and geodetic journals, because the shape of the Earth was not a secret and
-could not usefully have been made one.
+A warhead delivered to a hundred and twenty metres does the work of one nearly thirty thousand times
+larger delivered to two nautical miles. **That single ratio is why the arsenals grew more accurate
+rather than larger**, and it makes the unglamorous engineering the article describes, the verniers
+and the propellant utilisation system and the ground station full of computers, the part of the
+programme that mattered. The conclusion now says so.
 
 ---
 
-## The Four Sections in Debt Are Closed
+## Contemporary Coverage
 
-The coverage audit found four sections carrying equations and too few citations, which is fewer than
-A307's fourteen or A308's eleven because the draft pass repaired most of that debt already.
+An 84-query sweep returned **923 new records**, taking contemporary references from **23 to 158, or
+41.4 percent of dated**, which sits inside the 101 to 189 absolute range the series has held since
+A301 and above the 28 to 33 percent floor. The article entered this pass with the largest
+contemporary gap any article in the series has carried into a final review, so the expansion was
+correspondingly large.
 
-**The Angle Is Almost Free** gained the optimum-trajectory literature. **The Earth Is Turning**, which
-had zero citations against two equations, gained the geodetic-azimuth material, which is the correct
-attachment since a launch heading must be referred to the same figure of the Earth as the target.
-**The Sustainer** gained a caution that matters: a specific impulse quoted to three figures for a
-period engine is a trajectory reconstruction rather than a measurement, and the 309 second figure
-carries most of this article's orbital arithmetic. **Where the Framing Breaks Down** gained the wind
-and reentry-dispersion literature, including the Atlas programme's own flight-wind restriction
-procedure and a paper that treats a reentry body's dispersion as a design variable.
+Fourteen subsections replaced the previous seven paragraphs. The strongest are these.
+
+**Geodesy is where the article's largest uncertainty went**, and the discipline that closed it is
+unrecognisably larger than the primary references suggest. Satellite gravimetry became a mission
+class, global geopotential models are now evaluated rather than derived, and the datum problem the
+article identifies has become a routine national adjustment. **A targeting organisation in 1958 could
+not know a target's coordinates to the tolerance its own guidance system met. That is no longer the
+binding term anywhere.**
+
+**Inertial navigation has returned the article's architectural question in the same terms.** The
+Atlas put the measurement on the ground because the instrument was marginal. Instruments improved,
+satellite navigation moved the measurement outside the vehicle, and the current literature is about
+moving it back, because a signal from outside can be denied. **The Atlas could be denied by attacking
+the ground station and a modern vehicle by attacking the signal**, so the question is open rather
+than settled.
+
+**The explosive bolts the Atlas B introduced are now the component the field most wants to replace.**
+A mechanism chosen in 1958 for absolute reliability delivers a shock the payload must survive, and
+the low-shock and non-pyrotechnic literature is an active line.
+
+**SCORE was the first communications satellite and also the first deliberate orbital debris**, and
+the modern literature treats those as the same fact. Its thirty-four day lifetime is now a casualty
+risk calculation. **SCORE reentered over an empty world with nothing below it worth insuring, and
+that assumption expired.**
+
+**The four percent duty cycle was solved by quantity rather than by design.** The modern answer to
+store and forward is not a better recorder but enough satellites that another one is always overhead,
+which was unavailable to a programme that could fly ten vehicles.
+
+**What killed the Atlas as a weapon is being solved for reasons that have nothing to do with
+weapons.** The boil-off constraint that made it unable to stand alert is now a substantial research
+programme, because a mission to Mars faces the same physics over years rather than days.
 
 ---
 
-## Other Clusters Added
+## Two Further Drift Cases, and Which Guard Caught Each
 
-**Thrust termination**, where the solid-motor literature shows the last-instant uncertainty is generic
-rather than peculiar to liquid engines. **Gyroscope instruments**, which support the equation pass's
-corrected reading rather than the draft's. **Radio interferometry**, where the founding astronomical
-instrument paper makes the point that a missile tracker and a radio telescope are the same instrument
-pointed at different things. **Cryogenic storage and boil-off**, where every document is a reason the
-storable and solid-fuelled competitors won and none of them is about accuracy. **Project Courier**,
-the direct successor that took SCORE's store-and-forward architecture and built a purpose-designed
-satellite around it. Plus range instrumentation, orbital lifetime under oblateness, and the
-covariance machinery that let programmes substitute analysis for the hundred flights they could not
-fly.
+The URL-stability guard added during the primary pass **fired on the very next regeneration** and
+caught a third case, in which an already-cited anchor had moved from a staging and range-safety paper
+to one on liquid sloshing.
+
+Two more were caught by the older link-text invariant instead, both in citations being added rather
+than already present. **The two mechanisms are complementary and both are needed.** The URL guard
+protects anchors the prose already uses by comparing against the reference section already in the
+file. The link-text invariant protects anchors being added by comparing display strings. Neither
+covers the other's case.
+
+---
+
+## Checks
+
+**Two defects found and fixed on read-through.** The Epistemic State still carried a wording the body
+had already corrected, and the conclusion still asserted the accelerometer claim the equation pass had
+weakened. Both were repaired. Three further internal inconsistencies were closed, namely the
+full-range flight date being flagged as disputed in one place and stated flatly in two others, and an
+Out of Scope entry that contradicted a section the equation pass had added.
+
+**Two NTRS identifiers timed out and both returned 200 on retry**, per the rule that a timeout is
+retried before being recorded as a failure.
 
 ---
 
 ## Verification
 
-**251 external URLs with zero duplicates.** All 30 fixed identifiers at 200. **All 217 DOIs
-Crossref-resolved on title at the 0.85 threshold with zero flagged**, and the article still contains
-no hand-entered identifier anywhere. `_verify.py` at the 0-error 21-warning corpus baseline. Zero
-contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled
-words, duplicate headings, lone dollar-delimited lines, or adjacent display-math seams. All fifteen
-insertion seams read by eye, and one meta-reference to the drafting process that had leaked into the
-prose was removed. Isolated build succeeding with 135 rendered display blocks matching the source
-count exactly, Part 13 navigation, eleven tables, no unresolved reference links and no surviving
+**399 reference definitions, 387 external URLs, zero duplicates.** All 31 fixed identifiers at 200,
+two after transient read timeouts. **All 352 DOIs Crossref-resolved on title at the 0.85 threshold
+with zero flagged, and this article contains no hand-entered identifier anywhere.** All 176 worked
+values re-derived independently and reproducing, including the modern accuracy chain. `_verify.py` at
+the 0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose
+semicolons, prose parentheticals, doubled words, duplicate headings, lone dollar-delimited lines, or
+adjacent display-math seams. Genre section order correct with The Source Base immediately before the
+Epistemic State. Isolated build succeeding with **137 rendered display blocks matching the source
+count exactly**, Part 13 navigation, twelve tables, no unresolved reference links and no surviving
 Liquid tags.
 
-Every anchor added this pass was checked against its title before the sentence using it was written,
-and 75 were verified in a single batch with zero problems.
+Citation construction mix healthy at a top bigram of 3.0 percent. `atlas` at 5.89 per thousand body
+words is the subject noun and is reported rather than remediated, and it is the only word above
+threshold.
+
+---
+
+## Final State
+
+**1505 lines, 137 display equations, 399 references, 18,179 body words.**
+
+**Lines are inside band at 1505 against 1300 to 1600.** Equations are seven above the 130 ceiling and
+references nineteen above the 380 ceiling, both **reported rather than trimmed**. The standing
+directive states there is no length limit and no reference limit and asks for a comprehensive survey,
+and the genre rule is explicit that trimming to stay under a band is worse than reporting the
+overrun. **Nothing was trimmed at any point in any of the four passes.**
+
+Primary sources are 220 of 382, or 57.6 percent of dated. The absolute count is unchanged since the
+primary pass and the percentage moved only because the contemporary additions grew the denominator,
+which is the count-versus-percentage behaviour the series has seen repeatedly.
 
 ---
 
 ## State
 
-**1286 lines, 135 display equations, 263 reference definitions, 16,482 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`,
+so the push is safe. **The publication-order dependency is thirteen deep**, A309 back to A297.
 
-**References are inside band at 263 against 250 to 380.** Lines are 14 below the 1300 floor, which is
-the closest any article in this series has come to the floor before its publication review. Equations
-remain five above the ceiling and are reported rather than trimmed.
+Thirteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, thirteen articles deep and raised seventeen times.
 
-**Primary sources are 220 of 246, or 89.4 percent of dated**, up from 83.1. That is the highest
-primary fraction in the series.
-
-Citation density rose from 14.01 to 18.72 per thousand body words. The citation construction mix is
-healthy, with the top bigram at 3.4 percent, and `atlas` at 6.03 per thousand is the subject noun and
-is reported rather than remediated.
-
----
-
-## What the Publication Review Has to Close
-
-**Contemporary references are 23, or 9.3 percent of dated.** The absolute count is unchanged and the
-percentage fell only because the primary pass grew the denominator, which is exactly the behaviour
-the count-versus-percentage rule predicts. Against the 101 to 189 absolute count the series has held
-since A301, **this is the largest contemporary gap any article has carried into a publication
-review**, and closing it will also carry the article past the line floor.
-
----
-
-**Committed, not pushed.** Thirteen articles drafted of seventy-two, none published. The
-publication-order dependency is thirteen deep, A309 back to A297. **Categories remain undecided** at
-`aerospace history engineering`, thirteen articles deep and raised seventeen times.
+A310 is the Ryan X-13 Vertijet, which breaks the Atlas run entirely. It is a genuine research
+aircraft again, the first since the X-7, a tail-sitting vertical take-off jet, and
+its keystone is almost certainly the transition between hovering and wingborne flight rather than
+anything to do with mass fraction or cutoff. **The A308 and A309 harvest will not help**, and the
+harvest should be rebuilt from scratch against NTRS rather than the defence archive, since this is an
+aircraft programme rather than a weapon system.
