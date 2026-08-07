@@ -912,17 +912,96 @@ Its immediate successor makes the lineage explicit. Project Courier took the sto
 
 The relations this article derives are not historical curiosities. Every one of them is still an active research subject, and in several cases the modern work is a direct continuation of the period problem rather than a distant relative.
 
-**Ascent guidance has become an optimisation problem solved onboard.** The Atlas computed corrections on the ground because it could not compute them in the air. Modern vehicles solve a constrained optimal control problem in flight, and the enabling result is that the ascent problem can be posed convexly, in [Miao et al 2022][research_miao_2022] on successive convexification for replanning after a nonfatal anomaly and [Hwang 2019][research_hwang_2019] on full-space quasi-Lagrange-Newton trajectory optimisation for a multistage vehicle. [Cho et al 2021, Integrated Framework for Staging a][research_cho_2021_2] integrates staging and trajectory optimisation under range safety constraints, which is the same coupling between where the pieces fall and where the payload goes that the Atlas managed by choosing an azimuth.
+### What the Same Chain Requires Today
 
-**Staging optimisation continues, with a changed objective function.** [Jo and Ahn 2021][research_jo_ahn_2021] optimises staging while accounting for velocity losses, which is the calibration this article inherited from the previous one, and [Jo and Ahn 2022][research_jo_ahn_2022] replaces minimum mass with minimum lifecycle cost, which inverts the criterion the Atlas was designed against. [Sabaghzadeh and Khansari 2022][research_sabaghzadeh_khansari_2022] treats it as a multi-objective problem, and [Jo et al 2021][research_jo_2021] analyses staging and injection performance together in the way this article's orbital margin section does.
+The most useful way into the modern literature is to run the article's own arithmetic forward. Nothing in the range law has changed, so the accuracy chain can be recomputed against a modern requirement simply by substituting a smaller circular error probable.
 
-**Separation dynamics is now a multibody simulation problem.** [Pamadi et al 2016][research_pamadi_2016] develops the constraint force methodology, [Albertson et al 2012][research_albertson_2012] runs end-to-end trajectory simulation including separation, and [Zhang et al 2022][research_zhang_2022] applies model-based systems engineering to a first-stage separation system. The aerodynamic side occupies [Yan et al 2025][research_yan_2025] and [Kumar et al 2023][research_kumar_2023], and [Ermakov et al 2025][research_ermakov_2025] pursues separation without pyrotechnics, which is the direct descendant of the explosive bolts the Atlas B introduced.
+$$\delta v = \frac{\text{CEP}}{dR/dv}, \qquad \varepsilon_{a} \leq \frac{\delta v}{t}, \qquad \varepsilon_{g} \leq \frac{2 \, \delta v}{g t^{2}}$$
 
-**Inertial navigation error analysis is the same subject with better instruments.** [Cavacece 2024][research_cavacece_2024] works the error analysis in quaternion form, and the accelerometer bias budget derived above is the quantity all of it is about. [Arthur and Kemp 2025][research_arthur_kemp_2025] assesses where ballistic missile guidance accuracy has arrived, which is the natural endpoint of the one-part-in-eleven-thousand requirement this article opens with.
+| Circular error probable | Speed budget | Fractional | Accelerometer bias | Gyroscope drift |
+|---|---|---|---|---|
+| 3,704 m, the Atlas assumption | 0.613 m/s | 1 in 11,729 | 223 micro-g | 0.329 deg/hr |
+| 500 m | 0.083 m/s | 1 in 86,887 | 30.2 micro-g | 0.0444 deg/hr |
+| 120 m | 0.0199 m/s | 1 in 362,029 | 7.24 micro-g | 0.0107 deg/hr |
+| 90 m | 0.0149 m/s | 1 in 482,705 | 5.43 micro-g | 0.0080 deg/hr |
 
-**Upper stages left in orbit are now a recognised hazard.** SCORE was an entire stage placed deliberately in orbit and left there, and [Trushlyakov et al 2024][research_trushlyakov_2024] passivates propellant residues in exactly that situation, [Aslanov and Sizov 2020][research_aslanov_sizov_2020] studies removal of a spent upper stage, and [Ingram 2026][research_ingram_2026] assesses remediation and salvage of orbital-discarded stages. **The first communications satellite is also the first large piece of deliberate orbital debris**, and the modern literature treats the two facts as the same fact.
+**A hundred-metre weapon requires its burnout speed correct to one part in three hundred and sixty thousand**, which is two centimetres per second, and instruments about thirty-one times better than the Atlas needed in both bias and drift. Neither number is exotic today and both were unreachable in 1958.
 
-**Reentry remains a guidance problem as much as a heating problem.** [Su et al 2026][research_su_2026] treats initial descent guidance for a lifting reentry vehicle, which is the capability the Atlas nose cone deliberately did not have, since a purely ballistic body is more accurate precisely because it cannot be steered and therefore cannot be steered wrongly.
+The consequence for warhead design is the one that actually shaped the arsenals. Carrying the cube-root yield scaling through the same improvement,
+
+$$\frac{Y_{1}}{Y_{2}} = \left( \frac{\text{CEP}_{1}}{\text{CEP}_{2}} \right)^{3} = \left( \frac{3704}{120} \right)^{3} = 2.94 \times 10^{4}$$
+
+**A warhead delivered to a hundred and twenty metres does the work of one nearly thirty thousand times larger delivered to two nautical miles.** That single ratio is why megaton-class weapons gave way to sub-megaton ones, why accuracy rather than yield became the currency of the arsenals, and why the guidance engineering this article describes mattered more than any other line of work in the programme. **The Atlas B is where that trade was first posed quantitatively**, and everything below is what happened to each term in it. Where the accuracy of such systems has actually arrived is assessed in [Arthur and Kemp 2025][research_arthur_kemp_2025], and the strategic consequence of the yield ratio is the subject of [Acton 2025][research_acton_2025] and [Ashraf and Haq 2023][research_ashraf_haq_2023].
+
+### Geodesy, Which Is Where the Article's Largest Uncertainty Went
+
+The article computes that the flattening of the Earth is 5.8 times the miss budget and that the oblate field displaces the impact point by of order 34 kilometres. **Both are now solved problems, and the discipline that solved them is unrecognisably larger than the one the primary references describe.**
+
+Satellite gravimetry became a dedicated mission class, reviewed for the GRACE and GRACE-FO era in [Wu et al 2026][research_wu_2026], with processing methods in [Zhao and Li 2025][research_zhao_li_2025] and the technique now being flown on small satellites in [Paul et al 2026][research_paul_2026] and applied to other bodies in [Yan et al 2025, Mars Gravity Field Determination B][research_yan_2025_2]. Airborne gravimetry fills the gaps, in [Timilsina 2025][research_timilsina_2025], [Dransfield and Miller 2025][research_dransfield_miller_2025], and [Dandan et al 2026][research_dandan_2026], and marine recovery from altimetry is [Han et al 2026][research_han_2026].
+
+**Global geopotential models are now evaluated rather than derived**, which is a mark of a mature field, and the evaluation literature is regional and continuous, in [Bako 2026][research_bako_2026], [Abdulmumin et al 2026][research_abdulmumin_2026], [Issa and Abboud 2026][research_issa_abboud_2026], [Dawod et al 2026][research_dawod_2026], [Mphuthi 2025][research_mphuthi_2025], [Othman et al 2025][research_othman_2025], and [Dawod and Hussien 2025][research_dawod_hussien_2025]. The deflection of the vertical, which the primary references treat as the central obstacle, now supports datasets combining modern and historical observation, in [Schreutelkamp and Hirt 2026][research_schreutelkamp_hirt_2026].
+
+**The datum problem the article identifies, that two continents surveyed separately are two coordinate systems, has become a routine adjustment.** National frames are realigned to international ones in [Mamdouh et al 2026][research_mamdouh_2026], [Akresh 2026][research_akresh_2026], [Lee and Yun 2025][research_lee_yun_2025], [Diouf et al 2026][research_diouf_2026], and [Kresnawan and Panuntun 2025][research_kresnawan_panuntun_2025], the reference frame itself is maintained through [Li et al 2026, Improved time-correlated noise mod][research_li_2026_2] and [Goudarzi 2025][research_goudarzi_2025], and satellite laser ranging contributes in [Ren et al 2026][research_ren_2026] and [Wilkinson 2026][research_wilkinson_2026]. Vertical datums are being unified globally in [Inoue and Guimarães 2025][research_inoue_guimaraes_2025], [Kekunamullage et al 2026][research_kekunamullage_2026], and [Mphuthi 2026][research_mphuthi_2026]. **A targeting organisation in 1958 could not know a target's coordinates to the tolerance its own guidance system met. That is no longer the binding term anywhere.**
+
+### Inertial Navigation, and the Problem Returning by Another Route
+
+The article argues that the Atlas put its velocity measurement on the ground because integrating an accelerometer was marginal. The instruments improved, the measurement moved aboard, and then satellite navigation moved it outside the vehicle altogether. **The current literature is about it moving back**, because a signal from outside can be denied.
+
+Instrument performance is characterised in [Kariminejad et al 2026][research_kariminejad_2026] on error propagation in static MEMS units, [Kozlov et al 2026][research_kozlov_2026] on long-term calibration stability, [Zhang et al 2026][research_zhang_2026] on temperature drift compensation in a fibre-optic gyroscope, and [Yang and Ni 2026][research_yang_ni_2026] on online drift compensation. **Gravity-aided inertial navigation closes the loop with the previous subsection**, since it navigates by the same field the geodesists mapped, in [Ahmadian 2026][research_ahmadian_2026]. Other aiding sources are [Abdollahi and Pourtakdoust 2026][research_abdollahi_pourtakdoust_2026] and [Praczyk and Zalewski 2026][research_praczyk_zalewski_2026].
+
+The denial problem is [Zmyslowski and Kelner 2026][research_zmyslowski_kelner_2026] on situational awareness of jamming and spoofing, [Zeng et al 2026][research_zeng_2026] on countermeasures, [Vince et al 2026][research_vince_2026] on collaborative integrity monitoring, and [Karlitepe 2026][research_karlitepe_2026] on antenna-level interference mitigation. **The Atlas depended on a radio link and could be denied by attacking the ground station. A modern vehicle depends on a radio link and can be denied by attacking the signal.** The architectural question the article poses is therefore open rather than settled, and it is open in the same terms.
+
+### Ascent Guidance Solved Onboard
+
+The Atlas computed corrections on the ground because it could not compute them in the air. Modern vehicles solve a constrained optimal control problem in flight, and the enabling result is that the problem can be posed convexly. The line runs through [Hwang 2019][research_hwang_2019] and [Miao et al 2022][research_miao_2022] for ascent and, more actively, through the powered-descent literature that shares the mathematics, in [Wang and Chen 2026][research_wang_chen_2026], [Su et al 2026, Distributionally robust trajectory][research_su_2026_2], [Su et al 2026, Convex programming based method fo][research_su_2026_3], [Gao et al 2026, Robust powered descent guidance co][research_gao_2026_2], [Zhang et al 2025, Constant Thrust Adaptive Convex Pr][research_zhang_2025_4], and [Li et al 2025, A Convex Optimization-Based 6-DoF][research_li_2025_5]. Ascent for a Mars vehicle, which is the closest modern analogue to the Atlas problem because it is a small vehicle with no margin, is [Li et al 2025][research_li_2025] and [Guo et al 2026, Chance-Constrained Trajectory Opti][research_guo_2026_2]. **The chance-constrained formulations are the direct descendants of the flight performance reserve** this article computes, since both answer the question of how much margin a dispersion requires, and the modern version optimises it rather than allocating it at three standard deviations.
+
+### Staging, Separation, and the Shock the Atlas Accepted
+
+Separation is now a multibody simulation problem, in [Pamadi et al 2016][research_pamadi_2016], [Albertson et al 2012][research_albertson_2012], [Zhang et al 2022][research_zhang_2022], [Yan et al 2025][research_yan_2025], [Kumar et al 2023][research_kumar_2023], and [Nasiri et al 2025][research_nasiri_2025]. Interstage structural design is [Luca et al 2026][research_luca_2026] for hot staging, [Nair et al 2023][research_nair_2023], and [Raouf et al 2022][research_raouf_2022].
+
+**The most telling thread is the effort to get rid of the explosive bolts the Atlas B introduced.** A pyrotechnic separation delivers a shock the payload must survive, characterised in [Xie et al 2026][research_xie_2026], [Yang et al 2023][research_yang_2023], [Xiong et al 2021][research_xiong_2021], and [Boliubash 2025][research_boliubash_2025], with the aeroelastic behaviour of the separating plate in [Yao and Liu 2022][research_yao_liu_2022]. Low-shock and non-pyrotechnic alternatives are surveyed in [Yue et al 2022][research_yue_2022] and pursued in [Ermakov et al 2025][research_ermakov_2025]. **A mechanism chosen in 1958 for absolute reliability is now the component the field most wants to replace**, which is a fair summary of what changes when a technology stops being marginal.
+
+### The Transient That Forced the Verniers
+
+The article's sharpest propulsion result is that the tail-off impulse uncertainty is 1.8 times the entire error budget. The modern literature attacks that uncertainty directly rather than working around it. Start and shutdown transients are simulated in detail, deep throttling is [Fiore et al 2026][research_fiore_2026] and [Zhou et al 2026, Analysis of throttling characteris][research_zhou_2026_2], turbopump cavitation is reviewed in [Wan et al 2026][research_wan_2026] with supersonic turbine design in [Wei et al 2026, Design and loss mechanisms analysi][research_wei_2026_2], and film cooling is [Yang et al 2025][research_yang_2025].
+
+**Health monitoring is the capability that would have changed the Atlas B flight record most.** Three of its four failures were propulsion faults, and [Cha and Ko 2025][research_cha_ko_2025], [Zhang et al 2024, Knowledge distillation-optimized t][research_zhang_2024_2], and [Zhu et al 2026][research_zhu_2026] detect exactly that class of fault from sensor data. The propellant utilisation function the article shows to be worth forty-five error budgets is now a sensing problem, in [Kala 2025][research_kala_2025]. **A vehicle that knows its own mixture ratio in flight does not need to reserve propellant against not knowing it.**
+
+### Structural Dynamics, Where the Balloon Tank Still Complicates Matters
+
+The article shows that the autopilot bandwidth must sit in a window of 31 and that the first bending mode moves during the ascent because the shell is pressure-stabilised. Pogo suppression under model reduction is [Zhao and Tan 2026][research_zhao_tan_2026], [Raji et al 2019][research_raji_2019], [Liu et al 2020][research_liu_2020], and [Nikolayev et al 2026][research_nikolayev_2026], slosh coupled to control is [Pei 2021, Analytical Investigation of Propel][research_pei_2021_2] and [Feng et al 2020][research_feng_2020], and load relief against wind is [Song et al 2022, Comprehensive Load Relief of Launc][research_song_2022_5] and [Ivanco et al 2020][research_ivanco_2020].
+
+### Reentry, and the Same Physics From the Other Side
+
+The Allen and Eggers relations this article uses remain the first cut, and the refinement is now computational and material. Ablation-resistant materials are [Kim et al 2026][research_kim_2026] and [Hou et al 2022][research_hou_2022], boundary layer transition is [Chen et al 2026][research_chen_2026] and [Zeng et al 2026, Rarefaction effects on hypersonic][research_zeng_2026_2], and trajectory optimisation for a constrained reentry body is [Byczkowski and Rao 2026][research_byczkowski_rao_2026], [Dai et al 2026][research_dai_2026], and [Webb et al 2026][research_webb_2026].
+
+**The interesting inversion is that the article's estimation problem is now somebody else's targeting problem.** [Schweppe 1964][research_schweppe_1964] estimated a reentry body's ballistic coefficient from tracking data to reconstruct a test flight. [Andaristiyan et al 2026][research_andaristiyan_2026] and [Liu et al 2026][research_liu_2026] do the same estimation to predict where an object will arrive, and [Asad et al 2020][research_asad_2020] and [Li et al 2023][research_li_2023] do it to intercept one. **The same relation serves the programme that built the weapon and the programme that exists to defeat it**, which is unusual even in this field.
+
+### Communication Blackout
+
+The article derives that S-band tolerates seventy-seven times the ionisation that very high frequency does. That square law is still the governing constraint and the mitigation literature is active, in [Abustia and Alzwam 2026][research_abustia_alzwam_2026] on millimetre-wave links, [Maicke et al 2026][research_maicke_2026] on magnetic thin films that alter the sheath, and [Luc et al 2026][research_luc_2026] on oblique propagation through an inhomogeneous plasma. **Raising the frequency remains the primary answer sixty years later**, because the physics offers no other free parameter.
+
+### The First Communications Satellite Was Also the First Deliberate Debris
+
+SCORE placed an entire stage in orbit and left it there. The modern literature treats that as a hazard, in [Trushlyakov et al 2024][research_trushlyakov_2024] on passivating propellant residues, [Aslanov and Sizov 2020][research_aslanov_sizov_2020] and [Ingram 2026][research_ingram_2026] on removing spent stages, and [Pang et al 2026][research_pang_2026] and [Borelli and Colombo 2026][research_borelli_colombo_2026] on capture and removal mission design. Environment modelling and mitigation practice are [Dhinakaran et al 2025][research_dhinakaran_2025], [Bennett 2025][research_bennett_2025], and [Navaz and Ntantis 2026][research_navaz_ntantis_2026].
+
+**The reentry the article computes as a thirty-four day orbital lifetime is now a risk calculation.** Casualty criteria are [Yuricich 2026][research_yuricich_2026] and [Öztürk et al 2026][research_ozturk_2026], survivability is [Stern 2008][research_stern_2008] and [Liu et al 2026, Spacecraft System-Level Survivabil][research_liu_2026_4], and uncontrolled reentries are now tracked seismically in [Fernando and Charalambous 2026][research_fernando_charalambous_2026]. **SCORE reentered over an empty world with nothing below it worth insuring. That assumption expired.**
+
+### Store and Forward Became a Constellation
+
+The article computes SCORE's duty cycle at four percent, meaning it could store four minutes of the ninety-nine and a half it spent out of contact each revolution. **The modern answer is not a better recorder but more satellites.** Constellation design and capacity are [Hu et al 2026, Multi-Layer Low Earth Orbit Conste][research_hu_2026_2], [Cai et al 2026][research_cai_2026], [Meegama 2026][research_meegama_2026], [Qin et al 2025][research_qin_2025], and [Shao et al 2025][research_shao_2025], inter-satellite links that remove the store entirely are [Ren et al 2025, Inter-satellite link allocation in][research_ren_2025_2], and the store-and-forward idea survives where the economics still favour it, in [Yermolenko and Ferguson 2025][research_yermolenko_ferguson_2025] on Arctic sensor traffic and [Wang and Wang 2025][research_wang_wang_2025] on delay-tolerant networking. Link budgets of the kind computed here for SCORE are routine in [Tishkov and Fokin 2026][research_tishkov_fokin_2026] and [Benabdellah 2026][research_benabdellah_2026]. **A four percent duty cycle is acceptable when there are enough satellites that some other one is always overhead**, which is a solution by quantity rather than by design and was unavailable to a programme that could fly ten vehicles.
+
+### Boil-Off, the Atlas's Actual Cause of Death
+
+The article argues that the Atlas lost its role because a cryogenic missile cannot be held ready, with a five day holding time against a five percent ullage margin. **That constraint is now the subject of a substantial research programme**, because a mission to Mars faces the same physics over years rather than days. Systematic reviews are [Eko et al 2026][research_eko_2026] and [Chung 2026][research_chung_2026], zero boil-off demonstration is [Zhang et al 2026, Experimental evaluation of zero bo][research_zhang_2026_5], insulation approaches are [Kim et al 2026, Design and evaluation of cryogenic][research_kim_2026_2], [Lee et al 2026][research_lee_2026], and [Yu et al 2026, Design and evaluation of thermal i][research_yu_2026_2], stratification and transient behaviour is [Jusko et al 2026][research_jusko_2026], and loading operations are [Wang et al 2026][research_wang_2026]. **What killed the Atlas as a weapon is being solved for reasons that have nothing to do with weapons**, and a modern vehicle with zero boil-off storage would not have had the problem that retired it.
+
+### Accuracy, Deterrence, and the Argument the Article Started
+
+The article's yield-versus-accuracy scaling is the quantitative core of the counterforce debate, which is active and unresolved. [Acton 2025][research_acton_2025] and [Rehman 2025][research_rehman_2025] argue over whether accuracy has made counterforce attractive, [Strategy 2026][research_strategy_2026] adds drones to the same question, [Uzzaman and Rana 2025][research_uzzaman_rana_2025] treats the resulting modernisation pressures, and [Bowers and Hiim 2021][research_bowers_hiim_2021] and [Ashraf and Haq 2023][research_ashraf_haq_2023] examine regional cases. Deterrence credibility as a separate question is [Kabaoğlu 2026][research_kabaoglu_2026], [Traore 2026][research_traore_2026], [Banevičienė 2026][research_baneviciene_2026], and [Hunter 2026][research_hunter_2026]. **The defensive side prices the same arithmetic in reverse**, in [Moric and Kadyshev 2025][research_moric_kadyshev_2025] on the cost of defending against a major strike, [Sanbad 2025][research_sanbad_2025], and [Kumar 2022][research_kumar_2022], while manoeuvring vehicles that defeat prediction are [Zhang et al 2026, Suboptimal Stochastic Differential][research_zhang_2026_3] and [Huang et al 2024, Guidance algorithm for reusable la][research_huang_2024_3]. **The Atlas B's contribution to all of it is that it demonstrated the delivery, and every argument since has been about what the delivery is worth.**
+
+### The Objective Function Inverted
+
+The Atlas was designed to minimise mass because mass was the binding constraint. [Jo and Ahn 2021][research_jo_ahn_2021] optimises staging against velocity losses, which is the calibration this article inherited, and [Jo and Ahn 2022][research_jo_ahn_2022] replaces minimum mass with minimum lifecycle cost. [Sabaghzadeh and Khansari 2022][research_sabaghzadeh_khansari_2022] treats it as multi-objective, and [Jo et al 2021][research_jo_2021] analyses staging and injection performance together in the way this article's orbital margin section does. Reusability economics is [Du et al 2025][research_du_2025], [Lee et al 2026, Comparison of Second-Stage Recover][research_lee_2026_2], and [Khamlak 2026][research_khamlak_2026], the control problems it creates are [Li et al 2026][research_li_2026], [Tariq et al 2026][research_tariq_2026], [Xu et al 2025][research_xu_2025], and [Ren et al 2025][research_ren_2025], and **the endpoint of an argument the Atlas started by making mass fraction the only thing that mattered is [Christie 2026][research_christie_2026]** on launch cost deflation as an economic phenomenon in its own right.
 
 ## Where the Framing Breaks Down
 
@@ -952,7 +1031,7 @@ Separating what this vehicle established from what it merely carried is the usef
 
 **It established that the staging event works.** The second flight, on 2 August 1958, was the first booster separation, and every Atlas afterwards depended on it. The acceleration discontinuity of a factor of 4.37, the clearance provided by a sustainer that never stops, and the guidance system's ability to integrate through the transient were all demonstrated on that flight and never seriously doubted again.
 
-**It established full range.** The 12B flight on 28 November 1958 is the vehicle's most consequential single result and the one the programme existed to obtain. Nothing before it had shown that the United States possessed an intercontinental ballistic missile.
+**It established full range.** The 12B flight in late November 1958 is the vehicle's most consequential single result and the one the programme existed to obtain. Nothing before it had shown that the United States possessed an intercontinental ballistic missile.
 
 **It established that the same vehicle reaches orbit.** SCORE is the demonstration and the twenty-one percent mass trade is the explanation.
 
@@ -968,13 +1047,13 @@ What this article can add is one observation about the mechanism. The [X-10][rel
 
 ## The Source Base
 
-**The Atlas record in the defence archive is genuinely rich and it is not evenly distributed.** Querying the Defense Technical Information Center through the Crossref publisher prefix returns Flight Test Working Group reports for individual missiles, the five volumes of the Difficulties Review covering propellant utilisation, the propulsion interface, pneumatics, the autopilot, and the electrical system, and the model specification for the sustainer engine itself. **What it does not return is anything using the X-12 designation.**
+**The Atlas record in the defence archive is genuinely rich and it is not evenly distributed.** Querying the Defense Technical Information Center through the Crossref publisher prefix returns Flight Test Working Group reports for individual missiles, the five volumes of the Difficulties Review covering propellant utilisation, the propulsion interface, pneumatics, the autopilot, and the electrical system, and the model specification for the sustainer engine itself. **What it does not return is anything using the X-12 designation.** The specific documents are [Diegoca 1961][research_diegoca_1961], the five volumes of [General Dynamics Convair 1966, Propellant Utilization][research_div_1966], [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2], [General Dynamics Convair 1966, Pneumatics][research_div_1966_3], [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and [General Dynamics Convair 1966, Electrical][research_div_1966_5], the engine specification [Scott 1963][research_scott_1963], the system-test evaluation [Peters and Hall 1963][research_peters_hall_1963], and the launch vehicle specification [Wolfe 1966][research_wolfe_1966].
 
 The asymmetry the [previous article][related_post_a308_convair_x11] identified holds and deepens. The Navaho, cancelled in 1957, leaves four years of programme reporting. The Atlas, which flew for sixty years as a launch vehicle, leaves a continuous literature in which the weapon programme is the earliest layer and the launch vehicle work is the thickest. **The archive is a record of what happened to a programme afterwards rather than of what it was**, and for this article that bias is helpful, since the Atlas-Centaur separation and propellant utilisation studies of the mid-1960s document mechanisms that the Atlas B introduced and that nobody wrote up at the time.
 
-The satellite side has the opposite shape. Project SCORE was run under extreme secrecy by a different service, and the accessible technical record for the payload is thin compared with the vehicle that carried it. What survives well is the surrounding orbital mechanics and communications literature, which was being written at exactly that moment for reasons that had nothing to do with SCORE.
+The satellite side has the opposite shape. Project SCORE was run under extreme secrecy by a different service, and the accessible technical record for the payload is thin compared with the vehicle that carried it. What survives well is the surrounding orbital mechanics and communications literature, which was being written at exactly that moment for reasons that had nothing to do with SCORE, and the clearest window onto what SCORE was is its successor rather than itself, in [Maresca 1960][research_maresca_1960] and [Mottley et al 1960][research_mottley_1960].
 
-**The third body of literature this article draws on was not sought and turned out to be the largest.** The geodesy section exists because the equation pass established that the flattening of the Earth exceeds the miss budget by a factor of 5.8, and the harvest assembled for a missile article contained nothing about datums, geoids, or zonal harmonics. A sweep aimed at them returned an entire discipline, openly published in the astronomical and geodetic journals, running continuously from the early 1950s to the mid 1970s and overlapping the Atlas force's whole operational life. **The weapon literature is classified, fragmentary, and archived under project numbers. The literature the weapon depended on is none of those things**, because determining the shape of the Earth was not a secret and could not usefully have been made one. That asymmetry is the most striking source-base feature of this article and it was found by following a relation rather than a topic.
+**The third body of literature this article draws on was not sought and turned out to be the largest.** The geodesy section exists because the equation pass established that the flattening of the Earth exceeds the miss budget by a factor of 5.8, and the harvest assembled for a missile article contained nothing about datums, geoids, or zonal harmonics. A sweep aimed at them returned an entire discipline, openly published in the astronomical and geodetic journals, running continuously from [Hirvonen 1954][research_hirvonen_1954] to [Eitschberger and Grafarend 1974][research_eitschberger_grafarend_1974] and overlapping the Atlas force's whole operational life. **The weapon literature is classified, fragmentary, and archived under project numbers. The literature the weapon depended on is none of those things**, because determining the shape of the Earth was not a secret and could not usefully have been made one. That asymmetry is the most striking source-base feature of this article and it was found by following a relation rather than a topic.
 
 ## Epistemic State
 
@@ -984,7 +1063,7 @@ The satellite side has the opposite shape. Project SCORE was run under extreme s
 
 **Assumed for the purpose of calculation and stated as such.** The two nautical mile circular error probable. The booster cutoff time of 135 seconds and the jettisoned booster package mass of three tonnes. The vernier thrust of a thousand pounds each. The 1,400 kilogramme reentry body on a one-metre base. The SCORE transmit power of eight watts and the ground antenna gain of ten decibels. The one percent phase-measurement fraction in the Azusa table. The five percent tail-off impulse uncertainty. **The period gyroscope drift of order one degree per hour**, against which the derived requirement of 0.329 is compared, which is the least well sourced number in the article and which the conclusion drawn from it depends on directly. The illustrative six-term error allocation, which sums to something near the budget and is not the Atlas allocation. The five percent ullage margin in the boil-off holding time. The five percent measurement-inflation ceiling used to size the range instrumentation requirement. The one percent per day liquid oxygen boil-off rate. Every one of these is an engineering estimate chosen to show a scaling, and each is identified at the point of use.
 
-**Engineering analysis, derived here and independently checkable.** The range law and its inversion for 10,000 kilometres. The range-to-velocity sensitivity of 6.04 kilometres per metre per second and its dimensionless form of 4.34. The velocity budget of 0.613 metres per second and the fractional requirement of one part in 11,728. The optimum flight path angle of 22.52 degrees, the vanishing first derivative of range with respect to it, the second derivative, and the resulting table of range losses. The cutoff timing requirement of 8.6 milliseconds. The tail-off impulse estimate of 1.07 metres per second and its ratio of 1.8 to the budget. The vernier acceleration, trim time, and authority ratio of 43.4. The grazing circular speed, the ten percent orbital margin, and the escape comparison. The mass ratio of 1.2645, the 4,266 kilogramme allowance, and the 20.9 percent trade. The comparison with the SCORE mass at 7.2 percent. The SCORE orbital elements, period, perigee and apogee speeds, and specific energies. The apogee sensitivity of 4.24 kilometres per metre per second. The ballistic semi-major axis, eccentricity, flight time of 34.3 minutes, and apogee altitude. The Earth rotation speed and the azimuth bound. The lift-off thrust-to-weight ratio, mass flows, mass at booster cutoff, the acceleration discontinuity of 4.37, the two-phase ideal velocity of 8,590 metres per second, and the sustainer burn time. The separation clearance comparison. The propellant residual sensitivity. The accelerometer bias budget of 220 micro-g. The interferometer fringe table and the Doppler resolution. The Allen and Eggers peak deceleration, altitude, and speed, the ballistic coefficient, and the stagnation heating. The unit conversions on the full-range flight and their consistency with the sensitivity relation. The SCORE revolution counts, duty cycle, Nyquist sample count, link budget, area-to-mass ratio, and energy loss per revolution. The binomial standard errors and the pooled z statistic of 0.42. The inverse-square dependence of the angle-to-speed forgiveness ratio and its table, showing 191 at a twentieth of a degree and 1.9 at half a degree. The variance-share relation, the improvement relation, and its ceiling of 14.0 percent at infinite cost. The first-order azimuth relation for the Earth rotation credit, giving 2,466 kilometres due east against an exact 3,195, a shortfall of 23 percent that measures where the linear sensitivity stops being valid. The oblateness perturbation of 1.62 parts in a thousand and the resulting impact displacement of order 34 kilometres, or nine times the miss budget. The identity that the factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio of 4.38. The static tilt allowance of 46 arcseconds, the gyroscope drift allowance of 0.329 degrees per hour, and the factor of about three separating it from period instruments. The inversion of the plasma frequency relation and the square-law ratio of 77.4. The quadrature relation setting the range instrument at 3.1 times better than the article it certifies, or 0.196 metres per second. The linear scaling of the speed budget with the assumed circular error probable across one, two, and five nautical miles. The boil-off holding time of five days.
+**Engineering analysis, derived here and independently checkable.** The range law and its inversion for 10,000 kilometres. The range-to-velocity sensitivity of 6.04 kilometres per metre per second and its dimensionless form of 4.34. The velocity budget of 0.613 metres per second and the fractional requirement of one part in 11,728. The optimum flight path angle of 22.52 degrees, the vanishing first derivative of range with respect to it, the second derivative, and the resulting table of range losses. The cutoff timing requirement of 8.6 milliseconds. The tail-off impulse estimate of 1.07 metres per second and its ratio of 1.8 to the budget. The vernier acceleration, trim time, and authority ratio of 43.4. The grazing circular speed, the ten percent orbital margin, and the escape comparison. The mass ratio of 1.2645, the 4,266 kilogramme allowance, and the 20.9 percent trade. The comparison with the SCORE mass at 7.2 percent. The SCORE orbital elements, period, perigee and apogee speeds, and specific energies. The apogee sensitivity of 4.24 kilometres per metre per second. The ballistic semi-major axis, eccentricity, flight time of 34.3 minutes, and apogee altitude. The Earth rotation speed and the azimuth bound. The lift-off thrust-to-weight ratio, mass flows, mass at booster cutoff, the acceleration discontinuity of 4.37, the two-phase ideal velocity of 8,590 metres per second, and the sustainer burn time. The separation clearance comparison. The propellant residual sensitivity. The accelerometer bias budget of 220 micro-g. The interferometer fringe table and the Doppler resolution. The Allen and Eggers peak deceleration, altitude, and speed, the ballistic coefficient, and the stagnation heating. The unit conversions on the full-range flight and their consistency with the sensitivity relation. The SCORE revolution counts, duty cycle, Nyquist sample count, link budget, area-to-mass ratio, and energy loss per revolution. The binomial standard errors and the pooled z statistic of 0.42. The inverse-square dependence of the angle-to-speed forgiveness ratio and its table, showing 191 at a twentieth of a degree and 1.9 at half a degree. The variance-share relation, the improvement relation, and its ceiling of 14.0 percent at infinite cost. The first-order azimuth relation for the Earth rotation credit, giving 2,466 kilometres due east against an exact 3,195, a shortfall of 23 percent that measures where the linear sensitivity stops being valid. The oblateness perturbation of 1.62 parts in a thousand and the resulting impact displacement of order 34 kilometres, or nine times the miss budget. The identity that the factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio of 4.38. The static tilt allowance of 46 arcseconds, the gyroscope drift allowance of 0.329 degrees per hour, and the factor of about three separating it from period instruments. The inversion of the plasma frequency relation and the square-law ratio of 77.4. The quadrature relation setting the range instrument at 3.1 times better than the missile it certifies, or 0.196 metres per second. The linear scaling of the speed budget with the assumed circular error probable across one, two, and five nautical miles. The boil-off holding time of five days. **The modern accuracy chain**, giving a speed budget of 0.0199 metres per second at a 120 metre circular error probable, or one part in 362,029, with an accelerometer bias of 7.24 micro-g and a gyroscope drift of 0.0107 degrees per hour, instruments about 31 times better than the Atlas budget required. The yield equivalence between a 3,704 metre and a 120 metre circular error probable, at a factor of 2.94 times ten to the fourth.
 
 **Inference, argued but not established.** That the verniers exist primarily for velocity trim rather than for roll control, which the arithmetic supports strongly but which no document found here states. That radio guidance was the correct architecture for the accuracy requirement rather than merely the available one, which rests on the accelerometer bias and gyroscope drift comparisons. **The strength of that inference was reduced by the equation pass rather than increased**, since deriving the drift requirement put period instruments within a factor of about three of it, so the honest reading is that all-inertial guidance was close in 1958 rather than out of reach, and the ground link bought margin rather than capability. That the reported weakness of the SCORE broadcast refers to public reception rather than to the tracking link. That the Atlas B established the staging event and full range but not accuracy. That the designation question has at least two mechanisms and that this vehicle confirms the limit of the first without resolving anything.
 
@@ -992,21 +1071,25 @@ The satellite side has the opposite shape. Project SCORE was run under extreme s
 
 **A caution about the specific impulse.** The 309 second sustainer figure carries most of this article's orbital arithmetic, including the 20.9 percent mass trade and the comparison with the SCORE mass. As the sustainer discussion notes, a specific impulse quoted to three figures for a period engine is a trajectory reconstruction rather than a direct measurement, so the precision of the downstream results is lower than their presentation suggests.
 
-**Written from current knowledge.** This article is dated 2025-10-18 and draws on literature published after that date where the modern discussion is the natural continuation of the period problem, in line with the series convention.
+**A note on the modern comparison.** The 90 to 120 metre circular error probable used in the contemporary section is a widely repeated open-source figure for current systems and is not taken from any authoritative source. It is used to show a scaling and the conclusions drawn from it, namely that instruments must be roughly thirty times better and that the yield equivalence is four orders of magnitude, are insensitive to a factor of two either way in the assumed accuracy.
+
+**Written from current knowledge.** This article is dated 2025-10-18 and draws on literature published after that date where the modern discussion is the natural continuation of the period problem, in line with the series convention. The contemporary section surveys work through 2026 and is the largest single component of the reference list.
 
 ## Out of Scope
 
-The Atlas C, D, E, and F in any detail. The warhead and its physics package. Silo and coffin basing, alert posture, and reaction time, which decided the Atlas force's fate and which this article touches only to say so. The Mercury programme and man-rating. Centaur, which inherited the balloon tank and the propellant utilisation architecture and deserves separate treatment. The Agena upper stage. The Burroughs ground guidance computer as a computing machine rather than as a guidance element. The full history of Project SCORE as a political act. The Soviet R-7, which reached orbit fourteen months before SCORE with a different configuration and remains the comparison this series has not made. Ballistic missile defence, which is the mirror image of everything computed here. Manufacturing and the factory. The economics of the Atlas force against Titan and Minuteman.
+The Atlas C, D, E, and F in any detail. The warhead and its physics package. Silo and coffin basing in any detail, and the operational history of the alert force, of which this article computes only the loading-time ratio that decided its fate. The Mercury programme and man-rating. Centaur, which inherited the balloon tank and the propellant utilisation architecture and deserves separate treatment. The Agena upper stage. The Burroughs ground guidance computer as a computing machine rather than as a guidance element. The full history of Project SCORE as a political act. The Soviet R-7, which reached orbit fourteen months before SCORE with a different configuration and remains the comparison this series has not made. Ballistic missile defence, which is the mirror image of everything computed here. Manufacturing and the factory. The economics of the Atlas force against Titan and Minuteman.
 
 ## Conclusion
 
 The [X-11][related_post_a308_convair_x11] answered whether a structure that light could exist. **The X-12 answered whether the thing built out of it could be stopped at the right moment**, which is a different question and the one that decides whether a ballistic missile is a weapon or an expensive firework.
 
-The answer came out of a single sensitivity. Range responds to burnout speed with a gain of 4.34, so a two nautical mile miss allows two thirds of a metre per second out of seven thousand two hundred, while the flight path angle enters only at second order and a tenth of a degree costs seventy-seven metres. **The vehicle is therefore a speed-measuring instrument that happens to have a warhead on it**, and every distinctive feature of the Atlas B follows. The verniers exist because the sustainer's tail-off is twice the entire error budget. The guidance sits on the ground because measuring speed directly avoids an integration that 1958 accelerometers could not survive. The propellant utilisation system exists because fifty kilogrammes of stranded propellant is worth forty-five error budgets.
+The answer came out of a single sensitivity. Range responds to burnout speed with a gain of 4.34, so a two nautical mile miss allows two thirds of a metre per second out of seven thousand two hundred, while the flight path angle enters only at second order and a tenth of a degree costs seventy-seven metres. **The vehicle is therefore a speed-measuring instrument that happens to have a warhead on it**, and every distinctive feature of the Atlas B follows. The verniers exist because the sustainer's tail-off is twice the entire error budget. The guidance sits on the ground because measuring speed directly avoids an integration, and the margin that bought mattered even though the derived drift requirement of a third of a degree per hour turns out to have been within a factor of three of what period instruments could do. The propellant utilisation system exists because fifty kilogrammes of stranded propellant is worth forty-five error budgets.
 
-And then the same machinery did something else. Ten percent more speed than the weapon needed, bought by giving up twenty-one percent of the burnout mass, turns the trajectory into an orbit. **The Atlas B demonstrated a full-range delivery on 28 November 1958 and put a stage in orbit twenty days later, and it did not need a modification to do it.** The first communications satellite is a ballistic missile that was told to stop a little later than usual, and the calculation that predicts its mass to within seven percent uses nothing but the range law and a specific impulse.
+And then the same machinery did something else. Ten percent more speed than the weapon needed, bought by giving up twenty-one percent of the burnout mass, turns the trajectory into an orbit. **The Atlas B demonstrated a full-range delivery in the last days of November 1958 and put a stage in orbit three weeks later, and it did not need a modification to do it.** The first communications satellite is a ballistic missile that was told to stop a little later than usual, and the calculation that predicts its mass to within seven percent uses nothing but the range law and a specific impulse.
 
 That is the whole content of the phrase space launch vehicle, and the X-12 is where it stops being a metaphor.
+
+The sensitivity that organises the article has not moved since. Running it forward to a hundred-and-twenty-metre weapon demands a burnout speed correct to one part in three hundred and sixty thousand, which is two centimetres per second, and instruments about thirty times better than the Atlas needed. **The reward for closing that gap is a factor of nearly thirty thousand in the yield required to do the same work**, which is why the arsenals grew more accurate rather than larger, and why the unglamorous engineering this article describes, the verniers and the propellant utilisation system and the ground station full of computers, turned out to be the part of the programme that mattered.
 
 ## References
 
@@ -1023,20 +1106,33 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 
 ### Research
 
+[research_abdollahi_pourtakdoust_2026]: https://doi.org/10.1016/j.ast.2026.112673
+[research_abdulmumin_2026]: https://doi.org/10.55779/ng62631
+[research_abustia_alzwam_2026]: https://doi.org/10.65405/c3q77f89
+[research_acton_2025]: https://doi.org/10.1080/10736700.2025.2584742
 [research_adkins_1970]: https://doi.org/10.2514/3.30032
 [research_aein_1964]: https://doi.org/10.1109/tset.1964.4337583
+[research_ahmadian_2026]: https://doi.org/10.1016/j.measurement.2025.120161
+[research_akresh_2026]: https://doi.org/10.66411/jer.v30i.93
 [research_albertson_2012]: https://ntrs.nasa.gov/citations/20120014503
 [research_aldrich_krabill_1972]: https://doi.org/10.2514/6.1972-838
 [research_amacker_graff_1965]: https://doi.org/10.2514/6.1965-1247
 [research_ammons_1973]: https://doi.org/10.2514/6.1973-296
+[research_andaristiyan_2026]: https://doi.org/10.1016/j.actaastro.2026.06.022
 [research_anderle_1966]: https://doi.org/10.21236/ad0631212
 [research_arthur_kemp_2025]: https://doi.org/10.1080/08929882.2025.2557088
+[research_asad_2020]: https://doi.org/10.1016/j.dt.2019.12.008
+[research_ashraf_haq_2023]: https://doi.org/10.54690/margallapapers.27.2.172
 [research_aslanov_sizov_2020]: https://doi.org/10.1016/j.actaastro.2019.11.027
 [research_bahm_hoffman_1971]: https://ntrs.nasa.gov/citations/19720030101
+[research_bako_2026]: https://doi.org/10.1515/jag-2025-0039
+[research_baneviciene_2026]: https://doi.org/10.1080/14751798.2026.2683157
 [research_batrakov_1963]: https://doi.org/10.1007/978-3-642-48130-7_8
 [research_beardslee_1964]: https://doi.org/10.21236/ad0616993
 [research_becker_1973]: https://doi.org/10.2514/6.1973-835
 [research_belsterling_1965]: https://doi.org/10.2514/3.28248
+[research_benabdellah_2026]: https://doi.org/10.51485/ajss.v11i1.304
+[research_bennett_2025]: https://doi.org/10.1038/s44172-025-00430-5
 [research_berns_1968]: https://ntrs.nasa.gov/citations/19680027035
 [research_bhattacharji_1970]: https://doi.org/10.1007/bf02585745
 [research_bidwell_1967]: https://doi.org/10.2514/3.29071
@@ -1046,7 +1142,10 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_blitzer_1959]: https://doi.org/10.1126/science.129.3345.329
 [research_blum_1966]: https://doi.org/10.2514/6.1966-300
 [research_bohne_1964]: https://doi.org/10.2514/6.1964-1029
+[research_boliubash_2025]: https://doi.org/10.31803/tg-20240516182956
 [research_bonney_1960]: https://doi.org/10.1109/iret-mil.1960.5008294
+[research_borelli_colombo_2026]: https://doi.org/10.1016/j.asr.2025.12.059
+[research_bowers_hiim_2021]: https://doi.org/10.1162/isec_a_00399
 [research_boynton_1967]: https://ntrs.nasa.gov/citations/19670008816
 [research_britting_1971]: https://doi.org/10.2514/6.1971-901
 [research_brouwer_hori_1961]: https://doi.org/10.1086/108399
@@ -1054,10 +1153,14 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_brusch_1977]: https://ntrs.nasa.gov/citations/19770062120
 [research_buell_1964_2]: https://doi.org/10.2514/6.1964-1017
 [research_burghes_1974]: https://doi.org/10.1080/0020739740050101
+[research_byczkowski_rao_2026]: https://doi.org/10.1007/s40295-026-00589-9
 [research_byerly_1957]: https://doi.org/10.1017/s0373463300016945
+[research_cai_2026]: https://doi.org/10.1002/sat.70072
 [research_callaway_1963]: https://doi.org/10.21236/ad0405121
-[research_cavacece_2024]: https://doi.org/10.1515/jmdai-2023-0005
-[research_cho_2021_2]: https://doi.org/10.1007/s42405-020-00348-6
+[research_cha_ko_2025]: https://doi.org/10.2514/1.a36337
+[research_chen_2026]: https://doi.org/10.1063/5.0335632
+[research_christie_2026]: https://doi.org/10.58567/eal05010002
+[research_chung_2026]: https://doi.org/10.32473/space.2.1.142127
 [research_clement_1965]: https://ntrs.nasa.gov/citations/19650022844
 [research_coates_horton_1970]: https://doi.org/10.21236/ad0871583
 [research_comfort_1973]: https://doi.org/10.1029/jb078i029p06845
@@ -1067,23 +1170,35 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_crawley_maunder_1966]: https://doi.org/10.1007/978-3-662-29364-5_60
 [research_dafler_1962]: https://doi.org/10.1119/1.1941784
 [research_dai_2019]: https://doi.org/10.1088/1757-899x/677/4/042084
+[research_dai_2026]: https://doi.org/10.3390/aerospace13030283
 [research_daly_1967]: https://doi.org/10.21236/ad0731418
+[research_dandan_2026]: https://doi.org/10.1088/2515-7620/ae7afc
+[research_dawod_2026]: https://doi.org/10.1515/jag-2025-0061
+[research_dawod_hussien_2025]: https://doi.org/10.1007/s40328-025-00478-x
 [research_denham_1965]: https://doi.org/10.21236/ad0468532
+[research_dhinakaran_2025]: https://doi.org/10.1016/j.actaastro.2025.06.057
 [research_diegoca_1961]: https://doi.org/10.21236/ad0843112
+[research_diouf_2026]: https://doi.org/10.4236/ijg.2026.174013
 [research_div_1966]: https://doi.org/10.21236/ada028048
 [research_div_1966_2]: https://doi.org/10.21236/ada028047
 [research_div_1966_3]: https://doi.org/10.21236/ada028046
 [research_div_1966_4]: https://doi.org/10.21236/ada027762
 [research_div_1966_5]: https://doi.org/10.21236/ada027766
 [research_dolton_reed_1966]: https://doi.org/10.2514/6.1966-424
+[research_dransfield_miller_2025]: https://doi.org/10.63929/22020586.2025.1.022
+[research_du_2025]: https://doi.org/10.1007/s42423-025-00187-1
 [research_dudush_snovydovych_2026]: https://doi.org/10.62524/msj.2025.3.4.20
 [research_duke_1960]: https://doi.org/10.5594/j00037
 [research_edelbaum_pines_1969]: https://doi.org/10.2514/6.1969-904
 [research_ehrsam_1978]: https://ntrs.nasa.gov/citations/19790016565
 [research_eitschberger_grafarend_1974]: https://doi.org/10.1007/bf02522149
+[research_eko_2026]: https://doi.org/10.1088/2515-7655/ae3643
 [research_ermakov_2025]: https://doi.org/10.1007/s42401-025-00348-y
 [research_feldman_1953]: https://doi.org/10.2514/8.4622
 [research_felsentreger_victor_1966]: https://ntrs.nasa.gov/citations/19670009425
+[research_feng_2020]: https://doi.org/10.2514/1.g004685
+[research_fernando_charalambous_2026]: https://doi.org/10.1126/science.adz4676
+[research_fiore_2026]: https://doi.org/10.1016/j.actaastro.2026.04.060
 [research_fischer_1961]: https://doi.org/10.1007/bf02854151
 [research_flack_1969]: https://doi.org/10.1016/b978-0-08-013402-4.50050-1
 [research_foster_1960]: https://doi.org/10.21236/ad0261738
@@ -1094,6 +1209,7 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_fubara_mourad_1974]: https://doi.org/10.1139/tcs-1974-0097
 [research_fuhs_1966]: https://doi.org/10.2514/6.1966-1633
 [research_fye_1966]: https://doi.org/10.21236/ada522410
+[research_gao_2026_2]: https://doi.org/10.1016/j.cja.2025.103914
 [research_geckler_1960]: https://doi.org/10.2514/8.5145
 [research_george_1974]: https://doi.org/10.4271/740873
 [research_gerald_runyan_1962]: https://doi.org/10.4271/620491
@@ -1102,6 +1218,7 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_geyling_1964]: https://doi.org/10.2514/3.2518
 [research_golden_1969]: https://doi.org/10.21236/ad0858522
 [research_gonzalez_denny_1970]: https://doi.org/10.21236/ad0878792
+[research_goudarzi_2025]: https://doi.org/10.1016/j.geog.2025.03.004
 [research_gray_alexander_1965]: https://doi.org/10.2514/3.28125
 [research_greenfield_1960]: https://doi.org/10.1007/978-1-4684-3105-6_15
 [research_gretz_1962]: https://doi.org/10.2514/8.6408
@@ -1111,8 +1228,10 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_gryglaszewski_1963]: https://doi.org/10.1109/tim.1963.4313348
 [research_guier_1963]: https://doi.org/10.1038/200124a0
 [research_guier_1965]: https://doi.org/10.21236/ad0464349
+[research_guo_2026_2]: https://doi.org/10.3724/j.issn.2096-9287.2025.20250091
 [research_hagan_1960]: https://doi.org/10.1109/tcom.1960.1097633
 [research_hallett_1960]: https://doi.org/10.1007/978-1-4684-3099-8_3
+[research_han_2026]: https://doi.org/10.3390/app16020726
 [research_handelsman_1959]: https://doi.org/10.1109/tcom.1959.1097536
 [research_harding_lawson_1968]: https://doi.org/10.2514/3.4494
 [research_hauser_1972]: https://ntrs.nasa.gov/citations/19730010894
@@ -1124,11 +1243,18 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_hix_1968]: https://doi.org/10.21236/ad0393899
 [research_hoff_1967]: https://doi.org/10.2172/4228957
 [research_horvath_blum_1966]: https://doi.org/10.1016/b978-1-4832-2716-0.50026-8
+[research_hou_2022]: https://doi.org/10.1016/j.ast.2022.107822
+[research_hu_2026_2]: https://doi.org/10.3390/s26134059
+[research_huang_2024_3]: https://doi.org/10.1088/1742-6596/2764/1/012068
 [research_hudson_1971]: https://doi.org/10.2514/6.1971-845
 [research_humphrey_1961]: https://doi.org/10.1007/978-1-4757-0534-8_29
+[research_hunter_2026]: https://doi.org/10.1093/isagsq/ksag018
 [research_hwang_2019]: https://doi.org/10.21914/anziamj.v60i0.14067
 [research_ingber_1965]: https://ntrs.nasa.gov/citations/19660010157
 [research_ingram_2026]: https://doi.org/10.59332/jbis-079-07-0262
+[research_inoue_guimaraes_2025]: https://doi.org/10.1515/jogs-2025-0183
+[research_issa_abboud_2026]: https://doi.org/10.46604/emsi.2026.15489
+[research_ivanco_2020]: https://ntrs.nasa.gov/citations/20200002975
 [research_izotov_1959]: https://doi.org/10.1007/bf02526703
 [research_jacobs_1964]: https://doi.org/10.1063/1.1746806
 [research_jakes_1961]: https://doi.org/10.1038/190709a0
@@ -1142,9 +1268,18 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_johnston_1966]: https://doi.org/10.2514/6.1966-63
 [research_jordan_1972_2]: https://doi.org/10.1029/jb077i020p03660
 [research_juarez_1961]: https://doi.org/10.21236/ad0607874
+[research_jusko_2026]: https://doi.org/10.3390/en19153605
+[research_kabaoglu_2026]: https://doi.org/10.25253/99.2026282.10
+[research_kala_2025]: https://doi.org/10.1016/j.flowmeasinst.2025.102908
 [research_kaplan_1961]: https://doi.org/10.2514/8.5635
+[research_kariminejad_2026]: https://doi.org/10.3390/s26154685
+[research_karlitepe_2026]: https://doi.org/10.3390/electronics15122544
 [research_karrenberg_lueders_1963]: https://doi.org/10.2514/6.1963-397
+[research_kekunamullage_2026]: https://doi.org/10.1080/01490419.2025.2523950
 [research_kelly_1959]: https://doi.org/10.2514/8.4794
+[research_khamlak_2026]: https://doi.org/10.37547/tajet/book-26-01
+[research_kim_2026]: https://doi.org/10.1016/j.jeurceramsoc.2026.118216
+[research_kim_2026_2]: https://doi.org/10.1016/j.enconman.2026.121402
 [research_king_hele_1958]: https://doi.org/10.1098/rspa.1958.0169
 [research_king_hele_1962]: https://doi.org/10.1007/978-3-7091-5470-0_5
 [research_king_hele_1963]: https://doi.org/10.1038/197785a0
@@ -1158,19 +1293,37 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_kouba_mason_1962]: https://doi.org/10.2514/8.6197
 [research_kozai_1964]: https://ntrs.nasa.gov/citations/19650010255
 [research_kozai_1964_2]: https://doi.org/10.1093/pasj/16.4.263
+[research_kozlov_2026]: https://doi.org/10.1109/lsens.2025.3641436
 [research_kravitsky_2007]: https://doi.org/10.21236/ada471939
+[research_kresnawan_panuntun_2025]: https://doi.org/10.22146/jgise.98257
+[research_kumar_2022]: https://doi.org/10.1080/09700161.2021.2024047
 [research_kumar_2023]: https://doi.org/10.61653/joast.v74i4.2022.45
 [research_lall_1965]: https://ntrs.nasa.gov/citations/19660001031
 [research_lange_parkinson_1965]: https://doi.org/10.2514/6.1965-691
 [research_larson_1965]: https://doi.org/10.2514/6.1965-306
+[research_lee_2026]: https://doi.org/10.3390/aerospace13020169
+[research_lee_2026_2]: https://doi.org/10.3390/aerospace13010079
+[research_lee_yun_2025]: https://doi.org/10.3390/app15105500
+[research_li_2023]: https://doi.org/10.54097/hset.v56i.10789
+[research_li_2025]: https://doi.org/10.1109/jas.2024.124587
+[research_li_2025_5]: https://doi.org/10.1016/j.ifacol.2025.11.305
+[research_li_2026]: https://doi.org/10.1109/access.2026.3667479
+[research_li_2026_2]: https://doi.org/10.1016/j.measurement.2026.120644
 [research_liu_1974]: https://doi.org/10.2514/6.1974-166
+[research_liu_2020]: https://doi.org/10.1007/s00190-020-01431-2
+[research_liu_2026]: https://doi.org/10.3390/act15070379
+[research_liu_2026_4]: https://doi.org/10.34133/space.0368
 [research_lortie_1966]: https://doi.org/10.21236/ad0630781
 [research_lowrey_1962]: https://doi.org/10.4271/620368
 [research_lubowe_1965]: https://doi.org/10.2514/3.28135
 [research_lubowe_1969]: https://doi.org/10.2514/3.5313
+[research_luc_2026]: https://doi.org/10.1063/5.0310511
+[research_luca_2026]: https://doi.org/10.1016/j.tws.2026.115232
 [research_maas_1962]: https://doi.org/10.21236/ad0408258
 [research_macpherson_1963]: https://doi.org/10.21236/ad0403872
 [research_magrini_1967]: https://ntrs.nasa.gov/citations/19670027973
+[research_maicke_2026]: https://doi.org/10.1063/5.0305611
+[research_mamdouh_2026]: https://doi.org/10.21608/jesaun.2026.453544.2029
 [research_maresca_1960]: https://doi.org/10.21236/ad0341205
 [research_martin_1973]: https://doi.org/10.2514/3.50460
 [research_mather_1971]: https://doi.org/10.1111/j.1365-246x.1971.tb03583.x
@@ -1178,6 +1331,7 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_matson_1963]: https://doi.org/10.21236/ad0438031
 [research_mattson_1965]: https://ntrs.nasa.gov/citations/19660010223
 [research_maxwell_dorfman_1963]: https://doi.org/10.2514/6.1963-155
+[research_meegama_2026]: https://doi.org/10.1038/s41598-026-38784-1
 [research_mermagen_1964]: https://doi.org/10.21236/ad0444246
 [research_message_1960]: https://doi.org/10.1111/j.1365-246x.1960.tb01722.x
 [research_message_1960_2]: https://doi.org/10.1093/mnras/121.1.1
@@ -1185,8 +1339,11 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_miller_1967]: https://doi.org/10.2514/6.1967-44
 [research_morey_koshar_1961]: https://doi.org/10.1016/b978-0-12-395682-8.50010-8
 [research_moriarty_1966]: https://doi.org/10.21236/ad0633034
+[research_moric_kadyshev_2025]: https://doi.org/10.1080/10242694.2024.2396415
 [research_moritz_1966]: https://doi.org/10.21236/ad0653193
 [research_mottley_1960]: https://doi.org/10.1109/iret-mil.1960.5008220
+[research_mphuthi_2025]: https://doi.org/10.4314/sajg.v14i1.5
+[research_mphuthi_2026]: https://doi.org/10.1515/jag-2025-0094
 [research_murphy_1961]: https://doi.org/10.1016/0032-0633(61)90141-6
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19690071283
 [research_naca_1966]: https://ntrs.nasa.gov/citations/19660022936
@@ -1194,14 +1351,23 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_naca_1968]: https://ntrs.nasa.gov/citations/19680014866
 [research_naca_1968_2]: https://ntrs.nasa.gov/citations/19690000964
 [research_naca_1969_2]: https://ntrs.nasa.gov/citations/19690028458
+[research_nair_2023]: https://doi.org/10.1016/j.matpr.2023.05.082
 [research_nash_1972]: https://doi.org/10.2514/6.1972-848
+[research_nasiri_2025]: https://doi.org/10.47176/jafm.18.8.3202
+[research_navaz_ntantis_2026]: https://doi.org/10.1007/s12567-026-00740-0
 [research_nein_head_1962]: https://doi.org/10.1007/978-1-4757-0531-7_30
 [research_nichols_1974]: https://doi.org/10.21236/ada002625
+[research_nikolayev_2026]: https://doi.org/10.1007/s42401-026-00507-9
 [research_o_rourke_2010]: https://doi.org/10.21236/ada536934
 [research_ostner_1962]: https://doi.org/10.21236/ad0414825
+[research_othman_2025]: https://doi.org/10.24057/2071-9388-2024-3304
+[research_ozturk_2026]: https://doi.org/10.1016/j.jastp.2026.106829
 [research_pamadi_2016]: https://ntrs.nasa.gov/citations/20160010566
+[research_pang_2026]: https://doi.org/10.1016/j.ast.2026.112730
 [research_parkyn_1958]: https://doi.org/10.1038/182787b0
 [research_parkyn_1958_2]: https://doi.org/10.2307/3610466
+[research_paul_2026]: https://doi.org/10.1007/s12567-026-00723-1
+[research_pei_2021_2]: https://doi.org/10.2514/1.a35024
 [research_peters_hall_1963]: https://doi.org/10.21236/ad0403115
 [research_pijoan_1970]: https://doi.org/10.2514/6.1970-1011
 [research_platt_hanner_1965]: https://doi.org/10.2172/1068247
@@ -1209,13 +1375,21 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_poehler_1961]: https://doi.org/10.1109/iret-set.1961.5008780
 [research_polk_1962]: https://doi.org/10.21236/ad0296952
 [research_powers_1960]: https://doi.org/10.1016/b978-0-12-395519-7.50008-2
+[research_praczyk_zalewski_2026]: https://doi.org/10.3390/s26144601
 [research_punga_campbell_1962]: https://doi.org/10.2514/8.9711
+[research_qin_2025]: https://doi.org/10.1038/s41598-025-16815-7
 [research_rainey_1964]: https://doi.org/10.2514/6.1964-1016
+[research_raji_2019]: https://doi.org/10.1088/1742-6596/1355/1/012020
 [research_randall_1970]: https://doi.org/10.2514/3.29945
+[research_raouf_2022]: https://doi.org/10.1080/15397734.2020.1822180
 [research_rapp_1967]: https://doi.org/10.1029/jz072i002p00589
 [research_rapp_1973]: https://doi.org/10.1029/jb078i032p07589
 [research_rapp_1974]: https://ntrs.nasa.gov/citations/19760013482
+[research_rehman_2025]: https://doi.org/10.57169/jssa.0011.01.0373
 [research_remmer_1974]: https://doi.org/10.1007/bf02521923
+[research_ren_2025]: https://doi.org/10.1016/j.ast.2025.110080
+[research_ren_2025_2]: https://doi.org/10.1007/s11227-025-07655-3
+[research_ren_2026]: https://doi.org/10.1016/j.measurement.2026.120645
 [research_richards_1960]: https://doi.org/10.21236/ad0419890
 [research_richards_1961]: https://doi.org/10.2514/8.5903
 [research_ringland_stubblefield_1965]: https://ntrs.nasa.gov/citations/19660013606
@@ -1227,33 +1401,52 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_ryle_1952]: https://doi.org/10.1007/978-94-009-7752-5_12
 [research_rynaski_1967]: https://doi.org/10.2514/6.1967-592
 [research_sabaghzadeh_khansari_2022]: https://doi.org/10.5267/j.esm.2022.3.003
+[research_sanbad_2025]: https://doi.org/10.47362/ejsss.2025.6604
 [research_sarychev_1962]: https://doi.org/10.2514/8.6110
 [research_satterfield_akens_1958]: https://doi.org/10.21236/ada434326
 [research_saunders_1965]: https://doi.org/10.21236/ad0620194
 [research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
 [research_schlegel_1966]: https://doi.org/10.2514/3.3857
+[research_schreutelkamp_hirt_2026]: https://doi.org/10.1007/s00190-026-02089-y
 [research_schurmann_1957]: https://doi.org/10.2514/8.12965
 [research_schweppe_1964]: https://doi.org/10.21236/ad0609524
 [research_scott_1963]: https://doi.org/10.21236/ad0410255
+[research_shao_2025]: https://doi.org/10.1038/s41598-025-07254-5
 [research_sharenson_1966]: https://doi.org/10.21236/ad0634390
 [research_shelton_1966]: https://ntrs.nasa.gov/citations/19660007993
 [research_siry_1960]: https://doi.org/10.1016/b978-1-4832-2736-8.50006-8
 [research_slifka_1960]: https://doi.org/10.1109/jrproc.1960.287405
 [research_smalley_1961]: https://doi.org/10.21236/ad0264245
+[research_song_2022_5]: https://doi.org/10.2514/1.j061610
 [research_stancil_1963]: https://doi.org/10.2514/6.1963-223
 [research_stephens_1965]: https://doi.org/10.2514/6.1965-1114
+[research_stern_2008]: https://doi.org/10.21236/ada491628
 [research_stetson_1964]: https://doi.org/10.2514/6.1964-433
+[research_strategy_2026]: https://doi.org/10.46226/jss.2026.7.33.2.111
 [research_strauss_1964]: https://doi.org/10.21236/ad0609492
-[research_su_2026]: https://doi.org/10.1080/23307706.2025.2556335
+[research_su_2026_2]: https://doi.org/10.1016/j.cja.2026.104210
+[research_su_2026_3]: https://doi.org/10.1016/j.asr.2026.01.060
 [research_sundstrom_brown_1969]: https://www.osti.gov/biblio/4721501
+[research_tariq_2026]: https://doi.org/10.3390/pr14152458
 [research_taylor_price_1974]: https://doi.org/10.21236/ad0783098
 [research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
+[research_timilsina_2025]: https://doi.org/10.3126/jlmge.v7i1.83178
+[research_tishkov_fokin_2026]: https://doi.org/10.31854/2307-1303-2026-14-1-1-21
 [research_townsend_1966]: https://doi.org/10.21236/ad0633628
+[research_traore_2026]: https://doi.org/10.62327/3xfpvmez94
 [research_trushlyakov_2024]: https://doi.org/10.1016/j.cja.2023.09.018
 [research_tsuboi_hayatu_1954]: https://doi.org/10.4294/jpe1952.2.45
+[research_uzzaman_rana_2025]: https://doi.org/10.63468/jpsa.3.2.80
 [research_veis_1968]: https://doi.org/10.1007/bf02525700
 [research_vickers_dyer_1971]: https://doi.org/10.1029/rs006i012p01021
+[research_vince_2026]: https://doi.org/10.1109/jispin.2026.3690078
+[research_wan_2026]: https://doi.org/10.1063/5.0304056
+[research_wang_2026]: https://doi.org/10.1088/1742-6596/3249/1/012005
+[research_wang_chen_2026]: https://doi.org/10.1016/j.asr.2026.06.014
+[research_wang_wang_2025]: https://doi.org/10.3390/s25041136
 [research_wareham_1972]: https://doi.org/10.21236/ad0754070
+[research_webb_2026]: https://doi.org/10.1016/j.ast.2026.112231
+[research_wei_2026_2]: https://doi.org/10.1016/j.ast.2026.111734
 [research_westerman_1963]: https://doi.org/10.1086/108986
 [research_whelan_1968]: https://doi.org/10.2514/6.1968-417
 [research_whitcombe_1961]: https://doi.org/10.21236/ad0259865
@@ -1261,14 +1454,40 @@ That is the whole content of the phrase space launch vehicle, and the X-12 is wh
 [research_widnall_1974]: https://doi.org/10.2514/6.1974-867
 [research_wildhack_1958]: https://doi.org/10.1126/science.128.3319.309
 [research_wilkinson_1971]: https://doi.org/10.2514/3.30286
+[research_wilkinson_2026]: https://doi.org/10.3724/ati2026006
 [research_wilner_1960]: https://doi.org/10.1109/jrproc.1960.287484
 [research_wolf_1954]: https://doi.org/10.1007/bf02526780
 [research_wolfe_1966]: https://doi.org/10.21236/ad0486484
 [research_wood_1961]: https://doi.org/10.21236/ad0421632
 [research_wright_ruscus_1959]: https://doi.org/10.1109/iret-set.1959.5008660
+[research_wu_2026]: https://doi.org/10.3390/app16094066
+[research_xie_2026]: https://doi.org/10.1177/09544100261460620
+[research_xiong_2021]: https://doi.org/10.1007/s42405-021-00354-2
 [research_xu_2020]: https://doi.org/10.5755/j01.mech.26.5.27874
+[research_xu_2025]: https://doi.org/10.1115/1.4068950
 [research_yan_2025]: https://doi.org/10.1088/1742-6596/3004/1/012078
+[research_yan_2025_2]: https://doi.org/10.3847/1538-3881/ad90a7
+[research_yang_2023]: https://doi.org/10.1088/1742-6596/2569/1/012014
+[research_yang_2025]: https://doi.org/10.3390/aerospace12030176
+[research_yang_ni_2026]: https://doi.org/10.1109/jsen.2026.3707384
+[research_yao_liu_2022]: https://doi.org/10.1016/j.apm.2022.03.007
+[research_yermolenko_ferguson_2025]: https://doi.org/10.3390/aerospace12020130
+[research_yu_2026_2]: https://doi.org/10.1016/j.applthermaleng.2026.131248
+[research_yue_2022]: https://doi.org/10.1016/j.cja.2021.07.001
+[research_yuricich_2026]: https://doi.org/10.1016/j.jsse.2026.04.003
+[research_zeng_2026]: https://doi.org/10.1109/comst.2026.3680438
+[research_zeng_2026_2]: https://doi.org/10.1063/5.0340634
 [research_zhang_2022]: https://doi.org/10.3390/act11120366
+[research_zhang_2024_2]: https://doi.org/10.1016/j.ress.2023.109676
+[research_zhang_2025_4]: https://doi.org/10.1142/s2737480725500256
+[research_zhang_2026]: https://doi.org/10.1109/lpt.2025.3614221
+[research_zhang_2026_3]: https://doi.org/10.1007/s42401-026-00511-z
+[research_zhang_2026_5]: https://doi.org/10.1016/j.applthermaleng.2025.129443
+[research_zhao_li_2025]: https://doi.org/10.3390/s25113555
+[research_zhao_tan_2026]: https://doi.org/10.1016/j.actaastro.2026.01.008
+[research_zhou_2026_2]: https://doi.org/10.1016/j.actaastro.2026.07.044
+[research_zhu_2026]: https://doi.org/10.1177/14759217261422450
+[research_zmyslowski_kelner_2026]: https://doi.org/10.12716/1001.20.02.09
 
 ### Related Post
 
