@@ -89,12 +89,38 @@ the 0.85 threshold with zero flagged, zero duplicate URLs, and no hand-entered i
 Isolated build succeeding with 115 rendered display blocks matching the source count exactly, Part 13
 navigation, nine tables, and no unresolved reference links or surviving Liquid tags.
 
-**Remaining for the review passes**: equation density is already in band, so the equation pass should
-look for relations the prose relies on without displaying rather than for count. Reference density
-needs 85 or more, and primary sources are already 83.1 percent of dated. **Contemporary references
-sit at 23, or 15.5 percent of dated, which is well below the 28 to 33 percent floor and far below the
-101 to 189 absolute count the series has held since A301**, so the publication-review sweep carries
-the largest single gap.
+**Equation pass complete, 2026-08-07.** 115 to **135 display equations**, five over the 130 ceiling,
+reported rather than trimmed because the genre rule that produces the band takes precedence over the
+number and every addition answers a claim the draft already made. 1162 lines, 165 references, 13,712
+body words.
+
+**The pass found a wrong claim.** The draft asserted all-inertial guidance waited on components
+improving "by roughly two orders of magnitude". Deriving the gyroscope drift requirement gives
+**0.329 degrees per hour** against period instruments at of order one, so the gap is **a factor of
+about three**, and the article's architectural inference is now weaker rather than stronger. Fifth
+article running in which writing a relation down caught arithmetic carried as an assertion.
+
+**Three results changed what the article says.** The error budget saturates, and removing the largest
+contribution entirely at infinite cost buys only 14.0 percent. The oblate gravity field displaces the
+impact point by of order **34 kilometres, nine times the miss budget**, where the draft said only
+that the departure "is not small". The angle-versus-speed forgiveness ratio scales as the inverse
+square of the angle, so it is 191 at a twentieth of a degree and **1.9 at half a degree, where the
+angle stops being free**.
+
+Also added: the identity that the factor by which the vehicle becomes harder to stop is exactly its
+sustainer mass ratio of 4.38; the first-order azimuth relation, whose 23 percent shortfall against
+the exact value measures where the article's own linear sensitivity stops holding; the requirement
+that a range instrument be 3.1 times better than the missile it certifies; the plasma-frequency
+inversion and its square-law ratio; the variance-share relation; the speed-budget scaling across one,
+two, and five nautical miles; and the boil-off holding time. All 160 worked values re-derived with
+zero disagreements, isolated build clean at 135 rendered display blocks matching source exactly.
+
+**Remaining for the two review passes**: reference density needs 85 or more to reach the 250 floor,
+and primary sources are already 83.1 percent of dated, so the primary pass has less to do than usual
+and should be aimed by a citation-coverage audit rather than by count. **Contemporary references sit
+at 23, or 15.5 percent of dated, which is well below the 28 to 33 percent floor and far below the 101
+to 189 absolute count the series has held since A301**, so the publication-review sweep carries the
+largest single gap. Lines remain 138 below the floor.
 
 ## X-Planes Convair X-11 A308 2025-10-17
 
