@@ -136,7 +136,61 @@ Equations inside band. Lines remain 446 short of the 1300 floor and references 9
 floor, both of which the reference-density and publication review passes must close, and the gap is
 larger than it was at the same point in A307.
 
-Held in `_drafts/` pending the reference-density and publication review passes.
+**Primary-reference review performed on request.** Baseline measured 79 primary of 149 external, or
+**53.0 percent**, which is below A307's 61.5 baseline, with only 11 NTRS records cited, implausibly low
+for an article whose keystone is shell stability. A citation-coverage audit found **eleven sections over
+180 words at or below four citations per thousand**, and every one was a section the equation pass
+created or expanded. That is the fourth article running in which the equation pass arrived without its
+period sources.
+
+A supplementary harvest of 43 NTRS, 20 DTIC, and 18 period queries returned 158 new NTRS, 171 new DTIC,
+and 172 new period records, taking the master index from 845 to 1289 entries with zero duplicate URLs.
+74 primary documents were added across 22 edits, taking references from 160 to **234** and primary
+sources to **153 of 212 research, or 72.2 percent, and 68.6 percent of external**. Both figures are the
+highest in the series, against A307's 69.3 percent peak.
+
+**The best single find is the measurement the article's keystone section describes.** [Miller and Gerus
+1966] reports the bending strength of a large thin-walled pressure-stabilised cylinder, which is the
+relation derived in the equation pass tested on hardware of the right size. The article had derived the
+relation and computed with it without knowing that the period had measured it directly.
+
+**The second-best find explains why the design allowable is a knockdown factor rather than a theory.**
+Peterson 1960 correlates measured buckling strength of pressurised cylinders against the pressure
+parameter, which is the empirical form the design offices actually used, and Babcock and Sechler 1962
+and 1963 measure how much of the classical strength an initial imperfection removes.
+
+Other threads closed: ground-wind induced oscillation on the pad, which is the load case the article had
+entirely omitted and which for a pressure-stabilised vehicle is resisted by the standing five pounds
+rather than the flight sixty, with a whole period meeting devoted to it; sonic fatigue as a named
+discipline with its own test methods and statistical machinery; cryogenic pressurisation, autogenous
+systems, and pre-launch conditioning; the period trajectory and staging machinery the range table rests
+on; and the reentry deceleration result, which turns out to have been computed by Scherberg and Rubin in
+1953, four years before the X-11 flew.
+
+**Coverage after the pass is four thin sections against eleven**, and three of the four are synthesis
+sections that correctly carry no citations, namely the Source Base, the Epistemic State, and the
+Conclusion.
+
+**A diction defect was introduced and repaired within the pass.** The additions drove the leading
+citation construction to 39.1 percent against a house norm of 20 to 27, because the rule to vary while
+writing rather than afterwards was not followed. Fifty-four rotations brought it to **18.8 percent**,
+with the top actual construction at 3.2 percent.
+
+**Primary-pass verification**: 234 references with zero undefined, zero orphaned, and zero duplicate
+URLs. **All 23 fixed identifiers at 200 and all 192 DOIs Crossref-resolved on title at the 0.85 threshold
+with zero flagged**, and the article contains no hand-entered identifier anywhere. All 78 worked values
+still reproducing. `_verify.py` at the 0-error 21-warning corpus baseline. Zero contractions, em-dashes,
+en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate headings, or
+display-math seam defects. Isolated build succeeding with 92 rendered display blocks, Part 12 navigation,
+no unresolved reference links and no surviving Liquid tags.
+
+**State after the primary pass**: 940 lines, 92 display equations, 234 references, 12,447 words.
+Equations inside band. **References remain 16 short of the 250 floor and lines 360 short of the 1300
+floor.** The reference gap will close in the publication review, which added 96 references to A307, but
+**the line gap is larger than any article in this series has carried into a publication review** and the
+contemporary work will have to be correspondingly substantial.
+
+Held in `_drafts/` pending the publication review.
 
 ## X-Planes North American X-10 A307 2025-10-16
 
