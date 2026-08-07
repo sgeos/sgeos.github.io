@@ -139,7 +139,19 @@ A tenth of a degree of pointing error costs seventy-seven metres of range. The s
 
 $$\delta v = \frac{77}{6040} = 0.0128 \, \text{m/s}$$
 
-which is one part in five hundred and sixty thousand. **Pointing is roughly fifty times more forgiving than speed at the tolerances that matter, and the ratio grows without limit as the errors shrink**, because one term is linear and the other is quadratic. This is why the Atlas guidance system is a speed-measuring instrument with an attitude system attached rather than the reverse, and it is the single structural fact that organises everything below. Related sensitivity work of the period includes [Gretz 1962][research_gretz_1962] on error sensitivities in ascent and orbital transfer and [Griner 1967][research_griner_1967] on reducing dispersion by shaping the thrust-time curve.
+which is one part in five hundred and sixty thousand. The ratio of the two is worth writing down, because it is not a constant. Setting the second-order angle loss against the first-order speed loss gives
+
+$$\frac{\delta v_{\text{budget}}}{\delta v_{\text{equiv}}(\delta \gamma)} = \frac{\delta v_{\text{budget}} \, (dR/dv)}{\tfrac{1}{2} \left| \partial^{2} R / \partial \gamma^{2} \right| (\delta \gamma)^{2}} \propto \frac{1}{(\delta \gamma)^{2}}$$
+
+which evaluates to
+
+| Flight path angle error | Equivalent speed error | Fraction of the budget it consumes |
+|---|---|---|
+| 0.05 degrees | 0.0032 m/s | 1 part in 191 |
+| 0.10 degrees | 0.0128 m/s | 1 part in 48 |
+| 0.50 degrees | 0.3209 m/s | 1 part in 1.9 |
+
+**Pointing is roughly fifty times more forgiving than speed at a tenth of a degree, and the advantage grows without limit as the errors shrink**, because one term is linear and the other quadratic. The inverse-square dependence is the whole content of the claim and it also sets its limit, since at half a degree the two contributions are comparable and the angle stops being free. An autopilot holding attitude to a tenth of a degree therefore has margin and one holding half a degree does not. This is why the Atlas guidance system is a speed-measuring instrument with an attitude system attached rather than the reverse, and it is the single structural fact that organises everything below. Related sensitivity work of the period includes [Gretz 1962][research_gretz_1962] on error sensitivities in ascent and orbital transfer and [Griner 1967][research_griner_1967] on reducing dispersion by shaping the thrust-time curve.
 
 ### Why the X-11 Could Not Address Any of This
 
@@ -221,7 +233,19 @@ An illustrative allocation makes the consequence visible. The values below are c
 | Atmospheric and reentry dispersion | 0.30 m/s | 26.1 percent |
 | Root sum square | 0.59 m/s | |
 
-**Quadrature is unforgiving of effort spent on the wrong term.** Halving the largest single contribution, from 0.30 to 0.15 metres per second, moves the total only from 0.59 to 0.53, an improvement of 10.3 percent for what would be a major redesign. Nothing short of improving several terms at once moves the answer, and this is the structural reason accuracy programmes proceed slowly and by increments across many subsystems rather than by one decisive advance.
+The share each term takes of the total is its share of the variance rather than of the sum,
+
+$$s_{i} = \frac{\delta v_{i}^{2}}{\sum_{j} \delta v_{j}^{2}}$$
+
+and improving one term by a factor $k$ moves the total by
+
+$$\frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i} \left( 1 - \frac{1}{k^{2}} \right)}$$
+
+**Quadrature is unforgiving of effort spent on the wrong term.** Halving the largest single contribution moves the total from 0.59 to 0.53, an improvement of 10.3 percent for what would be a major redesign. The relation also fixes a ceiling, because letting $k$ grow without bound gives
+
+$$\lim_{k \to \infty} \frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i}} = 0.860$$
+
+so **removing the largest contribution entirely, at infinite cost, would improve the total by 14.0 percent.** Halving it already captures three quarters of everything perfect elimination could buy. Nothing short of improving several terms at once moves the answer, and this is the structural reason accuracy programmes proceed slowly and by increments across many subsystems rather than by one decisive advance.
 
 It also explains a fact about the Atlas that would otherwise look like poor engineering. The reentry body's own dispersion, from ablation asymmetry and from winds at low altitude, sits in the budget alongside everything the guidance system does, and it is not reducible by any improvement to guidance at all. **A perfect cutoff does not give a perfect weapon**, and the guidance engineer's share of the problem has a floor set by aerodynamics. Error analysis in exactly this form was worked out by [Britting 1971][research_britting_1971] and [Nash et al 1972][research_nash_1972], with the reentry contribution in [Platus 1967][research_platus_1967] and [Ammons 1973][research_ammons_1973].
 
@@ -365,7 +389,11 @@ One term that does not appear in the range law as written is the rotation of the
 
 $$v_{\text{rot}} = \omega_{e} R_{e} \cos \phi = 7.292 \times 10^{-5} \times 6.371 \times 10^{6} \times \cos 28.5^{\circ} = 408 \, \text{m/s}$$
 
-which is 5.68 percent of the burnout speed. Adding and subtracting it as a bound on the azimuth effect gives a range credit of about 3,195 kilometres for a due-east launch and a penalty of about 2,065 kilometres for a due-west one, an east-to-west swing of some 5,260 kilometres on a nominal ten thousand. **This is an upper bound rather than a computed range, because a real trajectory only captures the component along its azimuth and the launch site latitude changes along the arc**, but the order is right and it explains why a missile's stated range is meaningless without a direction. It also explains the SCORE inclination of 32.3 degrees against a launch site latitude of 28.5, since an orbit cannot be less inclined than its launch latitude and the excess measures how far the azimuth was rotated away from due east.
+which is 5.68 percent of the burnout speed. Adding and subtracting it as a bound on the azimuth effect gives a range credit of about 3,195 kilometres for a due-east launch and a penalty of about 2,065 kilometres for a due-west one, an east-to-west swing of some 5,260 kilometres on a nominal ten thousand. Only the component along the launch azimuth $A$ is captured, so to first order the credit is
+
+$$\delta R = \frac{dR}{dv} \, \omega_{e} R_{e} \cos \phi \cos A$$
+
+giving 2,466 kilometres due east, 1,744 at an azimuth of 45 degrees, and nothing due north or south. **The first-order estimate of 2,466 kilometres falls 23 percent short of the exact 3,195**, which is a useful warning in its own right, since a 408 metre per second perturbation is far outside the range over which the linear sensitivity that governs the whole article remains valid. **This is an upper bound rather than a computed range, because the launch site latitude changes along the arc**, but the order is right and it explains why a missile's stated range is meaningless without a direction. It also explains the SCORE inclination of 32.3 degrees against a launch site latitude of 28.5, since an orbit cannot be less inclined than its launch latitude and the excess measures how far the azimuth was rotated away from due east.
 
 ### The Earth Is Not a Sphere, and That Matters More Than the Rotation
 
@@ -379,7 +407,15 @@ $$\Delta R = 21.4 \, \text{km}$$
 
 against a miss budget of 3.704 kilometres. **The flattening of the Earth is 5.8 times the entire permitted miss.** Expressed as fractions, the flattening is one part in 298 while the accuracy requirement is one part in 2,700, so the figure of the Earth is nine times coarser than the tolerance.
 
-Two consequences follow and both are large. **The target's position must be known in the same coordinate frame as the launch site**, to a few hundred metres, across an intercontinental baseline, and in 1958 the geodetic connection between continents was itself uncertain at the kilometre level. **And the gravity field is not that of a point mass**, so the free-fall arc is not the ellipse computed above and the departure is not small. The oblateness term that dominates it was being worked out at exactly this moment, in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], [Message 1960][research_message_1960], [King-Hele 1962][research_king_hele_1962], and [Sarychev 1962][research_sarychev_1962], and the satellites that measured it were flying on vehicles like this one.
+Two consequences follow and both are large. **The target's position must be known in the same coordinate frame as the launch site**, to a few hundred metres, across an intercontinental baseline, and in 1958 the geodetic connection between continents was itself uncertain at the kilometre level. **And the gravity field is not that of a point mass**, so the free-fall arc is not the ellipse computed above. The size of the departure follows from the same flattening. The leading zonal harmonic contributes a relative perturbing acceleration of
+
+$$\frac{\Delta a}{g} \approx \frac{3}{2} J_{2} \left( \frac{R_{e}}{r} \right)^{2} = 1.62 \times 10^{-3}, \qquad J_{2} = 1.083 \times 10^{-3}$$
+
+which is 0.162 percent of gravity, and acting over a free-fall arc of 2,058 seconds it displaces the impact point by of order
+
+$$\Delta s \sim \tfrac{1}{2} \, \Delta a \, t_{f}^{2} = 34 \, \text{km}$$
+
+**Nine times the entire miss budget.** That figure is an upper bound, since the perturbation is not constant along the arc and part of it acts along-track where the range law absorbs it, but no plausible reduction brings it below the tolerance. A weapon aimed on a point-mass gravity field misses by tens of kilometres. The oblateness term that dominates it was being worked out at exactly this moment, in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], [Message 1960][research_message_1960], [King-Hele 1962][research_king_hele_1962], and [Sarychev 1962][research_sarychev_1962], and the satellites that measured it were flying on vehicles like this one.
 
 **The ballistic missile therefore created a geodetic requirement it could not itself satisfy**, and the resolution came from the same orbital capability the X-12 demonstrated. That circularity is worth naming, because it is the clearest case in this series of a weapon programme generating a scientific programme as a precondition for its own accuracy rather than as a by-product.
 
@@ -451,7 +487,15 @@ The sustainer is a single Rocketdyne chamber, and the model specification surviv
 
 $$\dot{v} = \frac{F_{s}}{m} \quad \text{rising from} \quad 16.4 \quad \text{to} \quad 71.6 \, \text{m/s}^{2}$$
 
-as the tanks empty, so the vehicle is a factor of 4.4 more difficult to stop precisely at the end of the burn than at the beginning. **The mass fraction that makes the Atlas an intercontinental weapon is the same mass fraction that makes it hard to stop**, and this is the article's first genuine tension between the [previous one's][related_post_a308_convair_x11] keystone and this one's. A heavier vehicle would be easier to terminate accurately and could not reach the target.
+as the tanks empty. The ratio between the two is worth naming, because it is not an independent quantity,
+
+$$\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38$$
+
+**The factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio**, which is the same quantity the rocket equation rewards, since
+
+$$\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}$$
+
+is a logarithm of the identical number. **The mass fraction that makes the Atlas an intercontinental weapon is the same mass fraction that makes it hard to stop**, and this is the article's first genuine tension between the [previous one's][related_post_a308_convair_x11] keystone and this one's. A heavier vehicle would be easier to terminate accurately and could not reach the target.
 
 ### Propellant Utilisation
 
@@ -535,7 +579,21 @@ for an accelerometer bias $\varepsilon_a$, and over a powered flight of about 28
 
 $$\varepsilon_{a} = \frac{0.613}{280} = 2.2 \times 10^{-3} \, \text{m/s}^{2} = 2.2 \times 10^{-4} g$$
 
-exhausts the entire budget. **Two hundred and twenty micro-g of accelerometer bias was not achievable in 1958 and is not trivial now.** Putting the measurement on the ground removes the integration entirely, at the price of a radio link and a vehicle that cannot be fired if the link is jammed or the station is destroyed, which is exactly why the later Atlas E and F went all-inertial once components allowed. The period literature on both sides of that trade includes [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962] on damping an inertial system, [Britting 1971][research_britting_1971] on unified error analysis, [Wilkinson 1971][research_wilkinson_1971] on the floated gyroscope error model, and [Becker 1973][research_becker_1973] on command guidance as a control system.
+exhausts the entire budget. **Two hundred and twenty micro-g of accelerometer bias was not achievable in 1958 and is not trivial now.**
+
+The gyroscopes carry a companion requirement that is easier to state and harder to intuit. A platform that has tilted by an angle $\theta$ resolves a component of gravity into its horizontal accelerometers, so a static tilt gives a velocity error of $g \theta t$ and the allowance is
+
+$$\theta \leq \frac{\delta v}{g t} = 2.23 \times 10^{-4} \, \text{rad} = 46 \, \text{arcseconds}$$
+
+If instead the tilt accumulates at a constant drift rate $\varepsilon$, then $\theta = \varepsilon t$ and the error integrates twice,
+
+$$\delta v = \tfrac{1}{2} g \varepsilon t^{2}, \qquad \varepsilon \leq \frac{2 \, \delta v}{g t^{2}} = 1.59 \times 10^{-6} \, \text{rad/s}$$
+
+which is
+
+$$\varepsilon \leq 0.329 \, \text{degrees per hour}$$
+
+**A third of a degree per hour, and gyroscopes of the period drifted at of order one degree per hour.** The gap between the available instrument and the required one is therefore a factor of about three rather than the orders of magnitude the difficulty of the problem suggests, and the honest reading is that all-inertial guidance was close in 1958 rather than remote. What the ground link bought was not a capability that did not exist but a margin, and the margin mattered because the accelerometer and the gyroscope errors add in quadrature alongside everything else in the budget. Putting the measurement on the ground removes the integration entirely, at the price of a radio link and a vehicle that cannot be fired if the link is jammed or the station is destroyed, which is exactly why the later Atlas E and F went all-inertial once components allowed. The period literature on both sides of that trade includes [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962] on damping an inertial system, [Britting 1971][research_britting_1971] on unified error analysis, [Wilkinson 1971][research_wilkinson_1971] on the floated gyroscope error model, and [Becker 1973][research_becker_1973] on command guidance as a control system.
 
 The comparison with the [X-10][related_post_a307_north_american_x10] is instructive and runs the other way. The Navaho needed autonomous navigation because it flew for nearly three hours over hostile territory and a ground link was not available. The Atlas needed accurate velocity for about five minutes over friendly territory and a ground link was. **The two vehicles chose opposite architectures for the same reason, which is that each put the measurement where the physics of its own mission allowed it to be put.**
 
@@ -622,6 +680,14 @@ with the electron density in reciprocal cubic metres. Inverting it gives the den
 | Telemetry, very high frequency | 250 MHz | $7.75 \times 10^{14}$ per cubic metre |
 | Telemetry, S-band | 2.2 GHz | $6.00 \times 10^{16}$ per cubic metre |
 | Azusa, C-band | 5.0 GHz | $3.10 \times 10^{17}$ per cubic metre |
+
+Inverting the plasma frequency relation gives the critical density directly,
+
+$$n_{e} = \left( \frac{f}{8.98} \right)^{2}$$
+
+so the ratio between any two links is the square of their frequency ratio,
+
+$$\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \frac{2200}{250} \right)^{2} = 77.4$$
 
 **S-band tolerates seventy-seven times the ionisation that very high frequency does**, which is the whole reason telemetry moved up in frequency, and it is a square-law consequence rather than an incremental improvement. The problem is not confined to reentry either, since the exhaust plume of a large liquid engine is itself conducting and can break down an antenna during powered flight, which is the subject of [Poehler 1961][research_poehler_1961]. Reentry attenuation for S-band telemetry specifically was measured by [Golden 1969][research_golden_1969], the diagnostic instruments flown to measure the sheath are [Frankenthal 1964][research_frankenthal_1964] and [Fuhs et al 1966][research_fuhs_1966], and telemetry hardware built to survive the environment comes from [Wright and Ruscus 1959][research_wright_ruscus_1959] and [Mermagen 1964][research_mermagen_1964].
 
@@ -772,13 +838,25 @@ The engine could be tested, and was, on stands that ran full-duration burns. The
 
 **The cutoff transient could not be reproduced in the flight configuration.** A static test measures thrust decay against a rigid stand. In flight the same decay acts on a vehicle whose structure is a pressurised membrane, whose propellant is sloshing, and whose acceleration is falling through the transient. The one measurement that matters, namely the total impulse delivered after the command, is exactly the one the stand cannot reproduce, and this is why the article's whole error budget rests on flight data.
 
-**The accuracy could not be measured better than the range could measure it.** A ground station accurate to a few metres per second cannot certify a missile required to be accurate to two thirds of a metre per second, so the instrumentation had to be improved alongside the weapon. That is a recurring shape in this series and appeared already in the [X-7][related_post_a304_lockheed_x7] and [X-10][related_post_a307_north_american_x10] articles.
+**The accuracy could not be measured better than the range could measure it.** This deserves a relation rather than an assertion, because it sets a hard requirement on the ground segment. An imperfect instrument inflates the measured scatter in quadrature,
+
+$$\sigma_{\text{meas}}^{2} = \sigma_{\text{true}}^{2} + \sigma_{\text{inst}}^{2}$$
+
+so holding the apparent inflation below a fraction $\eta$ requires
+
+$$\frac{\sigma_{\text{inst}}}{\sigma_{\text{true}}} \leq \sqrt{(1 + \eta)^{2} - 1}$$
+
+which for a five percent ceiling gives 0.320, or an instrument **3.1 times better than the missile it is certifying**. In the units used throughout that is 0.196 metres per second of range measurement error against a 0.613 metre per second budget. A ground station accurate to a few metres per second cannot certify a missile required to be accurate to two thirds of one, so the instrumentation had to be improved alongside the weapon. That is a recurring shape in this series and appeared already in the [X-7][related_post_a304_lockheed_x7] and [X-10][related_post_a307_north_american_x10] articles.
 
 ## What the Data Changed
 
 ### Into the Operational Force
 
-The Atlas B fed directly into the C, D, E, and F variants and into the first American operational intercontinental ballistic missile force. The radio guidance the B flew stayed through the D and was replaced by all-inertial guidance in the E and F, which is the change the accelerometer bias calculation above predicts once components improved by roughly two orders of magnitude. The Atlas force was short-lived as a weapon, being retired from that role by 1965, and the reason is that a cryogenic missile requiring lengthy fuelling was overtaken by storable and solid-fuelled weapons that could be launched in minutes. The inertial systems that replaced radio guidance in the E and F are the subject of [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962], [Larson 1965][research_larson_1965] for the contemporary Titan III, [Amacker and Graff 1965][research_amacker_graff_1965] on how such systems were tested, and [Widnall et al 1974][research_widnall_1974] on improving the observability of their error sources, with the precise-timing dependency in [Ehrsam et al 1978][research_ehrsam_1978]. The manned application the launcher inherited appears in [Boynton 1967][research_boynton_1967].
+The Atlas B fed directly into the C, D, E, and F variants and into the first American operational intercontinental ballistic missile force. The radio guidance the B flew stayed through the D and was replaced by all-inertial guidance in the E and F. The drift budget derived above says that transition was nearer than it looks, since the requirement is a third of a degree per hour against period instruments at of order one, so
+
+$$\frac{\varepsilon_{\text{period}}}{\varepsilon_{\text{required}}} \approx \frac{1.0}{0.329} = 3.0$$
+
+**A factor of three, not the orders of magnitude the eight-year gap between the B and the F might suggest.** What took the time was not the gyroscope but everything around it, namely the calibration, the alignment on the pad, the thermal control, and the confidence that a system with no external reference could be trusted with the mission, and none of those appears in the error budget. The Atlas force was short-lived as a weapon, being retired from that role by 1965, and the reason is that a cryogenic missile requiring lengthy fuelling was overtaken by storable and solid-fuelled weapons that could be launched in minutes. The inertial systems that replaced radio guidance in the E and F are the subject of [Whitcombe 1961][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962], [Larson 1965][research_larson_1965] for the contemporary Titan III, [Amacker and Graff 1965][research_amacker_graff_1965] on how such systems were tested, and [Widnall et al 1974][research_widnall_1974] on improving the observability of their error sources, with the precise-timing dependency in [Ehrsam et al 1978][research_ehrsam_1978]. The manned application the launcher inherited appears in [Boynton 1967][research_boynton_1967].
 
 ### Into the Launch Vehicle Line
 
@@ -792,7 +870,15 @@ An intercontinental ballistic missile arrives in 34.3 minutes, which this articl
 
 $$\frac{t_{\text{load}}}{t_{\text{flight}}} = \frac{15}{34.3} = 0.44$$
 
-**A missile that consumes forty-four percent of the adversary's flight time before it can be launched is not a second-strike weapon, and no improvement in accuracy repairs that.** The problem is worse than the ratio suggests, because boil-off means a loaded vehicle cannot simply be held loaded. A loss of one percent per day is enough to make indefinite readiness impossible in principle rather than merely inconvenient.
+**A missile that consumes forty-four percent of the adversary's flight time before it can be launched is not a second-strike weapon, and no improvement in accuracy repairs that.** The problem is worse than the ratio suggests, because boil-off means a loaded vehicle cannot simply be held loaded. Against an ullage margin $\mu$ the holding time before a top-up is required is
+
+$$t_{\text{hold}} = \frac{\mu}{\dot{m} / m}$$
+
+so a five percent margin against a one percent per day loss gives
+
+$$t_{\text{hold}} = \frac{0.05}{0.01} = 5 \, \text{days}$$
+
+**Readiness therefore has a clock on it even when nothing is wrong**, which makes indefinite alert impossible in principle rather than merely inconvenient, and every top-up is a maintenance action on a fuelled weapon.
 
 Minuteman, which replaced it, loads nothing. A solid motor is ready when it is built, and the whole of the Atlas's careful accuracy engineering was made irrelevant by a propellant choice. **The keystone this article identified is real and was decisive for whether the weapon worked, and it was not decisive for whether the weapon was kept**, which is a distinction worth drawing explicitly because an article organised around a keystone will tend to blur it. Alert-rate economics belongs to [Kravitsky 2007][research_kravitsky_2007], the post-Cold-War role to [O'Rourke 2010][research_o_rourke_2010], and silo deployment survivability as an optimisation is [Dai et al 2019][research_dai_2019].
 
@@ -820,7 +906,17 @@ The relations this article derives are not historical curiosities. Every one of 
 
 ## Where the Framing Breaks Down
 
-**The error budget is reconstructed, not documented.** The two nautical mile circular error probable used throughout is a plausible figure for an early Atlas and is not taken from a programme document found for this article. Everything downstream of it, including the headline one part in eleven thousand seven hundred, scales inversely with that assumption. At five nautical miles the requirement relaxes to 1.53 metres per second and one part in four thousand seven hundred, which is a materially easier problem. **The qualitative conclusion that speed dominates angle survives any choice, because it rests on a stationarity argument rather than on a number, but the specific figures do not.**
+**The error budget is reconstructed, not documented.** The two nautical mile circular error probable used throughout is a plausible figure for an early Atlas and is not taken from a programme document found for this article. Everything downstream of it, including the headline one part in eleven thousand seven hundred, scales inversely with that assumption. The scaling is linear and immediate,
+
+$$\delta v = \frac{\text{CEP}}{dR/dv}$$
+
+| Assumed circular error probable | Speed budget | Fractional requirement |
+|---|---|---|
+| 1 nautical mile | 0.307 m/s | 1 part in 23,458 |
+| 2 nautical miles | 0.613 m/s | 1 part in 11,729 |
+| 5 nautical miles | 1.533 m/s | 1 part in 4,692 |
+
+so at five nautical miles the problem is materially easier and at one it is roughly twice as hard as anything this article claims. **The qualitative conclusion that speed dominates angle survives any choice, because it rests on a stationarity argument rather than on a number, but the specific figures do not.**
 
 **Treating cutoff as the whole problem understates the atmosphere.** The range law used here is for a spherical non-rotating Earth with no atmosphere on the way up or down, and the reentry body's own dispersion, from ablation asymmetry, from roll resonance, and from winds at low altitude, contributes to the miss distance independently of anything the guidance system did. [Platus 1967][research_platus_1967] on roll resonance and [Ammons 1973][research_ammons_1973] on low-level wind measurement error are the shape of that contribution. An article organised around cutoff accuracy will naturally attribute the whole error to cutoff, and that is wrong.
 
@@ -864,11 +960,11 @@ The satellite side has the opposite shape. Project SCORE was run under extreme s
 
 **Reported but from compilations rather than programme documents.** The X-12 designation itself, which no document found for this article uses. The flight-by-flight serials, pads, and failure causes. The engine thrusts of 341,130 and 86,844 pounds and the specific impulses of 282 and 309 seconds. The masses used throughout, which are Atlas D figures carried forward from the [previous article][related_post_a308_convair_x11] because Atlas B figures were not found. The SCORE orbit of 185 by 1,484 kilometres at 32.3 degrees. The on-orbit mass, which is reported as both 3,980 kilogrammes and 8,660 pounds, figures that differ by 1.3 percent. The 88-person secrecy figure. The date of the full-range flight, which sources give as both 28 and 29 November 1958.
 
-**Assumed for the purpose of calculation and stated as such.** The two nautical mile circular error probable. The booster cutoff time of 135 seconds and the jettisoned booster package mass of three tonnes. The vernier thrust of a thousand pounds each. The 1,400 kilogramme reentry body on a one-metre base. The SCORE transmit power of eight watts and the ground antenna gain of ten decibels. The one percent phase-measurement fraction in the Azusa table. The five percent tail-off impulse uncertainty. Every one of these is an engineering estimate chosen to show a scaling, and each is identified at the point of use.
+**Assumed for the purpose of calculation and stated as such.** The two nautical mile circular error probable. The booster cutoff time of 135 seconds and the jettisoned booster package mass of three tonnes. The vernier thrust of a thousand pounds each. The 1,400 kilogramme reentry body on a one-metre base. The SCORE transmit power of eight watts and the ground antenna gain of ten decibels. The one percent phase-measurement fraction in the Azusa table. The five percent tail-off impulse uncertainty. **The period gyroscope drift of order one degree per hour**, against which the derived requirement of 0.329 is compared, which is the least well sourced number in the article and which the conclusion drawn from it depends on directly. The illustrative six-term error allocation, which sums to something near the budget and is not the Atlas allocation. The five percent ullage margin in the boil-off holding time. The five percent measurement-inflation ceiling used to size the range instrumentation requirement. The one percent per day liquid oxygen boil-off rate. Every one of these is an engineering estimate chosen to show a scaling, and each is identified at the point of use.
 
-**Engineering analysis, derived here and independently checkable.** The range law and its inversion for 10,000 kilometres. The range-to-velocity sensitivity of 6.04 kilometres per metre per second and its dimensionless form of 4.34. The velocity budget of 0.613 metres per second and the fractional requirement of one part in 11,728. The optimum flight path angle of 22.52 degrees, the vanishing first derivative of range with respect to it, the second derivative, and the resulting table of range losses. The cutoff timing requirement of 8.6 milliseconds. The tail-off impulse estimate of 1.07 metres per second and its ratio of 1.8 to the budget. The vernier acceleration, trim time, and authority ratio of 43.4. The grazing circular speed, the ten percent orbital margin, and the escape comparison. The mass ratio of 1.2645, the 4,266 kilogramme allowance, and the 20.9 percent trade. The comparison with the SCORE mass at 7.2 percent. The SCORE orbital elements, period, perigee and apogee speeds, and specific energies. The apogee sensitivity of 4.24 kilometres per metre per second. The ballistic semi-major axis, eccentricity, flight time of 34.3 minutes, and apogee altitude. The Earth rotation speed and the azimuth bound. The lift-off thrust-to-weight ratio, mass flows, mass at booster cutoff, the acceleration discontinuity of 4.37, the two-phase ideal velocity of 8,590 metres per second, and the sustainer burn time. The separation clearance comparison. The propellant residual sensitivity. The accelerometer bias budget of 220 micro-g. The interferometer fringe table and the Doppler resolution. The Allen and Eggers peak deceleration, altitude, and speed, the ballistic coefficient, and the stagnation heating. The unit conversions on the full-range flight and their consistency with the sensitivity relation. The SCORE revolution counts, duty cycle, Nyquist sample count, link budget, area-to-mass ratio, and energy loss per revolution. The binomial standard errors and the pooled z statistic of 0.42.
+**Engineering analysis, derived here and independently checkable.** The range law and its inversion for 10,000 kilometres. The range-to-velocity sensitivity of 6.04 kilometres per metre per second and its dimensionless form of 4.34. The velocity budget of 0.613 metres per second and the fractional requirement of one part in 11,728. The optimum flight path angle of 22.52 degrees, the vanishing first derivative of range with respect to it, the second derivative, and the resulting table of range losses. The cutoff timing requirement of 8.6 milliseconds. The tail-off impulse estimate of 1.07 metres per second and its ratio of 1.8 to the budget. The vernier acceleration, trim time, and authority ratio of 43.4. The grazing circular speed, the ten percent orbital margin, and the escape comparison. The mass ratio of 1.2645, the 4,266 kilogramme allowance, and the 20.9 percent trade. The comparison with the SCORE mass at 7.2 percent. The SCORE orbital elements, period, perigee and apogee speeds, and specific energies. The apogee sensitivity of 4.24 kilometres per metre per second. The ballistic semi-major axis, eccentricity, flight time of 34.3 minutes, and apogee altitude. The Earth rotation speed and the azimuth bound. The lift-off thrust-to-weight ratio, mass flows, mass at booster cutoff, the acceleration discontinuity of 4.37, the two-phase ideal velocity of 8,590 metres per second, and the sustainer burn time. The separation clearance comparison. The propellant residual sensitivity. The accelerometer bias budget of 220 micro-g. The interferometer fringe table and the Doppler resolution. The Allen and Eggers peak deceleration, altitude, and speed, the ballistic coefficient, and the stagnation heating. The unit conversions on the full-range flight and their consistency with the sensitivity relation. The SCORE revolution counts, duty cycle, Nyquist sample count, link budget, area-to-mass ratio, and energy loss per revolution. The binomial standard errors and the pooled z statistic of 0.42. The inverse-square dependence of the angle-to-speed forgiveness ratio and its table, showing 191 at a twentieth of a degree and 1.9 at half a degree. The variance-share relation, the improvement relation, and its ceiling of 14.0 percent at infinite cost. The first-order azimuth relation for the Earth rotation credit, giving 2,466 kilometres due east against an exact 3,195, a shortfall of 23 percent that measures where the linear sensitivity stops being valid. The oblateness perturbation of 1.62 parts in a thousand and the resulting impact displacement of order 34 kilometres, or nine times the miss budget. The identity that the factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio of 4.38. The static tilt allowance of 46 arcseconds, the gyroscope drift allowance of 0.329 degrees per hour, and the factor of about three separating it from period instruments. The inversion of the plasma frequency relation and the square-law ratio of 77.4. The quadrature relation setting the range instrument at 3.1 times better than the article it certifies, or 0.196 metres per second. The linear scaling of the speed budget with the assumed circular error probable across one, two, and five nautical miles. The boil-off holding time of five days.
 
-**Inference, argued but not established.** That the verniers exist primarily for velocity trim rather than for roll control, which the arithmetic supports strongly but which no document found here states. That radio guidance was the correct architecture for the accuracy requirement rather than merely the available one, which rests on the accelerometer bias comparison. That the reported weakness of the SCORE broadcast refers to public reception rather than to the tracking link. That the Atlas B established the staging event and full range but not accuracy. That the designation question has at least two mechanisms and that this vehicle confirms the limit of the first without resolving anything.
+**Inference, argued but not established.** That the verniers exist primarily for velocity trim rather than for roll control, which the arithmetic supports strongly but which no document found here states. That radio guidance was the correct architecture for the accuracy requirement rather than merely the available one, which rests on the accelerometer bias and gyroscope drift comparisons. **The strength of that inference was reduced by the equation pass rather than increased**, since deriving the drift requirement put period instruments within a factor of about three of it, so the honest reading is that all-inertial guidance was close in 1958 rather than out of reach, and the ground link bought margin rather than capability. That the reported weakness of the SCORE broadcast refers to public reception rather than to the tracking link. That the Atlas B established the staging event and full range but not accuracy. That the designation question has at least two mechanisms and that this vehicle confirms the limit of the first without resolving anything.
 
 **Written from current knowledge.** This article is dated 2025-10-18 and draws on literature published after that date where the modern discussion is the natural continuation of the period problem, in line with the series convention.
 

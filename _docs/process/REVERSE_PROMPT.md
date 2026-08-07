@@ -9,168 +9,126 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-07
-**Task**: A309 draft pass, the first of four. Committed and **not pushed**, per the rhythm. **Not
+**Task**: A309 equation-density pass, the second of four. Committed and **not pushed**. **Not
 published.** All thirteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Keystone, and Why It Is Not a Repeat of A308
+## The Pass Found a Wrong Claim, Which Is the Point of It
 
-The handoff warned that the trap for this article was repetition, because the X-12 is the same
-airframe as the X-11 and A308 spent its length on the structure. The structural material is
-referenced and deliberately not re-derived.
+This belongs first because it is the most useful thing the pass did and because it cuts against the
+article's own argument.
 
-**The keystone is terminal velocity control.** A ballistic missile falls for 34.3 minutes and cannot
-be steered during any of them, so everything the weapon will ever do is decided at cutoff. Range
-responds to burnout speed with a dimensionless sensitivity of 4.34, which is 6.04 kilometres per
-metre per second, so a two nautical mile circular error probable allows **0.613 metres per second out
-of 7193, or one part in eleven thousand seven hundred.**
+The draft asserted that all-inertial guidance replaced radio guidance in the Atlas E and F "once
+components improved by roughly two orders of magnitude." That was an assertion, not a computation.
+Deriving the requirement properly gives a gyroscope drift allowance of
 
-A308 derived that same sensitivity and spent one sentence on it. Building an article on it turns out
-to explain every distinctive feature of the Atlas B, which is the test of whether a keystone was
-correctly identified.
+**0.329 degrees per hour**, from $\varepsilon \leq 2 \delta v / (g t^{2})$,
 
----
+against period instruments drifting at of order one degree per hour. **The gap is a factor of about
+three, not two orders of magnitude.**
 
-## The Result the Article Is Built Around
+The consequence is that the article's inference about architecture is now weaker rather than
+stronger. All-inertial guidance was **close** in 1958 rather than out of reach, so what the ground
+link bought was margin rather than capability. Both the claim and the Epistemic State entry that
+depended on it have been rewritten to say so.
 
-**Grazing circular speed is 7904 metres per second against 7193 for a ten-thousand-kilometre
-ballistic arc.** The deficit is 711 metres per second, or 9.9 percent. Closing it costs a mass ratio
-of 1.2645, which is 20.9 percent of the burnout mass, or 1129 kilogrammes.
-
-**The predicted orbital allowance of 4266 kilogrammes reproduces the reported Project SCORE on-orbit
-mass of 3980 to within 7.2 percent.** That calculation uses nothing but the range law, a published
-specific impulse, and a burnout mass taken from a different Atlas variant. The weapon mission and the
-satellite mission are the same mission with the payload changed, and the X-12 demonstrated both
-within twenty days in December 1958.
-
-The apogee sensitivity of the orbital case is 4.24 kilometres per metre per second against 6.04 for
-ballistic range, so **the two problems have the same sensitivity to within a factor of one and a
-half.** The guidance built to hit a target is neither more nor less than what places a satellite.
+**That is the fifth article running in which writing a relation down caught arithmetic the draft
+carried as an assertion.**
 
 ---
 
-## Findings the Sources Do Not State
+## Three Results That Changed What the Article Says
 
-**The minimum-energy trajectory is stationary in flight path angle.** A maximum has a vanishing first
-derivative, so angle errors enter the range at second order while speed errors enter at first. A
-tenth of a degree costs 77 metres, which is the miss a speed error of 0.0128 metres per second would
-produce. **Pointing is roughly fifty times more forgiving than speed at the tolerances that matter,
-and the ratio grows without limit as the errors shrink.** This is why the vehicle is a
-speed-measuring instrument with an attitude system attached rather than the reverse.
+**The error budget saturates, and the draft understated how badly.** The draft said halving the
+largest contribution improves the total by only 10.3 percent. Writing the improvement relation
+$\delta v_{\text{new}} / \delta v_{\text{old}} = \sqrt{1 - s_{i} (1 - k^{-2})}$ and taking the limit
+shows that **removing that contribution entirely, at infinite cost, buys only 14.0 percent.** Halving
+it already captures three quarters of everything perfect elimination could achieve. That is a much
+stronger statement about why accuracy programmes proceed by increments.
 
-**The verniers are a velocity-trim device before they are a roll-control device.** Sustainer tail-off
-impulse uncertainty is 1.07 metres per second, which is 1.8 times the entire error budget, so a
-vehicle that simply commands its sustainer to stop cannot meet the requirement however good its
-guidance. The verniers cut the required timing precision by a factor of 43.4.
+**The oblate gravity field displaces the impact point by tens of kilometres.** The draft said the
+departure from a point-mass field "is not small" and gave no number. The leading zonal harmonic
+contributes 1.62 parts in a thousand of gravity, which over a 2,058 second free-fall arc gives a
+displacement of order **34 kilometres, nine times the entire miss budget.** A vague qualification
+became a quantitative one.
 
-**Radio guidance was the right architecture, not merely the available one.** An inertial platform
-produces speed by integration, so an accelerometer bias of only 220 micro-g exhausts the whole budget
-over a 280 second powered flight. Ground-based Doppler measures speed directly and removes the
-integration.
-
-**Halving the circular error probable is worth a factor of eight in yield**, because lethal radius
-scales as the cube root of yield. Chaining through the range sensitivity, a cutoff error of one metre
-per second instead of 0.613 must be paid for with a weapon 4.34 times larger. That is the economic
-argument for the entire guidance programme.
-
-**The flattening of the Earth is 21.4 kilometres, which is 5.8 times the entire miss budget.** An
-intercontinental weapon cannot be aimed on a sphere, so the ballistic missile created a geodetic
-requirement it could not itself satisfy, and the resolution came from the orbital capability this
-same vehicle demonstrated.
-
-**The autopilot bandwidth must live in a window of 31**, between a 1.14 second aerodynamic divergence
-and a 4.32 hertz first bending mode. Because the shell is pressure-stabilised, that bending mode
-moves during the ascent. A308 raised the same physics for pogo. This is the one place the two
-articles touch and it adds rather than repeats.
-
-**The Atlas B is not measurably more reliable than the Atlas A.** Six of ten against four of eight
-gives a pooled z of 0.42. Three of the four failures are in the booster phase and none is in a system
-the B introduced.
+**The angle-versus-speed claim needed its own scaling.** The draft said pointing is "roughly fifty
+times more forgiving than speed at the tolerances that matter," which is true and incomplete, because
+the ratio scales as the inverse square of the angle. At a twentieth of a degree it is 191 and **at
+half a degree it is 1.9, so the angle stops being free.** An autopilot holding a tenth of a degree
+has margin and one holding half a degree does not, which the draft did not say.
 
 ---
 
-## The Article Argues Against Its Own Keystone
+## Smaller Additions
 
-This is the section worth reading. Accuracy decided whether the weapon worked and **did not decide
-whether it was kept.** A cryogenic missile needing roughly fifteen minutes to load consumes 44
-percent of the adversary's 34.3 minute flight time, which is not a second-strike posture, and
-Minuteman loads nothing. The Atlas was retired from the weapon role by 1965.
+**An identity worth having.** The factor by which the vehicle becomes harder to stop precisely
+through the sustainer burn is 4.38, and that number is not independent. It is exactly the sustainer
+mass ratio, the same quantity the rocket equation rewards through a logarithm.
+
+**The Earth rotation credit exposes where the article's own linear sensitivity stops working.** The
+first-order azimuth relation gives 2,466 kilometres due east against an exact 3,195, **a shortfall of
+23 percent**, because a 408 metre per second perturbation is far outside the regime where the
+linearisation that governs the whole article holds.
+
+**A range instrument must be 3.1 times better than the missile it certifies** for a five percent
+ceiling on measured-scatter inflation, which is 0.196 metres per second. The draft asserted the
+requirement without sizing it.
+
+Also added: the plasma-frequency inversion and its square-law ratio of 77.4, the variance-share
+relation, the linear scaling of the speed budget across one, two, and five nautical miles of assumed
+circular error probable, and the boil-off holding time of five days.
 
 ---
 
-## A Method Improvement, Which Is a Correction to A308's Toolchain
+## Density, and Why Nothing Was Trimmed
 
-**Manual reference-display corrections are now keyed by URL rather than by anchor.** A308 keyed them
-by anchor. The five Difficulties Review volumes share author, year, and leading title, so their
-disambiguation suffixes are assigned in generator iteration order, and regenerating the master table
-for A309 permuted them. **Every one of the five manual displays landed on a different volume than it
-named.** A URL is the only stable identity a harvest record has. Each volume is now named by the
-subsystem it covers, namely propellant utilisation, the propulsion interface, pneumatics, the
-autopilot, and the electrical system.
+**115 display equations before the pass, 135 after.** The band for a full aircraft is 90 to 130, so
+the article now sits **five over the ceiling.**
 
-A relative path in a shell command also failed silently by running in the wrong directory, which is
-the A307 defect recurring in a new place. It was caught because the command errored rather than
-succeeding against the wrong file.
+That is deliberate and it is reported rather than repaired. The genre document states that the rule
+producing the band takes precedence over the number, and the rule is that if the prose names a
+result, relies on a relation, or quotes a value some relation produced, the relation must be shown.
+Every one of the twenty additions answers a claim the draft was already making. **Trimming to stay
+under a band is explicitly worse than reporting the overrun**, and A305 sits at 200.
+
+The structural audit found ten sections above 150 words with no equations, and all ten are
+legitimately narrative, namely the opening, the two programme-origin subsections, the flight-record
+introduction, the contemporary literature survey, the assessment of what the vehicle was worth, the
+designation question, the source base, the Epistemic State, and the conclusion.
 
 ---
 
 ## Verification
 
-All 130 worked values re-derived independently with **zero corrections to the article**. Two checker
-disagreements were both the checker, once on a zero-target tolerance and once on a missing
-SI-to-cgs conversion in the Sutton and Graves correlation. The second exposed genuine sloppiness in
-the article's unit labelling, which was repaired. **That is the fourth time in this series the
-verification rather than the article has been the thing that was wrong.**
+All 160 worked values re-derived independently, including every equation-pass addition, with **zero
+disagreements**. `_verify.py` at the 0-error 21-warning corpus baseline. Zero contractions,
+em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate
+headings, lone dollar-delimited lines, or adjacent display-math seams. All eleven insertion seams
+read by eye. Isolated build succeeding with **135 rendered display blocks matching the source count
+exactly**, Part 13 navigation, eleven tables, no unresolved reference links and no surviving Liquid
+tags.
 
-22 of 22 fixed identifiers at 200, 127 of 127 DOIs Crossref-resolved on title at the 0.85 threshold
-with zero flagged, zero duplicate URLs, and no hand-entered identifier anywhere. `_verify.py` at the
-0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes, prose colons, prose
-semicolons, prose parentheticals, doubled words, duplicate headings, lone dollar-delimited lines, or
-adjacent display-math seams. Isolated build succeeding with 115 rendered display blocks matching the
-source count exactly, Part 13 navigation, nine tables, no unresolved reference links and no surviving
-Liquid tags. All eleven edit seams read by eye.
-
----
-
-## Draft State
-
-**1066 lines, 115 display equations, 165 reference definitions, 13,142 words.**
-
-**Equations are already inside band at 115 against 90 to 130, which no draft in this series has
-achieved before.** Lines sit 234 below the 1300 floor and references 85 below the 250 floor, both
-reported rather than padded. The shortfall is deliberately smaller than A308's, which entered its
-review passes at 678 lines.
-
-A citation-coverage audit by section during the pass found eleven sections carrying equations and no
-citations at all, including the booster staging section with nine displayed relations and none. That
-debt was repaired inside the draft pass rather than deferred.
-
-The citation construction mix was rotated twice. The first rotation moved the leading construction
-off 31.3 percent and concentrated a replacement instead, which the second rotation dispersed. Top
-bigram now 5.6 percent. `atlas` at 6.91 per thousand body words is the subject noun and is reported
-rather than remediated.
-
----
-
-## What the Review Passes Have to Close
-
-**Contemporary references sit at 23, or 15.5 percent of dated.** That is well below the 28 to 33
-percent floor and far below the 101 to 189 absolute count the series has held since A301, so the
-publication-review sweep carries the largest single gap.
-
-Primary sources are already 83.1 percent of dated, so the primary pass has less to do than usual and
-should be aimed at the sections the coverage audit still shows thin.
-
-Equation density being in band means the equation pass should look for relations the prose relies on
-without displaying, rather than for count.
+The Epistemic State was updated in the same pass. Five new assumptions are now named, of which **the
+period gyroscope drift of order one degree per hour is the least well sourced number in the
+article** and the conclusion drawn from it depends on it directly. That is stated explicitly.
 
 ---
 
 ## State
 
-**Committed, not pushed**, per the four-pass rhythm. Thirteen articles drafted of seventy-two, none
-published. **The publication-order dependency is thirteen deep**, A309 back to A297.
+**1162 lines, 135 display equations, 165 reference definitions, 13,712 body words.**
 
-**Categories remain undecided** at `aerospace history engineering`, thirteen articles deep and now
-raised seventeen times.
+Lines are 138 below the 1300 floor and references 85 below the 250 floor. Both are reported rather
+than padded, and the reference gap is the primary pass's work.
+
+**Contemporary references remain at 23, or 15.5 percent of dated**, well below the 28 to 33 percent
+floor and far below the 101 to 189 absolute count held since A301. The publication-review sweep still
+carries the largest single gap.
+
+**Committed, not pushed.** Thirteen articles drafted of seventy-two, none published. The
+publication-order dependency is thirteen deep, A309 back to A297.
+
+**Categories remain undecided** at `aerospace history engineering`, thirteen articles deep and raised
+seventeen times.
