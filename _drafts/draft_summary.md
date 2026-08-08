@@ -21,8 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x16.markdown`, A313, editorial date 2025-10-22, series `x_planes` index 17 of 72.
 
-**534 lines, 20 display equations, 85 references, 7,450 words after the draft pass.** Equation and
-reference reviews pending.
+534 lines, 20 display equations, 85 references, 7,450 words after the draft pass; **758 lines, 72
+display equations, 85 references, 8,731 words after the equation review.** Reference review pending.
 
 **This is the first article in the series whose subject has no technical record at all.** NTRS returns
 zero records for MX-2147, zero for the aircraft as an aeroplane, and zero for the Bell model number,
@@ -53,10 +53,24 @@ the two whose wing areas are published agreeing to within one percent. That is a
 compressors in thin air rather than about wings, and it corroborates the historical claim that the
 programme's lasting contribution was the high-altitude J57 that then powered the U-2.
 
-**Class question for the pilot.** The draft sits above the documentation-poor band of 150 to 400
-lines, 0 to 15 equations, and 20 to 60 references on all three measures, and well below the
-full-aircraft band of 1,300 to 1,600 lines, 90 to 130 equations, and 250 to 380 references on all
-three. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
+**The equation pass corrected the article's physics rather than only adding relations.** The draft
+attributed the sub-unity thrust lapse exponent to compressor Reynolds number degradation. Degradation
+makes a compressor worse in thin air and therefore pushes the exponent above one, so it cannot be the
+cause. The mechanism is ram recovery, since sea level static thrust is quoted at Mach zero while the
+aeroplane cruises at Mach 0.685. Ram alone predicts 0.8889 against the observed 0.9378, so it
+over-explains, and component losses consume 44 percent of the benefit, which is where Reynolds
+degradation actually belongs. **The two mechanisms act in opposite directions.**
+
+**A second result reconciles the thrust-limited finding with the U-2's reputation.** In true airspeed
+the usable band at the design altitude is 118.1 knots, which is not a corner. In equivalent airspeed,
+which is what the pilot's instrument reads, it is 28.8 knots, and 23.1 at the quoted service ceiling.
+The instrument band closes 2.15 times faster than the physical one, so the corner does not set the
+ceiling and does entirely set the difficulty of flying the cruise.
+
+**Class question for the pilot.** After the equation pass the article sits above the
+documentation-poor band of 150 to 400 lines, 0 to 15 equations, and 20 to 60 references on all three
+measures, and below the full-aircraft band of 1,300 to 1,600 lines, 90 to 130 equations, and 250 to 380
+references on all three. Equations at 72 are now 18 below the full-aircraft floor. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
 than padded upward or trimmed downward.
 
 ## X-Planes North American X-15 A312 2025-10-21

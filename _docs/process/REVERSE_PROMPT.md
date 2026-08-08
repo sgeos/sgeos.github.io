@@ -9,151 +9,125 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A313 drafted, the Bell X-16. The first of four passes. Committed, **not pushed**, not
-published. All seventeen articles in the series remain in `_drafts/`.
+**Task**: A313 equation-density review, the second of four passes. Committed, **not pushed**, not
+published. Display equations rose from **20 to 72**.
 
 ---
 
-## The Archive Holds Nothing About This Aeroplane
+## The Pass Corrected the Article's Physics, Not Only Its Density
 
-This is worth stating first because it decided how the article was built. NASA's technical reports
-server returns **zero records for MX-2147**, zero for the aircraft as an aeroplane, zero for the Bell
-model number, and ten false positives for the aircraft name, consisting of Bell Laboratories radio
-surveys and a galaxy catalogued as MCG-05-23-16. The Defense Technical Information Center holds the
-reconnaissance requirement and several sibling weapon-system studies and nothing on this aircraft.
+This is the important part and it is a **directional** error rather than a numerical one.
 
-**This is not the retrieval defect A311 and A312 both met**, where a report existed but no phrasing of
-its own title would surface it. There is nothing to surface. Every dimension, weight, and performance
-figure in the article comes from a secondary compilation, and the compilations disagree with one
-another.
+The draft's headline result is that three aeroplanes designed against one requirement all need a
+turbojet to beat proportionality in thin air, at a solved lapse exponent near 0.9378. The draft
+attributed that to **compressor Reynolds number degradation**.
 
-**The A310 rule carried the article.** A vehicle with almost no record of its own can still be dense
-provided the question it asked was one other people were also asking. The X-16's question is subsonic
-cruise at extreme altitude, which is the U-2's question, the RB-57D's question, and the question the
-modern high-altitude long-endurance field is asking now. The harvest returned 947 records and the
-master table holds 871 entries, none of them about the X-16.
+**That attribution is backwards.** Degradation makes a compressor perform *worse* in thin air, which
+pushes the exponent *above* one. It cannot be what allows thrust to beat proportionality.
 
----
+The mechanism that does is **ram recovery**. Sea level static thrust is quoted at Mach zero, so the
+inlet sees ambient static pressure. At altitude the aeroplane must fly faster to hold its lift
+coefficient, and at the design condition it is doing Mach 0.685, so the inlet sees
 
-## The Keystone Was Chosen Against the Famous Answer, and Computed
+$$p_t/p = (1 + 0.2 \times 0.685^2)^{3.5} = 1.3685$$
 
-The popular limit on a seventy-thousand-foot aeroplane is the coffin corner. **It is not what bound
-the X-16, and the article computes both rather than assuming the famous one.**
+which gives an effective exponent of **0.8889**.
 
-Minimum drag is weight over the maximum lift to drag ratio and **contains no density at all**, so it
-does not vary with altitude. Turbojet thrust does. The ceiling is where they meet, which makes it
+**Ram alone over-explains the observed 0.9378.** The realised benefit is 56.0 percent of ideal, so
+**44 percent is consumed by losses elsewhere in the engine** — and *that* is where Reynolds
+degradation belongs. Blade Reynolds number falls 11.58 times, from 6.16 × 10⁵ to 5.32 × 10⁴, which is
+below the roughly 2 × 10⁵ threshold where stage efficiency degrades measurably.
 
-**a function of instantaneous weight rather than a property of the aeroplane.**
+**The two mechanisms act in opposite directions and the observed exponent is what survives their
+difference.** The draft said none of that. The correction is stated in the text rather than silently
+applied, and the forward reference and the Epistemic State entry were both repointed.
 
-Thrust binds at every weight, by about fourteen thousand feet. The two limits sit at density ratios
-both proportional to weight, so they move together and no amount of fuel burn brings the aeroplane
-near the corner.
+**Tenth consecutive article in which writing a relation down caught a claim carried as an assertion.**
 
 ---
 
-## The Method Failed Its Own Validation, and That Is the Best Result in the Article
+## A Second Result Reconciles an Apparent Contradiction
 
-At a linear thrust lapse the quoted service ceiling of 71,832 feet requires a weight of 22,325 pounds.
-**The empty weight is 23,280.** The relation demands an aeroplane 955 pounds lighter than one with
-nothing in it.
+The draft concluded thrust binds and the corner never does. That sits awkwardly beside the U-2's
+reputation for having only a few knots between stall and buffet, and a reader would be right to notice.
 
-The same failure lands on the U-2A and the RB-57D in the same direction, which makes it one shared
-wrong assumption rather than three data errors. The sensitivity study named the culprit. The ceiling
-moves **7,786 feet** across a plausible zero-lift drag range and **32,142 feet** across a plausible
-lapse-exponent range, a factor of **4.13**.
+**Both are true, and the difference is which airspeed is quoted.** A pilot's instrument reads close to
+equivalent airspeed, which is true airspeed scaled by the square root of the density ratio.
 
-Solving for the exponent instead of assuming it:
+| Altitude, ft | Band, kt TAS | Band, kt EAS |
+|---|---|---|
+| 40,000 | 276.4 | 137.1 |
+| 62,000 | 169.2 | 49.5 |
+| 69,500 | 118.1 | 28.8 |
+| 71,832 | 100.3 | 23.1 |
 
-| Aircraft | Required exponent |
-|---|---|
-| Bell X-16 | 0.9686 |
-| Lockheed U-2A | 0.9780 |
-| Martin RB-57D | 0.8669 |
-
-**The two whose wing areas are actually published agree to within one percent.** Three aeroplanes
-designed separately by three companies against one requirement are consistent with one statement about
-how a turbojet behaves in thin air. That is a statement about compressors rather than wings, and it
-corroborates the historical claim that the programme's lasting contribution was the high-altitude J57
-that then powered the aeroplane that beat it.
-
-At the solved exponent the X-16 first reaches its design altitude at **29,839 pounds**, after burning
-**48.9 percent of its disposable load**, so the design altitude is an end-of-mission condition and the
-mission is a cruise climb.
+**The instrument band closes 2.15 times faster than the physical one.** So the corner does not set the
+ceiling, and it entirely sets the difficulty of flying the cruise. The folk account and the arithmetic
+are both right, about different things.
 
 ---
 
-## Two Conclusions Inverted During the Pass
+## An Assertion Became a Computation
 
-**The Breguet check.** First solved one way, it implied a specific fuel consumption of 1.157 pounds per
-pound force per hour against a period band of 0.8 to 0.9, which reads as the quoted range being
-optimistic. Solved the other way, the quoted range is **73.5 percent of ideal Breguet**, which is an
-ordinary allowance for climb, descent, and reserves. **The reading was wrong, the range figure passes,
-and the article says so in the text rather than silently correcting.**
-
-**The widening margin.** The draft first explained the thrust-to-corner margin widening by stalling
-speed going as the square root of wing loading against a linear thrust ceiling. **That was wrong.**
-Both limits sit at density ratios proportional to weight and move together. The 279 feet of widening
-is a scale-height effect, because the corner sits fourteen thousand feet higher where the temperature
-is rising above the tropopause.
+The draft said ambient pressure falls below the vapour pressure of water at body temperature "above
+roughly sixty-three thousand feet" and showed no relation for it. The Antoine equation gives 46.95
+millimetres of mercury at 37 degrees Celsius, and the atmosphere puts that at **62,829 feet**, which is
+**90.4 percent of the design altitude**. The aeroplane therefore cruises entirely above the Armstrong
+limit. The assertion was right and is now backed.
 
 ---
 
-## A Defect My Own Tooling Introduced
+## Two Defects in My Own Additions
 
-A delimiter-normalisation regex whose trailing `\s*$` consumed the blank line after every display
-equation collapsed **all twenty** into their following paragraphs. Kramdown then rendered them as
-**inline** math rather than display math, which is silently wrong rather than visibly broken.
+**The narrowing claim was wrong on first writing.** I said the instrument band narrows "almost six
+times faster" than the physical one. That conflated the equivalent-airspeed band's own narrowing factor
+of 5.935 with its rate *relative* to true airspeed, which is 2.15. Corrected.
 
-Every automated check passed it. **Only the isolated build caught it**, by counting rendered display
-delimiters against source blocks. `check.py` now requires a blank line on both sides of every display
-equation.
+**The diffraction figure used the wrong aperture.** It computed with 0.30 metres while calling it twelve
+inches, which is 0.3048. The correct value is 2.201 microradians rather than 2.237. Corrected.
 
----
-
-## Verification
-
-**83 independent re-derivations, zero disagreements.** Deliberately not importing the calculation
-module. The atmosphere is reimplemented by trapezoidal integration of the hydrostatic equation rather
-than the analytic layer solution, and the ceiling by scanning altitude rather than inverting the
-relation, so a mistake in one cannot validate itself.
-
-**69 external URLs.** 44 plain 200s, 13 publisher 403s from bot detection, and **12 DTIC DOIs verified
-through the Crossref registry** with titles matching the prose, after the `.mil` landing pages refused
-automated connections. Asking the registry whether an identifier is registered and what title it
-carries is **a stronger check than an HTTP 200**, because it confirms the identifier points at the
-document the prose names rather than merely that a server answered.
-
-`_verify.py` at the 0-error 21-warning corpus baseline, run from the repository root. **The
-relative-path defect recurred twice this session**, once invoking a generator by bare name from the
-repository root and once running `_verify.py` with an inherited scratch working directory, where it
-reported a misleading 0 warnings. Isolated build passing with 20 of 20 display blocks rendered, 8 of 8
-tables, and Part 17 navigation.
+Both were caught by the independent re-derivation rather than by reading.
 
 ---
 
-## Draft State and an Open Question for You
+## What Else Was Added
 
-**534 lines, 20 display equations, 85 references, 7,450 body words.**
+The relations the prose already relied on but did not show. The lift and drag equations. The derivative
+condition defining the polar optimum, and with it the proof that **minimum drag is altitude-independent
+by cancellation** rather than by assertion. Specific excess power with the ceiling as its zero. The
+closed form for corner density, which shows it is **linear in wing loading exactly as the thrust ceiling
+is**, which is why the two move together. The gust derivation showing one power of speed cancelling. The
+aspect-ratio benefit as the square root of two. Breguet from the fuel-flow differential. The
+single-engine counterfactual as a ratio of weight to thrust.
 
-That sits **above the documentation-poor band** of 150 to 400 lines, 0 to 15 equations, and 20 to 60
-references on all three measures, and **well below the full-aircraft band** of 1,300 to 1,600 lines, 90
-to 130 equations, and 250 to 380 references on all three.
+---
 
-**`RESEARCH_AIRCRAFT_STRUCTURE.md` does not name an intermediate class.** The draft was neither padded
-upward nor trimmed downward, and the figures are reported as they fell out of the material. The
-equation and reference passes will raise the last two substantially, as they have on every previous
-article. Whether the genre document should gain a fourth class is a decision for you and I have not
-made it.
+## Coverage and Verification
+
+A section scan flagged **ten** sections carrying numbers with no equation. **Six remain**, and all six
+are legitimately narrative — the opening, two historical-context sections, the flight record, the Source
+Base, and the Epistemic State, where relations belong at the point of derivation rather than at
+recapitulation.
+
+**83 original re-derivations still reproducing, plus 74 new ones**, zero disagreements. All independent
+of the calculation modules, using a trapezoidal integration of the hydrostatic equation so that a
+mistake cannot validate itself.
+
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
+with **72 of 72 display blocks rendered**, 9 of 9 tables, and Part 17 navigation. Equation count was
+measured before and after every batch, per the A310 lesson.
 
 ---
 
 ## State
 
-**Committed, not pushed.** The draft pass does not push, per the series rhythm. Nothing in the series
-is published, and the deploy workflow builds without `--drafts`.
+**758 lines, 72 display equations, 85 references, 8,731 body words.**
 
-**The publication-order dependency is seventeen deep**, A313 back to A297, and every cross-reference in
-this article points backward.
+**Committed, not pushed.** Nothing in the series is published.
 
-Seventeen articles of seventy-two. **Categories remain undecided** at `aerospace history engineering`,
-seventeen articles deep and raised twenty-one times.
+**The class question from the draft pass stands and has narrowed.** Equations at 72 are 18 below the
+full-aircraft floor of 90 and far above the documentation-poor ceiling of 15. References at 85 are the
+measure still furthest from any band, and the reference pass will move that. I have not invented a
+fourth class in `RESEARCH_AIRCRAFT_STRUCTURE.md` and will not without your instruction.
+
+Categories remain undecided at `aerospace history engineering`, seventeen articles deep.
