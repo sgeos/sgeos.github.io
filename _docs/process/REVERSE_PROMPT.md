@@ -8,145 +8,144 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-08-07
-**Task**: A310 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All fourteen articles in the series remain in `_drafts/`.
+**Date**: 2026-08-08
+**Task**: A311 draft pass, the first of four. **Committed, not pushed.** All fifteen articles in the
+series remain in `_drafts/`.
 
 ---
 
-## The Review Ran the Article's Relations on a Modern Vehicle, and Corrected an Overstatement
+## The Bleed Price Was Measured Rather Than Estimated, and It Is the Article
 
-This is the most useful thing the pass did, and it is worth putting first because the obvious version
-of the comparison would have been wrong.
+This is the most useful thing the draft found and it comes from inverting one sentence in a report
+about something else.
 
-Applying the article's own relations to three representative modern electric vehicles gives two
-results. **The first is that a small electric tail-sitter's disc loading and wing loading are the
-same quantity to within a factor of two**, against the X-13's ratio of 84. This article derived, from
-the XFY-1 comparison, that a designer wanting stall-level dynamic pressure on the controls in a hover
-should set the disc loading equal to the wing loading. A modern tail-sitter satisfies that without
-anyone arranging it. **The design difference that separated the X-13 from the XFY-1 has been
-dissolved rather than solved.**
+Attitude control on the X-14 came from compressor bleed, and the cost of bleed is normally estimated
+because separating it from every other installation effect requires flying the same engine with two
+different bleed schedules. **The X-14A programme did exactly that, for an unrelated reason.** The
+tip-turbine fan report states that the fans needed about half the bleed of the reaction controls for
+the same thrust, and that this let the engines produce four percent more thrust. If thrust with full
+bleed is $T_0(1-\beta)$ and with half bleed $T_0(1-\beta/2)$, then $(\beta/2)/(1-\beta) = 0.04$ and
 
-**The second corrects the first.** Twenty-three minutes of hover against the X-13's eleven suggests
-the energy problem has halved. It has not. The modern figures assume a battery at thirty percent of
-the mass where the X-13's fuel was seventeen. Holding the energy fraction equal gives **12.9 minutes
-against 11.0, an improvement of about seventeen percent in seventy years.**
+**beta = 0.08/1.08 = 7.41 percent, exactly.**
 
-Expressed as an effective specific consumption the comparison is cleanest. **A battery forty-eight
-times worse than kerosene per kilogramme, driving a rotor seventeen times better at converting power
-into thrust, comes out fifteen percent ahead.** The rest of the modern advantage is bought by
-carrying more energy, which a vehicle with no pilot and no weapon can afford. **The hover is still
-expensive and it is expensive for the same reason.**
+Set that against the hover margin rather than against the thrust and it stops being a small number.
+At the reported 3,700 pound test weight and 1.1 to 1.2 available thrust-to-weight ratio, the bleed
+cost 397 pounds and the margin before it would have been 767 to 1,137. **The attitude control system
+consumed between 34.9 and 51.8 percent of everything the aircraft could lift beyond its own weight.**
+
+Not payload. Not fuel. The ability to point.
 
 ---
 
-## Contemporary Coverage
+## Four Results the Sources Do Not State
 
-A 64-query sweep returned **710 new records**, taking contemporary references from **47 to 133, or
-41.7 percent of dated**, which sits inside the 101 to 189 absolute range the series has held since
-A301.
+**The roll inertia, recovered from two reports that do not mention each other.** One states the
+maximum lateral control power tested at 2.0 rad/s2. The other states that the replacement wingtip
+fans were designed for 150 pounds of thrust. Together they give 3,333 kg m2 and a radius of gyration
+of **13.7 percent of span**, which is mid-band for an aircraft with its engines on the centreline and
+borrowed light-aircraft wings. That the recovered value lands where it should is the check. **The
+sharper inference is that the fans were specified at exactly the existing maximum authority and not
+above it**, which says bleed rather than control power was the binding constraint.
 
-Twelve subsections replaced five. The ones worth naming are these.
+**Control power falls inversely with span.** With tip nozzles, CP goes as $F b / (m b^2) = F/(mb)$,
+and a hovering aircraft has thrust proportional to mass, so at fixed bleed fraction **CP is
+proportional to 1/b**. Holding the criterion while doubling the size doubles the bleed. A jet-lift
+aircraft with a twenty percent thrust margin exhausts it near **28 metres of span**, and a Do 31 sized
+vehicle would need **3,542 pounds of thrust at each wingtip** to reach 2.0 rad/s2. That is a small jet
+engine on each wing purely to point the aircraft. **The type stopped growing where the arithmetic says
+it had to.**
 
-**The tail-sitter came back as a biplane quadrotor**, which is the X-13's configuration with four
-rotors in place of one jet and a computer in place of the man, and it has a large literature.
-**The stability derivatives the 1953 wind-tunnel programme measured for the XFY-1 are now obtained
-from the vehicle itself in flight.**
+**The original X-14 could not hover at the weight the X-14A hovered at.** Sources give the Viper 8 as
+either 1,750 or 1,560 pounds of thrust each, and the article resolves neither because both give a
+thrust-to-weight ratio below unity at 3,700 pounds, at **0.946 and 0.843**. So the J85 re-engining was
+**not an upgrade to an aircraft that worked. It was the precondition for the research programme**,
+because a variable-stability aircraft must be able to give control power away to the experiment and
+still fly.
 
-**The handover is a least-squares problem.** The blend the X-13's pilot performed by hand is now the
-solution of a control allocation, evaluated many times a second.
-
-**The position loop became somebody else's problem**, closed by a computer with better sensors than
-eyes, and where a human remains in it the article's transport-delay analysis has become a research
-subject. **The ground observer who talked Girard onto the hook was an early and unusually literal
-instance of shared control with a transport delay.**
-
-**The visual task was solved by deleting the viewer.** Vision-based landing on a moving platform is
-harder than landing on a trailer and is the same problem.
-
-**Handling qualities became certification**, and the most direct descendant of the X-13's pilot
-problem is simplified vehicle operations, in which the aircraft is made easy enough that a
-non-pilot can fly it. **The X-13 asked an experienced test pilot to do something at the edge of what
-a person can do, and the field's eventual answer was to change the aircraft rather than train the
-person.**
-
-**Ground effect became a civil planning problem.** A tail-sitting jet needing a prepared surface and
-a particular trailer was held against it. A modern vertical take-off aircraft needs a prepared
-surface and a licensed vertiport, and that is treated as infrastructure rather than as a defect.
-**The requirement did not go away. The expectation did.**
-
-**Subscale free flight is still how it is done**, and the difference from 1958 is that the model now
-carries the flight computer it is testing, so the Reynolds mismatch matters less because the quantity
-of interest is a control law rather than a stall.
-
-A closing subsection names the three findings with no modern remedy. **Hovering is expensive, ground
-loading scales with disc loading, and a hovering aircraft has no aerodynamic restoring moment.** What
-changed is who closes the loop, how much energy the vehicle can afford, and whether the ground is
-expected to be prepared. **None of those is an aerodynamic advance, and the X-13's aerodynamics were
-never the problem.**
+**Gravity was not adjustable, and the mismatch is exactly 2.46.** Attitude dynamics contain no
+gravitational term so the X-14A reproduced a lunar module's attitude response exactly. Translation
+goes as $g \tan\theta$, so the lunar timescale is longer by $\sqrt{9.807/1.62} = 2.46$. Holding five
+degrees for five seconds moves 10.7 metres on Earth and 1.8 on the Moon. **It simulated the inner loop
+exactly and the outer loop 2.46 times too fast**, which is why the Lunar Landing Research Vehicle,
+a far more dangerous machine, had to be built.
 
 ---
 
-## Two Defects Found and Fixed
+## The Archive Has a Hole and the Article Says So
 
-**The section replacement silently dropped three equations**, taking the count from 91 to 88 and
-below the floor. Caught by measuring rather than assuming, and the relations were restored into the
-lead subsection where they belong.
+**NASA TN D-1328, Rolls and Drinkwater 1962, is the origin of the criteria and could not be
+retrieved.** The NTRS record carries an abstract and no document, and the search endpoint returns it
+for no phrasing of its own title. It was found only through its citation in a later report.
 
-**An en dash reached the prose inside a citation display string.** Publishers use them in titles, and
-a disambiguation suffix cut from a title carries one into the display, which then appears in the
-body and violates the house style rule. **The fix is an automatic rule in the normaliser rather than
-a patch in the markdown**, since the markdown is regenerated, and it now normalises en and em dashes
-to hyphens across every display in the master table. Zero remain.
+The article therefore takes every quantitative claim from the complete successor, TN D-2701, and The
+Source Base states this plainly rather than implying the origin was read.
+
+**One consequence is worth flagging because it nearly went the other way.** The first writing of the
+threshold section assigned plausible Cooper ratings to the three sampled control powers and
+interpolated a satisfactory boundary from them. **Those ratings are in no source.** The figure
+carrying them did not survive text extraction. Inventing them would have manufactured the article's
+headline number out of nothing, so they were removed and replaced by the argument that survives
+without them, which is about resolution: three points spaced 0.6 apart locate a threshold only to
+within **thirty to seventy-five percent of its own value**.
+
+---
+
+## Defects Found
+
+**Two in the numerical spine, both caught by running it.** The repositioning analysis used
+$a = g\theta$ and searched tilt over a bounded interval whose upper bound it then reported as the
+optimum for every control power above 1.4, so the printed optimum was **the edge of the search
+range rather than a minimum**. Rewritten with $a = g\tan\theta$, a realistic cap, and a hover-scale
+correction distance. The corrected version yields a genuinely useful result, that control power has
+**sharply diminishing returns with an exponent of minus 0.26**, so two and a half times the authority
+buys only 21 percent less time.
+
+**Three caught by reading and counting, all of which passed every automated check.** The phrase "in
+its own right" ended one paragraph and opened the next, because a later insertion landed behind a
+sentence that happened to end the same way. **The disturbance fraction and the radius-of-gyration
+fraction were both written as kappa**, a symbol collision inside one article. And a sentence promised
+four subsections where five stood.
 
 ---
 
 ## Verification
 
-**336 reference definitions, 323 external URLs, zero duplicates.** All 268 worked values re-derived
-independently and reproducing, including every publication-review addition. `_verify.py` at the
-0-error 21-warning corpus baseline when run from the repository root. Zero contractions, em-dashes,
-en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate headings,
-unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math seams. Genre
-section order correct with The Source Base immediately before the Epistemic State. Isolated build
-succeeding with **91 rendered display blocks matching the source count exactly**, Part 14 navigation,
-twenty-two tables, no unresolved reference links and no surviving Liquid tags.
+**95 reference definitions, 81 external URLs, zero duplicates, zero orphans.** All 45 in-prose numbers
+re-derived independently and reproducing. `_verify.py` at the 0-error 21-warning corpus baseline from
+the repository root. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose
+parentheticals, doubled words, duplicate headings, unbalanced emphasis markers, lone dollar-delimited
+lines, or adjacent display-math seams. Genre section order correct, with The Source Base immediately
+before the Epistemic State and the series extras ordered as in A310.
 
-The Epistemic State was updated in the same pass and now flags that **the three modern reference
-vehicles are representative rather than actual**, with masses, spans, areas, and rotor geometries
-chosen as plausible for their classes. The conclusions drawn from them are ratios and orders and are
-insensitive to reasonable variation. The specific endurances are not.
+**The bundle was installed for the first time**, into a repo-local `vendor/bundle` that was already
+gitignored. The isolated build therefore now runs the real CI toolchain including `jekyll-archives`
+rather than a Gemfile-free approximation. It succeeds with **51 rendered display blocks matching the
+source count exactly**, Part 15 navigation, no unresolved reference links, and no surviving Liquid
+tags.
 
 ---
 
-## Final State
+## Draft State
 
-**1346 lines, 91 display equations, 336 reference definitions, 17,380 body words.**
+**854 lines, 51 display equations, 95 references of which 72 research, 13,322 body words.**
 
-**All three densities are inside band and nothing was trimmed at any point.** That is the fifth
-article in the series to finish that way, after A306, A307, A308, and A309, and the first to do it
-without any band being exceeded in either direction.
+All three densities approach their bands from below, at 854 against a 1300 floor, 51 against 90, and
+95 against 250. **Reported rather than padded.** Contemporary references are 10 of 72 dated, or 13.9
+percent, which is the publication review's task.
 
-Primary sources are 167 of 319, or 52.4 percent of dated. The absolute count is unchanged since the
-primary pass and the percentage moved only because the contemporary additions grew the denominator.
-
-Citation construction mix healthy at a top bigram of 4.5 percent. `aircraft` at 8.61 and `control` at
-5.94 per thousand body words are the subject and keystone nouns and are reported rather than
-remediated.
+The draft sits above A310's 810 and well above A308's 678, which is deliberate under the rule that
+the gap a draft leaves is the gap the passes must close.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`,
-so the push is safe. **The publication-order dependency is fourteen deep**, A310 back to A297.
+**Committed, not pushed**, per the draft-pass convention. Nothing in this series is published.
+**The publication-order dependency is now fifteen deep**, A311 back to A297.
 
-Fourteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, fourteen articles deep and raised eighteen times.
+**Categories remain undecided** at `aerospace history engineering`, now fifteen articles deep and
+raised nineteen times.
 
-A311 is the Bell X-14, and it is unusually well set up by this article. The X-14 is the
-variable-stability aircraft that **established the control-power criteria A310 borrowed
-anachronistically**, so the obvious keystone is the criteria themselves and the obvious opening is
-that the previous article had to use numbers this one produced. The A310 harvest already holds the
-Drinkwater and Rolls work, the Garren visual-flight investigation, and the jet-lift powerplant
-experience report, so it should be reused rather than rebuilt.
+A312 is the North American X-15, and the risk is the reverse of the usual one. **The record is large
+enough that the article could become a summary rather than an analysis.** The keystone will have to
+be chosen and defended rather than discovered, and the A311 harvest will not help.

@@ -17,6 +17,71 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-14 A311 2025-10-20
+
+`x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
+
+854 lines, 51 display equations, 95 reference definitions of which 72 are research, 13,322 words
+after the draft pass. All three densities approach their bands from below, at 854 against a 1300
+floor, 51 against 90, and 95 against 250. Reported rather than padded.
+
+**The first article in the series whose subject is an instrument rather than a vehicle.** The X-14 is
+the variable-stability aircraft that produced the attitude control-power criteria A310 borrowed
+anachronistically and flagged in its own epistemic state, so the article opens by naming the debt.
+The keystone is the criteria themselves rather than any property of the airframe.
+
+**Keystone identified as the measurement of a threshold in human response.** The physics gives a
+floor and a ceiling more than an order of magnitude apart and cannot locate the answer between them,
+because the quantity is a property of a closed loop containing a person. Locating a threshold requires
+crossing it, which requires an aircraft that can be made deliberately deficient while a pilot is
+flying it. **The airframe is therefore dimensioned to make the independent variable adjustable rather
+than to make the aircraft good**, which inverts the usual relationship between a research aircraft and
+its research question.
+
+**Central result.** The reaction-control bleed fraction is inverted rather than estimated. The
+tip-turbine fan report states that halving the bleed returned four percent more engine thrust, which
+gives beta = 0.08/1.08 = 7.41 percent exactly. At the reported 3,700 pound test weight and 1.1 to 1.2
+available thrust-to-weight ratio that cost 397 pounds of thrust and **consumed 34.9 to 51.8 percent of
+the entire hover margin**, so between a third and a half of everything the aircraft could lift beyond
+its own weight was spent on being controllable.
+
+**Results the sources do not state.** The roll inertia is recovered at 3,333 kg m2 from two numbers in
+two different reports, giving a radius of gyration of 13.7 percent of span, mid-band for a
+fuselage-heavy layout, which validates the recovery; the replacement fans were specified at exactly
+the existing maximum authority and not above it, indicating bleed rather than control power was the
+binding constraint. **Control power at fixed bleed fraction falls inversely with span**, so a jet-lift
+aircraft with wingtip reaction controls exhausts a twenty percent thrust margin near 28 metres of
+span and a Do 31 sized vehicle would need 3,542 pounds of thrust at each wingtip. **The original
+Viper-engined X-14 had a thrust-to-weight ratio of 0.843 to 0.946 at the weight the X-14A later
+hovered at**, below unity on either reading of the contested engine rating, so the J85 re-engining was
+a precondition for the research programme rather than an upgrade. Control power shows **sharply
+diminishing returns with an exponent of minus 0.26**. The variable-stability system's synthesised
+damping and the pilot's authority draw on one shared budget, which explains the source's otherwise
+modest remark that the tested grid covered conditions to the ability of the X-14A. And **gravity was
+not adjustable**, so the aircraft reproduced lunar attitude dynamics exactly and lunar translation
+2.46 times too fast, which is why the Lunar Landing Research Vehicle had to exist.
+
+**An archive hole, stated in the article.** NASA TN D-1328, the origin of the criteria, carries no
+downloadable document and is returned by the NTRS search endpoint for no phrasing of its own title.
+It was located through its citation in a later report, and every quantitative claim is taken from the
+complete successor TN D-2701. **No pilot ratings are asserted anywhere**, because the figure carrying
+them did not survive text extraction.
+
+**Two defects in the numerical spine, both caught by running it rather than reading it.** The
+repositioning analysis used a = g theta and searched tilt over a bounded range whose upper bound it
+reported as the optimum for every control power above 1.4, so the printed optimum was the edge of the
+search interval. And the threshold section had invented plausible Cooper ratings and interpolated a
+boundary from them, which would have manufactured the article's headline number from data in no
+source. **Seventh article running in which computing before writing caught a claim that reading would
+have passed.**
+
+**Three defects caught by reading and counting**, all of which passed every automated check: a phrase
+repeated across a paragraph seam, a symbol collision between the disturbance fraction and the
+radius-of-gyration fraction, and a sentence promising four subsections where five stood.
+
+Equation-density, primary-reference, and publication reviews not yet performed. Contemporary
+references stand at 10 of 72 dated, or 13.9 percent, which is the publication review's principal task.
+
 ## X-Planes Ryan X-13 Vertijet A310 2025-10-19
 
 `x_planes_ryan_x13.markdown`, A310, editorial date 2025-10-19, series `x_planes` index 14 of 72.
