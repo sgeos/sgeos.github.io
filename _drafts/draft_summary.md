@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_north_american_x15.markdown`, A312, editorial date 2025-10-21, series `x_planes` index 16
 of 72.
 
-669 lines, 48 display equations, 77 references, 8,057 words after the draft pass; **929 lines, 90
-equations, 77 references, 10,729 words after the equation-density review.** Equations are exactly on
-the floor; lines and references still approach from below. Reported rather than padded.
+669 lines, 48 equations, 77 references, 8,057 words after the draft pass; 929 lines, 90 equations, 77
+references, 10,729 words after the equation review; **1142 lines, 90 equations, 252 references, 12,993
+words after the primary-reference review.** Equations and references inside band; lines still approach
+from below. Nothing trimmed at any point.
 
 **The keystone was chosen rather than discovered, and the article says so.** Every previous article in
 the series found its keystone by locating the one binding unknown. The X-15's record is large enough
@@ -125,8 +126,43 @@ The B-52 supplies **under seven percent** of the energy budget. A 1.5 mm skin is
 a second and has no interior. A kilogramme of ablator absorbs nine times what a kilogramme of structure
 absorbs reaching its limit.
 
-Primary-reference and publication reviews not yet performed. Lines 929 against a 1300 floor, references
-77 against 250. Contemporary references are 13 of 58 dated, or 22.4 percent.
+**Primary-reference review complete, 2026-08-08. 1142 lines, 90 display equations, 252 references,
+12,993 body words.** References rose from 77 to 252 across 31 edits, research anchors from 58 to 233.
+**Primary sources are 220 of 233 dated, or 94.4 percent**, the highest share the series has carried
+after A311's 95.9 at the same stage.
+
+**The pool was too small and was harvested before it was audited**, per the A310 rule. The first sweep
+had returned 199 NTRS records and only 17 X-15-specific documents, which is not what a nine-year
+programme produces, so a supplementary sweep aimed at the threads the draft and equation passes opened
+added 82 NTRS, 100 DTIC, 122 period, and 39 OSTI records and took the master from 673 to 991.
+
+**Two documents found that bear directly on derivations the equation pass produced.** [Keener and Polek
+1972] reports measurements of the Reynolds analogy for a hypersonic turbulent boundary layer **on a
+nonadiabatic flat plate**, which is precisely the relation the energy-partition result runs on and
+precisely the wall condition it runs at; the article derived it without knowing it had been measured.
+And [Edney 1968] is the canonical treatment of anomalous heat transfer on blunt bodies in the presence
+of an impinging shock, **published the year after the flight that demonstrated the effect on a crewed
+aircraft**. A cluster around it now covers the mechanism that destroyed the pylon.
+
+**A second finding worth recording.** The wind-tunnel facility literature establishes that no ground
+facility of the period could match Mach number, Reynolds number, and enthalpy at once, which is the
+quantitative reason an aircraft was needed at all. And the same flight-versus-tunnel comparison was run
+again on the X-24B a decade later, so the calibration problem the X-15 existed to address had not been
+solved by its successors.
+
+**Selection discipline.** A loose theme filter surfaced uranium and niobium metallurgy, a Marine Corps
+acquisition study, aerial cannon shells, titanium brazing, industrial wind tunnels, and ice crystals in
+hypersonic flow, all matching on keywords. **Every one was rejected by title inspection before writing**,
+which is what the dump-titles-before-writing rule exists for. Six link-text mismatches were caught by
+the invariant and repointed to the master displays.
+
+Citation density 19.32 per thousand body words, comparable to A311's final 20.2. The URL-stability
+guard fired no drift when the master was rebuilt on 318 new records.
+
+Publication review not yet performed. Lines 1142 against a 1300 floor. **Contemporary references are 13
+of 233 dated, or 5.6 percent**, the absolute count unchanged since the draft and the percentage fallen
+only because the denominator grew by 175. Against the 101 to 189 absolute count held since A301 this is
+the largest contemporary gap any article has carried into a publication review.
 
 ## X-Planes Bell X-14 A311 2025-10-20
 

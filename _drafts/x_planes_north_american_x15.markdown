@@ -91,6 +91,8 @@ The X-15 was a genuinely tripartite programme. The NACA, and from 1958 NASA, spe
 
 ### What Was Known and What Was Not
 
+The aircraft's own predictions were built before it flew and are traceable. [Walker and Wolowicz 1960][research_walker_wolowicz_1960] computes theoretical stability derivatives for the X-15 across the supersonic and hypersonic range, [Hewes et al 1958][research_hewes_1958] reports low-speed stability, control, and spinning characteristics from dynamic models, and [Hewes and Hassell 1960][research_hewes_hassell_1960] flight-tests a one-seventh-scale radio-controlled model. **The subsonic and landing end of the envelope was therefore explored on models and the hypersonic end on paper**, which is the reverse of the usual arrangement and follows from there being no tunnel that could do the whole job.
+
 By 1954 the theory of hypersonic heating existed. The blunt-body insight, that a blunt shape pushes most of its energy into the air rather than into itself, was already established, and the stagnation-point heat transfer problem was being solved analytically, as in [Eggers et al 1958][research_eggers_1958]. What did not exist was any flight data at all above Mach 3, and the [X-2][related_post_a299_bell_x2] had reached Mach 3.2 and been lost immediately afterward.
 
 The materials position was worse. [Steinbacher and Young 1955][research_steinbacher_young_1955] surveys the problems of designing aircraft subjected to high temperature, and the alloy the X-15 would use was still being developed as sheet, in work reported later in [Greenewald and Riley 1963][research_greenewald_riley_1963] and [Duff and Watson 1964][research_duff_watson_1964]. **The aircraft was ordered before the material it is made of was a settled product.**
@@ -221,7 +223,9 @@ The disposal problem is not the total energy but the rate at which it arrives at
 
 $$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}$$
 
-with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. **Two features of that relation govern the entire design.**
+with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and the wider gas-physics problem is [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962]. The viscous and non-equilibrium behaviour that the simple correlations paper over is [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970], with real-gas scale effects in [Adams et al 1976][research_adams_1976]. Further correlation work of the same family as the one used here is [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974], and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. Measuring it in flight rather than in a tunnel is [Boylan et al 1978][research_boylan_1978] and [Hunt and Jones 1969][research_hunt_jones_1969]. Measuring any of it required instruments of its own, in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
+
+**Two features of that relation govern the entire design.**
 
 The first is the cube on velocity. Doubling speed multiplies the heating rate by eight, which is why the difference between Mach 3 and Mach 6 is a difference in kind rather than in degree.
 
@@ -235,7 +239,7 @@ $$D_{\text{nose}} \propto \dot{q}^{-4}$$
 
 **Halving the heating costs sixteen times the nose drag.** That fourth-power exchange rate is why a re-entry capsule, which does not have to fly anywhere afterwards, is as blunt as it can be made, and why an aeroplane that must also glide several hundred kilometres to a runway is not.
 
-A third feature is absent from the relation and dominates the real problem. **A turbulent boundary layer transfers heat several times faster than a laminar one**, so where transition occurs matters more than most of the terms that are written down. The subject was under active investigation throughout the X-15's life and was not settled by it, in [Deem and Murphy 1965][research_deem_murphy_1965] on flat plates, [Sheetz 1965][research_sheetz_1965] on free flight, [Bueche 1966][research_bueche_1966] on the effect of surface roughness, [Henderson 1967][research_henderson_1967] and [Softley 1969][research_softley_1969] on cones, [Larson 1968][research_larson_1968] on results that did not fit, and [Masaki and Yakura 1968][research_masaki_yakura_1968] on how to carry a transitional layer through a heating analysis at all. [Berry 1967][research_berry_1967] flew an experiment for the purpose.
+A third feature is absent from the relation and dominates the real problem. **A turbulent boundary layer transfers heat several times faster than a laminar one**, so where transition occurs matters more than most of the terms that are written down. The subject was under active investigation throughout the X-15's life and was not settled by it, in [Deem and Murphy 1965][research_deem_murphy_1965] on flat plates, [Sheetz 1965][research_sheetz_1965] on free flight, [Bueche 1966][research_bueche_1966] on the effect of surface roughness, [Henderson 1967][research_henderson_1967] and [Softley 1969][research_softley_1969] on cones, [Larson 1968][research_larson_1968] on results that did not fit, and [Masaki and Yakura 1968][research_masaki_yakura_1968] on how to carry a transitional layer through a heating analysis at all. [Berry 1967][research_berry_1967] flew an experiment for the purpose, and [Snodgrass 1955][research_snodgrass_1955] had measured heating and transition together on a Viking nose cone before the X-15 existed. [Graber et al 1968][research_graber_1968], [Kendall 1974][research_kendall_1974], and [Wainwright 1962][research_wainwright_1962] cover the observation and the tunnel technique. **Surface roughness moves transition forward and a real aircraft is rough**, which is the subject of [Berg 1977][research_berg_1977] and [Chien 1975][research_chien_1975], and the measurement of friction in the presence of a surface that is itself being consumed is [Bruno and Risher 1968][research_bruno_risher_1968]. The early difficulties of measuring a laminar layer at all are [Blue and Low 1953][research_blue_low_1953], and the supersonic friction coefficients that preceded any of the hypersonic work are [Boison 1953][research_boison_1953].
 
 **Every number computed in this section assumes a boundary-layer state it does not derive**, and that assumption is the largest uncertainty in the analysis.
 
@@ -250,6 +254,8 @@ which is 64.8 watts per square centimetre.
 A structure that cannot conduct heat away fast enough must radiate it, and a radiating surface in equilibrium sits at the temperature where its emission matches its input,
 
 $$\varepsilon \sigma T^{4} = \dot{q} \quad \Longrightarrow \quad T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}$$
+
+The emissivity in that relation is a material property that degrades with use, and measuring it after exposure is a subject of its own, treated for a nickel-chromium alloy after simulated re-entry heating in [Clark et al 1978][research_clark_1978]. **A surface that darkens radiates better and a surface that oxidises to a lighter colour radiates worse**, so the number is not a constant of the design.
 
 At an emissivity of 0.8 the design temperature of 1,200 degrees Fahrenheit, or 922 kelvin, corresponds to a sustainable heating rate of
 
@@ -286,6 +292,10 @@ and their ratio collapses to something remarkably simple,
 $$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}$$
 
 **The velocity has cancelled out of the numerator entirely**, so the fraction depends only on how far the wall sits below the adiabatic wall temperature, measured against the vehicle's kinetic energy.
+
+**The analogy is not an assumption here. It was measured, at this condition.** [Keener and Polek 1972][research_keener_polek_1972] reports measurements of the Reynolds analogy for a hypersonic turbulent boundary layer on a nonadiabatic flat plate, which is the relation above at the wall condition the argument requires, and [Thomas and Chung 1973][research_thomas_chung_1973] treats the recovery factor for high-speed turbulent flow analytically. The compressible flat-plate case with variable fluid properties, which is what the correlation is really standing in for, is [Deissler and Loeffler 1959][research_deissler_loeffler_1959].
+
+The skin friction that the analogy converts is itself a measured quantity with a long literature, from [Coles 1952][research_coles_1952] on direct measurement in supersonic flow through [Moulic 1963][research_moulic_1963] at low density, [Wazzan and Ball 1965][research_wazzan_ball_1965] on body-shape effects, [Liu 1967][research_liu_1967] on the transitional case, and [Thompson 1970][research_thompson_1970] and [Young 1965][research_young_1965] on the roughness that a real vehicle has and a flat plate does not. The engineering calculation this article's estimate resembles is [White and Christoph 1972][research_white_christoph_1972].
 
 ### The Result, Which Explains Why a Hot Structure Runs Hot
 
@@ -403,7 +413,7 @@ The reason so thin a coating can do what a thick structure cannot is a ratio of 
 
 $$\frac{h_{\text{eff}}}{c_{p}\left(T_{\text{design}} - T_{0}\right)} = \frac{2.5 \times 10^{6}}{440 \times 629} = 9.0$$
 
-**A kilogramme of ablator absorbs nine times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A hot structure is reusable and rate-limited. An ablator is expendable and load-limited.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966], and the testing problem in [Colosimo 1968][research_colosimo_1968].
+**A kilogramme of ablator absorbs nine times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A hot structure is reusable and rate-limited. An ablator is expendable and load-limited.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966] and [Ibrahim 1967][research_ibrahim_1967], and the testing problem in [Colosimo 1968][research_colosimo_1968], and the application to a returning spacecraft in [Chin et al 1964][research_chin_1964]. Later syntheses of the whole subject are [Scotti 1992][research_scotti_1992] and [Goldstein 1993][research_goldstein_1993].
 
 ### The Disposal Problem, Which Is the Other Half
 
@@ -523,7 +533,13 @@ A hot structure buys simplicity and pays for it in thermal stress. A skin that i
 
 $$\sigma_{\text{thermal}} = E \, \alpha \, \Delta T$$
 
-which for a nickel alloy with a Young's modulus near 214 gigapascals and an expansion coefficient near $1.3 \times 10^{-5}$ per kelvin reaches yield over a temperature difference of only a couple of hundred kelvin. Putting numbers to that, a temperature difference of 300 kelvin between skin and substructure gives
+which for a nickel alloy with a Young's modulus near 214 gigapascals and an expansion coefficient near $1.3 \times 10^{-5}$ per kelvin reaches yield over a temperature difference of only a couple of hundred kelvin.
+
+**The problem was recognised well before there was an aircraft that had it.** [Luce and Jr 1949][research_luce_jr_1949] computes the deflection of a supersonic wing due to aerodynamic heating, [Loveless and Boswell 1954][research_loveless_boswell_1954] and [Parkes 1954][research_parkes_1954] state the thermal-stress problem for aircraft structures generally, the second under repeated cycles, and [Sprague and Huang 1958][research_sprague_huang_1958] treats structural behaviour under it. [Rendel 1954][research_rendel_1954] surveys the thermal problems of high-performance flight as a whole. The design techniques that followed are [Gellatly and Gallagher 1964][research_gellatly_gallagher_1964].
+
+The material behaviour under the relevant histories was also being established rather than assumed. [Roe and Kattus 1957][research_roe_kattus_1957] measured tensile properties of aircraft structural metals after rapid heating, which is the loading path a hypersonic vehicle actually imposes, and [Fortney and Avery 1957][research_fortney_avery_1957] the effects of temperature, time, and stress histories together. [Levy 1955][research_levy_1955], [Bhat 1961][research_bhat_1961], [Masterson 1963][research_masterson_1963], [Hildebrand 1963][research_hildebrand_1963], [Cox and Erbin 1965][research_cox_erbin_1965], and [Ault 1965][research_ault_1965] cover the wider search for materials that keep their strength hot, with [Brownfield and Badger 1960][research_brownfield_badger_1960] on the combined histories again and [Sandstrom and White 1961][research_sandstrom_white_1961] on evaluating a conventional aircraft at high temperature.
+
+**The alternative architectures were being explored in parallel and the X-15 chose one of them.** [Dukes 1962][research_dukes_1962] reports progress on protected construction for hypersonic vehicles, [Taylor and Jackson 1977][research_taylor_jackson_1977] treats heat-sink structural concepts for a hypersonic research airplane, which is the X-15's architecture reconsidered fifteen years later, and [Davis et al 1970][research_davis_1970] evaluates a hypersonic cruise wing structure. The stability of thin heated shells is [Gellatly et al 1965][research_gellatly_1965], the joints are [McCombs et al 1968][research_mccombs_1968], and the internal ducting that a hot aircraft needs is [Cattrell 1955][research_cattrell_1955] and [Einstein 1961][research_einstein_1961]. Putting numbers to that, a temperature difference of 300 kelvin between skin and substructure gives
 
 $$\sigma_{\text{thermal}} = 214 \times 10^{9} \times 1.3 \times 10^{-5} \times 300 = 8.3 \times 10^{8} \text{ Pa}$$
 
@@ -569,7 +585,7 @@ Because the mass falls by more than half while the thrust does not, the accelera
 
 $$\frac{T}{W_{0}} = \frac{253{,}500}{15{,}195 \times 9.807} = 1.70 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90$$
 
-so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, which is why the aircraft carried a side stick usable under acceleration in addition to the centre stick. Component development is reported in [Wiswell et al 1961][research_wiswell_1961].
+so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, which is why the aircraft carried a side stick usable under acceleration in addition to the centre stick. Component development is reported in [Wiswell et al 1961][research_wiswell_1961]. Establishing what a rocket engine is actually doing, on a stand or in flight, is its own measurement problem, treated in [Strauss 1964][research_strauss_1964] and, for installed thrust on a supersonic aircraft, in [Williams 1965][research_williams_1965].
 
 ### Control, Across Four Orders of Magnitude of Dynamic Pressure
 
@@ -604,7 +620,7 @@ or about 13 pounds per square foot, which the standard atmosphere places near 55
 
 There is a coincidence in that number worth recording. Flight 91's engine burned out at about 53.6 kilometres, which is within a couple of kilometres of where this estimate puts the crossover. **On a high flight the engine stops at roughly the altitude where the aerodynamic surfaces stop working**, so the pilot loses thrust and aerodynamic control at nearly the same moment and flies the top of the arc on reaction jets alone. The coincidence is not designed. It falls out of a rocket aircraft whose boost ends where the air becomes thin enough to leave.
 
-No set of aerodynamic surfaces works across the whole range. The aircraft therefore carries hydrogen peroxide reaction jets in the nose and wings, and the pilot flew with **three controllers**, a centre stick for aerodynamic control, a left-hand controller for the reaction jets, and a right-hand side stick for use under acceleration. Operating experience is [Adkins and Jarvis 1964][research_adkins_jarvis_1964].
+No set of aerodynamic surfaces works across the whole range. The aircraft therefore carries hydrogen peroxide reaction jets in the nose and wings, and the pilot flew with **three controllers**, a centre stick for aerodynamic control, a left-hand controller for the reaction jets, and a right-hand side stick for use under acceleration. Operating experience is [Adkins and Jarvis 1964][research_adkins_jarvis_1964], with a conference version at [Adkins and Jarvis 1964, Operational experience with x-15 r][research_adkins_jarvis_1964_2]. The wider problem of controlling a vehicle through a parabolic descent is [Foudriat and Wingrove 1961][research_foudriat_wingrove_1961], and the piloted re-entry case generally is [Moul et al 1961][research_moul_1961].
 
 The reaction system can be sized by the same relation the previous two articles used. Control power is moment over inertia,
 
@@ -646,7 +662,7 @@ That relation also states the wedge's advantage numerically. A thin surface defl
 
 $$C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.0603$$
 
-a ratio of 11. **A thick wedge is not a slightly better fin at hypersonic speed. It is an order of magnitude better**, and the cost is paid in base drag at every other speed the aircraft flies at. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period.
+a ratio of 11. **A thick wedge is not a slightly better fin at hypersonic speed. It is an order of magnitude better**, and the cost is paid in base drag at every other speed the aircraft flies at. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period, and the surface-pressure behaviour the wedge exploits is measured in [Creager 1959][research_creager_1959] on leading-edge sweep and surface inclination and [Creager 1959, Surface Pressure Distribution at H][research_creager_1959_2] on blunt delta wings. The wedge's own behaviour in viscous hypersonic flow, which is the real case rather than the Newtonian idealisation, is [Hui and East 1971][research_hui_east_1971]. The dynamic derivatives, which are what a damper has to work against, were pursued at length by one group in [Walchner and Clay 1965][research_walchner_clay_1965], [Walchner et al 1967][research_walchner_1967], [Walchner et al 1969][research_walchner_1969], and [Walchner 1974][research_walchner_1974], and by another in [Orlik-rueckemann 1966][research_orlik_rueckemann_1966] and [Kind and Orlik-rueckemann 1966][research_kind_orlik_rueckemann_1966]. Configuration interference at the low end of the hypersonic range is [Fink 1965][research_fink_1965], and the lenticular shapes that were being considered as alternatives are [Anderson 1960][research_anderson_1960]. [Boylan 1965][research_boylan_1965] and [Brady and Levensteins 1964][research_brady_levensteins_1964] supply lift, drag, and stability data for blunt shapes at these speeds, [Klett 1964][research_klett_1964] the free-molecular limit, and [Fetterman 1958][research_fetterman_1958] the effect of a rocket jet on stability at high Mach number, which is a real consideration for a vehicle whose engine is at the base. The tunnel technique behind all of it is [Tate 1964][research_tate_1964].
 
 The wedge works and it costs drag. **The base drag of a blunt-based fin is a permanent penalty paid to retain stability at a condition occupying perhaps thirty seconds of an eleven-minute flight**, and [Saltzman 1961][research_saltzman_1961] measured the base pressures that quantify it.
 
@@ -656,7 +672,7 @@ The lower ventral had to be jettisoned before landing because it was too long fo
 
 A damper gain that suits one flight condition suits no other when dynamic pressure varies by a factor of four thousand. The conventional answer is gain scheduling, which requires knowing the condition, and the X-15's condition was precisely what its instruments were struggling to measure.
 
-The answer fitted to X-15-3 was the MH-96, a self-adaptive system that inferred the right gain from the aircraft's own response rather than from a schedule. The principle is to drive the loop gain up until a limit cycle appears at the servo, and then hold it just below that, so that **the aircraft's closed-loop response is held constant while the plant underneath it changes by orders of magnitude**. [NACA 1971][research_naca_1971] reports the flight experience, and the contemporary argument about whether the approach was wise at all is [Adkins and Taylor 1964][research_adkins_taylor_1964], whose title concedes the dispute. [Montgomery 1973][research_montgomery_1973] places it in the wider adaptive-systems programme.
+The answer fitted to X-15-3 was the MH-96, a self-adaptive system that inferred the right gain from the aircraft's own response rather than from a schedule. The principle is to drive the loop gain up until a limit cycle appears at the servo, and then hold it just below that, so that **the aircraft's closed-loop response is held constant while the plant underneath it changes by orders of magnitude**. [NACA 1971][research_naca_1971] reports the flight experience, and the contemporary argument about whether the approach was wise at all is [Adkins and Taylor 1964][research_adkins_taylor_1964], whose title concedes the dispute. [Montgomery 1973][research_montgomery_1973] places it in the wider adaptive-systems programme and [Richarde and Rang 1971][research_richarde_rang_1971] describes a self-organising system of the same family. The automatic-control context the whole idea grew out of is [Hart 1956][research_hart_1956], and the specific problem of holding an aircraft with little or no static margin is [Moul and Brown 1959][research_moul_brown_1959], which is what artificial damping was originally for.
 
 The system also blended the aerodynamic and reaction controls automatically, so that a pilot flying X-15-3 used one stick where a pilot flying the other two used three. **That is the [X-14][related_post_a311_bell_x14]'s handover performed by machine rather than by hand**, six years after the X-14A measured how much authority the hand needed.
 
@@ -668,11 +684,13 @@ A conventional pitot-static boom cannot survive the stagnation heating computed 
 
 **It is worth pausing on this, because the aircraft's most basic instrument was a research project.** [Lipscomb and Dodgen 1958][research_lipscomb_dodgen_1958] describes the all-attitude flight-data system and [Christensen and Dodgen 1961][research_christensen_dodgen_1961] the inertial system that supplemented it. An aircraft that cannot measure its own angle of attack cannot be flown at the edge of its envelope, and the ball nose is the reason the X-15's data are worth anything.
 
+Extracting coefficients from what the instruments recorded is a discipline in itself, treated in [Schumacher 1952][research_schumacher_1952] on evaluating stability parameters from flight data and [Maas 1959][research_maas_1959] on measuring aerodynamic coefficients in asymmetric flight. Surface temperature measurement, which is what the heating data consist of, is [Reis 1959][research_reis_1959], with the response of the sensing element itself in [Rubio and Ballard 1967][research_rubio_ballard_1967] and a simulated-heating transducer in [Alexander 1970][research_alexander_1970]. The wider practice of flight testing at Edwards in the period is visible in [Blanchard 1953][research_blanchard_1953], [Maglieri et al 1959][research_maglieri_1959], [Andrews et al 1965][research_andrews_1965], and [Mctigue and Ryan 1968][research_mctigue_ryan_1968].
+
 ### The Pilot, Who Is a Component of the Thermal System
 
 The pilot wore a full pressure suit, which is a spacecraft in the sense that it must maintain pressure and remove heat independently of the cabin. The suit development literature is substantial, including [Games et al 1954][research_games_1954], [Rosenbaum 1957][research_rosenbaum_1957], [FurryY et al 1962][research_furryy_1962], and [Hendler et al 1964][research_hendler_1964], the last on the metabolic cost of working in one.
 
-**The cabin is a pressure vessel inside a structure at several hundred degrees**, which makes cooling a design problem rather than a comfort one, and the physiological effects of the flight regime are treated in [Raeke 1958][research_raeke_1958].
+**The cabin is a pressure vessel inside a structure at several hundred degrees**, which makes cooling a design problem rather than a comfort one, and the physiological effects of the flight regime are treated in [Raeke 1958][research_raeke_1958]. **The programme had a medical support effort of its own**, described in [Rowen 1958][research_rowen_1958], which is a reminder that an aircraft flown to the edge of the atmosphere by a person is a life-support problem as much as an aerodynamic one. The suit's less discussed subsystems are [Redden 1961][research_redden_1961] and [Shanahan and Barker 1962][research_shanahan_barker_1962], the problem of measuring whether a person can still work in one is [Siegel and Lanterman 1968][research_siegel_lanterman_1968] and [Owen and Bellhouse 1970][research_owen_bellhouse_1970], and the pilot's own account of flying the aircraft is [Holleman 1976][research_holleman_1976].
 
 ## The Flight Test Record
 
@@ -702,7 +720,9 @@ The flight is usually reported as a triumph and it was also very nearly a catast
 
 The sizing analysis above says why this was predictable in kind if not in detail. Shock impingement concentrates heating by focusing the flow, and the article's own heating relation shows that the rate is already twenty times what the structure could radiate at its design temperature **before any concentration is applied**. A vehicle operating at that margin has no tolerance for a local multiplier.
 
-The phenomenon has a literature and it postdates the flight that met it. [Hung and Barnett 1973][research_hung_barnett_1973] analyses shockwave and boundary-layer interference heating directly, and [Kaufman and Johnson 1984][research_kaufman_johnson_1984] measures the heating distributions that trailing-edge controls induce, which is the same mechanism on a different protuberance. **The clean-body correlations the programme was designed around have nothing to say about any of it**, and this article's own use of one is subject to the same limitation.
+The phenomenon has a literature and it postdates the flight that met it. **[Edney 1968][research_edney_1968] is the canonical treatment**, on anomalous heat transfer and pressure distributions on blunt bodies at hypersonic speeds in the presence of an impinging shock, and it was published the year after the flight that demonstrated the effect on a crewed aircraft. [Hung and Barnett 1973][research_hung_barnett_1973] analyses shockwave and boundary-layer interference heating directly, [Holden 1972][research_holden_1972] treats the turbulent interaction, and [Kaufman and Johnson 1984][research_kaufman_johnson_1984] measures the heating distributions that trailing-edge controls induce, which is the same mechanism on a different protuberance. The expansion-corner and ramp cases, which are the same geometry inverted, are [Kaufman 1963][research_kaufman_1963], [Kaufman 1963, Pressure And Heat Transfer Measure][research_kaufman_g_1963_2], and [Kaufman 1964][research_kaufman_g_1964], and the winged re-entry configuration at Mach 8 is [Meckler 1964][research_meckler_1964] and [Meckler 1965][research_meckler_1965].
+
+**The specific case of a protuberance on a hypersonic vehicle was measured, and after the flight rather than before it.** [Creel 1974][research_creel_1974] investigated the effects of projections and cavities on heat transfer at Mach 8, [Johnson and Kaufman 1974][research_johnson_kaufman_1974] the interference heating from shock waves striking turbulent boundary layers, [Kessler et al 1971][research_kessler_1971] the interaction and impingement problem generally, and [Birch and Rudy 1975][research_birch_rudy_1975] the surface heating produced by unequal shock interactions. [Holden 1977][research_holden_1977] and [Altstatt 1977][research_altstatt_1977] carry the turbulent interaction further, [Stollery and Coleman 1975][research_stollery_coleman_1975] correlates the pressure and heating distributions such interactions produce, and [Wong and Hall 1975][research_wong_hall_1975] treats suppressing the effect in an inlet, which is the only place anyone had a reason to control it deliberately. **A literature grew around the failure mode that the X-15A-2 discovered by suffering it.** **The clean-body correlations the programme was designed around have nothing to say about any of it**, and this article's own use of one is subject to the same limitation.
 
 [Graves 1969][research_graves_1969] reports the effect of the hypersonic research engine installation on the aircraft's aerodynamic characteristics, which is the nearest the primary record comes to treating the object that caused the damage as a design element rather than as a payload.
 
@@ -718,6 +738,10 @@ What the accident says about the keystone is this. **The aircraft's energy had t
 
 The X-15's most valuable output is arguably not any single measurement but the calibration of the ground facilities that produced its predictions.
 
+**It is worth establishing what those facilities were, because they were not few and they were not cheap.** The hypersonic tunnel estate of the period is inventoried in [Vicente and Foy 1963][research_vicente_foy_1963], with individual installations described in [Wegener and Lobb 1952][research_wegener_lobb_1952], [Winkler 1952][research_winkler_1952], [Gregorek and Lee 1962][research_gregorek_lee_1962], [Scaggs et al 1963][research_scaggs_1963], and [Boylan 1964][research_boylan_1964]. Reaching the temperatures required meant arc heaters, in [Eschenbach and Skinner 1961][research_eschenbach_skinner_1961] and [Folck and Smith 1969][research_folck_smith_1969], and shock tubes for the highest enthalpies, in [Miller 1965][research_miller_1965] and [Scholz and Anderson 1970][research_scholz_anderson_1970]. Calibrating any of it is [Gentry et al 1966][research_gentry_1966], [Demetriades 1975][research_demetriades_1975], and [Mabey and Gaudet 1975][research_mabey_gaudet_1975], with flow quality in [Fitch 1966][research_fitch_1966], free-flight measurement inside a shock tunnel in [Lam and Stollenwerk 1966][research_lam_stollenwerk_1966], and the thermal problems of the heaters themselves in [Weiler et al 1972][research_weiler_1972]. Measuring a model that is being heated and probed at once is [Richards 1978][research_richards_1978] and [Kabelitz 1970][research_kabelitz_1970].
+
+**None of these could reproduce flight.** A tunnel matches Mach number or Reynolds number or enthalpy, and not all three at once, which is why an aircraft was needed at all and why the discrepancies the X-15 revealed were worth the programme's cost.
+
 ### Heating
 
 [Banner et al 1962][research_banner_1962] reports the first flight heating measurements, and the general finding across the programme was that **theory and tunnel over-predicted heating in some places and under-predicted it badly in others**, with the discrepancies concentrated where the flow was not what the simple correlations assume, which means at interference regions, at protuberances, and wherever boundary-layer transition occurred.
@@ -729,6 +753,18 @@ The article's own arithmetic reproduces this pattern in miniature. The Sutton an
 [Garringer and Saltzman 1966][research_garringer_saltzman_1966] summarises the full-scale lift and drag characteristics from Mach 0.63 to 6.0 and compares them with the wind-tunnel data that most nearly simulate flight. Its most directly useful result for the keystone is operational rather than aerodynamic. **Ninety-five percent of the maximum supersonic lift-to-drag ratio is available anywhere between about seven and twelve degrees of angle of attack**, so a pilot flying a near-optimum glide does not need to hold a precise attitude, only to stay inside a five-degree band.
 
 That is the energy-management problem made tractable by a fact about the aerodynamics, and it is why the X-15 could be landed by a person rather than by a computer.
+
+**It did not stay that way, and the transition is documented.** [Jewel and Whitten 1960][research_jewel_whitten_1960] treats the problem of guiding a gliding vehicle from high altitude to a high key position, which is the manual technique written down, and by the end of the decade [Bryson 1969][research_bryson_1969] and [Hoffman et al 1970][research_hoffman_1970] were reporting landing approach guidance schemes for unpowered lifting vehicles as a control-theory problem. **The X-15's pilots solved by hand what the following generation solved by computing an optimal trajectory**, and the reason a person could do it at all is the flat optimum reported above.
+
+The precedent the X-15 inherited is [Day 1953][research_day_1953], on the glide-flight programme of the [X-2][related_post_a299_bell_x2], which established that an unpowered research aircraft could be landed deliberately rather than merely survived.
+
+### The Same Question, Asked Again a Decade Later
+
+The X-15's calibration exercise was repeated on its successors, and the results are worth naming because they show the problem did not go away.
+
+[Richardson 1976][research_richardson_1976] compares flight test and wind tunnel performance characteristics for the X-24B, [Armstrong 1977][research_armstrong_1977] describes the flight planning that programme required, and [Neumann et al 1978][research_neumann_1978] treats the aerodynamic heating expected of the X-24C. The hypersonic research airplane concepts studied through the 1970s, which are the X-15's institutional descendants, are [Penland et al 1974][research_penland_1974], [Penland 1975][research_penland_1975], [Penland et al 1975, Aerodynamic characteristics of a h][research_penland_1975_2], [Penland et al 1978][research_penland_1978], and [Penland et al 1978, An aerodynamic analysis of several][research_penland_1978_2], with the propulsion in [Camp and Williams 1974][research_camp_williams_1974] and the scramjet integration that motivated them in [Weidner et al 1976][research_weidner_1976], [Small et al 1974][research_small_1974], and [Edwards 1976][research_edwards_1976]. The X-15's own installed engine experiment is [Andrews and Mackley 1976][research_andrews_mackley_1976].
+
+**None of those aircraft was built.** The X-15 remains the only crewed vehicle to have flown the regime, which is why its calibration data were still being used decades later.
 
 ### Landing, Predicted on Another Aircraft
 
@@ -745,6 +781,8 @@ The single most consequential output is a set of flight measurements against whi
 The X-15 demonstrated that a hot structure works. It also demonstrated the cost, which is that the structure is at its temperature limit at the design condition and has no margin for the local heating that real vehicles encounter. **The lesson taken forward was not the hot structure but the reason it was abandoned**, and the vehicle that followed used insulation and ablation instead.
 
 ### It Fed the Lifting Bodies and the Shuttle
+
+The X-15 also sat inside a much larger re-entry effort that it informed and was informed by, in [Brunner 1959][research_brunner_1959] on heating analysis for a re-entrant vehicle, [Sharenson 1966][research_sharenson_1966] on high-altitude drag effects, [Platus 1967][research_platus_1967] on roll resonance, and [Thomas and Perlbachs 1967][research_thomas_perlbachs_1967] on applying ground test data to re-entry vehicle design, which is the calibration problem this article's Comparison section is about, [Hargrove and Shalette 1968][research_hargrove_shalette_1968] and [Spahr 1969][research_spahr_1969] on trajectory and environment analysis, [Rosner and Cibrian 1974][research_rosner_cibrian_1974] on non-equilibrium heating of a glide vehicle, [Rochelle et al 1972][research_rochelle_1972] on Shuttle entry at high angle of attack, and [Alexander 1978][research_alexander_m_1978] on explicit guidance for a trimmed re-entry vehicle.
 
 The unpowered precision landing, the energy-management approach, and the pilot's ability to fly it are the X-15's most durable operational legacy. The lifting-body programme took the technique further and the Space Shuttle used it for thirty years.
 
@@ -850,63 +888,238 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 
 ### Research
 
+[research_adams_1976]: https://ntrs.nasa.gov/citations/19760054044
 [research_adkins_jarvis_1964]: https://ntrs.nasa.gov/citations/19640010769
+[research_adkins_jarvis_1964_2]: https://ntrs.nasa.gov/citations/19640034410
 [research_adkins_taylor_1964]: https://ntrs.nasa.gov/citations/19640017347
+[research_alexander_1970]: https://doi.org/10.21236/ad0875525
+[research_alexander_m_1978]: https://doi.org/10.21236/ada063655
+[research_altstatt_1977]: https://doi.org/10.21236/ada040023
+[research_anderson_1960]: https://doi.org/10.21236/ad0314095
+[research_andrews_1965]: https://ntrs.nasa.gov/citations/20000011982
+[research_andrews_mackley_1976]: https://ntrs.nasa.gov/citations/19760016172
 [research_aprovitola_2019]: https://doi.org/10.1155/2019/6069528
+[research_armstrong_1977]: https://doi.org/10.21236/adb029224
+[research_arrington_1967]: https://doi.org/10.2514/6.1967-164
+[research_ault_1965]: https://doi.org/10.2514/6.1965-741
 [research_banner_1962]: https://ntrs.nasa.gov/citations/19660020178
 [research_beeler_1961]: https://ntrs.nasa.gov/citations/19710070129
+[research_berg_1977]: https://www.osti.gov/biblio/7078005
 [research_berry_1967]: https://ntrs.nasa.gov/citations/20250007312
+[research_bhat_1961]: https://doi.org/10.21236/ad0261186
+[research_biberman_1970]: https://doi.org/10.1615/ihtc4.2320
+[research_birch_rudy_1975]: https://ntrs.nasa.gov/citations/19760008321
+[research_blanchard_1953]: https://ntrs.nasa.gov/citations/20090023638
+[research_blue_low_1953]: https://ntrs.nasa.gov/citations/19930083810
+[research_boison_1953]: https://doi.org/10.2514/8.2840
+[research_boison_1959]: https://doi.org/10.2514/8.4699
+[research_boylan_1964]: https://doi.org/10.21236/ad0434380
+[research_boylan_1965]: https://doi.org/10.21236/ad0460154
+[research_boylan_1978]: https://doi.org/10.2514/6.1978-799
+[research_brady_levensteins_1964]: https://doi.org/10.2514/6.1964-44
 [research_bray_1960]: https://ntrs.nasa.gov/citations/19980223952
+[research_brownfield_badger_1960]: https://doi.org/10.21236/ad0247150
+[research_brunner_1959]: https://doi.org/10.1115/1.4008191
+[research_bruno_risher_1968]: https://doi.org/10.21236/ad0844592
+[research_bryson_1969]: https://doi.org/10.2514/6.1969-865
 [research_bu_2019]: https://doi.org/10.1016/j.actaastro.2019.05.039
 [research_bueche_1966]: https://doi.org/10.2514/6.1966-26
+[research_camp_williams_1974]: https://doi.org/10.2514/6.1974-990
+[research_cattrell_1955]: https://doi.org/10.4271/550190
 [research_chang_1966]: https://doi.org/10.2514/6.1966-410
 [research_chang_2022]: https://doi.org/10.3390/aerospace10010001
 [research_chen_2019]: https://doi.org/10.1002/rnc.4544
+[research_chien_1975]: https://doi.org/10.21236/ada024511
+[research_chin_1964]: https://doi.org/10.2514/6.1964-1311
+[research_chou_smith_1974]: https://doi.org/10.21236/ada001135
+[research_chow_1963]: https://doi.org/10.21236/ad0412486
+[research_chow_1963_2]: https://doi.org/10.2514/3.1772
 [research_christensen_dodgen_1961]: https://ntrs.nasa.gov/citations/19710070144
+[research_clark_1978]: https://doi.org/10.1007/978-1-4615-9083-5_41
+[research_coles_1952]: https://doi.org/10.2514/8.2441
 [research_colosimo_1968]: https://doi.org/10.2514/6.1968-380
+[research_cox_erbin_1965]: https://doi.org/10.2514/6.1965-764
+[research_creager_1959]: https://ntrs.nasa.gov/citations/19980228324
+[research_creager_1959_2]: https://ntrs.nasa.gov/citations/19980228139
+[research_creel_1974]: https://ntrs.nasa.gov/citations/19740013473
+[research_davis_1970]: https://ntrs.nasa.gov/citations/19700017938
+[research_day_1953]: https://ntrs.nasa.gov/citations/19930087801
 [research_deem_murphy_1965]: https://doi.org/10.2514/6.1965-128
+[research_deissler_loeffler_1959]: https://ntrs.nasa.gov/citations/19980223591
+[research_demetriades_1975]: https://doi.org/10.21236/ada016536
 [research_dennehy_2014]: https://ntrs.nasa.gov/citations/20140013264
 [research_diaconis_1959]: https://www.osti.gov/biblio/4079406
+[research_dohnanyi_1964]: https://ntrs.nasa.gov/citations/19650014698
 [research_duff_watson_1964]: https://doi.org/10.21236/ad0600872
+[research_dukes_1962]: https://ntrs.nasa.gov/citations/19620004480
+[research_edney_1968]: https://www.osti.gov/biblio/4480948
+[research_edwards_1976]: https://ntrs.nasa.gov/citations/19770009076
 [research_eggers_1958]: https://ntrs.nasa.gov/citations/19930085175
+[research_einstein_1961]: https://ntrs.nasa.gov/citations/19980232908
+[research_eschenbach_skinner_1961]: https://doi.org/10.21236/ad0266907
+[research_fetterman_1958]: https://ntrs.nasa.gov/citations/19930092383
 [research_finch_matranga_1959]: https://ntrs.nasa.gov/citations/19980236840
+[research_fink_1965]: https://doi.org/10.2514/6.1965-719
+[research_fitch_1966]: https://doi.org/10.21236/ad0632828
+[research_folck_smith_1969]: https://doi.org/10.21236/ad0694516
+[research_fortney_avery_1957]: https://doi.org/10.21236/ad0142007
+[research_foudriat_wingrove_1961]: https://ntrs.nasa.gov/citations/20040008247
 [research_furryy_1962]: https://doi.org/10.21236/ad0290357
 [research_games_1954]: https://doi.org/10.21236/ad0035127
 [research_garringer_saltzman_1966]: https://ntrs.nasa.gov/citations/19660010056
+[research_gellatly_1965]: https://doi.org/10.2514/3.43617
+[research_gellatly_gallagher_1964]: https://doi.org/10.21236/ad0431959
+[research_gentry_1966]: https://ntrs.nasa.gov/citations/19670039468
 [research_goldstein_1993]: https://ntrs.nasa.gov/citations/19930012924
+[research_graber_1968]: https://doi.org/10.2514/6.1968-39
 [research_graves_1969]: https://ntrs.nasa.gov/citations/19690029227
 [research_greenewald_riley_1963]: https://doi.org/10.21236/ad0406873
+[research_gregorek_lee_1962]: https://doi.org/10.21236/ad0288297
+[research_gros_1963]: https://doi.org/10.21236/ad0436090
+[research_hargrove_shalette_1968]: https://www.osti.gov/biblio/4193584
+[research_harney_1963]: https://doi.org/10.21236/ad0295147
+[research_harri_1964]: https://doi.org/10.2172/4597699
+[research_hart_1956]: https://doi.org/10.21236/ad0108104
 [research_henderson_1967]: https://doi.org/10.2514/6.1967-130
 [research_hendler_1964]: https://doi.org/10.21236/ad0609937
 [research_hermann_1962]: https://ntrs.nasa.gov/citations/19630006112
+[research_hermann_1965]: https://ntrs.nasa.gov/citations/19660012369
+[research_hewes_1958]: https://ntrs.nasa.gov/citations/19930092385
+[research_hewes_hassell_1960]: https://ntrs.nasa.gov/citations/19980223968
+[research_hildebrand_1963]: https://doi.org/10.21236/ad0423391
+[research_hoffman_1970]: https://doi.org/10.2514/3.29898
+[research_holden_1972]: https://doi.org/10.2514/6.1972-74
+[research_holden_1977]: https://doi.org/10.2514/6.1977-45
+[research_holleman_1976]: https://ntrs.nasa.gov/citations/19760010068
 [research_huang_2019]: https://doi.org/10.2514/1.a34212
 [research_huang_yao_2019]: https://doi.org/10.2514/1.a34363
+[research_huber_1966]: https://doi.org/10.2514/6.1966-750
+[research_hui_east_1971]: https://doi.org/10.1017/s0001925900005710
 [research_hung_barnett_1973]: https://ntrs.nasa.gov/citations/19730032160
+[research_hunt_jones_1969]: https://ntrs.nasa.gov/citations/19690019892
+[research_ibrahim_1967]: https://doi.org/10.21236/ad0658345
 [research_ikeda_takaku_2023]: https://doi.org/10.1016/j.ifacol.2023.10.229
 [research_ikeda_takaku_2025]: https://doi.org/10.1016/j.ifacol.2025.12.232
+[research_jewel_whitten_1960]: https://ntrs.nasa.gov/citations/19980228460
 [research_jiang_2020]: https://doi.org/10.1080/21642583.2020.1747567
+[research_johnson_kaufman_1974]: https://ntrs.nasa.gov/citations/19740023647
+[research_kabelitz_1970]: https://doi.org/10.2514/6.1970-1174
+[research_kaufman_1963]: https://doi.org/10.21236/ad0421859
+[research_kaufman_g_1963_2]: https://doi.org/10.21236/ad0423580
+[research_kaufman_g_1964]: https://doi.org/10.21236/ad0609559
 [research_kaufman_johnson_1984]: https://ntrs.nasa.gov/citations/19850014059
+[research_keener_polek_1972]: https://ntrs.nasa.gov/citations/19720048932
+[research_kendall_1974]: https://doi.org/10.2514/6.1974-133
+[research_kessler_1971]: https://ntrs.nasa.gov/citations/19730001590
+[research_kind_orlik_rueckemann_1966]: https://doi.org/10.2514/3.3712
+[research_klett_1964]: https://www.osti.gov/biblio/4630398
+[research_koh_1962]: https://doi.org/10.2514/8.6292
+[research_lam_stollenwerk_1966]: https://doi.org/10.2514/6.1966-771
 [research_larson_1968]: https://doi.org/10.2514/6.1968-40
+[research_levy_1955]: https://doi.org/10.1108/eb032600
+[research_lin_1962]: https://doi.org/10.1016/b978-0-12-395595-1.50032-5
 [research_lipscomb_dodgen_1958]: https://ntrs.nasa.gov/citations/19930092393
+[research_liu_1967]: https://doi.org/10.2514/3.43830
 [research_liu_2020]: https://doi.org/10.32604/cmes.2020.08124
 [research_liu_tan_2024]: https://doi.org/10.3390/act13090371
+[research_loveless_boswell_1954]: https://doi.org/10.1108/eb032412
+[research_luce_jr_1949]: https://doi.org/10.21236/ada278113
+[research_lunev_khramov_1970]: https://doi.org/10.1007/bf01019280
+[research_maas_1959]: https://doi.org/10.1016/b978-1-4831-9730-2.50014-4
+[research_mabey_gaudet_1975]: https://doi.org/10.2514/3.44494
+[research_maglieri_1959]: https://ntrs.nasa.gov/citations/19860065693
+[research_marvin_1961]: https://ntrs.nasa.gov/citations/20040005920
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
+[research_masterson_1963]: https://doi.org/10.21236/ad0408957
+[research_mccombs_1968]: https://doi.org/10.21236/ad0831711
 [research_mckay_1959]: https://ntrs.nasa.gov/citations/19980227362
+[research_mctigue_ryan_1968]: https://ntrs.nasa.gov/citations/19690037582
+[research_meckler_1964]: https://doi.org/10.21236/ad0608830
+[research_meckler_1965]: https://doi.org/10.21236/ad0620959
+[research_miller_1965]: https://doi.org/10.21236/ad0621990
 [research_montgomery_1973]: https://ntrs.nasa.gov/citations/19740037345
+[research_moul_1961]: https://ntrs.nasa.gov/citations/19980227762
+[research_moul_brown_1959]: https://ntrs.nasa.gov/citations/19980228212
+[research_moulic_1963]: https://doi.org/10.21236/ad0402416
 [research_naca_1958]: https://ntrs.nasa.gov/citations/19930092380
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19980228350
 [research_naca_1971]: https://ntrs.nasa.gov/citations/19710008947
+[research_nestler_1970]: https://doi.org/10.1615/ihtc4.2330
+[research_neumann_1978]: https://doi.org/10.2514/6.1978-37
 [research_nonweiler_1959]: https://doi.org/10.1108/eb033176
+[research_orlik_rueckemann_1966]: https://doi.org/10.2514/3.3594
+[research_owen_bellhouse_1970]: https://doi.org/10.2514/3.5904
+[research_parkes_1954]: https://doi.org/10.1108/eb032500
+[research_penland_1974]: https://ntrs.nasa.gov/citations/19740023375
+[research_penland_1975]: https://ntrs.nasa.gov/citations/19750007539
+[research_penland_1975_2]: https://ntrs.nasa.gov/citations/19760004991
+[research_penland_1978]: https://ntrs.nasa.gov/citations/19780023102
+[research_penland_1978_2]: https://ntrs.nasa.gov/citations/19780036797
+[research_perini_1972]: https://www.osti.gov/biblio/4286219
+[research_platus_1967]: https://doi.org/10.21236/ad0810587
 [research_raeke_1958]: https://doi.org/10.4271/580153
+[research_rand_1963]: https://doi.org/10.21236/ad0419249
+[research_redden_1961]: https://doi.org/10.21236/ad0267150
+[research_reis_1956]: https://doi.org/10.2172/12822431
+[research_reis_1959]: https://doi.org/10.2172/12823916
+[research_rendel_1954]: https://doi.org/10.1108/eb032443
+[research_richarde_rang_1971]: https://doi.org/10.2514/3.44318
+[research_richards_1978]: https://doi.org/10.21236/ada069883
+[research_richardson_1976]: https://doi.org/10.21236/adb012971
+[research_rochelle_1972]: https://doi.org/10.2514/6.1972-314
+[research_roe_kattus_1957]: https://doi.org/10.21236/ad0142003
 [research_rosenbaum_1957]: https://doi.org/10.21236/ad0142149
+[research_rosner_cibrian_1974]: https://doi.org/10.2514/6.1974-755
+[research_rowen_1958]: https://ntrs.nasa.gov/citations/19930092390
+[research_rubio_ballard_1967]: https://doi.org/10.21236/ad0660321
 [research_saltzman_1961]: https://ntrs.nasa.gov/citations/19980227195
+[research_sandstrom_white_1961]: https://doi.org/10.21236/ad0257074
+[research_scaggs_1963]: https://doi.org/10.21236/ad0427751
+[research_scala_1962]: https://doi.org/10.21236/ad0294982
+[research_scholz_anderson_1970]: https://doi.org/10.1119/1.1976312
+[research_schumacher_1952]: https://doi.org/10.21236/ada075866
 [research_scotti_1992]: https://ntrs.nasa.gov/citations/19930003259
+[research_shanahan_barker_1962]: https://doi.org/10.21236/ad0434193
+[research_sharenson_1966]: https://doi.org/10.21236/ad0634390
 [research_sheetz_1965]: https://doi.org/10.2514/6.1965-127
+[research_siegel_lanterman_1968]: https://doi.org/10.21236/ad0680825
+[research_small_1974]: https://ntrs.nasa.gov/citations/19750005793
+[research_snodgrass_1955]: https://doi.org/10.2514/8.6860
 [research_softley_1969]: https://doi.org/10.2514/6.1969-705
+[research_spahr_1969]: https://doi.org/10.2172/4750887
+[research_spalding_1963]: https://doi.org/10.1016/0017-9310(63)90018-8
+[research_sprague_huang_1958]: https://doi.org/10.4271/580045
 [research_steinbacher_young_1955]: https://doi.org/10.1115/1.4014492
+[research_stephan_obermeier_1974]: https://doi.org/10.1615/ihtc5.2210
+[research_stollery_coleman_1975]: https://doi.org/10.1017/s0001925900007459
+[research_strauss_1964]: https://doi.org/10.21236/ad0609492
+[research_tate_1964]: https://doi.org/10.2514/6.1964-1114
+[research_taylor_jackson_1977]: https://doi.org/10.2514/6.1977-392
+[research_thomas_chung_1973]: https://doi.org/10.1115/1.3450043
+[research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
+[research_thompson_1970]: https://doi.org/10.21236/ad0734152
+[research_trimmer_1968]: https://doi.org/10.21236/ad0669378
+[research_vicente_foy_1963]: https://doi.org/10.21236/ad0405493
+[research_vinokur_1970]: https://doi.org/10.1017/s0022112070002239
+[research_wainwright_1962]: https://doi.org/10.21236/ad0297175
+[research_walchner_1967]: https://doi.org/10.21236/ad0657027
+[research_walchner_1969]: https://doi.org/10.21236/ad0700062
+[research_walchner_1974]: https://doi.org/10.21236/ada007045
+[research_walchner_clay_1965]: https://doi.org/10.2514/3.2966
+[research_walker_wolowicz_1960]: https://ntrs.nasa.gov/citations/19650014459
+[research_wazzan_ball_1965]: https://doi.org/10.2514/3.55194
+[research_wegener_lobb_1952]: https://doi.org/10.21236/ad0012779
+[research_weidner_1976]: https://ntrs.nasa.gov/citations/19760055284
 [research_weil_1962]: https://ntrs.nasa.gov/citations/19620003289
+[research_weiler_1972]: https://doi.org/10.21236/ad0783359
+[research_white_christoph_1972]: https://doi.org/10.21236/ad0757872
+[research_williams_1965]: https://doi.org/10.1016/b978-0-08-011074-5.50012-9
+[research_winkler_1952]: https://doi.org/10.21236/ad0001030
+[research_winovich_1968]: https://doi.org/10.2514/6.1968-405
 [research_wiswell_1961]: https://ntrs.nasa.gov/citations/19710070148
 [research_wolfe_1964]: https://doi.org/10.1016/b978-0-08-010580-2.50018-9
+[research_wong_hall_1975]: https://doi.org/10.2514/6.1975-1209
+[research_young_1965]: https://doi.org/10.21236/ad0621085
 [research_zhai_2019]: https://doi.org/10.1016/j.isatra.2019.01.005
 
 ### Related Post

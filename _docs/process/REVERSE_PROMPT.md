@@ -9,125 +9,97 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A312 equation-density review, the second of four passes. **Committed, not pushed.** All
+**Task**: A312 primary-reference review, the third of four passes. **Committed, not pushed.** All
 sixteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Pass Answered the Question the Keystone Posed and the Draft Left Open
+## Two Documents That Bear Directly on What the Equation Pass Derived
 
-The article states its keystone as **how much of the shed energy ends up inside the structure rather
-than in the air behind it**, and then never answered it. A keystone that poses a question the article
-leaves open is a slogan rather than a keystone, so this pass answered it.
+**The Reynolds-analogy result had already been measured, at the exact condition it is applied to.**
+[Keener and Polek 1972] reports measurements of the Reynolds analogy for a hypersonic turbulent
+boundary layer **on a nonadiabatic flat plate**. That is precisely the relation the energy-partition
+argument runs on and precisely the wall condition it runs at. The article derived it from first
+principles without knowing it had been measured, and the measurement is now cited beside the
+derivation. [Thomas and Chung 1973] does the same for the recovery factor.
 
-The route is the Reynolds analogy. The heat entering the wall divided by the friction work done at it
-collapses to
-
-**q̇ / τV = c_p (T_aw − T_w) / V²**
-
-in which **the velocity cancels out of the numerator entirely**. The fraction depends only on how far
-the wall sits below the adiabatic wall temperature, measured against the vehicle's kinetic energy.
-
-At the record condition that gives **43.0 percent for a cold wall, 27.7 at the design limit, and 7.2
-at the temperature Knight's leading edges actually reached.**
-
-**A hot wall absorbs a smaller fraction than a cold one.** That is the part the framing did not
-anticipate: running hot is not merely something a hot structure tolerates, it is part of the mechanism
-by which it protects itself, because the driving temperature difference is what pushes heat in and a
-hot wall has less of one.
+**The mechanism that destroyed the speed-record flight has a canonical paper, published the year
+after.** [Edney 1968] treats anomalous heat transfer and pressure distributions on blunt bodies in the
+presence of an impinging shock. A cluster now sits around it: [Creel 1974] on projections and cavities
+at Mach 8, [Johnson and Kaufman 1974] on interference heating from shocks striking turbulent boundary
+layers, [Kessler et al 1971], and [Birch and Rudy 1975]. **A literature grew around the failure mode
+the X-15A-2 discovered by suffering it.**
 
 ---
 
-## A Wrong Claim Caught by Computing Further Inside the Same Pass
+## The Pool Was Too Small, So It Was Harvested Before It Was Audited
 
-I first wrote the energy fraction on an **assumed** friction fraction of 35 percent of total drag,
-which gave ten percent to the structure and a heat load **exceeding** the structure's absorptive
-capacity, at a ratio of 1.19.
-
-Estimating the friction drag directly — turbulent flat-plate coefficient at the record Reynolds number
-of 3.2 × 10⁷ over a plausible wetted area — gives **8 to 26 percent, centring near 15.** Not 35.
-
-**The corrected figure is four percent to the structure and a ratio of 0.51, so the conclusion
-inverts.** The total heat load is comfortably within capacity, with roughly a factor of two in hand,
-and the binding constraint is the local rate.
-
-**The corrected version is the one that agrees with the rest of the article.** A rate-limited hot
-structure should have load margin in hand; the erroneous version contradicted the article's own
-earlier finding. The two halves now agree, and they did not have to.
-
-That is the **ninth consecutive article** in which computing before writing caught a wrong claim, and
-the **second in this article** after the crossover order-of-magnitude error in the draft pass.
+The first sweep returned 199 NTRS records and **only 17 X-15-specific documents**, which is not what a
+nine-year programme that reported to its sponsors in conference volumes actually produced. Rather than
+audit a thin pool and discover afterwards that it was thin, a supplementary sweep aimed at the threads
+the draft and equation passes opened added 82 NTRS, 100 DTIC, 122 period, and 39 OSTI records and took
+the master from 673 to 991.
 
 ---
 
-## The Relation That Closes the Keystone
+## A Second Finding, From the Facility Literature
 
-Deceleration by drag at constant altitude integrates to a time to shed the energy. Evaluated at the
-record speed down to a landing speed:
+Inventorying the hypersonic tunnel estate of the period establishes something the article could
+previously only assert. **A tunnel matches Mach number, or Reynolds number, or enthalpy, and not all
+three at once.** That is the quantitative reason an aircraft was needed at all, and it is why the
+discrepancies the X-15 revealed were worth what the programme cost.
 
-| Altitude | Time to shed the energy |
-|----------|--------------------------|
-| 31 km, the record altitude | 102 minutes |
-| 20 km | 18 minutes |
-| 15 km | 8 minutes |
-
-**An X-15 flight lasts eight to twelve minutes in total.**
-
-**So the aircraft cannot dispose of its energy where it acquires it. It must descend into denser air
-to do so, and descending is precisely what raises the heating.** That is the keystone stated as a
-single trap, and every other result in the sizing section is a term in it.
+**And the same flight-versus-tunnel comparison was run again on the X-24B a decade later**, in
+[Richardson 1976], so the calibration problem the X-15 existed to address had not been solved by its
+successors. The hypersonic research airplane concepts of the 1970s were studied at length and **none
+of them was built**, which is why the X-15 remains the only crewed vehicle to have flown the regime.
 
 ---
 
-## Six Further Results
+## Selection Discipline, Which Mattered Here More Than Usual
 
-**The stagnation temperature is 2,271 K**, so the air is 2.46 times hotter than the metal is permitted
-to become, and **89.9 percent of the oncoming stream's total enthalpy is kinetic**. The heat is the
-aircraft's own energy arriving back at it.
+A loose theme filter surfaced uranium and niobium metallurgy, a Marine Corps acquisition study, aerial
+cannon shells, titanium brazing, industrial wind tunnels, and ice crystals in hypersonic flow, **all
+matching on keywords and none of them belonging in this article.** Every one was rejected by title
+inspection before anything was written, which is exactly what the dump-titles-before-writing rule
+exists for.
 
-**Newtonian impact theory gives Cp = 2 sin²θ, independent of Mach number**, which is exactly the
-property a designer wants where everything else is falling away. A ten-degree wedge beats a
-three-degree surface by a factor of 11.
+**Six link-text mismatches were caught by the invariant** and repointed to the master displays, mostly
+author-capitalisation quirks in the archive metadata such as Orlik-rueckemann and Mctigue.
 
-**The same relation puts the trim angle of attack at the record near 13.8 degrees.** A hypersonic
-aeroplane does not fly nose-first.
-
-**The blunt-body trade eliminates to D_nose ∝ q̇⁻⁴**, so halving the heating costs sixteen times the
-nose drag. That fourth-power exchange is why a capsule is blunt and an aeroplane that must glide home
-is not.
-
-**The B-52 supplies under seven percent of the energy budget.** The aircraft makes the other 93 percent
-itself.
-
-**A 1.5 mm skin is through-soaked in half a second and has no interior**, which is why the design can
-be reasoned about as a surface in radiative balance with no thermal-lag margin to hide behind.
+**The URL-stability guard fired no drift** when the master was rebuilt on 318 new records.
 
 ---
 
 ## Verification
 
-**90 display equations, up from 48 across 22 edits, landing exactly on the floor.** All 43 newly
-introduced numbers re-derived independently and reproducing, on top of the 40 from the draft pass.
-`_verify.py` at the 0-error 21-warning corpus baseline from the repository root.
+**252 reference definitions, zero duplicates, zero orphans.** `_verify.py` at the 0-error 21-warning
+corpus baseline from the repository root. Zero contractions, em-dashes, en-dashes, prose colons, prose
+semicolons, prose parentheticals, doubled words, duplicate headings, unbalanced emphasis markers, lone
+dollar-delimited lines, or adjacent display-math seams. Isolated build succeeding with **90 rendered
+display blocks matching source exactly**, Part 16 navigation.
 
-Three style violations were introduced by my own edits and caught: a prose semicolon, a doubled "and"
-created by the fix for that semicolon, and an em dash. **The corpus verifier and the article's own
-checker agreed on the em dash**, which is the cross-check working as intended.
-
-Isolated build succeeding with **90 rendered display blocks matching the source count exactly**, Part
-16 navigation, no unresolved reference links and no surviving Liquid tags. The Epistemic State was
-extended to record the corrected result explicitly, including the superseded figure, and to state the
-new assumptions carried by the energy-partition analysis.
+Citation density 19.32 per thousand body words, comparable to A311's final 20.2. The densest section
+is Comparison With Ground Prediction at 47.7, which is a facility inventory bracketed by an argument
+rather than a bibliography dump.
 
 ---
 
 ## State
 
-**929 lines, 90 display equations, 77 references, 10,729 body words.**
+**1142 lines, 90 display equations, 252 references, 12,993 body words.**
 
-**Equations are exactly on the floor of the 90 to 130 band.** Lines at 929 against 1300 and references
-at 77 against 250 both still approach from below, which the remaining two passes close. Nothing was
-trimmed.
+**Equations and references are inside band.** Lines at 1142 against a 1300 floor still approach from
+below. Nothing was trimmed at any point.
+
+**Primary sources are 220 of 233 dated, or 94.4 percent**, second only to A311's 95.9 at the same
+stage.
+
+**Contemporary references are 13 of 233 dated, or 5.6 percent.** The absolute count is unchanged since
+the draft and the percentage fell only because this pass grew the denominator by 175. Against the 101
+to 189 absolute count the series has held since A301, **this is the largest contemporary gap any
+article has carried into a publication review** — larger than A311's and A309's — and closing it is the
+next pass's principal task. The hypersonic literature is large and current, so the material exists.
 
 **Committed, not pushed.** Nothing in this series is published. The publication-order dependency is
 sixteen deep. **Categories remain undecided** at `aerospace history engineering`, sixteen articles deep
