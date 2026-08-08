@@ -57,6 +57,16 @@ Sources give the X-17 as a three-stage solid-propellant rocket of 40 feet 4 inch
 
 **The flight profile is the design.** The first stage lifts the vehicle to roughly 17 miles and burns out. The vehicle then coasts unpowered to apogee, tips over, and falls. On the way down the second stage fires, burns out, separates, and the third stage fires, driving the nose cone into progressively denser air. The peak speed reported is Mach 14.5, and on 24 April 1957 a flight reached 9,000 miles per hour.
 
+The downward velocity the upper stages must supply follows from the rocket equation,
+
+$$\Delta v = I_{sp}\, g_0 \ln\frac{m_0}{m_1}$$
+
+and at a period-typical solid specific impulse of 235 seconds the 2,339 metres per second computed below requires
+
+$$\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759$$
+
+or **63.8 percent propellant by mass** in the descending stack. That is an ordinary figure for a solid motor and is why the architecture was practical at all rather than merely conceivable.
+
 **Published apogees disagree, and not slightly.** One account gives about 100 miles, another about 500,000 feet, and a third 250 miles. The first two agree to within five kilometres. The third is two and a half times the first. This article computes across the range where the answer depends on it and says so.
 
 ## Sizing From First Principles
@@ -105,6 +115,33 @@ $$\left(\frac{4{,}023}{2{,}744}\right)^{3} = 3.15$$
 
 times short in heating. **The conclusion that the stages were necessary does not depend on which apogee figure is correct**, which is worth stating given that the sources disagree.
 
+### The Trajectory the Vehicle Is Simulating a Point On
+
+Before comparing conditions it is worth writing down what is being compared to. Allen and Eggers solved ballistic entry into an exponential atmosphere in closed form. With $\rho = \rho_0 e^{-z/H}$ at a constant flight path angle $\gamma$ and a ballistic coefficient $\beta = m/(C_D A)$,
+
+$$V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]$$
+
+Two consequences follow immediately and neither depends on the vehicle. The peak deceleration is
+
+$$a_{\max} = \frac{V_e^{2} \sin\gamma}{2 e H}$$
+
+which contains **no ballistic coefficient at all**, so every ballistic entry at a given speed and angle pulls the same peak load. At a 20 degree entry angle and 7,000 metres per second that is 43.7 g. And the velocity at peak heating is
+
+$$V_{\dot{q},\max} = V_e e^{-1/6} = 0.8465\, V_e = 5{,}925\ \text{m/s}$$
+
+again independent of $\beta$. **What the ballistic coefficient controls is the altitude at which all of this happens**, and that is the whole of the blunt-body argument stated quantitatively.
+
+| Ballistic coefficient, kg/m² | Altitude of peak heating, km |
+|---|---|
+| 1,000 | 31.3 |
+| 2,000 | 26.3 |
+| 4,195 | 21.0 |
+| 13,983 | 12.3 |
+
+**A blunt body has its worst moment nineteen kilometres higher than a slender one**, in air a factor of twenty thinner, which is why it survives.
+
+**The important structural point for this article is that a re-entry is a curve and not a condition.** The heating rate rises, peaks, and falls, and the vehicle lives through all of it. The X-17 manufactures one point on that curve and holds it briefly. Everything below about matching should be read with that in mind.
+
 ### Part Two, What Can Be Traded
 
 Stagnation-point convective heating is given by the Sutton and Graves correlation,
@@ -128,6 +165,29 @@ and that density occurs at **13.97 kilometres**. Evaluating both conditions at a
 $$\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.008214}{0.15}} \times 7{,}000^{3} = 1{,}398\ \text{W/cm}^{2}$$
 
 for the intercontinental case and the same 1,398 watts per square centimetre for the X-17, which agrees by construction. **The X-17 could reproduce an intercontinental heating rate at 57 percent of the velocity by flying at a tenth of the altitude, and that is the trick the whole vehicle exists to perform.**
+
+### The Reference Condition Is a Choice, and Deriving It Exposes a Limit
+
+The 7,000 metres per second at 35 kilometres used above is representative rather than derived, and the trajectory solution allows it to be derived instead. Taking the Allen-Eggers peak-heating point for a given ballistic coefficient and asking what altitude the X-17 would need in order to match it gives the following.
+
+| Ballistic coefficient, kg/m² | Reference peak, W/cm² | Altitude X-17 needs, km |
+|---|---|---|
+| 1,000 | 1,135 | 16.62 |
+| 1,453 | 1,398 | 13.97 |
+| 2,000 | 1,674 | 11.68 |
+| 4,195 | 2,563 | 4.63 |
+| 8,000 | 3,705 | **impossible** |
+| 13,983 | 5,087 | **impossible** |
+
+**The assumed reference corresponds to a ballistic coefficient of 1,453 kilogrammes per square metre**, which is a blunt, light body. That is not a coincidence and it was not stated in the choosing. It is exactly the class of re-entry vehicle the X-17 was built to test.
+
+The rows marked impossible are the finding. The X-17 cannot produce more heating than it produces at its lowest altitude,
+
+$$\dot{q}_{\max} = K \sqrt{\frac{\rho_{\text{SL}}}{R_n}}\, V^{3} = 3{,}241\ \text{W/cm}^{2}$$
+
+at sea level, and 1,881 watts per square centimetre at a more realistic 10 kilometre floor. Above a ballistic coefficient of about **6,300 kilogrammes per square metre even at sea level, and about 2,500 at a practical floor, no altitude exists at which the X-17 matches the heating rate at all.**
+
+**So the heating-rate match is not a general capability of the vehicle. It is conditional on the class of body being simulated.** The X-17 could reproduce the thermal environment of a blunt first-generation re-entry vehicle and could not have reproduced that of a dense slender one, because its velocity is simply too low and no amount of flying lower repairs that. The technique and the vehicle were fitted to each other, and when re-entry vehicles later became slender and dense the technique stopped applying.
 
 ### Part Three, What Cannot Be Traded
 
@@ -153,7 +213,29 @@ which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. 
 
 The relevant thresholds are approximate and standard. Oxygen dissociation begins near 2,500 kelvin and is substantially complete near 4,000. Nitrogen dissociation begins near 4,000. Ionisation becomes significant near 9,000. At 8 megajoules per kilogramme the shock layer is fully dissociated in oxygen and partly in nitrogen. At 24.5 it is far advanced in nitrogen dissociation with ionisation beginning, which is why radio blackout is a re-entry phenomenon and not an X-17 phenomenon.
 
-**These are different gases doing the heating.** The rate at which the air ionises behind a shock was measured in [Lin 1961][research_lin_1961] and [Lin et al 1962][research_lin_1962], the equilibrium properties tabulated in [Viegas and Howe 1962][research_viegas_howe_1962], the transport properties in [Yun and Mason 1962][research_yun_mason_1962], and the effect on hypersonic flow fields analysed in [Hermann et al 1962][research_hermann_1962]. Stagnation heat transfer specifically in partially ionised air was measured in [Rose and Stankevics 1963][research_rose_stankevics_1963], and radiation from the hot gas in [Archer 1963][research_archer_1963] and [Page 1963][research_page_1963].
+**These are different gases doing the heating**, and the difference has a geometric consequence that is easy to overlook. For a perfect gas the strong-shock density ratio has a hard ceiling,
+
+$$\frac{\rho_2}{\rho_1} \rightarrow \frac{\gamma + 1}{\gamma - 1} = 6\quad \text{at}\ \gamma = 1.4$$
+
+Dissociation absorbs energy, lowers the effective ratio of specific heats, and lets the gas compress far more than that. Since shock standoff scales inversely,
+
+$$\frac{\delta}{R_n} \sim \frac{\rho_1}{\rho_2}$$
+
+a perfect gas holds its shock 25 millimetres off a 15 centimetre nose while a strongly dissociating one holds it at 8. **The shock sits closer to the body in the gas the X-17 did not produce**, which changes the boundary layer edge conditions and therefore the heating distribution away from the stagnation point, where most of the surface actually is. The rate at which the air ionises behind a shock was measured in [Lin 1961][research_lin_1961] and [Lin et al 1962][research_lin_1962], the equilibrium properties tabulated in [Viegas and Howe 1962][research_viegas_howe_1962], the transport properties in [Yun and Mason 1962][research_yun_mason_1962], and the effect on hypersonic flow fields analysed in [Hermann et al 1962][research_hermann_1962]. Stagnation heat transfer specifically in partially ionised air was measured in [Rose and Stankevics 1963][research_rose_stankevics_1963], and radiation from the hot gas in [Archer 1963][research_archer_1963] and [Page 1963][research_page_1963].
+
+### Radiation, Which Is a Fourth Thing Missed and Was Not Mentioned
+
+Convective heating is not the only mechanism. The shock layer also radiates, and that contribution scales far more steeply with velocity,
+
+$$\dot{q}_{\text{rad}} \sim R_n\, \rho^{1.2}\, V^{8.5}$$
+
+against the square root and cube of convection. At equal density the velocity term alone gives
+
+$$\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7$$
+
+so **the X-17 sees roughly one part in 111 of the radiative heating an intercontinental re-entry produces.** Extending the same exponent, lunar return at 11 kilometres per second is 5,162 times the X-17's radiative environment, which is why radiation dominates there and is negligible here.
+
+**The X-17's condition is purely convection-dominated and an intercontinental re-entry is beginning not to be.** That is a fourth respect in which the simulation is partial, and unlike the other three it is not a consequence of the density trade. It follows from velocity alone and is therefore unfixable by any choice of altitude.
 
 ### The Third Requirement, Which Is Also Missed
 
@@ -169,7 +251,15 @@ while the test vehicle at its matching altitude gives
 
 $$\Pi_{\text{X-17}} = 0.2278 \times 0.5 = 0.1139\ \text{kg/m}^{2}$$
 
-a ratio of **9.25**. **Flying lower to buy the heating rate overshoots the binary scaling parameter by nearly an order of magnitude**, which pushes the shock layer toward chemical equilibrium and away from the nonequilibrium state a real re-entry has. The X-17 therefore missed the third requirement as well as the first, and in a direction that made its flow more benign and more predictable rather than less.
+a ratio of **9.25**. The same statement can be made as a rate comparison through the Damköhler number, which is the ratio of the time the gas spends in the shock layer to the time its chemistry needs,
+
+$$Da = \frac{t_{\text{flow}}}{t_{\text{chem}}} \sim \frac{\rho L}{V}$$
+
+Below one the gas has no time to react and the flow is frozen. Above one it reaches equilibrium. Evaluating,
+
+$$\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}{0.008214 \times 1.5 / 7{,}000} = 16.09$$
+
+**Flying lower to buy the heating rate overshoots the binary scaling parameter by nearly an order of magnitude**, which pushes the shock layer toward chemical equilibrium and away from the nonequilibrium state a real re-entry has. The X-17 therefore missed the third requirement as well as the first, and in a direction that made its flow more benign and more predictable rather than less.
 
 ### The Total Heat Load Is a Fourth Quantity
 
@@ -199,6 +289,8 @@ Collecting the four comparisons gives the article's central table.
 | Stagnation enthalpy and chemistry | **No, 33 percent** | enthalpy carries no density |
 | Nonequilibrium state | **No, 9.25 times off** | binary scaling overshot |
 | Total heat load | **No, about a quarter** | exposure is far shorter |
+| Radiative heating | **No, about one percent** | radiation scales as $V^{8.5}$ |
+| The trajectory as a whole | **No, one point only** | a re-entry is a curve |
 
 **The X-17 surrendered velocity and therefore chemistry, and bought heating rate, scale, and material response.** For a nose cone designer in 1956 who needed to know whether a given ablator on a given shape would survive a given heat flux, that was the right trade, because the chemistry he could not have used anyway. **The programme gave up the thing nobody could yet compute and kept the thing everybody needed to measure.**
 
@@ -229,9 +321,55 @@ The X-17 flew hemispherical, cubic paraboloid, and blunt nose shapes and the pro
 
 ### The Ablator, Which Is the Answer to the Heat That Arrives Anyway
 
-Bluntness reduces the flux. It does not remove it, and at 1,400 watts per square centimetre no passive material survives by conduction alone. The answer is ablation, in which the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux.
+Bluntness reduces the flux. It does not remove it, and the claim that no passive material survives is checkable in one line rather than assertable. A surface in steady state rejects heat by radiating it,
+
+$$\dot{q} = \varepsilon \sigma T^{4}$$
+
+so the temperature a passive surface must reach to reject the incident flux is
+
+$$T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4} = \left(\frac{1.398 \times 10^{7}}{0.85 \times 5.67 \times 10^{-8}}\right)^{1/4} = 4{,}127\ \text{K}$$
+
+at an emissivity of 0.85. Against the most refractory materials there are,
+
+| Material | Melting or sublimation, K | Verdict |
+|---|---|---|
+| Steel | 1,810 | fails |
+| Silica glass softens | 1,900 | fails |
+| Molybdenum | 2,896 | fails |
+| Tungsten | 3,695 | fails |
+| Graphite sublimes | 3,900 | fails |
+| Hafnium carbide | 4,200 | survives, barely |
+
+**Every material available in 1956 fails, including tungsten and graphite.** Only hafnium carbide exceeds the required temperature and only by 73 kelvin, and it was not a structural material. **Passive re-radiation is not an option at this flux**, which makes ablation mandatory rather than merely convenient. The answer is ablation, in which the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux. The energy balance is
+
+$$\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}$$
+
+where the effective heat of ablation lumps together heating the material to its ablation temperature, the phase change, and the blockage the injected gas provides. At the matched flux,
+
+| Material | $h_{\text{eff}}$, MJ/kg | Mass loss, kg/m²/s |
+|---|---|---|
+| Teflon | 2.3 | 6.08 |
+| Silica or quartz | 9.0 | 1.55 |
+| Phenolic nylon | 12.0 | 1.16 |
+| Graphite | 25.0 | 0.56 |
+
+At a phenolic-like 12 megajoules per kilogramme and a material density of 1,400 kilogrammes per cubic metre, the surface lost over the exposure is
+
+$$s = \frac{\dot{m} \tau}{2 \rho_m}$$
+
+giving 2.50 millimetres over the X-17's six seconds and 10.39 over a twenty-five second re-entry.
 
 The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
+
+There is a second and less obvious difference between a pulse and a soak. Heat diffuses into the material a distance
+
+$$\delta = \sqrt{\alpha t}, \qquad \alpha = \frac{k}{\rho_m c}$$
+
+and for a phenolic ablator $\alpha = 1.43 \times 10^{-7}$ square metres per second, so
+
+$$\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \text{mm}$$
+
+a ratio of 2.04, which is the square root of the time ratio. **The X-17's pulse heats half the depth an intercontinental re-entry does.** A material can therefore pass an X-17 test on its surface behaviour and still fail on what happens to the structure behind it, which is a failure mode the vehicle was structurally incapable of finding.
 
 **The X-17's contribution here is that it exposed real materials at full scale to a correct heat flux.** That is a screening capability, and it is exactly what the trade described above preserved.
 
@@ -272,7 +410,15 @@ and at the X-17's condition it is very large.
 | 15.0 | 1.0 | $5.48 \times 10^{7}$ |
 | 10.0 | 1.0 | $1.14 \times 10^{8}$ |
 
-Sources state the vehicle reached Reynolds numbers above 24 million, which the table reproduces at 15 kilometres on a half-metre body. **That matters because a turbulent boundary layer transfers several times the heat a laminar one does**, so where transition occurs is a first-order design question rather than a refinement. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [MASAKI and YAKURA 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965].
+Sources state the vehicle reached Reynolds numbers above 24 million, which the table reproduces at 15 kilometres on a half-metre body. **That matters because a turbulent boundary layer transfers several times the heat a laminar one does.** Flat-plate correlations give the Stanton number as
+
+$$St_{\text{lam}} \sim Re^{-1/2}, \qquad St_{\text{turb}} \sim Re^{-1/5}$$
+
+so the turbulent-to-laminar heating ratio grows as $Re^{0.3}$, and at the quoted Reynolds number the penalty is
+
+$$\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70$$
+
+**A factor of 2.7 rests on where transition happens**, which is a first-order design question rather than a refinement. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [MASAKI and YAKURA 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965].
 
 **This is the one respect in which the X-17's condition was arguably more severe than the flight it simulated**, because a real re-entry at high altitude has a lower Reynolds number and may stay laminar longer.
 
@@ -332,7 +478,7 @@ Treating the X-17 through partial simulation misleads in four places.
 
 **It implies the programme reasoned this way.** The similarity analysis above is modern in its framing. The designers knew they could not match velocity and chose to match heat flux, but the binary scaling parameter and the formal statement of three conditions against two knobs are a later way of saying it.
 
-**It assumes a reference re-entry that is generic.** The 7,000 metres per second at 35 kilometres used throughout is representative rather than the actual Atlas condition, which was classified and is not used here. Every ratio in this article inherits that choice.
+**It assumes a reference re-entry that is generic, and the assumption turns out to carry more weight than it looks.** The 7,000 metres per second at 35 kilometres used throughout is representative rather than the actual Atlas condition, which was classified and is not used here. Deriving the reference from the trajectory solution instead shows that it corresponds to a ballistic coefficient of 1,453 kilogrammes per square metre, and that **the heating-rate match fails entirely above about 2,500**. Every ratio in this article inherits that choice, and a reader who prefers a denser reference body gets a materially different answer, up to and including the conclusion that the X-17 could not have matched it at all.
 
 **It treats the trajectory as known.** No published trajectory for an X-17 flight was located. The 13.97 kilometre matching altitude is where the vehicle would have had to be to match the reference heating, not a measured altitude, and the article should not be read as asserting the vehicle flew there.
 
@@ -354,9 +500,9 @@ What does hold the article up is the re-entry literature itself, which is large,
 
 **Disputed in the record.** The overall length, given as 40 feet 4 inches and as 41 feet. The apogee, given as about 100 miles, about 500,000 feet, and 250 miles. This article resolves neither.
 
-**Engineering analysis, reproducible from the stated inputs.** The free-fall speed of 1,684 metres per second from the lower apogee and the resulting factor of 13.63 in heating rate. The required density ratio of 27.74 and the matching altitude of 13.97 kilometres. The equal heating rates of 1,398 watts per square centimetre. The stagnation enthalpies of 8.094 and 24.50 megajoules per kilogramme and their ratio of 3.027. The binary scaling ratio of 9.25. The nose radius heating ratios. The ballistic coefficient ratio of 3.33. The Reynolds numbers.
+**Engineering analysis, reproducible from the stated inputs.** The requirement that a passive surface reach 4,127 kelvin to reject the matched flux, which exceeds the melting point of tungsten and the sublimation point of graphite and therefore makes ablation mandatory rather than merely convenient. The Allen-Eggers results, namely a peak deceleration of 43.7 g independent of ballistic coefficient, a velocity at peak heating of 5,925 metres per second also independent of it, and peak-heating altitudes from 31.3 kilometres at a ballistic coefficient of 1,000 down to 12.3 at 13,983. **The ballistic coefficient ceiling above which the X-17 cannot match the heating rate at any altitude, at about 6,300 kilogrammes per square metre even at sea level and about 2,500 at a practical floor.** That the assumed reference corresponds to 1,453. The radiative heating ratios of 110.7 against an intercontinental re-entry and 5,162 against lunar return. The Damköhler ratio of 16.09. The ablation mass loss and recession figures. The thermal penetration depths of 0.93 and 1.89 millimetres. The turbulent heating penalty of 2.70. The free-fall speed of 1,684 metres per second from the lower apogee and the resulting factor of 13.63 in heating rate. The required density ratio of 27.74 and the matching altitude of 13.97 kilometres. The equal heating rates of 1,398 watts per square centimetre. The stagnation enthalpies of 8.094 and 24.50 megajoules per kilogramme and their ratio of 3.027. The binary scaling ratio of 9.25. The nose radius heating ratios. The ballistic coefficient ratio of 3.33. The Reynolds numbers.
 
-**Inference, and clearly labelled.** That the X-17 surrendered velocity deliberately rather than as a consequence of what its motors happened to deliver is an inference from the design's internal consistency and not from any document. That the chemistry it missed did not matter for the 1956 question is an argument about what could be used rather than about what was true. That the shape result was a confirmation rather than a discovery follows from the publication order of the theory.
+**Inference, and clearly labelled.** That the heating-rate match was fitted to the class of body the vehicle was built to test, rather than being a general capability, follows from the ballistic-coefficient ceiling and the coincidence that the assumed reference sits below it. It is an argument from internal consistency and not from any document. That the X-17 surrendered velocity deliberately rather than as a consequence of what its motors happened to deliver is an inference from the design's internal consistency and not from any document. That the chemistry it missed did not matter for the 1956 question is an argument about what could be used rather than about what was true. That the shape result was a confirmation rather than a discovery follows from the publication order of the theory.
 
 **What the record does not settle and this article does not claim.** What the X-17 actually measured, since no flight data were located. What trajectory any flight followed. Whether the ablators screened on it behaved the same way at intercontinental enthalpy, which is precisely the extrapolation the partial simulation does not license.
 
@@ -364,7 +510,7 @@ What does hold the article up is the re-entry literature itself, which is large,
 
 ## Out of Scope
 
-The Atlas and Titan programmes themselves are treated only as consumers of this vehicle's result. Operation Argus is named and its physics is not discussed. The Polaris programme is outside this article. The detailed chemistry of dissociating air is cited rather than derived. No attempt is made to reconstruct an actual flight trajectory, and the radiative component of re-entry heating, which matters greatly above about 10 kilometres per second and very little here, is left aside.
+The Atlas and Titan programmes themselves are treated only as consumers of this vehicle's result. Operation Argus is named and its physics is not discussed. The Polaris programme is outside this article. The detailed chemistry of dissociating air is cited rather than derived. No attempt is made to reconstruct an actual flight trajectory. Radiative heating is treated only through its velocity scaling, which is sufficient to show that the X-17 could not reproduce it, and the shock-layer radiation transport that would be needed to compute it properly is cited rather than derived.
 
 ## Conclusion
 

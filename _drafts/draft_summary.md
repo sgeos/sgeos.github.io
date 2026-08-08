@@ -21,8 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_x17.markdown`, A314, editorial date 2025-10-23, series `x_planes` index 18 of 72.
 
-**461 lines, 27 display equations, 71 references, 5,266 words after the draft pass.** Equation and
-reference reviews pending.
+461 lines, 27 display equations, 71 references, 5,266 words after the draft pass; **607 lines, 47
+display equations, 71 references, 6,937 words after the equation review.** Reference review pending.
 
 **The second consecutive article whose subject has no archival record of its own.** NTRS returns
 astronomy false positives for the vehicle name and nothing technical, and DTIC holds the surrounding
@@ -50,6 +50,21 @@ heat load is short by about 4.17 times.
 **The framing is that the programme surrendered the gas physics because nobody could compute it and
 kept the heat flux because everybody needed to design against it**, which was correct for 1956 and
 would be wrong today.
+
+**The equation pass found a ballistic-coefficient ceiling on the whole technique.** Deriving the
+reference condition from the Allen-Eggers solution instead of assuming it shows the draft's assumed
+value corresponds to a ballistic coefficient of 1,453 kg/m2, and that above about 2,500 at a practical
+altitude floor **no altitude exists at which the X-17 matches the heating rate at all**. The
+heating-rate match is therefore conditional on the class of body being simulated. It works for exactly
+the blunt first-generation re-entry vehicle the X-17 was built to test and would have failed for a
+dense slender one.
+
+**It also showed the vehicle reproduces a point and not a trajectory**, since peak deceleration and the
+velocity at peak heating are both independent of ballistic coefficient while the altitude at which they
+occur is not, and **that ablation is mandatory rather than convenient**, since a passive surface would
+need 4,127 K to reject the matched flux, above tungsten's melting point and graphite's sublimation
+point. Radiative heating was added as a fourth thing the vehicle could not reproduce, at one part in
+110.7.
 
 ## X-Planes Bell X-16 A313 2025-10-22
 

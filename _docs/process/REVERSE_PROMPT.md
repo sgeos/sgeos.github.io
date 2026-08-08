@@ -9,129 +9,104 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A314 drafted, the Lockheed X-17. The first of four passes. Committed, **not pushed**, not
-published. All eighteen articles in the series remain in `_drafts/`.
+**Task**: A314 equation-density review, the second of four passes. Committed, **not pushed**, not
+published. Display equations rose from **27 to 47**.
 
 ---
 
-## The Vehicle Fired Rockets Downward, and the Article Had to Justify That
+## The Pass Found a Ceiling on the Whole Technique
 
-The X-17 went up, turned over, and fired two solid stages **downward** to drive a nose cone into thick
-air at Mach 14.5. Everything in the article follows from establishing that this was necessary rather
-than merely striking.
+This is the strongest result and it sharpens the article's thesis rather than extending it.
 
-**Free fall from its own apogee reaches 1,684 metres per second against an achieved 4,023.** That is a
-speed ratio of 2.389, and convective heating goes as the CUBE of speed, so the heating ratio is
+The draft compared the X-17 against an **assumed** reference of 7,000 metres per second at 35
+kilometres. The Allen-Eggers closed-form ballistic entry solution lets that be **derived** instead, and
+doing so shows two things the draft did not know it had committed to.
 
-**13.63.**
+**The assumed reference corresponds to a ballistic coefficient of 1,453 kilogrammes per square metre**,
+which is a blunt, light body. That is exactly the class of re-entry vehicle the X-17 was built to test.
+The draft made that choice without noticing it.
 
-A vehicle that merely fell would have produced under a tenth of the thermal condition it was built to
-study. **The downward stages are not an enhancement of the experiment. They are the experiment.**
+**And the X-17 cannot exceed the heating it produces at its lowest altitude** — 3,241 W/cm² at sea
+level, 1,881 at a practical 10 km floor. So:
 
-That conclusion survives the source disagreement. Published apogees differ at about 100 miles, about
-500,000 feet, and 250 miles, and even from the largest of those free fall still falls short by a factor
-of 3.15.
+| Ballistic coefficient, kg/m² | Reference peak, W/cm² | Altitude X-17 needs |
+|---|---|---|
+| 1,453 | 1,398 | 13.97 km |
+| 2,000 | 1,674 | 11.68 km |
+| 4,195 | 2,563 | 4.63 km |
+| 8,000 | 3,705 | **impossible** |
 
----
-
-## The Keystone Is Partial Simulation, and It Partitions Cleanly
-
-A re-entry is several simultaneous conditions. Three must be matched. **Velocity**, which sets the
-chemistry through stagnation enthalpy. **Heating rate**, which the structure must survive. And the
-**degree of chemical nonequilibrium**, through the binary scaling parameter.
-
-A test vehicle has two knobs, altitude and model scale. **Two knobs cannot satisfy three conditions.**
-
-**What the trade buys.** Density enters the heating correlation under a square root and velocity cubed,
-so holding heating fixed requires density proportional to velocity to the minus sixth. At 57 percent of
-intercontinental velocity the X-17 needs **27.74 times the density**, which is 13.97 kilometres, and
-both conditions then give 1,398 watts per square centimetre exactly.
-
-**What it cannot buy.** Stagnation enthalpy is one half of velocity squared and **contains no density
-at all**. The X-17 reached 8.094 megajoules per kilogramme against 24.50, or **33.0 percent of the
-energy per unit mass**, and no choice of altitude changes it. At 8 megajoules oxygen is fully
-dissociated and nitrogen partly. At 24.5 nitrogen dissociation is far advanced and ionisation has
-begun. **These are different gases doing the heating.**
-
-| Quantity | Reproduced |
-|---|---|
-| Stagnation heating rate | **Yes, exactly** |
-| Full scale and real material | **Yes** |
-| Boundary layer state | **Yes, arguably more severe** |
-| Stagnation enthalpy and chemistry | **No, 33 percent** |
-| Nonequilibrium state | **No, 9.25 times off** |
-| Total heat load | **No, about a quarter** |
-
-**The framing the article carries is that the programme surrendered the gas physics because nobody
-could compute it, and kept the heat flux because everybody needed to design against it.** That was
-correct for 1956 and would be wrong today, which is the most interesting thing about the vehicle.
+**Above roughly 2,500 kg/m² at a practical floor, no altitude exists at which the X-17 matches the
+heating rate at all.** The heating-rate match is therefore **not a general capability of the vehicle**.
+It is conditional on the class of body being simulated, it works for the blunt first-generation
+re-entry vehicle, and it would have failed outright for a dense slender one. When re-entry vehicles
+later became slender and dense, the technique stopped applying.
 
 ---
 
-## Series Threads Worth Noting
+## Three Further Results
 
-**Mach 14.5 is 2.05 times the Mach 7.06 perfect-gas validity limit** that the X-15 article computed for
-its own arithmetic. The X-17 flew deep into the regime A312 identified as the edge of its own method.
+**The vehicle reproduces a point, not a trajectory.** Peak deceleration is Ve² sin γ / (2eH), which
+contains **no ballistic coefficient at all**, so every ballistic entry at a given speed and angle pulls
+the same 43.7 g. The velocity at peak heating is Ve·e^(−1/6) = 5,925 m/s, also independent of β. **What
+β controls is the altitude**, from 31.3 km down to 12.3 across the range — which is the blunt-body
+argument stated quantitatively as nineteen kilometres and a factor of twenty in density.
 
-**This is the second consecutive subject with no archival record of its own.** The X-16 was cancelled
-and classified. The X-17 flew and was classified. Both articles are carried by the literature of the
-question rather than of the vehicle, and each Source Base says so.
+**Ablation is mandatory, not convenient, and one line proves it.** The draft asserted that no passive
+material survives. Stefan-Boltzmann gives the temperature a passive surface must reach to reject the
+matched flux as **4,127 K**, which exceeds tungsten's melting point at 3,695 and graphite's sublimation
+at 3,900. Only hafnium carbide beats it, by 73 kelvin, and it was not a 1956 structural material.
 
-**The X-17 boosted the three Operation Argus high-altitude nuclear detonations in 1958.** That is the
-only instance so far in this series of an X-designated vehicle delivering a nuclear device, and the
-article names it plainly rather than passing over it.
+**Radiation is a fourth thing the vehicle could not reproduce, and the draft had it in Out of Scope.**
+Shock-layer radiation scales as roughly V^8.5, so the X-17 sees **one part in 110.7** of an
+intercontinental re-entry's radiative environment. Unlike the other three failures this one follows from
+velocity alone and is unfixable by any choice of altitude. The central partition table gained two rows.
 
 ---
 
-## The A313 Lesson Was Applied Proactively
+## Two Contradictions the Pass Created, and Fixed
 
-A313's coverage audit found three citations across the whole of 1960 to 2018 because the draft harvest
-never asked for the middle era, and correcting that was a correction to the article's implicit history.
-**The mid-era sweep is present in A314's harvest from the start.** The pool is 1,181 records and the
-master 1,059 entries with the era already covered.
+Out of Scope still said radiative heating was left aside **after the pass had brought it in**. And Where
+the Framing Breaks Down described the reference condition as merely generic when the pass had just
+quantified exactly how much weight it carries. Both were corrected rather than left.
+
+---
+
+## What Else Was Added
+
+The rocket equation, giving 63.8 percent propellant in the descending stack at a period solid impulse.
+The Damköhler number restating binary scaling as a rate ratio of 16.09, consistent with the 9.25 binary
+figure times the velocity ratio. The perfect-gas strong-shock density ceiling of 6 and its standoff
+consequence, so **the shock is a different shape in the gas the X-17 did not produce**. The ablation
+energy balance with recession of 2.50 mm over the pulse against 10.39 over a re-entry. Thermal
+penetration depth, showing the pulse heats **half the depth**, so a material can pass on surface
+behaviour and fail on what happens behind it. And the laminar-to-turbulent Stanton scaling, giving a
+2.70 penalty at the quoted Reynolds number.
 
 ---
 
 ## Verification
 
-**56 independent re-derivations, zero disagreements**, using a trapezoidal integration of the
-hydrostatic equation so that the calculation module cannot validate itself. **This is the first article
-in several where the number check found nothing**, which I record rather than treat as an achievement.
+**56 draft-pass re-derivations still reproducing, plus 44 new ones, zero disagreements.** All
+independent of the calculation modules, with the Allen-Eggers peak located on a 5 metre grid against
+calc2's 20 metre one so that neither validates the other.
 
-71 reference definitions, 54 external URLs, zero duplicates or orphans. 40 plain 200s, 4 publisher
-403s, 10 DTIC DOIs verified through the Crossref registry with matching titles.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
+with 47 of 47 display blocks rendered, 7 of 7 tables, and Part 18 navigation. Equation count measured
+before and after, per the A310 lesson.
 
-**A title scan of all 46 cited research entries found no off-topic citation.** The single flag was a
-false positive of the scan's own keyword list, which did not include arc-jet. That scan exists because
-A313's publication review removed sixteen citations a title search had wrongly returned.
-
-`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations after three adjacent
-display-math seams were given connective prose. Isolated build passing with 27 of 27 display blocks
-rendered, 3 of 3 tables, and Part 18 navigation.
-
-**One defect caught in my own tooling.** The isolated build script was copied from A313 and its series
-navigation check still tested for Part 17 in one of two clauses after the other had been repointed to
-Part 18. That is the copied-script defect A311 and A312 both shipped, caught here by reading the
-repointed file rather than trusting the replacement.
+A section scan flagged eleven sections carrying numbers without equations; **nine remain and all nine
+are legitimately narrative**.
 
 ---
 
 ## State
 
-**461 lines, 27 display equations, 71 references, 5,266 body words.**
+**607 lines, 47 display equations, 71 references, 6,937 body words.**
 
-That is again **between the documentation-poor and full-aircraft classes on all three measures**,
-exactly as A313's draft was. The equation and reference passes will raise the last two substantially.
+**Committed, not pushed.** Nothing in the series is published.
 
-**Committed, not pushed**, per the series rhythm for a draft pass. Nothing in the series is published
-and the deploy workflow builds without `--drafts`.
-
-**The publication-order dependency is eighteen deep**, A314 back to A297, and every cross-reference
-points backward.
-
-Eighteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, and **the fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` is now live for a
-second consecutive article** rather than one. Both remain yours to settle.
-
-A315 is the Hiller X-18, editorial date 2025-10-24, which returns the series to jet-lift and tilt-wing
-and therefore to the A310 and A311 literature.
+References at 71 are the measure furthest from any band and the reference pass will move that. Lines and
+equations remain between the documentation-poor and full-aircraft classes, which is the third
+consecutive pass on which **the fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` has come up**.
+It remains yours to settle, as do the categories.
