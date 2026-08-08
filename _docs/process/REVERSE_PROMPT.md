@@ -9,120 +9,124 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A314 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All eighteen articles in the series remain in `_drafts/`.
+**Task**: A315 drafted, the Hiller X-18. The first of four passes. Committed, **not pushed**, not
+published. All nineteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Survey Found Two Things That Act on the Article
+## The Keystone Is Slipstream Immersion, and It Is Geometric
 
-The contemporary section grew from 38 references to **208 across twelve fields**. Two of its
-observations are not extensions.
+A tilt-wing points its wing at the sky, which means pointing it away from the oncoming air. A wing at
+ninety degrees to the flow is stalled. **The configuration works only where the propeller slipstream
+keeps the flow attached**, and the immersed fraction is set by propeller diameter against span, which is
+frozen when the aircraft is drawn.
 
-**The chemistry the X-17 surrendered is now the most expensive requirement, not the cheapest.** The
-vehicle gave up velocity, and therefore the gas chemistry, because it was the cheapest of three
-requirements to abandon and because nobody could compute it anyway. In a modern prediction everything
-else is comparatively well posed and **the chemistry is where the model form uncertainty lives**. The
-1956 reasoning has inverted.
+Two sixteen-foot propellers on a 47.92-foot span give:
 
-**The relations are now run in reverse.** Design for demise computes ballistic coefficient, ablation
-rate and heat load in order to guarantee that a structure **comes apart and burns** rather than that it
-survives. That application did not exist in 1956, and it is the sharpest available demonstration of how
-general the underlying physics turned out to be. **The X-17 measured how to survive; its instruments now
-serve an industry that sometimes needs the opposite.**
-
----
-
-## Further Findings
-
-**Prediction replaced measurement and then needed validating**, so the X-17's kind of data was relocated
-rather than removed. It now serves to check a code rather than to characterise an environment, which is
-a different epistemic role for the same measurement.
-
-**The facility shortfall is unresolved seventy years on.** What changed is that it is measured and
-quoted rather than argued about — the same improvement this article credits the X-17's own partition
-with.
-
-**Ultra-high temperature ceramics are designed against exactly the Stefan-Boltzmann calculation this
-article performs**, and the hafnium carbide that appears as the single survivor in the article's own
-table is precisely the family that literature pursues.
-
-**Entry, descent and landing is where the problem actually went.** A Mars entry vehicle is the
-Allen-Eggers argument with somebody else's atmosphere, carrying a density uncertainty no terrestrial
-calculation has to bear.
-
-**Nobody now builds an X-17, and the reason is not that the problem was solved.**
-
----
-
-## Thirty Rejected by Reading, and One Caught by Accident
-
-New examples from this pass:
-
-| Search term | What it returned |
+| Station | Immersed span |
 |---|---|
-| nonequilibrium | a two-temperature **Ising model** |
-| ionisation | electron impact on **krypton** |
-| Bayesian calibration | resource depletion in **Peruvian mining districts** |
-| demise | dataveillance and the **demise of interpretive flexibility** |
-| thermal protection system | a passive TPS for **divers**, which is a wetsuit |
+| At the disc | 66.8 percent |
+| Just behind, representative | 56.8 percent |
+| Fully contracted | 47.2 percent |
 
-**The wetsuit was caught only because the DOI verification step printed its title.** It had passed the
-exclusion list, the bucket pattern, and a relevance scan. That is an argument for reading output that is
-nominally about something else.
+**About 43 percent of the span is never immersed.** At a 15-degree stall angle the outer panel is
+stalled for **83.3 percent of the conversion**. That is geometric rather than aerodynamic, and no
+section design removes it, because the wing is pointed away from the air by construction.
 
-**A counter-observation belongs alongside it.** An automated relevance scan run after insertion flagged
-ten further citations and **every one was a false positive of the scan's own keyword list** — a
-ceramic-heated tunnel, high-emissivity coatings, expansion-tube flow characterisation. The reading step
-finds real defects. The automated step generates noise in both directions and is useful only as a prompt
-to look.
+**What the slipstream buys is genuinely large.** At an 82.1 lb/ft² disc loading the part-developed
+slipstream dynamic pressure corresponds to an equivalent airspeed of **117 knots while the aircraft is
+standing still**. The immersed wing never stops flying. The un-immersed wing never starts.
+
+---
+
+## The Engine-Out Claim Was Checked and Is Arithmetic, Not Caution
+
+Sources say the turboprops were not cross-linked and that losing one meant losing the aircraft. That is
+a checkable statement. Losing one propeller in hover gives a **268 kN m rolling moment**, and:
+
+| Freestream | Aileron authority |
+|---|---|
+| 0 m/s | 0.00 percent |
+| 10 m/s | 0.46 percent |
+| 30 m/s | 4.12 percent |
+
+**Cross-shafting is not a refinement. It is the only fix**, and its absence is the aircraft's defining
+deficiency.
+
+The final flight follows from the same relation. **A few percent of thrust asymmetry exhausts the roll
+control during conversion** — 3.04 percent at 30 m/s at ten thousand feet. A propeller pitch control
+failure is not a small disturbance, so the departure was the expected outcome rather than bad luck.
+
+**And there is a bitter detail.** Converting at ten thousand feet rather than near the ground cost about
+**26 percent of the available roll authority**, because authority scales with density. The altitude was
+chosen for safety, to give room to recover. It made the departure more likely and the outcome more
+survivable, and the programme got the survivable half.
+
+---
+
+## A Strong Internal Validation
+
+Momentum theory gives **7,883 ideal shaft horsepower** for hover against an installed 11,700, implying a
+figure of merit of **0.674**. That is an entirely ordinary propeller value, and it is the best available
+check that the published weight, propeller diameter and engine power describe one consistent aircraft.
+
+---
+
+## Series Threads
+
+**The tail turbojet fitted purely for pitch makes this the third vertical take-off aircraft in the
+series to carry a separate thrust-based control system**, after the X-13 and X-14, for the same reason
+each time: aerodynamic control scales with dynamic pressure and vanishes, while thrust does not. The
+crossover here is 58.6 knots.
+
+**The one-directory question was live and was decided explicitly.** The X-18 shares the VTOL control
+problem with the X-13 and X-14 and shares nothing else, since a tilt-wing lifts with a wing in a
+slipstream rather than a deflected jet. Rather than import a pool built for a different aircraft, the
+harvest **asked the shared questions directly**. That obtains the common literature without the A309
+defect, and costs a few duplicate queries.
+
+**Both harvest-design lessons were applied from the start** rather than as later corrections — the
+middle era present per A313, and a 1960 cutoff on the early sweep per A314.
+
+---
+
+## An Error Caught by Reading Output, Not by a Check
+
+An elevator effectiveness of 0.02 per radian produced a pitch-jet crossover of **454 knots**, which is
+absurd for an aircraft of this class. The correct order is about 1.2 per radian, giving 58.6 knots.
+**No automated check would have caught it** — the arithmetic was correct and the coefficient was wrong.
+It is recorded in the Epistemic State.
 
 ---
 
 ## Verification
 
-**56 draft-pass and 44 equation-pass re-derivations, zero disagreements**, still reproducing after every
-edit. 446 reference definitions, 429 external URLs, zero duplicates or orphans.
+**62 independent re-derivations, zero disagreements** after one rounding correction, using a trapezoidal
+atmosphere so the calculation module cannot validate itself.
 
-URL sweep: **245 plain 200s, 134 publisher 403s, 7 202s, 1 302, and 43 DTIC DOIs verified through the
-Crossref registry** with titles matching the prose.
+66 reference definitions, 48 external URLs, zero duplicates or orphans. 27 plain 200s, 7 publisher 403s,
+14 DTIC DOIs registry-verified. **A 404 was found and fixed**, since the XC-142 encyclopaedia title was
+wrong. A read of all 36 cited titles found no off-topic citation.
 
-The section was extended in place rather than replaced, per the A310 defect, and the equation count was
-measured before and after regardless, holding at 47. `_verify.py` at the 0-error 21-warning corpus
-baseline. Zero style violations. Genre section order correct. Isolated build passing with 47 of 47
-display blocks, 7 of 7 tables, Part 18 navigation.
-
----
-
-## Final State
-
-**1,066 lines, 47 display equations, 446 references, 10,417 body words.**
-
-References are above the full-aircraft band. **Lines sit 234 below its 1,300 floor and equations 43
-below the 90 floor**, so A314 finishes outside the named classes on two of three measures, exactly as
-A313 did. I did not pad it.
-
-Contemporary is 208 of 421 research citations, or **49.4 percent**, matching A313's proportion and for
-the same structural reason: a subject with no literature of its own can only be surveyed through its
-question.
-
-**That is now two consecutive articles finishing outside the named classes in the same way, across
-eight passes.** The fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` is no longer a one-off
-observation and I have still not made the decision, because it is a change to the genre document and
-that is yours.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
+with 21 of 21 display blocks rendered, 4 of 4 tables, and Part 19 navigation — with **both** navigation
+clauses repointed, after the A314 copy left one at the previous part number.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
-the push is safe. **The publication-order dependency is eighteen deep**, A314 back to A297, and every
-cross-reference points backward.
+**386 lines, 21 display equations, 66 references, 3,982 body words.**
 
-Eighteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, raised twenty-three times.
+This is a shorter draft than A313 or A314 produced, and the reason is favourable rather than not.
+**Unlike those two, this subject's configuration has a real primary literature** even though the
+individual airframe does not, which is the inverse of their situation. The pool is rich and the
+reference pass has a great deal to work with.
 
-**A315 is the Hiller X-18**, editorial date 2025-10-24, a tilt-wing transport testbed. That returns the
-series to jet-lift and tilt-wing, so the A310 and A311 pools are genuinely relevant for the first time
-in three articles and the stated exception to the one-directory rule may apply. Check
-`RESEARCH_AIRCRAFT_STRUCTURE.md` and the A311 harvest before building a new one.
+**Committed, not pushed**, per the series rhythm for a draft pass.
+
+Nineteen articles complete of seventy-two. **The publication-order dependency is nineteen deep.**
+Categories remain undecided, and the fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` is open
+across two completed articles.
+
+A316 is the next entry on the roster; check `HANDOFF.md` before starting.

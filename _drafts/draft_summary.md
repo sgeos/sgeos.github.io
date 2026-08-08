@@ -17,6 +17,41 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Hiller X-18 A315 2025-10-24
+
+`x_planes_hiller_x18.markdown`, A315, editorial date 2025-10-24, series `x_planes` index 19 of 72.
+
+**386 lines, 21 display equations, 66 references, 3,982 words after the draft pass.** Equation and
+reference reviews pending.
+
+**The first article in the series to solve vertical take-off with a wing rather than a jet.** The X-13
+and X-14 both pointed a jet downward. A tilt-wing points the wing itself, which is a different problem
+with a different failure mode.
+
+**The keystone is slipstream immersion.** A tilted wing points away from the oncoming air, so the
+configuration works only where the propeller slipstream keeps the flow attached. Two sixteen-foot
+propellers on a 47.92-foot span immerse about 57 percent at a representative contraction, so **about 43
+percent of the span is never immersed**, and at a 15-degree stall angle the outer panel is stalled for
+**83.3 percent of the conversion**. That is geometric rather than aerodynamic.
+
+**What the slipstream buys is large.** The part-developed slipstream dynamic pressure corresponds to an
+equivalent airspeed of **117 knots while the aircraft is stationary**. The immersed wing never stops
+flying and the un-immersed wing never starts.
+
+**The engine-out claim was checked and is arithmetic rather than caution.** With the turboprops not
+cross-linked, losing one gives a 268 kN m rolling moment while the ailerons supply under one percent of
+it in hover. Cross-shafting is the only fix. And **a few percent of thrust asymmetry exhausts the roll
+control during conversion**, so the propeller pitch control failure that ended the programme produced a
+departure as the expected outcome. Converting at ten thousand feet cost about 26 percent of the
+available roll authority.
+
+**A strong internal validation.** Momentum theory gives 7,883 ideal shaft horsepower against an
+installed 11,700, implying a figure of merit of 0.674, which is an ordinary propeller value and is the
+best available check that the published figures describe one consistent aircraft.
+
+**Unlike A313 and A314 the configuration has a real primary literature** even though the individual
+airframe does not, which is the inverse of those two situations and a milder difficulty.
+
 ## X-Planes Lockheed X-17 A314 2025-10-23
 
 `x_planes_lockheed_x17.markdown`, A314, editorial date 2025-10-23, series `x_planes` index 18 of 72.
