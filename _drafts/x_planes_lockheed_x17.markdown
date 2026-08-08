@@ -41,6 +41,8 @@ Three quantities have to be right at once for a full reproduction.
 
 The ground facilities of the period could not close the gap. A shock tube produces high enthalpy for microseconds, and the expansion tube that improved on it was not proposed until [Trimpi 1962][research_trimpi_1962]. An arc-heated jet can run for minutes but produces a contaminated, non-uniform stream whose enthalpy is hard to know, and calibrating one against material response was still being worked out in [Chapman 1963][research_chapman_1963]. A ballistic range fires a small model at high speed through still air, which is genuinely a re-entry in miniature, but the model is centimetres across and the flight lasts milliseconds, as in [Yee et al 1961][research_yee_1961]. Free-flight technique in a conventional tunnel, treated in [Dayman 1962][research_dayman_1962] and [Levy and Mc Devitt 1964][research_levy_mc_devitt_1964], has the same limitation.
 
+The facilities themselves became a substantial field, and the reason is that none of them ever solved the problem outright. Shock tubes, shock and expansion tunnels, arc-heated jets, ballistic ranges, and ceramic-heated and hotshot tunnels each buy one part of the condition at the cost of another, across [Bleakney et al 1949][research_bleakney_1949], [Lundquist 1952][research_lundquist_1952], [Wegener and Lobb 1952][research_wegener_lobb_1952], [MACK 1954][research_mack_1954], [Walker and Wolowicz 1960][research_walker_wolowicz_1960], [Palmer and Knox 1960][research_palmer_knox_1960], [FILLER 1960][research_filler_1960], [Trimpi 1962, A Preliminary Theoretical Study of][research_trimpi_1962_2], [Bradley et al 1981][research_bradley_1981], [Park and Balakrishnan 1985][research_park_balakrishnan_1985], [Takahashi and Teshima 1985][research_takahashi_teshima_1985], [YANG et al 1985][research_yang_1985], [Hanson 2000][research_hanson_2000], [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001], [Holden 2004][research_holden_2004], [Balakalyani and Jagadeesh 2019][research_balakalyani_jagadeesh_2019], [Gildfind 2019][research_gildfind_2019], [Wang and Jiang 2020][research_wang_jiang_2020]. **Every one of those is a partial simulation too**, which is worth saying before criticising the X-17 for being one.
+
 None of that gives a full-scale article, in real air, for tens of seconds. **The X-17 was built to obtain exactly the thing no facility could provide, and the vehicle's peculiar architecture is a direct consequence of that requirement rather than of any preference for rockets.**
 
 ## Programme Origin
@@ -121,6 +123,8 @@ Before comparing conditions it is worth writing down what is being compared to. 
 
 $$V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]$$
 
+The solution and its descendants are the standard treatment of the problem, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Eilertson and Wing 1966][research_eilertson_wing_1966], [Speyer and Womble 1971][research_speyer_womble_1971], [KNIGHT and QUINN 1971][research_knight_quinn_1971], [Maples 1973][research_maples_1973], [GREENE and WILLIAMSON 1981][research_greene_williamson_1981], [Vinh and Lin 1982][research_vinh_lin_1982], [Desai et al 1999][research_desai_1999], [Zhang et al 2010][research_zhang_2010], [Zhou et al 2012][research_zhou_2012], [Zhao and Zhou 2013][research_zhao_zhou_2013], [Pei et al 2021][research_pei_2021], [Su et al 2021][research_su_2021], [Ma et al 2022][research_ma_2022].
+
 Two consequences follow immediately and neither depends on the vehicle. The peak deceleration is
 
 $$a_{\max} = \frac{V_e^{2} \sin\gamma}{2 e H}$$
@@ -148,7 +152,7 @@ Stagnation-point convective heating is given by the Sutton and Graves correlatio
 
 $$\dot{q} = K \sqrt{\frac{\rho}{R_n}}\, V^{3}$$
 
-where $R_n$ is the nose radius and $K = 1.7415 \times 10^{-4}$ in SI units. The structure of that relation is the whole opportunity. **Density enters under a square root and velocity enters cubed**, so a deficit in velocity can be repaid by an excess of density, and the exchange rate is steep. Holding the heating rate fixed,
+where $R_n$ is the nose radius and $K = 1.7415 \times 10^{-4}$ in SI units. That correlation sits on top of a large measurement and analysis programme, since the constant is empirical and the exponents are the result of boundary-layer theory checked against experiment, in [Luce and Jr 1949][research_luce_jr_1949], [Emmons 1951][research_emmons_1951], [Allen and Eggers 1953][research_allen_eggers_1953], [Jonas 1953][research_jonas_1953], [VAGLIG-LAURIN 1960][research_vaglig_laurin_1960], [CRESCI et al 1960][research_cresci_1960], [SEIDMAN 1960][research_seidman_1960], [Neice et al 1960][research_neice_1960], [Gonzales 1981][research_gonzales_1981], [Thornton 1981][research_thornton_1981], [Nomura 1983][research_nomura_1983], [GAI et al 1985][research_gai_1985], [Mizoguchi et al 2006][research_mizoguchi_2006], [Clemente and Ferrarella 2010][research_clemente_ferrarella_2010], [Tashakkor et al 2011][research_tashakkor_2011], [Tauber et al 2012][research_tauber_2012], [Si et al 2019][research_si_2019], [Manjhi and Kumar 2020][research_manjhi_kumar_2020], [Han et al 2020][research_han_2020], [Lefevre et al 2022][research_lefevre_2022]. The structure of that relation is the whole opportunity. **Density enters under a square root and velocity enters cubed**, so a deficit in velocity can be repaid by an excess of density, and the exchange rate is steep. Holding the heating rate fixed,
 
 $$\rho \propto V^{-6}$$
 
@@ -223,6 +227,8 @@ $$\frac{\delta}{R_n} \sim \frac{\rho_1}{\rho_2}$$
 
 a perfect gas holds its shock 25 millimetres off a 15 centimetre nose while a strongly dissociating one holds it at 8. **The shock sits closer to the body in the gas the X-17 did not produce**, which changes the boundary layer edge conditions and therefore the heating distribution away from the stagnation point, where most of the surface actually is. The rate at which the air ionises behind a shock was measured in [Lin 1961][research_lin_1961] and [Lin et al 1962][research_lin_1962], the equilibrium properties tabulated in [Viegas and Howe 1962][research_viegas_howe_1962], the transport properties in [Yun and Mason 1962][research_yun_mason_1962], and the effect on hypersonic flow fields analysed in [Hermann et al 1962][research_hermann_1962]. Stagnation heat transfer specifically in partially ionised air was measured in [Rose and Stankevics 1963][research_rose_stankevics_1963], and radiation from the hot gas in [Archer 1963][research_archer_1963] and [Page 1963][research_page_1963].
 
+**The properties of high-temperature air are the single largest supporting literature this article rests on**, because every quantity in the heating calculation depends on them and none of them is constant. Thermodynamic, transport, and reaction-rate properties, dissociation and ionisation equilibria, and the relaxation processes that decide whether equilibrium is reached at all run through [Hansen and Heims 1958][research_hansen_heims_1958], [Hansen 1959][research_hansen_1959], [Bachynski et al 1959][research_bachynski_1959], [Jahn and Grosse 1959][research_jahn_grosse_1959], [Bachynski et al 1960][research_bachynski_1960], [Gardner 1961][research_gardner_1961], [KVASHINA and KOROBEINIKOV 1961][research_kvashina_korobeinikov_1961], [Beckwith and Cohen 1963][research_beckwith_cohen_1963], [Li 1981][research_li_1981], [Jaffe 1986][research_jaffe_1986], [Kaul 1986][research_kaul_1986], [Zoby et al 1988][research_zoby_1988], [Scalabrin and Boyd 2005][research_scalabrin_boyd_2005], [Chazot et al 2008][research_chazot_2008], [Manning 2009][research_manning_2009], [Chen and Milos 2011][research_chen_milos_2011], [Kim et al 2020][research_kim_2020], [Surzhikov 2020, Numerical Analysis of Shock Layer][research_surzhikov_2020_2], [Pan et al 2021][research_pan_2021], [Freno et al 2021][research_freno_2021].
+
 ### Radiation, Which Is a Fourth Thing Missed and Was Not Mentioned
 
 Convective heating is not the only mechanism. The shock layer also radiates, and that contribution scales far more steeply with velocity,
@@ -234,6 +240,8 @@ against the square root and cube of convection. At equal density the velocity te
 $$\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7$$
 
 so **the X-17 sees roughly one part in 111 of the radiative heating an intercontinental re-entry produces.** Extending the same exponent, lunar return at 11 kilometres per second is 5,162 times the X-17's radiative environment, which is why radiation dominates there and is negligible here.
+
+Shock-layer radiation has its own measurement and modelling literature, developed largely because lunar return made it unavoidable, in [Coulson and Furukawa 1960][research_coulson_furukawa_1960], [Compton and Cooper 1964][research_compton_cooper_1964], [Davis 1964][research_davis_1964], [Moss and Kumar 1981][research_moss_kumar_1981], [GUPTA et al 1990][research_gupta_1990], [Tauber and Sutton 1991][research_tauber_sutton_1991], [Winter et al 2011][research_winter_2011], [Cruden 2011][research_cruden_2011], [Johnston et al 2012][research_johnston_2012], [Collen et al 2023][research_collen_2023], [McGilvray et al 2024][research_mcgilvray_2024], [Ravichandran et al 2025][research_ravichandran_2025].
 
 **The X-17's condition is purely convection-dominated and an intercontinental re-entry is beginning not to be.** That is a fourth respect in which the simulation is partial, and unlike the other three it is not a consequence of the density trade. It follows from velocity alone and is therefore unfixable by any choice of altitude.
 
@@ -311,6 +319,8 @@ Evaluated at the X-17's condition,
 | 0.15 | 1,398 | 1.00 |
 | 0.30 | 988 | 0.71 |
 
+The flow field that produces that scaling, namely a detached bow shock with a subsonic region behind it, was worked out over the same period and is the subject of [KANE 1951][research_kane_1951], [Sherman 1951][research_sherman_1951], [Stalder and Nielsen 1954][research_stalder_nielsen_1954], [LI and GEIGER 1957][research_li_geiger_1957], [Bird 1960][research_bird_1960], [Ashkenas and Wegener 1961][research_ashkenas_wegener_1961], [Aroesty 1963][research_aroesty_1963], [Dohnanyi 1964][research_dohnanyi_1964], [CHRUSCIEL and POOL 1983][research_chrusciel_pool_1983], [Singh and Tiwari 1990][research_singh_tiwari_1990], [Singh et al 1991][research_singh_1991], [Fiala and Hillier 2003][research_fiala_hillier_2003], [Josyula and Bailey 2009][research_josyula_bailey_2009], [Korzun et al 2013][research_korzun_2013], [Tang et al 2021][research_tang_2021], [Yang et al 2022][research_yang_2022].
+
 **A 2 centimetre nose takes 2.74 times the heat flux of a 15 centimetre one.** That is the first half of the blunt-body argument. The second half is that a blunt body decelerates higher, because ballistic coefficient sets penetration,
 
 $$\beta = \frac{m}{C_D A}$$
@@ -340,6 +350,8 @@ at an emissivity of 0.85. Against the most refractory materials there are,
 | Graphite sublimes | 3,900 | fails |
 | Hafnium carbide | 4,200 | survives, barely |
 
+Those figures are not casual. The high-temperature behaviour of refractory metals, carbides, ceramics, and the coatings that protect them is a developed field, and the emissivity that appears in the relation above is itself an engineered property, across [Moore et al 1948][research_moore_1948], [Cohen and Homer 1959][research_cohen_homer_1959], [Mathauser et al 1960][research_mathauser_1960], [Fiorello 1961][research_fiorello_1961], [Trout 1963][research_trout_1963], [Foyle 1963][research_foyle_1963], [Wheeler et al 1986][research_wheeler_1986], [Deininger and King 1988][research_deininger_king_1988], [Leiser et al 1992][research_leiser_1992], [Lee et al 1994][research_lee_1994], [Perepezko 2002][research_perepezko_2002], [Vasudevan and Leonard 2002][research_vasudevan_leonard_2002], [Perepezko 2006][research_perepezko_2006], [ZHOU et al 2025][research_zhou_2025].
+
 **Every material available in 1956 fails, including tungsten and graphite.** Only hafnium carbide exceeds the required temperature and only by 73 kelvin, and it was not a structural material. **Passive re-radiation is not an option at this flux**, which makes ablation mandatory rather than merely convenient. The answer is ablation, in which the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux. The energy balance is
 
 $$\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}$$
@@ -359,7 +371,7 @@ $$s = \frac{\dot{m} \tau}{2 \rho_m}$$
 
 giving 2.50 millimetres over the X-17's six seconds and 10.39 over a twenty-five second re-entry.
 
-The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
+The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. The subject grew from a screening exercise into a modelled one and the line of it is [Ellis 1959][research_ellis_1959], [HIDALGO 1960][research_hidalgo_1960], [Stoll 1961][research_stoll_1961], [Linder 1961][research_linder_1961], [Gunderson 1962][research_gunderson_1962], [Herman and Melnik 1962][research_herman_melnik_1962], [Compton et al 1963][research_compton_1963], [Kumar et al 1980][research_kumar_1980], [Green and Davy 1981][research_green_davy_1981], [LINCOLN 1981][research_lincoln_1981], [Park et al 1983][research_park_1983], [Park et al 1983, Ablation of carbonaceous materials][research_park_1983_2], [Lippitt et al 1983][research_lippitt_1983], [Liu et al 2002][research_liu_2002], [Korabelnikov and Kuranov 2002][research_korabelnikov_kuranov_2002], [Arepalli 2003][research_arepalli_2003], [Curry 2004][research_curry_2004], [Kerr 2006][research_kerr_2006], [Pekker and Cambier 2006][research_pekker_cambier_2006], [Feldman et al 2019][research_feldman_2019], [Paglia et al 2019][research_paglia_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Shi et al 2020][research_shi_2020], [Tang et al 2020][research_tang_2020]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
 
 There is a second and less obvious difference between a pulse and a soak. Heat diffuses into the material a distance
 
@@ -369,7 +381,9 @@ and for a phenolic ablator $\alpha = 1.43 \times 10^{-7}$ square metres per seco
 
 $$\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \text{mm}$$
 
-a ratio of 2.04, which is the square root of the time ratio. **The X-17's pulse heats half the depth an intercontinental re-entry does.** A material can therefore pass an X-17 test on its surface behaviour and still fail on what happens to the structure behind it, which is a failure mode the vehicle was structurally incapable of finding.
+a ratio of 2.04, which is the square root of the time ratio. Transient conduction into a heated structure, and the thermal stresses it produces, is the other half of the material problem and is treated across [Altman and Chang 1965][research_altman_chang_1965], [Tate 1969][research_tate_1969], [Moyer and Wool 1970][research_moyer_wool_1970], [Moyer and Wool 1970, Aerotherm Charring Material Therma][research_moyer_wool_1970_2], [Rathjen 1977][research_rathjen_1977], [Adelman 1979][research_adelman_1979], [Ko and Fields 1987][research_ko_fields_1987], [Milos and Chen 2010][research_milos_chen_2010], [Weng and Martin 2014][research_weng_martin_2014], [Weng and Martin 2015][research_weng_martin_2015], [Tatar 2020][research_tatar_2020], [Wang et al 2024][research_wang_2024].
+
+**The X-17's pulse heats half the depth an intercontinental re-entry does.** A material can therefore pass an X-17 test on its surface behaviour and still fail on what happens to the structure behind it, which is a failure mode the vehicle was structurally incapable of finding.
 
 **The X-17's contribution here is that it exposed real materials at full scale to a correct heat flux.** That is a screening capability, and it is exactly what the trade described above preserved.
 
@@ -381,19 +395,19 @@ $$\frac{T}{W} = \frac{48{,}000}{10{,}650} = 4.51$$
 
 which is high and appropriate for a vehicle that must clear the dense atmosphere quickly. The upper stages together develop 137,650 pounds force, or 612 kilonewtons, against a much smaller remaining mass, which is what supplies the 2,339 metres per second of downward velocity computed above.
 
-Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963].
+Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963]. Solid motor performance, grain and case design, nozzle erosion, and the staging problem generally are covered by [LAWRENCE 1945][research_lawrence_1945], [Matthews 1957][research_matthews_1957], [CAMPBELL 1962][research_campbell_1962], [KUBY 1964][research_kuby_1964], [PARKER and SUMMERFIELD 1964][research_parker_summerfield_1964], [HORTON 1964][research_horton_1964], [PRICE 1964][research_price_1964], [FONG 1964][research_fong_1964], [Perlmutter and DePierre 1965][research_perlmutter_depierre_1965], [DEMORE 1965][research_demore_1965], [Landers et al 1991][research_landers_1991], [Pamadi et al 2006][research_pamadi_2006], [Clayton 2017][research_clayton_2017], [Clayton 2017, Arc Jet Test and Analysis of Asbes][research_clayton_2017_2].
 
 ### Stability and the Attitude Problem
 
 A vehicle that coasts to apogee, tips over, and then fires has an attitude problem the flight-mechanics literature of the period addresses directly. The vehicle must be pointed correctly before the second stage lights, and any angle of attack at ignition is amplified by the burn.
 
-Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [WHEELON 1959][research_wheelon_1959].
+Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [WHEELON 1959][research_wheelon_1959]. The dynamics of a blunt body descending through an atmosphere, including the angle-of-attack oscillation that any imperfect release produces and the roll behaviour that couples into it, are treated in [Nix 1959][research_nix_1959], [SCHERMERHORN and DEMERITTE 1960][research_schermerhorn_demeritte_1960], [Prislin 1966][research_prislin_1966], [Price 1967][research_price_1967], [Platus 1967][research_platus_1967], [BARBERA 1981][research_barbera_1981], [MCDOWELL and WILLIAMSON 1982][research_mcdowell_williamson_1982], [Ivanov et al 2007][research_ivanov_2007], [Schoenenberger 2013][research_schoenenberger_2013], [Kazemba et al 2013][research_kazemba_2013], [Sevier et al 2016][research_sevier_2016], [Bharghava 2024][research_bharghava_2024]. **A vehicle that tips over and fires has an attitude error at ignition by construction**, and the literature above is what says how large it is allowed to be.
 
 ### Instrumentation, Which Is the Actual Product
 
 The vehicle exists to return numbers, and at these conditions returning numbers is difficult. Thermocouples must survive a surface that is being consumed, telemetry must work through a partially ionised layer, and the whole record must be transmitted before the article is destroyed.
 
-The free-flight heating measurement technique and its interpretation are the direct subject of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and a closely comparable free-flight heat transfer and ablation measurement on a blunted body appears in [Winters 1964][research_winters_1964]. Comparison of tunnel and flight data for an instrumented hypersonic rocket is in [Maydew 1964][research_maydew_1964].
+The free-flight heating measurement technique and its interpretation are the direct subject of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and a closely comparable free-flight heat transfer and ablation measurement on a blunted body appears in [Winters 1964][research_winters_1964]. Comparison of tunnel and flight data for an instrumented hypersonic rocket is in [Maydew 1964][research_maydew_1964]. The technique of measuring aerodynamic heating on a body in free flight, and of extracting a heat transfer coefficient from a temperature history, is its own discipline and runs through [Liddell et al 1947][research_liddell_1947], [Hamaker et al 1953][research_hamaker_1953], [Rogers and K. 1953][research_rogers_k_1953], [Charters et al 1955][research_charters_1955], [Compton et al 1960][research_compton_1960], [Reeves and Threlkeld 1963][research_reeves_threlkeld_1963], [Welton 1965][research_welton_1965], [Dayman 1965][research_dayman_1965], [Development 1984][research_development_1984], [Strawa et al 1990][research_strawa_1990], [Kidner 1993][research_kidner_1993], [Whitmore and Moes 1994][research_whitmore_moes_1994], [Guelhan et al 2012][research_guelhan_2012], [Hergert et al 2017][research_hergert_2017].
 
 ### Reynolds Number and Transition, Which the Low Altitude Gives Free
 
@@ -418,7 +432,7 @@ so the turbulent-to-laminar heating ratio grows as $Re^{0.3}$, and at the quoted
 
 $$\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70$$
 
-**A factor of 2.7 rests on where transition happens**, which is a first-order design question rather than a refinement. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [MASAKI and YAKURA 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965].
+**A factor of 2.7 rests on where transition happens**, which is a first-order design question rather than a refinement. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [MASAKI and YAKURA 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965]. **Transition is the least settled quantity in the whole calculation and has stayed that way**, across [TIFFORD 1945][research_tifford_1945], [Scherrer et al 1949][research_scherrer_1949], [Lee 1953][research_lee_1953], [Lange and Gieseler 1953][research_lange_gieseler_1953], [STETSON 1960][research_stetson_1960], [Adcock et al 1965][research_adcock_1965], [Adcock et al 1967][research_adcock_1967], [Finson et al 1980][research_finson_1980], [Reed and Abu-Mostafa 1982][research_reed_abu_mostafa_1982], [Ting et al 1986][research_ting_1986], [Reda 2001][research_reda_2001], [Maslov 2001][research_maslov_2001], [Kimmel 2003][research_kimmel_2003], [Ren et al 2019][research_ren_2019], [Patrick 2019][research_patrick_2019], [Miró and Pinna 2020][research_miro_pinna_2020].
 
 **This is the one respect in which the X-17's condition was arguably more severe than the flight it simulated**, because a real re-entry at high altitude has a lower Reynolds number and may stay laminar longer.
 
@@ -494,6 +508,14 @@ Consequently **every dimension, thrust, date, and performance figure here comes 
 
 What does hold the article up is the re-entry literature itself, which is large, public, and contemporaneous. The stagnation heating correlations, the blunt-body theory, the ablation screening programme, the high-temperature air properties, the shock-tube and ballistic-range work, and the free-flight measurement technique are all primary and none is about the X-17.
 
+### The Shape of the Reference Base
+
+Of 252 research references, **214 or 84.9 percent predate 2019**, which makes this a primary-source article by a wide margin. The distribution is 33 documents from before 1960, 94 from the 1960s and 1970s, 43 from the 1980s and 1990s, 44 from 2000 to 2018, and 38 from 2019 onward.
+
+**The pre-1960 material was nearly absent until it was looked for.** The first harvest used a 1985 cutoff on its period sweep, which let later work crowd out the contemporaneous literature, and the pool held only twenty records from before 1960 for a vehicle that flew in 1956. A second sweep with a 1960 cutoff took that to 157. **The documents the X-17's own engineers would have been reading are the most valuable primary material this article can have**, and they had to be asked for specifically.
+
+**Sixteen candidate references were rejected after being read rather than matched.** A title search for refractory returned furnace fillers, the mullitization of alumina raw material, silicon carbide power converters, and the near-infrared reflectance of rocks for asteroid science. A search for high temperature air returned a pneumatic air motor. A search for chemical kinetics returned the oxidation of n-butane and chemiluminescence in propane-butane flames. A search for heat flux returned microchannel heat sinks for electronics cooling. **The pattern is the one the previous article recorded, that a keyword diagnostic inside a field is useless outside it**, and the only method that catches it is reading the titles.
+
 ## Epistemic State
 
 **Historical fact.** A quarter-scale vehicle flew in May 1955 and the first full X-17 in April 1956, with 25 further flights to March 1957. The vehicle was a three-stage solid-propellant rocket using a Thiokol XM20 Sergeant first stage and Recruit upper stages. Hemispherical, cubic paraboloid, and blunt nose shapes were flown. The blunt shape was adopted for Atlas and Titan. The vehicle served as a Polaris flight test vehicle in 1957 and 1958 and boosted the three Operation Argus high-altitude nuclear tests in 1958. A flight on 24 April 1957 reached 9,000 miles per hour.
@@ -538,52 +560,258 @@ What it bought with that architecture was a partial simulation, and the partitio
 
 ### Research
 
+[research_adcock_1965]: https://ntrs.nasa.gov/citations/19650020242
+[research_adcock_1967]: https://ntrs.nasa.gov/citations/19670010557
+[research_adelman_1979]: https://ntrs.nasa.gov/citations/19800004187
+[research_allen_eggers_1953]: https://ntrs.nasa.gov/citations/20050019430
+[research_altman_chang_1965]: https://ntrs.nasa.gov/citations/19650025525
 [research_alunni_2019]: https://ntrs.nasa.gov/citations/20190026513
 [research_archer_1963]: https://doi.org/10.21236/ad0431737
+[research_arepalli_2003]: https://ntrs.nasa.gov/citations/20100042176
+[research_aroesty_1963]: https://ntrs.nasa.gov/citations/19630011721
+[research_ashkenas_wegener_1961]: https://ntrs.nasa.gov/citations/19630015283
+[research_bachynski_1959]: https://doi.org/10.1109/tap.1959.1144720
+[research_bachynski_1960]: https://doi.org/10.1109/jrproc.1960.287607
+[research_balakalyani_jagadeesh_2019]: https://doi.org/10.1016/j.measurement.2018.12.099
+[research_barbera_1981]: https://doi.org/10.2514/6.1981-290
+[research_beckwith_cohen_1963]: https://ntrs.nasa.gov/citations/19630029531
+[research_bharghava_2024]: https://doi.org/10.1016/j.ijheatfluidflow.2024.109413
+[research_bird_1960]: https://doi.org/10.2514/8.8718
+[research_bleakney_1949]: https://doi.org/10.1063/1.1741395
 [research_boyce_1963]: https://ntrs.nasa.gov/citations/19630006926
+[research_bradley_1981]: https://ntrs.nasa.gov/citations/19820030400
 [research_bua_1963]: https://doi.org/10.21236/ad0415435
+[research_campbell_1962]: https://doi.org/10.21236/ad0292258
 [research_chandel_2019]: https://ntrs.nasa.gov/citations/20180006681
 [research_chapman_1963]: https://ntrs.nasa.gov/citations/19630005427
+[research_charters_1955]: https://ntrs.nasa.gov/citations/19930093745
+[research_chazot_2008]: https://doi.org/10.2514/6.2008-1252
+[research_chen_milos_2011]: https://ntrs.nasa.gov/citations/20160000306
+[research_chrusciel_pool_1983]: https://doi.org/10.2514/6.1983-1424
+[research_clayton_2017]: https://ntrs.nasa.gov/citations/20170004465
+[research_clayton_2017_2]: https://ntrs.nasa.gov/citations/20170005378
+[research_clemente_ferrarella_2010]: https://doi.org/10.2514/6.2010-5067
+[research_cohen_homer_1959]: https://doi.org/10.1115/1.4008418
+[research_collen_2023]: https://doi.org/10.2514/1.t6693
+[research_compton_1960]: https://ntrs.nasa.gov/citations/19630010655
+[research_compton_1963]: https://ntrs.nasa.gov/citations/19630015360
+[research_compton_cooper_1964]: https://ntrs.nasa.gov/citations/19640032970
 [research_conti_1961]: https://ntrs.nasa.gov/citations/19980227274
+[research_coulson_furukawa_1960]: https://doi.org/10.21236/ad0251122
+[research_cresci_1960]: https://doi.org/10.2514/8.8571
+[research_cruden_2011]: https://doi.org/10.1063/1.3562792
+[research_curry_2004]: https://ntrs.nasa.gov/citations/20100042593
+[research_davis_1964]: https://doi.org/10.21236/ad0601998
 [research_dayman_1962]: https://ntrs.nasa.gov/citations/19620006382
+[research_dayman_1965]: https://ntrs.nasa.gov/citations/19650053701
+[research_deininger_king_1988]: https://ntrs.nasa.gov/citations/19880000287
+[research_demore_1965]: https://doi.org/10.2514/6.1965-183
+[research_desai_1999]: https://ntrs.nasa.gov/citations/19990087367
+[research_development_1984]: https://ntrs.nasa.gov/citations/19840026325
 [research_dickey_haacker_1963]: https://ntrs.nasa.gov/citations/19660024017
+[research_dohnanyi_1964]: https://ntrs.nasa.gov/citations/19650014698
 [research_eggers_1958]: https://ntrs.nasa.gov/citations/19930085175
+[research_eilertson_wing_1966]: https://ntrs.nasa.gov/citations/19660024689
+[research_ellis_1959]: https://doi.org/10.1017/s0022215100055857
+[research_emmons_1951]: https://doi.org/10.1090/qam/38773
+[research_feldman_2019]: https://ntrs.nasa.gov/citations/20190030273
+[research_fiala_hillier_2003]: https://doi.org/10.2514/6.2003-6965
+[research_filler_1960]: https://doi.org/10.21236/ad0243068
+[research_finson_1980]: https://doi.org/10.21236/ada082438
+[research_fiorello_1961]: https://doi.org/10.21236/ad0250741
+[research_fong_1964]: https://doi.org/10.2514/6.1964-125
+[research_foyle_1963]: https://ntrs.nasa.gov/citations/19630029160
+[research_freno_2021]: https://doi.org/10.1016/j.jcp.2020.109752
+[research_gai_1985]: https://doi.org/10.2514/6.1985-973
+[research_gardner_1961]: https://ntrs.nasa.gov/citations/19620001485
+[research_gildfind_2019]: https://doi.org/10.1007/s00193-019-00903-5
 [research_gokcen_alunni_2019]: https://ntrs.nasa.gov/citations/20190028252
+[research_gonzales_1981]: https://www.osti.gov/biblio/6625473
+[research_green_davy_1981]: https://ntrs.nasa.gov/citations/19810054678
+[research_greene_williamson_1981]: https://doi.org/10.2514/6.1981-168
+[research_guelhan_2012]: https://doi.org/10.2514/6.2012-5819
+[research_gunderson_1962]: https://ntrs.nasa.gov/citations/19700025116
+[research_gupta_1990]: https://doi.org/10.2514/6.1990-1697
+[research_hamaker_1953]: https://ntrs.nasa.gov/citations/19930090972
+[research_han_2020]: https://doi.org/10.1016/j.ast.2019.105673
+[research_hansen_1959]: https://ntrs.nasa.gov/citations/19980237039
+[research_hansen_heims_1958]: https://ntrs.nasa.gov/citations/19930085278
+[research_hanson_2000]: https://doi.org/10.21236/ada384344
 [research_harris_1963]: https://doi.org/10.21236/ad0402393
+[research_hergert_2017]: https://ntrs.nasa.gov/citations/20180006640
+[research_herman_melnik_1962]: https://doi.org/10.21236/ad0404197
 [research_hermann_1962]: https://ntrs.nasa.gov/citations/19620005896
+[research_hidalgo_1960]: https://doi.org/10.2514/8.5240
+[research_holden_2004]: https://doi.org/10.2514/6.2004-916
 [research_holway_prislin_1966]: https://ntrs.nasa.gov/citations/19660061364
+[research_horton_1964]: https://doi.org/10.2514/6.1964-133
+[research_ivanov_2007]: https://doi.org/10.2514/6.2007-4145
+[research_jaffe_1986]: https://ntrs.nasa.gov/citations/19860062230
+[research_jahn_grosse_1959]: https://doi.org/10.1063/1.1724420
 [research_jillie_hopkins_1961]: https://ntrs.nasa.gov/citations/19980227973
+[research_johnston_2012]: https://doi.org/10.2514/6.2012-2866
+[research_jonas_1953]: https://doi.org/10.4271/530236
+[research_josyula_bailey_2009]: https://doi.org/10.1007/978-3-540-85168-4_105
+[research_kane_1951]: https://doi.org/10.2514/8.1924
+[research_kaul_1986]: https://ntrs.nasa.gov/citations/19870040509
+[research_kazemba_2013]: https://ntrs.nasa.gov/citations/20140011217
+[research_kerr_2006]: https://ntrs.nasa.gov/citations/20060052411
+[research_kidner_1993]: https://doi.org/10.2172/10185958
+[research_kim_2020]: https://doi.org/10.1016/j.ijheatmasstransfer.2019.119059
+[research_kimmel_2003]: https://doi.org/10.2514/6.2003-772
 [research_kline_2019]: https://ntrs.nasa.gov/citations/20200002702
+[research_knight_quinn_1971]: https://doi.org/10.2514/6.1971-415
+[research_ko_fields_1987]: https://ntrs.nasa.gov/citations/19880001007
+[research_korabelnikov_kuranov_2002]: https://doi.org/10.2514/6.2002-913
+[research_korzun_2013]: https://ntrs.nasa.gov/citations/20140000600
 [research_kryvoruka_ashurst_1973]: https://doi.org/10.2514/6.1973-183
 [research_kuby_1962]: https://doi.org/10.21236/ad0282734
+[research_kuby_1964]: https://doi.org/10.2514/6.1964-158
+[research_kumar_1980]: https://ntrs.nasa.gov/citations/19800052239
+[research_kvashina_korobeinikov_1961]: https://doi.org/10.2514/8.5699
+[research_landers_1991]: https://ntrs.nasa.gov/citations/19910057071
+[research_lange_gieseler_1953]: https://doi.org/10.21236/ad0015004
+[research_lawrence_1945]: https://doi.org/10.2514/8.4056
+[research_lee_1953]: https://doi.org/10.21236/ad0018796
+[research_lee_1994]: https://ntrs.nasa.gov/citations/19950003738
+[research_lefevre_2022]: https://doi.org/10.2514/1.j061771
+[research_leiser_1992]: https://ntrs.nasa.gov/citations/19920000019
 [research_levine_1960]: https://ntrs.nasa.gov/citations/19980227768
 [research_levy_mc_devitt_1964]: https://ntrs.nasa.gov/citations/19650019778
+[research_li_1981]: https://ntrs.nasa.gov/citations/19820045478
+[research_li_geiger_1957]: https://doi.org/10.2514/8.3759
+[research_liddell_1947]: https://ntrs.nasa.gov/citations/20050081862
 [research_lin_1961]: https://doi.org/10.1016/0032-0633(61)90008-3
 [research_lin_1962]: https://doi.org/10.1063/1.1706575
+[research_lincoln_1981]: https://doi.org/10.2514/6.1981-1057
+[research_linder_1961]: https://doi.org/10.1016/0032-0633(61)90153-2
+[research_lippitt_1983]: https://doi.org/10.21236/ada130685
+[research_liu_2002]: https://doi.org/10.21236/ada403577
+[research_luce_jr_1949]: https://doi.org/10.21236/ada278113
+[research_lundquist_1952]: https://doi.org/10.1063/1.1702215
+[research_ma_2022]: https://doi.org/10.54097/fcis.v2i1.3343
+[research_mack_1954]: https://doi.org/10.21236/ad0032376
+[research_manjhi_kumar_2020]: https://doi.org/10.1016/j.measurement.2020.108221
+[research_manning_2009]: https://ntrs.nasa.gov/citations/20100000028
+[research_maples_1973]: https://doi.org/10.2172/4365695
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
+[research_maslov_2001]: https://doi.org/10.21236/ada408241
+[research_mathauser_1960]: https://ntrs.nasa.gov/citations/19980227836
+[research_matthews_1957]: https://doi.org/10.21236/ad0127419
 [research_maydew_1964]: https://doi.org/10.2172/4000106
+[research_mcdowell_williamson_1982]: https://doi.org/10.2514/6.1982-1376
+[research_mcgilvray_2024]: https://doi.org/10.2514/1.t6892
+[research_milos_chen_2010]: https://doi.org/10.2514/6.2010-4663
+[research_miro_pinna_2020]: https://doi.org/10.1017/jfm.2020.129
+[research_mizoguchi_2006]: https://doi.org/10.2514/6.2006-8068
+[research_moore_1948]: https://ntrs.nasa.gov/citations/19930082291
+[research_moss_kumar_1981]: https://ntrs.nasa.gov/citations/19810036320
+[research_moyer_wool_1970]: https://doi.org/10.21236/ad0875062
+[research_moyer_wool_1970_2]: https://doi.org/10.21236/ad0875392
 [research_murphy_rubesin_1965]: https://ntrs.nasa.gov/citations/19660010795
 [research_nardo_sadler_1962]: https://doi.org/10.21236/ad0273837
+[research_neice_1960]: https://doi.org/10.2514/8.8546
+[research_nix_1959]: https://ntrs.nasa.gov/citations/19630004882
+[research_nomura_1983]: https://doi.org/10.2514/3.8296
 [research_oguchi_1962]: https://doi.org/10.1016/b978-0-12-395595-1.50008-8
 [research_page_1963]: https://ntrs.nasa.gov/citations/19630015305
+[research_paglia_2019]: https://doi.org/10.1016/j.polymdegradstab.2019.108979
+[research_palmer_knox_1960]: https://doi.org/10.21236/ada952642
+[research_pamadi_2006]: https://ntrs.nasa.gov/citations/20060055387
+[research_pan_2021]: https://doi.org/10.1088/1742-6596/2012/1/012100
+[research_park_1983]: https://ntrs.nasa.gov/citations/19830015075
+[research_park_1983_2]: https://ntrs.nasa.gov/citations/19830051560
+[research_park_balakrishnan_1985]: https://doi.org/10.2514/3.8910
+[research_parker_summerfield_1964]: https://doi.org/10.2514/6.1964-126
+[research_patrick_2019]: https://doi.org/10.1063/10.0000281
+[research_pei_2021]: https://doi.org/10.1109/access.2021.3056517
+[research_pekker_cambier_2006]: https://doi.org/10.1615/ihtc13.p4.80
+[research_perepezko_2002]: https://doi.org/10.21236/ada409935
+[research_perepezko_2006]: https://doi.org/10.21236/ada442984
+[research_perlmutter_depierre_1965]: https://doi.org/10.21236/ad0612646
+[research_platus_1967]: https://doi.org/10.21236/ad0810587
 [research_platus_1980]: https://doi.org/10.21236/ada093741
+[research_price_1964]: https://doi.org/10.2514/6.1964-146
+[research_price_1967]: https://ntrs.nasa.gov/citations/19670064188
+[research_prislin_1966]: https://ntrs.nasa.gov/citations/19660053474
+[research_rathjen_1977]: https://ntrs.nasa.gov/citations/19780007492
+[research_ravichandran_2025]: https://doi.org/10.2514/1.a36225
+[research_reda_2001]: https://ntrs.nasa.gov/citations/20010066492
+[research_reed_abu_mostafa_1982]: https://ntrs.nasa.gov/citations/19820020703
+[research_reeves_threlkeld_1963]: https://ntrs.nasa.gov/citations/19650025713
+[research_ren_2019]: https://doi.org/10.1017/jfm.2019.756
 [research_roberts_1960]: https://ntrs.nasa.gov/citations/19980232223
+[research_rogers_k_1953]: https://doi.org/10.21236/ad0013358
 [research_rose_stankevics_1963]: https://doi.org/10.21236/ad0406269
 [research_sale_1964]: https://doi.org/10.21236/ad0609001
+[research_scalabrin_boyd_2005]: https://doi.org/10.2514/6.2005-5203
+[research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
+[research_schermerhorn_demeritte_1960]: https://doi.org/10.21236/ad0319088
+[research_scherrer_1949]: https://ntrs.nasa.gov/citations/19930085534
+[research_schoenenberger_2013]: https://ntrs.nasa.gov/citations/20130003227
+[research_seidman_1960]: https://doi.org/10.21236/ad0256185
+[research_sevier_2016]: https://ntrs.nasa.gov/citations/20170001578
+[research_sherman_1951]: https://doi.org/10.2514/8.2037
+[research_shi_2020]: https://doi.org/10.1016/j.compstruct.2020.112623
+[research_si_2019]: https://doi.org/10.1063/1.5098543
+[research_singh_1991]: https://ntrs.nasa.gov/citations/19910057633
+[research_singh_tiwari_1990]: https://ntrs.nasa.gov/citations/19900011634
+[research_speyer_womble_1971]: https://ntrs.nasa.gov/citations/19720026711
+[research_stalder_nielsen_1954]: https://ntrs.nasa.gov/citations/19930083996
+[research_stetson_1960]: https://doi.org/10.2514/8.8410
+[research_stoll_1961]: https://doi.org/10.21236/ad0259076
+[research_strawa_1990]: https://ntrs.nasa.gov/citations/20000021400
+[research_su_2021]: https://doi.org/10.1016/j.ast.2021.107200
+[research_sun_zhu_2019]: https://doi.org/10.1063/1.5083820
+[research_surzhikov_2020_2]: https://doi.org/10.1134/s001546282003012x
 [research_swann_south_1961]: https://ntrs.nasa.gov/citations/20040003877
 [research_swigart_1962]: https://doi.org/10.21236/ad0274612
+[research_takahashi_teshima_1985]: https://doi.org/10.1007/978-1-4613-2467-6_14
+[research_tang_2020]: https://doi.org/10.1016/j.apm.2020.02.010
+[research_tang_2021]: https://doi.org/10.1088/1742-6596/1748/5/052032
+[research_tashakkor_2011]: https://ntrs.nasa.gov/citations/20110014627
+[research_tatar_2020]: https://doi.org/10.1007/s13369-019-04211-z
+[research_tate_1969]: https://doi.org/10.21236/ad0696063
+[research_tauber_2012]: https://ntrs.nasa.gov/citations/20120001655
+[research_tauber_sutton_1991]: https://ntrs.nasa.gov/citations/19910048758
+[research_thornton_1981]: https://www.osti.gov/biblio/6611421
+[research_tifford_1945]: https://doi.org/10.2514/8.11230
+[research_ting_1986]: https://ntrs.nasa.gov/citations/19860055208
 [research_trimpi_1962]: https://ntrs.nasa.gov/citations/19630003230
+[research_trimpi_1962_2]: https://ntrs.nasa.gov/citations/20190002214
+[research_trout_1963]: https://ntrs.nasa.gov/citations/19630003222
+[research_vaglig_laurin_1960]: https://doi.org/10.2514/8.8369
+[research_vasudevan_leonard_2002]: https://doi.org/10.21236/ada403745
 [research_viegas_howe_1962]: https://ntrs.nasa.gov/citations/19620006838
+[research_vinh_lin_1982]: https://ntrs.nasa.gov/citations/19820019475
+[research_walker_wolowicz_1960]: https://ntrs.nasa.gov/citations/19650014459
 [research_walton_simmons_1962]: https://doi.org/10.21236/ad0286392
 [research_wang_2019]: https://ntrs.nasa.gov/citations/20190025824
+[research_wang_2024]: https://doi.org/10.1016/j.tsep.2023.102256
+[research_wang_jiang_2020]: https://doi.org/10.3390/s20216179
 [research_warmbrod_1963]: https://ntrs.nasa.gov/citations/19630005471
+[research_wegener_lobb_1952]: https://doi.org/10.21236/ad0012779
+[research_welton_1965]: https://ntrs.nasa.gov/citations/19650024803
+[research_weng_martin_2014]: https://doi.org/10.2514/6.2014-2121
+[research_weng_martin_2015]: https://doi.org/10.2514/1.t4576
+[research_wheeler_1986]: https://ntrs.nasa.gov/citations/19860000134
 [research_wheelon_1959]: https://doi.org/10.2514/8.4944
+[research_whitmore_moes_1994]: https://ntrs.nasa.gov/citations/19940032870
 [research_wilder_prabhu_2019]: https://ntrs.nasa.gov/citations/20190028253
+[research_winter_2011]: https://ntrs.nasa.gov/citations/20120011648
 [research_winter_2019]: https://ntrs.nasa.gov/citations/20190002714
 [research_winters_1964]: https://ntrs.nasa.gov/citations/19640017591
 [research_winters_bracalente_1961]: https://ntrs.nasa.gov/citations/20040008121
+[research_yang_1985]: https://doi.org/10.2514/6.1985-1679
+[research_yang_2022]: https://doi.org/10.1016/j.csite.2022.102085
 [research_yee_1961]: https://ntrs.nasa.gov/citations/20040047120
 [research_yun_mason_1962]: https://ntrs.nasa.gov/citations/19620005758
+[research_yungster_radhakrishnan_2001]: https://doi.org/10.1007/pl00004073
+[research_zhang_2010]: https://doi.org/10.1109/wcica.2010.5554588
+[research_zhao_zhou_2013]: https://doi.org/10.1016/j.cja.2013.10.009
+[research_zhou_2012]: https://doi.org/10.2514/6.2012-4709
+[research_zhou_2025]: https://doi.org/10.15541/jim20240317
+[research_zoby_1988]: https://ntrs.nasa.gov/citations/19880056529
 
 ### Related Post
 

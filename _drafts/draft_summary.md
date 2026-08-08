@@ -22,7 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_lockheed_x17.markdown`, A314, editorial date 2025-10-23, series `x_planes` index 18 of 72.
 
 461 lines, 27 display equations, 71 references, 5,266 words after the draft pass; **607 lines, 47
-display equations, 71 references, 6,937 words after the equation review.** Reference review pending.
+display equations, 71 references, 6,937 words after the equation review; **835 lines, 47 display
+equations, 277 references, 8,301 words after the primary-reference review.** References are inside the
+full-aircraft band. Publication review pending.
 
 **The second consecutive article whose subject has no archival record of its own.** NTRS returns
 astronomy false positives for the vehicle name and nothing technical, and DTIC holds the surrounding
@@ -58,6 +60,17 @@ altitude floor **no altitude exists at which the X-17 matches the heating rate a
 heating-rate match is therefore conditional on the class of body being simulated. It works for exactly
 the blunt first-generation re-entry vehicle the X-17 was built to test and would have failed for a
 dense slender one.
+
+**The primary-reference pass found a supply problem rather than a selection problem.** The pool held
+only twenty records from before 1960 for a vehicle that flew in 1956, because the first harvest's period
+sweep used a 1985 cutoff that let later material crowd out the contemporaneous literature. A second
+sweep with a 1960 cutoff took pre-1960 supply from 20 to 157. Of 252 research references, 214 or 84.9
+percent are primary and period material.
+
+**Sixteen candidates were rejected after being read rather than matched**, including furnace fillers and
+silicon carbide power converters for refractory, a pneumatic air motor for high temperature air, and
+microchannel heat sinks for heat flux. A second automated scan flagged seven more that all proved to be
+false positives of its own keyword list, which is worth recording as an asymmetry.
 
 **It also showed the vehicle reproduces a point and not a trajectory**, since peak deceleration and the
 velocity at peak heating are both independent of ballistic coefficient while the altitude at which they
