@@ -9,143 +9,107 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A311 draft pass, the first of four. **Committed, not pushed.** All fifteen articles in the
-series remain in `_drafts/`.
+**Task**: A311 equation-density review, the second of four passes. **Committed, not pushed.** All
+fifteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Bleed Price Was Measured Rather Than Estimated, and It Is the Article
+## The Pass Corrected a Claim This Series Has Been Carrying Since A310
 
-This is the most useful thing the draft found and it comes from inverting one sentence in a report
-about something else.
+This is the most consequential thing the review did and it deserves to come first, because the error
+was inherited rather than introduced.
 
-Attitude control on the X-14 came from compressor bleed, and the cost of bleed is normally estimated
-because separating it from every other installation effect requires flying the same engine with two
-different bleed schedules. **The X-14A programme did exactly that, for an unrelated reason.** The
-tip-turbine fan report states that the fans needed about half the bleed of the reaction controls for
-the same thrust, and that this let the engines produce four percent more thrust. If thrust with full
-bleed is $T_0(1-\beta)$ and with half bleed $T_0(1-\beta/2)$, then $(\beta/2)/(1-\beta) = 0.04$ and
+The draft said, following the previous article, that **position is the third integral of the pilot's
+control input** and that a hovering pilot closes a loop around a triple integrator. A310 reached that
+by reasoning that position is the double integral of attitude and **attitude is the integral of
+whatever the control does**. The second clause is the one that does not survive being written down.
 
-**beta = 0.08/1.08 = 7.41 percent, exactly.**
+A reaction nozzle produces a moment. A moment produces angular *acceleration*. So attitude is the
+**double** integral of control, and composing the two gives
 
-Set that against the hover margin rather than against the thrust and it stops being a small number.
-At the reported 3,700 pound test weight and 1.1 to 1.2 available thrust-to-weight ratio, the bleed
-cost 397 pounds and the margin before it would have been 767 to 1,137. **The attitude control system
-consumed between 34.9 and 51.8 percent of everything the aircraft could lift beyond its own weight.**
+**x(s)/u(s) = g CP / s⁴**
 
-Not payload. Not fuel. The ability to point.
+**Position is the fourth integral, not the third.**
 
----
+**The reconciliation is that the earlier description is the low-frequency case.** Restoring the rate
+term gives g CP / (s³(s + D/I)), which behaves as third order below the damping break frequency and
+fourth order above it. So **hovering is a third-order problem or a fourth-order one depending on how
+much damping the aircraft has**, and an aircraft with neither aerodynamic nor artificial damping is in
+the harder case.
 
-## Four Results the Sources Do Not State
+**This is not a quibble about counting.** A fourth-order plant demands two derivatives of lead from
+the pilot rather than one. That is the clearest available explanation of why the 1972 Ames simulator
+work found that **attitude stabilisation gives the best handling qualities for the least control
+power** — it does not merely help the pilot, it removes two orders from the plant being closed around.
 
-**The roll inertia, recovered from two reports that do not mention each other.** One states the
-maximum lateral control power tested at 2.0 rad/s2. The other states that the replacement wingtip
-fans were designed for 150 pounds of thrust. Together they give 3,333 kg m2 and a radius of gyration
-of **13.7 percent of span**, which is mid-band for an aircraft with its engines on the centreline and
-borrowed light-aircraft wings. That the recovered value lands where it should is the check. **The
-sharper inference is that the fans were specified at exactly the existing maximum authority and not
-above it**, which says bleed rather than control power was the binding constraint.
-
-**Control power falls inversely with span.** With tip nozzles, CP goes as $F b / (m b^2) = F/(mb)$,
-and a hovering aircraft has thrust proportional to mass, so at fixed bleed fraction **CP is
-proportional to 1/b**. Holding the criterion while doubling the size doubles the bleed. A jet-lift
-aircraft with a twenty percent thrust margin exhausts it near **28 metres of span**, and a Do 31 sized
-vehicle would need **3,542 pounds of thrust at each wingtip** to reach 2.0 rad/s2. That is a small jet
-engine on each wing purely to point the aircraft. **The type stopped growing where the arithmetic says
-it had to.**
-
-**The original X-14 could not hover at the weight the X-14A hovered at.** Sources give the Viper 8 as
-either 1,750 or 1,560 pounds of thrust each, and the article resolves neither because both give a
-thrust-to-weight ratio below unity at 3,700 pounds, at **0.946 and 0.843**. So the J85 re-engining was
-**not an upgrade to an aircraft that worked. It was the precondition for the research programme**,
-because a variable-stability aircraft must be able to give control power away to the experiment and
-still fly.
-
-**Gravity was not adjustable, and the mismatch is exactly 2.46.** Attitude dynamics contain no
-gravitational term so the X-14A reproduced a lunar module's attitude response exactly. Translation
-goes as $g \tan\theta$, so the lunar timescale is longer by $\sqrt{9.807/1.62} = 2.46$. Holding five
-degrees for five seconds moves 10.7 metres on Earth and 1.8 on the Moon. **It simulated the inner loop
-exactly and the outer loop 2.46 times too fast**, which is why the Lunar Landing Research Vehicle,
-a far more dangerous machine, had to be built.
+**The X-14A is the only aircraft in this series that could have demonstrated the distinction**, because
+it is the only one whose damping was a dial. The correction is recorded in the Epistemic State as a
+correction to the previous article rather than buried.
 
 ---
 
-## The Archive Has a Hole and the Article Says So
+## Four Further Results the Pass Produced
 
-**NASA TN D-1328, Rolls and Drinkwater 1962, is the origin of the criteria and could not be
-retrieved.** The NTRS record carries an abstract and no document, and the search endpoint returns it
-for no phrasing of its own title. It was found only through its citation in a later report.
+**An optimally flown hover correction splits its time exactly in half.** The stationarity condition
+solves to θ\* = ½√(CP·d/g), and substituting back makes the attitude term and the translation term
+equal. **Half the time changing attitude and half translating, whatever the control power and whatever
+the distance.**
 
-The article therefore takes every quantitative claim from the complete successor, TN D-2701, and The
-Source Base states this plainly rather than implying the origin was read.
+**The wind is a position problem, not an attitude problem**, which is the same conclusion the previous
+article reached for the X-13 by a different route on a differently shaped aircraft. A ten metre per
+second wind is 5.9 percent of maximum control power as a moment, but it demands a permanent 1.36
+degree tilt and costs 11.7 metres of drift in ten seconds uncorrected. **So the disturbance that sizes
+the control power is the gust and the manoeuvre, not the steady wind.**
 
-**One consequence is worth flagging because it nearly went the other way.** The first writing of the
-threshold section assigned plausible Cooper ratings to the three sampled control powers and
-interpolated a satisfactory boundary from them. **Those ratings are in no source.** The figure
-carrying them did not survive text extraction. Inventing them would have manufactured the article's
-headline number out of nothing, so they were removed and replaced by the argument that survives
-without them, which is about resolution: three points spaced 0.6 apart locate a threshold only to
-within **thirty to seventy-five percent of its own value**.
+**The overhead compounds, and now it is stated as a product.** Control takes 34.9 to 51.8 percent of
+the hover margin, and the disturbance allowance takes two fifths of what that bought. **Only 21 to 31
+percent of the margin reaches the pilot as manoeuvring authority.**
+
+**The pitch nozzle must be about forty percent stronger than the roll nozzle** for the same control
+power, because the moment arms differ and the X-14 is wider than it is long. And the J85-GE-19 bought
+about **590 pounds more lift** than the J85-GE-5, which is what set how much authority the later
+experiments could afford to give away — not the digital computer.
 
 ---
 
-## Defects Found
+## Two Defects in the New Spine, Both Caught by Running It
 
-**Two in the numerical spine, both caught by running it.** The repositioning analysis used
-$a = g\theta$ and searched tilt over a bounded interval whose upper bound it then reported as the
-optimum for every control power above 1.4, so the printed optimum was **the edge of the search
-range rather than a minimum**. Rewritten with $a = g\tan\theta$, a realistic cap, and a hover-scale
-correction distance. The corrected version yields a genuinely useful result, that control power has
-**sharply diminishing returns with an exponent of minus 0.26**, so two and a half times the authority
-buys only 21 percent less time.
+**The closed form for the optimum tilt was simply wrong.** I wrote it as (CP·d/4g)^(1/3), which misses
+the numeric optimum by six degrees. The correct form is ½√(CP·d/g), and printing the numeric and the
+closed form side by side is what exposed it. Had the numeric alone been reported the article would
+have been right by accident and the general relation wrong.
 
-**Three caught by reading and counting, all of which passed every automated check.** The phrase "in
-its own right" ended one paragraph and opened the next, because a later insertion landed behind a
-sentence that happened to end the same way. **The disturbance fraction and the radius-of-gyration
-fraction were both written as kappa**, a symbol collision inside one article. And a sentence promised
-four subsections where five stood.
+**The diverter section printed a hardcoded constant** where it claimed to sweep the deflection angle,
+so its whole table was meaningless. Replaced with the actual component relations.
+
+A pronoun for a generic pilot was also corrected to the neutral form.
 
 ---
 
 ## Verification
 
-**95 reference definitions, 81 external URLs, zero duplicates, zero orphans.** All 45 in-prose numbers
-re-derived independently and reproducing. `_verify.py` at the 0-error 21-warning corpus baseline from
-the repository root. Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose
-parentheticals, doubled words, duplicate headings, unbalanced emphasis markers, lone dollar-delimited
-lines, or adjacent display-math seams. Genre section order correct, with The Source Base immediately
-before the Epistemic State and the series extras ordered as in A310.
+**103 display equations, up from 51 across 22 edits, and nothing trimmed.** All 31 newly introduced
+numbers re-derived independently and reproducing, on top of the 45 from the draft pass. `_verify.py`
+at the 0-error 21-warning corpus baseline from the repository root. Zero contractions, em-dashes,
+en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate headings,
+unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math seams. Genre
+section order unchanged and correct.
 
-**The bundle was installed for the first time**, into a repo-local `vendor/bundle` that was already
-gitignored. The isolated build therefore now runs the real CI toolchain including `jekyll-archives`
-rather than a Gemfile-free approximation. It succeeds with **51 rendered display blocks matching the
-source count exactly**, Part 15 navigation, no unresolved reference links, and no surviving Liquid
-tags.
-
----
-
-## Draft State
-
-**854 lines, 51 display equations, 95 references of which 72 research, 13,322 body words.**
-
-All three densities approach their bands from below, at 854 against a 1300 floor, 51 against 90, and
-95 against 250. **Reported rather than padded.** Contemporary references are 10 of 72 dated, or 13.9
-percent, which is the publication review's task.
-
-The draft sits above A310's 810 and well above A308's 678, which is deliberate under the rule that
-the gap a draft leaves is the gap the passes must close.
+Isolated build succeeding with **103 rendered display blocks matching the source count exactly**, Part
+15 navigation, no unresolved reference links and no surviving Liquid tags.
 
 ---
 
 ## State
 
-**Committed, not pushed**, per the draft-pass convention. Nothing in this series is published.
-**The publication-order dependency is now fifteen deep**, A311 back to A297.
+**1088 lines, 103 display equations, 95 references, 15,001 body words.**
 
-**Categories remain undecided** at `aerospace history engineering`, now fifteen articles deep and
-raised nineteen times.
+**Equations are inside the 90 to 130 band.** Lines at 1088 against a 1300 floor and references at 95
+against a 250 floor both still approach from below, which the remaining two passes close.
 
-A312 is the North American X-15, and the risk is the reverse of the usual one. **The record is large
-enough that the article could become a summary rather than an analysis.** The keystone will have to
-be chosen and defended rather than discovered, and the A311 harvest will not help.
+**Committed, not pushed.** Nothing in this series is published. The publication-order dependency is
+fifteen deep, A311 back to A297. **Categories remain undecided** at `aerospace history engineering`,
+fifteen articles deep and raised nineteen times.
+
+The next pass is the primary-reference review. The A311 harvest and the combined A310 master hold 2,419
+entries, of which 72 are cited, so the material is there.

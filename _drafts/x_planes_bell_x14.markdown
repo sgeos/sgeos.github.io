@@ -27,7 +27,11 @@ Every article in this series so far has been about an aircraft built to go somew
 
 ### Why This Could Not Be Calculated
 
-A designer in 1955 laying out a vertical take-off aeroplane had to choose the size of its attitude control system, and there was nothing to choose it from. The physics gives an inequality but not a threshold. The aircraft must be able to arrest any disturbance it will meet, which sets a floor, and it must not spend so much of its propulsion on control that it cannot lift anything, which sets a ceiling. **Between those two bounds, over more than an order of magnitude, the answer depends on whether a human being can fly it.**
+A designer in 1955 laying out a vertical take-off aeroplane had to choose the size of its attitude control system, and there was nothing to choose it from. The physics gives an inequality but not a threshold. The aircraft must be able to arrest any disturbance it will meet, which sets a floor, and it must not spend so much of its propulsion on control that it cannot lift anything, which sets a ceiling. Writing the control power as CP, the worst disturbance the vehicle must overpower as $\ddot{\theta}_{d}$, and the thrust the control system may consume as a fraction $\beta$ of the whole,
+
+$$\ddot{\theta}_{d} \;<\; \text{CP} \;<\; \text{CP}\big(\beta_{\max}\big), \qquad \beta_{\max} = \frac{T - W}{T}$$
+
+where the upper bound is whatever control power the remaining thrust margin can buy. **Between those two bounds, over more than an order of magnitude, the answer depends on whether a human being can fly it.**
 
 That is not a rhetorical difficulty. It is a structural one. The quantity being sought is a property of a closed loop containing a person, and the person's transfer characteristics are not derivable from the airframe. [Anderson 1960][research_anderson_1960] surveys the state of handling-qualities criteria for vertical take-off aircraft at exactly this moment and finds the criteria absent rather than merely uncertain. [Tapscott 1960, Criteria for primary handling qual][research_tapscott_1960_2] attempts to state them and is explicit that the supporting data are thin.
 
@@ -99,7 +103,21 @@ $$\text{CP} = \frac{M_{\text{control}}}{I}$$
 
 where $M_{\text{control}}$ is the maximum moment the control system can generate about an axis and $I$ is the moment of inertia about that axis. The units are radians per second squared. [Greif et al 1972][research_greif_1972] defines it in exactly these terms, as control moment divided by moment of inertia.
 
+For a pair of nozzles acting differentially at a distance $\ell$ either side of the centre of mass, the moment is
+
+$$M_{\text{control}} = 2 F \ell$$
+
+so the control power delivered by a given nozzle thrust is
+
+$$\text{CP} = \frac{2 F \ell}{I}$$
+
 **This normalisation is the reason the X-14's results transfer to other aircraft at all.** A moment expressed in newton metres is a fact about one airframe. The same moment divided by that airframe's inertia is a statement about how quickly attitude responds, and a pilot flying two different aircraft with the same control power and the same damping is, to a first approximation, flying the same aircraft. The criterion is stated in radians per second squared precisely so that it can be carried from the vehicle that measured it to vehicles that did not.
+
+The claim being made is that the pair of numbers is sufficient. Two aircraft whose attitude dynamics satisfy
+
+$$\ddot{\theta}_{1} = \text{CP} \, u - \frac{D}{I}\dot{\theta}_{1}, \qquad \ddot{\theta}_{2} = \text{CP} \, u - \frac{D}{I}\dot{\theta}_{2}$$
+
+with the same CP and the same $D/I$ produce identical attitude histories for identical inputs, whatever their masses, spans, or nozzle arrangements. **The whole transferability of the criterion rests on that statement and on nothing else**, and the places where it fails are the subject of a later section.
 
 ### The Second Variable Is Damping
 
@@ -115,11 +133,41 @@ $$\ddot{\theta} = \text{CP} \, u - \frac{D}{I} \dot{\theta}$$
 
 where $u$ is the normalised control input between minus one and one and $D/I$ has units of inverse seconds. **The pair of numbers CP and $D/I$ specifies the attitude response**, and the X-14A's experimental programme was a sweep over that pair.
 
-The steady rate reached at full control is the ratio of the two,
+Transforming gives the attitude response to control as
+
+$$\frac{\theta(s)}{u(s)} = \frac{\text{CP}}{s\left(s + \dfrac{D}{I}\right)}$$
+
+which has a pole at the origin and a second at the damping value, so the system carries a characteristic time
+
+$$\tau = \frac{I}{D} = \left(\frac{D}{I}\right)^{-1}$$
+
+The two dampings the X-14A actually flew, 0.45 and 0.59 per second, correspond to
+
+$$\tau = \frac{1}{0.45} = 2.22 \text{ s}, \qquad \tau = \frac{1}{0.59} = 1.69 \text{ s}$$
+
+The angular rate following a step of full control approaches its limit exponentially,
+
+$$\dot{\theta}(t) = \frac{\text{CP}}{D/I}\left(1 - e^{-t/\tau}\right)$$
+
+and the steady rate reached at full control is the ratio of the two,
 
 $$\dot{\theta}_{\text{max}} = \frac{\text{CP}}{D/I}$$
 
-which is worth noting because it means the two parameters cannot be varied entirely independently in their effect on what the pilot sees. Raising the damping at fixed control power lowers the achievable rate.
+which is worth noting because it means the two parameters cannot be varied entirely independently in their effect on what the pilot sees. Raising the damping at fixed control power lowers the achievable rate. At the maximum control power the two flown dampings give
+
+$$\frac{2.0}{0.45} = 4.44 \text{ rad/s}, \qquad \frac{2.0}{0.59} = 3.39 \text{ rad/s}$$
+
+or 255 and 194 degrees per second, both far beyond anything a hovering pilot would use, which is the first hint that the damping mattered through the transient rather than through the steady state.
+
+**With no damping at all the attitude is a pure double integrator**,
+
+$$\ddot{\theta} = \text{CP} \, u \quad \Longrightarrow \quad \theta(t) = \tfrac{1}{2}\,\text{CP}\, t^{2}$$
+
+so a second of full control at 2.0 radians per second squared banks the aircraft through
+
+$$\tfrac{1}{2} \times 2.0 \times 1^{2} = 1.0 \text{ rad} = 57.3 \text{ degrees}$$
+
+**This is the condition a hovering jet-lift aircraft is in unless something synthesises damping for it**, and it is worth holding on to, because it decides the order of the loop the pilot is closing.
 
 ### What the Control Power Was Bought With
 
@@ -133,7 +181,23 @@ and for a choked convergent nozzle supplied at total temperature $T_{0}$ the exi
 
 $$v_{e} = \sqrt{\frac{2 \gamma}{\gamma + 1} R T_{0}}$$
 
-so that hotter bleed gives more thrust per unit of mass flow. That is the whole design freedom, and it is not much of one, because the bleed temperature is whatever the compressor stage delivers.
+so that hotter bleed gives more thrust per unit of mass flow. The mass flow itself, for a choked convergent nozzle of throat area $A$ supplied at total pressure $p_{0}$, is
+
+$$\dot{m} = A \, p_{0} \sqrt{\frac{\gamma}{R T_{0}}} \left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
+
+and the thrust per unit mass flow, which is the figure of merit for the whole arrangement, is just the exit velocity,
+
+$$\frac{F}{\dot{m}} = v_{e}$$
+
+That is the whole design freedom, and it is not much of one, because the bleed temperature is whatever the compressor stage delivers. At a representative compressor delivery temperature of 500 kelvin the exit velocity is
+
+$$v_{e} = \sqrt{\frac{2 \times 1.4}{2.4} \times 287 \times 500} = 409 \text{ m/s}$$
+
+so producing the 150 pounds of thrust the wingtip station needed requires
+
+$$\dot{m} = \frac{667}{409} = 1.63 \text{ kg/s}$$
+
+**A J85 passes roughly twenty kilogrammes per second, so one wingtip station at full deflection is asking for something like four percent of one engine's entire airflow.** That is an order-of-magnitude figure rather than a measurement, and it is offered only because it lands in the same region as the bleed penalty measured below, which is the point of computing it.
 
 **The important point is not how the nozzle works but where the mass flow comes from.** It comes out of the engine, and the engine was going to use it to make lift.
 
@@ -143,11 +207,19 @@ The cost of bleed is usually estimated rather than measured, because separating 
 
 [Gerdes and Rolls 1969][research_gerdes_rolls_1969] reports flight tests of tip-turbine-driven fans fitted at the wingtips as an alternative lateral control effector. The fans were rejected, for reasons taken up later in this article, but the report states that they required about half the bleed air of the reaction controls for the same thrust, and that this permitted the engines to produce four percent more thrust.
 
-That single sentence can be inverted. If the thrust with full bleed is $T_{0}(1 - \beta)$ and the thrust with half the bleed is $T_{0}(1 - \beta/2)$, then the fractional gain observed is
+That single sentence can be inverted. The thrust delivered when a fraction $\beta$ of the flow is diverted is
+
+$$T = T_{0}\,(1 - \beta)$$
+
+If the thrust with full bleed is $T_{0}(1 - \beta)$ and the thrust with half the bleed is $T_{0}(1 - \beta/2)$, then the fractional gain observed is
 
 $$\frac{\beta / 2}{1 - \beta} = 0.04$$
 
-which rearranges to
+For a general observed gain $\delta$ on halving the bleed this rearranges to
+
+$$\beta = \frac{2\delta}{1 + 2\delta}$$
+
+and substituting the reported four percent,
 
 $$\beta = \frac{2 \times 0.04}{1 + 2 \times 0.04} = 0.0741$$
 
@@ -155,13 +227,25 @@ $$\beta = \frac{2 \times 0.04}{1 + 2 \times 0.04} = 0.0741$$
 
 ### What Seven Percent Costs a Hovering Aircraft
 
-Seven percent of thrust sounds small. For a hovering aircraft it is not, and the reason is that a hovering aircraft's useful output is not its thrust but the difference between its thrust and its weight.
+Seven percent of thrust sounds small. For a hovering aircraft it is not, and the reason is that a hovering aircraft's useful output is not its thrust but the difference between its thrust and its weight,
+
+$$\Delta T = T - W$$
+
+which for a machine with a thrust-to-weight ratio near unity is a small difference of two large numbers and is therefore extremely sensitive to any deduction from either.
 
 During the lateral control experiments the X-14A weighed 3,700 pounds and had a thrust-to-weight ratio available of 1.1 to 1.2, which [Drinkwater et al 1965][research_drinkwater_1965] states directly. Its two General Electric J85-GE-5 engines were rated at 2,680 pounds of thrust each, or 5,360 pounds together, so the uninstalled thrust-to-weight ratio was
 
 $$\frac{T_{\text{uninstalled}}}{W} = \frac{5{,}360}{3{,}700} = 1.449$$
 
-against an available 1.1 to 1.2. **The installation therefore lost between 17.2 and 24.1 percent of the engines' rated thrust**, and the bleed for the attitude controls is one part of that loss.
+against an available 1.1 to 1.2. Defining the installation efficiency as the ratio of what the aircraft got to what the engines were rated at,
+
+$$\eta_{\text{inst}} = \frac{T_{\text{available}}}{T_{\text{uninstalled}}}$$
+
+the two reported bounds give
+
+$$\eta_{\text{inst}} = \frac{1.1 \times 3{,}700}{5{,}360} = 0.759, \qquad \frac{1.2 \times 3{,}700}{5{,}360} = 0.828$$
+
+**The installation therefore lost between 17.2 and 24.1 percent of the engines' rated thrust**, and the bleed for the attitude controls is one part of that loss.
 
 Now take the margin. At a thrust-to-weight ratio of 1.2 the aircraft can lift 740 pounds beyond its own weight. The bleed costs
 
@@ -170,6 +254,12 @@ $$0.0741 \times 5{,}360 = 397 \text{ pounds of thrust}$$
 so without it the margin would have been 1,137 pounds. **The attitude control system consumed 34.9 percent of the aircraft's hover margin.** At a thrust-to-weight ratio of 1.1 the margin after bleed is 370 pounds, the margin before bleed would have been 767, and the control system consumed 51.8 percent of it.
 
 $$\frac{397}{767} = 0.518, \qquad \frac{397}{1{,}137} = 0.349$$
+
+The general form is worth having, because it is the relation a designer would use rather than the two numbers. If the control system takes a fraction $\beta$ of the uninstalled thrust and the aircraft is left with a thrust-to-weight ratio $r$, the share of the pre-bleed margin that the control system consumed is
+
+$$\Phi = \frac{\beta \, T_{0}}{(r - 1) W + \beta \, T_{0}}$$
+
+**The denominator contains $r - 1$, and that is the whole problem.** As the thrust-to-weight ratio approaches unity the margin vanishes while the bleed does not, so $\Phi$ approaches one and the control system consumes everything.
 
 This is the central result of the article's sizing analysis and it deserves stating plainly. **Between a third and a half of everything the X-14A could lift beyond its own weight was spent on being controllable.** Not on payload, not on fuel, not on range. On the ability to point.
 
@@ -180,6 +270,32 @@ This is the central result of the article's sizing analysis and it deserves stat
 The analysis so far gives the price of control power. It does not say how much is needed, and the lower bound comes from a different place, which is that the aircraft must be able to overpower whatever is trying to upset it.
 
 A hovering aircraft in a wind experiences a moment it did not ask for. The control system must be able to cancel that moment and still have authority left over for the pilot to manoeuvre with, so the requirement is not that control power exceed the disturbance but that it exceed it by enough.
+
+It is worth asking how large that moment actually was, because the answer is not what the framing suggests. A steady wind of speed $V_{w}$ acting on a side area $S_{s}$ produces a force
+
+$$F_{w} = \tfrac{1}{2}\rho V_{w}^{2} S_{s} C_{D}$$
+
+and at ten metres per second on a representative eight square metres at a drag coefficient of 0.8 that is
+
+$$F_{w} = \tfrac{1}{2} \times 1.225 \times 100 \times 8 \times 0.8 = 392 \text{ N}$$
+
+As an attitude disturbance this is trivial. Acting through an offset of a metre it produces
+
+$$\frac{392 \times 1.0}{3{,}333} = 0.118 \text{ rad/s}^{2}$$
+
+which is 5.9 percent of the maximum control power. As a translational disturbance it is not trivial at all. The same force accelerates the aircraft at
+
+$$a_{w} = \frac{392}{1{,}678} = 0.234 \text{ m/s}^{2}$$
+
+and holding station against it requires a permanent tilt into wind of
+
+$$\theta_{\text{trim}} = \arctan\frac{a_{w}}{g} = \arctan\frac{0.234}{9.807} = 1.36^{\circ}$$
+
+while leaving it uncorrected for ten seconds costs
+
+$$\tfrac{1}{2} \times 0.234 \times 100 = 11.7 \text{ m}$$
+
+**The wind is a position problem and not an attitude problem**, which is the same conclusion the previous article reached for the [X-13][related_post_a310_ryan_x13] by a different route and on a differently shaped aircraft. The disturbance that sizes the control power is therefore the gust and the manoeuvre rather than the steady wind, which is what the experimental ratio below actually encodes.
 
 The field settled on a working ratio and it can be read off the experimental design. [Greif et al 1972][research_greif_1972] held peak disturbance strength at 0.32 radians per second squared against a maximum roll control power of 0.8, and states the ratio explicitly as four tenths of the maximum. Writing the disturbance as a fraction $\sigma$ of the available control power,
 
@@ -193,7 +309,15 @@ $$\text{CP}_{\text{pilot}} = (1 - \sigma) \, \text{CP}$$
 
 $$0.6 \times 2.0 = 1.2, \qquad 0.6 \times 0.8 = 0.48$$
 
-This compounds with the bleed cost in an unpleasant way. The aircraft surrenders a third to a half of its hover margin to buy control power, and then surrenders two fifths of the control power it bought to the wind. **The fraction of the engine's output that ends up available to the pilot for manoeuvring is small, and it is small through two independent multiplications rather than one.**
+This compounds with the bleed cost in an unpleasant way. The aircraft surrenders a third to a half of its hover margin to buy control power, and then surrenders two fifths of the control power it bought to the disturbance. The two fractions multiply,
+
+$$\Phi \times (1 - \sigma)$$
+
+giving, at the two reported thrust-to-weight ratios,
+
+$$0.518 \times 0.6 = 0.311, \qquad 0.349 \times 0.6 = 0.210$$
+
+**So between 21 and 31 percent of the aircraft's entire hover margin ends up as manoeuvring authority in the pilot's hands, and the rest is overhead.** It is small through two independent multiplications rather than one.
 
 ### The Roll Inertia, Recovered From Two Reports
 
@@ -215,7 +339,13 @@ The corresponding radius of gyration, at a test mass of 1,678 kilogrammes, is
 
 $$k_{x} = \sqrt{\frac{I_{x}}{m}} = \sqrt{\frac{3{,}333}{1{,}678}} = 1.409 \text{ m}$$
 
-which is 13.7 percent of the span.
+or, as the ratio that makes it checkable,
+
+$$\frac{k_{x}}{b} = \frac{1.409}{10.300} = 0.137$$
+
+which is 13.7 percent of the span. The recovery in general form is
+
+$$I_{x} = \frac{2 F \ell}{\text{CP}_{\max}}, \qquad \frac{k_{x}}{b} = \frac{1}{b}\sqrt{\frac{2 F \ell}{m \, \text{CP}_{\max}}}$$
 
 **That number is the check.** A roll radius of gyration between roughly ten and sixteen percent of span is what an aircraft with its heavy items on the centreline and light wings should have, and the X-14 had two engines side by side at the centre of mass and borrowed light-aircraft wings. The recovered value lands in the middle of the expected band. The recovery is therefore consistent, and the more interesting inference is the one that follows from the fan sizing rather than from the inertia.
 
@@ -237,7 +367,15 @@ so the control power is
 
 $$\text{CP} = \frac{M}{I_{x}} \propto \frac{F b}{m b^{2}} = \frac{F}{m b}$$
 
-A hovering aircraft has thrust proportional to weight and therefore to mass, and at a fixed bleed fraction the reaction force is proportional to thrust, so $F \propto m$ and
+A hovering aircraft has thrust proportional to weight and therefore to mass,
+
+$$T \approx W = m g \quad \Longrightarrow \quad T \propto m$$
+
+and at a fixed bleed fraction the reaction force is proportional to thrust,
+
+$$F = \beta \, T \propto \beta \, m g$$
+
+so $F \propto m$ and
 
 $$\text{CP} \propto \frac{1}{b}$$
 
@@ -305,11 +443,31 @@ and combining that with the bleed gives the thrust actually available for liftin
 
 $$T_{\text{lift}} = \eta \, (1 - \beta) \, T$$
 
+During the transition the diverter sits at intermediate angles, and the thrust splits into components. At a deflection $\delta$ measured from the vertical,
+
+$$T_{v} = \eta \, T \cos\delta, \qquad T_{h} = \eta \, T \sin\delta$$
+
+so the vertical component the aircraft still needs to support itself and the horizontal component that accelerates it are not independent,
+
+$$\left(\frac{T_{v}}{\eta T}\right)^{2} + \left(\frac{T_{h}}{\eta T}\right)^{2} = 1$$
+
+**The aircraft cannot accelerate forward without giving up lift**, which is why the transition has to be flown as a trajectory rather than as a switch, and why a thrust-to-weight ratio comfortably above one is needed to fly it at all.
+
 At a turning efficiency of 0.95 and the measured bleed fraction, the J85-GE-5 installation yields
 
 $$\frac{T_{\text{lift}}}{W} = 0.95 \times 0.9259 \times \frac{5{,}360}{3{,}700} = 1.274$$
 
 against a reported available ratio of 1.1 to 1.2. **The two agree to within about six to fifteen percent**, and the residual is what one would expect from inlet losses, ambient conditions, and the accessory loads not accounted for here. That the simple product of two efficiencies lands this close to the reported figure is a check that the bleed fraction inverted from the fan report is of the right size.
+
+The same arithmetic applied to the later engines shows what the second re-engining bought. The J85-GE-19 installation gives an uninstalled ratio of
+
+$$\frac{6{,}030}{3{,}700} = 1.630$$
+
+and after the same two deductions
+
+$$0.95 \times 0.9259 \times \frac{6{,}030}{3{,}700} = 1.434$$
+
+**The X-14B could therefore afford roughly 0.16 more in thrust-to-weight ratio than the X-14A**, which at a constant weight is about 590 pounds of additional lift, and it is that margin rather than the digital computer that set how much authority the later experiments could give away.
 
 [Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4] reports the powerplant experience from the X-14A flight test programme directly, and is the primary source on how the installation actually behaved.
 
@@ -323,7 +481,15 @@ Operating close to the ground adds effects that were treated as disqualifying fo
 
 The reaction controls were the aircraft's only means of attitude control in a hover and they were the experimental variable. Nozzles at the wingtips supplied roll, and nozzles at the tail supplied pitch and yaw.
 
-The moment arms differ substantially between axes, which means the axes are not equally cheap. Roll acts through the semi-span, about 5.0 metres. Pitch and yaw act through the distance from the centre of mass to the tail, which on an aircraft 7.92 metres long is roughly 4 metres at best and probably less. For a given nozzle thrust the roll moment is therefore the larger, but the roll inertia is also the larger, and which axis is cheapest in control power depends on the ratio.
+The moment arms differ substantially between axes, which means the axes are not equally cheap. Roll acts through the semi-span, about 5.0 metres. Pitch and yaw act through the distance from the centre of mass to the tail, which on an aircraft 7.92 metres long is roughly 3.6 metres,
+
+$$\frac{\ell_{\text{roll}}}{\ell_{\text{pitch}}} = \frac{4.995}{3.564} = 1.40$$
+
+For a given nozzle thrust the roll moment is therefore the larger, but the roll inertia is also the larger, and which axis is cheapest in control power depends on the product of the two ratios,
+
+$$\frac{F_{\text{pitch}}}{F_{\text{roll}}} = \frac{I_{y}}{I_{x}} \times \frac{\ell_{\text{roll}}}{\ell_{\text{pitch}}}$$
+
+At equal inertias this is 1.40, so **the pitch nozzle must be about forty percent stronger than the roll nozzle for the same control power**, which is a consequence of the aircraft being wider than it is long.
 
 Taking the recovered roll inertia and assuming pitch inertia of similar magnitude, since the aircraft's length and span are comparable, the tip force required to produce each of the tested control powers follows from
 
@@ -351,13 +517,29 @@ $$p_{\text{exhaust}} = \frac{\text{CP}_{\text{total}}}{D/I}$$
 
 which is 194 degrees per second at the lower damping and 76 degrees per second at the higher.
 
+The fraction left is more useful than the difference,
+
+$$\frac{\text{CP}_{\text{pilot}}}{\text{CP}_{\text{total}}} = 1 - \frac{(D/I)\,p}{\text{CP}_{\text{total}}}$$
+
+and inverting it gives the constraint the experimenter actually faced. Reserving a fraction $\lambda$ of the authority for the pilot caps the damping that can be synthesised at a working roll rate,
+
+$$\left(\frac{D}{I}\right)_{\max} = \frac{(1 - \lambda)\,\text{CP}_{\text{total}}}{p}$$
+
+Reserving half the authority at thirty degrees per second caps it at
+
+$$\frac{0.5 \times 2.0}{0.5236} = 1.91 \text{ per second}$$
+
+**The instrument could not simultaneously offer high damping and high control power, and the ceiling on the product is set by the nozzles rather than by the electronics.**
+
 **This explains a sentence in the source that would otherwise read as modesty.** [Drinkwater et al 1965][research_drinkwater_1965] says the tested conditions covered, to the ability of the X-14A, a high, medium, and low control power for each of a high, medium, and low damping. The qualifier is not politeness. The high-damping and high-control-power corner of the experimental grid is the corner where the two demands on the nozzles add, and the aircraft could not reach all of it. **The instrument's own authority limit truncated its experimental space**, and it truncated it precisely in the region where a designer most wanted an answer.
 
 ### The Position Loop the Pilot Actually Closed
 
 The variable being measured was attitude authority, and the task the pilots were rated on was holding a position. Those are not the same thing, and the relation between them is what makes hovering hard.
 
-The previous article established the structure for the [X-13][related_post_a310_ryan_x13] and it holds here unchanged. A hovering aircraft has no aerodynamic restoring moment, so attitude is a double integrator driven by control,
+The previous article established the structure for the [X-13][related_post_a310_ryan_x13], and writing it as a transfer function rather than as a chain of integrals shows it needs one correction and gains a result the X-14 is uniquely placed to supply.
+
+A hovering aircraft has no aerodynamic restoring moment, so with the damping set to zero attitude is a double integrator driven by control,
 
 $$\ddot{\theta} = \text{CP} \, u$$
 
@@ -365,7 +547,25 @@ and horizontal position is driven by attitude,
 
 $$\ddot{x} = g \tan\theta \approx g \theta$$
 
-so that position is the third integral of the pilot's control input. **A pilot hovering an aircraft is closing a loop around a triple integrator by hand**, and there is no configuration of nozzle sizes that changes this. It is a property of hovering rather than of any aircraft.
+Composing the two,
+
+$$\frac{x(s)}{u(s)} = \frac{g \, \text{CP}}{s^{4}}$$
+
+**Position is the fourth integral of the pilot's control input, not the third.** The previous article described this as a third-order loop, on the reasoning that attitude is the integral of what the control does. That is the step to check. A reaction nozzle produces a moment, and a moment produces angular acceleration, so attitude is the double integral of control rather than the single integral, and the loop from stick to position is fourth order.
+
+**The reconciliation is that the earlier description holds at low frequency and only there**, and the parameter that decides where the boundary falls is the damping. Restoring the rate term,
+
+$$\frac{x(s)}{u(s)} = \frac{g \, \text{CP}}{s^{3}\left(s + \dfrac{D}{I}\right)}$$
+
+Below the break frequency $D/I$ the bracket is dominated by the constant, and the loop behaves as
+
+$$\frac{x(s)}{u(s)} \approx \frac{g \, \text{CP}}{(D/I)\, s^{3}} \qquad \text{for} \quad \omega \ll \frac{D}{I}$$
+
+which is third order and is the case the previous article described. Above it the bracket is dominated by $s$ and the loop is fourth order. **So hovering is a third-order problem or a fourth-order one depending on how much damping the aircraft has, and an aircraft with no aerodynamic damping and no artificial damping is in the harder case.**
+
+This is not a quibble about counting. The two cases differ in what the pilot must supply. A fourth-order plant requires the pilot to generate two derivatives of lead to stabilise it rather than one, and a human being generating lead is a human being working hard. **It is the clearest available explanation of why [Greif et al 1972][research_greif_1972] found that attitude stabilisation gives the best handling qualities for the least control power**, because attitude stabilisation does not merely help the pilot, it removes two orders from the plant they are closing around.
+
+The X-14A is the only aircraft in this series that could have demonstrated the distinction, because it is the only one whose damping was a dial.
 
 Two consequences follow, and both bear on how the criterion should be read.
 
@@ -657,11 +857,29 @@ The same input on the Moon produces a translation the pilot would have to work t
 
 $$\tfrac{1}{2} \times 1.62 \times 0.0873 \times 25 = 1.8 \text{ m}$$
 
+Two further consequences follow and both are quantitative. A vehicle hovering on the Moon needs
+
+$$\frac{T_{\text{moon}}}{T_{\text{earth}}} = \frac{g_{m}}{g_{e}} = 0.165$$
+
+of the thrust it would need on Earth, so the thrust margin is not the binding constraint there that it is here. And to obtain the same horizontal acceleration the lunar vehicle must tilt very much further, since
+
+$$g_{m} \tan\theta_{m} = g_{e} \tan\theta_{e} \quad \Longrightarrow \quad \tan\theta_{m} = 6.05 \tan\theta_{e}$$
+
+so that five degrees on Earth corresponds to
+
+$$\theta_{m} = \arctan\left(6.05 \times \tan 5^{\circ}\right) = 27.9^{\circ}$$
+
+**A lunar lander manoeuvres at attitudes that would be alarming in a terrestrial hover**, and no amount of adjustment to a terrestrial aircraft's control system reproduces that, because the aircraft would simply translate away.
+
 This is not a small mismatch and it is not correctable by any adjustment of the control system, because it is a mismatch in the plant rather than in the controller. **It is the reason the [Lunar Landing Research Vehicle][ref_llrv] had to exist.**
 
 The lineage is documented and it reads as a sequence of admissions that the previous simulator was insufficient. [Henderson 1963][research_henderson_1963] compares control systems for the final descent and landing manoeuvre, and [Markson et al 1963][research_markson_1963] reports simulation of the manned lunar landing. [Obryan 1966][research_obryan_1966] reports flight tests of a manned rocket-powered vehicle using the Langley lunar landing facility, which suspended the vehicle to cancel most of its weight. [Greene and Russo 1967][research_greene_russo_1967] and [Mccabe et al 1967][research_mccabe_1967] report piloted lunar module landing simulation studies, and [Hewes 1967][research_hewes_1967] reports flight evaluations of lunar landing vehicle attitude control systems.
 
-**The document that states the problem most directly is [Kluever 1967][research_kluever_1967]**, which assesses ground and flight simulators for examining the manned lunar landing, because that is precisely the question of what each kind of simulator can and cannot represent. The training programme that resulted is described in [Armstrong and Nassiff 1968][research_armstrong_nassiff_1968] and the vehicle itself in [Bigham 1970][research_bigham_1970]. That vehicle cancelled five sixths of its weight with a gimballed vertical jet so that the residual translational dynamics were lunar, which is a far more expensive and dangerous way to build a simulator, and it was built because the cheaper way could not do the job.
+**The document that states the problem most directly is [Kluever 1967][research_kluever_1967]**, which assesses ground and flight simulators for examining the manned lunar landing, because that is precisely the question of what each kind of simulator can and cannot represent. The training programme that resulted is described in [Armstrong and Nassiff 1968][research_armstrong_nassiff_1968] and the vehicle itself in [Bigham 1970][research_bigham_1970]. That vehicle cancelled most of its weight with a gimballed vertical jet so that the residual translational dynamics were lunar. The fraction it had to support is
+
+$$1 - \frac{g_{m}}{g_{e}} = 1 - 0.165 = 0.835$$
+
+**so the jet carried 83.5 percent of the vehicle and the remaining 16.5 percent was flown**, which is a far more expensive and dangerous way to build a simulator, and it was built because the cheaper way could not do the job.
 
 The X-14's contribution to Apollo was therefore real and bounded. It could teach the attitude task. It could not teach the landing.
 
@@ -673,7 +891,21 @@ Consider correcting a position error of three metres. The pilot tilts, waits, an
 
 $$t(\theta) = 4\sqrt{\frac{\theta}{\text{CP}}} + 2\sqrt{\frac{d}{g \tan\theta}}$$
 
-which has an interior minimum, because a larger tilt translates faster but takes longer to establish. Minimising over $\theta$ for a three metre correction gives 4.42 seconds at a control power of 0.8 and 3.49 seconds at 2.0.
+which has an interior minimum, because a larger tilt translates faster but takes longer to establish. In the small-angle form the stationarity condition is
+
+$$\frac{dt}{d\theta} = \frac{2}{\sqrt{\text{CP}\,\theta}} - \sqrt{\frac{d}{g}}\;\theta^{-3/2} = 0$$
+
+which solves to
+
+$$\theta^{*} = \tfrac{1}{2}\sqrt{\frac{\text{CP}\, d}{g}}$$
+
+and substituting that back has a pleasant consequence. The attitude term and the translation term become equal,
+
+$$4\sqrt{\frac{\theta^{*}}{\text{CP}}} = 2\sqrt{\frac{d}{g\,\theta^{*}}}$$
+
+**An optimally flown hover correction spends exactly half its time changing attitude and half translating**, whatever the control power and whatever the distance. The numerical optimum with the exact tangent runs a little above the small-angle value, at 24.6 degrees against 22.4 for a three metre correction at the maximum control power, and the split is 1.85 seconds against 1.63.
+
+Minimising over $\theta$ for a three metre correction gives 4.42 seconds at a control power of 0.8 and 3.49 seconds at 2.0.
 
 **Two and a half times the control power buys 21.2 percent less time.** The local exponent is
 
@@ -718,6 +950,8 @@ The vehicle specifications come from secondary compilations and **they disagree 
 **Contested in the sources and left contested.** The Viper 8 rating, given as either 1,750 or 1,560 pounds of thrust each. The first hover date, given as either 17 or 19 February 1957. The 1981 accident cause, attributed by secondary sources to a lateral control software flaw producing a pilot-induced oscillation, unconfirmed here.
 
 **Engineering analysis, derived in this article and reproducible from the stated inputs.** The bleed fraction of 7.41 percent, inverted from the four percent thrust recovery on halving the bleed. The consequent 397 pounds of thrust and the finding that this consumed 34.9 to 51.8 percent of the hover margin. The installation loss of 17.2 to 24.1 percent. The Viper thrust-to-weight ratios of 0.843 and 0.946, both below unity at the 3,700 pound test weight. The roll inertia of 3,333 kilogramme metres squared and radius of gyration of 13.7 percent of span. The scaling relation that control power falls inversely with span at fixed bleed fraction, and the resulting span limit near 28 metres. The repositioning time analysis and its exponent of minus 0.26. The lunar timescale mismatch of 2.46.
+
+**A correction to the previous article, derived here.** The [X-13][related_post_a310_ryan_x13] article described hovering as a third-order position loop. Composing the transfer functions shows the loop from control input to position is fourth order when the damping is zero, and third only below the damping break frequency. Both articles are describing the same physics and the earlier phrasing is the low-frequency case. The distinction matters because a fourth-order plant demands two derivatives of lead from the pilot rather than one, and this article treats that as the explanation for why attitude stabilisation buys so much.
 
 **Inference, stated as such.** That the re-engining was a precondition for the research programme rather than a performance upgrade follows from the Viper thrust-to-weight ratios but is not stated in any source consulted. That the tip fans were specified at the aircraft's existing maximum control power rather than above it, and that this indicates bleed rather than authority was the binding constraint, is an inference from two numbers in two reports. That the X-14A's tested range set the range used by later simulator studies is an inference from the coincidence of intervals and could equally be independent convergence. That the field recognised the size-scaling problem within three years is inferred from the existence and title of a 1965 paper rather than from its content, which was not read in full.
 

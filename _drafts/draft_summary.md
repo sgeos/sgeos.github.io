@@ -22,8 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
 
 854 lines, 51 display equations, 95 reference definitions of which 72 are research, 13,322 words
-after the draft pass. All three densities approach their bands from below, at 854 against a 1300
-floor, 51 against 90, and 95 against 250. Reported rather than padded.
+after the draft pass, and 1088 lines, 103 display equations, 95 references, 15,001 words after the
+equation-density review. Equations are inside band; lines and references still approach from below.
+Reported rather than padded.
 
 **The first article in the series whose subject is an instrument rather than a vehicle.** The X-14 is
 the variable-stability aircraft that produced the attitude control-power criteria A310 borrowed
@@ -79,8 +80,47 @@ have passed.**
 repeated across a paragraph seam, a symbol collision between the disturbance fraction and the
 radius-of-gyration fraction, and a sentence promising four subsections where five stood.
 
-Equation-density, primary-reference, and publication reviews not yet performed. Contemporary
-references stand at 10 of 72 dated, or 13.9 percent, which is the publication review's principal task.
+**Equation-density review complete, 2026-08-08. 1088 lines, 103 display equations, 95 references,
+15,001 body words.** Equations rose from 51 to 103 across 22 edits and are now inside the 90 to 130
+band. Nothing was trimmed.
+
+**The pass corrected a claim inherited from A310.** The draft said position is the third integral of
+the pilot's control input, following the previous article, which reasoned that attitude is the
+integral of what the control does. Writing the transfer function down shows that step is wrong. A
+reaction nozzle produces a moment and a moment produces angular acceleration, so attitude is the
+double integral of control and **position is the fourth integral**. The reconciliation is that the
+earlier description holds below the damping break frequency, since the composed plant is
+g CP / (s^3 (s + D/I)), which is third order for omega much less than D/I and fourth order above it.
+**Hovering is therefore a third-order problem or a fourth-order one depending on how much damping the
+aircraft has**, and the X-14A is the only aircraft in the series that could have shown the difference
+because it is the only one whose damping was a dial. The distinction is not cosmetic: a fourth-order
+plant demands two derivatives of lead from the pilot rather than one, which is the clearest available
+explanation of the 1972 Ames finding that attitude stabilisation gives the best handling qualities for
+the least control power. Recorded in the Epistemic State as a correction to the previous article.
+
+**Other results the pass produced.** An optimally flown hover correction **spends exactly half its
+time changing attitude and half translating**, whatever the control power and whatever the distance,
+which falls out of the stationarity condition theta* = (1/2) sqrt(CP d / g). The wind is confirmed as
+a position problem rather than an attitude problem on this aircraft as it was on the X-13, since a ten
+metre per second wind is 5.9 percent of the maximum control power as a moment but requires a permanent
+1.36 degree tilt and costs 11.7 metres of drift in ten seconds if uncorrected. The compounded overhead
+is now stated: control takes 34.9 to 51.8 percent of the hover margin and the disturbance allowance
+takes two fifths of what that bought, so **only 21 to 31 percent of the margin reaches the pilot as
+manoeuvring authority**. The pitch nozzle must be about forty percent stronger than the roll nozzle
+for the same control power, because the aircraft is wider than it is long. The J85-GE-19 installation
+bought about 590 pounds more lift than the J85-GE-5, which is what set how much authority the later
+experiments could give away. And a lunar vehicle must tilt 27.9 degrees to match the acceleration a
+terrestrial one gets from 5 degrees, while a weight-cancelling simulator must support 83.5 percent of
+the vehicle.
+
+**Two defects in the new spine, both caught by running it.** The diverter section printed a hardcoded
+constant rather than the deflection it claimed to sweep, and **the closed form for the optimum tilt was
+simply wrong**, given as (CP d / 4g)^(1/3) and missing the numeric optimum by six degrees; the correct
+form is (1/2) sqrt(CP d / g). A pronoun for a generic pilot was also corrected.
+
+Primary-reference and publication reviews not yet performed. References stand at 95 against a 250
+floor and lines at 1088 against a 1300 floor. Contemporary references are 10 of 72 dated, or 13.9
+percent, which is the publication review's principal task.
 
 ## X-Planes Ryan X-13 Vertijet A310 2025-10-19
 
