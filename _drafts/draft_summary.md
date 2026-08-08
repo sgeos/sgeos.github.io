@@ -118,10 +118,33 @@ roughly forty-fold factors cancel. Flagged as coincidence, not law.
 All 268 worked values re-derived with zero disagreements, isolated build clean at 91 rendered display
 blocks matching source exactly.
 
-**Remaining for the two review passes, with one warning.** The master pool holds only 665 entries against
-A309's 3,597, of which 525 are unused. **That is very unlikely to support the 250 reference floor**,
-so the primary pass must begin with a supplementary harvest rather than with a coverage audit.
-Primary sources are 77 of 126, or 61.1 percent of dated, and contemporary references are already 47.
+**Primary pass complete, 2026-08-07.** **143 to 250 reference definitions, exactly the floor.**
+1184 lines, 91 display equations, 15,521 body words. **Primary sources 167 of 233, or 71.7 percent of
+dated, up from 61.1.**
+
+**The pass opened with a harvest rather than a coverage audit**, reversing the usual order per the
+draft pass's warning that the 665-entry pool would not support the floor. It would not have. The
+harvest returned 684 records and took the pool to **1,305 entries**.
+
+**The source-base finding is that the article is held up almost entirely by documents about other
+aircraft.** Almost nothing rests on a document about the X-13. It rests on documents about the
+configuration, the flight condition, the test technique, and the pilot's task. An article about a
+vehicle with almost no record of its own can still be dense, provided the question it asked was one
+other people were also asking, which was true here and not true of the X-10.
+
+**One seam defect caught by reading**, where an insertion left two clauses running together across a
+paragraph break with every automated check passing it. **One false alarm recorded**, where
+`_verify.py` appeared to jump to 40 warnings because the command had inherited a working directory
+inside the scratch build tree.
+
+250 reference definitions, 237 external URLs with zero duplicates, 86 of 86 fixed identifiers at 200,
+148 of 148 DOIs Crossref-resolved at 0.85 with zero flagged, all 268 worked values reproducing, and
+an isolated build clean at 91 rendered display blocks matching source exactly.
+
+**Remaining for the publication review.** **Contemporary references are 47, or 20.2 percent of
+dated.** The absolute count is unchanged and the percentage fell because the denominator grew.
+Against the 101 to 189 held since A301 the gap is between 54 and 142 references, and closing it will
+carry the article past the 1300 line floor.
 
 ## X-Planes Convair X-12 A309 2025-10-18
 

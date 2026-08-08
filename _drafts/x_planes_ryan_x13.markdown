@@ -169,7 +169,7 @@ That is a dynamic pressure of 1,500 pascals over the inboard wing, against 1,687
 
 ### The First Condition, Which Is Necessary and Not Sufficient
 
-A hovering aircraft must produce more thrust than it weighs. The Rolls-Royce Avon RA.28 gave 10,000 pounds against a gross weight of 6,730, so
+A hovering aircraft must produce more thrust than it weighs. The Rolls-Royce Avon RA.28 gave 10,000 pounds against a gross weight of 6,730. **The condition is the one that defines the whole configuration class**, and the surrounding design space, from lift fans through lift-plus-thrust arrangements to low-disc-loading rotorcraft, is [Denning 1962][research_denning_1962], [Przedpelski 1965][research_przedpelski_1965], and [Brown 1965][research_brown_1965], with the conference records in [Division 1966][research_division_1966] and the period's standard book reviewed in [Titchener 1963][research_titchener_1963]. Taking the ratio,
 
 $$\frac{T}{W} = \frac{44{,}482}{29{,}935} = 1.486$$
 
@@ -209,7 +209,7 @@ A rotorcraft escapes the same arithmetic because it does not produce its lift as
 
 $$\frac{P}{T} = \sqrt{\frac{T/A}{2 \rho}}$$
 
-and therefore improves as the disc grows. **A jet has the smallest possible disc and pays the largest possible price**, and the disc-loading comparison computed later in this article is the same fact seen from the ground rather than from the fuel gauge.
+and therefore improves as the disc grows. **A jet has the smallest possible disc and pays the largest possible price**, and the disc-loading comparison computed later in this article is the same fact seen from the ground rather than from the fuel gauge. That comparison across the three configurations was eventually made by measurement in [Michaelsen 1971][research_michaelsen_1971], and the weight bookkeeping that follows from it is [Irvin and Swan 1956][research_irvin_swan_1956].
 
 ### Roll, Which Is the Harder Axis
 
@@ -228,6 +228,8 @@ which is 3.5 percent of the engine's thrust taken as a couple. At an assumed ble
 $$\dot{m} = \frac{2F}{v} = \frac{1564}{500} = 3.13 \, \text{kg/s}$$
 
 or about 4.5 percent of an Avon's air. **A roll control that costs four percent of the engine is affordable and not negligible**, and it is a cost the propeller tail-sitters did not pay at all. The design problem of arranging engine control and attitude control together in a vertical-attitude aircraft is [Baxter and Finvold 1958][research_baxter_finvold_1958], which is the closest thing in the accessible literature to a statement of this vehicle's control philosophy, with the reaction control criteria worked systematically in [Friend 1964][research_friend_1964].
+
+**What lateral control actually needs to feel like in a hovering jet-lift aircraft was measured directly**, in [Drinkwater et al 1965, Effects of lateral control charact][research_drinkwater_1965_2], which is the nearest experiment in the literature to the X-13's roll problem and postdates it by eight years. The variable-stability apparatus that made such measurements possible is [Hegarty et al 1965][research_hegarty_1965] for a deflected-jet aircraft, and the eventual in-flight simulation of competing hover control concepts is [Corliss et al 1977][research_corliss_1977]. Cross-coupling between axes, which a reaction control system introduces and an aerodynamic one largely does not, is [Garren 1961][research_garren_1961], and the augmentation that later removed the problem from the pilot is [Clark et al 1963][research_clark_1963] and [Hartmann et al 1979][research_hartmann_1979].
 
 The ailerons take over earlier than the elevons do. At a rolling-moment coefficient of 0.05 the aerodynamic couple reaches the same criterion at
 
@@ -308,6 +310,8 @@ $$\Delta T \approx 0.045 \, T = 2002 \, \text{N} = 450 \, \text{lbf}$$
 
 against a hover margin of 3,270 pounds. **Roll control alone consumes about fourteen percent of the thrust margin**, before pitch and yaw are considered and before any allowance for gusts. That figure is an estimate resting on the assumed bleed velocity, and the general accounting of what control power costs a vertical take-off aircraft is [Hoffman 1971][research_hoffman_1971].
 
+Whether the cost is worth paying against the alternatives is a question the field answered much later and in the opposite direction, since a lateral-directional control system built deliberately around thrust vectoring is [Lallman 1985][research_lallman_1985]. **What the X-13 treated as a penalty is now sometimes the point**, because an aircraft that can point its thrust can be flown at attitudes a conventional one cannot.
+
 The consequence is a design spiral of the ordinary kind. More control power needs more bleed, which needs more thrust, which needs a larger engine, which needs a larger airframe, which has more inertia and therefore needs more of it. The spiral has a direction and it can be written down. The required moment scales with inertia,
 
 $$M_{\text{req}} = I \dot{\omega} \propto m L^{2}$$
@@ -350,7 +354,7 @@ giving a radius of 434 kilometres if every pound of fuel went to cruising. It do
 | 120 s | 208.6 lb | 348 km | 85 km, 19.7 percent |
 | 180 s | 312.9 lb | 307 km | 127 km, 29.2 percent |
 
-**One minute of hovering at each end of the flight costs a fifth of the radius.** The period's own weight and performance bookkeeping for this class is [Irvin and Swan 1956][research_irvin_swan_1956], with the configuration comparison in [Div 1956][research_div_1956] and [Campbell 1962][research_campbell_1962]. And one minute is optimistic for a vertical landing onto a hook, for the reasons the preceding sections quantify.
+**One minute of hovering at each end of the flight costs a fifth of the radius.** The period's own weight and performance bookkeeping for this class is [Irvin and Swan 1956][research_irvin_swan_1956], with the configuration comparison in [Div 1956][research_div_1956] and [Campbell 1962][research_campbell_1962]. **The same arithmetic was run for civil operations and returned the same verdict**, in [Spillman 1965][research_spillman_1965] on short-range vertical take-off jet airliners, where a route short enough to suit the aircraft is also short enough that the hover fuel dominates the sortie. And one minute is optimistic for a vertical landing onto a hook, for the reasons the preceding sections quantify.
 
 | Hover discipline | Take-off and landing | Fuel spent | Fraction of fuel |
 |---|---|---|---|
@@ -369,6 +373,8 @@ The Avon RA.28 is a single-shaft axial turbojet with a fifteen-stage compressor,
 $$AR = \frac{b^{2}}{S} = \frac{6.40^{2}}{17.74} = 2.31$$
 
 A wing of aspect ratio 2.31 is a poor lifting device and a good structural one, and on an aircraft that spends its critical moments not using the wing at all, that is the correct trade.
+
+**Installing a jet engine in an aircraft that must hover creates aerodynamic problems the engine does not have on a test stand**, and the survey of them is [Kuhn and Marion 0. McKinney 1965][research_kuhn_marion_0_mckinney_1965]. The inlet is the acute case, since in the transition it is asked to swallow air arriving from every direction in turn, which is [Grahame 1968][research_grahame_1968] and [Grahame 1969][research_grahame_1969]. What that does to the compressor is [Evans et al 1974][research_evans_1974], with the distortion statistics in [Jacocks and Kneile 1975][research_jacocks_kneile_1975] and the full-scale testing technique in [Palko 1973][research_palko_1973]. **The powerplant experience the period actually accumulated on a jet vertical take-off aircraft was written up for the next aircraft in this series**, in [Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_2].
 
 ### The Nozzle
 
@@ -420,7 +426,9 @@ $$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \sqrt{\frac{I_{yy} \dot{q}_{\text{
 
 which grows as the square root of the maximum lift coefficient, because a wing that stalls later gives the elevons less time to catch up.
 
-**At a lift coefficient of 1.2 the crossover moves above the stall speed and the coincidence the article rests on becomes an inequality in the wrong direction.** The qualitative conclusion survives, since the two speeds remain within a few percent of each other, but the comfortable reading that the controls come alive before the wing does depends on a coefficient that has been assumed rather than measured. The low-speed aerodynamics of slender deltas at high incidence are [Clark and Spurlin 1962][research_clark_spurlin_1962], [Spencer 1962][research_spencer_1962], and [Wentz 1972][research_wentz_1972], and what a tailless delta fighter is actually like to fly slowly is [White and Innis 1959][research_white_innis_1959].
+**At a lift coefficient of 1.2 the crossover moves above the stall speed and the coincidence the article rests on becomes an inequality in the wrong direction.** The qualitative conclusion survives, since the two speeds remain within a few percent of each other, but the comfortable reading that the controls come alive before the wing does depends on a coefficient that has been assumed rather than measured. The low-speed aerodynamics of slender deltas at high incidence are [Clark and Spurlin 1962][research_clark_spurlin_1962], [Spencer 1962][research_spencer_1962], and [Wentz 1972][research_wentz_1972], and what a tailless delta fighter is actually like to fly slowly is [White and Innis 1959][research_white_innis_1959] and [Huff 1949][research_huff_w_1949].
+
+**The reason such a wing does not behave like a conventional one was explained only after the X-13 flew.** The lift of a sharp-edged delta at incidence comes largely from the vortex that forms along the leading edge rather than from attached flow, and the analogy that made it calculable is [Polhamus 1966][research_polhamus_1966], extended in [Polhamus 1968][research_polhamus_1968] and [Polhamus 1969][research_polhamus_1969]. The structure of the vortex itself is [Roy 1966][research_roy_1966] and [Li and Polak 1966][research_li_polak_1966], and the practical consequence, that a rounded planform behaves better at low speed, is [Rolls 1965][research_rolls_1965] and [Drinkwater and Rolls 1965][research_drinkwater_rolls_1965]. **A maximum lift coefficient of 1.0 assumed for this wing is therefore a vortex-lift number and not an attached-flow one**, which is worth knowing given how much of the article rests on it.
 
 ### Hovering Is a Position Loop With Nothing Holding It Still
 
@@ -437,7 +445,7 @@ Position is therefore the double integral of attitude, and attitude is the integ
 | 2.0 degrees | 0.342 m/s² | 4.28 m |
 | 5.0 degrees | 0.855 m/s² | 10.68 m |
 
-**Holding position to within a metre over five seconds requires holding the mean tilt below half a degree.** That is the actual task, and it is why hovering is difficult in a way that the control-power criteria do not capture. Measuring task performance rather than control power is what [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969] set out to do, with the visual side in [Garren et al 1965][research_garren_1965]. The criteria say the pilot can command an angular acceleration. They do not say he can hold an attitude to half a degree while looking sideways.
+**Holding position to within a metre over five seconds requires holding the mean tilt below half a degree.** That is the actual task, and it is why hovering is difficult in a way that the control-power criteria do not capture. Measuring task performance rather than control power is what [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969] set out to do, with the visual side in [Garren et al 1965][research_garren_1965] and the loop closure itself observed in [Lollar and Matous 1963][research_lollar_matous_1963]. **The instability is not a defect of the aircraft but of the flight condition**, and the same difficulty appears in every hovering machine, including the helicopter work of [McCaskill 1953][research_mccaskill_1953] and [Warsett 1953][research_warsett_1953] and, much later, the near-hover control of a helicopter carrying a swinging load in [Gupta and Bryson 1976][research_gupta_bryson_1976]. The criteria say the pilot can command an angular acceleration. They do not say he can hold an attitude to half a degree while looking sideways.
 
 ### The Wind Is a Position Problem, Not an Attitude Problem
 
@@ -463,7 +471,7 @@ $$g \sin \theta_{w} = \frac{\tfrac{1}{2} \rho V^{2} A C_{d}}{m}$$
 | 10 m/s | 0.94 degrees | 2.00 |
 | 15 m/s | 2.11 degrees | 4.49 |
 
-The drift budget derived above was a mean tilt below 0.47 degrees. **In a ten metre per second wind the tilt required merely to stay still is twice that budget**, so the pilot is holding a steady attitude error of about a degree while trying to keep the fluctuating part below half of one. The two tasks use the same actuator and they conflict, which is the coupling [Tapscott 1960][research_tapscott_1960] and [Anderson 1960][research_anderson_1960] were trying to write criteria around.
+The drift budget derived above was a mean tilt below 0.47 degrees. **In a ten metre per second wind the tilt required merely to stay still is twice that budget**, so the pilot is holding a steady attitude error of about a degree while trying to keep the fluctuating part below half of one. The two tasks use the same actuator and they conflict, which is the coupling [Tapscott 1960][research_tapscott_1960] and [Anderson 1960][research_anderson_1960] were trying to write criteria around. **The conflict was eventually measured rather than argued**, in [Whitaker et al 1977][research_whitaker_1977] on how hover stability affects the hover control task, and the loop the pilot is actually closing was characterised as early as [Lollar and Matous 1963][research_lollar_matous_1963], which observes the pilot-vehicle loop closure for hovering aircraft directly. **That paper is the single closest thing in the literature to the analysis this article has just performed**, and it postdates the X-13's last flight by six years.
 
 ### Height, and an Asymmetry
 
@@ -497,6 +505,10 @@ $$\Delta h \approx v \tau + \frac{v^{2}}{2 a_{\max}}$$
 
 **A one metre per second sink costs a metre before the aircraft is going up again**, and against a hook tolerance of a third of a metre that is the whole budget spent on a sink rate a pilot would barely notice.
 
+The vertical axis turns out to be a distinct control problem with its own requirements rather than a trivial one, and the field eventually said so, in [Gerdes 1964][research_gerdes_1964] on a piloted simulator investigation of height-control requirements and, two decades later, [Stevens and Roskam 1985][research_stevens_roskam_1985] on the vertical axis control power a landing vertical take-off aircraft actually needs. Flight path control as a system problem is [Ostheimer and Giguere 1963][research_ostheimer_giguere_1963]. **The engine is the actuator, so the problem is a propulsion problem as much as a flight control one**, and controlling lift engines for exactly this purpose is [Sellers and Szuch 1973][research_sellers_szuch_1973]. A vertical velocity command system, which removes the pilot from the throttle loop altogether and is the obvious answer, is the subject of the NASA work already cited.
+
+**Making the engine respond faster is the other half of the answer and it is a control problem in its own right.** Turbine engine control synthesis is [Ryan et al 1975][research_ryan_1975], [Stone et al 1975][research_stone_1975], and [Beale and Miller 1975][research_beale_miller_1975], the coordination problem when a hovering aircraft has more than one engine is [Swick and Skarvan 1967][research_swick_skarvan_1967], and the reliability of the fuel control that all of it depends on is [Burnell et al 1973][research_burnell_1973] and [Zagranski et al 1974][research_zagranski_1974]. Diagnosing what an engine is actually doing is [Douglass 1963][research_douglass_1963] and [Harris 1969][research_harris_1969]. **A 1957 hydromechanical fuel control was not a fast actuator**, and every one of those documents is part of the reason it later became one.
+
 ### The Ground Observer Was Part of the Control Loop
 
 The reported arrangement, in which a man on the ground talked the pilot down because the pilot could not see the trailer, is usually recorded as an operational inconvenience. **It is better understood as a sensor with a transport delay inserted into a third-order loop that has no damping.**
@@ -515,7 +527,9 @@ The arrangement removes weight from the aircraft and puts it on the ground. Writ
 
 $$m_{\text{lifted}} = m_{\text{empty}} + m_{\text{fuel}} + m_{\text{payload}}, \qquad m_{\text{trailer}} \notin m_{\text{lifted}}$$
 
-which is the correct decision for a vehicle whose thrust margin is 3,270 pounds and whose undercarriage would have cost several hundred. **It also makes the aircraft dependent on a specific piece of ground equipment for every landing**, which is the opposite of the operational freedom the vertical take-off concept was supposed to buy, and the tension between those two facts is the deepest problem in the programme. The same tension appears from the other direction in [Butler and Thomas 1964][research_butler_thomas_1964], which is about preparing sites rather than about not needing them.
+**Moving mass out of the lifted term is the oldest trick in vertical take-off design and it recurs in every generation**, from the flying platform of [Sissingh 1956][research_sissingh_1956] through the ground-effect machines of [Walker et al 1965][research_walker_1965] and [Davidson et al 1972][research_davidson_1972] to the air cushion landing systems of [Leland and Thompson 1975][research_leland_thompson_1975]. What distinguishes the X-13 is that the mass was moved onto a vehicle which then had to be present at the landing point.
+
+Deleting the legs is the correct decision for an aircraft whose thrust margin is 3,270 pounds and whose undercarriage would have cost several hundred. **It also makes the aircraft dependent on a specific piece of ground equipment for every landing**, which is the opposite of the operational freedom the vertical take-off concept was supposed to buy, and the tension between those two facts is the deepest problem in the programme. The same tension appears from the other direction in [Butler and Thomas 1964][research_butler_thomas_1964], which is about preparing sites rather than about not needing them.
 
 ### The Undercarriage That Was Not Carried
 
@@ -539,7 +553,7 @@ $$\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}$$
 
 **Deleting the undercarriage bought between two and three minutes of hovering**, which against an eleven minute endurance is a quarter more, and by the radius table above some tens of kilometres. Weight bookkeeping of this kind across the configuration options is [Irvin and Swan 1956][research_irvin_swan_1956]. On an aircraft this tightly bounded that is not a small saving, and it explains why a design that looks like a stunt is actually the obvious answer once the fuel arithmetic is admitted.
 
-The structural side reinforces it. Hanging from a hook at the nose puts the entire weight into the airframe as a **tension**, while standing on a tail puts the same load in as a **compression** on a slender body. A tension member is lighter than a column of equal strength, so the hook arrangement is structurally as well as operationally cheaper than legs would have been.
+The structural side reinforces it. Hanging from a hook at the nose puts the entire weight into the airframe as a **tension**, while standing on a tail puts the same load in as a **compression** on a slender body. A tension member is lighter than a column of equal strength, so the hook arrangement is structurally as well as operationally cheaper than legs would have been. Estimating what airframe structure weighs, which is how such a trade is settled in practice, is [Chaloff et al 1974][research_chaloff_1974] and [Marchinski 1974][research_marchinski_1974], and a conventional gear's own control problems are [Yang 1970][research_yang_1970].
 
 The arrival itself is gentle. At a closure rate $v$ arrested over a stroke $d$ the mean deceleration is
 
@@ -549,7 +563,7 @@ so a one metre per second arrival stopped in 0.3 metres is
 
 $$a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g$$
 
-**A vertical landing on a wire is a very soft landing**, softer than a conventional arrival on a runway, which is worth stating because the arrangement looks violent and is not. The difficulty of the landing was never the impact. It was arriving at the right place with the right speed while unable to see.
+**A vertical landing on a wire is a very soft landing**, softer than a conventional arrival on a runway, which is worth stating because the arrangement looks violent and is not. Landing impact as a designed problem, in the form it takes when the undercarriage is unconventional, is [Leland and Thompson 1975][research_leland_thompson_1975]. **The difficulty of the landing was never the impact. It was arriving at the right place with the right speed while unable to see.**
 
 ### The Cockpit, and a Pilot Who Cannot See
 
@@ -573,9 +587,11 @@ $$\beta = 90^{\circ} - \sigma$$
 
 That is not a detail. The vertical landing is a closed-loop position-control task with a tolerance of a few centimetres on a hook, executed by a pilot who cannot see the target, in an aircraft with eleven minutes of fuel, in ground effect. The visual requirements for exactly this class of task were being measured at the time in [Garren et al 1965][research_garren_1965] and [Behan and Siciliani 1965][research_behan_siciliani_1965], and the general problem of a pilot's acceptance of a landing display is [Behan and Siciliani 1967][research_behan_siciliani_1967] and [Rhoads 1967][research_rhoads_1967].
 
+**What happens to a pilot's performance when the visual cues are removed was eventually measured directly**, in [Howard 1976][research_howard_1976], with the related question of how much an imperfect instrument substitute costs in [Howard 1975][research_howard_1975]. The answers the field arrived at were all forms of giving the information back rather than improving the view. Peripheral vision displays are [Vallerie 1967][research_vallerie_1967], a head-up display for a tilt-wing vertical take-off aircraft is [Gold and Walchli 1974][research_gold_walchli_1974], and the mature control and display combinations for instrument approach and shipboard landing are [Merrick 1981][research_merrick_1981], [Merrick 1984][research_merrick_1984], and [Farris et al 1983][research_farris_1983]. **Every one of those is a way of telling the pilot what he cannot see, and the X-13 had none of them.** Windshield optics as a contributor to the same problem is [Grether 1973][research_grether_1973].
+
 ### Spin and Tumble
 
-A tail-sitter with a low aspect ratio and a large fuselage volume is a candidate for departure modes that a conventional aeroplane does not have, and the X-13 was tested for them in the Langley spin tunnel before it flew. **This is the one part of the programme with a complete surviving primary record**, in [Bowman 1955][research_bowman_1955] on free-spinning and recovery, [Bowman 1955, Emergency Spin-Recovery Device for][research_bowman_1955_2] on the emergency recovery device, and [Bowman 1957][research_bowman_1957] as the concluding report covering spinning, tumbling, and recovery together. The equivalent studies for the propeller tail-sitters are [Lee 1952][research_lee_1952] and [Lee 1953][research_lee_1953].
+A tail-sitter with a low aspect ratio and a large fuselage volume is a candidate for departure modes that a conventional aeroplane does not have, and the X-13 was tested for them in the Langley spin tunnel before it flew. **This is the one part of the programme with a complete surviving primary record**, in [Bowman 1955][research_bowman_1955] on free-spinning and recovery, [Bowman 1955, Emergency Spin-Recovery Device for][research_bowman_1955_2] on the emergency recovery device, and [Bowman 1957][research_bowman_1957] as the concluding report covering spinning, tumbling, and recovery together. The equivalent studies for the propeller tail-sitters are [Lee 1952][research_lee_1952] and [Lee 1953][research_lee_1953], with the spin tunnel applied to conventional fighters for comparison in [Lee and Libbey 1961][research_lee_libbey_1961] and the deep-stall descent, which is the nearest conventional analogue to a tumble, in [Blanchard 1981][research_blanchard_1981]. Earlier free-spinning investigations in the same facility are [Bennett 1947][research_bennett_1947] and [Healy 1958][research_healy_1958], and the rotational-flow aerodynamics that eventually explained what the tunnel had been measuring is [Bihrle and Bowman 1980][research_bihrle_bowman_1980].
 
 Tumbling is the mode peculiar to this configuration. An aircraft pointed vertically with no forward speed has no aerodynamic restoring moment in pitch, so a disturbance can start it rotating end over end, and once tumbling it has no airspeed with which to stop.
 
@@ -617,7 +633,13 @@ a ratio of
 
 $$\frac{141{,}000}{1382} = 102$$
 
-**A hovering jet loads the ground about a hundred times more heavily than a helicopter of the same span.** That is why a tail-sitting jet needs a prepared surface and a helicopter does not, and it is the second reason the operational freedom the concept promised was not actually available. The impingement problem and its design criteria are [George et al 1964][research_george_1964], with the dust-ingestion consequence in [Hafer and Skinner 1960][research_hafer_skinner_1960] and the analogous problem on another surface entirely in [Roberts 1964][research_roberts_1964]. **The operational answer was to prepare the ground**, and the fact that somebody wrote a document called rapid site preparation for turbojet vertical take-off aircraft, in [Butler and Thomas 1964][research_butler_thomas_1964], is the clearest possible statement that the runway had not actually been eliminated but relocated and renamed. Surface bearing capacity under aircraft loads is [Hay 1970][research_hay_1970], and the jet in ground effect as an aerodynamic problem is [Lissaman 1967][research_lissaman_1967], [Foltz 1962][research_foltz_1962], and [Carmichael and McNay 1961][research_carmichael_mcnay_1961].
+**A hovering jet loads the ground about a hundred times more heavily than a helicopter of the same span.** That is why a tail-sitting jet needs a prepared surface and a helicopter does not, and it is the second reason the operational freedom the concept promised was not actually available. The impingement problem and its design criteria are [George et al 1964][research_george_1964], with the dust-ingestion consequence in [Hafer and Skinner 1960][research_hafer_skinner_1960] and the analogous problem on another surface entirely in [Roberts 1964][research_roberts_1964].
+
+**The downwash impingement problem generated its own multi-year study programme**, in [White et al 1960][research_white_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], and [Morse and Newhouse 1961][research_morse_newhouse_1961], with erosion specifically for jet-lift aircraft in [Dent 1966][research_dent_1966] and the spray a vertical take-off aircraft throws in [Kuhn 1979][research_kuhn_1979]. The fluid mechanics underneath is [Strand 1967][research_strand_1967] on the impingement of a jet on a plane, [Donaldson et al 1966][research_donaldson_1966] and [Donaldson et al 1971][research_donaldson_1971] on the turbulent structure of a free jet meeting a surface, and [Binion 1970][research_binion_w_1970] on the recirculation region such a flow creates.
+
+**The aerodynamic penalty is separate from the erosion and is called suckdown**, since the entrained flow between the jet and the ground reduces the lift the aircraft actually has. That is [Gentry and Margason 1966][research_gentry_margason_1966], with the later modelling in [Kotansky and Bower 1977][research_kotansky_bower_1977] and [Kotansky 1982][research_kotansky_1982] and a large-scale investigation in [Christiansen 1984][research_christiansen_1984].
+
+**The comparison the article makes between a jet and a rotor was made directly and by measurement**, in [Michaelsen 1971][research_michaelsen_1971], which compares the outflows from a helicopter, a tilt-wing aircraft, and a jet-lift aircraft. That paper is the empirical form of the hundred-to-one disc loading ratio computed above. **The operational answer was to prepare the ground**, and the fact that somebody wrote a document called rapid site preparation for turbojet vertical take-off aircraft, in [Butler and Thomas 1964][research_butler_thomas_1964], is the clearest possible statement that the runway had not actually been eliminated but relocated and renamed. Surface bearing capacity under aircraft loads is [Hay 1970][research_hay_1970], and the jet in ground effect as an aerodynamic problem is [Lissaman 1967][research_lissaman_1967], [Foltz 1962][research_foltz_1962], and [Carmichael and McNay 1961][research_carmichael_mcnay_1961].
 
 ## The Flight Test Record
 
@@ -680,6 +702,8 @@ For the one-fifth model that gives
 
 **A twenty-four kilogramme model flying at twenty-three metres per second reproduces the manoeuvre, and does it twice as fast.** That last point is the practical difficulty, since everything the observer has to watch happens at 2.24 times the rate.
 
+**The technique was a Langley speciality and it has a literature of its own.** Its development for low-speed and vertical take-off configurations is [Williams and Butler 1964][research_williams_butler_1964], its application to a free-flying model of a vertical take-off configuration is [Paulson and Shanks 1961][research_paulson_shanks_1961], and the radio-controlled variant used for departure work is [Burk and Wilson 1975][research_burk_wilson_1975]. An earlier example of the same method applied to another aircraft in this series is [Hewes and Hassell 1960][research_hewes_hassell_1960] on a one-seventh model of a North American design. The wind-tunnel free-flight technique in its general form is [Platou 1968][research_platou_1968], with the powered-model balance problem in [Dougherty 1966][research_dougherty_1966] and the oscillatory derivative measurement that supports it in [Owen and Cox 1966][research_owen_cox_1966] and [Barzda 1966][research_barzda_1966].
+
 What does not scale is the Reynolds number, which goes as speed times length,
 
 $$\frac{Re_{m}}{Re_{f}} = \kappa^{3/2} = 0.089$$
@@ -730,11 +754,15 @@ On a horizontal aircraft hovering on deflected thrust the target lies directly b
 
 $$45^{\circ}$$
 
-**The same task is a hundred and thirty-five degrees behind one pilot and forty-five degrees below the other**, and no amount of seat pivoting closes that gap, because the difference is which end of the aeroplane is pointed at the ground. **The X-13 demonstrated that the tail-sitting answer works and thereby helped establish that it was not the answer to take**, which is a real contribution and not the one the programme set out to make. A flight evaluation of a jet vertical take-off transport under visual and instrument conditions, which is the mature form of the same question, is [Holzhauser et al 1972][research_holzhauser_1972].
+**The same task is a hundred and thirty-five degrees behind one pilot and forty-five degrees below the other**, and no amount of seat pivoting closes that gap, because the difference is which end of the aeroplane is pointed at the ground.
+
+The vectored-thrust line also inherited a research literature the tail-sitter did not. Take-off performance for vectored-thrust aircraft is [Krenkel and Salzman 1968][research_krenkel_salzman_1968], the flight control technology that made them practical is [Crandall et al 1973][research_crandall_1973] and, later, [Hartmann et al 1979][research_hartmann_1979] on digital adaptive control. **The competing answers of the same period all kept the pilot upright**, whether by tilting the wing, in [McCormick and Mallen 1956][research_mccormick_mallen_1956], [McCormick and Mallen 1957][research_mccormick_mallen_1957], [Mazzitelli 1957][research_mazzitelli_1957], [Hargraves 1961][research_hargraves_1961], [Putman 1961][research_putman_1961], [Clark et al 1963][research_clark_1963], [Longhurst 1966][research_longhurst_1966], and [Magee and Taylor 1971][research_magee_taylor_1971], or by ducting the lift, in [Parlett 1961][research_parlett_1961] and [Marchese 1963][research_marchese_1963]. **The X-13 is the only one of them that asked the pilot to lie on his back**, and it is the only one that did not proceed. The tri-service programme that carried the ducted-fan answer forward is [Marchese 1963][research_marchese_1963], and the carrier air wake a shipboard version would have had to land into is [Cook 1964][research_cook_1964]. **The X-13 demonstrated that the tail-sitting answer works and thereby helped establish that it was not the answer to take**, which is a real contribution and not the one the programme set out to make. A flight evaluation of a jet vertical take-off transport under visual and instrument conditions, which is the mature form of the same question, is [Holzhauser et al 1972][research_holzhauser_1972].
 
 ### The Vertical Attitude Idea Returns Twice
 
-It came back in the 1970s as a proposal for carrier-based fighters, in [Eilertson 1975][research_eilertson_1975] on a remotely piloted demonstration vehicle, [Gerhardt and Chen 1978][research_gerhardt_chen_1978] on the vertical attitude concept for a fighter or attack aircraft, and [Papadales 1979][research_papadales_s_1979] on the performance of a conceptual vertical-attitude fighter. **The remotely piloted version is the interesting one, because removing the pilot removes the problem the X-13 could not solve**, and it took two decades for anyone to say so in a document.
+It came back in the 1970s as a proposal for carrier-based fighters, in [Eilertson 1975][research_eilertson_1975] on a remotely piloted demonstration vehicle, [Gerhardt and Chen 1978][research_gerhardt_chen_1978] on the vertical attitude concept for a fighter or attack aircraft, and [Papadales 1979][research_papadales_s_1979] on the performance of a conceptual vertical-attitude fighter.
+
+**And it came back using the same technique that had supported the X-13 twenty years earlier.** [Newsom and Anglin 1975][research_newsom_anglin_1975] and [Grafton and Anglin 1975][research_grafton_anglin_1975] are free-flight model investigations of a vertical-attitude vertical take-off fighter, flown in the same facility and reported in the same form as [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2]. **Two decades of intervening work changed the proposed aircraft and did not change how the question was asked**, which is a fair measure of how completely the technique had settled the aerodynamic side of the problem and how little it could say about the rest. **The remotely piloted version is the interesting one, because removing the pilot removes the problem the X-13 could not solve**, and it took two decades for anyone to say so in a document.
 
 ## The Contemporary Literature
 
@@ -825,6 +853,8 @@ so the exposure is direct.
 
 **The fuel figure is derived, not reported.** The 1,146 pound fuel load is the useful load minus an assumed pilot weight, and no fuel capacity was found for this aircraft. The eleven minute hover endurance moves in direct proportion.
 
+**The control-power criteria have themselves been contested throughout.** Treating them as settled is a convenience. [Carpenter and Jenny 1964][research_carpenter_jenny_1964] approaches low-speed control criteria statistically, [Goldberger 1966][research_goldberger_1966] argues about the relative importance of the requirement at all, and the longitudinal criteria were still being evaluated and re-evaluated in [Gertsen and Shomber 1965][research_gertsen_shomber_1965], [Martin 1963, Investigation Of Longitudinal Hand][research_martin_1963_2], and [Eney 1967][research_eney_1967]. **A number this article uses as though it were a physical constant was an active dispute for two decades**, and the later synthesis in [Anderson 1979][research_anderson_1979] is measuring a real aircraft against requirements that had by then changed several times.
+
 **The hover analysis assumes a rigid aircraft and a still atmosphere separately, and the real case is neither.** The drift table and the crosswind table are computed independently and then discussed together, which is not the same as solving them together. A pilot correcting a wind-induced drift is holding a tilt that is itself producing drift, and the coupled problem is what the handling-qualities literature actually measures.
 
 **The side area and drag coefficient in the crosswind table are guesses.** Ten square metres and 0.8 are plausible for a vertical aircraft of this size and are not derived from its geometry, and the forces scale directly with both.
@@ -860,6 +890,8 @@ The contrast with the [X-11][related_post_a308_convair_x11] and [X-12][related_p
 **A third asymmetry is worth naming because it runs the other way from the previous two articles.** The Atlas record is thick and classified, and the geodesy the Atlas depended on is thick and open. The X-13's record is thin and open, and there is no classified layer underneath it, because a two-aircraft demonstration programme with no weapon and no production intent generated nothing worth withholding. **The whole of what is knowable about this aircraft is knowable**, which is not true of any vehicle in the five that precede it, and it makes the X-13 the easiest article in this run to verify and the hardest to say anything new about.
 
 The defence archive contributes little here and that absence is itself informative. Querying it returns work on vertical take-off as a concept, on site preparation, and on handling qualities criteria, in [Butler and Thomas 1964][research_butler_thomas_1964], [Irvin and Swan 1956][research_irvin_swan_1956], [Div 1956][research_div_1956], [Friend 1964][research_friend_1964], [Hoffman 1971][research_hoffman_1971], and [Johnston et al 1965][research_johnston_1965], and it returns nothing at all about this airframe. **The Air Force studied the idea and the Navy's laboratories studied the aerodynamics and Ryan built the aeroplane**, and only the middle of those three left a public record of the vehicle itself.
+
+**The shape of the surviving literature is worth one more observation, because it inverts the usual complaint.** Almost nothing in this article rests on a document about the X-13. It rests on documents about the configuration, the flight condition, the test technique, and the pilot's task, written before and after the aircraft flew and mostly about other aircraft. **An article about a vehicle with almost no record of its own can still be dense, provided the question it asked was one other people were also asking.** That is true of the X-13 and it was not true of the [X-10][related_post_a307_north_american_x10], whose keystone was peculiar to a cancelled programme, and the difference is a property of the question rather than of the archive.
 
 ## Epistemic State
 
@@ -906,58 +938,109 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_acher_2021]: https://doi.org/10.18409/ispiv.v1i1.51
 [research_adams_1972]: https://doi.org/10.2514/6.1972-962
 [research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
+[research_anderson_1979]: https://ntrs.nasa.gov/citations/19790019011
 [research_aoyagi_tolhurst_1964]: https://ntrs.nasa.gov/citations/19670022812
 [research_ashkenas_1965]: https://doi.org/10.21236/ad0627659
 [research_athayde_2024]: https://doi.org/10.3390/act13060225
 [research_barufaldi_morales_2023]: https://doi.org/10.2514/1.c036890
+[research_barzda_1966]: https://doi.org/10.2514/6.1966-733
 [research_batra_2024]: https://doi.org/10.3390/aerospace11090698
 [research_baxter_finvold_1958]: https://doi.org/10.4271/580070
+[research_beale_miller_1975]: https://doi.org/10.21236/ada014231
 [research_behan_siciliani_1965]: https://doi.org/10.2514/6.1965-722
 [research_behan_siciliani_1967]: https://doi.org/10.2514/3.43811
+[research_bennett_1947]: https://ntrs.nasa.gov/citations/20050028507
+[research_bihrle_bowman_1980]: https://ntrs.nasa.gov/citations/19800042785
+[research_binion_w_1970]: https://doi.org/10.21236/ad0711665
+[research_blanchard_1981]: https://ntrs.nasa.gov/citations/19810012555
 [research_bowman_1955]: https://ntrs.nasa.gov/citations/20050030035
 [research_bowman_1955_2]: https://ntrs.nasa.gov/citations/20050029375
 [research_bowman_1957]: https://ntrs.nasa.gov/citations/20050028487
+[research_brown_1965]: https://doi.org/10.2514/6.1965-756
+[research_burk_wilson_1975]: https://ntrs.nasa.gov/citations/19790022002
+[research_burnell_1973]: https://doi.org/10.21236/ad0771030
 [research_burton_2026]: https://doi.org/10.1115/1.4070771
 [research_butler_thomas_1964]: https://doi.org/10.21236/ad0613342
 [research_cai_2026]: https://doi.org/10.3390/drones10050325
 [research_campbell_1962]: https://ntrs.nasa.gov/citations/19630017020
 [research_cao_2023]: https://doi.org/10.3390/drones7090566
 [research_carmichael_mcnay_1961]: https://doi.org/10.21236/ad0282125
+[research_carpenter_jenny_1964]: https://doi.org/10.2514/6.1964-286
+[research_chaloff_1974]: https://doi.org/10.21236/ada002858
 [research_chen_2026]: https://doi.org/10.3389/arc.2026.16513
+[research_christiansen_1984]: https://ntrs.nasa.gov/citations/19840035242
+[research_clark_1963]: https://doi.org/10.21236/ad0419126
 [research_clark_1964]: https://doi.org/10.2514/6.1964-618
 [research_clark_spurlin_1962]: https://doi.org/10.21236/ad0329345
 [research_combey_2026]: https://doi.org/10.2514/1.c038518
 [research_comer_2025]: https://ntrs.nasa.gov/citations/20250000954
+[research_cook_1964]: https://doi.org/10.21236/ada953004
+[research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
+[research_crandall_1973]: https://doi.org/10.21236/ad0766642
 [research_dagal_erol_2025]: https://doi.org/10.1038/s41598-025-25903-7
+[research_davidson_1972]: https://doi.org/10.21236/ad0763365
 [research_davis_spicer_1965]: https://doi.org/10.2514/6.1965-1425
+[research_denning_1962]: https://doi.org/10.4271/620308
+[research_dent_1966]: https://doi.org/10.1016/0022-460x(66)90128-3
 [research_div_1956]: https://doi.org/10.21236/ad0141370
+[research_division_1966]: https://ntrs.nasa.gov/citations/19660015317
+[research_donaldson_1966]: https://doi.org/10.21236/ad0656592
+[research_donaldson_1971]: https://doi.org/10.1017/s0022112071000156
+[research_dougherty_1966]: https://doi.org/10.2514/6.1966-751
+[research_douglass_1963]: https://doi.org/10.21236/ad0406348
+[research_drinkwater_1965_2]: https://ntrs.nasa.gov/citations/19650009016
 [research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
+[research_drinkwater_rolls_1965]: https://doi.org/10.2514/6.1965-782
 [research_duivenvoorden_2025]: https://doi.org/10.2514/1.j064763
 [research_duivenvoorden_2026]: https://doi.org/10.2514/1.c038435
 [research_eatough_1971]: https://doi.org/10.2514/6.1971-752
 [research_eilertson_1975]: https://doi.org/10.4271/751103
+[research_eney_1967]: https://doi.org/10.2514/6.1967-576
 [research_erwin_1964]: https://doi.org/10.21236/ad0609059
+[research_evans_1974]: https://ntrs.nasa.gov/citations/19740020647
+[research_farris_1983]: https://ntrs.nasa.gov/citations/19830060450
 [research_foltz_1962]: https://doi.org/10.21236/ad0414393
 [research_friend_1964]: https://doi.org/10.2514/6.1964-787
+[research_garren_1961]: https://ntrs.nasa.gov/citations/20040006489
 [research_garren_1965]: https://ntrs.nasa.gov/citations/19650012141
+[research_gentry_margason_1966]: https://ntrs.nasa.gov/citations/19660006875
 [research_george_1964]: https://doi.org/10.21236/ad0608185
+[research_gerdes_1964]: https://ntrs.nasa.gov/citations/19640018145
 [research_gerhardt_chen_1978]: https://ntrs.nasa.gov/citations/19790001855
+[research_gertsen_shomber_1965]: https://doi.org/10.2514/6.1965-780
+[research_gold_walchli_1974]: https://doi.org/10.2514/6.1974-952
+[research_goldberger_1966]: https://doi.org/10.21236/ad0644191
 [research_golmirzaee_wood_2026]: https://doi.org/10.1186/s42774-025-00222-7
+[research_grafton_anglin_1975]: https://ntrs.nasa.gov/citations/19760003954
+[research_grahame_1968]: https://doi.org/10.2514/6.1968-637
+[research_grahame_1969]: https://doi.org/10.2514/3.44022
 [research_greene_2020]: https://doi.org/10.4271/01-14-01-0001
+[research_grether_1973]: https://doi.org/10.21236/ad0767203
+[research_gupta_bryson_1976]: https://ntrs.nasa.gov/citations/19760047895
 [research_hafer_skinner_1960]: https://doi.org/10.21236/ad0472676
+[research_hargraves_1961]: https://doi.org/10.21236/ad0268350
 [research_harper_p_1955]: https://doi.org/10.21236/ad0092496
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
+[research_harris_1969]: https://doi.org/10.21236/ad0856377
 [research_hart_2025]: https://doi.org/10.2514/1.c038680
+[research_hartmann_1979]: https://ntrs.nasa.gov/citations/19800007805
 [research_hastings_mitcham_1954]: https://ntrs.nasa.gov/citations/20050030055
 [research_hay_1970]: https://doi.org/10.21236/ad0872113
+[research_healy_1958]: https://ntrs.nasa.gov/citations/20050028462
+[research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
+[research_hewes_hassell_1960]: https://ntrs.nasa.gov/citations/19980223968
 [research_hoffman_1971]: https://doi.org/10.2514/6.1971-768
 [research_holdhusen_perusse_1965]: https://doi.org/10.21236/ada956154
 [research_hollinger_mitcham_1955]: https://ntrs.nasa.gov/citations/20090023602
 [research_holzhauser_1972]: https://ntrs.nasa.gov/citations/19720012362
+[research_howard_1975]: https://ntrs.nasa.gov/citations/19750022974
+[research_howard_1976]: https://ntrs.nasa.gov/citations/19990117220
+[research_huff_w_1949]: https://doi.org/10.21236/ad0035641
 [research_ikami_2021]: https://doi.org/10.2514/1.c035880
 [research_ilyas_2025]: https://doi.org/10.1109/access.2025.3544133
 [research_irmawan_2023]: https://doi.org/10.3390/drones7050330
 [research_irvin_swan_1956]: https://doi.org/10.21236/ad0147927
+[research_jacocks_kneile_1975]: https://doi.org/10.21236/ada004104
 [research_johnson_1954]: https://ntrs.nasa.gov/citations/20090023688
 [research_johnston_1965]: https://doi.org/10.21236/ad0622578
 [research_johnston_friend_1965]: https://doi.org/10.4050/sm_vstol_1965-2533
@@ -967,35 +1050,71 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_kirby_1956]: https://ntrs.nasa.gov/citations/19930084609
 [research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
 [research_koch_2026]: https://doi.org/10.2514/1.j066617
+[research_kotansky_1982]: https://ntrs.nasa.gov/citations/19820015292
+[research_kotansky_bower_1977]: https://doi.org/10.21236/ada043518
+[research_krenkel_salzman_1968]: https://doi.org/10.2514/3.43962
+[research_kuhn_1979]: https://doi.org/10.21236/ada073099
 [research_kuhn_grunwald_1960]: https://ntrs.nasa.gov/citations/19980227804
+[research_kuhn_marion_0_mckinney_1965]: https://ntrs.nasa.gov/citations/19650025397
+[research_lallman_1985]: https://ntrs.nasa.gov/citations/19860001736
 [research_lee_1952]: https://ntrs.nasa.gov/citations/20050029463
 [research_lee_1953]: https://ntrs.nasa.gov/citations/20050029432
 [research_lee_2022]: https://doi.org/10.2514/1.c036214
 [research_lee_2026]: https://doi.org/10.1109/taes.2026.3714382
+[research_lee_libbey_1961]: https://ntrs.nasa.gov/citations/19980227452
+[research_leland_thompson_1975]: https://ntrs.nasa.gov/citations/19750009270
 [research_leng_2020]: https://doi.org/10.1142/s2301385020500247
 [research_li_2025_2]: https://doi.org/10.3390/aerospace12100927
+[research_li_polak_1966]: https://doi.org/10.2514/6.1966-492
 [research_lissaman_1967]: https://doi.org/10.2514/6.1967-2
+[research_lollar_matous_1963]: https://doi.org/10.1109/thfe.1963.231288
+[research_longhurst_1966]: https://doi.org/10.4271/660315
 [research_lovell_1953]: https://ntrs.nasa.gov/citations/20050029472
 [research_lovell_1954]: https://ntrs.nasa.gov/citations/20050028502
 [research_lovell_parlett_1957]: https://ntrs.nasa.gov/citations/19930084763
+[research_magee_taylor_1971]: https://doi.org/10.21236/ad0735733
 [research_mao_2026]: https://doi.org/10.1016/j.ast.2026.112672
+[research_marchese_1963]: https://doi.org/10.21236/ad0442887
+[research_marchinski_1974]: https://doi.org/10.2514/6.1974-962
+[research_martin_1963_2]: https://doi.org/10.2514/6.1963-1016
 [research_mathur_atkins_2026]: https://doi.org/10.2514/1.g008907
+[research_mazzitelli_1957]: https://doi.org/10.4271/570357
+[research_mccaskill_1953]: https://doi.org/10.21236/ad0015833
 [research_mccormick_1969]: https://doi.org/10.21236/ad0863818
+[research_mccormick_mallen_1956]: https://doi.org/10.4050/sm_wf_1956-2299
+[research_mccormick_mallen_1957]: https://doi.org/10.4050/jahs.2.49
 [research_mccormick_w_1956]: https://doi.org/10.21236/ad0159429
 [research_mcgregor_smith_1965]: https://doi.org/10.2514/6.1965-705
 [research_mcintosh_2024]: https://doi.org/10.2514/1.g008002
 [research_mcintyre_1963]: https://doi.org/10.21236/ad0602427
 [research_mckinney_p_1954]: https://ntrs.nasa.gov/citations/19930090534
 [research_meng_2023]: https://doi.org/10.1016/j.cja.2023.06.022
+[research_merrick_1981]: https://ntrs.nasa.gov/citations/19810021598
+[research_merrick_1984]: https://ntrs.nasa.gov/citations/19850006532
+[research_michaelsen_1971]: https://doi.org/10.2514/6.1971-992
 [research_mohankumar_2021]: https://doi.org/10.1115/1.4050606
 [research_mohankumar_2022]: https://doi.org/10.1115/1.4054064
+[research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
+[research_morse_newhouse_1961]: https://doi.org/10.21236/ad0264226
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19630004807
 [research_naca_1960_2]: https://ntrs.nasa.gov/citations/19740076580
 [research_nettleton_1965]: https://doi.org/10.2514/6.1965-713
+[research_newsom_anglin_1975]: https://ntrs.nasa.gov/citations/19750022036
+[research_ostheimer_giguere_1963]: https://doi.org/10.21236/ad0402379
+[research_owen_cox_1966]: https://doi.org/10.1016/0022-460x(66)90141-6
+[research_palko_1973]: https://doi.org/10.21236/ad0769307
 [research_panish_bacic_2025]: https://doi.org/10.2514/1.c037862
 [research_papadales_s_1979]: https://doi.org/10.21236/ada073100
+[research_parlett_1961]: https://ntrs.nasa.gov/citations/19980227758
+[research_paulson_shanks_1961]: https://ntrs.nasa.gov/citations/19980227997
 [research_pfeifle_fichter_2023]: https://doi.org/10.2514/1.g006929
+[research_platou_1968]: https://doi.org/10.2514/6.1968-388
 [research_pobikrowska_goetzendorf_grabowski_2025]: https://doi.org/10.1108/aeat-01-2025-0001
+[research_polhamus_1966]: https://ntrs.nasa.gov/citations/19670003842
+[research_polhamus_1968]: https://ntrs.nasa.gov/citations/19680022518
+[research_polhamus_1969]: https://ntrs.nasa.gov/citations/19700034491
+[research_przedpelski_1965]: https://doi.org/10.2514/6.1965-708
+[research_putman_1961]: https://doi.org/10.21236/ad0270217
 [research_qiao_zhou_2026]: https://doi.org/10.1016/j.ast.2025.110825
 [research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
 [research_queijo_1953_2]: https://ntrs.nasa.gov/citations/20050029407
@@ -1005,27 +1124,47 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_rehan_2026]: https://doi.org/10.1017/aer.2026.10130
 [research_rhoads_1967]: https://doi.org/10.21236/ad0820790
 [research_roberts_1964]: https://doi.org/10.1007/978-3-7091-4688-0_3
+[research_rolls_1965]: https://ntrs.nasa.gov/citations/19660037515
+[research_rolls_1965_2]: https://ntrs.nasa.gov/citations/19660013004
+[research_roy_1966]: https://doi.org/10.1016/0376-0421(66)90003-0
+[research_ryan_1975]: https://doi.org/10.21236/ada014229
 [research_saetti_2025]: https://doi.org/10.4050/jahs.70.042002
 [research_saetti_2025_2]: https://doi.org/10.4050/jahs.70.032005
 [research_schade_1954]: https://ntrs.nasa.gov/citations/20050028505
 [research_scordamaglia_2025]: https://doi.org/10.1109/ojcsys.2025.3619810
+[research_sellers_szuch_1973]: https://ntrs.nasa.gov/citations/19730007088
 [research_shandor_walker_1962]: https://doi.org/10.21236/ad0406683
 [research_shanks_smith_1959]: https://ntrs.nasa.gov/citations/19980235622
 [research_shanks_smith_1960]: https://ntrs.nasa.gov/citations/19980230619
 [research_sharma_2021]: https://doi.org/10.2514/1.c035973
+[research_sissingh_1956]: https://doi.org/10.21236/ad0116272
 [research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
 [research_smith_1958_2]: https://ntrs.nasa.gov/citations/19710082837
 [research_smith_1961]: https://ntrs.nasa.gov/citations/19980230621
 [research_smith_1961_2]: https://ntrs.nasa.gov/citations/19980227431
 [research_smith_lovell_1954]: https://ntrs.nasa.gov/citations/20050030042
 [research_spencer_1962]: https://ntrs.nasa.gov/citations/19630000325
+[research_spillman_1965]: https://doi.org/10.2514/6.1965-797
+[research_stevens_roskam_1985]: https://ntrs.nasa.gov/citations/19860003826
+[research_stone_1975]: https://doi.org/10.21236/ada014230
+[research_strand_1967]: https://doi.org/10.2514/3.43869
 [research_sutton_buell_1952]: https://ntrs.nasa.gov/citations/20090026346
+[research_swick_skarvan_1967]: https://doi.org/10.21236/ad0666796
 [research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
+[research_titchener_1963]: https://doi.org/10.1017/s0368393100078937
+[research_vallerie_1967]: https://ntrs.nasa.gov/citations/19670020039
 [research_vegh_2025]: https://doi.org/10.2514/1.c038393
+[research_walker_1965]: https://doi.org/10.21236/ad0617129
 [research_wang_2025]: https://doi.org/10.1016/j.ast.2024.109773
+[research_warsett_1953]: https://doi.org/10.21236/ad0015981
 [research_wentz_1972]: https://ntrs.nasa.gov/citations/19720025346
+[research_whitaker_1977]: https://ntrs.nasa.gov/citations/19780011159
+[research_white_1960]: https://doi.org/10.21236/ad0251154
 [research_white_innis_1959]: https://ntrs.nasa.gov/citations/19980232080
+[research_williams_butler_1964]: https://doi.org/10.2514/6.1964-1103
 [research_xue_zhou_2020]: https://doi.org/10.1016/j.ast.2019.105556
+[research_yang_1970]: https://doi.org/10.2514/6.1970-914
+[research_zagranski_1974]: https://doi.org/10.21236/ad0785580
 [research_zhao_2024]: https://doi.org/10.3390/aerospace11110922
 [research_zhao_2026]: https://doi.org/10.1016/j.ast.2025.110810
 [research_zhu_2022]: https://doi.org/10.3390/aerospace9100547
