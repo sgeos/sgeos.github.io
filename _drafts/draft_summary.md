@@ -21,8 +21,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x16.markdown`, A313, editorial date 2025-10-22, series `x_planes` index 17 of 72.
 
-534 lines, 20 display equations, 85 references, 7,450 words after the draft pass; **758 lines, 72
-display equations, 85 references, 8,731 words after the equation review.** Reference review pending.
+534 lines, 20 display equations, 85 references, 7,450 words after the draft pass; 758 lines, 72 display
+equations, 85 references, 8,731 words after the equation review; **1,016 lines, 72 display equations,
+315 references, 10,940 words after the primary-reference review.** References are inside the
+full-aircraft band. Publication review pending.
 
 **This is the first article in the series whose subject has no technical record at all.** NTRS returns
 zero records for MX-2147, zero for the aircraft as an aeroplane, and zero for the Bell model number,
@@ -67,10 +69,22 @@ which is what the pilot's instrument reads, it is 28.8 knots, and 23.1 at the qu
 The instrument band closes 2.15 times faster than the physical one, so the corner does not set the
 ceiling and does entirely set the difficulty of flying the cruise.
 
-**Class question for the pilot.** After the equation pass the article sits above the
+**The primary-reference pass corrected the article's implicit history.** The draft cited 35 documents
+from before 1960 and 22 from 2019 onward and three from the whole of 1960 to 2018, which implied the
+X-16's question lapsed for sixty years and then revived. It did not. A second harvest aimed at that era
+took the pool from 947 to about 1,400 records and era coverage now runs 69, 61, 56, 47, and 57 across
+the five bands. Of 290 research references, 233 or 80.3 percent are primary and period material.
+
+**Three off-topic citations were removed after being read rather than matched**, all having matched on
+the word resolution, namely a paper on wireless sensor network localisation, one on unexploded ordnance
+detection, and one on spectra of stars in globular clusters. Fifteen more were dropped before insertion.
+The Source Base records this.
+
+**Class question for the pilot.** After the primary-reference pass the article sits above the
 documentation-poor band of 150 to 400 lines, 0 to 15 equations, and 20 to 60 references on all three
-measures, and below the full-aircraft band of 1,300 to 1,600 lines, 90 to 130 equations, and 250 to 380
-references on all three. Equations at 72 are now 18 below the full-aircraft floor. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
+measures. **References at 315 are now inside the full-aircraft band of 250 to 380**, while lines at
+1,016 sit 284 below its floor and equations at 72 sit 18 below. The intermediate-class question
+therefore narrows to those two measures. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
 than padded upward or trimmed downward.
 
 ## X-Planes North American X-15 A312 2025-10-21
