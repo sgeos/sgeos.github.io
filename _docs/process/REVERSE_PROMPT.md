@@ -118,7 +118,15 @@ like me to propose a fourth class with bands drawn from A313 to A315, say so and
 **The publication-order dependency is nineteen deep**, A315 back to A297, and every cross-reference
 points backward.
 
-Nineteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, raised twenty-four times.
+Nineteen articles complete of seventy-two.
+
+**Categories are settled.** You gave me discretion and I kept `aerospace history engineering`, which all
+nineteen drafts already carry, so no article changed. I checked rather than merely retained it. Three
+terms is the corpus convention at 203 of 296 posts. `aerospace` is the second most common first category
+and is not a shadowed path. **Both `aerospace` and `engineering` are on the curated feed list**, so the
+series reaches two topical Atom feeds; `history` is not, and gets an archive page only. Category order
+affects nothing but the URL, since archives and feeds select by name. Live checks returned 200 for an
+existing `/aerospace/...` post, for both category archives, and for the aerospace feed. **The only open
+decision left is the fourth genre class.**
 
 A316 is the next roster entry; check `HANDOFF.md` before starting.
