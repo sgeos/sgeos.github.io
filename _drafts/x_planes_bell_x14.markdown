@@ -747,6 +747,16 @@ The interval from 0.8 to 2.0 radians per second squared appears in the X-14A fli
 
 Armstrong's 1965 flights connect the X-14A to Apollo, and the connection is real but narrower than the popular account suggests. [Hewes 1967][research_hewes_1967] reports flight evaluations of lunar landing vehicle attitude control systems, and [Mccabe et al 1967][research_mccabe_1967] reports piloted lunar module landing simulation studies. The X-14A could contribute to the attitude problem. **It could not contribute to the whole problem, for a reason that is exactly quantifiable and is taken up in the next section.**
 
+### The Criteria Were Applied Far Beyond the Aircraft That Produced Them
+
+A criterion expressed in radians per second squared can be carried to any vehicle, which is what the normalisation was for, and the record shows it being carried.
+
+The lift-fan branch runs through [Przedpelski 1965][research_przedpelski_1965], [Hill and Waters 1974][research_hill_waters_1974], [Bland et al 1976][research_bland_1976], and [Sellers et al 1977][research_sellers_1977], and reaches an integrated flight and propulsion treatment in [Chung et al 1995, Simulation model of the integrated][research_chung_1995_2]. Rotorcraft response requirements were settled the same way in [Mitchell et al 1987, A flight investigation of helicopt][research_mitchell_1987_2] and [Mitchell et al 1989][research_mitchell_1989], with hovering dynamics and pilot performance in [Aponso et al 1987][research_aponso_1987] and control and display dynamics for hover in [Eshow 1990][research_eshow_1990]. **Even vehicles with no wing at all inherited the framework**, in [Putman et al 1977][research_putman_1977] and [Curtiss and Sumantran 1985][research_curtiss_sumantran_1985] on hovering airships, with the rotor case in [Curtiss 1973][research_curtiss_1973].
+
+The configuration the X-14 vindicated acquired its own operating literature, on how to fly it rather than whether to build it, in [Huntley 1972][research_huntley_1972] on minimising landing transition distance, [Karemaa 1971][research_karemaa_1971] on hybrid jet-lift take-off and landing, [Nishimura 1980][research_nishimura_1980] on the fuel-minimal take-off path, and [Morello et al 1972][research_morello_1972] on a flight evaluation of a vectored-thrust aeroplane during simulated instrument approaches. The inlet problem the configuration creates for itself is [Grahame 1968][research_grahame_1968] and [Grahame 1969][research_grahame_1969], the configuration management the transition demands is [Johnson and Craig 1974][research_johnson_craig_1974], and the whole development is reviewed from a distance in [Anderson 1983][research_anderson_1983].
+
+**The most pointed instance is the one that returns to where the previous article left off.** The tail-sitting layout came back for piloted simulation in [Hill 1981][research_hill_1981] and [Hill 1983][research_hill_1983], which is the [X-13][related_post_a310_ryan_x13]'s configuration being re-examined a quarter of a century after it was abandoned, using criteria that the aircraft standing beside it in the designation sequence had supplied.
+
 ### It Established the Method More Firmly Than the Number
 
 The number the X-14A produced was reappraised within four years by [Smith 1966, Vtol control power requirements re][research_smith_1966_2] and superseded within twenty by the shift to bandwidth criteria. The method outlived both.
@@ -761,65 +771,147 @@ The X-14's data made jet-lift vertical take-off aircraft designable. It did not 
 
 ## The Contemporary Literature
 
-The X-14's question is live, and it is live in a field that does not usually cite it. Everything below is recent scholarship rather than recent history, and the connection to a 1962 flight report is in the structure of the problem rather than in the citations.
+The X-14's question is live, and it is live in a field that does not usually cite it. Everything below is recent scholarship rather than recent history. The section opens with arithmetic rather than with survey, because running this article's own relations forward on a modern vehicle changes what the survey then has to say.
 
-### The Question Is Being Asked Again in Almost the Original Form
+### Running the Article's Relations on a Vehicle With No Bleed
 
-The clearest case is [Antonakis 2025][research_antonakis_2025], which sizes handling qualities for aerial vehicles using control moment polytopes. **This is the X-14's question with the geometry made explicit.** A polytope of achievable control moments is the modern statement of the authority budget the X-14A ran into when its high-damping and high-control-power corner proved unreachable, and the sizing problem is the same one Bell faced in 1955 with a different set of effectors.
+A multirotor makes its attitude moments by running some rotors harder than others. The accounting is therefore different from the X-14's in a way worth deriving rather than asserting.
 
-[Favaro et al 2025][research_favaro_2025] addresses building credible vertical take-off flight models for handling-quality certification by simulation. **This closes a loop the X-14 opened.** The X-14A existed because ground simulation was not trusted for hovering handling qualities. Sixty years later the question is what would make simulation credible enough to certify against, which is the same question with the burden of proof reversed.
+Take a vehicle of mass $m$ with $n$ rotors at radius $R$, hovering with each rotor at $mg/n$, and a thrust-to-weight ratio limit $r$. Each rotor can be pushed up by $(r-1)mg/n$ and pulled down by $mg/n$ before it reaches zero, so a symmetric differential is bounded by the smaller of the two,
 
-### The Vehicle Is Small Again and the Constraint Has Moved
+$$\delta = \min(r - 1,\, 1)\,\frac{mg}{n}$$
 
-The tail-sitter and the jet-lift aeroplane both returned as small electric vehicles. [Wang et al 2026, Modeling and hover control of a bi][research_wang_2026_4] treats hover control of a biplane quadrotor tail-sitter, and [Juhasz et al 2025][research_juhasz_2025] identifies the dynamics of a hovering quadrotor biplane tail-sitter with canted motors from flight data.
+Summing over the rotors with a geometry factor $c_{g}$ that accounts for their not all lying on the control axis, the moment and the control power are
 
-The scaling relation derived above explains why these vehicles are easy in a respect the X-14 was not. **Control power falls inversely with span, so a vehicle at one tenth the span has ten times the control power for the same fractional expenditure**, and a small multirotor is enormously overprovided with attitude authority by 1960s standards. The constraint that dominated the X-14's design has been dissolved by size rather than solved by cleverness. What binds a small electric vehicle instead is energy, which the previous article in this series treated at length for the [X-13][related_post_a310_ryan_x13].
+$$M = c_{g}\, n\, \delta\, R = c_{g} \min(r-1,\,1)\, m g R$$
 
-### System Identification Replaced the Variable-Stability Aircraft, Partly
+The rotor count has already cancelled, which is the first thing worth noticing, since it means the number of rotors does not by itself buy authority. Dividing by the inertia gives the control power.
 
-The X-14 was an instrument for imposing dynamics on an aircraft so that a pilot could rate them. A large modern literature does the inverse, extracting dynamics from an aircraft that already has them. [Grauer and Morelli 2023][research_grauer_morelli_2023] introduces a collection on advances in aircraft system identification from flight test data, [Simmons et al 2023, Flight-Test System Identification][research_simmons_2023_2] treats techniques for small low-cost fixed-wing aircraft, and [Perry et al 2023][research_perry_2023] identifies a subscale distributed-electric-propulsion aircraft.
+$$\text{CP} = \frac{M}{m k^{2}} = \frac{c_{g} \min(r-1,\,1)\, g R}{k^{2}}$$
 
-**The relationship between the two techniques is not replacement but a division of labour.** Identification tells you what an aircraft does. It cannot tell you what a pilot would think of an aircraft that does something else, which is the question the X-14 was built to answer, and the only ways to answer it remain a simulator and a variable-stability aircraft.
+**The mass cancels.** Putting $k = \kappa b$ and $R = b/2$ gives
 
-### Identification Is Now Done on the Vehicle That Will Fly
+$$\text{CP} = \frac{c_{g} \min(r-1,\,1)\, g}{2 \kappa^{2} b}$$
 
-The X-14's dynamics were imposed. A modern small vehicle's are measured, often from the vehicle itself in flight, and the tooling for that has become routine. [Juhasz et al 2025][research_juhasz_2025] identifies a hovering quadrotor biplane tail-sitter with canted motors, [Perry et al 2023][research_perry_2023] a subscale distributed-electric-propulsion aircraft, and [Simmons et al 2023, Flight-Test System Identification][research_simmons_2023_2] treats the techniques for small low-cost fixed-wing aircraft generally, with the state of the field reviewed in [Grauer and Morelli 2023][research_grauer_morelli_2023].
+which is inversely proportional to span. **That is the same law this article derived for bleed-fed reaction nozzles, with the same exponent, by a mechanism that shares no hardware with it.** The inverse-span dependence is therefore not a property of reaction controls at all. It is a property of making moments with forces at the extremities of a vehicle whose thrust scales with its weight, and it survives the complete replacement of the propulsion system.
 
-**The economic change is the one worth naming.** The X-14 cost an airframe, two engines, a control system, and twenty-four years of a flight-test organisation. A modern subscale vehicle that answers a narrower version of the same question costs a few thousand dollars and can be replaced when it crashes, which changes not only the price of an experiment but the acceptable probability of losing one.
+Evaluating for three representative vehicles, taking $c_{g} = 0.707$ for a cross configuration and $\kappa = 0.2$, gives control powers far above anything the X-14A could offer.
 
-### The Pilot Is Still in the Loop and the Loop Now Has a Computer in It
+| Vehicle | Mass | Span | Thrust-to-weight | Control power | Against X-14A |
+|---------|------|------|------------------|---------------|---------------|
+| Small research quadrotor | 1.2 kg | 0.50 m | 3.0 | 173 rad/s² | 87 times |
+| Medium cargo multirotor | 25 kg | 1.60 m | 2.0 | 54.2 rad/s² | 27 times |
+| Electric air taxi | 2,200 kg | 8.0 m | 1.4 | 4.33 rad/s² | 2.2 times |
 
-The X-14's hovering pilot closed a position loop through an attitude loop with no aerodynamic help. The modern version of that arrangement puts an autonomous system in the same loop, and the question becomes how authority is divided. [Xu et al 2025, Modeling Shared Control System Bet][research_xu_2025_3] models shared control between a human pilot and an autopilot for a carrier landing task, which is structurally the X-14's problem with a second controller added.
+**The small vehicle is overprovided with attitude authority by a factor of nearly ninety**, which is the scaling law being paid out rather than any advance in control technology. These figures are representative rather than actual and the conclusions drawn from them are ratios and orders.
 
-[Wang and Chen 2024][research_wang_chen_2024] assesses handling qualities for a helicopter with slung loads under various sling configurations, which is a case where the plant changes underneath a fixed criterion, and is the kind of problem a criterion stated as a single threshold in angular acceleration handles badly.
+### The Cost Changed Character, Not Merely Magnitude
 
-The most direct modern descendant of the X-14A's question is [Bahr et al 2022][research_bahr_2022], on the handling qualities of fixed-pitch variable-speed multicopters for urban air mobility. **A fixed-pitch multicopter changes its attitude moment by changing rotor speed**, which is the tip-turbine fan's failure mode reintroduced as the primary control mechanism, because a rotor with inertia cannot change speed instantly. That the configuration works anyway is a consequence of how small the vehicles are, which the scaling relation above explains, and of electric motors having far better torque response than a bleed-driven turbine.
+The more consequential difference is not the size of the control power but what it costs.
 
-The X-14A's 1969 finding therefore survives in an unexpected form. **Rotational inertia in the control effector is still the thing that decides whether a hovering aircraft is flyable**, and the modern answer is not to avoid it but to make the rotors small enough and the motors strong enough that the time constant falls below the pilot's, or the autopilot's, bandwidth.
+The X-14A's reaction controls consumed 7.41 percent of engine thrust, and that flow was supplied whether or not the pilot was commanding anything, so the tax was standing rather than incurred. A multirotor's differential is zero-sum. One rotor rises exactly as much as another falls, so
 
-### Certification Replaced Specification, and the Burden Moved
+$$\sum_{i} \Delta T_{i} = 0$$
 
-MIL-F-83300 obliged a military contractor to demonstrate compliance. The vehicles now being built to hover are civil, and the framework they must satisfy is a certification basis rather than a procurement specification. [Favaro et al 2025][research_favaro_2025] is written from inside that problem, and its subject is what makes a flight model credible enough to certify against by simulation rather than by flight.
+and **the mean cost of attitude control is zero**. What the vehicle pays instead is the headroom $\min(r-1,1)$, which it needs anyway for climb and for gust rejection, so the attitude requirement is frequently not the binding one at all.
 
-**This is a reversal worth naming.** The X-14A existed because nobody trusted a simulator to answer a handling-qualities question about hovering. The modern question is what evidence would justify trusting one, because flying every configuration is no longer affordable and the number of configurations has grown enormously. The variable-stability aircraft solved the credibility problem by removing the simulation. The current approach is to solve it by validating the simulation, and the criterion for adequate validation is itself unsettled.
+**The design constraint that dominated the X-14 has been dissolved rather than solved.** That is the same verdict the previous article reached about the [X-13][related_post_a310_ryan_x13]'s hovering control problem, by a different route, and the agreement is worth noting because the two aircraft solved the vertical take-off problem in opposite ways.
+
+One caveat belongs with the 7.41 percent. It is inverted from a reported thrust increase rather than from a duty-cycle-weighted measurement, which is consistent with a standing bleed. If the X-14A's supply were instead demand-only, the average penalty would be lower and the peak figure unchanged, and the comparison above would overstate the contrast. The article's other conclusions do not depend on which it was.
+
+### The Constraint Moved Rather Than Vanishing
+
+The inverse-span law has a consequence that the enthusiasm around small vehicles obscures. Setting the multirotor relation equal to the X-14A's maximum,
+
+$$b^{*} = \frac{c_{g} \min(r-1,\,1)\, g}{2 \kappa^{2} \times 2.0}$$
+
+gives 17.3 metres of span at a thrust-to-weight ratio of 1.4, 26.0 metres at 1.6, and 43.3 metres at 2.0. **A modern vehicle with an air-taxi thrust margin falls to the X-14A's control power at about seventeen metres**, which is against the twenty-eight metre span at which this article found jet lift exhausting its bleed budget. The two constraints bite at comparable size for comparable margin. **Large hovering aircraft are still hard, and they are hard for a reason the X-14A measured.**
 
 ### The Authority Budget Became a Geometry Problem
 
-The X-14A ran into its authority limit as a truncated corner of an experimental grid, described in its own report as the region beyond the ability of the aircraft. The modern statement of the same limit is explicit and geometric.
+The X-14A met its authority limit as a truncated corner of an experimental grid, described in its own report as beyond the ability of the aircraft. The modern statement of the same limit is explicit and geometric.
 
-[Antonakis 2025][research_antonakis_2025] sizes handling qualities using control moment polytopes, which represent the set of moments a given effector arrangement can produce as a convex region in three-dimensional moment space. **The X-14A's problem is the statement that the polytope did not contain the required corner.** Casting it this way makes the multi-axis case tractable, which the scalar control-power criterion never was, because an aircraft demanding simultaneous roll and pitch authority is asking about a diagonal of the polytope rather than about either axis alone.
+[Antonakis 2025][research_antonakis_2025] sizes handling qualities using control moment polytopes, which represent the achievable moments as a convex region in three-dimensional moment space, and the attainable moment set is computed directly in [Han et al 2025][research_han_2025] and used as a controller constraint in [Han et al 2024][research_han_2024]. The equivalent construction for a multirotor is the attainable control set of [Strampe and Klingauf 2026][research_strampe_klingauf_2026] and [Yoon et al 2025][research_yoon_2025]. **The X-14A's problem is the statement that the polytope did not contain the required corner**, and casting it this way makes the multi-axis case tractable, which the scalar criterion never was, because an aircraft demanding simultaneous roll and pitch authority is asking about a diagonal rather than about either axis alone.
 
-This is also where the X-14's three-axis arrangement shows its age. Its roll nozzles were at the wingtips and its pitch and yaw nozzles at the tail, so the axes drew on a shared bleed supply but acted through separate hardware. A modern multirotor produces all three axis moments from the same set of rotors, so the axes compete directly, and the polytope is the only honest way to state what is available.
+### Control Allocation Is the Modern Form of the Handover
+
+The X-14A blended vectored thrust against aerodynamic surfaces by mechanical linkage and pilot technique. The modern equivalent is a least-squares problem solved many times a second.
+
+The general over-actuated formulation is treated in [Scordamaglia et al 2025][research_scordamaglia_2025], [Jafari et al 2023][research_jafari_2023], and [Singh et al 2024][research_singh_2024], and specifically for vertical take-off configurations in [Enenakpogbe et al 2025][research_enenakpogbe_2025] and [Enenakpogbe et al 2024][research_enenakpogbe_2024] on vectored-thrust vehicles, [Yılmaz and German 2024][research_ylmaz_german_2024] on a tandem tiltwing, [Qin et al 2023][research_qin_2023] on a distributed-electric-propulsion test platform, [Santos 2024][research_santos_2024] and [Ruggia 2025][research_ruggia_2025] on fully actuated multirotors, and [Mohammadi et al 2023][research_mohammadi_2023] and [Asghari and Tayefi 2026][research_asghari_tayefi_2026] on the transition itself. **[Pfeifle and Fichter 2023][research_pfeifle_fichter_2023] is the one that rhymes with this article**, since it allocates control so as to minimise power, which is the X-14A's bleed trade with electricity substituted for compressed air. [Spadão et al 2026][research_spadao_2026] treats the blending of control authority through a lift-plus-cruise transition, which is the handover the previous article analysed for the [X-13][related_post_a310_ryan_x13] with an allocator in place of the pilot. Saturation and failure of the effectors is the subject of [Chen et al 2026][research_chen_2026], [Wang et al 2026, Adaptive sliding mode fault-tolera][research_wang_2026_7], [Zhang et al 2024][research_zhang_2024], [Yang 2023][research_yang_2023], [Yuan et al 2023][research_yuan_2023], and [Lan et al 2025][research_lan_2025], and the same mathematics appears well outside aviation in [Lin et al 2025][research_lin_2025], [Wahba and Hönig 2024][research_wahba_honig_2024], and [Rüddenklau and Schitter 2026][research_ruddenklau_schitter_2026].
+
+### The Loop Order Was Designed Out
+
+This article derived that a hovering aircraft with no damping presents a fourth-order plant from stick to position, third order only below the damping break frequency, and that the X-14A's synthesised dampings of 0.45 and 0.59 per second put that break at periods of fourteen and eleven seconds.
+
+**A modern attitude loop closes between roughly ten and thirty radians per second**, which is more than an order of magnitude above any break frequency the X-14A could synthesise. The aircraft was therefore in its fourth-order regime across the whole of the band its pilots worked in, which is the sharpest available explanation of why it was hard to fly.
+
+The modern answer is not more control power but attitude command, which makes the outer loop second order. Attitude and position architectures for hovering vehicles are [Zhang et al 2024][research_zhang_2024] and the cascaded treatments in [Wang et al 2026, Modeling and hover control of a bi][research_wang_2026_6], with disturbance rejection in [Wang et al 2026][research_wang_2026] and [Kato and Suzuki 2019][research_kato_suzuki_2019]. **The 1972 Ames finding that attitude stabilisation gives the best handling qualities for the least control power is now not a finding but an assumption**, built into every vehicle of this class before anyone flies it.
+
+### The Criterion Moved to Bandwidth and Then to Certification
+
+MIL-F-83300 obliged a military contractor to demonstrate compliance. The vehicles now being built to hover are civil, and what they must satisfy is a certification basis.
+
+[Favaro et al 2025][research_favaro_2025] is written from inside that problem and asks what makes a flight model credible enough to certify against by simulation rather than by flight. **This closes a loop the X-14 opened.** The X-14A existed because nobody trusted a simulator to answer a hovering handling-qualities question. The modern question is what evidence would justify trusting one, because flying every configuration is no longer affordable and the number of configurations has grown enormously. [Li et al 2024, An Objective Handling Qualities As][research_li_2024_2] proposes an objective assessment framework for electric vertical take-off vehicles, [Wang et al 2025][research_wang_2025] models wake interference within quadrotor handling qualities, and [Zanoni et al 2022][research_zanoni_2022] pulls handling qualities forward into conceptual design. Uncertainty in the assessment itself is [Saetti and Rogers 2024][research_saetti_rogers_2024], and automating the assessment is [Antonakis 2025, Reinforcement-learning-based aircr][research_antonakis_2025_2]. The certification architecture around all of it is [Pleffken 2026][research_pleffken_2026] and [Kieß et al 2026][research_kie_2026], and the accident record that will discipline it is already being surveyed in [Shubert et al 2026][research_shubert_2026].
+
+**Pilot-induced oscillation, which is what destroyed the X-14B if the secondary accounts are right, remains a criterion problem rather than a solved one.** [Bidinotto et al 2022][research_bidinotto_2022] surveys the pilot models used to predict it, [Wang et al 2023, Suggestions for Criteria to Evalua][research_wang_2023_3] proposes criteria for the nonlinear lateral-directional case that fly-by-wire systems produce, [Efremov et al 2022][research_efremov_2022] and [Newton and Kroo 2025][research_newton_kroo_2025] treat suppression, and [Rezaei and Khosravi 2023][research_rezaei_khosravi_2023] attacks it through the actuator saturation that causes it. **The failure mode the X-14B is said to have died of is still being written about seriously forty years later.**
+
+### Handling Qualities for Vehicles With No Pilot Aboard
+
+The X-14A's criterion assumed a pilot in the seat. A large part of the modern literature does not.
+
+[Ivler et al 2022][research_ivler_2022] develops and flight-validates handling-qualities requirements for unmanned systems, [Herrington et al 2024][research_herrington_2024] assesses them for systems and operators together, [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026] applies the Cooper-Harper scale to a small uncrewed aircraft through simulation, and [Jusko and Berger 2026][research_jusko_berger_2026] develops new mission task elements for low-level flight. [Kozhanov et al 2022][research_kozhanov_2022] predicts hover and low-speed handling qualities for a helicopter with its augmentation system, [Yuan et al 2022][research_yuan_2022] does it for a tiltrotor by inverse simulation, and [Wang and Chen 2024][research_wang_chen_2024] for a helicopter whose plant changes with its slung load. Turbulence, which the X-14A's out-of-ground-effect calm-air testing excluded by design, is now modelled explicitly in [Huecas et al 2022][research_huecas_2022] and enters the pilot model in [Ji et al 2022][research_ji_2022].
+
+**The most direct descendant of the X-14's pilot problem is the decision to stop requiring a pilot's skill at all.** [Janetzko et al 2026][research_janetzko_2026] measures the flight performance of novices and system designers under a simplified vehicle operations concept, which asks whether people who are not pilots can fly the vehicle. The X-14A asked an experienced test pilot to do something at the edge of what a person can do, and the field's eventual answer was to change the aircraft rather than to train the person.
+
+### The Pilot Is Still Measured, and Now So Is the Division of Authority
+
+Where a human remains in the loop, the question has become how authority is shared rather than how much of it there is.
+
+[Xu et al 2025, Modeling Shared Control System Bet][research_xu_2025_2] models shared control between a human pilot and an autopilot for a carrier landing, which is structurally the X-14A's problem with a second controller added. Allocation of authority between the two is [Liu et al 2026][research_liu_2026], [Chen et al 2026, Robust and dynamic control authori][research_chen_2026_2], [Su et al 2024][research_su_2024], and [Liu and Kaber 2025][research_liu_kaber_2025], with haptic implementations in [Qin et al 2025][research_qin_2025], [Sato and Wada 2025][research_sato_wada_2025], and [Turco et al 2026][research_turco_2026]. **The ground observer who talked the X-14's pilot onto his spot was an early and unusually literal instance of shared control with a transport delay**, and the modern treatment of that arrangement, in [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_3], [Prakash et al 2026][research_prakash_2026], [Zhang et al 2026, Mitigating delay and poor transpar][research_zhang_2026_2], and [Li et al 2026, Design and evaluation of Avatar][research_li_2026_5], says the delay is the thing to attack.
+
+Workload, which the Cooper scale summarised as an integer, is now instrumented directly in [Xu et al 2026][research_xu_2026], [Procházková and Juračka 2026][research_prochazkova_juracka_2026], [Mohan et al 2025][research_mohan_2025], and [Stephenson et al 2026][research_stephenson_2026]. **None of this has removed the rating**, which is still collected by asking a person.
+
+### In-Flight Simulation, Subscale Testing, and Identification
+
+The variable-stability aircraft has not disappeared, but it now shares the work.
+
+[Yi and Feng 2025][research_yi_feng_2025] describes a variable-stability operating method for a simulator control mechanism, which is the technique migrating back to the ground. Identification from flight data, which is the inverse of what the X-14 did, is [Matt and Altamirano 2026][research_matt_altamirano_2026] on an octocopter in hover, [Juhasz et al 2025][research_juhasz_2025] on a hovering biplane tail-sitter, [Perry et al 2023][research_perry_2023] on a distributed-electric-propulsion aircraft, [Rashid et al 2025][research_rashid_2025] and [Chornyi et al 2026][research_chornyi_2026] on small aircraft, and [Simmons et al 2023, Flight-Test System Identification][research_simmons_2023_2] and [Grauer and Morelli 2023][research_grauer_morelli_2023] on the methods generally.
+
+**Subscale flight testing is how the expensive part is avoided**, in [Pan et al 2026][research_pan_2026], [Comer et al 2026][research_comer_2026] on a transitioning vehicle, and [Shen and Chen 2025][research_shen_chen_2025] on model-in-the-loop validation. The economic change is the one worth naming. The X-14 cost an airframe, two engines, a control system, and twenty-four years of a flight-test organisation. **A subscale vehicle that answers a narrower version of the same question costs a few thousand dollars and can be replaced when it crashes**, which changes not only the price of an experiment but the acceptable probability of losing one.
+
+### Gravity Is Still Not Adjustable, and Someone Flew on Mars
+
+The article's sharpest limitation on the X-14 was that it could reproduce lunar attitude dynamics exactly and lunar translation 2.46 times too fast, because gravity is in the plant rather than in the controller.
+
+That limitation is unchanged and the field still works around it the same way. [Aldosari and Feron 2025][research_aldosari_feron_2025] reports acceleration flight control for reduced-gravity flight in a large fixed-wing aircraft, which is the parabolic-trajectory descendant of the Lunar Landing Research Vehicle's weight cancellation, and [Li et al 2024][research_li_2024] designs a low-gravity simulation scheme for a Mars ascent vehicle. **The alternative is to stop simulating and go**, and [Ågren et al 2026][research_agren_2026] reports in-flight system identification of the Ingenuity Mars helicopter, which is the first time the dynamics of a hovering vehicle have been identified in another planet's gravity from that planet's surface. Its ground effect is treated in [Caprace et al 2025][research_caprace_2025].
+
+The guidance problem the X-14A could only partly rehearse now has a large literature of its own, in [Inoue et al 2026][research_inoue_2026], [Sasaki et al 2025][research_sasaki_2025], [Zhang et al 2025][research_zhang_2025], [Ito et al 2025][research_ito_2025], [Wang et al 2024, Fuel-Optimal Trajectory Planning f][research_wang_2024_3], [Robbiani et al 2025][research_robbiani_2025], [Sandoval et al 2024][research_sandoval_2024], and [Rahuman and Lee 2026][research_rahuman_lee_2026].
+
+### Ground Effect Became a Vertiport Problem
+
+A jet-lift aircraft needing a prepared surface was held against it. A modern vertical take-off aircraft needing a licensed vertiport is treated as infrastructure.
+
+The aerodynamics are [Lee et al 2026][research_lee_2026] on rotor-rotor interaction in ground effect, [Sagaga and Lee 2025][research_sagaga_lee_2025] on side-by-side rotors, [Zhu et al 2024][research_zhu_2024] on staggered rotors, [Georgiev 2025][research_georgiev_2025] on low-Reynolds-number rotors near the ground, [Shirbhate et al 2025][research_shirbhate_2025] and [Boschetti et al 2022][research_boschetti_2022] on wings, and the control consequence is [Kato and Suzuki 2019][research_kato_suzuki_2019]. The ingestion and erosion problems the X-14 programme met are [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_5], [Ghosh and Rajagopalan 2022][research_ghosh_rajagopalan_2022], [Mora and García 2022][research_mora_garcia_2022], and [Sharma et al 2021][research_sharma_2021], and the prepared surface itself is [Guleria et al 2023][research_guleria_2023].
+
+**What has changed is whose problem it is.** The infrastructure literature is now substantial in its own right, in [Li et al 2026, Urban air mobility vertiports][research_li_2026_3], [Lyu and Feng 2026][research_lyu_feng_2026], [Mirković et al 2026][research_mirkovic_2026], [Zhou et al 2026][research_zhou_2026], and [Rajendran et al 2023][research_rajendran_2023], with noise in [Rizzi et al 2026][research_rizzi_2026] and [Pascioni et al 2026][research_pascioni_2026], risk in [Hu et al 2026, Urban Air Mobility Risk Assessment][research_hu_2026_2], [Chen et al 2026, Flight path planning with ground r][research_chen_2026_4], and [Dai et al 2024][research_dai_2024], and crashworthiness and battery safety in [Schatrow et al 2026][research_schatrow_2026] and [Bosch et al 2026][research_bosch_2026]. **The requirement did not go away. The expectation did.**
+
+### The Tip-Fan Failure Mode Survives, and Was Beaten by the Drive
+
+The most transferable single result in this article is that the X-14A's tip-turbine fans met the control-power criterion exactly and were unflyable because of their time constants.
+
+**A multirotor changes its attitude moment by changing rotor speed, which is precisely the mechanism that failed in 1969.** The rotors are of comparable size, since the X-14A's fans were 12.8 inches in diameter and a small quadrotor's rotors are of that order. What changed is the drive. An electric motor delivers far more torque per unit of rotor inertia than a bleed-fed tip turbine, so the same geometry has a much shorter time constant, and the failure mode is avoided rather than removed. The electric propulsion and power literature that sets those limits is [Litt 2025][research_litt_2025], [Xiao et al 2024][research_xiao_2024], [Jing et al 2025][research_jing_2025], [Park 2026][research_park_2026], [Nakayama et al 2026][research_nakayama_2026], [Li and Jiang 2026][research_li_jiang_2026], [Critchfield and Ning 2026][research_critchfield_ning_2026], and [Liu et al 2024, Flight analysis and optimization d][research_liu_2024_3], with the configuration space surveyed in [Chen et al 2026, Electric Vtol design exploration a][research_chen_2026_3]. Morphing and reconfiguration, which changes the plant in flight the way the X-14A's system changed it artificially, is [Zhu et al 2025, Aerodynamics-Driven Morphing Contr][research_zhu_2025_2]. Fleet reliability and cyber integrity now sit alongside, in [Emeto et al 2026][research_emeto_2026] and [Ide and Landman 2025][research_ide_landman_2025], with rotor-scale effects in [Pieris et al 2023][research_pieris_2023].
 
 ### What Has Not Changed
 
-Three of this article's findings have no modern remedy.
+Four of this article's findings have no modern remedy.
 
-**Attitude control still costs lift on any vehicle that produces both from the same source.** An electric multirotor produces attitude moments by differential rotor thrust, which is thrust not being used to hold the vehicle up, and the accounting is the same as the X-14's even though the hardware is not.
+**Control power still falls inversely with span**, by the same exponent, through a mechanism that shares no hardware with the one that produced it. Large hovering vehicles are still hard.
 
-**The threshold is still a property of the person.** No amount of modelling has removed the need to ask a human being whether an aircraft is acceptable, which is why the Cooper-Harper scale is still in use sixty years after the scale the X-14A used.
+**Attitude authority is still taken from lift** on any vehicle that produces both from the same source. The multirotor's advantage is that its differential is zero-mean rather than that its control is free.
 
-**And gravity is still not adjustable.** Every argument in this article about what the X-14 could not simulate applies unchanged to any Earth-based simulator for any other body, which is why lunar landing training vehicles remain a live engineering subject rather than a historical one.
+**The threshold is still a property of the person.** No amount of modelling has removed the need to ask a human being whether a vehicle is acceptable, which is why a rating scale devised in the 1950s is still in use.
+
+**And gravity is still not adjustable.** Every argument in this article about what the X-14 could not simulate applies unchanged to any Earth-based simulator for any other body, which is why reduced-gravity flight remains a live engineering subject rather than a historical one.
 
 ## Where the Framing Breaks Down
 
@@ -965,9 +1057,7 @@ There is nothing anomalous about the X-14 designation. It was assigned in sequen
 
 One asymmetry in the record is worth setting down, because the contrast says something about how each programme was run. The tail-sitting alternative is far better documented in the scale-model literature. The [X-13][related_post_a310_ryan_x13] was preceded by free-flight model work in [Smith 1958][research_smith_1958] and derivative measurements in [Shanks and Smith 1959][research_shanks_smith_1959] and [Shanks and Smith 1960][research_shanks_smith_1960], and the earlier Convair tail-sitter by [Lovell et al 1953][research_lovell_1953] and the four-part derivative series beginning at [Queijo et al 1953][research_queijo_1953]. **The X-14's control-power question could not be attacked that way at all**, because the quantity being sought is a property of a pilot and a model has no pilot in it.
 
-The point that does deserve comment is the pairing. The X-13 and the X-14 are consecutive designations covering two solutions to the same problem, a jet aircraft that takes off vertically. The [X-13][related_post_a310_ryan_x13] solved it by standing the whole aircraft on its tail and the X-14 by turning the exhaust while the aircraft stayed level. **The second approach is the one that survived**, in the Harrier and everything descended from it, and the designation sequence records the comparison without comment. The subsequent literature is about how to fly the surviving configuration rather than whether to build it, running through [Huntley 1972][research_huntley_1972] on minimising landing transition distance, [Karemaa 1971][research_karemaa_1971] on hybrid jet-lift take-off and landing, [Nishimura 1980][research_nishimura_1980] on the fuel-minimal take-off path, and [Morello et al 1972][research_morello_1972] on a flight evaluation of a vectored-thrust aeroplane during simulated instrument approaches. The inlet problem the configuration creates for itself is [Grahame 1968][research_grahame_1968] and [Grahame 1969][research_grahame_1969], the configuration management the transition demands is [Johnson and Craig 1974][research_johnson_craig_1974], and the whole development is reviewed from a distance in [Anderson 1983][research_anderson_1983].
-
-The criteria the X-14A produced were applied well beyond the aircraft that produced them. The lift-fan branch runs through [Przedpelski 1965][research_przedpelski_1965], [Hill and Waters 1974][research_hill_waters_1974], [Bland et al 1976][research_bland_1976], and [Sellers et al 1977][research_sellers_1977], and reaches an integrated flight and propulsion treatment in [Chung et al 1995, Simulation model of the integrated][research_chung_1995_2]. The tail-sitting configuration returned to simulation in [Hill 1981][research_hill_1981] and [Hill 1983][research_hill_1983], which is the [X-13][related_post_a310_ryan_x13]'s layout being re-examined a quarter of a century later with the criteria this aircraft supplied. Rotorcraft response requirements were settled the same way in [Mitchell et al 1987, A flight investigation of helicopt][research_mitchell_1987_2] and [Mitchell et al 1989][research_mitchell_1989], with hovering dynamics and pilot performance in [Aponso et al 1987][research_aponso_1987] and control and display dynamics for hover in [Eshow 1990][research_eshow_1990]. Even vehicles with no wing at all inherited the framework, in [Putman et al 1977][research_putman_1977] and [Curtiss and Sumantran 1985][research_curtiss_sumantran_1985] on hovering airships, and the rotor case in [Curtiss 1973][research_curtiss_1973].
+The point that does deserve comment is the pairing. The X-13 and the X-14 are consecutive designations covering two solutions to the same problem, a jet aircraft that takes off vertically. The [X-13][related_post_a310_ryan_x13] solved it by standing the whole aircraft on its tail and the X-14 by turning the exhaust while the aircraft stayed level. **The second approach is the one that survived**, in the Harrier and everything descended from it, and the designation sequence records the comparison without comment.
 
 ## The Source Base
 
@@ -999,6 +1089,12 @@ The vehicle specifications come from secondary compilations and **they disagree 
 
 **Anachronism, flagged.** The bandwidth and phase-delay framing used in the discussion of what the criterion missed postdates the X-14A's principal results by decades. It is applied here because the tip-fan failure of 1969 is unintelligible without it, and the aircraft's own programme produced the evidence that the magnitude criterion was incomplete before the vocabulary existed to say so.
 
+**The three modern reference vehicles are representative rather than actual.** Their masses, rotor radii, thrust-to-weight ratios, and radii of gyration were chosen as plausible for their classes rather than taken from any particular aircraft, and the radius of gyration fraction used for all three is 0.2 rather than the 0.137 recovered for the X-14. The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation. **The specific control powers are not**, and a reader who substitutes a real vehicle's inertia should expect the third significant figure to move.
+
+**The comparison of what attitude control costs then and now carries one assumption that the sources do not settle.** The 7.41 percent bleed penalty is inverted from a reported thrust increase rather than from a duty-cycle-weighted measurement, which is consistent with a standing bleed rather than a demand-only one. If the X-14A's supply were demand-only, the average penalty would be lower while the peak figure stayed the same, and the contrast drawn against a multirotor's zero-mean differential would be overstated. This is flagged in the text where the comparison is made, and no other conclusion in the article depends on which arrangement it was.
+
+**The claim that the modern attitude loop closes an order of magnitude above the X-14A's damping break is a comparison of a stated range against a computed value.** The ten to thirty radians per second figure is the commonly quoted band for a small vehicle's inner loop rather than a measurement made here, and the conclusion that the X-14A sat in its fourth-order regime throughout its pilots' working band follows from its own synthesised dampings of 0.45 and 0.59 per second, which are reported values.
+
 ## Out of Scope
 
 The transition aerodynamics of jet-lift aircraft, including induced lift loss and the ground vortex, are treated only where they bear on control. Hot gas ingestion and ground erosion, which the sources identify as significant operational problems, are noted and not analysed. The Cooper-Harper scale's development and its statistical properties are a subject in their own right and are treated only far enough to state why an ordinal scale limits what the experiment concluded. The Lunar Landing Research Vehicle and Lunar Landing Training Vehicle are discussed only as the answer to a limitation of the X-14 and not on their own terms. The Hawker P.1127 and the Harrier line are the obvious descendants of vectored-thrust jet lift and are out of scope here. The detailed thermodynamics of compressor bleed extraction, including the stage from which air is taken and the effect on surge margin, is not treated.
@@ -1029,7 +1125,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 
 [ref_bonanza]: https://en.wikipedia.org/wiki/Beechcraft_Bonanza
 [ref_cooper_harper]: https://en.wikipedia.org/wiki/Cooper%E2%80%93Harper_rating_scale
-[ref_llrv]: https://en.wikipedia.org/wiki/Bell_Aerosystems_Lunar_Landing_Research_Vehicle
+[ref_llrv]: https://en.wikipedia.org/wiki/Lunar_Landing_Research_Vehicle
 [ref_t34]: https://en.wikipedia.org/wiki/Beechcraft_T-34_Mentor
 [ref_x14]: https://en.wikipedia.org/wiki/Bell_X-14
 [ref_x15]: https://en.wikipedia.org/wiki/North_American_X-15
@@ -1038,49 +1134,64 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 
 [research_adams_1972]: https://doi.org/10.2514/6.1972-962
 [research_adams_hatch_1970]: https://doi.org/10.2514/6.1970-568
+[research_agren_2026]: https://doi.org/10.2514/1.g009064
 [research_aiken_1977]: https://ntrs.nasa.gov/citations/19780011162
 [research_albachten_1956]: https://doi.org/10.21236/ad0116273
+[research_aldosari_feron_2025]: https://doi.org/10.1007/s12217-025-10182-8
 [research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
 [research_anderson_1979]: https://ntrs.nasa.gov/citations/19790019011
 [research_anderson_1983]: https://ntrs.nasa.gov/citations/19830068366
 [research_andrisani_1982]: https://doi.org/10.2514/6.1982-1294
 [research_antonakis_2025]: https://doi.org/10.1016/j.ast.2025.110020
+[research_antonakis_2025_2]: https://doi.org/10.1007/s13272-025-00815-4
 [research_aponso_1987]: https://ntrs.nasa.gov/citations/19870063261
 [research_armstrong_nassiff_1968]: https://doi.org/10.2514/6.1968-254
-[research_bahr_2022]: https://doi.org/10.1017/aer.2021.114
+[research_asghari_tayefi_2026]: https://doi.org/10.1109/access.2026.3679992
 [research_barzda_1966]: https://doi.org/10.2514/6.1966-733
 [research_baska_robbins_1966]: https://ntrs.nasa.gov/citations/19660023333
 [research_baxter_finvold_1958]: https://doi.org/10.4271/580070
 [research_behan_siciliani_1965]: https://doi.org/10.2514/6.1965-722
 [research_besco_1964]: https://doi.org/10.2514/6.1964-1227
+[research_bidinotto_2022]: https://doi.org/10.1017/aer.2021.82
 [research_biezad_schmidt_1984]: https://doi.org/10.2514/6.1984-1899
 [research_bigham_1970]: https://doi.org/10.1177/003754977001500107
 [research_binion_w_1970]: https://doi.org/10.21236/ad0711665
 [research_bland_1976]: https://ntrs.nasa.gov/citations/19770007094
 [research_blanken_pausder_1994]: https://ntrs.nasa.gov/citations/19950043496
 [research_blanken_whalley_1993]: https://ntrs.nasa.gov/citations/19940008821
+[research_bosch_2026]: https://doi.org/10.1007/s13272-025-00917-z
+[research_boschetti_2022]: https://doi.org/10.2514/1.c036721
 [research_bramwell_1956]: https://doi.org/10.1017/s0001924000126089
 [research_brandon_1995]: https://ntrs.nasa.gov/citations/19970005147
 [research_breul_1963]: https://doi.org/10.21236/ad0402774
 [research_brown_1965]: https://doi.org/10.2514/6.1965-756
 [research_butler_thomas_1964]: https://doi.org/10.21236/ad0613342
 [research_campbell_1962]: https://ntrs.nasa.gov/citations/19630017020
+[research_caprace_2025]: https://doi.org/10.2514/1.j065017
 [research_carpenter_jenny_1964]: https://doi.org/10.2514/6.1964-286
 [research_chalk_1969]: https://doi.org/10.21236/ad0860856
+[research_chen_2026]: https://doi.org/10.3390/aerospace13030221
+[research_chen_2026_2]: https://doi.org/10.1016/j.conengprac.2026.107073
+[research_chen_2026_3]: https://doi.org/10.3389/arc.2026.16513
+[research_chen_2026_4]: https://doi.org/10.1016/j.ress.2025.112176
+[research_chornyi_2026]: https://doi.org/10.15587/2706-5448.2026.362822
 [research_christiansen_1985]: https://ntrs.nasa.gov/citations/19860053601
 [research_chung_1995_2]: https://ntrs.nasa.gov/citations/19950019992
 [research_ciepluch_1979]: https://ntrs.nasa.gov/citations/19800001979
 [research_clark_1964]: https://doi.org/10.2514/6.1964-618
 [research_cole_england_1967]: https://doi.org/10.21236/ad0658448
+[research_comer_2026]: https://doi.org/10.2514/1.g009060
 [research_condit_1966]: https://ntrs.nasa.gov/citations/19660029515
 [research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
 [research_costello_1968]: https://doi.org/10.1109/tmms.1968.300028
 [research_creer_1959]: https://ntrs.nasa.gov/citations/19980228135
+[research_critchfield_ning_2026]: https://doi.org/10.2514/1.c038445
 [research_curry_1965]: https://doi.org/10.21236/ad0617748
 [research_curtiss_1973]: https://doi.org/10.2514/3.60228
 [research_curtiss_sumantran_1985]: https://doi.org/10.2514/3.20051
 [research_daffer_rogers_1973]: https://doi.org/10.21236/ad0764865
 [research_dahl_1962]: https://doi.org/10.1016/b978-0-12-395586-9.50032-5
+[research_dai_2024]: https://doi.org/10.1016/j.ress.2023.109908
 [research_davis_spicer_1965]: https://doi.org/10.2514/6.1965-1425
 [research_deets_1978]: https://ntrs.nasa.gov/citations/19780015077
 [research_denning_1962]: https://doi.org/10.4271/620308
@@ -1094,8 +1205,12 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_drinkwater_1965]: https://ntrs.nasa.gov/citations/19650009016
 [research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
 [research_dukes_1970]: https://doi.org/10.21236/ad0871424
+[research_efremov_2022]: https://doi.org/10.34759/vst-2022-1-201-210
 [research_elkind_forgie_1959]: https://doi.org/10.1109/tac.1959.6429402
 [research_elliott_schreiber_1964]: https://doi.org/10.2514/6.1964-805
+[research_emeto_2026]: https://doi.org/10.3389/ffutr.2026.1827528
+[research_enenakpogbe_2024]: https://doi.org/10.3390/aerospace11120979
+[research_enenakpogbe_2025]: https://doi.org/10.1016/j.ast.2025.110145
 [research_eney_1967]: https://doi.org/10.2514/6.1967-576
 [research_englar_kirkpatrick_1969]: https://doi.org/10.21236/ad0703669
 [research_erwin_1964]: https://doi.org/10.21236/ad0609059
@@ -1115,8 +1230,10 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_garren_kelly_1965]: https://ntrs.nasa.gov/citations/19650025398
 [research_gentry_margason_1966]: https://ntrs.nasa.gov/citations/19660006875
 [research_george_1964]: https://doi.org/10.21236/ad0608185
+[research_georgiev_2025]: https://doi.org/10.3846/aviation.2025.23587
 [research_gerdes_1964]: https://ntrs.nasa.gov/citations/19640018145
 [research_gerdes_rolls_1969]: https://ntrs.nasa.gov/citations/19690029422
+[research_ghosh_rajagopalan_2022]: https://doi.org/10.4050/jahs.67.012001
 [research_goka_1980]: https://ntrs.nasa.gov/citations/19800061737
 [research_gold_walchli_1974]: https://doi.org/10.2514/6.1974-952
 [research_goldberger_1966]: https://doi.org/10.21236/ad0644191
@@ -1127,14 +1244,18 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_greene_russo_1967]: https://doi.org/10.2514/6.1967-249
 [research_greenwood_1960]: https://doi.org/10.1037/e417302004-001
 [research_greif_1972]: https://ntrs.nasa.gov/citations/19720020365
+[research_guleria_2023]: https://doi.org/10.1016/j.matpr.2022.09.433
 [research_hafer_skinner_1960]: https://doi.org/10.21236/ad0472676
 [research_haines_1980]: https://ntrs.nasa.gov/citations/19800017541
+[research_han_2024]: https://doi.org/10.3390/drones8030101
+[research_han_2025]: https://doi.org/10.3390/drones9080585
 [research_harper_cooper_1984]: https://doi.org/10.2514/6.1984-2442
 [research_harper_p_1955]: https://doi.org/10.21236/ad0092496
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
 [research_harvey_waugh_1976]: https://doi.org/10.21236/ada023728
 [research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
 [research_henderson_1963]: https://doi.org/10.2514/6.1963-1010
+[research_herrington_2024]: https://doi.org/10.1142/s2301385024500080
 [research_hess_1977]: https://ntrs.nasa.gov/citations/19780028540
 [research_hess_1981]: https://doi.org/10.2514/6.1981-1771
 [research_hess_1984]: https://doi.org/10.2514/6.1984-236
@@ -1148,41 +1269,72 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_hoh_1985]: https://ntrs.nasa.gov/citations/19850061706
 [research_hoh_mitchell_1983]: https://doi.org/10.21236/ada132857
 [research_howard_1976]: https://ntrs.nasa.gov/citations/19990117220
+[research_hu_2026_2]: https://doi.org/10.3390/drones10010046
+[research_huecas_2022]: https://doi.org/10.4050/jahs.67.032007
 [research_huntley_1972]: https://doi.org/10.1017/s0001924000043104
 [research_hutchings_1977]: https://ntrs.nasa.gov/citations/19780011161
+[research_ide_landman_2025]: https://doi.org/10.1108/ijius-11-2024-0335
 [research_innis_anderson_1972]: https://ntrs.nasa.gov/citations/19730024222
+[research_inoue_2026]: https://doi.org/10.1016/j.asr.2026.02.069
+[research_ioannis_ioannis_2026]: https://doi.org/10.70322/dav.2026.10005
 [research_irvin_swan_1956]: https://doi.org/10.21236/ad0147927
+[research_ito_2025]: https://doi.org/10.2514/1.g008746
+[research_ivler_2022]: https://doi.org/10.4050/jahs.67.012002
+[research_jafari_2023]: https://doi.org/10.1007/s40435-022-01054-9
+[research_janetzko_2026]: https://doi.org/10.1007/s10111-026-00883-4
 [research_jarvis_1967]: https://doi.org/10.2514/6.1967-273
+[research_ji_2022]: https://doi.org/10.1016/j.ast.2022.107501
+[research_jing_2025]: https://doi.org/10.1109/jestpe.2024.3522909
 [research_johns_1989]: https://ntrs.nasa.gov/citations/19900037988
 [research_johns_1990]: https://ntrs.nasa.gov/citations/19900016693
 [research_johnson_craig_1974]: https://doi.org/10.2514/6.1974-836
 [research_johnston_1965]: https://doi.org/10.21236/ad0622578
 [research_johnston_friend_1965]: https://doi.org/10.4050/sm_vstol_1965-2533
 [research_juhasz_2025]: https://doi.org/10.1017/aer.2025.35
+[research_jusko_berger_2026]: https://doi.org/10.4050/jahs.71.022007
 [research_kamman_hall_1978]: https://doi.org/10.21236/ada062097
 [research_karemaa_1971]: https://doi.org/10.2514/6.1971-767
+[research_kato_suzuki_2019]: https://doi.org/10.1299/jsmemovic.2019.16.c110
 [research_keller_1969]: https://doi.org/10.2514/6.1969-545
 [research_kelly_1977]: https://ntrs.nasa.gov/citations/19770021193
 [research_kesselyak_1974]: https://doi.org/10.2514/6.1974-1039
 [research_key_1965]: https://doi.org/10.2514/6.1965-706
 [research_key_1971]: https://doi.org/10.21236/ad0725746
 [research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
+[research_kie_2026]: https://doi.org/10.3390/aerospace13040343
 [research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
 [research_kluever_1967]: https://doi.org/10.2514/6.1967-238
 [research_kohn_1972]: https://doi.org/10.1115/72-gt-73
 [research_kotansky_1982]: https://ntrs.nasa.gov/citations/19820015292
+[research_kozhanov_2022]: https://doi.org/10.52348/2712-8873_mmtt_2022_5_45
 [research_kuhn_1979]: https://doi.org/10.21236/ada073099
+[research_lan_2025]: https://doi.org/10.1016/j.asr.2025.04.077
+[research_lee_2026]: https://doi.org/10.1017/jfm.2026.11347
 [research_lemons_dukes_1975]: https://ntrs.nasa.gov/citations/19750025623
 [research_levinsky_1968]: https://doi.org/10.21236/ad0680969
 [research_levison_1982]: https://ntrs.nasa.gov/citations/19820026174
+[research_li_2024]: https://doi.org/10.3390/aerospace11060424
+[research_li_2024_2]: https://doi.org/10.3390/aerospace11121020
+[research_li_2025_5]: https://doi.org/10.3390/aerospace12100927
+[research_li_2026_3]: https://doi.org/10.1016/j.urbmob.2026.100265
+[research_li_2026_5]: https://doi.org/10.1016/j.displa.2025.103292
+[research_li_jiang_2026]: https://doi.org/10.1016/j.energy.2026.140162
+[research_lin_2025]: https://doi.org/10.1080/00423114.2024.2361726
 [research_lissaman_1967]: https://doi.org/10.2514/6.1967-2
+[research_litt_2025]: https://doi.org/10.1115/1.4066589
+[research_liu_2024_3]: https://doi.org/10.1016/j.ast.2024.109143
+[research_liu_2026]: https://doi.org/10.3390/act15010051
+[research_liu_2026_3]: https://doi.org/10.1109/jiot.2026.3697060
+[research_liu_kaber_2025]: https://doi.org/10.1080/00140139.2025.2608273
 [research_lollar_matous_1963]: https://doi.org/10.1109/thfe.1963.231288
 [research_longhurst_1966]: https://doi.org/10.4271/660315
 [research_lovell_1953]: https://ntrs.nasa.gov/citations/20050029472
+[research_lyu_feng_2026]: https://doi.org/10.1016/j.tranpol.2026.104345
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
 [research_margason_1966]: https://ntrs.nasa.gov/citations/19660015330
 [research_markson_1963]: https://doi.org/10.1016/b978-0-12-395707-8.50027-9
 [research_martin_1963]: https://doi.org/10.2514/6.1963-484
+[research_matt_altamirano_2026]: https://doi.org/10.2514/1.c038636
 [research_mc_lemore_1966]: https://ntrs.nasa.gov/citations/19660018439
 [research_mccabe_1967]: https://ntrs.nasa.gov/citations/19670061371
 [research_mccabe_1967_2]: https://ntrs.nasa.gov/citations/19670041333
@@ -1197,12 +1349,16 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_merrick_1984]: https://ntrs.nasa.gov/citations/19850006532
 [research_michaelsen_1971]: https://doi.org/10.2514/6.1971-992
 [research_miller_1948]: https://doi.org/10.2514/8.11623
+[research_mirkovic_2026]: https://doi.org/10.1016/j.urbmob.2025.100181
 [research_mitchell_1964]: https://doi.org/10.21236/ad0449587
 [research_mitchell_1987_2]: https://ntrs.nasa.gov/citations/19870062304
 [research_mitchell_1989]: https://ntrs.nasa.gov/citations/19890064331
 [research_mitchell_hart_1993]: https://ntrs.nasa.gov/citations/19940008844
 [research_moen_yenni_1975]: https://ntrs.nasa.gov/citations/19760004969
+[research_mohammadi_2023]: https://doi.org/10.1108/aeat-04-2023-0090
+[research_mohan_2025]: https://doi.org/10.1080/00140139.2024.2404642
 [research_mooij_1973]: https://ntrs.nasa.gov/citations/19750011079
+[research_mora_garcia_2022]: https://doi.org/10.2514/1.j060439
 [research_morello_1972]: https://ntrs.nasa.gov/citations/19720016362
 [research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
 [research_morse_newhouse_1961]: https://doi.org/10.21236/ad0264226
@@ -1217,39 +1373,72 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_naca_1975]: https://ntrs.nasa.gov/citations/19750025602
 [research_naca_1977]: https://ntrs.nasa.gov/citations/19790009304
 [research_naca_1981]: https://ntrs.nasa.gov/citations/19820005792
+[research_nakayama_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132253
 [research_newell_1963]: https://doi.org/10.21236/ad0425705
+[research_newton_kroo_2025]: https://doi.org/10.2514/1.g008400
 [research_nichols_1963]: https://doi.org/10.1017/s0001924000062783
 [research_nishimura_1980]: https://doi.org/10.2514/3.57903
 [research_obryan_1966]: https://ntrs.nasa.gov/citations/19660059610
 [research_owen_cox_1966]: https://doi.org/10.1016/0022-460x(66)90141-6
+[research_pan_2026]: https://doi.org/10.1088/1742-6596/3207/1/012030
+[research_park_2026]: https://doi.org/10.1016/j.enconman.2025.120868
 [research_parrish_bowles_1983]: https://ntrs.nasa.gov/citations/19830013921
+[research_pascioni_2026]: https://doi.org/10.2514/1.c038487
 [research_patierno_asdurian_1965]: https://doi.org/10.4050/sm_vstol_1965-3112
 [research_pausder_blanken_1992]: https://ntrs.nasa.gov/citations/19940035438
 [research_pausder_blanken_1993]: https://ntrs.nasa.gov/citations/19940008827
 [research_payne_1955]: https://doi.org/10.1017/s0368393100116955
 [research_perry_2023]: https://doi.org/10.2514/1.c036616
 [research_person_robbins_1965]: https://ntrs.nasa.gov/citations/19660022563
+[research_pfeifle_fichter_2023]: https://doi.org/10.2514/1.g006929
+[research_pieris_2023]: https://doi.org/10.1063/5.0151616
+[research_pleffken_2026]: https://doi.org/10.58940/2374-6793.2089
 [research_pollack_1967]: https://doi.org/10.2514/6.1967-241
+[research_prakash_2026]: https://doi.org/10.3390/electronics15122743
+[research_prochazkova_juracka_2026]: https://doi.org/10.1016/j.trpro.2026.01.012
 [research_przedpelski_1965]: https://doi.org/10.2514/6.1965-708
 [research_putman_1977]: https://doi.org/10.21236/ada045315
+[research_qin_2023]: https://doi.org/10.1049/cth2.12427
+[research_qin_2025]: https://doi.org/10.3390/s25020405
 [research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
+[research_rahuman_lee_2026]: https://doi.org/10.1007/s42405-026-01139-1
+[research_rajendran_2023]: https://doi.org/10.1080/23302674.2023.2252737
 [research_rampy_1966]: https://doi.org/10.21236/ad0641371
+[research_rashid_2025]: https://doi.org/10.15866/irease.v18i5.25896
+[research_rezaei_khosravi_2023]: https://doi.org/10.36909/jer.16725
 [research_rhoads_1967]: https://doi.org/10.21236/ad0820790
 [research_rhoads_1970]: https://doi.org/10.21236/ad0876589
 [research_riley_1989]: https://ntrs.nasa.gov/citations/19900002435
 [research_rimer_sperling_1965]: https://doi.org/10.2514/6.1965-1437
+[research_rizzi_2026]: https://doi.org/10.2514/1.c038188
+[research_robbiani_2025]: https://doi.org/10.2514/1.g009058
 [research_roberts_1964]: https://doi.org/10.1007/978-3-7091-4688-0_3
 [research_rolls_1965]: https://ntrs.nasa.gov/citations/19650021531
 [research_rolls_1965_4]: https://ntrs.nasa.gov/citations/19660013004
 [research_roscoe_1975]: https://doi.org/10.21236/ada022459
+[research_ruddenklau_schitter_2026]: https://doi.org/10.1016/j.actaastro.2025.12.026
+[research_ruggia_2025]: https://doi.org/10.1016/j.robot.2025.105176
+[research_saetti_rogers_2024]: https://doi.org/10.4050/jahs.69.042007
+[research_sagaga_lee_2025]: https://doi.org/10.4050/jahs.70.032004
+[research_sandoval_2024]: https://doi.org/10.2514/1.g007086
+[research_santos_2024]: https://doi.org/10.55592/cilamce.v6i06.10276
+[research_sasaki_2025]: https://doi.org/10.1016/j.actaastro.2025.01.021
+[research_sato_wada_2025]: https://doi.org/10.1016/j.ifacol.2025.12.489
 [research_schade_1968]: https://ntrs.nasa.gov/citations/19680064091
+[research_schatrow_2026]: https://doi.org/10.1080/13588265.2025.2588900
 [research_schwartz_shearer_1964]: https://doi.org/10.2514/6.1964-773
+[research_scordamaglia_2025]: https://doi.org/10.1109/ojcsys.2025.3619810
 [research_sellers_1977]: https://ntrs.nasa.gov/citations/19770052110
 [research_sellers_szuch_1973]: https://ntrs.nasa.gov/citations/19730007088
 [research_shanks_smith_1959]: https://ntrs.nasa.gov/citations/19980235622
 [research_shanks_smith_1960]: https://ntrs.nasa.gov/citations/19980230619
+[research_sharma_2021]: https://doi.org/10.2514/1.c035973
+[research_shen_chen_2025]: https://doi.org/10.3390/drones9090624
+[research_shirbhate_2025]: https://doi.org/10.1007/s12046-025-02838-3
+[research_shubert_2026]: https://doi.org/10.4050/jahs.71.042008
 [research_simmons_2023_2]: https://doi.org/10.2514/1.c037260
 [research_sinacori_1986]: https://doi.org/10.21236/ada359459
+[research_singh_2024]: https://doi.org/10.1109/lcsys.2023.3342094
 [research_sissingh_1956]: https://doi.org/10.21236/ad0116272
 [research_skifstad_1970]: https://doi.org/10.2514/3.44146
 [research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
@@ -1258,28 +1447,54 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_smith_1966_2]: https://doi.org/10.2514/3.43700
 [research_smith_1973]: https://doi.org/10.21236/ad0754840
 [research_smith_1974]: https://ntrs.nasa.gov/citations/19740048075
+[research_spadao_2026]: https://doi.org/10.3390/dynamics6020021
 [research_stapleford_1980]: https://doi.org/10.4271/801206
+[research_stephenson_2026]: https://doi.org/10.3390/systems14020167
 [research_stevens_roskam_1985]: https://ntrs.nasa.gov/citations/19860003826
+[research_strampe_klingauf_2026]: https://doi.org/10.2514/1.g009745
 [research_strand_1967]: https://doi.org/10.2514/3.43869
+[research_su_2024]: https://doi.org/10.1016/j.compeleceng.2024.109753
 [research_takahashi_1994]: https://ntrs.nasa.gov/citations/20020014293
 [research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
 [research_tapscott_1960_2]: https://ntrs.nasa.gov/citations/19740076595
 [research_tomizuka_whitney_1976]: https://doi.org/10.1115/1.3427058
 [research_tosti_1961]: https://ntrs.nasa.gov/citations/19980227992
+[research_turco_2026]: https://doi.org/10.1109/tro.2026.3712459
 [research_vallerie_1967]: https://ntrs.nasa.gov/citations/19670020039
 [research_vinje_1968]: https://doi.org/10.1109/tmms.1968.300015
 [research_vinje_miller_1973]: https://doi.org/10.21236/ad0769868
 [research_wachtell_1970]: https://doi.org/10.21236/ad0874029
+[research_wahba_honig_2024]: https://doi.org/10.1109/lra.2024.3351001
 [research_walker_1965]: https://doi.org/10.21236/ad0617129
-[research_wang_2026_4]: https://doi.org/10.1016/j.cnsns.2026.110180
+[research_wang_2023_3]: https://doi.org/10.3390/aerospace10090799
+[research_wang_2024_3]: https://doi.org/10.1142/s2737480724500110
+[research_wang_2025]: https://doi.org/10.1016/j.ast.2025.110533
+[research_wang_2026]: https://doi.org/10.1007/s11432-025-4754-9
+[research_wang_2026_6]: https://doi.org/10.1016/j.cnsns.2026.110180
+[research_wang_2026_7]: https://doi.org/10.1016/j.isatra.2025.12.046
 [research_wang_chen_2024]: https://doi.org/10.3390/aerospace11090711
 [research_washizu_1978]: https://ntrs.nasa.gov/citations/19790007419
 [research_watson_hindson_1988]: https://ntrs.nasa.gov/citations/19890005747
 [research_westbrook_1964]: https://doi.org/10.2514/6.1964-777
 [research_white_1960]: https://doi.org/10.21236/ad0251154
 [research_williams_butler_1964]: https://doi.org/10.2514/6.1964-1103
-[research_xu_2025_3]: https://doi.org/10.1109/thms.2024.3502178
+[research_xiao_2024]: https://doi.org/10.3390/aerospace11050408
+[research_xu_2025_2]: https://doi.org/10.1109/thms.2024.3502178
+[research_xu_2026]: https://doi.org/10.3390/s26123627
+[research_yang_2023]: https://doi.org/10.2514/1.g007179
+[research_yi_feng_2025]: https://doi.org/10.1088/1742-6596/3033/1/012001
+[research_ylmaz_german_2024]: https://doi.org/10.1016/j.ast.2024.109595
+[research_yoon_2025]: https://doi.org/10.1016/j.conengprac.2024.106235
 [research_young_1964]: https://doi.org/10.1109/thfe.1964.231648
+[research_yuan_2022]: https://doi.org/10.1016/j.ast.2022.107516
+[research_yuan_2023]: https://doi.org/10.1016/j.oceaneng.2023.113976
+[research_zanoni_2022]: https://doi.org/10.1007/s42496-022-00107-8
+[research_zhang_2024]: https://doi.org/10.3390/app14093639
+[research_zhang_2025]: https://doi.org/10.1142/s2737480725500256
+[research_zhang_2026_2]: https://doi.org/10.1016/j.isatra.2026.05.030
+[research_zhou_2026]: https://doi.org/10.1007/s42524-026-5302-4
+[research_zhu_2024]: https://doi.org/10.3390/drones8040118
+[research_zhu_2025_2]: https://doi.org/10.2514/1.g008194
 
 ### Related Post
 

@@ -21,10 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
 
-854 lines, 51 display equations, 95 references, 13,322 words after the draft pass; 1088 lines, 103
-equations, 95 references, 15,001 words after the equation review; 1300 lines, 103 equations, 267
-references, 17,821 words after the primary-reference review. **All three densities inside band and
-nothing trimmed at any point.**
+854 lines, 51 equations, 95 references, 13,322 words after the draft pass; 1088 lines, 103 equations,
+95 references, 15,001 words after the equation review; 1300 lines, 103 equations, 267 references,
+17,821 words after the primary-reference review; **1515 lines, 109 equations, 386 references, 19,934
+words after the publication review.** Lines and equations inside band, references 6 above the ceiling
+and reported rather than trimmed. **Nothing was trimmed at any point in any pass.**
 
 **The first article in the series whose subject is an instrument rather than a vehicle.** The X-14 is
 the variable-stability aircraft that produced the attitude control-power criteria A310 borrowed
@@ -151,10 +152,53 @@ Citation density 16.17 per thousand body words, at the top of the 12.82 to 16.58
 Three repeated-phrasing collisions introduced by the insertions were caught by scanning and reading
 and were varied.
 
-**Contemporary references are 10 of 244 dated, or 4.1 percent.** The absolute count is unchanged and
-the percentage fell only because the primary pass grew the denominator. Against the 101 to 189
-absolute count the series has held since A301 this is the largest contemporary gap any article has
-carried into a publication review, and closing it is that pass's principal task.
+**Publication review complete, 2026-08-08. All four passes done.** **1515 lines, 109 display
+equations, 386 references, 19,934 body words.** Contemporary references rose from 10 to **129, or 35.5
+percent of dated**, inside the 101 to 189 absolute range the series has held since A301. References
+finish 6 above the 380 ceiling, reported rather than trimmed under the standing no-reference-limit
+directive, as A309 did. Nothing was trimmed at any point in any pass.
+
+**The pass ran the article's own relations on a vehicle with no bleed, and the result is the strongest
+finding in the article.** Deriving control power for a multirotor from first principles gives
+CP = c_g min(r-1,1) g / (2 kappa^2 b), which is **inversely proportional to span, the same law and the
+same exponent this article derived for bleed-fed reaction nozzles, by a mechanism that shares no
+hardware with it**. The inverse-span dependence is therefore not a property of reaction controls. It
+is a property of making moments with forces at the extremities of a vehicle whose thrust scales with
+its weight, and it survives complete replacement of the propulsion system.
+
+**The cost changed character rather than magnitude.** The X-14A's bleed was a standing tax of 7.41
+percent whether or not the pilot commanded anything. A multirotor's differential is zero-sum, so the
+mean cost of attitude control is zero and what the vehicle pays instead is headroom it needs anyway.
+**The constraint that dominated the X-14 has been dissolved rather than solved**, which is the same
+verdict A310 reached about the X-13 by a different route.
+
+**The constraint moved rather than vanishing.** Setting the multirotor relation equal to the X-14A's
+maximum gives 17.3 metres of span at a thrust-to-weight ratio of 1.4, against the 28 metres at which
+this article found jet lift exhausting its bleed budget. **Large hovering aircraft are still hard, and
+for a reason the X-14A measured.**
+
+**The loop-order result gained a retrospective sting.** A modern attitude loop closes near 10 to 30
+radians per second against the X-14A's damping breaks of 0.45 and 0.59, so **the aircraft sat in its
+fourth-order regime across the whole of the band its pilots worked in**, which is the sharpest
+available explanation of why it was hard to fly.
+
+Representative modern vehicles: a small quadrotor at 173 rad/s2, a cargo multirotor at 54.2, an air
+taxi at 4.33, against the X-14A's 2.0, or 87, 27, and 2.2 times.
+
+**Two defects found and fixed.** The URL-stability guard fired on the master rebuild and caught **two
+cited anchors that had drifted to different documents**, a biplane tail-sitter paper and a shared
+control paper, both repointed. And measuring citation density by section found **The Designation
+section at 56.6 citations per thousand words**, the densest in the article, because the primary pass
+had attached two paragraphs about the criteria's later application to a section about the designation;
+they were moved to What the Data Changed with the citation count asserted unchanged.
+
+**One URL defect found by sweeping all 372.** The Lunar Landing Research Vehicle reference pointed at
+a Wikipedia title that returns 404 and was repointed to the page that exists. The sweep returned 185
+plain 200s, 121 publisher 403s from bot detection, 51 DTIC DOI redirects to a .mil host that 403s by
+policy, 13 202s, and one openlibrary rate limit. **An HTTP 200 does not verify a citation** and this
+sweep does not claim to.
+
+Primary sources remain 234, or 64.5 percent of dated, above A310's 52.4 percent.
 
 ## X-Planes Ryan X-13 Vertijet A310 2025-10-19
 

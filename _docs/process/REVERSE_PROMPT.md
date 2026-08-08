@@ -9,98 +9,128 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A311 primary-reference review, the third of four passes. **Committed, not pushed.** All
-fifteen articles in the series remain in `_drafts/`.
+**Task**: A311 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All fifteen articles in the series remain in `_drafts/`.
 
 ---
 
-## Two Documents the Article Should Have Had and Did Not
+## Running the Article's Relations on a Vehicle With No Bleed Produced the Strongest Result in It
 
-**The X-14A's own variable-stability system has a paper, and the article was not citing it.**
-[Hegarty et al 1965] describes a system for varying the stability and control of a deflected-jet
-fixed-wing vertical take-off aircraft. That is the X-14A and no other machine, but the title names
-the configuration rather than the aircraft, which is why it was missed by a search keyed to the
-designation. **It is the primary description of the apparatus that produced every number in the
-article**, and it is now cited where the variable-stability system is introduced.
+This is worth putting first because it was not the expected answer and it is not a survey finding.
 
-**The MIL-F-83300 lineage now has a primary source instead of an assertion.** The What the Data
-Changed section claimed the specification descends from the flight and simulator work of the
-preceding decade. [Key 1971] is an account of how MIL-F-83300 was generated, published the year after
-adoption. The conventional-aircraft counterpart is documented the same way in [Chalk et al 1969] for
-MIL-F-8785B, and the specification's subsequent life runs through Vinje and Miller, Hutchings,
-Anderson, and Goldstein. **The claim that this aircraft's output became a contractual obligation is
-now sourced rather than inferred.**
+Deriving control power for a multirotor from first principles, where attitude moments come from
+differential rotor thrust rather than from compressor bleed, gives
 
----
+**CP = c_g · min(r−1, 1) · g / (2 κ² b)**
 
-## Corroboration for Two Things the Article Derived on Its Own
+which is **inversely proportional to span. The same law, and the same exponent, that this article
+derived for bleed-fed reaction nozzles, by a mechanism that shares no hardware with it.**
 
-**The scaling argument has a second contemporary paper.** The article derives that control power at
-fixed bleed fraction falls inversely with span, and cited Johnston and Friend 1965 as evidence the
-field had noticed. [Johnston et al 1965] reports a study of size effects on vertical take-off
-handling-qualities criteria in the same year. **Two papers on the size dependence within three years
-of the first results is not a coincidence**, and it upgrades the corroboration from suggestive to
-firm.
-
-**The two-pilots objection was raised contemporaneously and I did not know it.** The article criticises
-a criterion derived from two test pilots' opinions. [Kidd and Bull 1963] examines how handling
-qualities requirements are influenced by pilot evaluation time and sample size, **published two years
-before the lateral control experiments it applies to**. The field knew the objection and ran the
-experiment anyway, which is a more interesting fact than the objection itself and is now recorded as
-such.
-
-**The bandwidth successor is now sourced.** The claim that the field changed the variable rather than
-the number rests on the Pausder and Blanken bandwidth and time-delay experiments of 1992 to 1994,
-which are the X-14A's own procedure with the independent variables replaced.
+The inverse-span dependence is therefore not a property of reaction controls at all. **It is a
+property of making moments with forces at the extremities of a vehicle whose thrust scales with its
+weight**, and it survives complete replacement of the propulsion system.
 
 ---
 
-## Composition
+## The Cost Changed Character, Not Merely Magnitude
 
-**267 references, 244 of them research, up from 95 and 72 across 26 edits.**
+The X-14A's bleed was a standing tax of 7.41 percent, supplied whether or not the pilot was commanding
+anything. A multirotor's differential is zero-sum, since one rotor rises exactly as much as another
+falls, so **the mean cost of attitude control is zero**. What the vehicle pays instead is thrust
+headroom it needs anyway for climb and gusts, so the attitude requirement is frequently not the
+binding one.
 
-**Primary sources are 234 of 244 dated, or 95.9 percent**, which is the highest share the series has
-carried. That is not a stylistic choice. The X-14's subject is almost entirely a 1955 to 1985
-technical-report literature, and the modern material belongs to the pass that follows. Composition by
-archive is NTRS 105, period 84, DTIC 45, modern 10.
+**The design constraint that dominated the X-14 has been dissolved rather than solved**, which is the
+same verdict the previous article reached about the X-13 by a different route on an aircraft that
+solved vertical take-off the opposite way.
 
-Citation density is 16.17 per thousand body words, at the top of the 12.82 to 16.58 range A310 held.
-The densest paragraph carries nine citations in fifty-five words and is a conference-series listing,
-which is the acceptable form of that shape.
+**But the constraint moved rather than vanishing.** Setting the multirotor relation equal to the
+X-14A's maximum gives **17.3 metres of span at an air-taxi thrust margin**, against the 28 metres at
+which this article found jet lift exhausting its bleed budget. Large hovering aircraft are still hard,
+and for a reason the X-14A measured.
+
+Representative figures: a small quadrotor at 173 rad/s², a cargo multirotor at 54.2, an air taxi at
+4.33, against the X-14A's 2.0.
+
+---
+
+## The Loop-Order Result Gained a Retrospective Sting
+
+The equation pass established that the X-14A presented a fourth-order plant from stick to position,
+third order only below the damping break. The break sat at 0.45 and 0.59 per second, or periods of
+fourteen and eleven seconds.
+
+**A modern attitude loop closes near ten to thirty radians per second**, more than an order of
+magnitude above anything the X-14A could synthesise. **The aircraft therefore sat in its fourth-order
+regime across the whole of the band its pilots actually worked in**, which is the sharpest available
+explanation of why it was hard to fly, and it could only be stated once the modern comparison was
+computed.
+
+---
+
+## Two Defects Found and Fixed
+
+**The URL-stability guard fired on the master rebuild and caught two cited anchors that had drifted to
+different documents.** A biplane tail-sitter paper and a shared-control paper both acquired new
+disambiguation suffixes when the 687 new records were merged. Both were repointed to the documents the
+prose meant. **That is the third consecutive article in which this guard has caught real drift**, and
+it would have been silent corruption without it.
+
+**Measuring citation density by section caught a structural misplacement.** The Designation section
+stood at 56.6 citations per thousand words, the densest in the article and denser than the
+contemporary survey, because the primary pass had attached two paragraphs about the criteria's later
+application to a section whose subject is the designation. They were moved into What the Data Changed,
+with the citation count asserted unchanged across the move. **Found by measuring, not by reading.**
 
 ---
 
 ## Verification
 
-**267 reference definitions, 253 external URLs, zero duplicates, zero orphans.** The URL-stability
-guard fired no drift when the reference section was regenerated, and the link-text invariant reported
-no mismatches, so every citation text equals its master-table display exactly.
+**386 reference definitions, 372 external URLs, zero duplicates, zero orphans.** All 372 URLs swept:
+185 plain 200s, 121 publisher 403s from bot detection, 51 DTIC DOI redirects to a `.mil` host that
+403s by policy, 13 202s, one openlibrary rate limit, and **one genuine 404**, the Lunar Landing
+Research Vehicle reference, which pointed at a Wikipedia title that does not exist and was repointed
+to the one that does. **An HTTP 200 does not verify a citation** and this sweep does not claim to.
 
-`_verify.py` at the 0-error 21-warning corpus baseline from the repository root. Zero contractions,
-em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate
-headings, unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math seams.
-Isolated build succeeding with **103 rendered display blocks matching source exactly**, Part 15
-navigation, no unresolved reference links and no surviving Liquid tags.
+All worked values re-derived independently and reproducing, including every publication-review
+addition. `_verify.py` at the 0-error 21-warning corpus baseline from the repository root. Zero
+contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled
+words, duplicate headings, unbalanced emphasis markers, lone dollar-delimited lines, or adjacent
+display-math seams. Genre section order correct with The Source Base immediately before the Epistemic
+State. Isolated build succeeding with **109 rendered display blocks matching the source count
+exactly**, Part 15 navigation, no unresolved reference links and no surviving Liquid tags.
 
-**Three repeated-phrasing collisions introduced by the insertions were caught and varied**, two of
-them by a mechanical repeated-phrase scan and one by reading the result of the fix.
+**Equation count was measured before and after the section replacement**, per the A310 lesson, and rose
+from 103 to 109 rather than silently dropping.
+
+The Epistemic State was extended to flag that the three modern reference vehicles are representative
+rather than actual, that the 7.41 percent bleed figure assumes a standing rather than demand-only
+supply and that the comparison would be overstated if it were demand-only, and that the modern
+bandwidth figure is a quoted range rather than a measurement made here.
+
+---
+
+## Final State
+
+**1515 lines, 109 display equations, 386 references, 19,934 body words.**
+
+Lines and equations inside band. **References finish 6 above the 380 ceiling, reported rather than
+trimmed** under the standing no-reference-limit directive, as A309 did. **Nothing was trimmed at any
+point in any of the four passes**, which makes A311 the sixth consecutive article to finish that way.
+
+Contemporary references **129, or 35.5 percent of dated**, inside the 101 to 189 absolute range held
+since A301. Primary sources 234, or 64.5 percent of dated, above A310's 52.4 percent.
 
 ---
 
 ## State
 
-**1300 lines, 103 display equations, 267 references, 17,821 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is fifteen deep**, A311 back to A297.
 
-**All three densities are inside band and nothing has been trimmed at any point.** Lines landed
-exactly on the 1300 floor. That makes A311 the sixth article in the series to finish a pass with
-nothing trimmed, after A306 through A310.
+Fifteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, fifteen articles deep and raised nineteen times.
 
-**Contemporary references are 10 of 244 dated, or 4.1 percent.** The absolute count is unchanged since
-the draft and the percentage fell only because this pass grew the denominator by 172. Against the 101
-to 189 absolute count the series has held since A301, **this is the largest contemporary gap any
-article has carried into a publication review**, larger than A309's, and closing it is the next pass's
-principal task.
-
-**Committed, not pushed.** Nothing in this series is published. The publication-order dependency is
-fifteen deep. **Categories remain undecided** at `aerospace history engineering`, fifteen articles deep
-and raised nineteen times.
+A312 is the North American X-15, and the risk is the reverse of the usual one. **The record is large
+enough that the article could become a summary rather than an analysis.** The keystone will have to be
+chosen and defended rather than discovered, and the A311 harvest will not help.
