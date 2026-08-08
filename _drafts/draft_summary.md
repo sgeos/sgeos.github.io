@@ -21,8 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_hiller_x18.markdown`, A315, editorial date 2025-10-24, series `x_planes` index 19 of 72.
 
-**386 lines, 21 display equations, 66 references, 3,982 words after the draft pass.** Equation and
-reference reviews pending.
+386 lines, 21 display equations, 66 references, 3,982 words after the draft pass; **485 lines, 29
+display equations, 66 references, 5,240 words after the equation review.** Reference review pending.
 
 **The first article in the series to solve vertical take-off with a wing rather than a jet.** The X-13
 and X-14 both pointed a jet downward. A tilt-wing points the wing itself, which is a different problem
@@ -48,6 +48,25 @@ available roll authority.
 **A strong internal validation.** Momentum theory gives 7,883 ideal shaft horsepower against an
 installed 11,700, implying a figure of merit of 0.674, which is an ordinary propeller value and is the
 best available check that the published figures describe one consistent aircraft.
+
+**The equation pass corrected the draft's framing.** The draft asserted the mechanism and never wrote
+it down. The relation is the local angle of attack, alpha_local = atan[V sin(i_w) / (V cos(i_w) + v_s)],
+and **at zero forward speed it is exactly zero at any tilt**, so the immersed wing is at precisely zero
+incidence in hover rather than merely unstalled.
+
+**More importantly, a conversion corridor exists at every speed**, with a margin from 38.1 degrees of
+tilt at ten metres per second to a narrowest 12.6 at fifty. The draft's emphasis on what is stalled left
+the impression the configuration was marginal. It is not, and the draft's closing claim that the
+configuration was sound while the aeroplane was under-equipped is now established rather than asserted.
+
+**Descent is what closes the corridor**, and it was promoted out of Out of Scope. The descent rate that
+consumes the whole margin is **284 feet per minute at the slow end**, which is gentle by any normal
+standard and explains the restricted descent envelopes tilt-wings carried.
+
+**One finding runs the other way.** Momentum theory with forward speed shows the induced velocity falls
+while the freestream rises faster, so slipstream dynamic pressure over the immersed panel climbs from
+2,210 to 5,772 pascals through the conversion. The handover is helped by the physics rather than fought
+by it.
 
 **Unlike A313 and A314 the configuration has a real primary literature** even though the individual
 airframe does not, which is the inverse of those two situations and a milder difficulty.

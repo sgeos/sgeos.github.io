@@ -123,7 +123,49 @@ which corresponds to an equivalent airspeed of
 
 $$V_{\text{eq}} = \sqrt{\frac{2 q_{\text{slip}}}{\rho}} = 60.1\ \text{m/s} = 117\ \text{kt}$$
 
+That is the static case. With forward speed the induced velocity solves
+
+$$v_i = \frac{T}{2 \rho A \sqrt{V^{2} + v_i^{2}}}$$
+
+which reduces to the expression above at zero speed. The induced velocity **falls** as the aircraft accelerates, from 40.05 metres per second at rest to 24.71 at sixty, while the freestream rises faster, so the total dynamic pressure over the immersed panel climbs from 2,210 to 5,772 pascals through the conversion.
+
+**The handover is helped by the physics rather than fought by it.** The immersed panel gets a more energetic flow at every stage of the conversion, not less, which is a large part of why the configuration is viable at all.
+
 **The immersed wing is flying at about 117 knots while the aircraft is standing still.** That is the entire trick of the configuration, and it is why a tilt-wing can work at all. **The immersed wing never stops flying. The un-immersed wing never starts.**
+
+### The Relation That Makes the Configuration Work
+
+The article has so far asserted that the slipstream keeps the immersed panel flying without giving the relation that makes it true. That relation is the local angle of attack, and it is the most important equation here.
+
+The propeller axis lies along the wing chord, so the slipstream adds velocity **along the chord** while the freestream arrives at the wing tilt angle. Resolving the two,
+
+$$\alpha_{\text{local}} = \arctan\left(\frac{V \sin i_w}{V \cos i_w + v_s}\right)$$
+
+For the un-immersed panel $v_s = 0$ and this collapses to $\alpha = i_w$, which is the claim made earlier and is now a limiting case rather than a separate assertion. For the immersed panel it does something remarkable.
+
+| Speed | 15° tilt | 30° | 45° | 60° | 75° | 90° |
+|---|---|---|---|---|---|---|
+| 0 m/s | **0.0** | **0.0** | **0.0** | **0.0** | **0.0** | **0.0** |
+| 10 m/s | 2.1 | 4.2 | 6.0 | 7.6 | 8.8 | 9.5 |
+| 20 m/s | 3.7 | 7.4 | 10.8 | 13.9 | 16.5 | 18.4 |
+| 30 m/s | 5.0 | 9.9 | 14.6 | 19.1 | 23.1 | 26.5 |
+| 60 m/s | 7.5 | 15.0 | 22.5 | 30.0 | 37.5 | 45.0 |
+
+**At zero forward speed the immersed wing is at exactly zero angle of attack, at any tilt whatever.** The only flow it sees comes straight down its own chord. It is not stalled, not marginal, and needs no high-lift device to be unstalled. The un-immersed panel meanwhile sits at the full tilt angle at every speed in the table.
+
+### Where the Immersed Panel Finally Does Stall
+
+Setting $\alpha_{\text{local}}$ equal to the stall angle and solving for tilt gives the limit.
+
+| Speed | Maximum tilt before the immersed panel stalls |
+|---|---|
+| 10 m/s | 90.0° |
+| 20 m/s | 66.0° |
+| 30 m/s | 46.2° |
+| 40 m/s | 37.9° |
+| 60 m/s | 30.0° |
+
+**The tolerable tilt falls as speed rises, which is the right direction**, because a faster aircraft needs less tilt anyway. The two curves are moving the same way, and whether a corridor exists depends on whether the required tilt falls faster than the allowed one.
 
 ### What the Immersed Wing Can Carry
 
@@ -137,6 +179,49 @@ With 57 percent of the span immersed, the immersed area is 27.84 square metres a
 
 The wing alone cannot hover the aircraft, which is expected, because in hover the propellers carry the weight directly as thrust. **The number that matters is not whether the wing lifts the aircraft in hover but whether the handover is continuous**, and the table shows there is a substantial contribution available from the immersed panel throughout.
 
+### The Conversion Corridor, Which Turns Out to Exist
+
+Level flight during conversion requires
+
+$$T \sin i_w + L = W, \qquad T \cos i_w = D$$
+
+with the lift coming from the immersed panel at slipstream dynamic pressure and the rest of the wing at freestream dynamic pressure,
+
+$$L = q_{\text{slip}} S_{\text{imm}} C_{L,\text{imm}} + q_\infty (S - S_{\text{imm}}) C_{L,\text{free}}$$
+
+Solving for the tilt that balances weight at each speed, and setting it beside the tilt the immersed panel will tolerate, gives the corridor.
+
+| Speed | Tilt required | Tilt allowed | Margin |
+|---|---|---|---|
+| 10 m/s | 51.9° | 90.0° | 38.1° |
+| 20 m/s | 37.4° | 66.0° | 28.7° |
+| 30 m/s | 26.6° | 46.2° | 19.6° |
+| 40 m/s | 23.4° | 37.9° | 14.4° |
+| 50 m/s | 20.5° | 33.1° | 12.6° |
+| 60 m/s | 17.0° | 30.0° | 13.1° |
+
+**A corridor exists at every speed.** That is worth stating plainly, because the argument so far has emphasised what is stalled and could leave the impression that the configuration is marginal. **It is not. The tilt-wing works, with a margin of between twelve and thirty-eight degrees of tilt throughout.** The X-18 was under-equipped for the configuration rather than attempting an impossible one.
+
+The margin is narrowest in the middle of the conversion, around forty to fifty metres per second, which is where the aircraft has neither the slipstream authority of low speed nor the freestream dynamic pressure of high speed.
+
+### Descent Is What Closes the Corridor
+
+The corridor above is for level flight. Descending at rate $w$ adds to the angle of attack, because the freestream arrives from below,
+
+$$\alpha_{\text{eff}} = \alpha_{\text{local}} + \arctan\frac{w}{V}$$
+
+so **a tilt-wing can be stalled by its own rate of descent at constant tilt and constant speed.** Computing the descent rate that consumes the whole margin at the required tilt,
+
+| Speed | Descent that closes the corridor |
+|---|---|
+| 10 m/s | 1.44 m/s, or 284 ft/min |
+| 20 m/s | 2.08 m/s, or 409 ft/min |
+| 30 m/s | 3.26 m/s, or 643 ft/min |
+| 50 m/s | 4.99 m/s, or 983 ft/min |
+| 60 m/s | 6.87 m/s, or 1,351 ft/min |
+
+**Two hundred and eighty-four feet per minute at the slow end is a gentle descent by any normal standard**, and it exhausts the margin. That is the tilt-wing descent problem, it is why these aircraft carried restricted descent envelopes, and it explains why the approach rather than the take-off was the difficult half of the flight.
+
 ### The Cost of the Configuration, Which Is Disc Loading
 
 $$\frac{W}{n A} = \frac{146{,}800}{2 \times 18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}$$
@@ -147,7 +232,7 @@ $$P = n\, T \sqrt{\frac{T}{2 \rho A}}$$
 
 which evaluates to 5,879 kilowatts, or **7,883 ideal shaft horsepower**. Against an installed 11,700 horsepower from two T40 engines, that implies a figure of merit of
 
-$$\text{FM} = \frac{7{,}883}{11{,}700} = 0.674$$
+$$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}700} = 0.674$$
 
 **which is an entirely ordinary propeller figure of merit**, and is the strongest available check that the published weight, propeller diameter, and engine power describe one consistent aircraft.
 
@@ -192,11 +277,25 @@ A tilt-wing's outer panel is stalled through most of the conversion, so every de
 
 Free-floating and stall-flutter behaviour of tilt-wing models was investigated later, in [Ormiston 1972][research_ormiston_1972].
 
+The effectiveness of blowing is measured by a momentum coefficient,
+
+$$C_\mu = \frac{\dot{m} V_j}{q_\infty S}$$
+
+and at the low freestream dynamic pressures of a conversion even a modest jet is a large coefficient, reaching 0.125 at twenty metres per second for fifteen hundred newtons of jet momentum.
+
 **The X-18 had none of that.** It had a wing, two propellers, and a tilt mechanism, which is the minimum experiment rather than the best aircraft.
 
 ### The Propellers
 
-Propeller behaviour at zero and low forward speed is its own subject, and static thrust in particular is not simply the cruise propeller evaluated at zero advance ratio, as [Webb and Willer 1952][research_webb_willer_1952] sets out, with later estimation methods in [Brusse and Cronk 1965][research_brusse_cronk_1965]. Propeller design for this class of aircraft is treated in [BIERMANN 1954][research_biermann_1954] and the ducted alternative in [ZABINSKY and LASZEWSKI 1956][research_zabinsky_laszewski_1956]. The interference between a propeller and the wing behind it is the configuration's defining aerodynamic problem and was measured directly, in [Winston and Huston 1962][research_winston_huston_1962], [GOLAND et al 1964][research_goland_1964], and [Butler et al 1966][research_butler_1966].
+Propeller behaviour at zero and low forward speed is its own subject, and static thrust in particular is not simply the cruise propeller evaluated at zero advance ratio, as [Webb and Willer 1952][research_webb_willer_1952] sets out, with later estimation methods in [Brusse and Cronk 1965][research_brusse_cronk_1965]. Propeller design for this class of aircraft is treated in [BIERMANN 1954][research_biermann_1954] and the ducted alternative in [ZABINSKY and LASZEWSKI 1956][research_zabinsky_laszewski_1956]. The propeller also has to work across an enormous range of advance ratio,
+
+$$J = \frac{V}{n D}$$
+
+which is zero in hover and of order one in cruise. At 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** That is why contra-rotating variable-pitch units were used and why the pitch control system was as complex as it was, which matters because the pitch control system is what failed. Helical tip Mach number at cruise is
+
+$$M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = 0.844$$
+
+so the blade tips are transonic while the aircraft is not. The interference between a propeller and the wing behind it is the configuration's defining aerodynamic problem and was measured directly, in [Winston and Huston 1962][research_winston_huston_1962], [GOLAND et al 1964][research_goland_1964], and [Butler et al 1966][research_butler_1966].
 
 ## The Flight Test Record
 
@@ -260,7 +359,7 @@ Electric vertical take-off aircraft have revived tilting configurations at small
 
 ## Where the Framing Breaks Down
 
-**It assumes a stall angle.** The 15 degree figure used throughout is an assumption. A thick wing with leading edge devices stalls later, and the fraction of the conversion spent stalled moves with it.
+**It assumes a stall angle.** The 15 degree figure used throughout is an assumption, and every corridor and descent figure scales with it directly. A thick wing with leading edge devices stalls later, and the fraction of the conversion spent stalled moves with it.
 
 **It treats the slipstream as uniform.** Momentum theory gives an average. A real slipstream is swirling, non-uniform, and differently deflected across the span, and the immersed wing does not see one dynamic pressure.
 
@@ -280,9 +379,9 @@ Every dimension and weight is from secondary compilation. No source disagreement
 
 **Historical fact.** The X-18 was built from a Chase YC-122C fuselage with Allison T40 turboprops taken from the XFY-1 and XFV-1 programmes and a Westinghouse J34 in the tail for pitch control. First hop 11 November 1959, first flight 24 November 1959, twenty flights, last flight July 1961. A propeller pitch control problem during an attempted conversion at ten thousand feet led to a spin from which the crew recovered. The aircraft never hovered, never completed a conversion, and was later scrapped. The engines were not cross-linked. The XC-142 followed with four propellers and full cross-shafting.
 
-**Engineering analysis, reproducible from the stated inputs.** The aspect ratio of 4.348 against a quoted 4.36. The immersed span fraction of 66.8 percent uncontracted, 47.2 fully contracted, and about 57 at a representative factor. The stalled fraction of the conversion at 83.3 percent. The induced velocity of 40.05 metres per second, disc loading of 82.1 pounds per square foot, and slipstream dynamic pressure equivalent to 117 knots. The immersed lift fractions. The hover power of 7,883 ideal horsepower and the implied figure of merit of 0.674. The engine-out rolling moment of 268 kilonewton metres and the aileron fractions. The tolerable thrust asymmetry figures and the 26 percent authority loss at ten thousand feet. The pitch jet crossover at 59 knots.
+**Engineering analysis, reproducible from the stated inputs.** The local angle of attack relation and its consequence that the immersed panel sits at exactly zero incidence at zero forward speed. The maximum tolerable tilt from 90 degrees at ten metres per second to 30 at sixty. **The conversion corridor, which exists at every speed with a margin between 12.6 and 38.1 degrees of tilt.** The descent rates that close it, from 284 feet per minute at the slow end to 1,351 at the fast end. The induced velocity falling from 40.05 to 24.71 metres per second across the conversion while slipstream dynamic pressure rises from 2,210 to 5,772 pascals. The advance ratio range of 0 to 1.12 and the helical tip Mach number of 0.844. The aspect ratio of 4.348 against a quoted 4.36. The immersed span fraction of 66.8 percent uncontracted, 47.2 fully contracted, and about 57 at a representative factor. The stalled fraction of the conversion at 83.3 percent. The induced velocity of 40.05 metres per second, disc loading of 82.1 pounds per square foot, and slipstream dynamic pressure equivalent to 117 knots. The immersed lift fractions. The hover power of 7,883 ideal horsepower and the implied figure of merit of 0.674. The engine-out rolling moment of 268 kilonewton metres and the aileron fractions. The tolerable thrust asymmetry figures and the 26 percent authority loss at ten thousand feet. The pitch jet crossover at 59 knots.
 
-**Inference, and clearly labelled.** That the outer wing being stalled is the configuration's defining problem is an inference from the geometry and a stall angle, supported by the period literature on tilt-wing stall but not derived from X-18 flight data. That the XC-142's four propellers and cross-shafting were responses to the X-18's specific failures is an inference from the design changes and their evident purpose.
+**Inference, and clearly labelled.** That the outer wing being stalled is the configuration's defining problem is an inference from the geometry and a stall angle, supported by the period literature on tilt-wing stall but not derived from X-18 flight data. **That a corridor exists at every speed rests on a crude lift model** in which the immersed panel is given a linear lift curve to its stall and the outer panel a constant stalled lift coefficient of 0.6. The shape of the result is robust and the individual margins are not. That the XC-142's four propellers and cross-shafting were responses to the X-18's specific failures is an inference from the design changes and their evident purpose.
 
 **What the record does not settle.** What caused the propeller pitch control failure. Whether the X-18 would have converted successfully had it not been grounded. What immersed fraction the designers believed they had. Whether the aircraft was ever close to a hover.
 
@@ -292,7 +391,7 @@ Every dimension and weight is from secondary compilation. No source disagreement
 
 ## Out of Scope
 
-The XC-142 programme deserves its own treatment and gets a paragraph here. The V-22 and the tilt-rotor line generally are named as the surviving alternative and not analysed. The detailed aerodynamics of swirl in a propeller slipstream are cited rather than derived. No attempt is made to reconstruct the X-18's flight envelope, and the descent problem that troubled tilt-wings, in which the wing can be stalled by its own descent rate independently of tilt, is named and left for a fuller treatment.
+The XC-142 programme deserves its own treatment and gets a paragraph here. The V-22 and the tilt-rotor line generally are named as the surviving alternative and not analysed. The detailed aerodynamics of swirl in a propeller slipstream are cited rather than derived. No attempt is made to reconstruct the X-18's flight envelope. The vortex ring state, which is the related descent hazard for a lifting rotor and which a tilt-wing can also meet, is not treated.
 
 ## Conclusion
 
@@ -302,7 +401,7 @@ The X-18 asked whether a wing could be tilted through ninety degrees and flown a
 
 That would have been survivable with margin elsewhere. There was none. **The ailerons supply under one percent of the rolling moment an engine failure produces in hover**, the engines were not cross-linked so an engine failure was available to produce it, and a few percent of thrust asymmetry exhausts the roll control during conversion. When a propeller pitch control fault duly appeared, the aircraft departed.
 
-**The configuration was not wrong and this aeroplane was under-equipped for it.** The XC-142 answered with twice the propellers, full cross-shafting, and a far larger immersed fraction, which is a list of the X-18's deficiencies written as a specification. **The X-18's contribution was to establish, expensively and at the edge of a fatal accident, what the minimum version of the idea could not do.**
+**The configuration was not wrong and this aeroplane was under-equipped for it, and the corridor calculation is what establishes that rather than merely asserting it.** A usable tilt margin exists at every speed, between twelve and thirty-eight degrees, so the tilt-wing is a sound idea that this particular aeroplane could not exploit. The XC-142 answered with twice the propellers, full cross-shafting, and a far larger immersed fraction, which is a list of the X-18's deficiencies written as a specification. **The X-18's contribution was to establish, expensively and at the edge of a fatal accident, what the minimum version of the idea could not do.**
 
 ## References
 

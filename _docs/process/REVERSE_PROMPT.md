@@ -9,124 +9,105 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A315 drafted, the Hiller X-18. The first of four passes. Committed, **not pushed**, not
-published. All nineteen articles in the series remain in `_drafts/`.
+**Task**: A315 equation-density review, the second of four passes. Committed, **not pushed**, not
+published. Display equations rose from **21 to 29**.
 
 ---
 
-## The Keystone Is Slipstream Immersion, and It Is Geometric
+## The Draft Asserted the Mechanism and Never Wrote It Down
 
-A tilt-wing points its wing at the sky, which means pointing it away from the oncoming air. A wing at
-ninety degrees to the flow is stalled. **The configuration works only where the propeller slipstream
-keeps the flow attached**, and the immersed fraction is set by propeller diameter against span, which is
-frozen when the aircraft is drawn.
+The draft claimed the slipstream keeps the immersed panel flying and never gave the relation that makes
+it true. Because the propeller axis lies along the wing chord, the slipstream adds velocity **along the
+chord** while the freestream arrives at the tilt angle, so
 
-Two sixteen-foot propellers on a 47.92-foot span give:
+**α_local = arctan[ V sin(i_w) / (V cos(i_w) + v_s) ]**
 
-| Station | Immersed span |
-|---|---|
-| At the disc | 66.8 percent |
-| Just behind, representative | 56.8 percent |
-| Fully contracted | 47.2 percent |
-
-**About 43 percent of the span is never immersed.** At a 15-degree stall angle the outer panel is
-stalled for **83.3 percent of the conversion**. That is geometric rather than aerodynamic, and no
-section design removes it, because the wing is pointed away from the air by construction.
-
-**What the slipstream buys is genuinely large.** At an 82.1 lb/ft² disc loading the part-developed
-slipstream dynamic pressure corresponds to an equivalent airspeed of **117 knots while the aircraft is
-standing still**. The immersed wing never stops flying. The un-immersed wing never starts.
+**At zero forward speed that is exactly zero, at any tilt whatever.** The immersed wing is not merely
+unstalled in hover — it sits at precisely zero incidence, seeing only flow down its own chord. For the
+un-immersed panel v_s is zero and the expression collapses to α = i_w, which turns the draft's separate
+assertion into a limiting case of one relation.
 
 ---
 
-## The Engine-Out Claim Was Checked and Is Arithmetic, Not Caution
+## The Largest Correction Is That a Corridor Exists
 
-Sources say the turboprops were not cross-linked and that losing one meant losing the aircraft. That is
-a checkable statement. Losing one propeller in hover gives a **268 kN m rolling moment**, and:
+The draft never established that a conversion corridor exists. Solving the level-flight balance
+T sin(i_w) + L = W for the required tilt, and setting it beside the tilt the immersed panel tolerates:
 
-| Freestream | Aileron authority |
-|---|---|
-| 0 m/s | 0.00 percent |
-| 10 m/s | 0.46 percent |
-| 30 m/s | 4.12 percent |
+| Speed | Required | Allowed | Margin |
+|---|---|---|---|
+| 10 m/s | 51.9° | 90.0° | 38.1° |
+| 30 m/s | 26.6° | 46.2° | 19.6° |
+| 50 m/s | 20.5° | 33.1° | **12.6°** |
+| 60 m/s | 17.0° | 30.0° | 13.1° |
 
-**Cross-shafting is not a refinement. It is the only fix**, and its absence is the aircraft's defining
-deficiency.
-
-The final flight follows from the same relation. **A few percent of thrust asymmetry exhausts the roll
-control during conversion** — 3.04 percent at 30 m/s at ten thousand feet. A propeller pitch control
-failure is not a small disturbance, so the departure was the expected outcome rather than bad luck.
-
-**And there is a bitter detail.** Converting at ten thousand feet rather than near the ground cost about
-**26 percent of the available roll authority**, because authority scales with density. The altitude was
-chosen for safety, to give room to recover. It made the departure more likely and the outcome more
-survivable, and the programme got the survivable half.
+**A margin exists at every speed.** The draft's emphasis on what is stalled left the impression that the
+configuration was marginal. It is not. **Its closing claim — that the configuration was sound and this
+aeroplane was under-equipped for it — is now established rather than asserted.**
 
 ---
 
-## A Strong Internal Validation
+## Descent Is What Closes It
 
-Momentum theory gives **7,883 ideal shaft horsepower** for hover against an installed 11,700, implying a
-figure of merit of **0.674**. That is an entirely ordinary propeller value, and it is the best available
-check that the published weight, propeller diameter and engine power describe one consistent aircraft.
+Promoted out of Out of Scope, where the draft had abandoned it, because it turns out to be the thing
+that matters. Descending adds arctan(w/V) to the angle of attack, and the descent rate that consumes the
+whole margin is
 
----
+**284 feet per minute at ten metres per second**, rising to 1,351 at sixty.
 
-## Series Threads
-
-**The tail turbojet fitted purely for pitch makes this the third vertical take-off aircraft in the
-series to carry a separate thrust-based control system**, after the X-13 and X-14, for the same reason
-each time: aerodynamic control scales with dynamic pressure and vanishes, while thrust does not. The
-crossover here is 58.6 knots.
-
-**The one-directory question was live and was decided explicitly.** The X-18 shares the VTOL control
-problem with the X-13 and X-14 and shares nothing else, since a tilt-wing lifts with a wing in a
-slipstream rather than a deflected jet. Rather than import a pool built for a different aircraft, the
-harvest **asked the shared questions directly**. That obtains the common literature without the A309
-defect, and costs a few duplicate queries.
-
-**Both harvest-design lessons were applied from the start** rather than as later corrections — the
-middle era present per A313, and a 1960 cutoff on the early sweep per A314.
+A gentle descent by any normal standard exhausts the margin. That is why tilt-wings carried restricted
+descent envelopes, and **why the approach rather than the take-off was the hard half of the flight.**
 
 ---
 
-## An Error Caught by Reading Output, Not by a Check
+## One Finding Runs the Other Way
 
-An elevator effectiveness of 0.02 per radian produced a pitch-jet crossover of **454 knots**, which is
-absurd for an aircraft of this class. The correct order is about 1.2 per radian, giving 58.6 knots.
-**No automated check would have caught it** — the arithmetic was correct and the coefficient was wrong.
-It is recorded in the Epistemic State.
+Momentum theory with forward speed shows the induced velocity **falls** from 40.05 to 24.71 metres per
+second across the conversion, while the freestream rises faster, so slipstream dynamic pressure over the
+immersed panel **climbs from 2,210 to 5,772 pascals**.
+
+**The handover is helped by the physics rather than fought by it**, which is a large part of why the
+configuration is viable at all and which the draft did not say.
+
+---
+
+## Also Added
+
+**Advance ratio**, running from zero to 1.12 across the conversion. That ties the article to the
+critical-advance-ratio source it cited and never used, and it matters because **the pitch control system
+that failed exists to manage exactly that range**. A helical tip Mach number of 0.844, so the blade tips
+are transonic while the aircraft is not. The figure of merit as a definition rather than a bare number.
+And the blowing momentum coefficient the X-18 did not have, at 0.125 for fifteen hundred newtons at
+twenty metres per second.
+
+Out of Scope was corrected, since it still said the descent problem was left for a fuller treatment
+after the pass had treated it.
 
 ---
 
 ## Verification
 
-**62 independent re-derivations, zero disagreements** after one rounding correction, using a trapezoidal
-atmosphere so the calculation module cannot validate itself.
-
-66 reference definitions, 48 external URLs, zero duplicates or orphans. 27 plain 200s, 7 publisher 403s,
-14 DTIC DOIs registry-verified. **A 404 was found and fixed**, since the XC-142 encyclopaedia title was
-wrong. A read of all 36 cited titles found no off-topic citation.
+**62 draft-pass re-derivations still reproducing plus 77 new ones, zero disagreements.** All independent
+of the calculation modules, with the corridor located by a linear scan against calc2's bisection so
+neither validates the other.
 
 `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
-with 21 of 21 display blocks rendered, 4 of 4 tables, and Part 19 navigation — with **both** navigation
-clauses repointed, after the A314 copy left one at the previous part number.
+with 29 of 29 display blocks rendered, 8 of 8 tables, and Part 19 navigation. Equation count measured
+before and after, per the A310 lesson.
+
+The section scan flagged seven sections and all seven are legitimately narrative, **so the real gap was
+not where the scan looks.** That is worth remembering: the scan finds sections without equations, and
+this article's largest omission was a missing relation inside a section that already had several.
 
 ---
 
 ## State
 
-**386 lines, 21 display equations, 66 references, 3,982 body words.**
+**485 lines, 29 display equations, 66 references, 5,240 body words.**
 
-This is a shorter draft than A313 or A314 produced, and the reason is favourable rather than not.
-**Unlike those two, this subject's configuration has a real primary literature** even though the
-individual airframe does not, which is the inverse of their situation. The pool is rich and the
-reference pass has a great deal to work with.
+**Committed, not pushed.** References at 66 are the measure furthest from any band and the reference
+pass will move that substantially, since this subject's configuration has a genuine primary literature
+unlike the previous two articles.
 
-**Committed, not pushed**, per the series rhythm for a draft pass.
-
-Nineteen articles complete of seventy-two. **The publication-order dependency is nineteen deep.**
-Categories remain undecided, and the fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` is open
-across two completed articles.
-
-A316 is the next entry on the roster; check `HANDOFF.md` before starting.
+Nineteen articles complete of seventy-two. Categories remain undecided, and the fourth-class question
+in `RESEARCH_AIRCRAFT_STRUCTURE.md` is open across two completed articles.
