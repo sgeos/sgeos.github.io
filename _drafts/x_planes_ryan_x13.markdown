@@ -768,66 +768,136 @@ It came back in the 1970s as a proposal for carrier-based fighters, in [Eilertso
 
 The X-13's configuration is not a historical curiosity. It is a standard layout for small uncrewed aircraft, and the reason is exactly the one the 1975 remotely piloted proposal identified, which is that the configuration's hard problem was the pilot.
 
-### The Tail-Sitter Came Back Without a Pilot
+### The Same Relations, Run Forward
 
-The transition control problem this article derives is now an ordinary subject with a large literature. **Disturbance rejection through the hover and the transition together**, which is the pairing the X-13's pilot had to manage by hand, is [Mao et al 2026][research_mao_2026]. Transition strategies and corridors are [Rehan et al 2026][research_rehan_2026], [Lee et al 2026][research_lee_2026] on corridor-based optimal transition, [Pobikrowska and Goetzendorf-Grabowski 2025][research_pobikrowska_goetzendorf_grabowski_2025], [Burton et al 2026][research_burton_2026], [Panish and Bacic 2025][research_panish_bacic_2025], and [Irmawan et al 2023][research_irmawan_2023]. **The quadrotor biplane tail-sitter of [Saetti et al 2025][research_saetti_2025] is the X-13's configuration with the pilot replaced by a flight control computer and the single jet replaced by four rotors**, and it works.
+The most useful way into the modern literature is to apply the article's own relations to a modern vehicle. Nothing in them has changed, so the comparison is direct.
 
-**The control-authority handover is now solved as an allocation problem.** A modern over-actuated aircraft is given a desired moment and solves for the actuator commands that produce it at least cost,
+| Vehicle | Mass | Disc loading | Wing loading | Ratio | Hover endurance |
+|---|---|---|---|---|---|
+| Small quadrotor tail-sitter | 25 kg | 488 Pa | 490 Pa | 0.99 | 22.8 min |
+| Medium tail-sitter | 120 kg | 462 Pa | 588 Pa | 0.79 | 23.4 min |
+| Large lift-plus-cruise | 2000 kg | 542 Pa | 981 Pa | 0.55 | 21.6 min |
+| **Ryan X-13** | **3053 kg** | **141,000 Pa** | **1,687 Pa** | **84** | **11.0 min** |
 
-$$\mathbf{M}_{\text{des}} = B \mathbf{u}, \qquad \mathbf{u} = W^{-1} B^{\mathsf{T}} \left( B W^{-1} B^{\mathsf{T}} \right)^{-1} \mathbf{M}_{\text{des}}$$
+Two things fall out, and the second corrects the first.
 
-where the weighting $W$ prices each actuator and the effectiveness matrix $B$ varies with dynamic pressure. **The blend that the X-13's pilot had to perform by hand is now the solution of that least-squares problem, evaluated many times a second**, and the fraction $\lambda(V)$ tabulated earlier is what it converges to. Where the X-13's pilot moved from nozzle to elevons by feel, a modern over-actuated aircraft blends them continuously, in [Scordamaglia et al 2025][research_scordamaglia_2025], [Pfeifle and Fichter 2023][research_pfeifle_fichter_2023], [Saetti 2025, Dynamic Inversion Flight Control L][research_saetti_2025_2], and [McIntosh et al 2024][research_mcintosh_2024], the last of which explicitly architects the feedforward and feedback for a tail-sitter across hybrid flight regimes. Attitude control in the hover itself is [Comer et al 2025][research_comer_2025], [Ilyas et al 2025][research_ilyas_2025], [Athayde et al 2024][research_athayde_2024], and [Dagal and Erol 2025][research_dagal_erol_2025]. **The article's third-order position loop has not become easier. It has become somebody else's problem**, and the somebody is a computer that does not need to see the landing point.
+**The disc loading and the wing loading of a modern electric tail-sitter are the same quantity to within a factor of two.** This article derived, from the XFY-1 comparison, that a designer who wants stall-level dynamic pressure on the control surfaces in a hover should choose a disc loading equal to the wing loading. **A small electric tail-sitter satisfies that condition without anyone arranging it**, because both quantities are set by the same structural and aerodynamic scaling once the propulsor is a set of rotors rather than a jet. The X-13's ratio was 84 and the modern ratio is near one. **The design difference that separated the X-13 from the XFY-1 has been dissolved rather than solved.**
 
-### What Price Hover, Asked Again in 2025
+**The endurance advantage is not what it looks like.** Twenty-three minutes against eleven suggests the energy problem has halved, and it has not.
 
-The article's central arithmetic is that hover endurance depends only on the fuel fraction and the specific consumption, and is therefore independent of scale. **That relation binds electric vertical take-off aircraft in a different form and to a strikingly similar number**, and the question has been asked in almost the article's own words in [Hart et al 2025][research_hart_2025].
-
-For a jet the endurance is
+The two vehicles obey different relations. A jet in the hover burns fuel in proportion to the thrust it must produce, so
 
 $$t = \frac{\zeta}{c}$$
 
-For a rotor the power required per unit thrust is set by the disc loading rather than by the fuel,
+while a rotor's power is set by how hard it works the air it passes through,
 
-$$\frac{P}{T} = \frac{1}{\eta} \sqrt{\frac{T/A}{2\rho}}$$
+$$\frac{P}{T} = \frac{v_{i}}{\eta}, \qquad v_{i} = \sqrt{\frac{T/A}{2\rho}}$$
 
-and the endurance is the stored energy divided by that power,
+and its endurance is the stored energy divided by that power,
 
-$$t = \frac{\eta \, \zeta_{b} \, e}{g} \left( \frac{2\rho}{T/A} \right)^{1/2}$$
+$$t = \frac{\zeta_{b} \, e \, \eta}{g \, v_{i}}$$
 
-with $\zeta_b$ the battery mass fraction and $e$ its specific energy. Evaluating it for a rotor of the X-13's own span, which has a disc loading of 1,383 pascals, an induced velocity of
+The modern figures in the table assume a battery at thirty percent of the mass while the X-13's fuel was seventeen. Holding the energy mass fraction equal, with an induced velocity of 14.1 metres per second,
 
-$$v_{i} = \sqrt{\frac{1383}{2 \times 1.225}} = 23.8 \, \text{m/s}$$
+$$t = \frac{0.170 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 774 \, \text{s} = 12.9 \, \text{min}$$
 
-and therefore an ideal hover power of 711 kilowatts, with a battery at seventeen percent of the mass and 250 watt-hours per kilogramme,
+against the X-13's 11.0. **Seventy years of propulsion and energy storage has improved hovering endurance at fixed energy mass fraction by about seventeen percent.**
 
-| Figure of merit | Hover power | Energy stored | Hover endurance |
-|---|---|---|---|
-| 1.00, ideal | 711 kW | 129.8 kWh | 10.9 min |
-| 0.75, realistic | 948 kW | 129.8 kWh | 8.2 min |
+The comparison is cleanest expressed as an effective specific consumption. A jet in the hover obeys $t = \zeta / c$ and a rotor obeys the relation above, so the rotor's equivalent $c$ is
 
-against the X-13's eleven minutes on kerosene. **An electric rotorcraft devoting the same fraction of its mass to energy hovers for about the same time as a 1957 turbojet tail-sitter did.** The battery's specific energy is roughly forty times worse than kerosene's and the rotor's hovering efficiency is roughly forty times better than the jet's, and the two cancel almost exactly. That is a coincidence rather than a law, and it is the reason the hover endurance problem feels as intractable now as it did then.
+$$c_{\text{eff}} = \frac{g \, v_{i}}{e \, \eta}$$
 
-The consequences are visible throughout the current design literature. Sizing methodologies must carry the hover segment explicitly, in [Qiao and Zhou 2026][research_qiao_zhou_2026], [Lee et al 2022][research_lee_2022], and [Chen et al 2026][research_chen_2026]. Endurance relations are rewritten for hybrid propulsion in [Batra et al 2024][research_batra_2024] and [Barufaldi and Morales 2023][research_barufaldi_morales_2023]. Energy-optimal trajectories exist because the hover is worth avoiding, in [Mathur and Atkins 2026][research_mathur_atkins_2026], [Cai et al 2026][research_cai_2026], and [Kang et al 2025][research_kang_2025]. And the honest response, which is to add a second energy source so the vehicle does not have to hover on its cruise powerplant, is [Vegh 2025][research_vegh_2025] on a hybrid-electric long-endurance tail-sitter, [Zhu et al 2022][research_zhu_2022], and [Radmanesh 2026][research_radmanesh_2026]. **Seventy years later the answer to the fuel problem is still to carry a different kind of fuel rather than to hover more cheaply.**
+| Configuration | Effective specific consumption | Relative to the Avon |
+|---|---|---|
+| Ryan X-13, Avon RA.28 | $2.583 \times 10^{-4}$ s⁻¹ | 1.000 |
+| Small electric tail-sitter, 250 Wh/kg | $2.197 \times 10^{-4}$ s⁻¹ | 0.850 |
+| The same at 400 Wh/kg | $1.373 \times 10^{-4}$ s⁻¹ | 0.532 |
 
-### Ground Effect Is Still Not Solved
+**A battery forty-eight times worse than kerosene per kilogramme, driving a rotor seventeen times better than a jet at converting power into thrust, comes out fifteen percent ahead.** The rest of the modern advantage is bought by carrying more energy, which a vehicle with no pilot and no weapon can afford to do. **The hover is still expensive and it is expensive for the same reason.**
 
-The disc-loading ratio of about a hundred between a jet and a rotor of the same span is why vertical landing on unprepared ground remains a rotorcraft capability. Ground effect for this class of vehicle is [Greene 2020][research_greene_2020], the ingestion problem persists even at rotorcraft disc loadings in [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_2], and the shipboard case with deck motion is [Sharma et al 2021][research_sharma_2021].
+### The Tail-Sitter Came Back Without a Pilot
 
-### The Slipstream Question the Propeller Tail-Sitters Answered
+The transition control problem this article derives is now an ordinary subject with a large literature, and the vehicle it is written about is usually a biplane quadrotor tail-sitter, which is the X-13's configuration with four rotors in place of one jet and a computer in place of the man.
 
-This article's explanation of why a turboprop tail-sitter needs no reaction control is that its slipstream gives the wing stall-level dynamic pressure in the hover. That interaction is now a design variable rather than an accident, and the modern literature is about shaping it deliberately, in [Xue and Zhou 2020][research_xue_zhou_2020] on coupled propeller and wing design, [Leng et al 2020][research_leng_2020] on slipstream deformation for a convertible aircraft in hover, [Duivenvoorden et al 2026][research_duivenvoorden_2026] and [Duivenvoorden et al 2025][research_duivenvoorden_2025], [Cao et al 2023][research_cao_2023], [Meng et al 2023][research_meng_2023], [Zhao et al 2024][research_zhao_2024] and [Zhao et al 2026][research_zhao_2026] on distributed propulsion wings, and [Ikami et al 2021][research_ikami_2021] on precisely the question of what a control surface does inside a slipstream. The relation that makes it a design choice is the same one used earlier, read backwards. The dynamic pressure a propeller puts on the wing behind it is its disc loading,
+**Disturbance rejection through the hover and the transition together**, which the X-13's pilot had to manage by hand, is [Mao et al 2026][research_mao_2026] and [Wang et al 2025, Modeling and Attitude Disturbances][research_wang_2025_3]. Hover attitude control for exactly that configuration is [Wang et al 2026, Modeling and hover control of a bi][research_wang_2026_4] and [Wang et al 2026, Cascaded finite-time hovering atti][research_wang_2026_5], its transition feedback design is [Gupta et al 2026][research_gupta_2026], and its aerodynamics and acoustics are [Jayasundara and Baeder 2026][research_jayasundara_baeder_2026]. **The stability derivatives that the 1953 wind-tunnel programme measured for the XFY-1 are now obtained from the vehicle itself in flight**, in [Juhasz et al 2025][research_juhasz_2025] on system identification of a hovering quadrotor biplane tail-sitter.
+
+Transition strategies and corridors are [Rehan et al 2026][research_rehan_2026], [Lee et al 2026][research_lee_2026], [Pobikrowska and Goetzendorf-Grabowski 2025][research_pobikrowska_goetzendorf_grabowski_2025], [Burton et al 2026][research_burton_2026], [Panish and Bacic 2025][research_panish_bacic_2025], [Xi et al 2025][research_xi_2025], [Tellez-Belkotosky et al 2025][research_tellez_belkotosky_2025], and [Irmawan et al 2023][research_irmawan_2023]. Adaptive and fault-tolerant versions, which matter because a rotor can fail where a jet mostly could not, are [Zhou et al 2025][research_zhou_2025], [Cai and Lovera 2026][research_cai_lovera_2026], and [Wang et al 2026, Adaptive sliding mode fault-tolera][research_wang_2026_6]. Configuration studies are [Pathak 2025][research_pathak_2025], [Liang et al 2026][research_liang_2026], [Rajendran 2025][research_rajendran_2025], and [Fernandez et al 2026][research_fernandez_2026], the last of which optimises the design and the trajectory together under a controllability constraint, which is the modern form of the question this article opens with.
+
+### The Handover Is Now a Least-Squares Problem
+
+**The control-authority handover is solved as an allocation problem.** A modern over-actuated aircraft is given a desired moment and solves for the actuator commands that produce it at least cost,
+
+$$\mathbf{M}_{\text{des}} = B \mathbf{u}, \qquad \mathbf{u} = W^{-1} B^{\mathsf{T}} \left( B W^{-1} B^{\mathsf{T}} \right)^{-1} \mathbf{M}_{\text{des}}$$
+
+where the weighting $W$ prices each actuator and the effectiveness matrix $B$ varies with dynamic pressure. **The blend that the X-13's pilot had to perform by hand is now the solution of that problem, evaluated many times a second**, and the fraction $\lambda(V)$ tabulated earlier is what it converges to.
+
+The formulation for a vectored-thrust vertical take-off aircraft specifically is [Enenakpogbe et al 2025][research_enenakpogbe_2025], and treating the transition as a multi-objective allocation is [Asghari and Tayefi 2026][research_asghari_tayefi_2026]. The control laws that sit above it are [Scordamaglia et al 2025][research_scordamaglia_2025], [Pfeifle and Fichter 2023][research_pfeifle_fichter_2023], [Saetti 2025, Dynamic Inversion Flight Control L][research_saetti_2025_2], and [McIntosh et al 2024][research_mcintosh_2024]. Incremental nonlinear dynamic inversion, which has become the default because it needs less of a model than the alternatives, is [Tamaskani et al 2026][research_tamaskani_2026], [Wang et al 2026, Adaptive Augmentation of Increment][research_wang_2026_3], [Athayde et al 2024][research_athayde_2024], and [Salahudden et al 2024][research_salahudden_2024]. Nonlinear model predictive control on a large multirotor is [Zwiener et al 2026][research_zwiener_2026], on a tiltwing [Doff-Sotta et al 2025][research_doff_sotta_2025], and reconfiguration after an actuator failure is [Li et al 2025, Reconfigurable fault-tolerant atti][research_li_2025_3] and [Cai et al 2026, Incremental Model Predictive Attit][research_cai_2026_2].
+
+### The Position Loop Became Somebody Else's Problem
+
+This article's sharpest human-factors result is that hovering is a third-order position loop with no restoring moment, requiring the mean tilt to be held below half a degree to keep station within a metre. **That loop is now closed by a computer with better sensors than eyes.**
+
+Station-keeping against disturbance is [Yu et al 2026][research_yu_2026] and [Stewart et al 2026][research_stewart_2026], hover system identification is [Matt and Altamirano 2026][research_matt_altamirano_2026], and rotor-level health monitoring in the hover, which no 1957 aircraft could contemplate, is [Lovas 2026][research_lovas_2026]. The rotor aerodynamics underneath are [Mihaila et al 2026][research_mihaila_2026], [Mortimer et al 2026][research_mortimer_2026], and [Makeev 2026][research_makeev_2026].
+
+**Where a human remains in the loop the article's transport-delay analysis has become a research subject in its own right**, in [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_2] on teleoperation under delay and [Li et al 2026, Design and evaluation of Avatar][research_li_2026_4] on driving the latency of an immersive interface down. **The ground observer who talked Girard onto the hook was an early and unusually literal instance of shared control with a transport delay**, and the modern treatment of that arrangement says the delay is the thing to attack.
+
+### The Visual Task, Solved by Deleting the Viewer
+
+The X-13's decisive difficulty was that the pilot could not see the trailer. The modern answer is not a better window.
+
+Vision-based autonomous landing is [Qian et al 2026][research_qian_2026], [González-Tejeda et al 2026][research_gonzalez_tejeda_2026], [Ryu et al 2025][research_ryu_2025], [Yang et al 2025, Robust Online Predictive Visual Se][research_yang_2025_2], and [Zhang et al 2025, Image-based fixed-time visual serv][research_zhang_2025_3]. **Landing on a moving platform, which is harder than landing on a trailer and is the same problem**, is [Paula et al 2026][research_paula_2026], [Zhou et al 2026, Research on Autonomous Uav Shipboa][research_zhou_2026_2], [Yuan et al 2024][research_yuan_2024], and [Comeau et al 2024][research_comeau_2024].
+
+Where a pilot is retained, the answer is to give the information back rather than to improve the view, which is what the 1970s displays literature concluded and what [Newton et al 2024][research_newton_2024] measures for a head-worn display on approach. Operator workload and situational awareness for small uncrewed aircraft are [Stephenson et al 2026][research_stephenson_2026], and the training question is [Gonzalo 2026][research_gonzalo_2026]. **Every one of these is a way of removing the geometry the X-13 could not remove.**
+
+### Handling Qualities Became Certification
+
+The control-power criteria this article borrows were a research subject in the 1960s and are now a regulatory one, because somebody has to certify vertical take-off aircraft carrying passengers.
+
+**Sizing an aircraft's control power directly against handling-qualities requirements is [Antonakis 2025][research_antonakis_2025]**, using control moment polytopes, which is the formal version of the argument this article makes with a single criterion and a single moment arm. Testing those qualities with uncertainty modelled explicitly is [Antonakis 2025, Reinforcement-learning-based aircr][research_antonakis_2025_2] and [Saetti and Rogers 2024][research_saetti_rogers_2024], applying the Cooper-Harper scale to a small uncrewed aircraft is [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026], and building flight models credible enough to certify by simulation is [Favaro et al 2025][research_favaro_2025]. Slung loads, which reproduce the X-13's coupled attitude and position problem in another form, are [Wang and Chen 2024][research_wang_chen_2024].
+
+**The most direct descendant of the X-13's pilot problem is simplified vehicle operations**, in which the aircraft is made easy enough that a person who is not a pilot can fly it. [Janetzko et al 2026][research_janetzko_2026] measures whether novices actually can. **The X-13 asked an experienced test pilot to do something at the edge of what a person can do, and the field's eventual answer was to change the aircraft rather than to train the person.** Workload measurement itself has moved to physiological instrumentation, in [Procházková and Juračka 2026][research_prochazkova_juracka_2026], [Xu et al 2026][research_xu_2026], and [Chen et al 2025, Correlation analysis of physiologi][research_chen_2025_3].
+
+### Ground Effect Became a Civil Planning Problem
+
+The disc-loading ratio of about a hundred between a jet and a rotor of the same span is why vertical landing on unprepared ground remains a rotorcraft capability. **What has changed is who is asking.** The X-13's ground loading was a military basing question and it is now a question about where a vertiport may be placed in a city.
+
+The aerodynamics is [Greene 2020][research_greene_2020], [Sagaga and Lee 2025][research_sagaga_lee_2025], [Lee et al 2026, Aerodynamic effects of rotor-rotor][research_lee_2026_2], [Shirbhate et al 2025][research_shirbhate_2025], and [Georgiev 2025][research_georgiev_2025], with the energy consequence measured in flight in [Su et al 2024][research_su_2024]. Ingestion persists even at rotorcraft disc loadings, in [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_2], and brownout is now simulated for another planet entirely in [Caprace et al 2025][research_caprace_2025]. The shipboard case with deck motion is [Sharma et al 2021][research_sharma_2021].
+
+**The planning literature is the part that would have surprised the X-13's engineers.** Vertiport siting and design are [Li et al 2026, Urban air mobility vertiports][research_li_2026_2], [Lyu and Feng 2026][research_lyu_feng_2026], [Maksoud et al 2025][research_maksoud_2025], [Mercan et al 2025][research_mercan_2025], [Guo et al 2025][research_guo_2025], [Zhou et al 2026][research_zhou_2026], [Jin and Ma 2025][research_jin_ma_2025], and [Mirković et al 2026][research_mirkovic_2026], with operations in [Lee et al 2025, Efficient Urban Air Mobility Verti][research_lee_2025_2] and the navigation requirement in [Crespillo et al 2025][research_crespillo_2025]. **A tail-sitting jet needed a prepared surface and a particular trailer, which was held against it. A modern vertical take-off aircraft needs a prepared surface and a licensed site, and that is treated as infrastructure rather than as a defect.** The requirement did not go away. The expectation did.
+
+### Sizing Now Carries the Hover Explicitly
+
+The article's central arithmetic is that hover endurance depends only on the energy fraction and the effective consumption. **Every modern sizing method carries that term explicitly, because it dominates.**
+
+Sizing methodologies are [Qiao and Zhou 2026][research_qiao_zhou_2026], [Lee et al 2022][research_lee_2022], [Chen et al 2026][research_chen_2026], [Paek 2025][research_paek_2025], and [Park et al 2025][research_park_2025]. Endurance relations rewritten for hybrid propulsion are [Batra et al 2024][research_batra_2024] and [Barufaldi and Morales 2023][research_barufaldi_morales_2023]. **The honest response, which is to carry a second energy source so the vehicle does not hover on its cruise powerplant, is now a design discipline**, in [Vegh 2025][research_vegh_2025], [Park 2026][research_park_2026], [Park and Park 2026][research_park_park_2026], [Li and Jiang 2026][research_li_jiang_2026], [Zhu et al 2022][research_zhu_2022], and [Radmanesh 2026][research_radmanesh_2026]. Energy-optimal trajectories exist because the hover is worth avoiding, in [Mathur and Atkins 2026][research_mathur_atkins_2026], [Cai et al 2026][research_cai_2026], and [Kang et al 2025][research_kang_2025], and the battery's own behaviour under that duty cycle is [Ayyaswamy et al 2023][research_ayyaswamy_2023], [Boggan and Clarke 2026][research_boggan_clarke_2026], and [Jiao and Yang 2026][research_jiao_yang_2026].
+
+### The Slipstream Question, Now a Free Parameter
+
+This article's explanation of why a turboprop tail-sitter needs no reaction control is that its slipstream gives the wing stall-level dynamic pressure in the hover. The relation is
 
 $$q_{s} = \tfrac{1}{2} \rho v_{s}^{2} = \frac{T}{A}$$
 
-so a designer who wants stall-level dynamic pressure on the controls in a hover simply chooses a disc loading equal to the wing loading,
+so a designer who wants that condition simply chooses a disc loading equal to the wing loading, which the table at the head of this section shows a modern tail-sitter does automatically.
 
-$$\frac{T}{A} \approx \frac{W}{S} = 1687 \, \text{Pa}$$
-
-**The X-13's disadvantage against the XFY-1 is now a design choice that distributed electric propulsion makes freely available**, because many small rotors placed ahead of a wing can be given whatever disc loading the designer wants, and that is the single largest change between the period and the present.
+Shaping the interaction deliberately is [Xue and Zhou 2020][research_xue_zhou_2020], [Leng et al 2020][research_leng_2020], [Duivenvoorden et al 2026][research_duivenvoorden_2026], [Duivenvoorden et al 2025][research_duivenvoorden_2025], [Cao et al 2023][research_cao_2023], [Meng et al 2023][research_meng_2023], [Zhao et al 2024][research_zhao_2024], [Zhao et al 2026][research_zhao_2026], and [Ikami et al 2021][research_ikami_2021], with the propulsion-aerodynamics coupling modelled in [Li et al 2026][research_li_2026]. **The X-13's disadvantage against the XFY-1 is now a design choice that distributed electric propulsion makes freely available**, and it is the single largest change between the period and the present.
 
 ### High Angle of Attack, Which Is Where a Tail-Sitter Lives
 
 A transitioning aircraft passes through every incidence from zero to ninety degrees. Modelling that is [Wang et al 2025][research_wang_2025] and [Golmirzaee and Wood 2026][research_golmirzaee_wood_2026], the unsteady interactions are [Koch 2026][research_koch_2026], [Acher et al 2021][research_acher_2021], and [Combey et al 2026][research_combey_2026], and the engine's own tolerance of incidence, which the X-13 needed and nobody measured, is [Mohankumar et al 2021][research_mohankumar_2021] and [Mohankumar et al 2022][research_mohankumar_2022].
+
+### Subscale Free Flight Is Still How It Is Done
+
+The Froude-scaled free-flight model that settled the X-13's transition is not a superseded technique. **It is how a transitioning aircraft is still tested before it carries anything.**
+
+Scaled demonstrators and their development are [Pan et al 2026][research_pan_2026] and [Bianco and Simon 2023][research_bianco_simon_2023], flight testing a trajectory controller on a subscale transitioning aircraft is [Comer et al 2026][research_comer_2026], and the identification work that turns such a flight into a model is [Ahmed et al 2025][research_ahmed_2025], [Shen and Chen 2025][research_shen_chen_2025], [Rashid et al 2025][research_rashid_2025], and [Ide and Landman 2025][research_ide_landman_2025]. **The difference from 1958 is that the model now carries the flight computer it is testing**, so the thing being validated is the software rather than the shape, and the Reynolds number mismatch this article computes matters less than it did because the quantity of interest is a control law rather than a stall. Safety and certification lessons drawn from such vehicles are [Filippoli et al 2026][research_filippoli_2026] and [Kieß et al 2026][research_kie_2026], and the noise a full-scale one makes is [Pascioni et al 2026][research_pascioni_2026] and [Lee et al 2025][research_lee_2025].
+
+### What Has Not Changed
+
+Three of the article's findings have no modern remedy and appear unchanged in the current literature.
+
+**Hovering is expensive**, and the effective specific consumption table above shows the improvement over seventy years is about fifteen percent at fixed energy fraction. **Ground loading scales with disc loading**, so any vehicle that hovers on a small actuator disc will damage what it hovers over. **And a hovering aircraft has no aerodynamic restoring moment**, so the position loop is third order and undamped whether a person or a computer is closing it.
+
+**What changed is who closes the loop, how much energy the vehicle can afford to carry, and whether the ground is expected to be prepared.** None of those is an aerodynamic advance, and the X-13's aerodynamics were never the problem.
 
 ## Where the Framing Breaks Down
 
@@ -905,6 +975,10 @@ The defence archive contributes little here and that absence is itself informati
 
 **Inference, argued but not established.** That the near equality between the X-13's eleven minutes of hovering and a modern electric rotorcraft's eight to eleven is a coincidence of two roughly forty-fold factors cancelling rather than anything deeper, which the arithmetic shows and which no source states. That the three-axis handover sequence would have been perceptible to the pilot as the aircraft becoming conventional one axis at a time, which the relations imply and which no pilot report found here describes. That deleting the undercarriage was a deliberate performance decision rather than only a consequence of the launch method. That the ground observer is best understood as a delayed sensor inside the control loop, which is this article's framing and not the period's. That the coincidence between the control crossover and the stall speed is what makes the configuration workable rather than a fortunate accident. That the fuel arithmetic, the pilot's sight line, and the ground loading are the operative reasons the concept did not proceed, which the numbers support but which no document found here states in those terms. That the programme's ground testing addressed the wrong difficulty because the difficulty was not aerodynamic. That the return of the vertical-attitude concept as a remotely piloted vehicle is a recognition that the pilot was the binding constraint.
 
+**Publication-review additions to the engineering analysis.** The three modern reference vehicles and their disc loadings, wing loadings, ratios, and hover endurances. The finding that a small electric tail-sitter's disc loading and wing loading are the same quantity to within a factor of two, against the X-13's ratio of 84. The effective specific consumption relation for a rotor, its evaluation at 250 and 400 watt-hours per kilogramme, and the comparison with the Avon showing the modern vehicle fifteen percent ahead. The endurance of 12.9 minutes at the X-13's own energy mass fraction against its 11.0, an improvement of about seventeen percent. The decomposition into a battery forty-eight times worse per kilogramme and a rotor seventeen times better at converting power into thrust.
+
+**A caution about the modern reference vehicles.** The three vehicles in the comparison table are representative rather than actual. Their masses, spans, wing areas, rotor counts, and rotor diameters were chosen as plausible for their classes and are not taken from any specific aircraft, and the battery specific energy of 250 watt-hours per kilogramme and figure of merit of 0.70 are likewise estimates. **The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation, and the specific endurances are not.**
+
 **Written from current knowledge.** This article is dated 2025-10-19 and draws on literature published after that date where the modern discussion continues the period problem, in line with the series convention.
 
 ## Out of Scope
@@ -937,11 +1011,16 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 
 [research_acher_2021]: https://doi.org/10.18409/ispiv.v1i1.51
 [research_adams_1972]: https://doi.org/10.2514/6.1972-962
+[research_ahmed_2025]: https://doi.org/10.1142/s230138502550027x
 [research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
 [research_anderson_1979]: https://ntrs.nasa.gov/citations/19790019011
+[research_antonakis_2025]: https://doi.org/10.1016/j.ast.2025.110020
+[research_antonakis_2025_2]: https://doi.org/10.1007/s13272-025-00815-4
 [research_aoyagi_tolhurst_1964]: https://ntrs.nasa.gov/citations/19670022812
+[research_asghari_tayefi_2026]: https://doi.org/10.1109/access.2026.3679992
 [research_ashkenas_1965]: https://doi.org/10.21236/ad0627659
 [research_athayde_2024]: https://doi.org/10.3390/act13060225
+[research_ayyaswamy_2023]: https://doi.org/10.1016/j.joule.2023.07.014
 [research_barufaldi_morales_2023]: https://doi.org/10.2514/1.c036890
 [research_barzda_1966]: https://doi.org/10.2514/6.1966-733
 [research_batra_2024]: https://doi.org/10.3390/aerospace11090698
@@ -950,9 +1029,11 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_behan_siciliani_1965]: https://doi.org/10.2514/6.1965-722
 [research_behan_siciliani_1967]: https://doi.org/10.2514/3.43811
 [research_bennett_1947]: https://ntrs.nasa.gov/citations/20050028507
+[research_bianco_simon_2023]: https://ntrs.nasa.gov/citations/20230005325
 [research_bihrle_bowman_1980]: https://ntrs.nasa.gov/citations/19800042785
 [research_binion_w_1970]: https://doi.org/10.21236/ad0711665
 [research_blanchard_1981]: https://ntrs.nasa.gov/citations/19810012555
+[research_boggan_clarke_2026]: https://doi.org/10.1109/tte.2026.3681423
 [research_bowman_1955]: https://ntrs.nasa.gov/citations/20050030035
 [research_bowman_1955_2]: https://ntrs.nasa.gov/citations/20050029375
 [research_bowman_1957]: https://ntrs.nasa.gov/citations/20050028487
@@ -962,28 +1043,34 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_burton_2026]: https://doi.org/10.1115/1.4070771
 [research_butler_thomas_1964]: https://doi.org/10.21236/ad0613342
 [research_cai_2026]: https://doi.org/10.3390/drones10050325
+[research_cai_2026_2]: https://doi.org/10.1061/jaeeez.aseng-6043
+[research_cai_lovera_2026]: https://doi.org/10.1109/taes.2025.3622578
 [research_campbell_1962]: https://ntrs.nasa.gov/citations/19630017020
 [research_cao_2023]: https://doi.org/10.3390/drones7090566
+[research_caprace_2025]: https://doi.org/10.2514/1.j065017
 [research_carmichael_mcnay_1961]: https://doi.org/10.21236/ad0282125
 [research_carpenter_jenny_1964]: https://doi.org/10.2514/6.1964-286
 [research_chaloff_1974]: https://doi.org/10.21236/ada002858
+[research_chen_2025_3]: https://doi.org/10.1016/j.bspc.2025.108024
 [research_chen_2026]: https://doi.org/10.3389/arc.2026.16513
 [research_christiansen_1984]: https://ntrs.nasa.gov/citations/19840035242
 [research_clark_1963]: https://doi.org/10.21236/ad0419126
 [research_clark_1964]: https://doi.org/10.2514/6.1964-618
 [research_clark_spurlin_1962]: https://doi.org/10.21236/ad0329345
 [research_combey_2026]: https://doi.org/10.2514/1.c038518
-[research_comer_2025]: https://ntrs.nasa.gov/citations/20250000954
+[research_comeau_2024]: https://doi.org/10.1177/15485129221118937
+[research_comer_2026]: https://doi.org/10.2514/1.g009060
 [research_cook_1964]: https://doi.org/10.21236/ada953004
 [research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
 [research_crandall_1973]: https://doi.org/10.21236/ad0766642
-[research_dagal_erol_2025]: https://doi.org/10.1038/s41598-025-25903-7
+[research_crespillo_2025]: https://doi.org/10.1007/s13272-024-00749-3
 [research_davidson_1972]: https://doi.org/10.21236/ad0763365
 [research_davis_spicer_1965]: https://doi.org/10.2514/6.1965-1425
 [research_denning_1962]: https://doi.org/10.4271/620308
 [research_dent_1966]: https://doi.org/10.1016/0022-460x(66)90128-3
 [research_div_1956]: https://doi.org/10.21236/ad0141370
 [research_division_1966]: https://ntrs.nasa.gov/citations/19660015317
+[research_doff_sotta_2025]: https://doi.org/10.2514/1.g008315
 [research_donaldson_1966]: https://doi.org/10.21236/ad0656592
 [research_donaldson_1971]: https://doi.org/10.1017/s0022112071000156
 [research_dougherty_1966]: https://doi.org/10.2514/6.1966-751
@@ -995,34 +1082,42 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_duivenvoorden_2026]: https://doi.org/10.2514/1.c038435
 [research_eatough_1971]: https://doi.org/10.2514/6.1971-752
 [research_eilertson_1975]: https://doi.org/10.4271/751103
+[research_enenakpogbe_2025]: https://doi.org/10.1016/j.ast.2025.110145
 [research_eney_1967]: https://doi.org/10.2514/6.1967-576
 [research_erwin_1964]: https://doi.org/10.21236/ad0609059
 [research_evans_1974]: https://ntrs.nasa.gov/citations/19740020647
 [research_farris_1983]: https://ntrs.nasa.gov/citations/19830060450
+[research_favaro_2025]: https://doi.org/10.3390/aerospace12060559
+[research_fernandez_2026]: https://doi.org/10.2514/1.c038553
+[research_filippoli_2026]: https://doi.org/10.3390/safety12040096
 [research_foltz_1962]: https://doi.org/10.21236/ad0414393
 [research_friend_1964]: https://doi.org/10.2514/6.1964-787
 [research_garren_1961]: https://ntrs.nasa.gov/citations/20040006489
 [research_garren_1965]: https://ntrs.nasa.gov/citations/19650012141
 [research_gentry_margason_1966]: https://ntrs.nasa.gov/citations/19660006875
 [research_george_1964]: https://doi.org/10.21236/ad0608185
+[research_georgiev_2025]: https://doi.org/10.3846/aviation.2025.23587
 [research_gerdes_1964]: https://ntrs.nasa.gov/citations/19640018145
 [research_gerhardt_chen_1978]: https://ntrs.nasa.gov/citations/19790001855
 [research_gertsen_shomber_1965]: https://doi.org/10.2514/6.1965-780
 [research_gold_walchli_1974]: https://doi.org/10.2514/6.1974-952
 [research_goldberger_1966]: https://doi.org/10.21236/ad0644191
 [research_golmirzaee_wood_2026]: https://doi.org/10.1186/s42774-025-00222-7
+[research_gonzalez_tejeda_2026]: https://doi.org/10.1142/s2301385027410056
+[research_gonzalo_2026]: https://doi.org/10.65150/ep-gjetr/v2e5/2026-04
 [research_grafton_anglin_1975]: https://ntrs.nasa.gov/citations/19760003954
 [research_grahame_1968]: https://doi.org/10.2514/6.1968-637
 [research_grahame_1969]: https://doi.org/10.2514/3.44022
 [research_greene_2020]: https://doi.org/10.4271/01-14-01-0001
 [research_grether_1973]: https://doi.org/10.21236/ad0767203
+[research_guo_2025]: https://doi.org/10.1016/j.urbmob.2025.100117
+[research_gupta_2026]: https://doi.org/10.1016/j.ast.2026.112700
 [research_gupta_bryson_1976]: https://ntrs.nasa.gov/citations/19760047895
 [research_hafer_skinner_1960]: https://doi.org/10.21236/ad0472676
 [research_hargraves_1961]: https://doi.org/10.21236/ad0268350
 [research_harper_p_1955]: https://doi.org/10.21236/ad0092496
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
 [research_harris_1969]: https://doi.org/10.21236/ad0856377
-[research_hart_2025]: https://doi.org/10.2514/1.c038680
 [research_hartmann_1979]: https://ntrs.nasa.gov/citations/19800007805
 [research_hastings_mitcham_1954]: https://ntrs.nasa.gov/citations/20050030055
 [research_hay_1970]: https://doi.org/10.21236/ad0872113
@@ -1036,16 +1131,23 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_howard_1975]: https://ntrs.nasa.gov/citations/19750022974
 [research_howard_1976]: https://ntrs.nasa.gov/citations/19990117220
 [research_huff_w_1949]: https://doi.org/10.21236/ad0035641
+[research_ide_landman_2025]: https://doi.org/10.1108/ijius-11-2024-0335
 [research_ikami_2021]: https://doi.org/10.2514/1.c035880
-[research_ilyas_2025]: https://doi.org/10.1109/access.2025.3544133
+[research_ioannis_ioannis_2026]: https://doi.org/10.70322/dav.2026.10005
 [research_irmawan_2023]: https://doi.org/10.3390/drones7050330
 [research_irvin_swan_1956]: https://doi.org/10.21236/ad0147927
 [research_jacocks_kneile_1975]: https://doi.org/10.21236/ada004104
+[research_janetzko_2026]: https://doi.org/10.1007/s10111-026-00883-4
+[research_jayasundara_baeder_2026]: https://doi.org/10.4050/jahs.71.012001
+[research_jiao_yang_2026]: https://doi.org/10.1007/s11581-026-07214-7
+[research_jin_ma_2025]: https://doi.org/10.3390/smartcities8060202
 [research_johnson_1954]: https://ntrs.nasa.gov/citations/20090023688
 [research_johnston_1965]: https://doi.org/10.21236/ad0622578
 [research_johnston_friend_1965]: https://doi.org/10.4050/sm_vstol_1965-2533
+[research_juhasz_2025]: https://doi.org/10.1017/aer.2025.35
 [research_kang_2025]: https://doi.org/10.2514/1.g008466
 [research_kelly_smaus_1952]: https://ntrs.nasa.gov/citations/20050019245
+[research_kie_2026]: https://doi.org/10.3390/aerospace13040343
 [research_kirby_1954]: https://ntrs.nasa.gov/citations/20090023639
 [research_kirby_1956]: https://ntrs.nasa.gov/citations/19930084609
 [research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
@@ -1060,24 +1162,39 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_lee_1952]: https://ntrs.nasa.gov/citations/20050029463
 [research_lee_1953]: https://ntrs.nasa.gov/citations/20050029432
 [research_lee_2022]: https://doi.org/10.2514/1.c036214
+[research_lee_2025]: https://doi.org/10.1007/s12206-024-1204-8
+[research_lee_2025_2]: https://doi.org/10.3390/su17115054
 [research_lee_2026]: https://doi.org/10.1109/taes.2026.3714382
+[research_lee_2026_2]: https://doi.org/10.1017/jfm.2026.11347
 [research_lee_libbey_1961]: https://ntrs.nasa.gov/citations/19980227452
 [research_leland_thompson_1975]: https://ntrs.nasa.gov/citations/19750009270
 [research_leng_2020]: https://doi.org/10.1142/s2301385020500247
 [research_li_2025_2]: https://doi.org/10.3390/aerospace12100927
+[research_li_2025_3]: https://doi.org/10.1016/j.aej.2024.11.090
+[research_li_2026]: https://doi.org/10.1016/j.ast.2025.111519
+[research_li_2026_2]: https://doi.org/10.1016/j.urbmob.2026.100265
+[research_li_2026_4]: https://doi.org/10.1016/j.displa.2025.103292
+[research_li_jiang_2026]: https://doi.org/10.1016/j.energy.2026.140162
 [research_li_polak_1966]: https://doi.org/10.2514/6.1966-492
+[research_liang_2026]: https://doi.org/10.1109/lra.2025.3632111
 [research_lissaman_1967]: https://doi.org/10.2514/6.1967-2
+[research_liu_2026_2]: https://doi.org/10.1109/jiot.2026.3697060
 [research_lollar_matous_1963]: https://doi.org/10.1109/thfe.1963.231288
 [research_longhurst_1966]: https://doi.org/10.4271/660315
+[research_lovas_2026]: https://doi.org/10.3390/drones10050395
 [research_lovell_1953]: https://ntrs.nasa.gov/citations/20050029472
 [research_lovell_1954]: https://ntrs.nasa.gov/citations/20050028502
 [research_lovell_parlett_1957]: https://ntrs.nasa.gov/citations/19930084763
+[research_lyu_feng_2026]: https://doi.org/10.1016/j.tranpol.2026.104345
 [research_magee_taylor_1971]: https://doi.org/10.21236/ad0735733
+[research_makeev_2026]: https://doi.org/10.26467/2079-0619-2026-29-2-121-132
+[research_maksoud_2025]: https://doi.org/10.1016/j.rineng.2025.103968
 [research_mao_2026]: https://doi.org/10.1016/j.ast.2026.112672
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
 [research_marchinski_1974]: https://doi.org/10.2514/6.1974-962
 [research_martin_1963_2]: https://doi.org/10.2514/6.1963-1016
 [research_mathur_atkins_2026]: https://doi.org/10.2514/1.g008907
+[research_matt_altamirano_2026]: https://doi.org/10.2514/1.c038636
 [research_mazzitelli_1957]: https://doi.org/10.4271/570357
 [research_mccaskill_1953]: https://doi.org/10.21236/ad0015833
 [research_mccormick_1969]: https://doi.org/10.21236/ad0863818
@@ -1089,23 +1206,36 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_mcintyre_1963]: https://doi.org/10.21236/ad0602427
 [research_mckinney_p_1954]: https://ntrs.nasa.gov/citations/19930090534
 [research_meng_2023]: https://doi.org/10.1016/j.cja.2023.06.022
+[research_mercan_2025]: https://doi.org/10.1016/j.jairtraman.2025.102760
 [research_merrick_1981]: https://ntrs.nasa.gov/citations/19810021598
 [research_merrick_1984]: https://ntrs.nasa.gov/citations/19850006532
 [research_michaelsen_1971]: https://doi.org/10.2514/6.1971-992
+[research_mihaila_2026]: https://doi.org/10.3390/eng7070335
+[research_mirkovic_2026]: https://doi.org/10.1016/j.urbmob.2025.100181
 [research_mohankumar_2021]: https://doi.org/10.1115/1.4050606
 [research_mohankumar_2022]: https://doi.org/10.1115/1.4054064
 [research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
 [research_morse_newhouse_1961]: https://doi.org/10.21236/ad0264226
+[research_mortimer_2026]: https://doi.org/10.4050/jahs.71.042007
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19630004807
 [research_naca_1960_2]: https://ntrs.nasa.gov/citations/19740076580
 [research_nettleton_1965]: https://doi.org/10.2514/6.1965-713
 [research_newsom_anglin_1975]: https://ntrs.nasa.gov/citations/19750022036
+[research_newton_2024]: https://doi.org/10.1177/10711813241280042
 [research_ostheimer_giguere_1963]: https://doi.org/10.21236/ad0402379
 [research_owen_cox_1966]: https://doi.org/10.1016/0022-460x(66)90141-6
+[research_paek_2025]: https://doi.org/10.5139/jksas.2025.53.1.91
 [research_palko_1973]: https://doi.org/10.21236/ad0769307
+[research_pan_2026]: https://doi.org/10.1088/1742-6596/3207/1/012030
 [research_panish_bacic_2025]: https://doi.org/10.2514/1.c037862
 [research_papadales_s_1979]: https://doi.org/10.21236/ada073100
+[research_park_2025]: https://doi.org/10.1016/j.apenergy.2024.124567
+[research_park_2026]: https://doi.org/10.1016/j.enconman.2025.120868
+[research_park_park_2026]: https://doi.org/10.1016/j.ast.2025.110745
 [research_parlett_1961]: https://ntrs.nasa.gov/citations/19980227758
+[research_pascioni_2026]: https://doi.org/10.2514/1.c038487
+[research_pathak_2025]: https://doi.org/10.52783/jier.v5i2.3173
+[research_paula_2026]: https://doi.org/10.2514/1.g009512
 [research_paulson_shanks_1961]: https://ntrs.nasa.gov/citations/19980227997
 [research_pfeifle_fichter_2023]: https://doi.org/10.2514/1.g006929
 [research_platou_1968]: https://doi.org/10.2514/6.1968-388
@@ -1113,14 +1243,18 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_polhamus_1966]: https://ntrs.nasa.gov/citations/19670003842
 [research_polhamus_1968]: https://ntrs.nasa.gov/citations/19680022518
 [research_polhamus_1969]: https://ntrs.nasa.gov/citations/19700034491
+[research_prochazkova_juracka_2026]: https://doi.org/10.1016/j.trpro.2026.01.012
 [research_przedpelski_1965]: https://doi.org/10.2514/6.1965-708
 [research_putman_1961]: https://doi.org/10.21236/ad0270217
+[research_qian_2026]: https://doi.org/10.3390/drones10080610
 [research_qiao_zhou_2026]: https://doi.org/10.1016/j.ast.2025.110825
 [research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
 [research_queijo_1953_2]: https://ntrs.nasa.gov/citations/20050029407
 [research_queijo_1953_3]: https://ntrs.nasa.gov/citations/20050029464
 [research_queijo_1953_4]: https://ntrs.nasa.gov/citations/20050029471
 [research_radmanesh_2026]: https://doi.org/10.1007/s12667-026-00785-4
+[research_rajendran_2025]: https://doi.org/10.61359/11.2106-2557
+[research_rashid_2025]: https://doi.org/10.15866/irease.v18i5.25896
 [research_rehan_2026]: https://doi.org/10.1017/aer.2026.10130
 [research_rhoads_1967]: https://doi.org/10.21236/ad0820790
 [research_roberts_1964]: https://doi.org/10.1007/978-3-7091-4688-0_3
@@ -1128,8 +1262,11 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_rolls_1965_2]: https://ntrs.nasa.gov/citations/19660013004
 [research_roy_1966]: https://doi.org/10.1016/0376-0421(66)90003-0
 [research_ryan_1975]: https://doi.org/10.21236/ada014229
-[research_saetti_2025]: https://doi.org/10.4050/jahs.70.042002
+[research_ryu_2025]: https://doi.org/10.1177/02783649241287229
 [research_saetti_2025_2]: https://doi.org/10.4050/jahs.70.032005
+[research_saetti_rogers_2024]: https://doi.org/10.4050/jahs.69.042007
+[research_sagaga_lee_2025]: https://doi.org/10.4050/jahs.70.032004
+[research_salahudden_2024]: https://doi.org/10.1016/j.ast.2024.109156
 [research_schade_1954]: https://ntrs.nasa.gov/citations/20050028505
 [research_scordamaglia_2025]: https://doi.org/10.1109/ojcsys.2025.3619810
 [research_sellers_szuch_1973]: https://ntrs.nasa.gov/citations/19730007088
@@ -1137,6 +1274,8 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_shanks_smith_1959]: https://ntrs.nasa.gov/citations/19980235622
 [research_shanks_smith_1960]: https://ntrs.nasa.gov/citations/19980230619
 [research_sharma_2021]: https://doi.org/10.2514/1.c035973
+[research_shen_chen_2025]: https://doi.org/10.3390/drones9090624
+[research_shirbhate_2025]: https://doi.org/10.1007/s12046-025-02838-3
 [research_sissingh_1956]: https://doi.org/10.21236/ad0116272
 [research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
 [research_smith_1958_2]: https://ntrs.nasa.gov/citations/19710082837
@@ -1145,29 +1284,50 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_smith_lovell_1954]: https://ntrs.nasa.gov/citations/20050030042
 [research_spencer_1962]: https://ntrs.nasa.gov/citations/19630000325
 [research_spillman_1965]: https://doi.org/10.2514/6.1965-797
+[research_stephenson_2026]: https://doi.org/10.3390/systems14020167
 [research_stevens_roskam_1985]: https://ntrs.nasa.gov/citations/19860003826
+[research_stewart_2026]: https://doi.org/10.3390/aerospace13070616
 [research_stone_1975]: https://doi.org/10.21236/ada014230
 [research_strand_1967]: https://doi.org/10.2514/3.43869
+[research_su_2024]: https://doi.org/10.3390/drones8110625
 [research_sutton_buell_1952]: https://ntrs.nasa.gov/citations/20090026346
 [research_swick_skarvan_1967]: https://doi.org/10.21236/ad0666796
+[research_tamaskani_2026]: https://doi.org/10.1016/j.ast.2026.111656
 [research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
+[research_tellez_belkotosky_2025]: https://doi.org/10.1109/mcse.2025.3597193
 [research_titchener_1963]: https://doi.org/10.1017/s0368393100078937
 [research_vallerie_1967]: https://ntrs.nasa.gov/citations/19670020039
 [research_vegh_2025]: https://doi.org/10.2514/1.c038393
 [research_walker_1965]: https://doi.org/10.21236/ad0617129
 [research_wang_2025]: https://doi.org/10.1016/j.ast.2024.109773
+[research_wang_2025_3]: https://doi.org/10.1007/s13369-024-09910-w
+[research_wang_2026_3]: https://doi.org/10.1109/taes.2026.3663140
+[research_wang_2026_4]: https://doi.org/10.1016/j.cnsns.2026.110180
+[research_wang_2026_5]: https://doi.org/10.1016/j.ast.2025.110780
+[research_wang_2026_6]: https://doi.org/10.1016/j.isatra.2025.12.046
+[research_wang_chen_2024]: https://doi.org/10.3390/aerospace11090711
 [research_warsett_1953]: https://doi.org/10.21236/ad0015981
 [research_wentz_1972]: https://ntrs.nasa.gov/citations/19720025346
 [research_whitaker_1977]: https://ntrs.nasa.gov/citations/19780011159
 [research_white_1960]: https://doi.org/10.21236/ad0251154
 [research_white_innis_1959]: https://ntrs.nasa.gov/citations/19980232080
 [research_williams_butler_1964]: https://doi.org/10.2514/6.1964-1103
+[research_xi_2025]: https://doi.org/10.1088/1742-6596/3073/1/012019
+[research_xu_2026]: https://doi.org/10.3390/s26123627
 [research_xue_zhou_2020]: https://doi.org/10.1016/j.ast.2019.105556
 [research_yang_1970]: https://doi.org/10.2514/6.1970-914
+[research_yang_2025_2]: https://doi.org/10.1109/tiv.2024.3385283
+[research_yu_2026]: https://doi.org/10.1016/j.oceaneng.2026.126269
+[research_yuan_2024]: https://doi.org/10.1109/jas.2024.124254
 [research_zagranski_1974]: https://doi.org/10.21236/ad0785580
+[research_zhang_2025_3]: https://doi.org/10.1007/s11071-025-11229-6
 [research_zhao_2024]: https://doi.org/10.3390/aerospace11110922
 [research_zhao_2026]: https://doi.org/10.1016/j.ast.2025.110810
+[research_zhou_2025]: https://doi.org/10.1016/j.ifacol.2025.11.200
+[research_zhou_2026]: https://doi.org/10.1007/s42524-026-5302-4
+[research_zhou_2026_2]: https://doi.org/10.3390/machines14060612
 [research_zhu_2022]: https://doi.org/10.3390/aerospace9100547
+[research_zwiener_2026]: https://doi.org/10.1109/tcst.2026.3672184
 
 ### Related Post
 
