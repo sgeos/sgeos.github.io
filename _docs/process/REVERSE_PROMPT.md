@@ -9,92 +9,116 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A315 primary-reference review, the third of four passes. Committed, **not pushed**, not
-published. References rose from **66 to 248**.
+**Task**: A315 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All nineteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Audit Found a Selection Problem, Not a Supply Problem
+## The Keystone Was Dissolved Rather Than Solved
 
-This is the opposite of A314's finding and worth distinguishing.
+The contemporary section grew from 34 references to **204 across twelve fields**, and its central
+observation acts on the article rather than extending it.
 
-The harvest had already returned 138 pre-1960 records, 276 from the 1960s and 1970s, 186 from the 1980s
-and 1990s, 171 from 2000 to 2018, and 211 from 2019 onward. **The draft cited 26, 7, 0, 0 and 3 of
-them.** The harvest did its job and the draft used only the earliest material, so the fix was to spread
-the selection rather than to search again.
+This article spends its length computing an immersed fraction whose value was set by the X-18 having
+**exactly two propellers**. Nothing about a tilt-wing requires two. There were two because each needed a
+turboprop, a gearbox and a propeller, and those were expensive, heavy and unreliable enough that more
+was not sensible.
 
-Final era coverage is 54, 53, 39, 38 and 34. **Of 218 research references, 184 or 84.4 percent are
-primary and period material.**
+**Distributed electric propulsion removes every one of those reasons.** Many small motors immerse
+essentially the whole span, so the quantity this article is built on **goes to unity and the problem is
+deleted rather than answered.**
 
----
-
-## One Topic Needed a Second Harvest, and It Exposes a Dependency Between Passes
-
-Descent and the vortex ring state stood at **three records**, because the draft treated descent as a
-passing mention in Out of Scope. **The equation pass then made descent the quantity that closes the
-conversion corridor**, at 284 feet per minute at the slow end.
-
-**An equation pass can promote a subject from an aside to a load-bearing claim, and the reference base
-has to follow it.** That is a dependency between passes this series has not previously had to state, and
-it is worth carrying forward: after an equation pass, re-audit the topics the new relations rest on.
-
-The targeted search then found **the single most apposite document in the article** — a measurement of
-the descent capability of *two-propeller tilt-wing configurations*, which is the X-18's exact
-arrangement addressing the X-18's exact difficulty.
+**The configuration was not wrong in 1959 and was not buildable then either**, which is a distinction the
+historical record tends to blur.
 
 ---
 
-## Four Rejected by Reading, and Two False Positives in My Own Scan
+## This Subject Is Unusual in the Series
 
-**Rejected after reading:**
-
-| Search term | What it returned |
-|---|---|
-| high angle of attack | induced side forces on **bodies of revolution**; CFD for **missile** flow fields |
-| vortex ring | a **methane diffusion flame** in a reacting vortex ring; **elliptical vortex filaments** in a viscous fluid |
-
-Both terms are diagnostic inside this field and mean something else one discipline away.
-
-**And a counter-case in my own tooling.** The ad-hoc red-flag scan I ran after insertion produced two
-substring false positives, matching `ising` inside **AR-ISING** and `bearing` inside a legitimate paper
-on propeller-produced unsteady **bearing forces**. The selection exclusion list uses word boundaries and
-the ad-hoc scan did not. **That is the A313 `fRAMework` lesson reappearing in the checking tool rather
-than in the selector**, which is a reminder that the checks need the same discipline as the thing they
-check.
+Most of these aircraft asked a question that was answered and closed. **The X-18 asked one that was set
+aside for fifty years because the answer was too expensive, and then became affordable for a reason
+nobody in 1959 could have anticipated.** That makes a contemporary survey unusually apt here rather than
+dutiful.
 
 ---
 
-## A Gap the Article Had Not Noticed
+## Further Findings
 
-A new subsection was added on **the downwash and ground effect**, which the article had not mentioned at
-all despite computing a disc loading seven times a helicopter's. Air leaving the propellers at eighty
-metres per second has to go somewhere, and near the ground it recirculates, erodes and ingests. **A
-tilt-wing at this disc loading needs a prepared surface for the same reason a tail-sitting jet does**,
-which is a constraint the transport mission the X-18 existed to prove would have inherited.
+**The 0.85 contraction factor is not a quantity a modern analysis would guess.** The interference the
+X-18 could only measure is now simulated directly.
+
+**Descent is still the hard part, seventy years on.** That is not a failure of the intervening work. It
+is a statement that a lifting surface meeting air arriving from below has **no configuration-level fix.**
+
+**Redundancy replaced cross-shafting.** With enough independent motors, the 268 kN·m upset this article
+computes for a two-propeller aircraft becomes a small perturbation. **The engine-out case stopped being
+an aerodynamic problem and became a redundancy-architecture problem.**
+
+**Certification is where the constraint now lives.** The X-18 was grounded by a propeller governor. Its
+descendants are more often delayed by a means-of-compliance document.
+
+**Noise is a genuinely new constraint**, not an old one made stricter. Nothing in this article's analysis
+touches it, and a modern designer would trade immersed fraction against tip speed in a way the X-18's
+designers never had to consider.
+
+---
+
+## Eight Rejected by Reading, and a Counter-Case
+
+New examples from this pass: **micro-mobility** noise, meaning scooters; **flying-car racing** as a
+constitutional pathway; and a paper on roll attitude **regulation** that matched a certification bucket
+through the substring `regulat`.
+
+One entry was **kept** after reading its full title, because a truncated display had hidden that its
+subject was Advanced Air Mobility. Reading works in both directions.
+
+**And the counter-case belongs in the record.** An ad-hoc relevance scan I ran over the finished
+citations produced two false positives of its own, matching fragments inside **AR-ISING** and inside a
+legitimate paper on propeller-produced unsteady **BEARING** forces. **The checks need the same discipline
+as the thing they check**, and word boundaries are not optional in either.
 
 ---
 
 ## Verification
 
-**62 draft-pass and 77 equation-pass re-derivations, zero disagreements**, still reproducing. 248
-reference definitions, 230 external URLs, zero duplicates or orphans. 127 plain 200s, 71 publisher 403s,
-1 202, and **31 DTIC DOIs verified through the Crossref registry** with matching titles.
+**62 draft-pass and 77 equation-pass re-derivations, zero disagreements**, still reproducing after every
+edit. 418 reference definitions, 400 external URLs, zero duplicates or orphans.
 
-`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
-with 29 of 29 display blocks rendered, 8 of 8 tables, and Part 19 navigation.
+URL sweep: 209 plain 200s, 155 publisher 403s, 5 202s, and **31 DTIC DOIs verified through the Crossref
+registry** — one of which turned out to be a method for calculating the spindle torque of a
+controllable-pitch propeller, and therefore directly about the system that failed on the final flight.
+
+A red-flag scan of all 388 cited titles returned **zero hits**. `_verify.py` at the 0-error 21-warning
+corpus baseline. Zero style violations. Genre section order correct. Isolated build passing with 29 of
+29 display blocks, 8 of 8 tables, Part 19 navigation. Equation count measured before and after, holding
+at 29.
+
+---
+
+## Final State, and a Pattern You Should Now Settle
+
+**935 lines, 29 display equations, 418 references, 8,437 body words.** Contemporary 204 of 388, or 52.6
+percent.
+
+References are above the full-aircraft band. **Lines sit 369 below its 1,300 floor and equations 61
+below the 90 floor**, so A315 finishes outside the named classes on two of three measures — exactly as
+A313 and A314 did.
+
+**That is three consecutive articles, across twelve passes.** It is no longer a coincidence and it is no
+longer a one-off observation. `RESEARCH_AIRCRAFT_STRUCTURE.md` names four classes and these three
+articles fit none of them, consistently and in the same direction. **I have not amended the genre
+document, because that is a change to the series' own standards and it is yours to make.** If you would
+like me to propose a fourth class with bands drawn from A313 to A315, say so and I will.
 
 ---
 
 ## State
 
-**697 lines, 29 display equations, 248 references, 6,511 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`.
+**The publication-order dependency is nineteen deep**, A315 back to A297, and every cross-reference
+points backward.
 
-**References sit two below the full-aircraft floor of 250.** That is the closest any article in this run
-has come to a band, and I did not add two citations to cross it. Lines sit 603 below the floor and
-equations 61 below, so the intermediate-class question stands.
+Nineteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, raised twenty-four times.
 
-**Contemporary at 34 of 218, or 15.6 percent, is low by series standards** and closing it is the
-publication review's work, as on every previous article.
-
-**Committed, not pushed.** Nineteen articles complete of seventy-two. Categories remain undecided, and
-the fourth-class question is open across two completed articles.
+A316 is the next roster entry; check `HANDOFF.md` before starting.

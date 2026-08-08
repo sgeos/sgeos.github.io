@@ -23,7 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 386 lines, 21 display equations, 66 references, 3,982 words after the draft pass; **485 lines, 29
 display equations, 66 references, 5,240 words after the equation review; **697 lines, 29 display
-equations, 248 references, 6,511 words after the primary-reference review.** Publication review pending.
+equations, 248 references, 6,511 words after the primary-reference review; **935 lines, 29 display
+equations, 418 references, 8,437 words after the publication review.** All four passes complete.
+Committed and pushed. Not published.
 
 **The first article in the series to solve vertical take-off with a wing rather than a jet.** The X-13
 and X-14 both pointed a jet downward. A tilt-wing points the wing itself, which is a different problem

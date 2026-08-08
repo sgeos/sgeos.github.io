@@ -1,0 +1,1 @@
+/opt/local/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/bsechter/projects/blog/harvest3.py': [Errno 2] No such file or directory
