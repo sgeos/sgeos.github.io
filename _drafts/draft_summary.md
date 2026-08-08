@@ -23,8 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 461 lines, 27 display equations, 71 references, 5,266 words after the draft pass; **607 lines, 47
 display equations, 71 references, 6,937 words after the equation review; **835 lines, 47 display
-equations, 277 references, 8,301 words after the primary-reference review.** References are inside the
-full-aircraft band. Publication review pending.
+equations, 277 references, 8,301 words after the primary-reference review; **1,066 lines, 47 display
+equations, 446 references, 10,417 words after the publication review.** All four passes complete.
+Committed and pushed. Not published.
 
 **The second consecutive article whose subject has no archival record of its own.** NTRS returns
 astronomy false positives for the vehicle name and nothing technical, and DTIC holds the surrounding

@@ -9,92 +9,120 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A314 primary-reference review, the third of four passes. Committed, **not pushed**, not
-published. References rose from **71 to 277**.
+**Task**: A314 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All eighteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Audit Found a Supply Problem, Not a Selection Problem
+## The Survey Found Two Things That Act on the Article
 
-This is a different defect from the one A313's audit found, and worth distinguishing.
+The contemporary section grew from 38 references to **208 across twelve fields**. Two of its
+observations are not extensions.
 
-**The pool held only twenty records from before 1960, for a vehicle that flew in 1956 and 1957.** The
-first harvest's period sweep used a 1985 cutoff, and 1960s and 1970s material crowded out the
-contemporaneous literature entirely. A second sweep with a **1960 cutoff** took pre-1960 supply from 20
-to **157**.
+**The chemistry the X-17 surrendered is now the most expensive requirement, not the cheapest.** The
+vehicle gave up velocity, and therefore the gas chemistry, because it was the cheapest of three
+requirements to abandon and because nobody could compute it anyway. In a modern prediction everything
+else is comparatively well posed and **the chemistry is where the model form uncertainty lives**. The
+1956 reasoning has inverted.
 
-**The documents the X-17's own engineers would have been reading are the most valuable primary material
-this article can have, and they had to be asked for specifically.** A313's lesson was that a harvest
-must ask for the middle era. This one is that it must also ask for the *earliest* era with a cutoff
-tight enough to isolate it. The two are related and neither implies the other.
-
-Two thin topics were filled at the same time. Refractory materials and radiative cooling stood at six
-records, which the equation pass had made load-bearing by arguing that ablation is mandatory through a
-Stefan-Boltzmann test on every refractory material there is, and re-entry vehicle dynamics stood at
-seven.
-
-**Of 252 research references, 214 or 84.9 percent are primary and period material.** Era distribution
-is 33, 94, 43, 44, and 38 across the five bands.
+**The relations are now run in reverse.** Design for demise computes ballistic coefficient, ablation
+rate and heat load in order to guarantee that a structure **comes apart and burns** rather than that it
+survives. That application did not exist in 1956, and it is the sharpest available demonstration of how
+general the underlying physics turned out to be. **The X-17 measured how to survive; its instruments now
+serve an industry that sometimes needs the opposite.**
 
 ---
 
-## Sixteen Rejected by Reading, in a New Vocabulary
+## Further Findings
 
-The failure mode is the one A313 recorded, arriving in different words.
+**Prediction replaced measurement and then needed validating**, so the X-17's kind of data was relocated
+rather than removed. It now serves to check a code rather than to characterise an environment, which is
+a different epistemic role for the same measurement.
+
+**The facility shortfall is unresolved seventy years on.** What changed is that it is measured and
+quoted rather than argued about — the same improvement this article credits the X-17's own partition
+with.
+
+**Ultra-high temperature ceramics are designed against exactly the Stefan-Boltzmann calculation this
+article performs**, and the hafnium carbide that appears as the single survivor in the article's own
+table is precisely the family that literature pursues.
+
+**Entry, descent and landing is where the problem actually went.** A Mars entry vehicle is the
+Allen-Eggers argument with somebody else's atmosphere, carrying a density uncertainty no terrestrial
+calculation has to bear.
+
+**Nobody now builds an X-17, and the reason is not that the problem was solved.**
+
+---
+
+## Thirty Rejected by Reading, and One Caught by Accident
+
+New examples from this pass:
 
 | Search term | What it returned |
 |---|---|
-| refractory | furnace fillers; mullitization of alumina raw material; **silicon carbide power converters**; near-infrared reflectance of **rocks** for asteroid science |
-| high temperature air | a pneumatic **air motor** |
-| chemical kinetics | oxidation of **n-butane**; chemiluminescence in propane-butane flames |
-| heat flux | **microchannel heat sinks** for electronics cooling |
+| nonequilibrium | a two-temperature **Ising model** |
+| ionisation | electron impact on **krypton** |
+| Bayesian calibration | resource depletion in **Peruvian mining districts** |
+| demise | dataveillance and the **demise of interpretive flexibility** |
+| thermal protection system | a passive TPS for **divers**, which is a wetsuit |
 
-The refractory bucket was rewritten to require a materials term **and** a protection, structural, or
-property context, and each rejection carries a recorded reason.
+**The wetsuit was caught only because the DOI verification step printed its title.** It had passed the
+exclusion list, the bucket pattern, and a relevance scan. That is an argument for reading output that is
+nominally about something else.
 
-**An asymmetry worth noting.** A second automated relevance scan run after insertion flagged seven more
-citations. **All seven were false positives of the scan's own keyword list** — a ceramic-heated tunnel,
-high-emissivity coatings, expansion-tube shot-to-shot variation, and others squarely on subject. The
-reading step catches real defects. The automated step generates noise in both directions and is useful
-only as a prompt to look.
-
----
-
-## Where the Citations Went
-
-Thirteen insertion points, each supporting a specific claim rather than listing. The facilities
-discussion now says plainly that **every ground facility is a partial simulation too**, which is worth
-establishing before criticising the X-17 for being one. The high-temperature air properties are named as
-**the single largest supporting literature the article rests on**, because every quantity in the heating
-calculation depends on them and none is constant. And the re-entry dynamics literature is tied to the
-observation that **a vehicle which tips over and fires has an attitude error at ignition by
-construction**.
+**A counter-observation belongs alongside it.** An automated relevance scan run after insertion flagged
+ten further citations and **every one was a false positive of the scan's own keyword list** — a
+ceramic-heated tunnel, high-emissivity coatings, expansion-tube flow characterisation. The reading step
+finds real defects. The automated step generates noise in both directions and is useful only as a prompt
+to look.
 
 ---
 
 ## Verification
 
-**56 draft-pass and 44 equation-pass re-derivations all still reproducing**, zero disagreements. 277
-reference definitions, 260 external URLs, zero duplicates or orphans. URL sweep: 152 plain 200s, 61
-publisher 403s, 4 202s, 1 302, and **42 DTIC DOIs verified through the Crossref registry** with matching
-titles.
+**56 draft-pass and 44 equation-pass re-derivations, zero disagreements**, still reproducing after every
+edit. 446 reference definitions, 429 external URLs, zero duplicates or orphans.
 
-`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
-with 47 of 47 display blocks rendered, 7 of 7 tables, and Part 18 navigation.
+URL sweep: **245 plain 200s, 134 publisher 403s, 7 202s, 1 302, and 43 DTIC DOIs verified through the
+Crossref registry** with titles matching the prose.
+
+The section was extended in place rather than replaced, per the A310 defect, and the equation count was
+measured before and after regardless, holding at 47. `_verify.py` at the 0-error 21-warning corpus
+baseline. Zero style violations. Genre section order correct. Isolated build passing with 47 of 47
+display blocks, 7 of 7 tables, Part 18 navigation.
+
+---
+
+## Final State
+
+**1,066 lines, 47 display equations, 446 references, 10,417 body words.**
+
+References are above the full-aircraft band. **Lines sit 234 below its 1,300 floor and equations 43
+below the 90 floor**, so A314 finishes outside the named classes on two of three measures, exactly as
+A313 did. I did not pad it.
+
+Contemporary is 208 of 421 research citations, or **49.4 percent**, matching A313's proportion and for
+the same structural reason: a subject with no literature of its own can only be surveyed through its
+question.
+
+**That is now two consecutive articles finishing outside the named classes in the same way, across
+eight passes.** The fourth-class question in `RESEARCH_AIRCRAFT_STRUCTURE.md` is no longer a one-off
+observation and I have still not made the decision, because it is a change to the genre document and
+that is yours.
 
 ---
 
 ## State
 
-**835 lines, 47 display equations, 277 references, 8,301 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is eighteen deep**, A314 back to A297, and every
+cross-reference points backward.
 
-**References are inside the full-aircraft band of 250 to 380.** Lines sit 465 below its floor and
-equations 43 below, so the intermediate-class question stands on those two measures exactly as it did
-for A313.
+Eighteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, raised twenty-three times.
 
-**Contemporary references at 38 of 252, or 15.1 percent, are low by series standards.** That is expected
-at this point in the rhythm and closing it is the publication review's work, as it was on A310, A312 and
-A313.
-
-**Committed, not pushed.** Nothing in the series is published. Categories remain undecided, and the
-fourth-class question is now open across two articles and four passes.
+**A315 is the Hiller X-18**, editorial date 2025-10-24, a tilt-wing transport testbed. That returns the
+series to jet-lift and tilt-wing, so the A310 and A311 pools are genuinely relevant for the first time
+in three articles and the stated exception to the one-directory rule may apply. Check
+`RESEARCH_AIRCRAFT_STRUCTURE.md` and the A311 harvest before building a new one.
