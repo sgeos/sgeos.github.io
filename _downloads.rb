@@ -22,8 +22,25 @@ SITE_DIR    = File.expand_path('_site',  __dir__)
 SITE_URL    = 'https://sgeos.github.io'
 DEFAULT_AUTHOR = 'Brendan Sechter'
 
+# Resolve an executable on PATH without invoking a shell. The previous
+# implementation interpolated into system("command -v #{cmd} ..."), which is a
+# shell-injection primitive even though both call sites pass a literal.
+#
+# File.file? is checked alongside File.executable? because DIRECTORIES ARE
+# EXECUTABLE. Testing executability alone reports a directory named `pandoc` on
+# PATH as the tool being present, which would carry the script past the guard
+# below and fail later at the first real invocation, turning a clean skip into a
+# mid-build failure. Empty PATH elements are skipped rather than resolved
+# against the working directory, and a name containing a separator is rejected
+# because this is a PATH lookup and not a path test.
 def have?(cmd)
-  system("command -v #{cmd} >/dev/null 2>&1")
+  name = cmd.to_s
+  return false if name.empty? || name.include?(File::SEPARATOR)
+  ENV['PATH'].to_s.split(File::PATH_SEPARATOR).any? do |dir|
+    next false if dir.empty?
+    candidate = File.join(dir, name)
+    File.file?(candidate) && File.executable?(candidate)
+  end
 end
 
 unless have?('pandoc')
