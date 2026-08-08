@@ -92,7 +92,33 @@ count exactly, Part 14 navigation, eleven tables, no unresolved reference links 
 Liquid tags. `aircraft` at 8.83 and `control` at 5.52 per thousand body words are the subject and
 keystone nouns and are reported rather than remediated.
 
-**Remaining for the review passes, with one warning.** The master pool holds only 665 entries against
+**Equation pass complete, 2026-08-07.** 56 to **91 display equations**, inside the 90 to 130 band.
+1047 lines, 143 references, 13,590 body words.
+
+**The pass found an imprecision in the article's own framing.** The opening said the two control
+systems cross exactly once and then computed a crossing at 48.2 m/s. Those are two different
+crossings: the elevons equal the deflected thrust at **94.7 m/s** and meet the criterion at 48.2.
+The article now separates them, and tabulating the aerodynamic share shows that **at the adequacy
+crossing the elevons supply only a fifth of the available authority**.
+
+**Three results changed what the article says.** The design spiral grows linearly with size, so
+**doubling the length doubles the fraction of the engine that attitude control eats**. A tumble is
+stopped in 0.52 s with the engine running and not at all without it, since both the nozzle and the
+puffers are engine-powered, which is why a spin parachute was tested. And Froude scaling puts the
+one-fifth model at 23.5 m/s and 2.19 s with a Reynolds number 11.2 times lower, which is exactly the
+division between what the models settled and what they did not.
+
+**The largest exposure is now tabulated.** Halving the assumed elevon effectiveness moves the
+crossover ratio to 1.298 and inverts the central claim.
+
+**The contemporary result worth keeping**: a rotor of the X-13's span with a battery at the same
+seventeen percent mass fraction hovers 8.2 to 10.9 minutes against the X-13's eleven, because two
+roughly forty-fold factors cancel. Flagged as coincidence, not law.
+
+All 268 worked values re-derived with zero disagreements, isolated build clean at 91 rendered display
+blocks matching source exactly.
+
+**Remaining for the two review passes, with one warning.** The master pool holds only 665 entries against
 A309's 3,597, of which 525 are unused. **That is very unlikely to support the 250 reference floor**,
 so the primary pass must begin with a supplementary harvest rather than with a coverage audit.
 Primary sources are 77 of 126, or 61.1 percent of dated, and contemporary references are already 47.
