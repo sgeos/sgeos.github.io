@@ -17,6 +17,72 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes North American X-15 A312 2025-10-21
+
+`x_planes_north_american_x15.markdown`, A312, editorial date 2025-10-21, series `x_planes` index 16
+of 72.
+
+669 lines, 48 display equations, 77 reference definitions of which 58 are research, 8,057 words after
+the draft pass. All three densities approach their bands from below. Reported rather than padded.
+
+**The keystone was chosen rather than discovered, and the article says so.** Every previous article in
+the series found its keystone by locating the one binding unknown. The X-15's record is large enough
+that four candidate keystones are all well supported, so the article names all four, chooses one, and
+defends the choice. The rejected candidates are aerodynamic heating, hypersonic stability and control,
+flight outside the atmosphere, and structures at temperature. The objection to all four is that they
+are consequences of a single quantity, and treating any one as primary makes the other three look like
+separate subjects when they are the same subject.
+
+**The keystone is energy disposal.** At its record speed the X-15's kinetic energy per kilogramme was
+2.041 MJ, against roughly 0.904 MJ to melt a kilogramme of its own structure from room temperature.
+**The aircraft carried 2.26 times the energy needed to melt itself**, and 7.4 times the energy needed
+to take the whole structure to the 1,200 degree Fahrenheit limit of its strength. That makes
+deceleration a thermal event rather than a nuisance, which is the difference in kind between
+hypersonic flight and merely fast flight, and it dimensions the structure, the trajectory, the
+propulsion, and the control system in one stroke.
+
+**Central result.** Applying a Sutton and Graves stagnation-point correlation at the record condition
+gives 64.8 W/cm2, while a structure at its design temperature radiating at an emissivity of 0.8 can
+reject only 3.28 W/cm2. **The record flight asked the structure to reject 19.8 times what its design
+temperature could handle**, which is why the X-15A-2 was covered in ablative coating, why that flight
+was the fastest ever made, and why nothing like it was attempted again. The correlation is validated
+against the reported 2,700 degree leading-edge temperature, which it overshoots by 12.7 percent, and
+the conclusion survives doubling the assumed nose radius.
+
+**Results the sources do not state.** The two records are one energy budget spent two ways, at 2.347
+and 1.964 MJ/kg, differing by 19.5 percent because the speed flight was flown by the X-15A-2 with
+external tanks rather than because it was flown better. **Converting the speed record's kinetic energy
+entirely to height gives 239.3 km against an actual altitude record of 108.0**, so a little over half
+the available energy never reached apogee. The speed record was 89.9 percent of the ideal rocket
+delta-v, which is a remarkably small loss. **The heating rate falls with thinner air and the heat load
+rises**, since the rate goes as sqrt(rho) V^3 while the time to shed a fixed energy goes as 1/rho, so
+rate and load are optimised by different trajectories and the X-15A-2 moved from a rate-limited to a
+load-limited regime when it was coated. A 1.5 mm Inconel skin reaches thermal equilibrium in about
+7.5 seconds, which is what makes the hot structure rate-limited. **A 300 kelvin gradient alone yields
+the structure**, at 830 MPa, which is why the skin is corrugated and slotted for no load reason.
+**99.8 percent of the energy the vehicle holds at its fastest must be disposed of before landing.**
+
+**The series thread arrives from the opposite direction.** The X-13 and X-14 lost aerodynamic control
+authority because the vehicle was not moving; the X-15 loses it because there is no air. Same
+relation, opposite cause, same reaction-control answer. The dynamic pressure ratio across a single
+flight exceeds 4,600.
+
+**An order-of-magnitude error was caught by verifying rather than by reading.** The aerodynamic to
+reaction control crossover was written as 6,280 Pa and computes to 628, placing the handover near 55
+km rather than between 30 and 50. **Eighth consecutive article in which computing before writing
+caught a wrong claim.** The corrected value produced an unplanned result: Flight 91's burnout at 53.6
+km sits within 1.4 km of the crossover, so on a high flight the engine stops at roughly the altitude
+where the aerodynamic surfaces stop working.
+
+**Two omissions found by surveying the references rather than by reading the draft**, namely the MH-96
+adaptive flight control system, which was fitted to the airframe that was lost, and shock interference
+heating, which is what nearly destroyed the speed-record flight and which the draft described without
+citing. Both were added.
+
+Equation-density, primary-reference, and publication reviews not yet performed. Lines 669 against a
+1300 floor, equations 48 against 90, references 77 against 250. Contemporary references are 13 of 58
+dated, or 22.4 percent; primary 45, or 77.6 percent.
+
 ## X-Planes Bell X-14 A311 2025-10-20
 
 `x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
