@@ -11,8 +11,8 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `9d52919`
-- **Written**: 2026-08-08
+- **Parent commit** (the repository state this handoff describes): `75b989b`
+- **Written**: 2026-08-08, re-stamped the same day after a tooling commit landed
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Nineteen of seventy-two articles drafted, all four
   passes complete on each. None published.**
@@ -35,6 +35,11 @@ described.
 **Nothing is outstanding.** A315 finished all four passes, is committed and pushed, its CI run
 succeeded, and the article returns 404 while the site root returns 200, which is correct because
 nothing in the series is published. There is no half-finished pass to pick up.
+
+**One commit since A315 is tooling rather than article work.** `75b989b` hardened the PATH lookup in
+`_downloads.rb` under the four-step process in `_docs/process/PR_STRATEGY.md`, resolving GH-7
+independently rather than merging it. No article changed and the series state is exactly as described
+below.
 
 **Wait for the pilot's prompt. Do not begin A316 unprompted.**
 
