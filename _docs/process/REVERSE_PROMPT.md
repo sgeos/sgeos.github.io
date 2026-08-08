@@ -9,114 +9,127 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A313 primary-reference review, the third of four passes. Committed, **not pushed**, not
-published. References rose from **85 to 315**.
+**Task**: A313 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All seventeen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Audit Found a Missing Era, Not a Missing Subject
+## The Survey Found Two Things That Change the Article's Own Conclusions
 
-The pass opened with a coverage audit rather than a selection, per the A310 ordering rule. What it
-found was not what I expected.
+The contemporary section grew from 57 references to **217 across twelve identifiable fields**. Two of
+its findings are not extensions of the article. They act on it.
 
-The draft cited **35 documents from before 1960**, **22 from 2019 onward**, and **three from the whole
-of 1960 to 2018** — against 546 pool records in that span.
+**The keystone is dissolved rather than solved.** This article's central result is that the X-16's
+ceiling was set by how well a compressor works in thin air, and that the whole aeroplane lived on a
+nineteen percent margin bought by ram recovery. **A solar-electric platform has no compressor and no
+lapse exponent.** Photovoltaic output depends on irradiance rather than on air, so the term that
+dominated the design by a factor of four over every aerodynamic parameter simply leaves the equation.
 
-That shape makes a claim, and the claim is false. It implies the X-16's question was asked in the
-1950s, abandoned, and revived recently. **It was worked continuously**, most visibly by the
-high-altitude long-endurance programmes of the 1980s and 1990s, which asked exactly Bell's question
-with better tools. Condor, Perseus, Pathfinder and their airfoil and sizing literature sit directly
-between the two clusters the draft cited.
+What replaces it is energy storage over the night. **The constraint did not get easier. It moved from
+the propulsion system's altitude behaviour to the energy system's mass**, where the ceiling relation
+punishes it just as hard.
 
-**The correction is to the article's implicit history rather than to its arithmetic.**
-
-| Era | Before | After |
-|---|---|---|
-| pre-1960 | 35 | 69 |
-| 1960–79 | 3 | 61 |
-| 1980–99 | 0 | 56 |
-| 2000–18 | 0 | 47 |
-| 2019+ | 22 | 57 |
-
-A second harvest aimed at that era, and at one genuinely thin topic — airspeed measurement at low
-dynamic pressure, which the equation pass made load-bearing by distinguishing true from equivalent
-airspeed — took the pool from 947 to about 1,400 records and the master from 871 to **1,468 entries
-with zero anchor drift** on rebuild.
+**The binding constraint on a modern equivalent is certification, not performance.** A 1955 military
+aeroplane needed to work. A modern high-altitude platform needs to work, be certified, be insurable,
+and be integrated into shared airspace. The X-16 was cancelled by a procurement decision, which this
+article argues was not an engineering verdict. Its descendants are more often delayed by an approval
+process than a design problem. An article treating only the arithmetic would miss where the difficulty
+now lies.
 
 ---
 
-## Of 290 Research Citations, 233 Are Primary
+## Further Findings From the Survey
 
-**80.3 percent primary and period material**, which is what the pass was asked for. Selection was by
-topic *and* era rather than by relevance score, because picking the best-scoring records regardless of
-date would have deepened the existing concentration and left the middle empty again.
+**The platform became the product.** What was a sortie is now a station, and the design driver is
+holding position against stratospheric wind rather than range.
 
----
+**The diplomatic problem returned in civil dress.** Who may authorise a persistent platform above a
+country is the X-16's original difficulty, with the same absence of a settled answer.
 
-## Three Classes of Selection Defect, All Caught by Reading
+**Buffet onset is still computed rather than known**, seventy years on. That is the most direct
+available measure of how hard the corner actually is, and why this article's single assumed value
+carries the sensitivity it does.
 
-This is the part worth recording, because a rule found none of them.
+**The sensor improved and the penalty did not.** Ground sample distance is slant range times angular
+resolution, which is exact and permanent. Angular resolution improved enormously, so **flying high
+stopped being a compromise.**
 
-**A substring match.** The pattern `ram` matched inside `fRAMework` and pulled a paper on piezoelectric
-morphing wings into the inlet-recovery bucket. Short patterns now carry word boundaries.
+**The modern remedy for the 23-knot instrument band is to stop trusting the pitot tube** and estimate
+airspeed from fused inertial, satellite and model-based sources.
 
-**Topical false positives.** `turbojet` and `engine` matched a run of 1960 reports on **nuclear**
-turbojet powerplants, which share vocabulary with this subject and nothing else. `fatigue` matched
-**crew** fatigue rather than structural fatigue, twice. An exclusion list and a structural-context
-requirement now reject 35 matches.
-
-**Records that survived both and were still wrong.** Fifteen dropped by hand before insertion,
-including three copies of a mammography paper. Then **three more removed after insertion**, when a
-title scan of everything cited found a paper on robust localisation for wireless sensor networks, one
-on inductive arrays for unexploded ordnance detection, and one on **charge-coupled device spectra of
-stars in globular clusters**. All three had matched on the word *resolution*.
-
-**A title regex is not a substitute for looking**, and the globular clusters paper is the cleanest
-illustration of it this series has produced.
+**A modern analysis of the X-16 is impossible for want of one table.** Every method in the very-flexible
+-wing literature takes a stiffness distribution as its input, and none was ever published.
 
 ---
 
-## What Was Added Beyond Citations
+## The Largest Defect Class Was Citation Relevance, and Reading Found All of It
 
-Two new subsections where the material justified one rather than a citation list.
+**Sixteen citations were removed after insertion.** The pattern is worth recording because a rule
+caught none of them and several survived two successive filters.
 
-**The buffet boundary is a measured surface and not a number.** Treating it as a constant is a
-convenience the article adopts and should not defend. It was being measured in flight at exactly the
-time the X-16 was designed, and onset prediction is still an open computational problem, which is why
-the single assumed value carries the sensitivity it does.
+| Search term | What it returned |
+|---|---|
+| resolution | wireless sensor network localisation; unexploded ordnance detection; **spectra of stars in globular clusters** |
+| high aspect ratio | a high-explosive round for a **railgun bore** |
+| fatigue under spectrum loading | **gun tube steel** |
+| digital twin | cable-stayed bridges; rolling-element bearings |
+| airborne hyperspectral imaging | the organic matter content of **winter wheat topsoil** |
 
-**The wing is flexible enough that its shape is a variable.** This is now stated as **the largest
-unquantifiable risk in the design**. Every aerodynamic estimate in the article assumes a rigid wing at
-its drawn shape, no stiffness distribution survives, and whether the difference was small or fatal is
-not recoverable.
-
-A third, in the contemporary section, states plainly that the question did not lapse between 1956 and
-the present.
+**The general lesson, now stated in the Source Base, is that a keyword diagnostic within a field is not
+diagnostic across the literature.** Aspect ratio, resolution, fatigue and digital twin each mean
+something precise here and something entirely different one discipline away.
 
 ---
 
 ## Verification
 
-**83 draft-pass and 74 equation-pass re-derivations all still reproducing.** 315 reference definitions,
-299 external URLs, zero duplicates, zero orphans. URL sweep: **181 plain 200s, 65 publisher 403s, 2
-202s, and 46 DTIC DOIs verified through the Crossref registry** with titles matching the prose.
+**83 draft-pass and 74 equation-pass re-derivations, zero disagreements**, still reproducing after every
+edit. 468 reference definitions, 452 external URLs, zero duplicates, zero orphans.
 
-`_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
-with 72 of 72 display blocks rendered, 9 of 9 tables, and Part 17 navigation.
+URL sweep: **255 plain 200s, 138 publisher 403s, 9 202s, and 50 DTIC DOIs verified through the Crossref
+registry** with titles matching the prose. An HTTP 200 does not verify a citation and the sweep does not
+claim to.
+
+The contemporary section was **extended in place rather than replaced**, per the A310 defect where a
+wholesale replacement silently dropped three equations. The count was measured before and after
+regardless and held at 72. `_verify.py` at the 0-error 21-warning corpus baseline. Zero style
+violations. Genre section order correct. Isolated build passing with 72 of 72 display blocks, 9 of 9
+tables, Part 17 navigation.
+
+---
+
+## Final State, and the One Thing I Am Leaving to You
+
+**1,233 lines, 72 display equations, 468 references, 13,316 body words.**
+
+References are at or above the full-aircraft band. **Lines sit 67 below the 1,300 floor and equations 18
+below the 90 floor.**
+
+**A313 is the first article in the series to finish outside the named classes on two of three
+measures.** I did not pad it to fit. The material supported what it supported, and the subject has no
+technical record of its own, which is the whole reason the article exists in the shape it does.
+
+Contemporary references are 217 of 443, or **49.0 percent**, which is a higher proportion than any
+previous article in the series. That is a direct consequence of the X-16 having no literature, so the
+only thing available to survey comprehensively is the question rather than the aircraft.
+
+**Whether `RESEARCH_AIRCRAFT_STRUCTURE.md` should gain a fourth class is a decision I have deliberately
+not made.** It has now come up on three consecutive passes and I would rather you settled it than have
+me invent a band to justify an outcome.
 
 ---
 
 ## State
 
-**1,016 lines, 72 display equations, 315 references, 10,940 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is seventeen deep**, A313 back to A297, and every
+cross-reference points backward.
 
-**References are now inside the full-aircraft band of 250 to 380.** Lines at 1,016 sit 284 below its
-floor and equations at 72 sit 18 below, so **the intermediate-class question narrows to those two
-measures** rather than all three.
+Seventeen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, seventeen articles deep and raised twenty-two times.
 
-**Contemporary references at 57 sit below the absolute range this series has held since A301.** That is
-expected at this point in the rhythm and closing it is properly the publication review's work, as it
-was on A310 and A312.
-
-**Committed, not pushed.** Nothing in the series is published. Categories remain undecided at
-`aerospace history engineering`, seventeen articles deep.
+**A314 is the Lockheed X-17**, editorial date 2025-10-23, per the roster in `HANDOFF.md`. That is a
+three-stage solid-fuel test vehicle for re-entry research, so it returns the series to the missile and
+test-vehicle family last seen at the X-12 in A309 rather than continuing the aeroplane
+run, and its literature will be re-entry heating rather than anything in the A313 pool. **Build its
+harvest from scratch.** A315 is the Hiller X-18.

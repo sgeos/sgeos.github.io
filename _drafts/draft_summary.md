@@ -23,8 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 534 lines, 20 display equations, 85 references, 7,450 words after the draft pass; 758 lines, 72 display
 equations, 85 references, 8,731 words after the equation review; **1,016 lines, 72 display equations,
-315 references, 10,940 words after the primary-reference review.** References are inside the
-full-aircraft band. Publication review pending.
+315 references, 10,940 words after the primary-reference review; **1,233 lines, 72 display equations,
+468 references, 13,316 words after the publication review.** All four passes complete. Committed and
+pushed. Not published.
 
 **This is the first article in the series whose subject has no technical record at all.** NTRS returns
 zero records for MX-2147, zero for the aircraft as an aeroplane, and zero for the Bell model number,
@@ -80,11 +81,25 @@ the word resolution, namely a paper on wireless sensor network localisation, one
 detection, and one on spectra of stars in globular clusters. Fifteen more were dropped before insertion.
 The Source Base records this.
 
-**Class question for the pilot.** After the primary-reference pass the article sits above the
+**The publication review expanded the contemporary survey from 57 references to 217 across twelve
+fields**, and two of its findings bear on the article's own conclusions. **The keystone is dissolved
+rather than solved by solar-electric propulsion**, since a photovoltaic platform has no compressor and
+therefore no lapse exponent, so the term that dominated the X-16's design leaves the equation entirely
+and is replaced by energy storage mass. And **the binding constraint on a modern equivalent is
+certification rather than performance.**
+
+**Sixteen citations were removed after insertion because they were read rather than merely matched**,
+including a railgun bore that matched high aspect ratio, gun tube steel that matched fatigue under
+spectrum loading, cable-stayed bridges that matched digital twin, and winter wheat topsoil that matched
+airborne hyperspectral imaging. The Source Base records the pattern and the lesson.
+
+**Class question for the pilot.** After all four passes the article sits above the
 documentation-poor band of 150 to 400 lines, 0 to 15 equations, and 20 to 60 references on all three
-measures. **References at 315 are now inside the full-aircraft band of 250 to 380**, while lines at
-1,016 sit 284 below its floor and equations at 72 sit 18 below. The intermediate-class question
-therefore narrows to those two measures. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
+measures. **References at 468 are at or above the full-aircraft band of 250 to 380**, while lines at
+1,233 sit 67 below its 1,300 floor and equations at 72 sit 18 below the 90 floor. **A313 is the first
+article in the series to finish outside the named classes on two of three measures.** Reported rather
+than remedied by padding. Whether `RESEARCH_AIRCRAFT_STRUCTURE.md` should gain a fourth class is left
+open. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
 than padded upward or trimmed downward.
 
 ## X-Planes North American X-15 A312 2025-10-21

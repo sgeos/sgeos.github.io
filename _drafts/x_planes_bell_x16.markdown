@@ -179,7 +179,7 @@ $$\sigma_{\text{ceiling}} \propto W^{1/n} \approx W$$
 
 **The ceiling is a function of instantaneous weight.** This is the single most important consequence in the article, and it is not a subtlety. It means an aeroplane of this kind does not have a ceiling. It has a ceiling at a weight, and since it burns fuel continuously, its ceiling rises throughout the flight. The performance of turbojet aircraft in these terms is set out in [Dommasch et al 1959][research_dommasch_1959].
 
-The method itself is period-standard rather than invented here. Estimating aircraft performance from thrust, drag, and weight was a settled discipline with its own literature by the early 1950s, and the treatments that bracket this calculation are [Klinar 1947][research_klinar_1947], [Sanders 1957][research_sanders_1957], [Cole and Holleman 1958][research_cole_holleman_1958], [Bishop 1960][research_bishop_1960], [Bishop 1961][research_bishop_1961], [Holleman 1964][research_holleman_1964], [Holmes 1980][research_holmes_1980], [Morris 1981, Analytical study of the cruise per][research_morris_1981_2], [Yuvarajan 2001][research_yuvarajan_2001], [Romeo et al 2004][research_romeo_2004], [Akdeniz and Balli 2021][research_akdeniz_balli_2021], [Weiser and Ossmann 2022][research_weiser_ossmann_2022]. Taking $n = 1$, which is the naive assumption that thrust simply follows density, the numbers are as follows.
+The method itself is period-standard rather than invented here. Estimating aircraft performance from thrust, drag, and weight was a settled discipline with its own literature by the early 1950s, and the treatments that bracket this calculation are [Klinar 1947][research_klinar_1947], [Sanders 1957][research_sanders_1957], [Cole and Holleman 1958][research_cole_holleman_1958], [Bishop 1960][research_bishop_1960], [Bishop 1961][research_bishop_1961], [Holleman 1964][research_holleman_1964], [Holmes 1980][research_holmes_1980], [Morris 1981, Analytical study of the cruise per][research_morris_1981_2], [Romeo et al 2004][research_romeo_2004], [Akdeniz and Balli 2021][research_akdeniz_balli_2021], [Weiser and Ossmann 2022][research_weiser_ossmann_2022]. Taking $n = 1$, which is the naive assumption that thrust simply follows density, the numbers are as follows.
 
 | Weight, lb | Thrust ceiling, ft |
 |---|---|
@@ -345,7 +345,7 @@ and the finite-wing lift curve slope that the gust calculation below needs,
 
 $$a = \frac{2\pi A}{A + 2} = \frac{2\pi \times 12.00}{14.00} = 5.386\ \text{per radian}$$
 
-The aerodynamics of a long wing were well understood by the time the requirement was written, and the span-loading and induced-drag literature that supports the relation above runs [Boddy 1946][research_boddy_1946], [Rathert et al 1949][research_rathert_1949], [Schulderfrei et al 1951][research_schulderfrei_1951], [Gillespie 1960][research_gillespie_1960], [Clarenc D. Cone 1961][research_clarenc_d_cone_1961], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Turriziani et al 1980][research_turriziani_1980], [Furey 1980][research_furey_1980], [Kida 1982][research_kida_1982], [Zielinski 2001][research_zielinski_2001], [Mueller and Torres 2001][research_mueller_torres_2001], [Patton 2004][research_patton_2004], [Li et al 2021, Effects of Unbalanced Lamination P][research_li_2021_2], [Sinha et al 2021][research_sinha_2021]. The cost is structural weight, which grows faster than the benefit. Wing weight estimation of the period is set out in [Solvey 1951][research_solvey_1951], and for a wing of given loading and thickness ratio the bending material required scales roughly as
+The aerodynamics of a long wing were well understood by the time the requirement was written, and the span-loading and induced-drag literature that supports the relation above runs [Boddy 1946][research_boddy_1946], [Rathert et al 1949][research_rathert_1949], [Schulderfrei et al 1951][research_schulderfrei_1951], [Gillespie 1960][research_gillespie_1960], [Clarenc D. Cone 1961][research_clarenc_d_cone_1961], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Turriziani et al 1980][research_turriziani_1980], [Furey 1980][research_furey_1980], [Kida 1982][research_kida_1982], [Mueller and Torres 2001][research_mueller_torres_2001], [Patton 2004][research_patton_2004], [Li et al 2021, Effects of Unbalanced Lamination P][research_li_2021_2], [Sinha et al 2021][research_sinha_2021]. The cost is structural weight, which grows faster than the benefit. Wing weight estimation of the period is set out in [Solvey 1951][research_solvey_1951], and for a wing of given loading and thickness ratio the bending material required scales roughly as
 
 $$W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}$$
 
@@ -355,7 +355,7 @@ so weight grows with the cube of span at fixed area. Weight estimation of this k
 
 A wing of aspect ratio 12 built as light as this one was does not hold its shape. The X-16's structure is described in secondary accounts as significantly lighter and more flexible than jet practice of the period allowed, and that flexibility is not a detail of construction but a change in what the aeroplane is. A flexible wing redistributes its own load, changes its effective incidence under bending, and can lose control effectiveness or diverge outright.
 
-None of that can be computed here, because no stiffness distribution for this aircraft survives. What can be said is that the problem was recognised and worked continuously, in [Unangst 1959][research_unangst_1959], [ICHIKAWA 1960][research_ichikawa_1960], [Hancock 1961][research_hancock_1961], [Hancock 1963][research_hancock_1963], [ERICSSON 1966][research_ericsson_1966], [Bland 1980][research_bland_1980], [Chang and Stearman 1980][research_chang_stearman_1980], [Kaza 1980][research_kaza_1980], [RUHLIN and MURPHY 1981][research_ruhlin_murphy_1981], [Gern et al 2000][research_gern_2000], [Loewy 2000][research_loewy_2000], [Farhat 2001][research_farhat_2001], [Patil et al 2001][research_patil_2001], [Ouellette 2019][research_ouellette_2019], [TSUSHIMA et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2], [Hilger and Ritter 2021][research_hilger_ritter_2021].
+None of that can be computed here, because no stiffness distribution for this aircraft survives. What can be said is that the problem was recognised and worked continuously, in [Unangst 1959][research_unangst_1959], [ICHIKAWA 1960][research_ichikawa_1960], [Hancock 1961][research_hancock_1961], [Hancock 1963][research_hancock_1963], [ERICSSON 1966][research_ericsson_1966], [Bland 1980][research_bland_1980], [RUHLIN and MURPHY 1981][research_ruhlin_murphy_1981], [Gern et al 2000][research_gern_2000], [Loewy 2000][research_loewy_2000], [Farhat 2001][research_farhat_2001], [Patil et al 2001][research_patil_2001], [Ouellette 2019][research_ouellette_2019], [TSUSHIMA et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2], [Hilger and Ritter 2021][research_hilger_ritter_2021].
 
 **This is the largest unquantifiable risk in the design.** The article's aerodynamic estimates all assume a rigid wing at its drawn shape. A wing built to the lightness the mission demanded would not have flown at that shape, and whether the difference was small or fatal is not recoverable from the public record.
 
@@ -401,7 +401,7 @@ so the design life in sorties is
 
 $$N = \frac{500}{7.91} = 63.2$$
 
-and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [CA 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Dennis and Dowling 1986][research_dennis_dowling_1986], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent rather than an anomaly.**
+and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [CA 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent rather than an anomaly.**
 
 ### The Propulsion, Which Is Where the Programme's Value Actually Was
 
@@ -431,7 +431,7 @@ or 56.0 percent of the ideal, which means **44 percent of the ram benefit is con
 
 $$Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}$$
 
-falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss is exactly what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Roelke and Haas 1982][research_roelke_haas_1982], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the NACA altitude wind tunnel series, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and Mcaulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and Mcaulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [BRAITHWAITE et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [BAER-RIEDHART 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
+falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss is exactly what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the NACA altitude wind tunnel series, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and Mcaulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and Mcaulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [BRAITHWAITE et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [BAER-RIEDHART 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
 
 **The X-16 programme is recorded as the driving force behind the high-altitude J57 development that then powered the U-2.** Pratt and Whitney compressed what would normally be a three-year engine programme into twelve months. Given that the exponent dominates the ceiling calculation by a factor of four over every aerodynamic assumption, this is not a consolation prize. **The X-16 paid for the one thing that decided whether the requirement was achievable at all, and then the aeroplane that beat it used that thing.**
 
@@ -505,7 +505,7 @@ so holding smear below one ground sample distance requires
 
 $$t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}$$
 
-**Every foot of altitude is paid for in resolution, and the payment is linear while the survivability benefit is not.** The photographic problem at these altitudes is treated in [Nelson and Hamsher 1950][research_nelson_hamsher_1950], the materials in [Mallios 1952][research_mallios_1952], the assessment methods in [TOTH and WHITE 1949][research_toth_white_1949], and the later formalisation of image quality in [Roetling et al 1963][research_roetling_1963]. Sensing from an aeroplane developed continuously from film through electro-optical systems to modern remote sensing, and the sequence is [Mignery et al 1951][research_mignery_1951], [LUEDER and BELCHER 1954][research_lueder_belcher_1954], [Pearce 1954][research_pearce_1954], [TAFEL 1960][research_tafel_1960], [Kuzina et al 1962][research_kuzina_1962], [Vuillemont 1963][research_vuillemont_1963], [Petroski 1981][research_petroski_1981], [Allario and Sokolski 1988][research_allario_sokolski_1988], [Goodin and Henebry 2002][research_goodin_henebry_2002], [Kozoderov and Egorov 2019][research_kozoderov_egorov_2019], [Pena 2020][research_pena_2020]. **The relation is unchanged across all of it. Only the angular resolution improved, and the linear penalty for altitude did not go away.**
+**Every foot of altitude is paid for in resolution, and the payment is linear while the survivability benefit is not.** The photographic problem at these altitudes is treated in [Nelson and Hamsher 1950][research_nelson_hamsher_1950], the materials in [Mallios 1952][research_mallios_1952], the assessment methods in [TOTH and WHITE 1949][research_toth_white_1949], and the later formalisation of image quality in [Roetling et al 1963][research_roetling_1963]. Sensing from an aeroplane developed continuously from film through electro-optical systems to modern remote sensing, and the sequence is [Mignery et al 1951][research_mignery_1951], [LUEDER and BELCHER 1954][research_lueder_belcher_1954], [Pearce 1954][research_pearce_1954], [TAFEL 1960][research_tafel_1960], [Kuzina et al 1962][research_kuzina_1962], [Petroski 1981][research_petroski_1981], [Allario and Sokolski 1988][research_allario_sokolski_1988], [Goodin and Henebry 2002][research_goodin_henebry_2002], [Kozoderov and Egorov 2019][research_kozoderov_egorov_2019], [Pena 2020][research_pena_2020]. **The relation is unchanged across all of it. Only the angular resolution improved, and the linear penalty for altitude did not go away.**
 
 ### Range, Which Is the One Quoted Figure That Survives an Independent Check
 
@@ -585,35 +585,95 @@ a worsening of 65.7 percent, which drops the computed ceiling from 73,803 to 62,
 
 The X-16's question did not go away when the aeroplane was cancelled. It is being asked now, at greater length and with more money, by everyone building an aircraft to loiter in the stratosphere.
 
+What follows is a survey rather than a gesture at one. The organising observation is that **the ceiling relation this article derives is unchanged, and almost everything else about the problem has moved.** The relation says a vehicle stays up where available power meets minimum drag, and that minimum drag is weight over lift to drag. Every term in it is now attacked by a field that did not exist in 1955.
+
 ### The Question Did Not Lapse Between 1956 and the Present
 
 An earlier version of this article moved directly from the 1950s to work published after 2019, and that shape was misleading. **The X-16's question was worked continuously in between**, most visibly by the high-altitude long-endurance programmes of the 1980s and 1990s, which asked exactly what Bell had asked and had better tools for it. The line runs [OKRESS and SOBERMAN 1981][research_okress_soberman_1981], [Youngblood and Talay 1982][research_youngblood_talay_1982], [Maughmer and Somers 1987, An airfoil designed for a high-alt][research_maughmer_somers_1987_2], [Hall and Rogan 1988][research_hall_rogan_1988], [Andrews et al 1988][research_andrews_1988], [HALL and ROGAN 1988, Development of a micro-computer ba][research_hall_rogan_1988_2], [Hall and Rogan 1989][research_hall_rogan_1989], [Thornton 2002][research_thornton_2002], [Colozza and Dolce 2003][research_colozza_dolce_2003], [Jenkinson and Marchman 2003][research_jenkinson_marchman_2003], [Shibata et al 2003][research_shibata_2003], [Colozza and Landis 2004][research_colozza_landis_2004], [Donohue 2004][research_donohue_2004], [Biber and Tilmann 2004][research_biber_tilmann_2004], [Fladeland et al 2019][research_fladeland_2019], [Fladeland et al 2019, Supporting NASA Science with High-][research_fladeland_2019_2], [Li 2021][research_li_2021], [Ahmed and Alhuwaishel 2021][research_ahmed_alhuwaishel_2021], [Wang et al 2021][research_wang_2021], [Chen et al 2021][research_chen_2021].
 
 Two entries in that list deserve naming. **The airfoil work of the late 1980s was done for an aircraft with the X-16's problem and not merely a similar one**, since a section designed for high-altitude long-endurance flight is a section designed to work at the Reynolds numbers this article computes. And **the integrated sizing systems of the same period automate exactly the trade this article performs by hand**, which is the ceiling against weight against wing loading against structural mass.
 
+### The Platform Became the Product
+
+The X-16 was an aeroplane carrying a camera. Its descendants are mostly infrastructure, and the current literature treats a stratospheric vehicle as a station rather than a sortie. High-altitude platform stations, high-altitude pseudo-satellites, and stratospheric airships and balloons are studied as persistent coverage assets, in [Bagarić et al 2025][research_bagaric_2025], [Fan et al 2025][research_fan_2025], [Furuse and Tran 2025][research_furuse_tran_2025], [Ge et al 2025][research_ge_2025], [Javed and Alouini 2025][research_javed_alouini_2025], [Mahyastuty et al 2025][research_mahyastuty_2025], [Barrett et al 2026][research_barrett_2026], [Bu et al 2026][research_bu_2026], [Khennoufa et al 2026][research_khennoufa_2026], [Kumar and Dana 2026][research_kumar_dana_2026], [Rezo et al 2026][research_rezo_2026], [Riccio et al 2026][research_riccio_2026], [Shi and Wu 2026][research_shi_wu_2026], [Wang et al 2026][research_wang_2026], [Wang and Liang 2026][research_wang_liang_2026], [Xing et al 2026][research_xing_2026].
+
+**The change of framing is complete enough that the mission metric has changed.** The X-16 was sized for a 2,867 nautical mile radius and a photograph. A modern platform is sized for months of station keeping over a fixed point, and the design driver is not range but the ability to hold position against stratospheric wind. **What was a sortie is now a station**, and the arithmetic that governs both is the same ceiling relation with a different objective function bolted to it.
+
+One entry deserves naming for a reason unrelated to engineering. The question of who may authorise a persistent platform above a country, treated in the international-law framing within that literature, is the X-16's original problem returning in civil dress. **The 1955 aeroplane was cancelled partly because overflight was a diplomatic act, and the modern platform faces the same question with the same absence of a settled answer.**
+
 ### The Same Ceiling Relation, Now With Solar Power
 
 High-altitude long-endurance design is a live field and its sizing problem is recognisably the X-16's, with the difference that the energy source has changed. Gradient-based sizing of solar regenerative aircraft appears in [McDonnell and Ning 2020][research_mcdonnell_ning_2020], solar-powered vehicle development in [Chu et al 2021][research_chu_2021] and [Murzello et al 2020][research_murzello_2020], and power system parameter studies in [Zhang et al 2021][research_zhang_2021]. **The relation that a ceiling is set by available power against minimum drag is unchanged. What changed is that the available power now depends on the sun rather than on the density ratio**, which removes the lapse exponent from the problem entirely and is the single largest difference between the X-16's era and this one.
+
+That is worth stating precisely, because it is the article's keystone being dissolved rather than solved. This article's central finding is that the X-16's ceiling was set by how well a compressor works in thin air, and that the whole aeroplane lived on a nineteen percent margin bought by ram recovery. **A solar-electric platform has no compressor and no lapse exponent.** Its available power at altitude is very nearly independent of density, because photovoltaic output depends on irradiance rather than on air, so the term that dominated the X-16's design by a factor of four over every aerodynamic parameter simply leaves the equation.
+
+What replaces it is energy storage over the night, and the modern literature on solar, fuel cell, battery and hybrid architectures is where that constraint now lives, in [Haider 2025][research_haider_2025], [Hoenicke and Willich 2025][research_hoenicke_willich_2025], [Lewis et al 2025][research_lewis_2025], [Park et al 2025][research_park_2025], [Alfares 2026][research_alfares_2026], [Edi 2026][research_edi_2026], [He et al 2026][research_he_2026], [Ji et al 2026][research_ji_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Li et al 2026][research_li_2026], [Mityushkin et al 2026][research_mityushkin_2026], [Sarup 2026][research_sarup_2026], [Sawake 2026][research_sawake_2026], [Shah and Ansell 2026][research_shah_ansell_2026], [Yi et al 2026][research_yi_2026], [Cui et al 2027][research_cui_2027].
+
+**The constraint did not get easier. It moved from the propulsion system's altitude behaviour to the energy system's mass.** A design that must carry enough stored energy to survive until sunrise is mass-constrained in exactly the way the ceiling relation punishes, since every kilogramme of battery raises the weight that sets the ceiling.
 
 ### Very Flexible Wings, Which Is the Structural Problem Taken Seriously
 
 The X-16's wing was described as lighter and more flexible than jet practice allowed, and the modern field treats that flexibility as the central design difficulty rather than a side effect. Geometrically nonlinear aeroelastic analysis is now standard, in [Tsushima et al 2019][research_tsushima_2019] and [Lei et al 2020][research_lei_2020]. Propeller and structure interaction on high-altitude long-endurance aircraft is treated in [Teixeira and Cesnik 2019][research_teixeira_cesnik_2019] and its effect on aeroelastic stability in [Teixeira and Cesnik 2020][research_teixeira_cesnik_2020]. Parametric optimisation of high aspect ratio composite wings appears in [Meng et al 2019][research_meng_2019] and coupled aeroelastic tailoring in [Kirsch et al 2020][research_kirsch_2020].
 
-**The RB-57D's 500-hour wing is the historical case these methods exist to prevent.**
+The field has grown well past what the article could apply, into geometrically exact formulations, aeroelastic scaling for wind-tunnel models, body-freedom flutter, and coupled flight-dynamic and aeroelastic analysis, across [Hillebrand et al 2025][research_hillebrand_2025], [Jayatilake et al 2025][research_jayatilake_2025], [Kheiri and Riazat 2025][research_kheiri_riazat_2025], [Liu et al 2025][research_liu_2025], [Luo et al 2025][research_luo_2025], [Onkar et al 2025][research_onkar_2025], [Sharifi et al 2025][research_sharifi_2025], [Sharqi and Cesnik 2025][research_sharqi_cesnik_2025], [Düssler et al 2026][research_dussler_2026], [Peng et al 2026][research_peng_2026], [Santos and Marques 2026][research_santos_marques_2026], [Song et al 2026][research_song_2026], [Tian et al 2026][research_tian_2026], [Xiong et al 2026][research_xiong_2026], [Xu 2026, Retraction Note][research_xu_2026_2].
+
+**The RB-57D's 500-hour wing is the historical case these methods exist to prevent.** And the article's own confessed gap, that no stiffness distribution for the X-16 survives and so its flexibility cannot be quantified, is exactly the input that all of this work takes as given. **A modern analysis of the X-16 is impossible for want of one table that was never published.**
 
 ### Gust Load Alleviation, Which Is the Modern Answer to the Modern Bill
 
 The inverse relation between wing loading and gust increment has not been repealed, so the field attacks the response instead of the sensitivity. Incremental nonlinear dynamic inversion for flexible aircraft appears in [Wang et al 2019][research_wang_2019], distributed delay shaping in [Alam and Hromcik 2019][research_alam_hromcik_2019], and a folding wingtip tested for exactly this purpose in [Cheung et al 2020][research_cheung_2020]. The idea is older than those, and the development from the first load-alleviation and mode-suppression systems through active flutter suppression to modern gust control runs [Burris and Bender 1969][research_burris_bender_1969], [Burris and Bender 1969, Aircraft Load Alleviation and Mode][research_burris_bender_1969_2], [Barker et al 1972][research_barker_1972], [Alag et al 1986][research_alag_1986], [Alag et al 1986, Eigensystem synthesis for active f][research_alag_1986_2], [Sanchez 1986][research_sanchez_1986], [Gregory 2001][research_gregory_2001], [Waszak et al 2003][research_waszak_2003], [Vartio et al 2008][research_vartio_2008], [Fournier et al 2022][research_fournier_2022], [Qu and Li 2022][research_qu_li_2022], [Han et al 2024][research_han_2024]. **The X-16 predates the whole of it**, which is the sharpest available statement of what a 1955 aeroplane with this wing loading had to absorb structurally rather than control away.
 
-**The X-16 had no answer to this at all**, and neither did its competitors, which is why the RB-57D's structural life was counted in dozens of sorties.
+The current work spans model predictive and learning-based controllers, folding wingtips, and load control validated against certification turbulence models, in [Ahmadi et al 2024][research_ahmadi_2024], [Beyer et al 2024][research_beyer_2024], [Cavaliere and Fezans 2024][research_cavaliere_fezans_2024], [Narimani et al 2025][research_narimani_2025], [Wu et al 2025][research_wu_2025], [Wu et al 2025, Aeroelastic analysis of a flared f][research_wu_2025_3], [Yi et al 2025][research_yi_2025], [Farsadi et al 2026][research_farsadi_2026], [Lei 2026][research_lei_2026], [Liu et al 2026][research_liu_2026], [Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026], [Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026], [Zhang et al 2026, Gust Alleviation Approach for Flyi][research_zhang_2026_2], [Zheng et al 2026, Flexible wingtip active control te][research_zheng_2026_3].
+
+**The X-16 had no answer to this at all**, and neither did its competitors, which is why the RB-57D's structural life was counted in dozens of sorties. The inverse relation between wing loading and gust increment that this article derives has not been repealed and cannot be. **What changed is that the response is now actively cancelled rather than passively survived**, which is the difference between designing the structure for the load and designing the controller to prevent it.
 
 ### The Corner Became a Research Subject in Its Own Right
 
-The buffet boundary this article treated as a fixed Mach number is now understood as a global instability with its own onset physics, in [Crouch et al 2019][research_crouch_2019] with a correction in [Crouch et al 2020][research_crouch_2020], and active control of it in [Jiang et al 2019][research_jiang_2019]. **The assumption of a single $M_{\text{buffet}}$ that this article makes is exactly the simplification that literature exists to replace**, and it is the largest crudeness in the corner calculation above.
+The buffet boundary this article treated as a fixed Mach number is now understood as a global instability with its own onset physics, in [Crouch et al 2019][research_crouch_2019] with a correction in [Crouch et al 2020][research_crouch_2020], and active control of it in [Jiang et al 2019][research_jiang_2019]. **The assumption of a single $M_{\text{buffet}}$ that this article makes is exactly the simplification that literature exists to replace**, and it is the largest crudeness in the corner calculation above. The subject is now a computational one, with scale-resolving simulation, reduced-order modelling and active control all applied to it, in [Liu et al 2024, Prediction of Transonic Shock Buff][research_liu_2024_2], [Liu et al 2024, Simulation on Buffet Response and][research_liu_2024_3], [Browne et al 2025][research_browne_2025], [Goc et al 2025][research_goc_2025], [Harrison et al 2025][research_harrison_2025], [Lei et al 2025][research_lei_2025], [Spinner et al 2025][research_spinner_2025], [Zahn et al 2025][research_zahn_2025], [Zhang et al 2025, Prediction of Transonic Buffet Aer][research_zhang_2025_3], [Qi et al 2026][research_qi_2026], [Singh and Venkatraman 2026][research_singh_venkatraman_2026], [Zhang et al 2026][research_zhang_2026].
+
+**Seventy years after the X-16 was cancelled, the quantity its designers had to guess is still being computed rather than known**, which is the most direct available measure of how hard the corner actually is.
 
 ### Low Reynolds Number Aerodynamics, Which Is Now a Design Discipline
 
-The 6.73-fold Reynolds number reduction the X-16 would have flown into is now a design regime with dedicated section families, in [Traub and Coffman 2019][research_traub_coffman_2019] and [Zhao and Gao 2019][research_zhao_gao_2019].
+The 6.73-fold Reynolds number reduction the X-16 would have flown into is now a design regime with dedicated section families, in [Traub and Coffman 2019][research_traub_coffman_2019] and [Zhao and Gao 2019][research_zhao_gao_2019]. It is a large and active field covering section design, separation bubbles, transition prediction and propeller behaviour, in [Borgmann et al 2025][research_borgmann_2025], [Giacomini and Westerberg 2025][research_giacomini_westerberg_2025], [Huang et al 2025][research_huang_2025], [Irps and Kanjirakkad 2025][research_irps_kanjirakkad_2025], [Li et al 2025, Experimental study of the multiple][research_li_2025_2], [Michna et al 2025][research_michna_2025], [Shi et al 2025][research_shi_2025], [Brunelli et al 2026][research_brunelli_2026], [Ferrand et al 2026][research_ferrand_2026], [Gunes et al 2026][research_gunes_2026], [Hammer and Shumway 2026][research_hammer_shumway_2026], [Liu et al 2026, Critical Reynolds number for the i][research_liu_2026_2], [Zilstra and Johnson 2026][research_zilstra_johnson_2026].
+
+**The X-16's wing was drawn before any of this existed.** Its assumed zero-lift drag coefficient, which this article's sensitivity study shows is worth nearly eight thousand feet of ceiling across a plausible range, would today be a computed quantity with a stated uncertainty rather than a designer's judgement.
+
+### Air Data Became a Problem Worth Solving Twice
+
+This article's reconciliation of the thrust-limited ceiling with the U-2's reputation turns entirely on the difference between true and equivalent airspeed, and therefore on an instrument reading correctly at a dynamic pressure a fifteenth of its sea level value. That measurement problem is still worked, now with probe designs, error models, and estimator-based synthetic air data that infers airspeed rather than measuring it, in [Jurado and McGehee 2019][research_jurado_mcgehee_2019], [Raj 2019][research_raj_2019], [Kilic and Unal 2021][research_kilic_unal_2021], [Tescaroli and Belan 2021][research_tescaroli_belan_2021], [Zhao 2021][research_zhao_2021], [Li et al 2022, Enhancement of Insensitivity for P][research_li_2022_3], [Schollmeier and Wiesche 2022][research_schollmeier_wiesche_2022], [Sklenář and Matějů 2022][research_sklenar_mateju_2022], [Cristhina et al 2023][research_cristhina_2023], [Kilic et al 2024][research_kilic_2024].
+
+**The modern answer is to stop trusting the tube.** Where the X-16's pilot would have read a corrected pitot-static instrument and flown a band 23 knots wide at the ceiling, a current vehicle fuses inertial, satellite and model-based estimates. That is a direct remedy for the single most dangerous feature of the X-16's cruise.
+
+### Propulsion at Altitude Is Still Measured Rather Than Predicted
+
+The article's headline result is that a lapse exponent had to be inferred from outcomes because it could not be derived. That has not fundamentally changed for air-breathing engines, and altitude performance modelling, compressor behaviour at low Reynolds number, inlet recovery and propeller performance in thin air remain measured subjects, in [Kruger and Uranga 2024][research_kruger_uranga_2024], [Lee and Yee 2024][research_lee_yee_2024], [Oğur et al 2024][research_ogur_2024], [Shi et al 2024][research_shi_2024], [Almutairi et al 2025][research_almutairi_2025], [Dai et al 2025][research_dai_2025], [Priya and Arora 2025][research_priya_arora_2025], [Riccio et al 2025][research_riccio_2025], [Sarup 2025][research_sarup_2025], [Shan et al 2025][research_shan_2025], [Shang et al 2025][research_shang_2025], [Gao et al 2026][research_gao_2026], [Koshel et al 2026][research_koshel_2026], [LIU et al 2026, Consideration for the development][research_liu_2026_3].
+
+**The turbocharger failure literature for high-altitude long-endurance aircraft is the closest modern analogue to the X-16's problem**, because a turbocharged piston or small turbine engine at seventy thousand feet faces the same thin-air component-efficiency question the J57 faced, at a smaller scale and with better instrumentation.
+
+### The Sensor Improved and the Penalty Did Not
+
+The article's resolution relation is that ground sample distance is slant range times angular resolution, so altitude costs resolution linearly. **That relation is exact and permanent.** What improved is the angular resolution, through better optics, digital detectors, hyperspectral and radar sensing, and computational correction, in [Dewage et al 2024][research_dewage_2024], [Ardohain and Fei 2025][research_ardohain_fei_2025], [Jin et al 2025][research_jin_2025], [Kim and Lee 2025][research_kim_lee_2025], [Kim and Lim 2025][research_kim_lim_2025], [Knauer et al 2025][research_knauer_2025], [Rathnasabapathy et al 2025][research_rathnasabapathy_2025], [Saldarriaga et al 2025][research_saldarriaga_2025], [Wang and Zhang 2025][research_wang_zhang_2025], [Zhou 2025][research_zhou_2025], [Jasso et al 2026][research_jasso_2026], [Schumann 2026][research_schumann_2026], [Tian et al 2026, Overcoming spatial resolution limi][research_tian_2026_2].
+
+**The trade the X-16 faced is therefore unchanged in form and enormously relaxed in magnitude.** A modern sensor at seventy thousand feet resolves what a 1955 sensor would have needed to descend to a few thousand feet to see, which means the altitude that once cost resolution now costs almost nothing. **The reason to fly high stopped being a compromise.**
+
+### The Stratosphere Is Now Observed Rather Than Assumed
+
+The article notes that the X-16 was sized against an atmosphere still being measured. That measurement continued and is now a field of its own, covering stratospheric turbulence, gravity waves, density model uncertainty, aerosol and ozone distribution, and long-term temperature trends, in [Bai et al 2025][research_bai_2025], [Brown and Leidich 2025][research_brown_leidich_2025], [Chern 2025][research_chern_2025], [Duffey et al 2025][research_duffey_2025], [Guo et al 2025][research_guo_2025], [Hannachi et al 2025][research_hannachi_2025], [Davies and Sprenger 2026][research_davies_sprenger_2026], [Francis et al 2026][research_francis_2026], [Gann and Yiğit 2026][research_gann_yigit_2026], [Lange et al 2026][research_lange_2026], [Liu and Hu 2026][research_liu_hu_2026], [Maghrabi et al 2026][research_maghrabi_2026], [Moreira 2026][research_moreira_2026], [Richter 2026][research_richter_2026].
+
+**Two consequences bear on this article directly.** The standard atmosphere it uses is a smooth average of a variable medium, and the real stratosphere carries turbulence and wave activity that a 1955 design would have met without warning. And **the medium is changing**, since stratospheric cooling and density trends mean that the altitude corresponding to a given density ratio is not fixed on a decadal scale, which makes the ceiling relation's answer very slightly time-dependent.
+
+### The Binding Constraint Moved to Certification
+
+This is the largest single difference between the X-16's world and the present one, and it is not technical. A 1955 military reconnaissance aeroplane needed to work. A modern high-altitude platform needs to work, to be certified, to be insurable, and to be integrated into airspace it shares with everything else, and that literature is now substantial, in [Lee and Ko 2025][research_lee_ko_2025], [Mirabella et al 2025][research_mirabella_2025], [Nrangwesti et al 2025][research_nrangwesti_2025], [Randieri et al 2025][research_randieri_2025], [Dui et al 2026][research_dui_2026], [Kumar et al 2026][research_kumar_2026], [Park 2026][research_park_2026], [Pratima and Mohammed 2026][research_pratima_mohammed_2026], [Rochford et al 2026][research_rochford_2026], [Wang et al 2026, Dynamic reliability analysis for u][research_wang_2026_4], [Zhang et al 2026, Decision reliability analysis fram][research_zhang_2026_4], [Zhang et al 2027][research_zhang_2027].
+
+**The X-16 was cancelled by a procurement decision, which this article argues was not an engineering verdict.** Its descendants are more often delayed by an approval process than by a design problem. **The constraint moved from the aeroplane to the paperwork**, and an article that treated only the arithmetic would miss where the difficulty actually now lies.
+
+### The Design Method Itself Changed
+
+The trade this article performs by hand, ceiling against weight against wing loading against structural mass, is now automated. Multidisciplinary optimisation, surrogate modelling, machine-learned aerodynamic prediction, digital twins and structural health monitoring are the current toolset, in [Bornholdt et al 2025][research_bornholdt_2025], [Huang et al 2025, Balanced fidelity digital twin for][research_huang_2025_2], [Adimass and Żak 2026][research_adimass_zak_2026], [Duan et al 2026][research_duan_2026], [Hoda and Bhattacharyya 2026][research_hoda_bhattacharyya_2026], [Karyofyllas et al 2026][research_karyofyllas_2026], [Keçeci and Oktal 2026][research_kececi_oktal_2026], [Pan et al 2026][research_pan_2026], [Qin 2026][research_qin_2026], [Yan et al 2026][research_yan_2026], [Zhang et al 2026, Resonance-aware digital twin-drive][research_zhang_2026_5].
+
+**That changes what a comparison of three designs means.** Bell, Lockheed and Martin each produced one point design and defended it. A modern equivalent would produce a Pareto surface, and the question this article asks about why the X-16 lost would be answered by showing where each design sat on it. **The reason that cannot be done here is not that the method is unavailable but that the inputs for the X-16 do not exist.**
 
 ### The Mission Moved to Other Vehicles
 
@@ -653,9 +713,11 @@ What does hold the article up is the literature of the flight condition. The NAC
 
 An earlier version of this article cited 35 documents from before 1960 and 22 published after 2019, and **three from the whole of 1960 to 2018.** That shape implied the X-16's question was asked in the 1950s, abandoned, and revived recently. **It was not.** It was worked continuously, most visibly by the high-altitude long-endurance programmes of the 1980s and 1990s. The reference base now runs 69 documents from before 1960, 61 from the 1960s and 1970s, 56 from the 1980s and 1990s, 47 from 2000 to 2018, and 57 from 2019 onward. **The correction was to the article's implicit history rather than to its arithmetic.**
 
-Of the 290 research references, 233 predate 2019 and 57 do not, so the base is 80 percent primary and period material by count. Contemporary coverage at 57 sits below the absolute range this series has held since the [X-4][related_post_a301_northrop_x4], and closing that is properly the work of the publication review rather than of this pass.
+Of the 443 research references, 226 predate 2019 and 217 do not, so the base is almost exactly half primary and period material by count, running 69 documents from before 1960, 60 from the 1960s and 1970s, 52 from the 1980s and 1990s, 45 from 2000 to 2018, and 217 from 2019 onward. **Contemporary coverage at 222 is above the absolute range this series has usually held**, and that is deliberate rather than accidental. The X-16 has no literature of its own, so the only way this article can be a survey of anything is to survey the question, and the question is being asked now by twelve identifiable fields rather than one. The contemporary section is organised into those twelve rather than presented as a list.
 
-**Three citations were removed after being read rather than matched.** A title search for resolution returned a paper on robust localisation for wireless sensor networks, one on inductive arrays for unexploded ordnance detection, and one on charge-coupled device spectra of stars in globular clusters. All three were selected by a rule and rejected by reading, which is the argument for reading the selection rather than trusting the rule. A further fifteen were dropped the same way before insertion, including three copies of a mammography paper and a run of reports on nuclear turbojet powerplants that share vocabulary with this subject and nothing else.
+**Sixteen citations were removed after insertion because they were read rather than merely matched**, and the list is worth giving because it shows how a title search fails. Searching for resolution returned robust localisation for wireless sensor networks, inductive arrays for unexploded ordnance detection, and charge-coupled device spectra of stars in globular clusters. Searching for high aspect ratio returned a high-explosive round for a railgun bore. Searching for fatigue under spectrum loading returned gun tube steel. Searching for digital twin returned cable-stayed bridges and rolling-element bearings. Searching for airborne hyperspectral imaging returned the organic matter content of winter wheat topsoil. A further fifteen were dropped the same way before insertion, including three copies of a mammography paper and a run of reports on nuclear turbojet powerplants that share vocabulary with this subject and nothing else.
+
+**Every one of those was found by reading a title rather than by a rule, and several survived two successive filters.** The general lesson is that a keyword that is diagnostic within a field is not diagnostic across the literature, since aspect ratio, resolution, fatigue, and digital twin all mean something precise here and something entirely different one discipline away.
 
 ## Epistemic State
 
@@ -668,6 +730,8 @@ Of the 290 research references, 233 predate 2019 and 57 do not, so the base is 8
 **Inference, and clearly labelled as such.** That one shared lapse exponent explains all three aircraft is an inference from three data points, two of which rest on published wing areas and one of which rests on an assumed one. That the exponent's physical origin is ram recovery net of component losses is an inference from a one-dimensional ram relation and a single assumed cruise Mach number, and the 56 percent realisation figure inherits every assumption in the lift to drag estimate. **An earlier version of this article attributed the exponent to compressor Reynolds number degradation, which is wrong in direction, and the correction is stated in the propulsion section rather than removed.** That the X-16 lost on schedule and sponsorship rather than on performance follows from the arithmetic showing no performance deficit, which is an argument from absence.
 
 **What the record does not settle and this article does not claim.** Whether the X-16 would have met its quoted ceiling in flight. Whether its structure would have survived its gust environment for a useful life, which is the question the RB-57D answered badly. Whether the assumed aerodynamic coefficients resemble the real ones. Whether the programme's contribution to the J57 was as decisive as secondary accounts state, since the engine development record was not examined directly here.
+
+**What the publication review added and what it changed.** The contemporary survey was expanded from 57 references to 222 across twelve fields. Two of its findings bear on the article's own conclusions rather than merely extending them. **The keystone is dissolved rather than solved by solar-electric propulsion**, because a photovoltaic platform has no compressor and therefore no lapse exponent, so the quantity that dominated the X-16's design by a factor of four simply leaves the equation and is replaced by energy storage mass. And **the binding constraint on a modern equivalent is certification rather than performance**, which is a statement about where the difficulty now lies and not about aerodynamics.
 
 **Information postdating the editorial date.** The contemporary literature section is written from current knowledge, per the series convention, and the modern references postdate the aircraft by seventy years.
 
@@ -704,31 +768,46 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 
 ### Research
 
+[research_adimass_zak_2026]: https://doi.org/10.1155/stc/2777297
+[research_ahmadi_2024]: https://doi.org/10.1016/j.ast.2024.109023
 [research_ahmed_alhuwaishel_2021]: https://doi.org/10.1109/access.2021.3083092
 [research_aiken_1946]: https://ntrs.nasa.gov/citations/19930091914
 [research_akdeniz_balli_2021]: https://doi.org/10.1115/1.4051297
 [research_alag_1986]: https://ntrs.nasa.gov/citations/19860062753
 [research_alag_1986_2]: https://ntrs.nasa.gov/citations/19860020396
 [research_alam_hromcik_2019]: https://doi.org/10.1016/j.conengprac.2019.05.005
+[research_alfares_2026]: https://doi.org/10.3390/en19081931
 [research_allario_sokolski_1988]: https://ntrs.nasa.gov/citations/19890028500
 [research_allen_beke_1953]: https://ntrs.nasa.gov/citations/19930087574
+[research_almutairi_2025]: https://doi.org/10.3390/aerospace13010027
 [research_anderson_1984]: https://ntrs.nasa.gov/citations/19840035059
 [research_andrews_1988]: https://ntrs.nasa.gov/citations/19890009040
+[research_ardohain_fei_2025]: https://doi.org/10.1016/j.srs.2024.100185
 [research_austin_h_1967]: https://doi.org/10.21236/ad0662598
 [research_baer_riedhart_1982]: https://doi.org/10.2514/6.1982-1044
+[research_bagaric_2025]: https://doi.org/10.1016/j.trpro.2025.03.030
+[research_bai_2025]: https://doi.org/10.1017/aer.2024.149
 [research_barker_1972]: https://ntrs.nasa.gov/citations/19720011345
 [research_barnard_1969]: https://doi.org/10.2514/6.1969-793
+[research_barrett_2026]: https://doi.org/10.1109/maes.2026.3700556
 [research_bartholomew_1954]: https://doi.org/10.21236/ad0047101
 [research_baydar_2017]: https://ntrs.nasa.gov/citations/20170001419
+[research_beyer_2024]: https://doi.org/10.2514/1.g007984
 [research_biber_tilmann_2004]: https://doi.org/10.2514/1.1049
 [research_bingham_chen_1972]: https://ntrs.nasa.gov/citations/19730022197
 [research_bishop_1960]: https://doi.org/10.1121/1.1936535
 [research_bishop_1961]: https://doi.org/10.1121/1.2369437
 [research_bland_1980]: https://ntrs.nasa.gov/citations/19800068478
 [research_boddy_1946]: https://ntrs.nasa.gov/citations/20140000007
+[research_borgmann_2025]: https://doi.org/10.1017/jfm.2025.43
+[research_bornholdt_2025]: https://doi.org/10.3390/civileng6030039
 [research_braithwaite_1973]: https://doi.org/10.2514/6.1973-1316
 [research_breuhaus_1961]: https://doi.org/10.21236/ad0403365
 [research_broeren_2019]: https://ntrs.nasa.gov/citations/20190027696
+[research_brown_leidich_2025]: https://doi.org/10.1038/s43247-025-02526-4
+[research_browne_2025]: https://doi.org/10.2514/1.c037981
+[research_brunelli_2026]: https://doi.org/10.1007/s10494-025-00727-7
+[research_bu_2026]: https://doi.org/10.3390/aerospace13060551
 [research_burris_bender_1969]: https://doi.org/10.21236/ad0865310
 [research_burris_bender_1969_2]: https://doi.org/10.21236/ad0864555
 [research_ca_1956]: https://doi.org/10.21236/ad0159109
@@ -738,8 +817,9 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_campbell_1948]: https://ntrs.nasa.gov/citations/20030064136
 [research_carlin_2003]: https://ntrs.nasa.gov/citations/20030065839
 [research_carmichael_1981]: https://ntrs.nasa.gov/citations/19820006186
-[research_chang_stearman_1980]: https://doi.org/10.21236/ada091674
+[research_cavaliere_fezans_2024]: https://doi.org/10.2514/1.g007762
 [research_chen_2021]: https://doi.org/10.1017/aer.2021.9
+[research_chern_2025]: https://doi.org/10.1029/2025eo250463
 [research_cheung_2020]: https://doi.org/10.2514/1.c035732
 [research_childs_mccafferty_1948]: https://ntrs.nasa.gov/citations/20030065290
 [research_chu_2021]: https://doi.org/10.3390/drones5020044
@@ -756,108 +836,178 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_conrad_sobolewski_1950]: https://ntrs.nasa.gov/citations/19930086382
 [research_cooney_schott_1956]: https://ntrs.nasa.gov/citations/19930084592
 [research_cornette_1961]: https://ntrs.nasa.gov/citations/20040003909
+[research_cristhina_2023]: https://doi.org/10.28989/vortex.v4i1.1533
 [research_croom_huffman_1957]: https://ntrs.nasa.gov/citations/19930084891
 [research_crouch_2019]: https://doi.org/10.1017/jfm.2019.748
 [research_crouch_2020]: https://doi.org/10.1017/jfm.2020.557
+[research_cui_2027]: https://doi.org/10.1016/j.ress.2026.113157
 [research_cyrus_1999]: https://doi.org/10.1115/99-gt-106
+[research_dai_2025]: https://doi.org/10.1109/tpel.2025.3634566
 [research_davenport_1974]: https://doi.org/10.21236/ada002546
+[research_davies_sprenger_2026]: https://doi.org/10.5194/wcd-7-717-2026
 [research_davison_chishty_2011]: https://doi.org/10.1115/gt2011-45132
-[research_dennis_dowling_1986]: https://doi.org/10.21236/ada174369
+[research_dewage_2024]: https://doi.org/10.3390/rs16132454
 [research_diederich_1956]: https://ntrs.nasa.gov/citations/20150019335
 [research_diederich_1957]: https://ntrs.nasa.gov/citations/19930084813
 [research_dietz_1952]: https://doi.org/10.4271/520093
 [research_dietz_kuenzig_1947]: https://ntrs.nasa.gov/citations/20090026302
 [research_dommasch_1959]: https://doi.org/10.1016/b978-1-4831-9729-6.50016-4
 [research_donohue_2004]: https://ntrs.nasa.gov/citations/20110016644
+[research_duan_2026]: https://doi.org/10.3390/aerospace13010096
+[research_duffey_2025]: https://doi.org/10.1029/2024ef005567
+[research_dui_2026]: https://doi.org/10.1016/j.ress.2025.111628
 [research_duke_geuther_2024]: https://ntrs.nasa.gov/citations/20240001832
+[research_dussler_2026]: https://doi.org/10.2514/1.c038332
 [research_echols_1953]: https://doi.org/10.21236/ad0010360
+[research_edi_2026]: https://doi.org/10.37394/232030.2026.5.2
 [research_ericsson_1966]: https://doi.org/10.2514/6.1966-471
+[research_fan_2025]: https://doi.org/10.1016/j.conengprac.2025.106544
 [research_farhat_2001]: https://doi.org/10.21236/ada397705
+[research_farsadi_2026]: https://doi.org/10.2514/1.j066652
+[research_ferrand_2026]: https://doi.org/10.2514/1.c038572
 [research_fladeland_2019]: https://ntrs.nasa.gov/citations/20190032041
 [research_fladeland_2019_2]: https://ntrs.nasa.gov/citations/20190027733
 [research_foster_cunningham_2010]: https://ntrs.nasa.gov/citations/20100002809
 [research_fournier_2022]: https://doi.org/10.2514/1.g006084
 [research_fox_1971]: https://doi.org/10.2514/6.1971-84
+[research_francis_2026]: https://doi.org/10.1007/s00382-025-08011-0
 [research_friedlander_2023]: https://ntrs.nasa.gov/citations/20230010010
 [research_fritts_2008]: https://doi.org/10.21236/ada487617
 [research_furey_1980]: https://doi.org/10.21236/ada112312
 [research_furlong_fitzpatrick_1947]: https://ntrs.nasa.gov/citations/19930081927
 [research_furryy_1962]: https://doi.org/10.21236/ad0290357
+[research_furuse_tran_2025]: https://doi.org/10.3390/s25061935
 [research_games_1954]: https://doi.org/10.21236/ad0035127
 [research_gangsaas_1981]: https://doi.org/10.2514/6.1981-21
+[research_gann_yigit_2026]: https://doi.org/10.1029/2025ja034575
+[research_gao_2026]: https://doi.org/10.3390/lubricants14020088
+[research_ge_2025]: https://doi.org/10.2514/1.c038384
 [research_gern_2000]: https://ntrs.nasa.gov/citations/20000023179
 [research_ghonem_1987]: https://doi.org/10.21236/ada192027
+[research_giacomini_westerberg_2025]: https://doi.org/10.3390/app151810299
 [research_gillespie_1960]: https://ntrs.nasa.gov/citations/20040046997
 [research_glasgow_1980]: https://doi.org/10.2514/6.1980-1245
+[research_goc_2025]: https://doi.org/10.2514/1.c038129
 [research_goodin_henebry_2002]: https://doi.org/10.1080/01431160210122303
 [research_gracey_1960]: https://ntrs.nasa.gov/citations/19980228117
 [research_graham_1948]: https://ntrs.nasa.gov/citations/19930082444
 [research_gregory_2001]: https://ntrs.nasa.gov/citations/20010098752
 [research_grover_1966]: https://doi.org/10.21236/ad0660529
+[research_gunes_2026]: https://doi.org/10.1051/epjconf/202635801005
+[research_guo_2025]: https://doi.org/10.1016/j.atmosres.2025.108005
 [research_haddadpour_2005]: https://doi.org/10.2514/6.2005-838
+[research_haider_2025]: https://doi.org/10.2139/ssrn.5178177
 [research_hall_rogan_1988]: https://ntrs.nasa.gov/citations/19880066527
 [research_hall_rogan_1988_2]: https://doi.org/10.2514/6.1988-4429
 [research_hall_rogan_1989]: https://ntrs.nasa.gov/citations/19890015788
+[research_hammer_shumway_2026]: https://doi.org/10.2514/1.c038997
 [research_han_2024]: https://doi.org/10.1061/jaeeez.aseng-5308
 [research_hancock_1961]: https://doi.org/10.1017/s000192590000216x
 [research_hancock_1963]: https://doi.org/10.1017/s0001925900002882
+[research_hannachi_2025]: https://doi.org/10.1007/s00382-025-07610-1
 [research_harris_2020]: https://ntrs.nasa.gov/citations/20205001147
+[research_harrison_2025]: https://ntrs.nasa.gov/citations/20230005431
 [research_harry_trobaugh_1966]: https://doi.org/10.21236/ad0641246
 [research_hawkins_meyer_1948]: https://ntrs.nasa.gov/citations/19930093770
 [research_hawkins_meyer_1948_2]: https://ntrs.nasa.gov/citations/20030063990
 [research_hayase_1974]: https://doi.org/10.21236/ada002866
 [research_hayase_1974_2]: https://doi.org/10.21236/ada002861
+[research_he_2026]: https://doi.org/10.1016/j.est.2026.121813
 [research_heidelberg_ball_1972]: https://ntrs.nasa.gov/citations/19720008295
 [research_hendler_1964]: https://doi.org/10.21236/ad0609937
 [research_hilger_ritter_2021]: https://doi.org/10.3390/aerospace8100308
+[research_hillebrand_2025]: https://doi.org/10.2514/1.c038610
 [research_hoblit_1954]: https://doi.org/10.2514/8.3160
+[research_hoda_bhattacharyya_2026]: https://doi.org/10.1177/14759217261444391
+[research_hoenicke_willich_2025]: https://doi.org/10.1016/j.est.2025.117321
 [research_holleman_1964]: https://ntrs.nasa.gov/citations/19640009088
 [research_holmes_1980]: https://ntrs.nasa.gov/citations/19800059134
 [research_holmes_1980_2]: https://ntrs.nasa.gov/citations/19800017765
 [research_hoppe_2000]: https://ntrs.nasa.gov/citations/20010014869
 [research_houbolt_1967]: https://doi.org/10.21236/ad0820380
+[research_huang_2025]: https://doi.org/10.3390/aerospace12020154
+[research_huang_2025_2]: https://doi.org/10.1177/14759217251358535
 [research_hudson_1980]: https://doi.org/10.1364/sam.1980.ma4
 [research_huston_1948]: https://ntrs.nasa.gov/citations/19930090948
 [research_huston_skopinski_1955]: https://ntrs.nasa.gov/citations/19930092229
 [research_ichikawa_1960]: https://doi.org/10.2322/jjsass1953.8.1
+[research_irps_kanjirakkad_2025]: https://doi.org/10.1115/1.4067466
 [research_jafari_nikolaidis_2018]: https://doi.org/10.3390/electronics7110314
 [research_jansen_thorman_1950]: https://ntrs.nasa.gov/citations/19930086180
+[research_jasso_2026]: https://doi.org/10.22201/igeof.2954436xe.2026.65.2.1901
+[research_javed_alouini_2025]: https://doi.org/10.1109/twc.2024.3508872
+[research_jayatilake_2025]: https://doi.org/10.1007/s11071-025-10936-4
 [research_jenkinson_marchman_2003]: https://doi.org/10.1016/b978-075065772-3/50011-9
+[research_ji_2026]: https://doi.org/10.3390/en19081854
 [research_jiang_2019]: https://doi.org/10.1016/j.ast.2019.03.043
+[research_jiao_yang_2026]: https://doi.org/10.1007/s11581-026-07214-7
+[research_jin_2025]: https://doi.org/10.3390/app15094619
 [research_johnson_meyer_1950]: https://ntrs.nasa.gov/citations/19930086282
 [research_jones_eftis_1981]: https://doi.org/10.21236/ada109054
+[research_jurado_mcgehee_2019]: https://doi.org/10.2514/1.c034964
+[research_karyofyllas_2026]: https://doi.org/10.1177/14759217251324110
 [research_kayhan_2020]: https://doi.org/10.21923/jesd.397265
-[research_kaza_1980]: https://doi.org/10.2172/5414577
+[research_kececi_oktal_2026]: https://doi.org/10.1016/j.est.2026.123020
 [research_kelly_pettit_2003]: https://ntrs.nasa.gov/citations/20110023899
 [research_kerho_2007]: https://doi.org/10.2514/6.2007-959
 [research_kerkam_1982]: https://doi.org/10.2514/6.1982-58
 [research_khalil_fezans_2021]: https://doi.org/10.1017/aer.2020.85
+[research_kheiri_riazat_2025]: https://doi.org/10.1017/aer.2025.10028
+[research_khennoufa_2026]: https://doi.org/10.1109/access.2026.3684152
 [research_kida_1982]: https://doi.org/10.1515/9783112546963-011
+[research_kilic_2024]: https://doi.org/10.1061/jaeeez.aseng-5486
+[research_kilic_unal_2021]: https://doi.org/10.1108/aeat-01-2021-0018
+[research_kim_lee_2025]: https://doi.org/10.5194/ica-abs-10-146-2025
+[research_kim_lim_2025]: https://doi.org/10.3390/f16071158
 [research_kirsch_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.102930
 [research_klein_1945]: https://ntrs.nasa.gov/citations/20050185542
 [research_klinar_1947]: https://ntrs.nasa.gov/citations/20050019298
+[research_knauer_2025]: https://doi.org/10.5194/isprs-archives-xlviii-m-7-2025-157-2025
 [research_kohlman_1975]: https://ntrs.nasa.gov/citations/19760003921
 [research_korger_1957]: https://doi.org/10.1002/j.2161-4296.1957.tb02430.x
+[research_koshel_2026]: https://doi.org/10.2478/tar-2026-0008
 [research_kowalski_1988]: https://doi.org/10.1115/88-gt-321
 [research_kozoderov_egorov_2019]: https://doi.org/10.31857/s0205-96142019689-102
+[research_kruger_uranga_2024]: https://doi.org/10.2514/1.c037284
+[research_kumar_2026]: https://doi.org/10.1016/j.ress.2026.112826
+[research_kumar_dana_2026]: https://doi.org/10.1002/sat.70052
 [research_kuzina_1962]: https://doi.org/10.21236/ad0290557
+[research_lange_2026]: https://doi.org/10.5194/amt-19-1973-2026
 [research_lappe_1965]: https://doi.org/10.2514/6.1965-14
 [research_larson_1980]: https://ntrs.nasa.gov/citations/19800014815
 [research_larson_webb_1963]: https://ntrs.nasa.gov/citations/19630003075
 [research_lee_1984]: https://doi.org/10.2514/3.48227
+[research_lee_ko_2025]: https://doi.org/10.31818/jknst.2025.12.8.4.803
+[research_lee_yee_2024]: https://doi.org/10.2514/1.c037225
 [research_lei_2020]: https://doi.org/10.21595/jve.2019.20968
+[research_lei_2025]: https://doi.org/10.1134/s0869864324060222
+[research_lei_2026]: https://doi.org/10.1088/1742-6596/3207/1/012006
 [research_levin_shyy_2001]: https://doi.org/10.2514/6.2001-125
 [research_levy_bailey_1981]: https://ntrs.nasa.gov/citations/19820027451
+[research_lewis_2025]: https://doi.org/10.1016/j.solener.2025.113816
 [research_li_2021]: https://doi.org/10.1088/1742-6596/2029/1/012016
 [research_li_2021_2]: https://doi.org/10.1155/2021/3949078
+[research_li_2022_3]: https://doi.org/10.1109/tim.2022.3162267
+[research_li_2025_2]: https://doi.org/10.1016/j.jsv.2024.118802
+[research_li_2026]: https://doi.org/10.1016/j.ast.2025.111519
 [research_li_qin_2021]: https://doi.org/10.1016/j.jfluidstructs.2021.103407
 [research_liebst_1986]: https://doi.org/10.2514/6.1986-2247
 [research_lina_ricker_1952]: https://ntrs.nasa.gov/citations/19930083537
 [research_liu_2021]: https://doi.org/10.1016/j.jweia.2021.104726
 [research_liu_2022]: https://doi.org/10.1016/j.ast.2022.107399
+[research_liu_2024_2]: https://doi.org/10.3390/app14219628
+[research_liu_2024_3]: https://doi.org/10.3390/vibration7020027
+[research_liu_2025]: https://doi.org/10.2514/1.c038200
+[research_liu_2026]: https://doi.org/10.1016/j.ast.2025.111042
+[research_liu_2026_2]: https://doi.org/10.1016/j.ast.2026.113271
+[research_liu_2026_3]: https://doi.org/10.3724/j.gter.20260001
+[research_liu_hu_2026]: https://doi.org/10.1007/s00382-026-08219-8
 [research_loewy_2000]: https://doi.org/10.2514/6.2000-1600
 [research_lueder_belcher_1954]: https://doi.org/10.21236/ad0038161
+[research_luo_2025]: https://doi.org/10.4236/jamp.2025.132027
 [research_ma_1960]: https://doi.org/10.21236/ad0254906
+[research_maghrabi_2026]: https://doi.org/10.1016/j.jastp.2026.106768
+[research_mahyastuty_2025]: https://doi.org/10.1007/s11235-025-01301-2
 [research_mallios_1952]: https://doi.org/10.21236/ada076031
 [research_manganiello_1948]: https://ntrs.nasa.gov/citations/20090023598
 [research_martos_2011]: https://ntrs.nasa.gov/citations/20110015011
@@ -870,14 +1020,18 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_mcghee_beasley_1973]: https://ntrs.nasa.gov/citations/19740003708
 [research_mcghee_bingham_1972]: https://ntrs.nasa.gov/citations/19830002764
 [research_meng_2019]: https://doi.org/10.1155/2019/3684015
+[research_michna_2025]: https://doi.org/10.3390/en18112884
 [research_middleton_1959]: https://doi.org/10.1037/e417522004-001
 [research_mignery_1951]: https://doi.org/10.5962/bhl.title.127717
 [research_milholen_owens_2005]: https://ntrs.nasa.gov/citations/20050041941
 [research_milholen_owens_2005_2]: https://ntrs.nasa.gov/citations/20050041755
 [research_milligan_perrone_1966]: https://ntrs.nasa.gov/citations/19660020616
+[research_mirabella_2025]: https://doi.org/10.1007/s42496-024-00241-5
 [research_miste_benini_2013]: https://doi.org/10.1115/gtindia2013-3533
+[research_mityushkin_2026]: https://doi.org/10.3103/s1068799826010137
 [research_miura_shyu_1986]: https://ntrs.nasa.gov/citations/19870049016
 [research_moore_cutright_2019]: https://ntrs.nasa.gov/citations/20200002440
+[research_moreira_2026]: https://doi.org/10.5194/angeo-44-195-2026
 [research_morris_1954]: https://doi.org/10.21236/ad0115997
 [research_morris_1981_2]: https://ntrs.nasa.gov/citations/19810013510
 [research_moyer_1963]: https://doi.org/10.2172/435307
@@ -887,39 +1041,59 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_murzello_2020]: https://doi.org/10.1504/ijad.2020.107162
 [research_naca_1962]: https://ntrs.nasa.gov/citations/19630003300
 [research_nagamatsu_1980]: https://doi.org/10.2514/6.1980-1417
+[research_narimani_2025]: https://doi.org/10.1016/j.ast.2025.109992
 [research_nelson_hamsher_1950]: https://doi.org/10.1364/josa.40.000863
 [research_nissen_gadeberg_1944]: https://ntrs.nasa.gov/citations/20150011305
 [research_nordby_crisman_1964]: https://doi.org/10.21236/ad0605325
+[research_nrangwesti_2025]: https://doi.org/10.24815/kjih.v27i3.130
 [research_ny_1955]: https://doi.org/10.21236/ad0125728
 [research_ny_1955_2]: https://doi.org/10.21236/ad0125726
 [research_ny_1957]: https://doi.org/10.21236/ad0136057
+[research_ogur_2024]: https://doi.org/10.1016/j.energy.2024.132714
 [research_okress_soberman_1981]: https://doi.org/10.2514/6.1981-1346
+[research_onkar_2025]: https://doi.org/10.1061/jaeeez.aseng-5542
 [research_ouellette_2019]: https://ntrs.nasa.gov/citations/20190002087
+[research_pan_2026]: https://doi.org/10.1016/j.ast.2026.112250
 [research_pardee_heaslet_1946]: https://ntrs.nasa.gov/citations/19930092734
+[research_park_2025]: https://doi.org/10.1016/j.apenergy.2024.124567
+[research_park_2026]: https://doi.org/10.5139/jksas.2026.54.3.329
 [research_patil_2001]: https://doi.org/10.2514/2.2738
 [research_patton_2004]: https://doi.org/10.21236/ada425012
 [research_peacock_1981]: https://doi.org/10.21236/ada102330
 [research_pearce_1954]: https://doi.org/10.1139/tcs-1954-0024
 [research_pena_2020]: https://ntrs.nasa.gov/citations/20200001121
+[research_peng_2026]: https://doi.org/10.1016/j.jfluidstructs.2025.104486
 [research_pepper_foster_1946]: https://ntrs.nasa.gov/citations/20050019304
 [research_perkins_2001]: https://ntrs.nasa.gov/citations/20010062770
 [research_petroski_1981]: https://doi.org/10.21236/ada097224
 [research_pinkel_shames_1948]: https://ntrs.nasa.gov/citations/19930093755
+[research_pourtakdoust_khodabakhsh_2026]: https://doi.org/10.1016/j.ast.2025.111214
+[research_pratima_mohammed_2026]: https://doi.org/10.1007/s12247-025-10154-w
 [research_prince_mcaulay_1950]: https://ntrs.nasa.gov/citations/19930086235
+[research_priya_arora_2025]: https://doi.org/10.5750/ijme.v167ia3(s).1711
+[research_qi_2026]: https://doi.org/10.3390/aerospace13060496
+[research_qin_2026]: https://doi.org/10.1142/s021812662642017x
 [research_qu_li_2022]: https://doi.org/10.1088/1742-6596/2258/1/012074
 [research_raddlebaugh_norgren_1983]: https://ntrs.nasa.gov/citations/19830004831
 [research_raeke_1958]: https://doi.org/10.4271/580153
 [research_rainey_igoe_1958]: https://ntrs.nasa.gov/citations/19930093826
+[research_raj_2019]: https://doi.org/10.31031/aes.2019.01.000504
+[research_randieri_2025]: https://doi.org/10.3390/drones9080549
 [research_rao_1985]: https://doi.org/10.1016/0045-7949(85)90150-6
 [research_rathert_1949]: https://ntrs.nasa.gov/citations/19930085522
+[research_rathnasabapathy_2025]: https://doi.org/10.1109/mprv.2025.3614097
 [research_redden_1961]: https://doi.org/10.21236/ad0267150
 [research_regis_2004]: https://doi.org/10.2514/6.2004-5192
 [research_reynolds_2001]: https://ntrs.nasa.gov/citations/20010047494
 [research_reynolds_2001_2]: https://ntrs.nasa.gov/citations/20010092198
+[research_rezo_2026]: https://doi.org/10.3390/aerospace13020180
+[research_riccio_2025]: https://doi.org/10.3390/app15148013
+[research_riccio_2026]: https://doi.org/10.2514/1.c038477
+[research_richter_2026]: https://doi.org/10.1029/2026eo260237
 [research_roberts_1975]: https://ntrs.nasa.gov/citations/19760004010
 [research_roberts_1976]: https://ntrs.nasa.gov/citations/19760042803
 [research_roberts_1978]: https://ntrs.nasa.gov/citations/19780036859
-[research_roelke_haas_1982]: https://ntrs.nasa.gov/citations/19830002793
+[research_rochford_2026]: https://doi.org/10.3390/cryptography10020020
 [research_roetling_1963]: https://doi.org/10.21236/ad0420923
 [research_romeo_2004]: https://doi.org/10.2514/1.2723
 [research_ruhlin_murphy_1981]: https://doi.org/10.2514/6.1981-650
@@ -927,26 +1101,45 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_rumsey_2003]: https://ntrs.nasa.gov/citations/20030016511
 [research_runyan_steers_1980]: https://ntrs.nasa.gov/citations/19810042099
 [research_ryder_walker_1976]: https://doi.org/10.21236/ada043365
+[research_saldarriaga_2025]: https://doi.org/10.3390/rs17030460
 [research_samuels_1982]: https://doi.org/10.2514/3.57418
 [research_sanchez_1986]: https://ntrs.nasa.gov/citations/19860052332
 [research_sanders_1957]: https://doi.org/10.1108/eb032813
 [research_sanders_palasics_1948]: https://ntrs.nasa.gov/citations/20030064194
+[research_santos_marques_2026]: https://doi.org/10.1016/j.jfluidstructs.2026.104549
+[research_sarup_2025]: https://doi.org/10.3390/wevj16090530
+[research_sarup_2026]: https://doi.org/10.3390/wevj17030126
+[research_sawake_2026]: https://doi.org/10.22214/ijraset.2026.79088
 [research_schmidlin_1981]: https://ntrs.nasa.gov/citations/19820017832
+[research_schollmeier_wiesche_2022]: https://doi.org/10.1016/j.energy.2022.125143
 [research_schroeder_1956]: https://doi.org/10.4271/560282
 [research_schulderfrei_1951]: https://ntrs.nasa.gov/citations/19930083056
+[research_schumann_2026]: https://doi.org/10.66233/innp-026-30159
+[research_shah_ansell_2026]: https://doi.org/10.2514/1.c038714
+[research_shan_2025]: https://doi.org/10.3390/wevj16040212
 [research_shanahan_barker_1962]: https://doi.org/10.21236/ad0434193
+[research_shang_2025]: https://doi.org/10.1049/pel2.70134
+[research_sharifi_2025]: https://doi.org/10.1016/j.compstruct.2025.118839
+[research_sharqi_cesnik_2025]: https://doi.org/10.2514/1.c038083
+[research_shi_2024]: https://doi.org/10.3390/en17040786
+[research_shi_2025]: https://doi.org/10.3390/aerospace12040349
+[research_shi_wu_2026]: https://doi.org/10.1016/j.telpol.2026.103293
 [research_shibata_2003]: https://doi.org/10.2514/6.2003-2269
 [research_shufflebarger_1941]: https://ntrs.nasa.gov/citations/19930080784
 [research_siegel_lanterman_1968]: https://doi.org/10.21236/ad0680825
+[research_singh_venkatraman_2026]: https://doi.org/10.2514/1.j065133
 [research_sinha_2021]: https://doi.org/10.1007/s13272-021-00494-x
 [research_sirigina_2021]: https://doi.org/10.1016/j.comcom.2021.08.024
+[research_sklenar_mateju_2022]: https://doi.org/10.3846/aviation.2022.15963
 [research_skoch_moore_1987]: https://ntrs.nasa.gov/citations/19870014190
 [research_skoch_moore_1987_2]: https://ntrs.nasa.gov/citations/19870062914
 [research_smith_1964]: https://doi.org/10.21236/ad0600879
 [research_solvey_1951]: https://doi.org/10.1108/eb032033
 [research_somers_2019]: https://ntrs.nasa.gov/citations/20190031816
 [research_somers_maughmer_2022]: https://ntrs.nasa.gov/citations/20220014964
+[research_song_2026]: https://doi.org/10.1142/s0219455426502111
 [research_soranna_2023]: https://ntrs.nasa.gov/citations/20220018855
+[research_spinner_2025]: https://doi.org/10.2514/1.c038119
 [research_spreiter_steffen_1946]: https://ntrs.nasa.gov/citations/19930084610
 [research_stack_1943]: https://ntrs.nasa.gov/citations/20090016700
 [research_stanford_2020]: https://ntrs.nasa.gov/citations/20200002654
@@ -956,11 +1149,15 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_tafel_1960]: https://doi.org/10.21236/ad0257359
 [research_tagashira_2007]: https://doi.org/10.2514/6.2007-5012
 [research_tang_2006]: https://doi.org/10.2514/6.2006-249
+[research_tantaroudas_karachalios_2026]: https://doi.org/10.24132/acm.2026.1114
 [research_tate_gillard_1975]: https://doi.org/10.21236/ada018691
 [research_taylor_1980]: https://doi.org/10.4271/800606
 [research_teixeira_cesnik_2019]: https://doi.org/10.2514/1.j057575
 [research_teixeira_cesnik_2020]: https://doi.org/10.1017/aer.2019.165
+[research_tescaroli_belan_2021]: https://doi.org/10.1088/1361-6501/abf057
 [research_thornton_2002]: https://doi.org/10.4218/etrij.02.0102.0202
+[research_tian_2026]: https://doi.org/10.1016/j.compstruct.2026.120104
+[research_tian_2026_2]: https://doi.org/10.1117/1.jrs.20.014504
 [research_tian_yu_1981]: https://doi.org/10.1115/81-gt-49
 [research_torenbeek_1972]: https://doi.org/10.1108/eb034867
 [research_toth_white_1949]: https://doi.org/10.21236/ad0072677
@@ -973,11 +1170,14 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_va_1960]: https://doi.org/10.21236/ad0243886
 [research_vartio_2008]: https://doi.org/10.2514/6.2008-7192
 [research_vincent_gale_1951]: https://ntrs.nasa.gov/citations/20050019428
-[research_vuillemont_1963]: https://doi.org/10.21236/ada437537
 [research_waghela_2019]: https://doi.org/10.2514/1.c035353
 [research_wallner_fleming_1949]: https://ntrs.nasa.gov/citations/19930085932
 [research_wang_2019]: https://doi.org/10.2514/1.g003980
 [research_wang_2021]: https://doi.org/10.1016/j.actaastro.2020.08.016
+[research_wang_2026]: https://doi.org/10.1016/j.ast.2025.111272
+[research_wang_2026_4]: https://doi.org/10.1016/j.ress.2026.112902
+[research_wang_liang_2026]: https://doi.org/10.1109/tase.2026.3694500
+[research_wang_zhang_2025]: https://doi.org/10.3390/atmos16091065
 [research_waszak_2003]: https://ntrs.nasa.gov/citations/20030062109
 [research_webster_1947]: https://ntrs.nasa.gov/citations/19930082042
 [research_wei_2001]: https://doi.org/10.1016/s1352-2310(01)00409-5
@@ -986,14 +1186,31 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_wentz_nagati_1975]: https://ntrs.nasa.gov/citations/19760003924
 [research_wert_1983]: https://doi.org/10.21236/ada133947
 [research_west_1945]: https://ntrs.nasa.gov/citations/19930092809
+[research_wu_2025]: https://doi.org/10.3390/math13243986
+[research_wu_2025_3]: https://doi.org/10.1088/1742-6596/2977/1/012048
 [research_xie_2022]: https://doi.org/10.1088/1742-6596/2410/1/012008
+[research_xing_2026]: https://doi.org/10.1016/j.engfailanal.2026.111081
+[research_xiong_2026]: https://doi.org/10.1016/j.ast.2026.112223
+[research_xu_2026_2]: https://doi.org/10.1038/s41598-026-56983-8
+[research_yan_2026]: https://doi.org/10.1177/14759217261433896
+[research_yi_2025]: https://doi.org/10.1063/5.0299020
+[research_yi_2026]: https://doi.org/10.1016/j.joule.2026.102601
 [research_youngblood_talay_1982]: https://ntrs.nasa.gov/citations/19820048449
-[research_yuvarajan_2001]: https://doi.org/10.21236/ada399688
+[research_zahn_2025]: https://doi.org/10.3390/aerospace12050415
 [research_zahn_breitsamter_2023]: https://doi.org/10.1007/s13272-022-00619-w
 [research_zhang_2021]: https://doi.org/10.1016/j.apenergy.2021.117031
+[research_zhang_2025_3]: https://doi.org/10.2514/1.j064891
+[research_zhang_2026]: https://doi.org/10.3390/aerospace13010098
+[research_zhang_2026_2]: https://doi.org/10.1007/s42405-026-01144-4
+[research_zhang_2026_4]: https://doi.org/10.1016/j.ress.2026.112887
+[research_zhang_2026_5]: https://doi.org/10.1177/14759217261462579
+[research_zhang_2027]: https://doi.org/10.1016/j.ress.2026.113082
+[research_zhao_2021]: https://doi.org/10.1088/1742-6596/1820/1/012048
 [research_zhao_gao_2019]: https://doi.org/10.1108/ec-05-2018-0215
+[research_zheng_2026_3]: https://doi.org/10.1016/j.ast.2026.113066
 [research_zhou_2019]: https://doi.org/10.1007/s40815-018-0566-4
-[research_zielinski_2001]: https://doi.org/10.21236/ada393637
+[research_zhou_2025]: https://doi.org/10.3390/rs17101706
+[research_zilstra_johnson_2026]: https://doi.org/10.2514/1.j066845
 
 ### Related Post
 
