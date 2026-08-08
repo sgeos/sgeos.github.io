@@ -21,10 +21,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
 
-854 lines, 51 display equations, 95 reference definitions of which 72 are research, 13,322 words
-after the draft pass, and 1088 lines, 103 display equations, 95 references, 15,001 words after the
-equation-density review. Equations are inside band; lines and references still approach from below.
-Reported rather than padded.
+854 lines, 51 display equations, 95 references, 13,322 words after the draft pass; 1088 lines, 103
+equations, 95 references, 15,001 words after the equation review; 1300 lines, 103 equations, 267
+references, 17,821 words after the primary-reference review. **All three densities inside band and
+nothing trimmed at any point.**
 
 **The first article in the series whose subject is an instrument rather than a vehicle.** The X-14 is
 the variable-stability aircraft that produced the attitude control-power criteria A310 borrowed
@@ -118,9 +118,43 @@ constant rather than the deflection it claimed to sweep, and **the closed form f
 simply wrong**, given as (CP d / 4g)^(1/3) and missing the numeric optimum by six degrees; the correct
 form is (1/2) sqrt(CP d / g). A pronoun for a generic pilot was also corrected.
 
-Primary-reference and publication reviews not yet performed. References stand at 95 against a 250
-floor and lines at 1088 against a 1300 floor. Contemporary references are 10 of 72 dated, or 13.9
-percent, which is the publication review's principal task.
+**Primary-reference review complete, 2026-08-08. 1300 lines, 103 display equations, 267 references,
+17,821 body words.** References rose from 95 to 267 across 26 edits, research anchors from 72 to 244.
+**All three densities are now inside band and nothing has been trimmed at any point**, with lines
+landing exactly on the 1300 floor.
+
+**Primary sources are 234 of 244 dated research references, or 95.9 percent**, which is the highest
+share the series has carried and reflects that the X-14's subject is almost entirely a 1955 to 1985
+technical-report literature. Composition is NTRS 105, period 84, DTIC 45, modern 10.
+
+**Two documents found that the article had been missing.** [Hegarty et al 1965] describes a system for
+varying the stability and control of a deflected-jet fixed-wing VTOL aircraft, which is the X-14A's
+own analogue variable-stability system and is the primary description of the apparatus that produced
+every number in the article. It was previously uncited because its title names the configuration
+rather than the aircraft. And [Key 1971] is an account of the generation of MIL-F-83300, **which
+supplies the primary source for the specification lineage the What the Data Changed section had
+previously asserted without one**.
+
+**Corroboration found for two claims the article derived independently.** The scaling argument now
+has a second contemporary paper alongside Johnston and Friend, since [Johnston et al 1965] reports a
+study of size effects on VTOL handling-qualities criteria in the same year; two papers on size
+dependence within three years of the first results is not a coincidence. And the objection this
+article raises about two pilots was raised contemporaneously in [Kidd and Bull 1963] on how handling
+qualities requirements are influenced by pilot evaluation time and sample size, **published two years
+before the lateral control experiments it applies to**.
+
+**The bandwidth successor now has primary sources.** The claim that the field changed the variable
+rather than the number is supported by the Pausder and Blanken bandwidth and time-delay experiments
+of 1992 to 1994, which are the X-14A's procedure with the independent variables replaced.
+
+Citation density 16.17 per thousand body words, at the top of the 12.82 to 16.58 range A310 held.
+Three repeated-phrasing collisions introduced by the insertions were caught by scanning and reading
+and were varied.
+
+**Contemporary references are 10 of 244 dated, or 4.1 percent.** The absolute count is unchanged and
+the percentage fell only because the primary pass grew the denominator. Against the 101 to 189
+absolute count the series has held since A301 this is the largest contemporary gap any article has
+carried into a publication review, and closing it is that pass's principal task.
 
 ## X-Planes Ryan X-13 Vertijet A310 2025-10-19
 

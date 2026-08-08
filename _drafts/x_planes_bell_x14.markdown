@@ -35,6 +35,8 @@ where the upper bound is whatever control power the remaining thrust margin can 
 
 That is not a rhetorical difficulty. It is a structural one. The quantity being sought is a property of a closed loop containing a person, and the person's transfer characteristics are not derivable from the airframe. [Anderson 1960][research_anderson_1960] surveys the state of handling-qualities criteria for vertical take-off aircraft at exactly this moment and finds the criteria absent rather than merely uncertain. [Tapscott 1960, Criteria for primary handling qual][research_tapscott_1960_2] attempts to state them and is explicit that the supporting data are thin.
 
+**The absence persisted long enough to generate a literature about the absence.** [Clark 1964][research_clark_1964] and [Westbrook 1964][research_westbrook_1964] both report research on vertical take-off handling-qualities criteria rather than the criteria themselves. [Curry et al 1965][research_curry_1965] offers suggested requirements, the qualifier doing real work. [Goldberger 1966][research_goldberger_1966] asks, four years after the X-14A's first results, about the relative importance of the low-speed control requirement, which is not a question a settled field asks. [Carpenter and Jenny 1964][research_carpenter_jenny_1964] proposes a statistical approach to low-speed control criteria, which is an admission that the deterministic approach had not produced one. The same problem was recognised for spacecraft attitude control at the same time in [Besco 1964][research_besco_1964], where the aerodynamic term is absent for a different reason and the human term is identical.
+
 ### Why the Question Forces an Instrument
 
 If the answer is a threshold in a human response, then locating it requires crossing it. A pilot flying an aircraft with adequate control power reports that the aircraft is adequate, which establishes an upper bound on the requirement and nothing else. **To find where adequacy ends, the aircraft must be made inadequate while the pilot is flying it**, and then made adequate again, and the pilot must be asked about both.
@@ -42,6 +44,8 @@ If the answer is a threshold in a human response, then locating it requires cros
 No ordinary aeroplane can do this. Its control power is a fixed consequence of its nozzle sizes, its bleed capacity, and its inertias. Changing it means rebuilding it, and rebuilding it changes twenty other things at the same time, so that a difference in pilot opinion cannot be attributed to the variable of interest.
 
 **What is required is an aircraft in which control power is an adjustable parameter and everything else is held constant**, which is the definition of a variable-stability aircraft. [Key et al 1965][research_key_1965] states the case for the type directly, treating variable-stability aeroplanes as research instruments rather than as aircraft. The X-14 is the first one built for the vertical take-off problem.
+
+The technique itself was not new. [Harper 1955][research_harper_p_1955] reports flight evaluations of longitudinal handling qualities in a variable-stability jet fighter two years before the X-14 first hovered, so the method existed and had been applied to conventional flight. What had not been done was applying it where the aerodynamic terms vanish, and the parallel attempt on a rotorcraft is [Garren and Kelly 1965][research_garren_kelly_1965], which applied a model-following technique to a variable-stability helicopter for the same purpose. [Mcgregor and Smith 1965][research_mcgregor_smith_1965] describes the same programme pursued independently in Canada with airborne simulators.
 
 ### The Inversion This Represents
 
@@ -77,7 +81,11 @@ The X-14 is the first variable-stability aircraft applied to the hovering proble
 
 [Key et al 1965][research_key_1965] surveys the flight research use of variable-stability aeroplanes for vertical take-off flying qualities. [Eney 1967][research_eney_1967] reports Navy variable-stability studies of longitudinal handling qualities, and [Rhoads 1967][research_rhoads_1967] an in-flight simulation and pilot evaluation of landing approach handling qualities, extended in [Rhoads 1970][research_rhoads_1970] to cockpit controller configurations. [Newell et al 1963][research_newell_1963] describes a variable-drag device fitted to a variable-stability aircraft, which indicates how far the technique was pushed beyond attitude dynamics.
 
-The direct successor for the vertical take-off problem was the X-22A, a tilting-ducted-propeller research aircraft described in [Marchese 1963][research_marchese_1963] and whose variable-stability capabilities for flying-qualities work are reported in [Aiken et al 1977][research_aiken_1977]. **The X-22A could do what the X-14 did with more authority and more endurance**, and its existence from the late 1960s onward is part of why the X-14B's later work moved toward control-law concepts rather than toward refining the original criteria.
+The type spread to large aircraft as well as small. [Person and Robbins 1965][research_person_robbins_1965] and [Baska and Robbins 1966][research_baska_robbins_1966] describe the variable-stability simulation system fitted to a Boeing 367-80, first for a supersonic transport programme and then for a large transport programme, and [Condit et al 1966][research_condit_1966] compares in-flight against ground-based simulation of the handling qualities of very large aeroplanes in landing approach. [Motyka 1975][research_motyka_1975] assesses a T-2 as a high-angle-of-attack in-flight simulator, which is the technique applied to a third regime where the aerodynamics misbehave.
+
+The control law itself became a subject. [Merrick 1977][research_merrick_1977] studies an implicit model-following controller applied to lift-fan vertical take-off aircraft, [Deets 1978][research_deets_1978] compares optimal-regulator and conventional setup techniques for a model-following simulator control system, and [Takahashi et al 1994][research_takahashi_1994] develops a model-following law for in-flight simulation two decades later. **The X-14B's digital system sits in the middle of that development rather than at the end of it.**
+
+The direct successor for the vertical take-off problem was the X-22A, a tilting-ducted-propeller research aircraft described in [Marchese 1963][research_marchese_1963] and whose variable-stability capabilities for flying-qualities work are reported in [Aiken et al 1977][research_aiken_1977]. [Smith et al 1973][research_smith_1973] reports a flight investigation of longitudinal short-term dynamics for short take-off landing approaches using it, and [Smith 1974][research_smith_1974] summarises the flying-qualities research the aircraft supported. **The X-22A could do what the X-14 did with more authority and more endurance**, and its existence from the late 1960s onward is part of why the X-14B's later work moved toward control-law concepts rather than toward refining the original criteria.
 
 The helicopter branch of the same family is reviewed in [Hindson 1982][research_hindson_1982], which considers past applications and future potential of variable-stability research helicopters, and continues in [Watson and Hindson 1988][research_watson_hindson_1988] on rotorcraft pitch-roll cross coupling. A helicopter has aerodynamic damping a jet-lift aircraft lacks, so the two branches are not interchangeable, but the method is identical.
 
@@ -85,7 +93,9 @@ The helicopter branch of the same family is reviewed in [Hindson 1982][research_
 
 It is worth recording what was and was not available when Bell began, because the X-14's contribution is easy to overstate.
 
-The configuration question had been worked over thoroughly. [Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
+The configuration question had been worked over thoroughly. [Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. The field had a textbook within a few years in [Campbell 1962][research_campbell_1962], a conference series of which [NACA 1960][research_naca_1960] is one volume, and survey treatments in [Kirby 1961][research_kirby_1961] on propeller-driven configurations and [Brown 1965][research_brown_1965] on low-disc-loading designs. The tilt-wing branch alone supported [Nichols 1963][research_nichols_1963], [Martin 1963][research_martin_1963], [Tosti 1961][research_tosti_1961], and [Longhurst 1966][research_longhurst_1966]. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
+
+The hovering-stability problem had also been posed cleanly, though for rotorcraft rather than for jets. [Miller 1948][research_miller_1948] treats helicopter control and stability in hovering flight, and the subject was worked over through [Payne 1955][research_payne_1955] and [Bramwell 1956][research_bramwell_1956]. The flying-platform experiments of [Albachten 1956][research_albachten_1956] and [Sissingh 1956][research_sissingh_1956] address hovering stability for a vehicle with no wing at all. **What none of these could supply is the jet-lift case, in which there is no rotor to provide damping and no propeller slipstream to provide control.**
 
 The specific problem of attitude control on a jet-lift aircraft was recognised and named. [Baxter and Finvold 1958][research_baxter_finvold_1958] addresses jet engine control and attitude control in vertical-attitude aircraft, which is the same problem in the tail-sitting configuration the [X-13][related_post_a310_ryan_x13] used. Scale-model work was underway, including the free-flight tests of a one-fifth-scale Ryan X-13 model reported in [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2].
 
@@ -102,6 +112,8 @@ The moment a control system can produce is a force multiplied by a distance. Wha
 $$\text{CP} = \frac{M_{\text{control}}}{I}$$
 
 where $M_{\text{control}}$ is the maximum moment the control system can generate about an axis and $I$ is the moment of inertia about that axis. The units are radians per second squared. [Greif et al 1972][research_greif_1972] defines it in exactly these terms, as control moment divided by moment of inertia.
+
+The inertias and derivatives that populate this relation were themselves a measurement problem. [Rampy 1966][research_rampy_1966] identifies which stability derivatives actually matter in hover and transition, and the techniques for obtaining them are treated in [Barzda 1966][research_barzda_1966] on low-frequency oscillation methods, [Owen and Cox 1966][research_owen_cox_1966] on measuring oscillatory derivatives on jet-blowing models, and [Williams and Butler 1964][research_williams_butler_1964] on the wind-tunnel techniques the whole field depended on.
 
 For a pair of nozzles acting differentially at a distance $\ell$ either side of the centre of mass, the moment is
 
@@ -171,7 +183,9 @@ $$\tfrac{1}{2} \times 2.0 \times 1^{2} = 1.0 \text{ rad} = 57.3 \text{ degrees}$
 
 ### What the Control Power Was Bought With
 
-On the X-14 the attitude control moments came from compressed air bled from the compressors of the turbojets and ejected through nozzles at the wingtips and the tail. [Drinkwater et al 1965][research_drinkwater_1965] describes the arrangement, and [Keller 1969][research_keller_1969] and [Friend 1964][research_friend_1964] treat reaction controls for jet-lift aircraft as a design problem in their own right.
+On the X-14 the attitude control moments came from compressed air bled from the compressors of the turbojets and ejected through nozzles at the wingtips and the tail. [Drinkwater et al 1965][research_drinkwater_1965] describes the arrangement, and [Keller 1969][research_keller_1969] and [Friend 1964][research_friend_1964] treat reaction controls for jet-lift aircraft as a design problem in their own right. **[Patierno and Asdurian 1965][research_patierno_asdurian_1965] states the trade in its title**, addressing the impact of control provisions on the mission performance of jet vertical take-off aircraft using reaction control systems, which is the subject of the next several pages here. The effectiveness of such jets was still being measured in the wind tunnel a quarter of a century later in [Riley et al 1989][research_riley_1989], for the hover and transition of a short take-off vertical landing fighter concept.
+
+One property of a reaction control system that this article does not otherwise treat deserves naming, because it bears on the fan result below. A nozzle valve that is effectively on or off rather than proportional makes the closed loop a relay system, and relay systems limit-cycle. [Dahl et al 1962][research_dahl_1962] analyses limit cycles in reaction-jet attitude control subject to external torques, which is the failure mode a bang-bang attitude control invites.
 
 The thrust of a reaction nozzle follows from the mass flow through it and the velocity at which that mass leaves,
 
@@ -391,7 +405,9 @@ $$b = 10.3 \times \frac{0.20}{0.0741} = 27.8 \text{ m}$$
 
 **A jet-lift aircraft with reaction controls at the wingtips runs out of aircraft at somewhere around twenty-eight metres of span.** The Dornier Do 31, the largest jet-lift vertical take-off aircraft ever flown, spanned about eighteen metres, at which the relation demands 12.9 percent bleed. It is not a coincidence that the type stopped there.
 
-This conclusion was reached independently and contemporaneously. [Johnston and Friend 1965][research_johnston_friend_1965] is titled for the effect of size on hover and low-speed handling qualities, and the fact that the question was being asked in those terms in 1965 indicates the field had recognised the scaling problem within three years of the X-14A's first results.
+This conclusion was reached independently and contemporaneously, and by more than one group. [Johnston and Friend 1965][research_johnston_friend_1965] is titled for the effect of size on hover and low-speed handling qualities, and [Johnston et al 1965][research_johnston_1965] reports a study of size effects on vertical take-off handling-qualities criteria in the same year. **Two papers on the size dependence within three years of the X-14A's first results is not a coincidence**, and it indicates the field had recognised the scaling problem as soon as it had a criterion to scale.
+
+The reappraisals that followed carry the same concern. [Smith 1966, Vtol control power requirements re][research_smith_1966_2] revisits the requirements four years after they were determined, [Hoffman 1971][research_hoffman_1971] treats the cost of control power as a subject in itself, and [Stevens and Roskam 1985][research_stevens_roskam_1985] is still investigating vertical-axis control power requirements for shipboard landing two decades later.
 
 ### What the Criterion Costs an Arbitrary Aircraft
 
@@ -435,7 +451,9 @@ $$\frac{3{,}500}{3{,}700} = 0.946, \qquad \frac{3{,}120}{3{,}700} = 0.843$$
 
 Replacing the Vipers with two General Electric J85-GE-5 engines at 2,680 pounds each raised the uninstalled ratio to 1.449, and the later J85-GE-19 installation at 3,015 pounds each raised it to 1.630. **The re-engining was not an upgrade to an aircraft that already worked. It was the precondition for the research programme existing at all**, because a variable-stability aircraft must be able to give away control power to the experiment and still fly, and an aircraft with no thrust margin has nothing to give away.
 
-The exhaust was turned by cascade-type diverters at the centre of mass, which the pilot could set for vertical or horizontal thrust. Turning a jet through ninety degrees is not free. Writing the turning efficiency as $\eta$, the vertical thrust available is
+The exhaust was turned by cascade-type diverters at the centre of mass, which the pilot could set for vertical or horizontal thrust. The device had a research literature of its own, including [Erwin et al 1964][research_erwin_1964] on a tandem cascade thrust-vectoring programme and [Davis and Spicer 1965][research_davis_spicer_1965] on determining the thrust vector of a fixed-nozzle engine on a six-component stand, which is the measurement problem that turning the exhaust creates. The wider principle of an engine that supplies both lift and thrust is set out in [Denning 1962][research_denning_1962], and the control of engines used this way in [Sellers and Szuch 1973][research_sellers_szuch_1973]. The propulsion requirements of the configuration as a class are surveyed in [Kohn 1972][research_kohn_1972] and [Ciepluch et al 1979][research_ciepluch_1979].
+
+Turning a jet through ninety degrees is not free. Writing the turning efficiency as $\eta$, the vertical thrust available is
 
 $$T_{v} = \eta \, T$$
 
@@ -500,6 +518,8 @@ giving 60.0 pounds per tip at 0.8 radians per second squared, 105.0 pounds at 1.
 ### The Variable Stability System and Its Budget
 
 The system that made the aircraft an instrument was installed by Ames after the aircraft arrived, in analogue form on the X-14A and in digital form on the X-14B, the latter described by [Gallagher et al 1972][research_gallagher_1972] as a model-following system.
+
+**The analogue system has its own paper and it is easy to miss, because its title names the configuration rather than the aircraft.** [Hegarty et al 1965][research_hegarty_1965] describes a system for varying the stability and control of a deflected-jet fixed-wing vertical take-off aircraft, which is the X-14A and no other machine. It is the primary description of the apparatus that produced every number in this article.
 
 The principle is feedback to the same effectors the pilot commands. To synthesise a damping derivative that the airframe does not possess, the system measures the angular rate and commands a control moment opposing it. To synthesise a different control power, it scales the pilot's command before passing it on.
 
@@ -567,6 +587,8 @@ This is not a quibble about counting. The two cases differ in what the pilot mus
 
 The X-14A is the only aircraft in this series that could have demonstrated the distinction, because it is the only one whose damping was a dial.
 
+The loop closure was observed rather than merely postulated. [Lollar and Matous 1963][research_lollar_matous_1963] reports observed pilot-vehicle loop-closure characteristics for hovering aircraft control, which is the measurement that the analysis above predicts the shape of. The engineering response was to stop asking the pilot to close it unaided, and that response has a continuous literature: [Elliott and Schreiber 1964][research_elliott_schreiber_1964] on improving the stability of hovering aircraft, [Dukes 1970][research_dukes_1970] on feedback control of vertical take-off aircraft, [Kelly et al 1977][research_kelly_1977] on a vertical-velocity command system, and [Stapleford 1980][research_stapleford_1980] on velocity command with position hold, which by then had become the recommended concept for hovering. [Merrick 1982][research_merrick_1982] is the same idea reported from the X-14B itself. **The whole sequence is a retreat from the raw fourth-order plant toward something a person can fly**, and every step buys that with control authority.
+
 Two consequences follow, and both bear on how the criterion should be read.
 
 The first is that attitude errors do not merely make the aircraft look untidy. They integrate twice into position. Holding a mean tilt of one degree for ten seconds moves the aircraft
@@ -585,6 +607,10 @@ The pilot closing that loop needs to see the position error, and this turns out 
 
 It became a research subject with a literature of its own. [Lemons and Dukes 1975][research_lemons_dukes_1975] studied the information requirements for precision hovering directly, asking not how much control the pilot needs but how much information, and [Fry et al 1969][research_fry_1969] used a six-degrees-of-freedom motion simulator for hovering tasks to separate the motion cues from the visual ones. **The two questions are the same question approached from opposite ends of the loop**, and the X-14A's criterion answers only one of them.
 
+The engineering answer was to supply the information artificially. [Schwartz and Shearer 1964][research_schwartz_shearer_1964] sets out control and display subsystem requirements for high-performance vertical take-off aircraft, [Gold and Walchli 1974][research_gold_walchli_1974] reports a head-up display for all-weather approach and landing, and [Moen and Yenni 1975][research_moen_yenni_1975] an approach profile indicator. **A display is cheaper than control power and it addresses a different half of the same loop**, which is a trade the control-power criterion cannot express. The line runs on through [Merrick 1981][research_merrick_1981] and [Merrick 1984][research_merrick_1984] on control and display systems for instrument approach and shipboard landing, [Farris et al 1983][research_farris_1983] on shipboard operations, [Foster et al 1987][research_foster_1987] and [Foster et al 1988][research_foster_1988] on integrated control and display for transition and vertical flight, and [Dorr et al 1992][research_dorr_1992] and [Dorr et al 1994][research_dorr_1994] on head-up display guidance for Harrier approach transitions. Earlier display work that framed the problem includes [Behan and Siciliani 1965][research_behan_siciliani_1965], [Vallerie 1967][research_vallerie_1967], and [Roscoe et al 1975][research_roscoe_1975].
+
+**What happens when the cues are removed rather than supplied is the controlled experiment**, and it was run. [Howard 1976][research_howard_1976] measures the influence of losing visual cues on pilot performance in the final approach and landing, [Haines 1980][research_haines_1980] observes head-up transition behaviour in low visibility, and [Hoh 1985][research_hoh_1985] investigates which outside visual cues are actually required for low-speed flight and hover. How much of the cue can be supplied by a simulator at all is the question of [Sinacori 1986][research_sinacori_1986] and [Parrish and Bowles 1983][research_parrish_bowles_1983].
+
 The difficulty is structural rather than incidental. Position error is not directly sensed. It is inferred from the apparent motion of the ground, and the precision of that inference depends on texture, on lighting, on height, and on where the pilot is sitting. **A criterion measured with good visual cues is not a criterion for flying with poor ones**, and an aircraft that meets it on a marked ramp in daylight at Moffett Field may not meet it elsewhere. This limitation is inherited by every number the programme produced and is taken up again below.
 
 ### The Airframe, Which Was Deliberately Uninteresting
@@ -599,7 +625,9 @@ There is one respect in which the airframe was not neutral, and it belongs here 
 
 This article treats ground effects only where they bear on control, and one point belongs here because it constrained where the experiments could be run.
 
-A jet-lift aircraft hovering close to a surface directs its entire exhaust at that surface. The downwash impingement problem was studied contemporaneously and at length, in [White et al 1960][research_white_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], and [Morse and Newhouse 1961][research_morse_newhouse_1961], the last extending to duct adapter testing.
+A jet-lift aircraft hovering close to a surface directs its entire exhaust at that surface. The downwash impingement problem was studied contemporaneously and at length, in [White et al 1960][research_white_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], and [Morse and Newhouse 1961][research_morse_newhouse_1961], the last extending to duct adapter testing, and it had hardened into stated design criteria by [George et al 1964][research_george_1964]. The efflux itself is reviewed in [Garner 1967][research_garner_1967] and [Skifstad 1970][research_skifstad_1970], and the outflows of competing configurations are compared in [Michaelsen 1971][research_michaelsen_1971], which finds the jet-lift case the most severe of the three. The underlying fluid mechanics were pursued in parallel, in [Donaldson et al 1966][research_donaldson_1966] on the structure of an impinging free jet, [Strand 1967][research_strand_1967] on the inviscid theory of a round jet striking the ground, [Binion 1970][research_binion_w_1970] on the recirculation region a jet in ground effect creates with crossflow, and [Lissaman 1967][research_lissaman_1967] on the related jet-flap case. Ground-effect machines supplied a neighbouring body of measurements in [Foltz 1962][research_foltz_1962] and [Walker et al 1965][research_walker_1965], and the ingestion hazard was characterised as a dust problem as early as [Hafer and Skinner 1960][research_hafer_skinner_1960]. Estimating the loss from a single jet remained a live problem into [Christiansen et al 1985][research_christiansen_1985].
+
+The aircraft also loses lift to its own jet before it ever reaches the ground. [Mc Lemore 1966][research_mc_lemore_1966] measures jet-induced lift loss in the hovering condition and [Margason 1966][research_margason_1966] the induced effects in transition, with the theoretical treatment in [Levinsky et al 1968][research_levinsky_1968]. The operational consequences run from prepared surfaces in [Butler and Thomas 1964][research_butler_thomas_1964] through spray in [Kuhn 1979][research_kuhn_1979] and deck temperatures in [Fluk 1981][research_fluk_1981] to shipboard operation in [Kamman and Hall 1978][research_kamman_hall_1978], with the flow field itself modelled in [Kotansky 1982][research_kotansky_1982] and still being visualised in [Mourtos et al 1995][research_mourtos_1995]. Hot gas returning to the inlet is the related hazard, treated in [Johns et al 1989][research_johns_1989] and [Johns et al 1990][research_johns_1990].
 
 **The consequence for the X-14 programme is that out-of-ground-effect experiments and in-ground-effect experiments are different experiments**, and [Drinkwater et al 1965][research_drinkwater_1965] is explicit that its hovering evaluations were conducted out of ground effect. That is the correct choice for isolating the control variable, and it means the criterion was established in the condition least like a landing.
 
@@ -611,7 +639,9 @@ The measuring instrument in this aircraft was not a transducer. It was a numbere
 
 Two properties of this instrument shape everything the programme could conclude.
 
-**It is ordinal rather than interval.** The distance between ratings three and four is not known to equal the distance between four and five, so averaging ratings is not obviously meaningful, and fitting a curve through them to find where it crosses a boundary imports an assumption the scale does not support.
+**It is ordinal rather than interval.** The distance between ratings three and four is not known to equal the distance between four and five, so averaging ratings is not obviously meaningful, and fitting a curve through them to find where it crosses a boundary imports an assumption the scale does not support. The scale's own authors returned to this two decades later in [Harper and Cooper 1984][research_harper_cooper_1984], and the methodological difficulties of evaluation at hover specifically are the subject of [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969].
+
+**Its dependence on how the evaluation is run was known and measured.** [Kidd and Bull 1963][research_kidd_bull_1963] examines how handling-qualities requirements are influenced by pilot evaluation time and sample size, which is precisely the objection this article raises below about two pilots, published two years before the lateral control experiments. The ambition to predict the rating rather than collect it runs from [Adams and Hatch 1970][research_adams_hatch_1970] and [Adams 1972][research_adams_1972] through [Levison 1982][research_levison_1982] to [Hess 1981][research_hess_1981] and [Hess 1984][research_hess_1984], the last proposing a unifying theory. **None of them removed the pilot from the procedure.**
 
 **Its resolution is set by the sampling, not by the scale.** The X-14A tested three control powers, 0.8, 1.4, and 2.0 radians per second squared, spaced 0.6 apart. A threshold lying between two of them is located only to within that spacing. If the satisfactory boundary sits near 1.4, the experiment locates it to within 42.9 percent of its own value. If it sits near 2.0, to within 30.0 percent.
 
@@ -626,6 +656,8 @@ The rating scale treats the pilot as an oracle who returns a number. A parallel 
 [Elkind and Forgie 1959][research_elkind_forgie_1959] characterises the human operator in simple manual control systems, and the subject was developed continuously through a long conference series, of which [NACA 1966, Second Annual NASA-University Conf][research_naca_1966_2], [NACA 1967][research_naca_1967], [NACA 1969][research_naca_1969], [NACA 1970][research_naca_1970], and [NACA 1972][research_naca_1972] are successive proceedings. [Mitchell 1964][research_mitchell_1964] surveys the operator models available, [Young et al 1964][research_young_1964] treats the operator's adaptive response, and [Costello 1968][research_costello_1968] proposes a specific model form.
 
 **The most directly relevant of these is [Smith 1966][research_smith_1966], which measured human describing functions in flight and on simulators**, because that is the comparison the X-14A's whole justification rested on. [Mooij 1973][research_mooij_1973] measured the pitch-axis describing function and remnant in flight.
+
+**The hovering case was singled out for this treatment**, which matters because the loop structure derived above says hovering should be the hardest case for an adaptive operator. [Vinje 1968][research_vinje_1968] analyses pilot adaptation in a simulated multiloop vertical take-off hovering task, and [Andrisani 1982][research_andrisani_1982] determines pilot models experimentally from hovering flight data rather than from a simulator. The identification methods themselves developed through [Washizu et al 1978][research_washizu_1978] on the effect of forcing-function characteristics, [Tomizuka and Whitney 1976][research_tomizuka_whitney_1976] on preview tracking, [Dey 1972][research_dey_1972] on prediction displays, and [Biezad and Schmidt 1984][research_biezad_schmidt_1984] on time-series modelling, with the field's proceedings continuing through [NACA 1975][research_naca_1975], [NACA 1977][research_naca_1977], and [NACA 1981][research_naca_1981].
 
 The two literatures met in [Hess 1977][research_hess_1977], which predicts pilot opinion ratings using an optimal pilot model. **If that programme had fully succeeded, the variable-stability aircraft would have become unnecessary**, because a rating could be computed from the dynamics rather than obtained from a person. It did not fully succeed, and the reason it did not is the reason a Cooper-Harper rating is still collected by asking someone.
 
@@ -651,7 +683,7 @@ The two that matter most to this article are the ones already drawn on. [Drinkwa
 
 **Total control power dominated. Control sensitivity barely mattered.** Changing the control power per inch of stick travel had only a minor effect across the range investigated, while changing the maximum moment available had a predominant effect on the pilots' ratings during visual hovering out of ground effect. This matters because sensitivity is nearly free and control power is expensive. The experiment found that the expensive parameter was the one that counted.
 
-[Rolls 1965][research_rolls_1965] reports the operational experience of five and a half years of flight research with the aircraft, grouping the problems into effects of the jet engine and its operation, and restrictions imposed on the pilot by reduced visual reference. **Neither category is about control power**, which is a useful corrective. The thing the aircraft was measuring was not the thing that made it difficult to operate.
+[Rolls 1965][research_rolls_1965] reports the operational experience of five and a half years of flight research with the aircraft, grouping the problems into effects of the jet engine and its operation, and restrictions imposed on the pilot by reduced visual reference. **Those two categories are the ones the wider field also found**, and the operational literature that grew around them covers terminal-area operation in [Schade 1968][research_schade_1968], shipboard compatibility in [Daffer and Rogers 1973][research_daffer_rogers_1973] and guidance to a small ship in [Goka et al 1980][research_goka_1980], noise in [Cole and England 1967][research_cole_england_1967], the sensing problem a vehicle with no reliable airspeed has in [McElreath 1972][research_mcelreath_1972] and [Wachtell 1970][research_wachtell_1970], and the consequences of losing the pilot in [Harvey and Waugh 1976][research_harvey_waugh_1976]. Whether the configuration was worth its costs at all was assessed commercially in [Fry 1967][research_fry_1967], and against competing layouts in [Englar and Kirkpatrick 1969][research_englar_kirkpatrick_1969] and [Detore and Gaffey 1969][research_detore_gaffey_1969]. Low-speed control improvement generally is [Kesselyak 1974][research_kesselyak_1974], and visual acquisition under a hovering aircraft's own disturbance is [Hilgendorf et al 1975][research_hilgendorf_1975]. **Neither category is about control power**, which is a useful corrective. The thing the aircraft was measuring was not the thing that made it difficult to operate.
 
 [Gerdes and Rolls 1969][research_gerdes_rolls_1969] reports the tip-turbine fan experiment. The fans worked thermodynamically and failed dynamically, and the failure is instructive enough to be taken up separately below.
 
@@ -673,11 +705,13 @@ The X-14A's results can be set against three kinds of prediction, and the compar
 
 ### Against Ground Simulators
 
-Ames ran motion-base simulators on the same questions throughout the period. [Gerdes 1964][research_gerdes_1964] investigated height-control requirements on a piloted motion simulator, and [Garren et al 1965][research_garren_1965] conducted a visual flight investigation of hovering and low-speed control requirements. [Greif et al 1972][research_greif_1972] used a motion simulator to study the effect of stabilisation on control power requirements, comparing no stabilisation, rate stabilisation, and attitude stabilisation.
+Ames ran motion-base simulators on the same questions throughout the period. [Gerdes 1964][research_gerdes_1964] investigated height-control requirements on a piloted motion simulator, and [Garren et al 1965][research_garren_1965] conducted a visual flight investigation of hovering and low-speed control requirements. [Greif et al 1972][research_greif_1972] used a motion simulator to study the effect of stabilisation on control power requirements, comparing no stabilisation, rate stabilisation, and attitude stabilisation. The same approach was applied to other configurations in [Breul 1963][research_breul_1963] for tilt-wing handling qualities and in [McCormick 1969][research_mccormick_1969] through moving-base simulation, with the equations of motion that such simulations required set out in [McIntyre 1963][research_mcintyre_1963] and the attitude representation problem in [Greenwood 1960][research_greenwood_1960].
 
 **The most useful evidence of agreement is that the 1972 simulator study swept the same range the 1965 aircraft had.** It reports results across control powers from 0.8 to 2.0 radians per second squared and states its disturbance correlation as valid at least within that range. A decade after the flight experiment, the simulator work was still anchored to the interval the aircraft had established. That is either strong corroboration or strong path dependence, and the two are not easy to separate from outside.
 
 The 1972 study also reports a finding the aircraft could not have produced. **An attitude-stabilised system gives the best handling qualities for the least control power**, which is a statement about a trade between two things the X-14A could vary but could not vary cheaply enough to map densely. A simulator can run hundreds of configurations in a week. The aircraft ran twenty-seven at most, and could not reach all of those.
+
+Whether the two agree in general is a question the field kept returning to and never closed. [Innis and Anderson 1972][research_innis_anderson_1972] compares simulator and flight results directly for an augmentor-wing research aircraft, [Condit et al 1966][research_condit_1966] does the same for large transports in landing approach, [Mitchell and Hart 1993][research_mitchell_hart_1993] examines how simulator motion and visual characteristics change rotorcraft handling-qualities evaluations, and [Brandon et al 1995][research_brandon_1995] compares ground and flight assessments for a high-performance aeroplane. **That the comparison was still being made in 1995 is the answer to whether the X-14A's premise had been superseded.**
 
 ### Against the Scaling Argument
 
@@ -700,6 +734,8 @@ This section usually asks whether an aircraft's data mattered. In the X-14's cas
 ### It Became a Requirement Document
 
 Military Specification MIL-F-83300, Flying Qualities of Piloted V/STOL Aircraft, was adopted in December 1970. It is the document that turned handling-qualities research on vertical take-off aircraft into a contractual obligation on manufacturers, and its hovering requirements descend from the flight and simulator work of the preceding decade, of which the X-14A's is the principal flight component.
+
+**The generation of the specification has its own account.** [Key 1971][research_key_1971] describes how MIL-F-83300 was produced, published the year after adoption, and it is the primary source for the lineage this section claims. The conventional-aircraft counterpart is documented the same way in [Chalk et al 1969][research_chalk_1969], the background and user guide for MIL-F-8785B. The specification then attracted the work any specification attracts: [Vinje and Miller 1973][research_vinje_miller_1973] reports flight simulator experiments in support of its further development, [Hutchings 1977][research_hutchings_1977] reviews the Navy requirements against it, [Anderson 1979][research_anderson_1979] compares an actual aircraft's handling qualities against both it and the corresponding AGARD report, and [Goldstein 1982][research_goldstein_1982] gives an overview of where the specifications stood a decade on. The short take-off case followed in [Hoh and Mitchell 1983][research_hoh_mitchell_1983]. **A research aircraft whose output can be traced into a numbered document that contractors must satisfy has had an unusual kind of effect**, and among the fifteen aircraft this series has covered only this one has it.
 
 **This is rare among X-planes.** The [X-1][related_post_a298_bell_x1] changed what engineers believed about transonic drag. The [X-5][related_post_a302_bell_x5] changed what they believed about variable sweep. Belief is the usual output. A number in a military specification that a contractor must demonstrate compliance with is a different kind of output, and among the fifteen aircraft this series has covered, only the X-14 produced one directly.
 
@@ -797,7 +833,7 @@ The tip-turbine fans of [Gerdes and Rolls 1969][research_gerdes_rolls_1969] prod
 
 So a control system meeting the control-power criterion exactly was unflyable. **The criterion was incomplete, and the experiment that revealed the incompleteness was run on the same aircraft that had produced the criterion.** What was missing was any statement about how quickly the moment must appear, which is a bandwidth requirement rather than an authority requirement.
 
-The field's eventual answer was to change the variable. Modern handling-qualities criteria are stated in terms of attitude-response bandwidth and phase delay rather than in terms of maximum angular acceleration alone. **The X-14's number survived as a floor and stopped being the criterion.**
+The field's eventual answer was to change the variable. Modern handling-qualities criteria are stated in terms of attitude-response bandwidth and phase delay rather than in terms of maximum angular acceleration alone, and the experiments that established those criteria are a direct methodological descendant of the X-14A's. [Pausder and Blanken 1992][research_pausder_blanken_1992], [Pausder and Blanken 1993][research_pausder_blanken_1993], and [Blanken and Pausder 1994][research_blanken_pausder_1994] investigate the effects of bandwidth and time delay on roll-axis handling qualities, sweeping two parameters across a boundary and collecting pilot ratings, which is the X-14A's procedure with the independent variables replaced. The state of the subject at that point is collected in [Blanken and Whalley 1993][research_blanken_whalley_1993]. **The X-14's number survived as a floor and stopped being the criterion.**
 
 The two framings can be connected, and connecting them shows why the older one was not simply wrong. Tracking an attitude oscillation of amplitude $A$ at frequency $\omega$ on a double integrator requires an angular acceleration of
 
@@ -875,7 +911,7 @@ This is not a small mismatch and it is not correctable by any adjustment of the 
 
 The lineage is documented and it reads as a sequence of admissions that the previous simulator was insufficient. [Henderson 1963][research_henderson_1963] compares control systems for the final descent and landing manoeuvre, and [Markson et al 1963][research_markson_1963] reports simulation of the manned lunar landing. [Obryan 1966][research_obryan_1966] reports flight tests of a manned rocket-powered vehicle using the Langley lunar landing facility, which suspended the vehicle to cancel most of its weight. [Greene and Russo 1967][research_greene_russo_1967] and [Mccabe et al 1967][research_mccabe_1967] report piloted lunar module landing simulation studies, and [Hewes 1967][research_hewes_1967] reports flight evaluations of lunar landing vehicle attitude control systems.
 
-**The document that states the problem most directly is [Kluever 1967][research_kluever_1967]**, which assesses ground and flight simulators for examining the manned lunar landing, because that is precisely the question of what each kind of simulator can and cannot represent. The training programme that resulted is described in [Armstrong and Nassiff 1968][research_armstrong_nassiff_1968] and the vehicle itself in [Bigham 1970][research_bigham_1970]. That vehicle cancelled most of its weight with a gimballed vertical jet so that the residual translational dynamics were lunar. The fraction it had to support is
+**The document that states the problem most directly is [Kluever 1967][research_kluever_1967]**, which assesses ground and flight simulators for examining the manned lunar landing, because that is precisely the question of what each kind of simulator can and cannot represent. The training programme that resulted is described in [Armstrong and Nassiff 1968][research_armstrong_nassiff_1968] and the vehicle itself in [Bigham 1970][research_bigham_1970]. **[Jarvis 1967][research_jarvis_1967] is the most directly comparable document**, reporting fly-by-wire flight control experience with a free-flight lunar-landing research vehicle, which is the same class of report as the X-14B papers for a machine built because the X-14 could not do the job. The landing simulations themselves are [Pollack et al 1967][research_pollack_1967] and [Mccabe et al 1967, Results and analysis of piloted lu][research_mccabe_1967_2], the automatic alternative to a piloted landing is [Rimer and Sperling 1965][research_rimer_sperling_1965], and the surface interaction that made the final phase hazardous is [Roberts 1964][research_roberts_1964]. That vehicle cancelled most of its weight with a gimballed vertical jet so that the residual translational dynamics were lunar. The fraction it had to support is
 
 $$1 - \frac{g_{m}}{g_{e}} = 1 - 0.165 = 0.835$$
 
@@ -927,7 +963,11 @@ The second part of the case is the twenty-four years. An aircraft built for a 19
 
 There is nothing anomalous about the X-14 designation. It was assigned in sequence, to one aircraft, which was built and flown and kept the designation with suffix changes through two major reconfigurations.
 
-The one point worth noting is the pairing. The X-13 and the X-14 are consecutive designations covering two solutions to the same problem, a jet aircraft that takes off vertically. The [X-13][related_post_a310_ryan_x13] solved it by standing the whole aircraft on its tail and the X-14 by turning the exhaust while the aircraft stayed level. **The second approach is the one that survived**, in the Harrier and everything descended from it, and the designation sequence records the comparison without comment.
+One asymmetry in the record is worth setting down, because the contrast says something about how each programme was run. The tail-sitting alternative is far better documented in the scale-model literature. The [X-13][related_post_a310_ryan_x13] was preceded by free-flight model work in [Smith 1958][research_smith_1958] and derivative measurements in [Shanks and Smith 1959][research_shanks_smith_1959] and [Shanks and Smith 1960][research_shanks_smith_1960], and the earlier Convair tail-sitter by [Lovell et al 1953][research_lovell_1953] and the four-part derivative series beginning at [Queijo et al 1953][research_queijo_1953]. **The X-14's control-power question could not be attacked that way at all**, because the quantity being sought is a property of a pilot and a model has no pilot in it.
+
+The point that does deserve comment is the pairing. The X-13 and the X-14 are consecutive designations covering two solutions to the same problem, a jet aircraft that takes off vertically. The [X-13][related_post_a310_ryan_x13] solved it by standing the whole aircraft on its tail and the X-14 by turning the exhaust while the aircraft stayed level. **The second approach is the one that survived**, in the Harrier and everything descended from it, and the designation sequence records the comparison without comment. The subsequent literature is about how to fly the surviving configuration rather than whether to build it, running through [Huntley 1972][research_huntley_1972] on minimising landing transition distance, [Karemaa 1971][research_karemaa_1971] on hybrid jet-lift take-off and landing, [Nishimura 1980][research_nishimura_1980] on the fuel-minimal take-off path, and [Morello et al 1972][research_morello_1972] on a flight evaluation of a vectored-thrust aeroplane during simulated instrument approaches. The inlet problem the configuration creates for itself is [Grahame 1968][research_grahame_1968] and [Grahame 1969][research_grahame_1969], the configuration management the transition demands is [Johnson and Craig 1974][research_johnson_craig_1974], and the whole development is reviewed from a distance in [Anderson 1983][research_anderson_1983].
+
+The criteria the X-14A produced were applied well beyond the aircraft that produced them. The lift-fan branch runs through [Przedpelski 1965][research_przedpelski_1965], [Hill and Waters 1974][research_hill_waters_1974], [Bland et al 1976][research_bland_1976], and [Sellers et al 1977][research_sellers_1977], and reaches an integrated flight and propulsion treatment in [Chung et al 1995, Simulation model of the integrated][research_chung_1995_2]. The tail-sitting configuration returned to simulation in [Hill 1981][research_hill_1981] and [Hill 1983][research_hill_1983], which is the [X-13][related_post_a310_ryan_x13]'s layout being re-examined a quarter of a century later with the criteria this aircraft supplied. Rotorcraft response requirements were settled the same way in [Mitchell et al 1987, A flight investigation of helicopt][research_mitchell_1987_2] and [Mitchell et al 1989][research_mitchell_1989], with hovering dynamics and pilot performance in [Aponso et al 1987][research_aponso_1987] and control and display dynamics for hover in [Eshow 1990][research_eshow_1990]. Even vehicles with no wing at all inherited the framework, in [Putman et al 1977][research_putman_1977] and [Curtiss and Sumantran 1985][research_curtiss_sumantran_1985] on hovering airships, and the rotor case in [Curtiss 1973][research_curtiss_1973].
 
 ## The Source Base
 
@@ -996,76 +1036,248 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 
 ### Research
 
+[research_adams_1972]: https://doi.org/10.2514/6.1972-962
+[research_adams_hatch_1970]: https://doi.org/10.2514/6.1970-568
 [research_aiken_1977]: https://ntrs.nasa.gov/citations/19780011162
+[research_albachten_1956]: https://doi.org/10.21236/ad0116273
 [research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
+[research_anderson_1979]: https://ntrs.nasa.gov/citations/19790019011
+[research_anderson_1983]: https://ntrs.nasa.gov/citations/19830068366
+[research_andrisani_1982]: https://doi.org/10.2514/6.1982-1294
 [research_antonakis_2025]: https://doi.org/10.1016/j.ast.2025.110020
+[research_aponso_1987]: https://ntrs.nasa.gov/citations/19870063261
 [research_armstrong_nassiff_1968]: https://doi.org/10.2514/6.1968-254
 [research_bahr_2022]: https://doi.org/10.1017/aer.2021.114
+[research_barzda_1966]: https://doi.org/10.2514/6.1966-733
+[research_baska_robbins_1966]: https://ntrs.nasa.gov/citations/19660023333
 [research_baxter_finvold_1958]: https://doi.org/10.4271/580070
+[research_behan_siciliani_1965]: https://doi.org/10.2514/6.1965-722
+[research_besco_1964]: https://doi.org/10.2514/6.1964-1227
+[research_biezad_schmidt_1984]: https://doi.org/10.2514/6.1984-1899
 [research_bigham_1970]: https://doi.org/10.1177/003754977001500107
+[research_binion_w_1970]: https://doi.org/10.21236/ad0711665
+[research_bland_1976]: https://ntrs.nasa.gov/citations/19770007094
+[research_blanken_pausder_1994]: https://ntrs.nasa.gov/citations/19950043496
+[research_blanken_whalley_1993]: https://ntrs.nasa.gov/citations/19940008821
+[research_bramwell_1956]: https://doi.org/10.1017/s0001924000126089
+[research_brandon_1995]: https://ntrs.nasa.gov/citations/19970005147
+[research_breul_1963]: https://doi.org/10.21236/ad0402774
+[research_brown_1965]: https://doi.org/10.2514/6.1965-756
+[research_butler_thomas_1964]: https://doi.org/10.21236/ad0613342
+[research_campbell_1962]: https://ntrs.nasa.gov/citations/19630017020
+[research_carpenter_jenny_1964]: https://doi.org/10.2514/6.1964-286
+[research_chalk_1969]: https://doi.org/10.21236/ad0860856
+[research_christiansen_1985]: https://ntrs.nasa.gov/citations/19860053601
+[research_chung_1995_2]: https://ntrs.nasa.gov/citations/19950019992
+[research_ciepluch_1979]: https://ntrs.nasa.gov/citations/19800001979
+[research_clark_1964]: https://doi.org/10.2514/6.1964-618
+[research_cole_england_1967]: https://doi.org/10.21236/ad0658448
+[research_condit_1966]: https://ntrs.nasa.gov/citations/19660029515
 [research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
 [research_costello_1968]: https://doi.org/10.1109/tmms.1968.300028
 [research_creer_1959]: https://ntrs.nasa.gov/citations/19980228135
+[research_curry_1965]: https://doi.org/10.21236/ad0617748
+[research_curtiss_1973]: https://doi.org/10.2514/3.60228
+[research_curtiss_sumantran_1985]: https://doi.org/10.2514/3.20051
+[research_daffer_rogers_1973]: https://doi.org/10.21236/ad0764865
+[research_dahl_1962]: https://doi.org/10.1016/b978-0-12-395586-9.50032-5
+[research_davis_spicer_1965]: https://doi.org/10.2514/6.1965-1425
+[research_deets_1978]: https://ntrs.nasa.gov/citations/19780015077
+[research_denning_1962]: https://doi.org/10.4271/620308
 [research_dent_1966]: https://doi.org/10.1016/0022-460x(66)90128-3
+[research_detore_gaffey_1969]: https://doi.org/10.2514/6.1969-220
+[research_dey_1972]: https://ntrs.nasa.gov/citations/19730001393
 [research_div_1956]: https://doi.org/10.21236/ad0141370
+[research_donaldson_1966]: https://doi.org/10.21236/ad0656592
+[research_dorr_1992]: https://ntrs.nasa.gov/citations/19930029334
+[research_dorr_1994]: https://ntrs.nasa.gov/citations/19950037642
 [research_drinkwater_1965]: https://ntrs.nasa.gov/citations/19650009016
 [research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
+[research_dukes_1970]: https://doi.org/10.21236/ad0871424
 [research_elkind_forgie_1959]: https://doi.org/10.1109/tac.1959.6429402
+[research_elliott_schreiber_1964]: https://doi.org/10.2514/6.1964-805
 [research_eney_1967]: https://doi.org/10.2514/6.1967-576
+[research_englar_kirkpatrick_1969]: https://doi.org/10.21236/ad0703669
+[research_erwin_1964]: https://doi.org/10.21236/ad0609059
+[research_eshow_1990]: https://ntrs.nasa.gov/citations/19900060676
+[research_farris_1983]: https://ntrs.nasa.gov/citations/19830060450
 [research_favaro_2025]: https://doi.org/10.3390/aerospace12060559
+[research_fluk_1981]: https://doi.org/10.2514/6.1981-1623
+[research_foltz_1962]: https://doi.org/10.21236/ad0414393
+[research_foster_1987]: https://ntrs.nasa.gov/citations/19880003977
+[research_foster_1988]: https://ntrs.nasa.gov/citations/19880049971
 [research_friend_1964]: https://doi.org/10.2514/6.1964-787
+[research_fry_1967]: https://doi.org/10.2514/6.1967-411
 [research_fry_1969]: https://ntrs.nasa.gov/citations/19690025981
 [research_gallagher_1972]: https://ntrs.nasa.gov/citations/19720033312
+[research_garner_1967]: https://doi.org/10.21236/ad0658432
 [research_garren_1965]: https://ntrs.nasa.gov/citations/19650012141
+[research_garren_kelly_1965]: https://ntrs.nasa.gov/citations/19650025398
 [research_gentry_margason_1966]: https://ntrs.nasa.gov/citations/19660006875
+[research_george_1964]: https://doi.org/10.21236/ad0608185
 [research_gerdes_1964]: https://ntrs.nasa.gov/citations/19640018145
 [research_gerdes_rolls_1969]: https://ntrs.nasa.gov/citations/19690029422
+[research_goka_1980]: https://ntrs.nasa.gov/citations/19800061737
+[research_gold_walchli_1974]: https://doi.org/10.2514/6.1974-952
+[research_goldberger_1966]: https://doi.org/10.21236/ad0644191
+[research_goldstein_1982]: https://ntrs.nasa.gov/citations/19820015335
+[research_grahame_1968]: https://doi.org/10.2514/6.1968-637
+[research_grahame_1969]: https://doi.org/10.2514/3.44022
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
 [research_greene_russo_1967]: https://doi.org/10.2514/6.1967-249
+[research_greenwood_1960]: https://doi.org/10.1037/e417302004-001
 [research_greif_1972]: https://ntrs.nasa.gov/citations/19720020365
+[research_hafer_skinner_1960]: https://doi.org/10.21236/ad0472676
+[research_haines_1980]: https://ntrs.nasa.gov/citations/19800017541
+[research_harper_cooper_1984]: https://doi.org/10.2514/6.1984-2442
+[research_harper_p_1955]: https://doi.org/10.21236/ad0092496
+[research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
+[research_harvey_waugh_1976]: https://doi.org/10.21236/ada023728
+[research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
 [research_henderson_1963]: https://doi.org/10.2514/6.1963-1010
 [research_hess_1977]: https://ntrs.nasa.gov/citations/19780028540
+[research_hess_1981]: https://doi.org/10.2514/6.1981-1771
+[research_hess_1984]: https://doi.org/10.2514/6.1984-236
 [research_hewes_1967]: https://doi.org/10.2514/6.1967-239
+[research_hilgendorf_1975]: https://doi.org/10.21236/adb002554
+[research_hill_1981]: https://ntrs.nasa.gov/citations/19820033375
+[research_hill_1983]: https://ntrs.nasa.gov/citations/19830055846
+[research_hill_waters_1974]: https://doi.org/10.2514/6.1974-969
 [research_hindson_1982]: https://ntrs.nasa.gov/citations/19820015354
 [research_hoffman_1971]: https://doi.org/10.2514/6.1971-768
+[research_hoh_1985]: https://ntrs.nasa.gov/citations/19850061706
+[research_hoh_mitchell_1983]: https://doi.org/10.21236/ada132857
+[research_howard_1976]: https://ntrs.nasa.gov/citations/19990117220
+[research_huntley_1972]: https://doi.org/10.1017/s0001924000043104
+[research_hutchings_1977]: https://ntrs.nasa.gov/citations/19780011161
+[research_innis_anderson_1972]: https://ntrs.nasa.gov/citations/19730024222
 [research_irvin_swan_1956]: https://doi.org/10.21236/ad0147927
+[research_jarvis_1967]: https://doi.org/10.2514/6.1967-273
+[research_johns_1989]: https://ntrs.nasa.gov/citations/19900037988
+[research_johns_1990]: https://ntrs.nasa.gov/citations/19900016693
+[research_johnson_craig_1974]: https://doi.org/10.2514/6.1974-836
+[research_johnston_1965]: https://doi.org/10.21236/ad0622578
 [research_johnston_friend_1965]: https://doi.org/10.4050/sm_vstol_1965-2533
 [research_juhasz_2025]: https://doi.org/10.1017/aer.2025.35
+[research_kamman_hall_1978]: https://doi.org/10.21236/ada062097
+[research_karemaa_1971]: https://doi.org/10.2514/6.1971-767
 [research_keller_1969]: https://doi.org/10.2514/6.1969-545
+[research_kelly_1977]: https://ntrs.nasa.gov/citations/19770021193
+[research_kesselyak_1974]: https://doi.org/10.2514/6.1974-1039
 [research_key_1965]: https://doi.org/10.2514/6.1965-706
+[research_key_1971]: https://doi.org/10.21236/ad0725746
+[research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
+[research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
 [research_kluever_1967]: https://doi.org/10.2514/6.1967-238
+[research_kohn_1972]: https://doi.org/10.1115/72-gt-73
+[research_kotansky_1982]: https://ntrs.nasa.gov/citations/19820015292
+[research_kuhn_1979]: https://doi.org/10.21236/ada073099
 [research_lemons_dukes_1975]: https://ntrs.nasa.gov/citations/19750025623
+[research_levinsky_1968]: https://doi.org/10.21236/ad0680969
+[research_levison_1982]: https://ntrs.nasa.gov/citations/19820026174
+[research_lissaman_1967]: https://doi.org/10.2514/6.1967-2
+[research_lollar_matous_1963]: https://doi.org/10.1109/thfe.1963.231288
+[research_longhurst_1966]: https://doi.org/10.4271/660315
+[research_lovell_1953]: https://ntrs.nasa.gov/citations/20050029472
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
+[research_margason_1966]: https://ntrs.nasa.gov/citations/19660015330
 [research_markson_1963]: https://doi.org/10.1016/b978-0-12-395707-8.50027-9
+[research_martin_1963]: https://doi.org/10.2514/6.1963-484
+[research_mc_lemore_1966]: https://ntrs.nasa.gov/citations/19660018439
 [research_mccabe_1967]: https://ntrs.nasa.gov/citations/19670061371
+[research_mccabe_1967_2]: https://ntrs.nasa.gov/citations/19670041333
+[research_mccormick_1969]: https://doi.org/10.21236/ad0863818
 [research_mccormick_mallen_1956]: https://doi.org/10.4050/sm_wf_1956-2299
+[research_mcelreath_1972]: https://doi.org/10.21236/ad0755374
+[research_mcgregor_smith_1965]: https://doi.org/10.2514/6.1965-705
+[research_mcintyre_1963]: https://doi.org/10.21236/ad0602427
+[research_merrick_1977]: https://ntrs.nasa.gov/citations/19780008120
+[research_merrick_1981]: https://ntrs.nasa.gov/citations/19810021598
 [research_merrick_1982]: https://ntrs.nasa.gov/citations/19820012312
+[research_merrick_1984]: https://ntrs.nasa.gov/citations/19850006532
+[research_michaelsen_1971]: https://doi.org/10.2514/6.1971-992
+[research_miller_1948]: https://doi.org/10.2514/8.11623
 [research_mitchell_1964]: https://doi.org/10.21236/ad0449587
+[research_mitchell_1987_2]: https://ntrs.nasa.gov/citations/19870062304
+[research_mitchell_1989]: https://ntrs.nasa.gov/citations/19890064331
+[research_mitchell_hart_1993]: https://ntrs.nasa.gov/citations/19940008844
+[research_moen_yenni_1975]: https://ntrs.nasa.gov/citations/19760004969
 [research_mooij_1973]: https://ntrs.nasa.gov/citations/19750011079
+[research_morello_1972]: https://ntrs.nasa.gov/citations/19720016362
 [research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
 [research_morse_newhouse_1961]: https://doi.org/10.21236/ad0264226
+[research_motyka_1975]: https://doi.org/10.21236/ada025359
+[research_mourtos_1995]: https://ntrs.nasa.gov/citations/19950016249
+[research_naca_1960]: https://ntrs.nasa.gov/citations/19630004807
 [research_naca_1966_2]: https://ntrs.nasa.gov/citations/19670006521
 [research_naca_1967]: https://ntrs.nasa.gov/citations/19680006432
 [research_naca_1969]: https://ntrs.nasa.gov/citations/19700005572
 [research_naca_1970]: https://ntrs.nasa.gov/citations/19700021566
 [research_naca_1972]: https://ntrs.nasa.gov/citations/19730001377
+[research_naca_1975]: https://ntrs.nasa.gov/citations/19750025602
+[research_naca_1977]: https://ntrs.nasa.gov/citations/19790009304
+[research_naca_1981]: https://ntrs.nasa.gov/citations/19820005792
 [research_newell_1963]: https://doi.org/10.21236/ad0425705
+[research_nichols_1963]: https://doi.org/10.1017/s0001924000062783
+[research_nishimura_1980]: https://doi.org/10.2514/3.57903
 [research_obryan_1966]: https://ntrs.nasa.gov/citations/19660059610
+[research_owen_cox_1966]: https://doi.org/10.1016/0022-460x(66)90141-6
+[research_parrish_bowles_1983]: https://ntrs.nasa.gov/citations/19830013921
+[research_patierno_asdurian_1965]: https://doi.org/10.4050/sm_vstol_1965-3112
+[research_pausder_blanken_1992]: https://ntrs.nasa.gov/citations/19940035438
+[research_pausder_blanken_1993]: https://ntrs.nasa.gov/citations/19940008827
+[research_payne_1955]: https://doi.org/10.1017/s0368393100116955
 [research_perry_2023]: https://doi.org/10.2514/1.c036616
+[research_person_robbins_1965]: https://ntrs.nasa.gov/citations/19660022563
+[research_pollack_1967]: https://doi.org/10.2514/6.1967-241
+[research_przedpelski_1965]: https://doi.org/10.2514/6.1965-708
+[research_putman_1977]: https://doi.org/10.21236/ada045315
+[research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
+[research_rampy_1966]: https://doi.org/10.21236/ad0641371
 [research_rhoads_1967]: https://doi.org/10.21236/ad0820790
 [research_rhoads_1970]: https://doi.org/10.21236/ad0876589
+[research_riley_1989]: https://ntrs.nasa.gov/citations/19900002435
+[research_rimer_sperling_1965]: https://doi.org/10.2514/6.1965-1437
+[research_roberts_1964]: https://doi.org/10.1007/978-3-7091-4688-0_3
 [research_rolls_1965]: https://ntrs.nasa.gov/citations/19650021531
 [research_rolls_1965_4]: https://ntrs.nasa.gov/citations/19660013004
+[research_roscoe_1975]: https://doi.org/10.21236/ada022459
+[research_schade_1968]: https://ntrs.nasa.gov/citations/19680064091
+[research_schwartz_shearer_1964]: https://doi.org/10.2514/6.1964-773
+[research_sellers_1977]: https://ntrs.nasa.gov/citations/19770052110
+[research_sellers_szuch_1973]: https://ntrs.nasa.gov/citations/19730007088
+[research_shanks_smith_1959]: https://ntrs.nasa.gov/citations/19980235622
+[research_shanks_smith_1960]: https://ntrs.nasa.gov/citations/19980230619
 [research_simmons_2023_2]: https://doi.org/10.2514/1.c037260
+[research_sinacori_1986]: https://doi.org/10.21236/ada359459
+[research_sissingh_1956]: https://doi.org/10.21236/ad0116272
+[research_skifstad_1970]: https://doi.org/10.2514/3.44146
+[research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
 [research_smith_1958_2]: https://ntrs.nasa.gov/citations/19710082837
 [research_smith_1966]: https://ntrs.nasa.gov/citations/19670006542
 [research_smith_1966_2]: https://doi.org/10.2514/3.43700
+[research_smith_1973]: https://doi.org/10.21236/ad0754840
+[research_smith_1974]: https://ntrs.nasa.gov/citations/19740048075
+[research_stapleford_1980]: https://doi.org/10.4271/801206
+[research_stevens_roskam_1985]: https://ntrs.nasa.gov/citations/19860003826
+[research_strand_1967]: https://doi.org/10.2514/3.43869
+[research_takahashi_1994]: https://ntrs.nasa.gov/citations/20020014293
 [research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
 [research_tapscott_1960_2]: https://ntrs.nasa.gov/citations/19740076595
+[research_tomizuka_whitney_1976]: https://doi.org/10.1115/1.3427058
+[research_tosti_1961]: https://ntrs.nasa.gov/citations/19980227992
+[research_vallerie_1967]: https://ntrs.nasa.gov/citations/19670020039
+[research_vinje_1968]: https://doi.org/10.1109/tmms.1968.300015
+[research_vinje_miller_1973]: https://doi.org/10.21236/ad0769868
+[research_wachtell_1970]: https://doi.org/10.21236/ad0874029
+[research_walker_1965]: https://doi.org/10.21236/ad0617129
 [research_wang_2026_4]: https://doi.org/10.1016/j.cnsns.2026.110180
 [research_wang_chen_2024]: https://doi.org/10.3390/aerospace11090711
+[research_washizu_1978]: https://ntrs.nasa.gov/citations/19790007419
 [research_watson_hindson_1988]: https://ntrs.nasa.gov/citations/19890005747
+[research_westbrook_1964]: https://doi.org/10.2514/6.1964-777
 [research_white_1960]: https://doi.org/10.21236/ad0251154
+[research_williams_butler_1964]: https://doi.org/10.2514/6.1964-1103
 [research_xu_2025_3]: https://doi.org/10.1109/thms.2024.3502178
 [research_young_1964]: https://doi.org/10.1109/thfe.1964.231648
 
