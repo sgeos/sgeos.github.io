@@ -9,105 +9,92 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A315 equation-density review, the second of four passes. Committed, **not pushed**, not
-published. Display equations rose from **21 to 29**.
+**Task**: A315 primary-reference review, the third of four passes. Committed, **not pushed**, not
+published. References rose from **66 to 248**.
 
 ---
 
-## The Draft Asserted the Mechanism and Never Wrote It Down
+## The Audit Found a Selection Problem, Not a Supply Problem
 
-The draft claimed the slipstream keeps the immersed panel flying and never gave the relation that makes
-it true. Because the propeller axis lies along the wing chord, the slipstream adds velocity **along the
-chord** while the freestream arrives at the tilt angle, so
+This is the opposite of A314's finding and worth distinguishing.
 
-**α_local = arctan[ V sin(i_w) / (V cos(i_w) + v_s) ]**
+The harvest had already returned 138 pre-1960 records, 276 from the 1960s and 1970s, 186 from the 1980s
+and 1990s, 171 from 2000 to 2018, and 211 from 2019 onward. **The draft cited 26, 7, 0, 0 and 3 of
+them.** The harvest did its job and the draft used only the earliest material, so the fix was to spread
+the selection rather than to search again.
 
-**At zero forward speed that is exactly zero, at any tilt whatever.** The immersed wing is not merely
-unstalled in hover — it sits at precisely zero incidence, seeing only flow down its own chord. For the
-un-immersed panel v_s is zero and the expression collapses to α = i_w, which turns the draft's separate
-assertion into a limiting case of one relation.
-
----
-
-## The Largest Correction Is That a Corridor Exists
-
-The draft never established that a conversion corridor exists. Solving the level-flight balance
-T sin(i_w) + L = W for the required tilt, and setting it beside the tilt the immersed panel tolerates:
-
-| Speed | Required | Allowed | Margin |
-|---|---|---|---|
-| 10 m/s | 51.9° | 90.0° | 38.1° |
-| 30 m/s | 26.6° | 46.2° | 19.6° |
-| 50 m/s | 20.5° | 33.1° | **12.6°** |
-| 60 m/s | 17.0° | 30.0° | 13.1° |
-
-**A margin exists at every speed.** The draft's emphasis on what is stalled left the impression that the
-configuration was marginal. It is not. **Its closing claim — that the configuration was sound and this
-aeroplane was under-equipped for it — is now established rather than asserted.**
+Final era coverage is 54, 53, 39, 38 and 34. **Of 218 research references, 184 or 84.4 percent are
+primary and period material.**
 
 ---
 
-## Descent Is What Closes It
+## One Topic Needed a Second Harvest, and It Exposes a Dependency Between Passes
 
-Promoted out of Out of Scope, where the draft had abandoned it, because it turns out to be the thing
-that matters. Descending adds arctan(w/V) to the angle of attack, and the descent rate that consumes the
-whole margin is
+Descent and the vortex ring state stood at **three records**, because the draft treated descent as a
+passing mention in Out of Scope. **The equation pass then made descent the quantity that closes the
+conversion corridor**, at 284 feet per minute at the slow end.
 
-**284 feet per minute at ten metres per second**, rising to 1,351 at sixty.
+**An equation pass can promote a subject from an aside to a load-bearing claim, and the reference base
+has to follow it.** That is a dependency between passes this series has not previously had to state, and
+it is worth carrying forward: after an equation pass, re-audit the topics the new relations rest on.
 
-A gentle descent by any normal standard exhausts the margin. That is why tilt-wings carried restricted
-descent envelopes, and **why the approach rather than the take-off was the hard half of the flight.**
-
----
-
-## One Finding Runs the Other Way
-
-Momentum theory with forward speed shows the induced velocity **falls** from 40.05 to 24.71 metres per
-second across the conversion, while the freestream rises faster, so slipstream dynamic pressure over the
-immersed panel **climbs from 2,210 to 5,772 pascals**.
-
-**The handover is helped by the physics rather than fought by it**, which is a large part of why the
-configuration is viable at all and which the draft did not say.
+The targeted search then found **the single most apposite document in the article** — a measurement of
+the descent capability of *two-propeller tilt-wing configurations*, which is the X-18's exact
+arrangement addressing the X-18's exact difficulty.
 
 ---
 
-## Also Added
+## Four Rejected by Reading, and Two False Positives in My Own Scan
 
-**Advance ratio**, running from zero to 1.12 across the conversion. That ties the article to the
-critical-advance-ratio source it cited and never used, and it matters because **the pitch control system
-that failed exists to manage exactly that range**. A helical tip Mach number of 0.844, so the blade tips
-are transonic while the aircraft is not. The figure of merit as a definition rather than a bare number.
-And the blowing momentum coefficient the X-18 did not have, at 0.125 for fifteen hundred newtons at
-twenty metres per second.
+**Rejected after reading:**
 
-Out of Scope was corrected, since it still said the descent problem was left for a fuller treatment
-after the pass had treated it.
+| Search term | What it returned |
+|---|---|
+| high angle of attack | induced side forces on **bodies of revolution**; CFD for **missile** flow fields |
+| vortex ring | a **methane diffusion flame** in a reacting vortex ring; **elliptical vortex filaments** in a viscous fluid |
+
+Both terms are diagnostic inside this field and mean something else one discipline away.
+
+**And a counter-case in my own tooling.** The ad-hoc red-flag scan I ran after insertion produced two
+substring false positives, matching `ising` inside **AR-ISING** and `bearing` inside a legitimate paper
+on propeller-produced unsteady **bearing forces**. The selection exclusion list uses word boundaries and
+the ad-hoc scan did not. **That is the A313 `fRAMework` lesson reappearing in the checking tool rather
+than in the selector**, which is a reminder that the checks need the same discipline as the thing they
+check.
+
+---
+
+## A Gap the Article Had Not Noticed
+
+A new subsection was added on **the downwash and ground effect**, which the article had not mentioned at
+all despite computing a disc loading seven times a helicopter's. Air leaving the propellers at eighty
+metres per second has to go somewhere, and near the ground it recirculates, erodes and ingests. **A
+tilt-wing at this disc loading needs a prepared surface for the same reason a tail-sitting jet does**,
+which is a constraint the transport mission the X-18 existed to prove would have inherited.
 
 ---
 
 ## Verification
 
-**62 draft-pass re-derivations still reproducing plus 77 new ones, zero disagreements.** All independent
-of the calculation modules, with the corridor located by a linear scan against calc2's bisection so
-neither validates the other.
+**62 draft-pass and 77 equation-pass re-derivations, zero disagreements**, still reproducing. 248
+reference definitions, 230 external URLs, zero duplicates or orphans. 127 plain 200s, 71 publisher 403s,
+1 202, and **31 DTIC DOIs verified through the Crossref registry** with matching titles.
 
 `_verify.py` at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing
-with 29 of 29 display blocks rendered, 8 of 8 tables, and Part 19 navigation. Equation count measured
-before and after, per the A310 lesson.
-
-The section scan flagged seven sections and all seven are legitimately narrative, **so the real gap was
-not where the scan looks.** That is worth remembering: the scan finds sections without equations, and
-this article's largest omission was a missing relation inside a section that already had several.
+with 29 of 29 display blocks rendered, 8 of 8 tables, and Part 19 navigation.
 
 ---
 
 ## State
 
-**485 lines, 29 display equations, 66 references, 5,240 body words.**
+**697 lines, 29 display equations, 248 references, 6,511 body words.**
 
-**Committed, not pushed.** References at 66 are the measure furthest from any band and the reference
-pass will move that substantially, since this subject's configuration has a genuine primary literature
-unlike the previous two articles.
+**References sit two below the full-aircraft floor of 250.** That is the closest any article in this run
+has come to a band, and I did not add two citations to cross it. Lines sit 603 below the floor and
+equations 61 below, so the intermediate-class question stands.
 
-Nineteen articles complete of seventy-two. Categories remain undecided, and the fourth-class question
-in `RESEARCH_AIRCRAFT_STRUCTURE.md` is open across two completed articles.
+**Contemporary at 34 of 218, or 15.6 percent, is low by series standards** and closing it is the
+publication review's work, as on every previous article.
+
+**Committed, not pushed.** Nineteen articles complete of seventy-two. Categories remain undecided, and
+the fourth-class question is open across two completed articles.

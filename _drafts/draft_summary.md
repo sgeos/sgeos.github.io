@@ -22,7 +22,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_hiller_x18.markdown`, A315, editorial date 2025-10-24, series `x_planes` index 19 of 72.
 
 386 lines, 21 display equations, 66 references, 3,982 words after the draft pass; **485 lines, 29
-display equations, 66 references, 5,240 words after the equation review.** Reference review pending.
+display equations, 66 references, 5,240 words after the equation review; **697 lines, 29 display
+equations, 248 references, 6,511 words after the primary-reference review.** Publication review pending.
 
 **The first article in the series to solve vertical take-off with a wing rather than a jet.** The X-13
 and X-14 both pointed a jet downward. A tilt-wing points the wing itself, which is a different problem
@@ -67,6 +68,17 @@ standard and explains the restricted descent envelopes tilt-wings carried.
 while the freestream rises faster, so slipstream dynamic pressure over the immersed panel climbs from
 2,210 to 5,772 pascals through the conversion. The handover is helped by the physics rather than fought
 by it.
+
+**The primary-reference pass found a selection problem rather than a supply problem**, which is the
+opposite of A314. The harvest had returned every era in quantity and the draft had used almost only
+pre-1960 material. Of 218 research references, 184 or 84.4 percent are primary, with era coverage of 54,
+53, 39, 38 and 34.
+
+**One topic needed a second harvest, and it exposes a dependency between passes.** Descent stood at three
+records because the draft treated it as an aside in Out of Scope, and the equation pass then made it the
+quantity that closes the corridor. An equation pass can promote a subject from an aside to a load-bearing
+claim, and the reference base has to follow it. That search found the most apposite document in the
+article, a measurement of the descent capability of two-propeller tilt-wing configurations.
 
 **Unlike A313 and A314 the configuration has a real primary literature** even though the individual
 airframe does not, which is the inverse of those two situations and a milder difficulty.
