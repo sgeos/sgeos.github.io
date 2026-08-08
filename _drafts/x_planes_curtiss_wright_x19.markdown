@@ -31,7 +31,17 @@ A propeller meeting the air along its own axis produces thrust and nothing else.
 
 Curtiss-Wright proposed to stop treating it as a nuisance and start treating it as lift.
 
-If the propellers carry part of the lift, the wing carries less, so the wing can be smaller. A smaller wing is lighter, has less drag at high speed, and presents less area to the downwash in hover. The X-19's 88 pounds per square foot is the arithmetic consequence of taking that argument seriously.
+If the propellers carry part of the lift, the wing carries less, so the wing can be smaller. Writing the argument down makes its leverage visible. If the propellers supply a fraction $\phi$ of the lift at the slowest wing-borne speed, the wing need only supply the rest.
+
+$$S = \frac{2 W \left( 1 - \phi \right)}{\rho V_{\text{conv}}^{2} C_{L,\max}}$$
+
+A smaller wing is lighter, has less drag at high speed, and presents less area to the downwash in hover. The X-19's 88 pounds per square foot is the arithmetic consequence of taking that argument seriously.
+
+The same force that supplies $\phi$ is a nuisance elsewhere, and the sign is what distinguishes the two readings. A propeller mounted a distance $x_p$ ahead of the centre of gravity contributes a pitching moment that grows with angle of attack.
+
+$$\frac{\partial C_m}{\partial \alpha} = \frac{x_p}{q S \bar{c}} \frac{\partial N}{\partial \alpha}$$
+
+That derivative is positive for a tractor propeller, which is destabilising, and it is the reason the effect was studied for thirty years before anyone proposed to exploit it.
 
 ### Why This Was the Binding Unknown in 1960
 
@@ -55,7 +65,19 @@ Then the company's management changed and the new management declined to keep sp
 
 ### The Wing Cannot Carry the Aircraft
 
-Start with the number that makes everything else necessary. The forward wing spans 19.5 feet over 56.1 square feet and the aft wing spans 23.5 feet over 98.5 square feet, giving aspect ratios of 6.78 and 5.61 and mean chords of 2.88 and 4.19 feet. Total area is 154.6 square feet against 13,660 pounds.
+Start with the number that makes everything else necessary. The forward wing spans 19.5 feet over 56.1 square feet and the aft wing spans 23.5 feet over 98.5 square feet. Aspect ratio and mean chord follow from span and area alone.
+
+$$\text{AR} = \frac{b^{2}}{S}, \qquad \bar{c} = \frac{S}{b}$$
+
+which gives 6.78 and 2.88 feet forward, and 5.61 and 4.19 feet aft. Total area is 154.6 square feet against 13,660 pounds.
+
+Each surface has its own lift-curve slope, reduced from the two-dimensional value by its finite span, where $a_0$ is $2\pi$ per radian and $e$ is the span efficiency.
+
+$$a = \frac{a_0}{1 + a_0 / \left( \pi e \, \text{AR} \right)}$$
+
+At $e = 0.90$ this is 4.732 per radian forward and 4.500 aft. The aircraft's single equivalent slope is the area-weighted mean of the two, and it is used throughout the article.
+
+$$\bar{a} = \frac{S_f a_f + S_a a_a}{S_f + S_a} = 4.584 \ \text{rad}^{-1}$$
 
 Wing loading follows immediately.
 
@@ -99,7 +121,11 @@ The dynamic pressure, the freestream and the disc angle all cancel, which is why
 
 $$k = \frac{S_f a_b}{2A}$$
 
-The projected side area of a propeller with $B$ blades of chord $c$ and radius $R$, averaged over azimuth, carries a factor of $2/\pi$ from the projection of a rotating blade onto a plane through the axis.
+The projected side area of a propeller with $B$ blades of chord $c$ and radius $R$ is not simply the blade area, because a rotating blade presents its full width to the side only twice per revolution. The azimuthal mean of that projection supplies the factor.
+
+$$\frac{1}{2\pi} \int_{0}^{2\pi} \left| \cos\psi \right| \, d\psi = \frac{2}{\pi}$$
+
+Multiplying the blade area by that mean gives the effective fin.
 
 $$S_f = \frac{2}{\pi} B c R$$
 
@@ -115,33 +141,75 @@ Propeller efficiency collapses as $M_h$ approaches unity, so take 0.90 as the wo
 
 $$\Omega R \le \sqrt{\left( M_{h,\lim} a \right)^2 - V^2}$$
 
-At 20,000 feet the dynamic pressure at that speed is 288.6 pounds per square foot, the speed of sound is 1,036.8 feet per second and 400 knots is 675.1 feet per second, a flight Mach number of 0.651. The ceiling gives 933.2 feet per second for the helical tip, and the rotational component that leaves is **644.2 feet per second**, which on a 6.5 foot radius is 99.11 radians per second, or 946 revolutions per minute.
+At 20,000 feet the dynamic pressure at that speed is 288.6 pounds per square foot, the speed of sound is 1,036.8 feet per second and 400 knots is 675.1 feet per second, a flight Mach number of 0.651. The ceiling gives 933.2 feet per second for the helical tip, and the rotational component that leaves is **644.2 feet per second**. The rotational rate and the shaft speed follow.
 
-**That is a slow propeller.** The static tip Mach number is only 0.577, where a conventional propeller would run near 0.8. The 400-knot requirement has taken most of the tip speed away.
+$$\Omega = \frac{\Omega R}{R} = \frac{644.2}{6.5} = 99.11 \ \text{rad/s}, \qquad n = \frac{60 \, \Omega}{2\pi} = 946 \ \text{rpm}$$
+
+**That is a slow propeller.** Take the tip speed back to sea level and compare it against the static case, where no flight speed adds to it.
+
+$$M_{\text{tip,static}} = \frac{\Omega R}{a_0} = \frac{644.2}{1{,}116.5} = 0.577$$
+
+where a conventional propeller would run near 0.8. The 400-knot requirement has taken most of the tip speed away.
+
+The other measure of how hard this propeller is working is the advance ratio, the distance advanced per revolution against the diameter.
+
+$$J = \frac{V}{n D} = \frac{675.1}{(15.77)(13)} = 3.29$$
+
+which is high, and is the regime in which a propeller behaves least like a hovering rotor.
 
 ### Hover Then Demands an Extraordinary Blade
 
 A propeller that turns slowly must be large in blade area to produce thrust, because thrust scales with the square of tip speed. Hovering thrust must also exceed weight, since the wings sit under the discs and are pushed down by the slipstream.
 
-Compute the download first. With the nacelles at the tips, the disc reaches inboard by one radius from each tip, covering 66.7 percent of the forward semi-span and 55.3 percent of the aft, which is 91.9 square feet or 59.4 percent of the wing. The slipstream velocity at the wing is a multiple of the induced velocity, and the download is that dynamic pressure acting on the immersed area with a normal-flow drag coefficient.
+Compute the download first. With the nacelles at the tips, the disc reaches inboard by one radius from each tip, so the immersed fraction of a semi-span is the radius over the semi-span whenever the disc does not reach the root.
+
+$$f_{\text{imm}} = \frac{R}{b/2} = \frac{2R}{b}$$
+
+which is 0.667 forward and 0.553 aft, and the immersed area is the sum over the two surfaces.
+
+$$S_{\text{imm}} = \sum_j f_{\text{imm},j} S_j = 91.9 \ \text{ft}^2 = 59.4\% \ \text{of the wing}$$
+
+The slipstream velocity at the wing is a multiple $\lambda$ of the induced velocity, and the download is that dynamic pressure acting on the immersed area with a normal-flow drag coefficient.
 
 $$D_{\text{down}} = \tfrac{1}{2} \rho \left( \lambda v_i \right)^2 S_{\text{imm}} C_{D,\perp}$$
 
-Thrust and download depend on each other through $v_i$, so they solve together. The result is a download of **1,807 pounds, or 13.2 percent of gross weight**, giving a required thrust of 15,467 pounds. Momentum theory then gives the induced velocity, where $A$ is the total disc area of 530.9 square feet.
+Thrust and download depend on each other through $v_i$, so they solve together. Substituting the momentum-theory induced velocity into the download makes the pair LINEAR in thrust rather than requiring iteration, because $v_i^2$ is proportional to $T$.
+
+$$T = W + \frac{\lambda^{2} S_{\text{imm}} C_{D,\perp}}{4 A} \, T \quad \Longrightarrow \quad T = \frac{W}{1 - \lambda^{2} S_{\text{imm}} C_{D,\perp} / 4A}$$
+
+The coefficient is 0.1168, so the download is **1,807 pounds, or 13.2 percent of gross weight**, and the required thrust is 15,467 pounds. Momentum theory then gives the induced velocity, where $A$ is the total disc area of 530.9 square feet.
 
 $$v_i = \sqrt{\frac{T}{2 \rho A}} = 78.28 \ \text{ft/s}$$
 
-Ideal power is $T v_i$, which is 2,201 horsepower, and at a figure of merit of 0.70 the requirement is 3,145 horsepower against 5,300 installed, a margin of 1.69.
+Ideal power in hover is the thrust acting through the induced velocity, and the figure of merit is what converts it into a shaft requirement.
 
-Now the blade. Thrust coefficient per propeller uses the capped tip speed and a thrust of 3,867 pounds, being one quarter of the total including download.
+$$P_{\text{ideal}} = T v_i = 2{,}201 \ \text{hp}, \qquad P_{\text{req}} = \frac{P_{\text{ideal}}}{\text{FM}} = 3{,}145 \ \text{hp}$$
+
+Against 5,300 installed that is a comfortable margin.
+
+$$\frac{P_{\text{inst}}}{P_{\text{req}}} = \frac{5{,}300}{3{,}145} = 1.69$$
+
+Now the blade. Thrust scales with the square of tip speed, which is why a slow propeller must be wide.
+
+$$T_1 = C_T \rho A_1 (\Omega R)^{2}$$
+
+Inverting it for the thrust coefficient, with a thrust of 3,867 pounds being one quarter of the total including download,
 
 $$C_T = \frac{T_1}{\rho A_1 (\Omega R)^2} = 0.02953$$
 
-Blade loading $C_T/\sigma$ is what stalls a rotor, and taking 0.14 as the limit for a heavily twisted blade fixes the solidity, from which the chord follows for $B$ blades.
+Blade loading $C_T/\sigma$ is what stalls a rotor, and taking 0.14 as the limit for a heavily twisted blade fixes the solidity, where solidity is blade area over disc area.
 
-$$\sigma = \frac{C_T}{(C_T/\sigma)_{\lim}} = 0.2109, \qquad c = \frac{\sigma \pi R}{B} = 1.436 \ \text{ft}$$
+$$\sigma = \frac{B c}{\pi R}, \qquad \sigma = \frac{C_T}{(C_T/\sigma)_{\lim}} = 0.2109$$
 
-**A chord of 17.2 inches on a 13-foot propeller.** The ratio of chord to radius is 0.221, where a conventional propeller runs near 0.09. The blade aspect ratio is 4.53, which is a wing rather than a blade.
+Inverting the first for the chord,
+
+$$c = \frac{\sigma \pi R}{B} = \frac{(0.2109)(\pi)(6.5)}{3} = 1.436 \ \text{ft}$$
+
+**A chord of 17.2 inches on a 13-foot propeller.** The ratio of chord to radius is 0.221, where a conventional propeller runs near 0.09, and the blade aspect ratio is that ratio inverted.
+
+$$\text{AR}_b = \frac{R}{c} = \frac{6.5}{1.436} = 4.53$$
+
+which is a wing rather than a blade.
 
 ### The Wide Blade Is Demanded Twice
 
@@ -161,7 +229,15 @@ $$k = \frac{(17.83)(4.214)}{2(132.73)} = 0.283$$
 
 ### How Much Lift the Propellers Actually Supply
 
-At the quoted cruise of 347.6 knots at 15,000 feet the dynamic pressure is 257.4 pounds per square foot and the lift coefficient required is 0.343, which is unremarkable. Compare the lift slopes of the two contributors. For the wings, with $\bar{a} = 4.584$ per radian area-weighted across the two surfaces,
+At the quoted cruise of 347.6 knots at 15,000 feet, dynamic pressure and the lift coefficient the aircraft must reach follow directly.
+
+$$q = \tfrac{1}{2} \rho V^{2} = 257.4 \ \text{lb/ft}^{2}, \qquad C_L = \frac{W}{q S} = 0.343$$
+
+which is unremarkable, and corresponds to an attitude of 4.29 degrees before any interference is allowed for.
+
+$$\alpha = \frac{C_L}{\bar{a}} = \frac{0.343}{4.584} = 0.0749 \ \text{rad}$$
+
+Compare the lift slopes of the two contributors. For the wings, with $\bar{a} = 4.584$ per radian area-weighted across the two surfaces,
 
 $$\frac{\partial L}{\partial \alpha} = q S \bar{a} = 182{,}410 \ \text{lb/rad}$$
 
@@ -181,7 +257,15 @@ of the incidence-dependent lift. The figure barely moves across lift-to-drag rat
 
 The honest counterfactual is not to switch the radial lift force off and leave the wing unchanged, which describes no aircraft anyone would build. It is to hold the conversion speed fixed and ask how much wing would be needed without the propellers' help.
 
-The first route ignores drag and thrust entirely. With the nacelles horizontal and the wing at its stall angle of 17.5 degrees, lift plus radial lift force equals weight at **115.1 knots**, against **136.5 knots** for the wing alone. Wing area scales with the square of that speed.
+The first route ignores drag and thrust entirely. The wing works at its stall angle, which is the maximum lift coefficient over the equivalent slope.
+
+$$\alpha_{\text{stall}} = \frac{C_{L,\max}}{\bar{a}} = \frac{1.4}{4.584} = 0.3054 \ \text{rad} = 17.5^{\circ}$$
+
+With the nacelles horizontal the propeller axis sits at that same angle to the flow, so the balance to solve is the wing at maximum lift plus the keystone relation evaluated at the stall angle.
+
+$$W = \tfrac{1}{2} \rho V^{2} S C_{L,\max} + 4 k \rho A_1 \left( V \cos\alpha_{\text{stall}} + v_i \right) V \sin\alpha_{\text{stall}}$$
+
+Both terms grow as $V^2$ apart from the small induced-velocity contribution, so the solution is close to a closed form and the speed falls to **115.1 knots**, against **136.5 knots** for the wing alone. Wing area scales with the square of that speed.
 
 $$\frac{S_{\text{equiv}}}{S} = \left( \frac{V_{\text{without}}}{V_{\text{with}}} \right)^{2} = 1.408$$
 
@@ -205,7 +289,21 @@ Thrust appears in both and is not free. Eliminating it by multiplying the first 
 
 $$\cos(i + \alpha) \left[ W - L \cos\alpha \right] - N - D \sin(i + \alpha) = 0$$
 
-The drag needed here is not available from the sources, so derive it from the quoted maximum speed rather than assume it. At 400 knots and 20,000 feet, with 80 percent of 5,300 shaft horsepower reaching the air as 4,240 horsepower of thrust power, the drag is 3,454 pounds, of which 277 is induced, leaving an equivalent flat-plate area of **11.01 square feet**.
+The drag needed here is not available from the sources, so derive it from the quoted maximum speed rather than assume it. Drag is parasite plus induced, written with an equivalent flat-plate area $f$ so that the tiny reference wing does not distort the coefficient.
+
+$$D = \tfrac{1}{2} \rho V^{2} \left( f + \frac{S C_L^{2}}{\pi e \, \text{AR}_{\text{eff}}} \right)$$
+
+At maximum speed thrust equals drag, and thrust power is the shaft power the propellers convert.
+
+$$D = \frac{\eta_p P_{\text{shaft}}}{V} = \frac{(0.80)(5{,}300)(550)}{675.1} = 3{,}454 \ \text{lb}$$
+
+Of that, 277 pounds is induced, and the remainder inverts to the flat-plate area.
+
+$$f = \frac{D - D_i}{q} = \frac{3{,}454 - 277}{288.6} = 11.01 \ \text{ft}^{2}$$
+
+Thrust available at any other speed is not this quantity divided by speed, which diverges at the hover. Momentum theory with the same power gives a form that stays finite at zero.
+
+$$2 \rho A_1 v_i \left( V + v_i \right)^{2} = \frac{\eta_p P_{\text{shaft}}}{4}, \qquad T = 4 \cdot 2 \rho A_1 v_i \left( V + v_i \right)$$
 
 A solution exists only where the angle of attack it demands is below the stall and the thrust it demands is below what the engines can deliver. Those two ceilings are the corridor, and at sea level they give the following.
 
@@ -222,7 +320,11 @@ A solution exists only where the angle of attack it demands is below the stall a
 | 10 degrees | 104.9 kt | 268.4 kt | 163.5 kt |
 | 0 degrees | 114.3 kt | 325.3 kt | 210.9 kt |
 
-**Every band overlaps its neighbour, so a continuous path from hover to cruise exists.** The narrowest point is at 50 degrees of nacelle, 45 knots wide. The top speed at zero nacelle at sea level is 325 knots, which is consistent with the 400-knot figure quoted at 20,000 feet rather than in conflict with it.
+Continuity is a condition on consecutive rows rather than an impression from the table. A conversion can be flown at constant speed through a nacelle step only where the bands share a speed.
+
+$$V_{\min}(i_{n+1}) \le V_{\max}(i_{n}) \quad \text{for every consecutive pair}$$
+
+**Every band satisfies it, so a continuous path from hover to cruise exists.** The narrowest point is at 50 degrees of nacelle, 45 knots wide. The top speed at zero nacelle at sea level is 325 knots, which is consistent with the 400-knot figure quoted at 20,000 feet rather than in conflict with it.
 
 ### A Result That Does Not Support the Sales Argument
 
@@ -239,7 +341,11 @@ Running the same corridor with the radial lift force removed produces something 
 
 **That corridor is also continuous.** Without the radial lift force the aircraft still converts, at higher speeds and through narrower bands, but it converts. The radial lift force is therefore **not** what makes the X-19 possible, which is the stronger claim and the one a reader might have expected this article to reach.
 
-What it does is lower every boundary, dramatically at high nacelle angle where the disc meets the flow most obliquely, and by 24 knots at the cruise end. That reduction is what the small wing was bought with. The distinction between making a configuration possible and making it cheaper is worth preserving, and the arithmetic supports only the second.
+What it does is lower every boundary. Writing the reduction as a difference makes its shape visible.
+
+$$\Delta V(i) = V_{\min}^{\text{without}}(i) - V_{\min}^{\text{with}}(i)$$
+
+That difference is 56.9 knots at 60 degrees of nacelle and 23.7 knots at zero, so the benefit is largest exactly where the disc meets the flow most obliquely, which is what the keystone relation predicts through its $\sin\alpha_d$ factor. That reduction is what the small wing was bought with. The distinction between making a configuration possible and making it cheaper is worth preserving, and the arithmetic supports only the second.
 
 ## Dependent Systems
 
@@ -255,7 +361,15 @@ $$W = q \alpha \left[ S_f a_f + S_a a_a \left( 1 - \frac{d\varepsilon}{d\alpha} 
 
 Without the interference the cruise attitude would be 4.29 degrees. With it the attitude is **5.94 degrees**, a penalty of 1.65 degrees, or 38.5 percent more attitude for the same lift. The downwash at the aft wing is 2.64 degrees at that condition.
 
-The consequence shows up in the lift split. The aft wing carries 6,574 pounds and the forward wing 7,086, so **the aft surface produces 48.1 percent of the lift on 63.7 percent of the area**. The larger wing is the less effective one, which is the price of putting it second.
+The consequence shows up in the lift split, where the forward surface works at the full attitude and the aft surface at the attitude less the downwash.
+
+$$L_f = q S_f a_f \alpha = 7{,}086 \ \text{lb}, \qquad L_a = q S_a a_a \left( \alpha - \varepsilon \right) = 6{,}574 \ \text{lb}$$
+
+Comparing the lift share against the area share is what makes the penalty concrete.
+
+$$\frac{L_a}{L_f + L_a} = 48.1\% \quad \text{on} \quad \frac{S_a}{S} = 63.7\% \ \text{of the area}$$
+
+**The larger wing is the less effective one**, which is the price of putting it second.
 
 ### Pitch Control, Which the Layout Supplies for Nothing
 
@@ -263,13 +377,29 @@ Here the tandem arrangement earns its keep, and the comparison with the previous
 
 The [X-18][related_post_a315_hiller_x18] carried a turbojet in its tail for no purpose except pitch control in hover, because a tilt-wing with two propellers on one lateral axis has no way to generate a pitching moment at zero airspeed. The X-19 has four propellers at two longitudinal stations. Differential thrust between the stations is a pitching moment with no additional hardware whatever.
 
-With a station separation of 20 feet and thrust differential expressed as a fraction $f$ of total thrust,
+Shifting a fraction $f$ of total thrust from one station to the other raises each station by $fT/2$ and lowers the other by the same, so both arms of length $\ell/2$ contribute.
 
-$$M = 2 \left( \tfrac{1}{2} f T \right) \frac{\ell}{2} \cdot 2 = f T \ell$$
+$$M = 2 \left( \tfrac{1}{2} f T \right) \frac{\ell}{2} = \tfrac{1}{2} f T \ell$$
 
-At 10 percent differential this is 15,467 foot-pounds, giving 0.209 radians per second squared against a pitch inertia of 73,976 slug feet squared. At 30 percent it is 0.627 radians per second squared, or 35.9 degrees per second squared. **That is ample authority obtained from geometry rather than from an engine.**
+With a station separation of 20 feet, 10 percent differential gives 15,467 foot-pounds. The inertia it acts against is the mass times the square of the pitch radius of gyration.
 
-Roll is better still, because the lateral arm of 10.75 feet is comparable and the roll inertia is far smaller at 17,663 slug feet squared. Ten percent differential gives 53.9 degrees per second squared.
+$$I_{yy} = m k_y^{2} = \left( \frac{13{,}660}{32.174} \right) (13.2)^{2} = 73{,}976 \ \text{slug ft}^{2}$$
+
+Angular acceleration is the quotient of the two.
+
+$$\ddot{\theta} = \frac{M}{I_{yy}} = \frac{15{,}467}{73{,}976} = 0.209 \ \text{rad/s}^{2}$$
+
+At 30 percent it is 0.627 radians per second squared, or 35.9 degrees per second squared. **That is ample authority obtained from geometry rather than from an engine.**
+
+Roll uses the same relation with the lateral arm in place of the half-station-separation, so the moment is the differential acting at the mean semi-span of 10.75 feet.
+
+$$M_\phi = f T \, y = (0.10)(15{,}467)(10.75) = 16{,}627 \ \text{ft\,lb}$$
+
+The roll inertia is dominated by four heavy nacelles at the tips rather than by the fuselage, so the radius of gyration is a larger fraction of span than a conventional aircraft would show.
+
+$$I_{xx} = m k_x^{2} = (424.6)(6.45)^{2} = 17{,}663 \ \text{slug ft}^{2}, \qquad \ddot{\phi} = 53.9 \ \text{deg/s}^{2}$$
+
+Roll is better still, because the arm is comparable and the inertia is a quarter of the pitch value.
 
 ### Yaw Control, Which It Does Not
 
@@ -281,7 +411,15 @@ A differential of fraction $f$ between the diagonal pairs, two propellers each, 
 
 $$Q_{\text{net}} = 4 f Q_1$$
 
-At 20 percent this is 3,490 foot-pounds against a yaw inertia of 100,565 slug feet squared, giving **0.035 radians per second squared, or 1.99 degrees per second squared**. At 30 percent it is 2.98 degrees per second squared.
+At 20 percent this is 3,490 foot-pounds. The yaw inertia is the largest of the three, because the mass is distributed along the longest dimension.
+
+$$I_{zz} = m k_z^{2} = (424.6)(15.4)^{2} = 100{,}690 \ \text{slug ft}^{2}$$
+
+Dividing the one by the other is where the configuration runs out of authority.
+
+$$\ddot{\psi} = \frac{Q_{\text{net}}}{I_{zz}} = \frac{3{,}490}{100{,}690} = 0.0347 \ \text{rad/s}^{2} = 1.99 \ \text{deg/s}^{2}$$
+
+At 30 percent it is 2.98 degrees per second squared.
 
 **That is roughly an order of magnitude short of the control power VTOL criteria of the period call for**, and the handling-qualities literature of exactly those years is where the criteria live, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958] and [Slaughter 1958][research_slaughter_1958], with the earlier hovering analyses in [MILLER 1948][research_miller_1948] and [ALBACHTEN 1956][research_albachten_1956]. The record states that the programme was troubled by control system problems without saying which axis, and this calculation offers a candidate rather than an answer.
 
@@ -295,7 +433,11 @@ The magnitude of what the fix prevents is easy to state. Losing both propellers 
 
 $$M_{\text{upset}} = \frac{T}{2} \times 10.75 = 83{,}135 \ \text{ft\,lb}$$
 
-which is **1.67 times the full roll control available at 30 percent differential**. Without the interconnect that upset is unrecoverable, so the cross-shaft is not a refinement.
+Comparing it against the roll control available at the largest differential is what makes the case.
+
+$$\frac{M_{\text{upset}}}{M_{\phi,\max}} = \frac{83{,}135}{49{,}881} = 1.67$$
+
+**The upset exceeds full roll control by two thirds.** Without the interconnect it is unrecoverable, so the cross-shaft is not a refinement.
 
 The cost is transmission. With one engine dead the survivor drives the far pair through the shaft, which is half the hovering power, or 1,572 horsepower. Torque depends on where in the drive train the shaft runs.
 
@@ -311,7 +453,13 @@ Disc loading is where the tilt-propeller beats the tilt-wing outright.
 
 $$\frac{W}{A} = \frac{13{,}660}{530.93} = 25.7 \ \text{lb/ft}^2$$
 
-against 82.1 for the X-18. Four thirteen-foot propellers present a great deal more disc than two sixteen-foot ones, and induced power in hover scales with the square root of disc loading, so the X-19 hovers far more efficiently. Power loading is 4.34 pounds per horsepower.
+against 82.1 for the X-18. Four thirteen-foot propellers present a great deal more disc than two sixteen-foot ones, and the penalty for disc loading is explicit once the induced velocity is substituted into the ideal power.
+
+$$\frac{P_{\text{ideal}}}{W} = v_i = \sqrt{\frac{1}{2\rho} \cdot \frac{W}{A}}$$
+
+**Induced power per pound scales with the square root of disc loading**, so the X-19 pays $\sqrt{25.7/82.1} = 0.56$ of what the X-18 pays for every pound it holds up. Power loading follows.
+
+$$\frac{W}{P_{\text{req}}} = \frac{13{,}660}{3{,}145} = 4.34 \ \text{lb/hp}$$
 
 Pitch control of the blades is the mechanism every axis depends on, and controllable-pitch propeller behaviour is treated in [BOSWELL 1961][research_boswell_1961] and [Valentine and Kader 1976][research_valentine_kader_1976], with static thrust estimation in [COWARD 1955][research_coward_1955] and [Brusse and Cronk 1965][research_brusse_cronk_1965].
 
@@ -323,7 +471,11 @@ Those two numbers deserve to be set against each other.
 
 $$\frac{4 \times 60}{50} = 4.8 \ \text{minutes per flight}$$
 
-Over the 645 days between first flight and loss, that is one flight every 12.9 days and **0.19 flight hours per month**. A programme flying twelve minutes a year per calendar month is not a flight test programme in any ordinary sense.
+Over the 645 days between first flight and loss the calendar rate is as thin as the airborne one.
+
+$$\frac{645}{50} = 12.9 \ \text{days per flight}, \qquad \frac{4.0}{645/30.44} = 0.19 \ \text{flight hours per month}$$
+
+A programme averaging eleven minutes of flight per calendar month is not a flight test programme in any ordinary sense.
 
 **The X-19 never transitioned.** The crew was lost before the transition could be attempted, so the aircraft never once demonstrated the capability the whole configuration existed to provide. Every number in the sizing section above describes an aircraft that did not fly the regime it was sized for.
 
@@ -335,9 +487,27 @@ A ballistic airframe has a fixed time budget.
 
 $$t = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2(390)}{32.174}} = 4.92 \ \text{s}$$
 
-**The 2.5 seconds between failure and ejection consumed 50.8 percent of the time that existed**, leaving 2.42 seconds. In 2.5 seconds of free fall the aircraft descends 100.5 feet and reaches 80.4 feet per second.
+Against that budget, the interval the crew actually used is the quantity worth naming.
 
-There is an inconsistency in the reported figures that should be stated rather than smoothed. If 390 feet is the altitude at propeller separation, ejection occurred near 289 feet, and reaching 230 feet two seconds later implies a mean descent of 29.7 feet per second, far below the 80.4 the airframe had already reached and requiring the seat to arrest most of the descent. If instead **390 feet is the altitude at ejection**, the descent to 230 feet in two seconds is 80 feet per second, which matches the free-fall state almost exactly. The second reading is self-consistent and the first is not, so the figure most likely refers to the ejection rather than the failure.
+$$\frac{t_{\text{eject}}}{t} = \frac{2.5}{4.92} = 50.8\%$$
+
+**The 2.5 seconds between failure and ejection consumed half the time that existed**, leaving 2.42 seconds. The descent and the speed reached in that interval are the two quantities the reported figures must be tested against.
+
+$$\Delta h = \tfrac{1}{2} g t^{2} = \tfrac{1}{2}(32.174)(2.5)^{2} = 100.5 \ \text{ft}, \qquad v = g t = 80.4 \ \text{ft/s}$$
+
+There is an inconsistency in the reported figures that should be stated rather than smoothed. Both readings reduce to the same mean-rate test.
+
+$$\bar{v} = \frac{h_{\text{eject}} - h_{\text{canopy}}}{\Delta t}$$
+
+If 390 feet is the altitude at propeller separation, ejection occurred near 289 feet and the test gives
+
+$$\bar{v} = \frac{289.5 - 230}{2.0} = 29.7 \ \text{ft/s}$$
+
+which is far below the 80.4 feet per second the airframe had already reached, and would require the seat to arrest most of the descent. If instead **390 feet is the altitude at ejection**, the same test gives
+
+$$\bar{v} = \frac{390 - 230}{2.0} = 80.0 \ \text{ft/s}$$
+
+which matches the free-fall state almost exactly. The second reading is self-consistent and the first is not, so the figure most likely refers to the ejection rather than the failure.
 
 Sources also disagree on the location. The first flight is placed at Caldwell, New Jersey, while at least one account places the loss at the Federal Aviation Administration's National Aviation Facilities Experimental Center, which is at Atlantic City rather than Caldwell. The conflict is recorded here rather than resolved.
 
@@ -373,7 +543,11 @@ The most useful thing the X-19 changed may be the sharpest and the least flatter
 
 **The comparison with the X-18 can be pushed too far.** The two aircraft look adjacent and are adjacent in the designation sequence, but their governing quantities have nothing in common. Immersed fraction is meaningless for the X-19 and propeller normal force is nearly meaningless for the X-18, whose propellers stay roughly aligned with the flow because the whole wing rotates with them.
 
-**This article's own model has a limit.** The in-plane momentum picture treats the disc as an actuator turning a stream tube, which is defensible while the disc is moderately inclined and indefensible once it is close to broadside, where a propeller is a bluff body shedding a wake and no linear proportionality to $\sin\alpha_d$ has any basis. Taking 60 degrees of disc incidence as the limit of belief, **five of the ten corridor rows above sit outside it**, reaching 89.5 degrees at the hover end. The low-speed half of the corridor should be read as indicative rather than quantitative.
+**This article's own model has a limit.** The in-plane momentum picture treats the disc as an actuator turning a stream tube, which is defensible while the disc is moderately inclined and indefensible once it is close to broadside, where a propeller is a bluff body shedding a wake and no linear proportionality to $\sin\alpha_d$ has any basis. The condition to test is the disc incidence, which is the nacelle angle plus the angle of attack.
+
+$$\alpha_d = i + \alpha \le 60^{\circ}$$
+
+**Five of the ten corridor rows above violate it**, reaching 89.5 degrees at the hover end, so the low-speed half of the corridor should be read as indicative rather than quantitative. This is the same discipline A312 applied when it found its own perfect-gas arithmetic valid to Mach 7.06 against an aircraft that flew at 6.70.
 
 ## The Source Base
 
@@ -396,6 +570,8 @@ The tilt-wing and convertiplane design literature of the late 1950s is well popu
 **Assumed quantities, each of which moves the answers.** Maximum lift coefficient of 1.4, helical tip Mach limit of 0.90, blade loading limit of 0.14, hover figure of merit of 0.70, download drag coefficient of 1.20 with slipstream factor 1.5, propeller efficiency of 0.80 at maximum speed, span efficiencies, an effective tandem aspect ratio of 6.0, a propeller station separation of 20 feet, and radii of gyration at 0.30, 0.30 and 0.35 of the relevant dimension. **The propeller rotational speed is not in the public record and was derived from the cruise requirement rather than taken from a source.**
 
 **A model inconsistency found and fixed rather than carried.** An earlier version of the calculation used a figure of merit of 0.70 in one place and a propeller efficiency of 0.80 in another for what the momentum model treats as a single quantity. The corridor is now reported across both values, and the low-speed boundaries are identical while the high-speed boundaries move by about 5 percent.
+
+**Two errors the equation review exposed, both in the drafted text.** The pitch-moment relation was displayed as $M = fT\ell$, which evaluates to twice the 15,467 foot-pounds quoted in the prose beside it. The quoted value was right and the displayed algebra carried a spurious factor of two, so the article contradicted itself in a way every automated check passed. The yaw inertia was transcribed as 100,565 slug feet squared against a computed 100,690, which left the acceleration built on it correct and the stated inertia wrong. **Writing the relation down has now caught a wrong claim in twelve consecutive articles in this series.** A third defect was introduced by the review itself, an unterminated display block that would have rendered as broken mathematics, and the style checker was extended to catch that class.
 
 **A defect that no automated check would have caught.** The first corridor formulation solved the vertical equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any speed down to zero. It returned 0.6 knots at every nacelle angle below 60 degrees. Nothing flagged it. It was caught by reading the output and finding it absurd, which is the same way A315's 454-knot crossover speed was caught.
 

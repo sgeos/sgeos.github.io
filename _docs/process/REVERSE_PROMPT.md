@@ -9,8 +9,39 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A316 drafted, the first of four passes. Committed, **not pushed**, per the rhythm. **Not
-published.** All twenty articles in the series remain in `_drafts/`.
+**Task**: A316 equation-density review, the second of four passes. Committed, **not pushed**, per the
+rhythm. **Not published.** All twenty articles in the series remain in `_drafts/`.
+
+---
+
+## The Pass Caught Two Errors in the Drafted Text
+
+**33 display equations to 78, across 22 edits**, every one asserted to match its anchor exactly once and
+every section extended in place rather than replaced.
+
+**The pitch-moment relation was wrong by a factor of two.** The draft displayed $M = fT\ell$, which
+evaluates to 30,934 foot-pounds, while the prose beside it quoted 15,467. **The quoted value was right
+and the displayed algebra was wrong**, so the article contradicted itself and every automated check
+passed it. Shifting a fraction of thrust between stations raises one by $fT/2$ and lowers the other by
+the same, so the correct form is $M = \tfrac{1}{2} f T \ell$.
+
+**The yaw inertia was transcribed as 100,565 and computes to 100,690.** The acceleration built on it was
+right, so this was a prose slip rather than a modelling error, and it is exactly what displaying
+$I_{zz} = m k_z^2$ with both factors visible prevents.
+
+**That is twelve consecutive articles in which writing the relation down caught a wrong claim.**
+
+---
+
+## The Review Introduced a Defect of Its Own
+
+One of my new blocks was missing its closing delimiter. It would have rendered as broken mathematics, and
+**it was invisible to every existing check**, because it is not a lone delimiter and the display-equation
+regex simply fails to match it, so it was not even counted as an equation. I found it in the adjacent-math
+warnings rather than by looking for it.
+
+`check.py` now fails on any line that opens with a display delimiter and does not close with one. The
+checks need the same discipline as the thing they check, which is the A315 lesson arriving in a new form.
 
 ---
 
@@ -110,26 +141,33 @@ degrees at the hover end.
 
 ## Verification
 
-**107 independent re-derivations, zero disagreements**, from a verifier that integrates the atmosphere by
+**119 independent re-derivations, zero disagreements**, from a verifier that integrates the atmosphere by
 trapezoidal rule where the model uses the analytic layer solution and uses closed forms where the model
-bisects. All 102 quoted values confirmed present in the text.
+bisects. All 115 quoted values confirmed present in the text, a check that flagged the stale 100,565 as absent
+once the correction landed.
 
 79 references, 60 external URLs, zero duplicates or orphans. URL sweep at 38 plain 200s, 10 publisher
 403s, and **3 DTIC DOIs verified through the Crossref registry** with matching titles. `_verify.py` at
 the 0-error 21-warning corpus baseline with no new warnings. Zero style violations. Isolated build
-passing with 33 of 33 display blocks rendering as display rather than inline, 2 of 2 tables, and Part 20
+passing with 78 of 78 display blocks rendering as display rather than inline, 2 of 2 tables, and Part 20
 navigation.
 
 ---
 
 ## State
 
-**Committed, not pushed**, which is the draft pass. **514 lines, 33 display equations, 79 references,
-6,601 words.**
+**Committed, not pushed**, which is correct for the equation pass. **688 lines, 78 display equations, 79
+references, 7,239 words.**
 
 Twenty of seventy-two articles. The publication-order dependency is now **twenty deep** and every
 cross-reference points backward.
 
-**The fourth genre class is still the open decision and A316 does not settle it.** At 514 lines and 33
-equations this is a draft-pass state rather than a final one, so it is not yet evidence either way. The
-three remaining passes are yours to prompt.
+**On the fourth genre class.** A316 now sits at **78 equations against the 90 floor and 688 lines against
+the 1,300 floor**, with two passes still to run. A313 to A315 each ended below both. This one is closer on
+equations at the equivalent stage than any of those three were, so I would not treat it as further
+evidence for a new class yet. The reference and publication passes are yours to prompt.
+
+**Ten sections remain flagged by the density scan and I judge all ten correct as they stand.** They are
+the opening, the programme history, and the closing analytical sections, which quote numbers derived
+elsewhere in the article rather than relying on relations of their own. Padding them would be the defect
+the standing directive warns against.

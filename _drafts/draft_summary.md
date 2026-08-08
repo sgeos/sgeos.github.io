@@ -22,8 +22,19 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_curtiss_wright_x19.markdown`, A316, editorial date 2025-10-25, series `x_planes` index 20 of
 72.
 
-**514 lines, 33 display equations, 79 references, 6,601 words after the draft pass.** One of four passes
-complete. Committed, not pushed. Not published.
+514 lines, 33 display equations, 79 references, 6,601 words after the draft pass; **688 lines, 78 display
+equations, 79 references, 7,239 words after the equation review.** Two of four passes complete. Committed,
+not pushed. Not published.
+
+**The equation review caught two errors in the drafted text, which is the twelfth consecutive article in
+which writing the relation down has done so.** The pitch-moment relation was displayed as a form
+evaluating to twice the value quoted in the prose beside it, so the article contradicted itself while
+passing every automated check; the quoted value was right and the algebra had a spurious factor of two.
+The yaw inertia was transcribed as 100,565 against a computed 100,690, leaving the acceleration built on
+it correct and the stated inertia wrong. **The review also introduced a defect of its own**, an
+unterminated display block that would have rendered as broken mathematics and was invisible to every
+existing check, since it is not a lone delimiter and the display-equation regex simply fails to match it.
+`check.py` now fails on any line opening with a display delimiter that does not close with one.
 
 **The keystone deliberately does not transfer from A315, and the handoff was right to warn against
 assuming it would.** A tilt-wing must keep its wing flying at enormous angles of attack, so slipstream
