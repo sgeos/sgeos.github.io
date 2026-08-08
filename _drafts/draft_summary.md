@@ -141,10 +141,30 @@ inside the scratch build tree.
 148 of 148 DOIs Crossref-resolved at 0.85 with zero flagged, all 268 worked values reproducing, and
 an isolated build clean at 91 rendered display blocks matching source exactly.
 
-**Remaining for the publication review.** **Contemporary references are 47, or 20.2 percent of
-dated.** The absolute count is unchanged and the percentage fell because the denominator grew.
-Against the 101 to 189 held since A301 the gap is between 54 and 142 references, and closing it will
-carry the article past the 1300 line floor.
+**Publication review complete, 2026-08-07. All four passes done.** **1346 lines, 91 display
+equations, 336 references, 17,380 body words. All three densities inside band and nothing trimmed at
+any point**, which is the fifth article in the series to finish that way and the first with no band
+exceeded in either direction.
+
+**The review ran the article's relations on a modern vehicle and corrected an overstatement.** A
+small electric tail-sitter's disc loading and wing loading are the same quantity to within a factor
+of two against the X-13's ratio of 84, so the design difference that separated it from the XFY-1 has
+been dissolved rather than solved. But holding the energy mass fraction equal gives **12.9 minutes of
+hover against 11.0, an improvement of about seventeen percent in seventy years**. As an effective
+specific consumption, a battery forty-eight times worse per kilogramme driving a rotor seventeen
+times better at converting power into thrust comes out fifteen percent ahead.
+
+**Contemporary coverage closed with a 64-query sweep returning 710 records**, taking contemporary
+references from 47 to **133, or 41.7 percent of dated**. Twelve subsections replaced five.
+
+**Two defects found and fixed.** The section replacement silently dropped three equations, caught by
+measuring. And an en dash reached the prose inside a citation display string, fixed by an automatic
+rule in the normaliser rather than by patching the regenerated markdown.
+
+336 reference definitions, 323 external URLs with zero duplicates, all 268 worked values reproducing,
+isolated build clean at 91 rendered display blocks matching source exactly.
+
+**Status**: committed and **pushed**. **Not published.** Fourteen of seventy-two complete.
 
 ## X-Planes Convair X-12 A309 2025-10-18
 

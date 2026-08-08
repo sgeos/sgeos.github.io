@@ -9,124 +9,144 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-07
-**Task**: A310 primary-reference pass, the third of four. Committed and **not pushed**. **Not
+**Task**: A310 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.** All fourteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Pass Opened With a Harvest, Which Reversed the Usual Order
+## The Review Ran the Article's Relations on a Modern Vehicle, and Corrected an Overstatement
 
-The draft pass warned that the pool held only 665 entries against A309's 3,597 and would not support
-the 250 reference floor. It would not have. **The primary pass therefore began with a supplementary
-harvest rather than with a citation-coverage audit**, and that reversal was the right call.
+This is the most useful thing the pass did, and it is worth putting first because the obvious version
+of the comparison would have been wrong.
 
-The harvest returned 684 new records and took the pool from 665 to **1,305 entries**. It was aimed
-where the draft had found the material actually lives, which is the NASA low-speed research programme
-rather than the defence archive, and at the sub-problems the equation pass had opened, namely
-free-flight model technique, the hover position loop, ground effect and impingement, the pilot's
-visual task, and the vertical-attitude revival of the 1970s.
+Applying the article's own relations to three representative modern electric vehicles gives two
+results. **The first is that a small electric tail-sitter's disc loading and wing loading are the
+same quantity to within a factor of two**, against the X-13's ratio of 84. This article derived, from
+the XFY-1 comparison, that a designer wanting stall-level dynamic pressure on the controls in a hover
+should set the disc loading equal to the wing loading. A modern tail-sitter satisfies that without
+anyone arranging it. **The design difference that separated the X-13 from the XFY-1 has been
+dissolved rather than solved.**
 
-**References went from 143 to 250, which is exactly the floor.** Primary sources are 167 of 233, or
-**71.7 percent of dated**, up from 61.1.
+**The second corrects the first.** Twenty-three minutes of hover against the X-13's eleven suggests
+the energy problem has halved. It has not. The modern figures assume a battery at thirty percent of
+the mass where the X-13's fuel was seventeen. Holding the energy fraction equal gives **12.9 minutes
+against 11.0, an improvement of about seventeen percent in seventy years.**
 
----
-
-## The Article Is Held Up Almost Entirely by Documents About Other Aircraft
-
-This is the source-base finding and it is now stated in the article.
-
-**Almost nothing here rests on a document about the X-13.** It rests on documents about the
-configuration, the flight condition, the test technique, and the pilot's task, written before and
-after the aircraft flew and mostly about other machines. **An article about a vehicle with almost no
-record of its own can still be dense, provided the question it asked was one other people were also
-asking.**
-
-That is true of the X-13 and it was **not** true of the [X-10], whose keystone was peculiar to a
-cancelled programme, and the difference is a property of the question rather than of the archive.
+Expressed as an effective specific consumption the comparison is cleanest. **A battery forty-eight
+times worse than kerosene per kilogramme, driving a rotor seventeen times better at converting power
+into thrust, comes out fifteen percent ahead.** The rest of the modern advantage is bought by
+carrying more energy, which a vehicle with no pilot and no weapon can afford. **The hover is still
+expensive and it is expensive for the same reason.**
 
 ---
 
-## What the Harvest Found That Mattered Most
+## Contemporary Coverage
 
-**The pilot's problem was eventually measured.** [Lollar and Matous 1963] observes the pilot-vehicle
-loop closure for hovering aircraft directly, which is the closest thing in the literature to the
-third-order position-loop analysis this article performs, and it postdates the X-13's last flight by
-six years. [Howard 1976] measures what happens to pilot performance when the visual cues are removed,
-and the answers the field arrived at were all forms of **giving the information back rather than
-improving the view**, through peripheral vision displays, head-up displays, and shipboard control and
-display combinations. **The X-13 had none of them.**
+A 64-query sweep returned **710 new records**, taking contemporary references from **47 to 133, or
+41.7 percent of dated**, which sits inside the 101 to 189 absolute range the series has held since
+A301.
 
-**The ground effect problem generated a multi-year programme.** The downwash impingement studies, the
-erosion work for jet-lift aircraft specifically, the suckdown literature, and the fluid mechanics of
-a jet meeting a surface are all present. **The jet-versus-rotor comparison the article computes was
-made directly and by measurement**, in a 1971 paper comparing the outflows from a helicopter, a
-tilt-wing aircraft, and a jet-lift aircraft, which is the empirical form of the hundred-to-one disc
-loading ratio.
+Twelve subsections replaced five. The ones worth naming are these.
 
-**The free-flight technique has a literature of its own**, and the 1975 vertical-attitude fighter
-studies were flown in the same facility and reported in the same form as the 1958 X-13 model tests.
-**Two decades changed the proposed aircraft and did not change how the question was asked.**
+**The tail-sitter came back as a biplane quadrotor**, which is the X-13's configuration with four
+rotors in place of one jet and a computer in place of the man, and it has a large literature.
+**The stability derivatives the 1953 wind-tunnel programme measured for the XFY-1 are now obtained
+from the vehicle itself in flight.**
 
-**Vortex lift explains the wing.** The leading-edge suction analogy postdates the X-13, so the
-maximum lift coefficient the article assumes is a vortex-lift number rather than an attached-flow
-one, which is worth knowing given how much rests on it.
+**The handover is a least-squares problem.** The blend the X-13's pilot performed by hand is now the
+solution of a control allocation, evaluated many times a second.
+
+**The position loop became somebody else's problem**, closed by a computer with better sensors than
+eyes, and where a human remains in it the article's transport-delay analysis has become a research
+subject. **The ground observer who talked Girard onto the hook was an early and unusually literal
+instance of shared control with a transport delay.**
+
+**The visual task was solved by deleting the viewer.** Vision-based landing on a moving platform is
+harder than landing on a trailer and is the same problem.
+
+**Handling qualities became certification**, and the most direct descendant of the X-13's pilot
+problem is simplified vehicle operations, in which the aircraft is made easy enough that a
+non-pilot can fly it. **The X-13 asked an experienced test pilot to do something at the edge of what
+a person can do, and the field's eventual answer was to change the aircraft rather than train the
+person.**
+
+**Ground effect became a civil planning problem.** A tail-sitting jet needing a prepared surface and
+a particular trailer was held against it. A modern vertical take-off aircraft needs a prepared
+surface and a licensed vertiport, and that is treated as infrastructure rather than as a defect.
+**The requirement did not go away. The expectation did.**
+
+**Subscale free flight is still how it is done**, and the difference from 1958 is that the model now
+carries the flight computer it is testing, so the Reynolds mismatch matters less because the quantity
+of interest is a control law rather than a stall.
+
+A closing subsection names the three findings with no modern remedy. **Hovering is expensive, ground
+loading scales with disc loading, and a hovering aircraft has no aerodynamic restoring moment.** What
+changed is who closes the loop, how much energy the vehicle can afford, and whether the ground is
+expected to be prepared. **None of those is an aerodynamic advance, and the X-13's aerodynamics were
+never the problem.**
 
 ---
 
-## One Seam Defect, Caught by Reading
+## Two Defects Found and Fixed
 
-An insertion left two clauses running together across a paragraph break, producing "...which is" at
-the end of one paragraph and "which is the correct decision..." at the start of the next. **Every
-automated check passed it.** It was caught by reading the connective lines, which is the defect class
-with the longest unbroken run in this series and the reason that step is not optional.
+**The section replacement silently dropped three equations**, taking the count from 91 to 88 and
+below the floor. Caught by measuring rather than assuming, and the relations were restored into the
+lead subsection where they belong.
 
----
-
-## A False Alarm Worth Recording
-
-`_verify.py` appeared to jump from 21 warnings to 40. It had not. The command inherited a working
-directory inside the scratch build tree from an earlier step, so it scanned the build copy, which
-contains fourteen extra draft files. **This is the A307 relative-path defect in a new place**, and it
-is the second time this session that a check run from the wrong directory reported something untrue.
-The rule already says to use absolute paths in edit scripts. It should say the same about checks.
+**An en dash reached the prose inside a citation display string.** Publishers use them in titles, and
+a disambiguation suffix cut from a title carries one into the display, which then appears in the
+body and violates the house style rule. **The fix is an automatic rule in the normaliser rather than
+a patch in the markdown**, since the markdown is regenerated, and it now normalises en and em dashes
+to hyphens across every display in the master table. Zero remain.
 
 ---
 
 ## Verification
 
-**250 reference definitions, 237 external URLs, zero duplicates.** `_verify.py` at the 0-error
-21-warning corpus baseline when run from the repository root. All 268 worked values reproducing.
-Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals,
-doubled words, duplicate headings, unbalanced emphasis markers, lone dollar-delimited lines, or
-adjacent display-math seams. All fourteen insertion seams read by eye. Isolated build succeeding with
-**91 rendered display blocks matching the source count exactly**, Part 14 navigation, twenty-one
-tables, no unresolved reference links and no surviving Liquid tags.
+**336 reference definitions, 323 external URLs, zero duplicates.** All 268 worked values re-derived
+independently and reproducing, including every publication-review addition. `_verify.py` at the
+0-error 21-warning corpus baseline when run from the repository root. Zero contractions, em-dashes,
+en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words, duplicate headings,
+unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math seams. Genre
+section order correct with The Source Base immediately before the Epistemic State. Isolated build
+succeeding with **91 rendered display blocks matching the source count exactly**, Part 14 navigation,
+twenty-two tables, no unresolved reference links and no surviving Liquid tags.
 
-Every anchor added this pass was checked against its title before the sentence using it was written,
-in three batches of 86, 16, and 19, all with zero problems. The URL-stability guard added during A309
-fired no drift on the rebuild.
+The Epistemic State was updated in the same pass and now flags that **the three modern reference
+vehicles are representative rather than actual**, with masses, spans, areas, and rotor geometries
+chosen as plausible for their classes. The conclusions drawn from them are ratios and orders and are
+insensitive to reasonable variation. The specific endurances are not.
+
+---
+
+## Final State
+
+**1346 lines, 91 display equations, 336 reference definitions, 17,380 body words.**
+
+**All three densities are inside band and nothing was trimmed at any point.** That is the fifth
+article in the series to finish that way, after A306, A307, A308, and A309, and the first to do it
+without any band being exceeded in either direction.
+
+Primary sources are 167 of 319, or 52.4 percent of dated. The absolute count is unchanged since the
+primary pass and the percentage moved only because the contemporary additions grew the denominator.
+
+Citation construction mix healthy at a top bigram of 4.5 percent. `aircraft` at 8.61 and `control` at
+5.94 per thousand body words are the subject and keystone nouns and are reported rather than
+remediated.
 
 ---
 
 ## State
 
-**1184 lines, 91 display equations, 250 reference definitions, 15,521 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`,
+so the push is safe. **The publication-order dependency is fourteen deep**, A310 back to A297.
 
-**References are exactly at the 250 floor and equations are inside band at 91.** Lines are 116 below
-the 1300 floor, reported rather than padded. Citation density rose from 12.82 to 16.58 per thousand
-body words. Top bigram 4.1 percent. `aircraft` at 8.82 and `control` at 6.11 per thousand are the
-subject and keystone nouns and are reported rather than remediated.
+Fourteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, fourteen articles deep and raised eighteen times.
 
----
-
-## What the Publication Review Has to Close
-
-**Contemporary references are 47, or 20.2 percent of dated.** The absolute count is unchanged since
-the draft and the percentage fell because the primary pass grew the denominator, which is the
-familiar behaviour. Against the 101 to 189 absolute count the series has held since A301, **the gap
-is between 54 and 142 references**, which is smaller than A309 carried but still the largest single
-item. Closing it will also carry the article past the line floor.
-
-**Committed, not pushed.** Fourteen articles drafted of seventy-two, none published. The
-publication-order dependency is fourteen deep, A310 back to A297. **Categories remain undecided** at
-`aerospace history engineering`, fourteen articles deep and raised eighteen times.
+A311 is the Bell X-14, and it is unusually well set up by this article. The X-14 is the
+variable-stability aircraft that **established the control-power criteria A310 borrowed
+anachronistically**, so the obvious keystone is the criteria themselves and the obvious opening is
+that the previous article had to use numbers this one produced. The A310 harvest already holds the
+Drinkwater and Rolls work, the Garren visual-flight investigation, and the jet-lift powerplant
+experience report, so it should be reused rather than rebuilt.
