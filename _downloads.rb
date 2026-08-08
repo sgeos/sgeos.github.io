@@ -23,7 +23,7 @@ SITE_URL    = 'https://sgeos.github.io'
 DEFAULT_AUTHOR = 'Brendan Sechter'
 
 def have?(cmd)
-  system("command -v #{cmd} >/dev/null 2>&1")
+  ENV['PATH'].to_s.split(File::PATH_SEPARATOR).any? { |dir| File.executable?(File.join(dir, cmd)) }
 end
 
 unless have?('pandoc')
