@@ -17,6 +17,86 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Ryan X-13 Vertijet A310 2025-10-19
+
+`x_planes_ryan_x13.markdown`, A310, editorial date 2025-10-19, series `x_planes` index 14 of 72.
+
+810 lines, 56 display equations, 143 reference definitions, 11,369 words after the draft pass. All
+three densities approach their bands from below, at 810 against a 1300 floor, 56 against 90, and 143
+against 250. Reported rather than padded.
+
+**The X-13 ends the run of five.** The X-8 through the X-12 were sounding rockets, missiles, and
+ballistic weapon articles. The X-13 is a manufacturer's prototype built in two examples under a
+research contract with no operational intent, which is the pattern the X-1 established, and the
+article argues that this matters for the closing article because **the run of five was an
+interruption rather than a redefinition.**
+
+**Keystone identified as control authority through the transition.** Aerodynamic control moment
+scales with the square of speed and vectored thrust does not depend on speed at all, so the two cross
+exactly once and the aircraft must be controllable on both sides and at the crossing. The X-11 and
+X-12 could not have posed this question because neither was ever at zero airspeed while airborne.
+
+**Central result.** The elevons meet the control-power criterion at 48.2 metres per second against a
+stall speed of 52.5, so **the control surfaces become adequate at 91.8 percent of the speed at which
+the wing starts flying**, and vectored thrust supplies 3.86 times the criterion everywhere below.
+Writing the ratio out shows the wing area and the air density both cancel, so **the ratio is a
+property of proportions and not of scale**, which is why a one-fifth-scale model could demonstrate
+the same handover.
+
+**Results the sources do not state.** The three axes hand over in sequence rather than together, at
+0.62 of stall for yaw, 0.72 for roll, and 0.92 for pitch, so the pilot feels the aircraft become
+conventional one axis at a time across a band of about sixteen metres per second. **The entire fuel
+load is about eleven minutes of hovering**, and hover endurance depends only on fuel fraction and
+specific consumption and therefore not at all on the size of the aircraft. The transition itself
+costs 12.6 pounds of fuel and 4.9 seconds at the maximum 47.7 degree tilt, so **the manoeuvre the
+programme existed to demonstrate is about one percent of the fuel and the hovering that brackets it
+is everything else**. A cautious take-off and landing profile spends 54.6 percent of the fuel without
+leaving the airfield. **Holding position to a metre over five seconds requires holding the mean tilt
+below half a degree**, because hovering is a third-order position loop with no aerodynamic restoring
+moment anywhere in it. A ten metre per second crosswind is only 7.0 percent of the pitch requirement
+as a moment and 72 metres of drift in thirty seconds as a position error, so **the wind is a position
+problem and not an attitude problem**. The ground observer who talked the pilot down is best
+understood as a delayed sensor inside that loop, and a delay of 0.3 seconds consumes the entire hook
+tolerance at one metre per second of closure. **Deleting the undercarriage bought roughly a quarter
+more fuel.** The exhaust loads the ground about a hundred times more heavily than a rotor of the same
+span. And a turboprop tail-sitter hovers with roughly stall-level dynamic pressure already on its
+control surfaces while a turbojet tail-sitter hovers with none, **which is the whole design
+difference between the X-13 and the XFY-1**.
+
+**An error was made and corrected during the pass.** The first writing said a one-fifth-scale model
+imposes a twenty-fifth of the ground pressure. For geometric scaling at fixed thrust to weight the
+disc loading goes as the first power of length, so it is one fifth. **Sixth article running in which
+writing a relation down caught arithmetic carried as an assertion.**
+
+**A section ordering defect was found and fixed.** The three-axis summary table cited a roll
+crossover derived two sections later, and the Roll section was moved ahead of the Yaw section so the
+figure is established before it is used.
+
+**Method note.** The master table is built from the A310 harvest alone. The generator inherited from
+A309 read both the current and the previous article's directories, which would have imported six
+hundred documents about ballistic missiles into an article about a tail-sitting jet.
+
+**Archive note.** Querying NASA's technical archive for `X-13 Vertijet` or `vertijet` returns nothing
+at all, and `Ryan X-13` returns the spin-tunnel series and the one-fifth-scale hovering and
+transition tests. **The vehicle is indexed under the name its engineers used and not the name the
+public learned**, which is the X-10 project-number lesson in a new form.
+
+**Verification**: all 176 worked values re-derived independently with zero corrections beyond the one
+described. 45 of 45 fixed identifiers at 200, 82 of 82 DOIs Crossref-resolved on title at the 0.85
+threshold with zero flagged, 130 URLs with zero duplicates, no hand-entered identifier anywhere.
+`_verify.py` at the 0-error 21-warning corpus baseline. Zero contractions, em-dashes, en-dashes,
+prose colons, prose semicolons, prose parentheticals, doubled words, duplicate headings, unbalanced
+emphasis markers, lone dollar-delimited lines, or adjacent display-math seams. All twenty insertion
+seams read by eye. Isolated build succeeding with 56 rendered display blocks matching the source
+count exactly, Part 14 navigation, eleven tables, no unresolved reference links and no surviving
+Liquid tags. `aircraft` at 8.83 and `control` at 5.52 per thousand body words are the subject and
+keystone nouns and are reported rather than remediated.
+
+**Remaining for the review passes, with one warning.** The master pool holds only 665 entries against
+A309's 3,597, of which 525 are unused. **That is very unlikely to support the 250 reference floor**,
+so the primary pass must begin with a supplementary harvest rather than with a coverage audit.
+Primary sources are 77 of 126, or 61.1 percent of dated, and contemporary references are already 47.
+
 ## X-Planes Convair X-12 A309 2025-10-18
 
 `x_planes_convair_x12.markdown`, A309, editorial date 2025-10-18, series `x_planes` index 13 of 72.
