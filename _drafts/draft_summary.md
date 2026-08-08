@@ -17,6 +17,48 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-16 A313 2025-10-22
+
+`x_planes_bell_x16.markdown`, A313, editorial date 2025-10-22, series `x_planes` index 17 of 72.
+
+**534 lines, 20 display equations, 85 references, 7,450 words after the draft pass.** Equation and
+reference reviews pending.
+
+**This is the first article in the series whose subject has no technical record at all.** NTRS returns
+zero records for MX-2147, zero for the aircraft as an aeroplane, and zero for the Bell model number,
+and ten false positives for the aircraft name consisting of Bell Laboratories radio surveys and a
+galaxy catalogued as MCG-05-23-16. DTIC holds the reconnaissance requirement and several sibling
+weapon-system studies but nothing on this aircraft. **Every dimension, weight, and performance figure
+in the article comes from a secondary compilation, and the compilations disagree with one another.**
+
+**The article is carried by the A310 rule** that a vehicle with almost no record of its own can still
+be dense provided the question it asked was one other people were also asking. The X-16's question is
+subsonic cruise at extreme altitude, which is the U-2's question, the RB-57D's question, and the
+question the modern high-altitude long-endurance field is asking now.
+
+**The X designation was security cover rather than a research classification**, which makes this the
+first entry in the register where the number describes the secrecy rather than the aircraft.
+
+**The keystone is the thrust ceiling and it was chosen against the famous answer.** Minimum drag is
+weight over the maximum lift to drag ratio and contains no density at all, so it does not vary with
+altitude, while turbojet thrust lapses as the air thins. The ceiling is where they meet, which makes
+it a function of instantaneous weight rather than a property of the aeroplane. The coffin corner sits
+about fourteen thousand feet above that limit at every weight and never binds.
+
+**The method then failed its own validation, and the failure is the article's best result.** At a
+linear thrust lapse the quoted 71,832 foot ceiling requires a weight 955 pounds below the empty
+weight, and the same failure lands on the U-2A and the RB-57D in the same direction. Solving for the
+lapse exponent instead of assuming it gives 0.9686, 0.9780, and 0.8669 for the three aircraft, with
+the two whose wing areas are published agreeing to within one percent. That is a statement about
+compressors in thin air rather than about wings, and it corroborates the historical claim that the
+programme's lasting contribution was the high-altitude J57 that then powered the U-2.
+
+**Class question for the pilot.** The draft sits above the documentation-poor band of 150 to 400
+lines, 0 to 15 equations, and 20 to 60 references on all three measures, and well below the
+full-aircraft band of 1,300 to 1,600 lines, 90 to 130 equations, and 250 to 380 references on all
+three. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
+than padded upward or trimmed downward.
+
 ## X-Planes North American X-15 A312 2025-10-21
 
 `x_planes_north_american_x15.markdown`, A312, editorial date 2025-10-21, series `x_planes` index 16

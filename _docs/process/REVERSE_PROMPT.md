@@ -9,144 +9,151 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A312 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All sixteen articles in the series remain in `_drafts/`.
+**Task**: A313 drafted, the Bell X-16. The first of four passes. Committed, **not pushed**, not
+published. All seventeen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Pass Found a Limit on the Article's Own Method
+## The Archive Holds Nothing About This Aeroplane
 
-This is the most useful thing the review did, and it is a statement about the arithmetic rather than
-about the aeroplane.
+This is worth stating first because it decided how the article was built. NASA's technical reports
+server returns **zero records for MX-2147**, zero for the aircraft as an aeroplane, zero for the Bell
+model number, and ten false positives for the aircraft name, consisting of Bell Laboratories radio
+surveys and a galaxy catalogued as MCG-05-23-16. The Defense Technical Information Center holds the
+reconnaissance requirement and several sibling weapon-system studies and nothing on this aircraft.
 
-Every relation in this article treats air as a perfect gas at a ratio of specific heats of 1.4. That
-fails when the gas gets hot enough to dissociate, and the stagnation-temperature relation says exactly
-when. Setting it equal to the onset of oxygen dissociation near 2,500 kelvin and solving at the record
-altitude gives **Mach 7.06**.
+**This is not the retrieval defect A311 and A312 both met**, where a report existed but no phrasing of
+its own title would surface it. There is nothing to surface. Every dimension, weight, and performance
+figure in the article comes from a secondary compilation, and the compilations disagree with one
+another.
 
-**The X-15 reached Mach 6.70, which is 94.8 percent of it.**
-
-**The article's arithmetic is very nearly at the edge of its own validity at the aircraft's fastest
-condition.** The ideal-gas stagnation temperature at orbital entry would be 30,500 kelvin, which is
-physically meaningless because the air dissociates and ionises long before it gets there.
-
-That is not a coincidence of my method. **It is close to what the phrase hypersonic aeroplane could
-mean in 1954**, because a vehicle going meaningfully faster is not managing a thermal load but
-conducting chemistry, and the materials of the period could not have been designed against a problem
-nobody could yet compute.
+**The A310 rule carried the article.** A vehicle with almost no record of its own can still be dense
+provided the question it asked was one other people were also asking. The X-16's question is subsonic
+cruise at extreme altitude, which is the U-2's question, the RB-57D's question, and the question the
+modern high-altitude long-endurance field is asking now. The harvest returned 947 records and the
+master table holds 871 entries, none of them about the X-16.
 
 ---
 
-## A Result That Changed Direction
+## The Keystone Was Chosen Against the Famous Answer, and Computed
 
-The equation pass found that a hot wall absorbs a smaller fraction of the friction dissipation than a
-cold one, and treated that as a mechanism by which a hot structure protects itself. That is correct at
-the X-15's speed.
+The popular limit on a seventy-thousand-foot aeroplane is the coffin corner. **It is not what bound
+the X-16, and the article computes both rather than assuming the famous one.**
 
-Extending the same relation shows the fraction tends to **the recovery factor over two, about 44.5
-percent**, as speed grows, because the adiabatic wall temperature itself grows as V². Evaluated: 27.4
-percent at the X-15's record, 36.7 at three kilometres per second, 41.7 at five.
+Minimum drag is weight over the maximum lift to drag ratio and **contains no density at all**, so it
+does not vary with altitude. Turbojet thrust does. The ceiling is where they meet, which makes it
 
-**A faster vehicle gives a larger share of its friction dissipation to its own structure, not a smaller
-one.** The protection the X-15 enjoyed is a low-speed luxury that fades exactly where it would be most
-wanted. Both statements are in the text and neither supersedes the other.
+**a function of instantaneous weight rather than a property of the aeroplane.**
 
----
-
-## The Keystone Ratio Evaluated Elsewhere, and Why the Hot Structure Died
-
-The X-15's 2.26 becomes 3.15 for Mach 8 cruise, 13.8 for a glide vehicle, **33.6 for orbital entry**,
-and 66.9 for lunar return. Orbital entry is **14.9 times worse** by the measure the article is built on,
-which is a sharper statement of why the architecture does not scale than the usual observation that
-entry is hotter.
-
-And the reason the hot metallic structure was abandoned is a fourth power:
-
-| Surface | Temperature | Rejects | Against the X-15 record rate |
-|---|---|---|---|
-| Inconel at its design limit | 922 K | 3.28 W/cm² | 5.1 percent |
-| Shuttle tile | 1,533 K | 26.6 W/cm² | 41.1 percent |
-| Ultra-high-temperature ceramic | 2,273 K | 128.7 W/cm² | 198.5 percent |
-
-**A ceramic leading edge rejects 39.2 times what Inconel at its limit rejects**, and can sustain twice
-the heating rate that nearly destroyed the X-15A-2.
+Thrust binds at every weight, by about fourteen thousand feet. The two limits sit at density ratios
+both proportional to weight, so they move together and no amount of fuel burn brings the aeroplane
+near the corner.
 
 ---
 
-## Contemporary Coverage
+## The Method Failed Its Own Validation, and That Is the Best Result in the Article
 
-A 65-query sweep returned **689 new records**, taking contemporary references from **13 to 111, or 33.5
-percent of dated**, inside the 101 to 189 absolute range the series has held since A301. That closes
-the largest contemporary gap any article had carried into a publication review.
+At a linear thrust lapse the quoted service ceiling of 71,832 feet requires a weight of 22,325 pounds.
+**The empty weight is 23,280.** The relation demands an aeroplane 955 pounds lighter than one with
+nothing in it.
 
-Twelve subsections replaced eight. **The one worth naming is the nonequilibrium cluster**, because it
-is the literature that begins exactly where this article's arithmetic stops. **[Lushchik et al 2026]
-treats the Reynolds analogy factor in a compressible turbulent boundary layer on a cooled wall**, which
-is this article's own relation at this article's own condition, published sixty years after the
-aircraft flew.
+The same failure lands on the U-2A and the RB-57D in the same direction, which makes it one shared
+wrong assumption rather than three data errors. The sensitivity study named the culprit. The ceiling
+moves **7,786 feet** across a plausible zero-lift drag range and **32,142 feet** across a plausible
+lapse-exponent range, a factor of **4.13**.
 
-Three further findings. **Transition is still being settled by flying experiments** — [Johnston et al
-2026] reports BOLT-1B transition at flight conditions, which is a flight experiment for the same reason
-the X-15 was one. **Shock interference became a field**, with its own separation criteria and control
-techniques, built around the mechanism that destroyed the X-15A-2's pylon. And **no facility reproduces
-flight**; what changed is that the resulting ignorance is now quantified rather than argued about.
+Solving for the exponent instead of assuming it:
+
+| Aircraft | Required exponent |
+|---|---|
+| Bell X-16 | 0.9686 |
+| Lockheed U-2A | 0.9780 |
+| Martin RB-57D | 0.8669 |
+
+**The two whose wing areas are actually published agree to within one percent.** Three aeroplanes
+designed separately by three companies against one requirement are consistent with one statement about
+how a turbojet behaves in thin air. That is a statement about compressors rather than wings, and it
+corroborates the historical claim that the programme's lasting contribution was the high-altitude J57
+that then powered the aeroplane that beat it.
+
+At the solved exponent the X-16 first reaches its design altitude at **29,839 pounds**, after burning
+**48.9 percent of its disposable load**, so the design altitude is an end-of-mission condition and the
+mission is a cruise climb.
 
 ---
 
-## Two Defects Found
+## Two Conclusions Inverted During the Pass
 
-**A sweep of all 336 external URLs found one persistently dead DOI**, a 2026 paper on medical risks in
-suborbital flight, and **the citation was removed rather than shipped**. A second 404 proved transient
-and resolved at 200 on recheck with a longer timeout, which is worth recording because the first sweep
-would have condemned it.
+**The Breguet check.** First solved one way, it implied a specific fuel consumption of 1.157 pounds per
+pound force per hour against a period band of 0.8 to 0.9, which reads as the quoted range being
+optimistic. Solved the other way, the quoted range is **73.5 percent of ideal Breguet**, which is an
+ordinary allowance for climb, descent, and reserves. **The reading was wrong, the range figure passes,
+and the article says so in the text rather than silently correcting.**
 
-**Two link-text mismatches** were caught by the invariant, both truncated disambiguation suffixes.
-**The URL-stability guard fired no drift** on a rebuild over 689 new records.
+**The widening margin.** The draft first explained the thrust-to-corner margin widening by stalling
+speed going as the square root of wing loading against a linear thrust ceiling. **That was wrong.**
+Both limits sit at density ratios proportional to weight and move together. The 279 feet of widening
+is a scale-height effect, because the corner sits fourteen thousand feet higher where the temperature
+is rising above the tropopause.
+
+---
+
+## A Defect My Own Tooling Introduced
+
+A delimiter-normalisation regex whose trailing `\s*$` consumed the blank line after every display
+equation collapsed **all twenty** into their following paragraphs. Kramdown then rendered them as
+**inline** math rather than display math, which is silently wrong rather than visibly broken.
+
+Every automated check passed it. **Only the isolated build caught it**, by counting rendered display
+delimiters against source blocks. `check.py` now requires a blank line on both sides of every display
+equation.
 
 ---
 
 ## Verification
 
-**350 reference definitions, 336 external URLs, zero duplicates, zero orphans.** URL distribution: 152
-plain 200s, 107 publisher 403s from bot detection, 69 DTIC DOI redirects, 4 202s, one publisher 500,
-one transient 404 that resolved. **An HTTP 200 does not verify a citation** and the sweep does not claim
-to.
+**83 independent re-derivations, zero disagreements.** Deliberately not importing the calculation
+module. The atmosphere is reimplemented by trapezoidal integration of the hydrostatic equation rather
+than the analytic layer solution, and the ceiling by scanning altitude rather than inverting the
+relation, so a mistake in one cannot validate itself.
 
-All 20 newly introduced numbers re-derived independently and reproducing, on top of the 43 from the
-equation pass and 40 from the draft. `_verify.py` at the 0-error 21-warning corpus baseline. Zero
-contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words,
-duplicate headings, unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math
-seams. Two prose semicolons introduced by my own edits were caught and fixed.
+**69 external URLs.** 44 plain 200s, 13 publisher 403s from bot detection, and **12 DTIC DOIs verified
+through the Crossref registry** with titles matching the prose, after the `.mil` landing pages refused
+automated connections. Asking the registry whether an identifier is registered and what title it
+carries is **a stronger check than an HTTP 200**, because it confirms the identifier points at the
+document the prose names rather than merely that a server answered.
 
-**Equation count was measured before and after the section replacement**, per the A310 lesson, and rose
-from 90 to 99 rather than silently dropping.
-
-The Epistemic State was extended to record the validity limit, the direction change, and the
-representative modern values.
+`_verify.py` at the 0-error 21-warning corpus baseline, run from the repository root. **The
+relative-path defect recurred twice this session**, once invoking a generator by bare name from the
+repository root and once running `_verify.py` with an inherited scratch working directory, where it
+reported a misleading 0 warnings. Isolated build passing with 20 of 20 display blocks rendered, 8 of 8
+tables, and Part 17 navigation.
 
 ---
 
-## Final State
+## Draft State and an Open Question for You
 
-**1368 lines, 99 display equations, 350 references, 15,267 body words.**
+**534 lines, 20 display equations, 85 references, 7,450 body words.**
 
-**All three densities inside band. Nothing was trimmed at any point in any of the four passes**, which
-makes A312 the seventh consecutive article to finish that way.
+That sits **above the documentation-poor band** of 150 to 400 lines, 0 to 15 equations, and 20 to 60
+references on all three measures, and **well below the full-aircraft band** of 1,300 to 1,600 lines, 90
+to 130 equations, and 250 to 380 references on all three.
 
-Contemporary 111, or 33.5 percent of dated. Primary 220, or 66.5 percent. Citation density 22.73 per
-thousand, above A311's final 20.2, which reflects a survey section carrying 111 contemporary references.
+**`RESEARCH_AIRCRAFT_STRUCTURE.md` does not name an intermediate class.** The draft was neither padded
+upward nor trimmed downward, and the figures are reported as they fell out of the material. The
+equation and reference passes will raise the last two substantially, as they have on every previous
+article. Whether the genre document should gain a fourth class is a decision for you and I have not
+made it.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
-the push is safe. **The publication-order dependency is sixteen deep**, A312 back to A297.
+**Committed, not pushed.** The draft pass does not push, per the series rhythm. Nothing in the series
+is published, and the deploy workflow builds without `--drafts`.
 
-Sixteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
-engineering`, sixteen articles deep and raised twenty times.
+**The publication-order dependency is seventeen deep**, A313 back to A297, and every cross-reference in
+this article points backward.
 
-**A313 is the Bell X-16**, a reconnaissance aircraft cancelled before it flew. That is a
-documentation-poor article immediately after the most documentation-rich one in the series, and the
-genre document's short-article class exists for exactly this case. **The risk is padding a thin record
-rather than stating the limit**, which is the opposite failure from the one A312 was written against.
+Seventeen articles of seventy-two. **Categories remain undecided** at `aerospace history engineering`,
+seventeen articles deep and raised twenty-one times.
