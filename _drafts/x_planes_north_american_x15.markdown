@@ -800,17 +800,139 @@ Nothing derived from the X-15 entered service. **That is not a failure and it is
 
 ## The Contemporary Literature
 
-The X-15's problem is live. Hypersonic flight is a subject of large current investment, and the questions are recognisably the same ones.
+The X-15's problem is live, and hypersonic flight is under larger investment now than at any time since the programme ended. This section opens with arithmetic rather than survey, because running this article's own relations forward changes what the survey then has to say, and in one respect it changes what the article can claim about itself.
 
-Modern work on hypersonic vehicle heating and thermal protection continues in [Zhai et al 2019][research_zhai_2019] on fault-tolerant attitude control with reaction control systems, [Liu et al 2020][research_liu_2020] on reentry attitude tracking with reaction control, and [Jiang et al 2020][research_jiang_2020] on precision analysis of hypersonic attitude control. **The reaction-control handover the X-15 flew by hand with a separate stick is now a control-allocation problem**, and the modern literature treats the blending as a solved matter of software.
+### The Keystone Ratio at Other Speeds
 
-[Ikeda and Takaku 2023][research_ikeda_takaku_2023] and [Ikeda and Takaku 2025][research_ikeda_takaku_2025] treat large-angle attitude manoeuvres by reaction control, and [Liu and Tan 2024][research_liu_tan_2024] incremental sliding-mode control for a fixed-wing vehicle, which is the same handover problem in another guise.
+The article is built on the observation that the X-15 carried 2.26 times the energy needed to melt its own structure. That ratio is a function of speed alone, since the melting enthalpy is a property of the material,
 
-Thermal protection has moved decisively away from the hot structure the X-15 demonstrated. The state of the art at the end of the Shuttle era is surveyed in [Scotti 1992][research_scotti_1992] and [Goldstein 1993][research_goldstein_1993], and current work on reusable vehicles is [Aprovitola et al 2019][research_aprovitola_2019] on design integration, [Huang et al 2019][research_huang_2019] on coupled fluid and thermal analysis of non-ablative systems, [Huang and Yao 2019][research_huang_yao_2019] on adhesive failure, and [Chang et al 2022][research_chang_2022] on adjustable non-ablative concepts. **The direction of travel is toward systems that are neither purely rate-limited nor purely load-limited**, which is the trade this article's sizing analysis sets out and which the X-15 met at its two extremes.
+$$\frac{e_{k}}{h_{\text{melt}}} = \frac{V^{2}}{2 h_{\text{melt}}}$$
 
-Robust control for hypersonic vehicles, which is the modern form of the problem the MH-96 attacked by adaptation, is [Bu et al 2019][research_bu_2019] and [Chen et al 2019][research_chen_2019] on fault estimation with a degraded sensor set.
+so it can be evaluated for anything.
 
-**What has not changed is the energy.** A hypersonic vehicle still carries kinetic energy comparable to the enthalpy that would destroy it, and the disposal of that energy is still the central design problem. The materials are better, the prediction is better, and the ratio is the same.
+| Vehicle | Speed | Specific kinetic energy | Ratio to melting |
+|---------|-------|-------------------------|------------------|
+| X-15 record | 2,021 m/s | 2.04 MJ/kg | 2.26 |
+| Hypersonic cruise, Mach 8 | 2,387 m/s | 2.85 MJ/kg | 3.15 |
+| Hypersonic glide vehicle | 5,000 m/s | 12.50 MJ/kg | 13.8 |
+| Orbital entry | 7,800 m/s | 30.42 MJ/kg | 33.6 |
+| Lunar return | 11,000 m/s | 60.50 MJ/kg | 66.9 |
+
+**Orbital entry is fifteen times worse than the X-15 by the measure this article is built on**, and lunar return is thirty times worse.
+
+$$\frac{33.6}{2.26} = 14.9$$
+
+That is the quantitative reason the X-15's architecture does not scale, and it is a sharper statement than the usual observation that entry is hotter.
+
+### Where This Article's Arithmetic Stops Being Valid
+
+The more interesting result concerns the method rather than the vehicle, and it was not anticipated.
+
+Every relation in this article treats air as a perfect gas with a ratio of specific heats of 1.4. That assumption fails when the gas gets hot enough to dissociate, and the stagnation temperature relation says exactly when. Setting
+
+$$T_{0} = T_{\infty}\left(1 + \frac{\gamma - 1}{2}M^{2}\right)$$
+
+equal to the temperature at which molecular oxygen begins to dissociate in earnest, about 2,500 kelvin, and solving for Mach number at the record altitude gives
+
+$$M = \sqrt{\frac{2}{\gamma - 1}\left(\frac{2{,}500}{227.6} - 1\right)} = 7.06$$
+
+**The X-15 reached Mach 6.70, which is 94.8 percent of that.**
+
+$$\frac{6.70}{7.06} = 0.948$$
+
+**The X-15 is very nearly the fastest vehicle for which the arithmetic in this article is valid.** Past about Mach 7 the air stops being the gas these relations describe, oxygen dissociates, then nitrogen, then everything ionises, and energy that the ideal treatment puts into temperature goes into breaking molecules instead. The ideal-gas stagnation temperature at orbital entry would be
+
+$$T_{0} = 227.6 + \frac{7{,}800^{2}}{2 \times 1004.5} = 30{,}500 \text{ K}$$
+
+which is physically meaningless.
+
+That is not a coincidence of this article's arithmetic. **It is close to what the phrase hypersonic aeroplane could mean in 1954**, because a vehicle going meaningfully faster is not managing a thermal load but conducting chemistry, and the materials of the period could not have been designed against a problem nobody could yet compute.
+
+The modern literature on exactly this is large. [Tong et al 2026][research_tong_2026] and [Chu et al 2026][research_chu_2026] review thermochemical nonequilibrium for hypersonic vehicles, [Aiken and Boyd 2026][research_aiken_boyd_2026] treats electronic excitation in dissociating air, [Chinnappan and Kim 2026][research_chinnappan_kim_2026] and [Xiong et al 2025][research_xiong_2025] the vibrational-temperature modelling that a two-temperature treatment requires, and [Zhang et al 2025, Implicit unified gas-kinetic schem][research_zhang_2025_3] the numerical method. The ionised layer that results makes radio communication fail, which is its own subject in [Qin et al 2026][research_qin_2026], [Morimoto and Kinefuchi 2025][research_morimoto_kinefuchi_2025], and [Petervari et al 2023][research_petervari_2023].
+
+### The Energy Partition Gets Worse With Speed, Not Better
+
+The article found that a hot wall absorbs a smaller fraction of the friction dissipation than a cold one, and treated that as a mechanism by which the structure protects itself. Extending the same relation to higher speed inverts the comfort.
+
+$$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} \longrightarrow \frac{r}{2} \quad \text{as} \quad V \rightarrow \infty$$
+
+because the adiabatic wall temperature itself grows as $V^{2}$, so the wall temperature becomes negligible in the difference and the ratio tends to the recovery factor over two, or about 44.5 percent. Evaluating the ideal-gas form at increasing speed gives 27.4 percent at the X-15's record, 36.7 at three kilometres per second, and 41.7 at five.
+
+**A faster vehicle gives a larger share of its friction dissipation to its own structure, not a smaller one**, and the hot-wall protection the X-15 enjoyed is a low-speed luxury that fades exactly where it would be most wanted. **[Lushchik et al 2026][research_lushchik_2026] treats the Reynolds analogy factor in a compressible turbulent boundary layer on a cooled wall**, which is this article's relation at this article's condition, published sixty years after the aircraft flew.
+
+### Predicting the Heat Flux Is Still the Central Problem
+
+The correlation this article used is a 1970s descendant of 1950s work, and the modern versions are recognisably the same object with more computation behind them. [Rodrigues 2026][research_rodrigues_2026] reconstructs a stagnation-point heat-flux scaling in closed form, [Goates et al 2026][research_goates_2026] presents an impact method for aerodynamics and convective heating together, and [Joseph et al 2026][research_joseph_2026] a prediction and optimisation framework for aerothermal performance. Machine-learned surrogates now sit on top, in [Dai et al 2026][research_dai_2026] and [Way et al 2026][research_way_2026], the latter using one inside a trajectory optimisation, which is this article's observation that trajectory is a thermal design variable turned into an algorithm. Related aerothermal analyses are [Al-Damook et al 2026][research_al_damook_2026], [Rathi and Sinha 2024, Interaction Length Analysis of Hyp][research_rathi_sinha_2024_2], [Zhang et al 2024, Hypersonic shock-shock interaction][research_zhang_2024_3], and [Fujio and Taguchi 2026][research_fujio_taguchi_2026].
+
+Measuring it remains hard and remains a subject. [Kaneider and Rödiger 2026][research_kaneider_rodiger_2026], [Ghandhi et al 2026][research_ghandhi_2026], [Blem and Gülhan 2026][research_blem_gulhan_2026], [Lu et al 2025, Design, Fabrication, and Performan][research_lu_2025_2], and [Li et al 2025, A Thin-Film Heat Flux Sensor With][research_li_2025_3] are all sensor development. **The X-15's ball nose has descendants and they are still being invented.**
+
+### Transition Is Still the Dominant Uncertainty
+
+The article flagged boundary-layer transition as the largest single uncertainty in its own heating numbers, and that has not changed.
+
+The instability mechanism is treated in [Tian and Liu 2026][research_tian_liu_2026] and [Park et al 2026][research_park_2026] on the Mack second mode, [Varma and Zhong 2026][research_varma_zhong_2026] on receptivity with nonequilibrium effects, [Zhang et al 2026, Effect of wall mass injection on r][research_zhang_2026_5] on wall mass injection, and [Zeng et al 2026][research_zeng_2026] on rarefaction. Roughness, which is what a real vehicle has, is [Xu et al 2026][research_xu_2026] and [Guo and Cao 2026][research_guo_cao_2026]. Prediction and control are [Peng and Wang 2026][research_peng_wang_2026], and geometry effects are [Zhang et al 2026][research_zhang_2026] and [Hossein et al 2025][research_hossein_2025]. The wider modelling problem is [Zhu et al 2025][research_zhu_2025], [Guo et al 2025][research_guo_2025], and [Tang et al 2024][research_tang_2024], with the rarefied and low-density limits in [Pu et al 2026][research_pu_2026] and [Gao et al 2026][research_gao_2026].
+
+**The strongest evidence that the problem is unsolved is that it is still being flown.** [Johnston et al 2026][research_johnston_2026] reports transition on BOLT-1B at flight conditions, which is a flight experiment for the same reason the X-15 was one, seventy years later.
+
+### Shock Interference Became a Field
+
+The mechanism that destroyed the X-15A-2's pylon is now a subject with its own separation criteria, prediction methods, and control techniques. [Wang and Zuo 2026][research_wang_zuo_2026] gives a separation criterion for swept interactions, [Wang et al 2026, Prediction of separation length fo][research_wang_2026_2] predicts separation length, [Yang et al 2026, A physics-informed post-processing][research_yang_2026_2] applies physics-informed post-processing, and [Cerminara et al 2026][research_cerminara_2026] treats receptivity of a transitional interaction. [Tang et al 2025][research_tang_2025] and [Sun et al 2025, Mechanisms of hypersonic shock wav][research_sun_2025_2] couple separation to the heating it produces, which is the X-15A-2's failure mode stated as physics. **Control of the interaction is now attempted rather than merely avoided**, in [Li et al 2026, Effect of Spanwise Dynamic Micro-V][research_li_2026_3].
+
+### What Replaced the Hot Structure
+
+The X-15's architecture was abandoned and the reason is quantitative. A radiating surface rejects heat as the fourth power of its temperature, so the entire question is how hot a material can be allowed to get.
+
+$$\dot{q}_{\text{reject}} = \varepsilon \sigma T^{4}$$
+
+| Surface | Temperature | Rejects | Against the X-15 record rate |
+|---------|-------------|---------|------------------------------|
+| Inconel at its design limit | 922 K | 3.28 W/cm² | 5.1 percent |
+| Shuttle tile | 1,533 K | 26.6 W/cm² | 41.1 percent |
+| Ultra-high-temperature ceramic | 2,273 K | 128.7 W/cm² | 198.5 percent |
+
+**A ceramic leading edge rejects thirty-nine times what Inconel at its limit rejects**, and can sustain twice the heating rate that nearly destroyed the X-15A-2.
+
+$$\frac{128.7}{3.28} = 39.2$$
+
+That is the whole argument for the materials the field went to instead, and it is why the hot metallic structure did not survive. The current work is [Luo et al 2026][research_luo_2026] and [Rajput et al 2026][research_rajput_2026] as reviews, [Rahimi et al 2026][research_rahimi_2026] on functionally graded ceramics, [Nair et al 2026][research_nair_2026] on oxide composite tiles, [Zhou et al 2025][research_zhou_2025] and [Jiang et al 2026][research_jiang_2026] on anti-ablation coatings and their oxidation resistance, [Wang et al 2025][research_wang_2025] and [Wang and Han 2025][research_wang_han_2025] on carbon composites at temperature, [Kim and Choi 2026][research_kim_choi_2026] on tile durability, and [Tian et al 2025][research_tian_2025] on low-recession ablators. Modelling them is [Venegas et al 2026][research_venegas_2026], [McAfee et al 2026][research_mcafee_2026], [Chevalier et al 2026][research_chevalier_2026], and [Zhang et al 2025, Towards detailed oxidation depth a][research_zhang_2025_4].
+
+**A fourth approach exists that the X-15 could not have used**, which is to cool the surface actively rather than let it come to equilibrium. [Mannion et al 2026][research_mannion_2026], [Brody et al 2026][research_brody_2026], [Hu et al 2026][research_hu_2026], and [Gibbons et al 2026][research_gibbons_2026] treat transpiration cooling at leading edges, and [Yu et al 2025][research_yu_2025] and [Shanmugam et al 2025][research_shanmugam_2025] active cooling with a circulating fluid, with joint and interface behaviour in [Yue et al 2025][research_yue_2025], [He et al 2026, Thermal erosion characteristics of][research_he_2026_2], [Li et al 2026, A novel adaptive coating for colla][research_li_2026_2], and [Liang and Yang 2025][research_liang_yang_2025].
+
+### The Hot Structure's Actual Descendant Is a Coupling Problem
+
+Where metallic hot structures survive, the interesting question is no longer whether they hold but how they interact with the flow over them as they deform.
+
+[Wan et al 2025][research_wan_2025] reviews aerothermoelastic problems of hypersonic vehicles, [Xie et al 2025][research_xie_2025] treats how structural thermal stress feeds back into the aerodynamics, and [Shi et al 2025][research_shi_2025] couples material catalycity to deformation. **The X-15's corrugated skin was a static answer to a static problem.** The modern version of the same problem is dynamic, and it is a coupling between three disciplines rather than a stress calculation.
+
+### Trajectory as a Thermal Variable, Now Solved Numerically
+
+The article's finding that the heating rate and the heat load are optimised by different trajectories is the premise of a large modern literature on entry guidance under a heating constraint.
+
+[Cai et al 2026, Improved two-phase sequential conv][research_cai_2026_2] and [Su and Liu 2025][research_su_liu_2025] treat reentry trajectory optimisation with constraints, [Zhang et al 2025, Reentry trajectory optimization wi][research_zhang_2025_5] with waypoints, and [Doronzo 2026][research_doronzo_2026] the manoeuvrability trade for a glide vehicle. The unpowered precision landing the X-15's pilots flew by eye is now [Chen et al 2026, Explicit Trajectory Dispersion Con][research_chen_2026_2], [Yang 2025][research_yang_2025], [Zhang et al 2025, Trajectory planning and guidance d][research_zhang_2025_7], and [Tariq et al 2026][research_tariq_2026], all for reusable rockets rather than aeroplanes, and all solving the problem the X-15 solved with a five-degree angle-of-attack band.
+
+Attitude control through the same regime is [Wang et al 2025, Robust attitude control for hypers][research_wang_2025_2], [Zhang et al 2025, Finite‐time fault‐tolerant attitud][research_zhang_2025_6], [Lv et al 2023][research_lv_2023], [Le et al 2023][research_le_2023], and [Wu et al 2026][research_wu_2026], with the field reviewed in [Fan et al 2024, Research progress and prospect of][research_fan_2024_2], and further treatments in [Ding et al 2025][research_ding_2025], [Liu et al 2024, Adaptive Fuzzy Fault-Tolerant Atti][research_liu_2024_3], [Zhou 2023][research_zhou_2023], and [Zhang and Ding 2023][research_zhang_ding_2023]. **The MH-96's descendants are fault-tolerant rather than merely adaptive**, which is a change in what the control system is expected to survive rather than in what it is expected to do.
+
+### Ground Facilities Still Cannot Reproduce Flight
+
+The article's Comparison section found that no facility of the 1960s could match Mach number, Reynolds number, and enthalpy at once. That has not been fixed. It has been managed.
+
+The facilities themselves continue in [Sudarshan et al 2023][research_sudarshan_2023], [Yuan and Jiang 2021][research_yuan_jiang_2021], [Malekipour et al 2021][research_malekipour_2021], and [Shen et al 2023][research_shen_2023]. **What is new is quantifying the resulting ignorance rather than arguing about it.** [Khoury and Hickey 2026][research_khoury_hickey_2026] and [Li et al 2025, Application of Uncertainty Quantif][research_li_2025_4] apply uncertainty quantification to turbulence models in this regime, [Koch et al 2025][research_koch_2025] to the probabilistic design of a thermal protection system, and [Ding et al 2025, Sensitivity analysis and uncertain][research_ding_2025_2] to a rarefied case. [Horing et al 2025][research_horing_2025] does sensitivity analysis on an entry vehicle directly.
+
+Prediction of where such a vehicle will go, which is a different problem from flying it, is [Zhou et al 2026, Physics-Informed Ensemble Informer][research_zhou_2026_2], [He et al 2026][research_he_2026], and [Cai et al 2026][research_cai_2026]. The vehicles being designed against all of this are surveyed in [Long et al 2026][research_long_2026], [Nagata and Yamada 2026][research_nagata_yamada_2026], [MacLeod 2026][research_macleod_2026], [Paramadhayalan et al 2026][research_paramadhayalan_2026], and [Dineshkumar et al 2026][research_dineshkumar_2026]. **And a crewed suborbital industry now exists**, with the regulatory questions the X-15's programme met privately now met publicly in [Antonaros and Curran 2026][research_antonaros_curran_2026].
+
+**That is the honest successor to what the X-15 did.** The aircraft reduced the uncertainty by flying, whereas the modern approach measures the uncertainty and designs around it.
+
+### What Has Not Changed
+
+Four of this article's findings have no modern remedy.
+
+**The energy still has to go somewhere, and the ratio only gets worse.** A faster vehicle carries more of it against the same melting enthalpy, and the fraction reaching the structure rises rather than falls.
+
+**Trajectory is still a thermal design variable.** Rate and load are still optimised by different paths, and the vehicle still cannot dispose of its energy where it acquires it.
+
+**Transition is still the dominant uncertainty**, and it is still being settled by flying experiments because the ground facilities still cannot answer it.
+
+**And no facility reproduces flight.** The X-15 existed because of that and the reason it existed has not gone away, which is why hypersonic flight testing is being funded again.
 
 ## Where the Framing Breaks Down
 
@@ -858,6 +980,12 @@ One archive quirk is worth recording because a reader checking the citation will
 
 **Inference, stated as such.** That the two records are one budget differently partitioned is the article's framing rather than a claim any source makes. That the X-15A-2's ablative coating moved the vehicle from a rate-limited to a load-limited thermal regime is an inference from the nature of the two structures. That the reaction-control experience of the [X-14][related_post_a311_bell_x14] was available to the X-15's designers is plausible from the dates and is not documented here as a transfer.
 
+**A limit on the article's own method, found during the publication review.** Every relation here treats air as a perfect gas with a ratio of specific heats of 1.4. Setting the stagnation-temperature relation equal to the onset of oxygen dissociation near 2,500 kelvin gives Mach 7.06 at the record altitude, and **the X-15 reached Mach 6.70, or 94.8 percent of it**. The arithmetic in this article is therefore very nearly at the edge of its own validity at the aircraft's fastest condition, and it would be wrong at any substantially higher speed. The dissociation onset temperature is a soft threshold rather than a sharp one and the figure should be read as an order rather than a boundary.
+
+**A result that changed direction during the publication review.** The article states that a hot wall absorbs a smaller fraction of the friction dissipation than a cold one, which is correct at the X-15's speed. Extending the same relation shows the fraction tends to the recovery factor over two, about 44.5 percent, as speed grows, because the adiabatic wall temperature itself grows as the square of velocity. **A faster vehicle therefore gives a larger share of its friction dissipation to its structure, not a smaller one**, and the protection the X-15 enjoyed does not scale. Both statements are in the text and neither supersedes the other.
+
+**Representative rather than actual values in the modern comparison.** The orbital, glide, and lunar-return speeds are round figures for their classes. The Shuttle tile and ultra-high-temperature ceramic surface temperatures of 1,533 and 2,273 kelvin are representative capability figures rather than measurements of any particular material, and the emissivities of 0.85 are assumed. The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation. The specific watts per square centimetre are not.
+
 **Claims the record does not settle.** The precise causal chain of the Adams accident, which [Dennehy et al 2014][research_dennehy_2014] reconstructs and which this article reports rather than adjudicates.
 
 ## Out of Scope
@@ -892,13 +1020,15 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_adkins_jarvis_1964]: https://ntrs.nasa.gov/citations/19640010769
 [research_adkins_jarvis_1964_2]: https://ntrs.nasa.gov/citations/19640034410
 [research_adkins_taylor_1964]: https://ntrs.nasa.gov/citations/19640017347
+[research_aiken_boyd_2026]: https://doi.org/10.1063/5.0333747
+[research_al_damook_2026]: https://doi.org/10.47176/jafm.19.5.3813
 [research_alexander_1970]: https://doi.org/10.21236/ad0875525
 [research_alexander_m_1978]: https://doi.org/10.21236/ada063655
 [research_altstatt_1977]: https://doi.org/10.21236/ada040023
 [research_anderson_1960]: https://doi.org/10.21236/ad0314095
 [research_andrews_1965]: https://ntrs.nasa.gov/citations/20000011982
 [research_andrews_mackley_1976]: https://ntrs.nasa.gov/citations/19760016172
-[research_aprovitola_2019]: https://doi.org/10.1155/2019/6069528
+[research_antonaros_curran_2026]: https://doi.org/10.2478/tar-2026-0002
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
 [research_arrington_1967]: https://doi.org/10.2514/6.1967-164
 [research_ault_1965]: https://doi.org/10.2514/6.1965-741
@@ -910,6 +1040,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_biberman_1970]: https://doi.org/10.1615/ihtc4.2320
 [research_birch_rudy_1975]: https://ntrs.nasa.gov/citations/19760008321
 [research_blanchard_1953]: https://ntrs.nasa.gov/citations/20090023638
+[research_blem_gulhan_2026]: https://doi.org/10.2514/1.t7300
 [research_blue_low_1953]: https://ntrs.nasa.gov/citations/19930083810
 [research_boison_1953]: https://doi.org/10.2514/8.2840
 [research_boison_1959]: https://doi.org/10.2514/8.4699
@@ -918,23 +1049,28 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_boylan_1978]: https://doi.org/10.2514/6.1978-799
 [research_brady_levensteins_1964]: https://doi.org/10.2514/6.1964-44
 [research_bray_1960]: https://ntrs.nasa.gov/citations/19980223952
+[research_brody_2026]: https://doi.org/10.2514/1.t7334
 [research_brownfield_badger_1960]: https://doi.org/10.21236/ad0247150
 [research_brunner_1959]: https://doi.org/10.1115/1.4008191
 [research_bruno_risher_1968]: https://doi.org/10.21236/ad0844592
 [research_bryson_1969]: https://doi.org/10.2514/6.1969-865
-[research_bu_2019]: https://doi.org/10.1016/j.actaastro.2019.05.039
 [research_bueche_1966]: https://doi.org/10.2514/6.1966-26
+[research_cai_2026]: https://doi.org/10.1016/j.ast.2026.112222
+[research_cai_2026_2]: https://doi.org/10.1007/s42064-026-0316-6
 [research_camp_williams_1974]: https://doi.org/10.2514/6.1974-990
 [research_cattrell_1955]: https://doi.org/10.4271/550190
+[research_cerminara_2026]: https://doi.org/10.2514/1.j066062
 [research_chang_1966]: https://doi.org/10.2514/6.1966-410
-[research_chang_2022]: https://doi.org/10.3390/aerospace10010001
-[research_chen_2019]: https://doi.org/10.1002/rnc.4544
+[research_chen_2026_2]: https://doi.org/10.2514/1.g009289
+[research_chevalier_2026]: https://doi.org/10.2514/1.a36307
 [research_chien_1975]: https://doi.org/10.21236/ada024511
 [research_chin_1964]: https://doi.org/10.2514/6.1964-1311
+[research_chinnappan_kim_2026]: https://doi.org/10.1007/s00162-026-00786-0
 [research_chou_smith_1974]: https://doi.org/10.21236/ada001135
 [research_chow_1963]: https://doi.org/10.21236/ad0412486
 [research_chow_1963_2]: https://doi.org/10.2514/3.1772
 [research_christensen_dodgen_1961]: https://ntrs.nasa.gov/citations/19710070144
+[research_chu_2026]: https://doi.org/10.3389/fchem.2026.1869326
 [research_clark_1978]: https://doi.org/10.1007/978-1-4615-9083-5_41
 [research_coles_1952]: https://doi.org/10.2514/8.2441
 [research_colosimo_1968]: https://doi.org/10.2514/6.1968-380
@@ -942,6 +1078,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_creager_1959]: https://ntrs.nasa.gov/citations/19980228324
 [research_creager_1959_2]: https://ntrs.nasa.gov/citations/19980228139
 [research_creel_1974]: https://ntrs.nasa.gov/citations/19740013473
+[research_dai_2026]: https://doi.org/10.1016/j.ast.2026.111989
 [research_davis_1970]: https://ntrs.nasa.gov/citations/19700017938
 [research_day_1953]: https://ntrs.nasa.gov/citations/19930087801
 [research_deem_murphy_1965]: https://doi.org/10.2514/6.1965-128
@@ -949,7 +1086,11 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_demetriades_1975]: https://doi.org/10.21236/ada016536
 [research_dennehy_2014]: https://ntrs.nasa.gov/citations/20140013264
 [research_diaconis_1959]: https://www.osti.gov/biblio/4079406
+[research_dineshkumar_2026]: https://doi.org/10.62643/ijerst.2026.v22.n3.4211
+[research_ding_2025]: https://doi.org/10.3390/drones9030223
+[research_ding_2025_2]: https://doi.org/10.1016/j.actaastro.2024.09.070
 [research_dohnanyi_1964]: https://ntrs.nasa.gov/citations/19650014698
+[research_doronzo_2026]: https://doi.org/10.4236/aast.2026.113005
 [research_duff_watson_1964]: https://doi.org/10.21236/ad0600872
 [research_dukes_1962]: https://ntrs.nasa.gov/citations/19620004480
 [research_edney_1968]: https://www.osti.gov/biblio/4480948
@@ -957,6 +1098,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_eggers_1958]: https://ntrs.nasa.gov/citations/19930085175
 [research_einstein_1961]: https://ntrs.nasa.gov/citations/19980232908
 [research_eschenbach_skinner_1961]: https://doi.org/10.21236/ad0266907
+[research_fan_2024_2]: https://doi.org/10.1049/icp.2024.0651
 [research_fetterman_1958]: https://ntrs.nasa.gov/citations/19930092383
 [research_finch_matranga_1959]: https://ntrs.nasa.gov/citations/19980236840
 [research_fink_1965]: https://doi.org/10.2514/6.1965-719
@@ -964,22 +1106,31 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_folck_smith_1969]: https://doi.org/10.21236/ad0694516
 [research_fortney_avery_1957]: https://doi.org/10.21236/ad0142007
 [research_foudriat_wingrove_1961]: https://ntrs.nasa.gov/citations/20040008247
+[research_fujio_taguchi_2026]: https://doi.org/10.1007/s12567-026-00722-2
 [research_furryy_1962]: https://doi.org/10.21236/ad0290357
 [research_games_1954]: https://doi.org/10.21236/ad0035127
+[research_gao_2026]: https://doi.org/10.47176/jafm.19.2.3660
 [research_garringer_saltzman_1966]: https://ntrs.nasa.gov/citations/19660010056
 [research_gellatly_1965]: https://doi.org/10.2514/3.43617
 [research_gellatly_gallagher_1964]: https://doi.org/10.21236/ad0431959
 [research_gentry_1966]: https://ntrs.nasa.gov/citations/19670039468
+[research_ghandhi_2026]: https://doi.org/10.1016/j.ijheatmasstransfer.2026.128982
+[research_gibbons_2026]: https://doi.org/10.2514/1.t7072
+[research_goates_2026]: https://doi.org/10.3390/aerospace13040373
 [research_goldstein_1993]: https://ntrs.nasa.gov/citations/19930012924
 [research_graber_1968]: https://doi.org/10.2514/6.1968-39
 [research_graves_1969]: https://ntrs.nasa.gov/citations/19690029227
 [research_greenewald_riley_1963]: https://doi.org/10.21236/ad0406873
 [research_gregorek_lee_1962]: https://doi.org/10.21236/ad0288297
 [research_gros_1963]: https://doi.org/10.21236/ad0436090
+[research_guo_2025]: https://doi.org/10.1063/5.0265257
+[research_guo_cao_2026]: https://doi.org/10.1063/5.0340255
 [research_hargrove_shalette_1968]: https://www.osti.gov/biblio/4193584
 [research_harney_1963]: https://doi.org/10.21236/ad0295147
 [research_harri_1964]: https://doi.org/10.2172/4597699
 [research_hart_1956]: https://doi.org/10.21236/ad0108104
+[research_he_2026]: https://doi.org/10.3390/electronics15143132
+[research_he_2026_2]: https://doi.org/10.1016/j.jeurceramsoc.2025.117835
 [research_henderson_1967]: https://doi.org/10.2514/6.1967-130
 [research_hendler_1964]: https://doi.org/10.21236/ad0609937
 [research_hermann_1962]: https://ntrs.nasa.gov/citations/19630006112
@@ -991,19 +1142,21 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_holden_1972]: https://doi.org/10.2514/6.1972-74
 [research_holden_1977]: https://doi.org/10.2514/6.1977-45
 [research_holleman_1976]: https://ntrs.nasa.gov/citations/19760010068
-[research_huang_2019]: https://doi.org/10.2514/1.a34212
-[research_huang_yao_2019]: https://doi.org/10.2514/1.a34363
+[research_horing_2025]: https://doi.org/10.2514/1.t7165
+[research_hossein_2025]: https://doi.org/10.1063/5.0243457
+[research_hu_2026]: https://doi.org/10.2514/1.a36423
 [research_huber_1966]: https://doi.org/10.2514/6.1966-750
 [research_hui_east_1971]: https://doi.org/10.1017/s0001925900005710
 [research_hung_barnett_1973]: https://ntrs.nasa.gov/citations/19730032160
 [research_hunt_jones_1969]: https://ntrs.nasa.gov/citations/19690019892
 [research_ibrahim_1967]: https://doi.org/10.21236/ad0658345
-[research_ikeda_takaku_2023]: https://doi.org/10.1016/j.ifacol.2023.10.229
-[research_ikeda_takaku_2025]: https://doi.org/10.1016/j.ifacol.2025.12.232
 [research_jewel_whitten_1960]: https://ntrs.nasa.gov/citations/19980228460
-[research_jiang_2020]: https://doi.org/10.1080/21642583.2020.1747567
+[research_jiang_2026]: https://doi.org/10.1016/j.coco.2026.102791
 [research_johnson_kaufman_1974]: https://ntrs.nasa.gov/citations/19740023647
+[research_johnston_2026]: https://doi.org/10.2514/1.a36722
+[research_joseph_2026]: https://doi.org/10.2514/1.a36485
 [research_kabelitz_1970]: https://doi.org/10.2514/6.1970-1174
+[research_kaneider_rodiger_2026]: https://doi.org/10.1088/1361-6501/ae958b
 [research_kaufman_1963]: https://doi.org/10.21236/ad0421859
 [research_kaufman_g_1963_2]: https://doi.org/10.21236/ad0423580
 [research_kaufman_g_1964]: https://doi.org/10.21236/ad0609559
@@ -1011,26 +1164,43 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_keener_polek_1972]: https://ntrs.nasa.gov/citations/19720048932
 [research_kendall_1974]: https://doi.org/10.2514/6.1974-133
 [research_kessler_1971]: https://ntrs.nasa.gov/citations/19730001590
+[research_khoury_hickey_2026]: https://doi.org/10.1016/j.ast.2026.113130
+[research_kim_choi_2026]: https://doi.org/10.3390/ma19020303
 [research_kind_orlik_rueckemann_1966]: https://doi.org/10.2514/3.3712
 [research_klett_1964]: https://www.osti.gov/biblio/4630398
+[research_koch_2025]: https://doi.org/10.1007/s12567-025-00597-9
 [research_koh_1962]: https://doi.org/10.2514/8.6292
 [research_lam_stollenwerk_1966]: https://doi.org/10.2514/6.1966-771
 [research_larson_1968]: https://doi.org/10.2514/6.1968-40
+[research_le_2023]: https://doi.org/10.3390/drones7020119
 [research_levy_1955]: https://doi.org/10.1108/eb032600
+[research_li_2025_3]: https://doi.org/10.1109/tim.2025.3527519
+[research_li_2025_4]: https://doi.org/10.2514/1.j065602
+[research_li_2026_2]: https://doi.org/10.1016/j.ceramint.2026.04.095
+[research_li_2026_3]: https://doi.org/10.3390/aerospace13070587
+[research_liang_yang_2025]: https://doi.org/10.1063/5.0263593
 [research_lin_1962]: https://doi.org/10.1016/b978-0-12-395595-1.50032-5
 [research_lipscomb_dodgen_1958]: https://ntrs.nasa.gov/citations/19930092393
 [research_liu_1967]: https://doi.org/10.2514/3.43830
-[research_liu_2020]: https://doi.org/10.32604/cmes.2020.08124
-[research_liu_tan_2024]: https://doi.org/10.3390/act13090371
+[research_liu_2024_3]: https://doi.org/10.3390/act13070259
+[research_long_2026]: https://doi.org/10.1016/j.asr.2026.03.053
 [research_loveless_boswell_1954]: https://doi.org/10.1108/eb032412
+[research_lu_2025_2]: https://doi.org/10.1109/tim.2025.3529069
 [research_luce_jr_1949]: https://doi.org/10.21236/ada278113
 [research_lunev_khramov_1970]: https://doi.org/10.1007/bf01019280
+[research_luo_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2026.111984
+[research_lushchik_2026]: https://doi.org/10.1134/s0015462826605371
+[research_lv_2023]: https://doi.org/10.1016/j.neucom.2022.11.057
 [research_maas_1959]: https://doi.org/10.1016/b978-1-4831-9730-2.50014-4
 [research_mabey_gaudet_1975]: https://doi.org/10.2514/3.44494
+[research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
 [research_maglieri_1959]: https://ntrs.nasa.gov/citations/19860065693
+[research_malekipour_2021]: https://doi.org/10.1061/(asce)as.1943-5525.0001296
+[research_mannion_2026]: https://doi.org/10.2514/1.t7258
 [research_marvin_1961]: https://ntrs.nasa.gov/citations/20040005920
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
 [research_masterson_1963]: https://doi.org/10.21236/ad0408957
+[research_mcafee_2026]: https://doi.org/10.2514/1.a36673
 [research_mccombs_1968]: https://doi.org/10.21236/ad0831711
 [research_mckay_1959]: https://ntrs.nasa.gov/citations/19980227362
 [research_mctigue_ryan_1968]: https://ntrs.nasa.gov/citations/19690037582
@@ -1038,27 +1208,39 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_meckler_1965]: https://doi.org/10.21236/ad0620959
 [research_miller_1965]: https://doi.org/10.21236/ad0621990
 [research_montgomery_1973]: https://ntrs.nasa.gov/citations/19740037345
+[research_morimoto_kinefuchi_2025]: https://doi.org/10.1063/5.0242370
 [research_moul_1961]: https://ntrs.nasa.gov/citations/19980227762
 [research_moul_brown_1959]: https://ntrs.nasa.gov/citations/19980228212
 [research_moulic_1963]: https://doi.org/10.21236/ad0402416
 [research_naca_1958]: https://ntrs.nasa.gov/citations/19930092380
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19980228350
 [research_naca_1971]: https://ntrs.nasa.gov/citations/19710008947
+[research_nagata_yamada_2026]: https://doi.org/10.1007/s12567-025-00622-x
+[research_nair_2026]: https://doi.org/10.1016/j.ceramint.2025.03.260
 [research_nestler_1970]: https://doi.org/10.1615/ihtc4.2330
 [research_neumann_1978]: https://doi.org/10.2514/6.1978-37
 [research_nonweiler_1959]: https://doi.org/10.1108/eb033176
 [research_orlik_rueckemann_1966]: https://doi.org/10.2514/3.3594
 [research_owen_bellhouse_1970]: https://doi.org/10.2514/3.5904
+[research_paramadhayalan_2026]: https://doi.org/10.1051/epjconf/202636301002
+[research_park_2026]: https://doi.org/10.1007/s42405-026-01190-y
 [research_parkes_1954]: https://doi.org/10.1108/eb032500
+[research_peng_wang_2026]: https://doi.org/10.1088/1742-6596/3256/1/012063
 [research_penland_1974]: https://ntrs.nasa.gov/citations/19740023375
 [research_penland_1975]: https://ntrs.nasa.gov/citations/19750007539
 [research_penland_1975_2]: https://ntrs.nasa.gov/citations/19760004991
 [research_penland_1978]: https://ntrs.nasa.gov/citations/19780023102
 [research_penland_1978_2]: https://ntrs.nasa.gov/citations/19780036797
 [research_perini_1972]: https://www.osti.gov/biblio/4286219
+[research_petervari_2023]: https://doi.org/10.1109/taes.2023.3310497
 [research_platus_1967]: https://doi.org/10.21236/ad0810587
+[research_pu_2026]: https://doi.org/10.1063/5.0336053
+[research_qin_2026]: https://doi.org/10.3390/app16126136
 [research_raeke_1958]: https://doi.org/10.4271/580153
+[research_rahimi_2026]: https://doi.org/10.1016/j.engfracmech.2025.111794
+[research_rajput_2026]: https://doi.org/10.37868/dss.v7.id324
 [research_rand_1963]: https://doi.org/10.21236/ad0419249
+[research_rathi_sinha_2024_2]: https://doi.org/10.2514/1.j064204
 [research_redden_1961]: https://doi.org/10.21236/ad0267150
 [research_reis_1956]: https://doi.org/10.2172/12822431
 [research_reis_1959]: https://doi.org/10.2172/12823916
@@ -1067,6 +1249,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_richards_1978]: https://doi.org/10.21236/ada069883
 [research_richardson_1976]: https://doi.org/10.21236/adb012971
 [research_rochelle_1972]: https://doi.org/10.2514/6.1972-314
+[research_rodrigues_2026]: https://doi.org/10.2514/1.t7458
 [research_roe_kattus_1957]: https://doi.org/10.21236/ad0142003
 [research_rosenbaum_1957]: https://doi.org/10.21236/ad0142149
 [research_rosner_cibrian_1974]: https://doi.org/10.2514/6.1974-755
@@ -1080,8 +1263,11 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_schumacher_1952]: https://doi.org/10.21236/ada075866
 [research_scotti_1992]: https://ntrs.nasa.gov/citations/19930003259
 [research_shanahan_barker_1962]: https://doi.org/10.21236/ad0434193
+[research_shanmugam_2025]: https://doi.org/10.1016/j.icheatmasstransfer.2025.109519
 [research_sharenson_1966]: https://doi.org/10.21236/ad0634390
 [research_sheetz_1965]: https://doi.org/10.2514/6.1965-127
+[research_shen_2023]: https://doi.org/10.3390/aerospace10050455
+[research_shi_2025]: https://doi.org/10.1088/1742-6596/3095/1/012023
 [research_siegel_lanterman_1968]: https://doi.org/10.21236/ad0680825
 [research_small_1974]: https://ntrs.nasa.gov/citations/19750005793
 [research_snodgrass_1955]: https://doi.org/10.2514/8.6860
@@ -1093,12 +1279,23 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_stephan_obermeier_1974]: https://doi.org/10.1615/ihtc5.2210
 [research_stollery_coleman_1975]: https://doi.org/10.1017/s0001925900007459
 [research_strauss_1964]: https://doi.org/10.21236/ad0609492
+[research_su_liu_2025]: https://doi.org/10.1016/j.asoc.2024.112637
+[research_sudarshan_2023]: https://doi.org/10.1063/5.0142147
+[research_sun_2025_2]: https://doi.org/10.1063/5.0251558
+[research_tang_2024]: https://doi.org/10.1017/jfm.2024.641
+[research_tang_2025]: https://doi.org/10.1063/5.0256817
+[research_tariq_2026]: https://doi.org/10.3390/pr14152458
 [research_tate_1964]: https://doi.org/10.2514/6.1964-1114
 [research_taylor_jackson_1977]: https://doi.org/10.2514/6.1977-392
 [research_thomas_chung_1973]: https://doi.org/10.1115/1.3450043
 [research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
 [research_thompson_1970]: https://doi.org/10.21236/ad0734152
+[research_tian_2025]: https://doi.org/10.1016/j.compositesa.2025.109107
+[research_tian_liu_2026]: https://doi.org/10.2514/1.j066483
+[research_tong_2026]: https://doi.org/10.1016/j.actaastro.2026.04.010
 [research_trimmer_1968]: https://doi.org/10.21236/ad0669378
+[research_varma_zhong_2026]: https://doi.org/10.1017/jfm.2026.11430
+[research_venegas_2026]: https://doi.org/10.1007/s00158-026-04258-1
 [research_vicente_foy_1963]: https://doi.org/10.21236/ad0405493
 [research_vinokur_1970]: https://doi.org/10.1017/s0022112070002239
 [research_wainwright_1962]: https://doi.org/10.21236/ad0297175
@@ -1107,6 +1304,13 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_walchner_1974]: https://doi.org/10.21236/ada007045
 [research_walchner_clay_1965]: https://doi.org/10.2514/3.2966
 [research_walker_wolowicz_1960]: https://ntrs.nasa.gov/citations/19650014459
+[research_wan_2025]: https://doi.org/10.1016/j.actaastro.2025.06.055
+[research_wang_2025]: https://doi.org/10.1016/j.compstruct.2025.119192
+[research_wang_2025_2]: https://doi.org/10.1016/j.jfranklin.2024.107426
+[research_wang_2026_2]: https://doi.org/10.1016/j.cja.2026.104153
+[research_wang_han_2025]: https://doi.org/10.1007/s10443-025-10331-7
+[research_wang_zuo_2026]: https://doi.org/10.2514/1.j065924
+[research_way_2026]: https://doi.org/10.2514/1.t7330
 [research_wazzan_ball_1965]: https://doi.org/10.2514/3.55194
 [research_wegener_lobb_1952]: https://doi.org/10.21236/ad0012779
 [research_weidner_1976]: https://ntrs.nasa.gov/citations/19760055284
@@ -1119,8 +1323,30 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_wiswell_1961]: https://ntrs.nasa.gov/citations/19710070148
 [research_wolfe_1964]: https://doi.org/10.1016/b978-0-08-010580-2.50018-9
 [research_wong_hall_1975]: https://doi.org/10.2514/6.1975-1209
+[research_wu_2026]: https://doi.org/10.1002/rnc.70553
+[research_xie_2025]: https://doi.org/10.1016/j.ast.2025.110396
+[research_xiong_2025]: https://doi.org/10.1063/5.0274401
+[research_xu_2026]: https://doi.org/10.1016/j.cja.2025.103631
+[research_yang_2025]: https://doi.org/10.2514/1.g008911
+[research_yang_2026_2]: https://doi.org/10.1016/j.actaastro.2026.04.062
 [research_young_1965]: https://doi.org/10.21236/ad0621085
-[research_zhai_2019]: https://doi.org/10.1016/j.isatra.2019.01.005
+[research_yu_2025]: https://doi.org/10.1016/j.ijthermalsci.2025.109703
+[research_yuan_jiang_2021]: https://doi.org/10.1007/s10409-020-01036-0
+[research_yue_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127175
+[research_zeng_2026]: https://doi.org/10.1063/5.0340634
+[research_zhang_2024_3]: https://doi.org/10.1063/5.0229650
+[research_zhang_2025_3]: https://doi.org/10.1016/j.cnsns.2024.108367
+[research_zhang_2025_4]: https://doi.org/10.1016/j.compstruct.2025.119118
+[research_zhang_2025_5]: https://doi.org/10.1016/j.asr.2025.05.051
+[research_zhang_2025_6]: https://doi.org/10.1002/asjc.3839
+[research_zhang_2025_7]: https://doi.org/10.1088/1742-6596/2977/1/012006
+[research_zhang_2026]: https://doi.org/10.2514/1.j066725
+[research_zhang_2026_5]: https://doi.org/10.1063/5.0333893
+[research_zhang_ding_2023]: https://doi.org/10.1177/00202940231154856
+[research_zhou_2023]: https://doi.org/10.4273/ijvss.15.2.22
+[research_zhou_2025]: https://doi.org/10.15541/jim20240317
+[research_zhou_2026_2]: https://doi.org/10.1109/taes.2026.3705024
+[research_zhu_2025]: https://doi.org/10.1016/j.actaastro.2024.10.013
 
 ### Related Post
 

@@ -23,9 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of 72.
 
 669 lines, 48 equations, 77 references, 8,057 words after the draft pass; 929 lines, 90 equations, 77
-references, 10,729 words after the equation review; **1142 lines, 90 equations, 252 references, 12,993
-words after the primary-reference review.** Equations and references inside band; lines still approach
-from below. Nothing trimmed at any point.
+references, 10,729 words after the equation review; 1142 lines, 90 equations, 252 references, 12,993
+words after the primary-reference review; **1368 lines, 99 equations, 350 references, 15,267 words after
+the publication review.** All three densities inside band. **Nothing trimmed at any point in any pass.**
 
 **The keystone was chosen rather than discovered, and the article says so.** Every previous article in
 the series found its keystone by locating the one binding unknown. The X-15's record is large enough
@@ -159,10 +159,41 @@ the invariant and repointed to the master displays.
 Citation density 19.32 per thousand body words, comparable to A311's final 20.2. The URL-stability
 guard fired no drift when the master was rebuilt on 318 new records.
 
-Publication review not yet performed. Lines 1142 against a 1300 floor. **Contemporary references are 13
-of 233 dated, or 5.6 percent**, the absolute count unchanged since the draft and the percentage fallen
-only because the denominator grew by 175. Against the 101 to 189 absolute count held since A301 this is
-the largest contemporary gap any article has carried into a publication review.
+**Publication review complete, 2026-08-08. All four passes done.** **1368 lines, 99 display equations,
+350 references, 15,267 body words.** Contemporary references rose from 13 to **111, or 33.5 percent of
+dated**, inside the 101 to 189 absolute range held since A301, closing the largest contemporary gap any
+article had carried into a publication review. **All three densities inside band. Nothing trimmed at any
+point in any pass.**
+
+**The pass found a limit on the article's own method, which is the most useful thing it did.** Every
+relation in the article treats air as a perfect gas at gamma 1.4. Setting the stagnation-temperature
+relation equal to the onset of oxygen dissociation near 2,500 K gives Mach 7.06 at the record altitude,
+and **the X-15 reached Mach 6.70, or 94.8 percent of it**. The article's arithmetic is therefore very
+nearly at the edge of its own validity at the aircraft's fastest condition. That is not a coincidence:
+it is close to what the phrase hypersonic aeroplane could mean in 1954, because a vehicle going
+meaningfully faster is conducting chemistry rather than managing a thermal load.
+
+**A result changed direction.** The article found that a hot wall absorbs a smaller fraction of the
+friction dissipation than a cold one. Extending the same relation shows the fraction tends to the
+recovery factor over two, about 44.5 percent, as speed grows, because the adiabatic wall temperature
+itself grows as V^2. **A faster vehicle gives a larger share of its friction dissipation to its
+structure, not a smaller one**, so the protection the X-15 enjoyed does not scale. Both statements are
+in the text and neither supersedes the other.
+
+**The keystone ratio evaluated elsewhere.** The X-15's 2.26 becomes 3.15 for Mach 8 cruise, 13.8 for a
+glide vehicle, **33.6 for orbital entry**, and 66.9 for lunar return, so orbital entry is 14.9 times
+worse by the measure the article is built on. And the reason the hot metallic structure was abandoned
+is a fourth power: **an ultra-high-temperature ceramic leading edge at 2,273 K rejects 39.2 times what
+Inconel at its 922 K limit rejects**, and can sustain 198 percent of the heating rate that nearly
+destroyed the X-15A-2, against Inconel's 5.1 percent.
+
+**Two defects found.** A URL sweep of all 336 external URLs found **one persistently dead DOI**, a 2026
+paper on medical risks in suborbital flight, and **the citation was removed rather than shipped**; a
+second 404 proved transient and resolved on recheck. Two link-text mismatches were caught by the
+invariant. The URL-stability guard fired no drift on a rebuild over 689 new records.
+
+Citation density 22.73 per thousand body words, above A311's final 20.2, which reflects a survey
+section carrying 111 contemporary references. Primary sources 220, or 66.5 percent of dated.
 
 ## X-Planes Bell X-14 A311 2025-10-20
 

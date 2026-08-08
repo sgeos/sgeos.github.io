@@ -9,98 +9,144 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A312 primary-reference review, the third of four passes. **Committed, not pushed.** All
-sixteen articles in the series remain in `_drafts/`.
+**Task**: A312 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All sixteen articles in the series remain in `_drafts/`.
 
 ---
 
-## Two Documents That Bear Directly on What the Equation Pass Derived
+## The Pass Found a Limit on the Article's Own Method
 
-**The Reynolds-analogy result had already been measured, at the exact condition it is applied to.**
-[Keener and Polek 1972] reports measurements of the Reynolds analogy for a hypersonic turbulent
-boundary layer **on a nonadiabatic flat plate**. That is precisely the relation the energy-partition
-argument runs on and precisely the wall condition it runs at. The article derived it from first
-principles without knowing it had been measured, and the measurement is now cited beside the
-derivation. [Thomas and Chung 1973] does the same for the recovery factor.
+This is the most useful thing the review did, and it is a statement about the arithmetic rather than
+about the aeroplane.
 
-**The mechanism that destroyed the speed-record flight has a canonical paper, published the year
-after.** [Edney 1968] treats anomalous heat transfer and pressure distributions on blunt bodies in the
-presence of an impinging shock. A cluster now sits around it: [Creel 1974] on projections and cavities
-at Mach 8, [Johnson and Kaufman 1974] on interference heating from shocks striking turbulent boundary
-layers, [Kessler et al 1971], and [Birch and Rudy 1975]. **A literature grew around the failure mode
-the X-15A-2 discovered by suffering it.**
+Every relation in this article treats air as a perfect gas at a ratio of specific heats of 1.4. That
+fails when the gas gets hot enough to dissociate, and the stagnation-temperature relation says exactly
+when. Setting it equal to the onset of oxygen dissociation near 2,500 kelvin and solving at the record
+altitude gives **Mach 7.06**.
 
----
+**The X-15 reached Mach 6.70, which is 94.8 percent of it.**
 
-## The Pool Was Too Small, So It Was Harvested Before It Was Audited
+**The article's arithmetic is very nearly at the edge of its own validity at the aircraft's fastest
+condition.** The ideal-gas stagnation temperature at orbital entry would be 30,500 kelvin, which is
+physically meaningless because the air dissociates and ionises long before it gets there.
 
-The first sweep returned 199 NTRS records and **only 17 X-15-specific documents**, which is not what a
-nine-year programme that reported to its sponsors in conference volumes actually produced. Rather than
-audit a thin pool and discover afterwards that it was thin, a supplementary sweep aimed at the threads
-the draft and equation passes opened added 82 NTRS, 100 DTIC, 122 period, and 39 OSTI records and took
-the master from 673 to 991.
+That is not a coincidence of my method. **It is close to what the phrase hypersonic aeroplane could
+mean in 1954**, because a vehicle going meaningfully faster is not managing a thermal load but
+conducting chemistry, and the materials of the period could not have been designed against a problem
+nobody could yet compute.
 
 ---
 
-## A Second Finding, From the Facility Literature
+## A Result That Changed Direction
 
-Inventorying the hypersonic tunnel estate of the period establishes something the article could
-previously only assert. **A tunnel matches Mach number, or Reynolds number, or enthalpy, and not all
-three at once.** That is the quantitative reason an aircraft was needed at all, and it is why the
-discrepancies the X-15 revealed were worth what the programme cost.
+The equation pass found that a hot wall absorbs a smaller fraction of the friction dissipation than a
+cold one, and treated that as a mechanism by which a hot structure protects itself. That is correct at
+the X-15's speed.
 
-**And the same flight-versus-tunnel comparison was run again on the X-24B a decade later**, in
-[Richardson 1976], so the calibration problem the X-15 existed to address had not been solved by its
-successors. The hypersonic research airplane concepts of the 1970s were studied at length and **none
-of them was built**, which is why the X-15 remains the only crewed vehicle to have flown the regime.
+Extending the same relation shows the fraction tends to **the recovery factor over two, about 44.5
+percent**, as speed grows, because the adiabatic wall temperature itself grows as V². Evaluated: 27.4
+percent at the X-15's record, 36.7 at three kilometres per second, 41.7 at five.
+
+**A faster vehicle gives a larger share of its friction dissipation to its own structure, not a smaller
+one.** The protection the X-15 enjoyed is a low-speed luxury that fades exactly where it would be most
+wanted. Both statements are in the text and neither supersedes the other.
 
 ---
 
-## Selection Discipline, Which Mattered Here More Than Usual
+## The Keystone Ratio Evaluated Elsewhere, and Why the Hot Structure Died
 
-A loose theme filter surfaced uranium and niobium metallurgy, a Marine Corps acquisition study, aerial
-cannon shells, titanium brazing, industrial wind tunnels, and ice crystals in hypersonic flow, **all
-matching on keywords and none of them belonging in this article.** Every one was rejected by title
-inspection before anything was written, which is exactly what the dump-titles-before-writing rule
-exists for.
+The X-15's 2.26 becomes 3.15 for Mach 8 cruise, 13.8 for a glide vehicle, **33.6 for orbital entry**,
+and 66.9 for lunar return. Orbital entry is **14.9 times worse** by the measure the article is built on,
+which is a sharper statement of why the architecture does not scale than the usual observation that
+entry is hotter.
 
-**Six link-text mismatches were caught by the invariant** and repointed to the master displays, mostly
-author-capitalisation quirks in the archive metadata such as Orlik-rueckemann and Mctigue.
+And the reason the hot metallic structure was abandoned is a fourth power:
 
-**The URL-stability guard fired no drift** when the master was rebuilt on 318 new records.
+| Surface | Temperature | Rejects | Against the X-15 record rate |
+|---|---|---|---|
+| Inconel at its design limit | 922 K | 3.28 W/cm² | 5.1 percent |
+| Shuttle tile | 1,533 K | 26.6 W/cm² | 41.1 percent |
+| Ultra-high-temperature ceramic | 2,273 K | 128.7 W/cm² | 198.5 percent |
+
+**A ceramic leading edge rejects 39.2 times what Inconel at its limit rejects**, and can sustain twice
+the heating rate that nearly destroyed the X-15A-2.
+
+---
+
+## Contemporary Coverage
+
+A 65-query sweep returned **689 new records**, taking contemporary references from **13 to 111, or 33.5
+percent of dated**, inside the 101 to 189 absolute range the series has held since A301. That closes
+the largest contemporary gap any article had carried into a publication review.
+
+Twelve subsections replaced eight. **The one worth naming is the nonequilibrium cluster**, because it
+is the literature that begins exactly where this article's arithmetic stops. **[Lushchik et al 2026]
+treats the Reynolds analogy factor in a compressible turbulent boundary layer on a cooled wall**, which
+is this article's own relation at this article's own condition, published sixty years after the
+aircraft flew.
+
+Three further findings. **Transition is still being settled by flying experiments** — [Johnston et al
+2026] reports BOLT-1B transition at flight conditions, which is a flight experiment for the same reason
+the X-15 was one. **Shock interference became a field**, with its own separation criteria and control
+techniques, built around the mechanism that destroyed the X-15A-2's pylon. And **no facility reproduces
+flight**; what changed is that the resulting ignorance is now quantified rather than argued about.
+
+---
+
+## Two Defects Found
+
+**A sweep of all 336 external URLs found one persistently dead DOI**, a 2026 paper on medical risks in
+suborbital flight, and **the citation was removed rather than shipped**. A second 404 proved transient
+and resolved at 200 on recheck with a longer timeout, which is worth recording because the first sweep
+would have condemned it.
+
+**Two link-text mismatches** were caught by the invariant, both truncated disambiguation suffixes.
+**The URL-stability guard fired no drift** on a rebuild over 689 new records.
 
 ---
 
 ## Verification
 
-**252 reference definitions, zero duplicates, zero orphans.** `_verify.py` at the 0-error 21-warning
-corpus baseline from the repository root. Zero contractions, em-dashes, en-dashes, prose colons, prose
-semicolons, prose parentheticals, doubled words, duplicate headings, unbalanced emphasis markers, lone
-dollar-delimited lines, or adjacent display-math seams. Isolated build succeeding with **90 rendered
-display blocks matching source exactly**, Part 16 navigation.
+**350 reference definitions, 336 external URLs, zero duplicates, zero orphans.** URL distribution: 152
+plain 200s, 107 publisher 403s from bot detection, 69 DTIC DOI redirects, 4 202s, one publisher 500,
+one transient 404 that resolved. **An HTTP 200 does not verify a citation** and the sweep does not claim
+to.
 
-Citation density 19.32 per thousand body words, comparable to A311's final 20.2. The densest section
-is Comparison With Ground Prediction at 47.7, which is a facility inventory bracketed by an argument
-rather than a bibliography dump.
+All 20 newly introduced numbers re-derived independently and reproducing, on top of the 43 from the
+equation pass and 40 from the draft. `_verify.py` at the 0-error 21-warning corpus baseline. Zero
+contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled words,
+duplicate headings, unbalanced emphasis markers, lone dollar-delimited lines, or adjacent display-math
+seams. Two prose semicolons introduced by my own edits were caught and fixed.
+
+**Equation count was measured before and after the section replacement**, per the A310 lesson, and rose
+from 90 to 99 rather than silently dropping.
+
+The Epistemic State was extended to record the validity limit, the direction change, and the
+representative modern values.
+
+---
+
+## Final State
+
+**1368 lines, 99 display equations, 350 references, 15,267 body words.**
+
+**All three densities inside band. Nothing was trimmed at any point in any of the four passes**, which
+makes A312 the seventh consecutive article to finish that way.
+
+Contemporary 111, or 33.5 percent of dated. Primary 220, or 66.5 percent. Citation density 22.73 per
+thousand, above A311's final 20.2, which reflects a survey section carrying 111 contemporary references.
 
 ---
 
 ## State
 
-**1142 lines, 90 display equations, 252 references, 12,993 body words.**
+**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`, so
+the push is safe. **The publication-order dependency is sixteen deep**, A312 back to A297.
 
-**Equations and references are inside band.** Lines at 1142 against a 1300 floor still approach from
-below. Nothing was trimmed at any point.
+Sixteen articles complete of seventy-two. **Categories remain undecided** at `aerospace history
+engineering`, sixteen articles deep and raised twenty times.
 
-**Primary sources are 220 of 233 dated, or 94.4 percent**, second only to A311's 95.9 at the same
-stage.
-
-**Contemporary references are 13 of 233 dated, or 5.6 percent.** The absolute count is unchanged since
-the draft and the percentage fell only because this pass grew the denominator by 175. Against the 101
-to 189 absolute count the series has held since A301, **this is the largest contemporary gap any
-article has carried into a publication review** — larger than A311's and A309's — and closing it is the
-next pass's principal task. The hypersonic literature is large and current, so the material exists.
-
-**Committed, not pushed.** Nothing in this series is published. The publication-order dependency is
-sixteen deep. **Categories remain undecided** at `aerospace history engineering`, sixteen articles deep
-and raised twenty times.
+**A313 is the Bell X-16**, a reconnaissance aircraft cancelled before it flew. That is a
+documentation-poor article immediately after the most documentation-rich one in the series, and the
+genre document's short-article class exists for exactly this case. **The risk is padding a thin record
+rather than stating the limit**, which is the opposite failure from the one A312 was written against.
