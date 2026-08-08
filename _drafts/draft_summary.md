@@ -17,6 +17,40 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed X-17 A314 2025-10-23
+
+`x_planes_lockheed_x17.markdown`, A314, editorial date 2025-10-23, series `x_planes` index 18 of 72.
+
+**461 lines, 27 display equations, 71 references, 5,266 words after the draft pass.** Equation and
+reference reviews pending.
+
+**The second consecutive article whose subject has no archival record of its own.** NTRS returns
+astronomy false positives for the vehicle name and nothing technical, and DTIC holds the surrounding
+re-entry literature and nothing on this vehicle. Every dimension and performance figure comes from
+secondary compilations, and those disagree on the length and, by a factor of two and a half, on the
+apogee.
+
+**The keystone is partial simulation.** A re-entry is several simultaneous conditions. Matching
+velocity, which sets the chemistry through stagnation enthalpy, matching heating rate, and matching the
+degree of chemical nonequilibrium are three requirements, while altitude and model scale are two knobs.
+**Two knobs cannot satisfy three conditions**, so the article is an account of which requirement the
+X-17 surrendered.
+
+**Firing the stages downward multiplies the heating rate by 13.63** over what free fall from the same
+apogee would give, and that conclusion survives every published apogee figure, so the strange
+architecture is the experiment rather than an enhancement of it.
+
+**The trade that works and the one that does not.** Density enters the heating correlation under a
+square root and velocity cubed, so at 57 percent of intercontinental velocity the vehicle needs 27.74
+times the density, which puts it at 13.97 km and reproduces the heating rate exactly. But stagnation
+enthalpy contains no density at all, so the X-17 reached **33.0 percent of the energy per unit mass**
+and therefore none of the chemistry. The binary scaling parameter is overshot 9.25 times and the total
+heat load is short by about 4.17 times.
+
+**The framing is that the programme surrendered the gas physics because nobody could compute it and
+kept the heat flux because everybody needed to design against it**, which was correct for 1956 and
+would be wrong today.
+
 ## X-Planes Bell X-16 A313 2025-10-22
 
 `x_planes_bell_x16.markdown`, A313, editorial date 2025-10-22, series `x_planes` index 17 of 72.
