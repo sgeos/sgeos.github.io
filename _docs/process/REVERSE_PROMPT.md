@@ -9,125 +9,125 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A312 draft pass, the first of four. **Committed, not pushed.** All sixteen articles in the
-series remain in `_drafts/`.
+**Task**: A312 equation-density review, the second of four passes. **Committed, not pushed.** All
+sixteen articles in the series remain in `_drafts/`.
 
 ---
 
-## The Keystone Was Chosen Rather Than Discovered, and the Article Says So
+## The Pass Answered the Question the Keystone Posed and the Draft Left Open
 
-This is the structural difference between A312 and everything before it, and it is the risk the
-handoff warned about.
+The article states its keystone as **how much of the shed energy ends up inside the structure rather
+than in the air behind it**, and then never answered it. A keystone that poses a question the article
+leaves open is a slogan rather than a keystone, so this pass answered it.
 
-Every previous article found its keystone by locating the one binding unknown. **The X-15's record is
-large enough that four candidate keystones are all well supported**, and an article that picks one
-silently is hiding a decision. So the article names all four, chooses, and defends the choice.
+The route is the Reynolds analogy. The heat entering the wall divided by the friction work done at it
+collapses to
 
-The rejected candidates are aerodynamic heating, hypersonic stability and control, flight outside the
-atmosphere, and structures at temperature. **The objection to all four is the same**: they are
-consequences of a single quantity, and treating any one as primary makes the other three look like
-separate subjects when they are the same subject.
+**q̇ / τV = c_p (T_aw − T_w) / V²**
 
----
+in which **the velocity cancels out of the numerator entirely**. The fraction depends only on how far
+the wall sits below the adiabatic wall temperature, measured against the vehicle's kinetic energy.
 
-## The Quantity Is Energy, and One Ratio Carries the Article
+At the record condition that gives **43.0 percent for a cold wall, 27.7 at the design limit, and 7.2
+at the temperature Knight's leading edges actually reached.**
 
-At its record speed the X-15's kinetic energy was **2.041 MJ per kilogramme**. The energy needed to
-take a kilogramme of its own structure to melting and melt it is about **0.904 MJ**.
-
-**The aircraft carried 2.26 times the energy needed to melt itself**, and 7.4 times the energy needed
-to take the whole structure to the 1,200 degree Fahrenheit limit of its strength.
-
-That is what makes hypersonic flight different in kind rather than in degree. **Deceleration stops
-being a nuisance and becomes a thermal event**, and the research question becomes whether a piloted
-aircraft can carry that much energy, dispose of all of it, and land.
-
-**The central number follows.** A Sutton and Graves correlation at the record condition gives 64.8
-watts per square centimetre. A structure at its design temperature can radiate 3.28. **The record
-flight asked the structure to reject 19.8 times what its design temperature could handle** — which is
-why the X-15A-2 was covered in ablative coating, why that flight was the fastest ever made, and why
-nothing like it was attempted again. The correlation is validated against the reported 2,700 degree
-leading-edge temperature, overshooting by 12.7 percent, and survives doubling the assumed nose radius.
+**A hot wall absorbs a smaller fraction than a cold one.** That is the part the framing did not
+anticipate: running hot is not merely something a hot structure tolerates, it is part of the mechanism
+by which it protects itself, because the driving temperature difference is what pushes heat in and a
+hot wall has less of one.
 
 ---
 
-## Five Results the Sources Do Not State
+## A Wrong Claim Caught by Computing Further Inside the Same Pass
 
-**The two records are one budget spent two ways**, at 2.347 and 1.964 MJ/kg. They differ by 19.5
-percent, and the reason is not piloting: the speed flight was flown by the X-15A-2 with external tanks.
+I first wrote the energy fraction on an **assumed** friction fraction of 35 percent of total drag,
+which gave ten percent to the structure and a heat load **exceeding** the structure's absorptive
+capacity, at a ratio of 1.19.
 
-**Converting the speed record's kinetic energy entirely to height gives 239.3 km against an actual
-altitude record of 108.0.** A little over half the available energy never reached apogee.
+Estimating the friction drag directly — turbulent flat-plate coefficient at the record Reynolds number
+of 3.2 × 10⁷ over a plausible wetted area — gives **8 to 26 percent, centring near 15.** Not 35.
 
-**The heating rate falls with thinner air and the heat load rises.** The rate goes as √ρ·V³ while the
-time to shed a fixed energy goes as 1/ρ, so rate and load are optimised by opposite trajectories.
-**The X-15A-2 moved from a rate-limited to a load-limited regime when it was coated**, which is a more
-interesting statement than that the coating let it fly faster.
+**The corrected figure is four percent to the structure and a ratio of 0.51, so the conclusion
+inverts.** The total heat load is comfortably within capacity, with roughly a factor of two in hand,
+and the binding constraint is the local rate.
 
-**A 300 kelvin gradient alone yields the structure**, at 830 MPa. That is why the skin is corrugated
-and slotted for no load reason at all. And a 1.5 mm Inconel skin reaches equilibrium in 7.5 seconds,
-which is what makes a hot structure rate-limited.
+**The corrected version is the one that agrees with the rest of the article.** A rate-limited hot
+structure should have load margin in hand; the erroneous version contradicted the article's own
+earlier finding. The two halves now agree, and they did not have to.
 
-**99.8 percent of the energy the vehicle holds at its fastest must be disposed of before it lands.**
-
----
-
-## The Series Thread Arrives From the Opposite Direction
-
-The X-13 and X-14 lost their aerodynamic control authority because the vehicle was not moving. **The
-X-15 loses it because there is no air.** Same relation, opposite cause, same reaction-control answer,
-and the dynamic pressure ratio across a single flight exceeds 4,600.
+That is the **ninth consecutive article** in which computing before writing caught a wrong claim, and
+the **second in this article** after the crossover order-of-magnitude error in the draft pass.
 
 ---
 
-## An Order-of-Magnitude Error, Caught by Verifying
+## The Relation That Closes the Keystone
 
-I wrote the aerodynamic-to-reaction crossover as **6,280 pascals. It computes to 628.** The altitude
-band moved from "between 30 and 50 kilometres" to about 55. **Eighth consecutive article in which
-computing before writing caught a wrong claim**, and the first where the error was a full order of
-magnitude.
+Deceleration by drag at constant altitude integrates to a time to shed the energy. Evaluated at the
+record speed down to a landing speed:
 
-The corrected value produced something I had not looked for. **Flight 91's burnout at 53.6 km sits
-within 1.4 km of the crossover**, so on a high flight the engine stops at roughly the altitude where
-the aerodynamic surfaces stop working, and the pilot loses thrust and aerodynamic control at nearly
-the same moment.
+| Altitude | Time to shed the energy |
+|----------|--------------------------|
+| 31 km, the record altitude | 102 minutes |
+| 20 km | 18 minutes |
+| 15 km | 8 minutes |
 
-**Two omissions were found by surveying the references rather than by reading the draft**: the MH-96
-adaptive flight control system, which was fitted to the airframe that was lost, and shock interference
-heating, which is what nearly destroyed the speed-record flight and which the draft described without
-citing. Both added.
+**An X-15 flight lasts eight to twelve minutes in total.**
+
+**So the aircraft cannot dispose of its energy where it acquires it. It must descend into denser air
+to do so, and descending is precisely what raises the heating.** That is the keystone stated as a
+single trap, and every other result in the sizing section is a term in it.
+
+---
+
+## Six Further Results
+
+**The stagnation temperature is 2,271 K**, so the air is 2.46 times hotter than the metal is permitted
+to become, and **89.9 percent of the oncoming stream's total enthalpy is kinetic**. The heat is the
+aircraft's own energy arriving back at it.
+
+**Newtonian impact theory gives Cp = 2 sin²θ, independent of Mach number**, which is exactly the
+property a designer wants where everything else is falling away. A ten-degree wedge beats a
+three-degree surface by a factor of 11.
+
+**The same relation puts the trim angle of attack at the record near 13.8 degrees.** A hypersonic
+aeroplane does not fly nose-first.
+
+**The blunt-body trade eliminates to D_nose ∝ q̇⁻⁴**, so halving the heating costs sixteen times the
+nose drag. That fourth-power exchange is why a capsule is blunt and an aeroplane that must glide home
+is not.
+
+**The B-52 supplies under seven percent of the energy budget.** The aircraft makes the other 93 percent
+itself.
+
+**A 1.5 mm skin is through-soaked in half a second and has no interior**, which is why the design can
+be reasoned about as a surface in radiative balance with no thermal-lag margin to hide behind.
 
 ---
 
 ## Verification
 
-**77 reference definitions, 62 external URLs, zero duplicates, zero orphans.** All 40 in-prose numbers
-re-derived independently and reproducing. `_verify.py` at the 0-error 21-warning corpus baseline.
-Zero contractions, em-dashes, en-dashes, prose colons, prose semicolons, prose parentheticals, doubled
-words, duplicate headings, unbalanced emphasis markers, lone dollar-delimited lines, or adjacent
-display-math seams. Two style violations were found and fixed, a prose semicolon and a prose colon.
-Isolated build succeeding with **48 rendered display blocks matching source exactly** and Part 16
-navigation.
+**90 display equations, up from 48 across 22 edits, landing exactly on the floor.** All 43 newly
+introduced numbers re-derived independently and reproducing, on top of the 40 from the draft pass.
+`_verify.py` at the 0-error 21-warning corpus baseline from the repository root.
 
-**Two documents cited in the draft were absent from the harvest** and were added to the detail fetch
-by identifier rather than by repointing the prose at something else, which is the A311 lesson applied.
-One archive quirk is recorded in The Source Base: the lift and drag report's cover reads Saltzman and
-Garringer while the archive records the authors in the opposite order, and the article uses the
-archive's order because its citations are generated from archive metadata.
+Three style violations were introduced by my own edits and caught: a prose semicolon, a doubled "and"
+created by the fix for that semicolon, and an em dash. **The corpus verifier and the article's own
+checker agreed on the em dash**, which is the cross-check working as intended.
+
+Isolated build succeeding with **90 rendered display blocks matching the source count exactly**, Part
+16 navigation, no unresolved reference links and no surviving Liquid tags. The Epistemic State was
+extended to record the corrected result explicitly, including the superseded figure, and to state the
+new assumptions carried by the energy-partition analysis.
 
 ---
 
 ## State
 
-**669 lines, 48 display equations, 77 references, 8,057 body words.**
+**929 lines, 90 display equations, 77 references, 10,729 body words.**
 
-All three densities approach from below, at 669 against a 1300 floor, 48 against 90, and 77 against
-250. Nothing was padded. Contemporary references are 13 of 58 dated, or 22.4 percent, and primary 45,
-or 77.6 percent.
-
-The draft is shorter than A311's 854 and comparable to A308's 678. **The three remaining passes have
-more to close than usual**, and the equation pass in particular has a large surface to work on because
-the energy framing generates relations readily.
+**Equations are exactly on the floor of the 90 to 130 band.** Lines at 929 against 1300 and references
+at 77 against 250 both still approach from below, which the remaining two passes close. Nothing was
+trimmed.
 
 **Committed, not pushed.** Nothing in this series is published. The publication-order dependency is
 sixteen deep. **Categories remain undecided** at `aerospace history engineering`, sixteen articles deep

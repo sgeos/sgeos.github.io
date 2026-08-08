@@ -22,8 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_north_american_x15.markdown`, A312, editorial date 2025-10-21, series `x_planes` index 16
 of 72.
 
-669 lines, 48 display equations, 77 reference definitions of which 58 are research, 8,057 words after
-the draft pass. All three densities approach their bands from below. Reported rather than padded.
+669 lines, 48 display equations, 77 references, 8,057 words after the draft pass; **929 lines, 90
+equations, 77 references, 10,729 words after the equation-density review.** Equations are exactly on
+the floor; lines and references still approach from below. Reported rather than padded.
 
 **The keystone was chosen rather than discovered, and the article says so.** Every previous article in
 the series found its keystone by locating the one binding unknown. The X-15's record is large enough
@@ -79,9 +80,53 @@ adaptive flight control system, which was fitted to the airframe that was lost, 
 heating, which is what nearly destroyed the speed-record flight and which the draft described without
 citing. Both were added.
 
-Equation-density, primary-reference, and publication reviews not yet performed. Lines 669 against a
-1300 floor, equations 48 against 90, references 77 against 250. Contemporary references are 13 of 58
-dated, or 22.4 percent; primary 45, or 77.6 percent.
+**Equation-density review complete, 2026-08-08. 929 lines, 90 display equations, 77 references,
+10,729 body words.** Equations rose from 48 to 90 across 22 edits, landing exactly on the floor.
+Nothing was trimmed.
+
+**The pass answered the question the keystone posed and the draft left open.** The article states its
+keystone as how much of the shed energy ends up inside the structure rather than in the air behind it,
+and never answered it. Working through the Reynolds analogy, the heat entering the wall divided by the
+friction work done at it collapses to c_p (T_aw - T_w) / V^2, in which **the velocity cancels from the
+numerator entirely**, so the fraction depends only on how far the wall sits below the adiabatic wall
+temperature measured against the vehicle's kinetic energy. At the record condition that is 43.0 percent
+for a cold wall, 27.7 at the design limit, and 7.2 at the temperature Knight's leading edges reached.
+**A hot wall absorbs a smaller fraction than a cold one, so running hot is part of the mechanism by
+which a hot structure protects itself** rather than merely something it tolerates. That was not
+anticipated by the framing.
+
+**A wrong claim was caught by computing further within the same pass.** The energy fraction reaching
+the structure was first written on an assumed friction fraction of 35 percent of drag, giving ten
+percent to the structure and a heat load exceeding the structure's absorptive capacity at a ratio of
+1.19. Estimating the friction drag directly, from a turbulent flat-plate coefficient at the record
+Reynolds number of 3.2e7 over a plausible wetted area, gives 8 to 26 percent and about 15 centrally.
+**The corrected figure is four percent to the structure and a ratio of 0.51, so the conclusion
+inverts: the total heat load is comfortably within capacity and the binding constraint is the local
+rate.** The corrected version is the one consistent with the rest of the article, since a rate-limited
+hot structure should have load margin in hand, and the erroneous version contradicted it. **Ninth
+consecutive article in which computing before writing caught a wrong claim, and the second in this
+article after the crossover order-of-magnitude error.**
+
+**The relation that closes the keystone was added.** Deceleration by drag at constant altitude
+integrates to a time to shed the energy, and evaluating it gives 102 minutes at the record altitude,
+18 at 20 km, and 8 at 15 km, against a total flight duration of 8 to 12 minutes. **The aircraft cannot
+dispose of its energy where it acquires it. It must descend into denser air to do so, and descending is
+precisely what raises the heating.** That is the keystone stated as a single trap and every other
+result in the sizing section is a term in it.
+
+**Other results added.** The stagnation temperature is 2,271 K, so **the air is 2.46 times hotter than
+the metal is permitted to become**, and 89.9 percent of the oncoming stream's total enthalpy is
+kinetic, so the heat is the aircraft's own energy arriving back at it. Newtonian impact theory gives
+Cp = 2 sin^2(theta), independent of Mach number, which is why a thick wedge fin keeps its effectiveness
+and beats a three-degree surface by a factor of 11; the same relation puts the **trim angle of attack
+at the record near 13.8 degrees**, so a hypersonic aeroplane does not fly nose-first. The blunt-body
+trade eliminates to D_nose ~ q_dot^-4, so **halving the heating costs sixteen times the nose drag**.
+The B-52 supplies **under seven percent** of the energy budget. A 1.5 mm skin is through-soaked in half
+a second and has no interior. A kilogramme of ablator absorbs nine times what a kilogramme of structure
+absorbs reaching its limit.
+
+Primary-reference and publication reviews not yet performed. Lines 929 against a 1300 floor, references
+77 against 250. Contemporary references are 13 of 58 dated, or 22.4 percent.
 
 ## X-Planes Bell X-14 A311 2025-10-20
 

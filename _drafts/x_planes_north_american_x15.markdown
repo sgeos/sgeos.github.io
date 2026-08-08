@@ -111,6 +111,16 @@ $$\frac{de}{dt} = \frac{T V}{m} - \frac{D V}{m}$$
 
 **Everything the X-15 did is contained in the difference between those two terms.** The first acts for eighty to a hundred and fifty seconds. The second acts for the remaining eight to twelve minutes.
 
+It is worth establishing how much of the budget the carrier aircraft supplies, because the launch from a B-52 is often described as though it were a substantial head start. Dropping near 13.7 kilometres at about Mach 0.8 gives
+
+$$e_{\text{launch}} = 9.807 \times 13{,}716 + \tfrac{1}{2} \times 236^{2} = 0.135 + 0.028 = 0.162 \text{ MJ/kg}$$
+
+against the 2.347 megajoules per kilogramme the speed record reached.
+
+$$\frac{0.162}{2.347} = 0.069$$
+
+**The carrier supplies under seven percent of the energy.** The X-15 makes the other ninety-three percent itself, and the B-52 exists to save propellant and to put the launch point where the trajectory needs it rather than to provide a meaningful fraction of the budget.
+
 ### The Two Records Are Two Projections of One Budget
 
 The X-15 holds two records and they are usually reported as separate achievements. They are the same quantity, differently partitioned.
@@ -122,6 +132,24 @@ $$e = 9.807 \times 31{,}120 + \tfrac{1}{2} \times 2{,}020.6^{2} = 0.305 + 2.041 
 The altitude record, Flight 91 flown by Walker on 22 August 1963, reached 354,200 feet, but the informative instant is burnout, at about 176,000 feet and 3,794 miles per hour.
 
 $$e = 9.807 \times 53{,}645 + \tfrac{1}{2} \times 1{,}696.1^{2} = 0.526 + 1.438 = 1.964 \text{ MJ/kg}$$
+
+The comparison is cleanest in the units of altitude, because specific energy divided by gravity is a height. The energy height is what the vehicle would reach if it converted everything,
+
+$$h_{e} = h + \frac{V^{2}}{2g}$$
+
+which gives 239.3 kilometres for Flight 188 and 200.3 for Flight 91 at burnout.
+
+$$h_{e,188} = 31.12 + 208.17 = 239.29 \text{ km}$$
+
+and for the altitude flight at the instant its engine stopped,
+
+$$h_{e,91} = 53.64 + 146.67 = 200.31 \text{ km}$$
+
+**Energy height also provides a check on the ballistic coast.** If the arc above burnout is genuinely drag free, energy height is conserved along it, and evaluating at Flight 91's apogee with the horizontal speed derived below gives
+
+$$h_{e,\text{apogee}} = 107.96 + 92.36 = 200.32 \text{ km}$$
+
+which agrees with the burnout value to ten metres in two hundred kilometres. **The coast above 53 kilometres is drag free to within the precision of the input data**, which retrospectively justifies treating it that way.
 
 **The two flights are eighty-seven percent alike in the quantity that matters and utterly different in how it is arranged.** One put 87 percent of its energy into speed, the other 73 percent.
 
@@ -161,6 +189,34 @@ which gets the aircraft out of the dense air quickly.
 
 ### Where the Energy Goes, and What Reaches the Structure
 
+### The Temperature the Air Arrives At
+
+Before any heat-transfer relation, there is a temperature difference driving it, and at hypersonic speed that difference is set almost entirely by the vehicle's own speed.
+
+Air brought to rest against the vehicle converts its kinetic energy into enthalpy, so the stagnation temperature is
+
+$$\frac{T_{0}}{T_{\infty}} = 1 + \frac{\gamma - 1}{2} M^{2}$$
+
+At Mach 6.7 that factor is 9.978, and the standard atmosphere gives an ambient temperature of 227.6 kelvin at the record altitude, so
+
+$$T_{0} = 227.6 \times 9.978 = 2{,}271 \text{ K} = 3{,}628\ ^{\circ}\text{F}$$
+
+**The air the aircraft is flying into is 2.46 times hotter than the metal is permitted to become.** The structure's problem is not that it is going fast. It is that it is immersed in a gas at two thousand degrees Celsius.
+
+A boundary layer does not quite reach the stagnation temperature, because some enthalpy is carried away rather than recovered. Writing the recovery factor $r$,
+
+$$T_{aw} = T_{\infty}\left(1 + r\,\frac{\gamma - 1}{2} M^{2}\right)$$
+
+which for a turbulent layer at $r = 0.89$ gives 2,046 kelvin, and for a laminar layer at $r = 0.85$ gives 1,965. **The adiabatic wall temperature is the temperature the surface would reach if it could not lose heat at all**, and every heat-transfer calculation below is really a calculation of how far below it the surface actually sits.
+
+The scale of the effect is worth writing as an enthalpy. The total enthalpy of the oncoming stream is
+
+$$h_{0} = c_{p} T_{\infty} + \tfrac{1}{2} V^{2} = 0.229 + 2.041 = 2.270 \text{ MJ/kg}$$
+
+of which the kinetic term is **89.9 percent**. The atmosphere at that altitude contributes almost nothing. **The heat is the aircraft's own energy arriving back at it.**
+
+### Where the Energy Goes
+
 The disposal problem is not the total energy but the rate at which it arrives at the surface. The stagnation-point convective heating rate follows a correlation of the form
 
 $$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}$$
@@ -169,7 +225,15 @@ with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, an
 
 The first is the cube on velocity. Doubling speed multiplies the heating rate by eight, which is why the difference between Mach 3 and Mach 6 is a difference in kind rather than in degree.
 
-The second is the square root on density, and the inverse square root on nose radius. **A blunt nose reduces heating**, which is the insight that made re-entry possible and which [Eggers et al 1958][research_eggers_1958] treats analytically. The X-15's nose is blunt for this reason and for no aerodynamic one.
+The second is the square root on density, and the inverse square root on nose radius. **A blunt nose reduces heating**, which is the insight that made re-entry possible and which [Eggers et al 1958][research_eggers_1958] treats analytically. The X-15's nose is blunt for this reason and for no aerodynamic one, and the trade can be written down. Heating falls as the inverse square root of the nose radius while the nose's own pressure drag rises with its frontal area,
+
+$$\dot{q} \propto R_{n}^{-1/2}, \qquad D_{\text{nose}} \propto R_{n}^{2}$$
+
+so eliminating the radius between them gives
+
+$$D_{\text{nose}} \propto \dot{q}^{-4}$$
+
+**Halving the heating costs sixteen times the nose drag.** That fourth-power exchange rate is why a re-entry capsule, which does not have to fly anywhere afterwards, is as blunt as it can be made, and why an aeroplane that must also glide several hundred kilometres to a runway is not.
 
 A third feature is absent from the relation and dominates the real problem. **A turbulent boundary layer transfers heat several times faster than a laminar one**, so where transition occurs matters more than most of the terms that are written down. The subject was under active investigation throughout the X-15's life and was not settled by it, in [Deem and Murphy 1965][research_deem_murphy_1965] on flat plates, [Sheetz 1965][research_sheetz_1965] on free flight, [Bueche 1966][research_bueche_1966] on the effect of surface roughness, [Henderson 1967][research_henderson_1967] and [Softley 1969][research_softley_1969] on cones, [Larson 1968][research_larson_1968] on results that did not fit, and [Masaki and Yakura 1968][research_masaki_yakura_1968] on how to carry a transitional layer through a heating analysis at all. [Berry 1967][research_berry_1967] flew an experiment for the purpose.
 
@@ -203,9 +267,101 @@ $$T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1
 
 against leading-edge temperatures reported near 2,700 degrees Fahrenheit on that flight. **The correlation overshoots the measurement by 12.7 percent**, which is close agreement for a relation carrying one assumed length scale, and the conclusion is insensitive to that scale because doubling the assumed nose radius changes the equilibrium temperature by only 8.3 percent.
 
+### How Much of It Actually Reaches the Structure
+
+The keystone was stated as a question about where the energy goes, and it has not yet been answered. It can be, approximately, and the answer contains something the framing did not anticipate.
+
+Energy leaves the vehicle by drag, and drag has two parts that dispose of it in different places. **Pressure drag dissipates into the shock layer and the wake, where the vehicle never sees it again. Skin friction dissipates at the wall, which is where the structure is.** So the fraction of the vehicle's energy that threatens it is bounded by the fraction of its drag that is friction.
+
+Of the friction dissipation, only part crosses into the surface. The Reynolds analogy relates the heat-transfer coefficient to the skin friction for a gas of Prandtl number near unity,
+
+$$St = \frac{C_{H}}{\rho V c_{p}} \approx \frac{C_{f}}{2}$$
+
+The heat entering the wall and the friction work done at it are then
+
+$$\dot{q}_{w} = St\, \rho V c_{p} \left(T_{aw} - T_{w}\right), \qquad \tau V = \frac{C_{f}}{2}\, \rho V^{3}$$
+
+and their ratio collapses to something remarkably simple,
+
+$$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}$$
+
+**The velocity has cancelled out of the numerator entirely**, so the fraction depends only on how far the wall sits below the adiabatic wall temperature, measured against the vehicle's kinetic energy.
+
+### The Result, Which Explains Why a Hot Structure Runs Hot
+
+Evaluating at the record condition, with an adiabatic wall temperature of 2,046 kelvin,
+
+$$\frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} = \frac{1004.5 \times \left(2046 - T_{w}\right)}{2020.6^{2}}$$
+
+gives
+
+| Wall temperature | Fraction of friction work entering the wall |
+|------------------|---------------------------------------------|
+| 300 K, cold | 43.0 percent |
+| 922 K, the design limit | 27.7 percent |
+| 1,755 K, Knight's leading edges | 7.2 percent |
+
+**A hot wall absorbs a smaller fraction than a cold one, and it is not a small difference.** Going from cold metal to the design limit cuts the fraction by more than a third, and at the temperature Knight's leading edges actually reached the wall was taking barely a seventh of what a cold wall would have taken.
+
+This is the part the keystone framing did not anticipate. **A hot structure is not merely a structure that tolerates being hot. Running hot is part of the mechanism by which it protects itself**, because the driving temperature difference is what pushes heat into it, and a hot wall has less of one. The design is self-limiting in a way that an insulated cold structure is not.
+
+### How Much of the Drag Is Friction
+
+The remaining factor is the drag split, and it can be estimated rather than assumed. At the record condition the Reynolds number on the fuselage length is
+
+$$Re_{L} = \frac{\rho V L}{\mu} = \frac{0.0155 \times 2020.6 \times 14.99}{1.48 \times 10^{-5}} = 3.2 \times 10^{7}$$
+
+and a turbulent flat-plate correlation gives a skin friction coefficient of
+
+$$C_{f} = \frac{0.0592}{Re_{L}^{0.2}} = 0.00187$$
+
+Over a wetted area of order 113 square metres against a reference area of 18.58, the friction drag and the total drag are
+
+$$D_{f} = C_{f}\, q\, A_{\text{wet}} = 6.7 \text{ kN}, \qquad D = C_{D}\, q\, S = 47 \text{ kN}$$
+
+at a drag coefficient of 0.08, so friction is about 14 percent of the total. Sweeping the two uncertain inputs, wetted area from 90 to 130 square metres and drag coefficient from 0.05 to 0.12, gives a range of **8 to 26 percent, centring near 15**.
+
+$$f_{\text{structure}} = 0.15 \times 0.277 = 0.042$$
+
+**About four percent of the vehicle's kinetic energy ends up in its own structure.** That is the answer to the question the keystone asked.
+
+### Four Percent Turns Out to Be Survivable, and the Reason Matters
+
+The empty aircraft masses 6,622 kilogrammes, so its kinetic energy at the record is
+
+$$E = m\, \tfrac{1}{2} V^{2} = 6{,}622 \times 2.041 \times 10^{6} = 13.52 \text{ GJ}$$
+
+of which four percent is 0.56 gigajoules. Against that, a structure comprising perhaps 60 percent of the empty mass can absorb, in reaching its design temperature from ambient,
+
+$$Q_{\text{capacity}} = m_{s} c_{p} \left(T_{\text{design}} - T_{0}\right) = 3{,}973 \times 440 \times 629 = 1.10 \text{ GJ}$$
+
+so the ratio is
+
+$$\frac{0.56}{1.10} = 0.51$$
+
+and across the whole range of friction fractions it runs from 0.27 to 0.68. **The total heat load is comfortably within what the structure can hold, with roughly a factor of two in hand.**
+
+That is worth sitting with, because it says the X-15's thermal problem is not a global energy problem at all. **The aircraft could absorb its entire heat load in its own thermal mass and still be below its design temperature.** Radiation, which over a five-minute descent from a hundred square metres at the design temperature rejects
+
+$$\varepsilon \sigma T^{4} A\, \Delta t = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} \times 100 \times 300 = 0.98 \text{ GJ}$$
+
+is not required to close the budget. It is required to keep the surface at a temperature the metal survives while the budget is being spent.
+
+### Which Confirms That the Constraint Is Rate, Not Load
+
+The two halves of the analysis now agree, and they did not have to.
+
+The heating-rate calculation found that the record condition demanded 19.8 times what the design temperature could radiate. The heat-load calculation finds that the total is only half of what the structure could absorb. **Those are consistent statements about a rate-limited structure**, and they are the quantitative form of the claim made earlier that a hot structure fails by exceeding a temperature rather than by filling up.
+
+**The X-15 was never in danger of running out of thermal capacity. It was in continuous danger of exceeding a temperature at a point**, which is exactly the failure that took the pylon off the ventral on the fastest flight ever made. A vehicle whose margin is global has room for local surprises. A vehicle whose margin is local has none.
+
 ### Trajectory Is a Thermal Design Variable
 
-Because the heating rate goes as the square root of density, and density falls roughly exponentially with height, flying higher at the same speed reduces the rate. One scale height buys a factor of
+Because the heating rate goes as the square root of density, and density falls roughly exponentially with height, flying higher at the same speed reduces the rate. The scale height that governs the fall is
+
+$$H = \frac{R T}{g} \quad \Longrightarrow \quad \rho(h) \approx \rho_{0} e^{-h/H}$$
+
+which for air at the temperatures of the middle atmosphere is between about 6.2 and 8.0 kilometres, so density falls by a factor of $e$ every seven kilometres or so. One scale height buys a factor of
 
 $$\sqrt{e^{-1}} = e^{-1/2} = 0.607$$
 
@@ -225,13 +381,29 @@ $$Q = \dot{q}\, \Delta t \propto \sqrt{\rho}\, V^{3} \times \frac{1}{\rho} = \fr
 
 **The rate falls with thinner air and the load rises.** They move in opposite directions, which is the sharpest statement of the trade this article can make.
 
+Putting a number on the load is worth doing because it is the quantity an ablator is sized against. At the record heating rate, the integrated load per unit area over exposures of one, two, and five minutes is
+
+$$Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\} = \left\{38.9,\ 77.8,\ 194\right\} \text{ MJ/m}^{2}$$
+
+**Tens to hundreds of megajoules per square metre** is the scale of the problem, and it is the number that decides how thick a coating has to be.
+
 **The heating rate and the heat load are therefore optimised by different trajectories**, and which one binds depends on whether the structure fails by exceeding a temperature or by absorbing too much total energy. The X-15's hot structure, which has no insulation and reaches equilibrium quickly, is rate-limited. An ablative or insulated structure is load-limited. **The X-15A-2 changed from one regime to the other when it was coated**, which is a more interesting statement than the usual observation that the coating let it fly faster.
 
 An ablator works by a different mechanism from a hot structure. It absorbs energy as latent heat of decomposition and carries it away in the mass that leaves, so its capacity is a total rather than a rate,
 
 $$Q_{\text{ablator}} = \dot{m}_{\text{loss}}\, h_{\text{eff}}$$
 
-where $h_{\text{eff}}$ is an effective heat of ablation and the mass loss is permanent. **A hot structure is reusable and rate-limited. An ablator is expendable and load-limited.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966], and the testing problem in [Colosimo 1968][research_colosimo_1968].
+where $h_{\text{eff}}$ is an effective heat of ablation and the mass loss is permanent. Rearranged, the mass consumed follows directly from the heating,
+
+$$\dot{m}_{\text{loss}} = \frac{\dot{q} A}{h_{\text{eff}}}$$
+
+and at the record heating rate over a representative five square metres, with an effective heat of ablation of 2.5 megajoules per kilogramme, this is 1.30 kilogrammes per second, or 156 kilogrammes over a two-minute exposure.
+
+The reason so thin a coating can do what a thick structure cannot is a ratio of capacities,
+
+$$\frac{h_{\text{eff}}}{c_{p}\left(T_{\text{design}} - T_{0}\right)} = \frac{2.5 \times 10^{6}}{440 \times 629} = 9.0$$
+
+**A kilogramme of ablator absorbs nine times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A hot structure is reusable and rate-limited. An ablator is expendable and load-limited.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966], and the testing problem in [Colosimo 1968][research_colosimo_1968].
 
 ### The Disposal Problem, Which Is the Other Half
 
@@ -261,6 +433,40 @@ $$\frac{\dot{q}}{|de/dt|} \propto \frac{\sqrt{\rho}\,V^{3}}{\rho V^{3}} = \frac{
 
 The X-15 is on the mild end of this because it never enters from orbit, but the structure of the trade is identical, and it is why the article treats trajectory as a thermal variable rather than a performance one.
 
+### The Aircraft Cannot Dispose of Its Energy Where It Acquires It
+
+One relation closes the keystone, and it is the one that explains why the flight has the shape it does.
+
+Deceleration by drag at constant altitude obeys
+
+$$\frac{dV}{dt} = -\frac{\rho S C_{D}}{2m} V^{2}$$
+
+which integrates to a time to fall from one speed to another,
+
+$$t = \frac{2m}{\rho S C_{D}}\left(\frac{1}{V_{f}} - \frac{1}{V_{0}}\right)$$
+
+The group in front is the ballistic coefficient in disguise,
+
+$$\beta = \frac{m}{C_{D} S} = \frac{6{,}622}{0.08 \times 18.58} = 4{,}455 \text{ kg/m}^{2}$$
+
+and a vehicle with a large ballistic coefficient is one that does not want to slow down. Evaluating from the record speed to a landing speed at several altitudes gives times that settle the question.
+
+| Altitude | Time to shed the energy |
+|----------|--------------------------|
+| 31 km, the record altitude | 102 minutes |
+| 25 km | 40 minutes |
+| 20 km | 18 minutes |
+| 15 km | 8 minutes |
+| 10 km | 4 minutes |
+
+**An X-15 flight lasts eight to twelve minutes in total.** At the altitude where it sets its speed record the aircraft would need an hour and a half to slow down, which it does not have and could not survive.
+
+$$\frac{102\ \text{min}}{10\ \text{min}} \approx 10$$
+
+**So the aircraft cannot dispose of its energy where it acquires it. It must descend into denser air to do so**, and descending into denser air is precisely what raises the heating rate, since $\dot{q}$ goes as the square root of density.
+
+That is the keystone stated as a single trap. **The vehicle must go where the heating is in order to get rid of the energy that causes the heating**, and the entire descent trajectory is the negotiation of that requirement. Every earlier result in this section is a term in it.
+
 ### The Glide, Which Is a Range Problem With a Fixed Budget
 
 From engine shutdown the X-15 is a glider, and a glider's range is set by its lift-to-drag ratio,
@@ -272,6 +478,16 @@ From the burnout altitude of Flight 91 at 53.6 kilometres, a lift-to-drag ratio 
 $$R_{\text{equiv}} = \frac{L}{D} \, \frac{e}{g}$$
 
 gives 801 kilometres at a ratio of 4 and 501 at 2.5, from the 1.964 megajoules per kilogramme available at burnout.
+
+The other end of the glide is worth a number too. At the empty mass the wing loading is
+
+$$\frac{W}{S} = \frac{6{,}622 \times 9.807}{18.58} = 3{,}495 \text{ N/m}^{2} = 73 \text{ lb/ft}^{2}$$
+
+and touching down at 200 miles per hour at sea level requires
+
+$$C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 89.4^{2} \times 18.58} = 0.71$$
+
+**That is an unremarkable landing lift coefficient on a wing of aspect ratio 2.5**, which is the point. The aircraft that had just been at Mach 6.7 lands like a heavy delta-winged fighter, and the same wing does both jobs because at neither end is it being asked for very much.
 
 **Those distances are the reason the X-15 was launched from a B-52 over Nevada and landed in California.** The flight plan is not a route. It is an energy budget with a lake bed at the end of it, and the launch point was chosen so that the budget closes.
 
@@ -325,6 +541,16 @@ $$\tau_{\text{th}} \sim \frac{8{,}200 \times 0.0015 \times 440 \times 900}{6.48 
 
 **The structure comes to equilibrium in under ten seconds**, which is short compared with the minutes the aircraft spends at speed. That is what makes the hot structure rate-limited rather than load-limited, and it is the quantitative form of the claim made earlier.
 
+The same conclusion follows from the diffusion side. The thermal diffusivity of the alloy is
+
+$$\alpha = \frac{k}{\rho_{s} c_{p}} = \frac{15}{8{,}200 \times 440} = 4.16 \times 10^{-6}\ \text{m}^{2}\text{/s}$$
+
+and heat penetrates a distance of order $\sqrt{\alpha t}$, so a 1.5 millimetre skin is thermally through-soaked after
+
+$$t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \text{ s}$$
+
+**The skin has no interior.** It is a single lumped temperature within half a second of anything happening to it, which is why the design can be reasoned about as a surface in radiative balance and why there is no thermal-lag margin to hide behind.
+
 ### Propulsion, Which Sets the Budget
 
 The XLR99 delivered 57,000 pounds of thrust and burned anhydrous ammonia with liquid oxygen, with hydrogen peroxide driving the turbopump. It was throttleable between about 30 and 100 percent and it could be restarted, both of which were unusual and both of which exist because the energy delivered had to be controllable.
@@ -337,13 +563,23 @@ so the full internal load of 8,573 kilogrammes lasts
 
 $$t_{b} = \frac{8{,}573}{93.7} = 91.5 \text{ s}$$
 
-which reproduces the reported burn time of about ninety seconds. **The entire energy input to an X-15 flight happens in a minute and a half**, and everything else is disposal. Component development is reported in [Wiswell et al 1961][research_wiswell_1961].
+which reproduces the reported burn time of about ninety seconds. **The entire energy input to an X-15 flight happens in a minute and a half**, and everything else is disposal.
+
+Because the mass falls by more than half while the thrust does not, the acceleration climbs throughout the burn. The thrust-to-weight ratio runs from
+
+$$\frac{T}{W_{0}} = \frac{253{,}500}{15{,}195 \times 9.807} = 1.70 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90$$
+
+so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, which is why the aircraft carried a side stick usable under acceleration in addition to the centre stick. Component development is reported in [Wiswell et al 1961][research_wiswell_1961].
 
 ### Control, Across Four Orders of Magnitude of Dynamic Pressure
 
 This is where the aircraft is most unlike anything before it and most like the two articles before this one.
 
-Aerodynamic control effectiveness is proportional to dynamic pressure. Along a representative ballistic arc at 1,500 metres per second, the standard atmosphere gives
+Aerodynamic control effectiveness is proportional to dynamic pressure, and dynamic pressure has a form that makes the altitude dependence explicit. Substituting the perfect-gas relation into its definition,
+
+$$q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}$$
+
+**so at fixed Mach number the dynamic pressure follows the static pressure exactly**, and static pressure falls by roughly a factor of ten every sixteen kilometres. At the record condition this gives 31.8 kilopascals against 31.7 computed from density and velocity directly, which is the consistency check the substitution invites. Along a representative ballistic arc at 1,500 metres per second, the standard atmosphere gives
 
 | Altitude | Density | Dynamic pressure |
 |----------|---------|------------------|
@@ -388,7 +624,29 @@ $$\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}$$
 
 ### Stability, and the Wedge
 
-At hypersonic speed a conventional thin vertical fin loses effectiveness, because the lift-curve slope of a thin surface falls as Mach number rises. The X-15's answer is a vertical tail of wedge section, blunt-based and thick, which retains directional stability where a thin one would not. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period.
+At hypersonic speed a conventional thin vertical fin loses effectiveness, because the lift-curve slope of a thin surface falls as Mach number rises. The X-15's answer is a vertical tail of wedge section, blunt-based and thick, which retains directional stability where a thin one would not.
+
+The reason is visible in the simplest hypersonic pressure relation there is. Newtonian impact theory treats the flow as particles that lose their normal momentum on striking a surface, giving
+
+$$C_{p} = 2 \sin^{2}\theta$$
+
+for a surface inclined at $\theta$ to the stream. **The pressure coefficient depends on the inclination and not on Mach number at all**, which is precisely the property a designer wants at a speed where everything else is falling away.
+
+The same relation says something about the whole aircraft that the article has not yet said. Newtonian theory gives a lift coefficient of
+
+$$C_{L} = 2 \sin^{2}\alpha \cos\alpha$$
+
+and holding the aircraft up at the record condition requires
+
+$$C_{L} = \frac{m g}{q S} = \frac{6{,}622 \times 9.807}{31{,}651 \times 18.58} = 0.110$$
+
+which solves to an angle of attack of about **13.8 degrees**. **A hypersonic aeroplane does not fly nose-first.** It flies at an attitude that would be a stall on any subsonic aircraft, because at those dynamic pressures lift comes from inclining the underside to the stream rather than from circulation, and the wing is a flat plate that happens to have an aerofoil section.
+
+That relation also states the wedge's advantage numerically. A thin surface deflected three degrees and a ten-degree wedge give
+
+$$C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.0603$$
+
+a ratio of 11. **A thick wedge is not a slightly better fin at hypersonic speed. It is an order of magnitude better**, and the cost is paid in base drag at every other speed the aircraft flies at. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period.
 
 The wedge works and it costs drag. **The base drag of a blunt-based fin is a permanent penalty paid to retain stability at a condition occupying perhaps thirty seconds of an eleven-minute flight**, and [Saltzman 1961][research_saltzman_1961] measured the base pressures that quantify it.
 
@@ -556,7 +814,9 @@ One archive quirk is worth recording because a reader checking the citation will
 
 **Engineering analysis, derived here and reproducible from the stated inputs.** The specific kinetic energy of 2.041 MJ/kg and its ratio of 2.26 to the melting enthalpy of the structure and 7.4 to the design-temperature enthalpy. The specific energies of the two records, 2.347 and 1.964 MJ/kg, and their ratio of 1.195. The 239.3 kilometre ideal zoom. The 89.9 percent of ideal delta-v. The heating rate of 64.8 W/cm², the radiative capacity of 3.28 W/cm² at the design temperature, and their ratio of 19.8. The radiative equilibrium of 3,040 degrees Fahrenheit against a reported 2,700. The dynamic pressure ratio above 4,000. The apogee horizontal speed of 1,346 m/s.
 
-**Assumptions carried by the analysis.** The melting enthalpy uses representative values for a nickel superalloy rather than measured Inconel X data. The heating uses one correlation and an assumed effective nose radius of 0.0762 metres. The sensitivity is stated in the text and the conclusion survives doubling that radius. The atmosphere model is the 1976 standard table implemented to 84.852 km and clamped above, so dynamic pressures quoted above that height are upper bounds and the control argument is strengthened rather than weakened by the clamp. The emissivity of 0.8 is representative.
+**A result that changed during the equation review, recorded because the first version was wrong.** The fraction of the vehicle's energy reaching its structure was first written on an assumed friction fraction of 35 percent of total drag, which gave about ten percent to the structure and a heat load exceeding the structure's absorptive capacity. Estimating the friction drag directly, from a turbulent flat-plate coefficient at the record Reynolds number over a plausible wetted area, gives 8 to 26 percent and about 15 centrally. **The corrected figure is four percent to the structure and a heat load of about half the absorptive capacity**, so the conclusion inverts. The corrected version is also the one consistent with the rest of the article, since a hot structure that is rate-limited should have load margin in hand, and the erroneous version contradicted that.
+
+**Assumptions carried by the analysis.** The melting enthalpy uses representative values for a nickel superalloy rather than measured Inconel X data. The heating uses one correlation and an assumed effective nose radius of 0.0762 metres. The sensitivity is stated in the text and the conclusion survives doubling that radius. The atmosphere model is the 1976 standard table implemented to 84.852 km and clamped above, so dynamic pressures quoted above that height are upper bounds and the control argument is strengthened rather than weakened by the clamp. The emissivity of 0.8 is representative. The energy-partition analysis assumes the Reynolds analogy with a Prandtl number near unity, a turbulent recovery factor of 0.89, a wetted area near 113 square metres, a drag coefficient near 0.08, and a structural mass fraction of 60 percent of empty mass. The friction fraction is quoted as a range because those inputs are uncertain, and the conclusion that load margin exists holds across the whole range. The Newtonian trim angle of 13.8 degrees uses impact theory alone and takes no account of the fuselage or of real-gas effects. The launch condition of 13.7 kilometres at Mach 0.8 is representative rather than taken from any particular flight.
 
 **Inference, stated as such.** That the two records are one budget differently partitioned is the article's framing rather than a claim any source makes. That the X-15A-2's ablative coating moved the vehicle from a rate-limited to a load-limited thermal regime is an inference from the nature of the two structures. That the reaction-control experience of the [X-14][related_post_a311_bell_x14] was available to the X-15's designers is plausible from the dates and is not documented here as a transfer.
 
