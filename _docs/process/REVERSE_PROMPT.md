@@ -9,124 +9,127 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A315 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All nineteen articles in the series remain in `_drafts/`.
+**Task**: A316 drafted, the first of four passes. Committed, **not pushed**, per the rhythm. **Not
+published.** All twenty articles in the series remain in `_drafts/`.
 
 ---
 
-## The Keystone Was Dissolved Rather Than Solved
+## The Handoff Was Right and the Keystone Does Not Transfer
 
-The contemporary section grew from 34 references to **204 across twelve fields**, and its central
-observation acts on the article rather than extending it.
+You warned me not to assume the X-18's keystone carried over, and it does not. **A tilt-wing must keep
+its wing flying at absurd angles, so slipstream immersion is everything. A tilt-propeller never rotates
+its wing at all.**
 
-This article spends its length computing an immersed fraction whose value was set by the X-18 having
-**exactly two propellers**. Nothing about a tilt-wing requires two. There were two because each needed a
-turboprop, a gearbox and a propeller, and those were expensive, heavy and unreliable enough that more
-was not sensible.
+What is astonishing about the X-19 instead is the size of its wings. **154.6 square feet carrying 13,660
+pounds, a wing loading of 88.4 pounds per square foot in an aircraft required to land vertically.** The
+wing alone stalls at 136.5 knots, so it cannot carry the aircraft at any speed below that.
 
-**Distributed electric propulsion removes every one of those reasons.** Many small motors immerse
-essentially the whole span, so the quantity this article is built on **goes to unity and the problem is
-deleted rather than answered.**
-
-**The configuration was not wrong in 1959 and was not buildable then either**, which is a distinction the
-historical record tends to blur.
-
----
-
-## This Subject Is Unusual in the Series
-
-Most of these aircraft asked a question that was answered and closed. **The X-18 asked one that was set
-aside for fifty years because the answer was too expensive, and then became affordable for a reason
-nobody in 1959 could have anticipated.** That makes a contemporary survey unusually apt here rather than
-dutiful.
+**The keystone is the propeller normal force**, meaning the force a propeller develops at right angles to
+its own axis in oblique flow. Curtiss-Wright called it the radial lift force and sized the wing around
+it. Its literature is Ribner's wartime work on propellers in yaw, which is **aerodynamic stability
+literature from 1943 to 1945, eighteen years older than the aircraft**. A pool imported from A315 would
+not have contained a line of it, which settled the one-directory question on its own.
 
 ---
 
-## Further Findings
+## The Wide Blade Is Demanded Twice
 
-**The 0.85 contraction factor is not a quantity a modern analysis would guess.** The interference the
-X-18 could only measure is now simulated directly.
+The best result in the article. The X-19's propellers had famously wide blades and the usual explanation
+is radial lift.
 
-**Descent is still the hard part, seventy years on.** That is not a failure of the intervening work. It
-is a statement that a lifting surface meeting air arriving from below has **no configuration-level fix.**
+The 400-knot cruise caps the helical tip Mach number, which caps the rotational tip speed at **644.2 feet
+per second, or 946 revolutions per minute**. Hovering at that tip speed then requires a solidity of 0.211
+and a blade chord of **17.2 inches on a 13-foot propeller**, against about 7 inches for a conventional
+one. **That calculation never mentions radial lift.** The wide blade is forced by two requirements that
+were going to be imposed anyway, and the radial lift force arrives with it.
 
-**Redundancy replaced cross-shafting.** With enough independent motors, the 268 kN·m upset this article
-computes for a two-propeller aircraft becomes a small perturbation. **The engine-out case stopped being
-an aerodynamic problem and became a redundancy-architecture problem.**
-
-**Certification is where the constraint now lives.** The X-18 was grounded by a propeller governor. Its
-descendants are more often delayed by a means-of-compliance document.
-
-**Noise is a genuinely new constraint**, not an old one made stricter. Nothing in this article's analysis
-touches it, and a modern designer would trade immersed fraction against tip speed in a way the X-18's
-designers never had to consider.
+Feeding the chord back through Ribner's fin analogy fixes the one free parameter, the in-plane momentum
+fraction, at **0.283 from geometry rather than by assumption.**
 
 ---
 
-## Eight Rejected by Reading, and a Counter-Case
+## A Result That Cuts Against the Article's Own Thesis
 
-New examples from this pass: **micro-mobility** noise, meaning scooters; **flying-car racing** as a
-constitutional pathway; and a paper on roll attitude **regulation** that matched a certification bucket
-through the substring `regulat`.
+I want to flag this rather than bury it, because it is the finding I did not expect.
 
-One entry was **kept** after reading its full title, because a truncated display had hidden that its
-subject was Advanced Air Mobility. Reading works in both directions.
+The propellers do supply **29.8 percent of the lift slope in cruise**, and without the radial lift force
+the X-19 would have needed about **225 square feet at 61 pounds per square foot**, an ordinary transport
+wing loading. Two independent routes to that number, one ignoring drag entirely and one from the fully
+trimmed corridor, **agree to 3.5 percent**.
 
-**And the counter-case belongs in the record.** An ad-hoc relevance scan I ran over the finished
-citations produced two false positives of its own, matching fragments inside **AR-ISING** and inside a
-legitimate paper on propeller-produced unsteady **BEARING** forces. **The checks need the same discipline
-as the thing they check**, and word boundaries are not optional in either.
+**But the conversion corridor is continuous with the effect switched off.** Higher speeds, narrower
+bands, still continuous. So the radial lift force is **not** what made the X-19 possible. It made the
+wing smaller. The article says so plainly in a section titled for it, because the opposite claim was the
+one the configuration was sold on.
+
+---
+
+## The Cure and the Cause of Death Were the Same Component
+
+The X-18's fatal deficiency was two engines with no interconnection. The X-19 had the interconnection,
+and losing both propellers on one side is an upset of **1.67 times full roll control**, so the
+cross-shaft was not a refinement. **The cross-shaft is also the gearbox that destroyed the aircraft.**
+
+Two further control findings. The tandem layout supplies for nothing the pitch control that the X-18
+needed a turbojet to obtain, at 35.9 degrees per second squared. **Yaw is an order of magnitude short**
+at 1.99 degrees per second squared, which is a candidate explanation for the recorded control system
+problems rather than an answer, since differential nacelle tilt is not excluded.
+
+---
+
+## Two Defects Found by Reading, Not by Checking
+
+**The corridor was circular and returned nonsense.** The first formulation solved the vertical
+equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any
+speed. It reported **0.6 knots at every nacelle angle below 60 degrees**. Nothing flagged it. Eliminating
+thrust between the two equations instead gives a residual that is well scaled everywhere.
+
+**The isolated build script arrived one stub short.** The copy carried eighteen predecessors and A316
+needs nineteen, so the `post_url` to A315 had no target and **the entire build failed**. That is the
+interlock behaving exactly as designed, and it is the copied-script defect in its purest form. I also
+found and fixed the two-clause navigation check, both clauses, per the A314 lesson.
+
+**One model inconsistency fixed rather than carried.** A figure of merit of 0.70 and a propeller
+efficiency of 0.80 were being used for what the momentum model treats as one quantity. The corridor is
+now reported across both.
+
+---
+
+## What This Article Cannot Do
+
+**There is no flight data from the regime the aircraft was built for.** Fifty flights, four hours, and
+**no transition was ever attempted**. Comparison With Ground Prediction therefore reports the absence
+rather than a comparison, and every cruise number in the article is a prediction with no X-19
+measurement against it. The only confirmation belongs to the X-100, which transitioned once in 1960.
+
+I also state where my own model stops deserving belief. The in-plane momentum picture is defensible to
+about 60 degrees of disc incidence, and **five of the ten corridor rows sit outside that**, reaching 89.5
+degrees at the hover end.
 
 ---
 
 ## Verification
 
-**62 draft-pass and 77 equation-pass re-derivations, zero disagreements**, still reproducing after every
-edit. 418 reference definitions, 400 external URLs, zero duplicates or orphans.
+**107 independent re-derivations, zero disagreements**, from a verifier that integrates the atmosphere by
+trapezoidal rule where the model uses the analytic layer solution and uses closed forms where the model
+bisects. All 102 quoted values confirmed present in the text.
 
-URL sweep: 209 plain 200s, 155 publisher 403s, 5 202s, and **31 DTIC DOIs verified through the Crossref
-registry** — one of which turned out to be a method for calculating the spindle torque of a
-controllable-pitch propeller, and therefore directly about the system that failed on the final flight.
-
-A red-flag scan of all 388 cited titles returned **zero hits**. `_verify.py` at the 0-error 21-warning
-corpus baseline. Zero style violations. Genre section order correct. Isolated build passing with 29 of
-29 display blocks, 8 of 8 tables, Part 19 navigation. Equation count measured before and after, holding
-at 29.
-
----
-
-## Final State, and a Pattern You Should Now Settle
-
-**935 lines, 29 display equations, 418 references, 8,437 body words.** Contemporary 204 of 388, or 52.6
-percent.
-
-References are above the full-aircraft band. **Lines sit 369 below its 1,300 floor and equations 61
-below the 90 floor**, so A315 finishes outside the named classes on two of three measures — exactly as
-A313 and A314 did.
-
-**That is three consecutive articles, across twelve passes.** It is no longer a coincidence and it is no
-longer a one-off observation. `RESEARCH_AIRCRAFT_STRUCTURE.md` names four classes and these three
-articles fit none of them, consistently and in the same direction. **I have not amended the genre
-document, because that is a change to the series' own standards and it is yours to make.** If you would
-like me to propose a fourth class with bands drawn from A313 to A315, say so and I will.
+79 references, 60 external URLs, zero duplicates or orphans. URL sweep at 38 plain 200s, 10 publisher
+403s, and **3 DTIC DOIs verified through the Crossref registry** with matching titles. `_verify.py` at
+the 0-error 21-warning corpus baseline with no new warnings. Zero style violations. Isolated build
+passing with 33 of 33 display blocks rendering as display rather than inline, 2 of 2 tables, and Part 20
+navigation.
 
 ---
 
 ## State
 
-**Pushed.** Nothing in this series is published, and the deploy workflow builds without `--drafts`.
-**The publication-order dependency is nineteen deep**, A315 back to A297, and every cross-reference
-points backward.
+**Committed, not pushed**, which is the draft pass. **514 lines, 33 display equations, 79 references,
+6,601 words.**
 
-Nineteen articles complete of seventy-two.
+Twenty of seventy-two articles. The publication-order dependency is now **twenty deep** and every
+cross-reference points backward.
 
-**Categories are settled.** You gave me discretion and I kept `aerospace history engineering`, which all
-nineteen drafts already carry, so no article changed. I checked rather than merely retained it. Three
-terms is the corpus convention at 203 of 296 posts. `aerospace` is the second most common first category
-and is not a shadowed path. **Both `aerospace` and `engineering` are on the curated feed list**, so the
-series reaches two topical Atom feeds; `history` is not, and gets an archive page only. Category order
-affects nothing but the URL, since archives and feeds select by name. Live checks returned 200 for an
-existing `/aerospace/...` post, for both category archives, and for the aerospace feed. **The only open
-decision left is the fourth genre class.**
-
-A316 is the next roster entry; check `HANDOFF.md` before starting.
+**The fourth genre class is still the open decision and A316 does not settle it.** At 514 lines and 33
+equations this is a draft-pass state rather than a final one, so it is not yet evidence either way. The
+three remaining passes are yours to prompt.

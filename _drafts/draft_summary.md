@@ -17,6 +17,52 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Curtiss-Wright X-19 A316 2025-10-25
+
+`x_planes_curtiss_wright_x19.markdown`, A316, editorial date 2025-10-25, series `x_planes` index 20 of
+72.
+
+**514 lines, 33 display equations, 79 references, 6,601 words after the draft pass.** One of four passes
+complete. Committed, not pushed. Not published.
+
+**The keystone deliberately does not transfer from A315, and the handoff was right to warn against
+assuming it would.** A tilt-wing must keep its wing flying at enormous angles of attack, so slipstream
+immersion governs it. A tilt-propeller never rotates its wing, so immersion is irrelevant. The X-19's
+distinguishing feature is instead a wing loading of 88.4 pounds per square foot in an aircraft required
+to land vertically, against a wing that stalls at 136.5 knots.
+
+**The keystone is the propeller normal force**, the force a disc develops normal to its own axis in
+oblique flow, which Curtiss-Wright called the radial lift force and sized the wing around. Its primary
+literature is Ribner on propellers in yaw, from 1943 to 1945, which is aerodynamic stability work
+eighteen years older than the aircraft and would not have appeared in an imported A315 pool.
+
+**Strongest result.** The 400-knot cruise caps tip speed at 644.2 feet per second, and hovering at that
+tip speed forces a blade chord of 17.2 inches on a 13-foot propeller without invoking radial lift at all.
+The famously wide blade is demanded twice over. Feeding that chord through Ribner's fin analogy fixes the
+one free parameter at 0.283 from geometry rather than assumption.
+
+**A result that cuts against the article's own thesis, reported rather than buried.** The propellers
+supply 29.8 percent of the cruise lift slope and the equivalent plain wing is 225 square feet at 61
+pounds per square foot, computed two independent ways agreeing to 3.5 percent. **But the conversion
+corridor is continuous with the radial lift force switched off.** It made the wing smaller rather than
+making the aircraft possible.
+
+**Central historical claim.** The X-18's fatal deficiency was uninterconnected engines. The X-19 had the
+interconnect, which was necessary because losing one side is 1.67 times full roll control, and the
+interconnect is the gearbox that destroyed it. The cure and the cause of death were the same component.
+
+**Two defects found by reading rather than by any check.** The first corridor formulation was circular
+and returned 0.6 knots at every nacelle angle below 60 degrees. The isolated build script arrived one
+stub short at eighteen predecessors, so the `post_url` to A315 had no target and the entire build failed,
+which is the interlock working as designed.
+
+**What the article cannot do.** Fifty flights, four hours, and no transition ever attempted, so there is
+no flight data from the regime the aircraft was built for. Comparison With Ground Prediction reports the
+absence. The article also names where its own model stops deserving belief, at about 60 degrees of disc
+incidence, and reports that five of ten corridor rows sit outside it.
+
+107 independent re-derivations with zero disagreements. Three passes remain.
+
 ## X-Planes Hiller X-18 A315 2025-10-24
 
 `x_planes_hiller_x18.markdown`, A315, editorial date 2025-10-24, series `x_planes` index 19 of 72.
