@@ -9,8 +9,107 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A317 equation-density review, the second of four passes. Committed, **not pushed**, per the
+**Task**: A317 primary-reference review, the third of four passes. Committed, **not pushed**, per the
 rhythm. **Not published.** All twenty-one articles in the series remain in `_drafts/`.
+
+---
+
+## The Cleanest Instance of the Inter-Pass Dependency So Far
+
+**115 references to 271**, of which 236 are research citations and all 236 are primary or period, with
+zero contemporary held back for the publication review.
+
+The coverage audit found five thin topics, and **they were exactly the five the equation pass had
+promoted.**
+
+**Newtonian impact theory stood at ZERO records.** The article's independent cross-check on its own
+keystone had no reference base whatever, for the plain reason that the draft harvest could not know the
+cross-check would come to exist. Thermal expansion stood at eleven, emissivity at one, the ballistic
+coefficient at six, energy management at four. A targeted search took them to 15, 47, 28, 12 and 17.
+
+**Everything the draft was already about was deep and under-used**, which no search would have fixed.
+Radiative cooling held 78 records against 10 cited, refractory coatings 73 against 7, launch 79 against
+15. Spreading the selection was the whole of the work there.
+
+---
+
+## A Process Defect I Had Not Seen Before
+
+**Four references I rejected by reading during the draft pass came back in this one.** Each pass rebuilds
+its rejection list from scratch, so a record thrown out by judgement in pass one is free to be reselected
+in pass three. Among the four was a study of the **thermal protection capacity of aviator's textiles**,
+which is clothing.
+
+**The rejection list is now written to a file** so later passes inherit it. Twenty-eight decisions are in
+it, across three passes.
+
+---
+
+## A Word Boundary Caused the Miss, Which Is the Opposite of the Usual Lesson
+
+The exclusion rule that should have caught the textiles paper was `\btextile\b`. The title says
+TEXTILES. **The trailing word boundary fails against the plural.**
+
+This series has documented substring matching three times, in `fRAMework`, `ARISING` and `controllable`,
+and the fix each time was to add word boundaries. **Here the word boundary is what let the wrong record
+through.** Both failures are the same underlying mistake, which is trusting a pattern instead of reading
+what it returned.
+
+---
+
+## Three Homonym Families, All Caught by Reading
+
+**In spectroscopy an "impact theory" is a model of collisional line broadening** and has nothing to do
+with hypersonic flow. The first Newtonian bucket returned one.
+
+**In aviation the "terminal area" is the airspace around an airport**, so a search for terminal energy
+management returns air traffic control, including a paper on Orly.
+
+**Thermal expansion is a materials-science subject** in plutonium, phthalocyanines, lithium hydride and
+rare earths, none of which this article has any use for. A high-emissivity coating for **television
+picture tubes** was also returned.
+
+---
+
+## What the New Material Adds
+
+**The emissivity assumption is now visible as an assumption.** Temperature goes as the inverse fourth
+root of emissivity, so 0.6 rather than 0.85 runs the nose about 250 degrees hotter, and the measurement
+of emissivity on refractory metals at these temperatures was an active subject rather than a settled one.
+
+**Two references are the X-20's exact problem stated in their abstracts**, being the temperature
+distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal
+stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
+
+**One topic stays genuinely narrow and is reported rather than padded.** Terminal energy management for
+an unpowered orbital vehicle has four usable period references, because the subject did not exist until a
+vehicle was actually going to fly it.
+
+---
+
+## Verification
+
+**77 independent re-derivations, zero disagreements**, still reproducing after every edit. All 81 quoted
+values present. 271 references, 251 external URLs, zero duplicates or orphans. 158 plain 200s, 44
+publisher 403s, 9 202s, and **44 DTIC DOIs verified through the Crossref registry with matching titles**.
+
+A red-flag scan over all cited titles and venues across ten false-positive families returned zero hits,
+and a separate check confirms no read-and-dropped record is still cited. `_verify.py` at the 0-error
+21-warning baseline from the repository root. Zero style violations. Build passing with 49 of 49 display
+blocks rendering as display, Part 21 navigation. Equation count measured before and after, holding at 49.
+
+---
+
+## State
+
+**Committed, not pushed. 754 lines, 49 display equations, 271 references, 6,352 words.** Era spread is 33
+pre-1960, 107 across the 1960s and 1970s, 58 in the 1980s and 1990s, 38 from 2000 to 2018, and zero
+contemporary.
+
+**References at 271 are inside the 250 to 380 band.** Lines sit 546 below the 1,300 floor and equations
+41 below the 90 floor. The publication review is the remaining pass and contemporary coverage is its work.
+
+**A315's four marine citations are still uncorrected.**
 
 ---
 
@@ -82,8 +181,7 @@ error.
 
 ## State
 
-**Committed, not pushed**, which is correct for this pass. **566 lines, 49 display equations, 115
-references, 4,996 words.**
+Superseded by the state section above.
 
 Seven sections remain flagged by the density scan and I judge all seven correct as they stand, being the
 opening, the historical framing, and the closing analytical sections, which quote numbers derived

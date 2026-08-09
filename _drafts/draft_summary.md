@@ -21,9 +21,22 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x20.markdown`, A317, editorial date 2025-10-26, series `x_planes` index 21 of 72.
 
-462 lines, 24 display equations, 115 references, 4,462 words after the draft pass; **566 lines, 49
-display equations, 115 references, 4,996 words after the equation review.** Two of four passes complete.
-Committed, not pushed. Not published.
+462 lines, 24 display equations, 115 references, 4,462 words after the draft pass; 566 lines, 49
+display equations, 115 references, 4,996 words after the equation review; **754 lines, 49 display
+equations, 271 references, 6,352 words after the primary-reference review.** Three of four passes
+complete. Committed, not pushed. Not published.
+
+**The coverage audit produced the cleanest instance of the inter-pass dependency this series has seen.**
+Five topics were thin in the pool and they were exactly the five the equation pass had promoted, with
+Newtonian impact theory at ZERO records because the draft harvest could not know that cross-check would
+come to exist. Everything the draft was already about was deep and under-used. Research citations are
+236, all primary or period, with zero contemporary held for the publication review.
+
+**A process defect was found.** Four references rejected by reading during the draft pass reappeared,
+because each pass rebuilds its rejection list from scratch. The list is now persisted to a file with
+twenty-eight decisions. **The rule that should have caught one of them used a word boundary, and the word
+boundary is what let the plural through**, which is the opposite failure from the substring matching this
+series has documented three times.
 
 **The equation review found the article's own central claim undisplayed.** The draft asserts that peak
 heating on an equilibrium glide is independent of lift-to-drag ratio and that the peak falls at a
