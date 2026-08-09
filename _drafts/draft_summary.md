@@ -17,6 +17,46 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-20 Dyna-Soar A317 2025-10-26
+
+`x_planes_boeing_x20.markdown`, A317, editorial date 2025-10-26, series `x_planes` index 21 of 72.
+
+**462 lines, 24 display equations, 115 references, 4,462 words after the draft pass.** One of four passes
+complete. Committed, not pushed. Not published.
+
+**The keystone is the exchange rate between crossrange and heat, and it decomposes unusually cleanly.**
+Substituting the equilibrium-glide density into the stagnation heating relation removes lift-to-drag ratio
+entirely, so peak heat rate depends only on wing loading, total heat load is directly proportional to
+lift-to-drag ratio, and crossrange is proportional to its square. Across a twelvefold change in
+lift-to-drag ratio the peak rate does not move in the fourth decimal place, confirmed numerically over an
+eighty-fold range and then analytically, the peak sitting at a speed ratio of exactly two thirds. Peak
+temperature selects the material and is set by wing loading; mission reach selects the programme and is
+set by lift-to-drag ratio; the two do not interfere. The quoted 1,700 nautical miles needs a lift-to-drag
+ratio of 1.245, which a flat-bottomed delta of 1957 achieved.
+
+**A conclusion reversed while computing it.** The article expected to show that a thirty-minute heat load
+makes ablation impossible and therefore forces the radiative hot structure. It does not. An ablator comes
+out at five to twenty-four percent of glider weight across every plausible effective heat of ablation,
+which is heavy and buildable, and only a heat sink is impossible at 333 percent. **The hot structure was
+chosen for reuse rather than compelled by mass**, and the earlier reading is withdrawn in the text.
+
+**The capsule comparison is not the one usually drawn.** A properly integrated Allen-Eggers ballistic
+entry imposes a peak rate 26.1 times higher and a total load essentially the same at 0.95. The glider's
+advantage is entirely in rate, which is what permits radiative cooling.
+
+**Wing loading is the series contrast.** At 33 pounds per square foot against the X-19's 88.4, the same
+quantity is driven in opposite directions for unrelated reasons. At 88.4 the nose would sit at 3,269
+degrees Fahrenheit, above coated molybdenum.
+
+**Two tooling defects, both from the working directory.** A leftover `select.py` from A316 shadowed the
+Python standard library module, executed on import, and overwrote the reference selection with output
+computed for a tilt-propeller aircraft. The corpus verifier then reported zero warnings against a
+twenty-one warning baseline, having inherited a scratch working directory. **The A316 checker fix caught
+the missing Contemporary Literature section on its first run**, so a defect that survived three passes
+there was caught in minutes here.
+
+57 independent re-derivations with zero disagreements. Three passes remain.
+
 ## X-Planes Curtiss-Wright X-19 A316 2025-10-25
 
 `x_planes_curtiss_wright_x19.markdown`, A316, editorial date 2025-10-25, series `x_planes` index 20 of

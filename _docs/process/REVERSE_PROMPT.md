@@ -9,117 +9,116 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A316 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All twenty articles in the series remain in `_drafts/`.
+**Task**: A317 drafted, the first of four passes. Committed, **not pushed**, per the rhythm. **Not
+published.** All twenty-one articles in the series remain in `_drafts/`.
 
 ---
 
-## A Section Was Missing From the Article Entirely
+## The Keystone Turned Out Cleaner Than Expected
 
-The genre carries three sections beyond the standard twelve, and **A316 was drafted with only two of
-them.** `## The Contemporary Literature` was absent from the article from the draft pass onward, and
-every automated check passed it through three passes, because `check.py` counted sections rather than
-identifying them.
+The X-20 asked what lift costs on the way back from orbit. Substituting the equilibrium-glide density
+into the heating relation gives
 
-That is the section this pass exists to write, so the omission surfaced the moment I went looking for
-where to put the survey. **`check.py` now names the three required extras and fails if any is missing**,
-and also verifies that The Source Base precedes the Epistemic State.
+  peak heat rate proportional to the square root of WING LOADING, with **no lift-to-drag ratio in it at
+  all**
 
-**Three acronyms were also used before expansion**, namely NACA, NASA, and the vertical take-off and
-landing abbreviation, the last used some thirty thousand characters before its expansion. That is the
-A298 defect recurring. All three are corrected.
+  total heat load proportional to LIFT-TO-DRAG RATIO
 
----
+  crossrange proportional to the SQUARE of lift-to-drag ratio
 
-## The Survey's Claim Is the Opposite of A315's
+**Across a twelvefold change in lift-to-drag ratio the peak rate does not move in the fourth decimal
+place.** I checked that numerically over an eighty-fold range and then confirmed it analytically, since
+the peak sits at a speed ratio of exactly two thirds and the expression contains no lift term.
 
-A315 closed on a configuration that came back because distributed electric propulsion **dissolved** its
-keystone, driving the immersed fraction to unity and deleting the problem the article was built on.
+That is an unusually clean decomposition. **Peak temperature, which selects the material, is set by wing
+loading alone. Mission reach, which selects the programme, is set by lift-to-drag ratio alone.** The two
+decisions do not interfere.
 
-**This article cannot make that claim and does not try to.** The X-19's keystone was never wrong. A
-propeller in oblique flow develops a force normal to its axis, it did so in 1963, and it does so now.
-
-**What changed is the failure mode, and it was abolished rather than improved.** The X-19 died of a
-gearbox, and that gearbox existed only because two engines had to drive four propellers through an
-interconnected transmission. Electric propulsion removes the requirement outright. Each rotor takes its
-own motor, there is no cross-shaft, no combining box, and no propeller reduction gearbox to fail.
-
-**The cure that killed this aircraft is absent from the modern configuration rather than better
-engineered within it.** That is a genuinely different kind of progress from the one the previous article
-described, and the survey is organised around the distinction.
+The quoted 1,700 nautical miles of crossrange needs a lift-to-drag ratio of **1.245**, which is exactly
+what a flat-bottomed delta of 1957 achieved, so the programme's headline claim is consistent with its own
+configuration rather than optimistic about it.
 
 ---
 
-## The Thinness of the Keystone's Modern Literature Is a Result
+## I Was Wrong About Why the Structure Was Hot, and Say So
 
-Worth flagging because it looks like a gap and is not. A search that returns hundreds of recent papers on
-transition corridors returns **four** on propeller normal force.
+The file was written expecting to show that a thirty-minute heat load makes ablation impossibly heavy and
+therefore forces a radiative structure. **The arithmetic says otherwise and the earlier reading is
+withdrawn in the text.**
 
-**That is the signature of a solved problem.** A quantity that is settled stops generating publications.
-The modern form of the subject is a simplified model for propeller thrust in oblique flow, or propeller
-performance at large angle of attack for compound helicopters, which is a term to include in a simulation
-rather than a question to argue. I report it as evidence that Curtiss-Wright's aerodynamic claim is no
-longer contested, rather than padding the section to hide it.
+An ablator sized for the whole vehicle load comes out between **556 and 2,778 pounds**, or five to
+twenty-four percent of glider weight, across every plausible effective heat of ablation. Heavy, and
+entirely buildable. A heat sink is genuinely impossible at 333 percent.
+
+**So the hot structure was chosen for REUSE, not compelled by mass**, which makes the X-20's most
+distinctive engineering decision a consequence of wanting an aeroplane rather than a consequence of the
+heat.
 
 ---
 
-## Reading the Rejections Caught Three More Families
+## The Comparison With a Capsule Is Not the One Usually Drawn
 
-The contemporary sweep needed three rounds of narrowing, and each round was driven by reading rather than
-by any check.
+I integrated a proper Allen-Eggers ballistic entry rather than degenerating the glide model, after the
+first attempt evaluated the glide at a lift-to-drag ratio of 0.0001 and produced a heat-load ratio of
+twelve thousand five hundred, which was absurd on its face.
 
-**A bare `gearbox` returns the entire industrial condition-monitoring literature.** The first run of the
-drivetrain bucket was fourteen records of fault diagnosis for planetary gearboxes, twin-screw extruders,
-a cable-car drive and wind-turbine drivetrains, with almost nothing aeronautical. The bucket was reframed
-around the electric powertrain that removed the mechanical interconnection, which is what the article
-actually needs.
+Done properly, a ballistic entry imposes a peak rate **26.1 times higher** and a total load **essentially
+the same**, at 0.95. The glider's whole advantage is in rate, and that is precisely what permits a
+structure that radiates rather than one that burns away.
 
-**A bare rotor-inflow pattern returns at least four fields.** The first keystone bucket held wind-turbine
-rotors, a Kaplan water turbine, two axial-flow compressor stages and a generator in a drain pipe.
+---
 
-**Two more survived every rule and were caught by a final scan**, being film cooling of a turbine blade
-and an H-Darrieus rotor. The token `VAWT` was in my exclusion list and the machine's own name was not.
+## Two Tooling Defects, Both From the Working Directory
+
+**A leftover selector from A316 shadowed a Python standard library module.** It was named `select.py`,
+sat in the working directory, was imported in place of the standard `select`, executed on import, and
+**overwrote this article's reference selection with output computed for a tilt-propeller aircraft.** I
+caught it because the replacement contained propeller buckets for a spaceplane. Nothing in the checking
+apparatus would have found it.
+
+**The corpus verifier then reported zero errors and zero warnings**, where the baseline is zero and
+twenty-one. It had inherited a scratch working directory and checked nothing. **It was caught only
+because the expected number was known**, which is the argument for recording baselines rather than
+reading checks as pass or fail. This is the relative-path defect for the sixth time.
+
+---
+
+## The A316 Checker Fix Paid Off Immediately
+
+`check.py` gained a test after A316 that the three required series sections are all present. **It failed
+this draft on the first run**, for the missing Contemporary Literature section, so the defect that
+survived three passes in A316 was caught in minutes here. A brief survey section is now in the draft and
+the publication review will expand it.
 
 ---
 
 ## Verification
 
-**119 independent re-derivations, zero disagreements**, still reproducing after every edit. 431 reference
-definitions, 412 external URLs, zero duplicates or orphans. 234 plain 200s, 122 publisher 403s, 7 202s,
-and **15 DTIC DOIs verified through the Crossref registry with matching titles**, none of them marine.
+**57 independent re-derivations, zero disagreements**, from a verifier that uses an exponential
+atmosphere where the model uses tabulated layers, Simpson where the model uses trapezoid, and closed-form
+maximisation where the model searches numerically. All 60 quoted values confirmed present.
 
-A red-flag scan over all 399 cited titles **and venues**, across eight false-positive families, returned
-**zero hits**. `_verify.py` at the 0-error 21-warning corpus baseline with no new warnings. Zero style
-violations. Acronym check clean. Section order matches the genre. Isolated build passing with 78 of 78
-display blocks rendering as display, 2 of 2 tables, and Part 20 navigation. Equation count measured
-before and after and holding at 78.
-
----
-
-## Final State
-
-**1,200 lines, 78 display equations, 431 references, 11,792 words.** Contemporary coverage is **157 of
-399 research citations, or 39.3 percent**. Era spread is 67 pre-1960, 111 across the 1960s and 1970s, 56
-in the 1980s and 1990s, eight from 2000 to 2018, and 157 from 2019 onward.
-
-**References at 431 are above the 250 to 380 band.** Lines sit 100 below the 1,300 floor and equations 12
-below the 90 floor. **That is the fourth consecutive article to finish outside the named classes on two
-of three measures, in the same direction**, and it is the closest any of the four has come on lines.
+115 references, 95 external URLs, zero duplicates or orphans, 70 plain 200s, 5 publisher 403s, and **7
+DTIC DOIs verified through the Crossref registry with matching titles**. Red-flag scan over all 80 cited
+titles and venues across seven families returned zero hits. `_verify.py` at the 0-error 21-warning
+baseline, confirmed from the repository root. Zero style violations. Isolated build passing with 24 of 24
+display blocks rendering as display, 2 of 2 tables, Part 21 navigation.
 
 ---
 
-## The Two Things Still Waiting on You
+## State
 
-**The A315 marine citations.** A315 cites four naval-architecture papers as aircraft propeller
-literature, and its reverse prompt describes one of them, a David Taylor Model Basin study of spindle
-torque on a controllable-pitch **ship** propeller, as "directly about the system that failed on the final
-flight." **I have not touched A315**, because it is outside what you asked for. It is four anchors and
-one sentence whenever you want it done.
+**Committed, not pushed**, which is the draft pass. **462 lines, 24 display equations, 115 references,
+4,462 words.**
 
-**The fourth genre class.** A313, A314, A315 and A316 have now all finished outside every named class on
-two of three measures in the same direction, across sixteen passes. I have not amended
-`RESEARCH_AIRCRAFT_STRUCTURE.md`, because it defines the series' own standards. Say the word and I will
-propose a fourth class with bands drawn from the four.
+Twenty-one of seventy-two. The publication-order dependency is now **twenty-one deep** and every
+cross-reference points backward.
 
-A317 is the Boeing X-20 Dyna-Soar. Nothing in the series is published and publishing has never been
-authorised.
+**A source conflict was resolved rather than repeated.** A gross mass of 22,321 pounds appears widely and
+is inconsistent with a wing loading of 33 on 345 square feet. The glider weight of 11,386 pounds
+reproduces the quoted loading exactly, so the larger figure is the launch stack including the transtage.
+
+**A315's four marine citations are still uncorrected** and still outside what you have asked for. Four
+anchors and one sentence whenever you want it.
+
+The three remaining passes on A317 are yours to prompt.
