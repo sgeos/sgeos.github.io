@@ -17,6 +17,38 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Martin Marietta X-24 A321 2025-10-30
+
+`x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
+
+**1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass.** One of four
+passes complete. Committed, **not pushed**. Not published.
+
+**The keystone is the unpowered landing and the quantity that sets it is base drag.** A reentry vehicle
+must be cut off flat, Hoerner's relation makes base drag fall as forebody drag rises so there is an
+interior optimum, and differentiating that bucket gives a result containing none of its parameters:
+**at the optimum total drag is exactly three times forebody drag.** That caps the subsonic lift-to-drag
+ratio near three, and the reference area cancels from the expression. **The model was validated on a
+case it was not fitted to**, the Shuttle prototype Enterprise having flown both truncated and with a
+tailcone, where covering the base should buy exactly the square root of three and the prediction of
+7.05 sits six percent from the measured 7.5.
+
+**The verifier overturned the article's first flare treatment and a headline claim with it.** A
+constant-radius arc is too long because the vehicle decelerates and the arc tightens, and at low load
+factor the error was qualitative rather than numerical, producing a spurious claim that a gentle flare
+ran out of speed. Integrating instead and solving for the load factor from the quoted touchdown gives
+**1.19 g, a flare beginning 2,125 feet up and lasting 21.5 seconds against a transport's thirty feet
+and three seconds.** The corridor survives with stall as its lower bound; the hold-off segment the draft
+claimed was demanded by arithmetic was removed.
+
+**A source conflict is named.** Several accessible sources give the X-24A and X-24B identical
+dimensions, which cannot be right for a vehicle rebuilt half again as long, and the flight-determined
+table independently confirms the X-24A figures A320 used.
+
+Verification: 109 independent checks with the drag optimum by golden-section search, the lift-to-drag
+ratio by scanning the polar, and the flare integrated a second time with a different step variable;
+`_verify.py` at the 21-warning baseline; and a 25-article isolated build with all 18 equations rendering.
+
 ## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
 
 `x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
@@ -4945,8 +4977,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirty-three files exist in `_drafts/`. One is a template.
-Twenty-four are the in-progress X-Planes series, A297 through A320, none of them published.
+Thirty-four files exist in `_drafts/`. One is a template.
+Twenty-five are the in-progress X-Planes series, A297 through A321, none of them published.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.

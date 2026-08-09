@@ -9,144 +9,133 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A320 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All twenty-four articles in the series remain in `_drafts/`.
+**Task**: A321, the Martin Marietta X-24, drafted. The first of the four passes.
+**Committed, not pushed.** Not published.
 
-**Final state 4,088 lines, 72 display equations, 3,403 references, 23,879 words.**
-
-**Contemporary coverage from 550 to 1,685 of 3,372 research citations, or 50.0 percent**, across ten
-subsections where the draft had none.
+**Draft state 1,205 lines, 18 display equations, 855 references, 8,004 words.**
 
 ---
 
-## The Survey's Organising Claim
+## The Keystone
 
-**The capability was demonstrated, adopted, then given up by the very class of vehicle it had been built
-for, and adopted again by a different class for the opposite reason.**
+**Can a pilot land a vehicle with a lift-to-drag ratio of three, without an engine, on a runway, on
+purpose?** The answer was two landings on the Edwards concrete in 1975, and the quantity that makes the
+question hard turns out to be base drag.
 
-**Every crewed spacecraft flying today comes home the way Mercury did.** Orion, Dragon, Soyuz and
-Shenzhou are blunt capsules on parachutes, and this article's own relation prices that choice exactly. A
-capsule trims near a lift-to-drag ratio of 0.3, which buys 117 kilometres of crossrange against the
-1,254 kilometres derived earlier as the once-per-orbit requirement.
+**A reentry vehicle must be cut off flat.** Hoerner's relation makes base drag fall as forebody drag
+rises, so the two trade and there is an interior optimum. Differentiating that bucket gives a result
+that contains none of its parameters:
 
-**Nine percent.** A modern crewed spacecraft has, by deliberate choice, about one eleventh of the
-crossrange that would let it come home when it wants to. **That is not a failure of engineering. It is
-the requirement disappearing**, because the once-around polar mission that generated the Shuttle's
-1,100 nautical miles was an Air Force requirement and nothing replaced it.
+$$C_{F_e} = x + 2x = 3x$$
 
-**Meanwhile crossrange became the whole point of the hypersonic glide vehicle**, where the value is not
-reaching a chosen site but being impossible to extrapolate. The literature is about estimating and
-tracking a manoeuvring entry body where the period literature was about designing one. **The relation is
-identical and the motive is inverted, and the equation cannot tell the difference.**
+**At the optimum, total drag is exactly three times forebody drag and the base contributes exactly
+twice it.** Saltzman, Wang and Iliff quote 0.1284 and 0.3852, whose ratio is 3.000, which is the check
+that the derivation is theirs rather than mine.
 
----
-
-## The Two Sharpest Things in the Survey
-
-**The part of PRIME that failed twice is the part that has been most thoroughly vindicated.** Mid-air
-retrieval, which lost two of three vehicles, has since been demonstrated on a returning orbital booster.
-**The technique outlived the aerodynamics**, and the configuration it was carrying is flown by nobody.
-
-**The footprint inverted.** PRIME wanted a large one. Modern practice wants a small and precisely
-predicted one, because the same trajectory mathematics now serves debris casualty risk and controlled
-disposal. **A quantity computed to show what a vehicle could reach is now computed to prove what it
-cannot.**
+**The reference area cancels out of the lift-to-drag expression**, which is why the right independent
+variable for a shape with no wing is span squared over wetted area.
 
 ---
 
-## The Verifier Caught an Under-Converged Table, and Then Caught Itself
+## The Validation Was Not Fitted
 
-**This is the most instructive failure of the pass.**
+**The Shuttle prototype Enterprise flew truncated and with a tailcone over its blunt base.** That is the
+same airframe with and without the penalty, which is as close to a controlled experiment as this subject
+offers.
 
-Entry at exactly circular speed makes the factor of one over one minus u unbounded, so a uniform march
-in speed is dominated by its first few steps. **The survey table was under-converged by two percent and
-a step count that looked generous was not.** Two schemes differing only in whether they used the old or
-the updated heading disagreed by four percent, which is what exposed it.
-
-The fix was to integrate in **heading angle** instead, where the sine of the heading vanishes at the same
-place the singularity sits, so the integrand is finite and ordinary quadrature converges.
-
-**The first attempt at that carried an extra factor of two and disagreed with the speed march by exactly
-two.** That is this series' own standing hint that the checker rather than the article is at fault, and
-it was right again. Corrected, the two independent schemes agree to five significant figures at 1,213.6
-kilometres, the exact required lift-to-drag ratio of 1.018 is confirmed, and four rows of the survey
-table were fixed.
+Covering the base removes two thirds of the drag, so it should buy exactly the square root of three in
+lift-to-drag ratio. The prediction is **7.05 against a measured 7.5, six percent, from geometry alone.**
 
 ---
 
-## A Design Flaw in This Pass's Own Tooling
+## The Verifier Overturned the Flare, and a Headline Claim With It
 
-**The survey was written by placeholder substitution, which froze its citations as literal text.** They
-stopped tracking the clusters, so when fourteen records were dropped they survived in the body and
-`gen_refs.py` correctly refused to emit. The citations were restored to live calls by position.
+**This is the third pass running where the independent check has been right and the article wrong, and
+this time it killed a finding I liked.**
 
-**Anchor-keyed drops were also found fragile.** Disambiguation suffixes shift when an earlier record is
-removed, so dropping `research_xie_2024_3` can silently retarget a different paper. The rejection list is
-now keyed by URL as well as by anchor.
+The draft treated the flare as a circular arc at constant radius. But the vehicle decelerates through
+the manoeuvre, so **the arc tightens as it goes**. An arc evaluated at entry speed is too long, which
+overstates the work done against drag, which understates the touchdown speed. The error was nine percent
+in height and twelve in speed.
 
----
+**At low load factor it was not numerical but qualitative.** The crude model said a 1.2 g flare ran out
+of speed entirely, and I had built a claim on it that the corridor was bounded below by energy
+exhaustion. **Integrating the flare properly, 1.2 g touches down at 202 miles an hour, perfectly well.**
 
-## Three More Homonym Families, All From Reading the Sweep
+Integrating instead, and solving for the load factor from the quoted touchdown speed rather than
+assuming one:
 
-**The electric road vehicle is the largest body of literature this series has had to exclude.** It shares
-vehicle, thermal management, model predictive control, energy management and trajectory with entry work,
-and there is far more of it. A contemporary query for model predictive control returns battery packs.
+**1.19 g. The flare begins 2,125 feet up and lasts 21.5 seconds.** A transport begins at thirty feet and
+is done in three, so **the X-24B began its flare seventy times higher**, and covered 9,460 feet of
+ground track doing it, more than half the runway it was aiming at.
 
-**Entry in cell biology** is a protein or a virus crossing a membrane. **Dispersion in atmospheric
-science** is a pollutant plume and not a landing footprint.
-
-Fourteen more records read and dropped. **The rejection list is now 469 entries** and this article
-contributed 81 of them.
-
----
-
-## Publication Checks
-
-**Prose style.** Clean across all 24 articles.
-
-**Diction.** `this article` reduced from 23 uses to 13 and `rather than` from 27 to 16. The two words
-still above five per thousand are `vehicle` at 9.83 and `ratio` at 6.05. **Both were read in context and
-both are the article's subject**, the second being the lift-to-drag ratio the whole piece turns on.
-
-**Acronyms.** One real violation, `SI`, replaced with spelled-out metric units. `JC` and `SLV` are parts
-of the JC-130B and Atlas SLV-3 model designations and are exempt.
-
-**Reference integrity.** 3,403 references, zero undefined, zero orphaned, zero duplicate URLs.
-
-**URL response.** 3,418 external links. **2,796 of 2,796 DOIs confirmed registered in the Crossref
-registry, zero unregistered.** An HTTP 200 does not verify a citation, which is why the DOI half goes to
-the registry.
-
-**Numerical sanity.** 238 checks across two independent verifiers, both passing.
-
-**Structural conformance.** Genre order intact, the three series sections present, The Source Base
-immediately before Epistemic State.
-
-**Build.** 24-article isolated build succeeds with all 72 equations rendering as display math across 18
-sections and 28 subsections.
+**The corridor survives but the lower bound is stall, not exhaustion**, at about 1.07 g, and it is about
+four tenths of a g wide. **The hold-off segment the draft claimed was demanded by arithmetic is gone**,
+because the corrected flare reaches 200 miles an hour unaided.
 
 ---
 
-## A Note on the Era Balance
+## A Source Conflict Worth Naming
 
-**The period count is essentially unchanged at 980 against 983 while the primary fraction falls from 68.7
-to 45.6 percent.** That is the directive working as intended. This pass added roughly 1,100 contemporary
-references and removed almost no period ones, so the denominator moved and the numerator did not.
-**Stating the count as well as the fraction is the only way that reads correctly.**
+**Several accessible sources give the X-24A and the X-24B identical dimensions**, which cannot be right
+for a vehicle that was rebuilt half again as long. The flight-determined table settles it, and as a side
+effect it **independently confirms the X-24A figures A320 used** for its reference-area derivation,
+namely 24.50 feet, 13.63 feet and 195.0 square feet.
+
+---
+
+## What the Data Changed
+
+**The Space Shuttle was designed to carry air-breathing engines for its landing approach and flew
+without them.** The two precision landings on concrete are cited by the programme's own account as what
+removed them. The article states that as a programme retrospective rather than as an established
+decision record, because two landings do not by themselves settle a choice that large.
+
+---
+
+## Three New Homonym Families, Two of Them Severe
+
+**Flare is overwhelmingly the solar flare**, and secondarily the gas flare and the flare stack of
+petrochemical engineering. The landing flare is a minority meaning by a wide margin.
+
+**Energy management belongs to power grids, buildings and batteries.** A pattern for it retrieved a
+manual on energy conservation in Navy family housing and a study of control systems in Texas buildings.
+
+**Base is the air base, the database and the base station**, and survives here only because base drag
+carries its own disambiguating word.
+
+Five records read and dropped, including **a heavy-duty truck aerodynamics paper by the same author
+applying the same base-drag physics**, which is legitimate work and the wrong vehicle class. Rejection
+list 469 to 473.
+
+---
+
+## Checks
+
+**109 independent numerical checks**, with the drag optimum found by golden-section search rather than
+by calculus, the lift-to-drag ratio by scanning the polar rather than the closed form, and the flare
+integrated a second time with a different step variable.
+
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean. **A 25-article isolated build with
+all 18 equations rendering as display math.**
 
 ---
 
 ## State
 
-**A320 is complete. All four passes done, committed and pushed, not published.**
+**A321 draft pass complete. Committed, not pushed, not published.**
 
-Twenty-four of seventy-two. The publication-order dependency is twenty-four deep.
+Twenty-five of seventy-two. The publication-order dependency is twenty-five deep.
 
-**The next article is A321, the Martin Marietta X-24**, editorial date 2025-10-30, Part 25 of 72. It is
-the piloted SV-5P, the same shape at larger scale, and **it is the vehicle that X-23A was refused for in
-1965 and that received X-24A in 1967**. Much of the shape literature is already in this article's pool,
-but the one-directory rule still holds and A321 should harvest its own, because the subject shifts from
-entry mechanics to piloted low-speed handling and landing.
+**Awaiting the equation-density review prompt.** Eighteen equations is low and the pass has plenty to
+find. Likely candidates are the lift-curve slope relations the article names but does not show, the
+stall-speed and load-factor relations, the energy-height accounting, the drag polar itself, the
+approach trim balance, and the base-pressure-to-forebody-drag relation written out rather than
+described.
 
-**Still open and unchanged.** The fourth genre class, now **ten** consecutive articles finishing outside
-all four named classes, references far above band with lines and equations below. The A305 length offer.
+**One tooling note for the publication pass.** A320's survey was written by placeholder substitution
+which froze its citations; that approach must not be reused. Cluster citations belong in the body as
+live calls.
+
+**Still open and unchanged.** The fourth genre class, now ten consecutive articles. The A305 length
+offer.
