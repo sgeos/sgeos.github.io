@@ -22,8 +22,31 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_northrop_x21.markdown`, A318, editorial date 2025-10-27, series `x_planes` index 22 of 72.
 
 827 lines, 16 display equations, 539 references, 6,664 words after the draft pass; **949 lines, 45
-display equations, 531 references, 7,831 words after the equation review.** Two of four passes complete.
-Committed, not pushed. Not published.
+display equations, 531 references, 7,831 words after the equation review; **1,258 lines, 45 display
+equations, 824 references, 9,628 words after the primary-reference review.** Three of four passes
+complete. Committed, not pushed. Not published.
+
+**The reference review had two jobs and the audit named both before anything was selected.** The
+equation pass had promoted ten subjects and eight were thin in the pool, three at zero citations and slot
+metering at zero records, which is the A317 finding reproduced almost exactly. And period sources through
+1965 stood at 12.5 percent of citations against 53.8 percent contemporary, which is the wrong balance for
+an aeroplane that flew in 1963. **Period is now 27.9 percent against 35.3 percent contemporary**, and
+references rose from 531 to 824.
+
+**The era gap turned out to be a selection problem rather than a supply problem.** Four hundred and
+seventeen records dated 1970 or earlier were already in the pool and unused, among them Schubauer and
+Skramstad 1947, the experiment the entire stability argument rests on. Broad topical clusters were
+matching first and the foundational work fell between them.
+
+**The most satisfying recovery is Braslow and Knox 1958**, the critical-height criterion for distributed
+roughness, which the equation pass derived and applied without citing and which was written by the same
+engineer whose monograph supplies this article's narrative.
+
+**A homonym inside aerodynamics itself had to be learned.** Boundary layer control means suction to hold
+laminar flow and cut drag, and it also means suction or blowing to delay separation and raise lift. Same
+name, same mechanism, often the same authors, different technologies answering different questions.
+Several high-lift papers were removed on that ground. Aeroelastic flutter of swept wings, stability
+derivatives, internal pipe flow and an oscillatory flow reactor were removed on others.
 
 **The equation pass found a defect and it favoured the wrong side.** The draft assumed a whole-aircraft
 zero-lift drag coefficient of 0.0180, which is only reachable if the friction contribution carries a form
