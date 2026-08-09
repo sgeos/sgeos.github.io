@@ -13,7 +13,7 @@ series_index: 22
 <!-- A318 -->
 <script>console.log("A318");</script>
 
-The [Northrop X-21A][ref_x21] is the only aircraft in this series that worked and was cancelled for it. Two [Douglas WB-66D][ref_b66] bombers were given new wings cut with thousands of fine spanwise slots, and pumps inside the wing drew a thin sheet of air through those slots to hold the boundary layer laminar. **It did what it was built to do.** By the end of the programme the aeroplane was flying with laminar flow over more than ninety-five percent of the area intended for it, which no aircraft of that size had ever achieved. Then the programme stopped. This article is the twenty-second in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], and the [X-20][related_post_a317_boeing_x20].
+The [Northrop X-21A][ref_x21] is the only aircraft in this series that worked and was cancelled for it. Two [Douglas WB-66D][ref_b66] bombers were given new wings cut with thousands of fine spanwise slots, and pumps inside the wing drew a thin sheet of air through those slots to hold the boundary layer laminar. **It did what it was built to do.** By the end of the programme the aeroplane was flying with laminar flow over more than ninety-five percent of the area intended for it, which no aircraft of that size had ever achieved. Then the programme stopped. This article is the twenty-second in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], and the [X-20][related_post_a317_boeing_x20].
 
 **The received account is that laminar flow control failed on maintenance.** The slots clogged with insects, the aeroplane needed constant attention, and the cost of keeping it clean outweighed the fuel it saved. That account is repeated almost everywhere. It has one problem, which this article is largely about. **The service-maintenance evaluation was never performed.** It was one of the programme's stated objectives, it had not been started when the money ran out, and the advisory group that reviewed the programme in November 1965 recommended a major wing modification before any meaningful maintenance data could be gathered. The modification was never made.
 
@@ -31,7 +31,7 @@ It answered the first two. It never got to the third.
 
 ## Programme Origin
 
-Werner Pfenninger brought continuous-suction laminar flow work to the Norair division of Northrop after the Second World War, and through the 1950s that group ran an extended series of Air Force contracts on slot arrangements, crossflow stabilisation and wing design. The wind tunnel and glove experiments that preceded the aeroplane are in [Mccullough and Gault 1948][research_mccullough_gault_1948], [Sellars 1955][research_sellars_1955], [Yuan 1955][research_yuan_1955], [Yuan and Finkelstein 1956][research_yuan_finkelstein_1956], [Dannenberg et al 1957][research_dannenberg_1957], [Koh and Hartnett 1961][research_koh_hartnett_1961], [Adcock et al 1966][research_adcock_1966], [Dershin et al 1966][research_dershin_1966], [Dershin et al 1967, Direct measurement of compressibl][research_dershin_1967], [Dershin et al 1967, Direct measurement of skin fricti][research_dershin_1967_2], [Pfenninger et al 1967][research_pfenninger_1967], [Lal 1969][research_lal_1969], [Elkouh 1971][research_elkouh_1971], [Mills 1971][research_mills_1971], [Howard et al 1975][research_howard_1975], [Quaile and Levy 1975][research_quaile_levy_1975], [Air-water testing of a 1979][research_air_water_testing_1979].
+Werner Pfenninger brought continuous-suction laminar flow work to the Norair division of Northrop after the Second World War, and through the 1950s that group ran an extended series of Air Force contracts on slot arrangements, crossflow stabilisation and wing design. The wind tunnel and glove experiments that preceded the aeroplane are in [Mccullough and Gault 1948][research_mccullough_gault_1948], [Sellars 1955][research_sellars_1955], [Yuan 1955][research_yuan_1955], [Yuan and Finkelstein 1956][research_yuan_finkelstein_1956], [Dannenberg et al 1957][research_dannenberg_1957], [Koh and Hartnett 1961][research_koh_hartnett_1961], [Adcock et al 1966][research_adcock_1966], [Dershin et al 1966][research_dershin_1966], [Dershin et al 1967, Direct measurement of compressibl][research_dershin_1967], [Dershin et al 1967, Direct measurement of skin fricti][research_dershin_1967_2], [Pfenninger et al 1967][research_pfenninger_1967], [Lal 1969][research_lal_1969], [Elkouh 1971][research_elkouh_1971], [Mills 1971][research_mills_1971], [Howard et al 1975][research_howard_1975], [Quaile and Levy 1975][research_quaile_levy_1975].
 
 The Air Force wanted the result for range. An aircraft with the drag of an X-21 wing could loiter far from base or cross an ocean without refuelling, and the 1963 case for the programme was put in exactly those terms, promising a lift-to-drag ratio raised from about twenty to more than thirty and an airframe forty percent smaller for the same mission. **Those numbers are for an aircraft designed around laminar flow from the start.** They are not what a converted bomber can show, and the difference between the two turns out to matter more than it looks.
 
@@ -45,13 +45,33 @@ $$A\!R = \frac{b^{2}}{S} = \frac{93.5^{2}}{1{,}250} = 6.99$$
 
 The suction surface is the part worth describing carefully, because it is routinely described wrongly. The wing skin carries spanwise slots running from root to tip, **between 0.0025 and 0.008 inches wide**, which is to say comparable with the cutting edge of a razor blade. Beneath each slot a plenum chamber is milled into an inner skin, and from each plenum a large number of small holes is drilled down into deep ducts formed between layers of bonded sandwich structure. Air is drawn through the slots into the plenums, through the holes into the ducts, and along the ducts at speeds reaching about two hundred miles per hour to four small gas turbines, two in each underwing nacelle, one serving the forward wing and one the rear.
 
-**The figure of eight hundred thousand, which appears in almost every account as a count of slots, is a count of those metering holes.** The slots number of the order of a hundred and thirty, sixty-eight on the upper surface and sixty-seven on the lower. The distinction is not pedantry. A slot is a continuous span-long opening and a hole is a discrete metering orifice, and confusing the two makes the wing sound like a sieve when it is in fact a small number of very fine, very long, very accurately cut openings. The design and construction of such surfaces is treated in [Wainwright 1962][research_wainwright_1962], [EM 0211 standpipe-bubbler pump 1976][research_em_0211_1976], [Centrifugal pump hydraulic instability 1980][research_centrifugal_pump_1980], [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [Costello 2000][research_costello_2000], [Block Novelo et al 2019][research_block_novelo_2019], [Ali and Tariq 2023][research_ali_tariq_2023], [Mansy and Faruque 2023][research_mansy_faruque_2023], [Prasannakumar et al 2024][research_prasannakumar_2024].
+Two numbers make the surface concrete. With leading-edge slots about 0.0035 inches wide on a pitch of 0.75 inches, the fraction of the skin that is actually open is
+
+$$\sigma = \frac{w}{p} = \frac{0.0035}{0.75} = 0.00467$$
+
+**The suction surface is 99.5 percent solid.** And since the flow through the skin averages 0.145 feet per second, continuity gives the speed in the slots themselves as
+
+$$v_{\text{slot}} = \frac{v_{w}}{\sigma} = \frac{0.145}{0.00467} = 31\ \text{ft/s}$$
+
+or about 21 miles per hour, against the 200 miles per hour reported in the ducts below. The slot is not a hole the air rushes through. It is a very slightly porous skin.
+
+**The figure of eight hundred thousand, which appears in almost every account as a count of slots, is a count of those metering holes.** The slots number of the order of a hundred and thirty, sixty-eight on the upper surface and sixty-seven on the lower. The distinction is not pedantry. A slot is a continuous span-long opening and a hole is a discrete metering orifice, and confusing the two makes the wing sound like a sieve when it is in fact a small number of very fine, very long, very accurately cut openings. The design and construction of such surfaces is treated in [Wainwright 1962][research_wainwright_1962], [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [Ali and Tariq 2023][research_ali_tariq_2023], [Mansy and Faruque 2023][research_mansy_faruque_2023], [Prasannakumar et al 2024][research_prasannakumar_2024].
 
 ## Sizing From First Principles
 
 The question the brief for this article expected to be decisive is whether the suction power exceeds the drag it saves. **It does not, and it is not close.** The calculation is worth doing carefully because the answer removes the obvious explanation for the programme's fate and forces the search elsewhere.
 
-Take a nominal cruise at Mach 0.75 and 40,000 feet. The mean-chord Reynolds number is
+Take a nominal cruise at Mach 0.75 and 40,000 feet. At that altitude the density is $5.851 \times 10^{-4}$ slugs per cubic foot and the speed of sound is 968.1 feet per second, so the flight speed and dynamic pressure are
+
+$$V = M a = 0.75 \times 968.1 = 726.0\ \text{ft/s}$$
+
+$$q = \tfrac{1}{2} \rho V^{2} = 154.2\ \text{lbf/ft}^{2}$$
+
+and at the 83,000 pound gross weight the wing is working at
+
+$$C_{L} = \frac{W}{q S} = \frac{83{,}000}{154.2 \times 1{,}250} = 0.431$$
+
+The mean-chord Reynolds number is
 
 $$Re_{\bar{c}} = \frac{V \bar{c}}{\nu} = \frac{726.0 \times 13.37}{5.075 \times 10^{-4}} = 1.913 \times 10^{7}$$
 
@@ -61,13 +81,25 @@ $$C_{f,\text{turb}} = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.002713$$
 
 $$C_{f,\text{lam}} = \frac{1.328}{\sqrt{Re}} = 0.000304$$
 
+The ratio of the two is the whole prize,
+
+$$\frac{C_{f,\text{lam}}}{C_{f,\text{turb}}} = \frac{0.000304}{0.002713} = 0.112$$
+
 so the laminar boundary layer exerts **11.2 percent** of the turbulent shear and the saving available is
 
 $$\Delta C_{f} = 0.002713 - 0.000304 = 0.002409$$
 
+On the area the programme guaranteed to laminarise, which is 70 percent of a wing whose exposed wetted area is about 2,222 square feet, that coefficient is worth
+
+$$\Delta D = q \, \Delta C_{f} \, S_{\text{lam}} = 154.2 \times 0.002409 \times 1{,}555 = 578\ \text{lbf}$$
+
 ### What the Suction Costs
 
-The suction system ingests a mass flow set by the suction coefficient $C_Q$, the ratio of suction velocity to freestream velocity,
+The suction system ingests a mass flow set by the suction coefficient $C_Q$, the ratio of the velocity through the surface to the freestream velocity,
+
+$$v_{w} = C_{Q} V_{\infty} = 2 \times 10^{-4} \times 726.0 = 0.145\ \text{ft/s}$$
+
+**That is the whole of it.** The air is drawn through the skin at about a tenth of a mile per hour, and everything the wing achieves follows from removing it. The mass flow is
 
 $$\dot{m} = \rho_{\infty} V_{\infty} C_{Q} S_{\text{wet}}$$
 
@@ -97,7 +129,11 @@ Setting the suction penalty equal to the friction saving gives the suction coeff
 
 $$C_{Q,\text{crit}} = \frac{\Delta C_{f} \, \eta (\gamma-1) M^{2}}{2 \left[ \Pi^{\kappa} - 1 \right] \left( 1 + \tfrac{\gamma-1}{2} M^{2} \right)} = 1.163 \times 10^{-3}$$
 
-**That is 5.8 times the design value.** In absolute terms, at the nominal condition and over the wing area the programme guaranteed to laminarise, the suction system moves 4.25 pounds of air per second and absorbs about 131 horsepower, while the drag it removes is 578 pounds of force, worth 763 horsepower at flight speed.
+**That is 5.8 times the design value.** In absolute terms, at the nominal condition and over the wing area the programme guaranteed to laminarise, the suction system moves 4.25 pounds of air per second and absorbs about 131 horsepower, while the drag it removes is 578 pounds of force, worth 763 horsepower at flight speed. Written as a ratio of powers,
+
+$$\frac{\Delta D \, V}{P} = \frac{578 \times 726.0}{131 \times 550} = 5.8$$
+
+which is the same 5.8 as the margin in suction coefficient, and necessarily so, since both sides of the comparison are linear in $C_Q$.
 
 The margin is large enough that the interesting question is not whether it is positive but how it varies. It improves with Mach number, because the suction penalty falls as $1/M^{2}$ while the friction saving is nearly constant.
 
@@ -117,26 +153,68 @@ The margin is large enough that the interesting question is not whether it is po
 
 The trade above is per unit of laminarised area. The aircraft-level benefit depends on how much of the aeroplane is laminarised, and here the X-21 was structurally limited by being a conversion.
 
-The wing is about 44 percent of the aircraft wetted area. The programme guaranteed laminar flow over 70 percent of the wing, which is 31 percent of the aeroplane. Taking a whole-aircraft zero-lift drag coefficient of 0.0180 and an Oswald efficiency of 0.80, the induced drag at the cruise lift coefficient of 0.431 is
+The wing is about 44 percent of the aircraft wetted area. The programme guaranteed laminar flow over 70 percent of the wing, which is 31 percent of the aeroplane.
 
-$$C_{D_{i}} = \frac{C_{L}^{2}}{\pi A\!R\, e} = 0.01055$$
+The zero-lift drag has to be built from its parts rather than assumed, because the friction saving must be credited on the same basis the drag is charged. Taking a wetted-area ratio of 4.0 and a form factor of 1.20, which accounts for the thickness of a real wing over a flat plate,
 
-giving a turbulent total of 0.02855 and a lift-to-drag ratio of 15.08. Removing the net friction saving over the guaranteed area gives
+$$C_{D_{0}} = k \, C_{f,\text{turb}} \frac{S_{\text{wet}}}{S} + C_{D,\text{other}} = 1.20 \times 0.002713 \times 4.0 + 0.0050 = 0.01802$$
 
-$$\frac{\Delta D}{D} = 0.087 \qquad \frac{L}{D} = 16.52$$
+where the residual 0.0050 is interference, excrescence and everything that is not skin friction. **That reproduces the 0.0180 the draft assumed, which is the check that the decomposition is the right one.** With an Oswald efficiency of 0.80 the induced drag at the cruise lift coefficient is
 
-and by the Breguet relation, at fixed fuel fraction and specific fuel consumption, range improves in the same proportion as lift-to-drag ratio, so **the aeroplane as flown was worth about ten percent in range**.
+$$C_{D_{i}} = \frac{C_{L}^{2}}{\pi A\!R\, e} = \frac{0.431^{2}}{\pi \times 6.99 \times 0.80} = 0.01055$$
+
+$$C_{D} = C_{D_{0}} + C_{D_{i}} = 0.02857 \qquad \frac{L}{D} = \frac{C_{L}}{C_{D}} = 15.07$$
+
+**That decomposition also settles the claim the article opened with.** The friction share of total drag is
+
+$$\frac{k \, C_{f,\text{turb}} S_{\text{wet}} / S}{C_{D}} = \frac{0.01302}{0.02857} = 0.456$$
+
+The assertion that about half a transport's fuel goes to overcoming skin friction came from the literature. This number came from geometry and a flat-plate correlation. **They agree to about nine percent, from two directions that share nothing**, which is worth more than either statement alone.
+
+Now the saving. Over the laminarised wetted area the friction falls by $k \Delta C_{f}$ and the suction charges $C_{D,\text{suction}}$, which is a power and carries no form factor, so
+
+$$\Delta D = \left( k \, \Delta C_{f} - C_{D,\text{suction}} \right) q \, S_{\text{lam}}$$
+
+$$\frac{\Delta D}{D} = 0.108 \qquad \frac{L}{D} = 16.89$$
+
+By the Breguet relation,
+
+$$R = \frac{V}{c_{t}} \frac{L}{D} \ln \frac{W_{i}}{W_{f}}$$
+
+range is proportional to lift-to-drag ratio at fixed speed, specific fuel consumption and fuel fraction, so **the aeroplane as flown was worth about twelve percent in range**.
 
 | laminarised | fraction of wetted area | drag reduction | $L/D$ | range gain |
 |---|---|---|---|---|
-| wing, 70 percent | 0.311 | 0.087 | 16.52 | 0.095 |
-| wing, 95 percent | 0.422 | 0.118 | 17.10 | 0.134 |
-| wing entire | 0.444 | 0.124 | 17.22 | 0.142 |
-| wing and tail | 0.618 | 0.173 | 18.24 | 0.209 |
-| wing, tail, nacelles | 0.758 | 0.212 | 19.14 | 0.269 |
-| everything | 1.000 | 0.280 | 20.94 | 0.388 |
+| wing, 70 percent | 0.311 | 0.108 | 16.89 | 0.121 |
+| wing, 95 percent | 0.422 | 0.146 | 17.66 | 0.172 |
+| wing entire | 0.444 | 0.154 | 17.82 | 0.182 |
+| wing and tail | 0.618 | 0.215 | 19.18 | 0.273 |
+| wing, tail, nacelles | 0.758 | 0.263 | 20.44 | 0.356 |
+| everything | 1.000 | 0.347 | 23.07 | 0.531 |
 
-**The case for laminar flow control was a doubling of range and a lift-to-drag ratio above thirty.** Nothing in that table reaches it, and the last row already assumes the impossible, which is a fuselage as laminar as a wing. The gap is not an error in the case. It is the difference between laminarising an existing aeroplane and designing one around laminar flow, where the wing shrinks, the fuel load shrinks, the structure lightens and the whole spiral runs inward. The transport design studies that worked this through are in [Ralph H. Jansen et al][research_ralph_h_jansen], [Ralph Jansen et al][research_ralph_jansen], [Orloff and Ciffone 1974][research_orloff_ciffone_1974], [Marino et al 1975][research_marino_1975], [Mass transport in dead-end 1976][research_mass_transport_1976], [Povinelli et al 1976][research_povinelli_1976], [Bonner et al 1977][research_bonner_1977], [Gratzer and George-Falvy 1978][research_gratzer_george_falvy_1978], [Klineberg 1978][research_klineberg_1978], [Sturgeon 1978][research_sturgeon_1978], [Aircraft energy efficiency program 1979][research_aircraft_energy_1979], [Klineberg 1979][research_klineberg_1979], [Pollutant transport and sediment 1979][research_pollutant_transport_1979], [Swift and Mungur 1979][research_swift_mungur_1979], [Wright 1979][research_wright_1979], [Evaluation of laminar flow 1980][research_evaluation_of_1980], [Sturgeon 1980][research_sturgeon_1980], [Wagner et al 1984][research_wagner_1984], [Middleton et al 1985][research_middleton_1985], [Wagner 1986, Laminar flow control for transpor][research_wagner_1986_2], [Lange 1988][research_lange_1988], [Parikh and Nagel 1990][research_parikh_nagel_1990], [Arcara et al 1991][research_arcara_1991], [Fischer and Vemuru 1991][research_fischer_vemuru_1991].
+### What the 1963 Claim Actually Requires
+
+**The case for laminar flow control was a doubling of range and a lift-to-drag ratio above thirty.**
+
+Take the last row of that table seriously for a moment and laminarise the entire aeroplane, fuselage included, which is impossible but bounds the argument. The zero-lift drag becomes
+
+$$C_{D_{0}}^{\ \text{lam}} = 1.20 \times 0.000304 \times 4.0 + 0.0050 = 0.00646$$
+
+and adding induced drag and the suction charge over the whole wetted area,
+
+$$C_{D}^{\ \text{best}} = 0.00646 + 0.01055 + 4.0 \times 4.144 \times 10^{-4} = 0.01866 \quad \Rightarrow \quad \frac{L}{D} = 23.1$$
+
+**Twenty-three, not thirty, with every square foot of the aeroplane laminar.** The reason is visible in the arithmetic. A lift-to-drag ratio of thirty at this lift coefficient allows a total drag coefficient of
+
+$$C_{D} = \frac{C_{L}}{30} = \frac{0.431}{30} = 0.01435$$
+
+and the induced drag alone is 0.01055, which is **73 percent of the entire budget**. Induced drag is set by the planform and is untouched by anything done to the boundary layer. Inverting for the aspect ratio that would leave room,
+
+$$A\!R = \frac{C_{L}^{2}}{\pi e \left( C_{D} - C_{D_{0}}^{\ \text{lam}} - C_{D,\text{suction}} S_{\text{wet}}/S \right)} = 11.8$$
+
+against the X-21's 6.99.
+
+**So laminar flow control does not merely clean a wing. It moves the optimum planform.** Once friction is removed, induced drag dominates, and the aircraft that collects the full benefit wants a much longer, thinner wing than the one the X-21 inherited from a bomber. That is a second and independent reason the testbed could not demonstrate the case, and it is a stronger one than the wetted-area argument, because no amount of suction on this planform can reach the number. Nothing in that table reaches it, and the last row already assumes the impossible. The gap is not an error in the case. It is the difference between laminarising an existing aeroplane and designing one around laminar flow, where the wing shrinks, the fuel load shrinks, the structure lightens and the whole spiral runs inward. The transport design studies that worked this through are in [Ralph H. Jansen et al][research_ralph_h_jansen], [Ralph Jansen et al][research_ralph_jansen], [Orloff and Ciffone 1974][research_orloff_ciffone_1974], [Marino et al 1975][research_marino_1975], [Povinelli et al 1976][research_povinelli_1976], [Bonner et al 1977][research_bonner_1977], [Gratzer and George-Falvy 1978][research_gratzer_george_falvy_1978], [Klineberg 1978][research_klineberg_1978], [Sturgeon 1978][research_sturgeon_1978], [Aircraft energy efficiency program 1979][research_aircraft_energy_1979], [Klineberg 1979][research_klineberg_1979], [Swift and Mungur 1979][research_swift_mungur_1979], [Wright 1979][research_wright_1979], [Evaluation of laminar flow 1980][research_evaluation_of_1980], [Sturgeon 1980][research_sturgeon_1980], [Wagner et al 1984][research_wagner_1984], [Middleton et al 1985][research_middleton_1985], [Wagner 1986, Laminar flow control for transpor][research_wagner_1986_2], [Lange 1988][research_lange_1988], [Parikh and Nagel 1990][research_parikh_nagel_1990], [Arcara et al 1991][research_arcara_1991], [Fischer and Vemuru 1991][research_fischer_vemuru_1991].
 
 **So the X-21 was an instrument that could not measure the quantity being argued about.** It could show that the flow stayed laminar, and it did. It could not show the aircraft-level benefit, because the aircraft-level benefit belonged to a different aeroplane.
 
@@ -144,9 +222,21 @@ and by the Breguet relation, at fixed fuel fraction and specific fuel consumptio
 
 On a swept wing the flow divides along a line near the leading edge, and the boundary layer along that line is fed spanwise from the root outward. If it becomes turbulent anywhere, the turbulence can propagate along the line and contaminate everything outboard of it. **No amount of suction downstream helps, because the flow arrives already turbulent.** This is spanwise contamination, and the literature on it is [Cooke 1962][research_cooke_1962], [Cumpsty and Head 1967, The Calculation of Three-Dimensio][research_cumpsty_head_1967], [Cumpsty and Head 1969][research_cumpsty_head_1969], [Cebeci 1974][research_cebeci_1974], [Poll 1979][research_poll_1979], [Cumpsty and Head 1980][research_cumpsty_head_1980], [Hall et al 1984][research_hall_1984], [Hall and Mackerrell 1988][research_hall_mackerrell_1988], [Holmes 1991][research_holmes_1991], [Naval K Agatwal et al 1992][research_naval_k_agatwal_1992], [Joslin 1996, Simulation of Nonlinear Instabili][research_joslin_1996_2], [Joslin 1996, Simulation of Three-Dimensional S][research_joslin_1996], [Smith 1996][research_smith_1996], [Poll 2007][research_poll_2007], [Reed and Saric 2013][research_reed_saric_2013], [Yatskih et al 2016][research_yatskih_2016], [Manuilovich 2017, Flow along an attachment line con][research_manuilovich_2017], [Manuilovich 2017, Stabilization of flow over an att][research_manuilovich_2017_2], [Liu 2019][research_liu_2019], [Fedorov and Egorov 2021][research_fedorov_egorov_2021], [Xi et al 2021][research_xi_2021], [Xi et al 2025][research_xi_2025].
 
-The governing parameter is an attachment-line Reynolds number formed from the spanwise velocity and the boundary-layer scale at the line. For a swept leading edge of radius $r$,
+The governing parameter is an attachment-line Reynolds number formed from the spanwise velocity and the boundary-layer scale at the line. It is worth assembling rather than quoting, because each part is a separate physical statement. The flow along the line moves at the spanwise component,
 
-$$\bar{R} = \sin\Lambda \sqrt{\frac{V_{\infty} r}{2 \nu \cos\Lambda}}$$
+$$W_{e} = V_{\infty} \sin\Lambda = 726.0 \times \sin 33.2^{\circ} = 397.5\ \text{ft/s}$$
+
+The boundary layer there does not grow, because it is continuously stretched by the chordwise acceleration away from the line, which for a leading edge of radius $r$ is
+
+$$\left. \frac{d U_{e}}{ds} \right|_{\text{al}} = \frac{2 V_{\infty} \cos\Lambda}{r} = 7{,}385\ \text{s}^{-1}$$
+
+That balance fixes a constant thickness scale,
+
+$$\ell = \sqrt{\frac{\nu}{d U_{e}/ds}} = 2.62 \times 10^{-4}\ \text{ft} = 0.0031\ \text{in}$$
+
+**Three thousandths of an inch, which is the width of a slot.** The Reynolds number on that scale is
+
+$$\bar{R} = \frac{W_{e} \ell}{\nu} = \sin\Lambda \sqrt{\frac{V_{\infty} r}{2 \nu \cos\Lambda}}$$
 
 The sweep in that expression is the **leading-edge** sweep, not the quarter-chord sweep quoted for a planform. With a taper ratio of 0.30 the X-21 wing carries
 
@@ -170,7 +260,17 @@ The related instability, in which the spanwise pressure gradient on a swept wing
 
 ## Surface Tolerance
 
-A slotted suction wing must be smoother than a conventional one, because roughness and waviness trigger transition that suction downstream cannot undo. The tolerance literature is [Effect of uniformly distributed 1959][research_effect_of_1959], [Van Driest and Blumer 1961][research_van_driest_blumer_1961], [Lyons et al 1962][research_lyons_1962], [Nagamatsu et al 1964][research_nagamatsu_1964], [Young 1965][research_young_1965], [Thompson 1970][research_thompson_1970], [Merkle et al 1974][research_merkle_1974], [Kubota and Berg 1977][research_kubota_berg_1977], [Surface roughness effects on 1977][research_surface_roughness_1977], [Boudreau 1978][research_boudreau_1978], [Finson et al 1980][research_finson_1980], [Leventhal and Reshotko 1981][research_leventhal_reshotko_1981], [Kendall 1982][research_kendall_1982], [Coleman et al 1989][research_coleman_1989], [Bertolotti 1993][research_bertolotti_1993], [Masad 1996][research_masad_1996], [Saric 1997][research_saric_1997], [Stewart and Simpson 2005][research_stewart_simpson_2005], [Ceccio et al 2007][research_ceccio_2007], [Saric 2008][research_saric_2008], [Zhong 2009][research_zhong_2009], [Saric 2010][research_saric_2010], [Borodulin et al 2015][research_borodulin_2015], [Crouch et al 2015][research_crouch_2015], [Malik et al 2015][research_malik_2015], [Khezerloo et al 2021][research_khezerloo_2021], [Ustinov and Kachanov 2021][research_ustinov_kachanov_2021], [Borodulin et al 2022][research_borodulin_2022], [Xu and Wu 2022][research_xu_wu_2022], [Zoppini et al 2022, Transition Due to Isolated Roughn][research_zoppini_2022], [Zoppini et al 2022, Transition due to isolated roughn][research_zoppini_2022_2], [Nakagawa et al 2023][research_nakagawa_2023], [Zheng et al 2026][research_zheng_2026].
+A slotted suction wing must be smoother than a conventional one, because roughness and waviness trigger transition that suction downstream cannot undo. The tolerance literature is [Effect of uniformly distributed 1959][research_effect_of_1959], [Van Driest and Blumer 1961][research_van_driest_blumer_1961], [Lyons et al 1962][research_lyons_1962], [Nagamatsu et al 1964][research_nagamatsu_1964], [Young 1965][research_young_1965], [Thompson 1970][research_thompson_1970], [Merkle et al 1974][research_merkle_1974], [Kubota and Berg 1977][research_kubota_berg_1977], [Boudreau 1978][research_boudreau_1978], [Finson et al 1980][research_finson_1980], [Leventhal and Reshotko 1981][research_leventhal_reshotko_1981], [Kendall 1982][research_kendall_1982], [Coleman et al 1989][research_coleman_1989], [Bertolotti 1993][research_bertolotti_1993], [Masad 1996][research_masad_1996], [Saric 1997][research_saric_1997], [Stewart and Simpson 2005][research_stewart_simpson_2005], [Ceccio et al 2007][research_ceccio_2007], [Saric 2008][research_saric_2008], [Zhong 2009][research_zhong_2009], [Saric 2010][research_saric_2010], [Borodulin et al 2015][research_borodulin_2015], [Crouch et al 2015][research_crouch_2015], [Malik et al 2015][research_malik_2015], [Khezerloo et al 2021][research_khezerloo_2021], [Ustinov and Kachanov 2021][research_ustinov_kachanov_2021], [Borodulin et al 2022][research_borodulin_2022], [Xu and Wu 2022][research_xu_wu_2022], [Zoppini et al 2022, Transition Due to Isolated Roughn][research_zoppini_2022], [Zoppini et al 2022, Transition due to isolated roughn][research_zoppini_2022_2], [Nakagawa et al 2023][research_nakagawa_2023], [Zheng et al 2026][research_zheng_2026].
+
+**The tolerance is computable and it is brutal.** A three-dimensional roughness element trips a laminar boundary layer when the Reynolds number formed on its own height and the velocity at that height passes a critical value of about 600. Near the wall the Blasius profile is linear, $u/U_{\infty} = 0.332\,\eta$, so
+
+$$Re_{k} = \frac{u_{k} k}{\nu} = \frac{0.332\, k^{2} V_{\infty}^{3/2}}{\nu^{3/2} x^{1/2}} = 600$$
+
+Solving for the admissible height at a station one foot behind the leading edge,
+
+$$k_{\text{crit}} = \left( \frac{600 \, \nu^{3/2} x^{1/2}}{0.332 \, V_{\infty}^{3/2}} \right)^{1/2} = 0.0123\ \text{in}$$
+
+**About a hundredth of an inch, and it scales as $x^{1/4}$, so it is smaller further forward**, which is exactly where the wing splices and the fairing putty were. For comparison the slots themselves are 0.0035 inches wide, so the surface had to be held flat to within about three slot widths.
 
 **This is where the programme spent its first two years.** The wings were built to close tolerances and the tolerances were still not close enough. Discontinuities at the spanwise wing splices were large enough to trip the boundary layer, putty used to fair them chipped away in flight, and the resulting roughness did the tripping instead. The problem was solved, but it consumed the schedule.
 
@@ -178,11 +278,39 @@ A slotted suction wing must be smoother than a conventional one, because roughne
 
 Flying in or near cirrus, the X-21 lost laminar flow. On emerging from the cloud it regained it immediately. The mechanism is that ice crystals passing through the boundary layer generate turbulent wedges, and the effect is not a contamination of the surface but a continuous seeding of the flow.
 
+**Both halves of that observation follow from one calculation.** A point disturbance in a laminar boundary layer produces a turbulent wedge spreading downstream with a half-angle of about ten degrees, so a particle entering at the leading edge contaminates
+
+$$A_{w} = \bar{c}^{\,2} \tan\alpha = 13.37^{2} \times \tan 10^{\circ} = 31.5\ \text{ft}^{2}$$
+
+which means that
+
+$$n = \frac{S}{A_{w}} = \frac{1{,}250}{31.5} \approx 40$$
+
+wedges are enough to blanket the wing. The laminar boundary layer is thin,
+
+$$\delta = \frac{5 \bar{c}}{\sqrt{Re}} = 0.0153\ \text{ft} = 0.18\ \text{in}$$
+
+so the rate at which particles enter it across the span is
+
+$$\dot{N} = N V_{\infty} b \, \delta$$
+
+At a cirrus number density of ten thousand crystals per cubic metre, which is a modest value, that is about 294,000 encounters per second. **The wing is blanketed in roughly 140 microseconds.** On leaving the cloud the wedges simply convect away in
+
+$$t = \frac{\bar{c}}{V_{\infty}} = \frac{13.37}{726.0} = 18\ \text{ms}$$
+
+**So the loss is instantaneous with five orders of magnitude to spare, and the recovery is instantaneous because nothing has been left behind on the surface.** That is the difference between an ice crystal and an insect, and it is why the two problems needed entirely different answers.
+
 **The honest statement about this literature is that it is very small.** A deliberate search of the archives and journals for work connecting atmospheric ice particles to laminar flow returns essentially [Davis 1982][research_davis_1982], [Davis and Fischer 1983][research_davis_fischer_1983], [Davis et al 1986][research_davis_1986], and the reason is the one the programme itself gave. There was no statistical description of particle size and concentration as a function of altitude, season and geography, so the operational significance could not be computed. **A theory was produced and the data to apply it did not exist.**
 
 ## Dependent Systems
 
-The suction pumps are not free of the airframe. Four turbines and their ducting occupy volume inside a wing that must also carry fuel and structure, and the ducts are large because a small duct has its own boundary-layer losses, which is a pumping penalty on the pumping system. The turbojet installation itself was moved to the rear fuselage to keep the wing clean, which is why the aeroplane looks as it does.
+The suction pumps are not free of the airframe. Four turbines and their ducting occupy volume inside a wing that must also carry fuel and structure, and the ducts are large because a small duct has its own boundary-layer losses, which is a pumping penalty on the pumping system.
+
+**The duct size is a check on the suction coefficient from outside the model.** The mass flow over the guaranteed area is 0.132 slugs per second, the contemporary description reports duct speeds reaching 200 miles per hour, and the duct runs at roughly the recovered density, so
+
+$$A_{\text{duct}} = \frac{\dot{m}}{\rho_{d} V_{d}} = \frac{0.132}{3.51 \times 10^{-4} \times 293} = 1.28\ \text{ft}^{2}$$
+
+which is 185 square inches in total, or about 46 square inches in each of four ducts, near enough seven inches square. **That fits inside a wing of 13.4 foot chord without difficulty**, and it is arrived at from a reported duct velocity and a computed mass flow that share no input. Had the assumed suction coefficient been an order of magnitude wrong, the duct would not have fitted in the wing. The turbojet installation itself was moved to the rear fuselage to keep the wing clean, which is why the aeroplane looks as it does.
 
 The friction the whole exercise is aimed at is the subject of [Vessey 1935][research_vessey_1935], [Young 1949][research_young_1949], [Cope 1952][research_cope_1952], [Dorrance and Dore 1954][research_dorrance_dore_1954], [Lee and Faget 1956][research_lee_faget_1956], [Winkler and Cha 1959][research_winkler_cha_1959], [Curle 1960][research_curle_1960], [Granville 1960][research_granville_1960], [Pappas and Okuno 1960][research_pappas_okuno_1960], [The determination of local 1960][research_the_determination_1960], [Dorrance 1961][research_dorrance_1961], [Wilson 1962][research_wilson_1962], [Moulic 1963][research_moulic_1963], [Sparrow et al 1963][research_sparrow_1963], [Allen and Monta 1965][research_allen_monta_1965], [Albacete and Glowacki 1967][research_albacete_glowacki_1967], [Bertram and Neal 1967][research_bertram_neal_1967], [Bruno and Risher 1968][research_bruno_risher_1968], [Brown and Joubert 1969][research_brown_joubert_1969], [Hebbar and Paranjpe 1969][research_hebbar_paranjpe_1969], [Hopkins et al 1970][research_hopkins_1970], [Shanebrook and Sumner 1970][research_shanebrook_sumner_1970], [Cary and Hefner 1971][research_cary_hefner_1971], [Hopkins and Keener 1972][research_hopkins_keener_1972], [Hopkins et al 1972][research_hopkins_1972], [Poreh and Hsu 1972][research_poreh_hsu_1972], [Reggiori 1972][research_reggiori_1972], [White and Christoph 1972][research_white_christoph_1972], [Wu 1972][research_wu_1972], [Granville 1973, The Torque and Turbulent Boundary][research_granville_1973_2], [White et al 1973][research_white_1973], [Arie et al 1975][research_arie_1975], [Landahl and Widnall 1979][research_landahl_widnall_1979], [Swafford 1979][research_swafford_1979], [Landahl and Widnall 1980][research_landahl_widnall_1980], [Landahl and Widnall 1981][research_landahl_widnall_1981], [Landahl and Widnall 1982][research_landahl_widnall_1982], [Walsh 1982][research_walsh_1982], [Bushnell et al 1984][research_bushnell_1984], [Walsh and Lindemann 1984][research_walsh_lindemann_1984], [Walsh et al 1986, Combined Devices for Turbulent-Dr][research_walsh_1986_2], [Wilkinson et al 1987][research_wilkinson_1987], [Lazos and Wilkinson 1988][research_lazos_wilkinson_1988], [Advisory Group for Aerospace Research and Development 1992][research_advisory_group_for_aerospace_research_and_development_1992], [Hwang and Biesiadny 1998][research_hwang_biesiadny_1998], [Sirovich and Karlsson 1999][research_sirovich_karlsson_1999], [Dimotakis et al 2003][research_dimotakis_2003], [Choi 2004][research_choi_2004], [Vlachos et al 2007][research_vlachos_2007], [Rothstein 2010][research_rothstein_2010], [Kousik Kumaar. R and Dr. P. Maniiarasan 2015][research_kousik_kumaar_r_dr_p_maniiarasan_2015], [Gatti and Quadrio 2016][research_gatti_quadrio_2016], [Stroh et al 2016][research_stroh_2016], [Yonezawa et al 2017][research_yonezawa_2017], [Rastegari and Akhavan 2018][research_rastegari_akhavan_2018], [Gowree et al 2019][research_gowree_2019], [Takahashi et al 2019][research_takahashi_2019], [Ran et al 2020][research_ran_2020], [Olivucci et al 2021][research_olivucci_2021], [Ricco et al 2021][research_ricco_2021], [Li et al 2022][research_li_2022], [Zong et al 2022][research_zong_2022], [Gatti et al 2025][research_gatti_2025], and the alternative of shaping a wing so that the pressure gradient holds the flow laminar without any suction at all, which asks nothing of the plumbing but constrains the aerodynamics severely, is [Pedro Paredes et al][research_pedro_paredes], [Carmichael 1979][research_carmichael_1979], [Natural laminar flow airfoil 1979][research_natural_laminar_1979], [Montoya et al 1981][research_montoya_1981], [Holmes et al 1984][research_holmes_1984], [Wentz et al 1984][research_wentz_1984], [Holmes et al 1985][research_holmes_1985], [Wentz et al 1985][research_wentz_1985], [Dodbele et al 1986][research_dodbele_1986], [Jerry N Hefner and Frances E Sabo 1987][research_jerry_n_hefner_frances_e_sabo_1987], [Barnwell and Hussaini 1992][research_barnwell_hussaini_1992], [Frederick et al 2014, Flight Tests of a Supersonic Natu][research_frederick_2014], [Frederick et al 2014, Flight Tests of a Supersonic Natu][research_frederick_2014_2], [Frederick et al 2015][research_frederick_2015], [Vermeersch et al 2015][research_vermeersch_2015], [Zhang et al 2015][research_zhang_2015], [Quagliarella and Iuliano 2017][research_quagliarella_iuliano_2017], [Xu et al 2018][research_xu_2018], [Keller 2019][research_keller_2019], [Catalano et al 2020][research_catalano_2020], [Mele et al 2020][research_mele_2020], [Wang et al 2020][research_wang_2020], [de Rosa and Donelli 2020][research_de_rosa_donelli_2020], [Balaji Shankar Venkatachari et al 2021][research_balaji_shankar_venkatachari_2021], [Fan et al 2021][research_fan_2021], [Shi et al 2021][research_shi_2021], [Yang et al 2021][research_yang_2021], [Krumbein et al 2022][research_krumbein_2022], [Sabater et al 2022][research_sabater_2022], [Wang and Guo 2022][research_wang_guo_2022], [Helm et al 2023][research_helm_2023], [Karpuk and Elham 2023][research_karpuk_elham_2023], [Zhang et al 2023][research_zhang_2023], [Djeddi and Ekici 2024][research_djeddi_ekici_2024], [Steffen et al 2024][research_steffen_2024], [Fehrs and Kaiser 2025][research_fehrs_kaiser_2025], [Guha and Sengupta 2025][research_guha_sengupta_2025], [Lampropoulos et al 2025][research_lampropoulos_2025], [Methel et al 2025][research_methel_2025], [Nie et al 2025][research_nie_2025], [Deng et al 2026][research_deng_2026], [Ishida et al 2026][research_ishida_2026].
 
@@ -226,7 +354,9 @@ Competing routes to the same end, which reduce turbulent friction rather than pr
 
 The calculation above treats the suction system as a compressor restoring a total pressure, and charges the aircraft the ideal work divided by an efficiency. **That is a thermodynamic accounting, not an installation.** It does not include the weight of the ducts and turbines, the volume they take from the fuel tanks, the drag of the nacelles that house them, or the structural penalty of a skin perforated by a hundred and thirty slots. A real trade would carry all of those, and they act against the technology rather than for it.
 
-The whole-aircraft figures rest on an assumed zero-lift drag coefficient and an assumed wetted-area breakdown. They are the weakest numbers in the article and are offered as an order of magnitude.
+The whole-aircraft figures rest on an assumed wetted-area breakdown, an assumed form factor and an assumed non-friction drag increment. They are the weakest numbers in the article and are offered as an order of magnitude. **They are also the numbers that were wrong in the first draft of this article**, which assumed a zero-lift drag coefficient that implies a form factor and then credited the laminarised area a flat-plate saving without one. Building the coefficient from its parts, so that the charge and the credit use the same basis, raised the benefit by about a quarter.
+
+The aspect-ratio argument inverts a drag polar that already contains three assumptions, so the figure of 11.8 should be read as evidence that the required planform is very different rather than as a specification for it.
 
 The attachment-line calculation assumes a leading-edge radius and a taper ratio. The conclusion drawn from it, that the wing root sits near the contamination threshold, survives across the plausible range, but the precise value does not.
 
@@ -252,7 +382,7 @@ Two selection rules failed in opposite directions in the same pass. A pattern fo
 
 **Computed here, and dependent on stated assumptions.** The suction penalty is about a sixth of the friction saving at the nominal cruise condition, the break-even suction coefficient is about six times the design value, and the suction drag coefficient is independent of altitude. The last of those is exact given the model. The first two carry the uncertainty of the suction coefficient and the duct recovery.
 
-**Inferred, and offered as inference.** That the X-21 as a converted bomber could not have demonstrated more than about ten percent in range follows from the wetted-area accounting, and the wetted areas are estimated.
+**Inferred, and offered as inference.** That the X-21 as a converted bomber could not have demonstrated more than about twelve percent in range follows from the wetted-area accounting, and the wetted areas are estimated. That the 1963 claim of a lift-to-drag ratio above thirty is unreachable on this planform at any level of laminarisation follows from induced drag alone consuming 73 percent of the drag budget such a ratio allows, and that argument is stronger than the wetted-area one because it does not depend on how much of the aeroplane is laminarised.
 
 **Asserted widely and not supported by the record.** That the X-21 demonstrated laminar flow control to be impractical on maintenance grounds. The maintenance evaluation was not performed.
 
@@ -291,7 +421,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_ackel_serdar_genc_2018]: https://doi.org/10.1016/j.energy.2018.09.040
 [research_adcock_1966]: https://ntrs.nasa.gov/citations/19660011639
 [research_advisory_group_for_aerospace_research_and_development_1992]: https://ntrs.nasa.gov/citations/19920018463
-[research_air_water_testing_1979]: https://www.osti.gov/biblio/5715625
 [research_aircraft_energy_1979]: https://www.osti.gov/biblio/5894372
 [research_albacete_glowacki_1967]: https://doi.org/10.21236/ad0651934
 [research_album_1969]: https://doi.org/10.2514/3.5230
@@ -316,7 +445,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_bertolotti_1993]: https://ntrs.nasa.gov/citations/19940020396
 [research_bertram_neal_1967]: https://ntrs.nasa.gov/citations/19670016466
 [research_bishara_2018]: https://doi.org/10.3390/en11020383
-[research_block_novelo_2019]: https://doi.org/10.1016/j.trd.2018.12.021
 [research_bochio_rodriguez_2022]: https://doi.org/10.1016/j.ijmultiphaseflow.2022.104122
 [research_boiko_2024]: https://doi.org/10.1134/s0869864324020057
 [research_bonner_1977]: https://ntrs.nasa.gov/citations/19780005099
@@ -338,7 +466,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_catalano_2020]: https://doi.org/10.2514/1.c035445
 [research_cebeci_1974]: https://doi.org/10.2514/3.49207
 [research_ceccio_2007]: https://doi.org/10.21236/ada476413
-[research_centrifugal_pump_1980]: https://www.osti.gov/biblio/5249244
 [research_chen_2023]: https://doi.org/10.1016/j.cja.2023.03.039
 [research_chernyshev_2023]: https://doi.org/10.3390/aerospace10100869
 [research_choi_2004]: https://doi.org/10.21236/ada426554
@@ -354,7 +481,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_cope_1952]: https://doi.org/10.1098/rspa.1952.0198
 [research_cordner_1967]: https://doi.org/10.21236/ad0656480
 [research_corelli_grappadelli_2026]: https://doi.org/10.2514/1.j065991
-[research_costello_2000]: https://doi.org/10.21236/ada375291
 [research_croom_holmes_1985]: https://ntrs.nasa.gov/citations/19850067951
 [research_croom_holmes_1986]: https://ntrs.nasa.gov/citations/19880005572
 [research_crouch_2015]: https://doi.org/10.1016/j.piutam.2015.03.052
@@ -389,7 +515,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_effect_of_1959]: https://doi.org/10.1016/0043-1648(59)90190-5
 [research_ehsani_mehrotra_2020]: https://doi.org/10.1016/j.fuel.2019.116238
 [research_elkouh_1971]: https://doi.org/10.1007/bf00413217
-[research_em_0211_1976]: https://www.osti.gov/biblio/6474840
 [research_esaki_2018]: https://doi.org/10.1299/jsmemecj.2018.s0520403
 [research_evaluation_of_1980]: https://ntrs.nasa.gov/citations/19800022878
 [research_fan_2021]: https://doi.org/10.2514/1.c036138
@@ -556,7 +681,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_marino_1975]: https://ntrs.nasa.gov/citations/19760005925
 [research_martin_paredes_2021]: https://doi.org/10.3390/en14082147
 [research_masad_1996]: https://ntrs.nasa.gov/citations/19970010470
-[research_mass_transport_1976]: https://www.osti.gov/biblio/7321399
 [research_mathur_nandanan_1972]: https://doi.org/10.1002/zamm.19720520807
 [research_matsuda_2020]: https://doi.org/10.1299/jsmetokai.2020.69.503
 [research_mauerer_2026]: https://doi.org/10.1007/s13272-026-00965-z
@@ -627,7 +751,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_pohya_2019]: https://doi.org/10.2514/1.c035205
 [research_poll_1979]: https://doi.org/10.1017/s0001925900008763
 [research_poll_2007]: https://ntrs.nasa.gov/citations/20070038946
-[research_pollutant_transport_1979]: https://www.osti.gov/biblio/5868967
 [research_poreh_hsu_1972]: https://doi.org/10.2514/3.48119
 [research_povinelli_1976]: https://ntrs.nasa.gov/citations/19760036627
 [research_prasannakumar_2024]: https://doi.org/10.2514/1.c037398
@@ -699,7 +822,6 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_su_2015]: https://doi.org/10.1016/j.piutam.2015.03.081
 [research_sudhi_2021]: https://doi.org/10.2514/1.j060480
 [research_sudhi_2023]: https://doi.org/10.2514/1.c036968
-[research_surface_roughness_1977]: https://www.osti.gov/biblio/7078005
 [research_swafford_1979]: https://doi.org/10.21236/ada067423
 [research_swift_mungur_1979]: https://ntrs.nasa.gov/citations/19800004564
 [research_szulga_2015]: https://doi.org/10.1016/j.piutam.2015.03.067

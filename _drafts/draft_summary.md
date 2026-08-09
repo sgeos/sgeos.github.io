@@ -21,8 +21,40 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_northrop_x21.markdown`, A318, editorial date 2025-10-27, series `x_planes` index 22 of 72.
 
-827 lines, 16 display equations, 539 references, 6,664 words after the draft pass. One of four passes
-complete. Committed, not pushed. Not published.
+827 lines, 16 display equations, 539 references, 6,664 words after the draft pass; **949 lines, 45
+display equations, 531 references, 7,831 words after the equation review.** Two of four passes complete.
+Committed, not pushed. Not published.
+
+**The equation pass found a defect and it favoured the wrong side.** The draft assumed a whole-aircraft
+zero-lift drag coefficient of 0.0180, which is only reachable if the friction contribution carries a form
+factor, and then credited the laminarised area a flat-plate saving with no form factor. The aeroplane was
+charged one way and credited another. Building the coefficient from its parts reproduces 0.01802 to three
+figures and **raises the benefit by 24 percent**, from a drag reduction of 0.087 to 0.108 and a range gain
+of 9.5 percent to 12.1 percent.
+
+**It also produced the cross-check the draft did not make.** The article opens by asserting from the
+literature that about half a transport's fuel goes to skin friction. The drag build-up gives 45.6 percent
+from geometry and a flat-plate correlation, **which agrees to about nine percent from two directions that
+share nothing**.
+
+**And it answered a question the draft only posed.** The 1963 claim of a lift-to-drag ratio above thirty
+is unreachable on this planform at any level of laminarisation. Laminarising the entire aeroplane,
+fuselage included, gives 23.1. Induced drag alone consumes 73 percent of the drag budget such a ratio
+allows, and reaching it needs an aspect ratio of 11.8 against the X-21's 6.99. **Laminar flow control does
+not merely clean a wing, it moves the optimum planform**, which is a second and stronger reason the
+testbed could not demonstrate the case.
+
+Three sections that carried no algebra now do. Critical roughness height comes out at 0.0123 inches one
+foot behind the leading edge and scales as the fourth root of distance, so it is tighter further forward
+where the splices were. The suction surface is **99.5 percent solid**, with slot velocities of 31 feet per
+second against 200 miles per hour in the ducts. And a turbulent wedge from one leading-edge ice crystal
+covers 31.5 square feet, so forty blanket the wing while cirrus delivers 294,000 encounters per second,
+**which puts the loss of laminar flow at 140 microseconds and the recovery at the 18 millisecond
+convection time**. Both halves of the observed behaviour follow, with five orders of magnitude to spare.
+
+A duct-size calculation checks the assumed suction coefficient from outside the model. The computed mass
+flow and the reported 200 mile per hour duct speed give 185 square inches of total duct area, about seven
+inches square in each of four ducts, which fits inside a 13.4 foot chord.
 
 **The computation overturned the brief the article was planned around.** The expectation was that the
 suction power and the drag saving would be the same order of magnitude and that the sign of the

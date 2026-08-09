@@ -8,168 +8,136 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-08-08
-**Task**: A318, the Northrop X-21A, drafted. The first of four passes. **Committed, not pushed. Not
-published.** Twenty-two of seventy-two articles now drafted, all in `_drafts/`.
+**Date**: 2026-08-09
+**Task**: A318 equation-density review, the second of four passes. **Committed, not pushed. Not
+published.**
+
+**16 display equations to 45**, across 16 edits, each asserted to match its anchor exactly once. 827
+lines to 949, 6,664 words to 7,831.
 
 ---
 
-## The Instruction Was to Compute First, and the Computation Overturned the Instruction
+## The Pass Found a Defect, and It Favoured the Wrong Side
 
-The brief said to work the suction power against the drag saving before deciding what the article is
-about, because the two would be the same order of magnitude and the sign of the difference would be the
-whole story.
+The draft assumed a whole-aircraft zero-lift drag coefficient of 0.0180 and then computed the friction
+saving as $\Delta C_f$ times the laminarised wetted area, with no form factor.
 
-**They are not the same order of magnitude.** At the nominal cruise the suction system costs **17.2
-percent** of the friction it removes, and the suction coefficient would have to rise to **5.8 times** the
-design value before the system stopped paying for itself. In absolute terms it absorbs about 131
-horsepower to remove drag worth 763.
+**Those two are inconsistent.** A coefficient of 0.0180 is only reachable if the friction contribution
+carries a form factor, so **the aeroplane was being charged form-factored drag and credited flat-plate
+drag**.
 
-So the article could not be about whether laminar flow control pays. **The aerodynamics was never the
-difficulty, and finding that out is what made it possible to see what the difficulty actually was.**
+Building the coefficient from its parts removes the possibility and reproduces the assumed value,
 
----
+$$C_{D_0} = 1.20 \times 0.002713 \times 4.0 + 0.0050 = 0.01802$$
 
-## Two Results That Came Out of Writing the Relation Down
+which is the check that the decomposition is the right one. **The corrected benefit is larger, not
+smaller.** Drag reduction 0.087 becomes 0.108 and the range gain 9.5 percent becomes 12.1 percent.
 
-**The suction drag coefficient does not depend on altitude.** Density enters the mass flow and the
-dynamic pressure identically and cancels. What remains is a function of the suction coefficient, the duct
-recovery, the machinery efficiency and the Mach number, and nothing else. An aircraft climbing at fixed
-Mach carries the same suction penalty at 20,000 feet as at 50,000.
-
-**The penalty falls as the inverse square of Mach number.** The work to recompress a unit of captured air
-is set by temperature and the kinetic energy available to pay for it goes as speed squared, so the
-penalty runs from 52 percent of the saving at Mach 0.4 to 14 percent at Mach 0.85. **Laminar flow control
-is a high-speed technology for a thermodynamic reason rather than an aerodynamic one**, which is why the
-application was always aimed at fast subsonic transports.
-
-Neither was in the draft plan. Both came from insisting on the algebra.
+This is the thirteenth article in which writing the relation down caught a wrong claim.
 
 ---
 
-## The Keystone
+## A Cross-Check the Draft Did Not Make
 
-**The X-21 is remembered for answering a question it never asked.**
+The article opens by asserting, from the literature, that about half a transport's fuel goes to
+overcoming skin friction. The drag build-up gives the friction share independently,
 
-The received account, which is in encyclopaedias, reference works and aviation histories alike, is that
-laminar flow control failed on maintenance. The slots clogged, the aeroplane needed constant attention,
-and the cost of cleaning exceeded the fuel saved.
+$$\frac{k \, C_{f,\text{turb}} S_{\text{wet}} / S}{C_D} = \frac{0.01302}{0.02857} = 0.456$$
 
-[Braslow 1999][braslow], who was the NASA technical consultant to the programme, records something else.
-The service-experience objective, one of three the programme was built around, **had not been initiated**
-when the money stopped, because the effort had gone into surface tolerance and spanwise contamination.
-The advisory group that met in November 1965 recommended a major wing modification before any maintenance
-data could mean anything. **That modification was never made**, and the reason recorded is the resource
-demands of the war in Vietnam rather than any finding about laminar flow.
-
-The verdict was reached anyway and has outlived everyone who could have said the experiment was not run.
-
-[braslow]: https://www.nasa.gov/wp-content/uploads/2021/04/88792main_laminar.pdf
+**One number came from the literature and the other from geometry and a flat-plate correlation. They
+agree to about nine percent.** Nothing prompted that check except looking for one.
 
 ---
 
-## A Second Finding the Article Did Not Expect
+## A Question the Draft Posed and Did Not Answer
 
-**The testbed could not measure the quantity being argued about.**
+The draft observed that the 1963 case for laminar flow control promised a lift-to-drag ratio above thirty
+and that the table of laminarisation fractions did not reach it. It did not ask why.
 
-The wing is 44 percent of the aircraft wetted area, and the programme guaranteed laminar flow over 70
-percent of the wing, so 31 percent of the aeroplane. That is worth about **ten percent in range**. The
-case for the technology was a doubling of range and a lift-to-drag ratio above thirty, which requires a
-purpose-designed aircraft in which the wing shrinks, the fuel load shrinks and the structure lightens.
+**It is not reachable on this planform at any level of laminarisation.** Laminarise the entire aeroplane,
+fuselage included, which is impossible but bounds the argument, and the answer is 23.1. The reason is
+visible in the budget. A ratio of thirty allows a total drag coefficient of 0.01435, and induced drag
+alone is 0.01055, or **73 percent of the whole allowance**. Induced drag is set by the planform and is
+untouched by anything done to the boundary layer. Inverting for the aspect ratio that would leave room
+gives **11.8, against the X-21's 6.99**.
 
-**A converted bomber cannot show that, however well its wing works.** The gap is not an error in the
-case. It is the difference between laminarising an aeroplane and designing one around laminar flow.
-
----
-
-## Where the Trouble Actually Was
-
-Spanwise contamination along the attachment line, which arrives already turbulent and which no amount of
-downstream suction can fix.
-
-**The sweep that governs it is the leading-edge sweep, not the quarter-chord sweep quoted for the
-planform.** At a taper ratio of 0.30 the X-21's 30 degrees becomes 33.2. The attachment-line Reynolds
-number then runs from **205 at the root to 113 at the tip**.
-
-That is everywhere inside the band between about 100, below which a disturbance decays, and about 245,
-above which it is sustained and propagates. **It is the worst place to be**, because whether the wing
-stays laminar depends on how large a disturbance the root, the fuselage junction or an insect happens to
-present. And it is highest at the root, which is where the contamination started and where the aeroplane
-carries a large fairing to tailor the pressure field.
-
-At a leading-edge radius of 0.012 chord rather than the assumed 0.008 the root reaches 252 and crosses
-outright. **Which side of the threshold the wing sat on depends on a geometric detail of about one
-percent of chord.**
+**So laminar flow control does not merely clean a wing. It moves the optimum planform.** Once friction is
+removed, induced drag dominates, and the aircraft that collects the benefit wants a much longer, thinner
+wing than a converted bomber has. That is a second and stronger reason the testbed could not demonstrate
+the case, because unlike the wetted-area argument it does not depend on how much of the aeroplane is
+laminarised.
 
 ---
 
-## A Correction to the Secondary Literature
+## Three Sections That Carried No Algebra Now Do
 
-**The figure of 800,000, repeated everywhere as a count of slots, is a count of drilled metering holes.**
+**Surface tolerance.** A three-dimensional roughness element trips a laminar boundary layer at a
+roughness Reynolds number near 600, which gives an admissible height of **0.0123 inches** one foot behind
+the leading edge, scaling as the fourth root of distance. It is therefore tighter further forward, which
+is exactly where the wing splices and the fairing putty were. For scale, the slots are 0.0035 inches wide.
 
-The 1963 primary description makes clear that air passes through spanwise slots into milled plenum
-chambers, and that from each plenum a large number of small holes is drilled down into the ducts. The
-slots number of the order of a hundred and thirty, sixty-eight above and sixty-seven below, between
-0.0025 and 0.008 inches wide.
+**The suction surface.** With slots 0.0035 inches wide on a 0.75 inch pitch the open-area ratio is
+0.00467, so **the surface is 99.5 percent solid** and the air enters the slots at 31 feet per second
+against 200 miles per hour in the ducts below. That is a useful corrective to the sieve impression the
+literature's slot-count error creates.
 
-The error does not change the physics and it badly changes the impression, since it converts a precisely
-engineered surface into something that sounds like a colander. The handoff carried the same error, having
-inherited it from the same source.
+**Atmospheric particles, which is the one that pays.** A turbulent wedge from a single leading-edge
+disturbance covers 31.5 square feet on a 13.4 foot chord, so about forty blanket the wing. Cirrus at ten
+thousand crystals per cubic metre delivers 294,000 encounters per second into a boundary layer 0.18
+inches thick. **The wing is blanketed in 140 microseconds and clears in the 18 millisecond convection
+time.** Both halves of the reported behaviour follow, with five orders of magnitude to spare, and the
+difference from an insect is that nothing is left on the surface.
 
 ---
 
-## What the Harvest Learned About Itself
+## An Independent Check on the Weakest Assumption
 
-**Seven percent of the pool had to be discarded for belonging to another discipline, the highest
-proportion this series has recorded.**
-
-**The phrase boundary layer belongs to meteorology as much as to aerodynamics.** One query returned most
-of a journal devoted to the atmospheric boundary layer, 89 records in all. Operating-room laminar air
-flow, crossflow filtration, a co-laminar-flow fuel cell, a double-pipe heat exchanger, micro-riblets on
-ship hulls, a Martian entry stability analysis and a Cretaceous stick-insect fossil arrived by the same
-route.
-
-**Both directions of the word-boundary failure occurred in the same pass**, which has not happened before.
-One pattern matched the letters of a transition-prediction abbreviation inside ordinary English words and
-swelled a cluster to 362 records. Another matched the middle of the word **re-duct-ion** and put 73 drag
-papers into the pumping cluster. The first failed for want of a boundary and so did the second.
-
-Two further tooling notes. **The NTRS search endpoint returns no authors and no year**, so display text
-fell back to title fragments and dragged title punctuation into link text, which then failed the prose
-rules. The per-record detail endpoint fixes it and is now called for every record. **Crossref correction
-notices are not the paper** and three were being cited in place of the articles they correct.
+The suction coefficient is the least well constrained input in the article. The duct sizing checks it
+from outside the model. The computed mass flow and the contemporary report of 200 mile per hour duct
+speeds give 185 square inches of total duct area, about seven inches square in each of four ducts, which
+fits inside a 13.4 foot chord without difficulty. **Had the assumed coefficient been an order of
+magnitude wrong, the duct would not have fitted in the wing.**
 
 ---
 
 ## Verification
 
-- **64 independent re-derivations, zero disagreements.** The verifier uses a tabulated atmosphere where
-  the model uses a formula, bisection where the model uses a closed form, and computes the suction
-  coefficient by two independent routes that are required to agree. All 22 quoted values confirmed
-  present in the text
-- **539 references**, zero undefined, zero orphaned, zero duplicate URLs, `research_` block sorted
-- **398 DOIs confirmed registered in the Crossref registry** with titles printed and read, and 123
-  archive links at HTTP 200. **Zero failures of either kind**
-- A residual red-flag scan over all 398 printed titles found six, of which three were dropped and three
-  kept as canonical porous-wall transpiration analyses
-- `check_any.py` clean on **all 22 articles**, `_verify.py` at the 0-error 21-warning baseline from the
-  repository root, with **no new warnings from this article**
-- **22-article isolated build succeeds**, with 16 of 16 equations rendering as display math, three
-  tables, Part 22 navigation, and no unresolved Liquid. The build script no longer hardcodes the article
-  count, which was the constant that arrived one short in A316
+- **142 independent re-derivations across two verifiers, zero disagreements.** The verifiers use a
+  tabulated atmosphere where the model uses a formula, bisection where the model uses closed forms, and
+  numerical integration where the model uses a triangle area
+- **A forward substitution confirms the inverted aspect ratio**, putting 11.8 back into the polar and
+  recovering a lift-to-drag ratio of 30.0. Inverting a polar that already contains three assumptions is
+  worth checking in the other direction
+- **The wedge-area integration caught a factor-of-two defect in the VERIFIER, not the article.** I
+  integrated the half-width where the wedge spreads at a half-angle on each side. The article was right
+- All 22 articles pass `check_any.py`, `_verify.py` at the 0-error 21-warning baseline, and the
+  22-article isolated build succeeds with **45 of 45 equations rendering as display math**
+
+---
+
+## Two Draft-Pass Defects Also Fixed
+
+**The series chain listed the X-1 twice**, because the generator began the chain at the article the
+sentence had already named.
+
+**The OSTI archive contributed almost nothing usable and six wrong citations.** Of 49 records, one was
+relevant. The rest were coal gasification, breeder reactors, magnetohydrodynamic generators, road-vehicle
+aerodynamics and coastal oceanography, and one cited record was a **laminar flow cyclone**, which is a
+coal-cleaning device. The Department of Energy corpus uses these words for other things. Forty-eight
+records were dropped and the source is now effectively excluded for this subject.
 
 ---
 
 ## State
 
-**A318 has had one of four passes.** The three remaining are yours to prompt.
+**A318 has had two of four passes.** The reference-density review and the publication review are yours to
+prompt.
 
-The article is short by series standards at 827 lines and 16 equations, and deliberately so. It is
-reference-heavy already at 539. **The equation pass has a great deal to work with**, since the suction
-derivation, the attachment-line criterion and the wetted-area accounting are all stated in the draft in
-compressed form.
+At 949 lines and 45 equations it is still short of the series bands and long on references at 531. The
+reference pass has less to do here than usual and the publication review will carry the contemporary
+survey.
 
-Nothing in the series is published. The publication-order dependency is now twenty-two deep.
+Nothing in the series is published. The publication-order dependency is twenty-two deep.
 
-**Still open and unchanged.** The fourth genre class, now six consecutive articles outside all four named
-classes. The A305 length offer. Neither touched.
+**Still open and unchanged.** The fourth genre class, now seven consecutive articles outside all four
+named classes. The A305 length offer.
