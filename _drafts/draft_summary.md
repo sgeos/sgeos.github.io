@@ -23,8 +23,31 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass; **1,101 lines, 25
 display equations, 750 references, 7,835 words after the equation review; **1,471 lines, 25 display
-equations, 1,114 references, 9,974 words after the primary-reference review.** Three of four passes
-complete. Committed, not pushed. Not published.
+equations, 1,114 references, 9,974 words after the primary-reference review; **1,891 lines, 25 display
+equations, 1,472 references, 13,611 words after the publication review.** All four passes complete.
+Committed and **pushed**. Not published.
+
+**The survey's organising claim is that the duct came back for reasons the X-22 could not have had, and
+that its three charges are unchanged.** Everything new is a consequence of electric propulsion.
+Independently variable rotor speeds dissolve the cross-shaft, which was the aircraft's most expensive
+single decision, and replace differential thrust with something fast enough to fly on, **which removes
+the reason for the duct-exit elevons**. The duct is wanted now for blade shielding and for noise, neither
+of which was a design driver in 1962. But the shroud still buys thrust in the hover, still charges an
+annular wing's normal force in the conversion, still charges frontal area in cruise, the lip still stalls
+in a crosswind, and the disc-loading penalty is exactly the number this article computes. Contemporary
+coverage is 724 of 1,447 research citations, or 50.0 percent, across nine subsections.
+
+**The sharpest thing the survey says is that the aircraft's actual legacy is not the configuration.** The
+X-22 is cited far more often for handling-qualities data than for anything about ducts, and the criteria
+a modern ducted eVTOL will be certified against descend from eighteen years of an aeroplane pretending to
+be other aeroplanes.
+
+**Four more shared words were found and three are shared inside engineering.** Trim means the aircraft
+balance, the interior fittings, the engine setting and a planing hull's attitude. **Inlet** belongs to
+propulsion and to coastal geomorphology. **Figure of merit** is a rotor efficiency and a
+nuclear-radiation detector metric. And **electric propulsion** means an aircraft motor here and an ion
+thruster in the spacecraft literature, which is how a paper on interplanetary low-thrust trajectories
+reached the final sweep.
 
 **The inter-pass dependency was starker here than in any previous article.** All nine subjects the
 equation pass promoted were thin in the pool and **four were at zero records**, namely transmission
