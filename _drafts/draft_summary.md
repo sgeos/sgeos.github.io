@@ -23,8 +23,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 827 lines, 16 display equations, 539 references, 6,664 words after the draft pass; **949 lines, 45
 display equations, 531 references, 7,831 words after the equation review; **1,258 lines, 45 display
-equations, 824 references, 9,628 words after the primary-reference review.** Three of four passes
-complete. Committed, not pushed. Not published.
+equations, 824 references, 9,628 words after the primary-reference review; **1,692 lines, 45 display
+equations, 1,192 references, 12,755 words after the publication review.** All four passes complete.
+Committed and **pushed**. Not published.
+
+**The contemporary survey's organising claim is a retreat and a delayed answer.** The X-21 flew a
+full-chord slotted suction wing and everything since has conceded something. Hybrid laminar flow control
+gives up the aft suction, natural laminar flow gives up the suction entirely, and riblets give up laminar
+flow altogether and settle for tidier turbulence. **Each concession buys the same thing, which is a
+surface that can be built to tolerance and kept clean.** Contemporary coverage is 623 of 1,164 research
+citations, or 53.5 percent, across ten subsections.
+
+**The sharpest thing the survey says about the programme concerns insects.** The problem universally
+cited as having killed laminar flow control is the one problem the X-21 never evaluated, and the modern
+answer is coatings, engineered micrometre-scale surfaces and deployable leading-edge shields rather than
+cleaning. None of those existed in 1963 and the last is mechanical enough that the X-21 could have
+carried it. **The verdict was passed without evidence and the evidence since largely contradicts it.**
+
+Two further survey findings bear on the article's own argument. **The crossflow is now controlled by
+roughness rather than in spite of it**, since discrete roughness elements excite a benign mode that
+suppresses the dangerous one, which is an uncomfortable sentence for a programme that spent two years
+chasing thousandths of an inch. And **the ice-crystal data the X-21 needed now exists because ice was
+damaging turbofans**, which is an odd route to it and still leaves the coverage organised around tropical
+convection rather than cruise-altitude cirrus.
+
+**The X-21 remains the largest laminar flow control aircraft ever flown.** Every demonstrator since has
+been narrower and every one produced more usable data, which is a comment on how the programme was
+structured rather than on what it attempted.
 
 **The reference review had two jobs and the audit named both before anything was selected.** The
 equation pass had promoted ten subjects and eight were thin in the pool, three at zero citations and slot

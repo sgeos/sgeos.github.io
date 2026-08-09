@@ -9,122 +9,117 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A318 primary-reference review, the third of four passes. **Committed, not pushed. Not
-published.**
+**Task**: A318 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All twenty-two articles in the series remain in `_drafts/`.
 
-**References 531 to 824** across eight edits. 949 lines to 1,258, 7,831 words to 9,628. Equations
-unchanged at 45, measured before and after.
-
----
-
-## The Audit Named Both Defects Before Anything Was Selected
-
-Running the coverage audit first is the rule, and it paid twice.
-
-**The inter-pass dependency, reproduced almost exactly from A317.** The equation pass promoted ten
-subjects. **Eight were thin in the pool, three had zero citations, and slot metering had zero records.**
-Everything the article argued from the start was deep and fully used, with the attachment line at 22 of
-22 and surface tolerance at 34 of 34. The draft harvest could not have known which derivations would come
-to exist.
-
-**The era gap, which is what you asked about.** Period sources through 1965 were **12.5 percent** of
-citations against **53.8 percent** contemporary. For an aeroplane that flew in 1963, in a series that
-treats the period record as the backbone, that is the wrong way round.
-
-**It is now 27.9 percent period against 35.3 percent contemporary.**
+**Final state 1,692 lines, 45 display equations, 1,192 references, 12,755 words.**
 
 ---
 
-## The Era Gap Was Selection, Not Supply
+## The Survey's Organising Claim
 
-This is the part worth keeping.
+**A retreat, and an answer sixty years late.**
 
-**Four hundred and seventeen records dated 1970 or earlier were already in the pool and unused.** Among
-them was [Schubauer and Skramstad 1947][ssk], whose measurement of laminar boundary-layer oscillations is
-the experiment the entire stability argument rests on, and which the article had been leaning on without
-citing.
+The X-21 flew a full-chord slotted suction wing. Every major line of work since has conceded something
+it did not.
 
-[ssk]: https://ntrs.nasa.gov/citations/19930091976
+- **Hybrid laminar flow control** gives up the aft suction and keeps the leading edge
+- **Natural laminar flow** gives up the suction entirely and constrains the shape instead
+- **Riblets** give up laminar flow altogether and settle for tidier turbulence
 
-The cause was **cluster ordering**. Broad topical groupings were matching first and the foundational work
-was falling between them. A dedicated period cluster, placed after the specific topics so it would not
-gut them and before the broad ones so it would not be pre-empted, recovered 253 records at a stroke.
+**Each concession buys the same thing, which is a surface that can be built to tolerance and kept clean
+in service.** The trades get worse aerodynamically and better industrially, in that order, every time.
 
-**A search would not have fixed this and a bigger harvest would have hidden it**, which is the
-supply-versus-selection distinction the series keeps rediscovering.
+Contemporary coverage is **623 of 1,164 research citations, or 53.5 percent**, across ten subsections.
 
 ---
 
-## The Recovery Worth Naming
+## The Sharpest Thing the Survey Says
 
-**[Braslow and Knox 1958][bk], the simplified method for the critical height of distributed roughness
-particles.** The equation pass derived that criterion and applied it to get an admissible roughness of
-0.0123 inches, and cited nothing for it.
+**The problem universally cited as having killed laminar flow control is the one problem the X-21 never
+evaluated.**
 
-[bk]: https://ntrs.nasa.gov/citations/19930085292
+Insect contamination is the reason given in encyclopaedias, reference works and aviation histories. The
+service-maintenance objective was never initiated. And the modern answer is not cleaning at all. It is
+coatings that residue cannot adhere to, surfaces engineered at the micrometre scale so a strike does not
+leave a critical roughness, and shields deployed over the leading edge for the low-altitude part of the
+flight.
 
-It was written by Albert Braslow, the same engineer whose monograph is this article's main narrative
-source and who served as NASA technical consultant to the X-21 programme. **The man who wrote the history
-the article relies on also wrote the criterion it uses for its arithmetic**, and the draft had cited him
-for one and not the other.
-
-Also recovered, **Oswald 1932**, whose span-efficiency factor is the 0.80 the drag build-up uses and is
-still called by his name.
+None of those existed in 1963. **The last of them is mechanical enough that the X-21 could have carried
+it.** The verdict was passed without evidence and the evidence accumulated since largely contradicts it.
 
 ---
 
-## A Homonym Inside Aerodynamics Itself
+## Two Survey Findings That Bear on the Article's Own Analysis
 
-Every homonym this series has documented has been a word shared with another discipline. This one is not.
+**The crossflow is now controlled by roughness rather than in spite of it.** Discrete roughness elements
+placed at a chosen spacing near the leading edge excite a crossflow mode that is not the most amplified
+one, and that mode suppresses the dangerous one through nonlinear interaction. **A wing is made more
+laminar by being made rougher in a specific way.** That is an uncomfortable sentence for a programme that
+spent its first two years chasing thousandths of an inch of waviness, and it is a genuine inversion of
+the article's own surface-tolerance section rather than an extension of it.
 
-**Boundary layer control means suction to hold laminar flow and cut drag. It also means suction or
-blowing to delay separation and raise lift.** Same name, same mechanism, frequently the same authors and
-the same laboratories, and they are different technologies answering different questions. A high-lift
-blowing paper looks exactly like a laminar-flow suction paper until you read what it is for.
-
-Several were removed on that ground, along with swept-wing flutter, a rolling-moment stability
-derivative, internal pipe flow, a fuselage load distribution and an oscillatory flow reactor.
-
----
-
-## Reported Rather Than Padded
-
-**The Breguet and cruise-performance literature is thin here and stays thin.** Two usable records. The
-relation is textbook material rather than journal material, and the word range in an aeronautical archive
-mostly means the distance to a target or a ballistic test facility, so searching harder returns more of
-those rather than more of this. The article says so.
-
-**Slot metering and flow distribution remains at one record.** For the component that decides whether the
-whole scheme installs, that is a genuine hole in the public literature and it is stated as one.
+**The ice-crystal data the X-21 needed now exists, and it exists for the wrong reason.** High ice water
+content became an engine problem before it was ever resolved as a laminar flow problem, so the
+measurements were made because crystals were damaging turbofans. The coverage is still organised around
+convective cloud at tropical latitudes rather than cruise-altitude cirrus on transport routes, so the
+specific question the programme asked is still not cleanly answered.
 
 ---
 
-## Verification
+## Publication Checks
 
-- **824 references**, zero undefined, zero orphaned, zero duplicate URLs, `research_` block sorted
-- **635 DOIs confirmed registered in the Crossref registry, 169 archive links at HTTP 200, zero failures
-  of either kind**
-- A residual red-flag scan over all 635 printed registry titles left **two deliberate keeps**, being
-  Yuan's porous-wall transpiration analyses, which are canonical in this literature despite being pipe
-  flow
-- The 142 re-derivations from the earlier passes still pass unchanged
-- All 22 articles clean, `_verify.py` at the 0-error 21-warning baseline, 22-article isolated build
-  succeeding with 45 of 45 equations rendering as display math
+**Prose style.** Clean. No contractions, em dashes, en dashes, prose colons, prose semicolons or prose
+parentheticals across all 22 articles.
 
-**One hazard worth recording.** Rebuilding the master after a harvest changes display text for any record
-that gains a title collision, which silently breaks link text in body prose already written. The
-link-text invariant caught four; a repair pass now rewrites them from the master rather than failing.
+**Acronyms. One violation found and fixed.** NASA was used three times and never spelled out. It is now
+expanded on first use. NACA appears once and only inside a paper title, which is exempt.
+
+**Diction.** The word-frequency outliers are wing at 8.76 per thousand, laminar at 8.36, flow at 8.09 and
+suction at 6.47. **All four are the article's subject rather than filler** and are documented as
+legitimate rather than remediated. The apparent outlier at 5.53 is the letter x, which is an artefact of
+tokenising X-21.
+
+**Reference integrity.** 1,192 references, zero undefined, zero orphaned, zero duplicate URLs,
+`research_` block sorted.
+
+**URL response.** 1,171 external links. **991 DOIs confirmed registered in the Crossref registry and 180
+archive links at HTTP 200. Zero failures of either kind.** A residual red-flag scan over all 991 printed
+titles left only the two deliberate keeps, being Yuan's porous-wall transpiration analyses.
+
+**Numerical sanity.** The 142 re-derivations across both verifiers still pass unchanged.
+
+**Structural conformance.** Genre order intact, the three series sections present, The Source Base
+immediately before Epistemic State, twenty subsections.
+
+**Build.** 22-article isolated build succeeds with 45 of 45 equations rendering as display math, three
+tables, Part 22 navigation and no unresolved Liquid.
+
+---
+
+## A Note on the Era Balance
+
+The primary-reference pass took period sources through 1965 from 12.5 to 27.9 percent. This pass added
+342 contemporary references, so the period **fraction** falls to 19.1 percent while the period **count**
+is unchanged at 222.
+
+**That is the directive working as intended rather than a regression**, but it is worth stating plainly
+so the number is not misread later. The article's argument rests on the 222 period sources. The 623
+contemporary ones are the survey the standing directive asks for.
 
 ---
 
 ## State
 
-**A318 has had three of four passes.** The publication review is yours to prompt.
+**A318 is complete. All four passes done, committed and pushed, not published.**
 
-1,258 lines, 45 equations, 824 references, 9,628 words. Lines and equations remain below the series
-bands and references are well above.
+Twenty-two of seventy-two. The publication-order dependency is now twenty-two deep and every
+cross-reference points backward.
 
-Nothing in the series is published. The publication-order dependency is twenty-two deep.
+**The next article is A319, the Bell X-22**, editorial date 2025-10-28, Part 23 of 72. It is a
+four-ducted-propeller tilt-duct V/STOL aircraft, which puts it back in the V/STOL family with the X-18
+and X-19 rather than in the drag-reduction family this article belongs to. **Do not import the A318
+pool.** Laminar flow control shares nothing with ducted propellers.
 
 **Still open and unchanged.** The fourth genre class, now seven consecutive articles outside all four
-named classes. The A305 length offer.
+named classes, though A318 finished long on references at 1,192. The A305 length offer.
