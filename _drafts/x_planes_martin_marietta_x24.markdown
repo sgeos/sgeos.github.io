@@ -63,7 +63,11 @@ The dimensions matter here because the whole analysis runs on them, and **the ac
 
 ### Why a Reentry Vehicle Must Be Cut Off Flat
 
-An aeroplane designed for efficiency ends in a point, because a body that closes smoothly leaves the air behind it at something close to the pressure it started at. **A reentry vehicle cannot do that.** The heat shield has to terminate somewhere, the rocket engine has to exhaust somewhere, and the structure has to be blunt enough not to melt. The result is a large flat base, and behind that base sits a region of separated flow at less than ambient pressure, pulling backwards.
+An aeroplane designed for efficiency ends in a point, because a body that closes smoothly leaves the air behind it at something close to the pressure it started at. **A reentry vehicle cannot do that.** The heat shield has to terminate somewhere, the rocket engine has to exhaust somewhere, and the structure has to be blunt enough not to melt. The result is a large flat base, and behind that base sits a region of separated flow at less than ambient pressure, pulling backwards. Written as a coefficient on the wetted area, that suction is
+
+$$C_{D_b} = -C_{p_b}\,\frac{A_b}{A_w}$$
+
+with the base pressure coefficient negative, so the term is a positive drag. **The whole of what follows is a fight with that one expression.**
 
 The literature of that penalty is old and large, in [Hoerner 1950][research_hoerner_1950], [Chapman 1951][research_chapman_1951], [Chapman and Perkins 1951][research_chapman_perkins_1951], [Donaldson 1955][research_donaldson_1955], [Piddington 1957][research_piddington_1957], [Foss et al 1958][research_foss_1958], [Chow 1959][research_chow_1959], [Di Camillo and Fisher 1959][research_di_camillo_fisher_1959], [Lehnert and Schermerhorn 1959][research_lehnert_schermerhorn_1959], [Rittenhouse 1959][research_rittenhouse_1959], [Saltzman 1961][research_saltzman_1961], [Brazzel 1963][research_brazzel_1963], [Zumwalt and Tang 1963][research_zumwalt_tang_1963], [Connolly 1965][research_connolly_1965], [Hughes and Mcdonald 1965][research_hughes_mcdonald_1965], [Zarin 1965][research_zarin_1965], [Shmyglevskii 1966][research_shmyglevskii_1966], [Whitfield and Potter 1966][research_whitfield_potter_1966], [Zarin 1966][research_zarin_1966], [Lockman 1967, Free-flight base pressure and hea][research_lockman_1967], [Lockman 1967, Free-flight base pressure and hea][research_lockman_1967_2], [Shrewsbury 1968][research_shrewsbury_1968], [Washington et al 1968][research_washington_1968], [Cassanto 1969][research_cassanto_1969], [Huerta 1969][research_huerta_1969], [Mair 1969][research_mair_1969], [Norman 1969][research_norman_1969], [Pritchard 1969][research_pritchard_1969], [Craft and Brazzel 1970][research_craft_brazzel_1970], [Martin and Brazzel 1970][research_martin_brazzel_1970], [Bergman 1971][research_bergman_1971], [Cassanto 1971][research_cassanto_1971], [Chamberlin 1972][research_chamberlin_1972], [Moller and Elliott 1972][research_moller_elliott_1972], [Tanner 1972][research_tanner_1972], [Tanner 1973][research_tanner_1973], [Jenke 1974][research_jenke_1974], [Platou 1974][research_platou_1974], [Rom and Bober 1974][research_rom_bober_1974], [Platou 1975][research_platou_1975], [Reubush 1975][research_reubush_1975], [Sylvester 1975][research_sylvester_1975], [Tanner 1975][research_tanner_1975], [Blaha et al 1976, Boundary layer thickness effect o][research_blaha_1976], [Blaha et al 1976, Boundary layer thickness effect o][research_blaha_1976_2], [Platou and Nielsen 1976][research_platou_nielsen_1976], [Puchalski and Kowalick 1976][research_puchalski_kowalick_1976], [Reubush 1976, Effect of Reynolds Number on Boat][research_reubush_1976_2], [Reubush 1976, Effect of Reynolds number on the][research_reubush_1976], [Tanner 1976][research_tanner_1976], [Starr 1977][research_starr_1977], [Gogish and Pokrovskii 1978][research_gogish_pokrovskii_1978], [Platou 1978][research_platou_1978], [Presz et al 1978][research_presz_1978], [Price 1978][research_price_1978], [Calarese and Walterick 1979][research_calarese_walterick_1979], [Fansler and Schmidt 1979][research_fansler_schmidt_1979], [Merz 1979][research_merz_1979], [Mikhail 1979][research_mikhail_1979], [Bauer 1980][research_bauer_1980], [Buteau et al 1980][research_buteau_1980], [Calarese 1980][research_calarese_1980], [Gai and Patil 1980][research_gai_patil_1980], [Payne 1980, Afterbody Drag. Volume 2. Jet Int][research_payne_1980], [Payne et al 1980, Afterbody Drag. Volume 1. Drag of][research_payne_1980_2], [Deiwert 1981][research_deiwert_1981], [Gai and Sharma 1981][research_gai_sharma_1981], [Hubbartt and Strahle 1981][research_hubbartt_strahle_1981], [Kuhn 1981][research_kuhn_1981], [Peters 1981][research_peters_1981], [Peterson 1981][research_peterson_1981], [Schetz et al 1981][research_schetz_1981], [Schiff and Sturek 1981][research_schiff_sturek_1981], [Aulehla and Besigk 1982][research_aulehla_besigk_1982], [Chima and Gerhart 1982][research_chima_gerhart_1982], [Thompson and Smith 1982][research_thompson_smith_1982], [Kayser et al 1983][research_kayser_1983], [Rudy 1984][research_rudy_1984], [Mueller 1985][research_mueller_1985], [Powers et al 1986, Flight and wind-tunnel measuremen][research_powers_1986_2], [Ding et al 1988][research_ding_1988], [Powers 1988, Flight tests of external modifica][research_powers_1988], [Powers 1988, Flight tests of external modifica][research_powers_1988_2], [Powers 1988, Influence of base modifications o][research_powers_1988_3], [Viswanath 1988][research_viswanath_1988], [Selby and Miandoab 1990][research_selby_miandoab_1990], [Dougherty and Johnson 1993][research_dougherty_johnson_1993], [Robbins et al 1993][research_robbins_1993], [Roshko 1993][research_roshko_1993], [Compton 1996][research_compton_1996], [Capone et al 1999, Effect of Boattail and Sidewall C][research_capone_1999], [Capone et al 1999, Effect of Boattail and Sidewall C][research_capone_1999_2], [Deere and Hunter 1999][research_deere_hunter_1999], [Naughton 1999][research_naughton_1999], [Saltzman et al 1999][research_saltzman_1999], [Decker 2002][research_decker_2002], [DeSpirito 2005][research_despirito_2005].
 
@@ -79,17 +83,39 @@ $$K = 0.090 \ \text{to}\ 0.100$$
 
 $$\frac{0.100}{0.029} = 3.4$$
 
-**Model-scale data understates the base drag of a real vehicle by a factor of about three and a half.** For a configuration whose base is a substantial fraction of its wetted area, that is not a correction. It is the difference between a vehicle that lands and one that does not.
+**Model-scale data understates the base drag of a real vehicle by a factor of about three and a half.**
+
+**The article should say why, because the reason is not mysterious.** Base pressure is set by the boundary layer arriving at the base, and boundary layers are set by Reynolds number,
+
+$$Re = \frac{V\ell}{\nu}$$
+
+The X-24B on its approach flew at $Re = 9.8\times 10^7$ on its own length. A one-twentieth-scale model in a tunnel at 200 feet per second sits near $2.4\times 10^6$,
+
+$$\frac{Re_\text{flight}}{Re_\text{model}} = 41$$
+
+**A factor of forty in Reynolds number is not a small extrapolation**, and a correlation calibrated at the bottom of that range should not be expected to hold at the top of it. For a configuration whose base is a substantial fraction of its wetted area, that is not a correction. It is the difference between a vehicle that lands and one that does not.
 
 ### The Drag Bucket, and a Factor of Three That Depends on Nothing
 
-Put the two together. Writing everything as an equivalent skin-friction coefficient referred to wetted area, with $r = A_b/A_w$ the ratio of base area to wetted area and $x$ the forebody contribution, the total is
+Put the two together. The bookkeeping needs one definition the article has so far used without stating, the equivalent skin-friction coefficient, which is the minimum drag referred to wetted area rather than to a reference area nobody agrees on,
+
+$$C_{F_e} = C_{D_\text{min}}\,\frac{S}{A_w}$$
+
+and the forebody drag as Hoerner's relation wants it, referred to the base area,
+
+$$C_{D_\text{fore},b} = C_{F_e,\text{fore}}\,\frac{A_w}{A_b}$$
+
+Writing everything as an equivalent skin-friction coefficient referred to wetted area, with $r = A_b/A_w$ the ratio of base area to wetted area and $x$ the forebody contribution, the total is
 
 $$C_{F_e} = x + \frac{k\, r^{3/2}}{\sqrt{x}}$$
 
 where $k$ collects the Hoerner coefficient and a profile factor. **The two terms pull in opposite directions**, so there is an interior minimum. Differentiating,
 
 $$\frac{dC_{F_e}}{dx} = 1 - \frac{k\,r^{3/2}}{2x^{3/2}} = 0 \quad \Longrightarrow \quad k\,r^{3/2} = 2x^{3/2}$$
+
+which locates the optimum itself,
+
+$$x_\text{opt} = \left(\frac{k}{2}\right)^{2/3} r$$
 
 and substituting that back into the total gives something remarkable,
 
@@ -101,7 +127,11 @@ The source's own two coefficients provide the check. It quotes the optimal foreb
 
 $$\frac{0.3852}{0.1284} = 3.000$$
 
-**This article uses the source's absolute coefficients rather than its own.** The factor of three is parameter-free and is derived above, but the absolute value depends on exactly how the base pressure profile factor is applied, and the arrangement used here gives 0.1435 where the source gives 0.1284. The structure is derived and the numbers are flight-anchored.
+**This article uses the source's absolute coefficients rather than its own.** The factor of three is parameter-free and is derived above, but the absolute value depends on exactly how the base pressure profile factor is applied, and the arrangement used here gives
+
+$$\left(\frac{0.10/0.92}{2}\right)^{2/3} = 0.1435$$
+
+where the source gives 0.1284, a difference of twelve percent. The structure is derived and the numbers are flight-anchored.
 
 ### What That Costs
 
@@ -113,7 +143,11 @@ and something useful happens when the drag is expressed on wetted area. Substitu
 
 $$\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e\, b^2}{A_w\, C_{F_e}}}$$
 
-That is why the right independent variable for this class of vehicle is span squared over **wetted** area, a quantity the source calls the wetted aspect ratio. It removes the argument about what the reference area should be, which for a shape with no wing is not obvious.
+That is why the right independent variable for this class of vehicle is span squared over **wetted** area, a quantity the source calls the wetted aspect ratio,
+
+$$A = \frac{b^2}{S}, \qquad A_\text{wetted} = \frac{b^2}{A_w}$$
+
+It removes the argument about what the reference area should be, which for a shape with no wing is not obvious.
 
 Evaluating at the drag bucket, with an efficiency factor of 0.6,
 
@@ -147,35 +181,99 @@ against a measured 7.5, an error of six percent. **Nothing in that prediction wa
 
 ### The Approach, Flown Fast and Steep on Purpose
 
-At a lift-to-drag ratio of 3.43 the best glide angle is 16 degrees and the best glide speed, from the ordinary lift balance,
+Everything from here on runs off one relation the article has so far leaned on without displaying, the parabolic drag polar,
+
+$$C_D = C_{D_0} + k_i C_L^2, \qquad k_i = \frac{1}{\pi e A} = 0.479$$
+
+together with the lift balance that fixes the lift coefficient at any given speed,
+
+$$C_L = \frac{W}{q S}, \qquad q = \tfrac{1}{2}\rho V^2$$
+
+The best glide condition is where the two drag terms are equal,
+
+$$C_L^* = \sqrt{\frac{C_{D_0}}{k_i}} = 0.304, \qquad \left(\frac{L}{D}\right)_\text{max} = \frac{1}{2\sqrt{C_{D_0} k_i}} = 3.43$$
+
+and the glide angle follows directly from the ratio,
+
+$$\gamma^* = \arctan\frac{1}{(L/D)_\text{max}} = 16.2^\circ$$
+
+At that condition the speed, from the ordinary lift balance, is
 
 $$V^* = \sqrt{\frac{2W}{\rho S C_L^*}} = 276\ \text{ft/s} = 188\ \text{mph}$$
 
 using the density at Edwards, which sits at 2,302 feet. **The X-24B did not approach at 188 miles an hour. It approached at 300.**
 
-That is sixty percent faster than its best glide, and flying faster than best glide makes the glide angle steeper, not shallower. At 300 miles an hour the lift coefficient is only 0.12, the lift-to-drag ratio falls to 2.34, and
+That is sixty percent faster than its best glide,
+
+$$\frac{V}{V^*} = 1.60$$
+
+and flying faster than best glide makes the glide angle steeper, not shallower. **The polar says why.** Lift coefficient falls as the inverse square of speed, so at 1.60 times the best-glide speed it drops to
+
+$$\frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39$$
+
+which lands at $C_L = 0.12$. **At that lift coefficient the induced term has almost vanished and the parasite term has not**,
+
+$$\frac{k_i C_L^2}{C_D} = 0.13$$
+
+so seven eighths of the drag is now the base and the skin, being paid for at a dynamic pressure of 215 pounds per square foot. The lift-to-drag ratio falls to 2.34, and
 
 $$\gamma = \arctan\frac{1}{2.34} = 23.2^\circ$$
 
 $$\dot h = V\sin\gamma = 173\ \text{ft/s} = 10{,}400\ \text{ft/min}$$
 
-**Ten thousand four hundred feet per minute, which is fifteen times a transport aircraft's approach.** The approach was deliberately made worse, and the reason is the next section.
+A transport on a three-degree approach at 140 knots descends at
+
+$$\dot h = 140 \times 1.688 \times \sin 3^\circ \times 60 = 742\ \text{ft/min}$$
+
+$$\frac{10{,}400}{742} = 14$$
+
+**Ten thousand four hundred feet per minute, fourteen times a transport aircraft's approach.** The approach was deliberately made worse, and the reason is the next section.
 
 ### The Flare
 
-The vehicle arrives at the ground with a great deal of speed and a sink rate that would destroy it. **The flare is the manoeuvre that converts one into the other**, and it is the whole problem, in [Pasek and Shanahan 1954][research_pasek_shanahan_1954], [Matranga 1961, Analysis of X-15 Landing Approach][research_matranga_1961], [Acton 1962][research_acton_1962], [Chipman 1965][research_chipman_1965], [McDermott 1967][research_mcdermott_1967], [Waite et al 1967][research_waite_1967], [Faulders et al 1968][research_faulders_1968], [Waite and Arikawa 1968][research_waite_arikawa_1968], [Richardson 1969][research_richardson_1969], [Addy 1970][research_addy_1970], [Evanoff 1971][research_evanoff_1971], [Rubin 1971][research_rubin_1971], [Herkes 1972][research_herkes_1972], [Vavilov 1972][research_vavilov_1972], [Ohta and Sugiura 1973][research_ohta_sugiura_1973], [Renfroe 1973][research_renfroe_1973], [Douda 1974][research_douda_1974], [Heffley 1974][research_heffley_1974], [Matheny 1974][research_matheny_1974], [Heffley 1976][research_heffley_1976], [Gevaert and Feinreich 1977][research_gevaert_feinreich_1977], [Palmer and Petitt 1977][research_palmer_petitt_1977], [Papagiannis and Wefer 1978][research_papagiannis_wefer_1978], [Lambregts and Creedon 1980][research_lambregts_creedon_1980], [Uchida 1980][research_uchida_1980], [Bai 1987][research_bai_1987], [Chang and Muirhead 1987][research_chang_muirhead_1987], [Hynes et al 1988][research_hynes_1988], [Lin and Chen 1989][research_lin_chen_1989], [Walyus and Dalton 1991, Approach and landing simulator fo][research_walyus_dalton_1991], [Walyus and Dalton 1991, Approach and landing simulator fo][research_walyus_dalton_1991_2], [Hess and Yousefpor 1992][research_hess_yousefpor_1992], [Sterling and Moore 2005, Flare Emission Onset in the Slow][research_sterling_moore_2005_2], [Sterling and Moore 2005, Slow-rise and Fast-rise Phases of][research_sterling_moore_2005], [Barnes 2009][research_barnes_2009].
+The vehicle arrives at the ground with a great deal of speed and a sink rate that would destroy it. **The flare is the manoeuvre that converts one into the other**, and it is the whole problem, in [Pasek and Shanahan 1954][research_pasek_shanahan_1954], [Matranga 1961, Analysis of X-15 Landing Approach][research_matranga_1961], [Acton 1962][research_acton_1962], [Chipman 1965][research_chipman_1965], [McDermott 1967][research_mcdermott_1967], [Waite et al 1967][research_waite_1967], [Faulders et al 1968][research_faulders_1968], [Waite and Arikawa 1968][research_waite_arikawa_1968], [Richardson 1969][research_richardson_1969], [Addy 1970][research_addy_1970], [Evanoff 1971][research_evanoff_1971], [Rubin 1971][research_rubin_1971], [Herkes 1972][research_herkes_1972], [Vavilov 1972][research_vavilov_1972], [Ohta and Sugiura 1973][research_ohta_sugiura_1973], [Renfroe 1973][research_renfroe_1973], [Douda 1974][research_douda_1974], [Heffley 1974][research_heffley_1974], [Matheny 1974][research_matheny_1974], [Heffley 1976][research_heffley_1976], [Gevaert and Feinreich 1977][research_gevaert_feinreich_1977], [Palmer and Petitt 1977][research_palmer_petitt_1977], [Papagiannis and Wefer 1978][research_papagiannis_wefer_1978], [Lambregts and Creedon 1980][research_lambregts_creedon_1980], [Uchida 1980][research_uchida_1980], [Walker 1981][research_walker_1981], [Bai 1987][research_bai_1987], [Chang and Muirhead 1987][research_chang_muirhead_1987], [Hynes et al 1988][research_hynes_1988], [Walyus and Dalton 1991, Approach and landing simulator fo][research_walyus_dalton_1991], [Walyus and Dalton 1991, Approach and landing simulator fo][research_walyus_dalton_1991_2], [Hess and Yousefpor 1992][research_hess_yousefpor_1992], [Barnes 2009][research_barnes_2009].
 
 Treating the flare as an arc that rotates the flight path from $-\gamma$ to zero at load factor $n$, the instantaneous radius is
 
 $$R = \frac{V^2}{g(n-1)}$$
 
-**That radius is not constant, and assuming it is gets the answer wrong.** The vehicle decelerates through the manoeuvre, so the arc tightens as it goes. Evaluating the radius once at the entry speed makes the path too long, which overstates the work done against drag, which understates the touchdown speed. The error is nine percent in height and twelve percent in speed at moderate load factor, and at low load factor it is qualitative. **The flare below is therefore integrated rather than assumed circular**, stepping the speed, the path angle and the height together.
+**That radius is not constant, and assuming it is gets the answer wrong.** The vehicle decelerates through the manoeuvre, so the arc tightens as it goes. Evaluating the radius once at the entry speed makes the path too long, which overstates the work done against drag, which understates the touchdown speed. The error is nine percent in height and twelve percent in speed at moderate load factor, and at low load factor it is qualitative. **The flare below is therefore integrated rather than assumed circular.** Stepping in path angle, with $s$ the distance along the path, the system is
 
-The load factor is not assumed either. **The touchdown speed is quoted, so the load factor can be solved for**, which converts a guess into a statement about what was flown.
+$$\frac{ds}{d\gamma} = -R = -\frac{V^2}{g(n-1)}$$
 
-$$n = 1.19, \qquad h_\text{flare} = 2{,}125\ \text{ft}, \qquad t = 21.5\ \text{s}$$
+$$\frac{dh}{ds} = \sin\gamma, \qquad \frac{dx}{ds} = \cos\gamma$$
 
-**Two thousand one hundred feet, and twenty-one seconds.** A transport aircraft begins its flare at about thirty feet and is done in three. **The X-24B began its flare seventy times higher and stayed in it seven times longer**, and during those twenty-one seconds it covered 9,460 feet of ground track, which is more than half the length of the runway it was aiming at.
+$$\frac{dV}{ds} = \frac{W\sin\gamma - D}{mV}$$
+
+with the drag evaluated at the instantaneous speed and at the lift coefficient the load factor demands,
+
+$$C_L = \frac{nW}{qS}, \qquad D = qS\left(C_{D_0} + k_i C_L^2\right)$$
+
+**Three equations and a polar.** The first is what makes the arc tighten, because $R$ carries $V^2$ and $V$ is falling throughout.
+
+The load factor is not assumed either. It is defined by
+
+$$n = \frac{L}{W}$$
+
+and **the touchdown speed is quoted, so it can be solved for**, which converts a guess into a statement about what was flown. Integrating the system above and adjusting $n$ until the vehicle reaches the runway at 200 miles an hour gives
+
+$$n = 1.19, \qquad h_\text{flare} = 2{,}163\ \text{ft}, \qquad t = 21.9\ \text{s}$$
+
+**Two thousand one hundred and sixty feet, and twenty-two seconds.** A transport aircraft begins its flare at about thirty feet and is done in three,
+
+$$\frac{2{,}163}{30} = 72, \qquad \frac{21.9}{3} = 7.3$$
+
+**The X-24B began its flare seventy times higher and stayed in it seven times longer.** The arc is 9,616 feet and its horizontal projection is 9,306, so during the flare the vehicle covers
+
+$$\frac{9{,}306}{15{,}000} = 0.62$$
+
+of the length of the concrete runway it is aiming at. **The manoeuvre is longer than most of the runway.**
+
+The lift coefficient the flare demands is modest, which is worth checking rather than assuming,
+
+$$C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142$$
+
+against a maximum usable value near 0.7, so **the vehicle is nowhere near stall when the flare begins**. It becomes so only at the very end, which is the subject of the corridor.
 
 ### The Flare Has a Corridor
 
@@ -185,7 +283,7 @@ $$n = 1.19, \qquad h_\text{flare} = 2{,}125\ \text{ft}, \qquad t = 21.5\ \text{s
 |---|---|---|---|---|
 | 1.05 g | 6,780 ft | 25,989 ft | 59.1 s | 47 mph |
 | 1.10 g | 3,804 ft | 15,985 ft | 36.3 s | 154 mph |
-| 1.19 g | 2,125 ft | 9,460 ft | 21.5 s | 200 mph |
+| 1.19 g | 2,163 ft | 9,616 ft | 21.9 s | 199 mph |
 | 1.30 g | 1,425 ft | 6,520 ft | 14.8 s | 222 mph |
 | 1.50 g | 880 ft | 4,124 ft | 9.4 s | 241 mph |
 | 2.00 g | 449 ft | 2,141 ft | 4.9 s | 256 mph |
@@ -193,31 +291,85 @@ $$n = 1.19, \qquad h_\text{flare} = 2{,}125\ \text{ft}, \qquad t = 21.5\ \text{s
 
 **The band is bounded from both ends and neither bound is a matter of comfort.**
 
-At the top, pulling harder buys almost nothing. Going from 2 g to 3 g changes the touchdown speed by four miles an hour, because a tighter arc is a shorter arc and spends less energy against drag. **The vehicle arrives fast however hard it is pulled.**
+At the top, pulling harder buys almost nothing,
+
+$$V_\text{td}(3g) - V_\text{td}(2g) = 260 - 256 = 4\ \text{mph}$$
+
+because a tighter arc is a shorter arc and spends less energy against drag. **The vehicle arrives fast however hard it is pulled.**
 
 At the bottom, a gentle flare is a very long one. At 1.10 g the arc is nearly 16,000 feet and takes 36 seconds, and by 1.05 g the vehicle has decayed to 47 miles an hour, which is far below any speed at which this shape flies. Taking a maximum usable lift coefficient of 0.7, the stall speed is
 
 $$V_\text{stall} = \sqrt{\frac{2W}{\rho S C_{L_\text{max}}}} = 124\ \text{mph}$$
 
-and the flare reaches it at about 1.07 g. **The usable corridor is therefore roughly 1.07 g to 1.5 g, about four tenths of a g wide**, with stalling short of the runway at one end and arriving at 240 miles an hour at the other.
+and the flare reaches it at about 1.07 g. At the solved 1.19 g the margin is
+
+$$\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60$$
+
+**The usable corridor is therefore roughly 1.07 g to 1.5 g, about four tenths of a g wide**, with stalling short of the runway at one end and arriving at 240 miles an hour at the other.
 
 **That corridor is not this article's invention.** It is what [Walker 1981][research_walker_1981] describes when it speaks of boundaries between marginal and routine and of an optimal preflare condition at the centre of them, and it says explicitly that those boundaries rest on judgements formed from X-15 and lifting-body experience.
+
+### What the Landing Gear Sees
+
+**The article has so far said nothing about the number a landing-gear engineer would ask for first**, which is the sink rate at the moment of contact.
+
+In this model the flare drives the path angle to zero, so the sink rate goes to zero with it and the honest way to report the answer is at a small residual angle. Integrating the same system and stopping short,
+
+$$\dot h = V\sin\gamma_\text{residual}$$
+
+| Residual path angle | Speed | Sink rate |
+|---|---|---|
+| 2.0 degrees | 211 mph | 10.8 ft/s |
+| 1.0 degrees | 205 mph | 5.3 ft/s |
+| 0.5 degrees | 202 mph | 2.6 ft/s |
+
+**A transport touches down at about 2 feet per second and the X-15's gear was designed for 9.** The X-24B therefore had to arrive within about half a degree of level to land as gently as an airliner, and within two degrees to stay inside a research aircraft's design case. **That is the precision the corridor is really about**, and it is a tighter statement of the problem than the touchdown speed alone.
 
 ### Energy, Spent Exactly Once
 
 The reason none of this can be retried is worth making quantitative. Expressing the vehicle's total energy at the start of the flare as the height it would be worth,
 
-$$h_E = h + \frac{V^2}{2g} = 2{,}125 + 3{,}009 = 5{,}134\ \text{ft}$$
+$$h_E = h + \frac{V^2}{2g} = 2{,}163 + 3{,}009 = 5{,}172\ \text{ft}$$
 
-of which the flare itself spends 4,279 feet, or **83 percent of everything the vehicle has left**. The literature of managing that quantity is [Gerdes and Hynes 1971][research_gerdes_hynes_1971], [Hardy 1972][research_hardy_1972], [Sederstrom et al 1973][research_sederstrom_1973], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976_2], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976_3], [Halyo 1983][research_halyo_1983].
+At touchdown the vehicle has no height left and only its speed, so
+
+$$h_{E,\text{td}} = \frac{V_\text{td}^2}{2g} = 1{,}322\ \text{ft}$$
+
+$$\frac{5{,}172 - 1{,}322}{5{,}172} = 0.74$$
+
+**Seventy-four percent of everything the vehicle has left is spent in the flare.** An earlier version of this calculation multiplied a constant approach drag along the whole arc and obtained 83 percent, which overstates it, because the drag falls with the speed. The difference of energy heights needs no such assumption. The mean deceleration along the arc is
+
+$$\bar a = \frac{V_i^2 - V_f^2}{2 s} = 0.18\,g$$
+
+The literature of managing that quantity is [Gerdes and Hynes 1971][research_gerdes_hynes_1971], [Hardy 1972][research_hardy_1972], [Sederstrom et al 1973][research_sederstrom_1973], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976_2], [Hawthorne 1976, Terminal area energy management r][research_hawthorne_1976_3], [Halyo 1983][research_halyo_1983].
 
 ### Making It Flyable
 
-A shape with an aspect ratio near one and no tail to speak of is not naturally stable, and the lifting bodies were flown with stability augmentation from the beginning, in [Bond and Swanson 1953][research_bond_swanson_1953], [Gillis and Mitchell 1957][research_gillis_mitchell_1957], [Rothman and Chernoff 1961][research_rothman_chernoff_1961], [Dukes and Hargraves 1962][research_dukes_hargraves_1962], [Clark et al 1963][research_clark_1963], [McBrayer and Robinson 1965][research_mcbrayer_robinson_1965], [Beppu et al 1966][research_beppu_1966], [Dempster and Roger 1967][research_dempster_roger_1967], [George et al 1967][research_george_1967], [Dempster and Arnold 1969][research_dempster_arnold_1969], [George et al 1969][research_george_1969], [Johnson and Weir 1969][research_johnson_weir_1969], [Montgomery and Hatch 1969][research_montgomery_hatch_1969], [Fosdick 1970][research_fosdick_1970], [Griffith and Crosby 1970][research_griffith_crosby_1970], [Swaim 1970][research_swaim_1970], [Curtiss 1971][research_curtiss_1971], [O'hara 1971][research_o_hara_1971], [Cliff and Lutze 1972][research_cliff_lutze_1972], [Hall and Boothe 1972][research_hall_boothe_1972], [MACKlNNON and Madden 1972, Performance Limits of a Radio-Ine][research_macklnnon_madden_1972_2], [Painter and Sitterle 1972][research_painter_sitterle_1972], [Wasserman and Mitchell 1973][research_wasserman_mitchell_1973], [Cotton 1974][research_cotton_1974], [Healey 1974][research_healey_1974], [Ogren et al 1974][research_ogren_1974], [Bengtson et al 1975][research_bengtson_1975], [Bolton and Collins 1975][research_bolton_collins_1975], [Vielsack 1975][research_vielsack_1975], [Bowling and Key 1976][research_bowling_key_1976], [Franklin et al 1976][research_franklin_1976], [Feinreich et al 1977][research_feinreich_1977], [Lotze et al 1977][research_lotze_1977], [Stengel 1980][research_stengel_1980], [van Rooyen and Eshelby 1981][research_van_rooyen_eshelby_1981], [Powers and Sarrafian 1986, Simulation studies of alternate l][research_powers_sarrafian_1986], [Powers and Sarrafian 1986, Simulation studies of alternate l][research_powers_sarrafian_1986_2], [Abou-Hanna et al 1988][research_abou_hanna_1988], [Shrivastava and Stengel 1989][research_shrivastava_stengel_1989], [Mao and Zhao 1990][research_mao_zhao_1990]. Whether a pilot could work with the result is a separate question from whether the vehicle was stable, and it has its own literature and its own vocabulary, in [Lynda J. Kramer et al][research_lynda_j_kramer], [Lynda Kramer et al][research_lynda_kramer], [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955], [Harper and Robert P. 1955][research_harper_robert_p_1955], [Carlson 1958][research_carlson_1958], [Reeder 1958][research_reeder_1958], [Slaughter 1958][research_slaughter_1958], [Breul 1963][research_breul_1963], [Kidd and Bull 1963][research_kidd_bull_1963], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965_2], [Johnston et al 1965, Development of satisfactory later][research_johnston_1965], [Johnston et al 1965, STUDY OF SIZE EFFECTS ON VTOL HAN][research_johnston_1965_2], [Miller and Clark 1965][research_miller_clark_1965], [Stapleford and Teper 1965][research_stapleford_teper_1965], [Cheatham and Hackler 1966][research_cheatham_hackler_1966], [Condit et al 1966][research_condit_1966], [Stapleford and Teper 1966][research_stapleford_teper_1966], [Teper and Stapleford 1966][research_teper_stapleford_1966], [Bleeg et al 1967][research_bleeg_1967], [Rhoads 1967][research_rhoads_1967], [Shomber and Gertsen 1967][research_shomber_gertsen_1967], [Eney 1968][research_eney_1968], [Griffin and Bellaire 1968][research_griffin_bellaire_1968], [Air Force Test Pilot School Edwards Afb Ca 1969][research_air_force_test_pilot_school_edwards_afb_ca_1969], [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969], [Malcom 1969][research_malcom_1969], [McCormick 1969][research_mccormick_1969], [Miyajima 1969][research_miyajima_1969], [Rohling 1969][research_rohling_1969], [Anderson 1970][research_anderson_1970], [Berry and Powers 1970][research_berry_powers_1970], [Difranco 1970][research_difranco_1970], [Miller 1970][research_miller_1970], [Adams and Hatch 1971][research_adams_hatch_1971], [DiFranco 1971][research_difranco_1971], [Gallagher 1971][research_gallagher_1971], [Reschak 1971][research_reschak_1971], [Wasicko 1972][research_wasicko_1972], [Flight deck environment and 1973, Flight deck environment and pilot][research_flight_deck_1973], [Flight deck environment and 1973, Flight deck environment and pilot][research_flight_deck_1973_2], [Nagata et al 1973][research_nagata_1973], [Bailes et al 1975][research_bailes_1975], [Hodgkinson et al 1976][research_hodgkinson_1976], [Dooley 1977][research_dooley_1977], [Krebs et al 1977][research_krebs_1977], [Smith 1977][research_smith_1977], [Gerken 1979][research_gerken_1979], [Swaim and Yen 1979][research_swaim_yen_1979], [Crombie and Moorhouse 1980][research_crombie_moorhouse_1980], [Tanaka 1981][research_tanaka_1981], [Wright and Lappos 1981][research_wright_lappos_1981], [Brauser 1982][research_brauser_1982], [Key 1982][research_key_1982], [Lebacqz and Forrest 1982][research_lebacqz_forrest_1982], [Levison 1982][research_levison_1982], [Tole et al 1982][research_tole_1982], [Connor and Wierwille 1983][research_connor_wierwille_1983], [Hoh and Mitchell 1983][research_hoh_mitchell_1983], [Ashkenas 1984][research_ashkenas_1984], [Weingarten and Chalk 1984][research_weingarten_chalk_1984], [Anderson 1985][research_anderson_1985], [Berry 1986][research_berry_1986], [Bivens 1986][research_bivens_1986], [Harper and Cooper 1986][research_harper_cooper_1986], [Powers 1986, Space Shuttle longitudinal landin][research_powers_1986], [Powers 1986, Space Shuttle longitudinal landin][research_powers_1986_4], [Wilhelm and Schafranek 1986][research_wilhelm_schafranek_1986], [Bortolussi et al 1987][research_bortolussi_1987], [Hart 1987][research_hart_1987], [Sarrafian and Powers 1988][research_sarrafian_powers_1988], [Ford 1989][research_ford_1989], [Photosedimentometer with new handling 1989][research_photosedimentometer_with_1989], [Cavallo et al 1990][research_cavallo_1990], [Air Force Test Pilot School Edwards Afb Ca 1991][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Air Force Test Pilot School Edwards Afb Ca 1992][research_air_force_test_pilot_school_edwards_afb_ca_1992], [Decker 1992][research_decker_1992], [Jackson et al 1993][research_jackson_1993], [Edwards et al 1997][research_edwards_1997], [Mitchell et al 2003][research_mitchell_2003].
+A shape with an aspect ratio near one and no tail to speak of is not naturally stable, and the lifting bodies were flown with stability augmentation from the beginning, in [Bond and Swanson 1953][research_bond_swanson_1953], [Gillis and Mitchell 1957][research_gillis_mitchell_1957], [Rothman and Chernoff 1961][research_rothman_chernoff_1961], [Dukes and Hargraves 1962][research_dukes_hargraves_1962], [Clark et al 1963][research_clark_1963], [McBrayer and Robinson 1965][research_mcbrayer_robinson_1965], [Beppu et al 1966][research_beppu_1966], [Dempster and Roger 1967][research_dempster_roger_1967], [George et al 1967][research_george_1967], [Dempster and Arnold 1969][research_dempster_arnold_1969], [George et al 1969][research_george_1969], [Johnson and Weir 1969][research_johnson_weir_1969], [Montgomery and Hatch 1969][research_montgomery_hatch_1969], [Fosdick 1970][research_fosdick_1970], [Griffith and Crosby 1970][research_griffith_crosby_1970], [Swaim 1970][research_swaim_1970], [Curtiss 1971][research_curtiss_1971], [O'hara 1971][research_o_hara_1971], [Cliff and Lutze 1972][research_cliff_lutze_1972], [Hall and Boothe 1972][research_hall_boothe_1972], [MACKlNNON and Madden 1972, Performance Limits of a Radio-Ine][research_macklnnon_madden_1972_2], [Painter and Sitterle 1972][research_painter_sitterle_1972], [Wasserman and Mitchell 1973][research_wasserman_mitchell_1973], [Cotton 1974][research_cotton_1974], [Healey 1974][research_healey_1974], [Ogren et al 1974][research_ogren_1974], [Bengtson et al 1975][research_bengtson_1975], [Bolton and Collins 1975][research_bolton_collins_1975], [Vielsack 1975][research_vielsack_1975], [Bowling and Key 1976][research_bowling_key_1976], [Franklin et al 1976][research_franklin_1976], [Feinreich et al 1977][research_feinreich_1977], [Lotze et al 1977][research_lotze_1977], [Stengel 1980][research_stengel_1980], [van Rooyen and Eshelby 1981][research_van_rooyen_eshelby_1981], [Powers and Sarrafian 1986, Simulation studies of alternate l][research_powers_sarrafian_1986], [Powers and Sarrafian 1986, Simulation studies of alternate l][research_powers_sarrafian_1986_2], [Abou-Hanna et al 1988][research_abou_hanna_1988], [Shrivastava and Stengel 1989][research_shrivastava_stengel_1989], [Mao and Zhao 1990][research_mao_zhao_1990]. Whether a pilot could work with the result is a separate question from whether the vehicle was stable, and it has its own literature and its own vocabulary, in [Lynda J. Kramer et al][research_lynda_j_kramer], [Lynda Kramer et al][research_lynda_kramer], [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955], [Harper and Robert P. 1955][research_harper_robert_p_1955], [Carlson 1958][research_carlson_1958], [Reeder 1958][research_reeder_1958], [Slaughter 1958][research_slaughter_1958], [Breul 1963][research_breul_1963], [Kidd and Bull 1963][research_kidd_bull_1963], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965_2], [Johnston et al 1965, Development of satisfactory later][research_johnston_1965], [Johnston et al 1965, STUDY OF SIZE EFFECTS ON VTOL HAN][research_johnston_1965_2], [Miller and Clark 1965][research_miller_clark_1965], [Stapleford and Teper 1965][research_stapleford_teper_1965], [Cheatham and Hackler 1966][research_cheatham_hackler_1966], [Condit et al 1966][research_condit_1966], [Stapleford and Teper 1966][research_stapleford_teper_1966], [Teper and Stapleford 1966][research_teper_stapleford_1966], [Bleeg et al 1967][research_bleeg_1967], [Rhoads 1967][research_rhoads_1967], [Shomber and Gertsen 1967][research_shomber_gertsen_1967], [Eney 1968][research_eney_1968], [Griffin and Bellaire 1968][research_griffin_bellaire_1968], [Air Force Test Pilot School Edwards Afb Ca 1969][research_air_force_test_pilot_school_edwards_afb_ca_1969], [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969], [Malcom 1969][research_malcom_1969], [McCormick 1969][research_mccormick_1969], [Miyajima 1969][research_miyajima_1969], [Rohling 1969][research_rohling_1969], [Anderson 1970][research_anderson_1970], [Berry and Powers 1970][research_berry_powers_1970], [Difranco 1970][research_difranco_1970], [Miller 1970][research_miller_1970], [Adams and Hatch 1971][research_adams_hatch_1971], [DiFranco 1971][research_difranco_1971], [Gallagher 1971][research_gallagher_1971], [Reschak 1971][research_reschak_1971], [Wasicko 1972][research_wasicko_1972], [Flight deck environment and 1973, Flight deck environment and pilot][research_flight_deck_1973], [Flight deck environment and 1973, Flight deck environment and pilot][research_flight_deck_1973_2], [Nagata et al 1973][research_nagata_1973], [Bailes et al 1975][research_bailes_1975], [Hodgkinson et al 1976][research_hodgkinson_1976], [Dooley 1977][research_dooley_1977], [Krebs et al 1977][research_krebs_1977], [Smith 1977][research_smith_1977], [Gerken 1979][research_gerken_1979], [Swaim and Yen 1979][research_swaim_yen_1979], [Crombie and Moorhouse 1980][research_crombie_moorhouse_1980], [Tanaka 1981][research_tanaka_1981], [Wright and Lappos 1981][research_wright_lappos_1981], [Brauser 1982][research_brauser_1982], [Key 1982][research_key_1982], [Lebacqz and Forrest 1982][research_lebacqz_forrest_1982], [Levison 1982][research_levison_1982], [Tole et al 1982][research_tole_1982], [Connor and Wierwille 1983][research_connor_wierwille_1983], [Hoh and Mitchell 1983][research_hoh_mitchell_1983], [Ashkenas 1984][research_ashkenas_1984], [Weingarten and Chalk 1984][research_weingarten_chalk_1984], [Anderson 1985][research_anderson_1985], [Berry 1986][research_berry_1986], [Bivens 1986][research_bivens_1986], [Harper and Cooper 1986][research_harper_cooper_1986], [Powers 1986, Space Shuttle longitudinal landin][research_powers_1986], [Powers 1986, Space Shuttle longitudinal landin][research_powers_1986_4], [Wilhelm and Schafranek 1986][research_wilhelm_schafranek_1986], [Bortolussi et al 1987][research_bortolussi_1987], [Hart 1987][research_hart_1987], [Sarrafian and Powers 1988][research_sarrafian_powers_1988], [Ford 1989][research_ford_1989], [Cavallo et al 1990][research_cavallo_1990], [Air Force Test Pilot School Edwards Afb Ca 1991][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Air Force Test Pilot School Edwards Afb Ca 1992][research_air_force_test_pilot_school_edwards_afb_ca_1992], [Decker 1992][research_decker_1992], [Jackson et al 1993][research_jackson_1993], [Edwards et al 1997][research_edwards_1997], [Mitchell et al 2003][research_mitchell_2003].
 
 ### Where the Drag Numbers Come From
 
 Everything above rests on drag coefficients obtained in flight rather than in a tunnel, which for this class of vehicle is not a preference but a necessity, in [Benedikt 1953][research_benedikt_1953], [Odom 1955, A DRAG COEFFICIENT, K D , BASED O][research_odom_1955], [Odom 1955, DRAG COEFFICIENT, KD, AND SIACCI][research_odom_1955_2], [Hastings 1956][research_hastings_1956], [Eggers et al 1957][research_eggers_1957], [Odom 1957][research_odom_1957], [Odom 1958][research_odom_1958], [Li 1960][research_li_1960], [Boeing Scientific Research Labs Seattle Wa 1963][research_boeing_scientific_research_labs_seattle_wa_1963], [Whitfield and Griffith 1963][research_whitfield_griffith_1963], [Grodzovskii 1968][research_grodzovskii_1968], [Ortloff 1968][research_ortloff_1968], [Ward 1968][research_ward_1968], [Schwartzberg 1975][research_schwartzberg_1975], [Patel and Guven 1976][research_patel_guven_1976], [Pike 1977][research_pike_1977], [Knaus 1983][research_knaus_1983], [Jain 1988][research_jain_1988] and [Mastrocola and Assadourian 1947][research_mastrocola_assadourian_1947], [Price and Earl A. 1981][research_price_earl_a_1981], [Daforno 1982][research_daforno_1982], [Frost and Dill 1986][research_frost_dill_1986], [Ghee and Taylor 2000][research_ghee_taylor_2000], [Whitmore et al 2001][research_whitmore_2001], [Obermark 2004][research_obermark_2004]. The lift side is equally awkward, since a body that generates lift without a wing does not obey the ordinary low-aspect-ratio relations, in [Lawrence 1951][research_lawrence_1951], [Lawrence 1953][research_lawrence_1953], [Bleviss and Struble 1954][research_bleviss_struble_1954], [Morton 1956][research_morton_1956], [Tsien 1957][research_tsien_1957], [Ohlsson 1964][research_ohlsson_1964], [Sugai 1965][research_sugai_1965], [Kotfila and Painter 1969][research_kotfila_painter_1969], [Shi et al 1969][research_shi_1969], [Larson 1972][research_larson_1972], [Sim 1973, Results of a feasibility study us][research_sim_1973_2], [Lauchle 1974][research_lauchle_1974], [Campbell 1976][research_campbell_1976], [Furey 1980][research_furey_1980], [Dragoş 1987][research_dragos_1987], [Mabey and Welsh 1987][research_mabey_welsh_1987], [Laitone 1989][research_laitone_1989], [Jackson et al 1991][research_jackson_1991], [Talay and Stone 1991][research_talay_stone_1991], [Ruf et al 1996][research_ruf_1996], [Barret 1999][research_barret_1999], [Banks and Fisher 2006][research_banks_fisher_2006].
+
+### What the Reshaping Bought
+
+The X-24B was the X-24A's structure under a new outer shape, so the two make a controlled comparison of their own.
+
+$$\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_\text{X-24B} = 3.43, \qquad \text{ratio} = 1.15$$
+
+**Almost all of that came from span rather than from a cleaner base.** The wetted aspect ratio rose by a factor of 1.23 while the base-to-wetted ratio barely moved, at 0.93 of its former value, and since the lift-to-drag ratio goes as the square root of the wetted aspect ratio,
+
+$$\sqrt{1.23} = 1.11$$
+
+which is most of the 1.15 observed. **The long pointed nose was buying span-loading, not base cleanliness**, which is the opposite of what the shape suggests at a glance.
+
+### How Far It Could Reach
+
+A glide at a fixed lift-to-drag ratio reaches a radius proportional to the height it starts from,
+
+$$r = h\,\frac{L}{D}$$
+
+which for the X-24B from 20,000 feet is 13 miles, and from 40,000 feet is 26. **That is the entire manoeuvring room available**, and inside it the vehicle must arrive at a runway threshold at a particular speed on a particular heading, having spent the whole approach unable to add any energy at all.
 
 ## The Flight Test Record
 
@@ -242,7 +394,7 @@ The programme record and the vehicles it sat among are in [Smith 1965][research_
 | X-24B maximum lift-to-drag ratio | 3.43 to 4.88 | about 4.5 reported |
 | Enterprise with tailcone | 7.05 | 7.5 measured |
 | Approach sink rate | 10,400 ft/min | steep glides, not quoted numerically |
-| Touchdown speed | 200 mph at a solved 1.19 g | about 200 mph, quoted |
+| Touchdown speed | 199 mph at a solved 1.19 g | about 200 mph, quoted |
 
 **The model is good to within about eight percent everywhere it can be checked independently**, using nothing but published geometry, a Hoerner correlation with a flight-corrected coefficient, and a factor of three obtained by differentiation. The touchdown row is not an independent check, because the load factor was solved to reproduce it; what that row reports is the load factor, not an agreement.
 
@@ -750,7 +902,6 @@ Three instead of five means an eighteen-degree glide instead of eleven. It means
 [research_liang_2022]: https://doi.org/10.1016/j.actaastro.2022.06.003
 [research_liao_2026]: https://doi.org/10.3390/aerospace13020148
 [research_liebowitz_1995]: https://doi.org/10.21236/ada299290
-[research_lin_chen_1989]: https://doi.org/10.11728/cjss1989.03.206
 [research_liu_2017]: https://doi.org/10.1016/j.cja.2017.06.008
 [research_liu_2021]: https://doi.org/10.3390/app11041555
 [research_liu_2024]: https://doi.org/10.3390/drones8060257
@@ -890,7 +1041,6 @@ Three instead of five means an eighteen-degree glide instead of eleven. It means
 [research_petrishchev_2018]: https://doi.org/10.17587/mau.19.725-733
 [research_petrishchev_2018_2]: https://doi.org/10.17587/mau.19.788-796
 [research_petrov_soudakov_2016]: https://doi.org/10.1615/tsagiscij.2017019533
-[research_photosedimentometer_with_1989]: https://doi.org/10.1515/tsd-1989-260515
 [research_pickett_1989]: https://doi.org/10.1029/ja094ia09p12081
 [research_piddington_1957]: https://doi.org/10.21236/ad0156638
 [research_pierrottet_2014]: https://ntrs.nasa.gov/citations/20140006392
@@ -1008,8 +1158,6 @@ Three instead of five means an eighteen-degree glide instead of eleven. It means
 [research_stapleford_teper_1966]: https://ntrs.nasa.gov/citations/19660052028
 [research_starr_1977]: https://doi.org/10.2514/3.7368
 [research_stengel_1980]: https://doi.org/10.2514/3.55959
-[research_sterling_moore_2005]: https://ntrs.nasa.gov/citations/20050092391
-[research_sterling_moore_2005_2]: https://ntrs.nasa.gov/citations/20050181953
 [research_stolarski_1974]: https://doi.org/10.2514/3.49248
 [research_stolyarov_jamal_eddine_2023]: https://doi.org/10.4236/ojapps.2023.138098
 [research_su_2018]: https://doi.org/10.12783/dtcse/csae2017/17502

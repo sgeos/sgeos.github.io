@@ -9,133 +9,117 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A321, the Martin Marietta X-24, drafted. The first of the four passes.
+**Task**: A321 equation-density review, the second of four passes.
 **Committed, not pushed.** Not published.
 
-**Draft state 1,205 lines, 18 display equations, 855 references, 8,004 words.**
+**18 display equations to 52**, across sixteen edits, each asserted to match its anchor exactly once.
+**1,205 to 1,353 lines, 8,004 to 8,822 words.**
 
 ---
 
-## The Keystone
+## The Two Worst Omissions Were Structural
 
-**Can a pilot land a vehicle with a lift-to-drag ratio of three, without an engine, on a runway, on
-purpose?** The answer was two landings on the Edwards concrete in 1975, and the quantity that makes the
-question hard turns out to be base drag.
+**The article integrated the flare, said so, described what was being stepped, and never showed the
+system.** The central result of the whole piece could not be checked from the article, because the
+equations it came out of were not in it. The three-equation system and its polar are now displayed.
 
-**A reentry vehicle must be cut off flat.** Hoerner's relation makes base drag fall as forebody drag
-rises, so the two trade and there is an interior optimum. Differentiating that bucket gives a result
-that contains none of its parameters:
-
-$$C_{F_e} = x + 2x = 3x$$
-
-**At the optimum, total drag is exactly three times forebody drag and the base contributes exactly
-twice it.** Saltzman, Wang and Iliff quote 0.1284 and 0.3852, whose ratio is 3.000, which is the check
-that the derivation is theirs rather than mine.
-
-**The reference area cancels out of the lift-to-drag expression**, which is why the right independent
-variable for a shape with no wing is span squared over wetted area.
+**The drag polar itself was absent.** Every lift-to-drag ratio in the article comes out of it, and the
+entire approach section turns on the fact that flying faster than best glide makes the glide **steeper**,
+which is a property of the polar that the article asserted without ever writing it down.
 
 ---
 
-## The Validation Was Not Fitted
+## Two Quantities the Article Never Mentioned At All
 
-**The Shuttle prototype Enterprise flew truncated and with a tailcone over its blunt base.** That is the
-same airframe with and without the penalty, which is as close to a controlled experiment as this subject
-offers.
+**The sink rate at touchdown**, which is the first thing a landing-gear engineer would ask for and which
+appeared nowhere. Integrating and stopping short of level:
 
-Covering the base removes two thirds of the drag, so it should buy exactly the square root of three in
-lift-to-drag ratio. The prediction is **7.05 against a measured 7.5, six percent, from geometry alone.**
+| Residual path angle | Speed | Sink rate |
+|---|---|---|
+| 2.0 degrees | 211 mph | 10.8 ft/s |
+| 1.0 degrees | 205 mph | 5.3 ft/s |
+| 0.5 degrees | 202 mph | 2.6 ft/s |
 
----
+**A transport touches down at about 2 feet per second and the X-15's gear was designed for 9.** So the
+X-24B had to arrive within **half a degree of level** to land as gently as an airliner, and within two
+degrees to stay inside a research aircraft's design case. **That is a tighter statement of the precision
+problem than the touchdown speed alone**, and it is the version a designer would recognise.
 
-## The Verifier Overturned the Flare, and a Headline Claim With It
-
-**This is the third pass running where the independent check has been right and the article wrong, and
-this time it killed a finding I liked.**
-
-The draft treated the flare as a circular arc at constant radius. But the vehicle decelerates through
-the manoeuvre, so **the arc tightens as it goes**. An arc evaluated at entry speed is too long, which
-overstates the work done against drag, which understates the touchdown speed. The error was nine percent
-in height and twelve in speed.
-
-**At low load factor it was not numerical but qualitative.** The crude model said a 1.2 g flare ran out
-of speed entirely, and I had built a claim on it that the corridor was bounded below by energy
-exhaustion. **Integrating the flare properly, 1.2 g touches down at 202 miles an hour, perfectly well.**
-
-Integrating instead, and solving for the load factor from the quoted touchdown speed rather than
-assuming one:
-
-**1.19 g. The flare begins 2,125 feet up and lasts 21.5 seconds.** A transport begins at thirty feet and
-is done in three, so **the X-24B began its flare seventy times higher**, and covered 9,460 feet of
-ground track doing it, more than half the runway it was aiming at.
-
-**The corridor survives but the lower bound is stall, not exhaustion**, at about 1.07 g, and it is about
-four tenths of a g wide. **The hold-off segment the draft claimed was demanded by arithmetic is gone**,
-because the corrected flare reaches 200 miles an hour unaided.
+**The Reynolds number**, which is the *reason* model-scale base drag is wrong, in a section built
+entirely on that discrepancy and never naming its cause. Flight sits at $9.8\times 10^7$ against
+$2.4\times 10^6$ for a twentieth-scale model, a factor of 41. **A correlation calibrated at the bottom of
+that range should not be expected to hold at the top of it.**
 
 ---
 
-## A Source Conflict Worth Naming
+## One Number Corrected
 
-**Several accessible sources give the X-24A and the X-24B identical dimensions**, which cannot be right
-for a vehicle that was rebuilt half again as long. The flight-determined table settles it, and as a side
-effect it **independently confirms the X-24A figures A320 used** for its reference-area derivation,
-namely 24.50 feet, 13.63 feet and 195.0 square feet.
-
----
-
-## What the Data Changed
-
-**The Space Shuttle was designed to carry air-breathing engines for its landing approach and flew
-without them.** The two precision landings on concrete are cited by the programme's own account as what
-removed them. The article states that as a programme retrospective rather than as an established
-decision record, because two landings do not by themselves settle a choice that large.
+The energy spent in the flare was obtained by multiplying a constant approach drag along the whole arc.
+**That overstates it, because the drag falls with the speed.** Taking the difference of energy heights
+instead needs no such assumption and gives **74 percent where the article said 83**.
 
 ---
 
-## Three New Homonym Families, Two of Them Severe
+## A Second-Order Finding
 
-**Flare is overwhelmingly the solar flare**, and secondarily the gas flare and the flare stack of
-petrochemical engineering. The landing flare is a minority meaning by a wide margin.
+The X-24B was the X-24A's structure under a new shape, so the pair is a controlled comparison. The gain
+is 1.15 in lift-to-drag ratio, and the square root of the wetted-aspect-ratio gain is 1.11.
 
-**Energy management belongs to power grids, buildings and batteries.** A pattern for it retrieved a
-manual on energy conservation in Navy family housing and a study of control systems in Texas buildings.
+**Almost all of it came from span, not from a cleaner base.** The base-to-wetted ratio barely moved, at
+0.93 of its former value. **The long pointed nose was buying span-loading rather than base cleanliness**,
+which is the opposite of what the shape suggests at a glance.
 
-**Base is the air base, the database and the base station**, and survives here only because base drag
-carries its own disambiguating word.
+---
 
-Five records read and dropped, including **a heavy-duty truck aerodynamics paper by the same author
-applying the same base-drag physics**, which is legitimate work and the wrong vehicle class. Rejection
-list 469 to 473.
+## Also Now Shown Rather Than Asserted
+
+The base-drag coefficient written out. The equivalent-skin-friction and forebody-referenced definitions,
+both used from the start and never defined. The closed form locating the optimum. Both aspect-ratio
+definitions. The load factor definition. The lift balance and dynamic pressure. The best-glide conditions
+in closed form. The inverse-square fall of lift coefficient with speed, and the consequence that **seven
+eighths of the approach drag is parasite**. The transport comparison worked rather than asserted. The
+corridor arithmetic, the stall margin, and the glide footprint radius.
 
 ---
 
 ## Checks
 
-**109 independent numerical checks**, with the drag optimum found by golden-section search rather than
-by calculus, the lift-to-drag ratio by scanning the polar rather than the closed form, and the flare
-integrated a second time with a different step variable.
+**The independent verifier extended from 109 to 163 checks, all passing**, with the horizontal ground
+track and the residual-angle sink rates integrated separately rather than carried across.
 
-**`_verify.py` at the 21-warning baseline.** `check_any.py` clean. **A 25-article isolated build with
-all 18 equations rendering as display math.**
+**The display-math-with-trailing-prose guard fired twice and was right both times.**
+
+**Three more records read and dropped, two of them solar-flare physics that the filter missed**, because
+solar papers name the flare without the adjective. The filter now excludes flare emission, flare onset,
+slow-rise and fast-rise phases, chromosphere and active region. Rejection list 474 to 477.
+
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean. **A 25-article isolated build with all
+52 equations rendering as display math across 25 subsections, zero unbalanced braces.**
+
+---
+
+## On the Band
+
+**Fifty-two equations against a full-aircraft band of 90 to 130.** Below band and reported that way
+rather than padded. Every relation the prose names, relies on, or evaluates is now displayed, which is
+the rule that produces the number.
+
+**This is the eleventh consecutive article to finish outside all four named genre classes.**
 
 ---
 
 ## State
 
-**A321 draft pass complete. Committed, not pushed, not published.**
+**A321 equation pass complete. Committed, not pushed, not published.**
 
-Twenty-five of seventy-two. The publication-order dependency is twenty-five deep.
+**Awaiting the primary-reference review prompt.** Expect the usual inter-pass dependency. This pass
+promoted Reynolds number and scale effects, landing gear and touchdown loads, the drag polar and Oswald
+efficiency for low-aspect-ratio shapes, and glide footprint geometry, none of which the draft harvest was
+designed around.
 
-**Awaiting the equation-density review prompt.** Eighteen equations is low and the pass has plenty to
-find. Likely candidates are the lift-curve slope relations the article names but does not show, the
-stall-speed and load-factor relations, the energy-height accounting, the drag polar itself, the
-approach trim balance, and the base-pressure-to-forebody-drag relation written out rather than
-described.
+**One tooling note carried forward for the publication pass.** A320's survey was written by placeholder
+substitution which froze its citations so they stopped tracking the clusters. Cluster citations must go
+into the body as live calls.
 
-**One tooling note for the publication pass.** A320's survey was written by placeholder substitution
-which froze its citations; that approach must not be reused. Cluster citations belong in the body as
-live calls.
-
-**Still open and unchanged.** The fourth genre class, now ten consecutive articles. The A305 length
+**Still open and unchanged.** The fourth genre class, now eleven consecutive articles. The A305 length
 offer.

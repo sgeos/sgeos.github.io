@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
 
-**1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass.** One of four
-passes complete. Committed, **not pushed**. Not published.
+1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass. **1,353 lines, 52
+display equations, 851 references, 8,822 words after the equation review.** Two of four passes complete.
+Committed, **not pushed**. Not published.
 
 **The keystone is the unpowered landing and the quantity that sets it is base drag.** A reentry vehicle
 must be cut off flat, Hoerner's relation makes base drag fall as forebody drag rises so there is an
@@ -48,6 +49,16 @@ table independently confirms the X-24A figures A320 used.
 Verification: 109 independent checks with the drag optimum by golden-section search, the lift-to-drag
 ratio by scanning the polar, and the flare integrated a second time with a different step variable;
 `_verify.py` at the 21-warning baseline; and a 25-article isolated build with all 18 equations rendering.
+
+**The equation review found two structural omissions rather than missing lines.** The article integrated
+the flare without ever showing the system, so its central result could not be checked from the article,
+and **the drag polar was absent** although every lift-to-drag ratio comes out of it. **Two quantities the
+article never mentioned were added**, the touchdown sink rate, which requires arriving within half a
+degree of level to land as gently as an airliner, and the Reynolds number, which is the reason
+model-scale base drag is wrong and was never named in a section built on that discrepancy. **One number
+was corrected**, the energy spent in the flare falling from 83 to 74 percent once computed as a
+difference of energy heights rather than a constant drag along the arc. And the reshaping comparison
+showed the X-24B's gain came almost entirely from span rather than from a cleaner base.
 
 ## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
 
