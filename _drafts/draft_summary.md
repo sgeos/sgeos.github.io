@@ -17,6 +17,48 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bensen X-25 A322 2025-10-31
+
+`x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.
+
+**4,284 lines, 19 display equations, 2,472 references, 14,221 words after the draft pass.** One of four
+passes complete. Committed, **not pushed**, not published.
+
+**The keystone is autorotation, and the obvious reading of it is wrong.** An autorotating rotor is not a
+gentler way down than a parachute but a worse one, because descent rate goes as the square root of disc
+loading for both devices and the Bensen rotor sweeps 314 square feet where a 28 foot canopy sweeps 616.
+**Nine percent faster at equal weight and twenty-nine percent as flown.** What autorotation buys is
+translation, since in forward flight the rotor is a wing and glides at four to one, reaching seven and a
+half miles from ten thousand feet where a round canopy reaches nothing. **The programme was named
+discretionary descent rather than slow descent and the name is the accurate one.**
+
+**A parameter-free bridge joins two literatures that do not cite each other.** Substituting the
+definition of hover induced velocity into the drag law cancels weight, density and area, so the
+rotorcraft autorotation ratio of 1.8 is exactly a disc-referred drag coefficient of 1.23, against a
+canopy at 1.67 on projected area. Verified as a property over two thousand randomised inputs.
+
+**One finding came out negative and is reported as one.** The spin-up objection, that a canopy inflates
+while a rotor must be brought up to speed, does not survive being written down. Fifty-seven feet of
+ideal height loss is comparable to canopy inflation. **The real constraints are that the sequence
+requires cutting away a working parachute and that flying a gyroplane is a trained skill**, and the
+record says the programme's own testing went to training requirements.
+
+**The Kaman SAVER supplies a check the model was not fitted to.** A rotor that folds into a seat is 14
+feet rather than 20 at twice the weight, which the scaling law punishes twice, giving 56 feet per second
+and predicting that a stowable rotor seat needs an engine. It had one. **The prediction is stated as
+directionally right and quantitatively unconfirmed**, since the record says the engine was chosen for
+availability.
+
+**This is the thinnest source base in the series.** A pool of 3,526 records contains one matching the
+X-25, Bensen or the Discretionary Descent Vehicle, and it concerns the SAVER. Specifications come from
+museum fact sheets and two disagree, so the article names the disagreement rather than choosing.
+
+**The keystone-vocabulary rule was applied before writing for the first time** rather than as a repair
+after it, and found four topics at zero that the article's own equations needed. **Two inherited
+homonym filters had to be removed**, since wind turbines and seed dispersal are legitimate here.
+**Four further contamination families were found by reading the selection**, the largest being
+turbomachinery at forty-four records, where rotor means a compressor blade row.
+
 ## X-Planes Martin Marietta X-24 A321 2025-10-30
 
 `x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
