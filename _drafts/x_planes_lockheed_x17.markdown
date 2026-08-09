@@ -371,7 +371,7 @@ $$s = \frac{\dot{m} \tau}{2 \rho_m}$$
 
 giving 2.50 millimetres over the X-17's six seconds and 10.39 over a twenty-five second re-entry.
 
-The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. The subject grew from a screening exercise into a modelled one and the line of it is [Ellis 1959][research_ellis_1959], [HIDALGO 1960][research_hidalgo_1960], [Stoll 1961][research_stoll_1961], [Linder 1961][research_linder_1961], [Gunderson 1962][research_gunderson_1962], [Herman and Melnik 1962][research_herman_melnik_1962], [Compton et al 1963][research_compton_1963], [Kumar et al 1980][research_kumar_1980], [Green and Davy 1981][research_green_davy_1981], [LINCOLN 1981][research_lincoln_1981], [Park et al 1983][research_park_1983], [Park et al 1983, Ablation of carbonaceous materials][research_park_1983_2], [Liu et al 2002][research_liu_2002], [Korabelnikov and Kuranov 2002][research_korabelnikov_kuranov_2002], [Arepalli 2003][research_arepalli_2003], [Curry 2004][research_curry_2004], [Kerr 2006][research_kerr_2006], [Pekker and Cambier 2006][research_pekker_cambier_2006], [Feldman et al 2019][research_feldman_2019], [Paglia et al 2019][research_paglia_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Shi et al 2020][research_shi_2020], [Tang et al 2020][research_tang_2020]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
+The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. The subject grew from a screening exercise into a modelled one and the line of it is [HIDALGO 1960][research_hidalgo_1960], [Linder 1961][research_linder_1961], [Gunderson 1962][research_gunderson_1962], [Herman and Melnik 1962][research_herman_melnik_1962], [Compton et al 1963][research_compton_1963], [Kumar et al 1980][research_kumar_1980], [Green and Davy 1981][research_green_davy_1981], [LINCOLN 1981][research_lincoln_1981], [Park et al 1983][research_park_1983], [Park et al 1983, Ablation of carbonaceous materials][research_park_1983_2], [Liu et al 2002][research_liu_2002], [Korabelnikov and Kuranov 2002][research_korabelnikov_kuranov_2002], [Curry 2004][research_curry_2004], [Kerr 2006][research_kerr_2006], [Pekker and Cambier 2006][research_pekker_cambier_2006], [Feldman et al 2019][research_feldman_2019], [Paglia et al 2019][research_paglia_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Shi et al 2020][research_shi_2020]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
 
 There is a second and less obvious difference between a pulse and a soak. Heat diffuses into the material a distance
 
@@ -480,7 +480,7 @@ The largest single change is that the heat flux the X-17 went to such lengths to
 
 ### The Facilities Still Cannot Do It
 
-Arc-heated facilities remain the workhorse for material screening and are still being characterised rather than trusted, as in [Gokcen and Alunni 2019][research_gokcen_alunni_2019] and [Alunni et al 2019][research_alunni_2019]. Shock tubes and expansion tubes remain the way to reach genuine flight enthalpy for very short times, as in [Chandel et al 2019][research_chandel_2019]. The facility literature is large and is largely about characterising the imperfection rather than removing it, across [Deng et al 2025][research_deng_2025], [Kim et al 2025][research_kim_2025], [Kim et al 2025, Experimental study of nose-tip blu][research_kim_2025_2], [Li et al 2025][research_li_2025], [Novak et al 2025][research_novak_2025], [Oswald et al 2025][research_oswald_2025], [Pitakarnnop and Wiwatapinai 2025][research_pitakarnnop_wiwatapinai_2025], [Sharma et al 2025][research_sharma_2025], [Shen et al 2025][research_shen_2025], [Shi et al 2025][research_shi_2025], [Sreenivasulu et al 2025][research_sreenivasulu_2025], [Choi et al 2026][research_choi_2026], [Dean et al 2026][research_dean_2026], [Raybon et al 2026][research_raybon_2026], [Surujhlal et al 2026][research_surujhlal_2026], [Willier et al 2026][research_willier_2026].
+Arc-heated facilities remain the workhorse for material screening and are still being characterised rather than trusted, as in [Gokcen and Alunni 2019][research_gokcen_alunni_2019] and [Alunni et al 2019][research_alunni_2019]. Shock tubes and expansion tubes remain the way to reach genuine flight enthalpy for very short times, as in [Chandel et al 2019][research_chandel_2019]. The facility literature is large and is largely about characterising the imperfection rather than removing it, across [Deng et al 2025][research_deng_2025], [Kim et al 2025][research_kim_2025], [Kim et al 2025, Experimental study of nose-tip blu][research_kim_2025_2], [Li et al 2025][research_li_2025], [Novak et al 2025][research_novak_2025], [Oswald et al 2025][research_oswald_2025], [Pitakarnnop and Wiwatapinai 2025][research_pitakarnnop_wiwatapinai_2025], [Shen et al 2025][research_shen_2025], [Shi et al 2025][research_shi_2025], [Sreenivasulu et al 2025][research_sreenivasulu_2025], [Choi et al 2026][research_choi_2026], [Dean et al 2026][research_dean_2026], [Raybon et al 2026][research_raybon_2026], [Surujhlal et al 2026][research_surujhlal_2026], [Willier et al 2026][research_willier_2026].
 
 **The X-17's fundamental problem, that no ground facility gives full enthalpy at full scale for full duration, is unresolved seventy years later.** What has changed is that the shortfall is now measured and quoted rather than argued about, which is the same improvement this article credits the X-17's own partition with.
 
@@ -633,7 +633,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_alunni_2019]: https://ntrs.nasa.gov/citations/20190026513
 [research_an_2025]: https://doi.org/10.1061/jaeeez.aseng-6056
 [research_archer_1963]: https://doi.org/10.21236/ad0431737
-[research_arepalli_2003]: https://ntrs.nasa.gov/citations/20100042176
 [research_aroesty_1963]: https://ntrs.nasa.gov/citations/19630011721
 [research_ashkenas_wegener_1961]: https://ntrs.nasa.gov/citations/19630015283
 [research_austin_2025]: https://doi.org/10.33599/sj.v61no6.03
@@ -711,7 +710,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_dutta_karlgaard_2024]: https://doi.org/10.2514/1.a36101
 [research_eggers_1958]: https://ntrs.nasa.gov/citations/19930085175
 [research_eilertson_wing_1966]: https://ntrs.nasa.gov/citations/19660024689
-[research_ellis_1959]: https://doi.org/10.1017/s0022215100055857
 [research_emmons_1951]: https://doi.org/10.1090/qam/38773
 [research_feldman_2019]: https://ntrs.nasa.gov/citations/20190030273
 [research_ferreira_2024]: https://doi.org/10.1029/2024gl109280
@@ -926,7 +924,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_seidman_1960]: https://doi.org/10.21236/ad0256185
 [research_sevier_2016]: https://ntrs.nasa.gov/citations/20170001578
 [research_shao_2025]: https://doi.org/10.3390/s25216621
-[research_sharma_2025]: https://doi.org/10.1016/j.measen.2024.101670
 [research_shen_2025]: https://doi.org/10.3390/aerospace12020120
 [research_sherman_1951]: https://doi.org/10.2514/8.2037
 [research_shi_2020]: https://doi.org/10.1016/j.compstruct.2020.112623
@@ -945,7 +942,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_sreenivasulu_2025]: https://doi.org/10.61653/joast.v77i3.2025.1088
 [research_stalder_nielsen_1954]: https://ntrs.nasa.gov/citations/19930083996
 [research_stetson_1960]: https://doi.org/10.2514/8.8410
-[research_stoll_1961]: https://doi.org/10.21236/ad0259076
 [research_strawa_1990]: https://ntrs.nasa.gov/citations/20000021400
 [research_su_2021]: https://doi.org/10.1016/j.ast.2021.107200
 [research_sun_zhu_2019]: https://doi.org/10.1063/1.5083820
@@ -956,7 +952,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_tabuchi_fujino_2026]: https://doi.org/10.2514/1.a36367
 [research_takahashi_2026]: https://doi.org/10.2514/1.j065479
 [research_takahashi_teshima_1985]: https://doi.org/10.1007/978-1-4613-2467-6_14
-[research_tang_2020]: https://doi.org/10.1016/j.apm.2020.02.010
 [research_tang_2021]: https://doi.org/10.1088/1742-6596/1748/5/052032
 [research_tanski_2026]: https://doi.org/10.3390/ma19143028
 [research_tashakkor_2011]: https://ntrs.nasa.gov/citations/20110014627

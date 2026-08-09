@@ -435,7 +435,7 @@ The 5.09 inches of growth this article computes for a René 41 airframe, and the
 
 ### Reuse Is Where the X-20's Reasoning Is Vindicated and Its Economics Are Not
 
-The article concludes that the hot structure was chosen for reuse rather than compelled by mass. **The modern literature is more sceptical about what reuse is worth than the X-20's advocates were**, in [Mahmoudi and Parviziomran 2020][research_mahmoudi_parviziomran_2020], [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020], [Bhattacharyya et al 2025][research_bhattacharyya_2025], [Du et al 2025][research_du_2025].
+The article concludes that the hot structure was chosen for reuse rather than compelled by mass. **The modern literature is more sceptical about what reuse is worth than the X-20's advocates were**, in [Mahmoudi and Parviziomran 2020][research_mahmoudi_parviziomran_2020], [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020], [Bhattacharyya et al 2025][research_bhattacharyya_2025].
 
 **Inspection is the hidden cost.** A structure that has been to 2,800 degrees must be shown to be fit to go again, and the Shuttle's experience was that this is expensive in a way nobody costed in 1960. That is not an argument against the X-20's engineering. It is an argument that the engineering was answering a question about mass when the binding question turned out to be about labour.
 
@@ -641,7 +641,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_doggett_1959]: https://ntrs.nasa.gov/citations/19650073709
 [research_doronzo_2026]: https://doi.org/10.4236/aast.2026.113005
 [research_dsouza_1970]: https://doi.org/10.2514/6.1970-127
-[research_du_2025]: https://doi.org/10.1016/j.tsep.2025.103310
 [research_duan_2026]: https://doi.org/10.2514/1.j066092
 [research_dubey_2025]: https://doi.org/10.1016/j.ceramint.2025.01.384
 [research_dumbacher_2004]: https://ntrs.nasa.gov/citations/20040182602

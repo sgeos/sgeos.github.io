@@ -19,6 +19,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 ## X-Planes Boeing X-20 Dyna-Soar A317 2025-10-26
 
+**Errata 2026-08-08.** One citation removed. A **RETRACTED** paper on thermal imaging in athlete physical health monitoring was cited in the reuse and inspection survey. 388 references to 387.
+
 `x_planes_boeing_x20.markdown`, A317, editorial date 2025-10-26, series `x_planes` index 21 of 72.
 
 462 lines, 24 display equations, 115 references, 4,462 words after the draft pass; 566 lines, 49
@@ -187,6 +189,8 @@ incidence, and reports that five of ten corridor rows sit outside it.
 
 ## X-Planes Hiller X-18 A315 2025-10-24
 
+**Errata 2026-08-08.** Six citations removed and eight added, 418 references to 420. Five were naval architecture presented as aircraft propeller literature, being a David Taylor Model Basin study of ship-propeller spindle torque, the open-water characteristics of the propeller for LSD-41 which is a dock landing ship, marine propeller cavitation under a hull wake, wing sails for wind-assisted ship propulsion, and reliability of maritime autonomous surface ships. The sixth was path tracking of a road car. **The first two were load-bearing**, since spindle torque is the pitch-change mechanism load and they were the only support for the claim that the pitch control system was complex, which is the claim the article leans on when it says the pitch control system is what failed. Five genuine aircraft references replace them, two on dual-rotation propeller aerodynamics from the period and three on the pitch-change mechanism.
+
 `x_planes_hiller_x18.markdown`, A315, editorial date 2025-10-24, series `x_planes` index 19 of 72.
 
 386 lines, 21 display equations, 66 references, 3,982 words after the draft pass; **485 lines, 29
@@ -255,6 +259,8 @@ airframe does not, which is the inverse of those two situations and a milder dif
 
 ## X-Planes Lockheed X-17 A314 2025-10-23
 
+**Errata 2026-08-08.** Five citations removed, 446 references to 441. **Ablation is the richest homonym family the series has found.** One sentence about ablative heat shields had collected ablation of the PITUITARY GLAND by radioactive implant, laser ablation for CARBON NANOTUBE production, and thermal ablation of MALIGNANT CELLS by magnetic nanofluid. Also removed were a study of aviator's clothing thermal protection and one of splashes in underwater blast experiments.
+
 `x_planes_lockheed_x17.markdown`, A314, editorial date 2025-10-23, series `x_planes` index 18 of 72.
 
 461 lines, 27 display equations, 71 references, 5,266 words after the draft pass; **607 lines, 47
@@ -317,6 +323,8 @@ point. Radiative heating was added as a fourth thing the vehicle could not repro
 110.7.
 
 ## X-Planes Bell X-16 A313 2025-10-22
+
+**Errata 2026-08-08.** Two display equations were sharing a line with prose and therefore rendering as inline math inside a paragraph. Repaired, 72 equations to 74. **The rise is a correction rather than an addition**, since both equations were always in the text and simply were not counted.
 
 `x_planes_bell_x16.markdown`, A313, editorial date 2025-10-22, series `x_planes` index 17 of 72.
 
@@ -581,6 +589,8 @@ section carrying 111 contemporary references. Primary sources 220, or 66.5 perce
 
 ## X-Planes Bell X-14 A311 2025-10-20
 
+**Errata 2026-08-08.** Two citations removed and one prose colon fixed, 386 references to 384. An autonomous UNDERWATER vehicle was cited for effector degradation and a road-car driver take-over study for authority allocation. A third cross-domain citation was KEPT because the prose flags it, writing that the same mathematics appears well outside aviation.
+
 `x_planes_bell_x14.markdown`, A311, editorial date 2025-10-20, series `x_planes` index 15 of 72.
 
 854 lines, 51 equations, 95 references, 13,322 words after the draft pass; 1088 lines, 103 equations,
@@ -763,6 +773,8 @@ sweep does not claim to.
 Primary sources remain 234, or 64.5 percent of dated, above A310's 52.4 percent.
 
 ## X-Planes Ryan X-13 Vertijet A310 2025-10-19
+
+**Errata 2026-08-08.** One citation removed, 336 references to 335. An unmanned SURFACE vehicle, which is a boat, was cited for station-keeping against disturbance.
 
 `x_planes_ryan_x13.markdown`, A310, editorial date 2025-10-19, series `x_planes` index 14 of 72.
 
@@ -1068,6 +1080,8 @@ reported rather than trimmed.
 
 ## X-Planes Convair X-11 A308 2025-10-17
 
+**Errata 2026-08-08.** One citation replaced. A rectangular BRIDGE GIRDER under coupled wind and WAVE action was described in the prose as vortex-induced vibration of slender structures. Replaced with a circular cylinder in the supercritical regime, which is what a vehicle standing on a pad in wind actually is. The four sloshing citations from Ocean Engineering were KEPT, since resonant sloshing in a baffled tank is shared physics and the article claims only generic baffle literature.
+
 `x_planes_convair_x11.markdown`, A308, editorial date 2025-10-17, series `x_planes` index 12 of 72.
 
 678 lines, 54 display equations, 160 reference definitions, 9,301 words after the draft pass. All
@@ -1296,6 +1310,8 @@ contemporary additions grew the denominator. The absolute count is unchanged.
 **Committed and pushed. Not published.** All twelve articles in the series remain in `_drafts/`.
 
 ## X-Planes North American X-10 A307 2025-10-16
+
+**Errata 2026-08-08.** One citation replaced. A flight-style AUV with bow-wings was cited as generic computational lift and drag validation. Replaced with transonic aircraft drag analysis for configuration trade studies.
 
 `x_planes_north_american_x10.markdown`, A307, editorial date 2025-10-16, series `x_planes` index 11 of 72.
 
@@ -1985,6 +2001,8 @@ prose glued to the same line, was repaired in the primary-reference pass.
 **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297.
 
 ## X-Planes Douglas X-3 Stiletto A300 2025-10-09
+
+**Errata 2026-08-08.** One display equation was sharing a line with prose and therefore rendering as inline math inside a paragraph. Repaired, 113 equations to 114.
 
 `x_planes_douglas_x3.markdown`, A300, editorial date 2025-10-09, series `x_planes` index 4 of 72.
 

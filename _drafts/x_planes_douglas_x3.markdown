@@ -53,7 +53,9 @@ $$h_e = h + \frac{V^2}{2 g}, \qquad \frac{dh_e}{dt} = P_s = \frac{V (T - D)}{W}$
 
 and once the propellant is gone $P_s$ is negative everywhere, so every data point is taken while decelerating. A turbojet aircraft with $P_s = 0$ available at the test condition can dwell there indefinitely, and the measurement becomes a steady-state one with all the statistical advantages that implies, since averaging over a dwell of duration $T_d$ reduces random uncertainty as
 
-$$\sigma \propto \frac{1}{\sqrt{T_d}}$$ That distinction is worth stating because it is the reason the programme wanted turbojets in the first place, and it is the reason the engine substitution destroyed the programme's purpose rather than merely reducing its performance.
+$$\sigma \propto \frac{1}{\sqrt{T_d}}$$
+
+That distinction is worth stating because it is the reason the programme wanted turbojets in the first place, and it is the reason the engine substitution destroyed the programme's purpose rather than merely reducing its performance.
 
 ## Programme Origin
 

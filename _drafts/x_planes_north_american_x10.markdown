@@ -840,7 +840,7 @@ The X-10's task was to estimate parameters of a system from flight data, and tha
 
 ### Validation, and the Model-to-Flight Gap the Free-Flight Programme Lived In
 
-The article establishes that the free-flight models reached between a fifth and a half of full-scale Reynolds number, and that the full-scale vehicle then flew above the highest Mach number either ground method had covered. Quantifying the confidence such an extrapolation deserves is now its own subject. Uncertainty quantification of aerodynamic prediction is [Eldredge and Mousavi 2026][research_eldredge_mousavi_2026], [Zhang et al 2025, Efficient Aerodynamic Uncertainty][research_zhang_2025_10], and [Li et al 2023, Uncertainty quantification and aer][research_li_2023_4], the turbomachinery case is [Fu et al 2023][research_fu_2023], surrogate-model credibility is [Kirsch et al 2025][research_kirsch_2025], and computational estimation of lift and drag against measurement is [Ahmed et al 2024][research_ahmed_2024]. **A modern programme would attach a confidence interval to the extrapolation the X-10 programme simply made**, and the article's inability to say whether the sub-normal-shock duct recovery was real or an artefact of scale is the direct cost of that missing interval.
+The article establishes that the free-flight models reached between a fifth and a half of full-scale Reynolds number, and that the full-scale vehicle then flew above the highest Mach number either ground method had covered. Quantifying the confidence such an extrapolation deserves is now its own subject. Uncertainty quantification of aerodynamic prediction is [Eldredge and Mousavi 2026][research_eldredge_mousavi_2026], [Zhang et al 2025, Efficient Aerodynamic Uncertainty][research_zhang_2025_10], and [Li et al 2023, Uncertainty quantification and aer][research_li_2023_4], the turbomachinery case is [Fu et al 2023][research_fu_2023], surrogate-model credibility is [Kirsch et al 2025][research_kirsch_2025], and computational drag estimation for configuration trade studies is [Jesudasan et al 2026][research_jesudasan_2026]. **A modern programme would attach a confidence interval to the extrapolation the X-10 programme simply made**, and the article's inability to say whether the sub-normal-shock duct recovery was real or an artefact of scale is the direct cost of that missing interval.
 
 ### Gravity Modelling, Which Removed an Error the Programme Could Not
 
@@ -979,7 +979,6 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 ### Research
 
 [research_ahmadian_2026]: https://doi.org/10.1016/j.measurement.2025.120161
-[research_ahmed_2024]: https://doi.org/10.1007/s11804-024-00420-7
 [research_aleinik_2025]: https://doi.org/10.1134/s2075108725700257
 [research_alford_1962]: https://doi.org/10.4271/620300
 [research_alford_auyer_1954]: https://doi.org/10.4271/540253
@@ -1122,6 +1121,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_hurley_1951]: https://doi.org/10.1115/1.4016500
 [research_ipek_2025]: https://doi.org/10.62802/qrgkjb97
 [research_jang_park_2026]: https://doi.org/10.5139/jksas.2026.54.1.33
+[research_jesudasan_2026]: https://doi.org/10.1016/j.ast.2025.110727
 [research_johnson_1971]: https://doi.org/10.1109/tac.1971.1099830
 [research_johnson_mosely_1964]: https://doi.org/10.21236/ad0350496
 [research_jones_1970]: https://doi.org/10.1093/comjnl/13.3.301

@@ -264,7 +264,9 @@ $$W = T_{\text{SL}}\, \sigma^{n} \left(\frac{L}{D}\right)_{\max}$$
 
 and evaluating at the density ratio for 71,832 feet with $n = 1$ gives
 
-$$W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}$$ **The empty weight is 23,280 pounds.** The relation demands a weight 955 pounds below the weight of the aeroplane with nothing in it, which is impossible.
+$$W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}$$
+
+**The empty weight is 23,280 pounds.** The relation demands a weight 955 pounds below the weight of the aeroplane with nothing in it, which is impossible.
 
 The correct response is not to adjust the quoted ceiling. It is to notice that the same failure lands on all three aircraft built against this requirement. At $n = 1$ the U-2A cannot reach seventy thousand feet on either of two disagreeing published empty weights, and the RB-57D falls more than nine thousand feet short. **A failure that lands on three independent designs in the same direction is one shared wrong assumption rather than three data errors.**
 
@@ -517,7 +519,9 @@ and dividing by the distance flown per unit time gives a differential in range w
 
 $$R = \frac{V}{c} \left(\frac{L}{D}\right) \ln\frac{W_0}{W_1}$$
 
-At 430 knots, a cruise lift to drag ratio of 19.83 taken as 94 percent of the optimum, a credible period specific fuel consumption of 0.85 pounds per pound force per hour, and burning from 36,124 pounds down to 24,480, the ideal range is 3,903 nautical miles. $$R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}$$
+At 430 knots, a cruise lift to drag ratio of 19.83 taken as 94 percent of the optimum, a credible period specific fuel consumption of 0.85 pounds per pound force per hour, and burning from 36,124 pounds down to 24,480, the ideal range is 3,903 nautical miles.
+
+$$R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}$$
 
 **The quoted figure of 2,867 nautical miles is 73.5 percent of that**, which is an ordinary allowance for climb, descent, reserves, and cruise away from the optimum. The shortfall of 1,036 nautical miles is that allowance, and at 430 knots the quoted range is 6.67 hours in the air.
 

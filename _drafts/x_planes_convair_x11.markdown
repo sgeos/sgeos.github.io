@@ -713,7 +713,7 @@ A tank with no internal structure has nothing to break the free surface, and the
 
 ### Ground Wind and Buffet, the Load Case the Draft Omitted
 
-The primary pass established that a slender vehicle on a pad can be driven into resonance by vortex shedding, and that for this vehicle the resisting pressure is the standing five pounds rather than the flight sixty. That subject is now general structural dynamics rather than a launch-vehicle speciality. [Han et al 2025][research_han_2025] takes vortex-induced vibration of slender structures, [Zhang et al 2024, Fluid-structure interaction analys][research_zhang_2024_4] and [Vîlceanu et al 2024][research_vilceanu_2024] couple fluid to structure, and damper effectiveness appears in [Wang et al 2024, Numerical study on the effectivene][research_wang_2024_2], and ground-mounted validation is [Eshete et al 2024][research_eshete_2024].
+The primary pass established that a slender vehicle on a pad can be driven into resonance by vortex shedding, and that for this vehicle the resisting pressure is the standing five pounds rather than the flight sixty. That subject is now general structural dynamics rather than a launch-vehicle speciality. [Sahu et al 2024][research_sahu_2024] takes vortex-induced vibration of a circular cylinder in the supercritical regime, which is the regime a vehicle of this diameter stands in, [Zhang et al 2024, Fluid-structure interaction analys][research_zhang_2024_4] and [Vîlceanu et al 2024][research_vilceanu_2024] couple fluid to structure, and damper effectiveness appears in [Wang et al 2024, Numerical study on the effectivene][research_wang_2024_2], and ground-mounted validation is [Eshete et al 2024][research_eshete_2024].
 
 The ascent equivalent is transonic buffet, which is [Polivanov and Sidorenko 2026][research_polivanov_sidorenko_2026] on the oscillation modes, [Lei et al 2025][research_lei_2025] and [Gong et al 2024][research_gong_2024] on control and suppression, [Zahn et al 2025][research_zahn_2025] on learned prediction, and [Singh et al 2026][research_singh_2026] on active control over a payload fairing. Load alleviation, which is the modern answer to designing for the worst wind, is [Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026], [Rieck et al 2026][research_rieck_2026], and [Gao et al 2024][research_gao_2024].
 
@@ -1029,7 +1029,6 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_greenspon_1963]: https://doi.org/10.21236/ad0429850
 [research_grey_1953]: https://doi.org/10.21236/ad0036007
 [research_guo_2026]: https://doi.org/10.3724/j.issn.2096-9287.2025.20250091
-[research_han_2025]: https://doi.org/10.1016/j.oceaneng.2025.122760
 [research_harrje_1959]: https://doi.org/10.21236/ad0212816
 [research_hausrath_dittoe_1962]: https://ntrs.nasa.gov/citations/19630000935
 [research_he_2024]: https://doi.org/10.1088/1742-6596/2764/1/012061
@@ -1178,6 +1177,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_rudd_2024]: https://doi.org/10.2514/1.j063617
 [research_russell_1964]: https://doi.org/10.2514/6.1964-242
 [research_sadovsky_2024]: https://doi.org/10.1016/j.engstruct.2024.117934
+[research_sahu_2024]: https://doi.org/10.1063/5.0229933
 [research_saiki_2026]: https://doi.org/10.29322/ijsrp.16.05.2026.p17329
 [research_samadzadeh_2024]: https://doi.org/10.1016/j.heliyon.2024.e36319
 [research_samuelson_1968]: https://doi.org/10.1115/1.3604693

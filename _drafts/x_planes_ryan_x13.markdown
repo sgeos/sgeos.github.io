@@ -837,7 +837,7 @@ The formulation for a vectored-thrust vertical take-off aircraft specifically is
 
 This article's sharpest human-factors result is that hovering is a third-order position loop with no restoring moment, requiring the mean tilt to be held below half a degree to keep station within a metre. **That loop is now closed by a computer with better sensors than eyes.**
 
-Station-keeping against disturbance is [Yu et al 2026][research_yu_2026] and [Stewart et al 2026][research_stewart_2026], hover system identification is [Matt and Altamirano 2026][research_matt_altamirano_2026], and rotor-level health monitoring in the hover, which no 1957 aircraft could contemplate, is [Lovas 2026][research_lovas_2026]. The rotor aerodynamics underneath are [Mihaila et al 2026][research_mihaila_2026], [Mortimer et al 2026][research_mortimer_2026], and [Makeev 2026][research_makeev_2026].
+Station-keeping against disturbance is [Stewart et al 2026][research_stewart_2026], hover system identification is [Matt and Altamirano 2026][research_matt_altamirano_2026], and rotor-level health monitoring in the hover, which no 1957 aircraft could contemplate, is [Lovas 2026][research_lovas_2026]. The rotor aerodynamics underneath are [Mihaila et al 2026][research_mihaila_2026], [Mortimer et al 2026][research_mortimer_2026], and [Makeev 2026][research_makeev_2026].
 
 **Where a human remains in the loop the article's transport-delay analysis has become a research subject in its own right**, in [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_2] on teleoperation under delay and [Li et al 2026, Design and evaluation of Avatar][research_li_2026_4] on driving the latency of an immersive interface down. **The ground observer who talked Girard onto the hook was an early and unusually literal instance of shared control with a transport delay**, and the modern treatment of that arrangement says the delay is the thing to attack.
 
@@ -1317,7 +1317,6 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 [research_xue_zhou_2020]: https://doi.org/10.1016/j.ast.2019.105556
 [research_yang_1970]: https://doi.org/10.2514/6.1970-914
 [research_yang_2025_2]: https://doi.org/10.1109/tiv.2024.3385283
-[research_yu_2026]: https://doi.org/10.1016/j.oceaneng.2026.126269
 [research_yuan_2024]: https://doi.org/10.1109/jas.2024.124254
 [research_zagranski_1974]: https://doi.org/10.21236/ad0785580
 [research_zhang_2025_3]: https://doi.org/10.1007/s11071-025-11229-6
