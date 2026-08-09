@@ -17,6 +17,49 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Bell X-22 A319 2025-10-28
+
+`x_planes_bell_x22.markdown`, A319, editorial date 2025-10-28, series `x_planes` index 23 of 72.
+
+1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass. One of four passes
+complete. Committed, not pushed. Not published.
+
+**The keystone is that the shroud pays twice and in opposite directions.** Ducted momentum theory with an
+exit area ratio gives thrust proportional to the cube root of that ratio, so a duct that merely prevents
+the wake contracting returns **26 percent more static thrust for the same power**. That is what makes a
+seven-foot propeller viable at ninety-five pounds per square foot of disc loading. The same shroud held
+at incidence during conversion behaves as an annular wing, and its normal force peaks at **3,941 pounds
+against a duct thrust of 3,650**, a ratio of 1.08, at 130 feet per second, which is the middle of the
+conversion and the worst place for it.
+
+**The strongest check in the article is that the quoted margin is not a margin.** The programme's 35
+percent excess power for the engine-out case leaves exactly three quarters of 1.35, or **1.25 percent**,
+after an engine fails. That reading fixes the figure of merit at 0.716, which is an ordinary value for a
+ducted lift fan, and feeding it back through momentum theory predicts the separately quoted three-engine
+hover weight of 14,600 pounds as **14,721, an agreement of 0.83 percent from a press figure and a
+momentum calculation that share nothing**.
+
+**At maximum takeoff weight the aircraft could not hover on three engines and had 1.6 percent in hand on
+four.** Vertical takeoff was available at the bottom of the weight range and nowhere near the top.
+
+**Cross-shafting adds no power, it changes the failure mode.** Losing one of four ducts applies 71,600
+foot-pounds of rolling moment on a rear semi-span of 19.6 feet. With a common transmission the same
+failure removes a quarter of the power and none of the symmetry, which is **the X-18's fatal deficiency
+answered**.
+
+**And the aeroplane outlived its own question.** It flew from 1966 to October 1984, eighteen years,
+longer than the X-1, X-2 and X-15 together, and from 1968 it did so as a variable-stability in-flight
+simulator. It stopped being a prototype of a configuration and became an instrument for measuring how
+any vertical-takeoff aircraft ought to handle. **It is the only aircraft in the series so far that was
+rescued by repurposing rather than scrapped, crashed or cancelled.**
+
+**A ducted propeller belongs to three fields and the harvest returned all three.** The Kort nozzle is a
+duct round a ship's propeller, the diffuser-augmented wind turbine is a ducted rotor, and both share the
+momentum theory and none of the application. Twenty-one marine records were read out of the pool at the
+first pass and **four more survived into the fourth check**, including a submarine ducted propeller and a
+ducted Archimedes screw turbine. Three near-misses went the other way and were kept, being the United
+States **Marine** Corps, **Building** Credible Flight Models, and helicopter shipboard landings.
+
 ## X-Planes Northrop X-21 A318 2025-10-27
 
 `x_planes_northrop_x21.markdown`, A318, editorial date 2025-10-27, series `x_planes` index 22 of 72.
