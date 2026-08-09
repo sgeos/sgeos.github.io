@@ -9,167 +9,139 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A322 equation-density review, the second of four passes. Committed. **Not pushed.** **Not
+**Task**: A322 primary-reference review, the third of four passes. Committed. **Not pushed.** **Not
 published.** All twenty-six articles in the series remain in `_drafts/`.
 
-**19 display equations to 43**, across thirteen edits each asserted to match its anchor exactly once,
-taking the article from 4,094 to 4,367 lines and 13,732 to 15,890 words.
+**References 2,348 to 2,852, and PRIMARY CITATIONS FROM 54.8 TO 61.8 PERCENT**, with period sources
+dated 1975 or earlier rising from 639 to 977. Article 4,367 to 5,277 lines and 15,890 to 18,990 words.
+Equations held at 43 and measured before and after.
 
 ---
 
-## The Two Largest Omissions Were Explanatory Rather Than Missing Lines
+## The Keystone Is Thin on Primaries for the Fourth Article Running, and the Cause Has Changed
 
-**THE ARTICLE NEVER SAID WHY A ROTOR AUTOROTATES.** It asserted that the rotor turns because air comes
-up through it and moved on. The blade element meets the flow at an inflow angle, its lift and drag both
-have components in the plane of rotation, and the element neither drives nor retards the rotor when
+**This is the same headline as the last three articles and a different defect underneath it, which is
+why it is worth reporting carefully rather than filing under the existing rule.**
 
-    tan(phi) = C_d / C_l
+Autorotation carries **65 citations and 21 primaries, or 32 percent**, against an article average of
+62. In A319, A320 and A321 the keystone cluster was thin **on count**, and the cause every time was
+that the pattern had been written in the wrong decade's vocabulary. Broadening fixed it.
 
-**The equilibrium element is the one whose inflow angle equals its own drag-to-lift angle.** Inboard of
-it the element drives, outboard it is driven, and autorotation is that balance integrated over the
-disc. That is the entire physical content of the subject and it was absent.
+**Autorotation is not that case.** It is a word the 1930s used and the 2020s still use. The query
+matched happily in both directions, and **the larger and better-indexed modern computational literature
+simply crowded the period out**. The query succeeded and the balance failed.
 
-**THE ARTICLE SAID MOMENTUM THEORY IS NOT VALID AT THE AUTOROTATION POINT AND DID NOT SHOW IT.** Written
-out, the windmill-brake thrust is $T = 2\rho A V_d^2 a(1-a)$, and setting it equal to the weight gives
+**Two further harvests aimed squarely at the period reports moved it from 16 primaries to 21 and then
+stopped.** Those harvests named the period work rather than describing the topic, querying the steady
+vertical descent in single-rotor autorotation, the transition from hovering into autorotative descent,
+the power-off flare-up tests of a model rotor, and the empirical relation between induced velocity,
+thrust and rate of descent. They found the classics and they found no more of them.
 
-    (v_h / V_d)^2 = a(1 - a)
+**The pool itself is 31 percent primary on this topic and every primary in it is cited.** The only
+autorotation records left uncited are three modern wind-turbine papers, two of them Darrieus machines
+the filter excludes anyway. **The cited fraction of 32 percent matches the pool's 31 percent almost
+exactly, which is the proof that this is supply and not selection.**
 
-whose right side is a parabola with maximum one quarter. **So momentum theory admits no solution below
-$V_d = 2 v_h$, and the measured value is 1.8.** The quadratic in the induction factor has a negative
-discriminant there.
-
-**This is stated precisely and not dressed up as the rotor beating a bound**, because the bound exists
-only inside a model that does not apply at that condition. It is why the constant is empirical, which
-the article had asserted without justifying. **One consequence lands on a table the article already
-prints**: the limiting case is a drag coefficient of exactly 1 on disc area, so the last row of that
-table is the momentum-theory bound.
-
----
-
-## A Correction the Pass Produced
-
-**Every descent rate was computed at sea level and every ejection happens at altitude.**
-
-Descent goes as one over the square root of density, so a rotor at 20,000 feet arrives 37 percent
-faster than the same rotor at sea level.
-
-**The range survives untouched and that is worth knowing**, because it is the article's headline
-number. Range is $h(L/D)$, which contains no speed and no density at all, so an ejection at twenty
-thousand feet still reaches fifteen miles.
-
-**The time aloft does not survive.** Integrating with density varying gives 9.4 minutes from ten
-thousand feet rather than 10.1, and 17.4 from twenty thousand rather than 20.2. **The constant-density
-figure overstates by 8 percent and 16 percent respectively, and the table has been corrected.**
+**The article reports it rather than padding toward a band.**
 
 ---
 
-## The Strongest New Result, and It Closes a Gap the Draft Admitted
+## What the Harvest Did Fix
 
-**The draft asserted that the SAVER would have to retrieve its whole descent in the flare out of stored
-rotor energy, and never checked whether it could.**
-
-Substituting the inertia and the operating speed into the stored energy gives a small surprise:
-
-    E = (1/2) I Omega^2 = (N/6) m_b V_tip^2
-
-**The radius has cancelled.** At fixed blade mass and tip speed a rotor stores the same energy whatever
-its size, because inertia rises as the square of the radius exactly as fast as angular speed falls.
-**Shrinking a rotor costs nothing in stored energy.** The energy required, however, goes as
-
-    E_req proportional to W^2 / R^2
-
-| | X-25B | SAVER |
+| Topic | Primary before | Primary after |
 |---|---|---|
-| Energy required, ft lb | 4,130 | 34,700 |
-| Energy available, ft lb | 19,900 | 19,900 |
-| **Margin** | **4.8** | **0.57** |
+| Bluff-body drag coefficient | 6 of 20, 30 percent | 44 of 61, 72 percent |
+| Descent states and the vortex ring | 3 of 24, 12 percent | 24 of 48, 50 percent |
+| The autogiro and the gyroplane | 41 of 53, 77 percent | 65 of 77, 84 percent |
+| Glide performance and reach | 7 cited | 12 of 14, 86 percent |
+| Rotor kinetic energy and inertia | 0 of 1 | 5 of 6, 83 percent |
 
-**The X-25B carries nearly five times the energy its flare needs. The SAVER carries about half.**
-Inverted, the SAVER would have needed **21 pound blades against the 12 assumed**, on a vehicle whose
-entire design constraint was folding into an ejection seat. **Doubling the assumed blade mass still
-leaves it at 1.15, which is no margin at all for an escape system.**
-
-It rests on an assumed blade mass and tip speed for a vehicle whose real figures are unpublished, so
-the article offers it as an order-of-magnitude statement rather than a measurement.
+Three harvests added 185 NTRS records, 225 Defense Technical Information Center records and 381 journal
+records, taking the master pool from 3,511 to 4,256.
 
 ---
 
-## Two Symbol Collisions, Both Found by Reading the Rendered Equations
+## Five Assertions Had No Citation Within Four Hundred Characters
 
-**Neither would have been caught by any check, and both are between two standard notations.**
+**The worst of them was the 1.8 constant, which is the number the entire article turns on.** It now
+rests explicitly on the mid-century measurement literature that produced it.
 
-- **`sigma` was doing rotor solidity and atmospheric density ratio.** Solidity was kept, since the
-  article uses the blade loading coefficient, and the density ratio is now written out longhand.
-- **`gamma` was doing glide angle and Lock number.** The glide angle was kept, since it appears first
-  and more often, and the Lock number is subscripted with a sentence saying why.
-
-**A collision between two standard notations is resolved by marking one, not by silently reusing it**,
-and the article now says so in both places.
-
-Also found by reading: **the range relation was displayed twice**, and **the terminal-velocity force
-balance was displayed twice**. Both second occurrences were removed.
+The others were the canopy drag coefficient of 0.75 and its inflated geometry, the assumed glide ratio
+of 4, the statement that a helicopter Lock number sits between eight and ten, and the blade loading
+coefficient limit near 0.10. **All five are quantitative claims the prose relies on, and this is the
+defect the genre document's equation and reference bands exist to catch.**
 
 ---
 
-## Prose the Pass Introduced and Then Removed
+## Two Topics Are Thin and Only One of Them Is Real
 
-**Five sentences referred to what an earlier draft of the article had said.** That is drafting history
-leaking into the published text, and the reader never saw that draft. The epistemic content was kept
-and the references to a prior revision were removed.
+**This distinction cost some effort and is worth keeping.**
+
+**Rotor spin-up and prerotation stands at three records** after a harvest aimed at it using period
+vocabulary including prerotation, rotor starting and starting torque. **That is a genuine archive
+limit**, and it is the stated reason the spin-up section reasons from energy rather than from
+measurement.
+
+**Stored rotor energy appears to stand at one record and does not really.** The relevant work exists
+and is cited, but it sits inside the autorotation and blade-motion literature rather than beside it,
+because a paper on autorotative landing is a paper about spending exactly that energy. **A thin heading
+is not the same thing as a thin subject**, and the error is easy to make in the direction of claiming a
+gap that is not there.
 
 ---
 
-## The Promoted-Subjects Rule Fired, and Once in an Unexpected Direction
+## Contamination Found by Reading, and One Self-Inflicted Regex Bug
 
-**Exactly one cluster in the article was uncited, and it was the one this pass made central.** Stored
-rotor energy now carries the SAVER flare-margin argument and had no citation at all.
+Thirteen records were read and dropped, taking the rejection list from 507 to 533 entries, keyed by URL
+as well as by anchor. They are pump and fan rotors, a reactor coolant pump, a nuclear ramjet, a lunar
+landing-site study, and three physiological papers including **the effect of gentling on the heart rate
+and flight distance of sheep**, which reached the pool through the words flight and distance.
 
-**Investigating it produced a better finding than simply fixing it.**
+**One record was flagged and kept.** A 1964 study of space-cabin landing impact vectors on human
+physiology is squarely the body-tolerance topic, and so is a 1962 evaluation of a light autogyro for
+the aerial treatment of crops, which the agricultural filter would have taken.
 
-- **The cluster pattern contained a homonym the search created for itself.** It included `flywheel`,
-  meaning the flywheel effect of a turning rotor, and retrieved **flywheel energy storage for
-  spacecraft and power grids**, meaning containment rings and composite burst testing. Six of its seven
-  records were that. Removed.
-- **What remained was one record, and the article does not call that an archive limit**, because it is
-  not one. The relevant work exists and is cited, but it sits inside the autorotation and blade-motion
-  literature rather than beside it, since a paper on autorotative landing is a paper about spending
-  exactly that energy. **A thin heading is not the same thing as a thin subject.**
+**Two scanning patterns of my own reported false contamination and both were my bug, not the pool's.**
+One matched `EVA` inside `EVALUATION` and reported 184 records; the real count was four. The other
+matched `train` inside `training` and reported 96.
 
-**Rotor spin-up and prerotation is genuinely thin at three records** after a harvest aimed at it, and
-that one is reported as an archive limit and as the reason the spin-up section reasons from energy
-rather than from measurement.
+**The second bug exposed something real.** Checking why so many training papers were present found that
+**twenty-five of the seventy-two records in the training cluster had no aviation word in the title at
+all** — Army battalions, United Nations peacekeeping, Ada software engineering education, vocational
+programmes and manual-handling ergonomics. **"Training requirements" is a Defense Technical Information
+Center term of art for personnel documents of any kind**, and this article's own harvest query for pilot
+training requirements pulled in the entire genre. The cluster pattern now requires the training word to
+sit beside an aviation one, and the cluster is at 64 records with none lacking an aviation term.
+
+Eighteen records were dropped by reading in total across the pass, taking the rejection list from 507 to
+543 entries.
 
 ---
 
 ## Verification
 
-**Numerical.** Extended from 40 to **71 independent checks**, none importing the calculation. New routes
-include bisecting on the in-plane force to recover the equilibrium inflow angle rather than inverting a
-tangent, scanning the descent ratio to confirm the momentum-theory root appears **exactly** at 2 and
-nowhere below, trapezoid rather than midpoint integration of the time aloft, and a property test that
-stored energy is radius-independent across six radii. **All pass, and every value was required to
-appear in the draft text.**
+**Numerical.** 71 independent checks passing unchanged, none importing the calculation, every value
+required to appear in the draft text.
 
 **Build.** Twenty-six article isolated build succeeding, all 43 equations rendering as display math,
 zero mangled escapes, zero unbalanced braces, zero duplicated equations, Part 26 of 72.
 
-**Corpus.** `_verify.py` at 0 errors and 21 warnings. Style and integrity check clean at zero failures
-and zero warnings across all twenty-six articles.
+**Corpus.** `_verify.py` at 0 errors and 21 warnings. Style and integrity check clean across all
+twenty-six articles.
 
-**URLs.** The seven records the newly cited cluster introduced were swept individually. All resolve, one
-DOI registered and six NTRS identifiers at 200, and **reading them is what exposed the flywheel
-homonym**.
+**URLs.** 2,867 external links swept against a superset of the final set, with **2,372 of 2,372 DOIs
+confirmed registered in the Crossref registry and zero unregistered**, and 494 of 495 non-DOI links at
+200. The single exception is the National Museum of the United States Air Force fact sheet, a `.mil`
+address that refuses automated connections and was verified independently by search. **Reading the
+2,372 printed titles is what found the training-genre contamination.**
 
 ---
 
 ## State
 
-**A322 has two of four passes complete. Committed, not pushed, not published.**
+**A322 has three of four passes complete. Committed, not pushed, not published.**
 
-**Expected next is the primary-reference review.** The coverage audit already names where it will land.
-Five equation-promoted subjects are thin, and **two are at or near zero with the article now leaning on
-them**, being stored rotor energy and profile drag at the blade section, with bluff-body drag coefficient
-at 20 cited of 41 and only 6 primary.
+**Expected next is the publication review**, which is also the pass that authorises a push.
 
 **Still open and unchanged.** The fourth genre class, now **thirteen** consecutive articles. The A305
 length offer.

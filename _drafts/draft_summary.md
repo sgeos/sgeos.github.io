@@ -21,9 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.
 
-4,094 lines, 19 display equations, 2,342 references, 13,732 words after the draft pass. **4,367 lines,
-43 display equations, 2,348 references, 15,890 words after the equation review.** Two of four passes
-complete. Committed, **not pushed**, not published.
+4,094 lines, 19 display equations, 2,342 references, 13,732 words after the draft pass. 4,367 lines,
+43 display equations, 2,348 references, 15,890 words after the equation review. **5,277 lines, 43
+display equations, 2,852 references, 18,990 words after the primary-reference review, with primary
+citations from 54.8 to 61.8 percent.** Three of four passes complete. Committed, **not pushed**, not
+published.
 
 **The keystone is autorotation, and the obvious reading of it is wrong.** An autorotating rotor is not a
 gentler way down than a parachute but a worse one, because descent rate goes as the square root of disc
@@ -65,6 +67,15 @@ X-25B's 4.8, on the way discovering that stored rotor energy is INDEPENDENT OF R
 energy required goes as weight squared over radius squared. **Two symbol collisions were found by
 reading the rendered equations**, sigma doing solidity and density ratio, and gamma doing glide angle
 and Lock number.
+
+**The keystone is thin on primaries for the fourth article running and the cause has CHANGED SHAPE.**
+The previous three were thin on COUNT because the pattern used the wrong decade's vocabulary.
+Autorotation is a word both eras use, so the query matched in both directions and the larger modern
+computational literature crowded the period out. Two harvests naming the period reports moved it from
+16 primaries to 21 and stopped. **The pool is itself 31 percent primary on this topic and every primary
+in it is cited**, which is the proof that this is supply rather than selection, and the article reports
+it rather than padding. Bluff-body drag went 30 to 72 percent primary, descent states 12 to 50.
+**Five assertions had no citation at all, the worst being the 1.8 constant the whole article turns on.**
 
 **The keystone-vocabulary rule was applied before writing for the first time** rather than as a repair
 after it, and found four topics at zero that the article's own equations needed. **Two inherited
