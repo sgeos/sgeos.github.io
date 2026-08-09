@@ -9,8 +9,99 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A317 primary-reference review, the third of four passes. Committed, **not pushed**, per the
-rhythm. **Not published.** All twenty-one articles in the series remain in `_drafts/`.
+**Task**: A317 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.** All twenty-one articles in the series remain in `_drafts/`.
+
+---
+
+## The Survey's Organising Claim
+
+**Contemporary coverage from zero to 118 of 353 research citations, or 33.4 percent.**
+
+The X-20 asked three questions at once. Whether a vehicle can return from orbit by flying rather than
+falling. Whether it can do so behind a structure that radiates instead of burning away. And whether it
+can then be used again.
+
+**Its descendants split those questions up and answered them separately, decades apart.**
+
+The glide went to the Space Shuttle in 1981 and to hypersonic glide weapons after 2010. **The hot
+structure was rejected in 1972 and is an active research field again**, under the names metallic and
+integrated thermal protection, arguing the X-20's arguments. Reuse went to the Shuttle and turned out to
+cost more in inspection than anyone had costed in mass.
+
+**No single vehicle held all three together again until the X-37B**, which flies the X-20's specification
+unmanned, forty years late.
+
+---
+
+## The Uncomfortable Finding
+
+The largest contemporary literature touching this article is not about spaceplanes at all. **Hypersonic
+glide weapons are the X-20's trajectory with the crew, the wings and the reuse removed.** Same
+equilibrium glide, same centrifugal relief, same crossrange for the same reason, same hot leading edges.
+
+The X-20 was cancelled for having no mission. **The mission its trajectory suited best turned out to be
+the one nobody was willing to state in 1963**, and the vehicle that flies it now is unmanned and
+expendable. The article says so plainly rather than leaving it implied.
+
+---
+
+## A Fourth Homonym Family, Caught in the Last Check
+
+Three were caught during the primary pass. A fourth got through to the end.
+
+**Passive daytime radiative cooling** is a large modern field about emitting to the sky to cool buildings
+and wearables. It uses this article's exact vocabulary for the opposite purpose, and seven of sixteen
+records in the first hot-structure bucket were building physics.
+
+**And one survived every scan.** A paper titled "Thermal Stress on Cellular Structure and Function" is
+cell biology, heat shock on cells. In aerospace a cellular structure is honeycomb core. **It was caught
+by the final Crossref registry check, which prints titles**, not by any pattern I wrote. That is now the
+second time in this series that the registry check has caught a wrong citation as a side effect of
+verifying a link.
+
+The persisted rejection list stands at **35 decisions across four passes**, and nothing on it is cited.
+
+---
+
+## Verification
+
+**77 independent re-derivations, zero disagreements**, still reproducing after every edit. All 81 quoted
+values present. 388 references, 368 external URLs, zero duplicates or orphans. 224 plain 200s, 90
+publisher 403s, 12 202s, and **43 DOIs verified through the Crossref registry with matching titles**.
+
+A red-flag scan over all cited titles and venues across eleven false-positive families returned zero
+hits, and a separate check confirms no read-and-dropped record is cited. Acronym check clean, with a note
+that NACA and NASA appear only inside generated citation labels and never in prose, which is the
+link-text-counted-as-prose artifact this series has documented before. `_verify.py` at the 0-error
+21-warning baseline from the repository root. Zero style violations. Section order matches the genre.
+Build passing with 49 of 49 display blocks rendering as display, 2 of 2 tables, Part 21 navigation.
+Equation count measured before and after, holding at 49.
+
+---
+
+## Final State
+
+**945 lines, 49 display equations, 388 references, 8,194 words.** Contemporary 118 of 353, or 33.4
+percent. Era spread 33 pre-1960, 107 across the 1960s and 1970s, 58 in the 1980s and 1990s, 38 from 2000
+to 2018, 118 from 2019 onward.
+
+**References at 388 are just above the 250 to 380 band.** Lines sit 355 below the 1,300 floor and
+equations 41 below the 90 floor. **That is the fifth consecutive article to finish outside the named
+classes on two of three measures, in the same direction.**
+
+---
+
+## Still Waiting on You
+
+**A315's four marine citations.** Its reverse prompt still describes a David Taylor Model Basin study of
+spindle torque on a controllable-pitch **ship** propeller as "directly about the system that failed on
+the final flight." Four anchors and one sentence.
+
+**The fourth genre class.** Five consecutive articles now, across twenty passes. I have not amended
+`RESEARCH_AIRCRAFT_STRUCTURE.md` because it defines the series' own standards.
+
+A318 is the Northrop X-21. Nothing in the series is published and publishing has never been authorised.
 
 ---
 
@@ -102,7 +193,7 @@ blocks rendering as display, Part 21 navigation. Equation count measured before 
 
 ## State
 
-**Committed, not pushed. 754 lines, 49 display equations, 271 references, 6,352 words.** Era spread is 33
+Superseded by the state section above. Era spread is 33
 pre-1960, 107 across the 1960s and 1970s, 58 in the 1980s and 1990s, 38 from 2000 to 2018, and zero
 contemporary.
 

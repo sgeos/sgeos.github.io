@@ -39,7 +39,7 @@ The unknown was not whether lift produces crossrange. It obviously does. **The u
 
 ## Programme Origin
 
-The lineage runs back to the Sänger and Bredt antipodal bomber study, whose report circulated widely after 1945 and whose skip-glide trajectory is the ancestor of every boost-glide proposal that followed. It reappeared in the United States as a family of separate programmes. BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS for a hypersonic research vehicle.
+The lineage runs back to the Sänger and Bredt antipodal bomber study, whose report circulated widely after 1945 and whose skip-glide trajectory is the ancestor of every boost-glide proposal that followed. It reappeared in the United States as a family of separate programmes. BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS, the hypersonic weapon and research and development system.
 
 On 10 October 1957 the Air Research and Development Command consolidated HYWARDS, Brass Bell and ROBO into a single three-step programme, System 464L, under the name Dyna-Soar, a contraction of dynamic soaring. **That was six days after Sputnik.**
 
@@ -287,7 +287,7 @@ $$\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \
 
 **The problem is not strength but accommodation.** Every shingle must be free to slide against its frame while remaining gas-tight.
 
-The thermal stress problem in a hot structure was recognised early and worked continuously, in [GOLDBERG 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Buchsbaum 1963][research_buchsbaum_1963], [Pastine 1966][research_pastine_1966], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
+The thermal stress problem in a hot structure was recognised early and worked continuously, in [GOLDBERG 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Pastine 1966][research_pastine_1966], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
 
 ### Why Not Ablation, Which Is Where This Article Changed Its Mind
 
@@ -375,25 +375,91 @@ A programme that produced no data still changed things, which is a distinction w
 
 **The lifting-reentry trajectory became standard.** The Shuttle flew an equilibrium glide with bank modulation for crossrange, which is the X-20's profile with a different vehicle wrapped around it, and the guidance literature runs continuously from one to the other.
 
-**The hot structure did not.** The Shuttle chose ceramic tiles over a cool aluminium airframe, which is the opposite architecture, and the reasons were manufacturing and inspection rather than thermodynamics. Metallic thermal protection returned as a research subject decades later, in [Naftel and Powell 1993][research_naftel_powell_1993], [NACA 1995][research_naca_1995], [Rasky 1996][research_rasky_1996], [Freeman et al 1996][research_freeman_1996], [Freeman et al 1997][research_freeman_1997], [Johnson et al 1998][research_johnson_1998], [Manley et al 2000][research_manley_2000], [Olds and Cowart 2001][research_olds_cowart_2001].
+**The hot structure did not, and then it did.** The Shuttle chose ceramic tiles over a cool aluminium airframe, which is the opposite architecture, and the reasons were manufacturing and inspection rather than thermodynamics. **Metallic and integrated thermal protection is an active field again**, and its arguments are the X-20's arguments, which makes this a case of a design being early rather than wrong. The line runs through [Naftel and Powell 1993][research_naftel_powell_1993], [NACA 1995][research_naca_1995], [Rasky 1996][research_rasky_1996], [Freeman et al 1996][research_freeman_1996], [Freeman et al 1997][research_freeman_1997], [Johnson et al 1998][research_johnson_1998], [Manley et al 2000][research_manley_2000], [Olds and Cowart 2001][research_olds_cowart_2001].
 
 **The crossrange requirement outlived the vehicle.** The Air Force's insistence on cross-range drove the Shuttle's delta wing, which is why an orbiter that mostly flew from and to Florida carried a planform sized for a once-around polar abort it never performed.
 
 ## The Contemporary Literature
 
-A short treatment here, to be expanded in the publication review. **The X-20's trajectory is the one thing about it that unambiguously survived.**
+The X-20 asked three questions at once. Whether a vehicle can return from orbit by flying rather than falling. Whether it can do so behind a structure that radiates its heat away instead of burning away. And whether it can then be used again.
 
-### The Glide Became the Standard Return
+**Its descendants split those questions up and answered them separately, decades apart.** The survey below follows that division, because it is the honest shape of the vehicle's influence.
 
-Equilibrium glide with bank modulation for crossrange is how a winged vehicle comes back from orbit, and the guidance problem the X-20 posed is still worked, in [Fine 1967][research_fine_1967], [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973], [Lu 1996, Entry guidance and trajectory cont][research_lu_1996_2], [Lu 1997][research_lu_1997], [Hanson et al 1998][research_hanson_1998], [Fuhry 1999][research_fuhry_1999], [Calhoun 2000][research_calhoun_2000], [Burchett 2003][research_burchett_2003].
+### The Glide and Its Guidance Became Standard
 
-### The Structure Did Not
+The equilibrium glide with bank modulation for crossrange is simply how a winged vehicle returns from orbit, and the guidance problem the X-20 posed is worked continuously to this day, in [Castaldi et al 2023][research_castaldi_2023], [Das et al 2023][research_das_2023], [Joshi et al 2023, Analytical Sensitivity based Guida][research_joshi_2023_2], [Das et al 2024][research_das_2024], [Huang et al 2024][research_huang_2024], [Nugroho et al 2024][research_nugroho_2024], [Kim and Jung 2025][research_kim_jung_2025], [Lee et al 2025][research_lee_2025], [Liu et al 2025, Entry Guidance for Hypersonic Glid][research_liu_2025_2], [Mceowen et al 2025][research_mceowen_2025], [Shi et al 2025, Real-Time Lateral Predictor-Correc][research_shi_2025_2], [TANG et al 2025][research_tang_2025], [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026], [Sonandres et al 2026][research_sonandres_2026], [Sun et al 2026][research_sun_2026], [Wang et al 2026, Analytical nonlinear time-optimal][research_wang_2026_3].
 
-The Shuttle chose ceramic tiles over a cool airframe rather than a hot structure, which is the opposite architecture. Metallic thermal protection returned later as a research subject rather than as a continuation, in [Naftel and Powell 1993][research_naftel_powell_1993], [NACA 1995][research_naca_1995], [Rasky 1996][research_rasky_1996], [Freeman et al 1996][research_freeman_1996], [Freeman et al 1997][research_freeman_1997], [Johnson et al 1998][research_johnson_1998], [Manley et al 2000][research_manley_2000], [Olds and Cowart 2001][research_olds_cowart_2001].
+**The relations in this article's own sizing section are the first two terms of what those papers now solve numerically.** A conversion from a closed-form glide to a constrained trajectory optimisation is a change of method rather than of physics, and the centrifugal relief term is still there in every one of them.
 
-### The Descendant Flew Forty Years Late
+### Crossrange Is Still Why the Wing Exists
 
-The [X-37][ref_x37] performs the orbital mission the X-20 was specified for, unmanned and with modern materials, and its approach and landing testing is the X-20's final phase carried out at last.
+The quantity the X-20 was designed around remains the reason a returning vehicle carries a wing at all, in [Li et al 2022][research_li_2022], [Patel and Subbarao 2024][research_patel_subbarao_2024], [Patel and Subbarao 2025][research_patel_subbarao_2025], [Webb et al 2026][research_webb_2026].
+
+**It is worth noticing how small that literature is.** Crossrange was a requirement rather than a research subject, and once the Shuttle's delta wing settled the argument it largely stopped generating papers. The X-20's demand for 1,700 nautical miles propagated into a planform that flew for thirty years and then stopped.
+
+### The Trade Is Now Computed Rather Than Argued
+
+This article estimates peak heating from a correlation and total load from a one-dimensional integral. The modern treatment resolves both from the flow field, in [Barone et al 2022][research_barone_2022], [CUI et al 2022][research_cui_2022], [Morgado et al 2022][research_morgado_2022], [He et al 2023][research_he_2023], [Liu and Bao 2023][research_liu_bao_2023], [Shivank et al 2023][research_shivank_2023], [Zhang et al 2023][research_zhang_2023], [Liang et al 2024][research_liang_2024], [Sharma et al 2024][research_sharma_2024], [Appar and Kumar 2025][research_appar_kumar_2025], [Chen and He 2025][research_chen_he_2025], [Horing et al 2025][research_horing_2025], [Duan et al 2026][research_duan_2026], [M et al 2026][research_m_2026], [Sabapathy 2026][research_sabapathy_2026], [Turchi and Persis 2026][research_turchi_persis_2026].
+
+**What has not changed is which quantity binds.** Peak rate still selects the material and total load still selects its thickness, and the separation this article derives by algebra is the separation those analyses find numerically.
+
+### The Hot Structure Came Back
+
+**This is the section where the X-20 was proved right late.**
+
+The Space Shuttle rejected the hot structure. It put ceramic tiles over a cool aluminium airframe, which is the opposite architecture, and the reasons were manufacturing and inspection rather than thermodynamics. For thirty years the radiatively cooled load-bearing structure was a historical curiosity.
+
+It is not one now, in [Aprovitola et al 2019][research_aprovitola_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Guo et al 2020][research_guo_2020], [Le and Goo 2020][research_le_goo_2020], [Xie et al 2020][research_xie_2020], [Gao et al 2021][research_gao_2021], [Le and Goo 2021][research_le_goo_2021], [Ma et al 2021][research_ma_2021], [Ai et al 2022][research_ai_2022], [Chang et al 2022][research_chang_2022], [Wang and Luo 2022][research_wang_luo_2022], [Brociek et al 2023][research_brociek_2023], [Khan and Chakraborty 2023][research_khan_chakraborty_2023], [Chen et al 2025][research_chen_2025], [Koch et al 2025][research_koch_2025], [Li et al 2026, Thermal insulation and thermo-mech][research_li_2026_2].
+
+**Metallic thermal protection, integrated thermal protection systems and lattice-frame hot structures are an active field**, and the arguments for them are exactly the X-20's arguments. A structure that carries load and radiates heat is lighter than a structure that carries load underneath something else that radiates heat. **Boeing made that case in 1960 and the case was not wrong, it was early.**
+
+### Ultra High Temperature Ceramics Replaced the Coated Refractory Metal
+
+The X-20's nose and leading edges needed coated molybdenum, graphite and zirconia, and the coating rather than the metal was the pacing item, because an uncoated refractory metal oxidises catastrophically at the temperatures that make it worth using.
+
+**That problem was solved by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Kaliyamoorthy et al 2024][research_kaliyamoorthy_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Long et al 2025][research_long_2025], [Luo et al 2025][research_luo_2025], [Shi et al 2025][research_shi_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lakshmi et al 2026][research_lakshmi_2026], [Lee et al 2026][research_lee_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026, Oxidation fronts and oxide scale g][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026].
+
+Zirconium and hafnium diborides, carbon-carbon composites and silicide coatings occupy the temperature range the X-20 needed, and they are ceramics that oxidise into protective scales rather than metals that need protecting. **The X-20's most intractable materials problem was not overcome so much as sidestepped.**
+
+### Newtonian Theory Is Still the First Answer
+
+This article checks its own keystone with impact theory, which is a 1687 idea applied to a 1957 aeroplane. That has not been superseded so much as bracketed, in [Pan et al 2020][research_pan_2020], [Wang et al 2020, An Engineering Method for Computin][research_wang_2020_2], [Chourushi et al 2021][research_chourushi_2021], [Xie et al 2021][research_xie_2021], [Candler and Leyva 2022][research_candler_leyva_2022], [Mullen and Reed 2022][research_mullen_reed_2022], [Jo and Furudate 2023][research_jo_furudate_2023], [Tracy and Wright 2023][research_tracy_wright_2023], [Xue et al 2023][research_xue_2023], [Cai and Zhuang 2025][research_cai_zhuang_2025], [Cai et al 2026][research_cai_2026], [Zhou et al 2026][research_zhou_2026].
+
+**Engineering methods of exactly this kind remain the first pass in hypersonic design**, because a closed-form estimate that is right to a few percent is worth more early than a computation that is right to a fraction of a percent and takes a week. The article's own 2.3 percent agreement is a demonstration of why.
+
+### Thermal Stress Is Still the Structural Problem
+
+The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.270 inch mismatch against a molybdenum shingle, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [LI et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021], [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022], [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4], [Hua et al 2024][research_hua_2024], [Thawait et al 2024][research_thawait_2024], [Liu et al 2025, Coupled fluid-thermal-structural a][research_liu_2025_3], [Anand and Kumar 2026][research_anand_kumar_2026].
+
+**Coupled fluid, thermal and structural analysis is now a named discipline**, which is what happens when three fields that used to be checked in sequence turn out to need solving together. The X-20 met that coupling and had to handle it by allowing everything to slide.
+
+### Reuse Is Where the X-20's Reasoning Is Vindicated and Its Economics Are Not
+
+The article concludes that the hot structure was chosen for reuse rather than compelled by mass. **The modern literature is more sceptical about what reuse is worth than the X-20's advocates were**, in [Mahmoudi and Parviziomran 2020][research_mahmoudi_parviziomran_2020], [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020], [Bhattacharyya et al 2025][research_bhattacharyya_2025], [Du et al 2025][research_du_2025].
+
+**Inspection is the hidden cost.** A structure that has been to 2,800 degrees must be shown to be fit to go again, and the Shuttle's experience was that this is expensive in a way nobody costed in 1960. That is not an argument against the X-20's engineering. It is an argument that the engineering was answering a question about mass when the binding question turned out to be about labour.
+
+### Hypersonic Glide Took the Trajectory and Dropped the Pilot
+
+The largest contemporary literature touching this article is not about spaceplanes at all, in [Feng et al 2025][research_feng_2025], [He et al 2025, A Trajectory Prediction Method for][research_he_2025_2], [Leng et al 2025][research_leng_2025], [Li et al 2025, Reentry glide vehicle trajectory p][research_li_2025_2], [Deng 2026][research_deng_2026], [Deng and Zhao 2026][research_deng_zhao_2026], [Doronzo 2026][research_doronzo_2026], [He et al 2026][research_he_2026], [He et al 2026, An Intelligent Trajectory Predicti][research_he_2026_2], [Wang et al 2026, Current status and prospects of gu][research_wang_2026_2], [Yang et al 2026][research_yang_2026], [Yuan et al 2026][research_yuan_2026], [Zhai et al 2026][research_zhai_2026], [Zhang et al 2026][research_zhang_2026].
+
+**Hypersonic glide weapons are the X-20's trajectory with the crew, the wings and the reuse removed.** They fly the same equilibrium glide, exploit the same centrifugal relief, use the same crossrange for the same reason, and need the same hot structure at the leading edges. What they do not need is to survive being used twice or to carry a person.
+
+**That is an uncomfortable observation and the article should make it plainly.** The X-20 was cancelled for having no mission. The mission its trajectory was best suited to turned out to be the one nobody was willing to state in 1963, and the vehicle that flies it now is unmanned and expendable.
+
+### The X-37 Flies the Mission Forty Years Late
+
+The [X-37][ref_x37] is a small, unmanned, reusable orbital spaceplane that launches on an expendable booster, stays in orbit for extended periods, and returns to a runway. **That is the X-20's specification with the pilot removed**, in [Niu et al 2019][research_niu_2019], [Ricciardi et al 2019][research_ricciardi_2019], [Gonçalves et al 2020][research_goncalves_2020], [Ashikhmina et al 2021][research_ashikhmina_2021], [Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021], [Kondrashov 2023][research_kondrashov_2023], [Song et al 2024][research_song_2024], [Zhang et al 2024, Active learning for efficient data][research_zhang_2024_3], [MacLeod 2026][research_macleod_2026].
+
+It is the first vehicle to hold all three of the X-20's answers together. Lifting entry, a reusable thermal protection system, and a runway landing on a vehicle sized for a military orbital mission.
+
+### What the Survey Shows
+
+**Every one of the X-20's three answers was eventually adopted, and no two of them were adopted at the same time by the same vehicle until forty years later.**
+
+The trajectory went to the Shuttle in 1981 and to hypersonic glide weapons after 2010. The hot structure was rejected in 1972 and returned as a research subject after 1995. Reuse went to the Shuttle and was found to cost more than anyone expected.
+
+**The programme was cancelled for having no mission, and the criticism was fair at the time.** What the contemporary literature shows is that the answers were separable from the mission, and that they survived it.
 
 ## Where the Framing Breaks Down
 
@@ -447,7 +513,11 @@ A selector script left in the working directory from the previous article shared
 
 The corpus verifier then reported zero errors and **zero warnings**, where the established baseline is zero errors and twenty-one warnings. It had inherited a scratch working directory and found nothing to check. **It was caught only because the expected number was known**, which is the argument for recording baselines rather than reading checks as pass or fail.
 
-**A rejection carried across passes rather than repeated.** Twenty-eight candidate references were rejected after being read rather than by any rule, across three passes, and the list is now persisted so that a later pass cannot reselect them. Four had already slipped back once before that was done.
+**Acronym and prose checks in the publication review.** NACA and NASA appear in this article only inside generated citation labels and never in its prose, which is the word-frequency artifact this series has documented before, where link text is counted as prose. The programme acronyms of the 1950s are expanded where they are introduced.
+
+**Four homonym families this article had to learn, none caught by any rule.** In spectroscopy an impact theory is a model of collisional line broadening. In aviation the terminal area is the airspace around an airport, so a search for terminal energy management returns air traffic control. **Passive daytime radiative cooling** is a large modern field about emitting to the sky to cool buildings, and it uses this article's exact vocabulary for the opposite purpose. And **cellular structure** means honeycomb core in aerospace and means cells in biology, which is how a paper on thermal stress and cell function reached a section about airframes. **The last was caught during the final registry check rather than by any scan.**
+
+**A rejection carried across passes rather than repeated.** Thirty-five candidate references were rejected after being read rather than by any rule, across four passes, and the list is now persisted so that a later pass cannot reselect them. Four had already slipped back once before that was done.
 
 **Written from present knowledge.** Material postdating the editorial date is used and identified as such.
 
@@ -466,6 +536,10 @@ The X-20 asked what lift costs on the way back from orbit, and the answer this a
 **The choice of a hot structure was not forced.** Ablation would have worked at five to twenty-four percent of glider weight. It was rejected because it cannot be used twice, which means the X-20's most distinctive engineering decision was a consequence of wanting an aeroplane rather than a consequence of the heat.
 
 The vehicle never flew, so none of this was tested. **What was tested, eventually, was the trajectory, by a larger vehicle with a different structure**, and the crossrange requirement that shaped the X-20 shaped that one too.
+
+The contemporary literature adds a closing observation that is harder on the programme's critics than on its engineers. **The X-20 asked three questions at once and every one of them was eventually answered in the affirmative, by different vehicles, decades apart.** The glide went to the Space Shuttle and then to hypersonic glide weapons. The hot structure was rejected in 1972 and is an active research field again. Reuse went to the Shuttle and turned out to cost more in inspection than anyone had costed in mass.
+
+**No single vehicle held all three together again until the X-37B**, which flies the X-20's specification unmanned, forty years late. The programme was cancelled for having no mission, and that criticism was fair. What it did not anticipate is that the answers would outlive the question.
 
 ## References
 
@@ -492,42 +566,59 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 
 ### Research
 
+[research_ai_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
 [research_alexander_stanley_1999]: https://ntrs.nasa.gov/citations/19990116055
+[research_anand_kumar_2026]: https://doi.org/10.1115/1.4072318
 [research_anderson_d_1991]: https://doi.org/10.21236/ada233584
 [research_anderson_jr_1988]: https://doi.org/10.21236/ada194265
+[research_appar_kumar_2025]: https://doi.org/10.1016/j.compfluid.2025.106637
+[research_aprovitola_2019]: https://doi.org/10.1155/2019/6069528
 [research_armstrong_1961]: https://doi.org/10.1016/0022-4073(61)90020-6
 [research_arrington_ashby_1972]: https://ntrs.nasa.gov/citations/19720022344
+[research_ashikhmina_2021]: https://doi.org/10.1088/1757-899x/1060/1/012021
+[research_ashikhmina_prosuntsov_2021]: https://doi.org/10.1016/j.matpr.2020.10.033
 [research_avery_1981]: https://ntrs.nasa.gov/citations/19810012587
+[research_backman_2024]: https://doi.org/10.1016/j.oceram.2024.100563
 [research_baird_1964]: https://doi.org/10.21236/ad0450460
 [research_baker_kramer_1982]: https://doi.org/10.21236/ada114013
+[research_barone_2022]: https://doi.org/10.1103/physrevfluids.7.084604
 [research_barren_mandl_1978]: https://doi.org/10.2514/3.61019
 [research_barret_1999]: https://ntrs.nasa.gov/citations/19990105819
 [research_bauer_kummer_1970]: https://doi.org/10.2514/6.1970-273
 [research_bell_1965]: https://doi.org/10.21236/ad0631590
 [research_benson_1993]: https://ntrs.nasa.gov/citations/19930069750
 [research_bernot_robinson_1958]: https://ntrs.nasa.gov/citations/19710074595
+[research_bhattacharyya_2025]: https://doi.org/10.1016/j.procs.2025.04.638
 [research_bliton_rausch_1963]: https://ntrs.nasa.gov/citations/19640017101
 [research_blosser_1988]: https://ntrs.nasa.gov/citations/19880013054
 [research_blosser_1996]: https://ntrs.nasa.gov/citations/19970005361
 [research_bowers_1963]: https://doi.org/10.21236/ad0409321
 [research_bowers_esch_1963]: https://doi.org/10.21236/ad0421694
+[research_brociek_2023]: https://doi.org/10.1016/j.applthermaleng.2022.119405
 [research_brunner_1966]: https://ntrs.nasa.gov/citations/19670008949
 [research_brunner_1966_2]: https://ntrs.nasa.gov/citations/19670008947
 [research_bryson_1952]: https://doi.org/10.1090/qam/49749
 [research_bryson_1968]: https://ntrs.nasa.gov/citations/19690010344
-[research_buchsbaum_1963]: https://doi.org/10.21236/ad0402905
 [research_budiansky_mayers_1956]: https://doi.org/10.2514/8.3735
 [research_burchett_2003]: https://ntrs.nasa.gov/citations/20030093602
 [research_ca_1987]: https://doi.org/10.21236/ada320212
+[research_cai_2026]: https://doi.org/10.1016/j.ast.2026.112222
+[research_cai_zhuang_2025]: https://doi.org/10.1016/j.dt.2024.11.001
 [research_calhoun_2000]: https://ntrs.nasa.gov/citations/20000032921
 [research_campbell_shepler_1960]: https://ntrs.nasa.gov/citations/19720063150
+[research_candler_leyva_2022]: https://doi.org/10.1080/08929882.2022.2145777
 [research_carroll_1995]: https://ntrs.nasa.gov/citations/20020034891
+[research_castaldi_2023]: https://doi.org/10.1016/j.ifacol.2023.10.654
+[research_chang_2022]: https://doi.org/10.3390/aerospace10010001
 [research_chao_2010]: https://doi.org/10.1109/isscaa.2010.5633153
 [research_chaudhary_2001]: https://ntrs.nasa.gov/citations/20020023442
 [research_chen_1958]: https://doi.org/10.1115/1.4012730
 [research_chen_1958_2]: https://doi.org/10.1115/1.4012732
+[research_chen_2025]: https://doi.org/10.34133/space.0260
+[research_chen_he_2025]: https://doi.org/10.1177/16878132251348391
 [research_chern_vinh_1978]: https://ntrs.nasa.gov/citations/19790013968
 [research_chern_vinh_1980]: https://ntrs.nasa.gov/citations/19800007820
+[research_chourushi_2021]: https://doi.org/10.1080/10618562.2022.2032680
 [research_chowdhry_2001]: https://doi.org/10.2514/6.2001-4043
 [research_clapp_1965]: https://doi.org/10.2514/6.1965-492
 [research_clark_1973]: https://ntrs.nasa.gov/citations/19740003718
@@ -536,14 +627,23 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_cockrell_1996]: https://ntrs.nasa.gov/citations/19960045290
 [research_creel_penland_1974]: https://ntrs.nasa.gov/citations/19740023372
 [research_criscione_1964]: https://ntrs.nasa.gov/citations/19660014497
+[research_cui_2022]: https://doi.org/10.1016/j.cja.2021.11.025
 [research_czarnecki_davison_1960]: https://ntrs.nasa.gov/citations/19720063141
 [research_daryabeigi_2006]: https://ntrs.nasa.gov/citations/20060022542
+[research_das_2023]: https://doi.org/10.1088/1742-6596/2633/1/012005
+[research_das_2024]: https://doi.org/10.1049/icp.2024.0657
 [research_delpino_1967]: https://ntrs.nasa.gov/citations/19690001538
+[research_deng_2026]: https://doi.org/10.1088/1742-6596/3240/1/012025
+[research_deng_zhao_2026]: https://doi.org/10.1088/1742-6596/3207/1/012079
 [research_dinwiddie_1995]: https://ntrs.nasa.gov/citations/19960020887
 [research_dittemore_harding_2011]: https://ntrs.nasa.gov/citations/20110016002
 [research_dix_1967]: https://doi.org/10.21236/ad0813708
 [research_doggett_1959]: https://ntrs.nasa.gov/citations/19650073709
+[research_doronzo_2026]: https://doi.org/10.4236/aast.2026.113005
 [research_dsouza_1970]: https://doi.org/10.2514/6.1970-127
+[research_du_2025]: https://doi.org/10.1016/j.tsep.2025.103310
+[research_duan_2026]: https://doi.org/10.2514/1.j066092
+[research_dubey_2025]: https://doi.org/10.1016/j.ceramint.2025.01.384
 [research_dumbacher_2004]: https://ntrs.nasa.gov/citations/20040182602
 [research_dusinberre_1958]: https://doi.org/10.1115/1.4012731
 [research_dyke_1951]: https://doi.org/10.2514/8.2012
@@ -551,8 +651,10 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_ellison_spencer_1971]: https://ntrs.nasa.gov/citations/19710024532
 [research_emmons_1951]: https://doi.org/10.1090/qam/38773
 [research_emmons_1955]: https://doi.org/10.1007/978-3-663-20219-6_36
+[research_feng_2025]: https://doi.org/10.1063/5.0284681
 [research_fine_1967]: https://doi.org/10.21236/ad0654732
 [research_fong_1970]: https://doi.org/10.21236/ad0866735
+[research_forster_2024]: https://doi.org/10.1016/j.jeurceramsoc.2024.116774
 [research_foss_whitcomb_1960]: https://ntrs.nasa.gov/citations/19660024027
 [research_foster_1960]: https://doi.org/10.1109/ire-i.1960.5006880
 [research_freeman_1960]: https://doi.org/10.1017/s0022112060000451
@@ -562,28 +664,40 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_freeman_1997]: https://ntrs.nasa.gov/citations/19990009876
 [research_fuhry_1999]: https://doi.org/10.2514/6.1999-4211
 [research_gangler_1963]: https://ntrs.nasa.gov/citations/19630029196
+[research_gao_2021]: https://doi.org/10.2514/1.t6197
 [research_garcia_1975]: https://ntrs.nasa.gov/citations/19760028347
 [research_geiger_1963]: https://doi.org/10.21236/ada951933
 [research_giles_thomas_1966]: https://ntrs.nasa.gov/citations/19660026817
+[research_giraldo_grueso_2026]: https://doi.org/10.2514/1.g009344
 [research_glass_2008]: https://ntrs.nasa.gov/citations/20080017096
 [research_glass_camarda_1990]: https://ntrs.nasa.gov/citations/19910031414
 [research_goldberg_1956]: https://doi.org/10.2514/8.3709
 [research_goldberg_1966]: https://doi.org/10.2514/6.1966-464
 [research_goldberg_1969]: https://ntrs.nasa.gov/citations/19700001407
 [research_goldstein_1992]: https://ntrs.nasa.gov/citations/19930003260
+[research_goncalves_2020]: https://doi.org/10.1007/s12567-019-00283-7
 [research_graves_carmel_1968]: https://ntrs.nasa.gov/citations/19680024364
 [research_greenspan_rizzitano_1972]: https://doi.org/10.21236/ad0753340
 [research_gu_2016]: https://doi.org/10.1109/imcec.2016.7867528
+[research_guo_2020]: https://doi.org/10.1007/s00158-019-02379-4
 [research_halbe_2010]: https://doi.org/10.2514/6.2010-8311
 [research_hanson_1998]: https://doi.org/10.2514/6.1998-4409
 [research_hanson_jones_2004]: https://doi.org/10.2514/6.2004-701
 [research_hayes_1959]: https://doi.org/10.1016/b978-1-4831-9832-3.50009-7
+[research_he_2023]: https://doi.org/10.1016/j.ast.2023.108524
+[research_he_2025_2]: https://doi.org/10.3390/aerospace12010062
+[research_he_2026]: https://doi.org/10.3390/electronics15143132
+[research_he_2026_2]: https://doi.org/10.1155/ijae/3161844
 [research_helper_1960]: https://ntrs.nasa.gov/citations/19720063142
 [research_hoffman_1996]: https://ntrs.nasa.gov/citations/19970001269
+[research_hongpeng_zhenguo_2021]: https://doi.org/10.1016/j.icheatmasstransfer.2020.105017
+[research_horing_2025]: https://doi.org/10.2514/1.t7165
 [research_hough_1982]: https://doi.org/10.2514/3.19788
 [research_hough_1982_2]: https://doi.org/10.2514/6.1982-1480
 [research_houser_runciman_1971]: https://ntrs.nasa.gov/citations/19720005230
 [research_hovey_1965]: https://doi.org/10.2514/3.28175
+[research_hua_2024]: https://doi.org/10.1016/j.applthermaleng.2023.122260
+[research_huang_2024]: https://doi.org/10.1088/1742-6596/2764/1/012068
 [research_hudson_stephens_2006]: https://ntrs.nasa.gov/citations/20060056099
 [research_hughes_1956]: https://doi.org/10.2172/4346693
 [research_hugill_gaiennie_1963]: https://doi.org/10.21236/ad0295703
@@ -593,43 +707,76 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_janardanan_jayakumar_2006]: https://doi.org/10.2514/6.2006-8076
 [research_jenness_1958]: https://doi.org/10.1016/0038-092x(58)90049-5
 [research_jiang_yang_2014]: https://doi.org/10.1155/2014/929731
+[research_jo_furudate_2023]: https://doi.org/10.6112/kscfe.2023.28.4.059
 [research_johnson_1982]: https://doi.org/10.21236/ada125406
 [research_johnson_1998]: https://ntrs.nasa.gov/citations/19980107885
 [research_johnson_rubesin_1949]: https://doi.org/10.1115/1.4017109
+[research_joshi_2023_2]: https://doi.org/10.61653/joast.v59i3.2007.709
+[research_kaliyamoorthy_2024]: https://doi.org/10.1590/1517-7076-rmat-2024-0651
 [research_kaplow_1964]: https://doi.org/10.21236/ad0602695
 [research_kaufman_g_1963]: https://doi.org/10.21236/ad0431280
 [research_kaufman_g_1964]: https://doi.org/10.21236/ad0609559
+[research_kavoosi_2026]: https://doi.org/10.1016/j.ceramint.2026.07.429
 [research_kelly_1958]: https://ntrs.nasa.gov/citations/19930090181
 [research_kempel_1971]: https://ntrs.nasa.gov/citations/19710041925
 [research_kempel_1994]: https://ntrs.nasa.gov/citations/19940030197
+[research_khan_chakraborty_2023]: https://doi.org/10.2514/1.j063120
+[research_kim_jung_2025]: https://doi.org/10.3390/drones9030180
 [research_ko_fields_1987]: https://ntrs.nasa.gov/citations/19880001007
+[research_koch_2025]: https://doi.org/10.1007/s12567-025-00597-9
+[research_kondrashov_2023]: https://doi.org/10.1134/s1995421223020120
 [research_kowal_2011]: https://ntrs.nasa.gov/citations/20110012175
 [research_krusos_1967]: https://ntrs.nasa.gov/citations/19670025684
 [research_kryvoruka_ashurst_1973]: https://doi.org/10.2514/6.1973-183
+[research_lakshmi_2026]: https://doi.org/10.1016/j.ijrmhm.2025.107543
+[research_le_goo_2020]: https://doi.org/10.3390/s20247185
+[research_le_goo_2021]: https://doi.org/10.2514/1.a34908
+[research_lee_2025]: https://doi.org/10.1007/s42405-024-00882-7
+[research_lee_2026]: https://doi.org/10.1007/s42823-026-01033-6
 [research_lee_mason_1960]: https://ntrs.nasa.gov/citations/19720063138
 [research_leeds_1963]: https://doi.org/10.21236/ad0400921
+[research_leng_2025]: https://doi.org/10.1016/j.energy.2025.134730
 [research_li_2010]: https://doi.org/10.1109/icmet.2010.5598391
+[research_li_2020]: https://doi.org/10.1016/j.cja.2020.04.020
+[research_li_2022]: https://doi.org/10.1155/2022/7313586
+[research_li_2025_2]: https://doi.org/10.1016/j.ast.2025.109960
+[research_li_2026_2]: https://doi.org/10.1016/j.ijthermalsci.2025.110579
 [research_li_cui_2008]: https://doi.org/10.1109/isscaa.2008.4776361
+[research_li_wang_2020]: https://doi.org/10.1142/s021797922040072x
+[research_liang_2024]: https://doi.org/10.1016/j.compfluid.2024.106305
+[research_lin_2026]: https://doi.org/10.1016/j.jeurceramsoc.2025.117757
+[research_lin_2026_2]: https://doi.org/10.1016/j.jeurceramsoc.2025.117976
 [research_ling_1991]: https://ntrs.nasa.gov/citations/19910011855
 [research_liu_2002]: https://doi.org/10.21236/ada403577
 [research_liu_2016]: https://doi.org/10.1109/cgncc.2016.7828785
+[research_liu_2025_2]: https://doi.org/10.3390/aerospace12060539
+[research_liu_2025_3]: https://doi.org/10.1016/j.icheatmasstransfer.2024.108528
+[research_liu_bao_2023]: https://doi.org/10.1063/5.0133708
 [research_lofland_1980]: https://ntrs.nasa.gov/citations/19800015008
+[research_long_2025]: https://doi.org/10.1016/j.surfcoat.2025.132563
 [research_lovelace_1961]: https://ntrs.nasa.gov/citations/19980227215
 [research_lu_1996_2]: https://doi.org/10.2514/6.1996-3700
 [research_lu_1997]: https://doi.org/10.2514/2.4008
 [research_luce_jr_1949]: https://doi.org/10.21236/ada278113
 [research_lunev_pavlov_1966]: https://doi.org/10.1007/bf01020459
+[research_luo_2025]: https://doi.org/10.1016/j.jeurceramsoc.2025.117530
 [research_luther_neal_1963]: https://ntrs.nasa.gov/citations/19720065479
+[research_m_2026]: https://doi.org/10.1016/j.rineng.2026.110799
+[research_ma_2021]: https://doi.org/10.2139/ssrn.3983112
+[research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
 [research_mahan_1984]: https://doi.org/10.21236/ada146495
+[research_mahmoudi_parviziomran_2020]: https://doi.org/10.1016/j.ijpe.2020.107730
 [research_malone_walech_1995]: https://ntrs.nasa.gov/citations/19950024110
 [research_maloney_2011]: https://ntrs.nasa.gov/citations/20110012275
 [research_manley_2000]: https://ntrs.nasa.gov/citations/20000040788
+[research_martin_reese_2019]: https://doi.org/10.1002/pamm.201900456
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
 [research_maslen_ostrach_1957]: https://doi.org/10.1090/qam/85874
 [research_masters_cohen_1957]: https://doi.org/10.1063/1.1715801
 [research_mathauser_1960]: https://ntrs.nasa.gov/citations/19980227836
 [research_matsumoto_2015]: https://doi.org/10.2514/6.2015-1772
 [research_maxwell_1952]: https://ntrs.nasa.gov/citations/19930086994
+[research_mceowen_2025]: https://doi.org/10.2514/1.g008692
 [research_mclellan_1955]: https://doi.org/10.1115/1.4014486
 [research_meckler_1964]: https://doi.org/10.21236/ad0608830
 [research_meckler_1965]: https://doi.org/10.21236/ad0620959
@@ -641,8 +788,10 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_mo_1963]: https://doi.org/10.21236/ad0417153
 [research_montsinger_camilli_1944]: https://doi.org/10.1109/ee.1944.6440234
 [research_montsinger_camilli_1944_2]: https://doi.org/10.1109/t-aiee.1944.5058915
+[research_morgado_2022]: https://doi.org/10.2514/1.j061071
 [research_morio_2009]: https://doi.org/10.1016/j.conengprac.2008.10.018
 [research_morth_1972]: https://doi.org/10.2514/6.1972-833
+[research_mullen_reed_2022]: https://doi.org/10.1007/s00162-021-00583-x
 [research_murphy_rubesin_1965]: https://ntrs.nasa.gov/citations/19660010795
 [research_naca_1967_2]: https://ntrs.nasa.gov/citations/19670020694
 [research_naca_1981]: https://ntrs.nasa.gov/citations/19810012492
@@ -651,11 +800,16 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_nelms_1972]: https://ntrs.nasa.gov/citations/19720016346
 [research_nelms_thomas_1971]: https://ntrs.nasa.gov/citations/19720002396
 [research_ning_2007]: https://doi.org/10.1016/s1000-9361(07)60001-6
+[research_niu_2019]: https://doi.org/10.3390/rs11202404
+[research_nugroho_2024]: https://doi.org/10.1371/journal.pone.0292539
 [research_ny_1959]: https://doi.org/10.21236/ad0318479
 [research_olds_cowart_2001]: https://ntrs.nasa.gov/citations/20010054791
 [research_olds_cowart_2001_2]: https://ntrs.nasa.gov/citations/20020022190
 [research_pai_1966]: https://doi.org/10.1007/978-3-7091-5730-5_11
+[research_pan_2020]: https://doi.org/10.1016/j.actaastro.2019.07.039
 [research_pastine_1966]: https://doi.org/10.1103/physrev.148.748
+[research_patel_subbarao_2024]: https://doi.org/10.2514/1.g007549
+[research_patel_subbarao_2025]: https://doi.org/10.2514/1.g008436
 [research_paulson_shanks_1959]: https://ntrs.nasa.gov/citations/19980237090
 [research_paulson_shanks_1961]: https://ntrs.nasa.gov/citations/19980227410
 [research_peletskii_shur_1977]: https://doi.org/10.1007/bf00824276
@@ -669,27 +823,39 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_powell_cruz_1991]: https://ntrs.nasa.gov/citations/19910034496
 [research_pride_1960]: https://ntrs.nasa.gov/citations/19980223616
 [research_pride_1962]: https://ntrs.nasa.gov/citations/19650014515
+[research_prokvolit_2024]: https://doi.org/10.1039/d3cp05385g
 [research_rasky_1996]: https://ntrs.nasa.gov/citations/20020041186
 [research_reba_1964]: https://doi.org/10.21236/ad0444094
 [research_reed_2016]: https://ntrs.nasa.gov/citations/20160012009
 [research_reinikka_sartell_1965]: https://doi.org/10.2514/3.28155
 [research_repic_1974]: https://ntrs.nasa.gov/citations/19740010568
+[research_ricciardi_2019]: https://doi.org/10.2514/1.g003839
 [research_rivers_1968]: https://doi.org/10.2514/3.29345
 [research_robinson_bernot_1958]: https://ntrs.nasa.gov/citations/19930090105
 [research_rochelle_1972]: https://ntrs.nasa.gov/citations/19720013202
 [research_rock_1964]: https://doi.org/10.21236/ad0603307
 [research_rosner_cibrian_1974]: https://ntrs.nasa.gov/citations/19740053212
 [research_rotelli_1960]: https://ntrs.nasa.gov/citations/19720063136
+[research_sabapathy_2026]: https://doi.org/10.4271/01-19-01-0003
 [research_santiago_aviles_1988]: https://doi.org/10.21236/ada203428
 [research_scallion_1999]: https://ntrs.nasa.gov/citations/19990117251
 [research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
 [research_schweppe_1964]: https://doi.org/10.21236/ad0609524
 [research_scott_1972]: https://ntrs.nasa.gov/citations/19720000041
+[research_sebata_ushijima_2021]: https://doi.org/10.1299/jsmemm.2021.os0106
+[research_sebata_ushijima_2022]: https://doi.org/10.1299/transjsme.21-00273
 [research_seiff_wilkins_1961]: https://ntrs.nasa.gov/citations/19980227307
 [research_serlin_1957]: https://doi.org/10.1126/science.126.3267.261-a
+[research_sharma_2024]: https://doi.org/10.1063/5.0191101
 [research_sherman_1978]: https://doi.org/10.21236/ada056390
+[research_shi_2025]: https://doi.org/10.1016/j.matlet.2025.138660
+[research_shi_2025_2]: https://doi.org/10.1109/taes.2024.3466125
+[research_shivank_2023]: https://doi.org/10.1134/s0869864323030046
+[research_shojaie_bahaabad_2024]: https://doi.org/10.1016/j.ceramint.2023.12.372
 [research_smeggil_1981]: https://ntrs.nasa.gov/citations/19810022796
 [research_snodgrass_1955]: https://doi.org/10.2514/8.6860
+[research_sonandres_2026]: https://doi.org/10.2514/1.g009327
+[research_song_2024]: https://doi.org/10.1016/j.ast.2024.109261
 [research_spearman_1984]: https://ntrs.nasa.gov/citations/19850006478
 [research_spencer_fournier_1973]: https://ntrs.nasa.gov/citations/19730018266
 [research_stainback_1972]: https://ntrs.nasa.gov/citations/19790075398
@@ -702,14 +868,22 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_strangman_neumann_1985]: https://ntrs.nasa.gov/citations/19890004062
 [research_strauss_1967]: https://doi.org/10.2514/3.29076
 [research_sully_1952]: https://doi.org/10.1088/0508-3443/3/3/307
+[research_sun_2026]: https://doi.org/10.1002/rnc.70621
+[research_sun_zhu_2019]: https://doi.org/10.1063/1.5083820
+[research_tang_2025]: https://doi.org/10.1016/j.cja.2025.103578
 [research_tarabini_2013]: https://ntrs.nasa.gov/citations/20140002406
 [research_taylor_2004]: https://ntrs.nasa.gov/citations/20040037790
 [research_terasaki_1963]: https://doi.org/10.2514/6.1963-320
+[research_thawait_2024]: https://doi.org/10.1063/5.0219993
+[research_tian_2025]: https://doi.org/10.1016/j.compositesa.2025.109107
 [research_tillier_1998]: https://ntrs.nasa.gov/citations/19990004144
 [research_townend_1979]: https://doi.org/10.1016/0376-0421(79)90001-0
+[research_tracy_wright_2023]: https://doi.org/10.1080/08929882.2023.2215587
 [research_tsukamoto_1999]: https://doi.org/10.2514/6.1999-4058
+[research_turchi_persis_2026]: https://doi.org/10.1007/s12567-026-00711-5
 [research_turns_hildebrand_1964]: https://doi.org/10.21236/ad0436260
 [research_vandrey_1957]: https://doi.org/10.2514/8.12849
+[research_vanga_venkateswaran_2020]: https://doi.org/10.1016/j.ejor.2020.02.004
 [research_vanmol_anderson_1992]: https://ntrs.nasa.gov/citations/19920012972
 [research_verhoff_1990]: https://doi.org/10.1007/978-3-662-02643-4_12
 [research_vertogradskii_1969]: https://doi.org/10.1007/bf00979969
@@ -717,15 +891,32 @@ The vehicle never flew, so none of this was tested. **What was tested, eventuall
 [research_wa_1963]: https://doi.org/10.21236/ad0336996
 [research_walker_1962]: https://ntrs.nasa.gov/citations/19620004472
 [research_wang_2011]: https://doi.org/10.3724/sp.j.1010.2010.00367
+[research_wang_2020_2]: https://doi.org/10.1088/1757-899x/816/1/012006
+[research_wang_2023_4]: https://doi.org/10.3390/pr11102880
+[research_wang_2026_2]: https://doi.org/10.1016/j.dt.2025.10.009
+[research_wang_2026_3]: https://doi.org/10.1016/j.asr.2026.04.001
+[research_wang_luo_2022]: https://doi.org/10.3390/app122110734
 [research_warmbrod_1963]: https://ntrs.nasa.gov/citations/19630005471
 [research_weaver_1983]: https://doi.org/10.21236/ada135340
+[research_webb_2026]: https://doi.org/10.1016/j.ast.2026.112231
 [research_weiss_srinivasan_1994]: https://doi.org/10.21236/ada329833
 [research_wheeler_brainard_1980]: https://ntrs.nasa.gov/citations/19800041104
 [research_wong_slye_1961]: https://ntrs.nasa.gov/citations/19980232890
 [research_wu_2009]: https://doi.org/10.1007/978-3-642-01513-7_27
+[research_xie_2020]: https://doi.org/10.1016/j.ast.2020.106170
+[research_xie_2021]: https://doi.org/10.1109/access.2021.3092515
+[research_xue_2023]: https://doi.org/10.1049/rsn2.12400
 [research_yang_2016]: https://doi.org/10.1109/cgncc.2016.7829103
+[research_yang_2026]: https://doi.org/10.3390/aerospace13050477
 [research_young_goode_1962]: https://ntrs.nasa.gov/citations/19620002806
+[research_yuan_2026]: https://doi.org/10.3390/aerospace13080705
+[research_zhai_2026]: https://doi.org/10.1016/j.actaastro.2026.05.011
+[research_zhang_2023]: https://doi.org/10.1080/10618562.2023.2296536
+[research_zhang_2024_3]: https://doi.org/10.1063/5.0213613
+[research_zhang_2026]: https://doi.org/10.1007/s42405-026-01193-9
+[research_zhang_han_2026]: https://doi.org/10.1016/j.compstruct.2026.120088
 [research_zhi_2015]: https://doi.org/10.1016/j.proeng.2014.12.633
+[research_zhou_2026]: https://doi.org/10.1109/taes.2026.3705024
 [research_zimmermann_1996]: https://doi.org/10.2514/6.1996-3708
 [research_zvara_1966]: https://doi.org/10.2514/6.1966-360
 

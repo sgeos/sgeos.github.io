@@ -24,7 +24,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 462 lines, 24 display equations, 115 references, 4,462 words after the draft pass; 566 lines, 49
 display equations, 115 references, 4,996 words after the equation review; **754 lines, 49 display
 equations, 271 references, 6,352 words after the primary-reference review.** Three of four passes
-complete. Committed, not pushed. Not published.
+complete; **945 lines, 49 display equations, 388 references, 8,194 words after the publication review.**
+All four passes complete. Committed and pushed. Not published.
+
+**The survey's organising claim is that the X-20 asked three questions at once and its descendants split
+them up.** The glide went to the Space Shuttle and then to hypersonic glide weapons. The hot structure
+was rejected in 1972 and is an active research field again under the name metallic thermal protection.
+Reuse went to the Shuttle and cost more in inspection than anyone costed in mass. No single vehicle held
+all three together again until the X-37B, forty years late and unmanned. **The largest contemporary
+literature touching the article is hypersonic glide weapons, which are the X-20's trajectory with the
+crew, the wings and the reuse removed.** Contemporary coverage is 118 of 353 research citations, or 33.4
+percent.
 
 **The coverage audit produced the cleanest instance of the inter-pass dependency this series has seen.**
 Five topics were thin in the pool and they were exactly the five the equation pass had promoted, with
