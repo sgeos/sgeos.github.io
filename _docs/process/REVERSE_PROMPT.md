@@ -9,194 +9,167 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: Series errata pass, on your instruction to correct A315 and resolve any other known
-errors. **Nine of twenty-one articles changed. Nothing published. All still in `_drafts/`.**
+**Task**: A318, the Northrop X-21A, drafted. The first of four passes. **Committed, not pushed. Not
+published.** Twenty-two of seventy-two articles now drafted, all in `_drafts/`.
 
 ---
 
-## A315 Was Worse Than Reported, in Two Directions
+## The Instruction Was to Compute First, and the Computation Overturned the Instruction
 
-The handoff recorded four wrong citations. **There were five, and then a sixth of a different
-kind.**
+The brief said to work the suction power against the drag saving before deciding what the article is
+about, because the two would be the same order of magnitude and the sign of the difference would be the
+whole story.
 
-| Anchor | What it actually is |
-|---|---|
-| `research_boswell_1961` | David Taylor Model Basin, US Dept of the Navy. Spindle torque on a controllable-pitch SHIP propeller |
-| `research_hampton_1980` | David W Taylor Naval Ship R&D Center, Ship Performance Dept. Propeller for LSD-41, a dock landing ship |
-| `research_hong_2026_2` | Marine propeller cavitation under a hull wake |
-| `research_reen_2025` | **Ocean Engineering.** Wing sails for wind-assisted ship propulsion |
-| `research_meng_2026` | Maritime autonomous SURFACE SHIPS propulsion reliability |
-| `research_wu_2025` | Path tracking of a road car, found later in the series-wide sweep |
+**They are not the same order of magnitude.** At the nominal cruise the suction system costs **17.2
+percent** of the friction it removes, and the suction coefficient would have to rise to **5.8 times** the
+design value before the system stopped paying for itself. In absolute terms it absorbs about 131
+horsepower to remove drag worth 763.
 
-`research_meng_2026` was not in the handoff's list. The first two were harvested on
-**controllable-pitch propeller**, which is marine terminology for what aircraft call variable
-pitch.
-
-### The Correction Was Not a Deletion
-
-**The two Model Basin reports were load-bearing.** Spindle torque is precisely the pitch-change
-mechanism load, so they were the only references supporting the claim that the pitch control
-system was as complex as it was. That claim is what the article leans on when it says **the pitch
-control system is what failed**. Deleting them would have left the causal claim unsupported.
-
-Five genuine aircraft references replace them. Two on dual-rotation propeller aerodynamics from
-the period, being Gray and Biermann 1941 and Reynolds, Samonds and Walker 1957, and three on the
-pitch-change mechanism itself, being Oppenheimer and Jacques 1951 on turbine-propeller coupling
-and Steinetz et al 1986 and Schwartz et al 1986 on actuator and control design. The last two are
-labelled in the prose as propfan-era rather than contemporary with the X-18.
-
-**A315 is 418 references to 420.** Three contemporary aerospace papers replaced the three
-contemporary marine ones, one of which, May et al 2026 on the impact of failure on a tilt-wing
-eVTOL backward transition, is the X-18's own deficiency stated in a modern paper.
+So the article could not be about whether laminar flow control pays. **The aerodynamics was never the
+difficulty, and finding that out is what made it possible to see what the difficulty actually was.**
 
 ---
 
-## The Series-Wide Sweep
+## Two Results That Came Out of Writing the Relation Down
 
-**All 3,598 cited DOIs across the twenty-one articles were resolved against Crossref for title and
-venue.** Zero failed to resolve. The venue is the discriminator a title cannot supply, and the
-title is the discriminator a venue cannot supply when the venue is generalist. Both were needed,
-and so was reading, because several survived every pattern.
+**The suction drag coefficient does not depend on altitude.** Density enters the mass flow and the
+dynamic pressure identically and cancels. What remains is a function of the suction coefficient, the duct
+recovery, the machinery efficiency and the Mach number, and nothing else. An aircraft climbing at fixed
+Mach carries the same suction penalty at 20,000 feet as at 50,000.
 
-**Eleven further citations belonged to other fields.**
+**The penalty falls as the inverse square of Mach number.** The work to recompress a unit of captured air
+is set by temperature and the kinetic energy available to pay for it goes as speed squared, so the
+penalty runs from 52 percent of the saving at Mach 0.4 to 14 percent at Mach 0.85. **Laminar flow control
+is a high-speed technology for a thermodynamic reason rather than an aerodynamic one**, which is why the
+application was always aimed at fast subsonic transports.
 
-### Ablation Is the Richest Homonym Family Yet Found
-
-A314 is about an ablative heat shield. **One sentence had collected three ablations from three
-other disciplines.**
-
-- Ablation of the **pituitary gland** by implantation of radioactive material
-- **Laser ablation** for single-wall **carbon nanotube** production
-- Thermal ablation of **malignant cells** by magnetic nanofluid
-
-None was caught by any rule. All three are correct uses of the word. The same article also cited a
-study of aviator's clothing thermal protection and one of splashes in underwater blast
-experiments. **A314 is 446 references to 441.**
-
-### A317 Was Citing a Retracted Paper
-
-`research_du_2025` is titled **RETRACTED: Thermal radiation image detection and optical motion
-capture in athlete physical health monitoring**. It was cited in the reuse and inspection survey.
-The retraction notice is in the title itself, which no check looked at.
-
-### The Rest
-
-- **A311** an autonomous **underwater** vehicle cited for effector degradation, and a road-car
-  driver take-over study cited for authority allocation
-- **A310** an unmanned **surface** vehicle, which is a boat, cited for station-keeping
-- **A308** a rectangular **bridge girder** under coupled wind and **wave** action, described in the
-  prose as vortex-induced vibration of slender structures
-- **A307** a flight-style AUV with bow-wings cited as generic computational lift and drag validation
-
-A308 and A307 were **replaced rather than deleted**, since each was the sole support for its
-clause. A308 now cites a circular cylinder in the supercritical regime, which is what a vehicle
-standing on a pad in wind actually is.
+Neither was in the draft plan. Both came from insisting on the algebra.
 
 ---
 
-## What Was Deliberately Kept
+## The Keystone
 
-**A cross-domain citation that the prose flags as cross-domain is honest, not wrong.** Three cases
-stay untouched.
+**The X-21 is remembered for answering a question it never asked.**
 
-- A311 writes **the same mathematics appears well outside aviation** before citing a road vehicle
-- A303 writes **the same argument is being had at sea** before citing ocean shipping
-- A307 writes **the underwater case is** before citing an AUV
+The received account, which is in encyclopaedias, reference works and aviation histories alike, is that
+laminar flow control failed on maintenance. The slots clogged, the aeroplane needed constant attention,
+and the cost of cleaning exceeded the fuel saved.
 
-**A308's four Ocean Engineering sloshing papers also stay.** Resonant sloshing in a baffled tank is
-shared physics between a liquid natural gas carrier and an Atlas propellant tank, and the article
-claims only that the modern literature is largely about where to put the baffles, which is true.
+[Braslow 1999][braslow], who was the NASA technical consultant to the programme, records something else.
+The service-experience objective, one of three the programme was built around, **had not been initiated**
+when the money stopped, because the effort had gone into surface tolerance and spanwise contamination.
+The advisory group that met in November 1965 recommended a major wing modification before any maintenance
+data could mean anything. **That modification was never made**, and the reason recorded is the resource
+demands of the war in Vietnam rather than any finding about laminar flow.
 
-Also kept and worth naming, because they look wrong and are not. A309's eight geodesy papers are
-correct, since aiming an intercontinental missile requires the geoid. A303's radiation shielding
-is correct for a nuclear aircraft. A305's astronomy is correct, because that is what Aerobee
-rockets did. A306's circular-probable-error statistics are correct for a missile.
+The verdict was reached anyway and has outlived everyone who could have said the experiment was not run.
 
----
-
-## Three Silent Rendering Defects
-
-**A display equation sharing a line with prose is parsed as inline math inside a paragraph.**
-Nothing errors, the build succeeds, and the display-equation regex does not even count it, which is
-why these survived every pass.
-
-- A300 line 56, one equation, **113 to 114**
-- A313 lines 267 and 520, two equations, **72 to 74**
-
-**The rise in both counts is a correction rather than an addition.** The equations were always in
-the text. All three are confirmed rendering as display math in the build output.
-
-A311 also carried a **prose colon** introducing a citation list, which the absolute style rule
-prohibits.
+[braslow]: https://www.nasa.gov/wp-content/uploads/2021/04/88792main_laminar.pdf
 
 ---
 
-## The Checker Was the Problem Too
+## A Second Finding the Article Did Not Expect
 
-`check.py` carries four hardcoded constants for slug, date, series index and article number, and
-A311 and A312 each inherited it by copy with the constants still pointing at the previous article.
-**Retyping four constants per article is a defect class, not a task.**
+**The testbed could not measure the quantity being argued about.**
 
-`tmp/errata/check_any.py` replaces it. It derives the article number from the file's own
-`<!-- Axxx -->` marker and then validates date and series index against the roster, which is
-**strictly stronger** than the hardcoded form because the roster is an independent authority rather
-than a value retyped from the thing being checked. It runs over all twenty-one articles at once.
+The wing is 44 percent of the aircraft wetted area, and the programme guaranteed laminar flow over 70
+percent of the wing, so 31 percent of the aeroplane. That is worth about **ten percent in range**. The
+case for the technology was a doubling of range and a lift-to-drag ratio above thirty, which requires a
+purpose-designed aircraft in which the wing shrinks, the fuel load shrinks and the structure lightens.
 
-**Writing it produced four false positives before it produced a true one**, and each was a lesson.
+**A converted bomber cannot show that, however well its wing works.** The gap is not an error in the
+case. It is the difference between laminarising an aeroplane and designing one around laminar flow.
 
-- `an AN/ARW-56` is a radio designation, not a doubled word
-- Stripping inline math to nothing made the phrase `and u sub e and u sub infinity` read as a
-  doubled `and`
-- A display block may legitimately span several lines
-- The series opener is its own genre row, with no aircraft to compare and a Series Roadmap
+---
 
-The back-reference rule also needed splitting. **It governs within-series links only.** The whole
-series is back-dated to 2025 while much of the corpus is 2026, so links to other series are
-necessarily forward-dated and that is not a defect. What matters for those is that the target
-exists and is not itself dated past today, since `future: false` would exclude it and fail the
-build. All seventeen such targets check out.
+## Where the Trouble Actually Was
+
+Spanwise contamination along the attachment line, which arrives already turbulent and which no amount of
+downstream suction can fix.
+
+**The sweep that governs it is the leading-edge sweep, not the quarter-chord sweep quoted for the
+planform.** At a taper ratio of 0.30 the X-21's 30 degrees becomes 33.2. The attachment-line Reynolds
+number then runs from **205 at the root to 113 at the tip**.
+
+That is everywhere inside the band between about 100, below which a disturbance decays, and about 245,
+above which it is sustained and propagates. **It is the worst place to be**, because whether the wing
+stays laminar depends on how large a disturbance the root, the fuselage junction or an insect happens to
+present. And it is highest at the root, which is where the contamination started and where the aeroplane
+carries a large fairing to tailor the pressure field.
+
+At a leading-edge radius of 0.012 chord rather than the assumed 0.008 the root reaches 252 and crosses
+outright. **Which side of the threshold the wing sat on depends on a geometric detail of about one
+percent of chord.**
+
+---
+
+## A Correction to the Secondary Literature
+
+**The figure of 800,000, repeated everywhere as a count of slots, is a count of drilled metering holes.**
+
+The 1963 primary description makes clear that air passes through spanwise slots into milled plenum
+chambers, and that from each plenum a large number of small holes is drilled down into the ducts. The
+slots number of the order of a hundred and thirty, sixty-eight above and sixty-seven below, between
+0.0025 and 0.008 inches wide.
+
+The error does not change the physics and it badly changes the impression, since it converts a precisely
+engineered surface into something that sounds like a colander. The handoff carried the same error, having
+inherited it from the same source.
+
+---
+
+## What the Harvest Learned About Itself
+
+**Seven percent of the pool had to be discarded for belonging to another discipline, the highest
+proportion this series has recorded.**
+
+**The phrase boundary layer belongs to meteorology as much as to aerodynamics.** One query returned most
+of a journal devoted to the atmospheric boundary layer, 89 records in all. Operating-room laminar air
+flow, crossflow filtration, a co-laminar-flow fuel cell, a double-pipe heat exchanger, micro-riblets on
+ship hulls, a Martian entry stability analysis and a Cretaceous stick-insect fossil arrived by the same
+route.
+
+**Both directions of the word-boundary failure occurred in the same pass**, which has not happened before.
+One pattern matched the letters of a transition-prediction abbreviation inside ordinary English words and
+swelled a cluster to 362 records. Another matched the middle of the word **re-duct-ion** and put 73 drag
+papers into the pumping cluster. The first failed for want of a boundary and so did the second.
+
+Two further tooling notes. **The NTRS search endpoint returns no authors and no year**, so display text
+fell back to title fragments and dragged title punctuation into link text, which then failed the prose
+rules. The per-record detail endpoint fixes it and is now called for every record. **Crossref correction
+notices are not the paper** and three were being cited in place of the articles they correct.
 
 ---
 
 ## Verification
 
-- **All 21 articles pass `check_any.py`**, zero failures, zero warnings
-- **`_verify.py` at the 0-error 21-warning baseline**, run from the repository root. Not zero
-  warnings, which would have meant it checked nothing
-- **A 21-article isolated build succeeds.** Every draft staged as a post at its own front-matter
-  date, so every in-series `post_url` resolves against the real article rather than a stub. There
-  is no stub list to arrive one short
-- **All three repaired equations confirmed as display math** in the built HTML
-- Ten new URLs swept. Seven plain 200s and **three publisher 403s confirmed through the Crossref
-  registry** with matching first authors, titles and venues
-- Reference integrity on all nine changed articles, zero undefined and zero orphaned, `research_`
-  blocks still sorted
-
-**The bundle is now installed** at `vendor/bundle`, which is gitignored. It was never broken,
-merely never installed, and the isolated build needs `BUNDLE_GEMFILE` pointed back at the
-repository when the source tree is elsewhere.
-
----
-
-## Open, and Yours to Decide
-
-**The fourth genre class.** Now six consecutive articles outside all four named classes on two of
-three measures. Unchanged by this pass. I will not amend the genre document unprompted.
-
-**A305 length.** The offered cut of roughly 300 lines and 25 equations still stands.
-
-**Marginal citations I did not touch and will not without instruction.** A307 cites marine gravity
-anomaly work for gravity-aided inertial navigation, which is the standard dataset and the framing
-is accurate. A303 cites nuclear marine reactor shielding for a nuclear aircraft. A305 cites
-suborbital biology payloads. A306 cites a marine radar antenna for low-probability-intercept
-design. A313 cites a digital-twin bearing-fault paper where the lead-in names digital twins. Each
-is defensible as written and each is a judgement call rather than an error.
+- **64 independent re-derivations, zero disagreements.** The verifier uses a tabulated atmosphere where
+  the model uses a formula, bisection where the model uses a closed form, and computes the suction
+  coefficient by two independent routes that are required to agree. All 22 quoted values confirmed
+  present in the text
+- **539 references**, zero undefined, zero orphaned, zero duplicate URLs, `research_` block sorted
+- **398 DOIs confirmed registered in the Crossref registry** with titles printed and read, and 123
+  archive links at HTTP 200. **Zero failures of either kind**
+- A residual red-flag scan over all 398 printed titles found six, of which three were dropped and three
+  kept as canonical porous-wall transpiration analyses
+- `check_any.py` clean on **all 22 articles**, `_verify.py` at the 0-error 21-warning baseline from the
+  repository root, with **no new warnings from this article**
+- **22-article isolated build succeeds**, with 16 of 16 equations rendering as display math, three
+  tables, Part 22 navigation, and no unresolved Liquid. The build script no longer hardcodes the article
+  count, which was the constant that arrived one short in A316
 
 ---
 
 ## State
 
-**Committed. Not pushed**, since pushing is authorised only by the publication-review prompt and
-this was an errata instruction. Say the word and it goes.
+**A318 has had one of four passes.** The three remaining are yours to prompt.
 
-Nothing in the series is published. The publication-order dependency remains twenty-one deep.
+The article is short by series standards at 827 lines and 16 equations, and deliberately so. It is
+reference-heavy already at 539. **The equation pass has a great deal to work with**, since the suction
+derivation, the attachment-line criterion and the wetted-area accounting are all stated in the draft in
+compressed form.
+
+Nothing in the series is published. The publication-order dependency is now twenty-two deep.
+
+**Still open and unchanged.** The fourth genre class, now six consecutive articles outside all four named
+classes. The A305 length offer. Neither touched.

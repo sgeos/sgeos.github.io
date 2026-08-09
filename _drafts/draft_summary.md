@@ -17,6 +17,53 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Northrop X-21 A318 2025-10-27
+
+`x_planes_northrop_x21.markdown`, A318, editorial date 2025-10-27, series `x_planes` index 22 of 72.
+
+827 lines, 16 display equations, 539 references, 6,664 words after the draft pass. One of four passes
+complete. Committed, not pushed. Not published.
+
+**The computation overturned the brief the article was planned around.** The expectation was that the
+suction power and the drag saving would be the same order of magnitude and that the sign of the
+difference would be the story. It is not close. The suction system costs **17.2 percent** of the friction
+it removes, and the break-even suction coefficient is **5.8 times** the design value. So the article
+cannot be about whether laminar flow control pays.
+
+**Two results came out of writing the relation down.** The equivalent drag coefficient of the suction
+system is **independent of altitude**, because density cancels, leaving a function of Mach number and the
+machinery alone. And the penalty falls as the inverse square of Mach number, so **laminar flow control is
+a high-speed technology for a thermodynamic rather than an aerodynamic reason**.
+
+**The keystone is that the X-21 is remembered for answering a question it never asked.** The received
+account is that laminar flow control failed on maintenance. Braslow, who was NASA technical consultant to
+the programme, records that the service-experience objective **had not been initiated** when funding
+stopped, and that the November 1965 review group recommended a major wing modification before any
+maintenance data could mean anything. The modification was never made.
+
+**A second structural finding.** The wing is 44 percent of the aircraft wetted area, so the testbed as
+flown was worth about **ten percent in range** against a case built on a doubling. The instrument could
+not measure the quantity being argued about, because that quantity belonged to a purpose-designed
+aircraft rather than a converted bomber.
+
+**The attachment line is where the trouble actually was.** Evaluated on leading-edge sweep of 33.2 degrees
+rather than the quoted quarter-chord 30, the attachment-line Reynolds number runs from 205 at the root to
+113 at the tip, which is everywhere in the band where a disturbance neither reliably decays nor
+automatically sustains, and highest exactly at the root where the contamination started. At a
+leading-edge radius of 0.012 chord the root crosses the sustaining threshold outright, so **which side of
+it the wing sat on depends on a geometric detail of about one percent of chord**.
+
+**A correction to the secondary literature.** The figure of 800,000, repeated everywhere as a count of
+slots, is a count of drilled metering holes connecting plenums to ducts. The slots number of the order of
+a hundred and thirty.
+
+**The harvest discarded seven percent of its pool for belonging to another discipline**, the highest
+proportion recorded in this series, because the phrase boundary layer belongs to meteorology as much as
+to aerodynamics and one query returned most of a journal. Operating-room laminar air flow, crossflow
+filtration, a co-laminar-flow fuel cell and a Cretaceous stick-insect fossil arrived the same way. **Both
+directions of the word-boundary failure occurred in the same pass**, one pattern matching the letters of
+an abbreviation inside ordinary words and another matching the middle of the word reduction.
+
 ## X-Planes Boeing X-20 Dyna-Soar A317 2025-10-26
 
 **Errata 2026-08-08.** One citation removed. A **RETRACTED** paper on thermal imaging in athlete physical health monitoring was cited in the reuse and inspection survey. 388 references to 387.
