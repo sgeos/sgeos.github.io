@@ -107,7 +107,22 @@ High disc loading is not free at the bottom of the aircraft either. The exit vel
 
 $$V_{e} = \sqrt{\frac{T}{\rho \sigma A_{d}}} = \sqrt{\frac{3{,}650}{0.0023769 \times 38.48}} = 200\ \text{ft/s}$$
 
-**One hundred and thirty-six miles per hour, straight down, from four ducts at once.** The dynamic pressure in that jet is 47 pounds per square foot. The ground erosion, the recirculation and the hazard to anyone nearby are all consequences of the same choice that made the duct worth having, and they are treated in [Morse and Newhouse 1960][research_morse_newhouse_1960], [Obryan 1960, CONSIDERATIONS OF THE EFFECT OF V][research_obryan_1960], [Obryan 1960, Considerations of the effect of V][research_obryan_1960_2], [Morse and Newhouse 1961, VTOL DOWNWASH IMPINGEMENT STUDY][research_morse_newhouse_1961], [Morse and Newhouse 1961, VTOL DOWNWASH IMPINGEMENT STUDY][research_morse_newhouse_1961_2], [O'Bryan 1961][research_o_bryan_1961], [George et al 1964][research_george_1964], [Kuhn 1965][research_kuhn_1965], [Higgins et al 1966][research_higgins_1966], [Pruyn and Taylor 1971, Design Considerations for Tilt-Ro][research_pruyn_taylor_1971_2], [Pruyn and Taylor 1971, Design Considerations for Tilt‐Ro][research_pruyn_taylor_1971], [Renselaer 1975][research_renselaer_1975], [Chriss 1977][research_chriss_1977], [Schulz 1977][research_schulz_1977], [Editor 2016][research_editor_2016], [Minervino et al 2016][research_minervino_2016], [Trivkovic et al 2016][research_trivkovic_2016], [Kalra and Baeder 2017][research_kalra_baeder_2017], [Milluzzo and Kuerbitz 2017][research_milluzzo_kuerbitz_2017], [Milluzzo and Leishman 2017][research_milluzzo_leishman_2017], [Ramasamy and Yamauchi 2017][research_ramasamy_yamauchi_2017], [Huang and Hu 2018][research_huang_hu_2018], [Tan et al 2018][research_tan_2018], [Zhang et al 2018][research_zhang_2018], [Zheng et al 2018][research_zheng_2018], [Kato and Suzuki 2019][research_kato_suzuki_2019], [Brinkman et al 2020][research_brinkman_2020], [Kim and Yee 2020][research_kim_yee_2020], [Mehrabi and Davari 2020][research_mehrabi_davari_2020], [Neumann et al 2020][research_neumann_2020], [Pasquali et al 2020][research_pasquali_2020], [Brinkman and Johnson 2021][research_brinkman_johnson_2021], [Shi et al 2021][research_shi_2021], [Shouji et al 2021][research_shouji_2021], [Wang et al 2021][research_wang_2021], [Zhang et al 2021, EFFECT OF THE DOWNWASH FLOW FIELD][research_zhang_2021_2], [Zhang et al 2021, WSPM-System Providing Real Data o][research_zhang_2021_3], [Bardera Mora and Matías García 2022][research_bardera_mora_matias_garcia_2022], [Coombes et al 2022][research_coombes_2022], [Yang et al 2022, A Method to Study the Influence o][research_yang_2022_2], [Yang et al 2022, Downwash characteristics and anal][research_yang_2022], [Yang et al 2022, Numerical study on the noise prop][research_yang_2022_3], [Bai and Zhou 2023][research_bai_zhou_2023], [Chang et al 2023][research_chang_2023], [Yallappa et al 2023][research_yallappa_2023], [Ison 2024, Analysis of VTOL Downwash and Out][research_ison_2024_2], [Otsuka et al 2024][research_otsuka_2024], [Zhu et al 2024, Ground Effect on the Thrust Perfo][research_zhu_2024_2], [Chen et al 2025, Self-Locking Stability Effect Ind][research_chen_2025_2], [Georgiev 2025][research_georgiev_2025], [Jung et al 2025][research_jung_2025], [Sagaga and Lee 2025][research_sagaga_lee_2025], [Wang et al 2025, An Efficient Method for Rotor Aer][research_wang_2025_3], [Lee et al 2026, Aerodynamic effects of rotor roto][research_lee_2026_2], [Li et al 2026, In-situ 3D reconstruction and ana][research_li_2026_3], [Wu et al 2026][research_wu_2026], [Xunwei et al 2026][research_xunwei_2026].
+**One hundred and thirty-six miles per hour, straight down, from four ducts at once.**
+
+Disc loading is the parameter that sets all of this, and the relations are short. The induced velocity and the power loading follow from it alone,
+
+$$v_{e} = \sqrt{\frac{W/A}{\rho}} \qquad \frac{T}{P} = \frac{2\,\text{FM}}{v_{e}}$$
+
+so that lifting a pound costs power in proportion to the square root of the disc loading.
+
+| $W/A$, lbf/ft² | $v_e$, ft/s | lbf per horsepower |
+|---|---|---|
+| 5 | 45.9 | 17.2 |
+| 10 | 64.9 | 12.1 |
+| 40 | 129.7 | 6.1 |
+| 94.8 | 199.7 | 3.9 |
+
+**A helicopter of the period sat between five and ten and lifted about three and a half times as much per horsepower.** That is the standing charge for choosing ducts, and it is paid in every second of hover. The dynamic pressure in that jet is 47 pounds per square foot. The ground erosion, the recirculation and the hazard to anyone nearby are all consequences of the same choice that made the duct worth having, and they are treated in [Morse and Newhouse 1960][research_morse_newhouse_1960], [Obryan 1960, CONSIDERATIONS OF THE EFFECT OF V][research_obryan_1960], [Obryan 1960, Considerations of the effect of V][research_obryan_1960_2], [Morse and Newhouse 1961, VTOL DOWNWASH IMPINGEMENT STUDY][research_morse_newhouse_1961], [Morse and Newhouse 1961, VTOL DOWNWASH IMPINGEMENT STUDY][research_morse_newhouse_1961_2], [O'Bryan 1961][research_o_bryan_1961], [George et al 1964][research_george_1964], [Kuhn 1965][research_kuhn_1965], [Higgins et al 1966][research_higgins_1966], [Pruyn and Taylor 1971, Design Considerations for Tilt-Ro][research_pruyn_taylor_1971_2], [Pruyn and Taylor 1971, Design Considerations for Tilt‐Ro][research_pruyn_taylor_1971], [Renselaer 1975][research_renselaer_1975], [Chriss 1977][research_chriss_1977], [Schulz 1977][research_schulz_1977], [Editor 2016][research_editor_2016], [Minervino et al 2016][research_minervino_2016], [Trivkovic et al 2016][research_trivkovic_2016], [Kalra and Baeder 2017][research_kalra_baeder_2017], [Milluzzo and Kuerbitz 2017][research_milluzzo_kuerbitz_2017], [Milluzzo and Leishman 2017][research_milluzzo_leishman_2017], [Ramasamy and Yamauchi 2017][research_ramasamy_yamauchi_2017], [Huang and Hu 2018][research_huang_hu_2018], [Tan et al 2018][research_tan_2018], [Zhang et al 2018][research_zhang_2018], [Zheng et al 2018][research_zheng_2018], [Kato and Suzuki 2019][research_kato_suzuki_2019], [Brinkman et al 2020][research_brinkman_2020], [Kim and Yee 2020][research_kim_yee_2020], [Mehrabi and Davari 2020][research_mehrabi_davari_2020], [Neumann et al 2020][research_neumann_2020], [Pasquali et al 2020][research_pasquali_2020], [Brinkman and Johnson 2021][research_brinkman_johnson_2021], [Shi et al 2021][research_shi_2021], [Shouji et al 2021][research_shouji_2021], [Wang et al 2021][research_wang_2021], [Zhang et al 2021, EFFECT OF THE DOWNWASH FLOW FIELD][research_zhang_2021_2], [Zhang et al 2021, WSPM-System Providing Real Data o][research_zhang_2021_3], [Bardera Mora and Matías García 2022][research_bardera_mora_matias_garcia_2022], [Coombes et al 2022][research_coombes_2022], [Yang et al 2022, A Method to Study the Influence o][research_yang_2022_2], [Yang et al 2022, Downwash characteristics and anal][research_yang_2022], [Yang et al 2022, Numerical study on the noise prop][research_yang_2022_3], [Bai and Zhou 2023][research_bai_zhou_2023], [Chang et al 2023][research_chang_2023], [Yallappa et al 2023][research_yallappa_2023], [Ison 2024, Analysis of VTOL Downwash and Out][research_ison_2024_2], [Otsuka et al 2024][research_otsuka_2024], [Zhu et al 2024, Ground Effect on the Thrust Perfo][research_zhu_2024_2], [Chen et al 2025, Self-Locking Stability Effect Ind][research_chen_2025_2], [Georgiev 2025][research_georgiev_2025], [Jung et al 2025][research_jung_2025], [Sagaga and Lee 2025][research_sagaga_lee_2025], [Wang et al 2025, An Efficient Method for Rotor Aer][research_wang_2025_3], [Lee et al 2026, Aerodynamic effects of rotor roto][research_lee_2026_2], [Li et al 2026, In-situ 3D reconstruction and ana][research_li_2026_3], [Wu et al 2026][research_wu_2026], [Xunwei et al 2026][research_xunwei_2026].
 
 ## What the Shroud Charges
 
@@ -117,7 +132,23 @@ $$N_{\text{mom}} = \dot{m} V_{\infty} \sin\alpha \qquad \dot{m} = \rho A_{d} \le
 
 The rounded lip adds a suction force of the same order, so the total is roughly twice the momentum term. **The duct is behaving as an annular wing**, and the theory and measurement of that are [Goodson and Grunwald 1962][research_goodson_grunwald_1962], [Mort 1965][research_mort_1965], [Curtiss and Howard C. 1969][research_curtiss_howard_c_1969], [Mann 1974][research_mann_1974], [Walker 1981][research_walker_1981], [Lee and Kwok 1983][research_lee_kwok_1983], [Gill and D’Andrea 2020][research_gill_dandrea_2020].
 
-**This has to be evaluated along a conversion, not on a grid.** A duct angle of forty-five degrees at two hundred feet per second is not a flight condition, and tabulating it produces a normal force larger than the aeroplane. Ramping the duct linearly from ninety degrees at rest to zero at a conversion speed of 120 knots gives the shape a real conversion has.
+**This has to be evaluated along a conversion, not on a grid.** A duct angle of forty-five degrees at two hundred feet per second is not a flight condition, and tabulating it produces a normal force larger than the aeroplane.
+
+### The Corridor Can Be Derived, Not Assumed
+
+The wing area is not published, which looks like a dead end and is not one. At the end of a conversion the ducts are horizontal and the wings carry the whole weight, so the conversion speed fixes the area,
+
+$$S = \frac{2W}{\rho V_{\text{conv}}^{{2}} C_{L,\max}} = \frac{2 \times 14{,}600}{0.0023769 \times 203^{{2}} \times 1.4} = 213\ \text{ft}^{{2}}$$
+
+**That number has to survive a geometric check and it does.** Two thirds of it on the 39.25 foot rear span is a mean chord of 3.62 feet, and the remaining third on the 22.92 foot forward span is 3.10 feet. Chords of three to four feet on a forty-foot aeroplane are what the photographs show.
+
+With an area the corridor follows from the force balance. Writing $i$ for the duct angle above the horizontal,
+
+$$T \sin i + L = W \qquad T \cos i = D$$
+
+$$\tan i = \frac{W - L}{D} \qquad T = \sqrt{(W-L)^{{2}} + D^{{2}}}$$
+
+with $L = q S C_L$ and $D = q (S C_{D_w} + f)$, where $f$ is the equivalent flat-plate area of the four ducts computed below. **Thrust required falls monotonically through the conversion**, because the wing takes the lift faster than the drag builds, so the corridor was never thrust-limited. Whatever made the X-22 hard to convert, it was not power.
 
 | $V$, ft/s | knots | duct angle | $\dot m$, slug/s | $N$, lbf | $N/T$ |
 |---|---|---|---|---|---|
@@ -129,9 +160,50 @@ The rounded lip adds a suction force of the same order, so the total is roughly 
 | 180 | 106.6 | 10.2 | 34.5 | 2,197 | 0.60 |
 | 200 | 118.5 | 1.3 | 36.6 | 340 | 0.09 |
 
-**The normal force peaks at about its own duct's thrust, and it peaks in the middle of the conversion.** The table samples every twenty feet per second and the true maximum lies between two of its rows, at 130 feet per second, where the normal force reaches 3,941 pounds against a duct thrust of 3,650, a ratio of 1.08. Over four ducts that is of the order of the aircraft weight, applied perpendicular to the duct axes, at exactly the speed where the wings are not yet working and the ducts are no longer pointing at the ground.
+**The normal force peaks at about its own duct's thrust, and it peaks in the middle of the conversion.** The table samples every twenty feet per second and the true maximum lies between two of its rows, at 130 feet per second, where the normal force reaches 3,941 pounds against a duct thrust of 3,650, a ratio of 1.08.
+
+### That Answer Was Too Comfortable
+
+The schedule above was assumed. Evaluating the same normal force along the **derived** corridor, where the wing pulls its full lift coefficient and the ducts make up the difference, gives something much worse. The ducts stay at large angles far later than a linear ramp suggests, and the momentum estimate climbs to 8,266 pounds per duct at 180 feet per second, or **2.26 times the whole aircraft weight over four ducts**.
+
+**That is not a credible force and saying so is the point.** More than twice the weight, applied sideways in mid-conversion, would be unflyable and unmissable. So the model is wrong there, and the useful question is where it stops being right.
+
+The momentum-turning argument assumes the duct captures its own streamtube and turns all of it. That holds while the crossflow component is small compared with the velocity the duct itself induces, so the validity parameter is
+
+$$\mu = \frac{V_{\infty} \sin i}{v_{i}}$$
+
+| $V$, ft/s | knots | duct angle | $\mu$ | $N/T$ | status |
+|---|---|---|---|---|---|
+| 40 | 23.7 | 89.6 | 0.20 | 0.40 | model holds |
+| 60 | 35.5 | 89.2 | 0.30 | 0.60 | model holds |
+| 100 | 59.2 | 87.2 | 0.50 | 1.02 | marginal |
+| 140 | 82.9 | 82.1 | 0.69 | 1.52 | model invalid |
+| 180 | 106.6 | 60.7 | 0.79 | 2.26 | model invalid |
+| 200 | 118.5 | 11.2 | 0.20 | 0.77 | model holds |
+
+**The parameter passes 0.5 at 100 feet per second and comes back below it at 195.** The momentum model is therefore valid at both ends of the conversion and invalid in the middle, **and the middle is exactly where a tilt aircraft is hard to fly.**
+
+What caps the force in that band is not momentum. It is that the lip cannot hold the flow round it at that incidence and separates, which is the known weakness of every ducted fan and which now has a computed boundary rather than a mention. **The honest statement is that the normal force reaches about the duct's own thrust where the model can be trusted, and that beyond it the binding limit is lip stall.** Over four ducts that is of the order of the aircraft weight, applied perpendicular to the duct axes, at exactly the speed where the wings are not yet working and the ducts are no longer pointing at the ground.
 
 **That is the charge for the twenty-six percent.** The shroud that makes the hover affordable is an annular wing that has to be flown through the conversion, and the aeroplane which needs the shroud most in hover is the one that has the most trouble in between.
+
+### The Ducts Are Also the Drag
+
+The quoted maximum speed provides a check on all of this from a direction the hover calculation does not touch. At 278 knots and 10,000 feet, with an installed 5,000 shaft horsepower and a propulsive efficiency of 0.80,
+
+$$D = \frac{\eta P}{V} = \frac{0.80 \times 5{,}000 \times 550}{469.2} = 4{,}689\ \text{lbf}$$
+
+$$f = \frac{D}{q} = \frac{4{,}689}{193.3} = 24.3\ \text{ft}^{{2}}$$
+
+**A clean aeroplane of this weight would have five to eight square feet.** The X-22 has 24.3, and the lift-to-drag ratio at that condition is 3.26.
+
+Now the same number from geometry. Four ducts of seven-foot diameter present 153.9 square feet of frontal area, so the equivalent flat plate implies a duct drag coefficient of
+
+$$C_{D,\text{duct}} = \frac{f}{4 A_{d}} = \frac{24.3}{153.9} = 0.158$$
+
+which is an ordinary value for a short annular body with a propeller inside it. **The maximum speed and the duct geometry agree**, and they were not fitted to one another.
+
+**That is the third face of the same trade.** The shroud buys twenty-six percent of thrust in the hover, charges an annular wing's normal force in the conversion, and then charges again in cruise by presenting four times thirty-eight square feet of frontal area to the airstream for the rest of the flight.
 
 ## Dependent Systems
 
@@ -141,7 +213,19 @@ In hover there is no free-stream dynamic pressure at all, so a conventional cont
 
 $$q_{\text{jet}} = \tfrac{1}{2} \rho V_{e}^{2} = 47.4\ \text{lbf/ft}^{2}$$
 
-The X-22 carries elevons across the duct exits, immersed in the propeller slipstream, and they work from the first second of the hover. **The free stream does not reach that dynamic pressure until about 200 feet per second**, which is the end of the conversion. A four-poster with no surfaces in its own jets would have nothing but differential thrust for pitch and roll, and differential thrust on a shafted system is slow.
+The duct normal force acts near the lip rather than at the duct centre, because the lip is where the flow is turned, so each duct contributes a nose-up couple of about
+
+$$M = \frac{N \ell}{2}$$
+
+for a duct of length $\ell$. At the largest defensible normal force and a four-foot duct that is 7,900 foot-pounds per duct and **31,500 foot-pounds over four**, and the tandem layout does not cancel it, because both duct pairs tilt the same way and both couples act nose-up about their own centres.
+
+Something has to trim that. The X-22 carries elevons across the duct exits, immersed in the propeller slipstream, and they work from the first second of the hover. Twelve square feet of elevon at a lift coefficient of 0.9 in that jet gives
+
+$$F = q_{\text{jet}} S_{e} C_{L_{e}} = 47.4 \times 12 \times 0.9 = 512\ \text{lbf}$$
+
+and on a twelve-foot arm, four of them command about 24,600 foot-pounds. **That is the same order as the duct couple they exist to oppose**, which is why they are the size they are and why they sit where they do.
+
+**The free stream does not reach that dynamic pressure until about 200 feet per second**, which is the end of the conversion. A four-poster with no surfaces in its own jets would have nothing but differential thrust for pitch and roll, and differential thrust on a shafted system is slow.
 
 ### The Cross-Shaft
 
@@ -152,6 +236,14 @@ Four engines drive four propellers through a common transmission, treated in [Le
 $$M = T_{\text{duct}} \, y = 3{,}650 \times 19.62 = 71{,}600\ \text{ft}\cdot\text{lbf}$$
 
 of rolling moment that has to be trimmed out by the remaining three. With cross-shafting the same failure removes a quarter of the power and none of the symmetry.
+
+The shaft itself is undramatic. At a 700 foot per second tip speed the propellers turn at about 1,910 revolutions per minute, so each absorbs
+
+$$Q = \frac{P}{\omega} = \frac{1{,}250 \times 550}{200} = 3{,}440\ \text{ft}\cdot\text{lbf}$$
+
+and with one engine out the three survivors deliver 938 horsepower to each of four propellers, so **312 horsepower has to cross the airframe**, a quarter of one engine.
+
+**The cost of cross-shafting is not the shaft.** It is that every gearbox must accept power from either direction, and that the whole train becomes a single path whose failure takes everything. The first aircraft was lost to a failure in the propeller control system, which is the same lesson from the other side.
 
 **This is the X-18's fatal deficiency, answered.** That aircraft had two engines with no interconnection, and the accident that ended it was the asymmetry rather than the shortfall. The X-22 was designed so that the asymmetry cannot happen, and the price is a transmission that has to carry full power to any duct from any engine.
 
@@ -173,7 +265,11 @@ The four-duct tandem layout had been in wind tunnels since the late 1950s, and t
 
 **The X-22 settled that the configuration flies.** Nothing in eighteen years of operation suggested that a four-duct tandem vertical-takeoff aircraft was uncontrollable or unsafe, which is a stronger negative result than the [X-18][related_post_a315_hiller_x18] or the [X-19][related_post_a316_curtiss_wright_x19] produced.
 
-**What it did not settle is whether anyone wanted one.** The disc loading that the duct makes affordable also produces a 136 mile per hour downwash, a severe weight sensitivity in the hover, and a payload of 1,200 pounds on an aircraft of 15,000. The configuration works and the mission arithmetic is unattractive, which is a different verdict from the one the earlier tilt aircraft received.
+**What it did not settle is whether anyone wanted one.** The arithmetic of the useful load is short and unkind,
+
+$$\frac{W_{\text{payload}}}{W} = \frac{1{,}200}{14{,}600} = 0.082$$
+
+against an empty weight of 10,478 pounds and a useful load of 4,122, most of which is fuel. The disc loading that the duct makes affordable also produces a 136 mile per hour downwash, a severe weight sensitivity in the hover, and a payload of 1,200 pounds on an aircraft of 15,000. The configuration works and the mission arithmetic is unattractive, which is a different verdict from the one the earlier tilt aircraft received.
 
 **The largest thing it changed is not about ducts at all.** The variable-stability system turned the aircraft into a source of handling-qualities data for vertical-takeoff aircraft generally, and that literature is [Huff and W. W. 1949][research_huff_w_w_1949], [Carlson 1958][research_carlson_1958], [Reeder 1958][research_reeder_1958], [Slaughter 1958][research_slaughter_1958], [Wernecke 1958][research_wernecke_1958], [Anderson 1960, An Examination of Handling Qualit][research_anderson_1960], [Anderson 1960, HIGHLIGHTS OF HANDLING QUALITIES][research_anderson_1960_2], [Garren 1962][research_garren_1962], [Breul 1963][research_breul_1963], [Kidd and Bull 1963][research_kidd_bull_1963], [Gerdes 1964][research_gerdes_1964], [Kuhn et al 1964, Aerodynamics and flying qualities][research_kuhn_1964], [Kuhn et al 1964, Aerodynamics and flying qualities][research_kuhn_1964_2], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965_2], [Besco 1965][research_besco_1965], [Curry et al 1965][research_curry_1965], [Drinkwater and Feistel 1965][research_drinkwater_feistel_1965], [Higgins and Shomber 1965][research_higgins_shomber_1965], [Johnston et al 1965][research_johnston_1965], [Miller and Clark 1965][research_miller_clark_1965], [Anderson 1966][research_anderson_1966], [Cheatham and Hackler 1966][research_cheatham_hackler_1966], [McGREGOR and Smith 1966][research_mcgregor_smith_1966], [Shomber and Gertsen 1967][research_shomber_gertsen_1967], [Griffin and Bellaire 1968][research_griffin_bellaire_1968], [Air Force Test Pilot School Edwards Afb Ca 1969][research_air_force_test_pilot_school_edwards_afb_ca_1969], [Chalk et al 1969][research_chalk_1969], [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969], [McCormick 1969][research_mccormick_1969], [Miyajima 1969][research_miyajima_1969], [Anderson 1970][research_anderson_1970], [Barbini et al 1970][research_barbini_1970], [Difranco 1970][research_difranco_1970], [Miller 1970][research_miller_1970], [Adams and Hatch 1971][research_adams_hatch_1971], [DiFranco 1971][research_difranco_1971], [Gallagher 1971][research_gallagher_1971], [Gerdes and Hynes 1971][research_gerdes_hynes_1971], [Key 1971][research_key_1971], [Reschak 1971][research_reschak_1971], [Kriechbaum and Stineman 1972][research_kriechbaum_stineman_1972], [Crother et al 1973][research_crother_1973], [Vinje and Miller 1973][research_vinje_miller_1973], [Boothe et al 1974][research_boothe_1974], [Johnston et al 1974][research_johnston_1974], [Place et al 1974][research_place_1974], [Bailes et al 1975][research_bailes_1975], [Davies 1975][research_davies_1975], [Bowes and Miller 1976][research_bowes_miller_1976], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Böhm 1977][research_bohm_1977], [Dooley 1977][research_dooley_1977], [Gerdes 1977][research_gerdes_1977], [Jacobson and Joshi 1977][research_jacobson_joshi_1977], [Momiyama 1977][research_momiyama_1977], [Smith 1977][research_smith_1977], [Jacobson and Joshi 1978][research_jacobson_joshi_1978], [Whitbeck and Hofmann 1978][research_whitbeck_hofmann_1978], [Black and Moorhouse 1979][research_black_moorhouse_1979], [Chance Vought Corp Dallas Tx 1979][research_chance_vought_corp_dallas_tx_1979], [Gerken 1979][research_gerken_1979], [Smith and Geddes 1979][research_smith_geddes_1979], [Swaim and Yen 1979][research_swaim_yen_1979], [Crombie and Moorhouse 1980][research_crombie_moorhouse_1980], [Air Force Test Pilot School Edwards Afb Ca 1981][research_air_force_test_pilot_school_edwards_afb_ca_1981], [Hoh et al 1981][research_hoh_1981], [Wright and Lappos 1981][research_wright_lappos_1981], [Brauser 1982][research_brauser_1982], [Clark 1982][research_clark_1982], [Helicopter Handling Qualities 1982][research_helicopter_handling_1982], [Key 1982][research_key_1982], [Levison 1982][research_levison_1982], [Boeing Vertol Co Philadelphia Pa 1983][research_boeing_vertol_co_philadelphia_pa_1983], [Hoh and Mitchell 1983][research_hoh_mitchell_1983], [Ashkenas 1984][research_ashkenas_1984], [Anderson 1985][research_anderson_1985], [Bivens 1986][research_bivens_1986], [Harper and Cooper 1986][research_harper_cooper_1986], [Wilhelm and Schafranek 1986][research_wilhelm_schafranek_1986], [Air Force Test Pilot School Edwards Afb Ca 1988, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1988], [Air Force Test Pilot School Edwards Afb Ca 1988, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1988_2], [Air Force Test Pilot School Edwards Afb Ca 1988, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1988_3], [Air Force Test Pilot School Edwards Afb Ca 1988, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1988_4], [Air Force Test Pilot School Edwards Afb Ca 1988, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1988_5], [Air Force Test Pilot School Edwards Afb Ca 1989][research_air_force_test_pilot_school_edwards_afb_ca_1989], [Ford 1989][research_ford_1989], [Photosedimentometer with new handling 1989][research_photosedimentometer_with_1989], [Air Force Test Pilot School Edwards Afb Ca 1990, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1990], [Air Force Test Pilot School Edwards Afb Ca 1990, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1990_2], [Air Force Test Pilot School Edwards Afb Ca 1990, Volume II. Flying Qualities Phase][research_air_force_test_pilot_school_edwards_afb_ca_1990_3], [Cavallo et al 1990][research_cavallo_1990], [Air Force Test Pilot School Edwards Afb Ca 1991, Volume II. Flying Qualities Fligh][research_air_force_test_pilot_school_edwards_afb_ca_1991_2], [Air Force Test Pilot School Edwards Afb Ca 1991, Volume II. Flying Qualities, Chap][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Air Force Test Pilot School Edwards Afb Ca 1992][research_air_force_test_pilot_school_edwards_afb_ca_1992], [Christopher L Blanken and Matthew S Whalley 1993][research_christopher_l_blanken_matthew_s_whalley_1993], [Wilson et al 1993][research_wilson_1993], [Doman 1995][research_doman_1995], [Franklin 2000][research_franklin_2000], [Mitchell et al 2003][research_mitchell_2003], [Malpica and Lusardi 2013][research_malpica_lusardi_2013], [Baughman and Longeauay 2015][research_baughman_longeauay_2015], [Grant et al 2015][research_grant_2015], [Srinathkumar 2015][research_srinathkumar_2015], [Garkushenko and Vinogradov 2016][research_garkushenko_vinogradov_2016], [Hebbar and Pashilkar 2016][research_hebbar_pashilkar_2016], [Hess 2016][research_hess_2016], [Lawrence et al 2016, Handling Qualities Optimization f][research_lawrence_2016], [Lawrence et al 2016, Handling Qualities Optimization f][research_lawrence_2016_2], [Nonnenmacher and Jones 2016][research_nonnenmacher_jones_2016], [Truong et al 2016][research_truong_2016], [Zhou et al 2017][research_zhou_2017], [Lawrence et al 2018][research_lawrence_2018], [Dussart et al 2019][research_dussart_2019], [Rauer 2019][research_rauer_2019], [Portapas and Cooke 2020][research_portapas_cooke_2020], [Bahr et al 2021][research_bahr_2021], [Campos and Marques 2021][research_campos_marques_2021], [Memon et al 2021][research_memon_2021], [Cao et al 2022][research_cao_2022], [D’hondt et al 2022][research_dhondt_2022], [Henriquez Huecas et al 2022][research_henriquez_huecas_2022], [Jafari and Mashadi 2022][research_jafari_mashadi_2022], [Ji et al 2022][research_ji_2022], [Yuan et al 2022][research_yuan_2022], [Zanoni et al 2022][research_zanoni_2022], [Li et al 2024, An Objective Handling Qualities A][research_li_2024_4], [Saetti and Rogers 2024][research_saetti_rogers_2024], [Wang and Chen 2024][research_wang_chen_2024], [Antonakis 2025, Handling Qualities sizing for aer][research_antonakis_2025], [Antonakis 2025, Reinforcement-learning-based airc][research_antonakis_2025_2], [Favaro et al 2025][research_favaro_2025], [Wang et al 2025, Modeling multirotor wake interfer][research_wang_2025_2], [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026], [Jusko and Berger 2026][research_jusko_berger_2026]. The X-22 is cited far more often for what it measured about flying than for anything it demonstrated about ducts.
 
@@ -193,7 +289,9 @@ The thrust augmentation figure assumes an ideal duct with no internal losses and
 
 **The normal force calculation is the weakest part of the article.** It is momentum turning multiplied by an assumed lip factor of two, and the sensitivity is large, giving a peak of anywhere between 0.54 and 1.35 times the aircraft weight over four ducts as that factor runs from one to two and a half. **The shape of the curve is robust and the magnitude is not.**
 
-The conversion schedule is assumed linear. A real conversion is flown on a corridor set by the available power, the wing lift and the pitching moment, and the article does not compute that corridor because the wing areas are not to hand.
+**The conversion corridor is now derived rather than assumed**, from a wing area that the conversion speed implies rather than one taken from a data sheet. That derivation rests on an assumed maximum lift coefficient of 1.4 and on the assumption that the wings carry the whole weight at the conversion speed, and the resulting area is checked against the two spans rather than against a published figure.
+
+**The normal force is the weakest thing in the article and it is now weak in a documented way.** The momentum model overestimates it badly wherever the crossflow parameter exceeds about one half, which is most of the middle of the conversion, and the article says so rather than quoting the number the model produces there.
 
 Nothing here treats the tandem interference, which the ground testing suggests is the hardest part of the configuration.
 

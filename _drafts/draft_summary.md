@@ -21,8 +21,37 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bell_x22.markdown`, A319, editorial date 2025-10-28, series `x_planes` index 23 of 72.
 
-1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass. One of four passes
-complete. Committed, not pushed. Not published.
+1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass; **1,101 lines, 25
+display equations, 750 references, 7,835 words after the equation review.** Two of four passes complete.
+Committed, not pushed. Not published.
+
+**The equation pass corrected the draft's central number and then corrected itself.** The draft evaluated
+the duct normal force along an assumed linear ramp and reported a peak of 1.08 times duct thrust.
+Deriving the conversion corridor from the force balance, which the draft had said could not be done,
+puts the ducts at much larger angles much later and raises the momentum estimate to **2.26 times the
+whole aircraft weight**.
+
+**That number is not credible and saying so is the point.** Asking why the model produces it gives the
+validity parameter, the ratio of the crossflow component to the induced velocity. It passes 0.5 at 100
+feet per second and returns below it at 195. **The momentum model is therefore valid at both ends of the
+conversion and invalid in the middle, and the middle is exactly where a tilt aircraft is hard to fly.**
+What caps the force there is lip separation, which is the known weakness of every ducted fan and now has
+a computed boundary rather than a mention.
+
+**The draft said the corridor could not be computed because the wing areas were not to hand.** That was
+giving up too early. At the end of a conversion the wings carry the whole weight, so the conversion speed
+implies the area, giving 213 square feet, and the implied mean chords of 3.62 and 3.10 feet on the two
+spans are what the photographs show.
+
+**A second cross-check closes on the drag.** Installed power and the quoted 278 knot maximum speed give
+an equivalent flat-plate area of 24.3 square feet, and four seven-foot ducts give the same number at a
+duct drag coefficient of 0.158. A clean aeroplane of this weight would have five to eight. **The shroud
+buys thrust in the hover, charges an annular wing in the conversion, and charges again in cruise**, which
+is the same trade seen three times.
+
+Also computed: the duct pitching couple at 31,500 foot-pounds against 24,600 available from elevons in
+the jets, the 312 horsepower that crosses the airframe with one engine out, a power loading of 3.9 pounds
+per horsepower against 12 for a helicopter, and a payload fraction of 8.2 percent.
 
 **The keystone is that the shroud pays twice and in opposite directions.** Ducted momentum theory with an
 exit area ratio gives thrust proportional to the cube root of that ratio, so a duct that merely prevents

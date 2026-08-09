@@ -9,119 +9,107 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A319, the Bell X-22A, drafted. The first of four passes. **Committed, not pushed. Not
-published.** Twenty-three of seventy-two articles now drafted, all in `_drafts/`.
+**Task**: A319 equation-density review, the second of four passes. **Committed, not pushed. Not
+published.**
 
-**1,003 lines, 13 display equations, 750 references, 6,630 words.**
-
----
-
-## The Keystone. The Shroud Pays Twice, in Opposite Directions
-
-Ducted momentum theory with an exit area ratio $\sigma$ gives $T \propto \sigma^{1/3}$, and an open
-propeller is the case $\sigma = 1/2$ because its wake contracts to half the disc area. So a duct that
-merely prevents that contraction returns
-
-$$\frac{T_{\text{duct}}}{T_{\text{open}}} = 2^{1/3} = 1.26$$
-
-**Twenty-six percent more static thrust for the same power, from a ring of metal that does no work.**
-That is what makes a seven-foot propeller viable at ninety-five pounds per square foot of disc loading.
-
-The same shroud held at incidence during conversion behaves as an annular wing. Its normal force peaks
-at **3,941 pounds against a duct thrust of 3,650**, a ratio of 1.08, at 130 feet per second. **That is
-the middle of the conversion**, where the wings are not yet working and the ducts no longer point at the
-ground.
+**13 display equations to 25**, across nine edits. 1,003 lines to 1,101, 6,630 words to 7,835.
 
 ---
 
-## The Strongest Check. The Quoted Margin Is Not a Margin
+## The Pass Corrected the Draft, Then Corrected Itself
 
-The programme is described everywhere as having 35 percent excess power so it could hover with an engine
-out. **That is not a safety margin. It is the smallest number that makes three-engine hover possible**,
-because
+The draft evaluated the duct normal force along an **assumed** linear ramp from ninety degrees at rest
+to zero at the conversion speed, and reported a peak of 1.08 times duct thrust.
 
-$$\tfrac{3}{4} \times 1.35 = 1.0125$$
+**The draft also said the real corridor could not be computed because the wing areas were not to hand.
+That was giving up too early.** At the end of a conversion the ducts are horizontal and the wings carry
+the whole weight, so the conversion speed implies the area,
 
-One and a quarter percent. And the reading is checkable, because it fixes the figure of merit at 0.716,
-which is an ordinary value for a ducted lift fan. Feeding that back through momentum theory predicts the
-weight three engines can lift as **14,721 pounds against the 14,600 the programme quotes separately**.
+$$S = \frac{2W}{\rho V_{\text{conv}}^{2} C_{L,\max}} = 213\ \text{ft}^{2}$$
 
-**Agreement to 0.83 percent, from a press figure and a momentum calculation that share nothing.**
+and the implied mean chords of 3.62 and 3.10 feet on the two spans are what the photographs show. **That
+is a check, not an assumption.**
 
-At maximum takeoff weight the aircraft could not hover on three engines at all, and had 1.6 percent in
-hand on four.
-
----
-
-## The Series Thread. Cross-Shafting Answers the X-18
-
-Losing one of four ducts applies
-
-$$M = 3{,}650 \times 19.62 = 71{,}600\ \text{ft}\cdot\text{lbf}$$
-
-of rolling moment. **Cross-shafting adds no power. It converts an engine failure from a control
-emergency into a performance shortfall spread over four ducts.** The X-18 had two engines with no
-interconnection and died of the asymmetry rather than the shortfall. The X-22 was designed so the
-asymmetry cannot happen.
+Solving the force balance on that area puts the ducts at much larger angles much later than a linear ramp
+does, and the momentum estimate climbs to **2.26 times the whole aircraft weight**.
 
 ---
 
-## What the Aeroplane Became
+## That Number Is Not Credible, and That Is the Finding
 
-It flew from 17 March 1966 to October 1984. **Eighteen years, longer than the X-1, X-2 and X-15 put
-together.** One of the two aircraft was lost in August 1966 to a propeller-control failure, and the crew
-survived, which is more than the X-18 managed with the same class of failure.
+More than twice the weight, applied sideways in mid-conversion, would be unflyable and unmissable. So the
+model is wrong there, and the useful question is where it stops being right.
 
-From 1968 the survivor carried a variable-stability system from the Cornell Aeronautical Laboratory. It
-stopped being a prototype of a configuration and became a flying simulator of configurations that did
-not exist. **What it produced was not data about four-ducted aeroplanes but data about how any
-vertical-takeoff aircraft ought to handle.**
+The momentum argument assumes the duct captures its own streamtube and turns all of it, which holds while
+the crossflow component is small compared with the velocity the duct induces,
 
-**It is the only aircraft in this series so far that was rescued by repurposing.** The X-18 was scrapped,
-the X-19 crashed, the X-20 was cancelled and the X-21 became a photographic target. The X-22 is the only
-one of them still whole.
+$$\mu = \frac{V_{\infty} \sin i}{v_{i}}$$
+
+**That parameter passes 0.5 at 100 feet per second and comes back below it at 195.** The momentum model is
+valid at both ends of the conversion and invalid in the middle, **and the middle is exactly where a tilt
+aircraft is hard to fly.**
+
+What caps the force in that band is not momentum. It is that the lip cannot hold the flow round it at
+that incidence and separates. **Lip stall was a mention in the draft and now has a computed boundary.**
+
+The article now states the normal force reaches about the duct's own thrust where the model can be
+trusted, and that beyond it the binding limit is lip separation. **It does not quote the number the model
+produces where the model does not hold.**
 
 ---
 
-## A Ducted Propeller Belongs to Three Fields
+## A Second Cross-Check, on the Drag
 
-**Aeronautics, naval architecture and wind energy.** The Kort nozzle is a duct round a ship's propeller
-with a large old literature. The diffuser-augmented wind turbine is a ducted rotor with the same
-momentum theory and no relevance here.
+Installed power and the quoted 278 knot maximum speed give an equivalent flat-plate area,
 
-Twenty-one marine records were read out of the pool at the first scan and **four more survived into the
-fourth check**, including a ducted propeller for submarines and a ducted Archimedes screw turbine. This
-homonym is more persistent than the A315 propeller case because the marine device is not merely
-similarly named, it is the same device.
+$$f = \frac{D}{q} = \frac{4{,}689}{193.3} = 24.3\ \text{ft}^{2}$$
 
-**Three near-misses went the other way and were kept.** The United States **Marine** Corps is not marine
-engineering, **Building** Credible Flight Models is not building aerodynamics, and helicopter shipboard
-landings are aircraft work.
+and four seven-foot ducts give the same number at a duct drag coefficient of 0.158, which is ordinary for
+a short annular body with a propeller in it. **A clean aeroplane of this weight would have five to eight
+square feet.** The lift-to-drag ratio at maximum speed is 3.26.
+
+**That is the same trade seen a third time.** The shroud buys twenty-six percent of thrust in the hover,
+charges an annular wing's normal force in the conversion, and charges again in cruise by holding 154
+square feet of frontal area in the airstream for the rest of the flight.
+
+---
+
+## Also Now Computed
+
+- **The duct pitching couple**, 31,500 foot-pounds nose-up over four ducts, which the tandem layout does
+  not cancel because both pairs tilt the same way
+- **The elevon authority against it**, 24,600 foot-pounds from four surfaces in the jets, the same order
+  as the couple they exist to oppose, which is why they are that size and in that place
+- **The cross-shaft**, 3,440 foot-pounds per propeller and 312 horsepower crossing the airframe with one
+  engine out. The cost is not the shaft, it is that every gearbox takes power from either direction and
+  the train becomes a single failure path
+- **Power loading against disc loading**, 3.9 pounds per horsepower at 94.8 against 12.1 at 10, so a
+  helicopter of the period lifted about three times as much per horsepower
+- **The payload fraction**, 8.2 percent, which is the number that decides whether a configuration becomes
+  a transport
 
 ---
 
 ## Verification
 
-- **65 independent re-derivations, zero disagreements.** The verifier builds the ducted momentum result
-  from the exit condition rather than the closed form the article displays, obtains the figure of merit
-  by bisection rather than division, and inverts the weight numerically rather than with an exponent
-- **One imprecision caught and corrected.** The normal-force table samples every twenty feet per second,
-  and its maximum row is not the continuous maximum. The peak is at 130 feet per second, not 120, and
-  the article now states both
-- 750 references, zero undefined, zero orphaned, zero duplicate URLs
-- **625 DOIs confirmed registered in Crossref and 105 archive links at HTTP 200, zero failures**
+- **134 independent re-derivations across two verifiers, zero disagreements.** The corridor is solved by
+  bisecting the vertical force balance rather than by evaluating an arctangent, the drag check is
+  inverted to recover the maximum speed from the flat-plate area, and the crossflow parameter is
+  recomputed from the bisected angle rather than carried over
 - All 23 articles pass `check_any.py`, `_verify.py` at the 0-error 21-warning baseline, and the
-  23-article isolated build succeeds with 13 of 13 equations rendering as display math
+  23-article isolated build succeeds with **25 of 25 equations rendering as display math**
 
 ---
 
 ## State
 
-**A319 has had one of four passes.** The three remaining are yours to prompt.
+**A319 has had two of four passes.** The reference-density review and the publication review are yours to
+prompt.
 
-At 13 equations it is the lightest draft in the series so far, and deliberately so. **The equation pass
-has a great deal to work with**, since the conversion corridor, the tandem interference, the duct
-pitching moment and the transmission torque are all named in the draft and none is computed.
+At 750 references it is already reference-heavy for a draft, and the primary pass should expect the same
+inter-pass dependency this series keeps finding, since the equation pass has just promoted the corridor,
+the crossflow parameter, lip separation, duct drag, transmission torque and disc-loading scaling, and
+none of those was a topic when the harvest was designed.
 
 Nothing in the series is published. The publication-order dependency is twenty-three deep.
 
