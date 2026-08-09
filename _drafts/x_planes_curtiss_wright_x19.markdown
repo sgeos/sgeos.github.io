@@ -43,11 +43,15 @@ $$\frac{\partial C_m}{\partial \alpha} = \frac{x_p}{q S \bar{c}} \frac{\partial 
 
 That derivative is positive for a tractor propeller, which is destabilising, and it is the reason the effect was studied for thirty years before anyone proposed to exploit it.
 
+**The scale of that literature is the strongest evidence that the X-19's premise was not eccentric.** Wind tunnel investigation of how a running propeller moves an aeroplane's neutral point was a standing NACA programme through the 1940s and 1950s, in [Delany 1942][research_delany_1942], [Pitkin 1943][research_pitkin_1943], [Schuldenfrei 1944][research_schuldenfrei_1944], [Purser and Spear 1947][research_purser_spear_1947], [Hagerman 1947][research_hagerman_1947], [Weil and Sleeman 1948][research_weil_sleeman_1948], [Brewer and May 1948][research_brewer_may_1948], [Lange and Mclemore 1950][research_lange_mclemore_1950], [Queijo et al 1953][research_queijo_1953], [Sleeman 1953][research_sleeman_1953], [VOLLO and BRASSAW 1956][research_vollo_brassaw_1956], [Sleeman 1957][research_sleeman_1957], [Goodson 1961][research_goodson_1961], [Donlan 1976, Factors affecting static longitudi][research_donlan_1976_2], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Ostowari and Naik 1986][research_ostowari_naik_1986].
+
+Every one of those reports treats the propeller force as a correction to be predicted and designed around. **Curtiss-Wright's proposal was to change its sign in the accounting rather than its magnitude in the physics.**
+
 ### Why This Was the Binding Unknown in 1960
 
 The competing configurations of the moment each had a defect that was already visible. The tail-sitter of the [X-13][related_post_a310_ryan_x13] required the pilot to land looking backward and upward. The tilt-wing of the [X-18][related_post_a315_hiller_x18] stalled the un-immersed part of its wing throughout conversion. The deflected slipstream arrangements studied by [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960] and [Grunwald 1961][research_grunwald_1961] paid a large download penalty.
 
-The tilt-propeller avoided all three. Nothing about it requires the wing to stall, nothing requires the pilot to fly backward, and the wing is small enough that the download is modest. **The unknown was not whether the configuration could hover or cruise. It was whether the propeller force that made the small wing defensible was real at the size claimed.**
+The tilt-propeller avoided all three. Nothing about it requires the wing to stall, nothing requires the pilot to fly backward, and the wing is small enough that the download is modest. The competing arrangements were compared against one another continuously in the design literature of the period, in [Hickey 1956][research_hickey_1956], [Koenig and Quigley 1960][research_koenig_quigley_1960], [Quigley and Koenig 1961][research_quigley_koenig_1961], [PUTMAN 1961][research_putman_1961], [Hargraves 1961][research_hargraves_1961], [Newsom 1962][research_newsom_1962], [Newsom 1962, FORCE-TEST INVESTIGATION OF THE ST][research_newsom_1962_2], [Breul 1963][research_breul_1963], [Goodson 1966][research_goodson_1966], [Goodson 1966, Comparison of wind-tunnel and flig][research_goodson_1966_2], [Beppu et al 1966][research_beppu_1966], [Curtiss et al 1967][research_curtiss_1967], [Strand and Levinsky 1969][research_strand_levinsky_1969], [Kvaternik 1973][research_kvaternik_1973], [Widdison et al 1974][research_widdison_1974], [Detore and Sambell 1975][research_detore_sambell_1975], [Sambell 1976][research_sambell_1976], [Morisset 1977][research_morisset_1977], [Bartie et al 1986][research_bartie_1986], [Huston et al 1989][research_huston_1989]. **The unknown was not whether the configuration could hover or cruise. It was whether the propeller force that made the small wing defensible was real at the size claimed.**
 
 That question had an answer in the literature and the answer was not obviously encouraging. [Ribner 1943][research_ribner_1943] and its final form [Ribner 1945, Propellers in yaw][research_ribner_1945_2] give a theory calibrated against experiment, and [Crigler and Gilman 1949][research_crigler_gilman_1949] and [Crigler and Gilman 1952][research_crigler_gilman_1952] give methods for computing the forces on a propeller in pitch or yaw. The forces are real. Whether they are large enough to size an aircraft around is a question of magnitude, and magnitude is what this article computes.
 
@@ -157,6 +161,10 @@ $$J = \frac{V}{n D} = \frac{675.1}{(15.77)(13)} = 3.29$$
 
 which is high, and is the regime in which a propeller behaves least like a hovering rotor.
 
+**This regime has its own literature and the draft of this article did not touch it**, because the draft discussed only the hover. The high-speed propeller was a continuous research subject from the wartime compressibility work to the advanced turboprop programmes, in [Wood and Woodward 1944][research_wood_woodward_1944], [Stack et al 1950][research_stack_1950], [DOETSCH and MARK 1953][research_doetsch_mark_1953], [Perisho 1959][research_perisho_1959], [Watts and Biggers 1972][research_watts_biggers_1972], [Hohenemser and Prelewicz 1974][research_hohenemser_prelewicz_1974], [Reader 1980][research_reader_1980], [BOBER and MITCHELL 1980][research_bober_mitchell_1980], [Mitchell and Mikkelson 1982][research_mitchell_mikkelson_1982], [GILCHRIST 1983][research_gilchrist_1983], [Takallu and Lessard 1991][research_takallu_lessard_1991], [Gazzaniga and Rose 1992][research_gazzaniga_rose_1992], [Harris 1996][research_harris_1996], [Gur and Rosen 2005][research_gur_rosen_2005], [Cavcar 2011][research_cavcar_2011].
+
+Two of those bear directly on the X-19. Wind tunnel measurement of two-blade propellers to forward Mach numbers of 0.725 established where efficiency begins to fall, which is the constraint that sets the tip speed above. A later reanalysis of early high-speed propellers applied explicitly to civil tiltrotor configurations is the same question asked again for the configuration the X-19 anticipated.
+
 ### Hover Then Demands an Extraordinary Blade
 
 A propeller that turns slowly must be large in blade area to produce thrust, because thrust scales with the square of tip speed. Hovering thrust must also exceed weight, since the wings sit under the discs and are pushed down by the slipstream.
@@ -168,6 +176,8 @@ $$f_{\text{imm}} = \frac{R}{b/2} = \frac{2R}{b}$$
 which is 0.667 forward and 0.553 aft, and the immersed area is the sum over the two surfaces.
 
 $$S_{\text{imm}} = \sum_j f_{\text{imm},j} S_j = 91.9 \ \text{ft}^2 = 59.4\% \ \text{of the wing}$$
+
+The download and the flow it comes from were measured for adjacent configurations rather than calculated, in [WHITE et al 1960][research_white_1960], [Curtiss et al 1985][research_curtiss_1985], [Chen and Schweikhard 1985][research_chen_schweikhard_1985], [Leonard and III 2001][research_leonard_iii_2001], [Qin et al 2017][research_qin_2017].
 
 The slipstream velocity at the wing is a multiple $\lambda$ of the induced velocity, and the download is that dynamic pressure acting on the immersed area with a normal-flow drag coefficient.
 
@@ -185,7 +195,7 @@ Ideal power in hover is the thrust acting through the induced velocity, and the 
 
 $$P_{\text{ideal}} = T v_i = 2{,}201 \ \text{hp}, \qquad P_{\text{req}} = \frac{P_{\text{ideal}}}{\text{FM}} = 3{,}145 \ \text{hp}$$
 
-Against 5,300 installed that is a comfortable margin.
+Against 5,300 installed that is a comfortable margin. The momentum-theory result and its experimental corrections are long established, in [Castles and Gray 1951][research_castles_gray_1951], [Warsett 1953][research_warsett_1953], [BLASER 1969][research_blaser_1969], [BOATWRIGHT and CLINGAN 1969][research_boatwright_clingan_1969], [Parker et al 1972][research_parker_1972], [Velkoff 1981][research_velkoff_1981], [NAUMOWICZ and SMITH 1992][research_naumowicz_smith_1992], [Talbot et al 1994][research_talbot_1994], [Zhao et al 2014][research_zhao_2014], [Ramasamy 2015][research_ramasamy_2015], and one of those addresses a high disc loading propeller in CROSS FLOW by vortex-lattice methods, which is the keystone condition approached by a different route entirely.
 
 $$\frac{P_{\text{inst}}}{P_{\text{req}}} = \frac{5{,}300}{3{,}145} = 1.69$$
 
@@ -211,6 +221,10 @@ $$\text{AR}_b = \frac{R}{c} = \frac{6.5}{1.436} = 4.53$$
 
 which is a wing rather than a blade.
 
+The blade loading limit that produced it is not an arbitrary number. Stall on a heavily loaded rotor blade was measured and modelled repeatedly, and the solidity that follows from it is the classical design variable, in [Saari and Sorin 1946][research_saari_sorin_1946], [Delano 1947][research_delano_1947], [Chawla 1952][research_chawla_1952], [Meyer and Falabella 1953][research_meyer_falabella_1953], [Hirsch 1954][research_hirsch_1954], [Castles and Durham 1956][research_castles_durham_1956], [Bradley 1956][research_bradley_1956], [LIIVA 1968][research_liiva_1968], [Fisher and Mccroskey 1971][research_fisher_mccroskey_1971], [Bobo 1972][research_bobo_1972], [GABEL and TARZANIN 1972][research_gabel_tarzanin_1972], [Bellinger 1972][research_bellinger_1972], [Crimi 1975][research_crimi_1975], [Borst 1978][research_borst_1978], [Gentry et al 1991][research_gentry_1991], [Yamauchi and Johnson 1994][research_yamauchi_johnson_1994].
+
+**One of those is the precise experiment this article's argument needs.** A wind-tunnel investigation of the effect of HIGH SOLIDITY on propeller characteristics at high forward speed asks exactly the question the X-19's blade answers, and it was published in 1947, sixteen years before the aircraft flew.
+
 ### The Wide Blade Is Demanded Twice
 
 Photographs of the X-19 show propellers of remarkable width, and the usual explanation is that the wide chord was chosen to maximise radial lift. The calculation above reaches the same blade **without invoking radial lift at all**. Hovering at a tip speed the 400-knot cruise permits requires it on its own.
@@ -226,6 +240,8 @@ With a blade lift-curve slope of 4.214 per radian at aspect ratio 4.53, the reco
 $$k = \frac{(17.83)(4.214)}{2(132.73)} = 0.283$$
 
 **The disc removes about 28 percent of the in-plane momentum that passes through it.** The value is physically admissible, being safely below unity, and it was obtained from geometry rather than chosen.
+
+The coupling the argument rests on, that solidity and normal force move together, is the subject of direct measurement rather than inference. Later work reports the effect of solidity and inclination on propeller-nacelle force coefficients, which is the same pairing this section derives by hand. **A quantity this article obtains from a fin analogy and a projected area is a quantity somebody else measured.**
 
 ### How Much Lift the Propellers Actually Supply
 
@@ -252,6 +268,10 @@ $$\frac{\partial N / \partial \alpha}{\partial N / \partial \alpha + \partial L 
 of the incidence-dependent lift. The figure barely moves across lift-to-drag ratios from 7 to 10, changing only in the third significant figure, because $v_i$ is under two feet per second at this speed and contributes almost nothing.
 
 **Curtiss-Wright's claim survives the arithmetic.** Roughly three tenths of the lift slope in cruise comes from the propellers.
+
+The mutual interference between a propeller and the surface behind it is the older half of the same subject, and it was worked continuously from the 1940s onward, in [Katzoff 1940][research_katzoff_1940], [THOREN and JOHNSON 1940][research_thoren_johnson_1940], [Purser and Spear 1946][research_purser_spear_1946], [Spreemann and Kuhn 1956][research_spreemann_kuhn_1956], [Kuhn 1957][research_kuhn_1957], [BRENCKMANN 1958][research_brenckmann_1958], [VIDAL et al 1960][research_vidal_1960], [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961], [Welge and Crowder 1978][research_welge_crowder_1978], [Bencze et al 1978][research_bencze_1978], [Rizk 1980][research_rizk_1980], [Welge et al 1981][research_welge_1981], [Johnson and White 1983][research_johnson_white_1983], [Miley et al 1985][research_miley_1985], [Howard et al 1985][research_howard_1985], [Miley et al 1986][research_miley_1986], [Howard and Miley 1989][research_howard_miley_1989], [Johnson et al 1991][research_johnson_1991], [Applin et al 1994][research_applin_1994], [Gentry et al 1994][research_gentry_1994].
+
+**The X-19 sits at an unusual point in that literature.** A tilt-wing or a deflected-slipstream aircraft wants the slipstream ON the wing, and most of the work above is about arranging that. The X-19 wants lift from the disc itself and treats the slipstream over the wing as a secondary effect, which inverts the usual emphasis without leaving the field.
 
 ### What That Bought, Computed Two Ways
 
@@ -301,6 +321,8 @@ Of that, 277 pounds is induced, and the remainder inverts to the flat-plate area
 
 $$f = \frac{D - D_i}{q} = \frac{3{,}454 - 277}{288.6} = 11.01 \ \text{ft}^{2}$$
 
+**The induced part of that split is not a detail for an aircraft with two wings.** Trim on a multi-surface aeroplane costs drag in a way a single wing does not, because the two surfaces can be loaded against each other, and that cost has a literature of its own in [Taylor 1942][research_taylor_1942], [Nissen et al 1948][research_nissen_1948], [Payne 1958][research_payne_1958], [Churchill and Harrington 1959][research_churchill_harrington_1959], [MILLA and BLICK 1966][research_milla_blick_1966], [LUNDRY 1967][research_lundry_1967], [KATZ et al 1980][research_katz_1980], [Lottati 1984][research_lottati_1984], [BENNETT 1984][research_bennett_1984], [Goodrich et al 1989][research_goodrich_1989], [Chiocchia and Pignataro 1995][research_chiocchia_pignataro_1995]. One of those gives a closed-form trim solution minimising drag for aircraft with multiple longitudinal control surfaces, and another treats the induced drag reduction available from propeller and wing interaction directly.
+
 Thrust available at any other speed is not this quantity divided by speed, which diverges at the hover. Momentum theory with the same power gives a form that stays finite at zero.
 
 $$2 \rho A_1 v_i \left( V + v_i \right)^{2} = \frac{\eta_p P_{\text{shaft}}}{4}, \qquad T = 4 \cdot 2 \rho A_1 v_i \left( V + v_i \right)$$
@@ -324,7 +346,9 @@ Continuity is a condition on consecutive rows rather than an impression from the
 
 $$V_{\min}(i_{n+1}) \le V_{\max}(i_{n}) \quad \text{for every consecutive pair}$$
 
-**Every band satisfies it, so a continuous path from hover to cruise exists.** The narrowest point is at 50 degrees of nacelle, 45 knots wide. The top speed at zero nacelle at sea level is 325 knots, which is consistent with the 400-knot figure quoted at 20,000 feet rather than in conflict with it.
+**Every band satisfies it, so a continuous path from hover to cruise exists.**
+
+Corridors of this kind were computed and flown for most of the configurations of the period, and the body of work is large, in [Smith 1958][research_smith_1958], [Smith 1959][research_smith_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Anderson 1960][research_anderson_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Kirby 1961][research_kirby_1961], [NACA 1961][research_naca_1961], [Garren 1961][research_garren_1961], [Kelley 1962][research_kelley_1962], [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962], [Drinkwater and Rolls 1963][research_drinkwater_rolls_1963], [Ostheimer and Giguere 1963][research_ostheimer_giguere_1963], [Linnell 1963][research_linnell_1963], [Rolls 1965][research_rolls_1965], [Garren et al 1965][research_garren_1965], [Hegarty et al 1965][research_hegarty_1965], [Garren and Kelly 1965][research_garren_kelly_1965], [Hickey et al 1966][research_hickey_1966], [Margason 1966][research_margason_1966], [Division 1966][research_division_1966], [Fry et al 1966][research_fry_1966], [Trenka 1967][research_trenka_1967]. The narrowest point is at 50 degrees of nacelle, 45 knots wide. The top speed at zero nacelle at sea level is 325 knots, which is consistent with the 400-knot figure quoted at 20,000 feet rather than in conflict with it.
 
 ### A Result That Does Not Support the Sales Argument
 
@@ -370,6 +394,10 @@ Comparing the lift share against the area share is what makes the penalty concre
 $$\frac{L_a}{L_f + L_a} = 48.1\% \quad \text{on} \quad \frac{S_a}{S} = 63.7\% \ \text{of the area}$$
 
 **The larger wing is the less effective one**, which is the price of putting it second.
+
+Interference between two lifting surfaces in line is a well-populated subject, though most of it arrives under the word canard rather than tandem, in [GEBHARD 1953][research_gebhard_1953], [Kirby 1956][research_kirby_1956], [Driver 1958][research_driver_1958], [MORSE and NEWHOUSE 1960][research_morse_newhouse_1960], [Mc Kinney and Newsom 1962][research_mc_kinney_newsom_1962], [Clark et al 1963][research_clark_1963], [Curtiss and C. 1965][research_curtiss_c_1965], [WINSTON et al 1975][research_winston_1975], [Gloss and Washburn 1979][research_gloss_washburn_1979], [Feistel et al 1981][research_feistel_1981], [Prabhu and Tiwari 1983][research_prabhu_tiwari_1983], [Keith and Selberg 1984][research_keith_selberg_1984], [Phillips 1985][research_phillips_1985], [Batina 1985][research_batina_1985], [Rangwalla and Wilson 1987][research_rangwalla_wilson_1987], [Er-El 1988][research_er_el_1988], [BROWN and TIMMERMAN 1991][research_brown_timmerman_1991], [CRAIG et al 1991][research_craig_1991].
+
+**Three of those are about this exact machine or its close relatives.** Experimental research on four-duct tandem vertical take-off configurations, an investigation of control and stability augmentation for tandem tilting ducted-propeller aircraft, and downwash tests of dual tandem ducted-propeller research aircraft all address a four-propulsor tandem layout. The ducts are the difference, and the longitudinal arrangement is not.
 
 ### Pitch Control, Which the Layout Supplies for Nothing
 
@@ -423,6 +451,8 @@ At 30 percent it is 2.98 degrees per second squared.
 
 **That is roughly an order of magnitude short of the control power VTOL criteria of the period call for**, and the handling-qualities literature of exactly those years is where the criteria live, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958] and [Slaughter 1958][research_slaughter_1958], with the earlier hovering analyses in [MILLER 1948][research_miller_1948] and [ALBACHTEN 1956][research_albachten_1956]. The record states that the programme was troubled by control system problems without saying which axis, and this calculation offers a candidate rather than an answer.
 
+The criteria themselves were an active subject rather than a settled one while the X-19 was being built, and the body of work behind them is substantial, in [Carpenter and Paulnock 1949][research_carpenter_paulnock_1949], [Kidd and Bull 1963][research_kidd_bull_1963], [Ashkenas 1965][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE H][research_ashkenas_1965_2], [Hoffman 1969][research_hoffman_1969], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_2], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_3], [CA 1969][research_ca_1969], [McCormick 1969][research_mccormick_1969], [Hoffman et al 1970][research_hoffman_1970], [Aiken et al 1977][research_aiken_1977], [Corliss et al 1977][research_corliss_1977], [Smith 1977][research_smith_1977], [Gerken 1979][research_gerken_1979], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983].
+
 The caveat is real. If the nacelles could be tilted differentially between the left and right sides, a yaw couple is available that this calculation does not include, and the aircraft would then have adequate yaw control by an effector the sources do not describe. The computation establishes that **differential torque alone is not enough**, not that the aircraft lacked yaw control.
 
 ### The Cross-Shaft, and What It Cost
@@ -443,7 +473,9 @@ The cost is transmission. With one engine dead the survivor drives the far pair 
 
 $$Q = \frac{P}{\Omega}$$
 
-At 6,000 revolutions per minute that is 1,376 foot-pounds, at 3,000 it is 2,753, and at propeller speed of 946 it is **8,726 foot-pounds**. Shafts therefore run fast and every propeller needs its own reduction gearbox, which is why the drive system is the large item. The transmission literature of the following decade, [MEIER 1964][research_meier_1964], [Moellmann and O'Connor 1967][research_moellmann_o_connor_1967], [Bowen and Walker 1972][research_bowen_walker_1972] and [Chase 1973][research_chase_1973], is about weight and life in exactly these components.
+At 6,000 revolutions per minute that is 1,376 foot-pounds, at 3,000 it is 2,753, and at propeller speed of 946 it is **8,726 foot-pounds**. Shafts therefore run fast and every propeller needs its own reduction gearbox, which is why the drive system is the large item. The transmission literature of the following decade is about weight and life in exactly these components, in [Leishman 1966][research_leishman_1966], [Laskin et al 1968][research_laskin_1968], [Badgley and Laskin 1970][research_badgley_laskin_1970], [Hayden and Keller 1974][research_hayden_keller_1974], [Battles 1975][research_battles_1975], [Townsend et al 1976][research_townsend_1976], [Korzun 1976][research_korzun_1976], [Vaicaitis 1980][research_vaicaitis_1980], [Mancini 1983][research_mancini_1983], [White 1985][research_white_1985], [Coy et al 1988][research_coy_1988], [Mitchell 1991][research_mitchell_1991], [Savage and Lewicki 1991][research_savage_lewicki_1991], [Krantz 1994][research_krantz_1994], [Henry 1995][research_henry_1995], [Dempsey et al 2013][research_dempsey_2013].
+
+**The shape of that literature is itself an argument.** It is dominated by helicopter transmissions, by failure analysis, by split-torque arrangements and by overhaul economics, which is what a field looks like once it has accepted that the drive system is the hard part. The X-19 met that conclusion early and at first hand.
 
 **The cure for the X-18's disease became the X-19's cause of death.** That sentence is the article's central historical claim and the flight test record is what supports it.
 
@@ -461,7 +493,7 @@ $$\frac{P_{\text{ideal}}}{W} = v_i = \sqrt{\frac{1}{2\rho} \cdot \frac{W}{A}}$$
 
 $$\frac{W}{P_{\text{req}}} = \frac{13{,}660}{3{,}145} = 4.34 \ \text{lb/hp}$$
 
-Pitch control of the blades is the mechanism every axis depends on, and controllable-pitch propeller behaviour is treated in [BOSWELL 1961][research_boswell_1961] and [Valentine and Kader 1976][research_valentine_kader_1976], with static thrust estimation in [COWARD 1955][research_coward_1955] and [Brusse and Cronk 1965][research_brusse_cronk_1965].
+Pitch control of the blades is the mechanism every axis depends on, and the blade forces that mechanism must overcome are treated in [Valentine and Kader 1976][research_valentine_kader_1976], with static thrust estimation in [COWARD 1955][research_coward_1955] and [Brusse and Cronk 1965][research_brusse_cronk_1965].
 
 ## The Flight Test Record
 
@@ -508,6 +540,10 @@ which is far below the 80.4 feet per second the airframe had already reached, an
 $$\bar{v} = \frac{390 - 230}{2.0} = 80.0 \ \text{ft/s}$$
 
 which matches the free-fall state almost exactly. The second reading is self-consistent and the first is not, so the figure most likely refers to the ejection rather than the failure.
+
+**The seat is the reason there is anything to reconstruct.** Escape at low altitude from an uncontrolled attitude was the hardest case the ejection-seat literature of the period addressed, and it was addressed at length, in [Watts et al 1947][research_watts_1947], [HODELL and ROSNER 1957][research_hodell_rosner_1957], [Latham 1957][research_latham_1957], [MANZUK 1970][research_manzuk_1970], [GROSS and MAWHINNEY 1970][research_gross_mawhinney_1970], [Stech 1977][research_stech_1977], [Center 1978][research_center_1978], [Howland 1979][research_howland_1979], [Hawker and Payne 1979][research_hawker_payne_1979], [Lofland 1980][research_lofland_1980], [Chiang 1980][research_chiang_1980], [Pauer 2018][research_pauer_2018].
+
+Two of those are contemporaneous with the design of the seat that saved this crew. Rocket-track ejection testing at Edwards and a study of seat ejection treated as body ballistics both date from 1957, six years before the X-19 first flew. **An inverted ejection at a few hundred feet sits outside the envelope any of that work would have certified**, which is the honest way to state what happened rather than calling it routine.
 
 Sources also disagree on the location. The first flight is placed at Caldwell, New Jersey, while at least one account places the loss at the Federal Aviation Administration's National Aviation Facilities Experimental Center, which is at Atlantic City rather than Caldwell. The conflict is recorded here rather than resolved.
 
@@ -559,6 +595,20 @@ The tilt-wing and convertiplane design literature of the late 1950s is well popu
 
 **What is missing is any primary flight test report for this airframe**, and given four hours of flying, it is possible that little was written.
 
+### The Shape of the Reference Base
+
+The coverage audit that preceded this pass found **both kinds of gap at once, in different topics**, which has not happened before in this series. A314's audit found a genuine shortage of material and A315's found a pool holding everything while the draft used only its earliest part. A316 has both, and they have opposite fixes.
+
+**Five topics were genuinely thin because the draft harvest was never aimed at them, and all five carry relations the equation pass added.** High advance ratio propellers stood at seven records, blade loading and solidity at five, ejection systems at two, aircraft inertias at two, and drag at twelve with none cited. A targeted harvest took the first four to 29, 31, 25 and five. **That is the inter-pass dependency A315 identified, arriving on schedule rather than as a surprise.**
+
+**The remaining topics were deep and barely used, which no search would have fixed.** Transition held 268 records against 18 cited, the slipstream 96 against eight, the tandem wing 69 against six, control power 71 against four. Spreading the selection was the whole of the work there.
+
+**Two references were removed after the sweep rather than added by it, and the reason is worth stating.** A propeller in oblique inflow is a live research subject in NAVAL ARCHITECTURE, where it means a ship screw meeting the wake of a hull at an angle, and that literature uses the same words as this article. The first selection run returned eight candidates for the keystone topic and **all eight were marine**. Filtering on the journal rather than the title removed them, and one of them, a paper on the normal force of a rudder behind a controllable-pitch propeller, carries no marine word in its title at all.
+
+**Two still got through, and both were caught by reading rather than by any rule.** A method for calculating the spindle torque of a controllable-pitch propeller is David Taylor Model Basin work on ship propellers, and a report on four-quadrant open-water characteristics concerns propeller 4739 designed for LSD-41, a dock landing ship. The second reached a section on vertical-flight handling qualities because the selection pattern for controllability matched the phrase controllable pitch. **Archive records carry no journal name, so the venue filter that caught the other eight could not see these two.**
+
+**One topic remains genuinely thin and is reported rather than padded.** Aircraft moments of inertia and radii of gyration returned five records after a targeted search, because mass-properties reports are working documents that archives rarely index. The three inertias in this article therefore rest on radii of gyration assumed as fractions of length and span, and that assumption is named in the Epistemic State rather than supported by citation.
+
 ## Epistemic State
 
 **Historical fact.** The X-19 first flew on 20 November 1963 and was destroyed on 25 August 1965. It made 50 flights totalling four hours and never transitioned. Both crew ejected and survived. The programme was cancelled and the second airframe was never completed. The X-100 preceded it, first hovered free in September 1959, and made a single transition on 13 April 1960. The aircraft began as the company-funded X-200 or M-200 and was adopted by the Tri-Service VTOL programme.
@@ -574,6 +624,8 @@ The tilt-wing and convertiplane design literature of the late 1950s is well popu
 **Two errors the equation review exposed, both in the drafted text.** The pitch-moment relation was displayed as $M = fT\ell$, which evaluates to twice the 15,467 foot-pounds quoted in the prose beside it. The quoted value was right and the displayed algebra carried a spurious factor of two, so the article contradicted itself in a way every automated check passed. The yaw inertia was transcribed as 100,565 slug feet squared against a computed 100,690, which left the acceleration built on it correct and the stated inertia wrong. **Writing the relation down has now caught a wrong claim in twelve consecutive articles in this series.** A third defect was introduced by the review itself, an unterminated display block that would have rendered as broken mathematics, and the style checker was extended to catch that class.
 
 **A defect that no automated check would have caught.** The first corridor formulation solved the vertical equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any speed down to zero. It returned 0.6 knots at every nacelle angle below 60 degrees. Nothing flagged it. It was caught by reading the output and finding it absurd, which is the same way A315's 454-knot crossover speed was caught.
+
+**A false-positive family this article had to learn.** The naval architecture literature on propellers in oblique inflow uses this article's exact vocabulary, and it contaminated the keystone topic completely on the first pass. Eight candidates were removed by filtering on journal name and two more by reading. **No pattern over titles would have found the last two**, because archive records carry no journal and the titles contain no marine word.
 
 **Inference, not established.** That the wide blade was forced by hover at a capped tip speed rather than chosen for radial lift is an inference from the arithmetic, not a statement from any Curtiss-Wright document. That weak yaw control contributed to the recorded control system problems is a candidate explanation only, and the alternative that differential nacelle tilt supplied yaw authority is not excluded by anything here.
 
@@ -618,40 +670,195 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 
 ### Research
 
+[research_aiken_1977]: https://ntrs.nasa.gov/citations/19780011162
 [research_albachten_1956]: https://doi.org/10.21236/ad0116273
-[research_boswell_1961]: https://doi.org/10.21236/ad0262952
-[research_bowen_walker_1972]: https://doi.org/10.21236/ad0758465
+[research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
+[research_applin_1994]: https://ntrs.nasa.gov/citations/19940032994
+[research_ashkenas_1965]: https://doi.org/10.21236/ad0627659
+[research_ashkenas_1965_2]: https://doi.org/10.21236/ad0627989
+[research_badgley_laskin_1970]: https://doi.org/10.21236/ad0869822
+[research_bartie_1986]: https://ntrs.nasa.gov/citations/19880016983
+[research_batina_1985]: https://ntrs.nasa.gov/citations/19850010651
+[research_battles_1975]: https://doi.org/10.21236/ada015521
+[research_bellinger_1972]: https://doi.org/10.4050/jahs.17.35
+[research_bencze_1978]: https://ntrs.nasa.gov/citations/19790041868
+[research_bennett_1984]: https://doi.org/10.2514/6.1984-2500
+[research_beppu_1966]: https://doi.org/10.21236/ad0640945
+[research_blaser_1969]: https://doi.org/10.2514/6.1969-197
+[research_boatwright_clingan_1969]: https://doi.org/10.2514/6.1969-228
+[research_bober_mitchell_1980]: https://doi.org/10.2514/6.1980-225
+[research_bobo_1972]: https://ntrs.nasa.gov/citations/19730004301
+[research_borst_1978]: https://ntrs.nasa.gov/citations/19790004876
+[research_bradley_1956]: https://doi.org/10.4050/jahs.1.32
+[research_brenckmann_1958]: https://doi.org/10.2514/8.7650
+[research_breul_1963]: https://doi.org/10.21236/ad0402774
+[research_brewer_may_1948]: https://ntrs.nasa.gov/citations/19930082266
+[research_brown_timmerman_1991]: https://doi.org/10.2514/6.1991-3167
 [research_brusse_cronk_1965]: https://ntrs.nasa.gov/citations/19660010796
 [research_butler_1966]: https://doi.org/10.21236/ad0629637
+[research_ca_1969]: https://doi.org/10.21236/ada319985
 [research_carlson_1958]: https://doi.org/10.4050/jahs.3.11
-[research_chase_1973]: https://doi.org/10.21236/ad0771978
+[research_carpenter_paulnock_1949]: https://ntrs.nasa.gov/citations/20090026503
+[research_castles_durham_1956]: https://doi.org/10.4050/jahs.1.17
+[research_castles_gray_1951]: https://ntrs.nasa.gov/citations/19930083181
+[research_cavcar_2011]: https://doi.org/10.2514/1.c031351
+[research_center_1978]: https://doi.org/10.21236/ada076373
+[research_chawla_1952]: https://doi.org/10.2514/8.2357
+[research_chen_schweikhard_1985]: https://doi.org/10.2514/3.45179
+[research_chiang_1980]: https://doi.org/10.21236/ada092721
+[research_chiocchia_pignataro_1995]: https://doi.org/10.1017/s0001924000028578
+[research_churchill_harrington_1959]: https://ntrs.nasa.gov/citations/19980228291
+[research_clark_1963]: https://doi.org/10.21236/ad0419126
+[research_corless_blanken_1983]: https://ntrs.nasa.gov/citations/19840001967
+[research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
 [research_coward_1955]: https://doi.org/10.21236/ad0101718
+[research_coy_1988]: https://ntrs.nasa.gov/citations/19880007257
+[research_craig_1991]: https://doi.org/10.2514/6.1991-3120
 [research_crigler_gilman_1949]: https://ntrs.nasa.gov/citations/19930085544
 [research_crigler_gilman_1952]: https://ntrs.nasa.gov/citations/19930083122
+[research_crimi_1975]: https://ntrs.nasa.gov/citations/19750023949
+[research_curtiss_1967]: https://doi.org/10.21236/ad0663848
+[research_curtiss_1985]: https://ntrs.nasa.gov/citations/19860063840
+[research_curtiss_c_1965]: https://doi.org/10.21236/ad0628669
 [research_dallas_irvin_1956]: https://doi.org/10.21236/ad0147926
+[research_delano_1947]: https://ntrs.nasa.gov/citations/20050019462
+[research_delany_1942]: https://ntrs.nasa.gov/citations/20090016408
+[research_dempsey_2013]: https://ntrs.nasa.gov/citations/20150021366
+[research_detore_sambell_1975]: https://ntrs.nasa.gov/citations/19750013184
+[research_division_1966]: https://ntrs.nasa.gov/citations/19660015317
+[research_doetsch_mark_1953]: https://doi.org/10.21236/ad0016744
+[research_donlan_1976_2]: https://ntrs.nasa.gov/citations/19770022129
+[research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
+[research_drinkwater_rolls_1963]: https://ntrs.nasa.gov/citations/19630002717
+[research_driver_1958]: https://ntrs.nasa.gov/citations/19980232000
 [research_dunham_gentry_1989]: https://ntrs.nasa.gov/citations/19900058369
 [research_dunham_gentry_1989_2]: https://doi.org/10.4271/892205
+[research_er_el_1988]: https://doi.org/10.2514/3.45535
+[research_feistel_1981]: https://ntrs.nasa.gov/citations/19810058335
+[research_fisher_mccroskey_1971]: https://ntrs.nasa.gov/citations/19710050390
+[research_fry_1966]: https://ntrs.nasa.gov/citations/19660015334
+[research_gabel_tarzanin_1972]: https://doi.org/10.2514/6.1972-958
+[research_garren_1961]: https://ntrs.nasa.gov/citations/20040006489
+[research_garren_1965]: https://ntrs.nasa.gov/citations/19650012141
+[research_garren_kelly_1965]: https://ntrs.nasa.gov/citations/19650025398
+[research_gazzaniga_rose_1992]: https://ntrs.nasa.gov/citations/19920071535
+[research_gebhard_1953]: https://doi.org/10.21236/ad0015832
+[research_gentry_1991]: https://ntrs.nasa.gov/citations/19920003820
+[research_gentry_1994]: https://ntrs.nasa.gov/citations/19940025432
+[research_gerken_1979]: https://doi.org/10.21236/ada132587
+[research_gilchrist_1983]: https://doi.org/10.2514/6.1983-2465
 [research_gloss_1974]: https://ntrs.nasa.gov/citations/19740020361
 [research_gloss_1975]: https://ntrs.nasa.gov/citations/19750015442
 [research_gloss_1978]: https://ntrs.nasa.gov/citations/19790005842
 [research_gloss_mckinney_1973]: https://ntrs.nasa.gov/citations/19740003706
 [research_gloss_washburn_1977]: https://ntrs.nasa.gov/citations/19770022153
+[research_gloss_washburn_1979]: https://ntrs.nasa.gov/citations/19790007731
 [research_goland_1964]: https://doi.org/10.21236/ad0608186
+[research_goldstein_1982]: https://ntrs.nasa.gov/citations/19820015335
+[research_goodrich_1989]: https://ntrs.nasa.gov/citations/19890014097
+[research_goodson_1961]: https://ntrs.nasa.gov/citations/19980232220
+[research_goodson_1966]: https://ntrs.nasa.gov/citations/19660007635
+[research_goodson_1966_2]: https://ntrs.nasa.gov/citations/19660015322
+[research_gross_mawhinney_1970]: https://doi.org/10.2514/6.1970-1213
 [research_grunwald_1961]: https://ntrs.nasa.gov/citations/19980227988
+[research_gur_rosen_2005]: https://doi.org/10.2514/1.6564
+[research_hagerman_1947]: https://ntrs.nasa.gov/citations/19930082015
+[research_hargraves_1961]: https://doi.org/10.21236/ad0268350
+[research_harris_1996]: https://ntrs.nasa.gov/citations/19960047059
 [research_harry_trobaugh_1966]: https://doi.org/10.21236/ad0641246
+[research_hawker_payne_1979]: https://doi.org/10.21236/ada068614
+[research_hayden_keller_1974]: https://ntrs.nasa.gov/citations/19740023835
+[research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
+[research_henry_1995]: https://ntrs.nasa.gov/citations/19950023117
+[research_hickey_1956]: https://ntrs.nasa.gov/citations/19930088539
+[research_hickey_1966]: https://ntrs.nasa.gov/citations/19660015324
+[research_hirsch_1954]: https://doi.org/10.4050/sm_wf_1954-3180
+[research_hodell_rosner_1957]: https://doi.org/10.21236/ad0142103
+[research_hoffman_1969]: https://ntrs.nasa.gov/citations/19690030645
+[research_hoffman_1969_2]: https://ntrs.nasa.gov/citations/19690027125
+[research_hoffman_1969_3]: https://ntrs.nasa.gov/citations/19700011131
+[research_hoffman_1970]: https://ntrs.nasa.gov/citations/19710006223
+[research_hohenemser_prelewicz_1974]: https://doi.org/10.4050/sm_dyn_1974-5453
+[research_howard_1985]: https://ntrs.nasa.gov/citations/19860053764
+[research_howard_miley_1989]: https://ntrs.nasa.gov/citations/19890062695
+[research_howland_1979]: https://doi.org/10.21236/ada072444
+[research_huston_1989]: https://ntrs.nasa.gov/citations/19890059402
 [research_huston_winston_1960]: https://ntrs.nasa.gov/citations/19980227777
+[research_johnson_1991]: https://ntrs.nasa.gov/citations/19910068310
+[research_johnson_white_1983]: https://ntrs.nasa.gov/citations/19830068372
+[research_katz_1980]: https://doi.org/10.2514/6.1980-1872
+[research_katzoff_1940]: https://ntrs.nasa.gov/citations/19930091767
+[research_keith_selberg_1984]: https://ntrs.nasa.gov/citations/19840035377
+[research_kelley_1962]: https://ntrs.nasa.gov/citations/19630000326
+[research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
+[research_kirby_1956]: https://ntrs.nasa.gov/citations/19930084546
+[research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
+[research_koenig_quigley_1960]: https://ntrs.nasa.gov/citations/19630004820
+[research_korzun_1976]: https://doi.org/10.21236/ada026247
+[research_krantz_1994]: https://ntrs.nasa.gov/citations/19940032949
+[research_kuhn_1957]: https://ntrs.nasa.gov/citations/19930084858
 [research_kuhn_grunwald_1960]: https://ntrs.nasa.gov/citations/19980227804
+[research_kuhn_grunwald_1961]: https://ntrs.nasa.gov/citations/19980227771
+[research_kvaternik_1973]: https://ntrs.nasa.gov/citations/19730020244
+[research_lange_mclemore_1950]: https://ntrs.nasa.gov/citations/19930082674
+[research_laskin_1968]: https://doi.org/10.21236/ad0675458
+[research_latham_1957]: https://doi.org/10.1098/rspb.1957.0039
+[research_leishman_1966]: https://doi.org/10.21236/ad0638632
+[research_leonard_iii_2001]: https://doi.org/10.21236/ada430859
+[research_liiva_1968]: https://doi.org/10.2514/6.1968-58
+[research_linnell_1963]: https://doi.org/10.21236/ad0408661
 [research_loewy_yntema_1958]: https://doi.org/10.4050/jahs.3.1.35
+[research_lofland_1980]: https://ntrs.nasa.gov/citations/19800015008
+[research_lottati_1984]: https://doi.org/10.2514/3.45051
+[research_lundry_1967]: https://doi.org/10.2514/3.43797
 [research_mallen_dancik_1959]: https://doi.org/10.4050/jahs.4.15
+[research_mancini_1983]: https://ntrs.nasa.gov/citations/19830011853
+[research_manzuk_1970]: https://doi.org/10.2514/6.1970-1211
+[research_margason_1966]: https://ntrs.nasa.gov/citations/19660015330
+[research_mc_kinney_newsom_1962]: https://ntrs.nasa.gov/citations/19620001441
+[research_mccormick_1969]: https://doi.org/10.21236/ad0863818
 [research_mccormick_mallen_1956]: https://doi.org/10.4050/sm_wf_1956-2299
 [research_mccormick_mallen_1957]: https://doi.org/10.4050/jahs.2.49
 [research_mccormick_w_1956]: https://doi.org/10.21236/ad0159429
-[research_meier_1964]: https://doi.org/10.2514/6.1964-175
+[research_meyer_falabella_1953]: https://doi.org/10.2514/8.2557
+[research_miley_1985]: https://ntrs.nasa.gov/citations/19860031586
+[research_miley_1986]: https://ntrs.nasa.gov/citations/19860064384
+[research_milla_blick_1966]: https://doi.org/10.2514/3.43785
 [research_miller_1948]: https://doi.org/10.2514/8.11623
-[research_moellmann_o_connor_1967]: https://doi.org/10.21236/ad0649534
+[research_mitchell_1991]: https://ntrs.nasa.gov/citations/19920031828
+[research_mitchell_mikkelson_1982]: https://ntrs.nasa.gov/citations/19820018343
+[research_morisset_1977]: https://ntrs.nasa.gov/citations/19780009099
+[research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
+[research_naca_1960]: https://ntrs.nasa.gov/citations/19740076580
+[research_naca_1960_2]: https://ntrs.nasa.gov/citations/19630004807
+[research_naca_1961]: https://ntrs.nasa.gov/citations/20040006318
+[research_naca_1982]: https://ntrs.nasa.gov/citations/19820015334
+[research_nagy_kirsten_1976]: https://doi.org/10.21236/adb012970
+[research_naumowicz_smith_1992]: https://doi.org/10.2514/6.1992-4255
+[research_newsom_1962]: https://ntrs.nasa.gov/citations/19620005161
+[research_newsom_1962_2]: https://ntrs.nasa.gov/citations/19620005247
 [research_newsom_tosti_1959]: https://ntrs.nasa.gov/citations/19980228402
+[research_nissen_1948]: https://ntrs.nasa.gov/citations/19930091981
 [research_o_bryan_1961]: https://ntrs.nasa.gov/citations/20040008178
+[research_ostheimer_giguere_1963]: https://doi.org/10.21236/ad0402379
+[research_ostowari_naik_1986]: https://ntrs.nasa.gov/citations/19860041891
+[research_parker_1972]: https://doi.org/10.21236/ad0751463
+[research_pauer_2018]: https://ntrs.nasa.gov/citations/20180007130
+[research_payne_1958]: https://doi.org/10.1108/eb032941
+[research_perisho_1959]: https://doi.org/10.4050/jahs.4.2.4
+[research_phillips_1985]: https://ntrs.nasa.gov/citations/19850007384
+[research_pitkin_1943]: https://ntrs.nasa.gov/citations/19930092563
+[research_prabhu_tiwari_1983]: https://ntrs.nasa.gov/citations/19840010103
 [research_pruyn_taylor_1970]: https://doi.org/10.4050/sm_env_1970-2300
+[research_purser_spear_1946]: https://ntrs.nasa.gov/citations/19930081810
+[research_purser_spear_1947]: https://ntrs.nasa.gov/citations/19930082127
+[research_putman_1961]: https://doi.org/10.21236/ad0270217
+[research_qin_2017]: https://doi.org/10.1016/j.ast.2017.06.012
+[research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
+[research_quigley_koenig_1961]: https://ntrs.nasa.gov/citations/20030004848
+[research_ramasamy_2015]: https://doi.org/10.4050/jahs.60.032005
+[research_rangwalla_wilson_1987]: https://ntrs.nasa.gov/citations/19870063073
+[research_reader_1980]: https://doi.org/10.21236/ada080953
 [research_reeder_1958]: https://doi.org/10.4050/jahs.3.4
 [research_renselaer_1975]: https://ntrs.nasa.gov/citations/19750034271
 [research_ribner_1943]: https://ntrs.nasa.gov/citations/19930093307
@@ -659,12 +866,52 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_ribner_1943_3]: https://ntrs.nasa.gov/citations/19930093306
 [research_ribner_1945]: https://ntrs.nasa.gov/citations/19930091896
 [research_ribner_1945_2]: https://ntrs.nasa.gov/citations/19930091897
+[research_rizk_1980]: https://ntrs.nasa.gov/citations/19800038563
+[research_rolls_1965]: https://ntrs.nasa.gov/citations/19660013004
 [research_rumph_1942]: https://doi.org/10.2514/8.10936
+[research_saari_sorin_1946]: https://ntrs.nasa.gov/citations/20030065899
+[research_sambell_1976]: https://ntrs.nasa.gov/citations/19760015087
+[research_savage_lewicki_1991]: https://ntrs.nasa.gov/citations/19910021219
+[research_schuldenfrei_1944]: https://ntrs.nasa.gov/citations/19930092564
 [research_slaughter_1958]: https://doi.org/10.4050/jahs.3.9
+[research_sleeman_1953]: https://ntrs.nasa.gov/citations/20050028463
+[research_sleeman_1957]: https://ntrs.nasa.gov/citations/20050019253
+[research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
+[research_smith_1959]: https://ntrs.nasa.gov/citations/19980228302
+[research_smith_1977]: https://doi.org/10.21236/ada069198
+[research_spreemann_kuhn_1956]: https://ntrs.nasa.gov/citations/19930084788
+[research_stack_1950]: https://ntrs.nasa.gov/citations/19930092056
+[research_stech_1977]: https://doi.org/10.21236/ada036035
 [research_stepniewski_1957]: https://doi.org/10.1017/s2753447200003528
+[research_strand_levinsky_1969]: https://doi.org/10.21236/ad0698355
+[research_takallu_lessard_1991]: https://ntrs.nasa.gov/citations/19910057112
+[research_talbot_1994]: https://ntrs.nasa.gov/citations/20010123403
+[research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
+[research_tapscott_1960_2]: https://ntrs.nasa.gov/citations/20150018614
+[research_taylor_1942]: https://doi.org/10.1108/eb030921
+[research_thoren_johnson_1940]: https://doi.org/10.2514/8.1190
 [research_tosti_1962]: https://ntrs.nasa.gov/citations/19620003850
+[research_townsend_1976]: https://ntrs.nasa.gov/citations/19760008977
+[research_trenka_1967]: https://doi.org/10.21236/ad0661087
+[research_vaicaitis_1980]: https://doi.org/10.2514/3.57877
 [research_valentine_kader_1976]: https://doi.org/10.21236/ada035756
+[research_velkoff_1981]: https://ntrs.nasa.gov/citations/19820010285
+[research_vidal_1960]: https://doi.org/10.21236/ad0246522
+[research_vollo_brassaw_1956]: https://doi.org/10.21236/ad0102193
+[research_warsett_1953]: https://doi.org/10.21236/ad0015981
+[research_watts_1947]: https://doi.org/10.1126/science.105.2735.583
+[research_watts_biggers_1972]: https://doi.org/10.4050/sm_vstol_1972-3031
+[research_weil_sleeman_1948]: https://ntrs.nasa.gov/citations/19930082414
+[research_welge_1981]: https://ntrs.nasa.gov/citations/19810021547
+[research_welge_crowder_1978]: https://ntrs.nasa.gov/citations/19790016853
+[research_white_1960]: https://doi.org/10.21236/ad0251154
+[research_white_1985]: https://ntrs.nasa.gov/citations/19870002355
+[research_widdison_1974]: https://ntrs.nasa.gov/citations/19750022072
+[research_winston_1975]: https://doi.org/10.2514/6.1975-1215
 [research_winston_huston_1962]: https://ntrs.nasa.gov/citations/19630000659
+[research_wood_woodward_1944]: https://doi.org/10.4271/440036
+[research_yamauchi_johnson_1994]: https://ntrs.nasa.gov/citations/19970001814
+[research_zhao_2014]: https://doi.org/10.2514/1.c032570
 
 ### Related Post
 

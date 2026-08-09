@@ -9,8 +9,113 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A316 equation-density review, the second of four passes. Committed, **not pushed**, per the
+**Task**: A316 primary-reference review, the third of four passes. Committed, **not pushed**, per the
 rhythm. **Not published.** All twenty articles in the series remain in `_drafts/`.
+
+---
+
+## Something You Need to Decide On, in A315 Rather Than A316
+
+This pass found a false-positive family I had not met before, and **A315 has four of them in its
+committed draft.**
+
+A propeller in oblique inflow is a live research subject in **naval architecture**, where it means a ship
+screw meeting the wake of a hull at an angle. It uses this article's exact vocabulary. The first
+selection run returned eight candidates for the keystone topic and **all eight were marine.**
+
+Filtering on the journal name rather than the title removed them. Two still got through and were caught
+by reading. One is David Taylor Model Basin work on the spindle torque of a controllable-pitch **ship**
+propeller. The other is the open-water characteristics of propeller 4739 designed for **LSD-41, a dock
+landing ship**, which reached a section on vertical-flight handling qualities because my selection
+pattern for controllability matched the phrase controllable pitch.
+
+**A315 cites both, in the same sentence, plus two more.** Wing sails for wind-assisted ship propulsion,
+and cavitation of a propeller under a non-uniform wake. Worse, A315's reverse prompt singles the spindle
+torque paper out as **"directly about the system that failed on the final flight."** It is about ship
+propellers.
+
+**I have not touched A315, because it is outside what you asked for.** Say the word and I will remove the
+four citations and correct that claim. It is four anchors and one sentence.
+
+---
+
+## My Own Scan Was Wrong in the Other Direction, Twice
+
+Worth recording because it is the third article running.
+
+**My first venue filter rejected the entire AIAA Guidance, Navigation and Control conference series**,
+because I listed the bare token `navigation` for the marine navigation journals. Among the records it
+silently discarded were optimal tiltrotor operations with one engine inoperative and an energy-optimal
+speed profile for a **tandem tilt-wing** aircraft, which is this article's exact configuration. Fifteen
+relevant records were recovered by narrowing the rule.
+
+**Then my A315 scan over-flagged in the same way**, calling a NASA ducted-fan propulsor study, an
+aircraft rudder paper and a ring-wing tail-sitter marine. Three false alarms in seven.
+
+**A filter is only as trustworthy as the last time somebody read what it threw away**, and I only found
+either problem by reading the rejected list rather than the accepted one.
+
+---
+
+## The Audit Found Both Kinds of Gap at Once
+
+That has not happened before in this series and the two have opposite fixes.
+
+**Five topics were genuinely thin because the draft harvest was never aimed at them, and all five carry
+relations the EQUATION pass added.** High advance ratio propellers at seven records, blade loading at
+five, ejection systems at two, inertias at two, drag at twelve with none cited. A targeted harvest took
+them to 29, 31, 25 and five. **That is the A315 inter-pass dependency arriving on schedule rather than as
+a surprise.**
+
+**The rest were deep and barely used, which no search would have fixed.** Transition held 268 records
+against 18 cited, the slipstream 96 against eight, the tandem wing 69 against six. Spreading the
+selection was the whole of the work.
+
+**One topic stays thin and is reported rather than padded.** Aircraft moments of inertia returned five
+records, because mass-properties reports are working documents archives rarely index. All three inertias
+therefore rest on assumed radii of gyration, and the Epistemic State says so.
+
+---
+
+## What the New Material Actually Adds
+
+**The keystone's own literature turns out to be a standing NACA programme.** Wind-tunnel measurement of
+how a running propeller moves an aeroplane's neutral point ran through the 1940s and 1950s. Every one of
+those reports treats the propeller force as a correction to design around. **Curtiss-Wright proposed to
+change its sign in the accounting rather than its magnitude in the physics.**
+
+**A 1947 wind-tunnel investigation of the effect of HIGH SOLIDITY on propeller characteristics at high
+forward speed** asks exactly the question the X-19's blade answers, sixteen years before it flew.
+
+**Three references are about this machine's near relatives**, being four-duct tandem vertical take-off
+configurations, tandem tilting ducted-propeller control augmentation, and downwash tests of dual tandem
+ducted-propeller aircraft. The ducts differ and the longitudinal arrangement does not.
+
+---
+
+## Verification
+
+**119 independent re-derivations, zero disagreements**, still reproducing after every edit. 274
+references, 255 external URLs, zero duplicates or orphans. 162 plain 200s, 45 publisher 403s, and **17
+DTIC DOIs verified through the Crossref registry with matching titles.**
+
+A red-flag scan of all cited titles **and venues** returned zero hits after the two removals. `_verify.py`
+at the 0-error 21-warning corpus baseline. Zero style violations. Isolated build passing with 78 of 78
+display blocks rendering as display, 2 of 2 tables, Part 20 navigation. Equation count measured before
+and after and holding at 78.
+
+---
+
+## State
+
+**Committed, not pushed**, which is correct for this pass. **937 lines, 78 display equations, 274
+references, 9,408 words.** Research citations are **242, all of them primary or period**, with zero
+contemporary, which is deliberate. Era spread is 67 pre-1960, 112 across the 1960s and 1970s, 57 in the
+1980s and 1990s, and eight after 2000.
+
+**References are now inside the 250 to 380 band.** Lines sit 363 below the 1,300 floor and equations 12
+below the 90 floor, which is the same shape A313 to A315 finished in. The publication review is the
+remaining pass and contemporary coverage is its work.
 
 ---
 
@@ -156,8 +261,7 @@ navigation.
 
 ## State
 
-**Committed, not pushed**, which is correct for the equation pass. **688 lines, 78 display equations, 79
-references, 7,239 words.**
+Superseded by the state section above.
 
 Twenty of seventy-two articles. The publication-order dependency is now **twenty deep** and every
 cross-reference points backward.

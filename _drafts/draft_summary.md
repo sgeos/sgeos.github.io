@@ -22,9 +22,28 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_curtiss_wright_x19.markdown`, A316, editorial date 2025-10-25, series `x_planes` index 20 of
 72.
 
-514 lines, 33 display equations, 79 references, 6,601 words after the draft pass; **688 lines, 78 display
-equations, 79 references, 7,239 words after the equation review.** Two of four passes complete. Committed,
+514 lines, 33 display equations, 79 references, 6,601 words after the draft pass; 688 lines, 78 display
+equations, 79 references, 7,239 words after the equation review; **937 lines, 78 display equations, 274
+references, 9,408 words after the primary-reference review.** Three of four passes complete. Committed,
 not pushed. Not published.
+
+**The coverage audit found BOTH kinds of gap at once, which has not happened before in this series.** Five
+topics were genuinely thin because the draft harvest was never aimed at them, and all five carry relations
+the equation pass added, which is the A315 inter-pass dependency arriving on schedule. The rest were deep
+and barely used, which no search would have fixed. Research citations are 242, all primary or period, with
+zero contemporary left deliberately for the publication review.
+
+**The pass met a false-positive family the series has not seen before.** A propeller in oblique inflow is
+a live subject in naval architecture, using this article's exact vocabulary. The first selection returned
+eight candidates for the keystone topic and all eight were marine. Filtering on journal name removed them;
+two more got through and were caught by reading, being David Taylor Model Basin spindle-torque work and
+the open-water characteristics of a propeller for LSD-41, a dock landing ship. **A315 cites both of those
+plus two more and has not been corrected**, pending the pilot's decision.
+
+**The first version of the venue filter was worse than the problem it fixed**, rejecting the entire AIAA
+Guidance, Navigation and Control series over the token `navigation` and discarding, among others, an
+energy-optimal speed profile for a tandem tilt-wing aircraft. Fifteen records were recovered by narrowing
+it. Reading the rejected list is what exposed it.
 
 **The equation review caught two errors in the drafted text, which is the twelfth consecutive article in
 which writing the relation down has done so.** The pitch-moment relation was displayed as a form
