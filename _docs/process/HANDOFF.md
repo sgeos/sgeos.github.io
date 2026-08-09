@@ -11,10 +11,10 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `01e39c7`
+- **Parent commit** (the repository state this handoff describes): `b77cfba`
 - **Written**: 2026-08-09
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Twenty-three of seventy-two articles drafted, all
+- **Context**: the X-Planes series is IN PROGRESS. **Twenty-five of seventy-two articles drafted, all
   four passes complete on each. None published.**
 
 **Validate before trusting.** Compare the recorded **Parent commit** to `git rev-parse HEAD~1`. Because
@@ -30,33 +30,29 @@ described.
 
 ---
 
-## Resume prompt — the next prompt will be "Please draft A320, 'X-Planes: Martin Marietta X-23 PRIME.'"
+## Resume prompt — the next prompt will be "Please draft A322, 'X-Planes: Bensen X-25.'"
 
-**Nothing is outstanding.** A319 finished all four passes, is committed and pushed, its deploy
+**Nothing is outstanding.** A321 finished all four passes, is committed and pushed, its deploy
 succeeded, and the article returns 404 while the site root returns 200, which is correct because
 nothing in the series is published. There is no half-finished pass to pick up.
 
-**Wait for the pilot's prompt. Do not begin A320 unprompted.**
+**Wait for the pilot's prompt. Do not begin A322 unprompted.**
 
-**A320 IS THE FIRST OF THE NINE ANOMALY CASES AND MUST BE HANDLED AS ONE.** Editorial date 2025-10-29,
-Part 24 of 72. The designation is attributed to the Martin Marietta SV-5D PRIME, but United States Air
-Force nomenclature records reportedly show that X-23A was never formally assigned. **State the conflict,
-do not resolve it.** The anomaly cases are the evidence for the closing article's argument that the
-designation system is not a counter, and an article that tidies the conflict away destroys the evidence.
+**A322 IS THE SHARPEST SUBJECT BREAK IN THE SERIES SO FAR.** Editorial date 2025-10-31, Part 26 of 72.
+The Bensen X-25 is a **one-person autogyro**, subsonic, flown in autorotation, developed for an Air
+Force programme about escape from a disabled aircraft rather than about spaceflight. The four articles
+before it are lifting bodies and entry vehicles. **Do not import the A321 pool.** The one-directory
+rule has now held for nine consecutive articles and this is the case where breaking it would be most
+obviously wrong.
 
-**The vehicle is a lifting body flown on a ballistic reentry from an Atlas**, which puts it back with the
-[X-17][a314] and [X-20][a317] rather than with the V/STOL family. **Do not import the A319 pool.** Ducted
-propellers share nothing with lifting-body reentry. The one-directory rule has now held for seven
-consecutive articles.
+**Expect the keystone to be autorotation itself**, meaning the descent rate at which a freely turning
+rotor reaches equilibrium, which is computable from momentum theory and is the entire reason the
+concept was proposed as an escape system. Compute what that descent rate actually is before deciding
+what the article is about, and compare it against a parachute, because the comparison is the point.
 
-[a314]: https://en.wikipedia.org/wiki/Lockheed_X-17
-[a317]: https://en.wikipedia.org/wiki/Boeing_X-20_Dyna-Soar
-
-**Expect the keystone to be crossrange at low lift-to-drag ratio.** PRIME was flown to demonstrate
-precision recovery from orbital reentry, and a lifting body of L/D near 1 buys a few hundred miles of
-crossrange rather than the seventeen hundred the [X-20][a317] wanted. Compute what L/D near unity
-actually gives before deciding what the article is about, because the whole point of the vehicle was that
-a small amount of lift is worth a great deal compared with none.
+**Note that the X-25 has a designation subtlety that is not one of the nine anomaly cases.** There were
+several vehicles under the designation, including the X-25A gyrocopter and the X-25B gyroglider. Check
+the record before assuming a single aircraft.
 
 ---
 
@@ -65,15 +61,15 @@ a small amount of lift is worth a great deal compared with none.
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16, covering
 every X-designation from X-1 through X-76.
 
-**Twenty-three complete**, A297 through A319, all four passes each, all in `_drafts/`, **none published**.
+**Twenty-five complete**, A297 through A321, all four passes each, all in `_drafts/`, **none published**.
 
 | Article | Aircraft | Final state |
 |---|---|---|
-| A315 | Hiller X-18 | 937 lines, 29 eq, 420 refs |
-| A316 | Curtiss-Wright X-19 | 1,200 lines, 78 eq, 431 refs |
 | A317 | Boeing X-20 Dyna-Soar | 944 lines, 49 eq, 387 refs |
 | A318 | Northrop X-21 | 1,692 lines, 45 eq, 1,192 refs |
 | A319 | Bell X-22 | 1,891 lines, 25 eq, 1,472 refs |
+| A320 | Martin Marietta X-23 PRIME | 4,088 lines, 72 eq, 3,403 refs |
+| A321 | Martin Marietta X-24 | 3,684 lines, 53 eq, 3,144 refs |
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -104,7 +100,7 @@ The pilot quotes this verbatim on every publication-review prompt:
 > it.
 
 **No length limit and no reference limit are permissions, not instructions.** Do not pad to reach a
-band. Seven consecutive articles have finished short of the equation band and were reported that way.
+band. Eleven consecutive articles have finished short of the equation band and were reported that way.
 
 ---
 
@@ -112,139 +108,160 @@ band. Seven consecutive articles have finished short of the equation band and we
 
 ### On the analysis
 
-**Write the relation down.** This has now caught a wrong claim in fourteen articles. In A318 the draft
-assumed a whole-aircraft zero-lift drag coefficient that implies a form factor and then credited the
-laminarised area a flat-plate saving without one, so the aeroplane was **charged one way and credited
-another**, understating the benefit by a quarter. Building the coefficient from its parts reproduced the
-assumed value to three figures, which is the check that the decomposition is right.
+**Write the relation down.** This has now caught a wrong claim in sixteen articles.
 
-**A NUMBER THAT IS NOT CREDIBLE IS A FINDING, NOT A NUISANCE.** A319's derived corridor produced a duct
-normal force of 2.26 times the aircraft weight. That is unflyable and unmissable, so the model is wrong
-there, and asking where it stops being right produced the validity parameter and the conclusion that
-**the momentum model is valid at both ends of the conversion and invalid in the middle, which is exactly
-where the aircraft is hard to fly**. The bad number was worth more than a plausible one.
+**THE VERIFIER CAN BE RIGHT AND KILL A FINDING YOU LIKE, AND THAT IS THE POINT OF HAVING ONE.** A321's
+draft treated the flare as a circular arc at constant radius. The vehicle decelerates, so the arc
+tightens, and the constant-radius version was too long by twelve percent in speed. **At low load factor
+the error was qualitative rather than numerical**, producing a claim that a gentle flare ran out of
+speed entirely and a whole finding built on it. Integrating properly, it does not. **The claim was
+deleted rather than defended.**
 
-**"The article cannot compute this" is usually giving up too early.** A318 said its corridor could not be
-computed for want of wing areas. The conversion speed implies the wing area, because the wings carry the
-whole weight at the end of a conversion, and the implied chords then check against the spans. Look for
-the quantity the article already knows that fixes the one it does not.
+**A CLEAN FACTOR IS A HINT THAT THE CHECKER IS AT FAULT, AND IT FIRED AGAIN.** A320's heading-angle
+integration disagreed with its speed march by **exactly two**, which was a dropped factor in a
+substitution rather than a physical disagreement. Corrected, two independent schemes agreed to five
+significant figures.
 
-**Look for a cross-check between two quantities the article already has.** A318's opening claim that half
-a transport's fuel goes to skin friction was met by 45.6 percent computed from geometry and a flat-plate
-correlation. A319's quoted 35 percent excess power fixed a figure of merit that then predicted the
-separately quoted three-engine hover weight to 0.83 percent. **Nothing prompted either check except
-looking for one.**
+**AN APPARENT CONFIRMATION CAN BE CIRCULAR.** A320 recovered a bank angle of 45.13 degrees against an
+assumed optimum of 45, which looked like a beautiful check and was the assumed lift-to-drag ratio being
+fed straight back in. **Suspiciously clean agreement is the signal to look for the loop.**
 
-**A quoted margin may be a minimum rather than a margin.** A319's 35 percent excess power leaves three
-quarters of 1.35, which is 1.25 percent, after an engine fails. The number was chosen so that three
-engines would just do.
+**TWO ERRORS CAN CANCEL AND PRODUCE A FALSE VINDICATION.** A320's closed form matched the demonstrated
+crossrange to one percent, which appeared to settle a live source disagreement. It was a small-angle
+error and a low assumed lift-to-drag ratio cancelling. **A model that agrees to one percent is not
+thereby correct; improve it and see whether the agreement survives.** It did not.
 
-**Read calculation output for plausibility.** A319's first normal-force table contained a duct at 45
-degrees at 200 feet per second, which is not a flight condition, and reported a force larger than the
-aeroplane. **Evaluate along a schedule, not on a grid.**
+**SINGULAR INTEGRALS NEED THE RIGHT INDEPENDENT VARIABLE, NOT MORE STEPS.** Entry at exactly circular
+speed makes one over one minus u unbounded, so a uniform march in speed is dominated by its first steps
+and a step count that looks generous is not. Integrating in **heading angle**, where the sine vanishes
+at the same place, makes the integrand finite and ordinary quadrature converge.
 
-**A named limit belongs in the article**, including the boundary of the model's own validity.
+**A NUMBER THAT IS NOT CREDIBLE IS A FINDING, NOT A NUISANCE.**
+
+**"The article cannot compute this" is usually giving up too early.**
+
+**Look for a cross-check between two quantities the article already has.** A321 predicted the Space
+Shuttle prototype's tailcone-on lift-to-drag ratio from geometry alone and landed six percent from the
+measured value, on a case the model was not fitted to. **That is worth more than any number the model
+was tuned on.**
+
+**A named limit belongs in the article**, including the boundary of the model's own validity, and
+including **why a term is neglected**. A320 used a convective heating correlation and never said why
+radiation was ignored, which is correct below ten kilometres per second and was unstated.
 
 ### On harvesting and selection
 
-**An equation pass promotes subjects, and the reference base must follow.** This is the strongest
-recurring rule in the series and A319 produced its clearest instance yet. Nine subjects were promoted,
-**all nine were thin and four were at zero records.** The draft harvest cannot know which derivations
-will come to exist.
+**THE KEYSTONE CLUSTER HAS BEEN THIN THREE ARTICLES RUNNING AND THE CAUSE IS ALWAYS THE SAME. THIS IS
+NOW THE MOST RELIABLE RULE IN THE SERIES.**
 
-**THE ERA GAP IS A SELECTION PROBLEM, NOT A SUPPLY PROBLEM, AND THIS IS NOW A RULE BECAUSE IT HAPPENED
-TWICE.** In A318 period sources stood at 12.5 percent and 417 records dated 1970 or earlier were sitting
-in the pool unused. In A319 they stood at 15.0 percent with the same cause. **A broad cluster placed
-early eats the foundational literature and the coverage audit then reports a supply gap that does not
-exist.** The fix both times was one move, placing a dedicated period cluster after the specific topics
-and before the broad ones, which recovered 253 records in A318 and 376 in A319.
+- A319, ducted fans, thin until the era's vocabulary was used
+- A320, **crossrange had EIGHT records**. The period says roll modulation, lift modulation, maneuvering
+  range and boost-glide range. Broadening took it to 21
+- A321, **unpowered landing had TWELVE records against 387 matching landing or approach**. The period
+  does not say unpowered. It says approach and landing, and the fact that the vehicle has no engine
+  sits in the body rather than the title. Broadening took it to 101
 
-**Read the selection. A title regex is not a substitute.** Across A318 and A319 more than a hundred
-candidates were rejected after being read.
+**THE PATTERN IS WRITTEN IN THE WRONG DECADE'S VOCABULARY. THE ARCHIVE HAS NEVER BEEN THE PROBLEM.**
+Before concluding a topic is thin, probe it with the era's own words and with looser patterns.
 
-**HOMONYM FAMILIES ARE THE DOMINANT FAILURE MODE AND SOME ARE INTERNAL TO THE DISCIPLINE.**
+**An equation pass promotes subjects, and the reference base must follow.** A320 had all ten promoted
+subjects thin with four at zero. A321 had all nine thin with two at zero and one at thirteen in the
+pool with none cited.
+
+**The era gap is a selection problem, not a supply problem.** Place a dedicated period cluster after
+the specific topics and before the broad ones. **And cap the topical clusters so the contemporary ones
+are not starved**, which is the same defect running the other way.
+
+**Read the selection, and read what the URL sweep prints.** Reading the sweep caught twenty-one
+wrong-field citations in A320 that nothing else would have found.
+
+**REPORT A TOPIC THAT IS GENUINELY THIN RATHER THAN PADDING IT.** A321's glide-range literature is seven
+records in the whole pool after two harvests aimed at it. That is an archive limit and the article says
+so.
+
+**HOMONYM FAMILIES ARE THE DOMINANT FAILURE MODE. THE LIST NOW RUNS TO TWENTY-FIVE AND THE MOST
+DANGEROUS ARE INTERNAL TO THE DISCIPLINE.**
 
 | Phrase | The other field |
 |---|---|
-| ablation | medicine, the pituitary gland and tumours; materials, laser ablation for nanotubes |
-| boundary layer | meteorology, the atmospheric boundary layer. One query returned most of a journal |
-| laminar flow | operating-room ventilation, chromatography, co-laminar fuel cells, coal-cleaning cyclones |
-| ducted propeller | naval architecture, the Kort nozzle; wind energy, the diffuser-augmented turbine |
-| propeller in oblique inflow | naval architecture, a ship screw in a hull wake |
-| impact theory | spectroscopy, collisional line broadening |
-| terminal area | aviation, the airspace around an airport |
-| radiative cooling | building physics, emitting to the sky to cool a house |
-| cellular structure | biology, cells rather than honeycomb core |
-| open water | marine propeller testing |
-| **boundary layer control** | **aeronautics itself.** Suction for laminar flow and drag, or blowing for lift |
-| **trim** | **aeronautics itself.** Aircraft balance, interior fittings, engine setting, planing attitude |
-| **figure of merit** | **engineering itself.** Rotor hover efficiency, and nuclear-radiation detectors |
-| **electric propulsion** | **aerospace itself.** Aircraft motors, and spacecraft ion thrusters |
-| inlet | coastal geomorphology, the channel between barrier islands |
-| hovering | underwater vehicle station-keeping |
+| **ballistic** | **three senses in one corpus.** Entry trajectories; the ballistic RANGE, a gun that fires models, which is LEGITIMATE and must not be filtered; and TERMINAL ballistics, meaning warheads and armour |
+| **flare** | **overwhelmingly the SOLAR flare**, and solar papers omit the adjective. Also the gas flare and the flare stack |
+| **energy management** | **power grids, buildings and batteries.** A query returned a manual on energy conservation in Navy family housing |
+| **the electric road vehicle** | the largest body of literature this series has had to exclude. Shares vehicle, thermal management, model predictive control and trajectory |
+| **reentry** | **agriculture.** The interval before workers may re-enter a treated field |
+| **entry** | space physics, solar protons entering the magnetosphere; cell biology, a protein crossing a membrane |
+| **easy glide** | crystal plasticity, a strain regime |
+| **host range** | microbiology. It put Pseudomonas plasmids in A320's keystone cluster |
+| **lateral motion of a vehicle** | railway hunting oscillation and road-vehicle lane keeping |
+| **lateral range** | search and detection theory |
+| **maneuvering range** | an instrumented air combat facility, so the pool holds its construction plan |
+| **unpowered range** | wheelchairs. **Unpowered is not an aeronautical word** |
+| **base** | the air base, the database, the base station |
+| **speed of sound** | solutions and acoustics. A homonym A320 created for itself by adding that query |
+| **footprint** | carbon accounting |
+| **recovery** | economics, waste heat, and food microbiology where it is a term of art |
+| **thermal resistance, inactivation, injury** | food microbiology |
+| **dispersion** | atmospheric pollution |
+| **boundary layer control** | **aeronautics itself.** Suction for drag or blowing for lift |
+| **trim** | **aeronautics itself.** Balance, interior fittings, engine setting, planing attitude |
+| **figure of merit** | **engineering itself.** Rotor hover efficiency, and radiation detectors |
+| **electric propulsion** | **aerospace itself.** Aircraft motors and spacecraft ion thrusters |
+| ablation | medicine and laser materials processing |
+| laminar flow | cleanrooms, chromatography, fuel cells |
+| ducted propeller | the Kort nozzle and the diffuser-augmented turbine |
 
-**The internal ones are the dangerous ones**, because the venue does not separate them and the authors
-are often the same people.
+**Not a homonym but the same defect: Crossref indexes EDITORIAL MATTER as works.** Guidance for
+Authors and Guest Editorial both reached article pools.
 
-**Filter on the VENUE, not only the title.** `gen_master.py` carries a `venue` field. **Archive records
-carry no venue, so the title must do the work there.**
+**QUERY DESIGN PREVENTS MORE THAN FILTERING CURES.** A320 used no query containing PRIME or START,
+because those belong to number theory and arms control, and the contamination largely never entered.
 
-**Word boundaries fail in BOTH directions, and A318 did both in one pass.** A pattern for the
-transition-prediction method matched those two letters inside ordinary English words and swelled a
-cluster to 362 records. A pattern for ducting matched the middle of the word **re-duct-ion** and put 73
-drag papers into the pumping cluster.
-
-**The persisted rejection list is at `tmp/aNNN/read_and_dropped.json` and MUST be carried forward.** It
-now holds 388 entries. Copy it forward and load it in every selector.
-
-**The Crossref registry check catches wrong citations as a side effect of verifying links**, because it
-prints titles. Read what it prints. It has now caught something in every article that used it.
-
-**OSTI is not worth querying for this subject.** One record of 49 was usable. The Department of Energy
-corpus uses these words for other things.
-
-**Crossref correction, erratum and withdrawn notices are not the paper.** Filter them at build time.
+**The persisted rejection list is at `tmp/aNNN/read_and_dropped.json`, now 481 entries, and MUST be
+carried forward.** **KEY IT BY URL AND NOT ONLY BY ANCHOR.** Anchor disambiguation suffixes shift when
+an earlier record is removed, so dropping `research_x_2024_3` can silently retarget a different paper.
 
 ### On tooling
 
-**`check_any.py` REPLACES the per-article `check.py`.** It lives at `tmp/errata/check_any.py`, takes any
-draft path or defaults to all of them, derives the article number from the `<!-- Axxx -->` marker, and
-validates date and series index against the roster. That is **strictly stronger** than the four
-hardcoded constants the old script carried, which arrived stale twice.
+**DO NOT WRITE ARTICLE SECTIONS BY PLACEHOLDER SUBSTITUTION.** A320's survey was generated by expanding
+cluster citations into literal text, which FROZE them. They stopped tracking the clusters, and when
+records were later dropped they survived in the body and `gen_refs.py` correctly refused to emit.
+**Cluster citations belong in the body as live `{c('...')}` calls.**
 
-**`build_check.sh` derives the article count from the roster.** It lives at `tmp/errata/build_check.sh`
-and stages every X-Planes draft as a post so all in-series `post_url` tags resolve against real
-articles. **There is no stub list to arrive one short**, which was the A316 failure.
+**HEREDOC BACKSLASH COLLAPSE MANGLES LATEX AND NOTHING CATCHES IT.** A321's survey equation was patched
+through a shell heredoc that collapsed `\\text` to `\text`, and `write.py`'s own f-string then read
+`\t` as a **tab**. The rendered output was `V_[tab]ext{td}` with `\frac` reduced to `rac`. The equation
+count was right, the build succeeded and the braces balanced. **It was found by reading the generated
+body.** Inspect rendered escapes after any patch that touches math.
 
-**Rebuilding the master after a harvest changes display text** for any record that gains a title
-collision, which silently breaks link text in body prose already written. The link-text invariant catches
-it; a repair pass rewrites body link text from the master rather than failing.
+**`check_any.py` REPLACES the per-article `check.py`.** It lives at `tmp/errata/check_any.py`, derives
+the article number from the `<!-- Axxx -->` marker, and validates date and series index against the
+roster. It now exempts a doubled **capitalised** word, because a Spanish or Catalan double surname
+repeats legitimately in citation display text.
+
+**`build_check.sh` derives the article count from the roster.** No stub list to arrive one short.
+
+**`gen_master.py` suppresses a year the title fragment already ends with**, after authorless records
+produced "U.S. Standard Atmosphere, 1962 1962", a doubled word in body prose.
 
 **The NTRS search endpoint returns no authors and no year.** Both come from the per-record detail
-endpoint. Falling back to a title fragment produces link text like "Tests of the" and drags title
-punctuation into prose, which then fails the style rules.
+endpoint.
 
-**A stale script from the previous article can execute itself.** Rename or delete copied scripts sharing
-a name with a standard module. `select.py` shadowed the standard library once and destroyed a work
-product.
+**A stale script from the previous article can execute itself.** `select.py` shadowed the standard
+library once and destroyed a work product. The selector is named `pick.py`.
 
-**Know the expected number, not just pass or fail.** `_verify.py` once reported zero warnings against a
-21-warning baseline because it inherited a scratch working directory. **Absolute paths in every command
-issued after a `cd`.**
+**Know the expected number, not just pass or fail.** `_verify.py` baseline is **0 errors and 21
+warnings**. A reading of 0 warnings means it did not run against the corpus. **Absolute paths in every
+command issued after a `cd`.**
 
-**THE VERIFIER CAN BE THE THING THAT IS WRONG.** A318's wedge-area integration disagreed with the article
-by exactly two because the verifier integrated the half-width of a wedge that spreads at a half-angle on
-each side. A319's peak-speed check expected the tabulated maximum rather than the continuous one. **A
-clean factor or a small offset is a hint that the checker is at fault.**
-
-**Measure the equation count before and after any section work, and extend sections in place.** Replacing
-a section is permitted only where it is an explicit placeholder, and the count is measured regardless.
+**Measure the equation count before and after any section work, and extend sections in place.**
+Replacing a section is permitted only where it is an explicit placeholder or where the existing
+structure cannot carry the content, and the replacement must be shown to preserve every existing claim.
 
 ---
 
 ## Verification Toolchain
 
-**`tmp/*` IS GITIGNORED, so none of this survives a fresh clone.** The per-article scripts are rebuilt by
+**`tmp/*` IS GITIGNORED, so none of this survives a fresh clone.** Per-article scripts are rebuilt by
 copying the previous article's directory and repointing. The two cross-article scripts live in
 `tmp/errata/` and are not article-specific.
 
@@ -254,11 +271,12 @@ copying the previous article's directory and repointing. The two cross-article s
 | `tmp/errata/build_check.sh` | real Jekyll build of every draft staged as a post, count derived from the roster |
 | `harvest.py`, `harvest2.py`, `harvest3.py` | archive sweeps; the second closes audit gaps, the third is the publication-review contemporary sweep |
 | `ntrs_detail.py` | per-record NTRS metadata, incremental; **search returns no authors** |
-| `gen_master.py` | master reference index; carries `venue`, applies the rejection list, drops corrections |
+| `gen_master.py` | master reference index; carries `venue`, applies the rejection list, drops corrections and repeated years |
 | `gen_refs.py` | emit the reference section from anchors the body uses; enforces the link-text invariant |
-| `ref_audit.py` | coverage by topic, era and source; **run it BEFORE selecting** |
-| `pick.py` | cluster selection; **not named `select.py`, which shadows a standard module** |
-| `read_and_dropped.json` | persisted read-and-drop decisions; carry forward, now 388 entries |
+| `ref_audit.py` | coverage by topic, era and source, with an explicit primary definition; **run it BEFORE selecting** |
+| `pick.py` | cluster selection; **not named `select.py`** |
+| `diction.py` | word frequency, formulaic phrases and acronym spell-out for the publication pass |
+| `read_and_dropped.json` | persisted decisions; carry forward, now 481 entries, **keyed by URL as well as anchor** |
 | `calc.py`, `calc2.py` | the article's physics; calc2 carries the equation pass |
 | `verify_numbers.py`, `verify_numbers2.py` | independent re-derivation, and a check that each value appears in the text |
 | `url_check.py` | external sweep; Crossref registry for DOIs, HTTP for archives, **prints titles** |
@@ -267,53 +285,55 @@ copying the previous article's directory and repointing. The two cross-article s
 
 - **NTRS search** — `https://ntrs.nasa.gov/api/citations/search?q=<terms>`, per-record detail at
   `https://ntrs.nasa.gov/api/citations/<id>`. **Cite `https://ntrs.nasa.gov/citations/<id>`, never a
-  search URL.** Caps at ten results and is phrasing sensitive, so **use short period vocabulary**. Author
-  metadata is a dict under `authorAffiliations`; the year is in `publications[0].publicationDate`.
+  search URL.** Caps at ten results and is phrasing sensitive, so **use short period vocabulary**.
+  Author metadata is a dict under `authorAffiliations`; the year is in
+  `publications[0].publicationDate`. **Full text is available at
+  `/api/citations/<id>/downloads/<id>.pdf` and `pdftotext` works on it**, which is how A321's
+  flight-determined vehicle table was obtained.
 - **DTIC** — through Crossref with `filter=prefix:10.21236`. Cite `https://doi.org/<doi>`. **DTIC DOIs
-  redirect correctly and then land on `www.dtic.mil`, which refuses automated connections, so verify
-  through the Crossref registry**, which is strictly stronger than an HTTP 200.
-- **OSTI** — `https://www.osti.gov/api/v1/records?q=<terms>&publication_date_end=<date>&rows=<n>`.
-  **Not worth using for this subject.**
+  land on `www.dtic.mil`, which refuses automated connections, so verify through the Crossref
+  registry**, which is strictly stronger than an HTTP 200.
+- **OSTI** — **not worth using for this subject.**
 - **Crossref** — `https://api.crossref.org/works?query.bibliographic=<terms>` with
-  `filter=from-pub-date:...,until-pub-date:...,type:journal-article`, and
-  `https://api.crossref.org/works/<doi>` for one identifier. The response carries `container-title`,
-  which is the venue the selector filters on. Use a polite-pool `mailto` and retry on 429.
+  `filter=from-pub-date:...,until-pub-date:...,type:journal-article`. The response carries
+  `container-title`, which is the venue the selector filters on. Use a polite-pool `mailto`.
 
 ### The Corpus Checks
 
-`python3 _verify.py` from the **repository root**, `--strict` to treat warnings as errors. The same checks
-run in CI and in the local hook at `_hooks/pre-push`, enabled with `git config core.hooksPath _hooks` and
-bypassed with `--no-verify`. **The baseline is 0 errors and 21 warnings**, all pre-existing in other
-articles. **A reading of 0 warnings means the check did not run against the corpus.**
+`python3 _verify.py` from the **repository root**, `--strict` to treat warnings as errors. The same
+checks run in CI and in the local hook at `_hooks/pre-push`. **The baseline is 0 errors and 21
+warnings.**
 
-**The bundle is installed** at `vendor/bundle`, which is gitignored. It was never broken, merely never
-installed. An isolated build whose source tree is elsewhere needs `BUNDLE_GEMFILE` pointed back at the
-repository.
+**The bundle is installed** at `vendor/bundle`, which is gitignored. An isolated build whose source
+tree is elsewhere needs `BUNDLE_GEMFILE` pointed back at the repository.
 
 **An HTTP 200 does not verify a citation** and no sweep in this series claims it does.
 
-**Independence matters.** `verify_numbers.py` must not import the calculation module. Use a tabulated
-atmosphere where the model uses a formula, bisection where it uses a closed form, numerical integration
-where it uses an area formula, and forward substitution to check anything obtained by inverting.
+**Independence matters.** `verify_numbers.py` must not import the calculation module. Use a different
+quadrature, a different independent variable, a search where the model differentiates, and forward
+substitution to check anything obtained by inverting.
 
 ---
 
 ## Open Decisions
 
 **Categories — SETTLED and not to be revisited.** `aerospace history engineering`, which all
-twenty-three drafts carry.
-
-**A315's wrong citations — RESOLVED 2026-08-09.** The errata pass corrected them and eleven more across
-the corpus. **Do not raise this again.**
+twenty-five drafts carry.
 
 **A fourth genre class.** `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` names four classes. **A313
-through A319 have each finished outside all of them on two of three measures, in the same direction,
-across twenty-eight passes.** References land far above band while lines and equations land below. **Do
-not amend the genre document unprompted**, since it defines the series' own standards, but offer to
-propose a fourth class with bands drawn from those seven.
+through A321 have each finished outside all of them on two of three measures, in the same direction,
+across TWELVE consecutive articles.** References land far above band while lines and equations land
+below. **Do not amend the genre document unprompted**, since it defines the series' own standards, but
+offer to propose a fourth class with bands drawn from those twelve.
 
 **A305 length.** An offered cut of roughly 300 lines and 25 equations was never taken up. The offer
 stands. **Do not act on it unprompted.**
+
+**A320's genre classification was a judgement call and the pilot did not object.** The genre document
+lists X-23 among the designation anomalies, whose class is 40 to 150 lines with no keystone. It was
+written as a full-aircraft article because the SV-5D flew three times and returned a measurement, with
+the anomaly given its own section. **If a later anomaly case has a real vehicle, that precedent
+applies.**
 
 ---
 
@@ -321,17 +341,15 @@ stands. **Do not act on it unprompted.**
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**twenty-three deep**, A319 back to A297, so these articles publish in order or together. **Links to
-other series are necessarily forward-dated**, because the whole run is back-dated to 2025 while much of
-the corpus is 2026, and that is not a defect; what matters is that the target exists and is not itself
-dated past today.
+**twenty-five deep**, A321 back to A297, so these articles publish in order or together. **Links to
+other series are necessarily forward-dated** and that is not a defect.
 
-**Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push that
-the article returns 404 while the site root returns 200. **A 503 on the root immediately after a deploy
-is transient; retry before reporting it.**
+**Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
+that the article returns 404 while the site root returns 200. **A 503 on the root immediately after a
+deploy is transient; retry before reporting it.**
 
-**The two-commit publication pattern** applies when publishing eventually happens. Nothing in this series
-is published and no publication has been authorised.
+**The two-commit publication pattern** applies when publishing eventually happens. Nothing in this
+series is published and **no publication has ever been authorised**.
 
 **Prose style is absolute.** No contractions, em dashes, en dashes, prose colons, prose semicolons, or
 prose parentheticals. **A possessive is not a contraction.** The `console.log` debug tag is the only
@@ -340,18 +358,19 @@ permitted parenthesis. **Link text is prose**, so citation display strings must 
 **Every article carries** an `<!-- Axxx -->` comment and a `<script>console.log("Axxx");</script>` tag
 immediately after the front matter.
 
-**The genre carries three sections beyond the standard twelve**, being Comparison With Ground Prediction,
-The Contemporary Literature, and The Source Base, the last immediately before Epistemic State.
-`check_any.py` enforces all three and exempts the series opener, which has its own shape.
+**The genre carries three sections beyond the standard twelve**, being Comparison With Ground
+Prediction, The Contemporary Literature, and The Source Base, the last immediately before Epistemic
+State. `check_any.py` enforces all three and exempts the series opener.
 
 **Density conventions are absolute counts, not ratios.**
 
 **Report the count as well as the fraction.** Adding a contemporary survey lowers the period *fraction*
-while leaving the period *count* unchanged, and saying only the fraction reads as a regression when it is
-the directive working.
+while leaving the period *count* unchanged, and saying only the fraction reads as a regression when it
+is the directive working. A321's period count moved by one, from 766 to 765, while the primary fraction
+fell from 61.1 to 43.1 percent.
 
 **Irreversible or outward-facing actions need confirmation.** Pushing is authorised only by the
-publication-review prompt. Publishing has never been authorised.
+publication-review prompt. **Publishing has never been authorised.**
 
 **Report faithfully.** If a check fails, say so with the output. If a figure is assumed, say it is
 assumed. If a band is missed, report the miss rather than padding toward it.
