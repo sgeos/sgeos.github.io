@@ -22,8 +22,27 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_bell_x22.markdown`, A319, editorial date 2025-10-28, series `x_planes` index 23 of 72.
 
 1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass; **1,101 lines, 25
-display equations, 750 references, 7,835 words after the equation review.** Two of four passes complete.
-Committed, not pushed. Not published.
+display equations, 750 references, 7,835 words after the equation review; **1,471 lines, 25 display
+equations, 1,114 references, 9,974 words after the primary-reference review.** Three of four passes
+complete. Committed, not pushed. Not published.
+
+**The inter-pass dependency was starker here than in any previous article.** All nine subjects the
+equation pass promoted were thin in the pool and **four were at zero records**, namely transmission
+torque, power-loading scaling, wing lift in transition, and weight fractions. A second harvest took the
+pool from 1,355 to 2,198 and every one now has a base.
+
+**And the era gap was again a selection problem rather than a supply problem.** Probing with looser
+patterns found 61 records on propeller slipstream effects on a wing, 26 on hover performance and 15 on
+weight estimation, all sitting unused while the audit reported those topics empty. Moving the period
+cluster ahead of the broad ones, which is the fix A318 found, recovered 376 records at a stroke. **Period
+sources through 1965 went from 15.0 to 26.6 percent and references from 750 to 1,114.**
+
+**Three homonyms had to be filtered and one of them is internal to aeronautics.** Trim means the aircraft
+balance, the interior fittings, the engine setting and the attitude of a planing hull, and a cluster built
+on the word alone filled with door seals and engine test sets. **Inlet belongs to propulsion and to
+coastal geomorphology**, so a duct-inlet query returned six tidal-inlet papers on sediment transport. And
+**figure of merit is a nuclear-radiation detector metric** as well as a rotor one. Underwater hovering,
+hypersonic ducted bodies and an annular chromatograph were removed on the same principle.
 
 **The equation pass corrected the draft's central number and then corrected itself.** The draft evaluated
 the duct normal force along an assumed linear ramp and reported a peak of 1.08 times duct thrust.
