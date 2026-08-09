@@ -9,8 +9,89 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-08
-**Task**: A317 drafted, the first of four passes. Committed, **not pushed**, per the rhythm. **Not
-published.** All twenty-one articles in the series remain in `_drafts/`.
+**Task**: A317 equation-density review, the second of four passes. Committed, **not pushed**, per the
+rhythm. **Not published.** All twenty-one articles in the series remain in `_drafts/`.
+
+---
+
+## The Article's Own Central Claim Was Undisplayed
+
+**24 display equations to 49, across 17 edits.**
+
+The draft asserts that peak heating on an equilibrium glide is independent of lift-to-drag ratio and that
+the peak falls at a particular speed. **It displayed neither the maximisation that locates the peak nor
+the speed it gives**, both of which I had computed and verified before writing the draft and neither of
+which reached the page.
+
+Writing $u = (V/V_c)^2$ makes the heating proportional to $u\sqrt{1-u}$, and maximising the square gives
+$2u - 3u^2 = 0$, so $u = 2/3$ exactly.
+
+**The worst heating always arrives at 81.6 percent of circular speed**, whatever the vehicle, whatever
+its wing loading, whatever its lift-to-drag ratio. Only the magnitude changes. That is a much stronger
+statement than the draft made and it was sitting one line of algebra away.
+
+---
+
+## A Cross-Check the Draft Never Made
+
+The article assumes a hypersonic lift coefficient of 0.6 and separately derives a required lift-to-drag
+ratio of 1.245 by inverting the crossrange requirement. **Those two numbers are connected and the draft
+did not connect them.**
+
+Newtonian impact theory gives $C_L = 2\sin^2\alpha\cos\alpha$, so a lift coefficient of 0.6 means an
+angle of attack of **38.14 degrees**. At that angle the lift-to-drag ratio is simply the cotangent.
+
+$$L/D = \cot 38.14^\circ = 1.273$$
+
+**Against the 1.245 the mission requires, that is agreement to 2.3 percent**, reached from two directions
+that share nothing. One is a crossrange requirement inverted through orbital mechanics. The other is
+impact theory applied to a flat plate. Neither knows about the other.
+
+---
+
+## The Structure Section Had No Relation and Its Claim Was Quantitative
+
+The draft said a hot panel is "a good deal longer" than its frame without saying how much. Writing
+$\Delta L = \alpha L \Delta T$ out gives numbers that change how the section reads.
+
+**The airframe grows 5.09 inches over its own length** at a 1,500 degree rise. Worse, molybdenum shingles
+expand at about three eighths the rate of the René 41 beneath them, so a three-foot panel and its frame
+differ by 0.27 inches. **The problem is accommodation rather than strength**, and that is now stated with
+a number behind it.
+
+I also added the eighth-root dependence, $T \propto (W/S)^{1/8}$, which is why the wing-loading
+temperature table is so flat and which the draft left as an unexplained observation.
+
+---
+
+## Verification
+
+**77 independent re-derivations, zero disagreements**, up from 57. All 81 quoted values present. Two
+approximations I had stated loosely were tightened after checking, a kerosene-equivalent figure from
+1,200 to 1,133 gallons and an energy height from 1,363 to 1,365 statute miles.
+
+`_verify.py` at the 0-error 21-warning baseline, confirmed from the repository root. Zero style
+violations. Isolated build passing with 49 of 49 display blocks rendering as display, 2 of 2 tables, Part
+21 navigation. Equation count measured before and after.
+
+**No error was found in the drafted text this time**, which breaks a run of twelve consecutive articles
+in which writing the relations down caught a wrong claim. What it caught here was omission rather than
+error.
+
+---
+
+## State
+
+**Committed, not pushed**, which is correct for this pass. **566 lines, 49 display equations, 115
+references, 4,996 words.**
+
+Seven sections remain flagged by the density scan and I judge all seven correct as they stand, being the
+opening, the historical framing, and the closing analytical sections, which quote numbers derived
+elsewhere in the article.
+
+Equations at 49 sit 41 below the 90 floor and lines 735 below the 1,300 floor, with two passes remaining.
+
+**A315's four marine citations are still uncorrected** and still outside what you have asked for.
 
 ---
 
@@ -108,8 +189,7 @@ display blocks rendering as display, 2 of 2 tables, Part 21 navigation.
 
 ## State
 
-**Committed, not pushed**, which is the draft pass. **462 lines, 24 display equations, 115 references,
-4,462 words.**
+Superseded by the state section above.
 
 Twenty-one of seventy-two. The publication-order dependency is now **twenty-one deep** and every
 cross-reference points backward.

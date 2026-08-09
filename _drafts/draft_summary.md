@@ -21,8 +21,24 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x20.markdown`, A317, editorial date 2025-10-26, series `x_planes` index 21 of 72.
 
-**462 lines, 24 display equations, 115 references, 4,462 words after the draft pass.** One of four passes
-complete. Committed, not pushed. Not published.
+462 lines, 24 display equations, 115 references, 4,462 words after the draft pass; **566 lines, 49
+display equations, 115 references, 4,996 words after the equation review.** Two of four passes complete.
+Committed, not pushed. Not published.
+
+**The equation review found the article's own central claim undisplayed.** The draft asserts that peak
+heating on an equilibrium glide is independent of lift-to-drag ratio and that the peak falls at a
+particular speed, and displayed neither the maximisation that locates it nor the speed it gives. Writing
+the speed ratio as $u$ makes the heating proportional to $u\sqrt{1-u}$, and maximising the square gives
+$u = 2/3$ exactly, so **the worst heating always arrives at 81.6 percent of circular speed for any vehicle
+whatever**. That is a stronger statement than the draft made and it was one line of algebra away.
+
+**A cross-check the draft never made.** The assumed lift coefficient of 0.6 and the lift-to-drag ratio of
+1.245 derived from crossrange are connected through Newtonian impact theory. A lift coefficient of 0.6
+means 38.14 degrees of angle of attack, at which the lift-to-drag ratio is the cotangent, giving 1.273.
+**The two agree to 2.3 percent from directions that share nothing.**
+
+**No error was found in the drafted text**, which breaks a run of twelve consecutive articles in which
+writing the relations down caught a wrong claim. What it caught here was omission.
 
 **The keystone is the exchange rate between crossrange and heat, and it decomposes unusually cleanly.**
 Substituting the equilibrium-glide density into the stagnation heating relation removes lift-to-drag ratio
