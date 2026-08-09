@@ -127,6 +127,36 @@ is checked for sensitivity to the difference, which is under five percent in the
 
 ## Sizing From First Principles
 
+### Why a Rotor Autorotates
+
+**It is easy to say that the rotor turns because air comes up through it and leave the matter there. That sentence is the whole physical content of the subject and it deserves the one line it actually takes to write down.**
+
+Consider a blade element at radius $r$ meeting the resultant flow at inflow angle $\phi$. Its lift acts
+perpendicular to that flow and its drag along it, so both have components in the plane of rotation. The net
+in-plane force on the element is
+
+$$dF_{x} = dL \sin\phi - dD \cos\phi$$
+
+The element neither drives the rotor nor retards it when that vanishes, which gives a condition containing
+nothing but the section's own aerodynamics,
+
+$$\tan\phi = \frac{dD}{dL} = \frac{C_d}{C_l}$$
+
+**The equilibrium element is the one whose inflow angle equals its own drag-to-lift angle.** Inboard of it
+the inflow angle is larger and the element drives the rotor. Outboard it is smaller and the element is
+driven. **Autorotation is that balance, integrated over the disc**, and the rotor settles at whatever speed
+makes the driving and driven regions cancel,
+
+$$\int_{0}^{R} r \, dF_{x} = 0$$
+
+For a section lift-to-drag ratio of 15, which is ordinary for a wooden blade, the equilibrium inflow angle
+is 3.8 degrees. The blade-level machinery is [Weick 1926][research_weick_1926], [Kito
+1942][research_kito_1942], [Fisher et al 1971][research_fisher_1971], [Bobo 1972][research_bobo_1972],
+[Kerwin 1973][research_kerwin_1973], [Computer techniques for propeller
+1976][research_computer_techniques_1976], [Ballard et al 1979, Effect of tip planform on
+blade][research_ballard_1979], [Ballard et al 1979, Effect of tip shape on blade][research_ballard_1979_2],
+[Ballard et al 1980][research_ballard_1980], [Moxon and Green 1990][research_moxon_green_1990].
+
 ### What Autorotation Is
 
 A rotor in [autorotation][ref_autorotation] has no shaft power. It turns because the airflow through the
@@ -189,12 +219,40 @@ $$v_h = \sqrt{\frac{350}{2 (0.002377)(314.2)}} = 15.3 \, \text{ft/s}$$
 
 ### The Descent Rate
 
-In steady vertical autorotation the measured descent rate is close to $1.8 v_h$. That number comes from
-flight and tunnel measurement rather than from momentum theory alone, because the rotor passes through the
-vortex ring state where momentum theory is not valid, in [Lundberg 1937][research_lundberg_1937], [Lundberg
-1938][research_lundberg_1938], [Castles and Gray 1951][research_castles_gray_1951], [French
-1965][research_french_1965], [Shi-cun 1990][research_shicun_1990], [Johnson 2004][research_johnson_2004],
-[Johnson 2005][research_johnson_2005].
+In steady vertical autorotation the measured descent rate is close to $1.8 v_h$.
+**That number is empirical, and the reason it has to be is worth showing rather than asserting.**
+
+In the windmill brake state the disc decelerates the oncoming flow by an induction factor $a$, and momentum
+theory gives the thrust as
+
+$$T = 2 \rho A V_d^2 \, a (1 - a)$$
+
+Setting $T = W$ and substituting $W = 2 \rho A v_h^2$ makes the density and the area cancel, leaving a
+relation between the descent ratio and the induction factor alone,
+
+$$\left( \frac{v_h}{V_d} \right)^{2} = a (1 - a)$$
+
+**The right-hand side is a parabola whose maximum is one quarter, at $a = 1/2$.** The left-hand side
+therefore cannot exceed one quarter either, which is a bound on the descent ratio containing no property of
+any rotor,
+
+$$\frac{V_d}{v_h} \geq 2$$
+
+**The measured value is 1.8, and momentum theory has no solution there at all.** The quadratic in $a$ has a
+negative discriminant below a ratio of 2, so there is no induction factor that supports the weight.
+
+**This is not the rotor beating a bound.** The bound exists only inside a model that does not apply at that
+condition. Between hover and a descent of twice the hover induced velocity the rotor is in the vortex ring
+and turbulent wake states, the flow recirculates rather than passing through once, and the actuator-disc
+assumption fails outright.
+**The descent rate must come from measurement because the theory declines to supply one**, in [Lundberg
+1937][research_lundberg_1937], [Lundberg 1938][research_lundberg_1938], [Castles and Gray
+1951][research_castles_gray_1951], [French 1965][research_french_1965], [Shi-cun
+1990][research_shicun_1990], [Johnson 2004][research_johnson_2004], [Johnson 2005][research_johnson_2005].
+
+One consequence lands on a table this article prints below. The limiting case $a = 1/2$ corresponds to a
+ratio of exactly 2, which by the bridge derived next is a drag coefficient of exactly 1 on disc area.
+**The last row of that table is the momentum-theory bound.**
 
 $$V_d \approx 1.8 \, v_h = 1.8 (15.3) = 27.6 \, \text{ft/s} = 18.8 \, \text{mph}$$
 
@@ -215,8 +273,14 @@ $$V_d = \frac{2 v_h}{\sqrt{C_D}} \quad \Longrightarrow \quad C_D = \frac{4}{(V_d
 $$C_D = \frac{4}{(1.8)^2} = 1.23$$
 
 A flat circular parachute canopy has a drag coefficient near 0.75 referred to its **nominal** area, meaning
-the area of the flat fabric, and its inflated projected diameter is roughly 0.67 of the nominal diameter, so
-referred to the area it actually sweeps,
+the area of the flat fabric before it is inflated.
+**The area it actually presents to the flow is smaller, because an inflated canopy is a shallow bowl rather than a disc**,
+and the two areas are related through the projected diameter,
+
+$$S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0$$
+
+Its inflated projected diameter is roughly 0.67 of the nominal diameter, so referred to the area it actually
+sweeps,
 
 $$C_{D,\text{proj}} = \frac{0.75}{(0.67)^2} = 1.67$$
 
@@ -286,14 +350,37 @@ airframe. A standard personnel canopy of 28 foot nominal diameter has
 
 $$A_0 = \pi (14)^2 = 615.8 \, \text{ft}^2$$
 
-which is nearly twice the rotor disc. Since descent rate goes as the square root of loading for both
-devices, the rotor loses before any coefficient is considered.
+which is nearly twice the rotor disc.
+
+**Both devices obey the same law and it is worth writing down, because the article leans on it repeatedly.**
+Define the loading as weight over swept area,
+
+$$\frac{W}{A} = \text{disc loading, or canopy loading}$$
+
+Then the terminal descent of any swept-area drag device follows from the force balance,
+
+$$V_d = k \sqrt{\frac{W / A}{\rho}}, \qquad k = \sqrt{\frac{2}{C_D}}$$
+
+with $k = 1.27$ for the rotor at $C_D = 1.23$ and $k = 1.63$ for the canopy at $C_D = 0.75$.
+**The rotor has the better coefficient and the worse loading, and the loading wins.** Sizing practice around
+this quantity is [Mann and Marston 1961][research_mann_marston_1961], [Young and Lytwyn
+1967][research_young_lytwyn_1967], [Jenney et al 1968][research_jenney_1968], [Wright
+1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987].
+
+Since descent rate goes as the square root of loading for both devices, the rotor loses before any
+coefficient is considered.
 
 | Device | Weight, lb | Swept area, ft² | Loading, lb/ft² | Descent, ft/s |
 |---|---|---|---|---|
 | 28 ft canopy | 250 | 615.8 | 0.406 | 21.3 |
 | 20 ft rotor, equal weight | 250 | 314.2 | 0.796 | 23.3 |
 | 20 ft rotor, as flown | 350 | 314.2 | 1.114 | 27.6 |
+
+**The equal-weight comparison has a closed form and the weight cancels out of it**, so the nine percent is a
+statement about the two devices rather than about any particular load. Writing $r$ for the rotor and $c$ for
+the canopy,
+
+$$\frac{V_{\text{rotor}}}{V_{\text{canopy}}} = \sqrt{\frac{C_{D,c} A_c}{C_{D,r} A_r}} = \sqrt{\frac{0.75 \times 615.8}{1.23 \times 314.2}} = 1.091$$
 
 **Nine percent worse at equal weight and twenty-nine percent worse as flown.** A concept sold as a better
 way down is, in the one respect a parachute exists to serve, a worse one.
@@ -305,7 +392,18 @@ forward autorotative flight is a rotating wing generating lift with a component 
 Taking a lift-to-drag ratio of 4, which is mid-range for this class of machine, and a best-glide airspeed of
 45 miles an hour,
 
+$$\tan\gamma = \frac{1}{L/D}, \qquad V_s = V \sin\gamma$$
+
+**At a lift-to-drag ratio of 4 the glide angle is 14.0 degrees, which is not a small angle**, so the exact
+form and the convenient one differ,
+
 $$V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}$$
+
+$$V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}$$
+
+**The article uses the simpler form throughout and it is three percent high.** That is stated rather than
+hidden, and it does not move any conclusion, since the comparison against a canopy descending at 21.3 feet
+per second is not close.
 
 **Now it beats the canopy on descent rate as well, at 16.5 feet per second against 21.3.** The glide
 literature is [Collins 1934][research_collins_1934], [Gliding Flight in Germany
@@ -322,9 +420,47 @@ $$R = h \, (L/D)$$
 | Release height, ft | Range, statute miles | Time aloft, minutes |
 |---|---|---|
 | 2,000 | 1.5 | 2.0 |
-| 5,000 | 3.8 | 5.1 |
-| 10,000 | 7.6 | 10.1 |
-| 20,000 | 15.2 | 20.2 |
+| 5,000 | 3.8 | 4.9 |
+| 10,000 | 7.6 | 9.4 |
+| 20,000 | 15.2 | 17.4 |
+
+### Every Number Above Is at Sea Level and Every Ejection Is Not
+
+**Descent rate depends on density, and an escape system is used at altitude by definition.**
+
+$$V_d(h) = V_d(0) \sqrt{\frac{\rho_0}{\rho(h)}}, \qquad \frac{\rho(h)}{\rho_0} = \left( 1 - 6.875 \times 10^{-6} h \right)^{4.256}$$
+
+**The density ratio is conventionally written $\sigma$ and it is not written that way here**, because this
+article has already spent $\sigma$ on rotor solidity and one symbol cannot carry both.
+
+so a rotor arrives at 20,000 feet descending 37 percent faster than the same rotor at sea level. The
+tabulated atmosphere this rests on is [Air Force Test Pilot School Edwards Afb Ca
+1962][research_air_force_test_pilot_school_edwards_afb_ca_1962], [Dubin et al 1962][research_dubin_1962],
+[U.S. Standard Atmosphere, 1962][research_u_s_standard_1962], [B-34. U. S. Standard
+1963][research_b_34_u_1963], [U. S. Standard Atmosphere 1963][research_u_s_1963], [Lecar
+1964][research_lecar_1964], [Dubin et al 1966][research_dubin_1966], [U.S. Standard Atmosphere Supplements
+1966][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Pegg 1968][research_pegg_1968],
+[Snell and Heiser 1968][research_snell_heiser_1968], [Minzner et al 1973][research_minzner_1973], [Krueger
+and Minzner 1976][research_krueger_minzner_1976], [Minzner et al 1976][research_minzner_1976], [U.S.
+Standard Atmosphere, 1976][research_u_s_standard_1976], [Minzner 1977][research_minzner_1977], [Peters and
+Jr 1977][research_peters_jr_1977], [Brookes 1981][research_brookes_1981], [Appendix Tables of
+1990][research_appendix_1990], [Johnson et al 1991][research_johnson_1991], [Johnson et al
+1993][research_johnson_1993], [Johnson et al 2002][research_johnson_2002].
+
+**The range does not change at all**, which is worth stating because it is the article's headline number.
+The relation displayed above, $R = h (L/D)$, is purely geometric.
+**There is no speed in it and no density in it.** A glide ratio is a ratio of distances, so it is the same
+in any air, and an ejection at twenty thousand feet reaches the same fifteen miles whatever the density does
+on the way down.
+
+**The time aloft does change, and holding the sink rate constant would overstate it.** Integrating with
+density varying,
+
+$$t = \int_{0}^{h} \frac{dz}{V_s(z)} = \frac{1}{V_s(0)} \int_{0}^{h} \sqrt{\frac{\rho(z)}{\rho_0}} \; dz$$
+
+which gives 9.4 minutes from 10,000 feet rather than 10.1, and 17.4 from 20,000 rather than 20.2.
+**The constant-density figure overstates the time by 8 percent at ten thousand feet and 16 percent at twenty.**
+The table below uses the integrated values.
 
 **A round canopy travels only with the wind.** Seven and a half miles from a ten thousand foot ejection is
 the entire product. Whether that is worth anything depends on whether seven miles is the difference between
@@ -388,6 +524,21 @@ unsteady][research_johnson_1981], [Johnson 1982][research_johnson_1982], [Janetz
 1993][research_smith_chopra_1993], [Cho and Lee 1994][research_cho_lee_1994], [Kolwey
 1999][research_kolwey_1999].
 
+**One number governs how the blade responds, and this article computes its ingredients anyway.** The Lock
+number compares the aerodynamic forcing on a blade to its inertia,
+
+$$\gamma_L = \frac{\rho a c R^4}{I_b}, \qquad I_b = \tfrac{1}{3} m_b R^2 = 12.4 \, \text{slug ft}^2$$
+
+$$\gamma_L = \frac{(0.002377)(5.7)(0.583)(10)^4}{12.4} = 6.4$$
+
+**The Lock number is conventionally written $\gamma$ with no subscript.** It is subscripted here because
+this article has already used $\gamma$ for the glide angle, and a collision between two standard notations
+is resolved by marking one rather than by silently reusing it.
+
+**A helicopter sits between eight and ten, so this blade is heavy for its air loads.** That is a liability
+in responsiveness and an asset in the flare, because it is exactly the property that stores energy, which
+the next section but one turns on.
+
 Operating tip speed for this class is near 400 feet per second, giving
 
 $$\Omega = \frac{V_{tip}}{R} = \frac{400}{10} = 40 \, \text{rad/s} = 382 \, \text{rpm}$$
@@ -403,6 +554,49 @@ which is well below any compressibility concern, in [Mcdonnell Aircraft Corp St 
 1989][research_althoff_1989], [Prieur et al 1989][research_prieur_1989], [Mueller et al
 1990][research_mueller_1990], [Mueller et al 1992][research_mueller_1992], [Berton et al
 1995][research_berton_1995].
+
+**Two nondimensional numbers place this rotor against every other rotor and against the wind turbine it shares its flow state with.**
+The thrust coefficient refers the load to the dynamic pressure at the tip,
+
+$$C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0.0029$$
+
+and dividing by solidity gives the blade loading coefficient, which is the quantity that actually approaches
+a stall limit near 0.10,
+
+$$\frac{C_T}{\sigma} = \frac{0.0029}{0.037} = 0.079$$
+
+The tip speed ratio compares the tip speed to the flow the rotor sits in,
+
+$$\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5$$
+
+**A horizontal axis wind turbine runs at a tip speed ratio of six to eight. This rotor runs at fifteen**, so
+it is a very lightly loaded machine in the same flow state, which is why its induction factor is small and
+its thrust coefficient is a few thousandths. That family of work is [Tammaruckwattana et al
+2015][research_tammaruckwattana_2015], [Bai and Shiah 2016][research_bai_shiah_2016], [Lee et al
+2016][research_lee_2016], [Sun et al 2016][research_sun_2016], [Yang et al 2016][research_yang_2016],
+[Dehouck et al 2017][research_dehouck_2017], [Xie et al 2017, Wind tunnel testing and
+improved][research_xie_2017], [Karthikeyan and Gokul Karthik 2018][research_karthikeyan_gokul_karthik_2018],
+[Tahir et al 2018][research_tahir_2018], [Tang et al 2018][research_tang_2018], [Yoshida
+2018][research_yoshida_2018], [Zhang et al 2018, Fatigue damage assessment of wind][research_zhang_2018_3],
+[Augusto et al 2019][research_augusto_2019], [Bhargava and Samala 2019][research_bhargava_samala_2019],
+[Bidikli 2019][research_bidikli_2019], [Tabatabaei et al 2019][research_tabatabaei_2019], [Yang et al
+2019][research_yang_2019], [Kao et al 2020][research_kao_2020], [Moshfeghi and Hur
+2020][research_moshfeghi_hur_2020], [Tien 2020][research_tien_2020], [Chabaud 2021][research_chabaud_2021],
+[Mujahid et al 2021][research_mujahid_2021], [Siram et al 2021][research_siram_2021], [Zhang and Qu
+2021][research_zhang_qu_2021], [Corniglion et al 2022][research_corniglion_2022], [Hosseini et al
+2022][research_hosseini_2022], [Syed Ahmed Kabir et al 2022][research_syed_ahmed_kabir_2022], [Yin et al
+2022][research_yin_2022], [Asadi and Hassanzadeh 2023][research_asadi_hassanzadeh_2023], [Ju
+2023][research_ju_2023], [Nishi et al 2023][research_nishi_2023], [Pratama Ricky Novianto et al
+2023][research_pratama_ricky_novianto_2023], [Yilmaz 2023][research_yilmaz_2023], [Özkan and Genç
+2023][research_ozkan_genc_2023], [Abbas et al 2024][research_abbas_2024], [Baisthakur and Fitzgerald
+2024][research_baisthakur_fitzgerald_2024], [Kulak et al 2024][research_kulak_2024], [Ludlam et al
+2024][research_ludlam_2024], [Saulescu and Neagoe 2024][research_saulescu_neagoe_2024], [Shen et al 2024,
+The influence of the rotor][research_shen_2024_2], [Abedi and Eskilsson
+2025][research_abedi_eskilsson_2025], [Le et al 2025][research_le_2025], [Selvatici and Stevens
+2025][research_selvatici_stevens_2025], [Yushan et al 2025][research_yushan_2025], [Adema et al
+2026][research_adema_2026], [Fu 2026][research_fu_2026], [Rotor Speed Recovery Strategy
+2026][research_rotor_speed_2026], [Zhang et al 2026, Real-time hybrid testing of
+rotor][research_zhang_2026_3].
 
 ### Getting It Turning, and a Result That Comes Out Negative
 
@@ -420,6 +614,22 @@ $$h = \frac{E}{W} = \frac{19{,}900}{350} = 57 \, \text{ft}$$
 
 **Fifty-seven feet if every particle of potential energy went into the rotor, and a few hundred feet at any believable efficiency.**
 That is comparable to what canopy inflation costs.
+
+**There is a small surprise buried in that arithmetic and it matters later.** Substituting the inertia and
+the operating speed into the energy,
+
+$$E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} \left( N \tfrac{1}{3} m_b R^2 \right) \left( \frac{V_{tip}}{R} \right)^{2} = \frac{N}{6} m_b V_{tip}^2$$
+
+**The radius has cancelled.** At a fixed blade mass and a fixed tip speed, a rotor stores the same energy
+whatever its size, because the inertia rises as the square of the radius exactly as fast as the operating
+angular speed falls. **Shrinking a rotor costs nothing in stored energy.**
+
+Energy held in a turning rotor is a subject of its own, and the period expresses it as an autorotative index
+rather than as a quantity of foot pounds, in [Dooley and Yeary 1979][research_dooley_yeary_1979].
+**The literature on it is not separable from the autorotation literature proper**, since a paper on
+autorotative landing is a paper about spending this energy, and the relevant work is cited above under
+autorotation and blade motion rather than here. It costs a great deal elsewhere, and the Comparison With
+Ground Prediction section below is where that bill arrives.
 
 **The objection fails.** This is a negative result and it is reported as one, because the energetic argument
 against the Discretionary Descent Vehicle is the first one anybody reaches for and it does not survive being
@@ -561,6 +771,45 @@ a smaller radius at a larger weight is punished twice.
 
 **Fifty-six feet per second is 38 miles an hour straight down.** A steady vertical descent at that rate is
 not survivable, and the whole difference would have to be retrieved in the flare out of stored rotor energy.
+
+**That sentence is easy to write and is worth checking, because it need not have been true.** It is, and the
+check is short.
+
+The energy a flare must absorb is the kinetic energy of the descent,
+
+$$E_{req} = \tfrac{1}{2} \frac{W}{g} V_d^2$$
+
+and substituting the descent rate turns it into a statement about weight and radius alone,
+
+$$E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}$$
+
+**The energy required goes as the square of the weight over the square of the radius, while the energy available goes as neither.**
+Dividing one by the other gives a margin whose only free quantity is the assumed blade mass,
+
+$$\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}$$
+
+| | X-25B | SAVER |
+|---|---|---|
+| Weight, lb | 350 | 710 |
+| Rotor radius, ft | 10 | 7 |
+| Descent rate, ft/s | 27.6 | 56.1 |
+| Energy required, ft lb | 4,130 | 34,700 |
+| Energy available, ft lb | 19,900 | 19,900 |
+| **Margin** | **4.8** | **0.57** |
+
+**The X-25B carries nearly five times the energy its flare needs. The SAVER carries about half.** Inverting
+the margin to unity asks what the blades would have to weigh,
+
+$$m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}$$
+
+which is 2.5 pounds a blade for the X-25B and **21 pounds a blade for the SAVER**, against the 12 assumed
+for both.
+**A vehicle whose entire design constraint was folding into an ejection seat would have needed blades close to twice as heavy as a Bensen's.**
+
+**This is a quantitative statement where the argument from stowability alone was qualitative, and the two point the same way.**
+It is still resting on an assumed blade mass and tip speed for a vehicle whose real figures are not
+published, so it is offered as an order-of-magnitude statement rather than a measurement.
+**Doubling the assumed blade mass still leaves the SAVER at a margin of 1.15, which is no margin at all for an escape system.**
 
 **The model therefore predicts that a stowable rotor seat needs an engine, and the SAVER had one**, a
 Williams WRC-19 turbofan of 430 pounds thrust.
@@ -1143,10 +1392,24 @@ and where those disagree the article says so rather than choosing.
 theory, blade element theory, parachutes and escape systems are all well documented from the 1920s onward.
 **The article can derive everything about the concept and can verify almost nothing about the aircraft.**
 
-Two clusters are reported as genuinely thin rather than padded.
-**Rotor spin-up and prerotation stands at three records** and **stored rotor energy at seven**, after a
-harvest aimed specifically at both using period vocabulary including autorotative index and rotor speed
-decay. Those are archive limits and not search failures.
+**One topic is genuinely thin and one only appears to be, and the difference is worth stating.**
+
+**Rotor spin-up and prerotation stands at three records** after a harvest aimed at it using period
+vocabulary including prerotation, rotor starting and starting torque. That is an archive limit rather than a
+search failure, and it is the reason the spin-up section of this article reasons from energy rather than
+from measurement.
+
+**Stored rotor energy appears to stand at one record and does not really.** The relevant work exists and is
+cited, but it sits inside the autorotation and blade-motion literature rather than beside it, because a
+paper on autorotative landing is a paper about spending exactly that energy. A dedicated heading for it is
+nearly empty while the subject is well covered. **A thin heading is not the same thing as a thin subject**,
+and the distinction is easy to get wrong in the direction of claiming a gap that is not there.
+
+One further caution belongs here. A pattern for this topic that included the word flywheel retrieved
+**flywheel energy storage for spacecraft and power grids**, meaning containment rings and composite burst
+testing, which is a different discipline that happens to store energy in something that spins.
+**That homonym was created by the search rather than found in the archive**, and it was removed by reading
+the records rather than by any check.
 
 The period record generally is [Brenda S Henderson et al][research_brenda_s_henderson], [Daniel Ingraham and
 Robert Falck][research_daniel_ingraham_robert_falck], [James H Stephenson et
@@ -1522,26 +1785,27 @@ et al 1986][research_azad_1986], [Berry and Schrage 1986][research_berry_schrage
 1988][research_anderson_jr_1988], [Bielawa 1988][research_bielawa_1988], [Centrone et al
 1988][research_centrone_1988], [Cole 1988][research_cole_1988], [Folds and Beard
 1988][research_folds_beard_1988], [Gessow 1988][research_gessow_1988], [Grossman et al
-1988][research_grossman_1988], [Kane and William D. 1988][research_kane_william_d_1988], [Kondepudi and
-ONeal 1988][research_kondepudi_o_neal_1988], [Law and Puterbaugh 1988][research_law_puterbaugh_1988], [Nixon
-1988][research_nixon_1988], [Obergefell and Kaleps 1988][research_obergefell_kaleps_1988], [Oda and Ara
-1988][research_oda_ara_1988], [Peters 1988][research_peters_1988], [Reddy 1988][research_reddy_1988],
-[Schwartz 1988][research_schwartz_1988], [Srinivasan and McCroskey
-1988][research_srinivasan_mccroskey_1988], [Tarnawski and Yuet 1988][research_tarnawski_yuet_1988],
-[Thompson et al 1988][research_thompson_1988], [Amer 1989][research_amer_1989], [Assanis
-1989][research_assanis_1989], [Baldwin and Flam 1989][research_baldwin_flam_1989], [Caruso et al
-1989][research_caruso_1989], [Cerbe and Reichert 1989][research_cerbe_reichert_1989], [Chattopadhyay et al
-1989][research_chattopadhyay_1989], [Er-El et al 1989][research_er_el_1989], [Gato and de O. Falcão
-1989][research_gato_de_o_falcao_1989], [Hughes and Gazzaniga 1989][research_hughes_gazzaniga_1989], [Izumi
-1989][research_izumi_1989], [Lim and Chopra 1989][research_lim_chopra_1989], [Liou et al
-1989][research_liou_1989], [Maxworthy and Cheng 1989][research_maxworthy_cheng_1989], [Pribyla
-1989][research_pribyla_1989], [Rand 1989][research_rand_1989], [Schillings and Reinesch
-1989][research_schillings_reinesch_1989], [Weisend 1989][research_weisend_1989], [Wu
-1989][research_wu_1989], [Air Force Test Pilot School Edwards Afb Ca 1990, Volume IV. Flight
-Test][research_air_force_test_pilot_school_edwards_afb_ca_1990], [Air Force Test Pilot School Edwards Afb Ca
-1990, Volume IV. Flight Test][research_air_force_test_pilot_school_edwards_afb_ca_1990_2], [Bill
-1990][research_bill_1990], [Buckalew 1990][research_buckalew_1990], [Chattopadhyay and Chiu 1990, An
-enhanced integrated][research_chattopadhyay_chiu_1990], [Chattopadhyay and Chiu 1990, An enhanced
+1988][research_grossman_1988], [Jayaraman et al 1988][research_jayaraman_1988], [Kane and William D.
+1988][research_kane_william_d_1988], [Kondepudi and ONeal 1988][research_kondepudi_o_neal_1988], [Law and
+Puterbaugh 1988][research_law_puterbaugh_1988], [Nixon 1988][research_nixon_1988], [Obergefell and Kaleps
+1988][research_obergefell_kaleps_1988], [Oda and Ara 1988][research_oda_ara_1988], [Peters
+1988][research_peters_1988], [Reddy 1988][research_reddy_1988], [Schwartz 1988][research_schwartz_1988],
+[Srinivasan and McCroskey 1988][research_srinivasan_mccroskey_1988], [Tarnawski and Yuet
+1988][research_tarnawski_yuet_1988], [Thompson et al 1988][research_thompson_1988], [Amer
+1989][research_amer_1989], [Assanis 1989][research_assanis_1989], [Baldwin and Flam
+1989][research_baldwin_flam_1989], [Caruso et al 1989][research_caruso_1989], [Cerbe and Reichert
+1989][research_cerbe_reichert_1989], [Chattopadhyay et al 1989][research_chattopadhyay_1989], [Er-El et al
+1989][research_er_el_1989], [Gato and de O. Falcão 1989][research_gato_de_o_falcao_1989], [Hughes and
+Gazzaniga 1989][research_hughes_gazzaniga_1989], [Izumi 1989][research_izumi_1989], [Lim and Chopra
+1989][research_lim_chopra_1989], [Liou et al 1989][research_liou_1989], [Maxworthy and Cheng
+1989][research_maxworthy_cheng_1989], [Pribyla 1989][research_pribyla_1989], [Rand
+1989][research_rand_1989], [Schillings and Reinesch 1989][research_schillings_reinesch_1989], [Weisend
+1989][research_weisend_1989], [Wu 1989][research_wu_1989], [Air Force Test Pilot School Edwards Afb Ca 1990,
+Volume IV. Flight Test][research_air_force_test_pilot_school_edwards_afb_ca_1990], [Air Force Test Pilot
+School Edwards Afb Ca 1990, Volume IV. Flight
+Test][research_air_force_test_pilot_school_edwards_afb_ca_1990_2], [Bill 1990][research_bill_1990],
+[Buckalew 1990][research_buckalew_1990], [Chattopadhyay and Chiu 1990, An enhanced
+integrated][research_chattopadhyay_chiu_1990], [Chattopadhyay and Chiu 1990, An enhanced
 integrated][research_chattopadhyay_chiu_1990_2], [Chattopadhyay and Walsh
 1990][research_chattopadhyay_walsh_1990], [Composite helicopter rotor hub
 1990][research_composite_helicopter_1990], [Dahlke and Batiuk 1990][research_dahlke_batiuk_1990], [Doucet
@@ -1597,9 +1861,9 @@ Dynamics][research_rosen_isser_1995], [Strawn and Biswas 1995][research_strawn_b
 Dowell 1995][research_tang_dowell_1995], [Wentworth et al 1995][research_wentworth_1995], [Brender et al
 1996][research_brender_1996], [Burke and Jr 1996][research_burke_jr_1996], [Cole 1996][research_cole_1996],
 [George 1996][research_george_1996], [LeLetty et al 1996][research_leletty_1996], [Martin
-1996][research_martin_1996], [McKillip 1996][research_mckillip_1996], [Roth 1996][research_roth_1996],
-[Bauchau and Lemnios 1997][research_bauchau_lemnios_1997], [Chattopadhyay et al
-1997][research_chattopadhyay_1997], [Kozapalli and Warmbrodt 1997][research_kozapalli_warmbrodt_1997],
+1996][research_martin_1996], [McKillip 1996][research_mckillip_1996], [Pang et al 1996][research_pang_1996],
+[Roth 1996][research_roth_1996], [Bauchau and Lemnios 1997][research_bauchau_lemnios_1997], [Chattopadhyay
+et al 1997][research_chattopadhyay_1997], [Kozapalli and Warmbrodt 1997][research_kozapalli_warmbrodt_1997],
 [McEntire and Shanahan 1997][research_mcentire_shanahan_1997], [Piatak et al 1997][research_piatak_1997],
 [Saxton 1997][research_saxton_1997], [Schrage et al 1997][research_schrage_1997], [Yeager et al
 1997][research_yeager_1997], [Appa et al 1998][research_appa_1998], [Bussinger
@@ -1614,9 +1878,10 @@ and Cooper 1999][research_guidos_cooper_1999], [Howard 1999][research_howard_199
 [Everett and Elber 2000][research_everett_elber_2000], [Friedmann 2000][research_friedmann_2000], [Fries
 2000][research_fries_2000], [Kitaplioglu et al 2000][research_kitaplioglu_2000], [Matthew L Wilbur et al
 2000][research_matthew_l_wilbur_2000], [Abrego et al 2001][research_abrego_2001], [Acree et al
-2001][research_acree_2001], [Candler 2001][research_candler_2001], [Jameson 2001][research_jameson_2001],
-[Pogorzelski and Cable 2001][research_pogorzelski_cable_2001], [Rash et al 2001][research_rash_2001],
-[Stainback 2001][research_stainback_2001], [Young et al 2001][research_young_2001], [Yuvarajan
+2001][research_acree_2001], [Candler 2001][research_candler_2001], [Harmon and Baaklini
+2001][research_harmon_baaklini_2001], [Jameson 2001][research_jameson_2001], [Pogorzelski and Cable
+2001][research_pogorzelski_cable_2001], [Rash et al 2001][research_rash_2001], [Stainback
+2001][research_stainback_2001], [Young et al 2001][research_young_2001], [Yuvarajan
 2001][research_yuvarajan_2001], [Abrego et al 2002][research_abrego_2002], [Air Force Flight Test Center
 Edwards Afb Ca 2002, AFFTC Instruction 99-5, Test
 and][research_air_force_flight_test_center_edwards_afb_ca_2002_2], [Air Force Flight Test Center Edwards Afb
@@ -1627,21 +1892,23 @@ Aerial][research_chen_2002_2], [Chopra 2002][research_chopra_2002], [Fleming et 
 2002][research_garcia_2002], [Picard and Whitley 2002][research_picard_whitley_2002], [Savick
 2002][research_savick_2002], [Wereley 2002][research_wereley_2002], [Wickens and Dixon
 2002][research_wickens_dixon_2002], [Williams 2002][research_williams_2002], [Beeler et al
-2003][research_beeler_2003], [Grendahl and Pepi 2003][research_grendahl_pepi_2003], [Rostad et al 2003,
-Analysis of Head Motion in][research_rostad_2003], [Rostad et al 2003, Analysis of Head Motion
-in][research_rostad_2003_2], [Sekula et al 2003][research_sekula_2003], [Simpson
-2003][research_simpson_2003], [Stelle et al 2003][research_stelle_2003], [Weinacht
-2003][research_weinacht_2003], [Adelgren et al 2004][research_adelgren_2004], [Anastasi et al
-2004][research_anastasi_2004], [Kim 2004][research_kim_2004], [Law 2004][research_law_2004], [Min et al
-2004, Analysis of Stainless Steel][research_min_2004], [Min et al 2004, Analysis of Stainless
-Steel][research_min_2004_2], [Wilbur and Wilkie 2004][research_wilbur_wilkie_2004], [Yang et al
-2004][research_yang_2004], [Bolender and Doman 2005][research_bolender_doman_2005], [Department Of The Air
-Force Washington Dc 2005][research_department_of_the_air_force_washington_dc_2005], [Mittal
-2005][research_mittal_2005], [Sharkey et al 2005][research_sharkey_2005], [Singh 2005][research_singh_2005],
-[Army War Coll Carlisle Barracks Pa 2006][research_army_war_coll_carlisle_barracks_pa_2006], [Braasch
-2006][research_braasch_2006], [Hayes 2006][research_hayes_2006], [Kreiser 2006][research_kreiser_2006],
-[Stauffer 2006][research_stauffer_2006], [Wilks 2006][research_wilks_2006], [Yeo and Johnson 2006,
-Aeromechanics Analysis of a][research_yeo_johnson_2006_2], [Yeo and Johnson 2006, Optimum Design of a
+2003][research_beeler_2003], [Grendahl and Pepi 2003][research_grendahl_pepi_2003], [Roithmayr et al 2003,
+Dynamics and Control of Attitude][research_roithmayr_2003_2], [Roithmayr et al 2003, Integrated Power and
+Attitude][research_roithmayr_2003], [Rostad et al 2003, Analysis of Head Motion in][research_rostad_2003],
+[Rostad et al 2003, Analysis of Head Motion in][research_rostad_2003_2], [Sekula et al
+2003][research_sekula_2003], [Simpson 2003][research_simpson_2003], [Stelle et al
+2003][research_stelle_2003], [Weinacht 2003][research_weinacht_2003], [Adelgren et al
+2004][research_adelgren_2004], [Anastasi et al 2004][research_anastasi_2004], [Kim 2004][research_kim_2004],
+[Law 2004][research_law_2004], [Min et al 2004, Analysis of Stainless Steel][research_min_2004], [Min et al
+2004, Analysis of Stainless Steel][research_min_2004_2], [Wilbur and Wilkie
+2004][research_wilbur_wilkie_2004], [Yang et al 2004][research_yang_2004], [Bolender and Doman
+2005][research_bolender_doman_2005], [Department Of The Air Force Washington Dc
+2005][research_department_of_the_air_force_washington_dc_2005], [Mittal 2005][research_mittal_2005],
+[Sharkey et al 2005][research_sharkey_2005], [Singh 2005][research_singh_2005], [Army War Coll Carlisle
+Barracks Pa 2006][research_army_war_coll_carlisle_barracks_pa_2006], [Braasch 2006][research_braasch_2006],
+[Hayes 2006][research_hayes_2006], [Kreiser 2006][research_kreiser_2006], [Stauffer
+2006][research_stauffer_2006], [Wilks 2006][research_wilks_2006], [Yeo and Johnson 2006, Aeromechanics
+Analysis of a][research_yeo_johnson_2006_2], [Yeo and Johnson 2006, Optimum Design of a
 Compound][research_yeo_johnson_2006], [Alatishe et al 2007][research_alatishe_2007], [Blythe
 2007][research_blythe_2007], [Bowers et al 2007][research_bowers_2007], [DellaCorte and Bruckner
 2007][research_dellacorte_bruckner_2007], [Goodman and McMichael 2007][research_goodman_mcmichael_2007],
@@ -2277,6 +2544,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_dooley_1976]: https://doi.org/10.21236/ada034459
 [research_dooley_1977]: https://doi.org/10.4050/jahs.22.20
 [research_dooley_1978]: https://doi.org/10.21236/ada059187
+[research_dooley_yeary_1979]: https://doi.org/10.21236/ada071648
 [research_doran_1975]: https://doi.org/10.21236/adb013123
 [research_dorfler_1986]: https://doi.org/10.21236/ada215910
 [research_doucet_1990]: https://doi.org/10.21236/ada230995
@@ -2548,6 +2816,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hardy_white_1963]: https://doi.org/10.21236/ada396149
 [research_hargreaves_hutson_1990]: https://doi.org/10.1016/0168-1591(90)90140-9
 [research_harley_odegard_1975]: https://ntrs.nasa.gov/citations/19760019107
+[research_harmon_baaklini_2001]: https://ntrs.nasa.gov/citations/20020012807
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
 [research_harris_1968]: https://doi.org/10.2514/3.55411
 [research_harris_1970]: https://doi.org/10.4050/jahs.15.35
@@ -2694,6 +2963,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_jarvineva_1951]: https://doi.org/10.1108/eb032009
 [research_jason_cornelius_sven_schmitz]: https://ntrs.nasa.gov/citations/20240000677
 [research_jayakumar_2026]: https://doi.org/10.1109/access.2026.3680339
+[research_jayaraman_1988]: https://ntrs.nasa.gov/citations/19890027865
 [research_jeffrey_j_berton_2022]: https://ntrs.nasa.gov/citations/20220015470
 [research_jenkins_2008]: https://doi.org/10.21236/ada478613
 [research_jenkins_marks_1975]: https://doi.org/10.21236/ada008965
@@ -3274,6 +3544,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_palko_1984]: https://doi.org/10.21236/ada146051
 [research_palleja_cabre_2022]: https://doi.org/10.2514/1.j061661
 [research_pamnani_jeughale_2021]: https://doi.org/10.21275/sr21908201517
+[research_pang_1996]: https://ntrs.nasa.gov/citations/19960052926
 [research_papa_2023]: https://doi.org/10.3390/electronics12071591
 [research_papa_ponte_2018]: https://doi.org/10.3390/electronics7120435
 [research_papadales_basil_s_1979]: https://doi.org/10.21236/ada073100
@@ -3430,6 +3701,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_rogalski_2018]: https://doi.org/10.1108/aeat-02-2018-0088
 [research_rogers_asbury_2000]: https://ntrs.nasa.gov/citations/20010018610
 [research_rohan_g_deshmukh_2024]: https://ntrs.nasa.gov/citations/20240008579
+[research_roithmayr_2003]: https://ntrs.nasa.gov/citations/20030014715
+[research_roithmayr_2003_2]: https://ntrs.nasa.gov/citations/20030038806
 [research_romanchuk_2020]: https://doi.org/10.1016/j.jbiomech.2020.110064
 [research_roncolini_2024]: https://doi.org/10.1007/s13272-024-00753-7
 [research_rosen_isser_1995]: https://doi.org/10.4050/jahs.40.17

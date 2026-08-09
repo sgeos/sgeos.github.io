@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.
 
-**4,284 lines, 19 display equations, 2,472 references, 14,221 words after the draft pass.** One of four
-passes complete. Committed, **not pushed**, not published.
+4,094 lines, 19 display equations, 2,342 references, 13,732 words after the draft pass. **4,367 lines,
+43 display equations, 2,348 references, 15,890 words after the equation review.** Two of four passes
+complete. Committed, **not pushed**, not published.
 
 **The keystone is autorotation, and the obvious reading of it is wrong.** An autorotating rotor is not a
 gentler way down than a parachute but a worse one, because descent rate goes as the square root of disc
@@ -52,6 +53,18 @@ availability.
 **This is the thinnest source base in the series.** A pool of 3,526 records contains one matching the
 X-25, Bensen or the Discretionary Descent Vehicle, and it concerns the SAVER. Specifications come from
 museum fact sheets and two disagree, so the article names the disagreement rather than choosing.
+
+**The equation review closed two explanatory omissions.** The article never said WHY a rotor
+autorotates, which is one line of blade-element equilibrium, and it asserted that momentum theory is
+invalid at the autorotation point without showing that the theory admits NO SOLUTION below twice the
+hover induced velocity while the measured value is 1.8. **It also produced a correction**, since every
+descent rate was computed at sea level and every ejection happens at altitude; the range survives
+untouched because it is geometric, but the time aloft was overstated by 8 percent at ten thousand feet.
+**And it closed the gap the draft admitted**, computing the SAVER flare margin at 0.57 against the
+X-25B's 4.8, on the way discovering that stored rotor energy is INDEPENDENT OF ROTOR RADIUS while the
+energy required goes as weight squared over radius squared. **Two symbol collisions were found by
+reading the rendered equations**, sigma doing solidity and density ratio, and gamma doing glide angle
+and Lock number.
 
 **The keystone-vocabulary rule was applied before writing for the first time** rather than as a repair
 after it, and found four topics at zero that the article's own equations needed. **Two inherited
