@@ -9,150 +9,130 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A320, the Martin Marietta X-23 PRIME, drafted. The first of the four passes.
+**Task**: A320 equation-density review, the second of four passes.
 **Committed, not pushed.** Not published.
 
-**Draft state 1,291 lines, 31 display equations, 871 references, 10,177 words.**
+**31 display equations to 70**, across twenty edits, each asserted to match its anchor exactly once.
+**1,291 to 1,471 lines, 10,177 to 11,245 words, 871 references unchanged.**
 
 ---
 
-## A Judgement Call You May Want to Overrule
+## The Most Instructive Finding Was Not a Missing Equation
 
-**I treated this as a full-aircraft article rather than the designation-anomaly stub the genre document
-classes it as.** That class runs to 40 to 150 lines with no keystone, because the subject is a number
-rather than an aircraft.
+**The draft said the two published lift-to-drag ratios differ by 44 percent. As ratios they differ by
+20.**
 
-That did not fit. **The SV-5D was a real vehicle, three flew, one was recovered, and it returned a
-measurement that can be checked against a derivation.** The genre document's own Handling a Thin Record
-section names this exact case and says the conflict belongs in the article rather than behind it, which
-is not the same as saying the article should be nothing but the conflict. The anomaly has its own
-section and is treated at length.
+The 44 is correct, but it is correct about the **crossrange** those ratios imply, because crossrange
+goes as the square. The sentence was leaning on the squaring without showing it, and a reader checking
+1.2 against 1.0 would have found an apparent error that was not one.
 
-**If you would rather have the stub, say so and I will cut it.**
+$$\frac{y(1.2)}{y(1.0)} = \left(\frac{1.2}{1.0}\right)^2 = 1.44$$
 
----
-
-## The Article's Central Result
-
-**A lift-to-drag ratio near unity is not a round number. It is the threshold at which a returning
-spacecraft can reach a chosen landing site on the next orbit instead of waiting a day.**
-
-The chain is four steps and each is derived rather than asserted. Equilibrium glide with a constant bank
-gives a closed-form crossrange of $y/R = (\pi^2/48)(L/D)^2$. The bank optimum is exactly 45 degrees and
-depends on nothing at all. The crossrange a vehicle needs is half the ground-track spacing, or 1,254
-kilometres at the equator. Inverting gives **0.978**.
-
-**The heading-change relation drops the atmosphere, the mass and the reference area entirely**, which is
-why this result could be obtained for a vehicle whose reference area is not published anywhere.
+**A twenty percent disagreement about the vehicle is a forty-four percent disagreement about what it can
+do.** That is a better sentence than the one it replaced, and the pass found it by asking which relation
+produced a quoted number.
 
 ---
 
-## The Verifier Contradicted the Article and the Verifier Was Right
+## Four Quantities Were Computed in the Draft Pass and Never Reached the Article
 
-**This is the most useful thing that happened and it is worth reading in full.**
+**This is the mirror defect and it is just as much a density failure.** The work had been done and the
+article did not carry it.
 
-The independent check marches a trajectory rather than evaluating the closed form, and it disagreed by
-nine to twelve percent. The cause is that the classical derivation replaces $\sin\psi$ by $\psi$, and at
-a lift-to-drag ratio near unity **the accumulated heading passes 180 degrees, where those two quantities
-have opposite signs.** The approximation does not degrade. It inverts.
+- **The ballute deployment dynamic pressure**, 3,350 pascals or 70 pounds per square foot, which is a
+  mild load and is the reason for deploying that high
+- **The altitude at peak heating**, 71.8 kilometres, which anchors the whole thermal section to
+  somewhere physical
+- **The deceleration at the start of the glide**, 0.066 g, against 1.18 at the end. **The entire lifting
+  entry is gentler than standing up**
+- **The lift-to-drag ratio the Shuttle's own requirement implies**, 1.25
 
-**Correcting it moved the requirement from 0.978 to 1.018, which is closer to unity.** The headline
-survived and got better, which is luck rather than vindication, and the article reports both numbers.
-
-**It also destroyed a false confirmation, and that is the part with teeth.** The closed form matched the
-demonstrated crossrange to within one percent at a lift-to-drag ratio of 1.0, which looked like the
-flight data settling a live source disagreement. It was two errors cancelling. The exact solve puts the
-flown ratio at **1.05 to 1.18, between the two published figures rather than equal to either**.
-
-**A second circular check was caught the same way.** An early attempt recovered a bank angle of 45.13
-degrees against an assumed optimum of 45, which looked like confirmation and was the assumed
-lift-to-drag ratio of 1.2 being fed straight back in. **A suspiciously clean agreement is the signal.**
+**That last one answers a question the draft raised and left hanging.** Putting 1,100 nautical miles
+through the same relation that gave 0.978 for the general case gives 1.25, which is above what a pure
+lifting body of the period could reach and about what a delta wing at hypersonic incidence does reach.
+**The once-around requirement bought the Shuttle its wing.**
 
 ---
 
-## An Unfitted Coincidence, Checked Twice
+## Three Results Are New Rather Than Merely Displayed
 
-**The Space Shuttle's 1,100 nautical mile crossrange requirement is 2,037 kilometres. The Earth turns
-2,061 kilometres under a once-around polar orbit at Vandenberg's latitude. The two agree to 1.2
-percent and nothing was fitted to anything.**
+**The footprint area goes as the cube of the lift-to-drag ratio.** Crossrange half-width is quadratic in
+it and downrange depth is linear, so the reachable ground area is cubic. The disputed twenty percent is
+therefore a factor of 1.73 in the area a vehicle can reach, which is why the disagreement in the sources
+is worth the space this article gives it.
 
-The requirement that shaped the Shuttle's wing is the distance its launch site travels while a
-spacecraft goes round once. PRIME demonstrated 56 percent of it with a vehicle weighing 894 pounds.
+**Crossrange stops accumulating exactly where the heading passes half a turn**, since it accumulates as
+the sine of the heading. At a ratio of 1.2 that happens at 189 metres per second, very near the end.
+Everything after it is spent flying back toward the plane the vehicle started in.
+
+**The SV-5D does not obey square-cube scaling against the X-24A, and the failure is informative.** The
+length ratio is 0.272, so cube scaling predicts a weight ratio of 0.020. The actual ratio is 0.078,
+nearly four times more. The SV-5D is very nearly solid thermal protection while the X-24A is enclosed
+volume with a pilot and a rocket engine in it. **Areas scale and contents do not**, which is exactly why
+the reference area derived from the X-24A is defensible and a weight derived the same way would not have
+been. The article now says so where it introduces that assumption.
 
 ---
 
-## The Designation, Reported and Not Resolved
+## Derivations That Were Asserted Are Now Shown
 
-Per the standing instruction, the conflict is stated and left standing. The record is stranger than a
-simple omission.
+The radial balance with its centrifugal term, rather than only the rearranged result. The substitution
+chain behind the crossrange integral. The geometric-series expansion that produces the Basel sum, which
+is worth doing because **a constant from elementary number theory turns up in the range of a re-entry
+vehicle**. The bank optimum as a stationary condition with its second derivative, rather than an
+assertion. The downrange relation derived from the same two statements the crossrange came from, which
+is what makes the simultaneous solve legitimate. The heat-flux proportionality and the quadratic whose
+root puts peak heating at two thirds. The latitude relation as a square root of the cosine.
 
-- **16 November 1965.** X-23A requested, for the **SV-5P**, the piloted vehicle. The accompanying
-  description says so explicitly.
-- **15 December 1965.** Refused, **on the ground that the aircraft was unmanned.**
-- **Late 1966.** A proposal for a new designation category for gliding re-entry vehicles is raised and
-  dropped. The decision is to seek X-23A for the SV-5D and X-24A for the SV-5P.
-- **X-24A was requested and approved. No request for X-23A was ever sent.**
+---
 
-**The manned vehicle was refused a number for being unmanned, and a year later got a different number
-for being manned.** The article says the record shows the designation was never assigned, says the world
-calls it the X-23A anyway, and collapses neither.
+## One Guard Fired and Was Right
 
-**The dropped proposal for a new category is the piece most useful to the closing article**, because it
-shows the system considering a new limb and instead absorbing the problem informally.
+**The display-math-with-trailing-prose check caught an equation left sharing a line with the sentence
+after it.** That renders as inline math and is not even counted, and it is the defect class found
+corpus-wide during the errata pass in A300 and A313. It cost one edit to fix and would have been
+invisible in review.
 
 ---
 
 ## Checks
 
-**115 independent numerical checks passing**, with the crossrange re-derived by marching a trajectory,
-the integral by Gauss-Legendre rather than Simpson, the great circle by the spherical law of cosines
-rather than the haversine, and the simultaneous solve by bisection rather than algebra.
+**A new independent verifier of 104 checks**, re-deriving every added quantity by a different route
+wherever one exists. The Basel sum by the **Euler product over primes** rather than by summation. The
+bank optimum by **golden-section search** rather than by calculus. The parachute area by **numerical
+integration of the disc** rather than from the formula. The peak-heating altitude by **forward
+substitution back to the density**, which is the stronger direction than the inversion that produced it.
 
-**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 24 articles.
+**The original 114-check verifier still passes**, after three stale text expectations were corrected
+where the equation pass had moved values into LaTeX. Those were verifier defects, not article defects,
+and the values were confirmed present in their new form before the expectations were changed.
 
-**653 of 653 DOIs confirmed registered in the Crossref registry, zero unregistered.**
-
-**A 24-article isolated build succeeds with all 31 equations rendering as display math**, zero
-unrendered Liquid, and 26 in-series links resolving.
-
-**One tooling change.** `check_any.py` now exempts a doubled capitalised word, because a Spanish or
-Catalan double surname repeats legitimately in citation display text. Miro Miro and Pinna 2018 and 2020
-are real papers on hypersonic boundary-layer transition.
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 24 articles. **A 24-article
+isolated build with all 70 equations rendering as display math and zero unbalanced braces.**
 
 ---
 
-## Five New Homonym Families, All Found by Reading
+## On the Band
 
-**Query design prevented most of the contamination instead of filtering it.** No query in this harvest
-contains PRIME or START, because those words belong to number theory and to arms control. The filters
-that would have caught the mess found only forty-seven records to reject, which is the prevention
-working.
+**Seventy equations against a full-aircraft band of 90 to 130.** The article is below band and is
+reported that way rather than padded toward it. Every relation the prose names, relies on, or evaluates
+is now displayed, which is the rule that produces the number, and the number it produced is 70.
 
-**What got through was not anticipated by any amount of thinking about heat shields.**
-
-- **Lateral motion of a vehicle** is railway hunting oscillation and road-vehicle lane keeping. Two such
-  records had settled among the foundational crossrange papers, **which is the least visible place in
-  the whole selection for them to be**
-- **Maneuvering range** names an instrumented air combat facility, so the pool held its construction
-  quality assurance plan
-- **Lateral range** is a term of art in search and detection theory
-- **Supercavitating** vehicles are underwater, which the underwater filter missed
-- **Wind turbine** wake papers arrived through the broad contemporary catch-all
-
-Six records read and dropped. The rejection list is now 394 entries.
+**This is the ninth consecutive article to finish outside all four named genre classes**, references far
+above band and lines and equations below.
 
 ---
 
 ## State
 
-**A320 draft pass complete. Committed, not pushed, not published.**
+**A320 equation pass complete. Committed, not pushed, not published.**
 
-Twenty-four of seventy-two. The publication-order dependency is twenty-four deep.
+**Awaiting the primary-reference review prompt.** Expect the usual inter-pass dependency to bite, since
+this pass promoted several subjects the draft harvest could not have anticipated. The likely thin ones
+are the Basel-sum and trajectory-mechanics literature behind the closed form, atmospheric scale height
+and standard-atmosphere models, supersonic decelerator loads for the ballute, weight and mass-fraction
+estimation for the scaling argument that fails, and the Shuttle crossrange requirement's own
+documentary record.
 
-**Awaiting the equation-density review prompt.** The likely candidates are the skip-entry and
-bank-reversal relations, the ballistic-coefficient and altitude history the glide implies, the Allen and
-Eggers ballistic comparison in fuller form, the ablator recession rate, and the footprint area rather
-than only its half-width.
-
-**Still open and unchanged.** The fourth genre class, now **eight** consecutive articles finishing
-outside all four named classes. The A305 length offer.
+**Still open and unchanged.** The fourth genre class, now nine consecutive articles. The A305 length
+offer.

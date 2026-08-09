@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
 
-**1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass.** One of four
-passes complete. Committed, **not pushed**. Not published.
+1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass. **1,471 lines, 70
+display equations, 871 references, 11,245 words after the equation review.** Two of four passes
+complete. Committed, **not pushed**. Not published.
 
 **Treated as a full-aircraft article rather than the designation-anomaly stub the genre document classes
 it as**, because the SV-5D flew three times and returned a measurement that can be checked against a
@@ -48,6 +49,16 @@ is 2,037 km against 2,061 km of Earth rotation under a once-around polar orbit a
 **The designation conflict is reported and not resolved**, per the series instruction. X-23A was
 requested for the piloted SV-5P in November 1965, refused a month later on the stated ground that the
 aircraft was unmanned, and after a late-1966 decision to seek it for the SV-5D no request was ever sent.
+
+**The equation review found a latent ambiguity rather than only missing algebra.** The draft called the
+two published lift-to-drag ratios a 44 percent disagreement; as ratios they differ by 20, and the 44 is
+right for the crossrange they imply because crossrange goes as the square. **Four quantities computed in
+the draft pass had never reached the article**, including the lift-to-drag ratio of 1.25 that the
+Shuttle's own crossrange requirement implies, which answers why the Shuttle has wings and PRIME did not.
+Three results are new: the footprint area goes as the cube of the ratio, crossrange stops accumulating
+where the heading passes 180 degrees, and the SV-5D does not obey square-cube scaling against the X-24A
+because it is nearly solid ablator, which is precisely why a derived reference area is defensible and a
+derived weight would not be.
 
 Verification: 115 independent numerical checks passing, `_verify.py` at the 21-warning baseline,
 check_any clean across all 24 articles, 653 of 653 DOIs registered in Crossref, and a 24-article isolated

@@ -23,7 +23,11 @@ The [Martin Marietta X-23A PRIME][ref_x23] was six feet eight inches long, weigh
 
 That is the question, and in 1964 it was genuinely open. A ballistic capsule cannot choose. It falls where the atmosphere and its own entry conditions put it, and the only control available is when to start. The landing point is therefore wherever the orbital ground track happens to be at the moment of the deorbit burn, and if that is the middle of an ocean then that is where the vehicle goes.
 
-The alternative was known in principle. A body that generates lift as well as drag can hold itself up, glide, and by rolling that lift vector to one side, turn. **The open question was not whether this worked but how much of it a returning vehicle could actually buy**, because the lift available to a shape that must also survive entry heating is very small. A lifting body of the period had a hypersonic lift-to-drag ratio somewhere near one, against roughly seventeen for a transport aeroplane at cruise.
+The alternative was known in principle. A body that generates lift as well as drag can hold itself up, glide, and by rolling that lift vector to one side, turn. **The open question was not whether this worked but how much of it a returning vehicle could actually buy**, because the lift available to a shape that must also survive entry heating is very small. A lifting body of the period had a hypersonic lift-to-drag ratio somewhere near one, against roughly seventeen for a transport aeroplane at cruise. The ratio is the one the whole article turns on and it is simply
+
+$$\frac{L}{D} = \frac{C_L}{C_D}$$
+
+so a value near unity means a vehicle that produces as much drag as lift. **The lifting body gives up a factor of about fourteen against a transport wing**, and the question is what the remainder buys.
 
 **The keystone of this article is the conversion of that small lift-to-drag ratio into lateral distance**, which the period literature calls lateral range and the modern literature calls crossrange, in [Jackson 1961][research_jackson_1961], [Baradell 1962][research_baradell_1962], [Wang 1963, APPROXIMATE SOLUTIONS OF THE LATE][research_wang_1963], [Wang and Skulsky 1963][research_wang_skulsky_1963], [Holloway and Pritchard 1967][research_holloway_pritchard_1967], [Moote 1970][research_moote_1970]. Every part of the vehicle was dimensioned against it. The shape exists to produce the lift, the ablator exists to let the vehicle stay in the atmosphere long enough to use it, the reaction controls and flaps exist to hold the bank angle that converts it, and the recovery system exists so that the measurement survives.
 
@@ -55,13 +59,35 @@ $$S = k_S\, l\, b = 0.5835 \times 2.032 \times 1.168 = 1.385\ \text{m}^2$$
 
 or 14.9 square feet. **This is an assumption and every number that depends on it inherits that status.** The crossrange result does not depend on it at all, which is stated here because it matters.
 
+One check on the scaling is worth doing because it fails, and the failure is informative. The two vehicles are in a linear ratio of
+
+$$\frac{l_\text{SV-5D}}{l_\text{X-24A}} = \frac{2.032}{7.47} = 0.272$$
+
+so if they were the same thing at different sizes their weights would stand as the cube of that, or 0.020. The actual ratio against the X-24A's 11,450 pounds is
+
+$$\frac{894}{11{,}450} = 0.078$$
+
+**Nearly four times what geometric scaling predicts.** The reason is that the SV-5D is very nearly solid thermal protection while the X-24A is mostly enclosed volume with a pilot and a rocket engine inside it. **Areas scale and contents do not**, which is why the reference area derived above is defensible and a weight derived the same way would not have been.
+
 ## Sizing From First Principles
 
 ### The Force Balance That Makes a Glide an Equilibrium
 
-A vehicle at orbital speed needs no lift, because the centrifugal effect of travelling that fast round a curved Earth supports it entirely. At rest it needs lift equal to its full weight. In between, an equilibrium glide is one that holds the difference. Writing $\bar V = V/V_c$ for speed as a fraction of circular satellite speed, and $\phi$ for the angle through which the lift vector has been rolled away from vertical, the balance is
+A vehicle at orbital speed needs no lift, because the centrifugal effect of travelling that fast round a curved Earth supports it entirely. At rest it needs lift equal to its full weight. In between, an equilibrium glide is one that holds the difference.
+
+Written out, the radial balance carries three terms rather than two, and the middle one is the effect the previous sentence names,
+
+$$L\cos\phi + \frac{m V^2}{R} = W$$
+
+Writing $\bar V = V/V_c$ for speed as a fraction of circular satellite speed, and $\phi$ for the angle through which the lift vector has been rolled away from vertical, and using $V_c^2 = gR$ to turn the centrifugal term into $W\bar V^2$, the balance collapses to
 
 $$L\cos\phi = W\left(1 - \bar V^2\right)$$
+
+which says that the lift a gliding vehicle needs is its weight less whatever its own speed is already carrying. At $\bar V = 1$ it needs none. At three quarters of circular speed it needs
+
+$$1 - 0.75^2 = 0.4375$$
+
+of its weight, and at entry, where $\bar V = 0.972$, it needs 0.056 of it. **The glide therefore begins almost unloaded**, which is worth holding on to because it explains the deceleration figures further down.
 
 The circular speed itself follows from equating gravitational and centripetal acceleration at the surface, giving
 
@@ -89,17 +115,47 @@ $$\psi = 1.2 \times \sin 45^\circ \times \ln 4 = 1.176\ \text{rad} = 67.4^\circ$
 
 ### The Crossrange Integral
 
-Crossrange accumulates at $\dot y = V\sin\psi$. The classical treatment replaces $\sin\psi$ by $\psi$ at this point, which is what makes a closed form available at all. **That step is examined below and it turns out to cost about a tenth of the answer**, but it is kept here because it is the step the period literature took and the closed form it produces is the relation the subject is built on. Substituting $u = \bar V^2$ and using $g = V_c^2/R$ turns the accumulated lateral distance into a single integral,
+Crossrange accumulates at $\dot y = V\sin\psi$. The classical treatment replaces $\sin\psi$ by $\psi$ at this point, which is what makes a closed form available at all. **That step is examined below and it turns out to cost about a tenth of the answer**, but it is kept here because it is the step the period literature took and the closed form it produces is the relation the subject is built on. Dividing the lateral rate by the deceleration removes time here as well,
+
+$$\frac{dy}{dV} = -\,\frac{V\psi\,(L/D)\cos\phi}{g\left(1-\bar V^2\right)}$$
+
+and the substitution $u = \bar V^2$, for which
+
+$$V = V_c\sqrt{u}, \qquad dV = \frac{V_c}{2\sqrt{u}}\,du, \qquad g = \frac{V_c^2}{R}$$
+
+makes every factor of $V_c$ cancel, leaving
+
+$$dy = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{\psi\,du}{2\left(1-u\right)}$$
+
+Substituting the heading solution, in which $\ln(V_e/V) = \tfrac{1}{2}\ln(u_e/u)$, turns the accumulated lateral distance into a single integral,
 
 $$y = \frac{R}{4}\left(\frac{L}{D}\right)^2 \sin\phi\cos\phi \; I(u_e), \qquad I(u_e) = \int_0^{u_e} \frac{\ln(u_e/u)}{1-u}\,du$$
 
-For entry at exactly circular speed the integral has a closed form. Expanding $1/(1-u)$ as a geometric series and integrating term by term gives $\sum_{n\ge 1} n^{-2}$, so
+For entry at exactly circular speed the integral has a closed form, and it is worth doing rather than quoting. Expand the denominator as a geometric series,
 
-$$I(1) = \int_0^1 \frac{-\ln u}{1-u}\,du = \frac{\pi^2}{6} = 1.6449$$
+$$\frac{1}{1-u} = \sum_{n\ge 0} u^n \qquad \text{for} \quad 0 \le u < 1$$
+
+and integrate term by term. Each term is a standard integral,
+
+$$\int_0^1 (-\ln u)\,u^n\,du = \frac{1}{(n+1)^2}$$
+
+so the sum is over the reciprocal squares, which is the Basel series,
+
+$$I(1) = \int_0^1 \frac{-\ln u}{1-u}\,du = \sum_{k\ge 1} \frac{1}{k^2} = \frac{\pi^2}{6} = 1.6449$$
+
+**A constant from elementary number theory turns up in the range of a re-entry vehicle**, which is a coincidence of the integral rather than a fact about spacecraft, but it is a pleasing one.
 
 ### The Bank Angle Is Already Decided
 
-The only free choice in the expression is $\phi$, and it appears as $\sin\phi\cos\phi$, which is $\tfrac{1}{2}\sin 2\phi$. That is maximal at
+The only free choice in the expression is $\phi$, and it appears as
+
+$$\sin\phi\cos\phi = \tfrac{1}{2}\sin 2\phi$$
+
+Differentiating and setting the result to zero gives the condition, and the second derivative confirms which kind of stationary point it is,
+
+$$\frac{d}{d\phi}\left(\tfrac{1}{2}\sin 2\phi\right) = \cos 2\phi = 0, \qquad \frac{d^2}{d\phi^2} = -2\sin 2\phi = -2 < 0$$
+
+so the stationary point is a maximum and it sits at
 
 $$\phi_\text{opt} = 45^\circ, \qquad \sin\phi\cos\phi = \tfrac{1}{2}$$
 
@@ -109,13 +165,27 @@ Putting the optimum and the closed form together gives the governing relation of
 
 $$\frac{y_\text{max}}{R} = \frac{\pi^2}{48}\left(\frac{L}{D}\right)^2 = 0.2056\left(\frac{L}{D}\right)^2$$
 
-**Crossrange goes as the square of the lift-to-drag ratio.** For a vehicle entering at circular speed this evaluates to 1,310 kilometres at a ratio of 1.0, 1,886 at 1.2, and 2,568 at 1.4. A ballistic capsule at zero gets nothing, and that is not a small number made small but a capability that is simply absent.
+**Crossrange goes as the square of the lift-to-drag ratio.** Worked at a ratio of 1.2, for a vehicle entering at circular speed,
+
+$$y_\text{max} = 0.2056 \times 1.2^2 \times 6.371\times 10^6 = 1.886\times 10^6\ \text{m} = 1{,}019\ \text{nmi}$$
+
+and the same arithmetic gives 1,310 kilometres at a ratio of 1.0 and 2,568 at 1.4. A ballistic capsule at zero gets nothing, and that is not a small number made small but a capability that is simply absent.
 
 ### What the Small-Angle Step Costs
 
 The closed form above was checked against a numerical integration that keeps $\sin\psi$ exactly, and **the two disagree by more than a rounding error.**
 
-The reason is visible in the heading solution. At a lift-to-drag ratio of 1.0 and a bank of 45 degrees, the accumulated heading change reaches 180 degrees before the glide ends, and at 1.2 it passes 220. **Beyond 180 degrees $\sin\psi$ does not merely differ from $\psi$, it has the opposite sign.** The approximation does not degrade gracefully. It inverts.
+The reason is visible in the heading solution, which can simply be evaluated at the end of the glide. Taking that to be one percent of circular speed,
+
+$$\psi_\text{end} = \frac{L}{D}\sin 45^\circ \ln\frac{V_e}{0.01\,V_c}$$
+
+which gives 148 degrees at a ratio of 0.8, **185 degrees at 1.0**, 222 at 1.2 and 260 at 1.4. **Beyond 180 degrees $\sin\psi$ does not merely differ from $\psi$, it has the opposite sign.** The approximation does not degrade gracefully. It inverts.
+
+There is a related point that the exact treatment makes precise. Lateral displacement accumulates as $\dot y = V\sin\psi$, so it stops accumulating exactly where the heading passes half a turn,
+
+$$\sin\psi = 0 \quad \Longrightarrow \quad \psi = 180^\circ, \qquad V_{180} = V_e\exp\left(-\frac{\pi}{(L/D)\sin\phi}\right)$$
+
+At a ratio of 1.2 that speed is 189 metres per second, which is very near the end of the flight. **Crossrange is therefore maximised at the moment the vehicle finishes turning round**, and everything after that is spent flying back toward the plane it started in.
 
 | Lift-to-drag ratio | Closed form | Exact | Over-prediction |
 |---|---|---|---|
@@ -132,9 +202,13 @@ There is a physical statement hiding in that table. **A vehicle holding 45 degre
 
 Now the other half. **How much crossrange does a returning vehicle need?**
 
-Successive orbits do not retrace the same ground. The Earth turns underneath, so each pass lays its track to the west of the last by the rotation accumulated in one orbital period,
+Successive orbits do not retrace the same ground. The Earth turns underneath, so each pass lays its track to the west of the last by the rotation accumulated in one orbital period. The rate wanted here is the rotation relative to the fixed stars, because the orbit plane is fixed in that frame and not in the one that tracks the Sun,
 
-$$\Delta\lambda = \omega_E T = \frac{2\pi}{86{,}164} \times 5400 = 0.3937\ \text{rad} = 22.56^\circ$$
+$$\omega_E = \frac{2\pi}{86{,}164\ \text{s}} = 7.292\times 10^{-5}\ \text{rad/s}$$
+
+Using the solar day of 86,400 seconds instead would overstate the interval by 0.27 percent, which is small but is an avoidable error. The track spacing in longitude is then
+
+$$\Delta\lambda = \omega_E T = 7.292\times 10^{-5} \times 5400 = 0.3937\ \text{rad} = 22.56^\circ$$
 
 for a nominal ninety-minute low orbit. At the equator that is a ground distance of
 
@@ -158,19 +232,43 @@ $$\left(\frac{L}{D}\right)_\text{exact} = 1.018$$
 
 **A lift-to-drag ratio near unity is not a round number chosen for convenience. It is the threshold at which a spacecraft stops being a passenger of its orbit and starts being able to come home when it wants to.** Below it the vehicle waits for the ground track to come back, which for a general orbit means a day or more and may mean never. At it, the longest wait is one orbit.
 
-The requirement falls at higher latitudes, because the tracks crowd together as the meridians converge. At 28.5 degrees the required ratio is 0.917, and at 45 degrees it is 0.823. **The hardest case is the equator**, and a vehicle sized for the equator is sized for everywhere.
+The requirement falls at higher latitudes, because the tracks crowd together as the meridians converge. The spacing carries a cosine, so the required ratio carries its square root,
+
+$$y_\text{req}(\varphi) = \tfrac{1}{2} R\,\Delta\lambda\cos\varphi, \qquad \left(\frac{L}{D}\right)_\text{req}(\varphi) = \left(\frac{L}{D}\right)_\text{req}(0)\sqrt{\cos\varphi}$$
+
+At 28.5 degrees that is 0.917, at Vandenberg's 34.7 degrees it is 0.887, and at 45 degrees it is 0.823. **The hardest case is the equator**, and a vehicle sized for the equator is sized for everywhere.
 
 ## What the Flight Record Says About a Disputed Number
 
-The sources do not agree on this vehicle's hypersonic lift-to-drag ratio. One gives 1.0 and another gives 1.2 for the SV-5 shape. **That is a 44 percent disagreement in the quantity this article is about**, and it cannot be waved away.
+The sources do not agree on this vehicle's hypersonic lift-to-drag ratio. One gives 1.0 and another gives 1.2 for the SV-5 shape.
+
+As ratios those differ by twenty percent, which sounds tolerable. **They do not differ by twenty percent in the quantity this article is about**, because crossrange goes as the square,
+
+$$\frac{y(1.2)}{y(1.0)} = \left(\frac{1.2}{1.0}\right)^2 = 1.44$$
+
+**A twenty percent disagreement about the vehicle is a forty-four percent disagreement about what it can do**, and it cannot be waved away.
 
 It can, however, be attacked, because two facts about the third flight are independently known and both are consequences of the same trajectory. The vehicle achieved 1,143 kilometres of crossrange, and it flew from Vandenberg Air Force Base to a recovery area near Kwajalein, a great-circle distance of
 
 $$d = 2R\arcsin\sqrt{\sin^2\frac{\Delta\varphi}{2} + \cos\varphi_1\cos\varphi_2\sin^2\frac{\Delta\lambda}{2}} = 7{,}787\ \text{km}$$
 
-The equilibrium glide gives a downrange to go with the crossrange,
+The equilibrium glide gives a downrange to go with the crossrange, and it comes from the same two statements. Distance along the path accumulates at $\dot x = V$, and dividing by the deceleration gives
+
+$$\frac{dx}{dV} = -\frac{V\,(L/D)\cos\phi}{g\left(1-u\right)}$$
+
+Applying the same substitution as before, every factor of $V_c$ again cancels and the integrand becomes elementary,
+
+$$dx = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{du}{1-u}$$
+
+which integrates directly to
 
 $$x = \frac{L}{D}\cos\phi \;\frac{R}{2}\ln\frac{1}{1-u_e}$$
+
+**Downrange is linear in the lift-to-drag ratio where crossrange is quadratic in it**, which is the reason the two together determine both unknowns. Banking to gain crossrange costs downrange as $\cos\phi$, so at the optimum the vehicle gives up
+
+$$1 - \cos 45^\circ = 0.293$$
+
+or twenty-nine percent of the distance it could have flown straight ahead.
 
 **Two equations, two unknowns.** Writing $A$ and $B$ for the two geometric factors, the pair is $\;(L/D)\cos\phi = x/A\;$ and $\;(L/D)^2\sin\phi\cos\phi = y/B$, and dividing one by the square of the other gives the bank angle without needing the lift-to-drag ratio first,
 
@@ -215,21 +313,51 @@ The equilibrium glide fixes the density at every speed, because the force balanc
 
 $$\rho = \frac{2\beta_L(1-u)}{V^2\cos\phi}, \qquad \beta_L = \frac{W}{S\,C_L}$$
 
-so the heating history is determined by the trajectory rather than chosen. With the derived reference area and an assumed hypersonic drag coefficient of unity, the lift parameter is 2,392 newtons per square metre and the ballistic coefficient is 2,870, which is 60 pounds per square foot. **That is a low ballistic coefficient, and low is what a research vehicle wants**, because it decelerates high up where the air is thin.
+so the heating history is determined by the trajectory rather than chosen. The companion quantity is the ballistic coefficient, which is the same construction on the drag side,
+
+$$\beta = \frac{W}{S\,C_D}$$
+
+and the two stand in a fixed ratio, which is a useful consistency check on the assumed coefficients,
+
+$$\frac{\beta}{\beta_L} = \frac{C_L}{C_D} = \frac{L}{D}$$
+
+With the derived reference area and an assumed hypersonic drag coefficient of unity,
+
+$$\beta = \frac{3{,}977}{1.385 \times 1.0} = 2{,}870\ \text{N/m}^2 = 60\ \text{lb/ft}^2$$
+
+and the lift parameter is 2,392 newtons per square metre. **That is a low ballistic coefficient, and low is what a research vehicle wants**, because it decelerates high up where the air is thin.
 
 Stagnation-point heat flux follows the Sutton and Graves correlation,
 
 $$\dot q_s = k\sqrt{\frac{\rho}{R_n}}\,V^3, \qquad k = 1.7415\times 10^{-4}$$
 
-in SI units for air. Substituting the glide density makes the heat flux proportional to $u\sqrt{1-u}$, which is maximal at
+in SI units for air. Substituting the glide density collapses the speed dependence. Since $\rho \propto (1-u)/V^2$, the square root carries $\sqrt{(1-u)/u}$ and the cube carries $u^{3/2}$, so
+
+$$\dot q_s \propto \sqrt{\frac{1-u}{u}}\;u^{3/2} = u\sqrt{1-u}$$
+
+Maximising is easiest on the square, whose derivative is a quadratic,
+
+$$\frac{d}{du}\left[u^2(1-u)\right] = 2u - 3u^2 = 0 \quad \Longrightarrow \quad u = \tfrac{2}{3}$$
+
+so the worst heating happens at
 
 $$u = \tfrac{2}{3}, \qquad V = 0.8165\,V_c = 6{,}454\ \text{m/s}$$
 
-With an assumed nose radius of 0.1 metres the peak is
+**Peak heating is at eighty-two percent of circular speed regardless of the vehicle**, because every property of it cancelled on the way to that quadratic.
 
-$$\dot q_{s,\text{max}} = 109\ \text{W/cm}^2$$
+The density there follows from the glide balance,
 
-which is modest by the standards of a ballistic capsule and sustained for far longer. Integrating the flux over the glide, using $dt = -(L/D)\cos\phi\,dV/(g(1-u))$, gives a closed form,
+$$\rho = \frac{2 \times 2{,}392 \times \tfrac{1}{3}}{6{,}454^2 \times \cos 45^\circ} = 5.41\times 10^{-5}\ \text{kg/m}^3$$
+
+and with an assumed nose radius of 0.1 metres the peak is
+
+$$\dot q_{s,\text{max}} = 1.7415\times 10^{-4}\sqrt{\frac{5.41\times 10^{-5}}{0.1}}\,\left(6{,}454\right)^3 = 109\ \text{W/cm}^2$$
+
+which is modest by the standards of a ballistic capsule and sustained for far longer. **It is worth knowing where in the sky that happens.** Inverting an exponential atmosphere of scale height 7,160 metres,
+
+$$h = -H\ln\frac{\rho}{\rho_0} = -7{,}160\ln\left(4.42\times 10^{-5}\right) = 71.8\ \text{km}$$
+
+or about 236,000 feet. **The vehicle takes its worst heating some forty-five kilometres above where an airliner cruises and never comes near the speeds involved again.** Integrating the flux over the glide, using $dt = -(L/D)\cos\phi\,dV/(g(1-u))$, gives a closed form,
 
 $$Q = k\,\frac{L}{D}\sqrt{\cos\phi}\sqrt{\frac{2\beta_L}{R_n}}\frac{V_c^3}{g}\cdot\frac{\arcsin a - a\sqrt{1-a^2}}{2}$$
 
@@ -243,7 +371,11 @@ Now a cross-check that was not designed in. The heat shield thickness is publish
 
 $$H_\text{eff} = \frac{Q}{\rho_\text{abl}\,t_\text{abl}}$$
 
-At the thick end of the published range, 2.75 inches at a representative charring-ablator density of 550 kilograms per cubic metre, this gives 27.8 megajoules per kilogram. **That is squarely a real material property for a charring ablator.** At the thin end of the range, 0.75 inches, it gives 102 megajoules per kilogram, which no ablator achieves. **The two published thicknesses therefore bracket the heating distribution rather than the uncertainty in it**, with the thick end at the stagnation region and the thin end on surfaces that never see anything like the stagnation load. The arithmetic identifies which end is which without being told.
+At the thick end of the published range, 2.75 inches at a representative charring-ablator density of 550 kilograms per cubic metre, the areal mass and the implied heat of ablation are
+
+$$\rho_\text{abl}t_\text{abl} = 550 \times 0.0699 = 38.4\ \text{kg/m}^2, \qquad H_\text{eff} = \frac{1.068\times 10^9}{38.4} = 27.8\ \text{MJ/kg}$$
+
+**That is squarely a real material property for a charring ablator.** At the thin end of the range, 0.75 inches, it gives 102 megajoules per kilogram, which no ablator achieves. **The two published thicknesses therefore bracket the heating distribution rather than the uncertainty in it**, with the thick end at the stagnation region and the thin end on surfaces that never see anything like the stagnation load. The arithmetic identifies which end is which without being told.
 
 The materials themselves are covered in [Manish Mehta et al, Artemis I Space Launch System Bas][research_manish_mehta_2], [Manish Mehta et al, Space Launch System Base Heat Shi][research_manish_mehta], [Nathaniel Olson et al][research_nathaniel_olson], [Johnson and Boisseau 1961][research_johnson_boisseau_1961], [Martin Co Denver Co 1965][research_martin_co_denver_co_1965], [Curry et al 1966][research_curry_1966], [Graves and Witte 1968][research_graves_witte_1968], [Hannah and Muessig 1970][research_hannah_muessig_1970], [Libby and Hendricks 1970, Analysis of an active thermal pro][research_libby_hendricks_1970], [Libby and Hendricks 1970, SYNOPTIC Analysis of an Active Th][research_libby_hendricks_1970_2], [Thermal protection 1970][research_thermal_protection_1970], [Mills 1971, Comment on "Analysis of an Active][research_mills_1971_2], [Cunningham 1972][research_cunningham_1972], [Greenwald 1972][research_greenwald_1972], [Schmitt 1972][research_schmitt_1972], [Rusert et al 1978][research_rusert_1978], [Bogart et al 1981][research_bogart_1981], [Cooper 1982][research_cooper_1982], [Lippitt et al 1983][research_lippitt_1983], [Blix et al 1984][research_blix_1984], [Ronquillo and Williams 1984][research_ronquillo_williams_1984], [Matienzo et al 1985][research_matienzo_1985], [Pitts and Kourtides 1989][research_pitts_kourtides_1989], [Milos et al 1995][research_milos_1995], [Thomas et al 1998][research_thomas_1998], [Johnson and Arnold 2001][research_johnson_arnold_2001], [Johnson et al 2001][research_johnson_2001], [Duston et al 2004][research_duston_2004], [Daryabeigi et al 2006][research_daryabeigi_2006], [Clarke 2008][research_clarke_2008], [Pendergast and Mollendorf 2008][research_pendergast_mollendorf_2008], the ablation physics in [Hamaker 1960][research_hamaker_1960], [Privett and Blank 1962][research_privett_blank_1962], [Robson 1962][research_robson_1962], [Dickey and Haacker 1963][research_dickey_haacker_1963], [REENTRY EXPERIMENT WILL TEST 1963][research_reentry_experiment_1963], [Hurwicz et al 1964][research_hurwicz_1964], [Winters 1964][research_winters_1964], [Curry 1965, An analysis of a charring ablatio][research_curry_1965], [Curry 1965, An analysis of a charring ablatio][research_curry_1965_2], [Jones et al 1965][research_jones_1965], [Le Bel and Russell 1965][research_le_bel_russell_1965], [Stroud and Swann 1965][research_stroud_swann_1965], [Adarkar and Hartsook 1966][research_adarkar_hartsook_1966], [Brewer and Pittman 1966][research_brewer_pittman_1966], [Dow and Tompkins 1966][research_dow_tompkins_1966], [Le Bel and Russell 1966][research_le_bel_russell_1966], [Marvin and Pope 1966][research_marvin_pope_1966], [Pfahl and Dropkin 1966][research_pfahl_dropkin_1966], [Brewer 1967][research_brewer_1967], [Ericsson 1967][research_ericsson_1967], [Heller 1967][research_heller_1967], [Marvin and Pope 1967][research_marvin_pope_1967], [Ungar 1967][research_ungar_1967], [Walker and Zeigler 1968][research_walker_zeigler_1968], [Lundell and Wakefield 1969][research_lundell_wakefield_1969], [Akers et al 1970][research_akers_1970], [April et al 1970][research_april_1970], [Gomez et al 1970][research_gomez_1970], [Hains 1970][research_hains_1970], [Juneau et al 1970][research_juneau_1970], [Pfahl and Mitchel 1970][research_pfahl_mitchel_1970], [Mills et al 1971, Effect of Gas Phase Chemical Reac][research_mills_1971], [Spokes et al 1971][research_spokes_1971], [Wakefield and Lundell 1971][research_wakefield_lundell_1971], [Thompson et al 1972][research_thompson_1972], [Balhoff and Pike 1973, Modeling Sublimation of a Charrin][research_balhoff_pike_1973_2], [Balhoff and Pike 1973, Modeling sublimation of a charrin][research_balhoff_pike_1973], [Prasad and Agrawal 1974][research_prasad_agrawal_1974], [Mastanaiah 1976][research_mastanaiah_1976], [Verbinski et al 1976][research_verbinski_1976], [Low density ablator compositions 1978][research_low_density_1978], [Prasad 1978][research_prasad_1978], [Biberman et al 1980][research_biberman_1980], [Perineau and Gaset 1981][research_perineau_gaset_1981], and the flow conditions that set the heating in [Lobb et al 1955][research_lobb_1955], [Goldman 1958][research_goldman_1958], [Griffith 1958][research_griffith_1958], [Nagamatsu et al 1960][research_nagamatsu_1960], [Hartsell 1961][research_hartsell_1961], [Gregorek et al 1963][research_gregorek_1963], [Nark and Lee 1963][research_nark_lee_1963], [Conti 1964][research_conti_1964], [Lee 1965][research_lee_1965], [Murzinov 1966][research_murzinov_1966], [Sayapin 1966][research_sayapin_1966], [Scaggs 1966][research_scaggs_1966], [Yushchenkova et al 1967][research_yushchenkova_1967], [Lebedev et al 1969][research_lebedev_1969], [Subramanian and Dwarakanath 1969][research_subramanian_dwarakanath_1969], [Andersen and Connor 1970][research_andersen_connor_1970], [Kang 1970][research_kang_1970], [Zana and Thomas 1970][research_zana_thomas_1970], [Sugavanam and Sastry 1975][research_sugavanam_sastry_1975], [Boylan et al 1976][research_boylan_1976], [Kubota and Berg 1977][research_kubota_berg_1977], [Bhutani and Chandran 1978][research_bhutani_chandran_1978], [Golovachev 1979, Nonequilibrium hypersonic flow of][research_golovachev_1979_2], [Mudford et al 1980][research_mudford_1980], [Maus et al 1984][research_maus_1984], [Zhong 2009][research_zhong_2009].
 
@@ -257,9 +389,21 @@ The same balance that sets the density sets the deceleration. In equilibrium gli
 
 $$\frac{a}{g} = \frac{1-u}{(L/D)\cos\phi}$$
 
-which is greatest at the end of the flight, where it evaluates to 1.18 g. The same entry flown ballistically, at the reported flight path angle of 6 degrees, gives the Allen and Eggers result
+which is smallest at the beginning and greatest at the end. At entry, where $u = 0.944$, it is
 
-$$a_\text{max} = \frac{V_e^2\sin\gamma_e}{2eH} = 158\ \text{m/s}^2 = 16.2\ g$$
+$$\frac{a}{g} = \frac{1 - 0.944}{1.2\cos 45^\circ} = 0.066$$
+
+so the vehicle barely feels the atmosphere at first, and by the end of the glide it has risen only to
+
+$$\frac{a}{g} = \frac{1}{1.2\cos 45^\circ} = 1.18$$
+
+**The entire lifting entry is gentler than standing up.** The same entry flown ballistically, at the reported flight path angle of 6 degrees, gives the Allen and Eggers result
+
+$$a_\text{max} = \frac{V_e^2\sin\gamma_e}{2eH} = \frac{\left(7{,}681\right)^2\sin 6^\circ}{2e \times 7{,}160} = 158\ \text{m/s}^2 = 16.2\ g$$
+
+where $H$ is the atmospheric scale height. The ratio is
+
+$$\frac{16.2}{1.18} = 13.7$$
 
 **A factor of nearly fourteen.** The lift is not only buying crossrange. It is buying a survivable deceleration, and for the piloted vehicles that this programme was clearing the way for, that was the more immediately valuable of the two.
 
@@ -267,9 +411,25 @@ $$a_\text{max} = \frac{V_e^2\sin\gamma_e}{2eH} = 158\ \text{m/s}^2 = 16.2\ g$$
 
 A vehicle that measures something and then sinks has measured nothing that cannot be telemetered. **The recovery system is therefore instrumentation**, and it is the part of PRIME that failed twice.
 
-The sequence was a ballute at about Mach 2, then a 47-foot parachute, then mid-air retrieval by a JC-130B using the technique already in service for [returning film capsules][ref_corona]. Under that parachute the vehicle descends at
+The sequence was a ballute at about Mach 2, then a 47-foot parachute, then mid-air retrieval by a JC-130B using the technique already in service for [returning film capsules][ref_corona].
 
-$$V_d = \sqrt{\frac{2W}{\rho\,C_D S_p}} = 7.33\ \text{m/s}$$
+The ballute deploys near 99,850 feet, or 30.4 kilometres, where the speed of sound follows from the local temperature,
+
+$$a = \sqrt{\gamma R_\text{air} T} = \sqrt{1.4 \times 287 \times 226.5} = 302\ \text{m/s}$$
+
+so Mach 2 is 603 metres per second and the fabric has to be opened against
+
+$$q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2} \times 0.0184 \times 603^2 = 3{,}350\ \text{Pa} = 70\ \text{lb/ft}^2$$
+
+**That is a mild load by supersonic-decelerator standards**, which is the point of deploying that high and that late.
+
+The recovery parachute's area follows from its diameter,
+
+$$S_p = \frac{\pi D^2}{4} = \frac{\pi \times 14.33^2}{4} = 161\ \text{m}^2$$
+
+and under it the vehicle descends at
+
+$$V_d = \sqrt{\frac{2W}{\rho\,C_D S_p}} = \sqrt{\frac{2 \times 3{,}977}{1.225 \times 0.75 \times 161}} = 7.33\ \text{m/s}$$
 
 or 24 feet per second, which is what a mid-air catch needs. The literature of that technique is [John DiNonno and F. McNeil Cheatwood][research_john_dinonno_f_mcneil_cheatwood], [R J Bodkin et al][research_r_j_bodkin], [Braun 1953][research_braun_1953], [Downing et al 1956][research_downing_1956], [Gillette 1963][research_gillette_1963], [Deitering and Hilliard 1965][research_deitering_hilliard_1965], [French 1965][research_french_1965], [Heinrich et al 1965, DYNAMIC STABILITY OF A PARACHUTE][research_heinrich_1965], [French 1966][research_french_1966], [Neustadt et al 1967][research_neustadt_1967], [Cassanto et al 1968][research_cassanto_1968], [Brearley 1969][research_brearley_1969], [Chakoian 1969][research_chakoian_1969], [Eckstrom and Mayhue 1969][research_eckstrom_mayhue_1969], [Goodrick 1969][research_goodrick_1969], [Mayhue and Eckstrom 1969][research_mayhue_eckstrom_1969], [Eckstrom 1970][research_eckstrom_1970], [Michal et al 1970][research_michal_1970], [Townend 1970][research_townend_1970], [Wolf 1971][research_wolf_1971], [Pearson 1972][research_pearson_1972], [Pepper and Biesterveld 1973][research_pepper_biesterveld_1973], [Wei and Pearson 1974][research_wei_pearson_1974], [Wyatt 1974][research_wyatt_1974], [Pepper 1980][research_pepper_1980], [Schatzle and Curry 1980][research_schatzle_curry_1980], [Pepper and Collins 1982][research_pepper_collins_1982], [Knacke 1985][research_knacke_1985], [Yavuz 1985][research_yavuz_1985], [Miller et al 2003][research_miller_2003], [Sengupta et al 2009][research_sengupta_2009].
 
@@ -314,9 +474,23 @@ PRIME fed the X-24A directly. The same shape, at larger scale and with a pilot, 
 
 $$d_\text{VAFB} = R\,\Delta\lambda\cos\varphi = 6.371\times 10^6 \times 0.3937 \times \cos 34.74^\circ = 2{,}061\ \text{km}$$
 
-against a stated requirement of 1,100 nautical miles, which is 2,037 kilometres. **The two agree to 1.2 percent, and nothing here was fitted to anything.** The requirement that shaped the Space Shuttle's wing, and through it a great deal of the vehicle, is the distance Vandenberg travels while a spacecraft goes round once.
+against a stated requirement of 1,100 nautical miles, which is 2,037 kilometres. The agreement is
 
-PRIME demonstrated 56 percent of that figure with a vehicle weighing 894 pounds.
+$$\frac{2{,}061 - 2{,}037}{2{,}037} = 1.2\ \text{percent}$$
+
+**and nothing here was fitted to anything.** The requirement that shaped the Space Shuttle's wing, and through it a great deal of the vehicle, is the distance Vandenberg travels while a spacecraft goes round once.
+
+**That requirement also explains why the Shuttle has wings and PRIME did not.** Putting 1,100 nautical miles through the same relation that gave 0.978 for the general case,
+
+$$\frac{L}{D} = \sqrt{\frac{2{,}037/6{,}371}{0.2056}} = 1.25$$
+
+which is well above what a pure lifting body of the period could reach and is roughly what a delta wing at hypersonic incidence does reach. **The once-around requirement bought the Shuttle its wing.**
+
+PRIME demonstrated a fraction
+
+$$\frac{1{,}143}{2{,}037} = 0.56$$
+
+of that figure with a vehicle weighing 894 pounds.
 
 The programme is also a data point about unmanned research vehicles, which the designation section below turns out to bear on directly.
 
@@ -401,6 +575,12 @@ The ASSET half of the START programme, which deserves its own treatment. The Atl
 **PRIME asked whether a spacecraft could steer on the way home, and the answer was yes, by about a thousand kilometres.**
 
 The number matters more than it looks. A returning vehicle needs roughly half a ground-track spacing of crossrange to reach a chosen site without waiting, and at the equator that requires a lift-to-drag ratio of 0.978 by the relation the period used and 1.018 when the approximation in that relation is removed. **A lifting body near unity is therefore not a modest capability but the threshold one**, and the difference between it and a ballistic capsule is not a matter of degree. One can come home when it chooses and the other cannot.
+
+There is one more way to see how steeply that capability is bought. The reachable ground area scales as the crossrange half-width times the downrange depth, and those go as the square and the first power of the lift-to-drag ratio respectively, so
+
+$$A_\text{footprint} \propto \left(\frac{L}{D}\right)^3$$
+
+**The footprint goes as the cube.** Raising the ratio from 1.0 to 1.2 enlarges the region a vehicle can reach by a factor of 1.73, which is why twenty percent of lift-to-drag ratio was worth arguing about and why the disagreement in the sources matters.
 
 The vehicle that demonstrated this weighed less than a motorcycle, flew three times, was lost twice on the way back, and carries a designation that was never requested for it. **All four of those facts are worth keeping.**
 
