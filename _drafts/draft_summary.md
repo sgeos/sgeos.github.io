@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
 
 1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass. 1,353 lines, 52
-display equations, 851 references, 8,822 words after the equation review. **2,724 lines, 52 display
-equations, 2,218 references, 14,679 words after the primary-reference review.** Three of four passes
-complete. Committed, **not pushed**. Not published.
+display equations, 851 references, 8,822 words after the equation review. 2,724 lines, 52 display
+equations, 2,218 references, 14,679 words after the primary-reference review. **3,684 lines, 53 display
+equations, 3,144 references, 19,766 words after the publication review.** All four passes complete.
+Committed and **pushed**. Not published.
 
 **The keystone is the unpowered landing and the quantity that sets it is base drag.** A reentry vehicle
 must be cut off flat, Hoerner's relation makes base drag fall as forebody drag rises so there is an
@@ -69,6 +70,17 @@ vocabulary; the period says approach and landing, not unpowered. Broadening took
 surfaced the 1959 investigations at lift-to-drag ratios of two to four and the 1960 flight study of a
 power-off landing technique for re-entry vehicles. **Two topics are genuinely thin in the archive rather
 than in the patterns and were reported rather than padded.**
+
+**The publication review took contemporary coverage from 611 to 1,536 of 3,115 research citations, or
+49.3 percent**, across ten subsections. **The survey's claim is that everything the X-24B demonstrated is
+now done by software and that the corridor did not widen, because it is set by energy rather than by
+skill**, the touchdown speed being a function containing no term for the pilot; Buran landed itself
+unpowered on a runway in 1988 at fifty times the weight. **And the problem was solved a second time by
+refusing it**, since a propulsively landed booster adds the energy an unpowered approach cannot, which is
+why things returning from orbit still land the X-24B's way. A third thread is that the base-drag physics
+migrated to heavy lorries. **One defect was introduced and caught in the same pass**, a mangled LaTeX
+escape found by reading the generated body rather than by any check, and a rendered-escape check was
+added.
 
 ## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
 
