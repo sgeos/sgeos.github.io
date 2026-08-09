@@ -9,116 +9,150 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A319 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All twenty-three articles in the series remain in `_drafts/`.
+**Task**: A320, the Martin Marietta X-23 PRIME, drafted. The first of the four passes.
+**Committed, not pushed.** Not published.
 
-**Final state 1,891 lines, 25 display equations, 1,472 references, 13,611 words.**
-
----
-
-## The Survey's Organising Claim
-
-**The duct came back for reasons the X-22 could not have had, and its three charges are unchanged.**
-
-Everything new is a consequence of electric propulsion rather than of aerodynamics. Independently
-variable rotor speeds **dissolve the cross-shaft**, which was the aircraft's most expensive single
-decision, and replace differential thrust with something fast enough to be the primary control effector.
-**That removes the reason for the duct-exit elevons**, which are the aircraft's most distinctive feature.
-The duct is now wanted for blade shielding and for noise, neither of which was a design driver in 1962.
-
-**But the shroud still buys twenty-six percent of thrust in the hover, still charges an annular wing's
-normal force through the conversion, and still charges frontal area in cruise.** The lip still stalls in
-a crosswind. The disc-loading penalty is exactly the number this article computes, and momentum theory is
-not going to be superseded.
-
-Contemporary coverage is **724 of 1,447 research citations, or 50.0 percent**, across nine subsections.
+**Draft state 1,291 lines, 31 display equations, 871 references, 10,177 words.**
 
 ---
 
-## The Sharpest Thing the Survey Says
+## A Judgement Call You May Want to Overrule
 
-**The aircraft's legacy is not the configuration.**
+**I treated this as a full-aircraft article rather than the designation-anomaly stub the genre document
+classes it as.** That class runs to 40 to 150 lines with no keystone, because the subject is a number
+rather than an aircraft.
 
-The X-22 is cited far more often for handling-qualities data than for anything about ducts. The criteria
-a modern ducted eVTOL will be certified against descend from eighteen years of an aeroplane pretending to
-be other aeroplanes. **The configuration was not adopted and the measurements were.**
+That did not fit. **The SV-5D was a real vehicle, three flew, one was recovered, and it returned a
+measurement that can be checked against a derivation.** The genre document's own Handling a Thin Record
+section names this exact case and says the conflict belongs in the article rather than behind it, which
+is not the same as saying the article should be nothing but the conflict. The anomaly has its own
+section and is treated at length.
 
-There is a second, quieter finding. **In-flight simulation outlived the configuration and then moved on
-from it.** Ground simulators improved, and where an airborne simulator is still wanted it is a helicopter
-or a small jet rather than a purpose-built vertical-takeoff machine. The X-22 was the last of a line as
-well as the best of it.
-
----
-
-## Publication Checks
-
-**Prose style.** Clean across all 23 articles.
-
-**Acronyms. Zero violations.** The only capitalised sequence in prose is inside the engine model
-designation, which is exempt.
-
-**Diction.** The outliers are `duct` at 9.14 per thousand, `aircraft` at 7.43, `four` at 6.47 and `one`
-at 5.52. **All four were read in context and all four are legitimate.** The first two are the subject,
-`four` is the aircraft's defining number, and every use of `one` is substantive, being one engine out,
-one of the two aircraft, one and a quarter percent. The apparent outlier at 7.05 is the letter x, an
-artefact of tokenising X-22.
-
-**Reference integrity.** 1,472 references, zero undefined, zero orphaned, zero duplicate URLs.
-
-**URL response.** 1,451 external links. **1,204 DOIs confirmed registered in the Crossref registry and
-247 archive links at HTTP 200. Zero failures of either kind.**
-
-**Numerical sanity.** The 134 re-derivations across both verifiers still pass unchanged.
-
-**Structural conformance.** Genre order intact, three series sections present, The Source Base
-immediately before Epistemic State.
-
-**Build.** 23-article isolated build succeeds with 25 of 25 equations rendering as display math.
+**If you would rather have the stub, say so and I will cut it.**
 
 ---
 
-## Four More Shared Words, Three of Them Inside Engineering
+## The Article's Central Result
 
-This subject has produced more homonyms than any other in the series, and the last four are the most
-instructive because three are internal.
+**A lift-to-drag ratio near unity is not a round number. It is the threshold at which a returning
+spacecraft can reach a chosen landing site on the next orbit instead of waiting a day.**
 
-- **Trim** is the aircraft's balance, the interior fittings, the engine setting and a planing hull's
-  attitude. A cluster on the word alone filled with door seals and an AV-8B engine trim test set
-- **Inlet** belongs to propulsion and to coastal geomorphology, where a tidal inlet is the channel
-  between barrier islands. A duct-inlet query returned papers on sediment transport
-- **Figure of merit** is a rotor's hover efficiency and a nuclear-radiation detector's performance metric
-- **Electric propulsion** is an aircraft motor here and an ion thruster in the spacecraft literature,
-  which is how a paper on optimal low-thrust interplanetary trajectories reached the final sweep
+The chain is four steps and each is derived rather than asserted. Equilibrium glide with a constant bank
+gives a closed-form crossrange of $y/R = (\pi^2/48)(L/D)^2$. The bank optimum is exactly 45 degrees and
+depends on nothing at all. The crossrange a vehicle needs is half the ground-track spacing, or 1,254
+kilometres at the equator. Inverting gives **0.978**.
 
-**The ducted-propeller marine literature survived into a sixth scan**, which makes it the most persistent
-false positive this series has met.
+**The heading-change relation drops the atmosphere, the mass and the reference area entirely**, which is
+why this result could be obtained for a vehicle whose reference area is not published anywhere.
 
 ---
 
-## A Note on the Era Balance
+## The Verifier Contradicted the Article and the Verifier Was Right
 
-The primary pass took period sources from 15.0 to 26.6 percent. This pass added 308 contemporary
-references, so the period **fraction** falls to 20.4 percent while the period **count** rises slightly to
-295. **That is the directive working as intended**, and it is stated here so the number is not misread
-later.
+**This is the most useful thing that happened and it is worth reading in full.**
+
+The independent check marches a trajectory rather than evaluating the closed form, and it disagreed by
+nine to twelve percent. The cause is that the classical derivation replaces $\sin\psi$ by $\psi$, and at
+a lift-to-drag ratio near unity **the accumulated heading passes 180 degrees, where those two quantities
+have opposite signs.** The approximation does not degrade. It inverts.
+
+**Correcting it moved the requirement from 0.978 to 1.018, which is closer to unity.** The headline
+survived and got better, which is luck rather than vindication, and the article reports both numbers.
+
+**It also destroyed a false confirmation, and that is the part with teeth.** The closed form matched the
+demonstrated crossrange to within one percent at a lift-to-drag ratio of 1.0, which looked like the
+flight data settling a live source disagreement. It was two errors cancelling. The exact solve puts the
+flown ratio at **1.05 to 1.18, between the two published figures rather than equal to either**.
+
+**A second circular check was caught the same way.** An early attempt recovered a bank angle of 45.13
+degrees against an assumed optimum of 45, which looked like confirmation and was the assumed
+lift-to-drag ratio of 1.2 being fed straight back in. **A suspiciously clean agreement is the signal.**
+
+---
+
+## An Unfitted Coincidence, Checked Twice
+
+**The Space Shuttle's 1,100 nautical mile crossrange requirement is 2,037 kilometres. The Earth turns
+2,061 kilometres under a once-around polar orbit at Vandenberg's latitude. The two agree to 1.2
+percent and nothing was fitted to anything.**
+
+The requirement that shaped the Shuttle's wing is the distance its launch site travels while a
+spacecraft goes round once. PRIME demonstrated 56 percent of it with a vehicle weighing 894 pounds.
+
+---
+
+## The Designation, Reported and Not Resolved
+
+Per the standing instruction, the conflict is stated and left standing. The record is stranger than a
+simple omission.
+
+- **16 November 1965.** X-23A requested, for the **SV-5P**, the piloted vehicle. The accompanying
+  description says so explicitly.
+- **15 December 1965.** Refused, **on the ground that the aircraft was unmanned.**
+- **Late 1966.** A proposal for a new designation category for gliding re-entry vehicles is raised and
+  dropped. The decision is to seek X-23A for the SV-5D and X-24A for the SV-5P.
+- **X-24A was requested and approved. No request for X-23A was ever sent.**
+
+**The manned vehicle was refused a number for being unmanned, and a year later got a different number
+for being manned.** The article says the record shows the designation was never assigned, says the world
+calls it the X-23A anyway, and collapses neither.
+
+**The dropped proposal for a new category is the piece most useful to the closing article**, because it
+shows the system considering a new limb and instead absorbing the problem informally.
+
+---
+
+## Checks
+
+**115 independent numerical checks passing**, with the crossrange re-derived by marching a trajectory,
+the integral by Gauss-Legendre rather than Simpson, the great circle by the spherical law of cosines
+rather than the haversine, and the simultaneous solve by bisection rather than algebra.
+
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 24 articles.
+
+**653 of 653 DOIs confirmed registered in the Crossref registry, zero unregistered.**
+
+**A 24-article isolated build succeeds with all 31 equations rendering as display math**, zero
+unrendered Liquid, and 26 in-series links resolving.
+
+**One tooling change.** `check_any.py` now exempts a doubled capitalised word, because a Spanish or
+Catalan double surname repeats legitimately in citation display text. Miro Miro and Pinna 2018 and 2020
+are real papers on hypersonic boundary-layer transition.
+
+---
+
+## Five New Homonym Families, All Found by Reading
+
+**Query design prevented most of the contamination instead of filtering it.** No query in this harvest
+contains PRIME or START, because those words belong to number theory and to arms control. The filters
+that would have caught the mess found only forty-seven records to reject, which is the prevention
+working.
+
+**What got through was not anticipated by any amount of thinking about heat shields.**
+
+- **Lateral motion of a vehicle** is railway hunting oscillation and road-vehicle lane keeping. Two such
+  records had settled among the foundational crossrange papers, **which is the least visible place in
+  the whole selection for them to be**
+- **Maneuvering range** names an instrumented air combat facility, so the pool held its construction
+  quality assurance plan
+- **Lateral range** is a term of art in search and detection theory
+- **Supercavitating** vehicles are underwater, which the underwater filter missed
+- **Wind turbine** wake papers arrived through the broad contemporary catch-all
+
+Six records read and dropped. The rejection list is now 394 entries.
 
 ---
 
 ## State
 
-**A319 is complete. All four passes done, committed and pushed, not published.**
+**A320 draft pass complete. Committed, not pushed, not published.**
 
-Twenty-three of seventy-two. The publication-order dependency is twenty-three deep.
+Twenty-four of seventy-two. The publication-order dependency is twenty-four deep.
 
-**The next article is A320, the Martin Marietta X-23 PRIME**, editorial date 2025-10-29, Part 24 of 72.
-**It is the first of the nine anomaly cases** and it must be handled as one. The designation is
-attributed to the Martin Marietta SV-5D PRIME, but USAF nomenclature records reportedly show that X-23A
-was never formally assigned. **State the conflict, do not resolve it.** The vehicle itself is a lifting
-body flown on ballistic reentry from an Atlas, which puts it back with the [X-17][a314] and
-[X-20][a317] rather than with the V/STOL family, so **do not import the A319 pool**.
+**Awaiting the equation-density review prompt.** The likely candidates are the skip-entry and
+bank-reversal relations, the ballistic-coefficient and altitude history the glide implies, the Allen and
+Eggers ballistic comparison in fuller form, the ablator recession rate, and the footprint area rather
+than only its half-width.
 
-[a314]: https://sgeos.github.io/
-[a317]: https://sgeos.github.io/
-
-**Still open and unchanged.** The fourth genre class, now eight consecutive articles outside all four
-named classes. The A305 length offer.
+**Still open and unchanged.** The fourth genre class, now **eight** consecutive articles finishing
+outside all four named classes. The A305 length offer.

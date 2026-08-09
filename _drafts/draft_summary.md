@@ -17,13 +17,49 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
+
+`x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
+
+**1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass.** One of four
+passes complete. Committed, **not pushed**. Not published.
+
+**Treated as a full-aircraft article rather than the designation-anomaly stub the genre document classes
+it as**, because the SV-5D flew three times and returned a measurement that can be checked against a
+derivation. The anomaly is real and has its own section. This is a judgement call and the reverse prompt
+offers to cut it back if the pilot prefers the stub.
+
+**The keystone is crossrange, and the central result is that a lift-to-drag ratio near unity is the
+threshold for reaching a chosen landing site on the next orbit rather than waiting a day.** Equilibrium
+glide gives a closed-form crossrange going as the square of the lift-to-drag ratio at an optimal bank of
+exactly 45 degrees; the requirement is half the ground-track spacing, 1,254 km; inverting gives 0.978,
+or 1.018 once the classical small-angle approximation is removed.
+
+**The independent verifier contradicted the closed form and was right.** The classical relation replaces
+the sine of the heading by the heading itself, and at these lift-to-drag ratios the heading passes 180
+degrees where the two have opposite signs, so the closed form over-predicts by 8 to 15 percent.
+Correcting it moved the requirement closer to unity and **destroyed a false confirmation**, since the
+one-percent agreement with the flight at a ratio of 1.0 was two errors cancelling. The exact solve puts
+the flown ratio between the two published figures rather than at either.
+
+**An unfitted coincidence was verified.** The Space Shuttle's 1,100 nautical mile crossrange requirement
+is 2,037 km against 2,061 km of Earth rotation under a once-around polar orbit at Vandenberg's latitude.
+
+**The designation conflict is reported and not resolved**, per the series instruction. X-23A was
+requested for the piloted SV-5P in November 1965, refused a month later on the stated ground that the
+aircraft was unmanned, and after a late-1966 decision to seek it for the SV-5D no request was ever sent.
+
+Verification: 115 independent numerical checks passing, `_verify.py` at the 21-warning baseline,
+check_any clean across all 24 articles, 653 of 653 DOIs registered in Crossref, and a 24-article isolated
+build succeeding with all 31 equations rendering as display math.
+
 ## X-Planes Bell X-22 A319 2025-10-28
 
 `x_planes_bell_x22.markdown`, A319, editorial date 2025-10-28, series `x_planes` index 23 of 72.
 
-1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass; **1,101 lines, 25
-display equations, 750 references, 7,835 words after the equation review; **1,471 lines, 25 display
-equations, 1,114 references, 9,974 words after the primary-reference review; **1,891 lines, 25 display
+1,003 lines, 13 display equations, 750 references, 6,630 words after the draft pass. 1,101 lines, 25
+display equations, 750 references, 7,835 words after the equation review. 1,471 lines, 25 display
+equations, 1,114 references, 9,974 words after the primary-reference review. **1,891 lines, 25 display
 equations, 1,472 references, 13,611 words after the publication review.** All four passes complete.
 Committed and **pushed**. Not published.
 
@@ -4870,9 +4906,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Ten files exist in `_drafts/`. One is a template.
-No release candidates remain.
-No new drafts remain.
+Thirty-three files exist in `_drafts/`. One is a template.
+Twenty-four are the in-progress X-Planes series, A297 through A320, none of them published.
+Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
