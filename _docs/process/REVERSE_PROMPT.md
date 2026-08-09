@@ -9,130 +9,138 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A320 equation-density review, the second of four passes.
+**Task**: A320 primary-reference review, the third of four passes.
 **Committed, not pushed.** Not published.
 
-**31 display equations to 70**, across twenty edits, each asserted to match its anchor exactly once.
-**1,291 to 1,471 lines, 10,177 to 11,245 words, 871 references unchanged.**
+**References 871 to 2,283. Primary citations from 44.0 to 68.7 percent.** Period sources dated 1975 or
+earlier rose from 243 to 983. **2,887 lines, 70 display equations, 16,898 words.** Equations were
+measured before and after and did not move.
 
 ---
 
-## The Most Instructive Finding Was Not a Missing Equation
+## The Audit Ran First, and It Bit Harder Than in Any Previous Article
 
-**The draft said the two published lift-to-drag ratios differ by 44 percent. As ratios they differ by
-20.**
+**All ten subjects the equation pass promoted were thin. Four were at zero records.**
 
-The 44 is correct, but it is correct about the **crossrange** those ratios imply, because crossrange
-goes as the square. The sentence was leaning on the squaring without showing it, and a reader checking
-1.2 against 1.0 would have found an apparent error that was not one.
+- the standard atmosphere and scale height — **zero**
+- the ballistic coefficient as a design parameter — **zero**
+- weight estimation and mass fractions — **zero**
+- the speed of sound and the atmospheric temperature profile — **zero**
 
-$$\frac{y(1.2)}{y(1.0)} = \left(\frac{1.2}{1.0}\right)^2 = 1.44$$
-
-**A twenty percent disagreement about the vehicle is a forty-four percent disagreement about what it can
-do.** That is a better sentence than the one it replaced, and the pass found it by asking which relation
-produced a quoted number.
-
----
-
-## Four Quantities Were Computed in the Draft Pass and Never Reached the Article
-
-**This is the mirror defect and it is just as much a density failure.** The work had been done and the
-article did not carry it.
-
-- **The ballute deployment dynamic pressure**, 3,350 pascals or 70 pounds per square foot, which is a
-  mild load and is the reason for deploying that high
-- **The altitude at peak heating**, 71.8 kilometres, which anchors the whole thermal section to
-  somewhere physical
-- **The deceleration at the start of the glide**, 0.066 g, against 1.18 at the end. **The entire lifting
-  entry is gentler than standing up**
-- **The lift-to-drag ratio the Shuttle's own requirement implies**, 1.25
-
-**That last one answers a question the draft raised and left hanging.** Putting 1,100 nautical miles
-through the same relation that gave 0.978 for the general case gives 1.25, which is above what a pure
-lifting body of the period could reach and about what a delta wing at hypersonic incidence does reach.
-**The once-around requirement bought the Shuttle its wing.**
+Three more sat at one or two. **The draft harvest could not have known those relations would come to
+exist**, which is exactly why the audit belongs after the equation pass and not before it. A second
+harvest of 56 NTRS, 12 DTIC and 14 Crossref queries took the master from 1,834 to 3,055 records and
+every one of them now has a base.
 
 ---
 
-## Three Results Are New Rather Than Merely Displayed
+## The Keystone Itself Was Thin, Which Is Worse
 
-**The footprint area goes as the cube of the lift-to-drag ratio.** Crossrange half-width is quadratic in
-it and downrange depth is linear, so the reachable ground area is cubic. The disputed twenty percent is
-therefore a factor of 1.73 in the area a vehicle can reach, which is why the disagreement in the sources
-is worth the space this article gives it.
+**Crossrange, the subject of the entire article, had eight records in the pool.**
 
-**Crossrange stops accumulating exactly where the heading passes half a turn**, since it accumulates as
-the sine of the heading. At a ratio of 1.2 that happens at 189 metres per second, very near the end.
-Everything after it is spent flying back toward the plane the vehicle started in.
+The draft harvest used the period terms of art and they were correct as far as they went. Eight is not a
+base for an article that derives the relation, inverts it on a requirement, and inverts it again on a
+measurement.
 
-**The SV-5D does not obey square-cube scaling against the X-24A, and the failure is informative.** The
-length ratio is 0.272, so cube scaling predicts a weight ratio of 0.020. The actual ratio is 0.078,
-nearly four times more. The SV-5D is very nearly solid thermal protection while the X-24A is enclosed
-volume with a pilot and a rocket engine in it. **Areas scale and contents do not**, which is exactly why
-the reference area derived from the X-24A is defensible and a weight derived the same way would not have
-been. The article now says so where it introduces that assumption.
+Probing with the era's own wider vocabulary — **roll modulation, lift modulation, maneuvering range,
+boost-glide range** — took it to twenty-one and surfaced two papers that should have been there from the
+start. **Roll modulation for maximum re-entry lateral range**, from 1965, is the keystone relation by
+name. And a 1963 study of **lateral-range and hypersonic lift-to-drag-ratio requirements** states this
+article's own argument in its title.
+
+**The pattern was too narrow, not the archive. That is now the third article running.**
 
 ---
 
-## Derivations That Were Asserted Are Now Shown
+## Nine New Homonym Families, and One Is Internal to the Discipline
 
-The radial balance with its centrifugal term, rather than only the rearranged result. The substitution
-chain behind the crossrange integral. The geometric-series expansion that produces the Basel sum, which
-is worth doing because **a constant from elementary number theory turns up in the range of a re-entry
-vehicle**. The bank optimum as a stationary condition with its second derivative, rather than an
-assertion. The downrange relation derived from the same two statements the crossrange came from, which
-is what makes the simultaneous solve legitimate. The heat-flux proportionality and the quadratic whose
-root puts peak heating at two thirds. The latitude relation as a square root of the cosine.
+**Nine, which is the most any article in this series has produced, and every one was found by probing or
+by reading rather than by anticipation.** Four came out of probing the clusters and five more out of
+reading what the URL sweep printed, which is reported further down.
+
+**Ballistic means three different things in this very corpus, and the Defense Technical Information
+Center hosts all three, so the venue cannot separate them.** The entry-trajectory sense is the one
+wanted. A **ballistic range** is a gun that fires models into still air to study hypersonic flow, which
+is a legitimate technique and is **deliberately not filtered**. And **terminal ballistics** means
+warheads, fusing, penetration and armour vulnerability. The filter removes exactly five records and I
+checked every one of them for over-reach.
+
+**Easy glide is a stage of crystal plasticity**, so a paper on dislocation tangles in aluminium answered
+a pattern written for gliding range.
+
+**Lifting equipment is hoists and cranes**, which arrived through "vacuum lifting equipment".
+
+**Host range is microbiology**, and it put a paper on Pseudomonas aeruginosa plasmids into the article's
+most important cluster. The keystone now carries its own negative pattern covering ballistic range,
+speed range, ramjet and host range, because in that cluster the word range was doing four other jobs.
 
 ---
 
-## One Guard Fired and Was Right
+## A Real Technical Gap Was Found in the Unused Pool and Closed
 
-**The display-math-with-trailing-prose check caught an equation left sharing a line with the sentence
-after it.** That renders as inline math and is not even counted, and it is the defect class found
-corpus-wide during the errata pass in A300 and A313. It cost one edit to fix and would have been
-invisible in review.
+Reading the 582 unused primary records turned up something the article had genuinely got wrong by
+omission. **It applies a convective heating correlation and never said why radiation is neglected.**
+
+Shock-layer radiation becomes a significant part of the heat load only above roughly ten kilometres per
+second, which is lunar or interplanetary return. PRIME entered at 7.7, so the omission is correct. **But
+correct-and-unstated is not the standard**, and the article now says so, with its own twenty-record
+cluster and the explicit note that at Apollo's entry speed the correlation used here would not do.
+
+---
+
+## One Tooling Defect Fixed
+
+Authorless records fall back to the first four words of their title for display text. Titles that carry
+their own year then produced **"U.S. Standard Atmosphere, 1962 1962"**, which is a doubled word in body
+prose, and the style check was right to reject it. `gen_master.py` now suppresses a year that the title
+fragment already ends with.
 
 ---
 
 ## Checks
 
-**A new independent verifier of 104 checks**, re-deriving every added quantity by a different route
-wherever one exists. The Basel sum by the **Euler product over primes** rather than by summation. The
-bank optimum by **golden-section search** rather than by calculus. The parachute area by **numerical
-integration of the disc** rather than from the formula. The peak-heating altitude by **forward
-substitution back to the density**, which is the stronger direction than the inversion that produced it.
+**Both verifiers still pass unchanged**, at 114 and 104 checks. Nothing in this pass touched a number.
 
-**The original 114-check verifier still passes**, after three stale text expectations were corrected
-where the equation pass had moved values into LaTeX. Those were verifier defects, not article defects,
-and the values were confirmed present in their new form before the expectations were changed.
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 24 articles after the
+display fix.
 
-**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 24 articles. **A 24-article
-isolated build with all 70 equations rendering as display math and zero unbalanced braces.**
+**A 24-article isolated build succeeds with all 70 equations rendering as display math.**
+
+**The external sweep covered 2,286 links and confirmed 1,655 of 1,655 DOIs registered in the Crossref
+registry, with zero unregistered.** An HTTP 200 does not verify a citation, which is why the DOI half
+is checked against the registry rather than against a status code.
+
+**Reading what that sweep printed caught twenty-one wrong-field citations that nothing else would have
+found**, and five more homonym families with them. **Reentry in agriculture is the interval before
+workers may re-enter a treated field.** Entry in space physics is solar protons entering the
+magnetosphere. Thermal resistance, inactivation and injury belong to food microbiology, where recovery
+of an organism is also a term of art. **Speed of sound belongs to solutions and acoustics, a homonym
+this pass created for itself by adding that query.** And Guidance for Authors is journal front matter
+that Crossref indexes as a work, which is not a homonym at all but a record-type defect. The rejection
+list is now 416 entries.
 
 ---
 
-## On the Band
+## What Is Deliberately Still Thin
 
-**Seventy equations against a full-aircraft band of 90 to 130.** The article is below band and is
-reported that way rather than padded toward it. Every relation the prose names, relies on, or evaluates
-is now displayed, which is the rule that produces the number, and the number it produced is 70.
+**Entry guidance sits at about 30 percent primary.** That is not a gap so much as the shape of the
+subject. Period entry guidance is a small literature and the modern predictor-corrector work is large,
+and the contemporary survey the publication review will expand is supposed to cite the latter heavily.
+**I have left it rather than padding the period side to move a ratio.**
 
-**This is the ninth consecutive article to finish outside all four named genre classes**, references far
-above band and lines and equations below.
+Three topics the audit still flags as thin — the ballistic coefficient, the Allen and Eggers solution,
+and heating correlations by name — are **artefacts of the audit's own narrow patterns** rather than real
+gaps. The audit matches author names and exact phrases; the clusters that actually serve those passages
+hold 5, 93 and 19 records respectively.
 
 ---
 
 ## State
 
-**A320 equation pass complete. Committed, not pushed, not published.**
+**A320 primary-reference pass complete. Committed, not pushed, not published.**
 
-**Awaiting the primary-reference review prompt.** Expect the usual inter-pass dependency to bite, since
-this pass promoted several subjects the draft harvest could not have anticipated. The likely thin ones
-are the Basel-sum and trajectory-mechanics literature behind the closed form, atmospheric scale height
-and standard-atmosphere models, supersonic decelerator loads for the ballute, weight and mass-fraction
-estimation for the scaling argument that fails, and the Shuttle crossrange requirement's own
-documentary record.
+**Awaiting the publication-review prompt.** The contemporary survey is the remaining large piece, and on
+current counts it will need to move contemporary coverage up substantially from 550 of 2,252.
 
 **Still open and unchanged.** The fourth genre class, now nine consecutive articles. The A305 length
 offer.

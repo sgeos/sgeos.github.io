@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
 
-1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass. **1,471 lines, 70
-display equations, 871 references, 11,245 words after the equation review.** Two of four passes
+1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass. 1,471 lines, 70
+display equations, 871 references, 11,245 words after the equation review. **2,887 lines, 70 display
+equations, 2,283 references, 16,898 words after the primary-reference review.** Three of four passes
 complete. Committed, **not pushed**. Not published.
 
 **Treated as a full-aircraft article rather than the designation-anomaly stub the genre document classes
@@ -59,6 +60,20 @@ Three results are new: the footprint area goes as the cube of the ratio, crossra
 where the heading passes 180 degrees, and the SV-5D does not obey square-cube scaling against the X-24A
 because it is nearly solid ablator, which is precisely why a derived reference area is defensible and a
 derived weight would not be.
+
+**The primary review found the starkest inter-pass dependency in the series so far.** All ten subjects
+the equation pass promoted were thin and four were at zero records, being the standard atmosphere, the
+ballistic coefficient, weight estimation and the speed of sound. A second harvest took the master from
+1,834 to 3,055 and primary citations from 44.0 to 68.7 percent. **The keystone itself was thin at eight
+records**, and probing with the era's own vocabulary of roll modulation and maneuvering range took it to
+twenty-one, surfacing a 1965 paper on roll modulation for maximum lateral range and a 1963 study whose
+title states this article's argument. Nine new homonym families were found by probing and by reading, the
+most of any article in this series, one of them internal to the discipline since ballistic means the entry
+sense, a gun that fires models, and warheads. **Reading what the URL sweep printed caught twenty-one
+wrong-field citations**, among them agricultural reentry, which is the interval before workers may
+re-enter a treated field.
+**A genuine omission was closed**, the article having used a convective heating correlation without
+saying why radiation is negligible below ten kilometres per second.
 
 Verification: 115 independent numerical checks passing, `_verify.py` at the 21-warning baseline,
 check_any clean across all 24 articles, 653 of 653 DOIs registered in Crossref, and a 24-article isolated
