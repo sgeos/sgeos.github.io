@@ -21,9 +21,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
 
-1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass. **1,353 lines, 52
-display equations, 851 references, 8,822 words after the equation review.** Two of four passes complete.
-Committed, **not pushed**. Not published.
+1,205 lines, 18 display equations, 855 references, 8,004 words after the draft pass. 1,353 lines, 52
+display equations, 851 references, 8,822 words after the equation review. **2,724 lines, 52 display
+equations, 2,218 references, 14,679 words after the primary-reference review.** Three of four passes
+complete. Committed, **not pushed**. Not published.
 
 **The keystone is the unpowered landing and the quantity that sets it is base drag.** A reentry vehicle
 must be cut off flat, Hoerner's relation makes base drag fall as forebody drag rises so there is an
@@ -59,6 +60,15 @@ model-scale base drag is wrong and was never named in a section built on that di
 was corrected**, the energy spent in the flare falling from 83 to 74 percent once computed as a
 difference of energy heights rather than a constant drag along the arc. And the reshaping comparison
 showed the X-24B's gain came almost entirely from span rather than from a cleaner base.
+
+**The primary review took primary citations from 45.3 to 61.1 percent and period sources from 199 to
+766.** All nine promoted subjects were thin, two at zero records and one with thirteen in the pool and
+none cited. **The keystone was thin for the third article running**, unpowered landing having twelve
+records against 387 matching landing or approach, because the pattern was written in the wrong decade's
+vocabulary; the period says approach and landing, not unpowered. Broadening took it from 12 to 101 and
+surfaced the 1959 investigations at lift-to-drag ratios of two to four and the 1960 flight study of a
+power-off landing technique for re-entry vehicles. **Two topics are genuinely thin in the archive rather
+than in the patterns and were reported rather than padded.**
 
 ## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
 

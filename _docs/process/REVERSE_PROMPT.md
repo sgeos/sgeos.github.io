@@ -9,117 +9,97 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A321 equation-density review, the second of four passes.
+**Task**: A321 primary-reference review, the third of four passes.
 **Committed, not pushed.** Not published.
 
-**18 display equations to 52**, across sixteen edits, each asserted to match its anchor exactly once.
-**1,205 to 1,353 lines, 8,004 to 8,822 words.**
+**References 851 to 2,218. Primary citations from 45.3 to 61.1 percent.** Period sources dated 1975 or
+earlier rose from 199 to 766. **2,724 lines, 52 display equations, 14,679 words.** Equations were
+measured before and after and did not move.
 
 ---
 
-## The Two Worst Omissions Were Structural
+## The Audit Ran First and Every Promoted Subject Was Thin
 
-**The article integrated the flare, said so, described what was being stepped, and never showed the
-system.** The central result of the whole piece could not be checked from the article, because the
-equations it came out of were not in it. The three-equation system and its polar are now displayed.
+**All nine. Two were at zero records in the pool**, being the standard atmosphere and the flight
+determination of lift. **One sat at thirteen in the pool with zero cited**, which is induced drag and
+span efficiency. Landing gear and touchdown loads had thirty-six records with two of them primary.
 
-**The drag polar itself was absent.** Every lift-to-drag ratio in the article comes out of it, and the
-entire approach section turns on the fact that flying faster than best glide makes the glide **steeper**,
-which is a property of the polar that the article asserted without ever writing it down.
-
----
-
-## Two Quantities the Article Never Mentioned At All
-
-**The sink rate at touchdown**, which is the first thing a landing-gear engineer would ask for and which
-appeared nowhere. Integrating and stopping short of level:
-
-| Residual path angle | Speed | Sink rate |
-|---|---|---|
-| 2.0 degrees | 211 mph | 10.8 ft/s |
-| 1.0 degrees | 205 mph | 5.3 ft/s |
-| 0.5 degrees | 202 mph | 2.6 ft/s |
-
-**A transport touches down at about 2 feet per second and the X-15's gear was designed for 9.** So the
-X-24B had to arrive within **half a degree of level** to land as gently as an airliner, and within two
-degrees to stay inside a research aircraft's design case. **That is a tighter statement of the precision
-problem than the touchdown speed alone**, and it is the version a designer would recognise.
-
-**The Reynolds number**, which is the *reason* model-scale base drag is wrong, in a section built
-entirely on that discrepancy and never naming its cause. Flight sits at $9.8\times 10^7$ against
-$2.4\times 10^6$ for a twentieth-scale model, a factor of 41. **A correlation calibrated at the bottom of
-that range should not be expected to hold at the top of it.**
+A second harvest of 45 NTRS, 10 DTIC and 16 Crossref queries took the master from 1,671 to 2,803 and
+every one of them now has a base.
 
 ---
 
-## One Number Corrected
+## The Keystone Was Thin for the Third Article Running
 
-The energy spent in the flare was obtained by multiplying a constant approach drag along the whole arc.
-**That overstates it, because the drag falls with the speed.** Taking the difference of energy heights
-instead needs no such assumption and gives **74 percent where the article said 83**.
+**That makes it a rule rather than a coincidence, and the cause has been identical every time.**
+
+Unpowered landing, the subject of the entire article, had **twelve records** against 387 in the pool
+matching landing or approach.
+
+**The pattern was written in the wrong decade's vocabulary.** The period does not say unpowered. It says
+approach and landing, and the fact that the vehicle has no engine sits in the body rather than the title.
+
+Broadening on that took the cluster from **12 to 101** and surfaced two papers that should have been
+there from the beginning. **The 1959 approach and landing investigations at lift-to-drag ratios of two to
+four**, which is precisely the regime this article is about. And **the 1960 flight study of a power-off
+landing technique applicable to re-entry vehicles**, which is the article's keystone by name.
+
+A320's crossrange cluster had eight records for the same reason and A319's before it. **The archive has
+never been the problem.**
 
 ---
 
-## A Second-Order Finding
+## Two Topics Are Genuinely Thin and I Have Not Padded Them
 
-The X-24B was the X-24A's structure under a new shape, so the pair is a controlled comparison. The gain
-is 1.15 in lift-to-drag ratio, and the square root of the wetted-aspect-ratio gain is 1.11.
+**The glide-range literature is seven records in the whole pool.** Not seven cited, seven in existence
+after two harvests aimed at it. Maximum glide range is a textbook result that nobody publishes papers
+about, and the article reports it that way.
 
-**Almost all of it came from span, not from a cleaner base.** The base-to-wetted ratio barely moved, at
-0.93 of its former value. **The long pointed nose was buying span-loading rather than base cleanliness**,
-which is the opposite of what the shape suggests at a glance.
+**The flight determination of lift sits at seven cited.** The technique is real and the literature is
+small, because extracting a polar from a flight is usually a method inside a paper about something else
+rather than a paper of its own.
 
 ---
 
-## Also Now Shown Rather Than Asserted
+## Two More Homonym Families, Both Minor
 
-The base-drag coefficient written out. The equivalent-skin-friction and forebody-referenced definitions,
-both used from the start and never defined. The closed form locating the optimum. Both aspect-ratio
-definitions. The load factor definition. The lift balance and dynamic pressure. The best-glide conditions
-in closed form. The inverse-square fall of lift coefficient with speed, and the consequence that **seven
-eighths of the approach drag is parasite**. The transport comparison worked rather than asserted. The
-corridor arithmetic, the stall margin, and the glide footprint radius.
+**Powered and unpowered range is also a mobility-aid measure**, and a paper on the range of powered and
+unpowered wheelchairs reached the glide-range cluster. **Unpowered is not an aeronautical word.**
+
+**Wind drag on people is pedestrian comfort in the built environment**, not aircraft drag.
+
+Two records dropped. Rejection list 477 to 479.
+
+**Three sweep candidates were read and kept**, which is worth recording because the filters flagged them
+and reading cleared them. "Building" in a title can be a verb, as in building credible flight models.
+"Machine Building" is a journal name. And naval drop-testing of landing gear is exactly the gear topic
+with the word naval incidental.
 
 ---
 
 ## Checks
 
-**The independent verifier extended from 109 to 163 checks, all passing**, with the horizontal ground
-track and the residual-angle sink rates integrated separately rather than carried across.
+**The independent verifier still passes unchanged at 163 checks.** Nothing in this pass touched a number.
 
-**The display-math-with-trailing-prose guard fired twice and was right both times.**
+**`_verify.py` at the 21-warning baseline.** `check_any.py` clean across all 25 articles.
 
-**Three more records read and dropped, two of them solar-flare physics that the filter missed**, because
-solar papers name the flare without the adjective. The filter now excludes flare emission, flare onset,
-slow-rise and fast-rise phases, chromosphere and active region. Rejection list 474 to 477.
+**2,195 external links swept. 1,689 of 1,689 DOIs confirmed registered in the Crossref registry, zero
+unregistered.** An HTTP 200 does not verify a citation, which is why the DOI half goes to the registry.
 
-**`_verify.py` at the 21-warning baseline.** `check_any.py` clean. **A 25-article isolated build with all
-52 equations rendering as display math across 25 subsections, zero unbalanced braces.**
-
----
-
-## On the Band
-
-**Fifty-two equations against a full-aircraft band of 90 to 130.** Below band and reported that way
-rather than padded. Every relation the prose names, relies on, or evaluates is now displayed, which is
-the rule that produces the number.
-
-**This is the eleventh consecutive article to finish outside all four named genre classes.**
+**A 25-article isolated build succeeds with all 52 equations rendering as display math.**
 
 ---
 
 ## State
 
-**A321 equation pass complete. Committed, not pushed, not published.**
+**A321 primary-reference pass complete. Committed, not pushed, not published.**
 
-**Awaiting the primary-reference review prompt.** Expect the usual inter-pass dependency. This pass
-promoted Reynolds number and scale effects, landing gear and touchdown loads, the drag polar and Oswald
-efficiency for low-aspect-ratio shapes, and glide footprint geometry, none of which the draft harvest was
-designed around.
+**Awaiting the publication-review prompt.** Contemporary coverage stands at 611 of 2,189, or 27.9
+percent, and the survey will need to move it substantially.
 
-**One tooling note carried forward for the publication pass.** A320's survey was written by placeholder
-substitution which froze its citations so they stopped tracking the clusters. Cluster citations must go
-into the body as live calls.
+**One tooling note carried forward.** A320's survey was written by placeholder substitution which froze
+its citations so they stopped tracking the clusters. Cluster citations must go into the body as live
+calls.
 
 **Still open and unchanged.** The fourth genre class, now eleven consecutive articles. The A305 length
 offer.
