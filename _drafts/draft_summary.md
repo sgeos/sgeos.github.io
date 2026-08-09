@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
 
 1,291 lines, 31 display equations, 871 references, 10,177 words after the draft pass. 1,471 lines, 70
-display equations, 871 references, 11,245 words after the equation review. **2,887 lines, 70 display
-equations, 2,283 references, 16,898 words after the primary-reference review.** Three of four passes
-complete. Committed, **not pushed**. Not published.
+display equations, 871 references, 11,245 words after the equation review. 2,887 lines, 70 display
+equations, 2,283 references, 16,898 words after the primary-reference review. **4,088 lines, 72 display
+equations, 3,403 references, 23,879 words after the publication review.** All four passes complete.
+Committed and **pushed**. Not published.
 
 **Treated as a full-aircraft article rather than the designation-anomaly stub the genre document classes
 it as**, because the SV-5D flew three times and returned a measurement that can be checked against a
@@ -74,6 +75,18 @@ wrong-field citations**, among them agricultural reentry, which is the interval 
 re-enter a treated field.
 **A genuine omission was closed**, the article having used a convective heating correlation without
 saying why radiation is negligible below ten kilometres per second.
+
+**The publication review took contemporary coverage from 550 to 1,685 of 3,372 research citations, or
+50.0 percent**, across ten subsections where the draft had none. **The survey's claim is that the
+capability was adopted, then abandoned by the very class of vehicle it was built for, and adopted again
+by a different class for the opposite reason.** Crewed return went back to the ballistic capsule, and
+the article's own relation prices that at 117 km of crossrange, nine percent of the once-per-orbit
+requirement, while crossrange became the whole point of the hypersonic glide vehicle where the value is
+unpredictability. **The part of PRIME that failed twice, mid-air retrieval, is now a demonstrated
+commercial technique while its aerodynamic configuration is flown by nobody.** The verifier caught an
+under-converged survey table, then caught itself carrying a factor of two, and two independent
+integration schemes now agree to five significant figures. The period count held at 980 while the
+primary fraction fell to 45.6 percent, which is the directive working.
 
 Verification: 115 independent numerical checks passing, `_verify.py` at the 21-warning baseline,
 check_any clean across all 24 articles, 653 of 653 DOIs registered in Crossref, and a 24-article isolated
