@@ -43,7 +43,7 @@ $$\frac{\partial C_m}{\partial \alpha} = \frac{x_p}{q S \bar{c}} \frac{\partial 
 
 That derivative is positive for a tractor propeller, which is destabilising, and it is the reason the effect was studied for thirty years before anyone proposed to exploit it.
 
-**The scale of that literature is the strongest evidence that the X-19's premise was not eccentric.** Wind tunnel investigation of how a running propeller moves an aeroplane's neutral point was a standing NACA programme through the 1940s and 1950s, in [Delany 1942][research_delany_1942], [Pitkin 1943][research_pitkin_1943], [Schuldenfrei 1944][research_schuldenfrei_1944], [Purser and Spear 1947][research_purser_spear_1947], [Hagerman 1947][research_hagerman_1947], [Weil and Sleeman 1948][research_weil_sleeman_1948], [Brewer and May 1948][research_brewer_may_1948], [Lange and Mclemore 1950][research_lange_mclemore_1950], [Queijo et al 1953][research_queijo_1953], [Sleeman 1953][research_sleeman_1953], [VOLLO and BRASSAW 1956][research_vollo_brassaw_1956], [Sleeman 1957][research_sleeman_1957], [Goodson 1961][research_goodson_1961], [Donlan 1976, Factors affecting static longitudi][research_donlan_1976_2], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Ostowari and Naik 1986][research_ostowari_naik_1986].
+**The scale of that literature is the strongest evidence that the X-19's premise was not eccentric.** Wind tunnel investigation of how a running propeller moves an aeroplane's neutral point was a standing programme at the National Advisory Committee for Aeronautics, hereafter NACA, through the 1940s and 1950s, in [Delany 1942][research_delany_1942], [Pitkin 1943][research_pitkin_1943], [Schuldenfrei 1944][research_schuldenfrei_1944], [Purser and Spear 1947][research_purser_spear_1947], [Hagerman 1947][research_hagerman_1947], [Weil and Sleeman 1948][research_weil_sleeman_1948], [Brewer and May 1948][research_brewer_may_1948], [Lange and Mclemore 1950][research_lange_mclemore_1950], [Queijo et al 1953][research_queijo_1953], [Sleeman 1953][research_sleeman_1953], [VOLLO and BRASSAW 1956][research_vollo_brassaw_1956], [Sleeman 1957][research_sleeman_1957], [Goodson 1961][research_goodson_1961], [Donlan 1976, Factors affecting static longitudi][research_donlan_1976_2], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Ostowari and Naik 1986][research_ostowari_naik_1986].
 
 Every one of those reports treats the propeller force as a correction to be predicted and designed around. **Curtiss-Wright's proposal was to change its sign in the accounting rather than its magnitude in the physics.**
 
@@ -59,9 +59,9 @@ That question had an answer in the literature and the answer was not obviously e
 
 The X-19 did not begin as a military aircraft and did not begin with that designation. [Curtiss-Wright][ref_curtiss_wright] developed it as a civil executive transport under the company designations X-200 and M-200, carrying four passengers, funded from company research money.
 
-Before the transport there was a demonstrator. The [Curtiss-Wright X-100][ref_x100] was built to test two things at once, the radial lift force itself and the gimballed nacelles a tilt-propeller needs. Construction began in February 1958. Tethered hovering started on 20 April 1959, free hover followed in September 1959, and **the first and only transition from vertical to high-speed flight was made on 13 April 1960**. Curtiss-Wright declared the concept proven, handed the aircraft to NASA in October 1960 for tests at Langley, and it went afterward to the Smithsonian, where [Smithsonian National Air and Space Museum, Curtiss-Wright X-100][ref_si_x100] and [Vertipedia, Curtiss-Wright X-100][ref_vertipedia_x100] record it.
+Before the transport there was a demonstrator. The [Curtiss-Wright X-100][ref_x100] was built to test two things at once, the radial lift force itself and the gimballed nacelles a tilt-propeller needs. Construction began in February 1958. Tethered hovering started on 20 April 1959, free hover followed in September 1959, and **the first and only transition from vertical to high-speed flight was made on 13 April 1960**. Curtiss-Wright declared the concept proven, handed the aircraft to the National Aeronautics and Space Administration, hereafter NASA, in October 1960 for tests at Langley, and it went afterward to the Smithsonian, where [Smithsonian National Air and Space Museum, Curtiss-Wright X-100][ref_si_x100] and [Vertipedia, Curtiss-Wright X-100][ref_vertipedia_x100] record it.
 
-Then the company's management changed and the new management declined to keep spending research funds on it. The two aircraft were offered to the Tri-Service VTOL programme, a joint Army, Navy and Air Force office, and the Air Force contracted for conversion of two prototypes to military standard under the Tri-Service Assault Transport programme. The changes were substantial and none of them were aerodynamic. Ejection seats, a rescue hoist, a mock refuelling probe, and a fuselage stretch for passenger access.
+Then the company's management changed and the new management declined to keep spending research funds on it. The two aircraft were offered to the Tri-Service vertical take-off and landing programme, hereafter VTOL, a joint Army, Navy and Air Force office, and the Air Force contracted for conversion of two prototypes to military standard under the Tri-Service Assault Transport programme. The changes were substantial and none of them were aerodynamic. Ejection seats, a rescue hoist, a mock refuelling probe, and a fuselage stretch for passenger access.
 
 **The sequence is worth stating plainly because it is unusual.** A company proved a concept on a small demonstrator with its own money, lost interest, and sold the follow-on to a government that wanted a transport. The aircraft that resulted was heavier than the one the concept had been proven on and carried equipment the proof never involved.
 
@@ -571,6 +571,102 @@ The tandem-wing arrangement did not propagate either, though it was studied afte
 
 The most useful thing the X-19 changed may be the sharpest and the least flattering. **A programme that flies four hours in twenty-one months is not testing an aircraft**, and the tri-service VTOL effort produced several such programmes at once.
 
+## The Contemporary Literature
+
+The X-18 article that precedes this one closed on a configuration that came back because the constraint that killed it dissolved. **This article cannot make that claim and should not try to.**
+
+The X-19's keystone was never wrong. A propeller meeting the flow obliquely develops a force normal to its own axis, it did so in 1963, and it does so now. Nothing dissolved it and nothing needed to. What changed is the thing that actually destroyed the aircraft, and the change there is more radical than anything that happened to the aerodynamics.
+
+The survey below is organised by this article's own analysis, so that each modern field can be set against the quantity it addresses.
+
+### The Keystone Became a Routine Term
+
+**The most telling thing about the modern literature on propeller normal force is how little of it there is.** A search that returns hundreds of papers on transition corridors returns a handful here, in [Kong et al 2020, Finite State Coaxial Rotor Inflow][research_kong_2020_2], [Stokkermans and Veldhuis 2021][research_stokkermans_veldhuis_2021], [Patience and Nahon 2024][research_patience_nahon_2024].
+
+That is not neglect. It is the signature of a solved problem. A simplified model for propeller thrust in oblique flow, and a treatment of propeller performance at large angle of attack for compound helicopters, are the shape the subject now takes, which is a term to be included in a simulation rather than a question to be settled.
+
+**Curtiss-Wright's claim was correct and is now uncontroversial.** The company's misfortune was to be right about the aerodynamics and wrong about everything mechanical.
+
+### The Configuration Is Common Now
+
+The X-19's arrangement, several propellers at more than one longitudinal station with a small wing, is no longer unusual. It is close to a description of much of the current electric vertical take-off field, in [Burton et al 2026][research_burton_2026], [Chaohui et al 2026][research_chaohui_2026], [Choi et al 2026][research_choi_2026], [Critchfield and Ning 2026][research_critchfield_ning_2026], [Hong et al 2026][research_hong_2026], [Hou et al 2026][research_hou_2026], [Jokar and Khoshnood 2026][research_jokar_khoshnood_2026], [Kim et al 2026][research_kim_2026], [LIANG et al 2026][research_liang_2026], [May et al 2026][research_may_2026], [Min et al 2026][research_min_2026], [Shubert et al 2026][research_shubert_2026], [Spadão et al 2026][research_spadao_2026], [Wang et al 2026][research_wang_2026], [Xue et al 2026, An efficient transition trajectory][research_xue_2026_2], [Yanev and Staack 2026][research_yanev_staack_2026].
+
+**Tilt-wing, tilt-rotor, lift-plus-cruise and compound layouts are all represented**, and several address the exact problems this article computes by hand, including rotor sizing for tilt-wing vehicles, the aerodynamics of a compound tilt-wing during tilt transition, and the effect of a failure during a backward transition.
+
+### The Corridor Is an Optimisation Problem
+
+This article computes a corridor at ten nacelle angles and reads its continuity off a table. The modern treatment optimises a trajectory through it under constraints, in [SHIMIZU and MIWA 2019][research_shimizu_miwa_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [SAKAI and ABIKO 2020][research_sakai_abiko_2020], [Chen 2023, Controller design for transition f][research_chen_2023_4], [Gupta et al 2023, Optimal Transition Trajectory of a][research_gupta_2023_2], [Kulhánek et al 2023][research_kulhanek_2023], [Hsu et al 2024][research_hsu_2024], [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_6], [Zanotti et al 2024, Aerodynamic interaction between ta][research_zanotti_2024_2], [Xiang et al 2025][research_xiang_2025], [Yang et al 2025][research_yang_2025], [Zhu et al 2025][research_zhu_2025], [Lee et al 2026][research_lee_2026], [Setiawarman and Sasongko 2026][research_setiawarman_sasongko_2026].
+
+**The shape of the answer is unchanged and the method is unrecognisable.** A conversion schedule is now the output of a constrained optimisation rather than a line on a pilot's card, and the constraints include quantities the X-19's designers never had to write down.
+
+### Wing Loading and Disc Loading Are Still the Trade
+
+The X-19 pushed wing loading to 88 pounds per square foot to buy speed and paid for it with a conversion that could not complete below 114 knots. The same trade is made now with different variables, in [Alfares 2026][research_alfares_2026], [Bosch et al 2026][research_bosch_2026], [Gholamian and Beik 2026][research_gholamian_beik_2026], [Golombek et al 2026][research_golombek_2026], [Hu et al 2026][research_hu_2026], [Jiang et al 2026][research_jiang_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Lee and Kim 2026][research_lee_kim_2026], [Li et al 2026][research_li_2026], [Makeev 2026, Blade Twist and Disc Loading Effec][research_makeev_2026_2], [Pan et al 2026][research_pan_2026], [Park and Park 2026][research_park_park_2026], [Qiao and Zhou 2026][research_qiao_zhou_2026], [Cui et al 2027][research_cui_2027].
+
+**What has changed is which quantity binds.** The X-19 was limited by installed power and by the conversion speed its wing permitted. A battery-powered vehicle is limited by stored energy, which inverts the sizing problem, and the disc loading that once determined hover power now determines how long the vehicle can hover at all.
+
+### Blades, Solidity and the Advance Ratio
+
+The wide blade this article derives from a capped tip speed is a design problem the field still has, in [Bacchini et al 2021][research_bacchini_2021], [Baek et al 2021][research_baek_2021], [Fan et al 2021][research_fan_2021], [Kovačević et al 2021][research_kovacevic_2021], [Maung et al 2021][research_maung_2021], [Wang et al 2022, Control of centrally-powered varia][research_wang_2022_2], [Jardin et al 2023][research_jardin_2023], [NOZAKI et al 2023][research_nozaki_2023], [B.tech 1st Year 2025][research_b_tech_1st_year_2025], [Goyal et al 2025, Estimation of Rotor Blade Loading][research_goyal_2025_2], [Li and Li 2025][research_li_li_2025], [Liu et al 2025][research_liu_2025], [Shao et al 2025][research_shao_2025], [Yu et al 2026][research_yu_2026].
+
+**The X-19's particular version of it has eased.** Its blade was wide because one propeller had to hover a quarter of the aircraft and then cruise at 400 knots. Distributing lift across more, smaller rotors relaxes both ends of that requirement, and a vehicle that does not attempt 400 knots relaxes the tip-speed cap that forced the chord.
+
+### The Failure Mode Was Deleted Rather Than Improved
+
+**This is the section that matters, and it is where the X-19 differs from every other aircraft in this series so far.**
+
+The X-19 was destroyed by a gearbox. The gearbox existed because two engines had to drive four propellers, which requires an interconnected transmission with a combining box, a cross-shaft and a reduction gearbox at every propeller. This article computes the torque that shaft carries and observes that the interconnection was not optional, since losing one side is 1.67 times full roll control.
+
+**Electric propulsion does not improve that transmission. It removes it.** Each rotor takes its own motor, there is no cross-shaft, there is no combining gearbox, and there is no propeller reduction box to fail. The literature reflects the change, in [Bai and Zhou 2024][research_bai_zhou_2024], [Lee et al 2024][research_lee_2024], [Lee and Yee 2024][research_lee_yee_2024], [Lee and Yee 2024, Novel Electric Propulsion System A][research_lee_yee_2024_2], [Li et al 2024, Research on Cogging Torque Reducti][research_li_2024_5], [Chen et al 2025][research_chen_2025], [Machado et al 2025][research_machado_2025], [Nguyen et al 2025, Comprehensive Modeling of Electric][research_nguyen_2025_2], [Ni and Lee 2025][research_ni_lee_2025], [Shang et al 2025][research_shang_2025], [Yu et al 2025][research_yu_2025], [Böhnisch et al 2026][research_bohnisch_2026], [Granata et al 2026][research_granata_2026], [Koshel et al 2026][research_koshel_2026].
+
+**The cure that killed this aircraft is absent from the modern configuration rather than better engineered within it.** That is a different kind of progress from the one the X-18 article described, and it is worth naming the difference. A315's keystone was dissolved by a technology that made its central quantity irrelevant. A316's keystone survives untouched and its cause of death was designed out.
+
+### Redundancy Replaced Mechanical Interconnection
+
+Removing the cross-shaft removes what the cross-shaft was for. The X-19 needed mechanical interconnection because an engine failure would otherwise be an unrecoverable rolling moment. With enough independent motors the same failure is a control-allocation problem, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Kang et al 2024][research_kang_2024], [Mabboux et al 2024][research_mabboux_2024], [Ren et al 2024][research_ren_2024], [Zhao et al 2024, Active Fault-Tolerant Strategy for][research_zhao_2024_3], [Atmaca et al 2025][research_atmaca_2025], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Keir and Mulla 2025][research_keir_mulla_2025], [Ruggia 2025][research_ruggia_2025], [Choi and Suk 2026][research_choi_suk_2026], [Han and Pei 2026][research_han_pei_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026].
+
+**The engine-out case stopped being a mechanical problem and became a software one**, which is a change in the kind of engineering required rather than in its difficulty. The one engine inoperative case is still studied, still hard, and no longer solved with a shaft.
+
+### Handling Qualities Became Criteria
+
+The yaw authority this article finds an order of magnitude short would today be measured against a published criterion rather than against judgement, in [Biernacki and Lewkowicz 2024][research_biernacki_lewkowicz_2024], [Deng et al 2024][research_deng_2024], [Ducard and Carughi 2024][research_ducard_carughi_2024], [He et al 2024][research_he_2024], [Antonakis 2025][research_antonakis_2025], [Saetti 2025][research_saetti_2025], [Yan et al 2025][research_yan_2025], [Yang 2025, Aircraft Pilot Workload Assessment][research_yang_2025_2], [Yang et al 2025, Fully autonomous anti-interference][research_yang_2025_3], [Cavalcanti et al 2026][research_cavalcanti_2026], [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026], [Janetzko et al 2026][research_janetzko_2026], [Kang et al 2026][research_kang_2026], [Yi 2026][research_yi_2026].
+
+**Simplified vehicle operations, meaning an aircraft a non-professional can fly, is now a design objective**, which would have been an extraordinary claim while the X-19 was being flown four minutes at a time by test pilots.
+
+### Certification Is Where the Constraint Now Lives
+
+The largest single difference between the X-19's world and the present. A 1963 research aircraft needed to fly. A modern powered-lift aircraft needs to fly, to be certified against a category that had to be invented for it, and to operate in shared airspace, in [DUDZIAK et al 2020][research_dudziak_2020], [Feng 2022][research_feng_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Takacs and Haidegger 2022][research_takacs_haidegger_2022], [Zhou 2022][research_zhou_2022], [Kim et al 2023][research_kim_2023], [Park et al 2023][research_park_2023], [Dong et al 2024][research_dong_2024], [Zhang and Zhou 2024][research_zhang_zhou_2024], [Chen et al 2025, Model-free adaptive flow control o][research_chen_2025_2], [Farooqui 2025][research_farooqui_2025], [Lee and Ko 2025][research_lee_ko_2025], [Laplante et al 2026][research_laplante_2026], [Park 2026][research_park_2026].
+
+**The X-19 was destroyed by a gearbox and cancelled four months later.** Its descendants are more often delayed by a means-of-compliance document, and an article treating only the aerodynamics would miss where the difficulty now lies.
+
+### Noise, Which the X-19 Never Had to Face
+
+A 1963 military transport testbed had no acoustic constraint whatever. A vehicle intended to operate from a city rooftop has one that may bind before any aerodynamic limit does, in [Araghizadeh et al 2025][research_araghizadeh_2025], [Bauer 2025][research_bauer_2025], [Bergmann et al 2025][research_bergmann_2025], [Boucher 2025][research_boucher_2025], [Czech et al 2026][research_czech_2026], [Gandhi et al 2026][research_gandhi_2026], [Georgiou et al 2026][research_georgiou_2026], [Hummel et al 2026][research_hummel_2026], [Marques et al 2026][research_marques_2026], [Page et al 2026][research_page_2026], [Pascioni et al 2026][research_pascioni_2026], [Rizzi et al 2026][research_rizzi_2026], [Tinney and Valdez 2026][research_tinney_valdez_2026], [Voropayev et al 2026][research_voropayev_2026].
+
+**This is a genuinely new constraint rather than an old one made stricter**, and it interacts directly with the quantity this article derives. Tip speed was capped here by cruise Mach number. It is capped now by community noise, at a lower value, which would make the X-19's already extraordinary blade wider still.
+
+### Ground Effect, Download and the Vertiport
+
+The download this article computes at 13.2 percent of gross weight is a wing-area penalty, and the outwash it implies is now an infrastructure question, in [Crespillo et al 2025][research_crespillo_2025], [Guo et al 2025][research_guo_2025], [Guo et al 2025, Research of Hierarchical Vertiport][research_guo_2025_2], [Jung et al 2025][research_jung_2025], [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_3], [Zhang and Hwang 2025][research_zhang_hwang_2025], [Zhao et al 2025, UAV Operations and Vertiport Capac][research_zhao_2025_3], [Li et al 2026, Urban air mobility vertiports][research_li_2026_2], [Lyu and Feng 2026][research_lyu_feng_2026], [Mirković et al 2026][research_mirkovic_2026], [Nagrare and Lieb 2026][research_nagrare_lieb_2026], [Park and Kim 2026][research_park_kim_2026].
+
+**A vehicle at 26 pounds per square foot of disc loading needs a prepared surface**, and the modern field calls that a vertiport and regulates it, which is the same requirement with a name and a standard attached.
+
+### Methods, Autonomy and What Replaced the Wind Tunnel
+
+The interference this article estimates with a downwash gradient and a contraction factor is now simulated directly, in [Dabaghian et al 2025][research_dabaghian_2025], [Hakim et al 2025][research_hakim_2025], [Liu et al 2025, Supersonic aircraft aerodynamic pe][research_liu_2025_3], [Lopez and Biancolini 2025][research_lopez_biancolini_2025], [Mir 2025][research_mir_2025], [Sastre et al 2025][research_sastre_2025], [Wang et al 2025][research_wang_2025], [Yan and Shi 2025][research_yan_shi_2025], [Cai et al 2026][research_cai_2026], [Claro et al 2026][research_claro_2026], [Qin 2026][research_qin_2026], [Shen et al 2026, A multi-fidelity workflow for conc][research_shen_2026_2], [Suo et al 2026][research_suo_2026], [ZHANG et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_3].
+
+**The 0.444 downwash gradient that costs this aircraft 1.65 degrees of attitude is not a quantity a modern analysis would need to approximate.** It would be resolved, and so would the propeller-wing interference that sits behind the keystone.
+
+### What the Survey Shows
+
+Three things, and the third is the one worth keeping.
+
+**The aerodynamics were right.** The radial lift force is real, is still used, and is no longer argued about.
+
+**The configuration was reasonable.** Multiple propellers at two longitudinal stations with a small wing describes a large fraction of the current field.
+
+**The mechanical architecture was the problem, and it was not solved but abolished.** The X-19 needed a transmission because it had two engines and four propellers, and that requirement disappeared the moment electric motors became a credible way to turn a rotor. **An aircraft can be correct in every argument it makes and still be destroyed by the thing nobody was arguing about.**
+
 ## Where the Framing Breaks Down
 
 **Treating the X-19 through the radial lift force overstates what the radial lift force decided.** The corridor computed above is continuous with the effect switched off. The keystone framing is correct about what the aircraft was sold on and about what its wing area required, and it is wrong if it suggests the configuration depended on the effect for feasibility.
@@ -607,6 +703,8 @@ The coverage audit that preceded this pass found **both kinds of gap at once, in
 
 **Two still got through, and both were caught by reading rather than by any rule.** A method for calculating the spindle torque of a controllable-pitch propeller is David Taylor Model Basin work on ship propellers, and a report on four-quadrant open-water characteristics concerns propeller 4739 designed for LSD-41, a dock landing ship. The second reached a section on vertical-flight handling qualities because the selection pattern for controllability matched the phrase controllable pitch. **Archive records carry no journal name, so the venue filter that caught the other eight could not see these two.**
 
+**The contemporary sweep found the keystone's modern literature to be small, and that is a result rather than a gap.** Transition corridors return hundreds of recent papers and propeller normal force returns a handful. A quantity that is settled stops generating publications, so the thinness is evidence that Curtiss-Wright's aerodynamic claim is no longer contested.
+
 **One topic remains genuinely thin and is reported rather than padded.** Aircraft moments of inertia and radii of gyration returned five records after a targeted search, because mass-properties reports are working documents that archives rarely index. The three inertias in this article therefore rest on radii of gyration assumed as fractions of length and span, and that assumption is named in the Epistemic State rather than supported by citation.
 
 ## Epistemic State
@@ -624,6 +722,10 @@ The coverage audit that preceded this pass found **both kinds of gap at once, in
 **Two errors the equation review exposed, both in the drafted text.** The pitch-moment relation was displayed as $M = fT\ell$, which evaluates to twice the 15,467 foot-pounds quoted in the prose beside it. The quoted value was right and the displayed algebra carried a spurious factor of two, so the article contradicted itself in a way every automated check passed. The yaw inertia was transcribed as 100,565 slug feet squared against a computed 100,690, which left the acceleration built on it correct and the stated inertia wrong. **Writing the relation down has now caught a wrong claim in twelve consecutive articles in this series.** A third defect was introduced by the review itself, an unterminated display block that would have rendered as broken mathematics, and the style checker was extended to catch that class.
 
 **A defect that no automated check would have caught.** The first corridor formulation solved the vertical equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any speed down to zero. It returned 0.6 knots at every nacelle angle below 60 degrees. Nothing flagged it. It was caught by reading the output and finding it absurd, which is the same way A315's 454-knot crossover speed was caught.
+
+**A structural defect from the draft pass, found in the publication review.** The research-aircraft genre carries three sections beyond the standard twelve, and this article was drafted with only two. **The Contemporary Literature section was missing entirely** and every automated check passed the article, because sections were counted rather than identified. The section is now present and the checker now names the three it requires.
+
+**Three acronyms were used before being expanded**, namely NACA, NASA and the vertical take-off and landing abbreviation, the last used some thirty thousand characters before its expansion. All three are corrected.
 
 **A false-positive family this article had to learn.** The naval architecture literature on propellers in oblique inflow uses this article's exact vocabulary, and it contaminated the keystone topic completely on the first pass. Eight candidates were removed by filtering on journal name and two more by reading. **No pattern over titles would have found the last two**, because archive records carry no journal and the titles contain no marine word.
 
@@ -646,6 +748,10 @@ The X-19 asked whether a propeller could be counted on for lift, and the answer 
 Three conclusions survive the analysis and one does not. The wide propeller blade was demanded twice over, by hover at a tip speed the cruise capped and by the radial lift force, which makes the configuration more coherent than it appears. The tandem layout supplied for nothing the pitch control that the [X-18][related_post_a315_hiller_x18] required a turbojet to obtain, and supplied yaw control that this analysis finds an order of magnitude short. The interconnected drive that cured the X-18's fatal engine-out asymmetry introduced the gearbox that destroyed the X-19, which is as clean an illustration as this series has produced that **a fix and a failure mode can be the same component**.
 
 The conclusion that does not survive is the one the marketing rested on. The radial lift force did not make this aircraft possible. The corridor closes without it. What it made possible was a smaller wing, and a smaller wing is an economy rather than an enabler.
+
+The contemporary literature adds a final observation that changes the verdict on the programme rather than on the physics. **Every aerodynamic argument Curtiss-Wright made has held.** The radial lift force is real and is now a routine term. The configuration of several propellers at two longitudinal stations with a small wing describes a large part of the current electric vertical take-off field. The company was right about the hard part and lost the aircraft to the transmission, which is the part nobody was arguing about, and which its descendants do not have because electric motors abolished the need for it rather than because anyone made gearboxes better.
+
+**An aircraft can be correct in every argument it makes and still be destroyed by the thing nobody was arguing about.**
 
 ## References
 
@@ -672,72 +778,111 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 
 [research_aiken_1977]: https://ntrs.nasa.gov/citations/19780011162
 [research_albachten_1956]: https://doi.org/10.21236/ad0116273
+[research_alfares_2026]: https://doi.org/10.3390/en19081931
 [research_anderson_1960]: https://ntrs.nasa.gov/citations/19980223619
+[research_antonakis_2025]: https://doi.org/10.1007/s13272-025-00815-4
+[research_antonakis_biannic_2024]: https://doi.org/10.2514/1.c037707
 [research_applin_1994]: https://ntrs.nasa.gov/citations/19940032994
+[research_araghizadeh_2025]: https://doi.org/10.1063/5.0288862
 [research_ashkenas_1965]: https://doi.org/10.21236/ad0627659
 [research_ashkenas_1965_2]: https://doi.org/10.21236/ad0627989
+[research_atmaca_2025]: https://doi.org/10.2514/1.g009147
+[research_b_tech_1st_year_2025]: https://doi.org/10.71058/jodac.v9i8017
+[research_bacchini_2021]: https://doi.org/10.1016/j.ast.2020.106429
 [research_badgley_laskin_1970]: https://doi.org/10.21236/ad0869822
+[research_baek_2021]: https://doi.org/10.46300/91010.2021.15.3
+[research_bai_zhou_2024]: https://doi.org/10.1515/tjj-2022-0065
 [research_bartie_1986]: https://ntrs.nasa.gov/citations/19880016983
 [research_batina_1985]: https://ntrs.nasa.gov/citations/19850010651
 [research_battles_1975]: https://doi.org/10.21236/ada015521
+[research_bauer_2025]: https://doi.org/10.3397/in_2025_1076556
 [research_bellinger_1972]: https://doi.org/10.4050/jahs.17.35
 [research_bencze_1978]: https://ntrs.nasa.gov/citations/19790041868
 [research_bennett_1984]: https://doi.org/10.2514/6.1984-2500
 [research_beppu_1966]: https://doi.org/10.21236/ad0640945
+[research_bergmann_2025]: https://doi.org/10.1007/s13272-025-00839-w
+[research_biernacki_lewkowicz_2024]: https://doi.org/10.1016/j.apergo.2024.104268
 [research_blaser_1969]: https://doi.org/10.2514/6.1969-197
 [research_boatwright_clingan_1969]: https://doi.org/10.2514/6.1969-228
 [research_bober_mitchell_1980]: https://doi.org/10.2514/6.1980-225
 [research_bobo_1972]: https://ntrs.nasa.gov/citations/19730004301
+[research_bohnisch_2026]: https://doi.org/10.1016/j.ast.2025.110763
 [research_borst_1978]: https://ntrs.nasa.gov/citations/19790004876
+[research_bosch_2026]: https://doi.org/10.1007/s13272-025-00917-z
+[research_boucher_2025]: https://doi.org/10.1121/10.0038350
 [research_bradley_1956]: https://doi.org/10.4050/jahs.1.32
 [research_brenckmann_1958]: https://doi.org/10.2514/8.7650
 [research_breul_1963]: https://doi.org/10.21236/ad0402774
 [research_brewer_may_1948]: https://ntrs.nasa.gov/citations/19930082266
 [research_brown_timmerman_1991]: https://doi.org/10.2514/6.1991-3167
 [research_brusse_cronk_1965]: https://ntrs.nasa.gov/citations/19660010796
+[research_burton_2026]: https://doi.org/10.1115/1.4070771
 [research_butler_1966]: https://doi.org/10.21236/ad0629637
 [research_ca_1969]: https://doi.org/10.21236/ada319985
+[research_cai_2026]: https://doi.org/10.3390/drones10050325
 [research_carlson_1958]: https://doi.org/10.4050/jahs.3.11
 [research_carpenter_paulnock_1949]: https://ntrs.nasa.gov/citations/20090026503
 [research_castles_durham_1956]: https://doi.org/10.4050/jahs.1.17
 [research_castles_gray_1951]: https://ntrs.nasa.gov/citations/19930083181
+[research_cavalcanti_2026]: https://doi.org/10.2514/1.c038528
 [research_cavcar_2011]: https://doi.org/10.2514/1.c031351
 [research_center_1978]: https://doi.org/10.21236/ada076373
+[research_chaohui_2026]: https://doi.org/10.23940/ijpe.26.05.p1.237244
 [research_chawla_1952]: https://doi.org/10.2514/8.2357
+[research_chen_2023_4]: https://doi.org/10.54254/2755-2721/9/20230018
+[research_chen_2025]: https://doi.org/10.3390/drones9090662
+[research_chen_2025_2]: https://doi.org/10.1063/5.0281974
 [research_chen_schweikhard_1985]: https://doi.org/10.2514/3.45179
 [research_chiang_1980]: https://doi.org/10.21236/ada092721
 [research_chiocchia_pignataro_1995]: https://doi.org/10.1017/s0001924000028578
+[research_choi_2026]: https://doi.org/10.2514/1.c038503
+[research_choi_suk_2026]: https://doi.org/10.5139/jksas.2026.54.1.105
 [research_churchill_harrington_1959]: https://ntrs.nasa.gov/citations/19980228291
 [research_clark_1963]: https://doi.org/10.21236/ad0419126
+[research_claro_2026]: https://doi.org/10.1016/j.ast.2026.112259
 [research_corless_blanken_1983]: https://ntrs.nasa.gov/citations/19840001967
 [research_corliss_1977]: https://ntrs.nasa.gov/citations/19770052109
 [research_coward_1955]: https://doi.org/10.21236/ad0101718
 [research_coy_1988]: https://ntrs.nasa.gov/citations/19880007257
 [research_craig_1991]: https://doi.org/10.2514/6.1991-3120
+[research_crespillo_2025]: https://doi.org/10.1007/s13272-024-00749-3
 [research_crigler_gilman_1949]: https://ntrs.nasa.gov/citations/19930085544
 [research_crigler_gilman_1952]: https://ntrs.nasa.gov/citations/19930083122
 [research_crimi_1975]: https://ntrs.nasa.gov/citations/19750023949
+[research_critchfield_ning_2026]: https://doi.org/10.2514/1.c038445
+[research_cui_2027]: https://doi.org/10.1016/j.ress.2026.113157
 [research_curtiss_1967]: https://doi.org/10.21236/ad0663848
 [research_curtiss_1985]: https://ntrs.nasa.gov/citations/19860063840
 [research_curtiss_c_1965]: https://doi.org/10.21236/ad0628669
+[research_czech_2026]: https://doi.org/10.3397/nc_2026_0042
+[research_dabaghian_2025]: https://doi.org/10.1063/5.0271761
 [research_dallas_irvin_1956]: https://doi.org/10.21236/ad0147926
 [research_delano_1947]: https://ntrs.nasa.gov/citations/20050019462
 [research_delany_1942]: https://ntrs.nasa.gov/citations/20090016408
 [research_dempsey_2013]: https://ntrs.nasa.gov/citations/20150021366
+[research_deng_2024]: https://doi.org/10.3390/drones8100560
 [research_detore_sambell_1975]: https://ntrs.nasa.gov/citations/19750013184
 [research_division_1966]: https://ntrs.nasa.gov/citations/19660015317
 [research_doetsch_mark_1953]: https://doi.org/10.21236/ad0016744
+[research_dong_2024]: https://doi.org/10.61935/acetr.4.1.2024.p130
 [research_donlan_1976_2]: https://ntrs.nasa.gov/citations/19770022129
 [research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
 [research_drinkwater_rolls_1963]: https://ntrs.nasa.gov/citations/19630002717
 [research_driver_1958]: https://ntrs.nasa.gov/citations/19980232000
+[research_du_2024]: https://doi.org/10.1016/j.ijheatfluidflow.2024.109304
+[research_ducard_carughi_2024]: https://doi.org/10.3390/drones8120727
+[research_dudziak_2020]: https://doi.org/10.20858/sjsutst.2020.108.3
 [research_dunham_gentry_1989]: https://ntrs.nasa.gov/citations/19900058369
 [research_dunham_gentry_1989_2]: https://doi.org/10.4271/892205
 [research_er_el_1988]: https://doi.org/10.2514/3.45535
+[research_fan_2021]: https://doi.org/10.2514/1.c035832
+[research_farooqui_2025]: https://doi.org/10.15332/19090528.10832
 [research_feistel_1981]: https://ntrs.nasa.gov/citations/19810058335
+[research_feng_2022]: https://doi.org/10.1049/icp.2022.1595
 [research_fisher_mccroskey_1971]: https://ntrs.nasa.gov/citations/19710050390
 [research_fry_1966]: https://ntrs.nasa.gov/citations/19660015334
 [research_gabel_tarzanin_1972]: https://doi.org/10.2514/6.1972-958
+[research_gandhi_2026]: https://doi.org/10.2514/1.c038602
 [research_garren_1961]: https://ntrs.nasa.gov/citations/20040006489
 [research_garren_1965]: https://ntrs.nasa.gov/citations/19650012141
 [research_garren_kelly_1965]: https://ntrs.nasa.gov/citations/19650025398
@@ -745,7 +890,9 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_gebhard_1953]: https://doi.org/10.21236/ad0015832
 [research_gentry_1991]: https://ntrs.nasa.gov/citations/19920003820
 [research_gentry_1994]: https://ntrs.nasa.gov/citations/19940025432
+[research_georgiou_2026]: https://doi.org/10.1121/10.0042533
 [research_gerken_1979]: https://doi.org/10.21236/ada132587
+[research_gholamian_beik_2026]: https://doi.org/10.1109/ojpel.2026.3664337
 [research_gilchrist_1983]: https://doi.org/10.2514/6.1983-2465
 [research_gloss_1974]: https://ntrs.nasa.gov/citations/19740020361
 [research_gloss_1975]: https://ntrs.nasa.gov/citations/19750015442
@@ -755,19 +902,28 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_gloss_washburn_1979]: https://ntrs.nasa.gov/citations/19790007731
 [research_goland_1964]: https://doi.org/10.21236/ad0608186
 [research_goldstein_1982]: https://ntrs.nasa.gov/citations/19820015335
+[research_golombek_2026]: https://doi.org/10.1007/s13272-026-00996-6
 [research_goodrich_1989]: https://ntrs.nasa.gov/citations/19890014097
 [research_goodson_1961]: https://ntrs.nasa.gov/citations/19980232220
 [research_goodson_1966]: https://ntrs.nasa.gov/citations/19660007635
 [research_goodson_1966_2]: https://ntrs.nasa.gov/citations/19660015322
+[research_goyal_2025_2]: https://doi.org/10.2514/1.j064736
+[research_granata_2026]: https://doi.org/10.1016/j.ast.2026.112734
 [research_gross_mawhinney_1970]: https://doi.org/10.2514/6.1970-1213
 [research_grunwald_1961]: https://ntrs.nasa.gov/citations/19980227988
+[research_guo_2025]: https://doi.org/10.1016/j.urbmob.2025.100117
+[research_guo_2025_2]: https://doi.org/10.3390/aerospace12080672
+[research_gupta_2023_2]: https://doi.org/10.1016/j.ifacol.2023.10.1230
 [research_gur_rosen_2005]: https://doi.org/10.2514/1.6564
 [research_hagerman_1947]: https://ntrs.nasa.gov/citations/19930082015
+[research_hakim_2025]: https://doi.org/10.1016/j.rineng.2025.107358
+[research_han_pei_2026]: https://doi.org/10.1109/maes.2025.3566023
 [research_hargraves_1961]: https://doi.org/10.21236/ad0268350
 [research_harris_1996]: https://ntrs.nasa.gov/citations/19960047059
 [research_harry_trobaugh_1966]: https://doi.org/10.21236/ad0641246
 [research_hawker_payne_1979]: https://doi.org/10.21236/ada068614
 [research_hayden_keller_1974]: https://ntrs.nasa.gov/citations/19740023835
+[research_he_2024]: https://doi.org/10.3390/aerospace11030195
 [research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
 [research_henry_1995]: https://ntrs.nasa.gov/citations/19950023117
 [research_hickey_1956]: https://ntrs.nasa.gov/citations/19930088539
@@ -779,42 +935,89 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_hoffman_1969_3]: https://ntrs.nasa.gov/citations/19700011131
 [research_hoffman_1970]: https://ntrs.nasa.gov/citations/19710006223
 [research_hohenemser_prelewicz_1974]: https://doi.org/10.4050/sm_dyn_1974-5453
+[research_hong_2026]: https://doi.org/10.1007/s42405-025-01020-7
+[research_hou_2026]: https://doi.org/10.1109/tie.2026.3661006
 [research_howard_1985]: https://ntrs.nasa.gov/citations/19860053764
 [research_howard_miley_1989]: https://ntrs.nasa.gov/citations/19890062695
 [research_howland_1979]: https://doi.org/10.21236/ada072444
+[research_hsu_2024]: https://doi.org/10.4050/jahs.69.022003
+[research_hu_2026]: https://doi.org/10.1016/j.ast.2026.112874
+[research_hummel_2026]: https://doi.org/10.3397/nc_2026_0026
+[research_hung_dai_2025]: https://doi.org/10.1080/24721840.2025.2464115
 [research_huston_1989]: https://ntrs.nasa.gov/citations/19890059402
 [research_huston_winston_1960]: https://ntrs.nasa.gov/citations/19980227777
+[research_ioannis_ioannis_2026]: https://doi.org/10.70322/dav.2026.10005
+[research_janetzko_2026]: https://doi.org/10.1007/s10111-026-00883-4
+[research_jardin_2023]: https://doi.org/10.1177/1475472x221150181
+[research_jiang_2026]: https://doi.org/10.1016/j.enconman.2025.120778
+[research_jiao_yang_2026]: https://doi.org/10.1007/s11581-026-07214-7
+[research_jing_ma_2025]: https://doi.org/10.1016/j.isatra.2025.08.016
 [research_johnson_1991]: https://ntrs.nasa.gov/citations/19910068310
 [research_johnson_white_1983]: https://ntrs.nasa.gov/citations/19830068372
+[research_jokar_khoshnood_2026]: https://doi.org/10.1007/s11370-026-00704-7
+[research_jung_2025]: https://doi.org/10.2514/1.c038132
+[research_kang_2024]: https://doi.org/10.1177/09544100231220471
+[research_kang_2026]: https://doi.org/10.4050/jahs.71.042006
 [research_katz_1980]: https://doi.org/10.2514/6.1980-1872
 [research_katzoff_1940]: https://ntrs.nasa.gov/citations/19930091767
+[research_keir_mulla_2025]: https://doi.org/10.1123/mc.2024-0127
 [research_keith_selberg_1984]: https://ntrs.nasa.gov/citations/19840035377
 [research_kelley_1962]: https://ntrs.nasa.gov/citations/19630000326
 [research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
+[research_kim_2023]: https://doi.org/10.5762/kais.2023.24.12.96
+[research_kim_2026]: https://doi.org/10.1007/s42405-026-01180-0
 [research_kirby_1956]: https://ntrs.nasa.gov/citations/19930084546
 [research_kirby_1961]: https://ntrs.nasa.gov/citations/20040047148
 [research_koenig_quigley_1960]: https://ntrs.nasa.gov/citations/19630004820
+[research_kong_2020_2]: https://doi.org/10.4050/jahs.65.022008
 [research_korzun_1976]: https://doi.org/10.21236/ada026247
+[research_koshel_2026]: https://doi.org/10.2478/tar-2026-0008
+[research_kovacevic_2021]: https://doi.org/10.1108/aeat-03-2021-0091
 [research_krantz_1994]: https://ntrs.nasa.gov/citations/19940032949
 [research_kuhn_1957]: https://ntrs.nasa.gov/citations/19930084858
 [research_kuhn_grunwald_1960]: https://ntrs.nasa.gov/citations/19980227804
 [research_kuhn_grunwald_1961]: https://ntrs.nasa.gov/citations/19980227771
+[research_kulhanek_2023]: https://doi.org/10.1088/1742-6596/2526/1/012001
 [research_kvaternik_1973]: https://ntrs.nasa.gov/citations/19730020244
 [research_lange_mclemore_1950]: https://ntrs.nasa.gov/citations/19930082674
+[research_laplante_2026]: https://doi.org/10.3846/aviation.2026.26878
 [research_laskin_1968]: https://doi.org/10.21236/ad0675458
 [research_latham_1957]: https://doi.org/10.1098/rspb.1957.0039
+[research_lee_2024]: https://doi.org/10.1115/1.4063934
+[research_lee_2026]: https://doi.org/10.1109/taes.2026.3714382
+[research_lee_kim_2026]: https://doi.org/10.1109/access.2026.3698794
+[research_lee_ko_2025]: https://doi.org/10.31818/jknst.2025.12.8.4.803
+[research_lee_yee_2024]: https://doi.org/10.2514/1.c037225.c1
+[research_lee_yee_2024_2]: https://doi.org/10.2514/1.c037225
 [research_leishman_1966]: https://doi.org/10.21236/ad0638632
 [research_leonard_iii_2001]: https://doi.org/10.21236/ada430859
+[research_li_2024_5]: https://doi.org/10.3390/en17071583
+[research_li_2024_6]: https://doi.org/10.1142/s2737480724500195
+[research_li_2025_3]: https://doi.org/10.3390/aerospace12100927
+[research_li_2026]: https://doi.org/10.1016/j.ast.2025.111519
+[research_li_2026_2]: https://doi.org/10.1016/j.urbmob.2026.100265
+[research_li_li_2025]: https://doi.org/10.1049/elp2.70088
+[research_liang_2026]: https://doi.org/10.1016/j.cja.2025.103898
 [research_liiva_1968]: https://doi.org/10.2514/6.1968-58
 [research_linnell_1963]: https://doi.org/10.21236/ad0408661
+[research_liu_2025]: https://doi.org/10.3390/electronics14183627
+[research_liu_2025_3]: https://doi.org/10.1063/5.0282257
 [research_loewy_yntema_1958]: https://doi.org/10.4050/jahs.3.1.35
 [research_lofland_1980]: https://ntrs.nasa.gov/citations/19800015008
+[research_lopez_biancolini_2025]: https://doi.org/10.3390/app15020846
 [research_lottati_1984]: https://doi.org/10.2514/3.45051
 [research_lundry_1967]: https://doi.org/10.2514/3.43797
+[research_lyu_feng_2026]: https://doi.org/10.1016/j.tranpol.2026.104345
+[research_mabboux_2024]: https://doi.org/10.1016/j.ast.2023.108778
+[research_machado_2025]: https://ntrs.nasa.gov/citations/20250002297
+[research_makeev_2026_2]: https://doi.org/10.1590/jatm.v18.1440
 [research_mallen_dancik_1959]: https://doi.org/10.4050/jahs.4.15
 [research_mancini_1983]: https://ntrs.nasa.gov/citations/19830011853
 [research_manzuk_1970]: https://doi.org/10.2514/6.1970-1211
 [research_margason_1966]: https://ntrs.nasa.gov/citations/19660015330
+[research_marques_2026]: https://doi.org/10.1177/1475472x261419107
+[research_maung_2021]: https://doi.org/10.1016/j.compstruct.2020.112961
+[research_may_2026]: https://doi.org/10.2514/1.c038391
 [research_mc_kinney_newsom_1962]: https://ntrs.nasa.gov/citations/19620001441
 [research_mccormick_1969]: https://doi.org/10.21236/ad0863818
 [research_mccormick_mallen_1956]: https://doi.org/10.4050/sm_wf_1956-2299
@@ -825,6 +1028,9 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_miley_1986]: https://ntrs.nasa.gov/citations/19860064384
 [research_milla_blick_1966]: https://doi.org/10.2514/3.43785
 [research_miller_1948]: https://doi.org/10.2514/8.11623
+[research_min_2026]: https://doi.org/10.1016/j.ast.2026.112840
+[research_mir_2025]: https://doi.org/10.61359/11.2106-2549
+[research_mirkovic_2026]: https://doi.org/10.1016/j.urbmob.2025.100181
 [research_mitchell_1991]: https://ntrs.nasa.gov/citations/19920031828
 [research_mitchell_mikkelson_1982]: https://ntrs.nasa.gov/citations/19820018343
 [research_morisset_1977]: https://ntrs.nasa.gov/citations/19780009099
@@ -833,16 +1039,28 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_naca_1960_2]: https://ntrs.nasa.gov/citations/19630004807
 [research_naca_1961]: https://ntrs.nasa.gov/citations/20040006318
 [research_naca_1982]: https://ntrs.nasa.gov/citations/19820015334
+[research_nagrare_lieb_2026]: https://doi.org/10.3390/aerospace13010109
 [research_nagy_kirsten_1976]: https://doi.org/10.21236/adb012970
 [research_naumowicz_smith_1992]: https://doi.org/10.2514/6.1992-4255
 [research_newsom_1962]: https://ntrs.nasa.gov/citations/19620005161
 [research_newsom_1962_2]: https://ntrs.nasa.gov/citations/19620005247
 [research_newsom_tosti_1959]: https://ntrs.nasa.gov/citations/19980228402
+[research_nguyen_2025_2]: https://doi.org/10.5139/jksas.2025.53.3.239
+[research_ni_lee_2025]: https://doi.org/10.1115/1.4067960
 [research_nissen_1948]: https://ntrs.nasa.gov/citations/19930091981
+[research_nozaki_2023]: https://doi.org/10.1299/jsmermd.2023.2a1-d11
 [research_o_bryan_1961]: https://ntrs.nasa.gov/citations/20040008178
 [research_ostheimer_giguere_1963]: https://doi.org/10.21236/ad0402379
 [research_ostowari_naik_1986]: https://ntrs.nasa.gov/citations/19860041891
+[research_page_2026]: https://doi.org/10.3397/nc_2026_0192
+[research_pan_2026]: https://doi.org/10.1016/j.ast.2026.112250
+[research_park_2023]: https://doi.org/10.5139/jksas.2023.51.7.497
+[research_park_2026]: https://doi.org/10.5139/jksas.2026.54.3.329
+[research_park_kim_2026]: https://doi.org/10.1080/0305215x.2025.2602679
+[research_park_park_2026]: https://doi.org/10.1016/j.ast.2025.110745
 [research_parker_1972]: https://doi.org/10.21236/ad0751463
+[research_pascioni_2026]: https://doi.org/10.2514/1.c038487
+[research_patience_nahon_2024]: https://doi.org/10.32388/wg08lv.2
 [research_pauer_2018]: https://ntrs.nasa.gov/citations/20180007130
 [research_payne_1958]: https://doi.org/10.1108/eb032941
 [research_perisho_1959]: https://doi.org/10.4050/jahs.4.2.4
@@ -853,13 +1071,16 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_purser_spear_1946]: https://ntrs.nasa.gov/citations/19930081810
 [research_purser_spear_1947]: https://ntrs.nasa.gov/citations/19930082127
 [research_putman_1961]: https://doi.org/10.21236/ad0270217
+[research_qiao_zhou_2026]: https://doi.org/10.1016/j.ast.2025.110825
 [research_qin_2017]: https://doi.org/10.1016/j.ast.2017.06.012
+[research_qin_2026]: https://doi.org/10.1142/s021812662642017x
 [research_queijo_1953]: https://ntrs.nasa.gov/citations/20050080793
 [research_quigley_koenig_1961]: https://ntrs.nasa.gov/citations/20030004848
 [research_ramasamy_2015]: https://doi.org/10.4050/jahs.60.032005
 [research_rangwalla_wilson_1987]: https://ntrs.nasa.gov/citations/19870063073
 [research_reader_1980]: https://doi.org/10.21236/ada080953
 [research_reeder_1958]: https://doi.org/10.4050/jahs.3.4
+[research_ren_2024]: https://doi.org/10.1016/j.mechatronics.2024.103266
 [research_renselaer_1975]: https://ntrs.nasa.gov/citations/19750034271
 [research_ribner_1943]: https://ntrs.nasa.gov/citations/19930093307
 [research_ribner_1943_2]: https://ntrs.nasa.gov/citations/19930093304
@@ -867,29 +1088,47 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_ribner_1945]: https://ntrs.nasa.gov/citations/19930091896
 [research_ribner_1945_2]: https://ntrs.nasa.gov/citations/19930091897
 [research_rizk_1980]: https://ntrs.nasa.gov/citations/19800038563
+[research_rizzi_2026]: https://doi.org/10.2514/1.c038188
 [research_rolls_1965]: https://ntrs.nasa.gov/citations/19660013004
+[research_ruggia_2025]: https://doi.org/10.1016/j.robot.2025.105176
 [research_rumph_1942]: https://doi.org/10.2514/8.10936
 [research_saari_sorin_1946]: https://ntrs.nasa.gov/citations/20030065899
+[research_saetti_2025]: https://doi.org/10.4050/jahs.70.032005
+[research_sakai_abiko_2020]: https://doi.org/10.1299/jsmermd.2020.2a2-b01
 [research_sambell_1976]: https://ntrs.nasa.gov/citations/19760015087
+[research_sastre_2025]: https://doi.org/10.1108/hff-11-2024-0855
 [research_savage_lewicki_1991]: https://ntrs.nasa.gov/citations/19910021219
 [research_schuldenfrei_1944]: https://ntrs.nasa.gov/citations/19930092564
+[research_schweiger_preis_2022]: https://doi.org/10.3390/drones6070179
+[research_setiawarman_sasongko_2026]: https://doi.org/10.1142/s2737480726400078
+[research_shang_2025]: https://doi.org/10.1049/pel2.70134
+[research_shao_2025]: https://doi.org/10.3390/aerospace12100859
+[research_shen_2026_2]: https://doi.org/10.1016/j.compfluid.2026.107153
+[research_shimizu_miwa_2019]: https://doi.org/10.1299/jsmermd.2019.1p2-o04
+[research_shubert_2026]: https://doi.org/10.4050/jahs.71.042008
 [research_slaughter_1958]: https://doi.org/10.4050/jahs.3.9
 [research_sleeman_1953]: https://ntrs.nasa.gov/citations/20050028463
 [research_sleeman_1957]: https://ntrs.nasa.gov/citations/20050019253
 [research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
 [research_smith_1959]: https://ntrs.nasa.gov/citations/19980228302
 [research_smith_1977]: https://doi.org/10.21236/ada069198
+[research_spadao_2026]: https://doi.org/10.3390/dynamics6020021
 [research_spreemann_kuhn_1956]: https://ntrs.nasa.gov/citations/19930084788
 [research_stack_1950]: https://ntrs.nasa.gov/citations/19930092056
 [research_stech_1977]: https://doi.org/10.21236/ada036035
 [research_stepniewski_1957]: https://doi.org/10.1017/s2753447200003528
+[research_stokkermans_veldhuis_2021]: https://doi.org/10.2514/1.j059509
+[research_strampe_klingauf_2026]: https://doi.org/10.2514/1.g009745
 [research_strand_levinsky_1969]: https://doi.org/10.21236/ad0698355
+[research_suo_2026]: https://doi.org/10.1002/eng2.70658
+[research_takacs_haidegger_2022]: https://doi.org/10.3390/buildings12060747
 [research_takallu_lessard_1991]: https://ntrs.nasa.gov/citations/19910057112
 [research_talbot_1994]: https://ntrs.nasa.gov/citations/20010123403
 [research_tapscott_1960]: https://ntrs.nasa.gov/citations/19630004822
 [research_tapscott_1960_2]: https://ntrs.nasa.gov/citations/20150018614
 [research_taylor_1942]: https://doi.org/10.1108/eb030921
 [research_thoren_johnson_1940]: https://doi.org/10.2514/8.1190
+[research_tinney_valdez_2026]: https://doi.org/10.1121/10.0042016
 [research_tosti_1962]: https://ntrs.nasa.gov/citations/19620003850
 [research_townsend_1976]: https://ntrs.nasa.gov/citations/19760008977
 [research_trenka_1967]: https://doi.org/10.21236/ad0661087
@@ -898,6 +1137,11 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_velkoff_1981]: https://ntrs.nasa.gov/citations/19820010285
 [research_vidal_1960]: https://doi.org/10.21236/ad0246522
 [research_vollo_brassaw_1956]: https://doi.org/10.21236/ad0102193
+[research_voropayev_2026]: https://doi.org/10.1177/1475472x261419081
+[research_wang_2019_2]: https://doi.org/10.3390/app9224937
+[research_wang_2022_2]: https://doi.org/10.1016/j.ast.2021.107245
+[research_wang_2025]: https://doi.org/10.3390/drones9080537
+[research_wang_2026]: https://doi.org/10.2514/1.g009139
 [research_warsett_1953]: https://doi.org/10.21236/ad0015981
 [research_watts_1947]: https://doi.org/10.1126/science.105.2735.583
 [research_watts_biggers_1972]: https://doi.org/10.4050/sm_vstol_1972-3031
@@ -910,8 +1154,27 @@ The conclusion that does not survive is the one the marketing rested on. The rad
 [research_winston_1975]: https://doi.org/10.2514/6.1975-1215
 [research_winston_huston_1962]: https://ntrs.nasa.gov/citations/19630000659
 [research_wood_woodward_1944]: https://doi.org/10.4271/440036
+[research_xiang_2025]: https://doi.org/10.3390/drones9080522
+[research_xue_2026_2]: https://doi.org/10.1007/s42401-026-00523-9
 [research_yamauchi_johnson_1994]: https://ntrs.nasa.gov/citations/19970001814
+[research_yan_2025]: https://doi.org/10.1049/icp.2024.2894
+[research_yan_shi_2025]: https://doi.org/10.56028/aetr.14.1.1702.2025
+[research_yanev_staack_2026]: https://doi.org/10.3390/aerospace13070566
+[research_yang_2025]: https://doi.org/10.1088/1742-6596/3126/1/012052
+[research_yang_2025_2]: https://doi.org/10.54097/hhzrf702
+[research_yang_2025_3]: https://doi.org/10.1088/1361-6501/adb98a
+[research_yi_2026]: https://doi.org/10.61173/pevv1749
+[research_yu_2025]: https://doi.org/10.3390/aerospace12040355
+[research_yu_2026]: https://doi.org/10.1115/1.4071704
+[research_zanotti_2024_2]: https://doi.org/10.1016/j.ast.2024.109017
+[research_zhang_2026_3]: https://doi.org/10.1016/j.cja.2026.104268
+[research_zhang_hwang_2025]: https://doi.org/10.3390/systems13070607
+[research_zhang_zhou_2024]: https://doi.org/10.1088/1742-6596/2820/1/012041
 [research_zhao_2014]: https://doi.org/10.2514/1.c032570
+[research_zhao_2024_3]: https://doi.org/10.1109/taes.2023.3333763
+[research_zhao_2025_3]: https://doi.org/10.3390/drones9090621
+[research_zhou_2022]: https://doi.org/10.26855/ea.2022.12.003
+[research_zhu_2025]: https://doi.org/10.3390/machines13121130
 
 ### Related Post
 

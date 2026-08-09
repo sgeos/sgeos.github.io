@@ -23,9 +23,22 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 72.
 
 514 lines, 33 display equations, 79 references, 6,601 words after the draft pass; 688 lines, 78 display
-equations, 79 references, 7,239 words after the equation review; **937 lines, 78 display equations, 274
-references, 9,408 words after the primary-reference review.** Three of four passes complete. Committed,
-not pushed. Not published.
+equations, 79 references, 7,239 words after the equation review; 937 lines, 78 display equations, 274
+references, 9,408 words after the primary-reference review; **1,200 lines, 78 display equations, 431
+references, 11,792 words after the publication review.** All four passes complete. Committed and pushed.
+Not published.
+
+**A section was missing from the article entirely.** The genre carries three extras beyond the standard
+twelve and this article was drafted with only two, `## The Contemporary Literature` being absent from the
+draft pass onward while every automated check passed it, because sections were counted rather than
+identified. `check.py` now names the three required extras. Three acronyms were also used before
+expansion, which is the A298 defect recurring.
+
+**The survey's organising claim is the opposite of A315's.** That article closed on a keystone dissolved
+by distributed electric propulsion. The X-19's keystone was never wrong and never went away. What changed
+is the failure mode, and it was abolished rather than improved, because electric propulsion removes the
+requirement for an interconnected transmission instead of making gearboxes better. Contemporary coverage
+is 157 of 399 research citations, or 39.3 percent.
 
 **The coverage audit found BOTH kinds of gap at once, which has not happened before in this series.** Five
 topics were genuinely thin because the draft harvest was never aimed at them, and all five carry relations
