@@ -11,14 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `551b0e7`
-- **Written**: 2026-08-09
+- **Parent commit** (the repository state this handoff describes): `2631729`
+- **Written**: 2026-08-10
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Twenty-seven of seventy-two articles drafted, all
+- **Context**: the X-Planes series is IN PROGRESS. **Twenty-nine of seventy-two articles drafted, all
   four passes complete on each. None published.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
-and 147 commits took new identifiers. Anything older than this handoff will not resolve.
+and 147 commits took new identifiers. Anything older than that will not resolve.
 
 **Validate before trusting.** Compare the recorded **Parent commit** to `git rev-parse HEAD~1`. Because
 this handoff file is itself committed, its commit becomes the branch tip and its parent is the state
@@ -33,37 +33,32 @@ described.
 
 ---
 
-## Resume prompt — the next prompt will be "Please draft A324, 'X-Planes: Lockheed X-27.'"
+## Resume prompt, and the next prompt will be "Please draft A326, 'X-Planes: Grumman X-29.'"
 
-**Nothing is outstanding.** A323 finished all four passes, is committed and pushed, its deploy
-succeeded, and the article returns 404 while the site root returns 200, which is correct because
-nothing in the series is published. There is no half-finished pass to pick up.
+**Nothing is outstanding.** A325 finished all four passes, is committed and pushed, and both it and A324
+return 404 while the site root returns 200, which is correct because nothing in the series is published.
+There is no half-finished pass to pick up.
 
-**One change since A323 touches seventeen of the drafts and is already done.** Their reference blocks
-held only `[anchor]: url` link definitions, which render as nothing, so the References section came out
-as empty headings. **Every draft now carries a visible `- [text][anchor]` list beside the definitions**,
-which is the corpus convention and what `_verify.py` now enforces. All twenty-seven build together with
-rendering reference lists and no accidental tables. **Do not regenerate those blocks by hand**, use
-`_lib/refs.py` `emit_blocks`, which takes the display text.
+**Wait for the pilot's prompt. Do not begin A326 unprompted.**
 
-**Wait for the pilot's prompt. Do not begin A324 unprompted.**
+**A326 BREAKS THE PATTERN OF THE LAST FOUR AND THAT IS THE THING TO NOTICE FIRST.** Editorial date
+2025-11-04, Part 30 of 72. The Grumman X-29 was **built from nothing to answer a question that could not
+be answered any other way**, namely whether forward-swept-wing aeroelastic divergence can be controlled
+rather than avoided. **It is the first purpose-built research aeroplane in the series since the X-24**,
+and it is a full-order article without argument.
 
-**A324 IS A DESIGNATION ANOMALY AND THE CLASS QUESTION MUST BE SETTLED EARLY.** Editorial date
-2025-11-02, Part 28 of 72. The Lockheed X-27 was the **CL-1200 Lancer**, a company-funded F-104
-derivative offered for export. **It was never built and never flew.** A mock-up existed. There is no
-flight record, no measurement, and no test report, so the article has no keystone in the usual sense.
+**It is also the best-documented subject the series has had in a long while.** Two aircraft were built,
+they flew 242 and 120 sorties, NASA Dryden published extensively, and NTRS will return a great deal
+under the vehicle's own name. **That reverses the method of the last two articles**, which had to harvest
+the physics because the vehicle returned nothing. Check before assuming either way.
 
-**The genre document's designation-anomaly class is 40 to 150 lines with no keystone.** A320 set the
-precedent for treating an anomaly at full length **because the SV-5D actually flew and returned a
-measurement**. **Here no vehicle existed at all, which is the other side of that precedent**, and the
-honest default is the short class unless the design record turns out to support more. Establish that
-before writing rather than after.
+**The keystone is not the forward sweep on its own.** Divergence was understood; what was new was the
+claim that active control could hold a statically unstable, aeroelastically divergent configuration.
+The aircraft is about **35 percent unstable** and depends on a triplex digital flight control system at
+40 hertz. **The binding question is the control law and the structure together**, not the planform.
 
-**The interesting question is not aerodynamic.** It is why a manufacturer paid for an X-designation
-for an export fighter, and what that says about what the designation had come to mean by 1971. **That
-belongs with the evidence the closing article assembles**, and it now has company: A322 and A323 were
-both off-the-shelf civil aircraft bought for properties they already had. **A324 would be the third
-consecutive designation that did not go to a research aeroplane.**
+**Four consecutive designations did not go to purpose-built research aircraft**, being X-25, X-26, X-27
+and X-28. **A326 ends that run**, and the ending is itself evidence for the closing article. Say so.
 
 ---
 
@@ -72,16 +67,15 @@ consecutive designation that did not go to a research aeroplane.**
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16, covering
 every X-designation from X-1 through X-76.
 
-**Twenty-seven complete**, A297 through A323, all four passes each, all in `_drafts/`, **none
-published**.
+**Twenty-nine complete**, A297 through A325, all four passes each, all in `_drafts/`, **none published**.
 
 | Article | Aircraft | Final state |
 |---|---|---|
-| A319 | Bell X-22 | 1,891 lines, 25 eq, 1,472 refs |
-| A320 | Martin Marietta X-23 PRIME | 4,088 lines, 72 eq, 3,403 refs |
 | A321 | Martin Marietta X-24 | 3,684 lines, 53 eq, 3,144 refs |
 | A322 | Bensen X-25 | 7,198 lines, 44 eq, 3,990 refs |
 | A323 | Schweizer X-26 Frigate | 6,636 lines, 35 eq, 3,630 refs |
+| A324 | Lockheed X-27 | 9,895 lines, 77 eq, 2,803 refs |
+| A325 | Osprey X-28 Sea Skimmer | 7,136 lines, 42 eq, 2,089 refs |
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -120,6 +114,40 @@ band.
 
 ### On the analysis
 
+**A DISCREPANCY NEAR AN ORDER OF MAGNITUDE IS A HINT THAT THE CHECKER IS AT FAULT, exactly as a
+suspiciously clean factor is.** A324's Breguet carried a spurious factor of g and produced a combat
+radius of 27 nautical miles against a claimed 367. That looked like a devastating finding about the
+brochure and was a defect in the checker. **Corrected, the claim survives.**
+
+**A TOLERANCE WIDER THAN THE QUANTITY IT CHECKS IS NOT A CHECK.** A324's specific-excess-power peak was
+computed on a four-point grid and reported 1.5 percent low. The verifier passed it because its tolerance
+on that value was three percent. **Set the tolerance from the quantity's own sensitivity, not from
+habit.**
+
+**A CHECKER THAT CAN PRINT FREE ENERGY IS NOT CHECKING.** A324's cone search ran to its bound and
+returned a total-pressure recovery of 1.227. Guard the physically impossible explicitly rather than
+trusting the search to stay inside it.
+
+**THE ARITHMETIC CAN BE RIGHT AND THE PREMISE WRONG, AND THAT IS THE COMMONER FAILURE.** A324 converted
+maximum CORRECTED airflow to physical flow at Mach 2.6 and got three times the sea-level rating. A325's
+climb inversion returned a zero-lift drag of 0.0050, a quarter of a clean sailplane's. **In both cases
+nothing was wrong with the algebra.** Ask which input is not what the table says it is.
+
+**WHEN TWO PUBLISHED FIGURES CAN BE CONNECTED BY GEOMETRY NEITHER WAS DERIVED FROM, DO IT.** A324's
+strongest result reconciles four inches of quoted spike travel with 260 pounds per second of quoted
+airflow through a cone angle nobody published, to 4.2 percent. **That is the closest an aeroplane which
+never existed can come to leaving a measurement behind.**
+
+**AN INEQUALITY CAN BE BACKWARDS AND STILL LOOK CONSERVATIVE.** A325's sweep-width function returned more
+than twice the sighting range and was described in its own docstring as conservative. Sweep width is the
+integral of the lateral-range curve and **can never exceed twice the definite range**. Check the
+direction of every bound, not only its presence.
+
+**A COMPARISON THAT GIVES EVERY CANDIDATE THE SAME SENSOR IS NOT A COMPARISON.** A325 first gave a P-3C
+and an X-28A the same sweep width, which flattered the small aircraft enormously. **The conclusion
+survived a fair comparison and the first version did not deserve to.**
+
+
 **Write the relation down.** This has now caught a wrong claim in eighteen articles.
 
 **A CLEAN FACTOR IS A HINT THAT THE CHECKER IS AT FAULT, AND IT FIRED AGAIN IN A323.** A scaling law
@@ -157,6 +185,39 @@ negative rather than dropped.
 a statement rather than a gap.
 
 ### On harvesting and selection
+
+**AN EQUATION PASS PROMOTES SUBJECTS AND THE REFERENCE BASE MUST FOLLOW. THIS IS NOW EIGHT ARTICLES
+RUNNING AND IT HAS A NEW CAUSE.** In A324 and A325 the promoted subjects were not merely thin, they were
+**being discarded entirely as "no cluster"**, because no cluster existed for them when the first harvest
+was written. **That is the thin-heading rule arriving from the opposite direction**: a heading so thin it
+does not exist, over a subject the pool partly holds.
+
+**A CLUSTER PLACED AFTER A BROADER ONE NEVER SEES ITS OWN RECORDS**, because the matcher returns the
+first match. Both A324 and A325 hit this, and A325 hit it twice, the second time created by the fix for
+the first. **Put specific clusters first, and re-check the counts after any broadening.**
+
+**WIDENING AN ANCHOR LIST HAS A PRICE AND IT ARRIVES IMMEDIATELY.** A324 admitted `propulsive` to rescue
+"Propulsive efficiency from an energy utilization standpoint" and admitted "the propulsive efficiency of
+single-screw supertankers" in the same run. **Pay it at the moment of widening rather than in the URL
+sweep.**
+
+**A FILTER EARNED IN ONE ARTICLE IS NOT AUTOMATICALLY VALID IN THE NEXT, AND A325 WITHDREW ONE
+DELIBERATELY.** A324 filtered the ship hull as marine noise. For a flying boat the ship hull is the same
+physics and is adjacent rather than noise. **Read the inherited filters before carrying them forward.**
+
+**PROXIMITY REQUIREMENTS IN CLUSTER PATTERNS ARE A TRAP.** A325 required "flying boat" within forty
+characters of "hydrodynamic" and rejected 86 NACA tank tests whose titles put the two ends ninety
+characters apart. **The anchor gate has already established the record is on-subject; the cluster test
+does not need to re-establish it.**
+
+**PLURALS FAIL SILENTLY.** A324's cluster patterns missed "Diffusers" and "area rules". Same class as the
+word-boundary bugs of the three articles before it.
+
+**REPORT A GENUINELY THIN SUBJECT RATHER THAN PADDING IT, AND SAY WHERE THE WORK ACTUALLY LIVES.** A324
+found thirteen records for ram drag and seven for energy height in 6,518 harvested. **The subjects are
+not thin, the headings are**: ram-drag bookkeeping lives inside inlet additive-drag papers, energy height
+inside trajectory optimisation.
+
 
 **THE KEYSTONE CLUSTER HAS NOW BEEN THIN FIVE ARTICLES RUNNING. THIS IS THE MOST RELIABLE RULE IN THE
 SERIES.** A319 ducted fans, A320 crossrange at 8 records, A321 unpowered landing at 12, A322
@@ -278,6 +339,13 @@ caught, but the general lesson stands: **read the rendered output.**
 paragraph whose first line contains a pipe as a table, so `$|S| = 39$` opening a paragraph shreds the
 math across table cells. **Write `\lvert S \rvert`.** `_verify.py` warns on it as `math-pipe-table`.
 
+**MATCH STRINGS CARRY PRE-REFLOW LINE BREAKS AND WILL NOT MATCH AFTER A REFLOW.** Use
+`_lib/edits.match_ws`, which exists for exactly this and which A324 forgot to use on its first attempt.
+
+**AN EDIT APPLIED AFTER REFLOW LEAVES BOLD SPANS CROSSING LINE BREAKS.** Reflow again, and run the lint
+on the text that will ship rather than on the text before wrapping. A324 reported 122 bold-span
+conventions that reflow was about to fix.
+
 **READ THE GENERATED BODY AND THE RENDERED EQUATIONS.** Every article has produced at least one defect
 that only reading found: mangled LaTeX, link text truncated mid-word, duplicated equations, symbol
 collisions.
@@ -315,7 +383,7 @@ describing each module: `fetch` for archive queries, `refs` for anchors and the 
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
 `python3 _lib/test_lib.py`, which should report 44 of 44. `_research/rejected.json` holds 721 accumulated
-sweep judgements, reused through `_research/homonyms.py`.
+sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
 queries, cluster definitions and edit text. **Repoint every path** when copying a previous article's
@@ -341,16 +409,16 @@ and the edit payloads. These are the article's argument and do not belong in `_l
 
 ### The Endpoints, Also Documented Here Because They Are Easy to Get Wrong
 
-- **NTRS search** — `https://ntrs.nasa.gov/api/citations/search?q=<terms>`, detail at
+- **NTRS search**, `https://ntrs.nasa.gov/api/citations/search?q=<terms>`, detail at
   `https://ntrs.nasa.gov/api/citations/<id>`. **Cite `https://ntrs.nasa.gov/citations/<id>`.** Caps at
   ten and is phrasing sensitive, so **many narrow period queries beat few broad ones**. Authors are a
   dict under `authorAffiliations`; the year is in `publications[0].publicationDate`. Full text at
   `/api/citations/<id>/downloads/<id>.pdf`, and `pdftotext` works on it.
-- **DTIC** — through Crossref with `filter=prefix:10.21236`. Cite `https://doi.org/<doi>`. **DTIC DOIs
+- **DTIC**, through Crossref with `filter=prefix:10.21236`. Cite `https://doi.org/<doi>`. **DTIC DOIs
   land on `www.dtic.mil`, which refuses automated connections, so verify through the Crossref
   registry**, which is strictly stronger than an HTTP 200.
-- **OSTI** — **not worth using for this subject.**
-- **Crossref** — `https://api.crossref.org/works?query.bibliographic=<terms>` with
+- **OSTI**, **not worth using for this subject.**
+- **Crossref**, `https://api.crossref.org/works?query.bibliographic=<terms>` with
   `filter=from-pub-date:...,until-pub-date:...,type:journal-article`. `container-title` is the venue the
   selector filters on. Use a polite-pool `mailto`.
 
@@ -374,9 +442,9 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-**Categories — SETTLED and not to be revisited.** `aerospace history engineering`.
+**Categories, SETTLED and not to be revisited.** `aerospace history engineering`.
 
-**The genre bands — SETTLED on 2026-08-09 and not to be revisited.**
+**The genre bands, SETTLED on 2026-08-09 and not to be revisited.**
 `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` was amended on the pilot's instruction to describe what
 the series actually does. The old bands, drawn from the History of SpaceX medians, matched no recent
 article. **The document now carries measured figures across all twenty-seven drafts**, records that the
@@ -384,7 +452,7 @@ class table is about SECTION ORDER rather than size, and states the comprehensiv
 explicitly. **Exceeding any figure in it is not a defect and requires no justification. Padding toward
 one is forbidden.** Report the counts, do not target them.
 
-**A305 length — SETTLED on 2026-08-09 and not to be revisited.** The pilot has directed that **the
+**A305 length, SETTLED on 2026-08-09 and not to be revisited.** The pilot has directed that **the
 goal is for these articles to be as comprehensive as possible and that doing more is not a problem**,
 and has instructed that A305 be left as it stands. The offered cut is **withdrawn**, not pending.
 
@@ -414,7 +482,7 @@ had come to mean** and belongs in the closing article.
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**twenty-seven deep**, A323 back to A297, so these articles publish in order or together. **Links to
+**twenty-nine deep**, A325 back to A297, so these articles publish in order or together. **Links to
 other series are necessarily forward-dated** and that is not a defect.
 
 **Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
@@ -436,6 +504,11 @@ Prediction, The Contemporary Literature, and The Source Base, the last immediate
 State. `check_any.py` enforces all three and exempts the series opener.
 
 **Density conventions are absolute counts, not ratios.**
+
+**THE COUNT-VERSUS-FRACTION TRAP RUNS IN BOTH DIRECTIONS AND A325 WAS CAUGHT BY BOTH ENDS.** Adding a
+contemporary survey holds the period COUNT and drops its fraction; adding period sources holds the
+contemporary COUNT and drops its fraction. **Neither movement is a fact about coverage. Both are facts
+about the denominator.** Give the count and the fraction together, every time, and say which one moved.
 
 **REPORT THE COUNT AS WELL AS THE FRACTION.** Adding a contemporary survey lowers the period *fraction*
 while leaving the period *count* unchanged, and saying only the fraction reads as a regression when it
@@ -536,18 +609,31 @@ reproduced here so it survives a clean checkout.
 Short articles by design, and the evidence for the closing article. The designation system is not a
 counter.
 
-- **X-23** — attributed to the Martin Marietta SV-5D PRIME, but USAF nomenclature records reportedly
-  show X-23A was never assigned. State the conflict, do not resolve it.
-- **X-39** — reserved 23 April 1997 for the AFRL Future Aircraft Technology Enhancements programme;
+**X-23 and X-27 ARE NOW WRITTEN. The rest remain ahead.**
+
+- **X-23**, attributed to the Martin Marietta SV-5D PRIME, but USAF nomenclature records reportedly
+  show X-23A was never assigned. State the conflict, do not resolve it. **Written at full length in
+  A320, because the SV-5D flew and returned a measurement.**
+- **X-27**, never built, mock-up only. **Written at full length in A324, against the previous handoff's
+  prediction of the short class**, because the design record carries complete geometry, weights and
+  engine ratings, and the parent F-104 flew for thirty years and anchors the derivative's claims. **The
+  class test is whether there is a keystone to dimension systems against, not whether anything flew.**
+- **X-39**, reserved 23 April 1997 for the AFRL Future Aircraft Technology Enhancements programme;
   no written allocation request followed.
-- **X-41** — still-classified vehicle in the DARPA FALCON programme. No specifications released.
-- **X-42** — sources disagree, one calling it an expendable upper stage and another a spaceplane test
+- **X-41**, still-classified vehicle in the DARPA FALCON programme. No specifications released.
+- **X-42**, sources disagree, one calling it an expendable upper stage and another a spaceplane test
   vehicle. No dedicated treatment exists anywhere.
-- **X-44** — two different aircraft, the Lockheed Martin MANTA and a separate unmanned programme.
-- **X-52** — requested 2006, refused over possible confusion with the B-52. The programme became X-53.
-- **X-58** — skipped; slot consumed by the Kratos XQ-58 Valkyrie.
-- **X-67** — skipped; slot consumed by the General Atomics XQ-67A.
-- **X-69 to X-75** — unassigned and leapfrogged.
+- **X-44**, two different aircraft, the Lockheed Martin MANTA and a separate unmanned programme.
+- **X-52**, requested 2006, refused over possible confusion with the B-52. The programme became X-53.
+- **X-58**, skipped, with the slot consumed by the Kratos XQ-58 Valkyrie.
+- **X-67**, skipped, with the slot consumed by the General Atomics XQ-67A.
+- **X-69 to X-75**, unassigned and leapfrogged.
+
+**THE FINDING THAT HAS ACCUMULATED ACROSS FOUR ARTICLES AND BELONGS IN THE CLOSER.** X-25, X-26, X-27
+and X-28 are **four consecutive designations that did not go to a purpose-built research aeroplane**.
+Three were aircraft that already existed and were bought for properties they already had, and the fourth
+did not exist at all. **The X-28A is the clearest case**, since the Navy watched a man demonstrate his
+own aeroplane and wrote him a cheque. **A326 ends the run**, and that ending is itself evidence.
 
 X-58 and X-67 were lost to the **parallel XQ- unmanned series drawing from the same numeric pool**,
 which is a genuine finding about how the system evolved and belongs in the closer.
